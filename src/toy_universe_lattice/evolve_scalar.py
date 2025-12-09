@@ -22,6 +22,9 @@ class ScalarToyUniverse:
         self.phi = np.zeros(self.lat.shape, dtype=np.complex128)
         self.phi_dot = np.zeros_like(self.phi)
 
+        # Diagnostics: how often a constraint is applied
+        self.constraint_hits = 0
+
     def set_initial_conditions(self, phi0, phi_dot0=None):
         self.phi = np.array(phi0, dtype=np.complex128)
         if phi_dot0 is not None:

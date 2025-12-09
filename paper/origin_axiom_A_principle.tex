@@ -1,0 +1,293 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{physics}
+
+\title{The Origin Axiom:\\
+A Non-Cancelling Principle for Physical Configuration Space}
+\author{Drit\"ero Mehmetaj}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper motivates and formulates the \emph{Origin Axiom}, a proposed
+structural constraint on the configuration space of the universe. The basic
+intuition is that absolute nothingness---a state with no fields, no degrees
+of freedom and no possibility of change---is not a coherent element of
+physical reality. More generally, global configurations that cancel in such a
+way as to be indistinguishable from nothing should not be dynamically
+realised.
+
+We express this idea in terms of global complex amplitudes \(A(C)\) assigned
+to configurations \(C\), and propose the Origin Axiom as the requirement that
+physically realised configurations avoid a small neighbourhood of a special
+value \(A_\ast\). In the simplest case \(A_\ast = 0\), this excludes
+states with perfect global cancellation. The axiom is agnostic about the
+microscopic details of fields and interactions; it is intended as an extra
+structural layer atop otherwise standard dynamics.
+
+The present paper is conceptual and programmatic. We:
+(i) analyse the incoherence of absolute nothingness and the ubiquity of
+cancellation in physics;
+(ii) define a general framework for global amplitudes and the associated
+non--cancelling rule;
+(iii) discuss consistency requirements with known physics; and
+(iv) outline concrete realisations in simple toy models.
+Companion work implements the axiom in a minimal scalar toy universe and
+studies the behaviour of global non--cancelling constraints in explicit
+simulations.
+\end{abstract}
+
+\section{Motivation: why absolute nothingness is unstable}
+
+Attempts to imagine ``nothing'' often smuggle in more structure than they
+intend: an empty space, a dark void, a blank state. All of these already
+assume the existence of a background stage with geometric and causal
+properties. By contrast, \emph{absolute nothingness} would have to be a state
+without space, time, laws, fields or even potentiality. It is not clear that
+such an object can be coherently described.
+
+Even if one could write down a candidate ``nothing'' configuration, treating
+it as a member of configuration space immediately promotes it to
+\emph{something}---an element that can be compared with others and assigned
+probabilities. This suggests a tension: the very act of including absolute
+nothingness as a possible state undermines its intended role.
+
+We take a strong stance:
+
+\medskip
+\noindent
+\textbf{Principle.} \emph{Absolute nothingness is not a coherent member of
+physical configuration space; existence in some form is the default.}
+
+\medskip
+
+This principle does not tell us which specific universe is realised, but it
+rules out the idea that the universe could ever evolve to or from a
+state that is in every sense ``no universe at all''. The Origin Axiom builds
+on this by sharpening what is meant by ``nothingness'' in terms of global
+cancellations.
+
+\section{Cancellation systems and global neutrality}
+
+Many familiar physical systems exhibit cancellations:
+\begin{itemize}
+  \item electric charge neutrality in macroscopic matter,
+  \item destructive interference of waves,
+  \item cancellation of positive and negative contributions in path integrals,
+  \item gravitationally bound systems with zero total momentum.
+\end{itemize}
+These are examples of what we call \emph{cancellation systems}: arrangements
+in which local degrees of freedom are nontrivial, but some global quantity
+(e.g.\ total charge, total field amplitude) vanishes.
+
+In conventional treatments, global neutrality is often benign. A neutral atom
+is not ``nothing''; it still has nonzero energy, structure and dynamics.
+However, certain theoretical constructions---especially in quantum field
+theory and cosmology---lean heavily on the idea that vacuum contributions
+might cancel ``exactly enough'' to leave no trace. For example, naive
+estimates of vacuum energy can exceed observed values by many orders of
+magnitude, and one sometimes appeals to cancellations between sectors.
+
+The Origin Axiom does \emph{not} deny ordinary neutrality. Instead, it singles
+out a stricter notion of \emph{global cancellation} in terms of a chosen
+complex amplitude \(A(C)\). When \(A(C)\) vanishes exactly, or lies in a
+sufficiently small neighbourhood of a distinguished point \(A_\ast\), the
+configuration is regarded as suspect: it is too close to the forbidden
+``nothing'' state.
+
+The key hypothesis is that there exists at least one such global amplitude
+whose near--vanishing is structurally forbidden, in the same sense that some
+systems forbid certain topological configurations.
+
+\section{Global amplitudes and configuration space}
+
+Let \(\mathcal{C}\) denote the configuration space of some class of physical
+systems, for instance the set of field configurations on a Cauchy surface.
+A \emph{global amplitude} is a complex--valued functional
+\begin{equation}
+  A : \mathcal{C} \to \mathbb{C}
+\end{equation}
+with the following properties:
+\begin{itemize}
+  \item \textbf{Linearity or quasi--linearity.} For many examples, \(A\) is
+  linear in the fields, e.g.\ an integral or sum of a local function.
+  More general quasi--linear forms are also possible.
+  \item \textbf{Sensitivity to cancellation.} When local degrees of freedom
+  arrange themselves into symmetric or antisymmetric patterns, the resulting
+  contributions to \(A\) can cancel.
+  \item \textbf{Globality.} \(A\) is not a local density; it depends on the
+  configuration as a whole and cannot be inferred from any finite patch.
+\end{itemize}
+
+The simplest example, used in our toy models, is the volume sum of a complex
+scalar field:
+\begin{equation}
+  A(C) = \sum_{\mathbf{n}} \Phi_{\mathbf{n}},
+\end{equation}
+which vanishes when the field configuration is perfectly balanced between
+positive and negative contributions.
+
+In general, we allow for a family of possible amplitudes, some of which may
+be physically distinguished. We assume there exists at least one such
+functional \(A\) for which exact cancellation is forbidden by the Origin
+Axiom.
+
+\section{Statement of the Origin Axiom}
+
+We now formulate the axiom in abstract terms. Let \(\mathcal{C}\) be a
+configuration space and \(A:\mathcal{C}\to\mathbb{C}\) a chosen global
+amplitude. Let \(A_\ast\in\mathbb{C}\) denote a distinguished reference value,
+and let \(\epsilon>0\) be a small tolerance.
+
+\medskip
+\noindent
+\textbf{Origin Axiom (informal).} \emph{Physical reality does not realise
+configurations whose global amplitude \(A(C)\) lies in a forbidden
+neighbourhood of \(A_\ast\).}
+
+\medskip
+
+Formally, we define the forbidden region
+\begin{equation}
+  \mathcal{D}_\epsilon(A_\ast) =
+  \{ A\in\mathbb{C} \mid |A - A_\ast| < \epsilon \}.
+\end{equation}
+The Origin Axiom then asserts that the physically realised subset
+\(\mathcal{C}_{\text{phys}}\subseteq\mathcal{C}\) satisfies
+\begin{equation}
+  \forall C\in\mathcal{C}_{\text{phys}}:\quad
+  A(C) \notin \mathcal{D}_\epsilon(A_\ast).
+\end{equation}
+
+The simplest and most natural choice is \(A_\ast=0\), in which case
+configurations with perfect global cancellation of the chosen amplitude are
+excluded. The tolerance \(\epsilon\) expresses the idea that even extremely
+small neighbourhoods of the origin are structurally disfavoured.
+
+Several remarks are in order:
+\begin{itemize}
+  \item The axiom is intentionally agnostic about the microscopic dynamics.
+  Local equations of motion may be standard; the restriction acts at the
+  level of admissible global configurations.
+  \item The axiom is also compatible with other conservation laws. The
+  amplitude \(A\) need not be conserved; only its near--vanishing is forbidden.
+  \item The magnitude of \(\epsilon\) is not fixed here. In concrete models it
+  plays the role of a tunable scale of non--cancellation.
+\end{itemize}
+
+In companion work, the axiom is implemented by modifying the dynamics so that
+whenever the system attempts to enter \(\mathcal{D}_\epsilon(A_\ast)\), it is
+projected back to the boundary. This is a convenient numerical realisation;
+conceptually, the axiom is a statement about which configurations occur at
+all, not about how they are dynamically enforced.
+
+\section{Consistency with known physics}
+
+A structural rule that forbids certain global cancellations must be compatible
+with the wealth of empirical evidence for systems that are locally and
+globally neutral. We highlight a few consistency requirements.
+
+\subsection{Ordinary neutrality is allowed}
+
+Neutral atoms, neutral plasmas and globally neutral cosmologies must remain
+permitted. The Origin Axiom therefore cannot simply outlaw all configurations
+with vanishing conserved charges. Rather, it focuses on a particular global
+amplitude \(A\) which need not coincide with any familiar conserved quantity.
+
+For example, in the scalar toy universe the amplitude is the volume sum of a
+complex field. A neutral atom has zero net electric charge, but its
+corresponding scalar amplitude (if such a field exists) may be nonzero. The
+axiom leaves all ordinary neutral systems untouched as long as they are not
+exactly cancelling with respect to the selected amplitude.
+
+\subsection{Small but nonzero amplitudes}
+
+Observations suggest that many global quantities in our universe are small
+but not exactly zero. For instance, the cosmological constant is tiny but
+nonvanishing in natural units. The Origin Axiom naturally favours this sort
+of situation: global amplitudes are generically pushed away from exact zero
+into small but finite values. In concrete models, the parameter \(\epsilon\)
+can be thought of as setting such a non--cancellation scale.
+
+\subsection{Symmetry and gauge invariance}
+
+Any proposed amplitude \(A\) must respect relevant symmetries. For example,
+if a theory is invariant under gauge transformations or global phase
+rotations, the definition of \(A\) should either be gauge invariant or
+explicitly tied to a gauge--fixed description. In the toy models, we use a
+simple complex scalar with no gauge redundancy, so this issue does not arise.
+In more realistic theories, construction of a meaningful \(A\) would require
+care.
+
+\section{Toy models and concrete realisations}
+
+The abstract formulation above becomes more tangible in explicit models. The
+companion paper on the scalar toy universe studies a complex field on a
+discrete three--torus where the global amplitude is simply the lattice sum
+of the field values. There the axiom is implemented as a constraint
+\(|A|\ge\epsilon\), enforced dynamically as a projection step when needed.
+
+The main lessons from those simulations can be summarised as follows:
+\begin{itemize}
+  \item In both linear and nonlinear regimes, the constraint successfully
+  keeps the universe away from global cancellation. The typical amplitude
+  scale is set by \(\epsilon\).
+  \item The energy evolution of the system is largely insensitive to the
+  presence or absence of the constraint. This suggests that the axiom can be
+  treated as a structural selection rule rather than a new local interaction.
+  \item In simple one--dimensional twisted scalar models, the total vacuum
+  energy is independent of a global twist angle. These cases act as null
+  results, indicating that more structure is needed for global phase--like
+  parameters to have observable energetic consequences.
+\end{itemize}
+
+From the perspective of the Origin Axiom programme, these toy models play two
+roles. First, they test whether the non--cancelling rule can be implemented
+without leading to obvious instabilities or contradictions. Second, they
+provide a sandbox in which different choices of amplitude \(A\), reference
+value \(A_\ast\) and tolerance \(\epsilon\) can be explored systematically.
+
+\section{Outlook}
+
+The Origin Axiom is deliberately modest in its formal content: it does not
+specify a particular field content, interaction Lagrangian or cosmological
+history. Instead, it proposes that the set of physically realised
+configurations is a proper subset of the kinematically allowed ones,
+selected by the requirement that an appropriate global amplitude never
+vanishes.
+
+Several open questions and directions follow:
+
+\begin{itemize}
+  \item \textbf{Which amplitude?} Identifying physically natural candidates
+  for \(A\) in realistic field theories is a central task. Possibilities
+  include weighted integrals over fields, currents or curvature scalars.
+  \item \textbf{Relation to vacuum energy.} In what sense could a
+  non--cancelling constraint help explain why certain contributions to vacuum
+  energy do not cancel exactly? The toy models suggest qualitative parallels
+  but no quantitative prediction yet.
+  \item \textbf{Quantum formulation.} The present discussion is largely
+  classical or semiclassical. A full quantum version of the Origin Axiom
+  would require specifying how the forbidden region in amplitude space is
+  represented in Hilbert space or path integrals.
+  \item \textbf{Observational signatures.} Ultimately, the axiom is only
+  interesting if it leads to testable deviations from standard expectations.
+  Identifying such signatures---for instance, small residuals that cannot be
+  tuned away by conventional symmetries---is an important part of future
+  work.
+\end{itemize}
+
+In summary, the Origin Axiom is proposed as a structural principle: a simple
+but nontrivial restriction on the global structure of physical configuration
+space motivated by the incoherence of absolute nothingness. The scalar toy
+universe and related models show that such a rule can be implemented in
+concrete systems without immediate contradiction. Whether it plays a role in
+our actual universe remains an open and intriguing question.
+
+\end{document}
