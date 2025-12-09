@@ -32,3 +32,5 @@ paper/*.out
 paper/*.toc
 paper/*.synctex.gz
 paper/*.pdf
+.DS_Store
+*/.DS_Store
