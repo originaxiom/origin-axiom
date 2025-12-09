@@ -157,3 +157,60 @@ Interpretation:
 - The constraint behaves as intended: it forbids near-cancelling
   global configurations (|A| ≈ 0) while leaving the coarse-grained
   energy dynamics essentially unchanged, even when lambda != 0.
+
+## 2025-12-09 — Constraint activity scan in (epsilon, lambda)
+
+Model:
+- 3D complex scalar on a 16^3 periodic lattice.
+- Parameters: c = 1.0, m = 0.1, dt = 0.005, n_steps = 300.
+- Global amplitude A(t) = sum_n Phi_n(t).
+- Mean-subtracted random initial field (seed = 1234) so A(0) ≈ 0.
+- Origin Axiom constraint: hard circle |A - A_ref| >= epsilon with
+  A_ref = 0, theta_star = pi.
+
+Scan:
+- lambda ∈ {0.0 (linear), 1.0 (nonlinear)}.
+- epsilon ∈ {0.01, 0.03, 0.05, 0.10}.
+- For each (lambda, epsilon) we ran one constrained evolution and recorded:
+  - constraint_hits (how many steps triggered the projection),
+  - mean and final |A(t)|,
+  - mean and std of E(t).
+
+Summary table:
+
+- lambda = 0.0
+  - eps = 0.010: hits = 300, <|A|> = 9.97e-03, final |A| = 1.00e-02,
+    <E> = 2.478359 ± 9.06e-03
+  - eps = 0.030: hits = 300, <|A|> = 2.99e-02, final |A| = 3.00e-02,
+    <E> = 2.478359 ± 9.06e-03
+  - eps = 0.050: hits = 300, <|A|> = 4.98e-02, final |A| = 5.00e-02,
+    <E> = 2.478359 ± 9.06e-03
+  - eps = 0.100: hits = 300, <|A|> = 9.97e-02, final |A| = 1.00e-01,
+    <E> = 2.478359 ± 9.06e-03
+
+- lambda = 1.0
+  - eps = 0.010: hits = 164, <|A|> = 9.97e-03, final |A| = 1.00e-02,
+    <E> = 2.478440 ± 9.06e-03
+  - eps = 0.030: hits = 299, <|A|> = 2.99e-02, final |A| = 3.00e-02,
+    <E> = 2.478440 ± 9.06e-03
+  - eps = 0.050: hits = 300, <|A|> = 4.98e-02, final |A| = 5.00e-02,
+    <E> = 2.478440 ± 9.06e-03
+  - eps = 0.100: hits = 300, <|A|> = 9.97e-02, final |A| = 1.00e-01,
+    <E> = 2.478440 ± 9.06e-03
+
+Interpretation:
+- For both linear (lambda = 0) and nonlinear (lambda = 1) cases, the
+  Origin Axiom constraint successfully keeps the global amplitude near
+  the target |A| ≈ epsilon. The average and final |A| track epsilon
+  almost perfectly.
+- The total energy E(t) is remarkably insensitive to epsilon: both the
+  mean value and fluctuations are nearly identical across all epsilons
+  and between lambda = 0 and lambda = 1.
+- The main effect of changing epsilon is to set the global "offset"
+  of A(t), while lambda mainly changes how often the constraint fires
+  (notably: for lambda = 1 and epsilon = 0.01 we see fewer hits than
+  the total number of steps).
+- This supports the interpretation of the Origin Axiom as a structural
+  global selection rule that forbids exact cancellation (|A| ≈ 0)
+  without destabilizing the dynamics or significantly altering the
+  coarse-grained energy evolution.
