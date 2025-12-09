@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Mehmetaj"
+    given-names: "Dritëro"
+title: "The Origin Axiom: Non-Cancelling Existence and a θ*-Agnostic Scalar Universe"
+version: "0.1.0"
+date-released: "2025-12-09"
+doi: ""
+url: "https://github.com/originaxiom/origin-axiom"
