@@ -120,3 +120,40 @@ Interpretation:
   - more structured defects or interactions,
   - or moving beyond the simple quadratic scalar vacuum (e.g. finite
     fillings, currents, or additional fields).
+
+## 2025-12-09 — Nonlinear 3D toy universe with Origin Axiom constraint
+
+Model:
+- 3D complex scalar on a 16^3 periodic lattice (discrete T^3).
+- Parameters: c = 1.0, m = 0.1, lambda = 1.0 (nonlinear self-coupling),
+  dt = 0.005, n_steps = 500.
+- Global amplitude A(t) = sum_n Phi_n(t).
+- Mean-subtracted random initial field so that A(0) ≈ 0.
+- Origin Axiom constraint: hard circle |A - A_ref| >= epsilon with
+  epsilon = 0.05, A_ref = 0, theta_star = pi.
+
+Experiments:
+1. Unconstrained run:
+   - |A(t)| remains very close to zero, drifting up to ~6×10^{-5}.
+   - Energy E(t) shows mild oscillations around ~2.46 and is stable.
+
+2. Constrained run (same initial data, same parameters):
+   - After the first step, the global amplitude is projected to
+     |A(t)| = epsilon = 0.05 and stays there.
+   - The constraint fires at every time step (constraint_hits = 500).
+   - Despite this, E(t) closely tracks the unconstrained evolution; the
+     two energy curves are visually indistinguishable.
+
+Outputs:
+- toy_v0_1_nonlinear_no_constraint_epsilon005_meanzero.npz
+- toy_v0_1_nonlinear_with_constraint_epsilon005_meanzero.npz
+- toy_v0_1_nonlinear_compare_Amod_epsilon005_meanzero.png
+- toy_v0_1_nonlinear_compare_energy_epsilon005_meanzero.png
+
+Interpretation:
+- In both the linear and nonlinear 3D scalar toy universes, the Origin
+  Axiom constraint can enforce a minimal global amplitude |A| = epsilon
+  without introducing any obvious energetic instability.
+- The constraint behaves as intended: it forbids near-cancelling
+  global configurations (|A| ≈ 0) while leaving the coarse-grained
+  energy dynamics essentially unchanged, even when lambda != 0.
