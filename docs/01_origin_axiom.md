@@ -2,20 +2,69 @@
 
 The starting point is not a new equation of motion, but a claim about what **cannot** exist.
 
-When we try to imagine “absolute nothingness,” we usually smuggle in some hidden structure: an empty space, a time before and after, a background in which nothing is happening. All of those already presuppose that *something* exists — dimensions, laws, or at least a possible state-space. If we take “absolute nothing” seriously, we must mean: no space, no time, no laws, no fields, no possibilities, no relations. But as soon as we talk about that “nothing” as a conceivable state — as something reality *could have been* – we have already made it part of a larger possibility space. It has become a *something* in a bigger story (“the universe could have been nothing, but instead it is something”), which contradicts its own definition. In that precise sense, **absolute nothingness is not a coherent element of the space of possibilities**. Existence is not a special case inside a wider option set; **existence is forced**.
+When we try to imagine “absolute nothingness”, we usually smuggle in hidden structure: an empty space, a time before and after, a background in which nothing is happening. All of those already presuppose that *something* exists — dimensions, laws, or at least a possible state-space.  
 
-However, the mere impossibility of absolute nothingness is not enough. In principle, one could imagine a universe that exists for a moment and then perfectly cancels back to zero: every positive contribution exactly matched by a negative one, every amplitude annihilated by its counterpart, leaving a truly null state. If such a state were admissible, we would face the same conceptual problem: a “final nothing” that sits inside the dynamics as a reachable configuration. To exclude that, we need a stronger axiom: not only can there be no *timeless* nothingness outside all being, but the dynamics of reality must be constructed so that **no physically admissible process can ever drive the whole of reality into a state of perfect cancellation**. There must always remain an **irreducible residue** that cannot be eliminated.
+If we take “absolute nothing” seriously, we must mean:
 
-We encode this irreducible residue as a **non-cancelling phase twist** at the most fundamental level. Imagine that, in some abstract description, “the universe as a whole” can be associated with a global complex phase — a point on the unit circle in the complex plane. Perfect cancellation corresponds to the special phase where reality and its “negative” exactly annihilate, symbolically like adding +1 and −1. The Origin Axiom asserts that physical reality can never occupy such a globally cancelling configuration. There exists a distinguished phase angle, call it **θ\***, such that the universe is structurally forbidden from reaching the “perfect minus” state relative to itself.
+- no space  
+- no time  
+- no laws  
+- no fields  
+- no possibilities  
+- no relations  
+
+As soon as we talk about that “nothing” as a conceivable state — as something reality *could have been* — we have already made it part of a larger possibility space. It has become a *something* in a bigger story (“the universe could have been nothing, but instead it is something”), which contradicts its own definition.
+
+In this precise sense, **absolute nothingness is not a coherent element of the space of possibilities**. Existence is not a special case inside a wider option set; **existence is forced**.
+
+---
+
+## 1. Impossibility of a Final “Zero” State
+
+The mere impossibility of absolute nothingness is not enough. In principle, one could imagine a universe that exists for a moment and then perfectly cancels back to zero: every positive contribution exactly matched by a negative one, every amplitude annihilated by its counterpart, leaving a truly null state.
+
+If such a state were admissible, we would face the same conceptual problem: a “final nothing” that sits inside the dynamics as a reachable configuration. To exclude that, we need a stronger axiom:
+
+> Not only can there be no *timeless* nothingness outside all being, but the dynamics of reality must be constructed so that **no physically admissible process can ever drive the whole of reality into a state of perfect cancellation**. There must always remain an **irreducible residue**.
+
+---
+
+## 2. Encoding the Residue as a Non-Cancelling Phase Twist
+
+We encode this irreducible residue as a **non-cancelling phase twist** at the most fundamental level.
+
+Imagine that, in some abstract description, “the universe as a whole” can be associated with a global complex phase — a point on the unit circle in the complex plane. Perfect cancellation would correspond to a special phase where reality and its “negative” exactly annihilate, symbolically like adding $+1$ and $-1$.
+
+The Origin Axiom asserts that physical reality can never occupy such a globally cancelling configuration. There exists a distinguished phase angle, call it **$\theta_\*$**, such that the universe is structurally forbidden from reaching the “perfect minus” state relative to itself.
 
 As a symbolic slogan, we write:
 
 > **Origin Axiom (Non-Cancelling Existence)**  
 > 1. *Impossibility of Nothing*: There is no admissible global state of reality corresponding to absolute nothingness; in particular, there is no physically realizable state whose total amplitude is null.  
-> 2. *Irreducible Phase Twist*: The obstruction to such a null state can be represented by a fundamental phase θ\* ∈ ℝ, such that the global configuration of reality can never realize a cancellation condition equivalent to  
->    **e^{iθ\*} = −1**,  
->    i.e. symbolically, the “equation” **e^{iθ\*} + 1 = 0** has no solution *within the space of physically attainable global configurations*.
+> 2. *Irreducible Phase Twist*: The obstruction to such a null state can be represented by a fundamental phase $\theta_\* \in \mathbb{R}$ such that the global configuration of reality can never realize a cancellation condition equivalent to  
+>    $e^{i\theta_\*} = -1$,  
+>    i.e. symbolically, the “equation” $e^{i\theta_\*} + 1 = 0$ has no solution *within the space of physically attainable global configurations*.
 
-Mathematically, of course, the equation e^{iθ} + 1 = 0 has solutions θ = (2k+1)π for integers k. The point of the axiom is **not** to deny this trivial fact, but to say: *none of the states that would globally realize such a cancelling phase are physically allowed*. The forbidden “solution” defines a kind of **topological hole** in the space of physical configurations: you can circle around it, you can approach it in many ways, but you cannot occupy it. There is always a tiny mismatch, a twist, a non-zero remainder. In that sense, θ\* is not merely a number; it labels a **nontrivial holonomy** of existence itself — the fact that when you try to “close the loop” to perfect nothing, you come back with a phase slip instead of zero.
+Mathematically, of course, the equation $e^{i\theta} + 1 = 0$ has solutions $\theta = (2k+1)\pi$ for integers $k$. The point of the axiom is **not** to deny this trivial fact, but to say:
 
-In the concrete models we envisage, this axiom is implemented via a single complex scalar field Φ(x) defined over whatever effective spacetime emerges. The field’s global phase cannot be tuned into a configuration that cancels reality exactly; instead, all dynamics of Φ respect a conservation of “being” with a built-in, phase-encoded slack. Local excitations can interfere, cancel approximately, decohere, and disperse, but **there is no allowed global trajectory that sends the entire configuration to a null state**. The Origin Axiom thus plays a role analogous to a conservation law, but at a deeper level: where ordinary conservation laws constrain *quantities* (energy, charge, etc.), the axiom constrains the **very possibility** of annihilating existence. It says: *the universe must exist, and it must always fail to cancel itself by exactly one twist*.
+> *None of the states that would globally realize such a cancelling phase are physically allowed.*
+
+The forbidden “solution” defines a kind of **topological hole** in the space of physical configurations: you can circle around it, you can approach it in many ways, but you cannot occupy it. There is always a tiny mismatch, a twist, a non-zero remainder.
+
+In that sense, $\theta_\*$ is not merely a number; it labels a **nontrivial holonomy** of existence itself — the fact that when you try to “close the loop” to perfect nothing, you come back with a phase slip instead of zero.
+
+---
+
+## 3. Implementation via a Scalar Backbone
+
+In the concrete models we consider, this axiom is implemented via a single complex scalar field $\Phi(x)$ defined over whatever effective spacetime emerges.
+
+- The field’s global phase cannot be tuned into a configuration that cancels reality exactly.  
+- All dynamics of $\Phi$ respect a conservation of “being” with a built-in, phase-encoded slack.  
+- Local excitations can interfere, cancel approximately, decohere, and disperse, but **there is no allowed global trajectory that sends the entire configuration to a null state**.
+
+The Origin Axiom thus plays a role analogous to a conservation law, but at a deeper level: where ordinary conservation laws constrain *quantities* (energy, charge, etc.), the axiom constrains the **very possibility** of annihilating existence.
+
+In a single line:
+
+> **The universe must exist, and it must always fail to cancel itself by exactly one twist.**
