@@ -1,0 +1,156 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{hyperref}
+\usepackage{physics}
+\usepackage{graphicx}
+
+\title{A Toy Scalar Universe with a Non-Cancelling Constraint\\
+on a Discrete Three-Torus}
+\author{Drit\"ero Mehmetaj}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We construct and numerically explore a minimal ``toy universe'' in which the Origin Axiom---the claim that reality cannot reach a perfectly cancelling global state---is implemented explicitly. The model consists of a complex scalar field on a discrete three-torus with local Klein--Gordon-type dynamics and a global constraint that excludes a neighbourhood of a cancelling configuration of the total field amplitude. We analyse the resulting dynamics, track energy and global amplitude behaviour, and compare the three-dimensional lattice model to a one-dimensional twisted scalar chain in which the vacuum spectrum can be computed analytically. The goal is not to reproduce realistic cosmology, but to provide a controlled testbed for the non-cancelling principle and to identify the conditions under which a global phase twist $\theta_\ast$ becomes physically nontrivial.
+\end{abstract}
+
+\section{Introduction}
+
+The Origin Axiom posits that absolute nothingness is not a coherent possibility and that the universe is dynamically forbidden from evolving into a perfectly cancelling global state. A companion paper formulates this axiom and outlines a research program in which the obstruction to global cancellation is encoded as a nontrivial phase twist $\theta_\ast$ on a scalar backbone.
+
+In this work we take a first concrete step: we construct a simple scalar toy universe on a discrete three-torus and implement the non-cancelling principle as a global constraint on the total field amplitude. We then study the resulting dynamics numerically and compare them to those of a one-dimensional twisted scalar model whose vacuum spectrum can be obtained in closed form.
+
+\section{Three-Dimensional Lattice Model}
+
+\subsection{Microstructure: Discrete Three-Torus}
+
+We model space as a finite cubic lattice with periodic boundary conditions,
+\begin{equation}
+    \mathbf{n} = (n_x,n_y,n_z), \qquad
+    n_i \in \{0,\dots,N_i-1\},
+\end{equation}
+with identifications $n_i \equiv n_i + N_i$. Each site has six nearest neighbours and the geometry is that of a discrete three-torus $T^3$.
+
+This choice provides locality (nearest-neighbour couplings), approximate homogeneity and isotropy (up to lattice artefacts), and a compact space without boundaries, which is convenient when imposing global constraints.
+
+\subsection{Field Content and Local Dynamics}
+
+At each site $\mathbf{n}$ and time $t$ we place a complex scalar field
+\begin{equation}
+    \Phi_{\mathbf{n}}(t) \in \mathbb{C}, \qquad
+    \Phi_{\mathbf{n}} = R_{\mathbf{n}} e^{i\varphi_{\mathbf{n}}}.
+\end{equation}
+The real and imaginary parts (or amplitude and phase) can be thought of as a ``yin--yang'' pair: two interpenetrating components that flow into each other rather than annihilating.
+
+The local dynamics are given by a discrete nonlinear Klein--Gordon equation,
+\begin{equation}
+    \frac{d^2 \Phi_{\mathbf{n}}}{dt^2}
+    = c^2 \Delta \Phi_{\mathbf{n}}
+    - m^2 \Phi_{\mathbf{n}}
+    - \lambda |\Phi_{\mathbf{n}}|^2 \Phi_{\mathbf{n}},
+\end{equation}
+where $\Delta$ is the discrete Laplacian with periodic boundary conditions. This yields finite-speed propagation, interference, and---for suitable parameters---the possibility of localized structures.
+
+In the code, the equation is integrated using a leapfrog scheme, and a discrete energy functional
+\begin{equation}
+    E = \sum_{\mathbf{n}} \left[
+      \frac12 |\dot{\Phi}_{\mathbf{n}}|^2
+      + \frac{c^2}{2} \sum_{\mathbf{m}\in\mathcal{N}(\mathbf{n})} |\Phi_{\mathbf{m}} - \Phi_{\mathbf{n}}|^2
+      + \frac{m^2}{2} |\Phi_{\mathbf{n}}|^2
+      + \frac{\lambda}{4} |\Phi_{\mathbf{n}}|^4
+    \right]
+\end{equation}
+is used as a diagnostic. In the absence of the global constraint, $E$ is approximately conserved for small time steps.
+
+\subsection{Global Constraint from the Origin Axiom}
+
+To implement the Origin Axiom, we introduce the global complex amplitude
+\begin{equation}
+    A(t) = \sum_{\mathbf{n}} \Phi_{\mathbf{n}}(t),
+\end{equation}
+and define a forbidden region $\mathcal{F}_{\theta_\ast}$ in the complex $A$-plane corresponding to (approximate) global cancellation. In the simplest implementation studied here, we focus on excluding a neighbourhood of $A \approx 0$; more elaborate choices can encode a specific cancelling phase $A_\ast(\theta_\ast)$.
+
+In numerical experiments, the constraint is realised as a post-update modification. After each free leapfrog step, we check whether the updated $A(t)$ lies within a distance $\epsilon$ of the forbidden region. If it does, we apply a minimal global modification
+\begin{equation}
+    \Phi_{\mathbf{n}} \;\rightarrow\; \Phi_{\mathbf{n}} + \delta
+\end{equation}
+with a uniform complex offset $\delta$ chosen such that the new amplitude $A'(t)$ lies on the boundary $\partial\mathcal{F}_{\theta_\ast}$, at $|A' - A_\ast| = \epsilon$. This ``gentle projection'' enforces the non-cancelling condition without violently rescaling the field or introducing large energy artefacts.
+
+\section{Numerical Experiments in Three Dimensions}
+
+We initialize the field with small random complex noise on lattices of moderate size and track:
+\begin{itemize}
+    \item the magnitude of the global amplitude $|A(t)|$, and
+    \item the discrete energy $E(t)$,
+\end{itemize}
+both with and without the global constraint.
+
+Preliminary simulations with generic random initial conditions show that:
+\begin{itemize}
+    \item Without the constraint, $E(t)$ remains approximately constant and $|A(t)|$ executes small fluctuations around its initial value, as expected for linear or weakly nonlinear wave-like dynamics.
+    \item For small $\epsilon$ and small initial noise, the global amplitude never approaches $A \approx 0$, so the constraint remains effectively inactive: the constrained and unconstrained runs lie almost exactly on top of each other in both $|A(t)|$ and $E(t)$.
+\end{itemize}
+
+To probe the regime in which the Origin Axiom becomes nontrivial, we deliberately construct an initial condition that is almost globally cancelling. Starting from a small random complex field on a $16^3$ lattice, we subtract the mean value so that the initial amplitude satisfies $|A(0)| \sim 10^{-16}$. We then evolve this configuration twice with identical parameters ($c=1.0$, $m=0.1$, $\lambda=0$, $dt=0.01$, $N_t=500$ steps):
+
+\begin{itemize}
+    \item \textbf{Unconstrained run.} The global amplitude remains extremely small throughout the evolution, with $|A(t)|$ fluctuating at the level of numerical roundoff around zero. The energy $E(t)$ stays in a narrow band around $E \approx 2.46 \times 10^{-2}$.
+    \item \textbf{Constrained run with $\epsilon = 0.05$.} The Origin Axiom constraint is applied whenever $|A(t)| < \epsilon$. Starting from the same mean-subtracted initial field, the first projection moves $A(0)$ to $|A(0)| = \epsilon$. Subsequent steps keep $|A(t)|$ pinned at $|A| = 0.05$ to plotting precision. Over the full run of $500$ time steps the constraint fires $501$ times (once at $t=0$ and once per step), yet the energy evolution closely tracks the unconstrained case: the $E(t)$ curves for the two runs lie essentially on top of each other.
+\end{itemize}
+
+Figure~\ref{fig:toy_A_E_compare_meanzero} summarizes this comparison. The left panel shows $|A(t)|$ with and without the constraint: the unconstrained universe falls and remains in a nearly cancelling configuration, whereas the constrained universe is prevented from entering the disc $|A| < \epsilon$ and instead occupies a minimal-amplitude orbit. The right panel shows that the total energy is almost insensitive to the constraint at this level of coarse description.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{toy_v0_1_compare_Amod_epsilon005_meanzero.png}
+  \includegraphics[width=0.48\textwidth]{toy_v0_1_compare_energy_epsilon005_meanzero.png}
+  \caption{Three-dimensional scalar toy universe on a $16^3$ lattice with mean-subtracted initial data and $\epsilon = 0.05$. \emph{Left:} magnitude of the global amplitude $|A(t)|$ with no constraint (blue) and with the Origin Axiom constraint (orange). The unconstrained run remains in a nearly cancelling configuration with $|A(t)| \approx 0$, while the constrained run is projected onto the boundary $|A| = \epsilon$ and kept there throughout the evolution. \emph{Right:} total energy $E(t)$ for the same runs. Despite $501$ constraint activations in the constrained case, the energy tracks the unconstrained evolution closely, indicating that the gentle additive projection enforces non-cancellation without dramatically disturbing the local dynamics.}
+  \label{fig:toy_A_E_compare_meanzero}
+\end{figure}
+
+These experiments demonstrate that the non-cancelling principle can be implemented as a consistent global constraint in a simple lattice field theory. The constraint selects a subset of trajectories in configuration space that avoid strictly cancelling global configurations, while leaving the coarse-grained energetic behaviour almost unchanged.
+
+\section{One-Dimensional Twisted Model}
+
+To complement the three-dimensional lattice simulations with an analytically tractable example, we consider a one-dimensional chain of $N$ sites with twisted boundary condition
+\begin{equation}
+    \Phi_{n+N} = e^{i\theta_\ast} \Phi_n.
+\end{equation}
+This leads to mode momenta
+\begin{equation}
+    k_m(\theta_\ast) = \frac{\theta_\ast + 2\pi m}{N}, \qquad m = 0,\dots,N-1,
+\end{equation}
+and mode frequencies
+\begin{equation}
+    \omega_m(\theta_\ast) = \sqrt{m_0^2 + 4c^2 \sin^2\!\big(k_m(\theta_\ast)/2\big)}.
+\end{equation}
+The vacuum energy is then
+\begin{equation}
+    E_0(\theta_\ast) = \frac12 \sum_{m=0}^{N-1} \omega_m(\theta_\ast).
+\end{equation}
+
+For a finite ring with full translation invariance and no boundaries, the set of allowed $k_m$ values is merely \emph{relabeled} when $\theta_\ast$ is shifted. As a consequence, the total vacuum energy $E_0(\theta_\ast)$ is numerically found to be independent of $\theta_\ast$ in this simple model: the computed $\Delta E_0(\theta_\ast) = E_0(\theta_\ast) - E_0(0)$ stays at the level of numerical noise ($\sim 10^{-13}$ in our scans). This is a useful null result: it shows that a global twist can be physically trivial at the level of integrated quantities in highly symmetric settings, and that boundaries, defects, or distinguished scales are needed for $\theta_\ast$ to have observable impact on the vacuum structure.
+
+\section{Discussion and Outlook}
+
+The models presented here should be viewed as a first ``sandbox'' for the Origin Axiom. The three-dimensional lattice implementation demonstrates that a non-cancelling constraint on a global amplitude can be enforced consistently in a local, wave-like field theory. The one-dimensional twisted chain illustrates that, in highly symmetric settings, a global phase twist may leave certain aggregate quantities (such as the total vacuum energy) invariant.
+
+Together, these examples clarify both the promise and the limitations of the current approach. On the one hand, the scalar lattice framework provides a concrete arena in which to explore the dynamical consequences of non-cancelling existence. On the other hand, the insensitivity of $E_0(\theta_\ast)$ in the simplest one-dimensional model suggests that nontrivial effects of $\theta_\ast$ may only arise in the presence of boundaries, defects, or additional structure that break the naive equivalence of twisted and untwisted sectors.
+
+Future work will extend these models to include:
+\begin{itemize}
+    \item richer microstructures (e.g.\ open chains, defected lattices, or higher-genus graphs),
+    \item more systematic parameter scans and scaling studies,
+    \item and a closer comparison with continuum limits and known results from quantum field theory in nontrivial topologies.
+\end{itemize}
+The ultimate goal is to identify whether there exist choices of microstructure, dynamics, and $\theta_\ast$ for which the non-cancelling scalar framework reproduces key qualitative features of our universe.
+
+\bibliographystyle{unsrt}
+\bibliography{origin_axiom_refs}
+
+\end{document}
