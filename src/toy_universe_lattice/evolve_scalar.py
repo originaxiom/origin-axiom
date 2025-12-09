@@ -4,7 +4,7 @@ Implements a simple discretized nonlinear Klein–Gordon-type equation:
 
   d2Φ/dt2 = c^2 ΔΦ - m^2 Φ - λ |Φ|^2 Φ
 
-plus optional hooks for the Origin Axiom constraint.
+plus optional hooks for the Origin Axiom constraint, and an energy() method.
 """
 
 import numpy as np
@@ -28,7 +28,35 @@ class ScalarToyUniverse:
             self.phi_dot = np.array(phi_dot0, dtype=np.complex128)
 
     def global_amplitude(self):
+        """Global complex amplitude A(t) = sum_n Φ_n."""
         return self.phi.sum()
+
+    def energy(self):
+        """
+        Discrete energy functional:
+
+        E = Σ_n [ 1/2 |dotΦ_n|^2
+                 + c^2/2 Σ_neighbors |Φ_m - Φ_n|^2
+                 + m^2/2 |Φ_n|^2
+                 + λ/4 |Φ_n|^4 ]
+
+        We use the identity Σ |∇Φ|^2 ~ - Φ* ΔΦ to avoid double-counting neighbor pairs.
+        """
+        # kinetic term
+        kin = 0.5 * np.abs(self.phi_dot)**2
+
+        # gradient term using Laplacian: Σ |∇Φ|^2 ≈ - Σ Φ* ΔΦ
+        lap = self.lat.laplacian(self.phi)
+        grad = -0.5 * (self.phi.conj() * lap).real * (self.c**2)
+
+        # mass term
+        mass = 0.5 * (self.m**2) * np.abs(self.phi)**2
+
+        # self-interaction
+        self_int = 0.25 * self.lam * np.abs(self.phi)**4
+
+        E_density = kin + grad + mass + self_int
+        return E_density.sum().real
 
     def step(self, constraint=None):
         """
