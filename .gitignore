@@ -34,3 +34,17 @@ paper/*.synctex.gz
 paper/*.pdf
 .DS_Store
 */.DS_Store
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
