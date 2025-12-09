@@ -1,0 +1,137 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{hyperref}
+\usepackage{physics}
+
+\title{The Origin Axiom:\\
+Non-Cancelling Existence as a Constraint on Reality}
+\author{Drit\"ero Mehmetaj}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We propose the \emph{Origin Axiom}: reality cannot reach a perfectly cancelling global configuration. The axiom is motivated by the conceptual instability of absolute nothingness and formulated as a concrete constraint on allowed field configurations in simple models. Rather than postulating detailed microphysics, we treat non-cancellation as a structural rule that any underlying theory of the universe must respect. We show how this principle can be expressed in terms of a global amplitude on a scalar backbone, discuss its relation to phase-twisted boundary conditions, and outline a minimal research program based on numerical toy models and analytic checks. The aim is not to replace existing frameworks such as general relativity or quantum field theory, but to explore whether a single non-cancelling constraint can act as a ``missing boundary condition'' on otherwise familiar dynamics.
+\end{abstract}
+
+\section{Motivation: Against Absolute Nothingness}
+
+Standard cosmological narratives often start from an implicit contrast between ``nothing'' and ``something'': a universe emerging from a void, a quantum fluctuation from the vacuum, or an initial singularity. However, when we attempt to formalize \emph{absolute nothingness}, we quickly encounter a conceptual problem. Any description of a ``state before the universe'' already presupposes a background in which that state exists: a time parameter, a notion of possible alternatives, or a law governing the transition to something else.
+
+By \emph{absolute nothingness} we mean:
+\begin{itemize}
+    \item no space,
+    \item no time,
+    \item no fields or degrees of freedom,
+    \item no laws or transition rules,
+    \item no counterfactual alternatives.
+\end{itemize}
+As soon as such a ``nothing'' is embedded into a narrative---``before the big bang there was nothing''---it has acquired a role in a larger structure and is no longer nothing. At best, it is another state within a bigger configuration space.
+
+We therefore treat absolute nothingness as conceptually incoherent. There is no well-defined ``point'' in a physical state space that corresponds to complete non-existence. From this perspective, existence is not an optional outcome of a prior null condition, but the default: some form of reality is always present.
+
+This motivates a stronger statement. If absolute nothingness does not exist even as a limiting configuration, then \emph{approach to nothingness} should also be obstructed. In other words, we expect the space of allowed configurations of reality to exclude any global state that \emph{exactly} cancels to zero.
+
+\section{From Intuition to Axiom}
+
+To make this idea precise, we introduce a minimal framework. We do not assume a specific microstructure (continuum vs.\ lattice, number of dimensions, or field content). Instead, we assume that:
+\begin{enumerate}
+    \item There exists a set $\mathcal{C}$ of configurations describing the instantaneous state of the universe in some effective description.
+    \item Each configuration $C \in \mathcal{C}$ admits a mapping to a complex number $A(C) \in \mathbb{C}$, which we call the \emph{global amplitude}.
+\end{enumerate}
+The map $A: \mathcal{C} \to \mathbb{C}$ is not unique; it may be defined in terms of a scalar field, an order parameter, or another effective degree of freedom. The only requirement is that $A$ is sensitive to large-scale cancellation behaviour, such as destructive interference of phases.
+
+\subsection{The Origin Axiom}
+
+\textbf{Origin Axiom.} \emph{There exists a nonzero radius $\epsilon > 0$ and a reference amplitude $A_\ast \in \mathbb{C}$ such that no physically realized configuration $C$ satisfies}
+\begin{equation}
+    |A(C) - A_\ast| < \epsilon.
+    \label{eq:origin_axiom}
+\end{equation}
+In words: the set of realized configurations avoids an open disc of radius $\epsilon$ around a would-be cancelling amplitude $A_\ast$. In the simplest implementations we take $A_\ast = 0$, corresponding to exclusion of exact global cancellation, but more general choices can encode a specific nontrivial cancelling phase.
+
+The axiom does not specify the microscopic dynamics. Rather, it restricts the allowed trajectories in configuration space: any dynamical law that would drive $A(C)$ into the forbidden region must be supplemented by an additional mechanism---deterministic or stochastic---that prevents the crossing.
+
+Two immediate remarks:
+\begin{itemize}
+    \item The axiom is \emph{global}. Local degrees of freedom may experience cancellations, but there is always a residual imbalance at the level of the chosen amplitude $A$.
+    \item The scale $\epsilon$ and the precise definition of $A(C)$ are empirical questions. Different effective models may realize the axiom in different ways.
+\end{itemize}
+
+\subsection{Relation to Non-Cancelling Phase Twists}
+
+In many physical systems, global information about interference and cancellation is naturally encoded in phases rather than magnitudes. A particularly transparent example is a complex scalar field $\Phi(x)$ on a compact space, where we can define
+\begin{equation}
+    A = \int \Phi(x)\, \mathrm{d}V
+\end{equation}
+or its lattice analogue. If we impose a twisted boundary condition
+\begin{equation}
+    \Phi(x + L) = e^{i\theta_\ast} \Phi(x),
+\end{equation}
+then $\theta_\ast$ parametrizes a global phase shift. In certain settings, such a twist can be removed by a gauge transformation; in others, it has physical consequences (for example, by shifting allowed momenta).
+
+The Origin Axiom can be viewed as selecting a preferred sector in this space of twists. Instead of allowing a configuration in which all contributions cancel exactly, we enforce that the global amplitude maintains a minimal magnitude $|A| \ge \epsilon$. In simple scalar models this can be implemented as a constraint on the allowed field configurations; in more realistic theories it might appear as a boundary condition on path integrals or as a property of admissible states in a Hilbert space.
+
+\section{Minimal Scalar Realization}
+
+To explore the implications of the axiom in a controlled setting, we consider a complex scalar field on a discrete spatial lattice (a three-torus). The details of this toy universe, including its local Klein--Gordon dynamics and the implementation of the constraint, are developed in a companion paper. Here we summarize only the structural features relevant to the axiom.
+
+Let $\Phi_{\mathbf{n}}$ denote the scalar field at lattice site $\mathbf{n}$ and time $t$. We define
+\begin{equation}
+    A(t) = \sum_{\mathbf{n}} \Phi_{\mathbf{n}}(t).
+\end{equation}
+The Origin Axiom is then implemented by requiring that $A(t)$ never enters a disc
+\begin{equation}
+    \mathcal{F} = \{ A \in \mathbb{C} \mid |A - A_\ast| < \epsilon \}.
+\end{equation}
+In numerical simulations this is realized by a post-update projection: after each free time step, if $A(t)$ lies inside $\mathcal{F}$, we minimally adjust $\Phi_{\mathbf{n}}$ by a uniform complex offset so that $A(t)$ lands on the boundary $|A - A_\ast| = \epsilon$. This procedure enforces the axiom while leaving the local wave-like dynamics essentially unchanged.
+
+This construction illustrates how a global non-cancellation rule can coexist with familiar field-theoretic behaviour. It also makes clear that the axiom is not a standard local interaction term; it acts as an additional constraint on the global configuration.
+
+\section{Analytic Check: When a Phase Twist is Trivial}
+
+The claim that a non-cancelling twist may select a preferred sector must be balanced against cases where such a twist is physically trivial. A simple example is a one-dimensional complex scalar field on a ring of $N$ sites with twisted boundary condition
+\begin{equation}
+    \Phi_{n+N} = e^{i\theta_\ast} \Phi_n.
+\end{equation}
+Mode analysis shows that the allowed momenta are
+\begin{equation}
+    k_m(\theta_\ast) = \frac{\theta_\ast + 2\pi m}{N}, \qquad m = 0,\dots,N-1,
+\end{equation}
+and the corresponding frequencies $\omega_m(\theta_\ast)$ depend on $k_m$ in the usual way. The vacuum energy is
+\begin{equation}
+    E_0(\theta_\ast) = \frac12 \sum_m \omega_m(\theta_\ast).
+\end{equation}
+On such a perfectly symmetric ring, shifting $\theta_\ast$ simply relabels the set of momenta; the sum over all modes is invariant. Numerical scans confirm that $E_0(\theta_\ast)$ is flat as a function of $\theta_\ast$ to within numerical precision.
+
+This negative result is important. It shows that in highly symmetric settings a global phase twist may have no effect on coarse quantities like the total vacuum energy. Nontrivial consequences of the Origin Axiom are therefore expected only in the presence of additional structure: boundaries, defects, distinguished scales, or more complex field content.
+
+\section{Research Program}
+
+The Origin Axiom is intentionally modest: it does not claim to specify the full microstructure of the universe, only that exact global cancellation is not an admissible configuration. To assess its usefulness, we propose the following minimal research program:
+
+\begin{enumerate}
+    \item \textbf{Toy models on lattices.} Implement the axiom as a global constraint on simple scalar field theories on discrete spaces, as in the three-dimensional toy universe. Explore how the constraint affects global observables (amplitudes, energies) and whether it leads to robust qualitative features.
+    \item \textbf{Analytic checks.} Study simplified settings (one-dimensional chains, continuum limits, effective potentials) in which the effect of a non-cancelling twist can be analysed exactly or perturbatively. Identify the conditions under which the twist is physically trivial versus genuinely selecting a sector.
+    \item \textbf{Robustness under microphysical choices.} Vary the lattice geometry, field content, and local dynamics to test whether the qualitative role of the axiom depends strongly on these choices or survives as a structural feature.
+    \item \textbf{Connections to existing frameworks.} Investigate how a non-cancelling constraint might be expressed in the language of quantum field theory (e.g.\ as a restriction on allowed states or boundary conditions) or in semiclassical gravity (e.g.\ as an additional condition on admissible solutions).
+\end{enumerate}
+
+The aim is to move systematically from intuitive motivation to explicit models, numerical experiments, and analytic control. At each stage the guiding question is whether the Origin Axiom adds explanatory or predictive value beyond existing principles, or whether it merely reformulates known features in a different language.
+
+\section{Conclusion}
+
+We have argued that absolute nothingness is not a coherent member of any physically meaningful configuration space. From this observation we extract a concrete proposal: the Origin Axiom, which states that reality cannot realize a perfectly cancelling global configuration. By formulating the axiom as a constraint on a global amplitude $A(C)$, we make it compatible with a wide variety of underlying microstructures.
+
+Simple scalar models on discrete lattices show that such a constraint can be implemented as a gentle global projection that forbids exact cancellation while leaving local dynamics almost unchanged. Analytic checks in one-dimensional models highlight the limits of the approach and the need for additional structure for a non-cancelling twist to have observable consequences.
+
+Whether the Origin Axiom ultimately plays a role in realistic cosmology or fundamental physics remains an open question. The present work should be viewed as a starting point: a minimal, falsifiable statement about non-cancellation that can be tested and refined in increasingly realistic settings.
+
+\bibliographystyle{unsrt}
+\bibliography{origin_axiom_refs}
+
+\end{document}
