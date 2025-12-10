@@ -103,3 +103,33 @@ Artifacts:
 - Figures:
   - `figures/two_field_compare_Apsi.png`
   - `figures/two_field_compare_energy.png`
+
+## 2025-12-10 — Two-field toy and coupling scan
+
+Two-field ψ-constraint test:
+- Implemented `two_field_lattice.TwoFieldToyUniverse` with fields φ and χ on the same 3D lattice.
+- Defined composite mode ψ = (φ + χ)/√2 and applied the Origin Axiom constraint only on ψ (global amplitude).
+- Baseline (no constraint): for λ_φ = λ_χ = 1, g = 0, ψ starts in an almost perfectly cancelling configuration:
+  - |A_ψ(t)| ≈ 0 throughout the run (∼10⁻¹¹), hits_ψ = 0, total energy E(t) ~ 4.97×10⁻² and nearly constant.
+- With ψ-constraint (ε = 0.05):
+  - |A_ψ(t)| is pinned at ~ε, with the hit counter firing every step (hits_ψ = 500).
+  - Total energy stays well behaved but is shifted upward to E(t) ≈ 7.6–7.7×10⁻².
+
+Coupling scan in g:
+- Ran `run_two_field_coupling_scan.py` for g ∈ {0, 0.1, 0.5, 1.0}.
+- Without constraint:
+  - For all g, hits_ψ = 0 and ⟨|A_ψ|⟩ ≈ 10⁻¹¹ (near-perfect global cancellation),
+  - ⟨E⟩ ≈ 4.9677×10⁻², essentially independent of g.
+- With ψ-constraint at ε = 0.05:
+  - For all g, hits_ψ = 500 and ⟨|A_ψ|⟩ ≈ 4.99×10⁻² ≈ ε.
+  - ⟨E⟩ rises smoothly with g:
+    - g = 0.0 → ⟨E⟩ ≈ 7.66×10⁻²
+    - g = 0.1 → ⟨E⟩ ≈ 7.68×10⁻²
+    - g = 0.5 → ⟨E⟩ ≈ 7.75×10⁻²
+    - g = 1.0 → ⟨E⟩ ≈ 7.83×10⁻²
+
+Takeaway:
+- In the unconstrained theory, multi-field interactions do not prevent global ψ from cancelling to almost zero.
+- The Origin Axiom, implemented as a minimal-amplitude shell for ψ, robustly enforces ⟨|A_ψ|⟩ ~ ε even in the presence of interactions.
+- The associated energy cost behaves like an interaction-dependent positive shift in the energy density, consistent with the non-cancelling vacuum floor picture developed in earlier 3D single-field and volume-scan tests.
+
