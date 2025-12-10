@@ -1,289 +1,344 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt]{article}
 
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[a4paper,margin=2.5cm]{geometry}
 \usepackage{amsmath,amssymb,amsfonts}
-\usepackage{bm}
+\usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{bm}
 
-\title{Universe as a Cancellation System:\\
-Non-Cancelling Principle and Sanity Checks}
-\author{Drit\"ero Mehmetaj}
+\title{Origin Axiom C:\\
+The universe as a cancellation system\\
+\large Act II: lattice sanity checks and null results}
+
+\author{Drit\"ero Mehmetaj (Biri)\\[4pt]
+\small \texttt{originaxiom/origin-axiom (GitHub)}}
 \date{\today}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-This paper examines the idea of treating the universe as a \emph{cancellation
-system}: a configuration in which many large contributions interact so that
-some global quantity nearly vanishes. Motivated by puzzles such as vacuum
-energy and the apparent smallness of certain cosmological parameters, we ask
-whether a structural rule that forbids \emph{exact} cancellation can provide a
-useful organising principle.
-
-Building on the Origin Axiom---which excludes configurations whose global
-complex amplitude \(A(C)\) lies in a small neighbourhood of a reference value
-\(A_\ast\)---we survey where cancellations appear in known physics, what kinds
-of cancellations are benign, and which ones look finely tuned. We then discuss
-a series of sanity checks and toy models, including a minimal scalar toy
-universe, that probe whether a non--cancelling principle can be formulated
-without contradicting standard behaviour.
-
-We find that:
-(i) many cancellations in realistic theories are symmetry--driven and therefore
-structurally robust, not accidental;
-(ii) a non--cancelling rule must be formulated in terms of a carefully chosen
-global amplitude if it is to avoid trivial conflict with charge neutrality and
-other well established phenomena; and
-(iii) in simple lattice models, a global constraint \(|A|\ge\epsilon\) can be
-imposed without destabilising the dynamics, but does not by itself solve any
-fine--tuning problems. The value of the principle lies in the way it restricts
-configuration space, not yet in a quantitative prediction.
+Papers A and B formulated the Origin Axiom as a structural non--cancellation rule,
+implemented it in a minimal complex scalar field on a periodic lattice,
+and demonstrated that a hard constraint $\lvert A(C)\rvert\ge \varepsilon$ can operate
+without spoiling basic dynamics or energy conservation.
+Paper~C reframes the same framework as a \emph{cancellation system}:
+a playground where we look explicitly for places the axiom could have gone wrong,
+or where it might already be secretly built into ordinary physics.
+This Act~II collects the current battery of lattice sanity checks
+and records the strongest statement we can honestly make at this stage:
+for the class of tests implemented in \texttt{src/} and \texttt{notebooks/},
+the non--cancelling rule behaves as a small, controllable perturbation and
+does \emph{not} produce dramatic or unstable effects.
+The goal of the paper is not to claim success,
+but to make the ``null results'' legible and reproducible.
 \end{abstract}
 
-\section{Introduction}
-
-It is tempting to view the universe as a vast \emph{cancellation machine}.
-Positive and negative charges arrange themselves so that macroscopic objects
-are neutral; wave fields interfere to yield regions of almost perfect
-destructive interference; contributions to vacuum energy from different modes
-and sectors are often imagined to cancel to near zero. In many theoretical
-contexts, we rely on this picture implicitly: large contributions are allowed
-as long as they almost exactly balance in the end.
-
-This raises a structural question:
-
-\medskip
-\noindent
-\emph{Can the universe be understood as a configuration that is ``just enough
-off from nothing'' to be real, held away from exact cancellation by a simple
-principle?}
-
-\medskip
-
-The Origin Axiom is one attempt to answer this. It does not claim that every
-observed small quantity arises from a single mechanism. Instead, it proposes
-that there exists at least one global amplitude \(A(C)\) over configuration
-space such that configurations with \(A(C)\) extremely close to a special
-value \(A_\ast\) (in particular \(A_\ast = 0\)) are structurally forbidden.
-In companion work, this is implemented as a rule \(|A(C)|\ge\epsilon\) with a
-small non--cancellation scale \(\epsilon\), and tested in simple scalar toy
-universes.
-
-The purpose of the present paper is to step back and evaluate this idea as a
-whole:
-
-\begin{itemize}
-  \item What does it mean to model the universe as a cancellation system?
-  \item Where do cancellations already play a clear, structural role in
-  standard physics?
-  \item What kinds of cancellations look suspect or fine--tuned?
-  \item How can a non--cancelling principle be formulated so that it is neither
-  trivial nor obviously ruled out?
-\end{itemize}
-
-We do not claim to answer these questions definitively. Instead, we aim to
-separate promising directions from conceptual dead ends and to provide a set of
-sanity checks that any future elaboration of the Origin Axiom must pass.
-
-\section{Cancellation systems: basic picture}
-
-At a minimal level, a \emph{cancellation system} is a collection of degrees of
-freedom \(\{q_i\}\) together with a global quantity \(Q\) of the form
+\section{Introduction: from axiom to cancellation system}
+Paper~A motivates the Origin Axiom from the incoherence of absolute nothingness
+and formalises it as a constraint on a global complex amplitude $A(C)$
+over configuration space: physically realised configurations avoid a small
+neighbourhood of a reference value $A^\ast$ (typically $A^\ast = 0$) and obey
 \begin{equation}
-  Q = \sum_i q_i,
+  \lvert A(C)\rvert \ge \varepsilon,
 \end{equation}
-for which the observed value of \(Q\) is small compared to the typical size of
-the individual \(q_i\). In such systems, the smallness of \(Q\) is explained
-not by the smallness of its constituents, but by the way they arrange so that
-positive and negative contributions almost neutralise.
+for some non--cancellation scale $\varepsilon>0$.
+Paper~B implements this rule in a minimal complex scalar toy universe on a
+periodic 3--torus and shows that, for small $\varepsilon$,
+the constrained evolution remains numerically well--behaved.
 
-There are many examples:
+The present work (Paper~C) takes a complementary viewpoint.
+Instead of asking ``what phenomena does the axiom explain?''
+we first ask the more basic question:
+\emph{can we embed the rule into increasingly nontrivial systems without
+breaking anything obvious?}
+In other words, we treat the framework as a \emph{cancellation system} and
+stress--test it with a set of deliberately modest lattice experiments.
 
+Practically, this means:
 \begin{itemize}
-  \item \textbf{Charge neutrality.} In a macroscopic piece of matter, the total
-  electric charge is often extremely close to zero. The microscopic charges
-  \(\pm e\) are large compared to the net charge \(Q_{\text{tot}}\).
-  \item \textbf{Wave interference.} For a superposition of waves, the local
-  field amplitude at some point can be almost zero while individual components
-  are sizable.
-  \item \textbf{Vacuum contributions.} In naive treatments of quantum field
-  theory, vacuum energy receives contributions from many modes and sectors,
-  which are sometimes hoped to cancel.
+  \item We construct pairs of simulations: one purely standard (\emph{free}),
+        one with a non--cancelling constraint (\emph{constrained})
+        applied to the same underlying equations of motion.
+  \item We fix parameters so that both runs live in a numerically safe regime.
+  \item We measure quantities that would be especially sensitive to any
+        hidden bias or instability: vacuum energies, mode frequencies,
+        localisation fractions, and energy flow between coupled fields.
+  \item We treat strong deviations as \emph{failures} of the current
+        implementation and record them honestly.
 \end{itemize}
 
-In each case, one can ask whether the smallness of \(Q\) is:
-\begin{enumerate}
-  \item a robust consequence of symmetry or structure;
-  \item a dynamical attractor driven by evolution; or
-  \item a contingent fine--tuning with no structural explanation.
-\end{enumerate}
+This Act~II documents the tests we have completed so far,
+all implemented in the public repository \texttt{originaxiom/origin-axiom}.
+Each subsection below maps directly to a script in \texttt{src/}
+and an analysis notebook in \texttt{notebooks/};
+figures shown here are generated from cached outputs in
+\texttt{data/processed/} and mirrored into \texttt{figures/}.
 
-The Origin Axiom is not meant to replace existing symmetry arguments. Rather,
-it aims to constrain the third class: situations where exact cancellation
-seems to be taken for granted without a clear structural justification.
-
-\section{Cancellations in known physics}
-
-We briefly review some representative ways in which cancellations appear in
-standard theories, with an eye toward what a non--cancelling rule could or
-could not touch.
-
-\subsection{Benign cancellations}
-
-Some cancellations are clearly benign and well understood:
-
+\section{Numerical testbed summary}
+We briefly recap the ingredients that are common to all experiments:
 \begin{itemize}
-  \item \textbf{Charge neutrality in atoms.} The number of electrons equals
-  the nuclear charge by construction in a neutral atom. This is enforced by
-  the way we \emph{define} the system, not by an accident.
-  \item \textbf{No--force balances.} In certain classical configurations,
-  forces can cancel so that the net acceleration is zero while internal
-  stresses are nonzero. These are understood as equilibrium conditions.
-  \item \textbf{Interference patterns.} Destructive interference is a direct
-  consequence of linearity and phase relations in wave equations.
+  \item Spatial discretisation: one-- or three--dimensional periodic lattices
+        with $N$ sites per dimension.
+  \item Time evolution: leapfrog / staggered--in--time scheme for scalar fields
+        with mass terms and, where indicated, quartic self--interaction.
+  \item Non--cancelling rule:
+        we monitor a chosen global complex amplitude $A(t)$ and, whenever
+        $\lvert A(t)\rvert < \varepsilon$, we project back onto
+        the boundary $\lvert A\rvert=\varepsilon$ by a minimal rescaling
+        of the relevant degrees of freedom.
+  \item Diagnostics: total energy, mode spectra, localisation measures,
+        and simple summary statistics of constraint hits.
 \end{itemize}
 
-Any viable non--cancelling principle must leave these phenomena intact. That
-is one reason to formulate it in terms of a specifically chosen global
-amplitude \(A(C)\) that does not coincide with ordinary conserved charges or
-forces.
+For detailed derivations of the discrete equations of motion and baseline
+stability analysis, we refer back to Paper~B.
+Here we focus purely on the \emph{comparative} behaviour of free vs.\ constrained runs.
 
-\subsection{More problematic cancellations}
+\section{Twisted 1D vacua: looking for hidden $\theta_\star$ structure}
+\subsection{Plain twisted chain}
+Our first class of tests probes the vacuum energy of a free massive scalar
+on a 1D periodic chain with an imposed boundary twist.
+The code lives in
+\texttt{src/run\_1d\_twisted\_vacuum\_scan.py}, with analysis in
+\texttt{notebooks/02\_1d\_twisted\_analysis.py}.
 
-Other cancellations look more problematic:
+We consider $N=256$ sites, mass $m_0=0.1$, and a twist angle
+$\theta_\star\in[0,2\pi]$ implemented as a phase on the boundary link.
+For each $\theta_\star$ we diagonalise the lattice Hamiltonian numerically
+and compute the (discretised) vacuum energy $E_0(\theta_\star)$.
+The Origin Axiom would be in immediate tension with a strongly
+$\theta_\star$--dependent ground state, since our framework is designed
+to be as agnostic as possible to any micro--choice of ``twist''.
 
-\begin{itemize}
-  \item \textbf{Vacuum energy.} Many heuristic estimates of vacuum energy
-  contributions from quantum fields are vastly larger than the observed
-  effective cosmological constant. It is tempting to imagine hidden
-  cancellations, but without a structural principle such cancellations appear
-  finely tuned.
-  \item \textbf{Sector--by--sector tuning.} In some models, different sectors
-  of a theory contribute with opposite signs to a global quantity, and one
-  hopes that the net result is small. Unless a symmetry enforces this, it is
-  difficult to see why the cancellations should be exact.
-\end{itemize}
-
-It is in these contexts that a non--cancelling rule might, in principle, be
-relevant. But as our toy models show, simply imposing \(|A|\ge\epsilon\) on a
-single scalar field is far from enough to solve such issues; at best it is a
-structural constraint that could feed into more elaborate constructions.
-
-\section{Non--cancelling principle: abstract formulation}
-
-We adopt the abstract viewpoint developed in the principle paper. Let
-\(\mathcal{C}\) be a space of configurations and \(A:\mathcal{C}\to\mathbb{C}\)
-a chosen global amplitude. The Origin Axiom asserts that physically realised
-configurations avoid a forbidden neighbourhood \(\mathcal{D}_\epsilon(A_\ast)\)
-of a special value \(A_\ast\):
+The result is a clean null test:
+within numerical precision,
 \begin{equation}
-  \mathcal{D}_\epsilon(A_\ast) =
-  \{ A\in\mathbb{C} \mid |A - A_\ast| < \epsilon \},
+  E_0(\theta_\star) \approx \text{const.}
 \end{equation}
-and
+over the full scan, with fluctuations consistent with the eigensolver tolerance.
+The plot \texttt{twisted\_1d\_E0\_vs\_theta.png} shows a flat line;
+the corresponding residual $\Delta E(\theta_\star)$ oscillates
+around zero at the $10^{-13}$ level.
+This reassures us that the lattice itself does not secretly imprint
+a preferred twist---exactly as it should.
+
+\subsection{Defected bond}
+To stress the system slightly harder we repeat the scan with a single
+defect bond of strength $0<\alpha<1$, implemented in
+\texttt{src/run\_1d\_defected\_vacuum\_scan.py} and analysed in
+\texttt{notebooks/02b\_1d\_defected\_twist\_analysis.py}.
+The defect breaks translation invariance and introduces a local scale,
+so any microscopic conspiracy between the twist and the defect
+would show up here first.
+
+Again, the vacuum energy $E_0(\theta_\star)$ is numerically flat,
+with variations at the $10^{-13}$ level.
+The non--cancelling rule is \emph{not} active in these tests;
+their role is to confirm that our discretisation and numerics do not
+accidentally manufacture a $\theta_\star$--dependent vacuum
+that could later be misinterpreted as a signature of the axiom.
+
+\section{Mode--by--mode tests: constrained oscillators}
+The next step is to ask whether the non--cancelling rule distorts
+individual lattice modes in a detectable way.
+We couple the rule directly to a chosen Fourier mode in
+\texttt{src/run\_mode\_spectrum\_with\_constraint.py}
+with analysis in \texttt{notebooks/06\_mode\_spectrum\_analysis.py}.
+
+We initialise a tiny sinusoidal perturbation in mode $k=1$
+on a 1D chain and evolve it both with and without a constraint
+on the global amplitude $A(t)$, using $\varepsilon=10^{-3}$.
+From the time series we extract the dominant frequency
+$\omega_{\rm num}$ and compare it to the analytic lattice dispersion relation.
+
+The key observations are:
+\begin{itemize}
+  \item The free and constrained time series are visually almost indistinguishable;
+        their Fourier power spectra peak at the same $\omega_{\rm num}$.
+  \item The numerical frequency deviates slightly from the analytic one,
+        but the deviation is identical in both runs and is attributable
+        to the finite time step and windowing, not to the constraint.
+  \item No extra sidebands or secular drifts appear when the non--cancelling
+        rule is active at this small $\varepsilon$.
+\end{itemize}
+
+Within this limited setup the axiom behaves like a gentle projection
+on the global configuration, not as a new dynamical force on individual modes.
+
+\section{Localised bumps in 1D and 3D}
+\subsection{1D propagation and quasi--localisation}
+We then test whether the constraint can materially change the
+spreading of a localised excitation.
+The 1D experiment is implemented in
+\texttt{src/run\_localized\_bump\_1d.py} and
+\texttt{notebooks/07\_localized\_bump\_analysis\_1d.py}.
+
+Initial conditions:
+a Gaussian bump of amplitude $A=0.1$ and width $W=10$,
+centred on a 1D lattice of $N=512$ sites.
+We evolve for $T=2000$ time steps with and without the
+non--cancelling rule (again at $\varepsilon=10^{-3}$)
+and track the fraction of $\lvert\phi\rvert^2$
+contained in a fixed ``central window'' around the origin.
+
+The main findings:
+\begin{itemize}
+  \item In both runs the bump disperses and re--focuses in a sequence of
+        quasi--recurrences set by the dispersion relation.
+  \item The localisation fraction as a function of time is very similar
+        in the free and constrained cases; the constrained curve
+        sits slightly below the free one as expected, since a small
+        amount of weight is continually nudged into a uniform background.
+  \item No evidence of spontaneous self--trapping or anomalous long--lived
+        localisation emerges at these parameters.
+\end{itemize}
+
+\subsection{3D bump with self--interaction}
+To get closer to the intended ``toy universe'' we repeat the exercise
+in 3D with a quartic self--interaction.
+The code is in
+\texttt{src/run\_localized\_bump\_3d.py} and
+\texttt{notebooks/08\_localized\_bump\_analysis\_3d.py}.
+
+Here we evolve a Gaussian bump of amplitude $A\simeq0.3$ and width $W\simeq4$
+on a $40^3$ lattice, with mass $m_0=0.5$ and $\lambda_4=1$.
+We again compare free vs.\ constrained evolutions and measure
+the fraction of $\lvert\phi\rvert^2$ inside a central sphere.
+
+Snapshots of the central $z$--slice (stored as
+\texttt{localized\_bump\_3d\_slices.png}) show spherical shells
+expanding and interfering in both cases.
+The localisation fraction decays in an irregular but correlated way
+between free and constrained runs.
+At this stage there is no sign that the non--cancelling rule produces
+oscillons, solitons, or other exotic long--lived structures on its own.
+
+\subsection{Parameter scan}
+To make sure we are not cherry--picking a benign corner of parameter space,
+we perform a coarse scan over amplitudes, widths, self--couplings and
+non--cancellation scales using
+\texttt{src/run\_localized\_bump\_3d\_scan.py} and
+\texttt{notebooks/09\_localized\_bump\_scan\_analysis\_3d.py}.
+
+The scan currently covers:
+\begin{itemize}
+  \item amplitudes $A\in\{0.2,0.3\}$,
+  \item widths $W\in\{3,5\}$,
+  \item $\lambda_4\in\{0.5,1.0\}$,
+  \item $\varepsilon\in\{10^{-3},5\times10^{-3}\}$.
+\end{itemize}
+
+For each point we evolve for a fixed time and record the final localisation
+fraction in the central sphere, building 2D maps of localisation vs.\ width
+and amplitude, with separate panels for free and constrained runs.
+
+Within this coarse grid:
+\begin{itemize}
+  \item Regions of higher final localisation are shared between free and
+        constrained systems; the constraint slightly lowers the absolute
+        values but does not introduce qualitatively new behaviour.
+  \item There is no obvious parameter island where the constrained system
+        localises while the free system disperses completely, or vice versa.
+\end{itemize}
+
+\section{Two--field coupling: energy sharing as a probe}
+\subsection{Homogeneous coupled fields}
+A simple but sensitive test of the axiom is to let it act on a
+\emph{combination} of fields instead of a single one.
+We therefore consider two real scalar fields $\phi$ and $\chi$ on a 1D lattice,
+with masses $m_1$ and $m_2$ and a bilinear coupling $g\,\phi\chi$.
+The implementation is in
+\texttt{src/run\_two\_field\_coupling\_1d.py} (or equivalently the scan
+version in \texttt{src/run\_two\_field\_coupling\_scan.py}),
+with analysis in
+\texttt{notebooks/10\_two\_field\_coup\-ling\_analysis\_1d.py}.
+
+We initialise a small homogeneous excitation in $\phi$ only and evolve both
+the free system and one in which the non--cancelling rule acts on the
+\emph{combined} mean field
 \begin{equation}
-  \forall C\in\mathcal{C}_{\text{phys}}:\quad
-  A(C) \notin \mathcal{D}_\epsilon(A_\ast).
+  A(t) \propto \langle \phi(t)\rangle + i \langle \chi(t)\rangle .
 \end{equation}
 
-In the simplest case, \(A_\ast = 0\) and we forbid configurations with
-\(|A(C)|<\epsilon\). This excludes exact cancellation of \(A\) and forces the
-universe to retain a minimal ``offset'' away from the origin in amplitude
-space.
-
-The choice of \(A\) is crucial. If \(A\) were, say, total electric charge, the
-axiom would be ruled out by the existence of neutral systems. The intent is
-instead to choose a functional that probes some deeper global property, such
-as a complexified vacuum amplitude, a weighted field sum, or an object built
-from multiple sectors.
-
-\section{Sanity checks from toy models}
-
-The scalar toy universe studied in the companion paper provides a concrete
-arena for sanity checks. There the amplitude is the lattice sum of a complex
-scalar field on a discrete three--torus, and the axiom is implemented as a
-projection that enforces \(|A|\ge\epsilon\) at each time step.
-
-The simulations reveal several important points:
-
+At large $g$ the coupled system becomes unstable and both mean fields
+blow up; this is a feature of the underlying discretised equations,
+not of the constraint itself, and we treat this as a parameter region
+to avoid.
+At more modest couplings (e.g.\ $g=0.02$ in the current runs)
+the behaviour is much calmer:
 \begin{itemize}
-  \item \textbf{Implementation is possible.} The constraint can be imposed in
-  a numerically stable way in both linear and nonlinear regimes. The global
-  amplitude is driven away from zero and held near \(|A|\approx\epsilon\)
-  without obvious pathologies.
-  \item \textbf{Energy is largely unchanged.} The total energy of the system,
-  as defined by a standard discrete functional, is nearly insensitive to the
-  constraint. This suggests that the non--cancelling rule can act as a
-  structural selection on configuration space rather than a crude new
-  interaction term.
-  \item \textbf{Null results in one dimension.} In one--dimensional twisted
-  scalar models, the total vacuum energy is numerically independent of a
-  global twist parameter. This shows that in highly symmetric quadratic
-  systems, a global phase--like parameter can be spectrally trivial.
+  \item Energy oscillates between the two fields as expected from
+        coupled harmonic oscillators.
+  \item The total energy is conserved to the same level in free and
+        constrained runs; the constraint curve sits slightly above
+        the free one but without secular drift.
+  \item The mean fields remain small and oscillatory;
+        constraint hits serve mainly to keep the combined mean away
+        from exact cancellation, not to pump or drain energy.
 \end{itemize}
 
-These results form a first layer of sanity checks:
-they demonstrate that a non--cancelling rule can be embedded in concrete
-dynamics without immediate contradiction, but they also underscore that such a
-rule does not automatically explain any observed small numbers.
+\subsection{Two--field localised bump}
+Finally we combine localisation and coupling in
+\texttt{src/run\_two\_field\_bump\_1d.py} with analysis in
+\texttt{notebooks/11\_two\_field\_bump\_analysis\_1d.py}.
+We place a localised bump in $\phi$ on a 1D lattice,
+leave $\chi$ initially at rest, and couple them with a moderate $g$.
 
-\section{Conceptual gaps and limitations}
+Again we track a localisation fraction (now combining both fields)
+in a central window as a function of time.
+The free and constrained curves are extremely close;
+the constrained system tends to lose a slightly larger fraction of its
+central weight as time progresses, consistent with a very mild bias
+towards spreading the combined amplitude away from perfect cancellation.
 
-Several gaps remain between the abstract non--cancelling principle and any
-realistic application:
+No qualitatively new attractors or long--lived composites appear in
+this regime.
+From the viewpoint of a cancellation system this is, again,
+a null result---but an important one:
+the rule can act on a coupled multi--field system without introducing
+obvious pathologies.
 
+\section{Discussion and roadmap}
+The tests documented in this Act~II all point in the same direction:
+within the scalar lattice frameworks explored so far, the non--cancelling
+rule behaves as a small, tunable perturbation.
+For sufficiently small $\varepsilon$,
 \begin{itemize}
-  \item \textbf{Ambiguity in \(A\).} We have not uniquely identified what
-  physical quantity \(A\) should be in realistic theories. Different choices
-  may lead to very different consequences.
-  \item \textbf{Quantum formulation.} The toy models are classical or
-  semiclassical. A full quantum version of the axiom would require specifying
-  how the forbidden region in amplitude space is implemented at the level of
-  states and path integrals.
-  \item \textbf{Relation to observed fine--tunings.} It is not yet clear
-  whether a constraint \(|A|\ge\epsilon\) can be connected in any precise way
-  to the observed smallness of quantities such as the cosmological constant.
-  The toy models suggest qualitative analogies but no quantitative bridge.
-  \item \textbf{Measure and typicality.} Even if we restrict configuration
-  space by forbidding \(|A|\) near zero, we must still specify a measure over
-  the remaining configurations. It is not obvious that typical configurations
-  under such a measure will resemble our universe.
+  \item basic vacuum properties (including twisted and defected chains)
+        are unchanged within numerical precision;
+  \item individual modes retain their frequencies and line shapes;
+  \item localised bumps disperse and recur in much the same way with and
+        without the constraint;
+  \item energy sharing in modestly coupled two--field systems proceeds as
+        expected, with total energy conserved to comparable accuracy.
 \end{itemize}
 
-These limitations do not invalidate the Origin Axiom as a conceptual proposal,
-but they signal clearly that much work remains before it can be considered a
-candidate explanation for any specific observational puzzle.
+These are not the spectacular signatures one might secretly hope for,
+but they are exactly the kind of groundwork that any serious proposal
+must survive.
+They also clarify where \emph{not} to look: the simulations here suggest
+that if the Origin Axiom has observable consequences, they are unlikely
+to appear as wild instabilities or miraculous localisation at the level
+of a simple scalar lattice.
 
-\section{Outlook}
-
-Viewing the universe as a cancellation system is a suggestive but potentially
-dangerous metaphor. On the one hand, it captures the way many large
-contributions combine to yield small net effects. On the other, it can hide
-fine--tuning behind a language of ``balancing'' and ``neutrality'' that has no
-structural justification.
-
-The non--cancelling principle embodied in the Origin Axiom is an attempt to
-discipline this metaphor. By insisting that at least one global amplitude
-never cancels exactly, it imposes a modest but nontrivial restriction on
-configuration space. The scalar toy models show that this restriction can be
-realised concretely and that it behaves in a controlled way; the analytic
-checks in one dimension clarify where naive hopes for phase--based effects
-fail.
-
-From here, progress will require:
-
+The natural next steps, some of which are already sketched in
+\texttt{docs/ROADMAP.md}, are:
 \begin{itemize}
-  \item sharpening the definition of physically meaningful global amplitudes;
-  \item exploring richer models where \(|A|\ge\epsilon\) has nontrivial
-  consequences;
-  \item developing a quantum formulation of the axiom; and
-  \item searching for potential observational signatures or no--go theorems.
+  \item Extend the cancellation--system viewpoint to sectors that more closely
+        resemble realistic matter (multiple fields with different statistics,
+        gauge structure, approximate symmetries).
+  \item Explore versions of the rule where $A(C)$ is tied to genuinely
+        global quantities (e.g.\ phase--twisted sums over sectors) rather
+        than simple lattice means.
+  \item Investigate whether the constraint can induce small but coherent
+        biases in ensembles of initial conditions, potentially relevant to
+        vacuum selection or cosmological initial data.
 \end{itemize}
 
-The present paper should therefore be read as a map of constraints and
-sanity checks rather than a final claim. It sets the stage on which more
-ambitious attempts---such as connecting the non--cancelling principle to
-vacuum energy or to other global features of the universe---can be judged.
+In that sense, Act~II is both a conclusion and a beginning:
+it closes the loop on the first wave of sanity checks and prepares the
+ground for more ambitious tests in which the axiom is allowed to ``touch''
+structures closer to the real universe.
 
 \end{document}

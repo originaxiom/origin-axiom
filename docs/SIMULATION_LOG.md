@@ -137,3 +137,41 @@ Use the template below for each new entry.
 
 
 
+
+## [SIM-2025XXXX-M01] mode_spectrum_1d_constraint
+
+- Date: 2025-12-10
+- Code: `src/run_mode_spectrum_with_constraint.py`
+- Notebook: `notebooks/06_mode_spectrum_analysis.py`
+- Parameters:
+  - N = 256, dt = 0.05, steps = 4096
+  - m0 = 0.1
+  - k_index = 1
+  - initial cosine amplitude = 1e-3
+  - non-cancelling scale epsilon = 1e-3
+- Question:
+  - Does imposing a small non-cancelling bound on the global mean field
+    significantly modify the oscillation frequency omega(k) of a chosen mode?
+- Output files:
+  - `data/processed/mode_spectrum_1d.npz`
+  - `data/processed/mode_spectrum_timeseries.png`
+  - `data/processed/mode_spectrum_power.png`
+- Sanity checks:
+  - Time series for free vs constrained runs overlap almost perfectly.
+  - Power spectra share the same dominant peak.
+  - Extracted omega_free and omega_constrained are equal within numerical
+    tolerance and both are reasonably close to the linear-theory omega(k).
+- Result summary (1–3 sentences):
+  - For k_index = 1 and epsilon = 1e-3, the non-cancelling constraint on the
+    global mean field does not visibly distort the mode dispersion: the
+    extracted frequencies for free and constrained runs coincide to within
+    numerical precision. The basic lattice Klein–Gordon spectrum remains
+    intact.
+- Next questions:
+  - Explore other k indices and larger epsilon to see when the constraint
+    begins to significantly shift omega(k).
+  - Move from linear modes to localized lumps to search for proto-particle
+    structures under the constraint.
+
+
+
