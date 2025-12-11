@@ -49,3 +49,17 @@
   - Explored several θ values, including “nice” numbers (1, 1.5, 2, π) and irrational candidates (φ, φ^φ).
   - Observed mean|S|/√N grows with N for all tested θ; no special suppression for φ or φ^φ — important to keep us θ-agnostic going forward.
 - Decision: keep the non-cancelling principle θ*-agnostic in all write-ups. φ and φ^φ remain hypotheses for later testing, not built-in assumptions.
+
+---
+
+## 2025-12-11 — Phase θ-Agnostic-0
+
+- Consolidated a **θ\*-agnostic verification layer** across:
+  - `scalar_vacuum_theta/` (dispersion, dephasing, noise residue),
+  - `lattice_theta/` (4D Δα(θ) fits for several sample θ),
+  - `cancellation_system/` (chain residual scaling for multiple θ).
+- Logged summary in `verification_notes.md` under
+  **"Phase θ-Agnostic-0: Verification Layer (2025-12-11)"**.
+- Added `docs/THETA_AGNOSTIC_PROGRAM.md` to clearly state the
+  non-cancelling principle, the θ-agnostic stance, and the near-term roadmap.
+
