@@ -1,129 +1,184 @@
-# Origin Axiom — Research Roadmap
+# Origin Axiom – Scalar Universe Roadmap
 
-This document tracks the concrete steps for the **Origin Axiom** project inside this repository.
-It focuses on physics and math: configuration space, global amplitudes, toy models and sanity checks.
+This document defines what this repository is *for* and how we progress without drift.
 
-Big picture goal for this repo:
+## 1. Role of this repo in the larger program
 
-> Deliver a clean, reproducible research package (code + papers) that
-> defines the Origin Axiom, tests it in explicit models, and is ready for
-> Zenodo / arXiv / peer discussion.
+This repo is the **scalar-universe backbone** of the Origin Axiom program.
 
----
+- It implements the **non-cancelling principle** in a **θ\*-agnostic** way.
+- It studies a **single real scalar field** on lattices (1D/2D/3D) with:
+  - vacuum stiffness / mass terms,
+  - optional non-cancelling constraints,
+  - noise, dissipation, and structured media (interfaces, cavities).
+- It does **not** decide what θ\* is (no hard-coded φ or φ^φ),
+  and it does **not** attempt to derive flavor or gravity directly.
 
-## Phase 0 — Foundation *(mostly done)*
+Other modules (outside this repo) can build on this:
+gravity/FRW, φ-based ladders, Yukawas, etc.
 
-- Git repository with a clear structure (`src/`, `docs/`, `paper/`, `data/`).
-- Minimal 3D scalar toy universe on a discrete 3-torus.
-- Implementation of a global non-cancelling constraint \(|A| \ge \epsilon\).
-- Basic 1D twisted scalar models for analytic / null checks.
-- Draft LaTeX:
-  - `origin_axiom_A_principle.tex` — principle and motivation;
-  - `origin_axiom_B_toy_universe.tex` — scalar toy universe.
-- `docs/PROGRESS_LOG.md` with dated entries for all important simulations.
+## 2. Current status (v0.1 – in progress)
 
----
+We already have:
 
-## Phase 1 — v0.1 Research Package
+- A conceptual formulation of the non-cancelling axiom.
+- A scalar field toy model implemented on lattices.
+- Verified dispersion and stable dynamics in the linear regime.
+- Wave-transport experiments: interfaces, gradients, cavities.
+- A first round of verification notes summarizing numerical tests.
 
-**Goal:** lock a first serious, defensible package of work.
+What is *missing* (the focus of this roadmap):
 
-### 1.1 Documentation
+- A clean, θ-agnostic formal write-up (Paper A/B) tied tightly to code.
+- A systematic study of the **cancellation system**:
+  when does the non-cancelling constraint matter,
+  and when is it effectively just a boundary condition?
+- A clear hand-off interface to higher-level modules
+  (gravity, flavor, θ\* candidates).
 
-- [ ] Keep `README.md` aligned with the actual code and paper structure.
-- [ ] Maintain `docs/PROGRESS_LOG.md` for every new experiment.
-- [ ] Expand `docs/03_toy_universe_v0_1.md` with:
-  - short derivation of the discrete equations;
-  - explanation of the constraint projection in math + plain language.
+## 3. Phase A – Lock in scalar toy universe v1
 
-### 1.2 Papers
+**Goal:** A coherent, documented v1 of the scalar universe with non-cancelling
+constraint, ready to be cited by other work.
 
-- [ ] Tighten **Paper A**:
-  - clarify the role of the global amplitude \(A(C)\);
-  - make the formal statement of the Origin Axiom as clean as possible;
-  - ensure consistency with toy-universe implementation.
+### A1. Documentation
 
-- [ ] Tighten **Paper B**:
-  - align the equations and parameter choices with the actual scripts;
-  - insert final versions of the key figures (3D comparisons, nonlinear runs, epsilon/lambda scans, 1D null results);
-  - cross-reference `docs/PROGRESS_LOG.md` where appropriate.
+- [ ] Ensure `README.md` scope section (this repo = scalar backbone, θ-agnostic).
+- [ ] Maintain this `docs/ROADMAP.md` as the source of truth for phases.
+- [ ] Create/maintain `docs/PROGRESS_LOG.md` as a chronological log of major runs
+      and decisions (date, script, key result, short interpretation).
 
-- [ ] Draft **Paper C** (working title):  
-  *“Universe as a Cancellation System: Non-Cancelling Principle and Sanity Checks”*.
-  - summarise the idea of viewing the universe as a giant cancellation system;
-  - integrate insights from the internal PDFs (Non-Cancelling Principle, cancellation system evaluation);
-  - clearly separate speculation from solid numerics.
+### A2. Code baseline
 
-### 1.3 Code quality
+- [ ] Identify and freeze a reference scalar model implementation in `src/`
+      (single source of truth for the toy scalar equations).
+- [ ] Tag the main dispersion and cavity scripts used for validation
+      (e.g. `src/phaseI_...`, `src/phaseII_...`, `src/phaseIII_...`).
+- [ ] Ensure each core script:
+      - takes parameters from a config or CLI,
+      - writes outputs into `data/processed/...`,
+      - is referenced by at least one notebook or figure.
 
-- [ ] Add docstrings and comments to the main modules in `src/toy_universe_lattice/` and `src/toy_universe_1d/`.
-- [ ] Provide at least a minimal `tests/` or `scripts/` folder with:
-  - quick numerical sanity checks (e.g. energy conservation without constraint; flat E\_0 vs twist in 1D);
-  - a “smoke test” script that runs the main demos end-to-end.
+### A3. Reference run
 
-- [ ] Ensure all key figures can be regenerated from a small set of commands,
-  ideally collected in a `docs/REPRODUCING_FIGURES.md` or a makefile.
+- [ ] Choose one "reference run" (scenario) and document end-to-end:
+      - which script and parameters,
+      - which output .npz/.csv files,
+      - which plots,
+      - which section in the write-up.
+- [ ] Use this as a template for future experiments.
 
-### 1.4 Release
+**Exit criterion for Phase A:**
+We can point a new collaborator to:
+- `README.md` + `docs/ROADMAP.md`,
+- one reference script + its data + its figure,
+- and a draft write-up (Paper A/B),
+and they can reconstruct what the scalar toy universe *is* without guessing.
 
-- [ ] Tag a `v0.1` GitHub release once Papers A and B and the core simulations are stable.
-- [ ] Link the release to Zenodo to obtain a DOI.
-- [ ] Treat `v0.1` as a frozen reference point for future work.
+## 4. Phase B – Cancellation system & null tests
 
----
+**Goal:** Understand, with brutal honesty, what the non-cancelling constraint does
+and where it reduces to a mild bias or boundary condition.
 
-## Phase 2 — Extensions and Microstructure
+We introduce a dedicated module:
 
-**Goal:** explore the Origin Axiom beyond the simplest toy model while keeping v0.1 stable.  
-This phase can create branches or new subfolders; v0.1 remains reproducible.
+`src/cancellation_system/`
 
-Possible directions (to be prioritised later):
+with at least three experiments:
 
-- **Alternative global amplitudes \(A(C)\):**
-  - weighted sums, currents, or functionals involving spatial structure;
-  - study how different choices change the statistics of constraint hits and energy.
+1. **Energy-scaling test**
 
-- **Richer microstructure:**
-  - other discrete topologies (e.g. different lattices, graphs, defects);
-  - multiple scalar components; coupling to an effective “metric” field.
+   Script: `run_constraint_energy_scaling.py`
 
-- **More analytic work:**
-  - continuum approximations of the lattice models;
-  - more detailed analysis of twisted / defected systems;
-  - bounds relating the non-cancellation scale \(\epsilon\) to vacuum-like energies.
+   - Same initial condition, vary the constraint strength / tolerance.
+   - Measure:
+     - total energy vs time,
+     - final state statistics,
+     - any systematic trend with constraint strength.
+   - Question: does the constraint inject/remove energy, or is it neutral?
 
-All Phase-2 explorations should log their results in `docs/PROGRESS_LOG.md`
-and, where appropriate, branch into new LaTeX sections or separate notes.
+2. **Random-phase ensemble**
 
----
+   Script: `run_constraint_random_phases.py`
 
-## Phase 3 — External Exposure
+   - Many random-phase initial states with and without constraint.
+   - Compare distributions of:
+     - mode amplitudes,
+     - spatial correlations,
+     - long-time averages.
+   - Question: does the constraint meaningfully alter the ensemble, or
+     is it just selecting a thin shell of allowed configurations?
 
-**Goal:** share the work with the outside world once you are comfortable with its solidity.
+3. **Multimode interference**
 
-- [ ] Prepare arXiv submissions for:
-  - Paper A (principle),
-  - Paper B (toy universe),
-  - optionally Paper C (cancellation systems / sanity checks).
+   Script: `run_constraint_multimode_interference.py`
 
-- [ ] Attach code and data references in each submission (GitHub + Zenodo DOI).
+   - Superposition of several modes designed to nearly cancel.
+   - Compare the dynamics with and without constraint.
+   - Question: are certain destructive interference patterns
+     suppressed or destabilized?
 
-- [ ] Prepare a short human-friendly summary (e.g. blog/Medium post) that:
-  - explains the intuition of the Origin Axiom in non-technical language,
-  - points interested readers to this repo for the technical details.
+### B1. Paper C – Cancellation System
 
-- [ ] Start targeted conversations with a few open-minded physicists / communicators.
-  The aim is not hype, but honest feedback and potential collaboration.
+We prepare a focused write-up (Paper C) with:
 
----
+- A precise definition of the cancellation system and constraint rule.
+- Implementation details in this scalar universe.
+- Results from the three experiments above.
+- Interpretation: identifying when the axiom is nontrivial vs when it reduces
+  to a fancy boundary condition.
 
-## Phase 4 — Beyond this repo (future work)
+**Exit criterion for Phase B:**
+We can answer:
+> "What does the non-cancelling axiom *operationally* do in this scalar universe?"
 
-The broader ideas that motivated the Origin Axiom—possible roles in cosmology,
-vacuum energy, information, even societal / governance analogies—are deliberately
-kept \*outside\* this repository for now.
+with data and clearly separated "yes/no/unknown" statements.
 
-Once the v0.1 package is stable and public, these wider directions can spin off
-into separate documents or projects, always anchored back to the clean core:
-a well-defined, well-tested non-cancelling principle over configuration space.
+## 5. Phase C – Interface to higher modules
+
+**Goal:** Make this repo a clean dependency for:
+
+- Gravity/FRW & Λ models.
+- θ\* candidate selection (φ, φ^φ, etc.).
+- Flavor/mass toy models.
+
+Tasks:
+
+- [ ] Extract a θ-agnostic formal statement of the axiom suitable to reuse:
+      (e.g. as a constraint on allowed field configurations or sectors).
+- [ ] Specify what this scalar universe *guarantees*:
+      coherence properties, dispersion, dephasing laws, etc.
+- [ ] Document which parts of this repo are "stable" (won't change often)
+      and can be treated as a library.
+
+**Exit criterion for Phase C:**
+We can write a short "interface spec" (1–2 pages) that a gravity or flavor
+module can rely on, without inheriting φ- or φ^φ-specific assumptions.
+
+## 6. Working principles (guardrails)
+
+- θ\* is **agnostic** in this repo.
+- Every new idea must appear as:
+  1. A hypothesis in words,
+  2. An implementation in `src/`,
+  3. A result in `data/`,
+  4. An entry in `docs/PROGRESS_LOG.md`,
+  5. A sentence or figure in a write-up.
+
+- We always distinguish:
+  - Axiom-level statements,
+  - Model-specific choices,
+  - Speculative extrapolations.
+
+
+## Phase S: θ*-agnostic scalar vacuum
+
+- Extract minimal scalar vacuum sector with non-cancelling constraint, independent of any specific choice of θ*.
+- Implement:
+  - 1D dispersion & stability checks in `src/scalar_vacuum_theta/`.
+  - Noise + dephasing + residue (`η_k`, V_k) with clear scaling laws.
+  - Interface / cavity experiments as θ*-agnostic templates.
+- Deliverables:
+  - Figures and CSV summaries under `data/processed/scalar_vacuum_theta/`.
+  - One coherent Methods section for Paper B / C.
 

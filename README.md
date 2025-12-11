@@ -185,3 +185,24 @@ The current target is a v0.1 research release containing:
 
 The long-term programme (microstructure choices, θ* phenomenology,
 possible connections to vacuum energy) is tracked in docs/ROADMAP.md.
+
+---
+
+## Project scope (scalar universe module)
+
+This repository implements the **Origin Axiom / non-cancelling principle** in the
+simplest possible setting: a **θ\*-agnostic scalar lattice universe**.
+
+- We treat the fundamental twist angle θ\* as **unknown**.  
+- We do **not** assume θ\* = φ or θ\* = φ^φ or any other specific constant here.  
+- This module focuses on:
+  - scalar-field vacuum dynamics on lattices,
+  - the implementation of a non-cancelling constraint at the level of fields/states,
+  - numerical sanity checks: dispersion, energy flow, interfaces, cavities, noise, etc.
+- It does **not** include:
+  - flavor physics or CKM/PMNS mixing,
+  - detailed cosmology or gravity,
+  - φ-based mass ladders or Yukawa textures.
+
+Those topics live in **separate, dependent modules** in the broader Origin Axiom
+program and will cite the results of this scalar-universe backbone.
