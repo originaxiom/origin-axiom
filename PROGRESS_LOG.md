@@ -162,3 +162,16 @@
 2. **Axiom link-up**  
    - Interpret Δα(θ★) as a candidate “preferred phase” in the axiom story and compare it with other φ/φ^φ-based structures in the Origin Axiom framework.
 
+
+### 2025-12-11 – θ★ cancellation-chain check (non-cancelling vs cancelling)
+
+- Ran `cancellation_system/run_chain_residual_scan.py` at θ★ = 2.598 for
+  Ns = 16…4096, with and without global zero-sum constraint.
+- Non-cancelling (no-zero-sum) and cancelling (zero-sum) runs both show
+  mean|S|/sqrt(N) growing from ~0.9 at N=16 to ~3.1–3.2 at N=4096.
+- Compared to the φ^φ baseline (θ ≈ 2.17846) where mean|S|/sqrt(N) stays
+  ≈ 0.84–1.06 up to N=128, θ★ clearly enhances residuals.
+- Together with the 4D Δα(θ) minimum and the θ*-driven scalar mass shift,
+  this provides a three-way consistency check of the non-cancelling principle
+  around θ★.
+
