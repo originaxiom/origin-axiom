@@ -48,3 +48,4 @@ paper/*.pdf
 *.out
 *.fdb_latexmk
 *.fls
+src/lattice_theta/*.bak
