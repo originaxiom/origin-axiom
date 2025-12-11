@@ -37,3 +37,15 @@
   - Reasonable fluctuation spectrum and finite spatial coherence under noise.
 - No φ or φ^φ entered any of these scripts; this is a pure, clean baseline vacuum ready for later insertion of a non-cancelling twist (θ*).
 
+
+## 2025-12-11 — θ*-agnostic vacuum + cancellation chains
+
+- Added θ*-agnostic scalar vacuum module (`src/scalar_vacuum_theta/`) and verified:
+  - 1D dispersion matches ω² = k² + m₀² with rel. errors ~10⁻³.
+  - Damped modes obey ηₖ ≈ γ (k-independent) as a clean dephasing sanity check.
+  - Noisy vacuum shows Var(θₖ) ~ C/ωₖ² and an exponential spatial coherence C(r) ~ exp(-r/ξ).
+- Introduced θ*-agnostic 4D lattice Δα(θ) calculator (`src/lattice_theta/lattice_delta_alpha.py`) and verified it converges for generic θ (example: θ = 2 gives Δα ≈ -7.25 with 1/R tail fit).
+- Implemented discrete cancellation-chain toy model (`src/cancellation_system/`) and ran residual scans with enforced zero-sum charges:
+  - Explored several θ values, including “nice” numbers (1, 1.5, 2, π) and irrational candidates (φ, φ^φ).
+  - Observed mean|S|/√N grows with N for all tested θ; no special suppression for φ or φ^φ — important to keep us θ-agnostic going forward.
+- Decision: keep the non-cancelling principle θ*-agnostic in all write-ups. φ and φ^φ remain hypotheses for later testing, not built-in assumptions.

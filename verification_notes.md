@@ -35,3 +35,19 @@ Establish a clean reference scalar vacuum, independent of any specific choice of
 **Summary.**  
 Phase θA confirms that, before introducing any specific non-cancelling twist θ*, our baseline scalar vacuum is numerically and physically consistent. This provides the reference medium onto which we will later graft θ*-dependent effects (e.g. φ- or φ^φ-derived corrections) and compare against the clean θ*-free behavior.
 
+
+
+## Phase θ-0 — θ*-agnostic sanity checks (vacuum + chains)
+
+- Added a θ*-agnostic scalar vacuum testbed in `src/scalar_vacuum_theta/`.
+  - `run_1d_vacuum_dispersion.py`: 1D Klein–Gordon dispersion check with m₀ = 5. Numerical ωₖ agrees with ω² = k² + m₀² at ~10⁻³ level across modes n = 1…8.
+  - `run_1d_vacuum_dephasing.py`: damped evolution with uniform γ. Extracted ηₖ from envelopes confirms ηₖ ≈ γ (k-independent), validating the damping implementation.
+  - `run_1d_vacuum_noise_residue.py`: noisy vacuum, measuring mode variances and spatial coherence. Variances scale approximately like const/ωₖ² and C(r) is well fit by exp(-r/ξ), giving a finite coherence length ξ.
+- Implemented a generic 4D lattice Δα(θ) calculator in `src/lattice_theta/lattice_delta_alpha.py`.
+  - For example θ = 2, R up to 8 already shows a stable partial sum S_R with a reasonable 1/R tail fit, indicating the construction is numerically well behaved for generic θ.
+- Built a discrete “cancellation chain” toy model in `src/cancellation_system/`.
+  - `run_chain_residual_scan.py` enforces zero-sum integer charges with random phases kθ and measures residual S(N,θ).
+  - Scans over multiple θ (including φ and φ^φ) show mean|S|/√N grows with N for all tested values; no obviously privileged θ at this level.
+
+Conclusion for Phase θ-0:
+These checks confirm that (i) our θ*-agnostic scalar vacuum sector is numerically consistent and physically sensible, and (ii) a simple 1D cancellation-chain model does *not* single out any special θ by itself. This supports keeping the non-cancelling axiom θ-agnostic while we move to higher-dimensional and more structured models.
