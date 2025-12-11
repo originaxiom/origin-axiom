@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-??*-agnostic 4D lattice ????(??) test.
+θ*-agnostic 4D lattice Δα(θ) test.
 
-We define a 4D integer lattice m = (n1, n2, n3, n4) ??? Z^4 \ {0},
+We define a 4D integer lattice m = (n1, n2, n3, n4) ∈ Z^4 \ {0},
 and compute a phase-weighted sum inside a spherical cutoff |m| <= R:
 
-  S_R(??) = sum_{m != 0, |m| <= R} cos(?? * |m|) / |m|^p
+  S_R(θ) = sum_{m != 0, |m| <= R} cos(θ * |m|) / |m|^p
 
 for some p > 4 (we use p = 6 by default so the sum is absolutely convergent).
 
 We then:
   * compute S_R for R = 1..R_max,
   * estimate a tail bound using a continuum approximation,
-  * fit S_R ??? A + B / R for R >= R_fit_min,
-  * interpret A as ????(??).
+  * fit S_R ≈ A + B / R for R >= R_fit_min,
+  * interpret A as Δα(θ).
 
 Outputs:
   * data/processed/lattice_theta/delta_alpha_theta_R{R_max}_theta{theta:.3f}.csv
@@ -43,7 +43,7 @@ def lattice_sum_4d(R: int, theta: float, p: float) -> float:
     R : int
         Spherical cutoff radius in lattice units (integer).
     theta : float
-        Phase parameter ??.
+        Phase parameter θ.
     p : float
         Power in the denominator (must be > 4 for absolute convergence).
 
@@ -62,7 +62,7 @@ def lattice_sum_4d(R: int, theta: float, p: float) -> float:
             for n3 in range(-R, R + 1):
                 n3_sq = n3 * n3
                 for n4 in range(-R, R + 1):
-                    n4_sq = n4 * n4
+							n4_sq = n4 * n4
                     # skip origin
                     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
                         continue
@@ -83,13 +83,13 @@ def tail_bound_4d(R: float, p: float) -> float:
 
     We approximate the shell measure in 4D:
 
-      dN ~ S_3 * r^3 dr,  with S_3 = 2??^2  (surface area of the unit 3-sphere).
+      dN ~ S_3 * r^3 dr,  with S_3 = 2π^2  (surface area of the unit 3-sphere).
 
     Then for p > 4:
 
-      |tail| ~ ???_R^??? S_3 * r^3 * (1 / r^p) dr
-              = S_3 * ???_R^??? r^{3-p} dr
-              = S_3 * [ r^{4-p} / (4 - p) ]_R^???
+      |tail| ~ ∫_R^∞ S_3 * r^3 * (1 / r^p) dr
+              = S_3 * ∫_R^∞ r^{3-p} dr
+              = S_3 * [ r^{4-p} / (4 - p) ]_R^∞
               = S_3 * (R^{4-p}) / (p - 4)
 
     We take the absolute value as an upper bound.
@@ -117,12 +117,12 @@ def compute_delta_alpha_theta(theta: float,
                               p: float,
                               R_fit_min: int):
     """
-    Compute S_R(??) up to R_max, estimate tail bounds, and fit S_R ??? A + B / R.
+    Compute S_R(θ) up to R_max, estimate tail bounds, and fit S_R ≈ A + B / R.
 
     Parameters
     ----------
     theta : float
-        Phase parameter ??.
+        Phase parameter θ.
     R_max : int
         Maximum spherical cutoff radius.
     p : float
@@ -140,7 +140,7 @@ def compute_delta_alpha_theta(theta: float,
           "theta": float,
           "p": float,
           "R_fit_min": int,
-          "A": float,     # fitted ????(??)
+          "A": float,     # fitted Δα(θ)
           "B": float,
           "A_err": float, # naive standard error on A
         }
@@ -155,29 +155,29 @@ def compute_delta_alpha_theta(theta: float,
         tb = tail_bound_4d(float(R), p)
         S_values.append(S_R)
         tail_bounds.append(tb)
-        print(f"  R={R:2d}: S_R={S_R:+.8f}, tail_bound???{tb:.3e}")
+        print(f"  R={R:2d}: S_R={S_R:+.8f}, tail_bound≈{tb:.3e}")
 
     S_values = np.array(S_values, dtype=float)
     tail_bounds = np.array(tail_bounds, dtype=float)
 
-    # Fit S_R ??? A + B / R for R >= R_fit_min
+    # Fit S_R ≈ A + B / R for R >= R_fit_min
     mask = Rs >= R_fit_min
     if np.count_nonzero(mask) < 2:
-        raise ValueError("Not enough R values ??? R_fit_min for a linear fit.")
+        raise ValueError("Not enough R values ≥ R_fit_min for a linear fit.")
 
     x = 1.0 / Rs[mask]
     y = S_values[mask]
 
     coeffs, cov = np.polyfit(x, y, 1, cov=True)
-    B, A = coeffs  # y ??? B*x + A
+    B, A = coeffs  # y ≈ B*x + A
     # naive errors from covariance
     A_err = float(np.sqrt(cov[1, 1])) if cov.size == 4 else float("nan")
 
     print("----------------------------------------------------")
-    print("Fit S_R ??? A + B/R for R ??? {}:".format(R_fit_min))
-    print(f"  A ??? {A:+.8f}  (interpreted as ????(??))")
-    print(f"  B ??? {B:+.8f}")
-    print(f"  naive ??_A ??? {A_err:.3e}")
+    print("Fit S_R ≈ A + B/R for R ≥ {}:".format(R_fit_min))
+    print(f"  A ≈ {A:+.8f}  (interpreted as Δα(θ))")
+    print(f"  B ≈ {B:+.8f}")
+    print(f"  naive σ_A ≈ {A_err:.3e}")
 
     return {
         "R_values": Rs,
@@ -212,7 +212,7 @@ def save_results(result: dict,
     data_dir.mkdir(parents=True, exist_ok=True)
     fig_dir.mkdir(parents=True, exist_ok=True)
 
-    # Filenames keyed by R_max and ?? (rounded for readability)
+    # Filenames keyed by R_max and θ (rounded for readability)
     tag = f"R{R_max}_theta{theta:.3f}"
 
     csv_path = data_dir / f"delta_alpha_theta_{tag}.csv"
@@ -280,8 +280,8 @@ def save_results(result: dict,
     plt.scatter(x, S_vals, label="S_R data")
     plt.plot(x_dense, y_dense, label="fit A + B/R")
     plt.xlabel("1 / R")
-    plt.ylabel("S_R(??)")
-    plt.title(f"4D lattice ????(??) vs 1/R (??={theta:.3f}, R_max={R_max})")
+    plt.ylabel("S_R(θ)")
+    plt.title(f"4D lattice Δα(θ) vs 1/R (θ={theta:.3f}, R_max={R_max})")
     plt.legend()
     plt.tight_layout()
     plt.savefig(fig_path, dpi=200)
@@ -296,13 +296,13 @@ def save_results(result: dict,
 
 def main():
     parser = argparse.ArgumentParser(
-        description="??*-agnostic 4D lattice ????(??) test (brute-force, no numba)."
+        description="θ*-agnostic 4D lattice Δα(θ) test (brute-force, no numba)."
     )
     parser.add_argument(
         "--theta",
         type=float,
         required=True,
-        help="Phase parameter ??.",
+        help="Phase parameter θ.",
     )
     parser.add_argument(
         "--R-max",
@@ -320,17 +320,17 @@ def main():
         "--R-fit-min",
         type=int,
         default=6,
-        help="Minimum R to include in linear fit S_R ??? A + B/R.",
+        help="Minimum R to include in linear fit S_R ≈ A + B/R.",
     )
 
     args = parser.parse_args()
 
-    print("=== ??*-agnostic 4D lattice ????(??) test ===")
+    print("=== θ*-agnostic 4D lattice Δα(θ) test ===")
     print(f"theta = {args.theta:.6f}")
     print(f"R_max = {args.R_max}, p = {args.p}, R_fit_min = {args.R_fit_min}")
     print("----------------------------------------------------")
 
-    out_root = Path(__file__).resolve().parents[2]  # project root (???/origin-axiom)
+    out_root = Path(__file__).resolve().parents[2]  # project root (…/origin-axiom)
 
     result = compute_delta_alpha_theta(
         theta=args.theta,
