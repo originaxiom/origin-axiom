@@ -158,3 +158,22 @@ Figures saved to:
 3) Metric sweep: L2 vs L∞ vs signed sum residual definitions.
 4) IC/bootstrap jitter: verify minimum is not numerical coincidence.
 
+
+## 2025-12-12 — Act II findings (θ⋆ stability zone)
+
+- Driver: src/lattice_theta/run_delta_alpha_theta_scan.py
+- Key outputs: figures/lattice_theta/delta_alpha_theta_global_R12_p6.png, ..._min_focus.png, ..._star_R24.png
+
+### Empirical observation
+- Strong minimum in Δα(θ) near θ⋆ ≈ 2.59–2.62 (hypothesis: close to φ² ≈ 2.618…).
+- Current featured run shows Δα(θ⋆) ≈ −8.77 (from R=24 figure).
+
+### Working interpretation
+- θ⋆ behaves like a preferred “least-cancellable remainder” point (stability pocket) in the cancellation system.
+
+### Next robustness tests (required)
+1) θ-resolution sweep (Nθ): confirm θ⋆ converges.
+2) Cutoff sweep (R): confirm θ⋆ is stable vs R and depth scaling.
+3) Metric sweep: L2 vs L∞ vs signed/absolute residual variants (if available).
+4) Reproducibility: rerun with same params -> identical minima + exported CSVs/PNGs.
+
