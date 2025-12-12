@@ -137,11 +137,24 @@ Figures saved to:
 
 
 
-### 2025-12-11 – θ★ cancellation-chain check (non-cancelling vs cancelling)
+## 2025-12-12 — Act II findings (θ⋆ stability zone)
 
-See main `PROGRESS_LOG.md` for details. We now have:
-1. 4D lattice Δα(θ) minimum at θ★ ≈ 2.598.
-2. 1D scalar vacuum dispersion matched by Δm²(θ★).
-3. 1D cancellation chains at θ★ showing enhanced residuals that persist
-   with and without a zero-sum constraint.
+### Core empirical observation
+- A pronounced stability/minimum appears in the θ landscape near:
+  θ⋆ ≈ 2.598 (close to φ² ≈ 2.618…).
+- Observed extremum depth (current run/figure): Δα(θ⋆) ≈ −8.77.
+
+### Interpretation (current working model)
+- The θ⋆ zone behaves like a preferred holonomy / phase-lock point where the cancellation system becomes least able to fully cancel (i.e., a structurally stable remainder point).
+- Proximity to φ² is treated as a hypothesis until robustness tests (resolution/cutoff/metric) confirm it.
+
+### Not yet proven (must be stress-tested)
+- Invariance of θ⋆ under scan resolution, cutoff R / lattice size, boundary conditions, and alternative residual metrics.
+- Whether the depth (−8.77) is an invariant or scale/regularization artifact.
+
+### Immediate robustness checklist
+1) Resolution sweep: coarse→fine Nθ and confirm θ⋆ converges.
+2) Cutoff sweep: vary R (e.g., 12,18,24,30) and check θ⋆ drift.
+3) Metric sweep: L2 vs L∞ vs signed sum residual definitions.
+4) IC/bootstrap jitter: verify minimum is not numerical coincidence.
 
