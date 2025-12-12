@@ -155,3 +155,35 @@ Figures saved to:
 
 **Next**
 - Move from “finding θ⋆” to “using θ⋆”: propagate θ⋆ into scalar-vacuum mass-shift checks and cancellation-system scans, then test if θ⋆ is a genuine universality point or an artifact of fit/cutoff choice.
+
+## 2025-12-12 — Act II: θ⋆ stability zone (Δα(θ) lattice scan)
+
+**Goal:** locate the θ value where the 4D lattice vacuum shift Δα(θ) reaches its minimum (θ⋆), and assess stability under cutoff increase.
+
+### Lattice scan results (p = 6)
+
+- **Global scan (R_max = 12, R_fit_min = 6):**
+  - θ ≈ 2.5754716981
+  - Δα(θ) ≈ -8.7773752401 ± 2.0607e-2
+
+- **Min-focus scan (R_max = 12, R_fit_min = 6):**
+  - θ ≈ 2.5767782427
+  - Δα(θ) ≈ -8.7773762382 ± 2.0497e-2
+
+- **High-cutoff θ⋆ scan (R_max = 24, R_fit_min = 12):**
+  - θ ≈ 2.5972759857
+  - Δα(θ) ≈ -8.7732565456 ± 1.9505e-3
+
+### Interpretation
+
+- The **minimum is robust** and sits near **θ⋆ ~ 2.58–2.60**.
+- Increasing cutoff from **R_max=12 → 24** shifts θ⋆ upward by ~0.02 and reduces the fit uncertainty substantially.
+- Δα(θ⋆) stays near **-8.77**, suggesting convergence toward a stable value.
+
+### Artifacts
+
+- figures/lattice_theta/delta_alpha_theta_global_R12_p6.png
+- figures/lattice_theta/delta_alpha_theta_min_focus.png
+- figures/lattice_theta/delta_alpha_theta_star_R24.png
+- data/processed/lattice_theta/*.csv
+
