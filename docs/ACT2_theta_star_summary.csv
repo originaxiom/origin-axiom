@@ -1,0 +1,4 @@
+source_csv,R_max,R_fit_min,p,theta,delta_alpha,sigma_A
+data/processed/lattice_theta/delta_alpha_theta_global_R12_p6.csv,12.0,6.0,6.0,2.5754716981132075,-8.777375240094056,0.0206071260773897
+data/processed/lattice_theta/delta_alpha_theta_min_focus.csv,12.0,6.0,6.0,2.5767782426778245,-8.777376238189307,0.0204970192391671
+data/processed/lattice_theta/delta_alpha_theta_star_R24.csv,24.0,12.0,6.0,2.5972759856630825,-8.773256545627556,0.0019505355268805

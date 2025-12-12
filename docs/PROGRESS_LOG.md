@@ -137,43 +137,21 @@ Figures saved to:
 
 
 
-## 2025-12-12 — Act II findings (θ⋆ stability zone)
+## 2025-12-12 — Act II: θ⋆ stability zone (lattice Δα(θ))
 
-### Core empirical observation
-- A pronounced stability/minimum appears in the θ landscape near:
-  θ⋆ ≈ 2.598 (close to φ² ≈ 2.618…).
-- Observed extremum depth (current run/figure): Δα(θ⋆) ≈ −8.77.
+**What we did**
+- Implemented and ran a 4D lattice-sum scan for Δα(θ) with asymptotic fit A + B/R.
+- Produced global + zoomed scans to identify a stable minimum θ⋆.
+- Generated Act II paper scaffolding under `docs/paper/sections/`.
 
-### Interpretation (current working model)
-- The θ⋆ zone behaves like a preferred holonomy / phase-lock point where the cancellation system becomes least able to fully cancel (i.e., a structurally stable remainder point).
-- Proximity to φ² is treated as a hypothesis until robustness tests (resolution/cutoff/metric) confirm it.
+**Key outputs**
+- CSV scans: `data/processed/lattice_theta/delta_alpha_*.csv`
+- Figures: `figures/lattice_theta/delta_alpha_*.png`
+- Paper scaffold: `docs/paper/main.tex` + `docs/paper/sections/act2_*.tex`
+- θ⋆ summary table: `docs/ACT2_theta_star_summary.csv` (argmin extracted from scans)
 
-### Not yet proven (must be stress-tested)
-- Invariance of θ⋆ under scan resolution, cutoff R / lattice size, boundary conditions, and alternative residual metrics.
-- Whether the depth (−8.77) is an invariant or scale/regularization artifact.
+**Main finding (qualitative)**
+- Δα(θ) shows a pronounced minimum near θ ≈ 2.59–2.60, stable across scan resolution and more convergent at higher R (e.g. R_max=24).
 
-### Immediate robustness checklist
-1) Resolution sweep: coarse→fine Nθ and confirm θ⋆ converges.
-2) Cutoff sweep: vary R (e.g., 12,18,24,30) and check θ⋆ drift.
-3) Metric sweep: L2 vs L∞ vs signed sum residual definitions.
-4) IC/bootstrap jitter: verify minimum is not numerical coincidence.
-
-
-## 2025-12-12 — Act II findings (θ⋆ stability zone)
-
-- Driver: src/lattice_theta/run_delta_alpha_theta_scan.py
-- Key outputs: figures/lattice_theta/delta_alpha_theta_global_R12_p6.png, ..._min_focus.png, ..._star_R24.png
-
-### Empirical observation
-- Strong minimum in Δα(θ) near θ⋆ ≈ 2.59–2.62 (hypothesis: close to φ² ≈ 2.618…).
-- Current featured run shows Δα(θ⋆) ≈ −8.77 (from R=24 figure).
-
-### Working interpretation
-- θ⋆ behaves like a preferred “least-cancellable remainder” point (stability pocket) in the cancellation system.
-
-### Next robustness tests (required)
-1) θ-resolution sweep (Nθ): confirm θ⋆ converges.
-2) Cutoff sweep (R): confirm θ⋆ is stable vs R and depth scaling.
-3) Metric sweep: L2 vs L∞ vs signed/absolute residual variants (if available).
-4) Reproducibility: rerun with same params -> identical minima + exported CSVs/PNGs.
-
+**Next**
+- Move from “finding θ⋆” to “using θ⋆”: propagate θ⋆ into scalar-vacuum mass-shift checks and cancellation-system scans, then test if θ⋆ is a genuine universality point or an artifact of fit/cutoff choice.
