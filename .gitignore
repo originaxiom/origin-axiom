@@ -60,3 +60,21 @@ src/lattice_theta/*.bak
 *.out
 *.toc
 *.synctex.gz
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# PDFs (commit only if explicitly needed)
+*.pdf
+
+# macOS
+.DS_Store
+
