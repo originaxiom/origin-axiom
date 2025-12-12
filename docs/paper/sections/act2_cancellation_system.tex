@@ -1,0 +1,79 @@
+% Cancellation chains and non-cancelling residuals at theta-star
+
+\subsection{Cancellation chains and non--cancelling residuals}
+\label{subsec:act2-cancellation-system}
+
+The third probe of the non--cancelling principle is a
+family of one--dimensional ``cancellation chains''. For each chain
+length $N$ we draw integer charges $q_i \in \{-Q,\dots,+Q\}$ with
+$Q = q_{\max}$ and attach $\theta$--dependent weights
+$w_i(\theta)$ derived from the same phase kernel used in the lattice
+construction.
+The chain sum is
+\begin{equation}
+  S_N(\theta) = \sum_{i=1}^N q_i\, w_i(\theta) \, .
+\end{equation}
+
+For each $(N,\theta)$ we generate many random chains and measure
+$\langle |S_N(\theta)| \rangle$ and its root--mean--square counterpart.
+After normalising by $\sqrt{N}$ we obtain a dimensionless measure of
+how strongly the chain refuses to cancel:
+\begin{equation}
+  R_N(\theta) \equiv
+  \frac{\langle |S_N(\theta)| \rangle}{\sqrt{N}} \, .
+\end{equation}
+
+We consider two ensembles:
+%
+\begin{itemize}
+  \item a \emph{non--cancelling} ensemble in which the charges
+  are unconstrained, corresponding to the parameter choice
+  \texttt{enforce\_zero\_sum = False};
+  \item a \emph{constrained} ensemble with
+  $\sum_i q_i = 0$, implemented as
+  \texttt{enforce\_zero\_sum = True}.
+\end{itemize}
+In both cases we use $q_{\max} = 3$, no additional noise and
+$400$ samples per point, scanning
+$N = 16,\dots,4096$ at fixed $\theta = \theta_\star$.
+
+\paragraph{Baseline behaviour.}
+As a $\theta$--agnostic reference we also carried out scans for the
+$\phi^\phi$ choice used in Act~I.
+In that case the residuals satisfy
+$R_N \sim 0.9$--$1.1$ over the range
+$N = 8$--$128$, consistent with ordinary
+random--walk scaling and with the expectation that cancellations
+remain essentially Gaussian.
+
+\paragraph{Anomalous growth at $\theta_\star$.}
+At $\theta = \theta_\star$ the behaviour changes qualitatively.
+Figure~\ref{fig:act2-chain-theta-star} shows $R_N(\theta_\star)$ for
+$N=16$ to $4096$.
+In the unconstrained ensemble ($\sum_i q_i$ free) the residuals grow
+from $R_N \approx 0.9$ at $N=16$ to
+$R_N \approx 3.1$ at $N=4096$.
+In the zero--sum ensemble the growth is slightly slower but still
+pronounced, reaching $R_N \approx 3.2$ at the largest $N$.
+The growth is monotonic within statistical fluctuations.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\textwidth]{figures/cancellation_system/chain_residual_scan.png}
+  \caption{Cancellation chain residuals at $\theta = \theta_\star$.
+  The curve shows the dimensionless quantity
+  $R_N = \langle |S_N| \rangle / \sqrt{N}$ as a function of chain length
+  $N$ for $q_{\max}=3$ and $400$ samples per point.
+  Residuals grow well beyond unity, reaching values above $3$ at
+  $N = 4096$, in sharp contrast with the $\theta$--agnostic
+  $\phi^\phi$ baseline where $R_N$ stays of order one.
+  This constitutes numerical evidence for a persistent non--cancelling
+  remainder at $\theta_\star$.}
+  \label{fig:act2-chain-theta-star}
+\end{figure}
+
+The key message is that the same value $\theta_\star$ which minimises
+$\Delta\alpha(\theta)$ and defines the scalar mass shift also marks the
+point where cancellation chains become anomalously resistant to
+self--cancellation, even under an explicit zero--sum constraint.
+

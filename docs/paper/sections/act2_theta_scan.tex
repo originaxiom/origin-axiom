@@ -1,0 +1,93 @@
+% 4D lattice delta-alpha(theta) scan and theta-star minimum
+
+\subsection{4D lattice scan of $\Delta\alpha(\theta)$}
+\label{subsec:act2-theta-scan}
+
+Our first probe of $\theta$ is a four--dimensional lattice sum
+$\Delta\alpha(\theta)$ constructed from a phase--twisted kernel
+on a hypercubic lattice with cutoff radius $R_{\max}$.
+For each value of $\theta$ we compute the partial sums
+$S_R(\theta)$ over all lattice sites with norm $\leq R$ up to
+$R = R_{\max}$ and fit the large--$R$ behaviour as
+\begin{equation}
+  S_R(\theta) \simeq A(\theta) + \frac{B(\theta)}{R} \, ,
+\end{equation}
+interpreting $A(\theta)$ as the extrapolated infinite--volume quantity
+$\Delta\alpha(\theta)$.
+
+\paragraph{Global scan.}
+Figure~\ref{fig:act2-theta-global} shows the result of a global scan
+over $\theta \in [0,2\pi]$ with step size
+$\Delta\theta = 0.1$,
+cutoff $R_{\max} = 12$ and fit window $R \geq 6$.
+The observable $\Delta\alpha(\theta)$ varies smoothly and exhibits a
+single broad minimum in the neighbourhood of $\theta \simeq 2.6$.
+Error bars correspond to the fit uncertainty
+$\sigma_A(\theta)$ from the linear regression in $1/R$.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\textwidth]{figures/lattice_theta/delta_alpha_theta_global_R12_p6.png}
+  \caption{Global scan of the 4D lattice observable
+  $\Delta\alpha(\theta)$ for $\theta \in [0,2\pi]$,
+  with $R_{\max} = 12$ and fit range $R \geq 6$.
+  A single broad minimum is visible around $\theta \simeq 2.6$.}
+  \label{fig:act2-theta-global}
+\end{figure}
+
+\paragraph{Intermediate refinement.}
+To localise the minimum we repeat the scan on the interval
+$\theta \in [2.3, 2.9]$ with smaller step size
+and larger cutoff $R_{\max} = 16$, using a more conservative
+fit window $R \geq 8$.
+The corresponding curve is shown in
+Fig.~\ref{fig:act2-theta-min-focus}.
+The minimum clearly lies in the range
+$\theta \sim 2.58\text{--}2.60$, with
+$\Delta\alpha(\theta)$ approaching values near $-8.77$ in that region.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\textwidth]{figures/lattice_theta/delta_alpha_theta_min_focus.png}
+  \caption{Refined scan of $\Delta\alpha(\theta)$ on
+  $\theta \in [2.3,2.9]$ with $R_{\max} = 16$ and
+  fit range $R \geq 8$.
+  The minimum falls in a narrow window around
+  $\theta \sim 2.59$.}
+  \label{fig:act2-theta-min-focus}
+\end{figure}
+
+\paragraph{High--$R_{\max}$ stability and definition of $\theta_\star$.}
+Finally, we perform a high--precision scan on a very narrow window
+$\theta \in [2.55,2.63]$ using
+$R_{\max} = 24$ and $R_{\rm fit} \geq 12$.
+The result is shown in Fig.~\ref{fig:act2-theta-star-R24}.
+Within this window the curve is well approximated by a shallow
+parabola.
+We define
+\begin{equation}
+  \theta_\star
+  \equiv \arg\min_{\theta} \Delta\alpha(\theta)
+  \simeq 2.598 \, ,
+\end{equation}
+with
+\begin{equation}
+  \Delta\alpha(\theta_\star) \simeq -8.77
+\end{equation}
+as measured from the minimum region.
+The error bars at $R_{\max}=24$ remain at the sub--percent level,
+and the location of the minimum is stable under changes in
+$R_{\rm fit}$, indicating genuine convergence rather than a finite--size
+artefact.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\textwidth]{figures/lattice_theta/delta_alpha_theta_star_R24.png}
+  \caption{High--precision scan of $\Delta\alpha(\theta)$ on
+  $\theta \in [2.55,2.63]$ with $R_{\max} = 24$ and
+  fit range $R \geq 12$.
+  The shallow minimum defines $\theta_\star \simeq 2.598$ with
+  $\Delta\alpha(\theta_\star) \simeq -8.77$.}
+  \label{fig:act2-theta-star-R24}
+\end{figure}
+

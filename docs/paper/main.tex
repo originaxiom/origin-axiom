@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+
+% Basic packages
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{bm}
+\usepackage{graphicx}
+\graphicspath{{../../}}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{physics}
+
+% Hyperref setup
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\begin{document}
+
+%========================================
+% Act II: theta-star stability zone
+%========================================
+\input{sections/act2_main}
+
+% (Later we can prepend Act I via \input{sections/act1_main} or similar.)
+
+%\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
