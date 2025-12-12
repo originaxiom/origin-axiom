@@ -49,3 +49,14 @@ paper/*.pdf
 *.fdb_latexmk
 *.fls
 src/lattice_theta/*.bak
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.toc
+*.synctex.gz
