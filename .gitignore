@@ -79,3 +79,12 @@ src/lattice_theta/*.bak
 .DS_Store
 
 .DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
