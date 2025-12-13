@@ -1,0 +1,35 @@
+{
+  "argv": "/Users/dri/Documents/Projects/origin-axiom/src/cancellation_system/run_chain_residual_scan.py --theta-min 2.5900 --theta-max 2.5905 --n-theta 2 --Ns 256,512 --n-samples 200 --max-charge 3 --noise-sigma 0.0 --seed 1234 --run-id smoke_20251213 --write-latest",
+  "git_head": "eb97560406dcb9c2979e5795a1885f5cc1351d2d",
+  "outputs": {
+    "csv": "docs/results/cancellation_system/runs/smoke_20251213/chain_residual_scan.csv",
+    "figures_dir": "figures/cancellation_system/runs/smoke_20251213"
+  },
+  "params": {
+    "Ns": [
+      256,
+      512
+    ],
+    "enforce_zero_sum": true,
+    "force_resume": false,
+    "max_charge": 3,
+    "n_samples": 200,
+    "noise_sigma": 0.0,
+    "resume": false,
+    "seed": 1234,
+    "thetas": [
+      2.59,
+      2.5905
+    ]
+  },
+  "platform": {
+    "machine": "x86_64",
+    "python": "3.13.1",
+    "release": "24.6.0",
+    "system": "Darwin"
+  },
+  "rows_new": 4,
+  "rows_total": 4,
+  "run_id": "smoke_20251213",
+  "timestamp_local": "2025-12-13T19:31:05"
+}
