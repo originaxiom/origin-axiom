@@ -8,6 +8,17 @@
 - `src/scalar_vacuum_theta/run_1d_vacuum_noise_residue.py`
 - Data: `data/processed/scalar_vacuum_theta/*.csv`, `*.npz`
 - Figures: `figures/scalar_vacuum_theta/*.png`
+docs/results/
+  cancellation_system/
+    runs/<run_id>/                     ← tracked per-run CSV + run_meta.json
+figures/cancellation_system/
+  runs/<run_id>/                       ← tracked per-run plots
+  chain_residual_scan.png              ← “latest” pointer (overwritten)
+scripts/cancellation_system/
+  rebuild_chain_residual_scan_from_log.py
+  merge_chain_residual_scan_runs.py
+src/cancellation_system/
+  run_chain_residual_scan.py
 
 **Results**
 
