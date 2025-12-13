@@ -60,3 +60,6 @@ cat > docs/runs/cancellation_system/20251212_chain_residual_scan.md <<'EOF'
 ## Result summary
 - Use the run-folder PNGs to identify candidate minima.
 - Next: execute θ★ locking checklist (seed sweep, max_charge sweep, noise sweep) using run-id + resume runner.
+
+
+## How to run
