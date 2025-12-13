@@ -10,7 +10,7 @@ The project is deliberately modest and technical:
 - Paper **C** (planned) analyses “universe as a cancellation system” and collects deeper sanity checks and null results.
 
 The code in src/ and notebooks/ backs the figures and claims in the papers.  
-Everything important is logged to docs/PROGRESS_LOG.md and data/processed/.
+Everything important is logged to PROGRESS_LOG.md and data/processed/.
 
 ---
 
@@ -157,7 +157,7 @@ total vacuum energy is numerically flat, serving as a null test.
   Markdown explanations of the axiom, the research programme and the toy model,
   aimed at humans before they open the TeX.
 
-- docs/PROGRESS_LOG.md  
+- PROGRESS_LOG.md  
   Dated log of every significant simulation run, parameter set, and interpretation.
 
 - docs/ROADMAP.md  
