@@ -64,7 +64,7 @@ We currently have three independent, θ-agnostic verification pillars:
      - θ sets such as {1.0, 1.5, 1.618…, 2.0, 2.5, π} and {φ, φ^φ, 2.0, π}.  
      - N in {8, 16, 32, 64, 128}, max_q = 5, n_samples = 500.  
    - Results saved to:
-     - `data/processed/cancellation_system/chain_residual_scan.csv`  
+     - `docs/results/cancellation_system/chain_residual_scan_latest.csv`  
      - `figures/cancellation_system/chain_residual_scan.png`
 
    **Key observation:**  
