@@ -63,3 +63,5 @@ cat > docs/runs/cancellation_system/20251212_chain_residual_scan.md <<'EOF'
 
 
 ## How to run
+- Note: the scan appends rows to the CSV as it runs (safe to interrupt + resume).
+- At completion, it rewrites the CSV sorted by (theta, N).

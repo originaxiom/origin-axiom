@@ -49,14 +49,6 @@ src/
   run_1d_twisted_vacuum_scan.py
   run_1d_defected_vacuum_scan.py
 
-cancellation_system/
-  src/cancellation_system/                      ← chain residual scans & constraint rules
-  scripts/cancellation_system/                  ← rebuild/merge utilities
-  docs/results/cancellation_system/runs/<run_id>/← tracked run summaries + run_meta.json
-  figures/cancellation_system/runs/<run_id>/     ← tracked per-run plots
-  docs/results/cancellation_system/*_latest.csv  ← convenience “latest pointers”
-  figures/cancellation_system/chain_residual_scan.png ← latest pointer figure
-
 notebooks/
   01_toy_universe_exploration.py         ← plots for basic 3D run
   02_1d_twisted_analysis.py              ← 1D twist model plots
@@ -68,8 +60,6 @@ notebooks/
 data/
   raw/                                   ← (reserved for future inputs)
   processed/                             ← .npz outputs + generated PNGs
-- Tracked, citeable run artifacts live in docs/results/** and figures/** (per-run folders keyed by run-id).
-- data/processed/** is used for large intermediates and may be gitignored; 
 
 figures/
   *.png                                  ← copies of key plots used in papers
@@ -181,8 +171,6 @@ total vacuum energy is numerically flat, serving as a null test.
 - Important results are written to data/processed/*.npz and plotted with scripts in notebooks/.
 - The repository aims to be a reproducible research bundle:
   when a figure appears in a paper, it should be traceable back to a script and a specific cached output here.
-- Tracked, citeable run artifacts live in docs/results/** and figures/** (per-run folders keyed by run-id).
-- data/processed/** is used for large intermediates and may be gitignored; do not cite it as canonical.
 
 ---
 
