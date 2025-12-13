@@ -45,7 +45,7 @@ constraint, ready to be cited by other work.
 
 - [ ] Ensure `README.md` scope section (this repo = scalar backbone, θ-agnostic).
 - [ ] Maintain this `docs/ROADMAP.md` as the source of truth for phases.
-- [ ] Create/maintain `docs/PROGRESS_LOG.md` as a chronological log of major runs
+- [ ] Create/maintain `PROGRESS_LOG.md` as a chronological log of major runs
       and decisions (date, script, key result, short interpretation).
 
 ### A2. Code baseline
@@ -162,7 +162,7 @@ module can rely on, without inheriting φ- or φ^φ-specific assumptions.
   1. A hypothesis in words,
   2. An implementation in `src/`,
   3. A result in `data/`,
-  4. An entry in `docs/PROGRESS_LOG.md`,
+  4. An entry in `PROGRESS_LOG.md`,
   5. A sentence or figure in a write-up.
 
 - We always distinguish:
