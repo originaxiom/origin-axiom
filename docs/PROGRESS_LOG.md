@@ -1,5 +1,5 @@
-# Progress Log (canonical location)
+# Progress Log
 
-The canonical progress log is at: `PROGRESS_LOG.md` (repo root).
+Canonical log lives at: `/PROGRESS_LOG.md`
 
-This file is kept only as a pointer for legacy links.
+(Keeping this file to avoid breaking old links.)
