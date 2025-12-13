@@ -19,6 +19,18 @@ source venv/bin/activate
 
 ---
 
+## Artifact policy note (Act II)
+
+This repo historically wrote many toy-universe intermediates under `data/processed/`.
+For **Act II (cancellation_system)**, tracked and citeable artifacts now live under:
+
+- `docs/results/cancellation_system/**` (CSV summaries + per-run `run_meta.json`)
+- `figures/cancellation_system/**` (plots)
+
+`data/**` is treated as bulk/temporary storage and may be gitignored.
+
+---
+
 ## 1. 3D toy universe — basic evolution (no constraint)
 
 **Purpose:** sanity check of the 3D scalar lattice evolution, tracking global
