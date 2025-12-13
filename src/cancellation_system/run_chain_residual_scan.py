@@ -40,7 +40,6 @@ import json
 import os
 import platform
 import subprocess
-from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -71,7 +70,6 @@ def _parse_float_list(s: str) -> List[float]:
 
 
 def _default_run_id() -> str:
-    # Uses local time; user TZ is Europe/Belgrade, but we rely on system local time.
     return datetime.now().strftime("%Y%m%d_%H%M%S")
 
 
@@ -148,7 +146,6 @@ def _resolve_thetas(args: argparse.Namespace) -> List[float]:
 
 
 def _theta_key(theta: float) -> str:
-    # stable string key for matching across CSV reads
     return f"{theta:.15g}"
 
 
@@ -166,7 +163,6 @@ def _load_existing(csv_path: Path) -> Tuple[Optional[Dict[str, str]], set]:
         reader = csv.DictReader(f)
         for row_i, row in enumerate(reader):
             if row_i == 0:
-                # keep a small meta snapshot for consistency checks
                 meta = {k: row.get(k, "") for k in [
                     "max_charge", "noise_sigma", "enforce_zero_sum", "n_samples", "seed", "run_id"
                 ]}
@@ -259,35 +255,73 @@ def main() -> None:
         df0 = pd.read_csv(out_csv)
         rows = df0.to_dict(orient="records")
 
+    # Streaming checkpoint CSV so interruptions preserve progress.
+    # We still do a final deterministic rewrite (sorted) at the end.
+    stream_fieldnames = [
+        "run_id", "N", "theta", "max_charge", "noise_sigma", "enforce_zero_sum", "n_samples", "seed",
+        "mean_S_abs", "rms_S_abs", "mean_S_abs_over_sqrtN", "rms_S_abs_over_sqrtN",
+    ]
+
+    # Ensure CSV exists with a header before we append.
+    if (not out_csv.exists()) or out_csv.stat().st_size == 0:
+        with out_csv.open("w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=stream_fieldnames)
+            w.writeheader()
+
+    stream_fh = out_csv.open("a", newline="")
+    stream_writer = csv.DictWriter(stream_fh, fieldnames=stream_fieldnames)
+
     # Compute missing points
     new_count = 0
-    for theta in thetas:
-        print(f"\n--- theta = {theta:.6f} ---")
-        for N in Ns:
-            key = (_theta_key(theta), int(N))
-            if args.resume and key in completed:
-                continue
+    try:
+        for theta in thetas:
+            print(f"\n--- theta = {theta:.6f} ---")
+            for N in Ns:
+                key = (_theta_key(theta), int(N))
+                if args.resume and key in completed:
+                    continue
 
-            cfg = ChainConfig(
-                N=int(N),
-                theta=float(theta),
-                max_charge=int(args.max_charge),
-                noise_sigma=float(args.noise_sigma),
-                enforce_zero_sum=bool(enforce_zero_sum),
-                seed=int(args.seed),
-            )
-            stats = summarize_many(cfg, n_samples=int(args.n_samples))
-            stats["run_id"] = run_id
-            stats["seed"] = int(args.seed)
-            rows.append(stats)
-            new_count += 1
+                cfg = ChainConfig(
+                    N=int(N),
+                    theta=float(theta),
+                    max_charge=int(args.max_charge),
+                    noise_sigma=float(args.noise_sigma),
+                    enforce_zero_sum=bool(enforce_zero_sum),
+                    seed=int(args.seed),
+                )
 
-            print(
-                f"N={int(N):4d}: "
-                f"mean|S|={stats['mean_S_abs']:.3f}, "
-                f"rms|S|={stats['rms_S_abs']:.3f}, "
-                f"mean|S|/sqrtN={stats['mean_S_abs_over_sqrtN']:.3f}"
-            )
+                stats = summarize_many(cfg, n_samples=int(args.n_samples))
+
+                # Ensure stable keys exist (resume + sorting + streaming)
+                stats["N"] = int(N)
+                stats["theta"] = float(theta)
+                stats["max_charge"] = int(args.max_charge)
+                stats["noise_sigma"] = float(args.noise_sigma)
+                stats["enforce_zero_sum"] = bool(enforce_zero_sum)
+                stats["n_samples"] = int(args.n_samples)
+                stats["run_id"] = run_id
+                stats["seed"] = int(args.seed)
+
+                rows.append(stats)
+                new_count += 1
+
+                # Checkpoint immediately so --resume works after interruptions.
+                stream_writer.writerow({k: stats.get(k) for k in stream_fieldnames})
+                stream_fh.flush()
+                try:
+                    os.fsync(stream_fh.fileno())
+                except Exception:
+                    pass
+                completed.add((_theta_key(theta), int(N)))
+
+                print(
+                    f"N={int(N):4d}: "
+                    f"mean|S|={stats['mean_S_abs']:.3f}, "
+                    f"rms|S|={stats['rms_S_abs']:.3f}, "
+                    f"mean|S|/sqrtN={stats['mean_S_abs_over_sqrtN']:.3f}"
+                )
+    finally:
+        stream_fh.close()
 
     # Write meta JSON (always)
     meta = {
@@ -300,7 +334,7 @@ def main() -> None:
             "machine": platform.machine(),
             "python": platform.python_version(),
         },
-        "argv": " ".join(os.environ.get("_", "python") for _ in [0]) and " ".join(__import__("sys").argv),
+        "argv": " ".join(__import__("sys").argv),
         "params": {
             "Ns": Ns,
             "thetas": thetas,
@@ -323,10 +357,8 @@ def main() -> None:
 
     # Write CSV deterministically (sorted)
     if rows:
-        # Stable sort by theta then N
         rows_sorted = sorted(rows, key=lambda r: (float(r["theta"]), int(r["N"])))
 
-        # Stable field order: important keys first, then rest
         head = ["run_id", "N", "theta", "max_charge", "noise_sigma", "enforce_zero_sum", "n_samples", "seed",
                 "mean_S_abs", "rms_S_abs", "mean_S_abs_over_sqrtN", "rms_S_abs_over_sqrtN"]
         all_keys = list(rows_sorted[0].keys())
@@ -413,9 +445,7 @@ def main() -> None:
         latest_csv.parent.mkdir(parents=True, exist_ok=True)
         latest_png.parent.mkdir(parents=True, exist_ok=True)
 
-        # Copy CSV
         latest_csv.write_text(out_csv.read_text())
-        # Copy main run plot
         if HAVE_MPL:
             run_png = figures_dir / "chain_residual_scan.png"
             if run_png.exists():
