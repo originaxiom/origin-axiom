@@ -20,4 +20,3 @@ python3 -m src.cancellation_system.run_chain_residual_scan \
 ## Notes (3 bullets)2
 - Latest pointers updated:- Residual strength mean(|S|)/sqrt(N) varies smoothly with - Enforced zero-sum charges (
   - docs/results/cancellation_syste  - docs/results/cancellation_syste  - docs/results/cancellation_shai  - dodual_scan.png
-EO
