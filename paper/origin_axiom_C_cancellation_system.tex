@@ -31,8 +31,8 @@ and records the strongest statement we can honestly make at this stage:
 for the class of tests implemented in \texttt{src/} and \texttt{notebooks/},
 the non--cancelling rule behaves as a small, controllable perturbation and
 does \emph{not} produce dramatic or unstable effects.
-The goal of the paper is not to claim success,
-but to make the ``null results'' legible and reproducible.
+The goal is not to claim success,
+but to make the null results legible, reproducible, and falsifiable.
 \end{abstract}
 
 \section{Introduction: from axiom to cancellation system}
@@ -54,13 +54,14 @@ we first ask the more basic question:
 \emph{can we embed the rule into increasingly nontrivial systems without
 breaking anything obvious?}
 In other words, we treat the framework as a \emph{cancellation system} and
-stress--test it with a set of deliberately modest lattice experiments.
+stress--test it with deliberately modest lattice experiments.
 
 \paragraph{Reproducibility note.}
 Throughout, we cite repository paths as \texttt{\detokenize{src/...}} and
 \texttt{\detokenize{notebooks/...}} using \texttt{\detokenize{...}} so that
 the literal paths can be copy--pasted and grepped (underscores do not need
-TeX escaping).
+TeX escaping). Each substantial scan is stored under a run ID and includes
+a CSV plus a \texttt{run\_meta.json} provenance file.
 
 \section{Numerical testbed summary}
 Common ingredients across experiments:
@@ -112,6 +113,7 @@ the lattice sum has nontrivial $\theta$--dependence, but the procedure is
 fully specified and reproducible.
 
 \section{Cancellation chains: residual scaling under a zero--sum rule}
+
 \subsection{Model}
 We consider a deliberately minimal cancellation toy model:
 \begin{equation}
@@ -125,15 +127,16 @@ For each $(\theta,N)$ we sample many independent chains and record summary stati
 in particular $\mathbb{E}\lvert S\rvert/\sqrt{N}$, which would be small if cancellation
 were strong and persistent.
 
-\subsection{Act II scan: 121--point $\theta$ grid near $[2.45,2.75]$}
+\subsection{Act II scan: 121--point $\theta$ grid on $[2.45,2.75]$}
 Run script: \texttt{\detokenize{src/cancellation_system/run_chain_residual_scan.py}}.
 
 Run ID: \texttt{zero\_sum\_grid\_20251213}. Parameters:
 $q_{\max}=3$, $\sigma=0$, $n_{\rm samples}=400$, and enforced zero--sum charges.
 
-Outputs (committed):
+The run stores a deterministic CSV, per--run figures, and a meta JSON file:
 \begin{itemize}
   \item CSV: \texttt{\detokenize{docs/results/cancellation_system/runs/zero_sum_grid_20251213/chain_residual_scan.csv}}
+  \item Meta: \texttt{\detokenize{docs/results/cancellation_system/runs/zero_sum_grid_20251213/run_meta.json}}
   \item Figures:
   \begin{itemize}
     \item \texttt{\detokenize{figures/cancellation_system/runs/zero_sum_grid_20251213/chain_residual_scan.png}}
@@ -143,11 +146,10 @@ Outputs (committed):
 \end{itemize}
 
 Figure~\ref{fig:chain_residual_scan} shows $\mathbb{E}\lvert S\rvert/\sqrt{N}$
-as a function of $N$ for many $\theta$ values in the grid.
-The overall behaviour is consistent with earlier exploratory scans:
-\emph{for this model and parameter range, we do not observe a dramatic suppression
-of residuals at a special $\theta$}. The curves vary with $\theta$, but not in a
-way that suggests a sharp ``locked'' phase.
+as a function of $N$ across the $\theta$ grid.
+For this toy model and parameter regime we do \emph{not} observe a sharp,
+universally special phase: residual strength varies with $\theta$, but the
+best region is broad and shifts mildly with $N$.
 
 \begin{figure}[t]
   \centering
@@ -158,42 +160,68 @@ way that suggests a sharp ``locked'' phase.
   \label{fig:chain_residual_scan}
 \end{figure}
 
-A compact summary is given in Table~\ref{tab:theta_min_per_N}, which reports,
-for each $N$ in the scan, the \emph{best} $\theta$ (on the discrete grid) and the
-corresponding minimum of $\mathbb{E}\lvert S\rvert/\sqrt{N}$ within $[2.45,2.75]$.
-Even at the best grid points, the residual remains $\mathcal{O}(1)$.
+\subsection{Best--$\theta$ band across $N$}
+Table~\ref{tab:theta_min_per_N} reports, for each $N$ in the scan,
+the best $\theta$ (on the discrete grid) that minimises
+$\mathbb{E}\lvert S\rvert/\sqrt{N}$ within $[2.45,2.75]$.
+
+Across $N=16\ldots 1024$ the best points cluster in a narrow band
+$\theta \approx 2.67$--$2.72$ and remain $\mathcal{O}(1)$.
+This is a clean, conservative outcome: the scan finds \emph{structure}
+(a preferred band), but not a crisp lock to a single constant.
 
 \begin{table}[t]
 \centering
-\begin{tabular}{rrrr}
+\begin{tabular}{rcc}
 \toprule
-$N$ & $\theta_{\min}$ & $\min_\theta \ \mathbb{E}\lvert S\rvert/\sqrt{N}$ & $\mathrm{rms}\lvert S\rvert/\sqrt{N}$ at $\theta_{\min}$ \\
+$N$ & $\theta_{\min}$ (grid) & $\min_\theta\ \mathbb{E}\lvert S\rvert/\sqrt{N}$ \\
 \midrule
-16   & 2.7175 & 0.8347 & 0.9031 \\
-32   & 2.7175 & 0.8136 & 0.8730 \\
-64   & 2.7175 & 0.8918 & 0.9506 \\
-128  & 2.7175 & 1.0710 & 1.1306 \\
-256  & 2.4500 & 1.9744 & 2.0672 \\
-512  & 2.4500 & 2.6845 & 2.7565 \\
-1024 & 2.4500 & 3.7821 & 3.8526 \\
+16   & 2.6800 & 0.8525 \\
+32   & 2.7175 & 0.8136 \\
+64   & 2.6800 & 0.8639 \\
+128  & 2.6750 & 0.8507 \\
+256  & 2.6900 & 0.8513 \\
+512  & 2.6900 & 0.8621 \\
+1024 & 2.6950 & 0.8355 \\
 \bottomrule
 \end{tabular}
 \caption{For each $N$, the best (grid) $\theta$ and the corresponding minimum of
-$\mathbb{E}\lvert S\rvert/\sqrt{N}$ in the scan window $\theta\in[2.45,2.75]$.}
+$\mathbb{E}\lvert S\rvert/\sqrt{N}$ in the scan window $\theta\in[2.45,2.75]$
+(run \texttt{zero\_sum\_grid\_20251213}).}
 \label{tab:theta_min_per_N}
 \end{table}
 
+\subsection{Comparison to $\theta_\star \simeq 2.595$}
+A key point for the broader roadmap is that different toy constructions need not
+prefer the same $\theta$.
+
+In particular, a separate 4D lattice remainder construction yields a stable minimum
+near $\theta_\star \approx 2.59$ rad. In the present cancellation--chain scan,
+however, $\theta_\star$ is \emph{not} preferred. At $N=1024$ the grid point closest
+to $\theta_\star$ is $\theta=2.595$, which gives
+\begin{equation}
+  \mathbb{E}\lvert S\rvert/\sqrt{N}\big|_{N=1024,\ \theta=2.595}\approx 1.7816,
+\end{equation}
+substantially larger than the best value in the scan window,
+$0.8355$ at $\theta=2.6950$.
+
+This disalignment is scientifically useful: it prevents accidental over--unification
+and clarifies that ``$\theta$ structure'' must be defined operationally within each
+model. If a true $\theta$ lock exists in nature, it should persist across
+\emph{multiple} constructions and be stable under parameter changes.
+
 \subsection{Two complementary $\theta$ summaries}
-The scan also produces two diagnostic summaries:
+The run also produces two diagnostic summaries:
 \begin{itemize}
   \item A $\theta$--scan at the largest $N$ (here $N=1024$), shown in
-        \texttt{\detokenize{theta_scan_N1024.png}}, which highlights smooth variation
-        of residual strength with $\theta$.
-  \item A ``min over $N$'' curve, shown in \texttt{\detokenize{theta_scan_min_over_N.png}},
+        \texttt{\detokenize{figures/cancellation_system/runs/zero_sum_grid_20251213/theta_scan_N1024.png}},
+        highlighting smooth variation with $\theta$ and the location of local minima.
+  \item A ``min over $N$'' curve, shown in
+        \texttt{\detokenize{figures/cancellation_system/runs/zero_sum_grid_20251213/theta_scan_min_over_N.png}},
         defined by $f(\theta)=\min_N \mathbb{E}\lvert S\rvert/\sqrt{N}$.
-        In this run, the best grid point is near $\theta \approx 2.7175$ with
-        $f(\theta)\approx 0.8136$, but this minimum is shallow and should not be
-        over--interpreted as a locked constant.
+        In this run, the lowest values occur near $\theta\approx 2.71$ with
+        $f(\theta)\sim 0.81$ (driven by the $N=32$ slice), but the minimum is shallow
+        and should not be over--interpreted.
 \end{itemize}
 
 \section{Discussion and roadmap}
@@ -213,5 +241,9 @@ The next steps are therefore about \emph{increasing specificity without cheating
   \item Only after these sanity layers are solid do we allow $\theta_\star$--phenomenology
         (CKM/PMNS, mass textures) to depend on any candidate $\theta_\star$ extracted here.
 \end{itemize}
+
+\paragraph{Act II closure note.}
+A concise run summary (command, bullet conclusions, plot paths) should be kept at:
+\texttt{\detokenize{docs/notes/act2_zero_sum_grid_20251213.md}}.
 
 \end{document}
