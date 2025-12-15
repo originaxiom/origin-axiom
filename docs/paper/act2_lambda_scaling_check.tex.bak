@@ -38,6 +38,7 @@ based on NuFIT 5.2 PMNS targets and the structured
 \texttt{theta\_star\_v2} ansatz.
 
 \subsection{Microcavity \texorpdfstring{$\Delta E(\theta_\star)$}{ΔE($theta^star$)} scan}
+\label{subsec:microcavity_1d}
 
 On the microcavity side we use the full $0 \le \theta_\star < 2\pi$
 scan produced by

@@ -1,0 +1,168 @@
+% act1_origin_axiom.tex
+% Act I: Motivation and conceptual backbone of the Origin Axiom program
+
+\section{Introduction: vacuum, cancellation, and the Origin Axiom}
+\label{sec:act1-intro}
+
+The observed Universe appears to be dominated, at late times, by a nearly
+constant vacuum-like contribution to the stress--energy tensor, usually
+parameterised as a cosmological constant $\Lambda$ in general relativity.
+In the simplest $\Lambda$CDM fits to cosmological data, this component
+represents roughly $70\%$ of the current energy budget of the Universe,
+with the remaining $30\%$ in matter (baryonic and dark) and a negligible
+fraction in radiation.\footnote{Numerical values quoted in this paper are
+illustrative and are not intended as a precision fit.}
+
+From the point of view of quantum field theory (QFT), however, the vacuum
+energy is not a separately tunable parameter but an emergent consequence of
+the spectrum of fluctuations and the way their contributions ``add up.''
+If one naively sums zero-point energies of known fields up to a high-energy
+cutoff, the resulting vacuum energy density is many orders of magnitude
+larger than the value inferred from cosmology. The fact that the observed
+vacuum energy is small, yet apparently nonzero, is the essence of the
+\emph{vacuum problem} or \emph{cosmological constant problem}.
+
+In the standard effective-field-theory view, one therefore imagines that
+different contributions to the vacuum energy---from different fields,
+sectors, and symmetry-breaking events---nearly cancel, leaving only a tiny
+residual. But the known contributions to the vacuum energy are not
+dynamically required to cancel; they are simply summed in the Einstein
+equations. This raises a conceptual question: is the vacuum energy just
+whatever happens to be left over after a sequence of unrelated
+contributions, or is there a deeper organising principle that constrains
+these contributions \emph{never} to perfectly cancel?
+
+The \emph{Origin Axiom} programme, of which this paper is Act~II--III, starts
+from the latter possibility. Instead of assuming that vacuum contributions
+are independent and free to cancel arbitrarily, we investigate toy models
+in which the vacuum is constrained by a global non-cancelling principle.
+This principle acts on coarse-grained amplitudes of the vacuum state, and
+it can be implemented in simple lattice and continuum simulations.
+
+\subsection{The non-cancelling principle}
+\label{subsec:non-cancelling-principle}
+
+The core conceptual ingredient is a constraint that forbids exact
+cancellation of certain global amplitudes. In its simplest toy form, we
+consider a complex amplitude $A(t)$ associated with a coarse-grained degree
+of freedom of the vacuum. Left unconstrained, the dynamics of $A(t)$ in a
+toy system might resemble a random walk in the complex plane, with its
+magnitude $|A(t)|$ fluctuating around zero. The \emph{non-cancelling
+principle} introduces a rule that prevents $|A(t)|$ from falling below a
+prescribed lower bound, which we denote schematically as
+\begin{equation}
+  |A(t)| \ge \epsilon > 0.
+\end{equation}
+In practice, this is implemented as a corrective step in the time
+integration of the toy system: whenever $|A(t)|$ attempts to cross below
+the threshold $\epsilon$, the evolution is modified so that the amplitude
+is ``clipped'' back onto the boundary $|A| = \epsilon$ instead of passing
+through the origin.
+
+We emphasise that this clipping procedure is purely phenomenological in
+the current work: it is not derived from an underlying microscopic
+Hamiltonian. Its purpose is more modest and conceptual. It allows us to
+explore, in controlled numerical experiments, the consequences of imposing
+a non-cancelling rule on coarse-grained vacuum amplitudes. In the toy
+models studied in later sections, the constraint has two robust effects:
+\begin{enumerate}
+  \item it enforces a persistent, non-vanishing vacuum amplitude even when
+  the unconstrained dynamics would drive $A(t)$ through the origin, and
+  \item it introduces an effective energy cost associated with maintaining
+  this nonzero amplitude, which can be interpreted as a vacuum-like
+  contribution to the stress--energy tensor at large scales.
+\end{enumerate}
+
+The goal of the Origin Axiom programme is \emph{not} to claim that the
+Universe literally implements the particular clipping algorithm used in
+our simulations. Rather, it is to identify structural features that would
+be shared by any theory in which the vacuum is globally constrained to
+avoid perfect cancellation. These structural features can then be used to
+build effective models that bridge between microstructure and cosmological
+observables.
+
+\subsection{A single phase \texorpdfstring{$\thetastar$}{theta*} as a bridge}
+\label{subsec:theta-star-bridge}
+
+One of the striking empirical facts about the Standard Model is that the
+structure of flavour mixing, encoded in the PMNS matrix for leptons and the
+CKM matrix for quarks, is highly nontrivial yet remarkably compact. Both
+matrices can be parametrised in terms of three mixing angles and a single
+Dirac CP-violating phase, plus additional Majorana phases if neutrinos are
+Majorana particles. In this work we explore the hypothesis that a single
+underlying phase, which we denote $\thetastar$, may organise both
+\emph{flavour} structure and aspects of vacuum microstructure.
+
+In Act~II, we construct phenomenological ans\"atze in which the leptonic
+mixing angles and CP phase depend on $\thetastar$ through smooth
+modulations around their experimentally favoured values. By scanning over
+$\thetastar$ and nuisance parameters, and fitting to global neutrino
+oscillation data, we obtain a posterior band for $\thetastar$ and a
+fiducial value $\thetastar_{\rm fid}$ that summarises the region of phase
+space compatible with current flavour data. We then promote this band and
+fiducial value to a \emph{working prior} on $\thetastar$ for subsequent
+acts of the programme.
+
+In Act~III, we introduce toy models of vacuum microstructure in which the
+vacuum energy depends on $\thetastar$ via an effective microcavity
+mechanism. The details of the microcavity construction are deliberately
+simplified; the important point is that the same $\thetastar$ that
+organises flavour is used to modulate the vacuum energy in a way that can
+be translated into an effective cosmological constant $\Lambda_{\rm eff}$.
+We then study a Friedmann--Robertson--Walker (FRW) toy universe in which
+the late-time acceleration is driven by $\Lambda_{\rm eff}(\thetastar)$,
+and we compare the resulting age, deceleration parameter, and Hubble
+diagram to those of standard $\Lambda$CDM.
+
+Thus $\thetastar$ plays the role of a \emph{bridge parameter}: it is
+constrained from one side by flavour data (Act~II) and used on the other
+side to define vacuum properties in toy cosmologies (Act~III). Our aim is
+not to derive $\thetastar$ from first principles, but to demonstrate that a
+single phase can consistently carry information between these two domains
+in a way that is numerically and conceptually transparent.
+
+\subsection{Scope and limitations}
+\label{subsec:scope-limitations}
+
+The present paper is explicitly framed as Act~II--III of a longer
+programme. It does not claim to solve the cosmological constant problem,
+nor to provide a fully realistic model of vacuum microstructure. Instead,
+its contributions are deliberately modest and methodological:
+\begin{itemize}
+  \item We define and implement a global non-cancelling constraint on
+  vacuum amplitudes in simple lattice-based toy models, and we document
+  its effect on the evolution of amplitudes and energies.
+  \item We construct a family of $\thetastar$-dependent flavour ans\"atze,
+  use them to fit neutrino and quark mixing data, and extract a posterior
+  band and fiducial value for $\thetastar$.
+  \item We couple this $\thetastar$ prior to a toy microcavity model of
+  vacuum energy and build an effective-vacuum description that can be
+  plugged into a FRW cosmology.
+  \item We compute a small set of cosmology-style observables---age,
+  deceleration parameter, and a Hubble-diagram-style distance relation---to
+  illustrate how the effective vacuum behaves relative to a matter-only
+  universe and a standard $\Lambda$CDM benchmark.
+\end{itemize}
+
+At every stage we make strong simplifying assumptions. The toy lattice
+models are not derived from a realistic field content; the microcavity
+construction is not tied to any specific microphysical mechanism; the
+mapping from dimensionless energy shifts $\Delta E(\thetastar)$ to
+cosmological energy densities is defined by an explicit scaling rather than
+a derivation. These choices are intentional: they allow us to isolate the
+\emph{structure} of the non-cancelling principle and the $\thetastar$
+bridge without over-committing to details that would require a full
+quantum-gravity framework.
+
+The rest of the paper is organised as follows. In Act~II
+(Section~\ref{sec:act2-theta-star}) we describe the construction of the
+$\thetastar$ flavour ans\"atze and the resulting posterior band on
+$\thetastar$. In Act~II$\,\tfrac{1}{2}$
+(Section~\ref{sec:act2-vacuum-toys}) we present the non-cancelling toy
+models of vacuum microstructure, including the microcavity construction and
+its $\thetastar$-dependence. In Act~III
+(Section~\ref{sec:act3-effective-vacuum}) we build the effective-vacuum
+interface, couple it to an FRW toy universe, and compare selected
+cosmological observables to standard benchmarks. We conclude with a
+discussion of limitations and future directions in
+Section~\ref{sec:discussion}.

@@ -1,0 +1,143 @@
+% main_origin_axiom.tex
+% Top-level paper file for the Origin Axiom / theta* programme.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[numbers]{natbib}
+
+% Basic macros
+\newcommand{\thetastar}{\theta^\star}
+\newcommand{\OmegaLambda}{\Omega_{\Lambda}}
+\newcommand{\Omegam}{\Omega_{\mathrm{m}}}
+\newcommand{\Hzero}{H_{0}}
+
+\begin{document}
+
+\title{Origin Axiom Act II--III:\\
+A $\thetastar$ prior from flavour and a toy effective vacuum for cosmology}
+
+\author{D.\ Mehmetaj and collaborators}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+We explore a toy implementation of the \emph{Origin Axiom}: a programme in
+which the vacuum is constrained by a global non-cancelling principle and a
+single phase $\thetastar$ simultaneously organises flavour mixing and an
+effective vacuum energy. In Act~II we build phenomenological
+$\thetastar$--dependent ans\"atze for the leptonic and quark mixing
+matrices, fit them to current flavour data, and extract a posterior band
+and fiducial value for $\thetastar$. This band is encoded as a simple
+configuration file that can be consumed by other codes. In Act~III we
+construct lattice toy models of vacuum microstructure, including a
+$\thetastar$--dependent microcavity, and we use them to define an
+effective-vacuum contribution to a Friedmann--Robertson--Walker (FRW) toy
+universe. We compare the resulting age, deceleration parameter, and
+Hubble-diagram-style distance relation to standard matter-only and
+$\Lambda$CDM benchmarks. The purpose of this paper is methodological: to
+demonstrate that a single phase prior derived from flavour can be wired, in
+a fully reproducible way, into simple vacuum and cosmology models, and to
+make explicit the scaling assumptions required to connect toy microphysics
+to observed vacuum energy scales.
+\end{abstract}
+
+\tableofcontents
+
+%------------------------------------------------------------
+% Act I: Motivation and conceptual backbone
+%------------------------------------------------------------
+\input{act1_origin_axiom.tex}
+% --- Act II: flavour → theta-star prior → vacuum toys
+\input{act2_theta_star_section}
+\input{act2_frw_vacuum_demo}
+\input{act2_frw_from_microcavity}
+\input{act2_lambda_scaling_check}
+
+% --- Act III: effective vacuum + FRW observables
+\input{act3_effective_vacuum_interface}
+\input{act3_frw_observables}
+\input{act3_hubble_diagram}
+
+% --- Final discussion / outlook will go here
+
+%------------------------------------------------------------
+% Act II: theta* prior from flavour
+% (You already have detailed Act II TeX fragments in docs/paper;
+%  adapt the paths below to match your repo layout.)
+%------------------------------------------------------------
+\section{Act II: Flavour constraints and the $\thetastar$ prior}
+\label{sec:act2-theta-star}
+
+% Example: break Act II into subsections and input existing files.
+% Adjust file names/paths as needed.
+% \input{docs/paper/act2_theta_star_section.tex}
+
+%------------------------------------------------------------
+% Act II 1/2: Vacuum toy models and microcavity
+%------------------------------------------------------------
+\section{Act II.5: Vacuum toy models and microcavity}
+\label{sec:act2-vacuum-toys}
+
+% Example includes; update to your actual TeX fragment names:
+% \input{docs/paper/act2_frw_vacuum_demo.tex}
+% \input{docs/paper/act2_frw_from_microcavity.tex}
+% \input{docs/paper/act2_lambda_scaling_check.tex}
+
+%------------------------------------------------------------
+% Act III: Effective vacuum, FRW toy universe, observables
+%------------------------------------------------------------
+\section{Act III: Effective vacuum and FRW toy universe}
+\label{sec:act3-effective-vacuum}
+
+% Example includes; update to your actual TeX fragment names:
+% \input{docs/paper/ACTIII_effective_vacuum_interface.tex}
+% \input{docs/paper/ACTIII_frw_observables.tex}
+% \input{docs/paper/ACTIII_hubble_diagram.tex}
+
+%------------------------------------------------------------
+% Discussion and outlook
+%------------------------------------------------------------
+\section{Discussion and outlook}
+\label{sec:discussion}
+
+We close by summarising the main structural ingredients of the Origin Axiom
+programme and outlining concrete next steps. First, we have shown that a
+single phase $\thetastar$ can be used as a bridge parameter between
+flavour physics and toy models of vacuum microstructure. The $\thetastar$
+posterior extracted from flavour fits is encoded in a compact configuration
+file and subsequently consumed by independent scripts that implement vacuum
+and FRW toy models. This explicit wiring is a small but important step
+towards a reproducible ``end-to-end'' story, from flavour data to
+cosmological observables, within a controlled toy setting.
+
+Second, we have seen that the non-cancelling principle---implemented here
+as a simple clipping rule on coarse-grained amplitudes---naturally
+generates persistent vacuum-like contributions whose energy scale can be
+matched to the observed cosmological constant by an explicit scaling
+assumption. In the present work that scaling is imposed rather than
+derived, and the microcavity model is deliberately minimal. Nonetheless,
+the resulting effective-vacuum cosmology reproduces the qualitative
+features of an accelerating universe, with an age and deceleration
+parameter broadly compatible with standard $\Lambda$CDM.
+
+Finally, the limitations of the present toy models suggest a clear roadmap
+for future Acts. A more realistic implementation would require:
+(i) deriving a non-cancelling constraint from an underlying field theory
+or quantum-information-theoretic principle, (ii) constructing microcavity
+or defect models tied to specific particle content and interactions,
+(iii) integrating the flavour and vacuum sectors into a single dynamical
+framework, and (iv) confronting the resulting effective cosmology with
+precision data beyond the simple observables considered here. These steps
+will be the focus of future work in the Origin Axiom programme.
+
+\nocite{origin_axiom_inprep}
+\bibliographystyle{unsrtnat}
+\bibliography{origin_axiom}
+
+\end{document}

@@ -1,0 +1,530 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{physics}
+
+\title{A Minimal Scalar Toy Universe with a Global Non-Cancelling Constraint}
+\author{Drit\"ero Mehmetaj}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study a minimal field--theoretic implementation of the \emph{Origin Axiom}:
+the hypothesis that physically realised configurations of the universe never
+reach a perfectly cancelling global state. Operationally, we represent this as
+a constraint on a global complex amplitude \(A(C)\) constructed from the fields.
+Configurations with \(A(C)\) exactly equal to zero (or more generally lying in a
+small neighbourhood of a reference value \(A_\ast\)) are removed from the
+admissible configuration space.
+
+In this paper we do not claim a fundamental derivation of known physics.
+Instead, we ask a narrower, technical question: can such a global ``non--cancelling''
+rule be imposed on simple scalar field models in a way that is dynamically
+stable and numerically well behaved? We construct a complex scalar field on a
+discrete three--torus and impose the Origin Axiom as a global projection on the
+total field amplitude. We compare linear and nonlinear dynamics, perform a
+small scan over the constraint scale \(\epsilon\) and coupling \(\lambda\), and
+check simple one--dimensional twisted models where we expect the constraint to
+be spectrally trivial.
+
+The main observations are:
+(i) in both linear and nonlinear regimes the global constraint successfully
+keeps \(|A(t)|\) away from zero and close to a tunable scale
+\(|A|\sim\epsilon\);
+(ii) the coarse--grained energy evolution is remarkably insensitive to the
+constraint, suggesting that the rule can be viewed as a global selection on
+otherwise standard dynamics; and
+(iii) for simple one--dimensional twisted scalar chains the vacuum energy is
+independent of the twist angle, so nontrivial phase effects require more
+structure than the minimal models considered here.
+\end{abstract}
+
+\section{Introduction}
+
+The Origin Axiom, developed in a separate conceptual companion paper, starts
+from the idea that \emph{absolute nothingness}---a state with no fields, no
+degrees of freedom, and no possibility of change---is not a coherent member of
+configuration space. In this view, it should be impossible for the universe to
+``settle'' into a globally cancelling state that is, in an appropriate sense,
+indistinguishable from nothing. This motivates a structural rule: global
+configurations that cancel exactly should be excluded, even if the local
+dynamics are otherwise familiar.
+
+The aim of this paper is deliberately modest and technical. We do not attempt
+to reconstruct cosmology or the Standard Model. Instead, we take a simple
+complex scalar field on a discrete three--torus and ask:
+
+\begin{itemize}
+  \item Can we define a global complex amplitude \(A(C)\) that is sensitive to
+  large--scale cancellations?
+  \item Can we impose a constraint that forbids \(|A|\) from entering a small
+  neighbourhood of some reference value \(A_\ast\), while leaving the rest of
+  the dynamics as standard as possible?
+  \item How does such a constraint behave numerically in linear and nonlinear
+  regimes, and how does its ``activity'' scale with its tunable parameters?
+\end{itemize}
+
+We find that a very simple implementation already exhibits clear and robust
+behaviour: the constraint can be tuned to keep the global amplitude away from
+zero while leaving the energy evolution essentially unchanged. This supports
+the view that a non--cancelling rule can be treated as a global selection on
+configuration space---a structural ingredient---rather than an additional local
+interaction.
+
+We also study simple one--dimensional twisted scalar models intended as analytic
+checks. On both a uniform ring and a ring with a single defect bond, the total
+vacuum energy is numerically independent of the twist angle. These models thus
+serve as useful null results and constrain how and where a global phase--like
+parameter could have nontrivial energetic consequences.
+
+\section{Minimal lattice model}
+
+We work on a cubic lattice with periodic boundary conditions, representing a
+discrete three--torus \(T^3\). Lattice sites are indexed by integer triples
+\(\mathbf{n} = (n_x,n_y,n_z)\) with
+\[
+  n_i \in \{0,\dots,N-1\}, \qquad i\in\{x,y,z\},
+\]
+and periodic identification \(n_i \equiv n_i + N\). The total number of sites
+is \(V = N^3\).
+
+At each site and time step we place a complex scalar field value
+\(\Phi_{\mathbf{n}}(t)\in\mathbb{C}\). We write
+\(\Phi_{\mathbf{n}} = \phi_{\mathbf{n}}^{(R)} + i \phi_{\mathbf{n}}^{(I)}\),
+with real and imaginary parts treated symmetrically. In this toy setting we
+interpret the real/imaginary pair loosely as a ``yin--yang'' structure: two
+interpenetrating components that interfere but do not annihilate one another.
+
+\subsection{Discrete dynamics}
+
+We use a discrete Klein--Gordon--type dynamics for \(\Phi\). Denoting by
+\(\Delta\) the standard nearest--neighbour lattice Laplacian,
+\[
+  (\Delta \Phi)_{\mathbf{n}}
+  = \sum_{\hat{\mu}\in\{\pm \hat{x},\pm \hat{y},\pm \hat{z}\}}
+      \Phi_{\mathbf{n}+\hat{\mu}}
+    - 6 \Phi_{\mathbf{n}},
+\]
+the continuum equation \(\ddot{\Phi} = c^2 \Delta \Phi - m^2 \Phi
+- \lambda|\Phi|^2 \Phi\) motivates a leapfrog integration scheme with time step
+\(\Delta t\):
+\begin{equation}
+  \Phi_{\mathbf{n}}(t+\Delta t)
+  = 2\Phi_{\mathbf{n}}(t) - \Phi_{\mathbf{n}}(t-\Delta t)
+    + \Delta t^2\left[
+      c^2 (\Delta \Phi)_{\mathbf{n}}(t)
+      - m^2 \Phi_{\mathbf{n}}(t)
+      - \lambda |\Phi_{\mathbf{n}}(t)|^2 \Phi_{\mathbf{n}}(t)
+    \right],
+  \label{eq:leapfrog}
+\end{equation}
+with parameters \(c\) (wave speed), \(m\) (mass), and \(\lambda\) (self--coupling).
+
+We monitor a discrete energy functional
+\begin{equation}
+  E(t) = \sum_{\mathbf{n}}\left[
+    \frac{1}{2} |\dot{\Phi}_{\mathbf{n}}(t)|^2
+    + \frac{c^2}{2} \sum_{\hat{\mu}}
+      \left|\Phi_{\mathbf{n}+\hat{\mu}}(t) - \Phi_{\mathbf{n}}(t)\right|^2
+    + \frac{m^2}{2} |\Phi_{\mathbf{n}}(t)|^2
+    + \frac{\lambda}{4} |\Phi_{\mathbf{n}}(t)|^4
+  \right],
+  \label{eq:energy}
+\end{equation}
+computed in the code as a diagnostic of numerical stability. For the parameter
+choices below, the leapfrog scheme with sufficiently small \(\Delta t\) keeps
+\(E(t)\) approximately conserved over the time windows we study.
+
+\subsection{Global amplitude}
+
+The key global quantity in our implementation of the Origin Axiom is the
+total complex amplitude
+\begin{equation}
+  A(t) = \sum_{\mathbf{n}} \Phi_{\mathbf{n}}(t).
+\end{equation}
+This is the simplest nontrivial linear functional on the field configuration
+that is sensitive to large--scale cancellation. For generic random initial
+data, \(A(0)\) is small compared to typical local field values, and under
+unconstrained evolution \(A(t)\) remains close to zero in the models we study.
+
+We initialise the field with small random complex noise and explicitly subtract
+the mean so that \(A(0)\approx 0\). This puts the system near the would--be
+``forbidden'' global cancellation point.
+
+\section{The Origin Axiom constraint}
+
+In the conceptual paper, the Origin Axiom is stated abstractly as a condition
+on allowed configurations \(C\), excluding those for which the global
+amplitude \(A(C)\) lies in a small neighbourhood of a reference value
+\(A_\ast\). Here we implement a specific and concrete version suitable for
+numerical experiments.
+
+We focus on the simplest case \(A_\ast = 0\). Given a tolerance
+\(\epsilon > 0\), we define the \emph{forbidden disc}
+\begin{equation}
+  \mathcal{D}_\epsilon = \{ A\in\mathbb{C} \mid |A| < \epsilon \}.
+\end{equation}
+The Origin Axiom is then realised as the rule that \(A(t)\) must not enter
+\(\mathcal{D}_\epsilon\). When the unconstrained dynamics would drive the
+system into \(\mathcal{D}_\epsilon\), we project the configuration back to the
+boundary \(|A|=\epsilon\) by adding a small uniform complex shift.
+
+Concretely, at each time step we check \(A(t)\). If \(|A(t)| \ge \epsilon\),
+we do nothing. If \(|A(t)| < \epsilon\), we apply the additive correction
+\begin{equation}
+  \Phi_{\mathbf{n}}(t) \longrightarrow
+  \Phi_{\mathbf{n}}(t) + \delta\Phi(t)
+  \qquad\text{for all }\mathbf{n},
+\end{equation}
+with
+\begin{equation}
+  \delta\Phi(t)
+  = \frac{1}{V}\Bigl( \epsilon e^{i\theta_\ast} - A(t)\Bigr),
+\end{equation}
+so that the new amplitude satisfies \(A'(t) = \epsilon e^{i\theta_\ast}\).
+In the simulations presented here we choose \(\theta_\ast = \pi\), so that the
+global amplitude is pushed to \(-\epsilon\) along the real axis, but the choice
+of angle is not dynamically important in this toy context.
+
+We record a counter of how many time steps invoke this projection; we refer to
+these as \emph{constraint hits}. The parameter \(\epsilon\) thus plays a dual
+role: it sets the scale of forbidden global cancellation and also controls how
+frequently the constraint needs to act for a given dynamical regime.
+
+\section{Numerical experiments in three dimensions}
+
+All simulations reported here use a lattice size \(N = 16\), so
+\(V = 16^3\). Unless stated otherwise we fix \(c = 1\), \(m = 0.1\) and
+\(\Delta t = 0.01\) for the linear case and \(\Delta t = 0.005\) when
+\(\lambda\neq 0\). The initial field is a small random complex field with
+amplitude of order \(10^{-2}\), mean--subtracted to enforce \(A(0)\approx 0\).
+The same initial realisation (fixed random seed) is used throughout so that
+differences between runs can be attributed to the constraint.
+
+\subsection{Linear toy universe}
+
+We first consider the linear dynamics with \(\lambda = 0\). We run two
+simulations:
+one unconstrained, and one with the Origin Axiom constraint at
+\(\epsilon = 0.05\).
+
+Figure~\ref{fig:linear-A} compares \(|A(t)|\) for the two runs. In the
+unconstrained case, the global amplitude remains extremely close to zero for
+the entire run, with \(|A(t)|\) of order \(10^{-4}\) or less. The system sits
+comfortably in the would--be forbidden region near perfect cancellation. With
+the constraint activated, the amplitude is instead held at \(|A(t)|\approx
+0.05\) for the whole evolution: the projection fires at almost every time step
+and keeps the universe away from global cancellation.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/toy_v0_1_compare_Amod_epsilon005_meanzero}
+  \caption{Linear toy universe (\(\lambda=0\)) on a \(16^3\) lattice.
+  Global amplitude magnitude \(|A(t)|\) with and without the Origin Axiom
+  constraint at \(\epsilon=0.05\). Without the constraint, the universe
+  remains in a nearly cancelling state with \(|A|\approx 0\). With the
+  constraint, \(|A|\) is kept at the nonzero value \(\epsilon\) throughout.}
+  \label{fig:linear-A}
+\end{figure}
+
+Crucially, the energy evolution is almost unaffected by the constraint.
+Figure~\ref{fig:linear-E} shows that the discrete energy~\eqref{eq:energy} for
+the constrained run tracks the unconstrained energy to high precision. The
+constraint therefore acts as a gentle global offset rather than a violent
+source of instability.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/toy_v0_1_compare_energy_epsilon005_meanzero}
+  \caption{Linear toy universe (\(\lambda=0\)).
+  Energy \(E(t)\) with and without the Origin Axiom constraint at
+  \(\epsilon=0.05\). The curves are visually indistinguishable on the scale
+  shown, indicating that the constraint does not significantly distort the
+  coarse--grained energy dynamics.}
+  \label{fig:linear-E}
+\end{figure}
+
+\subsection{Nonlinear toy universe}
+
+We now turn on a moderate self--coupling \(\lambda = 1\) and repeat the
+comparison between unconstrained and constrained dynamics.
+
+The unconstrained run again keeps the global amplitude near zero: \(|A(t)|\)
+remains of order \(10^{-5}\) to \(10^{-4}\) over the simulation window. With
+the constraint enforced at \(\epsilon = 0.05\), the amplitude is quickly
+pulled to \(|A|=\epsilon\) and remains there. The global rule thus continues
+to function as intended even when local nonlinearities are present.
+
+Figure~\ref{fig:nonlinear-A} shows the amplitude comparison, and
+Figure~\ref{fig:nonlinear-E} shows the corresponding energy evolution. As in
+the linear case, the energy curves for constrained and unconstrained runs
+overlap almost perfectly. There is no sign of runaway behaviour or secular
+drift induced by the constraint, despite the fact that it fires at every time
+step in the constrained simulation.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/toy_v0_1_nonlinear_compare_Amod_epsilon005_meanzero}
+  \caption{Nonlinear toy universe (\(\lambda=1\)).
+  Global amplitude magnitude \(|A(t)|\) with and without the Origin Axiom
+  constraint at \(\epsilon=0.05\). The unconstrained universe again remains
+  near global cancellation, while the constrained universe is kept at
+  \(|A|=\epsilon\).}
+  \label{fig:nonlinear-A}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/toy_v0_1_nonlinear_compare_energy_epsilon005_meanzero}
+  \caption{Nonlinear toy universe (\(\lambda=1\)).
+  Energy \(E(t)\) with and without the Origin Axiom constraint at
+  \(\epsilon=0.05\). As in the linear case, the energy evolution is essentially
+  unchanged by the global non--cancelling rule.}
+  \label{fig:nonlinear-E}
+\end{figure}
+
+\subsection{Constraint activity as a function of \texorpdfstring{\(\epsilon\)}{epsilon} and \texorpdfstring{\(\lambda\)}{lambda}}
+
+To characterise the behaviour of the constraint more systematically, we run a
+small scan in the \((\epsilon,\lambda)\) plane. We fix the lattice and initial
+field as above and consider
+\(\lambda\in\{0,1\}\) and \(\epsilon\in\{0.01,0.03,0.05,0.10\}\).
+For each pair we evolve the system for \(300\) time steps with the constraint
+enabled and record:
+\begin{itemize}
+  \item the number of constraint hits (how many time steps required a
+  projection);
+  \item the mean and final values of \(|A(t)|\);
+  \item the mean and standard deviation of the energy \(E(t)\).
+\end{itemize}
+
+Figure~\ref{fig:scan-Amean} shows the mean amplitude
+\(\langle|A(t)|\rangle\) as a function of \(\epsilon\) for both values of
+\(\lambda\). In all cases, the points lie on a straight line with slope very
+close to unity: the constraint enforces
+\(\langle|A|\rangle \approx \epsilon\) regardless of the presence or absence
+of self--interaction. The parameter \(\epsilon\) therefore acts as a clean
+dial for the scale of non--cancellation.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/constraint_scan_Amean_vs_eps_lambda0_00}
+  \includegraphics[width=0.7\textwidth]{figures/constraint_scan_Amean_vs_eps_lambda1_00}
+  \caption{Mean global amplitude \(\langle|A(t)|\rangle\) versus the constraint
+  scale \(\epsilon\) for \(\lambda=0\) (top) and \(\lambda=1\) (bottom).
+  In both regimes the behaviour is approximately linear with unit slope:
+  the Origin Axiom constraint sets the typical global amplitude scale.}
+  \label{fig:scan-Amean}
+\end{figure}
+
+Figure~\ref{fig:scan-hits} displays the number of constraint hits as a
+function of \(\epsilon\). For the linear model (\(\lambda=0\)), the constraint
+fires at essentially every time step across the entire range of \(\epsilon\):
+the unconstrained dynamics keeps \(|A|\) near zero, so the universe would
+otherwise remain trapped in the forbidden region. In the nonlinear model
+(\(\lambda=1\)), the behaviour is more nuanced. For \(\epsilon=0.01\) the
+constraint fires on only about half the time steps, because the local
+self--interaction occasionally pushes \(|A|\) out of the forbidden disc on its
+own. For larger \(\epsilon\), the hits again saturate to the maximum: the disc
+is wider and the dynamics does not escape it without the global projection.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/constraint_scan_hits_vs_eps_lambda1_00}
+  \caption{Constraint hits versus \(\epsilon\) for the nonlinear model
+  (\(\lambda=1\)). For \(\epsilon=0.01\) the constraint is active on about half
+  the time steps; for larger \(\epsilon\) it fires nearly every step. A similar
+  plot for \(\lambda=0\) shows saturation at the maximum number of hits across
+  the entire range, reflecting the tendency of the linear dynamics to remain
+  near global cancellation.}
+  \label{fig:scan-hits}
+\end{figure}
+
+Across all runs, the mean energy \(\langle E\rangle\) and its fluctuations are
+practically independent of \(\epsilon\) and differ only slightly between
+\(\lambda=0\) and \(\lambda=1\). This reinforces the view that the Origin
+Axiom constraint operates primarily at the level of global cancellations,
+without significantly altering the local energetic structure in these toy
+models.
+
+\section{One-dimensional twisted scalar checks}
+
+To probe the spectral consequences of global phases and topological twists in
+a simpler setting, we also study one--dimensional complex scalar models where
+the eigenmodes can be constructed analytically or semi--analytically. These
+systems do not implement the full Origin Axiom, but they test whether a global
+twist parameter \(\theta_\ast\) can have a nontrivial effect on vacuum energy.
+
+\subsection{Uniform twisted ring}
+
+The first model is a complex scalar on a ring of \(N\) sites with twisted
+boundary condition
+\begin{equation}
+  \Phi_{n+N} = e^{i\theta_\ast}\,\Phi_n,
+\end{equation}
+where \(n\in\{0,\dots,N-1\}\). The quadratic form for the potential energy can
+be written in terms of a Hermitian mass matrix \(M(\theta_\ast)\) whose
+eigenvalues \(\omega_j^2(\theta_\ast)\) give the normal--mode frequencies.
+The zero--point vacuum energy is then
+\begin{equation}
+  E_0(\theta_\ast) = \frac{1}{2}\sum_j \omega_j(\theta_\ast).
+\end{equation}
+
+For a uniform nearest--neighbour coupling on a perfectly symmetric ring, the
+spectrum can be obtained by discrete Fourier transform. The twist simply
+shifts the allowed momenta,
+\(k_m(\theta_\ast) \sim (2\pi m + \theta_\ast)/N\), but the set of eigenvalues
+\(\{\omega_j^2\}\) is invariant as a whole: the twist merely relabels the
+modes. Numerically, for \(N=256\), \(c=1\), \(m_0=0.1\) and 181 values of
+\(\theta_\ast\) between 0 and \(2\pi\), we find that \(E_0(\theta_\ast)\) is
+flat to within \(\mathcal{O}(10^{-13})\). The plot of
+\(\Delta E_0(\theta_\ast) = E_0(\theta_\ast) - E_0(0)\) shows only numerical
+noise at the level displayed in Figure~\ref{fig:1d-deltaE}.
+
+\subsection{Ring with a single defect bond}
+
+To break translation invariance while retaining a simple quadratic structure,
+we introduce a single ``defect'' bond between sites \(N-1\) and \(0\), with
+modified coupling and twist:
+\begin{equation}
+  \Phi_{N} = e^{i\theta_\ast}\,\Phi_0,
+\end{equation}
+and a reduced effective coupling \(c_{\text{defect}} = \alpha c\) on that bond,
+with \(\alpha<1\). The resulting mass matrix \(M(\theta_\ast,\alpha)\) is no
+longer diagonal in the Fourier basis, but can be diagonalised numerically.
+
+For \(N=256\), \(c=1\), \(m_0=0.1\) and \(\alpha = 0.5\), we again compute
+\(E_0(\theta_\ast)\) for 181 evenly spaced twists between 0 and \(2\pi\). The
+vacuum energy is again numerically flat; the variation in
+\(\Delta E_0(\theta_\ast)\) is at the level of \(10^{-13}\) or less, as shown
+in Figure~\ref{fig:1d-deltaE}. The presence of a single real defect bond is
+not sufficient to make the total vacuum energy sensitive to the twist angle.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/twisted_1d_deltaE_vs_theta}
+  \caption{Vacuum energy shift \(\Delta E_0(\theta_\ast)\) for the twisted
+  one--dimensional scalar models (uniform ring and ring with a single defect
+  bond) with \(N=256\), \(c=1\), \(m_0=0.1\). In both cases
+  \(\Delta E_0(\theta_\ast)\) is numerically consistent with zero at the level
+  shown, indicating that the total vacuum energy is effectively independent of
+  the global twist in these quadratic models.}
+  \label{fig:1d-deltaE}
+\end{figure}
+
+These one--dimensional results serve as useful null checks. They show that in
+highly symmetric quadratic scalar systems, a global twist parameter can be
+spectrally trivial at the level of the summed vacuum energy. Any nontrivial
+role for a global phase--like parameter in more realistic settings will
+therefore require additional structure: different boundary conditions, more
+complex defect patterns, interactions beyond the simple quadratic form, or
+couplings to other sectors.
+
+\section{Discussion and outlook}
+
+The simulations presented here demonstrate that a simple implementation of the
+Origin Axiom---as a global constraint forbidding exact cancellation of a
+complex amplitude---can be embedded in standard--looking scalar dynamics in a
+controlled way. In the three--dimensional toy universe studied here:
+
+\begin{itemize}
+  \item The constraint enforces a tunable non--cancellation scale
+  \(|A|\sim\epsilon\), both in linear and nonlinear regimes.
+  \item The gross energy dynamics is largely insensitive to the constraint:
+  the constrained and unconstrained energy curves track each other closely,
+  and the mean energy in the \((\epsilon,\lambda)\) scan is nearly constant.
+  \item The activity of the constraint, measured by the number of hits, shows
+  a simple dependence on \(\epsilon\) and \(\lambda\): for small \(\epsilon\)
+  and nonzero \(\lambda\) the local dynamics occasionally escapes the
+  forbidden disc on its own; for larger \(\epsilon\) or in the linear case the
+  constraint fires at nearly every step.
+\end{itemize}
+
+These features are encouraging for the broader Origin Axiom programme. They
+suggest that a global non--cancelling rule can be realised as a structural
+restriction on configuration space without immediately conflicting with basic
+energetic behaviour, at least in simple scalar models.
+
+Several directions follow naturally:
+
+\begin{itemize}
+  \item \textbf{Refined constraints.} Instead of a sharp circle
+  \(|A|<\epsilon\), one can consider bands \(|A|\in[\epsilon,\epsilon+\delta]\)
+  or more elaborate forbidden regions, and study how the statistics of
+  constraint hits and the distribution of \(|A|\) respond.
+  \item \textbf{Richer microstructure.} The current three--torus is the
+  simplest compact topology. Other lattices, random graphs, or more structured
+  geometries may allow a closer connection to continuum quantum field theory
+  or semiclassical gravity.
+  \item \textbf{Additional fields and couplings.} Extending the model to
+  multiple scalar components, gauge fields, or couplings to effective geometry
+  could reveal new ways in which a global non--cancelling rule constrains the
+  space of admissible configurations.
+  \item \textbf{Analytic limits.} The 1D twisted models illustrated here are
+  intentionally simple. Systematic analytic study of continuum limits,
+  alternative boundary conditions, and more complex defect structures may
+  clarify in which regimes a global phase parameter can have nontrivial
+  energetic consequences.
+\end{itemize}
+
+Overall, the present paper should be regarded as an early technical step. It
+does not yet make direct contact with observation, nor does it attempt to
+explain the detailed structure of our universe. Its value lies in showing that
+the Origin Axiom can be formulated as a concrete rule on field configurations
+and tested in explicit models, opening a path from high--level philosophical
+motivation to quantitative physics.
+
+\end{document}
+
+\section{Numerical implementation and reproducibility}
+\label{sec:numerics_repro}
+
+All simulations in this paper are implemented in plain Python / NumPy on a
+discrete three–torus with periodic boundary conditions. The full source code
+and data needed to regenerate every figure are available in the public
+repository \texttt{origin-axiom}.
+
+The core components are:
+
+\begin{itemize}
+  \item the lattice scalar field and energy functional:
+        \verb|src/toy_universe_lattice/|;
+  \item driver scripts that generate the main data sets:
+        \verb|src/run_toy_universe_demo.py|,
+        \verb|src/run_toy_universe_compare_constraint.py|,
+        \verb|src/run_toy_universe_constraint_scan.py|,
+        \verb|src/run_1d_twisted_vacuum_scan.py|,
+        \verb|src/run_1d_defected_vacuum_scan.py|;
+  \item lightweight ``notebooks'' (plain \texttt{.py} files) that produce all
+        plots used in the figures:
+        \verb|notebooks/01_toy_universe_exploration.py|,
+        \verb|notebooks/02_1d_twisted_analysis.py|,
+        \verb|notebooks/02b_1d_defected_twist_analysis.py|,
+        \verb|notebooks/03_compare_constraint_effect.py|,
+        \verb|notebooks/04_compare_constraint_nonlinear.py|,
+        \verb|notebooks/05_constraint_scan_analysis.py|.
+\end{itemize}
+
+Processed data files (\verb|.npz|) and generated plots (\verb|.png|) are stored
+under \verb|data/processed/|. For convenience, the repository contains a single
+shell script
+
+\begin{center}
+  \verb|scripts/run_core_plots.sh|
+\end{center}
+
+which, when run from the repository root with Python~3.11+ installed, creates
+a virtual environment if necessary, installs minimal dependencies, and
+regenerates all core data sets and plots presented in this work. Detailed
+instructions are given in \verb|docs/REPRODUCING_FIGURES.md|.
+
+This design ensures that every figure in the paper is traceable to a specific
+script and parameter set, and that independent researchers can reproduce all
+numerical results with a small number of commands.
+

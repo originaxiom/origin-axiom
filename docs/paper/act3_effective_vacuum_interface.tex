@@ -1,0 +1,122 @@
+\
+% ACT III: Effective vacuum interface (origin-axiom)
+\section{From microstructure to an effective vacuum component}
+\label{sec:act3_effective_vacuum}
+
+In Act~II we treated the flavour sector as a self-contained problem: we
+introduced a master phase $\theta_\star$ and fitted a structured ansatz
+for the PMNS matrix (and, in joint runs, the CKM sector). The outcome was
+a posterior band
+\begin{equation}
+  \theta_\star \in [\theta_{\star,\mathrm{lo}},\,\theta_{\star,\mathrm{hi}}]
+\end{equation}
+summarised in a small configuration file
+\verb|config/theta_star_config.json|. This band is the only piece of
+flavour information we will need in what follows.
+
+On the ``scalar side'' (Act~II, scalar sector) we constructed a simple
+1D microcavity model: a finite chain whose vacuum energy is slightly
+modulated in a sub-region (the ``cavity'') and which depends on the same
+phase $\theta_\star$ via a twisted boundary condition. The corresponding
+scan
+\begin{equation}
+  \Delta E(\theta_\star) \equiv E_{0,\mathrm{cavity}}(\theta_\star)
+    - E_{0,\mathrm{uniform}}(\theta_\star)
+\end{equation}
+is stored in
+\verb|data/processed/theta_star_microcavity_scan_full_2pi.npz|.
+
+\subsection{The effective vacuum wrapper}
+
+For Act~III we do not yet claim to have a microscopic prediction of the
+cosmological constant. Instead, we introduce an explicit, minimal
+``effective vacuum'' wrapper in the main \path{origin-axiom} repo:
+\begin{itemize}
+  \item \verb|src/vacuum_effective.py| defines a small data structure
+    \path{EffectiveVacuumModel} which
+    \begin{enumerate}
+      \item loads the Act~II $\theta_\star$ prior from
+        \verb|config/theta_star_config.json|;
+      \item loads the 1D microcavity scan
+        \verb|theta_star_microcavity_scan_full_2pi.npz|;
+      \item maps the dimensionless $\Delta E(\theta_\star)$ to an
+        effective cosmological-constant fraction $\Omega_\Lambda(\theta_\star)$
+        via a single scaling factor $k_{\rm scale}$:
+        \begin{equation}
+          \Omega_\Lambda(\theta_\star)
+            = k_{\rm scale} \,\Delta E(\theta_\star),
+        \end{equation}
+        followed by a clamp to the physical range $0 \le \Omega_\Lambda < 1$.
+    \end{enumerate}
+  \item The scale $k_{\rm scale}$ is fixed by demanding that at the
+    fiducial value $\theta_{\star,\mathrm{fid}}$ inferred from flavour
+    we recover a target value $\Omega_{\Lambda,\mathrm{fid}}$,
+    chosen here to be $0.7$:
+    \begin{equation}
+      \Omega_\Lambda(\theta_{\star,\mathrm{fid}})
+      \equiv \Omega_{\Lambda,\mathrm{fid}} \simeq 0.7.
+    \end{equation}
+    In practice we take $\theta_{\star,\mathrm{fid}}$ from the
+    configuration file, locate the nearest grid point in the
+    $\Delta E(\theta_\star)$ scan, and set
+    $k_{\rm scale} = \Omega_{\Lambda,\mathrm{fid}} / \Delta E(\theta_{\star,\mathrm{fid}})$.
+\end{itemize}
+
+The resulting model exposes two simple methods,
+$\Omega_\Lambda(\theta_\star)$ and
+$\Omega_m(\theta_\star) = 1 - \Omega_\Lambda(\theta_\star)$, so that
+FRW toy scripts can work purely at the level of effective cosmological
+parameters without knowing any details of the microcavity calculation.
+
+\subsection{FRW from the effective vacuum}
+
+To show how this interface is used in practice we implemented
+\verb|src/run_frw_from_effective_vacuum.py|. This script:
+
+\begin{enumerate}
+  \item Builds an \path{EffectiveVacuumModel} from the current
+    configuration and microcavity data.
+  \item Evaluates the effective parameters at the flavour-informed
+    fiducial value $\theta_{\star,\mathrm{fid}}$:
+    \begin{equation}
+      \Omega_\Lambda^{\rm eff} = \Omega_\Lambda(\theta_{\star,\mathrm{fid}}),
+      \qquad
+      \Omega_m^{\rm eff} = 1 - \Omega_\Lambda^{\rm eff}.
+    \end{equation}
+    By construction we find
+    $\Omega_\Lambda^{\rm eff} \simeq 0.7$ and
+    $\Omega_m^{\rm eff} \simeq 0.3$.
+  \item Integrates a flat FRW toy model (with $H_0 = 1$ in code units)
+    for two cases:
+    \begin{itemize}
+      \item a matter-only universe ($\Omega_m = 1, \Omega_\Lambda = 0$);
+      \item an ``effective-vacuum'' universe with
+        $(\Omega_m^{\rm eff}, \Omega_\Lambda^{\rm eff})$.
+    \end{itemize}
+  \item Saves the resulting scale-factor histories $a(t)$ to
+    \verb|data/processed/frw_from_effective_vacuum.npz| for plotting
+    and comparison.
+\end{enumerate}
+
+Figure~\ref{fig:frw_effective_vacuum} shows the resulting evolution
+of the scale factor. As expected, the effective-vacuum run exhibits
+a significantly faster late-time expansion than the matter-only case,
+reproducing the qualitative behaviour of a $\Lambda$CDM-like universe.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/frw_from_effective_vacuum_a_of_t.pdf}
+  \caption{%
+    Flat FRW toy model with and without the effective vacuum component.
+    The matter-only run ($\Omega_m=1, \Omega_\Lambda=0$) is compared to
+    an ``effective'' run where the cosmological constant fraction
+    $\Omega_\Lambda$ is obtained from the microcavity-based
+    $\Delta E(\theta_\star)$ scan at the flavour-informed fiducial
+    angle $\theta_{\star,\mathrm{fid}}$.  Although the mapping from
+    microstructure to $\Omega_\Lambda$ is still phenomenological, this
+    plot demonstrates that the same $\theta_\star$ prior can be used to
+    drive both flavour fits and late-time cosmic acceleration within a
+    single, modular framework.
+  }
+  \label{fig:frw_effective_vacuum}
+\end{figure}

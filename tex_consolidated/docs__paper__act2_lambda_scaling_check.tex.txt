@@ -1,4 +1,4 @@
-\section{Linking Microcavity \texorpdfstring{$\Delta E(\theta_\star)$}{ΔE($theta^star$)} to the Observed Cosmological Constant}
+\section{Linking Microcavity \texorpdfstring{$\Delta E(\theta_\star)$}{ΔE(θ★)} to the Observed Cosmological Constant}
 \label{sec:act2_lambda_scaling}
 
 In this subsection we make explicit how the one-dimensional microcavity
@@ -8,7 +8,7 @@ $\Lambda$, but to document what overall energy-density scale a unit of
 dimensionless microcavity energy shift~$\Delta E$ would need to carry in
 order to match the late-time $\Lambda$CDM universe.
 
-\subsection{Inputs: observed \texorpdfstring{$\rho_\Lambda$}{ρΛ} and Act~II \texorpdfstring{$\theta_\star$}{$theta^star$} configuration}
+\subsection{Inputs: observed \texorpdfstring{$\rho_\Lambda$}{ρΛ} and Act~II \texorpdfstring{$\theta_\star$}{θ★} configuration}
 
 On the cosmological side we adopt a standard flat $\Lambda$CDM-like
 reference:
@@ -37,7 +37,7 @@ $\theta_\star$ scans in the \texttt{origin-axiom-theta-star} repository,
 based on NuFIT 5.2 PMNS targets and the structured
 \texttt{theta\_star\_v2} ansatz.
 
-\subsection{Microcavity \texorpdfstring{$\Delta E(\theta_\star)$}{ΔE($theta^star$)} scan}
+\subsection{Microcavity \texorpdfstring{$\Delta E(\theta_\star)$}{ΔE(θ★)} scan}
 
 On the microcavity side we use the full $0 \le \theta_\star < 2\pi$
 scan produced by
@@ -98,7 +98,7 @@ With this choice, the microcavity model is \emph{calibrated} so that
 its fiducial $\theta_\star$ slice reproduces the late-time dark-energy
 density.
 
-\subsection{Resulting \texorpdfstring{$\rho_{\mathrm{vac}}(\theta_\star)$}{ρvac($theta^star$)} across the Act~II band}
+\subsection{Resulting \texorpdfstring{$\rho_{\mathrm{vac}}(\theta_\star)$}{ρvac(θ★)} across the Act~II band}
 
 Once $S$ is fixed, Eq.~\eqref{eq:rho_vac_scaling_def} yields a
 continuous curve $\rho_{\mathrm{vac}}(\theta_\star)$ over $0\le\theta_\star<2\pi$.
@@ -123,7 +123,7 @@ Two points are important:
   \item The resulting $\rho_{\mathrm{vac}}(\theta_\star)$ across the Act~II
     band lives in the same order-of-magnitude range as the observed
     $\rho_{\Lambda,\mathrm{obs}}$; there is no hidden large hierarchy
-    introduced by the $theta^star$-dependence itself.
+    introduced by the θ★-dependence itself.
 \end{enumerate}
 
 \subsection{Status and limitations}

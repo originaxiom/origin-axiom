@@ -816,3 +816,146 @@ reaching a(t_final) ≈ 32.8 over the same interval.
   while remaining honest that the microphysics and dimensional analysis are still toy-level.
 
 
+### 2025-12-15 — Effective vacuum interface and FRW run
+
+**Repo:** origin-axiom  
+**Files:**  
+- `src/vacuum_effective.py`  
+- `src/run_frw_from_effective_vacuum.py`  
+- `data/processed/frw_from_effective_vacuum.npz` (output)
+
+**What we did**
+- Implemented a thin `EffectiveVacuumModel` in `src/vacuum_effective.py` that:
+  - Reads the Act II theta-star prior from `config/theta_star_config.json`.
+  - Loads the 1D microcavity scan from `data/processed/theta_star_microcavity_scan_full_2pi.npz`.
+  - Defines a toy mapping from microcavity energy shifts to an effective cosmological constant:
+    - `Omega_Lambda(theta_star) = k_scale * delta_E(theta_star)`,
+    - with `k_scale` chosen so that at the fiducial theta-star (\u03B8\u2605_fid) we recover a target value `Omega_Lambda,fid = 0.7` (by construction).
+
+- Wrapped this model in `src/run_frw_from_effective_vacuum.py`, which:
+  - Builds the `EffectiveVacuumModel` from current Act II configuration and microcavity data.
+  - Evaluates `Omega_Lambda(theta_star)` and `Omega_m(theta_star)` at the fiducial \u03B8\u2605.
+  - Integrates a flat FRW toy model (H0=1 units) for:
+    - a matter-only universe (`Omega_m = 1, Omega_Lambda = 0`), and
+    - an "effective-vacuum" universe with (`Omega_m(theta_star_fid), Omega_Lambda(theta_star_fid)`).
+  - Saves the results (time and scale factor arrays, plus meta-info about \u03B8\u2605 and `k_scale`) to `data/processed/frw_from_effective_vacuum.npz`.
+
+**Why this matters**
+- This is the first clean Act III interface that treats the vacuum sector as a function
+  of the flavor-informed theta-star prior rather than an arbitrary knob in FRW.
+- `vacuum_effective.py` is now the single entry point for:
+  - "what does the microstructure say about Omega_Lambda(theta_star)?"
+  - simple FRW scripts can call this without knowing microcavity internals.
+- This keeps the story modular:
+  - Act II: build and lock the theta-star posterior from flavor.
+  - Act III (step 1): translate microcavity \u0394E(\u03B8\u2605) into an effective Lambda,
+    and show that this reproduces the expected FRW acceleration behaviour for the fiducial band.
+
+
+
+# 2025-12-15 — FRW observable-style check (matter-only vs effective vacuum)
+
+**Script:** `scripts/compare_frw_observables.py`  
+**Context:** First Act III “observable check” for the origin-axiom FRW toy universe.
+
+## What the script does
+
+- Loads the Act II theta★ configuration from `theta_star_config.py`:
+  - `theta_star_fid_rad ≈ 3.63`
+  - `theta_star_band_rad ≈ [2.18, 5.54]`
+- Hard-codes a fiducial vacuum fraction
+  - `Omega_Lambda,fid = 0.7`
+  - `Omega_m,fid = 0.3`
+- Defines two flat FRW cosmologies:
+  1. **matter_only**: `Omega_m = 1.0`, `Omega_Lambda = 0.0`
+  2. **effective_vacuum**: `Omega_m = 0.3`, `Omega_Lambda = 0.7`
+- For each cosmology it computes:
+  - Dimensionless age: `t0 * H0 = ∫ da / (a * E(a))` from `a_min = 1e-4` to `a = 1`
+    with `E(a) = sqrt(Omega_m / a^3 + Omega_Lambda)`.
+  - Physical age in Gyr assuming `H0 ≈ 70 km/s/Mpc`.
+  - Deceleration parameter today `q0 = 0.5 * Omega_m - Omega_Lambda`.
+
+## Numerical results (from this run)
+
+With `H0 ≈ 70 km/s/Mpc` (Hubble time `t_H ≈ 13.97 Gyr`):
+
+- **matter_only**
+  - `t0 * H0 ≈ 0.667`
+  - `t0 ≈ 9.31 Gyr`
+  - `q0 ≈ +0.50` (always decelerating)
+
+- **effective_vacuum** (theta★-backed vacuum fraction)
+  - `t0 * H0 ≈ 0.964`
+  - `t0 ≈ 13.47 Gyr`
+  - `q0 ≈ -0.55` (accelerating)
+
+## Interpretation
+
+- The effective-vacuum cosmology (using the Act II theta★-prior-backed
+  `Omega_Lambda,fid = 0.7`) has:
+  - A **negative** deceleration parameter (`q0 < 0`), i.e. late-time accelerated expansion.
+  - An age scale `t0 ≈ 13.5 Gyr`, qualitatively close to the observed age of the Universe.
+- The matter-only model has:
+  - A **positive** deceleration parameter (`q0 ≈ 0.5`), i.e. always decelerating.
+  - A younger age (`t0 ≈ 9.3 Gyr`), illustrating the standard “age problem” of pure matter FRW.
+
+This check does **not** prove the microcavity model predicts Λ; instead,
+it shows that once `Omega_Lambda` is set by the theta★-backed effective vacuum,
+the resulting FRW cosmology naturally lives in the same qualitative regime
+(age and acceleration sign) as the observed Universe.
+
+### 2025-12-15 – ACT III: Hubble-style distance comparison (Hubble diagram)
+
+**Context.** We now have an effective vacuum cosmology in `origin-axiom` that is backed by the Act II theta-star prior and the 1D microcavity scan. To make a first explicit contact with supernova-like observables, we constructed a simple Hubble-style distance–redshift comparison: matter-only vs effective vacuum.
+
+**Code paths.**
+
+- `scripts/compare_hubble_diagram.py`  
+  Simple FRW tool that computes dimensionless luminosity distance
+  d_L(z) in units of c / H0 for:
+  - matter-only: Omega_m = 1, Omega_Lambda = 0
+  - effective vacuum: Omega_m ~= 0.3, Omega_Lambda ~= 0.7 (from the theta-star prior config)
+- Uses the shared interface:
+  - `from theta_star_config import load_theta_star_config`
+  - Config file: `config/theta_star_config.json` (Act II export)
+
+**How to run.**
+
+From the `origin-axiom` repo root:
+
+```bash
+cd ~/Documents/projects/origin-axiom
+PYTHONPATH=src python3 scripts/compare_hubble_diagram.py
+```
+
+This prints the effective-vacuum cosmology inferred from the theta-star prior and writes:
+
+- `data/processed/figures/frw_effective_hubble_diagram.png`
+
+**What the script computes.**
+
+We work in flat FRW with matter + Lambda, ignoring radiation and curvature. In units with c = 1 and distances measured in c / H0:
+
+- Dimensionless Hubble factor:
+  E(z) = H(z) / H0 = sqrt(Omega_m (1+z)^3 + Omega_Lambda).
+- Dimensionless comoving distance:
+  chi(z) = integral_0^z dz' / E(z').
+- Dimensionless luminosity distance:
+  d_L(z) = (1+z) * chi(z).
+
+The script evaluates these with a simple trapezoidal rule on a uniform z-grid up to z_max ~= 2.
+
+**Qualitative result.**
+
+- For a given redshift z, the effective-vacuum curve has a larger luminosity distance d_L(z) than the matter-only curve.
+- In Hubble-diagram language, this means that standard candles (e.g. SNe Ia) would appear fainter at fixed z in the effective-vacuum cosmology than in a matter-only universe.
+- This is the familiar signature of late-time acceleration and is qualitatively compatible with the observed SN Hubble diagram.
+
+The goal here is not precision cosmology but showing that, once we fix Omega_Lambda from the theta-star / microcavity pipeline, the resulting FRW background behaves in the expected accelerated way when seen through a distance–redshift relation.
+
+**Next steps / hooks.**
+
+- (Optional) Add a second script that overlays real binned SN data (or a mock LambdaCDM Hubble diagram) on top of our curves, to show how closely a simple Omega_m ~= 0.3, Omega_Lambda ~= 0.7 effective cosmology can track observations.
+- Keep this script as the main entry point for “first contact” with observable expansion history in ACT III.
+
+

@@ -43,7 +43,7 @@ The corresponding scale--factor histories are shown in Fig.~\ref{fig:frw_vacuum_
 This FRW toy model provides the ``top--down'' view of the vacuum:
 starting from an assumed effective $\Omega_\Lambda$ we see how the
 global expansion responds.  The bottom--up view comes from the
-1D microcavity and lattice models of Sec.~\ref{subsec:frw_from_microcavity},
+1D microcavity and lattice models of Sec.~\ref{sec:microcavity},
 which compute a small but nonzero vacuum energy shift
 $\Delta E(\theta_\star)$ consistent with the Act II $\theta_\star$
 prior.  The long--term goal is to connect these two descriptions via

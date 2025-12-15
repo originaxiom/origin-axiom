@@ -1,0 +1,44 @@
+\subsection{Hubble-style distance comparison}
+\label{subsec:actiii_hubble_diagram}
+
+In order to make a first contact with observable expansion data, we constructed a simple Hubble-style distance comparison between
+\begin{enumerate}
+  \item a matter-only flat FRW universe with \(\Omega_m = 1\) and \(\Omega_\Lambda = 0\), and
+  \item an ``effective vacuum'' FRW universe in which \(\Omega_\Lambda\) is fixed by the Act~II \(\theta^\star\) prior and the 1D microcavity scan (Sec.~\ref{subsec:actiii_effective_vacuum}).
+\end{enumerate}
+In both cases we assume spatial flatness and neglect radiation.
+
+We work in units where \(c = 1\) and measure distances in units of \(c/H_0\).  The dimensionless Hubble factor for a flat matter+Lambda model is
+\begin{equation}
+  E(z) \equiv \frac{H(z)}{H_0}
+  = \sqrt{\Omega_m (1+z)^3 + \Omega_\Lambda} \, ,
+\end{equation}
+and the dimensionless comoving distance to redshift \(z\) is
+\begin{equation}
+  \chi(z) = \int_0^z \frac{dz'}{E(z')} \, .
+\end{equation}
+The luminosity distance in these units is then
+\begin{equation}
+  d_L(z) = (1+z)\,\chi(z) \, .
+\end{equation}
+
+The script \texttt{scripts/compare\_hubble\_diagram.py} evaluates these expressions using a simple trapezoidal rule on a uniform redshift grid up to \(z_{\max} \simeq 2\).  The matter-only case is computed with
+\begin{equation}
+  (\Omega_m, \Omega_\Lambda) = (1, 0) \, ,
+\end{equation}
+while the effective-vacuum case uses the fiducial parameters exported from Act~II and the microcavity analysis,
+\begin{equation}
+  (\Omega_m^{\rm eff}, \Omega_\Lambda^{\rm eff}) \simeq (0.3, 0.7) \, ,
+\end{equation}
+as encoded in the shared configuration file \texttt{config/theta\_star\_config.json}.
+
+Figure~\ref{fig:actiii_hubble_diagram} shows the resulting luminosity distance \(d_L(z)\) as a function of redshift for both cosmologies.  For a given \(z\), the effective-vacuum curve yields a \emph{larger} luminosity distance than the matter-only curve.  In Hubble-diagram language, this means that standard candles (e.g.\ Type~Ia supernovae) would appear fainter at fixed redshift in the effective-vacuum cosmology than in a matter-only universe---the classic signature of late-time cosmic acceleration.
+
+We emphasize that this comparison is intentionally simple: it does not attempt precision fits to real supernova data.  Its purpose is to demonstrate that once \(\Omega_\Lambda\) is fixed by the \(\theta^\star\)--microcavity pipeline, the resulting FRW background behaves qualitatively like the observed accelerating universe when viewed through a distance--redshift relation.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/frw_effective_hubble_diagram}
+  \caption{Toy Hubble-style luminosity distance comparison between a matter-only flat FRW universe and the effective-vacuum cosmology supported by the Act~II \(\theta^\star\) prior.  Distances are shown in units of \(c/H_0\).  The larger \(d_L(z)\) at fixed \(z\) in the effective-vacuum case corresponds to the familiar dimming of standard candles in an accelerating universe.}
+  \label{fig:actiii_hubble_diagram}
+\end{figure}

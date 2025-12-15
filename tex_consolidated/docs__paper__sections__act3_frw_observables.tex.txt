@@ -1,0 +1,55 @@
+% ACT III: FRW observable-style checks
+\section{Observable-style checks: matter-only vs effective vacuum}
+\label{sec:frw-observables}
+
+As a first ``Act~III'' observable-style cross-check we compare two flat
+Friedmann--Robertson--Walker cosmologies in a deliberately simplified setting:
+(i) a matter-only universe with $(\Omega_m, \Omega_\Lambda) = (1, 0)$ and
+(ii) an ``effective vacuum'' universe with $(\Omega_m, \Omega_\Lambda)
+= (0.3, 0.7)$, where the vacuum fraction $\Omega_\Lambda$ is inherited
+from the Act~II $\theta^\star$ prior (through the microcavity-based effective
+vacuum mapping discussed earlier).
+
+For a flat universe containing only pressureless matter and a cosmological
+constant, the dimensionless Hubble function is
+\begin{equation}
+  E(a) \equiv \frac{H(a)}{H_0}
+  = \sqrt{\frac{\Omega_m}{a^3} + \Omega_\Lambda}\,,
+\end{equation}
+where $a$ is the scale factor normalised to $a_0 = 1$. The age in units of
+the Hubble time $H_0^{-1}$ is then
+\begin{equation}
+  t_0 H_0 = \int_{a_{\rm min}}^{1} \frac{{\rm d}a}{a\,E(a)}\,,
+\end{equation}
+with $a_{\rm min} \sim 10^{-4}$ in our toy integration.  The deceleration
+parameter today is
+\begin{equation}
+  q_0 \equiv -\frac{\ddot a a}{\dot a^2}\Big|_{a=1}
+  = \frac{1}{2}\,\Omega_m - \Omega_\Lambda\,.
+\end{equation}
+
+Using $H_0 \simeq 70~{\rm km\,s^{-1}\,Mpc^{-1}}$ (Hubble time
+$t_H \simeq 14~{\rm Gyr}$) we find
+\begin{align}
+  t_0 H_0 &\simeq 0.67\,, &
+  t_0 &\simeq 9.3~{\rm Gyr}\,, &
+  q_0 &\simeq +0.5
+  && \text{(matter-only)} \,, \\[0.3em]
+  t_0 H_0 &\simeq 0.96\,, &
+  t_0 &\simeq 13.5~{\rm Gyr}\,, &
+  q_0 &\simeq -0.55
+  && \text{(effective vacuum)} \,.
+\end{align}
+
+The matter-only universe is always decelerating ($q_0 > 0$) and
+is significantly younger than a $\Lambda$CDM-like universe.  By contrast,
+the effective-vacuum cosmology yields a negative deceleration parameter
+($q_0 < 0$) and an age scale $\sim 13.5~{\rm Gyr}$, qualitatively in line
+with the observed late-time Universe.
+
+We emphasise that this test does not yet \emph{predict} the value of the
+cosmological constant.  Instead, it makes explicit that once the
+$\theta^\star$-backed effective vacuum fraction $\Omega_\Lambda$ is fixed
+to a $\Lambda$CDM-like value, the resulting FRW histories naturally live
+in the correct qualitative regime (accelerated expansion with a plausible
+age) for further, more detailed comparisons to data.
