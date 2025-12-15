@@ -291,3 +291,248 @@ theta_lo, theta_hi = cfg.theta_star_band_rad
 
 
 
+## 2025-12-15 – θ★ prior applied to 1D vacuum toy (origin-axiom)
+
+**Context**
+- Act II θ★ prior is frozen and wired into `origin-axiom` via `config/theta_star_config.json` and `src/theta_star_config.py`.
+- Goal: first explicit test of how the cancellation / vacuum toy responds to θ★ values drawn from the Act II flavor window.
+
+**Commands run** (in `origin-axiom`)
+```bash
+PYTHONPATH=src python3 src/run_toy_universe_demo.py
+PYTHONPATH=src python3 src/run_toy_universe_compare_constraint.py
+PYTHONPATH=src python3 src/run_toy_universe_compare_constraint_nonlinear.py
+PYTHONPATH=src python3 src/run_toy_universe_constraint_scan.py
+PYTHONPATH=src python3 src/run_1d_twisted_vacuum_scan.py
+PYTHONPATH=src python3 src/run_1d_defected_vacuum_scan.py
+PYTHONPATH=src python3 src/run_1d_theta_star_prior_scan.py
+```
+
+**Key numerical behaviour**
+- `run_toy_universe_demo.py`: toy amplitude |A| evolves smoothly with no constraint; nothing pathological.
+- `run_toy_universe_compare_constraint.py` (linear):
+  - *no_constraint*: |A| stays essentially at ~0, `constraint hits = 0`.
+  - *with_constraint*: |A| is clamped to 0.05 for all steps, `constraint hits = 501/501`.
+- `run_toy_universe_compare_constraint_nonlinear.py`:
+  - Nonlinear 3D toy reproduces same pattern: with Origin Axiom constraint active, |A| is pinned to 0.05 at every step; energy stays finite and smooth.
+- `run_toy_universe_constraint_scan.py`:
+  - Scan over ε = {0.01, 0.03, 0.05, 0.10} and λ ∈ {0, 1}:
+    - In all cases, <|A|> ≈ ε and final |A| = ε with many hits.
+    - Confirms the non-cancelling rule enforces a chosen target amplitude robustly.
+- `run_1d_twisted_vacuum_scan.py`:
+  - Ground-state energy E₀(θ*) is *constant* for all sampled θ* in [0, 2π]:
+    - E₀(θ*) ≈ 1.63969×10² at θ* = 0, 1.047, 2.094, 3.142, 4.189, 5.236, 6.283.
+  - This 1D twisted vacuum toy, as implemented, is effectively θ*-blind.
+- `run_1d_defected_vacuum_scan.py`:
+  - Same conclusion with a defect bond: E₀(θ*) ≈ 1.64079×10² independent of θ*.
+- `run_1d_theta_star_prior_scan.py` (new):
+  - Reads Act II θ★ prior:
+    - θ★_fid = 3.63 rad
+    - θ★_band = [2.18, 5.54] rad
+  - Samples five θ★ values inside this band:
+    - {2.18, 2.905, 3.63, 4.585, 5.54} rad.
+  - For all samples:
+    - `E0_uniform` = 1.63969×10²
+    - `E0_defected` = 1.64079×10²
+  - Stores results in `data/processed/theta_star_prior_1d_vacuum_samples.npz`.
+
+**Interpretation**
+- The non-cancelling constraint mechanism in the 3D toy behaves exactly as intended:
+  - It can pin a global amplitude to a chosen ε (10–100% of the nominal scale), even in nonlinear dynamics, without blowing up the energy.
+- The current 1D vacuum toys (twisted ring + defected ring) do **not** respond to θ* at all:
+  - E₀(θ*) is flat both in the uniform and defected chains.
+  - Applying the Act II θ★ prior therefore makes no difference to the vacuum energy in this particular toy.
+- This is consistent with the idea that our present 1D Hamiltonian is too symmetric / gauge-simplified to “feel” the twist; it serves as a clean baseline but not yet as a θ★-sensitive microstructure.
+
+**Conclusion for Act II bridge**
+- We have now:
+  - A frozen Act II θ★ prior from flavor (`origin-axiom-theta-star`),
+  - A working non-cancelling constraint engine (`origin-axiom`),
+  - A first explicit test showing that, in the simplest 1D vacuum toy, the vacuum energy is invariant across the allowed θ★ band.
+- This locks in a useful baseline statement: any θ★-selection effect in our framework must come from *more structured* microphysics than the v0.1 1D twisted ring currently encodes.
+
+**Next steps (planned)**
+- Design a θ★-sensitive 1D microstructure toy (v0.2):
+  - Modify or extend the vacuum Hamiltonian so that a physically meaningful quantity (e.g. an effective coupling, boundary phase, or bond modulation) depends periodically on θ★.
+  - Ensure the new model remains numerically stable and compatible with the non-cancelling constraint.
+- Then repeat the θ★ prior scan:
+  - Compare E₀(θ★) inside vs outside the Act II band,
+  - Check whether the flavor-informed θ★ window corresponds to locally or globally preferred vacuum configurations.
+
+
+## 2025-12-15 – θ★-sensitive 1D microcavity toy (origin-axiom)
+
+**Context**
+- Act II θ★ prior is frozen in `origin-axiom` via `config/theta_star_config.json` and `src/theta_star_config.py`.
+- The earlier 1D twisted / defected vacuum toys were effectively θ★-blind: E₀(θ★) was flat across [0, 2π].
+- Goal here: build the *first explicit* θ★-sensitive microstructure toy, then probe it only within the Act II θ★ band.
+
+**Script**
+```bash
+PYTHONPATH=src python3 src/run_1d_theta_star_microcavity_scan.py
+```
+
+**Model definition (summary)**
+- 1D scalar chain with open boundaries:
+  - N = 256 sites
+  - nearest-neighbour coupling c = 1.0
+  - baseline mass m0 = 0.1
+- Define a central “microcavity” band:
+  - cavity_frac = 0.2 → 20% of sites in the middle of the chain.
+- Mass profile m(x; θ★):
+  - Outside cavity: m(x) = m0
+  - Inside cavity:  m(x) = m0 * [1 + α_mass * cos(θ★ − θ₀)]
+  - With α_mass = 0.5, θ₀ = 0.
+- Hamiltonian:
+  - H(θ★) = diag(m(x; θ★)² + 2c) − c (nearest-neighbour off-diagonals).
+  - Ground-state energy E₀(θ★) is defined as the smallest eigenvalue of H.
+
+**Act II θ★ prior used**
+- Read from `theta_star_config.json` via `load_theta_star_config()`:
+  - fiducial θ★  = 3.630000 rad
+  - band θ★      = [2.180000, 5.540000] rad
+- Sampled 5 θ★ values across this band (with the central one set to θ★_fid):
+  - {2.1800, 3.0200, 3.6300, 4.7000, 5.5400} rad.
+
+**Numerical output**
+- Baseline (no cavity modulation):
+  - E₀_uniform ≈ 1.014943×10⁻²
+- With θ★-dependent cavity, the script printed:
+
+  idx  θ★ [rad]    E0_uniform       E0_cavity        ΔE = E_cav − E_uni  
+   0   2.1800      1.014943e-02     6.590599e-03     −3.558827e-03  
+   1   3.0200      1.014943e-02     4.282916e-03     −5.866510e-03  
+   2   3.6300      1.014943e-02     4.816206e-03     −5.333221e-03  
+   3   4.7000      1.014943e-02     1.010018e-02     −4.924306e-05  
+   4   5.5400      1.014943e-02     1.075372e-02      6.042909e-04  
+
+- Results are saved to:
+  - `data/processed/theta_star_prior_1d_microcavity_samples.npz`
+
+**Interpretation**
+- Unlike the earlier v0.1 1D twisted / defected vacuum models, this microcavity toy is **explicitly θ★-sensitive**:
+  - The ground-state energy shift ΔE(θ★) = E₀_cavity(θ★) − E₀_uniform is *not* constant.
+- Within the Act II θ★ band:
+  - The cavity is **most energetically favourable** (most negative ΔE) around θ★ ≈ 3.0–3.6 rad.
+  - The energy shift becomes very small near θ★ ≈ 4.7 rad.
+  - At the upper edge of the band (θ★ ≈ 5.54 rad), ΔE turns slightly positive (cavity marginally *raises* the vacuum energy).
+- Qualitatively, this means:
+  - The same θ★ that appears in flavour fits can be used as a **single dial** that makes a local region of the scalar field lighter or heavier.
+  - In this toy, there is a “sweet zone” for θ★ where the microcavity lowers the vacuum energy the most, and that zone overlaps the central part of the Act II prior band.
+
+**Status in the big picture**
+- We now have three pillars:
+  1. **Act II (origin-axiom-theta-star):** a statistically informed θ★ band from PMNS+CKM fits.  
+  2. **Constraint engine (origin-axiom):** non-cancelling rule that robustly enforces target amplitudes in time evolution.  
+  3. **Microstructure toy v0.2 (this script):** a simple yet θ★-sensitive 1D cavity where the vacuum energy shift ΔE actually depends on θ★, and the minimum lies inside the Act II band.
+
+- This does *not* yet claim a realistic cosmological constant prediction, but it is the first concrete microstructure model where:
+  - “flavour θ★” → “scalar microstructure θ★” → “vacuum energy shift ΔE(θ★)”
+  is implemented end-to-end in code.
+
+**Next steps (planned)**
+- Optional refinements of this toy:
+  - Vary `alpha_mass`, cavity size, and N to study how robust the ΔE(θ★) pattern is.
+  - Sample θ★ *outside* the Act II band to see whether the flavour-preferred region is also a local minimum of ΔE in a broader 2π scan.
+- Structural next steps in the roadmap:
+  - Wrap this microcavity toy into a small plotting/analysis script (to generate ΔE vs θ★ curves).
+  - Decide how far to push 1D toys before moving to higher-dimensional / more realistic cancellation-system scans that incorporate the θ★ prior.
+
+### 2025-12-15 — 1D microcavity full-band θ★ scan (Act II prior wired in)
+
+**Context.** We wired the Act II flavor-based θ★ prior
+(`config/theta_star_config.json`, imported via `theta_star_config.load_theta_star_config`)
+into the 1D microcavity toy model used to illustrate the Origin Axiom
+constraint on a simple lattice vacuum.
+
+**Scripts run.**
+
+- `src/run_1d_theta_star_microcavity_scan.py`
+  - sanity check: finite set of θ★ samples from the Act II band.
+- `src/scan_1d_theta_star_microcavity_full_band.py`
+  - new script: full 0..2π scan of the microcavity vacuum energy shift.
+
+**Key outputs.**
+
+- Uniform reference energy:
+  - `E0_uniform ≈ 1.014943e-02`
+- Full 0..2π microcavity scan:
+  - Global minimum of the vacuum shift ΔE = E_cav − E_uniform:
+    - `theta_star_min ≈ π ≈ 3.141593 rad`
+    - `ΔE_min ≈ -5.90e-03`
+  - Within the Act II band `[2.18, 5.54]` rad the minimum is the same:
+    - `theta_star_band_min ≈ 3.141593 rad`
+    - `ΔE_band_min ≈ -5.90e-03`
+  - At the fiducial flavor value `theta_star_fid = 3.63 rad`
+    - `ΔE_fid ≈ -5.33e-03`
+
+Saved artifacts:
+
+- `data/processed/theta_star_microcavity_scan_full_2pi.npz`
+- `data/processed/figures/theta_star_microcavity_deltaE_full_2pi.png`
+
+**Interpretation.**
+
+- The simple 1D microcavity model has its lowest vacuum energy near
+  `theta_star ≈ π`.
+- The Act II θ★ band derived from PMNS+CKM fits fully contains this minimum
+  and corresponds to the region where the microcavity *lowers* the vacuum
+  energy (negative ΔE).
+- The fiducial θ★ from flavor (`3.63 rad`) sits on the flat part of this
+  valley: not exactly at the minimum, but clearly in the energetically
+  preferred region.
+- This is still just a toy model; it is **not** used to re-tune the
+  flavor prior. It serves as a first concrete microstructure cross-check
+  that the Act II θ★ window is compatible with an Origin-Axiom-style
+  vacuum-lowering behavior in a simple cavity.
+
+
+## 2025-12-15 – 1D two-field localized bump demo (Origin Axiom microstructure)
+
+**Repo:** `origin-axiom`  
+
+**Scripts and commands**
+
+```bash
+# evolve two-field localized bump with and without non-cancelling constraint
+PYTHONPATH=src python3 src/run_two_field_bump_1d.py   --steps 2000   --snapshot-stride 20   --g 0.02
+
+# inspect saved data products and make basic plots
+PYTHONPATH=src python3 scripts/inspect_two_field_bump_1d.py
+```
+
+**Data products**
+
+The evolution script writes a compact summary to:
+
+- `data/processed/two_field_bump_1d.npz`
+
+with keys:
+
+- `t_snap` – snapshot times (shape `(101,)`)
+- `loc_free`, `loc_constrained` – time series of a localized diagnostic (bump amplitude at chosen point) for free vs constrained runs (shape `(101,)`)
+- `profile_times_free`, `profile_times_constrained` – times at which full spatial profiles are stored (shape `(4,)`)
+- `profiles_phi_free`, `profiles_phi_constrained` – φ-field snapshots, shape `(4, 512)`
+- `profiles_chi_free`, `profiles_chi_constrained` – χ-field snapshots, shape `(4, 512)`
+- `params` – dictionary of run parameters (masses, coupling `g`, timestep, etc.).
+
+The new inspection helper `scripts/inspect_two_field_bump_1d.py`:
+
+- prints the available keys and shapes,
+- plots the localized diagnostic vs time for free vs constrained runs,
+- plots final-time spatial profiles of φ and χ for free vs constrained runs,
+
+and writes figures to:
+
+- `data/processed/figures/two_field_bump_1d_loc_amp.png`
+- `data/processed/figures/two_field_bump_1d_phi_final.png`
+- `data/processed/figures/two_field_bump_1d_chi_final.png`
+
+**Interpretation (working note)**
+
+- This is our first explicit **two-field microstructure toy** in the cancellation framework: a localized bump in one field evolves in a background where the **Origin Axiom / non-cancelling constraint** is switched on and off.
+- The `.npz` layout and inspection script are now standardized, so later we can:
+  - compare lifetimes and shapes of localized structures under the constraint vs free evolution,
+  - feed in different couplings `g` or initial bump widths as systematic scans,
+  - and eventually use similar diagnostics in higher-dimensional or FRW toy universes.
+
