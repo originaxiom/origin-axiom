@@ -1,208 +1,294 @@
+
 # Origin Axiom
 
-This repository collects the first systematic attempt to formulate and test the **Origin Axiom**:  
-a structural rule that forbids the universe from ever reaching a perfectly cancelling global state.
+This repository collects the first systematic scalar–field experiments built around the **Origin Axiom**:
+
+> the universe is structurally forbidden from ever reaching a perfectly cancelling global state.
+
+We implement this as a **non‑cancelling rule** on a complex scalar amplitude \(A(\mathcal{C})\) over configuration space, and explore its consequences in a family of deliberately simple “toy universes”.
 
 The project is deliberately modest and technical:
 
-- Paper **A** (principle) motivates the axiom from the incoherence of “absolute nothingness” and defines it as a constraint on global amplitudes A(C) over configuration space.
-- Paper **B** (toy universe) implements the axiom in a minimal complex scalar field on a discrete 3-torus and studies how a global non-cancelling constraint behaves in explicit simulations.
-- Paper **C** (planned) analyses “universe as a cancellation system” and collects deeper sanity checks and null results.
+- **Act I – principle & motivation**  
+  Motivates the axiom from the incoherence of “absolute nothingness”, classical vs quantum vacuum tension, and the idea that “the universe can never fully cancel itself away”.
+- **Act II – flavor bridge (separate repo)**  
+  The companion repo [`origin-axiom-theta-star`](https://github.com/originaxiom/origin-axiom-theta-star) fits a small number of θ★ ansätze to PMNS/CKM data and exports a **θ★ prior** used here.
+- **Act III+ – cosmology and microstructure (future work)**  
+  Extend from scalar toy universes to more realistic effective theories, FRW backgrounds, and microstructure.
 
-The code in src/ and notebooks/ backs the figures and claims in the papers.  
-Everything important is logged to docs/PROGRESS_LOG.md and data/processed/.
-
----
-
-## 1. Concept in one paragraph
-
-In many physical models, large contributions cancel almost perfectly: positive and negative charges, oscillating fields, vacuum energies in different sectors. The Origin Axiom proposes that there exists at least one global complex amplitude A(C) such that **exact cancellation is structurally forbidden**:
-
-> physically realised configurations avoid a small neighbourhood of a reference value A* (usually A* = 0) in amplitude space.
-
-In the simplest implementation used here, this becomes a hard rule |A(C)| ≥ ε for some small non-cancellation scale ε. Companion simulations show that this rule can be imposed on a scalar toy universe without destabilising the dynamics or spoiling energy conservation.
+This repo is intentionally small and reproducible: a handful of scripts, a thin config layer, and notebooks that tell the story step by step.
 
 ---
 
-## 2. Repository structure
+## 1. Repository layout
 
-README.md                 ← this file (high-level overview)
-docs/
-  01_origin_axiom.md      ← prose version of the principle
-  02_research_program.md  ← longer motivation + context
-  03_toy_universe_v0_1.md ← narrative description of the toy model
-  PROGRESS_LOG.md         ← dated log of simulations and results
-  ROADMAP.md              ← project phases and planned work
+```text
+origin-axiom/
+  src/
+    toy_universe.py                    # core scalar toy-universe integrator
+    toy_universe_constraint.py         # non‑cancelling constraint implementation
+    toy_universe_nonlinear.py          # 3D nonlinear extension
+    twisted_chain_1d.py                # 1D θ‑twisted vacuum chain
+    defected_chain_1d.py               # 1D chain with a local defect
+    theta_star_prior_1d_vacuum.py      # helper for θ★ prior → 1D vacuum
+    theta_star_prior_1d_microcavity.py # helper for θ★ prior → 1D microcavity
+    two_field_bump_1d.py               # coupled (φ, χ) localized bump model
+    theta_star_config.py               # thin loader for config/theta_star_config.json
+    ...
+  scripts/
+    show_theta_star_config.py          # print current θ★ prior used by this repo
+    inspect_two_field_bump_1d.py       # plots for the two‑field bump run
+    ...
+  notebooks/
+    01_toy_universe_exploration.py     # plots / diagnostics for scalar toy universes
+    02_1d_twisted_analysis.py          # 1D twisted chain analysis
+    02b_1d_defected_twist_analysis.py  # 1D defected chain analysis
+    03_compare_constraint_effect.py    # 3D toy: with vs without constraint
+    04_compare_constraint_nonlinear.py # nonlinear 3D toy: constraint effect
+    05_constraint_scan_analysis.py     # ε–λ scan diagnostics
+    06_theta_star_microcavity_analysis.py # θ★ prior in a 1D microcavity
+    07_two_field_bump_analysis.py      # coupled (φ, χ) bump evolution
+  config/
+    theta_star_config.json             # imported θ★ prior from Act II
+  data/
+    raw/                               # reserved for future raw inputs
+    processed/                         # .npz outputs from scripts
+  figures/
+    *.png                              # copied / generated plots
+  docs/
+    paper/
+      ACTII_theta_star_section.tex     # LaTeX section describing the θ★ bridge
+    PROGRESS_LOG.md                    # running log of what has been tried
+```
 
-paper/
-  origin_axiom_A_principle.tex     ← LaTeX draft: principle / motivation
-  origin_axiom_B_toy_universe.tex  ← LaTeX draft: scalar toy universe
-  # (future) origin_axiom_C_*.tex  ← cancellation-system & sanity check paper
-
-src/
-  toy_universe_lattice/            ← 3D scalar lattice, energy, constraint, etc.
-  run_toy_universe_demo.py         ← basic evolution without constraint
-  run_toy_universe_with_constraint.py
-  run_toy_universe_compare_constraint.py
-  run_toy_universe_constraint_scan.py
-  toy_universe_1d/                 ← 1D twisted / defected scalar models
-  run_1d_twisted_vacuum_scan.py
-  run_1d_defected_vacuum_scan.py
-
-notebooks/
-  01_toy_universe_exploration.py         ← plots for basic 3D run
-  02_1d_twisted_analysis.py              ← 1D twist model plots
-  02b_1d_defected_twist_analysis.py      ← 1D twist with defect bond
-  03_compare_constraint_effect.py        ← 3D linear comparison plots
-  04_compare_constraint_nonlinear.py     ← 3D nonlinear comparison plots
-  05_constraint_scan_analysis.py         ← epsilon / lambda scan plots
-
-data/
-  raw/                                   ← (reserved for future inputs)
-  processed/                             ← .npz outputs + generated PNGs
-
-figures/
-  *.png                                  ← copies of key plots used in papers
-
-(Some filenames may evolve; the directory layout is the important part.)
+The exact file list will evolve, but the roles above should remain stable.
 
 ---
 
-## 3. Quickstart: run the toy universe
+## 2. Act II θ★ prior and the “bridge” to flavor
 
-Requirements: Python 3.11+ recommended.
+The companion repo [`origin-axiom-theta-star`](https://github.com/originaxiom/origin-axiom-theta-star) performs detailed fits of several θ★ ansätze to neutrino (PMNS) and quark (CKM) flavor data. Act II currently exports a compact θ★ prior into this repo as:
+
+```text
+config/theta_star_config.json
+```
+
+The file stores:
+
+- `theta_star_fid_rad` – fiducial θ★ in radians (global median from all high‑quality scans),
+- `theta_star_band_rad` – \([θ_{\min}, θ_{\max}]\) band used in scans,
+- `provenance` – metadata (source repo, run IDs, χ² cut),
+- versioning fields for future updates.
+
+This JSON is read only through:
+
+```python
+from theta_star_config import load_theta_star_config
+
+cfg = load_theta_star_config()
+theta_fid = cfg.theta_star_fid_rad
+theta_lo, theta_hi = cfg.theta_star_band_rad
+```
+
+You can also inspect it from the command line:
+
+```bash
+PYTHONPATH=src python3 scripts/show_theta_star_config.py
+```
+
+This **θ★ config** is the *only* point where flavor data enter this repo. Everything else is pure scalar‑field dynamics with and without the non‑cancelling rule.
+
+---
+
+## 3. Quickstart: run the scalar toy universes
+
+Requirements: **Python 3.11+** recommended.
 
 Create and activate a virtual environment:
 
+```bash
 cd ~/Documents/Projects/origin-axiom
 
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate      # on macOS / Linux
+# .\venv\Scripts\activate     # on Windows PowerShell
+```
 
-# Install minimal dependencies
-pip install numpy matplotlib
-# or, if you later add a requirements file:
-# pip install -r requirements.txt
+Install dependencies (minimal):
 
-### 3.1 Basic 3D toy universe (no constraint)
+```bash
+pip install -r requirements.txt
+```
 
-python3 src/run_toy_universe_demo.py
+> If `requirements.txt` is missing or minimal, start with `numpy`, `scipy`, `matplotlib`.
 
-This runs a small complex scalar field on a 16^3 lattice with periodic
-boundary conditions and prints the global amplitude |A(t)| and energy E(t)
-over time.
+### 3.1 Baseline toy universe and constraint
 
-### 3.2 With vs without Origin Axiom constraint
+Run the simplest complex scalar toy universe:
 
-To see the non-cancelling rule in action (mean-subtracted initial data, ε = 0.05):
+```bash
+PYTHONPATH=src python3 src/run_toy_universe_demo.py
+```
 
-python3 src/run_toy_universe_compare_constraint.py
-python3 notebooks/03_compare_constraint_effect.py
+This prints the evolution of the global amplitude \(|A|\) in time for an unconstrained run.
 
-This produces:
+Compare with the non‑cancelling constraint:
 
-- data/processed/toy_v0_1_compare_Amod_epsilon005_meanzero.png
-- data/processed/toy_v0_1_compare_energy_epsilon005_meanzero.png
+```bash
+PYTHONPATH=src python3 src/run_toy_universe_compare_constraint.py
+```
 
-which show:
+This script evolves the same initial condition twice:
 
-- Without constraint: the global amplitude |A(t)| stays near zero (almost perfect cancellation).
-- With constraint: |A(t)| is kept at a minimal value |A| = ε, while the total energy E(t) remains almost unchanged.
+- **no_constraint** – pure Hamiltonian evolution;
+- **with_constraint** – repeatedly projects back to a fixed \(|A|\) shell whenever the amplitude tries to cancel too much.
 
-### 3.3 Nonlinear case and constraint scan
+Both branches save `.npz` data in `data/processed/` for analysis in the `01_*` and `03_*` notebooks.
 
-Nonlinear self-interaction (λ = 1):
+### 3.2 Nonlinear toy universe and constraint scan
 
-python3 src/run_toy_universe_compare_constraint_nonlinear.py
-python3 notebooks/04_compare_constraint_nonlinear.py
+A 3D nonlinear extension:
 
-Constraint-activity scan over ε and λ:
+```bash
+PYTHONPATH=src python3 src/run_toy_universe_compare_constraint_nonlinear.py
+```
 
-python3 src/run_toy_universe_constraint_scan.py
-python3 notebooks/05_constraint_scan_analysis.py
+and an \((\epsilon, \lambda)\) scan of constraint strength vs nonlinearity:
 
-This generates summary plots such as:
+```bash
+PYTHONPATH=src python3 src/run_toy_universe_constraint_scan.py
+```
 
-- constraint_scan_Amean_vs_eps_lambda*.png (mean |A| vs ε)
-- constraint_scan_hits_vs_eps_lambda*.png (constraint hits vs ε)
+The scan writes:
 
-showing that ε cleanly sets the non-cancellation scale and that the constraint
-can act frequently without spoiling energy behaviour.
+```text
+data/processed/constraint_scan_eps_lambda.npz
+```
 
-### 3.4 1D twisted scalar checks
-
-To reproduce the 1D twisted / defected scalar results:
-
-python3 src/run_1d_twisted_vacuum_scan.py
-python3 notebooks/02_1d_twisted_analysis.py
-
-python3 src/run_1d_defected_vacuum_scan.py
-python3 notebooks/02b_1d_defected_twist_analysis.py
-
-These generate plots of vacuum energy vs twist angle θ*, and in both cases the
-total vacuum energy is numerically flat, serving as a null test.
+for later analysis in the `05_constraint_scan_analysis.py` notebook.
 
 ---
 
-## 4. Papers and documentation
+## 3.3 1D twisted and defected vacua
 
-- paper/origin_axiom_A_principle.tex  
-  Conceptual and mathematical statement of the Origin Axiom as a constraint on configuration space.
+1D chain with θ‑twisted boundary conditions:
 
-- paper/origin_axiom_B_toy_universe.tex  
-  Technical paper describing the 3D scalar toy universe, the hard non-cancelling constraint,
-  and all numerical experiments implemented here.
+```bash
+PYTHONPATH=src python3 src/run_1d_twisted_vacuum_scan.py
+```
 
-- docs/01_origin_axiom.md, docs/02_research_program.md, docs/03_toy_universe_v0_1.md  
-  Markdown explanations of the axiom, the research programme and the toy model,
-  aimed at humans before they open the TeX.
+and the same chain with a local defect:
 
-- docs/PROGRESS_LOG.md  
-  Dated log of every significant simulation run, parameter set, and interpretation.
+```bash
+PYTHONPATH=src python3 src/run_1d_defected_vacuum_scan.py
+```
 
-- docs/ROADMAP.md  
-  Project phases and planned work (what “v0.1” means, what comes after).
+Both scripts save `.npz` data in `data/processed/` for the 1D analysis notebooks (`02_*`).
 
 ---
 
-## 5. Development notes
+## 3.4 Using the θ★ prior in a 1D vacuum
 
-- All numerics are intentionally minimal: pure NumPy, no heavy frameworks.
-- Important results are written to data/processed/*.npz and plotted with scripts in notebooks/.
-- The repository aims to be a reproducible research bundle:
-  when a figure appears in a paper, it should be traceable back to a script and a specific cached output here.
+Use the Act II θ★ prior directly in a 1D vacuum model:
 
----
+```bash
+PYTHONPATH=src python3 src/run_1d_theta_star_prior_scan.py
+```
 
-## 6. Status
+This samples a handful of θ★ values across the Act II band and computes the corresponding vacuum energies in a simple 1D model. The script prints a small table and saves:
 
-The current target is a v0.1 research release containing:
+```text
+data/processed/theta_star_prior_1d_vacuum_samples.npz
+```
 
-- stable toy-universe code,
-- documented simulations and figures,
-- LaTeX drafts of Papers A and B,
-- and an initial version of Paper C (cancellation systems / sanity check).
-
-The long-term programme (microstructure choices, θ* phenomenology,
-possible connections to vacuum energy) is tracked in docs/ROADMAP.md.
+for later use.
 
 ---
 
-## Project scope (scalar universe module)
+## 3.5 1D θ★‑dependent microcavity
 
-This repository implements the **Origin Axiom / non-cancelling principle** in the
-simplest possible setting: a **θ\*-agnostic scalar lattice universe**.
+A toy “microcavity” where the bare mass is modulated inside a finite segment:
 
-- We treat the fundamental twist angle θ\* as **unknown**.  
-- We do **not** assume θ\* = φ or θ\* = φ^φ or any other specific constant here.  
-- This module focuses on:
-  - scalar-field vacuum dynamics on lattices,
-  - the implementation of a non-cancelling constraint at the level of fields/states,
-  - numerical sanity checks: dispersion, energy flow, interfaces, cavities, noise, etc.
-- It does **not** include:
-  - flavor physics or CKM/PMNS mixing,
-  - detailed cosmology or gravity,
-  - φ-based mass ladders or Yukawa textures.
+```bash
+PYTHONPATH=src python3 src/run_1d_theta_star_microcavity_scan.py
+```
 
-Those topics live in **separate, dependent modules** in the broader Origin Axiom
-program and will cite the results of this scalar-universe backbone.
+and the full θ★ band scan:
+
+```bash
+PYTHONPATH=src python3 src/scan_1d_theta_star_microcavity_full_band.py
+```
+
+These scripts use the θ★ prior to compute the vacuum energy shift ΔE(θ★) between uniform and cavity configurations, saving:
+
+```text
+data/processed/theta_star_prior_1d_microcavity_samples.npz
+data/processed/theta_star_microcavity_scan_full_2pi.npz
+data/processed/figures/theta_star_microcavity_deltaE_full_2pi.png
+```
+
+The `06_theta_star_microcavity_analysis.py` notebook visualizes these results (including the Act II band overlay).
+
+---
+
+## 3.6 Two‑field localized bump experiment
+
+Localized coupled (φ, χ) bump in 1D, with and without the non‑cancelling constraint:
+
+```bash
+PYTHONPATH=src python3 src/run_two_field_bump_1d.py \
+  --steps 2000 \
+  --snapshot-stride 20 \
+  --g 0.02
+```
+
+Inspect the results and produce summary plots:
+
+```bash
+PYTHONPATH=src python3 scripts/inspect_two_field_bump_1d.py
+```
+
+This writes:
+
+```text
+data/processed/figures/two_field_bump_1d_loc_amp.png
+data/processed/figures/two_field_bump_1d_phi_final.png
+data/processed/figures/two_field_bump_1d_chi_final.png
+```
+
+which summarize how the constraint slightly reduces localization and the bump amplitudes over long times.
+
+---
+
+## 4. Reproducibility and logging
+
+- **Environment** – pin your Python version and dependencies via `requirements.txt`.  
+- **Random seeds** – scripts set explicit seeds where stochastic sampling is used.  
+- **Data** – all scripts write `.npz` outputs into `data/processed/` with descriptive filenames.  
+- **Figures** – scripts place `.png` plots in `figures/` (or `data/processed/figures/` for some sub‑plots).  
+- **Progress log** – `docs/PROGRESS_LOG.md` records:
+  - which scans have been run,
+  - major parameter changes,
+  - links to relevant output files and figures,
+  - notes on what is considered “frozen” vs “exploratory”.
+
+If you add new experiments, **please log them** there together with any non‑default parameters.
+
+---
+
+## 5. Relation to other repos
+
+- **`origin-axiom-theta-star`** – Act II flavor fits (PMNS/CKM) and θ★ posterior construction. This repo *consumes* only the resulting θ★ prior JSON.
+- Future repos may cover:
+  - FRW / cosmological toy models using the non‑cancelling rule,
+  - richer microstructure (e.g. multi‑field lattices, realistic dispersion),
+  - phenomenological links to the observed vacuum energy.
+
+---
+
+## 6. License and citation
+
+License: **TBD** (currently private research).  
+If you use ideas or code from this repo, please cite the eventual “Origin Axiom – Act II” paper and/or this GitHub repository.
+
+For questions, comments, or collaboration ideas, please open an issue or contact the author(s).
