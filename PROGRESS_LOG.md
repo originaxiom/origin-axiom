@@ -772,6 +772,47 @@ reaching a(t_final) ≈ 32.8 over the same interval.
     data.
 
 
+### 2025-12-15 — Physical scaling check: microcavity ΔE(θ★) vs observed Λ
 
+**Scripts / data**
+- `scripts/estimate_lambda_scaling.py`
+- Config: `config/theta_star_config.json` (Act II θ★ prior: θ★_fid = 3.63 rad, band = [2.18, 5.54] rad)
+- Microcavity input: `data/processed/theta_star_microcavity_scan_full_2pi.npz`
+  - Keys: `theta_grid`, `E0_uniform`, `E0_cavity`, `delta_E`, `theta_star_config`, `micro_params`
+
+**What the script does**
+- Treats the 1D microcavity ΔE(θ★) as a *dimensionless* proxy for a vacuum energy density shift.
+- Calibrates a single scaling factor **S** such that, at the fiducial θ★ from Act II,
+  the mapped vacuum energy density matches an approximate observed dark-energy density ρ_Λ,obs.
+- Uses toy ΛCDM-like numbers:
+  - H₀ ≈ 70 km/s/Mpc
+  - Ω_Λ ≈ 0.7
+  - ρ_crit ≈ 8.27×10⁻¹⁰ J/m³
+  - ρ_Λ,obs ≈ 5.79×10⁻¹⁰ J/m³
+
+**Key numerical results (current toy model)**
+- From the full microcavity scan:
+  - ΔE_min ≈ −5.90×10⁻³
+  - ΔE_max ≈  +6.30×10⁻⁴
+  - θ★_fid_used ≈ 3.63 rad (nearest grid point)
+  - ΔE(θ★_fid) ≈ −5.33×10⁻³  (dimensionless)
+- Define the mapping:
+  - ρ_vac(θ★) ≈ S · [−ΔE(θ★)]
+  - Choose **S** such that ρ_vac(θ★_fid) = ρ_Λ,obs.
+  - Resulting scale: S ≈ 1.09×10⁻⁷ J/m³ per unit of (−ΔE).
+- Over the Act II θ★ band [2.18, 5.54] rad, this gives:
+  - min ρ_vac(θ★ in band) ≈ −6.6×10⁻¹¹ J/m³
+  - max ρ_vac(θ★ in band) ≈ +6.4×10⁻¹⁰ J/m³
+  - By construction, ρ_vac at θ★_fid matches ρ_Λ,obs within rounding.
+
+**Interpretation / status**
+- This is **not** a prediction of Λ from first principles.
+- It is an *explicit scaling convention* that answers:
+  > “If the 1D microcavity ΔE(θ★) model were the right microphysics, what physical energy-density scale would one unit of dimensionless ΔE need to represent to match today’s dark-energy density at θ★_fid?”
+- The answer is: **O(10⁻⁷ J/m³ per unit of −ΔE)**.
+- Future, more realistic models (higher-dimensional cavities, proper field content, etc.) can be checked against this required scale.
+- Together with the FRW-from-microcavity demo, this closes the *Act II bridge* from:
+  - θ★-from-flavor → 1D microcavity ΔE(θ★) → effective Ω_Λ → FRW expansion,
+  while remaining honest that the microphysics and dimensional analysis are still toy-level.
 
 
