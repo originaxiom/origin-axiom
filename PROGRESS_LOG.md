@@ -536,3 +536,64 @@ and writes figures to:
   - feed in different couplings `g` or initial bump widths as systematic scans,
   - and eventually use similar diagnostics in higher-dimensional or FRW toy universes.
 
+
+### 2025-12-15 — FRW toy vacuum demo (Act III scaffold)
+
+- Ran `src/run_frw_vacuum_demo.py` in the **origin-axiom** repo.
+- The script integrates a flat FRW toy universe with three components:
+  - `matter_only`: Ω_m = 1.0, Ω_Λ = 0.0
+  - `lambda_30`:   Ω_m = 0.7, Ω_Λ = 0.3
+  - `lambda_70`:   Ω_m = 0.3, Ω_Λ = 0.7
+- Start scale factor: `a_init = 1e-3`; integration time of order a few H₀⁻¹.
+- Output saved to `data/processed/frw_vacuum_demo.npz`, containing time grid `t`
+  and scale factor histories for each case.
+- Purpose: provide a top-level “cosmic history” toy where an effective vacuum
+  component (later tied to the θ★-microcavity ΔE band) can be plugged in and
+  compared directly against a matter-only evolution.
+
+
+## 2025-12-15 — FRW toy universe with matter + vacuum
+
+**Files / scripts**
+
+- `src/run_frw_vacuum_demo.py`  
+  Integrates a flat FRW universe with matter and an effective vacuum component,
+  for three benchmark cosmologies:
+  - matter-only: $(\Omega_m, \Omega_\Lambda) = (1.0, 0.0)$  
+  - mixed: $(0.7, 0.3)$  
+  - vacuum-dominated: $(0.3, 0.7)$  
+  Writes results to `data/processed/frw_vacuum_demo.npz`.
+
+- `scripts/plot_frw_vacuum_demo.py`  
+  Reads `data/processed/frw_vacuum_demo.npz` and produces
+  `data/processed/figures/frw_vacuum_demo_a_of_t.png`, showing the scale factor
+  $a(t)$ vs time for the three cosmologies.
+
+**What we learned**
+
+- At early times (small $a$) the matter term $\propto a^{-3}$ dominates the
+  Friedmann equation, so all three cosmologies share nearly identical
+  expansion histories.
+- As the universe expands, the constant vacuum term takes over in the mixed
+  and vacuum-dominated cases, leading to accelerated expansion and a rapidly
+  growing $a(t)$.
+- This provides a clean ``top–down'' view of how an effective vacuum energy
+  (parametrized by $\Omega_\Lambda$) controls cosmic acceleration.
+
+**How this fits the larger project**
+
+- For now, $\Omega_\Lambda$ is treated as a free parameter.  In later Acts we
+  will tie it to the microscopic vacuum shift $\Delta E(\theta_\star)$
+  computed in the 1D microcavity / lattice models, using the Act II
+  $\theta_\star$ prior.
+- The FRW demo is the cosmology-side endpoint of the chain  
+  $\Delta E(\theta_\star) \rightarrow \rho_\Lambda^{\rm eff}
+  \rightarrow \Omega_\Lambda \rightarrow a(t)$,
+  which will eventually connect the non–cancelling vacuum rule to an
+  observable expansion history.
+
+
+
+
+
+
