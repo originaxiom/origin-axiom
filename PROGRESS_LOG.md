@@ -593,6 +593,184 @@ and writes figures to:
   observable expansion history.
 
 
+## 2025-12-15 — FRW from microcavity ΔE(θ★)
+
+**Repo:** `origin-axiom`  
+**Script:** `src/run_frw_from_microcavity.py`  
+**Inputs:**
+- `config/theta_star_config.json` (Act II flavor-based θ★ prior)
+- `data/processed/theta_star_microcavity_scan_full_2pi.npz` (1D microcavity ΔE(θ★) scan)
+
+**What we did**
+
+- Loaded the Act II θ★ configuration:
+  - θ★_fid ≈ 3.63 rad, θ★ band ≈ [2.18, 5.54] rad.
+- Loaded the full 2π microcavity scan and interpolated ΔE(θ★) at θ★_fid:
+  - ΔE(θ★_fid) ≈ –5.33×10⁻³ (negative: cavity lowers the vacuum energy).
+- Defined a simple scaling Ω_Λ = k_scale · ΔE(θ★), choosing k_scale so that
+  Ω_Λ(θ★_fid) ≈ 0.7 (clamped to [0, 1]); this gives Ω_m(θ★_fid) = 0.3.
+
+- Integrated two FRW histories (H₀ = 1, a_init = 1e–3):
+  - **Matter-only:** (Ω_m, Ω_Λ) = (1.0, 0.0), a(t_final) ≈ 3.89.
+  - **Microcavity vacuum:** (Ω_m, Ω_Λ) ≈ (0.3, 0.7), a(t_final) ≈ 3.28×10¹.
+
+- Saved results to `data/processed/frw_from_microcavity.npz` with:
+  - θ★_fid, θ★ band, θ grid, ΔE grid;
+  - ΔE(θ★_fid), k_scale, Ω_Λ(θ★_fid), Ω_m(θ★_fid);
+  - FRW histories: `(t_matter_only, a_matter_only)` and `(t_microcavity, a_microcavity)`.
+
+**Conceptual status**
+
+This is a **bridge demo**, not a precision ΛCDM fit:
+
+1. θ★ is fixed by **flavor physics** (Act II).
+2. θ★ selects a microcavity energy shift ΔE(θ★).
+3. ΔE(θ★_fid) is rescaled into an effective vacuum fraction Ω_Λ ≈ 0.7.
+4. Ω_Λ sets the late–time FRW expansion rate.
+
+We now have a fully wired chain from **flavor priors → θ★ → microcavity ΔE(θ★) → effective Ω_Λ → FRW expansion**, ready to be refined and compared to real observables in Act III.
+
+
+# ACT II – FRW from microcavity ΔE(θ★)
+
+**Date:** 2025-12-15  
+**Repo:** origin-axiom  
+**Scope:** Wire the 1D microcavity vacuum shift ΔE(θ★) to an effective
+FRW vacuum fraction Ω_Λ and integrate the corresponding expansion history.
+
+## 1. Inputs
+
+- Act II θ★ prior (from `origin-axiom-theta-star`), imported via  
+  `config/theta_star_config.json`:
+  - θ★_fid ≈ 3.63 rad  
+  - θ★ band ≈ [2.18, 5.54] rad
+
+- 1D microcavity scan from earlier Act II work in this repo:
+  - File: `data/processed/theta_star_microcavity_scan_full_2pi.npz`
+  - Stores θ★ grid and ΔE(θ★) = E_cav(θ★) − E_uniform
+  - For current parameters: ΔE_min ≈ −5.9×10⁻³ (dimensionless units)
+  - ΔE(θ★_fid) ≈ −5.33×10⁻³
+
+## 2. Script and run
+
+Script:
+
+```bash
+PYTHONPATH=src python3 src/run_frw_from_microcavity.py
+```
+
+Key steps inside the script:
+
+1. Load θ★ configuration:
+   - θ★_fid, θ★ band from `config/theta_star_config.json`.
+
+2. Load microcavity scan:
+   - `theta_grid`, `deltaE` from
+     `data/processed/theta_star_microcavity_scan_full_2pi.npz`.
+
+3. Define linear bridge from ΔE(θ★) to Ω_Λ(θ★):
+
+   Ω_Λ(θ★) = k_scale · ΔE(θ★)
+
+   with k_scale fixed by the condition
+
+   Ω_Λ(θ★_fid) = Ω_Λ,fid ≈ 0.70
+
+   which implies
+
+   k_scale = Ω_Λ,fid / ΔE(θ★_fid).
+
+4. Compute Ω_m(θ★) = 1 − Ω_Λ(θ★) and clamp Ω_Λ, Ω_m into [0, 1] to avoid
+   unphysical values at the edges of the band.
+
+5. Integrate a flat FRW toy model with
+   - matter density ρ_m(a) ∝ a⁻³,
+   - vacuum density ρ_Λ = const,
+   - H₀ = 1 (dimensionless units),
+   - initial scale factor a_init = 10⁻³,
+   - final time t_final ≈ 5 H₀⁻¹.
+
+   We compare:
+   - a pure matter case: (Ω_m, Ω_Λ) = (1, 0),
+   - a microcavity-derived vacuum case at θ★_fid.
+
+Output:
+
+```text
+=== FRW from microcavity ΔE(θ★) ===
+
+=== Act II theta★ configuration ===
+  θ★_fid (rad) = 3.630000
+  θ★ band (rad) = [2.180000, 5.540000]
+
+=== Microcavity ΔE(θ★) scan ===
+  loaded from: data/processed/theta_star_microcavity_scan_full_2pi.npz
+  n_theta = 256
+  ΔE_min = -5.900614e-03
+  ΔE_max =  6.295376e-04
+
+=== Scaling ΔE(θ★) -> Ω_Λ ===
+  ΔE(θ★_fid)          = -5.333074e-03
+  chosen Ω_Λ,fid      =  0.700
+  resulting k_scale   = -1.312564e+02
+  Ω_Λ(θ★_fid) after clamp =  0.700
+  Ω_m(θ★_fid)         =  0.300
+
+=== Integrating FRW histories ===
+  [matter_only] a(0) = 1.000e-03, a(t_final) = 3.890e+00
+  [microcavity] Ω_m = 0.300, Ω_Λ = 0.700, a(0) = 1.000e-03, a(t_final) = 3.284e+01
+
+Saved FRW-from-microcavity results to data/processed/frw_from_microcavity.npz
+```
+
+The NPZ file contains:
+
+- `t_matter_only`, `a_matter_only`
+- `t_microcavity`, `a_microcavity`
+- `theta_fid`, `theta_band`
+- `omega_lambda_fid`, `omega_m_fid`
+- `k_scale`, etc.
+
+## 3. Plot: a(t) comparison
+
+Script:
+
+```bash
+PYTHONPATH=src python3 scripts/plot_frw_from_microcavity.py
+```
+
+This reads `data/processed/frw_from_microcavity.npz` and writes:
+
+- `data/processed/figures/frw_from_microcavity_a_of_t.png`
+
+Figure content:
+
+- Blue curve: matter-only universe (Ω_m = 1, Ω_Λ = 0).
+- Orange dashed: microcavity-derived vacuum case with
+  Ω_Λ(θ★_fid) ≈ 0.70, Ω_m(θ★_fid) ≈ 0.30.
+
+Both histories start from a_init = 10⁻³ at t = 0 (H₀ = 1 units).
+The matter-only case follows a decelerating power-law growth
+a(t) ∝ t^{2/3}, reaching a(t_final) ≈ 3.9 at t ≈ 5.
+The microcavity case accelerates due to the effective vacuum term,
+reaching a(t_final) ≈ 32.8 over the same interval.
+
+## 4. Interpretation / status
+
+- This is the first complete pipeline from Act II flavor structure
+  (θ★ prior) → microcavity vacuum shift ΔE(θ★) → effective Ω_Λ(θ★)
+  → FRW expansion.
+- The mapping is deliberately simple (linear scaling) and uses a single
+  free parameter k_scale, fixed by matching Ω_Λ(θ★_fid) to a
+  concordance-like value ≈ 0.7.
+- Absolute units for Λ are not yet fixed; all calculations are in
+  dimensionless H₀ = 1 units.
+- Future Acts need to:
+  - introduce physical units and match to observed H₀,
+  - refine the ΔE(θ★) → Ω_Λ mapping with better microphysics,
+  - and confront the resulting expansion history with real cosmological
+    data.
+
 
 
 
