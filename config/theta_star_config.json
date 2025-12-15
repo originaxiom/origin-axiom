@@ -1,0 +1,18 @@
+{
+  "theta_star_fid_rad": 3.63,
+  "theta_star_band_rad": {
+    "lo": 2.18,
+    "hi": 5.54
+  },
+  "source": {
+    "repo": "origin-axiom-theta-star",
+    "runs": [
+      "NO_theta_star_delta_only_N2000",
+      "NO_theta_star_v2_N2000",
+      "NO_theta_star_v2_N4000"
+    ],
+    "ordering": "NO",
+    "chi2_max": 50.0,
+    "notes": "Global q16/q50/q84 from summarize_theta_star_posterior across 3 NO runs."
+  }
+}

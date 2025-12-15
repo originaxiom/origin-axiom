@@ -209,3 +209,85 @@ python3 -m src.cancellation_system.run_chain_residual_scan \
 
 **Key takeaway**
 - No special sharp 
+
+
+### 2025-12-15 — θ★ bridge: import theta_star_v2 window from phenomenology repo
+
+Context:
+- Finished `origin-axiom-theta-star` v2 ansatz (normal ordering, NuFIT 5.2 targets).
+- PMNS-only v2 runs (N=2000, seeds 1–2) and CKM+PMNS joint v2 runs (N=4000, seeds 1–2) give a stable θ★ window.
+- Joint fits achieve χ²_total ≈ 7–8 for 10 observables.
+
+Decision:
+- Adopt a *working θ★ band* from the joint CKM+PMNS v2 analysis:
+  - θ★_band ≈ [2.32, 5.61] rad (union of 1σ windows for χ² ≤ 50 from the two joint runs).
+- Define a *fiducial θ★* for universe-building toy models:
+  - θ★_fid ≈ 3.70 rad (average of the two joint θ★ medians).
+
+Implementation in `origin-axiom`:
+- Created `config/theta_star_config.json` to store:
+  - `theta_star_fid_rad` (3.701),
+  - `theta_star_band_rad` with `lo` and `hi`,
+  - simple metadata pointing back to `origin-axiom-theta-star`.
+- Added `src/theta_star_config.py` helper to load this config and expose a small `ThetaStarConfig` dataclass for use by cancellation-system / FRW scripts.
+
+Next:
+- Wire θ★ into the cancellation-system scripts:
+  - Allow Einstein-limit / D–R–T scans to be run explicitly at θ★ = θ★_fid.
+  - Later: explore sensitivity by sampling a few points across the θ★_band.
+- Once this bridge is exercised at least once, promote the θ★ section into the Act II LaTeX (main paper) as the official “θ★ block” feeding the universe-building pipeline.
+
+
+## 2025-12-15 — θ★ prior wired into origin-axiom
+
+**Context.**  
+We now have a consolidated flavor-based posterior for the master phase θ★ from the `origin-axiom-theta-star` repo (PMNS-only and joint CKM+PMNS runs). The posterior is summarised by
+
+- θ★(16%) ≃ 2.18 rad  
+- θ★(50%) ≃ 3.63 rad  
+- θ★(84%) ≃ 5.54 rad  
+
+using a χ²_tot ≤ 50 cut across three NO runs (`NO_theta_star_delta_only_N2000`, `NO_theta_star_v2_N2000`, `NO_theta_star_v2_N4000`).
+
+**Changes in this repo (origin-axiom).**
+
+- Added a configuration file under `config/theta_star_config.json`:
+
+  - `theta_star_fid_rad = 3.63` rad — fiducial θ★ value for toy-universe / cancellation-system runs.  
+  - `theta_star_band_rad = [2.18, 5.54]` rad — working “Act II θ★ prior” band.  
+  - `source` metadata pointing back to `origin-axiom-theta-star` and the specific runs / χ² cut.
+
+- Added a small loader module:
+
+  - `src/theta_star_config.py` with:
+    - `ThetaStarConfig` dataclass,
+    - `load_theta_star_config()` which reads the JSON and exposes:
+      - `theta_star_fid_rad`,
+      - `theta_star_band_rad = (lo, hi)`,
+      - `raw` (full JSON dict for provenance).
+
+**Intended usage.**
+
+Any scalar-universe or cancellation-system script in this repo can now do:
+
+```python
+from theta_star_config import load_theta_star_config
+
+cfg = load_theta_star_config()
+theta_fid = cfg.theta_star_fid_rad
+theta_lo, theta_hi = cfg.theta_star_band_rad
+```
+
+- `theta_fid` is the default value when we say “run the toy universe at θ★”.
+- `[theta_lo, theta_hi]` is the band we will use for sensitivity checks and for quoting Act II systematic uncertainty due to flavor-sector input.
+
+**Next steps.**
+
+- Thread `theta_fid` into at least one concrete Einstein-limit / cancellation-system experiment (e.g. as the phase / twist parameter in the 1D twisted vacuum scans).  
+- Add a short “bridge” subsection in the Act II paper explaining that:
+  - θ★ is inferred from flavor fits in `origin-axiom-theta-star`,
+  - the result is encoded as `theta_star_config.json`,
+  - the scalar-universe experiments in this repo consume that configuration whenever they are said to run “at θ★”.
+
+
+
