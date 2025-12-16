@@ -1186,3 +1186,21 @@ to a single θ★ value.
 
 
 
+- 2025-12-16 — R7: Implemented `run_theta_star_prior_vs_effective_vacuum.py` and
+  `plot_theta_star_prior_vs_effective_vacuum.py`. Mapped the original 1D twisted-vacuum
+  θ★ prior into an induced prior over ΩΛ using the microcavity-backed k_scale, and
+  added the corresponding figure + discussion to Act V.
+
+
+2025-12-16 (dri) R7: Induced ΩΛ prior from θ★ prior
+  - Added run_theta_star_prior_vs_effective_vacuum.py to map existing 1D θ★ prior
+    (theta_star_prior_1d_vacuum_samples.npz) through the microcavity-calibrated
+    effective vacuum (k_scale, delta_E(θ★)).
+  - Saved samples to data/processed/theta_star_prior_vs_effective_vacuum.npz and
+    generated figures/theta_star_prior_vs_effective_vacuum.{png,pdf}.
+  - Result: broad ΩΛ prior (0 → ~0.76) with non-negligible weight near ΩΛ ≈ 0.7,
+    supporting a non-fine-tuned but ΛCDM-compatible region of the θ★ band.
+
+
+
+
