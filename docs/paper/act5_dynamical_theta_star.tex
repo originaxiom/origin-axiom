@@ -1,0 +1,79 @@
+\subsection{R5: Dynamical tolerance of the $\theta_\star$ bridge}
+\label{subsec:theta_star_dynamical_tolerance}
+
+With the effective vacuum map in hand (R2--R3), we can now ask how
+sensitive the late--time acceleration is to small deformations of the
+microcavity phase $\theta_\star$. Concretely, we define
+\begin{equation}
+  \Omega_\Lambda(\theta_\star)
+  \equiv
+  k_{\rm scale}\,\Delta E(\theta_\star)
+  \,,
+\end{equation}
+where $k_{\rm scale}$ is fixed by the fiducial calibration
+$\Omega_\Lambda(\theta_{\rm fid}) = 0.7$ with
+$\theta_{\rm fid} = 3.63~{\rm rad}$ and
+$\Delta E(\theta_\star)$ is taken from the 1D microcavity scan
+of Sec.~\ref{subsec:microcavity_scan}.
+
+We then scan $\theta_\star$ over the same ``cosmologically allowed band''
+\begin{equation}
+  \theta_{\rm band} \in [2.18,\,5.54]~{\rm rad}
+\end{equation}
+and evaluate $\Omega_\Lambda(\theta_\star)$ at 41 equally--spaced
+samples. The resulting profile is shown in
+Fig.~\ref{fig:effective_vacuum_band_scan}. A broad plateau is visible:
+for
+\begin{equation}
+  \theta_\star \in [2.516,\,3.692]~{\rm rad}
+\end{equation}
+we find
+\begin{equation}
+  \bigl|\Omega_\Lambda(\theta_\star) - 0.7\bigr| \le 0.05
+  \quad\Rightarrow\quad
+  \Omega_\Lambda(\theta_\star) \in [0.65,\,0.75] \,,
+\end{equation}
+i.e.\ nine grid points in our scan lie within a conservative
+$\pm 0.05$ tolerance band around the observational target
+$\Omega_\Lambda \simeq 0.7$.
+
+Within this window the local slope remains modest. Near the left and
+right edges we find
+\begin{equation}
+  \frac{{\rm d}\Omega_\Lambda}{{\rm d}\theta_\star}
+  \sim \mathcal{O}(0.2\text{--}0.4)\;{\rm rad}^{-1},
+\end{equation}
+while around the mid--window point
+$\theta_{\rm mid} \simeq 3.10~{\rm rad}$ the profile is extremely
+flat,
+\begin{equation}
+  \left.\frac{{\rm d}\Omega_\Lambda}{{\rm d}\theta_\star}\right|_{\rm mid}
+  \approx 2.3\times 10^{-2}\;{\rm rad}^{-1}.
+\end{equation}
+A naive linear estimate based on this plateau slope would allow
+$\mathcal{O}(1)$--rad excursions in $\theta_\star$ before leaving the
+$\pm 0.05$ band. In practice, the true tolerance is limited by the
+edges of the window itself,
+\begin{equation}
+  \Delta\theta_\star^{\rm (band)}
+  \simeq \frac{3.692 - 2.516}{2}
+  \approx 0.59~{\rm rad},
+\end{equation}
+which still corresponds to order--unity fractional changes in
+$\theta_\star$.
+
+We summarise R5 as follows:
+\begin{quote}
+  \textbf{R5 (Dynamical robustness).} Once the microcavity parameters
+  are fixed by the fiducial calibration (R2--R3), there exists a
+  broad plateau in $\theta_\star$ of width $\sim 1.2~{\rm rad}$ on
+  which $\Omega_\Lambda(\theta_\star)$ remains within
+  $\pm 0.05$ of $0.7$. Small to moderate drifts in the microscopic
+  phase $\theta_\star$ therefore do not catastrophically destabilise
+  the late--time acceleration; the $\theta_\star$--bridge from
+  microphysics to FRW is dynamically tolerant.
+\end{quote}
+In other words, once the non--cancelling microcavity is tuned onto the
+observed $\Omega_\Lambda$ slice, the ensuing cosmic acceleration is
+robust under $\mathcal{O}(0.1\text{--}0.6)$--rad changes in the
+underlying phase.

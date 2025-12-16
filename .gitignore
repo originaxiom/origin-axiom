@@ -88,3 +88,4 @@ src/lattice_theta/*.bak
 *.synctex.gz
 *.toc
 *.out
+run.sh

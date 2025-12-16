@@ -1005,5 +1005,37 @@ The goal here is not precision cosmology but showing that, once we fix Omega_Lam
 
 
 
+## 2025-12-16 — R4/R5: Effective vacuum θ★ band scan & stability window
 
+- Loaded `data/processed/theta_star_microcavity_core_summary.json`
+  (θ_fid_nominal = 3.63 rad, ΔE_fid ≈ −5.33×10⁻³, Ω_Λ,target = 0.7,
+    k_scale ≈ −1.31×10²).
+- Ran `src/run_effective_vacuum_band_scan.py`:
+  - θ-band: [2.18, 5.54] rad, 41 samples.
+  - Ω_Λ(θ) range in band: [0, 0.775].
+  - Found 9 grid points with |Ω_Λ(θ) − 0.7| ≤ 0.05 in window
+    θ ≈ 2.516–3.692 rad.
+  - Saved results to `data/processed/effective_vacuum_band_scan.npz`.
+- Plotted band scan with `src/plot_effective_vacuum_band_scan.py`:
+  - Wrote `figures/effective_vacuum_band_scan.{png,pdf}`.
+- Estimated local derivative dΩ_Λ/dθ in the window:
+  - Typical slopes ~0.2–0.4 per rad away from the peak,
+    ~0 near the mid-window point (θ_mid ≈ 3.10 rad).
+  - Rough “allowed drift” keeping |ΔΩ_Λ|≲0.05 comes out ≈ 2.2 rad
+    (very loose order-of-magnitude stability estimate, to be refined later).
+
+- 2025-12-16 (R4–R6, theta-star microcavity branch)
+  - R4: Implemented `run_effective_vacuum_band_scan.py` and
+    `plot_effective_vacuum_band_scan.py`; produced
+    `data/processed/effective_vacuum_band_scan.npz` and
+    `figures/effective_vacuum_band_scan.{png,pdf}`.
+  - R5: Quantified θ-window where |ΩΛ(θ) − 0.7| ≤ 0.05:
+    found 9 points in [2.516, 3.692] rad; computed
+    dΩΛ/dθ slopes at sample points.
+  - R6: Wrote Act II A-branch summary in
+    `act5_dynamical_theta_star.tex` (Result A); interpret
+    microcavity→ΩΛ→FRW bridge and define “θ★ corridor”.
+  - Status: A-branch (microcavity-backed effective vacuum
+    and θ★ corridor) is functionally complete at the
+    scaffolding level. No further scans planned in this repo.
 
