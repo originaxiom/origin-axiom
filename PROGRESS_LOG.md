@@ -1039,3 +1039,150 @@ The goal here is not precision cosmology but showing that, once we fix Omega_Lam
     and θ★ corridor) is functionally complete at the
     scaffolding level. No further scans planned in this repo.
 
+
+
+### 2025-12-16 — R5: Effective vacuum patch ensemble
+
+- Script: `src/run_effective_vacuum_patch_ensemble.py`
+- Inputs:
+  - `data/processed/effective_vacuum_band_scan.npz` (R4 band scan).
+- Method:
+  - Built 1D interpolator ΩΛ(θ★) over the microcavity-backed band [2.18, 5.54] rad.
+  - Drew `N = 1000` θ★ values uniformly in this band.
+  - Computed ΩΛ(θ★) for each and counted patches with |ΩΛ − 0.7| ≤ 0.05.
+- Output:
+  - `data/processed/effective_vacuum_patch_ensemble.npz` with:
+    - `theta_samples`, `omega_samples`, `theta_min`, `theta_max`,
+      `omega_target = 0.7`, `tol = 0.05`, `theta_fid`, `k_scale`.
+- Result:
+  - ΩΛ(θ★) in the band spans ~[0, 0.775].
+  - Fraction of Λ-like patches (|ΩΛ − 0.7| ≤ 0.05) ≈ 0.215 (21.5%).
+- Interpretation:
+  - In this toy ensemble with a flat prior in θ★, Λ-like universes form a
+    non-negligible subspace of the θ★ band, consistent with a “corridor”
+    rather than a single fine-tuned point.
+
+
+[2025-12-16] R5: effective vacuum patch ensemble
+
+- Script: src/run_effective_vacuum_patch_ensemble.py
+- Data:   data/processed/effective_vacuum_patch_ensemble.npz
+- Plot:   figures/effective_vacuum_patch_ensemble.(png,pdf)
+
+Summary:
+- Sampled 1000 θ⋆ patches uniformly from the effective band
+  [2.18, 5.54] rad obtained in R4.
+- Mapped each θ⋆ to ΩΛ using the microcavity-backed effective vacuum scaling
+  with k_scale ≈ -1.31×10² and ΩΛ(fid) = 0.7.
+- Resulting ΩΛ distribution spans [0, 0.775], with strong weight near 0 and
+  near the upper band edge.
+- Fraction of patches in the observational window ΩΛ = 0.70 ± 0.05:
+  215 / 1000 ≈ 21.5%.
+
+
+
+- **R5: effective vacuum patch ensemble**
+  - Used the effective-vacuum band scan from R4 and the microcavity-based
+    scaling (k_scale ≈ -131.4) to define ΩΛ(θ★) over the admissible band
+    [2.18, 5.54] rad.
+  - Drew N_patch = 1000 uniform θ★ samples in this band and mapped each to
+    ΩΛ. The ensemble spans 0 ≤ ΩΛ ≲ 0.78 with mean ≈ 0.45, σ ≈ 0.31,
+    median ≈ 0.57.
+  - A total of 215 patches (≈ 21.5%) land in the observational window
+    ΩΛ = 0.70 ± 0.05. The observed ΩΛ lies within the central 68% interval
+    of the ensemble, so in this toy model our patch is statistically
+    “typical” within the θ★ band rather than exponentially fine-tuned.
+
+
+- **R6: Act V microcavity → FRW → ensemble summary**
+  - Collected results from R1–R5 into an Act V summary section in
+    `docs/paper/act5_dynamical_theta_star.tex`.
+  - Explicitly documented: (i) fiducial microcavity point
+    (theta_fid ≈ 3.63 rad, ΔE_fid ≈ -5.3e-3), (ii) scaling to
+    ΩΛ(theta★), (iii) FRW histories for (Ω_m, Ω_Λ) = (1,0) vs (0.3,0.7),
+    (iv) θ★-band scan, and (v) effective patch ensemble.
+  - Main qualitative conclusion: within the microcavity-selected
+    θ★-band, patches with ΩΛ ≈ 0.7 form a ~20% subset of the ensemble
+    and are statistically typical, not exponentially fine-tuned, in this
+    toy model.
+
+
+### 2025-12-16 — R5: Effective vacuum patch ensemble
+
+- Implemented `src/run_effective_vacuum_patch_ensemble.py` and
+  `src/plot_effective_vacuum_patch_ensemble.py`.
+- Generated `data/processed/effective_vacuum_patch_ensemble.npz` and
+  figures `figures/effective_vacuum_patch_ensemble.{png,pdf}`.
+- Ensemble: N = 1000 patches, θ⋆ sampled uniformly from [2.18, 5.54] rad.
+- ΩΛ statistics:
+  - min/max ≈ 0.000 / 0.775  
+  - mean ≈ 0.445, std ≈ 0.307, median ≈ 0.573
+- Fraction of patches near the observed value ΩΛ ≈ 0.7:
+  - |ΩΛ − 0.70| ≤ 0.05 → 215 / 1000 ≈ 21.5%
+  - |ΩΛ − 0.70| ≤ 0.02 → 80 / 1000 ≈ 8.0%
+  - |ΩΛ − 0.70| ≤ 0.01 → 39 / 1000 ≈ 3.9%
+- Interpretation: within the allowed θ⋆ band from the microcavity model,
+  Λ-like patches (ΩΛ ≈ 0.7) occupy a non-negligible fraction of the ensemble,
+  supporting the claim that our toy vacuum does not require extreme fine-tuning.
+
+
+
+- 2025-12-16 (R6): Implemented toy random-walk dynamics for θ★ within the
+  microcavity-supported band using `src/run_theta_star_random_walk_residence.py`.
+  Constructed ΩΛ(θ★) via the calibrated microcavity scaling
+  (k_scale ≈ -131.4, ΩΛ(θ★_fid) ≈ 0.7 at θ★_fid = 3.63 rad)
+  and evolved N_TRAJ = 200 trajectories over N_STEPS = 2000 steps with
+  reflecting boundaries and step size Δθ ≈ 0.02 rad.
+  Measured residence-time fractions in three windows,
+  |ΩΛ - 0.7| ≤ {0.05, 0.02, 0.01}, obtaining ≈{20.5%, 7.4%, 3.7%}.
+  Saved ensemble to `data/processed/theta_star_random_walk_residence.npz`
+  and summary figure `figures/theta_star_random_walk_residence.{png,pdf}`.
+
+
+### R6 – θ★ random-walk residence in effective vacuum band
+
+**Scripts**
+
+- `src/run_theta_star_random_walk_residence.py`
+- `src/plot_theta_star_random_walk_residence.py`
+
+**Inputs**
+
+- `data/processed/theta_star_microcavity_scan_full_2pi.npz`
+- `data/processed/theta_star_microcavity_core_summary.json`
+
+**Config**
+
+- Band: θ★ ∈ [2.18, 5.54] rad (same as R4–R5)
+- Random walk:  
+  - `N_TRAJ = 200` trajectories  
+  - `N_STEPS = 2000` steps  
+  - `STEP_SIZE = 0.02` rad  
+  - reflecting boundaries at band edges
+- Cosmological scaling:
+  - `omega_lambda_target = 0.7`
+  - `k_scale ≈ -1.313986e+02`
+
+**Outputs**
+
+- `data/processed/theta_star_random_walk_residence.npz`
+- `figures/theta_star_random_walk_residence.png` (and `.pdf`)
+
+**Key numbers (residence fractions in ΩΛ space)**
+
+Flattening all trajectories:
+- Window \|ΩΛ − 0.700\| ≤ 0.050 : 82 064 / 400 200 ≈ **20.5%**
+- Window \|ΩΛ − 0.700\| ≤ 0.020 : 29 640 / 400 200 ≈ **7.4%**
+- Window \|ΩΛ − 0.700\| ≤ 0.010 : 14 679 / 400 200 ≈ **3.7%**
+
+**Interpretation**
+
+A simple θ★ random walk confined to the microcavity-allowed band spends  
+O(10%) of its “time” in patches whose ΩΛ is observationally acceptable,  
+and a few percent in a tighter ±0.01 window. This qualitatively matches  
+the static patch-ensemble result from R5 and supports the idea that the  
+microcavity-backed band can dynamically host Λ ≈ 0.7 without fine-tuning
+to a single θ★ value.
+
+
+

@@ -77,3 +77,230 @@ In other words, once the non--cancelling microcavity is tuned onto the
 observed $\Omega_\Lambda$ slice, the ensuing cosmic acceleration is
 robust under $\mathcal{O}(0.1\text{--}0.6)$--rad changes in the
 underlying phase.
+
+
+\subsection{R5: Effective vacuum patch ensemble}
+
+The band scan in Fig.~\ref{fig:effective_vacuum_band_scan} shows that there is
+an extended interval in $\theta_\star$ within the flavour--side prior band
+$\theta_\star \in [2.18, 5.54]~\mathrm{rad}$ where the microcavity--backed
+effective vacuum delivers $\Omega_\Lambda(\theta_\star)$ close to the observed
+value $\Omega_\Lambda \simeq 0.7$. To make this more concrete, we now treat this
+interval as a pool of candidate ``vacuum patches'' with slightly different
+$\theta_\star$, and ask what fraction of patches would look like our Universe,
+in the narrow sense of matching the late--time dark energy fraction.
+
+Operationally, we draw $N_\mathrm{patch}$ values of $\theta_\star$ uniformly
+within the band $[2.18, 5.54]~\mathrm{rad}$, evaluate the corresponding
+$\Omega_\Lambda(\theta_\star)$ using the same effective vacuum scaling as in
+Sec.~\ref{subsec:frw-from-effective-vacuum}, and classify a patch as
+``good'' whenever
+\begin{equation}
+  \bigl|\Omega_\Lambda(\theta_\star) - 0.7\bigr| \le 0.05.
+\end{equation}
+Figure~\ref{fig:effective_vacuum_patch_ensemble} shows a representative
+realisation with $N_\mathrm{patch} = 1000$. The horizontal dashed line marks
+the target value $\Omega_\Lambda = 0.7$, and the dotted lines indicate the
+$\pm 0.05$ tolerance band. Patches falling inside the band are highlighted.
+
+In this toy ensemble, roughly $f_\mathrm{good} \simeq 0.21$ of all patches
+land in the observational window. Equivalently, if $\theta_\star$ were
+distributed roughly uniformly over the prior band defined by the flavour
+constraints, then a Universe with $\Omega_\Lambda$ in the observed range would
+not be an exponentially rare accident: it would be a ${\cal O}(10^{-1})$
+probability outcome inside this coarse prior. At the present level, this is
+only an internal consistency check for the $\theta_\star$--driven picture; in
+later work, the toy ensemble can be replaced by a more realistic measure over
+$\theta_\star$ determined by dynamical evolution in the flavour sector.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/effective_vacuum_patch_ensemble}
+  \caption{%
+    Effective vacuum patch ensemble (R5). Each point corresponds to a toy
+    vacuum patch with some $\theta_\star$ drawn uniformly from the flavour--side
+    prior band. The vertical coordinate is the corresponding
+    $\Omega_\Lambda(\theta_\star)$ obtained from the microcavity--backed
+    effective vacuum scaling. The dashed line marks
+    $\Omega_\Lambda = 0.7$; dotted lines indicate the $\pm 0.05$ tolerance
+    adopted here. Highlighted points fall inside the observational window.
+    In the illustrated realisation with $N_\mathrm{patch} = 1000$, roughly
+    $21\%$ of patches lie in this window.
+  }
+  \label{fig:effective_vacuum_patch_ensemble}
+\end{figure}
+
+
+\subsubsection*{R5: Effective vacuum patch ensemble}
+
+% (your explanatory paragraph here)
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/effective_vacuum_patch_ensemble}
+  \caption{%
+    Histogram of $\Omega_\Lambda$ values obtained by sampling $10^3$
+    $\theta_\star$ patches uniformly from the effective band
+    $[2.18, 5.54]\,\mathrm{rad}$. The shaded region shows the observational
+    window $\Omega_\Lambda = 0.70 \pm 0.05$. About $21.5\%$ of patches fall
+    in this window, illustrating that the observed value is not an isolated
+    fine–tuned point in this toy landscape.
+  }
+  \label{fig:effective-vacuum-patch-ensemble}
+\end{figure}
+
+
+\subsection{Act V summary: from microcavity to an effective cosmological constant}
+\label{sec:act5-summary}
+
+In this act we closed the loop between a microscopic, discretised model
+of vacuum energy and an effective cosmological constant at FRW scales.
+Starting from the one-dimensional microcavity scan
+$\Delta E(\theta_\star)$ over a full $0$--$2\pi$ band, we identified a
+fiducial angle $\theta_{\star,\text{fid}} \simeq 3.63~\mathrm{rad}$ at
+which the vacuum energy difference $\Delta E_{\rm fid}$ is negative and
+of order $10^{-3}$ in the toy units of the lattice.  By demanding that
+this point reproduces an observationally motivated value of the dark
+energy density, $\Omega_\Lambda(\theta_{\star,\text{fid}}) = 0.7$, we
+fixed a single proportionality constant $k_{\rm scale}$ that maps the
+dimensionless microcavity energy shifts into an effective
+$\Omega_\Lambda(\theta_\star)$.
+
+With this prescription in place, we constructed an effective vacuum
+model in which each choice of $\theta_\star$ inside a ``good'' band
+$[2.18, 5.54]~\mathrm{rad}$ is associated to a different cosmological
+constant.  Solving the Friedmann equations for a flat, matter-plus-vacuum
+universe shows that the fiducial point $(\Omega_m,\Omega_\Lambda) =
+(0.3, 0.7)$ reproduces the expected accelerated expansion relative to a
+purely matter-dominated history, and yields distance--redshift relations
+consistent with a standard $\Lambda$CDM-like background at the level of
+this toy model.
+
+The band scan reveals that, within the admissible $\theta_\star$ range,
+$\Omega_\Lambda(\theta_\star)$ varies between $0$ and $\simeq 0.78$,
+with a finite interval of angles for which $\Omega_\Lambda$ lies close
+to $0.7$.  By sampling $N_{\rm patch} = 1000$ random $\theta_\star$
+values uniformly inside the band, we built an effective ``patch
+ensemble'' and found that the resulting distribution of
+$\Omega_\Lambda$ has mean $\langle \Omega_\Lambda \rangle \simeq 0.45$,
+standard deviation $\sigma_{\Omega_\Lambda} \simeq 0.31$, and median
+$\tilde{\Omega}_\Lambda \simeq 0.57$.  Approximately $21.5\%$ of the
+patches fall into the observationally inspired window
+$\Omega_\Lambda = 0.70 \pm 0.05$, and the central $68\%$ interval of
+the ensemble extends up to $\Omega_\Lambda \simeq 0.76$.  In other
+words, once the microcavity band is accepted as the relevant dynamical
+domain, a patch with $\Omega_\Lambda \approx 0.7$ is statistically
+typical rather than exponentially fine-tuned.
+
+The construction here is deliberately minimalistic and remains a toy
+model in several respects: the microcavity is one-dimensional, the
+mapping from $\Delta E$ to $\Omega_\Lambda$ is linear and fixed by a
+single fiducial point, and we have not yet coupled the effective vacuum
+to realistic matter content beyond a dust-like component.  Nevertheless,
+Act~V shows that the $\theta_\star$ degree of freedom can serve as a
+dynamical label for vacuum energy in an ensemble of patches, and that
+moderately typical values of $\theta_\star$ can reproduce a
+$\Lambda$-like component of the right order of magnitude without
+invoking a $10^{-120}$-level tuning by hand.  This is the bridge we
+need between the underlying axiom and a macroscopic, FRW-level
+description of accelerated expansion in the toy universe.
+
+
+\paragraph{Patch ensemble statistics.}
+To make the microcavity--backed effective vacuum more concrete, we draw an
+ensemble of $N_{\rm patches} = 1000$ independent patches with
+$\theta_\star$ sampled uniformly from the allowed band
+$[2.18, 5.54]\,\mathrm{rad}$ and map each draw to an effective
+vacuum fraction $\Omega_\Lambda(\theta_\star)$ using the calibrated
+microcavity scaling.
+In this ensemble we find
+$\Omega_\Lambda \in [0.000, 0.775]$, with mean
+$\langle \Omega_\Lambda \rangle \simeq 0.445$,
+standard deviation $\sigma_{\Omega_\Lambda} \simeq 0.307$,
+and median $\mathrm{med}(\Omega_\Lambda) \simeq 0.573$.
+Focusing on the observationally motivated target window
+$\Omega_\Lambda = 0.70 \pm 0.05$, we obtain
+$215/1000 \approx 21.5\%$ of patches in the wide window,
+$80/1000 \approx 8.0\%$ in the tighter
+$\Omega_\Lambda = 0.70 \pm 0.02$ band,
+and $39/1000 \approx 3.9\%$ in the most restrictive
+$\Omega_\Lambda = 0.70 \pm 0.01$ window.
+Thus, within this toy ensemble the ``$\Lambda$-like'' patches are not
+exponentially rare in $\theta_\star$-space; rather, they occupy a
+non-negligible fraction of the available band, reinforcing the idea
+that a microcavity-induced effective vacuum can naturally populate
+$\Omega_\Lambda \sim 0.7$ without fine-tuning.
+
+
+\subsection{R6: Random-walk residence of $\theta_\star$ in the $\Omega_\Lambda$ band}
+\label{sec:theta_star_random_walk_residence}
+
+In this rung we treat $\theta_\star$ as a toy dynamical variable that executes
+a one-dimensional random walk within the microcavity-supported band
+$[\theta_{\min}, \theta_{\max}] = [2.18, 5.54]~\mathrm{rad}$.
+The microscopic input is exactly the same as in the previous rungs:
+we use the microcavity scan
+$\Delta E(\theta_\star)$ from the file
+\texttt{data/processed/theta\_star\_microcavity\_scan\_full\_2pi.npz}
+and the calibrated scaling
+$k_{\mathrm{scale}}$ from
+\texttt{data/processed/theta\_star\_microcavity\_core\_summary.json},
+so that
+\begin{equation}
+  \Omega_\Lambda(\theta_\star)
+  = \mathrm{clip}\!\left(
+      k_{\mathrm{scale}}\,\Delta E(\theta_\star),
+      0,\;0.999
+    \right),
+\end{equation}
+with $k_{\mathrm{scale}} \simeq -131.4$ chosen such that
+$\Omega_\Lambda(\theta_{\star,\mathrm{fid}}) \simeq 0.7$
+at $\theta_{\star,\mathrm{fid}} = 3.63~\mathrm{rad}$.
+
+We then evolve $N_{\mathrm{traj}} = 200$ independent trajectories of
+$\theta_\star(t)$ as a simple Gaussian random walk with reflecting
+boundaries at $\theta_{\min}$ and $\theta_{\max}$ and a typical step size
+$\Delta\theta \simeq 0.02~\mathrm{rad}$ per timestep.
+For each trajectory we record the induced $\Omega_\Lambda(t)$ and measure
+the fraction of trajectory-time spent in three observational windows,
+\begin{equation}
+  \bigl|\Omega_\Lambda - 0.7\bigr| \leq \{0.05,\,0.02,\,0.01\}.
+\end{equation}
+The resulting residence fractions are approximately
+$20.5\%$, $7.4\%$, and $3.7\%$ respectively, i.e.\ the random-walk motion
+in $\theta_\star$ spends a non-negligible fraction of its time in a band
+that is observationally indistinguishable from the fiducial
+$\Lambda$CDM value.
+
+Figure~\ref{fig:theta_star_random_walk_residence} shows the resulting
+distribution of $\Omega_\Lambda$ values sampled along all trajectories,
+together with the broad observational window
+$\bigl|\Omega_\Lambda - 0.7\bigr| \leq 0.05$.
+This figure is not an attempt at a physical equation of motion for
+$\theta_\star$, but rather a toy demonstration that once the microcavity
+scaling is fixed, a simple stochastic dynamics in $\theta_\star$ naturally
+generates residence-time statistics in the observed $\Omega_\Lambda$ band
+at the $\sim 10\%$ level.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/theta_star_random_walk_residence}
+  \caption{
+    Residence-time distribution of $\Omega_\Lambda$ for the random-walk
+    ensemble of $\theta_\star$ trajectories (R6).
+    We histogram all sampled $\Omega_\Lambda(t)$ values from
+    $N_{\mathrm{traj}} = 200$ random walks in the band
+    $\theta_\star \in [2.18, 5.54]~\mathrm{rad}$, using the microcavity-backed
+    mapping $\Omega_\Lambda(\theta_\star)$ fixed in previous rungs.
+    The vertical dashed line marks the fiducial value
+    $\Omega_\Lambda = 0.7$ and the shaded band indicates the window
+    $\bigl|\Omega_\Lambda - 0.7\bigr| \leq 0.05$.
+    In this toy model, roughly $20\%$ of the total trajectory-time lies
+    within this observational window.
+  }
+  \label{fig:theta_star_random_walk_residence}
+\end{figure}
+
+
+
+
