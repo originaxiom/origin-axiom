@@ -1,0 +1,190 @@
+\subsection{Effective vacuum band and the $\theta_\star$--$\Omega_\Lambda$ map}
+\label{subsec:effective_vacuum_band}
+
+In the previous steps we established two ingredients:
+
+\begin{enumerate}
+  \item A microscopic \emph{microcavity} model that assigns to each
+    twist angle $\theta_\star$ a vacuum--energy difference
+    $\Delta E(\theta_\star)$ between a ``uniform'' and a
+    ``cavity'' configuration. Numerically, this is encoded in the
+    full $2\pi$ scan
+    \verb|data/processed/theta_star_microcavity_scan_full_2pi.npz|,
+    which provides arrays
+    \(\{\theta_{\rm grid}, \Delta E(\theta_{\rm grid})\}\)
+    together with the underlying ground--state energies
+    \(E_{0,\mathrm{uniform}}\) and \(E_{0,\mathrm{cavity}}\).
+  \item A cosmological effective description in which a single
+    scalar parameter $\theta_\star$ controls the dark--energy density
+    via an effective scaling relation
+    \begin{equation}
+      \Omega_\Lambda(\theta_\star) \;=\;
+      k_{\rm scale}\,\Delta E(\theta_\star)\,,
+    \end{equation}
+    where $k_{\rm scale}$ is determined by matching to a fiducial
+    ``observed'' value of $\Omega_\Lambda$ at some preferred
+    $\theta_\star$.
+\end{enumerate}
+
+In this subsection we combine these two ingredients to construct an
+\emph{effective vacuum band}:
+a continuous interval of $\theta_\star$ values that are simultaneously
+compatible with the microcavity spectrum and with an observationally
+allowed range of $\Omega_\Lambda$.
+
+\paragraph{Fiducial point and scaling.}
+
+On the ``flavor side'' of the theory we have argued for a specific
+fiducial twist angle,
+\begin{equation}
+  \theta_{\rm fid} \equiv \theta_\star^{\rm (fid)} \approx 3.63~\mathrm{rad},
+\end{equation}
+which we adopt as the working reference point in the microcavity model.
+From the full $2\pi$ scan we extract the nearest grid point
+\(\theta_{\rm grid} \approx 3.6325~\mathrm{rad}\)
+and find the corresponding vacuum--energy shift
+\begin{equation}
+  \Delta E_{\rm fid}
+  \;\equiv\;
+  \Delta E(\theta_\star^{\rm (fid)})
+  \;\approx\;
+  -5.33\times 10^{-3}\,.
+\end{equation}
+
+On the cosmology side we impose a fiducial dark--energy density
+\begin{equation}
+  \Omega_\Lambda^{\rm (fid)} \equiv \Omega_\Lambda(\theta_\star^{\rm (fid)})
+  \;=\; 0.7\,,
+\end{equation}
+with a corresponding matter fraction
+\(\Omega_m^{\rm (fid)} = 1 - \Omega_\Lambda^{\rm (fid)} = 0.3\),
+as used in the FRW integrations of Sec.~\ref{subsec:frw_from_effective}.
+Matching the microscopic and macroscopic descriptions then fixes the
+single scaling parameter
+\begin{equation}
+  k_{\rm scale}
+  \;=\;
+  \frac{\Omega_\Lambda^{\rm (fid)}}{\Delta E_{\rm fid}}
+  \;\approx\;
+  -1.31\times 10^{2}\,.
+\end{equation}
+Numerically, this calibration step is recorded in
+\verb|data/processed/theta_star_microcavity_core_summary.json|,
+which stores
+\(\theta_{\rm fid}\), \(\Delta E_{\rm fid}\),
+\(\Omega_\Lambda^{\rm (fid)} = 0.7\), and the derived
+\(k_{\rm scale}\).
+
+\paragraph{Defining the $\theta_\star$ band.}
+
+The $\theta_\star$ prior emerging from the one--dimensional vacuum
+construction and flavor--sector considerations is not a single point
+but a \emph{band}
+\begin{equation}
+  \theta_\star \in [\theta_{\min}, \theta_{\max}] \;=\;
+  [2.18, 5.54]~\mathrm{rad}\,.
+\end{equation}
+This interval contains the fiducial value
+\(\theta_{\rm fid} \approx 3.63\) and is chosen such that:
+
+\begin{itemize}
+  \item it lies within the range where the microcavity scan is
+    numerically reliable;
+  \item it respects the prior constraints from the $1$D twisted vacuum
+    energy (no pathological instabilities, consistent sign of
+    $\Delta E$);
+  \item it encompasses the flavor--motivated twist while excluding
+    obviously unphysical tails of the microcavity spectrum.
+\end{itemize}
+
+Within this band, we define a discrete sampling of
+\(N_{\rm band} = 41\) equally spaced values,
+\(\{\theta_{\star,i}\}_{i=1}^{N_{\rm band}}\),
+and compute for each point:
+\begin{equation}
+  \Omega_\Lambda(\theta_{\star,i})
+  \;=\;
+  k_{\rm scale}\,\Delta E(\theta_{\star,i})\,,
+\end{equation}
+where \(\Delta E(\theta_{\star,i})\) is obtained by interpolating the
+full microcavity scan.  This procedure is implemented in
+\verb|src/run_effective_vacuum_band_scan.py| and the resulting arrays
+\(\{\theta_{\star,i}, \Delta E_i, \Omega_{\Lambda,i}\}\) are stored in
+\verb|data/processed/effective_vacuum_band_scan.npz|.
+
+\paragraph{Structure of the effective vacuum band.}
+
+The output of the band scan can be summarized as follows:
+
+\begin{itemize}
+  \item The sampled band in $\theta_\star$ spans
+    \(\theta_\star \in [2.18, 5.54]~\mathrm{rad}\).
+  \item The corresponding dark--energy fraction varies within
+    \begin{equation}
+      \Omega_\Lambda(\theta_\star) \in [0,\, 0.775]\;,
+    \end{equation}
+    where the lower end of the band approaches an effectively
+    vanishing dark--energy contribution.
+  \item Around the fiducial value \(\Omega_\Lambda = 0.7\) there exists
+    a finite ``$\Lambda$--window'' in $\theta_\star$:
+    if we require
+    \(|\Omega_\Lambda(\theta_\star) - 0.7| \le 0.05\), we find
+    \emph{nine} sample points in the band that satisfy this criterion.
+    A representative subset is
+    \begin{align}
+      \theta_\star &\approx 2.516~\mathrm{rad}, &
+      \Omega_\Lambda(\theta_\star) &\approx 0.651\,, \\
+      \theta_\star &\approx 2.600~\mathrm{rad}, &
+      \Omega_\Lambda(\theta_\star) &\approx 0.683\,, \\
+      \theta_\star &\approx 2.684~\mathrm{rad}, &
+      \Omega_\Lambda(\theta_\star) &\approx 0.710\,, \\
+      \theta_\star &\approx 2.768~\mathrm{rad}, &
+      \Omega_\Lambda(\theta_\star) &\approx 0.732\,, \\
+      \theta_\star &\approx 2.852~\mathrm{rad}, &
+      \Omega_\Lambda(\theta_\star) &\approx 0.750\,.
+    \end{align}
+\end{itemize}
+
+Several points are conceptually important:
+
+\begin{enumerate}
+  \item The microcavity model does \emph{not} single out a unique,
+    infinitely fine--tuned $\theta_\star$ that yields
+    $\Omega_\Lambda \simeq 0.7$.  Instead, it produces a
+    \emph{continuous band} of twist angles for which the effective
+    dark--energy fraction lies in an observationally acceptable range.
+  \item The fiducial choice \(\theta_\star^{\rm (fid)} \approx 3.63\)
+    used in the FRW histories of Sec.~\ref{subsec:frw_from_effective}
+    sits naturally inside a broader stability window: small
+    perturbations of $\theta_\star$ do not immediately destroy the
+    effective $\Lambda$ behaviour.
+  \item The upper edge of the band, where
+    \(\Omega_\Lambda(\theta_\star) \approx 0.775\), provides a
+    natural limit beyond which the microcavity--driven effective
+    vacuum would overproduce dark energy relative to the fiducial
+    cosmological target.
+\end{enumerate}
+
+From an ``axiom to atom'' perspective, this effective vacuum band is the
+first concrete realization of the idea that a single microscopic twist
+parameter $\theta_\star$ can generate both (i) a nontrivial spectrum of
+vacuum energies in a controlled microscopic model and (ii) an
+observationally viable range of macroscopic dark--energy densities,
+once a single matching condition at a fiducial point is imposed.
+In the next subsection we will use this band structure as the starting
+point for connecting $\theta_\star$ to flavor mixing and, eventually,
+to laboratory observables.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/effective_vacuum_band_scan}
+    \caption{%
+      Effective-vacuum prediction $\Omega_\Lambda(\theta_\star)$ as a function of
+      $\theta_\star$ across the band $[2.18, 5.54]$\,rad. The solid curve shows
+      the microcavity-backed $\Omega_\Lambda(\theta_\star)$ and the dashed line
+      marks the target $\Omega_{\Lambda,\rm fid} = 0.70$.  The region where
+      $|\Omega_\Lambda(\theta_\star) - 0.70| \lesssim 0.05$ provides an allowed
+      band of $\theta_\star$ values consistent with late-time acceleration.
+    }
+    \label{fig:effective_vacuum_band_scan}
+\end{figure}

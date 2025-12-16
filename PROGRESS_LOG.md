@@ -959,3 +959,51 @@ The goal here is not precision cosmology but showing that, once we fix Omega_Lam
 - Keep this script as the main entry point for “first contact” with observable expansion history in ACT III.
 
 
+2025-12-15 — Locked Act II–III methods note and FRW/microcavity pipeline. See docs/paper/main_origin_axiom.tex, tag v0.2-act2-3-methods. This is the reference state for the θ⋆ prior → ∆E(θ⋆) → ρ_vac(θ⋆) → FRW toy pipeline.
+
+
+2025-12-16 — Microcavity param sweeps housekeeping
+
+- Files data/processed/microcavity_sweep_*.npz were produced by a stub
+  version of scan_1d_microcavity_param_sweep.py with deltaE set to zero
+  (no microcavity solver call).
+- These NPZs are **sandbox / placeholder** and are **not used** in the Act II
+  theta★ → microcavity → FRW chain or in any published figures.
+- Any future use of microcavity_sweep_*.npz must be based on a regenerated
+  dataset with a proper ΔE(θ) computation.
+
+
+## 2025-12-16 – R2: Effective vacuum and FRW bridge
+
+- Recovered and inspected microcavity full-2π scan:
+  - data/processed/theta_star_microcavity_scan_full_2pi.npz
+  - Summarized band and fiducial point in:
+    - data/processed/theta_star_microcavity_core_summary.json
+    - theta_fid_nominal = 3.63 rad
+    - theta_fid_grid ≈ 3.6325 rad
+    - delta_E(theta_fid) ≈ -5.33e-3 (dimensionless)
+- Fixed microcavity sandbox NPZ naming:
+  - microcavity_sweep_*.npz now expose both `deltaE` and `delta_E` for compatibility.
+- Constructed effective vacuum model:
+  - src/vacuum_effective.py
+  - k_scale ≈ -1.31e2 chosen such that Omega_Lambda(theta_fid) = 0.7
+- Ran FRW from effective vacuum:
+  - src/run_frw_from_effective_vacuum.py
+  - Produced data/processed/frw_from_effective_vacuum.npz
+  - Verified accelerated expansion for (Omega_m, Omega_Lambda) = (0.3, 0.7) vs matter-only.
+
+
+
+[2025-12-16] R3: FRW observables from effective vacuum
+  - Built run_frw_observables_from_effective_vacuum.py to derive a(t), z, and
+    a simple Hubble-like distance curve from frw_from_effective_vacuum.npz.
+  - Saved observables to data/processed/frw_effective_observables.npz
+    and figures/frw_from_effective_vacuum_a_of_t.pdf,
+    figures/frw_effective_hubble_diagram.png.
+  - This closes the loop: theta_star -> microcavity delta_E(theta)
+    -> effective vacuum scaling -> FRW history -> expansion observables.
+
+
+
+
+
