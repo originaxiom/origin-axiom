@@ -1556,6 +1556,75 @@ Layout:
   - Make explicit that this is a qualitative consistency check, not yet a parameter-free prediction of Ω_Λ or a precision fit to cosmological data; genuine predictions are deferred to future, more microscopic models of the cancellation system and a full data confrontation.
 
 
+## 2025-12-17 — R19: Physical scales for the effective vacuum bridge
+
+- Scripts:
+  - Added `scripts/effective_vacuum_physical_scales.py`.
+
+- Data:
+  - Reused microcavity core summary
+    `data/processed/theta_star_microcavity_core_summary.json`.
+
+- Summary:
+  - Computed the physical critical density and vacuum energy density for the
+    fiducial effective vacuum slice (H0 = 70 km s^-1 Mpc^-1, Omega_Lambda ≈ 0.7).
+  - Expressed rho_Lambda in SI units and as a ratio to the Planck energy density,
+    confirming the familiar hierarchy rho_Lambda / rho_Pl ~ 1e-123.
+  - Related this rho_Lambda to the dimensionless microcavity energy shift
+    DeltaE_fid ≈ -5.3×10^-3, defining an effective scale factor that maps
+    lattice DeltaE to physical energy density.
+  - Clarified that at the present stage the non-cancelling microcavity model
+    provides an O(10^-3) dimensionless knob; the tiny absolute scale of Lambda
+    comes from the choice of H0 and fundamental constants rather than from an
+    internal prediction of the cancellation system.
+
+- Status:
+  - R19 completes the first rung of Act VI (scale-setting). Next rungs will
+    use this bookkeeping to design the universe→atoms stitching ladder.
+
+
+### R19 – Physical scales for the effective vacuum bridge (scripts/effective_vacuum_physical_scales.py)
+
+**Goal.** Expose how the dimensionless microcavity energy shift at the fiducial
+θ★ slice is promoted to a physical dark–energy density ρ_Λ, and make the
+Planck–scale hierarchy explicit in standard cosmological units.
+
+**What I ran.**
+
+- `PYTHONPATH=src python3 scripts/effective_vacuum_physical_scales.py`
+
+**Key outputs.**
+
+- Loaded microcavity core summary from
+  `data/processed/theta_star_microcavity_core_summary.json` with
+  ΔE_fid ≈ −5.33×10⁻³, k_scale ≈ −1.31×10², and Ω_Λ,target = 0.7.
+- Adopted H₀ = 70 km s⁻¹ Mpc⁻¹, giving:
+  - ρ_crit ≈ 9.20×10⁻²⁷ kg m⁻³
+  - ρ_Λ(mass) ≈ 6.44×10⁻²⁷ kg m⁻³
+  - ρ_Λ ≈ 5.79×10⁻¹⁰ J m⁻³
+- Planck density:
+  - ρ_Pl ≈ 4.63×10¹¹³ J m⁻³
+  - Ratio ρ_Λ / ρ_Pl ≈ 1.25×10⁻¹²³ (the standard “10⁻¹²³ problem”).
+- Effective mapping from dimensionless microcavity units to physical ρ_Λ:
+  - ΔE_fid = −5.33×10⁻³ (dimensionless)
+  - scale_factor ≈ −1.09×10⁻⁷ J m⁻³ per unit ΔE
+  - Check: Ω_Λ,fid = k_scale × ΔE_fid ≈ 0.700 (consistent with earlier rungs).
+
+**Interpretation.**
+
+- The tiny ratio ρ_Λ / ρ_Pl ≈ 10⁻¹²³ is set entirely by (H₀, G, c, ħ).
+  The microcavity and non–cancelling rule only provide an 𝒪(10⁻³) shift
+  in dimensionless lattice units.
+- R19 does *not* claim a microscopic derivation of the absolute Λ scale.
+  Instead, it makes the calibration explicit: once we demand that the
+  θ★ fiducial slice reproduces Ω_Λ ≈ 0.7 for a chosen H₀, there is a unique
+  conversion factor that maps ΔE_fid to the observed ρ_Λ.
+- This rung closes Act V on the physical–units side: the θ★–driven effective
+  vacuum bridge is now explicitly tied to standard cosmological densities
+  without silently hiding the 10⁻¹²³ hierarchy.
+
+
+
 
 
 
