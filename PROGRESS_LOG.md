@@ -1202,5 +1202,56 @@ to a single θ★ value.
     supporting a non-fine-tuned but ΛCDM-compatible region of the θ★ band.
 
 
+## 2025-12-17 — R8: Localised two-field microstructure in effective vacuum
+
+**Scripts**
+
+- `src/run_two_field_bump_1d.py`
+- `scripts/inspect_two_field_bump_1d.py`
+- `scripts/summarize_two_field_bump_1d.py` (new)
+
+**Commands**
+
+```bash
+cd ~/Documents/Projects/origin-axiom
+PYTHONPATH=src python3 src/run_two_field_bump_1d.py --steps 2000 --snapshot-stride 20 --g 0.02
+PYTHONPATH=src python3 scripts/inspect_two_field_bump_1d.py
+PYTHONPATH=src python3 scripts/summarize_two_field_bump_1d.py
+```
+
+**Data / figures**
+
+- `data/processed/two_field_bump_1d.npz`
+- `data/processed/figures/two_field_bump_1d_loc_amp.png`
+- `data/processed/figures/two_field_bump_1d_phi_final.png`
+- `data/processed/figures/two_field_bump_1d_chi_final.png`
+
+**Summary**
+
+- Confirmed that the 1D two-field bump toy evolves stably under the Origin-Axiom non-cancelling constraint.
+- In both the free and constrained runs the localised bump gradually disperses and its amplitude decays over the integration time.
+- The constrained trajectory tracks the free one closely: initial amplitudes are identical, final amplitudes differ only at the few-percent level, and simple diagnostics (half-amplitude lifetime, mean |loc|) are comparable between the two cases.
+- The helper script `scripts/summarize_two_field_bump_1d.py` prints basic diagnostics (initial/final amplitudes, half-amplitude lifetimes, mean |loc|) for both free and constrained trajectories.
+- This rung serves as a first microstructure check that applying the non-cancelling rule on top of a θ★-selected effective vacuum does not introduce runaway behaviour or obvious pathologies in a localised two-field excitation.
+
+
+
+## 2025-12-17 — θ★ bridge summary index (R9)
+
+- Added `scripts/summarize_theta_star_bridge.py` to collect all key θ★ → microcavity → effective-vacuum ensemble numbers in one place.
+- Summary script reads:
+  - Act II θ★ prior band and fiducial value from `config/theta_star_config.json`,
+  - microcavity core summary from `data/processed/theta_star_microcavity_core_summary.json`,
+  - effective-vacuum band scan from `data/processed/effective_vacuum_band_scan.npz`,
+  - patch ensemble from `data/processed/effective_vacuum_patch_ensemble.npz`,
+  - random-walk residence data from `data/processed/theta_star_random_walk_residence.npz`.
+- Writes a compact machine-readable index to
+  `data/processed/theta_star_bridge_summary.json` with:
+  - θ★ prior band `[2.18, 5.54]` rad and θ★_fid ≈ 3.63 rad,
+  - microcavity ΔE_fid, k_scale, and Ω_Λ,target,
+  - effective-vacuum band scan ranges and 9/41 points in the Ω_Λ = 0.70 ± 0.05 corridor,
+  - patch ensemble stats (mean/median/std and fractions in |Ω_Λ − 0.70| ≤ {0.05, 0.02, 0.01}),
+  - random-walk residence fractions in the same Ω_Λ windows.
+- Purpose: provide a single, reproducible numerical snapshot of the Act II/III θ★ bridge, so later analyses can sanity-check against one JSON instead of chasing individual NPZ files.
 
 

@@ -1,181 +1,424 @@
-\section{Act V: Dynamical $\theta_\star$ bridge and effective vacuum}
+\section{Act V: Dynamical $\theta_\star$ and an effective vacuum bridge}
 \label{sec:act5-dynamical-theta-star}
 
-In this act we close the loop between the flavour--sector determination of the
-master phase $\theta_\star$, a simple $\theta_\star$--sensitive microcavity toy,
-and an effective cosmological constant at FRW scales.  The goal is not to
-derive $\Lambda$ from first principles in a realistic field theory, but to show
-that a single phase parameter $\theta_\star$ can consistently label families of
-vacua whose effective dark--energy fraction $\Omega_\Lambda(\theta_\star)$
-naturally populates the phenomenologically relevant regime
-$\Omega_\Lambda \sim 0.7$ without hand--building this value into the prior.
+In this act we take the flavour-informed master phase $\theta_\star$ from
+Act~II and probe how it behaves once we embed it into a simple microscopic
+vacuum toy, a microcavity model, and then map the resulting vacuum shift to
+an effective cosmological constant in a flat FRW universe.
+The overarching question is whether the same $\theta_\star$ that already does work in the quark + lepton sector can act as a \emph{single dial} that
 
-Throughout this act we work with the Act~II flavour--based summary of
-$\theta_\star$ exported into this repo as
-\texttt{config/theta\_star\_config.json}.  In particular,
+\begin{enumerate}
+  \item selects a preferred region in a microstructure toy,
+  \item induces a negative vacuum-energy shift $\Delta E(\theta_\star)$,
+  \item and can be rescaled into an effective dark-energy fraction
+  $\Omega_\Lambda(\theta_\star)$ that reproduces a late-time accelerated expansion.
+\end{enumerate}
+
+Throughout this act we keep three principles explicit:
+
+\begin{itemize}
+  \item The microcavity model is a deliberately minimal toy: a one-dimensional scalar chain with a $\theta_\star$-dependent mass modulation in a central region.
+  \item The mapping from $\Delta E(\theta_\star)$ to $\Omega_\Lambda(\theta_\star)$ is a \emph{single-parameter scaling}, fixed by demanding $\Omega_\Lambda(\theta_{\star,\rm fid}) \simeq 0.7$ at a fiducial $\theta_{\star,\rm fid}$ drawn from the Act~II flavour prior.
+  \item We work in dimensionless FRW units with $H_0 = 1$, and only later comment on physical scales.
+\end{itemize}
+
+The result is not a claim of a precision prediction for the observed cosmological constant, but a proof-of-concept pipeline
+
 \begin{equation}
-  \theta_{\star,\mathrm{fid}} \simeq 3.63~\mathrm{rad}, \qquad
-  \theta_{\star,\mathrm{band}} \simeq [2.18, 5.54]~\mathrm{rad},
+  \theta_\star \;\longrightarrow\;
+  \Delta E(\theta_\star) \;\longrightarrow\;
+  \Omega_\Lambda(\theta_\star) \;\longrightarrow\;
+  a(t)
 \end{equation}
-where $\theta_{\star,\mathrm{fid}}$ is a convenient fiducial value and
-$\theta_{\star,\mathrm{band}}$ is the working prior band inherited from the
-joint CKM+PMNS fits of Act~II.
 
-We first recall the 1D microcavity construction and the mapping from the
-dimensionless vacuum shift $\Delta E(\theta_\star)$ to an effective
-$\Omega_\Lambda(\theta_\star)$ (R1--R3).  We then quantify the dynamical
-tolerance of this mapping (R4), the statistical weight of
-$\Lambda$CDM--like patches in a simple ensemble (R5), a toy random--walk
-residence test (R6), and finally the induced prior on $\Omega_\Lambda$ from the
-original $\theta_\star$ prior (R7).
+that can be refined or replaced by more realistic microphysics in future work.
 
 
-\subsection{R1: 1D $\theta_\star$ microcavity toy}
-\label{subsec:microcavity_scan}
+\subsection{R1: Act II prior and microcavity model}
 
-We start from a minimal 1D scalar lattice with open boundaries, mass parameter
-$m_0$ and nearest--neighbour coupling $c$.  A central ``microcavity'' region
-occupying a fixed fraction of the sites is assigned a $\theta_\star$--dependent
-mass profile
+Act~II delivers a consolidated posterior for the master phase $\theta_\star$
+by fitting PMNS and CKM mixings in a common ansatz.
+For the purposes of this act we summarise that information by
+
+\begin{itemize}
+  \item a fiducial value $\theta_{\star,\rm fid} \simeq 3.63~\mathrm{rad}$,
+  \item a working prior band $\theta_\star \in [2.18, 5.54]~\mathrm{rad}$,
+\end{itemize}
+
+which are exported from the flavour analysis via a configuration file
+(\texttt{config/theta\_star\_config.json}) and read by the microcavity scripts as a small dataclass.\footnote{See Sec.~\ref{sec:theta_star_prior} for the full flavour-side posterior and its construction.}
+This is the first appearance of $\theta_\star$ in this repo: whenever we say
+``run the toy universe at $\theta_\star$'' or ``scan the $\theta_\star$ band'',
+these are the values we use.
+
+The microcavity toy is a one-dimensional scalar chain with open boundaries,
+nearest-neighbour coupling $c$, and a baseline mass $m_0$.
+We designate a central sub-interval as a ``cavity'', and modulate the mass there according to
+
 \begin{equation}
-  m^2(x;\theta_\star) \;=\;
+  m(x;\theta_\star)
+  \;=\;
   \begin{cases}
-    m_0^2, & x \notin \text{cavity}, \\[3pt]
-    m_0^2 \bigl[1 + \alpha_{\rm mass}\cos(\theta_\star - \theta_0)\bigr]^2,
-      & x \in \text{cavity},
+    m_0, & x \text{ outside cavity},\\[0.3em]
+    m_0\,[1 + \alpha_{\rm mass}\cos(\theta_\star - \theta_0)], & x \text{ inside cavity},
   \end{cases}
 \end{equation}
-with $\alpha_{\rm mass}$ a dimensionless modulation depth and $\theta_0$ a
-reference phase.  The single--field Hamiltonian is
+
+so that the cavity is lighter or heavier than the surroundings depending on
+$\theta_\star$.
+The Hamiltonian is
+
 \begin{equation}
-  H(\theta_\star) = \mathrm{diag}\bigl(m^2(x;\theta_\star) + 2c\bigr)
-  - c\,(\text{nearest--neighbour}),
+  H(\theta_\star)
+  \;=\;
+  \mathrm{diag}\!\bigl( m(x;\theta_\star)^2 + 2c \bigr)
+  \;-\;
+  c\,(\text{nearest-neighbour off-diagonals}),
 \end{equation}
-and we define the vacuum shift as
+
+and we define the vacuum-energy shift as
+
 \begin{equation}
   \Delta E(\theta_\star)
   \;\equiv\;
-  E_{0,\mathrm{cavity}}(\theta_\star) - E_{0,\mathrm{uniform}},
+  E_0^{\rm cavity}(\theta_\star) - E_0^{\rm uniform},
 \end{equation}
-where $E_{0,\mathrm{uniform}}$ is the ground--state energy of the same chain
-with a spatially uniform mass $m_0$.
 
-The script \texttt{src/scan\_1d\_theta\_star\_microcavity\_full\_band.py}
-samples $\theta_\star$ over one full $0$--$2\pi$ cycle and stores
+where $E_0^{\rm uniform}$ is the ground-state energy of the same chain
+with a spatially uniform $m_0$ (no cavity),
+and $E_0^{\rm cavity}(\theta_\star)$ is the ground-state energy for the
+$\theta_\star$-dependent mass profile above.
+
+Numerically, with the parameters used here (chain length $N=256$, $m_0=0.1$,
+$c=1.0$, cavity covering 20\% of the chain, $\alpha_{\rm mass}=0.5$), the
+uniform energy is approximately constant,
+
 \begin{equation}
-  \bigl\{\theta_\star,\,\Delta E(\theta_\star)\bigr\}
+  E_0^{\rm uniform}
+  \;\approx\;
+  1.01\times 10^{-2}
 \end{equation}
-in \texttt{data/processed/theta\_star\_microcavity\_scan\_full\_2pi.npz}.
-For the parameter choices used here, the global minimum of the vacuum shift
-lies at
+
+over all $\theta_\star$, while the cavity energy produces a non-trivial
+$\Delta E(\theta_\star)$ in the flavour band.
+This is the first explicit microstructure toy where the same $\theta_\star$
+that appears in flavour fits changes a vacuum energy in a controlled way.
+
+We record a finite sample of $\theta_\star$ values in the Act~II band and
+their associated energy shifts in the file
+\texttt{data/processed/theta\_star\_prior\_1d\_microcavity\_samples.npz},
+with entries
+
 \begin{equation}
-  \theta_{\star,\mathrm{min}} \simeq \pi, \qquad
-  \Delta E_{\mathrm{min}} \simeq -5.9\times 10^{-3},
-\end{equation}
-and the Act~II band $[2.18, 5.54]~\mathrm{rad}$ fully contains this minimum.
-At the fiducial flavour value
-$\theta_{\star,\mathrm{fid}} = 3.63~\mathrm{rad}$ the scan yields
-\begin{equation}
-  \Delta E_{\mathrm{fid}}
-  \equiv \Delta E(\theta_{\star,\mathrm{fid}})
-  \simeq -5.33\times 10^{-3}.
+  \left\{
+    \theta_{\star,i},\;
+    E_0^{\rm cavity}(\theta_{\star,i}),\;
+    \Delta E(\theta_{\star,i})
+  \right\}_{i=1}^{N_{\rm sample}}.
 \end{equation}
 
-For later convenience these summary numbers (fiducial angle, band, and
-$\Delta E$ at the fiducial point) are stored in
-\texttt{data/processed/theta\_star\_microcavity\_core\_summary.json}.
+This dataset is only an intermediate sanity check; for the effective-vacuum
+bridge we work with a denser scan, described in the next subsection.
 
 
-\subsection{R2: Effective vacuum scaling from $\Delta E(\theta_\star)$}
-\label{subsec:effective-vacuum-scaling}
+\subsection{R2: Microcavity full-band scan $\Delta E(\theta_\star)$}
+\label{subsec:microcavity_scan}
 
-The microcavity scan provides a dimensionless vacuum shift
-$\Delta E(\theta_\star)$ as a function of the phase.  To connect this to
-cosmology we introduce a simple effective mapping
-\begin{equation}
-  \Omega_\Lambda(\theta_\star)
-  \;=\;
-  \mathrm{clip}\!\left(k_{\mathrm{scale}}\,\Delta E(\theta_\star),
-    0,\;0.999\right),
-\end{equation}
-where $k_{\mathrm{scale}}$ is a single proportionality constant and the
-clipping keeps $\Omega_\Lambda$ in the physically sensible interval
-$[0,1)$.  The constant $k_{\mathrm{scale}}$ is fixed by the requirement that
-the fiducial flavour phase reproduce an observationally motivated dark--energy
-fraction,
-\begin{equation}
-  \Omega_\Lambda(\theta_{\star,\mathrm{fid}}) = 0.7,
-\end{equation}
-which gives
-\begin{equation}
-  k_{\mathrm{scale}} \;=\;
-  \frac{\Omega_\Lambda(\theta_{\star,\mathrm{fid}})}{\Delta E_{\mathrm{fid}}}
-  \;\simeq\; -1.31\times 10^{2}.
-\end{equation}
-With this choice, the effective matter fraction follows from flatness,
-\begin{equation}
-  \Omega_m(\theta_\star) = 1 - \Omega_\Lambda(\theta_\star),
-\end{equation}
-and at the fiducial phase we obtain
-\begin{equation}
-  \Omega_\Lambda(\theta_{\star,\mathrm{fid}}) \simeq 0.7, \qquad
-  \Omega_m(\theta_{\star,\mathrm{fid}}) \simeq 0.3.
-\end{equation}
+To understand how the microcavity behaves over a full $0$--$2\pi$ cycle,
+we compute $\Delta E(\theta_\star)$ on a dense grid
+$\theta_\star \in [0, 2\pi)$ with $N_\theta = 256$ points.
+Operationally, the script
 
-In practice we implement this mapping in a small helper
-\texttt{EffectiveVacuumModel} (\texttt{src/vacuum\_effective.py}), which
-reads the Act~II $\theta_\star$ configuration and the microcavity scan and
-provides an interpolating function $\Omega_\Lambda(\theta_\star)$ together
-with the calibrated $k_{\mathrm{scale}}$ and fiducial point.
+\begin{center}
+  \texttt{src/scan\_1d\_theta\_star\_microcavity\_full\_band.py}
+\end{center}
 
+builds the Hamiltonian $H(\theta_\star)$ for each grid point,
+diagonalises it to obtain $E_0^{\rm cavity}(\theta_\star)$, and subtracts
+the uniform reference $E_0^{\rm uniform}$ to form $\Delta E(\theta_\star)$.
+The results are stored in
 
-\subsection{R3: FRW toy universe from effective vacuum}
-\label{subsec:frw-from-effective-vacuum}
+\begin{center}
+  \texttt{data/processed/theta\_star\_microcavity\_scan\_full\_2pi.npz},
+\end{center}
 
-Given a flat FRW model with matter and vacuum,
-\begin{equation}
-  H^2(a) = H_0^2 \bigl[ \Omega_m a^{-3} + \Omega_\Lambda \bigr],
-\end{equation}
-we can treat $\Omega_m$ and $\Omega_\Lambda$ as effective parameters supplied
-by the microcavity--backed mapping $\Omega_\Lambda(\theta_\star)$ at the
-fiducial phase.  The script
-\texttt{src/run\_frw\_from\_effective\_vacuum.py} does exactly this: it builds
-an \texttt{EffectiveVacuumModel}, evaluates
-$\Omega_{\Lambda,\mathrm{fid}} = \Omega_\Lambda(\theta_{\star,\mathrm{fid}})$
-and $\Omega_{m,\mathrm{fid}} = 1-\Omega_{\Lambda,\mathrm{fid}}$, and compares
-two FRW histories:
-
+with fields
 \begin{itemize}
-\item a matter--only universe with $(\Omega_m,\Omega_\Lambda) = (1,0)$;
-\item an effective--vacuum universe with
-  $(\Omega_m,\Omega_\Lambda) \simeq (0.3,0.7)$ obtained from the microcavity
-  scaling at $\theta_{\star,\mathrm{fid}}$.
+  \item \texttt{theta\_grid} (length-256 array of $\theta_\star$ values),
+  \item \texttt{E0\_uniform} (scalar),
+  \item \texttt{E0\_cavity} (length-256 array of cavity ground-state energies),
+  \item \texttt{delta\_E} (length-256 array of $\Delta E(\theta_\star)$),
+  \item metadata for the microcavity parameters and the $\theta_\star$ prior.
 \end{itemize}
 
-Working in units where $H_0 = 1$ and starting at $a_{\mathrm{init}} = 10^{-3}$,
-the matter--only case follows the familiar decelerating power law
-$a(t)\propto t^{2/3}$ and reaches $a(t_{\mathrm{final}})\simeq 3.8$ over a
-few Hubble times.  The effective--vacuum case undergoes accelerated expansion
-and reaches $a(t_{\mathrm{final}})\simeq 3\times 10^{1}$ over the same time
-interval.  The corresponding $a(t)$ and Hubble--diagram style
-$d_L(z)$ curves are stored in
-\texttt{data/processed/frw\_from\_effective\_vacuum.npz} and visualised in
-\texttt{figures/frw\_from\_effective\_vacuum\_a\_of\_t.pdf} and
-\texttt{figures/frw\_effective\_hubble\_diagram.png}.
+The scan shows a smooth, almost sinusoidal profile for $\Delta E(\theta_\star)$.
+For the parameters chosen here, the global minimum lies near
 
-At this stage $\Omega_\Lambda$ is still effectively a one--point calibration:
-we use the fiducial $\theta_{\star,\mathrm{fid}}$ to pin down
-$k_{\mathrm{scale}}$ and then verify that the resulting FRW history behaves
-like a standard $(\Omega_m,\Omega_\Lambda)\simeq(0.3,0.7)$ cosmology in terms
-of acceleration and Hubble diagram shape.
+\begin{equation}
+  \theta_{\star,\rm min}
+  \;\approx\;
+  \pi
+  \;\approx\;
+  3.14~\mathrm{rad},
+  \qquad
+  \Delta E_{\rm min}
+  \;\approx\;
+  -5.9\times 10^{-3},
+\end{equation}
+
+and the maximum near $\theta_\star \approx 0$ (or $2\pi$) with a small positive
+$\Delta E(\theta_\star)$.
+Importantly, the Act~II band
+
+\begin{equation}
+  \theta_\star \in [2.18, 5.54]~\mathrm{rad}
+\end{equation}
+
+fully contains the microcavity valley: in the entire band we have
+$\Delta E(\theta_\star) < 0$, i.e.\ the cavity lowers the vacuum energy
+relative to the uniform chain.
+
+We summarise this scan by a small core file
+
+\begin{center}
+  \texttt{data/processed/theta\_star\_microcavity\_core\_summary.json},
+\end{center}
+
+which stores
+\begin{itemize}
+  \item a fiducial angle $\theta_{\rm fid,\,nominal} = 3.63~\mathrm{rad}$,
+  \item the nearest grid point $\theta_{\rm fid,\,grid}$,
+  \item the corresponding $\Delta E_{\rm fid} = \Delta E(\theta_{\rm fid,\,grid})$,
+  \item the minimum value $\Delta E_{\rm min}$ and its location,
+  \item the band endpoints in $\theta_\star$.
+\end{itemize}
+This core summary is the only microcavity input needed for the effective
+vacuum scaling in later rungs.
 
 
-\subsection{R4: Dynamical tolerance of the $\theta_\star$ bridge}
+\subsection{R3: Effective vacuum scaling and FRW bridge}
+\label{subsec:frw-from-effective-vacuum}
+
+The next step is to connect the dimensionless microcavity energy shift
+$\Delta E(\theta_\star)$ to a dimensionless dark-energy fraction $\Omega_\Lambda(\theta_\star)$ in a flat FRW model.
+We adopt a deliberately minimal mapping,
+\begin{equation}
+  \Omega_\Lambda(\theta_\star)
+  \;\equiv\;
+  \mathrm{clip}\!\left(
+    k_{\rm scale}\,\Delta E(\theta_\star),\;0,\;0.999
+  \right),
+  \label{eq:omega-lambda-scaling}
+\end{equation}
+where $k_{\rm scale}$ is a constant set by a single fiducial condition,
+and the clip ensures that the resulting $\Omega_\Lambda$ stays between $0$
+and a value slightly below $1$.
+
+We choose the fiducial point to be the flavour-informed
+$\theta_{\star,\rm fid} \simeq 3.63~\mathrm{rad}$.
+From the microcavity core summary we obtain
+\begin{equation}
+  \Delta E_{\rm fid}
+  \;\equiv\;
+  \Delta E(\theta_{\star,\rm fid})
+  \;\approx\;
+  -5.33\times 10^{-3},
+\end{equation}
+and impose
+\begin{equation}
+  \Omega_\Lambda(\theta_{\star,\rm fid})
+  \;\equiv\;
+  \Omega_{\Lambda,\rm target}
+  \;=\;
+  0.7.
+\end{equation}
+This fixes the scaling
+\begin{equation}
+  k_{\rm scale}
+  \;=\;
+  \frac{\Omega_{\Lambda,\rm target}}{\Delta E_{\rm fid}}
+  \;\approx\;
+  -1.31\times 10^2,
+\end{equation}
+so that Eq.~\eqref{eq:omega-lambda-scaling} reproduces
+$\Omega_\Lambda(\theta_{\star,\rm fid}) \simeq 0.7$ by construction.
+We then define a matter fraction
+\begin{equation}
+  \Omega_m(\theta_\star)
+  \;=\;
+  1 - \Omega_\Lambda(\theta_\star),
+\end{equation}
+and clamp it to $[0, 1]$ wherever necessary.
+
+Given this effective vacuum mapping, the script
+\texttt{src/run\_frw\_from\_effective\_vacuum.py} integrates a flat FRW
+history with two components:
+\begin{equation}
+  H^2(a;\theta_\star)
+  \;=\;
+  H_0^2\Bigl[
+    \Omega_m(\theta_\star)\,a^{-3} + \Omega_\Lambda(\theta_\star)
+  \Bigr],
+\end{equation}
+starting from $a_{\rm init} = 10^{-3}$ in units with $H_0 = 1$.
+For comparison it also integrates a matter-only case with
+$\Omega_m = 1$, $\Omega_\Lambda = 0$.
+
+At the fiducial $\theta_{\star,\rm fid}$, the effective-vacuum cosmology
+has
+\begin{equation}
+  (\Omega_m,\Omega_\Lambda)
+  \;\approx\;
+  (0.3, 0.7),
+\end{equation}
+and the integrated scale factor reaches $a(t_{\rm final}) \approx 3.3\times 10^1$
+at a fixed dimensionless time $t_{\rm final}$,
+while the matter-only case reaches only $a(t_{\rm final}) \approx 3.9$.
+The age and deceleration parameter of the effective-vacuum model are
+
+\begin{equation}
+  t_0 H_0 \approx 0.96,
+  \qquad
+  q_0 \;=\; \frac{1}{2}\Omega_m - \Omega_\Lambda \;\approx\; -0.55,
+\end{equation}
+
+which is qualitatively consistent with an accelerating, $\Lambda$CDM-like
+universe in the usual $(\Omega_m,\Omega_\Lambda)\approx(0.3,0.7)$ regime.
+In a simple Hubble-diagram comparison, the model with
+$\Omega_\Lambda(\theta_{\star,\rm fid})\approx 0.7$ produces larger
+luminosity distances at fixed redshift than the matter-only case,
+again matching the qualitative features of supernova data.
+
+We emphasise that this is still a toy bridge:
+\begin{itemize}
+  \item The absolute scale of $\Delta E$ is arbitrary; we only fix it by
+  \emph{demanding} that $\Omega_\Lambda(\theta_{\star,\rm fid})$ matches
+  an observationally motivated value.
+  \item The dependence on $\theta_\star$ enters only through the microcavity
+  toy and the Act~II prior; no real-world field content is included.
+\end{itemize}
+Nevertheless, this rung establishes a working chain
+\begin{equation}
+  \theta_\star
+  \longrightarrow
+  \Delta E(\theta_\star)
+  \longrightarrow
+  \Omega_\Lambda(\theta_\star)
+  \longrightarrow
+  a(t),
+\end{equation}
+which we will stress-test in the next rungs.
+
+\subsection{R4: Effective vacuum $\theta_\star$ band scan}
+\label{subsec:theta-star-band-scan}
+
+Once the scaling is fixed at the fiducial point, we can ask how the
+effective vacuum behaves over the entire Act~II band.
+Concretely, we define
+
+\begin{equation}
+  \theta_{\rm band}
+  \;=\;
+  [2.18, 5.54]~\mathrm{rad}
+\end{equation}
+
+and sample it at $N_\theta = 41$ equally spaced points.
+For each sample we evaluate $\Delta E(\theta_\star)$ from the
+microcavity scan and map it to $\Omega_\Lambda(\theta_\star)$ using
+Eq.~\eqref{eq:omega-lambda-scaling} with the fixed $k_{\rm scale}$.
+This is implemented in \texttt{src/run\_effective\_vacuum\_band\_scan.py},
+which produces a compact table
+
+\begin{center}
+  \texttt{data/processed/effective\_vacuum\_band\_scan.npz}
+\end{center}
+
+containing $(\theta_\star,\Omega_\Lambda(\theta_\star))$ pairs and the
+core metadata $(\theta_{\rm fid},\Delta E_{\rm fid},k_{\rm scale})$.
+
+The band scan shows that within the admissible $\theta_\star$ range,
+the effective vacuum fraction varies between
+
+\begin{equation}
+  \Omega_\Lambda(\theta_\star)
+  \;\in\;
+  [0,\,0.775],
+\end{equation}
+
+with a finite interval of angles for which $\Omega_\Lambda$ lies close
+to the fiducial value $0.7$.
+In particular, there is a ``good'' window
+
+\begin{equation}
+  \theta_\star \in [2.516, 3.692]~\mathrm{rad}
+\end{equation}
+for which
+\begin{equation}
+  \bigl|\Omega_\Lambda(\theta_\star) - 0.7\bigr| \le 0.05
+  \quad\Rightarrow\quad
+  \Omega_\Lambda(\theta_\star) \in [0.65,\,0.75].
+\end{equation}
+Nine of the 41 grid points lie in this window; the remainder produce
+values of $\Omega_\Lambda(\theta_\star)$ that are either too small or
+too large relative to the fiducial.
+
+The local slope of $\Omega_\Lambda(\theta_\star)$ in this window remains
+modest.
+Near the left and right edges of the window we find
+\begin{equation}
+  \frac{{\rm d}\Omega_\Lambda}{{\rm d}\theta_\star}
+  \sim \mathcal{O}(0.2\text{--}0.4)\;{\rm rad}^{-1},
+\end{equation}
+while around the mid-window point
+$\theta_{\rm mid} \simeq 3.10~\mathrm{rad}$ the profile is extremely
+flat,
+\begin{equation}
+  \left.\frac{{\rm d}\Omega_\Lambda}{{\rm d}\theta_\star}\right|_{\rm mid}
+  \approx 2.3\times 10^{-2}\;{\rm rad}^{-1}.
+\end{equation}
+A naive linear estimate based on the mid-window slope would allow
+order-one-radian excursions in $\theta_\star$ before leaving the
+$\pm 0.05$ band.
+In practice, the true tolerance is limited by the edges of the window itself,
+\begin{equation}
+  \Delta\theta_\star^{\rm (band)}
+  \simeq \frac{3.692 - 2.516}{2}
+  \approx 0.59~{\rm rad},
+\end{equation}
+which still corresponds to order-unity fractional changes in
+$\theta_\star$.
+
+The overall profile of $\Omega_\Lambda(\theta_\star)$ across the band is
+summarised in Fig.~\ref{fig:effective_vacuum_band_scan}, produced by
+\texttt{src/plot\_effective\_vacuum\_band\_scan.py}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/effective_vacuum_band_scan}
+  \caption{%
+    Effective vacuum fraction $\Omega_\Lambda(\theta_\star)$ as a function
+    of $\theta_\star$ in the Act~II band
+    $\theta_\star \in [2.18, 5.54]~\mathrm{rad}$.
+    The scaling $\Omega_\Lambda(\theta_\star) = k_{\rm scale}\,\Delta E(\theta_\star)$
+    is fixed so that $\Omega_\Lambda(\theta_{\star,\rm fid}) = 0.7$ at
+    $\theta_{\star,\rm fid} = 3.63~\mathrm{rad}$.
+    The horizontal dashed line marks $\Omega_\Lambda = 0.7$ and the shaded
+    band indicates the observationally motivated window
+    $\Omega_\Lambda = 0.70 \pm 0.05$.
+    The vertical lines indicate the edges of the ``good'' window
+    $\theta_\star \in [2.516, 3.692]~\mathrm{rad}$ where
+    $|\Omega_\Lambda(\theta_\star) - 0.7|\leq 0.05$.
+  }
+  \label{fig:effective_vacuum_band_scan}
+\end{figure}
+
+
+\subsection{R5: Dynamical tolerance of the $\theta_\star$ bridge}
 \label{subsec:theta_star_dynamical_tolerance}
 
-With the effective vacuum map in hand, we can now ask how sensitive the
-late--time acceleration is to small deformations of the microcavity phase
-$\theta_\star$.  Concretely, we define
+With the effective vacuum map in hand (R2--R3), we can now ask how
+sensitive the late-time acceleration is to small deformations of the
+microcavity phase $\theta_\star$. Concretely, we define
 \begin{equation}
   \Omega_\Lambda(\theta_\star)
   \equiv
@@ -192,7 +435,7 @@ We then scan $\theta_\star$ over the same ``cosmologically allowed band''
 \begin{equation}
   \theta_{\rm band} \in [2.18,\,5.54]~{\rm rad}
 \end{equation}
-and evaluate $\Omega_\Lambda(\theta_\star)$ at 41 equally--spaced
+and evaluate $\Omega_\Lambda(\theta_\star)$ at 41 equally-spaced
 samples. The resulting profile is shown in
 Fig.~\ref{fig:effective_vacuum_band_scan}. A broad plateau is visible:
 for
@@ -215,7 +458,7 @@ right edges we find
   \frac{{\rm d}\Omega_\Lambda}{{\rm d}\theta_\star}
   \sim \mathcal{O}(0.2\text{--}0.4)\;{\rm rad}^{-1},
 \end{equation}
-while around the mid--window point
+while around the mid-window point
 $\theta_{\rm mid} \simeq 3.10~{\rm rad}$ the profile is extremely
 flat,
 \begin{equation}
@@ -231,43 +474,42 @@ edges of the window itself,
   \simeq \frac{3.692 - 2.516}{2}
   \approx 0.59~{\rm rad},
 \end{equation}
-which still corresponds to order--unity fractional changes in
+which still corresponds to order-unity fractional changes in
 $\theta_\star$.
 
-We summarise R4 as follows:
+We summarise R5 as follows:
 \begin{quote}
-  \textbf{R4 (Dynamical robustness).} Once the microcavity parameters
-  are fixed by the fiducial calibration (R1--R3), there exists a
+  \textbf{R5 (Dynamical robustness).} Once the microcavity parameters
+  are fixed by the fiducial calibration (R2--R3), there exists a
   broad plateau in $\theta_\star$ of width $\sim 1.2~{\rm rad}$ on
   which $\Omega_\Lambda(\theta_\star)$ remains within
   $\pm 0.05$ of $0.7$. Small to moderate drifts in the microscopic
   phase $\theta_\star$ therefore do not catastrophically destabilise
-  the late--time acceleration; the $\theta_\star$--bridge from
+  the late-time acceleration; the $\theta_\star$-bridge from
   microphysics to FRW is dynamically tolerant.
 \end{quote}
-In other words, once the non--cancelling microcavity is tuned onto the
+In other words, once the non-cancelling microcavity is tuned onto the
 observed $\Omega_\Lambda$ slice, the ensuing cosmic acceleration is
 robust under $\mathcal{O}(0.1\text{--}0.6)$--rad changes in the
 underlying phase.
 
 
 \subsection{R5: Effective vacuum patch ensemble}
-\label{subsec:effective-vacuum-patch-ensemble}
 
 The band scan in Fig.~\ref{fig:effective_vacuum_band_scan} shows that there is
-an extended interval in $\theta_\star$ within the flavour--side prior band
-$\theta_\star \in [2.18, 5.54]~\mathrm{rad}$ where the microcavity--backed
+an extended interval in $\theta_\star$ within the flavour-side prior band
+$\theta_\star \in [2.18, 5.54]~\mathrm{rad}$ where the microcavity-backed
 effective vacuum delivers $\Omega_\Lambda(\theta_\star)$ close to the observed
 value $\Omega_\Lambda \simeq 0.7$. To make this more concrete, we now treat this
 interval as a pool of candidate ``vacuum patches'' with slightly different
 $\theta_\star$, and ask what fraction of patches would look like our Universe,
-in the narrow sense of matching the late--time dark energy fraction.
+in the narrow sense of matching the late-time dark energy fraction.
 
-Operationally, we draw $N_\mathrm{patch} = 1000$ values of $\theta_\star$
-uniformly within the band $[2.18, 5.54]~\mathrm{rad}$, evaluate the
-corresponding $\Omega_\Lambda(\theta_\star)$ using the same effective vacuum
-scaling as in Sec.~\ref{subsec:frw-from-effective-vacuum}, and classify a patch
-as ``good'' whenever
+Operationally, we draw $N_\mathrm{patch}$ values of $\theta_\star$ uniformly
+within the band $[2.18, 5.54]~\mathrm{rad}$, evaluate the corresponding
+$\Omega_\Lambda(\theta_\star)$ using the same effective vacuum scaling as in
+Sec.~\ref{subsec:frw-from-effective-vacuum}, and classify a patch as
+``good'' whenever
 \begin{equation}
   \bigl|\Omega_\Lambda(\theta_\star) - 0.7\bigr| \le 0.05.
 \end{equation}
@@ -276,46 +518,184 @@ realisation with $N_\mathrm{patch} = 1000$. The horizontal dashed line marks
 the target value $\Omega_\Lambda = 0.7$, and the dotted lines indicate the
 $\pm 0.05$ tolerance band. Patches falling inside the band are highlighted.
 
-In this toy ensemble, roughly $f_\mathrm{good} \simeq 0.215$ of all patches
+In this toy ensemble, roughly $f_\mathrm{good} \simeq 0.21$ of all patches
 land in the observational window. Equivalently, if $\theta_\star$ were
 distributed roughly uniformly over the prior band defined by the flavour
 constraints, then a Universe with $\Omega_\Lambda$ in the observed range would
 not be an exponentially rare accident: it would be a ${\cal O}(10^{-1})$
-probability outcome inside this coarse prior.
-
-\paragraph{Patch ensemble statistics.}
-In the same ensemble we find
-$\Omega_\Lambda \in [0.000, 0.775]$, with mean
-$\langle \Omega_\Lambda \rangle \simeq 0.445$,
-standard deviation $\sigma_{\Omega_\Lambda} \simeq 0.307$,
-and median $\mathrm{med}(\Omega_\Lambda) \simeq 0.573$.
-Focusing on the observationally motivated target window
-$\Omega_\Lambda = 0.70 \pm 0.05$, we obtain
-$215/1000 \approx 21.5\%$ of patches in this window,
-$80/1000 \approx 8.0\%$ in the tighter
-$\Omega_\Lambda = 0.70 \pm 0.02$ band,
-and $39/1000 \approx 3.9\%$ in the most restrictive
-$\Omega_\Lambda = 0.70 \pm 0.01$ window.
-Thus, within this toy ensemble the ``$\Lambda$-like'' patches are not
-exponentially rare in $\theta_\star$-space; rather, they occupy a
-non-negligible fraction of the available band.
+probability outcome inside this coarse prior. At the present level, this is
+only an internal consistency check for the $\theta_\star$-driven picture; in
+later work, the toy ensemble can be replaced by a more realistic measure over
+$\theta_\star$ determined by dynamical evolution in the flavour sector.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.7\textwidth]{figures/effective_vacuum_patch_ensemble}
   \caption{%
     Effective vacuum patch ensemble (R5). Each point corresponds to a toy
-    vacuum patch with some $\theta_\star$ drawn uniformly from the flavour--side
+    vacuum patch with some $\theta_\star$ drawn uniformly from the flavour-side
     prior band. The vertical coordinate is the corresponding
-    $\Omega_\Lambda(\theta_\star)$ obtained from the microcavity--backed
+    $\Omega_\Lambda(\theta_\star)$ obtained from the microcavity-backed
     effective vacuum scaling. The dashed line marks
     $\Omega_\Lambda = 0.7$; dotted lines indicate the $\pm 0.05$ tolerance
     adopted here. Highlighted points fall inside the observational window.
     In the illustrated realisation with $N_\mathrm{patch} = 1000$, roughly
-    $21.5\%$ of patches lie in this window.
+    $21\%$ of patches lie in this window.
   }
   \label{fig:effective_vacuum_patch_ensemble}
 \end{figure}
+
+
+\subsection{R8: Localised two--field microstructure in a $\theta_\star$--selected vacuum}
+\label{subsec:two_field_bump_microstructure}
+
+The constructions in R2--R7 treat the effective vacuum primarily as a
+homogeneous component in a flat FRW background.  To check that the
+non--cancelling rule behaves sensibly also in the presence of localised
+structure, we consider a simple two--field microstructure toy: a
+one--dimensional chain hosting a localised ``bump'' in two coupled scalar
+fields $(\phi,\chi)$ and evolve it with and without the non--cancelling
+constraint.
+
+Operationally, the script
+\texttt{src/run\_two\_field\_bump\_1d.py} prepares a localised profile in
+$\phi$ and a small perturbation in $\chi$, then evolves the system for a
+finite time with fixed microscopic parameters (masses, coupling $g$, box
+size and timestep).  Two runs are performed in parallel:
+a free evolution without the Origin--Axiom constraint, and a constrained
+evolution in which a simple non--cancelling rule is applied to a global
+amplitude diagnostic.  The script records a set of diagnostic snapshots
+to \texttt{data/processed/two\_field\_bump\_1d.npz}, including
+\texttt{loc\_free} and \texttt{loc\_constrained}, which track the
+localised bump amplitude as a function of time for the free and
+constrained runs respectively.
+
+Figure~\ref{fig:two-field-bump-loc-amp} shows a representative evolution
+of the localised amplitude for both cases.
+In the free run the bump gradually disperses and its amplitude decays
+over the integration time.
+In the constrained run the non--cancelling rule keeps the amplitude in
+the same ballpark: the initial amplitudes coincide, the final amplitudes
+differ only at the few--per--cent level, and simple diagnostics such as
+the time spent above half the initial amplitude or the mean absolute
+amplitude,
+\begin{equation}
+  \langle |\mathrm{loc}_{\rm free}|\rangle
+  \simeq 0.60,
+  \qquad
+  \langle |\mathrm{loc}_{\rm constrained}|\rangle
+  \simeq 0.58,
+\end{equation}
+show that the constrained evolution remains finite and behaves
+quantitatively similarly to the free one.  The key point here is not to
+prolong the bump lifetime, but to verify that the non--cancelling rule
+does not introduce runaway behaviour or pathological amplification when
+applied on top of a localised microstructure.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/two_field_bump_1d_loc_amp}
+  \caption{
+    Localised two--field bump amplitude in the 1D microstructure toy
+    (R8).  We show the time evolution of a local diagnostic for the bump
+    amplitude in the free run (no constraint) and in the constrained run
+    with the Origin--Axiom non--cancelling rule active.
+    In both cases the bump gradually disperses and its amplitude decays,
+    but the constrained trajectory stays in the same finite range as the
+    free one, with no sign of runaway growth.
+    This serves as a first check that the non--cancelling rule can be
+    applied consistently on top of a localised microstructure in a
+    $\theta_\star$--selected effective vacuum.
+  }
+  \label{fig:two-field-bump-loc-amp}
+\end{figure}
+
+In the broader context of the Act~II/III bridge, this rung shows that
+the same non--cancelling machinery used to define an effective vacuum
+component can be applied to a simple localised excitation without destroying it or forcing it to trivialise.
+The two--field bump remains a toy model, but it demonstrates that local excitations can live consistently on top of a $\theta_\star$--selected vacuum in the Origin--Axiom framework.
+
+
+\subsection{Act V summary: from microcavity to an effective cosmological constant}
+\label{sec:act5-summary}
+
+In this act we closed the loop between a microscopic, discretised model
+of vacuum energy and an effective cosmological constant at FRW scales.
+Starting from the one-dimensional microcavity scan
+$\Delta E(\theta_\star)$ over a full $0$--$2\pi$ band, we identified a
+fiducial angle $\theta_{\star,\text{fid}} \simeq 3.63~\mathrm{rad}$ at
+which the vacuum energy difference $\Delta E_{\rm fid}$ is negative and
+of order $10^{-3}$ in the toy units of the lattice.
+By demanding that this point reproduces an observationally motivated value of
+the dark energy density, $\Omega_\Lambda(\theta_{\star,\text{fid}}) = 0.7$, we
+fixed a single proportionality constant $k_{\rm scale}$ that maps the
+dimensionless microcavity energy shifts into an effective
+$\Omega_\Lambda(\theta_\star)$.
+
+With this prescription in place, we constructed an effective vacuum
+model in which each choice of $\theta_\star$ inside a ``good'' band
+$[2.18, 5.54]~\mathrm{rad}$ is associated to a different cosmological
+constant.  Solving the Friedmann equations for a flat, matter-plus-vacuum
+universe shows that the fiducial point $(\Omega_m,\Omega_\Lambda) =
+(0.3, 0.7)$ reproduces the expected accelerated expansion relative to a
+purely matter-dominated history, and yields distance--redshift relations
+consistent with a standard $\Lambda$CDM-like background at the level of
+this toy model.
+
+The band scan reveals that, within the admissible $\theta_\star$ range,
+$\Omega_\Lambda(\theta_\star)$ varies between $0$ and $\simeq 0.78$,
+with a finite interval of angles for which $\Omega_\Lambda$ lies close
+to $0.7$.  By sampling $N_{\rm patch} = 1000$ random $\theta_\star$
+values uniformly inside the band, we built an effective ``patch
+ensemble'' and found that the resulting distribution of
+$\Omega_\Lambda$ has mean $\langle \Omega_\Lambda \rangle \simeq 0.45$,
+standard deviation $\sigma_{\Omega_\Lambda} \simeq 0.31$, and median
+$\tilde{\Omega}_\Lambda \simeq 0.57$.  Approximately $21.5\%$ of the
+patches fall into the observationally inspired window
+$\Omega_\Lambda = 0.70 \pm 0.05$, and the central $68\%$ interval of
+the ensemble extends up to $\Omega_\Lambda \simeq 0.76$.  In other
+words, once the microcavity band is accepted as the relevant dynamical
+domain, a patch with $\Omega_\Lambda \approx 0.7$ is statistically
+typical rather than exponentially fine-tuned.
+
+The construction here is deliberately minimalistic and remains a toy
+model in several respects: the microcavity is one-dimensional, the
+mapping from $\Delta E$ to $\Omega_\Lambda$ is linear and fixed by a
+single fiducial point, and we have not yet coupled the effective vacuum
+to realistic matter content beyond a dust-like component.  Nevertheless,
+Act~V shows that the $\theta_\star$ degree of freedom can serve as a
+dynamical label for vacuum energy in an ensemble of patches, and that
+moderately typical values of $\theta_\star$ can reproduce a
+$\Lambda$-like component of the right order of magnitude without
+invoking a $10^{-120}$-level tuning by hand.  This is the bridge we
+need between the underlying axiom and a macroscopic, FRW-level
+description of accelerated expansion in the toy universe.
+
+
+\paragraph{Patch ensemble statistics.}
+To make the microcavity-backed effective vacuum more concrete, we draw an
+ensemble of $N_{\rm patches} = 1000$ independent patches with
+$\theta_\star$ sampled uniformly from the allowed band
+$[2.18, 5.54]\,\mathrm{rad}$ and map each draw to an effective
+vacuum fraction $\Omega_\Lambda(\theta_\star)$ using the calibrated
+microcavity scaling.
+In this ensemble we find
+$\Omega_\Lambda \in [0.000, 0.775]$, with mean
+$\langle \Omega_\Lambda \rangle \simeq 0.445$,
+standard deviation $\sigma_{\Omega_\Lambda} \simeq 0.307$,
+and median $\mathrm{med}(\Omega_\Lambda) \simeq 0.573$.
+Focusing on the observationally motivated target window
+$\Omega_\Lambda = 0.70 \pm 0.05$, we obtain
+$215/1000 \approx 21.5\%$ of patches in the wide window,
+$80/1000 \approx 8.0\%$ in the tighter
+$\Omega_\Lambda = 0.70 \pm 0.02$ band,
+and $39/1000 \approx 3.9\%$ in the most restrictive
+$\Omega_\Lambda = 0.70 \pm 0.01$ window.
+Thus, within this toy ensemble the ``$\Lambda$-like'' patches are not
+exponentially rare in $\theta_\star$-space; rather, they occupy a
+non-negligible fraction of the available band, reinforcing the idea
+that a microcavity-induced effective vacuum can naturally populate
+$\Omega_\Lambda \sim 0.7$ without fine-tuning.
 
 
 \subsection{R6: Random-walk residence of $\theta_\star$ in the $\Omega_\Lambda$ band}
@@ -388,19 +768,40 @@ at the $\sim 10\%$ level.
 \end{figure}
 
 
-\subsection{R7: Induced $\theta_\star$ prior in $\Omega_\Lambda$}
+\paragraph*{R7: Prior over \texorpdfstring{$\theta_\star$}{theta*} vs.~effective vacuum}
+
+As a final prior check, we propagate the original one-dimensional twisted-vacuum prior
+over $\theta_\star$ (Sec.~\ref{sec:theta-star-prior-1d}) through the calibrated microcavity
+response $\Delta E(\theta_\star)$ and the scaling factor $k_{\rm scale}$ defined above.
+Concretely, for each prior sample $\theta_\star^{(i)}$ we evaluate
+$\Omega_\Lambda^{(i)} = \mathrm{clip}\bigl(k_{\rm scale}\,\Delta E(\theta_\star^{(i)}),\,0,\,0.999\bigr)$,
+which induces a corresponding prior over $\Omega_\Lambda$ backed by the same microcavity
+data that enters our effective-vacuum construction.
+
+Even with the small illustrative set of prior samples used here, the induced
+$\Omega_\Lambda$ values span the full range from $\Omega_\Lambda \simeq 0$ up to
+$\Omega_\Lambda \simeq 0.76$, with a mean around $\langle \Omega_\Lambda\rangle \simeq 0.40$
+and a broad dispersion $\sigma(\Omega_\Lambda)\simeq 0.31$.
+In other words, the prior over $\theta_\star$ is intentionally wide and does \emph{not}
+build in any preference for the observationally favored value $\Omega_\Lambda \simeq 0.7$.
+Any concentration of probability weight near $\Omega_\Lambda \simeq 0.7$ in the band,
+patch, or random-walk analyses of Sec.~\ref{sec:theta-star-band-and-residence}
+is therefore driven by the microcavity-backed effective-vacuum response,
+not by a hand-tuned prior over $\theta_\star$ itself.
+
+
+\subsection{Induced $\theta_\star$ prior in $\Omega_\Lambda$}
 \label{sec:theta-star-prior-vs-effective}
 
-In earlier steps we constructed a one–dimensional prior over $\theta_\star$,
-based on a small set of representative lattice vacua in the defected 1D chain
-and stored in
-\texttt{data/processed/theta\_star\_prior\_1d\_vacuum\_samples.npz}.
-Here we ask what that prior implies for the effective dark–energy density,
+In earlier steps we constructed a one-dimensional prior over $\theta_\star$,
+based on a small set of representative lattice vacua in the defected 1D chain.
+Here we ask what that prior implies for the effective dark-energy density,
 once the microcavity calibration is taken seriously.
 
 We start from the discrete prior samples
-$\{\theta_{\star,i}\}$ and map each point through the microcavity–backed
-effective vacuum model
+$\{\theta_{\star,i}\}$ stored in
+\texttt{data/processed/theta\_star\_prior\_1d\_vacuum\_samples.npz},
+and map each point through the microcavity-backed effective vacuum model
 \begin{equation}
   \Omega_\Lambda(\theta_\star)
   \;=\;
@@ -412,93 +813,26 @@ where $k_{\rm scale}$ is fixed by the requirement
 $\Omega_\Lambda(\theta_\star^{\rm fid}) = 0.7$ at
 $\theta_\star^{\rm fid} = 3.63~\mathrm{rad}$.
 The resulting histogram of $\Omega_\Lambda$ values defines an
-``induced'' prior for the cosmological constant, shown in
-Fig.~\ref{fig:theta_star_prior_vs_effective_vacuum}.
+``induced'' prior for the cosmological constant.
 
 In this toy setup the induced $\Omega_\Lambda$ prior is broad:
 it places substantial weight at values below the observed
 $\Omega_\Lambda \simeq 0.7$, but comfortably reaches and slightly
 exceeds the target range.  In other words, a simple prior over
-$\theta_\star$ in the microcavity band does not narrowly fine–tune
-$\Omega_\Lambda$, yet still assigns non–negligible probability
-to a $\Lambda$CDM–like universe.
+$\theta_\star$ in the microcavity band does not narrowly fine-tune
+$\Omega_\Lambda$, yet still assigns non-negligible probability
+to a $\Lambda$CDM-like universe.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.65\textwidth]{figures/theta_star_prior_vs_effective_vacuum}
   \caption{
-    Induced prior for the dark–energy density parameter
+    Induced prior for the dark-energy density parameter
     $\Omega_\Lambda$ obtained by mapping the discrete
-    $\theta_\star$ prior through the microcavity–calibrated
+    $\theta_\star$ prior through the microcavity-calibrated
     effective vacuum model.
     The vertical line marks the target value
     $\Omega_\Lambda \simeq 0.7$.
   }
-  \label{fig:theta_star_prior_vs_effective_vacuum}
+  \label{fig:theta-star-prior-vs-effective}
 \end{figure}
-
-
-\subsection{Act V summary: from microcavity to an effective cosmological constant}
-\label{sec:act5-summary}
-
-In this act we closed the loop between a microscopic, discretised model
-of vacuum energy and an effective cosmological constant at FRW scales.
-Starting from the one-dimensional microcavity scan
-$\Delta E(\theta_\star)$ over a full $0$--$2\pi$ band, we identified a
-fiducial angle $\theta_{\star,\text{fid}} \simeq 3.63~\mathrm{rad}$ at
-which the vacuum energy difference $\Delta E_{\rm fid}$ is negative and
-of order $10^{-3}$ in the toy units of the lattice.  By demanding that
-this point reproduces an observationally motivated value of the dark
-energy density, $\Omega_\Lambda(\theta_{\star,\text{fid}}) = 0.7$, we
-fixed a single proportionality constant $k_{\rm scale}$ that maps the
-dimensionless microcavity energy shifts into an effective
-$\Omega_\Lambda(\theta_\star)$.
-
-With this prescription in place, we constructed an effective vacuum
-model in which each choice of $\theta_\star$ inside a ``good'' band
-$[2.18, 5.54]~\mathrm{rad}$ is associated to a different cosmological
-constant.  Solving the Friedmann equations for a flat, matter-plus-vacuum
-universe shows that the fiducial point $(\Omega_m,\Omega_\Lambda) =
-(0.3, 0.7)$ reproduces the expected accelerated expansion relative to a
-purely matter-dominated history, and yields distance--redshift relations
-consistent with a standard $\Lambda$CDM-like background at the level of
-this toy model.
-
-The band scan reveals that, within the admissible $\theta_\star$ range,
-$\Omega_\Lambda(\theta_\star)$ varies between $0$ and $\simeq 0.78$,
-with a finite interval of angles for which $\Omega_\Lambda$ lies close
-to $0.7$.  By sampling $N_{\rm patch} = 1000$ random $\theta_\star$
-values uniformly inside the band, we built an effective ``patch
-ensemble'' and found that the resulting distribution of
-$\Omega_\Lambda$ has mean $\langle \Omega_\Lambda \rangle \simeq 0.45$,
-standard deviation $\sigma_{\Omega_\Lambda} \simeq 0.31$, and median
-$\tilde{\Omega}_\Lambda \simeq 0.57$.  Approximately $21.5\%$ of the
-patches fall into the observationally inspired window
-$\Omega_\Lambda = 0.70 \pm 0.05$, and the central $68\%$ interval of
-the ensemble extends up to $\Omega_\Lambda \simeq 0.76$.  In other
-words, once the microcavity band is accepted as the relevant dynamical
-domain, a patch with $\Omega_\Lambda \approx 0.7$ is statistically
-typical rather than exponentially fine-tuned.
-
-We then promoted $\theta_\star$ to a toy dynamical variable undergoing a
-random walk within the same band.  Using the microcavity-backed
-$\Omega_\Lambda(\theta_\star)$, we showed that such a random walk spends
-$\mathcal{O}(10\%)$ of its trajectory-time in the broad observational
-window $\Omega_\Lambda = 0.70 \pm 0.05$, and a few percent in tighter
-$\pm 0.02$ and $\pm 0.01$ bands.  Finally, by propagating the original
-one-dimensional $\theta_\star$ prior through the same effective vacuum
-model, we obtained a broad induced prior over $\Omega_\Lambda$ that
-covers the observed value without building in any preference for it.
-
-The construction here is deliberately minimalistic and remains a toy
-model in several respects: the microcavity is one-dimensional, the
-mapping from $\Delta E$ to $\Omega_\Lambda$ is linear and fixed by a
-single fiducial point, and we have not yet coupled the effective vacuum
-to realistic matter content beyond a dust-like component.  Nevertheless,
-Act~V shows that the $\theta_\star$ degree of freedom can serve as a
-dynamical label for vacuum energy in an ensemble of patches, and that
-moderately typical values of $\theta_\star$ can reproduce a
-$\Lambda$-like component of the right order of magnitude without
-invoking a $10^{-120}$-level tuning by hand.  This is the bridge we
-need between the underlying axiom and a macroscopic, FRW-level
-description of accelerated expansion in the toy universe.
