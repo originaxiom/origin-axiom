@@ -1652,3 +1652,72 @@ hooks.
 
 
 
+
+R21 – effective vacuum energy scale pivot (2025-12-17)
+----------------------------------------------------------------
+
+Status
+- Implemented and ran scripts/effective_vacuum_mass_scale_pivot.py.
+- This rung is bookkeeping: it locates the calibrated effective vacuum slice in physical units and compares it to Planck and neutrino scales. No new constraint on θ★ is imposed.
+
+Inputs and configuration
+- Cosmology assumed:
+  - H0 = 70 km s^-1 Mpc^-1
+  - Ω_Λ,fid = 0.700
+- Microcavity calibration:
+  - Uses ΔE_fid, k_scale, and θ★_fid from data/processed/theta_star_microcavity_core_summary.json.
+  - Same calibration as in the effective-vacuum FRW rungs (R3–R4, R9–R16).
+
+Key numerical results
+- Critical density and Λ slice:
+  - ρ_crit ≈ 9.20×10^-27 kg m^-3
+  - ρ_crit (energy) ≈ 8.27×10^-10 J m^-3
+  - ρ_Λ = Ω_Λ,fid × ρ_crit ≈ 5.79×10^-10 J m^-3
+
+- Planck comparison:
+  - ρ_Pl ≈ 4.63×10^113 J m^-3
+  - ρ_Λ / ρ_Pl ≈ 1.25×10^-123
+  - Confirms the familiar ~10^-123 hierarchy: this ratio is set entirely by (H0, G, c, ħ), not by the microcavity details.
+
+- Effective vacuum energy scale (natural units)
+  - Define E_Λ by ρ_Λ = E_Λ^4 (ħ = c = 1).
+  - E_Λ ≈ 2.30×10^-3 eV = 2.30 meV
+
+- Comparison to a reference neutrino mass scale:
+  - m_ν,ref = 0.050 eV
+  - E_Λ / m_ν,ref ≈ 0.046
+  - The effective vacuum scale sits in the “neutrino neighbourhood”: a few percent of a typical neutrino mass scale.
+
+Interpretation / takeaway
+- R21 does *not* solve the 10^-123 problem and does not add new θ★ constraints.
+- It makes the bookkeeping explicit:
+  - Given the observed (H0, Ω_Λ), the corresponding vacuum energy density is ρ_Λ ~ 10^-123 ρ_Pl.
+  - In particle-physics language this corresponds to an effective energy scale of a few meV.
+- This places the calibrated θ★–backed effective vacuum in a concrete region of the microscopic energy hierarchy (well below electroweak/QCD scales, but not wildly separated from neutrino masses), ready to be compared against any future microphysical model that might link θ★, flavour, and vacuum energy more directly.
+
+
+
+- 2025-12-17 — R22: theta_star FRW background vs ΛCDM backbone
+
+  Added `scripts/compare_theta_star_to_lcdm_background.py` to compare the
+  effective-vacuum FRW band from Act V against a fixed ΛCDM reference with
+  (Ω_m, Ω_Λ) = (0.3, 0.7) and the same H0. The script ingests
+  `data/processed/effective_vacuum_theta_frw_scan.npz`, constructs an internal
+  ΛCDM backbone (age and d_L(z)/(c/H0) at z = 0.3, 0.5, 1.0), and computes
+  fractional residuals in age and distances for each theta_star sample.
+
+  We reuse the R13 “observable corridor” cuts
+  (0.60 ≤ Ω_Λ ≤ 0.80, 12–15 Gyr age, q0 < 0) and report residual statistics
+  both over the full Act II band and inside this corridor. Across the full
+  band, age residuals reach ~30% and distance residuals up to ~25%; inside
+  the corridor they shrink to ≲8% in age and ≲5% in distances, with medians
+  at the few-percent level. A simple background mismatch score χ^2_bg
+  (using 5% toy errors on d_L) is used to identify the best-matching
+  theta_star slice, which lies near θ_* ≈ 3.61 rad with
+  (Ω_m, Ω_Λ) ≈ (0.29, 0.71), t0 ≈ 13.6 Gyr, and distance residuals
+  ≲0.5% at z ≤ 1. The residuals and masks are saved to
+  `data/processed/theta_star_lcdm_background_residuals.npz` for later use in
+  Act VI plots and discussion.
+
+
+
