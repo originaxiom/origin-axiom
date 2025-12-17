@@ -1377,3 +1377,185 @@ PYTHONPATH=src python3 scripts/summarize_two_field_bump_1d.py
     patch / random-walk results, reinforcing the picture of a
     **θ★ corridor** rather than a single fine-tuned θ★ point.
 
+
+
+R15 — theta★ linear growth scan over effective-vacuum band (2025-12-17)
+
+Scripts
+- scripts/scan_theta_star_linear_growth.py
+- Input: data/processed/effective_vacuum_theta_frw_scan.npz
+- Output: data/processed/effective_vacuum_theta_growth_scan.npz
+
+What we computed
+- For each theta★ sample in the effective-vacuum FRW scan, we computed the
+  (unnormalised) linear growth factor D(a=1) using the standard flat FRW
+  Omega_m–Omega_Lambda integral:
+    D(a) ∝ H(a) ∫ da' / (a'^3 H(a')^3),  with a ∈ [a_min, 1], a_min = 1e-3.
+- We evaluated D(a=1) for every (Omega_m(theta★), Omega_Lambda(theta★)) pair
+  in the band 2.18 ≤ theta★ ≤ 5.54 rad.
+- We also computed a reference Einstein–de Sitter growth factor D_EdS(a=1)
+  for (Omega_m, Omega_Lambda) = (1, 0) with the same numerical scheme.
+- Defined a dimensionless suppression factor
+    D_rel(theta★) = D(a=1; Omega_m(theta★), Omega_Lambda(theta★)) / D_EdS(a=1).
+- Where available, we intersected these results with the observable corridor
+  from data/processed/theta_star_observable_corridor.json (R13).
+
+Key numerical results
+- FRW scan recap (from effective_vacuum_theta_frw_scan.npz):
+  - theta★ band: 2.18 → 5.54 rad
+  - Omega_Lambda(theta★) in band: 0.000 → 0.775
+  - t0(theta★) in band: 9.31 → 14.57 Gyr
+  - q0(theta★) in band: -0.662 → 0.500
+  - H0 = 70 km/s/Mpc
+  - omega_target = 0.700
+  - theta_fid = 3.63 rad
+
+- EdS reference:
+  - D_EdS(a=1) (Omega_m=1, Omega_Lambda=0) = 1.0000 (by construction).
+
+- Global growth over the full theta★ band:
+  - D_rel(a=1) min / max = 0.728 / 1.000.
+  - Interpretation: relative to an EdS universe, the effective-vacuum models
+    suppress linear growth by up to ~27% in the most Lambda-dominated cases,
+    and smoothly approach EdS-like growth near Omega_Lambda → 0.
+
+- Observable corridor (from R13):
+  - theta_corridor = 2.432 → 3.860 rad.
+  - N_corridor samples = 18 / 41.
+  - Omega_m range in corridor: 0.225 → 0.391.
+  - Omega_Lambda range in corridor: 0.609 → 0.775.
+  - D_rel(a=1) range in corridor: 0.728 → 0.827.
+  - Mean D_rel(a=1) across corridor: 0.767.
+
+  So in the “observationally acceptable” region (age 12–15 Gyr,
+  accelerating q0 < 0, and Omega_Lambda ~ 0.6–0.8), the linear growth factor
+  is consistently ~75% of the EdS value, with only modest variation across
+  the corridor.
+
+- Fiducial theta★ sample (closest to theta_fid = 3.63 rad):
+  - theta★_fid,eff = 3.608 rad.
+  - Omega_m(theta★_fid,eff) = 0.292.
+  - Omega_Lambda(theta★_fid,eff) = 0.708.
+  - t0(theta★_fid,eff) = 13.57 Gyr.
+  - q0(theta★_fid,eff) = -0.561.
+  - D_rel(a=1; theta★_fid,eff) = 0.774.
+
+  This fiducial point lives well inside the observable corridor and has a
+  growth suppression very close to the corridor mean (~0.77).
+
+Interpretation / status
+- R15 adds a first structure-formation observable to the theta★ → effective
+  vacuum → FRW chain: the linear growth factor D(a=1).
+- Across the full theta★ band, growth varies smoothly between “EdS-like”
+  (D_rel ≈ 1) and “Lambda-dominated” (D_rel ≈ 0.73).
+- Inside the R13 observable corridor (2.432–3.860 rad), growth is both
+  suppressed (D_rel ≈ 0.73–0.83) and stable: all acceptable theta★ values
+  lead to a moderate ~20–25% reduction relative to EdS.
+- The fiducial flavor-informed theta★ (≈3.63 rad) sits comfortably in this
+  corridor, with a growth factor typical of the corridor ensemble.
+
+- This does not yet constitute a precise prediction for sigma_8 or the
+  matter power spectrum, but it shows that the same microcavity-backed
+  theta★ band that yields realistic (Omega_m, Omega_Lambda, t0, q0) also
+  supports a sensible, smoothly varying linear-growth sector without
+  fine-tuning or pathological behaviour.
+
+Next steps (planned)
+- R16: build a plotting script for D_rel(theta★) analogous to the R14
+  observable corridor figure, shading the corridor and marking the fiducial
+  theta★ point.
+- Optional: introduce a crude sigma_8-like proxy by combining D_rel(a=1)
+  with a simple initial-power normalisation, to compare “theta★ corridor”
+  vs “EdS baseline” in a more observable-like way.
+
+
+
+
+
+## 2025-12-17 — R16: θ★-dependent linear growth plot
+
+**Script**  
+- `scripts/scan_theta_star_linear_growth.py` (R15 — already run, produces the growth NPZ)  
+- `scripts/plot_theta_star_linear_growth.py` (new in R16)
+
+**Data inputs**  
+- `data/processed/effective_vacuum_theta_frw_scan.npz`  
+  - `theta_scan` over band [2.18, 5.54] rad  
+  - `omega_lambda_scan`, `omega_m_scan`, `t0_gyr_scan`, `q0_scan`  
+- `data/processed/effective_vacuum_theta_growth_scan.npz` (from R15)  
+  - `theta_scan`, `D_rel_scan` with  
+    `D_rel(a=1) = D(a=1) / D_EdS(a=1)` at each θ★ sample
+
+**What the script does** (`plot_theta_star_linear_growth.py`)
+- Loads the FRW scan and linear-growth scan on the same θ★ grid.
+- Reconstructs the **observable corridor** directly from the FRW arrays using the R13 criteria:
+  - `0.60 <= Omega_Lambda <= 0.80`
+  - `12.0 <= t0 <= 15.0` Gyr
+  - `q0 < 0` (accelerating expansion)
+- Identifies:
+  - Corridor θ★ range ≈ [2.432, 3.860] rad
+  - Ω_Λ range in corridor ≈ [0.609, 0.775]
+  - t₀ range in corridor ≈ [12.49, 14.57] Gyr
+  - q₀ range in corridor ≈ [−0.662, −0.413]
+- Uses the same criteria to define a boolean mask over the `theta_scan` grid and applies it to the growth array `D_rel_scan`.
+
+**Figure produced**
+- `figures/theta_star_linear_growth_scan.png`
+- `figures/theta_star_linear_growth_scan.pdf`
+
+Layout:
+1. **Top panel:** Ω_Λ(θ★) over the full band, with:
+   - band edges [2.18, 5.54] rad,
+   - vertical dashed line at the fiducial θ★ ≈ 3.63 rad,
+   - shaded vertical strip indicating the observable corridor.
+2. **Bottom panel:** Relative linear growth today, D_rel(a=1; θ★), on the same θ★ axis, with the same corridor shading and fiducial marker.
+
+**Key behaviour (reusing R15 numbers for context)**
+- Over the full θ★ band, the relative growth at a = 1 spans:
+  - `D_rel(a=1)` ∈ [0.728, 1.000], i.e. up to ~27% suppression vs Einstein–de Sitter.
+- Inside the observable corridor:
+  - `D_rel(a=1)` ∈ [0.728, 0.827]
+  - mean `D_rel(a=1)` ≈ 0.767
+- Near the fiducial θ★ sample (θ★ ≈ 3.61 rad, Ω_m ≈ 0.29, Ω_Λ ≈ 0.71):
+  - `t0 ≈ 13.57` Gyr, `q0 ≈ −0.56`, `D_rel(a=1) ≈ 0.774`
+
+**Interpretation**
+- The same θ★ corridor that gives a reasonable age and acceleration (Act II/III bridge) also yields a **smooth, moderately suppressed growth history**:
+  - growth is consistently ~75% of EdS across the corridor,
+  - no pathological spikes or dips appear as θ★ is varied inside the allowed band.
+- This extends the θ★ → microcavity → Ω_Λ → FRW pipeline to include **first-pass structure formation diagnostics**, showing that our non-cancelling effective vacuum can support an accelerated, Λ-like universe with linear growth suppression in the expected range.
+
+
+
+
+- 2025-12-17 (R17, Act V – observable corridor text):
+  - Added Act V subsection summarising the θ⋆-dependent FRW observable corridor
+    (age, ΩΛ, q0) and the associated linear growth suppression D_rel(a=1).
+  - Corridor defined by loose, observation-inspired cuts:
+      0.60 ≤ ΩΛ ≤ 0.80, 12 Gyr ≤ t0 ≤ 15 Gyr, q0 < 0,
+    selecting θ⋆ ≃ 2.43–3.86 rad out of the full Act II band.
+  - Documented that, once the microcavity scaling S is fixed at a single fiducial
+    point, the resulting θ⋆-dependent effective vacuum yields FRW backgrounds and
+    linear growth broadly compatible with an accelerating, Λ-like universe.
+  - Emphasised that this is a qualitative consistency check, not yet a parameter-free
+    prediction of ΩΛ; a more microscopic cancellation system and confrontation with
+    real data are deferred to future work.
+
+
+
+## 2025-12-17 — R17/R18: Act V observable corridor + closing summary
+
+- Locked in Act V "observable corridor" subsection in `docs/paper/act5_dynamical_theta_star.tex`:
+  - Defined a θ⋆ corridor by applying loose, observation-inspired cuts on the FRW band scan:
+      0.60 ≤ Ω_Λ ≤ 0.80, 12 Gyr ≤ t₀ ≤ 15 Gyr, q₀ < 0.
+  - Corridor spans θ⋆ ≃ 2.43–3.86 rad with Ω_Λ ≃ 0.61–0.78, t₀ ≃ 12.5–14.6 Gyr, q₀ ≃ −0.66 to −0.41.
+  - Included linear growth suppression D_rel(a=1) ≃ 0.73–0.83 across the same corridor and a representative point near the Act II median with (Ω_m, Ω_Λ) ≃ (0.29, 0.71), t₀ ≃ 13.6 Gyr, D_rel(a=1) ≃ 0.77.
+- Rewrote the Act V closing summary subsection to:
+  - Describe the full θ⋆ → microcavity ΔE(θ⋆) → effective vacuum Ω_Λ(θ⋆) → FRW + growth pipeline (R1–R16).
+  - Emphasise that once the single scaling S is fixed at the fiducial slice, the non-cancelling principle produces a structured θ⋆ band whose FRW age, acceleration, distances and growth are broadly Λ-like.
+  - Make explicit that this is a qualitative consistency check, not yet a parameter-free prediction of Ω_Λ or a precision fit to cosmological data; genuine predictions are deferred to future, more microscopic models of the cancellation system and a full data confrontation.
+
+
+
+
+
