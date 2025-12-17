@@ -836,3 +836,31 @@ to a $\Lambda$CDM-like universe.
   }
   \label{fig:theta-star-prior-vs-effective}
 \end{figure}
+
+
+\subsection{R13: Observable $\theta_\star$ corridor from FRW constraints}
+\label{sec:theta-star-observable-corridor}
+
+The previous rungs established a microcavity--backed effective vacuum model $\Omega_\Lambda(\theta_\star)$ over the Act~II prior band $\theta_\star \in [2.18,\,5.54]~\mathrm{rad}$, together with a simple FRW mapping that turns each choice of $\theta_\star$ into a flat matter+vacuum cosmology. In R13 we ask a minimal question: within this band, which values of $\theta_\star$ lead to cosmologies that look broadly compatible with late--time observations in terms of vacuum fraction, age, and acceleration?
+
+Concretely, we take the FRW scan stored in \texttt{data/processed/effective\_vacuum\_theta\_frw\_scan.npz}, which tabulates, for each of 41 $\theta_\star$ samples across the band, the corresponding $(\Omega_\Lambda,\Omega_m)$, cosmic age $t_0$ in gigayears, deceleration parameter $q_0$, and a few representative luminosity distances $d_L(z)/(c/H_0)$ at redshifts $z=\{0.3,0.5,1.0\}$. We then define a simple ``observable corridor'' by imposing three cuts:
+\begin{equation}
+  0.60 \le \Omega_\Lambda \le 0.80,\qquad
+  12.0~\mathrm{Gyr} \le t_0 \le 15.0~\mathrm{Gyr},\qquad
+  q_0 < 0,
+\end{equation}
+i.e.\ we require a vacuum fraction in a broad $\Lambda$CDM--like range, a cosmic age in the right ballpark for $H_0 \simeq 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}$, and a currently accelerating universe.
+
+Applying these cuts to the scan selects 18 out of 41 samples, corresponding to roughly $44\%$ of the original $\theta_\star$ band. The accepted points span
+\begin{equation}
+  \theta_\star \in [2.432,\,3.860]~\mathrm{rad},\qquad
+  \Omega_\Lambda \in [0.609,\,0.775],\qquad
+  t_0 \in [12.49,\,14.57]~\mathrm{Gyr},\qquad
+  q_0 \in [-0.662,\,-0.413].
+\end{equation}
+In other words, the microcavity--backed effective vacuum admits a continuous $\theta_\star$ sub--band within which the induced FRW cosmology has (i) an accelerating expansion, (ii) a vacuum fraction of the right order of magnitude, and (iii) an age compatible with a $H_0 \sim 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}$ universe.
+
+The flavour--informed fiducial phase $\theta_{\star,\mathrm{fid}} \simeq 3.63~\mathrm{rad}$ lies well inside this corridor. Combined with the simpler $\Omega_\Lambda$--only band from the effective--vacuum scan, this shows that the Act~II $\theta_\star$ prior is not only compatible with the microcavity energetics, but also with very basic FRW observables. In the present toy framework, a $\theta_\star$ value that fits quark--lepton mixing angles automatically lives in a region of the microcavity band where the induced vacuum fraction and background expansion history resemble a standard $\Lambda$CDM--like universe.
+
+
+

@@ -1271,4 +1271,43 @@ PYTHONPATH=src python3 scripts/summarize_two_field_bump_1d.py
 - Interpretation: the theta_star-backed effective vacuum cosmology has a negative deceleration parameter and an age in the 13–14 Gyr range, with larger luminosity distances than the matter-only model at fixed redshift. This matches the qualitative behaviour of a standard Omega_m ≈ 0.3, Omega_Lambda ≈ 0.7 LambdaCDM universe, without yet claiming a precision fit to real cosmological data.
 
 
+## 2025-12-17 — R11: Act II/III θ★ bridge status snapshot
+
+- Created `docs/ACT23_BRIDGE_STATUS.md` to freeze the current status of the
+  θ★→microcavity→effective-vacuum→FRW bridge.
+- Documented:
+  - flavor-based θ★ prior (fiducial and band),
+  - 1D microcavity ΔE(θ★) scan and core summary (delta_E_fid, k_scale, omega_target),
+  - effective vacuum band scan, patch ensemble, and random-walk residence statistics,
+  - FRW histories and basic observables (age, q0, luminosity distances) for
+    matter-only vs θ★-backed effective vacuum.
+- Explicitly listed limitations of the current toy pipeline
+  (1D cavity, linear scaling, limited FRW components, no real-data fit, exploratory
+  physical scaling only) and outlined a TODO list for any future “real data” contact.
+- This rung serves as a checkpoint: the microcavity/FRW branch is now documented as a
+  scaffold-level toy model, ready to be refined or replaced in later Acts without
+  losing track of what it currently achieves.
+
+
+## 2025-12-17 — R13: $\theta_\star$ observable corridor (Act II/III bridge)
+
+- Scripts:
+  - `scripts/scan_theta_star_frw_observables.py`
+  - `scripts/select_theta_star_observable_corridor.py`
+- Data:
+  - `data/processed/effective_vacuum_theta_frw_scan.npz` (FRW scan over the Act II $\theta_\star$ band)
+  - `data/processed/theta_star_observable_corridor.json` (selection summary and accepted samples)
+- Method:
+  - Used the microcavity-backed effective vacuum scaling (same `k_scale` and $\Omega_\Lambda(\theta_\star)$ as in R4–R6) to compute, for 41 $\theta_\star$ values in the band $[2.18,5.54]$ rad, the corresponding FRW observables: $(\Omega_\Lambda,\Omega_m)$, age $t_0$ (Gyr), deceleration parameter $q_0$, and example luminosity distances $d_L(z)/(c/H_0)$ at $z=\{0.3,0.5,1.0\}$.
+  - Defined a simple “observable corridor” by requiring $0.60 \le \Omega_\Lambda \le 0.80$, $12.0~\mathrm{Gyr} \le t_0 \le 15.0~\mathrm{Gyr}$, and $q_0 < 0$ (late-time acceleration) for each sample.
+- Results:
+  - 18 out of 41 samples (≈43.9%) in the flavour-informed $\theta_\star$ band satisfy all three cuts.
+  - Selected corridor in $\theta_\star$ space: $\theta_\star \in [2.432,3.860]$ rad, with $\Omega_\Lambda \in [0.609,0.775]$, $t_0 \in [12.49,14.57]$ Gyr, and $q_0 \in [-0.662,-0.413]$.
+  - The fiducial phase from the Act II flavour analysis, $\theta_{\star,\mathrm{fid}} \simeq 3.63$ rad, lies comfortably inside this corridor.
+- Interpretation:
+  - Within the microcavity-backed effective vacuum model, a substantial fraction of the flavour-informed $\theta_\star$ band yields FRW cosmologies that (i) accelerate, (ii) have a vacuum fraction of the right order of magnitude, and (iii) an age compatible with a $H_0 \sim 70~\mathrm{km\,s^{-1}\,\mathrm{Mpc}^{-1}}$ universe.
+  - This strengthens the Act II/III bridge: the same $\theta_\star$ band that fits flavour data is also compatible with very basic cosmological sanity checks, without tuning to a single point.
+
+
+
 
