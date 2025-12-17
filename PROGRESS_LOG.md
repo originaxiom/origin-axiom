@@ -1625,6 +1625,30 @@ Planck–scale hierarchy explicit in standard cosmological units.
 
 
 
+### [2025-12-17] R20 – Roadmap for Acts VI–VIII (planning rung)
+
+**Scope.** Created an explicit roadmap for the remaining acts of the Phase II
+programme (Acts VI–VIII), focusing on how to climb from the existing
+θ★–to–FRW bridge (Act V) towards flavour, toy matter, and eventual observational
+hooks.
+
+**Files.**
+- Added `docs/ROADMAP_ACT_VI_VIII.md` with:
+  - recap of the current status after Act V,
+  - high-level goals for Acts VI, VII, and VIII,
+  - planned rung labels R21–R32 with intended scripts, artefacts and LaTeX
+    files.
+- Updated this `PROGRESS_LOG.md` entry to register R20 as a planning rung.
+
+**Status / intent.**
+- R20 is a **meta-rung**: no new physics or numerics, but a locked structure
+  for the remaining ladder.
+- Acts VI–VIII will now proceed rung-by-rung:
+  - Act VI: θ★ corridor vs flavour and σ₈-like growth.
+  - Act VII: toy matter sector on θ★-selected vacuum.
+  - Act VIII: atoms/observables outlook and comparison hooks.
+- The roadmap file will be treated as the single source of truth for future
+  rung planning on the “universe → atoms” path.
 
 
 
