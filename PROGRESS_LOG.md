@@ -1255,3 +1255,20 @@ PYTHONPATH=src python3 scripts/summarize_two_field_bump_1d.py
 - Purpose: provide a single, reproducible numerical snapshot of the Act II/III θ★ bridge, so later analyses can sanity-check against one JSON instead of chasing individual NPZ files.
 
 
+## 2025-12-17 — R10: FRW observables from theta_star-backed effective vacuum
+
+- Added `scripts/summarize_effective_vacuum_observables.py` to compute standard FRW observables for:
+  - a matter-only cosmology (Omega_m = 1.0, Omega_Lambda = 0.0), and
+  - the effective-vacuum cosmology backed by the theta_star + microcavity bridge (Omega_m = 0.3, Omega_Lambda = 0.7).
+- For each cosmology the script prints:
+  - dimensionless age factor t0 * H0 from a_min ≈ 1e-4 to a = 1,
+  - physical age t0 in Gyr for H0 = 70 km/s/Mpc (t_H ≈ 13.97 Gyr),
+  - deceleration parameter q0 = 0.5 * Omega_m − Omega_Lambda,
+  - luminosity distances d_L(z)/(c/H0) at z = 0.3, 0.5, 1.0.
+- Current numerical output:
+  - matter-only: t0 * H0 ≈ 0.667 → t0 ≈ 9.31 Gyr, q0 = +0.50, d_L(z)/(c/H0) ≈ {0.32, 0.55, 1.17} at z = {0.3, 0.5, 1.0}.
+  - effective vacuum: t0 * H0 ≈ 0.964 → t0 ≈ 13.47 Gyr, q0 = −0.55, d_L(z)/(c/H0) ≈ {0.36, 0.66, 1.54} at z = {0.3, 0.5, 1.0}.
+- Interpretation: the theta_star-backed effective vacuum cosmology has a negative deceleration parameter and an age in the 13–14 Gyr range, with larger luminosity distances than the matter-only model at fixed redshift. This matches the qualitative behaviour of a standard Omega_m ≈ 0.3, Omega_Lambda ≈ 0.7 LambdaCDM universe, without yet claiming a precision fit to real cosmological data.
+
+
+
