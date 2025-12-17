@@ -1309,5 +1309,71 @@ PYTHONPATH=src python3 scripts/summarize_two_field_bump_1d.py
   - This strengthens the Act II/III bridge: the same $\theta_\star$ band that fits flavour data is also compatible with very basic cosmological sanity checks, without tuning to a single point.
 
 
+### 2025-12-17 — R12–R14: θ★ FRW observable scan and corridor
 
+**Scripts**
+
+- `scripts/scan_theta_star_frw_observables.py`  *(R12)*
+- `scripts/select_theta_star_observable_corridor.py`  *(R13)*
+- `scripts/plot_theta_star_observable_corridor.py`  *(R14)*
+
+**Data / figures**
+
+- `data/processed/effective_vacuum_theta_frw_scan.npz`
+- `data/processed/theta_star_observable_corridor.json`
+- `data/processed/theta_star_observable_corridor_plot_summary.json`
+- `figures/theta_star_observable_corridor.png`
+- `figures/theta_star_observable_corridor.pdf`
+
+**R12 — θ★ FRW observable scan**
+
+- Scanned the Act II θ★ band `[2.18, 5.54] rad` on a 41-point grid.  
+- For each θ★:
+  - built `Ω_Λ(θ★)` from the microcavity ΔE(θ★) and calibrated `k_scale`  
+    (`Ω_Λ(θ★_fid) = 0.7`, `θ★_fid = 3.63 rad`),
+  - computed flat FRW observables with `H0 = 70 km/s/Mpc`:
+    - `t0(θ★)` (age of the universe),
+    - `q0(θ★) = 0.5 Ω_m - Ω_Λ`,
+    - dimensionless luminosity distances `d_L(z)/(c/H0)` at `z = 0.3, 0.5, 1.0`.
+- Global ranges over the band:
+  - `Ω_Λ(θ★) ∈ [0.000, 0.775]`
+  - `t0(θ★) ∈ [9.31, 14.57] Gyr`
+  - `q0(θ★) ∈ [-0.662, 0.500]`
+
+**R13 — θ★ observable corridor selection**
+
+- Loaded the FRW scan and applied simple “observationally reasonable” cuts:
+  - `0.60 ≤ Ω_Λ ≤ 0.80`
+  - `12.0 ≤ t0 ≤ 15.0 Gyr`
+  - `q0 < 0` (accelerating today)
+- Result:
+  - Selected `18 / 41` grid points (**43.9%** of the band).
+  - θ★ “observable corridor”:
+    - `θ★ ∈ [2.432, 3.860] rad`
+    - `Ω_Λ ∈ [0.609, 0.775]`
+    - `t0 ∈ [12.49, 14.57] Gyr`
+    - `q0 ∈ [-0.662, -0.413]`
+- Saved the selection to  
+  `data/processed/theta_star_observable_corridor.json`
+  (stores the corridor bounds and the per-point table).
+
+**R14 — θ★ observable corridor plot**
+
+- Used the FRW scan + corridor mask to build a 3-panel summary figure:
+  - Top: `Ω_Λ(θ★)` over the full prior band, with the accepted corridor highlighted.
+  - Middle: `t0(θ★)` in Gyr, same shaded corridor.
+  - Bottom: `q0(θ★)` vs θ★, with the accelerating region (`q0 < 0`) emphasized.
+- Wrote:
+  - `figures/theta_star_observable_corridor.png`
+  - `figures/theta_star_observable_corridor.pdf`
+  - `data/processed/theta_star_observable_corridor_plot_summary.json`
+- Qualitative takeaway:
+  - Within the broad Act II θ★ band, there exists a sub–interval  
+    `θ★ ≈ 2.4–3.9 rad` where:
+    - `Ω_Λ` sits near the concordance value,
+    - the FRW age is ~12.5–14.5 Gyr,
+    - and the universe is accelerating (`q0 < 0`).
+  - This corridor overlaps the microcavity plateau and the earlier
+    patch / random-walk results, reinforcing the picture of a
+    **θ★ corridor** rather than a single fine-tuned θ★ point.
 
