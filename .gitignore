@@ -89,3 +89,4 @@ src/lattice_theta/*.bak
 *.toc
 *.out
 run.sh
+groksrc/

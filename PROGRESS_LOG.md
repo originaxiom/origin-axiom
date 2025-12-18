@@ -1721,3 +1721,126 @@ Interpretation / takeaway
 
 
 
+
+
+## 2025-12-18 — R22/R23: θ⋆ FRW background vs ΛCDM backbone
+
+- R22: background comparison script
+  - Added `scripts/compare_theta_star_to_lcdm_background.py` to compare the θ⋆-backed FRW band to a reference ΛCDM backbone with (Ω_m, Ω_Λ) = (0.3, 0.7).
+  - Inputs:
+    - FRW band scan: `data/processed/effective_vacuum_theta_frw_scan.npz` (θ⋆ grid, Ω_m(θ⋆), Ω_Λ(θ⋆), t₀(θ⋆), q₀(θ⋆), d_L(z;θ⋆) for z = 0.3, 0.5, 1.0).
+  - For the full θ⋆ band:
+    - Age residuals vs backbone: |Δt₀/t₀,ref| ≈ 0.7–31%.
+    - Distance residuals: |Δd_L/d_L,ref| ≈ 0.2–12% at z=0.3, 0.3–17% at z=0.5, 0.5–24% at z=1.0.
+  - Restricted to the “observable corridor” from R13 (0.60 ≤ Ω_Λ ≤ 0.80, 12–15 Gyr, q₀<0):
+    - Age residuals tighten to ≈ 0.7–8%.
+    - Distance residuals tighten to ≈ 0.2–1.9% (z=0.3), 0.3–3.0% (z=0.5), 0.5–4.9% (z=1.0).
+  - Identified a best-matching slice inside the corridor:
+    - θ⋆,best ≈ 3.608 rad with (Ω_m, Ω_Λ) ≈ (0.292, 0.708), t₀ ≈ 13.57 Gyr, q₀ ≈ −0.56.
+    - Background distances differ from the backbone by only ≈ 0.2–0.5% at z = 0.3–1.0 (χ²_bg ≈ 0.012).
+
+- R23: corridor + residuals figure
+  - Added `scripts/plot_theta_star_lcdm_background_corridor.py` to visualise:
+    - Top panel: Ω_Λ(θ⋆) over the Act II band, with the Act II prior band, the observable FRW corridor, θ⋆,fid ≈ 3.63 rad, and θ⋆,best ≈ 3.61 rad highlighted.
+    - Bottom panel: fractional distance residuals Δd_L(z)/d_L,ref (in %) vs θ⋆ at z = 0.3, 0.5, 1.0 relative to the ΛCDM backbone (Ω_m, Ω_Λ) = (0.3, 0.7).
+  - Outputs:
+    - `figures/theta_star_lcdm_background_corridor.png`
+    - `figures/theta_star_lcdm_background_corridor.pdf`
+    - `data/processed/theta_star_lcdm_background_corridor_plot_summary.json`
+  - Result: within the observable θ⋆ corridor, both background ages and Hubble-diagram distances remain within a few per cent of a standard ΛCDM backbone, with the flavour-informed θ⋆,fid lying close to the best-matching slice.
+
+
+
+-
+
+
+
+R24 – theta_star linear growth vs ΛCDM-like slice
+Date: 2025-12-18
+
+Scripts:
+  - scripts/compare_theta_star_to_lcdm_growth.py
+
+Inputs:
+  - data/processed/effective_vacuum_theta_growth_scan.npz
+  - data/processed/effective_vacuum_theta_frw_scan.npz
+  - Act II prior band for theta_star: [2.18, 5.54] rad
+  - Observable corridor in theta_star (from R13/R23): [2.432, 3.860] rad
+  - H0 (metadata): 70 km s^-1 Mpc^-1
+
+What the script computes:
+  - Reuses the precomputed linear growth factor D(a; theta_star) for each FRW model in the band,
+    normalized such that D_rel(a=1) = D(a=1; theta_star) / D_EdS(a=1), where D_EdS is the
+    Einstein–de Sitter (Omega_m=1, Omega_Lambda=0) growth factor.
+  - Identifies the “LCDM-like” slice within the band by finding the theta_star value that best
+    matches the internal (Omega_m, Omega_Lambda) = (0.3, 0.7) FRW backbone used in R22/R23.
+    This best-matching theta_star (theta_best) plays the role of a sigma8-like normalization point.
+  - For each theta_star in the observable corridor, computes a sigma8-like amplitude ratio
+    R_sigma8(theta) = D_rel(theta) / D_rel(theta_best), i.e. the ratio of linear growth today
+    relative to the best-matching LCDM-like slice.
+
+Key numerical results (from this run):
+  - Full theta_star band (2.18 -> 5.54 rad):
+      D_rel(a=1) min / max : 0.728 / 1.000
+      D_rel(a=1) mean      : 0.870
+    (So across the entire band, linear growth today ranges from fully EdS-like to
+     ~27% suppressed.)
+
+  - Observable corridor selection (theta_star corridor from R13/R23):
+      theta_star corridor    : 2.432 -> 3.860 rad
+      D_rel(a=1) corridor    : 0.728 -> 0.827
+      mean D_rel(a=1)        : 0.767
+    (Inside the corridor, all models are accelerated and have growth suppressed by
+     ~17–27% relative to EdS.)
+
+  - Reference LCDM-like slice (for sigma8-like normalization):
+      theta_fid (metadata)   : 3.630 rad
+      theta_best (in band)   : 3.608 rad
+      D_rel(a=1; theta_best) : 0.774
+    (This theta_best slice is the same one singled out in R22/R23 as giving the best match
+     to the internal (Omega_m, Omega_Lambda) = (0.3, 0.7) FRW backbone in background distances.)
+
+  - Sigma8-like amplitude ratios within the observable corridor:
+      R_sigma8(theta) = D_rel(theta) / D_rel(theta_best)
+      R_sigma8 min / max     : 0.940 / 1.068
+      R_sigma8 mean          : 0.990
+      Fractional range       : -6.0% .. +6.8% relative to theta_best
+
+Interpretation:
+  - Background-level consistency (R22/R23) already showed that there is a broad theta_star
+    corridor where age, q0, and luminosity distances are within a few percent of a standard
+    (0.3, 0.7) ΛCDM backbone.
+  - R24 adds the first structure-growth diagnostic. Once we fix a single “LCDM-like” slice
+    theta_best ~ 3.61 rad as the sigma8-like normalization point, all other theta_star
+    values in the observable corridor produce a late-time linear growth amplitude within
+    ~±6% of that reference.
+  - In other words, if we imagine calibrating the absolute sigma8 at theta_best, the rest of
+    the theta_star corridor does not wildly over- or under-grow structure. The non-cancelling,
+    microcavity-backed effective vacuum yields a family of FRW models whose linear growth
+    is “LCDM-like” at the rough few-percent level across the same corridor that already
+    matched background distances.
+  - This is not yet a precision prediction for sigma8. It is a consistency check: given a
+    single normalization point, the theta_star-induced variation in late-time growth remains
+    moderate, and does not immediately conflict with the kind of O(10%) observational
+    uncertainties typically involved in sigma8 determinations.
+
+Status / next steps:
+  - R24 completes the “background + linear growth” consistency checks for the theta_star
+    observable corridor.
+  - Remaining Act VI tasks (in the current roadmap):
+      * Short LaTeX subsection summarizing the linear-growth behavior and the sigma8-like
+        amplitude ratios over the corridor.
+      * Optional: explore whether any simple, qualitative tension emerges if we compare the
+        corridor’s growth suppression with a schematic “low sigma8” vs “high sigma8” split,
+        keeping in mind the limited realism of the current toy model.
+  - At the current level, the non-cancelling effective vacuum bridge passes: there exists a
+    theta_star corridor that simultaneously yields ΛCDM-like background distances and
+    moderate, LCDM-like suppression of linear growth, once a single normalization point is
+    chosen.
+
+
+
+-
+
+
+
