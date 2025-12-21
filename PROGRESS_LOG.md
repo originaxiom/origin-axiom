@@ -1844,3 +1844,29 @@ Status / next steps:
 
 
 
+### 2025-12-21 — Gate 1 complete (Act VI): flavour × cosmology θ★ compatibility
+
+Flavour posterior (from `origin-axiom-theta-star`, chi2_total <= 50):
+- global θ★ (q16, q50, q84) = (2.0982, 3.5299, 5.5915) rad
+
+Cosmology corridor (from R23 summary):
+- θ★ corridor = [2.4320, 3.8600] rad
+
+Overlap:
+- θ★ overlap = [2.4320, 3.8600] rad (corridor fully contained in flavour band)
+
+Artifacts:
+- `data/processed/theta_star_posterior_summary_from_flavour.json`
+- `data/processed/theta_star_flavour_cosmo_compatibility.json`
+- `figures/theta_star_flavour_vs_cosmo_overlap.png`
+- `docs/paper/act6_theta_star_flavour_cosmo_compatibility.tex`
+
+Script:
+- `scripts/act6_theta_star_flavour_cosmo_compatibility.py`
+
+
+
+
+
+
+
