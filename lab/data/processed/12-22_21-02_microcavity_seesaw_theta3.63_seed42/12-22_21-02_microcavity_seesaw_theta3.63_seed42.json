@@ -1,0 +1,10 @@
+{
+    "timestamp": "12-22_21-02",
+    "theta_star_fid": 3.63,
+    "theta_star_band": [
+        2.18,
+        5.54
+    ],
+    "seed": 42,
+    "M_R_scale": 2.64e-06
+}

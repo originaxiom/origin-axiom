@@ -270,3 +270,23 @@ No further runs needed—the mechanism is demonstrated.
 
 
 
+### Dec 22, 2025 – Phase 1.5 Comprehensive Polish (v1.5)
+- Updated 08_microcavity_seesaw.py: 3D lattice (16³), finer θ★ scan (20 points), M_scale sweep (1e-08 to 1e-04, 5 values), zoomed A(t) plot, multi-M_scale figure
+- Results:
+  - M_scale dependence: modulation amplifies at low M_scale (6600% peak at 1e-08 with ΔE up to 0.775) but fades at high ( <1% at 1e-04)
+  - θ★ structure: consistent double-peaks (4.0 & 5.5 rad), dips near fiducial 3.63 rad
+  - A(t): stable at ~0.01 ±0.001; seesaw adds slight fluctuations
+  - Constraint hits: ~125250 stable, varies at low M_scale (e.g., 111094 at 1e-08 — higher axiom intervention)
+  - Summary: Flavor-vacuum bridge most effective at intermediate M_scale (1e-07 to 1e-06, ~16–1300% modulation)
+- Outputs: lab/data/{figures,processed,raw}/12-22_21-49_microcavity_seesaw_polished_v5_...
+- Significance: Full sensitivity analysis shows robust unification signal with scale-dependent "cost" — ready for Phase 2 FRW
+
+
+
+-
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+Phase 1.5 Polished v1.5 Summary
+Date: 12-22_21-49
+θ★ fiducial: 3.630 rad
+Band: [2.18, 5.54]
+Lattice: 16³
+Max seesaw ΔE (fid M_scale): 1.19e-05
+Relative modulation peak (fid M_scale): ~2.2%
+M_scale sensitivity: modulation amplitude increases with lower M_scale (up to 3000% at 1e-08)
