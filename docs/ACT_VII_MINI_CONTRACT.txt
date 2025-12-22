@@ -1,0 +1,207 @@
+ACT VII MINI CONTRACT
+Toy Matter Sector + Growth Sanity Window
+(Origin Axiom / Φ-Theory)
+
+Status: FROZEN ON ENTRY TO GATE 2
+Any modification requires explicit re-opening of Act VII.
+
+======================================================================
+PURPOSE
+======================================================================
+
+Act VII introduces a minimal matter sector on top of the effective vacuum
+cosmology and tests whether a non-empty, stable consistency window exists
+in the parameter space:
+
+    (theta_star, Omega_m, Omega_b)
+
+such that BOTH of the following hold:
+
+1) Background expansion remains inside the established cosmology corridor.
+2) Linear growth remains sigma8-like stable relative to a reference slice.
+
+This act does NOT attempt observational inference or precision fitting.
+It is a sanity and survivability test.
+
+======================================================================
+A) PARAMETER DOMAIN (FROZEN)
+======================================================================
+
+1) Theta-star domain
+-------------------
+Use the Gate 1 overlap region ONLY:
+
+    theta_star ∈ [2.4320, 3.8600]  (radians)
+
+This interval is taken from the Act VI flavour × cosmology compatibility
+result and is treated as fixed for the canonical Act VII run.
+
+2) Matter density
+-----------------
+Total matter fraction:
+
+    Omega_m ∈ [0.20, 0.40]
+
+Scanned on a uniform grid.
+
+3) Baryon fraction
+------------------
+Define baryon fraction:
+
+    f_b ≡ Omega_b / Omega_m
+
+Scan range:
+
+    f_b ∈ [0.12, 0.22]
+
+Derived quantities:
+    Omega_b = f_b * Omega_m
+    Omega_c = (1 - f_b) * Omega_m
+
+4) Dark energy
+--------------
+Flat universe enforced at z = 0:
+
+    Omega_Lambda = 1 - Omega_m
+
+5) Hubble constant
+------------------
+Fixed to the value used in Gate 0:
+
+    H0 = 70 km s^-1 Mpc^-1
+
+(No refitting allowed in Act VII.)
+
+======================================================================
+B) BACKGROUND ACCEPTANCE CUTS (FROZEN)
+======================================================================
+
+For each candidate (theta_star, Omega_m, f_b), compute FRW background
+observables and apply ALL of the following cuts:
+
+1) Acceleration
+---------------
+    q0 < 0
+
+2) Age sanity
+-------------
+    12 Gyr ≤ t0 ≤ 15 Gyr
+
+3) Distance sanity (vs LambdaCDM-like backbone)
+------------------------------------------------
+Compute luminosity distance ratios dL(z)/(c/H0) at:
+
+    z = 0.3, 0.5, 1.0
+
+For each z require:
+
+    |dL - dL_ref| / dL_ref ≤ 5%
+
+where dL_ref is the LambdaCDM-like reference slice constructed using
+the same FRW machinery.
+
+Any failure at any redshift rejects the point.
+
+======================================================================
+C) GROWTH SANITY & SIGMA8-LIKE TOLERANCE (FROZEN)
+======================================================================
+
+1) Linear growth
+----------------
+Compute linear growth today relative to EdS:
+
+    D_rel(a=1)
+
+2) Reference model
+------------------
+Select the reference model as the ACCEPTED point with the minimum
+background residual metric (chi2_bg-like), analogous to Acts III–V.
+
+3) Sigma8-like ratio
+--------------------
+Define:
+
+    R_sigma8 = D_rel(theta_star, Omega_m, f_b) / D_rel(reference)
+
+4) Acceptance window
+--------------------
+Require for ALL accepted points:
+
+    0.92 ≤ R_sigma8 ≤ 1.08
+
+This ±8% window is fixed for Act VII and is not tunable.
+
+======================================================================
+D) OUTPUT ARTIFACTS (CANONICAL FOR ACT VII)
+======================================================================
+
+1) Data artifact
+----------------
+Path:
+    data/processed/act7_toy_matter_window.json
+
+Must include:
+- full parameter grid definition
+- acceptance cuts (verbatim)
+- accepted point count
+- rejected point statistics by failure reason
+- reference model parameters
+- min/max ranges of accepted region
+
+2) Figures
+----------
+- figures/act7_toy_matter_window.png
+- figures/act7_growth_sigma8_like_vs_params.png
+
+3) Script entrypoint
+--------------------
+Single supported entrypoint:
+
+    python3 scripts/act7_run_toy_matter_window.py
+
+4) Paper section
+----------------
+LaTeX section:
+
+    docs/paper/act7_toy_matter_growth_sanity.tex
+
+This section must summarize (not redefine) this contract.
+
+======================================================================
+E) PASS / FAIL DEFINITION
+======================================================================
+
+PASS:
+-----
+- At least one non-empty accepted region exists in
+  (theta_star, Omega_m, Omega_b), AND
+- The accepted region lies fully within the Gate 1 theta_star overlap.
+
+FAIL (STILL SCIENTIFICALLY VALID):
+----------------------------------
+- No points satisfy all constraints, PROVIDED that:
+  - the failure reasons are reported explicitly in the JSON artifact.
+
+======================================================================
+NON-GOALS (EXPLICIT)
+======================================================================
+
+Act VII does NOT:
+- perform CMB or Boltzmann calculations
+- refit flavour observables
+- tune H0 or radiation content
+- claim observational parameter inference
+
+======================================================================
+STATUS
+======================================================================
+
+This mini contract defines the scope of Act VII.
+
+Any modification requires:
+- explicit acknowledgement, AND
+- a new contract version.
+
+======================================================================
+END OF ACT VII MINI CONTRACT
+======================================================================
