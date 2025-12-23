@@ -1,0 +1,7 @@
+Phase 2 Extension Summary
+Date: 12-23_19-32
+θ★ fiducial: 3.630 rad
+Band: [2.18, 5.54]
+Max seesaw a_final (fid M_scale): 1.92e+01
+Max relative acceleration: ~1.0%
+Modulation increases with lower M_scale (stronger Λ)

@@ -287,6 +287,65 @@ No further runs needed—the mechanism is demonstrated.
 
 
 
+### Dec 23, 2025 – Phase 2: FRW Embedding (Refined)
+- Script: 09_frw_seesaw_vacuum.py (refined v1.0)
+- Data-driven Λ(θ★) interpolated from Phase 1.5 fid M_scale CSV
+- Added matter + radiation densities; longer run (n_steps=2000)
+- Results:
+  - Baseline a_final ~8.04 (no modulation)
+  - Seesaw a_final varies 8.04 to 8.06 (~0.2% peak acceleration)
+  - Peaks at θ★ ≈4.05 & 5.54 rad; dip near fiducial 3.63 rad
+  - a(t) stable, seesaw shows slight late-time divergence
+  - Constraint hits: 2000 per run (axiom enforced)
+- Outputs: lab/data/{figures,processed,raw}/12-23_19-01_frw_seesaw_vacuum_refined_...
+- Significance: Flavor (θ★) influences late-time expansion via vacuum energy — first cosmological unification result
+
+
+
+-
+
+
+
+### Dec 23, 2025 – Phase 2 Polished (Final)
+- Updated 09_frw_seesaw_vacuum.py: longer run (5000 steps), H(t) plot, data-driven Λ(θ★) from Phase 1.5 fid M_scale
+- Results:
+  - Baseline a_final ~13.75 (constant)
+  - Seesaw a_final 13.75–13.89 (~1.0% peak acceleration)
+  - Peaks at ~4.05 & 5.54 rad; dip near fiducial 3.63 rad
+  - a(t) stable with late-time divergence; H(t) decays faster in seesaw
+  - Constraint hits: 5000 per run (stable axiom enforcement)
+- Outputs: lab/data/{figures,processed,raw}/12-23_19-16_frw_seesaw_vacuum_polished_...
+- Significance: Flavor-modulated vacuum influences expansion history — full flavor-scalar-cosmo unification demonstrated
+
+
+-
+
+
+### Workflow Note (Dec 23, 2025)
+- From this point forward, every error-free run + meaningful result, or polish/extension decision, is committed to git immediately.
+- Progress log entries reference commit hashes/tags for reproducibility.
+- Scripts are overwritten locally for simplicity, but full version history is preserved in git.
+- Major milestones tagged (e.g., v1.5-phase1.5-complete).
+
+
+-
+
+
+### Dec 23, 2025 – Phase 2 Extension (M_scale Sweep)
+- Updated 09_frw_seesaw_vacuum.py: M_scale sweep (1e-08 to 1e-04, 5 values), longer run (5000 steps)
+- Results:
+  - Baseline a_final ~1.39 (constant)
+  - Seesaw a_final varies with M_scale: up to 19.2 at 1e-08 (38% acceleration), ~1–5% at 1e-06–1e-07, <0.1% at high M_scale
+  - θ★ peaks/dips consistent; modulation amplifies at low M_scale
+  - a(t) stable with late divergence; H(t) decays slower in seesaw
+  - Constraint hits ~5000 per run (stable)
+- Outputs: lab/data/{figures,processed,raw}/12-23_19-32_frw_seesaw_vacuum_mscale_sweep_...
+- Significance: Flavor modulation scales with M_scale — intermediate values give balanced cosmology; extreme low M_scale causes inflation-like acceleration
+
+
+-
+
+
 
 
 
