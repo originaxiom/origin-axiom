@@ -1,0 +1,20 @@
+\section{Model and Methods}
+We simulate a complex scalar field $\phi$ on a periodic $N^3$ lattice, evolved via leapfrog under
+\begin{equation}
+H = \frac{1}{2} |\pi|^2 + \frac{1}{2} |\nabla \phi|^2 + \lambda |\phi|^4,
+\end{equation}
+where $\pi$ is conjugate momentum, $\nabla$ finite-difference Laplacian, $\lambda \geq 0$ adds self-interaction (Higgs-like potential for realistic vacuum dynamics).
+
+The Origin Axiom enforces
+\begin{equation}
+|A| = \left| \sum \phi \right| \geq \epsilon \sqrt{V},
+\end{equation}
+via phase-preserving uniform adjustment if violated (checked every 10 steps in FRW to avoid over-correction, mimicking global rule).
+
+For cosmology, couple to scale factor $a(t)$ via toy Friedmann
+\begin{equation}
+H^2 = \frac{8\pi G}{3} \rho + H_0^2,
+\end{equation}
+with $\rho$ from field energy and Hubble friction $-3H \dot{\phi}$. $H_0 = 10^{-4}$ for slow expansion; $G=1$ in toy units.
+
+Initial conditions: disordered random phases modulated by $\theta^\star \approx 3.63$ rad (flavor-inspired). Parameters: $N=20$--$50$ (lattice size for convergence), $\epsilon=10^{-2}$--$10^{-4}$ (floor strength, scaled to probe hierarchy), $\lambda=0$--$0.1$ (nonlinearity for self-interaction), steps up to 20,000 (long evolution for late-time behavior), seed=42. Code in Python/NumPy; full reproducibility at \url{github.com/originaxiom/origin-axiom}.

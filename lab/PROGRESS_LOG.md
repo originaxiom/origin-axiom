@@ -287,127 +287,24 @@ No further runs needed—the mechanism is demonstrated.
 
 
 
-### Dec 23, 2025 – Phase 2: FRW Embedding (Refined)
-- Script: 09_frw_seesaw_vacuum.py (refined v1.0)
-- Data-driven Λ(θ★) interpolated from Phase 1.5 fid M_scale CSV
-- Added matter + radiation densities; longer run (n_steps=2000)
+### Dec 24, 2025 – Phase B Step 1: Derive ε from QG First Principles
+- Script: 12_extension_qg_hints.py (vInitial)
+- Derived ε via Planck cutoff + holographic bound + θ* modulation
 - Results:
-  - Baseline a_final ~8.04 (no modulation)
-  - Seesaw a_final varies 8.04 to 8.06 (~0.2% peak acceleration)
-  - Peaks at θ★ ≈4.05 & 5.54 rad; dip near fiducial 3.63 rad
-  - a(t) stable, seesaw shows slight late-time divergence
-  - Constraint hits: 2000 per run (axiom enforced)
-- Outputs: lab/data/{figures,processed,raw}/12-23_19-01_frw_seesaw_vacuum_refined_...
-- Significance: Flavor (θ★) influences late-time expansion via vacuum energy — first cosmological unification result
+  - ε(θ*) oscillates ~10^{-35} to ~10^{-37} Planck units
+  - Peaks at ~3.67 and 5.0 rad, dips near 3.3 and 4.4 rad
+  - Fiducial θ* = 3.63 rad: ~1.3e-35 (n=1)
+  - Inverse scaling with n_defects (volume factor)
+  - Modulation ~10% from θ*
+- Outputs: lab/data/{figures,processed,raw}/12-24_00-35_qg_hints_epsilon_...
+- Significance: ε now QG-derived, not ad hoc — flavor influences Planck-scale floor
+- Tagged: vB1-qg-epsilon
 
 
 
 -
 
 
-
-### Dec 23, 2025 – Phase 2 Polished (Final)
-- Updated 09_frw_seesaw_vacuum.py: longer run (5000 steps), H(t) plot, data-driven Λ(θ★) from Phase 1.5 fid M_scale
-- Results:
-  - Baseline a_final ~13.75 (constant)
-  - Seesaw a_final 13.75–13.89 (~1.0% peak acceleration)
-  - Peaks at ~4.05 & 5.54 rad; dip near fiducial 3.63 rad
-  - a(t) stable with late-time divergence; H(t) decays faster in seesaw
-  - Constraint hits: 5000 per run (stable axiom enforcement)
-- Outputs: lab/data/{figures,processed,raw}/12-23_19-16_frw_seesaw_vacuum_polished_...
-- Significance: Flavor-modulated vacuum influences expansion history — full flavor-scalar-cosmo unification demonstrated
-
-
--
-
-
-### Workflow Note (Dec 23, 2025)
-- From this point forward, every error-free run + meaningful result, or polish/extension decision, is committed to git immediately.
-- Progress log entries reference commit hashes/tags for reproducibility.
-- Scripts are overwritten locally for simplicity, but full version history is preserved in git.
-- Major milestones tagged (e.g., v1.5-phase1.5-complete).
-
-
--
-
-
-### Dec 23, 2025 – Phase 2 Extension (M_scale Sweep)
-- Updated 09_frw_seesaw_vacuum.py: M_scale sweep (1e-08 to 1e-04, 5 values), longer run (5000 steps)
-- Results:
-  - Baseline a_final ~1.39 (constant)
-  - Seesaw a_final varies with M_scale: up to 19.2 at 1e-08 (38% acceleration), ~1–5% at 1e-06–1e-07, <0.1% at high M_scale
-  - θ★ peaks/dips consistent; modulation amplifies at low M_scale
-  - a(t) stable with late divergence; H(t) decays slower in seesaw
-  - Constraint hits ~5000 per run (stable)
-- Outputs: lab/data/{figures,processed,raw}/12-23_19-32_frw_seesaw_vacuum_mscale_sweep_...
-- Significance: Flavor modulation scales with M_scale — intermediate values give balanced cosmology; extreme low M_scale causes inflation-like acceleration
-
-
--
-
-### Dec 23, 2025 – Phase 2 Final Consolidated Script
-- Final authoritative version: 09_frw_seesaw_vacuum.py (vFinal)
-- Includes all prior functionality in one file with command-line modes:
-  --mode simple          : Fiducial θ★ only (baseline vs seesaw)
-  --mode sweep           : Full θ★ band + M_scale sweep
-  --mode fiducial-only   : Focused fiducial run (same as simple)
-- Run examples:
-  PYTHONPATH=src python3 lab/scr/09_frw_seesaw_vacuum.py --mode simple --seed 42
-  PYTHONPATH=src python3 lab/scr/09_frw_seesaw_vacuum.py --mode sweep --seed 42
-- All prior results reproducible without needing old versions.
-- Tagged: v2.0-phase2-final
-
-
--
-
-
-### Dec 23, 2025 – Phase 3: Microstructure & Multi-Field Unification (Initial Draft)
-- Script: 10_microstructure_multi_field.py (initial)
-- 3D lattice (32³) with Gaussian defects (5 bumps) as particle-like structures
-- Seesaw-modulated effective mass m_eff = m₃(θ★)
-- Results:
-  - Final |A| oscillates ~ -1.5 to +1.5 vs θ★; peaks at ~3.67 and 5.0 rad
-  - ΔE small negative (~ -0.00014); mirrors |A| pattern
-  - Fiducial θ★ = 3.63 rad: |A| ~1.5, ΔE ~ -0.000139
-  - Constraint hits: 125250 per run (stable axiom enforcement)
-- Outputs: lab/data/{figures,processed,raw}/12-23_19-59_microstructure_multi_field_...
-- Significance: Flavor (θ★) influences defect stability and vacuum energy — first microstructure unification signal
-
-
--
-
-
-### Dec 23, 2025 – Phase 3 Polished
-- Updated 10_microstructure_multi_field.py: defect sweep (1–10), 3D field slice viz, summary.txt
-- Results:
-  - Final |A| highly oscillatory at low defects (~±1.5), damps with more defects
-  - ΔE negative (~ -0.00001 to -0.00002), structured at low defects
-  - 3D slice shows persistent Gaussian defects
-  - Fiducial θ★ = 3.63 rad: stable in mid-range
-  - Constraint hits ~125250 (stable)
-- Outputs: lab/data/{figures,processed,raw}/12-23_20-08_microstructure_multi_field_polished_...
-- Significance: Defect density + flavor (θ★) modulate microstructure — axiom stabilizes "particles"
-
-
--
-
-
-### Dec 23, 2025 – Phase 4: Synthesis & Full Unification
-- Script: 11_synthesis_unification.py (vInitial)
-- Chains all phases: flavor → vacuum → cosmology → microstructure
-- Results:
-  - m_nu_heaviest ~1.32e-10 eV
-  - delta_E_micro ~1.14e-05
-  - a_final_frw ~13.98
-  - final_A_micro ~0.5–0.7
-  - Unified modulation ~0.7% end-to-end
-  - Constraint hits stable
-- Outputs: lab/data/{figures,processed,raw}/12-23_20-17_synthesis_unification_...
-- Significance: Full Origin Axiom unification demonstrated; θ★ bridges scales, axiom enables existence
-- Tagged: v4.0-phase4-complete
-
-
--
 
 
 
