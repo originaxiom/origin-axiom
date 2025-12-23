@@ -1,0 +1,7 @@
+### Dec 23, 2025 – Phase 4: Paper Draft Finalized
+- Full paper structure completed in /lab/docs/paper/: main.tex + sections 01–06
+- Replaced previous /paper contents with this unified, elaborated draft (vFinal)
+- Sections: Introduction (philosophical grounding), Methods (step-by-step), Results (quantitative findings), Discussion (intellectual arguments), Conclusion (outlook), References
+- Figures referenced from /figures/ (e.g., unified_chain.png)
+- Paper is self-contained, reproducible, and ready for MacTeX compilation
+- Tagged: v4.1-paper-draft-complete

@@ -1,0 +1,41 @@
+\section{Methods}
+\label{sec:methods}
+
+We develop the Origin Axiom framework through a systematic chain of simulations, each building on the previous to bridge scales from flavor phenomenology to cosmology. All code is implemented in Python, using the ScalarToyUniverse class from the companion repository \texttt{toy_universe_lattice}, with full reproducibility ensured via git-tagged versions at \url{https://github.com/originaxiom/origin-axiom}.
+
+\subsection{Flavor Bridge: $\thetastar$-Modulated Seesaw Mechanism}
+The axiom is anchored in a unifying phase $\thetastar$ extracted from Standard Model flavor observables (PMNS neutrino and CKM quark mixing matrices). $\thetastar$ is determined via joint fits in the companion repository \texttt{origin-axiom-theta-star}, yielding a fiducial value of 3.63 radians with a robust band of [2.18, 5.54] radians.
+
+To connect $\thetastar$ to scalar dynamics, we employ a toy Type-I seesaw mechanism modulated by $\thetastar$:
+\begin{equation}
+m_\nu^{(i)} = \frac{(y_\nu^{(i)} v_\text{SM})^2}{M_R} \times f^{(i)}(\thetastar),
+\label{eq:seesaw}
+\end{equation}
+where $v_\text{SM} = 174$ GeV, $M_R \sim 10^{14}$ GeV, and $f^{(i)}(\thetastar)$ incorporates terms such as $\sin(2\thetastar)$ for atmospheric mixing and $\sin(\thetastar)$ for solar mixing. The suppression factor $M_\text{scale} \approx 2.64 \times 10^{-6}$ is tuned to reproduce PDG values ($m_3 \sim 0.05$ eV, $\Delta m^2_\text{atm} \sim 2.93 \times 10^{-3}$ eV$^2$). The axiom enforces $\sum m_\nu > \epsilon \sim 10^{-12}$ eV, preventing zero-mass states and ensuring hierarchical structure. This bridge links empirical flavor data to scalar vacuum dynamics.
+
+\subsection{Vacuum Energy Modulation: Microcavity Simulations}
+We integrate the seesaw-derived effective mass $m_\text{eff} = m_3(\thetastar)$ into a microcavity model implemented with ScalarToyUniverse (32$^3$ lattice). The scalar field $\phi$ evolves under the axiom constraint $|A| > \epsilon$, where $A = \langle \phi \rangle$. The vacuum shift $\Delta E$ is computed as the difference in total energy between final and initial states:
+\begin{equation}
+\Delta E = E_\text{final} - E_\text{initial}.
+\label{eq:deltaE}
+\end{equation}
+Simulations run for 500 steps with time step $dt = 0.01$, yielding $\thetastar$-dependent $\Delta E(\thetastar)$ with characteristic peaks and dips. The axiom stabilizes $|A| \sim 0.01$ with $\sim$125,000 constraint hits per run, ensuring non-zero vacuum structure.
+
+\subsection{Cosmological Expansion: FRW Model}
+We interpolate $\Delta E(\thetastar)$ as an effective cosmological constant $\Lambda(\thetastar)$ in a flat FRW universe:
+\begin{equation}
+H^2 = \frac{\rho_r}{a^4} + \frac{\rho_m}{a^3} + \Lambda(\thetastar),
+\label{eq:frw}
+\end{equation}
+with initial conditions $\rho_r = 1.0$, $\rho_m = 0.3$. The scalar field evolves under the axiom constraint, and the scale factor $a(t)$ is integrated for 5000 steps ($dt = 0.01$). This setup tests how flavor-modulated vacuum energy influences late-time expansion, with M_scale sweeps exploring sensitivity.
+
+\subsection{Microstructure: Defects as Particle Candidates}
+In a 3D lattice (32$^3$), we introduce Gaussian defects (bumps) as particle-like structures:
+\begin{equation}
+\phi_\text{defect} = A \exp\left(-\frac{|\mathbf{r} - \mathbf{r}_c|^2}{2w^2}\right) e^{i\phi},
+\label{eq:defect}
+\end{equation}
+with random centers and phases. The effective mass $m_\text{eff} = m_3(\thetastar)$ modulates dynamics. The axiom enforces stability, and we sweep defect count (1–10) to test persistence and $\thetastar$-dependence. Defects act as potential dark matter candidates, stabilized by the axiom.
+
+\subsection{Synthesis: Full Unification Chain}
+All steps are chained in a single script (11_synthesis_unification.py), computing cross-scale metrics (e.g., end-to-end modulation percentage). The framework is fully reproducible via git-tagged versions in the repositories.
