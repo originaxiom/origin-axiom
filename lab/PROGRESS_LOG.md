@@ -345,6 +345,22 @@ No further runs needed—the mechanism is demonstrated.
 
 -
 
+### Dec 23, 2025 – Phase 2 Final Consolidated Script
+- Final authoritative version: 09_frw_seesaw_vacuum.py (vFinal)
+- Includes all prior functionality in one file with command-line modes:
+  --mode simple          : Fiducial θ★ only (baseline vs seesaw)
+  --mode sweep           : Full θ★ band + M_scale sweep
+  --mode fiducial-only   : Focused fiducial run (same as simple)
+- Run examples:
+  PYTHONPATH=src python3 lab/scr/09_frw_seesaw_vacuum.py --mode simple --seed 42
+  PYTHONPATH=src python3 lab/scr/09_frw_seesaw_vacuum.py --mode sweep --seed 42
+- All prior results reproducible without needing old versions.
+- Tagged: v2.0-phase2-final
+
+
+-
+
+
 
 
 
