@@ -377,4 +377,19 @@ No further runs needed—the mechanism is demonstrated.
 -
 
 
+### Dec 23, 2025 – Phase 3 Polished
+- Updated 10_microstructure_multi_field.py: defect sweep (1–10), 3D field slice viz, summary.txt
+- Results:
+  - Final |A| highly oscillatory at low defects (~±1.5), damps with more defects
+  - ΔE negative (~ -0.00001 to -0.00002), structured at low defects
+  - 3D slice shows persistent Gaussian defects
+  - Fiducial θ★ = 3.63 rad: stable in mid-range
+  - Constraint hits ~125250 (stable)
+- Outputs: lab/data/{figures,processed,raw}/12-23_20-08_microstructure_multi_field_polished_...
+- Significance: Defect density + flavor (θ★) modulate microstructure — axiom stabilizes "particles"
+
+
+-
+
+
 
