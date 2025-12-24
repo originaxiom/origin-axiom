@@ -360,4 +360,21 @@ No further runs needed—the mechanism is demonstrated.
 -
 
 
+### Dec 24, 2025 – Phase B Step 5: Experimental Predictions (Complete)
+- Script: 16_predictions.py (v1.1)
+- Predicted θ_13, CMB ΔT/T, H0 from θ★-modulated ΔE
+- Results:
+  - θ_13 ~7.5°–9.3° (PDG ~8.5°)
+  - ΔT/T ~2.11e-12–2.46e-12
+  - H0 ~68.05–68.16 km/s/Mpc (Planck 67.4, local 73.0)
+  - Fiducial θ★ = 3.63 rad: θ_13 ~8.0°, ΔT/T ~2.30e-12, H0 ~68.10
+  - Modulation ~0.7% end-to-end
+- Outputs: lab/data/{figures,processed,raw}/12-24_08-53_predictions_...
+- Significance: Subtle θ★ effects on observables — testable with future experiments (DUNE, CMB-S4)
+- Tagged: vB5-predictions
+
+
+-
+
+
 
