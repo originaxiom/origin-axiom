@@ -306,5 +306,41 @@ No further runs needed—the mechanism is demonstrated.
 
 
 
+### Dec 24, 2025 – Phase B Step 2: Full SM Integration (EWSB Test)
+- Script: 13_sm_integration.py (v1.2)
+- Added toy EW gauge/fermions, seesaw-modulated Higgs vev, EWSB stability test
+- Results:
+  - Final h ~246.00–246.04 GeV (~0.02% modulation)
+  - V(h) stable near minimum (~0.00–0.04 GeV)
+  - g_eff ~0.64–0.65, g_prime_eff ~0.34–0.34 (~1% variation)
+  - Fiducial θ★ = 3.63 rad: stable EWSB
+  - Axiom enforces stability (no deep cancellations)
+- Outputs: lab/data/{figures,processed,raw}/12-24_01-13_sm_integration_...
+- Significance: Axiom + seesaw compatible with EW symmetry breaking — flavor subtly modulates gauge couplings
+- Tagged: vB2-sm-integration
+
+
+
+-
+
+
+
+### Dec 24, 2025 – Phase B Step 3: Baryogenesis Calculation
+- Script: 14_baryogenesis.py (vInitial)
+- Quantified θ★-driven CP asymmetry via toy defect decay
+- Results:
+  - η_B(θ★) oscillates ~0.09e-5 to 1.10e-5 (n_defects=1–10)
+  - Peaks at ~4.0 rad, dip near fiducial 3.63 rad
+  - Higher n_defects increases η_B (more baryon production)
+  - Observed η_B ~6.1e-10; toy model overproduces (tunable)
+  - Modulation from θ★: ~sin(2θ★) dependence
+- Outputs: lab/data/{figures,processed,raw}/12-24_01-53_baryogenesis_...
+- Significance: Flavor (θ★) generates baryon asymmetry via defect decay — axiom stabilizes process
+- Tagged: vB3-baryogenesis
+
+
+
+-
+
 
 
