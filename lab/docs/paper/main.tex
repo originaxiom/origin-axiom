@@ -1,36 +1,73 @@
-\documentclass[11pt,a4paper]{article}
-\usepackage{graphicx}
-\usepackage{subfiles}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage[margin=1in]{geometry}
-\usepackage{caption}
-\usepackage{float}
-\usepackage{hyperref}
-\usepackage{natbib}
-\usepackage{siunitx} % For units
 
-\title{The Origin Axiom: Dynamical Enforcement of Non-Zero Global Amplitude in Scalar Field Models}
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+
+\usepackage[hidelinks,unicode=true]{hyperref}
+
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  maxcitenames=3,
+  maxbibnames=99,
+  giveninits=true,
+  doi=false,
+  isbn=false,
+  url=false
+]{biblatex}
+\addbibresource{sections/06_references.bib}
+
+\newcommand{\thetastar}{\theta^{\star}}
+\newcommand{\phiphi}{\phi^{\phi}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+
+% -------------------------
+% Title block
+% -------------------------
+\title{%
+  The Origin Axiom:\\
+  A Unifying Framework for Flavor, Vacuum, Cosmology, and Microstructure
+}
+
 \author{Dritero M.}
-\date{December 18, 2025}
+
+\date{\today}
+
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-The Origin Axiom introduces a dynamical constraint forbidding perfect global cancellation of complex scalar field amplitudes ($|A| > 0$), addressing the fundamental question of why the universe contains something rather than nothing. Through systematic 3D lattice simulations progressing from static to FRW-expanding universes with self-interactions, we demonstrate the axiom selectively prevents destructive interference with minimal energy injection and no backreaction on expansion. This toy model provides a novel mechanism for vacuum selection and qualitative emergence of positive vacuum energy, fully reproducible via public code at \url{github.com/originaxiom/origin-axiom}.
+The question of why the universe exists — why there is something rather than absolute nothingness — has long eluded a principled resolution in physics. We introduce the Origin Axiom: the universe is structurally forbidden from perfect global cancellation, enforced on complex scalar amplitudes $A(\mathcal{C})$ over configuration space, preventing $|A| \to 0$. This axiom, grounded in a unifying phase $\thetastar$ extracted from Standard Model flavor observables (PMNS and CKM matrices, fiducial 3.63 rad, band [2.18, 5.54]), provides a meta-principle that bridges disparate scales of physics.
+
+Through systematic, reproducible simulations, we demonstrate how $\thetastar$-modulated seesaw neutrino masses generate a vacuum energy shift in microcavity models ($\sim$2.2\% modulation), which in turn influences cosmological expansion in an FRW framework ($\sim$1\% acceleration in scale factor growth), while stabilizing microstructure in 3D lattices with defects as particle-like structures. The axiom ensures stability across all scales, with emergent implications including flavor-linked dark energy and dark matter candidates. The framework is fully reproducible via open-source code at \url{https://github.com/originaxiom/origin-axiom} and \url{https://github.com/originaxiom/origin-axiom-theta-star}.
 \end{abstract}
 
-\subfile{sections/intro}
+\input{sections/01_introduction.tex}
+\input{sections/02_methods.tex}
+\input{sections/03_results.tex}
+\input{sections/04_discussion.tex}
+\input{sections/05_conclusion.tex}
 
-\subfile{sections/methods}
-
-\subfile{sections/results}
-
-\subfile{sections/conclusion}
-
-\bibliographystyle{unsrt}
-\bibliography{references}
+\printbibliography
 
 \end{document}

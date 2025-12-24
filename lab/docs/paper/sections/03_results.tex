@@ -1,0 +1,47 @@
+\section{Results}
+\label{sec:results}
+
+We present the results of the Origin Axiom framework systematically, following the chain from flavor phenomenology to microstructure. All simulations are reproducible via git-tagged versions in the repositories \url{https://github.com/originaxiom/origin-axiom} and \url{https://github.com/originaxiom/origin-axiom-theta-star}.
+
+\subsection{Flavor Bridge}
+The $\thetastar$-modulated seesaw mechanism reproduces realistic neutrino masses. At fiducial $\thetastar = 3.63$ rad, the heaviest mass $m_3 \sim 0.05$ eV and atmospheric splitting $\Delta m^2_{\text{atm}} \sim 2.93 \times 10^{-3}$ eV$^2$ match PDG values within the suppression factor $M_{\text{scale}} \approx 2.64 \times 10^{-6}$. The axiom enforces a non-zero sum $\sum m_\nu > \epsilon \sim 10^{-12}$ eV, preventing zero-mass cancellation and ensuring hierarchical structure consistent with observed mixing. This bridge links empirical flavor data to scalar vacuum dynamics.
+
+\subsection{Vacuum Energy Modulation}
+In microcavity simulations (ScalarToyUniverse on a 32$^3$ lattice), the effective mass $m_{\text{eff}} = m_3(\thetastar)$ induces a vacuum energy shift $\Delta E(\thetastar)$ with $\sim 2.2\%$ relative modulation (range $1.1648821444176088 \times 10^{-5}$ to $1.1900196411864655 \times 10^{-5}$ energy units). The axiom stabilizes the global amplitude $|A| \sim 0.01$ with $\sim 125{,}000$ constraint hits per run of 500 steps. This modulation demonstrates how flavor influences vacuum energy, a key step toward cosmological implications.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/vacuum_deltaE.png}
+\caption{Vacuum energy shift $\Delta E(\thetastar)$ from microcavity simulations, showing $\sim 2.2\%$ modulation with peaks at $\thetastar \approx 4.0$ and 5.5 rad, and a dip near the fiducial $\thetastar = 3.63$ rad.}
+\label{fig:vacuum}
+\end{figure}
+
+\subsection{Cosmological Expansion}
+Interpolating $\Delta E(\thetastar)$ as effective $\Lambda(\thetastar)$ in FRW evolution (5000 steps), the seesaw modulation accelerates the final scale factor $a_{\text{final}}$ by $\sim 1.0\%$ (from 13.75 to 13.89). $M_{\text{scale}}$ sweeps reveal up to $38\%$ acceleration at low scales (stronger $\Lambda$), confirming flavor-cosmology linkage. The axiom maintains field stability throughout, preventing deep cancellations during expansion. This step demonstrates how flavor-induced vacuum shifts can mimic observed dark energy effects, with the modulation propagating from the flavor bridge (Section \ref{sec:flavor}).
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/frw_a_final.png}
+\caption{FRW final scale factor $a_{\text{final}}(\thetastar)$ at fiducial $M_{\text{scale}}$, showing $\sim 1\%$ acceleration with $\thetastar$ peaks.}
+\label{fig:frw}
+\end{figure}
+
+\subsection{Microstructure}
+In 3D lattices (32$^3$) with Gaussian defects ($n = 1$--$10$), seesaw-modulated mass stabilizes particle-like structures. The final global amplitude $|A|$ oscillates $\pm 1.5$ at low defect counts, damping with more defects (volume averaging). Vacuum shift $\Delta E \sim -0.00001$ to $-0.00002$, with 3D mid-slice visualizations confirming persistent defect cores. The axiom enforces stability with $\sim 125{,}000$ hits per run, suggesting defects as potential dark matter candidates. This argues for microstructure as a bridge to dark sector physics, building on the vacuum modulation from Section \ref{sec:vacuum}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/microstructure_field_slice.png}
+\caption{3D field mid-slice showing persistent Gaussian defects ($n = 5$) at fiducial $\thetastar$.}
+\label{fig:micro}
+\end{figure}
+
+\subsection{Full Unification Chain}
+The synthesis script chains all phases, yielding end-to-end modulation $\sim 0.7\%$ (Fig. \ref{fig:unified}). Aligned peaks/dips across scales demonstrate consistent $\thetastar$-dependence, with the axiom stabilizing dynamics from flavor to microstructure. This step confirms the axiom's unifying power, with emergent implications for dark energy and matter, arguing for a flavor-origin cosmology grounded in the axiom's principle.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{figures/unified_chain.png}
+\caption{Full unification chain: flavor $\to$ vacuum $\to$ cosmology $\to$ microstructure, showing aligned $\thetastar$ patterns and $\sim 0.7\%$ end-to-end modulation.}
+\label{fig:unified}
+\end{figure}
