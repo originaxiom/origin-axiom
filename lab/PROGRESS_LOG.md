@@ -343,4 +343,21 @@ No further runs needed—the mechanism is demonstrated.
 -
 
 
+### Dec 24, 2025 – Phase B Step 4: Dark Matter Model
+- Script: 15_dark_matter_defects.py (vInitial)
+- Modeled defects as scalar DM; computed relic density Ω_DM h² via freeze-out
+- Results:
+  - Ω_DM h²(θ★) oscillates ~10^{-27} to 2.14e-25 (n_defects=1–10)
+  - Peaks at ~4.0 rad, dip near fiducial 3.63 rad
+  - Higher n_defects increases Ω_DM (more particles)
+  - Observed 0.12; toy underproduces (tunable via sigma_v/m_DM)
+  - Modulation from θ★: ~sin(2θ★) dependence
+- Outputs: lab/data/{figures,processed,raw}/12-24_08-45_dark_matter_defects_...
+- Significance: Defects as DM candidates with flavor-modulated relic density — axiom stabilizes abundance
+- Tagged: vB4-dark-matter
+
+
+-
+
+
 
