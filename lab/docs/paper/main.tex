@@ -1,4 +1,3 @@
-
 \documentclass[11pt,a4paper]{article}
 
 \usepackage{unicode-math}
@@ -18,6 +17,9 @@
 \usepackage{subcaption}
 \usepackage{enumitem}
 
+\usepackage{microtype} % For better hyphenation and overfull fixes
+\raggedbottom % Fix overfull vbox by allowing flexible page bottoms
+
 \usepackage[hidelinks,unicode=true]{hyperref}
 
 \usepackage[
@@ -26,6 +28,7 @@
   maxcitenames=3,
   maxbibnames=99,
   giveninits=true,
+  uniquename=init,
   doi=false,
   isbn=false,
   url=false
@@ -39,9 +42,6 @@
 \newtheorem{lemma}{Lemma}
 \newtheorem{definition}{Definition}
 
-% -------------------------
-% Title block
-% -------------------------
 \title{%
   The Origin Axiom:\\
   A Unifying Framework for Flavor, Vacuum, Cosmology, and Microstructure
@@ -49,17 +49,17 @@
 
 \author{Dritero M.}
 
-\date{\today}
-
+\date{December 24, 2025}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-The question of why the universe exists — why there is something rather than absolute nothingness — has long eluded a principled resolution in physics. We introduce the Origin Axiom: the universe is structurally forbidden from perfect global cancellation, enforced on complex scalar amplitudes $A(\mathcal{C})$ over configuration space, preventing $|A| \to 0$. This axiom, grounded in a unifying phase $\thetastar$ extracted from Standard Model flavor observables (PMNS and CKM matrices, fiducial 3.63 rad, band [2.18, 5.54]), provides a meta-principle that bridges disparate scales of physics.
+The longstanding question of why the universe exists—why there is something rather than absolute nothingness—lacks a principled resolution in physics. We propose the Origin Axiom: the universe is structurally forbidden from perfect global cancellation, enforced on complex scalar amplitudes $A(\mathcal{C})$ over configuration space, ensuring $|A| > \epsilon > 0$ and preventing $|A| \to 0$.
 
-Through systematic, reproducible simulations, we demonstrate how $\thetastar$-modulated seesaw neutrino masses generate a vacuum energy shift in microcavity models ($\sim$2.2\% modulation), which in turn influences cosmological expansion in an FRW framework ($\sim$1\% acceleration in scale factor growth), while stabilizing microstructure in 3D lattices with defects as particle-like structures. The axiom ensures stability across all scales, with emergent implications including flavor-linked dark energy and dark matter candidates. The framework is fully reproducible via open-source code at \url{https://github.com/originaxiom/origin-axiom} and \url{https://github.com/originaxiom/origin-axiom-theta-star}.
+Grounded in a unifying phase $\thetastar$ extracted from Standard Model flavor observables (PMNS and CKM matrices; fiducial value 3.63 rad, band [2.18, 5.54]), this axiom provides a meta-principle bridging disparate physical scales. Systematic simulations demonstrate that $\thetastar$-modulated seesaw neutrino masses induce a vacuum energy shift in microcavity models ($\sim$2.2\% modulation), which propagates to cosmological expansion in an FRW framework ($\sim$1\% acceleration in scale factor growth) and stabilizes microstructure in 3D lattices with defects acting as particle-like structures. The axiom ensures non-zero structure across scales, yielding emergent implications including flavor-linked dark energy and dark matter candidates, quantum gravity-derived parameters, baryogenesis, and testable predictions for observables such as $\theta_{13}$, CMB temperature fluctuations, and $H_0$.
+
 \end{abstract}
 
 \input{sections/01_introduction.tex}
@@ -68,6 +68,7 @@ Through systematic, reproducible simulations, we demonstrate how $\thetastar$-mo
 \input{sections/04_discussion.tex}
 \input{sections/05_conclusion.tex}
 
+\nocite{*}
 \printbibliography
 
 \end{document}

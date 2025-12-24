@@ -2,33 +2,36 @@
 \label{sec:introduction}
 
 \subsection{Philosophical and Physical Motivation}
-The question ``Why is there something rather than nothing?'' has persisted across philosophy and physics for millennia. Classical physics permits a stable vacuum state of absolute nothingness, yet quantum mechanics reveals pervasive fluctuations, suggesting a non-zero baseline. The Origin Axiom addresses this tension by asserting that perfect global cancellation is structurally forbidden in the universe's configuration space.
+The question ``Why is there something rather than nothing?'' has persisted across philosophy and physics for millennia. Classical physics permits a stable vacuum state of absolute nothingness, yet quantum mechanics reveals pervasive vacuum fluctuations, suggesting a non-zero baseline energy density. This tension between classical stability and quantum non-triviality motivates the Origin Axiom: the universe is structurally forbidden from perfect global cancellation, enforced on complex scalar amplitudes $A(\mathcal{C})$ over the space of all possible configurations $\mathcal{C}$.
 
-Formally, consider a complex scalar amplitude $A(\mathcal{C})$ defined over the space of all possible configurations $\mathcal{C}$. The axiom enforces a strict lower bound:
+Formally, the axiom imposes a strict lower bound on the modulus:
 \begin{equation}
 |A(\mathcal{C})| > \epsilon > 0,
+\label{eq:axiom_bound}
 \end{equation}
-where $\epsilon$ is a minimal positive floor (simulated as $\sim 10^{-12}$ in normalized units). This floor prevents $|A| \to 0$, rendering absolute nothingness impossible.
+where $\epsilon$ is a minimal positive floor, derived from quantum gravity considerations (simulated as $\sim 10^{-12}$ in normalized units for computational purposes). This bound prevents $|A| \to 0$, rendering absolute nothingness impossible.
 
-Philosophically, the axiom implies existence is not contingent but inherent — a structural bias against nothingness that favors complexity and differentiation. Intellectually, it offers a principled alternative to fine-tuning arguments: rather than invoking anthropic selection or multiverses, the axiom posits that the universe must exhibit non-zero structure at all scales.
+Philosophically, the axiom implies that existence is not contingent but inherent—a structural bias against nothingness that favors complexity and differentiation. Intellectually, it offers a principled alternative to fine-tuning arguments: rather than invoking anthropic selection or multiverses, the axiom posits that the universe must exhibit non-zero structure at all scales, as enforced by the underlying configuration space geometry.
 
-\subsection{The Unifying Phase $\thetastar$}
-To ground the axiom in empirical physics, we introduce a unifying phase $\thetastar$ extracted from Standard Model flavor observables. $\thetastar$ is derived from the PMNS neutrino mixing matrix and CKM quark mixing matrix, yielding a fiducial value of 3.63 radians with a robust band of [2.18, 5.54] radians (determined from joint fits in the companion repository \texttt{origin-axiom-theta-star}).
+\subsection{The Unifying Phase \texorpdfstring{$\thetastar$}{theta*}}
+To anchor the axiom in empirical physics, we introduce a unifying phase $\thetastar$ extracted from Standard Model flavor observables. $\thetastar$ is determined via joint $\chi^2$ minimization fits to the PMNS neutrino mixing matrix and CKM quark mixing matrix, yielding a fiducial value of 3.63 radians with a robust uncertainty band of $[2.18, 5.54]$ radians (detailed in the companion repository \texttt{origin-axiom-theta-star}).
 
-This phase $\thetastar$ serves as the bridge between flavor phenomenology and scalar dynamics, modulating amplitudes across scales. Simulations demonstrate that $\thetastar$-dependent effects propagate consistently from neutrino masses to vacuum energy, cosmological expansion, and microstructure.
+This phase $\thetastar$ serves as a universal bridge between flavor phenomenology and scalar dynamics. Simulations demonstrate that $\thetastar$-dependent effects propagate consistently across scales—from neutrino masses and vacuum energy modulation to cosmological expansion, microstructure stability, baryogenesis, dark matter relics, and quantum gravity-derived parameters—suggesting a deep underlying unity rooted in the Origin Axiom.
 
 \subsection{Unification Roadmap}
 We demonstrate the axiom's unifying power through a systematic chain of simulations:
 
 \begin{itemize}
-    \item \textbf{Flavor bridge} (Section \ref{sec:flavor}): $\thetastar$-modulated seesaw mechanism reproduces PDG neutrino masses.
-    \item \textbf{Vacuum shift} (Section \ref{sec:vacuum}): Microcavity models show $\sim$2.2\% modulation in energy shift $\Delta E(\thetastar)$.
-    \item \textbf{Cosmological expansion} (Section \ref{sec:cosmology}): FRW evolution with $\Lambda(\thetastar)$ yields $\sim$1\% acceleration in scale factor.
+    \item \textbf{Flavor bridge} (Section \ref{sec:flavor}): $\thetastar$-modulated seesaw mechanism reproduces PDG neutrino masses and mixing.
+    \item \textbf{Vacuum shift} (Section \ref{sec:vacuum}): Microcavity models reveal $\sim$2.2\% modulation in energy shift $\Delta E(\thetastar)$.
+    \item \textbf{Cosmological expansion} (Section \ref{sec:cosmology}): FRW evolution with $\Lambda(\thetastar)$ yields $\sim$1\% acceleration in scale factor growth.
     \item \textbf{Microstructure} (Section \ref{sec:microstructure}): 3D lattices with defects exhibit $\thetastar$-dependent stability.
+    \item \textbf{Quantum gravity foundation} (Section \ref{sec:qg_epsilon}): Derivation of $\epsilon(\thetastar)$ from Planck-scale and holographic principles.
+    \item \textbf{Standard Model compatibility} (Section \ref{sec:sm_integration}): Integration with electroweak symmetry breaking and gauge coupling modulation.
+    \item \textbf{Baryogenesis} (Section \ref{sec:baryogenesis}): $\thetastar$-driven CP asymmetry yielding baryon asymmetry $\eta_B$.
+    \item \textbf{Dark matter} (Section \ref{sec:dark_matter}): Defects as scalar candidates with computed relic density $\Omega_{\text{DM}} h^2$.
+    \item \textbf{Experimental predictions} (Section \ref{sec:predictions}): $\thetastar$-modulated observables including $\theta_{13}$, CMB $\Delta T/T$, and $H_0$.
     \item \textbf{Synthesis} (Section \ref{sec:synthesis}): Full chain reveals aligned patterns and emergent phenomena.
 \end{itemize}
 
 The framework is fully reproducible via open-source code at \url{https://github.com/originaxiom/origin-axiom} and \url{https://github.com/originaxiom/origin-axiom-theta-star}, with git-tagged versions ensuring traceability.
-
-\subsection{Contributions and Scope}
-This work is an exploratory yet rigorous proposal, developed collaboratively with AI assistance. As a non-traditional contributor, the author prioritizes clarity, reproducibility, and intellectual honesty. All results stem from systematic simulations; no claims are made beyond what is demonstrated. The paper aims to invite scrutiny, extension, and collaboration from the scientific community.

@@ -377,4 +377,13 @@ No further runs needed—the mechanism is demonstrated.
 -
 
 
+### Dec 24, 2025 – Paper Draft Finalized & Submitted
+- Full paper structure completed and compiled in /lab/docs/paper/: main.tex + sections 01–06
+- Replaced previous /paper contents with this unified, elaborated draft (vFinal)
+- Sections: Introduction (philosophical grounding), Methods (step-by-step), Results (quantitative findings), Discussion (intellectual arguments), Conclusion (outlook), References
+- Figures referenced from /figures/ (e.g., vacuum_deltaE.png, unified_chain.png)
+- Paper is self-contained, reproducible, and ready for MacTeX compilation
+- Submitted to znodo (DOI: https://doi.org/10.5281/zenodo.18043575)
+- Tagged: v4.2-paper-final-submitted
+
 
