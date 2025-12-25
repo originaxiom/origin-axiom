@@ -1,0 +1,17 @@
+{
+    "timestamp": "12-23_20-08",
+    "theta_star_fid": 3.63,
+    "theta_star_band": [
+        2.18,
+        5.54
+    ],
+    "seed": 42,
+    "lattice_size": 32,
+    "defect_counts": [
+        1,
+        3,
+        5,
+        7,
+        10
+    ]
+}

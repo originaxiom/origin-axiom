@@ -1,0 +1,18 @@
+{
+    "timestamp": "12-22_21-41",
+    "theta_star_fid": 3.63,
+    "theta_star_band": [
+        2.18,
+        5.54
+    ],
+    "seed": 42,
+    "lattice_size": 16,
+    "n_steps": 500,
+    "m_scales_tested": [
+        1e-08,
+        1e-07,
+        1e-06,
+        1e-05,
+        0.0001
+    ]
+}

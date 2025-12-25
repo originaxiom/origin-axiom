@@ -1,0 +1,28 @@
+[project]
+name = "origin-axiom"
+version = "0.1.0"
+description = "Origin Axiom research codebase (Phase 1 reproducible build)."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+phase1 = [
+  "snakemake>=8.0",
+  "jinja2>=3.1",
+  "rich>=13.0",
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["phase1/tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100

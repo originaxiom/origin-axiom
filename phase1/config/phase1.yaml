@@ -1,0 +1,19 @@
+phase1:
+  seed: 42
+
+phasor_toy:
+  n_trials: 2000
+  n_modes_list: [10, 30, 100, 300]
+  eps: 1.0e-3
+  # Keep θ-agnostic: just show behavior vs twist away from π
+  twist_angles: [3.14, 3.10, 3.05, 3.00, 2.90]
+
+lattice:
+  eps: 1.0e-2
+  sizes: [16, 24]         # keep small at first; later we widen
+  steps: 300
+  dt: 0.05
+
+outputs:
+  run_dir: "phase1/outputs/runs"
+  fig_dir: "phase1/outputs/figures"

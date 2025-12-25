@@ -1,0 +1,6 @@
+Phase B Step 5: Experimental Predictions
+Date: 12-24_08-53
+θ★ fiducial: 3.630 rad
+Max ΔT/T: 2.46e-12
+H0 range: 68.05 to 68.16 km/s/Mpc
+Observed H0 tension: 67.4 vs 73.0

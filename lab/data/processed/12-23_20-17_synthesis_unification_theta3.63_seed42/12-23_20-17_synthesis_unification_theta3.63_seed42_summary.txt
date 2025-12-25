@@ -1,0 +1,7 @@
+Phase 4 Synthesis Summary
+Date: 12-23_20-17
+θ★ fiducial: 3.630 rad
+Band: [2.18, 5.54]
+Max ΔE modulation: ~2.2%
+Max a_final acceleration: ~1.0%
+Microstructure |A| oscillates ~±1.5

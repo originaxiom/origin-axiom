@@ -1,0 +1,5 @@
+Phase B Step 1: QG Hints for ε
+Date: 12-24_00-35
+θ★ fiducial: 3.630 rad
+Derived ε range: 1.25e-37 to 1.61e-35
+Modulation from θ★: ~sin(θ★) dependence

@@ -1,0 +1,11 @@
+{
+    "timestamp": "12-23_19-59",
+    "theta_star_fid": 3.63,
+    "theta_star_band": [
+        2.18,
+        5.54
+    ],
+    "seed": 42,
+    "lattice_size": 32,
+    "n_defects": 5
+}

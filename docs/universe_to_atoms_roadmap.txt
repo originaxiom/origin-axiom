@@ -1,0 +1,129 @@
+# Universe → Atoms Roadmap (Acts VI–VIII)
+
+This note is for us (Biri + Dritëro) as an internal scaffold. It is *not* a final paper text, but a map of what we’re doing next and why.
+
+We assume:
+- Act II has delivered a flavour-informed prior for the master phase θ★.
+- Acts III–V built the non-cancelling cancellation system, 1D twisted vacua, and the microcavity ΔE(θ★) toy.
+- Act VI is the FRW + observable-corridor bridge on top of that.
+
+The goal for Acts VI–VIII is to stitch **universe → vacuum → flavour → atoms** in a clean, rung-by-rung way, with explicit scripts and logs just like we did for the cosmology side.
+
+---
+
+## Act VI (status: in progress, cosmology bridge)
+
+**Theme:** From microcavity ΔE(θ★) to an observable FRW + growth corridor that looks ΛCDM-like.
+
+Already in place (via R9–R24):
+- **R9–R10**: FRW observables for the effective vacuum slice (ΩΛ(θ★), t₀, q₀, d_L(z)).
+- **R12–R16**: θ★-band scan + observable corridor cuts + linear growth D(a; θ★) and D_rel(a=1).
+- **R19–R21**: Physical scales: ρ_Λ vs ρ_Pl, E_Λ ≈ few meV, relation to a reference ν-scale.
+- **R22–R24**: Comparison of the θ★ corridor to an internal ΛCDM backbone (ages, distances, growth, σ₈-like proxy).
+
+What Act VI is *claiming* at the end:
+- A **continuous θ★ corridor** where the microcavity-backed effective vacuum produces:
+  - ΩΛ ≈ 0.6–0.8,
+  - t₀ ≈ 12–15 Gyr for H₀ ≈ 70 km/s/Mpc,
+  - q₀ < 0 and a growth suppression D_rel(a=1) ≈ 0.73–0.83 relative to EdS.
+- Inside this corridor, a θ★ slice close to the flavour fiducial (θ★ ≈ 3.6 rad) is **indistinguishable at the few-percent level** (for distances and growth) from an internal ΛCDM reference with (Ω_m, Ω_Λ) ≈ (0.3, 0.7).
+- We are *not* yet predicting Λ from first principles; we are showing that the **same θ★ dial that works in flavour can live in a cosmologically acceptable window** once passed through the non-cancelling microcavity.
+
+Act VI TODO (light-weight):
+- [ ] Keep act6_theta_star_observable_corridor.tex synced with:
+  - FRW band scan + observable corridor (R12–R13),
+  - linear growth scan and σ₈-like ratios (R15–R16, R24),
+  - ΛCDM backbone comparison (R22–R23),
+  - physical scale pivot (R19, R21).
+- [ ] One short “limitations & outlook” paragraph at the end of Act VI explicitly saying:
+  - Scale is calibrated by hand via ΩΛ(fid) = 0.7.
+  - Microcavity is 1D and highly idealised.
+  - No real data is fitted yet; everything is an internal consistency check.
+
+---
+
+## Act VII: θ★, flavour, and microscopic mass scales
+
+**Theme:** Connect the θ★ dial consistently back to the **quark+lepton sector and neutrino scales**, so the cosmology bridge is not floating in isolation.
+
+Planned rungs (draft names):
+- **R25: Flavour → θ★ snapshot (index rung).**
+  - Script: collect the current Act II outputs (PMNS + CKM fits) into a compact JSON/NPZ snapshot:
+    - θ★_fid, θ★ prior band, and a few representative flavour vacua.
+    - Best-fit PMNS/CKM angles and phases at the θ★ fiducial (or small neighbourhood).
+  - Purpose: single source of truth for “what flavour says about θ★ right now”.
+
+- **R26: θ★ vs neutrino mass scales.**
+  - Explore how the **few-meV vacuum scale** E_Λ relates to simple neutrino mass models:
+    - Normal vs inverted ordering.
+    - Rough ranges for Σ m_ν and individual m_i from standard oscillation fits.
+  - Deliverable:
+    - A script that takes a small grid of neutrino masses consistent with oscillation data and compares them to E_Λ.
+    - A plot of “E_Λ / m_ν,ref” or “E_Λ vs m_lightest” to see if there is any non-ridiculous alignment (purely exploratory, clearly labelled as such).
+
+- **R27: Non-cancelling rule as a selection in flavour space.**
+  - Introduce a *toy* cancellation-system cost function in flavour-space (e.g. penalising combinations of Yukawas/mixing angles that produce “too cancelling” structures).
+  - Check whether the current θ★ band lies in a basin of low cost.
+  - This stays purely phenomenological, but sets up a future story where the same non-cancelling principle that shapes the vacuum also disfavors “over-cancelling” flavour structures.
+
+- **R28: Act VII text (θ★ as the shared dial).**
+  - Write act7_theta_star_flavour_and_masses.tex as a narrative bridge:
+    - Start from the flavour prior and microcavity band,
+    - Introduce the meV E_Λ slice,
+    - Discuss neutrino-scale cross-checks,
+    - End with a clear statement of what is **suggestive** vs what is **not yet a prediction**.
+
+---
+
+## Act VIII: From θ★ vacuum to atoms and lab observables
+
+**Theme:** Show that a θ★-labelled vacuum can, in principle, leave **small but structured fingerprints in atomic/condensed-matter scales**, even if the current model is still very toy.
+
+Planned rungs (draft names):
+- **R29: Toy coupling of E_Λ to an atomic scale.**
+  - Take a minimal toy model (e.g. hydrogen-like energy level, or a simple lattice with a bound state).
+  - Let one parameter (mass, coupling, or background potential) depend weakly on θ★ via the same non-cancelling rule.
+  - Quantify how big the induced fractional shift would be in a lab-scale observable (energy level, phonon frequency, etc.).
+  - The goal is *sign and scaling*, not an actual prediction for a specific atom.
+
+- **R30: Sanity bounds from existing precision tests.**
+  - Cross-check that any θ★-induced shifts we play with in R29 are not already ruled out by precision measurements of atomic spectra or equivalence-principle tests (even in back-of-envelope form).
+  - This will likely constrain how strongly we are allowed to couple θ★ to ordinary matter in future, more realistic models.
+
+- **R31: Act VIII text and global “Universe → atoms” stitch.**
+  - Draft act8_theta_star_atoms_and_observables.tex with:
+    - A clear description of how the non-cancelling rule and θ★ move from:
+      - 1D twisted vacua → microcavity ΔE(θ★),
+      - → effective vacuum ΩΛ(θ★) and FRW,
+      - → flavour priors and neutrino-scale checks,
+      - → toy atomic / condensed-matter sensitivities.
+    - A brutally honest “status” section:
+      - What is actually computed and reproducible in the repo.
+      - Where the free knobs still are (e.g. scaling S, toy couplings).
+      - What would need to be done for a **real** prediction (e.g. embedding in a concrete QFT, matching to data).
+
+---
+
+## Near-term priorities (what we should actually do next)
+
+After R24 and the Act VI file, the next concrete steps are:
+
+1. **R25 – Flavour → θ★ snapshot (implementation)**
+   - Write a small script, e.g. `scripts/build_theta_star_flavour_snapshot.py`, that:
+     - Reads the Act II outputs (current format: PMNS/CKM cards + θ★ prior config),
+     - Produces a compact JSON/NPZ file with θ★_fid, prior band, and a handful of flavour observables at that slice.
+   - Log it in PROGRESS_LOG with a short “what this rung adds”.
+
+2. **R26 – θ★ vs neutrino scales (exploratory)**
+   - Implement a self-contained script (no external data) that:
+     - Hard-codes a reasonable oscillation-consistent set of neutrino masses (normal ordering),
+     - Computes E_Λ from the effective vacuum (we already have this from R21),
+     - Prints and optionally plots simple ratios like E_Λ / m_ν,ref and E_Λ / Σ m_ν.
+   - Make sure it is clearly labelled as “exploratory sanity check, not a prediction”.
+
+Once these two rungs exist and are logged, we’ll be ready to:
+- Write an initial Act VII skeleton .tex file,
+- Decide where, if anywhere, the non-cancelling rule is allowed to actually talk to Standard Model couplings without contradicting existing data.
+
+This roadmap file is meant as our **living checklist**.
+When a rung is completed and logged, we can come back here, tick it off, and update paths / filenames if they move.

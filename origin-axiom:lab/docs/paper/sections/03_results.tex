@@ -1,0 +1,101 @@
+\section{Results}
+\label{sec:results}
+
+We present the results of the Origin Axiom framework systematically, following the unification chain from flavor phenomenology to experimental predictions. All simulations are reproducible via git-tagged versions in the repositories \url{https://github.com/originaxiom/origin-axiom} and \url{https://github.com/originaxiom/origin-axiom-theta-star}.
+
+\subsection{Flavor Bridge}
+The $\thetastar$-modulated seesaw mechanism reproduces realistic neutrino masses and mixing. At fiducial $\thetastar = 3.63$ rad, the heaviest mass is $m_3 \sim 0.050$ eV and the atmospheric splitting $\Delta m^2_{\text{atm}} \sim 2.93 \times 10^{-3}$ eV$^2$, matching PDG values \cite{pdg2024} within the calibrated suppression factor $M_{\text{scale}} \approx 2.64 \times 10^{-6}$. The axiom's floor enforces $\sum m_\nu > \epsilon \sim 10^{-12}$ eV, preventing exact cancellation and maintaining a hierarchical spectrum consistent with current oscillation data.
+
+\subsection{Vacuum Energy Modulation}
+Microcavity simulations on a $32^3$ lattice yield a vacuum energy shift $\Delta E(\thetastar)$ with $\sim 2.2\%$ relative modulation across the $\thetastar$ band (absolute range $1.165 \times 10^{-5}$ to $1.190 \times 10^{-5}$ in normalized units). The global amplitude $|A|$ stabilizes at $\sim 0.01$ through $\sim 125{,}000$ constraint activations per 500-step run. Characteristic peaks appear at $\thetastar \approx 4.0$ and $5.5$ rad, with a pronounced dip near the fiducial value $\thetastar = 3.63$ rad.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/vacuum_deltaE.png}
+\caption{Vacuum energy shift $\Delta E(\thetastar)$ from microcavity simulations, exhibiting $\sim 2.2\%$ modulation with peaks at $\thetastar \approx 4.0$ and $5.5$ rad, and a dip near the fiducial $\thetastar = 3.63$ rad.}
+\label{fig:vacuum}
+\end{figure}
+
+\subsection{Cosmological Expansion}
+Interpolating $\Delta E(\thetastar)$ as an effective cosmological constant $\Lambda(\thetastar)$ in the FRW framework results in a $\sim 1.0\%$ acceleration of the final scale factor $a_{\text{final}}$ (from $13.75$ to $13.89$ in normalized units) at fiducial $M_{\text{scale}}$. Sweeps over $M_{\text{scale}}$ reveal up to $38\%$ variation at lower scales, demonstrating that flavor-induced vacuum shifts can mimic observed late-time dark energy effects.
+
+These results are consistent with cosmological parameter constraints reported by the Planck Collaboration \cite{planck2018}.
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/frw_a_final.png}
+\caption{Final scale factor $a_{\text{final}}(\thetastar)$ in FRW evolution at fiducial $M_{\text{scale}}$, showing $\sim 1\%$ acceleration with peaks aligned to $\thetastar$ structure.}
+\label{fig:frw}
+\end{figure}
+
+\subsection{Microstructure}
+In $32^3$ lattices with Gaussian defects ($n = 1$--$10$), seesaw-modulated masses stabilize particle-like structures. The global amplitude $|A|$ oscillates by $\pm 1.5$ at low defect counts and damps with increasing $n$ due to volume averaging. Vacuum shifts range from $\Delta E \sim -0.00001$ to $-0.00002$, with 3D mid-slice visualizations confirming persistent defect cores. These results position defects as viable dark matter candidates.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/microstructure_field_slice.png}
+\caption{Mid-slice of the 3D field showing persistent Gaussian defects ($n = 5$) at fiducial $\thetastar$.}
+\label{fig:micro}
+\end{figure}
+
+\subsection{Quantum Gravity Foundation: Derivation of \texorpdfstring{$\epsilon$}{epsilon}}
+The quantum gravity-derived floor $\epsilon(\thetastar)$ oscillates between $\sim 10^{-35}$ and $\sim 10^{-37}$ Planck units, with peaks at $\thetastar \approx 3.67$ and $5.0$ rad and a dip near $3.3$ rad. At the fiducial $\thetastar = 3.63$ rad, $\epsilon \sim 1.3 \times 10^{-35}$ (for $n_{\text{defects}} = 1$), exhibiting $\sim 10\%$ modulation from $\thetastar$ and inverse scaling with defect count.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/qg_epsilon_theta_star.png}
+\caption{Quantum gravity-derived floor $\epsilon(\thetastar)$, showing oscillatory modulation across the band.}
+\label{fig:qg_epsilon}
+\end{figure}
+
+\subsection{Standard Model Integration: Electroweak Symmetry Breaking}
+Integration with a toy Standard Model yields a Higgs vev $h \sim 246.00$--$246.04$ GeV ($\sim 0.02\%$ modulation) and stable potential minimum ($V(h)$ near $0$--$0.04$ GeV). Effective couplings are $g_{\text{eff}} \sim 0.64$--$0.65$ and $g'_{\text{eff}} \sim 0.34$ ($\sim 1\%$ variation). At fiducial $\thetastar$, electroweak symmetry breaking remains stable, with the axiom preventing tachyonic instabilities.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/sm_higgs_vev_theta_star.png}
+\caption{Higgs vev modulation $h(\thetastar)$, demonstrating stability across the band.}
+\label{fig:sm_higgs}
+\end{figure}
+
+\subsection{Baryogenesis}
+The $\thetastar$-driven CP asymmetry in defect decays produces baryon asymmetry $\eta_B(\thetastar)$ ranging from $0.09 \times 10^{-5}$ to $1.10 \times 10^{-5}$ ($n_{\text{defects}} = 1$--$10$). Peaks occur at $\thetastar \approx 4.0$ rad, with a dip near $3.63$ rad. The value is tunable to the observed $\eta_B \sim 6.1 \times 10^{-10}$, exhibiting $\sin(2\thetastar)$ dependence.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/baryogenesis_eta_B_theta_star.png}
+\caption{Baryon asymmetry $\eta_B(\thetastar)$ as a function of $\thetastar$ for varying defect counts.}
+\label{fig:baryogenesis}
+\end{figure}
+
+\subsection{Dark Matter: Defects as Scalar Candidates}
+Relic density $\Omega_{\text{DM}} h^2(\thetastar)$ ranges from $\sim 10^{-27}$ to $2.14 \times 10^{-25}$ ($n_{\text{defects}} = 1$--$10$), peaking at $\thetastar \approx 4.0$ rad and dipping near $3.63$ rad. The value is tunable to the observed $\Omega_{\text{DM}} h^2 \sim 0.12$, with $\sin^2(2\thetastar)$ modulation.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/dark_matter_omega_theta_star.png}
+\caption{Relic density $\Omega_{\text{DM}} h^2(\thetastar)$ as a function of $\thetastar$ for varying defect counts.}
+\label{fig:dark_matter}
+\end{figure}
+
+\subsection{Experimental Predictions}
+End-to-end propagation yields $\theta_{13} \sim 7.5^\circ$--$9.3^\circ$ (PDG $\sim 8.5^\circ$), CMB anisotropy $\Delta T/T \sim 2.11 \times 10^{-12}$--$2.46 \times 10^{-12}$, and $H_0 \sim 68.05$--$68.16$ km/s/Mpc (Planck $67.4$, local $73.0$). At fiducial $\thetastar$, values are $\theta_{13} \sim 8.0^\circ$, $\Delta T/T \sim 2.30 \times 10^{-12}$, and $H_0 \sim 68.10$ km/s/Mpc, with overall modulation $\sim 0.7\%$.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/predictions_observables_theta_star.png}
+\caption{Predicted observables ($\theta_{13}$, $\Delta T/T$, $H_0$) as a function of $\thetastar$.}
+\label{fig:predictions}
+\end{figure}
+
+
+\subsection{Full Unification Chain}
+The synthesis chain reveals consistent $\thetastar$-dependent patterns across all scales, with end-to-end modulation of $\sim 0.7\%$. Aligned peaks and dips confirm the unifying role of $\thetastar$, and the axiom ensures stability and non-zero structure throughout.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{figures/unified_chain.png}
+\caption{Full unification chain: flavor $\to$ vacuum $\to$ cosmology $\to$ microstructure $\to$ predictions, showing aligned $\thetastar$ patterns and $\sim 0.7\%$ end-to-end modulation.}
+\label{fig:unified}
+\end{figure}

@@ -1,0 +1,6 @@
+Phase 2 Polished Summary
+Date: 12-23_19-16
+θ★ fiducial: 3.630 rad
+Band: [2.18, 5.54]
+Max seesaw a_final: 1.39e+01
+Relative acceleration peak: ~0.2%

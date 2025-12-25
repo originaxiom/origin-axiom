@@ -1,0 +1,6 @@
+Phase 3 Polished Summary
+Date: 12-23_20-08
+θ★ fiducial: 3.630 rad
+Defect counts: [1, 3, 5, 7, 10]
+Max |A| modulation: ~3.0 (peak-to-peak)
+ΔE range: ~ -0.00014 to -0.00013
