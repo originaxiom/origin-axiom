@@ -22,17 +22,25 @@ def phasor_sum(
 ) -> complex:
     """
     Sum of unit phasors with a controlled 'twist' subgroup:
-      - (1 - twist_fraction) of phases are random uniform [0,2π)
+
+      - (1 - twist_fraction) of phases are random uniform [0, 2π)
       - twist_fraction of phases are (random + twist) mod 2π
 
-    This is θ-agnostic: twist is just a misalignment knob away from π-cancellation.
+    Phase-1 θ-agnostic:
+      'twist' is a generic misalignment knob (not θ★). We probe behavior
+      near π (near-maximal cancellation) without privileging a specific
+      irrational constant.
     """
     if n_modes < 2:
         raise ValueError("n_modes must be >= 2")
 
     k = int(round(n_modes * twist_fraction))
     k = max(1, min(k, n_modes - 1))
+
     base = rng.uniform(0.0, 2.0 * np.pi, size=n_modes)
+
+    # NOTE: since base phases are i.i.d. uniform, twisting the first k entries
+    # is equivalent (in distribution) to twisting a random subset of size k.
     base[:k] = (base[:k] + twist) % (2.0 * np.pi)
 
     return np.exp(1j * base).sum()
@@ -75,11 +83,7 @@ def summarize(x: np.ndarray) -> Dict[str, float]:
     }
 
 
-def make_figA(
-    *,
-    cfg: dict,
-    out_path: Path,
-) -> None:
+def make_figA(*, cfg: dict, out_path: Path) -> None:
     seed = int(cfg["phase1"]["seed"])
     n_trials = int(cfg["phasor_toy"]["n_trials"])
     n_modes_list = list(map(int, cfg["phasor_toy"]["n_modes_list"]))
@@ -87,8 +91,7 @@ def make_figA(
     eps = float(cfg["phasor_toy"]["eps"])
     twist_fraction = float(cfg["phasor_toy"].get("twist_fraction", 0.5))
 
-    fig_dir = out_path.parent
-    safe_mkdir(fig_dir)
+    safe_mkdir(out_path.parent)
 
     runs_root = Path(cfg["outputs"]["run_dir"])
     safe_mkdir(runs_root)
@@ -119,15 +122,15 @@ def make_figA(
 
     (run_dir / "results.yaml").write_text(yaml.safe_dump(results, sort_keys=False), encoding="utf-8")
 
+    # Build an index for clean lookups: (N, twist) -> stats
+    idx = {(r["n_modes"], r["twist"]): r for r in results}
+
     plt.figure(figsize=(10, 4))
 
     ax1 = plt.subplot(1, 2, 1)
     for n_modes in n_modes_list:
-        xs, ys = [], []
-        for tw in twists:
-            row = next(r for r in results if r["n_modes"] == n_modes and r["twist"] == tw)
-            xs.append(tw)
-            ys.append(row["raw"]["mean"])
+        xs = list(twists)
+        ys = [idx[(n_modes, tw)]["raw"]["mean"] for tw in twists]
         ax1.plot(xs, ys, marker="o", label=f"N={n_modes}")
     ax1.set_xlabel(r"twist $\theta$ (rad)")
     ax1.set_ylabel(r"$\mathbb{E}[|S|]$ (raw)")
@@ -137,13 +140,10 @@ def make_figA(
 
     ax2 = plt.subplot(1, 2, 2)
     for n_modes in n_modes_list:
-        xs, ys = [], []
-        for tw in twists:
-            row = next(r for r in results if r["n_modes"] == n_modes and r["twist"] == tw)
-            xs.append(tw)
-            ys.append(row["floored"]["mean"])
+        xs = list(twists)
+        ys = [idx[(n_modes, tw)]["floored"]["mean"] for tw in twists]
         ax2.plot(xs, ys, marker="o", label=f"N={n_modes}")
-    ax2.axhline(eps, linestyle="--", linewidth=1.0)
+    ax2.axhline(eps, linestyle="--", linewidth=1.0, label=r"$\varepsilon$")
     ax2.set_xlabel(r"twist $\theta$ (rad)")
     ax2.set_ylabel(r"$\mathbb{E}[\max(|S|,\varepsilon)]$")
     ax2.set_title("Residual with non-cancellation floor")
@@ -159,9 +159,7 @@ def make_figA(
     plt.savefig(out_path, bbox_inches="tight")
     plt.close()
 
-    # copy into run folder
-    run_fig = run_dir / "figA_phasor_toy.pdf"
-    shutil.copy2(out_path, run_fig)
+    shutil.copy2(out_path, run_dir / "figA_phasor_toy.pdf")
 
     meta = RunMeta(
         run_id=run_id,
@@ -183,14 +181,13 @@ def make_figA(
     write_meta(run_dir, meta)
 
 
-def make_figD_eps_scaling(
-    *,
-    cfg: dict,
-    out_path: Path,
-) -> None:
+def make_figD_eps_scaling(*, cfg: dict, out_path: Path) -> None:
     """
-    Fig D: show how the non-cancellation statistic depends on eps.
+    Fig D: show how the floored statistic depends on eps.
     We plot E[max(|S|, eps)] versus eps (log-log), for each N.
+
+    NOTE: For controlled comparison, we reuse the same RNG seed for each eps,
+    so raw samples are identical and only the floor changes.
     """
     seed = int(cfg["phase1"]["seed"])
     n_trials = int(cfg["phasor_toy"]["n_trials"])
@@ -204,15 +201,10 @@ def make_figD_eps_scaling(
 
     eps_vals = np.array([float(e) for e in eps_list], dtype=float)
 
-    # pick a representative twist for the eps scaling.
-    # default: the twist closest to pi (if provided), else first.
-    if twists:
-        tw = min(twists, key=lambda x: abs(x - np.pi))
-    else:
-        tw = float(np.pi)
+    # Representative twist selection policy: closest to π if available.
+    tw = min(twists, key=lambda x: abs(x - np.pi)) if twists else float(np.pi)
 
-    fig_dir = out_path.parent
-    safe_mkdir(fig_dir)
+    safe_mkdir(out_path.parent)
 
     runs_root = Path(cfg["outputs"]["run_dir"])
     safe_mkdir(runs_root)
@@ -241,9 +233,11 @@ def make_figD_eps_scaling(
             {
                 "n_modes": int(n_modes),
                 "twist_used": float(tw),
+                "twist_selection_policy": "closest_to_pi",
                 "eps_list": [float(e) for e in eps_vals],
                 "raw_mean": raw_means,
                 "floored_mean": floor_means,
+                "seed_reused_across_eps": True,
             }
         )
 
@@ -257,7 +251,9 @@ def make_figD_eps_scaling(
     plt.yscale("log")
     plt.xlabel(r"$\varepsilon$")
     plt.ylabel(r"$\mathbb{E}[\max(|S|,\varepsilon)]$")
-    plt.title(f"Phase 1 Fig D — floor scaling vs ε (twist={tw:.3f}, trials={n_trials}, seed={seed}, frac={twist_fraction})")
+    plt.title(
+        f"Phase 1 Fig D — floor scaling vs ε (twist={tw:.3f}, trials={n_trials}, seed={seed}, frac={twist_fraction})"
+    )
     plt.grid(True, which="both", alpha=0.3)
     plt.legend(fontsize=8)
     plt.tight_layout()
@@ -277,11 +273,16 @@ def make_figD_eps_scaling(
             "n_trials": n_trials,
             "n_modes_list": n_modes_list,
             "twist_used": float(tw),
+            "twist_selection_policy": "closest_to_pi",
             "eps_list": [float(e) for e in eps_vals],
             "twist_fraction": twist_fraction,
+            "seed_reused_across_eps": True,
             "mode": "eps_sweep",
         },
-        notes="Fig D: eps sweep; plots E[max(|S|, eps)] vs eps at a representative twist near pi.",
+        notes=(
+            "Fig D: eps sweep; plots E[max(|S|, eps)] vs eps at a representative twist near pi. "
+            "Same RNG seed reused across eps values to isolate the floor effect."
+        ),
     )
     write_meta(run_dir, meta)
 

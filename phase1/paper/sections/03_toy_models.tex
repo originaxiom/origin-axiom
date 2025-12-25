@@ -1,2 +1,83 @@
-\section{Toy Models}
-Introduce finite-dimensional phasor sums and a minimal non-cancellation floor. Reference Fig.~\ref{fig:phasor}.
+\section{Toy Models: Finite Phasor Ensembles}
+\label{sec:toy}
+
+We begin with a finite-dimensional model of cancellation: sums of complex unit phasors.
+Let
+\begin{equation}
+  S \;=\; \sum_{j=1}^{N} e^{i\alpha_j},
+\end{equation}
+with phases $\alpha_j$ drawn from a distribution on $[0,2\pi)$. In typical random ensembles,
+$|S|$ exhibits partial cancellation; a standard expectation is that $|S|$ scales sublinearly with $N$
+(e.g.\ random-walk behavior).
+
+\subsection{A controlled ``twist'' parameter}
+
+To represent a tunable departure from perfect anti-alignment, we introduce a parameter $\theta$ that
+shifts a fraction of phases by a fixed offset. This produces ensembles in which cancellation remains
+strong but is not finely tuned to exact anti-alignment.
+
+\subsection{Incommensurate twists as a non-fine-tuning device (Phase I)}
+\label{sec:irrational_twist}
+
+A common concern is whether near-cancellation might still produce exact zeros at special times or system sizes.
+In finite systems with rational commensurabilities, exact recurrences can occur.
+A minimal way to suppress such recurrences is to avoid commensurability in relative phases,
+for example by choosing $\theta/2\pi \notin \mathbb{Q}$.
+
+Phase I uses this only as a \emph{genericity device}: the point is not that a particular irrational
+is selected, but that exact recurrences become non-generic once commensurability is avoided.
+Accordingly, Phase I remains $\theta$-agnostic: it treats ``irrational'' as a class of choices, not a
+distinguished value. Any later claim that a specific irrational is selected must be justified by an
+independent, non-numerological principle and is explicitly deferred.
+
+\subsection{Non-cancellation floor}
+
+Phase I implements the axiom at the level of the observable residual by considering
+\begin{equation}
+  |S| \mapsto \max(|S|,\epsfloor).
+\end{equation}
+This is not presented as a microphysical law or dynamical equation but as a minimal operational
+encoding of \eqref{eq:axiom} for a toy observable.
+
+\subsection{A baseline cancellation lemma: random phasor sums}
+\label{sec:phasor_lemma}
+
+To quantify typical cancellation without fine-tuning, consider i.i.d.\ phases
+$\alpha_j \sim \mathrm{Unif}(0,2\pi)$ and define
+$S=\sum_{j=1}^N e^{i\alpha_j}$.
+Write $S = X+iY$ with
+$X=\sum \cos\alpha_j$ and $Y=\sum \sin\alpha_j$.
+Then $\mathbb{E}[X]=\mathbb{E}[Y]=0$ and
+$\mathrm{Var}(X)=\mathrm{Var}(Y)=N/2$.
+For large $N$, $(X,Y)$ is approximately a two-dimensional Gaussian with isotropic variance $N/2$,
+so $R=|S|=\sqrt{X^2+Y^2}$ is approximately Rayleigh distributed with scale
+$\sigma=\sqrt{N/2}$, giving
+\begin{equation}
+\mathbb{E}[|S|]\;\approx\;\sigma\sqrt{\frac{\pi}{2}} \;=\;\frac{\sqrt{\pi N}}{2}.
+\label{eq:rayleigh_mean}
+\end{equation}
+Therefore the \emph{intensive} mean amplitude scales as
+\begin{equation}
+\mathbb{E}\!\left[\frac{|S|}{N}\right] \sim \mathcal{O}\!\left(\frac{1}{\sqrt{N}}\right).
+\label{eq:one_over_sqrtN}
+\end{equation}
+
+Equations~\eqref{eq:rayleigh_mean}--\eqref{eq:one_over_sqrtN} provide a clean baseline:
+even without any axiom, typical destructive interference produces a residual that shrinks with system size.
+The \OA{} does not dispute this behavior; it posits that, beyond this generic cancellation,
+\emph{exact} cancellation is forbidden by a global rule.
+
+\subsection{Artifact: Fig A}
+
+Figure~\ref{fig:phasor} shows the ensemble-averaged residual as a function of the twist $\theta$,
+along with the floored variant. The qualitative result is that once the floor is applied,
+the residual cannot drift below $\epsfloor$ even in regimes where unconstrained cancellation
+would produce smaller values.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{../outputs/figures/figA_phasor_toy.pdf}
+  \caption{Phase I Fig A: finite phasor ensemble residual vs.\ twist $\theta$ (raw vs.\ floored).
+  The floored curve enforces $\max(|S|,\epsfloor)$, producing a persistent nonzero baseline.}
+  \label{fig:phasor}
+\end{figure}

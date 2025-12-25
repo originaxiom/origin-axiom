@@ -1,2 +1,76 @@
 \section{Axiom}
-State the Origin Axiom in $\theta$-agnostic form and define $A$ and $\varepsilon$ precisely for Phase I.
+\label{sec:axiom}
+
+\subsection{Minimal statement}
+
+Let a toy system admit a global complex amplitude $A \in \mathbb{C}$ constructed as a sum or mean
+over microscopic degrees of freedom (e.g.\ a collective phasor, order parameter, or amplitude-like
+functional of the state). The \OA{} posits:
+
+\begin{equation}
+  \boxed{|A| > \epsfloor \quad \text{for some fixed } \epsfloor>0.}
+  \label{eq:axiom}
+\end{equation}
+
+Equation~\eqref{eq:axiom} is an \emph{axiom} in Phase I: it is not derived from a local Lagrangian,
+equation of motion, or variational principle. It acts as a global constraint that forbids exact
+destructive cancellation of $A$.
+
+\subsection{Interpretation}
+
+\paragraph{Global / nonlocal character.}
+The constraint is imposed on a global functional of the state, not on local field values or
+pointwise operators. This is intentional: Phase I treats \eqref{eq:axiom} as a conceptual candidate
+mechanism that could arise from topology, boundary conditions, quantum-gravitational selection, or
+other intrinsically nonlocal structures. No such microscopic origin is assumed or derived here.
+
+\paragraph{What is fixed vs.\ free.}
+The axiom introduces a positive parameter $\epsfloor$.
+In Phase I, $\epsfloor$ is treated as a free constant specifying the non-cancellation floor.
+Its numerical value is not predicted at this stage. A central goal of Phase II will be to
+relate or derive $\epsfloor$ from deeper structure and to connect it to a physical energy-density
+scale, if possible.
+
+\paragraph{Relation to cancellation intuition.}
+If microscopic degrees of freedom contribute with varying phases, ordinary destructive
+interference can make $|A|$ parametrically small. The axiom forbids the limit $|A|\to 0$.
+In this restricted sense, the axiom addresses only the structural question
+``why not exactly zero?'' It does not, by itself, determine the magnitude of the residual.
+
+\subsection{Relation to Weinberg-type no-go arguments}
+\label{sec:weinberg}
+
+A well-known obstruction to dynamical ``adjustment mechanisms'' for the cosmological constant is
+that, within broadly standard local effective field theory assumptions, fields introduced to
+cancel vacuum energy generically either fail, destabilize the theory, or reintroduce fine-tuning
+once radiative corrections are included. Weinberg’s classic review summarizes this logic and why
+naive self-adjustment is difficult in local QFT coupled to gravity~\cite{Weinberg1989}.
+
+Phase I does not claim to evade these obstructions within ordinary local EFT. Instead, it
+\emph{changes the starting premise}: the \OA{} is imposed as a \emph{global constraint} on an
+amplitude-like functional of the state, not as a local field equation derived from a standard
+Lagrangian. In this sense, Phase I is explicit about what is being relinquished relative to
+Weinberg’s assumptions: strict locality and standard Wilsonian radiative arguments are not assumed
+at the level of the axiom itself.
+
+This is not offered as a resolution, only as a transparent statement of logical scope.
+If a correct theory contains global or nonlocal selection rules (for example arising from topology,
+boundary conditions, or quantum-gravitational constraints), then Weinberg’s specific premises do
+not apply directly. Phase II must either (i) supply a consistent derivation of such a global rule
+in a UV-complete framework or (ii) demonstrate that an effective description can remain predictive
+despite the presence of nonlocal constraints.
+
+\subsection{Phase I claims governed by the axiom}
+
+Phase I is restricted to the following auditable claims:
+
+\begin{itemize}
+  \item \textbf{C1:} Equation~\eqref{eq:axiom} is postulated as an axiom, not derived.
+  \item \textbf{C2:} In finite phasor ensembles, unconstrained destructive interference generically yields small but nonzero residuals.
+  \item \textbf{C3:} Enforcing \eqref{eq:axiom} in a lattice toy model is dynamically stable (existence proof).
+  \item \textbf{C4:} In unconstrained systems, the mean residual decreases with system size, while the constrained mean saturates at $\epsfloor$.
+  \item \textbf{C5:} Constraint enforcement does not induce order-one pathologies in the toy energy diagnostic within the explored parameter range.
+\end{itemize}
+
+All claims are linked to explicit, reproducible numerical artifacts presented in
+Section~\ref{sec:results}.

@@ -1,22 +1,88 @@
-# Phase 1 Scope (Non-negotiable)
+# Phase 1 — Scope Definition
 
-Phase 1 goal: establish the minimal, θ*-agnostic Origin Axiom core and a proof-of-concept
-demonstration that perfect cancellation is structurally forbidden (|A| > ε), yielding a
-stable non-zero residual amplitude baseline.
+This document defines the **exact scope** of Phase 1 of the Origin Axiom project.
 
-Included in Phase 1:
-- Axiom: |A| > ε as a global non-cancellation constraint (θ*-agnostic)
-- Minimal toy interference model(s): phasor sums / finite-dimensional analogues
-- Minimal lattice demonstration (only as an existence proof): constrained vs unconstrained
-- Scaling check: residual vs system size / number of modes
+Any interpretation, claim, or extrapolation outside this scope is invalid
+for Phase 1 and should be treated as out of bounds.
 
-Explicitly excluded from Phase 1:
-- Any use of θ* extracted from flavor fits
-- Any use of φ or φ^φ as a “selected” value or motivation
-- Flavor phenomenology, CKM/PMNS fits, theta-star repo integration
-- Claims of solving the cosmological constant problem definitively
-- Claims of unification, SM completion, quantum gravity completion
+---
 
-Phase 1 deliverable:
-- 10–20 page paper focusing on (i) axiom formalization, (ii) minimal toy support,
-  (iii) numerical proof-of-concept, (iv) limitations, (v) Phase 2 compatibility notes.
+## 1. Purpose of Phase 1
+
+Phase 1 exists to answer a single foundational question:
+
+**Can a minimal global non-cancellation axiom, imposed on otherwise canceling systems,
+coherently yield a small but strictly nonzero residual?**
+
+Phase 1 is not intended to explain all aspects of cosmology or fundamental physics.
+It is a proof-of-concept stage.
+
+---
+
+## 2. In-Scope Topics
+
+Phase 1 includes only the following:
+
+- Formal statement of the Origin Axiom as a global constraint
+- Minimal toy models demonstrating cancellation frustration
+- Numerical simulations showing a nonzero residual floor
+- Conceptual discussion of implications for vacuum energy
+- Structural relation to known no-go arguments (e.g. Weinberg)
+- Reproducible computational demonstrations
+
+All content in Phase 1 directly serves these goals.
+
+---
+
+## 3. Explicitly Out-of-Scope Topics
+
+Phase 1 explicitly excludes:
+
+- ❌ Derivation of the cosmological constant value
+- ❌ Claims of solving the cosmological constant problem
+- ❌ Particle physics or Standard Model phenomenology
+- ❌ Flavor physics, mixing angles, or θ★
+- ❌ Selection or privileging of specific irrational constants (e.g. φ)
+- ❌ Quantum gravity completion
+- ❌ Inflation, baryogenesis, or dark matter models
+- ❌ Claims of uniqueness or inevitability of the Origin Axiom
+
+Any appearance of these topics in Phase 1 materials is illustrative only
+and must not be interpreted as a physical claim.
+
+---
+
+## 4. Scope of Validity
+
+Results in Phase 1 are valid only within the following limits:
+
+- Toy models are not assumed to be fundamental
+- Numerical results demonstrate qualitative behavior, not precision predictions
+- Scaling arguments are heuristic unless explicitly proven
+- Conclusions are conditional on the assumed axiom
+
+Phase 1 does not establish empirical truth, only internal coherence.
+
+---
+
+## 5. Relationship to Later Phases
+
+Phase 1 is designed to be **self-contained**.
+
+Later phases may:
+- refine models,
+- introduce additional structure,
+- explore phenomenological connections.
+
+However:
+- Phase 1 does not rely on later phases for its validity
+- Failure or modification of later phases does not invalidate Phase 1 results
+
+---
+
+## 6. Interpretation Rule
+
+If a statement, implication, or conclusion is not explicitly supported
+by Phase 1 code, figures, or text, it is **not part of Phase 1**.
+
+This rule supersedes informal interpretation.

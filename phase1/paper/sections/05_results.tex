@@ -1,9 +1,34 @@
 \section{Results}
-\subsection{Phasor demonstration}
-Include Fig A.
+\label{sec:results}
 
-\subsection{Lattice existence proof}
-Include Fig B.
+\subsection{Lattice time evolution: constrained vs.\ unconstrained (Fig.~B)}
 
-\subsection{Scaling}
-Include Fig C.
+Figure~\ref{fig:latticeAmp} shows the time evolution of the mean amplitude magnitude $|\Amean(t)|$ for constrained and unconstrained lattice runs initialized with identical microscopic conditions. In the unconstrained case, destructive interference among lattice degrees of freedom can drive the mean residual to progressively smaller values over time. When the non-cancellation constraint is enforced, this downward drift is arrested: the evolution respects the imposed floor and $|\Amean(t)|$ does not fall below $\epsfloor$.
+
+The qualitative contrast between the two trajectories isolates the effect of the axiom itself. No additional driving, tuning, or modification of the underlying dynamics is introduced; the observed difference arises solely from the presence or absence of the global constraint.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figB_lattice_amplitude.pdf}
+  \caption{Phase I Fig.~B: lattice toy mean amplitude magnitude $|\Amean(t)|$, unconstrained versus constrained. The dashed line indicates the enforced mean-amplitude floor $\epsfloor$.}
+  \label{fig:latticeAmp}
+\end{figure}
+
+\subsection{Scaling with system size (Fig.~C)}
+
+Figure~\ref{fig:scaling} displays the tail-averaged mean residual as a function of system size $N_{\mathrm{sites}}$ on a logarithmic scale. In the absence of a constraint, the residual decreases with increasing system size, consistent with generic enhancement of cancellation in larger ensembles (e.g.\ random-walk–type behavior). By contrast, when the non-cancellation floor is enforced, the residual ceases to decrease and instead saturates at a value set by $\epsfloor$.
+
+This scaling behavior demonstrates that the constraint operates intensively: it does not scale away with increasing volume, nor does it induce growth with system size. Rather, it produces a stable, size-independent baseline once ordinary cancellation has exhausted its effect.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figC_scaling.pdf}
+  \caption{Phase I Fig.~C: scaling of tail-averaged $|\Amean|$ with the number of lattice sites. The unconstrained residual decreases with system size, while the constrained residual saturates near the imposed floor $\epsfloor$.}
+  \label{fig:scaling}
+\end{figure}
+
+\subsection{Energy diagnostic (stored; optional inspection)}
+
+Each lattice run records a diagnostic energy proxy $E(t)$ as part of the raw output artifacts. Phase I does not assert conservation of a physical energy in the presence of a global constraint, nor does it interpret this diagnostic as a realistic vacuum energy. Its purpose is purely diagnostic: to allow inspection of whether constraint enforcement induces obvious order-one instabilities or runaway behavior in the toy dynamics for the chosen parameters.
+
+No such pathologies are evident in the reported runs, within the resolution and scope of the present model. Detailed interpretation of energy-like quantities, and their relation to physical vacuum energy, is deferred to later phases.
