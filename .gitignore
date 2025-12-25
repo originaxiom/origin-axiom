@@ -90,3 +90,17 @@ src/lattice_theta/*.bak
 *.out
 run.sh
 groksrc/
+
+
+
+.snakemake/ 
+phase1/outputs/ 
+*.zip 
+phase1/paper/*.xdv 
+phase1/paper/*.aux 
+phase1/paper/*.log 
+phase1/paper/*.toc 
+phase1/paper/*.out 
+phase1/paper/*.fls 
+phase1/paper/*.fdb_latexmk
+phase1/paper/*.synctex.gz
