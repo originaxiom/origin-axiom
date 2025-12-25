@@ -7,6 +7,8 @@ phasor_toy:
   eps: 1.0e-3
   # Keep θ-agnostic: just show behavior vs twist away from π
   twist_angles: [3.14, 3.10, 3.05, 3.00, 2.90]
+  twist_fraction: 0.5
+  eps_list: [1.0e-4, 3.0e-4, 1.0e-3, 3.0e-3, 1.0e-2]
 
 lattice:
   eps: 1.0e-2
@@ -17,3 +19,5 @@ lattice:
 outputs:
   run_dir: "phase1/outputs/runs"
   fig_dir: "phase1/outputs/figures"
+
+
