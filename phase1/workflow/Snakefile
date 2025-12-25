@@ -1,0 +1,73 @@
+# Phase 1 Snakemake workflow for the Origin Axiom project
+# Reproducible pipeline: toy models -> figures -> paper
+
+from pathlib import Path
+
+BASEDIR = Path(workflow.basedir).resolve()     # .../origin-axiom/phase1/workflow
+ROOT    = BASEDIR.parents[1]                   # .../origin-axiom
+P1      = ROOT / "phase1"
+CFG     = P1 / "config" / "phase1.yaml"
+
+OUT_RUNS  = P1 / "outputs" / "runs"
+OUT_FIGS  = P1 / "outputs" / "figures"
+PAPER_DIR = P1 / "paper"
+PAPER_PDF = PAPER_DIR / "main.pdf"
+
+assert CFG.exists(), f"Missing config file: {CFG}"
+configfile: str(CFG)
+
+
+rule all:
+    input:
+        OUT_FIGS / "figA_phasor_toy.pdf",
+        OUT_FIGS / "figB_lattice_amplitude.pdf",
+        OUT_FIGS / "figC_scaling.pdf",
+        PAPER_PDF
+
+rule figA_phasor_toy:
+    output:
+        OUT_FIGS / "figA_phasor_toy.pdf"
+    shell:
+        r"""
+        python -m phase1.src.phase_floor --config {CFG} --out {output}
+        """
+
+rule figB_lattice_amplitude:
+    output:
+        OUT_FIGS / "figB_lattice_amplitude.pdf"
+    shell:
+        r"""
+        python -m phase1.src.lattice_driver --config {CFG} --mode amplitude --out {output}
+        """
+
+rule figC_scaling:
+    output:
+        OUT_FIGS / "figC_scaling.pdf"
+    shell:
+        r"""
+        python -m phase1.src.lattice_driver --config {CFG} --mode scaling --out {output}
+        """
+
+rule paper:
+    input:
+        OUT_FIGS / "figA_phasor_toy.pdf",
+        OUT_FIGS / "figB_lattice_amplitude.pdf",
+        OUT_FIGS / "figC_scaling.pdf",
+        PAPER_DIR / "main.tex",
+        PAPER_DIR / "references.bib",
+        expand(str(PAPER_DIR / "sections" / "{s}.tex"), s=[
+            "00_preamble",
+            "01_intro",
+            "02_axiom",
+            "03_toy_models",
+            "04_methods",
+            "05_results",
+            "06_limitations",
+            "07_conclusion"
+        ])
+    output:
+        PAPER_PDF
+    shell:
+        r"""
+        cd {PAPER_DIR} && latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
+        """

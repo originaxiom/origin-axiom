@@ -1,0 +1,4 @@
+$pdf_mode = 1;
+$pdflatex = 'xelatex -interaction=nonstopmode -halt-on-error %O %S';
+$bibtex_use = 2;
+$recorder = 1;
