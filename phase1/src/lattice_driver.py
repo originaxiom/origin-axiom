@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, Tuple
 
@@ -22,15 +23,9 @@ from .utils_meta import (
 def _import_upstream_toy_universe():
     """
     Import upstream lattice implementation from repo's /src without modifying it.
-
-    Assumes repo layout:
-        <repo-root>/src/toy_universe_lattice/...
-
-    NOTE:
-    This Phase-1 driver intentionally treats upstream as a black box and
-    only applies configuration + logging + plotting.
+    Assumes repo layout: <root>/src/toy_universe_lattice/...
     """
-    root = Path(__file__).resolve().parents[2]  # phase1/src -> phase1 -> repo-root
+    root = Path(__file__).resolve().parents[2]
     upstream_src = root / "src"
     if str(upstream_src) not in sys.path:
         sys.path.insert(0, str(upstream_src))
@@ -44,12 +39,6 @@ def _import_upstream_toy_universe():
 def make_initial_conditions(
     seed: int, n_sites: int, init_sigma: float, init_phi_dot_sigma: float
 ) -> Tuple[np.ndarray, np.ndarray]:
-    """
-    Deterministic complex Gaussian initial conditions for phi and phi_dot.
-
-    Using the same seed ensures constrained/unconstrained runs start from the
-    identical initial state, so differences are attributable to the constraint.
-    """
     rng = np.random.default_rng(seed)
 
     # Complex Gaussian field, iid per site
@@ -81,15 +70,6 @@ def run_lattice_once(
     init_phi_dot_sigma: float,
     with_constraint: bool,
 ) -> Dict[str, np.ndarray]:
-    """
-    Run a single lattice simulation and return time series arrays.
-
-    IMPORTANT INTERPRETATION NOTE:
-    - The upstream universe is instantiated as a cubic lattice: (size, size, size).
-    - The constraint is defined upstream on the SUM amplitude A_sum.
-      Phase 1 constrains the MEAN amplitude A_mean = A_sum / N_sites.
-      Therefore: eps_sum = eps_mean * N_sites.
-    """
     ScalarToyUniverse, hard_constraint_factory = _import_upstream_toy_universe()
 
     nx = ny = nz = int(size)
@@ -97,19 +77,15 @@ def run_lattice_once(
 
     n_sites = uni.phi.size
     phi0, phi_dot0 = make_initial_conditions(seed, n_sites, init_sigma, init_phi_dot_sigma)
-
-    # Upstream lattice expects phi shaped like (nx, ny, nz), not flattened.
-    phi0 = phi0.reshape(uni.phi.shape)
-    phi_dot0 = phi_dot0.reshape(uni.phi.shape)
-
     uni.set_initial_conditions(phi0, phi_dot0)
 
-    # Convert mean-floor -> sum-floor for upstream constraint
+    # We constrain MEAN amplitude, but upstream constraint acts on SUM amplitude A_sum.
+    # Convert eps_mean -> eps_sum.
     eps_sum = float(eps_mean) * float(n_sites)
 
     constraint = None
     if with_constraint:
-        # A_ref=0: forbidden disk centered at A=0 (θ-agnostic in Phase 1)
+        # A_ref = 0 => forbidden disc centered at A=0; theta irrelevant (θ-agnostic).
         constraint = hard_constraint_factory(theta_star=0.0, epsilon=eps_sum, A_ref=0.0)
 
     t = np.arange(steps + 1, dtype=float) * dt
@@ -130,7 +106,6 @@ def run_lattice_once(
         "A_mean": A_mean,
         "A_abs": np.abs(A_mean).astype(float),
         "E": E,
-        # If upstream exposes constraint hit counters, capture them. Otherwise 0.
         "constraint_hits": np.array([int(getattr(uni, "constraint_hits", 0))], dtype=int),
         "n_sites": np.array([int(n_sites)], dtype=int),
         "eps_mean": np.array([float(eps_mean)], dtype=float),
@@ -139,9 +114,6 @@ def run_lattice_once(
 
 
 def compute_final_stat(A_abs: np.ndarray, burn_in_frac: float) -> Dict[str, float]:
-    """
-    Compute tail statistics of |A_mean| after discarding burn-in fraction.
-    """
     n = len(A_abs)
     start = int(np.floor(n * burn_in_frac))
     tail = A_abs[start:] if start < n else A_abs
@@ -151,18 +123,6 @@ def compute_final_stat(A_abs: np.ndarray, burn_in_frac: float) -> Dict[str, floa
         "p05_tail": float(np.quantile(tail, 0.05)),
         "p95_tail": float(np.quantile(tail, 0.95)),
     }
-
-
-def _read_eps_mean(lat_cfg: dict) -> float:
-    """
-    Phase 1 canonical lattice floor key is `eps` (config/phase1.yaml).
-    Backward-compatible alias: `eps_mean`.
-    """
-    if "eps" in lat_cfg:
-        return float(lat_cfg["eps"])
-    if "eps_mean" in lat_cfg:
-        return float(lat_cfg["eps_mean"])
-    raise KeyError("lattice.eps (canonical) or lattice.eps_mean (legacy) is required in config")
 
 
 def main() -> None:
@@ -176,7 +136,7 @@ def main() -> None:
     seed = int(cfg["phase1"]["seed"])
 
     lat = cfg["lattice"]
-    eps_mean = _read_eps_mean(lat)
+    eps_mean = float(lat["eps_mean"])
     sizes = list(map(int, lat["sizes"]))
     steps = int(lat["steps"])
     dt = float(lat["dt"])
@@ -202,29 +162,15 @@ def main() -> None:
         safe_mkdir(run_dir)
 
         unc = run_lattice_once(
-            size=size,
-            steps=steps,
-            dt=dt,
-            c=c,
-            m=m,
-            lam=lam,
-            seed=seed,
-            eps_mean=eps_mean,
-            init_sigma=init_sigma,
-            init_phi_dot_sigma=init_phi_dot_sigma,
+            size=size, steps=steps, dt=dt, c=c, m=m, lam=lam,
+            seed=seed, eps_mean=eps_mean,
+            init_sigma=init_sigma, init_phi_dot_sigma=init_phi_dot_sigma,
             with_constraint=False,
         )
         con = run_lattice_once(
-            size=size,
-            steps=steps,
-            dt=dt,
-            c=c,
-            m=m,
-            lam=lam,
-            seed=seed,
-            eps_mean=eps_mean,
-            init_sigma=init_sigma,
-            init_phi_dot_sigma=init_phi_dot_sigma,
+            size=size, steps=steps, dt=dt, c=c, m=m, lam=lam,
+            seed=seed, eps_mean=eps_mean,
+            init_sigma=init_sigma, init_phi_dot_sigma=init_phi_dot_sigma,
             with_constraint=True,
         )
 
@@ -259,7 +205,6 @@ def main() -> None:
             params={
                 "mode": "amplitude",
                 "size": size,
-                "interpreted_as": "cubic lattice (L,L,L)",
                 "steps": steps,
                 "dt": dt,
                 "c": c,
@@ -270,10 +215,7 @@ def main() -> None:
                 "init_sigma": init_sigma,
                 "init_phi_dot_sigma": init_phi_dot_sigma,
                 "burn_in_frac": burn_in_frac,
-                "constraint_definition": (
-                    "forbid |A_mean| < eps_mean implemented via upstream sum constraint "
-                    "with eps_sum = eps_mean * N_sites"
-                ),
+                "constraint_definition": "forbid |A_mean| < eps_mean implemented via upstream sum constraint with eps_sum = eps_mean*N_sites",
             },
             notes="Fig B: compare |A_mean(t)| constrained vs unconstrained using identical initial conditions.",
         )
@@ -287,29 +229,15 @@ def main() -> None:
         rows = []
         for size in sizes:
             unc = run_lattice_once(
-                size=size,
-                steps=steps,
-                dt=dt,
-                c=c,
-                m=m,
-                lam=lam,
-                seed=seed,
-                eps_mean=eps_mean,
-                init_sigma=init_sigma,
-                init_phi_dot_sigma=init_phi_dot_sigma,
+                size=size, steps=steps, dt=dt, c=c, m=m, lam=lam,
+                seed=seed, eps_mean=eps_mean,
+                init_sigma=init_sigma, init_phi_dot_sigma=init_phi_dot_sigma,
                 with_constraint=False,
             )
             con = run_lattice_once(
-                size=size,
-                steps=steps,
-                dt=dt,
-                c=c,
-                m=m,
-                lam=lam,
-                seed=seed,
-                eps_mean=eps_mean,
-                init_sigma=init_sigma,
-                init_phi_dot_sigma=init_phi_dot_sigma,
+                size=size, steps=steps, dt=dt, c=c, m=m, lam=lam,
+                seed=seed, eps_mean=eps_mean,
+                init_sigma=init_sigma, init_phi_dot_sigma=init_phi_dot_sigma,
                 with_constraint=True,
             )
 
@@ -317,15 +245,13 @@ def main() -> None:
             unc_stat = compute_final_stat(unc["A_abs"], burn_in_frac=burn_in_frac)
             con_stat = compute_final_stat(con["A_abs"], burn_in_frac=burn_in_frac)
 
-            rows.append(
-                {
-                    "L": int(size),
-                    "n_sites": n_sites,
-                    "unc": unc_stat,
-                    "con": con_stat,
-                    "constraint_hits": int(con["constraint_hits"][0]),
-                }
-            )
+            rows.append({
+                "L": int(size),
+                "n_sites": n_sites,
+                "unc": unc_stat,
+                "con": con_stat,
+                "constraint_hits": int(con["constraint_hits"][0]),
+            })
 
             # Save each run pair
             np.savez_compressed(run_dir / f"L{size}_unconstrained.npz", **unc)
@@ -334,10 +260,10 @@ def main() -> None:
         # Write summary table
         (run_dir / "scaling_summary.yaml").write_text(
             yaml.safe_dump(rows, sort_keys=False),
-            encoding="utf-8",
+            encoding="utf-8"
         )
 
-        # Plot: mean_tail vs N_sites
+        # Plot: mean_tail vs N_sites (log-x helps)
         nsites = np.array([r["n_sites"] for r in rows], dtype=float)
         unc_y = np.array([r["unc"]["mean_tail"] for r in rows], dtype=float)
         con_y = np.array([r["con"]["mean_tail"] for r in rows], dtype=float)
@@ -348,7 +274,7 @@ def main() -> None:
         plt.axhline(eps_mean, linestyle="--", linewidth=1.0, label=r"$\varepsilon$ (mean floor)")
         plt.xscale("log")
         plt.xlabel(r"$N_{\mathrm{sites}}$")
-        plt.ylabel(r"$\langle |A_{\mathrm{mean}}|\rangle_{\mathrm{tail}}$")
+        plt.ylabel(r"$\langle |A_{\mathrm{mean}}|\\rangle_{\mathrm{tail}}$")
         plt.title(f"Phase 1 Fig C — scaling of mean residual vs size (steps={steps}, seed={seed})")
         plt.grid(True, alpha=0.3)
         plt.legend()
@@ -367,7 +293,6 @@ def main() -> None:
             params={
                 "mode": "scaling",
                 "sizes": sizes,
-                "interpreted_as": "cubic lattices (L,L,L)",
                 "steps": steps,
                 "dt": dt,
                 "c": c,
@@ -378,7 +303,7 @@ def main() -> None:
                 "init_sigma": init_sigma,
                 "init_phi_dot_sigma": init_phi_dot_sigma,
                 "burn_in_frac": burn_in_frac,
-                "constraint_definition": "mean floor via upstream sum constraint eps_sum = eps_mean * N_sites",
+                "constraint_definition": "mean floor via upstream sum constraint eps_sum = eps_mean*N_sites",
             },
             notes="Fig C: scaling of tail-averaged |A_mean| with/without constraint; expects unconstrained decay ~1/sqrt(N).",
         )

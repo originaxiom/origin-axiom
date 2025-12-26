@@ -1,0 +1,17 @@
+{
+  "constraint_fires": 0,
+  "invalid_errors_unique": [],
+  "n_points_invalid": 0,
+  "n_points_total": 3,
+  "n_points_valid": 3,
+  "output_files": {
+    "figure": "figures/scaling_cutoff.pdf",
+    "raw_table": "raw/sweep_table.csv"
+  },
+  "residual_constrained": {
+    "max": 18.640648476264552,
+    "median": 5.5921945428793665,
+    "min": 1.8640648476264552
+  },
+  "sweep": "cutoff"
+}

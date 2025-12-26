@@ -1,0 +1,20 @@
+{
+  "n_points": 4,
+  "output_files": {
+    "figure": "figures/scaling_epsilon.pdf",
+    "raw": "raw/sweep_epsilon.npz"
+  },
+  "residuals": [
+    1.8640648476264552,
+    1.8640648476264552,
+    1.8640648476264552,
+    1.8640648476264552
+  ],
+  "sweep": "epsilon",
+  "values": [
+    1e-10,
+    1e-11,
+    1e-12,
+    1e-13
+  ]
+}
