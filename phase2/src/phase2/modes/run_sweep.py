@@ -16,20 +16,8 @@ from phase2.modes.mode_model import run_mode_sum
 from phase2.observables import plot_scaling_curve, summarize_result
 
 
-# ============================================================
-# Origin Axiom — Phase 2
-# Parameter sweep runner (Figures B, C, D)
-#
-# Contract (HARD):
-# - Always creates <run>/figures/
-# - Always writes exactly ONE scaling PDF
-# - Filename is deterministic per sweep
-# - Raises on invalid or empty sweeps
-# ============================================================
-
-
 def _parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Phase 2 sweep runner.")
+    p = argparse.ArgumentParser()
     p.add_argument("--config", required=True, help="Path to config/phase2.yaml")
     p.add_argument(
         "--sweep",
@@ -54,48 +42,67 @@ def _get_sweep_cfg(cfg: Dict[str, Any], name: str) -> Dict[str, Any]:
     return sweep_cfg
 
 
+def _apply_sweep_value(cfg: Dict[str, Any], *, sweep_name: str, val: float) -> None:
+    """Patch a *resolved* config dict in-place for a single sweep value.
+
+    IMPORTANT: Patch the same keys that the model reads.
+    See: phase2.modes.mode_model.run_mode_sum()
+    """
+    if sweep_name == "epsilon":
+        # Model reads: model.epsilon.value
+        model = cfg.setdefault("model", {})
+        eps_block = model.get("epsilon", {})
+        if isinstance(eps_block, dict):
+            eps_block["value"] = float(val)
+            model["epsilon"] = eps_block
+        else:
+            model["epsilon"] = float(val)
+
+    elif sweep_name == "cutoff":
+        # Model reads: mode_sum.cutoff.value
+        ms = cfg.setdefault("mode_sum", {})
+        cutoff = ms.setdefault("cutoff", {})
+        cutoff["value"] = float(val)
+        ms["cutoff"] = cutoff
+
+    elif sweep_name == "n_modes":
+        # Model reads: mode_sum.n_modes
+        ms = cfg.setdefault("mode_sum", {})
+        ms["n_modes"] = int(val)
+
+    else:
+        raise ValueError(f"Unknown sweep_name: {sweep_name!r}")
+
+
 def main() -> None:
     args = _parse_args()
     sweep_name = args.sweep
     run_id = str(args.run_id)
     config_path = Path(args.config).resolve()
 
-    # ------------------------------------------------------------
     # Setup run + provenance
-    # ------------------------------------------------------------
     cfg_raw, paths, meta, repo_root = setup_run(
         config_path=config_path,
         run_id=run_id,
         task=f"sweep_{sweep_name}",
     )
 
-    # Reload frozen config snapshot
+    # Reload frozen config snapshot (resolved, reference-free)
     with paths.params_json.open("r", encoding="utf-8") as f:
         cfg: Dict[str, Any] = json.load(f)
 
-    # ------------------------------------------------------------
     # Resolve sweep definition
-    # ------------------------------------------------------------
     sweep_cfg = _get_sweep_cfg(cfg, sweep_name)
     sweep_values: List[float] = list(sweep_cfg["values"])
 
-    # ------------------------------------------------------------
     # Execute sweep
-    # ------------------------------------------------------------
     x_vals: List[float] = []
     y_vals: List[float] = []
     summaries: List[Dict[str, Any]] = []
 
     for val in sweep_values:
-        # Patch config copy for this run
-        cfg_local = json.loads(json.dumps(cfg))  # deep copy
-
-        if sweep_name == "epsilon":
-            cfg_local["mode_sum"]["epsilon"] = float(val)
-        elif sweep_name == "cutoff":
-            cfg_local["mode_sum"]["cutoff_value"] = float(val)
-        elif sweep_name == "n_modes":
-            cfg_local["mode_sum"]["n_modes"] = int(val)
+        cfg_local = json.loads(json.dumps(cfg))
+        _apply_sweep_value(cfg_local, sweep_name=sweep_name, val=float(val))
 
         res = run_mode_sum(cfg_local)
 
@@ -103,30 +110,24 @@ def main() -> None:
         y_vals.append(float(res.residual_constrained))
         summaries.append(summarize_result(res))
 
-    # ------------------------------------------------------------
-    # GUARANTEE figures/ exists
-    # ------------------------------------------------------------
+    # Ensure figures/ exists
     paths.fig_dir.mkdir(parents=True, exist_ok=True)
 
-    # ------------------------------------------------------------
     # Determine canonical filename + labels
-    # ------------------------------------------------------------
     if sweep_name == "epsilon":
         fname = "scaling_epsilon.pdf"
-        xlabel = "ε"
+        xlabel = "epsilon (ε)"
         xscale = "log"
     elif sweep_name == "cutoff":
         fname = "scaling_cutoff.pdf"
         xlabel = "cutoff"
-        xscale = "log"
-    elif sweep_name == "n_modes":
+        xscale = "linear"
+    else:
         fname = "scaling_modes.pdf"
-        xlabel = "number of modes"
-        xscale = "log"
+        xlabel = "n_modes"
+        xscale = "linear"
 
-    # ------------------------------------------------------------
-    # Plot (this MUST happen, no conditionals)
-    # ------------------------------------------------------------
+    # Plot
     plot_scaling_curve(
         x=x_vals,
         y=y_vals,
@@ -139,9 +140,7 @@ def main() -> None:
         yscale="log",
     )
 
-    # ------------------------------------------------------------
     # Save raw + summary
-    # ------------------------------------------------------------
     paths.raw_dir.mkdir(parents=True, exist_ok=True)
 
     np.savez_compressed(

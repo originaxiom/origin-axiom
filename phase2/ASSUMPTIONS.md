@@ -1,149 +1,107 @@
-# Origin Axiom — Phase 2  
-## Explicit Assumptions
+# Phase 2 — Assumptions Register
 
 This document enumerates **all assumptions** made in Phase 2 of the Origin Axiom project.
-Any assumption not listed here is considered **out of scope** or **not assumed**.
 
-These assumptions are binding for all code, figures, and claims in this phase.
+**Rule:** Any assumption not listed here is **not assumed** and must not appear implicitly
+in code, figures, or text.
 
----
-
-## A1. Validity of the Origin Axiom (Interface Assumption)
-
-Phase 2 assumes the validity of the **Origin Axiom** introduced and demonstrated in Phase 1:
-that global destructive cancellation of certain quantities is prohibited below a fixed
-non-zero floor.
-
-- The axiom is treated as a **global constraint**, not a local dynamical law.
-- The axiom is not derived, justified, or explained further in Phase 2.
-- Phase 2 does not depend on Phase 1 code or outputs at runtime.
-
-This assumption is inherited and not re-examined.
+Assumptions are grouped into:
+- (I) interface assumptions inherited from Phase 1,
+- (II) toy-model assumptions specific to Phase 2,
+- (III) interpretation assumptions used only for the FRW wrapper.
 
 ---
 
-## A2. Mode-Sum as a QFT-Inspired Approximation
+## I. Interface assumptions (inherited; not re-examined)
 
-Vacuum energy is modeled using a **finite mode-sum approximation** intended to capture
-qualitative features of quantum field theoretic zero-point energies.
+### A1 — Origin Axiom is treated as an interface constraint
 
-Assumptions include:
+Phase 2 assumes the Origin Axiom introduced in Phase 1:
 
-- Modes are treated as independent contributors to vacuum energy.
-- Contributions may partially cancel through phase interference.
-- The model is not claimed to be a complete or renormalized QFT.
+- There exists a fixed ε > 0 such that the relevant global cancellation quantity is constrained
+  away from zero (a global non-cancellation floor).
 
-This approximation is used solely to test **existence and robustness**, not to reproduce
-microscopic field dynamics.
+Phase 2 does **not** derive, justify, or strengthen this axiom. Phase 2 does not depend on
+Phase 1 code or outputs at runtime.
 
 ---
 
-## A3. Global Non-Cancellation Floor (ε)
+## II. Phase-2 toy-model assumptions (mode-sum proxy)
 
-A fixed, positive non-cancellation floor ε is assumed.
+### A2 — Finite mode-sum is a QFT-inspired proxy
 
-- ε is treated as a **model parameter**, not a derived constant.
-- ε enforces a lower bound on net cancellation.
-- ε is dimensionless in code units and has no intrinsic physical identification in Phase 2.
+Vacuum contributions are modeled by a finite sum over modes intended to capture qualitative
+features of zero-point energies and cancellation.
 
-Phase 2 explores behavior under variation of ε but does not explain its origin.
+- The model is **not** claimed to be a complete or renormalized QFT.
+- The model is used only to test **existence** and **robustness** of a residual under a
+  global non-cancellation constraint.
 
----
+### A3 — Global non-cancellation floor ε is a model parameter
 
-## A4. Phase Interference Parameter
+- ε is treated as a **dimensionless control parameter** in code units.
+- ε is not derived from first principles in Phase 2.
+- Phase 2 explores sensitivity to ε via explicit sweeps.
 
-The model assumes the existence of a phase or interference parameter that prevents
-exact destructive cancellation.
+### A4 — Abstract phase / interference parameter
 
-- The phase is treated as generic and abstract.
-- No identification with known physical phases (e.g., CP, flavor, neutrino mixing) is made.
-- The phase may be rational, irrational, or fixed by construction.
+The model assumes a phase/interference mechanism that frustrates perfect destructive
+cancellation.
 
-Its sole role is to enable incomplete cancellation under the axiom.
+- The phase parameter is treated as generic and abstract.
+- No identification with known physical phases (CP, flavor, neutrino mixing, etc.) is made.
 
----
-
-## A5. Finite Cutoff and Finite Number of Modes
+### A5 — Finite regulators (cutoff and number of modes)
 
 All calculations assume:
 
 - a finite ultraviolet cutoff,
 - a finite number of contributing modes.
 
-These are **regulators**, not physical claims.
+These are treated as **regulators** (model inputs) rather than physical claims.
 
-Phase 2 investigates sensitivity to these choices but does not assume their physical reality.
+### A6 — Numerical determinism
 
----
-
-## A6. Determinism and Numerical Idealization
-
-Numerical simulations assume:
-
-- deterministic floating-point arithmetic,
-- controlled pseudo-randomness via explicit seeds,
-- absence of numerical noise beyond floating-point precision.
-
-No claim is made about numerical exactness beyond machine precision.
+- Runs are deterministic up to floating-point precision.
+- Any pseudo-randomness (if present) is controlled by an explicit seed in `config/phase2.yaml`.
 
 ---
 
-## A7. Interpretation as Effective Vacuum Energy
+## III. Interpretation assumptions (FRW wrapper only)
 
-When used in cosmological calculations, the vacuum energy residual is interpreted as an
-**effective vacuum energy density**.
+### A7 — Residual interpreted as an effective vacuum-energy component
+
+For the cosmology wrapper, the residual is interpreted as an **effective Λ-like component**.
 
 - This interpretation is phenomenological.
-- No claim is made that the residual corresponds to a fundamental cosmological constant.
-- The mapping from residual to cosmological parameters is explicit and declared in configuration.
+- No claim is made that the residual equals the fundamental cosmological constant.
+- Any mapping/calibration is declared explicitly in configuration.
 
----
+### A8 — Standard flat FRW equations
 
-## A8. Standard FRW Cosmology
+Cosmological implications are evaluated using **standard flat FRW dynamics**.
 
-Cosmological implications are evaluated using **standard flat FRW equations**.
-
-Assumptions include:
-
-- General relativity is valid at cosmological scales.
+- General relativity is assumed valid at cosmological scales.
 - No modification of Einstein’s equations is introduced.
-- The residual enters only as an effective vacuum energy density.
+- The residual enters only as an effective vacuum-energy term.
 
-Early-universe physics (inflation, reheating, phase transitions) is not modeled.
+### A9 — Late-time focus
 
----
+Phase 2 focuses on late-time behavior.
 
-## A9. Late-Time Focus
+- Early-universe physics (inflation, BBN, reheating, phase transitions) is not modeled.
+- Data confrontation (CMB, BAO, SNe Ia) and structure formation are out of scope.
 
-Phase 2 focuses on **late-time cosmology**.
+### A10 — Global/non-local character (acknowledged limitation)
 
-- The residual is assumed to be dynamically irrelevant at early times.
-- Possible evolution of ε or phase parameters is not considered.
-- Constraints from BBN, CMB, or structure formation are not evaluated.
-
-This restriction is intentional.
-
----
-
-## A10. Global (Non-Local) Character
-
-The Origin Axiom is assumed to be **global in character**.
-
-- Local enforcement mechanisms are not specified.
-- Compatibility with locality or microcausality is not addressed.
-- Possible quantum-gravitational origins are deferred.
-
-This is acknowledged as a limitation, not a flaw.
+- The Origin Axiom is treated as global in character.
+- No local enforcement mechanism is specified.
+- Locality/microcausality and quantum-gravity origins are deferred.
 
 ---
 
-## Summary of Assumptions
+## Summary
 
-Phase 2 assumes:
-- a global non-cancellation axiom,
-- a finite mode-sum approximation,
-- an abstract phase interference mechanism,
-- standard cosmological dynamics,
-- and a phenomenological interpretation of residual vacuum energy.
-
-No assumption beyond these is required for Phase 2 claims.
+Phase 2 assumes a global non-cancellation axiom (interface), a finite mode-sum proxy
+(toy model), and a standard FRW wrapper (interpretation) to assess **existence**,
+**robustness**, and **cosmological viability** only.

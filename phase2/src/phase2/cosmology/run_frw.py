@@ -15,69 +15,103 @@ from phase2.utils_meta import setup_run, write_json
 from phase2.modes.mode_model import run_mode_sum
 
 
-# ============================================================
-# Origin Axiom — Phase 2
-# FRW wrapper (Figure E): interpret OA residual as effective ΩΛ and compare expansion.
-#
-# Produces (per-run):
-#   outputs/runs/<run_id>/
-#     meta.json, params.json, summary.json, pip_freeze.txt
-#     raw/frw_timeseries.npz
-#     figures/frw_comparison.pdf
-#
-# Canonical figure is copied by Snakemake into outputs/figures/figE_frw_comparison.pdf
-# ============================================================
+def _req(cfg: Dict[str, Any], path: str) -> Any:
+    cur: Any = cfg
+    for part in path.split("."):
+        if not isinstance(cur, dict) or part not in cur:
+            raise ValueError(f"Missing required config key: '{path}'")
+        cur = cur[part]
+    return cur
+
+
+def _req_float(cfg: Dict[str, Any], path: str) -> float:
+    v = _req(cfg, path)
+    try:
+        x = float(v)
+    except Exception as e:
+        raise ValueError(f"Config key '{path}' must be float-like, got {v!r}") from e
+    if not np.isfinite(x):
+        raise ValueError(f"Config key '{path}' must be finite, got {x}")
+    return x
+
+
+def _req_int(cfg: Dict[str, Any], path: str) -> int:
+    v = _req(cfg, path)
+    try:
+        x = int(v)
+    except Exception as e:
+        raise ValueError(f"Config key '{path}' must be int-like, got {v!r}") from e
+    return x
+
+
+def _req_str(cfg: Dict[str, Any], path: str) -> str:
+    v = _req(cfg, path)
+    if v is None:
+        raise ValueError(f"Config key '{path}' must be a string, got None")
+    return str(v)
 
 
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Phase 2 FRW wrapper (Fig E).")
     p.add_argument("--config", required=True, help="Path to config/phase2.yaml")
-    p.add_argument("--run-id", required=True, help="Run ID: figE_frw_comparison_YYYYMMDDTHHMMSSZ")
+    p.add_argument("--run-id", required=True, help="Run ID (used for outputs/runs/<run_id>/)")
     return p.parse_args()
 
 
-def _E_of_a(a: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
-    # Flat FRW: E(a) = H/H0 = sqrt(Ωm a^-3 + Ωr a^-4 + ΩΛ)
-    return np.sqrt(Om * a ** (-3) + Or * a ** (-4) + Ol)
+def _frw_E2(a: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
+    # Flat FRW: E(a)^2 = Ωm a^-3 + Ωr a^-4 + ΩΛ
+    return Om * a ** (-3) + Or * a ** (-4) + Ol
 
 
-def _q_of_a(a: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
-    """
-    Deceleration parameter q(a) = - (a \ddot{a}) / \dot{a}^2 for flat FRW with:
-      matter (w=0), radiation (w=1/3), vacuum (w=-1)
-
-      q(a) = [ 0.5 Ωm a^-3 + 1.0 Ωr a^-4 - 1.0 ΩΛ ] / E(a)^2
-    """
-    E2 = Om * a ** (-3) + Or * a ** (-4) + Ol
-    num = 0.5 * Om * a ** (-3) + 1.0 * Or * a ** (-4) - 1.0 * Ol
-    return num / E2
+def _frw_E(a: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
+    E2 = _frw_E2(a, Om, Or, Ol)
+    if not np.all(np.isfinite(E2)) or np.any(E2 <= 0.0):
+        raise ValueError("Non-positive or non-finite E(a)^2 encountered; check Ω parameters and a-grid.")
+    return np.sqrt(E2)
 
 
-def _integrate_tau(a_grid: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
-    """
-    Dimensionless time τ = H0 t:
-      dτ/da = 1 / (a E(a))
-    """
-    E = _E_of_a(a_grid, Om, Or, Ol)
-    if not np.all(np.isfinite(E)) or np.any(E <= 0.0):
-        raise ValueError("E(a) must be finite and positive on the integration grid.")
+def _frw_q(a: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
+    # q(a) = (1/(2E^2)) [3Ωm a^-3 + 4Ωr a^-4] - 1
+    E2 = _frw_E2(a, Om, Or, Ol)
+    num = 0.5 * (3.0 * Om * a ** (-3) + 4.0 * Or * a ** (-4))
+    return num / E2 - 1.0
 
-    dtau_da = 1.0 / (a_grid * E)
 
-    tau = np.zeros_like(a_grid)
-    da = np.diff(a_grid)
-    tau[1:] = np.cumsum(0.5 * (dtau_da[:-1] + dtau_da[1:]) * da)
+def _integrate_tau(a: np.ndarray, Om: float, Or: float, Ol: float) -> np.ndarray:
+    # dτ/da = 1/(aE(a)) ; τ = H0 t (dimensionless)
+    E = _frw_E(a, Om, Or, Ol)
+    integrand = 1.0 / (a * E)
+    tau = np.zeros_like(a, dtype=np.float64)
+    for i in range(1, len(a)):
+        da = a[i] - a[i - 1]
+        tau[i] = tau[i - 1] + 0.5 * da * (integrand[i] + integrand[i - 1])
     return tau
 
 
 def _save_pdf(fig: plt.Figure, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(str(path), format="pdf", bbox_inches="tight")
+    fig.tight_layout()
+    fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
 
 
-def _clamp(x: float, lo: float, hi: float) -> float:
-    return float(min(max(x, lo), hi))
+def _flat_closure_check(label: str, Om: float, Or: float, Ol: float, tol: float) -> None:
+    s = Om + Or + Ol
+    if abs(s - 1.0) > tol:
+        raise ValueError(
+            f"Flat-FRW closure failed for '{label}': Ωm+Ωr+ΩΛ = {s:.12g} (tol={tol})."
+        )
+
+
+def _first_crossing_a(a: np.ndarray, q: np.ndarray, threshold: float = 0.0) -> float | None:
+    """
+    Return the first a where q(a) < threshold (strict).
+    If no crossing exists, return None.
+    """
+    mask = np.isfinite(q) & (q < threshold)
+    if not np.any(mask):
+        return None
+    return float(a[np.argmax(mask)])
 
 
 def main() -> None:
@@ -85,125 +119,161 @@ def main() -> None:
     config_path = Path(args.config).resolve()
     run_id = str(args.run_id)
 
-    # Setup run dir + provenance
-    cfg_raw, paths, meta, repo_root = setup_run(
+    _cfg_raw, paths, _meta, _repo_root = setup_run(
         config_path=config_path,
         run_id=run_id,
         task="frw_comparison",
     )
 
-    # Reload resolved config snapshot (ensures run uses recorded params)
+    # Reload resolved snapshot so the run uses what is recorded
     with paths.params_json.open("r", encoding="utf-8") as f:
         cfg: Dict[str, Any] = json.load(f)
 
-    # ------------------------------------------------------------
-    # Step 1: compute OA residual (self-contained, baseline uses mode_sum)
-    # ------------------------------------------------------------
-    if not cfg.get("mode_sum", {}).get("enabled", True):
-        raise ValueError("FRW runner expects mode_sum.enabled=true for Phase 2 baseline.")
+    # Required config (no defaults)
+    if not bool(_req(cfg, "cosmology.enabled")):
+        raise ValueError("cosmology.enabled must be true for Figure E generation.")
 
+    if _req_str(cfg, "cosmology.model") != "FRW_flat":
+        raise ValueError("cosmology.model must be 'FRW_flat' for Phase 2 Figure E.")
+
+    # Interpret Omega_m in config as the OBSERVATIONAL reference matter fraction.
+    Om_obs = _req_float(cfg, "cosmology.parameters.Omega_m")
+    Or = _req_float(cfg, "cosmology.parameters.Omega_r")
+    Ol_obs = _req_float(cfg, "cosmology.comparison.Omega_L_obs")
+
+    vac_src = _req_str(cfg, "cosmology.interpretation.vacuum_energy_source")
+    if vac_src != "phase2_residual":
+        raise ValueError("cosmology.interpretation.vacuum_energy_source must be 'phase2_residual'.")
+
+    factor = _req_float(cfg, "cosmology.interpretation.residual_to_omega_lambda")
+    if factor < 0.0:
+        raise ValueError("cosmology.interpretation.residual_to_omega_lambda must be >= 0.")
+
+    cap_mode = _req_str(cfg, "cosmology.interpretation.cap_mode")
+    if cap_mode not in ("none", "closure"):
+        raise ValueError("cosmology.interpretation.cap_mode must be 'none' or 'closure'.")
+
+    closure_tol = _req_float(cfg, "cosmology.interpretation.flat_closure_tol")
+    if closure_tol <= 0.0:
+        raise ValueError("cosmology.interpretation.flat_closure_tol must be > 0.")
+
+    a_min = _req_float(cfg, "cosmology.interpretation.a_min")
+    a_max = _req_float(cfg, "cosmology.interpretation.a_max")
+    n_grid = _req_int(cfg, "cosmology.interpretation.n_grid")
+    if not (0.0 < a_min < a_max <= 1.0):
+        raise ValueError("Require 0 < a_min < a_max <= 1.0")
+    if n_grid < 50:
+        raise ValueError("cosmology.interpretation.n_grid must be >= 50")
+
+    # Step 1: compute OA residual
+    if not bool(cfg.get("mode_sum", {}).get("enabled", True)):
+        raise ValueError("FRW runner expects mode_sum.enabled=true (Phase 2 baseline).")
     res = run_mode_sum(cfg)
     residual = float(res.residual_constrained)
 
-    # ------------------------------------------------------------
-    # Step 2: map residual -> ΩΛ,eff (explicit knob, no hidden calibration)
-    # ------------------------------------------------------------
-    cosmo = cfg.get("cosmology", {})
-    params = cosmo.get("parameters", {})
-    interp = cosmo.get("interpretation", {})
+    # Step 2: map residual -> ΩΛ,eff (raw)
+    Ol_eff_raw = factor * residual
+    if not np.isfinite(Ol_eff_raw):
+        raise ValueError("Computed ΩΛ,eff is non-finite; check residual and mapping factor.")
+    Ol_eff_raw = max(float(Ol_eff_raw), 0.0)
 
-    Om = float(params.get("Omega_m", 0.3))
-    Or = float(params.get("Omega_r", 0.0))
-
-    # Optional external comparison curve ("ΛCDM-like") via ΩΛ,obs
-    comp = cosmo.get("comparison", {})
-    Ol_obs = comp.get("Omega_L_obs", None)
-    if Ol_obs is None:
-        # If not provided, default to flat closure (clamped for safety)
-        Ol_obs_val = _clamp(1.0 - Om - Or, 0.0, 2.0)
+    # If cap_mode='closure', ΩΛ,eff cannot exceed (1-Ωr) to keep Ωm_eff >= 0 under flatness.
+    if cap_mode == "closure":
+        cap = 1.0 - Or
+        if cap < 0.0:
+            raise ValueError("Ωr > 1, cannot enforce flat closure.")
+        Ol_eff = min(Ol_eff_raw, cap)
     else:
-        Ol_obs_val = _clamp(float(Ol_obs), 0.0, 2.0)
+        Ol_eff = Ol_eff_raw
 
-    # OA mapping knob (dimensionless): ΩΛ,eff = factor * residual
-    factor = float(interp.get("residual_to_omega_lambda", 0.01))
-    if factor < 0.0 or not np.isfinite(factor):
-        raise ValueError("cosmology.interpretation.residual_to_omega_lambda must be finite and >= 0")
+    # IMPORTANT: For a *flat* OA-effective curve, enforce closure by construction:
+    # Ωm_eff = 1 - Ωr - ΩΛ_eff
+    Om_eff = 1.0 - Or - Ol_eff
+    if Om_eff < 0.0:
+        raise ValueError(
+            f"Computed Ωm_eff < 0 (Ωm_eff={Om_eff}); increase cap_mode='closure' or reduce mapping factor."
+        )
 
-    Ol_eff = _clamp(factor * residual, 0.0, 2.0)
-
-    # Baseline: matter+radiation only (ΩΛ=0) to show acceleration clearly
+    # Baseline flat curve (Λ=0): Ωm_base = 1 - Ωr
+    Om_base = 1.0 - Or
     Ol_base = 0.0
 
-    # ------------------------------------------------------------
-    # Step 3: compute FRW curves on an a-grid
-    # ------------------------------------------------------------
-    a_min = float(interp.get("a_min", 1e-3))
-    a_max = float(interp.get("a_max", 1.0))
-    n_grid = int(interp.get("n_grid", 2000))
+    # Reference observational curve uses (Ωm_obs, Ωr, ΩΛ_obs) as given
+    # (still requires flatness; if not, config is inconsistent with FRW_flat scope)
+    _flat_closure_check("baseline", Om_base, Or, Ol_base, tol=closure_tol)
+    _flat_closure_check("OA_eff", Om_eff, Or, Ol_eff, tol=closure_tol)
+    _flat_closure_check("obs_ref", Om_obs, Or, Ol_obs, tol=closure_tol)
 
-    if not (0.0 < a_min < a_max):
-        raise ValueError("Invalid a-grid: require 0 < a_min < a_max")
-    if n_grid < 50:
-        raise ValueError("n_grid too small; require >= 50")
+    # Step 3: compute curves
+    a = np.logspace(np.log10(a_min), np.log10(a_max), n_grid)
 
-    a = np.geomspace(a_min, a_max, n_grid)
+    E_base = _frw_E(a, Om_base, Or, Ol_base)
+    q_base = _frw_q(a, Om_base, Or, Ol_base)
+    tau_base = _integrate_tau(a, Om_base, Or, Ol_base)
 
-    E_base = _E_of_a(a, Om, Or, Ol_base)
-    E_eff = _E_of_a(a, Om, Or, Ol_eff)
-    E_obs = _E_of_a(a, Om, Or, Ol_obs_val)
+    E_eff = _frw_E(a, Om_eff, Or, Ol_eff)
+    q_eff = _frw_q(a, Om_eff, Or, Ol_eff)
+    tau_eff = _integrate_tau(a, Om_eff, Or, Ol_eff)
 
-    q_base = _q_of_a(a, Om, Or, Ol_base)
-    q_eff = _q_of_a(a, Om, Or, Ol_eff)
-    q_obs = _q_of_a(a, Om, Or, Ol_obs_val)
+    E_obs = _frw_E(a, Om_obs, Or, Ol_obs)
+    q_obs = _frw_q(a, Om_obs, Or, Ol_obs)
+    tau_obs = _integrate_tau(a, Om_obs, Or, Ol_obs)
 
-    tau_base = _integrate_tau(a, Om, Or, Ol_base)
-    tau_eff = _integrate_tau(a, Om, Or, Ol_eff)
-    tau_obs = _integrate_tau(a, Om, Or, Ol_obs_val)
+    # ---- Numerical acceleration markers (drift-free Claim 2.3 checks) ----
+    q_at_a_max = {
+        "baseline": float(q_base[-1]),
+        "OA_eff": float(q_eff[-1]),
+        "obs_ref": float(q_obs[-1]),
+    }
+    a_first_q_lt_0 = {
+        "baseline": _first_crossing_a(a, q_base, threshold=0.0),
+        "OA_eff": _first_crossing_a(a, q_eff, threshold=0.0),
+        "obs_ref": _first_crossing_a(a, q_obs, threshold=0.0),
+    }
+    accelerates_by_a_max = {
+        "baseline": bool(q_base[-1] < 0.0),
+        "OA_eff": bool(q_eff[-1] < 0.0),
+        "obs_ref": bool(q_obs[-1] < 0.0),
+    }
 
-    # ------------------------------------------------------------
-    # Step 4: save raw time series (audit)
-    # ------------------------------------------------------------
+    # Save raw
     paths.raw_dir.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(
         paths.raw_dir / "frw_timeseries.npz",
         a=a,
-        E_base=E_base,
-        E_eff=E_eff,
-        E_obs=E_obs,
-        q_base=q_base,
-        q_eff=q_eff,
-        q_obs=q_obs,
-        tau_base=tau_base,
-        tau_eff=tau_eff,
-        tau_obs=tau_obs,
-        Omega_m=np.float64(Om),
-        Omega_r=np.float64(Or),
-        Omega_L_base=np.float64(Ol_base),
-        Omega_L_eff=np.float64(Ol_eff),
-        Omega_L_obs=np.float64(Ol_obs_val),
+        E_base=E_base, q_base=q_base, tau_base=tau_base,
+        E_eff=E_eff, q_eff=q_eff, tau_eff=tau_eff,
+        E_obs=E_obs, q_obs=q_obs, tau_obs=tau_obs,
         residual_constrained=np.float64(residual),
+        Omega_r=np.float64(Or),
+        Omega_m_obs=np.float64(Om_obs),
+        Omega_L_obs=np.float64(Ol_obs),
+        Omega_m_eff=np.float64(Om_eff),
+        Omega_L_eff=np.float64(Ol_eff),
+        Omega_m_base=np.float64(Om_base),
+        Omega_L_base=np.float64(Ol_base),
         residual_to_omega_lambda=np.float64(factor),
+        cap_mode=np.array([cap_mode]),
         constraint_applied=np.bool_(res.constraint.applied),
+        q_at_a_max=json.dumps(q_at_a_max),
+        a_first_q_lt_0=json.dumps(a_first_q_lt_0),
+        accelerates_by_a_max=json.dumps(accelerates_by_a_max),
     )
 
-    # ------------------------------------------------------------
-    # Step 5: plot Fig E (single PDF, 2 panels; reviewer-friendly)
-    # ------------------------------------------------------------
+    # Plot Fig E
     fig, axes = plt.subplots(2, 1, figsize=(7.2, 7.2), sharex=True)
 
-    # Panel 1: H/H0 = E(a)
-    axes[0].plot(a, E_base, label="baseline (ΩΛ=0)")
-    axes[0].plot(a, E_eff, label="OA residual → ΩΛ,eff")
-    axes[0].plot(a, E_obs, label="reference ΩΛ,obs")
-    axes[0].set_ylabel("H/H0")
-    axes[0].set_title("FRW response to OA residual (flat FRW; explicit code-unit mapping)")
+    axes[0].plot(a, E_base, label="baseline (flat, ΩΛ=0)")
+    axes[0].plot(a, E_eff, label="OA residual → ΩΛ,eff (flat closure)")
+    axes[0].plot(a, E_obs, label="reference (ΩΛ,obs)")
+    axes[0].set_ylabel("H/H0 = E(a)")
+    axes[0].set_title("FRW response to OA residual (standard FRW; explicit mapping)")
     axes[0].grid(True, alpha=0.3)
     axes[0].legend(loc="best")
 
-    # Panel 2: q(a)
-    axes[1].plot(a, q_base, label="baseline (ΩΛ=0)")
-    axes[1].plot(a, q_eff, label="OA residual → ΩΛ,eff")
-    axes[1].plot(a, q_obs, label="reference ΩΛ,obs")
+    axes[1].plot(a, q_base, label="baseline (flat, ΩΛ=0)")
+    axes[1].plot(a, q_eff, label="OA residual → ΩΛ,eff (flat closure)")
+    axes[1].plot(a, q_obs, label="reference (ΩΛ,obs)")
     axes[1].axhline(0.0, linewidth=1.0)
     axes[1].set_ylabel("q(a)")
     axes[1].set_xlabel("scale factor a")
@@ -211,37 +281,41 @@ def main() -> None:
     axes[1].grid(True, alpha=0.3)
     axes[1].legend(loc="best")
 
-    # Metadata block (Phase-1 style)
     meta_txt = (
-        f"Ωm={Om:.3f}, Ωr={Or:.3f}\n"
+        f"Ωr={Or:.6g}\n"
         f"residual_constrained={residual:.6g}\n"
         f"factor(residual→ΩΛ)={factor:.6g}\n"
+        f"cap_mode={cap_mode}\n"
         f"ΩΛ,eff={Ol_eff:.6g}\n"
-        f"ΩΛ,obs={Ol_obs_val:.6g}\n"
+        f"Ωm,eff={Om_eff:.6g}\n"
+        f"Ωm,obs={Om_obs:.6g}\n"
+        f"ΩΛ,obs={Ol_obs:.6g}\n"
+        f"q(a_max) OA_eff={q_at_a_max['OA_eff']:.6g}\n"
         f"constraint_applied={bool(res.constraint.applied)}"
     )
-    axes[0].text(
-        1.02, 0.5, meta_txt,
-        transform=axes[0].transAxes,
-        va="center", ha="left", fontsize=9
-    )
+    axes[0].text(1.02, 0.5, meta_txt, transform=axes[0].transAxes, va="center", ha="left", fontsize=9)
 
     out_fig = paths.fig_dir / "frw_comparison.pdf"
     _save_pdf(fig, out_fig)
 
-    # ------------------------------------------------------------
-    # Step 6: summary.json (stable + explicit mapping)
-    # ------------------------------------------------------------
+    # summary.json
     summary = {
         "residual_constrained": residual,
         "constraint_applied": bool(res.constraint.applied),
-        "Omega_m": Om,
         "Omega_r": Or,
+        "Omega_m_obs": Om_obs,
+        "Omega_L_obs": Ol_obs,
+        "Omega_m_eff": Om_eff,
         "Omega_L_eff": Ol_eff,
-        "Omega_L_obs": Ol_obs_val,
+        "Omega_m_base": Om_base,
         "Omega_L_base": Ol_base,
         "residual_to_omega_lambda": factor,
+        "cap_mode": cap_mode,
+        "flat_closure_tol": closure_tol,
         "a_grid": {"a_min": a_min, "a_max": a_max, "n_grid": n_grid},
+        "q_at_a_max": q_at_a_max,
+        "a_first_q_lt_0": a_first_q_lt_0,
+        "accelerates_by_a_max": accelerates_by_a_max,
         "output_files": {
             "figure": "figures/frw_comparison.pdf",
             "raw": "raw/frw_timeseries.npz",

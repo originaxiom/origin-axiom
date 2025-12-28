@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import math
 from dataclasses import dataclass
-from typing import Any, Dict
+from typing import Any, Dict, Iterable, Optional, Tuple
 
 import numpy as np
 
@@ -12,13 +12,15 @@ from phase2.modes.constraints import ConstraintActivity, enforce_global_floor
 # Origin Axiom — Phase 2
 # Mode-sum (QFT-inspired) toy model
 #
-# This module intentionally keeps the "physics" minimal:
-# - Paired contributions that would cancel in an idealized limit
-# - A generic interference phase that prevents perfect cancellation
-# - A global non-cancellation floor enforced by the Origin Axiom
+# Contract goals (Phase-1 style):
+#   1) No hidden defaults that affect scientific outputs.
+#      If a required key is missing from config/phase2.yaml, raise.
+#   2) Deterministic given the recorded params.json and global.seed.
+#   3) Output quantities are in code units; physical mapping happens elsewhere.
 #
-# All quantities here are in *code units*. Any mapping to physical
-# units must happen explicitly in calibration/cosmology layers.
+# Notes:
+#   - Mode index k is a proxy for momentum/frequency indexing.
+#   - cutoff.value is expressed in the same units as k (mode index).
 # ============================================================
 
 
@@ -56,13 +58,61 @@ class ModeSumResult:
 
 
 # ============================================================
+# Required-config helpers (no hidden defaults)
+# ============================================================
+
+def _req(cfg: Dict[str, Any], path: str) -> Any:
+    """
+    Fetch a required config value by dotted path.
+
+    Example:
+      _req(cfg, "mode_sum.cutoff.value")
+
+    Raises a ValueError with a clear message if missing.
+    """
+    cur: Any = cfg
+    for part in path.split("."):
+        if not isinstance(cur, dict) or part not in cur:
+            raise ValueError(f"Missing required config key: '{path}'")
+        cur = cur[part]
+    return cur
+
+
+def _req_float(cfg: Dict[str, Any], path: str) -> float:
+    v = _req(cfg, path)
+    try:
+        x = float(v)
+    except Exception as e:
+        raise ValueError(f"Config key '{path}' must be float-like, got {v!r}") from e
+    if not np.isfinite(x):
+        raise ValueError(f"Config key '{path}' must be finite, got {x}")
+    return x
+
+
+def _req_int(cfg: Dict[str, Any], path: str) -> int:
+    v = _req(cfg, path)
+    try:
+        x = int(v)
+    except Exception as e:
+        raise ValueError(f"Config key '{path}' must be int-like, got {v!r}") from e
+    return x
+
+
+def _req_str(cfg: Dict[str, Any], path: str) -> str:
+    v = _req(cfg, path)
+    if v is None:
+        raise ValueError(f"Config key '{path}' must be a string, got None")
+    return str(v)
+
+
+# ============================================================
 # Phase parameterization
 # ============================================================
 
 def _phi_from_label(label: str) -> float:
     """
     Convert a symbolic phase label to a numeric angle (radians).
-    This mapping is *explicitly a model choice* and must be documented.
+    This mapping is explicitly a model choice.
 
     Supported labels:
       - golden_ratio
@@ -80,7 +130,7 @@ def _phi_from_label(label: str) -> float:
         x = float(label)
         return float(x % (2.0 * math.pi))
     except Exception as e:
-        raise ValueError(f"Unknown phase label/value: {label}") from e
+        raise ValueError(f"Unknown phase label/value: {label!r}") from e
 
 
 def get_phase_angle(*, phase_type: str, phase_value: str, rng: np.random.Generator) -> float:
@@ -92,7 +142,7 @@ def get_phase_angle(*, phase_type: str, phase_value: str, rng: np.random.Generat
       - "rational": expects "p/q" (integers); uses 2π * (p/q mod 1)
       - "random": uniform φ ~ U(0, 2π)
 
-    Note: In Phase 2 we do not claim a microscopic origin for φ.
+    Phase 2 does not claim a microscopic origin for φ.
     """
     if phase_type == "irrational_fixed":
         return _phi_from_label(phase_value)
@@ -112,7 +162,7 @@ def get_phase_angle(*, phase_type: str, phase_value: str, rng: np.random.Generat
     if phase_type == "random":
         return float(rng.uniform(0.0, 2.0 * math.pi))
 
-    raise ValueError(f"Unsupported phase.type: {phase_type}")
+    raise ValueError(f"Unsupported phase.type: {phase_type!r}")
 
 
 # ============================================================
@@ -124,13 +174,13 @@ def cutoff_weights(k: np.ndarray, cutoff_value: float, cutoff_type: str) -> np.n
     UV cutoff envelope over mode index k (proxy momentum/frequency index).
 
     cutoff.type:
-      - "sharp": w = 1 for k <= Λ, else 0
+      - "sharp":  w = 1 for k <= Λ, else 0
       - "smooth": w = exp(-(k/Λ)^2)
 
-    NOTE: cutoff_value is expressed in the same units as k (here: mode index).
+    NOTE: cutoff_value Λ is expressed in the same units as k (here: mode index).
     """
     if cutoff_value <= 0.0 or not np.isfinite(cutoff_value):
-        raise ValueError(f"cutoff_value must be positive finite, got {cutoff_value}")
+        raise ValueError(f"cutoff.value must be positive finite, got {cutoff_value}")
 
     x = k / cutoff_value
 
@@ -140,7 +190,7 @@ def cutoff_weights(k: np.ndarray, cutoff_value: float, cutoff_type: str) -> np.n
     if cutoff_type == "smooth":
         return np.exp(-(x ** 2))
 
-    raise ValueError(f"Unsupported cutoff.type: {cutoff_type}")
+    raise ValueError(f"Unsupported cutoff.type: {cutoff_type!r}")
 
 
 # ============================================================
@@ -149,14 +199,14 @@ def cutoff_weights(k: np.ndarray, cutoff_value: float, cutoff_type: str) -> np.n
 
 def run_mode_sum(cfg_resolved: Dict[str, Any]) -> ModeSumResult:
     """
-    Mode-sum toy model approximating QFT vacuum energy structure:
+    Mode-sum toy model approximating a QFT-like vacuum residual story:
 
-      1) Construct a set of mode indices k = 1..n_modes
+      1) Construct mode indices k = 1..n_modes
       2) Assign proxy frequencies ω_k (here: ω_k = k)
       3) Apply a UV envelope w_k via cutoff
       4) Form paired "mismatch" contributions with a phase φ:
             mismatch_k = w_k * ω_k * (1 - e^{iφ})
-         so φ -> 0 produces near-cancellation, while generic φ prevents exact cancellation.
+         so φ -> 0 gives near-cancellation; generic φ prevents exact cancellation.
       5) Sum to a global complex amplitude:
             A = Σ mismatch_k
       6) Enforce the Origin Axiom global floor:
@@ -165,52 +215,42 @@ def run_mode_sum(cfg_resolved: Dict[str, Any]) -> ModeSumResult:
             residual := |A|
             cancellation_ratio := |A| / Σ |w_k ω_k|
 
-    IMPORTANT:
-    - residual_* are in *code units* and represent a conservative proxy.
-    - physical mapping is handled elsewhere.
+    IMPORTANT (Phase-2 contract):
+      - No hidden defaults: all required keys must exist in cfg_resolved.
+      - All outputs are in code units.
     """
-    # -----------------------------
-    # Read config (explicit only)
-    # -----------------------------
-    g = cfg_resolved.get("global", {})
-    ms = cfg_resolved.get("mode_sum", {})
-    model = cfg_resolved.get("model", {})
 
-    seed = int(g.get("seed", 0))
-    rng = np.random.default_rng(seed)
+    # -----------------------------
+    # Required config keys
+    # -----------------------------
+    seed = _req_int(cfg_resolved, "global.seed")
 
-    n_modes = int(ms.get("n_modes", 2048))
+    n_modes = _req_int(cfg_resolved, "mode_sum.n_modes")
     if n_modes <= 0:
         raise ValueError(f"mode_sum.n_modes must be positive, got {n_modes}")
 
-    cutoff = ms.get("cutoff", {})
-    cutoff_value = float(cutoff.get("value", 1.0))
-    cutoff_type = str(cutoff.get("type", "sharp"))
+    cutoff_type = _req_str(cfg_resolved, "mode_sum.cutoff.type")
+    cutoff_value = _req_float(cfg_resolved, "mode_sum.cutoff.value")
 
-    # epsilon: prefer model.epsilon.value, fallback to model.epsilon if flattened
-    eps_block = model.get("epsilon", {})
-    if isinstance(eps_block, dict):
-        epsilon = float(eps_block.get("value", 1e-12))
-    else:
-        epsilon = float(model.get("epsilon", 1e-12))
+    epsilon = _req_float(cfg_resolved, "model.epsilon.value")
+    if epsilon <= 0.0:
+        raise ValueError(f"model.epsilon.value must be > 0, got {epsilon}")
 
-    if epsilon <= 0.0 or not np.isfinite(epsilon):
-        raise ValueError(f"epsilon must be positive finite, got {epsilon}")
+    phase_type = _req_str(cfg_resolved, "mode_sum.phase.type")
+    phase_value = _req_str(cfg_resolved, "mode_sum.phase.value")
 
-    phase = ms.get("phase", {})
-    phase_type = str(phase.get("type", "irrational_fixed"))
-    phase_value = str(phase.get("value", "golden_ratio"))
-    phi = get_phase_angle(phase_type=phase_type, phase_value=phase_value, rng=rng)
+    rng = np.random.default_rng(seed)
 
     # -----------------------------
     # Build mode sum
     # -----------------------------
     k = np.arange(1, n_modes + 1, dtype=np.float64)
-    omega = k  # simple proxy; keep explicit
+    omega = k  # explicit proxy choice (kept minimal on purpose)
 
     w = cutoff_weights(k, cutoff_value=cutoff_value, cutoff_type=cutoff_type)
 
-    # mismatch term: complex, same phase for all modes (minimal baseline)
+    # mismatch term: complex; same phase for all modes (minimal baseline)
+    phi = get_phase_angle(phase_type=phase_type, phase_value=phase_value, rng=rng)
     mismatch = w * omega * (1.0 - np.exp(1j * phi))
 
     A_raw = complex(np.sum(mismatch))
@@ -223,8 +263,11 @@ def run_mode_sum(cfg_resolved: Dict[str, Any]) -> ModeSumResult:
 
     denom = float(np.sum(np.abs(w * omega)))
     if denom <= 0.0:
-        # This is an invalid region (e.g., cutoff_value < 1 for sharp cutoff with k>=1)
-        raise ValueError("Cutoff eliminated all modes; denom is 0")
+        # Invalid region: cutoff eliminated all modes (e.g., sharp cutoff with Λ < 1).
+        raise ValueError(
+            "Cutoff eliminated all modes (denominator is 0). "
+            "Check mode_sum.cutoff.value and type."
+        )
 
     cancel_ratio_raw = float(residual_raw / denom)
     cancel_ratio_con = float(residual_con / denom)

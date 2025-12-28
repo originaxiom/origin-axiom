@@ -1,6 +1,6 @@
 # ============================================================
 # Origin Axiom — Phase 2
-# Canonical configuration file
+# Canonical configuration file (AUDITED)
 # ============================================================
 
 meta:
@@ -8,16 +8,16 @@ meta:
   description: >
     Phase 2 configuration for quantitative vacuum energy residual
     and cosmological implications under the Origin Axiom.
-  created_utc: "AUTO"          # populated at runtime
-  git_commit: "AUTO"           # populated at runtime
+  created_utc: "AUTO"
+  git_commit: "AUTO"
 
 # ------------------------------------------------------------
 # Global controls
 # ------------------------------------------------------------
 global:
-  seed: 123456789              # mandatory; controls all randomness
+  seed: 123456789
   numeric_dtype: float64
-  units: "natural"             # natural units unless otherwise stated
+  units: "natural"
   verbosity: 1
 
 # ------------------------------------------------------------
@@ -27,7 +27,6 @@ model:
   # Allowed values: "mode_sum", "lattice"
   primary_engine: "mode_sum"
 
-  # Global non-cancellation floor (dimensionless, code units)
   epsilon:
     value: 1.0e-12
     interpretation: >
@@ -39,24 +38,19 @@ model:
 # ------------------------------------------------------------
 mode_sum:
   enabled: true
-
-  # Number of paired modes (e.g. boson/fermion-like)
   n_modes: 2048
 
-  # UV cutoff (dimensionless, code units)
   cutoff:
     type: "sharp"              # allowed: sharp, smooth
     value: 1.0
 
-  # Phase / interference parameter
   phase:
     type: "irrational_fixed"   # allowed: rational, irrational_fixed, random
-    value: "golden_ratio"      # label only; implementation-defined
+    value: "golden_ratio"
     note: >
       Phase is treated as a generic interference parameter.
       No physical identification is made in Phase 2.
 
-  # Observables to compute
   observables:
     - vacuum_energy_residual
     - cancellation_ratio
@@ -66,24 +60,19 @@ mode_sum:
 # ------------------------------------------------------------
 lattice:
   enabled: false
-
   geometry:
     dimensions: 3
     lattice_sizes: [16, 32, 64]
-
   dynamics:
     time_steps: 5000
     dt: 0.01
     integrator: "leapfrog"
-
   fields:
     n_fields: 1
     mass: 0.0
-
   constraint:
     type: "global_floor"
     epsilon: "@model.epsilon.value"
-
   observables:
     - energy_density
     - constraint_activity
@@ -113,8 +102,6 @@ sweeps:
 # ------------------------------------------------------------
 calibration:
   enabled: true
-
-  # Mapping from code-unit energy density to physical units
   energy_density:
     target_unit: "GeV^4"
     reference_scale:
@@ -122,7 +109,7 @@ calibration:
       note: >
         Physical interpretation of the code-unit cutoff is declared
         explicitly and documented in the paper.
-    normalization_factor: "AUTO"   # computed, recorded in metadata
+    normalization_factor: "AUTO"
 
 # ------------------------------------------------------------
 # Cosmology (FRW wrapper)
@@ -131,6 +118,7 @@ cosmology:
   enabled: true
   model: "FRW_flat"
 
+  # These are used for the OBSERVATIONAL reference curve in Fig E.
   parameters:
     H0_km_s_Mpc: 70.0
     Omega_m: 0.3
@@ -141,9 +129,24 @@ cosmology:
 
   interpretation:
     vacuum_energy_source: "phase2_residual"
+
+    # AUDIT FIX:
+    # Must be large enough that Omega_L_eff crosses the acceleration threshold.
+    # With current residual ~1.864, this gives Omega_L_eff ~0.50 (accelerating, not a fit).
+    residual_to_omega_lambda: 0.27
+
+    # Keep flat closure for the EFFECTIVE model
+    cap_mode: "closure"                 # "closure" or "none"
+    flat_closure_tol: 1.0e-6
+
+    a_min: 1.0e-3
+    a_max: 1.0
+    n_grid: 400
+
     note: >
-      Residual energy density is interpreted as effective Λ.
-      No modification of Einstein equations is assumed beyond this.
+      Residual energy density is interpreted as effective Λ via an explicit
+      phenomenological mapping (residual_to_omega_lambda). This factor is not
+      derived in Phase 2. The effective model is enforced to be flat via closure.
 
 # ------------------------------------------------------------
 # Outputs

@@ -14,24 +14,26 @@ from phase2.modes.mode_model import ModeSumResult
 # Origin Axiom — Phase 2
 # Observables + plotting helpers (per-run artifacts)
 #
-# Design rules:
-# - Pure summarization helpers return JSON-serializable dicts.
-# - Plotting helpers ONLY write into the per-run figures/ directory.
+# Design rules (Phase-1 style):
+# - Summarization helpers return JSON-serializable dicts (stable schema).
+# - Plotting helpers write ONLY into the per-run figures/ directory.
 # - Canonical figures in outputs/figures/ are produced by Snakemake
-#   as copies from per-run figures (reproducibility contract).
+#   by copying from per-run figures.
+# - Fail loudly if inputs are inconsistent (prevents silent drift).
 # ============================================================
 
 
 def _save_pdf(fig: plt.Figure, path: Path) -> None:
-    """Save a matplotlib Figure to PDF and close it."""
+    """Save a matplotlib Figure to PDF and close it (deterministic formatting)."""
     path.parent.mkdir(parents=True, exist_ok=True)
+    fig.tight_layout()
     fig.savefig(str(path), format="pdf", bbox_inches="tight")
     plt.close(fig)
 
 
 def plot_mode_sum_residual(res: ModeSumResult, run_fig_dir: Path) -> Dict[str, str]:
     """
-    FIGURE (per-run): residual before/after constraint, plus cancellation ratios.
+    Per-run figure: residual before/after constraint (+ metadata block).
 
     Writes:
       <run>/figures/residual.pdf
@@ -45,10 +47,10 @@ def plot_mode_sum_residual(res: ModeSumResult, run_fig_dir: Path) -> Dict[str, s
 
     labels = ["raw", "constrained"]
     vals = [float(res.residual_raw), float(res.residual_constrained)]
-
     ax.bar(labels, vals)
+
     ax.set_title("Mode-sum residual (code units)")
-    ax.set_ylabel("|A| (proxy residual)")
+    ax.set_ylabel(r"Residual proxy $|A|$")
     ax.grid(True, axis="y", alpha=0.3)
 
     # Phase-1 style metadata block
@@ -91,12 +93,9 @@ def plot_scaling_curve(
     Generic scaling plot for sweeps.
 
     Parameters:
-      x, y: lists of numeric values (same length)
-      xlabel, ylabel, title: axis/title strings
-      run_fig_dir: per-run figures dir
-      filename: output PDF filename (e.g., "scaling_cutoff.pdf")
-      xscale/yscale: "linear" or "log" (or None to leave default)
-      annotate: optional text block drawn to the right (Phase-1 style)
+      x, y: numeric lists (same length)
+      xscale/yscale: "linear" or "log" or None
+      annotate: optional Phase-1 style text block to the right
 
     Writes:
       <run>/figures/<filename>
@@ -105,14 +104,32 @@ def plot_scaling_curve(
       {"scaling": "<filename>"}  (relative to run_fig_dir)
     """
     if len(x) != len(y):
-        raise ValueError(f"x and y must have the same length (got {len(x)} vs {len(y)})")
+        raise ValueError(f"x and y must have same length (got {len(x)} vs {len(y)})")
     if len(x) < 2:
-        raise RuntimeError(f"Not enough valid sweep points to plot (valid={len(x)})")
+        raise RuntimeError(f"Not enough sweep points to plot (n={len(x)})")
+
+    x_arr = np.asarray(x, dtype=float)
+    y_arr = np.asarray(y, dtype=float)
+
+    if not np.all(np.isfinite(x_arr)):
+        raise ValueError("Non-finite values found in x for scaling plot.")
+    if not np.all(np.isfinite(y_arr)):
+        raise ValueError("Non-finite values found in y for scaling plot.")
+
+    if xscale == "log" and np.any(x_arr <= 0.0):
+        raise ValueError("xscale='log' requires all x > 0.")
+    if yscale == "log" and np.any(y_arr <= 0.0):
+        raise ValueError("yscale='log' requires all y > 0.")
+
+    # Sort by x for stable visuals (sweep order can be arbitrary)
+    order = np.argsort(x_arr)
+    x_arr = x_arr[order]
+    y_arr = y_arr[order]
 
     run_fig_dir.mkdir(parents=True, exist_ok=True)
 
     fig, ax = plt.subplots(figsize=(6.2, 3.6))
-    ax.plot(x, y, marker="o", linestyle="-")
+    ax.plot(x_arr, y_arr, marker="o", linestyle="-")
 
     ax.set_title(title)
     ax.set_xlabel(xlabel)
@@ -147,7 +164,6 @@ def summarize_result(res: ModeSumResult) -> Dict[str, Any]:
       - stable keys (avoid churn)
       - no I/O
     """
-    # Use np.real/np.imag to be robust if amplitude becomes np.complex types.
     return {
         "n_modes": int(res.inputs.n_modes),
         "cutoff_type": str(res.inputs.cutoff_type),

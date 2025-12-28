@@ -1,3 +1,21 @@
+# Phase2 generated outputs
+phase2/outputs/
+phase2/outputs/**
+
+# Canonical figure pointers/signatures are generated too
+phase2/outputs/figures/*.run_id.txt
+phase2/outputs/figures/*.sig.txt
+
+# Latex build products
+phase2/paper/*.pdf
+phase2/paper/*.aux
+phase2/paper/*.log
+phase2/paper/*.fls
+phase2/paper/*.fdb_latexmk
+phase2/paper/*.out
+
+
+
 # Python
 __pycache__/
 *.py[cod]

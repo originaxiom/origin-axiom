@@ -8,54 +8,76 @@ import numpy as np
 
 # ============================================================
 # Origin Axiom — Phase 2
-# Constraints / enforcement primitives
+# Constraint / enforcement primitives
 #
-# The Origin Axiom is implemented here as a global non-cancellation floor:
-# given a complex global amplitude A, enforce |A| >= epsilon.
+# Phase-2 implementation of the Origin Axiom (OA) as a GLOBAL floor:
 #
-# IMPORTANT:
-# - This is a *global* constraint and is not a standard local QFT term.
-# - Phase 2 treats epsilon as a model parameter (not derived).
-# - Enforcement is designed to be deterministic given a fixed seed.
+#   Given a complex global amplitude A (proxy for net cancellation),
+#   enforce |A| >= epsilon.
+#
+# This is intentionally non-local: Phase 2 does not propose a microscopic
+# local enforcement mechanism, only an interface-level global constraint.
+#
+# Determinism contract:
+#   - If A != 0 and |A| < epsilon, the correction preserves the direction of A
+#     and rescales magnitude to epsilon (fully deterministic).
+#   - If A == 0, the direction is chosen using the provided RNG (seed-controlled).
 # ============================================================
 
 
 @dataclass(frozen=True)
 class ConstraintActivity:
+    """
+    Record of whether OA enforcement was applied.
+
+    direction_source:
+      - "preserve_direction": A had a defined direction (A != 0), so we rescale.
+      - "random_direction": A == 0, so we choose a seeded random direction.
+    """
     applied: bool
     epsilon: float
     magnitude_before: float
     magnitude_after: float
     delta_magnitude: float
-    direction_source: str  # "preserve_direction" or "random_direction"
+    direction_source: str
 
 
 def _unit_complex_from_angle(theta: float) -> complex:
+    """Unit complex number e^{i theta}."""
     return complex(math.cos(theta), math.sin(theta))
 
 
-def enforce_global_floor(A: complex, *, epsilon: float, rng: np.random.Generator) -> Tuple[complex, ConstraintActivity]:
+def enforce_global_floor(
+    A: complex,
+    *,
+    epsilon: float,
+    rng: np.random.Generator,
+) -> Tuple[complex, ConstraintActivity]:
     """
     Enforce the Origin Axiom floor on a global complex amplitude.
 
-    Input:
-      A: complex amplitude (proxy for net cancellation)
-      epsilon: floor magnitude (must be > 0)
-      rng: numpy Generator (used only if A == 0 for direction choice)
-
-    Output:
-      (A_enforced, activity)
+    Inputs:
+      A       : complex global amplitude
+      epsilon : positive floor magnitude (must be finite and > 0)
+      rng     : numpy Generator (used ONLY when A == 0 to pick a direction)
 
     Rule:
-      If |A| >= epsilon: do nothing.
-      If 0 < |A| < epsilon: rescale to magnitude epsilon, preserving direction.
-      If A == 0: set magnitude epsilon in a random direction (seed-controlled).
+      - If |A| >= epsilon: return A unchanged.
+      - If 0 < |A| < epsilon: rescale A to have magnitude epsilon, preserving direction.
+      - If A == 0: set |A| = epsilon with a seeded random direction.
+
+    Returns:
+      (A_enforced, activity)
     """
     if epsilon <= 0.0 or not np.isfinite(epsilon):
         raise ValueError(f"epsilon must be positive finite, got {epsilon}")
 
+    if not (np.isfinite(A.real) and np.isfinite(A.imag)):
+        raise ValueError(f"Amplitude A must be finite, got {A!r}")
+
     mag = float(abs(A))
 
+    # Case 1: already above floor
     if mag >= epsilon:
         return A, ConstraintActivity(
             applied=False,
@@ -66,27 +88,30 @@ def enforce_global_floor(A: complex, *, epsilon: float, rng: np.random.Generator
             direction_source="preserve_direction",
         )
 
+    # Case 2: below floor but direction exists => rescale deterministically
     if mag > 0.0:
         scale = epsilon / mag
         A2 = complex(A.real * scale, A.imag * scale)
+        mag2 = float(abs(A2))
         return A2, ConstraintActivity(
             applied=True,
             epsilon=float(epsilon),
             magnitude_before=mag,
-            magnitude_after=float(abs(A2)),
-            delta_magnitude=float(abs(A2) - mag),
+            magnitude_after=mag2,
+            delta_magnitude=float(mag2 - mag),
             direction_source="preserve_direction",
         )
 
-    # mag == 0: choose a direction deterministically from rng
+    # Case 3: A == 0 => choose a seeded direction
     theta = float(rng.uniform(0.0, 2.0 * math.pi))
-    A2 = epsilon * _unit_complex_from_angle(theta)
+    A2 = float(epsilon) * _unit_complex_from_angle(theta)
+    mag2 = float(abs(A2))
 
     return A2, ConstraintActivity(
         applied=True,
         epsilon=float(epsilon),
         magnitude_before=0.0,
-        magnitude_after=float(abs(A2)),
-        delta_magnitude=float(abs(A2)),
+        magnitude_after=mag2,
+        delta_magnitude=mag2,
         direction_source="random_direction",
     )

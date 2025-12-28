@@ -1,194 +1,114 @@
-# Origin Axiom — Phase 2  
-## Reproducibility and Provenance
+# Phase 2 — Reproducibility and Provenance
 
-This document defines the **reproducibility guarantees, provenance tracking, and execution rules**
-for Phase 2 of the Origin Axiom project.
+This document defines the **reproducibility guarantees, provenance tracking, and execution
+rules** for Phase 2.
 
-All numerical results and figures in Phase 2 are required to conform to the standards described here.
-
----
-
-## Reproducibility Philosophy
-
-Phase 2 follows a strict principle:
-
-> **No scientific claim is valid unless it is backed by a fully reproducible artifact.**
-
-Reproducibility in Phase 2 is enforced through:
-- explicit configuration files,
-- deterministic execution,
-- automated workflows,
-- and complete metadata capture.
+**Rule:** No scientific claim is valid unless it is backed by a fully reproducible artifact
+listed in `CLAIMS.md`.
 
 ---
 
-## Single Source of Truth
+## 1. Single source of truth
 
-All tunable parameters are declared in a single file:
+All parameters are declared in:
 
-```
-config/phase2.yaml
-```
+- `config/phase2.yaml`
 
-This includes:
-- model parameters,
-- sweep ranges,
-- cosmological parameters,
-- calibration and interpretation settings.
-
-No parameter affecting numerical output may be hard-coded elsewhere.
+No script may use hidden defaults that affect scientific results. If a parameter influences
+any computed quantity or plotted output, it must appear in the YAML and be captured into
+run metadata.
 
 ---
 
-## Determinism and Randomness Control
+## 2. Canonical runner
 
-All numerical runs are deterministic up to machine precision.
+The only canonical way to generate Phase 2 artifacts is:
 
-- Any stochastic element is controlled by an explicit random seed.
-- The seed is declared in `config/phase2.yaml`.
-- No hidden randomness is permitted.
+- `snakemake -c 1 all`
 
-Re-running the same workflow with the same configuration on the same platform
-should reproduce figures to numerical precision.
+Directly running scripts is allowed for local debugging, but **does not produce canonical
+artifacts** unless the outputs are identical and the run metadata is complete.
 
 ---
 
-## Canonical Execution Path
+## 3. Canonical artifacts and run pointers
 
-The **canonical method** for reproducing all Phase 2 results is:
+Canonical figures are the five PDFs in:
 
-```bash
-cd phase2
-snakemake -c 1
-```
+- `outputs/figures/`
 
-This command:
-- executes all required numerical runs,
-- generates all canonical figures,
-- compiles the Phase 2 paper.
+Each canonical figure has a stable run pointer file:
 
-Manual execution of individual scripts is permitted for development but does not
-constitute an official reproduction.
+- `outputs/figures/<figure_basename>.run_id.txt`
 
----
+This file contains a single `run_id`, and the corresponding run directory:
 
-## Snakemake Workflow Rules
+- `outputs/runs/<run_id>/`
 
-Phase 2 uses **Snakemake** as the authoritative execution engine.
+must contain:
 
-Rules enforced:
-
-- Each Snakemake rule produces **one canonical artifact** (typically one figure).
-- Canonical figures are written to:
-  ```
-  outputs/figures/
-  ```
-- Detailed run artifacts are written to:
-  ```
-  outputs/runs/<run_id>/
-  ```
-- Canonical figures are copied from their originating run directories.
-
-No figure included in the paper may be generated outside Snakemake.
+- `params.json` — full resolved parameter snapshot (including derived values)
+- `meta.json` — environment metadata (Python version, package versions, platform)
+- `summary.json` — scalar outputs and derived metrics used in text/captions
+- `raw/*.npz` — raw arrays for all plots
+- `figures/*.pdf` — run-local figures used to build canonical figures
+- `logs/` — Snakemake logs or script logs, if produced
 
 ---
 
-## Run Directory Structure
+## 4. Determinism
 
-Each numerical run produces a unique run directory:
+Phase 2 runs are deterministic up to floating-point precision.
 
-```
-outputs/runs/<run_id>/
-├─ meta.json
-├─ params.json
-├─ summary.json
-├─ raw/
-│  └─ *.npz
-└─ figures/
-   └─ *.pdf
-```
+If any stochastic component exists, it must be controlled via:
 
-### Required metadata
+- `global.seed`
 
-Each run directory must contain:
-
-- `meta.json`
-  - UTC timestamp
-  - git commit hash
-  - platform information
-  - Python version
-- `params.json`
-  - full resolved configuration dictionary
-- `summary.json`
-  - machine-readable summary of results
-- raw numerical data sufficient to regenerate figures
+and the seed must be recorded in `params.json`.
 
 ---
 
-## Platform and Environment
+## 5. Modification policy (anti-drift)
 
-Phase 2 is developed and tested using:
+Any change that modifies:
 
-- Python ≥ 3.10
-- NumPy
-- Matplotlib
-- Snakemake
+- a canonical figure A–E,
+- any claim statement,
+- any configuration key affecting outputs,
+- any derived scalar used in the paper,
 
-Exact package versions are recorded in run metadata where available.
+requires:
 
-Reproduction on different platforms may result in minor floating-point differences,
-which are considered acceptable if qualitative behavior is unchanged.
-
----
-
-## Version Control and Provenance
-
-All code and configuration files are version-controlled using Git.
-
-Each run records:
-- the exact git commit hash,
-- the configuration snapshot used,
-- the execution timestamp.
-
-Results are therefore fully traceable to a unique repository state.
+1. Updating the relevant Snakemake rule or script.
+2. Regenerating canonical artifacts A–E.
+3. Updating `outputs/figures/*.run_id.txt`.
+4. Updating `CLAIMS.md` provenance pointers if any file paths changed.
+5. Recording the change in `PROGRESS_LOG.md`.
 
 ---
 
-## Paper–Artifact Consistency
+## 6. What “locked” means
 
-Every figure included in the Phase 2 paper:
+Phase 2 is considered **locked** when:
 
-- exists in `outputs/figures/`,
-- is generated by Snakemake,
-- corresponds to a claim listed in `CLAIMS.md`,
-- has an associated run directory with full provenance.
-
-No unpublished or ad hoc results are referenced.
+- `snakemake -c 1 all` reproduces **exactly** the canonical figures A–E,
+- `paper/main.tex` compiles (via the Snakemake paper rule),
+- every claim in the paper is present in `CLAIMS.md` and backed by A–E,
+- there are no hidden defaults and no extra “canonical” figures.
 
 ---
 
-## Limitations of Reproducibility
+## 7. Minimal review packet
 
-Reproducibility guarantees apply to:
+A reviewer should need only:
 
-- numerical behavior,
-- qualitative trends,
-- figure structure.
+- `SCOPE.md`
+- `CLAIMS.md`
+- `ASSUMPTIONS.md`
+- `REPRODUCIBILITY.md`
+- `outputs/figures/` (A–E + run pointers)
+- `paper/`
 
-They do not extend to:
-- exact floating-point bitwise identity across architectures,
-- interpretation or theoretical framing beyond declared assumptions.
+to evaluate Phase 2 within scope.
 
 ---
-
-## Summary
-
-Phase 2 results are:
-
-- deterministic,
-- fully scripted,
-- parameter-transparent,
-- and traceable to source.
-
-This design is intentional and intended to meet or exceed the reproducibility
-standards expected in contemporary computational cosmology.

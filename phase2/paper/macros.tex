@@ -1,0 +1,129 @@
+% ============================================================
+% Origin Axiom — Phase 2
+% Global macros, notation, and safe shortcuts
+%
+% Design principles:
+% - No fragile macros in moving arguments
+% - pdflatex-safe (no exotic Unicode dependencies)
+% - Clear separation between math symbols and semantics
+% - Consistent with Phase 1 notation, extended for cosmology
+% ============================================================
+
+% ----------------------------
+% General math helpers
+% ----------------------------
+
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ee}{\mathrm{e}}
+\newcommand{\ii}{\mathrm{i}}
+
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\avg}[1]{\left\langle#1\right\rangle}
+
+\newcommand{\order}[1]{\mathcal{O}\!\left(#1\right)}
+
+% Differential operators
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\td}[2]{\frac{\dd #1}{\dd #2}}
+
+% ----------------------------
+% Sets, spaces, operators
+% ----------------------------
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\sgn}{\operatorname{sgn}}
+
+% ----------------------------
+% Physics constants / units
+% ----------------------------
+
+\newcommand{\hbarc}{\hbar c}
+\newcommand{\mpl}{M_{\mathrm{Pl}}}
+\newcommand{\Hubble}{H}
+\newcommand{\HubbleZero}{H_0}
+
+% ----------------------------
+% Mode sums and amplitudes
+% ----------------------------
+
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\Araw}{\mathcal{A}_{\mathrm{raw}}}
+\newcommand{\Acon}{\mathcal{A}_{\mathrm{con}}}
+
+\newcommand{\res}{\mathcal{R}}
+\newcommand{\resraw}{\mathcal{R}_{\mathrm{raw}}}
+\newcommand{\rescon}{\mathcal{R}_{\mathrm{con}}}
+
+\newcommand{\kmode}{k}
+\newcommand{\kmax}{k_{\max}}
+
+\newcommand{\eps}{\varepsilon}
+
+% ----------------------------
+% Origin Axiom / constraint notation
+% ----------------------------
+
+\newcommand{\OA}{\textsc{Origin Axiom}}
+
+\newcommand{\constraint}{\mathcal{C}}
+\newcommand{\constraintEps}{\constraint_{\eps}}
+
+% Cancellation ratio
+\newcommand{\cancelratio}{\mathcal{Q}}
+
+% ----------------------------
+% Vacuum energy and cosmology
+% ----------------------------
+
+\newcommand{\rhoVac}{\rho_{\mathrm{vac}}}
+\newcommand{\rhoLambda}{\rho_{\Lambda}}
+
+\newcommand{\OmegaM}{\Omega_{\mathrm{m}}}
+\newcommand{\OmegaR}{\Omega_{\mathrm{r}}}
+\newcommand{\OmegaL}{\Omega_{\Lambda}}
+
+\newcommand{\OmegaLeff}{\Omega_{\Lambda,\mathrm{eff}}}
+
+\newcommand{\Eofa}{E(a)}
+\newcommand{\qofa}{q(a)}
+
+% Scale factor
+\newcommand{\afrac}{a}
+
+% Dimensionless time
+\newcommand{\tauH}{\tau}
+
+% ----------------------------
+% Figure / table references
+% ----------------------------
+
+\newcommand{\Fig}[1]{Fig.~\ref{#1}}
+\newcommand{\Figs}[2]{Figs.~\ref{#1}--\ref{#2}}
+\newcommand{\Sec}[1]{Sec.~\ref{#1}}
+\newcommand{\Eq}[1]{Eq.~\eqref{#1}}
+
+% ----------------------------
+% Comments and editorial helpers
+% ----------------------------
+
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\note}[1]{\textcolor{blue}{[#1]}}
+
+% ----------------------------
+% Safe text macros (no math)
+% ----------------------------
+
+\newcommand{\LCDM}{$\Lambda$CDM}
+\newcommand{\FRW}{FRW}
+
+% ============================================================
+% End of macros.tex
+% ============================================================

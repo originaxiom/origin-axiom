@@ -7,40 +7,38 @@ from typing import Any, Dict
 
 import numpy as np
 
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-
 from phase2.utils_meta import setup_run, write_json
 from phase2.modes.mode_model import run_mode_sum, to_summary_dict
+from phase2.observables import plot_mode_sum_residual
 
 
 # ============================================================
 # Origin Axiom — Phase 2
-# Runner for Figure A (mode-sum residual)
+# Figure A runner (Claim 2.1): mode-sum residual demonstration
 #
-# Produces:
+# Canonical outputs (per-run):
 #   outputs/runs/<run_id>/
-#     meta.json, params.json, summary.json, pip_freeze.txt
 #     raw/mode_sum_outputs.npz
 #     figures/residual.pdf
+#     summary.json
 #
-# The canonical figure is copied by Snakemake into outputs/figures/.
+# This script is intended to be called by Snakemake.
+# Direct invocation is allowed for debugging, but canonical artifacts
+# are produced only through Snakemake.
 # ============================================================
 
 
 def _parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Phase 2 mode-sum runner (Figure A).")
+    p = argparse.ArgumentParser(description="Phase 2 mode-sum runner (Fig A).")
     p.add_argument("--config", required=True, help="Path to config/phase2.yaml")
-    p.add_argument("--task", required=True, choices=["residual"], help="Task selector (currently only 'residual').")
-    p.add_argument("--run-id", required=True, help="Run ID: figA_mode_sum_residual_YYYYMMDDTHHMMSSZ")
+    p.add_argument(
+        "--task",
+        required=True,
+        choices=["residual"],
+        help="Which output to generate (Phase 2 currently uses only 'residual').",
+    )
+    p.add_argument("--run-id", required=True, help="Run ID (used for outputs/runs/<run_id>/)")
     return p.parse_args()
-
-
-def _save_pdf(fig: plt.Figure, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(str(path), format="pdf", bbox_inches="tight")
-    plt.close(fig)
 
 
 def main() -> None:
@@ -48,22 +46,29 @@ def main() -> None:
     config_path = Path(args.config).resolve()
     run_id = str(args.run_id)
 
-    # Setup run dir + provenance
-    cfg_raw, paths, meta, repo_root = setup_run(
+    # ------------------------------------------------------------
+    # Setup run directory + write params.json/meta.json/pip_freeze.txt
+    # ------------------------------------------------------------
+    _cfg_raw, paths, _meta, _repo_root = setup_run(
         config_path=config_path,
         run_id=run_id,
-        task=args.task,
+        task=f"mode_sum_{args.task}",
     )
 
-    # Reload resolved config snapshot (ensures run uses recorded params)
+    # Reload resolved snapshot so the run uses what is recorded
     with paths.params_json.open("r", encoding="utf-8") as f:
-        cfg_resolved: Dict[str, Any] = json.load(f)
+        cfg: Dict[str, Any] = json.load(f)
 
-    # Run the model
-    res = run_mode_sum(cfg_resolved)
+    # ------------------------------------------------------------
+    # Execute model
+    # ------------------------------------------------------------
+    res = run_mode_sum(cfg)
 
-    # Save raw outputs
+    # ------------------------------------------------------------
+    # Save raw arrays (minimal, but sufficient for audit)
+    # ------------------------------------------------------------
     paths.raw_dir.mkdir(parents=True, exist_ok=True)
+
     np.savez_compressed(
         paths.raw_dir / "mode_sum_outputs.npz",
         amplitude_raw=np.array([res.amplitude_raw.real, res.amplitude_raw.imag], dtype=np.float64),
@@ -72,42 +77,24 @@ def main() -> None:
         residual_constrained=np.float64(res.residual_constrained),
         cancellation_ratio_raw=np.float64(res.cancellation_ratio_raw),
         cancellation_ratio_constrained=np.float64(res.cancellation_ratio_constrained),
+        constraint_applied=np.bool_(res.constraint.applied),
         epsilon=np.float64(res.inputs.epsilon),
         n_modes=np.int64(res.inputs.n_modes),
         cutoff_value=np.float64(res.inputs.cutoff_value),
+        cutoff_type=np.array([res.inputs.cutoff_type]),
         phase_type=np.array([res.inputs.phase_type]),
         phase_value=np.array([res.inputs.phase_value]),
+        seed=np.int64(res.inputs.seed),
     )
 
-    # Plot residual figure (single panel)
-    fig = plt.figure(figsize=(6.2, 3.6))
-    ax = fig.add_subplot(1, 1, 1)
+    # ------------------------------------------------------------
+    # Plot (per-run)
+    # ------------------------------------------------------------
+    plot_mode_sum_residual(res, paths.fig_dir)
 
-    bars = ["raw", "constrained"]
-    vals = [res.residual_raw, res.residual_constrained]
-    ax.bar(bars, vals)
-
-    ax.set_ylabel(r"Residual proxy $|A|$ (code units)")
-    ax.set_title("Mode-sum residual under global non-cancellation constraint")
-
-    # Annotate with metadata (Phase-1 style)
-    txt = (
-        f"n_modes={res.inputs.n_modes}\n"
-        f"cutoff=({res.inputs.cutoff_type}, {res.inputs.cutoff_value})\n"
-        f"phase=({res.inputs.phase_type}, {res.inputs.phase_value})\n"
-        f"epsilon={res.inputs.epsilon:.3e}\n"
-        f"constraint_applied={bool(res.constraint.applied)}"
-    )
-    ax.text(
-        1.02, 0.5, txt,
-        transform=ax.transAxes,
-        va="center", ha="left", fontsize=9
-    )
-
-    out_fig = paths.fig_dir / "residual.pdf"
-    _save_pdf(fig, out_fig)
-
-    # Summary JSON (stable schema)
+    # ------------------------------------------------------------
+    # Write summary.json used by CLAIMS.md + paper
+    # ------------------------------------------------------------
     summary = to_summary_dict(res)
     summary["output_files"] = {
         "figure": "figures/residual.pdf",
