@@ -27,6 +27,9 @@ model:
   # Allowed values: "mode_sum", "lattice"
   primary_engine: "mode_sum"
 
+  constraint:
+    enabled: true
+
   epsilon:
     value: 1.0e-12
     interpretation: >

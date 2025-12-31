@@ -23,18 +23,18 @@ import numpy as np
 #     and rescales magnitude to epsilon (fully deterministic).
 #   - If A == 0, the direction is chosen using the provided RNG (seed-controlled).
 # ============================================================
-
-
 @dataclass(frozen=True)
 class ConstraintActivity:
     """
     Record of whether OA enforcement was applied.
 
     direction_source:
+      - "disabled": constraint was disabled (no enforcement).
       - "preserve_direction": A had a defined direction (A != 0), so we rescale.
       - "random_direction": A == 0, so we choose a seeded random direction.
     """
     applied: bool
+    enabled: bool
     epsilon: float
     magnitude_before: float
     magnitude_after: float
@@ -43,7 +43,6 @@ class ConstraintActivity:
 
 
 def _unit_complex_from_angle(theta: float) -> complex:
-    """Unit complex number e^{i theta}."""
     return complex(math.cos(theta), math.sin(theta))
 
 
@@ -52,16 +51,12 @@ def enforce_global_floor(
     *,
     epsilon: float,
     rng: np.random.Generator,
+    enabled: bool = True,
 ) -> Tuple[complex, ConstraintActivity]:
     """
-    Enforce the Origin Axiom floor on a global complex amplitude.
+    Enforce a strict global floor |A| >= epsilon.
 
-    Inputs:
-      A       : complex global amplitude
-      epsilon : positive floor magnitude (must be finite and > 0)
-      rng     : numpy Generator (used ONLY when A == 0 to pick a direction)
-
-    Rule:
+    Policy:
       - If |A| >= epsilon: return A unchanged.
       - If 0 < |A| < epsilon: rescale A to have magnitude epsilon, preserving direction.
       - If A == 0: set |A| = epsilon with a seeded random direction.
@@ -77,10 +72,23 @@ def enforce_global_floor(
 
     mag = float(abs(A))
 
+    enabled = bool(enabled)
+    if not enabled:
+        return A, ConstraintActivity(
+            applied=False,
+            enabled=False,
+            epsilon=float(epsilon),
+            magnitude_before=mag,
+            magnitude_after=mag,
+            delta_magnitude=0.0,
+            direction_source="disabled",
+        )
+
     # Case 1: already above floor
     if mag >= epsilon:
         return A, ConstraintActivity(
             applied=False,
+            enabled=True,
             epsilon=float(epsilon),
             magnitude_before=mag,
             magnitude_after=mag,
@@ -93,8 +101,14 @@ def enforce_global_floor(
         scale = epsilon / mag
         A2 = complex(A.real * scale, A.imag * scale)
         mag2 = float(abs(A2))
+
+        # Numerical sanity: should be epsilon to floating tolerance
+        if not np.isfinite(mag2):
+            raise ValueError("Enforced amplitude magnitude became non-finite.")
+
         return A2, ConstraintActivity(
             applied=True,
+            enabled=True,
             epsilon=float(epsilon),
             magnitude_before=mag,
             magnitude_after=mag2,
@@ -109,6 +123,7 @@ def enforce_global_floor(
 
     return A2, ConstraintActivity(
         applied=True,
+        enabled=True,
         epsilon=float(epsilon),
         magnitude_before=0.0,
         magnitude_after=mag2,
