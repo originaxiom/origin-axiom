@@ -1,0 +1,57 @@
+% ============================================================
+% Origin Axiom — Phase 2
+% Section 1: Introduction
+% ============================================================
+
+\section{Introduction}
+\label{sec:introduction}
+
+The observed small but nonzero value of the cosmological constant remains one of the most persistent open problems in fundamental physics.
+Na\"ively, quantum field theory predicts a vacuum energy density set by the ultraviolet cutoff,
+\begin{equation}
+\rho_{\mathrm{vac}} \sim \sum_{\kmode} \tfrac{1}{2}\hbar \omega_{\kmode},
+\end{equation}
+which exceeds the observed dark energy density by many orders of magnitude.
+Despite decades of progress, no universally accepted mechanism explains why these contributions nearly cancel, nor why a small positive residual appears to survive at late times.
+
+The standard $\Lambda$CDM model incorporates this residual phenomenologically through a cosmological constant $\Lambda$, providing an excellent fit to cosmological data.
+However, within conventional quantum field theory, $\Lambda$ remains radiatively unstable and highly sensitive to ultraviolet physics.
+This tension motivates the exploration of mechanisms that regulate vacuum energy through principles that are not purely local or perturbative.
+
+In this work we investigate such a mechanism, referred to as the \OA{}, which enforces a global constraint on coherent mode sums.
+Rather than modifying individual quantum fields or introducing new particles, the axiom restricts the collective amplitude arising from large ensembles of modes.
+When destructive interference is nearly exact, the axiom prevents the total amplitude from vanishing identically, leaving a residual bounded from below by a small parameter $\eps$.
+Crucially, this residual is not imposed by hand but emerges dynamically from the constrained sum itself.
+
+The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
+We focus on three core questions:
+(i)~whether the residual produced by constrained mode cancellation is robust under changes of cutoff, volume, and mode count;
+(ii)~whether the scaling behavior remains controlled and free of pathological divergences;
+and (iii)~whether the resulting residual, when interpreted as an effective vacuum energy, leads to a cosmological expansion consistent with late-time acceleration.
+
+To address these questions, we construct a finite but extensible model of zero-point mode sums subject to a global cancellation constraint.
+The model is implemented numerically on discrete lattices with tunable parameters, allowing systematic sweeps over the number of modes, ultraviolet cutoff, and constraint strength.
+This approach does not assume supersymmetry, specific particle content, or exact boson–fermion pairing.
+Instead, it isolates the effect of constrained interference itself.
+
+We then couple the resulting residual vacuum energy to a flat Friedmann–Robertson–Walker (\FRW) cosmology.
+Interpreting the constrained residual as an effective cosmological constant $\Omega_{\Lambda,\mathrm{eff}}$, we compute its impact on the expansion rate and deceleration parameter.
+This step bridges the microscopic cancellation mechanism with macroscopic cosmological dynamics, without invoking additional assumptions about early-universe physics.
+
+Several important limitations are emphasized.
+We do not claim to identify the microscopic origin of the interference phase responsible for incomplete cancellation, nor do we connect the mechanism to specific Standard Model sectors.
+Furthermore, the \OA{} should be viewed as a global consistency condition rather than a modification of local quantum field dynamics.
+Its ultimate embedding in a fundamental theory—possibly involving new symmetries or super-selection rules—remains an open question.
+
+Within these bounds, the results presented here suggest that a small, positive cosmological constant can emerge naturally from constrained vacuum cancellation.
+If confirmed, this would reframe the cosmological constant problem not as a failure of quantum field theory, but as an indication that global consistency conditions play an essential role in regulating vacuum energy.
+
+This paper is organized as follows.
+In \Sec{sec:framework}, we introduce the constrained mode-sum framework and define the \OA{} precisely.
+\Sec{sec:modesum} presents the numerical implementation and residual scaling results.
+In \Sec{sec:cosmology}, we examine the cosmological implications of the residual vacuum energy in an \FRW{} background.
+We conclude in \Sec{sec:discussion} with a discussion of implications, limitations, and directions for future work.
+
+% ============================================================
+% End of 01_introduction.tex
+% ============================================================

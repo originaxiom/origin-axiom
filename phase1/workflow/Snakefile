@@ -1,0 +1,119 @@
+# Phase 1 Snakemake workflow for the Origin Axiom project
+# Reproducible pipeline: toy models -> figures -> paper
+
+from pathlib import Path
+
+BASEDIR = Path(workflow.basedir).resolve()     # .../origin-axiom/phase1/workflow
+ROOT    = BASEDIR.parents[1]                   # .../origin-axiom
+P1      = ROOT / "phase1"
+CFG     = P1 / "config" / "phase1.yaml"
+
+OUT_RUNS  = P1 / "outputs" / "runs"
+OUT_FIGS  = P1 / "outputs" / "figures"
+PAPER_DIR = P1 / "paper"
+PAPER_PDF = PAPER_DIR / "main.pdf"
+
+assert CFG.exists(), f"Missing config file: {CFG}"
+configfile: str(CFG)
+
+
+rule all:
+    """
+    Full Phase 1 build: all figures + compiled paper PDF.
+    """
+    input:
+        OUT_FIGS / "figA_phasor_toy.pdf",
+        OUT_FIGS / "figB_lattice_amplitude.pdf",
+        OUT_FIGS / "figC_scaling.pdf",
+        OUT_FIGS / "figD_eps_scaling.pdf",
+        PAPER_PDF
+
+
+rule figA_phasor_toy:
+    """
+    Figure A: Phasor toy model (residual floor under non-cancellation).
+    """
+    output:
+        OUT_FIGS / "figA_phasor_toy.pdf"
+    params:
+        cfg=str(CFG)
+    shell:
+        r"""
+        mkdir -p "{OUT_FIGS}" "{OUT_RUNS}"
+        python -m phase1.src.phase_floor --config "{params.cfg}" --out "{output}"
+        """
+
+
+rule figB_lattice_amplitude:
+    """
+    Figure B: Lattice amplitude comparison (constrained vs unconstrained).
+    """
+    output:
+        OUT_FIGS / "figB_lattice_amplitude.pdf"
+    params:
+        cfg=str(CFG)
+    shell:
+        r"""
+        mkdir -p "{OUT_FIGS}" "{OUT_RUNS}"
+        python -m phase1.src.lattice_driver --config "{params.cfg}" --mode amplitude --out "{output}"
+        """
+
+
+rule figC_scaling:
+    """
+    Figure C: Scaling behavior vs system size (toy-lattice scaling diagnostic).
+    """
+    output:
+        OUT_FIGS / "figC_scaling.pdf"
+    params:
+        cfg=str(CFG)
+    shell:
+        r"""
+        mkdir -p "{OUT_FIGS}" "{OUT_RUNS}"
+        python -m phase1.src.lattice_driver --config "{params.cfg}" --mode scaling --out "{output}"
+        """
+
+
+rule figD_eps_scaling:
+    """
+    Figure D: Sensitivity vs epsilon (phasor toy eps sweep).
+    """
+    output:
+        OUT_FIGS / "figD_eps_scaling.pdf"
+    params:
+        cfg=str(CFG)
+    shell:
+        r"""
+        mkdir -p "{OUT_FIGS}" "{OUT_RUNS}"
+        python -m phase1.src.phase_floor --config "{params.cfg}" --mode eps_sweep --out "{output}"
+        """
+
+
+rule paper:
+    """
+    Build the Phase 1 paper (main.pdf). This rule assumes figures referenced
+    by the LaTeX are present in outputs/figures.
+    """
+    input:
+        OUT_FIGS / "figA_phasor_toy.pdf",
+        OUT_FIGS / "figB_lattice_amplitude.pdf",
+        OUT_FIGS / "figC_scaling.pdf",
+        # NOTE: add figD here only if the LaTeX includes it
+        PAPER_DIR / "main.tex",
+        PAPER_DIR / "references.bib",
+        expand(str(PAPER_DIR / "sections" / "{s}.tex"), s=[
+            "00_preamble",
+            "01_intro",
+            "02_axiom",
+            "03_toy_models",
+            "04_methods",
+            "05_results",
+            "06_limitations",
+            "07_conclusion"
+        ])
+    output:
+        PAPER_PDF
+    shell:
+        r"""
+        cd "{PAPER_DIR}" && latexmk -xelatex -file-line-error -interaction=nonstopmode -halt-on-error main.tex
+        """

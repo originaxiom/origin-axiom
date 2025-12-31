@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://origin-axiom.org/schemas/theta_corridor.schema.json",
+  "title": "Origin Axiom Theta Corridor",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["theta_domain", "intervals"],
+  "properties": {
+    "theta_domain": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "type": "number" },
+      "description": "Fundamental theta domain, typically [0, 2*pi)."
+    },
+    "intervals": {
+      "type": "array",
+      "description": "Union of admissible intervals within theta_domain. Wrap-around is represented by splitting into two intervals.",
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": { "type": "number" }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

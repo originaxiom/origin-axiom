@@ -1,0 +1,68 @@
+% paper/sections/06_falsifiability_and_failure_modes.tex
+
+\section{Falsifiability and failure modes}
+\label{sec:falsifiability}
+
+A constraint-based research program can fail in ways that are subtle: it may remain internally consistent while producing no discriminating predictions.
+Phase~0 therefore makes falsifiability explicit.
+We define what would count as failure at multiple levels: implementation failure, inference failure, and cross-domain coherence failure.
+
+\subsection{What would falsify the program (within its own scope)}
+\label{sec:within_scope_falsify}
+
+The Origin Axiom program makes a set of internal commitments.
+The following outcomes would falsify those commitments:
+
+\paragraph{F1: OA enforcement cannot be made stable.}
+If, across reasonable numerical choices, enforcing $|A|\ge\varepsilon$ systematically produces numerical instability, runaway corrections, or irreproducible behavior, then the program fails at the implementation level.
+In that case, later phases cannot inherit results because the postulate cannot be operationalized reliably.
+
+\paragraph{F2: OA enforcement is either inert everywhere or dominates everywhere.}
+If, for all explored regimes and for all $\theta\in\Theta_i$, runs are always non-binding (the axiom never activates), then OA impact is untested and the phase cannot support causal claims.
+Conversely, if runs are always binding and enforcement saturates all outputs, then $\theta$-structure is erased and the corridor method cannot narrow.
+Either outcome indicates that the phase's test suite is not informative as a filter layer.
+
+\paragraph{F3: Corridor method produces no narrowing under independent constraints.}
+If successive phases add genuinely independent tests and yet the corridor intersection remains effectively unchanged, the program must conclude either:
+(i) $\theta$ is not meaningfully constrained by the tested layers, or
+(ii) the chosen diagnostics and mappings are too weakly $\theta$-dependent to carry information.
+A persistent lack of narrowing is not necessarily a refutation of OA as a postulate, but it refutes the specific unification aim that a single $\theta$ can be empirically earned by cross-layer consistency.
+
+\paragraph{F4: Inconsistent intersections (empty corridor).}
+If two or more phases, each stable and internally consistent, yield admissible sets whose intersection is empty,
+\begin{equation}
+\Theta_{i}\cap \Theta_{j}=\emptyset,
+\end{equation}
+then the program's cross-domain stitching fails at the current level of modeling assumptions.
+This is a decisive signal: either one phase's model/diagnostic is mis-specified, or the notion that a single $\theta$ threads those layers is incorrect.
+In either case, the correct response is not to ``pick a number,'' but to revisit assumptions, invariances, and mappings.
+
+\paragraph{F5: Lack of ablation separation.}
+If purported OA-driven effects persist even when enforcement is disabled, or if constrained and unconstrained runs agree in claimed binding regimes, then the evidence does not support causal attribution.
+This is a failure of scientific hygiene and invalidates the corresponding claim set.
+
+\subsection{Expected failure modes and how we detect them early}
+\label{sec:expected_failures}
+
+\paragraph{E1: Definition dependence of $A$ and $R$.}
+A common failure is that the chosen amplitude $A$ or residual $R$ is not invariant under relevant transformations, making the constraint an artifact of representation.
+Mitigation: each phase must state invariance properties (Sec.~\ref{sec:global_amplitude}) and include ablations that demonstrate that headline behavior is not a gauge/basis accident within the model.
+
+\paragraph{E2: Parameter degeneracy masquerading as a corridor.}
+A wide corridor can reflect a real degeneracy (multiple $\theta$ values genuinely equivalent) or a weak diagnostic (the phase does not bite on $\theta$).
+Mitigation: report not only pass/fail but also $\theta$-dependence of key observables and optional scores that quantify preference within the corridor.
+
+\paragraph{E3: Overfitting the mapping between layers.}
+When a residual is mapped into a downstream module (e.g.\ FRW), ad hoc mappings can absorb discrepancies and make almost any $\theta$ appear viable.
+Mitigation: declare mapping form and constraints explicitly; include mapping ablations; require that at least one downstream viability criterion is not trivially satisfied by rescaling.
+
+\paragraph{E4: Drift in ``canonical'' outputs.}
+As the program evolves, canonical figures and claims can drift without explicit acknowledgement.
+Mitigation: artifact hashes, run manifests, and explicit phase locking criteria (Sec.~\ref{sec:locking_def}) prevent silent drift.
+
+\subsection{Locking criteria revisited as falsifiability gates}
+\label{sec:gates}
+
+We restate phase locking as an operational falsifiability gate:
+a phase may be considered locked only if its claims survive ablations, its OA-relevance claims include binding certificates, and its admissible $\theta$ set is recorded in ledger-compatible form.
+If a phase cannot meet these gates, the appropriate scientific outcome is to treat it as exploratory and to refrain from using it as an authoritative layer in the corridor intersection.

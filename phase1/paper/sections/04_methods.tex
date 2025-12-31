@@ -1,0 +1,83 @@
+\section{Methods: Lattice Existence Proof and Scaling Test}
+\label{sec:methods}
+
+Phase I uses a lattice toy model as an \emph{existence proof} that a global amplitude floor can be enforced
+stably in an explicit dynamical system. The lattice model is not claimed to represent a realistic QFT vacuum;
+it serves as a controlled numerical sandbox for testing the logical consistency of the axiom.
+
+\subsection{Global amplitude observable}
+
+Let $\phi(x)$ be a complex scalar degree of freedom on a cubic lattice with $N_{\mathrm{sites}}$ sites.
+We define the global amplitude
+\begin{equation}
+  A_{\mathrm{sum}} = \sum_{x}\phi(x),
+\end{equation}
+and the intensive mean amplitude
+\begin{equation}
+  \Amean = \frac{A_{\mathrm{sum}}}{N_{\mathrm{sites}}}.
+\end{equation}
+
+Phase I applies the non-cancellation floor to the \emph{mean} amplitude:
+\begin{equation}
+  |\Amean| \ge \epsfloor.
+\end{equation}
+Operationally, the implementation enforces an upstream constraint on $|A_{\mathrm{sum}}|$ with
+$\epsfloor^{(\mathrm{sum})} = \epsfloor \, N_{\mathrm{sites}}$, ensuring correct intensive scaling
+as system size varies.
+
+\subsection{A minimal illustrative mapping from amplitude floor to vacuum energy}
+\label{sec:toy_vacuum_map}
+
+Phase I distinguishes two logically separate questions:
+(i) why not exactly zero (structural non-cancellation), and
+(ii) what sets the observed magnitude of vacuum energy.
+Phase I addresses (i) only; the discussion below is included solely to make dimensional requirements explicit.
+
+Let $\mu$ be a characteristic energy scale governing how a residual amplitude might contribute to an
+effective energy density. A generic dimensional estimate is
+\begin{equation}
+\rho_{\mathrm{vac}} \sim \mu^4 \, f(|\Amean|),
+\end{equation}
+where $f$ is dimensionless. The simplest analytic choice is $f(|\Amean|)=|\Amean|^2$, or any monotone
+function with a nonzero floor. Under this illustrative mapping, the \OA{} implies a strictly positive bound
+\begin{equation}
+\rho_{\mathrm{vac}} \gtrsim \mu^4 \, \epsfloor^2.
+\label{eq:rho_floor}
+\end{equation}
+
+The observed dark energy density is commonly expressed as
+$\rho_{\mathrm{DE}} \simeq (2.3~\mathrm{meV})^4$~\cite{Hardy2020}.
+Equation~\eqref{eq:rho_floor} highlights the scale discipline required:
+if $\mu$ is very large, $\epsfloor$ must be correspondingly small; if $\mu$ is itself meV-like,
+$\epsfloor$ could be order unity. Phase I selects neither $\mu$ nor $\epsfloor$.
+No claim is made that this toy mapping captures the true microphysical origin of vacuum energy
+or its gravitational backreaction.
+
+\subsection{Determinism and execution traceability}
+
+All runs are deterministic given a fixed seed, configuration, and code revision.
+Each run emits:
+\begin{itemize}
+  \item raw time series (compressed),
+  \item a machine-readable summary (YAML),
+  \item provenance metadata (git hash, parameters, seed, environment snapshot).
+\end{itemize}
+
+\subsection{Claims-to-artifacts audit map}
+
+Table~\ref{tab:claims} maps each Phase I claim to a concrete output artifact.
+
+\begin{table}[t]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+Claim & Description & Artifact(s) \\ \midrule
+C1 & Axiom postulated ($|A|>\epsfloor$) & Sec.~\ref{sec:axiom} \\
+C2 & Phasor residual and floor behavior & Fig.~\ref{fig:phasor} (figA\_phasor\_toy.pdf) \\
+C3 & Lattice enforcement existence proof & Fig.~\ref{fig:latticeAmp} + run meta.json \\
+C4 & Scaling: unconstrained $\to 0$, constrained $\to \epsfloor$ & Fig.~\ref{fig:scaling} + scaling\_summary.yaml \\
+C5 & No order-one pathology in toy energy diagnostic & Stored $E(t)$ in NPZ outputs \\ \bottomrule
+\end{tabular}
+\caption{Phase I claims-to-artifacts map. Each artifact is generated via the Snakemake pipeline.}
+\label{tab:claims}
+\end{table}

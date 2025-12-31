@@ -1,0 +1,27 @@
+{
+  "run_id": "figB_20251225T223953Z_3d47144c",
+  "created_utc": "2025-12-25T22:39:54Z",
+  "git_commit": "fb4ecd9939b43a96485555eeef433bb718318753",
+  "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "darwin",
+  "params": {
+    "mode": "amplitude",
+    "size": 16,
+    "interpreted_as": "cubic lattice (L,L,L)",
+    "steps": 300,
+    "dt": 0.05,
+    "c": 1.0,
+    "m": 0.0,
+    "lam": 0.0,
+    "seed": 42,
+    "eps_mean": 0.01,
+    "init_sigma": 1.0,
+    "init_phi_dot_sigma": 0.0,
+    "burn_in_frac": 0.25,
+    "constraint_definition": "forbid |A_mean| < eps_mean implemented via upstream sum constraint with eps_sum = eps_mean * N_sites"
+  },
+  "notes": "Fig B: compare |A_mean(t)| constrained vs unconstrained using identical initial conditions.",
+  "git_dirty": true,
+  "python_executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python",
+  "cwd": "/Users/dri/Documents/Projects/origin-axiom"
+}

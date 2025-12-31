@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://origin-axiom.org/schemas/phase_theta_filter.schema.json",
+  "title": "Origin Axiom Phase Theta Filter Artifact",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "phase",
+    "theta_domain",
+    "theta_prior",
+    "tests",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "phase": { "type": "integer", "minimum": 0 },
+    "subphase": { "type": "string" },
+
+    "theta_domain": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "type": "number" },
+      "description": "Fundamental domain for theta, typically [0, 2*pi)."
+    },
+
+    "theta_prior": {
+      "type": "object",
+      "required": ["type", "intervals"],
+      "properties": {
+        "type": { "const": "intervals" },
+        "intervals": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "number" }
+          }
+        }
+      }
+    },
+
+    "theta_grid": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "Grid of evaluated theta values (optional if theta_pass is provided)."
+    },
+
+    "tests": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+
+    "pass": {
+      "type": "array",
+      "items": { "type": "boolean" },
+      "description": "Boolean outcomes aligned with theta_grid. Required if theta_pass not provided."
+    },
+
+    "fail_reasons": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "description": "Optional per-theta list of failed tests / reasons, aligned with theta_grid."
+    },
+
+    "theta_pass": {
+      "type": "object",
+      "required": ["type", "intervals"],
+      "properties": {
+        "type": { "const": "intervals" },
+        "intervals": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "number" }
+          }
+        }
+      },
+      "description": "Optional analytic interval representation of admissible theta; if present, it takes precedence."
+    },
+
+    "binding": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "epsilon": { "type": "number" },
+        "hit_fraction": { "type": "array", "items": { "type": "number" } },
+        "n_hits": { "type": "array", "items": { "type": "number" } },
+        "min_raw_minus_eps": { "type": "array", "items": { "type": "number" } }
+      }
+    },
+
+    "score": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "number" }
+      },
+      "description": "Optional score vectors aligned with theta_grid, e.g. intervention_cost, total."
+    },
+
+    "provenance": {
+      "type": "object",
+      "required": ["git_commit", "config_hash"],
+      "properties": {
+        "git_commit": { "type": "string" },
+        "config_hash": { "type": "string" },
+        "environment": { "type": "string" },
+        "run_ids": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Mapping from theta label to run directory/id."
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+
+  "allOf": [
+    {
+      "if": { "required": ["theta_pass"] },
+      "then": {},
+      "else": {
+        "required": ["theta_grid", "pass"],
+        "description": "If theta_pass is not provided, theta_grid and pass are required."
+      }
+    },
+    {
+      "if": { "required": ["theta_grid", "pass"] },
+      "then": {
+        "properties": {
+          "pass": {
+            "type": "array",
+            "items": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  ]
+}

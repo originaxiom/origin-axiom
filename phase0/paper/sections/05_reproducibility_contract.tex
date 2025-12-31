@@ -1,0 +1,116 @@
+% paper/sections/05_reproducibility_contract.tex
+
+\section{Reproducibility contract}
+\label{sec:repro_contract}
+
+Reproducibility is treated here not as an aspirational virtue but as a formal requirement for phase locking.
+This section defines the minimum artifact, logging, and provenance standards that each phase must meet.
+Any result that does not satisfy these standards may be explored, but it may not be used as an authoritative input for later phases.
+
+\subsection{Artifact-first claims}
+\label{sec:artifact_first}
+
+Every technical claim in the series must be reducible to a finite set of regenerable artifacts:
+figures, tables, and machine-readable summaries produced by logged runs.
+A claim is considered \emph{valid} only if it is accompanied by:
+\begin{itemize}
+  \item the artifact identifier (figure/table label),
+  \item the generating run identifier (run directory or run ID),
+  \item the configuration snapshot used by the run,
+  \item and the exact code revision (git commit hash).
+\end{itemize}
+Statements that are not tied to artifacts must be explicitly labeled as motivation, conjecture, or future work.
+
+\subsection{Run manifests}
+\label{sec:run_manifests}
+
+Each phase must provide a run manifest mapping every headline figure/table to its provenance.
+At minimum, a manifest entry includes:
+\begin{itemize}
+  \item the script or module entrypoint used to generate the artifact,
+  \item the configuration file(s) and the resolved parameter snapshot,
+  \item the run directory containing raw outputs and summaries,
+  \item the canonical staged artifact included in the paper build,
+  \item hashes/signatures sufficient to detect drift (config hash, artifact hash).
+\end{itemize}
+The manifest may be presented as an appendix table or as a machine-readable file referenced by the paper.
+
+\subsection{Ablation discipline}
+\label{sec:ablation_contract}
+
+Causal attribution requires ablation.
+Any claim of the form ``OA enforcement produces effect $X$'' must be supported by paired runs:
+\begin{enumerate}
+  \item \textbf{Control (OFF):} enforcement disabled (or $\varepsilon=0$), producing $(A_{\mathrm{raw}}, R_{\mathrm{raw}})$.
+  \item \textbf{Treatment (ON):} enforcement enabled with specified $\varepsilon>0$, producing $(A_{\mathrm{con}}, R_{\mathrm{con}})$.
+\end{enumerate}
+All other parameters and random seeds must be identical.
+If seeds are not applicable, the phase must explain what replaces stochastic reproducibility (e.g.\ deterministic integrators with fixed tolerances).
+
+\subsection{Binding certificates: the non-negotiable gate}
+\label{sec:binding_gate}
+
+Because the series centers on non-cancellation enforcement, any phase that claims OA relevance must include binding evidence.
+A \emph{binding certificate} consists of:
+\begin{itemize}
+  \item an explicit \texttt{constraint\_applied} flag (true/false),
+  \item a quantitative measure of binding intensity (e.g.\ \texttt{n\_hits}, \texttt{hit\_fraction}, or $\min_t(|A_{\mathrm{raw}}(t)|-\varepsilon)$),
+  \item at least one overlay diagnostic comparing constraint-off vs constraint-on behavior in the binding regime.
+\end{itemize}
+Phases may include non-binding results as sanity checks, but non-binding results cannot be used to support causal claims about OA impact.
+
+\subsection{Logging requirements}
+\label{sec:logging_requirements}
+
+Each run that contributes to a headline artifact must log:
+
+\paragraph{Configuration.}
+A complete configuration snapshot and a fully resolved parameter file (including defaults expanded and derived values recorded).
+
+\paragraph{Provenance.}
+\begin{itemize}
+  \item git commit hash,
+  \item dirty state indicator (whether uncommitted changes were present),
+  \item run timestamp in UTC,
+  \item platform information (OS, CPU/GPU if relevant).
+\end{itemize}
+
+\paragraph{Numerics.}
+\begin{itemize}
+  \item step sizes, solver tolerances, discretization parameters,
+  \item random seeds and RNG algorithms when applicable,
+  \item run length (steps/time), and any termination criteria.
+\end{itemize}
+
+\paragraph{Environment.}
+A package/environment snapshot sufficient to recreate the runtime (e.g.\ \texttt{pip freeze} or equivalent).
+
+\paragraph{Summaries.}
+A machine-readable \texttt{summary.json} containing the scalar quantities used by captions and tables, and pointers to raw arrays when needed.
+
+\subsection{Deterministic phase ledger artifacts}
+\label{sec:ledger_contract}
+
+To ensure the corridor method is not merely narrative, each phase must emit a standardized \texttt{theta\_filter} artifact.
+At minimum, the artifact includes:
+\begin{itemize}
+  \item the prior corridor used by the phase,
+  \item the evaluated $\theta$ grid or interval representation,
+  \item pass/fail outcomes for each $\theta$ under the declared test suite,
+  \item optional scores ranking admissible $\theta$ values,
+  \item full provenance linking each evaluated $\theta$ to run identifiers.
+\end{itemize}
+The Phase~0 ledger consumes these artifacts in order and deterministically reproduces the corridor history.
+A phase is not lockable unless its \texttt{theta\_filter} artifact can be processed by the ledger without manual intervention.
+
+\subsection{Versioning and drift control}
+\label{sec:drift_control}
+
+A common failure mode in long projects is silent drift: figures are regenerated under different assumptions without traceability.
+The series therefore adopts the following drift controls:
+\begin{itemize}
+  \item headline artifacts are staged in canonical locations with signature/hash files;
+  \item paper builds are reproducible from a clean checkout at the referenced commit;
+  \item any change to configuration defaults or model definitions that could affect results must trigger regeneration of affected artifacts and an explicit changelog entry.
+\end{itemize}
+These controls are treated as part of the scientific method of the program, not as auxiliary engineering.

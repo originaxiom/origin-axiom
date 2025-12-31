@@ -1,0 +1,142 @@
+% paper/sections/04_phase_contracts.tex
+
+\section{Phase contracts (I--V)}
+\label{sec:phase_contracts}
+
+This section defines the series as a sequence of contracts.
+Each phase must state (i) its assumptions, (ii) its permitted claims, (iii) the artifacts required to support those claims, and (iv) explicit non-claims.
+The purpose is to ensure continuity: later phases inherit prior outputs without inheriting ambiguity.
+
+\subsection{Common contract clauses}
+\label{sec:common_clauses}
+
+All phases share the following mandatory clauses:
+
+\paragraph{Causal isolation.}
+Any claim that OA enforcement causes an effect must include a constraint-off vs constraint-on ablation with identical initialization and seed (Sec.~\ref{sec:ablation_def}).
+
+\paragraph{Binding honesty.}
+Any claim that OA enforcement matters must include at least one binding certificate (Sec.~\ref{sec:binding}).
+Non-binding plots may be included as sanity checks, but they may not be used as evidence of axiom impact.
+
+\paragraph{Provenance.}
+Headline runs must log git commit, config hash, environment snapshot, and run identifiers sufficient to reproduce figures and tables.
+
+\paragraph{Corridor output.}
+Each phase must produce a standardized \texttt{theta\_filter} artifact that encodes its admissible set $\Theta_{i+1}$ and the test suite outcomes.
+
+\subsection{Phase I: implementation sanity and minimal non-cancellation behavior}
+\label{sec:contract_phase1}
+
+\paragraph{Objective.}
+Demonstrate a stable implementation of OA enforcement in a controlled toy setting and verify the basic binding vs non-binding behavior.
+
+\paragraph{Assumptions.}
+A specific definition of the global amplitude $A$ is chosen for the toy system, along with a concrete minimal-intervention enforcement rule.
+
+\paragraph{Permitted claims.}
+\begin{itemize}
+  \item \textbf{Existence:} the implementation runs stably and is reproducible.
+  \item \textbf{Binding behavior:} in binding regimes, constrained trajectories respect $|A|\ge\varepsilon$ while constraint-off trajectories can dip below $\varepsilon$.
+  \item \textbf{Non-invasiveness:} in non-binding regimes, constrained and unconstrained runs agree up to tolerance.
+  \item \textbf{Basic scaling:} within tested sweeps (resolution/volume/time step), the qualitative behavior is stable and does not trivially disappear.
+\end{itemize}
+
+\paragraph{Required artifacts.}
+\begin{itemize}
+  \item at least one binding certificate (time-series diagnostic showing pinning at $\varepsilon$),
+  \item at least one non-binding certificate (agreement constrained vs unconstrained),
+  \item at least one scaling/robustness sweep figure,
+  \item run manifest mapping each artifact to run directories and configurations,
+  \item a \texttt{phase\_01\_theta\_filter.json} artifact (even if Phase I does not strongly narrow $\theta$).
+\end{itemize}
+
+\paragraph{Non-claims.}
+Phase I does not claim physical identification of $\varepsilon$, does not claim cosmological relevance, and does not claim derivation of $\theta^\star$.
+
+\subsection{Phase II: pipeline closure (residual $\to$ cosmological embedding)}
+\label{sec:contract_phase2}
+
+\paragraph{Objective.}
+Close an end-to-end toy pipeline in which a residual diagnostic produced under OA enforcement is mapped into a minimal cosmological embedding (e.g.\ an FRW background term), and verify stability and controlled dependence on $\theta$.
+
+\paragraph{Assumptions.}
+A toy vacuum-like model produces a residual $R(\theta)$, and a specified mapping $f$ produces an effective cosmological contribution (e.g.\ $\Omega_\Lambda(\theta)=f(R(\theta))$) in a normalized FRW solver.
+
+\paragraph{Permitted claims.}
+\begin{itemize}
+  \item \textbf{End-to-end viability:} the pipeline runs reproducibly from residual extraction to FRW integration.
+  \item \textbf{OA impact in binding regimes:} in at least one binding corridor, OA enforcement measurably changes $R(\theta)$ relative to ablation baselines.
+  \item \textbf{Robustness:} key behaviors persist under declared sweeps (floor scale, discretization/UV controls, solver tolerances).
+  \item \textbf{Controlled transfer:} the mapped term does not induce numerical instability or runaway behavior in the downstream FRW solver within the declared envelope.
+\end{itemize}
+
+\paragraph{Required artifacts.}
+\begin{itemize}
+  \item at least one \emph{binding-regime} residual plot with ablation,
+  \item sweeps showing stability/robustness of the residual diagnostic,
+  \item FRW comparison diagnostics that demonstrate stable integration and bounded deviation,
+  \item a complete run manifest,
+  \item \texttt{phase\_02\_theta\_filter.json} encoding admissible $\theta$ values under Phase II tests.
+\end{itemize}
+
+\paragraph{Non-claims.}
+Phase II does not claim to match the observed cosmological constant, does not claim EFT matching to the Standard Model + GR, and does not claim a first-principles derivation of OA or of a unique $\theta^\star$.
+
+\subsection{Phase III: principled mechanism (beyond an algorithmic floor)}
+\label{sec:contract_phase3}
+
+\paragraph{Objective.}
+Replace or justify the OA enforcement rule by a principled mechanism (action-level constraint, symmetry, topological condition, or emergent selection principle) and test whether Phase I/II behaviors persist or are modified.
+
+\paragraph{Permitted claims.}
+\begin{itemize}
+  \item derivation or motivated embedding of a non-cancellation mechanism within a declared framework,
+  \item identification of invariants and transformation properties that reduce definition dependence of $A$ and $R$,
+  \item new quantitative predictions or sharper constraints on $\theta$ arising from the principled mechanism.
+\end{itemize}
+
+\paragraph{Required artifacts.}
+\begin{itemize}
+  \item explicit statement of framework assumptions and limitations,
+  \item tests demonstrating that Phase I/II-style binding behavior is reproduced or replaced in a controlled way,
+  \item \texttt{phase\_03\_theta\_filter.json} capturing Phase III admissibility.
+\end{itemize}
+
+\paragraph{Non-claims.}
+Phase III does not claim final unification unless independently constrained cross-domain predictions are produced and survive ablations.
+
+\subsection{Phase IV: cross-domain predictive tests}
+\label{sec:contract_phase4}
+
+\paragraph{Objective.}
+Confront the program with multiple independent empirical targets (flavor observables, cosmological observables, microstructure/defect signatures, or other measurable proxies) and test whether a consistent corridor survives.
+
+\paragraph{Permitted claims.}
+\begin{itemize}
+  \item nontrivial predictions or narrowed admissible regions arising from independent datasets or constraints,
+  \item identification of signatures capable of falsifying the program.
+\end{itemize}
+
+\paragraph{Required artifacts.}
+\begin{itemize}
+  \item explicit definition of datasets/proxies used,
+  \item independent test suites and clear uncertainty handling,
+  \item \texttt{phase\_04\_theta\_filter.json}.
+\end{itemize}
+
+\subsection{Phase V: consolidation and synthesis}
+\label{sec:contract_phase5}
+
+\paragraph{Objective.}
+Synthesize the surviving corridor and mechanisms into a consolidated framework \emph{only if} the intersection of independent constraints becomes narrow and stable.
+
+\paragraph{Permitted claims.}
+Phase V may claim a derived $\theta^\star$ (unique or discrete) only if the corridor-intersection history demonstrates robust collapse under independent constraints and if the resulting framework produces additional testable predictions.
+
+\paragraph{Required artifacts.}
+\begin{itemize}
+  \item consolidated corridor history and justification of collapse,
+  \item full provenance for all contributing phases,
+  \item explicit list of remaining assumptions and open problems.
+\end{itemize}

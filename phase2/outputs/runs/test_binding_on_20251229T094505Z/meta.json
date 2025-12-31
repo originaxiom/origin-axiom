@@ -1,0 +1,166 @@
+{
+  "config": {
+    "calibration": {
+      "enabled": true,
+      "energy_density": {
+        "normalization_factor": "AUTO",
+        "reference_scale": {
+          "note": "Physical interpretation of the code-unit cutoff is declared explicitly and documented in the paper.\n",
+          "type": "cutoff_based"
+        },
+        "target_unit": "GeV^4"
+      }
+    },
+    "cosmology": {
+      "comparison": {
+        "Omega_L_obs": 0.7
+      },
+      "enabled": true,
+      "interpretation": {
+        "a_max": 1.0,
+        "a_min": 0.001,
+        "cap_mode": "closure",
+        "flat_closure_tol": 1e-06,
+        "n_grid": 400,
+        "note": "Residual energy density is interpreted as effective \u039b via an explicit phenomenological mapping (residual_to_omega_lambda). This factor is not derived in Phase 2. The effective model is enforced to be flat via closure.\n",
+        "residual_to_omega_lambda": 0.27,
+        "vacuum_energy_source": "phase2_residual"
+      },
+      "model": "FRW_flat",
+      "parameters": {
+        "H0_km_s_Mpc": 70.0,
+        "Omega_m": 0.3,
+        "Omega_r": 0.0
+      }
+    },
+    "global": {
+      "numeric_dtype": "float64",
+      "seed": 123456789,
+      "units": "natural",
+      "verbosity": 1
+    },
+    "lattice": {
+      "constraint": {
+        "epsilon": 10.0,
+        "type": "global_floor"
+      },
+      "dynamics": {
+        "dt": 0.01,
+        "integrator": "leapfrog",
+        "time_steps": 5000
+      },
+      "enabled": false,
+      "fields": {
+        "mass": 0.0,
+        "n_fields": 1
+      },
+      "geometry": {
+        "dimensions": 3,
+        "lattice_sizes": [
+          16,
+          32,
+          64
+        ]
+      },
+      "observables": [
+        "energy_density",
+        "constraint_activity"
+      ]
+    },
+    "meta": {
+      "created_utc": "AUTO",
+      "description": "Phase 2 configuration for quantitative vacuum energy residual and cosmological implications under the Origin Axiom.\n",
+      "git_commit": "AUTO",
+      "phase": 2
+    },
+    "mode_sum": {
+      "cutoff": {
+        "type": "sharp",
+        "value": 1.0
+      },
+      "enabled": true,
+      "n_modes": 2048,
+      "observables": [
+        "vacuum_energy_residual",
+        "cancellation_ratio"
+      ],
+      "phase": {
+        "note": "Phase is treated as a generic interference parameter. No physical identification is made in Phase 2.\n",
+        "type": "irrational_fixed",
+        "value": "golden_ratio"
+      }
+    },
+    "model": {
+      "epsilon": {
+        "interpretation": "Global non-cancellation floor parameter \u03b5. Treated as a model parameter in Phase 2, not derived.\n",
+        "value": 10.0
+      },
+      "primary_engine": "mode_sum"
+    },
+    "outputs": {
+      "fig_dir": "outputs/figures",
+      "overwrite_existing": false,
+      "run_dir": "outputs/runs"
+    },
+    "paper": {
+      "expected_figures": [
+        "figA_mode_sum_residual.pdf",
+        "figB_scaling_epsilon.pdf",
+        "figC_scaling_cutoff.pdf",
+        "figD_scaling_modes.pdf",
+        "figE_frw_comparison.pdf"
+      ]
+    },
+    "sweeps": {
+      "cutoff": {
+        "enabled": true,
+        "values": [
+          1.0,
+          2.0,
+          4.0
+        ]
+      },
+      "epsilon": {
+        "enabled": true,
+        "values": [
+          1e-10,
+          1e-11,
+          1e-12,
+          1e-13
+        ]
+      },
+      "lattice_volume": {
+        "enabled": false,
+        "values": [
+          16,
+          32,
+          64
+        ]
+      },
+      "n_modes": {
+        "enabled": true,
+        "values": [
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      }
+    }
+  },
+  "cwd": "/Users/dri/Documents/Projects/origin-axiom/phase2",
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "platform": {
+    "machine": "x86_64",
+    "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "python_executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python",
+    "release": "24.1.0",
+    "system": "Darwin"
+  },
+  "run_id": "test_binding_on_20251229T094505Z",
+  "task": "mode_sum_residual",
+  "timestamp_utc": "2025-12-29T09:45:08Z"
+}

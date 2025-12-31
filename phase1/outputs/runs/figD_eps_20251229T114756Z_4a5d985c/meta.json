@@ -1,0 +1,32 @@
+{
+  "run_id": "figD_eps_20251229T114756Z_4a5d985c",
+  "created_utc": "2025-12-29T11:48:00Z",
+  "git_commit": "aec423aa4e73ec39c3d032f5ddf130f239af1363",
+  "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "darwin",
+  "params": {
+    "mode": "eps_sweep",
+    "seed": 42,
+    "n_trials": 2000,
+    "n_modes_list": [
+      10,
+      30,
+      100,
+      300
+    ],
+    "twist": 3.141592653589793,
+    "twist_fraction": 0.5,
+    "eps_list": [
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "constraint_enabled": true
+  },
+  "notes": "Fig D: eps sweep; plots E[max(|S|, eps)] vs eps at a representative twist near pi. Same RNG seed per eps for controlled comparison.",
+  "git_dirty": true,
+  "python_executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+  "cwd": "/Users/dri/Documents/Projects/origin-axiom"
+}

@@ -1,0 +1,64 @@
+{
+  "meta_tests": {
+    "all_ok": true,
+    "note": "Phase 2 filter certifies that OA floor is noninvasive when inactive and binds when forced. It does not (yet) narrow theta; that requires a theta sweep phase.",
+    "off_run": {
+      "constraint_applied": false,
+      "delta": 0.0,
+      "epsilon": 1e-12,
+      "residual_constrained": 1.8640648476264552,
+      "residual_raw": 1.8640648476264552
+    },
+    "on_run": {
+      "constraint_applied": true,
+      "delta": 8.135935152373545,
+      "epsilon": 10.0,
+      "residual_constrained": 10.0,
+      "residual_raw": 1.8640648476264552
+    },
+    "results": {
+      "ablation_separates": true,
+      "binding_off_noninvasive": true,
+      "binding_on_applies": true,
+      "binding_on_sets_floor": true
+    }
+  },
+  "phase": 2,
+  "provenance": {
+    "phase2_dir": "/Users/dri/Documents/Projects/origin-axiom/phase2",
+    "run_ids": {
+      "binding_off": "phase2_cert_off_20251229T151136Z",
+      "binding_on": "phase2_cert_on_20251229T151136Z"
+    }
+  },
+  "schema_version": "1.0",
+  "subphase": "binding_regime_certificate",
+  "tests": [
+    "binding_off_noninvasive",
+    "binding_on_applies",
+    "binding_on_sets_floor",
+    "ablation_separates"
+  ],
+  "theta_domain": [
+    0.0,
+    6.283185307179586
+  ],
+  "theta_pass": {
+    "intervals": [
+      [
+        0.0,
+        6.283185307179586
+      ]
+    ],
+    "type": "intervals"
+  },
+  "theta_prior": {
+    "intervals": [
+      [
+        0.0,
+        6.283185307179586
+      ]
+    ],
+    "type": "intervals"
+  }
+}

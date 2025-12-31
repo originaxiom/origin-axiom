@@ -1,0 +1,45 @@
+{
+  "amplitude": {
+    "constrained": {
+      "im": 1.0871246702414403,
+      "re": 2.796097271439683
+    },
+    "raw": {
+      "im": 0.6754902942615236,
+      "re": 1.7373688780783199
+    }
+  },
+  "cancellation_ratio": {
+    "constrained": 3.0,
+    "raw": 1.8640648476264552
+  },
+  "constraint": {
+    "applied": true,
+    "delta_magnitude": 1.1359351523735448,
+    "direction_source": "preserve_direction",
+    "epsilon": 3.0,
+    "magnitude_after": 3.0,
+    "magnitude_before": 1.8640648476264552
+  },
+  "inputs": {
+    "cutoff": {
+      "type": "sharp",
+      "value": 1.0
+    },
+    "epsilon": 3.0,
+    "n_modes": 2048,
+    "phase": {
+      "type": "irrational_fixed",
+      "value": "golden_ratio"
+    },
+    "seed": 123456789
+  },
+  "output_files": {
+    "figure": "figures/residual.pdf",
+    "raw": "raw/mode_sum_outputs.npz"
+  },
+  "residual": {
+    "constrained": 3.0,
+    "raw": 1.8640648476264552
+  }
+}

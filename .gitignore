@@ -1,92 +1,30 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pkl
-*.npz
-*.npy
-
-# Virtual envs
-venv/
-.env/
+*.pyc
 .venv/
+venv/
+
+# OS
+.DS_Store
+
+# LaTeX build
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+texput.log
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-data/raw/*
-data/processed/*
-!data/.gitkeep
+# Snakemake
+**/.snakemake/
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
+# Phase outputs we don't want tracked
+**/outputs/runs/
 
-# LaTeX
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.toc
-paper/*.synctex.gz
-paper/*.pdf
-.DS_Store
-*/.DS_Store
-
-# LaTeX build artefacts
-*.aux
-*.log
-*.out
-*.fdb_latexmk
-*.fls
-
-# LaTeX build artefacts
-*.aux
-*.log
-*.out
-*.fdb_latexmk
-*.fls
-src/lattice_theta/*.bak
-
-# LaTeX build artifacts
-*.aux
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.log
-*.out
-*.toc
-*.synctex.gz
-
-# LaTeX build artifacts
-*.aux
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.log
-*.out
-*.toc
-*.synctex.gz
-
-# PDFs (commit only if explicitly needed)
-*.pdf
-
-# macOS
-.DS_Store
-
-.DS_Store
-
-# LaTeX build artifacts
-*.aux
-*.log
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.toc
-*.out
-run.sh
-groksrc/

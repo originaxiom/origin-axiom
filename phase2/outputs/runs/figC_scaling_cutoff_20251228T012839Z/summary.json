@@ -1,0 +1,18 @@
+{
+  "n_points": 3,
+  "output_files": {
+    "figure": "figures/scaling_cutoff.pdf",
+    "raw": "raw/sweep_cutoff.npz"
+  },
+  "residuals": [
+    1.8640648476264552,
+    5.5921945428793665,
+    18.640648476264552
+  ],
+  "sweep": "cutoff",
+  "values": [
+    1.0,
+    2.0,
+    4.0
+  ]
+}

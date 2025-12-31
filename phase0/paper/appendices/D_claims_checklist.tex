@@ -1,0 +1,76 @@
+% paper/appendices/D_claims_checklist.tex
+
+\section{Claims checklist (arXiv honesty and auditability)}
+\label{app:claims_checklist}
+
+This appendix is a practical checklist used to prevent overclaiming and to keep the paper series intellectually honest.
+Each phase must satisfy the relevant items before it can be considered ``locked.''
+
+\subsection{Claim classification}
+For each statement in the paper, label it as one of:
+\begin{enumerate}
+  \item \textbf{Definition / postulate} (declared, not derived),
+  \item \textbf{Implementation hypothesis} (algorithmic rule),
+  \item \textbf{Model assumption} (toy environment choices),
+  \item \textbf{Consequence / result} (artifact-backed),
+  \item \textbf{Conjecture / future work} (explicitly non-validated).
+\end{enumerate}
+If a statement cannot be classified, rewrite it.
+
+\subsection{Artifact linkage}
+For each \emph{result} statement:
+\begin{itemize}
+  \item Does the paper cite a figure/table label?
+  \item Does the run manifest identify the exact run ID and config snapshot?
+  \item Is the generating script/path identified?
+  \item Is the git commit hash recorded?
+\end{itemize}
+If any answer is ``no,'' the statement is not a result.
+
+\subsection{Ablation requirements}
+For any claim of causal influence of OA enforcement:
+\begin{itemize}
+  \item Is there a constraint-off vs constraint-on paired run?
+  \item Are seeds/initial conditions identical?
+  \item Is the only difference the enforcement setting (or $\varepsilon$)?
+  \item Is the effect quantified (difference or ratio)?
+\end{itemize}
+If not, the claim must be downgraded to observation or conjecture.
+
+\subsection{Binding certificate requirements}
+For any claim that ``the axiom matters'':
+\begin{itemize}
+  \item Is there at least one binding certificate?
+  \item Is \texttt{constraint\_applied} explicitly true?
+  \item Is binding intensity recorded (\texttt{n\_hits}, \texttt{hit\_fraction}, or equivalent)?
+  \item Is there an overlay diagnostic showing divergence from the ablation baseline?
+\end{itemize}
+If not, the claim must be rewritten as ``in the explored regime, enforcement did not bind'' (non-binding), or removed.
+
+\subsection{Invariance and definition dependence}
+For the chosen $A$ and $R$:
+\begin{itemize}
+  \item Are relevant invariances stated (basis/gauge/coordinate/coarse-graining)?
+  \item If not invariant, is the diagnostic explicitly labeled as a toy quantity?
+\end{itemize}
+If not, add the invariance statement or downgrade scope.
+
+\subsection{$\theta^\star$ and corridor honesty}
+\begin{itemize}
+  \item Is $\theta^\star$ labeled as fiducial unless collapse is demonstrated?
+  \item Is the admissible corridor $\Theta$ reported for the phase?
+  \item Is the corridor produced by explicit tests and recorded in a ledger-compatible artifact?
+  \item Is any ``derived $\theta^\star$'' claim supported by corridor-intersection history across independent phases?
+\end{itemize}
+If not, remove ``derived'' language.
+
+\subsection{Phase locking gate}
+Before labeling a phase ``locked,'' confirm:
+\begin{enumerate}
+  \item claims are explicit and scoped;
+  \item artifacts regenerate from a clean checkout at the stated commit;
+  \item run manifest is complete;
+  \item ablations and binding certificates exist where required;
+  \item the phase emits its \texttt{theta\_filter} JSON and the ledger updates without manual edits.
+\end{enumerate}
+If any item fails, the phase remains exploratory.

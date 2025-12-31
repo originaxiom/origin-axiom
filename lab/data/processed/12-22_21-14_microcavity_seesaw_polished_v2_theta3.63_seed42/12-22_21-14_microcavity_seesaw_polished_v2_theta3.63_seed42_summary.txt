@@ -1,7 +1,0 @@
-Phase 1.5 Polished Summary
-Date: 12-22_21-14
-θ★ fiducial: 3.630 rad
-Band: [2.18, 5.54]
-Max seesaw ΔE: 1.19e-05
-Min seesaw ΔE: 1.16e-05
-Relative modulation peak: ~2.2%

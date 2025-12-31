@@ -1,0 +1,489 @@
+# ============================================================
+# Origin Axiom — Phase 2 Snakemake Workflow (hardened)
+#
+# Canonical rule: one rule -> one canonical artifact (figure PDF).
+# Each figure rule writes:
+#   - outputs/figures/<fig>.pdf
+#   - outputs/figures/<fig>.run_id.txt
+#   - outputs/figures/<fig>.sig.txt    (content signature of inputs)
+#
+# Signature logic:
+#   - If sig matches and run dir contains expected PDF -> reuse (copy)
+#   - Else -> generate fresh timestamped run_id and recompute
+#
+# Robust when invoked from:
+#   (a) inside phase2/:     snakemake -c 1 -s workflow/Snakefile
+#   (b) repo root:         snakemake -c 1 -s phase2/workflow/Snakefile
+# ============================================================
+
+from __future__ import annotations
+
+import hashlib
+import json
+from datetime import datetime
+from pathlib import Path
+
+# ------------------------------------------------------------
+# Locate Phase 2 root relative to this Snakefile
+# ------------------------------------------------------------
+PHASE2_DIR = Path(workflow.basedir).resolve().parent
+SRC_DIR    = PHASE2_DIR / "src"
+CFG_PATH   = PHASE2_DIR / "config" / "phase2.yaml"
+
+configfile: str(CFG_PATH)
+CONFIG = config
+
+# ------------------------------------------------------------
+# Helpers
+# ------------------------------------------------------------
+def utc_timestamp() -> str:
+    return datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+
+
+def _sha256_file(p: Path) -> bytes:
+    h = hashlib.sha256()
+    h.update(p.read_bytes())
+    return h.digest()
+
+
+def signature_for(paths: list[str | Path]) -> str:
+    """
+    Deterministic content signature over a list of files.
+    We hash (filename + content-hash) to avoid accidental collisions.
+    """
+    h = hashlib.sha256()
+    for x in paths:
+        p = Path(x)
+        if not p.exists():
+            # Include the missing marker deterministically
+            h.update(f"MISSING::{p.as_posix()}".encode("utf-8"))
+            continue
+        h.update(f"FILE::{p.as_posix()}".encode("utf-8"))
+        h.update(_sha256_file(p))
+    return h.hexdigest()
+
+
+RUN_BASE   = PHASE2_DIR / CONFIG["outputs"]["run_dir"]   # e.g. outputs/runs
+FIG_BASE   = PHASE2_DIR / CONFIG["outputs"]["fig_dir"]   # e.g. outputs/figures
+BUNDLE_DIR = PHASE2_DIR / "outputs" / "paper_bundle"
+
+# Use absolute PYTHONPATH for robustness
+PY = f'PYTHONPATH="{SRC_DIR}" python'
+
+# Explicit entrypoints + core modules (inputs to prevent drift)
+ENTRY_MODE_SUM = SRC_DIR / "phase2" / "modes" / "run_mode_sum.py"
+ENTRY_SWEEP    = SRC_DIR / "phase2" / "modes" / "run_sweep.py"
+ENTRY_FRW      = SRC_DIR / "phase2" / "cosmology" / "run_frw.py"
+
+MODE_MODEL   = SRC_DIR / "phase2" / "modes" / "mode_model.py"
+CONSTRAINTS  = SRC_DIR / "phase2" / "modes" / "constraints.py"
+OBSERVABLES  = SRC_DIR / "phase2" / "observables.py"
+UTILS_META   = SRC_DIR / "phase2" / "utils_meta.py"
+
+# Paper sources (optional; you can delete paper/ and still run "all")
+PAPER_DIR = PHASE2_DIR / "paper"
+if PAPER_DIR.exists():
+    PAPER_SOURCES = (
+        [str(p) for p in PAPER_DIR.rglob("*.tex")]
+        + [str(p) for p in PAPER_DIR.rglob("*.bib")]
+    )
+else:
+    PAPER_SOURCES = []
+
+# Canonical figure names (must match CLAIMS.md)
+FIGURES = [
+    "figA_mode_sum_residual.pdf",
+    "figB_scaling_epsilon.pdf",
+    "figC_scaling_cutoff.pdf",
+    "figD_scaling_modes.pdf",
+    "figE_frw_comparison.pdf",
+]
+
+RUNID_FILES = [str(FIG_BASE / f.replace(".pdf", ".run_id.txt")) for f in FIGURES]
+SIG_FILES   = [str(FIG_BASE / f.replace(".pdf", ".sig.txt")) for f in FIGURES]
+
+# ------------------------------------------------------------
+# Default target (FIGURES ONLY; paper is explicit target)
+# ------------------------------------------------------------
+rule all:
+    input:
+        expand(str(FIG_BASE / "{f}"), f=FIGURES)
+
+# ============================================================
+# FIGURE A — Mode-sum residual (Claim 2.1)
+# ============================================================
+rule figA_mode_sum_residual:
+    input:
+        cfg=str(CFG_PATH),
+        entry=str(ENTRY_MODE_SUM),
+        model=str(MODE_MODEL),
+        constraints=str(CONSTRAINTS),
+        obs=str(OBSERVABLES),
+        meta=str(UTILS_META),
+    output:
+        fig=str(FIG_BASE / "figA_mode_sum_residual.pdf"),
+        runid=str(FIG_BASE / "figA_mode_sum_residual.run_id.txt"),
+        sig=str(FIG_BASE / "figA_mode_sum_residual.sig.txt"),
+    params:
+        prefix="figA_mode_sum_residual",
+        expected_rel="figures/residual.pdf",
+        sig=lambda wc, input: signature_for([
+            input.cfg, input.entry, input.model, input.constraints, input.obs, input.meta
+        ]),
+    shell:
+        r'''
+        set -euo pipefail
+        mkdir -p "{RUN_BASE}" "{FIG_BASE}"
+
+        SIG_NOW="{params.sig}"
+        SIG_FILE="{output.sig}"
+        RUNID_FILE="{output.runid}"
+        FIG_OUT="{output.fig}"
+        EXPECTED_REL="{params.expected_rel}"
+
+        # Reuse existing run ONLY if signature matches and expected PDF exists.
+        if [ -f "$SIG_FILE" ] && [ -f "$RUNID_FILE" ]; then
+            SIG_OLD="$(tr -d ' \n\r' < "$SIG_FILE" || true)"
+            RUN_ID_OLD="$(tr -d ' \n\r' < "$RUNID_FILE" || true)"
+            if [ "$SIG_OLD" = "$SIG_NOW" ] && [ -n "$RUN_ID_OLD" ]; then
+                RUN_DIR="{RUN_BASE}/$RUN_ID_OLD"
+                SRC_FIG="$RUN_DIR/$EXPECTED_REL"
+                if [ -f "$SRC_FIG" ]; then
+                    cp "$SRC_FIG" "$FIG_OUT"
+                    exit 0
+                fi
+            fi
+        fi
+
+        TS="$(date -u +"%Y%m%dT%H%M%SZ")"
+        RUN_ID="{params.prefix}_${{TS}}"
+
+        {PY} -m phase2.modes.run_mode_sum \
+            --config "{CFG_PATH}" \
+            --task residual \
+            --run-id "$RUN_ID"
+
+        SRC_FIG="{RUN_BASE}/$RUN_ID/$EXPECTED_REL"
+        cp "$SRC_FIG" "$FIG_OUT"
+        echo "$RUN_ID" > "$RUNID_FILE"
+        echo "$SIG_NOW" > "$SIG_FILE"
+        '''
+
+# ============================================================
+# FIGURE B — Scaling with epsilon (Claim 2.2)
+# ============================================================
+rule figB_scaling_epsilon:
+    input:
+        cfg=str(CFG_PATH),
+        entry=str(ENTRY_SWEEP),
+        model=str(MODE_MODEL),
+        constraints=str(CONSTRAINTS),
+        obs=str(OBSERVABLES),
+        meta=str(UTILS_META),
+    output:
+        fig=str(FIG_BASE / "figB_scaling_epsilon.pdf"),
+        runid=str(FIG_BASE / "figB_scaling_epsilon.run_id.txt"),
+        sig=str(FIG_BASE / "figB_scaling_epsilon.sig.txt"),
+    params:
+        prefix="figB_scaling_epsilon",
+        sweep="epsilon",
+        expected_rel="figures/scaling_epsilon.pdf",
+        sig=lambda wc, input: signature_for([
+            input.cfg, input.entry, input.model, input.constraints, input.obs, input.meta
+        ]),
+    shell:
+        r'''
+        set -euo pipefail
+        mkdir -p "{RUN_BASE}" "{FIG_BASE}"
+
+        SIG_NOW="{params.sig}"
+        SIG_FILE="{output.sig}"
+        RUNID_FILE="{output.runid}"
+        FIG_OUT="{output.fig}"
+        EXPECTED_REL="{params.expected_rel}"
+
+        if [ -f "$SIG_FILE" ] && [ -f "$RUNID_FILE" ]; then
+            SIG_OLD="$(tr -d ' \n\r' < "$SIG_FILE" || true)"
+            RUN_ID_OLD="$(tr -d ' \n\r' < "$RUNID_FILE" || true)"
+            if [ "$SIG_OLD" = "$SIG_NOW" ] && [ -n "$RUN_ID_OLD" ]; then
+                RUN_DIR="{RUN_BASE}/$RUN_ID_OLD"
+                SRC_FIG="$RUN_DIR/$EXPECTED_REL"
+                if [ -f "$SRC_FIG" ]; then
+                    cp "$SRC_FIG" "$FIG_OUT"
+                    exit 0
+                fi
+            fi
+        fi
+
+        TS="$(date -u +"%Y%m%dT%H%M%SZ")"
+        RUN_ID="{params.prefix}_${{TS}}"
+
+        {PY} -m phase2.modes.run_sweep \
+            --config "{CFG_PATH}" \
+            --sweep "{params.sweep}" \
+            --run-id "$RUN_ID"
+
+        SRC_FIG="{RUN_BASE}/$RUN_ID/$EXPECTED_REL"
+        cp "$SRC_FIG" "$FIG_OUT"
+        echo "$RUN_ID" > "$RUNID_FILE"
+        echo "$SIG_NOW" > "$SIG_FILE"
+        '''
+
+# ============================================================
+# FIGURE C — Scaling with cutoff (Claim 2.2)
+# ============================================================
+rule figC_scaling_cutoff:
+    input:
+        cfg=str(CFG_PATH),
+        entry=str(ENTRY_SWEEP),
+        model=str(MODE_MODEL),
+        constraints=str(CONSTRAINTS),
+        obs=str(OBSERVABLES),
+        meta=str(UTILS_META),
+    output:
+        fig=str(FIG_BASE / "figC_scaling_cutoff.pdf"),
+        runid=str(FIG_BASE / "figC_scaling_cutoff.run_id.txt"),
+        sig=str(FIG_BASE / "figC_scaling_cutoff.sig.txt"),
+    params:
+        prefix="figC_scaling_cutoff",
+        sweep="cutoff",
+        expected_rel="figures/scaling_cutoff.pdf",
+        sig=lambda wc, input: signature_for([
+            input.cfg, input.entry, input.model, input.constraints, input.obs, input.meta
+        ]),
+    shell:
+        r'''
+        set -euo pipefail
+        mkdir -p "{RUN_BASE}" "{FIG_BASE}"
+
+        SIG_NOW="{params.sig}"
+        SIG_FILE="{output.sig}"
+        RUNID_FILE="{output.runid}"
+        FIG_OUT="{output.fig}"
+        EXPECTED_REL="{params.expected_rel}"
+
+        if [ -f "$SIG_FILE" ] && [ -f "$RUNID_FILE" ]; then
+            SIG_OLD="$(tr -d ' \n\r' < "$SIG_FILE" || true)"
+            RUN_ID_OLD="$(tr -d ' \n\r' < "$RUNID_FILE" || true)"
+            if [ "$SIG_OLD" = "$SIG_NOW" ] && [ -n "$RUN_ID_OLD" ]; then
+                RUN_DIR="{RUN_BASE}/$RUN_ID_OLD"
+                SRC_FIG="$RUN_DIR/$EXPECTED_REL"
+                if [ -f "$SRC_FIG" ]; then
+                    cp "$SRC_FIG" "$FIG_OUT"
+                    exit 0
+                fi
+            fi
+        fi
+
+        TS="$(date -u +"%Y%m%dT%H%M%SZ")"
+        RUN_ID="{params.prefix}_${{TS}}"
+
+        {PY} -m phase2.modes.run_sweep \
+            --config "{CFG_PATH}" \
+            --sweep "{params.sweep}" \
+            --run-id "$RUN_ID"
+
+        SRC_FIG="{RUN_BASE}/$RUN_ID/$EXPECTED_REL"
+        cp "$SRC_FIG" "$FIG_OUT"
+        echo "$RUN_ID" > "$RUNID_FILE"
+        echo "$SIG_NOW" > "$SIG_FILE"
+        '''
+
+# ============================================================
+# FIGURE D — Scaling with number of modes (Claim 2.2)
+# ============================================================
+rule figD_scaling_modes:
+    input:
+        cfg=str(CFG_PATH),
+        entry=str(ENTRY_SWEEP),
+        model=str(MODE_MODEL),
+        constraints=str(CONSTRAINTS),
+        obs=str(OBSERVABLES),
+        meta=str(UTILS_META),
+    output:
+        fig=str(FIG_BASE / "figD_scaling_modes.pdf"),
+        runid=str(FIG_BASE / "figD_scaling_modes.run_id.txt"),
+        sig=str(FIG_BASE / "figD_scaling_modes.sig.txt"),
+    params:
+        prefix="figD_scaling_modes",
+        sweep="n_modes",
+        expected_rel="figures/scaling_modes.pdf",
+        sig=lambda wc, input: signature_for([
+            input.cfg, input.entry, input.model, input.constraints, input.obs, input.meta
+        ]),
+    shell:
+        r'''
+        set -euo pipefail
+        mkdir -p "{RUN_BASE}" "{FIG_BASE}"
+
+        SIG_NOW="{params.sig}"
+        SIG_FILE="{output.sig}"
+        RUNID_FILE="{output.runid}"
+        FIG_OUT="{output.fig}"
+        EXPECTED_REL="{params.expected_rel}"
+
+        if [ -f "$SIG_FILE" ] && [ -f "$RUNID_FILE" ]; then
+            SIG_OLD="$(tr -d ' \n\r' < "$SIG_FILE" || true)"
+            RUN_ID_OLD="$(tr -d ' \n\r' < "$RUNID_FILE" || true)"
+            if [ "$SIG_OLD" = "$SIG_NOW" ] && [ -n "$RUN_ID_OLD" ]; then
+                RUN_DIR="{RUN_BASE}/$RUN_ID_OLD"
+                SRC_FIG="$RUN_DIR/$EXPECTED_REL"
+                if [ -f "$SRC_FIG" ]; then
+                    cp "$SRC_FIG" "$FIG_OUT"
+                    exit 0
+                fi
+            fi
+        fi
+
+        TS="$(date -u +"%Y%m%dT%H%M%SZ")"
+        RUN_ID="{params.prefix}_${{TS}}"
+
+        {PY} -m phase2.modes.run_sweep \
+            --config "{CFG_PATH}" \
+            --sweep "{params.sweep}" \
+            --run-id "$RUN_ID"
+
+        SRC_FIG="{RUN_BASE}/$RUN_ID/$EXPECTED_REL"
+        cp "$SRC_FIG" "$FIG_OUT"
+        echo "$RUN_ID" > "$RUNID_FILE"
+        echo "$SIG_NOW" > "$SIG_FILE"
+        '''
+
+# ============================================================
+# FIGURE E — FRW cosmology (Claim 2.3)
+# ============================================================
+rule figE_frw_comparison:
+    input:
+        cfg=str(CFG_PATH),
+        entry=str(ENTRY_FRW),
+        model=str(MODE_MODEL),
+        constraints=str(CONSTRAINTS),
+        obs=str(OBSERVABLES),
+        meta=str(UTILS_META),
+    output:
+        fig=str(FIG_BASE / "figE_frw_comparison.pdf"),
+        runid=str(FIG_BASE / "figE_frw_comparison.run_id.txt"),
+        sig=str(FIG_BASE / "figE_frw_comparison.sig.txt"),
+    params:
+        prefix="figE_frw_comparison",
+        expected_rel="figures/frw_comparison.pdf",
+        sig=lambda wc, input: signature_for([
+            input.cfg, input.entry, input.model, input.constraints, input.obs, input.meta
+        ]),
+    shell:
+        r'''
+        set -euo pipefail
+        mkdir -p "{RUN_BASE}" "{FIG_BASE}"
+
+        SIG_NOW="{params.sig}"
+        SIG_FILE="{output.sig}"
+        RUNID_FILE="{output.runid}"
+        FIG_OUT="{output.fig}"
+        EXPECTED_REL="{params.expected_rel}"
+
+        if [ -f "$SIG_FILE" ] && [ -f "$RUNID_FILE" ]; then
+            SIG_OLD="$(tr -d ' \n\r' < "$SIG_FILE" || true)"
+            RUN_ID_OLD="$(tr -d ' \n\r' < "$RUNID_FILE" || true)"
+            if [ "$SIG_OLD" = "$SIG_NOW" ] && [ -n "$RUN_ID_OLD" ]; then
+                RUN_DIR="{RUN_BASE}/$RUN_ID_OLD"
+                SRC_FIG="$RUN_DIR/$EXPECTED_REL"
+                if [ -f "$SRC_FIG" ]; then
+                    cp "$SRC_FIG" "$FIG_OUT"
+                    exit 0
+                fi
+            fi
+        fi
+
+        TS="$(date -u +"%Y%m%dT%H%M%SZ")"
+        RUN_ID="{params.prefix}_${{TS}}"
+
+        {PY} -m phase2.cosmology.run_frw \
+            --config "{CFG_PATH}" \
+            --run-id "$RUN_ID"
+
+        SRC_FIG="{RUN_BASE}/$RUN_ID/$EXPECTED_REL"
+        cp "$SRC_FIG" "$FIG_OUT"
+        echo "$RUN_ID" > "$RUNID_FILE"
+        echo "$SIG_NOW" > "$SIG_FILE"
+        '''
+
+# ============================================================
+# PAPER BUNDLE (optional helper)
+# ============================================================
+rule paper_bundle:
+    """
+    Collect everything needed to write/review the Phase 2 paper in one folder:
+
+      outputs/paper_bundle/
+        figures/*.pdf
+        config/phase2.yaml
+        runs/<run_id>/... (full provenance for each canonical figure)
+        run_index.json
+    """
+    input:
+        figs=expand(str(FIG_BASE / "{f}"), f=FIGURES),
+        runids=RUNID_FILES,
+        cfg=str(CFG_PATH),
+    output:
+        index=str(BUNDLE_DIR / "run_index.json"),
+    run:
+        from shutil import copy2, copytree, rmtree
+
+        BUNDLE_DIR.mkdir(parents=True, exist_ok=True)
+
+        fig_out = BUNDLE_DIR / "figures"
+        fig_out.mkdir(parents=True, exist_ok=True)
+        for f in input.figs:
+            copy2(f, fig_out / Path(f).name)
+
+        cfg_out = BUNDLE_DIR / "config"
+        cfg_out.mkdir(parents=True, exist_ok=True)
+        copy2(input.cfg, cfg_out / "phase2.yaml")
+
+        run_map = {}
+        for runid_path in input.runids:
+            p = Path(runid_path)
+            fig_key = p.name.replace(".run_id.txt", "")
+            run_id = p.read_text(encoding="utf-8").strip()
+            run_map[fig_key] = run_id
+
+            src_dir = RUN_BASE / run_id
+            dst_dir = BUNDLE_DIR / "runs" / run_id
+            dst_dir.parent.mkdir(parents=True, exist_ok=True)
+
+            if not src_dir.exists():
+                raise RuntimeError(f"Expected run dir missing: {src_dir}")
+
+            if dst_dir.exists():
+                rmtree(dst_dir)
+            copytree(src_dir, dst_dir)
+
+        index = {
+            "phase": "phase2",
+            "phase2_dir": str(PHASE2_DIR),
+            "canonical_figures": FIGURES,
+            "canonical_fig_dir": str(FIG_BASE),
+            "canonical_run_dir": str(RUN_BASE),
+            "figure_to_run_id": run_map,
+        }
+        Path(output.index).write_text(json.dumps(index, indent=2), encoding="utf-8")
+
+# ============================================================
+# PAPER (explicit target; not part of rule all)
+# ============================================================
+rule paper:
+    input:
+        figs=expand(str(FIG_BASE / "{f}"), f=FIGURES),
+        sources=PAPER_SOURCES,
+        cfg=str(CFG_PATH),
+    output:
+        str(PHASE2_DIR / "paper" / "main.pdf")
+    shell:
+        r'''
+        set -euo pipefail
+        if [ ! -d "{PHASE2_DIR}/paper" ] || [ ! -f "{PHASE2_DIR}/paper/main.tex" ]; then
+            echo "ERROR: paper/ or paper/main.tex missing. Create paper sources first." >&2
+            exit 2
+        fi
+        cd "{PHASE2_DIR}/paper" && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+        '''
