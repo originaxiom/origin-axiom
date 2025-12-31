@@ -122,3 +122,14 @@ phase1/paper/*.out
 phase1/paper/*.fls 
 phase1/paper/*.fdb_latexmk
 phase1/paper/*.synctex.gz
+
+# Phase2 paper work-in-progress (keep local until locked)
+phase2/_paper_backups/
+phase2/paper/appendix/
+phase2/paper/sections/00_abstract.tex
+phase2/paper/sections/02_model_definition.tex
+phase2/paper/sections/03_claim_C2_1_existence.tex
+phase2/paper/sections/04_claim_C2_2_robustness.tex
+phase2/paper/sections/05_claim_C2_3_frw_viability.tex
+phase2/paper/sections/06_reproducibility_and_provenance.tex
+phase2/paper/sections/07_limitations_and_nonclaims.tex
