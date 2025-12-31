@@ -6,6 +6,10 @@ phase1:
   # Global deterministic seed used across all stochastic components
   seed: 42
 
+model:
+  constraint:
+    enabled: true
+
 # -------------------------------------------------------------------
 # Phasor ensemble toy model
 # Purpose: demonstrate generic cancellation behavior and the emergence

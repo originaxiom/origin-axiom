@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import platform
-import shutil
 import sys
 from pathlib import Path
 from typing import Dict, Tuple, List
@@ -21,27 +19,26 @@ def phasor_sum(
     twist_fraction: float = 0.5,
 ) -> complex:
     """
-    Sum of unit phasors with a controlled 'twist' subgroup:
+    Sum of unit phasors with a controlled "twist" applied to a random subset.
 
-      - (1 - twist_fraction) of phases are random uniform [0, 2π)
-      - twist_fraction of phases are (random + twist) mod 2π
+    - Draw n_modes angles uniformly in [0, 2π)
+    - Choose k = round(n_modes * twist_fraction) angles and add twist (mod 2π)
+    - Return the complex sum Σ exp(i θ_j)
 
-    Phase-1 θ-agnostic:
-      'twist' is a generic misalignment knob (not θ★). We probe behavior
-      near π (near-maximal cancellation) without privileging a specific
-      irrational constant.
+    This creates a controllable mismatch structure while preserving generic cancellation.
     """
-    if n_modes < 2:
-        raise ValueError("n_modes must be >= 2")
+    if n_modes <= 0:
+        raise ValueError("n_modes must be positive")
+    twist_fraction = float(twist_fraction)
+    if not (0.0 < twist_fraction < 1.0):
+        raise ValueError("twist_fraction must be in (0,1)")
 
     k = int(round(n_modes * twist_fraction))
     k = max(1, min(k, n_modes - 1))
 
     base = rng.uniform(0.0, 2.0 * np.pi, size=n_modes)
-
-    # NOTE: since base phases are i.i.d. uniform, twisting the first k entries
-    # is equivalent (in distribution) to twisting a random subset of size k.
-    base[:k] = (base[:k] + twist) % (2.0 * np.pi)
+    idx = rng.choice(n_modes, size=k, replace=False)
+    base[idx] = (base[idx] + twist) % (2.0 * np.pi)
 
     return np.exp(1j * base).sum()
 
@@ -53,6 +50,7 @@ def run_trials(
     twist: float,
     eps: float,
     twist_fraction: float,
+    enabled: bool = True,
 ) -> Tuple[np.ndarray, np.ndarray]:
     """
     Returns:
@@ -67,7 +65,10 @@ def run_trials(
         s = phasor_sum(rng, n_modes=n_modes, twist=twist, twist_fraction=twist_fraction)
         r = float(np.abs(s))
         raw[i] = r
-        floored[i] = max(r, eps)
+        if enabled:
+            floored[i] = max(r, eps)
+        else:
+            floored[i] = r
 
     return raw, floored
 
@@ -91,12 +92,16 @@ def make_figA(*, cfg: dict, out_path: Path) -> None:
     eps = float(cfg["phasor_toy"]["eps"])
     twist_fraction = float(cfg["phasor_toy"].get("twist_fraction", 0.5))
 
+    constraint_enabled = cfg.get("model", {}).get("constraint", {}).get("enabled", True)
+    if not isinstance(constraint_enabled, bool):
+        raise ValueError(f"model.constraint.enabled must be boolean, got {constraint_enabled!r}")
+
     safe_mkdir(out_path.parent)
 
     runs_root = Path(cfg["outputs"]["run_dir"])
     safe_mkdir(runs_root)
 
-    run_id = make_run_id("figA")
+    run_id = make_run_id("figA_phasor")
     run_dir = runs_root / run_id
     safe_mkdir(run_dir)
 
@@ -110,73 +115,64 @@ def make_figA(*, cfg: dict, out_path: Path) -> None:
                 twist=tw,
                 eps=eps,
                 twist_fraction=twist_fraction,
+                enabled=constraint_enabled,
             )
             results.append(
                 {
-                    "n_modes": n_modes,
-                    "twist": tw,
+                    "n_modes": int(n_modes),
+                    "twist": float(tw),
+                    "eps": float(eps),
+                    "twist_fraction": float(twist_fraction),
+                    "constraint_enabled": bool(constraint_enabled),
                     "raw": summarize(raw),
                     "floored": summarize(floored),
                 }
             )
 
-    (run_dir / "results.yaml").write_text(yaml.safe_dump(results, sort_keys=False), encoding="utf-8")
+    # Save artifacts
+    out_json = run_dir / "summary.json"
+    out_json.write_text(yaml.safe_dump(results, sort_keys=False), encoding="utf-8")
 
-    # Build an index for clean lookups: (N, twist) -> stats
-    idx = {(r["n_modes"], r["twist"]): r for r in results}
+    # Plot: bar chart style summary comparing mean raw vs mean floored for each case
+    labels = []
+    raw_means = []
+    floor_means = []
+    for r in results:
+        labels.append(f"N={r['n_modes']}\nθ={r['twist']:.2f}")
+        raw_means.append(r["raw"]["mean"])
+        floor_means.append(r["floored"]["mean"])
 
-    plt.figure(figsize=(10, 4))
+    x = np.arange(len(labels))
+    width = 0.38
 
-    ax1 = plt.subplot(1, 2, 1)
-    for n_modes in n_modes_list:
-        xs = list(twists)
-        ys = [idx[(n_modes, tw)]["raw"]["mean"] for tw in twists]
-        ax1.plot(xs, ys, marker="o", label=f"N={n_modes}")
-    ax1.set_xlabel(r"twist $\theta$ (rad)")
-    ax1.set_ylabel(r"$\mathbb{E}[|S|]$ (raw)")
-    ax1.set_title("Random phasor sum residual (raw)")
-    ax1.grid(True, alpha=0.3)
-    ax1.legend(fontsize=8)
-
-    ax2 = plt.subplot(1, 2, 2)
-    for n_modes in n_modes_list:
-        xs = list(twists)
-        ys = [idx[(n_modes, tw)]["floored"]["mean"] for tw in twists]
-        ax2.plot(xs, ys, marker="o", label=f"N={n_modes}")
-    ax2.axhline(eps, linestyle="--", linewidth=1.0, label=r"$\varepsilon$")
-    ax2.set_xlabel(r"twist $\theta$ (rad)")
-    ax2.set_ylabel(r"$\mathbb{E}[\max(|S|,\varepsilon)]$")
-    ax2.set_title("Residual with non-cancellation floor")
-    ax2.grid(True, alpha=0.3)
-    ax2.legend(fontsize=8)
-
-    plt.suptitle(
-        f"Phase 1 Fig A — phasor ensemble + floor (trials={n_trials}, eps={eps}, seed={seed}, frac={twist_fraction})",
-        fontsize=10,
-    )
-
+    plt.figure(figsize=(10, 5))
+    plt.bar(x - width / 2, raw_means, width, label="raw mean |S|")
+    plt.bar(x + width / 2, floor_means, width, label=f"floored mean max(|S|, ε), ε={eps:g}")
+    plt.xticks(x, labels, rotation=0)
+    plt.ylabel("Residual proxy")
+    plt.title("Phase 1 Fig A — raw vs floored residual (phasor toy)")
+    plt.legend()
     plt.tight_layout()
-    plt.savefig(out_path, bbox_inches="tight")
+    plt.savefig(out_path)
     plt.close()
-
-    shutil.copy2(out_path, run_dir / "figA_phasor_toy.pdf")
 
     meta = RunMeta(
         run_id=run_id,
         created_utc=utc_now_iso(),
         git_commit=git_commit_hash(),
         python=sys.version.replace("\n", " "),
-        platform=platform.platform(),
+        platform=sys.platform,
         params={
+            "mode": "figA",
             "seed": seed,
             "n_trials": n_trials,
             "n_modes_list": n_modes_list,
-            "twist_angles": twists,
+            "twists": twists,
             "eps": eps,
             "twist_fraction": twist_fraction,
-            "mode": "figA",
+            "constraint_enabled": bool(constraint_enabled),
         },
-        notes="Fig A: random phasor ensemble residual vs twist; floored variant applies max(|S|, eps).",
+        notes="Fig A: compare raw vs floored (Origin Axiom floor) residuals over twists and N.",
     )
     write_meta(run_dir, meta)
 
@@ -192,30 +188,26 @@ def make_figD_eps_scaling(*, cfg: dict, out_path: Path) -> None:
     seed = int(cfg["phase1"]["seed"])
     n_trials = int(cfg["phasor_toy"]["n_trials"])
     n_modes_list = list(map(int, cfg["phasor_toy"]["n_modes_list"]))
-    twists = list(map(float, cfg["phasor_toy"]["twist_angles"]))
     twist_fraction = float(cfg["phasor_toy"].get("twist_fraction", 0.5))
 
-    eps_list = cfg["phasor_toy"].get("eps_list", None)
-    if not eps_list:
-        raise ValueError("phasor_toy.eps_list is required for --mode eps_sweep")
+    constraint_enabled = cfg.get("model", {}).get("constraint", {}).get("enabled", True)
+    if not isinstance(constraint_enabled, bool):
+        raise ValueError(f"model.constraint.enabled must be boolean, got {constraint_enabled!r}")
 
-    eps_vals = np.array([float(e) for e in eps_list], dtype=float)
-
-    # Representative twist selection policy: closest to π if available.
-    tw = min(twists, key=lambda x: abs(x - np.pi)) if twists else float(np.pi)
+    eps_vals = list(map(float, cfg["phasor_toy"]["eps_list"]))
+    tw = float(cfg["phasor_toy"].get("eps_sweep_twist", np.pi))
 
     safe_mkdir(out_path.parent)
 
     runs_root = Path(cfg["outputs"]["run_dir"])
     safe_mkdir(runs_root)
 
-    run_id = make_run_id("figD")
+    run_id = make_run_id("figD_eps")
     run_dir = runs_root / run_id
     safe_mkdir(run_dir)
 
-    series = []
+    plt.figure(figsize=(7.5, 5))
     for n_modes in n_modes_list:
-        raw_means: List[float] = []
         floor_means: List[float] = []
         for eps in eps_vals:
             raw, floored = run_trials(
@@ -225,64 +217,66 @@ def make_figD_eps_scaling(*, cfg: dict, out_path: Path) -> None:
                 twist=tw,
                 eps=float(eps),
                 twist_fraction=twist_fraction,
+                enabled=constraint_enabled,
             )
-            raw_means.append(float(np.mean(raw)))
             floor_means.append(float(np.mean(floored)))
 
-        series.append(
-            {
-                "n_modes": int(n_modes),
-                "twist_used": float(tw),
-                "twist_selection_policy": "closest_to_pi",
-                "eps_list": [float(e) for e in eps_vals],
-                "raw_mean": raw_means,
-                "floored_mean": floor_means,
-                "seed_reused_across_eps": True,
-            }
-        )
-
-    (run_dir / "results.yaml").write_text(yaml.safe_dump(series, sort_keys=False), encoding="utf-8")
-
-    plt.figure(figsize=(6.5, 4.2))
-    for s in series:
-        plt.plot(s["eps_list"], s["floored_mean"], marker="o", label=f"N={s['n_modes']}")
+        plt.plot(eps_vals, floor_means, marker="o", label=f"N={n_modes}")
 
     plt.xscale("log")
     plt.yscale("log")
     plt.xlabel(r"$\varepsilon$")
     plt.ylabel(r"$\mathbb{E}[\max(|S|,\varepsilon)]$")
     plt.title(
-        f"Phase 1 Fig D — floor scaling vs ε (twist={tw:.3f}, trials={n_trials}, seed={seed}, frac={twist_fraction})"
+        f"Phase 1 Fig D — floor scaling at twist={tw:.3f} (constraint_enabled={constraint_enabled})"
     )
-    plt.grid(True, which="both", alpha=0.3)
-    plt.legend(fontsize=8)
+    plt.legend()
     plt.tight_layout()
-    plt.savefig(out_path, bbox_inches="tight")
+    plt.savefig(out_path)
     plt.close()
 
-    shutil.copy2(out_path, run_dir / "figD_eps_scaling.pdf")
+    # Save a small YAML summary for reuse by Phase0 certificates
+    summary = []
+    for n_modes in n_modes_list:
+        row = {"n_modes": int(n_modes), "twist": float(tw), "constraint_enabled": bool(constraint_enabled), "eps_list": eps_vals}
+        raw_means = []
+        floor_means = []
+        for eps in eps_vals:
+            raw, floored = run_trials(
+                seed=seed,
+                n_trials=n_trials,
+                n_modes=n_modes,
+                twist=tw,
+                eps=float(eps),
+                twist_fraction=twist_fraction,
+                enabled=constraint_enabled,
+            )
+            raw_means.append(float(np.mean(raw)))
+            floor_means.append(float(np.mean(floored)))
+
+        row["raw_mean"] = raw_means
+        row["floored_mean"] = floor_means
+        summary.append(row)
+
+    (run_dir / "results.yaml").write_text(yaml.safe_dump(summary, sort_keys=False), encoding="utf-8")
 
     meta = RunMeta(
         run_id=run_id,
         created_utc=utc_now_iso(),
         git_commit=git_commit_hash(),
         python=sys.version.replace("\n", " "),
-        platform=platform.platform(),
+        platform=sys.platform,
         params={
+            "mode": "eps_sweep",
             "seed": seed,
             "n_trials": n_trials,
             "n_modes_list": n_modes_list,
-            "twist_used": float(tw),
-            "twist_selection_policy": "closest_to_pi",
-            "eps_list": [float(e) for e in eps_vals],
+            "twist": tw,
             "twist_fraction": twist_fraction,
-            "seed_reused_across_eps": True,
-            "mode": "eps_sweep",
+            "eps_list": eps_vals,
+            "constraint_enabled": bool(constraint_enabled),
         },
-        notes=(
-            "Fig D: eps sweep; plots E[max(|S|, eps)] vs eps at a representative twist near pi. "
-            "Same RNG seed reused across eps values to isolate the floor effect."
-        ),
+        notes="Fig D: eps sweep; plots E[max(|S|, eps)] vs eps at a representative twist near pi. Same RNG seed per eps for controlled comparison.",
     )
     write_meta(run_dir, meta)
 
