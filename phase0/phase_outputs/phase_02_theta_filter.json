@@ -27,8 +27,8 @@
   "provenance": {
     "phase2_dir": "/Users/dri/Documents/Projects/origin-axiom/phase2",
     "run_ids": {
-      "binding_off": "test_binding_off_20251229T103250Z",
-      "binding_on": "test_binding_on_20251229T103250Z"
+      "binding_off": "phase2_cert_off_20251229T151136Z",
+      "binding_on": "phase2_cert_on_20251229T151136Z"
     }
   },
   "schema_version": "1.0",
