@@ -1,0 +1,69 @@
+{
+  "meta_tests": {
+    "all_ok": true,
+    "note": "Phase 1 certificate: explicit constraint.enabled OFF is noninvasive; ON shows binding in eps sweep. Phase 1 does not narrow theta.",
+    "off": {
+      "all_noninvasive": true,
+      "any_bind": false,
+      "constraint_enabled": false,
+      "created_utc": "2025-12-29T11:47:54Z",
+      "run_id": "figD_eps_20251229T114750Z_8b8d575a"
+    },
+    "on": {
+      "all_noninvasive": false,
+      "any_bind": true,
+      "constraint_enabled": true,
+      "created_utc": "2025-12-29T15:00:40Z",
+      "run_id": "figD_eps_20251229T150033Z_31118e96"
+    },
+    "results": {
+      "ablation_separates": true,
+      "binding_off_noninvasive": true,
+      "binding_on_enabled": true,
+      "binding_on_exhibits_binding": true,
+      "provenance_present": true
+    }
+  },
+  "phase": 1,
+  "provenance": {
+    "phase1_config": "/Users/dri/Documents/Projects/origin-axiom/phase1/config/phase1.yaml",
+    "phase1_config_hash": "sha256:33083a986dff27e0e4beffc80626d1fbd01fd82da629d4891ce58903cd381f88",
+    "phase1_dir": "/Users/dri/Documents/Projects/origin-axiom/phase1",
+    "run_ids": {
+      "binding_off": "figD_eps_20251229T114750Z_8b8d575a",
+      "binding_on": "figD_eps_20251229T150033Z_31118e96"
+    },
+    "runs_root": "/Users/dri/Documents/Projects/origin-axiom/phase1/outputs/runs"
+  },
+  "schema_version": "1.0",
+  "subphase": "phasor_toy_binding_certificate",
+  "tests": [
+    "binding_off_noninvasive",
+    "binding_on_enabled",
+    "binding_on_exhibits_binding",
+    "ablation_separates",
+    "provenance_present"
+  ],
+  "theta_domain": [
+    0.0,
+    6.283185307179586
+  ],
+  "theta_pass": {
+    "intervals": [
+      [
+        0.0,
+        6.283185307179586
+      ]
+    ],
+    "type": "intervals"
+  },
+  "theta_prior": {
+    "intervals": [
+      [
+        0.0,
+        6.283185307179586
+      ]
+    ],
+    "type": "intervals"
+  }
+}

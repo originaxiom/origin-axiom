@@ -1,0 +1,71 @@
+% paper/appendices/C_toy_example_corridor_shrinking.tex
+
+\section{Toy example: corridor shrinking by intersecting independent thresholds}
+\label{app:toy_corridor}
+
+This appendix provides a minimal illustrative example of the corridor method.
+The goal is not to model physics, but to show how independent constraints can narrow an initially broad $\Theta_0$ toward a small interval or isolated point(s).
+
+\subsection{Setup}
+Let $\theta\in[0,2\pi)$ and begin with a broad prior corridor:
+\begin{equation}
+\Theta_0 = [0,2\pi).
+\end{equation}
+Assume three independent layers (phases) each supplies a pass/fail test based on a threshold condition.
+
+\subsection{Layer 1: a smooth preference window}
+Suppose Phase~I admits $\theta$ values that satisfy
+\begin{equation}
+\mathcal{T}_1(\theta):\quad |\sin(\theta - \alpha)| \le c_1,
+\end{equation}
+for some $\alpha$ and $0<c_1<1$.
+This yields an admissible set $\Theta_1$ consisting of two intervals per $2\pi$ period centered near $\theta\approx\alpha$ and $\theta\approx\alpha+\pi$.
+
+\subsection{Layer 2: a binding ``kink'' constraint}
+Suppose Phase~II includes a binding condition where enforcement activates only when a diagnostic dips below a floor:
+\begin{equation}
+R_{\mathrm{raw}}(\theta) < \varepsilon.
+\end{equation}
+If, for illustration, $R_{\mathrm{raw}}(\theta)$ crosses $\varepsilon$ near a specific phase offset, then the admissible set $\Theta_2$ may be defined as:
+\begin{equation}
+\mathcal{T}_2(\theta):\quad R_{\mathrm{raw}}(\theta) < \varepsilon
+\quad \text{and} \quad
+\Delta R(\theta) > 0,
+\end{equation}
+where $\Delta R$ measures a detectable OA impact relative to a constraint-off ablation.
+This constraint can produce sharp boundaries (a ``kink'') separating binding from non-binding regions and can therefore shrink $\Theta_1$ substantially when intersected.
+
+\subsection{Layer 3: a stability window}
+Suppose Phase~III admits only $\theta$ values for which a downstream solver remains stable:
+\begin{equation}
+\mathcal{T}_3(\theta):\quad \text{solution exists and remains bounded for } t\in[0,T].
+\end{equation}
+In many dynamical systems, stability occurs only in windows, producing disconnected admissible sets.
+
+\subsection{Intersection and outcomes}
+The corridor method advances by intersection:
+\begin{equation}
+\Theta_{\mathrm{final}} = \Theta_1 \cap \Theta_2 \cap \Theta_3.
+\end{equation}
+Depending on the relative placement of windows and thresholds, three typical outcomes occur:
+
+\paragraph{Outcome A: narrow interval.}
+If the three admissible sets overlap in a single small window, the final corridor is a short interval.
+In this case $\theta$ is constrained but not uniquely determined.
+
+\paragraph{Outcome B: discrete candidates.}
+If overlaps occur only at isolated points (e.g.\ where a binding kink boundary intersects a stability boundary), the final admissible set can become a discrete set.
+This is common when constraints impose threshold-like behavior or when symmetry is partially broken.
+
+\paragraph{Outcome C: no narrowing.}
+If one or more tests are weakly $\theta$-dependent, the corresponding admissible set is nearly all of $[0,2\pi)$ and the intersection remains broad.
+This indicates that the phase is not informative as a filter layer and motivates revisiting its diagnostics or regimes to ensure binding and $\theta$ sensitivity.
+
+\subsection{Why this matters for the series}
+The toy example highlights why Phase~0 insists on:
+\begin{itemize}
+  \item explicit binding evidence (to ensure OA is actually tested),
+  \item independence of constraints across phases (to avoid redundant filters),
+  \item and ledger-tracked corridor evolution (to make narrowing quantitative).
+\end{itemize}
+If later phases succeed, the corridor history will provide transparent evidence for whether a unique $\theta^\star$ is earned, whether multiple discrete candidates remain, or whether $\theta$ remains effectively unconstrained by the explored layers.

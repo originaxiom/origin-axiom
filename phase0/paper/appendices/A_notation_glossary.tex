@@ -1,0 +1,73 @@
+% paper/appendices/A_notation_glossary.tex
+
+\section{Notation and glossary}
+\label{app:notation}
+
+This appendix defines notation and terms used throughout Phase~0 and inherited by subsequent phases.
+Where later phases introduce specialized variants, they must either reuse these symbols consistently or explicitly declare deviations.
+
+\subsection{Core symbols}
+
+\begin{itemize}
+  \item $\theta \in [0,2\pi)$: universal phase-like control parameter (defined modulo $2\pi$).
+  \item $\theta^\star$: a \emph{fiducial representative} value of $\theta$ used for benchmark runs or illustrative plots; not a derived constant unless corridor collapse is demonstrated.
+  \item $\Theta \subset [0,2\pi)$: an admissible set (corridor) of $\theta$ values; may be a union of intervals or a discrete set.
+  \item $\Theta_0$: initial prior corridor.
+  \item $\Theta_{i}$: corridor after applying filters from phases $1,\dots,i-1$.
+  \item $\mathcal{T}_i(\theta)$: Phase-$i$ test suite (explicit pass/fail criteria) evaluated at $\theta$.
+  \item $A$: a phase-specified global complex amplitude used to define ``cancellation'' and the OA floor.
+  \item $A_{\mathrm{raw}}$: the amplitude produced by the unconstrained (constraint-off) evolution.
+  \item $A_{\mathrm{con}}$: the amplitude after enforcement of the OA floor.
+  \item $\varepsilon>0$: the strictly positive floor in the Origin Axiom constraint.
+  \item $R$: a phase-specified scalar residual diagnostic associated with non-cancellation / remainder.
+  \item $R_{\mathrm{raw}}$: residual from the unconstrained run.
+  \item $R_{\mathrm{con}}$: residual from the constrained run.
+  \item $\Delta R$: difference between constrained and unconstrained residual (definition must be stated; additive or multiplicative).
+\end{itemize}
+
+\subsection{Key terms (glossary)}
+
+\paragraph{Cancellation.}
+The approach of the chosen global amplitude toward zero magnitude, $|A|\to 0$, within a specified model/phase definition.
+
+\paragraph{Non-cancellation (Origin Axiom).}
+The postulate that $|A|$ is bounded below by a strictly positive floor $\varepsilon$ (Eq.~\eqref{eq:OA_floor}).
+
+\paragraph{Implementation.}
+A concrete algorithm or rule that enforces the postulate within a chosen model, including how corrections are applied and how minimality is defined.
+
+\paragraph{Minimal intervention (MI).}
+An implementation hypothesis stating that when enforcement is required, the smallest correction (according to a declared norm or cost) is applied to satisfy $|A|\ge\varepsilon$.
+
+\paragraph{Non-binding regime.}
+A run/regime in which the raw evolution never violates the floor: $|A_{\mathrm{raw}}(t)|>\varepsilon$ for all times/steps.
+In this regime the constraint should be non-invasive.
+
+\paragraph{Binding regime.}
+A run/regime in which the raw evolution would violate the floor at least once: $\exists t$ such that $|A_{\mathrm{raw}}(t)|<\varepsilon$.
+In this regime enforcement must activate, and constrained and unconstrained runs may differ.
+
+\paragraph{Binding certificate.}
+A logged artifact demonstrating that enforcement occurred (e.g.\ a boolean flag plus a quantitative measure of hits) and that the constrained trajectory differs from the constraint-off ablation in a diagnostically relevant way.
+
+\paragraph{Ablation.}
+A controlled comparison where a single factor is changed (here: constraint OFF vs ON), holding all other settings fixed (seed, configuration, numerics).
+Required for causal attribution.
+
+\paragraph{Test suite.}
+A set of explicit criteria used to define admissibility of $\theta$ values in a phase, including binding evidence (when required), stability, robustness, and transfer viability.
+
+\paragraph{Admissible set / corridor.}
+The subset of $\theta$ values that pass a phase's test suite; represented as a union of intervals on $[0,2\pi)$ or as a discrete set of points.
+
+\paragraph{Corridor method.}
+The protocol that advances the program by intersecting admissible sets across phases:
+\[
+\Theta_{i+1} = \{\theta\in\Theta_i:\mathcal{T}_i(\theta)\ \mathrm{passes}\}.
+\]
+
+\paragraph{Ledger.}
+A deterministic mechanism that ingests per-phase \texttt{theta\_filter} artifacts and produces a versioned corridor history and dashboard, enabling audit-grade tracking of corridor narrowing over time.
+
+\paragraph{Phase locking.}
+A phase is ``locked'' only when its claims are explicitly stated, tied to regenerable artifacts, supported by required ablations and binding certificates, and accompanied by full provenance and ledger-compatible corridor outputs (Sec.~\ref{sec:locking_def}).

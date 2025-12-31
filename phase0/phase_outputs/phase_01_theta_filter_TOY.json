@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "phase": 1,
+  "subphase": "toy_smoke_test",
+  "theta_domain": [0.0, 6.283185307179586],
+  "theta_prior": {
+    "type": "intervals",
+    "intervals": [[0.0, 6.283185307179586]]
+  },
+  "theta_pass": {
+    "type": "intervals",
+    "intervals": [[2.900000000000000, 3.400000000000000]]
+  },
+  "tests": ["toy_pass_window"],
+  "provenance": {
+    "git_commit": "PHASE0_SMOKE_TEST",
+    "config_hash": "PHASE0_SMOKE_TEST",
+    "environment": "N/A",
+    "run_ids": {}
+  }
+}

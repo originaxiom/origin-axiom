@@ -1,0 +1,15 @@
+{
+  "intervals": [
+    [
+      2.18,
+      5.54
+    ]
+  ],
+  "meta": {
+    "source": "ledger_update"
+  },
+  "theta_domain": [
+    0.0,
+    6.283185307179586
+  ]
+}

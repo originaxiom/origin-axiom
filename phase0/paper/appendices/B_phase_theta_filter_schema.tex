@@ -1,0 +1,125 @@
+% paper/appendices/B_phase_theta_filter_schema.tex
+
+\section{Phase \texorpdfstring{$\theta$}{theta}-filter artifact schema (ledger interface)}
+\label{app:schema}
+
+This appendix defines the minimal machine-readable interface by which each phase reports its admissible $\theta$ set to the Phase~0 ledger.
+The goal is to make corridor evolution deterministic and auditable.
+
+\subsection{Design goals}
+The \texttt{theta\_filter} artifact must:
+\begin{itemize}
+  \item be sufficient to reconstruct the phase's admissible set $\Theta_{i+1}$;
+  \item record the phase's declared test suite and the pass/fail outcome for each evaluated $\theta$;
+  \item contain provenance linking each evaluated $\theta$ (or interval) to reproducible run identifiers;
+  \item be stable under minor refactors (schema versioned; backwards compatible when possible).
+\end{itemize}
+
+\subsection{Minimal required fields}
+Each phase must emit a JSON file named
+\begin{equation}
+\texttt{phase\_XX\_theta\_filter.json},
+\end{equation}
+where \texttt{XX} is a zero-padded phase number.
+
+The minimal schema is:
+
+\begin{verbatim}
+{
+  "schema_version": "1.0",
+  "phase": 2,
+  "subphase": "optional-string",
+  "theta_domain": [0.0, 6.283185307179586],
+
+  "theta_prior": {
+    "type": "intervals",
+    "intervals": [[2.18, 5.54]]
+  },
+
+  "theta_grid": [2.18, 2.20, 2.22, ...],
+
+  "tests": ["binds", "stable", "robust", "transfer_viable"],
+
+  "pass": [true, false, true, ...],
+
+  "fail_reasons": [
+    [],
+    ["binds=false", "stable=false"],
+    []
+  ],
+
+  "provenance": {
+    "git_commit": "abcdef123456",
+    "config_hash": "sha256:...",
+    "environment": "pip-freeze-or-env-hash",
+    "run_ids": {
+      "theta=2.18": "outputs/runs/<run_id>/",
+      "theta=2.20": "outputs/runs/<run_id>/"
+    }
+  }
+}
+\end{verbatim}
+
+\subsection{Optional fields (recommended)}
+The following fields are optional but recommended for diagnostics and ranking:
+
+\paragraph{Scores.}
+A phase may provide one or more score arrays aligned with \texttt{theta\_grid}:
+\begin{verbatim}
+"score": {
+  "intervention_cost": [...],
+  "stability_margin": [...],
+  "transfer_penalty": [...],
+  "total": [...]
+}
+\end{verbatim}
+Scores should be documented in the phase paper and interpreted cautiously.
+Scores do not replace pass/fail; they rank within the admissible set.
+
+\paragraph{Interval representation.}
+If a phase analytically characterizes admissibility as intervals rather than by grid scan, it may omit \texttt{theta\_grid} and instead provide:
+\begin{verbatim}
+"theta_pass": {
+  "type": "intervals",
+  "intervals": [[a1, b1], [a2, b2]]
+}
+\end{verbatim}
+The ledger will accept either representation.
+If both are present, \texttt{theta\_pass} takes precedence.
+
+\paragraph{Binding metrics.}
+When OA impact is claimed, phases should include binding metrics per $\theta$:
+\begin{verbatim}
+"binding": {
+  "epsilon": 1e-6,
+  "hit_fraction": [...],
+  "n_hits": [...],
+  "min_raw_minus_eps": [...]
+}
+\end{verbatim}
+
+\subsection{Ledger interpretation rules}
+To ensure determinism, the ledger applies the following rules:
+
+\begin{enumerate}
+  \item The admissible set $\Theta_{i+1}$ is reconstructed from either:
+  \begin{itemize}
+    \item \texttt{theta\_pass.intervals} (if present), or
+    \item the subset of \texttt{theta\_grid} entries where \texttt{pass=true}, grouped into contiguous intervals using a declared grid spacing tolerance.
+  \end{itemize}
+  \item Corridors are represented internally as unions of intervals on $[0,2\pi)$.
+        Any wrap-around interval is represented as two intervals.
+  \item The new corridor is computed by intersection:
+  \[
+    \Theta \leftarrow \Theta \cap \Theta_{i+1}.
+  \]
+  \item If the intersection is empty, the ledger must emit an error state and record which phase artifact caused the empty intersection.
+\end{enumerate}
+
+\subsection{Schema evolution}
+Future schema versions must:
+\begin{itemize}
+  \item bump \texttt{schema\_version},
+  \item preserve required fields or provide an explicit compatibility layer in the ledger,
+  \item document changes in Phase~0 and in the ledger README.
+\end{itemize}
