@@ -1,135 +1,23 @@
-# Phase2 generated outputs
-phase2/outputs/
-phase2/outputs/**
-
-# Canonical figure pointers/signatures are generated too
-phase2/outputs/figures/*.run_id.txt
-phase2/outputs/figures/*.sig.txt
-
-# Latex build products
-phase2/paper/*.pdf
-phase2/paper/*.aux
-phase2/paper/*.log
-phase2/paper/*.fls
-phase2/paper/*.fdb_latexmk
-phase2/paper/*.out
-
-
-
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pkl
-*.npz
-*.npy
-
-# Virtual envs
-venv/
-.env/
+*.pyc
 .venv/
+venv/
+
+# OS
+.DS_Store
+
+# LaTeX build
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+texput.log
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Data
-data/raw/*
-data/processed/*
-!data/.gitkeep
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# LaTeX
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.toc
-paper/*.synctex.gz
-paper/*.pdf
-.DS_Store
-*/.DS_Store
-
-# LaTeX build artefacts
-*.aux
-*.log
-*.out
-*.fdb_latexmk
-*.fls
-
-# LaTeX build artefacts
-*.aux
-*.log
-*.out
-*.fdb_latexmk
-*.fls
-src/lattice_theta/*.bak
-
-# LaTeX build artifacts
-*.aux
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.log
-*.out
-*.toc
-*.synctex.gz
-
-# LaTeX build artifacts
-*.aux
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.log
-*.out
-*.toc
-*.synctex.gz
-
-# PDFs (commit only if explicitly needed)
-*.pdf
-
-# macOS
-.DS_Store
-
-.DS_Store
-
-# LaTeX build artifacts
-*.aux
-*.log
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.toc
-*.out
-run.sh
-groksrc/
-
-
-
-.snakemake/ 
-phase1/outputs/ 
-*.zip 
-phase1/paper/*.xdv 
-phase1/paper/*.aux 
-phase1/paper/*.log 
-phase1/paper/*.toc 
-phase1/paper/*.out 
-phase1/paper/*.fls 
-phase1/paper/*.fdb_latexmk
-phase1/paper/*.synctex.gz
-
-# Phase2 paper work-in-progress (keep local until locked)
-phase2/_paper_backups/
-phase2/paper/appendix/
-phase2/paper/sections/00_abstract.tex
-phase2/paper/sections/02_model_definition.tex
-phase2/paper/sections/03_claim_C2_1_existence.tex
-phase2/paper/sections/04_claim_C2_2_robustness.tex
-phase2/paper/sections/05_claim_C2_3_frw_viability.tex
-phase2/paper/sections/06_reproducibility_and_provenance.tex
-phase2/paper/sections/07_limitations_and_nonclaims.tex
