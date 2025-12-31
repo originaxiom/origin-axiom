@@ -1,6 +1,0 @@
-Phase B Step 3: Baryogenesis Calculation
-Date: 12-24_01-53
-θ★ fiducial: 3.630 rad
-Max η_B: 1.10e-05
-Observed η_B: 6.10e-10
-Modulation from θ★: ~sin(2θ★) dependence

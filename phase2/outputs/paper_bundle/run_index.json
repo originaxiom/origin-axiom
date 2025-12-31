@@ -1,0 +1,20 @@
+{
+  "phase": "phase2",
+  "phase2_dir": "/Users/dri/Documents/Projects/origin-axiom/phase2",
+  "canonical_figures": [
+    "figA_mode_sum_residual.pdf",
+    "figB_scaling_epsilon.pdf",
+    "figC_scaling_cutoff.pdf",
+    "figD_scaling_modes.pdf",
+    "figE_frw_comparison.pdf"
+  ],
+  "canonical_fig_dir": "/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/figures",
+  "canonical_run_dir": "/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/runs",
+  "figure_to_run_id": {
+    "figA_mode_sum_residual": "figA_mode_sum_residual_20251228T012847Z",
+    "figB_scaling_epsilon": "figB_scaling_epsilon_20251228T012843Z",
+    "figC_scaling_cutoff": "figC_scaling_cutoff_20251228T012839Z",
+    "figD_scaling_modes": "figD_scaling_modes_20251228T012845Z",
+    "figE_frw_comparison": "figE_frw_comparison_20251228T012841Z"
+  }
+}

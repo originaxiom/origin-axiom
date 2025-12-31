@@ -1,0 +1,46 @@
+% paper/sections/07_limitations_and_nonclaims.tex
+
+\section{Limitations and non-claims}
+\label{sec:limitations}
+
+Phase~II is intentionally narrow.
+Its purpose is to lock a reproducible toy pipeline and to establish three auditable claims (C2.1--C2.3), not to assert a completed fundamental theory.
+To keep the work intellectually honest and arXiv-appropriate, we enumerate limitations and explicit non-claims.
+
+\subsection{The axiom is postulated, not derived}
+The Origin Axiom is implemented as a hard global constraint $|A|\ge\varepsilon$ enforced algorithmically.
+Phase~II does not derive this constraint from a local action, effective field theory, symmetry principle, or a UV-complete framework.
+The implementation should therefore be read as a controlled \emph{test of consequences} rather than as a derivation.
+
+\subsection{Toy models and normalization: no quantitative claim about the observed $\Lambda$}
+The lattice vacuum sector and the FRW mapping are toy realizations with a fixed code-unit normalization used for internal consistency and reproducibility.
+Phase~II does not claim:
+\begin{itemize}
+  \item that $\varepsilon$ corresponds to a physical constant,
+  \item that the residual magnitude matches the observed cosmological constant,
+  \item or that the FRW embedding is a faithful EFT matching to the Standard Model + GR.
+\end{itemize}
+Claim~C2.3 should be interpreted as a minimal viability test: the residual can be embedded as an effective background term without instability in the explored regime.
+
+\subsection{Sensitivity to implementation choices}
+While Claim~C2.2 demonstrates robustness under the Phase~II sweeps performed (floor scale, discretization/UV controls), the residual magnitude and its detailed dependence on controls can vary under alternative model choices, alternative potentials, alternative constraint enforcement schemes, or different mappings from lattice residual to $\Omega_\Lambda$.
+Phase~II does not claim universality of the reported percent-level modulations across all possible implementations.
+
+\subsection{Phase parameter $\theta^\star$ is an input anchor in Phase~II}
+Phase~II uses a single phase parameter $\theta$ both as a scanned control and as a fixed anchor value $\theta^\star$ motivated by a separate flavor-inspired procedure.
+In Phase~II, $\theta^\star$ is treated as an external input; the axiom does not predict $\theta^\star$, and Phase~II does not provide a first-principles derivation of this anchor.
+The Phase~II contribution is to test whether a common phase input can coherently modulate downstream residuals across modules.
+
+\subsection{Continuum limit and physical interpretation of the residual}
+The existence and robustness results are demonstrated on discrete lattices with finite resolution and finite run length.
+Although sweeps indicate stability under discretization changes, Phase~II does not provide a proof of a continuum limit, nor does it establish that the residual corresponds to a physically measurable vacuum energy in a realistic QFT setting.
+The residual is operationally defined within the toy pipeline, and its physical interpretation remains a Phase~III-level question.
+
+\subsection{What Phase~II does establish}
+Within these limits, Phase~II establishes a locked foundation for Phase~III:
+\begin{itemize}
+  \item a concrete, stable implementation of a hard non-cancellation floor (C2.1),
+  \item evidence that the induced residual is controlled under key sweeps (C2.2),
+  \item and an end-to-end embedding into a toy FRW background demonstrating smooth behavior (C2.3).
+\end{itemize}
+These are necessary prerequisites for any later attempt to derive the axiom from a principled framework, to connect to physical scales, or to explore predictive signatures.

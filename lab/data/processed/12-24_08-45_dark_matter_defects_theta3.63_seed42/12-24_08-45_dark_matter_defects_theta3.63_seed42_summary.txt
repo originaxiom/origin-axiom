@@ -1,6 +1,0 @@
-Phase B Step 4: Dark Matter Model
-Date: 12-24_08-45
-θ★ fiducial: 3.630 rad
-Max Ω_DM h²: 2.14e-25
-Observed Ω_DM h²: 0.12
-Modulation from θ★: ~sin(2θ★) dependence

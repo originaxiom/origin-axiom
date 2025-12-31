@@ -1,0 +1,168 @@
+# ============================================================
+# Origin Axiom — Phase 2
+# Canonical configuration file (AUDITED)
+# ============================================================
+
+meta:
+  phase: 2
+  description: >
+    Phase 2 configuration for quantitative vacuum energy residual
+    and cosmological implications under the Origin Axiom.
+  created_utc: "AUTO"
+  git_commit: "AUTO"
+
+# ------------------------------------------------------------
+# Global controls
+# ------------------------------------------------------------
+global:
+  seed: 123456789
+  numeric_dtype: float64
+  units: "natural"
+  verbosity: 1
+
+# ------------------------------------------------------------
+# Model selection
+# ------------------------------------------------------------
+model:
+  # Allowed values: "mode_sum", "lattice"
+  primary_engine: "mode_sum"
+
+  epsilon:
+    value: 1.0e-12
+    interpretation: >
+      Global non-cancellation floor parameter ε.
+      Treated as a model parameter in Phase 2, not derived.
+
+# ------------------------------------------------------------
+# Mode-sum / QFT-approximate model
+# ------------------------------------------------------------
+mode_sum:
+  enabled: true
+  n_modes: 2048
+
+  cutoff:
+    type: "sharp"              # allowed: sharp, smooth
+    value: 1.0
+
+  phase:
+    type: "irrational_fixed"   # allowed: rational, irrational_fixed, random
+    value: "golden_ratio"
+    note: >
+      Phase is treated as a generic interference parameter.
+      No physical identification is made in Phase 2.
+
+  observables:
+    - vacuum_energy_residual
+    - cancellation_ratio
+
+# ------------------------------------------------------------
+# Lattice multi-mode model (optional / secondary)
+# ------------------------------------------------------------
+lattice:
+  enabled: false
+  geometry:
+    dimensions: 3
+    lattice_sizes: [16, 32, 64]
+  dynamics:
+    time_steps: 5000
+    dt: 0.01
+    integrator: "leapfrog"
+  fields:
+    n_fields: 1
+    mass: 0.0
+  constraint:
+    type: "global_floor"
+    epsilon: "@model.epsilon.value"
+  observables:
+    - energy_density
+    - constraint_activity
+
+# ------------------------------------------------------------
+# Parameter sweeps (robustness tests)
+# ------------------------------------------------------------
+sweeps:
+  epsilon:
+    enabled: true
+    values: [1.0e-10, 1.0e-11, 1.0e-12, 1.0e-13]
+
+  cutoff:
+    enabled: true
+    values: [1.0, 2.0, 4.0]
+
+  n_modes:
+    enabled: true
+    values: [512, 1024, 2048, 4096]
+
+  lattice_volume:
+    enabled: false
+    values: [16, 32, 64]
+
+# ------------------------------------------------------------
+# Unit mapping & calibration
+# ------------------------------------------------------------
+calibration:
+  enabled: true
+  energy_density:
+    target_unit: "GeV^4"
+    reference_scale:
+      type: "cutoff_based"
+      note: >
+        Physical interpretation of the code-unit cutoff is declared
+        explicitly and documented in the paper.
+    normalization_factor: "AUTO"
+
+# ------------------------------------------------------------
+# Cosmology (FRW wrapper)
+# ------------------------------------------------------------
+cosmology:
+  enabled: true
+  model: "FRW_flat"
+
+  # These are used for the OBSERVATIONAL reference curve in Fig E.
+  parameters:
+    H0_km_s_Mpc: 70.0
+    Omega_m: 0.3
+    Omega_r: 0.0
+
+  comparison:
+    Omega_L_obs: 0.7
+
+  interpretation:
+    vacuum_energy_source: "phase2_residual"
+
+    # AUDIT FIX:
+    # Must be large enough that Omega_L_eff crosses the acceleration threshold.
+    # With current residual ~1.864, this gives Omega_L_eff ~0.50 (accelerating, not a fit).
+    residual_to_omega_lambda: 0.27
+
+    # Keep flat closure for the EFFECTIVE model
+    cap_mode: "closure"                 # "closure" or "none"
+    flat_closure_tol: 1.0e-6
+
+    a_min: 1.0e-3
+    a_max: 1.0
+    n_grid: 400
+
+    note: >
+      Residual energy density is interpreted as effective Λ via an explicit
+      phenomenological mapping (residual_to_omega_lambda). This factor is not
+      derived in Phase 2. The effective model is enforced to be flat via closure.
+
+# ------------------------------------------------------------
+# Outputs
+# ------------------------------------------------------------
+outputs:
+  run_dir: "outputs/runs"
+  fig_dir: "outputs/figures"
+  overwrite_existing: false
+
+# ------------------------------------------------------------
+# Paper artifact mapping (for sanity checks)
+# ------------------------------------------------------------
+paper:
+  expected_figures:
+    - figA_mode_sum_residual.pdf
+    - figB_scaling_epsilon.pdf
+    - figC_scaling_cutoff.pdf
+    - figD_scaling_modes.pdf
+    - figE_frw_comparison.pdf

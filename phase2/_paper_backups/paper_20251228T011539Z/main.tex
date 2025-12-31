@@ -1,0 +1,100 @@
+% !TEX TS-program = pdflatex
+% Origin Axiom — Phase 2 paper main
+% Build: latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+
+\documentclass[11pt]{article}
+
+% ------------------------------------------------------------
+% Encoding / fonts (pdflatex-safe)
+% ------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% ------------------------------------------------------------
+% Layout + typography
+% ------------------------------------------------------------
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{microtype} % safer spacing, no unicode surprises
+
+% ------------------------------------------------------------
+% Math
+% ------------------------------------------------------------
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+
+% ------------------------------------------------------------
+% Figures / tables
+% ------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+% Make figure path stable relative to paper/
+\graphicspath{{../outputs/figures/}}
+
+% ------------------------------------------------------------
+% References + links
+% ------------------------------------------------------------
+\usepackage[hidelinks]{hyperref}
+
+% ------------------------------------------------------------
+% Local macros (keep notation stable and ASCII-safe)
+% ------------------------------------------------------------
+\input{macros}
+
+% Avoid issues in PDF bookmarks if macros appear in section titles later
+\pdfstringdefDisableCommands{%
+  \def\eps{epsilon}%
+  \def\Om{Omega_m}%
+  \def\Or{Omega_r}%
+  \def\Ol{Omega_Lambda}%
+  \def\OLeff{Omega_Lambda_eff}%
+}
+
+% ------------------------------------------------------------
+% Document metadata
+% ------------------------------------------------------------
+\title{Vacuum Energy Cancellation Under a Global Floor Constraint\\
+(Origin Axiom: Phase 2)}
+\author{Dritero Mehmetaj}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% TODO (150--250 words):
+% - State the Phase 2 scope: a constrained cancellation mechanism leaving a small residual.
+% - Mention numerical sweeps (epsilon / cutoff / modes) + reproducibility (Snakemake, per-run provenance).
+% - Mention FRW response via an explicit mapping residual -> Omega_Lambda,eff (no overclaiming).
+\end{abstract}
+
+\tableofcontents
+
+% ------------------------------------------------------------
+% Main sections (kept strictly Phase-2 safe)
+% ------------------------------------------------------------
+\input{sections/01_introduction}
+\input{sections/02_framework_and_axiom}
+\input{sections/03_model_and_constraint}
+\input{sections/04_numerical_protocol}
+\input{sections/05_results_scaling}
+\input{sections/06_frw_implications}
+\input{sections/07_limitations_and_scope}
+\input{sections/08_conclusion}
+
+% ------------------------------------------------------------
+% Appendices
+% ------------------------------------------------------------
+\appendix
+\input{sections/A_provenance}
+
+% ------------------------------------------------------------
+% Bibliography
+% ------------------------------------------------------------
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,30 @@
+{
+  "run_id": "figC_20251225T223947Z_bdd0fba0",
+  "created_utc": "2025-12-25T22:39:49Z",
+  "git_commit": "fb4ecd9939b43a96485555eeef433bb718318753",
+  "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "darwin",
+  "params": {
+    "mode": "scaling",
+    "sizes": [
+      16,
+      24
+    ],
+    "interpreted_as": "cubic lattices (L,L,L)",
+    "steps": 300,
+    "dt": 0.05,
+    "c": 1.0,
+    "m": 0.0,
+    "lam": 0.0,
+    "seed": 42,
+    "eps_mean": 0.01,
+    "init_sigma": 1.0,
+    "init_phi_dot_sigma": 0.0,
+    "burn_in_frac": 0.25,
+    "constraint_definition": "mean floor via upstream sum constraint eps_sum = eps_mean * N_sites"
+  },
+  "notes": "Fig C: scaling of tail-averaged |A_mean| with/without constraint; expects unconstrained decay ~1/sqrt(N).",
+  "git_dirty": true,
+  "python_executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python",
+  "cwd": "/Users/dri/Documents/Projects/origin-axiom"
+}

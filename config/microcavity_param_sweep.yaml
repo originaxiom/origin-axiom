@@ -1,8 +1,0 @@
-# Parameter grid for 1D microcavity robustness scan
-lattice_sizes: [256, 384, 512]
-mass_contrasts: [0.15, 0.20, 0.25]   # e.g. delta m / m0
-cavity_widths: [8.0, 10.0, 12.0]     # in lattice sites (effective width)
-theta_grid:
-  start: 0.0
-  stop: 6.283185307179586   # 2
-  num: 181                  # 2-degree-ish spacing
