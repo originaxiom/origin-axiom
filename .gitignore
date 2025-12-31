@@ -28,3 +28,16 @@ texput.log
 # Phase outputs we don't want tracked
 **/outputs/runs/
 
+
+# iCloud placeholders
+*.icloud
+
+# More LaTeX build cruft
+*.toc
+*.xdv
+*.synctex.gz
+
+# Phase2 test scratch (often nests its own outputs/)
+**/outputs/tests/_tmp_cfg_*/
+**/outputs/tests/**/outputs/
+
