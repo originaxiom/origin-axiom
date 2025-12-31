@@ -21,3 +21,10 @@ texput.log
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Snakemake
+**/.snakemake/
+
+# Phase outputs we don't want tracked
+**/outputs/runs/
+
