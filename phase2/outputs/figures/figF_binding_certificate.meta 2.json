@@ -1,0 +1,17 @@
+{
+  "off": {
+    "applied": false,
+    "constrained": 1.8640648476264552,
+    "raw": 1.8640648476264552
+  },
+  "off_run_id": "phase2_cert_off_20251229T151136Z",
+  "on": {
+    "applied": true,
+    "constrained": 10.0,
+    "raw": 1.8640648476264552
+  },
+  "on_run_id": "phase2_cert_on_20251229T151136Z",
+  "pdf": "phase2/outputs/figures/figF_binding_certificate.pdf",
+  "pdf_sha256": "21207c161d38d844cf94bfce4087709207a2a06850c9a7157fef6681749921cf",
+  "source": "/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate.json"
+}
