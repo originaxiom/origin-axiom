@@ -45,3 +45,11 @@ texput.log
 # Archives / cloud placeholders
 *.zip
 *.icloud
+
+# LaTeX extra build artifacts
+*.toc
+*.xdv
+*.synctex.gz
+*.nav
+*.snm
+
