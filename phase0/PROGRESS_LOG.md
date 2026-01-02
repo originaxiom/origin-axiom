@@ -1,4 +1,4 @@
-# Phase 0 â€” PROGRESS_LOG
+# Phase 0 â PROGRESS_LOG
 
 This log tracks Phase 0 (contracts): definitions, claim taxonomy, corridor schema, reproducibility requirements, and failure modes.
 Phase 0 is the governance layer for all subsequent phases.

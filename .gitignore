@@ -41,3 +41,7 @@ texput.log
 **/outputs/tests/_tmp_cfg_*/
 **/outputs/tests/**/outputs/
 
+
+# Archives / cloud placeholders
+*.zip
+*.icloud
