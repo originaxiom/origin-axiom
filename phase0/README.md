@@ -1,4 +1,4 @@
-# README.md ‚Äî Phase 0 (Origin Axiom)
+# README.md ‚ Phase 0 (Origin Axiom)
 
 Phase 0 is the **foundations + provenance + contracts** layer for the Origin Axiom program.
 
@@ -6,7 +6,7 @@ It provides:
 - a rigorous **paper of definitions and contracts** (`paper/`)
 - a deterministic **corridor ledger mechanism** that consumes per-phase JSON filters and produces a versioned Œ∏-corridor history (`scripts/`, `phase_outputs/`, `schemas/`)
 
-Phase 0 does **not** claim the axiom is physically true; it locks the rules by which later phases can be considered scientifically ‚Äúlocked.‚Äù
+Phase 0 does **not** claim the axiom is physically true; it locks the rules by which later phases can be considered scientifically ‚úlocked.‚ù
 
 ---
 
@@ -16,7 +16,7 @@ Phase 0 does **not** claim the axiom is physically true; it locks the rules by w
   Phase 0 manuscript (arXiv-ready LaTeX)
 
 - `scripts/phase0_ledger.py`  
-  Deterministic ledger tool (inputs ‚Üí outputs; no hidden state)
+  Deterministic ledger tool (inputs ‚ outputs; no hidden state)
 
 - `schemas/`  
   JSON schemas for phase Œ∏-filter artifacts and corridor representation
