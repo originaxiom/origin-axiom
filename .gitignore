@@ -53,3 +53,14 @@ texput.log
 *.nav
 *.snm
 
+# built artifacts
+phase0/paper/*.pdf
+phase0/paper/*.xdv
+phase0/paper/*.aux
+phase0/paper/*.bbl
+phase0/paper/*.blg
+phase0/paper/*.log
+phase0/paper/*.out
+phase0/paper/*.toc
+phase0/paper/*.fls
+phase0/paper/*.fdb_latexmk
