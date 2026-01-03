@@ -8,3 +8,13 @@
 *.out
 *.toc
 *.xdv
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.xdv
