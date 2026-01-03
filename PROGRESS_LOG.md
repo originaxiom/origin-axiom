@@ -1886,3 +1886,8 @@ Plan (locked):
 
 Notes:
 - No code/physics changes in this entry; only provenance and workflow locking.
+
+### 2026-01-03 — Stage 1 (Rung 1.1): Phase 0 intro rewrite (constitution voice)
+
+- Rewrote Phase 0 introduction as a constitution-style contract: what Phase 0 is, what it is not, why governance is required, and the “no dark progress” rule.
+- No physics content added; strengthens scope boundaries for later phases.
