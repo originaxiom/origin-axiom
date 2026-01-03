@@ -1919,3 +1919,8 @@ Notes:
 
 - Rewrote reproducibility contract to define canonical artifacts vs regenerable outputs, required provenance fields, and a minimal run-bundle structure.
 - Added explicit failure-handling rule: if an artifact cannot be regenerated, dependent claims are marked broken until repaired and logged.
+
+### 2026-01-03 — Stage 1 (Rung 1.6): Rewrite Phase 0 falsifiability + failure modes (falsifiers required)
+
+- Rewrote falsifiability/failure section: every claim must list concrete falsifiers; phases must list failure modes; failures are recorded, quarantined, repaired, and re-validated.
+- Added a strict speculation policy to protect scope contracts (speculation must be labeled and cannot be used as evidence).
