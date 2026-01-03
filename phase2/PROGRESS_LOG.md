@@ -31,3 +31,11 @@
 ## Next (immediate)
 - Commit the computational + workflow freeze (docs + config + scripts + Snakefile).
 - Then rebuild `phase2/paper/` from scratch with filenames aligned to actual section files and canonical figure names A–E.
+### 2026-01-03 — Baseline freeze for Phase 2 paper rebuild + rewrite
+
+Action:
+- Start alignment pass; Phase 2 paper will be rebuilt to match Phase 1 rigor and Phase 0 governance.
+- Confirmed status: Phase 2 computational artifacts + claims mapping exist; paper build currently blocked by mismatched \\input filenames in paper/main.tex (structural issue).
+
+Next:
+- Stage 3 will (1) fix paper structure (inputs/duplicates), then (2) rewrite text to be unambiguous and scope-tight, mapping every claim to figs A–E + run provenance.

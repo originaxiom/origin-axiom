@@ -1870,3 +1870,19 @@ Script:
 
 
 
+
+### 2026-01-03 — Phase 0–2 alignment pass begins (baseline freeze)
+
+Purpose:
+- Lock a reproducible baseline before governance alignment and Phase 2 rewrite.
+- Prevent “dark progress” by logging every change as we retrofit Phase (Phase 1/2) to comply with Phase 0.
+
+Plan (locked):
+1) Stage 0 — baseline freeze + tag
+2) Stage 1 — Phase 0 compactify (constitution: short, enforceable, referenced)
+3) Stage 2 — Phase 1 compliance polish (explicit non-claims, falsifiers, provenance)
+4) Stage 3 — Phase 2 paper rebuild + rewrite to match Phase 1 rigor (no ambiguity; strict scope)
+5) Stage 4 — continuity polish across logs / state docs
+
+Notes:
+- No code/physics changes in this entry; only provenance and workflow locking.

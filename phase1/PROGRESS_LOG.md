@@ -110,3 +110,12 @@ At Phase 1 completion:
 - No claims exceed demonstrated evidence.
 
 All further development proceeds only via later phases. Phase 1 is considered closed and self-contained.
+
+### 2026-01-03 — Baseline freeze for Phase 1 compliance check
+
+Action:
+- Start alignment pass to verify Phase 1 fully satisfies Phase 0 governance criteria.
+- Next stage will add mechanical compliance polish only (explicit falsifiers/non-claims + provenance pointers), without changing Phase 1 results.
+
+Constraint:
+- Phase 1 remains closed and self-contained; no new physics content.

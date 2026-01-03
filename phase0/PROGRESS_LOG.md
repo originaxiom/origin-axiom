@@ -34,3 +34,13 @@ Notes:
 - This log is being written after-the-fact to restore continuity; future entries should be added at time-of-change.
 
 >>>>>>> origin/docs-lock-structure-20251231
+
+### 2026-01-03 — Baseline freeze for Phase 0 compactification
+
+Action:
+- Start governed alignment pass (Phase 0–2). No governance rules changed yet.
+- Next stage will compactify Phase 0 paper (short constitution), without changing meaning.
+
+Constraints:
+- Maintain Phase 0 as method-only (no physics claims).
+- Any edits must preserve enforceability: claim taxonomy, evidence contract, phase scope contract, reproducibility, failure modes, corridor governance.
