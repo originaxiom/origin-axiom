@@ -1925,3 +1925,8 @@ Notes:
 
 - Rewrote falsifiability/failure section: every claim must list concrete falsifiers; phases must list failure modes; failures are recorded, quarantined, repaired, and re-validated.
 - Added a strict speculation policy to protect scope contracts (speculation must be labeled and cannot be used as evidence).
+
+### 2026-01-03 — Stage 1 (Rung 1.7): Compress Phase 0 candidate origins into non-normative note
+
+- Replaced candidate-origins discussion with a short non-normative hypothesis list.
+- Added explicit governance rule: future phases may test these routes only as bounded claims with evidence + falsifiers; cannot be cited as evidence.

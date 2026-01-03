@@ -79,3 +79,8 @@ Constraints:
 
 - Defined falsifiers as mandatory per-claim fields; defined phase failure modes; formalized failure handling (record, quarantine, repair, re-validate, disclose).
 - Added speculation policy (must be labeled as non-claim/future work; cannot serve as evidence).
+
+### 2026-01-03 — Stage 1 (Rung 1.7): Rewrite 07_discussion_candidate_origins.tex
+
+- Compressed candidate-origins content into an explicitly non-normative note (hypotheses only).
+- Added explicit prohibition against using this section as evidence in later phases.
