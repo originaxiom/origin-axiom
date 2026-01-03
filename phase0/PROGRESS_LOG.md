@@ -114,3 +114,8 @@ Constraints:
   - Phase 0 paper (`main.tex`) and appendices build cleanly via `latexmk` with BibTeX.
   - Generated `phase0/paper/main.pdf` and `phase0/paper/appendices.pdf` as convenience artifacts (not evidence; sources are `.tex` + referenced artifacts).
   - Cleaned LaTeX build outputs locally via `latexmk -C`.
+## 2026-01-03 — Phase 0 Compactification (P0-C1): paper/build hygiene
+- Stage 0 baseline freeze tag created and pushed: `stage0-freeze-2026-01-03` (commit `e675e1a`).
+- Added LaTeX build artifact ignores for Phase 0 paper directory to prevent tracking `.aux/.toc/.xdv/...`.
+- Added canonical build entrypoint `scripts/build_papers.sh` to regenerate Phase 0 + Phase 1 PDFs deterministically.
+- No Phase 1 results changed; compactification is organizational/hygiene only.
