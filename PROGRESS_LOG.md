@@ -1936,7 +1936,7 @@ Notes:
 - Rewrote Phase 0 conclusion into a short constitution close summarizing governance rules (claims/evidence/provenance/falsifiers/corridor history).
 - Completed Phase 0 compactification pass (sections rewritten into enforceable, reviewer-facing contracts).
 
-### 2026-01-03 — Stage 1 (Rung 1.9): Phase 0 paper spine locked (main.tex/abstract/appendix policy)
+### 2026-01-03 — Stage 1 (Rung 1.9): Phase 0 paper spine lock on ed (main.tex/abstract/appendix policy)
 
 - Rewrote Phase 0 main.tex into a clean, stable paper spine (no placeholders), with explicit separation between normative body and non-normative appendices.
 - Rewrote corrupted abstract into constitution-grade summary consistent with Phase 0 scope (governance only).
@@ -1944,10 +1944,10 @@ Notes:
 - Added explicit non-normative disclaimers to each appendix to prevent scope confusion.
 
 
-### 2026-01-03 — Stage 1 (Rung 1.10): Phase 0 split into constitution + appendices; placeholders eliminated
+
+### 2026-01-03 — Stage 1 (Rung 1.10): Phase 0 split into constitution + appendices
 
 - Split Phase 0 into two build targets:
-  - main.tex (normative constitution)
-  - appendices.tex (non-normative supporting appendices)
-- Removed/fixed all “??” placeholder references in Phase 0 TeX sources.
-- Hardened PDF text encoding (T1/lmodern/cmap) for cleaner copy/paste and reviewer handling.
+  - phase0/paper/main.tex (normative constitution)
+  - phase0/paper/appendices.tex (non-normative supporting appendices)
+- Added T1/lmodern for cleaner PDF text extraction under XeLaTeX.

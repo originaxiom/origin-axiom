@@ -97,9 +97,9 @@ Constraints:
 - Added non-normative disclaimers to all appendices.
 
 
-### 2026-01-03 — Stage 1 (Rung 1.10): Split PDFs + remove placeholder refs
 
-- Created appendices.tex as a separate non-normative companion PDF.
-- main.tex now builds only the constitution body; appendices are referenced but not included.
-- Eliminated all “??” placeholder references in TeX sources.
-- Added T1/lmodern/cmap for cleaner PDF text extraction.
+### 2026-01-03 — Stage 1 (Rung 1.10): Split PDFs (constitution vs non-normative appendices)
+
+- main.tex now builds only the constitution body; appendices moved to appendices.tex.
+- Appendix cross-PDF references removed (no undefined refs across separate PDFs).
+- Removed appendix bibliography unless citations are explicitly added.
