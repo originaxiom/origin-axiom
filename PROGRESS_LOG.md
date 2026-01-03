@@ -1951,3 +1951,8 @@ Notes:
   - phase0/paper/main.tex (normative constitution)
   - phase0/paper/appendices.tex (non-normative supporting appendices)
 - Added T1/lmodern for cleaner PDF text extraction under XeLaTeX.
+
+### 2026-01-03 — Stage 1 (Rung 1.10c): Remove final cross-ref in appendices; verify Phase 0 builds clean
+
+- Removed last dangling cross-reference in Phase 0 appendices (no undefined refs remain).
+- Verified bibliography keys and citation resolution under latexmk.

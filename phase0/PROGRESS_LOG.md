@@ -103,3 +103,8 @@ Constraints:
 - main.tex now builds only the constitution body; appendices moved to appendices.tex.
 - Appendix cross-PDF references removed (no undefined refs across separate PDFs).
 - Removed appendix bibliography unless citations are explicitly added.
+
+### 2026-01-03 — Stage 1 (Rung 1.10c): Appendices reference cleanup + build verification
+
+- Eliminated remaining undefined reference in appendices (no cross-PDF labels).
+- Confirmed citations resolve against references.bib under latexmk.
