@@ -2,6 +2,10 @@
 
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{cmap}
+
 \usepackage{amsmath,amssymb,mathtools}
 \usepackage{bm}
 \usepackage{graphicx}
@@ -13,7 +17,7 @@
 
 \title{Phase 0: Contracts for a Reproducible Non-Cancellation Program}
 \author{Drit\"ero M.}
-\date{} % governance paper: stable, no rolling dates
+\date{}
 
 \begin{document}
 \maketitle
@@ -33,12 +37,8 @@
 \input{sections/07_discussion_candidate_origins.tex}
 \input{sections/08_conclusion.tex}
 
-% Appendices (explicitly non-normative unless stated otherwise)
-\appendix
-\input{appendices/A_notation_glossary.tex}
-\input{appendices/B_phase_theta_filter_schema.tex}
-\input{appendices/C_toy_example_corridor_shrinking.tex}
-\input{appendices/D_claims_checklist.tex}
+\paragraph{Appendices.}
+Non-normative appendices (notation, schema templates, and worked examples) are provided in a separate companion document: \texttt{appendices.tex}.
 
 \bibliographystyle{unsrt}
 \bibliography{references}

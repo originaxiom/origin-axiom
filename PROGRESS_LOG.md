@@ -1942,3 +1942,11 @@ Notes:
 - Rewrote corrupted abstract into constitution-grade summary consistent with Phase 0 scope (governance only).
 - Ensured bibliography is non-empty by citing workflow reproducibility references in the reproducibility contract.
 - Added explicit non-normative disclaimers to each appendix to prevent scope confusion.
+
+### 2026-01-03 — Stage 1 (Rung 1.10): Phase 0 split into constitution + appendices; placeholders eliminated
+
+- Split Phase 0 into two build targets:
+  - main.tex (normative constitution)
+  - appendices.tex (non-normative supporting appendices)
+- Removed/fixed all “??” placeholder references in Phase 0 TeX sources.
+- Hardened PDF text encoding (T1/lmodern/cmap) for cleaner copy/paste and reviewer handling.
