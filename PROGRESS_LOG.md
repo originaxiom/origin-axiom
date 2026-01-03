@@ -1897,7 +1897,9 @@ Notes:
 - Rewrote Phase 0 introduction as a constitution-style contract: what Phase 0 is, what it is not, why governance is required, and the “no dark progress” rule.
 - No physics content added; strengthens scope boundaries for later phases.
 
+
+
 ### 2026-01-03 — Stage 1 (Rung 1.2): Phase 0 governance vocabulary rewrite
 
-- Rewrote Phase 0 “Axioms and definitions” into a minimal governance vocabulary: claim/evidence/artifacts, phase contracts, corridor/filter objects, provenance, failure modes, and falsifiers.
+- Rewrote Phase 0 "Axioms and definitions" into a minimal governance vocabulary: claim/evidence/artifacts, phase contracts, corridor/filter objects, provenance, failure modes, and falsifiers.
 - Explicitly scoped as governance-only (no physics postulates).
