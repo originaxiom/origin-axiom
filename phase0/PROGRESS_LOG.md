@@ -56,3 +56,8 @@ Constraints:
 - Full rewrite of the introduction into a constitution-style contract.
 - Clarifies Phase 0 as governance-only; explicitly forbids physics claims in Phase 0.
 - Adds an explicit “no dark progress” rule (logging + reproducibility as definition of completed work).
+
+### 2026-01-03 — Stage 1 (Rung 1.2): Rewrite 02_axioms_and_definitions.tex
+
+- Defined the minimal governance vocabulary used across the repo: claims, evidence, canonical artifacts, provenance, phase scope, corridor/filter objects, failure modes, falsifiers.
+- Added a single governance “axiom” stating completion criteria (bounded claims + canonical artifacts + reproducibility).
