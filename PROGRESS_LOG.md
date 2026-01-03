@@ -1908,3 +1908,8 @@ Notes:
 
 - Rewrote corridor governance section to define filter artifacts, corridor artifacts, and append-only corridor history as binding governance objects.
 - Added explicit corridor update rules: no silent narrowing, evidence requirements, provenance requirements, and auditability conditions.
+
+### 2026-01-03 — Stage 1 (Rung 1.4): Rewrite Phase 0 phase contracts (claim taxonomy + binding checklist)
+
+- Rewrote Phase contracts section to define mandatory scope contracts, claim taxonomy, required claim structure, and an evidence binding rule.
+- Added a reviewer-facing Phase 0 compliance checklist as the lock condition for later phases.

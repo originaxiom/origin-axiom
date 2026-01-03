@@ -67,3 +67,9 @@ Constraints:
 
 - Defined corridor governance as schema-validated filter/corridor artifacts plus an append-only history log.
 - Added explicit update rules: no silent narrowing; narrowing requires canonical evidence and run provenance; reversals require explicit history entries.
+
+### 2026-01-03 — Stage 1 (Rung 1.4): Rewrite 04_phase_contracts.tex
+
+- Defined phase scope contracts (scope + non-claims + primary artifacts).
+- Defined claim taxonomy and mandatory claim structure fields (ID, statement, evidence pointers, non-claims, falsifiers, provenance).
+- Added in-body Phase 0 compliance checklist as lock condition for later phases.
