@@ -73,8 +73,9 @@ Constraints:
 
 - Defined the reproducibility contract: deterministic generation of canonical artifacts, required run provenance fields, recommended run bundle structure, and reproducibility failure handling.
 
+
+
 ### 2026-01-03 — Stage 1 (Rung 1.6): Rewrite 06_falsifiability_and_failure_modes.tex
 
 - Defined falsifiers as mandatory per-claim fields; defined phase failure modes; formalized failure handling (record, quarantine, repair, re-validate, disclose).
 - Added speculation policy (must be labeled as non-claim/future work; cannot serve as evidence).
-
