@@ -84,3 +84,7 @@ Constraints:
 
 - Compressed candidate-origins content into an explicitly non-normative note (hypotheses only).
 - Added explicit prohibition against using this section as evidence in later phases.
+
+### 2026-01-03 — Stage 1 (Rung 1.8): Rewrite 08_conclusion.tex
+
+- Replaced conclusion with a short constitution summary: claims must be bounded, evidence must be canonical and reproducible, corridor narrowing must be append-only and provenance-backed, speculation must be labeled.

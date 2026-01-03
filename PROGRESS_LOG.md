@@ -1930,3 +1930,8 @@ Notes:
 
 - Replaced candidate-origins discussion with a short non-normative hypothesis list.
 - Added explicit governance rule: future phases may test these routes only as bounded claims with evidence + falsifiers; cannot be cited as evidence.
+
+### 2026-01-03 — Stage 1 (Rung 1.8): Rewrite Phase 0 conclusion + compactification complete
+
+- Rewrote Phase 0 conclusion into a short constitution close summarizing governance rules (claims/evidence/provenance/falsifiers/corridor history).
+- Completed Phase 0 compactification pass (sections rewritten into enforceable, reviewer-facing contracts).
