@@ -1914,3 +1914,8 @@ Notes:
 
 - Rewrote Phase contracts section to define mandatory scope contracts, claim taxonomy, required claim structure, and an evidence binding rule.
 - Added a reviewer-facing Phase 0 compliance checklist as the lock condition for later phases.
+
+### 2026-01-03 — Stage 1 (Rung 1.5): Rewrite Phase 0 reproducibility contract (run bundles + provenance)
+
+- Rewrote reproducibility contract to define canonical artifacts vs regenerable outputs, required provenance fields, and a minimal run-bundle structure.
+- Added explicit failure-handling rule: if an artifact cannot be regenerated, dependent claims are marked broken until repaired and logged.

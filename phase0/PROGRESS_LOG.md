@@ -68,3 +68,7 @@ Constraints:
 - Defined corridor governance as schema-validated filter/corridor artifacts plus an append-only history log.
 - Added explicit update rules: no silent narrowing; narrowing requires canonical evidence and run provenance; reversals require explicit history entries.
 
+
+### 2026-01-03 — Stage 1 (Rung 1.5): Rewrite 05_reproducibility_contract.tex
+
+- Defined the reproducibility contract: deterministic generation of canonical artifacts, required run provenance fields, recommended run bundle structure, and reproducibility failure handling.
