@@ -1903,3 +1903,8 @@ Notes:
 
 - Rewrote Phase 0 "Axioms and definitions" into a minimal governance vocabulary: claim/evidence/artifacts, phase contracts, corridor/filter objects, provenance, failure modes, and falsifiers.
 - Explicitly scoped as governance-only (no physics postulates).
+
+### 2026-01-03 — Stage 1 (Rung 1.3): Rewrite Phase 0 corridor method (filters/corridors/history)
+
+- Rewrote corridor governance section to define filter artifacts, corridor artifacts, and append-only corridor history as binding governance objects.
+- Added explicit corridor update rules: no silent narrowing, evidence requirements, provenance requirements, and auditability conditions.

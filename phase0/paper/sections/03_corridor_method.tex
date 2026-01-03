@@ -1,107 +1,79 @@
-% paper/sections/03_corridor_method.tex
-
-\section{The corridor method}
+\section{Corridor method: filters, corridors, and append-only history}
 \label{sec:corridor_method}
 
-The corridor method is the program's mechanism for avoiding premature fixation on a single numerical phase value and for converting multi-domain consistency into a quantitative narrowing of admissible parameter space.
-It is a disciplined alternative to ``choose $\theta^\star$ and build around it'': each phase contributes a filter, and the surviving set is the intersection of independent filters.
+This project introduces \emph{corridor governance} to prevent uncontrolled parameter drift. The corridor method treats global restrictions (notably $\theta$-ranges) as first-class, machine-readable artifacts with append-only provenance.
 
-\subsection{Admissible sets and phase filters}
-\label{sec:admissible_sets}
+\subsection{Motivation (governance)}
+In multi-step research programs, a key parameter may be implicitly narrowed over time by narrative convention, selective figure choices, or untracked tuning. Corridor governance prevents this: any narrowing must be explicit, justified by evidence, and recorded with provenance.
 
-Let $\Theta_0 \subset [0,2\pi)$ denote an initial prior corridor for the universal phase parameter $\theta$.
-Phase~0 permits $\Theta_0$ to be broad (including $\Theta_0=[0,2\pi)$) provided later phases define tests that are sufficiently $\theta$-informative to narrow it.
+\subsection{Objects}
 
-Each phase $i$ defines:
+\paragraph{Filter artifact.}
+A \emph{filter} is a structured, machine-readable restriction applied by a phase. Filters are saved as JSON and validated against a schema. A filter may restrict one or more variables (e.g., $\theta$ intervals), and may include a justification pointer.
+
+\paragraph{Corridor artifact.}
+A \emph{corridor} is the authoritative, current restriction for a global variable maintained at the project level (e.g., the current $\theta$ corridor). The corridor is also a schema-validated JSON artifact.
+
+\paragraph{Corridor history.}
+The \emph{corridor history} is an append-only log of corridor updates. The history is the source of truth for ``how we got here'' and must be sufficient to audit every narrowing step.
+
+\subsection{Required fields and schemas}
+
+All filter and corridor artifacts must be schema-validated. At minimum, a corridor update entry must record:
+
 \begin{itemize}
-  \item a model family and an implementation of OA enforcement;
-  \item a test suite $\mathcal{T}_i(\theta)$ composed of explicit pass/fail criteria;
-  \item a scan or evaluation strategy over $\theta \in \Theta_i$ (grid scan, adaptive scan, or analytic characterization).
+  \item \textbf{Target:} which variable is being restricted (e.g., \texttt{theta}).
+  \item \textbf{Intervals:} the allowed range(s) after the update (possibly disjoint).
+  \item \textbf{Phase provenance:} which phase produced the update.
+  \item \textbf{Evidence pointers:} canonical artifact paths that justify the update (figures, tables, summaries).
+  \item \textbf{Run provenance:} run ID(s) for the generating pipeline execution.
+  \item \textbf{Code provenance:} commit hash (or equivalent version identifier) for the code state.
+  \item \textbf{Timestamp:} when the update was made.
+  \item \textbf{Rationale:} a short statement of the rule used for narrowing.
 \end{itemize}
-The phase outputs an admissible set
-\begin{equation}
-\Theta_{i+1} \;=\; \{\theta \in \Theta_i : \mathcal{T}_i(\theta)\ \mathrm{passes}\}.
-\label{eq:corridor_update}
-\end{equation}
-The corridor $\Theta_{i+1}$ may be a single interval, a union of intervals, or a discrete set of isolated points.
 
-\subsection{What belongs in a test suite}
-\label{sec:test_suite}
+Schemas define the exact field names and types. A corridor update that fails schema validation is invalid.
 
-A test suite $\mathcal{T}_i$ should be:
-\emph{explicit}, \emph{artifact-backed}, and, when possible, \emph{independent} of tests used in other phases.
-Typical elements include:
+\subsection{Update rules (what is allowed)}
 
-\paragraph{Binding test (if the phase claims OA impact).}
-There must exist a regime within the phase's explored parameter space where enforcement activates (binding certificate),
-and the constrained run differs from the constraint-off ablation.
+\paragraph{Rule 1: No silent narrowing.}
+A phase may not narrow a corridor by narrative convention. If a paper or claim relies on a restricted range, that restriction must exist as a filter artifact and must be recorded in the corridor history.
 
-\paragraph{Non-invasiveness test.}
-In non-binding regimes, constrained and unconstrained runs must coincide up to numerical tolerance.
+\paragraph{Rule 2: Narrowing requires evidence.}
+A corridor may be narrowed only if the narrowing rule is supported by a canonical artifact that:
+(i) is reproducible under the phase's pipeline, and
+(ii) directly implements the stated narrowing criterion.
 
-\paragraph{Stability test.}
-The dynamics must remain bounded (no runaway) and numerically stable under specified sweeps (step size, resolution, cutoff).
+Examples of valid narrowing criteria include:
+\begin{itemize}
+  \item a parameter sweep showing instability outside a range (numerical falsifier),
+  \item a fit objective producing a bounded confidence region (statistical constraint),
+  \item an explicit pass/fail test (viability filter) applied uniformly across the domain.
+\end{itemize}
 
-\paragraph{Robustness test.}
-Headline behavior must persist under a defined set of controlled perturbations (e.g., small parameter changes, discretization changes).
-
-\paragraph{Transfer viability test.}
-If the phase exports a derived object to a downstream module (e.g.\ mapping a residual into an FRW term), the exported object must keep the downstream solver stable and within a predeclared envelope.
-
-\subsection{Corridor narrowing and the role of thresholds}
-\label{sec:narrowing}
-
-Corridors narrow only if tests are $\theta$-informative.
-Phase~0 highlights three common failure modes:
+\paragraph{Rule 3: Narrowing must preserve auditability.}
+For any corridor update, an independent reader must be able to:
 \begin{enumerate}
-  \item \textbf{Weak dependence:} the diagnostic is nearly flat in $\theta$, so $\mathcal{T}_i$ does not discriminate.
-  \item \textbf{Always non-binding:} the floor never activates for any $\theta$ in the explored regime, so OA impact is not tested.
-  \item \textbf{Always binding:} enforcement activates for all $\theta$ in the explored regime and saturates outputs, erasing $\theta$-structure.
+  \item locate the exact evidence artifacts cited,
+  \item locate the run bundle(s) that generated them,
+  \item reproduce the artifacts from versioned inputs,
+  \item confirm that the narrowing rule matches what the artifacts show.
 \end{enumerate}
 
-Threshold-driven tests are particularly valuable because they can create sharp boundaries in $\theta$-space.
-For example, if a binding condition is expressed as $R_{\mathrm{raw}}(\theta) < \varepsilon$, then the set of $\theta$ values for which binding occurs is naturally separated from those for which it does not, producing a ``kink'' structure.
-Stacking multiple such thresholds across independent layers is one realistic route by which an initially broad corridor can collapse to a narrow interval or a discrete set.
+\paragraph{Rule 4: Append-only history.}
+The corridor history is append-only. Past corridor states are never overwritten. Reversals are allowed (widening is allowed) but must also be recorded as explicit history entries with provenance.
 
-\subsection{Fiducial representatives and avoiding numerology}
-\label{sec:fiducial}
+\subsection{Artifacts in this repository}
 
-The corridor method permits the use of a fiducial representative $\theta^\star$ for:
+The repository maintains, at minimum:
 \begin{itemize}
-  \item illustrative plots,
-  \item benchmarking runtime and numerical stability,
-  \item pinning a single run for detailed diagnostics.
+  \item \textbf{Schemas:} JSON schemas for filters and corridors.
+  \item \textbf{Current corridor:} the authoritative current corridor JSON (e.g., the current $\theta$ corridor).
+  \item \textbf{History log:} an append-only JSONL file recording each update entry.
+  \item \textbf{Dashboard:} a human-readable summary pointing to the current corridor and the latest update entry.
 \end{itemize}
-However, $\theta^\star$ must be labeled as \emph{fiducial} unless and until the corridor-intersection protocol collapses the admissible set to a unique value (or a small discrete set) under independent constraints.
-This labeling rule is the program's primary defense against accidental numerology.
 
-\subsection{From corridors to a point: when is a unique $\theta^\star$ earned?}
-\label{sec:collapse}
+These objects exist to make phase-to-phase narrowing explicit and defensible. Later phases must treat corridor artifacts as binding constraints when a corridor exists.
 
-A unique $\theta^\star$ is earned only if:
-\begin{itemize}
-  \item the admissible corridor narrows monotonically (or nearly so) as independent constraints are added, and
-  \item the final intersection $\Theta_{\mathrm{final}}$ is either a single sufficiently small interval or a discrete set with a single element after accounting for symmetries (e.g.\ $\theta \sim \theta + 2\pi$ and other model-specific equivalences).
-\end{itemize}
-Phase~0 does not assume that such collapse must occur.
-If the corridor remains broad, the program interprets this as information: either $\theta$ is not uniquely fixed by the considered constraints, or the current phases do not supply sufficiently independent $\theta$-informative tests.
-
-\subsection{The Phase~0 ledger mechanism (deterministic corridor tracking)}
-\label{sec:ledger}
-
-To prevent drift and to make corridor evolution auditable, Phase~0 introduces a minimal deterministic ledger mechanism.
-Each phase emits a standardized \texttt{theta\_filter} artifact (JSON) encoding:
-\begin{itemize}
-  \item the prior corridor used by the phase,
-  \item the $\theta$ values evaluated (grid or intervals),
-  \item pass/fail per $\theta$ under $\mathcal{T}_i$,
-  \item optional scores ranking admissible $\theta$ values,
-  \item and full provenance (git commit, config hash, run identifiers).
-\end{itemize}
-The ledger consumes the ordered list of phase artifacts and produces:
-\begin{itemize}
-  \item the current corridor $\Theta$ as a union of intervals on $[0,2\pi)$,
-  \item an append-only corridor history log,
-  \item and a human-readable dashboard summarizing which phases narrowed the corridor and why.
-\end{itemize}
-The ledger is strictly functional: given the same phase artifacts, it deterministically reproduces the same corridor history.
+\subsection{Relationship to falsifiability}
+Corridor governance links governance to falsifiability: a narrowing is a \emph{testable commitment}. If later work shows that a narrowed corridor fails a claim's own falsifiers, the corridor update can be reversed (widened) via an explicit history entry. This preserves scientific honesty while maintaining auditability.
