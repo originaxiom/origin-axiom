@@ -50,3 +50,9 @@ Constraints:
 - Full rewrite of the introduction into a constitution-style contract.
 - Clarifies Phase 0 as governance-only; explicitly forbids physics claims in Phase 0.
 - Adds an explicit “no dark progress” rule (logging + reproducibility as definition of completed work).
+
+### 2026-01-03 — Stage 1 (Rung 1.1): Rewrite 01_introduction.tex
+
+- Full rewrite of the introduction into a constitution-style contract.
+- Clarifies Phase 0 as governance-only; explicitly forbids physics claims in Phase 0.
+- Adds an explicit “no dark progress” rule (logging + reproducibility as definition of completed work).
