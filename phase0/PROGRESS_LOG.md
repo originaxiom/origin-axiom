@@ -119,3 +119,8 @@ Constraints:
 - Added LaTeX build artifact ignores for Phase 0 paper directory to prevent tracking `.aux/.toc/.xdv/...`.
 - Added canonical build entrypoint `scripts/build_papers.sh` to regenerate Phase 0 + Phase 1 PDFs deterministically.
 - No Phase 1 results changed; compactification is organizational/hygiene only.
+
+## 2026-01-03 - Phase 0 Compactification (P0-C2): reproducibility entrypoints
+- Linked canonical PDF build entrypoint (`./scripts/build_papers.sh`) from Phase 0 and Phase 1 READMEs.
+- Added repo-level `REPRODUCIBILITY.md` pointing to Stage 0 tag `stage0-freeze-2026-01-03`.
+- No results changed; documentation/build hygiene only.
