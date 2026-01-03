@@ -88,3 +88,10 @@ Constraints:
 ### 2026-01-03 — Stage 1 (Rung 1.8): Rewrite 08_conclusion.tex
 
 - Replaced conclusion with a short constitution summary: claims must be bounded, evidence must be canonical and reproducible, corridor narrowing must be append-only and provenance-backed, speculation must be labeled.
+
+### 2026-01-03 — Stage 1 (Rung 1.9): Paper spine + appendix policy
+
+- main.tex rewritten as stable spine; normative body + non-normative appendices separated explicitly.
+- Abstract rewritten (previous copy had corrupted ellipsis artifacts).
+- Added minimal workflow citation to keep references meaningful.
+- Added non-normative disclaimers to all appendices.

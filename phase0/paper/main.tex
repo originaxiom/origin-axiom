@@ -7,19 +7,23 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{enumitem}
-\usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
 
 \input{macros.tex}
 
 \title{Phase 0: Contracts for a Reproducible Non-Cancellation Program}
-\author{Drit{\"e}ro M.}
-\date{\today}
+\author{Drit\"ero M.}
+\date{} % governance paper: stable, no rolling dates
 
 \begin{document}
 \maketitle
 
 \input{sections/00_abstract.tex}
+
+\tableofcontents
+\clearpage
+
+% Constitution body (normative)
 \input{sections/01_introduction.tex}
 \input{sections/02_axioms_and_definitions.tex}
 \input{sections/03_corridor_method.tex}
@@ -29,6 +33,7 @@
 \input{sections/07_discussion_candidate_origins.tex}
 \input{sections/08_conclusion.tex}
 
+% Appendices (explicitly non-normative unless stated otherwise)
 \appendix
 \input{appendices/A_notation_glossary.tex}
 \input{appendices/B_phase_theta_filter_schema.tex}

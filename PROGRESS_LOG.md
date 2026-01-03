@@ -1935,3 +1935,10 @@ Notes:
 
 - Rewrote Phase 0 conclusion into a short constitution close summarizing governance rules (claims/evidence/provenance/falsifiers/corridor history).
 - Completed Phase 0 compactification pass (sections rewritten into enforceable, reviewer-facing contracts).
+
+### 2026-01-03 — Stage 1 (Rung 1.9): Phase 0 paper spine locked (main.tex/abstract/appendix policy)
+
+- Rewrote Phase 0 main.tex into a clean, stable paper spine (no placeholders), with explicit separation between normative body and non-normative appendices.
+- Rewrote corrupted abstract into constitution-grade summary consistent with Phase 0 scope (governance only).
+- Ensured bibliography is non-empty by citing workflow reproducibility references in the reproducibility contract.
+- Added explicit non-normative disclaimers to each appendix to prevent scope confusion.

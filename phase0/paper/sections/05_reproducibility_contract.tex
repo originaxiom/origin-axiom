@@ -54,6 +54,10 @@ Phases may extend this structure, but must preserve the minimum provenance field
 
 \subsection{Workflow contract}
 
+\paragraph{Workflow engines (example).}
+Workflow engines may be used to enforce deterministic artifact regeneration (e.g., Snakemake), but the workflow specification and invocation must be treated as part of the evidence contract.\cite{snakemake2012,snakemake2018}
+
+
 \paragraph{Pipeline runner.}
 If a phase uses a workflow system (e.g., Snakemake), the workflow specification is part of the evidence contract. The phase must document how to invoke the workflow and how the workflow maps to canonical artifacts.
 
