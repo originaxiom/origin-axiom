@@ -76,19 +76,23 @@
 % ------------------------------------------------------------
 % Main sections (kept strictly Phase-2 safe)
 % ------------------------------------------------------------
+% === Phase 2 canonical spine (claims-first) ===
+\input{sections/00_abstract}
 \input{sections/01_introduction}
-\input{sections/02_framework_and_axiom}
-\input{sections/03_model_and_constraint}
-\input{sections/04_numerical_protocol}
-\input{sections/05_results_scaling}
-\input{sections/06_frw_implications}
+\input{sections/02_model_definition}
+\input{sections/03_claim_C2_1_existence}
+\input{sections/04_claim_C2_2_robustness}
+\input{sections/05_claim_C2_3_frw_viability}
+\input{sections/06_reproducibility_and_provenance}
 \input{sections/07_limitations_and_scope}
 \input{sections/08_conclusion}
 
+% Appendix (computational provenance)
 % ------------------------------------------------------------
 % Appendices
 % ------------------------------------------------------------
 \appendix
+\input{appendix/A_run_manifest}
 \input{sections/A_provenance}
 
 % ------------------------------------------------------------
