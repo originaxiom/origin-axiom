@@ -39,3 +39,9 @@ Action:
 
 Next:
 - Stage 3 will (1) fix paper structure (inputs/duplicates), then (2) rewrite text to be unambiguous and scope-tight, mapping every claim to figs A–E + run provenance.
+
+## 2026-01-04 — Phase 2 Structural Spine Lock (P2-S1): paper contract + invariants
+- Added canonical paper contract: `phase2/paper/PAPER_CONTRACT.md` defining the single Phase 2 spine and invariants.
+- Confirmed claims-first ordering is the canonical main spine (C2.1–C2.3) with reproducibility + limitations before conclusion.
+- Added/confirmed Phase 2 paper `.gitignore` to prevent tracking LaTeX artifacts and draft `main.pdf`.
+- Structural-only rung: no new claims, no equation/result changes intended.
