@@ -73,3 +73,10 @@ Next:
 - Auto-generated Appendix run manifest table inside `paper/appendix/A_run_manifest.tex` from current run_id sidecars.
 - Rebuilt `phase2/paper/main.tex` and confirmed clean build post-change.
 - No new scientific claims; this rung hardens auditability and provenance completeness.
+
+## 2026-01-04 — Phase 2 Stage 1 (P2-S4a): structure-first rewrite pass (abstract + spine invariants)
+- Fixed Phase 2 paper spine so the abstract is sourced solely from `paper/sections/00_abstract.tex` (included inside the `abstract` environment).
+- Removed redundant `\input{sections/00_abstract}` from the main section spine to prevent duplicate/placeholder abstracts.
+- Added `scripts/phase2_paper_lint.sh` to enforce: no TODO/FIXME/XXX/TBD in Phase 2 paper, and clean build log scan.
+- Rebuilt `phase2/paper/main.tex`; confirmed clean logs post-change.
+- No new claims; structure-only hygiene to prevent drift.
