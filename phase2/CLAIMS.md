@@ -272,3 +272,11 @@ The Phase 2 paper must map claims as follows (section numbering may change, mapp
 - **FRW wrapper / viability**: Claim 2.3
 
 No additional claims may appear in the paper.
+
+## Claim → Artifact mapping (Phase 2 canonical)
+
+| Claim | Paper section | Figure(s) | outputs/figures sidecar | Run folder |
+|---|---|---|---|---|
+| C2.1 (Existence under constraint) | paper/sections/03_claim_C2_1_existence.tex | Fig. A (`figA_mode_sum_residual.pdf`) | `outputs/figures/figA_mode_sum_residual.run_id.txt` | `outputs/runs/<run_id_from_sidecar>/` |
+| C2.2 (Robustness & suppression) | paper/sections/04_claim_C2_2_robustness.tex | Figs. B–D (`figB_…`, `figC_…`, `figD_…`) | `outputs/figures/figB_scaling_epsilon.run_id.txt` etc. | `outputs/runs/<run_id_from_sidecar>/` |
+| C2.3 (FRW viability test) | paper/sections/05_claim_C2_3_frw_viability.tex | Fig. E (`figE_frw_comparison.pdf`) | `outputs/figures/figE_frw_comparison.run_id.txt` | `outputs/runs/<run_id_from_sidecar>/` |
