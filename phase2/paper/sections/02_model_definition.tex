@@ -14,21 +14,21 @@
 \label{sec:framework}
 \label{sec:model_definition}
 
-This section defines the Phase~II testbeds and, crucially, the exact implementation of the Origin Axiom constraint used throughout.
-The intent is reproducibility: every quantity appearing in the claims of Secs.~\ref{sec:claim_c21}--\ref{sec:claim_c23} is defined here.
+This section defines the Phase~II testbed and the exact algorithmic form of the Origin Axiom constraint used throughout.
+The intent is reproducibility: every quantity referenced by Claims~C2.1--C2.3 is defined here, with implementation details fixed by the Phase~II reference code and configuration.
 
 \subsection{Core object: a complex scalar lattice field}
 We work with a complex scalar field $\phi(t,\mathbf{x})\in\mathbb{C}$ defined on a cubic periodic lattice of size $N^3$ with lattice spacing set to unity in code units.
 We denote the lattice volume by $V=N^3$.
-The baseline (unconstrained) dynamics are a standard discretized scalar field evolution; the details of the integrator and potential terms are fixed by the reference implementation shipped with the Phase~II engine.
-The key point for Phase~II is not the specific microphysical Lagrangian, but that the baseline evolution admits near-complete destructive interference of the global mode in generic initializations.
+The baseline (unconstrained) dynamics are a standard discretized scalar field evolution; the integrator and potential terms are fixed by the Phase~II reference implementation.
+For Phase~II, we do not interpret the specific microphysical choice; we use it as a controlled testbed in which the global (zero-mode) amplitude can, in the unconstrained system, approach $0$ through cancellation.
 
 We define the global complex amplitude as the spatial mean (zero mode)
 \begin{equation}
 A(t) \;\equiv\; \frac{1}{V}\sum_{\mathbf{x}} \phi(t,\mathbf{x}) \,.
 \label{eq:A_def}
 \end{equation}
-In the absence of any constraint, $A(t)$ can drift arbitrarily close to $0$ due to cancellation across lattice sites and phases.
+In the absence of any constraint, $A(t)$ can approach $0$ due to cancellation across lattice sites and phases.
 
 \subsection{Origin Axiom constraint: hard floor on the global amplitude}
 The Origin Axiom is implemented as a hard inequality constraint
@@ -57,7 +57,7 @@ A concrete choice (used in the reference implementation) is
 and an arbitrary fixed phase direction when $A_{\text{trial}}=0$ (this edge case is measure-zero in floating-point dynamics but is defined for completeness).
 Because $\Delta$ is spatially uniform, Eq.~\eqref{eq:uniform_shift} modifies only the zero mode and leaves all nonzero-$k$ structure unchanged.
 
-We emphasize that this is an \emph{algorithmic} enforcement of the axiom.
+We emphasize that this is an \emph{algorithmic} enforcement of the axiom, defining a constrained evolution rule rather than a derived physical law.
 Phase~II does not claim this is derived from a local action; rather, it is a controlled implementation whose stability and consequences we test.
 
 \subsection{Diagnostics: residual, energy, and enforcement statistics}
