@@ -50,3 +50,8 @@ Next:
 - Added `phase2/.gitignore` to ignore OS junk, Snakemake runtime cache, and temporary sweep config folders.
 - Confirmed repo build entrypoint includes Phase 2: `scripts/build_papers.sh` builds `phase2/paper/main.tex`.
 - No scientific content changed; organizational/hygiene only.
+
+## 2026-01-04 — Phase 2 Stage 1 (P2-S1): paper contract + spine invariants
+- Added `phase2/paper/PAPER_CONTRACT.md` defining the canonical Phase 2 claims-first spine and invariants.
+- Locked duplicate-prevention rules (unique section filenames, single appendix entry, run-manifest label).
+- No scientific content changed; structural guardrails only.
