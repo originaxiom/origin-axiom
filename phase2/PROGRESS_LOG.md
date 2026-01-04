@@ -45,3 +45,8 @@ Next:
 - Confirmed claims-first ordering is the canonical main spine (C2.1–C2.3) with reproducibility + limitations before conclusion.
 - Added/confirmed Phase 2 paper `.gitignore` to prevent tracking LaTeX artifacts and draft `main.pdf`.
 - Structural-only rung: no new claims, no equation/result changes intended.
+
+## 2026-01-04 — Phase 2 Compactification (P2-C1): hygiene + deterministic build entrypoint
+- Added `phase2/.gitignore` to ignore OS junk, Snakemake runtime cache, and temporary sweep config folders.
+- Confirmed repo build entrypoint includes Phase 2: `scripts/build_papers.sh` builds `phase2/paper/main.tex`.
+- No scientific content changed; organizational/hygiene only.
