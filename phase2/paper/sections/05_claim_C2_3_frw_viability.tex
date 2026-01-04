@@ -1,61 +1,75 @@
+% === P2-S4b CLAIM STRUCTURE CHECKLIST (keep; delete only after Phase 2 lock) ===
+% File: phase2/paper/sections/05_claim_C2_3_frw_viability.tex
+% Must contain: (i) \paragraph{Claim (C2.3).} with a single-sentence claim,
+% (ii) explicit figure pointer(s) (e.g. Fig.~A / Figs.~B--D / Fig.~E),
+% (iii) explicit pointer to Appendix run manifest (Appendix~\ref{app:run_manifest}),
+% (iv) explicit non-claims boundary sentence.
+% No new physics claims; structure/clarity only.
+% === END CHECKLIST ===
+
 % paper/sections/05_claim_C2_3_frw_viability.tex
 
-\section{Claim C2.3: FRW viability}
+\section{Claim C2.3: FRW consistency under a fixed mapping}
+\label{sec:cosmology}
 \label{sec:claim_c23}
 
 \paragraph{Claim (C2.3).}
-Mapping the Phase~II residual into an effective constant contribution $\Omega_\Lambda(\theta)$ yields a smooth, modest perturbation to Friedmann--Robertson--Walker evolution in the explored regime, demonstrating end-to-end consistency of the toy pipeline.
-Evidence is provided by the paired FRW trajectory comparison in Fig.~\ref{fig:frw_comparison}.
+Under a fixed and explicitly stated mapping from the Phase~II residual proxy into an effective constant contribution $\Omega_\Lambda(\theta)$, the configured toy FRW background module produces smooth, numerically stable trajectories in the explored regime, demonstrating end-to-end pipeline consistency.
+Evidence is provided by the FRW comparison in Fig.~\ref{fig:frw_comparison}; exact run provenance is given by Appendix~\ref{app:run_manifest}.
 
-\subsection{From residual to effective $\Omega_\Lambda(\theta)$}
-The vacuum module produces a residual diagnostic $\Delta E(\theta)$ (Eq.~\eqref{eq:deltaE_def}) or an equivalent implementation-defined residual measure.
-To drive a cosmological background test, we map this residual into an effective vacuum density proxy $\rho_\Lambda(\theta)$ using a fixed conversion in code units (held constant across all Phase~II runs for auditability).
+\subsection{From residual proxy to an effective constant term}
+The vacuum module produces a residual proxy $\Delta E(\theta)$ (Eq.~\eqref{eq:deltaE_def}) or an implementation-defined equivalent recorded in the Phase~II run artifacts.
+To drive a cosmological background test, we map this residual into an effective vacuum-density proxy $\rho_\Lambda(\theta)$ using a fixed conversion in code units (held constant across all Phase~II runs for auditability).
 We then define
 \begin{equation}
 \Omega_\Lambda(\theta) \;\propto\; \rho_\Lambda(\theta)\,,
 \label{eq:omega_lambda_def}
 \end{equation}
-with the proportionality set by the normalization of the FRW integrator used in the Phase~II engine.
+with the proportionality fixed by the normalization conventions of the FRW integrator used in the Phase~II engine (as recorded in the configuration referenced by Appendix~\ref{app:run_manifest}).
 
-We emphasize the scope: the mapping is \emph{not} claimed to be a physically derived EFT matching; it is a controlled toy embedding that tests whether the residual can be consistently interpreted as a smooth background term without generating instabilities or pathological expansion histories.
+\noindent\textbf{Scope note.}
+This mapping is \emph{not} claimed to be an EFT matching or a physically derived relation between $\varepsilon$ and a physical vacuum density; it is a transparent operational embedding whose purpose is to test whether the residual proxy can be carried as a smooth constant term without numerical failure of the background module.
 
 \subsection{FRW integration protocol}
-We integrate the FRW system in the form
+We integrate a flat FRW system in normalized units,
 \begin{equation}
 H^2(a) \;=\; \frac{\Omega_r}{a^4} + \frac{\Omega_m}{a^3} + \Omega_\Lambda(\theta)\,,
 \label{eq:frw_again}
 \end{equation}
-with fixed $(\Omega_r,\Omega_m)$ chosen as a reference background in code units.
-We compare two trajectories:
+with fixed background parameters $(\Omega_r,\Omega_m)$ chosen by configuration.
+The Phase~II integrator evolves the system according to its configured independent variable (time or scale factor) and records the corresponding trajectory outputs; Fig.~\ref{fig:frw_comparison} plots the staged trajectory product produced by the Phase~II build (see Appendix~\ref{app:run_manifest} for the exact run and script entry point).
+We compare two trajectories integrated over the same interval with identical numerical settings:
 \begin{enumerate}
   \item \textbf{Reference:} a baseline trajectory with $\Omega_\Lambda$ set to the reference value used by the Phase~II engine (often $0$ in the toy setup, or a fixed baseline).
-  \item \textbf{Axiom-driven:} a trajectory with $\Omega_\Lambda(\theta^\star)$ set by the residual produced at the anchored phase $\theta^\star$.
+  \item \textbf{Axiom-driven:} a trajectory with $\Omega_\Lambda(\theta^\star)$ set by the mapped residual at the anchored phase $\theta^\star$.
 \end{enumerate}
-Both trajectories are integrated over the same time/scale-factor interval with identical numerical settings.
+Here $\theta^\star$ is treated as an externally supplied anchor (Phase~II does not derive it); its role is to test coherent propagation of a single phase input through the pipeline.
 
-\subsection{Result: modest, smooth deviation in $a(t)$}
+\subsection{Result: smooth and stable trajectories under the mapped term}
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.92\linewidth]{figE_frw_comparison.pdf}
   \caption{
-  \textbf{Claim C2.3 evidence: FRW viability under axiom-driven $\Omega_\Lambda(\theta^\star)$.}
-  Comparison of FRW scale factor evolution $a(t)$ (or $a$ versus integration time/step, as implemented) for a reference trajectory and an axiom-driven trajectory using $\Omega_\Lambda(\theta^\star)$ derived from the Phase~II residual.
-  The deviation remains smooth and modest in the explored regime, indicating that the residual can be embedded as an effective background term without instability.
+  \textbf{Claim C2.3 evidence: FRW consistency under an axiom-driven constant term.}
+  Comparison of the FRW trajectory output produced by the Phase~II engine for a reference run and an axiom-driven run using $\Omega_\Lambda(\theta^\star)$ obtained from the Phase~II residual proxy under the stated fixed mapping.
+  In the explored regime, the trajectories remain smooth and numerically stable (runs complete without integrator failure), indicating that the residual proxy can be embedded as an effective constant contribution without numerical breakdown of the toy background module.
   }
   \label{fig:frw_comparison}
 \end{figure}
 
-Figure~\ref{fig:frw_comparison} shows that introducing $\Omega_\Lambda(\theta^\star)$ derived from the Phase~II residual produces a small but coherent perturbation of the FRW trajectory.
-The effect is \emph{modest} (order-percent deviation in the representative Phase~II configuration) and does not induce runaway expansion, oscillatory pathology, or numerical stiffness in the integrator.
-Within Phase~II scope, this establishes the minimal viability criterion: the axiom-driven residual can be carried into a cosmological background module without breaking the pipeline.
+Figure~\ref{fig:frw_comparison} shows that introducing $\Omega_\Lambda(\theta^\star)$ derived from the Phase~II residual proxy changes the FRW trajectory relative to the reference run.
+Within the explored regime, the evolution remains smooth and stable: runs complete without integrator failure attributable to the mapped term, and the output trajectory exhibits no discontinuities or stiffness-driven breakdown under the configured settings.
+Within Phase~II scope, this establishes the minimal end-to-end viability criterion: the axiom-driven residual proxy can be carried into the background module under a fixed mapping without breaking the computational chain.
 
-\subsection{Interpretation and boundaries}
-Claim~C2.3 should be read as an end-to-end \emph{consistency} demonstration, not as a quantitative cosmological prediction.
+\subsection{Interpretation boundaries}
+Claim~C2.3 is a pipeline \emph{consistency} test, not a cosmological prediction.
 Specifically:
 \begin{itemize}
   \item We do not claim the Phase~II normalization matches the observed cosmological constant.
-  \item We do not claim a derived relation between $\varepsilon$ and physical vacuum energy.
-  \item We do claim that, under a fixed and transparent mapping, the residual behaves like a smooth effective $\Lambda$-term in a toy FRW integrator.
+  \item We do not claim a derived physical relation between $\varepsilon$ and $\rho_\Lambda$.
+  \item We do claim that, under a fixed and auditable mapping, the residual proxy functions as a smooth constant-term input to the configured toy FRW integrator in the explored regime.
 \end{itemize}
 
-This closes the Phase~II loop: the axiom generates a nonzero residual (C2.1), the residual is robust and suppressed under sweeps (C2.2), and the residual can be consistently embedded into a background expansion module without instability (C2.3).
+\noindent\textbf{Non-claims boundary (C2.3).}
+This result does \emph{not} validate the mapping as physically correct, does \emph{not} fit cosmological datasets, and does \emph{not} establish late-time acceleration in the real universe.
+It supports only the bounded statement that the Phase~II residual proxy can be embedded into the configured FRW background module as a constant contribution without inducing numerical failure in the explored regime, with full provenance given by Appendix~\ref{app:run_manifest}.

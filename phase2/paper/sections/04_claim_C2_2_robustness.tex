@@ -1,78 +1,89 @@
+% === P2-S4b CLAIM STRUCTURE CHECKLIST (keep; delete only after Phase 2 lock) ===
+% File: phase2/paper/sections/04_claim_C2_2_robustness.tex
+% Must contain: (i) \paragraph{Claim (C2.2).} with a single-sentence claim,
+% (ii) explicit figure pointer(s) (e.g. Fig.~A / Figs.~B--D / Fig.~E),
+% (iii) explicit pointer to Appendix run manifest (Appendix~\ref{app:run_manifest}),
+% (iv) explicit non-claims boundary sentence.
+% No new physics claims; structure/clarity only.
+% === END CHECKLIST ===
+
 % paper/sections/04_claim_C2_2_robustness.tex
 
-\section{Claim C2.2: Robustness and suppression}
+\section{Claim C2.2: Robustness under numerical controls}
 \label{sec:claim_c22}
 
 \paragraph{Claim (C2.2).}
-The Phase~II residual induced by enforcing $|A|\ge\varepsilon$ remains numerically well-behaved under systematic sweeps in (i) the floor scale $\varepsilon$ and (ii) discretization/UV controls.
-In the explored regime, the induced effects are structured and percent-level rather than runaway.
-Evidence is provided by three parameter sweeps summarized in Figs.~\ref{fig:scaling_epsilon}--\ref{fig:scaling_modes}.
+Across systematic sweeps in (i) the floor scale $\varepsilon$ and (ii) discretization/UV-control parameters in the Phase~II engine, the residual proxy induced by enforcing $|A(t)|\ge\varepsilon$ remains numerically well-behaved and varies smoothly over the explored regime.
+Evidence is provided by the sweep summaries in Figs.~\ref{fig:scaling_epsilon}--\ref{fig:scaling_modes}; exact run provenance is given by Appendix~\ref{app:run_manifest}.
 
 \subsection{Sweep design}
-We run families of paired constrained-vs-free simulations as in Sec.~\ref{sec:claim_c21}, varying one control at a time while holding all other configuration settings fixed:
+We run families of paired constrained-vs-free simulations as in Sec.~\ref{sec:claim_c21}, varying one control at a time while holding all other configuration settings fixed.
+At each sweep point, the constrained run and its free baseline share identical initialization and numerical settings, differing only by enforcement of the floor constraint.
+We consider:
 \begin{itemize}
-  \item \textbf{$\varepsilon$-sweep:} vary the non-cancellation floor $\varepsilon$ over a specified range and measure the residual diagnostic (Fig.~\ref{fig:scaling_epsilon}).
-  \item \textbf{UV/cutoff control:} vary the effective ultraviolet control parameter used by the implementation (e.g.\ spectral cutoff / smoothing / resolution control, as defined by the Phase~II engine) and measure stability of the residual (Fig.~\ref{fig:scaling_cutoff}).
-  \item \textbf{Mode-count / discretization control:} vary the discretization degree-of-freedom proxy used by the scan (e.g.\ number of modes retained, grid resolution proxy, or an equivalent implementation-defined dial) and measure residual behavior (Figs.~\ref{fig:scaling_cutoff}--\ref{fig:scaling_modes}).
+  \item \textbf{$\varepsilon$-sweep:} vary the non-cancellation floor $\varepsilon$ and measure the residual proxy (Fig.~\ref{fig:scaling_epsilon}).
+  \item \textbf{UV/discretization control sweep:} vary the implementation-defined ultraviolet/discretization control parameter (e.g.\ cutoff/smoothing/resolution dial, as defined by the Phase~II engine) and measure the residual proxy (Fig.~\ref{fig:scaling_cutoff}).
+  \item \textbf{Mode-count / degrees-of-freedom sweep:} vary the implementation-defined degrees-of-freedom proxy (e.g.\ number of modes retained or grid-resolution proxy) and measure the residual proxy (Fig.~\ref{fig:scaling_modes}).
 \end{itemize}
-For each family, the reported quantity is the late-time residual energy proxy $\Delta E$ (Eq.~\eqref{eq:deltaE_def}) or its implementation-defined equivalent, computed from matched constrained and free runs.
+For each family, the reported quantity is the residual energy proxy $\Delta E$ (Eq.~\eqref{eq:deltaE_def}) or its implementation-defined equivalent, computed from matched constrained and free runs using the Phase~II run protocol (late-time average or end-of-run value as specified in the run artifacts referenced in Appendix~\ref{app:run_manifest}).
 
-\subsection{Results: controlled scaling and stable behavior}
+\subsection{Results: controlled variation and numerical stability}
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.92\linewidth]{figB_scaling_epsilon.pdf}
   \caption{
   \textbf{$\varepsilon$-sweep (Claim C2.2).}
-  Residual diagnostic versus the enforced floor scale $\varepsilon$.
-  The residual varies smoothly with $\varepsilon$ and does not exhibit runaway behavior in the explored range.
+  Residual proxy versus the enforced floor scale $\varepsilon$.
+  The proxy varies smoothly with $\varepsilon$ and does not exhibit runaway behavior within the explored range.
   }
   \label{fig:scaling_epsilon}
 \end{figure}
 
-Figure~\ref{fig:scaling_epsilon} shows the residual diagnostic as $\varepsilon$ is varied.
-The dependence is smooth and monotonic in the explored range, consistent with the interpretation that the floor sets the scale of the enforced non-cancellation remainder.
-Importantly, the dynamics remain stable across the sweep: the constrained runs do not exhibit numerical blow-up, and the enforcement statistics remain bounded.
+Figure~\ref{fig:scaling_epsilon} shows the residual proxy as $\varepsilon$ is varied.
+The dependence is smooth over the explored range, consistent with $\varepsilon$ setting the operational scale of the enforced non-cancellation remainder in this implementation.
+Across the sweep, runs complete without numerical blow-up and enforcement statistics remain bounded, providing an operational notion of ``numerically well-behaved'' for Phase~II.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.92\linewidth]{figC_scaling_cutoff.pdf}
   \caption{
-  \textbf{Discretization/UV control sweep (Claim C2.2).}
-  Residual diagnostic as a function of the engine's ultraviolet/discretization control parameter (implementation-defined).
-  The residual remains well-behaved and changes in a structured manner, indicating that the observed remainder is not a fragile artifact of a single cutoff choice.
+  \textbf{UV/discretization control sweep (Claim C2.2).}
+  Residual proxy as a function of an implementation-defined ultraviolet/discretization control parameter.
+  The proxy remains bounded and changes in a structured manner across the explored settings.
   }
   \label{fig:scaling_cutoff}
 \end{figure}
 
-Figure~\ref{fig:scaling_cutoff} shows the residual diagnostic under a sweep of the ultraviolet/discretization control.
-While the residual value shifts as expected when changing UV structure, the behavior remains stable and does not exhibit pathological sensitivity.
-This supports the interpretation that the mechanism is not merely a numerical coincidence at a special cutoff.
+Figure~\ref{fig:scaling_cutoff} reports the residual proxy under the UV/discretization control sweep.
+While the proxy value changes as the UV/discretization dial is varied, the behavior remains bounded and the runs remain stable within the explored regime.
+This indicates that the observed residual proxy is not confined to a single special numerical setting.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.92\linewidth]{figD_scaling_modes.pdf}
   \caption{
   \textbf{Mode/discretization sweep (Claim C2.2).}
-  Residual diagnostic as a function of a mode-count / degrees-of-freedom proxy (implementation-defined).
-  Across the explored settings, the induced effect remains controlled and does not grow without bound with increasing degrees of freedom.
+  Residual proxy as a function of an implementation-defined mode-count / degrees-of-freedom proxy.
+  Across the explored settings, the proxy remains controlled and does not exhibit unstable growth.
   }
   \label{fig:scaling_modes}
 \end{figure}
 
-Figure~\ref{fig:scaling_modes} reports the residual diagnostic against a mode-count or degrees-of-freedom proxy.
-Across the tested range, the residual remains controlled and does not diverge as the effective number of degrees of freedom changes.
-Within Phase~II scope, this is the key robustness point: the mechanism survives discretization changes without producing explosive scaling.
+Figure~\ref{fig:scaling_modes} reports the residual proxy against a mode-count or degrees-of-freedom proxy.
+Across the tested range, the proxy remains controlled and does not diverge as the effective number of degrees of freedom is varied.
+Within Phase~II scope, this is the key robustness point: the constrained mechanism survives nontrivial discretization changes without producing unstable scaling in the reported proxy.
 
-\subsection{Interpretation and quantitative ``nectar''}
-The Phase~II robustness sweeps establish two practically important facts:
+\subsection{Interpretation within Phase~II scope}
+The Phase~II sweeps establish two practically important facts:
 
-\paragraph{(i) The constraint behaves as a tunable floor, not a destabilizing force.}
-Varying $\varepsilon$ shifts the residual in a predictable, smooth way (Fig.~\ref{fig:scaling_epsilon}), consistent with the axiom functioning as a controlled non-cancellation floor rather than as an uncontrolled injection of energy.
+\paragraph{(i) The constraint behaves as a tunable floor, not a destabilizing intervention.}
+Varying $\varepsilon$ shifts the residual proxy smoothly (Fig.~\ref{fig:scaling_epsilon}), consistent with the axiom functioning as a controlled non-cancellation floor rather than an uncontrolled numerical perturbation.
 
-\paragraph{(ii) The observed residual is not a single-cutoff artifact.}
-Changes in the engine's UV/discretization controls alter the residual only modestly and without instabilities (Figs.~\ref{fig:scaling_cutoff}--\ref{fig:scaling_modes}).
-In the explored regime, the induced effect remains small (percent-level modulation in the relevant scan summaries), supporting the claim that the pipeline is stable and reproducible rather than parameter-explosive.
+\paragraph{(ii) The residual proxy persists across multiple numerical controls.}
+Changes in the engine's UV/discretization dials and degrees-of-freedom proxies modify the residual proxy but do not trigger numerical pathologies within the explored regime (Figs.~\ref{fig:scaling_cutoff}--\ref{fig:scaling_modes}).
+This is the minimum robustness criterion required before attempting an end-to-end embedding (Claim~C2.3).
 
-These results do not constitute a continuum-limit proof.
-They \emph{do} demonstrate that the Phase~II engine produces a robust, auditable residual across a nontrivial range of numerical controls, which is the necessary condition for proceeding to the FRW viability test (Claim~C2.3).
+\noindent\textbf{Non-claims boundary (C2.2).}
+These sweeps do \emph{not} establish a continuum limit, renormalization-group invariance, or universality across discretization schemes; they do \emph{not} claim validity beyond the explored parameter ranges; and they do \emph{not} by themselves justify interpreting the residual proxy as a physical vacuum energy.
+They only support the bounded statement that the constrained implementation remains stable and produces a reproducible, smoothly varying residual proxy under the stated numerical controls.

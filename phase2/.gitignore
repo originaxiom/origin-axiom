@@ -1,0 +1,22 @@
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Snakemake runtime cache (never commit)
+.snakemake/
+**/.snakemake/
+
+# Temporary config sweeps
+outputs/tests/_tmp_cfg_*/
+outputs/tests/_tmp_cfg_*
+
+# Latex build junk (Phase 2 paper folder has its own .gitignore too)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.xdv

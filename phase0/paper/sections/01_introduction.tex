@@ -1,73 +1,26 @@
-% paper/sections/01_introduction.tex
-
 \section{Introduction}
 \label{sec:introduction}
 
-\subsection{Euler cancellation as a reference ideal}
-A useful reference point for what we mean by \emph{cancellation} is Euler's identity,
-\begin{equation}
-e^{i\pi} + 1 = 0,
-\label{eq:euler}
-\end{equation}
-which expresses a precise and global destructive balance between two terms.
-As a mathematical statement it is exact; as a metaphor it captures a broader notion of \emph{perfect cancellation}:
-a structured combination of contributions can sum to identically nothing.
-The Origin Axiom program begins by asking a constrained question:
-\emph{what changes if global perfect cancellation is forbidden as an attainable outcome of the universe's bookkeeping?}
+This repository is organized as a governed, multi-phase research program. The role of Phase 0 is to define the governance layer: how claims are written, what counts as evidence, how phases are scoped, how reproducibility is enforced, and how failure is recorded.
 
-We emphasize that this is not an argument from aesthetics.
-The point of beginning from Eq.~\eqref{eq:euler} is to make the null state concrete: if a theory permits exact global cancellation, then it admits a sharply defined ``nothing'' benchmark.
-The program explores the alternative posture: treat ``nothing'' as a boundary that cannot be crossed, and study the remainder forced by that boundary.
+\paragraph{What Phase 0 is.}
+Phase 0 is a constitution for the project. It specifies:
+(i) a claim taxonomy and required claim structure,
+(ii) an evidence contract based on canonical artifacts and file pointers,
+(iii) phase scope contracts (including explicit non-claims boundaries),
+(iv) a reproducibility contract (deterministic pipelines and run provenance),
+(v) explicit failure modes and falsifiers,
+and (vi) corridor bookkeeping for global filters (notably $\theta$-corridors).
 
-\subsection{From philosophical premise to operational postulate}
-To move from intuition to science, the program adopts a minimal operational postulate.
-We define a specified global complex amplitude $A$ constructed from the state of a model system (the precise construction is phase-dependent and must be stated explicitly).
-The Origin Axiom is then expressed as the constraint
-\begin{equation}
-|A| \ge \varepsilon, \qquad \varepsilon>0,
-\label{eq:floor_intro}
-\end{equation}
-where $\varepsilon$ is a strictly positive floor.
-The intent is not to claim that Eq.~\eqref{eq:floor_intro} is already derived from a known fundamental action.
-Rather, Eq.~\eqref{eq:floor_intro} is treated as a \emph{postulate to be tested by consequences}.
+\paragraph{What Phase 0 is not.}
+Phase 0 does not make physics claims. It does not assert a specific value of $\theta^\star$, does not claim a mechanism for vacuum energy, does not infer cosmology, and does not treat any narrative motivation as evidence. Any physical statements belong to later phases and are valid only if they satisfy the contracts defined here.
 
-A crucial distinction follows immediately:
-a constraint can exist in code yet be irrelevant in a given regime.
-We therefore separate \emph{non-binding} regimes (the raw evolution satisfies $|A|>\varepsilon$ and the constraint never activates) from \emph{binding} regimes (the raw evolution would dip below $\varepsilon$, requiring intervention).
-This distinction is mandatory for intellectual honesty: any claim that ``the axiom matters'' must be accompanied by binding-regime evidence and ablations against a constraint-off baseline.
+\paragraph{Why governance is required.}
+Without governance, research repositories drift in three predictable ways:
+claims drift (text diverges from figures), artifact drift (results live in ad-hoc folders or unreproducible runs), and reproducibility drift (code or environment changes alter outputs without a clear audit trail). Phase 0 is designed to prevent these failure modes by making the project auditable end-to-end.
 
-\subsection{Why we introduce a universal phase parameter}
-The program's second organizing motif is the exploration of whether a single phase-like control parameter can coherently thread multiple domains.
-We denote this parameter by $\theta\in[0,2\pi)$.
-The role of $\theta$ is not to serve as a numerological constant, but to act as a candidate \emph{carrier} of a universal ``twist'' that could modulate:
-(i) flavor-sector structure (mixings and phases),
-(ii) the behavior of vacuum-like residuals under non-cancellation enforcement, and
-(iii) the stability and character of downstream cosmological embeddings.
+\paragraph{Project rule: no dark progress.}
+Work is only considered ``real'' when it is logged and reproducible. Each change that affects claims, figures, or phase papers must be recorded in the progress log(s) and must be recoverable from versioned inputs (code, configs, and referenced artifacts). This is not bureaucracy; it is the minimal condition for defensible scientific communication.
 
-This immediately raises a methodological hazard:
-if we fix a specific number $\theta^\star$ too early, later successes can appear to be engineered around a chosen value.
-Phase~0 therefore formalizes a corridor-based protocol in which $\theta^\star$ is treated, at most, as a \emph{fiducial representative} within a larger admissible set.
-
-\subsection{Corridors instead of imposed constants}
-The key idea is to treat each phase as a filter on $\theta$.
-We begin from an initial prior corridor $\Theta_0\subset[0,2\pi)$ (possibly broad).
-Each phase $i$ defines explicit pass/fail tests $\mathcal{T}_i(\theta)$ that depend on reproducible artifacts (binding certificates, stability bounds, scaling checks, and transfer viability).
-The phase outputs an admissible set
-\begin{equation}
-\Theta_{i+1} = \{\theta\in\Theta_i : \mathcal{T}_i(\theta)\ \mathrm{passes}\},
-\label{eq:corridor_update_intro}
-\end{equation}
-possibly disconnected, and the program advances by intersecting admissible sets across independent layers.
-In this framing, a single $\theta^\star$ is \emph{earned} only if the intersection of independent constraints collapses the corridor toward a unique value (or a small discrete set), rather than being assumed at the outset.
-
-\subsection{What Phase~0 contributes}
-Phase~0 locks the epistemic and reproducibility scaffolding required for later phases to be meaningful:
-\begin{itemize}
-  \item clear definitions of postulate versus implementation versus model versus consequence;
-  \item a binding/non-binding regime distinction and the requirement of ablation evidence for causal claims;
-  \item the corridor method for propagating admissible $\theta$ sets across phases;
-  \item phase-by-phase contracts specifying what each phase is permitted to claim and what it must not claim;
-  \item a minimal deterministic ledger mechanism that aggregates standardized per-phase $\theta$-filter artifacts into a versioned corridor history and dashboard.
-\end{itemize}
-This paper therefore serves as the series' ``contract layer'': it does not attempt unification or parameter prediction.
-It establishes the rules by which subsequent claims will be stated, tested, audited, and either locked or rejected.
+\paragraph{How to read this document.}
+Section~\ref{sec:axioms_definitions} defines the governance vocabulary. Section~\ref{sec:corridor_method} defines corridor artifacts and their append-only history. Section~\ref{sec:phase_contracts} defines what phases may claim and how claims must be structured. Section~\ref{sec:repro_contract} defines reproducibility requirements. Section~\ref{sec:falsifiability} defines failure modes and falsifiers. Later phases are required to satisfy these contracts as a condition of being considered ``locked''.

@@ -1,15 +1,7 @@
-% phase0/paper/sections/00_abstract.tex
-
 \begin{abstract}
-We present Phase~0 of the Origin Axiom program: a foundations and provenance layer that makes subsequent phases auditable, falsifiable, and resistant to accidental numerology.
-The program begins from a simple methodological postulate---\emph{global perfect cancellation is forbidden}---and explores its consequences through controlled implementations and domain-to-domain transfers.
+Phase 0 defines the governance layer of the Origin Axiom program. Its purpose is not to advance a physical theory, but to make later phases auditable: claims must be bounded, evidence must be canonical and file-addressable, provenance must be recorded, and falsifiers must be stated explicitly.
 
-Phase~0 contributes four deliverables.
-First, we formalize the non-cancellation postulate as a constraint on a specified global complex amplitude $A$ and a strictly positive floor $\varepsilon>0$, and we define \emph{binding} versus \emph{non-binding} regimes to prevent misinterpretation of inert constraints.
-Second, we introduce a corridor-based inference protocol for the universal phase parameter $\theta\in[0,2\pi)$: rather than fixing a single $\theta^\star$ early, each phase produces an admissible set (a corridor, possibly disconnected) via explicit pass/fail tests, and the program advances by intersecting these admissible sets across independent layers.
-Third, we state phase-by-phase contracts (assumptions, claims permitted, required artifacts, and non-claims) so that each phase can be locked only when its claims are tied to reproducible run manifests and ablation controls.
-Fourth, we define a minimal, deterministic ``Phase~0 ledger'' mechanism: future phases emit standardized JSON filter artifacts over $\theta$, which the ledger intersects to produce a versioned corridor history and a human-auditable dashboard after each phase or subphase.
+Phase 0 contributes four deliverables. First, it defines a project vocabulary for claims, evidence, canonical artifacts, provenance, and phase scope contracts. Second, it introduces corridor governance: global filters (notably $\theta$ corridors) are treated as schema-validated artifacts with an append-only history, preventing silent narrowing. Third, it specifies the required structure of every claim (ID, statement, evidence pointers, non-claim boundaries, falsifiers, and provenance). Fourth, it defines a reproducibility contract, including a minimal run-bundle standard and failure-handling rules that quarantine broken evidence rather than hiding it.
 
-Phase~0 makes no physical claim that the postulate is true in nature, nor does it attempt to derive $\varepsilon$ or a unique $\theta^\star$.
-Its purpose is to establish a rigorous scaffold in which later phases can test whether a single phase-like control parameter can coherently survive multiple independent constraints, and whether the corridor narrows toward a discrete or unique value as layers are added.
+Phase 0 makes no physics claims. It does not assert a value of $\theta^\star$, does not infer cosmology, and does not treat motivation as evidence. Its role is to provide the constitution under which later phases can make defensible, peer-review-friendly claims.
 \end{abstract}

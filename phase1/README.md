@@ -167,3 +167,13 @@ This order reflects the intended reading discipline.
 ---
 
 End of Phase 1 README.
+
+## Build the PDF (canonical)
+From repo root:
+
+- `./scripts/build_papers.sh`
+
+Output:
+- `phase1/paper/main.pdf`
+
+Committed PDFs are convenience artifacts; Phase 1 claims are audited against generated artifacts and logs.

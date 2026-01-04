@@ -110,3 +110,22 @@ At Phase 1 completion:
 - No claims exceed demonstrated evidence.
 
 All further development proceeds only via later phases. Phase 1 is considered closed and self-contained.
+
+### 2026-01-03 — Baseline freeze for Phase 1 compliance check
+
+Action:
+- Start alignment pass to verify Phase 1 fully satisfies Phase 0 governance criteria.
+- Next stage will add mechanical compliance polish only (explicit falsifiers/non-claims + provenance pointers), without changing Phase 1 results.
+
+Constraint:
+- Phase 1 remains closed and self-contained; no new physics content.
+
+
+### 2026-01-03 — Paper build hygiene + bibliography completion
+  - Phase 1 paper now builds cleanly via `latexmk` (no undefined citations/refs; no BibTeX empty-journal warnings).
+  - Updated `phase1/paper/references.bib` to provide complete metadata for arXiv-only entries:
+    - `Jirousek2023` and `Sorkin2007` now include `journal = {arXiv preprint}`, `note = {arXiv:<id> [class]}`, and `url`.
+    - Ensured BibTeX field separators are valid (comma after `primaryClass` etc.).
+  - Generated and committed `phase1/paper/main.pdf` as a convenience artifact (source of truth remains `.tex` + reproducibility pipeline).
+  - Cleaned LaTeX build outputs locally via `latexmk -C`.
+  - Repo hygiene: removed/ignored `.xdv` and other build artifacts to prevent accidental tracking.

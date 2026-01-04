@@ -56,3 +56,14 @@ After you have one or more `phase_outputs/phase_XX_theta_filter.json` files:
 python3 scripts/phase0_ledger.py update
 python3 scripts/phase0_ledger.py report
 python3 scripts/phase0_ledger.py status
+## Build the PDFs (canonical)
+From repo root:
+
+- `./scripts/build_papers.sh`
+
+Outputs:
+- `phase0/paper/main.pdf`
+- `phase0/paper/appendices.pdf`
+- `phase1/paper/main.pdf`
+
+Committed PDFs are convenience artifacts; the source of truth is the LaTeX + referenced artifacts.

@@ -1,135 +1,61 @@
-% paper/sections/02_axioms_and_definitions.tex
+\section{Axioms and definitions (governance vocabulary)}
+\label{sec:axioms_definitions}
 
-\section{Axioms and definitions}
-\label{sec:axioms_defs}
+This section defines the minimal vocabulary used throughout the project. These definitions are \emph{governance objects}: they specify how the repository communicates results and how those results are audited. They are not physics postulates.
 
-This section fixes the minimal objects and terms that all subsequent phases must use consistently.
-Phase~0 is intentionally conservative: we define only what we must, and we label where later phases may refine or replace definitions.
+\subsection{Core objects}
 
-\subsection{Cancellation and the choice of a global amplitude}
-\label{sec:global_amplitude}
+\paragraph{Claim.}
+A \emph{claim} is a bounded statement asserted by a phase. A claim must be written in a standardized form (Section~\ref{sec:phase_contracts}) and must be supported by evidence. Claims are the only unit of scientific assertion in this project.
 
-By \emph{global cancellation} we mean the possibility that a specified aggregate complex quantity $A$ constructed from the instantaneous state of a system can approach zero in magnitude,
-\begin{equation}
-|A| \to 0.
-\end{equation}
-The program does not assume a unique universal definition of $A$ across all domains.
-Instead, each phase must:
-\begin{enumerate}
-  \item define $A$ explicitly in terms of the phase's model variables, and
-  \item justify why that $A$ is a relevant bookkeeping object for that phase.
-\end{enumerate}
+\paragraph{Non-claim boundary.}
+A \emph{non-claim boundary} is an explicit list of statements that a phase does \emph{not} assert. Non-claims are mandatory: they prevent scope creep and protect later phases from inheriting unintended conclusions.
 
-\paragraph{Invariance requirement.}
-To avoid purely representational artifacts, a phase must state what transformations leave its $A$ invariant (or covariant) and why the constraint is meaningful under those transformations.
-Examples include invariance under basis changes, rephasing symmetries, coordinate transformations, or coarse-graining procedures.
-If a phase cannot provide an invariance statement, it must explicitly label its $A$ as a \emph{toy diagnostic} rather than a physically invariant observable.
+\paragraph{Evidence.}
+\emph{Evidence} is a set of canonical artifacts (figures, tables, data summaries, run bundles) that directly support a claim. Narrative text, motivation, or conceptual analogies are not evidence.
 
-\subsection{The Origin Axiom (non-cancellation floor)}
-\label{sec:origin_axiom}
+\paragraph{Canonical artifact.}
+A \emph{canonical artifact} is an evidence object with a stable location in the repository and a reproducible provenance. Canonical artifacts are either versioned directly (e.g., PDF figures) or generated deterministically from versioned inputs under the reproducibility contract (Section~\ref{sec:repro_contract}).
 
-\paragraph{Postulate (OA).}
-Given a specified global complex amplitude $A$ for a given phase/model, the Origin Axiom asserts the existence of a strictly positive floor $\varepsilon>0$ such that
-\begin{equation}
-|A| \ge \varepsilon.
-\label{eq:OA_floor}
-\end{equation}
-In Phase~0 we treat Eq.~\eqref{eq:OA_floor} as a postulate; no derivation from an action, symmetry principle, or microphysical mechanism is claimed.
+\paragraph{Provenance.}
+\emph{Provenance} is the information required to reproduce an artifact: the code version, configuration/parameters, environment snapshot, and an execution identifier (run ID). Provenance must be sufficient for an independent reader to regenerate the artifact.
 
-\paragraph{Interpretation.}
-Equation~\eqref{eq:OA_floor} is a ``no-perfect-nothing'' constraint: it forbids $A$ from entering an arbitrarily small neighborhood of the origin in the complex plane.
-The scientific question is not whether such a rule is aesthetically appealing, but whether implementing it produces controlled, falsifiable consequences in a chain of models.
+\subsection{Phase governance}
 
-\subsection{Implementation: the minimal intervention rule}
-\label{sec:min_intervention}
+\paragraph{Phase.}
+A \emph{phase} is a governed unit of work with a declared scope, allowed claim types, and required artifacts. A phase is considered \emph{locked} only when it satisfies the Phase 0 compliance checklist (Section~\ref{sec:p0_checklist}).
 
-A postulate becomes testable only when implemented.
-We therefore define a minimal implementation hypothesis.
+\paragraph{Scope contract.}
+A \emph{scope contract} states what a phase is allowed to claim and what it forbids itself from claiming. Scope is binding: statements outside scope are invalid by definition.
 
-\paragraph{Implementation hypothesis (MI).}
-When the raw evolution of the model would yield $|A_{\mathrm{raw}}|<\varepsilon$, the constraint is enforced by applying the smallest correction (according to a phase-specified norm) needed to satisfy Eq.~\eqref{eq:OA_floor}.
-We denote the enforced amplitude by $A_{\mathrm{con}}$.
+\paragraph{Claims ledger.}
+A \emph{claims ledger} is the authoritative list of claims for a phase (or for the project), including IDs, statements, evidence pointers, and non-claim boundaries. The ledger is the primary map from text to artifacts.
 
-The exact definition of ``smallest'' is implementation-dependent and must be specified in each phase.
-Common choices include:
-\begin{itemize}
-  \item radial projection in the complex plane: $A_{\mathrm{con}} = \varepsilon\,A_{\mathrm{raw}}/|A_{\mathrm{raw}}|$ (when $A_{\mathrm{raw}}\neq 0$),
-  \item additive correction with minimal norm in a parameterized subspace,
-  \item constrained optimization over model degrees of freedom.
-\end{itemize}
-Regardless of choice, the implementation must log sufficient diagnostics to audit whether and how enforcement occurred.
+\subsection{Corridor governance}
 
-\subsection{Binding vs non-binding regimes}
-\label{sec:binding}
+\paragraph{Filter.}
+A \emph{filter} is a structured, machine-readable restriction applied to a space of possibilities (e.g., parameter ranges). Filters may be introduced by phases as part of their evidence-based narrowing process.
 
-We define two regimes:
+\paragraph{Corridor.}
+A \emph{corridor} is the current authoritative allowed region for a global filter (notably the $\theta$ corridor). Corridors are represented as structured artifacts and must be updated only through an append-only history.
 
-\paragraph{Non-binding regime.}
-A run is non-binding if the raw evolution satisfies $|A_{\mathrm{raw}}(t)|>\varepsilon$ for the entire run.
-In this regime the implementation must be \emph{non-invasive}: constrained and unconstrained runs should coincide up to numerical tolerance.
+\paragraph{Corridor history.}
+The \emph{corridor history} is an append-only log of corridor updates. Each update must record: (i) the new corridor definition, (ii) the phase that produced it, (iii) the evidence artifacts justifying it, and (iv) the code/config provenance (run IDs and version information).
 
-\paragraph{Binding regime.}
-A run is binding if there exists at least one time (or step) at which $|A_{\mathrm{raw}}|<\varepsilon$ and the enforcement rule is applied.
-Binding is therefore an objective event that can be certified by logged artifacts.
+\subsection{Failure and falsifiability}
 
-\paragraph{Binding certificate (required).}
-Any phase that claims the axiom has a causal effect must provide, for at least one representative configuration, a binding certificate containing:
-\begin{itemize}
-  \item \texttt{constraint\_applied = true} (or equivalent),
-  \item a quantitative measure of intervention (\texttt{n\_hits}, \texttt{hit\_fraction}, or \texttt{min\_raw\_minus\_eps}),
-  \item a paired ablation showing the divergence between constrained and unconstrained trajectories for a diagnostic of interest.
-\end{itemize}
+\paragraph{Failure mode.}
+A \emph{failure mode} is a known way a phase can fail: conceptual invalidity, numerical instability, irreproducibility, artifact drift, or evidence insufficiency. Failure modes must be stated explicitly and revisited when results change.
 
-\subsection{Residual, remainder, and diagnostic outputs}
-\label{sec:residual_def}
+\paragraph{Falsifier.}
+A \emph{falsifier} is an explicit condition under which a claim should be rejected. Falsifiers may be numerical (e.g., stability breaks under parameter sweeps), logical (a contradiction with the phase contract), or empirical (in later phases, disagreement with measured quantities).
 
-When enforcement occurs, the program focuses on what cannot be cancelled: the \emph{remainder}.
-We use ``residual'' to denote a scalar diagnostic extracted from the system that is intended to track that remainder.
+\subsection{Project axiom (governance, not physics)}
+\label{sec:governance_axiom}
 
-Each phase must define:
-\begin{itemize}
-  \item the raw residual $R_{\mathrm{raw}}$,
-  \item the constrained residual $R_{\mathrm{con}}$ (under OA enforcement),
-  \item and the difference $\Delta R = R_{\mathrm{con}} - R_{\mathrm{raw}}$ (or a ratio) used to quantify axiom impact.
-\end{itemize}
-The residual is not assumed to be a physical observable in Phase~0; it is an operational diagnostic whose meaning and invariance must be argued phase-by-phase.
+The only ``axiom'' of Phase 0 is governance:
+\begin{quote}
+Work is only considered complete when it is stated as bounded claims, supported by canonical artifacts, and reproducible from versioned inputs with recorded provenance.
+\end{quote}
 
-\subsection{The universal phase parameter and its domain}
-\label{sec:theta_def}
-
-We define a universal phase-like control parameter
-\begin{equation}
-\theta \in [0,2\pi),
-\end{equation}
-with the understanding that phases differing by integer multiples of $2\pi$ are equivalent in any dependence that enters only through $e^{i\theta}$ or other $2\pi$-periodic functions.
-
-We distinguish:
-\begin{itemize}
-  \item \textbf{Fiducial representative} $\theta^\star$: a convenient point chosen for illustration or for a single-run benchmark within an admissible corridor.
-  \item \textbf{Admissible corridor} $\Theta$: a set of $\theta$ values that pass a phase's explicit test suite.
-\end{itemize}
-Phase~0 prohibits treating $\theta^\star$ as a derived constant unless the corridor-intersection protocol collapses $\Theta$ toward a unique value (or a small discrete set) under independent constraints.
-
-\subsection{Ablation principle (causal isolation)}
-\label{sec:ablation_def}
-
-Whenever a phase claims that OA enforcement causes an effect, it must include a paired ablation:
-\begin{itemize}
-  \item Run A (control): constraint OFF (or $\varepsilon=0$ / enforcement disabled),
-  \item Run B (treatment): constraint ON with specified $\varepsilon>0$,
-\end{itemize}
-with identical initialization, seed, and numerical parameters.
-Only then can differences be attributed to the axiom implementation rather than to confounders.
-
-\subsection{Phase locking criteria (definition)}
-\label{sec:locking_def}
-
-A phase is considered \emph{locked} only when:
-\begin{enumerate}
-  \item its claims are explicitly stated;
-  \item every claim is tied to regenerable artifacts (figures/tables) and run manifests;
-  \item binding certificates are provided wherever causal axiom impact is asserted;
-  \item non-claims and limitations are explicitly listed;
-  \item provenance (git commit, config hash, environment) is recorded for all headline runs.
-\end{enumerate}
-Phases that do not satisfy these conditions may be explored, but they may not be used as authoritative inputs for later phases.
+All physics hypotheses, models, and interpretations are deferred to later phases under these contracts.

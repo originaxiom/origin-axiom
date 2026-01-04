@@ -2,24 +2,32 @@
 
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{cmap}
+
 \usepackage{amsmath,amssymb,mathtools}
 \usepackage{bm}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{enumitem}
-\usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
 
 \input{macros.tex}
 
 \title{Phase 0: Contracts for a Reproducible Non-Cancellation Program}
-\author{Drit{\"e}ro M.}
-\date{\today}
+\author{Drit\"ero M.}
+\date{}
 
 \begin{document}
 \maketitle
 
 \input{sections/00_abstract.tex}
+
+\tableofcontents
+\clearpage
+
+% Constitution body (normative)
 \input{sections/01_introduction.tex}
 \input{sections/02_axioms_and_definitions.tex}
 \input{sections/03_corridor_method.tex}
@@ -29,11 +37,8 @@
 \input{sections/07_discussion_candidate_origins.tex}
 \input{sections/08_conclusion.tex}
 
-\appendix
-\input{appendices/A_notation_glossary.tex}
-\input{appendices/B_phase_theta_filter_schema.tex}
-\input{appendices/C_toy_example_corridor_shrinking.tex}
-\input{appendices/D_claims_checklist.tex}
+\paragraph{Appendices.}
+Non-normative appendices (notation, schema templates, and worked examples) are provided in a separate companion document: \texttt{appendices.tex}.
 
 \bibliographystyle{unsrt}
 \bibliography{references}

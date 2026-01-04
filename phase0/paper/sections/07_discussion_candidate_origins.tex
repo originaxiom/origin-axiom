@@ -1,71 +1,22 @@
-% paper/sections/07_discussion_candidate_origins.tex
+\section{Non-normative note: candidate origins (hypotheses, not claims)}
+\label{sec:candidate_origins}
 
-\section{Discussion: candidate origins and interpretations of non-cancellation}
-\label{sec:discussion_origins}
+This section is \emph{non-normative}. It exists to record candidate research directions without allowing them to function as evidence or implied conclusions. No statement here is a project claim. No later phase may cite this section as evidence.
 
-Phase~0 treats the Origin Axiom as a postulate tested by consequences.
-Nevertheless, it is useful to catalogue plausible ways in which non-cancellation-like behavior could arise in established scientific language.
-This section is intentionally framed as \emph{candidate interpretations} rather than as claims; it is a map of mechanistic hypotheses to be evaluated in later phases.
+\subsection{Purpose}
+A governance phase benefits from stating what it refuses to do. Phase 0 does not argue for a specific physical mechanism behind non-cancellation constraints. Instead, it records a small set of plausible origin routes that later phases may treat as hypotheses to test under the Phase 0 contracts.
 
-\subsection{Constraint as a consistency condition}
-\label{sec:consistency_condition}
+\subsection{Candidate routes (hypotheses)}
+\begin{enumerate}
+  \item \textbf{Symmetry / selection route.} A constraint emerges as an effective selection rule from a deeper symmetry principle, appearing as a hard floor or forbidden cancellation condition in a low-energy description.
+  \item \textbf{Coarse-graining / renormalization route.} Apparent cancellation at one scale fails to survive consistent coarse-graining across scales, leaving a controlled residue after integrating out degrees of freedom.
+  \item \textbf{Global consistency / holonomy route.} A global phase-consistency constraint restricts admissible configurations; locally canceling contributions cannot be made globally consistent, producing an irreducible remainder.
+  \item \textbf{Information-theoretic route.} Exact cancellation is prohibited by an encoding constraint (finite specification cost, irreducible precision, or computability limits), producing a controlled residue that behaves as an effective offset.
+\end{enumerate}
 
-Many physical principles are best understood as consistency constraints: requirements that exclude pathological states rather than constructive dynamical laws.
-Examples include positivity of probabilities, unitarity constraints, anomaly cancellation conditions, and stability bounds.
-In this spirit, the non-cancellation floor may be interpreted as a consistency requirement on an aggregate quantity $A$:
-the theory does not permit trajectories that enter an arbitrarily small neighborhood of $A=0$.
-
-Under this interpretation, the primary scientific tasks are:
-(i) to identify a suitable invariant definition of $A$ in realistic settings,
-(ii) to demonstrate that enforcing the constraint does not introduce contradictions,
-and (iii) to determine whether the constraint yields nontrivial predictions.
-
-\subsection{Selection principle: minimal intervention and extremality}
-\label{sec:selection_principle}
-
-If enforcement is framed by a minimal-intervention rule (Sec.~\ref{sec:min_intervention}), one may reinterpret the program as exploring an extremal selection principle:
-among all evolutions compatible with the model, the realized evolution minimizes a cost functional associated with approaching perfect cancellation.
-
-Concretely, one might define an intervention cost
-\begin{equation}
-C(\theta) = \int dt\ \mathcal{L}_{\mathrm{int}}\!\left(A_{\mathrm{raw}}(t;\theta), \varepsilon\right),
-\end{equation}
-with $\mathcal{L}_{\mathrm{int}}$ penalizing excursions below $\varepsilon$.
-Later phases could examine whether the corridor method effectively selects $\theta$ values that minimize such costs while satisfying stability and transfer constraints.
-Phase~0 does not commit to this interpretation; it is presented as a viable formalization route.
-
-\subsection{Topological and holonomy-like interpretations}
-\label{sec:topology}
-
-Phase-like parameters that survive across domains are often associated with holonomy, winding, or Berry-phase structures.
-In such settings, certain values can become preferred or quantized due to topological consistency conditions.
-A non-cancellation constraint could plausibly arise as a statement that a global phase defect (or holonomy) cannot be gauged away and therefore enforces an irreducible remainder.
-
-This class of interpretations is attractive because it offers a route to:
-(i) invariance under local redefinitions,
-(ii) robustness to perturbations, and
-(iii) discrete candidate values for $\theta$ through quantization.
-Whether the Origin Axiom can be embedded in such a structure is a Phase~III-level question.
-
-\subsection{Information-theoretic perspectives}
-\label{sec:info}
-
-Another broad interpretation treats cancellation as erasure.
-In information-theoretic language, perfect global cancellation would correspond to a lossless compression of structure into null output.
-A non-cancellation postulate can be viewed as forbidding complete erasure of structured information in the system's global bookkeeping.
-
-This perspective is speculative but potentially productive: it suggests defining $A$ as an information-carrying functional and interpreting $\varepsilon$ as a lower bound on retained distinguishability.
-Phase~0 does not assert such a mapping; it notes it as a conceptual lane that may later yield invariance principles or scaling expectations.
-
-\subsection{Caution: avoiding ``anything can be enforced''}
-\label{sec:anything_enforced}
-
-A central scientific concern is that an arbitrary floor $\varepsilon$ can be imposed on almost any quantity, making the program vacuous.
-The corridor method and the reproducibility gates exist to prevent this failure mode.
-To remain nontrivial, later phases must show:
-\begin{itemize}
-  \item binding regimes where OA enforcement demonstrably changes outcomes,
-  \item robustness and scaling properties that restrict $\varepsilon$ and implementation choices,
-  \item and independent constraints that meaningfully narrow $\theta$ rather than leaving it free.
-\end{itemize}
-If these conditions are not met, the correct conclusion is not that the axiom is ``true,'' but that the current definitions do not produce discriminating science.
+\subsection{Governance rule}
+Future phases may explore any route above only if:
+(i) statements are written as bounded claims in the phase claims ledger,
+(ii) evidence is provided via canonical artifacts with run provenance,
+and (iii) falsifiers are stated explicitly.
+If a later phase cannot supply evidence, the route remains speculation and must be labeled as such.

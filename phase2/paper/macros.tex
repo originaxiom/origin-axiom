@@ -2,12 +2,17 @@
 % Origin Axiom — Phase 2
 % Global macros, notation, and safe shortcuts
 %
-% Design principles:
-% - No fragile macros in moving arguments
-% - pdflatex-safe (no exotic Unicode dependencies)
-% - Clear separation between math symbols and semantics
-% - Consistent with Phase 1 notation, extended for cosmology
+% Principles:
+% - pdflatex-safe
+% - avoid fragile macros in moving arguments
+% - keep notation stable across Phase 2
 % ============================================================
+
+% ----------------------------
+% Dependencies (minimal safety)
+% ----------------------------
+% xcolor is required only if note macros are enabled below.
+\providecommand{\textcolor}[2]{#2}
 
 % ----------------------------
 % General math helpers
@@ -89,7 +94,6 @@
 \newcommand{\OmegaM}{\Omega_{\mathrm{m}}}
 \newcommand{\OmegaR}{\Omega_{\mathrm{r}}}
 \newcommand{\OmegaL}{\Omega_{\Lambda}}
-
 \newcommand{\OmegaLeff}{\Omega_{\Lambda,\mathrm{eff}}}
 
 \newcommand{\Eofa}{E(a)}
@@ -111,11 +115,15 @@
 \newcommand{\Eq}[1]{Eq.~\eqref{#1}}
 
 % ----------------------------
-% Comments and editorial helpers
+% Editorial helpers (FINAL-SAFE)
 % ----------------------------
+% Default: no-op (so the paper stays "final" even if notes remain).
+% If you want visible notes locally, redefine \showdraftnotestrue in main.tex.
+\newif\ifshowdraftnotes
+\showdraftnotesfalse
 
-\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
-\newcommand{\note}[1]{\textcolor{blue}{[#1]}}
+\newcommand{\todobox}[1]{\ifshowdraftnotes\textcolor{red}{[NOTE: #1]}\fi}
+\newcommand{\note}[1]{\ifshowdraftnotes\textcolor{blue}{[#1]}\fi}
 
 % ----------------------------
 % Safe text macros (no math)

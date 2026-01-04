@@ -6,51 +6,52 @@
 \section{Introduction}
 \label{sec:introduction}
 
-The observed small but nonzero value of the cosmological constant remains one of the most persistent open problems in fundamental physics.
-Na\"ively, quantum field theory predicts a vacuum energy density set by the ultraviolet cutoff,
+The small but nonzero late-time vacuum component inferred in cosmology is often framed as a naturalness problem.
+In conventional quantum-field-theory reasoning, vacuum contributions exhibit strong ultraviolet sensitivity and are generically large, whereas the effective residual inferred on cosmological scales is many orders of magnitude smaller.
+At the level of schematic mode-sum intuition one may write
 \begin{equation}
 \rho_{\mathrm{vac}} \sim \sum_{\kmode} \tfrac{1}{2}\hbar \omega_{\kmode},
 \end{equation}
-which exceeds the observed dark energy density by many orders of magnitude.
-Despite decades of progress, no universally accepted mechanism explains why these contributions nearly cancel, nor why a small positive residual appears to survive at late times.
+which motivates the question of how large contributions could nearly cancel and why any nonzero remainder would persist.
+For standard reviews and broader context, see Refs.~\cite{weinberg1989ccp,carroll2001cc}.
 
-The standard $\Lambda$CDM model incorporates this residual phenomenologically through a cosmological constant $\Lambda$, providing an excellent fit to cosmological data.
-However, within conventional quantum field theory, $\Lambda$ remains radiatively unstable and highly sensitive to ultraviolet physics.
-This tension motivates the exploration of mechanisms that regulate vacuum energy through principles that are not purely local or perturbative.
+The $\Lambda$CDM model parameterizes late-time acceleration with a constant term and fits a wide range of cosmological observations extremely well~\cite{planck2018params}.
+From the perspective of effective field theory, however, the smallness and apparent stability of such a term under radiative corrections is commonly regarded as conceptually tensioned with generic ultraviolet sensitivity~\cite{weinberg1989ccp,carroll2001cc}.
+This motivates exploring whether \emph{global} constraints on collective cancellation can, at least in controlled testbeds, enforce an irreducible residual without relying on detailed particle content, exact boson--fermion pairing, or fine-tuned counterterms.
 
-In this work we investigate such a mechanism, referred to as the \OA{}, which enforces a global constraint on coherent mode sums.
-Rather than modifying individual quantum fields or introducing new particles, the axiom restricts the collective amplitude arising from large ensembles of modes.
-When destructive interference is nearly exact, the axiom prevents the total amplitude from vanishing identically, leaving a residual bounded from below by a small parameter $\eps$.
-Crucially, this residual is not imposed by hand but emerges dynamically from the constrained sum itself.
+This paper studies one such constraint mechanism under the name \OA{}.
+The defining ingredient in Phase~II is operational and explicitly bounded: we impose a hard \emph{non-cancellation floor} on a global complex diagnostic amplitude $A(t)$ constructed from a minimal vacuum-like numerical model.
+In the Phase~II implementation, the axiom takes the form
+\begin{equation}
+|A(t)| \ge \varepsilon \,, \qquad \varepsilon>0 \text{ fixed,}
+\end{equation}
+enforced at each integration step by a spatially uniform correction applied only when a trial update would violate the floor.
+The constraint acts exclusively on the global (zero-mode) diagnostic and, by construction, does not alter nonzero-mode structure beyond what the baseline dynamics already produce.
+Phase~II evaluates the consequences of this constraint \emph{in the specified model and code}, with emphasis on auditability, numerical stability, and bounded interpretability rather than on first-principles derivation.
 
-The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
-We focus on three core questions:
-(i)~whether the residual produced by constrained mode cancellation is robust under changes of cutoff, volume, and mode count;
-(ii)~whether the scaling behavior remains controlled and free of pathological divergences;
-and (iii)~whether the resulting residual, when interpreted as an effective vacuum energy, leads to a cosmological expansion consistent with late-time acceleration.
+Accordingly, the Phase~II objective is not to derive the axiom from a local action, nor to claim a quantitative prediction for the observed cosmological constant.
+Instead, we ask three tightly scoped questions aligned with the manuscript claims:
+(i)~does enforcing the floor produce a stable nonzero residual diagnostic relative to an unconstrained baseline (Claim~C2.1);
+(ii)~is that residual robust under systematic sweeps in $\varepsilon$ and numerical controls that probe discretization and ultraviolet sensitivity (Claim~C2.2);
+and (iii)~can the resulting residual be carried through an end-to-end pipeline into a toy Friedmann--Robertson--Walker (FRW) background as a smooth constant-term contribution without generating instabilities or pathological evolution (Claim~C2.3).
 
-To address these questions, we construct a finite but extensible model of zero-point mode sums subject to a global cancellation constraint.
-The model is implemented numerically on discrete lattices with tunable parameters, allowing systematic sweeps over the number of modes, ultraviolet cutoff, and constraint strength.
-This approach does not assume supersymmetry, specific particle content, or exact boson–fermion pairing.
-Instead, it isolates the effect of constrained interference itself.
+To answer these questions we define a finite, extensible lattice-field testbed with tunable parameters and run controlled paired experiments and sweeps.
+The protocol is intentionally agnostic about supersymmetry, Standard Model particle content, and microscopic cancellation mechanisms.
+The focus is isolated and diagnostic: determine whether a global non-cancellation constraint yields a reproducible, well-behaved residual across nontrivial numerical variations in a minimal setting.
 
-We then couple the resulting residual vacuum energy to a flat Friedmann–Robertson–Walker (\FRW) cosmology.
-Interpreting the constrained residual as an effective cosmological constant $\Omega_{\Lambda,\mathrm{eff}}$, we compute its impact on the expansion rate and deceleration parameter.
-This step bridges the microscopic cancellation mechanism with macroscopic cosmological dynamics, without invoking additional assumptions about early-universe physics.
+For the end-to-end consistency test, we map the Phase~II residual into a constant-term contribution in a flat FRW module and compare trajectories with and without the mapped term.
+This embedding is explicitly a \emph{toy} consistency check: it is not a derived effective-field-theory matching procedure and is not used to fit cosmological datasets.
+Its purpose is to verify that the pipeline can interpret the Phase~II residual as a smooth background term without breaking numerical or conceptual bookkeeping; for standard FRW background treatments see, e.g., Refs.~\cite{dodelson2003modern,ryden2017intro}.
 
-Several important limitations are emphasized.
-We do not claim to identify the microscopic origin of the interference phase responsible for incomplete cancellation, nor do we connect the mechanism to specific Standard Model sectors.
-Furthermore, the \OA{} should be viewed as a global consistency condition rather than a modification of local quantum field dynamics.
-Its ultimate embedding in a fundamental theory—possibly involving new symmetries or super-selection rules—remains an open question.
+Several limitations are enforced throughout and stated explicitly later (Sec.~\ref{sec:discussion}).
+We do not claim a first-principles origin for the constraint, we do not infer a unique phase anchor from Phase~II alone, and we do not claim quantitative agreement with the observed cosmological constant.
+All results are bounded to the demonstrated behavior of the specified implementation under stated parameter ranges.
+Reproducibility is treated as a first-class requirement: figures correspond to tagged runs with recorded configurations, run identifiers, and an explicit run manifest.
 
-Within these bounds, the results presented here suggest that a small, positive cosmological constant can emerge naturally from constrained vacuum cancellation.
-If confirmed, this would reframe the cosmological constant problem not as a failure of quantum field theory, but as an indication that global consistency conditions play an essential role in regulating vacuum energy.
-
-This paper is organized as follows.
-In \Sec{sec:framework}, we introduce the constrained mode-sum framework and define the \OA{} precisely.
-\Sec{sec:modesum} presents the numerical implementation and residual scaling results.
-In \Sec{sec:cosmology}, we examine the cosmological implications of the residual vacuum energy in an \FRW{} background.
-We conclude in \Sec{sec:discussion} with a discussion of implications, limitations, and directions for future work.
+This paper is organized in claims-first form.
+Section~\ref{sec:framework} defines the model, the floor constraint, the residual diagnostic, and the toy FRW mapping.
+Sections~\ref{sec:claim_c21}--\ref{sec:claim_c23} present Claims~C2.1--C2.3 and their evidence.
+Section~\ref{sec:reproducibility} documents provenance and reproduction instructions, and Section~\ref{sec:discussion} states scope boundaries and limitations.
 
 % ============================================================
 % End of 01_introduction.tex

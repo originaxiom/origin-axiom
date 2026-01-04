@@ -1870,3 +1870,89 @@ Script:
 
 
 
+
+### 2026-01-03 — Phase 0–2 alignment pass begins (baseline freeze)
+
+Purpose:
+- Lock a reproducible baseline before governance alignment and Phase 2 rewrite.
+- Prevent “dark progress” by logging every change as we retrofit Phase (Phase 1/2) to comply with Phase 0.
+
+Plan (locked):
+1) Stage 0 — baseline freeze + tag
+2) Stage 1 — Phase 0 compactify (constitution: short, enforceable, referenced)
+3) Stage 2 — Phase 1 compliance polish (explicit non-claims, falsifiers, provenance)
+4) Stage 3 — Phase 2 paper rebuild + rewrite to match Phase 1 rigor (no ambiguity; strict scope)
+5) Stage 4 — continuity polish across logs / state docs
+
+Notes:
+- No code/physics changes in this entry; only provenance and workflow locking.
+
+### 2026-01-03 — Stage 1 (Rung 1.1): Phase 0 intro rewrite (constitution voice)
+
+- Rewrote Phase 0 introduction as a constitution-style contract: what Phase 0 is, what it is not, why governance is required, and the “no dark progress” rule.
+- No physics content added; strengthens scope boundaries for later phases.
+
+### 2026-01-03 — Stage 1 (Rung 1.1): Phase 0 intro rewrite (constitution voice)
+
+- Rewrote Phase 0 introduction as a constitution-style contract: what Phase 0 is, what it is not, why governance is required, and the “no dark progress” rule.
+- No physics content added; strengthens scope boundaries for later phases.
+
+
+
+### 2026-01-03 — Stage 1 (Rung 1.2): Phase 0 governance vocabulary rewrite
+
+- Rewrote Phase 0 "Axioms and definitions" into a minimal governance vocabulary: claim/evidence/artifacts, phase contracts, corridor/filter objects, provenance, failure modes, and falsifiers.
+- Explicitly scoped as governance-only (no physics postulates).
+
+### 2026-01-03 — Stage 1 (Rung 1.3): Rewrite Phase 0 corridor method (filters/corridors/history)
+
+- Rewrote corridor governance section to define filter artifacts, corridor artifacts, and append-only corridor history as binding governance objects.
+- Added explicit corridor update rules: no silent narrowing, evidence requirements, provenance requirements, and auditability conditions.
+
+
+### 2026-01-03 — Stage 1 (Rung 1.4): Rewrite Phase 0 phase contracts (claim taxonomy + binding checklist)
+
+- Rewrote Phase contracts section to define mandatory scope contracts, claim taxonomy, required claim structure, and an evidence binding rule.
+- Added a reviewer-facing Phase 0 compliance checklist as the lock condition for later phases.
+
+### 2026-01-03 — Stage 1 (Rung 1.5): Rewrite Phase 0 reproducibility contract (run bundles + provenance)
+
+- Rewrote reproducibility contract to define canonical artifacts vs regenerable outputs, required provenance fields, and a minimal run-bundle structure.
+- Added explicit failure-handling rule: if an artifact cannot be regenerated, dependent claims are marked broken until repaired and logged.
+
+
+### 2026-01-03 — Stage 1 (Rung 1.6): Rewrite Phase 0 falsifiability + failure modes (falsifiers required)
+
+- Rewrote falsifiability/failure section: every claim must list concrete falsifiers; phases must list failure modes; failures are recorded, quarantined, repaired, and re-validated.
+- Added a strict speculation policy to protect scope contracts (speculation must be labeled and cannot be used as evidence).
+
+### 2026-01-03 — Stage 1 (Rung 1.7): Compress Phase 0 candidate origins into non-normative note
+
+- Replaced candidate-origins discussion with a short non-normative hypothesis list.
+- Added explicit governance rule: future phases may test these routes only as bounded claims with evidence + falsifiers; cannot be cited as evidence.
+
+### 2026-01-03 — Stage 1 (Rung 1.8): Rewrite Phase 0 conclusion + compactification complete
+
+- Rewrote Phase 0 conclusion into a short constitution close summarizing governance rules (claims/evidence/provenance/falsifiers/corridor history).
+- Completed Phase 0 compactification pass (sections rewritten into enforceable, reviewer-facing contracts).
+
+### 2026-01-03 — Stage 1 (Rung 1.9): Phase 0 paper spine lock on ed (main.tex/abstract/appendix policy)
+
+- Rewrote Phase 0 main.tex into a clean, stable paper spine (no placeholders), with explicit separation between normative body and non-normative appendices.
+- Rewrote corrupted abstract into constitution-grade summary consistent with Phase 0 scope (governance only).
+- Ensured bibliography is non-empty by citing workflow reproducibility references in the reproducibility contract.
+- Added explicit non-normative disclaimers to each appendix to prevent scope confusion.
+
+
+
+### 2026-01-03 — Stage 1 (Rung 1.10): Phase 0 split into constitution + appendices
+
+- Split Phase 0 into two build targets:
+  - phase0/paper/main.tex (normative constitution)
+  - phase0/paper/appendices.tex (non-normative supporting appendices)
+- Added T1/lmodern for cleaner PDF text extraction under XeLaTeX.
+
+### 2026-01-03 — Stage 1 (Rung 1.10c): Remove final cross-ref in appendices; verify Phase 0 builds clean
+
+- Removed last dangling cross-reference in Phase 0 appendices (no undefined refs remain).
+- Verified bibliography keys and citation resolution under latexmk.
