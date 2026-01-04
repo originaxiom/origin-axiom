@@ -8,3 +8,6 @@
 *.out
 *.toc
 *.xdv
+
+# Built PDF (Phase 2 drafts)
+main.pdf
