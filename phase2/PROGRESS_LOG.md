@@ -89,3 +89,8 @@ Next:
 ## 2026-01-04 — P2-S6: Lock prep checklist + commit batching rule
 - Added `PHASE2_LOCK_CHECKLIST.md` to define a concrete “Phase 2 locked” bar (build, lint, provenance, claims discipline, hygiene).
 - Added an explicit commit policy: commit only per-rung / reproducibility enforcement / lock artifacts, not micro-edits.
+
+### 2026-01-04 - Phase 2 Lock Candidate (P2-L0): gate passing + paper compiles clean
+- Fixed LaTeX build failure in reproducibility section (text-mode arrow -> math-mode).
+- Phase 2 gate now passes: structural audit + provenance verification + paper lint + clean build.
+- Phase 2 paper PDF is now tracked in git for exact artifact reproducibility.
