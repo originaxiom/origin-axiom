@@ -55,3 +55,12 @@ Next:
 - Added `phase2/paper/PAPER_CONTRACT.md` defining the canonical Phase 2 claims-first spine and invariants.
 - Locked duplicate-prevention rules (unique section filenames, single appendix entry, run-manifest label).
 - No scientific content changed; structural guardrails only.
+
+## 2026-01-04 — Phase 2 Stage 1 (P2-S2): claims map hardening (CLAIMS → paper → artifacts)
+- Added `phase2/CLAIMS_TABLE.md` as the canonical claim-to-artifacts map (C2.1–C2.3).
+- Added verifier `scripts/phase2_verify_claims_map.sh` enforcing:
+  - required paper figures exist,
+  - run_id sidecars exist and are non-empty,
+  - meta.json exists per run_id and contains provenance hints,
+  - appendix run-manifest label is present.
+- No scientific content changed; auditability/traceability only.
