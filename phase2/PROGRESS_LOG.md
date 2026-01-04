@@ -80,3 +80,8 @@ Next:
 - Added `scripts/phase2_paper_lint.sh` to enforce: no TODO/FIXME/XXX/TBD in Phase 2 paper, and clean build log scan.
 - Rebuilt `phase2/paper/main.tex`; confirmed clean logs post-change.
 - No new claims; structure-only hygiene to prevent drift.
+
+## 2026-01-04 — P2-S5.2: Paper ↔ CLAIMS map pointer (claims-to-artifacts hard link)
+- Added a single canonical pointer in `paper/sections/06_reproducibility_and_provenance.tex` directing readers to `phase2/CLAIMS.md` for the Claim C2.1–C2.3 → artifact mapping.
+- Kept Appendix run manifest (`appendix/A_run_manifest.tex`) as the per-figure run_id index.
+- Rebuilt Phase 2 paper; no new scientific claims introduced.
