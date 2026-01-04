@@ -14,6 +14,7 @@ build_one () {
 build_one "phase0/paper" "main.tex"
 build_one "phase0/paper" "appendices.tex"
 build_one "phase1/paper" "main.tex"
+build_one "phase2/paper" "main.tex"
 
 echo
 echo "Done. PDFs should exist at:"
