@@ -1,7 +1,7 @@
 % === P2-S4b CLAIM STRUCTURE CHECKLIST (keep; delete only after Phase 2 lock) ===
 % File: phase2/paper/sections/03_claim_C2_1_existence.tex
 % Must contain: (i) \paragraph{Claim (C2.1).} with a single-sentence claim,
-% (ii) explicit figure pointer(s) (e.g. Fig.~A / Figs.~B--D / Fig.~E),
+% (ii) explicit figure pointer(s),
 % (iii) explicit pointer to Appendix run manifest (Appendix~\ref{app:run_manifest}),
 % (iv) explicit non-claims boundary sentence.
 % No new physics claims; structure/clarity only.
@@ -10,12 +10,11 @@
 % paper/sections/03_claim_C2_1_existence.tex
 
 \section{Claim C2.1: Existence under constraint}
-\label{sec:modesum}
 \label{sec:claim_c21}
 
 \paragraph{Claim (C2.1).}
-In the Phase~II lattice vacuum testbed, enforcing the Origin Axiom floor $|A|\ge\varepsilon$ produces a stable nonzero residual consistent with the intended ``no perfect cancellation'' principle, while remaining numerically well-behaved.
-Evidence is provided by a paired constrained vs.\ free run with identical initialization, summarized in Fig.~\ref{fig:mode_sum_residual}.
+In the Phase~II lattice vacuum testbed, enforcing the Origin Axiom floor $|A(t)|\ge\varepsilon$ yields a stable, nonzero \emph{implementation-defined residual diagnostic} relative to the matched unconstrained baseline, while remaining numerically well-behaved.
+Evidence is provided by a paired constrained vs.\ free run with identical initialization, summarized in Fig.~\ref{fig:mode_sum_residual}; exact provenance (run\_id(s), configuration, and scripts) is given in Appendix~\ref{app:run_manifest}.
 
 \subsection{Experimental protocol}
 We run two simulations with matched numerical settings and identical initialization (same lattice size, time step, integration length, and random seed where applicable):
@@ -23,31 +22,33 @@ We run two simulations with matched numerical settings and identical initializat
   \item \textbf{Free baseline:} standard evolution with no global constraint.
   \item \textbf{Constrained:} identical evolution with the hard floor $|A(t)|\ge\varepsilon$ enforced at each step via the uniform correction in Eq.~\eqref{eq:uniform_shift}.
 \end{enumerate}
-We record the global amplitude magnitude $|A(t)|$ over time, along with enforcement statistics (number of constraint hits and distribution of correction magnitudes).
+We record the global diagnostic amplitude magnitude $|A(t)|$ over time, along with enforcement statistics (number of constraint hits and distribution of correction magnitudes).
+All reported curves correspond to the tagged run artifacts referenced in Appendix~\ref{app:run_manifest}.
 
-\subsection{Result: the residual is nonzero, stable, and actively enforced}
+\subsection{Result: nonzero floor-sustained diagnostic and active enforcement}
 Figure~\ref{fig:mode_sum_residual} shows the time series of the global amplitude magnitude $|A(t)|$ for the matched pair.
-In the free baseline, $|A(t)|$ relaxes toward $0$ (within floating-point tolerance) as cancellations accumulate.
-In the constrained run, $|A(t)|$ is prevented from falling below $\varepsilon$ and instead saturates near the floor, with small bounded fluctuations.
+In the free baseline, $|A(t)|$ approaches near-zero values through cancellation (within floating-point tolerance in the representative configuration).
+In the constrained run, $|A(t)|$ is prevented from falling below $\varepsilon$ and instead remains near the floor, with bounded fluctuations.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.92\linewidth]{figA_mode_sum_residual.pdf}
   \caption{
   \textbf{Claim C2.1 evidence: existence under the non-cancellation floor.}
-  Global amplitude magnitude $|A(t)|$ in matched free vs.\ constrained vacuum runs.
-  The free baseline approaches near-zero amplitude via destructive interference, while the constrained run saturates at the imposed floor $|A|\approx\varepsilon$, demonstrating a stable nonzero residual.
+  Global diagnostic amplitude magnitude $|A(t)|$ in matched free vs.\ constrained vacuum runs.
+  The free baseline reaches near-zero amplitude via destructive interference, while the constrained run remains at the imposed floor $|A|\approx\varepsilon$, demonstrating a stable nonzero diagnostic under enforcement.
   }
   \label{fig:mode_sum_residual}
 \end{figure}
 
-Crucially, the axiom enforcement is not decorative.
-In the constrained run, the floor is hit repeatedly, and the correction~\eqref{eq:uniform_shift} is applied a large number of times across the run (order $10^5$ constraint hits in the representative Phase~II configuration).
-This confirms that the observed nonzero residual is causally attributable to enforcing~\eqref{eq:floor_constraint} rather than to a numerical artifact of the unconstrained dynamics.
+The nonzero diagnostic in the constrained run is actively maintained by the enforcement rule:
+the floor is violated by trial updates repeatedly, and the correction~\eqref{eq:uniform_shift} is applied many times across the run (as recorded by the constraint-hit counters).
+This verifies that the observed persistence of $|A(t)|\gtrsim\varepsilon$ is produced by enforcing~\eqref{eq:floor_constraint} in the specified implementation, rather than being an incidental feature of the unconstrained baseline or a plotting artifact.
 
 \subsection{Interpretation within Phase~II scope}
-Claim~C2.1 establishes the Phase~II starting point:
-the axiom can be enforced in a concrete lattice setting, and it produces exactly what it is supposed to produce---a persistent nonzero remainder when the unconstrained system would cancel toward $0$.
-This result does \emph{not} claim any physical identification of $\varepsilon$ with a fundamental constant; it only demonstrates that the axiom can be implemented as a stable constraint and that its effect is measurable and auditable.
+Claim~C2.1 establishes the Phase~II starting point: the global floor constraint can be enforced stably in a concrete lattice testbed, and it yields a persistent nonzero remainder in the diagnostic amplitude relative to a matched unconstrained baseline.
 
-Claim~C2.2 extends this by stress-testing the residual under systematic parameter variations, and Claim~C2.3 tests whether the residual can be coherently mapped into a toy FRW background without instability.
+\noindent\textbf{Non-claims boundary (C2.1).}
+This result does \emph{not} identify $\varepsilon$ with a physical constant, does \emph{not} establish a continuum-limit theorem or universality statement, and does \emph{not} assert a Standard-Model embedding; it is a statement about the demonstrated behavior of the Phase~II constrained update rule under paired-run comparison.
+
+Claim~C2.2 extends this by stress-testing the residual diagnostics under systematic parameter variations, and Claim~C2.3 tests whether the Phase~II residual can be embedded into a toy FRW background module under a fixed, transparent mapping without instability.

@@ -1,34 +1,34 @@
 
 # Phase 2 Structural Audit (P2-A1)
 
-- Generated: 2026-01-04 09:01:45 +0100
-- Git: 6611be9 (phase0-2-alignment)
+- Generated: 2026-01-04 12:18:30 +0100
+- Git: e1277e6 (phase0-2-alignment)
 - Repo: /Users/dri/Documents/Projects/origin-axiom
 
 ## 1) High-level inventory
 
 ```
 total 152
-drwxr-xr-x@ 23 dri  staff    736 Jan  4 08:59 .
-drwx------@ 16 dri  staff    512 Jan  4 09:01 ..
+drwxr-xr-x@ 23 dri  staff    736 Jan  4 11:52 .
+drwx------@ 16 dri  staff    512 Jan  4 11:52 ..
 -rw-r--r--@  1 dri  staff   6148 Jan  2 18:26 .DS_Store
 -rw-r--r--   1 dri  staff    366 Jan  4 08:07 .gitignore
 drwxr-xr-x  12 dri  staff    384 Jan  3 13:46 .snakemake
 -rw-r--r--   1 dri  staff   5823 Dec 31 14:40 APPROXIMATION_CONTRACT.md
 -rw-r--r--   1 dri  staff   3775 Dec 31 14:40 ASSUMPTIONS.md
--rw-r--r--@  1 dri  staff    191 Jan  4 09:01 AUDIT_REPORT.md
+-rw-r--r--@  1 dri  staff    191 Jan  4 12:18 AUDIT_REPORT.md
 -rw-r--r--   1 dri  staff  10019 Jan  4 08:54 CLAIMS.md
 -rw-r--r--   1 dri  staff   1386 Jan  4 08:16 CLAIMS_TABLE.md
 -rw-r--r--   1 dri  staff   2199 Jan  4 08:59 PHASE2_LOCK_CHECKLIST.md
 -rw-r--r--   1 dri  staff   2758 Dec 31 14:40 PHASE2_WORKFLOW_GUIDE.md
--rw-r--r--   1 dri  staff   6456 Jan  4 08:59 PROGRESS_LOG.md
+-rw-r--r--   1 dri  staff   6805 Jan  4 09:09 PROGRESS_LOG.md
 -rw-r--r--   1 dri  staff   1032 Dec 31 14:40 README.md
 -rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
 -rw-r--r--   1 dri  staff   3236 Dec 31 14:40 SCOPE.md
 drwxr-xr-x   5 dri  staff    160 Jan  4 06:59 _paper_backups
 drwxr-xr-x   5 dri  staff    160 Jan  2 19:40 config
 drwxr-xr-x   8 dri  staff    256 Jan  4 09:00 outputs
-drwxr-xr-x  19 dri  staff    608 Jan  4 08:57 paper
+drwxr-xr-x  12 dri  staff    384 Jan  4 11:52 paper
 -rw-r--r--   1 dri  staff    135 Jan  3 23:20 pyproject.toml
 drwx------   5 dri  staff    160 Jan  2 20:42 src
 drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
@@ -52,27 +52,20 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/appendix/A_run_manifest.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_frw_implications.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_framework_and_axiom.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_numerical_experiments.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/00_abstract.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_results_scaling.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_mode_sum_model.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.bbl
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/.DS_Store
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.pdf
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/macros.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/references.bib
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.toc
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.out
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/.gitignore
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/figures
@@ -81,11 +74,6 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/figures/figE_frw_comparison.pdf
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/figures/figD_scaling_modes.pdf
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/figures/figA_mode_sum_residual.pdf
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.fdb_latexmk
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.aux
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.log
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.fls
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.blg
 /Users/dri/Documents/Projects/origin-axiom/phase2/.DS_Store
 /Users/dri/Documents/Projects/origin-axiom/phase2/config
 /Users/dri/Documents/Projects/origin-axiom/phase2/config/phase2.yaml
@@ -393,14 +381,14 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 ## 4) TODO / FIXME / XXX / TBD sweep
 
 ```
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:393:## 4) TODO / FIXME / XXX / TBD sweep
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:381:## 4) TODO / FIXME / XXX / TBD sweep
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:80:- Added `scripts/phase2_paper_lint.sh` to enforce: no TODO/FIXME/XXX/TBD in Phase 2 paper, and clean build log scan.
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:68:% TODO (150--250 words):
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/macros.tex:117:\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/06_frw_implications.tex:4:% TODO: define mapping residual -> \OLeff via explicit parameter in config.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/08_conclusion.tex:2:% TODO
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/07_limitations_and_scope.tex:2:% TODO
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/08_conclusion.tex:2:% TODO
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/06_frw_implications.tex:4:% TODO: define mapping residual -> \OLeff via explicit parameter in config.
 ```
 
 ## 5) Paper build + structure
@@ -408,26 +396,19 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 ### 5.1 Paper directory listing
 
 ```
-total 232
-drwxr-xr-x  19 dri  staff    608 Jan  4 08:57 .
-drwxr-xr-x@ 23 dri  staff    736 Jan  4 08:59 ..
--rw-r--r--@  1 dri  staff   6148 Dec 31 14:10 .DS_Store
--rw-r--r--   1 dri  staff    128 Jan  4 08:13 .gitignore
--rw-r--r--   1 dri  staff   1537 Jan  4 08:14 PAPER_CONTRACT.md
-drwxr-xr-x   3 dri  staff     96 Jan  4 08:19 appendix
-drwxr-xr-x   7 dri  staff    224 Jan  2 19:40 figures
--rw-r--r--@  1 dri  staff   3456 Jan  4 08:52 macros.tex
--rw-r--r--   1 dri  staff   7703 Jan  4 08:57 main.aux
--rw-r--r--   1 dri  staff     49 Jan  4 08:25 main.bbl
--rw-r--r--   1 dri  staff    940 Jan  4 08:25 main.blg
--rw-r--r--   1 dri  staff  15605 Jan  4 08:57 main.fdb_latexmk
--rw-r--r--   1 dri  staff  17483 Jan  4 08:57 main.fls
--rw-r--r--   1 dri  staff  25687 Jan  4 08:57 main.log
--rw-r--r--   1 dri  staff   4800 Jan  4 08:57 main.out
--rw-r--r--@  1 dri  staff   3118 Jan  4 08:23 main.tex
--rw-r--r--   1 dri  staff      0 Jan  4 08:57 main.toc
--rw-r--r--@  1 dri  staff    102 Dec 31 14:40 references.bib
-drwxr-xr-x  17 dri  staff    544 Jan  4 08:57 sections
+total 928
+drwxr-xr-x  12 dri  staff     384 Jan  4 11:52 .
+drwxr-xr-x@ 23 dri  staff     736 Jan  4 11:52 ..
+-rw-r--r--@  1 dri  staff    6148 Dec 31 14:10 .DS_Store
+-rw-r--r--   1 dri  staff     128 Jan  4 08:13 .gitignore
+-rw-r--r--   1 dri  staff    1537 Jan  4 08:14 PAPER_CONTRACT.md
+drwxr-xr-x   3 dri  staff      96 Jan  4 08:19 appendix
+drwxr-xr-x   7 dri  staff     224 Jan  2 19:40 figures
+-rw-r--r--@  1 dri  staff    3763 Jan  4 11:36 macros.tex
+-rw-r--r--   1 dri  staff  444940 Jan  4 09:18 main.pdf
+-rw-r--r--@  1 dri  staff    3410 Jan  4 11:40 main.tex
+-rw-r--r--@  1 dri  staff    3013 Jan  4 11:26 references.bib
+drwxr-xr-x  12 dri  staff     384 Jan  4 11:52 sections
 ```
 
 ### 5.2 main.tex spine (inputs/includes)
@@ -440,11 +421,11 @@ No inputs/includes found (or different structure).
 
 ```
 labels:
-35
+26
 refs:
-24
+41
 cites:
-0
+4
 ```
 
 ### 5.4 Build attempt (latexmk) + hygiene checks
@@ -507,6 +488,9 @@ For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
@@ -546,259 +530,980 @@ ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./sections/00_abstract.tex
+
+LaTeX Warning: Reference `fig:mode_sum_residual' on page 1 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Reference `fig:scaling_epsilon' on page 1 undefined on input lin
+e 14.
+
+
+LaTeX Warning: Reference `fig:scaling_modes' on page 1 undefined on input line 
+14.
+
+
+LaTeX Warning: Reference `fig:frw_comparison' on page 1 undefined on input line
+ 15.
+
+)
 No file main.toc.
 (./sections/01_introduction.tex
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
-LaTeX Warning: Reference `sec:framework' on page 2 undefined on input line 50.
+LaTeX Warning: Citation `weinberg1989cc' on page 2 undefined on input line 16.
 
 
-LaTeX Warning: Reference `sec:modesum' on page 2 undefined on input line 51.
+LaTeX Warning: Citation `carroll2001cc' on page 2 undefined on input line 16.
 
 
-LaTeX Warning: Reference `sec:cosmology' on page 2 undefined on input line 52.
+LaTeX Warning: Citation `planck2018params' on page 2 undefined on input line 18
+.
 
 
-LaTeX Warning: Reference `sec:discussion' on page 2 undefined on input line 53.
+LaTeX Warning: Citation `weinberg1989cc' on page 2 undefined on input line 19.
+
+
+LaTeX Warning: Citation `carroll2001cc' on page 2 undefined on input line 19.
+
+
+LaTeX Warning: Citation `dodelson2003modern' on page 2 undefined on input line 
+44.
+
+
+LaTeX Warning: Citation `ryden2017intro' on page 2 undefined on input line 44.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 2 undefined on input line 46.
+
+
+
+[2]
+
+LaTeX Warning: Reference `sec:framework' on page 3 undefined on input line 52.
+
+
+LaTeX Warning: Reference `sec:claim_c21' on page 3 undefined on input line 53.
+
+
+LaTeX Warning: Reference `sec:claim_c23' on page 3 undefined on input line 53.
+
+
+LaTeX Warning: Reference `sec:reproducibility' on page 3 undefined on input lin
+e 54.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 3 undefined on input line 54.
 
 
 ) (./sections/02_model_definition.tex
-[2]
 
 LaTeX Warning: Reference `eq:uniform_shift' on page 3 undefined on input line 5
-8.
+0.
 
 
-LaTeX Warning: Reference `eq:uniform_shift' on page 3 undefined on input line 6
-9.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 87.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 87.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 87.
-
-
-[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]
+[3]
 
 LaTeX Warning: Reference `eq:floor_constraint' on page 4 undefined on input lin
-e 110.
+e 73.
 
 
-LaTeX Warning: Reference `sec:reproducibility' on page 4 undefined on input lin
-e 120.
+LaTeX Warning: Reference `eq:uniform_shift' on page 4 undefined on input line 8
+1.
 
 
-LaTeX Warning: Reference `app:run_manifest' on page 4 undefined on input line 1
-20.
+LaTeX Warning: Reference `eq:floor_constraint' on page 4 undefined on input lin
+e 97.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}]
+
+LaTeX Warning: Reference `eq:floor_constraint' on page 5 undefined on input lin
+e 124.
+
+
+LaTeX Warning: Reference `sec:reproducibility' on page 5 undefined on input lin
+e 134.
+
+
+LaTeX Warning: Reference `app:run_manifest' on page 5 undefined on input line 1
+34.
 
 ) (./sections/03_claim_C2_1_existence.tex
 
-LaTeX Warning: Reference `fig:mode_sum_residual' on page 4 undefined on input l
-ine 18.
-
-
-[4]
-
-LaTeX Warning: Reference `eq:uniform_shift' on page 5 undefined on input line 2
-4.
-
-
 LaTeX Warning: Reference `fig:mode_sum_residual' on page 5 undefined on input l
-ine 29.
+ine 17.
 
 
-LaTeX Warning: Reference `eq:uniform_shift' on page 5 undefined on input line 4
-5.
-
-
-LaTeX Warning: Reference `eq:floor_constraint' on page 5 undefined on input lin
-e 46.
-
-) (./sections/04_claim_C2_2_robustness.tex
-
-LaTeX Warning: Reference `fig:scaling_epsilon' on page 5 undefined on input lin
-e 18.
-
-
-LaTeX Warning: Reference `fig:scaling_modes' on page 5 undefined on input line 
-18.
-
-
-LaTeX Warning: Reference `sec:claim_c21' on page 5 undefined on input line 21.
+LaTeX Warning: Reference `app:run_manifest' on page 5 undefined on input line 1
+7.
 
 
 [5]
 
-LaTeX Warning: Reference `fig:scaling_epsilon' on page 6 undefined on input lin
-e 23.
+LaTeX Warning: Reference `eq:uniform_shift' on page 6 undefined on input line 2
+3.
 
 
-LaTeX Warning: Reference `fig:scaling_cutoff' on page 6 undefined on input line
- 24.
+LaTeX Warning: Reference `app:run_manifest' on page 6 undefined on input line 2
+6.
 
 
-LaTeX Warning: Reference `fig:scaling_cutoff' on page 6 undefined on input line
- 25.
+LaTeX Warning: Reference `fig:mode_sum_residual' on page 6 undefined on input l
+ine 29.
 
 
-LaTeX Warning: Reference `fig:scaling_modes' on page 6 undefined on input line 
-25.
+LaTeX Warning: Reference `eq:uniform_shift' on page 6 undefined on input line 4
+5.
 
 
-LaTeX Warning: Reference `eq:deltaE_def' on page 6 undefined on input line 27.
+LaTeX Warning: Reference `eq:floor_constraint' on page 6 undefined on input lin
+e 46.
 
 
-LaTeX Warning: Reference `fig:scaling_epsilon' on page 6 undefined on input lin
-e 42.
+[6 <./figures/figA_mode_sum_residual.pdf>])
+(./sections/04_claim_C2_2_robustness.tex
 
+LaTeX Warning: Reference `fig:scaling_epsilon' on page 7 undefined on input lin
+e 17.
 
-LaTeX Warning: Reference `fig:scaling_cutoff' on page 6 undefined on input line
- 57.
-
-
-[6 <../outputs/figures/figA_mode_sum_residual.pdf>]
 
 LaTeX Warning: Reference `fig:scaling_modes' on page 7 undefined on input line 
-72.
+17.
+
+
+LaTeX Warning: Reference `app:run_manifest' on page 7 undefined on input line 1
+7.
+
+
+LaTeX Warning: Reference `sec:claim_c21' on page 7 undefined on input line 20.
 
 
 LaTeX Warning: Reference `fig:scaling_epsilon' on page 7 undefined on input lin
-e 80.
+e 22.
 
 
 LaTeX Warning: Reference `fig:scaling_cutoff' on page 7 undefined on input line
- 83.
+ 23.
+
+
+LaTeX Warning: Reference `fig:scaling_cutoff' on page 7 undefined on input line
+ 24.
 
 
 LaTeX Warning: Reference `fig:scaling_modes' on page 7 undefined on input line 
-83.
+24.
 
 
-Overfull \hbox (21.48515pt too wide) in paragraph at lines 83--85
- []\T1/cmr/bx/n/10.95 (-20) (ii) The ob-served resid-ual is not a single-cutoff
- ar-ti-fact.[] \T1/cmr/m/n/10.95 (-20) Changes in the en-gine's UV/discretizati
-on
+LaTeX Warning: Reference `eq:deltaE_def' on page 7 undefined on input line 26.
+
+
+LaTeX Warning: Reference `fig:scaling_epsilon' on page 7 undefined on input lin
+e 41.
+
+
+LaTeX Warning: Reference `fig:scaling_cutoff' on page 7 undefined on input line
+ 56.
+
+
+LaTeX Warning: Reference `fig:scaling_modes' on page 7 undefined on input line 
+71.
+
+
+[7]
+
+LaTeX Warning: Reference `fig:scaling_epsilon' on page 8 undefined on input lin
+e 79.
+
+
+LaTeX Warning: Reference `fig:scaling_cutoff' on page 8 undefined on input line
+ 82.
+
+
+LaTeX Warning: Reference `fig:scaling_modes' on page 8 undefined on input line 
+82.
+
 ) (./sections/05_claim_C2_3_frw_viability.tex
 
-LaTeX Warning: Reference `fig:frw_comparison' on page 7 undefined on input line
+LaTeX Warning: Reference `fig:frw_comparison' on page 8 undefined on input line
  18.
 
 
-[7 <../outputs/figures/figB_scaling_epsilon.pdf>]
+LaTeX Warning: Reference `app:run_manifest' on page 8 undefined on input line 1
+8.
+
+
+[8 <./figures/figB_scaling_epsilon.pdf>]
+
+LaTeX Warning: Reference `eq:deltaE_def' on page 9 undefined on input line 21.
+
+
+[9 <./figures/figC_scaling_cutoff.pdf>]
+
+LaTeX Warning: Reference `fig:frw_comparison' on page 10 undefined on input lin
+e 59.
+
+
+[10 <./figures/figD_scaling_modes.pdf>]
+
+LaTeX Warning: Reference `app:run_manifest' on page 11 undefined on input line 
+74.
+
+) (./sections/06_reproducibility_and_provenance.tex
+
+LaTeX Warning: Reference `app:run_manifest' on page 11 undefined on input line 
+11.
+
+
+[11]
+
+LaTeX Warning: Reference `app:run_manifest' on page 12 undefined on input line 
+32.
+
+
+Overfull \hbox (20.172pt too wide) in paragraph at lines 41--42
+\T1/cmr/m/n/10.95 (-20) (ii) stages the re-quired fig-ures un-der \T1/cmtt/m/n/
+10.95 phase2/paper/figures/\T1/cmr/m/n/10.95 (-20) , and (iii) com-piles \T1/cm
+tt/m/n/10.95 phase2/paper/main.tex
+) (./sections/07_limitations_and_scope.tex
+[12]
+
+LaTeX Warning: Reference `sec:framework' on page 13 undefined on input line 11.
+
+
+
+[13]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
+(hyperref)                removing `math shift' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Omega' on input line 20.
+(hyperref)                removing `\theta' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 20.
+(hyperref)                removing `superscript' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 20.
+(hyperref)                removing `\star' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 20.
+(hyperref)                removing `math shift' on input line 35.
+
+
+LaTeX Warning: Reference `app:run_manifest' on page 14 undefined on input line 
+43.
+
+
+LaTeX Warning: Reference `sec:reproducibility' on page 14 undefined on input li
+ne 43.
+
+) (./sections/08_conclusion.tex
+[14]
+
+LaTeX Warning: Reference `sec:discussion' on page 15 undefined on input line 8.
+
+
+
+LaTeX Warning: Reference `fig:mode_sum_residual' on page 15 undefined on input 
+line 14.
+
+
+LaTeX Warning: Reference `fig:scaling_epsilon' on page 15 undefined on input li
+ne 17.
+
+
+LaTeX Warning: Reference `fig:scaling_modes' on page 15 undefined on input line
+ 17.
+
+
+LaTeX Warning: Reference `fig:frw_comparison' on page 15 undefined on input lin
+e 20.
+
+
+LaTeX Warning: Reference `sec:framework' on page 15 undefined on input line 28.
+
+
+
+LaTeX Warning: Reference `sec:reproducibility' on page 15 undefined on input li
+ne 32.
+
+
+LaTeX Warning: Reference `app:run_manifest' on page 15 undefined on input line 
+32.
+
+) (./appendix/A_run_manifest.tex
+Overfull \hbox (12.46654pt too wide) in paragraph at lines 10--21
+ [] 
+
+[15]) (./sections/A_provenance.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
-
-
-LaTeX Warning: Reference `eq:deltaE_def' on page 8 undefined on input line 21.
-
-
-[8 <../outputs/figures/figC_scaling_cutoff.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 46.
+(hyperref)                removing `\rightarrow' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 46.
+(hyperref)                removing `math shift' on input line 9.
 
 
-LaTeX Warning: Reference `fig:frw_comparison' on page 9 undefined on input line
- 58.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
 
 
-[9 <../outputs/figures/figD_scaling_modes.pdf>])
-(./sections/06_reproducibility_and_provenance.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 ...xttt{phase2/CLAIMS.md} (``Claim \rightarrow
-                                                   Artifact mapping''). The ...
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 9.
 
-!  ==> Fatal error occurred, no output PDF file produced!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+LaTeX Warning: Reference `app:run_manifest' on page 16 undefined on input line 
+20.
+
+
+[16])
+No file main.bbl.
+
+[17]
+[18 <./figures/figE_frw_comparison.pdf>] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
+cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm
+-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on main.pdf (18 pages, 488948 bytes).
 Transcript written on main.log.
 Latexmk: Getting log file 'main.log'
 Latexmk: Examining 'main.fls'
 Latexmk: Examining 'main.log'
 Latexmk: Missing input file 'main.toc' (or dependence on it) from following:
   No file main.toc.
-Latexmk: Summary of warnings from last run of *latex:
-  Latex failed to resolve 32 reference(s)
-Latexmk: ====Undefined refs and citations with line #s in .tex file:
-  Reference `sec:framework' on page 2 undefined on input line 50
-  Reference `sec:modesum' on page 2 undefined on input line 51
-  Reference `sec:cosmology' on page 2 undefined on input line 52
-  Reference `sec:discussion' on page 2 undefined on input line 53
-  Reference `sec:discussion' on page 2 undefined on input line 53
-  Reference `eq:uniform_shift' on page 3 undefined on input line 58
-  Reference `eq:uniform_shift' on page 3 undefined on input line 69
- And 25 more --- see log file 'main.log'
-Latexmk: Errors, so I did not complete making targets
-Collected error summary (may duplicate other messages):
-  pdflatex: Command for 'pdflatex' gave return code 1
-      Refer to 'main.log' and/or above output for details
+Latexmk: Missing bbl file 'main.bbl' in following:
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex main' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
 
-Latexmk: Sometimes, the -f option can be used to get latexmk
-  to try to force complete processing.
-  But normally, you will need to correct the file(s) that caused the
-  error, and then rerun latexmk.
-  In some cases, it is best to clean out generated files before rerunning
-  latexmk after you've corrected the files.
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025)
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "weinberg1989cc"
+(There was 1 warning)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.bbl
+  main.out
+  main.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (./macros.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./sections/00_abstract.tex) (./main.toc
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
+(./sections/01_introduction.tex
+[2]
+
+LaTeX Warning: Citation `weinberg1989cc' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `carroll2001cc' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `planck2018params' on page 3 undefined on input line 18
+.
+
+
+LaTeX Warning: Citation `weinberg1989cc' on page 3 undefined on input line 19.
+
+
+LaTeX Warning: Citation `carroll2001cc' on page 3 undefined on input line 19.
+
+
+LaTeX Warning: Citation `dodelson2003modern' on page 3 undefined on input line 
+44.
+
+
+LaTeX Warning: Citation `ryden2017intro' on page 3 undefined on input line 44.
+
+
+[3]) (./sections/02_model_definition.tex
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+[5{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}]) (./sections/03_claim_C2_1_existence.tex
+[6]) (./sections/04_claim_C2_2_robustness.tex
+[7]
+[8 <./figures/figA_mode_sum_residual.pdf>]
+[9 <./figures/figB_scaling_epsilon.pdf>])
+(./sections/05_claim_C2_3_frw_viability.tex
+[10 <./figures/figC_scaling_cutoff.pdf>]
+[11 <./figures/figD_scaling_modes.pdf>])
+(./sections/06_reproducibility_and_provenance.tex
+[12]
+Overfull \hbox (20.172pt too wide) in paragraph at lines 41--42
+\T1/cmr/m/n/10.95 (-20) (ii) stages the re-quired fig-ures un-der \T1/cmtt/m/n/
+10.95 phase2/paper/figures/\T1/cmr/m/n/10.95 (-20) , and (iii) com-piles \T1/cm
+tt/m/n/10.95 phase2/paper/main.tex
+) (./sections/07_limitations_and_scope.tex
+[13]
+[14]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\star' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 35.
+
+) (./sections/08_conclusion.tex
+[15]) (./appendix/A_run_manifest.tex
+Overfull \hbox (12.46654pt too wide) in paragraph at lines 10--21
+ [] 
+
+[16]) (./sections/A_provenance.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+[17]) (./main.bbl
+[18])
+[19]
+[20 <./figures/figE_frw_comparison.pdf>] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
+cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm
+-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on main.pdf (20 pages, 503388 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 2 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025)
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "weinberg1989cc"
+(There was 1 warning)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.toc
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (./macros.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./sections/00_abstract.tex) (./main.toc
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
+(./sections/01_introduction.tex
+[2]
+
+LaTeX Warning: Citation `weinberg1989cc' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `weinberg1989cc' on page 3 undefined on input line 19.
+
+
+[3]) (./sections/02_model_definition.tex
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+[5{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}]) (./sections/03_claim_C2_1_existence.tex
+[6]) (./sections/04_claim_C2_2_robustness.tex
+[7]
+[8 <./figures/figA_mode_sum_residual.pdf>]
+[9 <./figures/figB_scaling_epsilon.pdf>])
+(./sections/05_claim_C2_3_frw_viability.tex
+[10 <./figures/figC_scaling_cutoff.pdf>]
+[11 <./figures/figD_scaling_modes.pdf>])
+(./sections/06_reproducibility_and_provenance.tex
+[12]
+Overfull \hbox (20.172pt too wide) in paragraph at lines 41--42
+\T1/cmr/m/n/10.95 (-20) (ii) stages the re-quired fig-ures un-der \T1/cmtt/m/n/
+10.95 phase2/paper/figures/\T1/cmr/m/n/10.95 (-20) , and (iii) com-piles \T1/cm
+tt/m/n/10.95 phase2/paper/main.tex
+) (./sections/07_limitations_and_scope.tex
+[13]
+[14]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\star' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 35.
+
+) (./sections/08_conclusion.tex
+[15]) (./appendix/A_run_manifest.tex
+Overfull \hbox (12.46654pt too wide) in paragraph at lines 10--21
+ [] 
+
+[16]) (./sections/A_provenance.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+[17]) (./main.bbl
+[18])
+[19]
+[20 <./figures/figE_frw_comparison.pdf>] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
+cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm
+-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on main.pdf (20 pages, 503745 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 2 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `weinberg1989cc' on page 3 undefined on input line 16
+  Citation `weinberg1989cc' on page 3 undefined on input line 19
+Latexmk: All targets (main.pdf) are up-to-date
 ```
 
-Result: OK (no hygiene-pattern hits)
+Matches in main.log:
+
+```
+587:LaTeX Warning: Citation `weinberg1989cc' on page 3 undefined on input line 16.
+590:LaTeX Warning: Citation `weinberg1989cc' on page 3 undefined on input line 19.
+748:LaTeX Warning: There were undefined references.
+```
+
+Result: NOT clean (see matches above)
 
 ## 6) Claims discipline scan (generic)
 
 ```
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/observables.py:15:# Observables + plotting helpers (per-run artifacts)
-/Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:69:Phase 2 implements a deterministic, auditable rule to enforce the constraint. The exact enforcement mechanism is part of the model definition and is recorded by provenance metadata (constraint applied flag + details).
-/Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:104:- absence of numerical pathologies or “wild artifacts” in these sweeps.
-/Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:110:## Provenance & Reproducibility Contract
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:26:-rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:42:- OK: phase2/REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:64:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:66:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:144:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:161:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:167:/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:400:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:596:LaTeX Warning: Reference `sec:reproducibility' on page 4 undefined on input lin
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:740:(./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:745:                                                   Artifact mapping''). The ...
+/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:1:# Phase 2 Claims → Artifacts Map (P2-S2)
+/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:11:| Claim | Paper section | Figures (paper/figures) | Run-id sidecars (outputs/figures) | Run meta (outputs/runs) | Notes / Non-claims |
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:4:artifact-first, drift-resistant process.
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:12:1. **Artifacts are the source of truth.**
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:18:3. **Provenance is mandatory.**
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:67:- a `*.run_id.txt` file pointing to the provenance-complete run.
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:94:- explicitly state non-claims and limitations,
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:103:1. Lock MD documents (scope/claims/assumptions/provenance rules).
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:115:- A–E are reproducible and pinned,
 /Users/dri/Documents/Projects/origin-axiom/phase2/README.md:5:It is intentionally narrow, reproducible, and claim-disciplined.
 /Users/dri/Documents/Projects/origin-axiom/phase2/README.md:10:- `CLAIMS.md` — the only claims Phase 2 makes (and their artifact backing)
 /Users/dri/Documents/Projects/origin-axiom/phase2/README.md:12:- `REPRODUCIBILITY.md` — provenance rules and what “locked” means
 /Users/dri/Documents/Projects/origin-axiom/phase2/README.md:30:which points to a provenance-complete run directory:
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/observables.py:15:# Observables + plotting helpers (per-run artifacts)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:4:**canonical, reproducible artifacts**.
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:6:**Rule:** No claim is valid unless it is backed by at least one canonical artifact listed
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:15:## Canonical artifacts (A–E)
@@ -813,6 +1518,45 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:202:**Provenance pointer**
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:251:## Explicit Non-Claims (binding)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:276:## Claim → Artifact mapping (Phase 2 canonical)
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:26:-rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:42:- OK: phase2/REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:59:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:61:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:132:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:149:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:155:/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:388:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:594:LaTeX Warning: Reference `sec:reproducibility' on page 3 undefined on input lin
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:640:LaTeX Warning: Reference `sec:reproducibility' on page 5 undefined on input lin
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:767:) (./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:816:LaTeX Warning: Reference `sec:reproducibility' on page 14 undefined on input li
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:846:LaTeX Warning: Reference `sec:reproducibility' on page 15 undefined on input li
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:857:[15]) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1113:(./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1147:[16]) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1369:(./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1403:[16]) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:19:Phase 2 is a *discipline phase*: it tightens definitions, provenance, and robustness
+/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:37:- Strict reproducibility: a single YAML config, Snakemake as the canonical runner, and
+/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:38:  complete run provenance.
+/Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile:4:# Canonical rule: one rule -> one canonical artifact (figure PDF).
+/Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile:420:        runs/<run_id>/... (full provenance for each canonical figure)
+/Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:69:Phase 2 implements a deterministic, auditable rule to enforce the constraint. The exact enforcement mechanism is part of the model definition and is recorded by provenance metadata (constraint applied flag + details).
+/Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:104:- absence of numerical pathologies or “wild artifacts” in these sweeps.
+/Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:110:## Provenance & Reproducibility Contract
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:10:  - sections: 01..08 + 06_reproducibility_and_provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:11:  - appendix: `appendix/A_run_manifest` and `sections/A_provenance`
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:13:## B) Provenance integrity (Claim → Figure → run_id → run folder)
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:14:- [ ] `bash scripts/phase2_verify_provenance.sh` passes.
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:30:  - explicit non-claims boundary sentence
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:31:- [ ] `phase2/CLAIMS.md` is the canonical claim→artifact map (paper points to it).
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:35:- [ ] Paper build artifacts ignored (except policy choice for main.pdf).
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:40:  2) A script/checker added that enforces reproducibility (lint, provenance, build).
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:41:  3) A lock/release artifact added (checklist, bundle index, tag instructions).
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:3:\section{Limitations and non-claims}
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:7:Its purpose is to lock a reproducible toy pipeline and to establish three auditable claims (C2.1--C2.3), not to assert a completed fundamental theory.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:8:To keep the work intellectually honest and arXiv-appropriate, we enumerate limitations and explicit non-claims.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:16:The lattice vacuum sector and the FRW mapping are toy realizations with a fixed code-unit normalization used for internal consistency and reproducibility.
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:7:- Scope and claims discipline established (SCOPE/CLAIMS/ASSUMPTIONS + reproducibility contract).
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:8:- Next: implement Phase 2 computational pipeline (mode-sum + sweeps + FRW wrapper) and canonical artifacts A–E.
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:15:- Established provenance per run:
@@ -830,13 +1574,25 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:85:- Added a single canonical pointer in `paper/sections/06_reproducibility_and_provenance.tex` directing readers to `phase2/CLAIMS.md` for the Claim C2.1–C2.3 → artifact mapping.
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:90:- Added `PHASE2_LOCK_CHECKLIST.md` to define a concrete “Phase 2 locked” bar (build, lint, provenance, claims discipline, hygiene).
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:91:- Added an explicit commit policy: commit only per-rung / reproducibility enforcement / lock artifacts, not micro-edits.
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:4:artifact-first, drift-resistant process.
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:12:1. **Artifacts are the source of truth.**
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:18:3. **Provenance is mandatory.**
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:67:- a `*.run_id.txt` file pointing to the provenance-complete run.
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:94:- explicitly state non-claims and limitations,
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:103:1. Lock MD documents (scope/claims/assumptions/provenance rules).
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:115:- A–E are reproducible and pinned,
+/Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:94:- Fixed LaTeX build failure in reproducibility section (text-mode arrow -> math-mode).
+/Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:95:- Phase 2 gate now passes: structural audit + provenance verification + paper lint + clean build.
+/Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:96:- Phase 2 paper PDF is now tracked in git for exact artifact reproducibility.
+/Users/dri/Documents/Projects/origin-axiom/phase2/config/phase2.yaml:163:# Paper artifact mapping (for sanity checks)
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:70:% - Mention numerical sweeps (epsilon / cutoff / modes) + reproducibility (Snakemake, per-run provenance).
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:92:\input{sections/A_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/main.tex:18:\input{sections/06_reproducibility_and_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/observables.py:15:# Observables + plotting helpers (per-run artifacts)
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:4:Phase 2 is a *claims-first* paper whose only goal is to establish three auditable claims (C2.1–C2.3) with strict provenance. No new “Phase 3+” claims may enter Phase 2.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:13:7. 06_reproducibility_and_provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:18:- sections/A_provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:29:  - A bounded list of evidence artifacts (figures + run_ids)
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:30:  - A “Non-claims / limits” note (what is *not* asserted)
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:32:## Provenance rule
+/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate 2.json:24:    "provenance_present": true
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/scripts/certify_binding.py:103:        "provenance_present": True,
+/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/paper_bundle/config/phase2.yaml:160:# Paper artifact mapping (for sanity checks)
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:92:\input{sections/06_reproducibility_and_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:101:\input{sections/A_provenance}
 /Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:1:# Phase 2 — Reproducibility and Provenance
 /Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:3:This document defines the **reproducibility guarantees, provenance tracking, and execution
 /Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:6:**Rule:** No scientific claim is valid unless it is backed by a fully reproducible artifact
@@ -847,90 +1603,99 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:85:4. Updating `CLAIMS.md` provenance pointers if any file paths changed.
 /Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:94:- `snakemake -c 1 all` reproduces **exactly** the canonical figures A–E,
 /Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:108:- `REPRODUCIBILITY.md`
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:10:  - sections: 01..08 + 06_reproducibility_and_provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:11:  - appendix: `appendix/A_run_manifest` and `sections/A_provenance`
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:13:## B) Provenance integrity (Claim → Figure → run_id → run folder)
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:14:- [ ] `bash scripts/phase2_verify_provenance.sh` passes.
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:30:  - explicit non-claims boundary sentence
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:31:- [ ] `phase2/CLAIMS.md` is the canonical claim→artifact map (paper points to it).
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:35:- [ ] Paper build artifacts ignored (except policy choice for main.pdf).
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:40:  2) A script/checker added that enforces reproducibility (lint, provenance, build).
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:41:  3) A lock/release artifact added (checklist, bundle index, tag instructions).
-/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:19:Phase 2 is a *discipline phase*: it tightens definitions, provenance, and robustness
-/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:37:- Strict reproducibility: a single YAML config, Snakemake as the canonical runner, and
-/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:38:  complete run provenance.
-/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:1:# Phase 2 Claims → Artifacts Map (P2-S2)
-/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:11:| Claim | Paper section | Figures (paper/figures) | Run-id sidecars (outputs/figures) | Run meta (outputs/runs) | Notes / Non-claims |
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/utils_meta.py:39:# Git provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile:4:# Canonical rule: one rule -> one canonical artifact (figure PDF).
-/Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile:420:        runs/<run_id>/... (full provenance for each canonical figure)
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/observables.py:15:# Observables + plotting helpers (per-run artifacts)
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/scripts/certify_binding.py:103:        "provenance_present": True,
-/Users/dri/Documents/Projects/origin-axiom/phase2/config/phase2.yaml:163:# Paper artifact mapping (for sanity checks)
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:3:\section{Limitations and non-claims}
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:7:Its purpose is to lock a reproducible toy pipeline and to establish three auditable claims (C2.1--C2.3), not to assert a completed fundamental theory.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:8:To keep the work intellectually honest and arXiv-appropriate, we enumerate limitations and explicit non-claims.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:16:The lattice vacuum sector and the FRW mapping are toy realizations with a fixed code-unit normalization used for internal consistency and reproducibility.
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/mode_model.py:304:    Keep this stable: it is part of the reproducibility contract.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:70:% - Mention numerical sweeps (epsilon / cutoff / modes) + reproducibility (Snakemake, per-run provenance).
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:92:\input{sections/A_provenance}
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/main.tex:18:\input{sections/06_reproducibility_and_provenance}
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_mode_sum.py:26:# Direct invocation is allowed for debugging, but canonical artifacts
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_sweep.py:83:    # Setup run + provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:4:Phase 2 is a *claims-first* paper whose only goal is to establish three auditable claims (C2.1–C2.3) with strict provenance. No new “Phase 3+” claims may enter Phase 2.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:13:7. 06_reproducibility_and_provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:18:- sections/A_provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:29:  - A bounded list of evidence artifacts (figures + run_ids)
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:30:  - A “Non-claims / limits” note (what is *not* asserted)
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:32:## Provenance rule
-/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate 2.json:24:    "provenance_present": true
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:81:\input{sections/06_reproducibility_and_provenance}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:85:% Appendix (computational provenance)
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:91:\input{sections/A_provenance}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:6:% (iv) explicit non-claims boundary sentence.
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:1:\section{Computational Provenance (Appendix)}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:6:% (iv) explicit non-claims boundary sentence.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:46:This confirms that the observed nonzero residual is causally attributable to enforcing~\eqref{eq:floor_constraint} rather than to a numerical artifact of the unconstrained dynamics.
+/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate.json:24:    "provenance_present": true
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_mode_sum.py:26:# Direct invocation is allowed for debugging, but canonical artifacts
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:6:% (iv) explicit non-claims boundary sentence.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:18:Evidence is provided by the FRW comparison in Fig.~\ref{fig:frw_comparison}; exact run provenance is given by Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:21:The vacuum module produces a residual proxy $\Delta E(\theta)$ (Eq.~\eqref{eq:deltaE_def}) or an implementation-defined equivalent recorded in the Phase~II run artifacts.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:72:\noindent\textbf{Non-claims boundary (C2.3).}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:74:It supports only the bounded statement that the Phase~II residual proxy can be embedded into the configured FRW background module as a constant contribution without inducing numerical or qualitative pathologies, with full provenance given by Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/utils_meta.py:39:# Git provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex:1:% 06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_sweep.py:83:    # Setup run + provenance
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:7:% (v) a single sentence pointing to provenance: outputs/figures + Appendix run manifest.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:18:The intent is reproducibility: every quantity referenced by Claims~C2.1--C2.3 is defined here, with implementation details fixed by the Phase~II reference code and configuration.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:120:Precise artifact provenance (scripts, configs, run IDs, and figure build rules) is documented in Sec.~\ref{sec:reproducibility} and Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:17:The intent is reproducibility: every quantity referenced by Claims~C2.1--C2.3 is defined here, while the remaining microphysical and numerical choices (integrator, potential, and update schedule) are treated as fixed by the Phase~II reference implementation and configuration.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:134:Precise artifact provenance (scripts, configs, run IDs, and figure build rules) is documented in Sec.~\ref{sec:reproducibility} and Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:6:% (iv) explicit non-claims boundary sentence.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:17:Evidence is provided by a paired constrained vs.\ free run with identical initialization, summarized in Fig.~\ref{fig:mode_sum_residual}; exact provenance (run\_id(s), configuration, and scripts) is given in Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:26:All reported curves correspond to the tagged run artifacts referenced in Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:46:This verifies that the observed persistence of $|A(t)|\gtrsim\varepsilon$ is produced by enforcing~\eqref{eq:floor_constraint} in the specified implementation, rather than being an incidental feature of the unconstrained baseline or a plotting artifact.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:51:\noindent\textbf{Non-claims boundary (C2.1).}
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/mode_model.py:304:    Keep this stable: it is part of the reproducibility contract.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/01_introduction.tex:26:The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:10:All figures presented here are generated automatically via the Phase~2 workflow and are reproducible from the accompanying configuration and run logs.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:59:This saturation confirms that the residual is not a finite-size artifact and persists in the large-$N$ limit of the finite ensemble.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:1:% paper/sections/06_reproducibility_and_provenance.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:3:\section{Reproducibility and provenance}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:4:\label{sec:reproducibility}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:6:\noindent\textbf{Canonical mapping.} A compact claim-to-artifact map (Claim C2.1--C2.3 $\rightarrow$ figures, run\_id sidecars, and run folders) is maintained in \texttt{phase2/CLAIMS.md} (``Claim \rightarrow Artifact mapping''). The Appendix run manifest (Appendix~\ref{app:run_manifest}) provides the per-figure run\_id pointers.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:8:Phase~II is designed to be reproducible from a clean checkout: every figure in this paper is generated from version-controlled code, explicit configuration, and logged run artifacts.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:9:This section specifies (i) where the authoritative artifacts live, (ii) how figures are built, and (iii) how a third party can reproduce the full PDF.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:11:\subsection{Repository layout and authoritative artifacts}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:17:  \item \texttt{outputs/}: generated data and figures (treated as build artifacts).
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:20:Figures included in the manuscript are copied or symlinked into \texttt{paper/figures/} for arXiv packaging, with provenance pointers to the original build products in \texttt{outputs/figures/}.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:23:Each figure in the main text corresponds to a tagged run or sweep whose provenance is recorded in a run manifest:
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:32:\subsection{Build system and exact reproduction}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:47:All data products necessary to reproduce the plots are generated by the build graph and are either:
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:49:  \item stored under \texttt{outputs/} as build artifacts, or
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/01_introduction.tex:26:The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex:1:% 06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:6:Phase~II is designed to be reproducible from a clean repository checkout: every figure in this paper is generated from version-controlled code, explicit configuration, and logged run artifacts.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:7:This section specifies (i) where the authoritative artifacts live, (ii) how figures are built, and (iii) how a third party can reproduce the full PDF.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:9:\subsection{Canonical claim-to-artifact mapping}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:10:A compact claim-to-artifact index (Claims~C2.1--C2.3 $\rightarrow$ figures, \texttt{run\_id} sidecars, and run folders) is maintained in \texttt{phase2/CLAIMS.md}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:12:These two files are the intended audit anchors: starting from any claim or figure, a reader can locate the corresponding run signature and regenerate the artifact.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:14:\subsection{Repository layout and authoritative artifacts}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:20:  \item \texttt{outputs/}: generated data, run folders, and figures (treated as build artifacts).
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:23:Figures included in the manuscript are staged under \texttt{phase2/paper/figures/} for arXiv-style packaging, with provenance pointers back to the canonical build products under \texttt{outputs/figures/}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:26:Each figure in the main text corresponds to a tagged run or sweep whose provenance is recorded in a run manifest:
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:35:\subsection{Build system and exact reproduction}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:51:All data products necessary to reproduce the plots are either:
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:53:  \item stored under \texttt{outputs/} as build artifacts, or
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:8:The purpose of this section is to state precisely what these claims do \emph{not} imply, what would falsify them, and what additional work is required before any physical interpretation can be elevated beyond the present scope.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:40:\subsection{What would falsify the Phase~II claims}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:43:  \item \textbf{Non-reproducibility:} inability to regenerate the figures and PDF from the recorded run identifiers and scripts (Appendix~\ref{app:run_manifest} and Sec.~\ref{sec:reproducibility}).
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:52:  \item \textbf{Mechanism upgrade:} a candidate local formulation or symmetry principle whose constrained dynamics reproduce (or justify) the operational floor.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:53:  \item \textbf{Universality upgrade:} controlled convergence/refinement studies and cross-implementation checks showing that the residual behavior is not an artifact of a particular discretization or integrator.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:58:Phase~II should therefore be read as a rigorous \emph{engineering and auditing milestone}: it demonstrates a stable constrained-cancellation mechanism and a reproducible pipeline that can be independently verified.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:27:The core contribution of Phase~II is therefore methodological and reproducibility-focused:
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:31:and documented with end-to-end provenance so each figure can be traced to tagged runs and regenerated from a clean checkout.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:32:Reproduction instructions and repository structure are stated in Sec.~\ref{sec:reproducibility}, and per-figure run identifiers are indexed in Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:36:What it provides is a concrete, checkable baseline: a fully audited toy pipeline in which ``no perfect cancellation'' is imposed as a global constraint and its consequences can be measured, reproduced, and scrutinized.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:6:% (iv) explicit non-claims boundary sentence.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:52:  The residual remains well-behaved and changes in a structured manner, indicating that the observed remainder is not a fragile artifact of a single cutoff choice.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:82:\paragraph{(ii) The observed residual is not a single-cutoff artifact.}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:84:In the explored regime, the induced effect remains small (percent-level modulation in the relevant scan summaries), supporting the claim that the pipeline is stable and reproducible rather than parameter-explosive.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_numerical_experiments.tex:10:All figures presented here are generated automatically via the Phase~2 workflow and are reproducible from the accompanying configuration and run logs.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_numerical_experiments.tex:59:This saturation confirms that the residual is not a finite-size artifact and persists in the large-$N$ limit of the finite ensemble.
-/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate.json:24:    "provenance_present": true
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:1:\section{Computational Provenance (Appendix)}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:26:The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:10:All figures presented here are generated automatically via the Phase~2 workflow and are reproducible from the accompanying configuration and run logs.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:59:This saturation confirms that the residual is not a finite-size artifact and persists in the large-$N$ limit of the finite ensemble.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/00_abstract.tex:4:We report Phase~II of the \emph{Origin Axiom} program: a reproducible, claim-audited demonstration that a strict global \emph{non-cancellation floor} can be threaded through a minimal chain linking (i) a flavor-inspired phase anchor, (ii) a toy vacuum sector, and (iii) a toy cosmological background, without inducing numerical instability or uncontrolled dynamics.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/00_abstract.tex:15:We emphasize scope and falsifiability: Phase~II does not derive the axiom from a local action, does not claim a quantitative prediction for the observed cosmological constant, and treats the models as minimal testbeds. All figures are generated from tagged runs with explicit scripts, configurations, and run manifests, enabling full third-party reproduction.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:17:Evidence is provided by the sweep summaries in Figs.~\ref{fig:scaling_epsilon}--\ref{fig:scaling_modes}; exact run provenance is given by Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:51:  The residual remains well-behaved and changes in a structured manner, indicating that the observed remainder is not a fragile artifact of a single cutoff choice.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:85:\noindent\textbf{Non-claims boundary (C2.2).}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:87:They only support the bounded statement that the constrained implementation remains stable and produces a reproducible, smoothly varying residual proxy under the stated numerical controls.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:1:% paper/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:3:\section{Computational provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:4:\label{app:provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:7:Its purpose is narrow and concrete: enable an independent reader to (i) map each figure to the exact run artifacts that produced it, (ii) identify the precise code state and configuration used, and (iii) regenerate the outputs from a clean repository checkout.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:22:\subsection{Run identifiers and artifact structure}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:29:  \item \texttt{meta.json}: provenance metadata (version + configuration + timestamps);
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:34:\paragraph{Minimum required provenance fields.}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:50:The sidecar therefore provides a direct, file-level link from the PDF figure to the authoritative run artifacts under \texttt{outputs/runs/}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:66:\subsection{Scope of reproducibility}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:68:They ensure that the numerical evidence presented is transparent, auditable, and reproducible.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:40:The focus is isolated and diagnostic: determine whether a global non-cancellation constraint yields a reproducible, well-behaved residual across nontrivial numerical variations in a minimal setting.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:49:Reproducibility is treated as a first-class requirement: figures correspond to tagged runs with recorded configurations, run identifiers, and an explicit run manifest.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:54:Section~\ref{sec:reproducibility} documents provenance and reproduction instructions, and Section~\ref{sec:discussion} states scope boundaries and limitations.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/00_abstract.tex:4:We present Phase~II of the Origin Axiom program as a bounded, reproducible test of a single operational hypothesis: imposing a strict global \emph{non-cancellation floor} on a vacuum-like numerical system induces an auditable residual, and that residual can be carried through a minimal end-to-end pipeline without numerical pathology.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/appendix/A_run_manifest.tex:12:Figure & Artifact stem & run\_id & git \\
-/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/paper_bundle/config/phase2.yaml:160:# Paper artifact mapping (for sanity checks)
 ```
 
 ## 7) Git status snapshot (informational)
 
 ```
  M phase2/AUDIT_REPORT.md
-?? scripts/phase2_gate.sh
+ M phase2/paper/macros.tex
+ M phase2/paper/main.pdf
+ M phase2/paper/main.tex
+ M phase2/paper/references.bib
+ M phase2/paper/sections/00_abstract.tex
+ M phase2/paper/sections/01_introduction.tex
+ D phase2/paper/sections/02_framework_and_axiom.tex
+ M phase2/paper/sections/02_model_definition.tex
+ M phase2/paper/sections/03_claim_C2_1_existence.tex
+ D phase2/paper/sections/03_mode_sum_model.tex
+ M phase2/paper/sections/04_claim_C2_2_robustness.tex
+ D phase2/paper/sections/04_numerical_experiments.tex
+ M phase2/paper/sections/05_claim_C2_3_frw_viability.tex
+ D phase2/paper/sections/05_results_scaling.tex
+ D phase2/paper/sections/06_frw_implications.tex
+ M phase2/paper/sections/06_reproducibility_and_provenance.tex
+ M phase2/paper/sections/07_limitations_and_scope.tex
+ M phase2/paper/sections/08_conclusion.tex
+ M phase2/paper/sections/A_provenance.tex
 ```
 
 ## 8) Next recommended Phase 2 rungs (after audit)

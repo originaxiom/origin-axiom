@@ -3,50 +3,74 @@
 \section{Reproducibility and provenance}
 \label{sec:reproducibility}
 
-\noindent\textbf{Canonical mapping.} A compact claim-to-artifact map (Claim C2.1--C2.3 $\rightarrow$ figures, run\_id sidecars, and run folders) is maintained in \texttt{phase2/CLAIMS.md} (``Claim $\rightarrow$ Artifact mapping''). The Appendix run manifest (Appendix~\ref{app:run_manifest}) provides the per-figure run\_id pointers.
+Phase~II is designed to be reproducible from a clean repository checkout in the following operational sense:
+every figure included in this paper is generated from version-controlled code and an explicit configuration,
+and each figure is traceable to recorded run artifacts (including code-state identifiers) sufficient for independent auditing and regeneration.
+This section specifies (i) what is treated as authoritative, (ii) how artifacts are traced from the manuscript back to runs, and (iii) how a third party rebuilds the figures and the PDF.
 
-Phase~II is designed to be reproducible from a clean checkout: every figure in this paper is generated from version-controlled code, explicit configuration, and logged run artifacts.
-This section specifies (i) where the authoritative artifacts live, (ii) how figures are built, and (iii) how a third party can reproduce the full PDF.
+\subsection{Canonical claim-to-artifact mapping}
+A compact claim-to-artifact index (Claims~C2.1--C2.3 $\rightarrow$ figure files, \texttt{run\_id} sidecars, and run folders) is maintained in \texttt{phase2/CLAIMS.md}.
+For each main-text figure, the Appendix run manifest (Appendix~\ref{app:run_manifest}) provides the \texttt{run\_id} pointer(s) and the primary script/config entry point(s).
+These two files are the intended audit anchors: starting from any claim or figure, a reader can locate the corresponding run signature and reproduce (or at minimum verify) the artifact.
 
 \subsection{Repository layout and authoritative artifacts}
 The Phase~II deliverable is structured as:
 \begin{itemize}
-  \item \texttt{paper/}: the \LaTeX\ source of the manuscript.
-  \item \texttt{scripts/}: the executables that generate intermediate data products and figures.
-  \item \texttt{config/}: YAML configuration files specifying all numerical parameters used in the runs.
-  \item \texttt{outputs/}: generated data and figures (treated as build artifacts).
-  \item \texttt{Snakefile}: the build graph used to regenerate figures and compile the PDF.
+  \item \texttt{phase2/paper/}: the \LaTeX\ sources of the manuscript and submission staging directory.
+  \item \texttt{scripts/}: executable entry points that generate intermediate data products and figures.
+  \item \texttt{config/}: configuration files specifying numerical parameters used in the runs.
+  \item \texttt{outputs/}: generated run folders, intermediate data products, and canonical figures (treated as build artifacts).
+  \item \texttt{Snakefile}: the deterministic build graph used to regenerate figures and compile the PDF.
 \end{itemize}
-Figures included in the manuscript are copied or symlinked into \texttt{paper/figures/} for arXiv packaging, with provenance pointers to the original build products in \texttt{outputs/figures/}.
 
-\subsection{Figure-to-run mapping and the run manifest}
-Each figure in the main text corresponds to a tagged run or sweep whose provenance is recorded in a run manifest:
+\noindent\textbf{Authoritative vs.\ staged.}
+The canonical computational products live under \texttt{outputs/} (not under the paper directory).
+Figures included in the manuscript are staged under \texttt{phase2/paper/figures/} for arXiv-style packaging, and each staged figure is paired with a \texttt{run\_id} pointer that links back to the authoritative run artifacts under \texttt{outputs/}.
+
+\subsection{Figure-to-run mapping, run folders, and code-state identification}
+Each figure in the main text corresponds to a tagged run or sweep whose provenance is recorded in Appendix~\ref{app:run_manifest}:
 \begin{itemize}
   \item Fig.~A: representative paired free vs.\ constrained vacuum run (Claim~C2.1).
   \item Figs.~B--D: systematic sweeps in $\varepsilon$ and discretization/UV controls (Claim~C2.2).
   \item Fig.~E: FRW trajectory comparison driven by the anchored residual (Claim~C2.3).
 \end{itemize}
-The authoritative mapping from figure filenames to run identifiers, configuration hashes, and script entry points is provided in Appendix~\ref{app:run_manifest}.
-This is the primary audit anchor: a reader can trace every plotted curve to a specific run signature.
+
+Each staged manuscript figure has an associated sidecar file
+\begin{verbatim}
+phase2/paper/figures/<figure_name>.run_id.txt
+\end{verbatim}
+containing the \texttt{run\_id} (or list of \texttt{run\_id}s, for sweeps) used to generate that figure.
+A reader can then inspect the corresponding run folder(s) under
+\begin{verbatim}
+outputs/runs/<run_id>/
+\end{verbatim}
+which include machine-readable metadata (e.g.\ \texttt{meta.json}) recording at minimum the code state (Git commit hash),
+the configuration used, and execution details needed for auditing (including seeds where applicable).
+This establishes the concrete audit chain:
+\emph{paper figure} $\rightarrow$ \emph{run\_id sidecar} $\rightarrow$ \emph{run folder} $\rightarrow$ \emph{recorded code/config state}.
 
 \subsection{Build system and exact reproduction}
 The reference build uses a deterministic build graph (Snakemake) and \texttt{latexmk} for compilation.
-From the Phase~II root directory, the following commands rebuild all figures and compile the manuscript:
+From the repository root, the Phase~II build target regenerates canonical figures and compiles the manuscript:
 \begin{verbatim}
 snakemake -j 1 paper
 \end{verbatim}
-This target (i) executes the scripts needed to generate the canonical figures in \texttt{outputs/figures/}, (ii) stages the required figures for arXiv submission under \texttt{paper/figures/}, and (iii) compiles \texttt{paper/main.tex} to \texttt{paper/main.pdf}.
-If the repository is cloned on a new machine, the environment requirements (Python version, required packages, and \LaTeX\ toolchain) are specified alongside the Phase~II setup documentation (see repository \texttt{README} and/or environment files).
+This target (i) executes the scripts needed to generate the canonical figures under \texttt{outputs/figures/},
+(ii) stages the required figures under \texttt{phase2/paper/figures/} along with their \texttt{run\_id} pointers,
+and (iii) compiles \texttt{phase2/paper/main.tex} to \texttt{phase2/paper/main.pdf}.
+
+Environment requirements (Python version, required packages, and \LaTeX\ toolchain) are specified by the Phase~II setup documentation in the repository (e.g.\ top-level \texttt{README} and/or Phase~II environment files).
+To support independent auditing even when exact environments differ, run metadata records the code state and configuration for each figure-generating run.
 
 \subsection{Determinism, seeds, and paired-run discipline}
-Where randomized initialization is used, seeds are explicitly set via configuration and recorded in run outputs.
-For all main-claim evidence, we employ a paired-run discipline: constrained and free baselines share identical initialization and numerical settings, differing only by the enforcement of the axiom floor.
+Where randomized initialization is used, seeds are explicitly set via configuration and recorded in run metadata.
+For all main-claim evidence, we employ a paired-run discipline: constrained and free baselines share identical initialization and numerical settings, differing only by enforcement of the axiom floor.
 This isolates the causal impact of the axiom implementation from stochastic variance and from unrelated numerical settings.
 
 \subsection{Data availability}
-All data products necessary to reproduce the plots are generated by the build graph and are either:
+All data products necessary to reproduce the plots are either:
 \begin{itemize}
-  \item stored under \texttt{outputs/} as build artifacts, or
-  \item regenerable from code + configuration using the commands above.
+  \item stored under \texttt{outputs/} as build artifacts and run folders, or
+  \item regenerable from version-controlled code and configuration using the build command above.
 \end{itemize}
 The manuscript does not rely on external proprietary datasets.

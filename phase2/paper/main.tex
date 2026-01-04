@@ -31,13 +31,22 @@
 \usepackage{booktabs}
 \usepackage{array}
 
+% Needed if any note macros exist in macros.tex
+\usepackage{xcolor}
+
 % Make figure path stable relative to paper/
-\graphicspath{{../outputs/figures/}}
+\graphicspath{{figures/}}
 
 % ------------------------------------------------------------
 % References + links
 % ------------------------------------------------------------
 \usepackage[hidelinks]{hyperref}
+
+% (Optional but nice) PDF metadata
+\hypersetup{
+  pdftitle={Vacuum Energy Cancellation Under a Global Floor Constraint (Origin Axiom: Phase 2)},
+  pdfauthor={Dritero Mehmetaj}
+}
 
 % ------------------------------------------------------------
 % Local macros (keep notation stable and ASCII-safe)
@@ -47,10 +56,12 @@
 % Avoid issues in PDF bookmarks if macros appear in section titles later
 \pdfstringdefDisableCommands{%
   \def\eps{epsilon}%
-  \def\Om{Omega_m}%
-  \def\Or{Omega_r}%
-  \def\Ol{Omega_Lambda}%
-  \def\OLeff{Omega_Lambda_eff}%
+  \def\OA{Origin Axiom}%
+  \def\OmegaM{Omega_m}%
+  \def\OmegaR{Omega_r}%
+  \def\OmegaL{Omega_Lambda}%
+  \def\OmegaLeff{Omega_Lambda_eff}%
+  \def\LCDM{LambdaCDM}%
 }
 
 % ------------------------------------------------------------
@@ -65,8 +76,8 @@
 \maketitle
 
 \begin{abstract}
+\input{sections/00_abstract}
 \end{abstract}
-
 \tableofcontents
 
 % ------------------------------------------------------------
@@ -82,7 +93,6 @@
 \input{sections/07_limitations_and_scope}
 \input{sections/08_conclusion}
 
-% Appendix (computational provenance)
 % ------------------------------------------------------------
 % Appendices
 % ------------------------------------------------------------

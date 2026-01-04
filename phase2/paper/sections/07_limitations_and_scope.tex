@@ -1,3 +1,59 @@
-\section{Limitations and Scope Boundaries}
+% paper/sections/07_limitations_and_scope.tex
+
+\section{Limitations and scope boundaries}
 \label{sec:discussion}
-% NOTE
+
+This paper is intentionally claim-bounded.
+Phase~II establishes an auditable \emph{pipeline fact}: a strict global floor on a chosen diagnostic amplitude can be implemented stably in a minimal vacuum testbed (Claim~C2.1), remains well-behaved under systematic numerical controls (Claim~C2.2), and can be embedded into a toy FRW module without instability under a transparent mapping (Claim~C2.3).
+The purpose of this section is to state precisely what these claims do \emph{not} imply, what would falsify them, and what additional work is required before any physical interpretation can be elevated beyond the present scope.
+
+\subsection{Algorithmic constraint, not a derived physical law}
+The Origin Axiom is enforced here as an \emph{algorithmic rule} (Sec.~\ref{sec:framework}), implemented as a hard inequality on a global diagnostic amplitude with a uniform correction when violated.
+Phase~II does not derive this constraint from a local action, does not propose a microscopic mediator, and does not claim equivalence to a known symmetry or conservation law.
+Accordingly, the results should be read as statements about the behavior of the specified constrained numerical system, not as a validated modification of quantum field theory.
+
+\subsection{Testbed status and model dependence}
+The vacuum sector used here is a controlled lattice testbed selected for auditability and for exhibiting near-cancellation of a global mode in the unconstrained baseline.
+We do not claim that the chosen scalar-field implementation is a faithful surrogate for the full Standard Model vacuum, nor that the residual diagnostic $\Delta E$ is uniquely determined independent of model choice.
+The conclusions of Phase~II therefore concern \emph{existence, stability, and controlled scaling} of the constrained mechanism in this representative class of models.
+
+\subsection{No continuum-limit proof and limited universality}
+Although Claim~C2.2 performs sweeps over discretization and UV-control parameters, these are not a proof of a continuum limit, renormalization-group invariance, or universality with respect to discretization scheme.
+In particular, percent-level stability across the explored ranges does not guarantee asymptotic stability at arbitrarily large mode counts, arbitrarily small lattice spacings, or alternative integrators/potentials.
+A stronger universality statement would require (i) explicit convergence tests under well-defined refinement limits and (ii) demonstration that the residual diagnostic behaves consistently under controlled changes of discretization scheme.
+
+\subsection{Energy accounting and interpretation}
+Because the enforcement step modifies only the zero mode, it can inject or remove a small amount of energy relative to the unconstrained baseline.
+Phase~II measures this effect via paired runs; it does not assert that the constrained dynamics conserve the same Hamiltonian as the unconstrained system.
+Therefore, Phase~II does not interpret the residual as a conserved physical vacuum energy in the QFT sense; it treats it as an operational diagnostic induced by the constraint in the chosen implementation.
+
+\subsection{FRW embedding is a consistency test, not a prediction}
+Claim~C2.3 maps the residual diagnostic into an effective constant contribution in a toy FRW integrator to test end-to-end pipeline consistency.
+This mapping is deliberately transparent and fixed across Phase~II runs for auditability; it is not claimed to be an EFT matching, a derived relation between $\varepsilon$ and physical vacuum density, or a fit to cosmological data.
+Accordingly, Phase~II makes no quantitative claim about the observed cosmological constant, and no claim that $\theta^\star$ predicts late-time acceleration in the real universe.
+
+\subsection{Status of the phase anchor $\theta^\star$}
+The parameter $\theta^\star$ is treated in Phase~II as an externally supplied empirical anchor.
+Phase~II does not derive $\theta^\star$, does not establish its uniqueness, and does not claim that it must be associated with a Standard Model phase.
+The only Phase~II question is whether a single phase parameter can be propagated through the pipeline without instability and with controlled, auditable dependence in the residual diagnostics.
+
+\subsection{What would falsify the Phase~II claims}
+Within the scope of this paper, the following outcomes would directly undermine Claims~C2.1--C2.3:
+\begin{itemize}
+  \item \textbf{Non-reproducibility:} inability to regenerate the figures and PDF from the recorded run identifiers and scripts (Appendix~\ref{app:run_manifest} and Sec.~\ref{sec:reproducibility}).
+  \item \textbf{Numerical pathology:} evidence that the constrained system exhibits uncontrolled blow-up, stiffness-induced failure, or strong sensitivity to minor numerical changes in the explored regime, contradicting Claim~C2.2.
+  \item \textbf{Discretization instability:} emergence of runaway scaling in the residual diagnostic as discretization controls are varied within the sweep domain claimed in Figs.~B--D.
+  \item \textbf{FRW failure under fixed mapping:} instability or pathological trajectories in the FRW module when driven by $\Omega_\Lambda(\theta^\star)$ under the stated mapping and integration settings (Claim~C2.3).
+\end{itemize}
+
+\subsection{Required upgrades for post-Phase~II physical interpretation}
+To move beyond Phase~II, additional work is required before interpreting the constraint as a viable physical principle:
+\begin{itemize}
+  \item \textbf{Mechanism upgrade:} a candidate local formulation or symmetry principle whose constrained dynamics reproduce (or justify) the operational floor.
+  \item \textbf{Universality upgrade:} controlled convergence/refinement studies and cross-implementation checks showing that the residual behavior is not an artifact of a particular discretization or integrator.
+  \item \textbf{Mapping upgrade:} a physically motivated normalization from residual diagnostic to an effective stress-energy contribution, with dimensional analysis and calibration against known limits.
+  \item \textbf{Model upgrade:} demonstration in richer field content (or a theoretically justified effective model) that retains the claimed stability properties.
+\end{itemize}
+
+Phase~II should therefore be read as a rigorous \emph{engineering and auditing milestone}: it demonstrates a stable constrained-cancellation mechanism and a reproducible pipeline that can be independently verified.
+It is not, by itself, a completion of the cosmological-constant problem or a validated fundamental theory.

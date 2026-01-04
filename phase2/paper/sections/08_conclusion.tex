@@ -1,2 +1,37 @@
+% paper/sections/08_conclusion.tex
+
 \section{Conclusion}
-% NOTE
+\label{sec:conclusion}
+
+Phase~II of the Origin Axiom program was designed as a bounded, auditable test:
+if one enforces a strict global non-cancellation floor in a minimal vacuum testbed, does a stable residual emerge; is it robust under controlled numerical variations; and can it be carried through a transparent toy embedding into a cosmological background module without instability?
+Within the explicit scope boundaries stated in Sec.~\ref{sec:discussion}, the answer is yes.
+
+We organized the paper around three claims and corresponding evidence:
+
+\begin{itemize}
+  \item \textbf{Claim C2.1 (Existence under constraint).}
+  Enforcing the hard floor $|A|\ge\varepsilon$ in the Phase~II lattice vacuum testbed yields a persistent nonzero residual diagnostic relative to the matched unconstrained baseline, without numerical pathology (Fig.~\ref{fig:mode_sum_residual}).
+
+  \item \textbf{Claim C2.2 (Robustness under controls).}
+  Across systematic sweeps in the floor scale $\varepsilon$ and discretization/UV-control parameters, the induced residual remains well-behaved and exhibits smooth, non-explosive dependence in the explored regime (Figs.~\ref{fig:scaling_epsilon}--\ref{fig:scaling_modes}).
+
+  \item \textbf{Claim C2.3 (End-to-end consistency in a toy FRW module).}
+  Under a fixed and explicitly stated mapping from the residual diagnostic to an effective constant contribution $\Omega_\Lambda(\theta)$, FRW trajectories show modest, smooth deviations without pathological behavior, demonstrating pipeline consistency rather than a cosmological prediction (Fig.~\ref{fig:frw_comparison}).
+\end{itemize}
+
+A secondary Phase~II objective was to test whether the pipeline can coherently carry a single phase input without instability.
+Treating $\theta^\star$ as an externally specified anchor (not derived in Phase~II), we propagated it through the vacuum and FRW modules and observed that residual diagnostics can carry a small, structured phase dependence while remaining numerically stable.
+In Phase~II this phase dependence is reported as an operational feature of the implemented pipeline, not as a physical identification claim.
+
+The core contribution of Phase~II is therefore methodological and reproducibility-focused:
+a constrained non-cancellation mechanism is specified algorithmically (Sec.~\ref{sec:framework}),
+demonstrated to be stable in a controlled setting,
+stress-tested under meaningful numerical controls,
+and documented with end-to-end provenance so each figure can be traced to tagged runs and regenerated from a clean checkout.
+Reproduction instructions and repository structure are stated in Sec.~\ref{sec:reproducibility}, and per-figure run identifiers are indexed in Appendix~\ref{app:run_manifest}.
+
+Finally, we reiterate the boundaries.
+Phase~II does not derive the axiom from a local action, does not claim quantitative agreement with the observed cosmological constant, and does not establish a continuum-limit theorem or uniqueness of $\theta^\star$.
+What it provides is a concrete, checkable baseline: a fully audited toy pipeline in which ``no perfect cancellation'' is imposed as a global constraint and its consequences can be measured, reproduced, and scrutinized.
+This establishes a stable foundation for subsequent phases to address universality, physical embedding, and stronger interpretive targets.

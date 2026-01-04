@@ -12,18 +12,17 @@
 
 \section{Model definition and implementation}
 \label{sec:framework}
-\label{sec:model_definition}
 
-This section defines the Phase~II testbed and the exact algorithmic form of the Origin Axiom constraint used throughout.
-The intent is reproducibility: every quantity referenced by Claims~C2.1--C2.3 is defined here, with implementation details fixed by the Phase~II reference code and configuration.
+This section defines the Phase~II numerical testbed and the exact algorithmic form of the Origin Axiom constraint used throughout.
+The intent is reproducibility: every quantity referenced by Claims~C2.1--C2.3 is defined here, while the remaining microphysical and numerical choices (integrator, potential, and update schedule) are treated as fixed by the Phase~II reference implementation and configuration.
 
 \subsection{Core object: a complex scalar lattice field}
 We work with a complex scalar field $\phi(t,\mathbf{x})\in\mathbb{C}$ defined on a cubic periodic lattice of size $N^3$ with lattice spacing set to unity in code units.
 We denote the lattice volume by $V=N^3$.
-The baseline (unconstrained) dynamics are a standard discretized scalar field evolution; the integrator and potential terms are fixed by the Phase~II reference implementation.
-For Phase~II, we do not interpret the specific microphysical choice; we use it as a controlled testbed in which the global (zero-mode) amplitude can, in the unconstrained system, approach $0$ through cancellation.
+The baseline (unconstrained) evolution is a discretized scalar-field update rule (time integrator and potential terms fixed by the Phase~II reference implementation).
+In Phase~II we do not interpret this choice as a derived effective description of the Standard Model vacuum; it is used as a controlled testbed in which a global (zero-mode) diagnostic can, in the unconstrained baseline, approach $0$ through cancellation.
 
-We define the global complex amplitude as the spatial mean (zero mode)
+We define the global complex diagnostic amplitude as the spatial mean (zero mode)
 \begin{equation}
 A(t) \;\equiv\; \frac{1}{V}\sum_{\mathbf{x}} \phi(t,\mathbf{x}) \,.
 \label{eq:A_def}
@@ -31,7 +30,7 @@ A(t) \;\equiv\; \frac{1}{V}\sum_{\mathbf{x}} \phi(t,\mathbf{x}) \,.
 In the absence of any constraint, $A(t)$ can approach $0$ due to cancellation across lattice sites and phases.
 
 \subsection{Origin Axiom constraint: hard floor on the global amplitude}
-The Origin Axiom is implemented as a hard inequality constraint
+The Origin Axiom is implemented as a hard inequality constraint on the diagnostic amplitude:
 \begin{equation}
 |A(t)| \;\ge\; \varepsilon \,,
 \qquad \varepsilon>0 \text{ fixed.}
@@ -42,38 +41,51 @@ At each integration step, after the baseline update produces a tentative field $
 A_{\text{trial}} \equiv \frac{1}{V}\sum_{\mathbf{x}} \phi_{\text{trial}}(t,\mathbf{x}) \,.
 \end{equation}
 If $|A_{\text{trial}}|\ge\varepsilon$, we accept $\phi_{\text{trial}}$.
-If $|A_{\text{trial}}|<\varepsilon$, we apply a \emph{minimal uniform correction} that shifts only the $k=0$ mode:
+If $|A_{\text{trial}}|<\varepsilon$, we apply a spatially uniform correction that shifts only the $k=0$ mode:
 \begin{equation}
 \phi(t,\mathbf{x}) \;=\; \phi_{\text{trial}}(t,\mathbf{x}) \;+\; \Delta \,,
 \label{eq:uniform_shift}
 \end{equation}
-where $\Delta\in\mathbb{C}$ is chosen such that the corrected global amplitude satisfies $|A|=\varepsilon$ while preserving the phase direction of $A_{\text{trial}}$ when possible.
-A concrete choice (used in the reference implementation) is
+where $\Delta\in\mathbb{C}$ is chosen so that the corrected amplitude satisfies $|A(t)|=\varepsilon$.
+Because the correction is uniform in $\mathbf{x}$, Eq.~\eqref{eq:uniform_shift} modifies only the zero mode and leaves all nonzero-$k$ structure unchanged.
+
+A concrete choice (used in the reference implementation) is:
 \begin{equation}
-\Delta \;\equiv\; \left(\varepsilon - |A_{\text{trial}}|\right)\,e^{i\,\arg(A_{\text{trial}})} \,,
-\qquad \text{for } A_{\text{trial}}\neq 0,
+\Delta \;\equiv\; \left(\varepsilon - |A_{\text{trial}}|\right)\,u(A_{\text{trial}}),
+\qquad
+u(z)\equiv
+\begin{cases}
+z/|z|, & z\neq 0,\\
+u_0,   & z=0,
+\end{cases}
 \label{eq:delta_choice}
 \end{equation}
-and an arbitrary fixed phase direction when $A_{\text{trial}}=0$ (this edge case is measure-zero in floating-point dynamics but is defined for completeness).
-Because $\Delta$ is spatially uniform, Eq.~\eqref{eq:uniform_shift} modifies only the zero mode and leaves all nonzero-$k$ structure unchanged.
+where $u_0$ is a fixed unit complex number (a fixed phase convention) used only for the $A_{\text{trial}}=0$ edge case.
+With this definition, the corrected diagnostic satisfies
+\begin{equation}
+A(t)=A_{\text{trial}}+\Delta
+\quad\Rightarrow\quad
+|A(t)|=\varepsilon
+\end{equation}
+whenever the constraint is active.
 
-We emphasize that this is an \emph{algorithmic} enforcement of the axiom, defining a constrained evolution rule rather than a derived physical law.
-Phase~II does not claim this is derived from a local action; rather, it is a controlled implementation whose stability and consequences we test.
+We emphasize that Phase~II treats this as an \emph{algorithmic} enforcement rule defining a constrained evolution map.
+No claim is made that Eq.~\eqref{eq:floor_constraint} follows from a local action or a known symmetry; Phase~II evaluates stability and consequences of the specified constrained implementation.
 
 \subsection{Diagnostics: residual, energy, and enforcement statistics}
-We record the following diagnostics for each run:
+We record the following diagnostics for each run.
 
-\paragraph{Amplitude floor diagnostics.}
+\paragraph{Amplitude-floor diagnostics.}
 \begin{itemize}
-  \item $|A(t)|$ over time, and its minimum value over a run.
-  \item The number of steps for which the correction~\eqref{eq:uniform_shift} is applied (``constraint hits'').
+  \item The time series $|A(t)|$ and the minimum value attained over a run.
+  \item The number of time steps on which the correction~\eqref{eq:uniform_shift} is applied (``constraint hits'').
   \item The magnitude $|\Delta|$ of each applied correction and its time distribution.
 \end{itemize}
 
 \paragraph{Energy diagnostics.}
-We measure total energy $E(t)$ using the same discrete Hamiltonian/energy functional as the baseline evolution (kinetic + gradient + potential terms as implemented).
-Because the constraint introduces a uniform shift, it can inject (or remove) a small amount of energy relative to the unconstrained baseline; this is part of the mechanism and is measured rather than assumed away.
-We report both $E(t)$ and the difference between constrained and unconstrained runs with matched initial conditions.
+We measure total energy $E(t)$ using the same discrete energy functional as the baseline evolution (kinetic + gradient + potential terms as implemented).
+Because the constraint introduces a uniform shift, it can inject or remove energy relative to the unconstrained baseline; Phase~II measures this difference rather than assuming conservation under the constrained map.
+We report both $E(t)$ and differences between constrained and unconstrained runs with matched initial conditions.
 
 \paragraph{Residual energy proxy.}
 For the vacuum module we define a residual energy shift
@@ -81,34 +93,36 @@ For the vacuum module we define a residual energy shift
 \Delta E(\theta) \;\equiv\; E_{\text{constrained}}(\theta) \;-\; E_{\text{free}}(\theta)\,,
 \label{eq:deltaE_def}
 \end{equation}
-evaluated after transients have decayed (late-time mean or end-of-run value, depending on the run protocol).
-The dependence on $\theta$ is defined below.
+evaluated after transients have decayed (late-time mean or end-of-run value, depending on the run protocol, fixed by configuration).
+This is an operational diagnostic of the effect of enforcing~\eqref{eq:floor_constraint} in the specified implementation; it is not assumed to be a conserved physical vacuum energy in the QFT sense.
 
 \subsection{Phase parameter $\theta$ and the scan protocol}
-Phase~II introduces a single phase control parameter $\theta$ that enters the toy vacuum module through a $\theta$-dependent mapping (e.g.\ an effective mass scale or coupling in the scalar sector), fixed by configuration.
-We treat $\theta$ in two ways:
+Phase~II introduces a single phase control parameter $\theta$ that enters the vacuum testbed through a $\theta$-dependent configuration mapping (e.g.\ through an effective mass scale or coupling in the scalar sector, as defined by the Phase~II configuration files).
+We use $\theta$ in two modes:
 \begin{itemize}
   \item \emph{Scan mode:} $\theta$ is scanned over a fixed interval (typically $[0,2\pi]$) to obtain $\Delta E(\theta)$ and assess sensitivity.
-  \item \emph{Anchor mode:} a fixed $\theta^\star$ is supplied as an external input motivated by a separate flavor-inspired procedure, and is used to generate the fiducial pipeline outputs carried into FRW.
+  \item \emph{Anchor mode:} a fixed $\theta^\star$ is supplied as an external input motivated by a separate procedure outside Phase~II, and is used for a fiducial pipeline run carried into the FRW module.
 \end{itemize}
-The paper treats $\theta^\star$ as an input, not an axiom prediction.
+Phase~II treats $\theta^\star$ as an input, not an axiom prediction.
 
-\subsection{Toy FRW mapping}
-To test cosmological viability (Claim~C2.3), we map the vacuum residual into an effective constant term in a Friedmann--Robertson--Walker background.
-We define an effective vacuum energy density proxy $\rho_\Lambda(\theta)$ from the lattice residual (details depend on normalization; the reference implementation uses a fixed conversion in code units).
-We then evolve the scale factor $a(t)$ under a standard FRW equation in normalized units,
+\subsection{Toy FRW mapping (consistency test)}
+To test cosmological viability (Claim~C2.3), we map the vacuum residual into an effective constant contribution in a Friedmann--Robertson--Walker background.
+In Phase~II this mapping is defined operationally in code units: we define a proxy vacuum density $\rho_\Lambda(\theta)$ from the residual diagnostic using a fixed normalization rule (held constant across Phase~II runs for auditability), and we define $\Omega_\Lambda(\theta)$ proportional to that proxy in the FRW integrator's normalization.
+
+We then evolve the scale factor $a(t)$ under a standard flat FRW equation in normalized units,
 \begin{equation}
 H^2(t) \;\equiv\; \left(\frac{\dot a}{a}\right)^2 \;=\;
 \frac{\Omega_r}{a^4(t)} \;+\; \frac{\Omega_m}{a^3(t)} \;+\; \Omega_\Lambda(\theta)\,,
 \label{eq:frw}
 \end{equation}
-where $\Omega_\Lambda(\theta)$ is proportional to $\rho_\Lambda(\theta)$ in the chosen normalization.
-We compare trajectories with $\Omega_\Lambda(\theta^\star)$ to a matched reference trajectory (e.g.\ $\Omega_\Lambda=0$ or another baseline), and quantify the relative deviation in $a(t)$ over the integration interval.
+where $(\Omega_r,\Omega_m)$ are fixed reference parameters in the FRW module.
+We compare trajectories with $\Omega_\Lambda(\theta^\star)$ to a matched reference trajectory (e.g.\ $\Omega_\Lambda=0$ or a fixed baseline) over the same integration interval and numerical settings.
+This FRW step is treated strictly as an end-to-end \emph{consistency} embedding, not as a physical prediction or an EFT matching.
 
 \subsection{Paired-run discipline and controls}
 For each reported claim, we adopt a paired-run discipline:
 the constrained run is always compared against a baseline run with identical initialization and numerical settings but without enforcing~\eqref{eq:floor_constraint}.
-This isolates the effect of the axiom enforcement from the underlying dynamics and from stochastic initialization variance.
+This isolates the effect of the axiom enforcement from the underlying baseline dynamics and from stochastic initialization variance.
 
 \subsection{Where the claim evidence lives}
 For clarity:
