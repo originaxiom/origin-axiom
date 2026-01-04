@@ -1,8 +1,8 @@
 
 # Phase 2 Structural Audit (P2-A1)
 
-- Generated: 2026-01-04 12:40:34 +0100
-- Git: 9fcabef (phase0-2-alignment)
+- Generated: 2026-01-04 12:49:46 +0100
+- Git: 2751b25 (phase0-2-alignment)
 - Repo: /Users/dri/Documents/Projects/origin-axiom
 
 ## 1) High-level inventory
@@ -10,13 +10,13 @@
 ```
 total 152
 drwxr-xr-x@ 23 dri  staff    736 Jan  4 12:40 .
-drwx------@ 16 dri  staff    512 Jan  4 12:40 ..
+drwx------@ 16 dri  staff    512 Jan  4 12:41 ..
 -rw-r--r--@  1 dri  staff   6148 Jan  2 18:26 .DS_Store
 -rw-r--r--   1 dri  staff    366 Jan  4 08:07 .gitignore
 drwxr-xr-x  12 dri  staff    384 Jan  3 13:46 .snakemake
 -rw-r--r--   1 dri  staff   5823 Dec 31 14:40 APPROXIMATION_CONTRACT.md
 -rw-r--r--   1 dri  staff   3775 Dec 31 14:40 ASSUMPTIONS.md
--rw-r--r--@  1 dri  staff    191 Jan  4 12:40 AUDIT_REPORT.md
+-rw-r--r--@  1 dri  staff    191 Jan  4 12:49 AUDIT_REPORT.md
 -rw-r--r--   1 dri  staff  10019 Jan  4 08:54 CLAIMS.md
 -rw-r--r--   1 dri  staff   1386 Jan  4 08:16 CLAIMS_TABLE.md
 -rw-r--r--   1 dri  staff   2199 Jan  4 08:59 PHASE2_LOCK_CHECKLIST.md
@@ -389,14 +389,14 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 ## 4) TODO / FIXME / XXX / TBD sweep
 
 ```
-/Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:80:- Added `scripts/phase2_paper_lint.sh` to enforce: no TODO/FIXME/XXX/TBD in Phase 2 paper, and clean build log scan.
 /Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:389:## 4) TODO / FIXME / XXX / TBD sweep
+/Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:80:- Added `scripts/phase2_paper_lint.sh` to enforce: no TODO/FIXME/XXX/TBD in Phase 2 paper, and clean build log scan.
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:68:% TODO (150--250 words):
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/macros.tex:117:\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/07_limitations_and_scope.tex:2:% TODO
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/06_frw_implications.tex:4:% TODO: define mapping residual -> \OLeff via explicit parameter in config.
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/08_conclusion.tex:2:% TODO
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/06_frw_implications.tex:4:% TODO: define mapping residual -> \OLeff via explicit parameter in config.
 ```
 
 ## 5) Paper build + structure
@@ -413,16 +413,16 @@ drwxr-xr-x@ 23 dri  staff     736 Jan  4 12:40 ..
 drwxr-xr-x   3 dri  staff      96 Jan  4 08:19 appendix
 drwxr-xr-x   7 dri  staff     224 Jan  2 19:40 figures
 -rw-r--r--@  1 dri  staff    3763 Jan  4 11:36 macros.tex
--rw-r--r--@  1 dri  staff   14247 Jan  4 12:40 main.aux
+-rw-r--r--   1 dri  staff   14247 Jan  4 12:40 main.aux
 -rw-r--r--   1 dri  staff     760 Jan  4 12:40 main.bbl
 -rw-r--r--   1 dri  staff     869 Jan  4 12:40 main.blg
--rw-r--r--@  1 dri  staff   20809 Jan  4 12:40 main.fdb_latexmk
+-rw-r--r--   1 dri  staff   20807 Jan  4 12:40 main.fdb_latexmk
 -rw-r--r--   1 dri  staff   21869 Jan  4 12:40 main.fls
--rw-r--r--@  1 dri  staff   30441 Jan  4 12:40 main.log
+-rw-r--r--   1 dri  staff   30441 Jan  4 12:40 main.log
 -rw-r--r--   1 dri  staff   11777 Jan  4 12:40 main.out
 -rw-r--r--   1 dri  staff  506478 Jan  4 12:40 main.pdf
 -rw-r--r--@  1 dri  staff    3410 Jan  4 11:40 main.tex
--rw-r--r--@  1 dri  staff    5473 Jan  4 12:40 main.toc
+-rw-r--r--   1 dri  staff    5473 Jan  4 12:40 main.toc
 -rw-r--r--@  1 dri  staff    3013 Jan  4 11:26 references.bib
 drwxr-xr-x  12 dri  staff     384 Jan  4 12:40 sections
 ```
@@ -1504,12 +1504,20 @@ Result: OK (no hygiene-pattern hits)
 ## 6) Claims discipline scan (generic)
 
 ```
-/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:19:Phase 2 is a *discipline phase*: it tightens definitions, provenance, and robustness
-/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:37:- Strict reproducibility: a single YAML config, Snakemake as the canonical runner, and
-/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:38:  complete run provenance.
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/observables.py:15:# Observables + plotting helpers (per-run artifacts)
 /Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:69:Phase 2 implements a deterministic, auditable rule to enforce the constraint. The exact enforcement mechanism is part of the model definition and is recorded by provenance metadata (constraint applied flag + details).
 /Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:104:- absence of numerical pathologies or “wild artifacts” in these sweeps.
 /Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md:110:## Provenance & Reproducibility Contract
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:1:# Phase 2 — Reproducibility and Provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:3:This document defines the **reproducibility guarantees, provenance tracking, and execution
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:6:**Rule:** No scientific claim is valid unless it is backed by a fully reproducible artifact
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:25:The only canonical way to generate Phase 2 artifacts is:
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:30:artifacts** unless the outputs are identical and the run metadata is complete.
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:34:## 3. Canonical artifacts and run pointers
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:83:2. Regenerating canonical artifacts A–E.
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:85:4. Updating `CLAIMS.md` provenance pointers if any file paths changed.
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:94:- `snakemake -c 1 all` reproduces **exactly** the canonical figures A–E,
+/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:108:- `REPRODUCIBILITY.md`
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:4:**canonical, reproducible artifacts**.
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:6:**Rule:** No claim is valid unless it is backed by at least one canonical artifact listed
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:15:## Canonical artifacts (A–E)
@@ -1524,6 +1532,41 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:202:**Provenance pointer**
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:251:## Explicit Non-Claims (binding)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:276:## Claim → Artifact mapping (Phase 2 canonical)
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:26:-rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:42:- OK: phase2/REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:59:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:61:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:140:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:157:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:163:/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:396:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:612:LaTeX Warning: Reference `sec:reproducibility' on page 3 undefined on input lin
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:658:LaTeX Warning: Reference `sec:reproducibility' on page 5 undefined on input lin
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:806:) (./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:850:LaTeX Warning: Reference `sec:reproducibility' on page 14 undefined on input li
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:880:LaTeX Warning: Reference `sec:reproducibility' on page 15 undefined on input li
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:891:) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1137:(./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1166:) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1395:(./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1424:) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:4:artifact-first, drift-resistant process.
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:12:1. **Artifacts are the source of truth.**
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:18:3. **Provenance is mandatory.**
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:67:- a `*.run_id.txt` file pointing to the provenance-complete run.
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:94:- explicitly state non-claims and limitations,
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:103:1. Lock MD documents (scope/claims/assumptions/provenance rules).
+/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:115:- A–E are reproducible and pinned,
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/utils_meta.py:39:# Git provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/scripts/certify_binding.py:103:        "provenance_present": True,
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/observables.py:15:# Observables + plotting helpers (per-run artifacts)
+/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:19:Phase 2 is a *discipline phase*: it tightens definitions, provenance, and robustness
+/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:37:- Strict reproducibility: a single YAML config, Snakemake as the canonical runner, and
+/Users/dri/Documents/Projects/origin-axiom/phase2/SCOPE.md:38:  complete run provenance.
+/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:5:It is intentionally narrow, reproducible, and claim-disciplined.
+/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:10:- `CLAIMS.md` — the only claims Phase 2 makes (and their artifact backing)
+/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:12:- `REPRODUCIBILITY.md` — provenance rules and what “locked” means
+/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:30:which points to a provenance-complete run directory:
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:10:  - sections: 01..08 + 06_reproducibility_and_provenance
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:11:  - appendix: `appendix/A_run_manifest` and `sections/A_provenance`
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:13:## B) Provenance integrity (Claim → Figure → run_id → run folder)
@@ -1533,31 +1576,21 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:35:- [ ] Paper build artifacts ignored (except policy choice for main.pdf).
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:40:  2) A script/checker added that enforces reproducibility (lint, provenance, build).
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_LOCK_CHECKLIST.md:41:  3) A lock/release artifact added (checklist, bundle index, tag instructions).
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:1:# Phase 2 — Reproducibility and Provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:3:This document defines the **reproducibility guarantees, provenance tracking, and execution
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:6:**Rule:** No scientific claim is valid unless it is backed by a fully reproducible artifact
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:25:The only canonical way to generate Phase 2 artifacts is:
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:30:artifacts** unless the outputs are identical and the run metadata is complete.
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:34:## 3. Canonical artifacts and run pointers
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:83:2. Regenerating canonical artifacts A–E.
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:85:4. Updating `CLAIMS.md` provenance pointers if any file paths changed.
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:94:- `snakemake -c 1 all` reproduces **exactly** the canonical figures A–E,
-/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md:108:- `REPRODUCIBILITY.md`
-/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:1:# Phase 2 Claims → Artifacts Map (P2-S2)
-/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:11:| Claim | Paper section | Figures (paper/figures) | Run-id sidecars (outputs/figures) | Run meta (outputs/runs) | Notes / Non-claims |
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:4:artifact-first, drift-resistant process.
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:12:1. **Artifacts are the source of truth.**
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:18:3. **Provenance is mandatory.**
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:67:- a `*.run_id.txt` file pointing to the provenance-complete run.
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:94:- explicitly state non-claims and limitations,
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:103:1. Lock MD documents (scope/claims/assumptions/provenance rules).
-/Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:115:- A–E are reproducible and pinned,
-/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:5:It is intentionally narrow, reproducible, and claim-disciplined.
-/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:10:- `CLAIMS.md` — the only claims Phase 2 makes (and their artifact backing)
-/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:12:- `REPRODUCIBILITY.md` — provenance rules and what “locked” means
-/Users/dri/Documents/Projects/origin-axiom/phase2/README.md:30:which points to a provenance-complete run directory:
 /Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile:4:# Canonical rule: one rule -> one canonical artifact (figure PDF).
 /Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile:420:        runs/<run_id>/... (full provenance for each canonical figure)
+/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:1:# Phase 2 Claims → Artifacts Map (P2-S2)
+/Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS_TABLE.md:11:| Claim | Paper section | Figures (paper/figures) | Run-id sidecars (outputs/figures) | Run meta (outputs/runs) | Notes / Non-claims |
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:3:\section{Limitations and non-claims}
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:7:Its purpose is to lock a reproducible toy pipeline and to establish three auditable claims (C2.1--C2.3), not to assert a completed fundamental theory.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:8:To keep the work intellectually honest and arXiv-appropriate, we enumerate limitations and explicit non-claims.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:16:The lattice vacuum sector and the FRW mapping are toy realizations with a fixed code-unit normalization used for internal consistency and reproducibility.
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/mode_model.py:304:    Keep this stable: it is part of the reproducibility contract.
+/Users/dri/Documents/Projects/origin-axiom/phase2/config/phase2.yaml:163:# Paper artifact mapping (for sanity checks)
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_mode_sum.py:26:# Direct invocation is allowed for debugging, but canonical artifacts
+/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate 2.json:24:    "provenance_present": true
+/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_sweep.py:83:    # Setup run + provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:70:% - Mention numerical sweeps (epsilon / cutoff / modes) + reproducibility (Snakemake, per-run provenance).
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:92:\input{sections/A_provenance}
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:7:- Scope and claims discipline established (SCOPE/CLAIMS/ASSUMPTIONS + reproducibility contract).
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:8:- Next: implement Phase 2 computational pipeline (mode-sum + sweeps + FRW wrapper) and canonical artifacts A–E.
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:15:- Established provenance per run:
@@ -1578,60 +1611,27 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:94:- Fixed LaTeX build failure in reproducibility section (text-mode arrow -> math-mode).
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:95:- Phase 2 gate now passes: structural audit + provenance verification + paper lint + clean build.
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:96:- Phase 2 paper PDF is now tracked in git for exact artifact reproducibility.
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:26:-rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:42:- OK: phase2/REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:59:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:61:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:140:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:157:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:163:/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:396:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:612:LaTeX Warning: Reference `sec:reproducibility' on page 3 undefined on input lin
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:658:LaTeX Warning: Reference `sec:reproducibility' on page 5 undefined on input lin
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:806:) (./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:850:LaTeX Warning: Reference `sec:reproducibility' on page 14 undefined on input li
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:880:LaTeX Warning: Reference `sec:reproducibility' on page 15 undefined on input li
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:891:) (./sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1137:(./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1166:) (./sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1395:(./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1424:) (./sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/config/phase2.yaml:163:# Paper artifact mapping (for sanity checks)
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/observables.py:15:# Observables + plotting helpers (per-run artifacts)
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:3:\section{Limitations and non-claims}
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:7:Its purpose is to lock a reproducible toy pipeline and to establish three auditable claims (C2.1--C2.3), not to assert a completed fundamental theory.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:8:To keep the work intellectually honest and arXiv-appropriate, we enumerate limitations and explicit non-claims.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/structural_dupes_20260104T055918Z/07_limitations_and_nonclaims.tex:16:The lattice vacuum sector and the FRW mapping are toy realizations with a fixed code-unit normalization used for internal consistency and reproducibility.
-/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate 2.json:24:    "provenance_present": true
 /Users/dri/Documents/Projects/origin-axiom/phase2/outputs/tests/phase2_binding_certificate.json:24:    "provenance_present": true
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/main.tex:18:\input{sections/06_reproducibility_and_provenance}
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:70:% - Mention numerical sweeps (epsilon / cutoff / modes) + reproducibility (Snakemake, per-run provenance).
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:92:\input{sections/A_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:92:\input{sections/06_reproducibility_and_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:101:\input{sections/A_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/appendix/A_run_manifest.tex:12:Figure & Artifact stem & run\_id & git \\
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:4:Phase 2 is a *claims-first* paper whose only goal is to establish three auditable claims (C2.1–C2.3) with strict provenance. No new “Phase 3+” claims may enter Phase 2.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:13:7. 06_reproducibility_and_provenance
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:18:- sections/A_provenance
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:29:  - A bounded list of evidence artifacts (figures + run_ids)
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:30:  - A “Non-claims / limits” note (what is *not* asserted)
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/PAPER_CONTRACT.md:32:## Provenance rule
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:92:\input{sections/06_reproducibility_and_provenance}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/main.tex:101:\input{sections/A_provenance}
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:1:\section{Computational Provenance (Appendix)}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:6:% (iv) explicit non-claims boundary sentence.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:18:Evidence is provided by the FRW comparison in Fig.~\ref{fig:frw_comparison}; exact run provenance is given by Appendix~\ref{app:run_manifest}.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:21:The vacuum module produces a residual proxy $\Delta E(\theta)$ (Eq.~\eqref{eq:deltaE_def}) or an implementation-defined equivalent recorded in the Phase~II run artifacts.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:73:\noindent\textbf{Non-claims boundary (C2.3).}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/05_claim_C2_3_frw_viability.tex:75:It supports only the bounded statement that the Phase~II residual proxy can be embedded into the configured FRW background module as a constant contribution without inducing numerical failure in the explored regime, with full provenance given by Appendix~\ref{app:run_manifest}.
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/scripts/certify_binding.py:103:        "provenance_present": True,
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/appendix/A_run_manifest.tex:12:Figure & Artifact stem & run\_id & git \\
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:1:\section{Computational Provenance (Appendix)}
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/main.tex:18:\input{sections/06_reproducibility_and_provenance}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:7:% (v) a single sentence pointing to provenance: outputs/figures + Appendix run manifest.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:17:The intent is reproducibility: every quantity referenced by Claims~C2.1--C2.3 is defined here, while the remaining microphysical and numerical choices (integrator, potential, and update schedule) are treated as fixed by the Phase~II reference implementation and configuration.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/02_model_definition.tex:134:Precise artifact provenance (scripts, configs, run IDs, and figure build rules) is documented in Sec.~\ref{sec:reproducibility} and Appendix~\ref{app:run_manifest}.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:6:% (iv) explicit non-claims boundary sentence.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:17:Evidence is provided by a paired constrained vs.\ free run with identical initialization, summarized in Fig.~\ref{fig:mode_sum_residual}; exact provenance (run\_id(s), configuration, and scripts) is given in Appendix~\ref{app:run_manifest}.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:26:All reported curves correspond to the tagged run artifacts referenced in Appendix~\ref{app:run_manifest}.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:46:This verifies that the observed persistence of $|A(t)|\gtrsim\varepsilon$ is produced by enforcing~\eqref{eq:floor_constraint} in the specified implementation, rather than being an incidental feature of the unconstrained baseline or a plotting artifact.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:51:\noindent\textbf{Non-claims boundary (C2.1).}
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/utils_meta.py:39:# Git provenance
+/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/paper_bundle/config/phase2.yaml:160:# Paper artifact mapping (for sanity checks)
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:1:% paper/sections/06_reproducibility_and_provenance.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:3:\section{Reproducibility and provenance}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:4:\label{sec:reproducibility}
@@ -1648,20 +1648,12 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:52:\subsection{Build system and exact reproduction}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:71:All data products necessary to reproduce the plots are either:
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex:73:  \item stored under \texttt{outputs/} as build artifacts and run folders, or
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:8:The purpose of this section is to state precisely what these claims do \emph{not} imply, what would falsify them, and what additional work is required before any physical interpretation can be elevated beyond the present scope.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:40:\subsection{What would falsify the Phase~II claims}
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:43:  \item \textbf{Non-reproducibility:} inability to regenerate the figures and PDF from the recorded run identifiers and scripts (Appendix~\ref{app:run_manifest} and Sec.~\ref{sec:reproducibility}).
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:52:  \item \textbf{Mechanism upgrade:} a candidate local formulation or symmetry principle whose constrained dynamics reproduce (or justify) the operational floor.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:53:  \item \textbf{Universality upgrade:} controlled convergence/refinement studies and cross-implementation checks showing that the residual behavior is not an artifact of a particular discretization or integrator.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:58:Phase~II should therefore be read as a rigorous \emph{engineering and auditing milestone}: it demonstrates a stable constrained-cancellation mechanism and a reproducible pipeline that can be independently verified.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:6:% (iv) explicit non-claims boundary sentence.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:17:Evidence is provided by the sweep summaries in Figs.~\ref{fig:scaling_epsilon}--\ref{fig:scaling_modes}; exact run provenance is given by Appendix~\ref{app:run_manifest}.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:28:For each family, the reported quantity is the residual energy proxy $\Delta E$ (Eq.~\eqref{eq:deltaE_def}) or its implementation-defined equivalent, computed from matched constrained and free runs using the Phase~II run protocol (late-time average or end-of-run value as specified in the run artifacts referenced in Appendix~\ref{app:run_manifest}).
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:87:\noindent\textbf{Non-claims boundary (C2.2).}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/04_claim_C2_2_robustness.tex:89:They only support the bounded statement that the constrained implementation remains stable and produces a reproducible, smoothly varying residual proxy under the stated numerical controls.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:40:The focus is isolated and diagnostic: determine whether a global non-cancellation constraint yields a reproducible, well-behaved residual across nontrivial numerical variations in a minimal setting.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:49:Reproducibility is treated as a first-class requirement: figures correspond to tagged runs with recorded configurations, run identifiers, and an explicit run manifest.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:54:Section~\ref{sec:reproducibility} documents provenance and reproduction instructions, and Section~\ref{sec:discussion} states scope boundaries and limitations.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/01_introduction.tex:26:The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:1:% phase2/paper/sections/A_provenance.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:3:\section{Computational provenance}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:4:\label{app:provenance}
@@ -1672,28 +1664,35 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:50:It therefore provides a direct, file-level link from the staged manuscript figure to the authoritative run artifacts under \texttt{outputs/runs/}.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:70:\subsection{Scope of reproducibility}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex:72:They ensure that the numerical evidence presented is transparent, auditable, and reproducible.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/00_abstract.tex:4:We present Phase~II of the Origin Axiom program as a bounded, reproducible test of a single operational hypothesis: imposing a strict global \emph{non-cancellation floor} on a vacuum-like numerical system induces an auditable residual, and that residual can be carried through a minimal end-to-end pipeline without numerical pathology.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:10:All figures presented here are generated automatically via the Phase~2 workflow and are reproducible from the accompanying configuration and run logs.
+/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:59:This saturation confirms that the residual is not a finite-size artifact and persists in the large-$N$ limit of the finite ensemble.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:40:The focus is isolated and diagnostic: determine whether a global non-cancellation constraint yields a reproducible, well-behaved residual across nontrivial numerical variations in a minimal setting.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:49:Reproducibility is treated as a first-class requirement: figures correspond to tagged runs with recorded configurations, run identifiers, and an explicit run manifest.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/01_introduction.tex:54:Section~\ref{sec:reproducibility} documents provenance and reproduction instructions, and Section~\ref{sec:discussion} states scope boundaries and limitations.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:6:% (iv) explicit non-claims boundary sentence.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:17:Evidence is provided by a paired constrained vs.\ free run with identical initialization, summarized in Fig.~\ref{fig:mode_sum_residual}; exact provenance (run\_id(s), configuration, and scripts) is given in Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:26:All reported curves correspond to the tagged run artifacts referenced in Appendix~\ref{app:run_manifest}.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:46:This verifies that the observed persistence of $|A(t)|\gtrsim\varepsilon$ is produced by enforcing~\eqref{eq:floor_constraint} in the specified implementation, rather than being an incidental feature of the unconstrained baseline or a plotting artifact.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/03_claim_C2_1_existence.tex:51:\noindent\textbf{Non-claims boundary (C2.1).}
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:27:The core contribution of Phase~II is therefore methodological and reproducibility-focused:
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:31:and documented with end-to-end provenance so each figure can be traced to tagged runs and regenerated from a clean checkout.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:32:Reproduction instructions and repository structure are stated in Sec.~\ref{sec:reproducibility}, and per-figure run identifiers are indexed in Appendix~\ref{app:run_manifest}.
 /Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/08_conclusion.tex:36:What it provides is a concrete, checkable baseline: a fully audited toy pipeline in which ``no perfect cancellation'' is imposed as a global constraint and its consequences can be measured, reproduced, and scrutinized.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/01_introduction.tex:26:The goal of Phase~2 is to demonstrate that this mechanism can reproduce a vacuum energy scale compatible with cosmological observations in a setting that approximates realistic quantum field behavior.
-/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/00_abstract.tex:4:We present Phase~II of the Origin Axiom program as a bounded, reproducible test of a single operational hypothesis: imposing a strict global \emph{non-cancellation floor} on a vacuum-like numerical system induces an auditable residual, and that residual can be carried through a minimal end-to-end pipeline without numerical pathology.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:8:The purpose of this section is to state precisely what these claims do \emph{not} imply, what would falsify them, and what additional work is required before any physical interpretation can be elevated beyond the present scope.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:40:\subsection{What would falsify the Phase~II claims}
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:43:  \item \textbf{Non-reproducibility:} inability to regenerate the figures and PDF from the recorded run identifiers and scripts (Appendix~\ref{app:run_manifest} and Sec.~\ref{sec:reproducibility}).
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:52:  \item \textbf{Mechanism upgrade:} a candidate local formulation or symmetry principle whose constrained dynamics reproduce (or justify) the operational floor.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:53:  \item \textbf{Universality upgrade:} controlled convergence/refinement studies and cross-implementation checks showing that the residual behavior is not an artifact of a particular discretization or integrator.
+/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/07_limitations_and_scope.tex:58:Phase~II should therefore be read as a rigorous \emph{engineering and auditing milestone}: it demonstrates a stable constrained-cancellation mechanism and a reproducible pipeline that can be independently verified.
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex:1:% 06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:10:All figures presented here are generated automatically via the Phase~2 workflow and are reproducible from the accompanying configuration and run logs.
-/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/04_numerical_experiments.tex:59:This saturation confirms that the residual is not a finite-size artifact and persists in the large-$N$ limit of the finite ensemble.
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/observables.py:15:# Observables + plotting helpers (per-run artifacts)
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_sweep.py:83:    # Setup run + provenance
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/run_mode_sum.py:26:# Direct invocation is allowed for debugging, but canonical artifacts
-/Users/dri/Documents/Projects/origin-axiom/phase2/src/phase2/modes/mode_model.py:304:    Keep this stable: it is part of the reproducibility contract.
-/Users/dri/Documents/Projects/origin-axiom/phase2/outputs/paper_bundle/config/phase2.yaml:160:# Paper artifact mapping (for sanity checks)
 ```
 
 ## 7) Git status snapshot (informational)
 
 ```
- M phase2/AUDIT_REPORT.md
+MM phase2/AUDIT_REPORT.md
  M phase2/paper/main.pdf
- M phase2/paper/sections/01_introduction.tex
 ```
 
 ## 8) Next recommended Phase 2 rungs (after audit)
