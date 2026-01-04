@@ -64,3 +64,12 @@ Next:
   - meta.json exists per run_id and contains provenance hints,
   - appendix run-manifest label is present.
 - No scientific content changed; auditability/traceability only.
+
+## 2026-01-04 — Phase 2 Stage 1 (P2-S3): provenance enforcement for paper-referenced artifacts
+- Added `scripts/phase2_verify_provenance.sh` enforcing that every paper figure (A–E) has:
+  - a non-empty `outputs/figures/<fig>.run_id.txt`,
+  - a corresponding `outputs/runs/<run_id>/` directory,
+  - required files: `meta.json`, `params_resolved.json`, `pip_freeze.txt`, `summary.json`, and `figures/` folder.
+- Auto-generated Appendix run manifest table inside `paper/appendix/A_run_manifest.tex` from current run_id sidecars.
+- Rebuilt `phase2/paper/main.tex` and confirmed clean build post-change.
+- No new scientific claims; this rung hardens auditability and provenance completeness.
