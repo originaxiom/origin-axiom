@@ -9,8 +9,5 @@
 *.toc
 *.xdv
 
-# Built PDF (Phase 2 drafts)
-main.pdf
-
 # Track the compiled paper PDF
 !main.pdf
