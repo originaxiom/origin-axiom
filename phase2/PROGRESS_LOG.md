@@ -85,3 +85,7 @@ Next:
 - Added a single canonical pointer in `paper/sections/06_reproducibility_and_provenance.tex` directing readers to `phase2/CLAIMS.md` for the Claim C2.1–C2.3 → artifact mapping.
 - Kept Appendix run manifest (`appendix/A_run_manifest.tex`) as the per-figure run_id index.
 - Rebuilt Phase 2 paper; no new scientific claims introduced.
+
+## 2026-01-04 — P2-S6: Lock prep checklist + commit batching rule
+- Added `PHASE2_LOCK_CHECKLIST.md` to define a concrete “Phase 2 locked” bar (build, lint, provenance, claims discipline, hygiene).
+- Added an explicit commit policy: commit only per-rung / reproducibility enforcement / lock artifacts, not micro-edits.
