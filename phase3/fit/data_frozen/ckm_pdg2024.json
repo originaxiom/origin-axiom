@@ -1,0 +1,9 @@
+{
+  "dataset": "PDG 2024 Review of Particle Physics - CKM matrix review",
+  "parameterization": "PDG standard (theta12, theta13, theta23, delta)",
+  "delta_ckm_rad": 1.147,
+  "delta_ckm_sigma_rad": 0.026,
+  "notes": "PDG 2024 CKM review reports delta = 1.147 ± 0.026 rad",
+  "source": "pdg.lbl.gov (RPP 2024 CKM review PDF)",
+  "frozen_on": "2026-01-05"
+}

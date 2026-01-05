@@ -1,0 +1,11 @@
+{
+  "dataset": "NuFIT 6.0 (2024) - IC24 with SK-atm variant",
+  "ordering": "NO",
+  "delta_cp_deg": 212,
+  "delta_cp_plus_deg": 26,
+  "delta_cp_minus_deg": 41,
+  "sigma_deg_conservative": 41,
+  "notes": "NuFIT table reports deltaCP = 212(+26/-41) degrees; use sigma=41 deg conservative",
+  "source": "NuFIT 6.0 / arXiv:2410.05380 (PDF table)",
+  "frozen_on": "2026-01-05"
+}

@@ -1,21 +1,23 @@
 meta:
-  placeholder_mode: true   # flip to false when you fill real CKM+PMNS targets and remove proxies
-  dataset_name: "PHASE3_CKM_PMNS_V1_SCHEMA"
+  placeholder_mode: false
+  dataset_name: "PHASE3_FROZEN_CKM_PMNS_PHASES_V1"
   dataset_notes: >
-    Phase 3 v1 schema for CKM+PMNS targets.
-    Fill targets/sigmas from your frozen cards (preferred) or PDG/NuFit snapshot,
-    then set placeholder_mode=false.
+    Frozen targets for Phase 3 (CKM delta, PMNS delta_CP).
+    If updated later, add new files under phase3/fit/data_frozen/ and update this YAML
+    with a version bump + log entry (no silent edits).
+
+  frozen_sources:
+    ckm_file: "phase3/fit/data_frozen/ckm_pdg2024.json"
+    pmns_file: "phase3/fit/data_frozen/pmns_nufit60_2024_ic24_skatm_NO.json"
 
 ansatz:
-  name: "OA-Phase3-1theta-Flavor"
-  version: "v1-schema"
+  name: "OA-Phase3-1theta-FlavorPhases"
+  version: "v1-frozen-phases"
   description: >
-    Single-parameter ansatz: one underlying theta is mapped to flavor observables.
-    Mappings below are FIXED (not fit); only theta is fit.
+    Single-parameter ansatz mapping theta -> (delta_CKM, delta_CP_PMNS) as affine transforms mod 2pi.
+    Only theta is fit. Offsets are fixed hypothesis choices (not fit parameters).
 
-  # Fixed mapping controls (still single-parameter fit)
   mapping:
-    # delta_pred = (a*theta + b) mod 2pi
     delta_ckm:
       type: "affine_mod_2pi"
       a: 1.0
@@ -23,13 +25,7 @@ ansatz:
     delta_pmns:
       type: "affine_mod_2pi"
       a: 1.0
-      b: 0.0   # common choices: 0, pi, -pi/2, etc. Keep fixed; do NOT fit.
-
-  # Optional: if you decide to include Jarlskog invariants as targets,
-  # you must also specify what angles are assumed (either targets or fixed constants).
-  # For now, leave angles out of chi2 and only fit phases.
-  constants:
-    two_pi: 6.283185307179586
+      b: 0.0
 
 scan:
   theta_min_rad: 0.0
@@ -37,108 +33,23 @@ scan:
   grid_points: 20001
   delta_chi2_for_68: 1.0
 
-# -------------------------
-# Observables used in chi2
-# -------------------------
-# Each observable supports:
-# - metric: "linear" or "circular_rad"
-# - periodicity_rad: used for circular metrics (2pi)
-# - enabled: true/false (lets us stage in observables without deleting)
 observables:
-
-  # --- Core Phase 3 (recommended): phases only ---
   - key: "ckm.delta_rad"
     enabled: true
     metric: "circular_rad"
     periodicity_rad: 6.283185307179586
-    target: 0.0
-    sigma: 0.3
+    target: 1.147
+    sigma: 0.026
     weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "CKM CP phase δ (radians). Fill from frozen card or PDG snapshot."
+    source: "phase3/fit/data_frozen/ckm_pdg2024.json"
+    notes: "PDG 2024 delta_CKM"
 
   - key: "pmns.delta_cp_rad"
     enabled: true
     metric: "circular_rad"
     periodicity_rad: 6.283185307179586
-    target: 0.0
-    sigma: 0.6
+    target: 3.700098459  # 212 deg in rad
+    sigma: 0.715584993   # 41 deg in rad (conservative)
     weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "PMNS Dirac phase δ_CP (radians). Fill from frozen card or NuFit snapshot."
-
-  # --- Optional add-ons (disabled initially) ---
-  # CKM angles (in radians)
-  - key: "ckm.theta12_rad"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional CKM angle. Enable only if ansatz predicts angles from theta."
-
-  - key: "ckm.theta13_rad"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional CKM angle."
-
-  - key: "ckm.theta23_rad"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional CKM angle."
-
-  # PMNS angles (in radians)
-  - key: "pmns.theta12_rad"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional PMNS angle."
-
-  - key: "pmns.theta13_rad"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional PMNS angle."
-
-  - key: "pmns.theta23_rad"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional PMNS angle."
-
-  # Jarlskog invariants (dimensionless), optional
-  - key: "ckm.J"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional J_CKM. Enable only if angles are specified and ansatz computes J."
-
-  - key: "pmns.J"
-    enabled: false
-    metric: "linear"
-    target: 0.0
-    sigma: 1.0
-    weight: 1.0
-    source: "PLACEHOLDER"
-    notes: "Optional J_PMNS. Enable only if angles are specified and ansatz computes J."
+    source: "phase3/fit/data_frozen/pmns_nufit60_2024_ic24_skatm_NO.json"
+    notes: "NuFIT 6.0 NO delta_CP; sigma uses larger side (41 deg) as conservative symmetric sigma"
