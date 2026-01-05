@@ -49,7 +49,7 @@ rule run_injection:
         meta=OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json"
     shell:
         "python phase3/src/phase3/inject/run_injection.py "
-        "--theta_summary {input.summary} --out_fig {output.fig}"
+        "--theta_summary {input.summary} --out_fig {output.fig} --out_meta {output.meta}"
 
 rule make_bundle:
     input:
