@@ -1965,3 +1965,9 @@ Notes:
 ## 2026-01-05 — Phase 3 θ-fit contract (bootstrap placeholder)
 - Added Phase 3 fit ansatz contract + targets.yaml (placeholder_mode=true).
 - Fit runner now reads YAML, emits provenance meta + diagnostics JSON, and bundles them for Level A verification.
+
+## 2026-01-05 — Phase 3 baseline fixed-offset locked (b_PMNS = pi)
+- Discrete offset sweep selected b_PMNS = pi as best hypothesis; locked in targets.yaml and recorded in phase3 notes.
+
+## 2026-01-05 — Phase 3 baseline fixed-offset locked (b_PMNS = pi)
+- Discrete offset sweep selected b_PMNS = pi as best hypothesis; locked in targets.yaml and recorded in phase3 notes.

@@ -10,3 +10,13 @@
 - Upgraded `run_fit.py` to be contract-driven (YAML targets, provenance, diagnostics).
 - Promoted fit diagnostics + meta to first-class artifacts in Snakemake + paper bundle.
 - Updated CLAIMS_TABLE to point to the new artifacts.
+
+## 2026-01-05 — Phase 3 baseline fixed-offset selected (b_PMNS = pi)
+- Used discrete hypothesis sweep (theta_offset_sweep.csv) to select the baseline fixed offset.
+- Winner: b_PMNS = pi (lowest chi2); locked into phase3/fit/targets.yaml as ansatz v1b-baseline-bpmns-pi.
+- Added note: phase3/notes/offset_model_selection.md
+
+## 2026-01-05 — Phase 3 baseline fixed-offset selected (b_PMNS = pi)
+- Used discrete hypothesis sweep (theta_offset_sweep.csv) to select the baseline fixed offset.
+- Winner: b_PMNS = pi (lowest chi2); locked into phase3/fit/targets.yaml as ansatz v1b-baseline-bpmns-pi.
+- Added note: phase3/notes/offset_model_selection.md

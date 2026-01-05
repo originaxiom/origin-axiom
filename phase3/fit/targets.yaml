@@ -3,8 +3,8 @@ meta:
   dataset_name: "PHASE3_FROZEN_CKM_PMNS_PHASES_V1"
   dataset_notes: >
     Frozen targets for Phase 3 (CKM delta, PMNS delta_CP).
-    If updated later, add new files under phase3/fit/data_frozen/ and update this YAML
-    with a version bump + log entry (no silent edits).
+    This file also locks the Phase 3 baseline model hypothesis:
+    b_PMNS = pi (selected by discrete hypothesis sweep; see theta_offset_sweep.csv).
 
   frozen_sources:
     ckm_file: "phase3/fit/data_frozen/ckm_pdg2024.json"
@@ -12,10 +12,11 @@ meta:
 
 ansatz:
   name: "OA-Phase3-1theta-FlavorPhases"
-  version: "v1-frozen-phases"
+  version: "v1b-baseline-bpmns-pi"
   description: >
     Single-parameter ansatz mapping theta -> (delta_CKM, delta_CP_PMNS) as affine transforms mod 2pi.
     Only theta is fit. Offsets are fixed hypothesis choices (not fit parameters).
+    Baseline fixed choice for Phase 3: b_PMNS = pi.
 
   mapping:
     delta_ckm:
@@ -25,7 +26,7 @@ ansatz:
     delta_pmns:
       type: "affine_mod_2pi"
       a: 1.0
-      b: 0.0
+      b: 3.141592653589793
 
 scan:
   theta_min_rad: 0.0
