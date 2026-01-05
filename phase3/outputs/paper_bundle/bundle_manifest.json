@@ -1,5 +1,5 @@
 {
-  "generated_utc": "20260105T094407Z",
+  "generated_utc": "20260105T102802Z",
   "files": {
     "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.csv": {
       "sha256": "c5a75e75ea0dc30182d7b1d07d3ceb8afa21074bef1d2296448fd9c780bd1b28"
@@ -24,6 +24,9 @@
     },
     "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.meta.json": {
       "sha256": "7a05b20437550829b59c8e0877c4ede314fcc3ebe1ac4e8f6fb61f417b5079d9"
+    },
+    "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/paper/phase3_paper.pdf": {
+      "sha256": "4ef5a5006e9c5cef5a975a5a9fffa443cffc3a79419e8401c2761cb0c6ffedc4"
     }
   }
 }

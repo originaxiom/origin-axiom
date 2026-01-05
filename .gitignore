@@ -91,3 +91,15 @@ phase3/fit/targets.yaml.bak.*
 *.swp
 *.swo
 .DS_Store
+
+# Phase 3 LaTeX build artifacts (do not commit)
+phase3/paper/*.aux
+phase3/paper/*.bbl
+phase3/paper/*.blg
+phase3/paper/*.fdb_latexmk
+phase3/paper/*.fls
+phase3/paper/*.log
+phase3/paper/*.out
+phase3/paper/*.toc
+phase3/paper/*.synctex.gz
+phase3/paper/main.pdf

@@ -9,9 +9,13 @@ PHASE3 = REPO / "phase3"
 
 # Ensure phase3 package is importable for all rules
 os.environ["PYTHONPATH"] = str(PHASE3 / "src") + os.pathsep + os.environ.get("PYTHONPATH","")
+
 OUT_FIG = PHASE3 / "outputs" / "figures"
 OUT_TAB = PHASE3 / "outputs" / "tables"
+OUT_PDF = PHASE3 / "outputs" / "paper"
 BUNDLE  = PHASE3 / "outputs" / "paper_bundle"
+
+PAPER_DIR = PHASE3 / "paper"
 
 rule all:
     input:
@@ -23,6 +27,7 @@ rule all:
         OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
+        OUT_PDF / "phase3_paper.pdf",
         BUNDLE / "run_index.json",
         BUNDLE / "bundle_manifest.json"
 
@@ -54,6 +59,26 @@ rule run_injection:
         "python phase3/src/phase3/inject/run_injection.py "
         "--theta_summary {input.summary} --out_fig {output.fig} --out_meta {output.meta}"
 
+rule build_phase3_paper_pdf:
+    input:
+        PAPER_DIR / "main.tex",
+        PAPER_DIR / "Reference.bib",
+        PAPER_DIR / "sections" / "01_scope_and_nonclaims.tex",
+        PAPER_DIR / "sections" / "02_fit_pipeline.tex",
+        PAPER_DIR / "sections" / "03_injection_pipeline.tex",
+        PAPER_DIR / "sections" / "04_falsifiability.tex",
+        PAPER_DIR / "sections" / "05_limitations.tex",
+        PAPER_DIR / "appendix" / "A_claims_table.tex",
+        PAPER_DIR / "appendix" / "B_reproducibility.tex",
+        PAPER_DIR / "appendix" / "C_offset_sweep_table.tex"
+    output:
+        pdf=OUT_PDF / "phase3_paper.pdf"
+    shell:
+        "command -v latexmk >/dev/null 2>&1 || (echo 'ERROR: latexmk not found (install MacTeX or TeX Live)'; exit 1); "
+        "mkdir -p $(dirname {output.pdf}); "
+        "cd phase3/paper && latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex; "
+        "cp -f main.pdf {output.pdf}"
+
 rule make_bundle:
     input:
         OUT_TAB / "theta_fit_summary.csv",
@@ -63,7 +88,8 @@ rule make_bundle:
         OUT_TAB / "theta_offset_sweep.meta.json",
         OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
-        OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json"
+        OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
+        OUT_PDF / "phase3_paper.pdf"
     output:
         run_index=BUNDLE / "run_index.json",
         manifest=BUNDLE / "bundle_manifest.json"
@@ -72,4 +98,5 @@ rule make_bundle:
         "--in_summary {input[0]} --in_summary_meta {input[1]} --in_diag {input[2]} "
         "--in_sweep_csv {input[3]} --in_sweep_meta {input[4]} "
         "--in_fig1 {input[5]} --in_fig2 {input[6]} --in_fig2_meta {input[7]} "
+        "--in_paper_pdf {input[8]} "
         "--out_run_index {output.run_index} --out_manifest {output.manifest}"
