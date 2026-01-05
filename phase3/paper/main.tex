@@ -3,6 +3,14 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 
+% Silence hyperref PDF-string warnings for math in section titles/bookmarks
+\pdfstringdefDisableCommands{
+  \def\theta{theta}
+  \def\rightarrow{->}
+  \def\Delta{Delta}
+}
+
+
 \title{Origin Axiom — Phase 3 (Exploratory Add-on): Flavor Phase Integration}
 \author{Origin Axiom Collaboration}
 \date{}
