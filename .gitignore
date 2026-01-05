@@ -81,3 +81,6 @@ phase3/paper/**/*.out
 phase3/paper/**/*.toc
 phase3/paper/**/*.bbl
 phase3/paper/**/*.blg
+
+# Phase 3 local safety backups (never commit)
+phase3/fit/targets.yaml.bak.*
