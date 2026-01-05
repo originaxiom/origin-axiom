@@ -1,10 +1,7 @@
 import os
 from pathlib import Path
 
-# Anchor everything to the directory where snakemake is invoked.
 REPO = Path(os.getcwd()).resolve()
-
-# Safety: ensure we're in repo root (adjust checks if you prefer)
 if not (REPO / ".git").exists():
     raise RuntimeError(f"Snakemake must be run from repo root (missing .git). Got: {REPO}")
 
@@ -16,24 +13,30 @@ BUNDLE  = PHASE3 / "outputs" / "paper_bundle"
 rule all:
     input:
         OUT_TAB / "theta_fit_summary.csv",
+        OUT_TAB / "theta_fit_summary.meta.json",
+        OUT_TAB / "theta_fit_diagnostics.json",
         OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
+        OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
         BUNDLE / "run_index.json",
         BUNDLE / "bundle_manifest.json"
 
 rule run_theta_fit:
     output:
         summary=OUT_TAB / "theta_fit_summary.csv",
+        summary_meta=OUT_TAB / "theta_fit_summary.meta.json",
+        diag=OUT_TAB / "theta_fit_diagnostics.json",
         fig=OUT_FIG / "fig1_theta_fit_diagnostics.pdf"
     shell:
         "python phase3/src/phase3/fit/run_fit.py "
-        "--out_summary {output.summary} --out_fig {output.fig}"
+        "--out_summary {output.summary} --out_fig {output.fig} --out_diagnostics {output.diag}"
 
 rule run_injection:
     input:
         summary=OUT_TAB / "theta_fit_summary.csv"
     output:
-        fig=OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf"
+        fig=OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
+        meta=OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json"
     shell:
         "python phase3/src/phase3/inject/run_injection.py "
         "--theta_summary {input.summary} --out_fig {output.fig}"
@@ -41,12 +44,16 @@ rule run_injection:
 rule make_bundle:
     input:
         OUT_TAB / "theta_fit_summary.csv",
+        OUT_TAB / "theta_fit_summary.meta.json",
+        OUT_TAB / "theta_fit_diagnostics.json",
         OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
-        OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf"
+        OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
+        OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json"
     output:
         run_index=BUNDLE / "run_index.json",
         manifest=BUNDLE / "bundle_manifest.json"
     shell:
         "python phase3/src/phase3/provenance/make_paper_bundle.py "
-        "--in_summary {input[0]} --in_fig1 {input[1]} --in_fig2 {input[2]} "
+        "--in_summary {input[0]} --in_summary_meta {input[1]} --in_diag {input[2]} "
+        "--in_fig1 {input[3]} --in_fig2 {input[4]} --in_fig2_meta {input[5]} "
         "--out_run_index {output.run_index} --out_manifest {output.manifest}"

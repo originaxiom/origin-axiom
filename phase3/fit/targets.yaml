@@ -1,0 +1,33 @@
+meta:
+  placeholder_mode: true
+  dataset_name: "PHASE3_BOOTSTRAP_PLACEHOLDER"
+  dataset_notes: >
+    Placeholder targets to keep Phase 3 scaffolding runnable.
+    Replace with real CKM+PMNS targets and set placeholder_mode=false
+    when Phase 3 ansatz is locked.
+
+ansatz:
+  name: "OA-Phase3-1theta"
+  version: "v0-placeholder"
+  description: >
+    Single-parameter ansatz mapping theta -> a set of observables.
+    This placeholder version uses proxy observables only.
+
+scan:
+  theta_min_rad: 0.0
+  theta_max_rad: 6.283185307179586  # 2*pi
+  grid_points: 20001
+  delta_chi2_for_68: 1.0
+
+observables:
+  - key: "ckm_proxy"
+    target: 0.0
+    sigma: 0.2
+    weight: 1.0
+    notes: "PLACEHOLDER: replace with CKM-derived observable(s)."
+
+  - key: "pmns_proxy"
+    target: 0.0
+    sigma: 0.2
+    weight: 1.0
+    notes: "PLACEHOLDER: replace with PMNS-derived observable(s)."
