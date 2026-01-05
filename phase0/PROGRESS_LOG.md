@@ -124,3 +124,13 @@ Constraints:
 - Linked canonical PDF build entrypoint (`./scripts/build_papers.sh`) from Phase 0 and Phase 1 READMEs.
 - Added repo-level `REPRODUCIBILITY.md` pointing to Stage 0 tag `stage0-freeze-2026-01-03`.
 - No results changed; documentation/build hygiene only.
+
+
+## 2026-01-04 — Phase 2 lock promoted to canonical main
+
+- Canonical branch unified: promoted Phase 2 paper + provenance pipeline onto `main` (commit `dd4369c`).
+- Phase 2 lock tags:
+  - `phase2-lock-2026-01-04` (original lock candidate, commit `e1277e6`)
+  - `phase2-lock-2026-01-04-final` (final lock on canonical `main`, commit `dd4369c`)
+- Cleanup: merged and removed temporary working branches after unification; `main` is now the single canonical branch.
+- Safety snapshot tag created pre-unify: `backup/pre-unify-20260104-1259` (commit `d784429`).
