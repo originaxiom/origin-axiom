@@ -16,6 +16,8 @@ def main():
     ap.add_argument("--in_summary", required=True)
     ap.add_argument("--in_summary_meta", required=True)
     ap.add_argument("--in_diag", required=True)
+    ap.add_argument("--in_sweep_csv", required=True)
+    ap.add_argument("--in_sweep_meta", required=True)
     ap.add_argument("--in_fig1", required=True)
     ap.add_argument("--in_fig2", required=True)
     ap.add_argument("--in_fig2_meta", required=True)
@@ -27,6 +29,8 @@ def main():
         Path(args.in_summary),
         Path(args.in_summary_meta),
         Path(args.in_diag),
+        Path(args.in_sweep_csv),
+        Path(args.in_sweep_meta),
         Path(args.in_fig1),
         Path(args.in_fig2),
         Path(args.in_fig2_meta),
