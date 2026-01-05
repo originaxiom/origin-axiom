@@ -1,0 +1,7 @@
+# Phase 3 requirements (fill/lock during Phase 3)
+# Suggested minimum set:
+numpy
+scipy
+matplotlib
+pandas
+pyyaml

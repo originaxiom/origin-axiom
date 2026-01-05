@@ -1,0 +1,9 @@
+{
+  "generated_utc": "20260105T043258Z",
+  "artifacts": {
+    "theta_fit_summary.csv": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.csv",
+    "fig1_theta_fit_diagnostics.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig1_theta_fit_diagnostics.pdf",
+    "fig2_delta_rho_vac_vs_theta.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.pdf"
+  },
+  "notes": "Phase 3 bootstrap bundle (no heavy runs yet)."
+}

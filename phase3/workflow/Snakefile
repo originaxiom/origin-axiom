@@ -1,0 +1,52 @@
+import os
+from pathlib import Path
+
+# Anchor everything to the directory where snakemake is invoked.
+REPO = Path(os.getcwd()).resolve()
+
+# Safety: ensure we're in repo root (adjust checks if you prefer)
+if not (REPO / ".git").exists():
+    raise RuntimeError(f"Snakemake must be run from repo root (missing .git). Got: {REPO}")
+
+PHASE3 = REPO / "phase3"
+OUT_FIG = PHASE3 / "outputs" / "figures"
+OUT_TAB = PHASE3 / "outputs" / "tables"
+BUNDLE  = PHASE3 / "outputs" / "paper_bundle"
+
+rule all:
+    input:
+        OUT_TAB / "theta_fit_summary.csv",
+        OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
+        OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
+        BUNDLE / "run_index.json",
+        BUNDLE / "bundle_manifest.json"
+
+rule run_theta_fit:
+    output:
+        summary=OUT_TAB / "theta_fit_summary.csv",
+        fig=OUT_FIG / "fig1_theta_fit_diagnostics.pdf"
+    shell:
+        "python phase3/src/phase3/fit/run_fit.py "
+        "--out_summary {output.summary} --out_fig {output.fig}"
+
+rule run_injection:
+    input:
+        summary=OUT_TAB / "theta_fit_summary.csv"
+    output:
+        fig=OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf"
+    shell:
+        "python phase3/src/phase3/inject/run_injection.py "
+        "--theta_summary {input.summary} --out_fig {output.fig}"
+
+rule make_bundle:
+    input:
+        OUT_TAB / "theta_fit_summary.csv",
+        OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
+        OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf"
+    output:
+        run_index=BUNDLE / "run_index.json",
+        manifest=BUNDLE / "bundle_manifest.json"
+    shell:
+        "python phase3/src/phase3/provenance/make_paper_bundle.py "
+        "--in_summary {input[0]} --in_fig1 {input[1]} --in_fig2 {input[2]} "
+        "--out_run_index {output.run_index} --out_manifest {output.manifest}"

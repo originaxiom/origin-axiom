@@ -1,0 +1,14 @@
+{
+  "generated_utc": "20260105T043258Z",
+  "files": {
+    "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.csv": {
+      "sha256": "22281a3cd1aa121b7721318c4e89e5603c6cb57fc01dcbdd6bf830c28614b263"
+    },
+    "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig1_theta_fit_diagnostics.pdf": {
+      "sha256": "c7fb0727cc08cfc82a017f00d25f0532197a5ec04121fb9747e0f0d00f6c8212"
+    },
+    "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.pdf": {
+      "sha256": "943b3145f63f7ee900a1dddf63b75d32b523903c6ffefbc816bac1a7fd2f3f9d"
+    }
+  }
+}

@@ -1956,3 +1956,8 @@ Notes:
 
 - Removed last dangling cross-reference in Phase 0 appendices (no undefined refs remain).
 - Verified bibliography keys and citation resolution under latexmk.
+
+## 2026-01-05 — Phase 3 bootstrap (scope-aligned)
+- Created phase3/ structure + Phase 3 contract docs (SCOPE, NON_CLAIMS, ASSUMPTIONS, APPROXIMATION_CONTRACT, CLAIMS, CLAIMS_TABLE, REPRODUCIBILITY).
+- Added scripts/phase3_gate.sh (Level A/B/C) + phase3/workflow/Snakefile skeleton.
+- Added Phase 3 fit + injection script skeletons and paper skeleton.

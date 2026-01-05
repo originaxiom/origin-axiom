@@ -64,3 +64,20 @@ phase0/paper/*.out
 phase0/paper/*.toc
 phase0/paper/*.fls
 phase0/paper/*.fdb_latexmk
+
+# -------------------------
+# Phase 3 (local heavy runs)
+# -------------------------
+phase3/outputs/runs/
+phase3/outputs/**/__pycache__/
+phase3/outputs/**/*.tmp
+phase3/outputs/**/*.log
+phase3/outputs/**/*.bak
+
+# If you generate intermediate LaTeX build files
+phase3/paper/**/*.aux
+phase3/paper/**/*.log
+phase3/paper/**/*.out
+phase3/paper/**/*.toc
+phase3/paper/**/*.bbl
+phase3/paper/**/*.blg
