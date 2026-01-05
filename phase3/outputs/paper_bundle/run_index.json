@@ -1,9 +1,12 @@
 {
-  "generated_utc": "20260105T043258Z",
+  "generated_utc": "20260105T062649Z",
   "artifacts": {
     "theta_fit_summary.csv": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.csv",
+    "theta_fit_summary.meta.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.meta.json",
+    "theta_fit_diagnostics.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_diagnostics.json",
     "fig1_theta_fit_diagnostics.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig1_theta_fit_diagnostics.pdf",
-    "fig2_delta_rho_vac_vs_theta.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.pdf"
+    "fig2_delta_rho_vac_vs_theta.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.pdf",
+    "fig2_delta_rho_vac_vs_theta.meta.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.meta.json"
   },
-  "notes": "Phase 3 bootstrap bundle (no heavy runs yet)."
+  "notes": "Phase 3 paper bundle (Level A evidence store)."
 }

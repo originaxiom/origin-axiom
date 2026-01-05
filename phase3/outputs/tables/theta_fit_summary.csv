@@ -1,2 +1,2 @@
-theta_best_rad,theta_best_deg,chi2,dof,theta_68_lo_rad,theta_68_hi_rad
-0.5899911003441631,33.804,24.999999999999986,1,0.0,6.283185307179586
+theta_best_rad,theta_best_deg,chi2,dof,theta_68_lo_rad,theta_68_hi_rad,ansatz_name,ansatz_version,dataset_name,placeholder_mode
+0.5899911003441631,33.804,24.999999999999986,1,0.0,6.283185307179586,OA-Phase3-1theta,v0-placeholder,PHASE3_BOOTSTRAP_PLACEHOLDER,True
