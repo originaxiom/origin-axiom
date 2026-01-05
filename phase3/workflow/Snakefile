@@ -12,6 +12,7 @@ os.environ["PYTHONPATH"] = str(PHASE3 / "src") + os.pathsep + os.environ.get("PY
 
 OUT_FIG = PHASE3 / "outputs" / "figures"
 OUT_TAB = PHASE3 / "outputs" / "tables"
+OUT_THETA = PHASE3 / "outputs" / "theta_filter"
 OUT_PDF = PHASE3 / "outputs" / "paper"
 BUNDLE  = PHASE3 / "outputs" / "paper_bundle"
 
@@ -29,7 +30,8 @@ rule all:
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
         OUT_PDF / "phase3_paper.pdf",
         BUNDLE / "run_index.json",
-        BUNDLE / "bundle_manifest.json"
+        BUNDLE / "bundle_manifest.json",
+        OUT_THETA / "phase_03_theta_filter.json"
 
 rule run_theta_fit:
     output:
@@ -81,22 +83,41 @@ rule build_phase3_paper_pdf:
 
 rule make_bundle:
     input:
-        OUT_TAB / "theta_fit_summary.csv",
-        OUT_TAB / "theta_fit_summary.meta.json",
-        OUT_TAB / "theta_fit_diagnostics.json",
-        OUT_TAB / "theta_offset_sweep.csv",
-        OUT_TAB / "theta_offset_sweep.meta.json",
-        OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
-        OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
-        OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
-        OUT_PDF / "phase3_paper.pdf"
+        summary=OUT_TAB / "theta_fit_summary.csv",
+        summary_meta=OUT_TAB / "theta_fit_summary.meta.json",
+        diag=OUT_TAB / "theta_fit_diagnostics.json",
+        sweep_csv=OUT_TAB / "theta_offset_sweep.csv",
+        sweep_meta=OUT_TAB / "theta_offset_sweep.meta.json",
+        fig1=OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
+        fig2=OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
+        fig2_meta=OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
+        paper_pdf=OUT_PDF / "phase3_paper.pdf",
+        theta_filter=OUT_THETA / "phase_03_theta_filter.json"
     output:
         run_index=BUNDLE / "run_index.json",
         manifest=BUNDLE / "bundle_manifest.json"
     shell:
         "python phase3/src/phase3/provenance/make_paper_bundle.py "
-        "--in_summary {input[0]} --in_summary_meta {input[1]} --in_diag {input[2]} "
-        "--in_sweep_csv {input[3]} --in_sweep_meta {input[4]} "
-        "--in_fig1 {input[5]} --in_fig2 {input[6]} --in_fig2_meta {input[7]} "
-        "--in_paper_pdf {input[8]} "
+        "--in_summary {input.summary} --in_summary_meta {input.summary_meta} --in_diag {input.diag} "
+        "--in_sweep_csv {input.sweep_csv} --in_sweep_meta {input.sweep_meta} "
+        "--in_fig1 {input.fig1} --in_fig2 {input.fig2} --in_fig2_meta {input.fig2_meta} "
+        "--in_paper_pdf {input.paper_pdf} --in_theta_filter {input.theta_filter} "
         "--out_run_index {output.run_index} --out_manifest {output.manifest}"
+
+rule build_phase3_theta_filter:
+    input:
+        summary=OUT_TAB / "theta_fit_summary.csv",
+        summary_meta=OUT_TAB / "theta_fit_summary.meta.json",
+        targets=PHASE3 / "fit" / "targets.yaml",
+        ansatz=PHASE3 / "src" / "phase3" / "fit" / "run_fit.py"
+    output:
+        out=OUT_THETA / "phase_03_theta_filter.json"
+    shell:
+        "python phase3/src/phase3/theta_filter/build_phase3_theta_filter.py "
+        "--in_summary_csv {input.summary} "
+        "--in_summary_meta {input.summary_meta} "
+        "--in_targets_yaml {input.targets} "
+        "--in_ansatz_py {input.ansatz} "
+        "--out_json {output.out} "
+        "--grid_step 0.01 "
+        "--test_name fit_compat_interval"

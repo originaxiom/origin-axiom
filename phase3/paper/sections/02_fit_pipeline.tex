@@ -1,13 +1,33 @@
-\section{Fit Pipeline: CKM+PMNS \texorpdfstring{$\rightarrow$}{->} $\theta$}
-We define an explicit ansatz mapping $\theta$ to target observables and perform a grid-based $\chi^2$ scan.
-We report best-fit $\theta$, an uncertainty interval, and diagnostics.
-The CKM and PMNS phase targets are treated as frozen external inputs (PDG and NuFIT snapshots) for this exploratory add-on~\cite{PDG2024RPP,NuFIT52}.
+\section{Fit Pipeline: CKM+PMNS \texorpdfstring{$\rightarrow$}{->} \texorpdfstring{$\theta$}{theta}}
+\label{sec:fit}
+
+We define an explicit mapping (ansatz) from a single phase parameter
+\texorpdfstring{$\theta$}{theta} to a set of target observables and perform a grid-based
+\texorpdfstring{$\chi^2$}{chi2} scan. We report the best-fit \texorpdfstring{$\theta$}{theta},
+an uncertainty interval, and diagnostics. External CKM/PMNS targets are treated as frozen inputs for this
+Phase 3 add-on, sourced from standard references (PDG and NuFIT snapshots) and encoded in
+\texttt{phase3/fit/targets.yaml}~\cite{PDG2024RPP,NuFIT52}.
+
+\subsection{Objective function}
+Let the ansatz predict a set of phase-like targets $\{\varphi_i(\theta)\}$ to be compared against frozen
+targets $\{\varphi_i^{\mathrm{tgt}}\}$ with uncertainties $\{\sigma_i\}$.
+Because phases are defined modulo $2\pi$, we use a wrapped distance
+\[
+\Delta(\alpha,\beta) = \mathrm{wrap}(\alpha-\beta)\in(-\pi,\pi],
+\qquad
+\chi^2(\theta)=\sum_i \left(\frac{\Delta(\varphi_i(\theta),\varphi_i^{\mathrm{tgt}})}{\sigma_i}\right)^2 .
+\]
+The implementation details (grid bounds, step size, and target keys) are recorded in the accompanying
+metadata JSON produced by the workflow.
 
 \subsection{Discrete offset sweep and baseline choice}
-To avoid hidden parameter fitting, the Phase 3 baseline fixes all offset choices a priori and fits only $\theta$.
-We nevertheless test a small discrete set of candidate fixed offsets for the PMNS phase mapping,
+To avoid hidden parameter fitting, the Phase 3 baseline fixes all offset choices a priori and fits only
+\texorpdfstring{$\theta$}{theta}. We nevertheless test a small discrete set of candidate fixed offsets for
+the PMNS phase mapping,
 $b_{\mathrm{PMNS}} \in \{0,\ \pi,\ -\pi/2,\ +\pi/2\}$, holding the rest of the ansatz fixed.
-For each hypothesis we run the same grid scan over $\theta$ and compare the minimum $\chi^2$ values.
-The resulting model-selection evidence is reported in Appendix~\ref{tab:offset-sweep}.
-We adopt as the Phase 3 baseline the discrete hypothesis with the lowest $\chi^2$ (under the frozen CKM/PMNS targets),
-which selects $b_{\mathrm{PMNS}}=\pi$ for the current exploratory add-on.
+For each hypothesis we run the same grid scan over \texorpdfstring{$\theta$}{theta} and compare the minimum
+\texorpdfstring{$\chi^2$}{chi2} values. The results are reported in Appendix~\ref{tab:offset-sweep}.
+
+We adopt as the Phase 3 baseline the discrete hypothesis with the lowest minimum
+\texorpdfstring{$\chi^2$}{chi2} under the frozen targets. For the current run this selects
+$b_{\mathrm{PMNS}}=\pi$.

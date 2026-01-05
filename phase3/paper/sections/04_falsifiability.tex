@@ -1,24 +1,26 @@
-\section{Falsifiability and Stress Tests}
-Phase 3 is an exploratory add-on that binds a single fitted parameter $\theta$ (from frozen CKM/PMNS phase targets under a declared ansatz)
-to a Phase 2-style injection diagnostic. The core falsifiability questions for this add-on are therefore about (i) target stability,
-(ii) ansatz dependence, and (iii) reproducibility invariants.
+\section{Falsifiability and Failure Modes}
+\label{sec:falsifiability}
 
-\subsection{Target-freeze sensitivity}
-The CKM and PMNS phase targets are frozen snapshots. A materially different future global fit (or a different ordering assumption for $\delta_{\mathrm{CP}}$)
-could shift the best-fit $\theta$ and/or the preferred discrete offset choice. This does not falsify Phase 2,
-but it would falsify the Phase 3 \emph{numerical} baseline as stated here if the discrete sweep no longer prefers $b_{\mathrm{PMNS}}=\pi$ under the updated freeze.
+Phase 3 is falsifiable in the narrow sense appropriate to an exploratory fit: the mapping from
+\texorpdfstring{$\theta$}{theta} to the frozen flavor targets can fail to produce a stable, interpretable
+interval.
 
-\subsection{Discrete hypothesis robustness}
-We adopt the Phase 3 baseline hypothesis by minimizing $\chi^2$ over a small discrete set $b_{\mathrm{PMNS}} \in \{0,\pi,-\pi/2,+\pi/2\}$, without fitting $b_{\mathrm{PMNS}}$.
-A falsifying outcome for the current baseline would be that modest, pre-declared changes in the discrete candidate set (e.g., adding $\pm \pi/4$)
-produce no stable preference or produce a qualitatively different preference without a clear physical rationale.
+\subsection{Explicit failure conditions}
+We treat the Phase 3 extraction as \emph{invalid} if any of the following occur:
+\begin{itemize}
+  \item \textbf{Non-identifiability:} multiple disjoint \texorpdfstring{$\theta$}{theta} regions yield
+        indistinguishably good minima (flat or multi-modal \texorpdfstring{$\chi^2$}{chi2} without a
+        defensible interval).
+  \item \textbf{Offset ambiguity:} the discrete offset sweep yields competing hypotheses with comparable
+        minima, preventing a pre-registered baseline choice from being meaningful.
+  \item \textbf{Target drift collapse:} a reasonable update of the external targets (future PDG/NuFIT
+        releases) removes the minimum or shifts it outside any stable corridor overlap with other phases.
+  \item \textbf{Ansatz fragility:} small, clearly stated modifications to the mapping family (within the
+        declared ansatz class) destroy the existence of a stable minimum, indicating the result is an
+        artifact of parameterization rather than a durable extraction.
+\end{itemize}
 
-\subsection{Ansatz dependence}
-The mapping $\theta \mapsto (\delta_{\mathrm{CKM}},\delta_{\mathrm{CP}})$ is an explicit modeling choice. If alternative, equally simple one-parameter mappings
-(e.g., non-affine monotone maps, or fixed sign flips) fit comparably well or better, then the baseline mapping used here is not uniquely motivated.
-This would not falsify the existence of a correlation, but it would weaken any interpretation that relies on a specific functional form.
-
-\subsection{Reproducibility invariants}
-All Phase 3 outputs are required to be reproducible by the gate scripts and the paper bundle manifests.
-A hard falsification of the Phase 3 computational claim is failure to reproduce the committed bundle artifacts (tables/figures/manifests)
-from a clean checkout under the declared environment and commands.
+\subsection{What Phase 3 can support downstream}
+If Phase 3 passes the checks above, it supports only this downstream use:
+the exported \texttt{phase\_03\_theta\_filter.json} interval can be compared by Phase 0 ledger tooling to
+other phase constraints to test whether a corridor overlap emerges. No stronger inference is warranted.

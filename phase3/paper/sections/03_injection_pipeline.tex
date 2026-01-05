@@ -1,13 +1,12 @@
-\section{Injection Pipeline: $\theta \rightarrow$ Phase 2 residue diagnostic}
-Given the best-fit $\theta$ from the Phase 3 fit pipeline, we feed $\theta$ into the Phase 2-style injection mechanism
-as an exploratory diagnostic step. This add-on is strictly under-claimed: the purpose is to document a reproducible,
-traceable correlation between the fitted flavor-phase parameter and the injection-style residue diagnostic.
+\section{Injection Pipeline: \texorpdfstring{$\theta$}{theta} \texorpdfstring{$\rightarrow$}{->} Phase 2 diagnostic}
+\label{sec:injection}
 
-\subsection{Provenance lock for the injection figure}
-The injection stage consumes the fitted summary artifact (\texttt{theta\_fit\_summary.csv}) and emits the figure
-\texttt{fig2\_delta\_rho\_vac\_vs\_theta.pdf}. Alongside the PDF we generate a strict provenance record
-\texttt{fig2\_delta\_rho\_vac\_vs\_theta.meta.json} that binds the plot to:
-(i) the exact git commit hash, (ii) SHA-256 hashes of the fit summary and \texttt{targets.yaml}, and
-(iii) the locked baseline model choice (including the fixed $b_{\mathrm{PMNS}}$ value).
-This ensures the injection plot cannot drift away from the declared Phase 3 baseline hypothesis or the frozen targets.
+The injection stage is a \emph{downstream diagnostic} that consumes the fitted
+\texttt{theta\_\allowbreak fit\_\allowbreak summary.csv} artifact and evaluates the Phase~2 injection
+observable (vacuum-residue response) as a function of \texorpdfstring{$\theta$}{theta}.
+This stage does \emph{not} participate in the Phase 3 fit objective and therefore cannot retroactively
+improve the CKM/PMNS fit. Its role is purely cross-phase: it allows the Phase 3 best-fit interval to be
+visualized against the Phase 2 diagnostic curve, producing Figure~2 and associated provenance metadata.
 
+All injection outputs are packaged in the Phase 3 paper bundle and listed in the manifest. The workflow
+records the exact inputs, hashes, and run environment so the diagnostic can be regenerated verbatim.
