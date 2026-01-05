@@ -6,6 +6,9 @@ if not (REPO / ".git").exists():
     raise RuntimeError(f"Snakemake must be run from repo root (missing .git). Got: {REPO}")
 
 PHASE3 = REPO / "phase3"
+
+# Ensure phase3 package is importable for all rules
+os.environ["PYTHONPATH"] = str(PHASE3 / "src") + os.pathsep + os.environ.get("PYTHONPATH","")
 OUT_FIG = PHASE3 / "outputs" / "figures"
 OUT_TAB = PHASE3 / "outputs" / "tables"
 BUNDLE  = PHASE3 / "outputs" / "paper_bundle"

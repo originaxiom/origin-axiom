@@ -84,3 +84,10 @@ phase3/paper/**/*.blg
 
 # Phase 3 local safety backups (never commit)
 phase3/fit/targets.yaml.bak.*
+
+# ---- local/editor backups (do not commit) ----
+*.bak.*
+*~ 
+*.swp
+*.swo
+.DS_Store

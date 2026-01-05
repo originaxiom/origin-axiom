@@ -14,7 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parents[4]  # .../origin-axiom
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from phase3.src.phase3.fit.run_fit import load_config, validate_config, chi2_objective  # noqa: E402
+from phase3.fit.run_fit import load_config, validate_config, chi2_objective  # noqa: E402
 
 
 @dataclass
