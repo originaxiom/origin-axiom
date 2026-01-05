@@ -13,6 +13,7 @@ def sha256_file(p: Path) -> str:
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--in_theta_filter", default=None, help="Optional Phase 3 theta_filter JSON artifact")
     ap.add_argument("--in_summary", required=True)
     ap.add_argument("--in_summary_meta", required=True)
     ap.add_argument("--in_diag", required=True)
@@ -37,6 +38,10 @@ def main():
         Path(args.in_fig2_meta),
         Path(args.in_paper_pdf),
     ]
+    # Optional: include Phase 3 theta_filter artifact if provided
+    if getattr(args, 'in_theta_filter', None):
+        files.append(Path(args.in_theta_filter))
+
 
     out_run_index = Path(args.out_run_index)
     out_manifest = Path(args.out_manifest)
