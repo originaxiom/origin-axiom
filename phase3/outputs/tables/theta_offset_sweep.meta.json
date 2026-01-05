@@ -1,0 +1,13 @@
+{
+  "config_path": "/Users/dri/Documents/Projects/origin-axiom/phase3/fit/targets.yaml",
+  "ansatz_name": "OA-Phase3-1theta-FlavorPhases",
+  "ansatz_version": "v1-frozen-phases",
+  "b_values_rad": [
+    0.0,
+    3.141592653589793,
+    -1.5707963267948966,
+    1.5707963267948966
+  ],
+  "chi2_min": 0.6754737030316228,
+  "note": "Discrete fixed-offset hypotheses; b is NOT fit."
+}
