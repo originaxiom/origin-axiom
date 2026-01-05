@@ -21,6 +21,7 @@ def main():
     ap.add_argument("--in_fig1", required=True)
     ap.add_argument("--in_fig2", required=True)
     ap.add_argument("--in_fig2_meta", required=True)
+    ap.add_argument("--in_paper_pdf", required=True)
     ap.add_argument("--out_run_index", required=True)
     ap.add_argument("--out_manifest", required=True)
     args = ap.parse_args()
@@ -34,6 +35,7 @@ def main():
         Path(args.in_fig1),
         Path(args.in_fig2),
         Path(args.in_fig2_meta),
+        Path(args.in_paper_pdf),
     ]
 
     out_run_index = Path(args.out_run_index)
