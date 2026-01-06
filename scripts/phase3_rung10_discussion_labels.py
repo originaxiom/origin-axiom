@@ -1,4 +1,91 @@
-\section{Discussion and Limitations}
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import shutil
+from datetime import datetime
+from pathlib import Path
+
+root = Path(__file__).resolve().parents[1]
+
+def backup(path: Path) -> Path:
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = path.with_name(path.name + f".bak.{ts}")
+    shutil.copy2(path, backup_path)
+    print(f"[backup] {path} -> {backup_path}")
+    return backup_path
+
+# --- Targets ---
+claims_path = root / "phase3/paper/appendix/A_claims_table.tex"
+offs_path   = root / "phase3/paper/appendix/C_offset_sweep_table.tex"
+theta_path  = root / "phase3/paper/appendix/D_theta_filter.tex"
+lim_path    = root / "phase3/paper/sections/05_limitations.tex"
+log_path    = root / "phase3/PROGRESS_LOG.md"
+
+for p in (claims_path, offs_path, theta_path, lim_path):
+    if not p.exists():
+        print(f"ERROR: {p} not found.")
+        raise SystemExit(1)
+
+# --- Backup originals ---
+backup(claims_path)
+backup(offs_path)
+backup(theta_path)
+backup(lim_path)
+
+# --- Label patch: A_claims_table.tex ---
+claims_text = claims_path.read_text(encoding="utf-8")
+if "\\label{app:phase3_claims_table}" in claims_text:
+    print("[A_claims_table] Label already present.")
+else:
+    needle = r"\section{Claims Table (Phase 3)}"
+    if needle in claims_text:
+        claims_text = claims_text.replace(
+            needle,
+            needle + "\n\\label{app:phase3_claims_table}",
+            1,
+        )
+        claims_path.write_text(claims_text, encoding="utf-8")
+        print("[A_claims_table] Inserted \\label{app:phase3_claims_table}.")
+    else:
+        print("[WARN] A_claims_table: could not find section header to label.")
+
+# --- Label patch: C_offset_sweep_table.tex ---
+offs_text = offs_path.read_text(encoding="utf-8")
+if "\\label{app:offset_sweep_table}" in offs_text:
+    print("[C_offset_sweep_table] Label already present.")
+else:
+    needle = r"\section{Offset sweep table}"
+    if needle in offs_text:
+        offs_text = offs_text.replace(
+            needle,
+            needle + "\n\\label{app:offset_sweep_table}",
+            1,
+        )
+        offs_path.write_text(offs_text, encoding="utf-8")
+        print("[C_offset_sweep_table] Inserted \\label{app:offset_sweep_table}.")
+    else:
+        print("[WARN] C_offset_sweep_table: could not find section header to label.")
+
+# --- Label patch: D_theta_filter.tex ---
+theta_text = theta_path.read_text(encoding="utf-8")
+if "\\label{sec:theta_filter_artifact}" in theta_text:
+    print("[D_theta_filter] Label already present.")
+else:
+    needle = r"\section{Phase 3 $\theta$-filter artifact (Phase 0 ledger interface)}"
+    if needle in theta_text:
+        theta_text = theta_text.replace(
+            needle,
+            needle + "\n\\label{sec:theta_filter_artifact}",
+            1,
+        )
+        theta_path.write_text(theta_text, encoding="utf-8")
+        print("[D_theta_filter] Inserted \\label{sec:theta_filter_artifact}.")
+    else:
+        print("[WARN] D_theta_filter: could not find section header to label.")
+
+# --- Rewrite 05_limitations.tex as Discussion+Limitations ---
+
+lim_tex = r"""\section{Discussion and Limitations}
 \label{sec:limitations}
 
 \subsection{Summary of the Phase 3 outcome}
@@ -136,3 +223,36 @@ constructive experiment: it shows how one plausible attempt to connect a
 flavor-calibrated \(\theta\) to the existing corridor fails, and it records
 enough detail that the attempt can be repeated, modified, or superseded in a
 controlled way.
+"""
+
+lim_path.write_text(lim_tex.lstrip(), encoding="utf-8")
+print("[05_limitations.tex] Rewritten as Discussion and Limitations section.")
+
+# --- Progress log entry ---
+if log_path.exists():
+    log_text = log_path.read_text(encoding="utf-8")
+else:
+    log_text = "# Phase 3 Progress Log\n"
+
+entry_header = "## 2026-01-06 - Rung 10: Discussion/limitations + appendix labels"
+if entry_header in log_text:
+    print("[PROGRESS_LOG] Rung 10 entry already present; no changes made.")
+else:
+    entry = f"""\n\n{entry_header}
+
+- Added explicit LaTeX labels for the Phase 3 claims table
+  (`app:phase3_claims_table`), offset sweep table (`app:offset_sweep_table`),
+  and theta-filter appendix (`sec:theta_filter_artifact`) so that cross-references
+  from the Methods and Results sections remain stable.
+- Rewrote `phase3/paper/sections/05_limitations.tex` as a structured Discussion
+  and Limitations section, summarizing the negative corridor outcome, clarifying
+  dependence on external flavor data and ansatz choices, and providing an outlook
+  for future Phase 3 iterations and potential Phase 4+ extensions.
+- Kept claim IDs (C3.1–C3.3), numerical artifacts, and the Phase 3 gate workflow
+  unchanged; this rung improves scientific narrative and cross-reference hygiene
+  without altering computations.
+"""
+    log_path.write_text(log_text + entry, encoding="utf-8")
+    print("[PROGRESS_LOG] Appended Rung 10 entry.")
+
+print("Rung 10 patcher completed.")
