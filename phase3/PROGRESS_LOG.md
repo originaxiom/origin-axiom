@@ -122,3 +122,19 @@
   binding-certificate diagnostics; this rung improves the scientific
   narrative around the existing Phase 3 mechanism while keeping the gate
   workflow and artifacts unchanged.
+
+## 2026-01-06 - Rung 7: binding profile figure and results consolidation
+
+- Added `phase3/src/phase3_mech/make_mech_figures.py` to generate a
+  baseline binding-profile figure showing \(A_0(\theta)\), the
+  floor-enforced amplitude \(A(\theta)\), and the floor level
+  \(\epsfloor\), writing the PDF to
+  `phase3/outputs/figures/fig1_mech_binding_profile.pdf`.
+- Rewrote `phase3/paper/sections/03_results_stub.tex` as a structured
+  Results section covering the baseline scan, quantile-based floor
+  selection, binding-certificate scan, and the binding-profile
+  figure and diagnostics.
+- No changes to the underlying toy vacuum mechanism, baseline scan
+  parameters, or binding-certificate diagnostics; this rung improves
+  the presentation and adds a visual diagnostic while keeping the
+  Phase 3 gate workflow unchanged.

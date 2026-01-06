@@ -1,88 +1,108 @@
-\section{Baseline binding experiment and floor diagnostics}
-\label{sec:baseline_binding}
+\section{Results: binding regime diagnostics}
+\label{sec:phase3-results}
 
-This section reports the first numerical experiments on the Phase~3
-toy vacuum defined in Section~\ref{sec:mechanism_design}. The goal
-is not yet to contact external observables, but to establish that the
-non-cancellation floor can be enforced in a regime where it is both
-active and diagnostically relevant for the global amplitude
-\(\Amean(\theta)\).
+This section summarizes the numerical behavior of the toy vacuum under
+the non-cancellation floor. We focus on two closely related
+experiments:
 
-\subsection{Baseline scan and quantile-based floor selection}
+\begin{enumerate}
+  \item a \emph{baseline scan} of the unconstrained amplitude
+        \(A_0(\theta)\) over \(\theta \in [0, 2\pi)\), used to define a
+        quantile-based floor \(\epsfloor\); and
+  \item a \emph{binding-certificate scan} in which the same grid and
+        floor are used to compare \(A_0(\theta)\) with the
+        floor-enforced amplitude \(A(\theta) = \max(A_0(\theta),
+        \epsfloor)\).
+\end{enumerate}
 
-We begin by sampling the unconstrained amplitude
-\(A_0(\theta)\) on a regular grid of
-\(\theta \in [0,2\pi)\) with \(N_\theta = 2048\) points using the
-baseline configuration from Section~\ref{sec:mechanism_design}. The
-resulting grid values are written to
+Both experiments work with a deterministic ``baseline\_v1'' vacuum
+configuration as defined in Section~\ref{sec:mechanism-design}.
+
+\subsection{Baseline scan and floor selection}
+
+In the baseline scan we evaluate \(A_0(\theta)\) on a uniform grid of
+\(N_\theta = 2048\) points covering \([0,2\pi)\). The results are
+stored, for reproducibility, in
 \begin{center}
-  \texttt{phase3/outputs/tables/mech\_baseline\_scan.csv},
+  \texttt{phase3/outputs/tables/mech\_baseline\_scan.csv}
 \end{center}
-and summary diagnostics are stored in
+with summary diagnostics in
 \begin{center}
   \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}.
 \end{center}
+From the empirical distribution of \(A_0(\theta)\) we extract a
+quantile-based floor
+\[
+  \epsfloor \equiv Q_{0.25}\bigl(A_0(\theta)\bigr),
+\]
+i.e., the 25th percentile of the sampled amplitudes. For the baseline
+configuration used here, the diagnostics report
+\begin{align}
+  \epsfloor &\approx 0.0251, \\
+  \min A_0  &\approx 0.0092, \\
+  \max A_0  &\approx 0.0577,
+\end{align}
+with a binding fraction \(f_{\mathrm{bind}} = 0.25\), meaning that the
+floor is active on exactly one quarter of the sampled \(\theta\)
+values.
 
-From the empirical distribution of \(A_0(\theta)\) we select the
-non-cancellation floor \(\epsfloor\) as the 25th percentile,
-\begin{equation}
-  \epsfloor \equiv Q_{0.25}\!\bigl(A_0(\theta)\bigr),
-\end{equation}
-so that roughly one quarter of the grid points lie at or below the
-floor. For the baseline run documented here, the diagnostics record
-\(\min A_0(\theta) \approx 0.009\), \(\max A_0(\theta) \approx 0.058\),
-and \(\epsfloor \approx 0.025\), with a binding fraction
-\(f_{\mathrm{bind}} \equiv \mathbb{E}[\mathbf{1}_{A_0 < \epsfloor}]
-\approx 0.25\). The toy vacuum is therefore in a genuine binding
-regime: the floor neither freezes the dynamics (\(f_{\mathrm{bind}}=1\))
-nor becomes inert (\(f_{\mathrm{bind}}=0\)).
+This choice of \(\epsfloor\) ensures that the toy vacuum is in a
+\emph{genuine binding regime}: there are regions where the floor is
+active and regions where the unconstrained dynamics are visible, with
+neither extreme dominating the grid.
 
-\subsection{Binding certificate diagnostics}
+\subsection{Binding-certificate scan and global diagnostics}
 
-To check that the floor changes the observable in a diagnostically
-relevant way, we repeat the scan with \(\epsfloor\) enforced. Using
-the same grid and configuration as above, we compute both the
-unconstrained amplitude \(A_0(\theta)\) and the floor-enforced
-amplitude
-\begin{equation}
-  A(\theta) \equiv \max\bigl(A_0(\theta), \epsfloor\bigr),
-\end{equation}
-together with a Boolean binding mask
-\(\mathbf{1}_{\mathrm{bind}}(\theta) = \mathbf{1}_{A_0(\theta) < \epsfloor}\).
-The per-grid results are written to
+Using the same grid and the quantile-based floor, the
+binding-certificate scan evaluates both \(A_0(\theta)\) and the
+floor-enforced amplitude \(A(\theta)\) on each grid point. The results
+are stored in
 \begin{center}
-  \texttt{phase3/outputs/tables/mech\_binding\_certificate.csv},
+  \texttt{phase3/outputs/tables/mech\_binding\_certificate.csv}
 \end{center}
-and summary diagnostics to
+with summary diagnostics in
 \begin{center}
   \texttt{phase3/outputs/tables/mech\_binding\_certificate\_diagnostics.json}.
 \end{center}
 
-From these we construct simple global diagnostics:
-\begin{itemize}
-  \item the mean amplitudes
-        \(\mathbb{E}[A_0]\) and \(\mathbb{E}[A]\),
-  \item the variances \(\mathrm{Var}(A_0)\) and \(\mathrm{Var}(A)\),
-  \item the mean shift
-        \(\Delta_{\mathrm{mean}} \equiv \mathbb{E}[A] - \mathbb{E}[A_0]\),
-  \item an \(L^2\) distance
-        \(\Delta_{L^2} \equiv \bigl(\mathbb{E}[(A - A_0)^2]\bigr)^{1/2}\),
-  \item and the binding fraction
-        \(f_{\mathrm{bind}} = \mathbb{E}[\mathbf{1}_{\mathrm{bind}}]\).
-\end{itemize}
-In the baseline run, the diagnostics confirm that
-\(\Delta_{\mathrm{mean}} > 0\), \(\Delta_{L^2} > 0\), and
-\(0 < f_{\mathrm{bind}} < 1\); the floor shifts the distribution
-of amplitudes upward in a controlled but non-trivial way. This is
-exactly the qualitative behavior required for a Phase~0--style
-binding certificate: the non-cancellation floor is neither a purely
-formal constraint nor a numerically invisible perturbation.
+Figure~\ref{fig:phase3-binding-profile} shows the profile of
+\(A_0(\theta)\) and \(A(\theta)\) across the grid, together with the
+floor level \(\epsfloor\). As expected, the floor clips the lower tail
+of the amplitude distribution, leaving the upper tail unchanged.
 
-At this rung we stop short of constructing a full binding certificate
-in the sense of Phase~0---where one would compare downstream
-observables with and without the floor enforced. Here we only
-establish that the toy vacuum admits a numerically well-behaved
-regime in which the floor has a quantifiable, global effect on the
-observable \(A(\theta)\). Later rungs will connect these diagnostics
-to more structured tests and, ultimately, to a \(\theta\)-filter
-artifact suitable for the Phase~0 ledger.
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig1_mech_binding_profile}
+  \caption{Baseline binding profile for the Phase~3 toy vacuum. The
+  unconstrained amplitude \(A_0(\theta)\) (solid curve) fluctuates
+  above and below the quantile-based floor \(\epsfloor\) (dashed
+  line). The floor-enforced amplitude \(A(\theta)\) (solid curve with
+  plateaus) coincides with \(A_0(\theta)\) whenever
+  \(A_0(\theta) \ge \epsfloor\) and is clipped to \(\epsfloor\) where
+  \(A_0(\theta) < \epsfloor\).}
+  \label{fig:phase3-binding-profile}
+\end{figure}
+
+The diagnostics report, for the baseline configuration,
+\begin{align}
+  \langle A_0 \rangle &\approx 0.0388,
+  &
+  \langle A \rangle &\approx 0.0407, \\
+  \Delta_{\mathrm{mean}} &\equiv
+    \langle A \rangle - \langle A_0 \rangle \;>\; 0,
+  &
+  \Delta_{L^2} &\equiv
+    \bigl\| A - A_0 \bigr\|_2 \;>\; 0,
+\end{align}
+together with the same binding fraction \(f_{\mathrm{bind}} = 0.25\)
+and the extrema of \(A_0(\theta)\) reported above. In other words, the
+floor has a quantitatively non-trivial global effect: it shifts the
+mean amplitude, modifies the variance, and induces a finite
+\(L^2\)-distance between \(A\) and \(A_0\), all while preserving a
+non-zero region where the unconstrained dynamics remain visible.
+
+This behavior is exactly what is required for a Phase~0-style
+binding certificate. The floor is neither a purely formal constraint
+nor a numerically invisible perturbation; it acts as a genuine
+dynamical ingredient in the toy vacuum, in a regime where its impact
+can be summarized by simple, reproducible diagnostics.
