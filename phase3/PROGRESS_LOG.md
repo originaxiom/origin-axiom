@@ -81,3 +81,61 @@
   so future Phase 3/4 runs can be compared against this baseline.
 - Re-ran `bash scripts/phase3_gate.sh --level B` to confirm that the updated text, claims, and
   θ-filter appendix leave the Phase 3 workflow and paper bundle reproducible and gate-clean.
+
+
+## 2026-01-06 - Rung 8: Phase 3 abstract + introduction upgrade
+
+- Replaced the Phase 3 abstract with a structured summary that states the ansatz,
+  external flavor targets, grid scan, injection into Phase 2, and the ledger outcome
+  (empty combined corridor in the baseline configuration).
+- Renamed `\\section{Scope and Non-Claims}` to `\\section{Introduction}` and
+  updated the label to `sec:introduction` so the Phase 3 paper front matter reads
+  like a conventional introduction while preserving the existing scope / non-claims content.
+- No changes to claim IDs (C3.1–C3.3), filters, or numerical results; this rung only
+  improves the narrative structure of the front section.
+
+
+## 2026-01-06 - Rung 9: Phase 3 methods + injection results rewrite
+
+- Rewrote `phase3/paper/sections/02_fit_pipeline.tex` as a structured Methods
+  section for the flavor-sector fit, covering external targets, ansatz and
+  offset hypotheses, grid scan and objective, uncertainty interval, offset
+  sweep, and export of the ledger-facing `phase_03_theta_filter.json` artifact.
+- Rewrote `phase3/paper/sections/03_injection_pipeline.tex` as a structured
+  Results/Diagnostics section for the injection of the fitted \(\theta\) into
+  the Phase 2 vacuum-residue mechanism, including a clear definition of the
+  diagnostic curve \(\Delta\rho_{\mathrm{vac}}(\theta)\) and the role
+  of the Phase 3 fit interval.
+- Kept claim IDs (C3.1–C3.3), numerical artifacts, and gate workflow unchanged;
+  this rung tightens the scientific narrative without altering the underlying
+  computations.
+
+
+## 2026-01-06 - Rung 10: Discussion/limitations + appendix labels
+
+- Added explicit LaTeX labels for the Phase 3 claims table
+  (`app:phase3_claims_table`), offset sweep table (`app:offset_sweep_table`),
+  and theta-filter appendix (`sec:theta_filter_artifact`) so that cross-references
+  from the Methods and Results sections remain stable.
+- Rewrote `phase3/paper/sections/05_limitations.tex` as a structured Discussion
+  and Limitations section, summarizing the negative corridor outcome, clarifying
+  dependence on external flavor data and ansatz choices, and providing an outlook
+  for future Phase 3 iterations and potential Phase 4+ extensions.
+- Kept claim IDs (C3.1–C3.3), numerical artifacts, and the Phase 3 gate workflow
+  unchanged; this rung improves scientific narrative and cross-reference hygiene
+  without altering computations.
+
+
+## 2026-01-06 - Rung 9: Phase 3 methods-style fit and injection sections
+
+- Rewrote `phase3/paper/sections/02_fit_pipeline.tex` as a structured
+  methods-style description of the flavor-phase fit: external targets and
+  ansatz, objective function and scan, and the resulting fit artifacts
+  (tables, diagnostics figure, and the ledger-facing θ-filter).
+- Rewrote `phase3/paper/sections/03_injection_pipeline.tex` as a structured
+  description of the one-way injection of θ into the Phase 2 vacuum-residue
+  mechanism and the interpretation of the resulting
+  Δρ_{\mathrm{vac}}(θ) diagnostic curve.
+- No changes to the numerical results, fit configuration, or claim IDs;
+  this rung only improves the clarity and conventional ``Methods'' feel of
+  the core Phase 3 sections.

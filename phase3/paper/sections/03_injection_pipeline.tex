@@ -1,12 +1,41 @@
-\section{Injection Pipeline: \texorpdfstring{$\theta$}{theta} \texorpdfstring{$\rightarrow$}{->} Phase 2 diagnostic}
-\label{sec:injection}
+\section{Injection into the Phase 2 vacuum-residue mechanism}
+\label{sec:phase3-injection}
 
-The injection stage is a \emph{downstream diagnostic} that consumes the fitted
-\texttt{theta\_\allowbreak fit\_\allowbreak summary.csv} artifact and evaluates the Phase~2 injection
-observable (vacuum-residue response) as a function of \texorpdfstring{$\theta$}{theta}.
-This stage does \emph{not} participate in the Phase 3 fit objective and therefore cannot retroactively
-improve the CKM/PMNS fit. Its role is purely cross-phase: it allows the Phase 3 best-fit interval to be
-visualized against the Phase 2 diagnostic curve, producing Figure~2 and associated provenance metadata.
+This section explains how the Phase~3 best-fit phase $\hat{\theta}$ is used
+as an input to the Phase~2 vacuum-residue machinery, and what the resulting
+diagnostics mean.
 
-All injection outputs are packaged in the Phase 3 paper bundle and listed in the manifest. The workflow
-records the exact inputs, hashes, and run environment so the diagnostic can be regenerated verbatim.
+\subsection{One-way injection hook}
+
+Phase~2 implements a vacuum-residue mechanism and exposes a one-parameter
+injection hook for a phase-like parameter. In Phase~3 we treat this as an
+opportunity to test whether the empirically fitted flavor phase is at least
+compatible with the vacuum-side construction.
+
+Operationally, we:
+\begin{enumerate}
+  \item take the same $\theta$ grid used in the fit;
+  \item pass each $\theta$ value through the Phase~2 injection hook, keeping
+        all other Phase~2 settings fixed at their baseline values; and
+  \item record the resulting residue metric
+        $\Delta\rho_{\mathrm{vac}}(\theta)$.
+\end{enumerate}
+The injection is strictly one-way: the Phase~2 outputs are not fed back into
+the flavor fit, and no attempt is made to re-optimise $\theta$ on the basis
+of vacuum-side information.
+
+\subsection{Diagnostic curve and interpretation}
+
+The resulting curve $\Delta\rho_{\mathrm{vac}}(\theta)$ is plotted in
+\path{phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.pdf}, with metadata
+in \path{phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.meta.json}. In
+this paper we use the curve purely as a qualitative diagnostic: it shows how
+the Phase~2 residue responds as $\theta$ is moved through the corridor defined
+by the flavor fit, but we do not claim any quantitative prediction for
+cosmological observables.
+
+The only downstream interface that is allowed to act on Phase~3 is the
+ledger-facing $\theta$-filter described in Appendix~D, which compares the
+Phase~3 admissible region with the existing Phase~0--2 corridor. The injection
+described in this section is therefore a ``sanity check'' and a source of
+intuition, not a binding constraint.

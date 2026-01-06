@@ -1,5 +1,5 @@
 {
-  "generated_utc": "20260106T082952Z",
+  "generated_utc": "20260106T092235Z",
   "files": {
     "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.csv": {
       "sha256": "c5a75e75ea0dc30182d7b1d07d3ceb8afa21074bef1d2296448fd9c780bd1b28"
@@ -26,7 +26,7 @@
       "sha256": "7a05b20437550829b59c8e0877c4ede314fcc3ebe1ac4e8f6fb61f417b5079d9"
     },
     "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/paper/phase3_paper.pdf": {
-      "sha256": "eefc37071559c531343a484c264da0d0832d8fb14caabccba50fa62f76bf815c"
+      "sha256": "51de297c5a7cee2420f03b77cb6017498152d78003511dc8a5df098e118b0839"
     },
     "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/theta_filter/phase_03_theta_filter.json": {
       "sha256": "9ca40a11a930296730fa11e28ad64c9cf89cbc461861c496b27eb8e45e2ca3b4"
