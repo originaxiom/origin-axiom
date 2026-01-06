@@ -152,3 +152,22 @@
   `theta_fit_diagnostics.json` as part of the formal methods contract.
 - No changes to claim IDs, numerical artifacts, or workflow gates; this rung
   tightens the methods exposition only.
+
+
+## 2026-01-06 - Rung 12: Phase 3 cross-reference cleanup
+
+- Replaced the placeholder cross-reference `Section ??` in `phase3/paper/sections/05_limitations.tex` with `Section~\\ref{{sec:phase3-fit}}` so the Discussion points to the
+  Phase 3 flavor-phase fit Methods section.
+- Replaced the placeholder `Appendix ??` in `phase3/paper/sections/05_limitations.tex` with `Appendix~\\ref{{app:offset_sweep_table}}`, tying the discussion of
+  fixed-offset choices to the labeled offset-sweep appendix.
+- Updated `phase3/paper/sections/03_injection_pipeline.tex` so the
+  reference to the Phase 3 θ-filter appendix uses `Appendix~\\ref{{sec:theta_filter_artifact}}` instead of a hard-coded
+  letter, keeping the cross-reference robust under appendix reordering.
+- No changes to claim IDs, numerical artifacts, or gate workflow; this
+  rung only cleans up LaTeX cross-references for a more stable and
+  readable Phase 3 paper.
+
+## 2026-01-06 - Rung 13: Conclusion/outlook + reference hooks
+
+- Added a `Conclusion and outlook` subsection to `phase3/paper/sections/05_limitations.tex` to summarise the negative-corridor result and frame Phase 3 as a calibration rung with an explicit failure mode.
+- No changes to claim IDs (C3.1–C3.3), numerical artifacts, or gate workflow; this rung only improves narrative closure and reference hygiene.
