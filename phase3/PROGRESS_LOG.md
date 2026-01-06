@@ -139,3 +139,16 @@
 - No changes to the numerical results, fit configuration, or claim IDs;
   this rung only improves the clarity and conventional ``Methods'' feel of
   the core Phase 3 sections.
+
+## 2026-01-06 — Rung 12: Phase 3 ansatz sketch + methods clarification
+
+- Extended `phase3/paper/sections/02_fit_pipeline.tex` with a schematic
+  equation summarizing the Phase 3 flavor-phase ansatz, keeping the explicit
+  parameterization and offset hypotheses versioned in
+  `phase3/fit/ANSATZ_CONTRACT.md`.
+- Clarified the description of the $\chi^2$ grid scan and uncertainty interval,
+  and made explicit that the numerical values of $\hat{\theta}$ and its
+  admissible interval live in `theta_fit_summary.csv` and
+  `theta_fit_diagnostics.json` as part of the formal methods contract.
+- No changes to claim IDs, numerical artifacts, or workflow gates; this rung
+  tightens the methods exposition only.
