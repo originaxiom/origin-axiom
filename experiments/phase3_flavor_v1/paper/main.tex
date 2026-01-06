@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\input{sections/00_preamble}
+
+\title{Origin Axiom — Phase 3 (Exploratory Add-on): Flavor Phase Integration}
+\author{Origin Axiom Collaboration}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Phase~3 of the Origin-Axiom program is a ledger-compatible flavor-sector calibration add-on.
+Under a fixed, explicitly stated ansatz, and for a frozen snapshot of CKM and PMNS CP-phase
+targets, we scan a one-parameter family $\theta \in [0,2\pi)$ to extract a best-fit
+$\hat{\theta}$ and an uncertainty interval. We expose this fit as a schema-stable
+$\theta$-filter JSON artifact, designed to be consumed by the Phase~0 corridor ledger
+alongside the existing Phase~1 and Phase~2 filters. We then inject the fitted $\theta$
+into the Phase~2 vacuum-residue mechanism to compute a diagnostic
+$\Delta\rho_{\mathrm{vac}}(\theta)$ curve, keeping the injection strictly one-way
+(no feedback of Phase~2 into the flavor fit). In the baseline configuration documented
+here, the Phase~0 ledger reports that the combined corridor is empty once the Phase~3
+filter is applied. We interpret this as a negative test for the locked Phase~3
+ansatz/target combination, not as a proof that no Origin-Axiom-compatible corridor
+exists. The purpose of this paper is to make this calibration step and its failure
+mode reproducible, auditable, and upgradeable as flavor data and ansatz choices evolve.
+\end{abstract}
+
+
+\input{sections/01_scope_and_nonclaims}
+\input{sections/02_fit_pipeline}
+\input{sections/03_injection_pipeline}
+\input{sections/04_falsifiability}
+\input{sections/05_limitations}
+
+\appendix
+\input{appendix/A_claims_table}
+\input{appendix/B_reproducibility}
+
+\bibliographystyle{unsrt}
+\bibliography{Reference}
+
+\input{appendix/C_offset_sweep_table}
+
+\input{appendix/D_theta_filter.tex}
+\end{document}
