@@ -1,0 +1,20 @@
+\section*{Appendix B: Reproducibility and gate levels (skeleton)}
+\label{app:phase3_mech_repro}
+
+The Phase~3 mechanism implementation follows the multi-level gate
+structure defined in the Phase~0 contract. At Rung~1 we define only the
+filesystem layout and the top-level gate script:
+
+\begin{itemize}
+  \item source code under \texttt{phase3/src/phase3\_mech/},
+  \item paper sources under \texttt{phase3/paper/},
+  \item outputs under \texttt{phase3/outputs/},
+  \item artifacts under \texttt{phase3/artifacts/}, and
+  \item Snakemake workflow under \texttt{phase3/workflow/Snakefile}.
+\end{itemize}
+
+The gate script \texttt{scripts/phase3\_gate.sh} drives the workflow
+from the repository root. At this rung, Level~A/B gates only verify that
+the skeleton paper compiles and that the canonical PDF
+\texttt{phase3/artifacts/origin-axiom-phase3.pdf} is regenerated from
+the LaTeX sources.

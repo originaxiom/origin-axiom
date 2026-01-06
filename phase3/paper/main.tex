@@ -1,12 +1,6 @@
-\documentclass[11pt]{article}
+\input{sections/00_preamble}
 
-\usepackage[a4paper,margin=1in]{geometry}
-\usepackage{amsmath,amssymb}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{booktabs}
-
-\title{Origin Axiom — Phase 3 (Placeholder): Principled Mechanism}
+\title{Origin Axiom — Phase 3 (Mechanism): Non-cancelling Vacuum Toy Model}
 \author{Origin Axiom Collaboration}
 \date{}
 
@@ -14,16 +8,22 @@
 \maketitle
 
 \begin{abstract}
-This file is a placeholder for the future Phase 3 "principled mechanism"
-paper. As of this revision, no mechanism has been implemented. The previous
-flavor-sector exploratory add-on has been archived under
-\texttt{experiments/phase3\_flavor\_v1/}.
+This is a Rung~1 skeleton for the Phase~3 mechanism paper in the
+Origin-Axiom program. It defines the narrative structure, filesystem
+layout, and gate behaviour for a future non-cancelling vacuum toy
+model, but does not yet introduce a concrete mechanism or numerical
+results. All physical claims about the mechanism remain locked until
+later rungs populate the sections and appendices with code-backed
+content.
 \end{abstract}
 
-\section{Status}
-Phase 3 is reserved for a principled mechanism by which a non-zero lower bound
-on a vacuum-like amplitude or energy arises as a property of a model, not as
-an algorithmic enforcement rule. The design and implementation of this
-mechanism is work in progress and not yet part of the canonical codebase.
+\input{sections/01_introduction}
+\input{sections/02_mechanism_design}
+\input{sections/03_results_stub}
+\input{sections/04_limitations_stub}
+
+\appendix
+\input{appendix/A_claims_table}
+\input{appendix/B_reproducibility}
 
 \end{document}

@@ -1,0 +1,33 @@
+# Phase 3 (Mechanism) Snakemake workflow — Rung 1 skeleton
+
+phase3_dir = "phase3"
+
+rule all:
+    input:
+        f"{phase3_dir}/artifacts/origin-axiom-phase3.pdf"
+
+rule build_phase3_paper_pdf:
+    input:
+        tex = f"{phase3_dir}/paper/main.tex"
+    output:
+        pdf = f"{phase3_dir}/outputs/paper/phase3_paper.pdf"
+    shell:
+        r"""
+        set -euo pipefail
+        cd phase3/paper
+        latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+        mkdir -p ../outputs/paper
+        cp main.pdf ../outputs/paper/phase3_paper.pdf
+        """
+
+rule export_artifact:
+    input:
+        pdf = rules.build_phase3_paper_pdf.output.pdf
+    output:
+        artifact = f"{phase3_dir}/artifacts/origin-axiom-phase3.pdf"
+    shell:
+        r"""
+        set -euo pipefail
+        mkdir -p phase3/artifacts
+        cp {input.pdf} {output.artifact}
+        """
