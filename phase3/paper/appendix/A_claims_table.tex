@@ -1,8 +1,69 @@
-\section*{Appendix A: Phase 3 mechanism claims table (skeleton)}
-\label{app:phase3_mech_claims}
+\section{Phase 3 mechanism claims table}
+\label{app:phase3mech_claims_table}
 
-At Rung~1 no positive scientific claims are made beyond those already
-stated in the Phase~0 contract and the Phase~3 mechanism contract
-(``MECHANISM\_CONTRACT.md''). This appendix will eventually contain a
-structured table (C3.m.x) of Phase~3-specific claims, once a concrete
-mechanism and experiment suite exist.
+This appendix summarises the explicit claims and non-claims of the
+Phase~3 mechanism as implemented in this paper. The focus is restricted
+to the toy vacuum ensemble, the unconstrained global amplitude
+\(A_0(\theta)\), the floor-enforced amplitude \(A(\theta)\), and the
+binding diagnostics introduced in Section~\ref{sec:phase3-results}.
+
+\subsection*{Claims}
+
+\begin{center}
+\begin{tabular}{llp{0.65\textwidth}}
+\toprule
+ID & Status & Description \\
+\midrule
+M3.1 &
+Binding regime exists &
+For the baseline configuration described in
+Section~\ref{sec:mechanism-design}, there exists a strictly positive
+floor \(\epsfloor > 0\) such that the toy vacuum is in a genuine
+binding regime: the non-cancellation floor is active on a non-zero
+fraction of the \(\theta\)-grid while leaving a non-trivial region
+where \(A_0(\theta) > \epsfloor\), i.e.\ \(0 < f_{\mathrm{bind}} < 1\). \\[0.4em]
+M3.2 &
+Floor has a quantifiable global effect &
+For the same configuration and floor, the floor-enforced amplitude
+\(A(\theta)\) differs from the unconstrained amplitude
+\(A_0(\theta)\) in a quantitatively non-trivial way. In particular,
+the diagnostics reported in
+\texttt{mech\_binding\_certificate\_diagnostics.json} show a strictly
+positive mean shift and \(L^2\) distance between \(A\) and
+\(A_0\), while maintaining numerical stability across the
+\(\theta\)-grid. \\[0.4em]
+M3.3 &
+Reproducible code paths and artifacts &
+The code paths that define the toy vacuum, \(A_0(\theta)\), the
+non-cancellation floor, and the binding diagnostics are fully
+specified in the repository, and the Phase~3 gate regenerates the
+baseline-scan and binding-certificate artifacts in a clean checkout
+using only the declared dependencies. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Non-claims}
+
+The following are explicitly \emph{not} claimed at this mechanism-only
+stage:
+
+\begin{itemize}
+  \item Any identification of the toy vacuum with the real vacuum of
+        our universe.
+  \item Any claim that the chosen floor \(\epsfloor\) has direct
+        physical meaning or matches an observed vacuum energy scale.
+  \item Any claim that the present toy mechanism selects or narrows a
+        physically distinguished \(\theta\) value or corridor.
+  \item Any reduction of Standard Model free parameters, or any
+        prediction for cosmological observables.
+  \item Any assertion that this implementation is the unique or
+        correct realisation of the Origin-Axiom non-cancellation
+        principle.
+\end{itemize}
+
+These non-claims mirror the limitations discussed in
+Section~\ref{sec:phase3-limitations}. Future rungs and phases will
+need to connect the non-cancellation mechanism to external data and
+the broader corridor architecture, or else conclude that the present
+framework is not physically productive.

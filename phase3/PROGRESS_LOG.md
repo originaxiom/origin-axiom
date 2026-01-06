@@ -154,3 +154,18 @@
   diagnostics, and gate workflow unchanged; this rung is editorial,
   improving the scientific narrative without altering any numerical
   results or code paths.
+
+## 2026-01-06 - Rung 9: mechanism claims table and reproducibility appendix
+
+- Replaced the placeholder claims appendix with a structured Phase 3
+  mechanism claims table (`app:phase3mech_claims_table`) that records
+  the narrow binding-regime and reproducibility claims (M3.1–M3.3) and
+  reiterates the non-claims about physical interpretation.
+- Rewrote the Phase 3 reproducibility appendix to describe the
+  mechanism-specific layout under `phase3/`, the Level-A Phase 3 gate
+  (`bash scripts/phase3_gate.sh --level A`), and the core numerical
+  artifacts (`mech_baseline_scan.*`, `mech_binding_certificate.*`,
+  and the binding figure) on which the paper depends.
+- Left the toy vacuum mechanism, diagnostics scripts, and numerical
+  results unchanged; this rung only sharpens documentation and claim
+  boundaries around the existing Phase 3 mechanism implementation.
