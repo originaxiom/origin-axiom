@@ -31,3 +31,19 @@
 - No physical mechanism, numerical experiments, or theta-filter
   artifacts are defined at this rung; the skeleton only prepares the
   structure for later rungs.
+
+## 2026-01-06 — Rung 2: toy vacuum mechanism + unconstrained amplitude
+
+- Implemented a toy vacuum mechanism in `phase3/src/phase3_mech/vacuum_model.py`
+  with a deterministic ensemble of complex modes and a global amplitude
+  observable \(A_0(\theta)\).
+- Exposed `VacuumConfig`, `make_vacuum_config`, `amplitude_unconstrained`,
+  and `scan_amplitude_unconstrained` via `phase3/src/phase3_mech/__init__.py`
+  so that future rungs and scripts can reuse the same baseline configuration.
+- Rewrote `phase3/paper/sections/02_mechanism_design.tex` to describe the toy
+  vacuum ensemble, define \(A_0(\theta)\), and clarify the structural role
+  of the phase parameter \(\theta\) without yet enforcing the non-cancellation
+  floor.
+- No floor-enforced amplitude, binding certificate, or theta-filter artifact
+  is defined at this rung; those are deferred to later rungs in accordance
+  with the Phase 0 contract.

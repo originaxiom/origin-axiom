@@ -1,23 +1,70 @@
-\section{Mechanism design (skeleton)}
-\label{sec:mechanism-design}
+\section{Toy vacuum mechanism and global amplitude}
+\label{sec:phase3_mech_design}
 
-This section is a placeholder at Rung~1. It records the intended role
-of the Phase~3 mechanism without yet committing to a specific model.
+The Phase~3 mechanism is intentionally modest: we construct a simple,
+deterministic ``toy vacuum'' whose only job is to expose a global amplitude
+observable \(A_0(\theta)\) depending on a single phase parameter \(\theta\).
+In later rungs we will enforce the Origin-Axiom non-cancellation floor on
+this observable and study how the floor interacts with the toy dynamics.
 
-\begin{itemize}
-  \item \textbf{State space:} a finite collection of degrees of freedom
-        representing a toy vacuum configuration (to be specified).
-  \item \textbf{Dynamics:} an update map or flow that, in the absence of
-        a floor, would admit configurations with arbitrarily small net
-        amplitude or residual.
-  \item \textbf{Non-cancellation rule:} an explicit constraint that
-        enforces $|A| \ge \epsfloor$ for a suitable global observable
-        $A$, in the sense of the Phase~0 contract.
-  \item \textbf{Observables:} a residual-energy proxy and a
-        $\theta$-dependent diagnostic that can be exported as a
-        theta-filter artifact.
-\end{itemize}
+\subsection{Ensemble definition}
 
-Subsequent rungs will replace this section with a fully specified toy
-model, including equations, update rules, and the definition of the
-binding regime and binding certificate.
+We model the toy vacuum as an ensemble of \(N\) complex modes (phasors),
+each labeled by an index \(k \in \{0,\dots,N-1\}\). For a given configuration
+we assign to each mode a base phase \(\alpha_k\) and a sign
+\(\sigma_k \in \{-1,+1\}\). The sequence \((\alpha_k, \sigma_k)\) is generated
+once and for all from a fixed-seed pseudorandom generator, so that for a given
+configuration identifier the ensemble is deterministic and reproducible.
+
+Given a phase parameter \(\theta \in [0,2\pi)\), the mode-level contribution
+is
+\begin{equation}
+  z_k(\theta) \;=\; \exp\bigl[i \, (\alpha_k + \sigma_k \theta)\bigr],
+\end{equation}
+and the global complex amplitude is the ensemble mean
+\begin{equation}
+  \bar{Z}(\theta) \;=\; \frac{1}{N} \sum_{k=0}^{N-1} z_k(\theta).
+\end{equation}
+Throughout this paper we write \(A_0(\theta) = |\bar{Z}(\theta)|\) for the
+\emph{unconstrained} global amplitude.
+
+At this rung we work with a single baseline configuration
+\texttt{baseline\_v1}, defined in code by a fixed number of modes and a fixed
+RNG seed (see the Phase~3 source in \texttt{phase3/src/phase3\_mech/}).
+The intent is not to model any particular field, but to provide a simple,
+well-controlled testbed on which the non-cancellation floor can act.
+
+\subsection{Observable and the role of \texorpdfstring{$\theta$}{theta}}
+
+The phase parameter \(\theta\) plays a purely structural role in Phase~3:
+it is a single control knob that twists the ensemble of modes via the signs
+\(\sigma_k\). For a fixed vacuum configuration, varying \(\theta\) induces
+a family of amplitudes
+\begin{equation}
+  A_0(\theta) \;=\; \bigl| \bar{Z}(\theta) \bigr|.
+\end{equation}
+
+We do not, at this stage, assert that \(\theta\) is a physically interpreted
+parameter (e.g. a Standard Model phase or a cosmological quantity). The
+corridor method remains agnostic: later phases are allowed to impose
+additional constraints on \(\theta\) (for example, by requiring overlap
+with a flavor-sector fit or with a vacuum-energy diagnostic), but Phase~3
+itself treats \(\theta\) only as a structural phase parameter.
+
+\subsection{Non-cancellation floor (deferred to later rungs)}
+
+The Origin Axiom asserts that the global amplitude cannot cross below a
+strictly positive floor \(\epsfloor > 0\). In the language of this toy
+vacuum, that means we will eventually enforce
+\begin{equation}
+  A(\theta) \;\ge\; \epsfloor \;>\; 0
+\end{equation}
+for all admissible configurations and values of \(\theta\), and we will
+require a binding certificate demonstrating that the presence of the floor
+changes the dynamics in a diagnostically relevant way.
+
+However, this enforcement is postponed to later rungs. The present rung
+defines only the unconstrained observable \(A_0(\theta)\) and the baseline
+vacuum configuration on which the floor will act. This separation allows
+us to compare, in a controlled way, the floor-enforced dynamics against the
+unconstrained baseline in subsequent sections.
