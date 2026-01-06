@@ -138,3 +138,19 @@
   parameters, or binding-certificate diagnostics; this rung improves
   the presentation and adds a visual diagnostic while keeping the
   Phase 3 gate workflow unchanged.
+
+## 2026-01-06 - Rung 8: discussion and limitations for the Phase 3 mechanism
+
+- Replaced the stub `phase3/paper/sections/04_limitations_stub.tex` with
+  a structured Discussion and Limitations section that:
+  - clarifies the toy nature of the vacuum ensemble and global
+    amplitude observable \(A_0(\theta)\);
+  - explains the design-choice status of the \(\theta\) grid and
+    quantile-based floor \(\epsfloor\); and
+  - situates the current mechanism-only rung with respect to the
+    Phase~0 contract, explicitly noting that no \(\theta\)-filter
+    artifact or external data contact is claimed at this stage.
+- Left the toy mechanism, baseline scan, binding-certificate
+  diagnostics, and gate workflow unchanged; this rung is editorial,
+  improving the scientific narrative without altering any numerical
+  results or code paths.
