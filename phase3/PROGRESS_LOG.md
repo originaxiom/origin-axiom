@@ -85,3 +85,23 @@
   introduced at this rung; the goal is to demonstrate that the toy
   vacuum admits a non-trivial binding regime suitable for later
   certificates and corridor work.
+
+## 2026-01-06 - Rung 5: binding certificate diagnostics
+
+- Added `phase3/src/phase3_mech/run_binding_certificate.py`, which reuses
+  the baseline toy vacuum configuration and the quantile-based floor
+  from the baseline scan to compare \(A_0(\theta)\) and the
+  floor-enforced amplitude \(A(\theta)\).
+- Wrote per-grid binding-certificate data to
+  `phase3/outputs/tables/mech_binding_certificate.csv` and summary
+  diagnostics (mean shift, \(L^2\) distance, binding fraction, and basic
+  moments) to
+  `phase3/outputs/tables/mech_binding_certificate_diagnostics.json`.
+- Rewrote `phase3/paper/sections/03_results_stub.tex` to describe both
+  the baseline binding experiment and the binding-certificate
+  diagnostics, showing that the non-cancellation floor has a
+  quantitatively non-trivial effect on the observable while remaining
+  in a genuine binding regime.
+- No \(\theta\)-filter artifact or external observables are introduced
+  at this rung; the focus is on establishing a Phase~0-style binding
+  regime for the toy vacuum mechanism.
