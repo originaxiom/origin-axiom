@@ -75,6 +75,34 @@ For full list of Phase 2 claim IDs and evidence, see `phase2/CLAIMS.md`.
 
 ---
 
+## Phase 3 — Flavor-sector calibration add-on (CKM/PMNS θ-filter)
+
+**Source of truth:** `phase3/CLAIMS.md`  
+
+Scope (summary):
+- Ledger-compatible add-on that fits a fixed, explicitly stated ansatz to frozen CKM/PMNS CP-phase targets.
+- Allowed claim types: corridor-compatible fit, injection, and procedural falsifiability statements under the declared ansatz
+  (no Origin Axiom proof, no Standard Model parameter reduction).
+- Canonical artifacts: Phase 3 paper `phase3/artifacts/origin-axiom-phase3.pdf`, fit tables in `phase3/outputs/tables/`,
+  and the ledger-facing θ-filter `phase3/outputs/theta_filter/phase_03_theta_filter.json`.
+
+Registered Phase 3 claims (see `phase3/CLAIMS.md` for full statements and evidence):
+
+- **C3.1 — Fit claim (within ansatz)**  
+  CKM+PMNS-anchored best-fit θ and uncertainty interval within the declared Phase 3 ansatz class, with diagnostics in
+  `theta_fit_summary.csv` and `theta_fit_diagnostics.json`.
+
+- **C3.2 — Injection claim (conditional)**  
+  Given a θ value (fit-derived), injecting θ into the Phase 2 vacuum mechanism produces a reproducible Δρ_vac(θ) /
+  residue metric curve under the declared injection hook (`fig2_delta_rho_vac_vs_theta.pdf` and meta).
+
+- **C3.3 — Falsifiability claim (procedural)**  
+  Explicit conditions under which the flavor↔vacuum linkage hypothesis and the locked Phase 3 ansatz/target combination
+  are weakened or falsified, including the case where the Phase 0 corridor ledger reports an empty combined corridor
+  once the Phase 3 θ-filter is applied.
+
+---
+
 ## Future phases (placeholders)
 
 Future phases must:

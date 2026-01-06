@@ -62,3 +62,22 @@
   - `cd phase0 && python scripts/phase0_ledger.py update`
   - `cd phase0 && python scripts/phase0_ledger.py status`
   to confirm the corridor now includes Phase 3 as `phase_03_theta_filter.json`.
+
+
+## 2026-01-06 — Rung 7: Phase 3 ledger-aligned claims and paper text
+
+- Updated `phase3/CLAIMS.md` (C3.3) to include ledger-based falsifiability: Phase 3 is treated as
+  falsified for the locked ansatz/target combination when the Phase 0 corridor ledger reports an
+  empty combined corridor after applying the Phase 3 θ-filter.
+- Extended `phase3/paper/sections/01_scope_and_nonclaims.tex` with a ledger-level outcome paragraph,
+  explicitly stating that, in the current configuration, the Phase 0 ledger reports an empty
+  corridor once the Phase 3 filter is applied, and that this is interpreted as a negative test for
+  this specific ansatz/target choice (not a proof that the Origin Axiom is false).
+- Added a ledger-incompatibility failure mode to
+  `phase3/paper/sections/04_falsifiability.tex`, treating an empty combined corridor as evidence
+  against the locked Phase 3 ansatz/target combination.
+- Extended `phase3/paper/appendix/D_theta_filter.tex` with a subsection describing the current
+  ledger outcome and how it is recorded in `phase0/phase_outputs/theta_corridor_history.jsonl`,
+  so future Phase 3/4 runs can be compared against this baseline.
+- Re-ran `bash scripts/phase3_gate.sh --level B` to confirm that the updated text, claims, and
+  θ-filter appendix leave the Phase 3 workflow and paper bundle reproducible and gate-clean.

@@ -39,3 +39,12 @@ A Phase 3 run is considered successful iff:
   \item the bundle manifest lists exactly the declared inputs/outputs with hashes and sizes;
   \item the paper claims remain within the narrow scope above (no implied derivation or discovery).
 \end{itemize}
+
+\paragraph{Ledger-level outcome.}
+At the level of the Phase~0 corridor ledger, Phase~3 contributes only a filter: it
+may further narrow the corridor defined by earlier phases or, in some configurations,
+eliminate it entirely. In the baseline configuration documented here (ansatz locked in
+\texttt{phase3/fit/targets.yaml} with the stated CKM/PMNS snapshot), the Phase~0
+ledger reports that the combined corridor is empty once the Phase~3 filter is applied.
+We interpret this as a negative result for that specific ansatz/target combination, not
+as a proof that no Origin-Axiom-compatible corridor exists.

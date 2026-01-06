@@ -18,6 +18,11 @@ We treat the Phase 3 extraction as \emph{invalid} if any of the following occur:
   \item \textbf{Ansatz fragility:} small, clearly stated modifications to the mapping family (within the
         declared ansatz class) destroy the existence of a stable minimum, indicating the result is an
         artifact of parameterization rather than a durable extraction.
+  \item \textbf{Ledger incompatibility:} when the Phase~3 $\theta$-filter is injected
+        into the Phase~0 corridor ledger, the resulting combined corridor becomes empty
+        (no $\theta$ survives simultaneous application of the Phase~0--2 and Phase~3
+        filters). This is treated as evidence against the locked Phase~3 ansatz/target
+        combination until the ansatz or external targets are revised.
 \end{itemize}
 
 \subsection{What Phase 3 can support downstream}

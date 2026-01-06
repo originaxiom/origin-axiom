@@ -18,3 +18,13 @@ and it avoids parameter proliferation or implicit re-optimization beyond the one
 The JSON conforms to the Phase 0 ledger interface: it declares a $\theta$ domain on $[0,2\pi)$,
 provides an interval-form corridor representation, and includes a deterministic grid+pass array representation,
 plus provenance bindings (commit/config/environment hashes when available).
+
+\subsection{Ledger outcome in the current configuration}
+The Phase~0 ledger applies the Phase~3 $\theta$-filter on top of the existing
+Phase~0--2 filters and records the resulting combined corridor in
+\path{phase0/phase_outputs/theta_corridor_history.jsonl}. In the baseline
+configuration documented here, the ledger reports that the combined corridor is empty
+once the Phase~3 filter is applied. This is logged as a negative test for the present
+Phase~3 ansatz/target combination, and it is intentionally encoded so that future runs
+with alternative ansatz choices or updated external targets can be compared against
+this outcome.
