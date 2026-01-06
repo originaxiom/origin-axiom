@@ -1,17 +1,93 @@
-\section{Baseline experiments (skeleton)}
-\label{sec:baseline-experiments}
+\section{Baseline binding experiment}
+\label{sec:baseline-binding}
 
-At Rung~1 no numerical experiments are yet performed. This section
-exists only to mark the structure of the eventual paper:
+With the toy vacuum and global amplitude defined in
+Section~\ref{sec:mechanism-design}, the next step is to demonstrate that
+there exist floor values \(\epsfloor > 0\) for which the non-cancellation
+constraint is \emph{diagnostically active} rather than inert. In this
+section we construct such a baseline binding regime and record it in
+machine-readable form.
 
+\subsection{Scan setup and floor selection}
+
+We fix the baseline vacuum configuration \(\mathrm{cfg}_0\) provided by
+\texttt{make\_vacuum\_config("baseline\_v1")}. For this configuration, we
+scan the unconstrained amplitude \(A_0(\theta)\) on a uniform grid
+\(\theta_k \in [0,2\pi)\) with
+\begin{equation}
+  \theta_k
+  \;=\;
+  \theta_{\min} + k\,\Delta\theta,
+  \qquad
+  \Delta\theta \equiv \frac{2\pi}{N_{\theta}},
+\end{equation}
+using the helper function
+\texttt{scan\_amplitude\_unconstrained} in the Phase~3 mechanism package.
+
+Rather than choosing \(\epsfloor\) by hand, we define it
+\emph{relative to the observed distribution} of \(A_0(\theta)\):
+\begin{equation}
+  \epsfloor
+  \;\equiv\;
+  Q_{0.25}\bigl[A_0(\theta)\bigr],
+\end{equation}
+where \(Q_{0.25}\) denotes the 25th percentile of the sampled
+\(A_0(\theta)\) values on the scan grid. By construction, this puts
+\(\epsfloor\) strictly between the minimum and maximum of the
+unconstrained amplitude and ensures that a non-zero fraction of the
+grid points lie in the binding regime \(A_0(\theta) < \epsfloor\)
+while the remainder remain unconstrained.
+
+\subsection{Binding diagnostics and artifacts}
+
+Given this choice of \(\epsfloor\), we rescan the same grid using the
+floor-enforced amplitude
+\begin{equation}
+  A(\theta)
+  \;=\;
+  \max\bigl(A_0(\theta), \epsfloor\bigr),
+\end{equation}
+via the helper \texttt{scan\_amplitude\_with\_floor}. This returns
 \begin{itemize}
-  \item description of the baseline unconstrained dynamics;
-  \item description of the dynamics under the non-cancellation rule;
-  \item definition of the residual-energy observable; and
-  \item extraction of an admissible $\theta$ corridor and a
-        theta-filter artifact compatible with the Phase~0 ledger.
+  \item the grid of phase values \(\theta_k\);
+  \item the unconstrained amplitudes \(A_0(\theta_k)\);
+  \item the floor-enforced amplitudes \(A(\theta_k)\); and
+  \item a boolean mask marking where the floor is active:
+        \(\mathrm{bind}_k = \mathbf{1}[A_0(\theta_k) < \epsfloor]\).
 \end{itemize}
+From these we derive summary diagnostics,
+\begin{equation}
+  \min A_0, \quad
+  \max A_0, \quad
+  \text{and}\quad
+  f_{\mathrm{bind}}
+  \;\equiv\;
+  \frac{1}{N_{\theta}}
+  \sum_k \mathbf{1}[A_0(\theta_k) < \epsfloor],
+\end{equation}
+which quantify the extent to which the floor is active. A configuration
+is considered to be in a \emph{binding regime} if
+\(0 < f_{\mathrm{bind}} < 1\), so that the floor affects some but not
+all grid points.
 
-All numerical values, figures, and tables are deliberately omitted at
-this stage to avoid giving the impression of claims that have not yet
-been earned by code and data.
+The per-grid data are written to
+\begin{center}
+  \texttt{phase3/outputs/tables/mech\_baseline\_scan.csv}
+\end{center}
+with columns \(\theta_k\), \(A_0(\theta_k)\), \(A(\theta_k)\), and the
+binding mask. The corresponding diagnostics and quantiles are recorded
+in
+\begin{center}
+  \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json},
+\end{center}
+including \(\epsfloor\), \(\min A_0\), \(\max A_0\), the binding
+fraction \(f_{\mathrm{bind}}\), and basic quantiles of the
+unconstrained amplitude distribution.
+
+For the baseline configuration used here, the diagnostics confirm that
+\(\epsfloor\) lies strictly between the minimum and maximum of
+\(A_0(\theta)\) and that \(0 < f_{\mathrm{bind}} < 1\); the toy
+vacuum is therefore in a genuine binding regime. This establishes the
+numerical foundation for a Phase~0--style binding certificate in
+later rungs, where we will compare the behavior of observables with
+and without the non-cancellation floor enforced.

@@ -64,3 +64,24 @@
 - No specific choice of \(\epsfloor\), no numerical binding certificate,
   and no \(\theta\)-filter artifact are fixed at this rung; those are
   deferred to later rungs in accordance with the Phase 3 mechanism contract.
+
+## 2026-01-06 - Rung 4: baseline binding experiment
+
+- Added `phase3/src/phase3_mech/run_baseline_scan.py` to construct the
+  baseline vacuum configuration, scan the unconstrained amplitude
+  \(A_0(\theta)\), choose \(\epsfloor\) as the 25th percentile of the
+  sampled \(A_0(\theta)\) values, and rescan with the non-cancellation
+  floor enforced.
+- Wrote per-grid results to
+  `phase3/outputs/tables/mech_baseline_scan.csv` and summary diagnostics
+  (including \(\epsfloor\), \(\min A_0\), \(\max A_0\), binding fraction,
+  and quantiles) to
+  `phase3/outputs/tables/mech_baseline_scan_diagnostics.json`.
+- Rewrote `phase3/paper/sections/03_results_stub.tex` as a baseline
+  binding experiment section that documents the scan procedure, the
+  quantile-based floor selection, and the diagnostic quantities used to
+  certify a genuine binding regime.
+- No \(\theta\)-filter artifact or contact with external observables is
+  introduced at this rung; the goal is to demonstrate that the toy
+  vacuum admits a non-trivial binding regime suitable for later
+  certificates and corridor work.
