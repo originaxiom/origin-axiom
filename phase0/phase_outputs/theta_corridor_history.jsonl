@@ -1,3 +1,4 @@
 {"config_hash": "sha256:2e8e6f6e0eb1ac2c23f23918d63a196890fac07404dfc367f564ffd04c05da8a", "corridor_after": [[2.18, 5.54]], "corridor_len_after": 3.36, "file": "phase_00_theta_filter.json", "git_commit": "", "narrowed": true, "order": 1, "pass_intervals": [[2.18, 5.54]]}
 {"config_hash": "", "corridor_after": [[2.18, 5.54]], "corridor_len_after": 3.36, "file": "phase_01_theta_filter.json", "git_commit": "", "narrowed": false, "order": 2, "pass_intervals": [[0.0, 6.283185307179586]]}
 {"config_hash": "", "corridor_after": [[2.18, 5.54]], "corridor_len_after": 3.36, "file": "phase_02_theta_filter.json", "git_commit": "", "narrowed": false, "order": 3, "pass_intervals": [[0.0, 6.283185307179586]]}
+{"config_hash": "", "corridor_after": [], "corridor_len_after": 0.0, "file": "phase_03_theta_filter.json", "git_commit": "", "narrowed": true, "order": 4, "pass_intervals": []}

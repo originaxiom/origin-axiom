@@ -14,6 +14,7 @@ OUT_FIG = PHASE3 / "outputs" / "figures"
 OUT_TAB = PHASE3 / "outputs" / "tables"
 OUT_THETA = PHASE3 / "outputs" / "theta_filter"
 OUT_PDF = PHASE3 / "outputs" / "paper"
+ARTIFACTS_PDF = PHASE3 / "artifacts"
 BUNDLE  = PHASE3 / "outputs" / "paper_bundle"
 
 PAPER_DIR = PHASE3 / "paper"
@@ -28,7 +29,7 @@ rule all:
         OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
         OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
-        OUT_PDF / "phase3_paper.pdf",
+        ARTIFACTS_PDF / "origin-axiom-phase3.pdf",
         BUNDLE / "run_index.json",
         BUNDLE / "bundle_manifest.json",
         OUT_THETA / "phase_03_theta_filter.json"
@@ -74,12 +75,13 @@ rule build_phase3_paper_pdf:
         PAPER_DIR / "appendix" / "B_reproducibility.tex",
         PAPER_DIR / "appendix" / "C_offset_sweep_table.tex"
     output:
-        pdf=OUT_PDF / "phase3_paper.pdf"
+        pdf=OUT_PDF / "phase3_paper.pdf",
+        artifact=ARTIFACTS_PDF / "origin-axiom-phase3.pdf"
     shell:
         "command -v latexmk >/dev/null 2>&1 || (echo 'ERROR: latexmk not found (install MacTeX or TeX Live)'; exit 1); "
-        "mkdir -p $(dirname {output.pdf}); "
+        "mkdir -p $(dirname {output.pdf}); mkdir -p $(dirname {output.artifact}); "
         "cd phase3/paper && latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex; "
-        "cp -f main.pdf {output.pdf}"
+        "cp -f main.pdf {output.pdf}; cp -f main.pdf {output.artifact}"
 
 rule make_bundle:
     input:
