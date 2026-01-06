@@ -105,3 +105,20 @@
 - No \(\theta\)-filter artifact or external observables are introduced
   at this rung; the focus is on establishing a Phase~0-style binding
   regime for the toy vacuum mechanism.
+
+## 2026-01-06 - Rung 6: mechanism-focused introduction and limitations
+
+- Rewrote `phase3/paper/sections/01_introduction.tex` to give Phase 3 a
+  mechanism-focused introduction that explains the role of the toy vacuum,
+  the global amplitude \(A_0(\theta)\), the floor-enforced amplitude
+  \(A(\theta)\), and the binding-regime diagnostics, while clarifying the
+  relationship to the archived flavor experiment.
+- Rewrote `phase3/paper/sections/04_limitations_stub.tex` as a structured
+  ``Limitations and outlook'' section, explicitly stating the toy nature of
+  the vacuum ensemble, the single-parameter structure, the lack of a
+  selection mechanism for \(\theta\) and \(\epsfloor\), and the absence of
+  direct empirical contact at this phase.
+- No changes to the numerical mechanism, baseline scan, or
+  binding-certificate diagnostics; this rung improves the scientific
+  narrative around the existing Phase 3 mechanism while keeping the gate
+  workflow and artifacts unchanged.

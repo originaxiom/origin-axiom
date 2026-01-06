@@ -1,18 +1,108 @@
-\section{Discussion and limitations (skeleton)}
-\label{sec:limitations}
+\section{Limitations and outlook}
+\label{sec:phase3-limitations}
 
-This Phase~3 mechanism paper is at a very early rung. The present
-version only defines the narrative structure and the contracts that
-future rungs must satisfy.
+The construction presented in this Phase~3 mechanism paper is
+deliberately minimal. It is designed to test the internal coherence of
+the non-cancellation principle on a controlled toy vacuum, not to make
+direct claims about nature. This section collects the main limitations
+and outlines how they inform future work.
 
-In particular, we do not yet:
+\subsection{Toy nature of the vacuum ensemble}
+
+The vacuum ensemble used here is a finite collection of complex modes
+with phases that depend linearly on a single parameter \(\theta\).
+There is no underlying Hamiltonian, no explicit field-theoretic
+content, and no attempt to represent known particle species or
+interactions. As such, the toy vacuum should be regarded as a
+\emph{numerical laboratory} for the non-cancellation floor, not as a
+candidate model of the Standard Model vacuum.
+
+Any contact with real-world physics will require:
 \begin{itemize}
-  \item commit to a specific toy vacuum system or update rule;
-  \item claim any correspondence with observed vacuum energy or
-        cosmological data; or
-  \item claim that the toy mechanism realises a fundamental physical
-        principle rather than an exploratory numerical construction.
+  \item replacing or extending the toy ensemble with structures that
+        have a clear field-theoretic or statistical-mechanical
+        interpretation; and
+  \item specifying how the global amplitude \(A(\theta)\) relates to
+        more conventional observables (energy densities, correlation
+        functions, or effective potentials).
 \end{itemize}
 
-These limitations are intentional at this stage and will be narrowed in
-later rungs as concrete models and experiments are introduced.
+\subsection{Single-parameter structure and lack of spatial geometry}
+
+In this phase, \(\theta\) is treated as a single global parameter. The
+toy vacuum has no explicit spatial degrees of freedom and no notion
+of local dynamics. This is sufficient for testing whether a
+non-cancellation floor can be implemented in a binding regime, but it
+falls short of the structures needed for:
+\begin{itemize}
+  \item embedding the mechanism in an FRW-like cosmological dynamics;
+  \item coupling to local field excitations or matter content; or
+  \item studying how the floor interacts with locality and causality
+        in the sense of effective field theory.
+\end{itemize}
+
+Subsequent work will need to address how the non-cancellation
+mechanism can coexist with (or modify) local field-theoretic
+descriptions, and whether the global amplitude \(A(\theta)\) can be
+given a more invariant geometric or statistical meaning.
+
+\subsection{No selection of \texorpdfstring{\(\theta\)}{theta} or \texorpdfstring{\(\epsfloor\)}{epsfloor}}
+
+The present phase demonstrates that a binding regime exists for a
+quantile-based choice of \(\epsfloor\) derived from the distribution
+of \(A_0(\theta)\). This is a convenient and reproducible method, but
+it is not a derivation from first principles. Similarly, the toy
+vacuum does not prefer any particular value of \(\theta\) within
+\([0,2\pi)\); all choices are treated symmetrically.
+
+In particular, Phase~3 does not:
+\begin{itemize}
+  \item single out a distinguished value \(\theta_\star\);
+  \item relate \(\epsfloor\) to any measured energy scale; or
+  \item derive either quantity from a variational principle, symmetry
+        argument, or stability requirement beyond the binding tests
+        performed here.
+\end{itemize}
+
+Identifying mechanisms that could fix \(\theta\) and \(\epsfloor\) is
+one of the central open problems for later phases of the program.
+
+\subsection{No direct contact with empirical data}
+
+Finally, this Phase~3 mechanism paper does not invoke any external
+empirical inputs. There is no attempt to match observed vacuum energy,
+cosmological expansion histories, or flavor-sector data. The earlier
+flavor-calibration experiment is preserved as a separate, archived
+artifact in \texttt{experiments/phase3\_flavor\_v1/}, but it is not
+part of the canonical Phase~3 mechanism defined here.
+
+Connecting the non-cancellation mechanism to data will require:
+\begin{itemize}
+  \item embedding the toy vacuum into cosmological models and studying
+        how \(A(\theta)\) maps to effective energy densities; and/or
+  \item identifying observables in other sectors (such as flavor or
+        scattering amplitudes) that could plausibly depend on the same
+        phase parameter \(\theta\).
+\end{itemize}
+
+\subsection{Outlook}
+
+Within these limitations, the Phase~3 mechanism achieves its primary
+goal: it shows that the non-cancellation floor can be implemented on a
+toy vacuum in a genuine binding regime, with a quantifiable global
+effect on the observable \(A(\theta)\). This provides a concrete,
+reproducible mechanism-level foundation for future phases that will:
+\begin{itemize}
+  \item explore more realistic vacuum constructions with spatial and
+        field-theoretic structure;
+  \item investigate principles that might select \(\theta\) and
+        \(\epsfloor\) (for example, extremal-action or stability
+        criteria); and
+  \item construct \(\theta\)-filters that tie the mechanism to
+        corridor-style constraints and, ultimately, to empirical
+        data via the Phase~0 ledger.
+\end{itemize}
+
+Those developments lie beyond the scope of the present paper, but the
+mechanism and diagnostics established here are intended to serve as
+their stable substrate.
