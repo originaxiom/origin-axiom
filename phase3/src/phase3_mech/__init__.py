@@ -1,10 +1,12 @@
 """
 Phase 3 mechanism package.
 
-At this rung, we define a toy vacuum model and a global amplitude observable
-A_0(theta) without yet enforcing the non-cancellation floor. Later rungs will
-introduce the floor-enforced amplitude, binding certificates, and the
-theta-filter artifact required by the Phase 0 contract.
+At this stage we define a toy vacuum model and two related observables:
+- the unconstrained global amplitude A_0(theta);
+- the floor-enforced amplitude A(theta) = max(A_0(theta), epsfloor),
+
+plus simple grid scanners and binding diagnostics. Later rungs will tie
+these objects into a theta-filter artifact and the Phase 0 ledger.
 """
 
 from .vacuum_model import (
@@ -12,6 +14,8 @@ from .vacuum_model import (
     make_vacuum_config,
     amplitude_unconstrained,
     scan_amplitude_unconstrained,
+    amplitude_with_floor,
+    scan_amplitude_with_floor,
 )
 
 __all__ = [
@@ -19,4 +23,6 @@ __all__ = [
     "make_vacuum_config",
     "amplitude_unconstrained",
     "scan_amplitude_unconstrained",
+    "amplitude_with_floor",
+    "scan_amplitude_with_floor",
 ]

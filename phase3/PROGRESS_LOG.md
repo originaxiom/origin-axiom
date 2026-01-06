@@ -47,3 +47,20 @@
 - No floor-enforced amplitude, binding certificate, or theta-filter artifact
   is defined at this rung; those are deferred to later rungs in accordance
   with the Phase 0 contract.
+
+## 2026-01-06 — Rung 3: non-cancellation floor + binding diagnostics (definition level)
+
+- Extended `phase3/src/phase3_mech/vacuum_model.py` with a floor-enforced
+  amplitude \(A(\theta) = \max(A_0(\theta), \epsfloor)\) and a grid scanner
+  `scan_amplitude_with_floor` that returns both unconstrained and
+  floor-enforced amplitudes, plus a boolean mask where the floor is active.
+- Exposed `amplitude_with_floor` and `scan_amplitude_with_floor` via
+  `phase3/src/phase3_mech/__init__.py` so that future rungs and scripts
+  can reuse the same mechanism.
+- Rewrote `phase3/paper/sections/02_mechanism_design.tex` to describe the
+  toy vacuum ensemble, the unconstrained observable \(A_0(\theta)\), the
+  floor-enforced amplitude \(A(\theta)\), and the binding diagnostics
+  needed for a Phase 0–style binding certificate.
+- No specific choice of \(\epsfloor\), no numerical binding certificate,
+  and no \(\theta\)-filter artifact are fixed at this rung; those are
+  deferred to later rungs in accordance with the Phase 3 mechanism contract.
