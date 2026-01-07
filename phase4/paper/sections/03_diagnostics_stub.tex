@@ -279,3 +279,22 @@ other FRW-facing diagnostics, this \emph{remains non-binding}: it does
 not fix a unique \(\theta_\star\) and is used to make the
 Phase~3-to-Phase~4 interface auditable rather than to claim a physical
 fit to cosmological data.
+
+To give a compact view of these overlaps, we also generate a
+summary plot using
+\texttt{phase4/src/phase4/plot\_f1\_frw\_shape\_probe.py}, which reads
+the joined mask and produces a \(\theta\)–\(\Omega_\Lambda(\theta)\)
+scatter. Figure~\ref{fig:phase4_f1_frw_shape_probe} shows all grid
+points, the FRW-viable subset, the \(\Lambda\)CDM-like subset, and
+the intersection where the toy F1 corridor and the \(\Lambda\)CDM-like
+conditions coincide.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.9\linewidth]{../outputs/figures/phase4_F1_frw_shape_probe_omega_lambda_vs_theta}
+  \caption{Phase~4 F1/FRW shape probe: toy F1 corridor, FRW-viable
+    histories, and \(\Lambda\)CDM-like points on the common
+    \(\theta\)-grid. The plot is generated from the joined mask
+    \texttt{phase4\_F1\_frw\_shape\_probe\_mask.csv}.}
+  \label{fig:phase4_f1_frw_shape_probe}
+\end{figure}

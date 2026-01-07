@@ -289,3 +289,15 @@ developer.
   `phase4/OVERVIEW.md` so that the Phase 4 paper and overview document
   fully reflect this joined shape-probe layer as a non-binding,
   FRW-facing diagnostic.
+
+## 2026-01-07 - Rung 13: F1/FRW shape-probe summary figure
+
+- Added `phase4/src/phase4/plot_f1_frw_shape_probe.py` to visualise the
+  joined F1/FRW/LCDM shape probe on the common Phase 4 \(\theta\)-grid.
+- Generated `phase4/outputs/figures/phase4_F1_frw_shape_probe_omega_lambda_vs_theta.png`,
+  a scatter plot of \(\Omega_\Lambda(\theta)\) highlighting FRW-viable
+  points, \(\Lambda\)CDM-like points, and their intersection with the toy
+  F1 corridor.
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` to reference
+  this figure and explain its role as a compact summary of the Phase 4
+  FRW-facing diagnostics.
