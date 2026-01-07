@@ -92,3 +92,16 @@ developer.
   and non-binding: they do not define a canonical \(\theta_\star\) and
   serve only as a structured starting point for later, more physically
   motivated corridor work.
+
+## 2026-01-07 - Rung 5: FRW toy diagnostics design note
+
+- Added `phase4/FRW_TOY_DESIGN.md` as a draft, non-binding design note
+  for a minimal FRW-inspired toy module driven by the F1 scalar
+  \(E_{\mathrm{vac}}(\theta)\).
+- Rewrote `phase4/paper/sections/03_diagnostics_stub.tex` to
+  summarise the F1 vacuum-curve sanity check, the F1 shape
+  diagnostics and toy corridor, and to reference the FRW toy design
+  note as future, explicitly non-claiming work.
+- No FRW-like code or \(\theta\)-filters are introduced at this rung;
+  the focus is on tightening the diagnostic story and constraining
+  later Phase 4 work to auditable, modest FRW-like sanity tests.
