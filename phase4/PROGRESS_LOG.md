@@ -158,3 +158,19 @@ developer.
   criteria at this rung; the focus is on honest reporting and
   alignment with the Phase 0 philosophy about structured negative
   results.
+
+## 2026-01-07 - Rung 9: FRW toy late-time tweak
+
+- Rewrote `phase4/src/phase4/run_f1_frw_toy_diagnostics.py` to use a
+  late-time scale-factor window a ∈ [0.5, 1] instead of [0.1, 1],
+  keeping the same basic FRW sanity structure (positivity of H^2 and a
+  bound on max(H^2)/min(H^2) per θ).
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` so the Phase 4
+  paper reflects the late-time FRW toy configuration without hard-coding
+  any particular value of the FRW-sanity fraction.
+- Appended a design note to `phase4/FRW_TOY_DESIGN.md` documenting this
+  late-time tweak as a non-binding change motivated by the earlier
+  empty-mask outcome.
+- Re-ran the Phase 4 gate to regenerate the artifact and refreshed the
+  diagnostics files for the FRW toy. The resulting `frac_sane` remains a
+  logged diagnostic only and is not promoted to a θ-filter.

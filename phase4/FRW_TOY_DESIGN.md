@@ -130,3 +130,23 @@ of normalisation and sanity criterion, not as a failure of Phase 4 as
 a whole. It is not used as a θ-filter and remains strictly
 non-binding, serving only to demonstrate how empty-corridor outcomes
 are recorded and inspected.
+
+## Late-time FRW toy tweak (Rung 9, non-binding)
+
+Following the initial Rung-7 configuration, which used a scale-factor
+grid a ∈ [0.1, 1] and produced an effectively empty FRW-sanity mask,
+we switched to a *late-time* window a ∈ [0.5, 1] while keeping the
+same basic sanity criterion (positivity of H^2 and a bound on
+max(H^2)/min(H^2) per θ).
+
+The script `phase4/src/phase4/run_f1_frw_toy_diagnostics.py` now:
+
+- uses this late-time window for its toy FRW check;
+- records the resulting sanity fraction `frac_sane` in
+  `phase4/outputs/tables/phase4_F1_frw_toy_diagnostics.json`; and
+- writes a per-theta FRW-sanity mask to
+  `phase4/outputs/tables/phase4_F1_frw_toy_mask.csv`.
+
+This remains a toy diagnostic only. Whether `frac_sane` is close to 0
+or appreciably non-zero, the outcome is logged as a structured
+positive/negative result, not elevated to a Phase 4 θ-filter.
