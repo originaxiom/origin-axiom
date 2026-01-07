@@ -174,3 +174,26 @@ developer.
 - Re-ran the Phase 4 gate to regenerate the artifact and refreshed the
   diagnostics files for the FRW toy. The resulting `frac_sane` remains a
   logged diagnostic only and is not promoted to a θ-filter.
+
+## 2026-01-07 - Rung 10: Limitations and scope section
+
+- Replaced `phase4/paper/sections/04_limitations_stub.tex` with a structured
+  limitations/scope section for the Phase 4 artifact.
+- Made explicit that the current Phase 4 content is:
+  - structurally focused (wiring Phase 3 amplitudes into scalar diagnostics),
+  - based on a single toy mapping family (F1) and simple thresholds, and
+  - not calibrated to observational data or a concrete field-theoretic model.
+- Clarified the status of \(\theta\)-corridors and \(\theta_\star\): the F1
+  corridor is a diagnostic shape summary only, not a physically justified
+  corridor and not used to select a preferred \(\theta_\star\).
+- Recorded the FRW-inspired module as a toy sanity device that:
+  - treats \(E_{\mathrm{vac}}(\theta)\) as a proxy for \(\Omega_\Lambda(\theta)\),
+  - checks simple positivity and bounded-variation conditions for \(H^2(a;\theta)\),
+  - and does not perform parameter inference or cosmological fitting.
+- Stated the numerical limitations (finite \(\theta\)- and \(a\)-grids, single
+  baseline configuration) and positioned Phase 4 as one concrete, reproducible
+  instance of the mapping/diagnostic workflow rather than a survey of design
+  space.
+- Emphasised that any future tightening of the corridor notion, introduction of
+  a candidate \(\theta_\star\), or calibration to data must live in rungs beyond
+  the present Phase 4 artifact and carry their own explicit assumptions.
