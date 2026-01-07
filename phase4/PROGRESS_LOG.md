@@ -55,3 +55,21 @@ developer.
   implemented at this rung; the goal is to lock in a narrow design
   space for later Phase 4 rungs consistent with the Phase 0 contract
   and the Phase 3 mechanism interfaces.
+
+## 2026-01-07 - Rung 3: F1 mapping + vacuum-curve sanity check
+
+- Implemented the F1 mapping family in `phase4/src/phase4/mappings_f1.py`,
+  which reuses the Phase 3 vacuum mechanism and quantile-based floor
+  to define a toy vacuum-energy-like scalar
+  \(E_{\mathrm{vac}}(\theta) = \alpha A(\theta)^{\beta}\).
+- Added `phase4/src/phase4/run_f1_sanity.py` to compute a baseline
+  \(E_{\mathrm{vac}}(\theta)\) curve using the Phase 3 baseline
+  diagnostics from
+  `phase3/outputs/tables/mech_baseline_scan_diagnostics.json`.
+- Wrote the per-theta sanity curve to
+  `phase4/outputs/tables/phase4_F1_sanity_curve.csv` and inspected the
+  summary statistics (strictly positive, small \(E_{\mathrm{vac}}\),
+  consistent with the floor-enforced amplitude scale).
+- No \(\theta\)-corridor or \(\theta\)-filter is defined at this rung;
+  the goal is only to verify that the F1 mapping is numerically sane
+  and cleanly wired into the Phase 3 mechanism outputs.
