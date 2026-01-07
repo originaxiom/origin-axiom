@@ -1,0 +1,156 @@
+# Phase 4 Overview — Diagnostic FRW-Facing Stub
+
+**Status (2026-01-07):**  
+Phase 4 currently hosts a *diagnostic stub* that takes the Phase 3 vacuum
+mechanism and pushes it into a structured, FRW-facing setting. It is **not**
+yet a corridor-building or data-calibrated phase; the focus is on wiring,
+sanity, and honest logging of both positive and negative toy results.
+
+---
+
+## 1. What Phase 4 currently does
+
+Phase 4 reuses the Phase 3 baseline-vacuum mechanism and diagnostics to define
+a simple scalar \(E_{\mathrm{vac}}(	heta)\) and then builds three diagnostic
+layers on top of it:
+
+1. **F1 mapping family (vacuum scalar)**  
+   - Implemented in `phase4/src/phase4/mappings_f1.py`.
+   - Reads the Phase 3 baseline diagnostics from  
+     `phase3/outputs/tables/mech_baseline_scan_diagnostics.json`.
+   - Uses the quantile-based floor \(arepsilon_{\mathrm{floor}}\) to define a
+     strictly positive amplitude \(A(	heta)\) and a toy scalar
+     \(E_{\mathrm{vac}}(	heta) = lpha A(	heta)^eta\) on a uniform
+     grid \(	heta \in [0, 2\pi)\).
+   - The primary goal is *numerical sanity* and *structural continuity* with
+     Phase 3, not physical calibration.
+
+2. **F1 shape diagnostics and toy corridor**  
+   - Implemented in `phase4/src/phase4/run_f1_shape_diagnostics.py`.
+   - Consumes the F1 sanity curve and constructs descriptive statistics for
+     \(E_{\mathrm{vac}}(	heta)\) (min / max / mean / std / support).
+   - Defines a **toy-level corridor** via a simple inequality in
+     \(E_{\mathrm{vac}}(	heta)\) and records:
+     - a JSON summary  
+       `phase4/outputs/tables/phase4_F1_shape_diagnostics.json`, and
+     - a per-\(	heta\) mask  
+       `phase4/outputs/tables/phase4_F1_shape_mask.csv`.
+   - This corridor is **explicitly non-binding**: it is a shape probe, not a
+     physical \(	heta\)-filter and not a candidate \(	heta_\star\).
+
+3. **FRW-inspired toy diagnostics**  
+   - Implemented in `phase4/src/phase4/run_f1_frw_toy_diagnostics.py`.
+   - Rescales \(E_{\mathrm{vac}}(	heta)\) into a proxy
+     \(\Omega_\Lambda(	heta)\), picks toy values for \(\Omega_m\) and
+     \(\Omega_r\), and evaluates
+     \[
+       H^2(a; 	heta) = \Omega_r a^{-4} + \Omega_m a^{-3} + \Omega_\Lambda(	heta)
+     \]
+     on a **late-time scale-factor grid** \(a \in [0.5, 1]\).
+   - For each \(	heta\), checks:
+     - positivity of \(H^2(a; 	heta)\) on the grid, and
+     - a bound on the variation ratio \(\max H^2 / \min H^2\).
+   - Produces:
+     - a JSON diagnostics file  
+       `phase4/outputs/tables/phase4_F1_frw_toy_diagnostics.json`, and
+     - a per-\(	heta\) FRW-sanity mask  
+       `phase4/outputs/tables/phase4_F1_frw_toy_mask.csv`.
+   - The FRW toy is a **structured sanity probe only**. It does *not* define a
+     FRW model, does *not* select a preferred \(	heta_\star\), and remains
+     strictly non-binding.
+
+The design motivation and the evolution of the FRW toy (including the initial
+empty-mask outcome and the later late-time tweak) are documented in  
+`phase4/FRW_TOY_DESIGN.md`.
+
+---
+
+## 2. Paper and artifact
+
+The Phase 4 paper lives in:
+
+- `phase4/paper/main.tex` with sections under `phase4/paper/sections/`,
+- appendices in `phase4/paper/appendix/`, and
+- bibliography `phase4/paper/Reference.bib`.
+
+The canonical Phase 4 artifact is:
+
+- `phase4/artifacts/origin-axiom-phase4.pdf`
+
+built via the Snakemake workflow.
+
+Key claims and scope for Phase 4 are summarised in:
+
+- `phase4/paper/sections/01_introduction.tex`
+- `phase4/paper/sections/02_mappings_stub.tex`
+- `phase4/paper/sections/03_diagnostics_stub.tex`
+- `phase4/paper/sections/04_limitations_stub.tex`
+- `phase4/paper/appendix/A_claims_table.tex`
+
+The limitations section explicitly states that Phase 4 currently:
+
+- introduces **one** toy mapping family (F1),
+- relies on grid-based diagnostics tied to a specific Phase 3 baseline,
+- makes **no** claim about a physically justified \(	heta\)-corridor or
+  \(	heta_\star\), and
+- treats all corridor-like and FRW-like constructs as **diagnostics**, not
+  physical predictions.
+
+---
+
+## 3. How to rebuild Phase 4 locally
+
+From the repo root, the convenience helper:
+
+```bash
+oa && bash scripts/phase4_gate.sh --level A
+```
+
+will:
+
+- rebuild the Phase 4 paper (`phase4/outputs/paper/phase4_paper.pdf`),
+- copy the artifact to `phase4/artifacts/origin-axiom-phase4.pdf`, and
+- ensure the minimal diagnostics are up to date.
+
+The individual diagnostic scripts can be run as:
+
+```bash
+# 1. F1 sanity curve
+oa && python phase4/src/phase4/run_f1_sanity.py
+
+# 2. F1 shape diagnostics and toy corridor
+oa && python phase4/src/phase4/run_f1_shape_diagnostics.py
+
+# 3. FRW-inspired toy diagnostics
+oa && python phase4/src/phase4/run_f1_frw_toy_diagnostics.py
+```
+
+Each script logs its outputs and summary statistics to stdout and writes the
+corresponding JSON/CSV files under `phase4/outputs/tables/`.
+
+---
+
+## 4. Scope and non-claims
+
+To keep Phase 4 aligned with the Phase 0 philosophy (honest, auditable, and
+non-overreaching), the current Phase 4 implementation **does not**:
+
+- claim a unique or physically preferred \(	heta_\star\),
+- claim that F1 is the correct or final mapping family,
+- present a calibrated FRW cosmology, or
+- use any diagnostic (shape corridor or FRW toy) as a hard \(	heta\)-filter.
+
+Instead, Phase 4 at this stage should be read as:
+
+> a diagnostic bridge between the Phase 3 vacuum mechanism and simple
+> FRW-inspired sanity checks, designed to test wiring, logging, and
+> corridor-handling logic in a controlled setting.
+
+Any future step that proposes:
+
+- a physically motivated corridor,
+- a candidate \(	heta_\star\), or
+- a data-calibrated cosmological model
+
+must be added as a **new rung** or **new mapping family** with its own clearly
+scoped assumptions, diagnostics, and claims table entries.
