@@ -2175,3 +2175,11 @@ strictly scoped.
 - Phase 0–4 paper builds now share a single, consistent Snakemake + gate + artifact pattern.
 - Rung considered **stable** for paper-build plumbing; future rungs will focus on content and physics, not infrastructure.
 
+
+2026-01-08 (local) — Phase 5 roadmap scaffold
+---------------------------------------------
+- Added docs/phase5_roadmap.md as the canonical design brief for Phase 5.
+- Clarified Phase 5’s role: interface between the Phase 0–4 toy tower and external cosmological summaries.
+- Explicitly recorded boundaries: no sandbox numerology is promoted to formal claims without derivation + code.
+- Outlined initial Phase 5 rungs (P5.1–P5.5) focusing on interfaces, diagnostics, and eventual data contact.
+
