@@ -106,3 +106,37 @@ binding certificate. The floor is neither a purely formal constraint
 nor a numerically invisible perturbation; it acts as a genuine
 dynamical ingredient in the toy vacuum, in a regime where its impact
 can be summarized by simple, reproducible diagnostics.
+
+\subsection{Auxiliary measure probe (non-binding)}
+\label{sec:phase3-measure-probe}
+
+To complement the baseline binding profile, we performed a simple,
+non-binding measure probe on the same class of toy ensembles.  The
+script \texttt{phase3/src/phase3\_mech/measure\_v1.py} samples many
+independent random ensembles of phases and windings, computes the
+baseline amplitude \(A_0(\theta)\) on a fixed grid, and records the
+empirical distribution of \(A_0\) values across ensembles and
+\(\theta\).
+
+In the baseline configuration, the resulting distribution shows a
+small but non-zero probability weight near \(A_0 \approx 0\).  For
+example, the minimum observed value is of order \(10^{-5}\), while the
+1\% quantile sits at \(A_{0,\mathrm{p01}} \approx 0.013\).  The
+fractions of samples with \(A_0\) below a few illustrative thresholds
+are approximately
+\begin{align}
+  \mathrm{Pr}[A_0 < 0.005] &\approx 1.6 \times 10^{-3}, \\
+  \mathrm{Pr}[A_0 < 0.01 ] &\approx 6.3 \times 10^{-3}, \\
+  \mathrm{Pr}[A_0 < 0.02 ] &\approx 2.4 \times 10^{-2}, \\
+  \mathrm{Pr}[A_0 < 0.05 ] &\approx 1.5 \times 10^{-1}.
+\end{align}
+These numbers are purely illustrative and depend on the toy-mechanism
+choices, but they make explicit that, even before a floor is enforced,
+the detailed cancellation basin near \(A_0 = 0\) occupies only a small
+fraction of the ensemble-level measure in this construction.
+
+We emphasise that this probe does \emph{not} define a physical floor,
+does \emph{not} alter the Phase~3 binding experiment, and does
+\emph{not} introduce any new claims.  Its purpose is limited to making
+transparent, in a fully reproducible way, how often the toy ensemble
+approaches extremely small amplitudes under the current configuration.

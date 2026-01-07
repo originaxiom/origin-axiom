@@ -100,3 +100,34 @@ checks on numerical outputs, diagnostic tables, and mechanism
 parameters.  At this rung, however, the emphasis remains on ensuring
 that the narrative and structural content of the Phase~3 paper is
 fully reproducible from the repository state.
+
+\subsection*{Auxiliary measure probe}
+
+In addition to the main binding-profile experiment, Phase~3 includes a
+non-binding auxiliary script
+\texttt{phase3/src/phase3\_mech/measure\_v1.py} that probes the
+empirical distribution of the baseline amplitude \(A_0(\theta)\) for a
+large number of independently sampled toy ensembles.  This script does
+not affect any of the main Phase~3 claims or floor definitions; it is
+included solely to make the measure structure of the current toy
+configuration explicit.
+
+A typical invocation is:
+\begin{verbatim}
+  oa && python phase3/src/phase3_mech/measure_v1.py
+\end{verbatim}
+which writes:
+\begin{itemize}
+  \item a JSON diagnostics file
+    \texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json}
+    containing basic summary statistics and quantiles of the
+    \(A_0\) distribution; and
+  \item a histogram CSV
+    \texttt{phase3/outputs/tables/phase3\_measure\_v1\_hist.csv}
+    with binned counts over \(A_0\).
+\end{itemize}
+The console output also prints a small selection of quantiles and
+fractions below a few illustrative \(\varepsilon\) thresholds.  All of
+these numbers are toy-model diagnostics and should be interpreted as
+such; they are not promoted to binding corridor constraints or
+physical scales at this rung.
