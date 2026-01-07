@@ -2143,3 +2143,35 @@ No new binding claims have been added to the Phase 0 ledger; the focus
 of this step was to harden the existing toy mechanism and FRW-facing
 infrastructure while keeping the epistemic status of all quantities
 strictly scoped.
+
+### 2026-01-07 – Unified Phase 0–4 paper gates and global build driver
+
+**What changed**
+
+- Added Level-A gate plumbing for Phase 0 and Phase 1 so they match the Phase 2–4 pattern:
+  - Phase 0 and Phase 1 now have `scripts/phase0_gate.sh` and `scripts/phase1_gate.sh` that:
+    - Resolve the repo root.
+    - `cd` into `phase0/workflow` / `phase1/workflow`.
+    - Invoke Snakemake to rebuild the paper and canonical artifact.
+- Standardised the paper build pattern across Phases 0–4:
+  - Each gate builds `paper/main.tex` via `latexmk` and then copies `main.pdf` to:
+    - `phaseN/outputs/paper/phaseN_paper.pdf`
+    - `phaseN/artifacts/origin-axiom-phaseN.pdf`
+  - This brings Phase 0–2 in line with the existing Phase 3 / Phase 4 pattern.
+- Introduced `scripts/build_paper.sh` as a single entry point:
+  - Runs Phase 0–4 gates (where present).
+  - Prints a summary of canonical artifact locations for a quick visual check.
+- Verified on the MacBook dev environment that:
+  - `oa && scripts/build_paper.sh`
+  successfully (re)builds and refreshes:
+  - `phase0/artifacts/origin-axiom-phase0.pdf`
+  - `phase1/artifacts/origin-axiom-phase1.pdf`
+  - `phase2/artifacts/origin-axiom-phase2.pdf`
+  - `phase3/artifacts/origin-axiom-phase3.pdf`
+  - `phase4/artifacts/origin-axiom-phase4.pdf`
+
+**Status**
+
+- Phase 0–4 paper builds now share a single, consistent Snakemake + gate + artifact pattern.
+- Rung considered **stable** for paper-build plumbing; future rungs will focus on content and physics, not infrastructure.
+
