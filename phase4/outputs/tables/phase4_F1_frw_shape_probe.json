@@ -1,0 +1,28 @@
+{
+  "frac_frw_viable": 0.49609375,
+  "frac_in_toy_corridor": 0.5791015625,
+  "frac_lcdm_like": 0.03076171875,
+  "frac_shape_and_lcdm": 0.01953125,
+  "frac_shape_and_viable": 0.0751953125,
+  "n_grid": 2048,
+  "theta_range_frw_viable": [
+    0.42644665903220824,
+    3.54042765844006
+  ],
+  "theta_range_in_toy_corridor": [
+    0.0,
+    6.280117345603815
+  ],
+  "theta_range_lcdm_like": [
+    0.5982525072754,
+    3.3624858870453256
+  ],
+  "theta_range_shape_and_lcdm": [
+    0.5982525072754,
+    3.3624858870453256
+  ],
+  "theta_range_shape_and_viable": [
+    0.42644665903220824,
+    3.54042765844006
+  ]
+}

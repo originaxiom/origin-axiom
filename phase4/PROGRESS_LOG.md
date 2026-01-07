@@ -269,3 +269,23 @@ developer.
   `phase4/OVERVIEW.md` to document this ΛCDM-facing probe as a
   non-binding, illustrative diagnostic rather than a data-driven
   constraint or a mechanism for selecting a unique \(\theta_\star\).
+
+## 2026-01-07 - Rung 12: F1/FRW shape probe
+
+- Added `phase4/src/phase4/run_f1_frw_shape_probe.py` to join the toy F1
+  shape mask, the FRW-viability mask, and the \(\Lambda\)CDM-like probe
+  mask on the common Phase 4 \(\theta\)-grid.
+- Generated a joined per-\(\theta\) mask
+  `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv` with Boolean
+  flags for `in_toy_corridor`, `frw_viable`, `lcdm_like`, and the
+  composite intersections `shape_and_viable`, `shape_and_lcdm`.
+- Wrote a diagnostics summary to
+  `phase4/outputs/tables/phase4_F1_frw_shape_probe.json`, which records
+  the fractions and \(\theta\)-ranges of these sets; in the current
+  baseline run this reveals a small but non-zero overlap region where
+  the toy F1 corridor, FRW-viable histories, and \(\Lambda\)CDM-like
+  windows coexist.
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` and
+  `phase4/OVERVIEW.md` so that the Phase 4 paper and overview document
+  fully reflect this joined shape-probe layer as a non-binding,
+  FRW-facing diagnostic.

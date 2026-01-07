@@ -187,3 +187,21 @@ non-zero fraction of the θ-grid. This layer is still explicitly
 non-binding: it is used as an illustrative, FRW-facing probe of the F1
 mapping rather than a data-driven constraint or a mechanism for
 picking a unique \(\theta_\star\).
+
+### Rung 12 – F1/FRW shape probe
+
+- Implemented `phase4/src/phase4/run_f1_frw_shape_probe.py`, which joins:
+  - the toy F1 shape mask (`phase4_F1_shape_mask.csv`),
+  - the FRW-viability mask (`phase4_F1_frw_viability_mask.csv`), and
+  - the \(\Lambda\)CDM-like probe mask (`phase4_F1_frw_lcdm_probe_mask.csv`)
+  on the common \(\theta\)-grid.
+- Wrote a joined per-\(\theta\) mask
+  `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv` with Boolean
+  flags for `in_toy_corridor`, `frw_viable`, `lcdm_like`, and the
+  intersections `shape_and_viable`, `shape_and_lcdm`.
+- Recorded summary diagnostics in
+  `phase4/outputs/tables/phase4_F1_frw_shape_probe.json`. In the current
+  baseline run (2048-point grid) roughly 58\% of points lie in the toy F1
+  shape corridor, about 50\% are FRW-viable, and a few percent are both
+  FRW-viable and \(\Lambda\)CDM-like; the intersection with the toy
+  corridor is explicitly logged but not promoted to a \(\theta\)-filter.

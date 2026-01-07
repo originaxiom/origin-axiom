@@ -233,3 +233,49 @@ observational data and does not fix a preferred \(\theta_\star\).
 Instead, it serves to demonstrate that the Phase~3~\(\to\)~Phase~4
 pipeline admits FRW histories that are, at least in a broad sense,
 compatible with late-time \(\Lambda\)CDM-like cosmology.
+
+Finally, we introduce a joined F1/FRW ``shape probe'' that ties
+together the toy F1 shape corridor, the FRW-viability scan, and the
+\(\Lambda\)CDM-like FRW probe on a common \(\theta\)-grid. The script
+\texttt{phase4/src/phase4/run\_f1\_frw\_shape\_probe.py} reads
+
+\begin{itemize}
+  \item the toy F1 shape mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv}
+    (columns \texttt{theta}, \texttt{E\_vac},
+    \texttt{in\_toy\_corridor});
+  \item the FRW-viability mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_mask.csv}
+    (columns \texttt{theta}, \texttt{E\_vac}, \texttt{omega\_lambda},
+    \texttt{age\_Gyr} and the Boolean flags
+    \texttt{has\_matter\_era}, \texttt{has\_late\_accel},
+    \texttt{smooth\_H2}, \texttt{frw\_viable});
+  \item the \(\Lambda\)CDM-like FRW probe mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe\_mask.csv},
+    which adds a \texttt{lcdm\_like} flag on top of the
+    FRW-viability columns.
+\end{itemize}
+
+It joins these by the \(\theta\)-grid and writes
+
+\begin{itemize}
+  \item a joined per-\(\theta\) mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_shape\_probe\_mask.csv}
+    with columns
+    \texttt{theta}, \texttt{E\_vac}, \texttt{omega\_lambda},
+    \texttt{age\_Gyr}, \texttt{in\_toy\_corridor}, \texttt{frw\_viable},
+    \texttt{lcdm\_like}, and the composite flags
+    \texttt{shape\_and\_viable},
+    \texttt{shape\_and\_lcdm}; and
+  \item a JSON diagnostics summary
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_shape\_probe.json}
+    recording the corresponding fractions and \(\theta\)-ranges.
+\end{itemize}
+
+In the current baseline configuration this reveals a small but
+non-zero overlap region where the toy F1 corridor, FRW-viable
+histories, and the \(\Lambda\)CDM-like windows coexist. As with the
+other FRW-facing diagnostics, this \emph{remains non-binding}: it does
+not fix a unique \(\theta_\star\) and is used to make the
+Phase~3-to-Phase~4 interface auditable rather than to claim a physical
+fit to cosmological data.
