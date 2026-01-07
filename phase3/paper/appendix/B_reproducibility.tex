@@ -131,3 +131,16 @@ fractions below a few illustrative \(\varepsilon\) thresholds.  All of
 these numbers are toy-model diagnostics and should be interpreted as
 such; they are not promoted to binding corridor constraints or
 physical scales at this rung.
+
+\paragraph{Instability-penalty diagnostic.}
+To compress the small-amplitude tails of the \(A_0\) distribution into
+a single scalar diagnostic, we provide
+\texttt{phase3/src/phase3\_mech/instability\_penalty\_v1.py}.  This
+script reads the stats JSON
+\texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json}
+described above and writes
+\texttt{phase3/outputs/tables/phase3\_instability\_penalty\_v1.json},
+which records the chosen thresholds, weights, and the resulting
+penalty value.  At this rung the penalty plays the role of an
+internal, toy-model knob for future mechanism design; it is not used
+as a binding corridor constraint.

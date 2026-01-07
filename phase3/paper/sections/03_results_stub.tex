@@ -140,3 +140,39 @@ does \emph{not} alter the Phase~3 binding experiment, and does
 \emph{not} introduce any new claims.  Its purpose is limited to making
 transparent, in a fully reproducible way, how often the toy ensemble
 approaches extremely small amplitudes under the current configuration.
+
+\subsubsection*{Concrete baseline diagnostics}
+
+In the current repository configuration, running
+\texttt{phase3/src/phase3\_mech/measure\_v1.py} on the baseline
+amplitude scan yields the following summary for the distribution of
+\(A_0(\theta)\) over the Phase~3 grid:
+\begin{align}
+  A_0^{\min} &\approx 9.2\times 10^{-3}, \\
+  \mathrm{Pr}[A_0 < 0.005] &\approx 0, \\
+  \mathrm{Pr}[A_0 < 0.01 ] &\approx 2.2\times 10^{-2}, \\
+  \mathrm{Pr}[A_0 < 0.02 ] &\approx 1.6\times 10^{-1}, \\
+  \mathrm{Pr}[A_0 < 0.05 ] &\approx 6.1\times 10^{-1}.
+\end{align}
+These figures are rung-specific diagnostics of the chosen toy
+ensemble rather than physical scales.  Their role is simply to make
+explicit how much of the ensemble-level measure lives in very small
+amplitudes versus moderately small amplitudes before any floor is
+applied.
+
+To compress this information into a single scalar knob for future
+mechanism design work, we also define a simple ``instability
+penalty'' functional.  At this rung we construct it from the
+fractions of the ensemble that fall below a small set of illustrative
+thresholds \(\varepsilon \in \{0.005, 0.01, 0.02, 0.05\}\) with fixed
+weights.  The script
+\texttt{phase3/src/phase3\_mech/instability\_penalty\_v1.py} reads the
+JSON summary
+\texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json} and
+writes a scalar diagnostic to
+\texttt{phase3/outputs/tables/phase3\_instability\_penalty\_v1.json}.
+For the present configuration this diagnostic is of order \(10^1\).
+We emphasise that it is a purely internal, toy-model measure of how
+much probability mass resides near small amplitudes; it is \emph{not}
+used as a binding corridor constraint and carries no direct physical
+interpretation at this rung.
