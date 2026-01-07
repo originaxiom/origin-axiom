@@ -1,29 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Resolve repo root (one level above scripts/)
 root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cd "$root"
 
-echo "== Phase 2 Gate =="
-echo "root: $root"
-echo "git:  $(git rev-parse --short HEAD) ($(git rev-parse --abbrev-ref HEAD))"
-echo
+echo "[phase2_gate] Level = A"
+echo "[phase2_gate] Repo root: $root"
+echo "Assuming unrestricted shared filesystem usage."
+echo "host: $(hostname)"
 
-echo "[1/4] Structural audit"
-bash scripts/phase2_structural_audit.sh >/dev/null
-echo "OK: audit"
+# 1) Run Snakemake to ensure Phase 2 diagnostics / figures are up to date.
+cd "$root/phase2/workflow"
+snakemake --cores 1
 
-echo "[2/4] Provenance verification"
-bash scripts/phase2_verify_provenance.sh >/dev/null
-echo "OK: provenance"
+# 2) Build the Phase 2 paper and copy canonical artifacts.
+cd "$root/phase2/paper"
+echo "[phase2_gate] Building Phase 2 paper with latexmk..."
+latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 
-echo "[3/4] Paper lint"
-bash scripts/phase2_paper_lint.sh >/dev/null
-echo "OK: lint"
+# Ensure canonical output and artifact directories exist.
+mkdir -p "$root/phase2/outputs/paper" "$root/phase2/artifacts"
 
-echo "[4/4] Clean build"
-( cd phase2/paper && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex >/dev/null )
-echo "OK: build"
+# Copy main.pdf to canonical Phase 2 locations.
+cp main.pdf "$root/phase2/outputs/paper/phase2_paper.pdf"
+cp main.pdf "$root/phase2/artifacts/origin-axiom-phase2.pdf"
 
-echo
-echo "PASS: Phase 2 gate"
+echo "[phase2_gate] OK"

@@ -2070,3 +2070,76 @@ Notes:
     non-cancellation (topological, consistency-based, or emergent), which can
     then be tested against these diagnostics rather than extending them further.
 
+
+2026-01-07 – Phase 3 / Phase 4 Rung 1: floor diagnostics and FRW pipeline
+
+- Phase 3 mechanism paper
+  - Finalised the Rung 1 mechanism write-up and regenerated
+    \`phase3/outputs/paper/phase3_paper.pdf\` and the tracked artifact
+    \`phase3/artifacts/origin-axiom-phase3.pdf\`.
+  - Added a lightweight ensemble-measure probe via
+    \`phase3/src/phase3_mech/measure_v1.py\), which reads the baseline
+    mechanism scan (\`mech_baseline_scan.csv\`) and constructs the
+    empirical distribution of the global amplitude observable $begin:math:text$A\_0$end:math:text$.
+    The script writes
+    \`phase3/outputs/tables/phase3_measure_v1_stats.json\` and
+    \`phase3/outputs/tables/phase3_measure_v1_hist.csv\`, and prints
+    selected quantiles and fractions below illustrative $begin:math:text$\\varepsilon$end:math:text$
+    thresholds.  These are explicitly documented as **toy diagnostics**,
+    not physical floor scales or binding constraints.
+  - Added a companion instability-penalty diagnostic
+    \`phase3/src/phase3_mech/instability_penalty_v1.py\), which
+    consumes the stats JSON, aggregates the probability mass in the
+    near-zero basin, and reports a dimensionless penalty score as
+    \`phase3/outputs/tables/phase3_instability_penalty_v1.json\`.
+    This quantity is tracked as an internal health check on the
+    cancellation structure of the current toy ensemble, not as a
+    cosmology-facing observable.
+  - Updated the Phase 3 paper (results and reproducibility appendices)
+    to reference the new diagnostics, including explicit reporting of
+    the measured fractions \(\Pr[A_0 < \varepsilon]\) for several
+    benchmark \(\varepsilon\) values.  The text stresses that (i) these
+    are entirely configuration-dependent, (ii) no physical floor value
+    is promoted, and (iii) no corridor-narrowing claim is made at this
+    rung.
+  - Added \`phase3/PHASE3_NEXT_RUNG.md\`, a design document for the next
+    rungs.  It sketches candidate directions for turning the abstract
+    non-cancellation floor idea into more structurally justified
+    mechanisms (e.g. consistency- or topology-motivated floors), and
+    clarifies that Phase 5 should remain a placeholder until such
+    candidates are properly formulated and tested.
+
+- Phase 4 FRW-facing pipeline
+  - Regenerated the Phase 4 paper and artifacts via the gated build,
+    updating \`phase4/outputs/paper/phase4_paper.pdf\` and
+    \`phase4/artifacts/origin-axiom-phase4.pdf\) after clarifying the
+    F1 mapping family and the FRW diagnostic stack.
+  - Tightened the documentation of the Phase 4 scripts:
+    - the F1 sanity and shape diagnostics
+    - the FRW toy and viability scans
+    - the $begin:math:text$\\Lambda$end:math:text$CDM-like probe and the joint shape/FRW probe
+    - the (currently stubbed) data-probe layer
+    including explicit input/output paths under
+    \`phase4/outputs/tables/\` and the summary figure in
+    \`phase4/outputs/figures/phase4_F1_frw_shape_probe_omega_lambda_vs_theta.png\`.
+  - Made it explicit in the text that (i) the F1 mapping is a structural
+    toy choice rather than a physically justified relation between
+    amplitude and vacuum energy, (ii) all FRW diagnostics are treated as
+    non-binding sanity checks, and (iii) no $begin:math:text$\\theta$end:math:text$-filter is
+    promoted to the Phase 0 corridor at this stage.
+
+- Sandbox and exploration hygiene
+  - Archived several speculative explorations (including numerology and
+    mechanism sketches developed with external assistants) into a
+    dedicated \`sandbox/\` folder, deliberately **outside** the rung
+    structure.  These documents are kept as idea reservoirs and negative
+    results, not as sources of claims.  Any concept that graduates from
+    sandbox into a Phase will be re-derived, recomputed, and documented
+    from scratch within the Phase 0–4 ladder.
+
+At this point, Phases 3 and 4 both have Rung 1 papers and gated build
+paths, with additional diagnostics and next-rung design notes in place.
+No new binding claims have been added to the Phase 0 ledger; the focus
+of this step was to harden the existing toy mechanism and FRW-facing
+infrastructure while keeping the epistemic status of all quantities
+strictly scoped.

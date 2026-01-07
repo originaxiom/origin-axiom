@@ -9,24 +9,44 @@
 \maketitle
 
 \begin{abstract}
-Phase~3 of the origin-axiom programme defined a reproducible scalar
-vacuum diagnostic \(E_{\mathrm{vac}}(\theta)\) over an abstract
-\(\theta\)-grid. Phase~4 tests whether that diagnostic can be connected
-to simple Friedmann--Robertson--Walker (FRW) histories in a structurally
-reasonable way. We introduce a first mapping family (F1) from
-\(E_{\mathrm{vac}}(\theta)\) to a toy \(\Omega_\Lambda(\theta)\), and we
-stack several FRW-inspired diagnostics: a sanity check on the shape of
-\(\Omega_\Lambda(\theta)\), a viability scan for FRW histories with
-matter, radiation and late-time acceleration, an automated extraction of
-FRW-viable \(\theta\)-corridors, and a coarse \(\Lambda\)CDM-like probe
-centred on \(\Omega_\Lambda \approx 0.7\) and \(t_0 \approx 13.8\,\mathrm{Gyr}\).
-For the baseline toy parameters used here, roughly half of the
-\(\theta\)-grid yields FRW-viable histories and a small but non-zero
-subset falls inside the \(\Lambda\)CDM-like window. We emphasise that
-these results are \emph{non-binding}: Phase~4 does not propose a unique
-\(\theta_\star\) or an observational fit, but instead provides a
-reproducible FRW-facing pipeline and a concrete worked example of how
-Phase~3 outputs can be tested against cosmological sanity criteria.
+This Phase~4 paper takes the Phase~3 amplitude output
+$\theta \mapsto A(\theta)$ as input and develops a structured,
+cosmology-facing diagnostic pipeline.  The aim is not to identify a
+preferred $\theta^\star$ or to claim contact with precision
+cosmology, but to test whether simple mappings from $A(\theta)$ to
+Friedmann--Robertson--Walker (FRW)-like quantities can be made
+numerically stable and transparently interrogated.
+
+We focus on a baseline one-parameter family of mappings,
+\(
+  E_{\mathrm{vac}}(\theta) = \alpha\, A(\theta)^\beta,
+\)
+with fixed toy parameters $(\alpha,\beta) = (1,4)$, and construct a
+five-layer diagnostic stack:
+(1) an $F1$ sanity curve that probes basic properties of
+$E_{\mathrm{vac}}(\theta)$;
+(2) $F1$ shape diagnostics that define a purely toy ``corridor''
+based on simple amplitude thresholds;
+(3) FRW-inspired toy checks that build $H^2(a;\theta)$ from
+$E_{\mathrm{vac}}(\theta)$ and enforce basic consistency
+conditions (positivity, matter era, late acceleration);
+(4) a FRW viability scan that records which $\theta$ points satisfy
+these toy criteria and exports a mask for further use; and
+(5) a corridor-extraction step that identifies contiguous
+$\theta$-bands where a given mapping passes the toy FRW checks.
+On top of this, we implement a $\Lambda$CDM-like probe and a stub for an
+external data probe, designed to handle the absence of bundled data
+as a structured negative result rather than an implicit success.
+
+All of these constructions are explicitly non-binding: the $F1$
+mapping is not derived from fundamental physics, the resulting
+corridors are diagnostic rather than canonical, and no claim is made
+that any particular $\theta$ or mapping solves the cosmological
+constant problem or reproduces the observed Universe.  The value of
+this phase lies in providing a transparent, reproducible interface
+between Phase~3 toy mechanisms and FRW-like summaries, together with
+a clear scaffold that future, more physically motivated mappings or
+data comparisons could use at higher rungs.
 \end{abstract}
 
 \input{sections/01_introduction}

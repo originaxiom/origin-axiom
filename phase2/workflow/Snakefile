@@ -487,3 +487,34 @@ rule paper:
         fi
         cd "{PHASE2_DIR}/paper" && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
         '''
+###############################################################################
+# Paper build: Phase 2
+###############################################################################
+
+rule build_phase2_paper_pdf:
+    """
+    Build the Phase 2 paper from phase2/paper/main.tex using latexmk,
+    then copy the resulting PDF to a canonical outputs/ path and an
+    artifact path, mirroring the Phase 3 / Phase 4 pattern.
+    """
+    input:
+        "phase2/paper/main.tex",
+    output:
+        "phase2/outputs/paper/phase2_paper.pdf",
+        "phase2/artifacts/origin-axiom-phase2.pdf",
+    shell:
+        r"""
+        set -euo pipefail
+        # Work inside the Phase 2 paper directory
+        cd ../paper
+
+        # Build the paper; latexmk will handle subfiles, includes, etc.
+        latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+
+        # Ensure canonical output and artifact directories exist
+        mkdir -p ../outputs/paper ../artifacts
+
+        # Copy main.pdf to canonical Phase 2 locations
+        cp main.pdf ../outputs/paper/phase2_paper.pdf
+        cp main.pdf ../artifacts/origin-axiom-phase2.pdf
+        """
