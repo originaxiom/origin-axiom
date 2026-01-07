@@ -73,3 +73,22 @@ developer.
 - No \(\theta\)-corridor or \(\theta\)-filter is defined at this rung;
   the goal is only to verify that the F1 mapping is numerically sane
   and cleanly wired into the Phase 3 mechanism outputs.
+
+## 2026-01-07 – Rung 4: F1 shape diagnostics and toy corridor
+
+- Added `phase4/src/phase4/run_f1_shape_diagnostics.py`, which rebuilds
+  the F1 vacuum-energy-like curve \(E_{\mathrm{vac}}(\theta)\) from the
+  Phase~3 baseline and computes basic shape descriptors (global min/max,
+  mean, standard deviation).
+- Defined a \emph{toy, non-binding} \(\theta\)-corridor as the set of
+  grid points satisfying
+  \(E_{\mathrm{vac}}(\theta) \le E_{\mathrm{vac},\min} + \sigma_{E}\),
+  writing summary diagnostics to
+  `phase4/outputs/tables/phase4_F1_shape_diagnostics.json` and a
+  per-theta mask to
+  `phase4/outputs/tables/phase4_F1_shape_mask.csv`.
+- Rewrote `phase4/paper/sections/03_diagnostics_stub.tex` to document
+  these diagnostics explicitly, emphasising that they are exploratory
+  and non-binding: they do not define a canonical \(\theta_\star\) and
+  serve only as a structured starting point for later, more physically
+  motivated corridor work.

@@ -1,0 +1,46 @@
+{
+  "E_vac_max": 1.1072753385579577e-05,
+  "E_vac_mean": 4.586828360911843e-06,
+  "E_vac_min": 3.967422438472583e-07,
+  "E_vac_std": 4.347080855961011e-06,
+  "baseline_meta": {
+    "alpha": 1.0,
+    "baseline_diag_path": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/mech_baseline_scan_diagnostics.json",
+    "baseline_diagnostics": {
+      "epsfloor": 0.025097306314832618,
+      "frac_bound": 0.25,
+      "max_unconstrained": 0.05768513413545393,
+      "min_unconstrained": 0.009200449440028544,
+      "n_grid": 2048,
+      "q25_unconstrained": 0.025097306314832618,
+      "q50_unconstrained": 0.03692941941860104,
+      "q75_unconstrained": 0.05592161583322377,
+      "theta_max": 6.283185307179586,
+      "theta_min": 0.0
+    },
+    "beta": 4.0,
+    "epsfloor": 0.025097306314832618,
+    "frac_bound": 0.25,
+    "mapping_family": "F1",
+    "mapping_name": "F1_baseline_v1",
+    "n_grid": 2048,
+    "theta_max": 6.283185307179586,
+    "theta_min": 0.0,
+    "vacuum_diagnostics": {
+      "epsfloor": 0.025097306314832618,
+      "frac_bound": 0.25,
+      "max_unconstrained": 0.05768513413545393,
+      "min_unconstrained": 0.009200449440028544
+    },
+    "vacuum_name": "baseline_v1"
+  },
+  "corridor_definition": "E_vac(theta) <= E_vac_min + k_sigma * sigma (k_sigma = 1.0; toy, non-binding diagnostic)",
+  "corridor_fraction": 0.5791015625,
+  "corridor_theta_max": 6.280117345603815,
+  "corridor_theta_min": 0.0,
+  "k_sigma": 1.0,
+  "mapping_family": "F1",
+  "mapping_name": "F1_baseline_v1",
+  "theta_max_global": 2.5985634546782763,
+  "theta_min_global": 0.0
+}
