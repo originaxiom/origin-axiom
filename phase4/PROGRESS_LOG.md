@@ -352,3 +352,15 @@ developer.
   broad age/\Omega_\Lambda windows, not full cosmological fits.
 - Kept all new material strictly non-claim-expanding: no new \theta-filters or
   data-driven claims were introduced at this rung.
+
+## 2026-01-07 - Rung 15: Hard-novelty roadmap for Phase 4
+
+- Added `phase4/HARD_NOVELTY_ROADMAP.md` to capture concrete directions for
+  turning the current F1 + FRW infrastructure into harder scientific novelty
+  (simple data-facing checks, FRW hyperparameter scans, and a sharper mapping
+  back to the origin-axiom machinery).
+- Framed all proposals as design-level next steps rather than present claims,
+  preserving the current Phase 4 scope as primarily infrastructural and
+  corridor-mapping.
+- Left the Phase 4 paper unchanged at this rung; no new \theta-filters or
+  data-driven results were introduced.
