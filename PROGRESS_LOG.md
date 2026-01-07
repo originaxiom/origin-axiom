@@ -2004,3 +2004,69 @@ Notes:
     claimed at this phase, and
   - any future corridor tightening, \(\theta_\star\) proposal, or data
     calibration must live in later rungs/phases with explicit new assumptions.
+
+## 2026-01-07 — Phase 3 instability diagnostics + Phase 4 FRW probe polish
+
+- **Phase 3: toy-mechanism measure diagnostics (measure_v1)**  
+  - Implemented `phase3/src/phase3_mech/measure_v1.py`, a lightweight probe of the
+    baseline amplitude distribution \(A_0(\theta)\) using the existing
+    Phase 3 mechanism output.
+  - The script reads the baseline scan from
+    `phase3/outputs/tables/mech_baseline_scan.csv` (column `A0`), computes basic
+    summary statistics and quantiles, and writes:
+    - `phase3/outputs/tables/phase3_measure_v1_stats.json` (summary stats + eps-grid),
+    - `phase3/outputs/tables/phase3_measure_v1_hist.csv` (binned histogram).
+  - Console output now records a small eps-grid diagnostic, e.g.
+    \(\mathrm{Pr}[A_0 < \varepsilon]\) for \(\varepsilon \in \{0.005, 0.01, 0.02, 0.05\)\,
+    making explicit how often the toy ensemble wanders into the deep cancellation basin
+    near \(A_0 = 0\) under the current configuration.
+  - All of these are explicitly documented as **toy-model diagnostics only**:
+    they do **not** impose a physical floor, alter the binding experiment, or
+    introduce new corridor constraints.
+
+- **Phase 3: instability-penalty diagnostic (instability_penalty_v1)**  
+  - Implemented `phase3/src/phase3_mech/instability_penalty_v1.py`, which consumes
+    `phase3_measure_v1_stats.json` and constructs a simple “instability penalty”
+    functional over the eps-grid.
+  - The current implementation treats the measured fractions below each \(\varepsilon\)
+    threshold as a toy proxy for how heavily the mechanism samples the deep
+    cancellation basin, and aggregates them into a scalar
+    `total_penalty` (today's baseline run gives `total_penalty ≈ 22.64`).
+  - Output is written to
+    `phase3/outputs/tables/phase3_instability_penalty_v1.json` and is positioned
+    as a **non-binding diagnostic** that could be iterated in future rungs
+    (e.g. with alternative eps-grids, weights, or comparisons between mechanisms).
+
+- **Phase 3 paper + gate refresh**  
+  - Extended Section 3 (results) to briefly report the new measure/instability
+    diagnostics and emphasise their purely diagnostic, toy-model status.
+  - Updated Appendix B (reproducibility) to document:
+    - `measure_v1.py` (inputs, outputs, and console eps-grid summary),
+    - `instability_penalty_v1.py` (dependency on `phase3_measure_v1_stats.json`
+      and penalty JSON output).
+  - Rebuilt the Phase 3 paper via `scripts/phase3_gate.sh`; Level-A gate passes and
+    the canonical artifact `phase3/artifacts/origin-axiom-phase3.pdf` is up to date.
+
+- **Phase 4: F1/FRW probe clarification (Rung 1 polish)**  
+  - Clarified in the Phase 4 text that the F1 mapping
+    \(E_{\text{vac}}(\theta) = \alpha\,A(\theta)^\beta\) with baseline
+    \((\alpha, \beta) = (1, 4)\) is a **structural toy choice**, not a physical
+    identification of vacuum energy.
+  - Tightened the description of the FRW-facing diagnostics stack and the
+    “shape/ΛCDM-like” probe, making explicit that:
+    - no θ-filter is promoted to binding status,
+    - no fine-tuning claim is made,
+    - the current `frw_data_probe` remains a stub that records a structured
+      negative result when no external dataset is present.
+  - Rebuilt the Phase 4 paper via `scripts/phase4_gate.sh`; gate passes and
+    `phase4/artifacts/origin-axiom-phase4.pdf` is in sync with the code.
+
+- **Forward hook to next rung**  
+  - The new diagnostics and text changes are deliberately framed as
+    **non-binding infrastructure**: they sharpen our view of how the toy
+    mechanism explores the cancellation basin and how the FRW pipeline reacts,
+    without yet answering the central “why enforce a floor?” question.
+  - The next Phase 3 rung is expected to focus on candidate *mechanisms* for
+    non-cancellation (topological, consistency-based, or emergent), which can
+    then be tested against these diagnostics rather than extending them further.
+
