@@ -66,10 +66,10 @@ From the sanity curve we define
   \tilde{E}_{\mathrm{vac}}(\theta) =
   \frac{E_{\mathrm{vac}}(\theta)}{\langle E_{\mathrm{vac}} \rangle}
 \]
-and rescale it to a toy
-\(\Omega_\Lambda(\theta)\) with mean \(\approx 0.7\). Together with
-fixed, dimensionless matter and radiation parameters
-\(\Omega_m = 0.3\) and \(\Omega_r = 0\), we evaluate
+and rescale it to a toy \(\Omega_\Lambda(\theta)\) with mean
+\(\approx 0.7\). Together with fixed, dimensionless matter and
+radiation parameters \(\Omega_m = 0.3\) and \(\Omega_r = 0\), we
+evaluate
 \[
   H^2(a; \theta) =
   \Omega_r a^{-4} + \Omega_m a^{-3} + \Omega_\Lambda(\theta)
@@ -94,9 +94,15 @@ writes:
     a bounded variation factor over the scale-factor grid.
 \end{itemize}
 
-This FRW-inspired diagnostic is deliberately modest: it does not
-derive cosmological parameters, does not fix a preferred
-\(\theta_\star\), and does not by itself define a Phase~4
-\(\theta\)-filter. Its role is to provide a concrete, auditable
-example of how the F1 scalar can feed into FRW-like sanity checks,
-preparing the ground for later, more refined corridor work.
+In the current baseline configuration (with
+\(\Omega_m = 0.3\), \(\Omega_r = 0\),
+\(\langle \Omega_\Lambda \rangle \approx 0.7\), and a variation bound
+of order \(10\) on the ratio of maximal to minimal \(H^2\) across the
+scale-factor grid), the FRW-sanity mask happens to be empty:
+the corresponding diagnostics report a very small FRW-sanity fraction
+(\(\texttt{frac\_sane} \approx 0\)). This is recorded as a
+\emph{toy-level negative result} for this particular normalisation and
+sanity criterion. It is not used to define a Phase~4 filter and does
+not by itself constrain \(\theta\); its role is purely to illustrate
+how the F1 scalar can feed into FRW-like checks and to demonstrate how
+Phase~4 handles empty-corridor outcomes in a structured way.

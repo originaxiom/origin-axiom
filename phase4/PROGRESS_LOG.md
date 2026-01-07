@@ -140,3 +140,21 @@ developer.
 - No \(\theta\)-filter or physically calibrated FRW model is introduced
   at this rung; the FRW-inspired module is used strictly as a
   structural sanity probe for the F1 mapping.
+
+## 2026-01-07 - Rung 8: FRW toy baseline outcome and documentation
+
+- Inspected the FRW-inspired toy diagnostics output, noting that with
+  the current toy parameters and variation bound the FRW-sanity mask
+  is empty (`frac_sane ≈ 0`).
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` so the Phase 4
+  paper explicitly records this baseline outcome as a toy-level
+  negative result, emphasising that it is non-binding and does not
+  define a θ-filter.
+- Appended a "Baseline Rung-7 outcome" section to
+  `phase4/FRW_TOY_DESIGN.md` to document the current FRW toy behaviour
+  and to frame it as a local test of the F1 mapping and normalisation,
+  not a global verdict on Phase 4.
+- No changes were made to the mapping implementation or sanity
+  criteria at this rung; the focus is on honest reporting and
+  alignment with the Phase 0 philosophy about structured negative
+  results.

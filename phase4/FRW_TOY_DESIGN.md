@@ -110,3 +110,23 @@ non-pathological.
 If all reasonable choices of scaling and trajectories yield clearly
 pathological behaviour, Phase 4 will treat this as a *negative*
 diagnostic, to be reported alongside other corridor results.
+
+## Baseline Rung-7 outcome (toy, non-binding)
+
+Using the F1 sanity curve and the default toy parameters
+(\Omega_m = 0.3, \Omega_r = 0, \langle \Omega_\Lambda \rangle \approx 0.7)
+together with a bounded-variation criterion on H^2(a; \theta), the
+script `phase4/src/phase4/run_f1_frw_toy_diagnostics.py` produced:
+
+- a diagnostics file
+  `phase4/outputs/tables/phase4_F1_frw_toy_diagnostics.json`, and
+- a per-theta mask
+  `phase4/outputs/tables/phase4_F1_frw_toy_mask.csv`.
+
+In this baseline configuration the FRW-sanity fraction is effectively
+zero (`frac_sane ≈ 0`), i.e. the mask is empty. This is interpreted
+as a **local, toy-level negative result** for this particular choice
+of normalisation and sanity criterion, not as a failure of Phase 4 as
+a whole. It is not used as a θ-filter and remains strictly
+non-binding, serving only to demonstrate how empty-corridor outcomes
+are recorded and inspected.
