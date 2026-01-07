@@ -1,159 +1,196 @@
-\section{Diagnostics and toy corridors}
-\label{sec:phase4_diagnostics}
+% Phase 4 diagnostics: vacuum map, toy corridors, and FRW-facing probes
 
-Phase~4 currently provides three layers of diagnostics built on the
-Phase~3 vacuum mechanism and the F1 mapping family. All of them are
-explicitly non-binding: they are used for internal checks and
-illustration, not as canonical \(\theta\)-filters.
+The Phase~4 diagnostics are deliberately layered. The goal is to place
+the F1 mapping family on a numerically solid footing and to expose a
+sequence of increasingly structured, but still non-binding, probes
+that later work can refine or replace. All layers are wired through
+explicit on-disk artefacts in \texttt{phase4/outputs/tables/} so that
+their behaviour can be inspected without touching the code.
 
-\subsection{F1 sanity curve}
+We summarise the main layers here.
 
-The first layer is a direct sanity check of the F1 mapping. Using the
-Phase~3 baseline configuration and the quantile-based floor recorded
-in \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json},
-we evaluate the floor-enforced amplitude \(A(\theta)\) on a uniform
-grid of \(N_\theta = 2048\) points in \([0, 2\pi)\) and construct a
-toy vacuum-energy-like scalar
+\medskip
+
+\noindent\textbf{(1) F1 sanity curve.}
+The first rung is a minimal ``vacuum curve'' sanity check. We reuse
+the Phase~3 baseline mechanism diagnostics stored in
+\texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}
+to define a quantile-based floor \(\epsfloor\) for the unconstrained
+amplitude \(A(\theta)\). The F1 family then defines a scalar
 \[
-  E_{\mathrm{vac}}(\theta) = \alpha A(\theta)^{\beta},
+  E_{\mathrm{vac}}(\theta) \;=\; \alpha\,A(\theta)^{\beta}
 \]
-with \(\alpha = 1\) and \(\beta = 4\) at this rung. The script
-\texttt{phase4/src/phase4/run\_f1\_sanity.py} writes the per-grid
-values and metadata to
+with fixed toy parameters \(\alpha = 1\) and \(\beta = 4\) in the
+baseline configuration. The script
+\texttt{phase4/src/phase4/run\_f1\_sanity.py} evaluates
+\(E_{\mathrm{vac}}(\theta)\) on a uniform grid of
+\(N_\theta = 2048\) points in \([0, 2\pi)\), writing a per-grid CSV
 \begin{center}
   \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv},
 \end{center}
-which establishes that \(E_{\mathrm{vac}}(\theta)\) is strictly
-positive, numerically well-behaved, and tied cleanly to the Phase~3
-baseline diagnostics.
+together with a metadata block recording global minima, maxima,
+quantiles, and the exact Phase~3 diagnostics that were reused. This
+layer only checks that the F1 map is numerically sane (strictly
+positive, small, and well-resolved) and cleanly wired to Phase~3; it
+does not attempt any physical calibration.
 
-\subsection{F1 shape diagnostics and toy corridor}
+\medskip
 
-The second layer probes the \emph{shape} of \(E_{\mathrm{vac}}(\theta)\)
-by defining a toy, non-binding corridor in the space of scalar values.
-The script
-\texttt{phase4/src/phase4/run\_f1\_shape\_diagnostics.py}
-constructs a mask based on
+\noindent\textbf{(2) F1 shape diagnostics and a toy corridor.}
+The second rung looks at the \emph{shape} of the F1 curve rather than
+individual values. The script
+\texttt{phase4/src/phase4/run\_f1\_shape\_diagnostics.py} consumes the
+F1 sanity CSV and constructs a toy ``low-\(E_{\mathrm{vac}}\)''
+corridor via a simple threshold
 \[
-  E_{\mathrm{vac}}(\theta) \le
-  E_{\mathrm{vac}, \min} + k_\sigma \sigma,
-  \quad k_\sigma = 1,
+  E_{\mathrm{vac}}(\theta)
+  \;\leq\;
+  E_{\mathrm{vac},\min} + k_\sigma\,\sigma,
 \]
-where \(E_{\mathrm{vac}, \min}\) and \(\sigma\) are the global minimum
-and standard deviation of the F1 curve. This is intentionally weak: it
-retains a substantial fraction of the \(\theta\)-grid while discarding
-the largest excursions.
-
-The script writes a summary diagnostics file
-\begin{center}
-  \texttt{phase4/outputs/tables/phase4\_F1\_shape\_diagnostics.json}
-\end{center}
-and a per-grid mask
-\begin{center}
-  \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv},
-\end{center}
-which later rungs and toy modules can reuse. At this stage the mask is
-explicitly described as a \emph{toy corridor}: it does not define a
-canonical \(\theta_\star\) and is not elevated to a Phase~4 filter.
-
-\subsection{FRW-inspired toy diagnostics}
-
-The third layer introduces a minimal FRW-inspired toy diagnostic that
-treats \(E_{\mathrm{vac}}(\theta)\) as a source for a
-\emph{dimensionless} vacuum term in a simple Hubble-like quantity.
-From the sanity curve we define
-\[
-  \tilde{E}_{\mathrm{vac}}(\theta) =
-  \frac{E_{\mathrm{vac}}(\theta)}{\langle E_{\mathrm{vac}} \rangle}
-\]
-and rescale it to a toy \(\Omega_\Lambda(\theta)\) with mean
-\(\approx 0.7\). Together with fixed, dimensionless matter and
-radiation parameters \(\Omega_m = 0.3\) and \(\Omega_r = 0\), we
-evaluate
-\[
-  H^2(a; \theta) =
-  \Omega_r a^{-4} + \Omega_m a^{-3} + \Omega_\Lambda(\theta)
-\]
-on a late-time scale-factor grid \(a \in [0.5, 1]\). No physical units
-are assigned and no claim is made that these numbers match
-observations.
-
-The script
-\texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py}
-writes:
+with a baseline choice \(k_\sigma = 1\). It produces
 
 \begin{itemize}
   \item a JSON summary
-    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_diagnostics.json},
-    recording global extrema and moments of \(E_{\mathrm{vac}}\),
-    \(\Omega_\Lambda(\theta)\), the chosen \(\Omega\)-parameters, and
-    a simple FRW-sanity fraction; and
+    \texttt{phase4/outputs/tables/phase4\_F1\_shape\_diagnostics.json},
+    recording amplitude statistics, the chosen threshold, and the
+    resulting corridor fraction; and
   \item a per-grid mask
-    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_mask.csv},
-    containing \(\theta\), \(\Omega_\Lambda(\theta)\), and a Boolean
-    indicator of whether \(H^2(a; \theta)\) stays positive and within
-    a bounded variation factor over the scale-factor grid.
+    \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv},
+    listing \(\theta\), \(E_{\mathrm{vac}}(\theta)\), and an indicator
+    of membership in this toy corridor.
 \end{itemize}
 
-Depending on the chosen toy parameters and sanity criterion, the
-resulting FRW-sanity fraction can be small or even zero; such
-empty-corridor outcomes are treated as informative negative results,
-recorded in the diagnostics and logs rather than hidden. In all cases
-the FRW-inspired module remains strictly non-binding: it does not fix
-a preferred \(\theta_\star\) and does not, by itself, define a Phase~4
-\(\theta\)-filter.
+This is explicitly labelled as exploratory and non-binding. It shows
+how a mechanically defined scalar can induce a corridor-like subset of
+the \(\theta\)-grid, but it is \emph{not} used to define any Phase~4
+\(\theta\)-filter or to suggest a preferred \(\theta_\star\).
 
-\subsection*{FRW-inspired viability mask on F1}
+\medskip
 
-Beyond the FRW-inspired toy sanity check described above, we also
-define a simple FRW \emph{viability} diagnostic on the F1 mapping.
-Here we keep the same background ansatz
+\noindent\textbf{(3) FRW-inspired toy sanity checks.}
+The third rung embeds \(E_{\mathrm{vac}}(\theta)\) into a simple,
+late-time FRW-inspired background. The script
+\texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py} rescales
+the F1 vacuum curve into a toy dark-energy parameter
+\(\Omega_\Lambda(\theta)\) with
+\(\langle \Omega_\Lambda \rangle \approx 0.7\) at fixed
+\(\Omega_m = 0.3\), \(\Omega_r = 0\). It then evaluates a schematic
+FRW quantity
 \[
-  H^2(a; \theta) = \Omega_r a^{-4} + \Omega_m a^{-3} +
-  \Omega_\Lambda(\theta),
+  H^2(a; \theta)
+  \;=\;
+  \Omega_r a^{-4} + \Omega_m a^{-3} + \Omega_\Lambda(\theta)
 \]
-with fixed \(\Omega_m = 0.3\), \(\Omega_r = 0\), and a Hubble
-parameter \(H_0 = 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}\). For every
-\(\theta\) on the F1 grid we:
+on a late-time scale-factor grid \(a \in [0.5, 1]\) and applies a
+simple sanity criterion: \(H^2(a; \theta)\) must stay positive and
+bounded in variation across that grid. This produces
 
 \begin{itemize}
-  \item rescale the F1 scalar \(E_{\mathrm{vac}}(\theta)\) into a
-    toy \(\Omega_\Lambda(\theta)\) whose mean matches a target
-    \(\langle \Omega_\Lambda \rangle \approx 0.7\);
-  \item integrate a standard FRW age integral \(t_0(\theta)\) over a
-    scale-factor grid \(a \in [a_{\min}, a_{\max}]\) and require the
-    resulting cosmic age to lie in a coarse window
-    \(t_0 \in [10, 20]~\mathrm{Gyr}\);
-  \item check for a clear matter-dominated epoch and a late-time
-    accelerating regime in which the deceleration parameter becomes
-    negative; and
-  \item enforce a smoothness criterion on \(H^2(a; \theta)\) by
-    bounding the ratio of its maximal to minimal value over the
-    grid.
-\end{itemize}
-
-The script
-\texttt{phase4/src/phase4/run\_f1\_frw\_viability.py} evaluates these
-conditions over the full F1 grid, writing
-\begin{itemize}
-  \item a diagnostic summary
-    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_diagnostics.json},
-    including the age window, global moments of \(t_0(\theta)\), and
-    the fractions of \(\theta\)-points that satisfy each FRW condition;
-    and
+  \item a JSON diagnostics file
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_diagnostics.json},
+    recording moments of \(E_{\mathrm{vac}}\),
+    \(\Omega_\Lambda(\theta)\), the FRW parameters, and a
+    ``FRW-sanity fraction''; and
   \item a per-grid mask
-    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_mask.csv},
-    with columns \(\theta\), \(\Omega_\Lambda(\theta)\), and a Boolean
-    viability indicator.
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_mask.csv}
+    with \(\theta\), \(\Omega_\Lambda(\theta)\), and a Boolean
+    indicator of FRW sanity.
 \end{itemize}
 
-In the current baseline configuration we find that essentially all
-\(\theta\)-points satisfy the age window, matter-era, and smoothness
-requirements, while a non-trivial subset (roughly half of the F1
-grid) additionally exhibits late-time acceleration. The resulting
-viability mask therefore singles out a first, explicitly FRW-flavoured
-subset of \(\theta\)-values as \emph{toy-viable} cosmological
-histories. This mask is not yet promoted to a canonical
-Phase~4 \(\theta\)-filter, but it plays a key role as a concrete,
-physics-facing bridge between the Phase~3 mechanism and simple
-FRW-like observables.
+This module is intentionally modest and strictly non-binding. It is
+used as a structural probe of how the F1 scalar can feed into
+FRW-like checks, and as an example of how empty-corridor outcomes
+(when the sanity fraction is small or zero) are recorded and analysed
+rather than hidden.
+
+\medskip
+
+\noindent\textbf{(4) FRW viability scan with age and era constraints.}
+The fourth rung tightens the FRW-facing analysis into a more
+cosmology-like viability scan, while still remaining at the level of a
+toy model. The script
+\texttt{phase4/src/phase4/run\_f1\_frw\_viability.py} again uses a
+mapping from \(E_{\mathrm{vac}}(\theta)\) to \(\Omega_\Lambda(\theta)\)
+with \(\langle \Omega_\Lambda \rangle \approx 0.7\) at fixed
+\(\Omega_m = 0.3\), \(\Omega_r = 0\) and a toy Hubble parameter
+\(H_0 = 70\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\). For each grid point in
+\(\theta\) it then
+
+\begin{enumerate}
+  \item computes a dimensionless FRW age integral
+    \(t_0 H_0 = \int_0^1 \mathrm{d}a \big/ \left(a \sqrt{H^2(a;\theta)}\right)\)
+    and converts it to a cosmic age \(t_0(\theta)\) in Gyr;
+  \item checks for the existence of a ``matter era'' in which the
+    \(\Omega_m a^{-3}\) term dominates over both radiation and
+    \(\Omega_\Lambda(\theta)\) on part of the \(a\)-grid;
+  \item checks for a ``late-time acceleration'' regime where the
+    effective deceleration parameter becomes negative near \(a = 1\);
+  \item requires a smooth, positive \(H^2(a; \theta)\) on the chosen
+    grid; and
+  \item demands that the resulting age lies in a broad window
+    \(10\,\mathrm{Gyr} \le t_0(\theta) \le 20\,\mathrm{Gyr}\).
+\end{enumerate}
+
+The output is
+
+\begin{itemize}
+  \item a diagnostics file
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_diagnostics.json}
+    summarising the distribution of ages and the fractions of grid
+    points satisfying each individual condition and the combined
+    viability cut; and
+  \item a per-\(\theta\) mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_mask.csv}
+    with columns
+    \texttt{theta}, \texttt{E\_vac}, \texttt{omega\_lambda},
+    \texttt{age\_Gyr}, individual Boolean flags
+    (\texttt{has\_matter\_era}, \texttt{has\_late\_accel},
+    \texttt{smooth\_H2}), and a combined
+    \texttt{frw\_viable} flag.
+\end{itemize}
+
+At the baseline settings used here, a non-trivial fraction of the grid
+(\(\approx 0.5\)) satisfies all of these toy viability criteria. The
+exact numbers are not tuned to any observational data; they are
+treated as diagnostics of how the F1 mapping behaves under a
+cosmology-flavoured set of constraints.
+
+\medskip
+
+\noindent\textbf{(5) Corridor extraction from the FRW viability mask.}
+The final rung in the current Phase~4 diagnostics compresses the FRW
+viability mask into contiguous ``corridors'' in \(\theta\)-space. The
+script
+\texttt{phase4/src/phase4/run\_f1\_frw\_corridors.py} reads
+\texttt{phase4\_F1\_frw\_viability\_mask.csv}, interprets the
+\texttt{frw\_viable} flag as a Boolean viability indicator, and groups
+successive viable grid points into connected components, allowing for
+a small tolerance on the grid spacing. For each corridor it records
+
+\begin{itemize}
+  \item \(\theta_{\min}\), \(\theta_{\max}\);
+  \item the number of included grid points; and
+  \item an optional mean \(\langle \Omega_\Lambda \rangle\) over that
+    corridor when the corresponding column is present.
+\end{itemize}
+
+The resulting corridors are written to
+
+\begin{center}
+  \texttt{phase4/outputs/tables/phase4\_F1\_frw\_corridors.json}, \\
+  \texttt{phase4/outputs/tables/phase4\_F1\_frw\_corridors.csv}.
+\end{center}
+
+The JSON file additionally highlights a \emph{principal corridor}
+(selected as the one with the largest number of grid points) together
+with basic metadata such as the total grid size, the overall viable
+fraction, and the total number of corridors.
+
+Even at this rung the construction remains explicitly non-binding:
+the corridors are treated as candidate bands emerging from a
+cosmology-flavoured viability scan, not as a canonical
+Phase~4 \(\theta\)-filter or a claimed prediction of a preferred
+\(\theta_\star\). Their role is to show, in a fully reproducible way,
+how the Phase~3 mechanism, the F1 mapping, and simple FRW-inspired
+constraints can be chained into corridor-like structures that later,
+more physically ambitious work can interrogate or replace.

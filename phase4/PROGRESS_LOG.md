@@ -219,3 +219,30 @@ developer.
   `phase4/FRW_TOY_DESIGN.md` so that the Phase 4 paper and design note
   record this FRW-inspired viability corridor as a toy, physics-facing
   constraint, without yet promoting it to the final \(\theta\)-filter.
+
+## 2026-01-07 – Rung 10: FRW viability scan and corridor extraction
+
+- Implemented `phase4/src/phase4/run_f1_frw_viability.py`, which maps
+  the F1 vacuum curve into a toy FRW background with
+  \(\Omega_m = 0.3\), \(\Omega_r = 0\),
+  \(\langle \Omega_\Lambda \rangle \approx 0.7\), and
+  \(H_0 = 70\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\). For each theta-grid
+  point it computes a cosmic age \(t_0(\theta)\) in Gyr, checks for a
+  matter era, late-time acceleration, and smooth positive \(H^2(a)\),
+  and applies a broad age window \(10\text{–}20\) Gyr.
+- Wrote the resulting diagnostics and per-theta viability mask to
+  `phase4/outputs/tables/phase4_F1_frw_viability_diagnostics.json`
+  and `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`.
+- Added `phase4/src/phase4/run_f1_frw_corridors.py` to compress the
+  FRW viability mask into contiguous theta-corridors, producing
+  `phase4/outputs/tables/phase4_F1_frw_corridors.json` and
+  `phase4/outputs/tables/phase4_F1_frw_corridors.csv` and highlighting
+  a principal corridor (largest number of viable grid points).
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` and
+  `phase4/FRW_TOY_DESIGN.md` so the Phase 4 paper and design note
+  describe the FRW viability and corridor layers explicitly, with all
+  FRW-facing modules clearly marked as toy-level and non-binding.
+- Re-ran the Phase 4 gate to regenerate the canonical artifact. The
+  FRW viability and corridor results are treated as structured
+  diagnostics of the F1 mapping and not as a claim of a physically
+  calibrated theta-filter.

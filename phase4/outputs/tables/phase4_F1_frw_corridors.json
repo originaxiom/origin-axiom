@@ -1,0 +1,25 @@
+{
+  "corridors": [
+    {
+      "n_points": 1016,
+      "omega_lambda_mean": 1.300146030542141,
+      "theta_max": 3.54042765844006,
+      "theta_min": 0.42644665903220824
+    }
+  ],
+  "meta": {
+    "mapping_family": "F1",
+    "n_corridors": 1,
+    "n_grid": 2048,
+    "n_viable": 1016,
+    "principal_corridor": {
+      "index": 0,
+      "n_points": 1016,
+      "omega_lambda_mean": 1.300146030542141,
+      "theta_max": 3.54042765844006,
+      "theta_min": 0.42644665903220824
+    },
+    "source_mask": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv",
+    "viable_fraction": 0.49609375
+  }
+}

@@ -183,3 +183,61 @@ FRW-flavoured viability corridor on F1. It remains a toy diagnostic:
 we do not yet treat it as the final Phase 4 \(\theta\)-filter, but it
 provides a concrete, physics-facing constraint that can be refined or
 replaced in later rungs.
+
+## 2026-01-07 – Rung 10: FRW viability scan and corridors
+
+At Rung 10 we promote the FRW-facing analysis from a single “sanity
+mask” to a simple viability scan plus a corridor post-processing step.
+
+The script `phase4/src/phase4/run_f1_frw_viability.py`:
+
+- reuses the F1 sanity curve and the toy mapping
+  \(E_{\mathrm{vac}}(\theta) \mapsto \Omega_\Lambda(\theta)\) with
+  \(\langle \Omega_\Lambda \rangle \approx 0.7\) at fixed
+  \(\Omega_m = 0.3\), \(\Omega_r = 0\);
+- adopts a fiducial Hubble parameter
+  \(H_0 = 70\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\);
+- for each grid point in \(\theta\), computes a FRW age integral
+  \(t_0(\theta)\) and expresses it in Gyr;
+- requires (i) the existence of a matter-dominated era, (ii) a
+  late-time acceleration regime near \(a=1\), and (iii) a smooth,
+  positive \(H^2(a; \theta)\) profile on the chosen scale-factor
+  grid; and
+- imposes a broad age window \(10\,\mathrm{Gyr} \le t_0(\theta)
+  \le 20\,\mathrm{Gyr}\).
+
+The resulting diagnostics are written to:
+
+- `phase4/outputs/tables/phase4_F1_frw_viability_diagnostics.json`
+  (global age range and per-condition fractions), and
+- `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`
+  (per-theta fields: `theta`, `E_vac`, `omega_lambda`, `age_Gyr`,
+  individual condition flags, and a combined `frw_viable` flag).
+
+For the baseline settings used here the age distribution sits in a
+sensible range (roughly 11–16 Gyr), and about half of the grid
+satisfies the combined viability criteria. These numbers are treated
+as diagnostics only; they are not tuned to any observational dataset
+and are subject to change as the toy choices are refined.
+
+To connect this viability mask to the corridor language used
+elsewhere in the project, the script
+`phase4/src/phase4/run_f1_frw_corridors.py`:
+
+- reads `phase4_F1_frw_viability_mask.csv`;
+- groups successive grid points with `frw_viable = 1` into contiguous
+  theta-corridors, using a small tolerance on the expected grid
+  spacing; and
+- writes corridor-level summaries to
+  `phase4_F1_frw_corridors.json` and
+  `phase4_F1_frw_corridors.csv`, including a designated “principal
+  corridor” (the one with the largest number of points).
+
+This entire chain remains explicitly non-binding. It is designed to
+show how a mechanically defined vacuum map plus basic FRW-style
+constraints can yield corridor-like subsets of the theta-grid, not to
+claim a physically calibrated prediction for a preferred
+\(\theta_\star\). Any future attempt to ascribe physical significance
+to these structures would have to replace the present toy choices
+with a rigorously justified cosmological model and a clear data-facing
+comparison protocol.
