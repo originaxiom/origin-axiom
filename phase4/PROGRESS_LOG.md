@@ -339,3 +339,16 @@ developer.
   infrastructure.
 - No changes were made to the Phase 4 Snakefile or gate; the data probe remains
   a manual, opt-in diagnostic consistent with Phase 0 claim discipline.
+
+## 2026-01-07 - Rung 14: FRW synthesis note and explicit limitations
+
+- Added `phase4/FRW_SYNTHESIS.md` to summarise the FRW-facing layers of Phase 4
+  (sanity curve, shape corridor, FRW viability, corridors, \Lambda CDM-like
+  probe, shape overlap, and the data probe scaffold) together with the key
+  baseline fractions and an honest list of limitations.
+- Extended `phase4/paper/sections/04_limitations_stub.tex` with a dedicated
+  paragraph on FRW-facing limitations, clarifying that the current FRW layers
+  are simple plausibility checks under hand-fixed background parameters and
+  broad age/\Omega_\Lambda windows, not full cosmological fits.
+- Kept all new material strictly non-claim-expanding: no new \theta-filters or
+  data-driven claims were introduced at this rung.
