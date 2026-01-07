@@ -1,17 +1,130 @@
 \section*{Appendix B: Reproducibility notes (draft)}
 \label{app:phase4_reproducibility}
 
-This appendix will eventually document:
+At this rung, Phase~4 builds on the Phase~3 toy vacuum mechanism and
+its non-cancellation floor, introduces the F1 mapping family, and
+adds internal diagnostics and a toy, non-binding corridor. This
+appendix summarises how to rebuild the Phase~4 artifacts used in the
+paper.
+
+\subsection*{Directory structure}
+
+Phase~4 lives in the top-level directory \texttt{phase4/} with the
+following relevant subdirectories:
 
 \begin{itemize}
-  \item the Phase 4 directory and workflow structure;
-  \item the gate levels (paper-only vs. paper+artifacts);
-  \item the commands required to rebuild the Phase 4 paper and any
-        binding \(\theta\)-filters; and
-  \item the run manifests and configuration files that define the
-        tested mapping families.
+  \item \texttt{phase4/paper/}: LaTeX sources for the Phase~4 paper
+        (including this appendix).
+  \item \texttt{phase4/src/phase4/}: Python source for the F1 mapping
+        family and diagnostics.
+  \item \texttt{phase4/outputs/}:
+        \begin{itemize}
+          \item \texttt{outputs/paper/}: built Phase~4 PDF;
+          \item \texttt{outputs/tables/}: CSV/JSON artifacts from F1
+                diagnostics.
+        \end{itemize}
+  \item \texttt{phase4/artifacts/}: canonical Phase~4 PDF artifact
+        exported by the gate script.
 \end{itemize}
 
-At this rung, Phase 4 only provides a minimal paper skeleton and no
-mapping implementations. Reproducibility therefore reduces to
-rebuilding the present PDF via the Phase 4 gate script.
+\subsection*{Upstream Phase 3 prerequisites}
+
+Phase~4 assumes that the Phase~3 baseline scan and binding-certificate
+artifacts have been generated at least once. In practice this can be
+ensured by running, from the repository root:
+
+\begin{verbatim}
+bash scripts/phase3_gate.sh --level A
+\end{verbatim}
+
+and, if needed, explicitly running the Phase~3 scripts:
+
+\begin{verbatim}
+python phase3/src/phase3_mech/run_baseline_scan.py
+python phase3/src/phase3_mech/run_binding_certificate.py
+\end{verbatim}
+
+These commands populate:
+
+\begin{itemize}
+  \item \texttt{phase3/outputs/tables/mech\_baseline\_scan.csv}
+  \item \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}
+  \item \texttt{phase3/outputs/tables/mech\_binding\_certificate.csv}
+  \item \texttt{phase3/outputs/tables/mech\_binding\_certificate\_diagnostics.json}
+\end{itemize}
+
+The F1 mapping family reads
+\texttt{mech\_baseline\_scan\_diagnostics.json} to reuse the
+quantile-based floor and grid configuration.
+
+\subsection*{Phase 4 F1 mapping and diagnostics}
+
+With the Phase~3 prerequisites in place, the current Phase~4
+diagnostics can be rebuilt via:
+
+\begin{verbatim}
+python phase4/src/phase4/run_f1_sanity.py
+python phase4/src/phase4/run_f1_shape_diagnostics.py
+\end{verbatim}
+
+These scripts write:
+
+\begin{itemize}
+  \item \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv}
+        (per-\(\theta\) values of \(E_{\mathrm{vac}}(\theta)\) and
+        associated metadata);
+  \item \texttt{phase4/outputs/tables/phase4\_F1\_shape\_diagnostics.json}
+        (summary statistics and toy corridor definition);
+  \item \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv}
+        (per-\(\theta\) Boolean mask indicating membership in the toy
+        corridor).
+\end{itemize}
+
+At this rung these diagnostics are explicitly non-binding: they do not
+define a canonical \(\theta\)-filter, but they are used in the Phase~4
+paper to illustrate the behaviour of the F1 mapping.
+
+\subsection*{Building the Phase 4 paper and artifact}
+
+The Phase~4 paper and its canonical PDF artifact can be rebuilt from
+the repository root via:
+
+\begin{verbatim}
+bash scripts/phase4_gate.sh --level A
+\end{verbatim}
+
+This gate script runs a Snakemake workflow in
+\texttt{phase4/workflow/Snakefile} that invokes \texttt{latexmk} on
+\texttt{phase4/paper/main.tex} and copies the resulting PDF to:
+
+\begin{itemize}
+  \item \texttt{phase4/outputs/paper/phase4\_paper.pdf}
+  \item \texttt{phase4/artifacts/origin-axiom-phase4.pdf}
+\end{itemize}
+
+The gate currently covers the Phase~4 paper only; F1 diagnostics are
+rebuilt by the explicit Python commands above.
+
+\subsection*{Planned extensions}
+
+The design note \texttt{phase4/FRW\_TOY\_DESIGN.md} specifies a
+minimal FRW-inspired toy module that may be implemented in later
+rungs. If such a module is added, this appendix will be extended to
+include:
+
+\begin{itemize}
+  \item the relevant Python scripts and configuration files;
+  \item any additional JSON/CSV outputs; and
+  \item updated gate levels if FRW-like diagnostics become part of the
+        canonical Phase~4 artifact.
+\end{itemize}
+
+Until then, reproducibility for Phase~4 consists of:
+
+\begin{enumerate}
+  \item regenerating the Phase~3 baseline and binding-certificate
+        artifacts;
+  \item regenerating the Phase~4 F1 diagnostics; and
+  \item rebuilding the Phase~4 paper and artifact via the Level~A
+        gate.
+\end{enumerate}

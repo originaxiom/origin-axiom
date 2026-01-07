@@ -105,3 +105,18 @@ developer.
 - No FRW-like code or \(\theta\)-filters are introduced at this rung;
   the focus is on tightening the diagnostic story and constraining
   later Phase 4 work to auditable, modest FRW-like sanity tests.
+
+## 2026-01-07 - Rung 6: Phase 3–4 interface and reproducibility update
+
+- Added `phase4/PHASE3_INTERFACE.md` to document the dependency of
+  Phase 4 on the Phase 3 vacuum mechanism, baseline scan, and
+  binding-certificate artifacts, and to spell out the current pipeline
+  from Phase 3 amplitudes to F1 diagnostics and toy corridors.
+- Updated `phase4/paper/appendix/B_reproducibility.tex` so that it
+  reflects the implemented F1 mapping, diagnostics, and the Phase 3
+  prerequisites, and provides explicit commands for rebuilding the
+  Phase 4 paper and associated CSV/JSON artifacts.
+- No new mapping families, FRW-like modules, or \(\theta\)-filters are
+  introduced at this rung; the focus is strictly on tightening the
+  upstream/downstream contract and the reproducibility story for the
+  existing Phase 4 work.
