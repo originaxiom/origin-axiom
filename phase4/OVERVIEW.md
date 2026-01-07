@@ -205,3 +205,17 @@ picking a unique \(\theta_\star\).
   shape corridor, about 50\% are FRW-viable, and a few percent are both
   FRW-viable and \(\Lambda\)CDM-like; the intersection with the toy
   corridor is explicitly logged but not promoted to a \(\theta\)-filter.
+
+## Rung 12: FRW data-probe scaffolding
+
+- Implemented `phase4/src/phase4/run_f1_frw_data_probe.py`, which builds on the
+  FRW viability mask and optionally compares model distance moduli to a
+  binned distance–redshift dataset located at
+  `phase4/data/external/frw_distance_binned.csv` (not bundled).
+- In the current repository state no external data file is present, so the rung
+  reports `data_available = false`, `n_data_points = 0`, and sets `data_ok = 0`
+  for all FRW-viable grid points. This keeps Phase 4 fully reproducible while
+  exposing a single, explicit hook for future data work.
+- The data probe is explicitly non-binding and does not introduce a new
+  `theta`-filter; it is a structured, optional diagnostic in the spirit of
+  Phase 0.

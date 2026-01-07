@@ -298,3 +298,26 @@ conditions coincide.
     \texttt{phase4\_F1\_frw\_shape\_probe\_mask.csv}.}
   \label{fig:phase4_f1_frw_shape_probe}
 \end{figure}
+
+\paragraph{FRW data probe (optional).}
+Finally, we implemented a simple data-facing FRW probe that reuses the
+FRW viability mask and, when provided with external binned
+distance--redshift data, compares the model distance modulus
+\(\mu_{\mathrm{model}}(z; \theta)\) to the data via a \(\chi^2\)
+statistic. The implementation lives in
+\texttt{phase4/src/phase4/run\_f1\_frw\_data\_probe.py}.
+It writes diagnostics to
+\texttt{phase4/outputs/tables/phase4\_F1\_frw\_data\_probe.json}
+and a per-grid mask to
+\texttt{phase4/outputs/tables/phase4\_F1\_frw\_data\_probe\_mask.csv},
+which extends the FRW viability mask with \texttt{chi2\_data},
+\texttt{chi2\_per\_dof}, and a Boolean \texttt{data\_ok} flag.
+In the baseline repository configuration no external dataset is
+bundled at
+\texttt{phase4/data/external/frw\_distance\_binned.csv};
+the current run therefore records \texttt{data\_available = false},
+\texttt{n\_data\_points = 0}, and sets \texttt{data\_ok = 0} for all
+grid points. This preserves full reproducibility while leaving a
+single, explicit hook for later data-level experiments. Consistent
+with the Phase~0 claim-discipline philosophy, this layer is strictly
+non-binding and does not introduce any new \(\theta\)-filter.

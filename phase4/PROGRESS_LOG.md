@@ -327,3 +327,15 @@ developer.
 - No changes were made to the Phase 4 Snakefile or gate; this rung is
   an optional, manual diagnostic layer consistent with the Phase 0
   claim-discipline philosophy.
+
+## 2026-01-07 - Rung 13: FRW data probe in paper and overview
+
+- Extended `phase4/paper/sections/03_diagnostics_stub.tex` with a dedicated
+  paragraph describing the FRW data-facing probe, its inputs and outputs, and
+  its current baseline behaviour (`data_available = false`, `data_ok = 0` for
+  all grid points).
+- Updated `phase4/OVERVIEW.md` so the Phase 4 narrative now includes the FRW
+  data probe as an optional, non-binding layer on top of the FRW viability
+  infrastructure.
+- No changes were made to the Phase 4 Snakefile or gate; the data probe remains
+  a manual, opt-in diagnostic consistent with Phase 0 claim discipline.
