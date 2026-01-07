@@ -301,3 +301,29 @@ developer.
 - Updated `phase4/paper/sections/03_diagnostics_stub.tex` to reference
   this figure and explain its role as a compact summary of the Phase 4
   FRW-facing diagnostics.
+
+## 2026-01-07 - Rung 12: FRW data-probe scaffolding (no bundled data)
+
+- Added `phase4/FRW_DATA_DESIGN.md` to describe a data-facing FRW probe
+  that builds on the existing F1 mapping and FRW viability layer.
+- Implemented and ran `phase4/src/phase4/run_f1_frw_data_probe.py`, which:
+  - reads `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`;
+  - optionally consumes an external binned distance–redshift dataset
+    from `phase4/data/external/frw_distance_binned.csv` with columns
+    (`z`, `mu`, `sigma_mu`);
+  - for each FRW-viable theta, computes FRW luminosity distances and
+    distance moduli and evaluates a simple chi^2 statistic; and
+  - writes:
+    - `phase4/outputs/tables/phase4_F1_frw_data_probe.json`
+      (diagnostics), and
+    - `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`
+      (per-theta chi^2 and a `data_ok` flag).
+- In the current repository configuration, no external data file is
+  present at `phase4/data/external/frw_distance_binned.csv`. The run
+  therefore records `data_available = false`, `n_data_points = 0`, and
+  sets `data_ok = 0` for all rows, with chi^2 fields set to NaN. This
+  keeps the rung reproducible without bundling any third-party dataset
+  while leaving a clear hook for future data-level experiments.
+- No changes were made to the Phase 4 Snakefile or gate; this rung is
+  an optional, manual diagnostic layer consistent with the Phase 0
+  claim-discipline philosophy.
