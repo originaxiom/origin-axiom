@@ -321,3 +321,12 @@ grid points. This preserves full reproducibility while leaving a
 single, explicit hook for later data-level experiments. Consistent
 with the Phase~0 claim-discipline philosophy, this layer is strictly
 non-binding and does not introduce any new \(\theta\)-filter.
+
+The data-facing probe implemented at this rung is therefore an
+explicit stub: if no external FRW distance data are provided under
+\texttt{phase4/data/external/}, the code records a structured negative
+result and sets \texttt{data\_ok = 0} for all grid points rather than
+silently fabricating constraints.  This makes it clear that the
+current Phase~4 layer exercises the shape and FRW-viability machinery,
+but does \emph{not} yet attempt a genuine comparison to observational
+data.
