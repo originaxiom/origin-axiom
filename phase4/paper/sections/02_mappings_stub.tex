@@ -1,105 +1,45 @@
-\section{Candidate mappings from the Phase 3 mechanism}
+\section{Mapping families: first pass (F1)}
 \label{sec:phase4-mappings}
 
-Phase~4 takes as input the floor-enforced global amplitude
-\(A(\theta) = \max\{A_0(\theta), \varepsilon\}\) defined in the
-Phase~3 mechanism. The goal is to explore simple, explicitly defined
-families of mappings from \(A(\theta)\) (and, where useful, the
-residue \(A(\theta) - A_0(\theta)\)) into FRW-like or
-vacuum-energy-like observables.
+Phase~4 takes as input the Phase~3 global-amplitude mechanism: a toy
+vacuum with an unconstrained observable \(A_0(\theta)\), a
+non-cancellation floor \(\epsfloor\), and a floor-enforced amplitude
+\(A(\theta) = \max(A_0(\theta), \epsfloor)\) defined on a grid
+\(\theta \in [0, 2\pi)\). The present paper introduces a first,
+explicit mapping family, denoted \textbf{F1}, from this structure to a
+toy vacuum-energy-like scalar.
 
-Throughout this section we treat the Phase~3 mechanism as a fixed
-black box: Phase~4 may only act on its outputs. This avoids any
-retroactive tuning of the vacuum model and keeps the separation of
-concerns with Phase~3 clear.
+\subsection{F1: direct scalar mapping from \(A(\theta)\)}
+\label{sec:phase4-F1}
 
-\subsection{Design principles}
-
-The mapping families considered in Phase~4 are required to obey three
-constraints:
-
-\begin{itemize}
-  \item \textbf{Explicitness.} Each mapping must be given by an
-        explicit formula with a small number of parameters (e.g. a
-        scale and an exponent), so that its behaviour can be audited
-        and reproduced.
-  \item \textbf{Corridor compatibility.} The mapped observables must
-        support corridor-style reasoning: it should be possible, in
-        principle, to define non-empty or empty \(\theta\)-regions
-        based on well-stated criteria.
-  \item \textbf{Honest physical status.} The mappings are toy
-        constructions, not claimed derivations from first principles.
-        They are interpreted as exploratory consistency tests rather
-        than as a replacement for \(\Lambda\)CDM.
-\end{itemize}
-
-A more detailed narrative for the mapping design lives in
-\path{phase4/MAPPING_FAMILIES.md}. Here we summarise the families
-most relevant to the Phase~4 paper.
-
-\subsection{Family F1: amplitude-to-density rescaling}
-
-The first family treats the floor-enforced amplitude as a proxy for a
-vacuum-energy-like density,
+The F1 family is intentionally simple. For a fixed Phase~3 vacuum
+configuration and floor \(\epsfloor\) (taken from the Phase~3 baseline
+diagnostics), we define a scalar
 \begin{equation}
-  \rho_{\mathrm{vac}}(\theta; \kappa, p)
+  E_{\mathrm{vac}}(\theta)
   \;=\;
-  \kappa \, [A(\theta)]^{p},
+  \alpha \, A(\theta)^{\beta},
+  \label{eq:phase4-F1-mapping}
 \end{equation}
-with \(\kappa > 0\) setting an overall scale and \(p > 0\) controlling
-the shape of the dependence on \(A(\theta)\). In practice we restrict
-to a small discrete set of exponents (e.g. \(p = 1\) and \(p = 2\))
-and treat \(\kappa\) as a scale knob rather than a fit parameter.
+where \(\alpha > 0\) and \(\beta > 0\) are explicit, configurable
+parameters. At this rung we adopt a conservative default,
+\(\alpha = 1\) and \(\beta = 2\), and focus on structural behaviour
+rather than numerical normalisation.
 
-This family is intended as the simplest possible way to couple the
-Phase~3 mechanism to FRW-like dynamics. Later sections will ask
-whether there exist choices of \((\kappa, p)\) for which the resulting
-FRW trajectories are numerically stable and admit a non-empty,
-non-pathological \(\theta\)-corridor.
+Operationally, Phase~4 reuses the Phase~3 baseline configuration
+\texttt{baseline\_v1} and the floor \(\epsfloor\) recorded in
+\texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}.
+We then evaluate \(A(\theta)\) and \(E_{\mathrm{vac}}(\theta)\) on a
+uniform grid of \(N_{\theta} = 2048\) points in \([0, 2\pi)\). The
+per-grid values and summary diagnostics are written to
+\begin{center}
+  \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv},
+\end{center}
+together with metadata describing the mapping parameters and the
+underlying Phase~3 diagnostics.
 
-\subsection{Family F2: residue-relative mapping}
-
-The second family focuses on the \emph{residue} enforced by the
-non-cancellation floor,
-\begin{equation}
-  \Delta A(\theta) \;=\; A(\theta) - A_0(\theta).
-\end{equation}
-Here we define a residue-like density
-\begin{equation}
-  \rho_{\mathrm{res}}(\theta; \kappa_{\mathrm{res}})
-  \;=\;
-  \kappa_{\mathrm{res}} \, \Delta A(\theta),
-\end{equation}
-with \(\kappa_{\mathrm{res}}\) a positive scale parameter.
-
-This family isolates the contribution that is \emph{purely} due to the
-non-cancellation floor. It is therefore a natural place to test
-whether the enforced residue can be made compatible with toy FRW
-modules without producing obviously pathological behaviour.
-
-\subsection{Family F3: normalised amplitude corridors}
-
-Finally, we consider dimensionless normalised amplitudes,
-\begin{equation}
-  \tilde{A}(\theta)
-  \;=\;
-  \frac{A(\theta) - A_{\min}}{A_{\max} - A_{\min}},
-\end{equation}
-where \(A_{\min}\) and \(A_{\max}\) are taken from the Phase~3
-diagnostics. Rather than mapping directly into densities, this family
-uses simple inequalities
-\begin{equation}
-  \tilde{A}(\theta) \in [\alpha_{\min}, \alpha_{\max}]
-\end{equation}
-to define corridor-style conditions that can be combined with FRW
-diagnostics.
-
-In this way, Phase~4 can explore non-trivial \(\theta\)-filters based
-on the \emph{shape} of \(A(\theta)\), while deferring any attempt to
-assign physical units or match observed cosmological parameters.
-
-At the present rung, these families are specified only at the level of
-design and notation. Later rungs will instantiate one or more of them
-in code, connect them to explicit FRW-like modules, and report either
-live corridors or structured negative results as required by the Phase
-0 contract.
+At this stage F1 is a \emph{non-binding} mapping family: it does not
+yet define a \(\theta\)-corridor or a Phase~4 \(\theta\)-filter.
+Instead it serves as a concrete, auditable bridge between the Phase~3
+mechanism and simple scalar observables that later rungs can connect
+to FRW-like toy modules and corridor construction.
