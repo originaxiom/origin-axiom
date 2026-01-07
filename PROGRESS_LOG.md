@@ -2183,3 +2183,15 @@ strictly scoped.
 - Explicitly recorded boundaries: no sandbox numerology is promoted to formal claims without derivation + code.
 - Outlined initial Phase 5 rungs (P5.1–P5.5) focusing on interfaces, diagnostics, and eventual data contact.
 
+
+2026-01-08 (local) — Phase 5 interface v1
+-----------------------------------------
+- Created Phase 5 skeleton: phase5/config, phase5/src/phase5, phase5/outputs/{tables,figures}.
+- Added phase5/config/phase5_inputs_v1.json listing which Phase 3 and Phase 4 outputs are treated as Phase 5 inputs.
+- Implemented phase5/src/phase5/phase5_interface_v1.py, a non-physical connectivity check that:
+  - Locates the repo root from its own path,
+  - Loads the Phase 5 interface spec,
+  - Verifies existence of referenced tables/masks,
+  - Writes phase5/outputs/tables/phase5_interface_v1_summary.json.
+- Kept this rung purely diagnostic: no new claims, no numerology, no external data.
+

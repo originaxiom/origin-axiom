@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "description": "Interface spec for Phase 5: which Phase 3 / Phase 4 outputs are treated as inputs.",
+  "phase3": {
+    "mech_baseline_diagnostics": "phase3/outputs/tables/mech_baseline_scan_diagnostics.json",
+    "measure_stats": "phase3/outputs/tables/phase3_measure_v1_stats.json",
+    "measure_hist": "phase3/outputs/tables/phase3_measure_v1_hist.csv",
+    "instability_penalty": "phase3/outputs/tables/phase3_instability_penalty_v1.json"
+  },
+  "phase4": {
+    "f1_sanity_curve": "phase4/outputs/tables/phase4_F1_sanity_curve_diagnostics.json",
+    "f1_shape": "phase4/outputs/tables/phase4_F1_shape_diagnostics.json",
+    "frw_toy_diagnostics": "phase4/outputs/tables/phase4_F1_frw_toy_diagnostics.json",
+    "frw_viability_diagnostics": "phase4/outputs/tables/phase4_F1_frw_viability_diagnostics.json",
+    "frw_viability_mask": "phase4/outputs/tables/phase4_F1_frw_viability_mask.csv",
+    "frw_lcdm_probe": "phase4/outputs/tables/phase4_F1_frw_lcdm_probe.json",
+    "frw_lcdm_probe_mask": "phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv",
+    "frw_shape_probe": "phase4/outputs/tables/phase4_F1_frw_shape_probe.json",
+    "frw_shape_probe_mask": "phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv",
+    "frw_corridors": "phase4/outputs/tables/phase4_F1_frw_corridors.json",
+    "frw_data_probe": "phase4/outputs/tables/phase4_F1_frw_data_probe.json",
+    "frw_data_probe_mask": "phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv"
+  },
+  "external": {
+    "frw_distance_binned": "phase4/data/external/frw_distance_binned.csv",
+    "notes": "Optional external dataset. The repo may ship without this file; Phase 5 must handle its absence gracefully."
+  }
+}
