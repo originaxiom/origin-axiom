@@ -1,0 +1,39 @@
+from pathlib import Path
+
+# Anchor ROOT to the current working directory (repo root),
+# not to __file__, which can be misleading under Snakemake.
+ROOT = Path(".").resolve()
+PHASE4 = ROOT / "phase4"
+PAPER = PHASE4 / "paper"
+OUTPUTS = PHASE4 / "outputs"
+ARTIFACTS = PHASE4 / "artifacts"
+
+PAPER_DIR = str(PAPER)
+OUTPUTS_PAPER = str(OUTPUTS / "paper")
+ARTIFACTS_DIR = str(ARTIFACTS)
+
+rule all:
+    input:
+        OUTPUTS / "paper" / "phase4_paper.pdf",
+        ARTIFACTS / "origin-axiom-phase4.pdf",
+
+rule build_phase4_paper_pdf:
+    input:
+        PAPER / "main.tex",
+        PAPER / "sections" / "00_preamble.tex",
+        PAPER / "sections" / "01_introduction.tex",
+        PAPER / "sections" / "02_mappings_stub.tex",
+        PAPER / "sections" / "03_diagnostics_stub.tex",
+        PAPER / "sections" / "04_limitations_stub.tex",
+        PAPER / "appendix" / "A_claims_table.tex",
+        PAPER / "appendix" / "B_reproducibility.tex",
+        PAPER / "Reference.bib",
+    output:
+        OUTPUTS / "paper" / "phase4_paper.pdf",
+        ARTIFACTS / "origin-axiom-phase4.pdf",
+    shell:
+        r"""
+        cd {PAPER_DIR} && latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error -recorder main.tex
+        cp {PAPER_DIR}/main.pdf {OUTPUTS_PAPER}/phase4_paper.pdf
+        cp {PAPER_DIR}/main.pdf {ARTIFACTS_DIR}/origin-axiom-phase4.pdf
+        """

@@ -25,3 +25,19 @@ developer.
   the focus is on articulating a narrow, honest design contract for
   Phase 4 consistent with the Phase 0 architecture and the canonical
   θ/A definitions.
+
+## 2026-01-07 – Rung 1: Phase 4 skeleton paper and gate
+
+- Created Phase 4 directory structure (`paper/`, `outputs/`, `artifacts/`,
+  `src/`, `workflow/`) mirroring earlier phases.
+- Added a minimal Phase 4 LaTeX paper skeleton (`phase4/paper/main.tex`)
+  with introduction, mappings placeholder, diagnostics placeholder,
+  limitations, and draft appendices for claims and reproducibility.
+- Implemented a Snakemake workflow in `phase4/workflow/Snakefile` that
+  builds the Phase 4 paper and exports the canonical artifact
+  `phase4/artifacts/origin-axiom-phase4.pdf`.
+- Added `scripts/phase4_gate.sh` so `bash scripts/phase4_gate.sh --level A`
+  from the repo root regenerates the Phase 4 artifact in a clean repository.
+- No mappings, diagnostics, or \theta-filters are defined at this rung;
+  this step only prepares the structural scaffolding for later, more
+  physically meaningful Phase 4 work.
