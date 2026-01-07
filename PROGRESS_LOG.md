@@ -1971,3 +1971,36 @@ Notes:
 
 ## 2026-01-05 — Phase 3 baseline fixed-offset locked (b_PMNS = pi)
 - Discrete offset sweep selected b_PMNS = pi as best hypothesis; locked in targets.yaml and recorded in phase3 notes.
+
+## 2026-01-07 — Phase 4: diagnostic FRW-facing mapping stub
+
+- Landed a first Phase 4 artifact in `phase4/artifacts/origin-axiom-phase4.pdf`,
+  focused on *structure* rather than physical claims.
+- Introduced the F1 mapping family, which reuses the Phase 3 vacuum mechanism
+  and quantile-based floor from
+  `phase3/outputs/tables/mech_baseline_scan_diagnostics.json` to define a
+  strictly positive scalar \(E_{\mathrm{vac}}(\theta)\) on a uniform
+  \(\theta \in [0, 2\pi)\) grid.
+- Added three diagnostic layers:
+  - an F1 sanity curve
+    (`phase4/outputs/tables/phase4_F1_sanity_curve.csv`) to check that
+    \(E_{\mathrm{vac}}(\theta)\) behaves numerically and respects the Phase 3
+    floor;
+  - F1 shape diagnostics with a *toy* \(\theta\)-corridor summarised by
+    `phase4_F1_shape_diagnostics.json` / `phase4_F1_shape_mask.csv`, used only
+    as a descriptive shape probe (not a physical corridor or \(\theta_\star\));
+  - an FRW-inspired toy module that rescales \(E_{\mathrm{vac}}(\theta)\) into a
+    proxy \(\Omega_\Lambda(\theta)\), evaluates a simple
+    \(H^2(a;\theta) = \Omega_r a^{-4} + \Omega_m a^{-3} + \Omega_\Lambda(\theta)\)
+    on a late-time scale-factor grid, and logs a per-\(\theta\) "FRW-sane" mask.
+- Recorded both the initial empty-mask outcome and the later late-time tweak of
+  the FRW toy in `phase4/FRW_TOY_DESIGN.md`, treating them as *local, toy-level*
+  positive/negative results about this particular normalisation and sanity
+  criterion, not as global statements about the axiom.
+- Wrote a dedicated limitations/scope section for Phase 4 clarifying that:
+  - F1 is a single toy mapping family,
+  - all diagnostics are grid-based and baseline-dependent,
+  - no physically justified \(\theta\)-corridor or candidate \(\theta_\star\) is
+    claimed at this phase, and
+  - any future corridor tightening, \(\theta_\star\) proposal, or data
+    calibration must live in later rungs/phases with explicit new assumptions.
