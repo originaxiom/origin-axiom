@@ -9,20 +9,24 @@
 \maketitle
 
 \begin{abstract}
-Phase~3 of the Origin-Axiom program is a ledger-compatible flavor-sector calibration add-on.
-Under a fixed, explicitly stated ansatz, and for a frozen snapshot of CKM and PMNS CP-phase
-targets, we scan a one-parameter family $\theta \in [0,2\pi)$ to extract a best-fit
-$\hat{\theta}$ and an uncertainty interval. We expose this fit as a schema-stable
-$\theta$-filter JSON artifact, designed to be consumed by the Phase~0 corridor ledger
-alongside the existing Phase~1 and Phase~2 filters. We then inject the fitted $\theta$
-into the Phase~2 vacuum-residue mechanism to compute a diagnostic
-$\Delta\rho_{\mathrm{vac}}(\theta)$ curve, keeping the injection strictly one-way
-(no feedback of Phase~2 into the flavor fit). In the baseline configuration documented
-here, the Phase~0 ledger reports that the combined corridor is empty once the Phase~3
-filter is applied. We interpret this as a negative test for the locked Phase~3
-ansatz/target combination, not as a proof that no Origin-Axiom-compatible corridor
-exists. The purpose of this paper is to make this calibration step and its failure
-mode reproducible, auditable, and upgradeable as flavor data and ansatz choices evolve.
+Phase~3 of the origin-axiom programme defined a reproducible scalar
+vacuum diagnostic \(E_{\mathrm{vac}}(\theta)\) over an abstract
+\(\theta\)-grid. Phase~4 tests whether that diagnostic can be connected
+to simple Friedmann--Robertson--Walker (FRW) histories in a structurally
+reasonable way. We introduce a first mapping family (F1) from
+\(E_{\mathrm{vac}}(\theta)\) to a toy \(\Omega_\Lambda(\theta)\), and we
+stack several FRW-inspired diagnostics: a sanity check on the shape of
+\(\Omega_\Lambda(\theta)\), a viability scan for FRW histories with
+matter, radiation and late-time acceleration, an automated extraction of
+FRW-viable \(\theta\)-corridors, and a coarse \(\Lambda\)CDM-like probe
+centred on \(\Omega_\Lambda \approx 0.7\) and \(t_0 \approx 13.8\,\mathrm{Gyr}\).
+For the baseline toy parameters used here, roughly half of the
+\(\theta\)-grid yields FRW-viable histories and a small but non-zero
+subset falls inside the \(\Lambda\)CDM-like window. We emphasise that
+these results are \emph{non-binding}: Phase~4 does not propose a unique
+\(\theta_\star\) or an observational fit, but instead provides a
+reproducible FRW-facing pipeline and a concrete worked example of how
+Phase~3 outputs can be tested against cosmological sanity criteria.
 \end{abstract}
 
 

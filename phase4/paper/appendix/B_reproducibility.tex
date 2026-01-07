@@ -1,130 +1,253 @@
-\section*{Appendix B: Reproducibility notes (draft)}
-\label{app:phase4_reproducibility}
+\section{Reproducibility notes for Phase~4}
+\label{app:phase4-reproducibility}
 
-At this rung, Phase~4 builds on the Phase~3 toy vacuum mechanism and
-its non-cancellation floor, introduces the F1 mapping family, and
-adds internal diagnostics and a toy, non-binding corridor. This
-appendix summarises how to rebuild the Phase~4 artifacts used in the
-paper.
+This appendix records the concrete steps required to reproduce the
+Phase~4 diagnostics and the main paper artefact from a fresh clone of
+the repository. The emphasis is on (i) identifying the precise scripts
+and tables that underpin the claims in the main text and (ii)
+clarifying the logical flow from Phase~3 outputs to Phase~4 FRW-facing
+summaries.
 
-\subsection*{Directory structure}
+\subsection*{B.1. Prerequisites}
 
-Phase~4 lives in the top-level directory \texttt{phase4/} with the
-following relevant subdirectories:
-
+Phase~4 is designed to sit on top of the Phase~3 mechanism. The
+following assumptions are therefore required before running the
+Phase~4 scripts:
 \begin{itemize}
-  \item \texttt{phase4/paper/}: LaTeX sources for the Phase~4 paper
-        (including this appendix).
-  \item \texttt{phase4/src/phase4/}: Python source for the F1 mapping
-        family and diagnostics.
-  \item \texttt{phase4/outputs/}:
-        \begin{itemize}
-          \item \texttt{outputs/paper/}: built Phase~4 PDF;
-          \item \texttt{outputs/tables/}: CSV/JSON artifacts from F1
-                diagnostics.
-        \end{itemize}
-  \item \texttt{phase4/artifacts/}: canonical Phase~4 PDF artifact
-        exported by the gate script.
+  \item The repository is checked out at a Phase~4-compatible commit
+    and a Python environment satisfying the documented dependencies
+    (NumPy, SciPy, Matplotlib, etc.) is available.
+  \item The Phase~3 baseline scan has been executed, producing the
+    amplitude table and diagnostics JSON
+    \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}
+    as in the Phase~3 paper.
+  \item The \texttt{phase3\_gate} script (or its Phase~3 equivalent)
+    has been run to ensure that the baseline mechanism artefacts are
+    present and consistent.
 \end{itemize}
-
-\subsection*{Upstream Phase 3 prerequisites}
-
-Phase~4 assumes that the Phase~3 baseline scan and binding-certificate
-artifacts have been generated at least once. In practice this can be
-ensured by running, from the repository root:
-
+In a typical workflow one would run
 \begin{verbatim}
-bash scripts/phase3_gate.sh --level A
+  bash scripts/phase3_gate.sh --level A
 \end{verbatim}
+before entering the Phase~4 stage, so that all Phase~3 tables are
+present and up to date.
 
-and, if needed, explicitly running the Phase~3 scripts:
+\subsection*{B.2. Phase~4 mapping and diagnostics scripts}
 
-\begin{verbatim}
-python phase3/src/phase3_mech/run_baseline_scan.py
-python phase3/src/phase3_mech/run_binding_certificate.py
-\end{verbatim}
+Phase~4 introduces a single mapping family (F1) and layered
+diagnostics built on top of it. The core scripts are:
 
-These commands populate:
+\paragraph{(1) F1 scalar construction and basic diagnostics.}
 
 \begin{itemize}
-  \item \texttt{phase3/outputs/tables/mech\_baseline\_scan.csv}
-  \item \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}
-  \item \texttt{phase3/outputs/tables/mech\_binding\_certificate.csv}
-  \item \texttt{phase3/outputs/tables/mech\_binding\_certificate\_diagnostics.json}
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_sanity.py}
+  \item \textbf{Inputs:}
+    Phase~3 diagnostics JSON
+    \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}
+    (for the amplitude range and quantile-based floor) and the
+    corresponding amplitude table.
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv},
+        containing \(\theta\) and \(E_{\mathrm{vac}}(\theta)\) for the
+        F1 mapping with \(\alpha = 1\), \(\beta = 4\);
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve\_diagnostics.json},
+        recording global extrema, basic moments, and configuration
+        metadata.
+    \end{itemize}
 \end{itemize}
 
-The F1 mapping family reads
-\texttt{mech\_baseline\_scan\_diagnostics.json} to reuse the
-quantile-based floor and grid configuration.
-
-\subsection*{Phase 4 F1 mapping and diagnostics}
-
-With the Phase~3 prerequisites in place, the current Phase~4
-diagnostics can be rebuilt via:
-
-\begin{verbatim}
-python phase4/src/phase4/run_f1_sanity.py
-python phase4/src/phase4/run_f1_shape_diagnostics.py
-\end{verbatim}
-
-These scripts write:
+\paragraph{(2) F1 shape diagnostics and toy corridor.}
 
 \begin{itemize}
-  \item \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv}
-        (per-\(\theta\) values of \(E_{\mathrm{vac}}(\theta)\) and
-        associated metadata);
-  \item \texttt{phase4/outputs/tables/phase4\_F1\_shape\_diagnostics.json}
-        (summary statistics and toy corridor definition);
-  \item \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv}
-        (per-\(\theta\) Boolean mask indicating membership in the toy
-        corridor).
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_shape\_diagnostics.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_sanity\_curve.csv}.
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_shape\_diagnostics.json},
+        a JSON summary of the F1 scalar, including a toy
+        one-\(\sigma\)-style corridor definition;
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv},
+        a per-\(\theta\) CSV with Boolean \texttt{in\_toy\_corridor}
+        flags.
+    \end{itemize}
 \end{itemize}
 
-At this rung these diagnostics are explicitly non-binding: they do not
-define a canonical \(\theta\)-filter, but they are used in the Phase~4
-paper to illustrate the behaviour of the F1 mapping.
-
-\subsection*{Building the Phase 4 paper and artifact}
-
-The Phase~4 paper and its canonical PDF artifact can be rebuilt from
-the repository root via:
-
-\begin{verbatim}
-bash scripts/phase4_gate.sh --level A
-\end{verbatim}
-
-This gate script runs a Snakemake workflow in
-\texttt{phase4/workflow/Snakefile} that invokes \texttt{latexmk} on
-\texttt{phase4/paper/main.tex} and copies the resulting PDF to:
+\paragraph{(3) FRW-inspired toy diagnostics.}
 
 \begin{itemize}
-  \item \texttt{phase4/outputs/paper/phase4\_paper.pdf}
-  \item \texttt{phase4/artifacts/origin-axiom-phase4.pdf}
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_sanity\_curve.csv} and the chosen toy
+    parameters \(\Omega_m\), \(\Omega_r\), a target mean
+    \(\langle\Omega_\Lambda\rangle\), and a scale-factor window
+    \([a_{\min}, a_{\max}]\).
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_diagnostics.json},
+        which records global extrema and moments of
+        \(E_{\mathrm{vac}}(\theta)\) and the toy
+        \(\Omega_\Lambda(\theta)\), along with a simple FRW-sanity
+        fraction;
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_mask.csv},
+        a per-\(\theta\) mask with \(\Omega_\Lambda(\theta)\) and a
+        Boolean FRW-sanity indicator. In the baseline configuration
+        the FRW toy is treated as a non-binding diagnostic only.
+    \end{itemize}
 \end{itemize}
 
-The gate currently covers the Phase~4 paper only; F1 diagnostics are
-rebuilt by the explicit Python commands above.
-
-\subsection*{Planned extensions}
-
-The design note \texttt{phase4/FRW\_TOY\_DESIGN.md} specifies a
-minimal FRW-inspired toy module that may be implemented in later
-rungs. If such a module is added, this appendix will be extended to
-include:
+\paragraph{(4) FRW viability scan.}
 
 \begin{itemize}
-  \item the relevant Python scripts and configuration files;
-  \item any additional JSON/CSV outputs; and
-  \item updated gate levels if FRW-like diagnostics become part of the
-        canonical Phase~4 artifact.
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_frw\_viability.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_sanity\_curve.csv} and a choice of FRW
+    parameters (\(\Omega_m\), \(\Omega_r\), \(H_0\)) as well as an age
+    window \([t_{\min}, t_{\max}]\).
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_diagnostics.json},
+        recording basic statistics of the FRW histories across the
+        \(\theta\)-grid, the fraction of points with a matter-dominated
+        era, late-time acceleration, smooth \(H^2(a;\theta)\), and an
+        age within the specified window;
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_mask.csv},
+        a per-\(\theta\) mask with columns
+        \texttt{theta}, \texttt{E\_vac}, \(\Omega_\Lambda(\theta)\),
+        the inferred age in Gyr, Boolean flags
+        (\texttt{has\_matter\_era}, \texttt{has\_late\_accel},
+        \texttt{smooth\_H2}), and a combined \texttt{frw\_viable}
+        flag.
+    \end{itemize}
 \end{itemize}
 
-Until then, reproducibility for Phase~4 consists of:
+\paragraph{(5) Corridor extraction on the FRW-viable subset.}
 
+\begin{itemize}
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_frw\_corridors.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_frw\_viability\_mask.csv}.
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_corridors.json},
+        a JSON summary of contiguous ``corridors'' of FRW-viable
+        \(\theta\)-values, including a principal corridor with its
+        \(\theta\)-extent and basic statistics of
+        \(\Omega_\Lambda(\theta)\);
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_corridors.csv},
+        a per-corridor CSV listing the \(\theta\)-ranges and sizes.
+    \end{itemize}
+\end{itemize}
+
+\paragraph{(6) \(\Lambda\)CDM-like probe.}
+
+\begin{itemize}
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_frw\_lcdm\_probe.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_frw\_viability\_mask.csv} and a broad target
+    window for \(\Omega_\Lambda\) (e.g.\ \(0.7 \pm 0.1\)) and the age
+    of the Universe (e.g.\ \(13.8 \pm 1.0\)~Gyr), with the same FRW
+    parameters as the viability scan.
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe.json},
+        which records the fraction of FRW-viable grid points that
+        fall into this broad \(\Lambda\)CDM-like window, together with
+        the \(\theta\)-extent and the ranges of
+        \(\Omega_\Lambda(\theta)\) and age across the selected subset;
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe\_mask.csv},
+        a per-\(\theta\) mask augmenting the FRW-viability columns
+        with a Boolean \texttt{lcdm\_like} flag.
+    \end{itemize}
+\end{itemize}
+In the baseline configuration this probe is explicitly non-binding: it
+is used to demonstrate the existence of \(\theta\)-regions with
+broadly \(\Lambda\)CDM-like FRW histories, not to select a unique
+\(\theta_\star\) or to fit observational data.
+
+\paragraph{(7) Joint shape/FRW probe.}
+
+\begin{itemize}
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_frw\_shape\_probe.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_shape\_mask.csv},
+    \texttt{phase4\_F1\_frw\_viability\_mask.csv}, and
+    \texttt{phase4\_F1\_frw\_lcdm\_probe\_mask.csv}.
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_shape\_probe.json},
+        which reports the fractions and \(\theta\)-ranges associated
+        with the toy shape corridor, the FRW-viable subset, the
+        \(\Lambda\)CDM-like subset, and their intersections;
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_shape\_probe\_mask.csv},
+        a joined mask that carries the shape, FRW-viability, and
+        \(\Lambda\)CDM-like flags on a common \(\theta\)-grid.
+    \end{itemize}
+\end{itemize}
+Figure~\ref{fig:phase4-shape-probe} in the main text is derived from
+these joined tables.
+
+\paragraph{(8) Data-facing probe (stub).}
+
+\begin{itemize}
+  \item \textbf{Script:}
+    \texttt{phase4/src/phase4/run\_f1\_frw\_data\_probe.py}
+  \item \textbf{Inputs:}
+    \texttt{phase4\_F1\_frw\_viability\_mask.csv} and an optional
+    external binned-distance data file
+    \texttt{phase4/data/external/frw\_distance\_binned.csv}.
+  \item \textbf{Outputs:}
+    \begin{itemize}
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_data\_probe.json},
+        a diagnostics file recording whether external data were found,
+        the number of data points, and---if present---summary
+        \(\chi^2\) statistics;
+      \item \texttt{phase4/outputs/tables/phase4\_F1\_frw\_data\_probe\_mask.csv},
+        a per-\(\theta\) mask with a Boolean \texttt{data\_ok} flag.
+    \end{itemize}
+\end{itemize}
+In the baseline repository checkout no external FRW distance data are
+bundled, so the script records \texttt{data\_available = false} and
+sets \texttt{data\_ok = 0} for all grid points. This is an explicit,
+structured negative result rather than an implicit limitation: it
+demonstrates how data-level tests will be integrated in later work
+without making any present data-driven claims.
+
+\subsection*{B.3. Recommended execution flow}
+
+Putting the pieces together, a minimal end-to-end reproduction of the
+Phase~4 artefact proceeds as follows:
 \begin{enumerate}
-  \item regenerating the Phase~3 baseline and binding-certificate
-        artifacts;
-  \item regenerating the Phase~4 F1 diagnostics; and
-  \item rebuilding the Phase~4 paper and artifact via the Level~A
-        gate.
+  \item Run the Phase~3 gate at an appropriate level, e.g.
+\begin{verbatim}
+  bash scripts/phase3_gate.sh --level A
+\end{verbatim}
+  to ensure the baseline mechanism scan and diagnostics are present.
+  \item Execute the Phase~4 scripts in the logical order described
+    above, from F1 sanity (\texttt{run\_f1\_sanity.py}) through shape
+    diagnostics, FRW toy, FRW viability, FRW corridors, the
+    \(\Lambda\)CDM-like probe, the joint shape/FRW probe, and finally
+    the optional data-facing stub.
+  \item Regenerate the Phase~4 paper and canonical artefact via
+\begin{verbatim}
+  bash scripts/phase4_gate.sh --level A
+\end{verbatim}
+    which runs \texttt{latexmk} on \texttt{phase4/paper/main.tex} and
+    copies the resulting \texttt{main.pdf} to
+    \texttt{phase4/outputs/paper/phase4\_paper.pdf} and
+    \texttt{phase4/artifacts/origin-axiom-phase4.pdf}.
 \end{enumerate}
+
+The claims made in the main text and in the Phase~4 claims table are
+deliberately modest: they refer only to the existence and behaviour of
+these diagnostics and corridors \emph{within this pipeline}. No attempt
+is made to extract precise cosmological parameter values or to promote
+any diagnostic into a binding filter on the origin--axiom mechanism.

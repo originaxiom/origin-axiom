@@ -1,36 +1,66 @@
 \section{Introduction}
-\label{sec:introduction}
+\label{sec:phase4-introduction}
 
-Phase 4 sits between the mechanism-level vacuum work of Phase 3 and
-any future attempts to build a unified picture of vacuum, matter, and
-geometry. Its mission is narrow:
+Phase~3 of the origin--axiom programme constructed a concrete lattice
+mechanism for scanning a dimensionless parameter \(\theta\) and
+produced a baseline diagnostic of the resulting amplitude landscape.
+In particular, it delivered a reproducible pipeline which, given a
+fixed mechanism configuration, yields a numerically stable
+\emph{amplitude} \(A(\theta)\), a global floor, and a summary JSON
+file with basic moments and quantiles of the scan. Phase~3 is
+deliberately agnostic about cosmology: it stops at a well-controlled
+\(\theta \mapsto A(\theta)\) map together with a mechanism-facing
+diagnostic layer.
 
-\begin{itemize}
-  \item take the canonical Phase 3 global-amplitude mechanism and
-        non-cancellation floor as given;
-  \item define simple, explicit mappings from the floor-enforced
-        amplitude or residue into FRW-like dynamics and
-        vacuum-energy-like observables; and
-  \item study the resulting behaviour of the Origin-Axiom phase
-        parameter \(\theta\) in the corridor / ledger framework of
-        Phase 0.
-\end{itemize}
+Phase~4 takes this Phase~3 output as a starting point and asks a
+deliberately modest but physically oriented question: \emph{can we
+systematically stress-test the Phase~3 landscape through simple,
+Friedmann--Robertson--Walker (FRW) inspired summaries without
+over-claiming physical predictions or selecting a unique
+\(\theta_\star\)?} The guiding philosophy, inherited from Phase~0, is
+to separate (i) the construction of reproducible mechanism- and
+mapping-level objects from (ii) any stronger claims about the
+structure of the real Universe.
 
-The guiding question is not whether we can reproduce the full
-\(\Lambda\)CDM model or fit precise cosmological parameters, but
-whether the Phase 3 mechanism can be made compatible with toy FRW
-modules in a way that is numerically stable, structurally sane, and
-expressible as a \(\theta\)-filter in the sense of Phase 0.
+At this rung we therefore introduce a single, explicit mapping family
+%
+\begin{equation}
+  E_{\mathrm{vac}}(\theta)
+  \;=\;
+  \alpha\, A(\theta)^{\beta},
+\end{equation}
+%
+denoted ``F1'', which turns the Phase~3 amplitude \(A(\theta)\) into a
+non-negative scalar \(E_{\mathrm{vac}}(\theta)\) intended to play the
+role of a toy vacuum-energy density. We adopt a simple baseline choice
+\(\alpha = 1\), \(\beta = 4\) and treat the mapping as a tunable,
+mechanism-facing object rather than as a physical law. On top of F1
+we build a stack of FRW-inspired diagnostics: a toy FRW sanity check,
+a more structured FRW ``viability'' scan, an extraction of contiguous
+\(\theta\)-corridors, and a broad \(\Lambda\)CDM-like probe, together
+with an explicit hook for future data-level tests.
 
-Throughout this phase we distinguish carefully between:
-\begin{itemize}
-  \item \emph{binding} outputs, which may eventually define a Phase 4
-        \(\theta\)-filter; and
-  \item \emph{non-binding} diagnostics and figures, which serve only
-        as intuition and internal checks.
-\end{itemize}
+Crucially, all of these layers are \emph{non-binding}. Phase~4 does
+\emph{not} attempt to fit cosmological data, does \emph{not} claim a
+preferred value of \(\theta\), and does \emph{not} promote any FRW
+diagnostic into a hard filter on the origin--axiom mechanism. Instead,
+the goal is to show, in a fully auditable way, that the Phase~3
+landscape can be connected to simple cosmology-facing summaries and
+that both positive and negative outcomes (including empty or narrow
+corridors) are recorded and reasoned about explicitly. Subsequent
+phases are free to refine the mapping family, the FRW summaries, and
+the data interfaces, but they do so on top of the reproducible
+infrastructure established here.
 
-The present rung does not define any concrete mappings or filters. It
-only provides a minimal paper skeleton so that future rungs can add
-well-documented mechanisms and experiments without restructuring the
-front matter.
+In the concrete baseline implementation reported in this paper,
+Phase~4 \emph{does} instantiate a specific mapping family and a stack
+of FRW-inspired diagnostics. The F1 mapping takes the Phase~3 scalar
+as input and, via a simple normalisation, produces a toy
+\(\Omega_\Lambda(\theta)\); the associated scripts implement
+FRW-facing sanity, viability, corridor, and \(\Lambda\)CDM-like
+probes as explicit, reproducible computations with per-grid masks and
+JSON summaries. What this rung does \emph{not} yet provide is a
+binding Phase~4 \(\theta\)-filter or any claim of a fit to
+observational data. All FRW-facing results are deliberately presented
+as non-binding worked examples and structured sanity checks, rather
+than as evidence for a preferred \(\theta_\star\).
