@@ -41,3 +41,17 @@ developer.
 - No mappings, diagnostics, or \theta-filters are defined at this rung;
   this step only prepares the structural scaffolding for later, more
   physically meaningful Phase 4 work.
+
+## 2026-01-07 - Rung 2: mapping families design note
+
+- Added `phase4/MAPPING_FAMILIES.md` as a draft, non-binding design
+  note describing candidate mapping families (F1: amplitude-to-density,
+  F2: residue-relative, F3: normalised amplitude corridors) for
+  Phase 4.
+- Rewrote `phase4/paper/sections/02_mappings_stub.tex` to summarise
+  these mapping families in the paper, emphasising explicitness,
+  corridor compatibility, and honest physical status.
+- No concrete mapping code, FRW modules, or \(\theta\)-filters are
+  implemented at this rung; the goal is to lock in a narrow design
+  space for later Phase 4 rungs consistent with the Phase 0 contract
+  and the Phase 3 mechanism interfaces.

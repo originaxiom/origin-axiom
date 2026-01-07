@@ -1,25 +1,105 @@
-\section{Mapping the Phase 3 vacuum into FRW-like observables}
-\label{sec:mappings}
+\section{Candidate mappings from the Phase 3 mechanism}
+\label{sec:phase4-mappings}
 
-This section will, in later rungs, define explicit mappings from the
-Phase 3 floor-enforced global amplitude \(A(\theta)\) (or a derived
-residue) into:
+Phase~4 takes as input the floor-enforced global amplitude
+\(A(\theta) = \max\{A_0(\theta), \varepsilon\}\) defined in the
+Phase~3 mechanism. The goal is to explore simple, explicitly defined
+families of mappings from \(A(\theta)\) (and, where useful, the
+residue \(A(\theta) - A_0(\theta)\)) into FRW-like or
+vacuum-energy-like observables.
+
+Throughout this section we treat the Phase~3 mechanism as a fixed
+black box: Phase~4 may only act on its outputs. This avoids any
+retroactive tuning of the vacuum model and keeps the separation of
+concerns with Phase~3 clear.
+
+\subsection{Design principles}
+
+The mapping families considered in Phase~4 are required to obey three
+constraints:
 
 \begin{itemize}
-  \item one or more toy FRW modules; and/or
-  \item simple vacuum-energy-like scalar observables.
+  \item \textbf{Explicitness.} Each mapping must be given by an
+        explicit formula with a small number of parameters (e.g. a
+        scale and an exponent), so that its behaviour can be audited
+        and reproduced.
+  \item \textbf{Corridor compatibility.} The mapped observables must
+        support corridor-style reasoning: it should be possible, in
+        principle, to define non-empty or empty \(\theta\)-regions
+        based on well-stated criteria.
+  \item \textbf{Honest physical status.} The mappings are toy
+        constructions, not claimed derivations from first principles.
+        They are interpreted as exploratory consistency tests rather
+        than as a replacement for \(\Lambda\)CDM.
 \end{itemize}
 
-The design goal is to keep these mappings:
-\begin{itemize}
-  \item simple and explicit enough to be implemented and audited;
-  \item flexible enough to explore several normalisation and coupling
-        choices; and
-  \item constrained enough that the resulting behaviour can be turned
-        into a reproducible \(\theta\)-filter, even if the outcome is
-        an empty corridor.
-\end{itemize}
+A more detailed narrative for the mapping design lives in
+\path{phase4/MAPPING_FAMILIES.md}. Here we summarise the families
+most relevant to the Phase~4 paper.
 
-At this rung the section serves only as a placeholder documenting the
-intended role of Phase 4. No specific mapping is yet fixed or used in
-claims.
+\subsection{Family F1: amplitude-to-density rescaling}
+
+The first family treats the floor-enforced amplitude as a proxy for a
+vacuum-energy-like density,
+\begin{equation}
+  \rho_{\mathrm{vac}}(\theta; \kappa, p)
+  \;=\;
+  \kappa \, [A(\theta)]^{p},
+\end{equation}
+with \(\kappa > 0\) setting an overall scale and \(p > 0\) controlling
+the shape of the dependence on \(A(\theta)\). In practice we restrict
+to a small discrete set of exponents (e.g. \(p = 1\) and \(p = 2\))
+and treat \(\kappa\) as a scale knob rather than a fit parameter.
+
+This family is intended as the simplest possible way to couple the
+Phase~3 mechanism to FRW-like dynamics. Later sections will ask
+whether there exist choices of \((\kappa, p)\) for which the resulting
+FRW trajectories are numerically stable and admit a non-empty,
+non-pathological \(\theta\)-corridor.
+
+\subsection{Family F2: residue-relative mapping}
+
+The second family focuses on the \emph{residue} enforced by the
+non-cancellation floor,
+\begin{equation}
+  \Delta A(\theta) \;=\; A(\theta) - A_0(\theta).
+\end{equation}
+Here we define a residue-like density
+\begin{equation}
+  \rho_{\mathrm{res}}(\theta; \kappa_{\mathrm{res}})
+  \;=\;
+  \kappa_{\mathrm{res}} \, \Delta A(\theta),
+\end{equation}
+with \(\kappa_{\mathrm{res}}\) a positive scale parameter.
+
+This family isolates the contribution that is \emph{purely} due to the
+non-cancellation floor. It is therefore a natural place to test
+whether the enforced residue can be made compatible with toy FRW
+modules without producing obviously pathological behaviour.
+
+\subsection{Family F3: normalised amplitude corridors}
+
+Finally, we consider dimensionless normalised amplitudes,
+\begin{equation}
+  \tilde{A}(\theta)
+  \;=\;
+  \frac{A(\theta) - A_{\min}}{A_{\max} - A_{\min}},
+\end{equation}
+where \(A_{\min}\) and \(A_{\max}\) are taken from the Phase~3
+diagnostics. Rather than mapping directly into densities, this family
+uses simple inequalities
+\begin{equation}
+  \tilde{A}(\theta) \in [\alpha_{\min}, \alpha_{\max}]
+\end{equation}
+to define corridor-style conditions that can be combined with FRW
+diagnostics.
+
+In this way, Phase~4 can explore non-trivial \(\theta\)-filters based
+on the \emph{shape} of \(A(\theta)\), while deferring any attempt to
+assign physical units or match observed cosmological parameters.
+
+At the present rung, these families are specified only at the level of
+design and notation. Later rungs will instantiate one or more of them
+in code, connect them to explicit FRW-like modules, and report either
+live corridors or structured negative results as required by the Phase
+0 contract.
