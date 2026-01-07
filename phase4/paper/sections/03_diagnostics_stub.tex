@@ -102,3 +102,58 @@ recorded in the diagnostics and logs rather than hidden. In all cases
 the FRW-inspired module remains strictly non-binding: it does not fix
 a preferred \(\theta_\star\) and does not, by itself, define a Phase~4
 \(\theta\)-filter.
+
+\subsection*{FRW-inspired viability mask on F1}
+
+Beyond the FRW-inspired toy sanity check described above, we also
+define a simple FRW \emph{viability} diagnostic on the F1 mapping.
+Here we keep the same background ansatz
+\[
+  H^2(a; \theta) = \Omega_r a^{-4} + \Omega_m a^{-3} +
+  \Omega_\Lambda(\theta),
+\]
+with fixed \(\Omega_m = 0.3\), \(\Omega_r = 0\), and a Hubble
+parameter \(H_0 = 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}\). For every
+\(\theta\) on the F1 grid we:
+
+\begin{itemize}
+  \item rescale the F1 scalar \(E_{\mathrm{vac}}(\theta)\) into a
+    toy \(\Omega_\Lambda(\theta)\) whose mean matches a target
+    \(\langle \Omega_\Lambda \rangle \approx 0.7\);
+  \item integrate a standard FRW age integral \(t_0(\theta)\) over a
+    scale-factor grid \(a \in [a_{\min}, a_{\max}]\) and require the
+    resulting cosmic age to lie in a coarse window
+    \(t_0 \in [10, 20]~\mathrm{Gyr}\);
+  \item check for a clear matter-dominated epoch and a late-time
+    accelerating regime in which the deceleration parameter becomes
+    negative; and
+  \item enforce a smoothness criterion on \(H^2(a; \theta)\) by
+    bounding the ratio of its maximal to minimal value over the
+    grid.
+\end{itemize}
+
+The script
+\texttt{phase4/src/phase4/run\_f1\_frw\_viability.py} evaluates these
+conditions over the full F1 grid, writing
+\begin{itemize}
+  \item a diagnostic summary
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_diagnostics.json},
+    including the age window, global moments of \(t_0(\theta)\), and
+    the fractions of \(\theta\)-points that satisfy each FRW condition;
+    and
+  \item a per-grid mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_mask.csv},
+    with columns \(\theta\), \(\Omega_\Lambda(\theta)\), and a Boolean
+    viability indicator.
+\end{itemize}
+
+In the current baseline configuration we find that essentially all
+\(\theta\)-points satisfy the age window, matter-era, and smoothness
+requirements, while a non-trivial subset (roughly half of the F1
+grid) additionally exhibits late-time acceleration. The resulting
+viability mask therefore singles out a first, explicitly FRW-flavoured
+subset of \(\theta\)-values as \emph{toy-viable} cosmological
+histories. This mask is not yet promoted to a canonical
+Phase~4 \(\theta\)-filter, but it plays a key role as a concrete,
+physics-facing bridge between the Phase~3 mechanism and simple
+FRW-like observables.

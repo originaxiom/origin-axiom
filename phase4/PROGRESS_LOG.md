@@ -197,3 +197,25 @@ developer.
 - Emphasised that any future tightening of the corridor notion, introduction of
   a candidate \(\theta_\star\), or calibration to data must live in rungs beyond
   the present Phase 4 artifact and carry their own explicit assumptions.
+
+## 2026-01-07 - Rung 10: FRW viability corridor on F1
+
+- Implemented and ran `phase4/src/phase4/run_f1_frw_viability.py`, which
+  reads the F1 sanity curve, rescales it into a toy \(\Omega_\Lambda(\theta)\),
+  and evaluates a minimal FRW viability diagnostic on each grid point.
+- The viability mask requires (i) a coarse age window
+  \(t_0 \in [10, 20]~\mathrm{Gyr}\) for a background with
+  \(\Omega_m = 0.3\), \(\Omega_r = 0\), \(H_0 = 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}\),
+  (ii) a matter-dominated era, (iii) a late-time accelerating regime,
+  and (iv) bounded variation of \(H^2(a; \theta)\) over a fixed
+  late-time scale-factor grid.
+- Wrote the resulting diagnostics to
+  `phase4/outputs/tables/phase4_F1_frw_viability_diagnostics.json` and
+  the per-theta viability mask to
+  `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`. For the
+  current baseline parameters, roughly half of the F1 grid passes all
+  checks (non-zero `frac_viable`).
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` and
+  `phase4/FRW_TOY_DESIGN.md` so that the Phase 4 paper and design note
+  record this FRW-inspired viability corridor as a toy, physics-facing
+  constraint, without yet promoting it to the final \(\theta\)-filter.

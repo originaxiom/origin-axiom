@@ -1,0 +1,22 @@
+{
+  "H0_km_s_Mpc": 70.0,
+  "age_Gyr_max": 16.479896458221216,
+  "age_Gyr_mean": 14.198943591690824,
+  "age_Gyr_min": 11.458118030798575,
+  "age_window_Gyr": [
+    10.0,
+    20.0
+  ],
+  "frac_age_window_ok": 1.0,
+  "frac_has_late_accel": 0.49609375,
+  "frac_has_matter_era": 1.0,
+  "frac_smooth_H2": 1.0,
+  "frac_viable": 0.49609375,
+  "mapping_family": "F1",
+  "omega_lambda_mean_target": 0.7,
+  "omega_m": 0.3,
+  "omega_r": 0.0,
+  "source_curve": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_sanity_curve.csv",
+  "theta_max_global": 6.280117345603815,
+  "theta_min_global": 0.0
+}

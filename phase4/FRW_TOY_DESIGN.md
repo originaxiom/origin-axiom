@@ -150,3 +150,36 @@ The script `phase4/src/phase4/run_f1_frw_toy_diagnostics.py` now:
 This remains a toy diagnostic only. Whether `frac_sane` is close to 0
 or appreciably non-zero, the outcome is logged as a structured
 positive/negative result, not elevated to a Phase 4 θ-filter.
+
+## Rung 10: FRW-inspired viability mask on F1
+
+At this rung we extend the FRW toy diagnostics into a minimal
+viability test on the F1 scalar. Using the same F1 sanity curve and
+rescaled \(\Omega_\Lambda(\theta)\) as in the previous rungs, the
+script `phase4/src/phase4/run_f1_frw_viability.py`:
+
+- fixes a simple \(\Lambda\)CDM-like background with
+  \(\Omega_m = 0.3\), \(\Omega_r = 0\), and
+  \(H_0 = 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}\);
+- integrates a standard FRW age integral \(t_0(\theta)\) and requires
+  a coarse age window \(t_0 \in [10, 20]~\mathrm{Gyr}\);
+- checks that each candidate history exhibits a non-trivial
+  matter-dominated epoch and a late-time accelerating phase; and
+- enforces a bounded variation of \(H^2(a; \theta)\) over the chosen
+  scale-factor grid.
+
+The resulting per-theta viability mask is written to
+`phase4/outputs/tables/phase4_F1_frw_viability_mask.csv` and
+summarised in
+`phase4/outputs/tables/phase4_F1_frw_viability_diagnostics.json`,
+including the fraction `frac_viable` of grid points that satisfy all
+conditions simultaneously.
+
+For the current baseline parameters we find that essentially all
+points pass the age, matter-era, and smoothness checks, while only a
+non-trivial subset (roughly half of the grid) also exhibits late-time
+acceleration. This subset is interpreted as a first, explicitly
+FRW-flavoured viability corridor on F1. It remains a toy diagnostic:
+we do not yet treat it as the final Phase 4 \(\theta\)-filter, but it
+provides a concrete, physics-facing constraint that can be refined or
+replaced in later rungs.
