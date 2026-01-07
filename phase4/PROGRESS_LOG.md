@@ -120,3 +120,23 @@ developer.
   introduced at this rung; the focus is strictly on tightening the
   upstream/downstream contract and the reproducibility story for the
   existing Phase 4 work.
+
+## 2026-01-07 - Rung 7: FRW-inspired toy diagnostics on F1
+
+- Added `phase4/src/phase4/run_f1_frw_toy_diagnostics.py`, which reads
+  the F1 sanity curve `phase4_F1_sanity_curve.csv`, rescales
+  \(E_{\mathrm{vac}}(\theta)\) into a toy \(\Omega_\Lambda(\theta)\),
+  evaluates a simple FRW-like quantity
+  \(H^2(a; \theta) = \Omega_r a^{-4} + \Omega_m a^{-3} +
+  \Omega_\Lambda(\theta)\) on a fixed scale-factor grid, and constructs
+  a Boolean per-\(\theta\) "FRW-sane" mask.
+- Wrote the resulting diagnostics and mask to
+  `phase4/outputs/tables/phase4_F1_frw_toy_diagnostics.json` and
+  `phase4/outputs/tables/phase4_F1_frw_toy_mask.csv`, respectively.
+- Rewrote `phase4/paper/sections/03_diagnostics_stub.tex` to document
+  the three diagnostic layers now in place: F1 sanity curve, F1 shape
+  diagnostics with a toy corridor, and the FRW-inspired toy
+  diagnostics, all explicitly marked as non-binding.
+- No \(\theta\)-filter or physically calibrated FRW model is introduced
+  at this rung; the FRW-inspired module is used strictly as a
+  structural sanity probe for the F1 mapping.
