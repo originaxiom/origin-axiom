@@ -246,3 +246,26 @@ developer.
   FRW viability and corridor results are treated as structured
   diagnostics of the F1 mapping and not as a claim of a physically
   calibrated theta-filter.
+
+## 2026-01-07 – FRW ΛCDM-like probe on F1
+
+- Implemented `phase4/src/phase4/run_f1_frw_lcdm_probe.py`, which
+  reads the FRW viability mask
+  (`phase4_F1_frw_viability_mask.csv`) and defines a broad
+  "ΛCDM-like" window on top of the FRW-viable grid points.
+- Used toy targets \(\Omega_\Lambda^{\mathrm{target}} \approx 0.7\)
+  (tolerance ±0.1) and \(t_0^{\mathrm{target}} \approx 13.8\,\mathrm{Gyr}\)
+  (tolerance ±1 Gyr) with \(\Omega_m = 0.3\), \(\Omega_r = 0\),
+  \(H_0 = 70\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\), matching the FRW
+  viability rung.
+- Recorded the resulting diagnostics in
+  `phase4/outputs/tables/phase4_F1_frw_lcdm_probe.json`, including
+  the ΛCDM-like fraction (`lcdm_like_fraction ≈ 0.03`) and the
+  θ-range and age/Ω\(_\Lambda\) ranges of the selected subset.
+- Wrote a per-θ ΛCDM-like mask to
+  `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`, adding a
+  `lcdm_like` Boolean column on top of the FRW-viability mask.
+- Updated `phase4/paper/sections/03_diagnostics_stub.tex` and
+  `phase4/OVERVIEW.md` to document this ΛCDM-facing probe as a
+  non-binding, illustrative diagnostic rather than a data-driven
+  constraint or a mechanism for selecting a unique \(\theta_\star\).

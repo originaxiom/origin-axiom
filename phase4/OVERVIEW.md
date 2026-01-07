@@ -154,3 +154,36 @@ Any future step that proposes:
 
 must be added as a **new rung** or **new mapping family** with its own clearly
 scoped assumptions, diagnostics, and claims table entries.
+
+### FRW ΛCDM-like probe on F1
+
+Building on the FRW viability mask, we add a deliberately broad
+"ΛCDM-like" diagnostic layer. The script
+`phase4/src/phase4/run_f1_frw_lcdm_probe.py`:
+
+- reads the FRW viability mask
+  `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`;
+- restricts to FRW-viable grid points; and
+- marks as `lcdm_like` those points for which
+  - the toy vacuum fraction \(\Omega_\Lambda(\theta)\) lies within a
+    tolerance window around a target \(\Omega_\Lambda^{\mathrm{target}}
+    \approx 0.7\), and
+  - the toy FRW age \(t_0(\theta)\) lies within a tolerance window
+    around \(13.8\,\mathrm{Gyr}\),
+
+using the same FRW toy parameters as the viability rung
+(\(\Omega_m = 0.3\), \(\Omega_r = 0\), \(H_0 = 70\,\mathrm{km\,s^{-1}\,\mathrm{Mpc}^{-1}}\)).
+
+The code writes:
+
+- `phase4/outputs/tables/phase4_F1_frw_lcdm_probe.json`, a diagnostic
+  summary recording the ΛCDM-like fraction, the θ-extent of the
+  selected subset, and the corresponding Ω\(_\Lambda\) and age ranges;
+- `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`, a
+  per-grid CSV with an added `lcdm_like` Boolean flag.
+
+In the current baseline configuration this selects a small but
+non-zero fraction of the θ-grid. This layer is still explicitly
+non-binding: it is used as an illustrative, FRW-facing probe of the F1
+mapping rather than a data-driven constraint or a mechanism for
+picking a unique \(\theta_\star\).

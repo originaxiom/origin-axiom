@@ -194,3 +194,42 @@ Phase~4 \(\theta\)-filter or a claimed prediction of a preferred
 how the Phase~3 mechanism, the F1 mapping, and simple FRW-inspired
 constraints can be chained into corridor-like structures that later,
 more physically ambitious work can interrogate or replace.
+
+\subsubsection*{FRW \texorpdfstring{$\Lambda$}{$\Lambda$}CDM-like probe}
+
+As a final FRW-facing diagnostic we place a broad
+``$\Lambda$CDM-like'' window on top of the viability mask from the
+previous rung. Concretely, we take the per-grid FRW-viable rows from
+\texttt{phase4/outputs/tables/phase4\_F1\_frw\_viability\_mask.csv}
+and require, in addition:
+\begin{itemize}
+  \item a vacuum fraction \(\Omega_\Lambda(\theta)\) within a toy
+    tolerance window around a target \(\Omega_\Lambda^{\mathrm{target}}
+    \approx 0.7\); and
+  \item a cosmological age in a toy window around
+    \(t_0^{\mathrm{target}} \approx 13.8\,\mathrm{Gyr}\), using the
+    same FRW toy model as the viability rung
+    (\(\Omega_m = 0.3\), \(\Omega_r = 0\), \(H_0 = 70\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\)).
+\end{itemize}
+
+The script
+\texttt{phase4/src/phase4/run\_f1\_frw\_lcdm\_probe.py} implements
+this probe, reading the FRW-viability mask and writing:
+\begin{itemize}
+  \item a JSON summary
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe.json},
+    which records the target windows, the \(\theta\)-extent of the
+    \(\Lambda\)CDM-like subset, and the corresponding grid fraction;
+  \item a per-grid mask
+    \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe\_mask.csv},
+    which augments the FRW-viability columns with a Boolean
+    \texttt{lcdm\_like} flag.
+\end{itemize}
+
+In the current baseline configuration, this $\Lambda$CDM-like window selects a
+small but non-zero subset of the FRW-viable \(\theta\)-grid points.
+We stress that this remains a toy-level probe: it is not a fit to
+observational data and does not fix a preferred \(\theta_\star\).
+Instead, it serves to demonstrate that the Phase~3~\(\to\)~Phase~4
+pipeline admits FRW histories that are, at least in a broad sense,
+compatible with late-time \(\Lambda\)CDM-like cosmology.
