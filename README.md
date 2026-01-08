@@ -1,269 +1,189 @@
-# Origin Axiom – Phased Program Repository
+    # Origin Axiom – Phased Vacuum Mechanics Program
 
-This repository hosts a phased, fully reproducible program exploring a
-non-cancelling residue mechanism in simple field / mode-sum models and its
-potential cosmology-adjacent implications.
+    > “Twist Euler’s perfect cancellation just enough that reality cannot vanish,  
+    > then follow the residue wherever it leads.”
 
-The project is structured into **phases**, each with:
+    This repository hosts the **phased Origin‑Axiom program**: a step‑by‑step, fully logged attempt to turn a simple *non‑cancelling phase twist* on Euler’s identity into a concrete, testable framework for vacuum mechanics, cosmology, and (eventually) a candidate path toward a unified description of fundamental structure.
 
-- a clearly declared **scope** and **non-claims**,  
-- a small set of **canonical artifacts** (paper, figures, outputs),  
-- a **claims ledger** pointing to concrete evidence (runs, figures),  
-- a reproducible workflow driven by configuration files and Snakemake.
+    The repo is structured as a **ladder of phases (0–5)**. Each phase is designed to be:
 
-Legacy exploratory work (early notebooks, one-off scans, etc.) has been moved
-outside this repository; only what is needed for defensible, end-to-end
-reproduction is kept here.
+    - **Scoped** – clear aims, hard boundaries, and explicit non‑claims  
+    - **Reproducible** – Snakemake workflows, logged runs, and pinned outputs  
+    - **Readable** – LaTeX papers summarizing the phase in human language  
+    - **Composable** – later phases *only* lean on artifacts explicitly exported by earlier ones
 
----
+    If you want to *understand the story* first, skim the phase PDFs (see below).  
+    If you want to *run the machinery*, see **`INTERACTING_WITH_REPO.md`**.
 
-## Phased structure (overview)
+    ---
 
-A more detailed description lives in `docs/PHASES.md`. This is the high-level
-map:
+    ## Current status (high‑level)
 
-### Phase 0 – Governance, corridor method, and contracts
+    - **Phase 0 – Motivation & framing**  
+      Conceptual groundwork: why “non‑cancelling vacuum twist” at all, what problem it is trying to address, and how it relates to Euler’s identity, fine‑tuning, and “impossibility of perfect nothingness” arguments.
 
-**Goal:** Define the *rules of the game* for all subsequent phases:
+    - **Phase 1 – Formalization of the axiom candidate**  
+      Starts turning the philosophical intuition into a precise mathematical ansatz: what we actually mean by a non‑cancelling phase, how \( e^{i	heta} + 1 
+eq 0 \) is enforced, and what constraints we impose on candidate \(	heta\)-values (irregularity, transcendence, self‑reference, etc.).
 
-- formalize the **corridor / theta-filter** bookkeeping as JSON artifacts
-  validated by explicit schemas,
-- define **claim taxonomy** (existence / robustness / bounded viability, etc.),
-- fix **reproducibility requirements** and failure-mode reporting,
-- separate **method claims** (Phase 0) from **physics claims** (Phase 1+).
+    - **Phase 2 – Early dynamics & scanning attempts**  
+      More exploratory and “legacy‑heavy”: various initial scanning and toy dynamics attempts to see how the axiom might generate structure. Some of this has since been locked or superseded by cleaner, later phases, but the rigorous parts remain as a historical rung.
 
-**Key artifacts:**
+    - **Phase 3 – Mechanism baseline**  
+      A **clean baseline mechanism**: a concrete amplitude table over \(	heta\), derived from a well‑specified construction, together with diagnostic tables describing stability, cancellation behavior, and “instability penalty” summaries. This is the first phase that exports a truly *usable* computational object into later rungs.
 
-- `phase0/paper/main.tex` (+ `macros.tex`, `references.bib`) – Phase 0 paper,
-- `phase0/artifacts/` – compiled Phase 0 paper PDF and other fixed outputs,
-- `phase0/phase_outputs/` – corridor / theta-filter JSONs,
-- `phase0/schemas/` – JSON Schemas for filters / corridors,
-- `phase0/scripts/` – small utilities for generating / updating filters,
-- `phase0/PROGRESS_LOG.md` – audit trail of Phase 0 evolution.
+    - **Phase 4 – F1 mapping & FRW viability probes**  
+      Consumes the Phase 3 amplitude table and constructs a simple **F1 mapping** into cosmological parameters. We scan a grid of \(	heta\) values, derive toy FRW histories, and flag which configurations pass basic viability tests (matter era, late acceleration, age constraints, etc.). No claim of “true cosmology” is made – this is **a viability‑mapping layer**, not a fit to real data (yet).
 
-Phase 0 intentionally makes **no physics claims**. It only makes
-**method/governance claims** about how phases are allowed to operate.
+    - **Phase 5 – Interface, sanity table & integration**  
+      A thin **interface layer** that reads Phase 3 + Phase 4 diagnostics, checks consistency, and emits a single **sanity summary table** for rungs up to F1. This phase is about *integration and bookkeeping* rather than new physics: it proves that the pipeline is mechanically coherent and ready for future extensions (F2, real data, higher‑level structure, etc.).
 
----
+    All five phases currently **build cleanly**, export canonical PDFs, and pass the Phase 5 sanity checks at the present rung.
 
-### Phase 1 – Lattice toy models and residue mechanism
+    ---
 
-**Goal:** Demonstrate the existence and basic robustness of the
-non-cancelling residue mechanism in controlled toy domains.
+    ## Repository structure (essentials)
 
-- finite-size lattice models with constrained and unconstrained phases,
-- identification of a **residual amplitude** that persists under constraints,
-- basic **scaling** tests vs. lattice size and parameters.
+    At top level:
 
-**Allowed claim types (Phase 1):**
+    - `phase0/` … `phase5/` – per‑phase source trees  
+      - `paper/` – LaTeX sources for the phase paper (`main.tex` + sections + appendices)  
+      - `src/` – phase‑specific Python code, simulation scripts, and interfaces  
+      - `outputs/` – generated tables, figures, and diagnostics (tracked where stable)  
+      - `artifacts/` – canonical phase PDFs (`origin-axiom-phaseN.pdf`)
+    - `artifacts/` – **aggregated copies** of all phase PDFs at repo root:  
+      - `origin-axiom-phase0.pdf` … `origin-axiom-phase5.pdf`
+    - `scripts/` – top‑level entry points and orchestration helpers, including:  
+      - `build_all_papers.sh` – rebuilds all phase papers and aggregates PDFs into `artifacts/`  
+      - `phase3_gate.sh`, `phase4_gate.sh`, `phase5_gate.sh` – gated, rung‑aware entry points for each phase
+    - `docs/` – conceptual and technical documentation beyond the phase papers  
+      (e.g. repo interaction guides, legacy migration notes, etc.)
+    - `PROGRESS_LOG.md` – chronological, human‑readable history of major steps and rung changes  
+    - `INTERACTING_WITH_REPO.md` – **how to run things reproducibly** (CLI, Snakemake, expectations)
+    - `LEGACY_MIGRATIONS.md` (if present) – inventory of useful ideas from the pre‑phased legacy repo and notes on what might be re‑imported in future rungs.
 
-- existence (the mechanism appears in clearly defined toy systems),
-- robustness (persists across parameter variations within stated bounds),
-- scaling (within the toy-model domain only).
+    The intent is that **new work never silently bypasses this structure**. If it matters, it should either:
 
-**Key artifacts:**
+    - live in a new, clearly scoped phase, or  
+    - be added as a documented rung extension within an existing phase.
 
-- `phase1/paper/main.tex` – Phase 1 paper source,
-- `phase1/artifacts/origin-axiom-phase1.pdf` – compiled Phase 1 paper,
-- `phase1/outputs/figures/` – canonical figures,
-- `phase1/outputs/runs/` – run manifests and result bundles (ignored by git,
-  but reproducible via Snakemake),
-- `phase1/CLAIMS.md` – formal Phase 1 claims and evidence pointers,
-- `phase1/ASSUMPTIONS.md`, `phase1/SCOPE.md`, `phase1/REPRODUCIBILITY.md`,
-- `phase1/workflow/Snakefile` – Phase 1 Snakemake pipeline,
-- `phase1/src/` – Phase 1 implementation.
+    ---
 
----
+    ## How to interact with the repo
 
-### Phase 2 – Mode-sum model and FRW-style comparisons
+    For detailed, command‑level interaction instructions, see:
 
-**Goal:** Test whether the residue mechanism survives a stricter
-mode-sum model and can be compared against FRW-style observables, **without
-promoting this to a cosmology claim**.
+    - **`INTERACTING_WITH_REPO.md`**
 
-- mode-sum model for an effective vacuum contribution,
-- scaling tests vs. cutoffs / number of modes / ε parameters,
-- FRW-style background and growth comparisons as **bounded viability checks**.
+    That document covers:
 
-**Allowed claim types (Phase 2):**
+    - Environment expectations (Python, LaTeX, Snakemake)  
+    - How to run per‑phase gates safely (and what “Level A” vs other levels mean)  
+    - How to rebuild papers and canonical artifacts  
+    - What *not* to edit (e.g. generated outputs vs sources)
 
-- existence / robustness (within the mode-sum framework),
-- bounded viability (FRW comparisons under clearly stated assumptions),
-- explicitly **non-cosmological** unless otherwise and narrowly stated.
+    At a very high level, the pattern is:
 
-**Key artifacts:**
+    ```bash
+    # From repo root
+    ./scripts/phase3_gate.sh   # run Phase 3 checks, rebuild its paper & artifacts
+    ./scripts/phase4_gate.sh   # same for Phase 4
+    ./scripts/phase5_gate.sh   # integration sanity + Phase 5 paper/artifacts
 
-- `phase2/paper/main.tex` – Phase 2 paper source,
-- `phase2/artifacts/` – compiled Phase 2 paper and fixed outputs,
-- `phase2/outputs/figures/` – canonical figures A–F,
-- `phase2/outputs/paper_bundle/` – reproducibility bundle for paper figures,
-- `phase2/outputs/runs/` – full run manifests and raw outputs,
-- `phase2/CLAIMS.md`, `phase2/ASSUMPTIONS.md`, `phase2/SCOPE.md`,
-  `phase2/REPRODUCIBILITY.md`,
-- `phase2/workflow/Snakefile` – Phase 2 Snakemake pipeline,
-- `phase2/src/` – Phase 2 implementation (modes, FRW, scripts).
+    ./scripts/build_all_papers.sh   # rebuild and aggregate all phase PDFs
+    ```
 
----
+    Each gate script is designed to be **idempotent and self‑checking**: it refuses to silently gloss over missing or inconsistent inputs, and it writes diagnostics into `phase*/outputs/` so you can inspect what happened.
 
-### Future phases (3+)
+    ---
 
-Future phases (e.g. connections to more realistic sectors, further
-phenomenology, or synthesis) must:
+    ## Reproducibility & philosophy
 
-1. declare scope and non-claims up front,
-2. define canonical artifacts (paper, figures, bundles),
-3. register claim IDs in `docs/CLAIMS_INDEX.md`,
-4. obey all Phase 0 governance rules.
+    This project tries to be **as transparent as possible** about what is real, what is conjecture, and what is outright speculative.
 
-Until such phases are created, this repository only supports **Phase 0–2**.
+    - Every phase paper has an **appendix on reproducibility**, listing:  
+      - which scripts to run,  
+      - which tables/figures they generate, and  
+      - how those map into claims made in the main text.
+    - The **Phase 5 sanity table** provides a single CSV view of key artifacts from Phase 3–4, so reviewers can see what the pipeline actually used without spelunking through the tree.
+    - **Speculative layers are clearly labeled**. For example, F1 mappings in Phase 4 are explicitly described as exploratory “toy FRW viability probes”, not predictions.
 
----
+    Long‑term, the goal is to **earn the right** to attempt a genuine unification story by:
 
-## Repository layout
+    1. Keeping each rung modest and falsifiable.  
+    2. Logging failures and dead ends instead of erasing them.  
+    3. Building structures that other researchers can *actually run* on their own machines.
 
-Only the most important top-level items are listed here:
+    ---
 
-- `phase0/` – governance layer (corridor method, contracts, schemas, Phase 0 paper).
-- `phase1/` – lattice toy models, Phase 1 paper, figures, and pipelines.
-- `phase2/` – mode-sum + FRW comparison, Phase 2 paper, figures, and pipelines.
-- `docs/`  
-  - `PHASES.md` – detailed description of each phase, scope, and canonical artifacts.  
-  - `CLAIMS_INDEX.md` – global claims index (P0-Cxx, P1-Cxx, P2-Cxx, …).  
-  - `REPRODUCIBILITY.md` – repo-wide reproducibility guidelines.  
-  - `ARCHIVE.md` – policy for archiving/deprecating exploratory material.
-- `.gitignore` – keeps LaTeX build artifacts, Snakemake caches, and
-  `**/outputs/runs/` out of version control.
+    ## Where future work fits
 
-Each phase additionally contains:
+    The phased program is designed to be **extendable in both depth and breadth**:
 
-- `README.md` – phase-local overview,  
-- `CLAIMS.md`, `ASSUMPTIONS.md`, `SCOPE.md`, `REPRODUCIBILITY.md`,  
-- `PROGRESS_LOG.md` – reviewer-facing change log for that phase.
+    - **Within existing phases** (new rungs):  
+      - Tighten diagnostics, add more robust statistics, refine instability measures, etc.  
+      - Connect Phase 4 FRW probes to actual cosmological datasets once we are satisfied with the toy layer.  
+      - Enrich Phase 5 with additional cross‑phase sanity checks as new artifacts appear.
 
----
+    - **New phases beyond Phase 5** (Stage 2+):  
+      These would likely cover:
+      - **F2+ mappings** – richer structures built on top of the F1 layer (e.g. field content, particle‑like excitations, or higher‑dimensional parameter spaces).  
+      - **Real‑data confrontation** – bringing in observational datasets under well‑stated assumptions.  
+      - **Downward propagation** – asking which features of earlier phases are actually *forced* by success at later ones (closing the loop from cosmology back to the axiom).  
 
-## Reproducibility (quick start)
+    New phases should follow the same pattern:
 
-The repository is designed so that a referee can reproduce the main numerical
-and figure results of each phase starting from a clean checkout.
+    1. A clearly scoped directory (`phase6/`, `phase7/`, …)  
+    2. A LaTeX paper with a locked scope and explicit non‑claims  
+    3. A small set of exported artifacts that later phases may rely on  
+    4. Gate scripts and sanity checks registered in `scripts/` and, where relevant, Phase 5+ integration tables
 
-A more detailed description lives in:
+    In other words: we want a **staircase**, not a tangle.
 
-- `docs/REPRODUCIBILITY.md` – repo-wide rules and expectations,
-- `<phaseX>/REPRODUCIBILITY.md` – phase-specific instructions.
+    ---
 
-Typical workflow:
+    ## Citing or referencing this work
 
-1. **Clone the repo**
+    This project is a **living research program**. If you need to reference it, a simple pattern is:
 
-   ```bash
-   git clone git@github.com:originaxiom/origin-axiom.git
-   cd origin-axiom
-   ```
+    > D. M. (Origin Axiom project). *Origin‑Axiom Phased Vacuum Mechanics Program*.  
+    > Public git repository: https://github.com/originaxiom/origin-axiom (accessed YYYY‑MM‑DD).
 
-2. **Create a virtual environment** (recommended)
+    As the work matures and formal preprints/papers appear (e.g. on arXiv or journal venues), those will be listed in this section and in the phase papers themselves.
 
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate  # or: source .venv/bin/activate.fish / Scripts/activate on Windows
-   ```
+    ---
 
-3. **Install dependencies**
+    ## Further documentation
 
-   Each phase provides its own configuration and (where needed) frozen
-   requirements. See the corresponding `REPRODUCIBILITY.md` for the currently
-   supported commands (for example, a `requirements-phase1-freeze.txt` for
-   Phase 1).
+    For deeper dives, see:
 
-4. **Run Snakemake pipelines**
+    - **Phase papers (canonical narrative for each rung)**  
+      - `artifacts/origin-axiom-phase0.pdf` – motivation & conceptual foundation  
+      - `artifacts/origin-axiom-phase1.pdf` – formal axiom candidate  
+      - `artifacts/origin-axiom-phase2.pdf` – early scanning & legacy bridge  
+      - `artifacts/origin-axiom-phase3.pdf` – baseline mechanism & diagnostics  
+      - `artifacts/origin-axiom-phase4.pdf` – F1 mapping & FRW viability probes  
+      - `artifacts/origin-axiom-phase5.pdf` – integration layer & sanity table
 
-   Phase 1:
+    - **Repo & interaction docs**  
+      - `INTERACTING_WITH_REPO.md` – how to run gates, rebuild papers, and avoid common pitfalls  
+      - `PROGRESS_LOG.md` – narrative history and rung‑by‑rung evolution  
+      - `docs/` – additional conceptual notes, design documents, and migration analyses
 
-   ```bash
-   cd phase1
-   snakemake -c 1 all
-   ```
+    - **Legacy & migration notes**  
+      - `docs/LEGACY_MIGRATIONS.md` (if present) – what was salvaged or earmarked from the pre‑phased legacy repo, and how it might be integrated into future phases.
 
-   Phase 2:
+    If you are new to the project and want a reading order:
 
-   ```bash
-   cd phase2
-   snakemake -c 1 all
-   ```
+    1. Skim **Phase 0** and **Phase 1** PDFs to understand the axiom’s motivation and formal shape.  
+    2. Read **Phase 3** to see the concrete mechanism baseline.  
+    3. Read **Phase 4** to understand how that baseline talks to FRW toy cosmology.  
+    4. Glance at **Phase 5** and the sanity table to understand how the pieces are wired together.  
+    5. Only then dive into code and diagnostics, using `INTERACTING_WITH_REPO.md` as your map.
 
-   These pipelines regenerate canonical figures and populate `outputs/runs/`
-   with run manifests. Each run bundle includes `meta.json`, `params_resolved.json`,
-   `summary.json`, and a `pip_freeze.txt` snapshot of the environment.
+    ---
 
-5. **Build LaTeX papers**
+    ## License
 
-   For each phase paper:
-
-   ```bash
-   cd phase0/paper   # or phase1/paper, phase2/paper
-   latexmk -pdf main.tex
-   ```
-
-   Compiled PDFs are stored under the corresponding `artifacts/` directory to
-   keep the git history clean.
-
----
-
-## Claims discipline
-
-A central design choice of this project is to make claims **explicit, bounded,
-and evidence-backed**.
-
-- `docs/CLAIMS_INDEX.md` lists all registered claims and their phase owner.  
-- Each phase has a `CLAIMS.md` file defining:
-  - claim IDs (e.g. `P1-C1`, `P2-C3`),
-  - the type of claim (existence, robustness, bounded viability, etc.),
-  - pointers to **canonical figures** and/or **pinned run IDs**,
-  - explicit non-claims (what is *not* being asserted).
-
-**Phase 0** makes only method/governance claims.  
-**Phase 1+** may make physics-adjacent claims, but only within their declared
-scope and under the assumptions listed in `ASSUMPTIONS.md`.
-
----
-
-## Status and roadmap
-
-Current status (early 2026):
-
-- Phase 0:
-  - paper skeleton and governance contracts in place,
-  - corridor and filter artifacts backed by JSON Schemas,
-  - progress log backfilled for repository re-organization.
-- Phase 1:
-  - paper and canonical figures available under `phase1/artifacts/` and
-    `phase1/outputs/figures/`,
-  - Snakemake pipeline generates the runs and figures referenced by the paper.
-- Phase 2:
-  - paper structure, mode-sum implementation, FRW-style comparison scripts,
-    and run bundles in place,
-  - pipeline support for scaling tests and binding certificate runs.
-
-Future work:
-
-- complete and refine Phase 0 paper narrative (governance + corridor method),
-- finalize Phase 2 paper and tighten its claims vs. evidence mapping,
-- define and instantiate Phase 3+ once Phase 1–2 are fully locked and audited.
-
-For more detail, see:
-
-- `docs/PHASES.md` – phase roles and constraints,
-- per-phase `PROGRESS_LOG.md` – reviewer-facing change logs.
-
----
-
-## Citation and contact
-
-This repository is under active development. If you use any part of this work
-in academic or applied contexts, please cite the relevant phase paper
-(e.g. `phase1/artifacts/origin-axiom-phase1.pdf` and future Phase 0/2 papers)
-and reference this repository.
-
-The canonical public home of this code and documentation is:
-
-- `https://github.com/originaxiom/origin-axiom`
+    See `LICENSE` in the repository root (or accompanying documentation) for licensing terms.  
+    If in doubt about permitted use, open an issue in the repo or contact the maintainer.
