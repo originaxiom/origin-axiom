@@ -216,3 +216,59 @@ The Phase 5 interface currently treats this dataset as optional. Once
 real data are added in a later rung, this section provides the
 reference contract against which the code and diagnostics should be
 checked.
+
+## Rung F1.D1 – External FRW distance diagnostics script
+
+This rung wires the external FRW distance–redshift dataset into a small
+diagnostics script, without yet introducing any likelihood or
+θ-dependent modeling. The goal is to:
+
+- verify that the CSV file
+  `phase4/data/external/frw_distance_binned.csv` exists and matches the
+  schema defined in Rung F1.D0;
+- compute simple, model-independent diagnostics (row counts, redshift
+  range, basic checks on the uncertainties); and
+- emit a compact JSON summary that can be consumed by later rungs
+  (including Phase 5 interface layers) as part of a program-level
+  viability dashboard.
+
+### Script and output locations
+
+At this rung, the diagnostics are implemented by:
+
+- Python script (relative to repo root):
+  `phase4/src/phase4/f1_frw_external_diagnostics_v1.py`
+- JSON output:
+  `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`
+
+The script is expected to:
+
+1. Resolve the repository root and Phase 4 root from its own location.
+2. Read `phase4/data/external/frw_distance_binned.csv`, ignoring
+   comment lines starting with `#`.
+3. Require at least the columns `z`, `mu`, and `sigma_mu`:
+   - If the file is missing, it should report `file_exists: false` and
+     set an informative status.
+   - If the required columns are absent, it should report a schema
+     mismatch (including the observed field names).
+4. Parse rows into floats and:
+   - count the number of valid data rows;
+   - compute `z_min`, `z_max`, `mu_min`, `mu_max`,
+     `sigma_mu_min`, `sigma_mu_max` when there is at least one row;
+   - check whether the sequence of `z` values is non-decreasing.
+5. Treat the zero-row case as a valid, non-fatal state:
+   - this corresponds to the baseline repository shipping with a
+     header-only file at Rung F1.D0.
+
+### Contract at this rung
+
+- The script must not:
+  - construct or evaluate any cosmological model,
+  - interpret the data in terms of θ, F1 mappings, or FRW dynamics, or
+  - introduce any notion of likelihood or fit quality.
+- The script may be extended in future rungs, but any additional fields
+  or checks in the JSON output must be documented here.
+
+The JSON output is intended to serve as a small, stable contract between
+the external data file and higher-level viability dashboards. It records
+what data are present (or absent) without making physical claims.

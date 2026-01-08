@@ -2280,3 +2280,24 @@ strictly scoped.
 - This establishes the first explicit external-observable contract
   on the roadmap from the axiom (via F1 mappings) to FRW distance
   data, without yet introducing a likelihood or new claims.
+
+### [2026-01-08] Phase 4 F1.D1 – External FRW distance diagnostics script
+
+- Extended `phase4/FRW_DATA_DESIGN.md` with Rung F1.D1, defining a
+  small diagnostics script for the external FRW distance dataset:
+  - script: `phase4/src/phase4/f1_frw_external_diagnostics_v1.py`
+  - output: `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+- Implemented the diagnostics script to:
+  - resolve repo and Phase 4 roots from its own location,
+  - read `phase4/data/external/frw_distance_binned.csv` while skipping
+    comment and empty lines,
+  - check that the required columns `z`, `mu`, `sigma_mu` exist,
+  - parse rows into floats with basic error counting,
+  - compute row counts and simple ranges (`z_min/z_max`, `mu_min/mu_max`,
+    `sigma_mu_min/sigma_mu_max`) when data are present,
+  - check for non-decreasing `z`,
+  - treat the zero-row case as a valid state (`ok_zero_rows`).
+- The script is intentionally model-free: it makes no θ- or F1-specific
+  assumptions and introduces no likelihood or physical claims. It
+  serves purely as a plumbing and inspection layer for external data,
+  to be used later by Phase 5 and higher rungs of Phase 4.
