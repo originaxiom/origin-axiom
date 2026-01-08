@@ -2264,3 +2264,19 @@ strictly scoped.
     the result to `phase5/artifacts/origin-axiom-phase5.pdf`.
   - This wires Phase 5 into the program-level build story without
     modifying upstream phases or their gates.
+
+### [2026-01-08] Phase 4 F1.D0 – External FRW distance contract stub
+
+- Appended a new Rung F1.D0 section to `phase4/FRW_DATA_DESIGN.md`
+  defining the contract for the external FRW distance–redshift dataset:
+  - path: `phase4/data/external/frw_distance_binned.csv`
+  - required columns: `z`, `mu`, `sigma_mu` with documented units and
+    a diagonal-error model at this rung.
+  - clarified that the repo may ship with a header-only CSV and that
+    Phase 4/5 code must handle the zero-row case gracefully.
+- Created a header-only stub CSV at
+  `phase4/data/external/frw_distance_binned.csv` that matches the
+  declared schema.
+- This establishes the first explicit external-observable contract
+  on the roadmap from the axiom (via F1 mappings) to FRW distance
+  data, without yet introducing a likelihood or new claims.

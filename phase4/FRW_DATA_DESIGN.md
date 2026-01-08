@@ -133,3 +133,86 @@ Instead, it is used as a structured, optional diagnostic that:
 - logs both positive and negative outcomes (for example, empty or
   small `data_ok` sets) in a way that is ready for later, more serious
   data work.
+
+## Rung F1.D0 – External FRW distance data contract (stub)
+
+This rung introduces an explicit contract for an external FRW
+distance–redshift dataset that Phase 4 (family F1) and Phase 5 may use
+for comparison with the toy and viability constructions.
+
+The dataset is represented by a single CSV file:
+
+- **Path (relative to repo root)**:
+  `phase4/data/external/frw_distance_binned.csv`
+- **Semantics**:
+  - One row per redshift bin.
+  - No particular survey is assumed at this rung; any real survey or
+    synthetic data must be re-binned into this common format before
+    being placed here.
+  - The file is allowed to be header-only in the baseline repository;
+    Phase 4 and Phase 5 code must treat the absence of real rows as a
+    valid, non-fatal state.
+
+### Schema
+
+At Rung F1.D0 the CSV is defined to have at least the following
+columns:
+
+- `z` (dimensionless):
+  - The central redshift of the bin.
+- `mu` (mag):
+  - Distance modulus for the bin.
+- `sigma_mu` (mag):
+  - 1-sigma uncertainty on the distance modulus in that bin.
+
+Additional columns are permitted but not required, for example:
+
+- `sample_id`: a short string identifying the underlying survey or
+  sample (e.g. `SNLS`, `Pantheon`, `mock_v1`).
+- `systematics_flag`: an integer or string flag for systematics
+  categories.
+
+Any additional columns must be documented in this design file in a
+future rung if they become relied upon by Phase 4 or Phase 5 code.
+
+### Units and conventions
+
+- `z` is a pure number (redshift).
+- `mu` and `sigma_mu` are in magnitudes, defined in the usual way:
+  \[
+    \mu = 5 \log_{10}\!\left(\frac{D_L}{10\,\mathrm{pc}}\right) ,
+  \]
+  where \(D_L\) is the luminosity distance.
+- The mapping from \(\theta\) to cosmological parameters (e.g.
+  \(H_0\), \(\Omega_m\), \(\Omega_\Lambda\), and any additional
+  parameters used in F1) is *not* specified here; it is handled in
+  `FRW_SYNTHESIS.md` and the associated Phase 4 code.
+
+### Error model at this rung
+
+At Rung F1.D0 we assume:
+
+- The uncertainties encoded in `sigma_mu` are treated as independent
+  Gaussian errors.
+- No off-diagonal covariance or shared systematics structure is used
+  in computations that consume this file at this rung.
+
+Future rungs may replace this with a more realistic covariance
+treatment, possibly by introducing an explicit covariance matrix and a
+separate design contract.
+
+### Repository state requirements
+
+- The baseline repository may ship with a header-only
+  `frw_distance_binned.csv` (no data rows).
+- Phase 4 and Phase 5 scripts that touch this file must:
+  - succeed if the file exists and matches the schema, even if it
+    contains zero data rows;
+  - fail clearly (with a helpful error) only if:
+    - the file is missing entirely, or
+    - the required columns (`z`, `mu`, `sigma_mu`) are absent.
+
+The Phase 5 interface currently treats this dataset as optional. Once
+real data are added in a later rung, this section provides the
+reference contract against which the code and diagnostics should be
+checked.
