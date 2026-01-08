@@ -2195,3 +2195,12 @@ strictly scoped.
   - Writes phase5/outputs/tables/phase5_interface_v1_summary.json.
 - Kept this rung purely diagnostic: no new claims, no numerology, no external data.
 
+
+2026-01-08 (local) – Phase 4 F1 sanity diagnostics stub
+------------------------------------------------------
+- Added phase4/src/phase4/f1_sanity_curve_diagnostics_v1.py.
+- This script writes a minimal JSON diagnostics stub
+  phase4/outputs/tables/phase4_F1_sanity_curve_diagnostics.json
+  pointing to the existing F1 sanity curve CSV.
+- Phase 5 interface v1 now reports all Phase 3/4 inputs as OK,
+  with only the optional external FRW distance file marked as missing.

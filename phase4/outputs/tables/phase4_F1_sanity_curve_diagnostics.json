@@ -1,0 +1,17 @@
+{
+  "csv_status": {
+    "exists": true,
+    "size_bytes": 85499
+  },
+  "interface_version": 1,
+  "mapping_family": "F1",
+  "mapping_name": "F1_baseline_v1",
+  "notes": "Stub diagnostics for the F1 sanity curve. Content is intentionally minimal; the primary artifact is the CSV curve itself.",
+  "paths": {
+    "curve_csv_abs": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_sanity_curve.csv",
+    "curve_csv_rel": "phase4/outputs/tables/phase4_F1_sanity_curve.csv",
+    "diagnostics_json_abs": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_sanity_curve_diagnostics.json",
+    "diagnostics_json_rel": "phase4/outputs/tables/phase4_F1_sanity_curve_diagnostics.json"
+  },
+  "timestamp_utc": "2026-01-08T00:06:56.473706Z"
+}
