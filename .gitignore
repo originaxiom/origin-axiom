@@ -103,3 +103,7 @@ phase3/paper/*.out
 phase3/paper/*.toc
 phase3/paper/*.synctex.gz
 phase3/paper/main.pdf
+
+# Phase 5 generated outputs
+phase5/outputs/*
+!phase5/outputs/.gitkeep
