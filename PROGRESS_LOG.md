@@ -2579,3 +2579,52 @@ This script:
     - Option A: a lightweight Phase 5 addendum, or
     - Option B: a dedicated FRW-focused Stage 2 / Phase 6 paper.
 
+
+[2026-01-08] Stage 2 – FRW corridor analysis (rungs 1–5)
+- Implemented a Stage 2 FRW-corridor analysis stack in
+  stage2/frw_corridor_analysis:
+  - Rung 1 (sources table):
+    - stage2/frw_corridor_analysis/src/analyze_frw_corridor_v1.py
+    - Summarizes Phase 4 FRW masks and corridor config into
+      stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung1_sources_v1.csv.
+  - Rung 2 (boolean census):
+    - stage2/frw_corridor_analysis/src/analyze_frw_corridor_bool_census_v1.py
+    - Scans the Phase 4 FRW mask CSVs for boolean-like columns and records
+      per-flag true/false counts into
+      stage2_frw_corridor_rung2_bool_census_v1.csv.
+  - Rung 3 (family definitions):
+    - stage2/frw_corridor_analysis/src/analyze_frw_corridor_families_v1.py
+    - Defines FRW theta-families on the 2048-point grid:
+      F1_FRW_VIABLE, F2_LCDM_LIKE, F3_TOY_CORRIDOR,
+      F4_CORRIDOR_AND_VIABLE, F5_CORRIDOR_AND_LCDM, F6_DATA_OK,
+      writing their sizes and fractions into
+      stage2_frw_corridor_rung3_families_v1.csv.
+  - Rung 4 (family overlaps):
+    - stage2/frw_corridor_analysis/src/analyze_frw_corridor_family_overlap_v1.py
+    - Computes conditional overlaps frac_i_given_j across families and
+      records them in
+      stage2_frw_corridor_rung4_family_overlap_v1.csv.
+      Confirms, e.g., that F2_LCDM_LIKE is a strict subset of F1_FRW_VIABLE,
+      and that F5_CORRIDOR_AND_LCDM corresponds to the F3 ∩ F2 intersection.
+  - Rung 5 (visual summaries):
+    - stage2/frw_corridor_analysis/src/plot_frw_corridor_families_v1.py
+    - Uses phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv to
+      generate:
+      - stage2/frw_corridor_analysis/outputs/figures/
+        stage2_frw_corridor_family_theta_hist_v1.pdf
+        (theta histograms for the main FRW families), and
+      - stage2/frw_corridor_analysis/outputs/figures/
+        stage2_frw_corridor_family_omega_lambda_scatter_v1.pdf
+        (theta–omega_lambda scatter, colored by family).
+- Sanity:
+  - All family counts in rungs 3–5 match the Phase 4 masks and each other:
+    F1=1016, F2=63, F3=1186, F4=154, F5=40, F6=0 over 2048 grid points.
+  - Data flag F6_DATA_OK remains identically false (no external FRW
+    distance data yet), consistent with the current Phase 4 configuration.
+- Status:
+  - Stage 2 FRW corridor rungs 1–5 are complete and remain strictly
+    downstream of Phase 4 artifacts (no feedback into Phase 4).
+  - These results are candidates for future promotion into either:
+    - a lightweight addition to Phase 5, or
+    - a dedicated downstream Stage 2 / Phase 6 FRW-focused paper,
+    depending on later stability and interpretability checks.
