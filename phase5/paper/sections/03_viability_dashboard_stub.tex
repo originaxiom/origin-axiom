@@ -94,3 +94,16 @@ entry, with optional enrichment for the external FRW diagnostics
 purely program-level: it does not introduce any new scores or
 likelihoods, but it makes the interface state easy to inspect and
 compare across repositories and commits.
+
+At Rung~4, we supplement the Markdown dashboard with a simple sanity
+table and associated figure. The script
+\texttt{make\_rung4\_sanity\_table\_v1.py} reads the interface summary
+JSON and emits a CSV
+(\texttt{phase5\_rung4\_sanity\_table\_v1.csv}) that lists, for each
+configured entry, its key, relative path, existence flag, file size, and
+any external-status metadata. This CSV is then visualized as a
+horizontal bar plot
+(\texttt{phase5\_interface\_sanity\_v1.png}, treated as a non-versioned
+artifact). These diagnostics remain purely program-level: they are
+designed to make the interface wiring inspectable without adding new
+physics or modifying upstream results.

@@ -60,3 +60,20 @@ This log tracks Phase 5–specific work. It complements the root
   - optional annotation for external-status flags.
 - This provides a one-glance visual sanity panel for the Phase 5
   interface contract without touching upstream physics or fits.
+
+### [2026-01-08] Phase 5 — Rung 4: interface sanity table and figure
+
+- Added a small Phase 5 sanity script:
+  - \`phase5/src/phase5/make_rung4_sanity_table_v1.py\`.
+- The script consumes the Phase 5 interface summary
+  (\`phase5_interface_v1_summary.json\`) and emits a compact CSV:
+  - \`phase5/outputs/tables/phase5_rung4_sanity_table_v1.csv\`.
+- The CSV is then visualized as a horizontal bar plot:
+  - \`phase5/outputs/figures/phase5_interface_sanity_v1.png\` (not tracked in git).
+- Each row corresponds to one configured interface entry and records:
+  - phase/section key, relative path, existence flag, file size, and any
+    external-status metadata where available.
+- This rung remains purely program-level:
+  - it checks that all Phase 3/4 inputs and the optional external FRW
+    distance file are present and wired through the interface, without
+    introducing new physics, modeling, or likelihoods.
