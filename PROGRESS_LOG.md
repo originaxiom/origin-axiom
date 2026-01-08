@@ -2872,3 +2872,22 @@ does not yet promote any new claims into the locked phases.
       - one row per family (F1–F5) with nearest-grid alignment to the project’s special value θ\* = φ^φ ≈ 2.1784575679  
       - columns include `theta_star`, `theta_closest`, `abs_delta`, `index_closest`, optional physical diagnostics (`omega_lambda_closest`, `E_vac_closest`, `age_Gyr_closest`), and basic occupancy stats (`n_true`, `frac_of_grid`).  
   - Status: **Complete.** This rung remains purely diagnostic and downstream of Phase 4, providing a geometric map of how each FRW corridor family sits in θ and how θ\* aligns with them, without feeding back into any Phase 3–5 claims.
+
+---
+
+### 2026-01-09 – Stage 2: FRW corridor documentation & promotion gate
+
+- Consolidated Stage 2 FRW corridor work (Rungs 1–9) into a local axis
+  README:
+  - `stage2/frw_corridor_analysis/README_FRW_CORRIDORS_v1.md`
+  summarizing inputs, rungs, structural findings, and current limits on
+  interpretation.
+- Introduced a formal **FRW Corridor Promotion Gate**:
+  - `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`
+  specifying conditions under which FRW corridor diagnostics may be
+  promoted into phase papers (data-backed, robustness, clear claims,
+  reproducibility).
+- Updated `docs/FUTURE_WORK_AND_ROADMAP.md` to reference the Stage 2 FRW
+  axis and to record that, as of this date, FRW corridor results remain
+  Stage 2 exploratory diagnostics, not phase-level claims.
+

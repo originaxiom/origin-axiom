@@ -146,3 +146,24 @@ Future work should:
 
 This way, the origin-axiom program can grow without losing its internal
 coherence or auditability.
+
+---
+
+### Stage 2 – FRW corridor axis (Rungs 1–9, doc rung)
+
+- Implemented `stage2/frw_corridor_analysis` as a downstream axis that
+  consumes Phase 4 FRW masks and corridors, defining a small set of FRW
+  “families” (F1–F6) and testing their geometric properties on the θ-grid.
+- Rungs 1–9 establish:
+  - basic inventory of Phase 4 FRW sources,
+  - boolean census of masks,
+  - family definitions (viable, LCDM-like, toy corridor, intersections),
+  - overlap matrix between families,
+  - contiguity, stride robustness, and smoothing robustness,
+  - θ\* alignment diagnostics.
+- A local README documents this axis:
+  - `stage2/frw_corridor_analysis/README_FRW_CORRIDORS_v1.md`
+- Promotion of any FRW corridor result into phase papers is gated by:
+  - `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`
+  and is **not yet permitted** as of 2026-01-09.
+
