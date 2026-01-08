@@ -2,7 +2,7 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cd "${REPO_ROOT}"
+cd "$REPO_ROOT"
 
 echo "==> Running Phase 0 gate..."
 scripts/phase0_gate.sh
@@ -19,14 +19,31 @@ scripts/phase3_gate.sh
 echo "==> Running Phase 4 gate..."
 scripts/phase4_gate.sh
 
-echo "==> Running Phase 5 build (gate + paper)..."
-scripts/build_phase5_paper.sh
+echo "==> Running Phase 5 gate..."
+scripts/phase5_gate.sh
+
+# Aggregate canonical PDFs into top-level artifacts/
+ARTIFACT_DIR="$REPO_ROOT/artifacts"
+mkdir -p "$ARTIFACT_DIR"
+
+for phase in 0 1 2 3 4 5; do
+    src="$REPO_ROOT/phase${phase}/artifacts/origin-axiom-phase${phase}.pdf"
+    dst="$ARTIFACT_DIR/origin-axiom-phase${phase}.pdf"
+
+    if [[ -f "$src" ]]; then
+        cp "$src" "$dst"
+        echo "[build_all_papers] Copied phase${phase} -> artifacts/$(basename "$dst")"
+    else
+        echo "[build_all_papers] WARNING: missing artifact: $src" >&2
+    fi
+done
 
 echo
-echo "If all gates reported OK, canonical PDFs should now be at:"
-echo "  phase0/artifacts/origin-axiom-phase0.pdf      (if gate exists)"
-echo "  phase1/artifacts/origin-axiom-phase1.pdf      (if gate exists)"
-echo "  phase2/artifacts/origin-axiom-phase2.pdf"
-echo "  phase3/artifacts/origin-axiom-phase3.pdf"
-echo "  phase4/artifacts/origin-axiom-phase4.pdf"
-echo "  phase5/artifacts/origin-axiom-phase5.pdf"
+echo "Canonical phase PDFs are at:"
+for phase in 0 1 2 3 4 5; do
+    echo "  phase${phase}/artifacts/origin-axiom-phase${phase}.pdf"
+done
+
+echo
+echo "Aggregated copies are at:"
+ls -1 "$ARTIFACT_DIR" || true

@@ -1,13 +1,32 @@
+##############################
+# Language / OS basics
+##############################
+
 # Python
 __pycache__/
 *.pyc
 .venv/
 venv/
 
-# OS
+# macOS
 .DS_Store
 
-# LaTeX build
+# Jupyter
+.ipynb_checkpoints/
+
+# Snakemake working dirs
+**/.snakemake/
+
+# iCloud / archives
+*.icloud
+*.zip
+
+
+##############################
+# LaTeX build artifacts
+##############################
+
+# Generic LaTeX aux files (anywhere)
 *.aux
 *.bbl
 *.bcf
@@ -15,95 +34,55 @@ venv/
 *.fdb_latexmk
 *.fls
 *.log
-*.out
+*.out *.npz
 *.run.xml
-texput.log
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Snakemake
-**/.snakemake/
-
-# Phase outputs we don't want tracked
-**/outputs/runs/
-
-
-# iCloud placeholders
-*.icloud
-
-# More LaTeX build cruft
 *.toc
 *.xdv
 *.synctex.gz
+*.nav
+*.out
+*.snm
+texput.log
+
+# Per-paper main PDFs (phase0–5 and any future phase)
+# Canonical PDFs live in phaseN/artifacts/ and root artifacts/
+**/paper/main.pdf
+
+
+##############################
+# Outputs we do NOT track
+##############################
+
+# Any "runs" subtree in outputs: heavy runtime junk
+**/outputs/runs/
 
 # Phase2 test scratch (often nests its own outputs/)
 **/outputs/tests/_tmp_cfg_*/
 **/outputs/tests/**/outputs/
 
+# Extra noise under outputs: tmp/log/bak, but keep JSON/CSV/PNG/etc
+**/outputs/**/*.tmp
+**/outputs/**/*.log
+**/outputs/**/*.bak
 
-# Archives / cloud placeholders
-*.zip
-*.icloud
+# Phase 5 generated outputs are all runtime products
+phase5/outputs/*
+!phase5/outputs/.gitkeep
 
-# LaTeX extra build artifacts
-*.toc
-*.xdv
-*.synctex.gz
-*.nav
-*.snm
 
-# built artifacts
-phase0/paper/*.pdf
-phase0/paper/*.xdv
-phase0/paper/*.aux
-phase0/paper/*.bbl
-phase0/paper/*.blg
-phase0/paper/*.log
-phase0/paper/*.out
-phase0/paper/*.toc
-phase0/paper/*.fls
-phase0/paper/*.fdb_latexmk
-
-# -------------------------
-# Phase 3 (local heavy runs)
-# -------------------------
-phase3/outputs/runs/
-phase3/outputs/**/__pycache__/
-phase3/outputs/**/*.tmp
-phase3/outputs/**/*.log
-phase3/outputs/**/*.bak
-
-# If you generate intermediate LaTeX build files
-phase3/paper/**/*.aux
-phase3/paper/**/*.log
-phase3/paper/**/*.out
-phase3/paper/**/*.toc
-phase3/paper/**/*.bbl
-phase3/paper/**/*.blg
+##############################
+# Phase-specific extras
+##############################
 
 # Phase 3 local safety backups (never commit)
 phase3/fit/targets.yaml.bak.*
 
-# ---- local/editor backups (do not commit) ----
+
+##############################
+# Local/editor backup files
+##############################
+
 *.bak.*
-*~ 
+*~
 *.swp
 *.swo
-.DS_Store
-
-# Phase 3 LaTeX build artifacts (do not commit)
-phase3/paper/*.aux
-phase3/paper/*.bbl
-phase3/paper/*.blg
-phase3/paper/*.fdb_latexmk
-phase3/paper/*.fls
-phase3/paper/*.log
-phase3/paper/*.out
-phase3/paper/*.toc
-phase3/paper/*.synctex.gz
-phase3/paper/main.pdf
-
-# Phase 5 generated outputs
-phase5/outputs/*
-!phase5/outputs/.gitkeep
