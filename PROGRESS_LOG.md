@@ -2340,3 +2340,27 @@ strictly scoped.
     content of Phases 3 and 4.
   - The goal is to keep the Phase 5 paper aligned with the actual
     interface and dashboard wiring.
+
+### [2026-01-08] Phase 5 — Rung 4: interface sanity table v1
+
+- Added a Phase 5 script,
+  `phase5/src/phase5/make_rung4_sanity_table_v1.py`, which consumes the
+  existing interface summary
+  (`phase5/outputs/tables/phase5_interface_v1_summary.json`) and
+  produces a compact CSV "sanity table":
+  `phase5/outputs/tables/phase5_rung4_sanity_table_v1.csv`.
+- The table collects, for each Phase 3 / Phase 4 / external entry:
+  - `section`, `key`, `relpath`, `exists`, and `size_bytes`, and
+  - for the external FRW diagnostics row only, optional extras:
+    `ext_status`, `ext_n_rows`, and a short `ext_extra` summary of
+    simple scalar fields found in
+    `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+- This rung remains strictly program-level:
+  - no new physics,
+  - no re-interpretation or re-fitting of Phase 3 or Phase 4 outputs,
+  - and no direct reading of the raw external FRW-distance CSV beyond
+    what Phase 4 has already summarized.
+- The goal is to give collaborators a single, machine-readable snapshot
+  of what the Phase 5 interface "sees" across Phases 3/4 and the
+  external FRW diagnostics, in a way that is easy to inspect, diff, and
+  extend in later rungs.

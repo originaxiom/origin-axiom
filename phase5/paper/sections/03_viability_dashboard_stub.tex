@@ -83,3 +83,14 @@ interface contract: it reports the presence, size, and status of
 performed in Phase~5; the entry exists solely so that collaborators can
 see at a glance whether an external FRW distance dataset has been
 attached and diagnosed upstream.
+
+In addition, Rung~4 introduces a simple CSV sanity table,
+\texttt{phase5\_rung4\_sanity\_table\_v1.csv}, which is generated from
+the interface summary. Each row records the section, key, relative
+path, existence flag, and file size for a Phase~3, Phase~4, or external
+entry, with optional enrichment for the external FRW diagnostics
+(\texttt{frw\_external\_diagnostics}) drawn from
+\texttt{phase4\_F1\_frw\_external\_diagnostics.json}. This table is
+purely program-level: it does not introduce any new scores or
+likelihoods, but it makes the interface state easy to inspect and
+compare across repositories and commits.
