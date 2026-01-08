@@ -2247,3 +2247,12 @@ strictly scoped.
 - The Phase 5 paper is explicitly descriptive and meta-level: it
   documents the Phase 5 interface and program role without introducing
   new physics claims or modifying Phases 3/4.
+
+- 2026-01-08 (phase5-interface-local, Rung 3):
+  - Ran `phase5/src/phase5/make_interface_dashboard_v1.py` to generate
+    `phase5/outputs/tables/phase5_interface_dashboard_v1_summary.csv`
+    from the interface summary JSON.
+  - Updated `phase5/paper/sections/03_viability_dashboard_stub.tex` to
+    describe the current interface-level dashboard and its CSV schema,
+    keeping the scope strictly program- and structure-level with no new
+    physics claims or derived viability scores.

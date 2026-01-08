@@ -1,34 +1,76 @@
-\section{Towards a Viability Dashboard (Stub)}
-\label{sec:dashboard}
+\section{Interface-Level Viability Dashboard (Rung 2 Skeleton)}
+\label{sec:phase5-viability-dashboard}
 
-The long-term objective of Phase 5 is to provide a program-level
-\emph{viability dashboard} that pulls together:
+At this stage, the ``viability dashboard'' implemented by Phase 5 is
+deliberately minimal and purely programmatic. Its role is not to define
+new physical metrics or scores, but to present a compact, machine- and
+human-readable view of the Phase 3/4 artifacts that the interface sees
+as inputs.
+
+The script
+\begin{center}
+  \texttt{phase5/src/phase5/make\_interface\_dashboard\_v1.py}
+\end{center}
+takes as input the interface summary JSON produced by Rung~0,
+\begin{center}
+  \texttt{phase5/outputs/tables/phase5\_interface\_v1\_summary.json},
+\end{center}
+and emits a flattened CSV
+\begin{center}
+  \texttt{phase5/outputs/tables/phase5\_interface\_dashboard\_v1\_summary.csv}.
+\end{center}
+
+Each row of this CSV corresponds to a single entry in the interface
+configuration (for example, a Phase 3 table or a Phase 4 FRW diagnostic
+file). The columns are purely structural:
 \begin{itemize}[leftmargin=*]
-  \item mechanical binding and instability diagnostics from Phase 3,
-  \item mapping and FRW toy/probe diagnostics from Phase 4, and
-  \item (optionally) external cosmological distance data, when available
-        and appropriately documented.
+  \item \textbf{section}: a coarse label such as \texttt{phase3},
+        \texttt{phase4}, or \texttt{external};
+  \item \textbf{key}: the short identifier used in the configuration
+        (e.g.\ \texttt{mech\_baseline\_diagnostics},
+        \texttt{frw\_shape\_probe});
+  \item \textbf{relpath}: the repository-relative path, when the entry
+        corresponds to an on-disk artifact;
+  \item \textbf{exists}: a boolean indicating whether the file is
+        present on disk;
+  \item \textbf{size\_bytes}: the file size in bytes (when the file
+        exists);
+  \item \textbf{is\_path}: a flag distinguishing path-like entries from
+        purely descriptive notes;
+  \item \textbf{note}: an optional text annotation for non-path entries
+        (for example, to document that a dataset is external and
+        optional).
 \end{itemize}
 
-At this Rung--0/1 stage, the dashboard is intentionally minimal:
-\begin{enumerate}[leftmargin=*]
-  \item The interface script verifies that all required inputs are
-        present and logs their sizes.
-  \item The summary JSON provides a clear, machine-readable snapshot of
-        the repository state.
-  \item No aggregation, scoring, or visualization is yet implemented in
-        the public code or this document.
-\end{enumerate}
-
-Future rungs are expected to:
+In this Rung 2 skeleton, the dashboard is intentionally limited to
+reporting these structural facts. It does \emph{not}:
 \begin{itemize}[leftmargin=*]
-  \item define explicit, phase-aligned metrics for ``viability'' and
-        ``failure modes'',
-  \item construct compact tables or figures that summarize these metrics
-        without re-fitting or rewriting upstream results, and
-  \item attach any external data used for comparison with clear
-        provenance and reproducibility contracts.
+  \item introduce any new derived quantities or scores,
+  \item aggregate diagnostics into a single ``viability'' number, or
+  \item perform comparisons against external cosmological datasets.
 \end{itemize}
 
-This section is therefore a placeholder: it records intent and boundary
-conditions without overstating what currently exists.
+For convenience, the column structure can be summarized schematically as
+follows:
+\begin{center}
+\begin{tabular}{lllllll}
+\hline
+section & key & relpath & exists & size\_bytes & is\_path & note \\
+\hline
+\multicolumn{7}{c}{\dots rows populated by
+\texttt{make\_interface\_dashboard\_v1.py} \dots} \\
+\hline
+\end{tabular}
+\end{center}
+
+Future rungs of Phase 5 may refine this dashboard by:
+\begin{itemize}[leftmargin=*]
+  \item introducing explicit, phase-aligned summary metrics derived from
+        existing diagnostics;
+  \item adding small LaTeX tables or figures that present these metrics
+        in a compact way; and
+  \item wiring selected summary artifacts into the unified program-level
+        dashboard discussed in the planning documents.
+\end{itemize}
+Any such extensions must remain honest about what is computed where and
+must not silently re-fit or reinterpret the upstream phases.
