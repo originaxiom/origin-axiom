@@ -2204,3 +2204,19 @@ strictly scoped.
   pointing to the existing F1 sanity curve CSV.
 - Phase 5 interface v1 now reports all Phase 3/4 inputs as OK,
   with only the optional external FRW distance file marked as missing.
+
+2026-01-08 (local) – Phase 5 interface Rung 0 check
+---------------------------------------------------
+- On branch phase5-interface-local, ran:
+  python phase5/src/phase5/phase5_interface_v1.py
+- Confirmed that all required Phase 3 and Phase 4 inputs are present:
+  * phase3: mech_baseline_diagnostics, measure_stats, measure_hist,
+    instability_penalty (all OK).
+  * phase4: F1 sanity curve, shape diagnostics, FRW toy, viability,
+    LCDM probe, shape probe, corridors, data probe (all OK).
+- The only missing asset is the optional external FRW distance file
+  phase4/data/external/frw_distance_binned.csv, which is explicitly
+  documented as optional and must be handled gracefully by Phase 5.
+- This run serves as the Rung 0 sanity confirmation: Phase 5 is now
+  authorized to consume the locked Phase 3/4 pipeline outputs via
+  phase5_interface_v1, without mutating upstream phases.
