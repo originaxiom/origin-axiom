@@ -31,3 +31,20 @@ This log tracks Phase 5–specific work. It complements the root
 - Established the rule that Phase 5 must remain non-destructive with
   respect to upstream phases and must not silently rewrite them.
 
+
+2026-01-08 (local) – Rung 2: Interface dashboard v1
+---------------------------------------------------
+- Added `phase5/src/phase5/make_interface_dashboard_v1.py`, a helper
+  script that reads `phase5_interface_v1_summary.json` and generates a
+  human-readable markdown dashboard.
+- The dashboard is written to:
+  `phase5/outputs/tables/phase5_interface_dashboard_v1.md`.
+- The dashboard summarizes:
+  - Phase 3 inputs: mechanism baseline diagnostics, measure stats/hist,
+    instability penalty.
+  - Phase 4 inputs: F1 sanity, shape diagnostics, FRW toy, viability,
+    LCDM probe, shape probe, corridors, data probe (tables + masks).
+  - External inputs: clearly marks the optional FRW distance file and
+    any non-path notes entries.
+- This provides a stable, human-facing view on top of the Phase 5
+  interface, without modifying upstream phases.
