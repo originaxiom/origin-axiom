@@ -1,0 +1,44 @@
+\section{Scope and Non-Claims}
+\label{sec:scope}
+
+\subsection{Scope}
+
+The scope of Phase 5, at this skeleton stage, is purely programmatic:
+\begin{itemize}[leftmargin=*]
+  \item It reads a configuration file that specifies which Phase 3 and
+        Phase 4 outputs are required and where they live in the
+        repository.
+  \item It runs an interface script that verifies that these assets
+        exist, reports their sizes, and records this information in a
+        machine-readable summary.
+  \item It treats the Phase 3 and Phase 4 outputs as \emph{locked
+        inputs}: Phase 5 may reason about them, but does not modify or
+        regenerate them.
+\end{itemize}
+
+Concretely, the current implementation is centered on:
+\begin{itemize}[leftmargin=*]
+  \item the configuration file
+        \texttt{phase5/config/phase5\_inputs\_v1.json}, and
+  \item the summary written by
+        \texttt{phase5/src/phase5/phase5\_interface\_v1.py}, namely
+        \texttt{phase5/outputs/tables/phase5\_interface\_v1\_summary.json}.
+\end{itemize}
+
+\subsection{Non-Claims}
+
+At this rung, Phase 5 explicitly \emph{does not}:
+\begin{itemize}[leftmargin=*]
+  \item assert any new physical explanation of the cosmological
+        constant, vacuum structure, or field content;
+  \item introduce new parameter fits or change the numerical values
+        produced by Phases 3 and 4;
+  \item draw quantitative cosmological conclusions from external data
+        sources;
+  \item make any statements about observational viability beyond what is
+        already locked into the upstream phases.
+\end{itemize}
+
+All interpretive, explanatory, or phenomenological claims remain
+anchored in the earlier phases. Phase 5 is an interface and program
+layer, not a new theoretical rung.

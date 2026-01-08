@@ -1,0 +1,34 @@
+\section{Towards a Viability Dashboard (Stub)}
+\label{sec:dashboard}
+
+The long-term objective of Phase 5 is to provide a program-level
+\emph{viability dashboard} that pulls together:
+\begin{itemize}[leftmargin=*]
+  \item mechanical binding and instability diagnostics from Phase 3,
+  \item mapping and FRW toy/probe diagnostics from Phase 4, and
+  \item (optionally) external cosmological distance data, when available
+        and appropriately documented.
+\end{itemize}
+
+At this Rung--0/1 stage, the dashboard is intentionally minimal:
+\begin{enumerate}[leftmargin=*]
+  \item The interface script verifies that all required inputs are
+        present and logs their sizes.
+  \item The summary JSON provides a clear, machine-readable snapshot of
+        the repository state.
+  \item No aggregation, scoring, or visualization is yet implemented in
+        the public code or this document.
+\end{enumerate}
+
+Future rungs are expected to:
+\begin{itemize}[leftmargin=*]
+  \item define explicit, phase-aligned metrics for ``viability'' and
+        ``failure modes'',
+  \item construct compact tables or figures that summarize these metrics
+        without re-fitting or rewriting upstream results, and
+  \item attach any external data used for comparison with clear
+        provenance and reproducibility contracts.
+\end{itemize}
+
+This section is therefore a placeholder: it records intent and boundary
+conditions without overstating what currently exists.

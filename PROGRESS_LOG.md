@@ -2235,3 +2235,15 @@ strictly scoped.
     is required to handle gracefully.
 - Phase 5 is now structurally integrated into the gate system without
   mutating upstream phases, ready for Rung 1 design work.
+
+2026-01-08 (local) — Phase 5 paper Rung 1 skeleton
+--------------------------------------------------
+- Created a minimal, self-contained LaTeX skeleton for the Phase 5 paper
+  under phase5/paper/.
+- Defined sections for preamble, scope and non-claims, interface
+  contract, a stub viability dashboard, and limitations/next-rungs.
+- Added stub appendices for interface claims and reproducibility notes,
+  and a local Reference.bib.
+- The Phase 5 paper is explicitly descriptive and meta-level: it
+  documents the Phase 5 interface and program role without introducing
+  new physics claims or modifying Phases 3/4.

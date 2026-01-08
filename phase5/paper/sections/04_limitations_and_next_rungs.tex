@@ -1,0 +1,42 @@
+\section{Limitations and Next Rungs}
+\label{sec:limitations}
+
+\subsection{Limitations}
+
+The current Phase 5 implementation is intentionally narrow:
+\begin{itemize}[leftmargin=*]
+  \item It does not yet integrate into the unified paper build pipeline
+        as a canonical Phase 5 PDF artifact.
+  \item It does not present numerical results, plots, or summary
+        statistics beyond the raw interface diagnostics.
+  \item It does not define new claims, hypotheses, or falsifiable
+        predictions on top of Phases 3 and 4.
+  \item It does not ship with external datasets; the FRW distance file,
+        if used, is explicitly optional and may be absent from a clean
+        clone of the repository.
+\end{itemize}
+
+These limitations are consistent with the role of this document as a
+skeleton: it is preferable to under-claim and then move carefully to
+stronger rungs.
+
+\subsection{Next Rungs (Conceptual)}
+
+Possible next rungs for Phase 5 include:
+\begin{itemize}[leftmargin=*]
+  \item wiring a Phase 5 paper build into a dedicated gate script and, if
+        appropriate, into the unified build driver;
+  \item adding a small set of well-motivated summary tables that pull
+        together Phase 3 and Phase 4 diagnostics without duplicating
+        their internal derivations;
+  \item defining a minimal, explicit set of ``Phase 5 claims'' that are
+        purely about program structure and reproducibility (for example,
+        that a particular version of the repository exposes a complete
+        and self-consistent contract between phases);
+  \item extending the interface to support multiple mapping families or
+        vacuum constructions while keeping the contracts explicit and
+        versioned.
+\end{itemize}
+
+Each of these steps should be introduced via its own rung, with clear
+diffs and explicit documentation of what changed and why.

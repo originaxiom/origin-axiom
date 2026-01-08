@@ -1,0 +1,43 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{enumitem}
+
+\title{Origin-Axiom Phase 5:\\
+Program Interface and Viability Dashboard (Rung 0--1 Skeleton)}
+\author{Origin-Axiom Collaboration}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Phase 5 is a meta-level program phase. It does not introduce new physics
+assumptions, but instead formalizes an interface over the locked outputs
+of Phases 3 and 4 and prepares a viability dashboard that can be
+extended in later rungs. This skeleton document records the scope,
+non-claims, and interface contracts used by the Phase 5 code, and it
+provides placeholders for future diagnostics and comparisons once
+additional data and analysis are brought online.
+\end{abstract}
+
+\tableofcontents
+
+\input{sections/00_preamble}
+\input{sections/01_scope_and_nonclaims}
+\input{sections/02_interface_contract}
+\input{sections/03_viability_dashboard_stub}
+\input{sections/04_limitations_and_next_rungs}
+
+\bibliographystyle{unsrt}
+\bibliography{Reference}
+
+\appendix
+\input{appendix/A_interface_claims_table_stub}
+\input{appendix/B_reproducibility_stub}
+
+\end{document}
