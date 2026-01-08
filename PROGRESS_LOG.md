@@ -2382,3 +2382,20 @@ strictly scoped.
     inspectable.
 - The PNG lives under `phase5/outputs/figures/` and is not tracked in
   git, consistent with the treatment of other generated artifacts.
+
+### [2026-01-08] Phase 5 — R5: remove gate–paper recursion and hook into global build
+
+- Fixed a recursion bug between `scripts/phase5_gate.sh` and
+  `scripts/build_phase5_paper.sh`:
+  - Restored `phase5_gate.sh` to run only the Phase 5 interface
+    (no paper build, no artifact).
+  - Left `build_phase5_paper.sh` as the place that runs the Phase 5 gate
+    and rebuilds the Phase 5 paper + canonical artifact.
+- Updated `scripts/build_all_papers.sh`:
+  - Phases 0–4 still use their gate scripts.
+  - Phase 5 is now invoked via `scripts/build_phase5_paper.sh`, which
+    runs the Phase 5 gate and refreshes
+    `phase5/artifacts/origin-axiom-phase5.pdf`.
+- This rung is purely infrastructural: no physics, no changes to
+  Phase 3/4 numerics, only a correction to the program-level build
+  graph to avoid infinite recursion.
