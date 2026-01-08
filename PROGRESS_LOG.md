@@ -2681,3 +2681,179 @@ This script:
   - This rung is descriptive only and does not modify any Phase 4/5 logic or
     claims.
 
+
+---
+
+### Stage 2 – FRW corridor analysis (Rungs 1–8)
+
+**Context.** Built a Stage 2 analysis chain that stays strictly downstream of
+Phase 4 FRW artifacts, using the fixed θ-grid masks from
+`phase4/outputs/tables/phase4_F1_frw_*_mask.csv`. No feedback into Phase 4 or
+Phase 5; this is exploratory scaffolding for a possible FRW-focused follow-up.
+
+- **Rung 1 – Source table inventory.**  
+  Added `stage2/frw_corridor_analysis/src/analyze_frw_corridor_v1.py`, which
+  checks for the presence and shape of the four FRW mask tables
+  (`frw_viability_mask`, `frw_lcdm_probe_mask`, `frw_shape_probe_mask`,
+  `frw_data_probe_mask`) and writes a small provenance table to  
+  `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung1_sources_v1.csv`.
+
+- **Rung 2 – Boolean census.**  
+  Added `analyze_frw_corridor_bool_census_v1.py`, which scans the four mask
+  tables for “boolean-like” columns and counts `(n_true, n_false, n_na)` for
+  each. Results are stored in  
+  `stage2/.../stage2_frw_corridor_rung2_bool_census_v1.csv`. This confirms that
+  core flags such as `frw_viable`, `lcdm_like`, `in_toy_corridor`,
+  `shape_and_viable`, `shape_and_lcdm`, and `data_ok` behave as clean {0,1}
+  indicators over the θ-grid.
+
+- **Rung 3 – Family definitions.**  
+  Added `analyze_frw_corridor_families_v1.py`, which promotes five FRW “families”
+  on the fixed θ-grid:
+  F1_FRW_VIABLE, F2_LCDM_LIKE, F3_TOY_CORRIDOR,
+  F4_CORRIDOR_AND_VIABLE (intersection), and
+  F5_CORRIDOR_AND_LCDM (intersection).  
+  For each family, the rung records `n_theta` and `frac_of_grid` to  
+  `stage2/.../stage2_frw_corridor_rung3_families_v1.csv`. This makes the basic
+  size of each family explicit (≈50% viable, ≈3% LCDM-like, etc.).
+
+- **Rung 4 – Family overlap matrix.**  
+  Added `analyze_frw_corridor_family_overlap_v1.py`, which constructs a
+  pairwise overlap table between the F1–F5 families (Jaccard-like overlaps and
+  conditional fractions). Output lives at  
+  `stage2/.../stage2_frw_corridor_rung4_family_overlap_v1.csv`. This quantifies
+  how much the “LCDM-like” set sits inside (or outside) the toy corridor and
+  viability sets, instead of leaving that structure implicit.
+
+- **Rung 5 – Basic family figures (θ and ΩΛ views).**  
+  Added `plot_frw_corridor_families_v1.py`, which:
+  - makes a simple θ-histogram showing how the F1–F5 families occupy the
+    θ-grid, and
+  - produces an ΩΛ vs θ view using the Phase 4 `shape_probe_mask` table.  
+  Figures are written as PDFs to  
+  `stage2/frw_corridor_analysis/outputs/figures/`, e.g.
+  `stage2_frw_corridor_family_theta_hist_v1.pdf` and
+  `stage2_frw_corridor_family_omega_lambda_scatter_v1.pdf`.  
+  These figures are currently **Stage-2 only** and are not wired into any phase
+  paper.
+
+- **Rung 6 – Contiguity of families in θ.**  
+  Added `analyze_frw_corridor_contiguity_v1.py`, which measures how many
+  contiguous θ-segments each family decomposes into, and what fraction of the
+  grid each segment family covers. Results are stored in  
+  `stage2/.../stage2_frw_corridor_rung6_contiguity_v1.csv`. This checks whether
+  viable / LCDM-like sets are scattered speckles or coherent intervals on the
+  current θ-grid (they are coherent intervals).
+
+- **Rung 7 – Stride-sampling robustness.**  
+  Added `analyze_frw_corridor_stride_robustness_v1.py`, which sub-samples the
+  θ-grid with strides {1, 2, 4, 8} and recomputes family occupancy and segment
+  counts on each subgrid. Results go to  
+  `stage2/.../stage2_frw_corridor_rung7_stride_robustness_v1.csv`. For all
+  F1–F5 families, the fraction of “true” points on the subgrid remains stable
+  as the stride increases, indicating that the families are not artifacts of
+  single isolated θ points.
+
+- **Rung 8 – Local θ-smoothing robustness.**  
+  Added `analyze_frw_corridor_smoothing_v1.py`, which applies 1D majority
+  filters (window sizes 3 and 5) along the θ-index to each F1–F5 family and
+  compares:
+  `n_true`, `frac_true`, number of θ-segments, and Jaccard similarity before
+  and after smoothing. Output is written to  
+  `stage2/.../stage2_frw_corridor_rung8_smoothing_v1.csv`. On the current
+  Phase 4 θ-grid, all families remain exactly unchanged (Jaccard = 1.0, same
+  occupancy and segment counts), i.e. the FRW corridor / LCDM-like structure is
+  robust to mild local smoothing and is not a single-point noise artifact.
+
+At this rung, Stage-2 FRW corridor analysis is a self-contained, reproducible
+exploration downstream of Phase 4. It is a candidate source of figures and
+diagnostics for a future FRW-focused extension (Phase 6 / Stage-2 paper), but
+does not yet promote any new claims into the locked phases.
+
+---
+
+### Stage 2 – FRW corridor analysis (Rungs 1–8)
+
+**Context.** Built a Stage 2 analysis chain that stays strictly downstream of
+Phase 4 FRW artifacts, using the fixed θ-grid masks from
+`phase4/outputs/tables/phase4_F1_frw_*_mask.csv`. No feedback into Phase 4 or
+Phase 5; this is exploratory scaffolding for a possible FRW-focused follow-up.
+
+- **Rung 1 – Source table inventory.**  
+  Added `stage2/frw_corridor_analysis/src/analyze_frw_corridor_v1.py`, which
+  checks for the presence and shape of the four FRW mask tables
+  (`frw_viability_mask`, `frw_lcdm_probe_mask`, `frw_shape_probe_mask`,
+  `frw_data_probe_mask`) and writes a small provenance table to  
+  `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung1_sources_v1.csv`.
+
+- **Rung 2 – Boolean census.**  
+  Added `analyze_frw_corridor_bool_census_v1.py`, which scans the four mask
+  tables for “boolean-like” columns and counts `(n_true, n_false, n_na)` for
+  each. Results are stored in  
+  `stage2/.../stage2_frw_corridor_rung2_bool_census_v1.csv`. This confirms that
+  core flags such as `frw_viable`, `lcdm_like`, `in_toy_corridor`,
+  `shape_and_viable`, `shape_and_lcdm`, and `data_ok` behave as clean {0,1}
+  indicators over the θ-grid.
+
+- **Rung 3 – Family definitions.**  
+  Added `analyze_frw_corridor_families_v1.py`, which promotes five FRW “families”
+  on the fixed θ-grid:
+  F1_FRW_VIABLE, F2_LCDM_LIKE, F3_TOY_CORRIDOR,
+  F4_CORRIDOR_AND_VIABLE (intersection), and
+  F5_CORRIDOR_AND_LCDM (intersection).  
+  For each family, the rung records `n_theta` and `frac_of_grid` to  
+  `stage2/.../stage2_frw_corridor_rung3_families_v1.csv`. This makes the basic
+  size of each family explicit (≈50% viable, ≈3% LCDM-like, etc.).
+
+- **Rung 4 – Family overlap matrix.**  
+  Added `analyze_frw_corridor_family_overlap_v1.py`, which constructs a
+  pairwise overlap table between the F1–F5 families (Jaccard-like overlaps and
+  conditional fractions). Output lives at  
+  `stage2/.../stage2_frw_corridor_rung4_family_overlap_v1.csv`. This quantifies
+  how much the “LCDM-like” set sits inside (or outside) the toy corridor and
+  viability sets, instead of leaving that structure implicit.
+
+- **Rung 5 – Basic family figures (θ and ΩΛ views).**  
+  Added `plot_frw_corridor_families_v1.py`, which:
+  - makes a simple θ-histogram showing how the F1–F5 families occupy the
+    θ-grid, and
+  - produces an ΩΛ vs θ view using the Phase 4 `shape_probe_mask` table.  
+  Figures are written as PDFs to  
+  `stage2/frw_corridor_analysis/outputs/figures/`, e.g.
+  `stage2_frw_corridor_family_theta_hist_v1.pdf` and
+  `stage2_frw_corridor_family_omega_lambda_scatter_v1.pdf`.  
+  These figures are currently **Stage-2 only** and are not wired into any phase
+  paper.
+
+- **Rung 6 – Contiguity of families in θ.**  
+  Added `analyze_frw_corridor_contiguity_v1.py`, which measures how many
+  contiguous θ-segments each family decomposes into, and what fraction of the
+  grid each segment family covers. Results are stored in  
+  `stage2/.../stage2_frw_corridor_rung6_contiguity_v1.csv`. This checks whether
+  viable / LCDM-like sets are scattered speckles or coherent intervals on the
+  current θ-grid (they are coherent intervals).
+
+- **Rung 7 – Stride-sampling robustness.**  
+  Added `analyze_frw_corridor_stride_robustness_v1.py`, which sub-samples the
+  θ-grid with strides {1, 2, 4, 8} and recomputes family occupancy and segment
+  counts on each subgrid. Results go to  
+  `stage2/.../stage2_frw_corridor_rung7_stride_robustness_v1.csv`. For all
+  F1–F5 families, the fraction of “true” points on the subgrid remains stable
+  as the stride increases, indicating that the families are not artifacts of
+  single isolated θ points.
+
+- **Rung 8 – Local θ-smoothing robustness.**  
+  Added `analyze_frw_corridor_smoothing_v1.py`, which applies 1D majority
+  filters (window sizes 3 and 5) along the θ-index to each F1–F5 family and
+  compares:
+  `n_true`, `frac_true`, number of θ-segments, and Jaccard similarity before
+  and after smoothing. Output is written to  
+  `stage2/.../stage2_frw_corridor_rung8_smoothing_v1.csv`. On the current
+  Phase 4 θ-grid, all families remain exactly unchanged (Jaccard = 1.0, same
+  occupancy and segment counts), i.e. the FRW corridor / LCDM-like structure is
+  robust to mild local smoothing and is not a single-point noise artifact.
+
+At this rung, Stage-2 FRW corridor analysis is a self-contained, reproducible
+exploration downstream of Phase 4. It is a candidate source of figures and
+diagnostics for a future FRW-focused extension (Phase 6 / Stage-2 paper), but
+does not yet promote any new claims into the locked phases.
