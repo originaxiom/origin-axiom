@@ -1,0 +1,110 @@
+\section{Mechanism design: toy vacuum and global amplitude}
+\label{sec:phase3-mech}
+
+The Phase~3 mechanism work introduces an explicit toy model of a ``vacuum''
+ensemble and a global amplitude observable. The goal is not to claim a
+realistic microscopic description of the quantum vacuum, but to define a
+clean laboratory in which the non-cancellation floor can be stated,
+implemented, and tested in a way that is compatible with the Phase~0
+corridor/ledger infrastructure.
+
+\subsection{Toy vacuum ensemble}
+
+We model the vacuum as a finite ensemble of complex modes
+\(\{z_k(\theta)\}_{k=1}^{N}\) with phase structure
+\begin{equation}
+  z_k(\theta) \;=\; \exp\!\bigl(i(\alpha_k + \sigma_k \theta)\bigr),
+\end{equation}
+where \(\alpha_k \in [0,2\pi)\) are fixed phase offsets and
+\(\sigma_k \in \{1,2,3,4\}\) are small positive integers that control
+how each mode winds as the global phase parameter \(\theta\) is varied.
+For the present rung we use a single deterministic configuration
+\begin{equation}
+  \mathrm{cfg}_0 \;=\; \{\alpha_k, \sigma_k\}_{k=1}^{N},
+\end{equation}
+constructed by sampling \(\alpha_k\) and \(\sigma_k\) from simple
+distributions with a fixed RNG seed. This makes all derived quantities
+fully reproducible while still providing a non-trivial interference
+pattern as \(\theta\) is scanned.
+
+The toy vacuum is therefore specified by a configuration object
+\texttt{VacuumConfig} (stored in memory and, if needed, on disk), which
+collects the arrays of \(\alpha_k\) and \(\sigma_k\). Later rungs may
+introduce additional configurations (e.g.\ higher-mode ensembles or
+variants with different winding distributions) as part of robustness
+checks, but all Phase~3 mechanism claims in this paper are scoped to
+the baseline configuration \(\mathrm{cfg}_0\).
+
+\subsection{Global amplitude observable}
+
+Given a configuration \(\mathrm{cfg}_0\) and a value of \(\theta\), we
+define the unconstrained global amplitude \(A_0(\theta)\) as the
+modulus of the ensemble average
+\begin{equation}
+  A_0(\theta) \;=\; \Bigl\lvert \frac{1}{N}
+  \sum_{k=1}^{N} z_k(\theta) \Bigr\rvert.
+\end{equation}
+In code, this is implemented as a function
+\texttt{amplitude\_unconstrained(theta, cfg)} together with a grid
+scanner \texttt{scan\_amplitude\_unconstrained(cfg, ...)} that evaluates
+\(A_0(\theta)\) on a regular lattice of \(\theta\) values in
+\([0,2\pi)\).
+
+The observable \(A_0(\theta)\) plays two roles:
+\begin{enumerate}
+  \item It acts as the reference against which a floor-enforced
+        amplitude will be compared in binding vs.\ non-binding regimes.
+  \item It provides a concrete, non-trivial test bed for exploring how
+        a global non-cancellation constraint interacts with an ensemble
+        of interfering modes as \(\theta\) is varied.
+\end{enumerate}
+At this stage we make no claim that \(A_0(\theta)\) is directly
+identifiable with a physical vacuum observable; it is a diagnostic
+quantity in a controlled toy model.
+
+\subsection{Non-cancellation floor and binding diagnostics}
+
+The Origin Axiom asserts that the global amplitude cannot cross below a
+strictly positive floor \(\epsfloor > 0\). In the language of this toy
+vacuum, the floor-enforced amplitude \(A(\theta)\) is defined by
+\begin{equation}
+  A(\theta) \;=\; \max\!\bigl(A_0(\theta), \epsfloor\bigr),
+\end{equation}
+so that the unconstrained dynamics are recovered whenever
+\(A_0(\theta) \ge \epsfloor\), and the floor becomes active only in the
+sub-region where \(A_0(\theta) < \epsfloor\).
+
+In code, this is implemented by the function
+\texttt{amplitude\_with\_floor(theta, cfg, epsfloor)} together with a
+grid-level helper \texttt{scan\_amplitude\_with\_floor} that returns:
+\begin{itemize}
+  \item the grid of \(\theta\) values,
+  \item the unconstrained amplitudes \(A_0(\theta)\),
+  \item the floor-enforced amplitudes \(A(\theta)\),
+  \item a boolean mask indicating where the floor is active, and
+  \item a small diagnostics dictionary with summary statistics.
+\end{itemize}
+
+The diagnostics are designed to support a binding certificate in the
+sense of Phase~0. In particular, for a chosen \(\epsfloor\) and grid we
+record:
+\begin{itemize}
+  \item \(\min_\theta A_0(\theta)\) and \(\max_\theta A_0(\theta)\),
+  \item the fraction of grid points where \(A_0(\theta) < \epsfloor\),
+  \item the value of \(\epsfloor\) itself.
+\end{itemize}
+A configuration is said to be in a \emph{binding regime} if the floor
+is active on a non-zero fraction of the grid while still leaving
+regions where the unconstrained dynamics are visible. This provides
+the raw material for later rungs to construct an explicit binding
+certificate: a quantitative demonstration that the presence of the
+floor changes the dynamics in a diagnostically relevant way, rather
+than being an inert constraint.
+
+At this rung we do not yet fix a canonical value of \(\epsfloor\) or
+tie the toy vacuum directly to cosmological observables. The purpose
+is to define clean, separation-of-concerns interfaces: an
+unconstrained amplitude \(A_0(\theta)\), a floor-enforced amplitude
+\(A(\theta)\), and well-specified diagnostics that future rungs can
+use to generate tables, figures, and ultimately the
+\(\theta\)-filter artifact required by the Phase~0 contract.

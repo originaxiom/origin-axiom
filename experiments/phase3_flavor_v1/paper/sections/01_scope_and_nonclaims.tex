@@ -1,0 +1,50 @@
+\section{Introduction}
+\label{sec:introduction}
+
+\subsection{Role of Phase 3 in the program}
+Phase 3 is a \emph{ledger-compatible add-on}: it extracts a candidate value and uncertainty interval for
+\texorpdfstring{$\theta$}{theta} by fitting a fixed, explicitly stated ansatz to frozen external
+flavor-sector targets (CKM and PMNS CP-phase information). The Phase 3 deliverable is not the internal
+fit machinery; it is the exported, schema-stable artifact
+\texttt{phase\_03\_theta\_filter.json}, designed to be consumable by the Phase~0 corridor/ledger
+aggregation without requiring Phase 3 internals.
+
+Concretely:
+\begin{itemize}
+  \item \textbf{Inputs}: external target snapshot encoded in \texttt{phase3/fit/targets.yaml}
+        (treated as frozen for this Phase 3 run) and the fixed ansatz implementation.
+  \item \textbf{Outputs}: (i) fit summary and diagnostics tables, (ii) figures, (iii) this PDF report,
+        and (iv) the ledger artifact \texttt{phase\_03\_theta\_filter.json}.
+\end{itemize}
+
+\subsection{What Phase 3 does and does not establish}
+Phase 3 establishes only the following narrow fact: under the Phase 3 baseline ansatz and frozen targets,
+there exists a best-fit \texorpdfstring{$\theta$}{theta} and an uncertainty interval produced by an explicit,
+reproducible scan.
+
+\paragraph{Non-claims (explicit).}
+Phase 3 does \emph{not} claim:
+\begin{itemize}
+  \item a derivation of a unique fundamental constant \texorpdfstring{$\theta_\star$}{theta-star};
+  \item a proof that the Origin Axiom is correct, complete, or uniquely determined;
+  \item a reduction of Standard Model free parameters, or a predictive theory of the CKM/PMNS structures;
+  \item a measurement-level global fit (this is not a replacement for PDG/NuFIT analyses);
+  \item robustness to arbitrary re-parameterizations or model classes beyond the declared ansatz family.
+\end{itemize}
+
+\subsection{Success criteria (Phase 1/2 style contract)}
+A Phase 3 run is considered successful iff:
+\begin{itemize}
+  \item the workflow gate reproduces all declared artifacts end-to-end;
+  \item the bundle manifest lists exactly the declared inputs/outputs with hashes and sizes;
+  \item the paper claims remain within the narrow scope above (no implied derivation or discovery).
+\end{itemize}
+
+\paragraph{Ledger-level outcome.}
+At the level of the Phase~0 corridor ledger, Phase~3 contributes only a filter: it
+may further narrow the corridor defined by earlier phases or, in some configurations,
+eliminate it entirely. In the baseline configuration documented here (ansatz locked in
+\texttt{phase3/fit/targets.yaml} with the stated CKM/PMNS snapshot), the Phase~0
+ledger reports that the combined corridor is empty once the Phase~3 filter is applied.
+We interpret this as a negative result for that specific ansatz/target combination, not
+as a proof that no Origin-Axiom-compatible corridor exists.

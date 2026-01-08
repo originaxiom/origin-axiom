@@ -31,6 +31,14 @@ This repository is organized as a phased program. Each phase is allowed to make 
 
 **Canonical artifacts:** Phase 2 paper + canonical figures in `phase2/outputs/figures/`.
 
+
+## Phase 3 — Flavor-sector calibration add-on
+**Purpose:** calibrate a candidate theta corridor against CKM/PMNS phases under a fixed ansatz, producing a theta filter that is ledger-compatible without claiming an Origin Axiom proof or a fundamental value of theta-star.
+
+**Allowed claim types:** corridor-compatible fit-interval statements tied to a declared ansatz and frozen CKM/PMNS snapshots (no OA derivation, no SM parameter reduction).
+
+**Canonical artifacts:** Phase 3 paper (`phase3/artifacts/origin-axiom-phase3.pdf`), fit summaries in `phase3/outputs/tables/`, and the phase-03 theta filter in `phase3/outputs/theta_filter/phase_03_theta_filter.json`.
+
 ## Next phases (placeholders)
 Future phases must:
 1) declare scope + non-claims,

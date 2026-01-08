@@ -1,0 +1,91 @@
+\section{Introduction}
+\label{sec:phase3-introduction}
+
+Phase~3 of the \OA{} program, in its current ``mechanism'' incarnation,
+has a deliberately narrow role. It is not a general calibration of
+\(\theta\) against external data, and it is not a claim to have
+derived a canonical value \(\theta_\star\). Instead, Phase~3 serves as
+a bridge between the abstract non-cancellation principle articulated
+in Phase~0 and the concrete toy implementations constructed in
+Phases~1 and~2.
+
+The central question of this phase is structural rather than
+phenomenological:
+\begin{quote}
+  Given a global amplitude observable \(A_0(\theta)\) on a toy vacuum,
+  can we implement a strictly positive non-cancellation floor
+  \(\epsfloor > 0\) in such a way that the floor is both
+  numerically well-behaved and \emph{dynamically non-trivial}?
+\end{quote}
+More colloquially: is there a regime in which the floor meaningfully
+changes the behavior of the toy vacuum, rather than being either a
+purely formal constraint or an invisible perturbation?
+
+To answer this, Phase~3 introduces:
+\begin{itemize}
+  \item a deterministic toy vacuum ensemble, defined as a collection
+        of complex modes with phases that depend linearly on a global
+        phase parameter \(\theta\);
+  \item a global observable \(A_0(\theta)\) given by the modulus of
+        the ensemble average, which serves as a stand-in for a vacuum
+        ``amplitude'' in the sense of the Origin Axiom; and
+  \item a floor-enforced amplitude \(A(\theta) = \max(A_0(\theta),
+        \epsfloor)\), together with diagnostics that quantify how the
+        floor modifies the distribution of \(A_0(\theta)\) over
+        \(\theta \in [0, 2\pi)\).
+\end{itemize}
+
+The present paper is intentionally modest in scope. It does \emph{not}
+attempt to identify \(\theta\) with any specific physical phase, nor
+does it tie \(A(\theta)\) directly to observed vacuum energy or other
+data. Instead, it aims to:
+\begin{enumerate}
+  \item define a clean, reproducible toy vacuum mechanism that exposes
+        both unconstrained and floor-enforced observables;
+  \item demonstrate the existence of a \emph{binding regime} in which
+        the floor is active on a non-zero fraction of the \(\theta\)
+        grid while leaving regions where the unconstrained dynamics
+        are still visible; and
+  \item quantify the global impact of the floor on \(A(\theta)\) via
+        simple diagnostics such as mean shifts, \(L^2\) distances, and
+        binding fractions.
+\end{enumerate}
+
+This mechanism-focused Phase~3 replaces the earlier
+flavor-calibration experiment, which is preserved in
+\texttt{experiments/phase3\_flavor\_v1/} as a fully reproducible
+negative result. The archived experiment remains a valid exploratory
+add-on, but it is no longer the canonical definition of Phase~3 in
+the sense of the Phase~0 contracts.
+
+\subsection*{Claims and non-claims at the Phase 3 mechanism level}
+
+Within this mechanism-focused scope, Phase~3 claims:
+\begin{itemize}
+  \item that there exists a deterministic toy vacuum ensemble and
+        global amplitude \(A_0(\theta)\) for which a strictly positive
+        floor \(\epsfloor\) can be enforced in a numerically stable
+        way; and
+  \item that, for the baseline configuration studied here, one can
+        choose \(\epsfloor\) so that the toy vacuum enters a genuine
+        binding regime with a demonstrable global shift in the
+        amplitude distribution.
+\end{itemize}
+
+Phase~3 explicitly does \emph{not} claim:
+\begin{itemize}
+  \item that the toy vacuum is a faithful model of the real universe;
+  \item that \(\theta\) has been identified with any specific
+        physical parameter;
+  \item that a unique, canonically derived value \(\theta_\star\) has
+        been found; or
+  \item that the mechanism constructed here suffices, on its own, to
+        explain observed vacuum energy or other empirical data.
+\end{itemize}
+
+Later phases and future extensions are responsible for connecting this
+mechanism to more realistic field-theoretic models, to cosmological
+dynamics, and to empirical constraints. The role of Phase~3 is to
+ensure that the non-cancellation principle can be implemented in a
+way that is both reproducible and diagnostically meaningful, providing
+a solid mechanism-level foundation for those later steps.

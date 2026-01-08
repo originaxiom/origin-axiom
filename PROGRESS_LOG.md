@@ -1971,3 +1971,236 @@ Notes:
 
 ## 2026-01-05 — Phase 3 baseline fixed-offset locked (b_PMNS = pi)
 - Discrete offset sweep selected b_PMNS = pi as best hypothesis; locked in targets.yaml and recorded in phase3 notes.
+
+## 2026-01-07 — Phase 4: diagnostic FRW-facing mapping stub
+
+- Landed a first Phase 4 artifact in `phase4/artifacts/origin-axiom-phase4.pdf`,
+  focused on *structure* rather than physical claims.
+- Introduced the F1 mapping family, which reuses the Phase 3 vacuum mechanism
+  and quantile-based floor from
+  `phase3/outputs/tables/mech_baseline_scan_diagnostics.json` to define a
+  strictly positive scalar \(E_{\mathrm{vac}}(\theta)\) on a uniform
+  \(\theta \in [0, 2\pi)\) grid.
+- Added three diagnostic layers:
+  - an F1 sanity curve
+    (`phase4/outputs/tables/phase4_F1_sanity_curve.csv`) to check that
+    \(E_{\mathrm{vac}}(\theta)\) behaves numerically and respects the Phase 3
+    floor;
+  - F1 shape diagnostics with a *toy* \(\theta\)-corridor summarised by
+    `phase4_F1_shape_diagnostics.json` / `phase4_F1_shape_mask.csv`, used only
+    as a descriptive shape probe (not a physical corridor or \(\theta_\star\));
+  - an FRW-inspired toy module that rescales \(E_{\mathrm{vac}}(\theta)\) into a
+    proxy \(\Omega_\Lambda(\theta)\), evaluates a simple
+    \(H^2(a;\theta) = \Omega_r a^{-4} + \Omega_m a^{-3} + \Omega_\Lambda(\theta)\)
+    on a late-time scale-factor grid, and logs a per-\(\theta\) "FRW-sane" mask.
+- Recorded both the initial empty-mask outcome and the later late-time tweak of
+  the FRW toy in `phase4/FRW_TOY_DESIGN.md`, treating them as *local, toy-level*
+  positive/negative results about this particular normalisation and sanity
+  criterion, not as global statements about the axiom.
+- Wrote a dedicated limitations/scope section for Phase 4 clarifying that:
+  - F1 is a single toy mapping family,
+  - all diagnostics are grid-based and baseline-dependent,
+  - no physically justified \(\theta\)-corridor or candidate \(\theta_\star\) is
+    claimed at this phase, and
+  - any future corridor tightening, \(\theta_\star\) proposal, or data
+    calibration must live in later rungs/phases with explicit new assumptions.
+
+## 2026-01-07 — Phase 3 instability diagnostics + Phase 4 FRW probe polish
+
+- **Phase 3: toy-mechanism measure diagnostics (measure_v1)**  
+  - Implemented `phase3/src/phase3_mech/measure_v1.py`, a lightweight probe of the
+    baseline amplitude distribution \(A_0(\theta)\) using the existing
+    Phase 3 mechanism output.
+  - The script reads the baseline scan from
+    `phase3/outputs/tables/mech_baseline_scan.csv` (column `A0`), computes basic
+    summary statistics and quantiles, and writes:
+    - `phase3/outputs/tables/phase3_measure_v1_stats.json` (summary stats + eps-grid),
+    - `phase3/outputs/tables/phase3_measure_v1_hist.csv` (binned histogram).
+  - Console output now records a small eps-grid diagnostic, e.g.
+    \(\mathrm{Pr}[A_0 < \varepsilon]\) for \(\varepsilon \in \{0.005, 0.01, 0.02, 0.05\)\,
+    making explicit how often the toy ensemble wanders into the deep cancellation basin
+    near \(A_0 = 0\) under the current configuration.
+  - All of these are explicitly documented as **toy-model diagnostics only**:
+    they do **not** impose a physical floor, alter the binding experiment, or
+    introduce new corridor constraints.
+
+- **Phase 3: instability-penalty diagnostic (instability_penalty_v1)**  
+  - Implemented `phase3/src/phase3_mech/instability_penalty_v1.py`, which consumes
+    `phase3_measure_v1_stats.json` and constructs a simple “instability penalty”
+    functional over the eps-grid.
+  - The current implementation treats the measured fractions below each \(\varepsilon\)
+    threshold as a toy proxy for how heavily the mechanism samples the deep
+    cancellation basin, and aggregates them into a scalar
+    `total_penalty` (today's baseline run gives `total_penalty ≈ 22.64`).
+  - Output is written to
+    `phase3/outputs/tables/phase3_instability_penalty_v1.json` and is positioned
+    as a **non-binding diagnostic** that could be iterated in future rungs
+    (e.g. with alternative eps-grids, weights, or comparisons between mechanisms).
+
+- **Phase 3 paper + gate refresh**  
+  - Extended Section 3 (results) to briefly report the new measure/instability
+    diagnostics and emphasise their purely diagnostic, toy-model status.
+  - Updated Appendix B (reproducibility) to document:
+    - `measure_v1.py` (inputs, outputs, and console eps-grid summary),
+    - `instability_penalty_v1.py` (dependency on `phase3_measure_v1_stats.json`
+      and penalty JSON output).
+  - Rebuilt the Phase 3 paper via `scripts/phase3_gate.sh`; Level-A gate passes and
+    the canonical artifact `phase3/artifacts/origin-axiom-phase3.pdf` is up to date.
+
+- **Phase 4: F1/FRW probe clarification (Rung 1 polish)**  
+  - Clarified in the Phase 4 text that the F1 mapping
+    \(E_{\text{vac}}(\theta) = \alpha\,A(\theta)^\beta\) with baseline
+    \((\alpha, \beta) = (1, 4)\) is a **structural toy choice**, not a physical
+    identification of vacuum energy.
+  - Tightened the description of the FRW-facing diagnostics stack and the
+    “shape/ΛCDM-like” probe, making explicit that:
+    - no θ-filter is promoted to binding status,
+    - no fine-tuning claim is made,
+    - the current `frw_data_probe` remains a stub that records a structured
+      negative result when no external dataset is present.
+  - Rebuilt the Phase 4 paper via `scripts/phase4_gate.sh`; gate passes and
+    `phase4/artifacts/origin-axiom-phase4.pdf` is in sync with the code.
+
+- **Forward hook to next rung**  
+  - The new diagnostics and text changes are deliberately framed as
+    **non-binding infrastructure**: they sharpen our view of how the toy
+    mechanism explores the cancellation basin and how the FRW pipeline reacts,
+    without yet answering the central “why enforce a floor?” question.
+  - The next Phase 3 rung is expected to focus on candidate *mechanisms* for
+    non-cancellation (topological, consistency-based, or emergent), which can
+    then be tested against these diagnostics rather than extending them further.
+
+
+2026-01-07 – Phase 3 / Phase 4 Rung 1: floor diagnostics and FRW pipeline
+
+- Phase 3 mechanism paper
+  - Finalised the Rung 1 mechanism write-up and regenerated
+    \`phase3/outputs/paper/phase3_paper.pdf\` and the tracked artifact
+    \`phase3/artifacts/origin-axiom-phase3.pdf\`.
+  - Added a lightweight ensemble-measure probe via
+    \`phase3/src/phase3_mech/measure_v1.py\), which reads the baseline
+    mechanism scan (\`mech_baseline_scan.csv\`) and constructs the
+    empirical distribution of the global amplitude observable $begin:math:text$A\_0$end:math:text$.
+    The script writes
+    \`phase3/outputs/tables/phase3_measure_v1_stats.json\` and
+    \`phase3/outputs/tables/phase3_measure_v1_hist.csv\`, and prints
+    selected quantiles and fractions below illustrative $begin:math:text$\\varepsilon$end:math:text$
+    thresholds.  These are explicitly documented as **toy diagnostics**,
+    not physical floor scales or binding constraints.
+  - Added a companion instability-penalty diagnostic
+    \`phase3/src/phase3_mech/instability_penalty_v1.py\), which
+    consumes the stats JSON, aggregates the probability mass in the
+    near-zero basin, and reports a dimensionless penalty score as
+    \`phase3/outputs/tables/phase3_instability_penalty_v1.json\`.
+    This quantity is tracked as an internal health check on the
+    cancellation structure of the current toy ensemble, not as a
+    cosmology-facing observable.
+  - Updated the Phase 3 paper (results and reproducibility appendices)
+    to reference the new diagnostics, including explicit reporting of
+    the measured fractions \(\Pr[A_0 < \varepsilon]\) for several
+    benchmark \(\varepsilon\) values.  The text stresses that (i) these
+    are entirely configuration-dependent, (ii) no physical floor value
+    is promoted, and (iii) no corridor-narrowing claim is made at this
+    rung.
+  - Added \`phase3/PHASE3_NEXT_RUNG.md\`, a design document for the next
+    rungs.  It sketches candidate directions for turning the abstract
+    non-cancellation floor idea into more structurally justified
+    mechanisms (e.g. consistency- or topology-motivated floors), and
+    clarifies that Phase 5 should remain a placeholder until such
+    candidates are properly formulated and tested.
+
+- Phase 4 FRW-facing pipeline
+  - Regenerated the Phase 4 paper and artifacts via the gated build,
+    updating \`phase4/outputs/paper/phase4_paper.pdf\` and
+    \`phase4/artifacts/origin-axiom-phase4.pdf\) after clarifying the
+    F1 mapping family and the FRW diagnostic stack.
+  - Tightened the documentation of the Phase 4 scripts:
+    - the F1 sanity and shape diagnostics
+    - the FRW toy and viability scans
+    - the $begin:math:text$\\Lambda$end:math:text$CDM-like probe and the joint shape/FRW probe
+    - the (currently stubbed) data-probe layer
+    including explicit input/output paths under
+    \`phase4/outputs/tables/\` and the summary figure in
+    \`phase4/outputs/figures/phase4_F1_frw_shape_probe_omega_lambda_vs_theta.png\`.
+  - Made it explicit in the text that (i) the F1 mapping is a structural
+    toy choice rather than a physically justified relation between
+    amplitude and vacuum energy, (ii) all FRW diagnostics are treated as
+    non-binding sanity checks, and (iii) no $begin:math:text$\\theta$end:math:text$-filter is
+    promoted to the Phase 0 corridor at this stage.
+
+- Sandbox and exploration hygiene
+  - Archived several speculative explorations (including numerology and
+    mechanism sketches developed with external assistants) into a
+    dedicated \`sandbox/\` folder, deliberately **outside** the rung
+    structure.  These documents are kept as idea reservoirs and negative
+    results, not as sources of claims.  Any concept that graduates from
+    sandbox into a Phase will be re-derived, recomputed, and documented
+    from scratch within the Phase 0–4 ladder.
+
+At this point, Phases 3 and 4 both have Rung 1 papers and gated build
+paths, with additional diagnostics and next-rung design notes in place.
+No new binding claims have been added to the Phase 0 ledger; the focus
+of this step was to harden the existing toy mechanism and FRW-facing
+infrastructure while keeping the epistemic status of all quantities
+strictly scoped.
+
+### 2026-01-07 – Unified Phase 0–4 paper gates and global build driver
+
+**What changed**
+
+- Added Level-A gate plumbing for Phase 0 and Phase 1 so they match the Phase 2–4 pattern:
+  - Phase 0 and Phase 1 now have `scripts/phase0_gate.sh` and `scripts/phase1_gate.sh` that:
+    - Resolve the repo root.
+    - `cd` into `phase0/workflow` / `phase1/workflow`.
+    - Invoke Snakemake to rebuild the paper and canonical artifact.
+- Standardised the paper build pattern across Phases 0–4:
+  - Each gate builds `paper/main.tex` via `latexmk` and then copies `main.pdf` to:
+    - `phaseN/outputs/paper/phaseN_paper.pdf`
+    - `phaseN/artifacts/origin-axiom-phaseN.pdf`
+  - This brings Phase 0–2 in line with the existing Phase 3 / Phase 4 pattern.
+- Introduced `scripts/build_paper.sh` as a single entry point:
+  - Runs Phase 0–4 gates (where present).
+  - Prints a summary of canonical artifact locations for a quick visual check.
+- Verified on the MacBook dev environment that:
+  - `oa && scripts/build_paper.sh`
+  successfully (re)builds and refreshes:
+  - `phase0/artifacts/origin-axiom-phase0.pdf`
+  - `phase1/artifacts/origin-axiom-phase1.pdf`
+  - `phase2/artifacts/origin-axiom-phase2.pdf`
+  - `phase3/artifacts/origin-axiom-phase3.pdf`
+  - `phase4/artifacts/origin-axiom-phase4.pdf`
+
+**Status**
+
+- Phase 0–4 paper builds now share a single, consistent Snakemake + gate + artifact pattern.
+- Rung considered **stable** for paper-build plumbing; future rungs will focus on content and physics, not infrastructure.
+
+
+2026-01-08 (local) — Phase 5 roadmap scaffold
+---------------------------------------------
+- Added docs/phase5_roadmap.md as the canonical design brief for Phase 5.
+- Clarified Phase 5’s role: interface between the Phase 0–4 toy tower and external cosmological summaries.
+- Explicitly recorded boundaries: no sandbox numerology is promoted to formal claims without derivation + code.
+- Outlined initial Phase 5 rungs (P5.1–P5.5) focusing on interfaces, diagnostics, and eventual data contact.
+
+
+2026-01-08 (local) — Phase 5 interface v1
+-----------------------------------------
+- Created Phase 5 skeleton: phase5/config, phase5/src/phase5, phase5/outputs/{tables,figures}.
+- Added phase5/config/phase5_inputs_v1.json listing which Phase 3 and Phase 4 outputs are treated as Phase 5 inputs.
+- Implemented phase5/src/phase5/phase5_interface_v1.py, a non-physical connectivity check that:
+  - Locates the repo root from its own path,
+  - Loads the Phase 5 interface spec,
+  - Verifies existence of referenced tables/masks,
+  - Writes phase5/outputs/tables/phase5_interface_v1_summary.json.
+- Kept this rung purely diagnostic: no new claims, no numerology, no external data.
+
+
+2026-01-08 (local) – Phase 4 F1 sanity diagnostics stub
+------------------------------------------------------
+- Added phase4/src/phase4/f1_sanity_curve_diagnostics_v1.py.
+- This script writes a minimal JSON diagnostics stub
+  phase4/outputs/tables/phase4_F1_sanity_curve_diagnostics.json
+  pointing to the existing F1 sanity curve CSV.
+- Phase 5 interface v1 now reports all Phase 3/4 inputs as OK,
+  with only the optional external FRW distance file marked as missing.

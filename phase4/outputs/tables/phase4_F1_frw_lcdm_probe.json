@@ -1,0 +1,21 @@
+{
+  "H0_km_s_Mpc": 70.0,
+  "age_Gyr_max_lcdm": 13.772705716639756,
+  "age_Gyr_min_lcdm": 13.192227033840021,
+  "age_target_Gyr": 13.8,
+  "age_tolerance_Gyr": 1.0,
+  "lcdm_like_fraction": 0.03076171875,
+  "mapping_family": "F1",
+  "n_frw_viable": 1016,
+  "n_grid": 2048,
+  "n_lcdm_like": 63,
+  "omega_lambda_max_lcdm": 0.7981552327100757,
+  "omega_lambda_min_lcdm": 0.6030811916317198,
+  "omega_lambda_target": 0.7,
+  "omega_lambda_tolerance": 0.1,
+  "omega_m": 0.3,
+  "omega_r": 0.0,
+  "source_mask": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv",
+  "theta_max_lcdm": 3.3624858870453256,
+  "theta_min_lcdm": 0.5982525072754
+}

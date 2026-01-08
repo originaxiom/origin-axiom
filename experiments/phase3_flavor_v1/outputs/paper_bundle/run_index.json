@@ -1,0 +1,16 @@
+{
+  "generated_utc": "20260106T125339Z",
+  "artifacts": {
+    "theta_fit_summary.csv": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.csv",
+    "theta_fit_summary.meta.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_summary.meta.json",
+    "theta_fit_diagnostics.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_fit_diagnostics.json",
+    "theta_offset_sweep.csv": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_offset_sweep.csv",
+    "theta_offset_sweep.meta.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/tables/theta_offset_sweep.meta.json",
+    "fig1_theta_fit_diagnostics.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig1_theta_fit_diagnostics.pdf",
+    "fig2_delta_rho_vac_vs_theta.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.pdf",
+    "fig2_delta_rho_vac_vs_theta.meta.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/figures/fig2_delta_rho_vac_vs_theta.meta.json",
+    "phase3_paper.pdf": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/paper/phase3_paper.pdf",
+    "phase_03_theta_filter.json": "/Users/dri/Documents/Projects/origin-axiom/phase3/outputs/theta_filter/phase_03_theta_filter.json"
+  },
+  "notes": "Phase 3 paper bundle (Level A evidence store)."
+}

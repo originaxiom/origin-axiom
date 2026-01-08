@@ -1,0 +1,12 @@
+{
+  "chi2_per_dof_max": 5.0,
+  "data_available": false,
+  "external_data_path": "/Users/dri/Documents/Projects/origin-axiom/phase4/data/external/frw_distance_binned.csv",
+  "frac_data_ok_within_frw_viable": 0.0,
+  "mapping_family": "F1",
+  "n_data_ok": 0,
+  "n_data_points": 0,
+  "n_frw_viable": 1016,
+  "n_grid": 2048,
+  "source_mask": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv"
+}

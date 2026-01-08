@@ -1,0 +1,178 @@
+\section{Results: binding regime diagnostics}
+\label{sec:phase3-results}
+
+This section summarizes the numerical behavior of the toy vacuum under
+the non-cancellation floor. We focus on two closely related
+experiments:
+
+\begin{enumerate}
+  \item a \emph{baseline scan} of the unconstrained amplitude
+        \(A_0(\theta)\) over \(\theta \in [0, 2\pi)\), used to define a
+        quantile-based floor \(\epsfloor\); and
+  \item a \emph{binding-certificate scan} in which the same grid and
+        floor are used to compare \(A_0(\theta)\) with the
+        floor-enforced amplitude \(A(\theta) = \max(A_0(\theta),
+        \epsfloor)\).
+\end{enumerate}
+
+Both experiments work with a deterministic ``baseline\_v1'' vacuum
+configuration as defined in Section~\ref{sec:phase3-mech}.
+
+\subsection{Baseline scan and floor selection}
+
+In the baseline scan we evaluate \(A_0(\theta)\) on a uniform grid of
+\(N_\theta = 2048\) points covering \([0,2\pi)\). The results are
+stored, for reproducibility, in
+\begin{center}
+  \texttt{phase3/outputs/tables/mech\_baseline\_scan.csv}
+\end{center}
+with summary diagnostics in
+\begin{center}
+  \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}.
+\end{center}
+From the empirical distribution of \(A_0(\theta)\) we extract a
+quantile-based floor
+\[
+  \epsfloor \equiv Q_{0.25}\bigl(A_0(\theta)\bigr),
+\]
+i.e., the 25th percentile of the sampled amplitudes. For the baseline
+configuration used here, the diagnostics report
+\begin{align}
+  \epsfloor &\approx 0.0251, \\
+  \min A_0  &\approx 0.0092, \\
+  \max A_0  &\approx 0.0577,
+\end{align}
+with a binding fraction \(f_{\mathrm{bind}} = 0.25\), meaning that the
+floor is active on exactly one quarter of the sampled \(\theta\)
+values.
+
+This choice of \(\epsfloor\) ensures that the toy vacuum is in a
+\emph{genuine binding regime}: there are regions where the floor is
+active and regions where the unconstrained dynamics are visible, with
+neither extreme dominating the grid.
+
+\subsection{Binding-certificate scan and global diagnostics}
+
+Using the same grid and the quantile-based floor, the
+binding-certificate scan evaluates both \(A_0(\theta)\) and the
+floor-enforced amplitude \(A(\theta)\) on each grid point. The results
+are stored in
+\begin{center}
+  \texttt{phase3/outputs/tables/mech\_binding\_certificate.csv}
+\end{center}
+with summary diagnostics in
+\begin{center}
+  \texttt{phase3/outputs/tables/mech\_binding\_certificate\_diagnostics.json}.
+\end{center}
+
+Figure~\ref{fig:phase3-binding-profile} shows the profile of
+\(A_0(\theta)\) and \(A(\theta)\) across the grid, together with the
+floor level \(\epsfloor\). As expected, the floor clips the lower tail
+of the amplitude distribution, leaving the upper tail unchanged.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig1_mech_binding_profile}
+  \caption{Baseline binding profile for the Phase~3 toy vacuum. The
+  unconstrained amplitude \(A_0(\theta)\) (solid curve) fluctuates
+  above and below the quantile-based floor \(\epsfloor\) (dashed
+  line). The floor-enforced amplitude \(A(\theta)\) (solid curve with
+  plateaus) coincides with \(A_0(\theta)\) whenever
+  \(A_0(\theta) \ge \epsfloor\) and is clipped to \(\epsfloor\) where
+  \(A_0(\theta) < \epsfloor\).}
+  \label{fig:phase3-binding-profile}
+\end{figure}
+
+The diagnostics report, for the baseline configuration,
+\begin{align}
+  \langle A_0 \rangle &\approx 0.0388,
+  &
+  \langle A \rangle &\approx 0.0407, \\
+  \Delta_{\mathrm{mean}} &\equiv
+    \langle A \rangle - \langle A_0 \rangle \;>\; 0,
+  &
+  \Delta_{L^2} &\equiv
+    \bigl\| A - A_0 \bigr\|_2 \;>\; 0,
+\end{align}
+together with the same binding fraction \(f_{\mathrm{bind}} = 0.25\)
+and the extrema of \(A_0(\theta)\) reported above. In other words, the
+floor has a quantitatively non-trivial global effect: it shifts the
+mean amplitude, modifies the variance, and induces a finite
+\(L^2\)-distance between \(A\) and \(A_0\), all while preserving a
+non-zero region where the unconstrained dynamics remain visible.
+
+This behavior is exactly what is required for a Phase~0-style
+binding certificate. The floor is neither a purely formal constraint
+nor a numerically invisible perturbation; it acts as a genuine
+dynamical ingredient in the toy vacuum, in a regime where its impact
+can be summarized by simple, reproducible diagnostics.
+
+\subsection{Auxiliary measure probe (non-binding)}
+\label{sec:phase3-measure-probe}
+
+To complement the baseline binding profile, we performed a simple,
+non-binding measure probe on the same class of toy ensembles.  The
+script \texttt{phase3/src/phase3\_mech/measure\_v1.py} samples many
+independent random ensembles of phases and windings, computes the
+baseline amplitude \(A_0(\theta)\) on a fixed grid, and records the
+empirical distribution of \(A_0\) values across ensembles and
+\(\theta\).
+
+In the baseline configuration, the resulting distribution shows a
+small but non-zero probability weight near \(A_0 \approx 0\).  For
+example, the minimum observed value is of order \(10^{-5}\), while the
+1\% quantile sits at \(A_{0,\mathrm{p01}} \approx 0.013\).  The
+fractions of samples with \(A_0\) below a few illustrative thresholds
+are approximately
+\begin{align}
+  \mathrm{Pr}[A_0 < 0.005] &\approx 1.6 \times 10^{-3}, \\
+  \mathrm{Pr}[A_0 < 0.01 ] &\approx 6.3 \times 10^{-3}, \\
+  \mathrm{Pr}[A_0 < 0.02 ] &\approx 2.4 \times 10^{-2}, \\
+  \mathrm{Pr}[A_0 < 0.05 ] &\approx 1.5 \times 10^{-1}.
+\end{align}
+These numbers are purely illustrative and depend on the toy-mechanism
+choices, but they make explicit that, even before a floor is enforced,
+the detailed cancellation basin near \(A_0 = 0\) occupies only a small
+fraction of the ensemble-level measure in this construction.
+
+We emphasise that this probe does \emph{not} define a physical floor,
+does \emph{not} alter the Phase~3 binding experiment, and does
+\emph{not} introduce any new claims.  Its purpose is limited to making
+transparent, in a fully reproducible way, how often the toy ensemble
+approaches extremely small amplitudes under the current configuration.
+
+\subsubsection*{Concrete baseline diagnostics}
+
+In the current repository configuration, running
+\texttt{phase3/src/phase3\_mech/measure\_v1.py} on the baseline
+amplitude scan yields the following summary for the distribution of
+\(A_0(\theta)\) over the Phase~3 grid:
+\begin{align}
+  A_0^{\min} &\approx 9.2\times 10^{-3}, \\
+  \mathrm{Pr}[A_0 < 0.005] &\approx 0, \\
+  \mathrm{Pr}[A_0 < 0.01 ] &\approx 2.2\times 10^{-2}, \\
+  \mathrm{Pr}[A_0 < 0.02 ] &\approx 1.6\times 10^{-1}, \\
+  \mathrm{Pr}[A_0 < 0.05 ] &\approx 6.1\times 10^{-1}.
+\end{align}
+These figures are rung-specific diagnostics of the chosen toy
+ensemble rather than physical scales.  Their role is simply to make
+explicit how much of the ensemble-level measure lives in very small
+amplitudes versus moderately small amplitudes before any floor is
+applied.
+
+To compress this information into a single scalar knob for future
+mechanism design work, we also define a simple ``instability
+penalty'' functional.  At this rung we construct it from the
+fractions of the ensemble that fall below a small set of illustrative
+thresholds \(\varepsilon \in \{0.005, 0.01, 0.02, 0.05\}\) with fixed
+weights.  The script
+\texttt{phase3/src/phase3\_mech/instability\_penalty\_v1.py} reads the
+JSON summary
+\texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json} and
+writes a scalar diagnostic to
+\texttt{phase3/outputs/tables/phase3\_instability\_penalty\_v1.json}.
+For the present configuration this diagnostic is of order \(10^1\).
+We emphasise that it is a purely internal, toy-model measure of how
+much probability mass resides near small amplitudes; it is \emph{not}
+used as a binding corridor constraint and carries no direct physical
+interpretation at this rung.

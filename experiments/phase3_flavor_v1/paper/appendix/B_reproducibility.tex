@@ -1,0 +1,29 @@
+\section{Reproducibility}
+Phase~3 follows the same gate structure as Phases~0--2, with explicit levels and a single
+Snakemake entry point. The authoritative, machine-readable reproducibility contract is
+documented in \texttt{phase3/REPRODUCIBILITY.md}, but we summarize the structure here.
+
+\paragraph{Levels.}
+\begin{itemize}
+  \item \textbf{Level A (repo snapshot):} verify the paper and bundle from an existing
+        repository snapshot. This level checks that the committed artifacts and the
+        bundle manifest are internally consistent. Entry point:
+        \texttt{bash scripts/phase3\_gate.sh --level A}.
+  \item \textbf{Level B (regenerate artifacts):} rebuild all tables, figures, the paper,
+        and the paper bundle from source using Snakemake, then verify the bundle.
+        This is the default reproducibility target for external readers:
+        \texttt{snakemake -s phase3/workflow/Snakefile -c 1 all}, followed by
+        \texttt{bash scripts/phase3\_gate.sh --level B}.
+  \item \textbf{Level C (heavy runs):} optional developer mode that can populate
+        \texttt{phase3/outputs/runs/} (git-ignored) with additional scans or diagnostics.
+        This mode is not required to reproduce any claims in this paper, and is intended
+        only for extended exploration:
+        \texttt{bash scripts/phase3\_gate.sh --level C}.
+\end{itemize}
+
+\paragraph{Bundle and evidence location.}
+All artifacts used as evidence for the Phase~3 claims are collected under
+\texttt{phase3/outputs/paper\_bundle/}, with a \texttt{run\_index.json} and
+\texttt{bundle\_manifest.json} that enumerate inputs and outputs with hashes and sizes.
+The canonical PDF for this phase is
+\texttt{phase3/artifacts/origin-axiom-phase3.pdf}, built by the Phase~3 Snakemake workflow.

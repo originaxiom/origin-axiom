@@ -1,0 +1,70 @@
+\section{Flavor-phase fit pipeline}
+\label{sec:phase3-fit}
+
+This section describes the Phase~3 ``methods'' in the narrow, empirical sense:
+how we turn frozen external flavor targets into a one-parameter scan over
+$\theta$ and a machine-readable $\theta$-filter.
+
+\subsection{External targets and ansatz}
+
+The fit is anchored to a snapshot of CKM and PMNS CP-phase information, encoded
+in \path{phase3/fit/targets.yaml}. For the present run we treat this file as
+fixed input: it records the numerical values taken from standard references
+(PDG and NuFIT) and tags them with a simple ``ansatz label'' identifying the
+mapping family used in Phase~3.
+
+We do not attempt to explore a large model space. Instead we fix a single,
+explicit ansatz that maps the Origin-Axiom phase parameter $\theta$ to the
+relevant flavor-sector phases. The choice is pragmatic and clearly versioned in
+\path{phase3/fit/ANSATZ_CONTRACT.md}; it is not claimed to be unique or
+fundamental. At the level of this paper it is sufficient to regard the ansatz
+as a smooth map
+\[
+  \theta \longmapsto
+  \bigl(\delta_{\text{CKM}}(\theta),\,
+        \delta_{\text{PMNS}}(\theta),\dots\bigr),
+\]
+with the explicit parameterization and any discrete offset hypotheses
+versioned in \path{phase3/fit/ANSATZ_CONTRACT.md}. This keeps the ledger-facing
+artifacts agnostic to low-level implementation details while making the mapping
+auditable.
+
+\subsection{Objective function and scan}
+
+Given a candidate value of $\theta$, the ansatz produces predicted flavor
+phases. We compare these to the external targets using a simple
+$\chi^2(\theta)$ objective. The present implementation evaluates $\chi^2$ on
+a regular grid in $\theta \in [0,2\pi)$ and records, for each grid point,
+\begin{itemize}
+  \item the value of $\theta$,
+  \item the corresponding $\chi^2(\theta)$, and
+  \item any auxiliary diagnostics used in the paper figures.
+\end{itemize}
+
+From this grid we extract a best-fit value $\hat{\theta}$ (the minimum of
+$\chi^2$) together with a one-dimensional uncertainty interval defined by a
+simple $\Delta\chi^2$ criterion. The grid resolution, the precise convention
+for $\Delta\chi^2$, and the resulting numerical values of $\hat{\theta}$ and
+its interval are recorded in the accompanying fit artifacts:
+\begin{itemize}
+  \item the summary table \path{phase3/outputs/tables/theta_fit_summary.csv};
+  \item the diagnostics table \path{phase3/outputs/tables/theta_fit_diagnostics.json}.
+\end{itemize}
+We treat these files as part of the formal methods contract: any future
+re-implementation of the Phase~3 fit must reproduce their contents (within
+numerical tolerance) for the same ansatz/targets configuration.
+
+\subsection{Fit artifacts}
+
+The primary artifacts of this section are:
+\begin{itemize}
+  \item the summary table \path{phase3/outputs/tables/theta_fit_summary.csv};
+  \item the diagnostics table \path{phase3/outputs/tables/theta_fit_diagnostics.json};
+  \item the figure \path{phase3/outputs/figures/fig1_theta_fit_diagnostics.pdf}; and
+  \item the ledger-facing $\theta$-filter
+        \path{phase3/outputs/theta_filter/phase_03_theta_filter.json}.
+\end{itemize}
+These are the objects that Phase~0 and the other phases are allowed to depend
+on; the internal fit code is treated as an implementation detail, provided it
+reproduces the same artifacts under the gate described in the reproducibility
+appendix.

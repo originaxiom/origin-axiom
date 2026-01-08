@@ -1,0 +1,12 @@
+{
+  "epsfloor": 0.025097306314832618,
+  "frac_bound": 0.25,
+  "max_unconstrained": 0.05768513413545393,
+  "min_unconstrained": 0.009200449440028544,
+  "n_grid": 2048,
+  "q25_unconstrained": 0.025097306314832618,
+  "q50_unconstrained": 0.03692941941860104,
+  "q75_unconstrained": 0.05592161583322377,
+  "theta_max": 6.283185307179586,
+  "theta_min": 0.0
+}

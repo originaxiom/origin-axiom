@@ -1,123 +1,28 @@
-import os
-from pathlib import Path
+from glob import glob
 
-REPO = Path(os.getcwd()).resolve()
-if not (REPO / ".git").exists():
-    raise RuntimeError(f"Snakemake must be run from repo root (missing .git). Got: {REPO}")
-
-PHASE3 = REPO / "phase3"
-
-# Ensure phase3 package is importable for all rules
-os.environ["PYTHONPATH"] = str(PHASE3 / "src") + os.pathsep + os.environ.get("PYTHONPATH","")
-
-OUT_FIG = PHASE3 / "outputs" / "figures"
-OUT_TAB = PHASE3 / "outputs" / "tables"
-OUT_THETA = PHASE3 / "outputs" / "theta_filter"
-OUT_PDF = PHASE3 / "outputs" / "paper"
-BUNDLE  = PHASE3 / "outputs" / "paper_bundle"
-
-PAPER_DIR = PHASE3 / "paper"
-
-rule all:
-    input:
-        OUT_TAB / "theta_fit_summary.csv",
-        OUT_TAB / "theta_fit_summary.meta.json",
-        OUT_TAB / "theta_fit_diagnostics.json",
-        OUT_TAB / "theta_offset_sweep.csv",
-        OUT_TAB / "theta_offset_sweep.meta.json",
-        OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
-        OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
-        OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
-        OUT_PDF / "phase3_paper.pdf",
-        BUNDLE / "run_index.json",
-        BUNDLE / "bundle_manifest.json",
-        OUT_THETA / "phase_03_theta_filter.json"
-
-rule run_theta_fit:
-    output:
-        summary=OUT_TAB / "theta_fit_summary.csv",
-        summary_meta=OUT_TAB / "theta_fit_summary.meta.json",
-        diag=OUT_TAB / "theta_fit_diagnostics.json",
-        fig=OUT_FIG / "fig1_theta_fit_diagnostics.pdf"
-    shell:
-        "python phase3/src/phase3/fit/run_fit.py "
-        "--out_summary {output.summary} --out_fig {output.fig} --out_diagnostics {output.diag}"
-
-rule sweep_offsets:
-    output:
-        csv=OUT_TAB / "theta_offset_sweep.csv",
-        meta=OUT_TAB / "theta_offset_sweep.meta.json"
-    shell:
-        "python phase3/src/phase3/fit/sweep_offset.py "
-        "--out_csv {output.csv} --out_json {output.meta}"
-
-rule run_injection:
-    input:
-        summary=OUT_TAB / "theta_fit_summary.csv"
-    output:
-        fig=OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
-        meta=OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json"
-    shell:
-        "python phase3/src/phase3/inject/run_injection.py "
-        "--theta_summary {input.summary} --out_fig {output.fig} --out_meta {output.meta}"
+# Collect all section and appendix files so that any edit triggers a rebuild
+sections   = sorted(glob("phase3/paper/sections/*.tex"))
+appendices = sorted(glob("phase3/paper/appendix/*.tex"))
 
 rule build_phase3_paper_pdf:
     input:
-        PAPER_DIR / "main.tex",
-        PAPER_DIR / "Reference.bib",
-        PAPER_DIR / "sections" / "01_scope_and_nonclaims.tex",
-        PAPER_DIR / "sections" / "02_fit_pipeline.tex",
-        PAPER_DIR / "sections" / "03_injection_pipeline.tex",
-        PAPER_DIR / "sections" / "04_falsifiability.tex",
-        PAPER_DIR / "sections" / "05_limitations.tex",
-        PAPER_DIR / "appendix" / "A_claims_table.tex",
-        PAPER_DIR / "appendix" / "B_reproducibility.tex",
-        PAPER_DIR / "appendix" / "C_offset_sweep_table.tex"
+        ["phase3/paper/main.tex", "phase3/paper/Reference.bib"] + sections + appendices
     output:
-        pdf=OUT_PDF / "phase3_paper.pdf"
+        "phase3/outputs/paper/phase3_paper.pdf",
+        "phase3/artifacts/origin-axiom-phase3.pdf"
     shell:
-        "command -v latexmk >/dev/null 2>&1 || (echo 'ERROR: latexmk not found (install MacTeX or TeX Live)'; exit 1); "
-        "mkdir -p $(dirname {output.pdf}); "
-        "cd phase3/paper && latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex; "
-        "cp -f main.pdf {output.pdf}"
+        r"""
+        set -euo pipefail
 
-rule make_bundle:
-    input:
-        summary=OUT_TAB / "theta_fit_summary.csv",
-        summary_meta=OUT_TAB / "theta_fit_summary.meta.json",
-        diag=OUT_TAB / "theta_fit_diagnostics.json",
-        sweep_csv=OUT_TAB / "theta_offset_sweep.csv",
-        sweep_meta=OUT_TAB / "theta_offset_sweep.meta.json",
-        fig1=OUT_FIG / "fig1_theta_fit_diagnostics.pdf",
-        fig2=OUT_FIG / "fig2_delta_rho_vac_vs_theta.pdf",
-        fig2_meta=OUT_FIG / "fig2_delta_rho_vac_vs_theta.meta.json",
-        paper_pdf=OUT_PDF / "phase3_paper.pdf",
-        theta_filter=OUT_THETA / "phase_03_theta_filter.json"
-    output:
-        run_index=BUNDLE / "run_index.json",
-        manifest=BUNDLE / "bundle_manifest.json"
-    shell:
-        "python phase3/src/phase3/provenance/make_paper_bundle.py "
-        "--in_summary {input.summary} --in_summary_meta {input.summary_meta} --in_diag {input.diag} "
-        "--in_sweep_csv {input.sweep_csv} --in_sweep_meta {input.sweep_meta} "
-        "--in_fig1 {input.fig1} --in_fig2 {input.fig2} --in_fig2_meta {input.fig2_meta} "
-        "--in_paper_pdf {input.paper_pdf} --in_theta_filter {input.theta_filter} "
-        "--out_run_index {output.run_index} --out_manifest {output.manifest}"
+        cd phase3/paper
 
-rule build_phase3_theta_filter:
+        latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error -recorder main.tex
+
+        cp main.pdf ../outputs/paper/phase3_paper.pdf
+        cp main.pdf ../artifacts/origin-axiom-phase3.pdf
+        """
+
+rule all:
     input:
-        summary=OUT_TAB / "theta_fit_summary.csv",
-        summary_meta=OUT_TAB / "theta_fit_summary.meta.json",
-        targets=PHASE3 / "fit" / "targets.yaml",
-        ansatz=PHASE3 / "src" / "phase3" / "fit" / "run_fit.py"
-    output:
-        out=OUT_THETA / "phase_03_theta_filter.json"
-    shell:
-        "python phase3/src/phase3/theta_filter/build_phase3_theta_filter.py "
-        "--in_summary_csv {input.summary} "
-        "--in_summary_meta {input.summary_meta} "
-        "--in_targets_yaml {input.targets} "
-        "--in_ansatz_py {input.ansatz} "
-        "--out_json {output.out} "
-        "--grid_step 0.01 "
-        "--test_name fit_compat_interval"
+        "phase3/outputs/paper/phase3_paper.pdf",
+        "phase3/artifacts/origin-axiom-phase3.pdf"

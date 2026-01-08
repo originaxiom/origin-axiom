@@ -1,0 +1,20 @@
+{
+  "H2_max_global": 4.0898228492606705,
+  "H2_min_global": 0.3605471905292465,
+  "a_max": 1.0,
+  "a_min": 0.5,
+  "evac_max": 1.1072753385579577e-05,
+  "evac_mean": 4.586828360911843e-06,
+  "evac_min": 3.967422438472583e-07,
+  "frac_sane": 1.0,
+  "frw_sanity_ratio_max": 10.0,
+  "mapping_family": "F1",
+  "n_a": 128,
+  "omega_lambda_max": 1.6898228492606708,
+  "omega_lambda_mean": 0.7,
+  "omega_lambda_mean_target": 0.7,
+  "omega_lambda_min": 0.060547190529246495,
+  "omega_m": 0.3,
+  "omega_r": 0.0,
+  "source_curve": "/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_sanity_curve.csv"
+}

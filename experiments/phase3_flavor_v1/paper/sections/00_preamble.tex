@@ -1,0 +1,32 @@
+% Phase 3 preamble, harmonized with Phase 1
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{physics}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Figures live outside /paper:
+\graphicspath{{../outputs/figures/}}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+% Convenience
+\newcommand{\OA}{\textit{Origin Axiom}}
+\newcommand{\epsfloor}{\varepsilon}
+\newcommand{\Amean}{A_{\mathrm{mean}}}
+
+% Keep the Phase 3 PDF-string suppression you already had:
+\pdfstringdefDisableCommands{
+  \def\theta{theta}
+  \def\rightarrow{->}
+  \def\Delta{Delta}
+}

@@ -1,0 +1,129 @@
+\section{Limitations and scope of Phase~4}
+\label{sec:phase4_limitations}
+
+Phase~4 is intentionally modest in scope. Its purpose is to demonstrate
+how a simple mapping family and a small stack of diagnostics can be
+wired, in a fully reproducible way, on top of the Phase~3 vacuum
+mechanism. It is \emph{not} a proposal for a definitive
+\(\theta\)-corridor, a preferred \(\theta_\star\), or a calibrated
+cosmological model. In this section we make explicit what the current
+Phase~4 construction does and does not claim.
+
+\subsection{Structural vs.\ physical content}
+
+The F1 mapping family, the toy corridor, and the FRW-inspired module
+are all \emph{structural} devices. They are designed to test whether
+the Phase~3 amplitudes can be converted into simple scalar observables
+in a way that is numerically sane, auditable, and easy to reproduce.
+
+No part of the present Phase~4 implementation is calibrated to
+observational data or to a concrete field-theoretic model. The choices
+of mapping exponents, normalisations, and diagnostic thresholds are
+deliberately simple and should be read as examples of the
+\emph{workflow}, not as physically motivated parameter inference.
+
+\subsection{Status of \texorpdfstring{\(\theta\)}{theta}-corridors and \texorpdfstring{\(\theta_\star\)}{theta*}}
+
+The F1 toy corridor is defined by a \(k_\sigma\)-style condition on
+\(E_{\mathrm{vac}}(\theta)\): points whose mapped scalar lies within a
+band of width \(k_\sigma\) times the empirical standard deviation
+around the minimum are marked as ``inside''. This is a purely
+diagnostic definition. It is:
+
+\begin{itemize}
+  \item \emph{not} justified by an underlying measure on
+        \(\theta\)-space;
+  \item \emph{not} tied to any observational likelihood; and
+  \item \emph{not} used to select a unique \(\theta_\star\).
+\end{itemize}
+
+At this rung we do not claim that the corridor has any physical
+significance beyond being a compact way of summarising the shape of
+\(E_{\mathrm{vac}}(\theta)\). The Phase~4 artifact therefore does not
+define a canonical \(\theta_\star\), nor does it promote any specific
+subset of \(\theta\)-values as physically preferred.
+
+\subsection{FRW-inspired toys and cosmology}
+
+The FRW-inspired module treats the F1 scalar as a proxy for a
+\(\theta\)-dependent vacuum-energy density \(\Omega_\Lambda(\theta)\),
+choosing the normalisation so that the mean of
+\(\Omega_\Lambda(\theta)\) over the grid is close to a target value
+(e.g.\ \(\approx 0.7\)). Together with fixed toy values of
+\(\Omega_m\) and \(\Omega_r\), this defines a simple
+FRW-like quantity
+\[
+  H^2(a; \theta)
+    = \Omega_r a^{-4}
+    + \Omega_m a^{-3}
+    + \Omega_\Lambda(\theta),
+\]
+evaluated on a finite grid of scale factors \(a\).
+
+The diagnostic checks used here (positivity of \(H^2\) on the grid and
+a bound on the ratio of maximal to minimal \(H^2\) per \(\theta\))
+are deliberately crude. They are not meant to reproduce precision
+cosmology, nor to constrain \(\theta\) from data. Their role is to
+illustrate how one could connect the Phase~3 mechanism to FRW-like
+sanity checks and to record both positive and negative outcomes (such
+as empty-corridor cases) in a structured way.
+
+\subsection{Numerical and implementation limitations}
+
+All Phase~4 results are computed on finite grids: a finite
+\(N_\theta\)-grid for \(\theta\) and a finite \(N_a\)-grid for the
+scale factor in the FRW-inspired module. The diagnostics such as
+``corridor fraction'' or ``FRW-sanity fraction'' are therefore
+\emph{grid-level} summaries and may change under refinement of these
+grids.
+
+The current implementation uses a single mapping family (F1) and a
+single baseline configuration inherited from Phase~3. There is no
+systematic exploration of alternative mapping families, floors,
+normalisations, or FRW toy parameters. The artifact should therefore
+be read as documenting \emph{one concrete, reproducible instance} of
+the workflow, not as a survey of the available design space.
+
+\subsection{Future extensions and non-claims}
+
+Phase~4 is explicitly positioned as a bridge between the Phase~3
+mechanism and future corridor work, not as the end-point of that
+programme. In particular:
+
+\begin{itemize}
+  \item we do not claim to have derived a physically meaningful
+        \(\theta\)-corridor;
+  \item we do not claim to have identified a preferred
+        \(\theta_\star\); and
+  \item we do not claim to have solved any cosmological fine-tuning
+        problem.
+\end{itemize}
+
+What Phase~4 does claim is that:
+
+\begin{enumerate}
+  \item the Phase~3 vacuum mechanism can be cleanly wired into a
+        mapping family and scalar diagnostics;
+  \item the resulting workflow can be captured in a small, auditable
+        code surface with explicit inputs and outputs; and
+  \item both positive and negative diagnostic outcomes (including
+        empty-corridor cases) can be reported in a way that is aligned
+        with the Phase~0 philosophy of structured, reproducible
+        progress.
+\end{enumerate}
+
+Any future tightening of the corridor notion, introduction of a
+candidate \(\theta_\star\), or calibration to observational data would
+require additional rungs beyond the present Phase~4 artifact and
+would have to make their own assumptions and limitations explicit.
+
+\paragraph{FRW-facing limitations.}
+The FRW-facing layers of Phase~4 (toy sanity checks, the viability scan,
+corridor construction, and the \(\Lambda\)CDM-like probe) are deliberately
+simple. They fix \(\Omega_m\), \(\Omega_r\), and \(H_0\) by hand, impose broad
+box-shaped windows in age and \(\Omega_\Lambda\) rather than using
+likelihoods, and ignore radiation, baryons, curvature, and observational
+systematics. As such, they are best read as structured plausibility checks on
+the F1 mapping and on the Phase~3 mechanism, not as competitive cosmological
+fits. A full FRW analysis would require a more complete treatment of the
+background and of data, and lies beyond the scope of this phase.

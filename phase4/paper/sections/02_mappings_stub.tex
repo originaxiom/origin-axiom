@@ -1,0 +1,97 @@
+\section{Mapping family and scalar \(E_{\mathrm{vac}}(\theta)\)}
+\label{sec:phase4-mappings}
+
+Phase~3 furnishes a fixed, mechanism-level map
+\(\theta \mapsto A(\theta)\) together with a global floor and a
+summary diagnostics file. Concretely, a baseline configuration of the
+Phase~3 mechanism produces a table of amplitudes \(A(\theta_j)\) on a
+uniform \(\theta\)-grid and writes, among other outputs, a JSON file
+%
+\begin{equation}
+  \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json},
+\end{equation}
+%
+which records the global minimum and maximum, basic moments, and
+quantiles of the scan. Phase~3 itself stops at this level: it does not
+interpret \(A(\theta)\) as a cosmological quantity.
+
+Phase~4 introduces a simple, explicit mapping family that turns the
+Phase~3 amplitude into a non-negative scalar intended to play the role
+of a toy vacuum-energy density:
+%
+\begin{equation}
+  E_{\mathrm{vac}}(\theta)
+  \;=\;
+  \alpha\, A(\theta)^{\beta},
+  \qquad
+  \alpha > 0,\; \beta > 0.
+  \label{eq:phase4-f1-definition}
+\end{equation}
+%
+We refer to this family as ``F1''. The two parameters \(\alpha\) and
+\(\beta\) are treated as tunable, mechanism-facing hyperparameters:
+they shape the relative weighting of amplitude variations across the
+\(\theta\)-grid but do not correspond to any claimed physical
+constants.
+
+In this Phase~4 baseline rung we adopt the concrete choice
+\begin{equation}
+  \alpha = 1,
+  \qquad
+  \beta = 4,
+\end{equation}
+motivated by three simple considerations:
+\begin{enumerate}
+  \item \(A(\theta)\) is already normalised at the mechanism level, so
+    it is natural to absorb any overall scale into a separate FRW
+    toy-model normalisation rather than into \(\alpha\);
+  \item an even power \(\beta\) guarantees that \(E_{\mathrm{vac}}\)
+    remains non-negative wherever \(A(\theta)\) is defined;
+  \item a quartic choice \(\beta = 4\) accentuates contrasts between
+    low- and high-amplitude regions without being numerically extreme
+    on the Phase~3 baseline scan.
+\end{enumerate}
+These points are \emph{pragmatic} rather than physical: they select a
+well-behaved default for the present rung while keeping the door open
+to future exploration of alternative exponents and normalisations.
+
+Given a fixed Phase~3 amplitude table, the Phase~4 script
+\texttt{phase4/src/phase4/run\_f1\_sanity.py} constructs the scalar
+curve \(E_{\mathrm{vac}}(\theta)\) according to
+Eq.~\eqref{eq:phase4-f1-definition} with \(\alpha = 1\) and
+\(\beta = 4\), reusing the global minimum and quantile-based floor
+reported in
+\texttt{mech\_baseline\_scan\_diagnostics.json}. It writes:
+\begin{itemize}
+  \item a per-\(\theta\) CSV
+    \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv}
+    containing \(\theta\) and \(E_{\mathrm{vac}}(\theta)\); and
+  \item a JSON summary
+    \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve\_diagnostics.json}
+    with global extrema, basic moments, and configuration metadata.
+\end{itemize}
+This establishes a reproducible, one-dimensional scalar landscape on
+top of the Phase~3 mechanism. All subsequent Phase~4 diagnostics---
+including the toy corridor, FRW-inspired sanity checks, FRW viability
+scan, corridor extraction, and \(\Lambda\)CDM-facing probes---are built
+\emph{on this F1 scalar}, and their outputs always reference
+\texttt{phase4\_F1\_*} tables rather than the raw Phase~3 amplitudes.
+
+Throughout this rung, F1 is treated as a \emph{diagnostic mapping}
+rather than a physical law. In particular, we do not claim that
+\(E_{\mathrm{vac}}(\theta)\) is the actual vacuum energy of the real
+Universe; instead, we use it as a controlled, reproducible proxy for
+asking whether the Phase~3 landscape can coherently feed into
+FRW-like summaries without generating obviously pathological behaviour
+(e.g.\ negative or wildly oscillatory \(H^2(a;\theta)\)) across the
+\(\theta\)-grid. Future work is free to vary \(\alpha\), \(\beta\), or
+even the functional form of the mapping, but such variations will sit
+on top of the baseline pipeline documented here.
+
+At this stage the F1 family should be read strictly as a structural,
+toy choice.  The exponents and normalisation \((\alpha,\beta) = (1,4)\)
+are selected for numerical convenience and to accentuate contrast in
+the Phase~3 amplitude; they are \emph{not} proposed as a physically
+motivated relation between the toy amplitude and any real vacuum
+energy density.  Any future, data-facing use of the Phase~4 pipeline
+would be expected to revisit and possibly replace this mapping.

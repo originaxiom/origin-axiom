@@ -1,0 +1,88 @@
+\section{Discussion and limitations}
+\label{sec:phase3-limitations}
+
+Phase~3, in its current mechanism-only form, is deliberately modest in
+scope. The toy vacuum and non-cancellation floor are designed to test
+whether the Origin-Axiom constraint can be implemented in a clean,
+diagnostically meaningful way, not to make direct contact with
+observed cosmology or particle physics.
+
+\subsection{Scope of the toy vacuum model}
+
+The vacuum ensemble defined in Section~\ref{sec:phase3-mech} is a
+controlled but highly idealised construction. The modes have no
+spatial structure, no local dynamics, and no connection to a
+Hamiltonian or Lagrangian. The global amplitude \(A_0(\theta)\) is an
+aggregate diagnostic, not a physical observable.
+
+As a consequence, none of the numerical values reported in
+Section~\ref{sec:phase3-results}---including typical scales of
+\(A_0(\theta)\), the quantile-based floor \(\epsfloor\), or the
+binding fraction \(f_{\mathrm{bind}}\)---should be interpreted as
+predictions for the real vacuum. They only demonstrate that a
+non-cancellation floor can be imposed without numerical instability,
+and that its effect on a simple global observable can be quantified in
+a reproducible manner.
+
+\subsection{Choice of floor and \texorpdfstring{$\theta$}{theta} grid}
+
+The present rung treats both the \(\theta\) grid and the floor
+selection rule as design choices:
+
+\begin{itemize}
+  \item \(\theta\) is scanned uniformly over \([0,2\pi)\) with a fixed
+        number of grid points. This choice is convenient for
+        diagnostics, but not derived from any underlying symmetry or
+        phenomenology.
+  \item The non-cancellation floor \(\epsfloor\) is chosen as a simple
+        quantile \(Q_{0.25}\bigl(A_0(\theta)\bigr)\) of the
+        unconstrained amplitude distribution. This guarantees a
+        genuine binding regime (with \(0 < f_{\mathrm{bind}} < 1\)),
+        but it is not tied to observed vacuum energy or any other
+        external data.
+\end{itemize}
+
+In other words, the mechanism demonstrates that a floor \emph{can} be
+implemented coherently, not that the specific \(\epsfloor\) or grid
+used here is physically distinguished. Future work will need to
+explore whether there exist more principled criteria for selecting
+both the \(\theta\) domain and the floor, potentially informed by
+contact with actual observables.
+
+\subsection{Relation to the Phase~0 contract}
+
+From the perspective of the Phase~0 contract, the present rung
+delivers only part of what a full Phase~3 mechanism is expected to
+provide:
+
+\begin{itemize}
+  \item The toy vacuum and global amplitude are explicitly defined and
+        numerically stable.
+  \item A genuine binding regime has been demonstrated, with
+        diagnostics showing that the non-cancellation floor has a
+        quantifiable, global effect on \(A(\theta)\) while leaving a
+        non-trivial unconstrained region.
+  \item The code paths and outputs required to reproduce these
+        diagnostics are bound into the Phase~3 gate.
+\end{itemize}
+
+What is deliberately \emph{not} provided at this rung is a
+\(\theta\)-filter artifact suitable for ingestion by the Phase~0
+ledger. We do not yet claim:
+
+\begin{itemize}
+  \item a principled rule for selecting a canonical subset of
+        \(\theta\) values from the toy vacuum;
+  \item a mapping from the toy vacuum amplitudes to any physical
+        observable such as an effective vacuum energy density; or
+  \item a corridor-style constraint that meaningfully narrows
+        \(\theta\) in combination with earlier phases.
+\end{itemize}
+
+These omissions are intentional. The goal of the current Phase~3
+mechanism rung is to establish a clean, reproducible baseline on which
+more ambitious constructions can be built. Later rungs---and, more
+importantly, later phases---will need to connect the non-cancellation
+mechanism to external data and to the broader corridor architecture
+laid out in Phase~0, or else conclude that the Origin-Axiom framework
+is not a productive description of the real vacuum.

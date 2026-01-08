@@ -134,3 +134,11 @@ Constraints:
   - `phase2-lock-2026-01-04-final` (final lock on canonical `main`, commit `dd4369c`)
 - Cleanup: merged and removed temporary working branches after unification; `main` is now the single canonical branch.
 - Safety snapshot tag created pre-unify: `backup/pre-unify-20260104-1259` (commit `d784429`).
+
+## 2026-01-06 — Rung A: Ledger records git_commit in corridor history
+
+- Updated `phase0/scripts/phase0_ledger.py` so that each entry appended to
+  `phase0/phase_outputs/theta_corridor_history.jsonl` is enriched with the current
+  `git_commit` hash (via `git rev-parse HEAD` from the phase0 working directory).
+- This keeps the corridor history append-only while tying each narrowing step to a
+  concrete repository state for audit and comparison with future runs.

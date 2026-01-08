@@ -22,12 +22,33 @@ import argparse
 import glob
 import json
 import math
+import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 from statistics import median
 from typing import Any, Dict, Iterable, List, Tuple, Optional
 
 TAU = 2.0 * math.pi
+
+
+def get_git_commit() -> str:
+    """Return current git HEAD hash, or empty string on failure.
+
+    Uses the current working directory (phase0/) so it works when the
+    ledger is run via `cd phase0 && python scripts/phase0_ledger.py ...`.
+    """
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+        commit = (result.stdout or "").strip()
+        return commit
+    except Exception:
+        return ""
+
 
 
 def load_json(path: Path) -> Dict[str, Any]:
@@ -39,8 +60,15 @@ def save_json(path: Path, obj: Any) -> None:
 
 
 def append_jsonl(path: Path, obj: Any) -> None:
+    """Append a JSON line, enriching dict records with git_commit when possible."""
+    record = obj
+    if isinstance(record, dict):
+        record = dict(record)
+        commit = get_git_commit()
+        if commit:
+            record["git_commit"] = commit
     with path.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(obj, sort_keys=True) + "\n")
+        f.write(json.dumps(record, sort_keys=True) + "\n")
 
 
 def clamp(x: float, lo: float, hi: float) -> float:

@@ -1,2 +1,146 @@
-\section{Reproducibility}
-See \texttt{phase3/REPRODUCIBILITY.md}.
+\section{Reproducibility and gate levels}
+\label{sec:phase3-reproducibility}
+
+Phase~3 is implemented as a self-contained, reproducible unit inside
+the \texttt{origin-axiom} repository. This appendix records the
+filesystem layout, the gate script used to regenerate the canonical
+artifact, and the minimal commands needed to reproduce the Phase~3
+paper and figures.
+
+\subsection*{Filesystem layout}
+
+The Phase~3 tree is organised as follows:
+\begin{itemize}
+  \item \texttt{phase3/src/} --- source code for the Phase~3
+    mechanism and diagnostics;
+  \item \texttt{phase3/paper/} --- LaTeX sources for the Phase~3 paper,
+    including \texttt{main.tex}, section stubs, and appendices;
+  \item \texttt{phase3/workflow/} --- the Snakemake workflow
+    driving the paper build, in
+    \texttt{phase3/workflow/Snakefile};
+  \item \texttt{phase3/outputs/} --- derived outputs produced by
+    Phase~3 runs, including figures and the built paper;
+  \item \texttt{phase3/artifacts/} --- canonical Phase~3 artifacts,
+    including the versioned PDF used as an external reference.
+\end{itemize}
+
+At this rung the primary paper artifact is
+\texttt{phase3/artifacts/origin-axiom-phase3.pdf},
+with the corresponding build product in
+\texttt{phase3/outputs/paper/phase3\_paper.pdf}.  The main figure used
+in the text is stored as
+\texttt{phase3/outputs/figures/fig1\_mech\_binding\_profile.pdf}.
+
+\subsection*{Gate script and build pipeline}
+
+Phase~3 uses a dedicated gate script
+\texttt{scripts/phase3\_gate.sh} to orchestrate the build. The
+level--A gate regenerates the Phase~3 paper and canonical artifact via
+the Snakemake workflow in \texttt{phase3/workflow/Snakefile}.  From
+the repository root, the human-facing entry point is:
+\begin{quote}
+\texttt{bash scripts/phase3\_gate.sh}
+\end{quote}
+which, at level~A, performs the following high-level steps:
+\begin{enumerate}
+  \item assembles the list of section and appendix files under
+    \texttt{phase3/paper/};
+  \item invokes Snakemake on \texttt{phase3/workflow/Snakefile};
+  \item runs \texttt{latexmk} on \texttt{phase3/paper/main.tex} to
+    produce \texttt{main.pdf};
+  \item copies \texttt{main.pdf} to
+    \texttt{phase3/outputs/paper/phase3\_paper.pdf} and
+    \texttt{phase3/artifacts/origin-axiom-phase3.pdf}.
+\end{enumerate}
+
+The Snakemake rule \texttt{build\_phase3\_paper\_pdf} declares
+\texttt{main.tex}, the section and appendix files, and
+\texttt{Reference.bib} as its inputs, and produces both the
+\texttt{phase3\_paper.pdf} output and the canonical
+\texttt{origin-axiom-phase3.pdf} artifact.  This makes the LaTeX
+dependencies explicit and allows Snakemake to detect when a rebuild is
+necessary.
+
+\subsection*{Assumptions and environment}
+
+The Phase~3 paper build assumes:
+\begin{itemize}
+  \item a reasonably recent \LaTeX{} distribution (e.g.\ TeX Live~2025
+    or similar) providing \texttt{latexmk}, \texttt{pdflatex}, and the
+    standard packages used in Phase~0--4;
+  \item a POSIX shell environment with \texttt{bash} and
+    \texttt{make}-like tooling sufficient to run the gate script;
+  \item Python and any libraries required by the Phase~3 mechanism
+    code, for the production of figures and diagnostic tables.
+\end{itemize}
+
+At the present rung, Phase~3 defines a placeholder bibliography file
+\texttt{phase3/paper/Reference.bib}, since the paper does not yet
+make external-citation claims.  This file is still part of the
+declared inputs for the build, so that the pipeline remains stable
+when references are introduced at later rungs.
+
+\subsection*{Reproducibility scope}
+
+The Level--A gate guarantees that:
+\begin{itemize}
+  \item the Phase~3 paper builds successfully from the tracked
+    \texttt{phase3/paper} sources and \texttt{Reference.bib};
+  \item the canonical artifact
+    \texttt{phase3/artifacts/origin-axiom-phase3.pdf} is
+    regenerable from these sources via the Snakemake workflow; and
+  \item the figures referenced in the text (in particular the
+    binding-profile figure) are present under
+    \texttt{phase3/outputs/figures/} and can be regenerated from the
+    Phase~3 source code.
+\end{itemize}
+
+Higher gate levels, if introduced, would be expected to add explicit
+checks on numerical outputs, diagnostic tables, and mechanism
+parameters.  At this rung, however, the emphasis remains on ensuring
+that the narrative and structural content of the Phase~3 paper is
+fully reproducible from the repository state.
+
+\subsection*{Auxiliary measure probe}
+
+In addition to the main binding-profile experiment, Phase~3 includes a
+non-binding auxiliary script
+\texttt{phase3/src/phase3\_mech/measure\_v1.py} that probes the
+empirical distribution of the baseline amplitude \(A_0(\theta)\) for a
+large number of independently sampled toy ensembles.  This script does
+not affect any of the main Phase~3 claims or floor definitions; it is
+included solely to make the measure structure of the current toy
+configuration explicit.
+
+A typical invocation is:
+\begin{verbatim}
+  oa && python phase3/src/phase3_mech/measure_v1.py
+\end{verbatim}
+which writes:
+\begin{itemize}
+  \item a JSON diagnostics file
+    \texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json}
+    containing basic summary statistics and quantiles of the
+    \(A_0\) distribution; and
+  \item a histogram CSV
+    \texttt{phase3/outputs/tables/phase3\_measure\_v1\_hist.csv}
+    with binned counts over \(A_0\).
+\end{itemize}
+The console output also prints a small selection of quantiles and
+fractions below a few illustrative \(\varepsilon\) thresholds.  All of
+these numbers are toy-model diagnostics and should be interpreted as
+such; they are not promoted to binding corridor constraints or
+physical scales at this rung.
+
+\paragraph{Instability-penalty diagnostic.}
+To compress the small-amplitude tails of the \(A_0\) distribution into
+a single scalar diagnostic, we provide
+\texttt{phase3/src/phase3\_mech/instability\_penalty\_v1.py}.  This
+script reads the stats JSON
+\texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json}
+described above and writes
+\texttt{phase3/outputs/tables/phase3\_instability\_penalty\_v1.json},
+which records the chosen thresholds, weights, and the resulting
+penalty value.  At this rung the penalty plays the role of an
+internal, toy-model knob for future mechanism design; it is not used
+as a binding corridor constraint.

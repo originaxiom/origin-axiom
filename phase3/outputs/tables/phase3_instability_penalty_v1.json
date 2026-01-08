@@ -1,0 +1,31 @@
+{
+  "description": "Toy, non-binding 'instability penalty' functional for the Phase 3 baseline A0 distribution, constructed from eps_info in phase3_measure_v1_stats.json. The functional up-weights probability mass near A0 = 0 by weights proportional to 1/eps. It is intended only as a diagnostic of the cancellation basin in the current toy ensemble, not as a corridor constraint or physical scale.",
+  "penalty_grid": [
+    {
+      "contribution": 0.0,
+      "eps": 0.005,
+      "fraction_below_eps": 0.0,
+      "weight": 200.0
+    },
+    {
+      "contribution": 2.197265625,
+      "eps": 0.01,
+      "fraction_below_eps": 0.02197265625,
+      "weight": 100.0
+    },
+    {
+      "contribution": 8.1787109375,
+      "eps": 0.02,
+      "fraction_below_eps": 0.16357421875,
+      "weight": 50.0
+    },
+    {
+      "contribution": 12.265625,
+      "eps": 0.05,
+      "fraction_below_eps": 0.61328125,
+      "weight": 20.0
+    }
+  ],
+  "source_stats_file": "phase3/outputs/tables/phase3_measure_v1_stats.json",
+  "total_penalty": 22.6416015625
+}
