@@ -2320,3 +2320,23 @@ strictly scoped.
   - no new physics, no θ- or FRW modeling, and no likelihood.
   - It only extends the program-level contract so that Phase 5 is aware
     of the external FRW diagnostics produced by Phase 4.
+
+### [2026-01-08] Phase 5 – Rung 3: document external FRW diagnostics in interface paper
+
+- Extended the Phase 5 interface-contract section:
+  - Updated `phase5/paper/sections/02_interface_contract.tex` to include
+    an explicit subsection for the external FRW diagnostics hook:
+    - `frw_external_diagnostics` ->
+      `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+  - Clarified that Phase 5 only consumes the Phase 4 diagnostics JSON
+    and does not introduce any new FRW modeling or likelihood.
+- Updated the dashboard stub:
+  - Appended a short note to
+    `phase5/paper/sections/03_viability_dashboard_stub.tex` explaining
+    that the Phase 5 interface dashboard now surfaces the external FRW
+    diagnostics row alongside the F1 outputs.
+- This rung is still purely program-level:
+  - No new physics, no re-fitting, and no change to the numerical
+    content of Phases 3 and 4.
+  - The goal is to keep the Phase 5 paper aligned with the actual
+    interface and dashboard wiring.

@@ -74,3 +74,12 @@ Future rungs of Phase 5 may refine this dashboard by:
 \end{itemize}
 Any such extensions must remain honest about what is computed where and
 must not silently re-fit or reinterpret the upstream phases.
+
+In the current Rung~2 configuration, the dashboard also includes a row
+for the Phase~4 external FRW diagnostics JSON. This row mirrors the
+interface contract: it reports the presence, size, and status of
+\texttt{phase4\_F1\_frw\_external\_diagnostics.json} as seen by
+\texttt{phase5\_interface\_v1}. No additional aggregation or scoring is
+performed in Phase~5; the entry exists solely so that collaborators can
+see at a glance whether an external FRW distance dataset has been
+attached and diagnosed upstream.
