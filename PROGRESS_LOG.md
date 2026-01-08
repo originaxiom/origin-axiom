@@ -2220,3 +2220,18 @@ strictly scoped.
 - This run serves as the Rung 0 sanity confirmation: Phase 5 is now
   authorized to consume the locked Phase 3/4 pipeline outputs via
   phase5_interface_v1, without mutating upstream phases.
+
+2026-01-08 (local) – Phase 5 gate (Rung 0 interface wiring)
+-----------------------------------------------------------
+- Created scripts/phase5_gate.sh as a Level-A gate for Phase 5.
+- The gate delegates to phase5/src/phase5/phase5_interface_v1.py,
+  which inspects locked Phase 3 and Phase 4 outputs only.
+- Verified that the gate runs cleanly:
+  * All required Phase 3 diagnostics present (baseline, measure, penalty).
+  * All required Phase 4 F1 + FRW diagnostics present (sanity, shape,
+    viability, LCDM/shape/data probes, corridors).
+  * The only missing item is the explicitly optional external file
+    phase4/data/external/frw_distance_binned.csv, which Phase 5
+    is required to handle gracefully.
+- Phase 5 is now structurally integrated into the gate system without
+  mutating upstream phases, ready for Rung 1 design work.
