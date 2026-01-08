@@ -2256,3 +2256,11 @@ strictly scoped.
     describe the current interface-level dashboard and its CSV schema,
     keeping the scope strictly program- and structure-level with no new
     physics claims or derived viability scores.
+
+- 2026-01-08 (phase5-interface-local, Rung 4):
+  - Added `scripts/build_phase5_paper.sh` as a one-button Phase 5 build
+    driver that runs the Phase 5 gate, regenerates the interface
+    dashboard CSV, builds the Phase 5 paper with `latexmk`, and copies
+    the result to `phase5/artifacts/origin-axiom-phase5.pdf`.
+  - This wires Phase 5 into the program-level build story without
+    modifying upstream phases or their gates.
