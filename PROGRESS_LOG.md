@@ -2857,3 +2857,18 @@ At this rung, Stage-2 FRW corridor analysis is a self-contained, reproducible
 exploration downstream of Phase 4. It is a candidate source of figures and
 diagnostics for a future FRW-focused extension (Phase 6 / Stage-2 paper), but
 does not yet promote any new claims into the locked phases.
+
+## 2026-01-09 — Stage 2: FRW corridor analysis (Rung 9)
+
+- **Rung 9 — FRW corridor segment geometry + θ\* alignment (stage2/frw_corridor_analysis)**  
+  - Added `stage2/frw_corridor_analysis/src/analyze_frw_corridor_segments_theta_star_v1.py`.  
+  - Inputs: Phase 4 shape-probe mask  
+    - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`  
+  - Outputs:  
+    - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_segments_v1.csv`  
+      - one row per contiguous θ-segment for each family  
+      - columns include `family_id`, `segment_id`, `start_index`, `end_index`, `n_pts`, `theta_min`, `theta_max`, `theta_span`, `contains_theta_star`.  
+    - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_theta_star_alignment_v1.csv`  
+      - one row per family (F1–F5) with nearest-grid alignment to the project’s special value θ\* = φ^φ ≈ 2.1784575679  
+      - columns include `theta_star`, `theta_closest`, `abs_delta`, `index_closest`, optional physical diagnostics (`omega_lambda_closest`, `E_vac_closest`, `age_Gyr_closest`), and basic occupancy stats (`n_true`, `frac_of_grid`).  
+  - Status: **Complete.** This rung remains purely diagnostic and downstream of Phase 4, providing a geometric map of how each FRW corridor family sits in θ and how θ\* aligns with them, without feeding back into any Phase 3–5 claims.
