@@ -1,6 +1,4 @@
 {
-  "version": 1,
-  "description": "Interface spec for Phase 5: which Phase 3 / Phase 4 outputs are treated as inputs.",
   "phase3": {
     "mech_baseline_diagnostics": "phase3/outputs/tables/mech_baseline_scan_diagnostics.json",
     "measure_stats": "phase3/outputs/tables/phase3_measure_v1_stats.json",
@@ -19,7 +17,8 @@
     "frw_shape_probe_mask": "phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv",
     "frw_corridors": "phase4/outputs/tables/phase4_F1_frw_corridors.json",
     "frw_data_probe": "phase4/outputs/tables/phase4_F1_frw_data_probe.json",
-    "frw_data_probe_mask": "phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv"
+    "frw_data_probe_mask": "phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv",
+    "frw_external_diagnostics": "phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json"
   },
   "external": {
     "frw_distance_binned": "phase4/data/external/frw_distance_binned.csv",

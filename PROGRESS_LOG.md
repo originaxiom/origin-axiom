@@ -2301,3 +2301,22 @@ strictly scoped.
   assumptions and introduces no likelihood or physical claims. It
   serves purely as a plumbing and inspection layer for external data,
   to be used later by Phase 5 and higher rungs of Phase 4.
+
+### [2026-01-08] Phase 5 – Rung 2: interface wiring of external FRW diagnostics
+
+- Updated `phase5/config/phase5_inputs_v1.json` to include a new Phase 4
+  entry:
+  - `frw_external_diagnostics` →
+    `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+- Re-ran the Phase 5 interface and dashboard:
+  - `scripts/phase5_gate.sh`
+  - `phase5/src/phase5/make_interface_dashboard_v1.py`
+- The interface summary now exposes the external FRW diagnostics JSON
+  alongside the existing Phase 4 F1 outputs, so Phase 5 can see:
+  - whether the external dataset is present,
+  - its basic properties (as computed by the Phase 4 F1.D1 script),
+  - and its status (`ok` vs `ok_zero_rows` vs missing).
+- This rung remains strictly meta-level:
+  - no new physics, no θ- or FRW modeling, and no likelihood.
+  - It only extends the program-level contract so that Phase 5 is aware
+    of the external FRW diagnostics produced by Phase 4.
