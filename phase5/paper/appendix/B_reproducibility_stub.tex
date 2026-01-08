@@ -1,0 +1,22 @@
+\section{Reproducibility Notes (Stub)}
+\label{app:reproducibility}
+
+This appendix is intended to record:
+\begin{itemize}[leftmargin=*]
+  \item the exact commands used to run the Phase 5 interface,
+  \item the expected structure of the \texttt{phase5\_interface\_v1\_summary.json}
+        file, and
+  \item pointers to the gate script that enforces the interface in CI or
+        on collaborator machines.
+\end{itemize}
+
+At present, reproducibility is centered on:
+\begin{verbatim}
+  scripts/phase5_gate.sh
+  phase5/src/phase5/phase5_interface_v1.py
+  phase5/config/phase5_inputs_v1.json
+  phase5/outputs/tables/phase5_interface_v1_summary.json
+\end{verbatim}
+
+Future rungs should promote this into a fully structured reproducibility
+appendix, in line with the other phases.

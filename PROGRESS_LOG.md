@@ -2204,3 +2204,139 @@ strictly scoped.
   pointing to the existing F1 sanity curve CSV.
 - Phase 5 interface v1 now reports all Phase 3/4 inputs as OK,
   with only the optional external FRW distance file marked as missing.
+
+2026-01-08 (local) – Phase 5 interface Rung 0 check
+---------------------------------------------------
+- On branch phase5-interface-local, ran:
+  python phase5/src/phase5/phase5_interface_v1.py
+- Confirmed that all required Phase 3 and Phase 4 inputs are present:
+  * phase3: mech_baseline_diagnostics, measure_stats, measure_hist,
+    instability_penalty (all OK).
+  * phase4: F1 sanity curve, shape diagnostics, FRW toy, viability,
+    LCDM probe, shape probe, corridors, data probe (all OK).
+- The only missing asset is the optional external FRW distance file
+  phase4/data/external/frw_distance_binned.csv, which is explicitly
+  documented as optional and must be handled gracefully by Phase 5.
+- This run serves as the Rung 0 sanity confirmation: Phase 5 is now
+  authorized to consume the locked Phase 3/4 pipeline outputs via
+  phase5_interface_v1, without mutating upstream phases.
+
+2026-01-08 (local) – Phase 5 gate (Rung 0 interface wiring)
+-----------------------------------------------------------
+- Created scripts/phase5_gate.sh as a Level-A gate for Phase 5.
+- The gate delegates to phase5/src/phase5/phase5_interface_v1.py,
+  which inspects locked Phase 3 and Phase 4 outputs only.
+- Verified that the gate runs cleanly:
+  * All required Phase 3 diagnostics present (baseline, measure, penalty).
+  * All required Phase 4 F1 + FRW diagnostics present (sanity, shape,
+    viability, LCDM/shape/data probes, corridors).
+  * The only missing item is the explicitly optional external file
+    phase4/data/external/frw_distance_binned.csv, which Phase 5
+    is required to handle gracefully.
+- Phase 5 is now structurally integrated into the gate system without
+  mutating upstream phases, ready for Rung 1 design work.
+
+2026-01-08 (local) — Phase 5 paper Rung 1 skeleton
+--------------------------------------------------
+- Created a minimal, self-contained LaTeX skeleton for the Phase 5 paper
+  under phase5/paper/.
+- Defined sections for preamble, scope and non-claims, interface
+  contract, a stub viability dashboard, and limitations/next-rungs.
+- Added stub appendices for interface claims and reproducibility notes,
+  and a local Reference.bib.
+- The Phase 5 paper is explicitly descriptive and meta-level: it
+  documents the Phase 5 interface and program role without introducing
+  new physics claims or modifying Phases 3/4.
+
+- 2026-01-08 (phase5-interface-local, Rung 3):
+  - Ran `phase5/src/phase5/make_interface_dashboard_v1.py` to generate
+    `phase5/outputs/tables/phase5_interface_dashboard_v1_summary.csv`
+    from the interface summary JSON.
+  - Updated `phase5/paper/sections/03_viability_dashboard_stub.tex` to
+    describe the current interface-level dashboard and its CSV schema,
+    keeping the scope strictly program- and structure-level with no new
+    physics claims or derived viability scores.
+
+- 2026-01-08 (phase5-interface-local, Rung 4):
+  - Added `scripts/build_phase5_paper.sh` as a one-button Phase 5 build
+    driver that runs the Phase 5 gate, regenerates the interface
+    dashboard CSV, builds the Phase 5 paper with `latexmk`, and copies
+    the result to `phase5/artifacts/origin-axiom-phase5.pdf`.
+  - This wires Phase 5 into the program-level build story without
+    modifying upstream phases or their gates.
+
+### [2026-01-08] Phase 4 F1.D0 – External FRW distance contract stub
+
+- Appended a new Rung F1.D0 section to `phase4/FRW_DATA_DESIGN.md`
+  defining the contract for the external FRW distance–redshift dataset:
+  - path: `phase4/data/external/frw_distance_binned.csv`
+  - required columns: `z`, `mu`, `sigma_mu` with documented units and
+    a diagonal-error model at this rung.
+  - clarified that the repo may ship with a header-only CSV and that
+    Phase 4/5 code must handle the zero-row case gracefully.
+- Created a header-only stub CSV at
+  `phase4/data/external/frw_distance_binned.csv` that matches the
+  declared schema.
+- This establishes the first explicit external-observable contract
+  on the roadmap from the axiom (via F1 mappings) to FRW distance
+  data, without yet introducing a likelihood or new claims.
+
+### [2026-01-08] Phase 4 F1.D1 – External FRW distance diagnostics script
+
+- Extended `phase4/FRW_DATA_DESIGN.md` with Rung F1.D1, defining a
+  small diagnostics script for the external FRW distance dataset:
+  - script: `phase4/src/phase4/f1_frw_external_diagnostics_v1.py`
+  - output: `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+- Implemented the diagnostics script to:
+  - resolve repo and Phase 4 roots from its own location,
+  - read `phase4/data/external/frw_distance_binned.csv` while skipping
+    comment and empty lines,
+  - check that the required columns `z`, `mu`, `sigma_mu` exist,
+  - parse rows into floats with basic error counting,
+  - compute row counts and simple ranges (`z_min/z_max`, `mu_min/mu_max`,
+    `sigma_mu_min/sigma_mu_max`) when data are present,
+  - check for non-decreasing `z`,
+  - treat the zero-row case as a valid state (`ok_zero_rows`).
+- The script is intentionally model-free: it makes no θ- or F1-specific
+  assumptions and introduces no likelihood or physical claims. It
+  serves purely as a plumbing and inspection layer for external data,
+  to be used later by Phase 5 and higher rungs of Phase 4.
+
+### [2026-01-08] Phase 5 – Rung 2: interface wiring of external FRW diagnostics
+
+- Updated `phase5/config/phase5_inputs_v1.json` to include a new Phase 4
+  entry:
+  - `frw_external_diagnostics` →
+    `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+- Re-ran the Phase 5 interface and dashboard:
+  - `scripts/phase5_gate.sh`
+  - `phase5/src/phase5/make_interface_dashboard_v1.py`
+- The interface summary now exposes the external FRW diagnostics JSON
+  alongside the existing Phase 4 F1 outputs, so Phase 5 can see:
+  - whether the external dataset is present,
+  - its basic properties (as computed by the Phase 4 F1.D1 script),
+  - and its status (`ok` vs `ok_zero_rows` vs missing).
+- This rung remains strictly meta-level:
+  - no new physics, no θ- or FRW modeling, and no likelihood.
+  - It only extends the program-level contract so that Phase 5 is aware
+    of the external FRW diagnostics produced by Phase 4.
+
+### [2026-01-08] Phase 5 – Rung 3: document external FRW diagnostics in interface paper
+
+- Extended the Phase 5 interface-contract section:
+  - Updated `phase5/paper/sections/02_interface_contract.tex` to include
+    an explicit subsection for the external FRW diagnostics hook:
+    - `frw_external_diagnostics` ->
+      `phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json`.
+  - Clarified that Phase 5 only consumes the Phase 4 diagnostics JSON
+    and does not introduce any new FRW modeling or likelihood.
+- Updated the dashboard stub:
+  - Appended a short note to
+    `phase5/paper/sections/03_viability_dashboard_stub.tex` explaining
+    that the Phase 5 interface dashboard now surfaces the external FRW
+    diagnostics row alongside the F1 outputs.
+- This rung is still purely program-level:
+  - No new physics, no re-fitting, and no change to the numerical
+    content of Phases 3 and 4.
+  - The goal is to keep the Phase 5 paper aligned with the actual
+    interface and dashboard wiring.

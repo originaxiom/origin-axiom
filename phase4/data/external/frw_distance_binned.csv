@@ -1,0 +1,6 @@
+# origin-axiom Phase 4 external FRW distance dataset (Rung F1.D0 stub)
+# Columns:
+#   z        : redshift (dimensionless)
+#   mu       : distance modulus (mag)
+#   sigma_mu : 1-sigma uncertainty on mu (mag)
+z,mu,sigma_mu

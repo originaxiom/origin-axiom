@@ -1,0 +1,27 @@
+{
+  "csv_relpath": "phase4/data/external/frw_distance_binned.csv",
+  "fieldnames": [
+    "z",
+    "mu",
+    "sigma_mu"
+  ],
+  "file_exists": true,
+  "has_required_columns": true,
+  "monotonic_z_non_decreasing": null,
+  "mu_max": null,
+  "mu_min": null,
+  "n_parsed_rows": 0,
+  "n_rows": 0,
+  "notes": [
+    "CSV has no successfully parsed data rows; this is valid at Rung F1.D1."
+  ],
+  "out_relpath": "phase4/outputs/tables/phase4_F1_frw_external_diagnostics.json",
+  "parse_errors": 0,
+  "phase4_root": "/Users/dri/Documents/Projects/origin-axiom/phase4",
+  "repo_root": "/Users/dri/Documents/Projects/origin-axiom",
+  "sigma_mu_max": null,
+  "sigma_mu_min": null,
+  "status": "ok_zero_rows",
+  "z_max": null,
+  "z_min": null
+}

@@ -1,0 +1,83 @@
+\section{Interface Contract}
+\label{sec:interface}
+
+The core of Phase 5 is an explicit, machine-readable contract describing
+which upstream artifacts it consumes and how they are organized. This
+contract is encoded in the JSON file
+\texttt{phase5/config/phase5\_inputs\_v1.json} and enforced by the
+Python interface script
+\texttt{phase5/src/phase5/phase5\_interface\_v1.py}.
+
+\subsection{Configuration}
+
+The configuration file enumerates three logical groups:
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Phase 3 block:} references to the mechanical baseline
+        diagnostics and measure statistics, such as
+        \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json},
+        \texttt{phase3/outputs/tables/phase3\_measure\_v1\_stats.json},
+        \texttt{phase3/outputs/tables/phase3\_measure\_v1\_hist.csv},
+        and
+        \texttt{phase3/outputs/tables/phase3\_instability\_penalty\_v1.json}.
+  \item \textbf{Phase 4 block:} references to the F1 mapping diagnostics
+        and FRW toy/probe outputs, including the F1 sanity and shape
+        diagnostics and the various FRW viability, LCDM, shape, and data
+        probes and their masks.
+  \item \textbf{External block:} an optional entry for a binned FRW
+        distance dataset,
+        \texttt{phase4/data/external/frw\_distance\_binned.csv}, which
+        may or may not be present in a given copy of the repository.
+\end{itemize}
+
+The configuration does not alter these paths; it records them so the
+interface can systematically check their presence.
+
+\subsection{Diagnostics Summary}
+
+Running the interface script produces a summary JSON file:
+\begin{center}
+\texttt{phase5/outputs/tables/phase5\_interface\_v1\_summary.json}
+\end{center}
+which reports, for each configured path:
+\begin{itemize}[leftmargin=*]
+  \item the absolute and relative path,
+  \item whether the file exists,
+  \item its size in bytes (if present), and
+  \item any additional notes for non-path entries (such as the
+        external-data description).
+\end{itemize}
+
+In particular, the current summary explicitly confirms that all
+Phase 3 and Phase 4 inputs required by the configuration are present,
+and that the external FRW distance file is missing but treated as
+optional. This is not a physical statement about the data; it is a
+documentation of the repository state and the robustness requirements
+imposed on Phase 5.
+
+\subsection{External FRW diagnostics hook}
+
+The current configuration also includes an optional entry for external
+FRW distance diagnostics:
+\begin{itemize}[leftmargin=*]
+  \item \texttt{frw\_external\_diagnostics} $\rightarrow$
+        \texttt{phase4/outputs/tables/phase4\_F1\_frw\_external\_diagnostics.json}.
+\end{itemize}
+
+This JSON is produced by the Phase~4 F1 external-diagnostics script and
+summarizes a binned FRW-distance dataset that lives at
+\texttt{phase4/data/external/frw\_distance\_binned.csv}. Phase~5 does
+\emph{not} read or reinterpret the raw external data at this rung.
+Instead, it only consumes the Phase~4 summary diagnostics, which
+already encode basic checks such as:
+\begin{itemize}[leftmargin=*]
+  \item file presence and readable structure,
+  \item the number of rows and basic ranges, and
+  \item a simple status flag (e.g.\ \texttt{"ok"},
+        \texttt{"ok\_zero\_rows"}, or \texttt{"missing"}).
+\end{itemize}
+
+By wiring this JSON into the interface contract, Phase~5 gains a
+program-level view of whether an external FRW distance dataset has been
+attached and diagnosed by Phase~4, without introducing new cosmological
+likelihoods or fits. All modeling and numerical assumptions about the
+external data remain anchored upstream in Phase~4.
