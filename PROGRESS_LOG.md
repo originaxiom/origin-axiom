@@ -2651,3 +2651,33 @@ This script:
   reading them as genuine geometric “corridors” rather than speckled noise, but no promotion
   into Phase 4/5 PDFs is made at this rung.
 
+
+## 2026-01-09 – Stage 2: FRW corridor analysis (Rung 7 – θ-stride robustness)
+
+- Added `stage2/frw_corridor_analysis/src/analyze_frw_corridor_stride_robustness_v1.py`.
+- The script reads `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  and reuses the FRW families defined in Stage 2 (F1–F5):
+  `frw_viable`, `lcdm_like`, `in_toy_corridor`, `shape_and_viable`,
+  `shape_and_lcdm`.
+- For strides {1, 2, 4, 8}, it:
+  - subsamples the θ-grid,
+  - recomputes per-family counts and fractions,
+  - counts the number of contiguous θ-segments on the subsampled grid,
+  - writes a summary table to  
+    `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung7_stride_robustness_v1.csv`.
+- Outcome (current baseline):
+  - `F1_FRW_VIABLE` remains a single contiguous θ-block (n_segments = 1) at all
+    strides, with frac(θ) ≈ 0.496 at every stride.
+  - `F3_TOY_CORRIDOR`, `F4_CORRIDOR_AND_VIABLE`, and `F5_CORRIDOR_AND_LCDM`
+    retain a two-segment structure at all strides, with stable occupancy
+    fractions (to ~1e-2).
+  - `F2_LCDM_LIKE` continues to appear as two small θ-islands under stride
+    1–8 with consistent sparse occupancy.
+- Interpretation:
+  - The FRW corridors and LCDM-like islands identified in previous rungs are
+    not a fragile artifact of the exact θ sampling; their basic geometry
+    (number of segments and occupancy fractions) is stable under moderate
+    downsampling.
+  - This rung is descriptive only and does not modify any Phase 4/5 logic or
+    claims.
+
