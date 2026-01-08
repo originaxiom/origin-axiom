@@ -2364,3 +2364,21 @@ strictly scoped.
   of what the Phase 5 interface "sees" across Phases 3/4 and the
   external FRW diagnostics, in a way that is easy to inspect, diff, and
   extend in later rungs.
+
+### [2026-01-08] Phase 5 — Rung 5: minimal interface sanity figure
+
+- Added a small Phase 5 script:
+  - `phase5/src/phase5/make_rung5_interface_figure_v1.py`.
+- This script consumes the Rung 4 sanity table:
+  - `phase5/outputs/tables/phase5_rung4_sanity_table_v1.csv`,
+  and produces a simple horizontal bar plot:
+  - `phase5/outputs/figures/phase5_interface_sanity_v1.png`.
+- The figure is purely program-level:
+  - it visualizes which Phase 3/4 interface files exist,
+    their sizes (in KB), and any external-status flags reported by
+    the F1 external-diagnostics JSON.
+  - it does **not** introduce new FRW modeling, likelihoods, or
+    physics claims; it only makes the interface contract more
+    inspectable.
+- The PNG lives under `phase5/outputs/figures/` and is not tracked in
+  git, consistent with the treatment of other generated artifacts.

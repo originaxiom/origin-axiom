@@ -48,3 +48,15 @@ This log tracks Phase 5–specific work. It complements the root
     any non-path notes entries.
 - This provides a stable, human-facing view on top of the Phase 5
   interface, without modifying upstream phases.
+
+### [2026-01-08] Rung 5: minimal interface sanity figure
+
+- Implemented `make_rung5_interface_figure_v1.py` to turn the Rung 4
+  CSV (`phase5_rung4_sanity_table_v1.csv`) into a simple horizontal bar
+  plot:
+  - one row per interface entry,
+  - bar length = file size in KB,
+  - color = green (exists) vs red (missing),
+  - optional annotation for external-status flags.
+- This provides a one-glance visual sanity panel for the Phase 5
+  interface contract without touching upstream physics or fits.
