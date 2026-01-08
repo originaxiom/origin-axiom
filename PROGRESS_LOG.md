@@ -2520,3 +2520,62 @@ strictly scoped.
     - a compact addition in Phase 5 (Option A), or
     - a dedicated Stage 2 / Phase 6 FRW corridor paper (Option B).
 
+
+## 2026-01-08 — Stage 2: FRW corridor analysis, Rung 4 (family overlap v1)
+
+**Scope.** Downstream-only analysis of Phase 4 FRW masks, defining a compact set
+of FRW “families” (Rung 3) and now measuring their **overlaps** and coverage
+on the nominal θ-grid. This remains a Stage 2 exploration layer; no feedback
+into Phases 0–5.
+
+**Inputs.**
+
+- Stage 2 families table (Rung 3):
+  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung3_families_v1.csv`
+- Phase 4 FRW masks (as in Rungs 1–3):
+  - `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`
+
+**Script.**
+
+- `stage2/frw_corridor_analysis/src/analyze_frw_corridor_family_overlap_v1.py`
+
+This script:
+
+1. Reconstructs the boolean families on the nominal grid (N = 2048):
+   - F1_FRW_VIABLE
+   - F2_LCDM_LIKE
+   - F3_TOY_CORRIDOR
+   - F4_CORRIDOR_AND_VIABLE
+   - F5_CORRIDOR_AND_LCDM
+   - F6_DATA_OK
+2. Recomputes basic cardinalities (sanity check):
+   - F1_FRW_VIABLE: n_θ = 1016, frac_of_grid ≈ 0.49609
+   - F2_LCDM_LIKE: n_θ = 63, frac_of_grid ≈ 0.03076
+   - F3_TOY_CORRIDOR: n_θ = 1186, frac_of_grid ≈ 0.57910
+   - F4_CORRIDOR_AND_VIABLE: n_θ = 154, frac_of_grid ≈ 0.07520
+   - F5_CORRIDOR_AND_LCDM: n_θ = 40, frac_of_grid ≈ 0.01953
+   - F6_DATA_OK: n_θ = 0, frac_of_grid = 0.00000
+3. Builds an overlap census table across all families (pairwise and
+   higher-order overlaps), expressed in counts and fractions of the
+   nominal grid.
+
+**Outputs.**
+
+- Family overlap table:
+  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung4_family_overlap_v1.csv`
+- Log (human): printed summary of grid size and per-family coverage.
+
+**Status.**
+
+- Rung 4 completes the **coverage + overlap** view of the Phase 4 FRW masks in
+  a Stage 2 layer, without modifying any Phase artifacts.
+- At this rung we do **not** yet promote any family to a Phase-level claim;
+  the overlap table is a scouting tool for future rungs:
+  - Rung 5+: visual exploration and robustness checks for a small set of
+    candidate “corridor families” that might eventually be promoted into:
+    - Option A: a lightweight Phase 5 addendum, or
+    - Option B: a dedicated FRW-focused Stage 2 / Phase 6 paper.
+
