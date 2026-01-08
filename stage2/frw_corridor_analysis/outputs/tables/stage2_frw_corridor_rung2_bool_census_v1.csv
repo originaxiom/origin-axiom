@@ -1,0 +1,17 @@
+section,source_key,relpath,col_name,dtype,n_rows,n_true,n_false,n_na,frac_true,frac_false,notes
+phase4_frw_masks,frw_viability_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv,has_matter_era,int64,2048,2048,0,0,1.0,0.0,
+phase4_frw_masks,frw_viability_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv,has_late_accel,int64,2048,1016,1032,0,0.49609375,0.50390625,
+phase4_frw_masks,frw_viability_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv,smooth_H2,int64,2048,2048,0,0,1.0,0.0,
+phase4_frw_masks,frw_viability_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_viability_mask.csv,frw_viable,int64,2048,1016,1032,0,0.49609375,0.50390625,viability-related
+phase4_frw_masks,frw_lcdm_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv,frw_viable,int64,2048,1016,1032,0,0.49609375,0.50390625,viability-related
+phase4_frw_masks,frw_lcdm_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv,lcdm_like,int64,2048,63,1985,0,0.03076171875,0.96923828125,LCDM-like related
+phase4_frw_masks,frw_shape_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv,in_toy_corridor,int64,2048,1186,862,0,0.5791015625,0.4208984375,corridor-related
+phase4_frw_masks,frw_shape_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv,frw_viable,int64,2048,1016,1032,0,0.49609375,0.50390625,viability-related
+phase4_frw_masks,frw_shape_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv,lcdm_like,int64,2048,63,1985,0,0.03076171875,0.96923828125,LCDM-like related
+phase4_frw_masks,frw_shape_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv,shape_and_viable,int64,2048,154,1894,0,0.0751953125,0.9248046875,"viability-related, shape-related"
+phase4_frw_masks,frw_shape_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv,shape_and_lcdm,int64,2048,40,2008,0,0.01953125,0.98046875,"LCDM-like related, shape-related"
+phase4_frw_masks,frw_data_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv,has_matter_era,int64,2048,2048,0,0,1.0,0.0,
+phase4_frw_masks,frw_data_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv,has_late_accel,int64,2048,1016,1032,0,0.49609375,0.50390625,
+phase4_frw_masks,frw_data_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv,smooth_H2,int64,2048,2048,0,0,1.0,0.0,
+phase4_frw_masks,frw_data_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv,frw_viable,int64,2048,1016,1032,0,0.49609375,0.50390625,viability-related
+phase4_frw_masks,frw_data_probe_mask,/Users/dri/Documents/Projects/origin-axiom/phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv,data_ok,int64,2048,0,2048,0,0.0,1.0,data-probe-related

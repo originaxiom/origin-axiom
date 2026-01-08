@@ -2399,3 +2399,124 @@ strictly scoped.
 - This rung is purely infrastructural: no physics, no changes to
   Phase 3/4 numerics, only a correction to the program-level build
   graph to avoid infinite recursion.
+
+## 2026-01-08 — Stage 2: FRW corridor analysis (Rungs 1–3)
+
+### Stage 2 — FRW corridor analysis, rung 1: source inventory
+
+- Added Stage 2 script:
+  - `stage2/frw_corridor_analysis/src/analyze_frw_corridor_v1.py`
+- Purpose:
+  - Treat the Phase 4 FRW outputs as **frozen inputs** and build a compact,
+    machine-readable inventory of the masks and corridor summary used by
+    downstream Stage 2 rungs.
+- Inputs (read-only, all pre-existing Phase 4 artifacts):
+  - `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_corridors.json`
+- Output:
+  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung1_sources_v1.csv`
+    (one row per Phase 4 FRW table / JSON, with columns for path, size,
+    n_rows, n_cols, and a short role label).
+- Checks:
+  - All four Phase 4 FRW mask CSVs exist with `n_rows = 2048` and the expected
+    column counts.
+  - Corridor summary JSON (`phase4_F1_frw_corridors.json`) exists and is
+    readable (size ~ 600–700 bytes).
+
+### Stage 2 — FRW corridor analysis, rung 2: boolean census
+
+- Added Stage 2 script:
+  - `stage2/frw_corridor_analysis/src/analyze_frw_corridor_bool_census_v1.py`
+- Purpose:
+  - For each Phase 4 FRW mask, automatically detect boolean-like columns and
+    record `(n_true, n_false, n_na, fractions)` to quantify how populated each
+    diagnostic flag is before defining any “corridor families.”
+- Inputs (same frozen Phase 4 masks as rung 1):
+  - `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`
+- Output:
+  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung2_bool_census_v1.csv`
+    (one row per mask × boolean column, with counts and fractions).
+- Key census results from this run (2048 grid points total):
+  - `phase4_F1_frw_viability_mask.csv`  
+    - `has_matter_era`: 2048 true, 0 false, 0 NA  
+    - `has_late_accel`: 1016 true, 1032 false, 0 NA  
+    - `smooth_H2`: 2048 true, 0 false, 0 NA  
+    - `frw_viable`: 1016 true, 1032 false, 0 NA
+  - `phase4_F1_frw_lcdm_probe_mask.csv`  
+    - `frw_viable`: 1016 true, 1032 false, 0 NA  
+    - `lcdm_like`: 63 true, 1985 false, 0 NA
+  - `phase4_F1_frw_shape_probe_mask.csv`  
+    - `in_toy_corridor`: 1186 true, 862 false, 0 NA  
+    - `frw_viable`: 1016 true, 1032 false, 0 NA  
+    - `lcdm_like`: 63 true, 1985 false, 0 NA  
+    - `shape_and_viable`: 154 true, 1894 false, 0 NA  
+    - `shape_and_lcdm`: 40 true, 2008 false, 0 NA
+  - `phase4_F1_frw_data_probe_mask.csv`  
+    - `has_matter_era`: 2048 true, 0 false, 0 NA  
+    - `has_late_accel`: 1016 true, 1032 false, 0 NA  
+    - `smooth_H2`: 2048 true, 0 false, 0 NA  
+    - `frw_viable`: 1016 true, 1032 false, 0 NA  
+    - `data_ok`: 0 true, 2048 false, 0 NA (no external FRW distance data bundled yet).
+- Interpretation:
+  - Viability, matter era, and smoothness flags behave as expected: the FRW
+    toy sector enforces matter-era and smooth-H² everywhere, with viability
+    and late-acceleration cutting the grid roughly in half.
+  - LCDM-like flags are **sparse** (63/2048 and 40/2048 in the strict
+    shape+LCDM intersection), confirming that any “near-LCDM” corridor will be
+    highly selective.
+  - `data_ok` is uniformly false, making it explicit that all results at this
+    rung are driven by the **internal FRW toy model only**, with no external
+    distance data in play.
+
+### Stage 2 — FRW corridor analysis, rung 3: FRW family aggregates
+
+- Added Stage 2 script:
+  - `stage2/frw_corridor_analysis/src/analyze_frw_corridor_families_v1.py`
+- Purpose:
+  - Define a small set of coarse **FRW families** on the θ-grid as simple
+    combinations of the boolean masks previously audited in rungs 1–2, and
+    record how much of the grid each family occupies.
+- Nominal grid size:
+  - `n_grid = 2048` θ-samples (as inferred from the Phase 4 masks).
+- Families and current occupancy (from this run):
+  - `F1_FRW_VIABLE`  
+    - definition: points with `frw_viable = True` in the FRW viability mask  
+    - result: `n_theta = 1016`, `frac_of_grid ≈ 0.49609`
+  - `F2_LCDM_LIKE`  
+    - definition: points flagged as `lcdm_like = True` in the LCDM probe mask  
+    - result: `n_theta = 63`, `frac_of_grid ≈ 0.03076`
+  - `F3_TOY_CORRIDOR`  
+    - definition: points with `in_toy_corridor = True` in the shape probe mask  
+    - result: `n_theta = 1186`, `frac_of_grid ≈ 0.57910`
+  - `F4_CORRIDOR_AND_VIABLE`  
+    - definition: `in_toy_corridor = True` and `frw_viable = True`  
+    - result: `n_theta = 154`, `frac_of_grid ≈ 0.07520`
+  - `F5_CORRIDOR_AND_LCDM`  
+    - definition: `in_toy_corridor = True` and `lcdm_like = True`  
+    - result: `n_theta = 40`, `frac_of_grid ≈ 0.01953`
+  - `F6_DATA_OK`  
+    - definition: `data_ok = True` in the FRW data probe mask  
+    - result: `n_theta = 0`, `frac_of_grid = 0.00000` (no external data bundled).
+- Output:
+  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung3_families_v1.csv`
+    (one row per family with counts, fractions, and a short human-readable
+    definition).
+- Interpretation / status:
+  - FRW viability covers about half of the θ-grid, while the toy corridor
+    itself covers a bit more than half; their intersection is significantly
+    smaller (~7.5% of the grid).
+  - Strict LCDM-like behaviour is rare (~3% of the grid), and even rarer when
+    also in the toy corridor (~2%), matching the sparse flags seen in rung 2.
+  - `F6_DATA_OK` explicitly records that the current Stage 2 analysis is
+    **theory-driven only**, with the FRW distance data channel still empty.
+  - These families are **diagnostic only** at this rung: they do not feed
+    back into Phases 3–5 and remain candidates for later promotion to:
+    - a compact addition in Phase 5 (Option A), or
+    - a dedicated Stage 2 / Phase 6 FRW corridor paper (Option B).
+

@@ -1,0 +1,7 @@
+family_id,label,section,source_key,col_name,n_theta,frac_of_grid,n_rows_source,notes
+F1_FRW_VIABLE,FRW-viable points (Phase 4 viability mask),phase4_frw_masks,frw_viability_mask,frw_viable,1016,0.49609375,2048,Baseline FRW viability slice (late acceleration + matter era + smooth H2).
+F2_LCDM_LIKE,LCDM-like FRW points (Phase 4 LCDM probe),phase4_frw_masks,frw_lcdm_probe_mask,lcdm_like,63,0.03076171875,2048,Points flagged as LCDM-like in the Phase 4 LCDM probe mask.
+F3_TOY_CORRIDOR,Toy-corridor band (Phase 4 shape probe),phase4_frw_masks,frw_shape_probe_mask,in_toy_corridor,1186,0.5791015625,2048,Theta points that fall inside the Phase 4 toy corridor band.
+F4_CORRIDOR_AND_VIABLE,Corridor ∩ FRW-viable (Phase 4 shape probe),phase4_frw_masks,frw_shape_probe_mask,shape_and_viable,154,0.0751953125,2048,Intersection of toy corridor band with FRW-viable flag.
+F5_CORRIDOR_AND_LCDM,Corridor ∩ LCDM-like (Phase 4 shape probe),phase4_frw_masks,frw_shape_probe_mask,shape_and_lcdm,40,0.01953125,2048,Intersection of toy corridor band with LCDM-like flag.
+F6_DATA_OK,Data-compatible slice (Phase 4 data probe),phase4_frw_masks,frw_data_probe_mask,data_ok,0,0.0,2048,Points passing the external data filter; currently empty since no data are attached.
