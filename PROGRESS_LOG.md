@@ -2628,3 +2628,26 @@ This script:
     - a lightweight addition to Phase 5, or
     - a dedicated downstream Stage 2 / Phase 6 FRW-focused paper,
     depending on later stability and interpretability checks.
+
+### Stage 2 – FRW corridors
+
+#### Rung 6 – contiguity of FRW families (stage2/frw_corridor_analysis)
+
+- Added script `stage2/frw_corridor_analysis/src/analyze_frw_corridor_contiguity_v1.py`.
+- Script reads `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv` and, for each FRW family
+  \(F_1\)–\(F_5\), computes:
+  - total number of true points `n_theta` and their fraction of the full grid, `frac_of_grid`;
+  - the number of contiguous θ-segments in which the family is populated;
+  - per-segment diagnostics, written to
+    `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung6_contiguity_v1.csv`.
+- Current baseline (2048-point θ-grid):
+  - `F1_FRW_VIABLE`: 1 contiguous arc (1016 points, ~0.50 of grid).
+  - `F2_LCDM_LIKE`: 2 disjoint lobes (63 points, ~0.03 of grid).
+  - `F3_TOY_CORRIDOR`: 2 lobes (1186 points, ~0.58 of grid).
+  - `F4_CORRIDOR_AND_VIABLE`: 2 lobes (154 points, ~0.08 of grid).
+  - `F5_CORRIDOR_AND_LCDM`: 2 lobes (40 points, ~0.02 of grid).
+- Interpretation (Stage 2, non-claim): FRW viability forms a single broad corridor in θ,
+  while LCDM-like and corridor-related families split into two clean θ-bands. This favours
+  reading them as genuine geometric “corridors” rather than speckled noise, but no promotion
+  into Phase 4/5 PDFs is made at this rung.
+
