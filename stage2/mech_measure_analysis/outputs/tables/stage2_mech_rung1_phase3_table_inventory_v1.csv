@@ -1,0 +1,8 @@
+file_name,rel_path,suffix,size_bytes,kind,n_rows,n_cols,schema_hint
+mech_baseline_scan.csv,phase3/outputs/tables/mech_baseline_scan.csv,.csv,94231,csv,2048.0,4.0,"columns: theta, A0, A_floor, bound"
+mech_baseline_scan_diagnostics.json,phase3/outputs/tables/mech_baseline_scan_diagnostics.json,.json,354,json,,,"top-level dict keys: epsfloor, frac_bound, max_unconstrained, min_unconstrained, n_grid, q25_unconstrained, q50_unconstrained, q75_unconstrained, theta_max, theta_min"
+mech_binding_certificate.csv,phase3/outputs/tables/mech_binding_certificate.csv,.csv,127696,csv,2048.0,4.0,"columns: theta, A0, A, bound"
+mech_binding_certificate_diagnostics.json,phase3/outputs/tables/mech_binding_certificate_diagnostics.json,.json,434,json,,,"top-level dict keys: epsfloor, frac_bound, l2_diff, max_unconstrained, mean_A, mean_A0, mean_shift, min_unconstrained, n_grid, theta_max, ..."
+phase3_instability_penalty_v1.json,phase3/outputs/tables/phase3_instability_penalty_v1.json,.json,1041,json,,,"top-level dict keys: description, penalty_grid, source_stats_file, total_penalty"
+phase3_measure_v1_hist.csv,phase3/outputs/tables/phase3_measure_v1_hist.csv,.csv,1098,csv,40.0,3.0,"columns: bin_left, bin_right, count"
+phase3_measure_v1_stats.json,phase3/outputs/tables/phase3_measure_v1_stats.json,.json,2227,json,,,"top-level dict keys: A0_max, A0_mean, A0_min, A0_p01, A0_p25, A0_p50, A0_p75, description, eps_info, histogram, ..."

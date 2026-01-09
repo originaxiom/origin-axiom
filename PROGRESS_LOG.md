@@ -2891,3 +2891,98 @@ does not yet promote any new claims into the locked phases.
   axis and to record that, as of this date, FRW corridor results remain
   Stage 2 exploratory diagnostics, not phase-level claims.
 
+
+2026-01-09 — Stage 2: Phase 3 mech/measure analysis (Rungs 1–6)
+----------------------------------------------------------------
+Context:
+  - Build a Stage 2 analysis spine that inspects Phase 3 mechanism / measure
+    tables without altering any Phase 3 or Phase 5 claims.
+  - Goal is to identify well-behaved, probability-like quantities that could
+    serve as candidate "measures" or "flags" for future promotion.
+
+Rung 1 — Phase 3 table inventory
+  - Script:
+      stage2/mech_measure_analysis/src/inventory_phase3_tables_v1.py
+  - Output:
+      stage2/mech_measure_analysis/outputs/tables/
+        stage2_mech_rung1_phase3_table_inventory_v1.csv
+  - Function:
+      Scan phase3/outputs/tables for CSV/JSON tables, record file kind,
+      byte size, and (for CSVs) n_rows / n_cols. Provides a compact,
+      reproducible overview of the numerical tables behind Phase 3.
+
+Rung 2 — Column-level stats for Phase 3 tables
+  - Script:
+      stage2/mech_measure_analysis/src/analyze_phase3_table_columns_v1.py
+  - Output:
+      stage2/mech_measure_analysis/outputs/tables/
+        stage2_mech_rung2_phase3_column_stats_v1.csv
+  - Function:
+      For each Phase 3 CSV table, summarize per-column statistics
+      (min/max/mean, NaN counts, uniqueness, simple type hints, etc.).
+      For JSON diagnostics tables, record high-level summary entries.
+      This rung stays purely descriptive and stage-local.
+
+Rung 3 — Probability-like column candidates
+  - Script:
+      stage2/mech_measure_analysis/src/analyze_phase3_probability_like_columns_v1.py
+  - Output:
+      stage2/mech_measure_analysis/outputs/tables/
+        stage2_mech_rung3_phase3_probability_like_candidates_v1.csv
+  - Function:
+      Filter the Rung 2 stats for columns that behave like probabilities
+      or normalized weights (values within [0,1] up to small tolerances,
+      no extreme pathologies). Produces a list of candidate columns with
+      notes on why they were selected.
+
+Rung 4 — Measure vs flag role tagging
+  - Script:
+      stage2/mech_measure_analysis/src/select_phase3_measure_candidates_v1.py
+  - Output:
+      stage2/mech_measure_analysis/outputs/tables/
+        stage2_mech_rung4_phase3_measure_and_flag_candidates_v1.csv
+  - Function:
+      From the Rung 3 probability-like candidates, assign a tentative
+      "role" to each column: measure_candidate (continuous, graded) vs
+      flag_candidate (Boolean-ish or threshold-like). This does not
+      create new physics claims; it only records which existing Phase 3
+      quantities might naturally play which roles.
+
+Rung 5 — θ-profiles for candidate measures
+  - Script:
+      stage2/mech_measure_analysis/src/analyze_phase3_measure_theta_profiles_v1.py
+  - Output:
+      stage2/mech_measure_analysis/outputs/tables/
+        stage2_mech_rung5_phase3_measure_theta_profiles_v1.csv
+  - Function:
+      For each measure/flag candidate, extract its behaviour as a
+      function of θ across the Phase 3 baseline grid. Records basic
+      shape features (e.g., monotonicity flags, support, spread)
+      without enforcing any promotion or interpretation.
+
+Rung 6 — Preferred measure shortlist (Stage 2 only)
+  - Script:
+      stage2/mech_measure_analysis/src/select_phase3_preferred_measures_v1.py
+  - Output:
+      stage2/mech_measure_analysis/outputs/tables/
+        stage2_mech_rung6_phase3_preferred_measure_candidates_v1.csv
+  - Function:
+      Score each candidate based on coverage, boundedness, θ-profile
+      behaviour and other simple diagnostics, and assign decisions such
+      as "keep_as_primary", "keep_as_secondary", or "discard_for_now".
+      At this rung, all decisions remain strictly Stage 2:
+        * no modification of Phase 3 or Phase 5 papers,
+        * no new claims about a unique or "true" measure.
+      Instead, we obtain a transparent, reproducible shortlist that
+      future rungs can either promote (with further justification) or
+      consciously leave aside.
+
+Status:
+  - All Stage 2 mech/measure rungs (1–6) run cleanly from the current
+    Phase 3 artifacts and produce CSV outputs under:
+      stage2/mech_measure_analysis/outputs/tables/
+  - No feedback is written into the Phase 3 workflow or papers.
+  - Promotion of any candidate measure into the main phased program is
+    intentionally deferred to later rungs, after more physics-facing
+    scrutiny and potential coupling to the FRW corridor analysis.
+

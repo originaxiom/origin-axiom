@@ -1,0 +1,16 @@
+file_name,rel_path,kind,column_name,dtype,n_non_null,n_null,v_min,v_max,v_mean,v_std,note
+mech_baseline_scan.csv,phase3/outputs/tables/mech_baseline_scan.csv,csv,theta,float64,2048.0,0.0,0.0,6.280117346,3.140058672801758,1.814242132307387,numeric
+mech_baseline_scan.csv,phase3/outputs/tables/mech_baseline_scan.csv,csv,A0,float64,2048.0,0.0,0.00920044944,0.05768513414,0.03884385369803711,0.015859756444058192,numeric
+mech_baseline_scan.csv,phase3/outputs/tables/mech_baseline_scan.csv,csv,A_floor,float64,2048.0,0.0,0.02509730631,0.05768513414,0.040687149553925786,0.013364491981354858,numeric
+mech_baseline_scan.csv,phase3/outputs/tables/mech_baseline_scan.csv,csv,bound,int64,2048.0,0.0,0.0,1.0,0.25,0.4331184566140043,numeric
+mech_baseline_scan_diagnostics.json,phase3/outputs/tables/mech_baseline_scan_diagnostics.json,json,__STRUCTURE__,,,,,,,,"top-level dict keys: epsfloor, frac_bound, max_unconstrained, min_unconstrained, n_grid, q25_unconstrained, q50_unconstrained, q75_unconstrained, theta_max, theta_min"
+mech_binding_certificate.csv,phase3/outputs/tables/mech_binding_certificate.csv,csv,theta,float64,2048.0,0.0,0.0,6.280117345603815,3.1400586728019073,1.814242132302386,numeric
+mech_binding_certificate.csv,phase3/outputs/tables/mech_binding_certificate.csv,csv,A0,float64,2048.0,0.0,0.0092004494400285,0.0576851341354539,0.03884385369801924,0.015859756444022523,numeric
+mech_binding_certificate.csv,phase3/outputs/tables/mech_binding_certificate.csv,csv,A,float64,2048.0,0.0,0.0250973063148326,0.0576851341354539,0.04068714955509872,0.013364491979923909,numeric
+mech_binding_certificate.csv,phase3/outputs/tables/mech_binding_certificate.csv,csv,bound,int64,2048.0,0.0,0.0,1.0,0.25,0.4331184566140043,numeric
+mech_binding_certificate_diagnostics.json,phase3/outputs/tables/mech_binding_certificate_diagnostics.json,json,__STRUCTURE__,,,,,,,,"top-level dict keys: epsfloor, frac_bound, l2_diff, max_unconstrained, mean_A, mean_A0, mean_shift, min_unconstrained, n_grid, theta_max, ..."
+phase3_instability_penalty_v1.json,phase3/outputs/tables/phase3_instability_penalty_v1.json,json,__STRUCTURE__,,,,,,,,"top-level dict keys: description, penalty_grid, source_stats_file, total_penalty"
+phase3_measure_v1_hist.csv,phase3/outputs/tables/phase3_measure_v1_hist.csv,csv,bin_left,float64,40.0,0.0,0.0,0.056243006,0.028121502887499993,0.016859132205389215,numeric
+phase3_measure_v1_hist.csv,phase3/outputs/tables/phase3_measure_v1_hist.csv,csv,bin_right,float64,40.0,0.0,0.0014421284,0.057685134,0.0295636312375,0.01685913219990589,numeric
+phase3_measure_v1_hist.csv,phase3/outputs/tables/phase3_measure_v1_hist.csv,csv,count,int64,40.0,0.0,0.0,423.0,51.2,71.51804506018583,numeric
+phase3_measure_v1_stats.json,phase3/outputs/tables/phase3_measure_v1_stats.json,json,__STRUCTURE__,,,,,,,,"top-level dict keys: A0_max, A0_mean, A0_min, A0_p01, A0_p25, A0_p50, A0_p75, description, eps_info, histogram, ..."
