@@ -3385,3 +3385,120 @@ On the current toy configuration:
 - This supports internal consistency between Phase 3 and Phase 4, but argues against promoting the Phase 3 mechanical construction as an independent “probability measure on θ” at this stage.
 - Verdict: keep this as a Stage 2 joint-analysis rung (sanity and structure check). No promotion to Phase 5 claims unless later rungs reveal genuinely new constraints tied to the mechanical quantities.
 
+
+## 2026-01-09 — Stage 2 FRW/mech/joint analysis consolidation
+
+**Context.** With Phases 0–5 locked at Level A and the Phase 4 FRW corridor analysis completed, we introduced Stage 2 as a downstream analysis layer to (i) stress-test the FRW corridor structure, (ii) examine Phase 3 mechanism outputs as potential measures or flags over θ, and (iii) build a joint mech–FRW picture on a common θ-grid.
+
+### Stage 2 FRW corridor analysis (recap, rungs 1–9)
+
+- Confirmed that the Phase 4 FRW masks (viability, toy corridor, LCDM-like, intersections) are:
+  - well-behaved on the 2048-point θ-grid,
+  - contiguous or nearly contiguous,
+  - robust under stride-thinning (1, 2, 4, 8),
+  - and stable under small smoothing windows.
+- Checked family sizes, overlaps, contiguity, stride robustness, and smoothing effects via:
+  - `stage2/frw_corridor_analysis/outputs/tables/`:
+    - `stage2_frw_corridor_rung1_sources_v1.csv`
+    - `stage2_frw_corridor_rung3_families_v1.csv`
+    - `stage2_frw_corridor_rung4_family_overlap_v1.csv`
+    - `stage2_frw_corridor_rung6_contiguity_v1.csv`
+    - `stage2_frw_corridor_rung7_stride_robustness_v1.csv`
+    - `stage2_frw_corridor_rung8_smoothing_v1.csv`
+    - `stage2_frw_corridor_rung9_theta_star_alignment_v1.csv`
+  - `stage2/frw_corridor_analysis/outputs/figures/`:
+    - `stage2_frw_corridor_family_theta_hist_v1.pdf`
+    - `stage2_frw_corridor_family_omega_lambda_scatter_v1.pdf`
+- Result: FRW corridor families form a clean, robust backdrop; no sharp anomaly is seen at θ* ≈ 2.178458 on this grid.
+
+### Stage 2 mech measure analysis (new, rungs 1–6)
+
+Path: `stage2/mech_measure_analysis/`
+
+- **Rung 1 – inventory.**
+  - `inventory_phase3_tables_v1.py`
+  - Output: `stage2_mech_rung1_phase3_table_inventory_v1.csv`
+  - Inventoried all Phase 3 tables under `phase3/outputs/tables/`, tracking file type, size, and row/column counts.
+
+- **Rung 2 – column stats.**
+  - `analyze_phase3_table_columns_v1.py`
+  - Output: `stage2_mech_rung2_phase3_column_stats_v1.csv`
+  - Summarised basic statistics for numeric columns in Phase 3 CSVs (min, max, mean, std, finite fractions).
+
+- **Rung 3 – probability-like candidates.**
+  - `analyze_phase3_probability_like_columns_v1.py`
+  - Output: `stage2_mech_rung3_phase3_probability_like_candidates_v1.csv`
+  - Flagged columns with bounded, non-degenerate distributions as “probability-like” (potential measures or flags).
+
+- **Rung 4 – measure vs flag classification.**
+  - `select_phase3_measure_candidates_v1.py`
+  - Output: `stage2_mech_rung4_phase3_measure_and_flag_candidates_v1.csv`
+  - Split probability-like candidates into:
+    - measure-like (smooth, graded),
+    - flag-like (near-Boolean).
+
+- **Rung 5 – θ-profiles.**
+  - `analyze_phase3_measure_theta_profiles_v1.py`
+  - Output: `stage2_mech_rung5_phase3_measure_theta_profiles_v1.csv`
+  - Recorded how candidate measures/flags behave as functions of θ (shape, monotonicity, peaks).
+
+- **Rung 6 – preferred candidates.**
+  - `select_phase3_preferred_measures_v1.py`
+  - Output: `stage2_mech_rung6_phase3_preferred_measure_candidates_v1.csv`
+  - Selected a small set of numerically well-behaved candidates suitable as diagnostics or weights, but:
+    - no single column is promoted to a fundamental θ-measure at this rung.
+
+**Mech takeaway.** Phase 3 amplitudes provide smooth, well-controlled diagnostics over θ, but on the current toy setup they do not yet define an independent, physically motivated measure in θ.
+
+### Stage 2 joint mech–FRW analysis (new, rungs 1–3)
+
+Path: `stage2/joint_mech_frw_analysis/`
+
+- **Rung 1 – joint θ-grid.**
+  - `build_joint_theta_grid_v1.py`
+  - Output: `stage2_joint_theta_grid_v1.csv` (2048 rows × 17 columns)
+  - Built a single θ-aligned table combining:
+    - FRW scalars and masks from:
+      - `phase4_F1_frw_shape_probe_mask.csv`
+      - `phase4_F1_frw_data_probe_mask.csv`
+      - `phase4_F1_frw_viability_mask.csv`
+      - `phase4_F1_frw_lcdm_probe_mask.csv`
+    - mech amplitudes from:
+      - `mech_baseline_scan.csv`
+      - `mech_binding_certificate.csv`
+  - Verified θ-alignment between all inputs within a strict tolerance before joining.
+
+- **Rung 2 – family summaries on the joint grid.**
+  - `analyze_joint_mech_frw_family_summaries_v1.py`
+  - Output: `stage2_joint_mech_frw_rung2_family_summaries_v1.csv`
+  - Defined and summarised several FRW families on the joint grid:
+    - ALL_GRID, FRW_VIABLE, LCDM_LIKE, TOY_CORRIDOR,
+      CORRIDOR_AND_VIABLE, CORRIDOR_AND_LCDM, FRW_VIABLE_AND_DATA_OK.
+  - Confirmed that family sizes and fractions match the Stage 2 FRW corridor results, validating the joint construction.
+
+- **Rung 3 – joint correlations.**
+  - `analyze_joint_mech_frw_correlations_v1.py`
+  - Output: `stage2_joint_mech_frw_rung3_correlations_v1.csv`
+  - Computed correlations between:
+    - FRW scalars (`E_vac`, `omega_lambda`, `age_Gyr`) and
+    - mech amplitudes (`mech_baseline_*`, `mech_binding_*`).
+  - Found:
+    - very strong correlations between FRW scalars and mech amplitudes (|r| close to 1 for several pairs),
+    - consistent sign patterns (e.g. `E_vac` and `omega_lambda` correlate, `age_Gyr` anti-correlates),
+    - indicating that Phase 3 amplitudes act as smooth re-parameterisations of the FRW scalars on this grid.
+
+**Joint takeaway.** On the current 2048-point θ-grid and toy FRW setup:
+
+- mech amplitudes are highly redundant with FRW scalars,
+- no additional “hidden” structure emerges beyond what Phase 4 already encodes,
+- and there is no special anomaly at θ* ≈ 2.178458 visible at this resolution.
+
+### Status and promotion
+
+- All Stage 2 FRW, mech, and joint scripts are **purely downstream** of Phases 3 and 4 and can be rerun reproducibly.
+- At this rung:
+  - Stage 2 mech and joint results are **accepted as diagnostic infrastructure** and as evidence that the current toy setup is internally consistent.
+  - We **do not** yet promote any Stage 2 quantity to a fundamental θ-measure in Phase 5.
+  - A concise Option A summary (non-contradiction / redundancy statement) can later be added to the Phase 5 paper, with Stage 2 artifacts as backing evidence.
+- Stage 2 remains the natural home for future mech–FRW refinements (e.g. more realistic FRW data, sharper non-cancellation ansätze, or refined measure proposals) without disturbing the locked Phase 0–5 storyline.
+
