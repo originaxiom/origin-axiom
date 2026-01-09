@@ -3669,3 +3669,28 @@ yet editing the LaTeX.
   no new figures or tables are yet promoted into Phase 4/5. This belt will be
   the basis for a later Stage 2 → Phase 4/5 promotion design rung.
 
+
+---
+
+### 2026-01-09 — Stage 2 → Phase 4/5 promotion design (planning only)
+
+**Files:**
+
+- `stage2/docs/STAGE2_PROMOTION_DESIGN_v1.md`
+
+**Summary:**
+
+- Wrote a Stage 2 promotion design doc that:
+  - distinguishes **Option A** (minimal diagnostic/supporting promotions into Phase 4/5)
+    from **Option B** (a future dedicated FRW/measure phase),
+  - lists concrete Stage 2 artifacts that could be candidates for Option A (FRW
+    viability fractions, FRW θ histograms, a joint mech–FRW correlation figure,
+    a short list of preferred measure candidates, and a negative-result note
+    about the current `data_ok` flag),
+  - defines strict promotion criteria (reproducibility, robustness, interpretability,
+    narrative alignment, and θ★ neutrality),
+  - outlines future promotion rungs (P1–P4) needed to actually move any Stage 2
+    artifact into Phase 3/4/5.
+- No promotions were enacted in this rung; all Stage 2 outputs remain internal
+  diagnostics. This doc acts as a contract for any future Option A promotions.
+
