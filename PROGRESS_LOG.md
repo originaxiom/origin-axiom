@@ -3642,3 +3642,30 @@ yet editing the LaTeX.
 - Recorded this as a **negative-result sanity check**: nothing in the present FRW corridor machinery “snaps” to θ★ in an interesting way yet.
 - Explicitly gated this rung as **Stage2-internal only** (no promotion to Phase 4/5); it serves as a baseline for future FRW+data or joint mech–FRW refinements.
 
+
+---
+
+### 2026-01-09 — Stage 2 belt overview (FRW, mech, joint, data, θ*)
+
+**Files:**
+
+- `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md`
+
+**Summary:**
+
+- Wrote a Stage 2 master overview describing:
+  - FRW corridor belt (rungs 1–9),
+  - mech/measure belt (rungs 1–6),
+  - joint mech–FRW belt (rungs 1–4),
+  - FRW data probe belt (rungs 1–2),
+  - θ★–FRW alignment diagnostic rung.
+- Collected the main nontrivial outcomes in one place:
+  - broad, contiguous FRW-viable band (~50% of θ grid),
+  - robust FRW corridor families under contiguity/stride/smoothing tests,
+  - strong correlations between Phase 3 mech scalars and Phase 4 vacuum sector,
+  - current FRW data mask “data_ok” is empty,
+  - θ★ lies inside the viable band but is not singled out by current corridors.
+- Explicitly recorded gating: all Stage 2 artifacts remain **internal diagnostics**;
+  no new figures or tables are yet promoted into Phase 4/5. This belt will be
+  the basis for a later Stage 2 → Phase 4/5 promotion design rung.
+
