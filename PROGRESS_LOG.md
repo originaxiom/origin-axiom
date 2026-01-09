@@ -1,4 +1,11 @@
 
+## NOTE ON LEGACY ENTRIES
+
+Early entries in this log predate the current phased layout and may reference
+legacy paths (e.g., `src/`, `data/`, `figures/`). The canonical structure is
+now Phase 0–5 plus the Stage 2 diagnostic belts (see `README.md` and
+`docs/STATE_OF_REPO.md`).
+
 ## 2025-12-10 — θ*-agnostic scalar vacuum: dispersion, dephasing, noise
 
 **Files & scripts**
@@ -3719,4 +3726,3 @@ yet editing the LaTeX.
   - clarifies how Stage 2 feeds into the separate Option A/B promotion design.
 - No new computations or promotions were enacted; this rung is pure synthesis
   to make Stage 2 readable and auditable as a whole.
-

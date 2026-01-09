@@ -25,6 +25,10 @@ commit X and generated the following additional results”.
 
 ## 2. Possible Stage II directions
 
+Note: **Stage II** (future phases beyond Stage I) is distinct from the
+existing **Stage 2** diagnostic belts under `stage2/`, which are already
+implemented and remain non-canonical.
+
 ### 2.1 Data-aware FRW probes (Phase 6?)
 
 One natural next step is to use the existing **FRW toy infrastructure** more
@@ -167,3 +171,18 @@ coherence or auditability.
   - `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`
   and is **not yet permitted** as of 2026-01-09.
 
+### Stage 2 – Mechanism/measure axis (Rungs 1–6)
+
+- Implemented `stage2/mech_measure_analysis` to inventory Phase 3 tables,
+  flag measure-like candidates, and produce diagnostic summaries.
+- This axis is strictly downstream and does **not** modify Phase 3/5 claims.
+
+### Stage 2 – Joint mech–FRW axis (Rungs 1–4)
+
+- Implemented `stage2/joint_mech_frw_analysis` to align Phase 3 mechanisms
+  with Phase 4 FRW masks on a shared θ grid and compute joint diagnostics.
+
+### Stage 2 – FRW data-probe audit (Rungs 1–2)
+
+- Implemented `stage2/frw_data_probe_analysis` to audit the current
+  data-probe hooks without promoting any data-driven claims.

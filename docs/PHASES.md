@@ -32,12 +32,18 @@ This repository is organized as a phased program. Each phase is allowed to make 
 **Canonical artifacts:** Phase 2 paper + canonical figures in `phase2/outputs/figures/`.
 
 
-## Phase 3 — Flavor-sector calibration add-on
-**Purpose:** calibrate a candidate theta corridor against CKM/PMNS phases under a fixed ansatz, producing a theta filter that is ledger-compatible without claiming an Origin Axiom proof or a fundamental value of theta-star.
+## Phase 3 — Mechanism module
+**Purpose:** lock a baseline non-cancellation floor on a global amplitude and
+provide binding-style diagnostics at the mechanism level.
 
-**Allowed claim types:** corridor-compatible fit-interval statements tied to a declared ansatz and frozen CKM/PMNS snapshots (no OA derivation, no SM parameter reduction).
+**Allowed claim types:** mechanism-level existence/robustness/diagnostic
+statements (no corridor narrowing, no flavor calibration).
 
-**Canonical artifacts:** Phase 3 paper (`phase3/artifacts/origin-axiom-phase3.pdf`), fit summaries in `phase3/outputs/tables/`, and the phase-03 theta filter in `phase3/outputs/theta_filter/phase_03_theta_filter.json`.
+**Canonical artifacts:** Phase 3 paper (`phase3/artifacts/origin-axiom-phase3.pdf`)
+and tables in `phase3/outputs/tables/`.
+
+**Archived flavor add-on:** flavor-sector calibration is archived under
+`experiments/phase3_flavor_v1/` and is non-canonical.
 
 ## Next phases (placeholders)
 Future phases must:
@@ -46,3 +52,10 @@ Future phases must:
 3) add claim IDs to the global index,
 4) obey Phase 0 governance rules.
 
+## Stage 2 — Diagnostic belts (non-canonical, in progress)
+Stage 2 lives under `stage2/` and remains strictly downstream of Phase 3/4
+artifacts. Active belts include:
+- `stage2/frw_corridor_analysis`
+- `stage2/mech_measure_analysis`
+- `stage2/joint_mech_frw_analysis`
+- `stage2/frw_data_probe_analysis`

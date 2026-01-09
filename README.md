@@ -43,52 +43,33 @@ The Origin-Axiom program is deliberately staged:
   - Specify toolchains, logging, and reproducibility requirements.
   - Lock in a **Phase 0 Contract** PDF that later work must honor.
 
-- **Phase 1 – Conceptual Skeleton (Locked)**  
-  - Build a **narrative & conceptual scaffold** for the axiom.
-  - Frame the role of:
-    - vacuum,
-    - cancellation,
-    - phase twists,
-    - and emergent layers (fields, particles, spacetime).
-  - Produce a **Phase 1 document** that is philosophically rich but clearly labeled as **pre-technical**.
+- **Phase 1 – Toy Ensembles (Locked)**  
+  - Build controlled toy ensembles where a residue can be computed.
+  - Quantify existence, robustness, and scaling in toy settings only.
+  - Produce the Phase 1 paper and canonical figures.
 
-- **Phase 2 – Mechanism Proposals (Under Audit)**  
-  - Attempt explicit formulations of the “twist”:
-    - analytic constructs,
-    - number-theoretic candidates,
-    - functional forms,
-    - and relational structures.
-  - Many early attempts (e.g., naive uses of φ^φ) were **over-claimed** and have been **retired or demoted**.
-  - Phase 2 is in a **repair / clarity** stage: keep the promising mechanisms, discard the ones that were not honestly supported.
+- **Phase 2 – Mode-Sum + Bounded FRW Viability (Under Audit)**  
+  - Implement the residue in a stricter mode-sum model.
+  - Encode corridor/filter language and bounded FRW-style diagnostics.
+  - Keep claims explicitly toy/diagnostic.
 
-- **Phase 3 – Ledger & Constraints (Active)**  
-  - Treat candidate mechanisms as **hypotheses** and build a ledger:
-    - what they imply,
-    - where they contradict known physics,
-    - what they would need to predict.
-  - Build a **log of tests, filters, and constraints**:
-    - simple toy models,
-    - parameter scans,
-    - analytic bounding arguments,
-    - and explicit “this fails because…” records.
-  - Aim for a **Phase 3 document** that is *modest but sharp*: more like a constraint ledger and roadmap than a grand unified claim.
+- **Phase 3 – Mechanism Module (Active)**  
+  - Lock a baseline non-cancellation floor on a global amplitude.
+  - Provide binding-style diagnostics and mechanism-level tables.
+  - No flavor calibration or corridor narrowing in the canonical Phase 3.
 
-- **Phase 4 – Concrete Confrontations (Future)**  
-  - Only after a disciplined Phase 3:
-    - attempt real contact with data / known structures:
-      - Standard Model patterns,
-      - cosmological parameters,
-      - FRW / ΛCDM structures,
-      - vacuum energy scales, etc.
-  - The key is **not** “fit everything”; it’s:
-    - “if this axiom is even approximately right, where would its fingerprints necessarily show up?”
+- **Phase 4 – FRW Toy Diagnostics (Diagnostic Stub)**  
+  - Map Phase 3 outputs into FRW-style toy backgrounds and viability masks.
+  - Provide a data-probe hook without claiming real-data contact.
 
-- **Phase 5 – Synthesis, Publication & Ethical Framing (Future)**  
-  - If any substantive, durable structure survives:
-    - formalize into publishable material,
-    - design *multiple* independent tests / falsifiers,
-    - articulate philosophical & societal implications,
-    - and write **clear safeguards against misuse or misinterpretation**.
+- **Phase 5 – Interface & Sanity Layer (Rung 0–1)**  
+  - Read locked Phase 3/4 outputs and emit interface summaries/sanity tables.
+  - No new mechanism or cosmology claims.
+
+- **Stage 2 – Diagnostic Belts (In Progress)**  
+  - Downstream analyses over Phase 3/4 outputs: FRW corridor analysis,
+    mechanism/measure analysis, joint mech–FRW analysis, and FRW data-probe audit.
+  - Non-canonical until promoted.
 
 Each phase is gated. We do not “declare success and move on”; we **audit and repair** earlier phases as new insight arrives.
 
@@ -103,35 +84,27 @@ Each phase is gated. We do not “declare success and move on”; we **audit and
   - `grounding/` – Criteria for rigor, logging, and anti-drift.
   - `logs/` – Decisions, audits, and corrections.
 
-- `phase1/` – Conceptual Foundation (Locked)
-  - `paper/` – Phase 1 conceptual document (narrative and high-level structure).
-  - `figures/` – Schematic diagrams of:
-    - vacuum as cancellation,
-    - phase twists,
-    - multi-layer emergence (vacuum → fields → particles → structures).
+- `phase1/` – Toy ensembles (locked)
+  - `paper/` – Phase 1 toy-domain paper.
+  - `outputs/figures/` – Canonical toy figures.
 
-- `phase2/` – Mechanism Attempts (Under Audit)
-  - `paper/` – Mechanism proposals and revisions.
-  - `src/` – Exploratory code for:
-    - candidate constants,
-    - scaling relations,
-    - dynamical suggestions.
-  - `retired/` – Ideas that were tested and **found wanting**. Not erased, but clearly flagged.
+- `phase2/` – Mode-sum model + bounded FRW diagnostics (under audit)
+  - `paper/` – Phase 2 paper.
+  - `src/` – Mode-sum + FRW-style diagnostic code.
 
-- `phase3/` – Ledger & Constraint Engine (Active)
-  - `paper/` – The Phase 3 “ledger” document.
-  - `src/phase3/` – Code for:
-    - testing candidate mechanisms,
-    - scanning parameter spaces,
-    - checking consistency with known structures.
+- `phase3/` – Mechanism module (active)
+  - `paper/` – Phase 3 mechanism document.
+  - `src/phase3/` – Mechanism diagnostics and scans.
   - `workflow/` – Snakemake workflows:
     - reproducible runs,
     - logged outputs,
     - artifact generation (plots, tables, PDFs).
   - `outputs/` – Logged and timestamped artifacts.
 
-- `phase4/`, `phase5/` – Placeholder/scaffolding
-  - Structure is sketched, but content is gated by earlier phases.
+- `phase4/` – FRW toy diagnostics (stub)
+- `phase5/` – Interface + sanity layer (rung 0–1)
+- `stage2/` – Diagnostic belts (downstream, non-canonical)
+- `experiments/phase3_flavor_v1/` – Archived flavor-sector add-on (non-canonical)
 
 - `docs/` – Cross-phase documentation
   - High-level overviews, diagrams, and auxiliary notes.

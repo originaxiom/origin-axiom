@@ -19,6 +19,8 @@ If you are reading this, you should have skimmed `README.md` and
 - People who want to **extend** the program (e.g. add diagnostics, new phases,
   or data-probe layers) while keeping the governance and reproducibility
   discipline intact.
+- People who want to run the **Stage 2 diagnostic belts** downstream of
+  Phase 3/4 outputs.
 - The core author(s), who treat this as the canonical record of the project.
 
 It is **not** intended as a polished “plug-and-play” library; it is a
@@ -83,6 +85,12 @@ Each major phase has a **gate script** under `scripts/`. For example:
 You can invoke them directly when working on a particular phase. Consult the
 script headers and the Phase papers’ reproducibility appendices for exact
 commands.
+
+### 3.3 Stage 2 diagnostics (downstream only)
+
+Stage 2 work lives under `stage2/` and is **strictly downstream** of the
+Phase 3/4 artifacts. It does not modify Phase papers or claims. See the
+local README or docs within each Stage 2 module for entry points.
 
 ---
 

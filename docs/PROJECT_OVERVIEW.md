@@ -53,6 +53,14 @@ Stage I is everything currently implemented in this repo:
 - **Phase 4**: FRW toy mappings and viability masks.
 - **Phase 5**: interface and cross-phase sanity layer.
 
+Stage 2 is a **diagnostic belt** that is already in progress and lives under
+`stage2/`. It stays strictly downstream of Phase 3/4 outputs and remains
+non-canonical until explicitly promoted. Active axes include:
+- `stage2/frw_corridor_analysis`
+- `stage2/mech_measure_analysis`
+- `stage2/joint_mech_frw_analysis`
+- `stage2/frw_data_probe_analysis`
+
 You can think of Stage I as building a **rigid spine**:
 
 1. **Phase 0 – Governance and filters**
@@ -200,6 +208,9 @@ outside this phased program. When a legacy idea is worth salvaging, it should:
    `LEGACY_MIGRATIONS.md`).
 2. Be reintroduced as a **cleaned-up** script, module, or phase extension that
    passes through the same gate / artifact / claims discipline as Stage I.
+
+Flavor-sector Phase 3 work is archived under `experiments/phase3_flavor_v1/`
+and is non-canonical.
 
 This ensures that the Stage I program remains a **coherent, auditable
 experiment**, even as it evolves.
