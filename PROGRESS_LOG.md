@@ -3502,3 +3502,53 @@ Path: `stage2/joint_mech_frw_analysis/`
   - A concise Option A summary (non-contradiction / redundancy statement) can later be added to the Phase 5 paper, with Stage 2 artifacts as backing evidence.
 - Stage 2 remains the natural home for future mech–FRW refinements (e.g. more realistic FRW data, sharper non-cancellation ansätze, or refined measure proposals) without disturbing the locked Phase 0–5 storyline.
 
+
+## 2026-01-09 — Stage 2: FRW data-probe audit (rungs 1–2)
+
+**Scope.**  
+Audit the FRW data-probe mask produced in Phase 4, focusing on the status of the
+aggregate data flag `frw_data_ok` and its relation to the FRW viability corridor.
+No Phase-3/4 code was changed; this is a pure Stage-2 downstream analysis.
+
+**Code / scripts.**
+
+- `stage2/frw_data_probe_analysis/src/analyze_frw_data_probes_v1.py`
+  - Rung 1: column-level stats for FRW data probes.
+- `stage2/frw_data_probe_analysis/src/analyze_frw_data_probes_vs_viability_v1.py`
+  - Rung 2: 2×2 cross-tables vs `frw_viable`.
+
+**Inputs.**
+
+- `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`  (2048 × 11)
+- `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`   (2048 × 8)
+
+**Outputs.**
+
+- `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_data_probe_rung1_column_stats_v1.csv`
+- `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_data_probe_rung2_viability_cross_v1.csv`
+- Doc: `stage2/frw_data_probe_analysis/docs/STAGE2_FRW_DATA_PROBE_AUDIT_v1.md`
+
+**Key results.**
+
+- `has_matter_era` and `smooth_H2` are **always true** on the 2048-point θ grid  
+  → they act as structural sanity checks in the current snapshot (no extra cut).
+- `has_late_accel` and `frw_viable` agree exactly:
+  - 1016 points true, 1032 false  
+  → viability is effectively equivalent to “late acceleration present”
+    once the always-true checks are accounted for.
+- `data_ok` is **identically false**:
+  - `frac_true = 0.0`, `frac_false = 1.0`
+  - Among the 1016 viable points: none satisfy `data_ok`  
+    (`FRW_VIABLE ∧ DATA_OK` is empty).
+
+**Interpretation.**
+
+- The Phase-4 FRW pipeline already supports a nontrivial viability corridor
+  (≈ 50% of the θ grid) and the Stage-2 corridor rungs explore intersections
+  with toy corridor and LCDM-like masks.
+- In the current snapshot, the aggregate data flag `frw_data_ok` is **never
+  satisfied**, so all FRW families should be interpreted as **pre-data corridors**.
+- This is treated as a **pipeline state** (“data gate not yet open”), not as a
+  physical exclusion of the origin-axiom corridor. Tuning and validating the
+  data probes (and `frw_data_ok` in particular) is deferred to later phases.
+
