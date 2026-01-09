@@ -3552,3 +3552,41 @@ No Phase-3/4 code was changed; this is a pure Stage-2 downstream analysis.
   physical exclusion of the origin-axiom corridor. Tuning and validating the
   data probes (and `frw_data_ok` in particular) is deferred to later phases.
 
+
+## 2026-01-09 — Stage 2: overview and promotion map
+
+**Scope.**  
+Summarize the implemented Stage 2 rungs (FRW corridors, mech/measure analysis,
+joint mech–FRW analysis, FRW data-probe audit) and classify their outputs as:
+promotion candidates, support-only diagnostics, or parked items.
+
+**Docs.**
+
+- `stage2/docs/STAGE2_OVERVIEW_AND_PROMOTION_MAP_v1.md`
+
+**Key points.**
+
+- FRW corridor rungs (1–9) are now treated as a stable Stage 2 belt:
+  - Families F1–F5, their fractions of the θ grid, contiguity, and robustness
+    checks are all reproducible and downstream-only.
+  - F6 (`frw_data_ok`) is currently empty and is explicitly parked for a
+    future revision of the Phase 4 data gate.
+- Mech/measure rungs (1–6) identify a small set of smooth, probability-like
+  measure candidates from Phase 3, without promoting any single choice to a
+  physical “measure over θ” yet.
+- Joint mech–FRW rungs (1–4) build a joint θ-grid and show strong
+  correlations between {E_vac, ω_Λ, age_Gyr} and the mechanical amplitudes,
+  while remaining strictly at the level of correlation (no causal claim).
+- FRW data-probe rungs (1–2) clarify that, in the current Phase 4 snapshot,
+  `frw_viable` is equivalent to “late acceleration present” under always-true
+  sanity checks, and that `frw_data_ok` is not yet satisfied anywhere.
+
+**Interpretation.**
+
+- Stage 2 is now a coherent, reproducible analysis belt between Phase 3/4
+  artifacts and any future Phase 4/5 text or new phases.
+- The newly added overview document acts as a promotion map:
+  - marking which Stage 2 artifacts are ready to be cited or plotted,
+  - which remain as support-only diagnostics,
+  - and which are parked until upstream code/claims evolve.
+
