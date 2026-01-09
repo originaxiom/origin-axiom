@@ -1,0 +1,6 @@
+column,dtype,n_rows,n_na,n_true,n_false,frac_true,frac_false,note
+has_matter_era,int64,2048,0,2048,0,1.0,0.0,always_true
+has_late_accel,int64,2048,0,1016,1032,0.49609375,0.50390625,
+smooth_H2,int64,2048,0,2048,0,1.0,0.0,always_true
+frw_viable,int64,2048,0,1016,1032,0.49609375,0.50390625,
+data_ok,int64,2048,0,0,2048,0.0,1.0,always_false
