@@ -3625,3 +3625,20 @@ yet editing the LaTeX.
   that Phase 4/5 can implement later under separate, tightly scoped rungs that
   actually touch the LaTeX.
 
+
+---
+
+### 2026-01-09 — Stage 2: θ★–FRW alignment diagnostic (rung θ★–FRW–v1)
+
+**Files:**
+
+- `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_theta_star_alignment_v1.csv`
+- `stage2/theta_star_analysis/docs/STAGE2_THETA_STAR_ALIGNMENT_v1.md`
+
+**Summary:**
+
+- Read off the θ★ ≈ φ^φ alignment results for the FRW families (viable band, LCDM-like, toy corridor, intersections).
+- Verified that θ★ lies in the broad FRW-viable band but is not specially selected by the current toy corridor or LCDM-like families.
+- Recorded this as a **negative-result sanity check**: nothing in the present FRW corridor machinery “snaps” to θ★ in an interesting way yet.
+- Explicitly gated this rung as **Stage2-internal only** (no promotion to Phase 4/5); it serves as a baseline for future FRW+data or joint mech–FRW refinements.
+
