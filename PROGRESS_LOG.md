@@ -3694,3 +3694,29 @@ yet editing the LaTeX.
 - No promotions were enacted in this rung; all Stage 2 outputs remain internal
   diagnostics. This doc acts as a contract for any future Option A promotions.
 
+
+---
+
+### 2026-01-09 — Stage 2 overview and verdict (diagnostic synthesis)
+
+**Files:**
+
+- `stage2/docs/STAGE2_OVERVIEW_v1.md`
+
+**Summary:**
+
+- Wrote a Stage 2 overview doc that:
+  - explains Stage 2's role as a *diagnostic belt* downstream of Phase 3
+    (mechanism) and Phase 4 (FRW),
+  - summarizes the FRW corridor rungs (1–9), mech/measure rungs (1–6),
+    joint mech–FRW rungs (1–4), FRW data probe rungs (1–2), and the θ★
+    diagnostic rung,
+  - records what nontrivial structure we *did* find (robust FRW bands,
+    smooth mechanism-derived scalars, strong mech–FRW correlations, and a clean
+    negative result for the current `data_ok` flag),
+  - records what we *did not* find (no data corridor, no canonical measure,
+    no special promotion of θ★),
+  - clarifies how Stage 2 feeds into the separate Option A/B promotion design.
+- No new computations or promotions were enacted; this rung is pure synthesis
+  to make Stage 2 readable and auditable as a whole.
+
