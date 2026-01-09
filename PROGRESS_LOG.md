@@ -3181,3 +3181,173 @@ On the current toy configuration:
   - a future appendix (Phase 5+) describing the structure of the mech–FRW toy pipeline.
 - For now it remains strictly in Stage 2, with the results treated as **exploratory diagnostics only**.
 
+
+## 2026-01-09 — Stage 2: FRW corridors, mech measures, and joint mech–FRW grid
+
+### Stage 2 — FRW corridor analysis (rungs 1–9)
+
+- **Rung 1 — Source inventory (FRW masks & corridors)**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung1_sources_v1.csv`  
+  - Role: Verifies existence, sizes, and basic schema for the Phase 4 FRW masks and corridors:  
+    - `phase4_F1_frw_viability_mask.csv`  
+    - `phase4_F1_frw_lcdm_probe_mask.csv`  
+    - `phase4_F1_frw_shape_probe_mask.csv`  
+    - `phase4_F1_frw_data_probe_mask.csv`  
+    - `phase4_F1_frw_corridors.json`  
+
+- **Rung 2 — Boolean census over FRW masks**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_bool_census_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung2_bool_census_v1.csv`  
+  - Role: Counts TRUE/FALSE/NA for all “boolean-like” FRW flags (e.g. `has_matter_era`, `has_late_accel`, `smooth_H2`, `frw_viable`, `lcdm_like`, `in_toy_corridor`, `shape_and_viable`, `shape_and_lcdm`, `data_ok`).  
+  - Takeaway:  
+    - FRW viability and late acceleration are populated in a substantial fraction of the grid.  
+    - LCDM-like and shape-and-LCDM are rare but non-empty.  
+    - `data_ok` is uniformly false in the current repo config (no external FRW dataset bundled).
+
+- **Rung 3 — Family definitions on the FRW grid**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_families_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung3_families_v1.csv`  
+  - Families (on a 2048-point θ grid):  
+    - `F1_FRW_VIABLE` — all FRW-viable points (≈ 49.6% of grid).  
+    - `F2_LCDM_LIKE` — LCDM-like points (≈ 3.1% of grid).  
+    - `F3_TOY_CORRIDOR` — toy FRW corridor mask (≈ 57.9% of grid).  
+    - `F4_CORRIDOR_AND_VIABLE` — viable subset of the corridor (≈ 7.5% of grid).  
+    - `F5_CORRIDOR_AND_LCDM` — LCDM-like subset of the corridor (≈ 2.0% of grid).  
+    - `F6_DATA_OK` — currently empty (0% of grid).  
+
+- **Rung 4 — Family overlap table**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_family_overlap_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung4_family_overlap_v1.csv`  
+  - Role: Quantifies pairwise overlaps among F1–F6 (e.g. what fraction of `F2_LCDM_LIKE` sits inside `F3_TOY_CORRIDOR`, what fraction of `F4_CORRIDOR_AND_VIABLE` overlaps with LCDM-like, etc.).  
+  - Takeaway: LCDM-like points are rare, and LCDM-like-in-corridor is rarer still; the corridor itself is broad.
+
+- **Rung 5 — FRW corridor family plots (θ & ΩΛ)**  
+  - Script: `stage2/frw_corridor_analysis/src/plot_frw_corridor_families_v1.py`  
+  - Outputs (PDF figures):  
+    - `stage2/frw_corridor_analysis/outputs/figures/stage2_frw_corridor_family_theta_hist_v1.pdf`  
+    - `stage2/frw_corridor_analysis/outputs/figures/stage2_frw_corridor_family_omega_lambda_scatter_v1.pdf`  
+  - Role:  
+    - θ-histogram showing where each family (F1–F5) lives on the θ grid.  
+    - ΩΛ vs θ scatter with family membership as overlaid masks.  
+  - Takeaway: the FRW-viable region is contiguous in θ; the toy corridor is broad and includes LCDM-like sub-pockets but does not obviously “pin” θ to a very narrow band.
+
+- **Rung 6 — Contiguity analysis in θ**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_contiguity_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung6_contiguity_v1.csv`  
+  - Role: For each family F1–F5, decomposes the true mask into contiguous θ segments and counts them.  
+  - Takeaway:  
+    - FRW viability is realized as a **single contiguous block**.  
+    - LCDM-like and corridor-related families appear as **one or two segments**, suggesting corridor-like structure rather than random speckling.
+
+- **Rung 7 — Stride robustness**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_stride_robustness_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung7_stride_robustness_v1.csv`  
+  - Role: Checks whether family fractions and segmentation are stable under decimation of the θ grid (strides 1, 2, 4, 8).  
+  - Takeaway: fractions and segment counts are robust under coarsening, which is **consistent with** corridor-like structure and **inconsistent with** isolated, grid-sensitive spikes.
+
+- **Rung 8 — Smoothing robustness**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_smoothing_v1.py`  
+  - Output: `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung8_smoothing_v1.csv`  
+  - Role: Applies small moving-window smoothers (window sizes 1, 3, 5) to the family masks and compares before/after masks via Jaccard index and segment counts.  
+  - Takeaway: For all families F1–F5, masks are **exactly identical** under these small smoothers (Jaccard = 1), confirming that corridor shapes are not artifacts of single-grid noise.
+
+- **Rung 9 — Segments and θ★ alignment**  
+  - Script: `stage2/frw_corridor_analysis/src/analyze_frw_corridor_segments_theta_star_v1.py`  
+  - Outputs:  
+    - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_segments_v1.csv`  
+    - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_theta_star_alignment_v1.csv`  
+  - Role:  
+    - Logs θ-segment structure of each family.  
+    - For each family, records the θ in that family closest to θ★ ≈ 2.178458 and its distance |Δθ|.  
+  - Takeaway: θ★ lies well inside the **FRW-viable block**, but the closest family hits in corridor-related sets are at |Δθ| ≈ 1.1257, so we **do not** claim special corridor pinning of θ★ at this rung. This remains a **diagnostic observation**, not a promoted claim.
+
+### Stage 2 — Mechanism / measure analysis (rungs 1–6)
+
+- **Rung 1 — Phase 3 table inventory**  
+  - Script: `stage2/mech_measure_analysis/src/inventory_phase3_tables_v1.py`  
+  - Output: `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung1_phase3_table_inventory_v1.csv`  
+  - Role: Enumerates all Phase 3 mechanism tables and their basic schema:  
+    - `mech_baseline_scan.csv`  
+    - `mech_baseline_scan_diagnostics.json`  
+    - `mech_binding_certificate.csv`  
+    - `mech_binding_certificate_diagnostics.json`  
+    - `phase3_instability_penalty_v1.json`  
+    - `phase3_measure_v1_hist.csv`  
+    - `phase3_measure_v1_stats.json`  
+
+- **Rung 2 — Column-level stats**  
+  - Script: `stage2/mech_measure_analysis/src/analyze_phase3_table_columns_v1.py`  
+  - Output: `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung2_phase3_column_stats_v1.csv`  
+  - Role: For each CSV column: type inference, min/max/mean/std, and simple flags (e.g. is it bounded in [0,1]?, does it look boolean?).
+
+- **Rung 3 — Probability-like candidates**  
+  - Script: `stage2/mech_measure_analysis/src/analyze_phase3_probability_like_columns_v1.py`  
+  - Output: `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung3_phase3_probability_like_candidates_v1.csv`  
+  - Role: Filters the column stats to columns that numerically behave like probabilities (in [0,1] with reasonable empirical distribution).  
+  - Takeaway: Produces a shortlist of candidate measure-like and flag-like columns.
+
+- **Rung 4 — Measure vs flag split**  
+  - Script: `stage2/mech_measure_analysis/src/select_phase3_measure_candidates_v1.py`  
+  - Output: `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung4_phase3_measure_and_flag_candidates_v1.csv`  
+  - Role: Separates candidates into:  
+    - “measure-like” scalars (continuous in [0,1]),  
+    - “flag-like” diagnostics (near-boolean).  
+  - Takeaway: We identify **6 measure-like** and **2 flag-like** candidates worth tracking.
+
+- **Rung 5 — θ profiles of candidate measures**  
+  - Script: `stage2/mech_measure_analysis/src/analyze_phase3_measure_theta_profiles_v1.py`  
+  - Output: `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung5_phase3_measure_theta_profiles_v1.csv`  
+  - Role: For each candidate, computes basic θ-profile descriptors (e.g. mean, variance, monotonicity indicators).
+
+- **Rung 6 — Preferred measure shortlist**  
+  - Script: `stage2/mech_measure_analysis/src/select_phase3_preferred_measures_v1.py`  
+  - Output: `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung6_phase3_preferred_measure_candidates_v1.csv`  
+  - Role: Applies stricter criteria (e.g. smoothness in θ, non-degenerate range, boundedness) to designate a **small set of “preferred” Phase 3 measure candidates** suitable for future promotion into Phase 5 / Stage 3.
+
+### Stage 2 — Joint mech–FRW analysis (rungs 1–3)
+
+- **Rung 1 — Joint θ-grid construction**  
+  - Script: `stage2/joint_mech_frw_analysis/src/build_joint_theta_grid_v1.py`  
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`  
+  - Role:  
+    - Aligns the Phase 4 FRW θ grid with the Phase 3 mechanism θ grid (2048 points).  
+    - Verifies alignment to a tolerance of 1e−8 across:  
+      - `phase4_F1_frw_shape_probe_mask.csv`  
+      - `phase4_F1_frw_data_probe_mask.csv`  
+      - `phase4_F1_frw_viability_mask.csv`  
+      - `phase4_F1_frw_lcdm_probe_mask.csv`  
+      - `mech_baseline_scan.csv`  
+      - `mech_binding_certificate.csv`  
+    - Builds a joint table with key columns:  
+      - θ-index, θ, E_vac, ΩΛ, age_Gyr  
+      - FRW masks (`in_toy_corridor`, `frw_viable`, `lcdm_like`, `shape_and_viable`, `shape_and_lcdm`, `frw_data_ok`)  
+      - Mechanism amplitudes (`mech_baseline_A0`, `mech_baseline_A_floor`, `mech_baseline_bound`, `mech_binding_A0`, `mech_binding_A`, `mech_binding_bound`).
+
+- **Rung 2 — Family summaries on the joint grid**  
+  - Script: `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_family_summaries_v1.py`  
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung2_family_summaries_v1.csv`  
+  - Role: Re-derives the basic FRW families (ALL_GRID, FRW_VIABLE, LCDM_LIKE, TOY_CORRIDOR, CORRIDOR_AND_VIABLE, CORRIDOR_AND_LCDM, FRW_VIABLE_AND_DATA_OK) from the joint table to confirm consistency with Stage 2 FRW results.
+
+- **Rung 3 — Joint mech–FRW correlations**  
+  - Script: `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_correlations_v1.py`  
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung3_correlations_v1.csv`  
+  - Role: Computes Pearson correlations and covariances between:  
+    - FRW scalars (`E_vac`, `omega_lambda`, `age_Gyr`)  
+    - And mechanism amplitudes (`mech_baseline_A0`, `mech_baseline_A_floor`, `mech_baseline_bound`, `mech_binding_A0`, `mech_binding_A`, `mech_binding_bound`).  
+  - Takeaway (diagnostic only):  
+    - Very strong (|r| ≈ 0.97–0.99) correlations between FRW scalars and the two main amplitude tracks reflect the underlying shared θ-grid construction; they are **not yet elevated** to a physical claim.  
+    - Signs and magnitudes are consistent with monotone behavior but require more careful normalization and model comparison before any promotion.
+
+### Stage 2 status
+
+- Stage 2 is now a **self-contained diagnostic scaffold** that:
+  - treats Phase 3 and Phase 4 artifacts as read-only inputs,  
+  - builds FRW corridor families and robustness checks,  
+  - identifies a shortlist of mechanism-based “measure” candidates,  
+  - and assembles a joint θ-grid for cross-cutting mech–FRW correlations.
+- At this rung, all findings are treated as **internal diagnostics only**, not as promoted claims.  
+- Future work will decide, per candidate and per family, whether any of these patterns are robust and non-trivial enough to be:
+  - (Option A) folded into the existing Phase 5 narrative as a lightweight extension, or  
+  - (Option B) developed into a dedicated Stage 2 / Phase 6 paper focusing on FRW corridors and non-cancellation measures.
+
