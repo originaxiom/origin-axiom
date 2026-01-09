@@ -2986,3 +2986,198 @@ Status:
     intentionally deferred to later rungs, after more physics-facing
     scrutiny and potential coupling to the FRW corridor analysis.
 
+
+---
+
+## 2026-01-09 — Stage 2: Joint mech–FRW analysis, Rungs 1–3
+
+### Context
+
+This Stage 2 block stays **strictly downstream** of Phases 3–4.  
+Goal: build a joint θ-grid that stitches together:
+
+- Phase 4 FRW diagnostics (toy FRW viability, Ω\_Λ, age, LCDM-like masks, data probe flags),
+- Phase 3 mechanism amplitudes (baseline + binding views),
+
+and then quantify how strongly they are correlated, without introducing any new model or claim about our Universe.
+
+All results are exploratory diagnostics only and **do not feed back** into the Phase 3/4 papers.
+
+---
+
+### Stage 2 — Joint mech–FRW Rung 1: Joint θ-grid
+
+**Script**
+
+- `stage2/joint_mech_frw_analysis/src/build_joint_theta_grid_v1.py`
+
+**Inputs**
+
+- Phase 4 FRW masks (all at 2048-point θ grid):
+  - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`
+  - `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`
+- Phase 3 mechanism tables (same nominal θ grid):
+  - `phase3/outputs/tables/mech_baseline_scan.csv`
+  - `phase3/outputs/tables/mech_binding_certificate.csv`
+
+**Checks**
+
+- Verified θ-alignment across all FRW masks:
+  - shape vs data probe vs viability vs LCDM probe agree at tolerance `1e-8`.
+- Verified θ-alignment between FRW masks and Phase 3 mechanism tables:
+  - `mech_baseline_scan.csv` and `mech_binding_certificate.csv` both match the FRW θ grid at tolerance `1e-8`.
+- Any misalignment would raise a hard error with a diagnostic max |Δθ|.
+
+**Output**
+
+- Joint grid CSV:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
+  - Shape: 2048 rows × 17 columns.
+
+**Key columns in the joint grid**
+
+- FRW / θ-side:
+  - `theta_index`, `theta`
+  - `E_vac`, `omega_lambda`, `age_Gyr`
+  - `in_toy_corridor`, `frw_viable`, `lcdm_like`
+  - `shape_and_viable`, `shape_and_lcdm`
+  - `frw_data_ok` (attached from the Phase 4 data probe mask)
+- Mechanism-side (derived from Phase 3 tables, prefixed at attach time):
+  - `mech_baseline_A0`, `mech_baseline_A_floor`, `mech_baseline_bound`
+  - `mech_binding_A0`, `mech_binding_A`, `mech_binding_bound`
+
+**Verdict**
+
+- Rung 1 successfully builds a **single joint θ-grid** that stitches together the Phase 4 FRW diagnostics and Phase 3 mechanism amplitudes, with explicit θ-alignment checks.
+- This rung is purely infrastructural: it creates the table on which all downstream joint diagnostics operate, but makes **no physical claim** beyond alignment and bookkeeping.
+
+---
+
+### Stage 2 — Joint mech–FRW Rung 2: Family summaries on the joint grid
+
+**Script**
+
+- `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_family_summaries_v1.py`
+
+**Inputs**
+
+- Joint grid from Rung 1:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
+
+**Definition of families (all within the 2048-point θ grid)**
+
+- `ALL_GRID`: all θ points (reference baseline)
+- `FRW_VIABLE`: `frw_viable == True`
+- `LCDM_LIKE`: `lcdm_like == True`
+- `TOY_CORRIDOR`: `in_toy_corridor == True`
+- `CORRIDOR_AND_VIABLE`: `in_toy_corridor && frw_viable`
+- `CORRIDOR_AND_LCDM`: `in_toy_corridor && lcdm_like`
+- `FRW_VIABLE_AND_DATA_OK`: `frw_viable && frw_data_ok`
+
+**Output**
+
+- Summary table:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung2_family_summaries_v1.csv`
+  - Includes, for each family:
+    - `family_id`
+    - `n_theta`
+    - `frac_of_grid` (n\_theta / 2048)
+
+**Headline numbers**
+
+On the current toy configuration:
+
+- `ALL_GRID`: n\_θ = 2048, frac\_of\_grid ≈ 1.00000
+- `FRW_VIABLE`: n\_θ = 1016, frac\_of\_grid ≈ 0.49609
+- `LCDM_LIKE`: n\_θ = 63, frac\_of\_grid ≈ 0.03076
+- `TOY_CORRIDOR`: n\_θ = 1186, frac\_of\_grid ≈ 0.57910
+- `CORRIDOR_AND_VIABLE`: n\_θ = 154, frac\_of\_grid ≈ 0.07520
+- `CORRIDOR_AND_LCDM`: n\_θ = 40, frac\_of\_grid ≈ 0.01953
+- `FRW_VIABLE_AND_DATA_OK`: n\_θ = 0, frac\_of\_grid = 0.00000  
+  (current configuration has `data_ok == false` everywhere, as expected because no external dataset is yet wired in.)
+
+**Verdict**
+
+- Rung 2 provides **explicit counts and fractions** for the main FRW families directly on the joint grid, mirroring the earlier FRW-only Stage 2 analysis but now in the context of the mech–FRW stitched table.
+- Still no new physics claim; this is a structural census of the toy FRW families.
+
+---
+
+### Stage 2 — Joint mech–FRW Rung 3: Global correlations between FRW scalars and mechanism amplitudes
+
+**Script**
+
+- `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_correlations_v1.py`
+
+**Inputs**
+
+- Joint grid:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
+
+**Variables considered**
+
+- FRW scalar fields:
+  - `E_vac`, `omega_lambda`, `age_Gyr`
+- Mechanism amplitudes (Phase 3, baseline and binding views):
+  - `mech_baseline_A0`, `mech_baseline_A_floor`, `mech_baseline_bound`
+  - `mech_binding_A0`, `mech_binding_A`, `mech_binding_bound`
+
+**Method**
+
+- For each pair (FRW scalar, mechanism amplitude), compute:
+  - Pearson correlation coefficient `r`
+  - Covariance
+  - Sample size `n` (always 2048 on the current grid)
+- Write all results to a single CSV for downstream inspection.
+
+**Output**
+
+- Correlation table:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung3_correlations_v1.csv`
+  - 18 rows (3 FRW scalars × 6 mechanism amplitudes).
+
+**Headline correlation patterns**  
+(All values approximate, taken from the current run)
+
+- **E\_vac vs mechanism amplitudes**
+  - `E_vac` vs `mech_baseline_A0`: r ≈ +0.94
+  - `E_vac` vs `mech_baseline_A_floor`: r ≈ +0.98
+  - `E_vac` vs `mech_baseline_bound`: r ≈ −0.56
+  - The corresponding `mech_binding_*` amplitudes have **the same** correlation pattern.
+
+- **Ω\_Λ vs mechanism amplitudes**
+  - `omega_lambda` vs `mech_baseline_A0`: r ≈ +0.94
+  - `omega_lambda` vs `mech_baseline_A_floor`: r ≈ +0.98
+  - `omega_lambda` vs `mech_baseline_bound`: r ≈ −0.56
+  - Again, `mech_binding_*` mirrors the same pattern.
+
+- **Age vs mechanism amplitudes**
+  - `age_Gyr` vs `mech_baseline_A0`: r ≈ −0.97
+  - `age_Gyr` vs `mech_baseline_A_floor`: r ≈ −0.997
+  - `age_Gyr` vs `mech_baseline_bound`: r ≈ +0.63
+  - Binding amplitudes mirror baseline: same r values within numerical precision.
+
+**Interpretation (within the toy setup)**
+
+- The Phase 3 mechanism amplitude is **strongly, smoothly coupled** to the Phase 4 FRW scalar fields across the θ grid:
+  - Larger toy vacuum energy (and Ω\_Λ) correspond to larger mechanism amplitudes.
+  - Younger toy universes correspond to larger mechanism amplitudes; older ones to smaller amplitudes.
+- “Bound” variables move in the opposite direction, consistent with encoding something like a distance-to-binding or constraint margin.
+- Baseline vs binding amplitudes are effectively two views of the **same underlying signal** in this configuration, as seen by identical correlation patterns.
+
+**Important caveats**
+
+- These are **global correlations over the 2048-point toy θ grid**, not a fit to real data.
+- No claim is made that any particular θ selects our observed Universe, nor that this correlation structure alone defines physical reality.
+- This rung establishes that the mech–FRW toy construction is **non-degenerate and smoothly stitched**, not that it is correct physics.
+
+**Verdict**
+
+- Rung 3 provides a compact, reproducible **joint diagnostic** of how the Phase 3 mechanism amplitudes co-vary with toy FRW scalar fields across θ.
+- This is a good candidate for eventual promotion as a **small, tightly scoped diagnostic figure/table** in:
+  - a Stage 2 / Phase 6 downstream analysis, or
+  - a future appendix (Phase 5+) describing the structure of the mech–FRW toy pipeline.
+- For now it remains strictly in Stage 2, with the results treated as **exploratory diagnostics only**.
+
