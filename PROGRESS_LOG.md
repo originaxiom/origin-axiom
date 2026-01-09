@@ -3351,3 +3351,37 @@ On the current toy configuration:
   - (Option A) folded into the existing Phase 5 narrative as a lightweight extension, or  
   - (Option B) developed into a dedicated Stage 2 / Phase 6 paper focusing on FRW corridors and non-cancellation measures.
 
+
+### 2026-01-09 — Stage 2: joint mech–FRW analysis, Rung 4 (family-wise correlations)
+
+**Files / code**
+- `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_family_correlations_v1.py`
+- Outputs:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung4_family_correlations_v1.csv`
+  - (uses joint grid from `stage2_joint_theta_grid_v1.csv` built in Rung 1)
+
+**What we did**
+- Defined the same FRW families as in the FRW corridor analysis:
+  - ALL_GRID, FRW_VIABLE, LCDM_LIKE, TOY_CORRIDOR,
+  - CORRIDOR_AND_VIABLE, CORRIDOR_AND_LCDM,
+  - FRW_VIABLE_AND_DATA_OK (empty).
+- For each family, computed Pearson correlation and covariance between:
+  - FRW-side quantities: `E_vac`, `omega_lambda`, `age_Gyr`
+  - Mechanical quantities from Phase 3:
+    - `mech_baseline_A0`, `mech_baseline_A_floor`, `mech_baseline_bound`
+    - `mech_binding_A0`, `mech_binding_A`, `mech_binding_bound`.
+
+**Key observations**
+- On the full grid, correlations are already very strong:
+  - |r| ~ 0.93–0.98 between {E_vac, omega_lambda} and the mechanical amplitudes.
+  - |r| ~ 0.97–1.00 (with opposite sign) between `age_Gyr` and the mechanical amplitudes.
+- Inside restricted FRW families (FRW_VIABLE, LCDM_LIKE, TOY_CORRIDOR, CORRIDOR_AND_VIABLE, CORRIDOR_AND_LCDM) the correlations tighten further:
+  - Typical |r| ≳ 0.996–0.9999, indicating almost perfect linear relations.
+- Several correlations involving the “bound” columns within viable families are `NaN`, consistent with those columns being nearly constant in those subsets (no variance ⇒ undefined Pearson r).
+- The FRW_VIABLE_AND_DATA_OK family remains empty, so no correlations are defined there.
+
+**Interpretation / status**
+- Within each FRW family, the mechanical amplitudes behave as smooth, monotonic re-parameterisations of the FRW observables (Λ, E_vac, age), rather than as an independent measure with new structure.
+- This supports internal consistency between Phase 3 and Phase 4, but argues against promoting the Phase 3 mechanical construction as an independent “probability measure on θ” at this stage.
+- Verdict: keep this as a Stage 2 joint-analysis rung (sanity and structure check). No promotion to Phase 5 claims unless later rungs reveal genuinely new constraints tied to the mechanical quantities.
+
