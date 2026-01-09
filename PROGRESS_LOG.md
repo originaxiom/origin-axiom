@@ -3590,3 +3590,38 @@ promotion candidates, support-only diagnostics, or parked items.
   - which remain as support-only diagnostics,
   - and which are parked until upstream code/claims evolve.
 
+
+## 2026-01-09 — Phase 4 FRW promotion design (Stage 2 design rung)
+
+**Scope.**  
+Introduce `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` to decide, at a
+design level, which Stage 2 FRW, mech/measure, joint mech–FRW, and data-probe
+artifacts are candidates for inclusion in Phase 4/5 text and figures, without
+yet editing the LaTeX.
+
+**Docs.**
+
+- `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`
+
+**Key points.**
+
+- FRW corridor families (F1–F5), their grid fractions, and one corridor figure
+  (θ-histogram or (ω_Λ, E_vac) scatter) are marked as **Option A** candidates
+  for inclusion in Phase 4/5, with the rest of the FRW diagnostics remaining
+  in Stage 2 / appendix.
+- Mech/measure results are kept as a **short textual summary** in Phase 4,
+  deferring any choice of a preferred θ-measure to later work.
+- Joint mech–FRW correlations are acknowledged as nontrivial but, for now,
+  are proposed as a brief textual remark in Phase 4, with any detailed
+  visualization deferred to later phases.
+- FRW data-probe audit clarifies that `frw_viable` ≡ “late acceleration
+  present” in the current snapshot (with always-true sanity checks), and that
+  `frw_data_ok` is currently never satisfied; data-conditioned corridor claims
+  are explicitly postponed.
+
+**Interpretation.**
+
+- This rung turns Stage 2 from “a bag of analyses” into a **promotion plan**
+  that Phase 4/5 can implement later under separate, tightly scoped rungs that
+  actually touch the LaTeX.
+
