@@ -1,38 +1,41 @@
 # Repository State (Single Source of Truth)
 
-This document summarizes the current phase status, canonical artifacts, and reproducibility entry points.
+This document summarizes the current phase status, canonical artifacts, and reproducibility entry points for the origin-axiom program.
 
 ## Canonical policy
+
 - Canonical PDFs live in `phase*/artifacts/`.
 - Canonical figures live in `phase*/outputs/figures/`.
-- Ephemeral runs are not tracked (e.g., `**/outputs/runs/`, `.snakemake/`).
+- Ephemeral runs are not tracked (for example, `**/outputs/runs/`, `.snakemake/`).
+- Stage 2 diagnostics live under `stage2/` and remain non-canonical until explicitly promoted into a Phase.
 
 ## Phase status (high-level)
-- Phase 0: governance/specification layer (no physics claims).
-- Phase 1: toy-domain existence/robustness/scaling claims.
-- Phase 2: mode-sum model + bounded FRW-style viability checks.
-- Phase 3: mechanism module (toy non-cancellation floor + binding diagnostics;
-  no flavor calibration in canonical `phase3/`).
 
-## Stage 2 status (diagnostic belts)
-- Stage 2 is in progress under `stage2/` and remains non-canonical:
-  `frw_corridor_analysis`, `mech_measure_analysis`,
-  `joint_mech_frw_analysis`, `frw_data_probe_analysis`.
+- **Phase 0**: governance and specification layer (no physics claims).
+- **Phase 1**: toy-domain existence, robustness, and scaling claims (locked).
+- **Phase 2**: mode-sum model plus bounded FRW-style viability checks (under audit).
+- **Phase 3**: mechanism module (toy non-cancellation floor plus binding-style diagnostics; no flavor calibration in canonical `phase3/`).
+- **Phase 4**: FRW toy diagnostics stub (downstream mapping of Phase 3 outputs into toy FRW backgrounds; no real-data claims).
+- **Phase 5**: interface and sanity layer (reads locked Phase 3/4 artifacts and emits summaries and sanity tables; no new mechanism or cosmology claims).
+- **Stage 2**: diagnostic belts over Phase 3/4 outputs (`frw_corridor_analysis`, `mech_measure_analysis`, `joint_mech_frw_analysis`, `frw_data_probe_analysis`, and documentation audit tools). All Stage 2 work is strictly downstream and non-canonical.
 
 ## Reproducibility entry points
-- Phase 0: compile paper in `phase0/paper/` (see `phase0/REPRODUCIBILITY.md` if present).
-- Phase 1: `cd phase1 && snakemake -c 1 all`
-- Phase 2: `cd phase2 && snakemake -c 1 all`
-- Phase 3: snakemake -s phase3/workflow/Snakefile -c 1 all
+
+These are the canonical entry points for reproducing phase-level artifacts. When in doubt, prefer the per-phase reproducibility notes or local READMEs over ad-hoc scripts.
+
+- **Phase 0**: compile the paper in `phase0/paper/` (see `phase0/REPRODUCIBILITY.md` if present).
+- **Phase 1**: `cd phase1 && snakemake -c 1 all`
+- **Phase 2**: `cd phase2 && snakemake -c 1 all`
+- **Phase 3**: see `phase3/ROLE_IN_PROGRAM.md` and the Phase 3 paper appendices for the current gate and run instructions.
+- **Phase 4**: see `phase4/OVERVIEW.md` and the Phase 4 paper notes for FRW toy-diagnostic reproducibility.
+- **Phase 5**: see `phase5/SCOPE.md` and the Phase 5 paper notes for interface-layer entry points.
+- **Stage 2**: see `stage2/docs/STAGE2_OVERVIEW_v1.md` and the local docs under each Stage 2 module for belt-specific entry points.
 
 ## Claims indexing
-- Global claims map: `docs/CLAIMS_INDEX.md`
-- Phase 0 method claims: `phase0/CLAIMS.md`
-- Phase 1 physics claims: `phase1/CLAIMS.md`
-- Phase 2 physics claims: `phase2/CLAIMS.md`
-- Phase 3 physics claims: recorded in the Phase 3 paper appendix
-  (no standalone `phase3/CLAIMS.md` at this rung)
 
----
-
-For a phase-by-phase view of status, gates, and canonical artifacts, this document should be read together with `docs/GATES_AND_STATUS.md`.
+- Global claims map: `docs/CLAIMS_INDEX.md`.
+- Phase 0 method claims: `phase0/CLAIMS.md`.
+- Phase 1 physics claims: `phase1/CLAIMS.md`.
+- Phase 2 physics claims: `phase2/CLAIMS.md`.
+- Phase 3 physics claims: recorded in the Phase 3 paper appendix (`phase3/paper/appendix/`) and `phase3/ROLE_IN_PROGRAM.md` (there is no standalone `phase3/CLAIMS.md` at this rung).
+- Stage 2 diagnostic belts do not carry independent claims; they are downstream views of Phase 3/4 artifacts.

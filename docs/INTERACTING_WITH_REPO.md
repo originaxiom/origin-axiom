@@ -1,188 +1,173 @@
 # Interacting with the Origin Axiom Repository
 
-This document explains **how to use** the repository safely:
+This document explains how to use the repository safely and coherently: how to orient yourself in the phase structure, how to rebuild artifacts, how to add new work without breaking governance, and how to reason about what is and is not a claim.
 
-- how to set up the environment,
-- how to rebuild phases and artifacts,
-- how to add new code or diagnostics without breaking contracts,
-- how to reason about claims and non-claims.
-
-If you are reading this, you should have skimmed `README.md` and
-`docs/PROJECT_OVERVIEW.md` first.
+If you are reading this, you should skim `README.md`, `docs/PROJECT_OVERVIEW.md`, `docs/STATE_OF_REPO.md`, and `docs/PHASES.md` first.
 
 ---
 
 ## 1. Who this repo is for
 
-- People who want to **rebuild** the Phase 0–5 artifacts and inspect the
-  intermediate tables and figures.
-- People who want to **extend** the program (e.g. add diagnostics, new phases,
-  or data-probe layers) while keeping the governance and reproducibility
-  discipline intact.
-- People who want to run the **Stage 2 diagnostic belts** downstream of
-  Phase 3/4 outputs.
-- The core author(s), who treat this as the canonical record of the project.
+The repository is meant to be usable by several types of people:
 
-It is **not** intended as a polished “plug-and-play” library; it is a
-structured experimental lab notebook.
+- Authors and close collaborators who work directly on the core phases (Phase 0–5).
+- External researchers who want to audit, reproduce, or extend specific phases.
+- People who only want to run downstream Stage 2 diagnostics on top of locked Phase 3/4 outputs.
+- Curious readers who mainly care about the conceptual structure and published PDFs.
+
+The rules below are designed so that all of these groups can work in the same tree without stepping on each other.
 
 ---
 
-## 2. Environment setup
+## 2. Mental model of the repository
 
-### Python
+At the highest level there are three tiers:
 
-- Use a dedicated virtual environment:
-  ```bash
-  python3 -m venv .venv
-  source .venv/bin/activate
-  pip install -r requirements.txt   # or equivalent project file
-  ```
+- **Canonical phases (`phase0/`–`phase5/`)**  
+  These directories hold the main program: governance (Phase 0), toy ensembles (Phase 1), mode-sum + FRW-style viability (Phase 2), mechanism module (Phase 3), FRW toy diagnostics (Phase 4 stub), and the interface/sanity layer (Phase 5). Claims are indexed in `docs/CLAIMS_INDEX.md` and in the Phase papers themselves.
 
-- Do not commit `.venv/` or local IDE files; `.gitignore` is configured to
-  ignore common cruft.
+- **Stage 2 diagnostic belts (`stage2/`)**  
+  These modules run *downstream* of Phase 3/4 outputs. They never silently change Phase claims. Current belts include:
+  - `stage2/frw_corridor_analysis`
+  - `stage2/mech_measure_analysis`
+  - `stage2/joint_mech_frw_analysis`
+  - `stage2/frw_data_probe_analysis`  
+  Their status and audit tables are documented in `stage2/docs/` (for example `STAGE2_OVERVIEW_v1.md`, `STAGE2_DOC_AUDIT_SUMMARY_v1.md`).
 
-### LaTeX
+- **Experiments and legacy material (`experiments/`, scratch, etc.)**  
+  These are non-canonical. They can contain archived attempts, exploratory scans, and prior flavors of the program. A concrete example is `experiments/phase3_flavor_v1/`, which is explicitly archived as a non-canonical flavor-sector Phase 3 experiment (see `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md`).
 
-- Install a reasonably recent TeX distribution (e.g. TeX Live 2023+).
-- Ensure `pdflatex` and `latexmk` are on your `PATH`.
-
-### Snakemake
-
-- Install snakemake (e.g. `pip install snakemake`) in the same environment.
-- The repo assumes you can run `snakemake` from the command line.
+When in doubt, treat anything outside `phase0/`–`phase5/` and `stage2/` as suggestive, not binding.
 
 ---
 
-## 3. Rebuilding phases and artifacts
+## 3. How to run things safely
 
-### 3.1 One-shot rebuild of all Phase PDFs
+### 3.1 Phase papers and gates
 
-From the repository root:
+Each Phase has two key ingredients:
 
-```bash
-./scripts/build_all_papers.sh
-```
+- A **paper** under `phaseX/paper/` with a claims appendix and reproducibility notes.
+- A **gate or build path** that regenerates the canonical artifacts (PDFs, tables, diagnostic figures).
 
-This will:
+Typical patterns (exact commands may differ by phase and are documented in the papers and local READMEs):
 
-- run the Phase 3, 4, and 5 gates at Level A,
-- rebuild each phase’s paper from its LaTeX sources,
-- update `phaseN/artifacts/origin-axiom-phaseN.pdf` and the top-level
-  `artifacts/origin-axiom-phaseN.pdf` copies.
+- Use `scripts/build_all_papers.sh` when you want to rebuild all Phase papers and their artifacts from a clean environment.
+- For focused work, use the per-phase gate or driver documented in that Phase (for example, a small number of `phaseX/src/...` entry points).
 
-If this completes without errors, your local artifacts are consistent with the
-current source.
+General discipline:
 
-### 3.2 Running phase gates individually
+- Never edit files in `phaseX/artifacts/` by hand; they are build products.
+- If you change code or configuration that should affect a Phase artifact, re-run the relevant gate and verify the new artifact before treating it as canonical.
+- If you are only reading, you can just open the PDFs and tables under `phaseX/artifacts/` and `phaseX/outputs/`.
 
-Each major phase has a **gate script** under `scripts/`. For example:
+### 3.2 Stage 2 diagnostics (downstream only)
 
-- Phase 3 gate: checks the mechanism diagnostics and builds the Phase 3 paper.
-- Phase 4 gate: regenerates FRW diagnostics and the Phase 4 paper.
-- Phase 5 gate: regenerates the interface summary and sanity table.
+Stage 2 modules live under `stage2/` and are designed to be **downstream**:
 
-You can invoke them directly when working on a particular phase. Consult the
-script headers and the Phase papers’ reproducibility appendices for exact
-commands.
+- They read Phase 3 and Phase 4 outputs (tables, masks, grids).
+- They produce additional tables, plots, and documentation under `stage2/.../outputs/` and `stage2/docs/`.
+- They do not rewrite Phase claims or Phase artifacts.
 
-### 3.3 Stage 2 diagnostics (downstream only)
+Typical interactions:
 
-Stage 2 work lives under `stage2/` and is **strictly downstream** of the
-Phase 3/4 artifacts. It does not modify Phase papers or claims. See the
-local README or docs within each Stage 2 module for entry points.
+- Read `stage2/docs/STAGE2_OVERVIEW_v1.md` for the big picture.
+- For a given belt (for example `frw_corridor_analysis`), read its local documentation and then invoke the rung scripts in `stage2/<belt>/src/`.
+- Treat Stage 2 outputs as **diagnostic evidence** that may or may not later be promoted into a Phase. Promotion requires an explicit gate and documentation change, not an accidental script run.
 
----
+If you are extending Stage 2, keep your work clearly separated as new rungs or modules, and document what they read and what they emit.
 
-## 4. Claims, artifacts, and how to trust results
+### 3.3 Experiments and scratch work
 
-A core rule of this program:
+Anything under `experiments/` or ad-hoc scratch directories is *not* canonical:
 
-> **If there is no artifact, there is no claim.**
+- You may run and modify these at will.
+- If some result turns out to be important, it should be migrated into a Phase or a Stage 2 module through a dedicated migration note (see `docs/PROJECT_OVERVIEW.md` and `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`).
 
-For each Phase:
-
-- the **paper** (in `phaseN/artifacts/`) is the human-readable statement of
-  what is being claimed;
-- the **claims table** (appendix) maps textual claims to artifacts:
-  tables, JSON files, figures, and scripts;
-- the **reproducibility appendix** documents the exact scripts and entry points
-  needed to regenerate those artifacts.
-
-When modifying code or adding new results:
-
-1. Update the **claims table** to reflect any new or changed claims.
-2. Update the **reproducibility appendix** to describe the new scripts or
-   changes to existing ones.
-3. Ensure that the relevant gate still passes and that the Phase paper rebuilds
-   cleanly.
+Avoid wiring experimental outputs directly into Phase gates without an explicit, documented migration.
 
 ---
 
-## 5. Adding new code or diagnostics
+## 4. Claims, non-claims, and how to read them
 
-### 5.1 General principles
+The repository distinguishes carefully between:
 
-- Prefer **phase-local** changes: if it belongs to Phase 3, put it under
-  `phase3/src/phase3/` and make it visible through Phase 3’s paper and claims.
-- Do not bypass Phase 5: cross-phase tooling should consume the program’s
-  outputs through the **Phase 5 interface and summary**, not by chasing
-  internal file paths.
+- **Claims** – formal statements with IDs (for example `P1-C1`, `P2-C3`) backed by an evidence trail, defined scope, and explicit non-claims.
+- **Non-claims** – things explicitly *not* being asserted (for example, “this does not derive the Standard Model”).
+- **Diagnostics** – numerical and visual summaries that illustrate behavior but are not themselves claims.
 
-### 5.2 Typical pattern
+To navigate:
 
-Suppose you want to add a new diagnostic to Phase 3:
+- Start with `docs/CLAIMS_INDEX.md` for the global map.
+- For a given Phase, read:
+  - the main narrative of the Phase paper,
+  - the claims and non-claims appendix,
+  - the reproducibility section that explains how to regenerate the evidence.
 
-1. Add a new script under `phase3/src/phase3/`, following existing naming
-   conventions.
-2. Hook it into the Phase 3 workflow (e.g. Snakemake rule, or a documented
-   manual entry point).
-3. Write its outputs under `phase3/outputs/` with a clear structure
-   (tables, JSON, figures).
-4. Reference it in the Phase 3 paper, update the claims table and reproducibility
-   appendix.
-5. Run the Phase 3 gate and ensure it passes from a clean checkout.
-6. Optionally, expose a summary of the new diagnostic via the Phase 5 interface
-   if it is relevant cross-phase.
+Stage 2 diagnostic belts do **not** introduce new claims by themselves. They may help promote or demote claims later, but only via explicit edits to the Phase papers and `docs/CLAIMS_INDEX.md`, not silently.
+
+If you ever see a strong statement that is not supported by the claims ledger, treat it as a red flag and open an issue or add a doc-audit note rather than assuming it is canonical.
 
 ---
 
-## 6. Working with future phases
+## 5. Adding new work
 
-If you introduce new phases (e.g. `phase6/`):
+When you want to contribute code, analysis, or text, follow this decision process:
 
-- follow the existing directory pattern (`paper/`, `src/phase6/`, `outputs/`,
-  `artifacts/`, `config/`, `data/`, `PROGRESS_LOG.md`);
-- define a **gate script** and a **clear interface** for how it consumes prior
-  phases and how future work should consume it;
-- ensure it does not silently change the semantics of Stage I artifacts
-  without migration notes.
+1. **Is it core to the phased program?**  
+   - If yes, it probably belongs under `phase0/`–`phase5/`.  
+   - You should:
+     - define scope and non-claims,
+     - update or draft claims if appropriate,
+     - and ensure reproducibility.
+
+2. **Is it a downstream diagnostic over existing Phase outputs?**  
+   - If yes, it belongs under `stage2/` as a new belt or rung.  
+   - Document clearly:
+     - which Phase tables/artifacts it reads,
+     - what new tables/plots it emits,
+     - and how (if at all) it could influence promotion decisions.
+
+3. **Is it speculative, exploratory, or not yet disciplined?**  
+   - If yes, put it under `experiments/` or a clearly marked scratch area.  
+   - If a path becomes promising, write a migration note and move it into a Phase or Stage 2 with full governance.
+
+In all cases:
+
+- Add or update local `README.md` files so future readers understand what lives in a directory.
+- Keep code headers clear about what a script does, what it depends on, and what it produces.
+- Log significant changes in `PROGRESS_LOG.md` with dates and minimal but precise summaries.
 
 ---
 
-## 7. Legacy material
+## 6. Safe ways to explore
 
-The legacy migration notes (`docs/LEGACY_MIGRATIONS.md` and relatives) describe
-which ideas and snippets from older, non-phased repositories are candidates
-for integration.
+If you are just trying to understand the program or validate ideas:
 
-When pulling in legacy code:
+- Prefer reading **PDFs and tables** over inspecting internal intermediate files.
+- When running code:
+  - use fresh environments or throwaway branches,
+  - avoid editing canonical artifacts by hand,
+  - record any deviations from the documented pipelines.
+- When experimenting with new ideas:
+  - fork them into new scripts or notebooks instead of modifying existing, locked gates,
+  - keep notes about what you tried so they can be archived or migrated cleanly.
 
-- never copy it verbatim without cleanup,
-- bring it into a specific phase under the same governance and reproducibility
-  rules,
-- update the relevant papers and appendices.
+This keeps the main line of the project predictable and auditable, while still leaving room for creative exploration.
 
 ---
 
-## 8. Summary
+## 7. Summary
+
+- Phases (`phase0/`–`phase5/`) hold the canonical program and its claims.
+- Stage 2 (`stage2/`) holds downstream diagnostic belts that never silently change claims.
+- Experiments (`experiments/`) and scratch work are non-canonical and should be treated as such.
+- Claims are centralized in `docs/CLAIMS_INDEX.md` and the Phase papers; nothing else magically upgrades itself into a claim.
 
 When in doubt:
 
-- read the **Phase paper** and its **claims / reproducibility appendices**;
-- run the **appropriate gate** or `scripts/build_all_papers.sh`;
-- prefer interacting with results through **documented artifacts and the Phase 5
-  interface**, not through ad-hoc paths.
+- Read the relevant Phase paper and its claims and reproducibility appendices.
+- Run the appropriate gate or `scripts/build_all_papers.sh` instead of ad-hoc commands.
+- Prefer interacting with results through documented artifacts and, where available, the Phase 5 interface and Stage 2 diagnostics, not through private or undocumented paths.
 
-This keeps the origin-axiom program **auditable, extendable, and honest** about
-what it does and does not show.
+This is how we keep the origin-axiom program auditable, extendable, and honest about what it does and does not show.
