@@ -32,3 +32,7 @@ This document summarizes the current phase status, canonical artifacts, and repr
 - Phase 2 physics claims: `phase2/CLAIMS.md`
 - Phase 3 physics claims: recorded in the Phase 3 paper appendix
   (no standalone `phase3/CLAIMS.md` at this rung)
+
+---
+
+For a phase-by-phase view of status, gates, and canonical artifacts, this document should be read together with `docs/GATES_AND_STATUS.md`.

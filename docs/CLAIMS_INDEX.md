@@ -103,3 +103,7 @@ Future phases must:
 3. Add claim IDs to their own `PHASEx/CLAIMS.md`.
 4. Register those claim IDs here.
 5. Obey Phase 0 governance rules (especially P0-C01–P0-C07).
+
+---
+
+For the status of each phase, and which layers are allowed to carry canonical claims, see also `docs/GATES_AND_STATUS.md`.

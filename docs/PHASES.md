@@ -59,3 +59,7 @@ artifacts. Active belts include:
 - `stage2/mech_measure_analysis`
 - `stage2/joint_mech_frw_analysis`
 - `stage2/frw_data_probe_analysis`
+
+---
+
+For the current status, canonical artifacts, and promotion gates for each layer, see `docs/GATES_AND_STATUS.md`.

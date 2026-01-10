@@ -214,3 +214,7 @@ and is non-canonical.
 
 This ensures that the Stage I program remains a **coherent, auditable
 experiment**, even as it evolves.
+
+---
+
+For a compact table of phase status, canonical artifacts, and promotion gates, see `docs/GATES_AND_STATUS.md`.
