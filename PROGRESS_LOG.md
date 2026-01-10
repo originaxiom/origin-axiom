@@ -3726,3 +3726,8 @@ yet editing the LaTeX.
   - clarifies how Stage 2 feeds into the separate Option A/B promotion design.
 - No new computations or promotions were enacted; this rung is pure synthesis
   to make Stage 2 readable and auditable as a whole.
+
+## 2026-01-10 — Stage 2 doc audit summary + flavor archive banner
+
+Stage2/doc belt: added `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` to document the Stage 2 documentation audit CSVs (inventory, broken refs, orphan candidates, open threads) and clarify that they are diagnostic, downstream-only snapshots. Archived the legacy flavor-sector Phase 3 experiment more explicitly by adding `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md`, marking it as non-canonical and separating it cleanly from the canonical Phase 3 mechanism module. No changes to Phase claims or numerical artifacts; this rung is purely about documentation clarity and governance hygiene.
+
