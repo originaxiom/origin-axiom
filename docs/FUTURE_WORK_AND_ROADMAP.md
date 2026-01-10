@@ -186,3 +186,7 @@ coherence or auditability.
 
 - Implemented `stage2/frw_data_probe_analysis` to audit the current
   data-probe hooks without promoting any data-driven claims.
+
+---
+
+For a compact summary of which phases and Stage 2 belts are canonical, under audit, or non-canonical, see `docs/GATES_AND_STATUS.md`.

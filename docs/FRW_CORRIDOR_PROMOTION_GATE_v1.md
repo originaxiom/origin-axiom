@@ -156,3 +156,7 @@ Until this document is updated and the conditions are explicitly marked
 as satisfied, all FRW corridor results must be treated as **Stage 2
 exploratory diagnostics only**.
 
+
+---
+
+As of 2026-01-09, no Stage 2 FRW corridor result has passed this gate, and no FRW corridor object is promoted into Phase 4, Phase 5, or the global claims ledger. The current gate and status matrix is summarized in `docs/GATES_AND_STATUS.md`.

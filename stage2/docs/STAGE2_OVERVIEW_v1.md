@@ -354,3 +354,7 @@ Possible future directions, all gated by additional rungs:
 
 None of these are enacted in this document; they are targets for future rungs.
 
+
+## Status and promotion
+
+Stage 2 lives strictly downstream of Phase 3 and Phase 4 artifacts and is non-canonical. No Stage 2 result is currently promoted into any Phase paper or the global claims ledger. For the up-to-date gate and status table, see `docs/GATES_AND_STATUS.md`.
