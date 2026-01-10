@@ -3731,3 +3731,62 @@ yet editing the LaTeX.
 
 Stage2/doc belt: added `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` to document the Stage 2 documentation audit CSVs (inventory, broken refs, orphan candidates, open threads) and clarify that they are diagnostic, downstream-only snapshots. Archived the legacy flavor-sector Phase 3 experiment more explicitly by adding `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md`, marking it as non-canonical and separating it cleanly from the canonical Phase 3 mechanism module. No changes to Phase claims or numerical artifacts; this rung is purely about documentation clarity and governance hygiene.
 
+
+## 2026-01-10 — Phase/Stage doc refresh + README link pass (docs-only rung)
+
+**Files:**
+
+- `README.md`
+- `docs/PROJECT_OVERVIEW.md`
+- `docs/STATE_OF_REPO.md`
+- `docs/PHASES.md`
+- `docs/CLAIMS_INDEX.md`
+- `docs/INTERACTING_WITH_REPO.md`
+- `docs/FUTURE_WORK_AND_ROADMAP.md`
+- `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`
+- `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`
+- `.gitignore`
+
+**Summary:**
+
+- Brought the **top-level documentation into full alignment** with the current program structure:
+  - Locked in the identity of **Phase 3 as the mechanism module** (no flavor calibration in canonical `phase3/`).
+  - Clarified **Phase 4** as an FRW toy-diagnostic stub and **Phase 5** as an interface/sanity layer (rung 0–1).
+  - Described **Stage 2** explicitly as a set of downstream, non-canonical diagnostic belts over Phase 3/4 outputs.
+
+- Updated `README.md` to:
+  - Reflect the refreshed Phase 1–5 descriptions and Stage 2 role.
+  - Point explicitly to the core Phase papers in `phase*/artifacts/*.pdf`.
+  - Add links to key docs and modules (global docs under `docs/`, Stage 2 docs under `stage2/docs/`, and the archived flavor experiment under `experiments/phase3_flavor_v1/`), so the repo is navigable directly from the front page.
+
+- Refreshed global docs under `docs/`:
+  - `PROJECT_OVERVIEW.md`: added a clear paragraph on Stage 2 as a **diagnostic belt** and an explicit note that the flavor-sector Phase 3 work is archived and non-canonical.
+  - `STATE_OF_REPO.md`: 
+    - Updated the Phase 3 status to “mechanism module” and added a **Stage 2 status** section listing the active belts.
+    - Fixed the claims indexing to point to `phase0/CLAIMS.md` and to Phase 3 claims in the paper appendix (no `phase3/CLAIMS.md` file).
+  - `PHASES.md`: re-framed Phase 3 as the mechanism module, added an “archived flavor add-on” note, and introduced a short **Stage 2 – diagnostic belts** section.
+  - `CLAIMS_INDEX.md`: replaced the old flavor-sector Phase 3 claims section with a mechanism-module description, and pointed to `experiments/phase3_flavor_v1/` as archived flavor work.
+  - `INTERACTING_WITH_REPO.md`: documented Stage 2 as a downstream-only layer and added guidance for users who only want to run the diagnostic belts.
+  - `FUTURE_WORK_AND_ROADMAP.md`: clarified the distinction between **Stage 2 (existing diagnostic belts)** and **Stage II (future phases)**, and enumerated the current Stage 2 rungs (FRW corridor, mech/measure, joint mech–FRW, FRW data-probe).
+
+- Extended the Stage 2 doc-audit docs:
+  - `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`: clarified how to use the four CSVs (inventory, broken refs, orphan candidates, open threads) as a **downstream diagnostic snapshot** when preparing publication-grade passes.
+  - `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`: documented the map between canonical Phase trees (`phase0/`–`phase5/`), Stage 2 belts (`stage2/`), and archived/experimental areas (e.g. `experiments/phase3_flavor_v1/`), plus guidance on where new work should live.
+
+- Git hygiene:
+  - Updated `.gitignore` to ignore the transient Stage 2 doc-audit working directory `stage2/doc_repo_audit/`, ensuring the audit scratch space never pollutes the main history.
+
+No numerical pipelines, tables, or claims were changed in this rung. All edits are **documentation and governance only**, to make the repo self-consistent and easier to audit from the outside.
+
+
+## 2026-01-11 — Stage 2 docs: FRW/mech/joint/data belt summaries (docs-only rung)
+
+Stage 2 doc belt: created four belt-level summary docs under `stage2/docs/` to match the links advertised in `README.md` and make the Stage 2 FRW, mech/measure, joint mech–FRW, and FRW data-probe belts directly navigable. These summaries are downstream-only and point to the existing belt-specific outputs and design docs; they introduce no new computations and do not alter any Phase 0–5 claims.
+
+**Files:**
+- `stage2/docs/STAGE2_FRW_CORRIDOR_SUMMARY_v1.md` — high-level summary of the FRW corridor belt (rungs 1–9), inputs from Phase 4 FRW masks, main robustness checks, and θ★ alignment as a negative-result diagnostic.
+- `stage2/docs/STAGE2_MECH_MEASURE_SUMMARY_v1.md` — belt-level summary of the mech/measure analysis (rungs 1–6), linking Phase 3 tables to probability-like and measure/flag candidates while explicitly keeping all results diagnostic-only.
+- `stage2/docs/STAGE2_JOINT_MECH_FRW_SUMMARY_v1.md` — overview of the joint mech–FRW belt (rungs 1–4), describing the joint θ grid, FRW family definitions, and strong correlations between FRW scalars and mechanism amplitudes as structural cross-checks.
+- `stage2/docs/STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md` — concise summary of the FRW data-probe audit (rungs 1–2), recording that `frw_data_ok` is currently never satisfied and that all FRW families should be interpreted as pre-data corridors.
+
+This rung closes broken Stage 2 links in `README.md` by providing the promised summary docs, improves documentation navigability for external auditors, and keeps Stage 2 firmly in its diagnostic, non-promotive role.
