@@ -1,34 +1,59 @@
-# Stage 2 Documentation Audit — Summary (v1)
+# Stage 2: Documentation Audit (Summary, 2026-01-09)
 
-This note records the first Stage 2 documentation audit over the main `origin-axiom` repository after the Codex-assisted doc cleanup in early 2026. It is downstream-only and does not change any Phase claims by itself.
+## Scope and intent
 
-The audit was performed by running a Stage 2 doc-audit belt that produced four CSV inventories under `stage2/doc_audit/outputs/tables/` (or an equivalent location):
+This document summarizes a Stage 2 documentation audit over the markdown, LaTeX, and related narrative files in this repository. The goal is to make the doc layer as disciplined as the code and phase gates: every major text should either be clearly canonical, clearly archived, or clearly marked as a live thread.
 
-- `stage2_doc_inventory_v1.csv` — flat inventory of `.md`, `.tex`, and related doc files, with basic metadata (paths, sizes, type).
-- `stage2_doc_broken_refs_v1.csv` — candidate broken references (documents pointing at files, sections, or paths that do not exist in the current repo layout).
-- `stage2_doc_orphan_candidates_v1.csv` — candidate “orphan” docs (files that are not referenced from the main documentation graph and may be legacy, experimental, or superseded).
-- `stage2_doc_open_threads_v1.csv` — explicit open threads and TODO-style markers discovered in docs (places where the text itself declares missing sections, future work, or stubs).
+This audit is **diagnostic only**. It does not automatically change any claims or phase statuses. All edits are applied manually and gated in the same way as other Stage 2 work.
 
-None of these CSVs are binding by themselves; they are diagnostic snapshots. A given line may be:
+## Inputs and artifacts
 
-- a true discrepancy that deserves a patch,
-- a harmless legacy note that should be explicitly archived,
-- or an intentional stub (for example, a placeholder section in a future Phase paper).
+The audit produced four primary CSV artifacts (living under the Stage 2 doc-audit outputs):
 
-### How to use this audit
+- `stage2_doc_inventory_v1.csv`: inventory of all scanned narrative documents, with file paths, rough categories, and simple metadata.
+- `stage2_doc_broken_refs_v1.csv`: static cross-reference checks (missing files, missing sections, obviously broken links).
+- `stage2_doc_orphan_candidates_v1.csv`: documents that appear never to be referenced by any other doc, sorted by likely importance.
+- `stage2_doc_open_threads_v1.csv`: lines and sections that look like open TODOs, stubs, or unresolved “future work” notes.
 
-1. Use `stage2_doc_inventory_v1.csv` as a map when deciding where to apply documentation patches or where to move / retire files.
-2. For each candidate issue in `stage2_doc_broken_refs_v1.csv` and `stage2_doc_orphan_candidates_v1.csv`, make an explicit decision:
-   - **Fix** the reference or wiring,
-   - **Archive** the doc (with a banner and a pointer from `docs/LEGACY_MIGRAIONS_PHASE0_MAP.MD`),
-   - or **Accept** the discrepancy as intentional and record that acceptance in the relevant doc.
-3. Treat `stage2_doc_open_threads_v1.csv` as a queue of explicitly declared TODO threads. When a thread is closed, update the source document and (optionally) annotate that it has been addressed in the log.
+These tables are meant to be **reproducible snapshots**. Re-running the audit with updated scripts will refresh them; this summary remains a human-readable explanation of what those tables mean.
 
-### Status
+## High-level findings from this run
 
-As of 2026-01-10 this audit is:
+This particular audit run (2026-01-09) saw on the order of a few hundred narrative files across the repo. At a coarse level:
 
-- Stage 2 / diagnostic only,
-- downstream of the main Phase documents,
-- and ready to be re-run in future rungs to check that new edits did not reintroduce contradictions.
+- The top-level narrative has been largely aligned: `README.md`, `docs/PHASES.md`, `docs/STATE_OF_REPO.md`, `docs/CLAIMS_INDEX.md`, and `docs/PROJECT_OVERVIEW.md` now agree that:
+  - Phase 3 is the **mechanism module** (with flavor work archived under `experiments/phase3_flavor_v1/`, non-canonical).
+  - Phase 4 and Phase 5 exist as **toy FRW diagnostics** and an **interface/sanity layer**, not as grand “fit everything” pipelines.
+  - Stage 2 lives under `stage2/` as a set of **diagnostic belts** that are downstream of Phase 3/4 and non-canonical until explicitly promoted.
+- The audit found **no remaining hard broken references** in the scanned doc set at this rung (the broken-refs table is empty for this run). Any future broken links will show up automatically when the audit is re-run.
+- A substantial number of files are flagged as **orphan candidates**: internal notes, older sketches, and small design documents that are not obviously linked from the main narrative. Some of these will be:
+  - kept but explicitly marked as archived or legacy,
+  - integrated by adding proper links from canonical docs,
+  - or retired if they no longer reflect the program.
 
+The open-threads table collects scattered “TODO”, “TBD”, “stub”, or “this needs to be checked later” markers into one place, so that Stage 2 work can either resolve them or explicitly park them behind a gate.
+
+## How this ties into the phases and Stage 2
+
+Within the phased program:
+
+- **Phase 0–5** remain the canonical skeleton: governance, toy ensembles, mode-sum and bounded FRW diagnostics, mechanism module, FRW toy diagnostics, and interface/sanity layer.
+- **Stage 2** is where repo-wide hygiene and diagnostics live:
+  - FRW corridor analysis (`stage2/frw_corridor_analysis`)
+  - Mechanism/measure analysis (`stage2/mech_measure_analysis`)
+  - Joint mech–FRW analysis (`stage2/joint_mech_frw_analysis`)
+  - FRW data-probe audit (`stage2/frw_data_probe_analysis`)
+  - Documentation audit (this module)
+
+The documentation audit is **strictly downstream**: it reads files and tables, but it does not modify or reinterpret any physics claims on its own. All changes must be applied manually and logged through the usual git and progress-log gates.
+
+## Recommended usage
+
+- When preparing a publication-grade pass over any phase:
+  - consult `stage2_doc_open_threads_v1.csv` for unresolved narrative threads,
+  - check `stage2_doc_orphan_candidates_v1.csv` for relevant orphan docs that should be either linked, archived, or retired.
+- When changing the repo structure:
+  - re-run the doc-audit scripts to regenerate the four CSVs,
+  - update this summary only if the **shape** of the audit changes (for example, new categories, new tables, or a qualitatively different status).
+
+The intent is that an external collaborator can read this file plus the four CSVs, and quickly understand where the documentation is tight, where it is loose, and which follow-up Stage 2 rungs should be executed next.
