@@ -3790,3 +3790,7 @@ Stage 2 doc belt: created four belt-level summary docs under `stage2/docs/` to m
 - `stage2/docs/STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md` — concise summary of the FRW data-probe audit (rungs 1–2), recording that `frw_data_ok` is currently never satisfied and that all FRW families should be interpreted as pre-data corridors.
 
 This rung closes broken Stage 2 links in `README.md` by providing the promised summary docs, improves documentation navigability for external auditors, and keeps Stage 2 firmly in its diagnostic, non-promotive role.
+
+## 2026-01-11 — Repo atlas skeleton (docs-only rung)
+
+Added a first-pass repo atlas under `docs/REPO_MAP_AND_ATLAS_v1.md` describing the top-level structure of the repository, including phase directories (phase0–phase5), Stage 2 diagnostic belts, the archived Phase 3 flavor experiment, sandbox notes, and global build/gate scripts. This atlas is descriptive only: it records where papers, code, outputs, and artifacts live on disk, without introducing new physics claims or changing any Phase 0–5 or Stage 2 content. The goal is to make the repo navigable and auditable for external readers before any finer-grained doc-audit or promotion passes.
