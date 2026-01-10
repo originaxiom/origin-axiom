@@ -86,3 +86,5 @@ phase3/fit/targets.yaml.bak.*
 *~
 *.swp
 *.swo
+# Stage2 doc-audit working dir
+stage2/doc_repo_audit/
