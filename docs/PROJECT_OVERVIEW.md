@@ -46,6 +46,10 @@ The key is not the specific number, but the **discipline**:
 
 ## 2. Stage I scaffold: Phases 0–5
 
+At the axiom level, the program is about the **accounting of existence**, with "vacuum" used as the cleanest current test-bed where cancellation, phase twists, and residues can be defined and computed.
+
+The long-term hope is that, if this structure survives disciplined testing, it could later be mapped into quantum fields, Standard Model structures, and cosmology; but no such map is assumed or claimed at this stage.
+
 Stage I is everything currently implemented in this repo:
 
 - **Phase 0–2**: governance, toy ensembles, and corridor/filter language.

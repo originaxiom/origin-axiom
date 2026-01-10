@@ -5,13 +5,18 @@
 
 This repository hosts the **phased Origin-Axiom program**: a long-horizon, self-audited research workflow that tries to make one very narrow, very provocative claim:
 
-> There may exist a **single, axiom-level deformation of perfect cancellation in vacuum** that:
+> There may exist a **single, axiom-level deformation of perfect cancellation in the accounting of existence**—currently instantiated as a vacuum-mechanics test-bed—that:
 > - is simple enough to write on a T-shirt,
 > - is rich enough to imply a vast family of constraints on emergent physics,
 > - is testable enough to be wrong in multiple, clear ways,
 > - and is philosophically disciplined enough to resist being turned into a buzzword.
 
 Everything in this repo is *scaffolding* around that attempt.
+
+At this stage, the program is formulated as a **vacuum mechanics** test-bed: we treat "vacuum" as the cleanest arena where cancellation, phase twists, and residues can be defined and computed.
+
+The long-term ambition is that the same axiom could, in principle, map into quantum fields, Standard Model structures, and cosmology; but no such map is assumed or claimed here. The work in this repo is about building the discipline that would make any such map, if it exists, legible and falsifiable.
+
 
 ---
 
