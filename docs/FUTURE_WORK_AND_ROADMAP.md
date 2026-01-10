@@ -1,192 +1,223 @@
 # Future Work and Roadmap
 
-This document sketches how the current **Stage I (Phases 0–5)** scaffold can
-support future work. It is intentionally high-level and non-committal on
-specific physics claims: it focuses on **process and structure**, not promises.
+This document sketches where the Origin Axiom program is heading and how new work should be wired into the existing phased structure. It is not a claim ledger; it is a planning map.
+
+The current repo implements Stage I (Phases 0–5) and a set of downstream Stage 2 diagnostic belts under `stage2/`. In addition, there is a notional Stage II for deeper or broader future work that does not yet exist in this repo.
+
+The key principles are:
+
+- Do not silently rewrite history: retire or archive instead of erasing.
+- Keep claims gated and tied to explicit artifacts.
+- Treat Stage 2 as diagnostic and downstream.
+- Treat Stage II as hypothetical until it is actually implemented under version control.
 
 ---
 
-## 1. Stage I recap: what is “done enough”
+## 1. Where we are now (Stage I + Stage 2)
 
-At Stage I completion, we have:
+Stage I (implemented in this repo):
 
-- a clear **governance layer** (Phase 0),
-- toy ensembles and corridors (Phases 1–2),
-- a **baseline mechanism** with diagnostics (Phase 3),
-- FRW-style **toy background mappings** with viability masks (Phase 4),
-- a **cross-phase interface and sanity layer** (Phase 5),
-- a reproducible build path to canonical Phase PDFs and core tables.
+- **Phase 0** – Governance, contracts, and claim discipline (no physics claims).
+- **Phase 1** – Toy ensembles (locked).
+- **Phase 2** – Mode-sum model plus bounded FRW-style viability diagnostics (under audit).
+- **Phase 3** – Mechanism module (active).
+- **Phase 4** – FRW toy diagnostics (stub).
+- **Phase 5** – Interface and sanity layer (rung 0–1).
 
-This is sufficient to treat Stage I as a **fixed reference experiment**:
-later work should be able to say “we used the Stage I program as defined by
-commit X and generated the following additional results”.
+Stage 2 (implemented, non-canonical, strictly downstream):
 
----
+- `stage2/frw_corridor_analysis/` – FRW corridor and θ-family diagnostics on the Phase 4 grid.
+- `stage2/mech_measure_analysis/` – Mechanism/measure diagnostics over Phase 3 tables.
+- `stage2/joint_mech_frw_analysis/` – Joint mech–FRW analysis on a shared θ-grid.
+- `stage2/frw_data_probe_analysis/` – FRW data-probe audit versus viability masks.
+- `stage2/doc_repo_audit/` – Documentation and repo-structure audit, summarized in `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` and `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`.
 
-## 2. Possible Stage II directions
+For orientation and current status, see also:
 
-Note: **Stage II** (future phases beyond Stage I) is distinct from the
-existing **Stage 2** diagnostic belts under `stage2/`, which are already
-implemented and remain non-canonical.
-
-### 2.1 Data-aware FRW probes (Phase 6?)
-
-One natural next step is to use the existing **FRW toy infrastructure** more
-fully:
-
-- populate `phase4/data/external/frw_distance_binned.csv` (or a successor
-  structure) with real or mock data,
-- define a new phase (e.g. **Phase 6**) that:
-  - takes the Stage I viability masks and FRW summary as input,
-  - performs toy comparisons or constraints using the distance data,
-  - clearly separates “data-aware toy results” from the baseline Stage I
-    outputs.
-
-Key design constraints:
-
-- Stage I should remain valid and reproducible **without** the data.
-- The data-aware phase must not silently rewrite the meaning of the Stage I
-  artifacts.
-
-### 2.2 Richer mechanism diagnostics (Phase 3.x / 7?)
-
-Another direction is to push the **mechanism-side analysis** further:
-
-- spectral diagnostics of the ensembles,
-- stability under more complex perturbations,
-- exploration of alternative but related mechanisms that still respect the
-  Phase 0 governance.
-
-This could be done as:
-
-- additional rungs within Phase 3, or
-- a new Phase 7 that consumes Phase 3 artifacts and publishes its own
-  diagnostics and paper.
-
-The exact packaging can be decided later; the important thing is to maintain
-the “claims + artifacts + reproducibility” triad.
-
-### 2.3 Toward microphysics or field embeddings
-
-Longer-term, one could explore:
-
-- toy field-theory embeddings where the non-cancelling residue appears as an
-  effective parameter,
-- many-body or condensed-matter-style constructions that mirror some aspects
-  of the mechanism.
-
-These should be treated as **experiments built on top of Stage I**, not as
-retroactive justifications. Any successes or failures here would be logged as
-new phases with their own claims tables and artifacts.
+- `docs/PHASES.md`
+- `docs/STATE_OF_REPO.md`
+- `docs/CLAIMS_INDEX.md`
+- `stage2/docs/STAGE2_OVERVIEW_v1.md`
 
 ---
 
-## 3. Software and infrastructure evolution
+## 2. Possible Stage II directions (not yet implemented)
 
-On the software side, future work might include:
+Stage II is a placeholder name for future expansions that would only be attempted if the existing Phase 0–5 and Stage 2 belts survive an honest audit.
 
-- a more ergonomic **Python package** structure for the mechanism and FRW
-  mapping routines,
-- simple **CLI tools** that wrap common tasks (e.g. building all phases,
-  generating sanity tables, checking compatibility with external data),
-- CI/CD to automatically run gates and checks on new commits.
+Examples of possible Stage II directions include:
 
-Any such changes should preserve the ability to:
+- **Deeper field-theoretic embedding:** formally embedding the mechanism in a more realistic field-theory or many-body setting, beyond the current toy models.
+- **Broader sector contact:** structured extensions into additional sectors (for example, more detailed Standard Model structure, beyond the archived flavor experiment).
+- **Multi-systems comparison:** parallelizing the axiom test across qualitatively different systems, checking whether the same non-cancellation structure appears anywhere other than the current toy pipelines.
+- **Societal and ethical layers:** if the axiom survives as a serious organizing principle, designing interfaces, governance, and safeguards for how its implications are communicated and deployed.
 
-- clone the repo,
-- install dependencies,
-- run a small number of documented commands,
-- regenerate the Stage I artifacts.
+As of 2026-01-10 there is **no Stage II directory tree** and no Stage II claims. Any future Stage II work must:
 
----
-
-## 4. Governance evolution
-
-If the program grows, Phase 0 may need extensions:
-
-- clearer versioning of “Stage” boundaries (Stage I, II, …),
-- explicit rules for deprecating or superseding earlier phases,
-- guidelines for external contributions.
-
-These changes should be documented as **Phase 0 updates** with their own
-claims / non-claims and migration notes.
+1. Declare its scope and non-claims.
+2. Specify canonical artifacts and reproducibility gates.
+3. Be wired into the governance discipline defined in Phase 0.
+4. Be kept clearly separate from experiments and scratch work.
 
 ---
 
-## 5. How to propose and implement new work
+## 3. Stage 2 – Current belts and near-term roadmap
 
-A suggested cookbook:
+Stage 2 is already implemented and is where most near-term diagnostic work will happen. It is important to keep the semantics clear:
 
-1. **Write a short design note** under `docs/` describing:
-   - what you want to add,
-   - which existing phases or artifacts you need,
-   - what new artifacts you plan to publish.
-2. Choose whether it belongs as:
-   - a new phase (e.g. `phase6/`), or
-   - an extension rung within an existing phase.
-3. Implement the code and artifacts under the appropriate `phaseN/` directory.
-4. Add or update:
-   - a gate script,
-   - a Phase paper,
-   - a claims table and reproducibility appendix.
-5. Ensure the Stage I gates still pass, or write a clear migration note if
-   something necessarily changes.
-6. Update this roadmap document if the new work significantly alters the
-   program’s structure.
+- Stage 2 is **diagnostic and downstream** of Phases 3 and 4.
+- Stage 2 outputs can be strong evidence **for or against** promoting a result, but they are not themselves Phase claims.
+- Promotion of any Stage 2 result into a Phase paper must go through explicit gates plus normal git and `PROGRESS_LOG.md` logging.
+
+Below is a brief roadmap by belt.
+
+### 3.1 FRW corridor axis (`stage2/frw_corridor_analysis/`)
+
+Status:
+
+- Implements rungs over the Phase 4 FRW grid:
+  - family census and fractions,
+  - overlaps between FRW-viable, LCDM-like, and toy corridors,
+  - contiguity of families in θ,
+  - stride-robustness and smoothing tests,
+  - θ* alignment diagnostics,
+  - and corridor figures (ideally as vector PDFs).
+
+Near-term roadmap:
+
+- Finalize figures as PDFs (vector) and ensure they are reproducible via a small, documented script.
+- Decide whether to treat the current corridor definitions as provisional or lock them for a given rung.
+- Tighten the narrative link between the FRW corridor doc under `stage2/docs/` and the Phase 4 FRW paper.
+
+Promotion gate:
+
+- Promotion of any FRW corridor result into Phase papers is gated by an explicit FRW promotion gate document (for example `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`) and must be accompanied by:
+  - a clear statement of what is being promoted,
+  - a pointer to the Stage 2 rung and artifacts,
+  - and a corresponding update to the relevant Phase doc and claim index.
+
+### 3.2 Mechanism/measure axis (`stage2/mech_measure_analysis/`)
+
+Status:
+
+- Inventories Phase 3 tables and column types.
+- Identifies measure-like and flag-like candidates.
+- Analyzes θ-profiles of these candidates.
+- Proposes a small set of preferred measure candidates in `stage2_mech_rung6_phase3_preferred_measure_candidates_v1.csv`.
+
+Near-term roadmap:
+
+- Cross-reference the preferred candidates with the Phase 3 paper and its appendices, ensuring no contradictions with how the mechanism is presented.
+- Decide whether any candidate deserves a promotion to a Phase 3 claim, or whether they remain Stage 2 diagnostics only.
+- If none are ready for promotion, record that explicitly in the doc belt (for example, in a Stage 2 mech/measure summary doc).
+
+### 3.3 Joint mech–FRW axis (`stage2/joint_mech_frw_analysis/`)
+
+Status:
+
+- Builds a joint θ-grid aligning Phase 3 mechanism outputs and Phase 4 FRW masks.
+- Provides family summaries across:
+  - FRW-viable,
+  - LCDM-like,
+  - toy corridor,
+  - overlaps such as CORRIDOR_AND_VIABLE and CORRIDOR_AND_LCDM.
+- Computes correlations between mechanism variables and FRW diagnostics.
+
+Near-term roadmap:
+
+- Interpret the joint correlations more systematically:
+  - assess which correlations are structurally nontrivial versus trivially induced by shared dependence on θ or E_vac,
+  - check robustness under simple rescalings and transformations.
+- Decide whether the joint patterns suggest any new Stage 2 belt or Phase gate changes.
+
+### 3.4 FRW data-probe audit (`stage2/frw_data_probe_analysis/`)
+
+Status:
+
+- Audits the FRW data-probe mask versus the FRW viability mask.
+- Enumerates how well the data-probe columns discriminate or fail to discriminate viable from non-viable regions.
+
+Near-term roadmap:
+
+- Decide whether any probe is effectively redundant (for example, if it always mirrors the FRW viability flag).
+- Consider small adjustments to the data-probe design (under the Phase 4 paper’s governance) if the Stage 2 audit reveals systematic blind spots or redundancies.
+- Document any such adjustments in both Phase 4 and Stage 2 docs.
+
+### 3.5 Documentation and archive audit (`stage2/doc_repo_audit/`)
+
+Status:
+
+- Inventories documentation files and their roles.
+- Identifies broken references and orphan candidates.
+- Collects open narrative threads from TODOs and similar markers.
+- Summarized in:
+  - `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`
+  - `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`
+
+Near-term roadmap:
+
+- Use the audit CSVs to:
+  - fix or retire broken references,
+  - archive non-canonical or legacy docs cleanly,
+  - close or explicitly mark open narrative threads.
+- Re-run the audit after any major refactor or promotion pass.
 
 ---
 
-## 6. Summary
+## 4. Process roadmap – how work should move
 
-Stage I provides a **stable backbone**: a non-cancelling mechanism, corridor
-language, FRW toy mappings, and an interface layer.
+Beyond specific belts, the roadmap is also about **how** work should move through the program.
 
-Future work should:
+### 4.1 From experiment to Stage 2
 
-- treat Stage I as a **fixed base experiment**,
-- respect the same **claims + artifacts + reproducibility** discipline,
-- extend via **new phases or rungs**, rather than by silently changing what
-  existing artifacts mean.
+If you create a new experiment (for example under `experiments/`):
 
-This way, the origin-axiom program can grow without losing its internal
-coherence or auditability.
+1. Clearly mark it as non-canonical and describe its scope and non-claims in a local README.
+2. When it stabilizes and becomes useful as a diagnostic lens, either:
+   - migrate it into a Stage 2 belt under `stage2/`, or
+   - archive it with an explicit status doc if it is no longer active.
 
----
+No experiment should quietly masquerade as a Phase claim.
 
-### Stage 2 – FRW corridor axis (Rungs 1–9, doc rung)
+### 4.2 From Stage 2 to Phase promotion
 
-- Implemented `stage2/frw_corridor_analysis` as a downstream axis that
-  consumes Phase 4 FRW masks and corridors, defining a small set of FRW
-  “families” (F1–F6) and testing their geometric properties on the θ-grid.
-- Rungs 1–9 establish:
-  - basic inventory of Phase 4 FRW sources,
-  - boolean census of masks,
-  - family definitions (viable, LCDM-like, toy corridor, intersections),
-  - overlap matrix between families,
-  - contiguity, stride robustness, and smoothing robustness,
-  - θ\* alignment diagnostics.
-- A local README documents this axis:
-  - `stage2/frw_corridor_analysis/README_FRW_CORRIDORS_v1.md`
-- Promotion of any FRW corridor result into phase papers is gated by:
-  - `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`
-  and is **not yet permitted** as of 2026-01-09.
+If a Stage 2 result appears robust and important enough to influence Phase claims:
 
-### Stage 2 – Mechanism/measure axis (Rungs 1–6)
+1. Draft a promotion note that:
+   - names the Stage 2 rung and artifacts,
+   - explains what is being promoted and why,
+   - spells out the impact on the relevant Phase doc and claims.
+2. Update the relevant Phase doc (for example, Phase 3, Phase 4, or Phase 5) and `docs/CLAIMS_INDEX.md`.
+3. Log the change in `PROGRESS_LOG.md`.
+4. Re-run any relevant Stage 2 belts to ensure consistency.
 
-- Implemented `stage2/mech_measure_analysis` to inventory Phase 3 tables,
-  flag measure-like candidates, and produce diagnostic summaries.
-- This axis is strictly downstream and does **not** modify Phase 3/5 claims.
+Promotion is a deliberate act, not an automatic consequence of a pretty plot.
 
-### Stage 2 – Joint mech–FRW axis (Rungs 1–4)
+### 4.3 From internal repo to external publication
 
-- Implemented `stage2/joint_mech_frw_analysis` to align Phase 3 mechanisms
-  with Phase 4 FRW masks on a shared θ grid and compute joint diagnostics.
+For external publication:
 
-### Stage 2 – FRW data-probe audit (Rungs 1–2)
+1. Lock the relevant Phase paper and appendices with clear claim statements and evidence.
+2. Ensure that all figures and tables in the paper are generated from scripts and data under version control.
+3. Use Stage 2 belts to stress-test any claims you intend to publish.
+4. Consider a separate “externalization” checklist doc that must be satisfied before submitting.
 
-- Implemented `stage2/frw_data_probe_analysis` to audit the current
-  data-probe hooks without promoting any data-driven claims.
+No external claim should be stronger than what is actually present in the locked Phases and Stage 2 belts.
 
 ---
 
-For a compact summary of which phases and Stage 2 belts are canonical, under audit, or non-canonical, see `docs/GATES_AND_STATUS.md`.
+## 5. How to extend this roadmap
+
+This document should be updated when:
+
+- A new Stage 2 belt is added or an existing belt changes shape.
+- A Stage 2 result is promoted into a Phase doc.
+- A Stage II direction is concretely instantiated under version control.
+- A major refactor changes the layout or semantics of phases.
+
+When you update it, keep the following discipline:
+
+- Do not overwrite history; describe what changed and why.
+- Keep the Phase and Stage terminology aligned with `docs/PHASES.md` and `docs/STATE_OF_REPO.md`.
+- Make sure any new directions are reflected in local READMEs and claim indices where relevant.
+
