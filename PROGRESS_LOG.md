@@ -4342,3 +4342,14 @@ alignment memo that:
 - and identifies the remaining “slack” as intentional conceptual space for later phases (choice of θ-architecture and physical interpretation), not as a contradiction.
 
 The memo is descriptive only and does not introduce new claims or modify existing Phase 0 contracts, numerical artifacts, or Stage 2 diagnostics.
+## 2026-01-11 — Belt A / Rung A2: Phase 1 alignment memo (scope, claims, toy ensembles, paper)
+
+Phase 1 alignment belt: added `phase1/PHASE1_ALIGNMENT_v1.md`, a descriptive alignment memo that:
+
+- records how `phase1/SCOPE.md`, `phase1/CLAIMS.md`, `phase1/ASSUMPTIONS.md`, and `phase1/REPRODUCIBILITY.md` line up with the Phase 1 paper (`artifacts/origin-axiom-phase1.pdf` and `phase1/paper/*.tex`) and the Phase 1 repo layout,
+- confirms that Phase 1 is consistently presented as a minimal, toy-level non-cancellation phase with no phenomenology, θ★, φ, or unification claims,
+- checks that the axiom and toy ensembles in the paper match the claims register (C1–C5) and that the θ-agnostic stance in the toy-model section is consistent with the absence of θ★-specific claims in `phase1/CLAIMS.md`,
+- verifies that numeric scaling and energy-discipline claims in `phase1/CLAIMS.md` are supported by the methods/results sections and the outputs under `phase1/outputs/` and `phase1/artifacts/`,
+- and confirms that the Phase 1 reproducibility protocol and repository structure match the paper’s description of deterministic, version-controlled numerics.
+
+The memo is descriptive only and does not introduce new claims or modify existing Phase 1 contracts, numerical artifacts, or Stage 2 diagnostics.
