@@ -3965,3 +3965,20 @@ sandbox** section that:
 No Phase 5 claims, numerics, or upstream Phase 3/4 artifacts were modified; this
 rung improves navigation and makes the status of Phase 5 planning and sandbox
 material clear from the Phase 5 scope document itself.
+
+## 2026-01-11 — Doc-audit rung C6: surface Phase 2 workflow, lock checklist, and audit report from scope
+
+Phase 2 doc belt: extended `phase2/SCOPE.md` with a **Companion docs: workflow,
+lock checklist, and audit snapshot** section that:
+
+- points to `PHASE2_WORKFLOW_GUIDE.md` as the operational guide for running the
+  Phase 2 pipeline and preparing releases,
+- points to `PHASE2_LOCK_CHECKLIST.md` as the checklist for treating Phase 2 as
+  locked, and
+- clarifies that `AUDIT_REPORT.md` is a structural audit snapshot rather than a
+  claims document, directing readers back to `SCOPE.md`, `CLAIMS.md`, and
+  `REPRODUCIBILITY.md` as the authoritative Phase 2 contract.
+
+No Phase 2 claims, numerical artifacts, or workflows were modified; this rung
+improves navigation and makes key governance/workflow documents discoverable
+from the Phase 2 scope itself.

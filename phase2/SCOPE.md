@@ -83,3 +83,22 @@ If a statement is not explicitly supported by Phase 2 code, figures, and the cla
 register (`CLAIMS.md`), it is **not part of Phase 2**.
 
 This rule supersedes informal interpretation.
+---
+
+## Companion docs: workflow, lock checklist, and audit snapshot
+
+For operational and audit-level context around this scope, the following
+Phase 2 documents are relevant:
+
+- `PHASE2_WORKFLOW_GUIDE.md` describes how to run the Phase 2 pipeline in
+  practice, including which Snakemake targets to use, how figures and tables
+  are produced, and how releases are prepared from the `phase2/` tree.
+
+- `PHASE2_LOCK_CHECKLIST.md` records the conditions that must be satisfied
+  before Phase 2 can be treated as locked (e.g. paper build cleanliness,
+  reproducibility checks, and claim-to-artifact consistency).
+
+- `AUDIT_REPORT.md` is a structural audit snapshot for Phase 2, generated at a
+  specific point in time to inventory files, residual TODO markers, and
+  potential cleanups. It is not a claims document; see this scope, `CLAIMS.md`,
+  and `REPRODUCIBILITY.md` for the authoritative Phase 2 contract.
