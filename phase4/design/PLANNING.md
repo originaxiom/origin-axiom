@@ -9,8 +9,8 @@ For the current Phase 4 contract, see:
 - `phase4/SCOPE.md` for the Phase 4 scope definition,
 - `phase4/CLAIMS.md` and `phase4/NON_CLAIMS.md` for claims and guardrails,
 - `phase4/REPRODUCIBILITY.md` for reproducibility, and
-- `phase4/FRW_TOY_DESIGN.md`, `phase4/FRW_DATA_DESIGN.md`, and
-  `phase4/FRW_SYNTHESIS.md` for detailed FRW-facing design.
+- `phase4/design/FRW_TOY_DESIGN.md`, `phase4/design/FRW_DATA_DESIGN.md`, and
+  `phase4/design/FRW_SYNTHESIS.md` for detailed FRW-facing design.
 
 Any future promotion of ideas from this document into Phase 4/5 text or
 figures must pass through the FRW promotion gate

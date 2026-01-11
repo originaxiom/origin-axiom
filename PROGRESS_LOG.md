@@ -4595,3 +4595,30 @@ Notes:
 
 - Historical PROGRESS_LOG entries preserve the original file paths used at the time and may refer to pre-reorg locations. For current locations of design and audit docs, use the mappings above and the phase-level alignment memos (`phase2/PHASE2_ALIGNMENT_v1.md`, `phase3/PHASE3_ALIGNMENT_v1.md`, `phase4/PHASE4_ALIGNMENT_v1.md`).
 - Non-log docs that previously linked to the old paths (alignment memos, design notes, Stage 2 doc-open-threads summary) were updated to point at the new locations.
+
+## 2026-01-11 — Belt F: doc spine and phase doc layout notes
+
+Scope: Add a light documentation spine for new readers and explicit per-phase doc layout notes, aligned with the new design/audit subdirectory hierarchy from Belt G. No claims, code, or numerical artifacts were changed.
+
+Changes:
+
+- Added a global doc spine under:
+  - `docs/DOC_SPINE_v1.md`
+  which points new readers to a minimal set of entrypoint docs (README, PROJECT_OVERVIEW, PHASES, STATE_OF_REPO, STAGE2_MASTER_VERDICT) and then to the full atlas:
+  - `docs/REPO_MAP_AND_ATLAS_v1.md`
+
+- Added per-phase documentation layout notes:
+  - `phase2/PHASE2_DOCS_LAYOUT_v1.md`
+  - `phase3/PHASE3_DOCS_LAYOUT_v1.md`
+  - `phase4/PHASE4_DOCS_LAYOUT_v1.md`
+  - `phase5/PHASE5_DOCS_LAYOUT_v1.md`
+
+These layout notes:
+
+- classify Phase 2–5 docs into:
+  - canonical contracts (scope, claims, non-claims, reproducibility, alignment, progress logs, local READMEs),
+  - design and planning notes (including the Phase 2 audit report and Phase 3/4 design docs now living under `audit/` and `design/`),
+  - and historical/audit material (paper backups, archived experiments),
+- and document the intended hierarchy so future additions can follow the same pattern.
+
+This rung is documentation-structure only and does not modify any numerical pipeline, paper content, or phase claims.
