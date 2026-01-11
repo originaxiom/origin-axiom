@@ -4472,3 +4472,18 @@ Doc/graph belt: clarified the status of open-thread markers surfaced by the Stag
 - and appending a short pointer to `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` to make this status doc discoverable from the doc-audit summary.
 
 This rung does not remove or edit any TODO/DRAFT markers; it records how they should be interpreted so that future audits can distinguish live gates from preserved historical context.
+## 2026-01-11 — Belt D / Rung D1: Phase 5 interface table design (Stage 2 verdicts → program summaries)
+
+Phase 5 interface belt: added `phase5/INTERFACE_TABLE_DESIGN_v1.md`, a non-binding design note that:
+
+- specifies Phase 5 as an interface/sanity layer over Phase 3/4 outputs and Stage 2 verdicts,
+- lists the Stage 2 verdict and summary docs that Phase 5 interface tables will depend on,
+- proposes a small set of interface tables (P5-1–P5-5) for:
+  - FRW viability and family fractions,
+  - mechanism diagnostics and preferred candidates,
+  - joint mech–FRW redundancy summaries,
+  - θ★ status in the current toy universe,
+  - and a compact list of Stage 2 program-level verdicts,
+- and emphasises that these tables are interface views over Stage 2 diagnostics (internal verdicts only), not new physics claims or external phenomenology.
+
+This rung does not add any new computations or claims; it sketches the future Phase 5 interface belt that will convert Stage 2 CSVs and verdict docs into reproducible program verdict tables.
