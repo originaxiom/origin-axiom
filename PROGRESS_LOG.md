@@ -4330,3 +4330,15 @@ It also notes that the doc-audit CSVs provide a point-in-time snapshot and that
 future structural changes may require re-running the Stage 2 doc-audit scripts
 and applying additional rungs. No Phase 0–5 claims or numerical artifacts were
 modified in this rung.
+## 2026-01-11 — Belt A / Rung A1: Phase 0 alignment memo (contracts, paper, repo surface)
+
+Phase 0 alignment belt: added `phase0/PHASE0_ALIGNMENT_v1.md`, a descriptive
+alignment memo that:
+
+- compares `phase0/SCOPE.md`, `phase0/CLAIMS.md`, and `phase0/REPRODUCIBILITY.md` with the Phase 0 paper (`artifacts/origin-axiom-phase0.pdf`) and the draft θ architecture note `docs/THETA_ARCHITECTURE.md`,
+- records that the Phase 0 paper’s abstract and introduction match the Phase 0 scope (governance layer, no physics claims, no fixed θ★, no cosmology inference),
+- checks that the claims ledger defines governance and reproducibility contracts rather than physics claims and that its evidence pointers are consistent with the paper’s sections on vocabulary, corridor governance, reproducibility, and falsifiability,
+- confirms that `docs/THETA_ARCHITECTURE.md` is correctly labelled as a draft, non-binding design note that remains subordinate to Phase 0–3 claims,
+- and identifies the remaining “slack” as intentional conceptual space for later phases (choice of θ-architecture and physical interpretation), not as a contradiction.
+
+The memo is descriptive only and does not introduce new claims or modify existing Phase 0 contracts, numerical artifacts, or Stage 2 diagnostics.
