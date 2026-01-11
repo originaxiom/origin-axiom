@@ -219,3 +219,34 @@ picking a unique \(\theta_\star\).
 - The data probe is explicitly non-binding and does not introduce a new
   `theta`-filter; it is a structured, optional diagnostic in the spirit of
   Phase 0.
+
+---
+
+## Companion docs: Phase 4 contract and design bundle
+
+For readers who arrive here first and want to see the full Phase 4 contract and
+design surface, the following documents are relevant:
+
+- `SCOPE.md` — Phase 4 scope definition (draft, non-binding at this stage).
+- `CLAIMS.md` and `NON_CLAIMS.md` — draft Phase 4 claims and guardrails.
+- `REPRODUCIBILITY.md` — draft reproducibility plan and gate criteria.
+- `CLAIMS_TABLE.md` — draft claims→artifacts map for Phase 4.
+- `PHASE3_INTERFACE.md` — design note for the Phase 3↔Phase 4 interface (how
+  the mechanism module feeds FRW-facing diagnostics).
+- `MAPPING_FAMILIES.md` — design note describing candidate mapping families
+  from Phase 3 amplitudes into FRW-like quantities.
+
+These Phase 4-local documents are complemented by the FRW design and promotion
+docs:
+
+- `FRW_TOY_DESIGN.md`, `FRW_DATA_DESIGN.md`, and `FRW_SYNTHESIS.md` for the
+  FRW toy background, data-probe layer, and synthesis.
+- `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md` and
+  `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` for the promotion gate and
+  design-level plan governing how Stage 2 FRW/mech/joint/data diagnostics may
+  eventually feed into Phase 4/5 text.
+
+All of these are subject to the Phase 0 contracts and the Stage 2 promotion
+design; until the relevant gates are passed and claims are locked, they should
+be read as internal Phase 4 contract and design material, not as binding
+predictions.

@@ -4270,3 +4270,23 @@ Changes:
 No Phase 4 claims, numerical artifacts, or FRW pipelines were modified; this
 rung clarifies the status and role of Phase 4 planning documents within the
 governance and Stage 2 doc/repo-audit framework.
+
+## 2026-01-11 — Doc-audit rung C14: surface Phase 4 contract and design bundle from OVERVIEW
+
+Phase 4 doc belt: extended `phase4/OVERVIEW.md` with a **Companion docs: Phase 4
+contract and design bundle** section that:
+
+- lists the key Phase 4-local governance and design documents
+  (`SCOPE.md`, `CLAIMS.md`, `NON_CLAIMS.md`, `REPRODUCIBILITY.md`,
+  `CLAIMS_TABLE.md`, `PHASE3_INTERFACE.md`, `MAPPING_FAMILIES.md`) as the Phase 4
+  contract/design surface, and
+- situates them alongside the FRW design and promotion docs
+  (`FRW_TOY_DESIGN.md`, `FRW_DATA_DESIGN.md`, `FRW_SYNTHESIS.md`,
+  `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`,
+  `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`).
+
+The new section clarifies that these documents are governed by Phase 0 contracts
+and Stage 2 promotion design, and that they are to be read as internal Phase 4
+contract/design material until the relevant gates are passed and claims are
+locked. No Phase 4 claims, numerical artifacts, or FRW pipelines were modified
+in this rung.
