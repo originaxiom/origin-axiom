@@ -252,3 +252,19 @@ These scripts are used to enforce reproducibility and gate conditions before loc
   - then look under `experiments/` and `sandbox/`.
 
 Future rungs can extend this atlas with machine-readable indices (for example, CSV maps of docs, code, and artifacts) and more fine-grained links between claims, tables, and scripts, but the present version already captures the main structural layout of the repository.
+
+---
+
+## 7. Legacy migrations map
+
+The file `docs/LEGACY_MIGRAIONS_PHASE0_MAP.MD` is a Phase 0–compatible governance
+map between this phased repository and the older `origin-axiom-legacy` tree. It:
+
+- lists legacy scripts and outputs,
+- proposes Phase ownership for candidate runs, and
+- documents how legacy artifacts would need to be migrated to satisfy current
+  Phase 0 contracts.
+
+It is part of the archive/provenance layer rather than a new Phase. When in
+doubt about a legacy file or run mentioned in `PROGRESS_LOG.md` or older notes,
+consult this map and the archive policy in `docs/ARCHIVE.md`.

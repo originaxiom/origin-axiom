@@ -3816,3 +3816,19 @@ Acted on Stage 2-style doc-audit signals that `docs/ARCHIVE.md`, `docs/GATES_AND
   - `docs/THETA_ARCHITECTURE.md` as the main θ/corridor architecture explainer.
 
 This rung does not change any Phase 0–5 or Stage 2 claims; it reclassifies previously orphaned governance docs as first-class companions to the core overview/state docs, improving navigation and auditability.
+
+## 2026-01-11 — Doc-audit rung B2: promote legacy migrations governance map
+
+Promoted the previously orphaned `docs/LEGACY_MIGRAIONS_PHASE0_MAP.MD` file into
+the main governance/navigation surface:
+
+- Extended `docs/ARCHIVE.md` with a **Legacy migrations** section that explains
+  how the legacy repository `origin-axiom-legacy` relates to the phased repo and
+  points to `docs/LEGACY_MIGRAIONS_PHASE0_MAP.MD` as the provenance index.
+- Extended `docs/REPO_MAP_AND_ATLAS_v1.md` with a **Legacy migrations map**
+  section that situates `docs/LEGACY_MIGRAIONS_PHASE0_MAP.MD` in the atlas as
+  the Phase 0–compatible bridge between legacy runs and current Phase 0–5
+  artifacts.
+
+No Phase 0–5 claims or numerical artifacts were changed; this rung only makes a
+governance/provenance doc discoverable and clearly scoped.
