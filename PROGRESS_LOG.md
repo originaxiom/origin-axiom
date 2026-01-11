@@ -4164,3 +4164,13 @@ repo-audit belt** section that:
 
 No Phase 0–5 claims or numerical outputs were changed; this rung tightens the
 conceptual Stage 2 overview so it matches the actual belt structure in the repo.
+
+## 2026-01-11 — Doc-audit rung D8: tie Stage 2 belt overview to repo audit checklist
+
+Stage 2 doc belt: extended `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` with a
+section describing how the documentation/repo-audit belt connects to the global
+**Repo audit checklist (Stage 2 belt)** in `docs/REPRODUCIBILITY.md`. The new
+section points auditors to the checklist as the concrete procedure for
+verifying paper builds, global docs + atlas, Stage 2 downstream-only behavior,
+doc-audit status, and archive/experiment boundaries. No Phase 0–5 claims or
+numerical artifacts were modified in this rung.

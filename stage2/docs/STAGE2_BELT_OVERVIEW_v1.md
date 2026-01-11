@@ -264,3 +264,24 @@ Several higher-level Stage 2 documents live under the top-level `docs/` tree:
 Readers who start from the Phase/Stage global docs should treat these `docs/`
 entries as the high-level Stage 2 design and this `stage2/docs/*` belt overview
 as the more implementation-facing companion.
+
+---
+
+## 7. Relationship to the repo audit checklist
+
+The documentation and repo-audit belt integrates with the global reproducibility
+layer. For auditors who want a concrete procedure for checking the repository
+against Phase 0 contracts and the Stage 2 belts, see:
+
+- `docs/REPRODUCIBILITY.md` – in particular the **Repo audit checklist (Stage 2
+  belt)** section, which gives a step-by-step sequence for:
+  - building Phase 0–5 papers cleanly,
+  - checking global docs and the repo atlas,
+  - inspecting Stage 2 diagnostic belts as downstream-only analyses,
+  - reviewing the Stage 2 doc-audit status, and
+  - verifying archive and experiment boundaries.
+
+This belt-level overview and the repo-audit checklist are meant to be read
+together: the overview explains what the belts are allowed to do, and the
+checklist explains how to verify that the current repository state is consistent
+with that design.
