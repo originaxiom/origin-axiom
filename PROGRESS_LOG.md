@@ -4078,3 +4078,20 @@ concrete sequence of steps to verify:
 No Phase 0–5 claims, numerical artifacts, or Stage 2 computations were changed
 in this rung; it tightens the reproducibility and audit narrative in line with
 the existing Stage 2 doc/repo audit plan.
+
+## 2026-01-11 — Doc-audit rung C11: mark flavor SCOPE as archived and point to canonical Phase 3
+
+Flavor archive belt: extended `experiments/phase3_flavor_v1/SCOPE.md` with an
+archive status note that:
+
+- states explicitly that `experiments/phase3_flavor_v1/` is an archived Phase 3
+  flavor-sector experiment and not part of canonical Phase 3,
+- points to `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md` as the formal
+  archive banner, and
+- directs readers back to canonical Phase 3 under `phase3/` (mechanism
+  contract, role-in-program doc, and Phase 3 paper artifact) for live Phase 3
+  claims.
+
+No canonical Phase 3 claims or numerical artifacts were changed; this rung
+tightens the archive boundary and reduces the risk of misreading the flavor
+experiment as live Phase 3 content.

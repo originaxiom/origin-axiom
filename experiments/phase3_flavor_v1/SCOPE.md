@@ -17,3 +17,21 @@ Phase 3 integrates the **flavor anchor** (a single phase θ extracted from CKM+P
 
 ## Notes
 If new facts emerge that are necessary to fulfill this scope, they must be introduced via a **Scope Addendum** file and recorded in CLAIMS_TABLE.
+
+---
+
+## Archive status and canonical Phase 3
+
+_Status note (2026-01-11)._ This `experiments/phase3_flavor_v1/` tree is an
+archived Phase 3 flavor-sector experiment. It is **not** part of the canonical
+Phase 3 mechanism module.
+
+- See `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md` for the explicit
+  archive banner and the rationale for retiring this experiment from the main
+  claims ladder.
+
+- Canonical Phase 3 lives under `phase3/` and is documented by
+  `phase3/MECHANISM_CONTRACT.md`, `phase3/ROLE_IN_PROGRAM.md`, and the Phase 3
+  paper `artifacts/origin-axiom-phase3.pdf`. All live Phase 3 claims and
+  diagnostics should be interpreted with respect to those canonical artifacts,
+  not this archived flavor tree.
