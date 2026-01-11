@@ -85,3 +85,22 @@ At this stage, Phase 5 explicitly does **not**:
 Later rungs (Rung 2+) may extend the scope, but must do so by updating
 this document and `phase5/NON_CLAIMS.md` accordingly.
 
+
+---
+
+## Companion docs and sandbox
+
+For readers who want more detail on how Phase 5 is intended to sit on top of
+the Phase 3 mechanism and Phase 4 FRW toys, and where exploratory ideas live:
+
+- `docs/phase5_roadmap.md` sketches a roadmap for Phase 5 as an interface and
+  sanity layer moving from toy FRW corridors toward data-contact. It is
+  planning text, not a binding claims document, and must be read together with
+  this scope and `phase5/NON_CLAIMS.md`.
+
+- `sandbox/PHASE5_SANDBOX_*.md` files (for example,
+  `sandbox/PHASE5_SANDBOX_GENERATION_NUMEROLOGY.md`,
+  `sandbox/PHASE5_SANDBOX_H0_MPL_SCALING_IDEAS.md`, and
+  `sandbox/PHASE5_SANDBOX_PHI_PHI_LAMBDA_NUMEROLOGY.md`) are explicitly
+  non-canonical scratch pads. They are allowed to explore numerology and
+  speculative ideas but do not alter the Phase 5 scope or claims.

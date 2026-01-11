@@ -3950,3 +3950,18 @@ the repo atlas from two central global docs:
 No numerical artifacts or Phase 0–5 claims were changed; this rung tightens the
 narrative around where to find structural/audit information and how Stage 2
 sits relative to the claims ledger.
+
+## 2026-01-11 — Doc-audit rung C5: surface Phase 5 roadmap and sandbox from Phase 5 scope
+
+Phase 5 doc belt: extended `phase5/SCOPE.md` with a **Companion docs and
+sandbox** section that:
+
+- points to `docs/phase5_roadmap.md` as the planning-level roadmap for how
+  Phase 5 should sit on top of the Phase 3 mechanism and Phase 4 FRW toys, and
+- explicitly identifies the `sandbox/PHASE5_SANDBOX_*.md` files as non-canonical
+  Phase 5 scratch pads (numerology and speculative ideas that do not change the
+  Phase 5 scope or claims).
+
+No Phase 5 claims, numerics, or upstream Phase 3/4 artifacts were modified; this
+rung improves navigation and makes the status of Phase 5 planning and sandbox
+material clear from the Phase 5 scope document itself.
