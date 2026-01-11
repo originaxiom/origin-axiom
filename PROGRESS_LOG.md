@@ -4384,3 +4384,48 @@ Phase 4/5 alignment belt: added alignment memos for the FRW toy stub and the int
 - `phase5/PHASE5_ALIGNMENT_v1.md` records how Phase 5 scope, role, early vision docs, and non-claims align with the current Stage 2 verdicts (FRW viability, mechanism-derived scalars, joint mech–FRW correlations, FRW data gate, and θ★ diagnostics), treating Phase 5 as an interface and sanity layer over locked Phase 3/4 outputs and Stage 2 belts rather than as a new physics phase.
 
 These memos are descriptive only; they do not introduce new claims or modify existing Phase 4/5 contracts, numerical artifacts, or Stage 2 pipelines. They complete Belt A (Phase paper/claims alignment) at the current snapshot.
+## 2026-01-11 — Belt B / Rung B1: Stage 2 FRW diagnostics verdict (corridors, data probes, θ★)
+
+Stage 2 FRW belt: added `stage2/frw_corridor_analysis/docs/STAGE2_FRW_VERDICT_v1.md`, a physics-facing verdict document that:
+
+- synthesises the FRW corridor rungs (1–9), the FRW data-probe audit, and the θ★–FRW alignment diagnostic into a single summary,
+- records that the current Phase 4 FRW construction admits a broad, contiguous FRW-viable band on the 2048-point θ-grid and structurally nontrivial corridor families that are robust under contiguity and stride tests,
+- clarifies that the aggregate data flag `frw_data_ok` is identically false in the current snapshot, so all FRW corridors and families are pre-data corridors and the FRW data gate is not yet open,
+- notes that θ★ lies inside the FRW-viable band but is not singled out by any current FRW corridor or family definition, and that this is treated as a negative-result sanity check rather than a hidden prediction,
+- and states a conservative verdict: current FRW diagnostics provide a structurally nontrivial toy viability band but do not yet support any data-conditioned corridor or special selection of θ★.
+
+The verdict is descriptive and does not modify Phase 2/4 claims, FRW code, or Stage 2 pipelines; it is intended as a reusable summary for Phase 4/5 text and Phase 5 interface tables.
+## 2026-01-11 — Belt B / Rung B2: Stage 2 mechanism diagnostics verdict (Phase 3 amplitudes and measure candidates)
+
+Stage 2 mechanism/measure belt: added `stage2/mech_measure_analysis/docs/STAGE2_MECH_VERDICT_v1.md`, a physics-facing verdict document that:
+
+- summarises rungs 1–6 of the mechanism/measure belt (table inventory, column stats, probability-like candidate selection, measure vs flag classification, θ-profiles, and preferred candidates),
+- records that Phase 3 mechanism tables under `phase3/outputs/tables/` are numerically robust, with bounded, finite, non-degenerate scalar columns suitable for downstream analysis,
+- shows that a small family of probability-like columns splits naturally into measure-like and flag-like roles and that several preferred mechanism-derived diagnostics can be identified on numerical and structural grounds,
+- notes that θ-profiles of measure-like candidates are smooth and well-behaved over the current θ-grid, supporting their use as diagnostics,
+- and emphasises that, in the current toy setup, these scalars act as diagnostics rather than a canonical θ-measure and do not single out θ★ on their own.
+
+The verdict is descriptive only and does not change Phase 3 contracts, numerical artifacts, or Stage 2 pipelines; it is intended as reusable backing for Phase 4/5 text and Phase 5 interface summaries.
+## 2026-01-11 — Belt B / Rung B3: Stage 2 joint mech–FRW diagnostics verdict (redundancy and θ★)
+
+Stage 2 joint mech–FRW belt: added `stage2/joint_mech_frw_analysis/docs/STAGE2_JOINT_VERDICT_v1.md`, a verdict document that:
+
+- summarises the joint θ-grid construction, FRW family summaries, and joint correlation rungs under `stage2/joint_mech_frw_analysis/`,
+- records that Phase 3 mechanism tables and Phase 4 FRW tables are θ-consistent on the 2048-point grid, allowing a clean joint θ-grid,
+- confirms that FRW families (viable band, LCDM-like subsets, toy corridor families, and their intersections) are faithfully reproduced on the joint grid with attached mechanism scalars,
+- shows that mechanism-derived scalars are highly redundant with FRW scalars (|r| close to 1 for several pairs), so Phase 3 amplitudes act as reparameterisations of the FRW vacuum sector in the current toy setup,
+- and notes that θ★ lies in the FRW-viable band but is not singled out by the combined mech–FRW diagnostics, reinforcing the negative-result verdict that no special θ★ signature appears at this stage.
+
+The verdict is descriptive and does not modify Phase 3/4 contracts, numerical artifacts, or Stage 2 pipelines; it is intended as a reusable joint-structure summary for Phase 4/5 and Phase 5 interface work.
+## 2026-01-11 — Belt B / Rung B4: Stage 2 master verdict (FRW, mechanism, joint, data, θ★)
+
+Stage 2 umbrella belt: added `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`, a program-level verdict document that:
+
+- summarises the FRW corridor belt, FRW data-probe audit, mechanism/measure belt, joint mech–FRW belt, and θ★ alignment rung into one snapshot,
+- records that the current Phase 3 + Phase 4 + Stage 2 pipeline produces a structurally nontrivial toy FRW viability band with robust corridor families,
+- confirms that Phase 3 mechanism-derived scalars form a rich but redundant diagnostic family that is tightly correlated with FRW vacuum-sector scalars and does not provide a canonical θ-measure on its own,
+- reiterates that the FRW data gate (`frw_data_ok`) is closed in the current snapshot, so all corridors are pre-data corridors,
+- states explicitly that θ★ lies inside the FRW-viable band but is not singled out by FRW, mech-only, or joint mech–FRW diagnostics, and that this is treated as a negative-result sanity check,
+- and distills Stage 2 into an Option A style “non-contradiction / redundancy” story that Phase 4/5 and external summaries can cite as the baseline diagnostic verdict for the current Origin-Axiom toy universe.
+
+The doc is descriptive only and does not modify any Phase 2/3/4/5 claims, numerical artifacts, or Stage 2 pipelines; it is intended as the master Stage 2 reference for Phase 5 interface work and future promotion gates.
