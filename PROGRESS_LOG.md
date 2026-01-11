@@ -4174,3 +4174,21 @@ section points auditors to the checklist as the concrete procedure for
 verifying paper builds, global docs + atlas, Stage 2 downstream-only behavior,
 doc-audit status, and archive/experiment boundaries. No Phase 0–5 claims or
 numerical artifacts were modified in this rung.
+
+## 2026-01-11 — Doc-audit rung D9: tie promotion design to doc/repo-audit belt
+
+Stage 2 doc belt: extended `docs/STAGE2_PROMOTION_DESIGN_v1.md` with a
+**Documentation and repo-audit preconditions** section that:
+
+- requires the Stage 2 documentation/repo-audit belt to be in a clean, logged
+  state (via `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` and `PROGRESS_LOG.md`)
+  before any Stage 2 artifact is promoted into Phase 3/4/5 text or figures,
+- insists that global docs and the repo atlas already reflect the intended role
+  of any promoted artifacts, and
+- ties promotions to clear archive/experiment boundaries as recorded in
+  `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and
+  `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`.
+
+No numerical artifacts or Phase 0–5 claims were modified; this rung tightens the
+governance conditions on Stage 2 → Phase promotions in line with the doc/repo-
+audit belt.
