@@ -4290,3 +4290,22 @@ and Stage 2 promotion design, and that they are to be read as internal Phase 4
 contract/design material until the relevant gates are passed and claims are
 locked. No Phase 4 claims, numerical artifacts, or FRW pipelines were modified
 in this rung.
+
+## 2026-01-11 — Doc-audit rung C15: Phase 3 companion docs from scope
+
+Phase 3 doc belt: extended `phase3/SCOPE.md` with a **Companion docs:
+mechanism contract, role, reproducibility, and paper** section that:
+
+- points to `phase3/README.md` for a Phase 3–specific overview,
+- links `phase3/MECHANISM_CONTRACT.md` as the mechanism contract,
+- links `phase3/ROLE_IN_PROGRAM.md` for the Phase 3 position in the program,
+- classifies `phase3/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md` as a
+  rung-level design note refining the mechanism internals without extending
+  scope/claims on its own,
+- links `phase3/REPRODUCIBILITY.md` as the Phase 3 reproducibility contract,
+- and points to `artifacts/origin-axiom-phase3.pdf` as the consolidated Phase 3
+  paper to be read together with `phase3/CLAIMS.md`.
+
+No Phase 3 claims, numerical artifacts, or mechanism code were modified; this
+rung improves navigation and de-orphans the Rung-2 design note within the Phase
+3 scope and Stage 2 doc/repo-audit framework.
