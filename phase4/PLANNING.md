@@ -1,5 +1,24 @@
 # Phase 4 Planning (Vacuum → FRW / Scale Sanity)
 
+_Status note (2026-01-11)._ This document is a **Phase 4 design / planning
+note**, kept for context and roadmap purposes. It is **draft and
+non-binding** and does not override or extend the Phase 4 scope or claims.
+
+For the current Phase 4 contract, see:
+
+- `phase4/SCOPE.md` for the Phase 4 scope definition,
+- `phase4/CLAIMS.md` and `phase4/NON_CLAIMS.md` for claims and guardrails,
+- `phase4/REPRODUCIBILITY.md` for reproducibility, and
+- `phase4/FRW_TOY_DESIGN.md`, `phase4/FRW_DATA_DESIGN.md`, and
+  `phase4/FRW_SYNTHESIS.md` for detailed FRW-facing design.
+
+Any future promotion of ideas from this document into Phase 4/5 text or
+figures must pass through the FRW promotion gate
+`docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md` and the Phase 4 promotion design
+in `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`, and be reflected in
+the Phase 4 scope/claims documents.
+
+
 Status: **Planning / design note, non-binding.**
 
 This document collects the design intent for Phase 4 in light of:
@@ -106,4 +125,3 @@ mechanism in isolation.
 
 Once these steps are done and the contract is locked, Phase 4 can proceed in
 rung-style increments as with the new Phase 3 mechanism.
-

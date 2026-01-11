@@ -4244,3 +4244,29 @@ orphaned:
 No Phase 0–5 claims, numerical artifacts, or Stage 2 computations were
 modified; this rung simply promotes an existing reproducibility entrypoint
 document into the main navigation surface.
+
+## 2026-01-11 — Doc-audit rung C13: classify Phase 4 PLANNING and HARD_NOVELTY_ROADMAP as design notes
+
+Phase 4 doc belt: acted on the doc-audit orphan table entries for Phase 4
+planning documents:
+
+- `phase4/PLANNING.md` (Phase 4 Planning – Vacuum → FRW / Scale sanity), and
+- `phase4/HARD_NOVELTY_ROADMAP.md` (Phase 4 hard-novelty roadmap, F1 + FRW).
+
+Changes:
+
+- Added a status banner near the top of both files marking them as **Phase 4
+  design / planning notes**, explicitly **draft and non-binding**.
+- The banner points readers back to the canonical Phase 4 contract documents
+  (`phase4/SCOPE.md`, `phase4/CLAIMS.md`, `phase4/NON_CLAIMS.md`,
+  `phase4/REPRODUCIBILITY.md`) and to the detailed FRW design docs
+  (`phase4/FRW_TOY_DESIGN.md`, `phase4/FRW_DATA_DESIGN.md`, `phase4/FRW_SYNTHESIS.md`).
+- It also notes that any future promotion of ideas from these design notes into
+  Phase 4/5 text or figures must pass through the FRW promotion gate
+  (`docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`) and the Phase 4 promotion design
+  (`phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`), and be reflected in the
+  Phase 4 scope/claims documents.
+
+No Phase 4 claims, numerical artifacts, or FRW pipelines were modified; this
+rung clarifies the status and role of Phase 4 planning documents within the
+governance and Stage 2 doc/repo-audit framework.
