@@ -148,3 +148,20 @@ When you encounter a claim (in a README, a figure caption, or a talk slide), you
 
 If you cannot map a statement to this index, treat it as non-canonical. Either it belongs in an experiment or Stage 2 diagnostic, or this document needs to be updated as part of a gated rung.
 
+
+## Stage 2 diagnostics and non-claims
+
+Stage 2 belts (FRW corridor analysis, mech/measure analysis, joint mech–FRW
+analysis, FRW data-probe audit, θ★ diagnostics, and the doc/repo audit belt) are
+**downstream diagnostic layers** built on top of locked Phase 3 and Phase 4
+artifacts. They:
+
+- do not introduce new physical claims,
+- do not change Phase 0–5 claims or canonical artifacts in place, and
+- are not themselves part of the claims ledger.
+
+Instead, Stage 2 provides tables, figures, and design docs that can be cited as
+diagnostic evidence when interpreting Phase 3/4 results or planning future
+phases (for example, via the FRW promotion gate or Phase 5 roadmap). Any future
+promotion of Stage 2 artifacts into Phase 3/4/5 text must pass through explicit
+Phase 0–style gates and be reflected in the phase-local `CLAIMS.md` files.

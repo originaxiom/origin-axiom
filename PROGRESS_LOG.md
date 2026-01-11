@@ -3929,3 +3929,24 @@ overview doc `STAGE2_OVERVIEW_v1.md`, and clarified the description as an
 overview of Stage 2 as a diagnostic belt layer and its sub-belts. No Phase 0–5
 claims or numerical artifacts were changed; this rung fixes a 404-style doc
 link introduced during the atlas work.
+
+## 2026-01-11 — Doc-audit rung C4: surface atlas and Stage 2 diagnostics from INTERACTING and CLAIMS_INDEX
+
+Doc-audit belt: improved discoverability and scoping of Stage 2 diagnostics and
+the repo atlas from two central global docs:
+
+- Extended `docs/INTERACTING_WITH_REPO.md` with an **Additional navigation and
+  audit tools** section pointing to:
+  - `docs/REPO_MAP_AND_ATLAS_v1.md` as the directory-level repo map,
+  - `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` as the Stage 2 belt overview, and
+  - `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` as the documentation audit
+    interface.
+
+- Extended `docs/CLAIMS_INDEX.md` with a **Stage 2 diagnostics and non-claims**
+  section clarifying that Stage 2 belts introduce no new physical claims, do not
+  modify Phase 0–5 claims in place, and can only influence phase text via
+  explicit Phase 0–style promotion gates and updates to phase-local `CLAIMS.md`.
+
+No numerical artifacts or Phase 0–5 claims were changed; this rung tightens the
+narrative around where to find structural/audit information and how Stage 2
+sits relative to the claims ledger.

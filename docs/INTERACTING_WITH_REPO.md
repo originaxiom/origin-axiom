@@ -171,3 +171,23 @@ When in doubt:
 - Prefer interacting with results through documented artifacts and, where available, the Phase 5 interface and Stage 2 diagnostics, not through private or undocumented paths.
 
 This is how we keep the origin-axiom program auditable, extendable, and honest about what it does and does not show.
+## Additional navigation and audit tools
+
+For readers who want a deeper structural or audit-level view of the repository:
+
+- `docs/REPO_MAP_AND_ATLAS_v1.md` provides a directory-level map of the repo,
+  including phase trees, Stage 2 belts, experiments, sandbox areas, and global
+  build/gate scripts.
+
+- `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` summarises the Stage 2 diagnostic
+  belts (FRW corridor, mech/measure, joint mech–FRW, FRW data-probe, θ★
+  diagnostics, and the doc/repo audit belt) as downstream-only analyses that
+  never mutate Phase 3/4 artifacts.
+
+- `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` documents the Stage 2
+  documentation audit CSVs and the manual doc-audit rungs applied on top. It is
+  useful when preparing publication-grade passes or checking that central docs
+  and links are consistent with the current repo state.
+
+These tools are optional for everyday use but are part of the audit trail for
+how the repository is maintained and interpreted over time.
