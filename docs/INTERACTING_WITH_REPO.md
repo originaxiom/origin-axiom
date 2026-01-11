@@ -191,3 +191,9 @@ For readers who want a deeper structural or audit-level view of the repository:
 
 These tools are optional for everyday use but are part of the audit trail for
 how the repository is maintained and interpreted over time.
+
+## Reproducibility entrypoint
+
+As a quick starting point for reproducibility, the root-level file
+`REPRODUCIBILITY.md` provides a short entrypoint and points into the more
+detailed reproducibility and audit documents under `docs/` and the phase trees.

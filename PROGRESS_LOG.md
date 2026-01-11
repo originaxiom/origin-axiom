@@ -4226,3 +4226,21 @@ and repo-audit status** section that:
 No Phase 0–5 claims or numerical artifacts were modified; this rung keeps the
 state-of-repo document in sync with the existence and role of the Stage 2
 doc/repo-audit belt.
+
+## 2026-01-11 — Doc-audit rung C12: surface root REPRODUCIBILITY entrypoint
+
+Doc-audit belt: acted on the doc-audit orphan table indication that the
+root-level `REPRODUCIBILITY.md` (“Reproducibility entrypoint”) was effectively
+orphaned:
+
+- Extended `README.md` with a **Reproducibility entrypoint** section pointing
+  to the root `REPRODUCIBILITY.md` as a concise starting point for reproducible
+  use of the repo.
+- Extended `docs/INTERACTING_WITH_REPO.md` with a **Reproducibility
+  entrypoint** note that links to the same file and clarifies that it forwards
+  into the more detailed reproducibility and audit docs under `docs/` and in
+  the phase trees.
+
+No Phase 0–5 claims, numerical artifacts, or Stage 2 computations were
+modified; this rung simply promotes an existing reproducibility entrypoint
+document into the main navigation surface.
