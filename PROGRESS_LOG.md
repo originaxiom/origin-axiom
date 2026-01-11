@@ -4538,3 +4538,15 @@ Audit verdict:
 - No contradictions were found between the Phase 3 paper and the Stage 2 master verdict; any future edits can be limited to minor clarifications and cross-links.
 
 No LaTeX or paper sources were modified in this rung; it is a descriptive audit only.
+## 2026-01-11 — Belt E / Rung E4: Phase 4 paper audit (vacuum→FRW toy corridor stub)
+
+Paper-audit belt: read `artifacts/origin-axiom-phase4.pdf` (abstract, introduction, E_vac mapping and F1 stack, FRW viability and ΛCDM-like sections, corridor discussion, and conclusion) alongside the Phase 4 docs, alignment memo, and Stage 2 verdicts, and recorded the audit in `stage2/docs/STAGE2_PAPER_AUDIT_PHASE4_v1.md`.
+
+Audit verdict:
+
+- The Phase 4 paper presents Phase 4 as an FRW-facing toy corridor stub built from the Phase 3 amplitude via a fixed E_vac(θ) mapping and a simple FRW model, in line with `phase4/PHASE4_ALIGNMENT_v1.md` and `docs/PHASES.md`.
+- Its FRW viability and ΛCDM-like constructions are framed as internal corridor-style diagnostics on the θ-grid, not as data-conditioned or observationally calibrated bands.
+- The paper does not claim a canonical θ-corridor, a θ★ selection, or quantitative agreement with real cosmological parameters; it emphasises numerical stability, transparency, and reproducibility of the vacuum→FRW diagnostic chain.
+- These statements are compatible with the Stage 2 FRW, data-probe, joint, and θ★ verdicts, which find a broad FRW-viable band and robust toy corridors but a closed aggregate data gate and no special promotion of θ★.
+
+No LaTeX or paper sources were modified in this rung; it is a descriptive audit only.
