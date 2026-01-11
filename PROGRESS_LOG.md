@@ -3897,3 +3897,15 @@ far. The new section records that we have:
 No Phase 0–5 claims, numerical artifacts, or Stage 2 diagnostics were changed;
 this rung simply makes the current doc-audit progress legible from within the
 Stage 2 doc-audit summary itself.
+
+## 2026-01-11 — Doc-audit rung C2: mark Phase 2 AUDIT_REPORT as historic snapshot
+
+Phase 2 doc belt: added a short status banner to `phase2/AUDIT_REPORT.md`
+clarifying that it is an internal, point-in-time structural audit snapshot
+generated on 2026-01-04, not a living Phase 2 claims or scope document. The
+banner explains that the TODO/TBD references listed in the report are part of
+the audit (which files contained TODOs at that time) and are intentionally left
+unchanged, and directs readers to `phase2/SCOPE.md`, `phase2/CLAIMS.md`,
+`phase2/REPRODUCIBILITY.md`, and global docs under `docs/` for the current
+Phase 2 status. No Phase 2 claims, numerics, or workflows were modified in this
+rung; this is purely a governance/doc-audit clarification.
