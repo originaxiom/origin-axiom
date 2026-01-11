@@ -21,3 +21,17 @@ document, and should be consulted when:
 Legacy content remains in the archive unless and until it is explicitly promoted
 through a Phase 0 gate and registered in the phase-local `CLAIMS.md` and
 `docs/CLAIMS_INDEX.md`.
+
+## Stage 2 archive status map
+
+In addition to this policy document and Phase 0 contracts, the current practical
+map of canonical vs archived/experimental areas is maintained in:
+
+- `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`
+
+That document records, at the repository level, which trees are treated as
+canonical phases (e.g. `phase0/`–`phase5/`), which are Stage 2 diagnostic belts
+(e.g. `stage2/`), and which are archived or experimental areas (for example,
+`experiments/phase3_flavor_v1/` and the Phase 5 sandbox files). It should be
+consulted together with this archive policy when deciding where new work lives
+and how legacy artifacts are classified.
