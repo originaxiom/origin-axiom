@@ -4192,3 +4192,37 @@ Stage 2 doc belt: extended `docs/STAGE2_PROMOTION_DESIGN_v1.md` with a
 No numerical artifacts or Phase 0–5 claims were modified; this rung tightens the
 governance conditions on Stage 2 → Phase promotions in line with the doc/repo-
 audit belt.
+
+## 2026-01-11 — Doc-audit rung D9: tie promotion design to doc/repo-audit belt
+
+Stage 2 doc belt: extended `docs/STAGE2_PROMOTION_DESIGN_v1.md` with a
+**Documentation and repo-audit preconditions** section that:
+
+- requires the Stage 2 documentation/repo-audit belt to be in a clean, logged
+  state (via `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` and `PROGRESS_LOG.md`)
+  before any Stage 2 artifact is promoted into Phase 3/4/5 text or figures,
+- insists that global docs and the repo atlas already reflect the intended role
+  of any promoted artifacts, and
+- ties promotions to clear archive/experiment boundaries as recorded in
+  `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and
+  `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`.
+
+No numerical artifacts or Phase 0–5 claims were modified; this rung tightens the
+governance conditions on Stage 2 → Phase promotions in line with the doc/repo-
+audit belt.
+
+## 2026-01-11 — Doc-audit rung D10: record doc/repo-audit belt in STATE_OF_REPO
+
+Doc-audit belt: extended `docs/STATE_OF_REPO.md` with a **Stage 2 documentation
+and repo-audit status** section that:
+
+- acknowledges the Stage 2 doc/repo-audit belt as part of the governance and
+  audit infrastructure,
+- explains its role (inventorying docs, flagging broken refs/orphans/open
+  threads, proposing manual documentation rungs recorded in `PROGRESS_LOG.md`),
+- and points to `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` as the place where
+  its current status is described.
+
+No Phase 0–5 claims or numerical artifacts were modified; this rung keeps the
+state-of-repo document in sync with the existence and role of the Stage 2
+doc/repo-audit belt.

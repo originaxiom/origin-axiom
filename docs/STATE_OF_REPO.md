@@ -47,3 +47,23 @@ For more detailed governance and structural guidance, see:
 - `docs/ARCHIVE.md` – archive and deprecation policy (how exploratory work is retired or migrated).
 - `docs/GATES_AND_STATUS.md` – central index of gates, status labels, and canonical vs downstream layers.
 - `docs/REPRODUCIBILITY.md` – global reproducibility and gate rules.
+
+## Stage 2 documentation and repo-audit status
+
+Stage 2 includes a documentation and repo-audit belt that keeps the written
+surface of the repository aligned with the actual Phase/Stage artifacts and
+Phase 0 contracts. Its role is to:
+
+- inventory documentation and structural files,
+- flag broken references, orphaned docs, and open TODO/TBD-style threads, and
+- propose small, manually applied documentation rungs (navigation fixes,
+  archive labels, companion-doc links, etc.), recorded in `PROGRESS_LOG.md`.
+
+The current status of this belt, including which manual rungs have been applied
+so far, is described in:
+
+- `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`
+
+This belt introduces no new physical claims and does not modify Phase 0–5
+numerical artifacts; it is part of the governance and audit infrastructure
+of the project.
