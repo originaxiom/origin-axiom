@@ -156,7 +156,7 @@ Stage 2 is a set of downstream diagnostic belts built on top of locked Phase 3 a
 
 Top-level contents of `stage2/`:
 
-- `STAGE2_OVERVIEW_AND_STATUS_v1.md` – overview of Stage 2 and its belts.
+- `STAGE2_OVERVIEW_v1.md` – overview of Stage 2 as a diagnostic belt layer and its sub-belts.
 - `docs/` – Stage 2–level docs:
   - `STAGE2_OVERVIEW_v1.md` – Stage 2 overview and verdict.
   - `STAGE2_BELT_OVERVIEW_v1.md` – description of FRW, mech/measure, joint mech–FRW, FRW data-probe, and θ★ rungs.

@@ -3920,3 +3920,12 @@ phase/Stage status and future work, and states that when there is disagreement
 the `docs/` versions plus per-phase `SCOPE.md`/`CLAIMS.md` are canonical. No
 Phase 0–5 claims or numerical artifacts were changed; this rung only reclassifies
 an older roadmap as historical context to avoid confusion during audits.
+
+## 2026-01-11 — Doc-audit rung B5: fix Stage 2 overview filename in repo atlas
+
+Doc-audit belt: corrected a broken reference in `docs/REPO_MAP_AND_ATLAS_v1.md`
+from the non-existent `STAGE2_OVERVIEW_AND_STATUS_v1.md` to the actual Stage 2
+overview doc `STAGE2_OVERVIEW_v1.md`, and clarified the description as an
+overview of Stage 2 as a diagnostic belt layer and its sub-belts. No Phase 0–5
+claims or numerical artifacts were changed; this rung fixes a 404-style doc
+link introduced during the atlas work.
