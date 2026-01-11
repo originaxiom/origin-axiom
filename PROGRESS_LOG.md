@@ -3982,3 +3982,25 @@ lock checklist, and audit snapshot** section that:
 No Phase 2 claims, numerical artifacts, or workflows were modified; this rung
 improves navigation and makes key governance/workflow documents discoverable
 from the Phase 2 scope itself.
+
+## 2026-01-11 — Doc-audit rung C7: surface FRW design, promotion gate, and Stage 2 FRW diagnostics from Phase 4 scope
+
+Phase 4 doc belt: extended `phase4/SCOPE.md` with a **Companion docs: FRW
+design, promotion, and Stage 2 diagnostics** section that:
+
+- points to `FRW_TOY_DESIGN.md`, `FRW_DATA_DESIGN.md`, and `FRW_SYNTHESIS.md`
+  as the internal FRW toy and data-design docs for this phase,
+- points to `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md` as the governance gate for
+  any future promotion of Stage 2 FRW corridor results into Phase 4/5 text or
+  figures,
+- points to `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` as the Phase 4
+  design-level plan for how Stage 2 FRW/mech/joint/data artifacts might be used
+  under that gate, and
+- links `stage2/docs/STAGE2_FRW_CORRIDOR_SUMMARY_v1.md` and
+  `stage2/docs/STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md` as downstream-only Stage 2
+  FRW diagnostics that support interpretation of Phase 4 without changing its
+  claims in place.
+
+No Phase 4 claims, numerical artifacts, or FRW pipeline code were modified; this
+rung improves navigation and clarifies how Phase 4 relates to FRW design docs,
+promotion gates, and Stage 2 FRW diagnostics.

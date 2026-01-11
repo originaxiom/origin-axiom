@@ -80,3 +80,31 @@ Phase 4 must:
 This scope file will be revised and eventually **locked** once the
 Phase 4 design is stable. Until then, it should be treated as a
 living, non-binding description of intent.
+
+---
+
+## Companion docs: FRW design, promotion, and Stage 2 diagnostics
+
+For more detailed context on how this Phase 4 scope sits inside the broader FRW
+and Stage 2 structure, the following documents are relevant:
+
+- `FRW_TOY_DESIGN.md`, `FRW_DATA_DESIGN.md`, and `FRW_SYNTHESIS.md` describe the
+  internal design of the FRW toy background, the data-probe layer, and how
+  these pieces are meant to be synthesised inside Phase 4. They refine this
+  scope but do not expand its claims.
+
+- `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md` defines the governance gate for any
+  future promotion of Stage 2 FRW corridor results into Phase 4/5 text or
+  figures. Until that gate is explicitly passed, Stage 2 FRW diagnostics remain
+  downstream-only and must not be described as physical predictions.
+
+- `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` records a design-level plan
+  for which Stage 2 FRW, mech/measure, joint mech–FRW, and FRW data-probe
+  artifacts might eventually be used in Phase 4/5 text under the promotion
+  gate, without yet touching the LaTeX.
+
+- `stage2/docs/STAGE2_FRW_CORRIDOR_SUMMARY_v1.md` and
+  `stage2/docs/STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md` summarise the Stage 2 FRW
+  corridor and FRW data-probe belts as **diagnostic** analyses built strictly
+  on top of Phase 4 FRW outputs. They support interpretation of Phase 4 but do
+  not change Phase 4 claims in place.
