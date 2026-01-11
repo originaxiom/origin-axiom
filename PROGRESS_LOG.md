@@ -3909,3 +3909,14 @@ unchanged, and directs readers to `phase2/SCOPE.md`, `phase2/CLAIMS.md`,
 `phase2/REPRODUCIBILITY.md`, and global docs under `docs/` for the current
 Phase 2 status. No Phase 2 claims, numerics, or workflows were modified in this
 rung; this is purely a governance/doc-audit clarification.
+
+## 2026-01-11 — Doc-audit rung C3: mark ROADMAP.md as legacy roadmap
+
+Doc-audit belt: added a status banner to `ROADMAP.md` clarifying that it is a
+legacy program roadmap from the pre-Stage-2 / early-phasing period. The banner
+directs readers to `docs/STATE_OF_REPO.md`, `docs/PHASES.md`, and
+`docs/FUTURE_WORK_AND_ROADMAP.md` as the authoritative sources for current
+phase/Stage status and future work, and states that when there is disagreement
+the `docs/` versions plus per-phase `SCOPE.md`/`CLAIMS.md` are canonical. No
+Phase 0–5 claims or numerical artifacts were changed; this rung only reclassifies
+an older roadmap as historical context to avoid confusion during audits.

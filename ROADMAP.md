@@ -1,5 +1,18 @@
 # Origin Axiom Program Roadmap
 
+_Status note (2026-01-11)._ This document is a **legacy program roadmap**
+from the pre-Stage-2 / early-phasing period. It is kept for historical
+context and high-level narrative only. For the current, canonical view of
+phase status and future work, prefer:
+
+- `docs/STATE_OF_REPO.md` (current phase/Stage status),
+- `docs/PHASES.md` (formal phase definitions and scopes),
+- `docs/FUTURE_WORK_AND_ROADMAP.md` (up-to-date future work and roadmap).
+
+Where this roadmap disagrees with those documents, the `docs/` versions
+and per-phase `SCOPE.md`/`CLAIMS.md` files are authoritative.
+
+
 This document summarises how the repository is structured as a multi–phase program
 and what each phase is allowed to claim. It is intended for reviewers who want a
 high–level picture of progression from abstract non–cancellation principle to
