@@ -184,3 +184,15 @@ If you want to propose a new rung, Stage 2 belt, or Stage II direction:
 
 This keeps the roadmap **living but disciplined**: ideas are welcomed, but only become part of the canonical story once they satisfy the same standards as the existing phases.
 
+
+## Phase 5 roadmap companion
+
+For a more detailed narrative of how Phase 5 should build on the existing
+Phase 3–4 stack (mechanism + FRW toy corridors) without retroactively changing
+their roles, see:
+
+- `docs/phase5_roadmap.md` – Phase 5 roadmap from FRW toy corridors to
+  data-contact.
+
+This roadmap is planning-level text that complements, but does not replace, the
+Phase 5 paper and governance docs.

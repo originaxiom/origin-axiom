@@ -3832,3 +3832,24 @@ the main governance/navigation surface:
 
 No Phase 0–5 claims or numerical artifacts were changed; this rung only makes a
 governance/provenance doc discoverable and clearly scoped.
+
+## 2026-01-11 — Doc-audit rung B3: surface FRW promotion gate and Phase 5 roadmap
+
+Acted on doc-audit style signals that two important governance/planning docs
+were effectively orphaned:
+
+- `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md` (FRW corridor promotion gate), and
+- `docs/phase5_roadmap.md` (Phase 5 roadmap from FRW toys to data-contact).
+
+Changes:
+
+- Extended `docs/STAGE2_PROMOTION_DESIGN_v1.md` with a **Companion docs** section
+  that points to the FRW corridor promotion gate and the Phase 5 roadmap as the
+  governance/planning context for any future Option A/B promotions.
+- Extended `docs/FUTURE_WORK_AND_ROADMAP.md` with a **Phase 5 roadmap companion**
+  section linking `docs/phase5_roadmap.md` so that Phase 5 planning text is
+  discoverable from the main roadmap.
+
+No Phase 0–5 claims, numerical artifacts, or Stage 2 diagnostics were changed;
+this rung only promotes existing governance/planning docs into the navigation
+surface.
