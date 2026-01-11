@@ -3802,3 +3802,17 @@ Adjusted README and global reproducibility docs so that the Stage 2 documentatio
 ## 2026-01-11 — Repo atlas hooks in README and STATE_OF_REPO (docs-only rung)
 
 Linked the new repo atlas into the core documentation so external readers can discover it easily. Updated `README.md` to reference `docs/REPO_MAP_AND_ATLAS_v1.md` directly under the repository-structure section, and extended `docs/STATE_OF_REPO.md` to include the atlas in the canonical policy bullets as the directory-level map of phases, Stage 2 belts, and experiments. No numerical artifacts or Phase 0–5/Stage 2 claims were changed; this rung is purely about navigation and auditability.
+
+## 2026-01-11 — Doc-audit rung B1: promote governance and θ architecture docs
+
+Acted on Stage 2-style doc-audit signals that `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and `docs/THETA_ARCHITECTURE.md` were effectively orphaned global governance docs (not linked from the main narrative). Promoted them into the central documentation:
+
+- Extended `docs/STATE_OF_REPO.md` with a **Governance companion docs** section pointing to:
+  - `docs/ARCHIVE.md` for archive/deprecation policy,
+  - `docs/GATES_AND_STATUS.md` for gates and status labels,
+  - `docs/REPRODUCIBILITY.md` for global reproducibility rules.
+- Extended `docs/PROJECT_OVERVIEW.md` with a new section **Governance and θ companion docs**, linking:
+  - `docs/ARCHIVE.md` and `docs/GATES_AND_STATUS.md` as governance references,
+  - `docs/THETA_ARCHITECTURE.md` as the main θ/corridor architecture explainer.
+
+This rung does not change any Phase 0–5 or Stage 2 claims; it reclassifies previously orphaned governance docs as first-class companions to the core overview/state docs, improving navigation and auditability.

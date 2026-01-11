@@ -140,3 +140,11 @@ If you add new work, the key questions to ask yourself are:
 
 If you can answer those cleanly and wire them into the existing docs, you are helping the program remain coherent, reproducible, and intellectually honest.
 
+
+## 7. Governance and θ companion docs
+
+For readers who want a deeper view of governance and the θ architecture:
+
+- `docs/ARCHIVE.md` explains the archive and deprecation policy, including how exploratory work is retired or migrated into phases.
+- `docs/GATES_AND_STATUS.md` is the central index of gates and status labels across phases, Stage 2 belts, and experiments.
+- `docs/THETA_ARCHITECTURE.md` describes how θ-like parameters and corridors are treated across the program, including the role of admissible regions and intersection-style narrowing.

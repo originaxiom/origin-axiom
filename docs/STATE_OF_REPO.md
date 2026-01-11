@@ -40,3 +40,10 @@ These are the canonical entry points for reproducing phase-level artifacts. When
 - Phase 2 physics claims: `phase2/CLAIMS.md`.
 - Phase 3 physics claims: recorded in the Phase 3 paper appendix (`phase3/paper/appendix/`) and `phase3/ROLE_IN_PROGRAM.md` (there is no standalone `phase3/CLAIMS.md` at this rung).
 - Stage 2 diagnostic belts do not carry independent claims; they are downstream views of Phase 3/4 artifacts.
+## Governance companion docs
+
+For more detailed governance and structural guidance, see:
+
+- `docs/ARCHIVE.md` – archive and deprecation policy (how exploratory work is retired or migrated).
+- `docs/GATES_AND_STATUS.md` – central index of gates, status labels, and canonical vs downstream layers.
+- `docs/REPRODUCIBILITY.md` – global reproducibility and gate rules.
