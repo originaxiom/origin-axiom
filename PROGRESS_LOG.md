@@ -4022,3 +4022,20 @@ docs: role, Stage 2 diagnostics, and archived flavor** section that:
 No Phase 3 claims, numerical artifacts, or mechanism code were modified; this
 rung improves navigation and clarifies how canonical Phase 3 relates to Stage 2
 diagnostics and the archived flavor tree.
+
+## 2026-01-11 — Doc-audit rung C9: Phase 1 companion docs from scope
+
+Phase 1 doc belt: extended `phase1/SCOPE.md` with a **Companion docs:
+narrative, reproducibility, and paper** section that:
+
+- points to `phase1/README.md` as the Phase 1–specific overview of the toy
+  ensembles and how they instantiate the non-cancellation axiom,
+- points to `phase1/REPRODUCIBILITY.md` as the Phase 1 reproducibility
+  contract, and
+- points to the consolidated Phase 1 paper `artifacts/origin-axiom-phase1.pdf`
+  (built from `phase1/paper/main.tex` and `phase1/outputs/`) as the main
+  exposition of Phase 1 claims alongside `phase1/CLAIMS.md`.
+
+No Phase 1 claims, numerical artifacts, or workflows were modified; this rung
+improves navigation and makes it easier for readers of the Phase 1 scope to
+find the corresponding narrative, reproducibility, and paper artifacts.

@@ -86,3 +86,23 @@ If a statement, implication, or conclusion is not explicitly supported
 by Phase 1 code, figures, or text, it is **not part of Phase 1**.
 
 This rule supersedes informal interpretation.
+---
+
+## Companion docs: narrative, reproducibility, and paper
+
+For readers who want more detail on how this scope is realised in code and in
+the Phase 1 paper, the following documents are relevant:
+
+- `README.md` (in `phase1/`) provides a Phase 1–specific overview of the toy
+  ensembles, how they relate to the global non-cancellation axiom, and how to
+  interpret Phase 1 outputs at a high level.
+
+- `REPRODUCIBILITY.md` (in `phase1/`) records the Phase 1 reproducibility
+  contract, including environment expectations, how to run the Phase 1
+  workflows, and how figures/tables used in the paper are generated.
+
+- `artifacts/origin-axiom-phase1.pdf` (at the repo root) is the consolidated
+  Phase 1 paper built from `phase1/paper/main.tex` and the outputs under
+  `phase1/outputs/`. This scope document should be read together with that
+  paper and `phase1/CLAIMS.md` to understand what Phase 1 does and does not
+  assert.
