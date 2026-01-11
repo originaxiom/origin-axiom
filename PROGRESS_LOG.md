@@ -4004,3 +4004,21 @@ design, promotion, and Stage 2 diagnostics** section that:
 No Phase 4 claims, numerical artifacts, or FRW pipeline code were modified; this
 rung improves navigation and clarifies how Phase 4 relates to FRW design docs,
 promotion gates, and Stage 2 FRW diagnostics.
+
+## 2026-01-11 — Doc-audit rung C8: Phase 3 mechanism companion docs
+
+Phase 3 doc belt: extended `phase3/MECHANISM_CONTRACT.md` with a **Companion
+docs: role, Stage 2 diagnostics, and archived flavor** section that:
+
+- points to `phase3/ROLE_IN_PROGRAM.md` for the mechanism module's place in the
+  Phase 2 → Phase 3 → Phase 4 chain,
+- links `stage2/docs/STAGE2_MECH_MEASURE_SUMMARY_v1.md` and
+  `stage2/docs/STAGE2_JOINT_MECH_FRW_SUMMARY_v1.md` as downstream-only Stage 2
+  mech/measure and joint mech–FRW diagnostics built on top of Phase 3 outputs,
+- situates these belts inside `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md`, and
+- explicitly points to `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md` as
+  the archive banner for the non-canonical Phase 3 flavor-sector experiment.
+
+No Phase 3 claims, numerical artifacts, or mechanism code were modified; this
+rung improves navigation and clarifies how canonical Phase 3 relates to Stage 2
+diagnostics and the archived flavor tree.

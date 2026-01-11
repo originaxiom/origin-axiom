@@ -142,3 +142,29 @@ The canonical PDF and theta_filter must be reproducible at Level B.
 This contract is considered **locked** once the Phase 3 mechanism paper,
 code, and theta_filter artifact satisfy the conditions above and pass the
 Level B gate in a clean repository state.
+
+---
+
+## Companion docs: role, Stage 2 diagnostics, and archived flavor
+
+For context on how this canonical Phase 3 mechanism module fits into the wider
+program, the following documents are relevant:
+
+- `ROLE_IN_PROGRAM.md` explains how Phase 3 sits between the Phase 2 bounded
+  vacuum-floor implementation and the Phase 4 FRW toy diagnostics, and which
+  questions the mechanism module is allowed to ask (and not ask).
+
+- `stage2/docs/STAGE2_MECH_MEASURE_SUMMARY_v1.md` and
+  `stage2/docs/STAGE2_JOINT_MECH_FRW_SUMMARY_v1.md` summarise the Stage 2
+  mech/measure and joint mech–FRW belts. These belts treat Phase 3 outputs as
+  fixed inputs and provide **diagnostic-only** tables and correlations; they do
+  not alter the Phase 3 mechanism contract or introduce new Phase 3 claims.
+
+- `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` places these Stage 2 belts in the
+  wider diagnostic context (FRW corridor, FRW data probes, θ★ diagnostics, and
+  doc/repo audit). It should be read as a downstream companion to this
+  mechanism contract, not as an extension of Phase 3 scope.
+
+- `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md` records the status of the
+  archived Phase 3 flavor-sector experiment. That tree is explicitly
+  non-canonical; no flavor-sector claims live in this Phase 3 mechanism module.
