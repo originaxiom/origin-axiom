@@ -4309,3 +4309,24 @@ mechanism contract, role, reproducibility, and paper** section that:
 No Phase 3 claims, numerical artifacts, or mechanism code were modified; this
 rung improves navigation and de-orphans the Rung-2 design note within the Phase
 3 scope and Stage 2 doc/repo-audit framework.
+
+## 2026-01-11 — Doc-audit rung E1: record Jan 2026 Stage 2 doc-audit sprint snapshot
+
+Stage 2 doc belt: extended `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` with a
+**Jan 2026 Stage 2 doc-audit sprint (snapshot)** section summarising the
+documentation rungs applied between 2026-01-09 and 2026-01-11. The new section
+captures:
+
+- navigation and mapping improvements (repo atlas, README entry path,
+  reproducibility entrypoint),
+- explicit surfacing of Stage 2 belts and the doc/repo-audit belt across global
+  docs,
+- companion-doc wiring for Phase 0–5 scopes and key Phase 3/4 documents,
+- archive and experiment boundary tightening (including the Phase 3 flavor
+  archive tree), and
+- the addition of a Stage 2–aware repo-audit checklist.
+
+It also notes that the doc-audit CSVs provide a point-in-time snapshot and that
+future structural changes may require re-running the Stage 2 doc-audit scripts
+and applying additional rungs. No Phase 0–5 claims or numerical artifacts were
+modified in this rung.

@@ -118,3 +118,55 @@ The remaining work implied by the CSVs includes:
 
 Those future rungs will be logged in `PROGRESS_LOG.md` and, where appropriate,
 reflected back into this summary document.
+
+---
+
+## 6. Jan 2026 Stage 2 doc-audit sprint (snapshot)
+
+Between 2026-01-09 and 2026-01-11 a focused Stage 2 documentation and repo-audit
+sprint was applied, using the doc-audit CSVs as guidance. At a high level this
+sprint:
+
+- **Strengthened navigation and mapping.**  
+  - Introduced `docs/REPO_MAP_AND_ATLAS_v1.md` as a directory-level map and
+    wired it into `README.md`, `docs/STATE_OF_REPO.md`, and
+    `docs/INTERACTING_WITH_REPO.md`.
+  - Added a README “Where to start reading” section aligned with the atlas,
+    Stage 2 overviews, and Phase PDFs.
+  - Surfaced the root `REPRODUCIBILITY.md` as a reproducibility entrypoint.
+
+- **Clarified Stage 2 belts and doc-audit role.**  
+  - Ensured `docs/STAGE2_OVERVIEW.md`, `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md`,
+    and `docs/STAGE2_PROMOTION_DESIGN_v1.md` all explicitly describe Stage 2 as
+    a downstream diagnostic layer with a dedicated documentation/repo-audit belt.
+  - Linked the belt overview to the repo-audit checklist in `docs/REPRODUCIBILITY.md`
+    and recorded the doc/audit belt in `docs/STATE_OF_REPO.md` and
+    `docs/ARCHIVE.md`.
+
+- **Phase-local companion docs and design notes.**  
+  - Added companion-doc sections to `phase0/`–`phase5/` SCOPE files and to key
+    Phase 3/4 docs so that scope/overview pages point directly to their local
+    contracts (SCOPE/CLAIMS/NON_CLAIMS/REPRODUCIBILITY), papers under
+    `artifacts/`, and relevant Stage 2 belts.
+  - Marked Phase 4 design documents (`PLANNING.md`, `HARD_NOVELTY_ROADMAP.md`)
+    as draft, non-binding planning notes that do not override Phase 4 scope or
+    claims and are governed by the FRW promotion gate and Phase 4 promotion
+    design.
+
+- **Archive and experiment boundaries.**  
+  - Tightened archive labelling by connecting `docs/ARCHIVE.md` with
+    `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md`.
+  - Marked `experiments/phase3_flavor_v1/SCOPE.md` explicitly as archived and
+    pointed readers back to canonical Phase 3 mechanism documents under
+    `phase3/`.
+
+- **Audit process visibility.**  
+  - Added a Stage 2–aware repo-audit checklist to `docs/REPRODUCIBILITY.md`.
+  - Recorded these rungs in `PROGRESS_LOG.md`, so the evolution of the
+    documentation surface is itself auditable.
+
+This sprint should be treated as a snapshot: future structural changes (new
+phases, new belts, significant reshuffling) may require re-running the Stage 2
+doc-audit scripts and adding further rungs. The CSVs in this directory capture
+the state at the time they were generated; `PROGRESS_LOG.md` records subsequent
+manual documentation rungs that build on them.
