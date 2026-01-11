@@ -4375,3 +4375,12 @@ Phase 3 alignment belt: added `phase3/PHASE3_ALIGNMENT_v1.md`, a descriptive ali
 - and aligns Phase 3 non-claims (no canonical θ-measure, no special θ★ selection, no direct phenomenology) with Stage 2 mech/joint and θ★ diagnostics, which find smooth, well-behaved mechanism scalars that are strongly correlated with FRW scalars but do not single out θ★.
 
 The memo is descriptive only and does not introduce new Phase 3 claims or modify existing contracts, numerical artifacts, or Stage 2 pipelines.
+## 2026-01-11 — Belt A / Rung A5: Phase 4 and Phase 5 alignment memos
+
+Phase 4/5 alignment belt: added alignment memos for the FRW toy stub and the interface/sanity layer:
+
+- `phase4/PHASE4_ALIGNMENT_v1.md` records how Phase 4 scope, claims, non-claims, reproducibility docs, FRW design and promotion docs, Phase 4 FRW outputs, Stage 2 FRW and θ★ diagnostics, and the Phase 4 paper align when Phase 4 is interpreted as a toy FRW diagnostic stub with pre-data corridors and no θ★ or data-conditioned corridor claims.
+
+- `phase5/PHASE5_ALIGNMENT_v1.md` records how Phase 5 scope, role, early vision docs, and non-claims align with the current Stage 2 verdicts (FRW viability, mechanism-derived scalars, joint mech–FRW correlations, FRW data gate, and θ★ diagnostics), treating Phase 5 as an interface and sanity layer over locked Phase 3/4 outputs and Stage 2 belts rather than as a new physics phase.
+
+These memos are descriptive only; they do not introduce new claims or modify existing Phase 4/5 contracts, numerical artifacts, or Stage 2 pipelines. They complete Belt A (Phase paper/claims alignment) at the current snapshot.
