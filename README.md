@@ -111,7 +111,7 @@ Top-level layout (canonical Phases, Stage 2 belts, and archived experiment):
   - [`mech_measure_analysis/`](stage2/mech_measure_analysis/) – Mechanism/measure belts over Phase 3 tables.
   - [`joint_mech_frw_analysis/`](stage2/joint_mech_frw_analysis/) – Joint mech–FRW θ-grid analysis.
   - [`frw_data_probe_analysis/`](stage2/frw_data_probe_analysis/) – Toy FRW data-probe audit (no real data claims).
-  - [`doc_repo_audit/`](stage2/doc_repo_audit/) – Documentation inventory, ref checks, and open-thread tracking.
+  - doc_repo_audit/ – Local Stage 2 doc-audit scratch directory (git-ignored). See [STAGE2_DOC_AUDIT_SUMMARY_v1.md](stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md) for how to run and interpret the audit.
 
 - [`experiments/phase3_flavor_v1/`](experiments/phase3_flavor_v1/) – Archived flavor-sector add-on (non-canonical)  
   - Historical attempt at flavor-sector calibration, explicitly archived.  
@@ -198,7 +198,7 @@ Current belts include:
 - [`mech_measure_analysis/`](stage2/mech_measure_analysis/) – Measure-like candidates and mechanism diagnostics over Phase 3 tables.  
 - [`joint_mech_frw_analysis/`](stage2/joint_mech_frw_analysis/) – Joint θ-grid diagnostics combining Phase 3 mechanisms and Phase 4 FRW outputs.  
 - [`frw_data_probe_analysis/`](stage2/frw_data_probe_analysis/) – Audit of the FRW data-probe hooks (toy-level, no real-data claims).  
-- [`doc_repo_audit/`](stage2/doc_repo_audit/) – Inventory of docs, broken references, orphans, and open narrative threads, via CSVs under [`stage2/doc_repo_audit/outputs/tables/`](stage2/doc_repo_audit/outputs/tables/).
+- doc_repo_audit/ – Local (git-ignored) Stage 2 doc-audit directory. When present, it holds CSVs described in [STAGE2_DOC_AUDIT_SUMMARY_v1.md](stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md).
 
 Stage 2 results are **non-canonical** until explicitly promoted via Phase 0
 governance and a documented gate (e.g. “FRW Corridor Promotion Gate”).

@@ -175,7 +175,7 @@ Stage 2 is non-canonical by default. Promotion of any Stage 2 result into a Phas
 
 ### 4.5 Documentation audit belt
 
-- Location: [`stage2/doc_repo_audit/`](../stage2/doc_repo_audit/).  
+- Location: `stage2/doc_repo_audit/` (local git-ignored working directory; may not be present in a clean checkout).  
 - Summary doc: [`stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`](../stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md).  
 - Outputs (CSV tables under `stage2/doc_repo_audit/outputs/tables/`):
   - `stage2_doc_inventory_v1.csv` – inventory of docs and key files,  
@@ -235,4 +235,3 @@ should be logged in [`PROGRESS_LOG.md`](../PROGRESS_LOG.md), with:
 - and, if relevant, updated claim IDs or gates.
 
 This ensures that anyone reading the repo can reconstruct not just *what* the artifacts are, but *when* and *under which rules* they were produced.
-
