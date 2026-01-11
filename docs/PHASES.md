@@ -119,3 +119,31 @@ Any future phases beyond Phase 5 (Stage II) must:
 4) obey all Phase 0 governance rules,
 5) specify how they depend on or supersede existing Stage I and Stage 2 structures.
 
+
+---
+
+## Stage 2 diagnostic belts and doc/repo audit
+
+Stage 2 is not a phase in the claims ladder but a downstream diagnostic layer
+built on top of Phase 3 and Phase 4 outputs. It provides structured analyses
+(FRW corridor, mech/measure, joint mech–FRW, FRW data probes, θ★ diagnostics,
+and the documentation/repo audit belt) that can inform how the locked phases
+are interpreted and how future phases are designed.
+
+For a program-level view of Stage 2 and its belts, see:
+
+- `docs/STAGE2_OVERVIEW.md` – conceptual overview of Stage 2 as a downstream
+  diagnostic lab layer, including its role and non-claims.
+- `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` – belt-level overview of the FRW,
+  mech/measure, joint mech–FRW, FRW data-probe, θ★, and doc/repo audit belts.
+
+For the documentation/repo audit belt specifically, see:
+
+- `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` – description of the doc-audit
+  CSVs, how they are generated, and which manual doc-audit rungs have been
+  applied so far.
+
+These Stage 2 artifacts do not introduce new physical claims by themselves and
+do not change Phase 0–5 claims in place; any promotion from Stage 2 into the
+phase ladder requires explicit Phase 0–style gates and updates to the relevant
+phase-local `CLAIMS.md` files.

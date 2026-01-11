@@ -4111,3 +4111,21 @@ The section explains that TODO/TBD-style items discovered across Phase and Stage
 docs are being progressively consolidated here, so public-facing phase docs can
 focus on established scope and claims. No Phase 0–5 claims, numerical
 artifacts, or Stage 2 computations were modified in this rung.
+
+## 2026-01-11 — Doc-audit rung D5: surface Stage 2 diagnostics from PHASES
+
+Doc-audit belt: extended `docs/PHASES.md` with a **Stage 2 diagnostic belts and
+doc/repo audit** section that:
+
+- points to `docs/STAGE2_OVERVIEW.md` for the conceptual description of Stage 2
+  as a downstream diagnostic lab layer,
+- points to `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` for the belt-level overview
+  of FRW, mech/measure, joint mech–FRW, FRW data-probe, θ★, and doc/repo audit
+  belts, and
+- points to `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` for the documentation/
+  repo audit belt status.
+
+The section makes explicit that Stage 2 introduces no new physical claims and
+cannot change Phase 0–5 claims in place without passing Phase 0–style gates and
+updating phase-local `CLAIMS.md`. No Phase 0–5 numerics or claims were modified
+in this rung.
