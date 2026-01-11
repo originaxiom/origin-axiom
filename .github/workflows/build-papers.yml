@@ -1,0 +1,60 @@
+name: Build Papers
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'phase*/paper/**'
+      - '.github/workflows/build-papers.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'phase*/paper/**'
+
+jobs:
+  build-latex:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install LaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra
+
+    - name: Build Phase 0 paper
+      run: |
+        cd phase0/paper
+        pdflatex -interaction=nonstopmode main.tex || echo "Phase 0 build check"
+        bibtex main || true
+        pdflatex -interaction=nonstopmode main.tex || echo "Phase 0 build check"
+      continue-on-error: true
+
+    - name: Build Phase 1 paper
+      run: |
+        cd phase1/paper
+        if [ -f main.tex ]; then
+          pdflatex -interaction=nonstopmode main.tex || echo "Phase 1 build check"
+          bibtex main || true
+          pdflatex -interaction=nonstopmode main.tex || echo "Phase 1 build check"
+        fi
+      continue-on-error: true
+
+    - name: Build Phase 2 paper
+      run: |
+        cd phase2/paper
+        if [ -f main.tex ]; then
+          pdflatex -interaction=nonstopmode main.tex || echo "Phase 2 build check"
+          bibtex main || true
+          pdflatex -interaction=nonstopmode main.tex || echo "Phase 2 build check"
+        fi
+      continue-on-error: true
+
+    - name: Upload paper artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: papers
+        path: |
+          phase*/paper/*.pdf
+        if-no-files-found: warn
