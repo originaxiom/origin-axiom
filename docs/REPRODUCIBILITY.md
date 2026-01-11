@@ -235,3 +235,59 @@ should be logged in [`PROGRESS_LOG.md`](../PROGRESS_LOG.md), with:
 - and, if relevant, updated claim IDs or gates.
 
 This ensures that anyone reading the repo can reconstruct not just *what* the artifacts are, but *when* and *under which rules* they were produced.
+
+---
+
+## 6. Repo audit checklist (Stage 2 belt)
+
+For external auditors (or future selves) who want to check that the repository
+state and documentation are consistent with the Phase 0 contracts and Stage 2
+diagnostic belts, a minimal audit pass can proceed as follows:
+
+1. **Build all Phase papers cleanly.**  
+   - Use the top-level build scripts (see `scripts/`) to compile the Phase 0–5
+     papers and confirm clean builds (no LaTeX errors, no lingering TODO/FIXME
+     markers in the papers themselves).
+   - Verify that the resulting PDFs match the consolidated artifacts under
+     `artifacts/origin-axiom-phase*.pdf`.
+
+2. **Check global docs and repo map.**  
+   - Read `docs/PROJECT_OVERVIEW.md`, `docs/PHASES.md`, and
+     `docs/STATE_OF_REPO.md` to confirm that the described phase/Stage structure
+     matches the actual directory layout.
+   - Use `docs/REPO_MAP_AND_ATLAS_v1.md` as a directory-level map to spot any
+     unexpected or undocumented areas.
+
+3. **Inspect Stage 2 diagnostic belts (FRW, mech, joint, data, θ★).**  
+   - Read `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` and the belt-level summaries
+     under `stage2/docs/` (FRW corridor, mech/measure, joint mech–FRW, FRW
+     data-probe).
+   - Confirm that Stage 2 scripts only read Phase 3/4 outputs and write under
+     `stage2/`, without mutating Phase artifacts in place.
+
+4. **Review the Stage 2 doc/repo audit status.**  
+   - Read `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`, including the
+     “Doc-audit status as of …” section, to see which documentation rungs have
+     already been applied and which areas remain for future passes.
+   - Optionally re-run the Stage 2 doc-audit scripts locally to regenerate the
+     CSV snapshots if deeper inspection is needed.
+
+5. **Cross-check claims against phase-local docs.**  
+   - For any specific claim, use `docs/CLAIMS_INDEX.md` and the phase-local
+     `SCOPE.md`, `CLAIMS.md`, and `REPRODUCIBILITY.md` files to verify:
+       - where the claim is made,
+       - which code/tables/figures support it, and
+       - that the relevant scripts and artifacts live in the expected phase tree.
+
+6. **Verify archive and experiment boundaries.**  
+   - Use `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and
+     `stage2/docs/STAGE2_ARCHIVE_STATUS_v1.md` to check that:
+       - archived or experimental work (e.g. `experiments/phase3_flavor_v1/`,
+         `sandbox/`) is clearly marked as non-canonical,
+       - canonical Phase 0–5 trees are not silently mixed with experimental
+         artifacts, and
+       - any promotions from Stage 2 into phases are gated and logged.
+
+This checklist is intentionally conservative: it is designed to catch
+misalignments between documentation, directory layout, and artifacts before any
+stronger physics claims are considered.

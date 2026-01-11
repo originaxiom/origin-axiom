@@ -4057,3 +4057,24 @@ governance, reproducibility, and paper** section that:
 No Phase 0 claims, numerical artifacts, or governance rules were modified; this
 rung improves navigation and makes it easier for readers of the Phase 0 scope
 to find the corresponding governance, reproducibility, and paper artifacts.
+
+## 2026-01-11 — Doc-audit rung D2: add repo audit checklist to REPRODUCIBILITY
+
+Doc-audit belt: extended `docs/REPRODUCIBILITY.md` with a **Repo audit checklist
+(Stage 2 belt)** section that gives external auditors (or future selves) a
+concrete sequence of steps to verify:
+
+- clean Phase 0–5 paper builds and artifacts,
+- consistency between global docs and the directory-level map in
+  `docs/REPO_MAP_AND_ATLAS_v1.md`,
+- that Stage 2 FRW/mech/joint/data/θ★ belts are downstream-only diagnostics
+  over Phase 3/4 outputs,
+- the current status of the Stage 2 doc/repo audit from
+  `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md`,
+- alignment between claims and phase-local `SCOPE.md`/`CLAIMS.md`/`REPRODUCIBILITY.md`,
+  and
+- clear separation between canonical phases and archived/experimental areas.
+
+No Phase 0–5 claims, numerical artifacts, or Stage 2 computations were changed
+in this rung; it tightens the reproducibility and audit narrative in line with
+the existing Stage 2 doc/repo audit plan.
