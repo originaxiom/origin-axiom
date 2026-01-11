@@ -104,3 +104,7 @@ the Phase 3 mechanism and Phase 4 FRW toys, and where exploratory ideas live:
   `sandbox/PHASE5_SANDBOX_PHI_PHI_LAMBDA_NUMEROLOGY.md`) are explicitly
   non-canonical scratch pads. They are allowed to explore numerology and
   speculative ideas but do not alter the Phase 5 scope or claims.
+
+---
+
+Alignment memo: For a current alignment between Phase 5 scope, role in the program, early vision docs, reproducibility plans, the Phase 5 paper (if present), and Stage 2 master verdicts, see `phase5/PHASE5_ALIGNMENT_v1.md`.

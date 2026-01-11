@@ -31,3 +31,7 @@ code, diagnostics, and paper, the following documents are relevant:
   Phase 3 paper built from `phase3/paper/main.tex` and the Phase 3 outputs. This
   scope document should be read together with that paper and `phase3/CLAIMS.md`
   to understand what Phase 3 does and does not assert.
+
+---
+
+Alignment memo: For a current alignment between Phase 3 scope, mechanism contract, claims, reproducibility docs, the Phase 3 mechanism paper, and Stage 2 mechanism/joint diagnostics, see `phase3/PHASE3_ALIGNMENT_v1.md`.

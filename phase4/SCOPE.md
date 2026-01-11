@@ -108,3 +108,7 @@ and Stage 2 structure, the following documents are relevant:
   corridor and FRW data-probe belts as **diagnostic** analyses built strictly
   on top of Phase 4 FRW outputs. They support interpretation of Phase 4 but do
   not change Phase 4 claims in place.
+
+---
+
+Alignment memo: For a current alignment between Phase 4 scope, draft claims and non-claims, FRW design and promotion docs, the Phase 4 FRW toy stub, and Stage 2 FRW and θ★ diagnostics, see `phase4/PHASE4_ALIGNMENT_v1.md`.

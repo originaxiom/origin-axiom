@@ -67,3 +67,14 @@ so far, is described in:
 This belt introduces no new physical claims and does not modify Phase 0–5
 numerical artifacts; it is part of the governance and audit infrastructure
 of the project.
+
+---
+
+Alignment memos (Phase 2–5): For phase-local alignment between scope/claims/contracts, LaTeX papers, and Stage 2 diagnostics, see:
+
+- `phase2/PHASE2_ALIGNMENT_v1.md`
+- `phase3/PHASE3_ALIGNMENT_v1.md`
+- `phase4/PHASE4_ALIGNMENT_v1.md`
+- `phase5/PHASE5_ALIGNMENT_v1.md`
+
+These memos are descriptive snapshots and do not introduce new claims; they record how the current papers and Stage 2 belts line up with each phase’s contracts and reproducibility docs.

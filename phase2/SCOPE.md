@@ -102,3 +102,7 @@ Phase 2 documents are relevant:
   specific point in time to inventory files, residual TODO markers, and
   potential cleanups. It is not a claims document; see this scope, `CLAIMS.md`,
   and `REPRODUCIBILITY.md` for the authoritative Phase 2 contract.
+
+---
+
+Alignment memo: For a current alignment between Phase 2 scope, claims, assumptions, approximation contract, reproducibility docs, the Phase 2 paper, and Stage 2 FRW diagnostics, see `phase2/PHASE2_ALIGNMENT_v1.md`.

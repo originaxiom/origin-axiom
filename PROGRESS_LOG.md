@@ -4429,3 +4429,11 @@ Stage 2 umbrella belt: added `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`, a progra
 - and distills Stage 2 into an Option A style “non-contradiction / redundancy” story that Phase 4/5 and external summaries can cite as the baseline diagnostic verdict for the current Origin-Axiom toy universe.
 
 The doc is descriptive only and does not modify any Phase 2/3/4/5 claims, numerical artifacts, or Stage 2 pipelines; it is intended as the master Stage 2 reference for Phase 5 interface work and future promotion gates.
+## 2026-01-11 — Belt C / Rung C1: Wire Phase 2–5 alignment memos into doc graph
+
+Doc/graph belt: wired the Phase 2–5 alignment memos into the documentation graph by:
+
+- appending short alignment notes to `phase2/SCOPE.md`, `phase3/SCOPE.md`, `phase4/SCOPE.md`, and `phase5/SCOPE.md` that point to `phase2/PHASE2_ALIGNMENT_v1.md`, `phase3/PHASE3_ALIGNMENT_v1.md`, `phase4/PHASE4_ALIGNMENT_v1.md`, and `phase5/PHASE5_ALIGNMENT_v1.md` respectively, and
+- adding a brief alignment memo section at the end of `docs/STATE_OF_REPO.md` listing these files and clarifying that they are descriptive snapshots of how phase contracts, LaTeX papers, and Stage 2 diagnostics line up at the current snapshot.
+
+This rung does not change any Phase claims or Stage 2 verdicts; it just makes the alignment memos discoverable as the canonical entry-points for Phase 2–5 alignment.
