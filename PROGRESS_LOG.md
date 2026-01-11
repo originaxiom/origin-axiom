@@ -4039,3 +4039,21 @@ narrative, reproducibility, and paper** section that:
 No Phase 1 claims, numerical artifacts, or workflows were modified; this rung
 improves navigation and makes it easier for readers of the Phase 1 scope to
 find the corresponding narrative, reproducibility, and paper artifacts.
+
+## 2026-01-11 — Doc-audit rung C10: Phase 0 companion docs from scope
+
+Phase 0 doc belt: extended `phase0/SCOPE.md` with a **Companion docs:
+governance, reproducibility, and paper** section that:
+
+- points to `phase0/README.md` for a Phase 0–specific governance overview,
+- points to `phase0/REPRODUCIBILITY.md` as the Phase 0 reproducibility contract,
+- links `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and
+  `docs/THETA_ARCHITECTURE.md` as the global governance and θ-architecture
+  docs enforced by Phase 0, and
+- points to the consolidated Phase 0 paper `artifacts/origin-axiom-phase0.pdf`
+  (built from `phase0/paper/main.tex`) as the main exposition of Phase 0 claims
+  alongside `phase0/CLAIMS.md`.
+
+No Phase 0 claims, numerical artifacts, or governance rules were modified; this
+rung improves navigation and makes it easier for readers of the Phase 0 scope
+to find the corresponding governance, reproducibility, and paper artifacts.
