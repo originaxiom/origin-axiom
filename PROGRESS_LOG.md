@@ -4525,3 +4525,16 @@ Audit verdict:
 - No contradictions were found between the Phase 2 paper and the current Stage 2 FRW and master verdicts; any future edits can be limited to minor clarifications and cross-links rather than substantive claim changes.
 
 No LaTeX or paper sources were modified in this rung; it is a descriptive audit only.
+## 2026-01-11 — Belt E / Rung E3: Phase 3 paper audit (mechanism module)
+
+Paper-audit belt: read `artifacts/origin-axiom-phase3.pdf` (abstract, introduction, mechanism definition, claims/non-claims, diagnostics, discussion, and conclusion) alongside the Phase 3 docs and alignment memo and recorded the audit in `stage2/docs/STAGE2_PAPER_AUDIT_PHASE3_v1.md`.
+
+Audit verdict:
+
+- The Phase 3 paper consistently presents Phase 3 as a mechanism-only rung that implements a non-cancellation floor on a toy ensemble of complex modes and studies its impact on a global amplitude diagnostic.
+- The mechanism-level claims (existence of a stable floor-enforced ensemble and a genuine binding regime with global shifts between unconstrained and floor-enforced amplitudes) align with `phase3/MECHANISM_CONTRACT.md`, `phase3/SCOPE.md`, and `phase3/PHASE3_ALIGNMENT_v1.md` and do not assert a canonical θ-measure, θ★ selection, or physical vacuum model.
+- The paper treats the previously used flavor experiment as archived, matching the structure and status of `experiments/phase3_flavor_v1/` in the repo.
+- Diagnostics, including the instability penalty, are framed as internal, toy-model quantities and are fully compatible with the Stage 2 mechanism and joint verdicts, which find smooth, redundant mechanism-derived scalars but no privileged θ or independent θ-measure.
+- No contradictions were found between the Phase 3 paper and the Stage 2 master verdict; any future edits can be limited to minor clarifications and cross-links.
+
+No LaTeX or paper sources were modified in this rung; it is a descriptive audit only.
