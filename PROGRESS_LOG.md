@@ -4487,3 +4487,13 @@ Phase 5 interface belt: added `phase5/INTERFACE_TABLE_DESIGN_v1.md`, a non-bindi
 - and emphasises that these tables are interface views over Stage 2 diagnostics (internal verdicts only), not new physics claims or external phenomenology.
 
 This rung does not add any new computations or claims; it sketches the future Phase 5 interface belt that will convert Stage 2 CSVs and verdict docs into reproducible program verdict tables.
+## 2026-01-11 — Belt D / Rung D2: Phase 5 program verdict skeleton (Stage 2 era)
+
+Phase 5 interface belt: added `phase5/PROGRAM_VERDICT_SKELETON_v1.md`, a non-binding Phase-5-voice narrative skeleton that:
+
+- restates the Stage 2 master verdict in internal program language (broad FRW viability band, pre-data corridors, rich but redundant mechanism diagnostics, closed data gate, θ★ inside the viable band but not selected),
+- makes explicit what Phase 5 can safely record as internal verdicts at the current snapshot,
+- lists what Phase 5 explicitly does not yet claim (no data-conditioned corridor, no canonical θ-measure, no θ★ prediction),
+- and connects this narrative skeleton to the planned Phase 5 interface tables described in `phase5/INTERFACE_TABLE_DESIGN_v1.md`.
+
+The skeleton introduces no new physics or claims; it is a narrative template for future Phase 5 tables and text, anchored to `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`.
