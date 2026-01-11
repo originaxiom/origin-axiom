@@ -196,3 +196,28 @@ their roles, see:
 
 This roadmap is planning-level text that complements, but does not replace, the
 Phase 5 paper and governance docs.
+
+---
+
+## Consolidating open threads and TODOs
+
+As part of the Stage 2 documentation/repo audit, open threads and TODO/TBD
+items discovered in various Phase and Stage docs are being consolidated into
+this roadmap where possible. The intent is:
+
+- to keep **public-facing phase documents** focused on established scope and
+  claims, and
+- to collect **future work and unresolved questions** here, under an explicit
+  “future work” contract.
+
+The Stage 2 doc-audit belt tracks which files still contain TODO/TBD-style
+markers and which have been cleaned up or redirected. For details, see:
+
+- `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` (including the “Doc-audit status”
+  section), and
+- `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` for the role of the doc/repo audit
+  belt.
+
+Future rungs may move or rephrase additional TODO/TBD paragraphs from phase
+docs into this roadmap, but the canonical place to look for planned work and
+open questions is here.

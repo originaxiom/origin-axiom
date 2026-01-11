@@ -4095,3 +4095,19 @@ archive status note that:
 No canonical Phase 3 claims or numerical artifacts were changed; this rung
 tightens the archive boundary and reduces the risk of misreading the flavor
 experiment as live Phase 3 content.
+
+## 2026-01-11 — Doc-audit rung D4: consolidate open threads into FUTURE_WORK_AND_ROADMAP
+
+Doc-audit belt: extended `docs/FUTURE_WORK_AND_ROADMAP.md` with a
+**Consolidating open threads and TODOs** section that:
+
+- declares this roadmap as the canonical home for future work and unresolved
+  questions, and
+- ties it explicitly to the Stage 2 doc/repo audit belt via
+  `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` and
+  `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md`.
+
+The section explains that TODO/TBD-style items discovered across Phase and Stage
+docs are being progressively consolidated here, so public-facing phase docs can
+focus on established scope and claims. No Phase 0–5 claims, numerical
+artifacts, or Stage 2 computations were modified in this rung.
