@@ -3798,3 +3798,7 @@ Added a first-pass repo atlas under `docs/REPO_MAP_AND_ATLAS_v1.md` describing t
 ## 2026-01-11 — Stage 2 doc belt: doc-audit link cleanup (docs-only rung)
 
 Adjusted README and global reproducibility docs so that the Stage 2 documentation audit belt is described correctly without relying on links to the git-ignored working directory `stage2/doc_repo_audit/`. The doc-audit scratch directory is now presented as a local working area (which may not exist in a clean checkout), and readers are directed to `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` for instructions and interpretation instead of 404-prone links. No numerical pipelines, Phase 0–5 claims, or Stage 2 diagnostics were changed; this rung is purely about documentation clarity and avoiding broken links.
+
+## 2026-01-11 — Repo atlas hooks in README and STATE_OF_REPO (docs-only rung)
+
+Linked the new repo atlas into the core documentation so external readers can discover it easily. Updated `README.md` to reference `docs/REPO_MAP_AND_ATLAS_v1.md` directly under the repository-structure section, and extended `docs/STATE_OF_REPO.md` to include the atlas in the canonical policy bullets as the directory-level map of phases, Stage 2 belts, and experiments. No numerical artifacts or Phase 0–5/Stage 2 claims were changed; this rung is purely about navigation and auditability.

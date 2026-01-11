@@ -8,6 +8,7 @@ This document summarizes the current phase status, canonical artifacts, and repr
 - Canonical figures live in `phase*/outputs/figures/`.
 - Ephemeral runs are not tracked (for example, `**/outputs/runs/`, `.snakemake/`).
 - Stage 2 diagnostics live under `stage2/` and remain non-canonical until explicitly promoted into a Phase.
+- For a directory-level view of phases, Stage 2 belts, and experiments, see [`REPO_MAP_AND_ATLAS_v1.md`](REPO_MAP_AND_ATLAS_v1.md).
 
 ## Phase status (high-level)
 

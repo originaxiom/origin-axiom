@@ -80,6 +80,8 @@ In parallel, Phase 0 enforces:
 
 ## 2) Repository structure (Stage I + Stage 2)
 
+See also [`docs/REPO_MAP_AND_ATLAS_v1.md`](docs/REPO_MAP_AND_ATLAS_v1.md) for a more detailed, directory-level map of the repo.
+
 Top-level layout (canonical Phases, Stage 2 belts, and archived experiment):
 
 - [`phase0/`](phase0/) – Governance & specification (locked)  
