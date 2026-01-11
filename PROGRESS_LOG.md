@@ -4353,3 +4353,14 @@ Phase 1 alignment belt: added `phase1/PHASE1_ALIGNMENT_v1.md`, a descriptive ali
 - and confirms that the Phase 1 reproducibility protocol and repository structure match the paper’s description of deterministic, version-controlled numerics.
 
 The memo is descriptive only and does not introduce new claims or modify existing Phase 1 contracts, numerical artifacts, or Stage 2 diagnostics.
+## 2026-01-11 — Belt A / Rung A3: Phase 2 alignment memo (scope, claims, FRW viability, paper)
+
+Phase 2 alignment belt: added `phase2/PHASE2_ALIGNMENT_v1.md`, a descriptive alignment memo that:
+
+- records how `phase2/SCOPE.md`, `phase2/CLAIMS.md`, `phase2/ASSUMPTIONS.md`, `phase2/APPROXIMATION_CONTRACT.md`, `phase2/PHASE2_WORKFLOW_GUIDE.md`, `phase2/PHASE2_LOCK_CHECKLIST.md`, `phase2/REPRODUCIBILITY.md`, and `phase2/AUDIT_REPORT.md` line up with the Phase 2 paper (`artifacts/origin-axiom-phase2.pdf`) and the Phase 2 repo structure,
+- clarifies that Phase 2 is consistently scoped as a toy mode-sum + bounded FRW viability phase, strictly pre-data and pre-phenomenology,
+- checks that the Phase 2 claims register (locked) about existence and structure of a toy FRW viability corridor are consistent with the paper’s FRW viability construction and with Stage 2 FRW diagnostics,
+- relates the assumptions and approximation contract to the approximations used in the paper’s derivations, and interprets results as conditional on these approximations,
+- and confirms that later Stage 2 FRW diagnostics (broad viable band, empty `frw_data_ok`, θ★ lying inside but not singled out) refine but do not contradict Phase 2 claims when those claims are interpreted as pre-data structural statements.
+
+The memo is descriptive and does not introduce new Phase 2 claims or modify existing contracts, numerical artifacts, or Stage 2 pipelines.
