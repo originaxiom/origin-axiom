@@ -44,7 +44,7 @@ developer.
 
 ## 2026-01-07 - Rung 2: mapping families design note
 
-- Added `phase4/MAPPING_FAMILIES.md` as a draft, non-binding design
+- Added `phase4/design/MAPPING_FAMILIES.md` as a draft, non-binding design
   note describing candidate mapping families (F1: amplitude-to-density,
   F2: residue-relative, F3: normalised amplitude corridors) for
   Phase 4.

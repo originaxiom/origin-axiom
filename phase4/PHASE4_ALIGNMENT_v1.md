@@ -11,11 +11,11 @@ This memo is based on:
 - `phase4/NON_CLAIMS.md` – Phase 4 draft non-claims and guardrails.
 - `phase4/REPRODUCIBILITY.md` – Phase 4 reproducibility plan (draft) and gate criteria.
 - `phase4/CLAIMS_TABLE.md` – draft claims→artifacts map.
-- `phase4/PHASE3_INTERFACE.md` – Phase 3↔Phase 4 interface design note.
-- `phase4/FRW_TOY_DESIGN.md` – design note for FRW-like toy diagnostics.
-- `phase4/FRW_DATA_DESIGN.md` – design note for FRW-facing data probes.
-- `phase4/FRW_SYNTHESIS.md` – FRW-facing synthesis design note.
-- `phase4/PLANNING.md` and `phase4/HARD_NOVELTY_ROADMAP.md` – Phase 4 planning and novelty design notes (draft, non-binding, explicitly marked as such).
+- `phase4/design/PHASE3_INTERFACE.md` – Phase 3↔Phase 4 interface design note.
+- `phase4/design/FRW_TOY_DESIGN.md` – design note for FRW-like toy diagnostics.
+- `phase4/design/FRW_DATA_DESIGN.md` – design note for FRW-facing data probes.
+- `phase4/design/FRW_SYNTHESIS.md` – FRW-facing synthesis design note.
+- `phase4/design/PLANNING.md` and `phase4/design/HARD_NOVELTY_ROADMAP.md` – Phase 4 planning and novelty design notes (draft, non-binding, explicitly marked as such).
 - `phase4/PROGRESS_LOG.md` – Phase 4 progress log.
 - `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` – Phase 4 FRW promotion design (Stage 2 design rung).
 - `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md` – global FRW corridor promotion gate.
@@ -43,7 +43,7 @@ This memo focuses on alignment and interpretation; it does not change Phase 4 co
 - does not claim that any FRW corridor is “our universe”,
 - and does not introduce new physics claims beyond its toy FRW construction.
 
-`phase4/FRW_TOY_DESIGN.md` and `phase4/FRW_SYNTHESIS.md` are consistent with this: they treat FRW quantities and masks as toy diagnostics, defining families (e.g. viability masks, LCDM-like probes, toy corridor masks) and intended summary plots without claiming physical predictions.
+`phase4/design/FRW_TOY_DESIGN.md` and `phase4/design/FRW_SYNTHESIS.md` are consistent with this: they treat FRW quantities and masks as toy diagnostics, defining families (e.g. viability masks, LCDM-like probes, toy corridor masks) and intended summary plots without claiming physical predictions.
 
 The Phase 4 paper, in its introduction and FRW description sections, frames Phase 4 as an FRW-facing stub that builds on Phase 3 outputs and constructed FRW masks to explore the shape of a viability band and related families. It does not claim realistic data contact or a unique solution for the real universe. Global docs (`docs/PHASES.md`, `docs/STATE_OF_REPO.md`) similarly describe Phase 4 as a “diagnostic FRW stub,” not as a full cosmological model.
 
@@ -96,7 +96,7 @@ On this axis, `phase4/REPRODUCIBILITY.md`, the promotion design docs, and the in
 
 Stage 2 θ★ alignment diagnostics are consistent with this: they find that θ★ lies inside the FRW-viable band but is not singled out by corridor families and explicitly record this as a negative-result sanity check.
 
-`phase4/PLANNING.md` and `phase4/HARD_NOVELTY_ROADMAP.md` are now explicitly labelled as draft, non-binding design documents that cannot override the Phase 4 scope or claims and that are governed by the FRW promotion gate and Phase 4 promotion design. This protects Phase 4 from accidentally inheriting strong claims from early design brainstorming.
+`phase4/design/PLANNING.md` and `phase4/design/HARD_NOVELTY_ROADMAP.md` are now explicitly labelled as draft, non-binding design documents that cannot override the Phase 4 scope or claims and that are governed by the FRW promotion gate and Phase 4 promotion design. This protects Phase 4 from accidentally inheriting strong claims from early design brainstorming.
 
 Under this interpretation, Phase 4 scope, claims, non-claims, FRW outputs, Stage 2 diagnostics, promotion design, and design notes are aligned: Phase 4 is a toy FRW stub with cautious claims and explicit guardrails around θ★ and data-conditioned corridors.
 
@@ -109,3 +109,19 @@ This memo suggests, but does not enact, the following documentation rungs:
 - When the FRW data gate (`frw_data_ok`) is populated in a future pipeline, ensure that any resulting data-conditioned corridor claims are introduced via a separate, tightly scoped phase or promotion rung with explicit Phase 0 gating and updated non-claims.
 
 These are deferred to later rungs and do not change current Phase 4 scope, claims, non-claims, or reproducibility status.
+
+---
+
+### Note on documentation layout (Belt G)
+
+As of 2026-01-11 Phase 4 design and planning documents live under:
+
+- `phase4/design/PLANNING.md`
+- `phase4/design/HARD_NOVELTY_ROADMAP.md`
+- `phase4/design/FRW_SYNTHESIS.md`
+- `phase4/design/MAPPING_FAMILIES.md`
+- `phase4/design/FRW_TOY_DESIGN.md`
+- `phase4/design/PHASE3_INTERFACE.md`
+- `phase4/design/FRW_DATA_DESIGN.md`
+
+Canonical contracts (SCOPE, CLAIMS, NON_CLAIMS, CLAIMS_TABLE, REPRODUCIBILITY, alignment, OVERVIEW, PROGRESS_LOG) remain in the `phase4/` root. Historical references in PROGRESS_LOG entries preserve the original paths used at the time and may point to pre-reorg locations.

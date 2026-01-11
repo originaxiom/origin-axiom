@@ -13,7 +13,7 @@ This memo is based on:
 - `phase2/PHASE2_WORKFLOW_GUIDE.md` – workflow guide for running Phase 2 pipelines.
 - `phase2/PHASE2_LOCK_CHECKLIST.md` – lock checklist for Phase 2.
 - `phase2/REPRODUCIBILITY.md` – Phase 2 reproducibility and provenance.
-- `phase2/AUDIT_REPORT.md` – structural audit snapshot for Phase 2 (P2-A1), explicitly containing TODO/TBD markers as a historic audit record rather than live claims.
+- `phase2/audit/AUDIT_REPORT.md` – structural audit snapshot for Phase 2 (P2-A1), explicitly containing TODO/TBD markers as a historic audit record rather than live claims.
 - `phase2/PROGRESS_LOG.md` – Phase 2 progress log.
 - `phase2/paper/main.tex` and its section files, together with:
 - `artifacts/origin-axiom-phase2.pdf` – the Phase 2 paper built from the LaTeX sources.
@@ -78,7 +78,7 @@ On this axis, `ASSUMPTIONS.md`, the approximation contract, and the paper are al
 
 `phase2/PHASE2_WORKFLOW_GUIDE.md` and `phase2/PHASE2_LOCK_CHECKLIST.md` further specify the expected workflow and checks required before declaring Phase 2 “locked”. They link to scripts, config files, and relevant outputs and state which conditions must be satisfied (e.g. clean builds, no TODO/FIXME markers in the paper, reproducible figures and tables).
 
-`phase2/AUDIT_REPORT.md` is a more detailed structural audit that checks for TODO/TBD/XXX markers, inconsistencies, and missing links and records them as part of a historic audit snapshot (P2-A1). Sections in this report that explicitly quote TODOs or TBDs are part of the audit log rather than live claims; they describe what was outstanding at the time of that audit, not what Phase 2 currently claims.
+`phase2/audit/AUDIT_REPORT.md` is a more detailed structural audit that checks for TODO/TBD/XXX markers, inconsistencies, and missing links and records them as part of a historic audit snapshot (P2-A1). Sections in this report that explicitly quote TODOs or TBDs are part of the audit log rather than live claims; they describe what was outstanding at the time of that audit, not what Phase 2 currently claims.
 
 The Phase 2 paper’s methods and results sections, together with the repo’s structure under `phase2/` (scripts, config, outputs, and paper sources), are consistent with the reproducibility contract: they present figures and tables as outputs of documented pipelines rather than hand-crafted results. Subsequent Stage 2 diagnostics (which treat Phase 3/4 outputs as inputs) further attest to the reproducibility of core FRW quantities.
 
@@ -110,3 +110,13 @@ This memo suggests, but does not enact, the following documentation rungs for la
 - When the FRW data gate (`frw_data_ok`) is eventually populated in a future pipeline, introduce new claims in `phase2/CLAIMS.md` and/or later phases under a clear promotion gate, rather than retrofitting Phase 2 text to suggest that a data-conditioned corridor was already present.
 
 These steps are deferred to later doc-audit or promotion rungs and do not change the current Phase 2 scope, claims, approximations, or reproducibility contract.
+
+---
+
+### Note on documentation layout (Belt G)
+
+As of 2026-01-11 the Phase 2 structural audit document lives under:
+
+- `phase2/audit/AUDIT_REPORT.md`
+
+This reflects the convention that canonical contracts (SCOPE, CLAIMS, NON_CLAIMS, REPRODUCIBILITY, alignment, PROGRESS_LOG) remain in `phase2/`, while audit material is collected under `phase2/audit/`. Historical references in PROGRESS_LOG entries preserve the original paths used at the time and may point to pre-reorg locations.

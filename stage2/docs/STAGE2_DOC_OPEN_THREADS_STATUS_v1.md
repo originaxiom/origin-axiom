@@ -9,9 +9,9 @@ This status note is based on:
 - `stage2/doc_repo_audit/outputs/tables/stage2_doc_open_threads_v1.csv`
 - The following families of files:
   - Program-level: `PROGRESS_LOG.md`
-  - Phase 2 audit and contracts: `phase2/AUDIT_REPORT.md`, `phase2/PROGRESS_LOG.md`
+  - Phase 2 audit and contracts: `phase2/audit/AUDIT_REPORT.md`, `phase2/PROGRESS_LOG.md`
   - Phase 3 mechanism contract: `phase3/MECHANISM_CONTRACT.md`
-  - Phase 4 planning and contracts: `phase4/PLANNING.md`, `phase4/SCOPE.md`, `phase4/PHASE3_INTERFACE.md`, `phase4/CLAIMS_TABLE.md`, `phase4/MAPPING_FAMILIES.md`, `phase4/CLAIMS.md`, `phase4/NON_CLAIMS.md`, `phase4/REPRODUCIBILITY.md`, `phase4/FRW_TOY_DESIGN.md`, `phase4/PROGRESS_LOG.md`
+  - Phase 4 planning and contracts: `phase4/design/PLANNING.md`, `phase4/SCOPE.md`, `phase4/design/PHASE3_INTERFACE.md`, `phase4/CLAIMS_TABLE.md`, `phase4/design/MAPPING_FAMILIES.md`, `phase4/CLAIMS.md`, `phase4/NON_CLAIMS.md`, `phase4/REPRODUCIBILITY.md`, `phase4/design/FRW_TOY_DESIGN.md`, `phase4/PROGRESS_LOG.md`
   - Phase 2 backup references inside the Phase 2 audit report.
 
 The goal is to decide which markers indicate live work to be done in Stage I / Stage 2 and which are intentionally preserved as historical or draft context.
@@ -28,19 +28,19 @@ Classification: **historical / contextual**. It documents earlier thinking about
 
 ## 3. Phase 2 audit report TODO cluster
 
-The open-threads CSV flags several `TODO` lines in `phase2/AUDIT_REPORT.md`, including references to:
+The open-threads CSV flags several `TODO` lines in `phase2/audit/AUDIT_REPORT.md`, including references to:
 
 - an internal TODO/TBD/FIXME sweep section,
 - historic copies of `phase2/PROGRESS_LOG.md`,
 - historic Phase 2 paper backups under `phase2/_paper_backups/`.
 
-In Belt C / Rung C2 we already tagged `phase2/AUDIT_REPORT.md` as a **historical audit snapshot (P2-A1)**, clarifying that:
+In Belt C / Rung C2 we already tagged `phase2/audit/AUDIT_REPORT.md` as a **historical audit snapshot (P2-A1)**, clarifying that:
 
 - its TODO/TBD/FIXME references are about what was checked at that audit time,
 - they are not a live to-do list for the present locked Phase 2,
 - and the current Phase 2 status is governed by `phase2/CLAIMS.md`, `phase2/REPRODUCIBILITY.md`, `phase2/PHASE2_ALIGNMENT_v1.md`, and the main `PROGRESS_LOG.md`.
 
-Classification: **historical / audit-only**. The TODO markers in `phase2/AUDIT_REPORT.md` should be read as part of a preserved audit log, not as outstanding tasks for Stage I; no further action is required unless a future Phase 2 re-audit belt is explicitly launched.
+Classification: **historical / audit-only**. The TODO markers in `phase2/audit/AUDIT_REPORT.md` should be read as part of a preserved audit log, not as outstanding tasks for Stage I; no further action is required unless a future Phase 2 re-audit belt is explicitly launched.
 
 ## 4. Phase 3 mechanism contract DRAFT marker
 
@@ -56,15 +56,15 @@ Classification: **draft-but-operational**. The DRAFT label is accurate (no forma
 
 The open-threads CSV shows many `DRAFT` markers across Phase 4 files:
 
-- `phase4/PLANNING.md`
+- `phase4/design/PLANNING.md`
 - `phase4/SCOPE.md`
-- `phase4/PHASE3_INTERFACE.md`
+- `phase4/design/PHASE3_INTERFACE.md`
 - `phase4/CLAIMS_TABLE.md`
-- `phase4/MAPPING_FAMILIES.md`
+- `phase4/design/MAPPING_FAMILIES.md`
 - `phase4/CLAIMS.md`
 - `phase4/NON_CLAIMS.md`
 - `phase4/REPRODUCIBILITY.md`
-- `phase4/FRW_TOY_DESIGN.md`
+- `phase4/design/FRW_TOY_DESIGN.md`
 - plus corresponding mentions in `phase4/PROGRESS_LOG.md`.
 
 In Belt C / Rung C2 we explicitly tagged these as:
@@ -80,7 +80,7 @@ Classification: **draft / design, not live blocking work**. The DRAFT markers he
 
 ## 6. Phase 4 FRW toy design DRAFT marker
 
-`phase4/FRW_TOY_DESIGN.md` is explicitly marked as a draft FRW toy design note. Stage 2 FRW and joint belts now provide concrete FRW diagnostics built from the actual Phase 4 pipeline; the design note remains:
+`phase4/design/FRW_TOY_DESIGN.md` is explicitly marked as a draft FRW toy design note. Stage 2 FRW and joint belts now provide concrete FRW diagnostics built from the actual Phase 4 pipeline; the design note remains:
 
 - a useful explanation of the intended FRW sandbox and corridor families,
 - but not a claims-bearing or gating document.

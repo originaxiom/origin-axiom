@@ -123,7 +123,7 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 /Users/dri/Documents/Projects/origin-axiom/phase2/.gitignore
 /Users/dri/Documents/Projects/origin-axiom/phase2/workflow
 /Users/dri/Documents/Projects/origin-axiom/phase2/workflow/Snakefile
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md
 /Users/dri/Documents/Projects/origin-axiom/phase2/APPROXIMATION_CONTRACT.md
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md
@@ -389,7 +389,7 @@ drwxr-xr-x   3 dri  staff     96 Jan  2 19:40 workflow
 ## 4) TODO / FIXME / XXX / TBD sweep
 
 ```
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:389:## 4) TODO / FIXME / XXX / TBD sweep
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:389:## 4) TODO / FIXME / XXX / TBD sweep
 /Users/dri/Documents/Projects/origin-axiom/phase2/PROGRESS_LOG.md:80:- Added `scripts/phase2_paper_lint.sh` to enforce: no TODO/FIXME/XXX/TBD in Phase 2 paper, and clean build log scan.
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/main.tex:68:% TODO (150--250 words):
 /Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/macros.tex:117:\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
@@ -1532,24 +1532,24 @@ Result: OK (no hygiene-pattern hits)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:202:**Provenance pointer**
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:251:## Explicit Non-Claims (binding)
 /Users/dri/Documents/Projects/origin-axiom/phase2/CLAIMS.md:276:## Claim → Artifact mapping (Phase 2 canonical)
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:26:-rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:42:- OK: phase2/REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:59:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:61:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:140:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:157:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:163:/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:396:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:612:LaTeX Warning: Reference `sec:reproducibility' on page 3 undefined on input lin
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:658:LaTeX Warning: Reference `sec:reproducibility' on page 5 undefined on input lin
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:806:) (./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:850:LaTeX Warning: Reference `sec:reproducibility' on page 14 undefined on input li
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:880:LaTeX Warning: Reference `sec:reproducibility' on page 15 undefined on input li
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:891:) (./sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1137:(./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1166:) (./sections/A_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1395:(./sections/06_reproducibility_and_provenance.tex
-/Users/dri/Documents/Projects/origin-axiom/phase2/AUDIT_REPORT.md:1424:) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:26:-rw-r--r--   1 dri  staff   2868 Dec 31 14:40 REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:42:- OK: phase2/REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:59:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:61:/Users/dri/Documents/Projects/origin-axiom/phase2/paper/sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:140:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011723Z/sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:157:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:163:/Users/dri/Documents/Projects/origin-axiom/phase2/REPRODUCIBILITY.md
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:396:/Users/dri/Documents/Projects/origin-axiom/phase2/_paper_backups/paper_20251228T011539Z/sections/A_provenance.tex:2:% TODO:
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:612:LaTeX Warning: Reference `sec:reproducibility' on page 3 undefined on input lin
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:658:LaTeX Warning: Reference `sec:reproducibility' on page 5 undefined on input lin
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:806:) (./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:850:LaTeX Warning: Reference `sec:reproducibility' on page 14 undefined on input li
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:880:LaTeX Warning: Reference `sec:reproducibility' on page 15 undefined on input li
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:891:) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:1137:(./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:1166:) (./sections/A_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:1395:(./sections/06_reproducibility_and_provenance.tex
+/Users/dri/Documents/Projects/origin-axiom/phase2/audit/AUDIT_REPORT.md:1424:) (./sections/A_provenance.tex
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:4:artifact-first, drift-resistant process.
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:12:1. **Artifacts are the source of truth.**
 /Users/dri/Documents/Projects/origin-axiom/phase2/PHASE2_WORKFLOW_GUIDE.md:18:3. **Provenance is mandatory.**
@@ -1691,7 +1691,7 @@ Result: OK (no hygiene-pattern hits)
 ## 7) Git status snapshot (informational)
 
 ```
-MM phase2/AUDIT_REPORT.md
+MM phase2/audit/AUDIT_REPORT.md
  M phase2/paper/main.pdf
 ```
 

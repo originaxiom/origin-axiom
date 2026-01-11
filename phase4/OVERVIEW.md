@@ -61,7 +61,7 @@ layers on top of it:
 
 The design motivation and the evolution of the FRW toy (including the initial
 empty-mask outcome and the later late-time tweak) are documented in  
-`phase4/FRW_TOY_DESIGN.md`.
+`phase4/design/FRW_TOY_DESIGN.md`.
 
 ---
 

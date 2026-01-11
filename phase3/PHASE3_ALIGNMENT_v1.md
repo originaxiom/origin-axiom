@@ -12,7 +12,7 @@ This memo is based on:
 - `phase3/MECHANISM_CONTRACT.md` – detailed mechanism contract (non-cancellation floor, binding certificate, amplitudes and diagnostics).
 - `phase3/ROLE_IN_PROGRAM.md` – Phase 3 role in the Origin Axiom ladder.
 - `phase3/REPRODUCIBILITY.md` – Phase 3 reproducibility and provenance.
-- `phase3/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md` – rung-level design note for a specific instability-penalty refinement.
+- `phase3/design/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md` – rung-level design note for a specific instability-penalty refinement.
 - `phase3/paper/main.tex` and section files, together with:
 - `artifacts/origin-axiom-phase3.pdf` – the Phase 3 mechanism paper built from the LaTeX sources.
 - Phase 3 outputs and tables under `phase3/outputs/tables/`, including:
@@ -107,3 +107,14 @@ This memo suggests, but does not enact, the following documentation rungs for fu
 - If future work promotes any mechanism-derived scalar to a canonical θ-measure, introduce this as a separate, tightly scoped promotion rung with explicit Phase 0 gates and updates to Phase 3 and Phase 5 claims and non-claims, rather than retrofitting existing text.
 
 These steps are deferred to later doc-audit or promotion rungs and do not change the current Phase 3 scope, mechanism contract, claims, or reproducibility contract.
+
+---
+
+### Note on documentation layout (Belt G)
+
+As of 2026-01-11 Phase 3 design and rung-planning documents live under:
+
+- `phase3/design/PHASE3_NEXT_RUNG.md`
+- `phase3/design/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md`
+
+Canonical contracts (MECHANISM_CONTRACT, SCOPE, ROLE_IN_PROGRAM, REPRODUCIBILITY, alignment, PROGRESS_LOG) remain in the `phase3/` root. Historical references in PROGRESS_LOG entries preserve the original paths used at the time and may point to pre-reorg locations.

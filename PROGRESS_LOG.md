@@ -1,6 +1,9 @@
 
 ## NOTE ON LEGACY ENTRIES
 
+> **Documentation layout note (Belt G, 2026-01-11):** This log preserves file paths as they were at the time each entry was written. Some Phase 2–4 design and audit documents have since moved into `phase2/audit/` and `phase3/phase4/design/` subdirectories. See the 2026-01-11 Belt G entry at the end of this file for a map from old paths to current locations.
+
+
 Early entries in this log predate the current phased layout and may reference
 legacy paths (e.g., `src/`, `data/`, `figures/`). The canonical structure is
 now Phase 0–5 plus the Stage 2 diagnostic belts (see `README.md` and
@@ -4565,3 +4568,30 @@ Artifacts:
 - `stage2/docs/STAGE2_PAPER_AUDIT_OVERVIEW_v1.md` — overview and navigation layer summarising the belt’s findings and pointing to the per-phase notes.
 
 Belt verdict: At the current Stage 2 snapshot, none of the Phase 0–5 PDFs contradict their own phase contracts, the global docs, or the Stage 2 FRW/mechanism/joint/θ★ verdicts. Phase 0–1 still provide a clean governance and axiom foundation; Phases 2–4 are framed as bounded toy pipelines and diagnostics rather than physical predictions; Phase 5 is presented as an interface/dashboard stub rather than a new physics phase. Any future paper edits can be limited to minor clarifications and explicit cross-links, to be handled in a separate paper-edit belt.
+
+## 2026-01-11 — Belt G: phase-level doc hierarchy re-org (canonical vs design/audit)
+
+Scope: Introduced a light documentation hierarchy for Phase 2–4 by moving non-canonical design and audit docs into dedicated subdirectories, without altering historical PROGRESS_LOG entries.
+
+Changes:
+
+- Created `phase2/audit/` and moved:
+  - `phase2/AUDIT_REPORT.md` → `phase2/audit/AUDIT_REPORT.md`
+
+- Created `phase3/design/` and moved:
+  - `phase3/PHASE3_NEXT_RUNG.md` → `phase3/design/PHASE3_NEXT_RUNG.md`
+  - `phase3/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md` → `phase3/design/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md`
+
+- Created `phase4/design/` and moved:
+  - `phase4/PLANNING.md` → `phase4/design/PLANNING.md`
+  - `phase4/HARD_NOVELTY_ROADMAP.md` → `phase4/design/HARD_NOVELTY_ROADMAP.md`
+  - `phase4/FRW_SYNTHESIS.md` → `phase4/design/FRW_SYNTHESIS.md`
+  - `phase4/MAPPING_FAMILIES.md` → `phase4/design/MAPPING_FAMILIES.md`
+  - `phase4/FRW_TOY_DESIGN.md` → `phase4/design/FRW_TOY_DESIGN.md`
+  - `phase4/PHASE3_INTERFACE.md` → `phase4/design/PHASE3_INTERFACE.md`
+  - `phase4/FRW_DATA_DESIGN.md` → `phase4/design/FRW_DATA_DESIGN.md`
+
+Notes:
+
+- Historical PROGRESS_LOG entries preserve the original file paths used at the time and may refer to pre-reorg locations. For current locations of design and audit docs, use the mappings above and the phase-level alignment memos (`phase2/PHASE2_ALIGNMENT_v1.md`, `phase3/PHASE3_ALIGNMENT_v1.md`, `phase4/PHASE4_ALIGNMENT_v1.md`).
+- Non-log docs that previously linked to the old paths (alignment memos, design notes, Stage 2 doc-open-threads summary) were updated to point at the new locations.

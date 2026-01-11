@@ -110,7 +110,7 @@ Putting the above together, the current conceptual pipeline is:
 
 4. **F1 scalar + corridor (design)**  
    \(\Rightarrow\) FRW-like toy diagnostics (planned)  
-   (see `phase4/FRW_TOY_DESIGN.md`)
+   (see `phase4/design/FRW_TOY_DESIGN.md`)
 
 Only steps (1)–(3) are implemented at this rung. Step (4) is a design
 target and may evolve or be retired if it proves unhelpful.
