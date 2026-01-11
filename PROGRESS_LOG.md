@@ -3853,3 +3853,27 @@ Changes:
 No Phase 0–5 claims, numerical artifacts, or Stage 2 diagnostics were changed;
 this rung only promotes existing governance/planning docs into the navigation
 surface.
+
+## 2026-01-11 — Doc-audit rung B4: surface Stage 2 overview and joint plan docs
+
+Promoted two previously under-linked Stage 2 design docs into the main Stage 2
+navigation surface:
+
+- `docs/STAGE2_OVERVIEW.md` — the conceptual overview of Stage 2 as an
+  exploratory downstream lab layer, and
+- `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md` — the joint mech–FRW analysis plan.
+
+Changes:
+
+- Extended `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md` with a **Companion docs in
+  `docs/`** section pointing to `docs/STAGE2_OVERVIEW.md`,
+  `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md`, and
+  `docs/STAGE2_MECH_MEASURE_RUNG1_6_SUMMARY_v1.md` as higher-level Stage 2
+  design/summary docs.
+- Extended `docs/REPO_MAP_AND_ATLAS_v1.md` with a **Stage 2 overview and plans**
+  section that situates `docs/STAGE2_OVERVIEW.md` and
+  `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md` in the atlas as the conceptual top
+  layer for Stage 2 belts.
+
+No Phase 0–5 claims or numerical artifacts were modified; this rung strictly
+improves discoverability and provenance of Stage 2 design docs.

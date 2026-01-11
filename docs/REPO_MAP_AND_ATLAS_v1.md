@@ -268,3 +268,23 @@ map between this phased repository and the older `origin-axiom-legacy` tree. It:
 It is part of the archive/provenance layer rather than a new Phase. When in
 doubt about a legacy file or run mentioned in `PROGRESS_LOG.md` or older notes,
 consult this map and the archive policy in `docs/ARCHIVE.md`.
+
+---
+
+## 8. Stage 2 overview and plans
+
+Beyond the per-belt docs under `stage2/docs/`, two global Stage 2 design docs
+live under `docs/`:
+
+- `docs/STAGE2_OVERVIEW.md` describes Stage 2 as an exploratory downstream lab
+  layer sitting on top of Phase 3 and Phase 4 outputs, including its role,
+  non-claims, and the high-level questions the belts are allowed to ask.
+
+- `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md` defines the original design spine for
+  the joint mech–FRW analysis, clarifying how Phase 3 measure candidates and
+  Phase 4 / Stage 2 FRW masks are combined on a joint θ grid, and which outputs
+  are intended to be diagnostic rather than new physics claims.
+
+These documents form the conceptual top layer for Stage 2, with the belt-level
+docs in `stage2/docs/` and the tables/figures under `stage2/*/outputs/` providing
+their concrete implementations.

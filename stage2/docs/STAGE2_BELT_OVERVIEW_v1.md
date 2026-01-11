@@ -239,3 +239,28 @@ Stage 2 belt v1 puts us in position to:
   - selects a *very small* set of Option A candidates, and
   - leaves more ambitious stories for Option B / later phases.
 
+
+---
+
+## 6. Companion docs in `docs/`
+
+Several higher-level Stage 2 documents live under the top-level `docs/` tree:
+
+- `docs/STAGE2_OVERVIEW.md` — global overview of Stage 2 as an exploratory,
+  downstream lab layer that never mutates Phase 3/4 artifacts and does not
+  introduce new claims. This is the conceptual entry point for Stage 2 as a
+  whole.
+
+- `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md` — design spine for the joint
+  mech–FRW analysis, describing how Phase 3 measure candidates and Phase 4/Stage 2
+  FRW masks are to be combined on a common θ grid, and which questions this joint
+  analysis is allowed to ask (purely diagnostic, no new θ★-style claims).
+
+- `docs/STAGE2_MECH_MEASURE_RUNG1_6_SUMMARY_v1.md` — narrative summary of the
+  mech/measure belt rungs (inventory, probability-like candidates, measure vs
+  flag classification, θ-profiles, and preferred candidates) that backs the
+  Stage 2 mech/measure summaries in this overview.
+
+Readers who start from the Phase/Stage global docs should treat these `docs/`
+entries as the high-level Stage 2 design and this `stage2/docs/*` belt overview
+as the more implementation-facing companion.
