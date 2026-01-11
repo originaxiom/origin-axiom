@@ -4512,3 +4512,16 @@ Paper-audit belt: added `stage2/docs/STAGE2_PAPER_AUDIT_PLAN_v1.md`, which:
 - and explicitly separates descriptive audit rungs from any future LaTeX editing rungs (which will be gated and logged separately).
 
 No papers or LaTeX sources were changed in this rung; it is a planning-only step for a structured paper audit belt.
+## 2026-01-11 — Belt E / Rung E2: Phase 2 paper audit (mode-sum + bounded FRW viability)
+
+Paper-audit belt: read `artifacts/origin-axiom-phase2.pdf` (abstract, introduction, claims C2.1–C2.3, scope and non-claims sections, conclusion, and provenance appendix) alongside the Phase 2 docs and alignment memo, and recorded the audit in `stage2/docs/STAGE2_PAPER_AUDIT_PHASE2_v1.md`.
+
+Audit verdict:
+
+- The Phase 2 paper consistently presents Phase 2 as a bounded, reproducible test of a global non-cancellation floor in a vacuum testbed with a toy FRW embedding, aligned with Phase 2 SCOPE/CLAIMS/REPRODUCIBILITY docs and `phase2/PHASE2_ALIGNMENT_v1.md`.
+- Claims C2.1–C2.3 (existence under constraint, robustness under numerical controls, FRW embedding stability) are framed as statements about the implemented pipeline, not as physical predictions or data-facing claims.
+- The paper’s non-claims and upgrade list match the global program docs and Stage 2 master verdict: no identification of ε with a physical constant, no continuum-limit theorem, no realistic field content, no θ★ selection, and no quantitative match to the observed cosmological constant.
+- The FRW part is clearly described as a toy background test; it does not claim a populated, data-conditioned FRW corridor or a broad θ-grid viability band, so there is no conflict with the later Phase 4 + Stage 2 FRW belts (which operate on a richer FRW pipeline).
+- No contradictions were found between the Phase 2 paper and the current Stage 2 FRW and master verdicts; any future edits can be limited to minor clarifications and cross-links rather than substantive claim changes.
+
+No LaTeX or paper sources were modified in this rung; it is a descriptive audit only.
