@@ -4364,3 +4364,14 @@ Phase 2 alignment belt: added `phase2/PHASE2_ALIGNMENT_v1.md`, a descriptive ali
 - and confirms that later Stage 2 FRW diagnostics (broad viable band, empty `frw_data_ok`, θ★ lying inside but not singled out) refine but do not contradict Phase 2 claims when those claims are interpreted as pre-data structural statements.
 
 The memo is descriptive and does not introduce new Phase 2 claims or modify existing contracts, numerical artifacts, or Stage 2 pipelines.
+## 2026-01-11 — Belt A / Rung A4: Phase 3 alignment memo (mechanism scope, claims, outputs, paper)
+
+Phase 3 alignment belt: added `phase3/PHASE3_ALIGNMENT_v1.md`, a descriptive alignment memo that:
+
+- compares `phase3/SCOPE.md`, `phase3/CLAIMS.md`, `phase3/MECHANISM_CONTRACT.md`, `phase3/ROLE_IN_PROGRAM.md`, `phase3/REPRODUCIBILITY.md`, and the rung-2 design note with the Phase 3 mechanism paper (`artifacts/origin-axiom-phase3.pdf`) and the outputs under `phase3/outputs/tables/`,
+- confirms that Phase 3 is consistently treated as the mechanism module (not a flavor module) in phase-local docs, the paper, and global docs, with flavor-sector experiments archived under `experiments/phase3_flavor_v1/`,
+- checks that the mechanism contract and claims register match the implementation and tables (baseline scans, binding certificates, and diagnostics) used in the paper and in Stage 2 mech/joint analysis,
+- relates Phase 3 reproducibility docs and repo layout to the way the paper presents its numerics and to the Stage 2 scripts that consume Phase 3 tables,
+- and aligns Phase 3 non-claims (no canonical θ-measure, no special θ★ selection, no direct phenomenology) with Stage 2 mech/joint and θ★ diagnostics, which find smooth, well-behaved mechanism scalars that are strongly correlated with FRW scalars but do not single out θ★.
+
+The memo is descriptive only and does not introduce new Phase 3 claims or modify existing contracts, numerical artifacts, or Stage 2 pipelines.
