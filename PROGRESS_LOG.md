@@ -4148,3 +4148,19 @@ that gives a concrete entry path through:
 No Phase 0–5 claims, numerical artifacts, or Stage 2 computations were changed;
 this rung aligns the README entry path with the existing atlas and Stage 2
 doc/audit structure.
+
+## 2026-01-11 — Doc-audit rung D7: slot doc/repo-audit belt into STAGE2_OVERVIEW
+
+Stage 2 doc belt: extended `docs/STAGE2_OVERVIEW.md` with a **Documentation and
+repo-audit belt** section that:
+
+- recognises the doc/repo-audit belt as a first-class Stage 2 component alongside
+  the FRW, mech/measure, joint mech–FRW, FRW data-probe, and θ★ belts,
+- explains its role (inventorying docs, flagging broken refs/orphans/open
+  threads, and proposing manual documentation rungs), and
+- points to `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` as the primary
+  interface, emphasising that the belt does not introduce new physical claims
+  or modify Phase 0–5 numerical artifacts.
+
+No Phase 0–5 claims or numerical outputs were changed; this rung tightens the
+conceptual Stage 2 overview so it matches the actual belt structure in the repo.

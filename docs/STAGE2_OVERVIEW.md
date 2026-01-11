@@ -380,3 +380,29 @@ Until such promotion is explicitly decided and documented, Stage 2
 remains a **lab for stress-testing the machinery and discovering
 structure**, not a source of new published claims.
 
+
+---
+
+## 5. Documentation and repo-audit belt
+
+In addition to the FRW, mech/measure, joint mech–FRW, FRW data-probe, and θ★
+diagnostic belts, Stage 2 also includes a documentation and repo-audit belt.
+This belt is responsible for:
+
+- inventorying documentation and structural files across the repo,
+- flagging broken references, orphaned docs, and open TODO/TBD-style threads,
+- proposing small, manually applied documentation rungs (navigation fixes,
+  archive labelling, companion-doc links, etc.), and
+- keeping an auditable record of these changes.
+
+The primary interface for this belt is:
+
+- `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` – describes the doc-audit CSVs,
+  how they are generated, and which manual doc-audit rungs have been applied so
+  far (including a dated status section).
+
+The doc/repo-audit belt does not introduce new physical claims and does not
+modify Phase 0–5 numerical artifacts. Its role is to keep the documentation and
+repository structure aligned with Phase 0 contracts and the actual Phase/Stage
+artifacts, so that external auditors can navigate and evaluate the project
+without guessing.
