@@ -4129,3 +4129,22 @@ The section makes explicit that Stage 2 introduces no new physical claims and
 cannot change Phase 0–5 claims in place without passing Phase 0–style gates and
 updating phase-local `CLAIMS.md`. No Phase 0–5 numerics or claims were modified
 in this rung.
+
+## 2026-01-11 — Doc-audit rung D6: add README entry path aligned with atlas and Stage 2
+
+Doc-audit belt: extended `README.md` with a **Where to start reading** section
+that gives a concrete entry path through:
+
+- `docs/PROJECT_OVERVIEW.md` and `docs/PHASES.md` (overview + phase ladder),
+- `docs/STATE_OF_REPO.md` and `docs/REPO_MAP_AND_ATLAS_v1.md` (status + layout),
+- `docs/CLAIMS_INDEX.md` and the Phase PDFs under `artifacts/` (claims +
+  artifacts),
+- `docs/STAGE2_OVERVIEW.md`, `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md`, and
+  `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` (Stage 2 diagnostic belts and
+  doc/repo audit), and
+- `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and `docs/THETA_ARCHITECTURE.md`
+  (governance and archive).
+
+No Phase 0–5 claims, numerical artifacts, or Stage 2 computations were changed;
+this rung aligns the README entry path with the existing atlas and Stage 2
+doc/audit structure.

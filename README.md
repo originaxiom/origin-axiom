@@ -298,3 +298,36 @@ for future work. If the answer is “maybe”, the standard only gets *stricter*
 here.
 
 Everything here is in service of that question.
+---
+
+## 7) Where to start reading
+
+For a first pass through the project, a recommended reading order is:
+
+1. **High-level overview and phase ladder**
+   - `docs/PROJECT_OVERVIEW.md` for the narrative overview of the axiom and the
+     phased program.
+   - `docs/PHASES.md` for the formal definitions and scopes of Phase 0–5.
+
+2. **Current status and directory layout**
+   - `docs/STATE_OF_REPO.md` for the current status of phases, Stage 2 belts,
+     and archived/experimental areas.
+   - `docs/REPO_MAP_AND_ATLAS_v1.md` for the directory-level map of phases,
+     Stage 2 belts, experiments, sandbox, and build/gate scripts.
+
+3. **Claims and artifacts**
+   - `docs/CLAIMS_INDEX.md` for where claims live across phases.
+   - `artifacts/origin-axiom-phase*.pdf` for the Phase 0–5 papers (see the
+     “Phase artifacts” section above for links and roles).
+
+4. **Stage 2 diagnostic belts and repo audit**
+   - `docs/STAGE2_OVERVIEW.md` and `stage2/docs/STAGE2_BELT_OVERVIEW_v1.md`
+     for Stage 2 as a downstream diagnostic layer (FRW, mech/measure, joint,
+     data, θ★, doc/repo audit).
+   - `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` for the documentation/repo
+     audit belt and its current status.
+
+5. **Governance and archive**
+   - `docs/ARCHIVE.md`, `docs/GATES_AND_STATUS.md`, and
+     `docs/THETA_ARCHITECTURE.md` for the global archive policy, status labels,
+     and θ/corridor architecture enforced by Phase 0.
