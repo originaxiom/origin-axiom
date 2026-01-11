@@ -3877,3 +3877,23 @@ Changes:
 
 No Phase 0–5 claims or numerical artifacts were modified; this rung strictly
 improves discoverability and provenance of Stage 2 design docs.
+
+## 2026-01-11 — Doc-audit rung C1: record doc-audit status in Stage 2 summary
+
+Extended `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` with a **Doc-audit status
+as of 2026-01-11** section that summarises the manual doc-audit rungs applied so
+far. The new section records that we have:
+
+- added Stage 2 belt summary docs under `stage2/docs/`,
+- introduced and linked a repo atlas (`docs/REPO_MAP_AND_ATLAS_v1.md`),
+- clarified the role of the git-ignored `stage2/doc_repo_audit/` working dir,
+- promoted key governance and θ architecture docs (`ARCHIVE`, `GATES_AND_STATUS`,
+  `THETA_ARCHITECTURE`, and the legacy migrations map),
+- surfaced the FRW corridor promotion gate and Phase 5 roadmap, and
+- connected higher-level Stage 2 design docs (`STAGE2_OVERVIEW`,
+  `STAGE2_JOINT_MECH_FRW_PLAN_v1`, and the mech/measure rung summary) to the
+  Stage 2 belt overview and atlas.
+
+No Phase 0–5 claims, numerical artifacts, or Stage 2 diagnostics were changed;
+this rung simply makes the current doc-audit progress legible from within the
+Stage 2 doc-audit summary itself.

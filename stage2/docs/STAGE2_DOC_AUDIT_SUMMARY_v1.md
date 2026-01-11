@@ -57,3 +57,64 @@ The documentation audit is **strictly downstream**: it reads files and tables, b
   - update this summary only if the **shape** of the audit changes (for example, new categories, new tables, or a qualitatively different status).
 
 The intent is that an external collaborator can read this file plus the four CSVs, and quickly understand where the documentation is tight, where it is loose, and which follow-up Stage 2 rungs should be executed next.
+
+---
+
+## 5. Doc-audit status as of 2026-01-11
+
+As of 2026-01-11, several small, targeted doc-audit rungs have been applied
+manually on top of the CSV snapshots described above:
+
+- **Stage 2 belt summaries wired up.**  
+  The Stage 2 FRW corridor, mech/measure, joint mech–FRW, and FRW data-probe
+  belts now each have a short summary document under `stage2/docs/`:
+  `STAGE2_FRW_CORRIDOR_SUMMARY_v1.md`,
+  `STAGE2_MECH_MEASURE_SUMMARY_v1.md`,
+  `STAGE2_JOINT_MECH_FRW_SUMMARY_v1.md`, and
+  `STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md`. These close previously broken README
+  links and make the belts directly navigable.
+
+- **Repo atlas added and linked.**  
+  A high-level repo atlas (`docs/REPO_MAP_AND_ATLAS_v1.md`) now records the
+  directory-level layout of phases, Stage 2 belts, experiments, sandbox areas,
+  and build/gate scripts. README and `docs/STATE_OF_REPO.md` both point to this
+  atlas as a navigation aid.
+
+- **Doc-audit working directory clarified.**  
+  References to the git-ignored `stage2/doc_repo_audit/` working directory were
+  updated so that readers are directed to
+  `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` for instructions, rather than
+  into 404-prone paths on GitHub. The audit scratch directory is now clearly
+  described as a local, transient workspace.
+
+- **Governance and θ architecture docs promoted.**  
+  Previously under-linked governance docs (`docs/ARCHIVE.md`,
+  `docs/GATES_AND_STATUS.md`, `docs/THETA_ARCHITECTURE.md`,
+  and `docs/LEGACY_MIGRAIONS_PHASE0_MAP.MD`) have been wired into
+  `docs/STATE_OF_REPO.md`, `docs/PROJECT_OVERVIEW.md`, `docs/ARCHIVE.md`, and
+  the repo atlas so they are treated as first-class companions instead of
+  orphans.
+
+- **FRW promotion gate and Phase 5 roadmap surfaced.**  
+  The FRW corridor promotion gate (`docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`)
+  and the Phase 5 roadmap (`docs/phase5_roadmap.md`) are now linked from
+  `docs/STAGE2_PROMOTION_DESIGN_v1.md` and
+  `docs/FUTURE_WORK_AND_ROADMAP.md`, clarifying the governance context for any
+  future Stage 2 → Phase 4/5 promotions.
+
+- **Stage 2 overview and joint plan connected.**  
+  Higher-level Stage 2 design docs (`docs/STAGE2_OVERVIEW.md`,
+  `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md`, and
+  `docs/STAGE2_MECH_MEASURE_RUNG1_6_SUMMARY_v1.md`) are now referenced from the
+  Stage 2 belt overview and the repo atlas, so readers can find the conceptual
+  Stage 2 top layer from both the global docs and the belt-level docs.
+
+The remaining work implied by the CSVs includes:
+
+- further cleanup of broken references in less central docs,
+- decisions about genuinely orphaned or superseded documents (promote vs archive),
+- and selective closure or relocation of open TODO/TBD-style threads in
+  Phase/Stage docs.
+
+Those future rungs will be logged in `PROGRESS_LOG.md` and, where appropriate,
+reflected back into this summary document.
