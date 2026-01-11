@@ -170,3 +170,7 @@ phases, new belts, significant reshuffling) may require re-running the Stage 2
 doc-audit scripts and adding further rungs. The CSVs in this directory capture
 the state at the time they were generated; `PROGRESS_LOG.md` records subsequent
 manual documentation rungs that build on them.
+
+---
+
+Open-thread status: The file `stage2/docs/STAGE2_DOC_OPEN_THREADS_STATUS_v1.md` summarises how the TODO/DRAFT/TBD/FIXME markers surfaced by the doc-audit belt are interpreted at the current snapshot (historical vs draft vs design). It is the reference for deciding which open-thread markers are live gates for new work and which are preserved as context.

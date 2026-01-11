@@ -4460,3 +4460,15 @@ Doc/graph belt: used the Stage 2 doc-audit orphan-candidate snapshot to classify
   - `phase5/PHASE5_VISION_RUNG0.md`: marked as a Phase 5 Rung 0 vision/planning doc, with future Phase 5 interface work governed by `phase5/PHASE5_ALIGNMENT_v1.md` and Stage 2 master verdicts.
 
 This rung does not alter any numerical artifacts or claims; it makes previously “orphan-like” or ambiguous docs explicitly classified as canonical, legacy, design, or historical, using the alignment memos and Stage 2 verdicts as the reference.
+## 2026-01-11 — Belt C / Rung C3: Doc open-threads status (TODO / DRAFT markers)
+
+Doc/graph belt: clarified the status of open-thread markers surfaced by the Stage 2 doc-audit belt by:
+
+- adding `stage2/docs/STAGE2_DOC_OPEN_THREADS_STATUS_v1.md`, which classifies TODO/DRAFT/TBD/FIXME markers as historical/audit-only, draft-but-operational contracts, or design notes, with special attention to:
+  - the narrative TODO in `PROGRESS_LOG.md` (historical / contextual),
+  - the Phase 2 audit-report TODO cluster (historical audit snapshot, not a live to-do list),
+  - the Phase 3 mechanism contract DRAFT marker (draft-but-operational for the current Stage 2 snapshot),
+  - and the Phase 4 DRAFT cluster in planning/claims/mapping/reproducibility docs (design/draft documents governed by alignment memos and promotion gates, not current blockers),
+- and appending a short pointer to `stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md` to make this status doc discoverable from the doc-audit summary.
+
+This rung does not remove or edit any TODO/DRAFT markers; it records how they should be interpreted so that future audits can distinguish live gates from preserved historical context.
