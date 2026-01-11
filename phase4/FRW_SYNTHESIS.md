@@ -267,3 +267,7 @@ All of these directions can be pursued without breaking the current
 Phase 0 claim discipline: each step can be added as a new rung with
 explicit code, logs, and clearly scoped claims.
 
+
+---
+
+Doc status: Phase 4 FRW-facing synthesis design note; describes how FRW-related results could be synthesised in Phase 4/5 text; non-binding and governed by `phase4/PHASE4_ALIGNMENT_v1.md` and Stage 2 FRW verdicts.

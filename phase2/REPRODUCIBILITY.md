@@ -112,3 +112,6 @@ A reviewer should need only:
 to evaluate Phase 2 within scope.
 
 ---
+---
+
+Doc status: Canonical Phase 2 reproducibility and provenance contract; describes how to regenerate Phase 2 artifacts used in the paper and Stage 2 belts; complements the top-level `REPRODUCIBILITY.md` and is referenced by `phase2/PHASE2_ALIGNMENT_v1.md`.

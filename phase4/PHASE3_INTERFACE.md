@@ -123,3 +123,7 @@ Phase 3 mechanism are realised in nature. It records technical
 dependencies so that future refactors, Phase 3 variants, or additional
 mapping families can be audited against a clear upstream/downstream
 contract.
+
+---
+
+Doc status: Phase 3–Phase 4 interface design note (draft); explains how Phase 3 mechanism outputs feed Phase 4 FRW constructions; descriptive and non-binding; interpretation is governed by `phase4/PHASE4_ALIGNMENT_v1.md` and does not override Phase 3 or Phase 4 claims registers.

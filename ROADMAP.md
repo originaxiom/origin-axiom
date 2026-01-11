@@ -229,3 +229,6 @@ At every step, the expectation is that claims are:
 - backed by concrete artefacts,
 - reproducible from the repository alone (no hidden legacy files),
 - explicitly tethered to the governance laid out in Phase 0.
+---
+
+Doc status: This roadmap is a legacy snapshot of planned work; for the current roadmap and future work plan, see `docs/FUTURE_WORK_AND_ROADMAP.md` and the Stage 2 overview docs under `stage2/docs/`; this file is kept for historical context rather than as the live roadmap.

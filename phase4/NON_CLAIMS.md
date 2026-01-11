@@ -32,3 +32,7 @@ Phase 4 *does not* claim:
 
 These non-claims are intended to keep the Phase 4 narrative honest and
 in line with the Phase 0 contract and the broader program philosophy.
+
+---
+
+Doc status: Draft Phase 4 non-claims (guardrails) file; clarifies what Phase 4 does not claim in its FRW toy stub role; governed by `phase4/PHASE4_ALIGNMENT_v1.md` and may be tightened in a future Phase 4 lock rung.

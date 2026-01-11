@@ -105,3 +105,6 @@ Phase 2 focuses on late-time behavior.
 Phase 2 assumes a global non-cancellation axiom (interface), a finite mode-sum proxy
 (toy model), and a standard FRW wrapper (interpretation) to assess **existence**,
 **robustness**, and **cosmological viability** only.
+---
+
+Doc status: Canonical Phase 2 assumptions register; read together with `phase2/SCOPE.md`, `phase2/CLAIMS.md`, `phase2/APPROXIMATION_CONTRACT.md`, `phase2/REPRODUCIBILITY.md`, and `phase2/PHASE2_ALIGNMENT_v1.md` for the current locked Phase 2 contract.

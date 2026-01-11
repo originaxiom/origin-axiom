@@ -4437,3 +4437,26 @@ Doc/graph belt: wired the Phase 2–5 alignment memos into the documentation gra
 - adding a brief alignment memo section at the end of `docs/STATE_OF_REPO.md` listing these files and clarifying that they are descriptive snapshots of how phase contracts, LaTeX papers, and Stage 2 diagnostics line up at the current snapshot.
 
 This rung does not change any Phase claims or Stage 2 verdicts; it just makes the alignment memos discoverable as the canonical entry-points for Phase 2–5 alignment.
+## 2026-01-11 — Belt C / Rung C2: Classify key orphan-candidate docs (promote vs legacy vs design vs historical)
+
+Doc/graph belt: used the Stage 2 doc-audit orphan-candidate snapshot to classify several key docs and make their status explicit by appending short status blocks, without changing existing content:
+
+- Root-level:
+  - `REPRODUCIBILITY.md`: marked as a top-level reproducibility entrypoint and navigation aid, with phase-specific contracts living under `phase*/REPRODUCIBILITY.md` and Phase 2–5 alignment memos.
+  - `ROADMAP.md`: marked as a legacy roadmap snapshot, with `docs/FUTURE_WORK_AND_ROADMAP.md` and Stage 2 overview docs as the current roadmap.
+
+- Phase 2:
+  - `phase2/AUDIT_REPORT.md`: clarified as a historical audit snapshot (P2-A1); TODO/TBD/FIXME references are historical, not a live to-do list; pointed readers to `phase2/CLAIMS.md`, `phase2/REPRODUCIBILITY.md`, and `phase2/PHASE2_ALIGNMENT_v1.md` for current Phase 2 status.
+  - `phase2/ASSUMPTIONS.md`, `phase2/CLAIMS_TABLE.md`, `phase2/PHASE2_LOCK_CHECKLIST.md`, `phase2/APPROXIMATION_CONTRACT.md`, `phase2/PHASE2_WORKFLOW_GUIDE.md`, `phase2/CLAIMS.md`, `phase2/REPRODUCIBILITY.md`: explicitly marked as canonical Phase 2 contracts/guides and tied to `phase2/PHASE2_ALIGNMENT_v1.md` and the locked Phase 2 paper.
+
+- Phase 3:
+  - `phase3/MECHANISM_CONTRACT.md`, `phase3/ROLE_IN_PROGRAM.md`: marked as canonical Phase 3 mechanism and role docs, interpreted under `phase3/PHASE3_ALIGNMENT_v1.md`.
+  - `phase3/PHASE3_RUNG2_MECHANISM_A_INSTABILITY_PENALTY.md`: marked as a rung-level design note (historical/explanatory, not a claims register).
+
+- Phase 4:
+  - `phase4/PLANNING.md`, `phase4/PHASE3_INTERFACE.md`, `phase4/CLAIMS_TABLE.md`, `phase4/HARD_NOVELTY_ROADMAP.md`, `phase4/FRW_SYNTHESIS.md`, `phase4/MAPPING_FAMILIES.md`, `phase4/CLAIMS.md`, `phase4/NON_CLAIMS.md`, `phase4/REPRODUCIBILITY.md`: explicitly tagged as design/draft/non-binding docs whose interpretation is governed by `phase4/PHASE4_ALIGNMENT_v1.md` and the FRW promotion gates (`phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`, `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`).
+
+- Phase 5:
+  - `phase5/PHASE5_VISION_RUNG0.md`: marked as a Phase 5 Rung 0 vision/planning doc, with future Phase 5 interface work governed by `phase5/PHASE5_ALIGNMENT_v1.md` and Stage 2 master verdicts.
+
+This rung does not alter any numerical artifacts or claims; it makes previously “orphan-like” or ambiguous docs explicitly classified as canonical, legacy, design, or historical, using the alignment memos and Stage 2 verdicts as the reference.

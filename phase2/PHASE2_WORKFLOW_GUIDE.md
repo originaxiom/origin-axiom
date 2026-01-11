@@ -118,3 +118,6 @@ Phase 2 is done when:
 - repo contains no runtime junk and no ambiguous run history.
 
 ---
+---
+
+Doc status: Phase 2 workflow guide (Phase-1 style) describing how to run and audit the Phase 2 pipeline; operational guidance only; for formal contracts and claims, see `phase2/PHASE2_ALIGNMENT_v1.md` and the Phase 2 paper.

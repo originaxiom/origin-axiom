@@ -124,3 +124,6 @@ manual figures are not part of the Phase 2 contract.
 
 ## “No Overreach” Summary (One paragraph)
 Phase 2 demonstrates a toy-model mechanism: under a global non-cancellation floor ε acting on a finite mode-sum amplitude, near-cancellation halts at a small residual whose scaling can be tested, and whose FRW implication can be illustrated via an explicit mapping knob. Phase 2 does not identify the physical origin of the phase structure, does not claim UV completeness, and does not claim a definitive solution to the cosmological constant problem.
+---
+
+Doc status: Canonical Phase 2 approximation contract; defines the approximation regime under which Phase 2 claims and the Phase 2 paper are valid; read together with `phase2/ASSUMPTIONS.md`, `phase2/CLAIMS.md`, and `phase2/PHASE2_ALIGNMENT_v1.md`.

@@ -163,3 +163,7 @@ This note does **not** claim:
 It is a design document to keep Phase 4 constrained, auditable, and
 aligned with the Phase 0 corridor and ledger semantics.
 
+
+---
+
+Doc status: Phase 4 mapping families design note (draft); defines candidate mapping families over FRW scalars and masks; descriptive and non-binding; any promotion into Phase 4/5 claims or figures must pass the FRW promotion gate.

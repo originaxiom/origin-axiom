@@ -125,3 +125,7 @@ mechanism in isolation.
 
 Once these steps are done and the contract is locked, Phase 4 can proceed in
 rung-style increments as with the new Phase 3 mechanism.
+
+---
+
+Doc status: Phase 4 planning design note (draft, non-binding); describes intended FRW-facing work and novelty directions; governed by `phase4/PHASE4_ALIGNMENT_v1.md` and the promotion gates in `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` and `docs/FRW_CORRIDOR_PROMOTION_GATE_v1.md`; not a standalone claims doc.

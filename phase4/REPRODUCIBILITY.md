@@ -57,3 +57,7 @@ If Phase 4 produces a θ-filter artifact, it must:
 
 This file will transition from **draft** to **locked** once the actual
 Phase 4 implementation and gate are in place.
+
+---
+
+Doc status: Draft Phase 4 reproducibility plan; describes how FRW tables and figures are to be generated once Phase 4 is locked; current FRW reproducibility is effectively governed by Phase 3 contracts, Phase 4 code, and Stage 2 FRW/joint verdicts as summarised in `phase4/PHASE4_ALIGNMENT_v1.md` and `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`.

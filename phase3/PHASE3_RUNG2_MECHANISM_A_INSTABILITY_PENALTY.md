@@ -306,3 +306,7 @@ Until these are done, Mechanism Family A remains a **design sketch**
 with no scientific weight beyond defining a clear, reproducible target
 for future work.
 
+
+---
+
+Doc status: Rung-level Phase 3 design note documenting the mechanism-A instability-penalty refinement; historical and explanatory; it guides interpretation of specific Phase 3 runs but is not a standalone claims register.

@@ -91,3 +91,7 @@ At the current rung, **Phase 3 (mechanism) is considered frozen**: its
 role is to provide a clean, reproducible mechanism-level building block
 for the broader Origin Axiom program, without over-claiming physical
 content or prematurely fixing a \(\theta\)-corridor.
+
+---
+
+Doc status: Phase 3 role-in-program note; explains how the Phase 3 mechanism module fits between Phase 2 and Phase 4/5; descriptive but canonical for program narrative; see also `phase3/PHASE3_ALIGNMENT_v1.md` and `docs/PHASES.md`.

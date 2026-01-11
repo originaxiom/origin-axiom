@@ -168,3 +168,7 @@ program, the following documents are relevant:
 - `experiments/phase3_flavor_v1/ARCHIVE_STATUS_v1.md` records the status of the
   archived Phase 3 flavor-sector experiment. That tree is explicitly
   non-canonical; no flavor-sector claims live in this Phase 3 mechanism module.
+
+---
+
+Doc status: Canonical Phase 3 mechanism contract; defines the non-cancellation mechanism, vacuum floor, amplitudes, and binding certificate that underpin the Phase 3 paper and Stage 2 mechanism/joint diagnostics; interpreted under `phase3/PHASE3_ALIGNMENT_v1.md`.

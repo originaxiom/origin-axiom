@@ -1701,3 +1701,7 @@ MM phase2/AUDIT_REPORT.md
 - P2-S2: Claims map hardening (CLAIMS.md -> paper table -> artifact paths)
 - P2-S3: Provenance enforcement (git hash, params, seed, environment) in every run artifact
 - P2-S4: Rewrite passes (structure first, then math/rigor), zero new claims until audits pass
+
+---
+
+Doc status: This file is a Phase 2 structural audit snapshot (P2-A1), preserved for historical transparency; the TODO/TBD/FIXME references recorded here document what was checked and flagged during that audit window and are not a live to-do list for the current locked Phase 2; for the current Phase 2 status and contracts, see `phase2/CLAIMS.md`, `phase2/REPRODUCIBILITY.md`, and `phase2/PHASE2_ALIGNMENT_v1.md`, together with the main `PROGRESS_LOG.md`.

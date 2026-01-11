@@ -20,3 +20,7 @@ Expected outputs:
 - `phase0/paper/main.pdf`
 - `phase0/paper/appendices.pdf`
 - `phase1/paper/main.pdf`
+
+---
+
+Doc status: This file is a top-level reproducibility entrypoint for the program; detailed, phase-specific reproducibility contracts live in the `phase*/REPRODUCIBILITY.md` files and the Phase 2–5 alignment memos (`phase2/PHASE2_ALIGNMENT_v1.md`, `phase3/PHASE3_ALIGNMENT_v1.md`, `phase4/PHASE4_ALIGNMENT_v1.md`, `phase5/PHASE5_ALIGNMENT_v1.md`); this file is a navigation aid, not an independent claims-bearing contract.

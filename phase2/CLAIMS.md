@@ -280,3 +280,7 @@ No additional claims may appear in the paper.
 | C2.1 (Existence under constraint) | paper/sections/03_claim_C2_1_existence.tex | Fig. A (`figA_mode_sum_residual.pdf`) | `outputs/figures/figA_mode_sum_residual.run_id.txt` | `outputs/runs/<run_id_from_sidecar>/` |
 | C2.2 (Robustness & suppression) | paper/sections/04_claim_C2_2_robustness.tex | Figs. B–D (`figB_…`, `figC_…`, `figD_…`) | `outputs/figures/figB_scaling_epsilon.run_id.txt` etc. | `outputs/runs/<run_id_from_sidecar>/` |
 | C2.3 (FRW viability test) | paper/sections/05_claim_C2_3_frw_viability.tex | Fig. E (`figE_frw_comparison.pdf`) | `outputs/figures/figE_frw_comparison.run_id.txt` | `outputs/runs/<run_id_from_sidecar>/` |
+
+---
+
+Doc status: Canonical Phase 2 claims register (locked); governs how Phase 2 claims are interpreted in the Phase 2 paper and downstream diagnostics; see also `phase2/PHASE2_ALIGNMENT_v1.md` and `docs/CLAIMS_INDEX.md`.

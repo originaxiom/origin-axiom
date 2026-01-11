@@ -13,3 +13,7 @@ CLAIMS.md ↔ paper sections ↔ figures ↔ run_id ↔ outputs/runs/<run_id>/me
 | C2.1  | sections/03_claim_C2_1_existence.tex | figA_mode_sum_residual.pdf | figA_mode_sum_residual.run_id.txt | runs/<run_id>/meta.json | Existence under constraint; NOT a physical constant prediction |
 | C2.2  | sections/04_claim_C2_2_robustness.tex | figB_scaling_epsilon.pdf; figC_scaling_cutoff.pdf; figD_scaling_modes.pdf | figB_scaling_epsilon.run_id.txt; figC_scaling_cutoff.run_id.txt; figD_scaling_modes.run_id.txt | runs/<run_id>/meta.json | Robustness/suppression under sweeps; NOT universality |
 | C2.3  | sections/05_claim_C2_3_frw_viability.tex | figE_frw_comparison.pdf | figE_frw_comparison.run_id.txt | runs/<run_id>/meta.json | FRW viability consistency test; NOT precision cosmology |
+
+---
+
+Doc status: Phase 2 claims→artifacts map for the locked Phase 2 paper; complements `phase2/CLAIMS.md` and is interpreted under the alignment memo `phase2/PHASE2_ALIGNMENT_v1.md`.

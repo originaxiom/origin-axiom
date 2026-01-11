@@ -191,3 +191,7 @@ This roadmap is deliberately conservative: it focuses first on structural and
 robustness questions that are natural given the existing machinery, and only
 then on potential data contacts. It should be updated as new rungs are added
 or as the scope of Phase 4 is formally frozen.
+
+---
+
+Doc status: Phase 4 hard-novelty roadmap design note; outlines potential FRW-facing novelty paths but is not a binding roadmap or claims source; subject to the same promotion design and gating as other Phase 4 design docs.

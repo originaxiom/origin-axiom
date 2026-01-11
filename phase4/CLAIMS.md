@@ -53,3 +53,7 @@ permitted to silently ignore an empty-corridor outcome.
 
 These are *design targets* for Phase 4, not yet earned facts. They may
 be refined, split, or retired as the work progresses.
+
+---
+
+Doc status: Draft Phase 4 claims register; current interpretation of Phase 4 claims is constrained by `phase4/PHASE4_ALIGNMENT_v1.md`, Stage 2 FRW and joint verdicts, and the FRW promotion gates; this file remains explicitly draft / non-binding until a Phase 4 lock rung is executed.

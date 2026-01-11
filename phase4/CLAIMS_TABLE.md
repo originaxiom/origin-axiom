@@ -11,3 +11,7 @@ Status: **DRAFT – for navigation only.**
 Once Phase 4 is complete and audited, this table will be updated to
 reflect which claims (if any) are **LOCKED** and binding in the sense
 of the Phase 0 contract.
+
+---
+
+Doc status: Draft Phase 4 claims table for navigation; binding interpretation of Phase 4 claims is governed by `phase4/CLAIMS.md` as interpreted via `phase4/PHASE4_ALIGNMENT_v1.md` and the FRW promotion gates; this file remains a draft navigation aid.

@@ -193,3 +193,7 @@ At this vision rung, Phase 5 explicitly:
 The immediate next step for Phase 5 is therefore *not* to build a
 large new apparatus, but to serve as a **well-defined receptor** for
 mechanism ideas that emerge as Phases 3 and 4 climb to higher rungs.
+
+---
+
+Doc status: Phase 5 vision document (Rung 0 planning); sketches the intended interface/sanity layer but is not a claims register; future Phase 5 interface tables and program verdicts will be governed by `phase5/PHASE5_ALIGNMENT_v1.md` and Stage 2 master verdicts under `stage2/docs/`.

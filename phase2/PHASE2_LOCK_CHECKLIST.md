@@ -41,3 +41,7 @@ Purpose: define the minimal “Phase 2 is locked” bar, so we stop editing/comm
   3) A lock/release artifact added (checklist, bundle index, tag instructions).
 - Otherwise: batch locally, then one rung commit.
 
+
+---
+
+Doc status: Phase 2 lock checklist documenting the criteria used to declare Phase 2 locked; historical but still binding as the reference for what “locked” means in Phase 2; see also `phase2/PHASE2_ALIGNMENT_v1.md` and `PROGRESS_LOG.md` for lock status.
