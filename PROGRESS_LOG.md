@@ -4497,3 +4497,18 @@ Phase 5 interface belt: added `phase5/PROGRAM_VERDICT_SKELETON_v1.md`, a non-bin
 - and connects this narrative skeleton to the planned Phase 5 interface tables described in `phase5/INTERFACE_TABLE_DESIGN_v1.md`.
 
 The skeleton introduces no new physics or claims; it is a narrative template for future Phase 5 tables and text, anchored to `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`.
+## 2026-01-11 — Belt E / Rung E1: Stage 2 paper audit plan (Phase 0–5 PDFs)
+
+Paper-audit belt: added `stage2/docs/STAGE2_PAPER_AUDIT_PLAN_v1.md`, which:
+
+- lists the canonical Phase 0–5 paper PDFs under `artifacts/` to be audited,
+- defines per-phase audit goals (narrative alignment, claims alignment, and scope/status language) against phase contracts, alignment memos, and Stage 2 verdicts,
+- lays out planned rungs E2–E6:
+  - Phase 2 paper audit,
+  - Phase 3 paper audit,
+  - Phase 4 paper audit,
+  - Phase 5 stub audit (if present),
+  - and a quick Phase 0–1 consistency scan,
+- and explicitly separates descriptive audit rungs from any future LaTeX editing rungs (which will be gated and logged separately).
+
+No papers or LaTeX sources were changed in this rung; it is a planning-only step for a structured paper audit belt.
