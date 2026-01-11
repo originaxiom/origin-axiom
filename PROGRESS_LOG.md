@@ -4550,3 +4550,18 @@ Audit verdict:
 - These statements are compatible with the Stage 2 FRW, data-probe, joint, and θ★ verdicts, which find a broad FRW-viable band and robust toy corridors but a closed aggregate data gate and no special promotion of θ★.
 
 No LaTeX or paper sources were modified in this rung; it is a descriptive audit only.
+## 2026-01-11 — Belt E: Phase 0–5 paper audit (Stage 2 snapshot)
+
+Paper-audit belt: established a structured, audit-only pass over all Phase 0–5 PDFs, checking them against their phase contracts, alignment memos, global docs, and the Stage 2 verdicts.
+
+Artifacts:
+
+- `stage2/docs/STAGE2_PAPER_AUDIT_PLAN_v1.md` — defines the paper-audit belt (targets, goals, and planned rungs E2–E6).
+- `stage2/docs/STAGE2_PAPER_AUDIT_PHASE2_v1.md` — Phase 2 paper audit (mode-sum + bounded FRW viability) against Phase 2 contracts and Stage 2 FRW verdicts.
+- `stage2/docs/STAGE2_PAPER_AUDIT_PHASE3_v1.md` — Phase 3 paper audit (mechanism module) against the Phase 3 mechanism contract and Stage 2 mechanism/joint verdicts.
+- `stage2/docs/STAGE2_PAPER_AUDIT_PHASE4_v1.md` — Phase 4 paper audit (vacuum→FRW toy corridor stub) against Phase 4 contracts and Stage 2 FRW/data-probe/joint/θ★ verdicts.
+- `stage2/docs/STAGE2_PAPER_AUDIT_PHASE5_v1.md` — Phase 5 paper audit (interface/dashboard stub) against Phase 5 docs and the Stage 2 master verdict.
+- `stage2/docs/STAGE2_PAPER_AUDIT_PHASE01_v1.md` — quick consistency scan of Phase 0 (governance) and Phase 1 (axiom + toy existence) papers against the current program structure.
+- `stage2/docs/STAGE2_PAPER_AUDIT_OVERVIEW_v1.md` — overview and navigation layer summarising the belt’s findings and pointing to the per-phase notes.
+
+Belt verdict: At the current Stage 2 snapshot, none of the Phase 0–5 PDFs contradict their own phase contracts, the global docs, or the Stage 2 FRW/mechanism/joint/θ★ verdicts. Phase 0–1 still provide a clean governance and axiom foundation; Phases 2–4 are framed as bounded toy pipelines and diagnostics rather than physical predictions; Phase 5 is presented as an interface/dashboard stub rather than a new physics phase. Any future paper edits can be limited to minor clarifications and explicit cross-links, to be handled in a separate paper-edit belt.
