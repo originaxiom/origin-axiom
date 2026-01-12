@@ -4839,3 +4839,63 @@ Status and gating:
 
 - No new numerical artifacts or data contacts were created in this rung.
 - `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md` is a non-binding design note that must be revised or superseded once concrete Stage II work begins; until then, Stage I + Stage 2 remain the only canonical program layers.
+
+## 2026-01-12 — Stage 2: empirical FRW anchor belt (A1–A8, diagnostic-only)
+
+**Scope.**  
+Define and study a simple background-cosmology anchor box in terms of the Phase 4 toy FRW diagnostics, and measure how it intersects the Phase 4 FRW-viable band, the Stage 2 toy corridor, and the joint mech–FRW grid. This belt remains a Stage 2 diagnostic; no Phase 3/4/5 claims or figures are promoted.
+
+**Config and mask.**
+
+- Added `stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json` defining a small box in the toy FRW plane `(omega_lambda, age_Gyr)`, interpreted as a coarse ΛCDM-like reference region.
+- Added `stage2/frw_data_probe_analysis/src/analyze_frw_empirical_anchor_v1.py` (rung A3):
+  - Input: `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv` and the anchor config JSON.
+  - Output: `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv` with a boolean column `in_empirical_anchor_box`.
+  - On the 2048-point θ-grid the anchor selects `n_anchor = 18` points (`frac ≈ 0.0088`).
+
+**Joint mech–FRW intersections and kernel.**
+
+- Added `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_intersections_v1.py` (rung A4):
+  - Input: joint grid `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv` and the anchor mask table.
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_intersections_v1.csv`.
+  - Key counts (n out of 2048): `FRW_VIABLE = 1016`, `TOY_CORRIDOR = 1186`, `EMPIRICAL_ANCHOR = 18`, and `FRW_VIABLE ∧ TOY_CORRIDOR ∧ ANCHOR = 18`. Every anchored θ-point lies in both the FRW-viable band and the toy corridor.
+- Added `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_kernel_v1.py` (rung A5b):
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_kernel_v1.csv`.
+  - The 18-point anchor kernel splits into two contiguous θ-segments:
+    - Segment 1: `theta_index[205–213]`, `n = 9`, `theta ∈ [0.6289, 0.6535]`.
+    - Segment 2: `theta_index[1078–1086]`, `n = 9`, `theta ∈ [3.3073, 3.3318]`.
+  - The distinguished `theta_star ≈ 2.178458` lies in neither segment; distances to `theta_star` are of order unity in θ.
+
+**Profiles and sensitivity.**
+
+- Added `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_profiles_v1.py` (rung A6):
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_profiles_v1.csv`.
+  - The anchor kernel (and its FRW-viable / corridor intersections) has:
+    - `omega_lambda` tightly clustered around ≈ 0.69 with width ≈ 0.02.
+    - `age_Gyr` tightly clustered around ≈ 13.5 Gyr with width ≈ 0.05 Gyr.
+    - Smooth, interior mechanism amplitudes (`mech_baseline_*`, `mech_binding_*`) not pinned to any hard numeric bounds.
+- Added `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_sensitivity_v1.py` (rung A7):
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_sensitivity_v1.csv`.
+  - Shrinking the anchor box half-widths by a factor 0.5 leaves a compact 8-point core (`n_box∧corridor∧FRW = 8`).
+  - Baseline box (scale 1.0) gives the 18-point kernel (`n_box∧corridor∧FRW = 18`).
+  - Widening the box by 1.5× yields 26 FRW-viable points in the box, of which 24 lie in the corridor (`n_box∧corridor∧FRW = 24`).
+  - The anchor kernel is therefore small but robust: it neither collapses to zero under modest tightening nor expands to fill the corridor under modest loosening.
+
+**Docs and figure.**
+
+- Added `stage2/joint_mech_frw_analysis/docs/STAGE2_EMPIRICAL_ANCHOR_OVERVIEW_v1.md` (rung A8) summarising:
+  - the anchor design and config,
+  - the intersection counts,
+  - the θ-segment structure of the kernel,
+  - the FRW/mechanism profiles,
+  - and the sensitivity study, with explicit Stage 2 gating.
+- Added a simple diagnostic figure `stage2/joint_mech_frw_analysis/outputs/figures/stage2_joint_mech_frw_anchor_overview_v1.png` showing the anchor kernel and its position relative to the broader FRW and corridor structure (for internal use in Stage 2).
+
+**Verdict and gating.**
+
+- On the current Phase 3 mechanism and Phase 4 toy FRW setup, there exists a small but numerically stable intersection between:
+  - the toy θ-corridor,
+  - the FRW-viable band, and
+  - a coarse background-cosmology anchor box in `(omega_lambda, age_Gyr)`.
+- This intersection appears as two short θ-bands that do not contain `theta_star`. The kernel lives in a narrow region of `omega_lambda`, `age_Gyr`, and mechanism amplitudes, and is stable under moderate rescaling of the anchor box.
+- All of these results remain **Stage 2 diagnostics only**. No new claims or figures are promoted into Phase 3, Phase 4, or Phase 5. Any future use of this kernel in Phase text must pass through a separate promotion gate and be logged explicitly.
