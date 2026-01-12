@@ -4622,3 +4622,39 @@ These layout notes:
 - and document the intended hierarchy so future additions can follow the same pattern.
 
 This rung is documentation-structure only and does not modify any numerical pipeline, paper content, or phase claims.
+
+## 2026-01-12 — Scripts rung: unify paper build entrypoints
+
+Scope: Simplify and standardise paper build entrypoints so that per-phase builders and the global builder all produce and sync the same canonical artifacts, both phase-local and at the repo root.
+
+Changes:
+
+- Retired the old Phase 0–2 helper semantics of `scripts/build_papers.sh` and turned it into a thin wrapper around:
+  - `scripts/build_paper.sh`
+  which runs all phase gates (0–5) and then calls `scripts/build_all_papers.sh` to aggregate artifacts.
+
+- Added per-phase builders:
+  - `scripts/build_phase0_paper.sh`
+  - `scripts/build_phase1_paper.sh`
+  - `scripts/build_phase2_paper.sh`
+  - `scripts/build_phase3_paper.sh`
+  - `scripts/build_phase4_paper.sh`
+  - (Phase 5 builder existed and was updated, see below.)
+
+  Each per-phase builder:
+  - runs the corresponding phase gate (`scripts/phaseN_gate.sh`), and
+  - ensures the canonical artifact lives at:
+    - `phaseN/artifacts/origin-axiom-phaseN.pdf` (phase-local), and
+    - `artifacts/origin-axiom-phaseN.pdf` (top-level aggregate).
+
+- Updated `scripts/build_phase5_paper.sh` to adopt the same convention:
+  - after running the Phase 5 gate and building `phase5/paper/main.tex`,
+  - it now syncs `phase5/artifacts/origin-axiom-phase5.pdf` into `artifacts/origin-axiom-phase5.pdf`.
+
+Effect:
+
+- There is now a clean separation between:
+  - per-phase builders (`build_phaseN_paper.sh`), and
+  - the global builder (`build_paper.sh` / `build_papers.sh`),
+- and any of these commands produce consistent artifacts in both the phase-local and repo-root locations.
+- No claims, numerical content, or LaTeX sources were modified; this rung is build-script and reproducibility hygiene only.

@@ -1,23 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "${REPO_ROOT}"
 
-build_one () {
-  local dir="$1"
-  local target="$2"
-  echo "==> Building: ${dir}/${target}"
-  ( cd "$root/$dir" && latexmk -pdf -interaction=nonstopmode -halt-on-error "$target" >/dev/null )
-  echo "OK: ${dir}/${target}"
-}
-
-build_one "phase0/paper" "main.tex"
-build_one "phase0/paper" "appendices.tex"
-build_one "phase1/paper" "main.tex"
-build_one "phase2/paper" "main.tex"
-
+echo "[build_papers] DEPRECATED helper; delegating to scripts/build_paper.sh"
+echo "[build_papers] This now runs all phase gates (0–5) and aggregates artifacts."
 echo
-echo "Done. PDFs should exist at:"
-echo "  phase0/paper/main.pdf"
-echo "  phase0/paper/appendices.pdf"
-echo "  phase1/paper/main.pdf"
+
+exec scripts/build_paper.sh
