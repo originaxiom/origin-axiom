@@ -4816,3 +4816,26 @@ Status and gating:
 
 - This rung is docs-only: no phase paper, numerical artifact, or Stage 2 table was changed.
 - `docs/STAGE1_STATUS_JAN2026_v1.md` is considered non-binding but canonical as a descriptive snapshot of the repo as of this date; future snapshots should create new dated status docs rather than rewriting this one.
+
+## 2026-01-12 — Stage II external cosmology hosts design note (Belt I, rung I1)
+
+Scope: Record a conceptual design for a future Stage II layer that would interface the θ-dependent vacuum and mechanism story with external cosmology hosts (CLASS/CCL/CCL-like libraries, Cobaya/CosmoSIS-style frameworks) under strict Phase 0 governance. This rung is documentation-only; no Stage II code or data contact is introduced.
+
+Work:
+
+- Added `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md` describing:
+  - the relationship between Stage I + Stage 2 and a potential Stage II layer,
+  - Stage II scope and non-claims (diagnostic environment, not a claim engine),
+  - a layered architecture (θ and mechanism inputs, θ→cosmo-parameter mapping, host layer, optional data/likelihood layer),
+  - gating and promotion criteria for any Stage II outputs that might later influence Phase 4/5 or a future dedicated phase,
+  - an initial rung sketch (background host alignment, extended empirical anchors, host-computed linear observables, and tightly gated prototype data contact).
+
+Interpretation:
+
+- Stage II is now explicitly defined as *out-of-band* relative to Stage I: it may read Phase 3/4 artifacts and external codes but cannot silently update Stage 0–5 claims.
+- The existing Stage 2 empirical background anchor belt serves as a baseline for any future Stage II anchor work: richer anchors or host-based diagnostics should be compared back to the current small, two-island kernel on the FRW toy grid.
+
+Status and gating:
+
+- No new numerical artifacts or data contacts were created in this rung.
+- `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md` is a non-binding design note that must be revised or superseded once concrete Stage II work begins; until then, Stage I + Stage 2 remain the only canonical program layers.
