@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "empirical_anchor_box_v1",
+    "status": "schematic_background_anchor",
+    "binding": false,
+    "note": "This configuration defines a minimal background-level empirical anchor for diagnostic use only. It is not a likelihood, fit, or parameter inference."
+  },
+
+  "omega_lambda": {
+    "center": 0.69,
+    "half_width": 0.03,
+    "units": "dimensionless",
+    "interpretation": "Effective vacuum energy fraction derived from the Phase 4 FRW toy background. Not assumed identical to the ΛCDM ΩΛ parameter.",
+    "source_note": "Broad, background-level observational guidance; schematic anchor only."
+  },
+
+  "age_Gyr": {
+    "center": 13.8,
+    "half_width": 0.4,
+    "units": "Gyr",
+    "interpretation": "Cosmic age derived from FRW background integration.",
+    "source_note": "Broad age constraint used as a background sanity anchor, not a precision fit."
+  }
+}

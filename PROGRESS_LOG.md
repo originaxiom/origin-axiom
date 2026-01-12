@@ -4658,3 +4658,40 @@ Effect:
   - the global builder (`build_paper.sh` / `build_papers.sh`),
 - and any of these commands produce consistent artifacts in both the phase-local and repo-root locations.
 - No claims, numerical content, or LaTeX sources were modified; this rung is build-script and reproducibility hygiene only.
+
+## 2026-01-12 — Stage 2: empirical FRW anchor (background box A1–A4)
+
+Scope: Introduced and executed a Stage 2 empirical FRW anchor rung that tests whether the current Phase 3 mechanism + Phase 4 FRW toy mapping admits any nontrivial overlap with a simple background-cosmology box in (\omega_\Lambda, t_0) on the existing 2048-point θ grid, without touching external pipelines or full data likelihoods.
+
+Work:
+
+- Added `stage2/frw_data_probe_analysis/src/analyze_frw_empirical_anchor_v1.py` and `stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json` to define a small background-cosmology box in (\omega_\Lambda, t_0) and compute a boolean empirical-anchor mask `stage2/frw_empirical_anchor_mask_v1.csv` on the Phase 4 FRW toy grid (`phase4_F1_frw_shape_probe_mask.csv`).
+- Ran the empirical-anchor script and confirmed that the anchor is highly selective but non-empty on the current grid: 18 out of 2048 θ points fall inside the empirical box, i.e. `EMPIRICAL_ANCHOR` has n=18, frac≈0.0088.
+- Updated the joint mech–FRW anchor-intersections script (`stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_intersections_v1.py`) to:
+  - resolve the repo root via `parents[3]`,
+  - use the existing `in_toy_corridor` mask from the joint grid instead of inventing new corridor logic,
+  - robustly detect the empirical anchor mask column in the anchor table rather than assuming a specific name.
+- Ran the anchor-intersections script to compute set sizes and fractions for:
+  - ALL_GRID, FRW_VIABLE, TOY_CORRIDOR, EMPIRICAL_ANCHOR,
+  - FRW_VIABLE_AND_ANCHOR, CORRIDOR_AND_ANCHOR, CORRIDOR_AND_VIABLE_AND_ANCHOR,
+  and stored the results in `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_intersections_v1.csv`.
+
+Key results:
+
+- On the current 2048-point θ grid:
+  - FRW_VIABLE has n=1016 (≈ 49.6% of the grid).
+  - TOY_CORRIDOR has n=1186 (≈ 57.9% of the grid).
+  - EMPIRICAL_ANCHOR has n=18 (≈ 0.88% of the grid).
+- All 18 empirical-anchor points satisfy both FRW viability and toy-corridor membership:
+  - FRW_VIABLE_AND_ANCHOR: n=18, frac≈0.0088.
+  - CORRIDOR_AND_ANCHOR: n=18, frac≈0.0088.
+  - CORRIDOR_AND_VIABLE_AND_ANCHOR: n=18, frac≈0.0088.
+- Therefore the empirical anchor set is a strict subset of `FRW_VIABLE ∧ TOY_CORRIDOR` and identifies a small kernel of θ values where the Phase 3 mechanism, Phase 4 FRW toy viability, and the background-cosmology box all agree.
+
+Status and gating:
+
+- This empirical-anchor rung is recorded as a Stage 2 diagnostic only:
+  - it introduces no new Phase 4 or Phase 5 claims,
+  - it does not promote any specific θ or corridor as “observationally selected,”
+  - it does not involve external cosmology codes or full Planck/BAO/SN likelihoods.
+- Any future promotion of these results into Phase 4/5 text or figures will be handled via the existing FRW promotion design gates (`phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`, Stage 2 promotion design docs) and will remain constrained by the Phase 0 contract (scope, non-claims, reproducibility).
