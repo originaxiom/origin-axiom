@@ -1,0 +1,3 @@
+segment_id,theta_index_start,theta_index_end,n_theta_segment,theta_min,theta_max,contains_theta_star,min_theta_star_distance,theta_at_min_distance
+1,205,213,9,0.6289321230331129,0.6534758156392831,False,1.524982184360717,0.6534758156392831
+2,1078,1086,9,3.3072625786814425,3.3318062712876126,False,1.1288045786814425,3.3072625786814425

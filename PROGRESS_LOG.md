@@ -4695,3 +4695,54 @@ Status and gating:
   - it does not promote any specific θ or corridor as “observationally selected,”
   - it does not involve external cosmology codes or full Planck/BAO/SN likelihoods.
 - Any future promotion of these results into Phase 4/5 text or figures will be handled via the existing FRW promotion design gates (`phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md`, Stage 2 promotion design docs) and will remain constrained by the Phase 0 contract (scope, non-claims, reproducibility).
+
+## 2026-01-12 — Stage 2: empirical anchor kernel characterization (A5b)
+
+Scope: Characterise the internal structure of the empirical FRW anchor kernel on the joint mech–FRW grid, i.e. points that satisfy FRW viability, the Stage 2 toy corridor, and the empirical background-cosmology box simultaneously. This rung is diagnostic-only and does not promote any θ-region to phase-level claims.
+
+Work:
+
+- Added `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_kernel_v1.py`, a Stage 2 script that:
+  - reads the joint grid `stage2_joint_theta_grid_v1.csv` and the empirical anchor mask `stage2_frw_empirical_anchor_mask_v1.csv`,
+  - detects the empirical-anchor mask column robustly (reusing the same logic as the intersections script),
+  - defines the kernel mask as FRW_VIABLE ∧ IN_TOY_CORRIDOR ∧ IN_EMPIRICAL_ANCHOR,
+  - computes distances |θ − θ★| to the reference θ★ ≈ 2.178458,
+  - groups the kernel points into contiguous segments in `theta_index`,
+  - writes a segment-level summary table `stage2_joint_mech_frw_anchor_kernel_v1.csv` and prints a human-readable summary.
+
+- Ran the kernel analysis script:
+  - `oa && python stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_kernel_v1.py`
+
+Key numerical results:
+
+- Total grid size: 2048 θ points (unchanged).
+- Kernel size (FRW_VIABLE ∧ TOY_CORRIDOR ∧ EMPIRICAL_ANCHOR): n = 18.
+- Number of contiguous θ-index segments in the kernel: 2.
+  - Segment 1:
+    - theta_index[205–213], n = 9,
+    - θ ∈ [0.628932, 0.653476],
+    - contains_theta_star = False,
+    - minimum |θ − θ★| ≈ 1.525 × 10^0 at θ ≈ 0.653476.
+  - Segment 2:
+    - theta_index[1078–1086], n = 9,
+    - θ ∈ [3.307263, 3.331806],
+    - contains_theta_star = False,
+    - minimum |θ − θ★| ≈ 1.129 × 10^0 at θ ≈ 3.307263.
+
+Interpretation:
+
+- The empirical FRW anchor kernel is:
+  - small (18/2048 ≈ 0.9% of the θ grid),
+  - structured into two disjoint, contiguous islands in θ,
+  - clearly offset from θ★ (neither segment contains θ★, and the closest points lie at |θ − θ★| ≈ O(1)).
+- Combined with the A4 intersections rung, this reinforces that:
+  - the axiom + mechanism + FRW toy mapping is not trivially ruled out by the current background-cosmology box (kernel is non-empty),
+  - but the present empirical anchor does **not** single out θ★ in any obvious way at this diagnostic level.
+- This rung records the basic geometry of the anchor kernel for future reference (e.g. if later FRW/data refinements or external cosmology hosts are added) without changing any phase claims.
+
+Status and gating:
+
+- This A5b kernel analysis remains a Stage 2 diagnostic only:
+  - it introduces no new claims in Phase 3, Phase 4, or Phase 5,
+  - it does not alter the definition of the empirical box or the FRW toy pipeline,
+  - it is intended as a geometric summary of the existing anchor kernel for later comparison.
