@@ -124,3 +124,38 @@ This is precisely the regime where further questions about fine-tuning, measure 
   - Phase 4 text or figures, or
   - Phase 5 interface summaries,
   will require a separate, explicitly gated promotion rung (e.g. via `phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md` and Stage 2 promotion design docs) and will remain subject to the Phase 0 contract (scope, non-claims, and reproducibility requirements).
+
+---
+
+### A5b–A6: kernel geometry and FRW overview (diagnostic only)
+
+The empirical FRW anchor kernel was characterised on the joint mech–FRW grid using:
+
+- `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_kernel_v1.py`
+- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_kernel_v1.csv`
+
+At this rung the kernel is defined as the intersection of
+
+- FRW_viable,
+- the Stage 2 toy corridor, and
+- the empirical background-cosmology box,
+
+and contains 18 out of 2048 θ samples. These 18 points form two disjoint, contiguous segments in θ (each of length 9), neither of which contains θ★ ≈ 2.178458; the closest kernel points lie at |θ − θ★| ≈ O(1). This records that the current empirical anchor bites nontrivially but does not “snap” the system onto θ★ at this diagnostic level.
+
+A companion overview figure in FRW space is produced by:
+
+- `stage2/joint_mech_frw_analysis/src/plot_joint_mech_frw_anchor_overview_v1.py`
+- output: `stage2/joint_mech_frw_analysis/outputs/figures/stage2_joint_mech_frw_anchor_overview_v1.png`
+
+The plot shows:
+
+- the full FRW grid as a smooth curve in `(omega_lambda, age_Gyr)`,
+- the FRW_viable ∧ corridor band as a contiguous mid-range segment of this curve,
+- the empirical anchor kernel as a small cluster of points nested inside that band.
+
+Together, the kernel table and overview figure confirm that:
+
+- the empirical background box yields a small, structured, non-empty kernel inside the FRW-viable corridor, and
+- there is no visible anomaly or special feature at θ★ in this FRW projection.
+
+All of these artifacts remain Stage 2 diagnostics only; they introduce no new phase-level claims and can later be cited or plotted under an explicit promotion gate if Phase 4/5 adopts an Option-A “background anchor” summary.

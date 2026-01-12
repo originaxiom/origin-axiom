@@ -78,3 +78,9 @@ Alignment memos (Phase 2–5): For phase-local alignment between scope/claims/co
 - `phase5/PHASE5_ALIGNMENT_v1.md`
 
 These memos are descriptive snapshots and do not introduce new claims; they record how the current papers and Stage 2 belts line up with each phase’s contracts and reproducibility docs.
+
+---
+
+### Stage 2 empirical background anchor (v1, diagnostic only)
+
+Stage 2 now includes an empirical background-cosmology anchor belt that imposes a simple \((\omega_\Lambda, \text{age}_{\mathrm{Gyr}})\) box on the Phase 4 FRW toy grid. The corresponding scripts and tables live under `stage2/frw_data_probe_analysis/` and `stage2/joint_mech_frw_analysis/`, with a belt-level summary in `stage2/docs/STAGE2_EMPIRICAL_ANCHOR_SUMMARY_v1.md`. In the current snapshot this anchor yields a small, non-empty kernel of 18 θ points inside the FRW-viable corridor, organised into two short contiguous segments, with no special preference for θ★. All empirical-anchor artifacts are treated as Stage 2 diagnostics only and are not yet promoted into Phase 4/5 claims or figures.

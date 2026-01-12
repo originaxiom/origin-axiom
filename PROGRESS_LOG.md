@@ -4746,3 +4746,51 @@ Status and gating:
   - it introduces no new claims in Phase 3, Phase 4, or Phase 5,
   - it does not alter the definition of the empirical box or the FRW toy pipeline,
   - it is intended as a geometric summary of the existing anchor kernel for later comparison.
+
+## 2026-01-12 — Stage 2: joint mech–FRW empirical anchor overview figure (A6)
+
+Scope: Produce a Stage 2 diagnostic figure in (omega_lambda, age_Gyr) space that visualises how the empirical FRW anchor kernel sits inside the Phase 4 FRW-viable corridor and the full FRW grid. This rung is purely visual / diagnostic and does not change any phase claims.
+
+Work:
+
+- Added `stage2/joint_mech_frw_analysis/src/plot_joint_mech_frw_anchor_overview_v1.py`, which:
+  - reads the joint mech–FRW grid `stage2_joint_theta_grid_v1.csv` and the empirical anchor mask `stage2_frw_empirical_anchor_mask_v1.csv`,
+  - detects the empirical-anchor mask column using the same robust logic as the A4/A5 scripts,
+  - defines masks for:
+    - all FRW grid points,
+    - FRW_viable ∧ in_toy_corridor,
+    - the empirical anchor kernel (FRW_VIABLE ∧ IN_TOY_CORRIDOR ∧ IN_ANCHOR),
+  - produces a scatter plot in (omega_lambda, age_Gyr) with:
+    - faint points for the full FRW grid,
+    - highlighted points for FRW_viable ∧ corridor,
+    - star markers for the 18-point empirical anchor kernel,
+  - writes the figure to `stage2/joint_mech_frw_analysis/outputs/figures/stage2_joint_mech_frw_anchor_overview_v1.png`,
+  - prints a short summary (grid sizes and counts for the masks).
+
+- Ran the plotting script:
+  - `oa && python stage2/joint_mech_frw_analysis/src/plot_joint_mech_frw_anchor_overview_v1.py`
+
+Qualitative outcome (visual):
+
+- The full FRW grid traces a smooth curve in (omega_lambda, age_Gyr) space.
+- The FRW_viable ∧ corridor set forms a contiguous mid-range band along this curve.
+- The empirical anchor kernel appears as a small, compact cluster of 18 points embedded inside this band:
+  - it occupies a narrow interval in both omega_lambda and age_Gyr,
+  - it does not extend to the extremes of the FRW grid,
+  - it visually matches the two-segment structure previously identified in θ-space.
+
+Interpretation:
+
+- The figure confirms that the empirical FRW anchor kernel is:
+  - non-empty but small,
+  - structurally nested inside the broader FRW-viable corridor,
+  - and not associated with any obvious anomaly or special feature in the (omega_lambda, age_Gyr) projection.
+- This supports the A4/A5b numerical conclusions:
+  - the current empirical box bites nontrivially,
+  - but it does not “snap” the system to θ★ or to any visibly exotic FRW subset at this diagnostic level.
+
+Status and gating:
+
+- This figure remains a Stage 2 diagnostic artifact:
+  - no new claims in Phase 3/4/5,
+  - safe to reuse later as an illustrative panel if Phase 4/5 decides to promote an Option-A style “background anchor” summary.

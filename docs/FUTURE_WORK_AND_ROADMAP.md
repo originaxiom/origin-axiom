@@ -221,3 +221,14 @@ markers and which have been cleaned up or redirected. For details, see:
 Future rungs may move or rephrase additional TODO/TBD paragraphs from phase
 docs into this roadmap, but the canonical place to look for planned work and
 open questions is here.
+
+---
+
+### Stage 2 / Stage II – empirical anchors and external cosmology hosts
+
+Looking ahead, the current empirical background-cosmology anchor belt serves as a baseline for more ambitious data-facing work. Future rungs may:
+
+- refine or vary the background box (and related probes) as Phase 4 FRW diagnostics mature, while keeping anchor kernels clearly marked as Stage 2 diagnostics, and
+- explore gated “Stage II” pipelines that interface the θ-dependent vacuum story with external cosmology hosts (e.g. CLASS/CCL or Cobaya/CosmoSIS-style frameworks), treating those codes as downstream physics engines rather than sources of new claims.
+
+Any such extensions will require explicit Phase 0–style gates, reproducibility checks, and promotion criteria before empirical anchors or host-based diagnostics can influence Phase 4/5 claims or public-facing narratives.
