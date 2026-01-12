@@ -4794,3 +4794,25 @@ Status and gating:
 - This figure remains a Stage 2 diagnostic artifact:
   - no new claims in Phase 3/4/5,
   - safe to reuse later as an illustrative panel if Phase 4/5 decides to promote an Option-A style “background anchor” summary.
+
+## 2026-01-12 — Stage I + Stage 2 status snapshot (Belt H, rung H1)
+
+Scope: Add a single high-level status document that captures the Stage I (Phase 0–5) and Stage 2 diagnostic belt situation as of January 2026 in narrative form, for future-me and external readers. This rung is documentation-only; it introduces no new numerical results or claims.
+
+Work:
+
+- Created `docs/STAGE1_STATUS_JAN2026_v1.md` as a narrative snapshot that:
+  - summarises the roles and current status of Phase 0–5 (governance, toy ensembles, Phase 2 mode-sum + bounded FRW viability, Phase 3 mechanism module, Phase 4 FRW toy diagnostics, Phase 5 interface/sanity layer),
+  - enumerates the Stage 2 belts (FRW corridor, mech/measure, joint mech–FRW, FRW data-probe, doc/repo audit, empirical background anchor) and records their main positive structures and structured negative results,
+  - states explicitly what we now know about θ★ inside the current sandbox (inside the viable band but not specially picked out by the current diagnostics) and what we do not know yet (no canonical θ-measure, no strong empirical locking, no full data contact),
+  - sketches three future directions: (1) external-facing snapshot/communication, (2) a gated Stage II layer interfacing with external cosmology hosts and real data, and (3) mechanism-side refinements within the existing Phase 3 + Phase 4 toy universe.
+
+Interpretation:
+
+- This status doc is a companion to `docs/STATE_OF_REPO.md`, `docs/PHASES.md`, and the Stage 2 overview docs. It is meant to be read by human auditors (future-me or collaborators), giving a single place where the current verdict on the axiom, θ★, and the FRW toy lab is explained in plain language without over-claiming.
+- The document locks in the idea that the current Stage I + Stage 2 snapshot is already scientifically meaningful as a worked-out, reproducible counterexample to several naive hopes (canonical θ-measure, sharp θ★ locking, immediate data corridor), while keeping the door open to gated, more ambitious extensions.
+
+Status and gating:
+
+- This rung is docs-only: no phase paper, numerical artifact, or Stage 2 table was changed.
+- `docs/STAGE1_STATUS_JAN2026_v1.md` is considered non-binding but canonical as a descriptive snapshot of the repo as of this date; future snapshots should create new dated status docs rather than rewriting this one.
