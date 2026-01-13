@@ -358,3 +358,13 @@ None of these are enacted in this document; they are targets for future rungs.
 ## Status and promotion
 
 Stage 2 lives strictly downstream of Phase 3 and Phase 4 artifacts and is non-canonical. No Stage 2 result is currently promoted into any Phase paper or the global claims ledger. For the up-to-date gate and status table, see `docs/GATES_AND_STATUS.md`.
+
+---
+
+### Empirical FRW anchor belt (A1–A8, diagnostic-only)
+
+This belt introduces a simple background-cosmology “anchor box” in the toy FRW plane \`(omega_lambda, age_Gyr)\` and measures how it intersects the Phase 4 FRW-viable band, the Stage 2 toy corridor, and the joint mech–FRW grid. The anchor is defined by a small rectangular region around ΛCDM-like values in \`(omega_lambda, age_Gyr)\`, specified in \`stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json\` and applied to the Phase 4 FRW shape-probe table.
+
+On the 2048-point θ-grid this anchor selects 18 θ-points (\`~0.9%\` of the grid). All 18 lie inside both the FRW-viable band and the Stage 2 toy corridor, so the anchored set is equal to \`FRW_VIABLE ∧ TOY_CORRIDOR ∧ ANCHOR\`. In θ-space these points form two short contiguous segments (each of length 9), which sit well inside the broad corridor but do not contain the distinguished \`theta_star ≈ 2.178458\`. The corresponding FRW quantities (\`omega_lambda\`, \`age_Gyr\`) and mechanism amplitudes (\`mech_baseline_*\`, \`mech_binding_*\`) are tightly clustered and interior to their allowed ranges, and the intersection remains non-empty under mild tightening or loosening of the anchor box.
+
+By construction this is a **Stage 2 diagnostic only**: it is a controlled background-only contact with empirical scales, not a data fit or a promoted Phase 4/5 claim. Any future use of the anchor kernel in Phase text (for example as a “empirically flavoured corridor slice”) must pass through a separate promotion gate and be logged explicitly in \`PROGRESS_LOG.md\` and the Phase 4/5 alignment docs.
