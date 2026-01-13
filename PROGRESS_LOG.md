@@ -5360,3 +5360,282 @@ This rung bundles the FRW “empirical anchor” work (A1–A8) and the first ex
     and FRW toy. Before any promotion into Phase text, the FRW toy vs host
     mismatch must be addressed and a dedicated promotion gate defined.
 
+
+## 2026-01-13 – Stage 2: FRW empirical anchor + external FRW host (A-ladder)
+
+- Phase 4 FRW toy equations + host mapping:
+  - Added `phase4/docs/PHASE4_FRW_TOY_EQUATIONS_v1.md` documenting:
+    - how `phase4_F1_frw_shape_probe_mask.csv` encodes \(\theta\), `E_vac`, `omega_lambda`, `age_Gyr`, and FRW viability flags;
+    - the toy flat-FRW background equations used to interpret `omega_lambda` and `age_Gyr`;
+    - the simple analytic flat-FRW “host” model used in Stage 2 for age cross-checks.
+  - Updated `phase4/PHASE4_ALIGNMENT_v1.md` with a short pointer section linking:
+    - the FRW toy equations doc;
+    - the Stage 2 empirical-anchor belt (`stage2/frw_data_probe_analysis/`, `stage2/joint_mech_frw_analysis/`);
+    - the external FRW host belt (`stage2/external_frw_host/`);
+    and reiterated that all of these remain Stage 2 diagnostics, not Phase 4 claims.
+
+- Stage 2 FRW empirical anchor box + kernel (A1–A7):
+  - Introduced a simple empirical anchor box in \((\Omega_\Lambda, t_0)\)-space via
+    `stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json`, centered near
+    \(\Omega_\Lambda \approx 0.69\) and \(t_0 \approx 13.5\,\mathrm{Gyr}\) with explicit half-widths.
+  - Ran `stage2/frw_data_probe_analysis/src/analyze_frw_empirical_anchor_v1.py` to build
+    `stage2_frw_empirical_anchor_mask_v1.csv` with Boolean `in_empirical_anchor_box` on the
+    Phase 4 FRW toy grid (2048 θ-points); found 18 θ values inside the anchor
+    (\(\sim 0.88\%\) of the grid).
+  - Used the joint mech–FRW grid
+    `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv` and
+    `analyze_joint_mech_frw_anchor_intersections_v1.py` to quantify intersections:
+    - `FRW_VIABLE`: 1016 / 2048 (≈ 0.496 of grid),
+    - `TOY_CORRIDOR`: 1186 / 2048 (≈ 0.579 of grid),
+    - `EMPIRICAL_ANCHOR`: 18 / 2048 (≈ 0.0088 of grid),
+    - `FRW_VIABLE ∧ ANCHOR`: 18 / 2048 (all anchor points FRW-viable),
+    - `CORRIDOR ∧ ANCHOR`: 18 / 2048 (all anchor points in the toy corridor),
+    - `CORRIDOR ∧ FRW_VIABLE ∧ ANCHOR`: same 18-point kernel.
+  - Resolved the kernel into contiguous θ-index segments with
+    `stage2_joint_mech_frw_anchor_kernel_v1.csv`: found two segments of length 9 each; both lie
+    within the toy corridor and FRW-viable set but do **not** currently contain \(\theta^\star\).
+  - Generated a visual overview of the anchor sets and kernel:
+    `stage2/joint_mech_frw_analysis/outputs/figures/stage2_joint_mech_frw_anchor_overview_v1.png`.
+
+- Profiles, sensitivity, and mechanism contrast over the anchor (A6–A8):
+  - Ran `analyze_joint_mech_frw_anchor_profiles_v1.py` to produce
+    `stage2_joint_mech_frw_anchor_profiles_v1.csv`, summarizing
+    \(E_\text{vac}\), `omega_lambda`, `age_Gyr`, and the Phase 3 mechanism measures over
+    `ALL_GRID`, `FRW_VIABLE`, `TOY_CORRIDOR`, `EMPIRICAL_ANCHOR`, and
+    `CORRIDOR ∧ FRW_VIABLE ∧ ANCHOR`. The anchor kernel shows:
+    - tightly clustered `omega_lambda` and `age_Gyr` near the anchor center;
+    - mechanism measures living in a narrower band than on the full grid, but without a
+      clean, sharp “mechanism signature” yet.
+  - Ran `analyze_joint_mech_frw_anchor_sensitivity_v1.py` to scale the anchor half-widths by
+    factors \(s = 0.5, 1.0, 1.5\) and record how the kernel grows/shrinks:
+    - \(s = 0.5\): 8 points (all FRW-viable and in the corridor),
+    - \(s = 1.0\): 18 points (baseline kernel),
+    - \(s = 1.5\): 26 points in the box, 24 in `FRW_VIABLE ∧ CORRIDOR`.
+    This confirms the kernel is thin but not a single isolated needle.
+  - Ran `analyze_joint_mech_frw_anchor_mech_contrast_v1.py` to compare mechanism measures across
+    `ALL_GRID`, `FRW_VIABLE`, `CORRIDOR ∧ FRW_VIABLE`, `CORRIDOR ∧ FRW_VIABLE ∧ ANCHOR`, and
+    `CORRIDOR ∧ FRW_VIABLE ∧ ¬ANCHOR`; anchor points lie in a relatively tight mechanism band,
+    but contrast with non-anchor corridor points is still modest (diagnostic, non-claim).
+
+- External flat-FRW host + age cross-check (X1–X2):
+  - Implemented a simple external flat-FRW host belt in
+    `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`, treating the Phase 4
+    `omega_lambda` column as a flat \(\Omega_\Lambda\) and computing a dimensionless FRW age
+    \(t_0^{\text{(host)}}(\Omega_\Lambda)\) via numeric integration, then calibrating a global
+    Gyr scale factor from the grid.
+  - Wrote the host–toy comparison table
+    `stage2_external_frw_rung1_age_crosscheck_v1.csv` and summarized contrasts with
+    `analyze_external_frw_age_contrast_v1.py` into
+    `stage2_external_frw_rung2_age_contrast_v1.csv`. Diagnostics:
+    - on `ALL_GRID`: mean Δage ≈ −8.4 Gyr, mean relative |Δage|/age_toy ≈ 0.53;
+    - on `FRW_VIABLE`: mean Δage ≈ −2.5 Gyr, mean relative |Δage|/age_toy ≈ 0.18;
+    - on `CORRIDOR ∧ FRW_VIABLE`: mean Δage ≈ −11.9 Gyr, mean relative |Δage|/age_toy ≈ 0.84;
+    - on `CORRIDOR ∧ FRW_VIABLE ∧ ANCHOR`: mean Δage ≈ −10.9 Gyr, mean relative
+      |Δage|/age_toy ≈ 0.81.
+    This confirms the Phase 4 FRW toy age is only loosely calibrated against a standard
+    flat-FRW host, especially inside the toy corridor and empirical anchor kernel; the belt
+    is treated as a prompt for future refinement, not as a contradiction claim.
+
+- Stage 2 status documentation:
+  - Added `stage2/docs/STAGE2_FRW_EMPIRICAL_ANCHOR_STATUS_v1.md` as a central status note for
+    this belt, collecting:
+    - the anchor-box definition and mask;
+    - kernel structure, profiles, sensitivity, and mechanism contrast;
+    - external host age cross-checks;
+    - and explicit reminders that all of these are Stage 2 diagnostics (no new Phase-level
+      claims or “we predict ΛCDM” statements).
+
+### 2026-01-13 – Stage 2 external FRW host: age consistency vs toy corridor (Rungs X1–X3)
+
+- Added a small Stage 2 **external FRW host** belt to compare the Phase 4 FRW toy
+  ages against a simple analytic flat-FRW background:
+  - `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py` (Rung X1) builds
+    an age cross-check table
+    (`stage2_external_frw_rung1_age_crosscheck_v1.csv`), computing
+    `age_Gyr_host` and `age_Gyr_rel_diff` for each θ on the joint grid.
+  - `stage2/external_frw_host/src/analyze_external_frw_age_contrast_v1.py` (Rung X2)
+    summarises the age differences across
+    `ALL_GRID`, `FRW_VIABLE`, `CORRIDOR_AND_VIABLE`, and
+    `CORRIDOR_AND_VIABLE_AND_ANCHOR`.
+
+- Implemented `stage2/external_frw_host/src/flag_age_consistent_subset_v1.py` (Rung X3)
+  to define an **age-consistency mask**:
+  - Join the joint mech–FRW grid, the external host age table, and the empirical
+    anchor mask on `(theta_index, theta)`.
+  - Define `age_rel_err_abs = |age_Gyr_rel_diff|` and
+    `age_consistent_rel_le_20pct` for points with ≤20% relative age mismatch.
+  - Summary for the current repo state:
+    - Total grid: 2048 θ-points.
+    - Age-consistent (≤20%):
+      - `ALL_GRID`: 778 points (~0.38 of grid).
+      - `FRW_VIABLE`: 778 points (~0.38 of grid).
+      - `CORRIDOR_AND_VIABLE`: 0 points.
+      - `CORRIDOR_AND_VIABLE_AND_ANCHOR`: 0 points.
+
+- Interpretation (recorded in
+  `stage2/external_frw_host/docs/STAGE2_EXTERNAL_FRW_HOST_STATUS_v1.md`):
+  - There is a substantial band of FRW-viable θ-points whose toy ages agree with
+    a simple flat-FRW host at the 20% level.
+  - The current toy corridor and its empirical anchor kernel sit entirely
+    **outside** this age-consistent band: they are FRW-viable but live in a
+    region where the Phase 4 toy ages are systematically mis-calibrated relative
+    to the host.
+  - For future work, the existing corridor should be treated as a historical
+    toy corridor with known age-calibration issues; any future
+    “host-calibrated corridor” should be introduced as a separate, explicitly
+    defined Stage 2 object.
+
+
+## 2026-01-13 – Stage 2 / External FRW host (rungs X2–X3, Hx1): age-consistent host corridor vs empirical anchor
+
+- Extended the external FRW host belt to compare the toy Phase 4 FRW ages against an analytic flat–FRW age calculator and then carve out a “host-calibrated corridor”:
+  - `stage2/external_frw_host/src/analyze_external_frw_age_contrast_v1.py` ingests `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv` and summarises the age differences between the repo’s FRW toy (`age_Gyr`) and the analytic host age (`age_Gyr_host`).
+    - On the **full θ-grid** (2048 points), the mean age difference is ⟨Δage⟩ ≈ –8.41 Gyr with a mean relative difference ⟨|Δage|/age_repo⟩ ≈ 0.53.
+    - On the **FRW_viable** subset (1016 points), the mean age difference improves to ⟨Δage⟩ ≈ –2.49 Gyr with ⟨|Δage|/age_repo⟩ ≈ 0.18, confirming that the viability filters already push the toy FRW towards more host-like ages but still leave substantial bias.
+    - On the **corridor ∧ viable** subset (154 points) and the **corridor ∧ viable ∧ empirical anchor** subset (18 points), the age discrepancies are large: ⟨Δage⟩ ≈ –11.9 Gyr and –10.9 Gyr, with relative differences ≈ 0.84 and 0.81 respectively.
+  - `stage2/external_frw_host/src/flag_age_consistent_subset_v1.py` combines the host cross-check table with the empirical anchor mask to define an age-consistency flag
+    (`age_consistent_rel_le_20pct`) using a 20% relative-error threshold between `age_Gyr` and `age_Gyr_host`.
+    - This yields **778 / 2048** θ-points (≈ 0.38 of the grid) that are age-consistent with the host and **all** of them sit inside the FRW_viable set.
+    - Crucially, **no** points in the original theta-corridor that also hit the empirical anchor box survive this 20% age-consistency requirement: both `CORRIDOR_AND_VIABLE` and `CORRIDOR_AND_VIABLE_AND_ANCHOR` have `n_age_consistent = 0`.
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_host_corridor_v1.py` summarises a “host-calibrated corridor” defined by the age-consistency mask:
+    - `HOST_CALIBRATED_CORRIDOR` has **778** θ-points (≈ 0.38 of the grid).
+    - Its intersection with the empirical anchor box is **empty** (`HOST_CORRIDOR_AND_ANCHOR n=0`), so even after requiring external FRW age-consistency, the toy FRW + corridor + empirical anchor chain still has no non-trivial θ that simultaneously:
+      - passes Phase 4 FRW viability,
+      - lies inside the toy θ-corridor,
+      - sits inside the small (Ω_Λ, age) empirical box,
+      - and has toy ages consistent with an analytic FRW host at the 20% level.
+
+- Interpretation (Stage 2 diagnostic, **no promotion to Phase claims**):
+  - This belt shows that the present implementation of the FRW toy + empirical anchor is structurally “host-incompatible” in the corridor: once an external FRW age standard is enforced at even modest (20%) tolerance, the intersection with the empirical anchor collapses to the empty set.
+  - We keep this as a **negative but informative diagnostic result** rather than tuning the toy FRW machinery to force overlap; any future adjustment (e.g. redefining the age observable, relaxing the anchor box, or directly host-calibrating the FRW toy) will be done in a separate, explicitly documented belt so that the current emptiness remains a reproducible, archived statement about the **current** pipeline.
+
+
+## 2026-01-13 – Stage 2: FRW empirical anchor + external FRW host cross-check (A1–A8, HX1–X3)
+
+**Goal:** Carve out a small, explicit FRW/age “empirical anchor” region in the current Phase 4 toy FRW outputs, track it through the joint mechanism–FRW grid, and test its behaviour against a simple external FRW background host – all as Stage 2 diagnostics, with no promotion to Phase-level claims.
+
+### 1) FRW toy empirical anchor (A1–A4, A6–A8)
+
+- Added `stage2/frw_data_probe_analysis/src/analyze_frw_empirical_anchor_v1.py` with config
+  `stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json`:
+  - Reads `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`.
+  - Defines a small box in \((\omega_\Lambda, \text{age}_\mathrm{Gyr})\) and writes
+    `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`
+    with a boolean `in_empirical_anchor_box`.
+  - Result: 18 / 2048 θ-grid points lie inside the empirical anchor (~0.0088 of the grid); all 18 are FRW-viable.
+
+- Extended the joint mech–FRW belt with anchor-aware rungs:
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_intersections_v1.py`  
+    → `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_intersections_v1.csv`
+    - Confirms:
+      - `FRW_VIABLE`: 1016 / 2048,
+      - `TOY_CORRIDOR`: 1186 / 2048,
+      - `EMPIRICAL_ANCHOR`: 18 / 2048,
+      - All 18 anchor points lie in `FRW_VIABLE ∧ TOY_CORRIDOR`.
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_kernel_v1.py`  
+    → `stage2/joint_mech_frw_anchor_kernel_v1.csv`
+    - Finds two 9-point contiguous θ-segments making up the 18-point anchor kernel:
+      - Segment 1: θ_index 205–213, θ ≈ [0.63, 0.65],
+      - Segment 2: θ_index 1078–1086, θ ≈ [3.31, 3.33],
+      - Neither segment contains θ★.
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_profiles_v1.py`  
+    → `stage2_joint_mech_frw_anchor_profiles_v1.csv`
+    - Provides summary stats for `ALL_GRID`, `FRW_VIABLE`, `TOY_CORRIDOR`,
+      `EMPIRICAL_ANCHOR`, and their intersections.
+    - In the 18-point kernel, `omega_lambda` clusters near ≈0.69 and toy `age_Gyr`
+      clusters near ≈13.5 Gyr with O(0.05 Gyr) scatter.
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_sensitivity_v1.py`  
+    → `stage2_joint_mech_frw_anchor_sensitivity_v1.csv`
+    - Varies the empirical box half-widths by factors 0.5, 1.0, 1.5 and tracks how many
+      points survive ^ anchor ∧ FRW-viable ∧ corridor:
+      - scale 0.5 → 8 points,
+      - scale 1.0 → 18 points,
+      - scale 1.5 → 26 points (24 in `FRW_VIABLE ∧ TOY_CORRIDOR`).
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_mech_contrast_v1.py`  
+    → `stage2_joint_mech_frw_anchor_mech_contrast_v1.csv`
+    - Compares mechanism measures across:
+      - `ALL_GRID`, `FRW_VIABLE`,
+      - `CORRIDOR_AND_VIABLE` (154 points),
+      - `CORRIDOR_AND_VIABLE_AND_ANCHOR` (18 points).
+    - In the 18-point kernel the mechanism amplitudes (`mech_baseline_A0`, `mech_binding_A0`)
+      sit in a narrow band around ≈0.046 with σ ≈ 2.7×10⁻⁴.
+
+- Added a θ-gradient diagnostic:
+  - `stage2/mech_measure_analysis/src/analyze_mech_theta_gradients_v1.py`  
+    → `stage2_mech_rung7_theta_gradients_v1.csv`
+    - Estimates θ-derivatives of `mech_baseline_A0`, `mech_baseline_A_floor`,
+      `mech_binding_A0`, `mech_binding_A` on:
+      - the full grid,
+      - FRW-viable subset,
+      - corridor subset,
+      - corridor ∧ viable ∧ anchor kernel.
+    - In the 18-point kernel, |gradients| are O(3.4×10⁻²), comparable to corridor
+      edges: the kernel is a narrow band, not a flat plateau.
+
+### 2) External FRW host age cross-check (HX1–HX3)
+
+- Implemented a simple external FRW host for age-only cross-checks:
+  - `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`  
+    → `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+    - Uses a flat-FRW age integral with a single global calibration factor to map
+      dimensionless ages into Gyr.
+    - Joins on the same θ-grid as the joint table and records:
+      - `age_Gyr` (toy), `age_Gyr_host`, and their differences.
+- Summarised age differences on key subsets:
+  - `stage2/external_frw_host/src/analyze_external_frw_age_contrast_v1.py`  
+    → `stage2_external_frw_rung2_age_contrast_v1.csv`
+    - ALL_GRID (2048 points): ⟨age_host − age_repo⟩ ≈ −8.4 Gyr, mean relative
+      difference ≈ −0.53.
+    - FRW_VIABLE (1016 points): ⟨age_host − age_repo⟩ ≈ −2.5 Gyr, mean relative
+      difference ≈ −0.18.
+    - CORRIDOR_AND_VIABLE (154 points): ⟨age_host − age_repo⟩ ≈ −11.9 Gyr,
+      mean relative difference ≈ −0.84.
+    - CORRIDOR_AND_VIABLE_AND_ANCHOR (18 points): ⟨age_host − age_repo⟩ ≈ −10.9 Gyr,
+      mean relative difference ≈ −0.81.
+- Tagged a 20% age-consistent subset:
+  - `stage2/external_frw_host/src/flag_age_consistent_subset_v1.py`  
+    → `stage2_external_frw_rung3_age_consistency_mask_v1.csv`
+    - Adds `age_consistent_rel_le_20pct` using |age_host − age_repo| / age_repo ≤ 0.2.
+    - Results:
+      - ALL_GRID: 778 / 2048 points age-consistent.
+      - FRW_VIABLE: same 778 points (all lie within FRW-viable).
+      - CORRIDOR_AND_VIABLE: 0 points.
+      - CORRIDOR_AND_VIABLE_AND_ANCHOR: 0 points.
+- Checked the host-calibrated corridor:
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_host_corridor_v1.py`  
+    → `stage2_joint_mech_frw_host_corridor_summary_v1.csv`
+    - Defines `HOST_CALIBRATED_CORRIDOR` as the age-consistent subset.
+    - Confirms that `HOST_CALIBRATED_CORRIDOR ∧ TOY_CORRIDOR ∧ FRW_VIABLE ∧ ANCHOR`
+      is empty: the present toy FRW corridor and its 18-point kernel live outside the
+      20% age-consistent band of the analytic FRW host.
+
+### 3) Host-space anchor tied back to FRW anchor
+
+- Anchored the host table directly on the FRW empirical anchor:
+  - `stage2/external_frw_host/src/analyze_external_frw_host_anchor_v1.py`  
+    → `stage2_external_frw_host/outputs/tables/stage2_external_frw_host_anchor_mask_v1.csv`
+    - Reads:
+      - host age cross-check table, and
+      - FRW empirical anchor table.
+    - Infers a host anchor box by taking min/max of:
+      - `omega_lambda` on FRW anchor points, and
+      - `age_Gyr_host` on those same points.
+    - Resulting host anchor:
+      - `omega_lambda` ∈ [0.664228, 0.716531],
+      - `age_Gyr_host` ∈ [2.57, 2.70] Gyr,
+      - 18 θ-points in the box (same θ-indices as the FRW anchor).
+- Intersections on the joint grid:
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_host_anchor_intersections_v1.py`  
+    → `stage2_joint_mech_frw_host_anchor_intersections_v1.csv`
+    - ALL_GRID: 2048
+    - FRW_VIABLE: 1016
+    - TOY_CORRIDOR: 1186
+    - HOST_ANCHOR: 18
+    - FRW_VIABLE_AND_HOST_ANCHOR: 18
+    - CORRIDOR_AND_HOST_ANCHOR: 18
+    - CORRIDOR_AND_VIABLE_AND_HOST_ANCHOR: 18
+
+**Net picture:** the empirical anchor kernel is small but real (18 θ-points in two contiguous segments, all FRW-viable and inside the toy corridor), and it has a coherent mechanism profile. However, the current toy FRW age normalization is strongly inconsistent with a simple analytic FRW host, especially inside the corridor and anchor. Any future contact with real cosmological ages must be hosted on a properly normalized FRW layer; the present toy `age_Gyr` column is to be treated as diagnostic scaffolding only.
+
+- Documented this belt and its status in
+  `stage2/docs/STAGE2_EMPIRICAL_ANCHOR_STATUS_v1.md` (diagnostic, non-binding).
