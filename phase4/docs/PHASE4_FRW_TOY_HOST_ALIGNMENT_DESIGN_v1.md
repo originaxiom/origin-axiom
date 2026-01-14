@@ -1,369 +1,251 @@
-# PHASE 4 – FRW Toy vs External Host Alignment (Design v1)
+# Phase 4 – FRW toy host-alignment design
 
-This memo records how the **Phase 4 FRW toy pipeline** relates to the new **external FRW host** Stage 2 modules, what we empirically observed from the host cross-checks, and how we intend to *use* both layers going forward without over-claiming.
+This document describes how the **Phase 4 FRW toy** interacts with various **host layers** without violating the Stage I / Phase 0 contract. It focuses on:
 
-It is a **design + alignment document**, not a claims register. Phase 0 contracts, the Phase 4 alignment memo, and the Stage 2 belts remain the source of truth for what is and is not being claimed about the Universe.
+- how FRW-style “toy backgrounds” are constructed over the θ-grid,
+- how empirical anchor information and external FRW / ΛCDM hosts are allowed to touch those toys,
+- and what is **explicitly out of scope** in Phase 4 (no fitting, no extra cosmology claims).
+
+The goal is to give a clear, reproducible design that later papers and dashboards can reference without ambiguity.
 
 ---
 
 ## 1. Objects in play
 
-### 1.1 Phase 4 FRW toy pipeline
+We distinguish four classes of objects:
 
-The FRW-facing part of the repo currently lives under:
+1. **θ-grid and mechanism bundle (Phase 3 outputs)**
 
-- `phase4/` (contract + design docs)
-- `phase4/outputs/tables/` (toy FRW tables)
+   - The θ-grid and mechanism measures (`mech_baseline_A0`, `mech_binding_A`, corridors, etc.) are taken as **given** from Phase 3.
+   - They are not re-fitted or reinterpreted here; Phase 4 treats them as an input “field” over θ.
 
-Key Phase 4 FRW tables include:
+2. **FRW toy background (Phase 4 internal)**
 
-- `phase4_F1_frw_shape_probe_mask.csv`
-- `phase4_F1_frw_viability_mask.csv`
-- `phase4_F1_frw_data_probe_mask.csv`
+   - A set of FRW-like quantities defined on the θ-grid:
+     - `Omega_lambda_repo(theta)` and derived `Omega_m_repo(theta)` (under simple flatness assumptions),
+     - `age_Gyr_repo(theta)` as computed by the Phase 4 FRW toy integrator.
+   - These are **toy constructs**, used to:
+     - define FRW-viable subsets of θ,
+     - inspect qualitative FRW behaviour (e.g. age vs `Omega_lambda`),
+     - and build internal masks (FRW-viable, toy corridors, etc.).
 
-These carry (among others) the columns:
+3. **Empirical anchor boxes (Phase 4 / Stage 2)**
 
-- `theta` – θ grid
-- `E_vac` – mechanism-side vacuum scale (from Phase 3)
-- `omega_lambda` – effective Λ-like parameter derived from the mechanism
-- `age_Gyr` – a toy FRW “age” quantity
-- a family of boolean probes (`has_matter_era`, `has_late_accel`, `smooth_H2`, `frw_viable`, `data_ok`, …)
+   - Pre-declared “boxes” in FRW-parameter space that stand in for **observationally-inspired** targets,
+     - e.g. an `Omega_lambda` range and an `age_Gyr` window around a Universe-like age.
+   - In Stage I these are treated as **synthetic targets**, not as live data-fits.
+   - They induce masks such as:
+     - `in_empirical_anchor_box` on the θ-grid,
+     - and later host-age anchor masks.
 
-Interpretation:
+4. **External FRW / ΛCDM hosts (Stage 2 overlays)**
 
-- This is a **toy FRW background engine**:
-  - It takes `E_vac(θ)` and maps it to an effective `omega_lambda(θ)`,
-  - integrates a simplified FRW-like background to produce `age_Gyr(θ)`,
-  - and tags each θ with viability/data-probe flags.
-- It is *not* a validated, high-precision FRW pipeline. Its role is:
-  - to provide a coherent *internal* FRW playground,
-  - to define masks like `frw_viable` and `TOY_CORRIDOR`,
-  - and to serve as a bridge between the mechanism and cosmological-style diagnostics.
-
-### 1.2 Stage 2 joint θ grid
-
-Stage 2 builds a joint θ-grid that aligns mechanism outputs with FRW toy outputs:
-
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
-
-Key columns:
-
-- `theta_index`, `theta`
-- `E_vac`, `omega_lambda`, `age_Gyr`
-- FRW masks: `in_toy_corridor`, `frw_viable`, `lcdm_like`, `shape_and_viable`, `shape_and_lcdm`, `frw_data_ok`
-- Mechanism measures: `mech_baseline_*`, `mech_binding_*`
-
-This is the **hub table** that all joint mech–FRW Stage 2 analyses use.
-
-### 1.3 External FRW host
-
-To probe how “physical” the FRW toy ages are, Stage 2 introduces a very simple FRW host under:
-
-- `stage2/external_frw_host/`
-
-The main table is:
-
-- `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
-
-Columns include:
-
-- `theta_index`, `theta`
-- `omega_lambda`
-- `age_Gyr` – Phase 4 toy age
-- `age_Gyr_host` – age computed by a **simple analytic flat-FRW host** (using a standard integral for t₀ as a function of Ω_Λ)
-- `age_Gyr_diff` – `age_Gyr_host - age_Gyr`
-- `age_Gyr_rel_diff` – relative difference
-- `frw_viable` – copied mask
-
-Interpretation:
-
-- The host is *not* a full Boltzmann code or cosmology pipeline; it is a **sanity-check FRW background calculator**:
-  - It assumes a standard flat FRW form with matter + Λ,
-  - computes an age vs Ω_Λ curve analytically,
-  - calibrates a global scale factor once,
-  - and then compares those ages to the Phase 4 toy ages pointwise on the θ grid.
+   - Separate FRW/ΛCDM background computations that live under `stage2/`:
+     - `stage2/external_frw_host/` – analytic FRW age integrator with fixed cosmological parameters,
+     - `stage2/external_cosmo_host/` – a simple ΛCDM parameter grid and age computation.
+   - These are **diagnostic overlays**:
+     - they do not feed back into the mechanism,
+     - they do not produce new claims,
+     - they only check how the Phase 4 FRW toy and masks behave when seen from “outside”.
 
 ---
 
-## 2. What we actually observed
+## 2. FRW toy construction over θ
 
-### 2.1 Global age discrepancies
+### 2.1 Inputs from Phase 3
 
-From `stage2_external_frw_rung2_age_contrast_v1.csv` we have (schematically):
+Phase 3 exports a joint grid (via Stage 2) with columns such as:
 
-- **ALL_GRID**:
-  - `⟨Δage⟩` ≈ −8.4 Gyr  
-  - `⟨|Δage| / age_repo⟩` ≈ 0.53
-- **FRW_VIABLE** subset:
-  - `⟨Δage⟩` ≈ −2.5 Gyr  
-  - `⟨|Δage| / age_repo⟩` ≈ 0.18
-- **CORRIDOR_AND_VIABLE** subset:
-  - `⟨Δage⟩` ≈ −11.9 Gyr  
-  - `⟨|Δage| / age_repo⟩` ≈ 0.84
-- **CORRIDOR_AND_VIABLE_AND_ANCHOR** subset:
-  - `⟨Δage⟩` ≈ −10.9 Gyr  
-  - `⟨|Δage| / age_repo⟩` ≈ 0.80
+- `theta_index`, `theta`,
+- `omega_lambda` (toy FRW cosmological constant proxy),
+- mechanism columns:
+  - `mech_baseline_A0`,
+  - `mech_baseline_A_floor`,
+  - `mech_binding_A0`,
+  - `mech_binding_A`,
+  - and their associated bound flags,
+- masks:
+  - `frw_viable`,
+  - `in_toy_corridor`,
+  - `in_empirical_anchor_box` (Phase 4 / Stage 2 anchor).
 
-High-level takeaway:
+The **design requirement** is that Phase 4:
 
-- The toy FRW ages are **not calibrated** to the host ages, especially in the corridor and empirical-anchor regions.
-- Even on the FRW-viable set, the relative age discrepancy is at the ~20% level on average.
-- In the toy corridor (and particularly in the corridor ∧ anchor), the relative discrepancy is much larger.
+- does *not* re-define θ,
+- does *not* re-define the mechanism columns,
+- and only adds FRW-specific quantities to the same table(s).
 
-### 2.2 Host-calibrated age-consistency subset
+### 2.2 FRW toy equations (pointer only)
 
-To turn this into a usable mask, Stage 2 defines an age-consistency filter:
+The detailed equations live in `PHASE4_FRW_TOY_EQUATIONS_v1.md`. For design purposes, we only need to note:
 
-- Script: `stage2/external_frw_host/src/flag_age_consistent_subset_v1.py`
-- Output:  
-  `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung3_age_consistency_mask_v1.csv`
+- The FRW toy assumes a simple flat FRW background with:
+  - `Omega_lambda_repo(theta)` imported from the joint grid,
+  - `Omega_m_repo(theta) = 1 - Omega_lambda_repo(theta)` or a similarly simple relation, depending on the chosen toy,
+  - a fixed `H0` for Stage I.
+- `age_Gyr_repo(theta)` is computed by integrating the FRW age integral with these parameters.
+- The outputs are stored in Phase 4 tables (and mirrored into Stage 2 tables where needed).
 
-Key column:
+**Key design constraints:**
 
-- `age_consistent_rel_le_20pct` – boolean: |age_host − age_repo| / age_repo ≤ 20%
-
-Summary stats (from script output):
-
-- On **ALL_GRID** and **FRW_VIABLE**:
-  - `n_age_consistent` ≈ 778 (∼ 0.38 of the grid)
-- On **CORRIDOR_AND_VIABLE**:
-  - `n_age_consistent` = 0
-- On **CORRIDOR_AND_VIABLE_AND_ANCHOR**:
-  - `n_age_consistent` = 0
-
-So, under this **host-guided 20% age-consistency gate**:
-
-- There is a substantial host-consistent FRW-viable region,
-- but **none** of the current toy corridor ∧ anchor points pass this age-consistency threshold.
-
-### 2.3 Host-side empirical anchor
-
-We also defined a host-side mirror of the empirical anchor:
-
-- Script: `stage2/external_frw_host/src/analyze_external_frw_host_anchor_v1.py`
-- Output:  
-  `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_anchor_mask_v1.csv`
-
-This:
-
-- infers an Ω_Λ window and a host-age window from the FRW empirical anchor table, and
-- flags `in_host_empirical_anchor_box` on the host age cross-check table.
-
-Intersections with the joint θ grid in:
-
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_anchor_intersections_v1.csv`
-
-show that:
-
-- The **host anchor** is the same size (18 points) as the FRW toy anchor,
-- and the set labels `HOST_ANCHOR`, `FRW_VIABLE_AND_HOST_ANCHOR`, `CORRIDOR_AND_HOST_ANCHOR`, `CORRIDOR_AND_VIABLE_AND_HOST_ANCHOR` all report the same `n=18` count.
-
-Interpretation:
-
-- The empirical anchor region in (Ω_Λ, age) remains small (`18/2048`), but its image under the host mapping is coherent:
-  - host ages in that region form a tight band,
-  - and those points remain FRW-viable and in the toy corridor.
-
-However, once we additionally impose the **age-consistency** gate (≤ 20% relative difference), the combination:
-
-- (toy corridor) ∧ (empirical anchor) ∧ (host age-consistent)
-
-is currently **empty**.
+- No dynamic fitting of FRW parameters to data.
+- No hidden dependence on θ beyond what is declared in the joint grid and FRW toy equations.
+- All FRW quantities must be computable from:
+  - θ,
+  - the mechanism bundle,
+  - and a small set of fixed FRW toy hyperparameters.
 
 ---
 
-## 3. How we intend to use toy vs host going forward
+## 3. Host-alignment logic (design, not promotion)
 
-Given the above, we adopt the following design stance:
+The central design question is:
 
-### 3.1 The toy FRW engine remains the *internal* mechanism–FRW bridge
+> How do we let FRW toys “touch” host-like or data-inspired structures **without** silently promoting Phase 4 into a data-fitting phase?
 
-- Phase 4 continues to use the toy FRW pipeline to:
-  - map `E_vac(θ)` to an effective `omega_lambda(θ)` and `age_Gyr(θ)`,
-  - define internal FRW viability masks and the FRW toy corridor,
-  - provide the FRW side of the **joint θ grid**.
-- All of this remains under the Phase 4 alignment and Phase 0 contracts:
-  - toy, diagnostic, non-data-contact,
-  - used to test whether the **structure** of the axiom survives big, coarse constraints (matter era, late acceleration, etc.).
+The answer is to enforce a strict separation between:
 
-### 3.2 The external host is a **Stage 2 calibration + stress-test layer**
+- **Masks and boxes** – which can overlap in interesting ways,
+- **Claims** – which stay at the level of “there exists a θ-subset with properties X, Y, Z,”
+- **Interpretation** – which is deferred to later phases and explicit gates.
 
-The external FRW host is treated as:
+### 3.1 Internal FRW toy masks
 
-- A **calibration / sanity host**:
-  - It instantiates a standard flat FRW background age vs Ω_Λ curve,
-  - calibrates once to align with the repo’s notion of Gyr,
-  - and then compares the toy FRW ages to this reference.
+The FRW toy defines internal masks such as:
 
-Its roles are:
+1. `frw_viable`:
 
-1. **Age contrast diagnostics**  
-   via `stage2_external_frw_rung2_age_contrast_v1.csv`  
-   → “How far are the toy ages from a standard FRW age curve, on each subset?”
+   - A Boolean column on the θ-grid:
+     - `True` where the FRW toy background is numerically and structurally acceptable,
+     - `False` where it is unstable, unphysical, or otherwise rejected.
+   - The exact criteria are specified in `PHASE4_FRW_TOY_HEALTHCHECK_v1.md`.
 
-2. **Host-consistent masks**  
-   via `age_consistent_rel_le_20pct` in `stage2_external_frw_rung3_age_consistency_mask_v1.csv`  
-   → “Which θ-values are FRW-viable and age-consistent with an external FRW host?”
+2. `in_toy_corridor`:
 
-3. **Host anchor and corridor**  
-   via host anchor and host corridor summaries  
-   → “What does the empirical anchor region look like when expressed in host coordinates?”
+   - A Boolean column that marks θ where the mechanism and FRW toy jointly behave “nicely”:
+     - e.g. where mechanism measures fall in a certain band,
+     - and FRW ages stay within a chosen range.
+   - This corridor is a **toy construct**:
+     - it is allowed to be tuned internally,
+     - but tuning decisions must be recorded and justified.
 
-**Crucially:**
+3. `in_empirical_anchor_box`:
 
-- The host does **not** override or redefine the Phase 4 toy FRW machinery.
-- It does **not** feed back into Phase 4 paper-level claims by default.
-- It provides **additional Stage 2 gates** that must be explicitly referenced when invoked.
+   - A Boolean column indicating whether a θ lies inside a pre-declared box in `(Omega_lambda, age_Gyr)` space.
+   - The box is specified in a JSON config (e.g. `empirical_anchor_box_v1.json`) under `stage2/frw_data_probe_analysis/config/`.
+   - For design purposes:
+     - the box is “inspired by” observed cosmology,
+     - but in Stage I it is treated as a **fixed target** rather than something to be fitted.
 
-### 3.3 What “no intersection” currently means
+### 3.1.1 What “alignment” means here
 
-The fact that:
+Alignment in Phase 4 means:
 
-- `(toy corridor) ∧ (empirical anchor) ∧ (host age-consistent)` is empty
+- **Overlap of masks**, not matching of data.
 
-is interpreted as:
+Examples of allowed statements:
 
-- A **diagnostic observation about this particular implementation** of:
-  - the axiom → mechanism → toy FRW map,
-  - and the chosen empirical anchor box,
-- not yet as a global verdict on the axiom itself.
+- “There exists a subset of θ that is FRW-viable, in the toy corridor, and in the empirical anchor box.”
+- “The FRW toy age over that subset sits in the interval `[13.3, 14.3] Gyr`.”
 
-Design-level reading:
+Examples of *disallowed* statements (in Phase 4):
 
-- For the *current* toy implementation and anchor choice, the narrow corridor that is both:
-  - FRW-viable,
-  - inside the toy FRW empirical anchor box,
-- does **not** survive the external age-consistency filter at ≤ 20%.
+- “Therefore the axiom explains the observed age of the Universe.”
+- “Therefore we have measured `Omega_lambda` to be X.”
 
-This is a strong and valuable constraint on the present toy implementation. Future rungs can:
+The design keeps this separation explicit.
 
-- adjust the toy FRW integrator,
-- adjust the mapping from `E_vac` to `omega_lambda`,
-- adjust the width or definition of the empirical anchor box,
+### 3.1.2 FRW toy + host age windows (conceptual)
 
-but any such moves must be explicitly documented and gated.
+Phase 4 FRW toy ages can be compared to **host age windows** defined in Stage 2. Conceptually:
 
----
+- A host (external) FRW or ΛCDM age computation defines:
+  - a column `age_Gyr_host(theta)` on the joint grid,
+  - and a host-age anchor window `[age_min, age_max]`.
+- We can then define host masks:
+  - `in_host_age_anchor_box` where `age_Gyr_host` lies inside the window,
+  - and intersections with existing masks:
+    - `FRW_VIABLE_AND_HOST_AGE_ANCHOR`,
+    - `CORRIDOR_AND_VIABLE_AND_HOST_AGE_ANCHOR`, etc.
 
-## 4. Proposed future rungs (outline only)
+In Phase 4, these intersections are **descriptive diagnostics**:
+they show how robust the FRW toy corridor is under a given host age window.
 
-This section just sketches **possible** future rungs; they are not active until promoted.
+### 3.1.3 Host-alignment corridor kernel (conceptual object)
 
-### Rung H1 – Explicit FRW toy spec
+Stage 2 contains code to extract a compact θ-subset where:
 
-- Goal: write a short technical spec of the current toy FRW integrator:
-  - actual formulas used for `omega_lambda(θ)` and `age_Gyr(θ)`,
-  - approximations and normalisations,
-  - how matter / radiation / Λ are represented (or not).
-- Output: `phase4/docs/PHASE4_FRW_TOY_SPEC_v1.md`.
+- the FRW toy is FRW-viable,
+- θ lies in the toy corridor,
+- and the host age lies in a Universe-like age window.
 
-### Rung H2 – Host–toy reconciliation experiments
+This subset is referred to as a **kernel** (e.g. a 12-point band in θ).
 
-- Goal: explore whether *simple* modifications could bring toy ages within a moderate relative-error band on the corridor, without breaking other structure.
-- Design only for now:
-  - identify 2–3 minimal levers (e.g. a rescaling constant, a better integration rule, a different mapping from `E_vac` to Ω_Λ),
-  - plan how to test them in Stage 2 without touching Phase 4 claims.
+Design-wise:
 
-### Rung H3 – Anchor and host gate promotion design
+- Phase 4 is allowed to:
+  - refer to the existence and basic statistics of such a kernel,
+  - inspect its mechanism profiles (e.g. mean and spread of `mech_baseline_A0`),
+  - and describe its FRW toy ages and `Omega_lambda` band.
+- Phase 4 is *not* allowed to:
+  - rebrand this kernel as a measurement,
+  - or make any statistical significance claims about it.
 
-- Goal: specify **exactly** how host-based filters can be used as **promotion gates** for any Phase 4/5 narrative that references:
-  - the empirical anchor,
-  - FRW ages,
-  - or host-consistent corridors.
-- Output: a gate design doc under `docs/` or `phase4/docs/`, tightly tied to existing Stage 2 tables.
+### 3.1.4 What this host-layer *does not* do
 
----
+The host-alignment layer does **not**:
 
-## 5. Summary
+- change the Phase 3 mechanism definitions,
+- change the FRW toy equations,
+- introduce any dynamic feedback loop where host results tune the mechanism or FRW parameters.
 
-- Phase 4’s FRW toy remains the **primary internal model** of how the mechanism’s vacuum story interacts with an FRW-like background.
-- The external FRW host is a **Stage 2 calibration and stress-test layer**, not a replacement.
-- Current diagnostics show:
-  - large age discrepancies in the toy corridor and empirical-anchor region,
-  - and an empty intersection once a 20% host age-consistency gate is applied there.
-- These facts are recorded as constraints on the current implementation, not as universal no-go theorems.
-- Future rungs (H1–H3) will:
-  - formalise the toy FRW spec,
-  - explore minimal host-aligned refinements,
-  - and design promotion gates for any host-based empirical claims.
-
+It is a **one-way diagnostic overlay**:
+from θ → mechanism → FRW toy → host age checks → descriptive masks and kernels.
 
 ---
 
-## 3. Status snapshot: what the external host alignment currently shows
+## 4. External ΛCDM host overlays (Stage 2, non-claiming)
 
-This section documents, for Phase 4 and Phase 5, what the **implemented** Stage 2 external-host belt actually reports. It is not a final design, but a snapshot that future revisions must keep in view.
+Although the *design* of Phase 4 is internal to the repo, Stage 2 now provides two explicit host overlays that this document must treat carefully:
 
-### 3.1 Implemented host belt
+1. **External FRW host (analytic age integrator).**
 
-The current external FRW host alignment pipeline consists of:
+   - Implemented under `stage2/external_frw_host/`.
+   - Uses a flat-FRW age integral with fixed `H0` and `Omega_m`, and `Omega_lambda(theta)` imported from the joint grid.
+   - Produces:
+     - a host-age cross-check table,
+     - age-contrast summaries on the FRW-viable and corridor subsets,
+     - a host *age-anchor* mask that identifies theta where the host age lies inside a pre-declared window around the observed Universe age.
+   - In the current Stage-2 snapshot this window is approximately `[13.3, 14.3] Gyr`, leading to a small set of FRW-viable theta that are also host-age consistent.
 
-- Analytic host age integrator:
-  - `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`
-  - gives `age_Gyr_host` for each θ, based on a flat-FRW model with:
-    - fixed \(\Omega_m\),
-    - variable \(\Omega_\Lambda(\theta)\) taken from the joint grid.
-- Age cross-check and contrast:
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv`
-- Age-consistency mask (relative error ≤ 20% on FRW-viable set):
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung3_age_consistency_mask_v1.csv`
-- Background bridge:
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_background_bridge_v1.csv`
-  - aligns host and toy ages in a single table for all θ.
-- Host age window and anchor:
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung4_age_window_summary_v1.csv`
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
-  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv`
-- Intersections with the joint grid:
-  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_corridor_summary_v1.csv`
-  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_age_anchor_intersections_v1.csv`
+2. **External cosmology host (ΛCDM background grid).**
 
-### 3.2 Current alignment pattern (high-level)
+   - Implemented under `stage2/external_cosmo_host/`.
+   - Maps each theta to a simple cosmological parameter triplet `(Omega_m, Omega_lambda, H0)` and computes an independent FRW age `t0_host(theta)`.
+   - Defines the same kind of host-age anchor window and extracts a **12-point theta-kernel** where:
+     - the Phase-4 FRW toy is FRW-viable and lies in its toy corridor,
+     - the external ΛCDM host age sits in the `[13.3, 14.3] Gyr` window,
+     - the mechanism measures occupy a narrow, non-pathological band.
+   - A comparison helper in `stage2/external_cosmo_host/src/build_external_host_kernel_comparison_v1.py`
+     summarises this kernel against the broader host and toy sets.
 
-With the current toy implementation and mapping:
+### 4.1 How these overlays may be used in Phase 4
 
-- The host model identifies a **host-age anchor band**:
-  - `age_Gyr_host ∈ [13.3, 14.3]` Gyr,
-  - containing 34 θ–points (all FRW-viable in the host sense),
-  - with tightly clustered mechanism amplitudes.
-- The Phase 4 FRW toy identifies a **toy corridor** and a **toy empirical anchor kernel**:
-  - toy corridor: broad, `in_toy_corridor == 1` (~58% of grid),
-  - toy empirical anchor kernel: 18 points, all FRW-viable and in the toy corridor.
+Within the **Phase-0 contract**, these external host overlays are allowed to support only:
 
-Alignment / misalignment:
+- descriptive statements like:
+  - “there exists a small theta-band (12 points in the current grid) where the FRW toy, the joint mechanism corridor, and a simple external ΛCDM host all assign Universe-like ages within a pre-declared window,”
+- checks of internal consistency between:
+  - FRW-viable masks,
+  - corridor masks,
+  - and host-age windows,
+- design of future promotion gates (for Phase 5) that might require joint satisfaction of these masks.
 
-- **Toy empirical anchor vs host model:**
-  - The 18-point toy empirical anchor kernel maps to a host-age range well below the observed-age window;
-  - it does not coincide with the host-age anchor band.
-- **Host-age anchor vs toy corridor:**
-  - The host-age anchor band does **not** intersect the current toy corridor at all.
-- **Mechanism behaviour:**
-  - Both the toy empirical anchor kernel and the host-age anchor band show tightly clustered mechanism amplitudes, but at different θ–locations and parameter values.
+They **may not** be used, at Phase-4 level, to:
 
-### 3.3 Design implications for future revisions
+- fit cosmological parameters,
+- claim empirical support for the axiom,
+- or interpret the 12-point kernel as a measurement of any real-world quantity.
 
-For future Phase 4/5 and Stage II work, this snapshot implies:
-
-1. **Alignment tension is real and quantified.**
-   - Any attempt to tighten the FRW toy or re-map the mechanism must keep track of:
-     - whether the toy corridor can be made to intersect a host-age anchor band,
-     - without destroying the internal FRW viability and mechanism coherence.
-
-2. **We have a concrete “failure mode” to learn from.**
-   - The current configuration provides a worked example where:
-     - the axiom + mechanism + FRW toy can pass an internal empirical box,
-     - but miss a simple external age constraint entirely.
-   - Phase 5 can use this to argue both:
-     - how the program could fail,
-     - and what kind of revisions would be needed to move towards real cosmology pipelines.
-
-Any future changes to:
-
-- the definition of the toy corridor,
-- the toy empirical anchor box,
-- the host-age window,
-- or the mapping from mechanism outputs to \(\Omega_\Lambda\),
-
-must be reflected here, and should be accompanied by updated Stage 2 runs and a clear log entry in `PROGRESS_LOG.md`.
+Any such promotion would require an explicit future gate outside this document and a Phase-0-compatible update to `PHASES.md`.
 
