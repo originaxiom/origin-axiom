@@ -6039,3 +6039,76 @@ Interpretation:
 - The current F1 toy corridor and the host-age anchor do not intersect: there is no θ that simultaneously lies in the mechanism/FRW corridor and in a narrow host-age window around the observed age of the Universe, at the present rung.
 - The FRW toy age is, however, internally well-behaved: `age_Gyr(omega_lambda)` is strictly monotone on the FRW-viable grid. This supports using narrow joint windows in `(omega_lambda, age_Gyr)` as empirical anchors and reading the resulting θ-corridors as slices of a smooth FRW trade-off curve, rather than as artifacts of numerical noise.
 
+## 2026-01-14 – Stage2: external FRW/ΛCDM hosts and age-anchored corridor kernels
+
+**Stage2 code audit, runbook, and endpoints glossary**
+
+- Locked in a Stage2 health snapshot and usage guide:
+  - `stage2/docs/STAGE2_CODE_AUDIT_AND_HEALTHCHECK_v1.md`
+  - `stage2/docs/STAGE2_RUNBOOK_AND_INTERPRETATION_v1.md`
+- Added `stage2/docs/STAGE2_ENDPOINTS_GLOSSARY_v1.md` documenting the key Stage2 CSV endpoints and column names for downstream scripts and humans (joint grid, FRW probes, mechanism tables, host masks, kernels, etc.).
+
+**External FRW host (analytic FRW age cross-check on Phase-4 toy)**
+
+- Implemented an external FRW-age host on the same θ–Ω_Λ grid:
+  - `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`
+  - Cross-check and contrast: `analyze_external_frw_age_contrast_v1.py`
+  - 20% relative age-consistency mask: `flag_age_consistent_subset_v1.py`
+- Built a FRW-age bridge and age-window diagnostics:
+  - Bridge table: `build_frw_background_bridge_v1.py`
+  - Age-window summary: `analyze_external_frw_age_window_v1.py`
+  - Host-age anchor mask + summary: `flag_external_frw_host_age_anchor_v1.py`
+  - Host-age anchor profiles: `analyze_external_frw_host_age_anchor_profiles_v1.py`
+- Connected back into the joint θ–mechanism–FRW grid:
+  - Joint intersections with host age anchor via
+    `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_host_age_anchor_intersections_v1.py`
+- Documented the FRW-host chain and results in
+  `stage2/docs/STAGE2_FRW_HOST_HX_SECTION_v1.md`.
+
+**External cosmology host (flat-ΛCDM background, fixed H₀)**
+
+- Defined a θ → (Ω_m, Ω_Λ, H₀) mapping on the joint grid:
+  - `stage2/external_cosmo_host/src/oa_theta_to_cosmo_params_v1.py`
+  - Params grid: `stage2_external_cosmo_params_grid_v1.csv`
+- Evaluated ΛCDM host ages on the same grid:
+  - `run_cosmo_host_background_grid_v1.py`
+  - Age contrast vs repo toy ages: `analyze_external_cosmo_host_age_contrast_v1.py`
+- Defined an external-host age anchor window around the observed age:
+  - Host age-anchor mask + summary:
+    `flag_external_cosmo_host_age_anchor_v1.py`
+    → `stage2_external_cosmo_host_age_anchor_mask_v1.csv`,
+       `stage2_external_cosmo_host_age_anchor_summary_v1.csv`
+- Extracted a 12-point “age ∧ corridor ∧ FRW-viable” kernel:
+  - `extract_external_cosmo_host_age_anchor_corridor_kernel_v1.py`
+  - Kernel table:
+    `stage2_external_cosmo_host_age_anchor_corridor_kernel_v1.csv`
+  - On this 12-point band:
+    - repo toy ages: ⟨t₀^repo⟩ ≈ 13.45 Gyr with small scatter,
+    - external ΛCDM host ages: ⟨t₀^host⟩ ≈ 13.55 Gyr with small scatter,
+    - mechanism baselines/binding amplitudes stay in a narrow band
+      (~0.0461–0.0467) with zero bound flags.
+- Age-window sensitivity sweep on the external-cosmo host:
+  - `analyze_external_cosmo_host_age_window_sensitivity_v1.py`
+  - Varies the age window scale (0.5×–2×) and tracks:
+    - host-window counts,
+    - FRW-viable intersection,
+    - corridor ∧ FRW ∧ host intersection.
+- Built a cross-host kernel comparison table linking:
+  - FRW toy anchor kernel (Phase 4),
+  - external FRW-host age anchor,
+  - external ΛCDM host age ∧ corridor kernel:
+    `build_external_host_kernel_comparison_v1.py`
+    → `stage2_external_host_kernel_comparison_v1.csv`.
+- Snapshot + design docs for the external-cosmo host chain:
+  - `stage2/docs/STAGE2_EXTERNAL_COSMO_HOSTS_DESIGN_v1.md`
+  - `stage2/docs/STAGE2_EXTERNAL_COSMO_HOST_RESULTS_v1.md`
+
+**Status**
+
+- Stage2 now exposes a small, well-characterized θ-band where:
+  1. the Phase-4 FRW toy is FRW-viable and inside the toy corridor,
+  2. an external flat-ΛCDM background with fixed H₀ yields Universe-like ages,
+  3. Stage2 mechanism amplitudes are controlled and non-pathological.
+- All host, kernel, and sensitivity diagnostics are scripted, reproducible
+  from the repo, and the working tree is clean and pushed on `main`
+  after these changes.
