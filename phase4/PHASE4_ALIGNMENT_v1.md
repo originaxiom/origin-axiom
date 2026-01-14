@@ -125,3 +125,24 @@ As of 2026-01-11 Phase 4 design and planning documents live under:
 - `phase4/design/FRW_DATA_DESIGN.md`
 
 Canonical contracts (SCOPE, CLAIMS, NON_CLAIMS, CLAIMS_TABLE, REPRODUCIBILITY, alignment, OVERVIEW, PROGRESS_LOG) remain in the `phase4/` root. Historical references in PROGRESS_LOG entries preserve the original paths used at the time and may point to pre-reorg locations.
+
+---
+
+### FRW toy ↔ host ↔ anchor alignment (Stage 2 pointer)
+
+For the Phase 4 FRW-like toy, the equation-level wiring and its Stage 2
+host/anchor analysis are documented in:
+
+- `phase4/docs/PHASE4_FRW_TOY_EQUATIONS_v1.md`
+- `stage2/frw_data_probe_analysis/` (empirical anchor box + mask)
+- `stage2/joint_mech_frw_analysis/` (anchor intersections, kernel, profiles, sensitivity)
+- `stage2/external_frw_host/` (flat-FRW background host and age cross-checks)
+
+This alignment note is the place to check:
+
+- which toy columns are treated as \(\Omega_\Lambda\) and \(t_0\),
+- how the empirical anchor box in \((\Omega_\Lambda, t_0)\) is defined,
+- how the external flat-FRW host is calibrated and compared to the toy.
+
+Phase 4 CLAIMS and NON_CLAIMS remain governed by this file; the host
+and anchor belts are Stage 2 diagnostics only.

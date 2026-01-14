@@ -1,221 +1,180 @@
-# Phase 4 – Empirical Anchor Design (Draft, non-binding)
+# Phase 4 – Empirical Anchor Design (Background-Only Box)
 
-Status: **DRAFT – design note, non-binding**  
-Scope: document how Phase 4 exposes a small, background-only “empirical anchor” hook via the FRW toy pipeline and Stage 2 belts, without changing any Phase-level claims.
-
----
-
-## 1. Purpose and scope
-
-This note records:
-
-- which FRW-facing quantities in Phase 4 are used as **anchor observables**,  
-- how a small **empirical box** is defined in Stage 2, and  
-- how the associated Stage 2 belts interrogate that box relative to:
-  - FRW viability,
-  - the Phase 4 toy corridor, and
-  - the non-cancelling mechanism.
-
-This is **not** a data–fit or likelihood engine. It is a controlled way to ask:
-
-> “Given our current θ-grid, FRW toy background, and mechanism measure, does there exist any θ-region that looks vaguely compatible with a simple background cosmology box?”
-
-All contact with real cosmological constraints remains **Stage 2 diagnostic** and lives under explicit Stage 2 docs.
+> **Status:** Design / diagnostic only – non-binding, no direct data claims.  
+> This file defines how Phase 4 exposes a *background-only* “empirical anchor”
+> to Stage 2. All quantitative work lives in Stage 2; Phase 4 only specifies
+> which FRW columns are eligible and what claim shapes are allowed.
 
 ---
 
-## 2. Anchor observables and FRW columns
+## 1. Scope and non-claims
 
-Phase 4 already exposes a θ-grid with FRW-like background quantities in
+**Scope.**
+
+- Define a minimal “empirical anchor” on the Phase 4 FRW toy grid using:
+  - an effective vacuum parameter \\\( \omega_\Lambda \\\) and
+  - the FRW background age \\\( t_0 \\\) in Gyr.
+- Expose this anchor to Stage 2 as a *Boolean mask* on the existing 2048-point
+  \\\( \theta \\\)-grid, with no changes to the Phase 4 numerical pipeline.
+
+**Non-claims.**
+
+- The anchor is **not** a full cosmological fit (no Planck likelihoods, no BAO,
+  no SN, no perturbation observables).
+- The anchor is **not** a proof that any \\\( \theta \\\)-region reproduces
+  real-universe parameters; it is a *background-level box cut* only.
+- No Phase 4 or Phase 5 claims may depend on this anchor until:
+  - the FRW toy implementation is cross-checked and calibrated against an
+    external FRW host, and
+  - a separate promotion gate explicitly authorises the use of anchor results.
+
+---
+
+## 2. Inputs and FRW interface
+
+Phase 4 provides the following FRW table as the primary interface:
 
 - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
 
-The relevant columns for the anchor design are:
+Key columns used by the anchor:
 
-- `theta` – the θ coordinate on the grid,
-- `omega_lambda` – the effective vacuum-density fraction used in the FRW toy,
-- `age_Gyr` – the Phase 4 FRW toy age of the Universe in Gyr,
-- Boolean masks such as:
-  - `has_matter_era`,
-  - `has_late_accel`,
-  - `smooth_H2`,
-  - `frw_viable`.
+- `theta`  
+  - The \\\( \theta \\\)-coordinate used throughout Phase 3/4/Stage 2.
+- `E_vac`  
+  - Mechanism-induced vacuum scale as used by the FRW toy.
+- `omega_lambda`  
+  - Effective dark-energy density fraction used by the FRW toy FRW integrator.
+- `age_Gyr`  
+  - Background age of the universe in Gyr as computed by the FRW toy integrator.
 
-**Anchor observables**:
+Additional Boolean columns (not directly used for the anchor box, but relevant
+for intersections):
 
-- An **effective vacuum fraction**: `omega_lambda`,
-- A **background age**: `age_Gyr`.
+- `frw_viable` (in `phase4_F1_frw_viability_mask.csv`)  
+  - “FRW background is internally sane” (Big Bang, matter era, late acceleration, etc.).
+- `in_toy_corridor` (or equivalent)  
+  - Toy \\\( \theta \\\)-corridor mask defined by Phase 4 / Stage 2.
 
-No perturbation-level observables (Cℓ, P(k), etc.) are used here.
+All anchor work is downstream of these columns; Phase 4 does **not** alter the
+FRW computations for the anchor.
 
 ---
 
-## 3. Empirical anchor box (Stage 2 config)
+## 3. Anchor box definition (Phase 4 → Stage 2 contract)
 
-The actual numerical specification of the “empirical box” lives in Stage 2 as a small config file:
+The concrete numerical definition of the anchor lives in Stage 2, in a small
+JSON config:
 
 - `stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json`
 
-Conceptually this config encodes:
+Semantics:
 
-- a 1D allowed band for `omega_lambda`, and
-- a 1D allowed band for `age_Gyr`,
+- The JSON file specifies a central value and half-width for:
+  - `omega_lambda` (effective dark-energy fraction),
+  - `age_Gyr` (background age in Gyr).
+- Stage 2 then defines a Boolean mask on the FRW grid:
 
-and defines a Boolean **anchor mask**:
+  \\\[
+  \texttt{in\_empirical\_anchor\_box}(\theta) = 1
+  \\\]
 
-- `in_empirical_anchor_box = 1` if and only if
-  - `omega_lambda` lies inside the configured ΩΛ-band, and
-  - `age_Gyr` lies inside the configured age band.
+  if and only if the Phase 4 values \\\( (\omega_\Lambda(\theta), t_0(\theta)) \\\)
+  lie inside the configured rectangular box.
 
-The JSON file is the **single source of truth** for the numerical limits.  
-This design note only fixes the *shape* of the construction, not the precise numbers.
-
----
-
-## 4. Stage 2 belts that use the anchor
-
-The anchor box itself is applied and studied in Stage 2, using the Phase 4 FRW tables and the joint mech–FRW grid.
-
-### 4.1. FRW-anchor mask
-
-Module:
+Implementation (Stage 2 side, documented here for clarity):
 
 - `stage2/frw_data_probe_analysis/src/analyze_frw_empirical_anchor_v1.py`
+  - Reads the Phase 4 FRW shape table.
+  - Applies the box cut from `empirical_anchor_box_v1.json`.
+  - Writes:
 
-Responsibilities:
+    - `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`
 
-- Reads:
-  - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`,
-  - `stage2/frw_data_probe_analysis/config/empirical_anchor_box_v1.json`.
-- Computes:
-  - `in_empirical_anchor_box` for each θ on the FRW grid.
-- Writes:
-  - `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`
-    with `theta`, `omega_lambda`, `age_Gyr`, and the anchor mask.
+  - This table exposes:
+    - `theta`,
+    - `omega_lambda`,
+    - `age_Gyr`,
+    - `in_empirical_anchor_box` (Boolean).
 
-This belt is **purely diagnostic**: it marks where the toy FRW background falls inside the chosen ΩΛ–age box.
+Phase 4’s responsibility is purely:
 
-### 4.2. Joint mech–FRW anchor intersections
-
-Module:
-
-- `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_anchor_intersections_v1.py`
-
-Responsibilities:
-
-- Reads the joint θ-grid:
-
-  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
-
-  which already contains:
-
-  - FRW-side columns: `omega_lambda`, `age_Gyr`, `frw_viable`,
-  - mechanism-side columns: `mech_baseline_*`, `mech_binding_*`,
-  - corridor masks: `in_toy_corridor`, `shape_and_viable`, etc.
-
-- Joins in the anchor mask from:
-
-  - `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`.
-
-- Constructs and counts the sets:
-
-  - `ALL_GRID`,
-  - `FRW_VIABLE`,
-  - `TOY_CORRIDOR`,
-  - `EMPIRICAL_ANCHOR` (the anchor box),
-  - `FRW_VIABLE_AND_ANCHOR`,
-  - `CORRIDOR_AND_ANCHOR`,
-  - `CORRIDOR_AND_VIABLE_AND_ANCHOR`.
-
-Result:
-
-- A table  
-  `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_intersections_v1.csv`  
-  showing that the empirical box is small (18 θ points, ≈ 0.9% of the grid) and entirely contained in
-  - FRW-viable, and
-  - the toy corridor.
-
-### 4.3. Kernel structure and sensitivity
-
-Additional Stage 2 scripts study:
-
-- **Kernel structure**  
-  (`analyze_joint_mech_frw_anchor_kernel_v1.py`):
-  - identifies contiguous θ-segments within  
-    `CORRIDOR_AND_VIABLE_AND_ANCHOR`,
-  - finds two disjoint 9-point segments, neither containing θ★,
-  - records their θ-ranges and distances to θ★.
-
-- **Anchor profiles**  
-  (`analyze_joint_mech_frw_anchor_profiles_v1.py`):
-  - computes mean/min/max of FRW quantities and mechanism measures across:
-    - ALL_GRID,
-    - FRW_VIABLE,
-    - TOY_CORRIDOR,
-    - EMPIRICAL_ANCHOR,
-    - CORRIDOR_AND_VIABLE_AND_ANCHOR.
-
-- **Sensitivity to box width**  
-  (`analyze_joint_mech_frw_anchor_sensitivity_v1.py`):
-  - scales the half-widths of the anchor box by factors (e.g. 0.5, 1.0, 1.5),
-  - measures how the size of the anchor set and its intersections change,
-  - confirming that the 18-point kernel is small but not a single-θ needle.
-
-- **Mechanism contrast**  
-  (`analyze_joint_mech_frw_anchor_mech_contrast_v1.py`):
-  - compares mechanism measures (e.g. `mech_baseline_A0`, `mech_binding_A`) on:
-    - the corridor ∧ viable set,
-    - the corridor ∧ viable ∧ anchor kernel,
-    - the complementary corridor ∧ viable \ anchor set.
-
-All of these are **Stage 2**, **diagnostic** and live under Stage 2 documentation.
+- to keep the FRW toy outputs stable, and
+- to document which columns are used and how.
 
 ---
 
-## 5. Interpretation and guardrails
+## 4. Allowed claim shapes
 
-### 5.1. What the anchor is allowed to say
+Within this design, the **only** allowed claim shapes (even at Stage 2) are:
 
-Within Phase 4, the empirical anchor is only allowed to support statements of the form:
+1. **Occupancy / overlap statements**
 
-- “Relative to our current FRW toy background and θ-grid, there exists a **small** set of θ points (the 18-point kernel) where:
-  - the FRW toy background passes our internal viability checks,
-  - the θ-points lie inside a simple ΩΛ–age box drawn from background cosmology,
-  - and the mechanism measure is within a narrow band.”
+   - Examples:
+     - “On the 2048-point \\\( \theta \\\)-grid, the empirical anchor box
+       selects 18 points (≈ 0.9% of the grid).”
+     - “Every anchor point lies inside the FRW-viable band and inside the
+       Phase 4 toy corridor mask.”
 
-or
+   - These are *set-theoretic* statements about intersections of:
+     - FRW viability,
+     - toy corridor,
+     - and the anchor box.
 
-- “This small kernel splits into two disconnected segments in θ, neither of which contains θ★; any future θ★-locking would have to reconcile with this structure.”
+2. **Kernel structure statements**
 
-These are **shape and structure statements** about the toy environment and masks, not claims of “fitting the Universe”.
+   - Examples:
+     - “The anchor points form a small number of contiguous \\\( \theta \\\)-segments,
+       not isolated singletons.”
+     - “Within the anchor kernel, FRW quantities and mechanism amplitudes vary
+       smoothly and occupy a narrow interval compared to the full corridor.”
 
-### 5.2. What the anchor is not allowed to claim
+3. **Sensitivity / robustness statements**
 
-The anchor **does not**:
+   - Examples:
+     - “Scaling the box half-widths by factors 0.5, 1.0, 1.5 yields
+       (8, 18, 26) points in the anchor, all still within the FRW-viable band.”
 
-- give θ★ a measured value,
-- declare that the current implementation of the axiom “explains” ΩΛ or the age of the Universe,
-- serve as a likelihood or posterior over θ,
-- justify promoting any θ-region to a Phase 4 or Phase 5 claim about real cosmology.
-
-Any serious, data-level contact (CMB, BAO, SN, growth, etc.) belongs in a **separate Stage II pipeline** (e.g. based on CLASS/CCL/Cobaya/CosmoSIS), with its own gates and contracts.
+These claims are strictly *diagnostic* and must remain in Stage 2 unless and
+until a promotion gate authorises them for Phase 4/5 text.
 
 ---
 
-## 6. Forward-looking notes
+## 5. Forbidden claim shapes (until promotion)
 
-This anchor design is deliberately minimal and conservative. It prepares the ground for two future directions:
+The following claims are **forbidden** under this design, unless a future,
+explicit promotion gate says otherwise:
 
-1. **Internal refinement** (inside the current program):
-   - refine the toy FRW integrator and viability masks,
-   - study how stable the 18-point kernel is under:
-     - improved FRW modelling,
-     - different θ-grids,
-     - alternate approximate empirical boxes.
+- “The axiom predicts the observed value of \\\( \Omega_\Lambda \\\) or \\\( H_0 \\\).”
+- “The empirical anchor shows that the axiom is consistent with Planck data.”
+- “The anchor kernel corresponds to the actual Universe’s parameters.”
+- Any statement that treats the current FRW toy ages as calibrated to real data.
 
-2. **External host / Stage II contact**:
-   - use external FRW hosts to calibrate the toy ages and ΩΛ mapping (cf. `stage2/external_frw_host/*`),
-   - eventually, if desired, introduce a genuinely data-calibrated anchor box in a Stage II pipeline.
+At this stage, the anchor is **only**:
 
-Until then, this document acts as a **design fence**: it keeps the empirical anchor concept visible and well documented, while preventing it from being over-interpreted in the Phase 3/4/5 narrative.
+- a *toy background box* in \\\( (\omega_\Lambda, \text{age\_Gyr}) \\\)-space,
+- used to define small, structured subsets of the \\\( \theta \\\)-grid for
+  Stage 2 diagnostics.
+
+---
+
+## 6. Relationship to external FRW host
+
+A separate Stage 2 belt (`stage2/external_frw_host/`) compares the Phase 4 toy
+ages to an analytic flat FRW host model and finds sizeable discrepancies
+(typically \\\( \sim 20\% \\\) on the FRW-viable band and larger on the corridor).
+
+Phase 4 takes the following stance:
+
+- Until the FRW toy vs host mismatch is understood and addressed, the
+  empirical anchor remains a **toy diagnostic only**.
+- No publication-grade claims will rely on its numerical values; at most,
+  the anchor may be used to:
+  - illustrate how small kernels can be carved out in \\\( \theta \\\)-space, and
+  - motivate future, better-calibrated FRW implementations.
+
+Any future promotion of the anchor to a Phase 4/5 figure or narrative element
+requires:
+
+1. A documented FRW toy vs host reconciliation, and  
+2. A dedicated promotion gate (e.g. `docs/FRW_ANCHOR_PROMOTION_GATE_v1.md`).
 

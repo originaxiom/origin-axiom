@@ -5759,3 +5759,66 @@ This rung bundles the FRW “empirical anchor” work (A1–A8) and the first ex
     - Inputs and thresholds (anchor box, age-consistency cutoff, host model) are now explicit and can be
       revisited in future belts without retroactively mutating this rung.
 
+
+---
+
+### 2026-01-14 – Stage 2: FRW toy tightening vs external FRW host + endpoints glossary
+
+**Docs + governance**
+
+- Added FRW toy documentation and healthchecks for Phase 4:
+  - `phase4/docs/PHASE4_FRW_TOY_EQUATIONS_v1.md`: makes the toy FRW backbone explicit (ω_Λ column, age_Gyr, and probe flags) and fixes the mapping between code and paper.
+  - `phase4/docs/PHASE4_FRW_TOY_HEALTHCHECK_v1.md`: collects basic sanity checks on the Phase 4 FRW toy (monotonicity, behaviour at low/high ω_Λ, qualitative expectations).
+  - `phase4/docs/PHASE4_FRW_TOY_HOST_ALIGNMENT_DESIGN_v1.md`: design note for comparing the FRW toy’s age_Gyr to a more standard FRW “host” calculation.
+  - Updated `phase4/PHASE4_ALIGNMENT_v1.md` and `phase4/docs/PHASE4_EMPIRICAL_ANCHOR_DESIGN_v1.md` to point at the new FRW toy docs and to clarify that all host/anchor work lives in Stage 2 as diagnostic belts only.
+- Added Stage 2 meta-docs:
+  - `docs/COMMIT_HISTORY_ATLAS_v1.md`: narrative atlas of key commits / rungs for Stage 2.
+  - `stage2/docs/STAGE2_RUNBOOK_AND_INTERPRETATION_v1.md`: how to *run* the Stage 2 belts and how to interpret their outputs without over-claiming.
+  - `stage2/docs/STAGE2_CODE_AUDIT_AND_HEALTHCHECK_v1.md`: summary of the Stage 2 code audit and healthcheck (what we inspected, what we found, and open threads).
+  - `stage2/docs/STAGE2_ENDPOINTS_GLOSSARY_v1.md`: glossary of Stage 2 CSV endpoints and columns so humans + tools can map outputs without guesswork.
+
+**External FRW host: age bridge + anchor**
+
+- Added a simple external FRW “host” age calculator + bridge:
+  - `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`: computes a flat–FRW background age for each ω_Λ on the joint θ-grid and calibrates a single scale factor so that the FRW-viable subset matches the toy ages in an average sense.
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv` with columns `theta_index, theta, omega_lambda, age_Gyr (toy), age_Gyr_host, age_Gyr_diff, age_Gyr_rel_diff, frw_viable`.
+- Built a bridge table and basic age-window diagnostics:
+  - `stage2/external_frw_host/src/build_frw_background_bridge_v1.py`: joins the host ages back onto the θ-grid and writes `stage2_external_frw_background_bridge_v1.csv` as the canonical “FRW host vs toy background” bridge.
+  - `stage2/external_frw_host/src/analyze_external_frw_age_window_v1.py`: defines simple age windows in host and toy ages (around 13.8 Gyr for the host, and around the toy’s FRW-viable ages) and reports:
+    - small host age window with ⟨age_host⟩ ≈ 13.6 Gyr, ⟨age_toy⟩ ≈ 12.6 Gyr,
+    - a different toy age window with ⟨age_toy⟩ ≈ 13.8 Gyr but host ages ≈ 2.5 Gyr, confirming a strong misalignment between the toy ages and a more standard FRW age for the same ω_Λ grid.
+
+- Defined a host-side “age anchor” and profiled it:
+  - `stage2/external_frw_host/src/flag_external_frw_host_age_anchor_v1.py`: flags a host-age anchor subset `HOST_AGE_ANCHOR` where the **host** age lies in a [13.3, 14.3] Gyr window around the observed Universe age, and summarises intersections with FRW_viable and the toy age window.
+    - Result: `HOST_AGE_ANCHOR` contains 34 θ-points; all are FRW-viable in the toy, but none lie in the existing toy-empirical anchor box from the FRW toy itself.
+    - Outputs: `stage2_external_frw_host_age_anchor_mask_v1.csv` and `stage2_external_frw_host_age_anchor_summary_v1.csv`.
+  - `stage2/external_frw_host/src/analyze_external_frw_host_age_anchor_profiles_v1.py`: profiles that 34-point host-age anchor subset against the joint θ-grid:
+    - ω_Λ is high (mean ≈ 1.05) and fairly narrow.
+    - host ages are tightly clustered around ≈ 13.6 Gyr with small scatter.
+    - toy ages in the same set are ≈ 12.6 Gyr, i.e. systematically younger.
+    - the mechanism amplitudes (mech_baseline_A0, mech_binding_A0, etc.) are non-extreme and fairly narrow, but the subset sits entirely outside the current Phase 4 toy corridor (frac_in_toy_corridor = 0).
+
+**Joint analysis: host age anchor vs toy corridor**
+
+- Added a joint Stage 2 diagnostic:
+  - `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_host_age_anchor_intersections_v1.py`:
+    - Joins the host age-anchor mask to the joint θ-grid and reports intersections between:
+      - ALL_GRID (2048 points),
+      - FRW_VIABLE (1016 points),
+      - TOY_CORRIDOR (1186 points),
+      - HOST_AGE_ANCHOR (34 points).
+    - Result: all 34 host age-anchor points are FRW-viable, but **none** lie inside the current Phase 4 toy FRW corridor:
+      - `CORRIDOR_AND_HOST_AGE_ANCHOR` = 0
+      - `CORRIDOR_AND_VIABLE_AND_HOST_AGE_ANCHOR` = 0
+    - Output summary: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_age_anchor_intersections_v1.csv`.
+
+**Interpretation (diagnostic, not promoted to claims)**
+
+- These host-age diagnostics are explicitly Stage 2 **toy/host checks**, not phase-level claims:
+  - They show that, on the current θ-grid and ω_Λ mapping, the Phase 4 FRW toy’s notion of age is significantly misaligned with a standard FRW background age for the same ω_Λ.
+  - The host age-anchor subset that matches a reasonable 13.8 Gyr background age is FRW-viable but lives **outside** the existing toy FRW “empirical anchor corridor”.
+- This is treated as:
+  - evidence that the FRW toy needs tightening / redesign before using age as a strong empirical anchor, and
+  - a motivation for the FRW toy healthcheck + host-alignment docs added in this rung.
+- See `stage2/docs/STAGE2_RUNBOOK_AND_INTERPRETATION_v1.md` and `stage2/docs/STAGE2_CODE_AUDIT_AND_HEALTHCHECK_v1.md` for the broader Stage 2 interpretation and audit context, and `stage2/docs/STAGE2_ENDPOINTS_GLOSSARY_v1.md` for exact column semantics of all Stage 2 tables referenced above.
+
