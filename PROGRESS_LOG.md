@@ -5822,3 +5822,74 @@ This rung bundles the FRW “empirical anchor” work (A1–A8) and the first ex
   - a motivation for the FRW toy healthcheck + host-alignment docs added in this rung.
 - See `stage2/docs/STAGE2_RUNBOOK_AND_INTERPRETATION_v1.md` and `stage2/docs/STAGE2_CODE_AUDIT_AND_HEALTHCHECK_v1.md` for the broader Stage 2 interpretation and audit context, and `stage2/docs/STAGE2_ENDPOINTS_GLOSSARY_v1.md` for exact column semantics of all Stage 2 tables referenced above.
 
+
+---
+
+### 2026-01-14 – Stage 2: FRW host age anchor status (Rung H1)
+
+High-level:
+
+- Canonicalised the first FRW host age-anchor experiments into
+  `stage2/docs/STAGE2_FRW_HOST_AGE_ANCHOR_STATUS_v1.md`.
+- The note records how the analytic FRW host background (at fixed ω_Λ) compares to the Phase 4 FRW toy background, and how the resulting host age anchor relates to the existing θ-corridor.
+
+Technical details:
+
+- Host-age cross-check table:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+    - Built by `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`.
+- Background bridge:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_background_bridge_v1.csv`
+    - Built by `stage2/external_frw_host/src/build_frw_background_bridge_v1.py`.
+- Host age-anchor mask + summary:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_summary_v1.csv`
+    - Built by `stage2/external_frw_host/src/flag_external_frw_host_age_anchor_v1.py`.
+- Joint-grid intersections and profiles:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_age_anchor_intersections_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv`
+    - Built by the corresponding Stage 2 scripts.
+
+Key status findings (recorded, not claimed as results):
+
+- The host age anchor (analytic FRW age in [13.3, 14.3] Gyr) is non-empty:
+  - 34 / 2048 θ-points (~1.66% of the grid), all within the FRW-viable mask.
+- In this host age-anchor band:
+  - Host age ≈ 13.6 Gyr, toy FRW age ≈ 12.6 Gyr → ~1 Gyr offset.
+  - Mechanism amplitudes cluster near ~0.0513 with tiny spread.
+  - `frac_in_toy_corridor = 0`, i.e. no overlap between the current θ-corridor and the host age-anchor band.
+- This is explicitly documented as a diagnostic:
+  - The current Phase 4 FRW toy corridor is a **toy-FRW corridor** and is *not* yet an “empirically age-anchored” corridor.
+  - Any future “empirically anchored corridor” must be defined via the host age-anchor mask and/or additional external constraints, and gated through Phase 0 discipline.
+
+
+---
+
+### 2026-01-14 – Phase 4 / Stage 2: FRW toy tightening decision card (Rung H2)
+
+High-level:
+
+- Added `phase4/docs/PHASE4_FRW_TOY_TIGHTENING_DECISION_v1.md` as a design/decision card for how (and whether) to “tighten” the Phase 4 FRW toy in light of Stage 2 FRW host-age diagnostics.
+- Explicitly framed two options:
+  - (A) keep the FRW toy as-is and treat the analytic FRW host as an external diagnostic bench,
+  - (B) introduce a mild, explicitly-calibrated adjustment to align the toy FRW ages more closely with the host ages in a chosen band.
+- For the current repo state, adopted **Option A** as the default: the FRW toy remains unchanged; host-age comparisons stay purely diagnostic.
+
+Technical notes:
+
+- The decision card references and depends on:
+  - `phase4/docs/PHASE4_FRW_TOY_EQUATIONS_v1.md`
+  - `phase4/docs/PHASE4_FRW_TOY_HEALTHCHECK_v1.md`
+  - `phase4/docs/PHASE4_FRW_TOY_HOST_ALIGNMENT_DESIGN_v1.md`
+  - `stage2/docs/STAGE2_FRW_HOST_AGE_ANCHOR_STATUS_v1.md`
+- Any future move towards Option B (toy calibration) is gated by:
+  - a dedicated Phase 4 calibration rung,
+  - a new design note (e.g. `PHASE4_FRW_TOY_HOST_ALIGNMENT_CALIBRATION_v1.md`),
+  - and extended Stage 2 verification scripts (updated host cross-checks, anchor analyses, and pre/post comparisons).
+
+Governance:
+
+- No FRW toy equations are modified by this rung.
+- The θ-corridor remains a **toy FRW corridor**; it is not yet an empirically age-anchored corridor.
+- Host-age anchor sets remain Stage 2 diagnostics; any promotion to “empirical corridor” status requires a separate, explicitly-gated rung.
+
