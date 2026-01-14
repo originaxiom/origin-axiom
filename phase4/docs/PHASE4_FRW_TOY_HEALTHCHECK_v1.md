@@ -345,3 +345,33 @@ Stage 2 finds:
     - or revisiting the toy corridor definition.
   - but it must be treated as a concrete red flag for Phase 4/5 to discuss.
 
+
+### Rung X5: Age monotonicity vs \`omega_lambda\` (Stage 2)
+
+**Script:** \`stage2/external_frw_host/src/check_frw_toy_age_monotonicity_v1.py\`  
+**Table:** \`stage2/external_frw_host/outputs/tables/stage2_external_frw_rung5_toy_age_monotonicity_v1.csv\`
+
+- Input: \`phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv\`.
+- Restrict to the FRW-viable subset (\`frw_viable == 1\`; 1016 rows).
+- Sort that subset by \`omega_lambda\`.
+- Compute finite-difference slopes \`d(age_Gyr)/d(omega_lambda)\` on this sorted sequence.
+
+**Result (current repo state):**
+
+- \`n_theta = 1016\`, \`n_steps = 1015\`.
+- Sign structure of gradients:
+  - \`n_pos = 0\`, \`n_neg = 1015\`, \`n_zero = 0\`.
+- So on the FRW-viable set, \`age_Gyr\` is **strictly decreasing** as \`omega_lambda\` increases.
+- Gradient statistics:
+  - \`grad_min ≈ -4.92\` Gyr per unit \`omega_lambda\`,
+  - \`grad_max ≈ -1.44\` Gyr per unit \`omega_lambda\`,
+  - \`abs_grad_p95 ≈ 4.11\` Gyr per unit \`omega_lambda\`.
+- Value ranges on the FRW-viable set:
+  - \`omega_lambda ∈ [0.3027, 1.6898]\`,
+  - \`age_Gyr ∈ [11.46, 14.97]\`.
+
+**Interpretation:**
+
+- The Phase 4 FRW toy age is **internally well-behaved**: no wiggles or backtracking in \`age_Gyr(omega_lambda)\` over the FRW-viable band.
+- This supports using narrow joint windows in \`(omega_lambda, age_Gyr)\` as empirical anchors, and interpreting the resulting \`theta\`-corridors as slices of a smooth trade-off curve (larger \`omega_lambda\` → younger universe), rather than artifacts of numerical noise.
+

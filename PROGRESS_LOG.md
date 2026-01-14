@@ -5950,3 +5950,92 @@ Governance:
   - properties of the current axiom + mechanism + FRW toy + simple host implementation,
   - not universal claims about real cosmology.
 
+
+2026-01-14 — Stage 2 / FRW host alignment + toy-age monotonicity
+
+Context:
+- Tightening the Phase 4 FRW toy against a simple external FRW host and checking that the toy’s age–ΩΛ behavior is internally sane before attempting any bolder empirical use.
+
+Changes (Stage 2, FRW host belt):
+
+- Added an external-FRW “host” bridge that compares the Phase 4 toy background to an analytic flat-FRW model at fixed ΩΛ:
+  - Script: `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+  - On the FRW-viable subset (1016 / 2048 θ-points), the host ages differ from the Phase 4 toy ages by a mean absolute relative difference of ≈ 0.20. This makes the host useful as an external check, but not yet as a tight calibration.
+
+- Summarised the host vs toy age differences across key subsets:
+  - Script: `stage2/external_frw_host/src/analyze_external_frw_age_contrast_v1.py`
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv`
+  - At the current anchor kernel (FRW-viable ∧ toy-corridor ∧ empirical box), host ages are typically ≈ 10–11 Gyr lower than the toy ages (relative offset ≈ 0.8).
+
+- Built a background “bridge” table that carries both toy and host ages for every θ:
+  - Script: `stage2/external_frw_host/src/build_frw_background_bridge_v1.py`
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_background_bridge_v1.csv`
+  - This becomes the central hub for subsequent host-alignment diagnostics.
+
+- Defined and probed an age window around the observed age of the Universe:
+  - Script: `stage2/external_frw_host/src/analyze_external_frw_age_window_v1.py`
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung4_age_window_summary_v1.csv`
+  - Host age window (current choice): [13.3, 14.3] Gyr.
+  - Identified:
+    - a host-age window set (host in [13.3, 14.3] Gyr),
+    - a toy-age window set (toy in [13.3, 14.3] Gyr),
+    - and their FRW-viable intersections.
+  - Result: host-age window and toy-age window both exist but do not coincide in θ-space; there is currently no θ that is simultaneously in the toy anchor kernel and in the host-age window.
+
+- Promoted the host-age window into a “host age anchor” mask:
+  - Script: `stage2/external_frw_host/src/flag_external_frw_host_age_anchor_v1.py`
+  - Outputs:
+    - Mask: `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
+    - Summary: `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_summary_v1.csv`
+  - Host age anchor = FRW-viable θ-points where the host age lies in [13.3, 14.3] Gyr.
+  - Size: 34 / 2048 grid points (≈ 1.7%). On this set, the toy ages cluster around ≈ 12.6 Gyr, i.e. ~1 Gyr younger than the host.
+
+- Checked how the host-age anchor overlaps with the joint Phase 3–4 corridor and FRW viability:
+  - Script: `stage2/joint_mech_frw_analysis/src/analyze_joint_mech_frw_host_age_anchor_intersections_v1.py`
+  - Output: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_age_anchor_intersections_v1.csv`
+  - Result:
+    - Host-age anchor: 34 θ-points (all FRW-viable),
+    - None of these lie inside the current F1 toy corridor, so
+      `CORRIDOR_AND_VIABLE_AND_HOST_AGE_ANCHOR` is empty at this rung.
+
+- Profiled the host-age anchor set against the joint θ-grid:
+  - Script: `stage2/external_frw_host/src/analyze_external_frw_host_age_anchor_profiles_v1.py`
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv`
+  - On these 34 points:
+    - `omega_lambda` is tightly clustered around ≈ 1.05,
+    - host ages lie in ≈ [13.3, 13.9] Gyr (mean ≈ 13.60 Gyr),
+    - toy ages lie in ≈ [12.47, 12.69] Gyr (mean ≈ 12.58 Gyr),
+    - mechanism baselines sit near A ≈ 0.051 with very small spread,
+    - none of the host-age anchor points are in the current F1 toy corridor.
+
+Toy-age monotonicity (FRW toy sanity check):
+
+- Added an explicit Stage 2 diagnostic that checks whether the Phase 4 FRW toy age is monotone as a function of `omega_lambda` on the FRW-viable band:
+  - Script: `stage2/external_frw_host/src/check_frw_toy_age_monotonicity_v1.py`
+  - Output: `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung5_toy_age_monotonicity_v1.csv`
+
+- Procedure:
+  - Start from `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`.
+  - Restrict to the FRW-viable subset (`frw_viable == 1`), which has 1016 θ-points.
+  - Sort this subset by `omega_lambda`.
+  - Compute finite-difference slopes `d(age_Gyr)/d(omega_lambda)` along the sorted sequence.
+
+- Result:
+  - `n_theta = 1016`, `n_steps = 1015`.
+  - Gradient sign structure: `n_pos = 0`, `n_neg = 1015`, `n_zero = 0`.
+  - So on the FRW-viable set, `age_Gyr` is strictly decreasing as `omega_lambda` increases.
+  - Gradient statistics:
+    - `grad_min ≈ -4.92` Gyr per unit `omega_lambda`,
+    - `grad_max ≈ -1.44` Gyr per unit `omega_lambda`,
+    - `abs_grad_p95 ≈ 4.11` Gyr per unit `omega_lambda`.
+  - Value ranges on the FRW-viable band:
+    - `omega_lambda ∈ [0.3027, 1.6898]`,
+    - `age_Gyr ∈ [11.46, 14.97]`.
+
+Interpretation:
+
+- The external FRW host provides a simple, analytic check on the Phase 4 toy ages; they broadly track the same qualitative trend but are offset at the ≈ 20% level on the FRW-viable set, and ≈ 1 Gyr away on a host-age-like window.
+- The current F1 toy corridor and the host-age anchor do not intersect: there is no θ that simultaneously lies in the mechanism/FRW corridor and in a narrow host-age window around the observed age of the Universe, at the present rung.
+- The FRW toy age is, however, internally well-behaved: `age_Gyr(omega_lambda)` is strictly monotone on the FRW-viable grid. This supports using narrow joint windows in `(omega_lambda, age_Gyr)` as empirical anchors and reading the resulting θ-corridors as slices of a smooth FRW trade-off curve, rather than as artifacts of numerical noise.
+

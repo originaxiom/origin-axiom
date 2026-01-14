@@ -1,0 +1,2 @@
+set,n_theta,n_steps,n_pos,n_neg,n_zero,grad_mean,grad_std,grad_min,grad_max,abs_grad_mean,abs_grad_p95,abs_grad_max,omega_lambda_min,omega_lambda_max,age_Gyr_min,age_Gyr_max
+FRW_VIABLE_sorted_by_omega_lambda,1016,1015,0,1015,0,-2.0213539084655316,0.8447471826889722,-4.91610327064087,-1.4365836967205419,2.0213539084655316,4.1083158637463635,4.91610327064087,0.3026868472821679,1.6898228492606708,11.458118030798577,14.974917009099803
