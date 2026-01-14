@@ -6112,3 +6112,36 @@ Interpretation:
 - All host, kernel, and sensitivity diagnostics are scripted, reproducible
   from the repo, and the working tree is clean and pushed on `main`
   after these changes.
+
+## 2026-01-14 – Stage 2 external hosts + Phase 4 host-alignment wording
+
+**Scope:** Documentation / design-only update, no change to numerical results.
+
+- **Stage 2 / external hosts**
+  - Documented the FRW-host and cosmology-host overlays as strictly *diagnostic* tools:
+    - `stage2/docs/STAGE2_FRW_HOST_HX_SECTION_v1.md`
+    - `stage2/docs/STAGE2_EXTERNAL_COSMO_HOST_DESIGN_v1.md`
+    - `stage2/docs/STAGE2_EXTERNAL_COSMO_HOST_RESULTS_v1.md`
+  - Summarised the current external-host outputs:
+    - FRW-host age cross-checks and age-anchor masks,
+    - cosmology-host age grid, age-contrast, 12-point age∧corridor kernel,
+    - kernel comparison table across: FRW toy, external FRW host, external cosmo host.
+
+- **Phase 4 / host-alignment design**
+  - Updated `PHASE4_FRW_TOY_HOST_ALIGNMENT_DESIGN_v1.md` to:
+    - define the objects in play (θ-grid + mechanism, FRW toy, empirical anchor, external hosts),
+    - specify host-alignment purely as *mask overlaps* and stress-tests on the FRW toy,
+    - formalise the notion of a small θ-kernel where:
+      - FRW toy is FRW-viable and in the toy corridor,
+      - simple external FRW/ΛCDM hosts give Universe-like ages,
+      - mechanism measures remain in a narrow, non-pathological band.
+  - Clarified that these are **not** cosmological measurements or fits, and cannot be promoted to real-physics claims within Phase 4.
+
+- **PHASES.md**
+  - Refined the Phase 4 description to:
+    - include FRW toy + external-host diagnostics and the 12-point θ-kernel as *toy-level* artifacts,
+    - explicitly restrict Phase 4 claims to existence/structure of masks and diagnostics,
+    - defer any real-physics promotion to future gated phases (Phase 5+).
+
+**Claim boundary:** All changes in this entry are *interpretive/organizational*. They do not alter the Stage 2 or Phase 4 numerical outputs; they only make the host-alignment usage and limits explicit under the Phase 0 contract.
+
