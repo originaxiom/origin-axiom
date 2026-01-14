@@ -375,3 +375,104 @@ Stage 2 finds:
 - The Phase 4 FRW toy age is **internally well-behaved**: no wiggles or backtracking in \`age_Gyr(omega_lambda)\` over the FRW-viable band.
 - This supports using narrow joint windows in \`(omega_lambda, age_Gyr)\` as empirical anchors, and interpreting the resulting \`theta\`-corridors as slices of a smooth trade-off curve (larger \`omega_lambda\` → younger universe), rather than artifacts of numerical noise.
 
+
+## Stage 2 cross-check: analytic FRW host vs F1 FRW toy (Belt HX, 2026-01-14)
+
+This section records the first Stage 2 comparison between the Phase 4 F1 FRW toy background and a simple analytic flat-FRW “host” model, as implemented in:
+
+- `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`
+- `stage2/external_frw_host/src/analyze_external_frw_age_contrast_v1.py`
+- `stage2/external_frw_host/src/build_frw_background_bridge_v1.py`
+- `stage2/external_frw_host/src/flag_age_consistent_subset_v1.py`
+- `stage2/external_frw_host/src/check_frw_toy_age_monotonicity_v1.py`
+
+The host model uses a one-parameter flat-FRW age integral (Ω_Λ as control), calibrated once to the Phase 4 toy age at the θ⋆-slice, then evaluated across the full θ-grid. All diagnostics below are **Stage 2 health checks** on the existing F1 toy; they do not promote any external host quantities into Phase-level claims.
+
+### Age comparison: toy vs host
+
+Let `age_Gyr` denote the Phase 4 F1 FRW toy age column and `age_Gyr_host` the analytically computed host age from the Stage 2 bridge. We track
+
+\[
+\Delta t \equiv t_{\text{host}} - t_{\text{toy}}, \qquad
+\delta_t \equiv \frac{t_{\text{host}} - t_{\text{toy}}}{t_{\text{toy}}}.
+\]
+
+On the full θ-grid and key Stage 2 subsets we find:
+
+- **ALL\_GRID (2048 θ-points)**
+  - \(\langle \Delta t \rangle \approx -8.41\ \text{Gyr}\)
+  - \(\langle \delta_t \rangle \approx -0.53\)
+  - Interpretation: globally, the calibrated host ages are on average ~8.4 Gyr **younger** than the toy ages, corresponding to a ~53% relative bias.
+
+- **FRW\_VIABLE subset (1016 points; `frw_viable == True`)**
+  - \(\langle \Delta t \rangle \approx -2.49\ \text{Gyr}\)
+  - \(\langle \delta_t \rangle \approx -0.18\)
+  - Interpretation: among points that pass the internal FRW viability masks, the host ages are still systematically younger, but the bias is reduced to ~2.5 Gyr (~18% relative).
+
+- **CORRIDOR\_AND\_VIABLE subset (154 points; `in_toy_corridor && frw_viable`)**
+  - \(\langle \Delta t \rangle \approx -11.86\ \text{Gyr}\)
+  - \(\langle \delta_t \rangle \approx -0.84\)
+  - Interpretation: within the intersection of the toy FRW corridor and FRW viability, the host ages are on average ~11.9 Gyr younger than the toy ages, i.e. the F1 toy is **very old** compared to the calibrated flat-FRW benchmark in this subset.
+
+- **CORRIDOR\_AND\_VIABLE\_AND\_ANCHOR subset (18 points; `in_toy_corridor && frw_viable && in_empirical_anchor_box`)**
+  - \(\langle \Delta t \rangle \approx -10.87\ \text{Gyr}\)
+  - \(\langle \delta_t \rangle \approx -0.81\)
+  - Interpretation: even inside the empirical FRW anchor box (Ω\_Λ–age window defined in Stage 2), the host ages are ≳10 Gyr younger than the toy ages, with an ~80% relative age mismatch.
+
+These numbers come from `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv` and are **descriptive only**: they certify that the current F1 toy is FRW-shaped but substantially age-shifted relative to a simple calibrated flat-FRW host, especially in the toy-corridor + anchor region.
+
+### Age-consistency mask (20% relative threshold)
+
+The script `stage2/external_frw_host/src/flag_age_consistent_subset_v1.py` constructs a 20% relative age-consistency mask using the host–toy bridge:
+
+\[
+|\delta_t| = \left|\frac{t_{\text{host}} - t_{\text{toy}}}{t_{\text{toy}}}\right| \le 0.20.
+\]
+
+Key outcomes:
+
+- **ALL\_GRID:**
+  - 778 / 2048 points (≈0.38 of the grid) satisfy the 20% age-consistency criterion.
+- **FRW\_VIABLE:**
+  - All 778 age-consistent points lie inside the FRW\_VIABLE set (same counts and fractions).
+- **CORRIDOR\_AND\_VIABLE and CORRIDOR\_AND\_VIABLE\_AND\_ANCHOR:**
+  - 0 points satisfy the 20% age-consistency criterion.
+
+Interpretation:
+
+- There is a substantial region of the θ-grid where the F1 toy ages are in reasonable (≤20%) agreement with the calibrated flat-FRW host.
+- However, **none** of the points that lie simultaneously in the toy FRW corridor, the internal FRW-viable set, and the empirical FRW anchor box are age-consistent at the 20% level. In other words, the currently favoured corridor+anchor region is **age-misaligned** with the simple flat-FRW host, given this calibration.
+
+This is not treated as a failure or a constraint at Phase level; it is a Stage 2 diagnostic that will inform future FRW toy refinements and/or alternative host mappings.
+
+### Monotonicity of toy age with Ω\_Λ on the FRW-viable set
+
+The script `stage2/external_frw_host/src/check_frw_toy_age_monotonicity_v1.py` tests a basic FRW sanity property on the F1 toy: after restricting to FRW-viable points and sorting them by `omega_lambda`, does `age_Gyr` behave monotonically?
+
+Working on the subset:
+
+- FRW\_VIABLE (1016 points; `frw_viable == True`), sorted by `omega_lambda`,
+
+we compute discrete gradients
+
+\[
+\Delta t_i = t_{\text{toy}, i+1} - t_{\text{toy}, i}
+\]
+
+along the sorted sequence. Summary statistics:
+
+- number of steps: 1015
+- `n_pos = 0`, `n_neg = 1015`, `n_zero = 0`
+- `grad_mean ≈ -2.02 Gyr`, `grad_std ≈ 0.84 Gyr`
+- `grad_min ≈ -4.92 Gyr`, `grad_max ≈ -1.44 Gyr`
+- `omega_lambda` ranges from ≈0.30 to ≈1.69 on this subset
+- `age_Gyr` decreases from ≈14.97 Gyr down to ≈11.46 Gyr
+
+Interpretation:
+
+- On the FRW-viable grid, the F1 toy age is **strictly monotone decreasing** in `omega_lambda`, with no sign flips in the discrete gradient.
+- This is consistent with the expected qualitative behaviour of flat FRW backgrounds as the vacuum-dominated component increases.
+- The monotonicity check therefore **supports** the internal structural sanity of the F1 toy, independently of its absolute age calibration against the external host.
+
+All of the above Stage 2 diagnostics are recorded to make future FRW toy revisions and host mappings traceable. They do not, by themselves, promote or demote any Phase 4 claims; instead they define a quantitative baseline that any future FRW toy revision should at least match or improve upon.
+
