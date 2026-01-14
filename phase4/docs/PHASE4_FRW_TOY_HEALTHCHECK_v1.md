@@ -476,3 +476,46 @@ Interpretation:
 
 All of the above Stage 2 diagnostics are recorded to make future FRW toy revisions and host mappings traceable. They do not, by themselves, promote or demote any Phase 4 claims; instead they define a quantitative baseline that any future FRW toy revision should at least match or improve upon.
 
+
+---
+
+## FRW toy v1: verdict and use constraints
+
+This section records the current verdict on the FRW toy v1 age behaviour and how it must be interpreted going forward.
+
+- On the FRW-viable subset of the θ-grid (as defined by the Phase 4 FRW masks),
+  the toy age column `age_Gyr` in `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  is **strictly monotone in** `omega_lambda` when sorted by `omega_lambda`. A Stage 2
+  host healthcheck (`stage2/external_frw_host/outputs/tables/stage2_external_frw_rung5_toy_age_monotonicity_v1.csv`)
+  confirms that, on the viable set, all discrete θ-steps have **negative** age gradients
+  with respect to increasing `omega_lambda`.
+
+- In standard flat–ΛCDM FRW backgrounds, increasing Ω\_Λ at fixed H\_0 tends to
+  **increase** the age of the Universe, not decrease it. The toy’s monotone behaviour
+  therefore has the **wrong sign** relative to the usual ΛCDM intuition.
+
+- A separate Stage 2 host cross-check (`stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+  and `...rung2_age_contrast_v1.csv`) compares the toy ages to an analytic flat–ΛCDM
+  age calculator using the same `omega_lambda` values. On the FRW-viable set, the
+  external FRW host ages agree at the order-of-magnitude level, but the discrepancy
+  grows large and structured in the “toy corridor” and empirical-anchor regions
+  used for Stage 2 diagnostics.
+
+**Interpretation constraints:**
+
+- The **FRW toy age** should be treated as an **internal ordering proxy** along the θ-grid
+  (it provides a monotone dial on the viable subset), **not** as a calibrated FRW age
+  model for the real Universe.
+
+- Any statements that rely on **absolute or comparative ages** (e.g. “13–14 Gyr window”
+  around the observed Universe age) must be made using the **external FRW host outputs**
+  in Stage 2 (e.g. the analytic host tables and future CLASS/CCL-based hosts),
+  not the raw Phase 4 toy age column.
+
+- The Phase 4 toy FRW layer remains valuable as a **structured, reproducible diagnostic
+  playground** for the axiom’s θ-grid, but the **authoritative FRW background for age**
+  and related anchors lives in Stage 2 external-host belts.
+
+These constraints are part of the Phase 0 discipline: they prevent over-claiming from
+the Phase 4 toy implementation and make explicit that any real-physics age contact
+must pass through the external FRW / cosmology hosts.
