@@ -4,18 +4,8 @@ Stage2 / external_cosmo_host / H7:
 Build a compact comparison table for three kernels:
 
 1) FRW_TOY_ANCHOR_KERNEL
-   - from stage2_joint_mech_frw_anchor_kernel_v1.csv
-   - internal FRW toy + mechanism + empirical anchor (corridor ∧ FRW ∧ anchor)
-
 2) EXTERNAL_FRW_HOST_AGE_ANCHOR
-   - from stage2_external_frw_host_age_anchor_mask_v1.csv
-   - external FRW host age anchor (host ages in observational window)
-
 3) EXTERNAL_COSMO_HOST_AGE_CORRIDOR_KERNEL
-   - from stage2_external_cosmo_host_age_anchor_corridor_kernel_v1.csv
-   - external cosmo host age anchor ∧ FRW_viable ∧ toy corridor (12-point band)
-
-The output is a single CSV with per-kernel summary rows.
 """
 
 from pathlib import Path
@@ -24,21 +14,16 @@ import pandas as pd
 
 
 def repo_root_from_file() -> Path:
-    # This script lives under:
-    #   repo_root / stage2 / external_cosmo_host / src / build_external_host_kernel_comparison_v1.py
     return Path(__file__).resolve().parents[3]
 
 
 def safe_stats(df: pd.DataFrame, col: str | None):
-    """Return (mean, min, max) for a column, or (nan, nan, nan) if missing/empty."""
     if col is None or col not in df.columns:
         return (np.nan, np.nan, np.nan)
-
     s = pd.to_numeric(df[col], errors="coerce")
     s = s.replace([np.inf, -np.inf], np.nan).dropna()
     if s.empty:
         return (np.nan, np.nan, np.nan)
-
     return (float(s.mean()), float(s.min()), float(s.max()))
 
 
@@ -77,7 +62,7 @@ def summarize_kernel(
     baseline_mean = mech_mean(df, "mech_baseline_A0")
     binding_mean = mech_mean(df, "mech_binding_A0")
 
-    row = {
+    return {
         "set_name": label,
         "n_theta": n_theta,
         "theta_min": theta_min,
@@ -98,8 +83,6 @@ def summarize_kernel(
         "mech_binding_A0_mean": binding_mean,
     }
 
-    return row
-
 
 def main():
     repo_root = repo_root_from_file()
@@ -113,7 +96,6 @@ def main():
         / "tables"
         / "stage2_joint_mech_frw_anchor_kernel_v1.csv"
     )
-
     frw_host_age_mask_path = (
         repo_root
         / "stage2"
@@ -122,7 +104,6 @@ def main():
         / "tables"
         / "stage2_external_frw_host_age_anchor_mask_v1.csv"
     )
-
     cosmo_kernel_path = (
         repo_root
         / "stage2"
@@ -136,7 +117,6 @@ def main():
         if not p.exists():
             raise FileNotFoundError(f"[external_cosmo_host_H7] Missing expected input: {p}")
 
-    # Load tables
     frw_df = pd.read_csv(frw_kernel_path)
     host_frw_df = pd.read_csv(frw_host_age_mask_path)
     cosmo_df = pd.read_csv(cosmo_kernel_path)
@@ -144,39 +124,53 @@ def main():
     print(
         "[external_cosmo_host_H7] Input sizes:",
         f"FRW kernel: {len(frw_df)} rows,",
-        f"FRW host age-anchor: {len(host_frw_df)} rows,",
+        f"FRW host age-anchor mask: {len(host_frw_df)} rows,",
         f"cosmo-host corridor kernel: {len(cosmo_df)} rows",
     )
 
     rows: list[dict] = []
 
-    # 1) Internal FRW toy anchor kernel (Phase 4 + Stage2 mech)
+    # 1) Internal FRW toy anchor kernel
+    #    NB: this kernel file is a 2-row segment summary, so many stats will be NaN;
+    #    that's acceptable as a placeholder until we add a per-theta kernel table.
     rows.append(
         summarize_kernel(
             label="FRW_TOY_ANCHOR_KERNEL",
             df=frw_df,
-            theta_col="theta",
-            omega_col="omega_lambda",
+            theta_col="theta",          # if missing, stats become NaN
+            omega_col="omega_lambda",   # likewise
             age_repo_col="age_Gyr",
             age_host_frw_col=None,
             age_host_cosmo_col=None,
         )
     )
 
-    # 2) External FRW host age-anchor (host ages in observed window)
+    # 2) External FRW host age-anchor subset only
+    anchor_col = "in_host_age_anchor_box"
+    if anchor_col not in host_frw_df.columns:
+        raise RuntimeError(
+            f"[external_cosmo_host_H7] Expected column '{anchor_col}' "
+            f"in host age-anchor mask table."
+        )
+    host_frw_anchor_df = host_frw_df[host_frw_df[anchor_col].astype(bool)].copy()
+    print(
+        "[external_cosmo_host_H7] FRW host age-anchor subset size:",
+        len(host_frw_anchor_df),
+    )
+
     rows.append(
         summarize_kernel(
             label="EXTERNAL_FRW_HOST_AGE_ANCHOR",
-            df=host_frw_df,
+            df=host_frw_anchor_df,
             theta_col="theta",
             omega_col="omega_lambda",
-            age_repo_col="age_Gyr",
+            age_repo_col="age_Gyr",        # may be absent; then will show NaN
             age_host_frw_col="age_Gyr_host",
             age_host_cosmo_col=None,
         )
     )
 
-    # 3) External cosmo-host age–corridor kernel (12-point theta band)
+    # 3) External cosmo-host age–corridor kernel (12-point θ band)
     rows.append(
         summarize_kernel(
             label="EXTERNAL_COSMO_HOST_AGE_CORRIDOR_KERNEL",
