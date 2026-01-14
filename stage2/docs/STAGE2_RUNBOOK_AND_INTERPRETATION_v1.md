@@ -407,3 +407,161 @@ Stage 2’s next role is to guide:
 - **targeted refinements** (better FRW toy, alternative anchors, refined mechanism corridors),
 - without breaking Phase 0 governance or over-claiming.
 
+
+
+## FRW host background & age diagnostics (Belt HX, 2026-01-14)
+
+This section describes how to re-run the Stage 2 “external FRW host” checks that compare the Phase 4 F1 FRW toy against a simple analytic flat-FRW background, and how to read the key outputs.
+
+All commands are assumed to be run from the repo root with the `oa` alias active.
+
+### HX.1 – Build analytic FRW host ages and cross-check table
+
+**Command:**
+
+```bash
+oa && python stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py
+oa && python stage2/external_frw_host/src/analyze_external_frw_age_contrast_v1.py
+```
+
+**What this does:**
+
+- Recomputes an analytic flat-FRW age for each θ-point, using Ω_Λ as the control parameter and a single calibration at the θ⋆ slice.
+- Writes the host vs toy comparison to:
+
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv`
+
+**Quick checks:**
+
+```bash
+oa && sed -n '1,10p' stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv
+```
+
+- Key columns: `set`, `age_Gyr_diff_mean`, `age_Gyr_rel_diff_mean` for:
+  - `ALL_GRID`
+  - `FRW_VIABLE`
+  - `CORRIDOR_AND_VIABLE`
+  - `CORRIDOR_AND_VIABLE_AND_ANCHOR`
+
+
+### HX.2 – Build FRW host–toy bridge and 20% age-consistency mask
+
+**Command:**
+
+```bash
+oa && python stage2/external_frw_host/src/build_frw_background_bridge_v1.py
+oa && python stage2/external_frw_host/src/flag_age_consistent_subset_v1.py
+```
+
+**What this does:**
+
+- `build_frw_background_bridge_v1.py`:
+
+  - Joins the host ages back to the joint θ-grid to form:
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_background_bridge_v1.csv`
+
+- `flag_age_consistent_subset_v1.py`:
+
+  - Uses the bridge to compute a 20% relative age-consistency mask:
+
+    |(t_host - t_toy) / t_toy| ≤ 0.20
+
+  - Writes:
+
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung3_age_consistency_mask_v1.csv`
+
+**Quick checks:**
+
+```bash
+oa && sed -n '1,10p' stage2/external_frw_host/outputs/tables/stage2_external_frw_rung3_age_consistency_mask_v1.csv
+```
+
+- Columns to look at: `set`, `n_theta`, `frac_of_grid`, especially for:
+  - `ALL_GRID`
+  - `FRW_VIABLE`
+  - `CORRIDOR_AND_VIABLE`
+  - `CORRIDOR_AND_VIABLE_AND_ANCHOR`
+
+
+### HX.3 – Age windows around the observed Universe
+
+**Command:**
+
+```bash
+oa && python stage2/external_frw_host/src/analyze_external_frw_age_window_v1.py
+oa && python stage2/external_frw_host/src/flag_external_frw_host_age_anchor_v1.py
+oa && python stage2/external_frw_host/src/analyze_external_frw_host_age_anchor_profiles_v1.py
+```
+
+**What this does:**
+
+- `analyze_external_frw_age_window_v1.py`:
+
+  - Uses the bridge table and a fixed host age window (currently [13.3, 14.3] Gyr) to define:
+    - `HOST_AGE_WINDOW`
+    - `TOY_AGE_WINDOW`
+  - Summarises:
+
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung4_age_window_summary_v1.csv`
+
+- `flag_external_frw_host_age_anchor_v1.py`:
+
+  - Flags a **host age anchor** set in the same [13.3, 14.3] Gyr window.
+  - Writes:
+
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_summary_v1.csv`
+
+- `analyze_external_frw_host_age_anchor_profiles_v1.py`:
+
+  - Profiles the host age-anchor set against the joint θ-grid.
+  - Writes:
+
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv`
+
+**Quick checks:**
+
+```bash
+oa && sed -n '1,10p' stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_summary_v1.csv
+oa && sed -n '1,5p'  stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv
+```
+
+- Interpretation prompts (for paper drafts / notes):
+
+  - How many θ-points land in the host age anchor window?
+  - What is the mean/measured range of `omega_lambda`, `age_Gyr_host`, and `age_Gyr_toy` on that set?
+  - Does the host age anchor intersect the toy FRW corridor or the empirical FRW anchor masks?
+
+
+### HX.4 – Monotonicity of toy age vs ΩΛ on FRW-viable set
+
+**Command:**
+
+```bash
+oa && python stage2/external_frw_host/src/check_frw_toy_age_monotonicity_v1.py
+```
+
+**What this does:**
+
+- Restricts the Phase 4 F1 FRW toy table to the FRW-viable subset (`frw_viable == True`).
+- Sorts this subset by `omega_lambda`.
+- Computes discrete gradients of `age_Gyr` along that ordering and summarises how many steps are:
+  - positive, negative, or zero;
+  - their mean / std / min / max and 95th percentile of |gradient|.
+
+- Writes:
+
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung5_toy_age_monotonicity_v1.csv`
+
+**Quick checks:**
+
+```bash
+oa && sed -n '1,5p' stage2/external_frw_host/outputs/tables/stage2_external_frw_rung5_toy_age_monotonicity_v1.csv
+```
+
+- For the current F1 toy, we see:
+  - `n_pos = 0`, `n_neg = 1015`, `n_zero = 0` on the FRW-viable set.
+  - This certifies strict monotone *decrease* of `age_Gyr` with `omega_lambda` on that subset, which is FRW-sane even if the absolute age calibration differs from the host.
+
+All HX diagnostics are **Stage 2 health checks**: they probe the FRW toy against a simple external FRW host but do not, by themselves, change any Phase 4 claims. Any future FRW toy revision or host mapping update should keep this belt reproducible and at least as well documented.
