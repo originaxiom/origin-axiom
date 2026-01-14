@@ -275,3 +275,67 @@ What we can safely do next, building on this:
    - Phase 5:
      - Use the kernel as one of the dashboard panels (e.g. in an “anchor kernel overview” figure).
 
+
+---
+
+## H7: External host kernel comparison (FRW toy vs FRW host vs cosmo host)
+
+We gather three small kernel-like subsets into a single comparison table:
+
+- **Input table:** `stage2/external_cosmo_host/outputs/tables/stage2_external_host_kernel_comparison_v1.csv`
+- **Builder script:** `stage2/external_cosmo_host/src/build_external_host_kernel_comparison_v1.py`
+
+The three rows are:
+
+1. **FRW_TOY_ANCHOR_KERNEL** (internal toy segment)
+   - Source: `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_kernel_v1.csv`
+   - Size: `n_theta = 2`
+   - Role: a minimal internal reference segment for the Phase 4 FRW toy (most aggregate stats are intentionally left undefined / NaN).
+
+2. **EXTERNAL_FRW_HOST_AGE_ANCHOR** (FRW host, age-only anchor)
+   - Source: `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
+   - Selection (reconstructed numerically in H7):
+     - FRW-viable (`frw_viable = True` if present),
+     - external FRW host age in the observational window: **13.3–14.3 Gyr**.
+   - Size: `n_theta = 34`
+   - Approximate profiles:
+     - θ-range: ~**[0.79, 3.17]**,
+     - repo-side Λ-band: `omega_lambda` ≈ **1.05** with min / max ~[1.00, 1.10],
+     - host ages: `age_Gyr_host` ≈ **13.60 Gyr**, spanning roughly [13.31, 13.90] Gyr.
+
+3. **EXTERNAL_COSMO_HOST_AGE_CORRIDOR_KERNEL** (cosmo host, corridor kernel)
+   - Source: `stage2/external_cosmo_host/outputs/tables/stage2_external_cosmo_host_age_anchor_corridor_kernel_v1.csv`
+   - Selection: points that simultaneously satisfy
+     - FRW-viable,
+     - inside the Phase 4 FRW **toy corridor**,
+     - inside the cosmo-host **age window** [13.3, 14.3] Gyr.
+   - Size: `n_theta = 12`
+   - Approximate profiles:
+     - θ-range: ~**[0.64, 3.32]**,
+     - repo-side Λ-band: `omega_lambda_repo` ≈ **0.706** with min / max ~[0.689, 0.723],
+     - toy ages: `age_Gyr_repo` ≈ **13.45 Gyr** (very narrow spread ~0.03 Gyr),
+     - cosmo-host ages: `age_Gyr_host` ≈ **13.55 Gyr** (spread ~0.14 Gyr),
+     - mechanism:
+       - `mech_baseline_A0` and `mech_binding_A0` ≈ **0.04638**,
+       - scatter across the 12 points is O(10^-4),
+       - corresponding `*_bound` flags are zero over this kernel.
+
+### Interpretation (Phase-4/5 safe reading)
+
+- The **FRW host age-anchor** (34 points) shows there is a moderately broad θ-band where an *external flat-ΛCDM host* assigns Universe-like ages (13.3–14.3 Gyr) to the Stage 2 grid.
+- The **cosmo-host age–corridor kernel** (12 points) is a much narrower θ-band lying *inside* both:
+  - the Phase 4 FRW toy corridor, and
+  - an external ΛCDM cosmology slice with observationally reasonable ages.
+
+Within this 12-point band:
+
+1. Toy ages and external cosmo-host ages are both close to the observed Universe age,
+2. Repo-side Λ (from the FRW toy) sits in a narrow strip around ~0.70,
+3. The Stage 2 mechanism (`A0`-type columns) is well-behaved and tightly clustered.
+
+We **do not** claim this kernel uniquely identifies the real Universe. Instead, we treat it as:
+
+> a compact, inspectable region of the θ-grid where the FRW toy, an external cosmology, and the Stage 2 mechanism agree on Universe-like ages and a narrow Λ-band.
+
+This region is a natural candidate for Phase 5 “first contact” dashboards (e.g. as an **anchor-kernel panel**), and a convenient testbed for any future modifications to the FRW toy or mechanism.
+
