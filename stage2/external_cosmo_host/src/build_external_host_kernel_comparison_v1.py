@@ -4,7 +4,7 @@ Stage2 / external_cosmo_host / H7:
 Build a compact comparison table for three kernels:
 
 1) FRW_TOY_ANCHOR_KERNEL
-2) EXTERNAL_FRW_HOST_AGE_ANCHOR
+2) EXTERNAL_FRW_HOST_AGE_ANCHOR   (reconstructed numerically: FRW-viable ∧ host age in [13.3, 14.3] Gyr)
 3) EXTERNAL_COSMO_HOST_AGE_CORRIDOR_KERNEL
 """
 
@@ -124,37 +124,45 @@ def main():
     print(
         "[external_cosmo_host_H7] Input sizes:",
         f"FRW kernel: {len(frw_df)} rows,",
-        f"FRW host age-anchor mask: {len(host_frw_df)} rows,",
+        f"FRW host age-anchor mask table: {len(host_frw_df)} rows,",
         f"cosmo-host corridor kernel: {len(cosmo_df)} rows",
     )
 
     rows: list[dict] = []
 
-    # 1) Internal FRW toy anchor kernel
-    #    NB: this kernel file is a 2-row segment summary, so many stats will be NaN;
-    #    that's acceptable as a placeholder until we add a per-theta kernel table.
+    # 1) Internal FRW toy anchor kernel (2-row segment summary; many stats will be NaN)
     rows.append(
         summarize_kernel(
             label="FRW_TOY_ANCHOR_KERNEL",
             df=frw_df,
             theta_col="theta",          # if missing, stats become NaN
-            omega_col="omega_lambda",   # likewise
+            omega_col="omega_lambda",
             age_repo_col="age_Gyr",
             age_host_frw_col=None,
             age_host_cosmo_col=None,
         )
     )
 
-    # 2) External FRW host age-anchor subset only
-    anchor_col = "in_host_age_anchor_box"
-    if anchor_col not in host_frw_df.columns:
+    # 2) External FRW host age-anchor subset reconstructed numerically:
+    #    FRW-viable AND host age in [13.3, 14.3] Gyr
+    if "age_Gyr_host" not in host_frw_df.columns:
         raise RuntimeError(
-            f"[external_cosmo_host_H7] Expected column '{anchor_col}' "
-            f"in host age-anchor mask table."
+            "[external_cosmo_host_H7] Expected column 'age_Gyr_host' "
+            "in FRW host age-anchor mask table."
         )
-    host_frw_anchor_df = host_frw_df[host_frw_df[anchor_col].astype(bool)].copy()
+
+    # FRW viability mask (if present)
+    if "frw_viable" in host_frw_df.columns:
+        frw_mask = host_frw_df["frw_viable"].astype(bool).values
+    else:
+        frw_mask = np.ones(len(host_frw_df), dtype=bool)
+
+    age = pd.to_numeric(host_frw_df["age_Gyr_host"], errors="coerce").values
+    anchor_mask = frw_mask & np.isfinite(age) & (age >= 13.3) & (age <= 14.3)
+
+    host_frw_anchor_df = host_frw_df[anchor_mask].copy()
     print(
-        "[external_cosmo_host_H7] FRW host age-anchor subset size:",
+        "[external_cosmo_host_H7] FRW host age-anchor subset size (reconstructed):",
         len(host_frw_anchor_df),
     )
 
@@ -164,7 +172,7 @@ def main():
             df=host_frw_anchor_df,
             theta_col="theta",
             omega_col="omega_lambda",
-            age_repo_col="age_Gyr",        # may be absent; then will show NaN
+            age_repo_col="age_Gyr",        # may be absent; then age_repo stats will be NaN
             age_host_frw_col="age_Gyr_host",
             age_host_cosmo_col=None,
         )
