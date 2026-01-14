@@ -241,3 +241,107 @@ This healthcheck is therefore a **guardrail**: it preserves the value of the cur
 as an honest worked example, while keeping the door open for more refined, host-calibrated FRW layers in
 future phases and stages.
 
+
+---
+
+## 3. Stage 2 healthchecks on the FRW toy (2026-01-14 snapshot)
+
+This section records the current Stage 2 diagnostics that directly probe the FRW toy background and its alignment with a simple external FRW host model.
+
+All tables and scripts referenced here are reproducible from the repo; see `stage2/docs/STAGE2_RUNBOOK_AND_INTERPRETATION_v1.md` and `stage2/docs/STAGE2_ENDPOINTS_GLOSSARY_v1.md` for details.
+
+### 3.1 Internal FRW toy corridor and empirical anchor
+
+Internal toy diagnostics (no external host) are based on:
+
+- `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+- Stage 2 FRW corridor outputs in:
+  - `stage2/frw_corridor_analysis/outputs/tables/*.csv`
+- Empirical anchor mask:
+  - `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`
+- Joint intersections and profiles:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_*_v1.csv`
+
+Snapshot of what the FRW toy passes:
+
+- **FRW-viable set (`frw_viable == 1`):**
+  - ~50% of the θ–grid (≈ 1016 / 2048) produce a FRW background that passes the internal viability checks (Big Bang, matter era, late acceleration, smooth \(H^2\), etc).
+- **Toy corridor (`in_toy_corridor == 1`):**
+  - ~58% of the grid (≈ 1186 / 2048) lie in the Phase 4–defined FRW toy corridor.
+- **Intersection (`CORRIDOR_AND_VIABLE`):**
+  - ~7.5% of the grid (154 / 2048) are both FRW-viable and in the toy corridor.
+
+Empirical anchor box (toy-only):
+
+- Defined as a small box in (`omega_lambda`, `age_Gyr`) (see `PHASE4_EMPIRICAL_ANCHOR_DESIGN_v1.md`).
+- Stage 2 finds:
+  - `EMPIRICAL_ANCHOR`: 18 points (18 / 2048 ≈ 0.9% of grid).
+  - All 18 lie in:
+    - `FRW_VIABLE`,
+    - `TOY_CORRIDOR`,
+    - so also in `CORRIDOR_AND_VIABLE`.
+  - These 18 points form **two disjoint contiguous θ–segments** of length 9 each, both at O(1) distance from θ★.
+
+Mechanism behaviour in this toy-anchor kernel:
+
+- Mechanism amplitudes (`mech_baseline_A0`, `mech_binding_A0`, etc.) cluster tightly around ~0.046 with very small spread.
+- This contrasts with the broader FRW-viable and corridor-wide distributions.
+
+**Healthcheck conclusion (toy-only):**
+
+- The FRW toy is capable of producing a small kernel of θ values that:
+  - pass the internal FRW viability conditions,
+  - lie in the Phase 4 FRW corridor,
+  - and sit inside a simple background-consistency box.
+- However, this kernel:
+  - is small (18 points),
+  - is disconnected in θ (two segments),
+  - and does **not** contain θ★.
+
+### 3.2 External FRW host age cross-checks
+
+Stage 2 also compares the toy ages to a simple analytic flat-FRW “host” model, using:
+
+- `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`
+- `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+- Summary:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv`
+  - age-consistency mask:
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung3_age_consistency_mask_v1.csv`
+
+Key findings (current snapshot):
+
+- On the full grid:
+  - mean age difference (host − toy) is large and negative (toy universes are typically older).
+- On the FRW-viable subset:
+  - mean relative age difference is ~18–20% in magnitude.
+- On the FRW corridor ∧ viable:
+  - toy ages can be significantly older than host ages (differences O(10 Gyr)).
+
+A host-age anchor window is defined as:
+
+- `age_Gyr_host ∈ [13.3, 14.3]` Gyr
+  - implemented in:
+    - `flag_external_frw_host_age_anchor_v1.py`
+    - with outputs:
+      - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
+      - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv`
+
+Stage 2 finds:
+
+- Host-age anchor:
+  - 34 points (34 / 2048 ≈ 1.7% of grid), all FRW-viable in the host model.
+- Intersection with the **current** FRW toy corridor:
+  - `CORRIDOR_AND_HOST_AGE_ANCHOR`: 0 points.
+  - `CORRIDOR_AND_VIABLE_AND_HOST_AGE_ANCHOR`: 0 points.
+
+**Healthcheck conclusion (host age):**
+
+- With the current toy equations and mapping, the Phase 4 FRW corridor does **not** intersect the simple host-age anchor band at all.
+- This is a **tension**, not yet a proof of failure:
+  - it may be resolved by:
+    - changing the toy age normalisation,
+    - adjusting the mapping from mechanism outputs to \(\Omega_\Lambda\),
+    - or revisiting the toy corridor definition.
+  - but it must be treated as a concrete red flag for Phase 4/5 to discuss.
+

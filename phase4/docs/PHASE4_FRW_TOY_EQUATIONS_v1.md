@@ -316,3 +316,100 @@ This is not a bug in the Phase 4 toy; it reflects that:
 Until then, the statements in this file remain **diagnostic and
 structural**, not physics claims.
 
+
+---
+
+## 2. Current toy FRW background implementation (2026-01-14 snapshot)
+
+This section records the *actual* FRW background used by the Phase 4 toy as it stands now, and how it feeds the key table:
+
+- `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+
+### 2.1 Flat FRW backbone and parameters
+
+The toy assumes a spatially flat FRW background with matter + cosmological-constant–like vacuum, with radiation either neglected or absorbed into an effective early-time behaviour. The backbone is:
+
+\[
+H^2(a) \;=\; H_0^2 \left[ \Omega_m a^{-3} + \Omega_\Lambda(\theta) \right],
+\]
+
+with:
+
+- \(a\) – scale factor (normalised so \(a=1\) today),
+- \(H_0\) – a fixed Hubble constant used internally by the toy (not fit to data),
+- \(\Omega_m\) – fixed matter fraction (toy constant),
+- \(\Omega_\Lambda(\theta)\) – effective vacuum fraction coming from the mechanism.
+
+In the code, the toy works in a dimensionless time variable first, then rescales to Gyr; the final age is stored as:
+
+- `age_Gyr` – the toy age of the Universe (from the FRW integrator),
+- `omega_lambda` – the effective \(\Omega_\Lambda(\theta)\) used in the toy for that θ.
+
+### 2.2 Mapping from mechanism to FRW toy quantities
+
+Conceptually, the chain is:
+
+\[
+\theta \;\longrightarrow\; E_{\text{vac}}(\theta)
+\;\longrightarrow\; \Omega_\Lambda(\theta)
+\;\longrightarrow\; H(a;\theta) \;\longrightarrow\; t_0^{\text{toy}}(\theta).
+\]
+
+Implementation-wise:
+
+1. **Mechanism layer (Phase 3 / Stage 2).**
+   - For each grid point θ:
+     - The mechanism provides a vacuum-scale quantity \(E_{\text{vac}}(\theta)\) or an equivalent amplitude.
+   - This is recorded in the joint θ–grid as:
+     - `E_vac`, `mech_baseline_A0`, `mech_binding_A0`, etc.
+
+2. **FRW toy mapping.**
+   - The toy maps this vacuum-scale into an effective \(\Omega_\Lambda(\theta)\):
+     - stored as `omega_lambda` in the Phase 4 FRW tables and the Stage 2 joint grid.
+   - The exact mapping function (units, rescalings) is governed by the current Phase 3 + Phase 4 implementation; this doc treats it as a black box that yields a dimensionless \(\Omega_\Lambda\in(0,1)\) at each θ.
+
+3. **Age integral.**
+   - For each θ, given \(\Omega_m\) and \(\Omega_\Lambda(\theta)\), the toy computes a dimensionless age:
+     \[
+     t_0^{\text{dimless}}(\theta)
+     \;=\;
+     \int_0^1 \frac{da}{a\,H(a;\theta)/H_0}
+     \;=\;
+     \int_0^1 \frac{da}{a\sqrt{\Omega_m a^{-3} + \Omega_\Lambda(\theta)}}.
+     \]
+   - This is then rescaled to Gyr with a fixed conversion factor:
+     \[
+     t_0^{\text{toy}}(\theta) = t_0^{\text{dimless}}(\theta) \times \mathcal{C}_{\text{toy}},
+     \]
+     where \(\mathcal{C}_{\text{toy}}\) is a global constant set by the implementation.
+   - The result is stored as:
+     - `age_Gyr` in the FRW toy tables.
+
+### 2.3 Where these quantities appear in the repo
+
+The main FRW toy outputs live in:
+
+- `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+
+with columns including:
+
+- `theta`, `E_vac`, `omega_lambda`, `age_Gyr`,
+- FRW toy flags:
+  - `has_matter_era`, `has_late_accel`, `smooth_H2`,
+  - `frw_viable`, `lcdm_like`, `shape_and_viable`, `shape_and_lcdm`.
+
+Stage 2 copies these into the joint grid:
+
+- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
+
+and operates on the same `omega_lambda` and `age_Gyr` when constructing:
+
+- FRW corridor families,
+- empirical anchor masks,
+- external-host comparisons.
+
+Any changes to the FRW toy equations or the mapping \(\theta \mapsto \Omega_\Lambda(\theta)\) must therefore be reflected in both:
+
+- this document, and
+- the Stage 2 endpoints glossary (`stage2/docs/STAGE2_ENDPOINTS_GLOSSARY_v1.md`).
+

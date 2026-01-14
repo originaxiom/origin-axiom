@@ -5920,3 +5920,33 @@ Governance:
   - the current implementation of the axiom + mechanism + FRW toy + simple FRW host,
   - not about definitive fits to real cosmological data.
 
+
+---
+
+### 2026-01-14 – Phase 4 FRW toy tightening: equations + healthchecks + host alignment snapshot (Rung H4)
+
+High-level:
+
+- Appended concrete FRW background and diagnostic content to the Phase 4 FRW toy docs:
+  - `phase4/docs/PHASE4_FRW_TOY_EQUATIONS_v1.md`
+    - Recorded the actual flat-FRW backbone, the θ → (E_vac, omega_lambda, age_Gyr) mapping, and where these quantities live in the repo (`phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`, `stage2_joint_theta_grid_v1.csv`).
+  - `phase4/docs/PHASE4_FRW_TOY_HEALTHCHECK_v1.md`
+    - Summarised Stage 2 FRW corridor + empirical anchor results (18-point toy empirical anchor kernel, two disjoint θ segments, not containing θ★).
+    - Summarised external FRW host age cross-checks and the current tension: host-age anchor band (34 points) does not intersect the Phase 4 toy corridor.
+  - `phase4/docs/PHASE4_FRW_TOY_HOST_ALIGNMENT_DESIGN_v1.md`
+    - Captured a status snapshot of the implemented external-host belt and its current alignment/misalignment pattern, to guide future tightening.
+
+Governance:
+
+- No new code or masks were introduced in this rung; we only documented the behaviour of existing pipelines:
+  - Stage 2 FRW corridor + empirical anchor belt:
+    - `stage2/frw_corridor_analysis/outputs/tables/...`
+    - `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`
+    - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_*_v1.csv`
+  - Stage 2 external FRW host belt:
+    - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung*_age_*_v1.csv`
+    - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_*_v1.csv`
+- All numerical statements in these docs are snapshots of the current repo and are explicitly framed as:
+  - properties of the current axiom + mechanism + FRW toy + simple host implementation,
+  - not universal claims about real cosmology.
+

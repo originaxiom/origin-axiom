@@ -287,3 +287,83 @@ This section just sketches **possible** future rungs; they are not active until 
   - explore minimal host-aligned refinements,
   - and design promotion gates for any host-based empirical claims.
 
+
+---
+
+## 3. Status snapshot: what the external host alignment currently shows
+
+This section documents, for Phase 4 and Phase 5, what the **implemented** Stage 2 external-host belt actually reports. It is not a final design, but a snapshot that future revisions must keep in view.
+
+### 3.1 Implemented host belt
+
+The current external FRW host alignment pipeline consists of:
+
+- Analytic host age integrator:
+  - `stage2/external_frw_host/src/compute_analytic_frw_ages_v1.py`
+  - gives `age_Gyr_host` for each θ, based on a flat-FRW model with:
+    - fixed \(\Omega_m\),
+    - variable \(\Omega_\Lambda(\theta)\) taken from the joint grid.
+- Age cross-check and contrast:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung1_age_crosscheck_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung2_age_contrast_v1.csv`
+- Age-consistency mask (relative error ≤ 20% on FRW-viable set):
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung3_age_consistency_mask_v1.csv`
+- Background bridge:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_background_bridge_v1.csv`
+  - aligns host and toy ages in a single table for all θ.
+- Host age window and anchor:
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_rung4_age_window_summary_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_mask_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_host_age_anchor_profiles_v1.csv`
+- Intersections with the joint grid:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_corridor_summary_v1.csv`
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_host_age_anchor_intersections_v1.csv`
+
+### 3.2 Current alignment pattern (high-level)
+
+With the current toy implementation and mapping:
+
+- The host model identifies a **host-age anchor band**:
+  - `age_Gyr_host ∈ [13.3, 14.3]` Gyr,
+  - containing 34 θ–points (all FRW-viable in the host sense),
+  - with tightly clustered mechanism amplitudes.
+- The Phase 4 FRW toy identifies a **toy corridor** and a **toy empirical anchor kernel**:
+  - toy corridor: broad, `in_toy_corridor == 1` (~58% of grid),
+  - toy empirical anchor kernel: 18 points, all FRW-viable and in the toy corridor.
+
+Alignment / misalignment:
+
+- **Toy empirical anchor vs host model:**
+  - The 18-point toy empirical anchor kernel maps to a host-age range well below the observed-age window;
+  - it does not coincide with the host-age anchor band.
+- **Host-age anchor vs toy corridor:**
+  - The host-age anchor band does **not** intersect the current toy corridor at all.
+- **Mechanism behaviour:**
+  - Both the toy empirical anchor kernel and the host-age anchor band show tightly clustered mechanism amplitudes, but at different θ–locations and parameter values.
+
+### 3.3 Design implications for future revisions
+
+For future Phase 4/5 and Stage II work, this snapshot implies:
+
+1. **Alignment tension is real and quantified.**
+   - Any attempt to tighten the FRW toy or re-map the mechanism must keep track of:
+     - whether the toy corridor can be made to intersect a host-age anchor band,
+     - without destroying the internal FRW viability and mechanism coherence.
+
+2. **We have a concrete “failure mode” to learn from.**
+   - The current configuration provides a worked example where:
+     - the axiom + mechanism + FRW toy can pass an internal empirical box,
+     - but miss a simple external age constraint entirely.
+   - Phase 5 can use this to argue both:
+     - how the program could fail,
+     - and what kind of revisions would be needed to move towards real cosmology pipelines.
+
+Any future changes to:
+
+- the definition of the toy corridor,
+- the toy empirical anchor box,
+- the host-age window,
+- or the mapping from mechanism outputs to \(\Omega_\Lambda\),
+
+must be reflected here, and should be accompanied by updated Stage 2 runs and a clear log entry in `PROGRESS_LOG.md`.
+
