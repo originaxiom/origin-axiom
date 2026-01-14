@@ -339,3 +339,41 @@ We **do not** claim this kernel uniquely identifies the real Universe. Instead, 
 
 This region is a natural candidate for Phase 5 “first contact” dashboards (e.g. as an **anchor-kernel panel**), and a convenient testbed for any future modifications to the FRW toy or mechanism.
 
+
+---
+
+## H8 – Near-flat external-cosmo subset (Ω_tot ≈ 1)
+
+Script: `stage2/external_cosmo_host/src/flag_external_cosmo_flat_subset_v1.py`  
+Tables:
+- `stage2/external_cosmo_host/outputs/tables/stage2_external_cosmo_flat_subset_summary_v1.csv`
+- `stage2/external_cosmo_host/outputs/tables/stage2_external_cosmo_flat_subset_mask_v1.csv`
+
+We define a *near-flat* external-cosmo host subset by
+\[
+\Omega_{\text{tot}} \equiv \Omega_m + \Omega_\Lambda,\quad
+|\Omega_{\text{tot}} - 1| \le 0.05.
+\]
+
+Key findings:
+
+- On the full grid (2048 rows), this yields:
+  - `HOST_NEAR_FLAT`: 1286 / 2048 (≈ 0.628), with
+    \(\langle \Omega_{\text{tot}} \rangle \approx 1.0003\), \(\sigma \approx 0.0032\), and
+    \(\Omega_{\text{tot}} \in [1.00, 1.05]\).
+- Intersections with the Phase-4 FRW toy grid:
+  - `HOST_NEAR_FLAT_AND_FRW_VIABLE`: 254 / 2048 (≈ 0.124).
+  - `HOST_NEAR_FLAT_AND_CORRIDOR_AND_FRW_VIABLE`: 154 / 2048 (≈ 0.075),
+    for which
+    \(\Omega_{\text{tot}} = 1\) **exactly** across the subset
+    (mean = 1.0, std = 0, min = max = 1.0).
+- On this 154-point band (near-flat ∧ FRW-viable ∧ in the Phase-4 corridor):
+  - host ages: \(\langle t_0^{\text{host}} \rangle \approx 11.74~\text{Gyr}\),
+    spanning ≈ 10.47–13.77 Gyr,
+  - repo FRW toy ages:
+    \(\langle t_0^{\text{repo}} \rangle \approx 14.17~\text{Gyr}\),
+    spanning ≈ 13.40–14.97 Gyr.
+
+This confirms that our 12-point external-cosmo host *age–corridor kernel* (H5) lives
+inside a strictly flat external background (\(\Omega_{\text{tot}} = 1\)) and sits within
+a broader flat band where the Phase-4 FRW toy remains FRW-viable and inside its corridor.
