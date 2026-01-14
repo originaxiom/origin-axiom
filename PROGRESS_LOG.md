@@ -5893,3 +5893,30 @@ Governance:
 - The θ-corridor remains a **toy FRW corridor**; it is not yet an empirically age-anchored corridor.
 - Host-age anchor sets remain Stage 2 diagnostics; any promotion to “empirical corridor” status requires a separate, explicitly-gated rung.
 
+
+---
+
+### 2026-01-14 – Phase 5: Stage 2 anchors & corridors interface note (Rung H3)
+
+High-level:
+
+- Added `phase5/docs/PHASE5_STAGE2_ANCHORS_INTERFACE_v1.md` to bridge Stage 2 diagnostics (FRW corridor, empirical anchors, external FRW host age) into the future Phase 5 narrative.
+- The note:
+  - identifies the key Stage 2 tables that Phase 5 may treat as inputs,
+  - summarises the current θ–landscape (FRW-viable, toy corridor, empirical toy anchor kernel, external host-age anchor band),
+  - records overlap/non-overlap patterns (e.g. the toy empirical anchor kernel vs θ★; host-age anchor vs toy corridor),
+  - and fixes the allowed / forbidden narrative shapes for Phase 5 (what can and cannot be claimed).
+
+Governance:
+
+- No new code, masks, or θ–filters were introduced by this rung.
+- All statements in the interface doc are explicitly tied to existing Stage 2 outputs:
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
+  - `stage2/frw_corridor_analysis/outputs/tables/...`
+  - `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_empirical_anchor_mask_v1.csv`
+  - `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_anchor_*_v1.csv`
+  - `stage2/external_frw_host/outputs/tables/stage2_external_frw_*_age_*_v1.csv`
+- The note reiterates that all “anchor” language is about:
+  - the current implementation of the axiom + mechanism + FRW toy + simple FRW host,
+  - not about definitive fits to real cosmological data.
+
