@@ -1,3 +1,4 @@
+
 % ------------------------------------------------------------------
 % Phase 4 diagnostics: vacuum curve, corridors, FRW checks, and probes
 % ------------------------------------------------------------------
@@ -17,7 +18,7 @@ As a first, deliberately non-binding diagnostic, Phase~4 defines a toy ``shape c
 
 \subsection{Toy FRW backgrounds and viability mask}
 
-The next diagnostic lifts the F1 vacuum curve into FRW backgrounds by treating $E_{\mathrm{vac}}^{\mathrm{F1}}(\theta)$ as the source of an effective $\Omega_{\Lambda}(\theta)$ on a fixed matter--radiation background. The script \texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py} reads \texttt{phase4\_F1\_sanity\_curve.csv}, fixes $(\Omega_m,\Omega_r)$ and $H_0$, and constructs $H^2(a;\theta)$ on a grid in the scale factor $a$. It then applies a set of purely internal sanity checks: the presence of a radiation/matter era, a late-accelerating phase, and the absence of obvious numerical pathologies in $H^2(a)$. The outputs are: (i) \texttt{phase4\_F1\_frw\_toy\_diagnostics.json}, which reports the fraction of $\theta$ values that pass the FRW sanity checks and the corresponding age range for the toy Universe; and (ii) \texttt{phase4\_F1\_frw\_toy\_mask.csv}, a per--$\theta$ CSV that marks FRW-viable grid points. From this point on, all FRW-facing diagnostics in Phase~4 are restricted to the FRW-viable subset of the grid.
+The next diagnostic lifts the F1 vacuum curve into FRW backgrounds by treating $E_{\mathrm{vac}}^{\mathrm{F1}}(\theta)$ as the source of an effective $\Omega_{\Lambda}(\theta)$ on a fixed matter--radiation background. The script \texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py} reads \texttt{phase4\_F1\_sanity\_curve.csv}, fixes $(\Omega_m,\Omega_r)$ and $H_0$ to a simple flat-$\Lambda$CDM baseline inspired by Planck Collaboration 2018 constraints~\cite{Planck2018}, and constructs $H^2(a;\theta)$ on a grid in the scale factor $a$. It then applies a set of purely internal sanity checks: the presence of a radiation/matter era, a late-accelerating phase, and the absence of obvious numerical pathologies in $H^2(a)$. The outputs are: (i) \texttt{phase4\_F1\_frw\_toy\_diagnostics.json}, which reports the fraction of $\theta$ values that pass the FRW sanity checks and the corresponding age range for the toy Universe; and (ii) \texttt{phase4\_F1\_frw\_toy\_mask.csv}, a per--$\theta$ CSV that marks FRW-viable grid points. From this point on, all FRW-facing diagnostics in Phase~4 are restricted to the FRW-viable subset of the grid.
 
 \subsection{FRW corridors and principal band in $\theta$}
 
