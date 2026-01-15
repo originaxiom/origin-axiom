@@ -6163,3 +6163,12 @@ Interpretation:
   - Added a placeholder figure and label `fig:phase4-shape-probe` in
     `phase4/paper/03_diagnostics_stub.tex` to resolve the remaining
     undefined reference warning.
+
+- 2026-01-15 (Phase 4 F1 FRW sanity sweep)
+  - Re-ran the Phase 4 F1 FRW pipeline
+    (`run_f1_sanity.py`, `run_f1_shape_diagnostics.py`,
+    `run_f1_frw_toy_diagnostics.py`, `run_f1_frw_corridors.py`,
+    `run_f1_frw_lcdm_probe.py`, `run_f1_frw_data_probe.py`) to
+    confirm that the FRW backbone, corridors, LCDM-like probe, and
+    data-probe stubs are consistent with the current Stage 2 / host
+    configuration.
