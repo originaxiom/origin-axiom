@@ -6188,3 +6188,7 @@ Interpretation:
     window, and Stage 2 external host kernel overlap for the
     baseline configuration.
 - 2026-01-15 (Stage 2 external host flatness tolerance scan) Added scan_external_cosmo_flat_tolerance_v1.py and stage2_external_cosmo_flat_tolerance_scan_v1.csv to track HOST_NEAR_FLAT / FRW-viable / corridor fractions as a function of |Omega_tot - 1| tolerance.
+- 2026-01-15 (Phase 4 paper: F1 mappings and diagnostics polish)
+  - Cleaned the F1 mapping prose and ensured a single, anchored definition for `eq:phase4-f1-definition` in `phase4/paper/sections/02_mappings_stub.tex`.
+  - Clarified the Phase 4 diagnostics narrative, wired the F1 FRW shape-probe figure label, and added a Planck-2018-based background reference in `phase4/paper/sections/03_diagnostics_stub.tex`.
+  - Added the `Planck2018` bibliography entry in `phase4/paper/Reference.bib` to support the baseline flat-\Lambda CDM citation in the diagnostics text.
