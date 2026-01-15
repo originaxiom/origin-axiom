@@ -6151,3 +6151,10 @@ Interpretation:
   - Implemented `phase4/src/build_phase4_external_host_kernel_table_v1.py` to auto-generate
     `phase4/outputs/tables/phase4_external_host_kernel_constraints_v1.tex` for direct inclusion
     in the Phase 4 FRW toy paper as the “external-cosmo host age–corridor kernel” table.
+
+- 2026-01-15 (Stage 2 / Phase 4 interface)
+  - Exported 12-point external-cosmo host kernel summary to
+    `stage2_external_cosmo_host_phase4_constraints_v1.csv`.
+  - Added `phase4/src/build_phase4_external_host_kernel_table_v1.py` and
+    `phase4/outputs/tables/phase4_external_host_kernel_constraints_v1.tex`
+    to include the external-cosmo host age–corridor kernel as a Phase 4 table.
