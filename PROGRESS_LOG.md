@@ -6145,3 +6145,9 @@ Interpretation:
 
 **Claim boundary:** All changes in this entry are *interpretive/organizational*. They do not alter the Stage 2 or Phase 4 numerical outputs; they only make the host-alignment usage and limits explicit under the Phase 0 contract.
 
+
+- 2026-01-15 (Stage 2 / Phase 4 interface)
+  - Added `stage2/external_cosmo_host/outputs/tables/stage2_external_cosmo_host_phase4_constraints_v1.csv` as a compact 12-point kernel summary (FRW-viable ∧ corridor ∧ external-cosmo age window).
+  - Implemented `phase4/src/build_phase4_external_host_kernel_table_v1.py` to auto-generate
+    `phase4/outputs/tables/phase4_external_host_kernel_constraints_v1.tex` for direct inclusion
+    in the Phase 4 FRW toy paper as the “external-cosmo host age–corridor kernel” table.
