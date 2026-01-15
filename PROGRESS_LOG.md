@@ -6216,3 +6216,19 @@ Notes:
 
 - No numerical pipelines or Stage 2 tables were changed in this rung; only the belt overview doc was refreshed to match the existing Stage 2 artifacts and empirical-host design docs.
 - This rung is intended to make the Stage 2 layer easier to audit and extend, especially for external readers who want a single entry point into all Stage 2 belts.
+
+## 2026-01-15 — README refresh: Stage 2 belts and repo structure
+
+Scope: bring README.md fully in sync with the current Stage 2 belt catalogue and documentation layout, without changing any numerical pipelines or phase-level claims.
+
+Changes:
+
+- Updated the Stage 2 description in README (Phase 0–5 overview, Stage 2 bullet) to list all active Stage 2 belts: FRW corridor, mech/measure, joint mech–FRW, FRW data-probe, θ★ diagnostics, empirical anchors/hosts, and documentation/paper-audit belts.
+- Refreshed the `stage2/` bullet in the repository structure section to mention `theta_star_analysis/`, `external_cosmo_host/`, and `external_frw_host/` alongside the existing FRW/mech/joint/data and doc-audit modules.
+- Extended the Stage 2 docs list under `stage2/docs/` to highlight `STAGE2_BELT_OVERVIEW_v1.md` as the central belt catalogue and to mention empirical-anchor/host and paper-audit overview docs.
+- Updated the “Stage 2 diagnostics (downstream only)” section to list all current belts in one place and aligned the final reference to Stage 2 docs (Section 6) with the expanded belt set.
+
+Notes:
+
+- Phase roles and statuses (Phase 0 locked, Phase 1 locked, Phase 2 under audit, Phase 3 active mechanism module, Phase 4 FRW toy stub, Phase 5 interface rung 0–1) were preserved; this rung only updates README narrative and links to reflect the existing Stage 2 and doc layout.
+- No Phase 0–5 papers, claims registers, or Stage 2 numerical artifacts were modified.
