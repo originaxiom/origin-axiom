@@ -120,3 +120,37 @@ As of 2026-01-11 the Phase 2 structural audit document lives under:
 - `phase2/audit/AUDIT_REPORT.md`
 
 This reflects the convention that canonical contracts (SCOPE, CLAIMS, NON_CLAIMS, REPRODUCIBILITY, alignment, PROGRESS_LOG) remain in `phase2/`, while audit material is collected under `phase2/audit/`. Historical references in PROGRESS_LOG entries preserve the original paths used at the time and may point to pre-reorg locations.
+
+---
+
+## Phase 2 audit status (2026-01-15)
+
+This memo now records the audit status of Phase 2 as of 2026-01-15, based on the locked Phase 2 contracts, the Phase 2 paper, and the current Stage 2 diagnostics.
+
+- The core Phase 2 claims (C2.1–C2.3) are:
+  - existence of a non-zero vacuum-energy proxy residual in the finite mode-sum toy model,
+  - robustness of that residual under controlled parameter sweeps (ε, cutoffs, mode count) within the tested ranges,
+  - and stability of a chosen flat-FRW embedding of this residual as a toy viability check.
+- These claims are explicitly:
+  - internal to the Phase 2 toy model and its FRW wrapper,
+  - pre-data and pre-measure (no real-data fit, no θ\*-selection, no scale fixing),
+  - and constrained by the approximations and assumptions recorded in ASSUMPTIONS.md and APPROXIMATION_CONTRACT.md.
+
+The Stage 2 FRW and joint-mechanism diagnostics are consistent with this interpretation:
+
+- Phase 4 + Stage 2 FRW belts show a broad, contiguous FRW-viable band on the θ grid with non-trivial structure, but no populated data corridor (`frw_data_ok` is empty in the current snapshot).
+- Stage 2 joint mech–FRW analyses show strong correlations between the Phase 3 amplitudes and FRW scalars, but do not promote any θ-measure or θ\* selection.
+- Nothing in Stage 2 contradicts the modest, pre-data interpretation of Phase 2; it instead clarifies how Phase 2’s FRW wrapper sits inside the broader Stage 2 FRW machinery.
+
+For this reason, Phase 2 remains labelled “Under Audit” at the program level not because of any detected contradiction, but for strictly forward-looking reasons:
+
+- we may want to:
+  - tighten the presentation of approximations and limits in the Phase 2 paper,
+  - add one or two targeted Stage 2 rungs that connect the Phase 2 FRW wrapper more explicitly to the Phase 4/Stage 2 FRW belts,
+  - and revisit the Phase 2 narrative once a first data-aware FRW gate exists upstream.
+
+Until those forward-looking rungs are either executed or explicitly retired, this memo treats Phase 2 as:
+
+- internally coherent and numerically stable in its current toy remit,
+- pre-data and pre-measure,
+- and “Under Audit” only in the sense that the program reserves the option to tighten, but not broaden, the Phase 2 narrative as Stage 2 and future phases mature.

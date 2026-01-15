@@ -202,3 +202,31 @@ For the Stage 2 snapshot:
 No contradictions were found between the Phase 2 paper and the current Stage 2 FRW and master
 verdicts. Any future edits, if undertaken, can be limited to mild clarifications and cross-links rather
 than substantive changes in claims.
+
+---
+
+## Phase 2 audit verdict (Stage 2 perspective, 2026-01-15)
+
+From the Stage 2 paper-audit perspective, the Phase 2 paper, contracts, and current diagnostics support a clear verdict:
+
+- The Phase 2 paper’s narrative around C2.1–C2.3 matches the Phase 2 contracts:
+  - it presents the mode-sum residual as a toy, internal diagnostic,
+  - it emphasises robustness and stability over interpretation,
+  - and it explicitly avoids any real-data, scale-fixing, or θ\*-selection claim.
+- Stage 2 FRW and joint-mechanism diagnostics:
+  - are consistent with the bounded-FRW viability notion used in Phase 2,
+  - clarify that current FRW corridors are pre-data and live in Phase 4/Stage 2 rather than in Phase 2,
+  - and do not force any revision of Phase 2’s claims at this time.
+
+Given this, Stage 2 does not currently recommend any change to the substance of the Phase 2 claims. Instead, it recommends:
+
+- keeping Phase 2 labelled “Under Audit” at the global program level for forward-looking reasons:
+  - to allow for future rungs that tie Phase 2’s FRW wrapper more explicitly into the mature Phase 4/Stage 2 FRW belts and any future data gates,
+  - and to keep open the option of tightening, but not broadening, the Phase 2 story as the program’s FRW and measure layers evolve.
+
+In other words:
+
+- Phase 2 is internally coherent and modest as written,
+- the “Under Audit” label reflects a deliberate conservatism and a desire for future tightening, not a current inconsistency,
+- and any eventual promotion to “Locked” should be tied to a small, well-scoped audit belt that either confirms the present story or documents precise, limited adjustments.
+

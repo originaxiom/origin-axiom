@@ -6232,3 +6232,22 @@ Notes:
 
 - Phase roles and statuses (Phase 0 locked, Phase 1 locked, Phase 2 under audit, Phase 3 active mechanism module, Phase 4 FRW toy stub, Phase 5 interface rung 0–1) were preserved; this rung only updates README narrative and links to reflect the existing Stage 2 and doc layout.
 - No Phase 0–5 papers, claims registers, or Stage 2 numerical artifacts were modified.
+
+## 2026-01-15 — Phase 2 audit status memo (P2-B: local + Stage 2 verdict)
+
+Scope: sharpen the meaning of the Phase 2 “Under Audit” label without changing any numerical artifacts or Phase 2/Stage 2 claims. This rung limits itself to Phase-2-local alignment docs and the Stage 2 paper-audit note for Phase 2.
+
+Changes:
+
+- Extended `phase2/PHASE2_ALIGNMENT_v1.md` with a Phase 2 audit status section that:
+  - summarises the core Phase 2 claims (existence and robustness of a mode-sum residual plus a stable toy FRW wrapper),
+  - records that these claims are internal to the Phase 2 sandbox, pre-data and pre-measure,
+  - and explains that Stage 2 FRW and joint mech–FRW diagnostics are consistent with this modest interpretation.
+- Extended `stage2/docs/STAGE2_PAPER_AUDIT_PHASE2_v1.md` with a Stage 2 verdict block that:
+  - confirms that the Phase 2 paper narrative matches the contracts and current Stage 2 diagnostics,
+  - and clarifies that the global “Under Audit” label is forward-looking (to allow future tightening via additional FRW/data/measure rungs), not a response to any detected contradiction.
+
+Notes:
+
+- No Phase 2 numerical pipelines, tables, or FRW wrappers were modified in this rung.
+- Global program docs (`docs/STATE_OF_REPO.md`, `docs/PHASES.md`, `docs/CLAIMS_INDEX.md`) continue to label Phase 2 as “Under Audit”; this rung simply makes the rationale explicit in the Phase 2 alignment memo and the Stage 2 paper-audit doc.
