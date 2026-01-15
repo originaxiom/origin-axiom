@@ -1,122 +1,37 @@
-\section{Mapping family and scalar \(E_{\mathrm{vac}}(\theta)\)}
+% -------------------------------------------------------------------
+% Phase 4 mappings stub: F1 family
+% -------------------------------------------------------------------
+\section{Mappings from Phase 3 to Phase 4}
+\label{sec:mappings}
 \label{sec:phase4-mappings}
 
-Phase~3 furnishes a fixed, mechanism-level map
-\(\theta \mapsto A(\theta)\) together with a global floor and a
-summary diagnostics file. Concretely, a baseline configuration of the
-Phase~3 mechanism produces a table of amplitudes \(A(\theta_j)\) on a
-uniform \(\theta\)-grid and writes, among other outputs, a JSON file
-%
-\begin{equation}
-  \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json},
-\end{equation}
-%
-which records the global minimum and maximum, basic moments, and
-quantiles of the scan. Phase~3 itself stops at this level: it does not
-interpret \(A(\theta)\) as a cosmological quantity.
+Our goal in Phase~4 is not to promote every possible Phase~3 configuration into a cosmological background, but to define a small, explicit set of ``mapping families'' that lift a Phase~3 vacuum curve $E_{\mathrm{vac}}(\theta)$ into a toy FRW setting. In this paper we restrict attention to a single family, which we call F1, and to a particular baseline choice of its parameters. The intent is to make every step of the promotion chain explicit and reproducible, without yet claiming that the resulting cosmological corridor is unique, optimal, or observationally complete.
 
-Phase~4 introduces a simple, explicit mapping family that turns the
-Phase~3 amplitude into a non-negative scalar intended to play the role
-of a toy vacuum-energy density:
-%
+We assume the Phase~3 vacuum curve has already been computed on a uniform $\theta$--grid of length $N_{\theta}$, with a baseline JSON diagnostics file \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}. This file records, among other things, the global minimum and a set of quantiles of the unconstrained vacuum curve. The Phase~4 mapping family F1 uses these diagnostics to define a dimensionless vacuum scale and a simple two-parameter deformation that can be lifted into a spatially flat FRW background.
+
+Concretely, let $E_{\mathrm{vac}}(\theta)$ denote the Phase~3 vacuum curve on the fixed $\theta$--grid. We introduce a dimensionless rescaled curve
 \begin{equation}
-  E_{\mathrm{vac}}(\theta)
-  \;=\;
-  \alpha\, A(\theta)^{\beta},
-  \qquad
-  \alpha > 0,\; \beta > 0.
+  \tilde{E}_{\mathrm{vac}}(\theta) \equiv \frac{E_{\mathrm{vac}}(\theta) - E_{\min}}{\sigma_{\mathrm{vac}}},
+\end{equation}
+where $E_{\min}$ is the global minimum of $E_{\mathrm{vac}}(\theta)$ over the grid and $\sigma_{\mathrm{vac}}$ is a representative spread (e.g. the standard deviation or an inter-quantile range). The precise choice of $\sigma_{\mathrm{vac}}$ is recorded in the Phase~3 baseline diagnostics and carried forward as metadata rather than hard-coded into the mapping.
+
+The F1 family is then defined symbolically by
+\begin{equation}
+  \Omega_{\Lambda}(\theta; \alpha, \beta) \equiv \alpha\,\tilde{E}_{\mathrm{vac}}(\theta) + \beta,
   \label{eq:phase4-f1-definition}
 \end{equation}
-%
-We refer to this family as ``F1''. The two parameters \(\alpha\) and
-\(\beta\) are treated as tunable, mechanism-facing hyperparameters:
-they shape the relative weighting of amplitude variations across the
-\(\theta\)-grid but do not correspond to any claimed physical
-constants.
-
-In this Phase~4 baseline rung we adopt the concrete choice
+with two real parameters $(\alpha, \beta)$ and a fixed matter contribution $\Omega_{\mathrm{m}}$ and radiation contribution $\Omega_{\mathrm{r}}$. In the toy baseline configuration used in this paper we take
 \begin{equation}
-  \alpha = 1,
-  \qquad
-  \beta = 4,
+  \Omega_{\mathrm{m}} = 0.3,\qquad \Omega_{\mathrm{r}} = 0,\qquad \alpha = 1,\qquad \beta = 4,
 \end{equation}
-motivated by three simple considerations:
-\begin{enumerate}
-  \item \(A(\theta)\) is already normalised at the mechanism level, so
-    it is natural to absorb any overall scale into a separate FRW
-    toy-model normalisation rather than into \(\alpha\);
-  \item an even power \(\beta\) guarantees that \(E_{\mathrm{vac}}\)
-    remains non-negative wherever \(A(\theta)\) is defined;
-  \item a quartic choice \(\beta = 4\) accentuates contrasts between
-    low- and high-amplitude regions without being numerically extreme
-    on the Phase~3 baseline scan.
-\end{enumerate}
-These points are \emph{pragmatic} rather than physical: they select a
-well-behaved default for the present rung while keeping the door open
-to future exploration of alternative exponents and normalisations.
+so that the mean of $\Omega_{\Lambda}(\theta)$ over the full grid is approximately $0.7$ and the resulting total density parameter $\Omega_{\mathrm{tot}}(\theta) = \Omega_{\mathrm{m}} + \Omega_{\mathrm{r}} + \Omega_{\Lambda}(\theta)$ remains of order unity across the grid. This choice is not unique or claimed to be special; it is simply a concrete baseline that makes the toy FRW viability tests in Section~\ref{sec:diagnostics} well posed.
 
-Given a fixed Phase~3 amplitude table, the Phase~4 script
-\texttt{phase4/src/phase4/run\_f1\_sanity.py} constructs the scalar
-curve \(E_{\mathrm{vac}}(\theta)\) according to
-Eq.~\eqref{eq:phase4-f1-definition} with \(\alpha = 1\) and
-\(\beta = 4\), reusing the global minimum and quantile-based floor
-reported in
-\texttt{mech\_baseline\_scan\_diagnostics.json}. It writes:
+In the repository, the F1 mapping is implemented and exercised by the script \texttt{phase4/src/phase4/run\_f1\_sanity.py}. This script reads the Phase~3 baseline diagnostics JSON, constructs a uniformly spaced $\theta$--grid of length $N_{\theta} = 2048$, and evaluates the vacuum curve $E_{\mathrm{vac}}(\theta)$ on that grid using the Phase~3 machinery. It then computes $\tilde{E}_{\mathrm{vac}}(\theta)$ and $\Omega_{\Lambda}(\theta)$ according to Eq.~\eqref{eq:phase4-f1-definition}, with the baseline parameter choices recorded in the output metadata.
+
+The main outputs of \texttt{run\_f1\_sanity.py} are:
 \begin{itemize}
-  \item a per-\(\theta\) CSV
-    \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv}
-    containing \(\theta\) and \(E_{\mathrm{vac}}(\theta)\); and
-  \item a JSON summary
-    \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve\_diagnostics.json}
-    with global extrema, basic moments, and configuration metadata.
+  \item a CSV file \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv} containing per--$\theta$ columns \texttt{theta}, \texttt{E\_vac}, and \texttt{omega\_lambda};
+  \item a JSON diagnostics file \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve\_diagnostics.json} recording the global minimum, mean, and standard deviation of $E_{\mathrm{vac}}(\theta)$ and $\Omega_{\Lambda}(\theta)$, as well as the baseline Phase~3 quantiles that were used to define $\tilde{E}_{\mathrm{vac}}(\theta)$.
 \end{itemize}
-This establishes a reproducible, one-dimensional scalar landscape on
-top of the Phase~3 mechanism. All subsequent Phase~4 diagnostics---
-including the toy corridor, FRW-inspired sanity checks, FRW viability
-scan, corridor extraction, and \(\Lambda\)CDM-facing probes---are built
-\emph{on this F1 scalar}, and their outputs always reference
-\texttt{phase4\_F1\_*} tables rather than the raw Phase~3 amplitudes.
 
-Throughout this rung, F1 is treated as a \emph{diagnostic mapping}
-rather than a physical law. In particular, we do not claim that
-\(E_{\mathrm{vac}}(\theta)\) is the actual vacuum energy of the real
-Universe; instead, we use it as a controlled, reproducible proxy for
-asking whether the Phase~3 landscape can coherently feed into
-FRW-like summaries without generating obviously pathological behaviour
-(e.g.\ negative or wildly oscillatory \(H^2(a;\theta)\)) across the
-\(\theta\)-grid. Future work is free to vary \(\alpha\), \(\beta\), or
-even the functional form of the mapping, but such variations will sit
-on top of the baseline pipeline documented here.
-
-At this stage the F1 family should be read strictly as a structural,
-toy choice.  The exponents and normalisation \((\alpha,\beta) = (1,4)\)
-are selected for numerical convenience and to accentuate contrast in
-the Phase~3 amplitude; they are \emph{not} proposed as a physically
-motivated relation between the toy amplitude and any real vacuum
-energy density.  Any future, data-facing use of the Phase~4 pipeline
-would be expected to revisit and possibly replace this mapping.
-
-% -------------------------------------------------------------------
-% F1 mapping definition stub (matches Phase 3 baseline configuration)
-% -------------------------------------------------------------------
-\begin{equation}
-  E_{\mathrm{vac}}^{\mathrm{(F1)}}(\theta)
-  =
-  E_{\mathrm{vac}}^{\mathrm{baseline}}(\theta;\alpha=1,\beta=4)
-  \label{eq:phase4-f1-definition}
-\end{equation}
-
-
-% -------------------------------------------------------------------
-% F1 mapping definition anchor (used by \ref{eq:phase4-f1-definition})
-% -------------------------------------------------------------------
-We collect the F1 mapping into a single symbolic definition for later
-reference:
-\begin{equation}
-  E_{\mathrm{vac}}^{\mathrm{F1}}(\theta)
-  \equiv E_{\mathrm{vac}}(\theta; \alpha, \beta)\,,
-  \label{eq:phase4-f1-definition}
-\end{equation}
-where \(\alpha\), \(\beta\), and the baseline diagnostics are fixed by
-the Phase~3 vacuum scan; the explicit implementation lives in the
-Phase~4 F1 scripts rather than being re-derived here.
+For the purposes of Phase~4, the F1 family is intentionally simple. It does not attempt to solve the full inverse problem of mapping an arbitrary vacuum curve into a realistic cosmological parameter space; instead, it provides a reproducible, linearly parametrised bridge between the Phase~3 vacuum structure and a toy FRW background. More elaborate families (e.g. with non-linear deformations, explicit curvature terms, or time-dependent effective dark energy) can be added in future phases without changing the baseline F1 definition used here.

@@ -1,372 +1,63 @@
 % -------------------------------------------------------------------
-% Phase 4 diagnostics and FRW probes (F1 mapping)
+% Phase 4 diagnostics stub: F1 sanity curve, shape corridor, FRW
+% viability, ΛCDM-like window, and external host kernel overlaps
 % -------------------------------------------------------------------
+\section{Diagnostics and probes}
+\label{sec:diagnostics}
 
-The Phase~4 diagnostics are deliberately layered. The goal is to place
-the F1 vacuum mapping, the FRW lift, and the external-host bridge on
-a common \(\theta\)-grid, and to make every intermediate table and
-mask \emph{explicitly} reproducible from scripts in the repository.
-This section summarises what each diagnostic script does, what it
-reads, what it writes, and how the resulting masks line up.
+In this section we summarise the diagnostic steps and probes that tie the Phase~4 F1 mapping into the Phase~3 baseline and the Stage~2 external-cosmo host kernel. The emphasis is on reproducibility: every claim in the main text is backed by an explicit script, JSON diagnostics file, and (where applicable) a per--$\theta$ mask CSV. All paths below are relative to the repository root.
 
-Throughout, we work with the baseline F1 mapping
-\texttt{F1\_baseline\_v1} and its associated Phase~3 diagnostics.  All
-tables and JSON files referenced below live under
-\texttt{phase4/outputs/tables/} unless otherwise stated.
+\subsection{Phase 3 baseline and F1 sanity curve}
 
-\medskip
-
-\noindent\textbf{(1) F1 ``sanity'' curve: lifting Phase~3 to Phase~4.}
-
-The starting point for the Phase~4 layer is the Phase~3 mechanism
-baseline scan diagnostics in
-\texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}.
-These diagnostics encode the one-dimensional \(\theta\)-grid, the
-baseline unconstrained mechanism values, and simple summary statistics
-such as
-
+The starting point is the Phase~3 baseline diagnostics JSON \texttt{phase3/outputs/tables/mech\_baseline\_scan\_diagnostics.json}, which records summary statistics of the unconstrained vacuum curve $E_{\mathrm{vac}}(\theta)$ on a fixed grid:
 \begin{itemize}
-  \item the minimum and maximum unconstrained mechanism values,
-  \item quartiles of the unconstrained distribution,
-  \item the fraction of grid points that are at the imposed
-        \texttt{epsfloor} bound.
+  \item the global minimum and maximum of $E_{\mathrm{vac}}(\theta)$;
+  \item quantiles of the unconstrained values (e.g. $q_{25}$, $q_{50}$, $q_{75}$);
+  \item a baseline choice of \emph{epsfloor} and a fraction of grid points that are considered ``bound'';
+  \item the grid extent $[\theta_{\min}, \theta_{\max}]$ and the number of samples $N_{\theta}$.
 \end{itemize}
+In the current baseline configuration we work with a uniform grid of length $N_{\theta} = 2048$ over the interval $[0, 2\pi] \simeq [0, 6.28318]$, with an \emph{epsfloor} chosen at the 25th percentile of the unconstrained vacuum values. These choices are encoded in the diagnostics JSON rather than hard-coded in the Phase~4 scripts, so that future Phase~3 baselines can be swapped in without changing the Phase~4 code.
 
-The script
-\texttt{phase4/src/phase4/run\_f1\_sanity.py}
-turns this Phase~3 baseline information into a Phase~4 F1
-``sanity'' curve.  It constructs a uniform \(\theta\)-grid with
-\texttt{n\_grid = 2048} points spanning \([0, 2\pi)\), evaluates the
-F1 vacuum mapping \(E_{\rm vac}(\theta)\) on that grid, and writes a
-CSV table
+The script \texttt{phase4/src/phase4/run\_f1\_sanity.py} implements the F1 mapping defined in Eq.~\eqref{eq:phase4-f1-definition}. It (i) reads the Phase~3 baseline diagnostics JSON and reconstructs the grid extent and baseline quantiles; (ii) evaluates the vacuum curve $E_{\mathrm{vac}}(\theta)$ on the fixed grid using the Phase~3 machinery; (iii) constructs the rescaled vacuum curve $\tilde{E}_{\mathrm{vac}}(\theta)$ and the toy $\Omega_{\Lambda}(\theta)$ according to the baseline F1 parameters; and (iv) writes a per--$\theta$ CSV and a summary JSON with basic statistics of both curves. The main per--$\theta$ output is \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve.csv}, with columns \texttt{theta}, \texttt{E\_vac}, and \texttt{omega\_lambda}. The corresponding JSON diagnostics file, \texttt{phase4/outputs/tables/phase4\_F1\_sanity\_curve\_diagnostics.json}, records (a) the global minimum, maximum, mean, and standard deviation of $E_{\mathrm{vac}}(\theta)$ over the grid; (b) the same statistics for $\Omega_{\Lambda}(\theta)$; (c) the \emph{epsfloor} and baseline quantiles imported from the Phase~3 diagnostics; and (d) the grid extent and number of samples. In the current baseline run, the JSON summary reports, for example, that $\Omega_{\Lambda}(\theta)$ ranges from $\Omega_{\Lambda,\min} \simeq 0.06$ to $\Omega_{\Lambda,\max} \simeq 1.69$, with a mean close to the target value $0.7$ used in the toy FRW lift.
 
-\begin{center}
-  \texttt{phase4\_F1\_sanity\_curve.csv}
-\end{center}
+\subsection{Toy shape corridor on the F1 vacuum curve}
 
-with at least the columns
+The next diagnostic is a toy ``shape corridor'' on the F1 vacuum curve. The script \texttt{phase4/src/phase4/run\_f1\_shape\_diagnostics.py} reads the F1 sanity curve CSV, treats $E_{\mathrm{vac}}(\theta)$ as a function over the fixed grid, and constructs a simple corridor around its global minimum:
+\begin{equation}
+  E_{\mathrm{vac}}(\theta) \leq E_{\min} + k_{\sigma}\,\sigma_{\mathrm{vac}},
+\end{equation}
+where $E_{\min}$ is the global minimum of $E_{\mathrm{vac}}(\theta)$, $\sigma_{\mathrm{vac}}$ is its standard deviation over the grid, and $k_{\sigma}$ is a tunable parameter. In the baseline configuration we set $k_{\sigma} = 1$; this is explicitly recorded as metadata rather than hard-coded in the claims.
 
-\begin{itemize}
-  \item \texttt{theta} (the grid in \(\theta\)),
-  \item \texttt{E\_vac} (the mapped vacuum scale),
-  \item a small set of diagnostic fields (e.g.\ the baseline
-        \texttt{epsfloor} threshold carried through from Phase~3).
-\end{itemize}
+Operationally, the script (i) reads \texttt{phase4\_F1\_sanity\_curve.csv}; (ii) computes $E_{\min}$, the mean, and the standard deviation of $E_{\mathrm{vac}}(\theta)$; (iii) flags each grid point as inside or outside the toy shape corridor according to the inequality above; and (iv) writes a per--$\theta$ mask CSV and a summary JSON. The per--$\theta$ mask is written to \texttt{phase4/outputs/tables/phase4\_F1\_shape\_mask.csv} with columns \texttt{theta}, \texttt{E\_vac}, and \texttt{in\_toy\_corridor} (a Boolean flag). The JSON summary, stored at \texttt{phase4/outputs/tables/phase4\_F1\_shape\_diagnostics.json}, records (a) the global minimum, maximum, mean, and standard deviation of $E_{\mathrm{vac}}(\theta)$; (b) the chosen value of $k_{\sigma}$; (c) the fraction of grid points inside the toy shape corridor; and (d) the minimum and maximum $\theta$ within the corridor. In the baseline run, the corridor fraction is about $0.58$ of the grid, and the toy corridor extends over most of the $\theta$ interval, reflecting the relatively shallow variations of $E_{\mathrm{vac}}(\theta)$ around its minimum in this configuration.
 
-It also writes a JSON diagnostics file
-\texttt{phase4\_F1\_sanity\_curve\_diagnostics.json}
-that records the key summary statistics of the curve, including
+\subsection{Toy FRW viability and ΛCDM-like probe}
 
-\begin{itemize}
-  \item \texttt{theta\_min}, \texttt{theta\_max},
-  \item \texttt{E\_vac\_min}, \texttt{E\_vac\_max},
-  \item \texttt{E\_vac\_mean}, \texttt{E\_vac\_std},
-  \item a copy of the Phase~3 baseline diagnostics used.
-\end{itemize}
+We then lift the F1 vacuum curve into a toy FRW background. The script \texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py} reads the F1 sanity curve CSV and constructs a toy flat FRW model for each grid point using
+\begin{equation}
+  \Omega_{\mathrm{m}} = 0.3,\qquad \Omega_{\mathrm{r}} = 0,\qquad \Omega_{\Lambda}(\theta) \text{ from Eq.~\eqref{eq:phase4-f1-definition}},
+\end{equation}
+so that the total density parameter is $\Omega_{\mathrm{tot}}(\theta) = \Omega_{\mathrm{m}} + \Omega_{\mathrm{r}} + \Omega_{\Lambda}(\theta)$. For each $\theta$ it computes (i) the dimensionless Hubble function $H^2(a;\theta)$ on a scale factor grid $a \in [a_{\min}, a_{\max}]$; (ii) the age of the universe in Gyr inferred from the FRW background; and (iii) basic sanity diagnostics on the $H^2(a;\theta)$ curve. The baseline configuration uses $a_{\min} = 0.5$, $a_{\max} = 1$, $N_{a} = 128$ points, and a default value $H_{0} = 70~\mathrm{km\,s^{-1}\,Mpc^{-1}}$, and these choices are explicitly recorded in the JSON diagnostics.
 
-In the baseline configuration used here, the F1 sanity curve respects
-the Phase~3 \texttt{epsfloor} threshold and simply transports the
-Phase~3 amplitude structure into the Phase~4 layer without any
-additional tuning.
+The per--$\theta$ outputs of \texttt{run\_f1\_frw\_toy\_diagnostics.py} are (a) \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_mask.csv}, with columns \texttt{theta}, \texttt{E\_vac}, \texttt{omega\_lambda}, \texttt{age\_Gyr}, and Boolean flags \texttt{has\_matter\_era}, \texttt{has\_late\_accel}, \texttt{smooth\_H2}, and \texttt{frw\_viable}; and (b) \texttt{phase4/outputs/tables/phase4\_F1\_frw\_toy\_diagnostics.json}, summarising the fractions of grid points that satisfy each of the FRW sanity conditions and the fraction that pass all of them. In the baseline run, the FRW viability fraction \texttt{frac\_viable} is about $0.50$ of the grid, all points have a recognisable matter era, and roughly half show a late-time acceleration phase. The age window is taken to be $[10~\mathrm{Gyr}, 20~\mathrm{Gyr}]$ for the purposes of this toy diagnostic, and the fraction of grid points within that age window is recorded as \texttt{frac\_age\_window\_ok} in the JSON summary.
 
-\medskip
+Given the FRW--viable mask, the script \texttt{phase4/src/phase4/run\_f1\_frw\_corridors.py} identifies connected ``corridors'' of FRW--viable points in $\theta$ and records their properties. It reads \texttt{phase4\_F1\_frw\_viability\_mask.csv} and writes (a) \texttt{phase4/outputs/tables/phase4\_F1\_frw\_corridors.csv}, which lists each connected FRW corridor with its $\theta_{\min}$, $\theta_{\max}$, number of points, and mean $\Omega_{\Lambda}$; and (b) \texttt{phase4/outputs/tables/phase4\_F1\_frw\_corridors.json}, summarising the number of corridors, the principal corridor, and the overall FRW viability fraction. In the baseline configuration there is a single principal FRW corridor covering roughly $0.43 \lesssim \theta \lesssim 3.54$ radians, with a mean $\Omega_{\Lambda} \simeq 1.30$ and a viable fraction of about $0.50$ of the grid.
 
-\noindent\textbf{(2) F1 ``shape corridor'' on the F1 sanity curve.}
+To probe whether any part of the FRW--viable corridor resembles a $\Lambda$CDM-like universe, the script \texttt{phase4/src/phase4/run\_f1\_frw\_lcdm\_probe.py} applies an additional set of constraints: (i) $\Omega_{\Lambda}(\theta)$ must lie within a tolerance $\Delta\Omega_{\Lambda}$ of a target value (baseline: target $0.7$, tolerance $\pm 0.1$); (ii) the inferred age in Gyr must lie within a tolerance of a target age (baseline: target $13.8$~Gyr, tolerance $\pm 1$~Gyr); and (iii) the point must already be marked \texttt{frw\_viable}. The script reads the FRW--viable mask CSV and writes (a) \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe\_mask.csv}, with a Boolean \texttt{lcdm\_like} flag for each grid point; and (b) \texttt{phase4/outputs/tables/phase4\_F1\_frw\_lcdm\_probe.json}, summarising the number and fraction of $\Lambda$CDM-like points, and the ranges of $\theta$, $\Omega_{\Lambda}$, and age in the selected subset. In the baseline run, the $\Lambda$CDM-like fraction is about $3\%$ of the full grid and about $6\%$ of the FRW--viable points, with a $\theta$ range roughly $0.60 \lesssim \theta \lesssim 3.36$ radians and $\Omega_{\Lambda}$ in the vicinity of $0.7$.
 
-The next diagnostic is a toy ``shape corridor'' on the F1 vacuum
-curve.  The script
-\texttt{phase4/src/phase4/run\_f1\_shape\_diagnostics.py}
-reads the sanity-curve CSV
-\texttt{phase4\_F1\_sanity\_curve.csv},
-computes summary statistics of \(E_{\rm vac}(\theta)\), and defines a
-simple corridor as
+\subsection{Join with the external-cosmo host kernel and shape probe}
 
-\[
-E_{\rm vac}(\theta) \le E_{\rm vac}^{\rm min} +
-k_\sigma \, \sigma_{E_{\rm vac}},
-\]
+Finally, we join the Phase~4 FRW diagnostics to the Stage~2 external-cosmo host kernel. The host kernel consists of a small set of external FRW parameter tuples (e.g. from Planck-like constraints), stored in \texttt{stage2/external\_cosmo\_host/data/external\_cosmo\_host\_kernel\_v1.csv}. A dedicated Stage~2 script lifts each kernel point into an FRW background and computes its age and distance ladder diagnostics.
 
-with \(k_\sigma = 1\) in the baseline runs.  This is deliberately an
-\emph{internal} diagnostic: it does not encode any observational
-constraint, only the shape of the F1 vacuum map itself.
+On the Phase~4 side, the script \texttt{phase4/src/phase4/run\_f1\_frw\_data\_probe.py} is designed to compare the Phase~4 FRW grid with an \emph{optional} external FRW distance dataset. In the baseline configuration, the external data file \texttt{phase4/data/external/frw\_distance\_binned.csv} is a stub, containing only a comment header. The script therefore records \texttt{data\_available = false}, \texttt{n\_data\_points = 0}, and a null overlap with any data-derived constraints. When a real distance dataset is provided with the required columns (\texttt{z}, \texttt{mu}, \texttt{sigma\_mu}), the same script will compute $\chi^2$ per degree of freedom for each FRW grid point, flag points with acceptable fits, and write a per--$\theta$ \texttt{data\_ok} mask.
 
-The script writes
+To provide a compact visual summary of how the toy corridor, FRW viability, $\Lambda$CDM-like window, and external host kernel overlaps sit on the F1 grid, we generate a ``shape probe'' figure. The script \texttt{phase4/src/phase4/plot\_f1\_frw\_shape\_probe.py} reads (i) the F1 FRW viability mask \texttt{phase4\_F1\_frw\_viability\_mask.csv}; (ii) the $\Lambda$CDM-like mask \texttt{phase4\_F1\_frw\_lcdm\_probe\_mask.csv}; and (iii) a joined per--$\theta$ mask with host-kernel overlaps, \texttt{phase4\_F1\_frw\_shape\_probe\_mask.csv}, constructed in Stage~2. It then produces a scatter plot of $\Omega_{\Lambda}(\theta)$ versus $\theta$, colouring points by their membership in the toy corridor, FRW--viable region, $\Lambda$CDM-like window, and host-kernel overlap. Figure~\ref{fig:phase4_F1_frw_shape_probe} shows all grid points, with a highlighted band for the FRW--viable corridor and markers for the host-kernel overlaps.
 
-\begin{itemize}
-  \item a JSON summary
-    \texttt{phase4\_F1\_shape\_diagnostics.json}
-    containing, for example,
-    \begin{itemize}
-      \item \texttt{E\_vac\_min}, \texttt{E\_vac\_max},
-      \item \texttt{E\_vac\_mean}, \texttt{E\_vac\_std},
-      \item \texttt{corridor\_fraction}
-            (the fraction of grid points in the toy shape corridor),
-      \item \texttt{corridor\_theta\_min}, \texttt{corridor\_theta\_max}.
-    \end{itemize}
-  \item a per-\(\theta\) mask CSV
-    \texttt{phase4\_F1\_shape\_mask.csv}
-    with columns
-    \begin{itemize}
-      \item \texttt{theta},
-      \item \texttt{E\_vac},
-      \item \texttt{in\_toy\_corridor} (Boolean).
-    \end{itemize}
-\end{itemize}
-
-This corridor plays a purely structural role: it lets us track how
-strongly the later FRW and external-host layers overlap with
-a region where the vacuum map is ``low'' relative to its global
-spread, without imposing any physical interpretation on that choice.
-
-\medskip
-
-\noindent\textbf{(3) FRW lift and viability diagnostics.}
-
-We then lift the F1 vacuum curve into a toy FRW background.  The
-script
-\texttt{phase4/src/phase4/run\_f1\_frw\_toy\_diagnostics.py}
-reads \texttt{phase4\_F1\_sanity\_curve.csv} and interprets
-\(E_{\rm vac}(\theta)\) as a proxy for \(\Omega_\Lambda(\theta)\) via
-a simple rescaling.  In the baseline configuration we fix
-
-\begin{itemize}
-  \item \(\Omega_m = 0.3\),
-  \item \(\Omega_r = 0\),
-  \item and match the mean of \(\Omega_\Lambda(\theta)\)
-        to a target value \(\Omega_{\Lambda,{\rm target}} = 0.7\).
-\end{itemize}
-
-The script then integrates a flat FRW background for each
-\(\theta\)-grid point on a scale-factor grid
-\([a_{\rm min}, a_{\rm max}] = [0.5, 1]\)
-with \texttt{n\_a = 128}, and checks a set of FRW ``sanity'' and
-viability conditions.  These include:
-
-\begin{itemize}
-  \item the existence of a matter-dominated era,
-  \item late-time acceleration,
-  \item a smoothly varying \(H^2(a)\) over the sampled interval,
-  \item an age that lies inside a generous window
-        (here \([10, 20]\)~Gyr).
-\end{itemize}
-
-The script writes
-
-\begin{itemize}
-  \item a JSON diagnostics file
-    \texttt{phase4\_F1\_frw\_toy\_diagnostics.json}
-    summarising the global statistics, including
-    \begin{itemize}
-      \item \texttt{age\_Gyr\_min}, \texttt{age\_Gyr\_max},
-      \item \texttt{frac\_has\_matter\_era},
-      \item \texttt{frac\_has\_late\_accel},
-      \item \texttt{frac\_smooth\_H2},
-      \item \texttt{frac\_age\_window\_ok},
-      \item \texttt{frac\_viable}.
-    \end{itemize}
-  \item a per-\(\theta\) mask CSV
-    \texttt{phase4\_F1\_frw\_toy\_mask.csv}
-    with columns such as
-    \begin{itemize}
-      \item \texttt{theta},
-      \item \texttt{E\_vac},
-      \item \texttt{omega\_lambda},
-      \item \texttt{age\_Gyr},
-      \item Boolean flags recording matter era, late-time acceleration,
-            FRW-sanity, and age-window membership.
-    \end{itemize}
-\end{itemize}
-
-From this toy FRW lift we then construct a more compact FRW-viability
-mask.  The script
-\texttt{phase4/src/phase4/run\_f1\_frw\_viability\_mask.py}
-reads the toy diagnostics and writes
-
-\begin{itemize}
-  \item a JSON summary
-    \texttt{phase4\_F1\_frw\_viability\_diagnostics.json}
-    (used as the backbone of the Phase~4 FRW viability statements),
-  \item a mask CSV
-    \texttt{phase4\_F1\_frw\_viability\_mask.csv}
-    combining the per-\(\theta\) flags into a single
-    \texttt{frw\_viable} Boolean.
-\end{itemize}
-
-In the baseline configuration used here, roughly half of the
-\(\theta\)-grid is FRW-viable under these broad criteria.
-
-\medskip
-
-\noindent\textbf{(4) FRW corridors in \(\theta\).}
-
-Given the FRW-viability mask, we next group \(\theta\)-points into
-contiguous corridors.  The script
-\texttt{phase4/src/phase4/run\_f1\_frw\_corridors.py}
-takes
-\texttt{phase4\_F1\_frw\_viability\_mask.csv}
-as input and identifies contiguous runs of grid points with
-\texttt{frw\_viable = 1}.  It writes
-
-\begin{itemize}
-  \item a JSON file
-    \texttt{phase4\_F1\_frw\_corridors.json}
-    summarising the number of corridors, the size of each
-    corridor, and in particular the ``principal'' corridor
-    (the one with the largest number of FRW-viable points),
-  \item a CSV table
-    \texttt{phase4\_F1\_frw\_corridors.csv}
-    that records, for each corridor,
-    \begin{itemize}
-      \item \texttt{theta\_min}, \texttt{theta\_max},
-      \item \texttt{n\_points},
-      \item the mean \(\Omega_\Lambda\) on that corridor,
-      \item the index of the corridor.
-    \end{itemize}
-\end{itemize}
-
-In the baseline run, the principal FRW corridor covers the same
-\(\theta\)-interval that later supports the external-host kernel:
-roughly \(\theta \in [0.43, 3.54]\), with an internal mean
-\(\Omega_\Lambda \simeq 1.3\) under the toy mapping used here.
-
-\medskip
-
-\noindent\textbf{(5) A broad \(\Lambda\)CDM-like FRW probe.}
-
-To relate the toy FRW lift to a more familiar late-time background,
-we introduce a broad \(\Lambda\)CDM-like probe.  The script
-\texttt{phase4/src/phase4/run\_f1\_frw\_lcdm\_probe.py}
-again reads
-\texttt{phase4\_F1\_frw\_viability\_mask.csv}
-and selects FRW-viable grid points that satisfy both
-
-\begin{itemize}
-  \item \(|\Omega_\Lambda(\theta) - \Omega_{\Lambda,{\rm target}}|
-         \le \Delta\Omega_\Lambda\), with
-        \(\Omega_{\Lambda,{\rm target}} = 0.7\) and
-        \(\Delta\Omega_\Lambda = 0.1\),
-  \item \(|t_{\rm age}(\theta) - t_{\rm target}|
-         \le \Delta t\), with
-        \(t_{\rm target} = 13.8~\mathrm{Gyr}\) and
-        \(\Delta t = 1.0~\mathrm{Gyr}\).
-\end{itemize}
-
-The output consists of
-
-\begin{itemize}
-  \item a JSON summary
-    \texttt{phase4\_F1\_frw\_lcdm\_probe.json}
-    that records, among other quantities,
-    \begin{itemize}
-      \item \texttt{n\_grid}, \texttt{n\_frw\_viable},
-      \item \texttt{n\_lcdm\_like},
-      \item \texttt{lcdm\_like\_fraction},
-      \item the \(\theta\)-range and age/\(\Omega_\Lambda\)-range
-            of the selected window.
-    \end{itemize}
-  \item a mask CSV
-    \texttt{phase4\_F1\_frw\_lcdm\_probe\_mask.csv}
-    which augments the FRW-viability columns with a Boolean
-    \texttt{lcdm\_like} flag.
-\end{itemize}
-
-In the current baseline configuration, this \(\Lambda\)CDM-like window
-selects a small but non-zero subset of the FRW-viable
-\(\theta\)-grid.  It is intentionally broad and remains a toy-level
-probe: it is not a fit to observational data and does not single out a
-preferred \(\theta_\star\).  Instead, it demonstrates that the
-Phase~3~\(\to\)~Phase~4 pipeline can admit FRW histories that are, in
-a coarse sense, compatible with late-time \(\Lambda\)CDM-like
-cosmology.
-
-\medskip
-
-\noindent\textbf{(6) Joined F1/FRW shape probe.}
-
-Finally, we introduce a joined F1/FRW ``shape probe'' that ties
-together
-
-\begin{itemize}
-  \item the F1 toy shape corridor
-        (\texttt{phase4\_F1\_shape\_mask.csv}),
-  \item the FRW-viability mask
-        (\texttt{phase4\_F1\_frw\_viability\_mask.csv}),
-  \item the \(\Lambda\)CDM-like FRW window
-        (\texttt{phase4\_F1\_frw\_lcdm\_probe\_mask.csv})
-\end{itemize}
-
-on a common \(\theta\)-grid.  The script
-\texttt{phase4/src/phase4/run\_f1\_frw\_shape\_probe.py}
-reads these inputs and writes
-
-\begin{itemize}
-  \item a per-\(\theta\) joined mask
-    \texttt{phase4\_F1\_frw\_shape\_probe\_mask.csv}
-    with columns
-    \begin{itemize}
-      \item \texttt{theta},
-      \item \texttt{E\_vac},
-      \item \texttt{omega\_lambda},
-      \item \texttt{age\_Gyr},
-      \item \texttt{in\_toy\_corridor},
-      \item \texttt{frw\_viable},
-      \item \texttt{lcdm\_like},
-      \item and a combined shape/FRW flag
-            (e.g.\ \texttt{shape\_and\_lcdm}).
-    \end{itemize}
-  \item a JSON diagnostics summary
-    \texttt{phase4\_F1\_frw\_shape\_probe.json}
-    that reports fractions such as
-    \begin{itemize}
-      \item \texttt{frac\_frw\_viable},
-      \item \texttt{frac\_in\_toy\_corridor},
-      \item \texttt{frac\_lcdm\_like},
-      \item \texttt{frac\_shape\_and\_viable},
-      \item \texttt{frac\_shape\_and\_lcdm},
-    \end{itemize}
-    together with the corresponding \(\theta\)-ranges.
-\end{itemize}
-
-To provide a compact visual summary, the script
-\texttt{phase4/src/phase4/plot\_f1\_frw\_shape\_probe.py}
-builds a Figure showing \(\Omega_\Lambda(\theta)\) with overlays for
-the toy shape corridor, FRW-viable region, and \(\Lambda\)CDM-like
-window.  The resulting plot is stored as
-
-\begin{center}
-  \texttt{outputs/figures/phase4\_F1\_frw\_shape\_probe\_omega\_lambda\_vs\_theta.png}
-\end{center}
-
-and referenced in the text as
-Figure~\ref{fig:phase4_F1_frw_shape_probe}.
-
-At the present baseline, the joint shape/FRW probe exercises the
-shape and FRW-viability machinery, but does \emph{not} yet attempt a
-genuine comparison to observational data.  The Phase~4 data-probe
-stub, implemented in
-\texttt{phase4/src/phase4/run\_f1\_frw\_data\_probe.py},
-is wired to look for an external binned FRW distance dataset at
-
-\begin{center}
-  \texttt{phase4/data/external/frw\_distance\_binned.csv},
-\end{center}
-
-with columns \texttt{z}, \texttt{mu}, and \texttt{sigma\_mu}.  In the
-baseline repository configuration this file is an explicit stub; the
-current Phase~4 layer exercises the data-probe code path but records
-\texttt{data\_available = false}, \texttt{n\_data\_points = 0}, and
-\texttt{n\_data\_ok = 0} in
-\texttt{phase4\_F1\_frw\_data\_probe.json}.  This keeps the FRW/data
-interface explicit while avoiding any accidental dependence on an
-unversioned external dataset.
-
-% -------------------------------------------------------------------
-% Phase 4 FRW shape-probe placeholder figure
-% (anchors the \ref{fig:phase4-shape-probe} used in the text)
-% -------------------------------------------------------------------
-\begin{figure}[t]
+The resulting PNG is written to \texttt{phase4/outputs/figures/phase4\_F1\_frw\_shape\_probe\_omega\_lambda\_vs\_theta.png}. In the paper we include it as:
+\begin{figure}[ht]
   \centering
-  % Intentionally no external image yet; this is a semantic placeholder.
-  \caption{Phase~4 FRW shape-probe summary (placeholder).%
-  \label{fig:phase4-shape-probe}}
+  \includegraphics[width=0.9\linewidth]{../outputs/figures/phase4_F1_frw_shape_probe_omega_lambda_vs_theta}
+  \caption{Phase~4 F1 FRW shape probe. The scatter encodes $\Omega_{\Lambda}(\theta)$ versus $\theta$ for the full F1 grid, with colours indicating membership in (i) the toy vacuum shape corridor, (ii) the FRW--viable corridor, (iii) the $\Lambda$CDM-like window, and (iv) the external-cosmo host kernel overlap. In the baseline configuration, roughly half of the grid is FRW--viable, a small subset is $\Lambda$CDM-like, and an even smaller subset lies near both the host kernel and the toy corridor.}
+  \label{fig:phase4_F1_frw_shape_probe}
 \end{figure}
+
+In addition to the figure, we maintain a machine-readable summary in \texttt{phase4/outputs/tables/phase4\_F1\_frw\_shape\_probe.json}, which records (i) the fractions of grid points that are FRW--viable, in the toy corridor, $\Lambda$CDM-like, and in their intersections; (ii) the $\theta$ ranges for each of these sets and their overlaps; and (iii) metadata linking back to the specific F1 baseline, FRW diagnostics, and external host kernel version used. This JSON file serves as the primary numerical backing for the verbal claims made in this section about fractions and overlaps on the F1 grid.
