@@ -6177,3 +6177,7 @@ Interpretation:
   - Rebuilt `phase4_paper.pdf` and refreshed Phase 4 artifacts to
     include the external-cosmo host kernel table and updated F1 FRW
     diagnostics.
+- 2026-01-15 (Phase 4 external host kernel bridge)
+  - Added `phase4/docs/PHASE4_EXTERNAL_HOST_KERNEL_BRIDGE_v1.md` to document the
+    12-point external-cosmo host kernel, its numerical bands, and its relation
+    to the Phase 4 F1 FRW diagnostics and paper table wiring.
