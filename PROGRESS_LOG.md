@@ -6172,3 +6172,8 @@ Interpretation:
     confirm that the FRW backbone, corridors, LCDM-like probe, and
     data-probe stubs are consistent with the current Stage 2 / host
     configuration.
+
+- 2026-01-15 (Phase 4 paper refresh)
+  - Rebuilt `phase4_paper.pdf` and refreshed Phase 4 artifacts to
+    include the external-cosmo host kernel table and updated F1 FRW
+    diagnostics.
