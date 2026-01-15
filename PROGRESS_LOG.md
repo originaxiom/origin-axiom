@@ -6266,3 +6266,19 @@ Changes:
 Notes:
 
 - Phase 2 remains explicitly marked “Under Audit” in `docs/STATE_OF_REPO.md`, `docs/PHASES.md`, and `docs/CLAIMS_INDEX.md`; this rung adds only a pointer and short explanation, no status change and no numerical edits.
+
+## 2026-01-15 — Stage I + Stage 2 status snapshot doc
+
+Scope: add a single, high-level status snapshot for Stage I (Phases 0–5) and Stage 2, without changing any phase statuses, claims, or numerical artifacts.
+
+Changes:
+
+- Created `docs/STAGE1_STAGE2_STATUS_v1.md` as a concise January 2026 snapshot that:
+  - summarises the status and role of Phases 0–5, including Phase 2 as "Under Audit" with a forward-looking rationale,
+  - collects the Stage 2 belt structure and verdicts in one place by pointing to the existing Stage 2 overview, belt catalogue, and master verdict docs,
+  - highlights key positive structures (governance, toy ensembles, mechanism module, FRW corridors) and key negative/no-selection results (no current θ* selection, empty data corridor, no canonical θ-measure),
+  - and lists a small set of program-level open threads and future rungs.
+
+Notes:
+
+- This doc is a navigation and orientation aid only; it does not introduce new claims or modify any existing Phase 0–5 or Stage 2 artifacts. Where details matter, readers are directed to the Phase papers, claims registers, alignment memos, and Stage 2 belt docs.
