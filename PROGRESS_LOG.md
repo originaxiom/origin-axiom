@@ -6187,3 +6187,4 @@ Interpretation:
     to freeze the current F1 FRW viability, shape corridor, ΛCDM-like
     window, and Stage 2 external host kernel overlap for the
     baseline configuration.
+- 2026-01-15 (Stage 2 external host flatness tolerance scan) Added scan_external_cosmo_flat_tolerance_v1.py and stage2_external_cosmo_flat_tolerance_scan_v1.csv to track HOST_NEAR_FLAT / FRW-viable / corridor fractions as a function of |Omega_tot - 1| tolerance.
