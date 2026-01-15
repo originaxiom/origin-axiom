@@ -6181,3 +6181,9 @@ Interpretation:
   - Added `phase4/docs/PHASE4_EXTERNAL_HOST_KERNEL_BRIDGE_v1.md` to document the
     12-point external-cosmo host kernel, its numerical bands, and its relation
     to the Phase 4 F1 FRW diagnostics and paper table wiring.
+
+- 2026-01-15 (Phase 4 F1 baseline checkpoint)
+  - Added `phase4/docs/PHASE4_FRW_F1_BASELINE_CHECKPOINT_v1.md`
+    to freeze the current F1 FRW viability, shape corridor, ΛCDM-like
+    window, and Stage 2 external host kernel overlap for the
+    baseline configuration.
