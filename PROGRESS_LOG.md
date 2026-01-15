@@ -6192,3 +6192,11 @@ Interpretation:
   - Cleaned the F1 mapping prose and ensured a single, anchored definition for `eq:phase4-f1-definition` in `phase4/paper/sections/02_mappings_stub.tex`.
   - Clarified the Phase 4 diagnostics narrative, wired the F1 FRW shape-probe figure label, and added a Planck-2018-based background reference in `phase4/paper/sections/03_diagnostics_stub.tex`.
   - Added the `Planck2018` bibliography entry in `phase4/paper/Reference.bib` to support the baseline flat-\Lambda CDM citation in the diagnostics text.
+- 2026-01-15 (Phase 4 paper: F1 mappings and diagnostics polish)
+  - Cleaned the F1 mapping prose and ensured a single, anchored definition for `eq:phase4-f1-definition` in `phase4/paper/sections/02_mappings_stub.tex`.
+  - Clarified the Phase 4 diagnostics narrative, wired the F1 FRW shape-probe figure label, and added a Planck-2018-based background reference in `phase4/paper/sections/03_diagnostics_stub.tex`.
+  - Added the `Planck2018` bibliography entry in `phase4/paper/Reference.bib` to support the baseline flat-\Lambda CDM citation in the diagnostics text.
+- 2026-01-15 (Phase 4 paper: F1 mappings and diagnostics polish)
+  - Cleaned the F1 mapping prose and ensured a single, anchored definition for `eq:phase4-f1-definition` in `phase4/paper/sections/02_mappings_stub.tex`.
+  - Clarified the Phase 4 diagnostics narrative, wired the F1 FRW shape-probe figure label, and added a Planck-2018-based background reference in `phase4/paper/sections/03_diagnostics_stub.tex`.
+  - Added the `Planck2018` bibliography entry in `phase4/paper/Reference.bib` to support the baseline flat-\Lambda CDM citation in the diagnostics text.
