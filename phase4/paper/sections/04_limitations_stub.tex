@@ -14,116 +14,110 @@ Phase~4 construction does and does not claim.
 The F1 mapping family, the toy corridor, and the FRW-inspired module
 are all \emph{structural} devices. They are designed to test whether
 the Phase~3 amplitudes can be converted into simple scalar observables
-in a way that is numerically sane, auditable, and easy to reproduce.
+that admit the kind of corridor and probe machinery laid out in
+Sec.~\ref{sec:mappings}. The construction deliberately holds fixed
+a number of choices that, in a full physical proposal, would need to
+be re-opened and justified on their own terms.
 
-No part of the present Phase~4 implementation is calibrated to
-observational data or to a concrete field-theoretic model. The choices
-of mapping exponents, normalisations, and diagnostic thresholds are
-deliberately simple and should be read as examples of the
-\emph{workflow}, not as physically motivated parameter inference.
-
-\subsection{Status of \texorpdfstring{\(\theta\)}{theta}-corridors and \texorpdfstring{\(\theta_\star\)}{theta*}}
-
-The F1 toy corridor is defined by a \(k_\sigma\)-style condition on
-\(E_{\mathrm{vac}}(\theta)\): points whose mapped scalar lies within a
-band of width \(k_\sigma\) times the empirical standard deviation
-around the minimum are marked as ``inside''. This is a purely
-diagnostic definition. It is:
-
+In particular, Phase~4:
 \begin{itemize}
-  \item \emph{not} justified by an underlying measure on
-        \(\theta\)-space;
-  \item \emph{not} tied to any observational likelihood; and
-  \item \emph{not} used to select a unique \(\theta_\star\).
+  \item fixes the Phase~3 baseline vacuum (including the grid,
+        \(\varepsilon\)-floor, and diagnostic summary) and does not explore
+        alternative vacua or hyperparameters;
+  \item fixes the F1 mapping family and its parameters
+        (here \(\alpha = 1\), \(\beta = 4\)) rather than treating them as
+        fit parameters or scanning over a broader family;
+  \item defines a toy shape corridor using a simple
+        \(E_{\rm vac}(\theta)\)-based threshold, chosen for readability
+        and reproducibility, not for optimality;
+  \item translates the vacuum curve into FRW-like quantities with a
+        highly simplified background, intended to expose failure modes
+        rather than to compete with standard cosmological analyses.
 \end{itemize}
+None of these structural choices are claimed to be unique or optimal.
+They are scaffolding for Phase~4; any future attempt to argue for a
+specific \(\theta_\star\) or for phenomenological consequences would
+need to revisit and justify them.
 
-At this rung we do not claim that the corridor has any physical
-significance beyond being a compact way of summarising the shape of
-\(E_{\mathrm{vac}}(\theta)\). The Phase~4 artifact therefore does not
-define a canonical \(\theta_\star\), nor does it promote any specific
-subset of \(\theta\)-values as physically preferred.
+\subsection{FRW-facing limitations}
 
-\subsection{FRW-inspired toys and cosmology}
+The FRW-facing layers of Phase~4 (toy sanity checks, the viability
+scan, corridor construction, and the \(\Lambda\)CDM-like probe) are
+deliberately simple. They fix \(\Omega_m\), \(\Omega_r\), and
+\(H_0\) by hand, work with a single baseline mapping family, and use
+broad box-shaped windows in age and \(\Omega_\Lambda\) rather than a
+likelihood-based treatment. Radiation, baryons, curvature, and
+observational systematics are all treated in an approximate or
+implicit way, if at all.
 
-The FRW-inspired module treats the F1 scalar as a proxy for a
-\(\theta\)-dependent vacuum-energy density \(\Omega_\Lambda(\theta)\),
-choosing the normalisation so that the mean of
-\(\Omega_\Lambda(\theta)\) over the grid is close to a target value
-(e.g.\ \(\approx 0.7\)). Together with fixed toy values of
-\(\Omega_m\) and \(\Omega_r\), this defines a simple
-FRW-like quantity
-\[
-  H^2(a; \theta)
-    = \Omega_r a^{-4}
-    + \Omega_m a^{-3}
-    + \Omega_\Lambda(\theta),
-\]
-evaluated on a finite grid of scale factors \(a\).
-
-The diagnostic checks used here (positivity of \(H^2\) on the grid and
-a bound on the ratio of maximal to minimal \(H^2\) per \(\theta\))
-are deliberately crude. They are not meant to reproduce precision
-cosmology, nor to constrain \(\theta\) from data. Their role is to
-illustrate how one could connect the Phase~3 mechanism to FRW-like
-sanity checks and to record both positive and negative outcomes (such
-as empty-corridor cases) in a structured way.
-
-\subsection{Numerical and implementation limitations}
-
-All Phase~4 results are computed on finite grids: a finite
-\(N_\theta\)-grid for \(\theta\) and a finite \(N_a\)-grid for the
-scale factor in the FRW-inspired module. The diagnostics such as
-``corridor fraction'' or ``FRW-sanity fraction'' are therefore
-\emph{grid-level} summaries and may change under refinement of these
-grids.
-
-The current implementation uses a single mapping family (F1) and a
-single baseline configuration inherited from Phase~3. There is no
-systematic exploration of alternative mapping families, floors,
-normalisations, or FRW toy parameters. The artifact should therefore
-be read as documenting \emph{one concrete, reproducible instance} of
-the workflow, not as a survey of the available design space.
-
-\subsection{Future extensions and non-claims}
-
-Phase~4 is explicitly positioned as a bridge between the Phase~3
-mechanism and future corridor work, not as the end-point of that
-programme. In particular:
-
+As such, the FRW module is best read as a structured plausibility
+check on the F1 mapping and on the Phase~3 mechanism, not as a
+competitive cosmological fit. In particular:
 \begin{itemize}
-  \item we do not claim to have derived a physically meaningful
-        \(\theta\)-corridor;
-  \item we do not claim to have identified a preferred
-        \(\theta_\star\); and
-  \item we do not claim to have solved any cosmological fine-tuning
-        problem.
+  \item the \(\Lambda\)CDM-like probe is defined by generous age and
+        \(\Omega_\Lambda\) windows rather than by a full parameter
+        inference against data;
+  \item the shape probe and corridor overlap summaries are qualitative
+        diagnostics of how the vacuum curve behaves when pushed
+        through a simple FRW calculator, not precision constraints;
+  \item the FRW data probe is wired into the pipeline but, in the
+        baseline repository configuration, operates on a stub external
+        dataset and records that no real data have been applied.
 \end{itemize}
+The numerical fractions and bands reported in the Phase~4 diagnostics
+and paper should therefore be read as internally consistent checks
+\emph{within this specific scaffold}, not as evidence for or against
+any particular cosmological model.
 
-What Phase~4 does claim is that:
+\subsection{External host and flatness limitations}
 
-\begin{enumerate}
-  \item the Phase~3 vacuum mechanism can be cleanly wired into a
-        mapping family and scalar diagnostics;
-  \item the resulting workflow can be captured in a small, auditable
-        code surface with explicit inputs and outputs; and
-  \item both positive and negative diagnostic outcomes (including
-        empty-corridor cases) can be reported in a way that is aligned
-        with the Phase~0 philosophy of structured, reproducible
-        progress.
-\end{enumerate}
+The Stage~2 external host layer and its flatness-based kernel provide
+an additional structural bridge between the Phase~4 FRW module and an
+external source of FRW background grids. Even here, however, the
+construction remains deliberately conservative.
 
-Any future tightening of the corridor notion, introduction of a
-candidate \(\theta_\star\), or calibration to observational data would
-require additional rungs beyond the present Phase~4 artifact and
-would have to make their own assumptions and limitations explicit.
+The external host kernel used in Phase~4:
+\begin{itemize}
+  \item is defined by a near-flatness criterion on \(\Omega_{\rm tot}\)
+        together with broad age windows, rather than by a full joint
+        likelihood over background parameters;
+  \item is restricted to a small 12-point kernel that matches the
+        Phase~4 FRW viable corridor and the toy shape corridor; and
+  \item is summarised by simple bands in \(\theta\),
+        \(\Omega_\Lambda\), age, and a single mechanism scalar
+        \(\mathrm{mech\_baseline\_A0}\), rather than by a higher-
+        dimensional posterior.
+\end{itemize}
+The external host kernel is thus a consistency and alignment device:
+it checks that a simple external FRW grid and the internal Phase~4
+construction agree on a small region of parameter space. It is not a
+claim that the kernel defines an observationally selected
+\(\theta\)-interval, nor that it captures all relevant uncertainties
+in the external constructions it mirrors.
 
-\paragraph{FRW-facing limitations.}
-The FRW-facing layers of Phase~4 (toy sanity checks, the viability scan,
-corridor construction, and the \(\Lambda\)CDM-like probe) are deliberately
-simple. They fix \(\Omega_m\), \(\Omega_r\), and \(H_0\) by hand, impose broad
-box-shaped windows in age and \(\Omega_\Lambda\) rather than using
-likelihoods, and ignore radiation, baryons, curvature, and observational
-systematics. As such, they are best read as structured plausibility checks on
-the F1 mapping and on the Phase~3 mechanism, not as competitive cosmological
-fits. A full FRW analysis would require a more complete treatment of the
-background and of data, and lies beyond the scope of this phase.
+\subsection{Data-facing limitations and future rungs}
+
+Finally, Phase~4 does not perform any real data assimilation. The FRW
+data-probe rung is implemented as a reproducible stub: the code
+expects a binned distance dataset in a standard format but, in the
+baseline repository, operates on a placeholder file and records that
+no external data are present. This is intentional. It keeps the
+artifact self-contained, avoids bundling proprietary or versioned
+datasets, and prevents accidental over-interpretation of the toy
+FRW outputs as data-driven constraints.
+
+Any future phase that seeks to confront data would need to:
+\begin{itemize}
+  \item specify concrete datasets and preprocessing steps;
+  \item define likelihoods and nuisance-parameter treatments for those
+        datasets;
+  \item revisit the mapping-family assumptions and FRW backgrounds
+        used here; and
+  \item articulate clear, limited claims (and non-claims) about what a
+        given rung does or does not establish.
+\end{itemize}
+Those tasks lie outside the scope of the present Phase~4 artifact.
+Here, the goal is narrower: to show that the Phase~3 vacuum mechanism
+can be wired, in a disciplined way, into simple FRW-inspired probes
+and into a small external host bridge, while keeping all assumptions
+and limitations explicit.
