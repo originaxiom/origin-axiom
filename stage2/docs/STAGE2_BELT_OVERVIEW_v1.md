@@ -1,287 +1,124 @@
-# Stage 2 — FRW, mech, joint, data and θ★ belt overview (v1)
+# Stage 2 — Belt overview (FRW, mech, joint, data, θ★, hosts, audits) (v1, updated 2026-01-15)
 
-**Scope:** Internal Stage 2 overview of the FRW corridor, mech/measure,  
-joint mech–FRW, FRW data probes, and θ★ alignment rungs.
+**Scope:** Internal Stage 2 overview of the main diagnostic belts built on top of Phase 3 (mechanism) and Phase 4 (FRW) outputs, including FRW corridor structure, mech/measure summaries, joint mech–FRW correlations, FRW data probes, θ★ alignment checks, empirical background anchors and external FRW hosts, and documentation/paper audit belts.
 
-**Status:** Diagnostic / structural. No claims promoted into Phase 4/5 yet.
-
----
-
-## 1. Purpose of Stage 2
-
-Stage 2 is a **diagnostic and structural belt** that sits between:
-
-- **Phase 3**: local non-cancellation mechanism and “mechanical” measure tables, and  
-- **Phase 4**: FRW background scans and masks (viable band, LCDM-like, toy corridor, etc.).
-
-The goal is to:
-
-1. Understand what the existing Phase 3 and Phase 4 tables actually contain,
-2. Build **clean, restartable rungs** that relate them (FRW families, mech measures, joint grid),
-3. Check for **robust structure vs artefacts**, and
-4. Ensure that **θ★ ≈ φ^φ** is not secretly being “tuned in” by any of the constructions.
-
-Nothing in Stage 2 is allowed to silently change the theory;  
-it is purely about **reading and organizing** what the existing runs already say.
+**Status:** Diagnostic / structural only. No new physics claims are introduced here and no Stage 2 result is, by itself, promoted into Phase 4/5. All belts are downstream views of locked Phase 3/4 artifacts.
 
 ---
 
-## 2. FRW corridor analysis (Stage2 FRW belt, rungs 1–9)
+## 1. Position of Stage 2 in the program
 
-**Files (representative):**
+Stage 2 is a diagnostic belt that sits downstream of the canonical phase ladder and is designed to stress-test, summarise, and visualise what Phase 3 and Phase 4 are already doing without silently changing their claims.
 
-- Tables:  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung1_sources_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung2_bool_census_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung3_families_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung4_family_overlap_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung6_contiguity_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung7_stride_robustness_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung8_smoothing_v1.csv`  
-  - `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_theta_star_alignment_v1.csv`
+- Upstream:
+  - Phase 3 provides mechanism-level tables (mech_baseline_scan, mech_binding_certificate, etc.) and any associated diagnostics under phase3/outputs/tables/.
+  - Phase 4 provides FRW mask tables and toy-corridor structure under phase4/outputs/tables/ together with FRW-facing design docs and reproducibility plans.
+- Downstream:
+  - Stage 2 reads these tables and emits its own CSVs, figures, and markdown summaries under stage2/, always tagged as diagnostic and non-canonical.
+  - Any promotion of Stage 2 results into Phase 4/5 must go through an explicit promotion design and Phase 0–style gate documented elsewhere.
 
-- Figures:  
-  - `stage2/frw_corridor_analysis/outputs/figures/stage2_frw_corridor_family_theta_hist_v1.pdf`  
-  - `stage2/frw_corridor_analysis/outputs/figures/stage2_frw_corridor_family_omega_lambda_scatter_v1.pdf`
-
-**What these rungs do:**
-
-- Rung 1–2: **inventory + boolean census** of the Phase 4 FRW masks on the θ grid.  
-- Rung 3–4: define and summarize FRW corridor families:
-  - F1: FRW_VIABLE (~1016/2048, ≈ 0.50 of grid),
-  - F2: LCDM_LIKE (~63/2048),
-  - F3: TOY_CORRIDOR (~1186/2048),
-  - F4: CORRIDOR_AND_VIABLE,
-  - F5: CORRIDOR_AND_LCDM,
-  - F6: DATA_OK (empty in this run).
-- Rung 5: **summary figures** (θ histograms and ω_Λ scatter) per family.
-- Rung 6–8: **contiguity, stride robustness, smoothing robustness**:
-  - F1–F5 are not singleton specks; they form one or two contiguous segments in θ,
-  - the families are stable under subsampling (stride 2,4,8) and under small window smoothing.
-- Rung 9: **θ★ alignment** within these FRW families (input to the θ★ diagnostic doc).
-
-**Nontrivial outcome (FRW belt):**
-
-- The FRW-viable band is a **broad, contiguous ~50% band** in θ.
-- The toy corridor and its intersections with viability/LCDM form **clean segments**,  
-  not noise-like salt-and-pepper.
-- These families are **robust** under stride and smoothing tests.
-- However, nothing in this FRW belt by itself **singles out** θ★;  
-  F1–F5 are about global viability / shape, not about the specific axiom value.
+This document is a map: it lists the main belts, where they live in the tree, and how they are meant to be read.
 
 ---
 
-## 3. Mech/measure analysis (Stage2 mech belt, rungs 1–6)
+## 2. Belt catalogue (v1)
 
-**Files (representative):**
+Stage 2 currently organises its work into the following belts and diagnostic rungs.
 
-- `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung1_phase3_table_inventory_v1.csv`
-- `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung2_phase3_column_stats_v1.csv`
-- `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung3_phase3_probability_like_candidates_v1.csv`
-- `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung4_phase3_measure_and_flag_candidates_v1.csv`
-- `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung5_phase3_measure_theta_profiles_v1.csv`
-- `stage2/mech_measure_analysis/outputs/tables/stage2_mech_rung6_phase3_preferred_measure_candidates_v1.csv`
+### 2.1 FRW corridor belt
 
-**What these rungs do:**
+- Purpose: describe the structure of FRW-viable regions on the θ-grid, define corridor families, and test contiguity and robustness.
+- Location:
+  - Code and outputs under stage2/frw_corridor_analysis/.
+  - Summary doc: stage2/docs/STAGE2_FRW_CORRIDOR_SUMMARY_v1.md.
+- Diagnostics:
+  - Grid-level viability masks (FRW_VIABLE, LCDM_LIKE, TOY_CORRIDOR and intersections).
+  - Corridor fractions, contiguity tests, stride and smoothing robustness checks.
+- Status: downstream-only; provides structure and sanity checks for Phase 4 FRW masks but does not by itself assert a physical corridor.
 
-- Rung 1–2: inventory and column statistics for Phase 3 tables:
-  - `mech_baseline_scan.csv`, `mech_binding_certificate.csv`,
-  - histogram/stat JSONs like `phase3_measure_v1_hist.csv`, `phase3_measure_v1_stats.json`.
-- Rung 3–4: identify **probability-like columns** (in [0,1], non-negative, etc.)  
-  and separate **measure candidates** vs **flag candidates**.
-- Rung 5: examine **θ-profiles** of these candidates along the Phase 3 θ grid.
-- Rung 6: select a small **preferred subset** of measure candidates  
-  whose θ-profiles are reasonably well-behaved.
+### 2.2 Mechanism / measure belt
 
-**Nontrivial outcome (mech belt):**
+- Purpose: inventory Phase 3 scalar tables, identify probability-like columns, distinguish measure-like vs flag-like behaviour, and propose preferred diagnostic candidates.
+- Location:
+  - Code and outputs under stage2/mech_measure_analysis/.
+  - Summary doc: stage2/docs/STAGE2_MECH_MEASURE_SUMMARY_v1.md.
+- Diagnostics:
+  - Table inventories and column stats for phase3/outputs/tables/.
+  - Probability-like and measure/flag candidate lists.
+  - θ-profiles and a small set of preferred, numerically stable measure candidates.
+- Status: downstream-only; no single θ-measure is promoted to canonical status and no new Phase 3/4/5 claim is introduced.
 
-- The Phase 3 outputs do contain **plausible measure-like scalars** (e.g. bounds/penalties) that:
-  - have support across the θ grid, and
-  - change in a structured way rather than pure noise.
-- Stage 2 identifies a **shortlist** of these as “preferred measure candidates”  
-  without yet turning them into promoted physical claims.
+### 2.3 Joint mech–FRW belt
 
----
+- Purpose: build a joint θ-grid over FRW and mech quantities and quantify correlations between FRW scalars and mechanism amplitudes.
+- Location:
+  - Code and outputs under stage2/joint_mech_frw_analysis/.
+  - Summary doc: stage2/docs/STAGE2_JOINT_MECH_FRW_SUMMARY_v1.md.
+- Diagnostics:
+  - Joint table stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv.
+  - Family-restricted summaries across ALL_GRID, FRW_VIABLE, LCDM_LIKE, TOY_CORRIDOR and intersections.
+  - Correlation tables comparing {E_vac, omega_lambda, age_Gyr} with mech_baseline_* and mech_binding_* scalars.
+- Status: downstream-only; records strong correlations and redundancies but does not promote any correlation to a physical identification or causal mechanism.
 
-## 4. Joint mech–FRW analysis (Stage2 joint belt, rungs 1–4)
+### 2.4 FRW data-probe belt
 
-**Files (representative):**
+- Purpose: audit the Phase 4 FRW data-probe mask and clarify how data-facing flags relate to FRW viability.
+- Location:
+  - Code and outputs under stage2/frw_data_probe_analysis/.
+  - Summary doc: stage2/docs/STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md.
+- Diagnostics:
+  - Column-level stats for phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv.
+  - Cross-tabs of probes (has_matter_era, has_late_accel, smooth_H2, data_ok, etc.) versus frw_viable.
+- Status: downstream-only; in the current snapshot the aggregate data_ok flag is empty and all FRW families should be interpreted as pre-data corridors. Any future data gate design or promotion is handled in separate design docs and gates.
 
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung2_family_summaries_v1.csv`
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung3_correlations_v1.csv`
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_mech_frw_rung4_family_correlations_v1.csv`
-- `stage2/joint_mech_frw_analysis/docs/STAGE2_JOINT_MECH_FRW_SUMMARY_v1.md`
+### 2.5 θ★–FRW alignment diagnostic
 
-**What these rungs do:**
+- Purpose: check where the θ★ candidate (e.g. θ★ ≈ φ^φ in the original motivation) lands relative to FRW corridor families and viability bands.
+- Location:
+  - Code and outputs under stage2/theta_star_analysis/.
+  - Summary doc: stage2/theta_star_analysis/docs/STAGE2_THETA_STAR_ALIGNMENT_v1.md.
+- Diagnostics:
+  - Reads off θ★ from the joint FRW grid and records which FRW families contain it.
+  - Explicitly records this as a structured negative-result sanity check in the current snapshot.
+- Status: a single diagnostic rung; θ★ lies inside the broad FRW-viable band but is not specially selected by the current toy corridors or LCDM-like families and is not promoted to any canonical role.
 
-- Rung 1: build a **joint θ grid**:
-  - align Phase 4 FRW tables and Phase 3 mech tables on the same θ indices,
-  - attach FRW flags (viable, LCDM-like, corridor, etc.) and mech columns  
-    (`mech_baseline_*`, `mech_binding_*`) into one 2048×17 table.
-- Rung 2: recompute **FRW family sizes** on this joint grid (sanity check).
-- Rung 3: compute **global correlations** between:
-  - `{E_vac, ω_Λ, age_Gyr}` and
-  - `{mech_baseline_A0, mech_baseline_A_floor, mech_baseline_bound, mech_binding_A0, mech_binding_A, mech_binding_bound}`.
-- Rung 4: **family-restricted correlations** (per FRW family) to check whether  
-  these relationships persist inside subsets like FRW_VIABLE or TOY_CORRIDOR.
+### 2.6 Empirical anchor and external FRW host belt
 
-**Nontrivial outcome (joint belt):**
+- Purpose: construct and track a small empirical background-cosmology anchor and a set of external FRW “host” configurations that sit inside the FRW-viable band but are still treated as diagnostic scaffolding rather than physical fits.
+- Location:
+  - Anchor docs: stage2/docs/STAGE2_EMPIRICAL_ANCHOR_OVERVIEW_v1.md, STAGE2_EMPIRICAL_ANCHOR_STATUS_v1.md, STAGE2_EMPIRICAL_ANCHOR_SUMMARY_v1.md.
+  - Host docs: stage2/docs/STAGE2_EXTERNAL_COSMO_HOST_DESIGN_v1.md, STAGE2_EXTERNAL_COSMO_HOST_RESULTS_v1.md, STAGE2_PHASE4_FRW_HOST_SUMMARY_v1.md, STAGE2_PHASE4_FRW_HOST_OPEN_QUESTIONS_v1.md and related FRW host status notes.
+- Diagnostics:
+  - Defines and monitors small non-empty subsets of the FRW-viable corridor that can act as empirical anchors and host points for future phenomenology.
+  - Tracks how these anchors relate to FRW scalars, viability masks and the Stage 2 FRW corridor families.
+- Status: diagnostic and design-level only; anchors and hosts are not treated as measurements of the real Universe and are not promoted into Phase 4/5 claims without separate, explicit gates.
 
-- There are **very strong linear-like correlations**:
-  - E_vac and ω_Λ track the mech amplitude/floor very closely (|r| ≈ 0.94–0.98),
-  - age_Gyr anticorrelates for the same reason.
-- This is not yet a *claim* about the real universe, but it is **structural evidence** that:
-  - the Phase 3 mechanism and Phase 4 FRW scans are **not independent knobs**;
-  - the mechanism-derived scalars behave like **structured functions of the FRW vacuum sector**.
+### 2.7 Documentation and repo-audit belt
 
----
+- Purpose: keep the documentation tree, archive status, and open threads aligned with Phase 0 contracts and the actual code and artifact layout.
+- Location:
+  - Stage 2 doc-audit CSVs and scripts under stage2/doc_repo_audit/.
+  - Summary docs: stage2/docs/STAGE2_DOC_AUDIT_SUMMARY_v1.md, STAGE2_DOC_OPEN_THREADS_STATUS_v1.md, STAGE2_ARCHIVE_STATUS_v1.md.
+- Diagnostics:
+  - Doc inventory, broken-reference and orphan-candidate tables.
+  - Explicit open-thread lists and archive maps for canonical vs experimental areas.
+- Status: governance and hygiene belt only; it does not change any Phase 0–5 claim and is used as a downstream snapshot when preparing publication-grade passes.
 
-## 5. FRW data probes (Stage2 FRW–data belt, rungs 1–2)
+### 2.8 Paper-audit belt
 
-**Files (representative):**
-
-- `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_data_probe_rung1_column_stats_v1.csv`
-- `stage2/frw_data_probe_analysis/outputs/tables/stage2_frw_data_probe_rung2_viability_cross_v1.csv`
-- `stage2/frw_data_probe_analysis/docs/STAGE2_FRW_DATA_PROBE_SUMMARY_v1.md`
-
-**What these rungs do:**
-
-- Rung 1: basic statistics on the FRW data probe mask:
-  - `has_matter_era`, `has_late_accel`, `smooth_H2`, `frw_viable`, `data_ok`.
-- Rung 2: cross-tabulate each probe column vs the FRW viability flag.
-
-**Nontrivial outcome (FRW–data belt):**
-
-- The current **placeholder “data_ok” mask is empty**:
-  - `data_ok` is false for all θ in this run.
-- The diagnostic tells us:
-  - we *cannot yet* make any FRW+data corridor claims,
-  - future work must either:
-    - improve the probe implementation, or
-    - plug in actual observational constraints.
-
-In other words, **Stage 2 proves that the present “data_ok” flag is not useable**,  
-which is itself an important negative result for gating.
-
----
-
-## 6. θ★ ≈ φ^φ vs FRW families (diagnostic rung)
-
-**Files:**
-
-- `stage2/frw_corridor_analysis/outputs/tables/stage2_frw_corridor_rung9_theta_star_alignment_v1.csv`
-- `stage2/theta_star_analysis/docs/STAGE2_THETA_STAR_ALIGNMENT_v1.md`
-
-**What this rung does:**
-
-- For each FRW family (viable band, LCDM-like, toy corridor, intersections), it:
-  - finds the θ in that family closest to θ★ ≈ φ^φ,
-  - measures the distance |θ − θ★|,
-  - records whether θ★ lies inside each family.
-
-**Nontrivial outcome (θ★ diagnostic):**
-
-- θ★ lies **inside the broad FRW-viable band** and behaves like a typical viable θ.
-- The toy corridor and LCDM-like sets, as implemented here, **live elsewhere** in θ-space;  
-  they do **not** pick θ★.
-- Thus, in this run:
-  - nothing “mysteriously snaps” to θ★,
-  - we have a clear **negative-result baseline** against which future, richer corridors  
-    (e.g. with real data or refined mechanisms) must be compared.
+- Purpose: audit the Phase 0–5 LaTeX papers and build logs for TODO/TBD/FIXME leakage, build cleanliness, and alignment with Phase contracts and Stage 2 diagnostics.
+- Location:
+  - Summary and plan docs: stage2/docs/STAGE2_PAPER_AUDIT_OVERVIEW_v1.md, STAGE2_PAPER_AUDIT_PLAN_v1.md.
+  - Phase-specific audit docs: stage2/docs/STAGE2_PAPER_AUDIT_PHASE01_v1.md, STAGE2_PAPER_AUDIT_PHASE2_v1.md, STAGE2_PAPER_AUDIT_PHASE3_v1.md, STAGE2_PAPER_AUDIT_PHASE4_v1.md, STAGE2_PAPER_AUDIT_PHASE5_v1.md.
+- Diagnostics:
+  - Per-phase notes on build cleanliness and residual TODO/FIXME markers.
+  - Cross-checks between Phase contracts, paper text, and key Stage 2 diagnostics.
+- Status: governance and publication-prep belt only; it does not introduce new physics content and is used to prepare future submission-quality versions of the Phase papers.
 
 ---
 
-## 7. Gating and roadmap position
+## 3. How to read this with other Stage 2 docs
 
-### 7.1. What is **not** promoted (yet)
+For a narrative summary of what we actually found across these belts, see stage2/docs/STAGE2_OVERVIEW_v1.md and stage2/docs/STAGE2_MASTER_VERDICT_v1.md. For promotion design and criteria, see stage2/docs/STAGE2_PROMOTION_DESIGN_v1.md and phase4/docs/PHASE4_FRW_PROMOTION_DESIGN_v1.md. For a map of Stage 2 endpoints and tables, see stage2/docs/STAGE2_ENDPOINT_ATLAS_v1.md and stage2/docs/STAGE2_ENDPOINTS_AND_TABLES_MAP_v1.md.
 
-At this Stage 2 belt v1, **no new artifacts are promoted into Phase 3/4/5**.  
-Specifically:
-
-- FRW families, robustness checks, and corridor plots:  
-  **Stage 2 internal diagnostics** only.
-- Mech measure candidates and θ-profiles:  
-  **shortlisted** but not yet declared “the” measure in the main narrative.
-- Joint mech–FRW correlations:  
-  kept as **internal evidence** that the pieces talk to each other.
-- FRW data probes:  
-  explicitly documented as **not yet ready** for physical claims.
-- θ★ alignment:  
-  locked in as a **negative-result sanity check**, not as a claim of selection.
-
-### 7.2. What Stage 2 enables next
-
-Stage 2 belt v1 puts us in position to:
-
-1. Design **Option A** promotions:  
-   small, conservative artifacts that could be added to Phase 4/5  
-   (e.g. a simple FRW viability fraction table, or a single joint mech–FRW plot)  
-   without over-claiming.
-
-2. Design **Option B** promotions:  
-   a larger, FRW-focused or measure-focused follow-up phase (Phase 6 or Stage 3)  
-   if a richer, data-informed corridor emerges.
-
-3. Re-run FRW and mech belts in future with:
-   - improved data probes,
-   - refined mechanisms,
-   - additional θ grids,
-   while still staying within the rung structure defined here.
-
----
-
-## 8. Status
-
-- **Stage 2 belt v1:** structural and diagnostic, now coherently documented.
-- **Next major task (future rung):**  
-  a **Stage 2 → Phase 4/5 promotion design** document that:
-  - selects a *very small* set of Option A candidates, and
-  - leaves more ambitious stories for Option B / later phases.
-
-
----
-
-## 6. Companion docs in `docs/`
-
-Several higher-level Stage 2 documents live under the top-level `docs/` tree:
-
-- `docs/STAGE2_OVERVIEW.md` — global overview of Stage 2 as an exploratory,
-  downstream lab layer that never mutates Phase 3/4 artifacts and does not
-  introduce new claims. This is the conceptual entry point for Stage 2 as a
-  whole.
-
-- `docs/STAGE2_JOINT_MECH_FRW_PLAN_v1.md` — design spine for the joint
-  mech–FRW analysis, describing how Phase 3 measure candidates and Phase 4/Stage 2
-  FRW masks are to be combined on a common θ grid, and which questions this joint
-  analysis is allowed to ask (purely diagnostic, no new θ★-style claims).
-
-- `docs/STAGE2_MECH_MEASURE_RUNG1_6_SUMMARY_v1.md` — narrative summary of the
-  mech/measure belt rungs (inventory, probability-like candidates, measure vs
-  flag classification, θ-profiles, and preferred candidates) that backs the
-  Stage 2 mech/measure summaries in this overview.
-
-Readers who start from the Phase/Stage global docs should treat these `docs/`
-entries as the high-level Stage 2 design and this `stage2/docs/*` belt overview
-as the more implementation-facing companion.
-
----
-
-## 7. Relationship to the repo audit checklist
-
-The documentation and repo-audit belt integrates with the global reproducibility
-layer. For auditors who want a concrete procedure for checking the repository
-against Phase 0 contracts and the Stage 2 belts, see:
-
-- `docs/REPRODUCIBILITY.md` – in particular the **Repo audit checklist (Stage 2
-  belt)** section, which gives a step-by-step sequence for:
-  - building Phase 0–5 papers cleanly,
-  - checking global docs and the repo atlas,
-  - inspecting Stage 2 diagnostic belts as downstream-only analyses,
-  - reviewing the Stage 2 doc-audit status, and
-  - verifying archive and experiment boundaries.
-
-This belt-level overview and the repo-audit checklist are meant to be read
-together: the overview explains what the belts are allowed to do, and the
-checklist explains how to verify that the current repository state is consistent
-with that design.
+This belt overview is deliberately dry and structural: it tells you where each belt lives, what kind of diagnostics it contains, and which parts of the tree are allowed to change in Stage 2 without touching Phase 0–5 claims. It should be read together with docs/STATE_OF_REPO.md and docs/REPO_MAP_AND_ATLAS_v1.md when you want to audit or extend the Stage 2 layer.
