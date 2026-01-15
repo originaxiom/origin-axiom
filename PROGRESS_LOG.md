@@ -6158,3 +6158,8 @@ Interpretation:
   - Added `phase4/src/build_phase4_external_host_kernel_table_v1.py` and
     `phase4/outputs/tables/phase4_external_host_kernel_constraints_v1.tex`
     to include the external-cosmo host age–corridor kernel as a Phase 4 table.
+
+- 2026-01-15 (Phase 4 paper grooming)
+  - Added a placeholder figure and label `fig:phase4-shape-probe` in
+    `phase4/paper/03_diagnostics_stub.tex` to resolve the remaining
+    undefined reference warning.
