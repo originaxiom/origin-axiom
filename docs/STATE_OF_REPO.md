@@ -84,3 +84,9 @@ These memos are descriptive snapshots and do not introduce new claims; they reco
 ### Stage 2 empirical background anchor (v1, diagnostic only)
 
 Stage 2 now includes an empirical background-cosmology anchor belt that imposes a simple \((\omega_\Lambda, \text{age}_{\mathrm{Gyr}})\) box on the Phase 4 FRW toy grid. The corresponding scripts and tables live under `stage2/frw_data_probe_analysis/` and `stage2/joint_mech_frw_analysis/`, with a belt-level summary in `stage2/docs/STAGE2_EMPIRICAL_ANCHOR_SUMMARY_v1.md`. In the current snapshot this anchor yields a small, non-empty kernel of 18 θ points inside the FRW-viable corridor, organised into two short contiguous segments, with no special preference for θ★. All empirical-anchor artifacts are treated as Stage 2 diagnostics only and are not yet promoted into Phase 4/5 claims or figures.
+
+---
+
+### Phase 2 audit status (2026-01-15)
+
+Phase 2 remains marked **Under Audit** at the program level. This reflects a conservative, forward-looking choice rather than any detected contradiction in the current Phase 2 implementation. The core Phase 2 claims (existence and robustness of a mode-sum residual and the stability of a toy flat-FRW wrapper) are internal to the Phase 2 sandbox, explicitly pre-data and pre-measure, and are consistent with the current Stage 2 FRW and joint mech–FRW diagnostics. For a detailed audit status and the Stage 2 paper-audit verdict, see `phase2/PHASE2_ALIGNMENT_v1.md` and `stage2/docs/STAGE2_PAPER_AUDIT_PHASE2_v1.md`.

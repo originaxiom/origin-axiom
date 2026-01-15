@@ -6251,3 +6251,18 @@ Notes:
 
 - No Phase 2 numerical pipelines, tables, or FRW wrappers were modified in this rung.
 - Global program docs (`docs/STATE_OF_REPO.md`, `docs/PHASES.md`, `docs/CLAIMS_INDEX.md`) continue to label Phase 2 as “Under Audit”; this rung simply makes the rationale explicit in the Phase 2 alignment memo and the Stage 2 paper-audit doc.
+
+## 2026-01-15 — Phase 2 audit status pointer in STATE_OF_REPO (P2-C)
+
+Scope: add a minimal global pointer so that the meaning of the Phase 2 “Under Audit” label is easy to find from the top-level state doc, without changing the Phase 2 status itself.
+
+Changes:
+
+- Appended a short “Phase 2 audit status (2026-01-15)” note to `docs/STATE_OF_REPO.md` clarifying that:
+  - Phase 2 is labelled “Under Audit” for forward-looking reasons (space for future tightening), not because of any current inconsistency in the Phase 2 toy model or claims.
+  - The core Phase 2 claims remain internal to the Phase 2 sandbox, pre-data and pre-measure, and are consistent with current Stage 2 FRW and joint mech–FRW diagnostics.
+  - Readers should consult `phase2/PHASE2_ALIGNMENT_v1.md` and `stage2/docs/STAGE2_PAPER_AUDIT_PHASE2_v1.md` for the detailed Phase 2 audit status and Stage 2 paper-audit verdict.
+
+Notes:
+
+- Phase 2 remains explicitly marked “Under Audit” in `docs/STATE_OF_REPO.md`, `docs/PHASES.md`, and `docs/CLAIMS_INDEX.md`; this rung adds only a pointer and short explanation, no status change and no numerical edits.
