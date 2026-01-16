@@ -6188,3 +6188,16 @@ Interpretation:
     window, and Stage 2 external host kernel overlap for the
     baseline configuration.
 - 2026-01-15 (Stage 2 external host flatness tolerance scan) Added scan_external_cosmo_flat_tolerance_v1.py and stage2_external_cosmo_flat_tolerance_scan_v1.csv to track HOST_NEAR_FLAT / FRW-viable / corridor fractions as a function of |Omega_tot - 1| tolerance.
+
+## 2026-01-16 — Repo rename to origin-axiom-framework (docs-only rung)
+
+Scope:
+- Record the GitHub repository rename and README rollback as a purely documentary change.
+
+Actions:
+- Renamed the GitHub repo to `origin-axiom-framework` (no change to scientific content or phase structure).
+- Restored `README.md` to the canonical pre-rename version from commit `8c9b1ea` to keep the Stage 1 / Stage 2 description and repo map stable.
+- Confirmed that no Phase 0–5 or Stage 2 artifacts, claims, or pipelines were modified in this rung.
+
+Notes:
+- A separate repo `origin-axiom-obstruction` now exists for focused work on the conceptual obstruction to exact vacuum cancellation; it is not yet wired into this framework and remains non-canonical background.
