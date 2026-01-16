@@ -92,3 +92,4 @@ stage2/doc_repo_audit/
 # Local scratch + LaTeX build artifacts not tracked by design
 commit_log_full.txt
 phase2/paper/main.pdf
+_internal/
