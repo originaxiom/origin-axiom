@@ -112,3 +112,7 @@ Until explicit promotion gates are passed:
 
 Any future change to this picture (e.g. a populated data-conditioned corridor, a canonical measure, or a nontrivial θ★ signature) must come from **new rungs and new code**, under explicit Phase 0 gates, and should be compared back to this Stage 2 master verdict as a baseline.
 
+
+### Obstruction-program interpretation
+
+Viewed through the obstruction program described in `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md`, the current Stage 2 belts form an initial testing spine for the idea that the universe sits near, but not on, a perfectly cancelling vacuum configuration. The FRW corridor belt shows that a broad, structured FRW-viable band exists on the θ grid; the mech/measure and joint belts indicate that mechanism amplitudes behave as smooth reparameterisations of FRW scalars at the present resolution; the empirical FRW anchor rungs exhibit small but non-empty kernels where corridor, viability, and conservative empirical boxes overlap; and the external host belts demonstrate that similar kernels can survive coarse cross-checks against independent FRW machinery. None of these results promote θ\* or the obstruction picture to a Phase-level claim, but together they summarise how far the current numerical infrastructure goes in testing that interpretation.
