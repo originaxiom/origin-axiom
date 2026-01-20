@@ -6287,3 +6287,27 @@ Status and non-claims.
 - No new FRW physics, mappings, or external corridors were introduced in this rung. The helper table is an internal convenience layer for the obstruction program, not a new corridor or a promoted result.
 - The pre-data kernel (1016 out of 2048 grid points) should be read as a compact restatement of the existing FRW viability structure, useful for static θ experiments and future robustness tests, but not as a statement about the real universe.
 - Any future use of this kernel in external-style filters or host comparisons will require separate design rungs and gates, and any promotion into phase-level text remains out of scope for this rung.
+
+## 2026-01-20 — Stage 2 obstruction: static FRW kernel families (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a Stage 2 obstruction helper that summarises how the static FRW pre-data kernel decomposes across the existing FRW corridor families. This rung is diagnostic-only and downstream of the Phase 4 FRW masks and Stage 2 FRW belt.
+
+Files.
+
+- `stage2/obstruction_tests/src/analyze_static_frw_kernel_families_v1.py`:
+  - Reads `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv` (2048 grid points, 1016 in the pre-data kernel).
+  - Defines several θ-families using existing flags:
+    - `ALL_GRID`, `PRE_DATA_KERNEL`, `LCDM_LIKE`, `TOY_CORRIDOR`,
+    - `KERNEL_AND_LCDM`, `KERNEL_AND_TOY`, `LCDM_AND_TOY`,
+    - `KERNEL_AND_LCDM_AND_TOY`, `SHAPE_AND_VIABLE`, `SHAPE_AND_LCDM`.
+  - Writes `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_families_v1.csv`, with:
+    - `family_name`, `n_points`, `frac_of_grid`, `frac_of_kernel` (where applicable), and a short `note`.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_STATIC_FRW_KERNEL_FAMILIES_v1.md`:
+  - Documents the purpose, families, and interpretation of the helper as a compact summary of how the pre-data kernel sits inside the existing FRW corridor structure.
+  - Emphasises that this table introduces no new thresholds or mappings; it repackages existing Stage 2 FRW information for static θ analysis in the obstruction program.
+
+Status and non-claims.  
+- No Phase 0–5 contracts, Stage 2 promotion gates, or FRW pipelines were modified in this rung. All logic is downstream of the locked Phase 4 FRW masks and the Stage 2 FRW belt.
+- The family summary is intended as a convenience view for future obstruction-program rungs (for example robustness checks or external-style corridors), not as a new physical claim or data-driven constraint.
