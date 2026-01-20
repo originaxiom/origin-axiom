@@ -6408,3 +6408,32 @@ Files.
 Status and non-claims.  
 - No Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were modified in this rung; the toy corridor is an internal diagnostic helper.
 - The corridor should be interpreted as a sanity-check reshaping of the vacuum sector, not as a physical late-time expansion constraint. Any future external-style corridors will be introduced as separate helpers under explicit design and gate rungs.
+
+## 2026-01-20 — Obstruction program status snapshot (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a status memo and atlas pointer that summarise the obstruction overlays as of 2026-01-20: static FRW kernel, kernel families, toy late-time corridor from the LCDM box, and the current external-corridor design menu. This rung is documentation-only and does not modify any Phase 0–5 contracts, numerical pipelines, or Stage 2 promotion gates.
+
+Files.
+
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md`:
+  - Describes the inputs and backbone of the obstruction program (Phase 0–5, Stage 2 belts, obstruction-specific docs).
+  - Summarises the static pre-data FRW kernel and family structure from:
+    - `stage2_obstruction_static_frw_kernel_v1.csv`,
+    - `stage2_obstruction_static_frw_kernel_families_v1.csv`,
+    including:
+      - a 1016-point pre-data kernel inside a 2048-point grid,
+      - a 63-point LCDM-like band inside the kernel,
+      - a 40-point triple intersection region where the kernel, LCDM-like band, and FRW toy corridor all agree.
+  - Records the toy late-time corridor `lt_corridor_box_from_lcdm` derived from the LCDM-like band via:
+    - `build_toy_lt_corridor_from_lcdm_box_v1.py`,
+    - `stage2_obstruction_toy_lt_corridor_from_lcdm_box_v1.csv`,
+    - `stage2_obstruction_toy_lt_corridor_from_lcdm_box_summary_v1.csv`,
+    and notes that the LCDM-like points form a clean box in \((E_vac, \omega_lambda)\) that preserves the same 40-point sweet subset.
+  - Gives an interim obstruction verdict (no internal obstruction yet, nonempty sweet region, θ-neutral constructions) and a short roadmap for external-style corridors and Stage II host work.
+- `docs/REPO_MAP_AND_ATLAS_v1.md`:
+  - Extended the obstruction section with a pointer to `OBSTRUCTION_PROGRAM_STATUS_v1.md` so that the obstruction-program-v1 snapshot is easily discoverable from the global atlas.
+
+Status and non-claims.  
+- No new filters, thresholds, or data sources were introduced in this rung; it is a synthesis layer over existing Stage 2 FRW diagnostics and obstruction helpers.
+- The memo records that the current stack supports a small, internally consistent sweet subset of θ but does not promote this to a phase-level claim or treat it as a unique selection. Any future external-style corridors or host-consistency filters will be added via separate, gated Stage 2 and Stage II rungs.

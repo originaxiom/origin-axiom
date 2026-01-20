@@ -314,3 +314,9 @@ For a concise summary of what the obstruction program currently adds on top of t
   - static FRW pre-data kernel definition and helper table,
   - kernel family decomposition and robustness note,
   - verdict and forward roadmap.
+
+---
+
+### Obstruction-program status docs
+
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md` – concise snapshot of the obstruction-program-v1 overlays, current diagnostic outcomes, and the roadmap for external-style corridors and Stage II hosts.
