@@ -6251,3 +6251,39 @@ Status and non-claims.
 - No numerical artefacts, Phase contracts, or Stage 2 promotion gates were changed in this rung; all edits are documentation-only and clearly marked as interpretive. The obstruction program remains an overlay on the locked Stage 0–5 + Stage 2 structure, not an alternative set of claims.
 - Static θ corridors and the existing pre-data FRW kernel are positioned as testbeds for future work: they show that the current stack can support non-trivial θ subsets under internal filters, but they are not yet confronted with explicit external corridors or host-level metrics.
 - Any future introduction of concrete external corridors (for example effective w0–wa boxes or high-redshift age bounds) and any promotion of their outputs into phase papers will require separate design rungs, Phase 0 style gates, and explicit updates to the relevant documents.
+
+## 2026-01-20 — Stage 2 obstruction test: static FRW kernel helper (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a small Stage 2 helper to package the existing Phase 4 FRW masks into a single static θ table for obstruction-program analysis. This rung does not change any Phase 0–5 contracts, Stage 2 promotion gates, or FRW pipelines; it is a downstream, diagnostic-only addition.
+
+Files.
+
+- `stage2/obstruction_tests/src/build_static_frw_kernel_v1.py`:
+  - Reads the Phase 4 FRW mask tables
+    - `phase4/outputs/tables/phase4_F1_frw_data_probe_mask.csv`
+    - `phase4/outputs/tables/phase4_F1_frw_viability_mask.csv`
+    - `phase4/outputs/tables/phase4_F1_frw_lcdm_probe_mask.csv`
+    - `phase4/outputs/tables/phase4_F1_frw_shape_probe_mask.csv`
+  - Joins them on `theta` and writes a compact helper table:
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`
+  - Each row carries
+    - FRW scalars: `theta`, `E_vac`, `omega_lambda`, `age_Gyr`,
+    - masks: `has_matter_era`, `has_late_accel`, `smooth_H2`, `frw_viable`, `data_ok`,
+    - corridor flags: `lcdm_like`, `in_toy_corridor`, `shape_and_viable`, `shape_and_lcdm`,
+    - and a derived flag `in_pre_data_kernel` defined by `frw_viable = 1`.
+  - On the current snapshot the script reports
+    - grid points: 2048,
+    - pre-data kernel size: 1016,
+    consistent with the Stage 2 FRW viability and data-probe audits.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_STATIC_FRW_KERNEL_v1.md`:
+  - Documents the purpose and usage of the helper:
+    - clarifies that it is a packaging of existing Stage 2 FRW masks for static θ analysis,
+    - states that the current pre-data kernel is defined purely by `frw_viable` (with always-true sanity checks inherited from Phase 4),
+    - and emphasises that this table is diagnostic-only and governed by the existing Stage 2 FRW and data-probe docs and obstruction-program memos.
+
+Status and non-claims.  
+- No new FRW physics, mappings, or external corridors were introduced in this rung. The helper table is an internal convenience layer for the obstruction program, not a new corridor or a promoted result.
+- The pre-data kernel (1016 out of 2048 grid points) should be read as a compact restatement of the existing FRW viability structure, useful for static θ experiments and future robustness tests, but not as a statement about the real universe.
+- Any future use of this kernel in external-style filters or host comparisons will require separate design rungs and gates, and any promotion into phase-level text remains out of scope for this rung.
