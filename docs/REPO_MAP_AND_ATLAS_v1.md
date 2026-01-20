@@ -302,3 +302,15 @@ These memos describe the obstruction-program interpretation of the Stage I stack
 - `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md` – design notes for Stage II cosmology hosts, including an obstruction-aware list of questions about corridor survival and kernel structure.
 
 All obstruction-program docs are interpretive overlays: they do not modify any Phase 0–5 contracts or Stage 2 promotion gates, and any future promotion of obstruction-flavoured statements into phase papers will require separate, tightly scoped rungs.
+
+---
+
+## Obstruction program status (v1)
+
+For a concise summary of what the obstruction program currently adds on top of the Phase 0–5 stack and Stage 2 belts, see:
+
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md` – status snapshot for obstruction-program-v1, including
+  - inputs and diagnostic spine,
+  - static FRW pre-data kernel definition and helper table,
+  - kernel family decomposition and robustness note,
+  - verdict and forward roadmap.

@@ -6337,3 +6337,28 @@ Status and non-claims.
 - No Phase 0–5 contracts, Stage 2 promotion gates, or FRW/data masks were modified; this rung is purely interpretive.
 - The robustness note is internal to Stage 2 and the obstruction program; it does not promote any obstruction-flavoured statements into phase papers.
 - Future obstruction rungs can build on this by introducing explicitly designed external-style corridors or host constraints, but those are out of scope here.
+
+## 2026-01-20 — Obstruction program status snapshot (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a status snapshot for the obstruction program, consolidating the current static FRW kernel constructs and their interpretation into a single doc. This rung is documentation-only and leaves all Phase 0–5 contracts and Stage 2 promotion gates unchanged.
+
+Files.
+
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md`:
+  - Summarises the inputs and diagnostic spine for the obstruction program (Phase 0–5 stack and Stage 2 belts).
+  - Records the concrete constructs introduced in this branch:
+    - the static FRW pre-data kernel helper
+      (`stage2_obstruction_static_frw_kernel_v1.csv`),
+    - the kernel family decomposition
+      (`stage2_obstruction_static_frw_kernel_families_v1.csv`),
+    - and the minimal robustness memo over those families.
+  - States a v1 verdict: the pre-data kernel is non-trivial, survives intersection with independent FRW corridor-style families in O(10^2) points, and contains a 40-point “sweet spot” triple intersection region, but no θ value is promoted and no external-style corridors are yet implemented in code.
+  - Outlines a forward roadmap for future obstruction rungs (external-style corridors, host-style questions, and possible dynamic refinements), explicitly gated by Phase 0–style promotion steps.
+
+- `docs/REPO_MAP_AND_ATLAS_v1.md`:
+  - Appended a short “Obstruction program status (v1)” section pointing to `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md` so the obstruction stack and its current status are discoverable from the global atlas.
+
+Status and non-claims.  
+- No numerical pipelines, masks, or claims were changed in this rung; all obstruction constructs remain internal Stage 2 diagnostics and overlays.
+- This snapshot is intended to make `obstruction-program-v1` merge-ready in spirit: it clearly states what has been added, what has not been attempted, and how future obstruction work should be gated.
