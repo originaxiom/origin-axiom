@@ -160,3 +160,97 @@ Across all external-style corridors and filters, the following principles apply:
 - θ-neutrality: corridors should be chosen and documented in a way that does not implicitly hard-wire any preferred θ value; any apparent θ preference must emerge from the filters, not from their construction.
 
 This menu is a living design sketch. Future rungs can refine, split, or retire corridor candidates as the obstruction program and Stage II hosts become more concrete.
+
+---
+
+## 3. Prioritised external-style corridor menu (v1)
+
+This section lists a small, prioritised set of external-style corridors that are natural next steps for the obstruction program. Each item is a design-only target: no thresholds are fixed here and no code is implied yet. The aim is to define *what kind of question* each corridor will ask of the existing FRW kernel and sweet subset.
+
+### 3.1 Late-time expansion corridor (LCDM-adjacent box)
+
+Type.  
+- A corridor in the effective late-time expansion plane, phrased in terms of vacuum-sector scalars that are already present in the Phase 4 masks (for example \(E_{\text{vac}}\) and \(\omega_\Lambda\)), but interpreted as an approximation to an external late-time constraint rather than a purely internal mask.
+
+Motivation.  
+- The static FRW kernel already supports:
+  - a broad pre-data viable band,
+  - a narrow LCDM-like band,
+  - a toy late-time corridor derived from the LCDM box and the FRW toy corridor.
+- The 40-point sweet subset sits at the intersection of these ingredients. A real late-time corridor should ask whether this region remains nonempty once we move away from purely internal bands.
+
+Design sketch.  
+- Start from:
+  - existing internal LCDM-like region and FRW toy corridor in \((E_{\text{vac}}, \omega_\Lambda)\),
+  - external information about plausible late-time expansion behaviour,
+  - and the principle that any external corridor should not be fine-tuned directly to the current 40-point subset.
+- Define:
+  - a small family of candidate boxes or bands in the \((E_{\text{vac}}, \omega_\Lambda)\) plane that are:
+    - interpretable as “late-time expansion consistent with external constraints,”
+    - broad enough to avoid overfitting the current snapshot,
+    - auditable in terms of how they map onto the pre-data kernel, LCDM-like band, FRW toy corridor, and the sweet subset.
+- For each candidate corridor we will later ask:
+  - Does the kernel remain nonempty?
+  - Does the 40-point sweet subset survive, shrink, move, or disappear?
+  - How sensitive are the answers to modest changes in the box boundaries?
+
+Standards.  
+- External-style corridors here must be defined in terms of quantities that could, in principle, be calibrated to data, even if this rung does not yet perform that calibration.
+- Thresholds must be chosen by simple external arguments or bands, not by tailoring them to preserve the current sweet subset.
+
+### 3.2 Age corridor (refining the toy band)
+
+Type.  
+- A corridor in the cosmic age scalar `age_Gyr`, tightening the broad `[10, 20]` Gyr toy band into a more realistic, obstruction-style age filter.
+
+Motivation.  
+- The toy external age corridor `[10, 20]` Gyr shows that the machinery for external-style scalar bands works and currently behaves as a structural no-op: it preserves the entire pre-data kernel, the LCDM-like band, the FRW toy corridor, and the 40-point sweet subset.
+- The next natural step is to move from:
+  - “age band wide enough to test the machinery,” to
+  - “age band narrow enough to actually challenge parts of the kernel,” while remaining defensible as an external-style choice.
+
+Design sketch.  
+- Define a family of candidate age bands of the form:
+  - \([t_{\min}, t_{\max}]\) Gyr with \(t_{\min}\) in a realistically motivated range (for example, comfortably below current best estimates of the cosmic age) and \(t_{\max}\) relaxed enough to avoid artefacts from the toy FRW setup.
+- For each candidate band we will later examine:
+  - fraction of the pre-data kernel that survives,
+  - survival or collapse of the LCDM-like band,
+  - behaviour of the 40-point sweet subset.
+- The goal is not to tune an “optimal” band, but to understand which age corridors, if any, genuinely obstruct the current kernel or sweet subset.
+
+Standards.  
+- Age bands should be justified by simple, external-style arguments (for example: “definitely too young,” “comfortably consistent with observed ages”), not by post-selection on the current kernel.
+- Any corridor that completely empties the kernel must be flagged explicitly as an “obstruction candidate” and subjected to additional robustness checks before being taken seriously.
+
+### 3.3 Structure-friendly corridor (early-structure proxy)
+
+Type.  
+- A corridor that proxies “early-structure-friendly” behaviour, for example via a very simple diagnostic derived from the FRW setup (or a later extension) that tracks whether the background is compatible with forming long-lived, structured hosts.
+
+Motivation.  
+- The obstruction program ultimately cares about whether a given θ value admits host-level structure at all, not just late-time expansion and age.
+- A first, crude structure-friendly corridor can serve as a placeholder for more detailed Stage II host work and as a way to test whether the existing kernel is obviously incompatible with even minimal structure requirements.
+
+Design sketch.  
+- Identify a small number of FRW-derived scalars or flags that might correlate with structure-friendliness in a very weak sense (for example, the presence of a matter era and qualitatively reasonable expansion history over a broad time range).
+- Define simple corridor conditions (for example, “satisfies a minimal set of structural sanity flags”) and apply them to the static kernel.
+- Record:
+  - how many kernel points survive,
+  - how this interacts with the LCDM-like band, the FRW toy corridor, and the 40-point sweet subset.
+
+Standards.  
+- This corridor must be clearly marked as a **proxy** for structure friendliness, not as a realistic model of galaxy or host formation.
+- Any interpretation in terms of real hosts will be deferred to Stage II and to separate, more detailed host design documents.
+
+### 3.4 Gating and versioning
+
+For each external-style corridor that moves beyond the current toy level:
+
+- A separate design rung will:
+  - specify the chosen thresholds or inequalities and their justification,
+  - implement the corresponding helper script and summary tables,
+  - record the impact on the pre-data kernel, the LCDM-like band, the FRW toy corridor, and the 40-point sweet subset.
+- A follow-up verdict rung will decide whether the new corridor:
+  - is kept as an internal diagnostic only, or
+  - is serious enough to be recorded as an “obstruction candidate” in the Stage 2 verdict.
+- Any promotion of external-style results into phase-level text will require Phase 0–style gates and updates to the relevant Phase 4/5 documents; this memo remains strictly at the Stage 2 design level.

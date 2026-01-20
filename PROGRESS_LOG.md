@@ -6518,3 +6518,28 @@ Files.
 Status and non-claims.  
 - This rung is documentation-only; it does not change any numerical pipelines, FRW masks, or promotion gates.
 - The verdict is explicitly framed as a diagnostic snapshot, not as a physical claim about the Universe. Any future sharpening of external-style corridors or host-level questions will proceed via separate, gated rungs that may update this verdict.
+
+## 2026-01-20 — Stage 2 obstruction: external-style corridor menu (design-only)
+
+Scope.  
+On branch `obstruction-program-v1`, extended `stage2/docs/STAGE2_EXTERNAL_CONSTRAINTS_DESIGN_v1.md` with a prioritised menu of external-style corridors for the obstruction program. This rung is design-only: no thresholds are fixed and no new code or masks are introduced.
+
+Files.
+
+- `stage2/docs/STAGE2_EXTERNAL_CONSTRAINTS_DESIGN_v1.md`:
+  - Added a new section outlining three corridor families:
+    - a **late-time expansion corridor** in the \((E_{\text{vac}}, \omega_\Lambda)\) plane, framed as an external-style analogue of the existing LCDM-like band and FRW toy corridor;
+    - an **age corridor refinement**, moving from the broad `[10, 20]` Gyr toy band to realistically motivated age bands that could actually challenge the pre-data kernel;
+    - a **structure-friendly corridor** based on simple FRW-derived proxies for minimal structure-friendliness, as a placeholder for future Stage II host work.
+  - For each corridor type, recorded:
+    - motivation in the context of the static FRW kernel and the 40-point sweet subset,
+    - a design sketch for how candidate bands or conditions would be chosen,
+    - standards for avoiding overfitting the current snapshot and for flagging serious obstruction candidates.
+  - Added a short gating/versioning subsection specifying that:
+    - each concrete corridor will be introduced via a separate design rung with explicit thresholds,
+    - its impact on the pre-data kernel and sweet subset will be summarised in new helper tables and verdict updates,
+    - any promotion into phase-level text will require Phase 0–style gates.
+
+Status and non-claims.  
+- This rung does not change any numerical artifacts, FRW masks, or Stage 2 verdicts; it refines the roadmap for future external-style corridors.
+- No new obstruction or non-obstruction statement is made; the existing Stage 2 obstruction verdict remains the current snapshot until new corridors are actually implemented and tested.
