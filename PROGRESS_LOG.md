@@ -6494,3 +6494,27 @@ Files.
 Status and non-claims.  
 - This rung introduces no new physical claims; it provides a first external-style scaffold for later, better-motivated corridors and confirms that the obstruction machinery for external-style flags is wired correctly.
 - Future rungs may tighten or redesign the age band based on explicit external constraints or host scenarios, under separate, gated design steps, at which point the impact on the pre-data kernel and the 40-point sweet subset will be reassessed.
+
+## 2026-01-20 — Stage 2 obstruction verdict (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, wrote a Stage 2 obstruction verdict summarising what the overlays currently show: a broad pre-data FRW kernel, a small triple-intersection sweet subset inside it, a toy late-time corridor derived from the LCDM box, and a first toy external-style age corridor that acts as a structural no-op filter.
+
+Files.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_v1.md`:
+  - Lists the ingredients of the verdict: static kernel and family tables, toy LT corridor from the LCDM box, and the toy external age corridor.
+  - Records that:
+    - the pre-data kernel contains 1016 of 2048 grid points,
+    - the LCDM-like band selects 63 kernel points,
+    - the FRW toy corridor covers 1186 grid points and 154 kernel points,
+    - their triple intersection defines a 40-point sweet subset inside the kernel.
+  - Notes that the toy LT corridor reproduces the LCDM-like island and preserves the 40-point region.
+  - Notes that the toy age corridor `[10, 20]` Gyr is currently a no-op filter that leaves all internal families and the 40-point subset unchanged.
+  - States a Stage 2–level verdict: no internal obstruction, no real external obstruction yet, and a nonempty, internally consistent sweet region that remains to be tested against sharper external-style corridors and host-style questions.
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md`:
+  - Extended with a short pointer to `STAGE2_OBSTRUCTION_VERDICT_v1.md` so the verdict is discoverable from the obstruction status memo.
+
+Status and non-claims.  
+- This rung is documentation-only; it does not change any numerical pipelines, FRW masks, or promotion gates.
+- The verdict is explicitly framed as a diagnostic snapshot, not as a physical claim about the Universe. Any future sharpening of external-style corridors or host-level questions will proceed via separate, gated rungs that may update this verdict.

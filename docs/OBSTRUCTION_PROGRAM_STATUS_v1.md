@@ -169,3 +169,11 @@ Non-claims.
 
 - This status memo does not introduce new numerical pipelines, thresholds, or data; it summarises the obstruction overlays as they currently stand.
 - No new claims about the physical Universe are made here; the document is an internal audit-style snapshot for obstruction-program-v1.
+
+---
+
+### Stage 2 obstruction verdict (v1)
+
+For a concise Stage 2–level synthesis of what the obstruction overlays currently show (static FRW kernel, internal families, toy late-time corridor from the LCDM box, and the first toy external-style age corridor), see:
+
+- `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_v1.md`
