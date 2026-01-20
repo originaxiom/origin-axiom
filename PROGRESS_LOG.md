@@ -6311,3 +6311,29 @@ Files.
 Status and non-claims.  
 - No Phase 0–5 contracts, Stage 2 promotion gates, or FRW pipelines were modified in this rung. All logic is downstream of the locked Phase 4 FRW masks and the Stage 2 FRW belt.
 - The family summary is intended as a convenience view for future obstruction-program rungs (for example robustness checks or external-style corridors), not as a new physical claim or data-driven constraint.
+
+## 2026-01-20 — Stage 2 obstruction: static FRW kernel robustness note (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a documentation-only robustness note for the static FRW pre-data kernel used in the obstruction program. This rung interprets the existing kernel-family counts as a minimal robustness poke; no code paths or masks were changed.
+
+Files.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_STATIC_FRW_KERNEL_ROBUSTNESS_v1.md`:
+  - Summarises the helper outputs from
+    - `stage2_obstruction_static_frw_kernel_v1.csv` and
+    - `stage2_obstruction_static_frw_kernel_families_v1.csv`.
+  - Records that in the current snapshot:
+    - the pre-data kernel contains 1016 of 2048 θ points (≈ 49.6% of the grid),
+    - the LCDM-like set has 63 points (≈ 3.1% of the grid, ≈ 6.2% of the kernel),
+    - the toy corridor has 1186 points (≈ 57.9% of the grid, ≈ 1.17 × the kernel size),
+    - the kernel∩toy intersection has 154 points (≈ 7.5% of the grid, ≈ 15.2% of the kernel),
+    - the triple intersection kernel ∩ LCDM-like ∩ toy corridor has 40 points (≈ 2.0% of the grid, ≈ 3.9% of the kernel).
+  - Interprets these counts as a minimal robustness check:
+    - the kernel is non-trivial and retains \`O(10^2)\` points under multiple independent intersections,
+    - the toy corridor is strictly larger than the kernel, confirming that the kernel is not defined by the corridor alone.
+
+Status and non-claims.  
+- No Phase 0–5 contracts, Stage 2 promotion gates, or FRW/data masks were modified; this rung is purely interpretive.
+- The robustness note is internal to Stage 2 and the obstruction program; it does not promote any obstruction-flavoured statements into phase papers.
+- Future obstruction rungs can build on this by introducing explicitly designed external-style corridors or host constraints, but those are out of scope here.
