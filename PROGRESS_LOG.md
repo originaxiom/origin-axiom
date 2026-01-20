@@ -6437,3 +6437,31 @@ Files.
 Status and non-claims.  
 - No new filters, thresholds, or data sources were introduced in this rung; it is a synthesis layer over existing Stage 2 FRW diagnostics and obstruction helpers.
 - The memo records that the current stack supports a small, internally consistent sweet subset of θ but does not promote this to a phase-level claim or treat it as a unique selection. Any future external-style corridors or host-consistency filters will be added via separate, gated Stage 2 and Stage II rungs.
+
+## 2026-01-20 — Stage 2 obstruction: toy external-style age corridor (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a first toy external-style corridor implemented as a broad age band over the static FRW kernel. This rung exercises the corridor machinery without introducing tuned observational thresholds.
+
+Files.
+
+- `stage2/obstruction_tests/src/apply_external_age_corridor_v1.py`:
+  - Reads `stage2_obstruction_static_frw_kernel_v1.csv` and requires columns `theta`, `age_Gyr`, `in_pre_data_kernel`, `lcdm_like`, and `in_toy_corridor`.
+  - Defines a placeholder age band `[10, 20]` Gyr and sets `external_age_corridor_v1 = 1` for grid points inside that band.
+  - Writes `stage2_obstruction_external_age_corridor_v1.csv`, an augmented kernel table with the external-age flag.
+  - Writes `stage2_obstruction_external_age_corridor_summary_v1.csv`, summarising:
+    - `ALL_GRID`,
+    - `PRE_DATA_KERNEL`,
+    - `EXTERNAL_AGE_CORRIDOR_V1`,
+    - `KERNEL_AND_EXTERNAL_AGE_V1`,
+    - `LCDM_AND_EXTERNAL_AGE_V1`,
+    - `TOY_CORRIDOR_AND_EXTERNAL_AGE_V1`,
+    - `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V1`, with counts and fractions relative to the grid and kernel.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_CORRIDOR_V1.md`:
+  - Documents the definition and purpose of this toy age corridor.
+  - Emphasises that the numerical bounds are conservative placeholders and that no phase-level contracts or promotion gates are altered.
+
+Status and non-claims.  
+- This rung introduces no new physical claims; it builds a first external-style scaffold for later, better-motivated corridors.
+- Future rungs may tighten or redesign the age band based on explicit external constraints or host scenarios, under separate, gated design steps.
