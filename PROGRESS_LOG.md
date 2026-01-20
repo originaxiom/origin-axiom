@@ -6680,3 +6680,24 @@ Docs.
 
 Status and non-claims.  
 This rung does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical artefacts. It clarifies how the existing obstruction v1 baseline should inform Stage II host-level design questions; any concrete host-level corridors or promotions will require separate rungs and explicit Phase 0–style gates.
+
+## 2026-01-21 — Stage 2 external corridors design v1 (age, expansion, structure proxies)
+
+Scope.  
+On branch `obstruction-program-v1`, sharpened the design of external-style corridors used in the obstruction program by specifying explicit age, expansion, and simple structure-friendly proxy bands in Stage 2 documentation. This rung is design-only: no new scripts or tables are introduced; it sets clear targets for later implementation rungs.
+
+Docs.
+
+- `stage2/docs/STAGE2_EXTERNAL_CONSTRAINTS_DESIGN_v1.md`:
+  - Added a new section “External-style age and expansion corridors v1 (design rung EXT-DESIGN-1)” defining:
+    - `AGE_BROAD_V1` (`11.5 <= age_Gyr <= 15.0`) as a broad, physically sane age band.
+    - `AGE_TIGHT_V1` (`13.0 <= age_Gyr <= 14.2`) as a tighter ΛCDM-like age band.
+    - `EXPANSION_BROAD_V1` with `omega_lambda` in [0.55, 0.85] and `E_vac` between the 5th and 95th percentiles of the kernel’s `E_vac` distribution.
+    - `EXPANSION_TIGHT_V1` with `omega_lambda` in [0.62, 0.78] and `E_vac` between the 10th and 90th percentiles of the kernel’s `E_vac` distribution.
+  - Defined two simple structure-friendly proxy corridors:
+    - `STRUCT_PROXY_BASIC_V1`: kernel points with `frw_viable == 1`, `has_matter_era == 1`, `smooth_H2 == 1`, and `AGE_BROAD_V1`.
+    - `STRUCT_PROXY_TIGHT_V1`: kernel points with `frw_viable == 1`, `has_matter_era == 1`, `smooth_H2 == 1`, `AGE_TIGHT_V1`, and `EXPANSION_TIGHT_V1`.
+  - Recorded that these corridors will later be implemented as boolean columns on the static kernel table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`, with summary CSVs reporting grid and kernel fractions and overlaps with the FRW toy corridor, LCDM-like band, and the 40 point sweet subset.
+
+Status and non-claims.  
+This rung does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical artifacts. The corridors are explicitly framed as Stage 2 diagnostic helpers, not data-fitted constraints. Any future implementation and any use of these bands in Phase 4/5 narratives will require separate code rungs, an updated obstruction verdict, and explicit promotion gates.

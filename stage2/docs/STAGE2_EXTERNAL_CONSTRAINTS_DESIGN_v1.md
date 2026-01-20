@@ -254,3 +254,96 @@ For each external-style corridor that moves beyond the current toy level:
   - is kept as an internal diagnostic only, or
   - is serious enough to be recorded as an “obstruction candidate” in the Stage 2 verdict.
 - Any promotion of external-style results into phase-level text will require Phase 0–style gates and updates to the relevant Phase 4/5 documents; this memo remains strictly at the Stage 2 design level.
+
+---
+
+## 3. External-style age and expansion corridors v1 (design rung EXT-DESIGN-1)
+
+This section records a first sharpened set of external-style corridors in FRW scalar space, intended as Stage 2 diagnostic helpers applied to the static FRW kernel in `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`. They are not data fits and do not modify any Phase 4 FRW masks or Stage 2 promotion gates; they are structured bands that encode “reasonable” ages and vacuum sectors informed by current cosmological inferences.
+
+All corridors below are defined on the 2048 point θ grid with columns `theta`, `E_vac`, `omega_lambda`, and `age_Gyr`, together with the pre-data kernel flag used elsewhere in the obstruction program.
+
+### 3.1 Age corridors
+
+We define two age-based external-style corridors in terms of `age_Gyr`:
+
+- `AGE_BROAD_V1`: a broad, physically sane age band,
+  - definition: `11.5 <= age_Gyr <= 15.0`,
+  - motivation: rules out very young universes that would struggle to host old stellar populations and very old universes that are in strong tension with standard ΛCDM age estimates, while leaving generous room around current best-fit ages.
+- `AGE_TIGHT_V1`: a tighter, ΛCDM-like age band,
+  - definition: `13.0 <= age_Gyr <= 14.2`,
+  - motivation: centered around ≈ 13.8 Gyr with enough slack for moderate shifts, intended to represent “broadly ΛCDM-consistent” ages without tying to any specific dataset.
+
+In later implementation rungs these corridors will be represented as boolean columns `age_broad_v1` and `age_tight_v1` on the static kernel table, and summary tables will always report:
+
+- total grid fraction and kernel fraction for each band, and
+- overlaps with the existing FRW toy corridor, LCDM-like band, and the 40 point sweet subset used elsewhere in the obstruction program.
+
+### 3.2 Expansion corridors in {E_vac, omega_lambda}
+
+We likewise define two external-style corridors in the vacuum sector using the existing `omega_lambda` and `E_vac` columns. The intent is to distinguish background cosmologies where dark energy is dynamically relevant but not absurdly small or overwhelmingly dominant.
+
+- `EXPANSION_BROAD_V1`:
+  - definition:
+    - `0.55 <= omega_lambda <= 0.85`, and
+    - `E_vac` between the 5th and 95th percentiles of `E_vac` restricted to the pre-data kernel,
+  - motivation: captures a wide range of dark energy fractions that remain qualitatively “ΛCDM-like” while excluding extremely small or extremely large vacuum densities relative to the present kernel.
+
+- `EXPANSION_TIGHT_V1`:
+  - definition:
+    - `0.62 <= omega_lambda <= 0.78`, and
+    - `E_vac` between the 10th and 90th percentiles of `E_vac` in the pre-data kernel,
+  - motivation: narrows in on a strip in vacuum sector space that tracks current ΛCDM-like expectations more closely while still allowing modest shifts and avoiding hard-coded single values.
+
+In implementation rungs these will be represented as boolean columns `expansion_broad_v1` and `expansion_tight_v1` on the same static kernel table, with summary tables tracking their grid and kernel fractions and their intersections with the FRW toy corridor, LCDM-like band, age bands, and the 40 point sweet subset.
+
+### 3.3 Simple “structure-friendly” proxy corridors
+
+Without a full structure formation model, we restrict ourselves to a primitive structure-friendly proxy based on FRW phase structure and timescales:
+
+- require:
+  - `has_matter_era == 1`,
+  - `smooth_H2 == 1`,
+  - `frw_viable == 1`,
+  - together with age and expansion bands.
+
+We define two proxy corridor families to be implemented as intersections of existing flags and the bands above:
+
+- `STRUCT_PROXY_BASIC_V1`:
+  - definition: points in the pre-data kernel satisfying
+    - `frw_viable == 1`,
+    - `has_matter_era == 1`,
+    - `smooth_H2 == 1`,
+    - and `AGE_BROAD_V1`,
+  - interpretation: FRW backgrounds that have a clean matter era, smooth expansion, and a broadly reasonable cosmic age, treated as a minimal proxy for “could plausibly host long-lived structure” on toy grounds.
+
+- `STRUCT_PROXY_TIGHT_V1`:
+  - definition: points in the pre-data kernel satisfying
+    - `frw_viable == 1`,
+    - `has_matter_era == 1`,
+    - `smooth_H2 == 1`,
+    - `AGE_TIGHT_V1`,
+    - and `EXPANSION_TIGHT_V1`,
+  - interpretation: a stricter proxy corridor that asks for age and vacuum-sector parameters that are both ΛCDM-like and internally well behaved.
+
+At this design rung no new structure proxies beyond these FRW-based combinations are introduced. Later Stage II host-level work may add genuinely structure-related diagnostics (for example simple growth-factor or halo proxies); if so, new proxy corridors will be defined in separate design rungs with explicit notation and promotion gates.
+
+### 3.4 Non-claims and promotion discipline
+
+All corridors defined in this section are:
+
+- Stage 2 diagnostic helpers only,
+- not fits to any particular dataset,
+- and not substitutes for a proper likelihood or posterior analysis.
+
+They do not:
+
+- alter Phase 4 FRW masks,
+- introduce new Phase-level claims,
+- or change any Stage 2 promotion gates.
+
+Any future use of these corridors in Phase 4 or Phase 5 narratives will require:
+
+- separate implementation rungs that attach boolean columns and summary tables to the static kernel,
+- a refreshed obstruction verdict that explicitly reports their impact on the pre-data kernel and the 40 point sweet subset,
+- and Phase 0–style gates plus explicit doc updates if any corridor or surviving subset is ever considered for promotion into phase papers.
