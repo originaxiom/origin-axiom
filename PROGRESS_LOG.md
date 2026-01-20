@@ -6659,3 +6659,24 @@ Docs.
 
 Status and non-claims.  
 This rung does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical pipelines. It refines the obstruction interpretation layer only and positions the current obstruction program as a documented v1 baseline for future host-level and external-style work.
+
+## 2026-01-21 — Stage II hosts: wire in obstruction v1 inputs
+
+Scope.  
+On branch `obstruction-program-v1`, extended the Stage II cosmology hosts design memo so that it explicitly consumes the obstruction program v1 picture (static FRW kernel, internal and external-style corridors, and the 40 point sweet subset) as an input. This rung is documentation-only and does not introduce new numerical pipelines.
+
+Docs.
+
+- `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md`:
+  - Added a section “Obstruction-v1 inputs for Stage II hosts” summarising:
+    - the static FRW pre-data kernel, LCDM-like band, FRW toy corridor, and 40 point sweet subset,
+    - the internal and external-style late-time and age corridors used in the obstruction program,
+    - the obstruction verdict v1 (“structured but not yet obstructed” under gentle external-style bands).
+  - Listed obstruction-aware questions for Stage II hosts, focusing on:
+    - kernel survival under sharpened external-style corridors,
+    - robustness of the 40 point sweet subset,
+    - host-level sensitivity to corridor choices,
+    - and promotion criteria for any future host-level corridors that might be candidates for Phase 4/5 narratives.
+
+Status and non-claims.  
+This rung does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical artefacts. It clarifies how the existing obstruction v1 baseline should inform Stage II host-level design questions; any concrete host-level corridors or promotions will require separate rungs and explicit Phase 0–style gates.

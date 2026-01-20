@@ -177,3 +177,44 @@ The central obstruction-program questions for Stage II are:
 - Negative outcomes: if certain host or data combinations destroy all non-trivial θ corridors, can those failures be turned into precise statements about which obstruction-program variants are ruled out, without overreaching beyond what the Stage I artefacts actually support?
 
 These questions are intentionally phrased as programmatic prompts rather than claims. Implementing them will require explicit host interfaces, reproducible mappings from θ into host parameter spaces, carefully defined data gates, and new promotion contracts. Until those pieces are in place and pass Phase 0 gates, Stage II remains a design-only layer, and any obstruction-program language should be treated as interpretive rather than canonical.
+
+---
+
+## 4. Obstruction-v1 inputs for Stage II hosts
+
+This design memo assumes the obstruction program v1 status as recorded in:
+
+- `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md`,
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md`,
+- `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`.
+
+In particular:
+
+- Phase 4 FRW diagnostics and Stage 2 belts define a static FRW pre-data kernel on the 2048 point θ grid, with:
+  - a non-trivial viability corridor (≈ 50% of the grid),
+  - a narrow LCDM-like band inside this corridor,
+  - a FRW toy corridor defined by shape and viability,
+  - and a 40 point “sweet subset” given by the intersection of kernel, LCDM-like band, and FRW toy corridor.
+- Stage 2 obstruction helpers introduce:
+  - a toy late-time corridor derived from the current LCDM box,
+  - an external-style late-time corridor helper aligned with the same box,
+  - and external-style age bands, including a non-trivial toy age band v2 [12.0, 15.0] Gyr.
+- Under these gentle external-style corridors, the static kernel remains non-empty and the 40 point sweet subset survives. The obstruction verdict v1 is therefore that the present stack is “structured but not yet obstructed”.
+
+Stage II hosts should treat this picture as a baseline and ask obstruction-aware questions such as:
+
+1. **Kernel survival under sharpened corridors.** Given a candidate host class (for example, FRW backgrounds coupled to structure-friendly diagnostics or simple reionisation proxies), does the static kernel:
+   - remain non-empty,
+   - shrink in a controlled way,
+   - or become empty once sharpened age, expansion, or structure-friendly corridors are applied?
+
+2. **Sweet-subset robustness.** Does the 40 point sweet subset remain non-empty under host-level corridors, or is it:
+   - cut down to a much smaller set,
+   - reshaped into a qualitatively different region,
+   - or eliminated entirely?
+
+3. **Host-level sensitivity.** Are there host classes whose corridors are effectively redundant with the current FRW and obstruction helpers, and others that introduce genuinely new structure? How sensitive are host-level conclusions to reasonable variations in the external-style bands?
+
+4. **Promotion criteria.** Under what conditions, if any, should host-level corridors or their surviving subsets be considered for promotion into Phase 4/5 narratives (for example as candidate “external corridor families” or as benchmarks for the θ★ story), and what Phase 0–style gates would be required?
+
+At Stage II, the goal is not to re-litigate the existing FRW toy diagnostics but to test whether reasonably motivated host-level corridors can coexist with a non-trivial kernel and sweet subset. Any strong obstruction statement (for example that no host in a defined class admits a live kernel under specified external corridors) would require clear reproducibility, explicit thresholds, and a chain of promotion rungs back into the Phase 4/5 storyline.
