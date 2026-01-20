@@ -548,3 +548,9 @@ The goal is that Phase 4 deliver either:
 - a **clear diagnostic** that this specific realisation of the Origin Axiom
   is not viable, without contaminating the broader axiom.
 
+
+## Obstruction-program view of θ
+
+From the obstruction program perspective, θ indexes how a non-cancelling phase twist threads the space of near-cancelling configurations rather than serving as a free, unstructured label. The locked Stage I stack does not fix a unique physical interpretation of θ, but several recurring roles are visible in the existing artefacts: Phase 1 uses θ to track toy ensembles and residues, Phase 3 uses it as a control parameter for mechanism amplitudes and penalties, and Phase 4 uses it as the coordinate along which FRW-like masks and corridors are defined. In all of these, θ organises how far the system sits from a notional perfectly cancelling class and how that “distance” behaves under coarse-graining.
+
+The obstruction program treats θ\* as a structurally distinguished point in this space of near-cancelling configurations, defined by the non-cancelling phase twist that sits at the root of the Origin Axiom constructions. It does not currently claim that θ\* is selected by existing FRW or data probes; Stage 2 analyses instead check θ\* for neutrality and redundancy, and Stage II is designed to test whether any θ corridor that survives external hosts and data gates needs θ\* specifically. For details of this interpretive layer, see `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md` and the Stage 2 empirical anchor and external host docs referenced there.

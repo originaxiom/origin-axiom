@@ -158,3 +158,7 @@ If you are coming into the project fresh or returning after a break:
 - Treat Phase 0 as the constitution: any new claims or promotions should be traceable back to Phase 0 rules, Phase papers, Stage 2 diagnostics, and PROGRESS_LOG entries.
 
 This snapshot is meant to be updated rarely, when Stage I or Stage 2 pass significant milestones (new locks, new belts, or major promotions).
+
+### Obstruction program status (interpretive, non-binding)
+
+As of the obstruction-program-v1 branch, the project maintains an explicit interpretive layer in `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md` that reads the locked Phase 0–5 stack and Stage 2 belts as an exploration of an obstruction to perfect vacuum cancellation. This program does not change the lock status of any Phase or Stage: Phase 0–2 remain locked as specified, Phase 3–5 and Stage 2 retain their documented under-audit or diagnostic roles, and Stage II remains a design-only layer. The obstruction program is a way of threading together existing artefacts and early empirical kernels; promotions of any obstruction-flavoured statements into Phase papers must still pass through the usual Phase 0 gates.
