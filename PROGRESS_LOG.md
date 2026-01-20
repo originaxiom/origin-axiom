@@ -6747,3 +6747,55 @@ Non-claims and status.
 - The age and expansion bands in this rung are toy external-style corridors derived from the current FRW snapshot and simple percentile cuts; they are not fitted to data and are not claimed to be optimal.
 - No Phase 4 FRW masks, Phase 5 interfaces, or Stage 2 promotion gates were changed; the new flags live entirely inside Stage 2 and are used as diagnostic helpers.
 - Any future use of these corridors in a phase paper will require separate, tightly scoped promotion rungs and updated Phase 0 style gates; for now they only inform the obstruction verdict and future external-corridor design.
+
+## 2026-01-21 — Stage 2 obstruction: external corridors status snapshot (v1)
+
+Scope. Synthesis rung for the obstruction program on `obstruction-program-v1`: no new code or masks, but a documentation pass summarising the current family of external-style corridors (late-time, age, age+expansion) and their effect on the static FRW pre-data kernel and sweet subsets.
+
+Files.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_CORRIDORS_STATUS_v1.md`
+
+What was summarised.
+
+- Internal/toy late-time corridor:
+  - `build_toy_lt_corridor_from_lcdm_box_v1.py` and its summary table, which define a late-time box around the LCDM-like island in (`E_vac`, `omega_lambda`) and identify a 40-point sweet subset in the intersection of:
+    - pre-data kernel,
+    - LCDM-like band,
+    - toy FRW corridor,
+    - LCDM-based late-time box.
+- External late-time helper:
+  - `apply_external_lt_corridor_v1.py` and its summary, which mirror the same LCDM-based box but make it an explicit “external-style” late-time corridor; the same 40-point sweet subset survives.
+- External age corridor (v2):
+  - `apply_external_age_corridor_v2.py` and its summary, which apply a non-trivial age band (12–15 Gyr) across the static kernel.
+  - The band keeps ≈35% of the kernel and preserves the full 40-point sweet subset (`KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2` has 40 points).
+- External age+expansion corridors (v1):
+  - `apply_external_age_expansion_corridors_v1.py` and its summary, which introduce:
+    - broad and tight age bands (`age_broad_v1`, `age_tight_v1`),
+    - broad and tight expansion bands (`expansion_broad_v1`, `expansion_tight_v1`),
+    - structure proxies (`struct_proxy_basic_v1`, `struct_proxy_tight_v1`) inside the kernel.
+  - Broad bands keep most of the kernel; tight bands select ~5% of the kernel while remaining non-empty.
+
+Key takeaways recorded.
+
+- The static FRW pre-data kernel remains large (1016/2048 points) and internally consistent under all existing FRW sanity checks.
+- A 40-point sweet subset inside the kernel survives:
+  - the toy FRW corridor,
+  - the LCDM-like band,
+  - the internal LCDM-based late-time corridor,
+  - the external-style late-time helper,
+  - and a non-trivial external age band (v2).
+- Sharpened age+expansion bands show that:
+  - broad late-time-friendly cuts retain most of the kernel,
+  - tight late-time-friendly cuts still leave a non-trivial subset (~5% of the kernel), suggesting the kernel is not artificially fine-tuned.
+
+Non-claims and status.
+
+- All corridors in this snapshot are still toy external-style helpers; they are not yet tied to concrete observational bounds or structure metrics.
+- No Phase 4 FRW masks, Phase 5 interfaces, or Stage 2 promotion gates were changed in this rung; the obstruction program remains a Stage 2 overlay on the locked Phase 0–5 + Stage 2 stack.
+- No claim is made that any surviving subset (including the 40-point sweet set) is physically realised or uniquely preferred; the verdict recorded here is that the current stack is *not* trivially obstructed by the first family of external-style corridors.
+
+Next steps (recorded for future rungs).
+
+- Combine these external-style corridors with θ*-alignment diagnostics and the mechanism scalars, to test whether any robust θ-sensitive structure appears in sharpened kernels and sweet subsets.
+- Design a small set of more realistic external corridors (age + expansion + simple structure proxies) guided by external literature and integrate them into the obstruction vocabulary and Phase 0 gates before any promotion into phase papers.
