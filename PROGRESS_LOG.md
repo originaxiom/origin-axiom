@@ -6701,3 +6701,49 @@ Docs.
 
 Status and non-claims.  
 This rung does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical artifacts. The corridors are explicitly framed as Stage 2 diagnostic helpers, not data-fitted constraints. Any future implementation and any use of these bands in Phase 4/5 narratives will require separate code rungs, an updated obstruction verdict, and explicit promotion gates.
+
+## 2026-01-21 — Stage 2 obstruction: external age+expansion corridors (v1)
+
+Scope. Extend the Stage 2 obstruction toolkit with a first set of sharpened external-style corridors combining age and vacuum expansion cuts on top of the static FRW pre-data kernel, without changing any Phase 0–5 contracts or Phase 4 masks.
+
+Files.
+
+- `stage2/obstruction_tests/src/apply_external_age_expansion_corridors_v1.py`
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_corridors_v1.csv`
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_summary_v1.csv`
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_EXPANSION_CORRIDORS_V1.md`
+
+What the helper does.
+
+- Reads the static kernel table `stage2_obstruction_static_frw_kernel_v1.csv` on the 2048-point θ-grid and reconstructs the pre-data kernel as points with `has_matter_era == 1`, `smooth_H2 == 1`, and `frw_viable == 1` (1016 points, about 49.6% of the grid).
+- Adds six external-style flags:
+  - `age_broad_v1`: `11.5 <= age_Gyr <= 15.0`.
+  - `age_tight_v1`: `13.0 <= age_Gyr <= 14.2`.
+  - `expansion_broad_v1`: `0.55 <= omega_lambda <= 0.85` and `E_vac` between the 5th and 95th percentiles of `E_vac` over the kernel.
+  - `expansion_tight_v1`: `0.62 <= omega_lambda <= 0.78` and `E_vac` between the 10th and 90th percentiles of `E_vac` over the kernel.
+  - `struct_proxy_basic_v1`: kernel points that satisfy `age_broad_v1`.
+  - `struct_proxy_tight_v1`: kernel points that satisfy both `age_tight_v1` and `expansion_tight_v1`.
+- Writes an augmented kernel table `stage2_obstruction_external_age_expansion_corridors_v1.csv` and a summary table `stage2_obstruction_external_age_expansion_summary_v1.csv` with family counts and fractions.
+
+Key outcomes.
+
+- `ALL_GRID`: 2048 points (100% of the grid), 1016 in the kernel (100% of the kernel).
+- `PRE_DATA_KERNEL`: 1016 points (about 49.6% of the grid).
+- `AGE_BROAD_V1`: 933 points (about 45.6% of the grid), 931 in the kernel (about 91.6% of the kernel).
+- `AGE_TIGHT_V1`: 126 points (about 6.2% of the grid), 126 in the kernel (about 12.4% of the kernel).
+- `EXPANSION_BROAD_V1`: 94 points (about 4.6% of the grid), 94 in the kernel (about 9.3% of the kernel).
+- `EXPANSION_TIGHT_V1`: 51 points (about 2.5% of the grid), 51 in the kernel (about 5.0% of the kernel).
+- `STRUCT_PROXY_BASIC_V1`: 931 points (about 45.5% of the grid), 931 in the kernel (about 91.6% of the kernel).
+- `STRUCT_PROXY_TIGHT_V1`: 51 points (about 2.5% of the grid), 51 in the kernel (about 5.0% of the kernel).
+
+Interpretation.
+
+- The broad age band confirms that most of the pre-data kernel corresponds to late-time compatible ages, so adding a realistic age cut will not trivially destroy the kernel.
+- The tight age and expansion bands show that the kernel contains a non-trivial but modest subset (about 5% of the kernel) that satisfies both a tuned age window and a reasonably tight expansion band.
+- The structure proxies (`struct_proxy_basic_v1`, `struct_proxy_tight_v1`) provide concrete handles for later obstruction rungs that want to ask whether θ-corridors and sweet subsets remain populated when age and expansion are constrained in a more realistic way.
+
+Non-claims and status.
+
+- The age and expansion bands in this rung are toy external-style corridors derived from the current FRW snapshot and simple percentile cuts; they are not fitted to data and are not claimed to be optimal.
+- No Phase 4 FRW masks, Phase 5 interfaces, or Stage 2 promotion gates were changed; the new flags live entirely inside Stage 2 and are used as diagnostic helpers.
+- Any future use of these corridors in a phase paper will require separate, tightly scoped promotion rungs and updated Phase 0 style gates; for now they only inform the obstruction verdict and future external-corridor design.
