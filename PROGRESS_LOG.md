@@ -6465,3 +6465,32 @@ Files.
 Status and non-claims.  
 - This rung introduces no new physical claims; it builds a first external-style scaffold for later, better-motivated corridors.
 - Future rungs may tighten or redesign the age band based on explicit external constraints or host scenarios, under separate, gated design steps.
+
+## 2026-01-20 — Stage 2 obstruction: toy external-style age corridor (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a first toy external-style corridor implemented as a broad age band over the static FRW kernel. This rung exercises the corridor machinery without introducing tuned observational thresholds and checks how the existing families respond.
+
+Files.
+
+- `stage2/obstruction_tests/src/apply_external_age_corridor_v1.py`:
+  - Reads `stage2_obstruction_static_frw_kernel_v1.csv` and requires columns `theta`, `age_Gyr`, `in_pre_data_kernel`, `lcdm_like`, and `in_toy_corridor`.
+  - Defines a placeholder age band `[10, 20]` Gyr and sets `external_age_corridor_v1 = 1` for grid points inside that band.
+  - Writes `stage2_obstruction_external_age_corridor_v1.csv`, an augmented kernel table with the external-age flag.
+  - Writes `stage2_obstruction_external_age_corridor_summary_v1.csv`, summarising:
+    - `ALL_GRID`,
+    - `PRE_DATA_KERNEL`,
+    - `EXTERNAL_AGE_CORRIDOR_V1`,
+    - `KERNEL_AND_EXTERNAL_AGE_V1`,
+    - `LCDM_AND_EXTERNAL_AGE_V1`,
+    - `TOY_CORRIDOR_AND_EXTERNAL_AGE_V1`,
+    - `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V1`, with counts and fractions relative to the grid and kernel.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_CORRIDOR_V1.md`:
+  - Documents the definition and purpose of this toy age corridor.
+  - Notes that, in the current snapshot, the age band covers all 2048 grid points and all 1016 pre-data kernel points, so the corridor acts as a structural no-op filter that preserves the LCDM-like band (63 kernel points), the FRW toy corridor (1186 grid points), and the 40-point sweet subset where kernel, LCDM-like band, and toy corridor coincide.
+  - Emphasises that the numerical bounds are conservative placeholders and that no phase-level contracts or promotion gates are altered.
+
+Status and non-claims.  
+- This rung introduces no new physical claims; it provides a first external-style scaffold for later, better-motivated corridors and confirms that the obstruction machinery for external-style flags is wired correctly.
+- Future rungs may tighten or redesign the age band based on explicit external constraints or host scenarios, under separate, gated design steps, at which point the impact on the pre-data kernel and the 40-point sweet subset will be reassessed.
