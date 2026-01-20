@@ -288,3 +288,17 @@ live under `docs/`:
 These documents form the conceptual top layer for Stage 2, with the belt-level
 docs in `stage2/docs/` and the tables/figures under `stage2/*/outputs/` providing
 their concrete implementations.
+
+## Obstruction-program and external-constraints docs
+
+These memos describe the obstruction-program interpretation of the Stage I stack and how empirical tests will interface with it:
+
+- `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md` – high-level overview of the obstruction picture, its status, and how it sits on top of the locked phases.
+- `docs/THETA_ARCHITECTURE.md` – structural view of the θ-grid and θ*, including an obstruction-program reading of static θ corridors (interpretive, non-binding).
+- `docs/OBSTRUCTION_EMPIRICAL_PROGRAM_v1.md` – scope and standards for empirical tests in the obstruction program, with emphasis on static θ corridors and Phase 0 governance.
+- `stage2/docs/STAGE2_OBSTRUCTION_TESTING_SPINE_v1.md` – how the existing Stage 2 belts (FRW corridors, mech/measure, joint mech–FRW, FRW data probes, θ* diagnostic) function as an obstruction-testing spine.
+- `stage2/docs/STAGE2_EXTERNAL_CONSTRAINTS_DESIGN_v1.md` – design-only memo for future external-style corridors (late-time expansion, early-structure-friendly, and host-consistency filters).
+- `stage2/docs/STAGE2_MASTER_VERDICT_v1.md` – Stage 2 synthesis and verdict, including an interpretive paragraph on how the obstruction program reads the current diagnostic outcomes.
+- `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md` – design notes for Stage II cosmology hosts, including an obstruction-aware list of questions about corridor survival and kernel structure.
+
+All obstruction-program docs are interpretive overlays: they do not modify any Phase 0–5 contracts or Stage 2 promotion gates, and any future promotion of obstruction-flavoured statements into phase papers will require separate, tightly scoped rungs.

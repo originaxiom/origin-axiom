@@ -62,3 +62,14 @@ Interpreting these belts as an obstruction testing spine is deliberately modest.
 - Negative results, such as empty masks or strong redundancies between mechanism and FRW quantities, are recorded as valuable information about how the obstruction picture must evolve if it is to remain viable.
 
 The purpose of this document is purely organisational: to make it clear how the existing Stage 2 machinery already bears on the obstruction program and where future Stage II work will need to sharpen or challenge that picture.
+
+## Static FRW empirical kernel snapshot (v1)
+
+The current Stage 2 FRW and data-probe belts already define a small pre-data kernel on the 2048-point θ grid: a non-empty subset of points that satisfy the present FRW viability tests and lie inside the toy empirical box implemented so far. In the main Stage 2 storyline this kernel is treated as a sanity check on the FRW pipeline rather than as a prediction about the real universe, since the aggregate data flag is not yet satisfied anywhere and the corresponding gates are explicitly described as pre-data.
+
+From the obstruction-program perspective this kernel plays a more focused but still limited role:
+- It is the first concrete example of a θ-subset that survives a stack of FRW-facing and empirical-style filters in the current toy setup.
+- Its existence shows that the present obstruction-inspired constructions can yield at least some θ-points that are not trivially ruled out by the internal FRW machinery.
+- Its small size and sensitivity to details of the empirical box make it a natural test case for robustness: later rungs in this branch will ask whether similar kernels persist under modest changes to thresholds, mappings, or host choices.
+
+No new filters are introduced in this memo, and no changes are made to the underlying FRW or data-probe code. This snapshot is simply recording that the obstruction program will treat the existing pre-data kernel as a starting testbed for static θ questions, with all interpretation guarded by the Phase 0 contracts and the Stage 2 master verdict.

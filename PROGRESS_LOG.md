@@ -6222,3 +6222,32 @@ Status and non-claims.
 - No Phase 0–2 claims, Phase 3–5 contracts, or Stage 2 promotion gates were modified in this branch; all new language is explicitly interpretive and downstream of existing artefacts.
 - The obstruction program is documented as a way of threading together the current stack (mechanism, FRW toy, empirical kernels, external hosts), not as a proof that reality is literally an obstructed cancellation process.
 - Any future promotion of obstruction-flavoured statements into Phase papers will require dedicated rungs, explicit Phase 0 gates, and separate commits outside this branch.
+
+## 2026-01-20 — Obstruction program v1: empirical and external-constraints design
+
+Scope.  
+On branch `obstruction-program-v1`, extended the obstruction-program documentation to cover static empirical tests and a design-only external-constraints layer, without introducing new code paths or changing any Phase 0–5 contracts or Stage 2 promotion gates. All changes are interpretive overlays and documentation.
+
+Files.
+
+- `docs/OBSTRUCTION_EMPIRICAL_PROGRAM_v1.md`: new memo defining the obstruction empirical program in the current stack. Clarifies that:
+  - θ* is treated as part of the fixed rule set,
+  - current tests focus on static θ slices and corridors (no dynamical θ field yet),
+  - meaningful positive outcomes require non-empty, structured, mildly robust θ kernels that survive internal FRW and Stage 2 filters,
+  - meaningful negative outcomes are documented no-go results for specific obstruction variants,
+  - and any use of real cosmological knowledge (Λ, DESI hints, early galaxies) is staged: conceptual guardrails now, explicit external corridors later.
+- `stage2/docs/STAGE2_OBSTRUCTION_TESTING_SPINE_v1.md`: appended a section describing the existing pre-data FRW kernel as the initial static θ testbed for the obstruction program. Recorded that:
+  - it is a small, non-empty subset of the θ grid that passes current FRW viability and toy empirical filters,
+  - it is interpreted as a sanity-check kernel, not a prediction,
+  - and later rungs will ask whether similar kernels persist under modest changes in thresholds, mappings, or host choices.
+- `stage2/docs/STAGE2_EXTERNAL_CONSTRAINTS_DESIGN_v1.md`: new Stage 2 design memo specifying how external-style constraints will eventually be encoded as downstream corridors:
+  - late-time expansion corridors (e.g. effective w0–wa boxes, H(z) bands, age bounds),
+  - early-structure-friendly corridors (high-redshift age and growth proxies),
+  - and host-consistency corridors (simple metrics comparing toy FRW histories to external host solvers),
+  all framed as reproducible filters on existing tables rather than as live data-fitting pipelines.
+- `docs/REPO_MAP_AND_ATLAS_v1.md`: added an “Obstruction-program and external-constraints docs” section listing the key obstruction memos (`OBSTRUCTION_PROGRAM_OVERVIEW_v1`, `THETA_ARCHITECTURE`, `OBSTRUCTION_EMPIRICAL_PROGRAM_v1`, Stage 2 obstruction spine and external-constraints design, Stage 2 master verdict, and Stage II host design) so the obstruction stack is discoverable from the global atlas.
+
+Status and non-claims.  
+- No numerical artefacts, Phase contracts, or Stage 2 promotion gates were changed in this rung; all edits are documentation-only and clearly marked as interpretive. The obstruction program remains an overlay on the locked Stage 0–5 + Stage 2 structure, not an alternative set of claims.
+- Static θ corridors and the existing pre-data FRW kernel are positioned as testbeds for future work: they show that the current stack can support non-trivial θ subsets under internal filters, but they are not yet confronted with explicit external corridors or host-level metrics.
+- Any future introduction of concrete external corridors (for example effective w0–wa boxes or high-redshift age bounds) and any promotion of their outputs into phase papers will require separate design rungs, Phase 0 style gates, and explicit updates to the relevant documents.
