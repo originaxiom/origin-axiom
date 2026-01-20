@@ -320,3 +320,5 @@ For a concise summary of what the obstruction program currently adds on top of t
 ### Obstruction-program status docs
 
 - `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md` – concise snapshot of the obstruction-program-v1 overlays, current diagnostic outcomes, and the roadmap for external-style corridors and Stage II hosts.
+
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md` — status snapshot of the obstruction program as of 2026-01-21, summarising the static FRW kernel, internal and external-style corridors, the 40 point sweet subset, and the current obstruction verdict and roadmap.

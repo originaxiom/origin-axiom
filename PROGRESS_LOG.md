@@ -6635,3 +6635,27 @@ Doc update.
 
 Status and non-claims.  
 This rung introduces no new numerical artefacts and does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates. It refines the obstruction interpretation layer only, using outputs that are fully downstream of the locked Phase 3/4 pipelines.
+
+## 2026-01-21 — Obstruction program v1 status snapshot
+
+Scope.  
+On branch `obstruction-program-v1`, wrote a status memo for the obstruction program and linked it from the repo atlas, so that the static FRW kernel, internal and external-style corridors, and the current obstruction verdict can be read in one place. No new numerical artefacts or helpers were introduced in this rung; it is purely interpretive and documentation-focused.
+
+Docs.
+
+- `docs/OBSTRUCTION_PROGRAM_STATUS_v1.md`:
+  - Summarises the obstruction lens on top of the locked Phase 0–5 contracts and Stage 2 belts.
+  - Describes the static FRW pre-data kernel, LCDM-like band, FRW toy corridor, and the 40 point sweet subset.
+  - Records the behaviour of the kernel and sweet subset under:
+    - the internal toy LT corridor from the LCDM box,
+    - the external LT corridor v1 helper (LCDM box tagged as external-style),
+    - the trivial external age band v1 [10, 20] Gyr,
+    - the constraining external age band v2 [12.0, 15.0] Gyr.
+  - States the obstruction verdict v1: gentle external-style late-time and age corridors constrain but do not eliminate the static kernel or the 40 point sweet subset; the current stack is “structured but not yet obstructed”.
+  - Outlines a roadmap toward sharper age, expansion, and structure-friendly corridors and Stage II host-level questions.
+
+- `docs/REPO_MAP_AND_ATLAS_v1.md`:
+  - Extended the obstruction and external-constraints section with a pointer to `OBSTRUCTION_PROGRAM_STATUS_v1.md` so that the obstruction stack has a single, discoverable status entry.
+
+Status and non-claims.  
+This rung does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical pipelines. It refines the obstruction interpretation layer only and positions the current obstruction program as a documented v1 baseline for future host-level and external-style work.
