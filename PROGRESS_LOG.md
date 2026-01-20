@@ -6381,3 +6381,30 @@ Files.
 Status and non-claims.  
 - No Stage 2 scripts, FRW masks, or Phase claims were changed; all corridors remain conceptual slots rather than implemented filters.
 - This rung prepares a structured menu for future obstruction rungs and Stage II host work, making clear how external-style constraints should be introduced and governed without pre-committing to specific observational choices.
+
+## 2026-01-20 — Stage 2 obstruction: toy LT-corridor from LCDM box (v1)
+
+Scope.  
+On branch `obstruction-program-v1`, added a toy late-time corridor helper derived from the existing LCDM-like band in the static FRW kernel. This rung exercises the external-style corridor machinery internally, without introducing new observational thresholds or changing Phase 0–5 contracts.
+
+Files.
+
+- `stage2/obstruction_tests/src/build_toy_lt_corridor_from_lcdm_box_v1.py`:
+  - Reads `stage2_obstruction_static_frw_kernel_v1.csv` and identifies the LCDM-like subset via the `lcdm_like` flag.
+  - Computes the minimal enclosing box in \((E_vac, \omega_lambda)\) over the LCDM-like points.
+  - Defines a toy corridor flag `lt_corridor_box_from_lcdm` that is 1 when a θ point lies inside this box.
+  - Writes `stage2_obstruction_toy_lt_corridor_from_lcdm_box_v1.csv`, an augmented kernel table with the new flag.
+  - Writes `stage2_obstruction_toy_lt_corridor_from_lcdm_box_summary_v1.csv` summarising:
+    - `ALL_GRID`,
+    - `PRE_DATA_KERNEL`,
+    - `TOY_LT_BOX_FROM_LCDM`,
+    - `KERNEL_AND_TOY_LT_BOX_FROM_LCDM`,
+    - `LCDM_AND_TOY_LT_BOX_FROM_LCDM`,
+    - `TOY_CORRIDOR_AND_TOY_LT_BOX_FROM_LCDM`, with counts and fractions relative to grid and kernel.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_TOY_LT_CORRIDOR_FROM_LCDM_v1.md`:
+  - Documents the definition, purpose, and non-claims of this toy corridor and clarifies that it is derived entirely from existing internal masks rather than external data.
+
+Status and non-claims.  
+- No Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were modified in this rung; the toy corridor is an internal diagnostic helper.
+- The corridor should be interpreted as a sanity-check reshaping of the vacuum sector, not as a physical late-time expansion constraint. Any future external-style corridors will be introduced as separate helpers under explicit design and gate rungs.
