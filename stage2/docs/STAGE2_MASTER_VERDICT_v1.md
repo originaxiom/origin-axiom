@@ -116,3 +116,25 @@ Any future change to this picture (e.g. a populated data-conditioned corridor, a
 ### Obstruction-program interpretation
 
 Viewed through the obstruction program described in `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md`, the current Stage 2 belts form an initial testing spine for the idea that the universe sits near, but not on, a perfectly cancelling vacuum configuration. The FRW corridor belt shows that a broad, structured FRW-viable band exists on the θ grid; the mech/measure and joint belts indicate that mechanism amplitudes behave as smooth reparameterisations of FRW scalars at the present resolution; the empirical FRW anchor rungs exhibit small but non-empty kernels where corridor, viability, and conservative empirical boxes overlap; and the external host belts demonstrate that similar kernels can survive coarse cross-checks against independent FRW machinery. None of these results promote θ\* or the obstruction picture to a Phase-level claim, but together they summarise how far the current numerical infrastructure goes in testing that interpretation.
+
+---
+
+### External-style corridors: status after age band v2 (2026-01-21)
+
+Using the external-style age band v2 helper (`external_age_corridor_v2`) we applied a genuinely constraining age-like corridor on top of the static FRW pre-data kernel. The helper operates on `age_Gyr` and selects grid points with ages in [12.0, 15.0] Gyr, interpreted as a toy external-style interval compatible with a late-time universe of order fourteen billion years old.
+
+On the 2048-point θ grid:
+
+- The pre-data kernel contains 1016 points (≈ 49.6% of the grid).
+- The external age band v2 selects 358 points (≈ 17.5% of the grid), of which 356 lie inside the kernel (≈ 35% of the kernel).
+- All 63 LCDM-like points lie inside the age band (the LCDM island is compatible with the chosen age interval).
+- The intersection of the FRW toy corridor with the age band contains 156 grid points (≈ 15% of the kernel).
+- The 40-point “sweet subset” that lies in the intersection of {kernel, LCDM-like band, FRW toy corridor} survives unchanged under the age band v2: `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2` = 40.
+
+Interpretation for the obstruction program:
+
+- Age band v2 is non-trivial: it removes a substantial fraction of both the kernel and the toy corridor, so it acts as a real filter rather than a no-op.
+- Nonetheless, it does not yet provide an obstruction in the strict sense: the static FRW kernel remains non-empty and the 40-point sweet subset persists under Phase 4 viability, LCDM-like behaviour, toy FRW corridor, and external-style age band v2 simultaneously.
+- At this rung, the obstruction verdict is therefore that gentle external-style age cuts of this form constrain but do not eliminate the current toy kernel or its sweet subset. Stronger or more realistic age corridors, or combinations with structure-friendly proxies, will be required before a sharper obstruction statement can be made.
+
+This section is diagnostic and interpretive only. No Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates are altered by the introduction of `external_age_corridor_v2`; any future use of age-based constraints in phase-level claims will require separate, tightly scoped promotion rungs.

@@ -6600,3 +6600,38 @@ Files.
   - Clarifies that this is a Stage 2 diagnostic helper, not yet a data-fitted constraint.
 
 Status and non-claims. This rung does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates; it extends the obstruction toolkit with a non-trivial age-based external-style corridor. The age band is chosen as a simple toy interval compatible with a late-time universe of order fourteen billion years old and is not tuned to the existing sweet subset. Any serious age corridor tied to observational bounds will require separate design rungs and an updated obstruction verdict.
+
+## 2026-01-21 — Stage 2 obstruction: inspect external age corridor v2 overlaps
+
+Scope.  
+On branch `obstruction-program-v1`, inspected the overlaps produced by the external-style age band v2 helper (`external_age_corridor_v2`) and recorded its impact on the static FRW pre-data kernel and the 40-point sweet subset in the Stage 2 master verdict. No new scripts were introduced in this rung; the work is purely interpretive, based on the summary table already written by the helper.
+
+Inputs.
+
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_corridor_summary_v2.csv`:
+  - Reports families:
+    - `ALL_GRID`, `PRE_DATA_KERNEL`, `EXTERNAL_AGE_CORRIDOR_V2`, `KERNEL_AND_EXTERNAL_AGE_V2`,
+    - `LCDM_AND_EXTERNAL_AGE_V2`, `TOY_CORRIDOR_AND_EXTERNAL_AGE_V2`, `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2`,
+  - with counts and fractions relative to the full grid and to the kernel.
+
+Key observations.
+
+- Grid size: 2048 θ points; pre-data kernel: 1016 points (≈ 49.6% of the grid).
+- Age band v2 selects 358 grid points (≈ 17.5%), of which 356 lie inside the kernel (≈ 35% of the kernel).
+- All 63 LCDM-like points fall inside the age band.
+- The FRW toy corridor intersected with the age band contains 156 points, indicating that the age cut removes a significant fraction of the corridor.
+- The 40-point sweet subset (kernel ∧ LCDM-like ∧ toy corridor) survives unchanged under the age band: `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2` = 40.
+
+Doc update.
+
+- Extended `stage2/docs/STAGE2_MASTER_VERDICT_v1.md` with a short section summarising the status after age band v2:
+  - Age band v2 is non-trivial and acts as a real filter on the kernel and toy corridor.
+  - The static kernel remains non-empty, and the 40-point sweet subset survives all of:
+    - Phase 4 viability,
+    - LCDM-like behaviour,
+    - FRW toy corridor,
+    - external-style age band v2.
+  - Concluded that, at this rung, age v2 constrains but does not obstruct the toy kernel. Sharper age bands or combinations with structure-friendly proxies will be needed before revisiting the obstruction verdict.
+
+Status and non-claims.  
+This rung introduces no new numerical artefacts and does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates. It refines the obstruction interpretation layer only, using outputs that are fully downstream of the locked Phase 3/4 pipelines.
