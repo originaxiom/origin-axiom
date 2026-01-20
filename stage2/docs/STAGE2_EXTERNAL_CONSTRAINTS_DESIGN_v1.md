@@ -58,3 +58,105 @@ This design memo does not introduce any concrete corridor definitions, numerical
 - A documentation update describing how the new corridor interacts with the obstruction-program interpretation and Stage 2 synthesis.
 
 Only after those steps, and subject to Phase 0 style gates, would the outputs of an external-constraints belt be eligible for promotion into phase-level text. Until then, external constraints remain a planned extension of the existing diagnostic stack, not an active part of the Origin Axiom Stage I contract.
+
+---
+
+## Initial external-style corridor menu (design-only, v1)
+
+This section records a first-pass menu of external-style corridors that could be applied to the static FRW pre-data kernel and its families in future obstruction rungs. All items are design-only: no thresholds, parameter values, or data sources are fixed here. Any concrete implementation will require separate, tightly scoped rungs and Phase 0–style gates.
+
+### 1. Late-time expansion corridor (LT-corridor)
+
+Intent.  
+Capture the idea that viable cosmologies should sit inside a band of late-time expansion histories compatible with external measurements (for example effective dark-energy density or equation-of-state behaviour), without yet committing to specific observational numbers.
+
+Design sketch.  
+
+- Work at the level of FRW scalars already present in the Phase 4 masks:
+  - `E_vac`, `omega_lambda`, `age_Gyr`, and any derived late-time summary scalars we choose to add in future rungs.
+- Define a corridor \(\mathcal{C}_{\mathrm{LT}}\) as a bounded region in a small set of such scalars, e.g. a box or smooth window in \((E_{\mathrm{vac}}, \omega_{\Lambda})\) and possibly a loose constraint on `age_Gyr`.
+- Require that:
+  - the corridor is specified by explicit inequalities on documented columns,
+  - the logical definition and any parameter choices are recorded in a dedicated design+gate doc,
+  - the resulting mask is implemented as a separate Stage 2 helper over the static kernel (not by changing Phase 4 masks directly).
+
+Future work.  
+Later rungs can:
+- propose concrete ranges for \(\mathcal{C}_{\mathrm{LT}}\) informed by external FRW fits,
+- implement an explicit `lt_corridor` flag over `stage2_obstruction_static_frw_kernel_v1.csv`,
+- study intersections such as kernel ∩ LT-corridor and kernel ∩ LT-corridor ∩ LCDM-like.
+
+### 2. Early-age corridor (EA-corridor)
+
+Intent.  
+Introduce a simple way to encode the idea that the Universe must be “old enough” at given redshift or in aggregate, without yet building a full high-redshift data pipeline.
+
+Design sketch.  
+
+- Use `age_Gyr` from the Phase 4 FRW tables as a coarse proxy for age constraints.
+- Define a corridor \(\mathcal{C}_{\mathrm{EA}}\) as a lower-bound–type condition on `age_Gyr` (or on a future derived early-age proxy) that is:
+  - loose enough to be uncontroversial at the design stage,
+  - clearly documented as a one-sided constraint in θ-space.
+- Treat any later use of more refined age information (for example redshift-dependent age or high-redshift structure ages) as a separate Stage 2 or Stage II module, not as a retrofit to this corridor.
+
+Future work.  
+Later rungs can:
+- decide whether a single global age cut is adequate or whether a small family of cuts is needed,
+- implement an `early_age_ok` flag in a Stage 2 helper and compare kernel vs non-kernel behaviour under this cut,
+- test whether any putative “sweet spot” θ-region survives EA-corridor tightening.
+
+### 3. Structure-friendly corridor (SF-corridor)
+
+Intent.  
+Provide a slot for constraints motivated by the existence and timing of structure (for example that the vacuum sector and expansion history must allow galaxies and clusters to form early enough), again at the design level only.
+
+Design sketch.  
+
+- Conceptually tie this corridor to combinations of:
+  - vacuum energy scale (through `E_vac` or `omega_lambda`),
+  - age information (`age_Gyr` or future derived columns),
+  - and potentially simple summary proxies for growth (to be added in later rungs).
+- Define \(\mathcal{C}_{\mathrm{SF}}\) as a region in this reduced parameter space where structure formation is judged “plausible enough” by external arguments, without encoding a full Boltzmann or N-body pipeline.
+- Make clear that:
+  - any concrete parameterisation (for example informal “too fast / too slow expansion” bands) is provisional,
+  - promotion into phase-level claims will require stronger justification or dedicated structure-focused work.
+
+Future work.  
+Later rungs can:
+- propose one or more SF-corridor candidates with explicit inequalities,
+- implement a `structure_friendly` flag in Stage 2 helpers,
+- study intersections such as kernel ∩ LT-corridor ∩ SF-corridor, and how these compare to the LCDM-like and toy corridor families.
+
+### 4. Host-consistency filters (HC-filters)
+
+Intent.  
+Prepare for Stage II “cosmo hosts” by sketching simple host-consistency filters that operate on the static kernel and its families, expressing questions like “does this θ-region admit host scenarios that look broadly like ours?”.
+
+Design sketch.  
+
+- Treat hosts (galaxies, environments, or observer-like configurations) as labels on subsets of θ rather than as new parameters encoded directly in the FRW masks.
+- Define HC-filters as boolean tags over θ, such as:
+  - `admits_host_type_X`,
+  - `admits_host_with_property_Y`,
+  - where the semantics of X and Y are recorded in Stage II host design docs (`docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md` and descendants).
+- Initially, interpret HC-filters as thought experiments or scenario labels, not as data-driven exclusions.
+
+Future work.  
+Later rungs can:
+- define a small set of host scenarios with explicit, reproducible criteria,
+- implement host-style flags as additional columns over the static kernel,
+- ask obstruction-style questions about which θ-regions survive simultaneous FRW and host-consistency filters.
+
+### 5. Gating principles
+
+Across all external-style corridors and filters, the following principles apply:
+
+- Design-first: corridors are first specified in design docs with clear logical definitions and intended use, before any code is written.
+- Stage-2-only implementation: any concrete corridor is implemented as a Stage 2 helper over existing artifacts, not by modifying Phase 3/4 pipelines or masks.
+- Explicit promotion gates: any use of external-style corridors in phase papers or claims requires:
+  - separate, tightly scoped promotion rungs,
+  - explicit Phase 0–style gates,
+  - and updates to the relevant Phase and Stage 2 docs.
+- θ-neutrality: corridors should be chosen and documented in a way that does not implicitly hard-wire any preferred θ value; any apparent θ preference must emerge from the filters, not from their construction.
+
+This menu is a living design sketch. Future rungs can refine, split, or retire corridor candidates as the obstruction program and Stage II hosts become more concrete.

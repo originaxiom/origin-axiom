@@ -6362,3 +6362,22 @@ Files.
 Status and non-claims.  
 - No numerical pipelines, masks, or claims were changed in this rung; all obstruction constructs remain internal Stage 2 diagnostics and overlays.
 - This snapshot is intended to make `obstruction-program-v1` merge-ready in spirit: it clearly states what has been added, what has not been attempted, and how future obstruction work should be gated.
+
+## 2026-01-20 — Stage 2 obstruction: external-style corridor menu (design-only, v1)
+
+Scope.  
+On branch `obstruction-program-v1`, extended the Stage 2 external-constraints design doc with a first-pass menu of external-style corridors (late-time expansion, early-age, structure-friendly, and host-consistency filters). This rung is documentation-only: no numerical thresholds, data sources, or code changes are introduced.
+
+Files.
+
+- `stage2/docs/STAGE2_EXTERNAL_CONSTRAINTS_DESIGN_v1.md`:
+  - Appended an "Initial external-style corridor menu (design-only, v1)" section describing:
+    - LT-corridor (late-time expansion corridor) in terms of bounded regions in existing FRW scalars (`E_vac`, `omega_lambda`, `age_Gyr`), to be concretised later as Stage 2 helpers over the static kernel.
+    - EA-corridor (early-age corridor) as a lower-bound–style constraint on `age_Gyr` or derived early-age proxies, again to be implemented later as a separate helper.
+    - SF-corridor (structure-friendly corridor) as a placeholder for structure-motivated constraints expressed in a reduced FRW scalar space, without committing to full structure-formation pipelines at this stage.
+    - HC-filters (host-consistency filters) as host-style boolean tags over θ, tied to Stage II host design docs and intended initially as scenario labels rather than data-driven exclusions.
+  - Recorded gating principles: design-first, Stage-2-only implementation, explicit promotion gates, and θ-neutrality in corridor construction.
+
+Status and non-claims.  
+- No Stage 2 scripts, FRW masks, or Phase claims were changed; all corridors remain conceptual slots rather than implemented filters.
+- This rung prepares a structured menu for future obstruction rungs and Stage II host work, making clear how external-style constraints should be introduced and governed without pre-committing to specific observational choices.
