@@ -6543,3 +6543,33 @@ Files.
 Status and non-claims.  
 - This rung does not change any numerical artifacts, FRW masks, or Stage 2 verdicts; it refines the roadmap for future external-style corridors.
 - No new obstruction or non-obstruction statement is made; the existing Stage 2 obstruction verdict remains the current snapshot until new corridors are actually implemented and tested.
+
+## 2026-01-20 — Stage 2 obstruction: external late-time corridor v1
+
+Scope.  
+On branch `obstruction-program-v1`, implemented the first external-style late-time expansion corridor helper over the static FRW kernel. This helper defines `external_lt_corridor_v1` as a box in \((E_{\text{vac}}, \omega_\Lambda)\) derived from the current LCDM-like band and records its overlap with the pre-data kernel, the LCDM-like band, the FRW toy corridor, and the 40-point sweet subset.
+
+Files.
+
+- `stage2/obstruction_tests/src/apply_external_lt_corridor_v1.py`:
+  - Reads the static kernel table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`.
+  - Derives a minimal axis-aligned box in \((E_{\text{vac}}, \omega_\Lambda)\) enclosing the LCDM-like points (`lcdm_like = 1`).
+  - Adds a boolean flag `external_lt_corridor_v1` indicating membership in this box.
+  - Writes an augmented table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_lt_corridor_v1.csv`.
+  - Produces a summary table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_lt_corridor_summary_v1.csv` with families:
+    - `ALL_GRID`,
+    - `PRE_DATA_KERNEL`,
+    - `EXTERNAL_LT_CORRIDOR_V1`,
+    - `KERNEL_AND_EXTERNAL_LT_V1`,
+    - `LCDM_AND_EXTERNAL_LT_V1`,
+    - `TOY_CORRIDOR_AND_EXTERNAL_LT_V1`,
+    - `KERNEL_LCDM_TOY_AND_EXTERNAL_LT_V1`,
+      together with counts and fractions relative to the full grid and to the kernel.
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_LT_CORRIDOR_V1.md`:
+  - Documents the construction and purpose of `external_lt_corridor_v1` as a mock external-style late-time corridor aligned with the current LCDM-like island.
+  - Explains how it relates to the existing toy late-time corridor built from the LCDM box.
+  - Clarifies that this is a Stage 2 diagnostic helper and that future rungs may tighten or reshape the corridor based on genuinely external criteria.
+
+Status and non-claims.  
+- This rung does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates; it extends the obstruction toolkit with an explicit external-style late-time corridor helper.
+- The corridor is interpreted as a baseline external-style construction rooted in the current snapshot, not as a realistic late-time expansion constraint. Any serious external corridor will require separate design rungs, explicit thresholds, and a refreshed obstruction verdict.
