@@ -6573,3 +6573,30 @@ Files.
 Status and non-claims.  
 - This rung does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates; it extends the obstruction toolkit with an explicit external-style late-time corridor helper.
 - The corridor is interpreted as a baseline external-style construction rooted in the current snapshot, not as a realistic late-time expansion constraint. Any serious external corridor will require separate design rungs, explicit thresholds, and a refreshed obstruction verdict.
+
+## 2026-01-20 — Stage 2 obstruction: external age corridor v2
+
+Scope. On branch `obstruction-program-v1`, implemented a first non-trivial external-style age corridor helper over the static FRW kernel. This helper defines `external_age_corridor_v2` as a band in `age_Gyr` and records its overlap with the pre-data kernel, the LCDM-like band, the FRW toy corridor, and the 40-point sweet subset.
+
+Files.
+
+- `stage2/obstruction_tests/src/apply_external_age_corridor_v2.py`:
+  - Reads the static kernel table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`.
+  - Applies a toy external-style age corridor `[12.0, 15.0]` Gyr to the scalar `age_Gyr`.
+  - Adds a boolean flag `external_age_corridor_v2` indicating membership in this band.
+  - Writes an augmented table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_corridor_v2.csv`.
+  - Produces a summary table `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_corridor_summary_v2.csv` with families:
+    - `ALL_GRID`,
+    - `PRE_DATA_KERNEL`,
+    - `EXTERNAL_AGE_CORRIDOR_V2`,
+    - `KERNEL_AND_EXTERNAL_AGE_V2`,
+    - `LCDM_AND_EXTERNAL_AGE_V2`,
+    - `TOY_CORRIDOR_AND_EXTERNAL_AGE_V2`,
+    - `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2`,
+      together with counts and fractions relative to the full grid and to the kernel.
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_CORRIDOR_V2.md`:
+  - Documents the construction and purpose of `external_age_corridor_v2` as a genuinely constraining age-based external-style corridor.
+  - Explains how it relates to the earlier trivial age band and to the vacuum-space late-time helpers.
+  - Clarifies that this is a Stage 2 diagnostic helper, not yet a data-fitted constraint.
+
+Status and non-claims. This rung does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates; it extends the obstruction toolkit with a non-trivial age-based external-style corridor. The age band is chosen as a simple toy interval compatible with a late-time universe of order fourteen billion years old and is not tuned to the existing sweet subset. Any serious age corridor tied to observational bounds will require separate design rungs and an updated obstruction verdict.
