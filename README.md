@@ -317,3 +317,7 @@ Pull requests, issue reports, or private notes are welcome, especially if they:
 - clarify claims vs non-claims,
 - or propose well-scoped new rungs (e.g. “Phase 3 – Rung N: refined mechanism diagnostic”).
 
+
+## Obstruction program (interpretive overview)
+
+Beyond the locked Phase 0–5 contracts and Stage 2 diagnostic belts, the project also admits an interpretive reading as an obstruction to perfect vacuum cancellation: reality continually “tries” to cancel to zero but is prevented from doing so, and the residual structure is what feeds vacuum energy and large-scale geometry. This reading is non-canonical and does not override the Phase contracts; it is documented in more detail in `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md`.

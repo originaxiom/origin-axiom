@@ -148,3 +148,7 @@ For readers who want a deeper view of governance and the θ architecture:
 - `docs/ARCHIVE.md` explains the archive and deprecation policy, including how exploratory work is retired or migrated into phases.
 - `docs/GATES_AND_STATUS.md` is the central index of gates and status labels across phases, Stage 2 belts, and experiments.
 - `docs/THETA_ARCHITECTURE.md` describes how θ-like parameters and corridors are treated across the program, including the role of admissible regions and intersection-style narrowing.
+
+### Obstruction program (interpretive layer)
+
+In addition to the strictly scoped Phase 0–5 contracts, the Origin Axiom stack can be read as an exploration of an obstruction to perfect vacuum cancellation: a configuration space in which exact global cancellation is forbidden and θ controls how the system threads the allowed region. This obstruction program is an optional, non-binding interpretive layer that organises how Phase 1–4 toy ensembles, mechanism diagnostics, FRW masks, and Stage 2 empirical kernels fit together. A first snapshot of this perspective is recorded in `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md`.
