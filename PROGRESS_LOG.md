@@ -6201,3 +6201,24 @@ Actions:
 
 Notes:
 - A separate repo `origin-axiom-obstruction` now exists for focused work on the conceptual obstruction to exact vacuum cancellation; it is not yet wired into this framework and remains non-canonical background.
+
+## 2026-01-20 — Obstruction program v1 (docs-only branch)
+
+Scope.  
+On branch `obstruction-program-v1`, added an explicit obstruction-program interpretive layer over the existing Stage I phases and Stage 2 belts, without changing any Phase contracts or numerical artefacts. All changes are documentation-only and remain non-binding relative to Phase 0 governance.
+
+Files.
+
+- `docs/OBSTRUCTION_PROGRAM_OVERVIEW_v1.md`: new overview memo describing the obstruction-to-perfect-cancellation interpretation, its embedding into the Phase 0–5 ladder, how Stage 2 belts and empirical kernels test it, and explicit non-claims and usage notes (internal and future-facing).
+- `README.md`, `docs/PROJECT_OVERVIEW.md`: added short “obstruction program” pointers linking to the overview memo, clearly marked as interpretive and non-canonical.
+- `docs/THETA_ARCHITECTURE.md`: appended an “obstruction-program view of θ” section explaining how θ and θ\* can be read as indexing near-cancelling configurations, while emphasising that this does not promote θ\* via current FRW or data probes.
+- `docs/STAGE1_STAGE2_STATUS_v1.md`: recorded the obstruction program as an explicit interpretive layer that does not alter lock status for Phase 0–2, Phase 3–5, or Stage 2.
+- `stage2/docs/STAGE2_OBSTRUCTION_TESTING_SPINE_v1.md`: new Stage 2 memo organising the FRW corridor, mech/measure, joint mech–FRW, empirical FRW anchor, and external host belts as a coherent “obstruction testing spine”, summarising what they do and do not say about non-cancelling corridors.
+- `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`: added a short interpretive paragraph explaining how the master verdict reads from the obstruction-program perspective, without changing any Stage 2 gating.
+- `docs/STAGEII_COSMO_HOSTS_DESIGN_v1.md`: appended an “obstruction-program questions for Stage II” section framing host- and data-facing questions about corridor survival and kernel structure as programmatic prompts for future work.
+
+Status and non-claims.
+
+- No Phase 0–2 claims, Phase 3–5 contracts, or Stage 2 promotion gates were modified in this branch; all new language is explicitly interpretive and downstream of existing artefacts.
+- The obstruction program is documented as a way of threading together the current stack (mechanism, FRW toy, empirical kernels, external hosts), not as a proof that reality is literally an obstructed cancellation process.
+- Any future promotion of obstruction-flavoured statements into Phase papers will require dedicated rungs, explicit Phase 0 gates, and separate commits outside this branch.

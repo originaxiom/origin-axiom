@@ -163,3 +163,17 @@ As of January 2026 this design note is **conceptual only**. It records how Stage
 - include its own alignment and reproducibility docs,
 - and pass through explicit Phase 0–style gates before influencing Phase 4/5 text or public-facing narratives.
 
+
+## Obstruction-program questions for Stage II
+
+Stage II is designed as a host- and data-facing layer on top of the locked Stage I phases and the Stage 2 diagnostic belts. From the obstruction-program perspective, its role is not to assume that reality is literally an obstructed cancellation process, but to ask whether that picture can survive contact with realistic cosmological hosts and data gates in a controlled way.
+
+The central obstruction-program questions for Stage II are:
+
+- Mapping: can the θ-dependent vacuum constructions and non-cancelling floor from Stage I be mapped into standard cosmological parameterisations (for example \{\Omega_{\mathrm{m}}, \Omega_{\Lambda}, H_{0}, n_{\mathrm{s}}, \ldots\}) such that the mapping is mathematically well defined and reproducible across hosts?
+- Corridor survival: under such mappings, do any of the θ corridors that survive the Stage 2 FRW viability and empirical-anchoring belts remain non-empty once passed through realistic background solvers and simple data gates, or do they collapse immediately?
+- Kernel structure: when non-empty kernels do appear under host-plus-data cuts, are they structured in θ and in the mapped cosmological parameters in a way that is consistent across different host choices, or are they fragile artefacts of one particular mapping or solver?
+- θ\* neutrality: do the mapped corridors and kernels treat θ\* as a neutral interior point, a boundary, or a special value, and how sensitive is this behaviour to the details of the host and data choices?
+- Negative outcomes: if certain host or data combinations destroy all non-trivial θ corridors, can those failures be turned into precise statements about which obstruction-program variants are ruled out, without overreaching beyond what the Stage I artefacts actually support?
+
+These questions are intentionally phrased as programmatic prompts rather than claims. Implementing them will require explicit host interfaces, reproducible mappings from θ into host parameter spaces, carefully defined data gates, and new promotion contracts. Until those pieces are in place and pass Phase 0 gates, Stage II remains a design-only layer, and any obstruction-program language should be treated as interpretive rather than canonical.
