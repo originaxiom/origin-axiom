@@ -7133,3 +7133,14 @@ Interpretation and status.
   - no evidence that reasonable external-style age/expansion/structure bands force the pre-data kernel to vanish, and
   - no sign that the mechanism amplitudes misbehave inside the surviving subsets.
 - The verdict remains that there is no obvious obstruction and no enforced uniqueness for θ-star in the current setup. All statements are Stage 2 diagnostics only; they will only be considered for Phase 4/5 promotion under separate, tightly scoped rungs and Phase 0-style gates once sharpened, externally motivated corridors have been designed and tested.
+
+---
+
+### 2026-01-21 – O2.x: snapshot of mechanism amplitudes under external corridors
+
+- Appended a snapshot section to `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_v1.md`:
+  - recorded the sizes of the pre-data FRW kernel and the main external-style corridor subsets (age v2, late-time LCDM-derived corridor, age+expansion+structure proxies),
+  - summarised the behaviour of the Phase 3 mechanism amplitudes on the kernel, the 40-point sweet subset, and the 51-point tight age+expansion+structure subset,
+  - made explicit that these results show a non-empty, structured kernel with a non-zero mechanism amplitude floor, but **do not** single out a unique θ-value or promote any amplitude to a fundamental measure.
+- Clarified that this snapshot is Stage 2 diagnostic infrastructure only; no Phase 0–5 contracts, FRW masks, or promotion gates were modified. Any future obstruction-flavoured claims remain gated as Phase 5-level candidates.
+

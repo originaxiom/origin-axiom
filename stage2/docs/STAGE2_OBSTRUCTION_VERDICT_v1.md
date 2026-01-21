@@ -155,3 +155,85 @@ Next steps:
 - Design and implement a small set of sharpened external corridors whose thresholds are tied to explicit external arguments (age bounds, simple effective dark-energy boxes, and structure-friendly proxies) rather than internal distributions.
 - Explore how these sharpened corridors behave across different FRW snapshots and mechanism refinements, including whether the sweet subsets persist or fracture.
 - Only once such sharpened corridors are in place and tested should an updated obstruction verdict be considered for promotion into Phase 4/5 text, under explicit Phase 0-style gates and with clearly documented provenance.
+
+## 4. Snapshot: mechanism amplitudes under external-style corridors (O2.x)
+
+This section records the current obstruction snapshot from the O2.x helpers. It is
+**diagnostic only** and does not introduce any new Phase 0–5 claims.
+
+### 4.1 FRW kernel and external-style corridors
+
+Using the static FRW kernel and the external-style corridors built in Stage 2:
+
+- The full θ grid has 2048 points.
+- The pre-data FRW kernel (FRW masks only) contains 1016 points (~50% of the grid).
+- The external age corridor v2 selects 358 grid points, of which 356 lie in the FRW kernel (~35% of the kernel).
+- The toy late-time corridor derived from the LCDM-like band and the age corridor v2 defines a 40-point “sweet subset” inside the kernel:
+  - FRW-viable,
+  - LCDM-like under the internal LCDM band,
+  - inside the toy FRW corridor,
+  - inside the age band v2.
+- The joint age+expansion+structure proxies (v1) carve the kernel down to a 51-point subset (~5% of the kernel) while keeping a non-empty, structured set of survivors.
+
+The precise counts and fractions are recorded in:
+
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_corridor_summary_v2.csv`
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_summary_v1.csv`
+
+These helpers are defined and motivated in the obstruction docs:
+
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_CORRIDOR_V2.md`
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_LT_CORRIDOR_V1.md`
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_EXPANSION_V1.md`
+- `stage2/docs/STAGE2_OBSTRUCTION_TOY_LT_CORRIDOR_FROM_LCDM_v1.md`
+
+### 4.2 Phase 3 amplitudes on the kernel and external-style subsets
+
+Attaching the Phase 3 mechanism amplitudes to the FRW kernel and summarising them
+under the external-style corridors gives:
+
+- On the pre-data FRW kernel:
+  - all six Phase 3 amplitudes sit in a relatively narrow band well above zero
+    (in the current toy implementation the minimum values are of order a few×10⁻²),
+  - no kernel point approaches “near-perfect cancellation” under the current mechanism.
+- On the 40-point sweet subset (kernel ∩ LCDM-like ∩ toy FRW corridor ∩ age band v2)
+  and on the 51-point tight age+expansion+structure subset:
+  - the amplitudes are even more tightly clustered,
+  - the same non-zero floor is present.
+
+These summaries are recorded in:
+
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_with_mech_v1.csv`
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`
+- documented in `stage2/docs/STAGE2_OBSTRUCTION_KERNEL_WITH_MECH_V1.md`.
+
+### 4.3 Interpretation and non-claims
+
+Interpretation:
+
+- The current stack (Phase 3 mechanism + Phase 4 FRW masks + Stage 2 corridors)
+  admits a non-empty pre-data FRW kernel.
+- Non-trivial age, expansion, and simple structure proxies can be imposed while
+  keeping a non-empty, structured subset of kernel points.
+- On these subsets the current mechanism exhibits a persistent, non-zero amplitude
+  floor; it does not drive the amplitudes towards zero within the present toy.
+
+Non-claims:
+
+- No unique θ-value or narrow θ corridor is singled out by these diagnostics.
+- No mechanism amplitude is promoted to a fundamental “forbidden cancellation measure”.
+- No Phase 0–5 contract, FRW mask, or Stage 2 promotion gate is changed by this
+  snapshot.
+- No claim is made that the surviving subsets are physically preferred; they are
+  infrastructure for future obstruction rungs.
+
+Future work (O3.x):
+
+- Design sharper, externally motivated corridors (age, expansion, structure) and
+  re-run the same diagnostics.
+- Explore whether the non-zero amplitude floor persists under those sharpened
+  corridors, and whether any robust structural features in θ-space emerge.
+- Only after such sharpened tests are in place and audited under Phase 0 style gates
+  should any obstruction-flavoured statement be considered for promotion into a
+  phase paper (most naturally, as a candidate Phase 5 claim).
+
