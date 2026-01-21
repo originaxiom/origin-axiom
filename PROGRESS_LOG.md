@@ -7021,3 +7021,41 @@ Status and non-claims.
   gates) and, for genuinely external corridors, contact with Stage II
   cosmology hosts.
 
+
+## 2026-01-21 — Stage 2 obstruction: mech amplitudes under external corridors (O2.3)
+
+Scope.  
+Document how the Phase 3 mechanism amplitudes behave under the current set of external-style corridors in the obstruction toolkit, using the combined summary table built in O2.2.
+
+Files.
+
+- `stage2/obstruction_tests/src/analyze_kernel_mech_vs_external_corridors_v1.py`
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`
+- `stage2/docs/STAGE2_OBSTRUCTION_MECH_VS_EXTERNAL_CORRIDORS_V1.md`
+
+Summary.
+
+- Started from the kernel-with-mech table and overlaid:
+  - the external age corridor v2,
+  - the external late-time corridor v1,
+  - the toy late-time box-from-LCDM flag,
+  - and the age/expansion/structure proxy flags (broad/tight).
+- Defined diagnostic families:
+  - `ALL_GRID`, `PRE_DATA_KERNEL`,
+  - `KERNEL_AND_EXTERNAL_AGE_V2`,
+  - `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2` (40-point “sweet subset”),
+  - `KERNEL_AGE_TIGHT_EXP_STRUCT_TIGHT`.
+- For each family, recorded counts/fractions and min/max/mean of the six mechanism amplitudes.
+
+Interpretation.
+
+- The pre-data kernel sits in the upper part of the global amplitude range and never hits the explicit non-cancellation bounds; inside the kernel the baseline and binding amplitudes coincide and the `*_bound` flags are identically zero.
+- The external-style corridors (age v2, LCDM-shaped late-time box, tight age+expansion+structure proxies) carve the kernel down to subsets of order a few × 10² down to O(10²), but all selected families live in smooth, mid-range bands of the mechanism amplitudes.
+- The 40-point sweet subset lies in a particularly tight band around the kernel’s interior amplitudes, again with no bound hits, and is not at an obvious extremum of the mechanism.
+- At this rung there is no sharp obstruction: the existing mechanism and FRW toy stack can support these prototype external corridors without evident tension. A sharper obstruction, if it exists, will require better-motivated external corridors and finer diagnostics (e.g. θ-gradients) in later O3.x rungs.
+
+Status.
+
+- Purely diagnostic Stage 2 memo; no Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were changed.
+- This rung prepares the ground for a future `STAGE2_OBSTRUCTION_MASTER_VERDICT_v1.md` that will synthesise the obstruction stack once sharpened external corridors are in place.
+
