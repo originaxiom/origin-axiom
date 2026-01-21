@@ -7177,3 +7177,61 @@ Files.
   - Identifies near-term targets for the current obstruction-program branch (weak/intermediate programs) and records the strong program as a long-term goal tied to future Stage II hosts.
 
 Status and non-claims. This rung is documentation-only: it does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical artifacts. It gives precise language for what the obstruction tests are trying to support or falsify, without asserting that any form of forbidden cancellation has already been achieved.
+
+## 2026-01-21 — Stage 2 obstruction verdict v1 (O3.1)
+
+Scope. Consolidate the current obstruction helpers (static FRW kernel, internal corridors, external age/expansion/structure corridors, and mech overlays) into a single Stage 2 verdict document that records what they do and do not say about the obstruction program, without modifying any Phase 0–5 contracts or promotion gates.
+
+Files.
+
+- Updated `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_v1.md` to:
+  - list the concrete Stage 2 artifacts used in the verdict (static kernel and family tables, toy late-time corridors, external age/expansion/structure corridors, kernel+mechanism overlays, and mech-under-corridor summaries),
+  - describe how the pre-data FRW kernel, internal FRW corridors, and simple external-style corridors (age v2, late-time box, age+expansion+structure proxies) carve the theta grid into structured subsets, including a small but nonempty "sweet subset" that survives all current filters,
+  - summarise the behaviour of the Phase 3 mechanism amplitudes inside these subsets (smooth, nonzero bands that remain well away from zero even under tight corridors),
+  - state a clear internal verdict: the current Phase 3/4/Stage 2 stack is compatible with a nonzero floor under simple host-style filters and shows no internal obstruction to the obstruction program, but it does not yet provide a realistic or unique external corridor family or a theorem-level "forbidden cancellation" statement,
+  - enumerate explicit non-claims and outline the next structured steps (sharpened external corridors, re-runs under those corridors, special-theta checks, and Stage II host design).
+
+Status and non-claims. This rung is documentation-only at the Stage 2 level. No numeric artifacts, FRW masks, Phase 0–5 contracts, or promotion gates were changed. The obstruction program remains an interpretive overlay on the locked phases and Stage 2 belts: it organises and probes the existing stack but does not replace any phase-level claims. Future obstruction rungs that introduce sharpened external corridors or promote any statements into phase papers will require separate, tightly scoped gates.
+
+
+
+## 2026-01-21 — Stage 2 obstruction O2.3: floor + θ★ snapshot
+
+- Ran two Stage 2 obstruction helpers:
+  - `stage2/obstruction_tests/src/analyze_theta_star_in_obstruction_stack_v1.py`
+    → `stage2_obstruction_theta_star_in_stack_v1.csv`
+  - `stage2/obstruction_tests/src/analyze_non_cancellation_floor_vs_corridors_v1.py`
+    → `stage2_obstruction_non_cancel_floor_vs_corridors_v1.csv`
+- Checked that the pre-data FRW kernel admits non-empty subsets that survive:
+  - a positive binding-amplitude floor (`mech_binding_A0 ≥ 0.045`),
+  - tightened age/expansion/structure proxies,
+  - and (for a 32-point subset) the sweetlike corridor box, with amplitudes
+    clustered around ≈ 0.046.
+- Located θ★ on the θ grid: nearest point at `θ ≈ 2.1782527` (index 710),
+  inside the pre-data kernel and above the floor but not singled out by the
+  current toy LCDM-like / FRW-corridor / external-age/expansion filters.
+- Updated `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_v1.md` (section O2.3) to record this snapshot: forbidden cancellation is compatible with the current toy stack, but no unique θ★ or sharply local static corridor is promoted.
+
+
+## 2026-01-21 – O4.1: Stage 2 frustrated-floor toy model (design)
+
+Context: Following the internal note on the “frustrated cancellation” framing, defined a minimal finite-dimensional toy model for a global non-cancellation floor that can be implemented on the existing θ-grid and Stage 2 stack without making new physical claims.
+
+Changes (docs only):
+
+- Added `stage2/docs/STAGE2_FRUSTRATED_FLOOR_TOY_MODEL_DESIGN_v1.md`:
+  - Defines a toy dynamics on the θ-grid where:
+    - the system “tries to cancel” towards a background vector `a` via a simple relaxation term,
+    - a global floor constraint `||ψ||_2 ≥ ε` is enforced either by a Lagrange multiplier or a discrete relax-then-project scheme.
+  - Characterises the stationary behaviour in two regimes:
+    - floor inactive (`||a||_2 ≥ ε`): fixed point `ψ* = a`,
+    - floor active (`||a||_2 < ε`): fixed point on the floor sphere aligned with `a`, `ψ* = ε a / ||a||_2`.
+  - Outlines how to map `a` to combinations of Phase 3 mechanism amplitudes on the pre-data kernel, and how to choose ε so the floor is actually active.
+  - Describes the role of this toy model in the obstruction program: provide a concrete testbed for how a global non-cancellation floor interacts with the pre-data kernel, external-style corridors (age/expansion/structure), and the existing non-cancellation amplitude cuts.
+  - Makes explicit non-claims: no change to Phase 0–5 contracts or Stage 2 promotion gates, no derivation of the floor, no statement about a preferred θ*.
+
+Status / non-claims:
+
+- This rung is documentation/design only. It introduces a mathematically explicit toy model of a frustrated floor but does not implement it yet and does not promote any new physical claims.
+- Implementation and confrontation with the existing Stage 2 tables will happen in follow-up obstruction rungs (O4.2+), which will add a small helper to apply the relax-then-project scheme on `stage2_obstruction_kernel_with_mech_v1.csv` and summarise the result under the existing corridor flags.
+
