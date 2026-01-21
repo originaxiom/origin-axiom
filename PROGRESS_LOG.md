@@ -7302,3 +7302,44 @@ Status and non-claims.
   - overlaps with previously identified FRW “sweet” subsets and any candidate theta_star neighbourhoods,
   - and the eventual decision whether any variant of this construction deserves promotion beyond a Stage 2 diagnostic helper.
 
+
+---
+
+### 2026-01-21 – obstruction-program-v1 – O3.1 minimal Ψ + floor toy (v1)
+
+Context and purpose.
+
+- Added a first explicit Ψ + floor toy to make the “frustrated cancellation” intuition concrete in a controlled sandbox before attempting anything that touches the FRW or mechanism stacks.
+- The goal is to see, in the simplest possible system, what actually happens when a pure cancellation drive is combined with a hard non-zero floor, without pretending that this is yet physical cosmology.
+
+Code and outputs.
+
+- Implemented `stage2/obstruction_toy_models/src/minimal_psi_floor_toy_v1.py`, which:
+  - samples 256 initial conditions Ψ₀ in a disk in ℂ with radii in [0.2, 2.0],
+  - evolves each point under exponential damping toward zero with rate γ = 1.0,
+  - enforces a hard floor |Ψ| ≥ ε by projecting any attempted |Ψ| < ε back to the circle |Ψ| = ε at each step,
+  - uses `n_steps = 2000` and `h = 0.01`,
+  - records, per trajectory, the initial radius, min, max and final radius, and the fraction of steps where the floor was active.
+- The helper writes `stage2/obstruction_toy_models/outputs/tables/stage2_minimal_psi_floor_toy_trajectories_v1.csv` with one row per initial condition.
+- Added `stage2/docs/STAGE2_MINIMAL_PSI_FLOOR_TOY_V1.md` to document the toy, its parameters, and its intended role as a didactic baseline.
+
+Behaviour in this snapshot.
+
+- For all 256 trajectories:
+  - `ever_on_floor = True`,
+  - `r_min = ε = 0.05`,
+  - `r_final = ε = 0.05`,
+  - `r_max` coincides with the initial radius `r0`.
+- The floor-active fraction across trajectories has mean ≈ 0.85, with a narrow spread (roughly 0.82–0.93).
+- Qualitatively, every trajectory:
+  - starts somewhere in the disk,
+  - is driven inward by the cancellation dynamics,
+  - hits the floor |Ψ| = ε,
+  - then spends most of its remaining evolution stuck exactly on the floor.
+
+Interpretation and non-claims.
+
+- This toy is deliberately floor-dominated: it shows a regime where a cancellation process plus a hard floor yields universal attraction to the floor and no further “frustration” once the floor is reached.
+- It does not model realistic frustrated dynamics, does not derive ε, and does not make any statement about real cosmology or the value of θ-like parameters.
+- It is kept as a reproducible baseline for later, more realistic Ψ + floor toys that will introduce competing drives, softer floors, or stochastic perturbations and may eventually be related back to the Stage 2 obstruction stack.
+
