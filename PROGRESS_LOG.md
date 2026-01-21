@@ -7160,3 +7160,20 @@ Files.
   - records this rung and its status as design-level only (no new numerical results, no promotions).
 
 Status and non-claims. This rung does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates. It does not claim that a non-cancelling floor has been demonstrated. It provides a clear target and vocabulary for later obstruction rungs that will (i) stabilise a small set of external-style corridors, (ii) select candidate amplitudes tied to the non-cancellation principle, and (iii) test explicit lower-bound statements on the θ-grid before any promotion is considered.
+
+## 2026-01-21 — Forbidden-cancellation program (FC1: program doc v1)
+
+Scope. Clarify, in one place, what “forbidden cancellation” would mean in the current stack and what levels of statement are realistic with the existing Stage I + Stage 2 + obstruction infrastructure.
+
+Files.
+
+- `docs/FORBIDDEN_CANCELLATION_PROGRAM_v1.md`:
+  - Positions the forbidden-cancellation program as a programmatic overlay on top of the locked Phase 0–5 contracts, the Stage 2 belts, and the obstruction memos.
+  - Lists the concrete ingredients already available (FRW pre-data kernel, internal and external-style corridors, Phase 3 mechanism amplitudes on the kernel, sweet subsets, and theta_star).
+  - Defines three working notions of “forbidden cancellation”:
+    - a weak program (non-vanishing floor on a small sweet subset inside the kernel),
+    - an intermediate program (robust floor on a non-trivial corridor family),
+    - and a strong program (a genuine global obstruction to exact cancellation under specified kernels and corridors).
+  - Identifies near-term targets for the current obstruction-program branch (weak/intermediate programs) and records the strong program as a long-term goal tied to future Stage II hosts.
+
+Status and non-claims. This rung is documentation-only: it does not change any Phase 0–5 contracts, FRW masks, Stage 2 promotion gates, or numerical artifacts. It gives precise language for what the obstruction tests are trying to support or falsify, without asserting that any form of forbidden cancellation has already been achieved.
