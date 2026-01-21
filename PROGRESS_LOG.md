@@ -7144,3 +7144,19 @@ Interpretation and status.
   - made explicit that these results show a non-empty, structured kernel with a non-zero mechanism amplitude floor, but **do not** single out a unique θ-value or promote any amplitude to a fundamental measure.
 - Clarified that this snapshot is Stage 2 diagnostic infrastructure only; no Phase 0–5 contracts, FRW masks, or promotion gates were modified. Any future obstruction-flavoured claims remain gated as Phase 5-level candidates.
 
+
+## 2026-01-21 — Obstruction program: non-cancellation sketch and O1–O2 synthesis (O3.1)
+
+Scope. Design-level rung in `obstruction-program-v1` to clarify what a “forbidden full cancellation” claim would need to mean in the existing Phase 0–5 + Stage 2 language, and to summarise how the O1–O2 obstruction helpers constrain (or fail to constrain) such a claim.
+
+Files.
+
+- `docs/OBSTRUCTION_NON_CANCELLATION_SKETCH_v1.md`:
+  - defines the objects in play (FRW kernel, external-style corridors, Phase 3 mechanism amplitudes),
+  - spells out a target shape for a non-cancellation floor statement (non-vanishing amplitude on a kernel, stability under reasonable external corridors, non-triviality, and behaviour under refinement),
+  - summarises what the current O1–O2 results already show (non-empty kernels and sweet subsets with strictly positive amplitudes, but strong redundancy with FRW scalars),
+  - and outlines a path from the present Stage 2 diagnostics to any future phase-level claim.
+- `PROGRESS_LOG.md`:
+  - records this rung and its status as design-level only (no new numerical results, no promotions).
+
+Status and non-claims. This rung does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates. It does not claim that a non-cancelling floor has been demonstrated. It provides a clear target and vocabulary for later obstruction rungs that will (i) stabilise a small set of external-style corridors, (ii) select candidate amplitudes tied to the non-cancellation principle, and (iii) test explicit lower-bound statements on the θ-grid before any promotion is considered.
