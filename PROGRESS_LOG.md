@@ -6799,3 +6799,75 @@ Next steps (recorded for future rungs).
 
 - Combine these external-style corridors with θ*-alignment diagnostics and the mechanism scalars, to test whether any robust θ-sensitive structure appears in sharpened kernels and sweet subsets.
 - Design a small set of more realistic external corridors (age + expansion + simple structure proxies) guided by external literature and integrate them into the obstruction vocabulary and Phase 0 gates before any promotion into phase papers.
+
+## 2026-01-21 – Stage 2 obstruction: external age + expansion corridors (v1)
+
+Scope. Extended the obstruction toolkit with a first set of external-style age and expansion corridors on the static FRW kernel, to test whether the pre-data kernel and existing sweet subsets survive under simple sharpened bands.
+
+Code and inputs.
+
+- `stage2/obstruction_tests/src/apply_external_age_expansion_corridors_v1.py`
+  - Input: `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv` (static kernel with `frw_viable`, `lcdm_like`, `in_toy_corridor`, `in_pre_data_kernel`).
+  - Output table: `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_corridors_v1.csv`.
+  - Summary: `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_summary_v1.csv`.
+
+Summary of results.
+
+- Broad age and structure proxies keep almost all of the kernel:
+  - `AGE_BROAD_V1` and `STRUCT_PROXY_BASIC_V1` retain 931 of 1016 kernel points (≈ 92% of the kernel).
+- Tight age and expansion/structure filters carve out a small but non-empty subset:
+  - `AGE_TIGHT_V1` selects 126 of 1016 kernel points (≈ 12%).
+  - `EXPANSION_TIGHT_V1` and `STRUCT_PROXY_TIGHT_V1` select 51 of 1016 kernel points (≈ 5%).
+- The pre-data kernel is therefore robust enough to support sharpened age/expansion-style cuts without collapsing to zero or to the entire kernel.
+
+Interpretation and status.
+
+- These corridors are deliberately simple, toy external-style bands. They are not data-fitted constraints and are not claimed to be optimal or physically preferred.
+- No Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were modified; all changes are confined to Stage 2 helper tables and docs.
+- This rung provides a non-trivial test of obstruction robustness under sharpened age/expansion-like filters and sets up later rungs that will:
+  - tie band edges more closely to observational bounds or host arguments,
+  - and combine these external-style corridors with existing FRW toy corridors and mechanism-derived scalars.
+
+
+## 2026-01-21 — Stage 2 obstruction: θ★ alignment with static kernel and external corridors (v1)
+
+Scope.
+- Add a Stage 2 obstruction helper that records how the distinguished angle θ★ ≈ φ^φ (treated as θ★ ≈ 2.178458) sits inside the current static pre-data FRW kernel and the obstruction external-style corridors.
+
+Code / scripts.
+- `stage2/obstruction_tests/src/analyze_theta_star_alignment_v1.py`
+  - Reads:
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`,
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_toy_lt_corridor_from_lcdm_box_v1.csv`,
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_lt_corridor_v1.csv`,
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_corridor_v2.csv`,
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_corridors_v1.csv`.
+  - Verifies that all tables share the same 2048-point θ-grid.
+  - Finds the grid index closest to θ★ ≈ 2.178458 and records:
+    - θ★\_target, θ\_nearest, Δθ,
+    - FRW scalars at θ\_nearest (`E_vac`, `omega_lambda`, `age_Gyr`),
+    - corridor membership flags:
+      `in_pre_data_kernel`, `lcdm_like`, `in_toy_corridor`,
+      `lt_corridor_box_from_lcdm`,
+      `external_age_corridor_v2`, `external_lt_corridor_v1`,
+      `age_broad_v1`, `age_tight_v1`,
+      `expansion_broad_v1`, `expansion_tight_v1`,
+      `struct_proxy_basic_v1`, `struct_proxy_tight_v1`.
+  - Writes:
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_theta_star_alignment_v1.csv` (one-row summary).
+
+Docs.
+- `stage2/docs/STAGE2_OBSTRUCTION_THETA_STAR_ALIGNMENT_v1.md`
+  - Documents the inputs, output, and interpretation of the θ★ alignment helper.
+  - Records that, on the current snapshot:
+    - θ★ lies inside the static pre-data kernel and passes broad age and basic structure proxies,
+    - but is not in the LCDM-like island, the toy FRW corridor, the LCDM-box late-time corridor, the v2 external age band, or the external LT corridor,
+    - and is not part of the current 40-point sweet intersection defined by kernel + LCDM-like + toy corridor + external age v2.
+  - Interprets this as a clean negative-result diagnostic for the obstruction program at this stage: no existing corridor “snaps” to θ★ on the current grid.
+
+Status and non-claims.
+- This rung is a Stage 2 diagnostic overlay only:
+  - no Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were modified;
+  - θ★ is not promoted or demoted by this helper.
+- The helper will be reused when sharper external-style corridors and host metrics are introduced, to track whether θ★ continues to behave like a generic pre-data point or acquires any nontrivial status.
+

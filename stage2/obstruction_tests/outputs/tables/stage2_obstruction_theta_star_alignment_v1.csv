@@ -1,0 +1,2 @@
+grid_index,theta_star_target,theta_nearest,delta_theta,E_vac,omega_lambda,age_Gyr,in_pre_data_kernel,lcdm_like,in_toy_corridor,lt_corridor_box_from_lcdm,external_age_corridor_v2,external_lt_corridor_v1,age_broad_v1,age_tight_v1,expansion_broad_v1,expansion_tight_v1,struct_proxy_basic_v1,struct_proxy_tight_v1
+710,2.178458,2.1782527187976104,-0.00020528120238960668,1.002745715680426e-05,1.53029925200157,11.697833410861984,1,0,0,0,0,0,1,0,0,0,1,0
