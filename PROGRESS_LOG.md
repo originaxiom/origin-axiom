@@ -7343,3 +7343,15 @@ Interpretation and non-claims.
 - It does not model realistic frustrated dynamics, does not derive ε, and does not make any statement about real cosmology or the value of θ-like parameters.
 - It is kept as a reproducible baseline for later, more realistic Ψ + floor toys that will introduce competing drives, softer floors, or stochastic perturbations and may eventually be related back to the Stage 2 obstruction stack.
 
+
+2026-01-21 – obstruction-program-v1 – O5.1/O5.2 minimal ψ-floor toys (no-drive and driven)
+
+- Implemented `minimal_psi_floor_toy_v1.py` (pure relaxation + hard |ψ| ≥ ε floor) and ran it with n_ics=256, n_steps=2000, γ=1.0, ε=0.05, h=0.01.
+  - All trajectories hit the floor and end at |ψ|=ε; floor_active_fraction ≃ 0.85 across the ensemble.
+  - Confirms the constrained dynamics behaves as expected but collapses to a trivial absorbing state.
+- Implemented `minimal_psi_floor_toy_with_drive_v1.py` (adds simple periodic drive with ω=1.0, drive=0.15).
+  - Trajectories converge to a common radius ≃ 0.106 > ε; only 49/256 ever touch the floor and the floor is active for at most ≃ 8% of steps.
+  - The floor behaves as a genuine obstruction: it is enforced, but the long-time state is an orbiting band above the floor rather than full collapse.
+- Wrote `STAGE2_FRUSTRATED_FLOOR_TOY_RESULTS_v1.md` summarising both runs, their parameters, observed statistics, and non-claims.
+- Status: toys are 0D and strictly interpretive, but they provide a concrete picture of “blocked cancellation” that we can later try to abstract into more realistic frustrated-floor constructions.
+
