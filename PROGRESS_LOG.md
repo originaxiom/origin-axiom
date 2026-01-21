@@ -6871,3 +6871,37 @@ Status and non-claims.
   - θ★ is not promoted or demoted by this helper.
 - The helper will be reused when sharper external-style corridors and host metrics are introduced, to track whether θ★ continues to behave like a generic pre-data point or acquires any nontrivial status.
 
+
+## 2026-01-21 — Stage 2 obstruction: discrete kernel lemma (v1)
+
+Scope. Summarise the current Stage 2 FRW and obstruction masks on the 2048 point \`θ\` grid as a discrete obstruction lemma: a small but non-empty subset of \`θ\` survives FRW viability, the internal toy corridor, LCDM-likeness, and the current external-style age and expansion bands.
+
+Files.
+
+- \`stage2/docs/STAGE2_OBSTRUCTION_DISCRETE_KERNEL_LEMMA_v1.md\`
+
+Content.
+
+- Defined the discrete grid \`Θ_grid\` (2048 points) and the main sets derived from existing CSVs:
+  - the pre-data FRW kernel \`K\` from \`stage2_obstruction_static_frw_kernel_v1.csv\`,
+  - the LCDM-like band \`L\`,
+  - the internal toy FRW corridor \`C_toy\`,
+  - the external-style age corridor v2 \`A_ext\` from \`stage2_obstruction_external_age_corridor_v2.csv\`,
+  - the age and expansion proxy bands from \`stage2_obstruction_external_age_expansion_corridors_v1.csv\`.
+- Recorded the current counts and fractions:
+  - grid size \`|\Θ_grid| = 2048\`,
+  - kernel size \`|K| = 1016\` (\(\approx 0.50\) of the grid),
+  - external age corridor v2: \`|A_ext| = 358\`, \`|K ∩ A_ext| = 356\` (\(\approx 0.35\) of the kernel),
+  - tight expansion and structure bands: \`|K ∩ X_tight| = |K ∩ S_tight| = 51\).
+- Noted the 40 point “sweet subset” \`K_sweet,age = K ∩ L ∩ C_toy ∩ A_ext\` from the external age v2 summary:
+  - \`|K_sweet,age| = 40\`, a small but non-empty fraction of both the grid and the kernel.
+- Formulated a discrete obstruction lemma: with the current FRW masks and the present external-style age and expansion bands, the pre-data kernel is never annihilated; there is always a non-empty surviving subset, including a small 40 point sweet region compatible with FRW viability, LCDM-likeness, the toy corridor, and the age band.
+
+Status and next steps.
+
+- This rung is documentation only; no Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were changed.
+- The discrete lemma turns the current obstruction snapshot into an explicit, citable statement: the static FRW kernel cannot be driven to the empty set by the present corridors.
+- Next obstruction rungs will:
+  - attach Phase 3 mechanism amplitudes to these sets and study the non-cancellation floor,
+  - design robustness tests under grid refinement and parameter perturbations,
+  - and draft a toy continuum obstruction conjecture inspired by the discrete pattern.
