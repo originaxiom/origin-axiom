@@ -7081,3 +7081,55 @@ Status.
   it does not change any Phase 0–5 contracts, FRW masks, or Stage 2
   promotion gates, and any future promotion of obstruction-flavoured
   statements into phase papers will require separate, Phase 0–style rungs.
+
+## 2026-01-21 — Stage 2 obstruction program: external age+expansion corridors and verdict v1
+
+Scope.  
+Extend the Stage 2 obstruction toolkit with a documented set of external-style age+expansion+structure corridors and record a first obstruction verdict that synthesises the static FRW kernel, toy and external-style corridors, and mechanism amplitude overlays. No Phase 0–5 contracts or Stage 2 promotion gates were modified.
+
+Code / docs.
+
+- `stage2/obstruction_tests/src/apply_external_age_expansion_corridors_v1.py`:
+  - Builds `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_corridors_v1.csv` by augmenting the static FRW kernel with:
+    - broad and tight age bands,
+    - broad and tight expansion bands in the vacuum sector,
+    - basic and tight structure-friendly proxies.
+  - Writes `stage2/obstruction_tests/outputs/tables/stage2_obstruction_external_age_expansion_summary_v1.csv` summarising, for each family, counts and fractions relative to the grid and to the pre-data kernel.
+- `stage2/obstruction_tests/src/attach_mech_amplitudes_to_kernel_v1.py` (O2.1, previously introduced):
+  - Produces `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_with_mech_v1.csv`, attaching the six Phase 3 mechanism amplitudes to the static FRW kernel on a θ-aligned grid.
+- `stage2/obstruction_tests/src/analyze_kernel_mech_vs_external_corridors_v1.py` (O2.2, previously introduced):
+  - Produces `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`, reporting min/max/mean of the mechanism amplitudes for several diagnostic families (kernel, kernel ∧ external age v2, kernel ∧ tight age+expansion+structure band, and the 40-point sweet subset).
+
+Docs.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_EXTERNAL_AGE_EXPANSION_V1.md`:
+  - Documents the age+expansion+structure corridors (broad/tight bands and proxies), their current numerical footprint on the 2048-point θ grid, and their role as toy external-style filters in the obstruction program.
+- `stage2/docs/STAGE2_OBSTRUCTION_KERNEL_WITH_MECH_V1.md` (from O2.1):
+  - Records how the Phase 3 amplitudes are attached to the static FRW kernel and clarifies that the joined table is diagnostic-only.
+- `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_V1.md`:
+  - Provides a first obstruction verdict (v1) that:
+    - recognises a non-empty, broad pre-data FRW kernel and a 40-point sweet subset surviving multiple internal and external-style corridors,
+    - notes that the Phase 3 amplitudes remain smooth and well-behaved under these corridors,
+    - emphasises that there is, at this stage, no obvious obstruction and no enforced uniqueness for θ-star,
+    - and clearly marks all conclusions as Stage 2 interpretive overlays, not promoted Phase-level claims.
+
+Key results.
+
+- The static FRW kernel (1016/2048 points) remains non-empty under:
+  - the external age band v2 (`external_age_corridor_v2`),
+  - the LCDM-aligned late-time corridor helper,
+  - and the combined age+expansion+structure bands in v1.
+- A 40-point sweet subset (`KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2`) lies simultaneously in:
+  - the pre-data FRW kernel,
+  - the LCDM-like region,
+  - the internal toy FRW corridor,
+  - and the external age band v2.
+- Tight age+expansion+structure bands (`KERNEL_AGE_TIGHT_EXP_STRUCT_TIGHT`) carve the kernel down to a roughly five-percent subset but do not kill it, illustrating that the kernel can survive non-trivial external-style demands.
+- Mechanism amplitudes are smooth and well-behaved across the kernel and its externally carved subsets, with no pathological behaviour revealed by the current corridors.
+
+Interpretation and status.
+
+- At the present toy level the obstruction program finds:
+  - no evidence that reasonable external-style age/expansion/structure bands force the pre-data kernel to vanish, and
+  - no sign that the mechanism amplitudes misbehave inside the surviving subsets.
+- The verdict remains that there is no obvious obstruction and no enforced uniqueness for θ-star in the current setup. All statements are Stage 2 diagnostics only; they will only be considered for Phase 4/5 promotion under separate, tightly scoped rungs and Phase 0-style gates once sharpened, externally motivated corridors have been designed and tested.
