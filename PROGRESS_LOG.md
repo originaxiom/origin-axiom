@@ -6905,3 +6905,33 @@ Status and next steps.
   - attach Phase 3 mechanism amplitudes to these sets and study the non-cancellation floor,
   - design robustness tests under grid refinement and parameter perturbations,
   - and draft a toy continuum obstruction conjecture inspired by the discrete pattern.
+
+## 2026-01-21 — Stage 2 obstruction: attach Phase 3 mech amplitudes to FRW kernel (rung O2.1)
+
+Scope. Extend the obstruction toolkit with a joined table that carries, for each point on the Phase 4 FRW grid, both the pre data FRW kernel flags and the Phase 3 mechanism amplitudes, so that later obstruction rungs can condition on external style corridors and non cancellation diagnostics simultaneously.
+
+Code and tables.
+
+- `stage2/obstruction_tests/src/attach_mech_amplitudes_to_kernel_v1.py`:
+  - Reads the static FRW kernel table
+    (`stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`)
+    and the joint mech–FRW table
+    (`stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`).
+  - Detects that both live on the same 2048 point θ grid, sorts them by `theta`, and checks that the sorted θ columns agree within a small tolerance.
+  - In the tolerant case, treats the tables as index aligned and copies the Phase 3 mechanism amplitudes (`mech_baseline_*`, `mech_binding_*`) into the kernel table by index, avoiding any loss of points from strict float based merges.
+  - Falls back to an inner merge on `theta` only if the shapes or θ alignment checks fail.
+  - Writes `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_with_mech_v1.csv`.
+
+- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_with_mech_v1.csv`:
+  - Combines, on a single θ grid:
+    - the FRW kernel and mask flags (including the pre data kernel flag),
+    - the Phase 4 scalar background quantities and corridor flags,
+    - the Phase 3 mechanism amplitudes (`mech_baseline_A0`, `mech_baseline_A_floor`, `mech_baseline_bound`, `mech_binding_A0`, `mech_binding_A`, `mech_binding_bound`).
+
+Docs.
+
+- `stage2/docs/STAGE2_OBSTRUCTION_KERNEL_WITH_MECH_V1.md`:
+  - Documents the purpose, inputs, outputs and alignment logic of the helper.
+  - States that the joined table is purely Stage 2 diagnostic infrastructure and that it does not promote any mechanism based measure or change any Phase 0–5 claims.
+
+Status and non claims. This rung does not modify any Phase 0–5 contracts, FRW masks or Stage 2 promotion gates. It prepares a clean, θ aligned object for later obstruction rungs that will apply external style corridors (age, expansion, structure proxies) and inspect how the surviving sets sit with respect to the Phase 3 amplitudes and any attempted non cancellation floor.
