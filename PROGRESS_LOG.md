@@ -6935,3 +6935,41 @@ Docs.
   - States that the joined table is purely Stage 2 diagnostic infrastructure and that it does not promote any mechanism based measure or change any Phase 0–5 claims.
 
 Status and non claims. This rung does not modify any Phase 0–5 contracts, FRW masks or Stage 2 promotion gates. It prepares a clean, θ aligned object for later obstruction rungs that will apply external style corridors (age, expansion, structure proxies) and inspect how the surviving sets sit with respect to the Phase 3 amplitudes and any attempted non cancellation floor.
+
+## 2026-01-21 — Stage 2 obstruction verdict v1 (O3.1, diagnostic only)
+
+Scope.  
+Use the new Stage 2 obstruction helpers to record a preliminary obstruction verdict
+without modifying any Phase 0–5 contracts or Stage 2 promotion gates.
+
+Work.
+
+- Added `stage2/docs/STAGE2_OBSTRUCTION_VERDICT_V1.md`, which:
+  - summarises the static FRW kernel, the toy/external corridors, the kernel-with-mech
+    table, and the mech-vs-external-corridor summary,
+  - reports the sizes of key families (pre-data kernel, age/expansion/structure
+    subsets, and the 40-point sweet subset),
+  - compares mechanism amplitudes across these families (whole grid, kernel, age band,
+    tight age+expansion+structure subset, and the 40-point intersection),
+  - records the θ\* status as “compatible but not selected” in the current snapshot.
+
+Verdict (v1, diagnostic only).
+
+- The FRW + Stage 2 stack supports a broad pre-data kernel (~50% of the grid) and
+  non-trivial external-style corridors that still leave O(10–100) kernel points alive.
+- These corridors carve out a structured sweet subset with moderately elevated and
+  tightly bunched mechanism amplitudes, but:
+  - the non-cancellation floor does not yet bite (the bound flags remain zero), and
+  - no θ-value (including θ\*) is uniquely singled out.
+- The current obstruction stack therefore yields a structured negative result:
+  it shows that the mechanism and simple external-style corridors can coexist
+  on non-empty θ-bands, but it does not yet collapse the kernel to a unique θ
+  or enforce a hard obstruction.
+
+Status.
+
+- This rung is **documentation-only**. No numerical artifacts, Phase contracts,
+  FRW masks, or Stage 2 promotion gates were modified.
+- The verdict memo is explicitly classified as a Stage 2 diagnostic overlay.
+  Any future promotion of obstruction-flavoured statements into phase papers
+  will require separate, tightly scoped rungs and Phase 0–style gates.
