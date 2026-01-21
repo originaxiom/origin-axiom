@@ -7235,3 +7235,70 @@ Status / non-claims:
 - This rung is documentation/design only. It introduces a mathematically explicit toy model of a frustrated floor but does not implement it yet and does not promote any new physical claims.
 - Implementation and confrontation with the existing Stage 2 tables will happen in follow-up obstruction rungs (O4.2+), which will add a small helper to apply the relax-then-project scheme on `stage2_obstruction_kernel_with_mech_v1.csv` and summarise the result under the existing corridor flags.
 
+
+---
+
+### 2026-01-21 – Obstruction O2.3: toy frustrated-floor projection (kernel ∩ tight external corridors ∩ mech floor)
+
+Context. Building on the Stage 2 obstruction helpers for:
+- the static FRW pre-data kernel and toy corridor (Phase 4 / Stage 2),
+- external-style age and expansion corridors with basic/ tight structure proxies,
+- and the joined FRW+mechanism table with Phase 3 amplitudes,
+we wanted a first concrete, honest implementation of a “frustrated floor” core in the current stack.
+
+Code and tables.
+
+- Ran `stage2/obstruction_tests/src/apply_frustrated_floor_projection_v1.py`, which:
+  - reads `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_with_mech_v1.csv`,
+  - assumes the presence of external-style flags:
+    - `age_tight_v1`,
+    - `expansion_tight_v1`,
+    - `struct_proxy_tight_v1`,
+  - defines a toy non-cancellation floor on the Phase 3 binding amplitude:
+    - `mech_binding_A0 >= 0.045` (floor v1),
+  - and constructs a new flag
+    - `in_frustrated_floor_core_v1`
+    for points that satisfy all of:
+    - `in_pre_data_kernel == 1` (pre-data FRW kernel),
+    - `age_tight_v1 == True`,
+    - `expansion_tight_v1 == True`,
+    - `struct_proxy_tight_v1 == True`,
+    - `mech_binding_A0 >= 0.045`.
+  - writes the augmented table:
+    - `stage2/obstruction_tests/outputs/tables/stage2_obstruction_kernel_with_frustrated_floor_v1.csv`.
+
+Snapshot numbers.
+
+- Total theta grid points: 2048
+- Pre-data FRW kernel: 1016 points
+- Toy frustrated-floor core v1 (`in_frustrated_floor_core_v1 == True`):
+  - 49 points
+  - ≈ 4.9% of the pre-data kernel
+- Cross-check: this matches the earlier family
+  `KERNEL_AGE_TIGHT_EXP_STRUCT_TIGHT_AND_FLOOR_V1` in
+  `stage2_obstruction_non_cancel_floor_vs_corridors_v1.csv`, with
+  `mech_binding_A0` ≈ 0.045–0.0475.
+
+Docs.
+
+- Added `stage2/docs/STAGE2_OBSTRUCTION_FRUSTRATED_FLOOR_PROJECTION_V1.md` documenting:
+  - the purpose of this helper as a Stage 2 diagnostic object, not a phase-level claim,
+  - the input and output tables and column-level definition of `in_frustrated_floor_core_v1`,
+  - the toy nature of the floor threshold and the external-style corridors used,
+  - and the intended role of this core in future O3.x obstruction rungs.
+
+Status and non-claims.
+
+- This rung does **not**:
+  - promote any mechanism amplitude to a preferred measure on theta,
+  - select a unique theta_star, or
+  - change any Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates.
+- `in_frustrated_floor_core_v1` is a **toy frustrated-floor core**: a reproducible intersection of
+  - the pre-data FRW kernel,
+  - tight age + expansion + simple structure proxies (toy definitions),
+  - and a binding-amplitude floor chosen within the existing amplitude range.
+- The purpose of this rung is to make the “frustrated floor” idea concrete in the current stack and to prepare an object for later tests:
+  - stability of the core under small changes in corridor and floor definitions,
+  - overlaps with previously identified FRW “sweet” subsets and any candidate theta_star neighbourhoods,
+  - and the eventual decision whether any variant of this construction deserves promotion beyond a Stage 2 diagnostic helper.
+
