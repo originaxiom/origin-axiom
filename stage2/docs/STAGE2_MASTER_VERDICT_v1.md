@@ -1,254 +1,250 @@
-# Stage 2 – Obstruction verdict snapshot (v1)
+# Stage 2 – Master Verdict (FRW, mechanism, and obstruction lens)
 
-Status: **Stage 2 diagnostic synthesis – interpretive, non-binding.**  
-Scope date: 2026-01-21 (obstruction-program-v1 snapshot).
+**Status:** Stage 2 diagnostic synthesis.  
+**Scope:** Summarise what the current Stage 2 belts and obstruction helpers
+actually say – and do *not* say – about the Phase 3 mechanism, the Phase 4
+FRW toy, and simple external–style corridors on the θ grid.
 
-This memo summarises what the current Stage 2 belts and obstruction helpers
-say – and do *not* say – about obstructions to a trivial vacuum / FRW /
-mechanism story on the existing θ-grid.
-
-It is **not** a phase-level claims document. It does not change any Phase 0–5
-contracts, FRW masks, or Stage 2 promotion gates. Any promotion of
-obstruction-flavoured statements into phase papers will require separate,
-tightly scoped rungs.
+This document is interpretive and diagnostic only. It does **not** modify any
+Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates.
 
 ---
 
-## 1. Ingredients
+## 1. Inputs and belts considered
 
-**FRW kernel and families.**
+This verdict uses the following ingredients:
 
-From the locked Phase 4 outputs and Stage 2 FRW corridor belt:
+- **FRW corridor belt** (Stage 2):
+  - Masks and families built from
+    `phase4_F1_frw_viability_mask.csv`,
+    `phase4_F1_frw_lcdm_probe_mask.csv`,
+    `phase4_F1_frw_shape_probe_mask.csv`,
+    `phase4_F1_frw_data_probe_mask.csv`.
+  - Viability corridor on the 2048–point θ grid:
+    about half the grid (1016 points) satisfy the internal FRW checks.
+  - Data–gate flag `frw_data_ok` is currently empty (no point passes all
+    data probes in the present snapshot).
 
-- θ-grid: 2048 points.
-- Pre-data FRW kernel (`in_pre_data_kernel`): 1016 points (~50% of grid),
-  defined by:
-  - always-true sanity checks (`has_matter_era`, `smooth_H2`),
-  - late-acceleration / viability mask (`frw_viable`),
-  - with the aggregate data gate `frw_data_ok` *currently closed everywhere*.
-- Within this kernel we already track:
-  - the FRW-viable band,
-  - LCDM-like band,
-  - toy FRW corridor and intersections, as in the Stage 2 FRW belt docs.
+- **Mechanism belt** (Stage 2):
+  - Summary tables over Phase 3 outputs
+    (`mech_baseline_scan.csv`, `mech_binding_certificate.csv`, and
+    related diagnostics).
+  - Smooth, monotone–ish mechanism amplitudes as functions of θ, with a
+    non–trivial “floor” enforced by the non–cancelling penalty but no
+    unique preferred value of the amplitude itself.
 
-**Static FRW kernel helper.**
+- **Joint mech–FRW belt**:
+  - `stage2_joint_theta_grid_v1.csv` combines FRW scalars
+    (`E_vac`, `omega_lambda`, `age_Gyr`) with Phase 3 amplitudes on a
+    common θ grid, revealing strong correlations but no extra hidden
+    structure beyond the FRW scalars.
 
-The helper:
+- **θ★ alignment diagnostic**:
+  - θ★ ≈ φ^φ lies inside the broad FRW–viable band but is not singled
+    out by the current FRW corridor / LCDM–like families.
 
-- `stage2/obstruction_tests/src/build_static_frw_kernel_v1.py`
-- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_v1.csv`
-- `stage2/obstruction_tests/outputs/tables/stage2_obstruction_static_frw_kernel_families_v1.csv`
+- **Obstruction helpers** (this branch):
+  - Static pre–data FRW kernel:
+    `stage2_obstruction_static_frw_kernel_v1.csv` (1016 points).
+  - Toy and external–style corridors on that kernel:
+    - toy LT corridor from the LCDM box,
+    - external LT corridor v1 (LCDM–shaped),
+    - external age corridor v2 (12–15 Gyr),
+    - age / expansion / structure proxies (broad and tight bands),
+    summarised in
+    `stage2_obstruction_toy_lt_corridor_from_lcdm_box_summary_v1.csv`,
+    `stage2_obstruction_external_lt_corridor_summary_v1.csv`,
+    `stage2_obstruction_external_age_corridor_summary_v2.csv`,
+    `stage2_obstruction_external_age_expansion_summary_v1.csv`;
+  - Kernel with attached Phase 3 amplitudes:
+    `stage2_obstruction_kernel_with_mech_v1.csv`;
+  - Mech–vs–external summary:
+    `stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`.
 
-collects, on a single θ-grid, the Phase 4 scalars
-(`E_vac`, `omega_lambda`, `age_Gyr`) and the existing FRW masks and families,
-and makes the pre-data kernel explicit as a reusable testbed.
-
-**Toy and external corridors.**
-
-On top of this kernel we have several Stage 2 obstruction helpers:
-
-- Toy late-time corridor from the LCDM box:
-  - `build_toy_lt_corridor_from_lcdm_box_v1.py`
-  - `stage2_obstruction_toy_lt_corridor_from_lcdm_box_v1.csv`
-  - `stage2_obstruction_toy_lt_corridor_from_lcdm_box_summary_v1.csv`
-- External-style late-time corridor (LCDM-shaped box):
-  - `apply_external_lt_corridor_v1.py`
-  - `stage2_obstruction_external_lt_corridor_v1.csv`
-  - `stage2_obstruction_external_lt_corridor_summary_v1.csv`
-- External-style age corridors:
-  - v1 (broad / trivial band) and v2 (non-trivial 12–15 Gyr band),
-    with tables and summaries under:
-    - `stage2_obstruction_external_age_corridor_v1.csv`,
-    - `stage2_obstruction_external_age_corridor_v2.csv`.
-- Age + expansion + structure proxies:
-  - `apply_external_age_expansion_corridors_v1.py`
-  - `stage2_obstruction_external_age_expansion_corridors_v1.csv`
-  - `stage2_obstruction_external_age_expansion_summary_v1.csv`,
-    defining broad/tight flags for:
-    - age,
-    - expansion (ω_Λ / E_vac–like proxies),
-    - a simple “structure-friendly” proxy combined from the above.
-
-These helpers define a family of *static corridors* living entirely on the
-existing θ-grid and vacuum/FRW scalars; they are deliberately simple and
-transparent.
-
-**Mechanism amplitudes on the kernel.**
-
-Using the locked joint mech–FRW table:
-
-- `stage2/joint_mech_frw_analysis/outputs/tables/stage2_joint_theta_grid_v1.csv`
-
-we attach the Phase 3 mechanism amplitudes to the static kernel:
-
-- `attach_mech_amplitudes_to_kernel_v1.py`
-- `stage2_obstruction_kernel_with_mech_v1.csv`
-- `STAGE2_OBSTRUCTION_KERNEL_WITH_MECH_V1.md`
-
-This yields a single θ-grid table carrying:
-
-- FRW scalars and masks,
-- pre-data kernel flag,
-- toy and external corridor flags (age, LT, age+expansion+structure),
-- mech amplitudes:
-  - `mech_baseline_A0`,
-  - `mech_baseline_A_floor`,
-  - `mech_baseline_bound`,
-  - `mech_binding_A0`,
-  - `mech_binding_A`,
-  - `mech_binding_bound`.
-
-Finally, we summarise how these amplitudes behave under the various corridors:
-
-- `analyze_kernel_mech_vs_external_corridors_v1.py`
-- `stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`.
+All of these are downstream helpers: they *read* Phase 3 and Phase 4, but do
+not change the upstream code or claims.
 
 ---
 
-## 2. What survives? (kernel and external corridors)
+## 2. What Stage 2 shows (internal view)
 
-Across all helpers, the current snapshot shows:
+From the **internal FRW and mech belts** alone:
 
-- **Pre-data kernel:**
-  - 1016 / 2048 points (~50% of grid).
-- **External age v2 band (12–15 Gyr):**
-  - 356 kernel points (`KERNEL_AND_EXTERNAL_AGE_V2`),
-  - ~35% of the kernel, ~17% of the grid.
-- **LCDM-shaped LT external box (v1):**
-  - 63 LCDM-like points on the grid, all lying in the kernel.
-- **Toy LT corridor from LCDM box:**
-  - a 63-point LCDM-like island reshaped into a toy late-time corridor,
-  - overlapping the kernel and existing FRW corridor families.
-- **Joint “sweet subset”:**
-  - `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2`:
-    - 40 points,
-    - in the kernel,
-    - in the LCDM-like band,
-    - in the toy LT box from LCDM,
-    - in the external age v2 band.
-- **Tight age + expansion + structure proxy:**
-  - `KERNEL_AGE_TIGHT_EXP_STRUCT_TIGHT`:
-    - 51 kernel points,
-    - satisfying the tight age band, tight expansion proxy, and tight structure proxy simultaneously.
+1. There is a **non–trivial FRW–viable band** on the θ grid
+   (≈ half the points satisfy the internal viability checks).
 
-Interpretation:
+2. Within that band, Phase 3 mechanism amplitudes form **smooth, bounded,
+   non–degenerate profiles** over θ:
+   - amplitudes are neither forced to zero nor to their hard bounds,
+   - the non–cancelling penalty enforces a floor but does *not* yet
+     pick a unique θ or amplitude.
 
-- The **pre-data kernel is not fragile**:
-  - even after applying a non-trivial age window and simple expansion/structure proxies,
-    we retain O(10–30%) of the kernel.
-- The **40-point “sweet subset”** is a clean, non-empty intersection of:
-  - FRW viability,
-  - LCDM-like behaviour,
-  - toy LT corridor,
-  - external-style age corridor v2.
-- A slightly different tight combination (age + expansion + structure) yields
-  a comparable 51-point subset.
+3. The **joint mech–FRW analysis** confirms that, on the current grid,
+   mechanism amplitudes are essentially **re–parameterisations of the FRW
+   scalars**:
+   - strong correlations between {E_vac, ω_Λ, age_Gyr} and the mech
+     amplitudes,
+   - no extra hidden structure in the amplitudes once FRW scalars are
+     known.
 
-At this stage, nothing forces the kernel to collapse to zero under these
-simple, physically-motivated cuts. That is already an *obstruction* to a
-completely trivial picture in which “any reasonable external corridor kills
-everything”.
+4. The **FRW data gate** in this snapshot is effectively **closed**:
+   - `frw_viable` provides an internal pre–data corridor,
+   - but `frw_data_ok` is empty, so all FRW results should currently be
+     read as *pre–data diagnostics*.
+
+5. θ★ lies inside the viable band but is not singled out by any existing
+   internal FRW family.
+
+Taken together, the original Stage 2 verdict was:
+
+- The Phase 3 mechanism and Phase 4 FRW toy are **mutually consistent**,
+  with a broad pre–data corridor.
+- Stage 2 does **not** yet provide a canonical θ–measure or a decisive
+  data–conditioned corridor.
 
 ---
 
-## 3. Mechanism amplitudes under the corridors
+## 3. What the obstruction helpers add
 
-From `stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`:
+The obstruction lens asks: *if we start from the pre–data FRW kernel and add
+simple external–style corridors, does anything robust survive without
+asking the mechanism to “cheat” (e.g. collapse to zero or a bound)?*
 
-- On the **full kernel** (1016 points):
-  - the main mechanism amplitudes sit in a narrow mid-band:
-    - `mech_baseline_A0_mean ≈ mech_binding_A0_mean ≈ 0.0533`,
-    - with min/max ranges roughly `[0.0375, 0.0577]`.
-  - binding flags are zero across the kernel in the current snapshot
-    (`mech_baseline_bound = mech_binding_bound = 0`).
-- On the **40-point sweet subset** `KERNEL_LCDM_TOY_AND_EXTERNAL_AGE_V2`:
-  - amplitudes remain firmly in the mid-band:
-    - `mech_baseline_A0_mean ≈ mech_binding_A0_mean ≈ 0.0456`,
-    - with a narrow range `[0.0446, 0.0467]`.
-  - again, binding flags remain zero in this snapshot.
-- On the **tight age+expansion+structure subset**
-  `KERNEL_AGE_TIGHT_EXP_STRUCT_TIGHT` (51 points):
-  - amplitudes are similar:
-    - `mech_baseline_A0_mean ≈ mech_binding_A0_mean ≈ 0.0462`,
-    - range `[~0.0449, ~0.0475]`,
-  - binding flags still zero.
+The current helpers show:
 
-Interpretation:
+1. **Static pre–data kernel**  
+   The kernel (1016 points) already lives in a **moderately high, non–zero
+   mechanism plateau**:
+   - the mean baseline amplitude A₀ over the kernel is higher than over
+     the full grid,
+   - the Phase 3 bound flags are *not* triggered inside the kernel
+     (no bound saturation is required to keep the kernel alive).
 
-- The current obstruction corridors **do not** drive the mechanism to an
-  extreme non-cancelling floor or ceiling:
-  - the sweet subset sits comfortably inside the kernel band,
-    not at its edges;
-  - there is no sign of a “collapse” of amplitudes towards a degenerate
-    value when external-style corridors are applied.
-- At the same time, the sweet subset is **non-empty and structured**:
-  - it occupies a narrow θ-band and a compact region in FRW scalar space,
-    with consistent mechanism amplitudes.
+2. **External age corridor v2 (12–15 Gyr)**  
+   Applying this age band cuts the kernel down to a few hundred points, but:
+   - the surviving set still sits on a **well–behaved amplitude plateau**
+     (no forced collapse to zero, no need to hit the penalty bound),
+   - the amplitudes remain comparable in scale to the broader kernel.
 
-In other words, the obstruction we currently see is **topological / structural**
-rather than a sharp extremal principle in the amplitudes.
+3. **Toy LT and external LT corridors**  
+   Corridors built from the internal LCDM–like island and its box in
+   (E_vac, ω_Λ) carve out:
+   - a modest number of *LCDM–like* kernel points,
+   - still with regular, non–extreme mechanism amplitudes.
 
----
+4. **Tight age + expansion + structure proxies**  
+   Combining the tight age, expansion, and structure–proxy bands leaves:
+   - a small but non–empty set of kernel points,
+   - mechanism amplitudes that remain well inside their allowed ranges,
+     again without being forced to zero or to bounds.
 
-## 4. What is obstructed, and what is still open?
+5. **The 40–point “sweet subset”**  
+   The intersection of:
+   - pre–data kernel,
+   - LCDM–like band,
+   - toy LT corridor,
+   - external age corridor v2,
+   yields ≈ 40 θ–grid points. On this subset:
+   - all external–style filters are simultaneously satisfied,
+   - the mechanism amplitudes still form a **narrow, regular plateau**,
+     numerically similar to the tight–band subsets above.
 
-**Obstructions already visible.**
+In other words:
 
-Within the locked Phase 3 + Phase 4 + Stage 2 stack:
-
-1. It is *not* the case that:
-   - “any reasonable late-time and age-like corridor kills the θ-grid”.
-   - The kernel survives multiple, simple, physically-motivated cuts.
-2. It is *not* the case that:
-   - “the LCDM-like island is isolated from FRW viability”.
-   - Instead, LCDM-like and viability coexist inside the kernel and
-     participate in the 40-point sweet subset.
-3. It is *not* the case that:
-   - “the mechanism amplitudes behave wildly under external-style cuts”.
-   - On the contrary, they stay in a well-behaved mid-band across
-     kernel and subsets.
-
-These are all **obstructions to triviality** of the current θ-grid + mechanism
-+ FRW toy.
-
-**Open questions (non-claims).**
-
-This snapshot *does not* establish that:
-
-- any particular θ-value, θ-band, or mechanism amplitude level is singled out
-  by realistic external constraints;
-- the 40-point sweet subset (or the 51-point tight subset) is preferred or
-  stable under sharper, data-calibrated corridors;
-- the current mechanism amplitudes define a canonical “measure over θ”.
-
-Those questions are *explicitly deferred* to future work:
-
-- sharper external corridors (better age bounds, expansion histories,
-  structure proxies),
-- Stage II cosmology hosts,
-- and any promotion of obstruction-flavoured statements into phase papers
-  under Phase 0-style gates.
+> With the current toy external corridors, the obstruction lens *does not*
+> find a trivial obstruction where “nothing survives” or where the
+> mechanism is forced into an obviously pathological regime.
 
 ---
 
-## 5. How this feeds forward
+## 4. What is **not** yet shown
 
-This verdict snapshot is used as follows:
+Equally important is what the current Stage 2 + obstruction stack **does not**
+yet establish:
 
-- As a **reference point** for future external corridors:
-  - new corridors must at least be as transparent and auditable as the current
-    toy/external helpers;
-  - any sharpening must be accompanied by a before/after comparison against
-    this snapshot.
-- As a **guardrail** for interpretation:
-  - obstruction language is kept at the diagnostic level until Stage II
-    hosts and data-calibrated corridors justify stronger statements.
-- As a **pointer** for future rungs:
-  - any attempt to promote an obstruction statement into Phase 4 or Phase 5
-    must cite this memo and the underlying Stage 2 tables, and must pass
-    a dedicated promotion gate.
+1. **No canonical θ or amplitude.**  
+   Neither the internal belts nor the external–style helpers (so far) pick
+   out a unique θ or a unique mechanism amplitude. We have non–empty,
+   regular corridors and plateaux, not a sharp selection.
 
-This memo will be superseded by later versions (`_v2`, `_v3`, …) when
-substantive new external corridors, data contacts, or mechanism refinements
-are added.
+2. **No data–fitted external corridors.**  
+   The age and expansion bands used here are **toy external–style cuts**:
+   - they are numerically compatible with a late–time universe of order
+     14 Gyr old and a ΛCDM–like expansion history,
+   - but they are *not* fitted to particular datasets or detailed
+     observational bounds.
 
+3. **No claim that the 40–point subset is preferred.**  
+   The existence of a 40–point sweet subset is a **sanity check**, not a
+   claim of physical optimality. At this stage it is simply:
+   - a small, non–empty region where internal and toy external filters
+     agree,
+   - with mechanism amplitudes that look healthy rather than fine–tuned.
+
+4. **No promotion into phase papers.**  
+   None of the obstruction–flavoured statements are currently promoted
+   into Phase 3–5 papers. They live entirely inside Stage 2 docs and
+   helper tables. Any promotion would require separate, tightly scoped
+   rungs and Phase 0–style gates.
+
+---
+
+## 5. Stage 2 verdict (with obstruction lens)
+
+Given the above, the Stage 2 master verdict is:
+
+1. The Phase 3 mechanism and Phase 4 FRW toy jointly support a **broad,
+   internally consistent pre–data FRW kernel** on the θ grid.
+
+2. When we overlay this kernel with **simple external–style corridors**
+   (age bands, late–time expansion boxes, basic structure proxies), the
+   kernel is **cut but not destroyed**:
+   - non–empty subsets survive even under fairly tight toy cuts,
+   - mechanism amplitudes on these subsets remain regular and bounded,
+     well away from trivial zero or bound–saturation regimes.
+
+3. Within this setup, there is **no obvious obstruction** to the
+   non–cancelling mechanism from the simplest external–style corridors we
+   have tested so far.
+
+4. At the same time, the current stack **does not yet select** a unique
+   θ, a canonical θ–measure, or a single preferred sweet subset; the
+   obstruction tests are still at the “sanity–check corridor” stage.
+
+Stage 2 is therefore **ready but not yet decisive**:
+
+- ready, in the sense that:
+  - the mechanism, FRW toy, and obstruction helpers form a coherent,
+    reproducible diagnostic belt,
+  - there exist non–empty kernel subsets that satisfy non–trivial FRW and
+    toy external filters without breaking the mechanism;
+- not yet decisive, in the sense that:
+  - we have not run data–fitted external corridors,
+  - we have not promoted any particular subset or θ–measure into the phase
+    claims.
+
+---
+
+## 6. Next steps (beyond this verdict)
+
+The natural next steps, outside this doc, are:
+
+1. **Sharpen external corridors.**  
+   Replace toy age / expansion bands with corridors tied to explicit
+   external arguments (e.g. observational bounds, well–motivated w₀–wₐ
+   boxes) and repeat the obstruction analysis.
+
+2. **Host–level questions.**  
+   Design Stage II “cosmology hosts” that ask:
+   - how the pre–data kernel and candidate sweet subsets behave under
+     richer structure / formation proxies,
+   - whether any kernel subset is robust across hosts.
+
+3. **Promotion gates (if warranted).**  
+   Only after sharpened external corridors and host–level tests are in
+   place should any obstruction–flavoured statement be considered for
+   promotion into the phase papers, under explicit contracts and gates.
+
+For now, this verdict locks in Stage 2 as a **diagnostic, obstruction-aware
+belt**: strong enough to show that there is no trivial obstruction, but
+deliberately short of claiming a unique, data–selected θ corridor.

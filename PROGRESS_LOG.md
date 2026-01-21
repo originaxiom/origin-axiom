@@ -7059,3 +7059,25 @@ Status.
 - Purely diagnostic Stage 2 memo; no Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were changed.
 - This rung prepares the ground for a future `STAGE2_OBSTRUCTION_MASTER_VERDICT_v1.md` that will synthesise the obstruction stack once sharpened external corridors are in place.
 
+
+## 2026-01-21 — Stage 2 master verdict (obstruction-aware synthesis)
+
+- Added `stage2/docs/STAGE2_MASTER_VERDICT_v1.md` as a Stage 2 synthesis and
+  verdict document, integrating:
+  - the FRW corridor belt (viability, LCDM-like, shape, data masks),
+  - the Phase 3 mechanism and joint mech–FRW belts,
+  - the θ★ alignment diagnostic,
+  - and the new obstruction helpers (static FRW kernel, toy/external
+    corridors, kernel-with-mech table, mech-vs-external summary).
+- Recorded that:
+  - the current Phase 3 + Phase 4 stack supports a broad, internally
+    consistent pre-data FRW kernel on the θ grid,
+  - simple external-style age/expansion/structure corridors cut but do not
+    destroy this kernel, and the surviving subsets remain in a regular,
+    non-degenerate mechanism amplitude regime,
+  - there is no trivial obstruction of the non-cancelling mechanism by the
+    tested corridors, but no unique θ or θ-measure is yet selected.
+- Clarified that this verdict is strictly Stage 2 diagnostic synthesis:
+  it does not change any Phase 0–5 contracts, FRW masks, or Stage 2
+  promotion gates, and any future promotion of obstruction-flavoured
+  statements into phase papers will require separate, Phase 0–style rungs.
