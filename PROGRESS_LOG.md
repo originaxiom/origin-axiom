@@ -6973,3 +6973,51 @@ Status.
 - The verdict memo is explicitly classified as a Stage 2 diagnostic overlay.
   Any future promotion of obstruction-flavoured statements into phase papers
   will require separate, tightly scoped rungs and Phase 0–style gates.
+
+## 2026-01-21 — Stage 2 obstruction verdict snapshot (O3.1)
+
+Scope. Synthesize the obstruction-program helpers built so far into a
+Stage 2 verdict snapshot, without changing any Phase 0–5 contracts or
+promotion gates.
+
+Files.
+
+- `stage2/docs/STAGE2_MASTER_VERDICT_v1.md`:
+  - Summarises the ingredients of the obstruction stack:
+    - static FRW kernel (`stage2_obstruction_static_frw_kernel_v1` and
+      family table),
+    - toy and external-style corridors (late-time, age, age+expansion
+      and structure proxies),
+    - the 40-point “sweet subset” and the 51-point tight
+      age+expansion+structure subset,
+    - the joined kernel-with-mechanism table and the mech-vs-corridor
+      summary.
+  - Records the main numerical facts from
+    `stage2_obstruction_kernel_mech_vs_external_corridors_summary_v1.csv`:
+    - the pre-data kernel occupies ~50% of the θ-grid,
+    - non-trivial external-style corridors (age v2, LT, combined proxies)
+      leave O(10–30%) of the kernel alive,
+    - the 40-point sweet subset is a clean non-empty intersection of
+      kernel, LCDM-like band, toy LT corridor, and external age v2 band,
+    - mechanism amplitudes over the kernel and over these subsets sit in a
+      well-behaved mid-band (no sharp collapse to an extremal floor or
+      ceiling in the current snapshot).
+  - States explicitly what is currently obstructed (fragility of the kernel,
+    trivial decoupling between FRW and mechanism, wild behaviour of
+    amplitudes) and what remains open (any sharp selection of θ or a
+    canonical mechanism-based measure).
+
+Status and non-claims.
+
+- This rung is **interpretive only**. It adds a Stage 2 synthesis memo and
+  does not modify any Phase 0–5 contracts, FRW masks, or Stage 2 promotion
+  gates.
+- All obstruction statements remain at the diagnostic level: they describe
+  robustness and structure of the static kernel and its subsets under
+  simple toy/external corridors, but make no claim that any particular
+  θ-band or mechanism level is physically preferred.
+- Any future promotion of obstruction-flavoured statements into phase papers
+  will require separate, tightly scoped rungs (Stage 2 → Phase 4/5 promotion
+  gates) and, for genuinely external corridors, contact with Stage II
+  cosmology hosts.
+
