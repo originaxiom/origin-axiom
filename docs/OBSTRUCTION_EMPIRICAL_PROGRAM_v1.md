@@ -64,3 +64,11 @@ Nothing in this memo changes the status of any Phase 0–5 contract or Stage 2 v
 - and corresponding updates to the relevant phase or Stage 2 documentation.
 
 Until such promotions are enacted the obstruction program should be read as a disciplined way of asking questions of the current stack, not as a new set of claims about the universe.
+
+## Minimal ψ–floor toy experiments (Stage 2 internal note)
+
+The Stage 2 obstruction stack now includes a pair of 0D ODE “ψ + floor” toy models, documented in `stage2/docs/STAGE2_OBSTRUCTION_MINIMAL_PSI_FLOOR_TOYS_V1.md`. They are deliberately pre-cosmological: ψ is a generic complex scalar, the floor is a hard norm constraint at |ψ| = ε, and there is no FRW geometry or data.
+
+The toys serve two purposes. First, they force us to distinguish clearly between a static floor and a genuinely frustrated dynamical process: pure dissipation plus a hard floor collapses and freezes on the floor, whereas adding a drive term produces a non-trivial attractor near the floor with the floor itself rarely active. Second, they reinforce that any serious “frustrated-cancellation” story must be carried by explicit dynamics and drive terms, with the floor acting as a constraint, not as an energy source.
+
+These experiments do not change any Phase 0–5 contracts, FRW masks or promotion gates. They are recorded here as an internal conceptual lab that informs how we talk about floors and frustration while the empirical obstruction program itself remains a static analysis on the θ-grid with FRW and external-style corridors.

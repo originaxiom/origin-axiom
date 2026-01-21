@@ -7355,3 +7355,19 @@ Interpretation and non-claims.
 - Wrote `STAGE2_FRUSTRATED_FLOOR_TOY_RESULTS_v1.md` summarising both runs, their parameters, observed statistics, and non-claims.
 - Status: toys are 0D and strictly interpretive, but they provide a concrete picture of “blocked cancellation” that we can later try to abstract into more realistic frustrated-floor constructions.
 
+
+### Rung O2.3 – Minimal ψ–floor toy ODE experiments (obstruction-program-v1, 2026-01-21)
+
+Scope. Add a Stage 2 internal note for the minimal ψ + floor ODE toys and connect their lessons to the obstruction empirical program, without changing any Phase 0–5 contracts or FRW masks.
+
+Files touched.
+- `stage2/docs/STAGE2_OBSTRUCTION_MINIMAL_PSI_FLOOR_TOYS_V1.md`: new note documenting the two 0D ψ–floor toy systems (pure dissipation + floor; dissipation + floor + periodic drive), the numerical behaviour of each, and the resulting interpretation for the “frustrated floor” intuition.
+- `docs/OBSTRUCTION_EMPIRICAL_PROGRAM_v1.md`: appended a short section referencing the ψ–floor toy doc and recording, at empirical-program level, that:
+  - a static floor plus damping alone just freezes dynamics at the floor,
+  - a non-trivial “frustrated” process requires explicit drive terms, with the floor acting as a constraint rather than an engine,
+  - the current obstruction stack on the θ-grid remains a static corridor analysis, and any future Ψ + floor dynamics would need separate, tightly scoped rungs.
+
+Status and non-claims.
+- No FRW masks, θ-grid tables, Stage 2 diagnostics, or promotion gates were modified in this rung.
+- The ψ–floor toys remain explicitly labelled as 0D conceptual experiments with no direct cosmological content.
+- The only change is to make the lessons from these toys explicit in the obstruction documentation so that future dynamic proposals cannot quietly assume that “a floor by itself” is sufficient to model a frustrated universe.
