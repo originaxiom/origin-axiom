@@ -7394,3 +7394,8 @@ Non-claims.
   - Added `apply_planck_like_frw_corridor_v1.py` to attach a Planck-inspired `(age_Gyr, omega_lambda)` box on the static FRW kernel.
   - Wrote `stage2_obstruction_planck_like_corridor_v1.csv` and a summary table reporting overlaps with the pre-data kernel, LCDM-like band, and toy FRW corridor.
   - Documented the helper and its non-claims in `stage2/docs/STAGE2_OBSTRUCTION_PLANCK_LIKE_CORRIDOR_V1.md` as a Stage 2 diagnostic only.
+
+- 2026-01-25 – Stage2/obstruction (D3): quantify gap to Planck-like FRW band
+  - Added `analyze_planck_like_gap_v1.py` to inspect how the pre-data kernel and the 40-point sweet subset sit relative to the Planck-like `(age_Gyr, omega_lambda)` box.
+  - Wrote `stage2_obstruction_planck_like_gap_summary_v1.csv` with the closest kernel and sweet-subset points in FRW space.
+  - This confirms that the v1 Planck-like band is empty for the current static kernel and treats this as a diagnostic constraint, not as a fatal obstruction.

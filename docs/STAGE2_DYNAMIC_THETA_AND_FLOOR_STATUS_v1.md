@@ -258,3 +258,11 @@ This note does **not** claim that:
 
 It is a status report on the internal numerical and conceptual situation of the obstruction program, intended to keep future work honest and reproducible.
 
+
+### D3 – Gap to a Planck-like FRW band
+
+The helper `apply_planck_like_frw_corridor_v1.py` attaches a narrow, Planck-inspired band in the `(age_Gyr, omega_lambda)` plane to the static FRW kernel. In the current snapshot this band is empty: no grid point in the 2048-point θ grid, and no point in the pre-data kernel or 40-point sweet subset, lies inside the toy Planck-like box.
+
+To make this more quantitative we introduced `analyze_planck_like_gap_v1.py`, which reports how the kernel and sweet subset sit relative to that box and writes a small summary table (`stage2_obstruction_planck_like_gap_summary_v1.csv`) with the closest points in FRW space. The result is that the present kernel lives near but outside a realistic Planck-like band; the emptiness of `in_planck_like_corridor_v1` is therefore interpreted as a diagnostic of the current FRW toy pipeline rather than as a final obstruction verdict.
+
+In other words, a realistic late-time corridor tied to Planck central values already pushes us into a regime where the static kernel as currently constructed misses the band entirely. This is one of the motivations for the “dynamic θ and frustrated floor” strand: rather than forcing a static θ to hit a Planck-like box, we will explore whether an evolving θ(t) plus a non-cancellation floor can generate compatible late-time effective parameters while remaining faithful to the obstruction picture.
