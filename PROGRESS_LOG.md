@@ -7371,3 +7371,21 @@ Status and non-claims.
 - No FRW masks, θ-grid tables, Stage 2 diagnostics, or promotion gates were modified in this rung.
 - The ψ–floor toys remain explicitly labelled as 0D conceptual experiments with no direct cosmological content.
 - The only change is to make the lessons from these toys explicit in the obstruction documentation so that future dynamic proposals cannot quietly assume that “a floor by itself” is sufficient to model a frustrated universe.
+
+## 2026-01-21 – Stage2/obstruction D1: dynamic-θ and floor status note
+
+Branch: obstruction-program-v1
+
+Scope.
+- Added `docs/STAGE2_DYNAMIC_THETA_AND_FLOOR_STATUS_v1.md` as an internal interpretive note for the obstruction program and dynamic-θ / frustrated-floor explorations.
+
+What changed.
+- Summarised the trusted numerical backbone: static FRW kernel, 40-point sweet subset, θ\* position, and non-cancellation floor statistics from Stage 2 obstruction helpers.
+- Recorded the actual lessons from the ψ-floor toy ODEs (no-drive and driven versions), emphasising their role as diagnostics rather than physical mechanisms.
+- Clarified policy for external AI campaigns and off-repo analyses: treated as exploratory scratch work unless re-implemented inside this repo under explicit rungs.
+- Fixed an internal stance on the obstruction picture, θ\*, and the floor in light of current evidence, and set constraints for future D2/D3-style rungs (no floor-only stories, no unexplained drive terms, repo-or-it-didn’t-happen).
+
+Non-claims.
+- No Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were changed.
+- The note does not promote θ\*, the floor, or any ψ toy to a physical claim; it only records the internal numerical and conceptual status of the obstruction program as of this rung.
+
