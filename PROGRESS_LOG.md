@@ -7399,3 +7399,15 @@ Non-claims.
   - Added `analyze_planck_like_gap_v1.py` to inspect how the pre-data kernel and the 40-point sweet subset sit relative to the Planck-like `(age_Gyr, omega_lambda)` box.
   - Wrote `stage2_obstruction_planck_like_gap_summary_v1.csv` with the closest kernel and sweet-subset points in FRW space.
   - This confirms that the v1 Planck-like band is empty for the current static kernel and treats this as a diagnostic constraint, not as a fatal obstruction.
+
+- 2026-01-25 – Stage2/obstruction (D4): Planck-near FRW shell vs mechanism and floor (v1)
+  - Added `analyze_planck_like_shell_mech_floor_v1.py` to define a small Planck-near shell
+    in `(age_Gyr, omega_lambda)` around (13.8, 0.69) for the static FRW kernel and to
+    summarise how the Phase 3 mechanism amplitudes and the non-cancellation floor behave
+    on that shell.
+  - Wrote `stage2_obstruction_planck_like_shell_mech_floor_summary_v1.csv` with counts
+    and amplitude statistics for `PRE_DATA_KERNEL`, `PLANCK_NEAR_SHELL_V1`, and
+    `PLANCK_NEAR_SHELL_AND_FLOOR_V1`.
+  - Documented the construction and non-claims in
+    `stage2/docs/STAGE2_OBSTRUCTION_PLANCK_LIKE_SHELL_MECH_FLOOR_V1.md` as a Stage 2
+    diagnostic only, feeding into later dynamic-theta and frustrated-floor rungs.
