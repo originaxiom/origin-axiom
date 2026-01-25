@@ -7389,3 +7389,8 @@ Non-claims.
 - No Phase 0–5 contracts, FRW masks, or Stage 2 promotion gates were changed.
 - The note does not promote θ\*, the floor, or any ψ toy to a physical claim; it only records the internal numerical and conceptual status of the obstruction program as of this rung.
 
+
+- 2026-01-25 · Stage2/obstruction (D2): add Planck-like FRW corridor helper (v1)
+  - Added `apply_planck_like_frw_corridor_v1.py` to attach a Planck-inspired `(age_Gyr, omega_lambda)` box on the static FRW kernel.
+  - Wrote `stage2_obstruction_planck_like_corridor_v1.csv` and a summary table reporting overlaps with the pre-data kernel, LCDM-like band, and toy FRW corridor.
+  - Documented the helper and its non-claims in `stage2/docs/STAGE2_OBSTRUCTION_PLANCK_LIKE_CORRIDOR_V1.md` as a Stage 2 diagnostic only.
