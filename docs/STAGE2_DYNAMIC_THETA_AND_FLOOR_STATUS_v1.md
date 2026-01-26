@@ -266,3 +266,52 @@ The helper `apply_planck_like_frw_corridor_v1.py` attaches a narrow, Planck-insp
 To make this more quantitative we introduced `analyze_planck_like_gap_v1.py`, which reports how the kernel and sweet subset sit relative to that box and writes a small summary table (`stage2_obstruction_planck_like_gap_summary_v1.csv`) with the closest points in FRW space. The result is that the present kernel lives near but outside a realistic Planck-like band; the emptiness of `in_planck_like_corridor_v1` is therefore interpreted as a diagnostic of the current FRW toy pipeline rather than as a final obstruction verdict.
 
 In other words, a realistic late-time corridor tied to Planck central values already pushes us into a regime where the static kernel as currently constructed misses the band entirely. This is one of the motivations for the “dynamic θ and frustrated floor” strand: rather than forcing a static θ to hit a Planck-like box, we will explore whether an evolving θ(t) plus a non-cancellation floor can generate compatible late-time effective parameters while remaining faithful to the obstruction picture.
+
+### D4 – Planck-near shell vs mechanism and non-cancellation floor (v1)
+
+The helper `analyze_planck_like_shell_mech_floor_v1.py` defines a small
+**Planck-near shell** in the FRW plane around the Planck-like point
+\((\text{age}_\text{Gyr}, \omega_\Lambda) \approx (13.8, 0.69)\), using:
+
+- age\_Gyr in \([13.6, 14.0]\),
+- \(\omega_\Lambda\) in \([0.60, 0.78]\).
+
+For the current static FRW kernel and Phase 3 mechanism amplitudes the summary is:
+
+- **PRE_DATA_KERNEL:** 1016 points (by definition 100% of the kernel).
+- **PLANCK_NEAR_SHELL_V1:** 18 points in the shell  
+  (≈0.9% of the full grid, ≈1.8% of the kernel).
+- **PLANCK_NEAR_SHELL_AND_FLOOR_V1:** 10 points in the shell that also satisfy
+  the non-cancellation floor on `mech_baseline_A0` (A0 ≥ 0.045)  
+  (≈0.5% of the grid, ≈1.0% of the kernel).
+
+On this shell the mechanism amplitudes behave as follows:
+
+- For the full pre-data kernel, `mech_baseline_A0` has mean ≈ 0.0533.
+- On `PLANCK_NEAR_SHELL_V1`, `mech_baseline_A0` lies in ≈[0.0446, 0.0455] with
+  mean ≈ 0.0450 – sitting right at the imposed floor threshold.
+- On `PLANCK_NEAR_SHELL_AND_FLOOR_V1`, `mech_baseline_A0` lies in the same
+  narrow band with mean ≈ 0.04525.
+
+Interpretation in the obstruction lens:
+
+- The strict Planck-like box introduced in D2/D3 is **empty** for the present
+  static kernel, but there exists a thin **Planck-near shell** in which the FRW
+  solutions are viable and the mechanism amplitudes are non-zero and pinned to
+  the floor.
+- The non-cancellation floor as implemented in Stage 2 is therefore **not** a
+  fatal obstruction to Planck-like late-time parameters. Instead, it selects a
+  narrow band of Planck-near configurations with a small but non-zero
+  mechanism amplitude.
+
+In the dynamic-θ and frustrated-floor strand this is treated as:
+
+- evidence that the static θ-grid, as currently implemented, lives near but
+  outside a realistic Planck-like corridor, and
+- motivation to explore whether an **evolving θ(t)**, together with a
+  non-cancellation floor, can yield effective late-time parameters compatible
+  with Planck while remaining faithful to the obstruction picture.
+
+This remains strictly a **Stage 2 diagnostic**. It does not alter any Phase 0–5
+claims, FRW masks, or promotion gates, and it does not yet promote any
+Planck-linked obstruction statement to a phase paper.

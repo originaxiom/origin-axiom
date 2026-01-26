@@ -7411,3 +7411,13 @@ Non-claims.
   - Documented the construction and non-claims in
     `stage2/docs/STAGE2_OBSTRUCTION_PLANCK_LIKE_SHELL_MECH_FLOOR_V1.md` as a Stage 2
     diagnostic only, feeding into later dynamic-theta and frustrated-floor rungs.
+
+- 2026-01-25 – Stage2/obstruction (D5): fold Planck-near shell diagnostics into dynamic-θ status
+  - Extended `STAGE2_DYNAMIC_THETA_AND_FLOOR_STATUS_v1.md` with a summary of the
+    Planck-near shell vs mechanism/floor results from
+    `stage2_obstruction_planck_like_shell_mech_floor_summary_v1.csv`.
+  - Recorded that a thin Planck-near FRW shell exists in the static kernel, and
+    that roughly half of those shell points also satisfy the non-cancellation
+    floor, motivating a separate dynamic-θ + floor exploration strand.
+  - No new code or tables; this rung closes the D-block of Planck-linked
+    diagnostics for the obstruction program.
