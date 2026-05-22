@@ -137,5 +137,25 @@ See `ROADMAP.md`. Phase B is quarantined in `frontier/` and gated.
 
 ---
 
+## 2026-05-22 — Phase B / probe B3: figure-eight triangulation & the 4D Regge question
+
+**Frontier work — observations, not claims.** (`GOVERNANCE.md` §5.)
+
+- Ran `frontier/B3_regge_complex/probe.py`.
+- **Solid:** the figure-eight's 3D ideal triangulation (2 regular ideal
+  tetrahedra, 2 edges, 4 faces, 1 cusp) and its Regge edge check — six `π/3`
+  dihedral angles meet at each edge, sum `2π`, **deficit 0**: the complete
+  hyperbolic structure is the zero-deficit Regge solution. Exact.
+- **Clarifying negative:** the handoff's "Step 5A" — *build a 4D Regge complex by
+  stacking figure-eight slices by A* — is **not a defined construction**. It
+  supplies no 4-manifold and no 4-simplices. The path 5A→5C→Einstein has an
+  undefined first step.
+- **Pattern across B1–B3:** in each probe the well-defined content is exact and
+  real, while the bridge to 3+1 gravity rests on a step asserted but not
+  constructed. That is the genuine open problem (O1–O3) — not a computation away.
+- **No claim promoted.** O1–O9 remain `open`. See `frontier/B3_regge_complex/README.md`.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
