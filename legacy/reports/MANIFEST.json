@@ -1,0 +1,508 @@
+{
+  "created_at": "2026-05-21T18:17:46.223838Z",
+  "description": "Master ZIP containing all previously generated Origin Axiom bundle ZIPs, plus selected standalone reports/notes.",
+  "bundle_count": 62,
+  "standalone_file_count": 21,
+  "bundles": [
+    {
+      "filename": "origin_axiom_all_batches_bundle.zip",
+      "size_bytes": 235383,
+      "sha256": "be60ccb0565b80a3386d12a382ca1bc91e50a270e72a0b6ad9e0f8a36e564c15",
+      "archive_path": "bundles/origin_axiom_all_batches_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_axiom_pressure_test_suite_bundle.zip",
+      "size_bytes": 128026,
+      "sha256": "5855b09735106889a3de74bdef241b0f0eb1e871c78963640940e18c478b2164",
+      "archive_path": "bundles/origin_axiom_axiom_pressure_test_suite_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_boundary_axiom_derivation_bundle.zip",
+      "size_bytes": 115142,
+      "sha256": "28b81ae63cb2cd687a9173ecfdd692fb1bd6bf4c462dacfe732feabf838d9006",
+      "archive_path": "bundles/origin_axiom_boundary_axiom_derivation_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_boundary_bulk_gluing_bundle.zip",
+      "size_bytes": 312965,
+      "sha256": "6ae049a694ccedb3053dff19d4a320646d4a7724046a00f70f4269076f6c32a9",
+      "archive_path": "bundles/origin_axiom_boundary_bulk_gluing_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_boundary_hilbert_spaces_bundle.zip",
+      "size_bytes": 444311,
+      "sha256": "468cb8c9bf740b3153ea8bd0c15ec32e3c63266b82a296e6e76e48609bbafcf3",
+      "archive_path": "bundles/origin_axiom_boundary_hilbert_spaces_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_causal_record_lattice_bundle.zip",
+      "size_bytes": 364674,
+      "sha256": "c596d42ea63b0fe90bf3039bd1cb92882faabc981ff1dcd21ccccbc2e9921246",
+      "archive_path": "bundles/origin_axiom_causal_record_lattice_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_corrected_boundary_bulk_paper_bundle.zip",
+      "size_bytes": 14709,
+      "sha256": "b7d1638d699da1766577f2019dff7d2eb00e649426efbd5a1cbf905f7c7a9301",
+      "archive_path": "bundles/origin_axiom_corrected_boundary_bulk_paper_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_cosmological_constant_audit_bundle.zip",
+      "size_bytes": 138225,
+      "sha256": "07d307aa346f364c6b14252a5c55a6afe632fec5e73c758b97dd5f0ce2484c83",
+      "archive_path": "bundles/origin_axiom_cosmological_constant_audit_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_desitter_boundary_records_bundle.zip",
+      "size_bytes": 145973,
+      "sha256": "18cd0314f11d3c3d01ea013e00732d66291070b924cc1dd61949257c48193b32",
+      "archive_path": "bundles/origin_axiom_desitter_boundary_records_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_dirac_factorization_test_bundle.zip",
+      "size_bytes": 349657,
+      "sha256": "1a7feee09ae08365ca01a8a3a5dd77b804a4bc6c0a6695e06efa5806b985d6b9",
+      "archive_path": "bundles/origin_axiom_dirac_factorization_test_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_discrete_action_dynamics_bundle.zip",
+      "size_bytes": 174773,
+      "sha256": "6aa1d8d234f53672d73622cfb790f3677dabb2f84edc6695e11063ff178d1d35",
+      "archive_path": "bundles/origin_axiom_discrete_action_dynamics_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_empirical_anchor_note_v1_bundle.zip",
+      "size_bytes": 5215,
+      "sha256": "fec7d78224ec3c2044a6d30e1f9428d51190ea8989b647e4b98c827d34c9499f",
+      "archive_path": "bundles/origin_axiom_empirical_anchor_note_v1_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_empirical_anchor_scan_bundle.zip",
+      "size_bytes": 1366203,
+      "sha256": "e177d94fa74714dcd3d793c12daffbfa9279b6baf2e8e31b5e74ec70be3f620b",
+      "archive_path": "bundles/origin_axiom_empirical_anchor_scan_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_fibonacci_anyon_anchor_bundle.zip",
+      "size_bytes": 323685,
+      "sha256": "abd7314713690b022541cbb3224fad28789c2f117963f068897810f917cdbae3",
+      "archive_path": "bundles/origin_axiom_fibonacci_anyon_anchor_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_fibonacci_modular_monodromy_bundle.zip",
+      "size_bytes": 255612,
+      "sha256": "64d2248b333a6bc75774840edaa7778495e2d1be1ba3dda962b8ca634e0ac562",
+      "archive_path": "bundles/origin_axiom_fibonacci_modular_monodromy_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_fibonacci_tv_local_bundle.zip",
+      "size_bytes": 139942,
+      "sha256": "013c33e39c6ea4bb37aaccb55ce59058effa9ebd59152fa520bcbf97f0914a29",
+      "archive_path": "bundles/origin_axiom_fibonacci_tv_local_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_field_limit_derivation_bundle.zip",
+      "size_bytes": 331824,
+      "sha256": "4b7149d998550cd56459f3b4d5012df8f1fa66180a8b303b3503413be6238a6b",
+      "archive_path": "bundles/origin_axiom_field_limit_derivation_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_fusion_operator_lock_bundle.zip",
+      "size_bytes": 264866,
+      "sha256": "0aab5967821f715752ba4393bcf710032dbad8b5945bada64bde1541b03ce262",
+      "archive_path": "bundles/origin_axiom_fusion_operator_lock_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G1_stochastic_simulator_bundle.zip",
+      "size_bytes": 235362,
+      "sha256": "0580c2df3bd88635d9972c08c361c944232ab17b020f2b07a10c759e0101778d",
+      "archive_path": "bundles/origin_axiom_gate_G1_stochastic_simulator_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G2_ising_observable_protocol_bundle.zip",
+      "size_bytes": 265814,
+      "sha256": "2ad24c3ee205748b91d174b30bd7ecd45b718d5b76389c7cc06fd852abd699e0",
+      "archive_path": "bundles/origin_axiom_gate_G2_ising_observable_protocol_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G3B_zimm_bragg_reality_search_bundle.zip",
+      "size_bytes": 5562,
+      "sha256": "8f2885e05c1f49251db1ddd9de221128b4820a1cb9d0de986d0b2f4d3e7fe0f3",
+      "archive_path": "bundles/origin_axiom_gate_G3B_zimm_bragg_reality_search_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G3C_engineered_zimm_bragg_simulation_bundle.zip",
+      "size_bytes": 284257,
+      "sha256": "9ae13d89a3a32cf9535ff815af66aabb6ba5662e1bba324b064c17c79ab64cc1",
+      "archive_path": "bundles/origin_axiom_gate_G3C_engineered_zimm_bragg_simulation_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G3_zimm_bragg_realism_bundle.zip",
+      "size_bytes": 5269164,
+      "sha256": "ba2cce19229345531a69e938348a7a976e33ad0d5ea796870eab91a2ad0083ad",
+      "archive_path": "bundles/origin_axiom_gate_G3_zimm_bragg_realism_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G4B_f_symbol_associativity_bundle.zip",
+      "size_bytes": 76135,
+      "sha256": "b95543c6a08107eaca6aee55022f95e3539f4c4141193f3031e16dc6d198eca9",
+      "archive_path": "bundles/origin_axiom_gate_G4B_f_symbol_associativity_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G4C2_phi_switch_bias_bundle.zip",
+      "size_bytes": 124531,
+      "sha256": "6c2f6c0fd5c60e5bc06df484a24532bc639d0635a9dcdd91f5d62feaa1e96c9c",
+      "archive_path": "bundles/origin_axiom_gate_G4C2_phi_switch_bias_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G4C3_perron_transition_rule_bundle.zip",
+      "size_bytes": 13847,
+      "sha256": "e0708320b646114b07011701ab55f3be7cf6859a658a22563979b1eb9e89748f",
+      "archive_path": "bundles/origin_axiom_gate_G4C3_perron_transition_rule_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G4C_probability_bridge_bundle.zip",
+      "size_bytes": 193129,
+      "sha256": "2032c2ba639d8560cb7e79bf867765438f4c42474faa8134b13b802a7fdae06f",
+      "archive_path": "bundles/origin_axiom_gate_G4C_probability_bridge_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G4D_r_symbol_braiding_audit_bundle.zip",
+      "size_bytes": 8348,
+      "sha256": "d0d2a99b4dcf2a506a830de87c589753b6d033c18e75f7545d38f5ab5362dfdb",
+      "archive_path": "bundles/origin_axiom_gate_G4D_r_symbol_braiding_audit_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G4_record_to_fibonacci_fusion_bundle.zip",
+      "size_bytes": 146611,
+      "sha256": "03bb185bc29df2151a2e76e3001568793d1b826e814a846dc034df63baa6a9d9",
+      "archive_path": "bundles/origin_axiom_gate_G4_record_to_fibonacci_fusion_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gate_G5_post_G4D_reality_update_bundle.zip",
+      "size_bytes": 7431,
+      "sha256": "ca9a6a9e099e987671dfca09a2012422d85bcfbe76091e718b36808572cefa8b",
+      "archive_path": "bundles/origin_axiom_gate_G5_post_G4D_reality_update_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_gibbs_record_path_ensemble_bundle.zip",
+      "size_bytes": 551334,
+      "sha256": "7a141d94a770b6d7044faaa0f0dc7c4e35209ee3fb9404535c9e5894ab0eeecb",
+      "archive_path": "bundles/origin_axiom_gibbs_record_path_ensemble_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_handoff_bundle.zip",
+      "size_bytes": 247886,
+      "sha256": "dab5ed2eb47ce0dd569a1e09f4e682b6f5f243e8ab6b9e0e3561d44fd3cdd5e0",
+      "archive_path": "bundles/origin_axiom_handoff_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_incidence_reconstruction_sieve_v2_bundle.zip",
+      "size_bytes": 144932,
+      "sha256": "47e0fa7f297fbba1e77d00c89d5764a45836cf6d06e9caf4d368abeeb45242a9",
+      "archive_path": "bundles/origin_axiom_incidence_reconstruction_sieve_v2_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_latex_source_bundle.zip",
+      "size_bytes": 444889,
+      "sha256": "4c0e31a271b05bf03eab0bc242a655424fae0fa4d9af2ca22598636821b88e59",
+      "archive_path": "bundles/origin_axiom_latex_source_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_layered_flip_geometry_bundle.zip",
+      "size_bytes": 120335,
+      "sha256": "0139f893ad95bda9b8a01aa569c6a7b05cb65deb8debfabc7b43451e639c5bb8",
+      "archive_path": "bundles/origin_axiom_layered_flip_geometry_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_local_adjacency_repair_bundle.zip",
+      "size_bytes": 251730,
+      "sha256": "d9e08155b39070befee651887967c9449a858cec4cc979470aabddd1f60f304d",
+      "archive_path": "bundles/origin_axiom_local_adjacency_repair_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_lorentzian_gluing_audit_bundle.zip",
+      "size_bytes": 3046,
+      "sha256": "4613fca55e5148acf6a231bad85ebd1d633481b1d11de5a7e35f54d096c1579d",
+      "archive_path": "bundles/origin_axiom_lorentzian_gluing_audit_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_low_energy_eft_rg_bundle.zip",
+      "size_bytes": 438495,
+      "sha256": "9b57da037a83d61c2153791b903e1b1154301925182892a441fc1e34e21c7bea",
+      "archive_path": "bundles/origin_axiom_low_energy_eft_rg_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_many_record_criticality_bundle.zip",
+      "size_bytes": 395737,
+      "sha256": "7d46b0a46277a5e30336b48f47ac5725c99f65e66ed9515c79c8d800500a6e33",
+      "archive_path": "bundles/origin_axiom_many_record_criticality_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_mapping_torus_homology_audit_bundle.zip",
+      "size_bytes": 215147,
+      "sha256": "55170868845629e5b227c51c0588247197c5bfd934f4c4d1309800d37b6d771b",
+      "archive_path": "bundles/origin_axiom_mapping_torus_homology_audit_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_multi_step_gluing_partition_bundle.zip",
+      "size_bytes": 211123,
+      "sha256": "9f338f1d68d89e1e3b13369abfcfce15f627d2b2b914baf9c65834cdc755bbeb",
+      "archive_path": "bundles/origin_axiom_multi_step_gluing_partition_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_neumann_zagier_torsion_audit_bundle.zip",
+      "size_bytes": 68720,
+      "sha256": "0f93943ba36fa089b47dfe480fd7400eceb6c6558e9f3ffc9fceb910b040a340",
+      "archive_path": "bundles/origin_axiom_neumann_zagier_torsion_audit_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_nz_incidence_bridge_bundle.zip",
+      "size_bytes": 77875,
+      "sha256": "19d7835c152b2491625eccf41224eaac3317a45bf37c65c3c274b217e77e0a4b",
+      "archive_path": "bundles/origin_axiom_nz_incidence_bridge_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_parabolic_boundary_sector_bundle.zip",
+      "size_bytes": 419085,
+      "sha256": "72ae447976d501b2f35b3c691fe04ecedf923d55962a5aa57c50d23afcefdccf",
+      "archive_path": "bundles/origin_axiom_parabolic_boundary_sector_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_physical_anchor_roadmap_bundle.zip",
+      "size_bytes": 8531,
+      "sha256": "e77fb8e9f8e478b009999d293d7e5507cfc13b8d764526dbc51deb747bd49eb7",
+      "archive_path": "bundles/origin_axiom_physical_anchor_roadmap_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_punctured_torus_census_bundle.zip",
+      "size_bytes": 2501465,
+      "sha256": "b152395c5296e3b6a53dd57756550eb1bba8100ab7151b8469a64d86f9ce35af",
+      "archive_path": "bundles/origin_axiom_punctured_torus_census_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_rank2_categorifiability_filter_bundle.zip",
+      "size_bytes": 123075,
+      "sha256": "c126e3008eb4f8d5b64dc9486aad324760a1447ec55940db158e0956c0482efd",
+      "archive_path": "bundles/origin_axiom_rank2_categorifiability_filter_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_rank2_verlinde_lock_bundle.zip",
+      "size_bytes": 204786,
+      "sha256": "82777567c7dd2ecab129141f6f375df043bda153d609dc314a847d18c22e6241",
+      "archive_path": "bundles/origin_axiom_rank2_verlinde_lock_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_reality_check_v1_bundle.zip",
+      "size_bytes": 10913,
+      "sha256": "c293c4fd92ba22d89743789005922d1dc44d90279cd4c0e3c3ddb6bdf2f6328b",
+      "archive_path": "bundles/origin_axiom_reality_check_v1_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_record_gas_bundle.zip",
+      "size_bytes": 267574,
+      "sha256": "cc663e282a395a2d573929dca56c3b2d83b9d64cd50d42f2cddb0d4f04ff5886",
+      "archive_path": "bundles/origin_axiom_record_gas_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_record_transfer_model_bundle.zip",
+      "size_bytes": 5500644,
+      "sha256": "2274895b055c338c2866a04b4d2451e20135c0a8386577b5b8b009bbb49ac261",
+      "archive_path": "bundles/origin_axiom_record_transfer_model_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_spacetime_emergence_recalc_bundle.zip",
+      "size_bytes": 156268,
+      "sha256": "b9c7f27ed6b2c236b1b175d83344ccf8d255495b35c21d6fb97579491d907211",
+      "archive_path": "bundles/origin_axiom_spacetime_emergence_recalc_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_step_1C_lattice_field_bundle.zip",
+      "size_bytes": 202634,
+      "sha256": "62fe0412547a9fb2fe9f5cd5b4ad67ee0dbbbc48e6d27bae7b965be733effcbc",
+      "archive_path": "bundles/origin_axiom_step_1C_lattice_field_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_steps_1B_3A_4A_bundle.zip",
+      "size_bytes": 131026,
+      "sha256": "ba8bfd4b6002839a9d4cce576bd67960a2348ec40aac8b98e66c52206beb12b4",
+      "archive_path": "bundles/origin_axiom_steps_1B_3A_4A_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_tetrahedron_shape_gluing_bundle.zip",
+      "size_bytes": 93091,
+      "sha256": "a41cda0ee2a4c41bf430e9e119a88e0a6f43d589da682a92908b458f5ee0b143",
+      "archive_path": "bundles/origin_axiom_tetrahedron_shape_gluing_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_thermodynamic_limit_gibbs_bundle.zip",
+      "size_bytes": 366026,
+      "sha256": "deedfef5a57a364f22894d1a091b29d5e54894dc8681b3dbdb43a282277597eb",
+      "archive_path": "bundles/origin_axiom_thermodynamic_limit_gibbs_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_thermodynamic_sieve_bundle.zip",
+      "size_bytes": 907395,
+      "sha256": "3fec722fda42b674a7f5c2a9d5da8bb4d7965287345f38c33e887d5f70cc7e35",
+      "archive_path": "bundles/origin_axiom_thermodynamic_sieve_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_unitary_wick_partner_bundle.zip",
+      "size_bytes": 345537,
+      "sha256": "95eb80d92f49a4e00343a23fd3a556091250f28c4052649ebbff6cf4c48d8a88",
+      "archive_path": "bundles/origin_axiom_unitary_wick_partner_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_v2_source_bundle.zip",
+      "size_bytes": 1457578,
+      "sha256": "051b52839d28bc3148c62be25baee45c59bd02e69c2187dcfbc85ee3d7a610e5",
+      "archive_path": "bundles/origin_axiom_v2_source_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_v3_paper_bundle.zip",
+      "size_bytes": 264918,
+      "sha256": "f731ec7a3df23d59cc1313505309684b577d3b69d7e241d367d0255d693f1c34",
+      "archive_path": "bundles/origin_axiom_v3_paper_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_v4_paper_bundle.zip",
+      "size_bytes": 15485,
+      "sha256": "a495a4b8ae062b5024ab26f7b976ae11eef4a8868b6f8481761a4b6b07bab04f",
+      "archive_path": "bundles/origin_axiom_v4_paper_bundle.zip"
+    },
+    {
+      "filename": "origin_axiom_weighted_parabolic_generalization_bundle.zip",
+      "size_bytes": 219521,
+      "sha256": "ec279735c0e9c1025827c60b0c1684622fb4831c584b6a995cd01c4add015e5f",
+      "archive_path": "bundles/origin_axiom_weighted_parabolic_generalization_bundle.zip"
+    }
+  ],
+  "standalone_files": [
+    {
+      "filename": "EMPIRICAL_ANCHOR_NOTE_v1.md",
+      "size_bytes": 9287,
+      "sha256": "cd08baa73ce5722676346af2d80d42f190f112d233ea25cb8f9c657d53c37877",
+      "archive_path": "standalone_reports/EMPIRICAL_ANCHOR_NOTE_v1.md"
+    },
+    {
+      "filename": "G1_STOCHASTIC_SIMULATOR_REPORT.md",
+      "size_bytes": 2551,
+      "sha256": "56caad89b973bcea4081bb4181ba4b3f7f2c860a62c1ccbfbb371c21dcffb6fb",
+      "archive_path": "standalone_reports/G1_STOCHASTIC_SIMULATOR_REPORT.md"
+    },
+    {
+      "filename": "G2_ISING_OBSERVABLE_PROTOCOL_REPORT.md",
+      "size_bytes": 3078,
+      "sha256": "5e2d52298a6332a38076961c73ffbf78139e56aa421385472955f84f9689d547",
+      "archive_path": "standalone_reports/G2_ISING_OBSERVABLE_PROTOCOL_REPORT.md"
+    },
+    {
+      "filename": "G3B_ZIMM_BRAGG_REALITY_SEARCH_REPORT.md",
+      "size_bytes": 4978,
+      "sha256": "2b9859ba910a5f9865dd4030d65138e67a76ab20637e09e08861363dfea63afe",
+      "archive_path": "standalone_reports/G3B_ZIMM_BRAGG_REALITY_SEARCH_REPORT.md"
+    },
+    {
+      "filename": "G3C_ENGINEERED_ZIMM_BRAGG_SIMULATION_REPORT.md",
+      "size_bytes": 4226,
+      "sha256": "8b2f263a8ac59d295da8f2913099d68de6e2eefa56cbe7c9547695e50b114dc8",
+      "archive_path": "standalone_reports/G3C_ENGINEERED_ZIMM_BRAGG_SIMULATION_REPORT.md"
+    },
+    {
+      "filename": "G3_ZIMM_BRAGG_REALISM_REPORT.md",
+      "size_bytes": 3981,
+      "sha256": "48ec54cc08a77979da63bfbc4b1454db75d60a30611b69d3d0b9f7ba9fc4d530",
+      "archive_path": "standalone_reports/G3_ZIMM_BRAGG_REALISM_REPORT.md"
+    },
+    {
+      "filename": "G4B_F_SYMBOL_ASSOCIATIVITY_AUDIT_REPORT.md",
+      "size_bytes": 4884,
+      "sha256": "6446396ee6e1cb440d6c5ac562e4862d90ef5951fc216b770260088260b3fda2",
+      "archive_path": "standalone_reports/G4B_F_SYMBOL_ASSOCIATIVITY_AUDIT_REPORT.md"
+    },
+    {
+      "filename": "G4C2_PHI_SWITCH_BIAS_REPORT.md",
+      "size_bytes": 4365,
+      "sha256": "80a8c010f17b8c614d2aebf4d98e8dd89863bce34b7cff3eb9a0ab6699fa1957",
+      "archive_path": "standalone_reports/G4C2_PHI_SWITCH_BIAS_REPORT.md"
+    },
+    {
+      "filename": "G4C3_PERRON_TRANSITION_RULE_REPORT.md",
+      "size_bytes": 4653,
+      "sha256": "6a4eb80cb1d914e2d85ef41ce20f238156217fe07a4ce06792fde44f5adb03e3",
+      "archive_path": "standalone_reports/G4C3_PERRON_TRANSITION_RULE_REPORT.md"
+    },
+    {
+      "filename": "G4C_PROBABILITY_BRIDGE_AUDIT_REPORT.md",
+      "size_bytes": 4573,
+      "sha256": "dbf7f7e598eab2b3edcbf61077d8ea983bb69d0aac4427e0164a87a05bf4dfba",
+      "archive_path": "standalone_reports/G4C_PROBABILITY_BRIDGE_AUDIT_REPORT.md"
+    },
+    {
+      "filename": "G4D_R_SYMBOL_BRAIDING_AUDIT_REPORT.md",
+      "size_bytes": 7651,
+      "sha256": "e4cce68ab8ddca0e06317f0310f85844ef3a3bd63e1b005709132f1dc75bef3e",
+      "archive_path": "standalone_reports/G4D_R_SYMBOL_BRAIDING_AUDIT_REPORT.md"
+    },
+    {
+      "filename": "G4_RECORD_TO_FIBONACCI_FUSION_REPORT.md",
+      "size_bytes": 6421,
+      "sha256": "e556cb37583fc9b8f322f7f67cc9169c4419665c92e749f291f4e228b7d0b160",
+      "archive_path": "standalone_reports/G4_RECORD_TO_FIBONACCI_FUSION_REPORT.md"
+    },
+    {
+      "filename": "G5_REALITY_CHECK_UPDATE_AFTER_G4D.md",
+      "size_bytes": 7911,
+      "sha256": "9c16425d12e4c9b3760169a875d6dac4d126f7b59882d302ac5c7602e257372b",
+      "archive_path": "standalone_reports/G5_REALITY_CHECK_UPDATE_AFTER_G4D.md"
+    },
+    {
+      "filename": "G5_SAFE_CLAIM_SUMMARY.md",
+      "size_bytes": 1245,
+      "sha256": "ef3f8ccc9285e59ce51acd2071a860e1357445af8dfa13b1e58dde7fa80c3ba7",
+      "archive_path": "standalone_reports/G5_SAFE_CLAIM_SUMMARY.md"
+    },
+    {
+      "filename": "ORIGIN_AXIOM_REALITY_CHECK_v1.md",
+      "size_bytes": 14694,
+      "sha256": "74f369b1a70b55dcc089e9022dc532ea817e602cfaee150c57f0439181e10292",
+      "archive_path": "standalone_reports/ORIGIN_AXIOM_REALITY_CHECK_v1.md"
+    },
+    {
+      "filename": "ORIGIN_AXIOM_REALITY_CHECK_v1_SUMMARY.md",
+      "size_bytes": 1362,
+      "sha256": "2916dc684e73727461bba586eb27e9d734c4b953583ff667f7ac3aba974edad6",
+      "archive_path": "standalone_reports/ORIGIN_AXIOM_REALITY_CHECK_v1_SUMMARY.md"
+    },
+    {
+      "filename": "ORIGIN_AXIOM_V4_EXECUTIVE_SUMMARY.md",
+      "size_bytes": 899,
+      "sha256": "f0f7127515c06c70310004dd8a905a2205148f1d4238e980c527795bd9e9c2cd",
+      "archive_path": "standalone_reports/ORIGIN_AXIOM_V4_EXECUTIVE_SUMMARY.md"
+    },
+    {
+      "filename": "ORIGIN_AXIOM_V4_PAPER.md",
+      "size_bytes": 22006,
+      "sha256": "43e5e5713590529be5255b3755fb5b7da0fed2e88485b224df807dc5b22e34b3",
+      "archive_path": "standalone_reports/ORIGIN_AXIOM_V4_PAPER.md"
+    },
+    {
+      "filename": "ORIGIN_AXIOM_V4_PAPER.txt",
+      "size_bytes": 22006,
+      "sha256": "43e5e5713590529be5255b3755fb5b7da0fed2e88485b224df807dc5b22e34b3",
+      "archive_path": "standalone_reports/ORIGIN_AXIOM_V4_PAPER.txt"
+    },
+    {
+      "filename": "RECORD_ANCHOR_PROMOTION_DECISION_v1.md",
+      "size_bytes": 1161,
+      "sha256": "3529647821ae6b8c083edf4f3ecf8084b146a2555ec6edd2f209529cb8dc7916",
+      "archive_path": "standalone_reports/RECORD_ANCHOR_PROMOTION_DECISION_v1.md"
+    },
+    {
+      "filename": "STOCHASTIC_RECORD_SIMULATOR_PROTOCOL_v1.md",
+      "size_bytes": 1098,
+      "sha256": "d2c34f39304d7dde94a4a33733c1115828b77c57d824c4842b3aa02ea78eb2f9",
+      "archive_path": "standalone_reports/STOCHASTIC_RECORD_SIMULATOR_PROTOCOL_v1.md"
+    }
+  ]
+}

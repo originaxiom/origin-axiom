@@ -1,0 +1,10 @@
+# Origin Axiom — core dependencies (see REPRODUCIBILITY.md)
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+matplotlib>=3.7
+pytest>=7.4
+
+# Optional — required only for live SnapPy cross-checks of claim P9.
+# The verified figure-eight constants are hard-coded and tested without it.
+#   pip install snappy

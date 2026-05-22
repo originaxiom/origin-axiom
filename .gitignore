@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- LaTeX build artifacts (keep .tex and final .pdf, ignore intermediates) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Legacy raw binary archive ---
+# The curated TEXT history (papers, logs, reports) IS committed under legacy/.
+# The raw binary archive (zips, large PDFs) is NOT — it is too heavy for git
+# and is preserved separately (see legacy/README.md).
+legacy/raw/
+
+# --- Frontier scratch ---
+# Quarantined speculative work may keep scratch outputs out of git.
+frontier/**/scratch/

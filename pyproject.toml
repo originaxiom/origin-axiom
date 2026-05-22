@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "origin-axiom"
+version = "0.1.0"
+description = "Origin Axiom — consolidated canonical repository: the proven mathematical core."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Dritëro M." }]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "sympy>=1.12", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+# Lets `pytest` import the package without an install step.
+pythonpath = ["src"]
+testpaths = ["tests"]
