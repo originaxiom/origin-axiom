@@ -157,5 +157,40 @@ See `ROADMAP.md`. Phase B is quarantined in `frontier/` and gated.
 
 ---
 
+## 2026-05-22 — Session-3 integration: P11–P13 promoted, probes B4–B5 added
+
+A review from the prior session proposed promoting more computational results.
+Each was evaluated against the promotion gate (`GOVERNANCE.md` §5) rather than
+bulk-imported.
+
+**Promoted to the proven core** (exact algebra, gate passed):
+
+- **P11** — exact sl(2,ℝ) decomposition `log(A) = (log φ²/√5)(H + 2(E+F))`;
+  ratio `d/a = 2`, antisymmetric `(E−F)` component exactly 0.
+- **P12** — the figure-eight gluing equation factors as (Eisenstein)(golden),
+  discriminants −3 and 5.
+- **P13** — `[[1,2],[2,−1]]` (the shape of `log A`) and `G` are isospectral;
+  elementary corollary of P11 + P6.
+
+**Declined for the proven core:** the review's proposed "P14" (Kasner exponents
+at `u = φ`). The Kasner conditions hold for *every* `u`; the only φ-specific
+fact — the golden geometric progression of exponents — is downstream of a
+frontier claim. It belongs in probe B4, not `src/`. Promoting it would smuggle
+an unproven selection into the proven core.
+
+**Added as frontier probes** (observations, not claims):
+
+- **B4** — BKL billiard / Gutzwiller / golden Kasner. The figure-eight orbit is
+  the shortest primitive modular-billiard orbit; the leading Gutzwiller term
+  (37.8% — modest); golden Kasner exponents at `u = φ`. Heavily caveated.
+- **B5** — Wheeler-DeWitt constraint and a `Λ = 2π²/Vol` estimate. The estimate
+  is ~10¹²⁰ off observation and dead-adjacent (cf. D1, D2) — recorded as a
+  documented warning so the path is not silently re-attempted.
+
+Test suite: **39 passed, 1 skipped.** Ledger now: **13 proven, 4 conditional,
+9 open, 10 dead.**
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

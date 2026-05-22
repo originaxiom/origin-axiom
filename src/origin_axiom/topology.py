@@ -53,3 +53,20 @@ SELECTION_FILTERS = (
     "rank-2 categorifiability (Ostrik classification)",
     "Eisenstein triangulation (regular ideal tetrahedra)",
 )
+
+
+def gluing_equation_factorization():
+    """The figure-eight gluing equation, factored exactly  (claim P12).
+
+    The figure-eight's ideal-triangulation gluing equation ``z**2 (z-1)**2 = 1``
+    factors exactly as ``(z**2 - z + 1)(z**2 - z - 1)`` -- an Eisenstein quadratic
+    (discriminant -3) times a golden quadratic (discriminant 5). Pure polynomial
+    algebra; no numerical approximation.
+
+    Returns ``(z, lhs, eisenstein, golden)`` where ``lhs = z**2 (z-1)**2 - 1``.
+    """
+    z = sp.symbols("z")
+    lhs = z**2 * (z - 1) ** 2 - 1
+    eisenstein = z**2 - z + 1
+    golden = z**2 - z - 1
+    return z, lhs, eisenstein, golden

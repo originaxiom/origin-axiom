@@ -53,3 +53,30 @@ def preserves_form(M, form):
 def quadratic_form(form, v):
     """Evaluate the scalar ``v.T * form * v``."""
     return sp.simplify((v.T * form * v)[0, 0])
+
+
+# --- sl(2,R) decomposition of log(A)  (claim P11) --------------------------
+# Standard basis of sl(2,R):
+H_GEN = sp.Matrix([[1, 0], [0, -1]])
+E_GEN = sp.Matrix([[0, 1], [0, 0]])
+F_GEN = sp.Matrix([[0, 0], [1, 0]])
+
+# The "shape" of log(A): log(A) = (log(phi^2)/sqrt 5) * H_LOG_A  (used by P13).
+H_LOG_A = sp.Matrix([[1, 2], [2, -1]])
+
+
+def log_A_sl2():
+    """Exact ``log(A)`` decomposed in the sl(2,R) basis.
+
+    Returns ``(matrix, a, d)`` with ``log(A) = a*H + d*(E + F)``. The coefficient
+    of the antisymmetric generator ``E - F`` is exactly zero (``log(A)`` is
+    symmetric, since ``A`` is symmetric positive-definite), and ``d / a = 2``
+    exactly. Here ``a = log(phi^2)/sqrt(5)``.
+
+    This is exact algebra — a closed form for ``log(A)`` — not a physical claim.
+    """
+    from .constants import PHI_SQ
+
+    a = sp.log(PHI_SQ) / sp.sqrt(5)
+    d = 2 * sp.log(PHI_SQ) / sp.sqrt(5)
+    return a * H_GEN + d * (E_GEN + F_GEN), a, d

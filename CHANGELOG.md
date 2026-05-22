@@ -17,6 +17,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `legacy/handoff/`, with the ~4 GB raw archive git-ignored under `legacy/raw/`.
 - Phase A: the `origin_axiom` package (`src/`) and `tests/` suite locking every
   `proven` claim P1–P10 — 33 passing tests. Packaging via `pyproject.toml`.
+- Session-3 integration: claims P11–P13 promoted to the proven core (exact-algebra
+  results — sl(2) decomposition of `log A`, gluing-equation factorization,
+  isospectrality), with tests (suite now 39 passing). Frontier probes B4
+  (BKL/Gutzwiller) and B5 (Wheeler-DeWitt) added as logged observations.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

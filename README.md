@@ -57,10 +57,10 @@ The honest one-line status:
 | Phase | State |
 |---|---|
 | Phase 0 — Governance & specification | **locked** |
-| Phase A — Tested foundation | **complete** — suite green, P1–P10 locked |
-| Phase B — Frontier | not started |
+| Phase A — Tested foundation | **complete** — suite green, P1–P13 locked |
+| Phase B — Frontier | **in progress** — probes B1–B5 logged |
 
-See `CLAIMS.md` for the current ledger: 10 `proven`, 4 `conditional`, 9 `open`, 10 `dead`.
+See `CLAIMS.md` for the current ledger: 13 `proven`, 4 `conditional`, 9 `open`, 10 `dead`.
 
 ---
 

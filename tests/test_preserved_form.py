@@ -33,3 +33,13 @@ def test_null_directions_of_G_are_the_phi_eigenvectors_of_A():
     v = sp.Matrix([PHI, 1])  # the phi^2-eigenvector of A
     assert sp.simplify(A * v - PHI**2 * v) == sp.zeros(2, 1)
     assert quadratic_form(G, v) == 0  # ... and it is G-null
+
+
+def test_P13_log_A_shape_and_G_are_isospectral():
+    # P13 — elementary corollary of P11 + P6: H_LOG_A (the shape of log A,
+    # i.e. log A rescaled) and the preserved form G are both symmetric and
+    # traceless with det -5, hence share the spectrum {+sqrt5, -sqrt5}.
+    from origin_axiom.algebra import H_LOG_A
+
+    assert H_LOG_A.det() == -5 and G.det() == -5
+    assert set(H_LOG_A.eigenvals()) == set(G.eigenvals())

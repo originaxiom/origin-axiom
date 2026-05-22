@@ -45,7 +45,7 @@ a freeze tag `phaseA-foundation-freeze` is created (`REPRODUCIBILITY.md`).
 
 ---
 
-## Phase B — Frontier · **not started**
+## Phase B — Frontier · **in progress**
 
 **Scope:** attempt the `open` items (O1–O9) under quarantine in `frontier/`. Every attempt
 is explicitly labelled speculative. Nothing enters the `proven` core without passing the
@@ -54,16 +54,22 @@ is explicitly labelled speculative. Nothing enters the `proven` core without pas
 **Non-claims:** until a gate is passed, no frontier result is a claim — only a logged
 observation.
 
-**First probe (B1):** does the gluing identity `W = S_L − F_R + ms` map onto the discrete
-Chern–Simons flatness condition `F = 0`? This is the handoff document's "Step 3B": a
-well-defined computation with a definite yes/no answer. A clean *no* is as valuable as a
-*yes* — it bounds the framework.
+**Probes run so far** (each is a logged observation, not a claim):
 
-**Subsequent probes** (only if B1 yields something) follow the handoff steps 4B (moduli
-evolution), 5A (4D Regge complex), 5B–5C (Regge equations), 6 (the Λ question). Each is a
-separate rung with its own gate. None is assumed to succeed.
+| Probe | Question | Outcome |
+|---|---|---|
+| B1 | Gluing identity ↔ discrete Chern–Simons flatness? | Qualified yes at the holonomy level; no CS action / level `k`. |
+| B2 | Monodromy action on the moduli space? | Linear action on `(log M,log L)`; falsified the handoff's A-polynomial-curve claim. |
+| B3 | 4D Regge complex (handoff "Step 5A")? | 3D triangulation exact; the "4D stacking" is not a defined construction. |
+| B4 | BKL billiard / Gutzwiller / golden Kasner? | Figure-eight = shortest billiard orbit (exact); leading Gutzwiller term (37.8%, modest); golden Kasner exponents. Heavily caveated. |
+| B5 | Wheeler-DeWitt constraint / a Λ estimate? | Reproduces known structure; the `Λ` estimate is dead-adjacent (cf. D1, D2). Documentary only. |
 
-**Gate to even begin Phase B:** Phase A's gate must be passed first.
+Across B1–B5 the pattern is consistent: the well-defined content is exact, but the bridge
+to 3+1 gravity rests, in every probe, on a step asserted but not constructed.
+
+**Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
+*algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3
+material); speculative *physics* may not.
 
 ---
 

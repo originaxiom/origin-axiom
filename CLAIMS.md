@@ -5,10 +5,12 @@
 pointer. Prose elsewhere in the repo may not exceed the label of the claim it rests on.
 
 **Status labels:** `proven` · `conditional` · `open` · `dead` (see `GOVERNANCE.md` §3).
-**Evidence** points to the test that locks the claim. All ten `proven` claims are locked by
-passing tests as of tag `phaseA-foundation-freeze` (33 passed, 1 optional SnapPy check skipped).
+**Evidence** points to the test that locks the claim. All thirteen `proven` claims are locked
+by passing tests (39 passed, 1 optional SnapPy check skipped). P1–P10 were frozen at tag
+`phaseA-foundation-freeze`; P11–P13 were added in the session-3 integration.
 
-**Last updated:** 2026-05-22 · derived from `AUDIT_REPORT.md` §4; Phase A tests added.
+**Last updated:** 2026-05-22 · derived from `AUDIT_REPORT.md` §4; Phase A tests added;
+P11–P13 added (exact-algebra results promoted from the session-3 review).
 
 ---
 
@@ -26,6 +28,9 @@ passing tests as of tag `phaseA-foundation-freeze` (33 passed, 1 optional SnapPy
 | P8 | `|det(Aⁿ−I)|` equals the torsion order of `H₁` of the mapping torus of `Aⁿ`; `(1/n)·log|det(Aⁿ−I)| → log(φ²)`. | `tests/test_torsion.py` ✓ |
 | P9 | Figure-eight knot (4₁): `vol≈2.0299`, `H₁=ℤ`, `CS=0`, amphichiral. Sister m003: same volume, `CS=0.25`, `H₁=ℤ⊕ℤ/5`. | `tests/test_snapdata.py` ✓ |
 | P10 | Five independent filters — trace-3 algebraic sieve, minimum hyperbolic volume, amphichirality, rank-2 categorifiability, Eisenstein triangulation — all select the figure-eight knot complement. | `tests/test_sieve.py` ✓ |
+| P11 | `log(A)` decomposes exactly in the sl(2,ℝ) basis as `a·H + d·(E+F)` with `a = log(φ²)/√5`; the ratio `d/a = 2` exactly and the antisymmetric `(E−F)` coefficient is exactly `0`. Pure algebra (a closed form for `log A`); no physical interpretation. | `tests/test_sl2_decomposition.py` ✓ |
+| P12 | The figure-eight gluing equation `z²(z−1)²=1` factors exactly as `(z²−z+1)(z²−z−1)` — an Eisenstein quadratic (discriminant −3) times a golden quadratic (discriminant 5). | `tests/test_gluing_equation.py` ✓ |
+| P13 | The shape matrix of `log A`, `[[1,2],[2,−1]]`, and the preserved form `G` are isospectral (both det −5, eigenvalues ±√5). Elementary corollary of P11 + P6. | `tests/test_preserved_form.py` ✓ |
 
 ---
 
