@@ -24,7 +24,7 @@ and `README.md` for ground rules.
 | **E11** | E | Entropic emergence — "nothing" is one microstate, "something" many | IN-PROGRESS (first batch) | `E11_entropic_emergence/` |
 | **E12** | E | Information-theoretic / it-from-bit — distinction itself is information | UNTOUCHED | — |
 | **E13** | E | Measure-theoretic — no well-defined measure on nothing; any measure has support | UNTOUCHED | — |
-| **E14** | F | Initial-object / empty-type — what does "nothing" mean as a mathematical object? | IN-PROGRESS (first batch) | `E14_categorical_initial_object/` |
+| **E14** | F | Initial-object / empty-type — what does "nothing" mean as a mathematical object? | **STALLED** | `E14_categorical_initial_object/` |
 | **E15** | G | Bulk-from-boundary; "outside of nothing" carries structure | UNTOUCHED | — |
 | **E16** | H | RG flow — empty at one scale, structured at another | UNTOUCHED | — |
 | **E17** | H | Extended objects (strings) — point-particle vacuum dissolves to string vacuum | UNTOUCHED | — |
@@ -147,9 +147,14 @@ forced support has structure matching reality. *Status:* untouched.
 formally? In category theory it is the initial object; in type theory the empty
 type. The mechanism asks whether *the formal object itself* has structural
 properties that force emergence. *Distinguisher:* whether "nothing" admits a
-sharp formal definition; if it does, what it forces. *Status:* first-batch probe
-in `E14_categorical_initial_object/`. Selected because it tests whether the
-*framing* of the entire program is even formally well-defined.
+sharp formal definition; if it does, what it forces. *Verdict (2026-05-23):*
+**`STALLED`.** All four standard frameworks (set theory, category theory, type
+theory, HoTT) give clean, unique formal characterizations of "nothing" — and
+*precisely none of them, by itself, forces emergence.* Each is defined by
+having minimal structure. The mathematizable conclusion is the philosophical
+P1 made formal: the formalism supplies the *target* but not the *force*; every
+other E* probe must supply the dynamical ingredient explicitly. See
+`E14_categorical_initial_object/FINDINGS.md`.
 
 ### Class G — Boundary / holographic
 

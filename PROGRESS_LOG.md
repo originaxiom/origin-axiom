@@ -230,5 +230,31 @@ verdicts are in.
 
 ---
 
+## 2026-05-23 — Phase C / probe E14 (categorical / initial-object): `STALLED`
+
+**Frontier observation, not a claim.** (`GOVERNANCE.md` §5.)
+
+- Formal analysis only (no probe.py — the path is conceptual). See
+  `paths/E14_categorical_initial_object/{README,FINDINGS}.md`.
+- All four standard formal characterizations of "nothing" (set theory, category
+  theory, type theory, HoTT) are well-defined and unique up to canonical
+  isomorphism. **None of them, by itself, forces emergence.** Each is defined
+  by having minimal structure.
+- The mathematizable conclusion mirrors the philosophical path P1:
+  characterising "nothing" presupposes a containing framework; the framework is
+  not empty, but the object inside it is. The categorical level supplies the
+  *target* of the question, not the *force*.
+- **Verdict:** **`STALLED`** — the unconstructed step is identified precisely:
+  every other E* probe must supply a *dynamical or physical* principle
+  external to the formalism. Pure formal characterization is necessary but
+  insufficient.
+- This finding *bounds the rest of the program*: appeals to pure formalism
+  cannot supply the emergence ingredient. The other first-batch probes (E11
+  entropic, E5 Vilenkin) are precisely tests of two different candidate
+  ingredients (counting and quantum tunneling). E14's verdict makes their
+  responsibility clear.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
