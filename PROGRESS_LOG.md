@@ -192,5 +192,43 @@ Test suite: **39 passed, 1 skipped.** Ledger now: **13 proven, 4 conditional,
 
 ---
 
+## 2026-05-23 — Phase C kickoff: exhaustive survey of emergence-paths
+
+**Reframe.** The project's posture shifts from validating one mechanism (the L/R/A
+record system → figure-eight → φ) to **systematically surveying** the space of
+mechanisms by which "nothing being unstable" could produce reality. The deliverable
+becomes the *map of attempted paths* — most of which are expected to `STALLED` at
+the same wall Phase B probes hit. The user's *"if reality emerges at all"* is the
+honest framing.
+
+**Done in this kickoff:**
+
+- Scaffolded `paths/` (a new top-level directory parallel to `frontier/`):
+  - `paths/README.md` — scope, ground rules, verdict labels (carried from
+    `GOVERNANCE.md`).
+  - `paths/PATHS.md` — the 25-row registry: 20 mathematizable paths (E1–E20) and
+    5 philosophical paths (P1–P5), with status per path.
+  - `paths/MECHANISM_CLASSES.md` — the 12 mechanism classes (A–L) with rationale.
+  - `paths/philosophical/PHILOSOPHICAL_PATHS.md` — the P1–P5 register, cleanly
+    separated.
+- Cross-linked the existing `frontier/B1`–`B5` work to the paths it partially
+  explored (E1, E2, E3, E6) — not duplicated.
+- Updated `ROADMAP.md` with a Phase C section; `README.md` status table gains a
+  Phase C row.
+
+**First batch (selected to span maximally different mechanism classes):**
+
+| Probe | Class | Question |
+|---|---|---|
+| E14 | Formal | Does "nothing" admit a precise definition (initial object / empty type)? |
+| E11 | Statistical | Does counting alone force something? |
+| E5 | Quantum-physical | Does Vilenkin tunneling-from-nothing actually produce a universe? |
+
+**Next:** Run the three first-batch probes. Each ends with one of `PRODUCES-OBSERVABLE`,
+`STALLED`, `DEAD`, `NEEDS-EXPERTISE`. Re-plan the second batch after all three
+verdicts are in.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

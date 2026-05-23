@@ -21,6 +21,11 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   results — sl(2) decomposition of `log A`, gluing-equation factorization,
   isospectrality), with tests (suite now 39 passing). Frontier probes B4
   (BKL/Gutzwiller) and B5 (Wheeler-DeWitt) added as logged observations.
+- **Phase C kickoff** — `paths/` directory created: 25-path registry (20
+  mathematizable E1–E20 across 11 mechanism classes; 5 philosophical P1–P5 in a
+  separate register). The project's goal becomes *exhaustively surveying* the
+  mechanisms by which "nothing being unstable" could produce reality, with the
+  *map of attempted paths* as the deliverable. First batch selected: E14, E11, E5.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

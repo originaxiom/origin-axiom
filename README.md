@@ -47,6 +47,7 @@ The honest one-line status:
 | `src/origin_axiom/` | The tested package locking the `proven` core. *(Phase A)* |
 | `tests/` | One assertion per proven number in `CLAIMS.md`. *(Phase A)* |
 | `frontier/` | Speculative `open` work, quarantined and gated. *(Phase B)* |
+| `paths/` | Systematic survey of emergence-mechanisms — the path-space registry and per-path probes. *(Phase C)* |
 | `docs/` | Reconciled notes, the V4 paper, `ARCHIVE.md` (dead ideas). |
 | `legacy/` | Frozen prior history. Never edited; never a source of claims. |
 
@@ -59,6 +60,7 @@ The honest one-line status:
 | Phase 0 — Governance & specification | **locked** |
 | Phase A — Tested foundation | **complete** — suite green, P1–P13 locked |
 | Phase B — Frontier | **in progress** — probes B1–B5 logged |
+| Phase C — Exhaustive survey of emergence-paths | **in progress** — see `paths/` |
 
 See `CLAIMS.md` for the current ledger: 13 `proven`, 4 `conditional`, 9 `open`, 10 `dead`.
 

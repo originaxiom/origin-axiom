@@ -73,6 +73,38 @@ material); speculative *physics* may not.
 
 ---
 
+## Phase C — Exhaustive survey of emergence-paths · **in progress**
+
+**Scope:** rather than push the single Origin Axiom mechanism deeper, *systematically
+enumerate* the mechanisms by which "nothing being unstable" could produce reality,
+probe each until it carries a definite verdict, and treat the resulting map as the
+deliverable. See `paths/README.md`, `paths/PATHS.md`, `paths/MECHANISM_CLASSES.md`.
+
+**Non-claims:** Phase C probes are observations, not claims. Same gate as Phase B.
+
+**Path-space:** 20 mathematizable paths (E1–E20) across 11 mechanism classes, plus
+5 philosophical paths (P1–P5) in a separate register.
+
+**First batch:**
+
+| Probe | Question | Class |
+|---|---|---|
+| E14 | Is "nothing" even formally well-defined? | F — categorical / formal |
+| E11 | Does counting alone force something? | E — statistical / informational |
+| E5 | Does mainstream physics already have a working mechanism (Vilenkin)? | B — quantum zero-point |
+
+Each probe ends with exactly one verdict: `PRODUCES-OBSERVABLE`, `STALLED`, `DEAD`,
+`NEEDS-EXPERTISE` (see `paths/README.md`). No "interesting, continue."
+
+**Expected outcome:** most paths will `STALLED` at the same wall the Phase B probes
+hit (well-defined content, unconstructed bridge to an observable). The map of
+failure modes is itself the contribution.
+
+**Re-plan checkpoint:** after the first batch's three verdicts, the next batch of
+~3 is selected on the basis of what was learned, not the current ranking.
+
+---
+
 ## Standing rules
 
 - A rung does not start until the previous rung's gate passes.
