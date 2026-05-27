@@ -285,5 +285,62 @@ and a non-zero amplitude out of it without smuggling either in as a prior.
 
 ---
 
+## 2026-05-27 — Phase C / probe E5 (quantum-physical / Vilenkin tunneling): `STALLED`
+
+**Frontier observation, not a claim.** (`GOVERNANCE.md` §5.)
+
+- Ran `paths/E5_vilenkin_tunneling/probe.py`. Saved `vilenkin_barrier.png`
+  (`V(a) = a² − (Λ/3)a⁴` for several `Λ`) and `vilenkin_psi.png` (WKB
+  `|ψ(a)|` for `Λ = 1`).
+- **Exact result:** `B(Λ) = ∫₀^{a_max} √V(a) da = 1/Λ` in natural units
+  (closed-form, via the substitution `u = (Λ/3)a²`); analytic vs numeric
+  `quad` agree to ~1.8 × 10⁻¹⁴. Amplitude `exp(−2B)` is non-zero for any
+  `Λ > 0`.
+- **Verdict — `STALLED`:** condition (a) "non-zero amplitude" is met, but
+  (b) "generic" fails — the result is artefactual to the FRW topology
+  choice, the minisuperspace truncation, the operator-ordering /
+  integration-measure choice, the boundary-condition choice
+  (Vilenkin/Hartle–Hawking/DeWitt all well-defined and giving different
+  answers), and `Λ` is consumed as input, not derived. (c) fails — the
+  "probability of a universe" requires a meta-measure the framework does
+  not supply. The "nothing" in this setup is the `a = 0` corner of a
+  Hilbert space already built on FRW cosmology — the framework the
+  mechanism claims to produce is the framework it presupposes.
+
+**First batch closed: E14 + E11 + E5 → three STALLs across three orthogonal
+mechanism classes (formal F, statistical E, quantum-physical B).** Each
+identifies the specific input it smuggles:
+
+| Probe | Supplies | Smuggles |
+|---|---|---|
+| E14 | clean *target* (initial object / empty type) | the meta-framework that characterises |
+| E11 | exponential *force* toward populated states | the configuration space and measure |
+| E5  | non-zero tunneling *amplitude* | FRW topology, truncation, `Λ`, ordering, boundary choice |
+
+The kickoff hypothesis — that most paths would `STALL` at the same wall and
+that recognising the wall as universal would itself be a finding — is now
+supported with `n = 3`. The wall has a consistent shape: **every candidate
+mechanism is well-defined *as a function on* its inputs and does not derive
+its inputs.** *Force-vs-target asymmetry.*
+
+**Next batch — selection rule:** prefer paths that target the *framework*
+rather than mechanisms inside one. Candidates:
+
+- **E18** (bootstrap / self-consistency, Class I) — consistency as a
+  framework-level selector.
+- **E15** (boundary / holographic, Class G) — framework as boundary data.
+- **E16** (RG flow, Class H) — framework itself is scale-dependent.
+
+Likely additional stalls (recorded for honesty, not as plan):
+- **E20** is an E5 variant (inherits the smuggled-Λ problem).
+- **E9** is textbook SSB inside an assumed Hilbert space (target-without-
+  force, like E11).
+
+A *failed* `STALLED` in the second batch — a probe that does not stall and
+does derive its framework — would be the program's first
+`PRODUCES-OBSERVABLE` candidate.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

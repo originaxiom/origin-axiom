@@ -15,7 +15,7 @@ and `README.md` for ground rules.
 | **E2** | A | Continued-fraction / Gauss map dynamics on the modular surface | IN-PROGRESS (narrow) | `../frontier/B2`, `../frontier/B4` |
 | **E3** | B | Vacuum-mode cancellation failure (frustrated cancellation) | DEAD (narrow forms) | `../docs/ARCHIVE.md` D1–D7 |
 | **E4** | B | Heisenberg uncertainty / vacuum fluctuations as ontological floor | UNTOUCHED | — |
-| **E5** | B | Spontaneous nucleation / Vilenkin tunneling from nothing | IN-PROGRESS (first batch) | `E5_vilenkin_tunneling/` |
+| **E5** | B | Spontaneous nucleation / Vilenkin tunneling from nothing | **STALLED** | `E5_vilenkin_tunneling/` |
 | **E6** | C | Non-trivial fundamental group / homology forbids the void | IN-PROGRESS (narrow) | P6, P8–P10 in `../CLAIMS.md`; `../frontier/B3` |
 | **E7** | C | Causal sets (Sorkin) — discrete pre-geometry, minimum causal content | UNTOUCHED | — |
 | **E8** | C | Univalent / higher-homotopy generation from the empty type | UNTOUCHED | — |
@@ -84,8 +84,18 @@ result of quantum tunneling from a "nothing" state (no spacetime, no matter) int
 a de Sitter–like state. There is a mainstream literature: Vilenkin 1982,
 Hartle–Hawking 1983, "no-boundary proposal." *Distinguisher:* whether the
 tunneling-from-nothing wavefunction (a) gives a non-zero amplitude, (b) is generic
-or fine-tuned, (c) actually has a defensible interpretation. *Status:* first-batch
-probe in `E5_vilenkin_tunneling/`.
+or fine-tuned, (c) actually has a defensible interpretation. *Verdict
+(2026-05-27):* **`STALLED`.** The minisuperspace WKB calculation reproduces the
+standard Vilenkin exponent `B(Λ) = 1/Λ` exactly (cross-checked numerically to
+~10⁻¹⁴) and the amplitude `exp(−2B)` is non-zero — (a) met. But (b) fails:
+the result is artefactual to the FRW topology choice, the minisuperspace
+truncation, the operator-ordering and measure, and the boundary-condition choice
+(Vilenkin vs Hartle–Hawking vs DeWitt all give different answers; `Λ` is an
+input, not derived). And (c) fails: "probability of a universe" requires a
+meta-measure the framework does not supply. The "nothing" in the setup is
+`a = 0` in a Hilbert space already built on FRW cosmology — the framework the
+mechanism claims to produce is the framework it presupposes. See
+`E5_vilenkin_tunneling/FINDINGS.md`.
 
 ### Class C — Topological / geometric obstruction
 
