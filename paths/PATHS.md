@@ -21,7 +21,7 @@ and `README.md` for ground rules.
 | **E8** | C | Univalent / higher-homotopy generation from the empty type | UNTOUCHED | — |
 | **E9** | D | Spontaneous symmetry breaking — symmetric vacuum unstable | UNTOUCHED | — |
 | **E10** | D | Action principle — only nontrivial extrema; trivial vacuum is not one | UNTOUCHED | — |
-| **E11** | E | Entropic emergence — "nothing" is one microstate, "something" many | IN-PROGRESS (first batch) | `E11_entropic_emergence/` |
+| **E11** | E | Entropic emergence — "nothing" is one microstate, "something" many | **STALLED** | `E11_entropic_emergence/` |
 | **E12** | E | Information-theoretic / it-from-bit — distinction itself is information | UNTOUCHED | — |
 | **E13** | E | Measure-theoretic — no well-defined measure on nothing; any measure has support | UNTOUCHED | — |
 | **E14** | F | Initial-object / empty-type — what does "nothing" mean as a mathematical object? | **STALLED** | `E14_categorical_initial_object/` |
@@ -127,8 +127,14 @@ specific action whose only non-trivial extrema are physical. *Status:* untouched
 **E11 — Entropic emergence.** *Mechanism:* "nothing" is exactly one microstate
 (everything empty); "near-nothing" is exponentially many; the second law forces
 departure from the empty state. *Distinguisher:* whether counting alone suffices,
-or whether you need additional dynamics to populate microstates. *Status:*
-first-batch probe in `E11_entropic_emergence/`.
+or whether you need additional dynamics to populate microstates. *Verdict
+(2026-05-27):* **`STALLED`.** The combinatorics are exact — `P(empty) = 2⁻ⁿ`,
+peak multiplicity `∼ 2ⁿ/√n`, entropic pull linear in `n` — but counting only
+selects *within* a configuration space and measure that must be supplied
+externally. Counting is a selection mechanism, not a generation mechanism; the
+empty measure space (no σ-algebra, no measure) does not even support the
+inequality `1 ≪ 2ⁿ`. Same shape as E14's stall — formalism without force, force
+without target. See `E11_entropic_emergence/FINDINGS.md`.
 
 **E12 — Information-theoretic / it-from-bit.** *Mechanism:* the most primitive
 thing is a distinction (Wheeler's "it from bit"); the absence of distinction is

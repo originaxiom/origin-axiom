@@ -254,6 +254,35 @@ verdicts are in.
   ingredients (counting and quantum tunneling). E14's verdict makes their
   responsibility clear.
 
+## 2026-05-27 — Phase C / probe E11 (statistical / entropic): `STALLED`
+
+**Frontier observation, not a claim.** (`GOVERNANCE.md` §5.)
+
+- Ran `paths/E11_entropic_emergence/probe.py`. Saved
+  `entropy_multiplicity.png` (log-scale multiplicity vs occupancy, n = 64).
+- **Exact combinatorics:** `P(empty) = 2⁻ⁿ`; peak multiplicity `C(n, n/2) ∼
+  2ⁿ/√(nπ/2)`; entropic pull `log(peak/1) ∼ n·log 2 − ½·log(nπ/2)`. For
+  n = 128: P(empty) = 2.9 × 10⁻³⁹, pull ≈ 86.07. No free parameters.
+- **Verdict — `STALLED`:** counting works as a *selection* mechanism inside a
+  pre-existing configuration space + measure; it does not *construct* either.
+  The empty measure space (no σ-algebra, no measure) does not even support
+  the inequality `1 ≪ 2ⁿ`. The Boltzmann pull computes "empty is rare *given*
+  something," not "something emerges from nothing."
+- **Pattern with E14:** two stalls, same shape — E14 had a clean *target*
+  (initial object / empty type) without a *force*; E11 has a clean *force*
+  (entropy) only when the *target* (phase space) is already given. Neither
+  alone supplies the missing piece. Raises the prior that Phase C's missing
+  ingredient is genuinely external to both formalism and statistics — it
+  lives in physics (E5, E9, E20) or in a structural primitive yet unnamed.
+- The measure-theoretic refinement ("does the *absence* of a measure carry
+  information?") belongs to **E13**, not E11.
+- See `paths/E11_entropic_emergence/FINDINGS.md`. Registry updated.
+
+**Next:** the first batch's third probe, **E5 (Vilenkin tunneling)** — the
+quantum-physical candidate. E14 + E11 sharpen the question E5 must answer:
+the Wheeler-DeWitt setup must specify both the Hilbert space of "nothing"
+and a non-zero amplitude out of it without smuggling either in as a prior.
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
