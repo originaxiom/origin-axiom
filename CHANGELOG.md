@@ -36,6 +36,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   with caveats. Synthesis doc + scripts under `docs/SESSION3_SYNTHESIS.md` and
   `scripts/`. Four Oct-2025 genesis documents filed under `legacy/reports/genesis/`
   (historical only). Ledger: **15 `proven`**, 4 `conditional`, 9 `open`, 10 `dead`.
+- Roadmap integration started with `docs/atlas/INTEGRATION_MANIFEST.md`, a
+  public-safe manifest for migrating atlas, paper-candidate, campaign-synthesis,
+  and review-packet material from private staging into the canonical repository.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

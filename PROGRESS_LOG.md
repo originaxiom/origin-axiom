@@ -456,5 +456,33 @@ Ledger unchanged: 15 proven, 4 conditional, 9 open, 10 dead. (Suite: 66 passed,
 
 ---
 
+## 2026-05-28 — Atlas/paper roadmap integration manifest
+
+**Migration control before content migration.**
+
+After the Session-3 freeze, compared the canonical repository with the private
+staging workspace to determine what can be safely integrated without bulk-copying
+exploratory work. Added `docs/atlas/INTEGRATION_MANIFEST.md` as the first public
+artifact on branch `roadmap/atlas-paper-integration`.
+
+- Local delta audit found: 116 comparable canonical files, 2,995 comparable staging
+  files, 8,069 excluded private/cache/raw artifacts, 36 same-hash overlaps, 23
+  same-path differences, and 2,936 staging-only files.
+- The manifest establishes the migration policy: copy sanitized paper registry
+  material, rewrite public atlas docs, summarize campaign/source outputs, keep raw
+  inventories and local run artifacts private, and avoid bulk overwrites of
+  canonical files such as `CLAIMS.md`, `PROGRESS_LOG.md`, `README.md`, and
+  `ROADMAP.md`.
+- Planned batches: R1 atlas skeleton; R2 paper-candidate registry; R3 quantum
+  selector campaign synthesis; R4 PC02 external-review packet; R5 noncommutative
+  residue dossier; R6 state-integral selector dossier.
+- No claims changed. This is process infrastructure only.
+
+Verification: staged manifest content passed the private public-safety scan; suite
+green with 66 passed, 1 skipped. Pytest emitted a cache-write warning in the
+sandboxed execution environment only.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
