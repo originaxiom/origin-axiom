@@ -42,6 +42,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Research Atlas skeleton added under `docs/atlas/`: reviewer guide, research
   tree, failure atlas, success atlas, glossary, and simulator ecosystem map. This
   is a navigation layer only; governed claims remain in `CLAIMS.md`.
+- Paper-candidate registry added under `papers/`: candidate index, artifact
+  manifest, and first paper cards for conditional uniqueness, noncommutative
+  residue, and the quantum selector / state-integral bridge problem.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

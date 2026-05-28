@@ -520,5 +520,40 @@ suite before commit.
 
 ---
 
+## 2026-05-28 — Paper-candidate registry (R2)
+
+**Candidate tracking, not claim promotion.**
+
+Implemented the second integration batch on branch
+`roadmap/atlas-paper-integration`: a public-safe paper registry that turns
+candidate result clusters into auditable cards without presenting them as
+finished papers.
+
+- Added `papers/README.md`, defining the rule that a paper candidate is not a
+  proven claim and not publication-ready until it passes its own draft gate.
+- Added `papers/CANDIDATES.md`, tracking ten candidate outputs with type,
+  readiness, core value, and main risk. PC02 is marked as the first ship target;
+  PC04 and PC06 are the next structured candidates.
+- Added `papers/ARTIFACT_MANIFEST.md`, establishing provenance/checksum rules for
+  future PDFs, source files, generated reports, figures, data, and bundles. No
+  artifacts were copied in this batch.
+- Added `papers/candidates/PC02_conditional_uniqueness/PAPER_CARD.md`, focused on
+  the conditional theorem `A1-A7 -> A = LR` up to order, its evidence files,
+  controls, and the missing paper-grade mapping-torus homology lemma.
+- Added `papers/candidates/PC04_noncommutative_residue/PAPER_CARD.md`, focused on
+  the residue program: commutative inverse cancellation leaves no residue, while
+  distinguishable ordered inverse operations can leave a noncommutative residue.
+- Added `papers/candidates/PC06_quantum_selector_bridge/PAPER_CARD.md`, focused on
+  the state-integral route as a serious host whose missing object is a nonzero
+  contour/thimble/relative-homology selector theorem.
+
+No claims changed. The registry is a routing layer from atlas nodes and evidence
+clusters to possible papers, review packets, or archives.
+
+Verification target for this batch: staged public-safety scan and full test
+suite before commit.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
