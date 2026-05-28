@@ -63,6 +63,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Post-merge manifest cleanup: R7 marked complete after merge/tag, and stale
   closure wording removed. Existing `atlas-paper-integration-v1` tag left
   unchanged.
+- PC02 paper-support lemma added: mapping-torus homology/torsion proof for the
+  conditional uniqueness theorem, with PC02 paper card and review packet updated
+  for external mathematical review.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

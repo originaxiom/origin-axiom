@@ -63,6 +63,8 @@ det(B(a,b) − I) = −ab.
 The mapping torus `M_B` of `B` acting on the 2-torus has
 `H₁(M_B) = ℤ ⊕ coker(B − I)`, and when `det(B − I) ≠ 0` the group
 `coker(B − I)` is finite of order `|det(B − I)| = ab` (its torsion).
+The paper-support proof is written in
+`../papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md`.
 
 ---
 

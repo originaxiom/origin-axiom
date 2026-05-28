@@ -720,5 +720,30 @@ unchanged.
 
 ---
 
+## 2026-05-29 — PC02 mapping-torus torsion lemma
+
+**Paper-support proof, not claim promotion.**
+
+Started the PC02 conditional-uniqueness review track on branch
+`paper/pc02-conditional-uniqueness`.
+
+- Added `papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md`.
+- Linked the lemma from `docs/UNIQUENESS_THEOREM.md`.
+- The note proves the standard mapping-torus homology step using the Wang exact
+  sequence:
+  `H1(M_B; Z) = Z plus coker(B - I)`.
+- It also proves that if `det(B - I) != 0`, then the torsion order is
+  `|det(B - I)|`, via Smith normal form.
+- For `B(a,b) = L_a R_b = [[1+ab,a],[b,1]]`, this gives
+  `det(B(a,b)-I) = -ab`, so the torsion-free filter forces `ab = 1`, hence
+  `a = b = 1` over positive integers.
+- Updated the PC02 paper card and review packet from "missing lemma" to "lemma
+  written; ready for external mathematical review after final wording pass."
+
+No claims changed. C1 remains conditional; this only supplies a paper-grade proof
+of the topology step already used by the theorem document and tests.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

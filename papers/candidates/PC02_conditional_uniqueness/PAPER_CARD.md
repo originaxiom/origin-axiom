@@ -48,6 +48,7 @@ not proof that the LR order is forced from weaker data
 CLAIMS.md
 docs/UNIQUENESS_THEOREM.md
 docs/SESSION3_SYNTHESIS.md
+papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
 tests/test_uniqueness_theorem.py
 tests/test_mobius_vector_field.py
 tests/test_derived_potential.py
@@ -71,18 +72,23 @@ separate proven claims from conditional assumptions
 keep the physics bridge open unless an observable is produced
 ```
 
-## Paper-Grade Missing Lemma
+## Paper-Grade Topology Lemma
 
-The paper should include a full proof of the standard mapping-torus homology
-step:
+The supporting lemma is now written in:
+
+```text
+papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
+```
+
+It proves the standard mapping-torus homology step:
 
 ```text
 H1(mapping torus of B) = Z plus coker(B - I)
 torsion order = |det(B - I)| when det(B - I) != 0
 ```
 
-The repository tests check the algebraic consequences; the paper should write
-the topology lemma explicitly.
+The repository tests check the algebraic consequences; the lemma note supplies
+the paper-facing topology proof for external review.
 
 ## Target Audience
 
@@ -104,5 +110,5 @@ external-review packet before public preprint
 ## Decision
 
 ```text
-Keep. First candidate to prepare for external mathematical review.
+Keep. Ready for external mathematical review after final wording pass.
 ```

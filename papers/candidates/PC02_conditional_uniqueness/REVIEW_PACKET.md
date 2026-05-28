@@ -27,6 +27,7 @@ docs/UNIQUENESS_THEOREM.md
 tests/test_uniqueness_theorem.py
 CLAIMS.md
 papers/candidates/PC02_conditional_uniqueness/PAPER_CARD.md
+papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
 ```
 
 Secondary:
@@ -103,10 +104,15 @@ The golden fixed-point polynomial belongs to the based representative `A = LR`,
 not to the whole conjugacy class. A reviewer should check that the paper never
 silently turns this based fact into a class invariant.
 
-## Missing Paper-Grade Lemma
+## Paper-Grade Lemma
 
-The repository tests verify the algebraic consequences. A paper should still
-write the topology lemma explicitly:
+The paper-support topology lemma is now written in:
+
+```text
+papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
+```
+
+It proves:
 
 ```text
 H1(mapping torus of B) = Z plus coker(B - I)
@@ -147,8 +153,8 @@ given the minimal-record axioms, the core is conditionally forced up to order
 Before PC02 becomes `DRAFTABLE`, it needs:
 
 ```text
-paper-grade proof of the mapping-torus homology lemma
-one-page statement of axioms with motivation and limitations
+external check of the mapping-torus homology lemma
+one-page statement of axioms with motivation and limitations for a draft
 explicit LR/RL order section
 table separating proven P-claims from conditional C1
 reproduction appendix naming the exact tests
@@ -184,6 +190,6 @@ KILLED = a central lemma or implication fails
 ## Current Decision
 
 ```text
-Prepare PC02 for external mathematical review after writing the topology lemma.
+Prepare PC02 for external mathematical review.
 Do not merge with physics-facing material.
 ```
