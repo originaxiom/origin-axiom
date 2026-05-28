@@ -555,5 +555,42 @@ suite before commit.
 
 ---
 
+## 2026-05-28 — Quantum selector campaign synthesis (R3)
+
+**Campaign summary only; raw artifacts stay private.**
+
+Implemented the third integration batch on branch
+`roadmap/atlas-paper-integration`: a public-safe synthesis of the completed
+`quantum_selector_v1` campaign.
+
+- Added `docs/atlas/campaigns/quantum_selector_v1.md`, summarizing the campaign
+  without copying raw JSONL, scoreboards, source downloads, local path
+  inventories, or run logs.
+- Recorded the stable run facts: 232 cycles, 50 unique mechanisms evaluated, 80
+  source-derived questions, and verdicts of 6 survives, 28 stalled, 8 killed, and
+  8 needs-expertise.
+- Preserved the main positive lesson: the strongest Origin-side survivor is
+  ordered noncommutative cancellation residue. The campaign reinforces the
+  conditional `A = LR` direction but does not produce a physics bridge.
+- Preserved killed-route lessons: source-free zero-birth fails in the tested
+  deterministic classes; commutative cancellation leaves no residue; dimensionless
+  structure cannot become physics without units, source law, or measurement map;
+  direct measured-input leakage kills the tested CKM route.
+- Preserved stalled-route lessons: state integrals recover a host curve but not a
+  contour/thimble selector; boundary counts do not select a category; finite
+  symmetries do not construct gauge connections; trace 3, discriminant 5, and word
+  count 16 do not by themselves construct matter content.
+- Routed campaign impact to paper candidates: PC02 strengthened indirectly, PC04
+  strengthened directly, PC06 sharpened into a selector theorem question, and PC01
+  strengthened as an obstruction map candidate.
+
+No claims changed. This batch converts private campaign output into a public
+atlas summary and keeps the raw run material out of the repository.
+
+Verification target for this batch: staged public-safety scan and full test
+suite before commit.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

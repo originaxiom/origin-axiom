@@ -45,6 +45,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Paper-candidate registry added under `papers/`: candidate index, artifact
   manifest, and first paper cards for conditional uniqueness, noncommutative
   residue, and the quantum selector / state-integral bridge problem.
+- Quantum selector campaign summarized under `docs/atlas/campaigns/`: public-safe
+  synthesis of the 232-cycle run, preserving verdict counts, survivors, killed
+  routes, stalled bridge classes, and theorem questions without raw run artifacts.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
