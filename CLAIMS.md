@@ -54,7 +54,7 @@ independent + 1 via-discriminant).
 
 | ID | Claim | Named assumption |
 |---|---|---|
-| C1 | `L` and `R` are *forced* as the primitive record moves. | Depends on the minimal record axioms A1–A6 (see V4 paper §2). Well-motivated; not laws of nature. |
+| C1 | `L` and `R` are *forced* as the primitive record moves; extended: the first mixed closure is forced to `A = LR` *up to order* (trace 3, φ-spectrum), 144→1 under the torsion-free filter. | Depends on the minimal record axioms A1–A6 (see V4 paper §2). Formalized + machine-checked: `docs/UNIQUENESS_THEOREM.md`, `tests/test_uniqueness_theorem.py` ✓. Stays `conditional` (axioms motivated, not forced). |
 | C2 | The Fibonacci `|F|²` probability matrix is reconstructed from `A`'s Perron eigenvector. | Requires an additional "Perron-switch / degeneracy" rule; plain MaxEnt gives ½,½. |
 | C3 | Trace 3 is the unique torsion-free hyperbolic trace. | Holds only within once-punctured torus bundles with `SL(2,ℤ)` monodromy. |
 | C4 | The `(disc 5)(disc −3)` state-integral factorization is unique to the figure-eight. | Verified for 11 census manifolds only — a census check, not a proof. |

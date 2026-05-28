@@ -415,5 +415,46 @@ conditional, 9 open, 10 dead.
 
 ---
 
+## 2026-05-28 — Conditional uniqueness theorem (formalizes C1)
+
+**A conditional result, properly labeled — not a promotion.**
+
+Following the Session-3 synthesis and the "minimal substrate" question it raised,
+wrote the precise statement and machine-checked the algebra of the conditional
+uniqueness theorem: **A1–A7 ⟹ A = LR ⟹ P1–P16.**
+
+- `docs/UNIQUENESS_THEOREM.md` — seven explicit axioms (two-record substrate;
+  reversible integer transfer; orientation-preserving; primitive one-channel
+  update; torsion-free closure; minimality; **order convention LR vs RL**). The
+  first mixed closure `B(a,b) = LₐR_b = [[1+ab,a],[b,1]]` has `det=1`,
+  `trace=2+ab`, `det(B−I)=−ab`; torsion-free closure (or minimal hyperbolic trace)
+  forces `ab=1`, hence `a=b=1`, hence `A`. The 12×12 grid shows **144 hyperbolic
+  positives → 1** under the torsion-free filter.
+- `tests/test_uniqueness_theorem.py` (9 tests) locks every numeric assertion in
+  the doc: the closure form, det/trace/torsion formulas, torsion order = `ab`, the
+  144→1 collapse, trace-3 minimality, `A` and its `φ²,φ⁻²` spectrum.
+- **The order choice (A7) is load-bearing, not cosmetic.** `LR` and `RL` are
+  `SL(2,ℤ)`-conjugate (same trace/eigenvalues) but give *different* Möbius
+  fixed-point polynomials: `LR → τ²−τ−1` (roots `φ,−1/φ`), `RL → τ²+τ−1`
+  (`1/φ,−φ`), `K=LAL⁻¹ → τ²−3τ+1` (`φ²,φ⁻²`). The golden polynomial — the one
+  driving P15/P16 and the "six faces" — is a **based** invariant of `A=LR` with
+  this order, not a conjugacy-class invariant. The uniqueness is honestly *up to
+  order*, and that single binary choice is the minimal inserted structure that
+  selects the golden vacuum `φ` over its mirror. (This is the same based-invariant
+  fact caught in the Session-3 audit, now shown to be structural in the theorem.)
+- **C1 updated** in `CLAIMS.md`: evidence upgraded from prose (V4 §2) to a
+  machine-checked computation, and extended from "L,R forced" to "A forced up to
+  order." **C1 stays `conditional`** — the axioms are motivated, not derived; only
+  the axioms→A step is conditional, the A→P1–P16 step is already proven.
+- **Scope discipline:** the document stops before the field-theoretic lift
+  (`frontier/B6`–`B9`), which carries further inserted choices (kinetic term,
+  dimension). This is the exact, finite, conditional statement — the "wall A"
+  (derive the substrate from nothing) is untouched and remains mapped-dead.
+
+Ledger unchanged: 15 proven, 4 conditional, 9 open, 10 dead. (Suite: 66 passed,
+1 skipped.)
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
