@@ -618,5 +618,35 @@ suite before commit.
 
 ---
 
+## 2026-05-28 — Noncommutative residue dossier (R5)
+
+**PC04 atlas node; still frontier, not physics.**
+
+Implemented the fifth integration batch on branch
+`roadmap/atlas-paper-integration`: a public atlas node for the noncommutative
+cancellation residue path.
+
+- Added `docs/atlas/nodes/noncommutative_cancellation_residue.md`, organizing the
+  core residue branch: commutative inverse cancellation leaves no residue, while
+  distinguishable ordered inverse operations can leave a nontrivial residue.
+- Linked the node to R27, R40, R42, the quantum-selector campaign synthesis, and
+  the PC04 paper card.
+- Recorded the strict result: `LR - RL != 0` and `L R L^-1 R^-1 != I`; in the
+  commutative quotient the residue disappears.
+- Recorded the no-overclaim boundary: the two operations, order loop, substrate,
+  field dictionary, unit scale, source law, and observable are not derived.
+- Updated `papers/candidates/PC04_noncommutative_residue/PAPER_CARD.md` with the
+  new atlas node and concrete reproduction commands for R27, R40, R42, and the
+  full test suite.
+
+No claims changed. PC04 remains a paper candidate whose missing theorem is the
+formal distinguishability/order/residue statement.
+
+Verification target for this batch: staged public-safety scan and full test
+suite before commit. The private staging probes behind the R5 summary are not
+yet migrated as canonical public reproducers.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

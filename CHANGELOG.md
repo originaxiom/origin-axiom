@@ -51,6 +51,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - PC02 external-review packet added, giving reviewers a concise audit path for
   the conditional uniqueness theorem, its tests, caveats, and missing topology
   lemma.
+- Noncommutative cancellation residue dossier added as an atlas node, with the
+  PC04 paper card updated to point at reproducible residue probes and the
+  campaign synthesis.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

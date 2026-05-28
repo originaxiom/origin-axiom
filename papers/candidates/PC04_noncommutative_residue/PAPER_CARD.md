@@ -50,12 +50,10 @@ not a claim that residue becomes observable without a dictionary
 ## Evidence Files
 
 ```text
-frontier/V5_R27_noncommutative_cancellation_residue/
-frontier/V5_R40_minimal_trace3_residue_classifier/
-frontier/V5_R42_order_residue_physics_bridge_triage/
+docs/atlas/nodes/noncommutative_cancellation_residue.md
 docs/atlas/FAILURE_ATLAS.md
 docs/atlas/RESEARCH_TREE.md
-docs/progress/2026-05-28_quantum_selector_campaign_synthesis.md
+docs/atlas/campaigns/quantum_selector_v1.md
 ```
 
 Campaign evidence to summarize, not copy raw:
@@ -71,12 +69,14 @@ COV2_COMMUTATIVE_INVERSE_CONTROL
 
 ## Reproduction Commands
 
-Specific commands should be frozen after the evidence table is reduced to
-public atlas nodes. Baseline repository check:
+Canonical baseline:
 
 ```bash
 python -m pytest -q
 ```
+
+Before drafting PC04, migrate or rewrite the private staging residue probes into
+a small public reproducer.
 
 ## Required Controls
 
