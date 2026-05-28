@@ -39,6 +39,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Roadmap integration started with `docs/atlas/INTEGRATION_MANIFEST.md`, a
   public-safe manifest for migrating atlas, paper-candidate, campaign-synthesis,
   and review-packet material from private staging into the canonical repository.
+- Research Atlas skeleton added under `docs/atlas/`: reviewer guide, research
+  tree, failure atlas, success atlas, glossary, and simulator ecosystem map. This
+  is a navigation layer only; governed claims remain in `CLAIMS.md`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

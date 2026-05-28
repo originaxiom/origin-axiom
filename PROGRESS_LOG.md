@@ -484,5 +484,41 @@ sandboxed execution environment only.
 
 ---
 
+## 2026-05-28 — Research Atlas skeleton (R1)
+
+**Public navigation layer, not new claims.**
+
+Implemented the first atlas batch from the integration manifest on branch
+`roadmap/atlas-paper-integration`. The goal is to make the work reviewable
+without bulk-copying exploratory material into the canonical repository.
+
+- Added `docs/atlas/README.md` as the atlas entry point and source-of-truth
+  boundary. It states that `CLAIMS.md`, `GOVERNANCE.md`, `PROGRESS_LOG.md`,
+  `frontier/`, `paths/`, and `docs/ARCHIVE.md` remain authoritative.
+- Added `docs/atlas/RESEARCH_TREE.md`, mapping the main route from the original
+  question through source-free zero failure, cancellation, noncommutative
+  residue, the `A = LR` spine, topology host, and the still-open physics bridge.
+- Added `docs/atlas/REVIEWER_GUIDE.md`, with separate routes for new readers,
+  mathematicians, physicists, and reproducibility checkers.
+- Added `docs/atlas/FAILURE_ATLAS.md`, classifying repeated obstructions:
+  source law missing, commutative cancellation, selector insertion, measure
+  insertion, unit bridge missing, gauge/particle dictionaries missing, 3+1D
+  bridge missing, observable missing, and numerology killed by controls.
+- Added `docs/atlas/SUCCESS_ATLAS.md`, summarizing the safe surviving structures:
+  the proven core, the conditional uniqueness theorem, and the exact internal
+  dynamics from the Session-3 synthesis, while keeping physics claims unpromoted.
+- Added `docs/atlas/GLOSSARY.md`, a first reader-facing vocabulary for the core
+  math, topology, and physics-bridge terms.
+- Added `docs/atlas/SIMULATOR_ECOSYSTEM_MAP.md`, establishing that future
+  interactive tools must reproduce calculations, expose assumptions, or make
+  failures inspectable. Decorative visualizations are explicitly excluded.
+
+No claims changed. The atlas is a map over existing governed evidence.
+
+Verification target for this batch: staged public-safety scan and full test
+suite before commit.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
