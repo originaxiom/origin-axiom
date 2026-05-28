@@ -648,5 +648,34 @@ yet migrated as canonical public reproducers.
 
 ---
 
+## 2026-05-28 — State-integral selector-gap dossier (R6)
+
+**PC06 atlas node; theorem question, not solved selector.**
+
+Implemented the sixth integration batch on branch
+`roadmap/atlas-paper-integration`: a public atlas node for the state-integral
+selector gap.
+
+- Added `docs/atlas/nodes/state_integral_selector_gap.md`, organizing the
+  quantum-topology bridge as a precise missing-selector problem.
+- Updated `papers/candidates/PC06_quantum_selector_bridge/PAPER_CARD.md` to point
+  at canonical atlas evidence rather than private staging paths.
+- Recorded what survives: quantum-dilog/state-integral hosts, figure-eight
+  A-polynomial asymptotics, Picard-Lefschetz/Stokes language, and nontrivial
+  monodromy-residue structure.
+- Recorded what fails locally: zero winding remains allowed, multiple primitive
+  windings remain allowed, nontrivial kernel windings exist, orientation remains
+  unforced, and no source-normalized thimble-intersection vector was constructed.
+- Stated the needed theorem: a source-normalized quantum-dilog /
+  Picard-Lefschetz result forcing a nonzero relative-homology or
+  thimble-intersection class for the figure-eight state integral.
+
+No claims changed. PC06 remains `NEEDS_VALIDATION` and expertise-bound.
+
+Verification target for this batch: staged public-safety scan and full test
+suite before commit.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

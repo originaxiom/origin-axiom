@@ -48,12 +48,9 @@ not a replacement for source-level literature audit
 ## Evidence Files
 
 ```text
-frontier/V5_R10_dilog_monodromy_residue/
-frontier/V5_R11_contour_winding_selector/
-frontier/V5_R31_quantum_dilog_literature_dossier/
-frontier/V5_R32_resurgence_stokes_selector/
-frontier/V5_R36_quantum_dilog_source_audit/
-docs/progress/2026-05-28_quantum_selector_campaign_synthesis.md
+docs/atlas/nodes/state_integral_selector_gap.md
+docs/atlas/campaigns/quantum_selector_v1.md
+docs/atlas/FAILURE_ATLAS.md
 ```
 
 Campaign theorem questions to preserve:
@@ -65,12 +62,15 @@ G1_THIMBLE_INTERSECTION_GATE
 
 ## Reproduction Commands
 
-Specific commands should be frozen after public atlas nodes are written for the
-state-integral route. Baseline repository check:
+Canonical baseline:
 
 ```bash
 python -m pytest -q
 ```
+
+Before drafting PC06, rewrite or migrate the private staging selector probes
+into public proof or literature-audit artifacts. Until then, PC06 remains a
+theorem-question dossier.
 
 ## Required Controls
 
