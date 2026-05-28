@@ -38,3 +38,6 @@ legacy/raw/
 # --- Frontier scratch ---
 # Quarantined speculative work may keep scratch outputs out of git.
 frontier/**/scratch/
+
+# --- Genesis raw transcripts: contain third-party PII; public repo, keep private ---
+legacy/reports/genesis/*.txt

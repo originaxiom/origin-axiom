@@ -5,12 +5,13 @@
 pointer. Prose elsewhere in the repo may not exceed the label of the claim it rests on.
 
 **Status labels:** `proven` · `conditional` · `open` · `dead` (see `GOVERNANCE.md` §3).
-**Evidence** points to the test that locks the claim. All thirteen `proven` claims are locked
-by passing tests (39 passed, 1 optional SnapPy check skipped). P1–P10 were frozen at tag
-`phaseA-foundation-freeze`; P11–P13 were added in the session-3 integration.
+**Evidence** points to the test that locks the claim. All fifteen `proven` claims are locked
+by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
+the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-05-22 · derived from `AUDIT_REPORT.md` §4; Phase A tests added;
-P11–P13 added (exact-algebra results promoted from the session-3 review).
+**Last updated:** 2026-05-28 · derived from `AUDIT_REPORT.md` §4; Phase A tests added;
+P11–P13 added (exact-algebra results from the session-3 review); P15–P16 added (Möbius vector
+field + derived potential, session-3 synthesis — see `PROGRESS_LOG.md` 2026-05-27).
 
 ---
 
@@ -31,6 +32,21 @@ P11–P13 added (exact-algebra results promoted from the session-3 review).
 | P11 | `log(A)` decomposes exactly in the sl(2,ℝ) basis as `a·H + d·(E+F)` with `a = log(φ²)/√5`; the ratio `d/a = 2` exactly and the antisymmetric `(E−F)` coefficient is exactly `0`. Pure algebra (a closed form for `log A`); no physical interpretation. | `tests/test_sl2_decomposition.py` ✓ |
 | P12 | The figure-eight gluing equation `z²(z−1)²=1` factors exactly as `(z²−z+1)(z²−z−1)` — an Eisenstein quadratic (discriminant −3) times a golden quadratic (discriminant 5). | `tests/test_gluing_equation.py` ✓ |
 | P13 | The shape matrix of `log A`, `[[1,2],[2,−1]]`, and the preserved form `G` are isospectral (both det −5, eigenvalues ±√5). Elementary corollary of P11 + P6. | `tests/test_preserved_form.py` ✓ |
+| P15 | The Möbius action of `A` on `H`, `τ→(2τ+1)/(τ+1)`, has fixed points `φ`, `−1/φ`; its generating vector field (from `log A`, P11) is exactly `v(τ)=−κ(τ²−τ−1)` with `κ=2·log(φ²)/√5`. Exact: `v(φ)=v(−1/φ)=0`, `v(0)=κ≠0`. Pure algebra; no physical interpretation. | `tests/test_mobius_vector_field.py` ✓ |
+| P16 | The gradient potential of P15's flow is `V(τ)=κ(τ³/3−τ²/2−τ)`, so `V′(τ)=κ(τ²−τ−1)`. Minimum at `φ` (`V″=+κ√5`), maximum at `−1/φ` (`V″=−κ√5`), and `τ=0` is **not** a critical point (`V′(0)=−κ`). Exact: integrate P15. No physical interpretation. | `tests/test_derived_potential.py` ✓ |
+
+*(P14 intentionally unused — reserved during the session-3 synthesis numbering.)*
+
+The field-theoretic lift of P15/P16 — the field equation `□τ+κ(τ²−τ−1)=0`, the
+Fisher–KPP creation dynamics, the particle spectrum (including the **non-exact**
+near-miss `m/g≈φ`), and the fusion–scattering shared polynomial — is **frontier,
+not proven**. See `frontier/B6`–`B9` (each carries its caveat). The polynomial
+`τ²−τ−1` appears across six contexts (golden ratio; `charpoly(F)`; the Möbius
+force law P15/P16; Fibonacci fusion P2; the Markov/Hurwitz constant via
+`disc=5`; the attractor `x=1+1/x`); `scripts/six_faces.py` checks each. The
+*identification that they are the same polynomial* is the observation — see
+`PROGRESS_LOG.md` 2026-05-27 for the independence audit (1 defining + 4
+independent + 1 via-discriminant).
 
 ---
 

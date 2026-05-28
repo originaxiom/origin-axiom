@@ -342,5 +342,78 @@ does derive its framework — would be the program's first
 
 ---
 
+## 2026-05-27 — Session 3 synthesis: 2025 field theory ↔ 2026 algebraic skeleton; P15, P16 promoted; B6–B9 added
+
+**Two new proven claims (exact algebra about A), four new frontier probes.**
+
+A synthesis handoff (`docs/SESSION3_SYNTHESIS.md`, scripts in `scripts/`)
+reconnected the original 2025 field-theory line (non-cancellation potential,
+driven scalar) to the algebraic skeleton (A, figure-eight, φ). All five scripts
+were run on this machine and independently re-verified symbolically before any
+promotion.
+
+**Verified before promotion (independent sympy re-derivation, not the scripts):**
+
+- The Möbius action of `A=[[2,1],[1,1]]` on `H` is `τ→(2τ+1)/(τ+1)`; fixed-point
+  equation `τ²−τ−1=0`, roots `φ`, `−1/φ`. Exact.
+- Generating vector field from `log A` (P11): `v(τ)=−κ(τ²−τ−1)`,
+  `κ=2·log(φ²)/√5≈0.860818`. Both derivations (entries of `log A`; factored form)
+  agree symbolically. `v(φ)=v(−1/φ)=0`, `v(0)=κ≠0`. Exact.
+- Potential `V(τ)=κ(τ³/3−τ²/2−τ)`; `V′(τ)=κ(τ²−τ−1)`; min at `φ` (`V″=+κ√5`),
+  max at `−1/φ` (`V″=−κ√5`), `τ=0` not a critical point (`V′(0)=−κ`). Exact.
+
+**Promoted to the proven core (analogous to P11/P12 — exact algebra about A):**
+
+- **P15** — the Möbius generating vector field. `tests/test_mobius_vector_field.py`
+  (9 tests).
+- **P16** — the derived potential. `tests/test_derived_potential.py` (9 tests).
+- New module `src/origin_axiom/mobius.py`. (P14 left intentionally unused, per the
+  synthesis numbering.)
+
+**Added as frontier probes (interpretation; each carries the synthesis caveat):**
+
+- **B6** — field equation `□τ+κ(τ²−τ−1)=0`. Caveat: the potential is derived;
+  the kinetic term / dimension / field interpretation are inserted. `STALLED`.
+- **B7** — Fisher–KPP creation wave. Reaction `1+τ−τ²` is exact (`=−V′/κ`); seed
+  at 0 converges to `φ` (`|⟨τ⟩−φ|≈3.6e−11`), front speed `2√D`. Caveat:
+  dissipative gradient flow not the wave eq.; `D` inserted. `STALLED`.
+- **B8** — particle spectrum. `mass²=κ√5`, `g=κ` exact; `m/g=√(5/(4logφ))≈1.6117`
+  is an **honest near-miss, explicitly NOT φ** (Δ≈0.0063) — recorded under
+  disclaimer so it is not later mistaken for a result (cf. D-class numerology).
+  `STALLED`.
+- **B9** — fusion–scattering. The cubic vertex (`κ/3`) and Fibonacci fusion (P2)
+  share `τ²−τ−1`, but no functor: "analogous to" ≠ "derived from". `STALLED`.
+
+**"Six faces" audit.** The synthesis claims `τ²−τ−1` appears in six independent
+contexts (`scripts/six_faces.py`). Audited each: **1 defining** (the golden-ratio
+equation itself), **4 genuinely independent** (charpoly of `F=[[1,1],[1,0]]`; the
+Möbius force law P15/P16; Fibonacci fusion `τ²=1+τ`; the attractor `x=1+1/x`),
+**1 via discriminant** (the Markov/Hurwitz optimal constant `√5=√disc`). The
+synthesis claim stands with Face 1 as anchor and Face 5 reported as a
+discriminant link. **Correction to a too-strong reading:** the Möbius
+fixed-point polynomial is a *based* invariant of A, **not** a conjugacy-class
+invariant — `K=LAL⁻¹` gives `τ²−3τ+1` (roots `φ²,φ⁻²`), a different polynomial.
+So Face 3 is specific to the representative `A=LR`, consistent with R51. The
+synthesis's Step 1 uses `A` explicitly, so this is sound.
+
+**Connection to the 2025 genesis.** The derived cubic `V` has its minimum at `φ`
+(not zero) and `V′(0)=−κ≠0`, so "nothing" is unstable — the correct shape for the
+non-cancellation intuition. This *closes the search* opened in the Oct-2025
+conceptual document: the original guess (a cosine potential with its minimum at
+zero) had the wrong shape; the potential is now **derived** from the monodromy
+A acting on moduli space, not guessed. Four genesis documents were filed under
+`legacy/reports/genesis/` (historical only; no claims extracted — see that
+directory's README and `PROVENANCE.md` §3.0). The cosine-potential simulations
+of `02/03_Master*.txt` are superseded by P16's cubic.
+
+**Honest status.** P15/P16 are *exact algebra about an already-proven object* —
+the same kind of result as P11–P13, not a derivation of physics from nothing.
+The field theory (B6–B9) remains a natural-but-inserted lift; the force-vs-target
+asymmetry of Phase C still holds, with the one genuine advance that the
+*potential* (the "force") is no longer inserted. Ledger now: **15 proven**, 4
+conditional, 9 open, 10 dead.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

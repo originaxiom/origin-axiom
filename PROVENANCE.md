@@ -56,6 +56,31 @@ folders `00_base_raw_archive`, `01_master_start`, `02_edh_cont`, `03_consolidato
 ChatGPT conversation exports (Oct 2025); and large numerical result files (`.npy`, `.npz`).
 **Not yet audited in detail** — flagged for a later pass if desired.
 
+**2026-05-27 update — four genesis documents promoted to `legacy/reports/genesis/`:**
+After the Session 3 synthesis (`PROGRESS_LOG.md` entry of 2026-05-27) reconnected the
+original field-theory intuition to the algebraic skeleton, four foundational documents
+from this era were committed as curated text under `legacy/reports/genesis/`:
+
+| File | Role | Committed? |
+|---|---|---|
+| `00_Conceptual_foundation.pdf` | The conceptual master document — three moves: φ^φ seed → θ-agnostic pivot → non-cancellation as sole core invariant. | Yes (verified no personal identifiers). |
+| `01_Master.txt` | First working conversation; seed formula, cosine-potential Lagrangian, honest critique that the cosine minimum is at zero (wrong). | No — git-ignored (PII). |
+| `02_Master_file_2.txt` | Numerical pipeline indexing (Phase II-A/B, Phase III cavity). | No — git-ignored (PII). |
+| `03_Master_phase3.txt` | Verification of Phase II/III/IV numerical outputs. | No — git-ignored (PII). |
+
+Per `legacy/reports/genesis/README.md`: these are **historical only**, not a source
+of claims. The cosine-potential numerical results are superseded by the derived
+cubic `V(τ) = κ(τ³/3 - τ²/2 - τ)` of P16. Their value is provenance — they show
+where the project's central question came from, before any of the current
+vocabulary existed.
+
+**Privacy note (2026-05-27):** this repo is public. The three raw `.txt`
+transcripts contain personal identifiers — third-party email addresses and the
+author's own contact details/name — so they are **git-ignored**
+(`legacy/reports/genesis/*.txt`) and kept only in the private archive at
+`legacy/raw/old/even older/e_origin axiom/` (§3.0). The committed PDF carries the
+conceptual content and is clean.
+
 ### 3.1 `old/even older/00a_OriginAxiom/`  (early `φ^φ` era — pre-GitHub)
 
 Not a git repo. The φ^φ era. Contents: `Axiom.pdf`, `Axiom-4.pdf`,

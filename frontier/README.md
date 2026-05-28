@@ -8,6 +8,12 @@ A result moves from here into the proven core (`../src/`) **only** by passing th
 `conditional → proven` gate in `GOVERNANCE.md` §5 — code, a test, scrutiny, and a
 logged status change.
 
-**Phase B has not started.** The first planned probe (B1) — whether the gluing
-identity maps onto the discrete Chern–Simons flatness condition — is described in
-`../ROADMAP.md`.
+**Phase B is in progress.** Probes logged so far:
+
+- **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
+  BKL/Gutzwiller, Wheeler–DeWitt.
+- **B6–B9** — the field-theoretic lift of the derived potential (P15/P16):
+  the field equation `□τ+κ(τ²−τ−1)=0` (B6), Fisher–KPP creation dynamics (B7),
+  the particle spectrum and the non-exact `m/g≈φ` near-miss (B8), and the
+  fusion–scattering shared polynomial (B9). Each carries its caveat; none is a
+  claim. See `../PROGRESS_LOG.md` 2026-05-27.

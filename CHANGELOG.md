@@ -26,6 +26,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   separate register). The project's goal becomes *exhaustively surveying* the
   mechanisms by which "nothing being unstable" could produce reality, with the
   *map of attempted paths* as the deliverable. First batch selected: E14, E11, E5.
+- **Session-3 synthesis** — the 2025 field-theory line reconnected to the algebraic
+  skeleton. Claims **P15** (Möbius generating vector field `v(τ)=−κ(τ²−τ−1)`) and
+  **P16** (derived potential `V(τ)=κ(τ³/3−τ²/2−τ)`) promoted to the proven core as
+  exact algebra about A, with tests (`src/origin_axiom/mobius.py`,
+  `tests/test_mobius_vector_field.py`, `tests/test_derived_potential.py`). Frontier
+  probes **B6–B9** added (field equation, Fisher–KPP creation, particle spectrum
+  with the non-exact `m/g≈φ` near-miss, fusion–scattering shared polynomial), each
+  with caveats. Synthesis doc + scripts under `docs/SESSION3_SYNTHESIS.md` and
+  `scripts/`. Four Oct-2025 genesis documents filed under `legacy/reports/genesis/`
+  (historical only). Ledger: **15 `proven`**, 4 `conditional`, 9 `open`, 10 `dead`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
