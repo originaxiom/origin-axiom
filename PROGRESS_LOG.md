@@ -677,5 +677,29 @@ suite before commit.
 
 ---
 
+## 2026-05-29 — Atlas/paper integration closure (R7)
+
+**Roadmap closure and merge gate.**
+
+Closed the public-safe atlas/paper integration roadmap on branch
+`roadmap/atlas-paper-integration`.
+
+- Updated `docs/atlas/INTEGRATION_MANIFEST.md` so it no longer points to the old
+  "R0 only" decision. The manifest now marks R0-R6 complete and records R7 as
+  the closure batch.
+- Recorded the merge gate: clean integration branch, full test suite, branch-wide
+  public-safety scan, diff hygiene, no raw/private artifacts, and public log
+  entries.
+- Planned final integrated tag: `atlas-paper-integration-v1`.
+
+No claims changed. This is roadmap closure for already-curated documentation and
+paper-candidate infrastructure.
+
+Verification target for this batch: staged public-safety scan, diff hygiene,
+full test suite, branch-wide private-material check, merge to `main`, and tag if
+clean.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

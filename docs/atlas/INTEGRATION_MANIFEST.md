@@ -62,9 +62,11 @@ no large campaign JSONL/result logs
 no claims beyond CLAIMS.md status labels
 ```
 
-## First Migration Batches
+## Migration Batches
 
 ### R0 -- This Manifest
+
+Status: complete (`e1bf927`).
 
 Destination:
 
@@ -81,6 +83,8 @@ make migration auditable before adding atlas or paper content
 ```
 
 ### R1 -- Atlas Skeleton
+
+Status: complete (`973e77f`).
 
 Public-safe source material:
 
@@ -111,6 +115,8 @@ preserve governance boundaries
 ```
 
 ### R2 -- Paper Candidate Registry
+
+Status: complete (`a34df57`).
 
 Public-safe source material:
 
@@ -143,6 +149,8 @@ PC01 remains a later obstruction-atlas candidate
 ```
 
 ### R3 -- Quantum Selector Campaign Synthesis
+
+Status: complete (`7ef8e77`).
 
 Private source material:
 
@@ -177,6 +185,8 @@ main obstruction: missing selector/functor/units/observable bridge
 
 ### R4 -- PC02 External-Review Packet
 
+Status: complete (`b8ddd5a`).
+
 Canonical source:
 
 ```text
@@ -200,6 +210,8 @@ write torsion lemma as the missing paper-grade proof task
 ```
 
 ### R5 -- PC04 Noncommutative Residue
+
+Status: complete (`19c2e66`).
 
 Private source material:
 
@@ -225,6 +237,8 @@ make distinguishability -> order a theorem task, not a slogan
 ```
 
 ### R6 -- PC06 State-Integral Selector
+
+Status: complete (`d9a38cb`).
 
 Private source material:
 
@@ -315,7 +329,40 @@ no private contact data
 no accidental credentials
 ```
 
+## Closure Batch
+
+### R7 -- Integration Closure And Merge Gate
+
+Status: in progress.
+
+Purpose:
+
+```text
+mark R0-R6 complete
+record the final QA gate
+merge the integration branch only if branch-wide checks pass
+tag the integrated state after merge
+```
+
+Merge gate:
+
+```text
+git status clean on roadmap/atlas-paper-integration
+python -m pytest -q passes
+git diff --check main...roadmap/atlas-paper-integration passes
+branch-wide public-safety scan passes
+no raw/private files detected in changed paths
+CHANGELOG.md and PROGRESS_LOG.md include closure entry
+```
+
+Planned tag after merge:
+
+```text
+atlas-paper-integration-v1
+```
+
 ## Current Decision
 
-Proceed with R0 only first. After R0 is committed and reviewed, continue with R1
+R0-R6 are complete on `roadmap/atlas-paper-integration`. Proceed with R7 closure,
+final QA, merge to `main` if clean, and tag `atlas-paper-integration-v1`.
 atlas skeleton.

@@ -57,6 +57,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - State-integral selector-gap dossier added as an atlas node, with the PC06 paper
   card updated to frame the route as an expertise-bound theorem question rather
   than a solved bridge.
+- Atlas/paper integration roadmap closed through R7: manifest now marks R0-R6
+  complete and records the final QA, merge, and tag gate for
+  `atlas-paper-integration-v1`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
