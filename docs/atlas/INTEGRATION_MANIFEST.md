@@ -333,7 +333,7 @@ no accidental credentials
 
 ### R7 -- Integration Closure And Merge Gate
 
-Status: in progress.
+Status: complete (`f92b579`, merged to `main`, tagged `atlas-paper-integration-v1`).
 
 Purpose:
 
@@ -363,6 +363,6 @@ atlas-paper-integration-v1
 
 ## Current Decision
 
-R0-R6 are complete on `roadmap/atlas-paper-integration`. Proceed with R7 closure,
-final QA, merge to `main` if clean, and tag `atlas-paper-integration-v1`.
-atlas skeleton.
+R0-R7 are complete. `main` contains the atlas/paper integration v1 state, tagged
+as `atlas-paper-integration-v1`. Future work should proceed as new focused
+branches, starting with the PC02 conditional-uniqueness review track.

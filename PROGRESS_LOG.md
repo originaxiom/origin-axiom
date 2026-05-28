@@ -701,5 +701,24 @@ clean.
 
 ---
 
+## 2026-05-29 — Post-merge integration manifest cleanup
+
+**Cleanup after `atlas-paper-integration-v1`; no tag movement.**
+
+After merging `roadmap/atlas-paper-integration` into `main` and pushing tag
+`atlas-paper-integration-v1`, cleaned the manifest wording so the public roadmap
+matches repository reality.
+
+- `docs/atlas/INTEGRATION_MANIFEST.md` now marks R7 complete.
+- Removed stale "R0 only / atlas skeleton" residue from the manifest's current
+  decision section.
+- Recorded that future work should proceed on new focused branches, beginning
+  with PC02 conditional uniqueness.
+
+No claims changed. The existing `atlas-paper-integration-v1` tag remains
+unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

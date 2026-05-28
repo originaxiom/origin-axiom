@@ -60,6 +60,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Atlas/paper integration roadmap closed through R7: manifest now marks R0-R6
   complete and records the final QA, merge, and tag gate for
   `atlas-paper-integration-v1`.
+- Post-merge manifest cleanup: R7 marked complete after merge/tag, and stale
+  closure wording removed. Existing `atlas-paper-integration-v1` tag left
+  unchanged.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
