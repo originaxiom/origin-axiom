@@ -592,5 +592,31 @@ suite before commit.
 
 ---
 
+## 2026-05-28 — PC02 external-review packet (R4)
+
+**Review handoff, not new theorem content.**
+
+Implemented the fourth integration batch on branch
+`roadmap/atlas-paper-integration`: a concise external-review packet for the
+conditional uniqueness paper candidate.
+
+- Added `papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md`.
+- The packet gives a reviewer the target statement, files to read, reproduction
+  commands, algebra to check, order caveat, non-claims, draft-readiness checklist,
+  and review questions.
+- The packet isolates the paper-grade missing lemma:
+  `H1(mapping torus of B) = Z plus coker(B - I)`, with torsion order
+  `|det(B - I)|` when the determinant is nonzero.
+- The packet enforces the no-overclaim boundary: C1 stays conditional; A1-A7 are
+  not derived from nothing; LR/RL order is not forced from weaker data; B6-B9
+  physical lifts are not proven.
+
+No claims changed. This batch prepares PC02 for external mathematical review.
+
+Verification target for this batch: staged public-safety scan and full test
+suite before commit.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

@@ -48,6 +48,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Quantum selector campaign summarized under `docs/atlas/campaigns/`: public-safe
   synthesis of the 232-cycle run, preserving verdict counts, survivors, killed
   routes, stalled bridge classes, and theorem questions without raw run artifacts.
+- PC02 external-review packet added, giving reviewers a concise audit path for
+  the conditional uniqueness theorem, its tests, caveats, and missing topology
+  lemma.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
