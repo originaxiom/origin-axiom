@@ -28,6 +28,7 @@ tests/test_uniqueness_theorem.py
 CLAIMS.md
 papers/candidates/PC02_conditional_uniqueness/PAPER_CARD.md
 papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
+papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md
 ```
 
 Secondary:
@@ -154,7 +155,7 @@ Before PC02 becomes `DRAFTABLE`, it needs:
 
 ```text
 external check of the mapping-torus homology lemma
-one-page statement of axioms with motivation and limitations for a draft
+one-page statement of axioms with motivation and limitations for the draft body
 explicit LR/RL order section
 table separating proven P-claims from conditional C1
 reproduction appendix naming the exact tests

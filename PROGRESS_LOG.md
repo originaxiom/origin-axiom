@@ -745,5 +745,24 @@ of the topology step already used by the theorem document and tests.
 
 ---
 
+## 2026-05-29 — PC02 external-review brief
+
+**Review-ready handoff, not public draft.**
+
+Completed the final PC02 wording pass on branch
+`paper/pc02-conditional-uniqueness`.
+
+- Added `papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md`.
+- Tightened the PC02 paper card and review packet so the current state is
+  "ready for external mathematical review," not publication-ready.
+- Advanced PC02 readiness from `EVIDENCE_EXISTS` to `NEEDS_VALIDATION` in both
+  `papers/CANDIDATES.md` and the paper card, reflecting that the evidence and
+  proof packet exist but still need outside mathematical review before becoming
+  `DRAFTABLE`.
+
+No claims changed. C1 remains conditional.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

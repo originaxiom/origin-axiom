@@ -22,7 +22,7 @@ HISTORICAL_ARCHIVE
 | ID | Working title | Type | Readiness | Core value | Main risk |
 |---|---|---:|---:|---|---|
 | PC01 | Obstruction Atlas for Emergence-from-Nothing Arguments | SURVEY_MAP / NEGATIVE_RESULT | EVIDENCE_EXISTS | Governed map of paths that stall at source, selector, measure, unit, dictionary, or observable insertion. | Must avoid claiming a universal no-go theorem. |
-| PC02 | Conditional Uniqueness of the Origin Axiom Core | CONDITIONAL_THEOREM | EVIDENCE_EXISTS | `A1-A7 -> A = LR`, up to order, then P1-P16; machine-checked in the canonical repo. | Substrate and order are inserted; torsion lemma needs paper-grade proof. |
+| PC02 | Conditional Uniqueness of the Origin Axiom Core | CONDITIONAL_THEOREM | NEEDS_VALIDATION | `A1-A7 -> A = LR`, up to order, then P1-P16; machine-checked in the canonical repo with the torsion lemma now written. | Substrate and order are inserted; needs outside mathematical review. |
 | PC03 | Negative Results Register | NEGATIVE_RESULT | EVIDENCE_EXISTS | Hidden phase, conjugacy collapse, and mode-frustration-floor routes were killed by exact or constructive checks. | Needs consolidation into precise statements. |
 | PC04 | Noncommutative Cancellation Residue | THEOREM_NOTE / SPECULATIVE_MODEL | EVIDENCE_EXISTS | Ordered inverse operations can leave a real residue where commutative cancellation leaves none. | "Distinguishability implies order" must be formalized. |
 | PC05 | Exhaustive Mechanism Survey Methodology | METHODS_PAPER | SEED | Verdict labels, failure registers, and bounded campaigns form a reproducible method for speculative foundations. | May be too meta without concrete case studies. |
@@ -35,7 +35,7 @@ HISTORICAL_ARCHIVE
 ## Highest Priority
 
 PC02 is the first ship target because it has a precise theorem statement,
-tests, and a bounded missing proof task. PC04 and PC06 are the next two
+tests, and a paper-support topology lemma ready for outside review. PC04 and PC06 are the next two
 structured candidates because the latest campaign sharpened them into clear
 mathematical programs rather than broad speculation.
 
