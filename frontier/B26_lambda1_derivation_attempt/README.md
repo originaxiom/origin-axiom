@@ -1,12 +1,12 @@
-# Probe B26 -- `lambda=1` derivation attempt
+# Probe B26 -- `lambda/h=1` derivation attempt
 
 > **Speculative frontier work.** Logged observations only. Nothing here is a
 > claim.
 
 ## Question
 
-Can `lambda=1` in the Fibonacci Hamiltonian be derived from the half-step
-kernel, or is it an additional self-dual coupling choice?
+Can dimensionless `lambda/h=1` in the Fibonacci Hamiltonian be derived from the
+half-step kernel, or is it an additional self-dual coupling choice?
 
 ## Result
 
@@ -25,8 +25,8 @@ linearization if and only if:
 4c^2 - 2 = 3
 c^2 = 5/4
 I = c^2 - 1 = 1/4
-lambda^2/4 = 1/4
-lambda = 1    (positive coupling convention)
+(lambda/h)^2/4 = 1/4
+lambda/h = 1    (positive coupling convention)
 ```
 
 ## Caveat
@@ -41,13 +41,13 @@ sign-flipping half-return:
 The literal return is period 6, and the `T^6` multiplier does **not** contain
 `A`'s characteristic polynomial at `I=1/4`.
 
-Therefore `lambda=1` is selected by an additional projective/sign-quotient
+Therefore `lambda/h=1` is selected by an additional projective/sign-quotient
 self-reference criterion. That criterion is natural in the trace/character
 setting, but it has not yet been derived from A1-A7 plus exchange symmetry.
 
 ## Lucas Hierarchy
 
-The same projective half-return criterion does not only select `lambda=1`.
+The same projective half-return criterion does not only select `lambda/h=1`.
 Matching the half-return quadratic to the characteristic polynomial of `F^n` for
 even `n` gives:
 
@@ -55,13 +55,13 @@ even `n` gives:
 char(F^n) = t^2 - L_n t + 1
 4c^2 - 2 = L_n
 I = c^2 - 1 = (L_n - 2)/4
-lambda^2 = 4I = L_n - 2
+(lambda/h)^2 = 4I = L_n - 2
 ```
 
 For `n=2,4,6,8,10,...`:
 
 ```text
-lambda^2 = 1, 5, 16, 45, 121, ...
+(lambda/h)^2 = 1, 5, 16, 45, 121, ...
 ```
 
 The ratios converge to `phi^2`. This is exact algebra under the same projective
@@ -76,16 +76,16 @@ char(DT^6) = (t-1)(t^2 - (16c^4+2)t + 1)
 ```
 
 Matching `A` then solves `c^2=1/4` over real `c`, hence `I=-3/4` and
-`lambda^2=-3` under the B25 convention. Therefore the full-return criterion does
-**not** select the B25 `lambda=1` surface. The half-return/projective distinction
-is load-bearing.
+`(lambda/h)^2=-3` under the B25 convention. Therefore the full-return criterion
+does **not** select the B25 `lambda/h=1` surface. The half-return/projective
+distinction is load-bearing.
 
 ## Verdict
 
 `STALLED`, strengthened from B25:
 
 ```text
-lambda=1 is the first member of an exact Lucas hierarchy selected by projective
+lambda/h=1 is the first member of an exact Lucas hierarchy selected by projective
 half-return self-similarity, but the projective criterion itself remains an
 added rule.
 ```

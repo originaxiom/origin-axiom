@@ -32,10 +32,19 @@ B23 BKL / gravity controls
 B24 anyon / quantum bridge
 
 B25 Fibonacci spectrum anchor
-  depends on B18/B22 and tests the lambda=1 spectral bridge
+  depends on B18/B22 and tests the lambda/h=1 spectral bridge
 
-B26 lambda=1 derivation attempt
-  tests whether projective half-return self-similarity derives lambda=1
+B26 lambda/h=1 derivation attempt
+  tests whether projective half-return self-similarity derives lambda/h=1
+
+B27 SL(3) Fibonacci trace lift
+  extends the trace-lift calculation to higher-rank character data
+
+B28 projective quotient legitimacy
+  controls whether the B26 sign quotient is canonical in lift-independent data
+
+B29 hierarchy/normalization controls
+  audits the Lucas hierarchy, full-return control, and lambda/h normalization
 ```
 
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
@@ -65,10 +74,25 @@ B26 lambda=1 derivation attempt
   canonical half-step trace lift; B19/B17/B22 control the exchange, alternation,
   and spectrum claims; B20/B21/B23/B24 test awareness, spacetime, gravity, and
   anyon dictionaries and leave them stalled where no dictionary is derived.
-- **B25** — Fibonacci spectrum anchor. Finite approximants at `lambda=1`
+- **B25** — Fibonacci spectrum anchor. Finite approximants at dimensionless
+  `lambda/h=1`
   support a mid-scale box-counting slope near `0.75` and pass strict
-  gap-labeling controls, but `lambda=1` remains motivated rather than derived.
-- **B26** — `lambda=1` derivation attempt. Exact algebra shows `lambda=1` is
+  gap-labeling controls, but `lambda/h=1` remains motivated rather than derived.
+- **B26** — `lambda/h=1` derivation attempt. Exact algebra shows `lambda/h=1` is
   uniquely selected by projective half-return self-similarity, but the
   projective half-return criterion itself remains an added rule. Verdict:
   `STALLED`, with B25 strengthened but not promoted.
+- **B27** — `SL(3)` Fibonacci trace lift. Exact algebra gives an
+  eight-dimensional trace map whose fixed-point Jacobian factors into golden
+  sectors `(t-1)(t+1)(t²-4t-1)(t²-3t+1)(t²+t-1)`. The `A` sector survives and
+  the commutator trace pair swaps under the half-step. Physical
+  particle/antiparticle language is rejected as an unbuilt dictionary.
+- **B28** — projective quotient legitimacy. The B26 sign flip is legitimate as
+  a central-sign / `PSL` lift ambiguity at the special orbit, and the trace map
+  is equivariant under that sign action. The choice to use the quotient as a
+  selector remains an added bridge criterion.
+- **B29** — hierarchy and normalization controls. The Lucas hierarchy selects
+  dimensionless `(lambda/h)^2=L_n-2` under the projective criterion; literal
+  full-return matching gives a different hierarchy. Finite spectral controls at
+  the first hierarchy values pass gap-labeling checks, but no physical
+  prediction is promoted.

@@ -845,10 +845,12 @@ Added `frontier/B15_trace_map_invariant_controls/` on branch
 - Exact result: the discrete trace map preserves the Fricke-Vogt invariant
   `I=x^2+y^2+z^2-2xyz-1`; the naive continuum proxy fails this at
   `(3/2,1,3/2)` on `I=0`, where `dI/dt=-5/4`.
-- Correction: using the usual Fibonacci initial-line normalization
-  `x=(E-lambda)/2`, `y=E/2`, `z=1`, the invariant is `I=lambda^2/4`.
-  Therefore `I(1,1,3/2)=1/4` gives `lambda=+/-1`, not `sqrt(5)`. The proposed
-  `sqrt(5)` coupling requires a shifted convention and is not accepted here.
+- Correction: using the usual Fibonacci initial-line normalization with
+  hopping `h=1`, `x=(E-lambda)/2`, `y=E/2`, `z=1`, the invariant is
+  `I=lambda^2/4`. More generally, `I=(lambda/h)^2/4`. Therefore
+  `I(1,1,3/2)=1/4` gives dimensionless `lambda/h=+/-1`, not `sqrt(5)`. The
+  proposed `sqrt(5)` coupling requires a shifted convention and is not accepted
+  here.
 - Caveat: labels such as "nothing", "awareness", or "existence" for different
   `I`-surfaces remain semantic overlays; the exact result is only invariant
   separation.
@@ -900,7 +902,8 @@ review without merging it to `main`:
 - Added and executed `frontier/B26_lambda1_derivation_attempt/`. Exact algebra
   confirms the proposed selector:
   `char(DT^3 at (0,0,c))=(t+1)(t^2-(4c^2-2)t+1)`, so matching the `A`
-  quadratic forces `c^2=5/4`, hence `I=1/4` and positive `lambda=1`.
+  quadratic forces `c^2=5/4`, hence `I=1/4` and positive dimensionless
+  `lambda/h=1`.
 - Control: `(0,0,c)` is not a literal period-3 orbit of the signed trace map;
   `T^3(0,0,c)=(0,0,-c)` and the literal `T^6` return gives
   `t^2-27t+1` at `I=1/4`, not `A`'s polynomial.
@@ -909,14 +912,49 @@ review without merging it to `main`:
   projective/sign-quotient criterion that is not derived from A1-A7.
 - Extension: the same projective criterion gives an exact Lucas hierarchy for
   even `n`: `char(F^n)=t^2-L_n t+1`, so
-  `I=(L_n-2)/4` and `lambda^2=L_n-2 = 1,5,16,45,121,...`.
+  `I=(L_n-2)/4` and `(lambda/h)^2=L_n-2 = 1,5,16,45,121,...`.
   This is exact algebra under the criterion, not yet a physical spectrum.
 - Full-return control: literal `T^6` matching of the `A` sector selects real
-  `c^2=1/4`, hence `I=-3/4` and `lambda^2=-3` under the B25 normalization. The
-  projective half-return distinction is therefore material.
+  `c^2=1/4`, hence `I=-3/4` and `(lambda/h)^2=-3` under the B25 normalization.
+  The projective half-return distinction is therefore material.
 
-Ledger unchanged: B13-B26 remain frontier-only; `lambda=1` remains motivated by
-a sharper selector, not unconditionally derived.
+Ledger unchanged: B13-B26 remain frontier-only; `lambda/h=1` remains motivated
+by a sharper selector, not unconditionally derived.
+
+---
+
+## 2026-05-29 — B27-B29 higher-rank and selector controls
+
+**Extended the trace-map campaign; no claim promotion.**
+
+Added B27-B29 as controlled follow-ups to the B26 selector:
+
+- **B27 `SL(3)` Fibonacci trace lift:** derived and verified the
+  eight-coordinate `SL(3)` trace lift of `sigma(a)=ab, sigma(b)=a`. At the
+  trivial representation, the Jacobian factors as
+  `(t-1)(t+1)(t^2-4t-1)(t^2-3t+1)(t^2+t-1)`, with eigenvalues
+  `phi^3, phi^2, -phi, 1, -1, 1/phi, 1/phi^2, -1/phi^3`. The `A` quadratic
+  survives, but the fixed-point decomposition is symmetric/antisymmetric under
+  inverse-trace pairing; direct/inverse trace distinctions are not promoted to
+  particle/antiparticle physics.
+- **B28 projective quotient legitimacy:** proved the central sign action
+  `S(sa,sb)(x,y,z)=(sa*x,sb*y,sa*sb*z)` is compatible with the half-step trace
+  map via `T(S(sa,sb)p)=S(sa*sb,sa)T(p)`. Thus the B26
+  `T^3(0,0,c)=(0,0,-c)` identification is legitimate after passing to
+  central-sign / `PSL` data. The remaining gap is still the selector: choosing
+  that quotient as the self-similarity criterion is not derived from A1-A7.
+- **B29 hierarchy and normalization controls:** separated absolute `lambda`
+  from the dimensionless ratio `lambda/h`. Under the B26 projective criterion,
+  even `n` gives `(lambda/h)^2=L_n-2 = 1,5,16,45,121,320,...`; literal
+  full-return matching gives a different hierarchy
+  `(lambda/h)^2=sqrt(L_n-2)-4`. Finite spectra at the first projective values
+  `lambda/h=1,sqrt(5),4` pass top-gap labeling controls, validating the
+  computation but not deriving a physical spectrum.
+
+Verdict unchanged: B25-B29 strengthen the trace-map/spectrum bridge as exact
+and reproducible frontier evidence. They do not promote `lambda/h=1`, a
+physical dictionary, or any awareness/particle/spacetime interpretation into
+the core.
 
 ---
 
@@ -926,8 +964,8 @@ a sharper selector, not unconditionally derived.
 
 Added `frontier/B25_fibonacci_spectrum_anchor/` as a controlled replacement for
 the local exploratory spectrum scripts. The probe uses tridiagonal
-diagonalization of finite Fibonacci Hamiltonian approximants at `lambda=1`, not
-brute-force random energy sampling.
+diagonalization of finite Fibonacci Hamiltonian approximants at dimensionless
+`lambda/h=1` with `h=1`, not brute-force random energy sampling.
 
 - Gap-labeling control: largest finite-approximant gaps match Fibonacci
   gap-label residuals below `5e-4` in the default run. This validates the
@@ -937,11 +975,11 @@ brute-force random energy sampling.
   slopes. The mid-scale slope is near `0.75`, but the result is explicitly not
   promoted to an exact Hausdorff dimension. Window sensitivity and finite-size
   saturation are part of the output.
-- Bridge status: `I0(lambda)=lambda^2/4`, so `lambda=1` gives `I0=1/4`. This is
+- Bridge status: `I0=(lambda/h)^2/4`, so `lambda/h=1` gives `I0=1/4`. This is
   the same invariant surface used in the figure-eight trace-map normalization,
   but B18 functoriality holds for all invariant surfaces. The status of
-  `lambda=1` is therefore **MOTIVATED**, not derived.
-- Verdict: `STALLED` at deriving the coupling. If `lambda=1` is accepted as an
+  `lambda/h=1` is therefore **MOTIVATED**, not derived.
+- Verdict: `STALLED` at deriving the coupling. If `lambda/h=1` is accepted as an
   additional motivated input, the spectrum is a useful empirical/numerical
   anchor. Without a derivation, it is not a falsifiable prediction of the core.
 

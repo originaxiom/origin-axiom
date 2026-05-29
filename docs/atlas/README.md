@@ -74,8 +74,10 @@ machine-checked. The from-nothing direction remains mapped as an obstruction:
 every route that tries to get dynamics, measure, selector, units, or observable
 content from no structure stalls by inserting one of those objects.
 
-The latest frontier layer (B13-B25) sharpens the trace-map branch: the half-step
-trace lift is canonical, the special `A` quadratic sector is isolated, and the
-Fibonacci Hamiltonian at `lambda=1` gives a strong finite-approximant numerical
-anchor. Those remain atlas/frontier observations because `lambda=1` and the
-physical dictionary are motivated, not derived.
+The latest frontier layer (B13-B29) sharpens the trace-map branch: the half-step
+trace lift is canonical, the special `A` quadratic sector is isolated, the
+`SL(3)` lift preserves that sector as higher-rank trace algebra, and the
+Fibonacci Hamiltonian at dimensionless `lambda/h=1` gives a strong
+finite-approximant numerical anchor. Those remain atlas/frontier observations
+because the projective selector and physical dictionary are motivated, not
+derived.

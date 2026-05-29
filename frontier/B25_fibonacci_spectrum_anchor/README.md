@@ -6,7 +6,7 @@
 ## Question
 
 Does the half-step trace-map bridge give a repo-grade empirical anchor through
-the Fibonacci Hamiltonian spectrum at `lambda=1`?
+the Fibonacci Hamiltonian spectrum at dimensionless `lambda/h=1`?
 
 ## Controls
 
@@ -14,18 +14,19 @@ the Fibonacci Hamiltonian spectrum at `lambda=1`?
 - dimension estimates include window-sensitivity controls;
 - gap-labeling is treated as a code sanity check against known Fibonacci
   Hamiltonian mathematics, not as a discovery;
-- `lambda=1` is classified as `DERIVED`, `MOTIVATED`, or `INSERTED`;
-- no physical prediction language unless `lambda=1` is derived from the core.
+- `lambda/h=1` is classified as `DERIVED`, `MOTIVATED`, or `INSERTED`;
+- no physical prediction language unless `lambda/h=1` is derived from the core.
 
 ## Result
 
 The finite approximants support a spectral box-counting dimension near `0.75`
 on mid-scale windows and show strict Fibonacci gap labeling for the largest
-gaps. The bridge status of `lambda=1` is **MOTIVATED**, not derived:
+gaps. With hopping normalized to `h=1`, the bridge status of `lambda/h=1` is
+**MOTIVATED**, not derived:
 
 ```text
-I0(lambda)=lambda^2/4
-lambda=1 -> I0=1/4
+I0(lambda/h)=(lambda/h)^2/4
+lambda/h=1 -> I0=1/4
 ```
 
 This places the Fibonacci Hamiltonian on the same Fricke-Vogt invariant surface
@@ -36,8 +37,9 @@ sufficient derivation.
 
 ## Verdict
 
-`STALLED`: the spectrum is a strong empirical/numerical anchor if `lambda=1` is
-accepted, but `lambda=1` remains motivated rather than forced.
+`STALLED`: the spectrum is a strong empirical/numerical anchor if
+`lambda/h=1` is accepted, but `lambda/h=1` remains motivated rather than
+forced.
 
 ## Literature Control
 

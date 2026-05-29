@@ -1,7 +1,7 @@
-"""B26 -- lambda=1 derivation attempt.
+"""B26 -- lambda/h=1 derivation attempt.
 
 Tests whether the proposed period-3 trace-map argument derives the Fibonacci
-Hamiltonian coupling lambda=1.
+Hamiltonian dimensionless coupling lambda/h=1.
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ def iterate(state: sp.Matrix, n: int) -> sp.Matrix:
 
 def main() -> None:
     print("=" * 72)
-    print("B26 -- lambda=1 derivation attempt")
+    print("B26 -- lambda/h=1 derivation attempt")
     print("SPECULATIVE: observations only, not claims")
     print("=" * 72)
 
@@ -73,7 +73,7 @@ def main() -> None:
     print("\n[4] coupling consequence")
     lam = sp.symbols("lambda", positive=True)
     selected_lambda = sp.solve(sp.Eq(lam**2 / 4, selected_i), lam)[0]
-    print(f"    lambda^2/4=1/4 with lambda>0 gives lambda = {selected_lambda}")
+    print(f"    (lambda/h)^2/4=1/4 with lambda/h>0 gives lambda/h = {selected_lambda}")
     assert selected_lambda == 1
 
     print("\n[5] Lucas hierarchy under the projective criterion")
@@ -87,14 +87,14 @@ def main() -> None:
         lambda_sq_values.append(hierarchy_lambda_sq)
         print(
             f"    n={n}: L_n={trace}, I={hierarchy_i}, "
-            f"lambda^2={hierarchy_lambda_sq}, c^2={hierarchy_c_sq}"
+            f"(lambda/h)^2={hierarchy_lambda_sq}, c^2={hierarchy_c_sq}"
         )
         half_return_quadratic = t**2 - (4 * hierarchy_c_sq - 2) * t + 1
         assert sp.factor(half_return_quadratic - (F**n).charpoly(t).as_expr()) == 0
     assert lambda_sq_values[:5] == [1, 5, 16, 45, 121]
 
     print("\nVerdict: STALLED")
-    print("lambda=1 is the first member of an exact Lucas hierarchy selected by")
+    print("lambda/h=1 is the first member of an exact Lucas hierarchy selected by")
     print("projective half-return self-similarity; the projective criterion remains")
     print("an added selection rule.")
 

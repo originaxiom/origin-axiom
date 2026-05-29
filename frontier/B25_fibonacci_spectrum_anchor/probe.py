@@ -6,7 +6,7 @@ It keeps the useful finite-approximant numerics and rejects overclaims:
 * box-counting estimates are finite-approximant slopes, not exact Hausdorff
   dimensions;
 * gap labeling is a known Fibonacci-Hamiltonian control, not a discovery;
-* lambda=1 is classified explicitly as motivated rather than derived.
+* lambda/h=1 is classified explicitly as motivated rather than derived.
 """
 
 from __future__ import annotations
@@ -183,15 +183,15 @@ def main() -> None:
     assert 0.65 < last.dimension_mid < 0.85
     assert last.dimension_mid > SUTO_LOWER_BOUND
 
-    print("\n[2] lambda=1 bridge status")
+    print("\n[2] lambda/h=1 bridge status")
     invariant = args.lambda_value**2 / 4.0
     status = lambda_status(args.lambda_value)
-    print(f"    I0(lambda)=lambda^2/4 = {invariant:.6f}")
+    print(f"    I0=(lambda/h)^2/4 = {invariant:.6f}  (h=1 in this probe)")
     print(f"    lambda status: {status}")
     assert status == "MOTIVATED"
 
     print("\nVerdict: STALLED")
-    print("Finite spectra give a strong anchor; lambda=1 is motivated, not derived.")
+    print("Finite spectra give a strong anchor; lambda/h=1 is motivated, not derived.")
 
 
 if __name__ == "__main__":

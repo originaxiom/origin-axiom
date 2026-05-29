@@ -4,8 +4,8 @@
 
 ## What was tested
 
-The proposed derivation of `lambda=1` from the period-3 orbit of the Fibonacci
-trace map:
+The proposed derivation of dimensionless `lambda/h=1` from the period-3 orbit
+of the Fibonacci trace map:
 
 ```text
 T(x,y,z) = (z, x, 2xz-y)
@@ -26,7 +26,7 @@ Matching the `A` sector requires:
 4c^2 - 2 = 3
 c^2 = 5/4
 I = c^2 - 1 = 1/4
-lambda = 1
+lambda/h = 1
 ```
 
 under positive-coupling convention.
@@ -52,20 +52,21 @@ At `c^2=5/4`, this is `t^2-27t+1`, not `t^2-3t+1`.
 
 **`STALLED`**
 
-The computation strengthens the motivation for `lambda=1`: it is the first
+The computation strengthens the motivation for `lambda/h=1`: it is the first
 member of an exact Lucas hierarchy selected by the projective half-return
 linearization:
 
 ```text
 char(F^n)=t^2-L_n t+1       (n even)
 I=(L_n-2)/4
-lambda^2=L_n-2
-lambda^2 = 1, 5, 16, 45, 121, ...
+(lambda/h)^2=L_n-2
+(lambda/h)^2 = 1, 5, 16, 45, 121, ...
 ```
 
-It does not yet derive `lambda=1` from the existing core, because the projective
-half-return self-similarity criterion is an additional selection rule.
+It does not yet derive `lambda/h=1` from the existing core, because the
+projective half-return self-similarity criterion is an additional selection
+rule.
 
 The literal full-return control selects a different, non-B25 surface for the
-`A` sector: real `c^2=1/4`, hence `I=-3/4` and `lambda^2=-3` under the B25
+`A` sector: real `c^2=1/4`, hence `I=-3/4` and `(lambda/h)^2=-3` under the B25
 normalization. The half-return/projective distinction is therefore material.
