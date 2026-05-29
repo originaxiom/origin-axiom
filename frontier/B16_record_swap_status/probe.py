@@ -76,6 +76,48 @@ def main() -> None:
     print("    F=L P and F^2=A")
     print("    sign ambiguity in P only gives +/-F")
 
+    print("\n[6] Minimality controls for weaker conditions")
+    candidates = []
+    for a in range(-8, 9):
+        for b in range(-8, 9):
+            for c in range(-8, 9):
+                for d in range(-8, 9):
+                    X = sp.Matrix([[a, b], [c, d]])
+                    if X.det() in (-1, 1):
+                        candidates.append(X)
+
+    det_minus_involutions = [
+        X for X in candidates if X.det() == -1 and X**2 == I
+    ]
+    assert len(det_minus_involutions) > 2
+    print(f"    det=-1 involution alone leaves {len(det_minus_involutions)} candidates")
+
+    maps_L_to_R_up_to_orientation = [
+        X
+        for X in det_minus_involutions
+        if X * L * X.inv() in (R, R.inv())
+    ]
+    assert maps_L_to_R_up_to_orientation == [-P, P]
+    print("    det=-1 involution mapping L to R^(+/-1) gives +/-P")
+
+    conjugates_A_to_RL = [
+        X for X in det_minus_involutions if X * A * X.inv() == R * L
+    ]
+    assert conjugates_A_to_RL == [-P, P]
+    print("    det=-1 involution conjugating A to RL gives +/-P")
+
+    half_step_factors = [X for X in candidates if (L * X) ** 2 == A]
+    assert half_step_factors == [-P, P]
+    print("    requiring (L X)^2=A gives +/-P even without separately asking X^2=I")
+
+    time_reversals = [
+        X
+        for X in det_minus_involutions
+        if X * A * X.inv() == A.inv()
+    ]
+    assert len(time_reversals) > 2
+    print(f"    det=-1 involutive time reversal of A leaves {len(time_reversals)} candidates")
+
     print("\nVerdict: STALLED")
     print("P is unique if exchange symmetry is required; exchange symmetry is not derived.")
 

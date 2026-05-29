@@ -874,8 +874,13 @@ Added `frontier/B16_record_swap_status/` on branch
   `+/-F`.
 - Caveat: A1-A6 do not derive the exchange-symmetry requirement. `P` is forced
   only after adding a plausible but additional substrate-exchange axiom.
+- Minimality addendum: several weaker conditions were tested. Plain
+  orientation-reversing involution is too weak. The operational half-step
+  condition `(L X)^2=A` is sufficient and gives exactly `X=+/-P`; so does
+  requiring `X A X^-1=RL`. By contrast, generic orientation-reversing
+  time-reversal of `A` leaves many candidates.
 
-Verdict: `STALLED` at deriving exchange symmetry. No claims changed.
+Verdict: `STALLED` at deriving exchange/half-step symmetry. No claims changed.
 
 ---
 

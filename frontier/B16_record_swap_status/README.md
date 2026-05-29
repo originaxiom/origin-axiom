@@ -52,5 +52,7 @@ or as an inserted operation.
 
 ## Verdict
 
-`STALLED` at exchange symmetry. `P` is unique once the exchange-symmetry problem
-is asked, but the existing axioms do not force asking it.
+`STALLED` at exchange/half-step status. `P` is unique once the exchange-symmetry
+problem is asked, and it is also unique under the operational condition
+`(L X)^2=A`. But the existing axioms do not force asking for either a swap or a
+half-step.
