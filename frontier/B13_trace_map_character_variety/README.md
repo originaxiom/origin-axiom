@@ -48,6 +48,7 @@ the `A = LR` spine, and where the interpretation stalls.
 - the iterate spectrum gives the arithmetic tower `2N log(phi)`;
 - the linear proxy `J-I` has eigenvalues `phi, -1/phi, -2`;
 - `det(J)=-1`, `det(J^2)=1`, and the absolute eigenvalue product is `1`.
+- genericity controls for the symmetric-square lift of nearby `GL(2,Z)` matrices.
 
 ## Caveats
 
@@ -65,6 +66,9 @@ not earned by the computation:
 - Awareness or self-modeling: the invariant can be described operationally as a
   conserved classifier of the trace-map dynamics; no claim about consciousness
   or phenomenal awareness is made.
+- Direct self-containment: the `A` sector appears for the primitive
+  orientation-reversing Fibonacci half-step `F` whose square is `A`; the direct
+  monodromy `A` gives an `A^2` sector in the symmetric-square trace lift.
 
 ## Verdict
 

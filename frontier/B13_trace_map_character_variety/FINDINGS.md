@@ -79,13 +79,30 @@ This is a clean algebraic splitting. It is not yet a physical mass splitting.
 
 ## Controls
 
-The same calculation also prevents two over-readings:
+The same calculation also prevents three over-readings:
 
 - The local `x=z=1+eps` family is not a family of trace-map fixed points.
   The trace map fixed points are only `(0,0,0)` and `(1,1,1)`.
 - The continuum proxy `J-I` gives eigenvalues `phi, -1/phi, -2`, but this is a
   chosen linearization proxy. A physical continuum generator would require a
   justified time parameter and a branch choice for the `-1` eigenvalue.
+- The `A`-sector is a symmetric-square phenomenon of the orientation-reversing
+  Fibonacci half-step `F=[[1,1],[1,0]]`, not of the direct orientation-preserving
+  monodromy `A=F^2`. The symmetric-square lift has characteristic polynomial
+
+  ```text
+  (t-det M)(t^2 - (tr(M)^2 - 2 det(M))t + 1).
+  ```
+
+  For `F`, this is `(t+1)(t^2-3t+1)`, so the rank-2 sector is the `A` sector.
+  For direct `A`, this is `(t-1)(t^2-7t+1)`, i.e. the rank-2 sector is the
+  `A^2` sector. Thus the safe statement is not "the trace map contains itself"
+  in an unrestricted sense; it is "the trace-coordinate lift of the primitive
+  orientation-reversing half-step contains the `A` sector."
+
+The `A` quadratic appears in such a symmetric-square lift exactly when
+`det(M)=-1` and `tr(M)=+/-1` over `GL(2,Z)`. This makes it minimal-discriminant
+orientation-reversing structure, not an arbitrary feature of all trace maps.
 
 ## Interpretation Boundary
 
@@ -96,9 +113,10 @@ it does not derive physical `3+1`, matter content, gravity, or awareness.
 The safe statement is:
 
 ```text
-The trace-map linearization at the Cayley cubic singular point contains the
-Origin Axiom A-sector as an exact rank-2 lattice-conjugate sector, together
-with a parity sector and an exactly preserved Fricke-Vogt invariant.
+The trace-map linearization at the Cayley cubic singular point, for the
+primitive orientation-reversing Fibonacci half-step, contains the Origin Axiom
+A-sector as an exact rank-2 lattice-conjugate sector, together with a parity
+sector and an exactly preserved Fricke-Vogt invariant.
 ```
 
 ## Verdict

@@ -16,6 +16,30 @@ def assert_zero(expr: sp.Expr, label: str) -> None:
         raise AssertionError(f"{label}: expected 0, got {simplified}")
 
 
+def symmetric_square_matrix(matrix: sp.Matrix) -> sp.Matrix:
+    """Symmetric-square action in the basis u^2, uv, v^2."""
+
+    a, b, c, d = matrix[0, 0], matrix[0, 1], matrix[1, 0], matrix[1, 1]
+    return sp.Matrix(
+        [
+            [a * a, a * c, c * c],
+            [2 * a * b, a * d + b * c, 2 * c * d],
+            [b * b, b * d, d * d],
+        ]
+    )
+
+
+def symmetric_square_charpoly(matrix: sp.Matrix, variable: sp.Symbol) -> sp.Expr:
+    """Expected characteristic polynomial of the symmetric-square lift."""
+
+    trace = matrix.trace()
+    determinant = matrix.det()
+    return sp.factor(
+        (variable - determinant)
+        * (variable**2 - (trace**2 - 2 * determinant) * variable + determinant**2)
+    )
+
+
 def main() -> None:
     x, y, z, t, eps = sp.symbols("x y z t eps")
     sqrt5 = sp.sqrt(5)
@@ -154,6 +178,50 @@ def main() -> None:
     print("    det(J) = -1")
     print("    det(J^2) = +1")
     print("    product of absolute eigenvalues = 1")
+
+    print("\n[10] Genericity control: symmetric-square lift")
+    F = sp.Matrix([[1, 1], [1, 0]])
+    A_direct = sp.Matrix([[2, 1], [1, 1]])
+    controls = [
+        ("F half-step", F, (t + 1) * (t**2 - 3 * t + 1)),
+        ("A=F^2 direct monodromy", A_direct, (t - 1) * (t**2 - 7 * t + 1)),
+        (
+            "orientation-reversing trace-2 control",
+            sp.Matrix([[2, 1], [1, 0]]),
+            (t + 1) * (t**2 - 6 * t + 1),
+        ),
+        (
+            "orientation-reversing trace-3 control",
+            sp.Matrix([[3, 1], [1, 0]]),
+            (t + 1) * (t**2 - 11 * t + 1),
+        ),
+    ]
+    for label, matrix, expected in controls:
+        sym2 = symmetric_square_matrix(matrix)
+        actual = sp.factor(sym2.charpoly(t).as_expr())
+        formula = symmetric_square_charpoly(matrix, t)
+        assert_zero(actual - formula, f"{label} symmetric-square formula")
+        assert_zero(actual - expected, f"{label} expected polynomial")
+        print(
+            f"    {label}: tr={matrix.trace()}, det={matrix.det()}, "
+            f"disc={matrix.trace()**2 - 4 * matrix.det()}, char={actual}"
+        )
+
+    coefficient = t**2 - 3 * t + 1
+    # The A quadratic appears in a symmetric-square lift iff
+    # trace(M)^2 - 2 det(M) = 3 and det(M)^2 = 1.
+    # Over GL(2,Z), det=+1 would require trace^2=5, impossible; det=-1
+    # requires trace^2=1. Thus the A-sector is the minimal
+    # orientation-reversing hyperbolic case, exemplified by F.
+    possible = []
+    for determinant in (-1, 1):
+        for trace_value in range(-8, 9):
+            if trace_value**2 - 2 * determinant == 3:
+                possible.append((determinant, trace_value))
+    assert possible == [(-1, -1), (-1, 1)]
+    assert coefficient == t**2 - 3 * t + 1
+    print("    A-sector criterion: det=-1 and trace=+/-1 only")
+    print("    direct A gives an A^2-sector, not an A-sector")
 
     print("\nVerdict: STALLED")
     print("Exact trace-map algebra is real; the physics/awareness dictionary is not derived.")

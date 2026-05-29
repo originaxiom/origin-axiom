@@ -787,6 +787,11 @@ Started the trace-map exploration track on branch
   splitting the two golden modes.
 - Control: the `x=z=1+eps` family is **not** a fixed-point branch. The only
   fixed points of the trace map are `(0,0,0)` and `(1,1,1)`.
+- Genericity control: the `A`-sector is the symmetric-square trace lift of the
+  primitive orientation-reversing Fibonacci half-step `F=[[1,1],[1,0]]`, not of
+  the direct monodromy `A=F^2`. Direct `A` gives `(t-1)(t^2-7t+1)`, i.e. the
+  `A^2` sector. The `A` quadratic in a `GL(2,Z)` symmetric-square lift occurs
+  exactly for `det=-1`, `trace=+/-1`.
 - Caveat: all readings in terms of physical `3+1`, particle masses,
   gauge-protection, Kasner/BKL gravity, or awareness remain interpretive
   dictionaries, not derived physics.
