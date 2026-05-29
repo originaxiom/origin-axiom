@@ -764,5 +764,37 @@ No claims changed. C1 remains conditional.
 
 ---
 
+## 2026-05-29 — B13 trace-map character-variety probe
+
+**Exploration branch probe; exact algebra, no claim promotion.**
+
+Started the trace-map exploration track on branch
+`explore/trace-map-character-variety`.
+
+- Added `frontier/B13_trace_map_character_variety/` with `README.md`,
+  `probe.py`, and `FINDINGS.md`.
+- The probe computes the punctured-torus trace map
+  `T(x,y,z) = (z,x,2xz-y)` and the Fricke-Vogt invariant
+  `I = x^2+y^2+z^2-2xyz-1`.
+- Exact result: the Jacobian at `(1,1,1)` has characteristic polynomial
+  `(t+1)(t^2-3t+1)`. On an invariant rank-2 lattice, the quadratic sector is
+  represented by `M=[[0,1],[-1,3]]`, a `GL(2,Z)` conjugate of
+  `A=[[2,1],[1,1]]`; the full parity-plus-rank-2 block basis has determinant
+  `5`.
+- Additional checks: `I` is preserved exactly; the `I=0` singular points form a
+  regular tetrahedron; the Hessian at `(1,1,1)` has eigenvalues `-2,4,4`; the
+  local `x=z=1+eps` Jacobian family preserves the `-1` parity eigenvalue while
+  splitting the two golden modes.
+- Control: the `x=z=1+eps` family is **not** a fixed-point branch. The only
+  fixed points of the trace map are `(0,0,0)` and `(1,1,1)`.
+- Caveat: all readings in terms of physical `3+1`, particle masses,
+  gauge-protection, Kasner/BKL gravity, or awareness remain interpretive
+  dictionaries, not derived physics.
+
+Verdict: `STALLED` at the dictionary from trace-character coordinates to
+physical or cognitive interpretation. No claims changed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

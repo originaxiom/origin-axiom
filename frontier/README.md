@@ -17,3 +17,7 @@ logged status change.
   the particle spectrum and the non-exact `m/g≈φ` near-miss (B8), and the
   fusion–scattering shared polynomial (B9). Each carries its caveat; none is a
   claim. See `../PROGRESS_LOG.md` 2026-05-27.
+- **B13** — the punctured-torus trace map on the fiber character variety. Exact
+  algebra shows the trace-map linearization contains the `A` quadratic as a
+  lattice-conjugate rank-2 sector, but the bridge to physical `3+1`, matter,
+  gravity, or awareness remains an inserted dictionary.
