@@ -45,6 +45,16 @@ B28 projective quotient legitimacy
 
 B29 hierarchy/normalization controls
   audits the Lucas hierarchy, full-return control, and lambda/h normalization
+
+B30-B32 selector-first campaign
+  proves the quotient is canonical conditional on PSL data, then isolates S1 as
+  the extra A-sector self-similarity selector still not derived
+
+B33-B36 extension controls
+  test SL(n), Goldman/WP, topology, and Fibonacci-renormalization routes
+
+B37 operational feedback quarantine
+  locks feedback language to computable predicates and rejects awareness claims
 ```
 
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
@@ -96,3 +106,16 @@ B29 hierarchy/normalization controls
   full-return matching gives a different hierarchy. Finite spectral controls at
   the first hierarchy values pass gap-labeling checks, but no physical
   prediction is promoted.
+- **B30-B32** — selector-first campaign. B30 shows the central-sign quotient is
+  canonical if the state space is lift-independent `PSL` trace data; B31 shows
+  primitive projective return alone leaves `I=c²-1` free; B32 isolates the
+  remaining missing object as S1, the extra rule that the primitive projective
+  return linearization reproduce the original `A` sector.
+- **B33-B36** — extension controls. The `SL(3)` tower decomposes into
+  symmetric-power sectors but no full `SL(n)` trace theorem is built; the
+  Goldman/WP bracket and sign topology support the quotient but do not select
+  `I=1/4`; Fibonacci spectral/gap controls remain compatible with many
+  couplings and do not independently select `lambda/h=1`.
+- **B37** — operational feedback quarantine. Feedback and invariant language
+  are reduced to computable predicates; awareness/consciousness/religion/
+  metaphysics-adjacent interpretations remain outside the claim system.

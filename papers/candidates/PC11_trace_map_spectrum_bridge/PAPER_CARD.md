@@ -8,12 +8,12 @@ Status: paper candidate. No claims beyond governed repository artifacts.
 Type: COMPUTATIONAL_REPORT / LITERATURE_BRIDGE
 Readiness: EVIDENCE_EXISTS
 Priority: companion to PC02, not first ship target
-Main risk: lambda/h=1 depends on a projective self-similarity selector not yet derived
+Main risk: lambda/h=1 depends on S1, an A-sector self-similarity selector not yet derived
 ```
 
 ## One-Sentence Thesis
 
-The half-step trace-map campaign B13-B29 isolates a canonical character-variety
+The half-step trace-map campaign B13-B37 isolates a canonical character-variety
 trace lift containing the `A` sector, controls the projective quotient used by
 the `lambda/h=1` selector, and identifies Fibonacci Hamiltonian finite spectra
 as a reproducible anchor while keeping the selector and physical dictionary
@@ -35,6 +35,10 @@ conditional uniqueness core
   -> B27 SL(3) trace lift with the A-sector still present
   -> B28 central-sign quotient control
   -> B29 dimensionless normalization: (lambda/h)^2 = L_n - 2
+  -> B30 projective quotient as canonical PSL trace data
+  -> B31/B32 S1 isolated as the still-missing selector rule
+  -> B33-B36 extension controls all STALLED at selector derivation
+  -> B37 operational feedback quarantine
 ```
 
 The novelty, if any, is the controlled packaging of these known mathematical
@@ -50,6 +54,7 @@ not an exact Hausdorff-dimension computation
 not a physical prediction
 not a derivation of matter, gauge, spacetime, or awareness
 not a particle/antiparticle interpretation of the SL(3) direct/inverse traces
+not a derivation of S1 from A1-A7 plus exchange
 ```
 
 ## Evidence Files
@@ -63,6 +68,14 @@ frontier/B26_lambda1_derivation_attempt/
 frontier/B27_sl3_fibonacci_trace_lift/
 frontier/B28_projective_quotient_legitimacy/
 frontier/B29_hierarchy_normalization_controls/
+frontier/B30_projective_state_space/
+frontier/B31_primitive_projective_return_selector/
+frontier/B32_selector_axiom_audit/
+frontier/B33_sl_n_trace_tower/
+frontier/B34_goldman_wp_quotient_naturality/
+frontier/B35_topology_cusp_marking_route/
+frontier/B36_fibonacci_renormalization_route/
+frontier/B37_operational_feedback_quarantine/
 PROGRESS_LOG.md
 docs/atlas/RESEARCH_TREE.md
 ```
@@ -77,6 +90,14 @@ python frontier/B26_lambda1_derivation_attempt/probe.py
 python frontier/B27_sl3_fibonacci_trace_lift/probe.py
 python frontier/B28_projective_quotient_legitimacy/probe.py
 python frontier/B29_hierarchy_normalization_controls/probe.py
+python frontier/B30_projective_state_space/probe.py
+python frontier/B31_primitive_projective_return_selector/probe.py
+python frontier/B32_selector_axiom_audit/probe.py
+python frontier/B33_sl_n_trace_tower/probe.py
+python frontier/B34_goldman_wp_quotient_naturality/probe.py
+python frontier/B35_topology_cusp_marking_route/probe.py
+python frontier/B36_fibonacci_renormalization_route/probe.py
+python frontier/B37_operational_feedback_quarantine/probe.py
 ```
 
 ## Required Controls
@@ -92,6 +113,8 @@ state the literal full-return control separately from the projective half-return
 state B27 as higher-rank trace algebra only
 state B28 as quotient legitimacy, not selector derivation
 state B29 couplings as dimensionless lambda/h values
+state B30-B32 as isolating S1, not deriving it
+state B37 as a language quarantine, not an awareness result
 ```
 
 ## Required Citations
@@ -105,7 +128,8 @@ standard Fibonacci Hamiltonian gap-labeling references
 ## Decision
 
 ```text
-Keep as a companion bridge card. B27-B29 sharpen the bridge and its controls,
-but external review must decide whether the projective half-return selector is a
-natural theorem or an inserted criterion.
+Keep as a companion bridge card. B30-B37 sharpen the bridge further: the
+projective quotient is natural under PSL trace data, but the actual selector is
+S1, the A-sector self-similarity rule. External review should focus on whether
+S1 is a natural theorem or an inserted criterion.
 ```

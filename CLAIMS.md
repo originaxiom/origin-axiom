@@ -10,7 +10,7 @@ by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
 **Last updated:** 2026-05-29 · proven ledger unchanged at 15 claims; C1 evidence
-upgraded by `docs/UNIQUENESS_THEOREM.md`; trace-map and spectrum work B13-B29
+upgraded by `docs/UNIQUENESS_THEOREM.md`; trace-map and spectrum work B13-B37
 logged as frontier only.
 
 ---
@@ -79,12 +79,13 @@ Handoff-document steps 3B → 6 ("path to Einstein") map onto O1–O5. The first
 frontier probe is whether the gluing identity `W = S_L − F_R + ms` maps onto the discrete
 Chern–Simons flatness condition `F = 0` — a well-defined yes/no computation.
 
-Current trace-map frontier work (B13-B29) refines O1-O8 but does not close any
+Current trace-map frontier work (B13-B37) refines O1-O8 but does not close any
 of them. The half-step trace lift is canonical, the `SL(3)` lift preserves the
 `A` sector as higher-rank trace algebra, and the Fibonacci spectrum at
 dimensionless `lambda/h=1` is a useful finite-approximant anchor. The required
-physical dictionaries and the derivation of the projective selector remain
-open.
+physical dictionaries remain open. The selector bottleneck is now isolated:
+`lambda/h=1` requires the additional `A`-sector self-similarity rule S1, not just
+the projective quotient.
 
 ---
 

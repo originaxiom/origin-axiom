@@ -958,6 +958,41 @@ the core.
 
 ---
 
+## 2026-05-29 — B30-B37 selector-first campaign
+
+**Executed the selector-first campaign; no claim promotion.**
+
+Added B30-B37 to test every current route toward the missing `lambda/h=1`
+selector.
+
+- **B30 projective state space:** the central-sign quotient is canonical once
+  the state space is lift-independent `PSL` trace-character data. Quotient
+  coordinates `u=x^2,v=y^2,w=z^2,r=xyz` obey `r^2=uvw`, and the trace map
+  descends polynomially. The B26 sign-flipping half-return is literal period 3
+  in the quotient, but it leaves `I=c^2-1` free.
+- **B31 primitive projective return:** primitive projective return alone exists
+  for every `c`. Matching the return linearization to the original `A`
+  quadratic selects `c^2=5/4`, `I=1/4`, `lambda/h=1`, but this is an additional
+  `A`-sector matching rule.
+- **B32 selector axiom audit:** isolated the missing object as **S1**: "the
+  primitive projective return linearization must contain the original
+  `A` quadratic sector `t^2-3t+1`." A1-A7 plus exchange get the trace-map
+  setting; they do not derive S1.
+- **B33-B36 extension routes:** `SL(2)`/`SL(3)` spectra fit a symmetric-power
+  tower, Goldman/WP structure descends to the quotient, sign topology explains
+  the order-3 projective behavior, and Fibonacci spectral controls remain
+  compatible with `lambda/h=1`. None independently derives S1.
+- **B37 operational feedback quarantine:** feedback and invariant language are
+  restricted to computable predicates. The trace map has nonlinear feedback and
+  a preserved invariant, but it does not satisfy an operational self-model
+  criterion; awareness/religion/metaphysics-adjacent language remains outside
+  the claims system.
+
+Net result: the frontier is narrower, not solved. The projective quotient is
+well-supported; the selector is now precisely S1 and remains `STALLED`.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**
