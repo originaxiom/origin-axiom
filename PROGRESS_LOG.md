@@ -1028,6 +1028,37 @@ from A1-A7 plus exchange.
 
 ---
 
+## 2026-05-29 — Conditional trace selector theorem (formalizes C5)
+
+**Packaged the B38-B47 selector result as conditional claim C5; no proven-claim
+promotion.**
+
+Added `docs/TRACE_SELECTOR_THEOREM.md`, a theorem-style note that states the
+current strongest trace-map selector result:
+
+```text
+T1 -> S1 -> I=1/4 -> lambda/h=1
+```
+
+- **C5 added to `CLAIMS.md`:** the primitive projective tangent return selects
+  the `A` sector `t²−3t+1`, hence `I=1/4` and dimensionless `lambda/h=1`, only
+  under **T1**: the tangent return inherits the original arithmetic persistence
+  filters.
+- **The algebra after T1 is exact:** B38 locks `mu=4c²−2=4I+2`; minimal positive
+  integer hyperbolic trace or tangent torsion-one closure gives `mu=3`, hence
+  `I=1/4`; B25's normalization gives `(lambda/h)²=4I=1`.
+- **The open object is now precise:** B39-B47 show that T1 itself is not derived
+  from A1-A7 plus exchange. External review should ask whether T1 is a theorem,
+  a standard naturality/filter-inheritance principle, or an extra axiom.
+- **Documentation synchronized:** `README.md`, `docs/atlas/README.md`,
+  `docs/atlas/REVIEWER_GUIDE.md`, and PC11 now point to the C5 package and keep
+  the spectrum bridge conditional, not predictive.
+
+Ledger update: 15 proven, **5 conditional**, 9 open, 10 dead. Proven test suite
+unchanged.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**

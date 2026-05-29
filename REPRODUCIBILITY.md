@@ -74,6 +74,9 @@ Frontier probes are not part of the proven core, but many are executable:
 ```bash
 python frontier/B25_fibonacci_spectrum_anchor/probe.py
 python frontier/B26_lambda1_derivation_attempt/probe.py
+python frontier/B38_tangent_return_arithmetic_filter/probe.py
+python frontier/B40_filter_reuse_audit/probe.py
+python frontier/B47_s1_verdict_ledger/probe.py
 ```
 
 Probe outputs are observations with bounded verdicts. A passing frontier probe

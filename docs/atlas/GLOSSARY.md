@@ -28,6 +28,17 @@ Noncommutative: operation order matters. This is where a residue can survive.
 Selector: a rule that chooses one branch, basis, contour, sector, or
 representative from several valid options.
 
+S1: the trace-map selector rule that the primitive projective return
+linearization reproduce the original `A` sector `t²−3t+1`.
+
+T1: the tangent-filter inheritance assumption: the primitive projective tangent
+return inherits the original arithmetic persistence filters. In the current
+repo, T1 implies S1 but is not derived.
+
+Projective tangent return: the linearized return map after quotienting by the
+central-sign ambiguity of the trace-lift data. It is the object used by
+`docs/TRACE_SELECTOR_THEOREM.md`.
+
 Observable: a quantity or effect that can distinguish the proposal from
 alternatives or be compared to measurement.
 
@@ -78,3 +89,6 @@ dimensional model.
 
 Unit bridge: a rule that converts dimensionless project numbers into physical
 units. Without it, numerical matches to measurements are not meaningful.
+
+`lambda/h`: the dimensionless Fibonacci-Hamiltonian coupling ratio used by the
+trace-map spectrum probes. It is not an absolute physical coupling.

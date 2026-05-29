@@ -94,35 +94,37 @@ half-step condition `det=-1`, `trace=+/-1`.
 
 No spacetime, matter, gauge, or awareness dictionary is claimed.
 
-## Motivated Spectral Anchor
+## Conditional Spectral Anchor
 
-B25 tests the Fibonacci Hamiltonian at `lambda=1`. Finite approximants show
+B25 tests the Fibonacci Hamiltonian at dimensionless `lambda/h=1`. Finite approximants show
 strict Fibonacci gap-label residuals for the largest gaps and a mid-scale
 box-counting slope near `0.75` at word index `20`.
 
 This is not an exact Hausdorff-dimension claim and not a prediction of the core.
-B26 strengthens the coupling motivation. The projective half-return
-linearization of the trace-map orbit through `(0,0,c)` contains the `A`
-quadratic sector only at:
+B26-B47 strengthen the coupling bridge by isolating the exact conditional
+selector. The primitive projective tangent return has:
 
 ```text
-4c^2 - 2 = 3
-c^2 = 5/4
-I = c^2 - 1 = 1/4
-lambda=1
+mu = 4c^2 - 2 = 4I + 2
 ```
 
-The caveat is load-bearing: `(0,0,c)` is not a literal period-3 orbit of the
-signed trace map; it is a sign-flipping half-return. Thus `lambda=1` is selected
-by a natural projective self-similarity criterion, but that criterion is still
-an additional rule rather than a consequence of A1-A7.
+If T1 is accepted, meaning the tangent return inherits the original arithmetic
+persistence filters, then minimal positive hyperbolic trace gives `mu=3`, hence:
+
+```text
+I = 1/4
+lambda/h = 1
+```
+
+The caveat is load-bearing: T1 is not derived from A1-A7 plus exchange. Thus
+`lambda/h=1` is conditional on T1, not a prediction of the core.
 
 B26 also shows that the same projective criterion gives an exact Lucas hierarchy:
 
 ```text
 char(F^n)=t^2-L_n t+1       (n even)
 I=(L_n-2)/4
-lambda^2=L_n-2 = 1, 5, 16, 45, 121, ...
+(lambda/h)^2=L_n-2 = 1, 5, 16, 45, 121, ...
 ```
 
 The full-return control is different: the literal `T^6` return matches `A` at
@@ -138,7 +140,7 @@ not a derivation from absolute nothing
 not a physical theory
 not a derivation of 3+1 dimensions
 not a derivation of matter, gauge groups, constants, or observables
-not proof that lambda=1 is forced
+not proof that lambda/h=1 is forced without T1
 not a new gap-labeling theorem for the Fibonacci Hamiltonian
 ```
 
@@ -151,7 +153,8 @@ not a new gap-labeling theorem for the Fibonacci Hamiltonian
 3. Is the mapping-torus torsion lemma stated with the right hypotheses?
 4. Is the half-step trace-lift bridge known standard material, new packaging, or
    incorrectly framed?
-5. Is the B26 projective half-return criterion natural or standard in the
+5. Is T1, the tangent-filter inheritance assumption packaged in
+   `docs/TRACE_SELECTOR_THEOREM.md`, natural or standard in the
    character-variety/Fibonacci-Hamiltonian literature, or is it an inserted
    selector?
 
@@ -162,4 +165,6 @@ python -m pytest -q
 python -m pytest -q tests/test_uniqueness_theorem.py
 python frontier/B25_fibonacci_spectrum_anchor/probe.py
 python frontier/B26_lambda1_derivation_attempt/probe.py
+python frontier/B38_tangent_return_arithmetic_filter/probe.py
+python frontier/B47_s1_verdict_ledger/probe.py
 ```

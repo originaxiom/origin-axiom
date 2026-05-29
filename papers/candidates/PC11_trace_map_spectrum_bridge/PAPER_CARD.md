@@ -8,7 +8,7 @@ Status: paper candidate. No claims beyond governed repository artifacts.
 Type: COMPUTATIONAL_REPORT / LITERATURE_BRIDGE
 Readiness: EVIDENCE_EXISTS
 Priority: companion to PC02, not first ship target
-Main risk: lambda/h=1 depends on T1/S1, a tangent-filter inheritance selector not yet derived
+Main risk: lambda/h=1 is conditional on C5/T1, a tangent-filter inheritance selector not yet derived
 ```
 
 ## One-Sentence Thesis
@@ -40,6 +40,7 @@ conditional uniqueness core
   -> B33-B36 extension controls all STALLED at selector derivation
   -> B37 operational feedback quarantine
   -> B38-B47: T1 -> S1 -> lambda/h=1, with T1 still conditional
+  -> docs/TRACE_SELECTOR_THEOREM.md: formal C5 package for that conditional
 ```
 
 The novelty, if any, is the controlled packaging of these known mathematical
@@ -89,6 +90,7 @@ frontier/B46_rank_stability_controls/
 frontier/B47_s1_verdict_ledger/
 PROGRESS_LOG.md
 docs/atlas/RESEARCH_TREE.md
+docs/TRACE_SELECTOR_THEOREM.md
 ```
 
 ## Reproduction Commands
@@ -128,7 +130,7 @@ state B18 as trace-lift functoriality, not physics
 state B22 parity genericity clearly
 state B25 as finite-approximant numerics
 cite known Fibonacci Hamiltonian literature
-label lambda/h=1 as MOTIVATED unless the projective selector is itself derived
+label lambda/h=1 as conditional on C5/T1, not proven
 state B26 as a projective selector, not an unconditional derivation
 state the literal full-return control separately from the projective half-return
 state B27 as higher-rank trace algebra only
@@ -137,6 +139,7 @@ state B29 couplings as dimensionless lambda/h values
 state B30-B32 as isolating S1, not deriving it
 state B37 as a language quarantine, not an awareness result
 state B38-B47 as making S1 conditional on T1, not proven
+state C5 / docs/TRACE_SELECTOR_THEOREM.md as conditional packaging, not a proven prediction
 ```
 
 ## Required Citations
@@ -151,7 +154,8 @@ standard Fibonacci Hamiltonian gap-labeling references
 
 ```text
 Keep as a companion bridge card. B38-B47 sharpen the bridge further: the
-projective quotient is natural under PSL trace data, and S1 follows if the
-tangent return inherits the original arithmetic persistence filters. External
-review should focus on whether T1 is a natural theorem or an inserted criterion.
+projective quotient is natural under PSL trace data, and C5 states that S1
+follows if the tangent return inherits the original arithmetic persistence
+filters. External review should focus on whether T1 is a natural theorem or an
+inserted criterion.
 ```

@@ -59,6 +59,10 @@ B37 operational feedback quarantine
 B38-B47 deep S1 campaign
   shows arithmetic/torsion/filter reuse would force S1, but only conditional on
   T1: tangent return inherits original arithmetic persistence filters
+
+docs/TRACE_SELECTOR_THEOREM.md / C5
+  packages B38-B47 as the conditional theorem
+  T1 -> S1 -> I=1/4 -> lambda/h=1
 ```
 
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
@@ -91,7 +95,8 @@ B38-B47 deep S1 campaign
 - **B25** — Fibonacci spectrum anchor. Finite approximants at dimensionless
   `lambda/h=1`
   support a mid-scale box-counting slope near `0.75` and pass strict
-  gap-labeling controls, but `lambda/h=1` remains motivated rather than derived.
+  gap-labeling controls. In B25 alone, `lambda/h=1` is only motivated; later C5
+  makes it conditional on T1, not proven.
 - **B26** — `lambda/h=1` derivation attempt. Exact algebra shows `lambda/h=1` is
   uniquely selected by projective half-return self-similarity, but the
   projective half-return criterion itself remains an added rule. Verdict:
@@ -129,4 +134,5 @@ B38-B47 deep S1 campaign
   return. B39/B40/B41/B42/B46 show that this filter inheritance is not derived
   by the current framework. B47 records the clean verdict:
   `T1 -> S1 -> I=1/4 -> lambda/h=1`, where T1 is an explicit conditional
-  assumption.
+  assumption. `../docs/TRACE_SELECTOR_THEOREM.md` packages that verdict as C5;
+  the files here remain frontier evidence, not proven claims.

@@ -47,6 +47,7 @@ The honest one-line status:
 | `CHANGELOG.md` | Versioned, human-facing change history. |
 | `REPRODUCIBILITY.md` | Environment, build/test commands, freeze tags. |
 | `docs/atlas/` | Navigation layer: reviewer guide, research tree, success/failure atlases, simulator map. |
+| `docs/TRACE_SELECTOR_THEOREM.md` | Conditional T1 selector package: `T1 -> S1 -> I=1/4 -> lambda/h=1`. |
 | `papers/` | Paper-candidate registry and public artifact manifest. |
 | `src/origin_axiom/` | The tested package locking the `proven` core. *(Phase A)* |
 | `tests/` | One assertion per proven number in `CLAIMS.md`. *(Phase A)* |
@@ -63,10 +64,10 @@ The honest one-line status:
 |---|---|
 | Phase 0 — Governance & specification | **locked** |
 | Phase A — Tested foundation | **complete** — suite green, P1–P16 locked (P14 unused) |
-| Phase B — Frontier | **in progress** — probes B1–B47 logged; all current trace-map/physics bridges remain frontier |
+| Phase B — Frontier | **in progress** — probes B1–B47 logged; trace-map selector packaged as conditional C5 |
 | Phase C — Exhaustive survey of emergence-paths | **in progress** — see `paths/` |
 
-See `CLAIMS.md` for the current ledger: 15 `proven`, 4 `conditional`, 9 `open`, 10 `dead`.
+See `CLAIMS.md` for the current ledger: 15 `proven`, 5 `conditional`, 9 `open`, 10 `dead`.
 
 ---
 

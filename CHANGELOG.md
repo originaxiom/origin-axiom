@@ -74,8 +74,12 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Trace-map character-variety frontier campaign B13-B25 added. B18 establishes
   the canonical half-step trace lift; B22 kills the special parity narrative
   while preserving the special `A` quadratic sector; B25 records the Fibonacci
-  spectrum at `lambda=1` as a finite-approximant numerical anchor with
-  `lambda=1` classified as motivated, not derived. No claims promoted.
+  spectrum at dimensionless `lambda/h=1` as a finite-approximant numerical
+  anchor, initially classified as motivated, not derived. No claims promoted.
+- Trace selector package added: B26-B47 refine the `lambda/h=1` selector, and
+  `docs/TRACE_SELECTOR_THEOREM.md` formalizes conditional claim C5:
+  `T1 -> S1 -> I=1/4 -> lambda/h=1`. The selector is conditional on T1, not
+  proven or physical.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

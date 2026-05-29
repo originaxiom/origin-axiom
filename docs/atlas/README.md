@@ -43,6 +43,8 @@ ledger disagree, the governed ledger wins.
 - `SUCCESS_ATLAS.md` records what survived under governance.
 - `GLOSSARY.md` defines recurring terms in project language.
 - `SIMULATOR_ECOSYSTEM_MAP.md` defines when an interactive tool is justified.
+- `../TRACE_SELECTOR_THEOREM.md` packages the conditional trace-map selector
+  `T1 -> S1 -> I=1/4 -> lambda/h=1`.
 
 ## Navigation Pattern
 
@@ -79,5 +81,6 @@ trace lift is canonical, the special `A` quadratic sector is isolated, the
 `SL(3)` lift preserves that sector as higher-rank trace algebra, and the
 Fibonacci Hamiltonian at dimensionless `lambda/h=1` gives a strong
 finite-approximant numerical anchor. Those remain atlas/frontier observations
-because T1, the tangent-filter inheritance assumption that implies S1, and the
-physical dictionary are motivated, not derived.
+because T1, the tangent-filter inheritance assumption packaged in
+`../TRACE_SELECTOR_THEOREM.md`, and the physical dictionary are motivated, not
+derived.
