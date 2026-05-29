@@ -30,6 +30,9 @@ B20 operational awareness test
 B21 spacetime / Weil-Petersson dictionary test
 B23 BKL / gravity controls
 B24 anyon / quantum bridge
+
+B25 Fibonacci spectrum anchor
+  depends on B18/B22 and tests the lambda=1 spectral bridge
 ```
 
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
@@ -59,3 +62,6 @@ B24 anyon / quantum bridge
   canonical half-step trace lift; B19/B17/B22 control the exchange, alternation,
   and spectrum claims; B20/B21/B23/B24 test awareness, spacetime, gravity, and
   anyon dictionaries and leave them stalled where no dictionary is derived.
+- **B25** — Fibonacci spectrum anchor. Finite approximants at `lambda=1`
+  support a mid-scale box-counting slope near `0.75` and pass strict
+  gap-labeling controls, but `lambda=1` remains motivated rather than derived.

@@ -884,6 +884,35 @@ Verdict: `STALLED` at deriving exchange/half-step symmetry. No claims changed.
 
 ---
 
+## 2026-05-29 — B25 Fibonacci spectrum anchor
+
+**Curated finite-approximant probe; no claim promotion.**
+
+Added `frontier/B25_fibonacci_spectrum_anchor/` as a controlled replacement for
+the local exploratory spectrum scripts. The probe uses tridiagonal
+diagonalization of finite Fibonacci Hamiltonian approximants at `lambda=1`, not
+brute-force random energy sampling.
+
+- Gap-labeling control: largest finite-approximant gaps match Fibonacci
+  gap-label residuals below `5e-4` in the default run. This validates the
+  implementation against known Fibonacci-Hamiltonian mathematics; it is not
+  claimed as new.
+- Dimension control: reports mid/wide/late finite-approximant box-counting
+  slopes. The mid-scale slope is near `0.75`, but the result is explicitly not
+  promoted to an exact Hausdorff dimension. Window sensitivity and finite-size
+  saturation are part of the output.
+- Bridge status: `I0(lambda)=lambda^2/4`, so `lambda=1` gives `I0=1/4`. This is
+  the same invariant surface used in the figure-eight trace-map normalization,
+  but B18 functoriality holds for all invariant surfaces. The status of
+  `lambda=1` is therefore **MOTIVATED**, not derived.
+- Verdict: `STALLED` at deriving the coupling. If `lambda=1` is accepted as an
+  additional motivated input, the spectrum is a useful empirical/numerical
+  anchor. Without a derivation, it is not a falsifiable prediction of the core.
+
+No claims changed.
+
+---
+
 ## 2026-05-29 — B17-B24 half-step kernel campaign
 
 **Executed in modified dependency order; no claim promotion.**
