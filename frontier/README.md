@@ -30,3 +30,6 @@ logged status change.
   Fricke-Vogt invariant; it rejects the naive continuum proxy and rejects a
   proposed `sqrt(5)` Fibonacci coupling under the current invariant
   normalization.
+- **B16** — record-swap status. Exact algebra shows `P` is unique up to sign as
+  the involution exchanging the primitive pair `{L,R}`, but the exchange
+  symmetry itself is not forced by the current A1-A6 minimal-record axioms.

@@ -857,5 +857,27 @@ Verdict: `STALLED` at the interpretive dictionary. No claims changed.
 
 ---
 
+## 2026-05-29 — B16 record-swap symmetry status
+
+**Testing whether the B14 half-step assumption is forced or inserted.**
+
+Added `frontier/B16_record_swap_status/` on branch
+`explore/trace-map-character-variety`.
+
+- Exact result: the involutions in `GL(2,Z)` that exchange the primitive shears
+  satisfy `X^2=I` and `X L X^-1=R`; bounded exact search finds only
+  `P=[[0,1],[1,0]]` and `-P`.
+- Exact result: the bounded automorphism group of the primitive pair `{L,R}` is
+  `{I,-I,P,-P}`, where `P` and `-P` swap the pair.
+- Relation to order: `P A P = RL`, so `P` exchanges the two based order choices.
+- Relation to half-step: `F=L P` and `F^2=A`; the sign ambiguity gives only
+  `+/-F`.
+- Caveat: A1-A6 do not derive the exchange-symmetry requirement. `P` is forced
+  only after adding a plausible but additional substrate-exchange axiom.
+
+Verdict: `STALLED` at deriving exchange symmetry. No claims changed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
