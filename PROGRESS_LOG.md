@@ -884,6 +884,35 @@ Verdict: `STALLED` at deriving exchange/half-step symmetry. No claims changed.
 
 ---
 
+## 2026-05-29 — Trace-map/spectrum checkpoint and review-note package
+
+**Checkpoint packaging; no claim promotion.**
+
+Prepared the current `explore/trace-map-character-variety` branch for external
+review without merging it to `main`:
+
+- Added `papers/candidates/PC02_conditional_uniqueness/DRAFT_NOTE.md` as a
+  compact review note centered on the conditional uniqueness theorem. B13-B25
+  appear only as appendices and motivated frontier extensions.
+- Added `papers/candidates/PC11_trace_map_spectrum_bridge/PAPER_CARD.md` to
+  track the half-step trace lift / Fibonacci spectrum bridge separately from
+  PC02.
+- Added and executed `frontier/B26_lambda1_derivation_attempt/`. Exact algebra
+  confirms the proposed selector:
+  `char(DT^3 at (0,0,c))=(t+1)(t^2-(4c^2-2)t+1)`, so matching the `A`
+  quadratic forces `c^2=5/4`, hence `I=1/4` and positive `lambda=1`.
+- Control: `(0,0,c)` is not a literal period-3 orbit of the signed trace map;
+  `T^3(0,0,c)=(0,0,-c)` and the literal `T^6` return gives
+  `t^2-27t+1` at `I=1/4`, not `A`'s polynomial.
+- Verdict: B26 strengthens B25 from "shared invariant surface" to "unique
+  projective half-return self-similarity surface," but this still depends on a
+  projective/sign-quotient criterion that is not derived from A1-A7.
+
+Ledger unchanged: B13-B26 remain frontier-only; `lambda=1` remains motivated by
+a sharper selector, not unconditionally derived.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**

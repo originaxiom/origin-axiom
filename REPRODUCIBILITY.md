@@ -50,6 +50,7 @@ exactly:
 | `phaseA-foundation-freeze` | Phase A complete: all P-claims locked behind passing tests (Phase 0 governance and the legacy consolidation are included in the same milestone). |
 | `session3-synthesis-freeze` | Session-3 synthesis freeze: P15/P16 and the conditional uniqueness theorem are locked and public. |
 | `atlas-paper-integration-v1` | First atlas/paper integration checkpoint after consolidation of reviewer and paper-candidate navigation. |
+| `trace-map-spectrum-checkpoint-v1` | Trace-map/spectrum checkpoint: B13-B25 plus public documentation harmonization; no new claim promotion. |
 
 To reproduce a result as of a freeze:
 
@@ -72,6 +73,7 @@ Frontier probes are not part of the proven core, but many are executable:
 
 ```bash
 python frontier/B25_fibonacci_spectrum_anchor/probe.py
+python frontier/B26_lambda1_derivation_attempt/probe.py
 ```
 
 Probe outputs are observations with bounded verdicts. A passing frontier probe

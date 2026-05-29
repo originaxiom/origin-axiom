@@ -33,6 +33,9 @@ B24 anyon / quantum bridge
 
 B25 Fibonacci spectrum anchor
   depends on B18/B22 and tests the lambda=1 spectral bridge
+
+B26 lambda=1 derivation attempt
+  tests whether projective half-return self-similarity derives lambda=1
 ```
 
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
@@ -65,3 +68,7 @@ B25 Fibonacci spectrum anchor
 - **B25** — Fibonacci spectrum anchor. Finite approximants at `lambda=1`
   support a mid-scale box-counting slope near `0.75` and pass strict
   gap-labeling controls, but `lambda=1` remains motivated rather than derived.
+- **B26** — `lambda=1` derivation attempt. Exact algebra shows `lambda=1` is
+  uniquely selected by projective half-return self-similarity, but the
+  projective half-return criterion itself remains an added rule. Verdict:
+  `STALLED`, with B25 strengthened but not promoted.
