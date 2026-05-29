@@ -68,6 +68,8 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   for external mathematical review.
 - PC02 external-review brief added, and PC02 readiness advanced from
   `EVIDENCE_EXISTS` to `NEEDS_VALIDATION` pending outside mathematical review.
+- First PC02 draft theorem note added under the candidate folder. The note is
+  explicitly review-only, conditional, and not a public preprint.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
