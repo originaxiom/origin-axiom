@@ -25,3 +25,8 @@ logged status change.
   two `GL(2,Z)` square roots, `F=L P` and `-F`, and that mixed closures
   `B(a,b)=L_aR_b` admit an integer orientation-reversing square root iff `a=b`.
   The remaining gap is whether the record-swap `P` is forced or inserted.
+- **B15** — trace-map invariant controls. Exact algebra confirms the
+  Eisenstein-to-golden diagonal linearization family and the discrete
+  Fricke-Vogt invariant; it rejects the naive continuum proxy and rejects a
+  proposed `sqrt(5)` Fibonacci coupling under the current invariant
+  normalization.

@@ -828,5 +828,34 @@ Verdict: `STALLED` at deriving the record-swap symmetry. No claims changed.
 
 ---
 
+## 2026-05-29 — B15 trace-map invariant controls
+
+**Part C2 trace-map audit; exact controls plus one normalization correction.**
+
+Added `frontier/B15_trace_map_invariant_controls/` on branch
+`explore/trace-map-character-variety`.
+
+- Exact result: for the naive vector-field proxy `V=T-id`, the Jacobian on the
+  diagonal `(c,c,c)` has characteristic polynomial
+  `(mu+2)(mu^2+(1-2c)mu+(1-2c))`; the quadratic discriminant is
+  `(2c-1)(2c+3)`, giving Eisenstein at `c=0`, nilpotent at `c=1/2`, and golden
+  at `c=1`.
+- Control: only `c=0` and `c=1` are actual trace-map fixed points; `c=1/2` is
+  a linearization checkpoint, not a fixed point.
+- Exact result: the discrete trace map preserves the Fricke-Vogt invariant
+  `I=x^2+y^2+z^2-2xyz-1`; the naive continuum proxy fails this at
+  `(3/2,1,3/2)` on `I=0`, where `dI/dt=-5/4`.
+- Correction: using the usual Fibonacci initial-line normalization
+  `x=(E-lambda)/2`, `y=E/2`, `z=1`, the invariant is `I=lambda^2/4`.
+  Therefore `I(1,1,3/2)=1/4` gives `lambda=+/-1`, not `sqrt(5)`. The proposed
+  `sqrt(5)` coupling requires a shifted convention and is not accepted here.
+- Caveat: labels such as "nothing", "awareness", or "existence" for different
+  `I`-surfaces remain semantic overlays; the exact result is only invariant
+  separation.
+
+Verdict: `STALLED` at the interpretive dictionary. No claims changed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
