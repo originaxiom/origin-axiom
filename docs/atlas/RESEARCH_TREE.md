@@ -90,8 +90,9 @@ Several structures are mathematically exact but do not yet become physics:
 - Candidate gauge or particle dictionaries remain unconstructed.
 - No observable has passed the governed promotion gate.
 - The Fibonacci Hamiltonian at dimensionless `lambda/h=1` is a strong
-  finite-approximant anchor, but B30-B37 isolate its missing object as S1: the
-  A-sector self-similarity selector. S1 remains motivated rather than derived.
+  finite-approximant anchor, but B38-B47 make its status conditional on T1: the
+  primitive projective tangent return must inherit the original arithmetic
+  persistence filters. T1 remains motivated rather than derived.
 
 The atlas should keep this separation visible. Exact mathematics can be
 valuable without being a physical theory.

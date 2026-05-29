@@ -993,6 +993,41 @@ well-supported; the selector is now precisely S1 and remains `STALLED`.
 
 ---
 
+## 2026-05-29 — B38-B47 deep S1 campaign
+
+**Deepened the selector search; no claim promotion.**
+
+Added B38-B47 to test whether S1 can be derived from arithmetic, topology,
+renormalization, or higher-rank stability.
+
+- **B38 tangent arithmetic filter:** for the primitive projective return, the
+  tangent trace is `mu=4c^2-2=4I+2`. If this tangent return inherits integer
+  hyperbolic trace plus minimality, or the tangent analogue of torsion-one
+  closure, then `mu=3`, hence `I=1/4` and `lambda/h=1`.
+- **B39-B40 filter inheritance audit:** integrality gives a discrete family
+  `c^2=(m+2)/4`, not a unique value. The missing assumption is **T1**: the
+  primitive projective tangent return inherits the original arithmetic
+  persistence filters. With T1, S1 follows; without T1, `I` remains free.
+- **B41-B42 controls:** the coordinate-axis projective 3-cycle is the simplest
+  nontrivial one-parameter family, but still leaves `I=c^2-1`; simple
+  variational quantities are monotone or boundary-selected and do not pick
+  `I=1/4` unless the target is built into the functional.
+- **B43-B45 supporting conditional routes:** minimal positive nonsquare
+  discriminant gives `Delta=5`, torsion-one closure gives `mu=3`, and the
+  primitive Lucas hierarchy member gives `(lambda/h)^2=1`; each route requires
+  the tangent arithmetic/filter inheritance assumption.
+- **B46 rank stability:** the selected `A` sector divides the known `SL(3)`
+  trace-lift Jacobian, while a nearby tangent quadratic does not. This supports
+  stability of the selected sector but does not derive it.
+- **B47 verdict ledger:** S1 is **conditional**, not derived. The strongest
+  honest dependency is `T1 -> S1 -> I=1/4 -> lambda/h=1`.
+
+Net result: the missing object moved one level deeper. S1 can be justified by a
+named tangent-filter inheritance assumption T1, but T1 itself is not derived
+from A1-A7 plus exchange.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**

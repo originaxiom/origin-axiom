@@ -58,9 +58,9 @@ These are not all claims, but they guide future work:
   giving different fixed-point polynomials.
 - The trace-map half-step campaign gives a canonical character-variety lift, an
   `SL(3)` higher-rank trace extension, and a finite-approximant Fibonacci
-  spectrum anchor at dimensionless `lambda/h=1`; B30-B37 further isolate S1 as
-  the missing selector. All are useful frontier observations, not promoted
-  claims.
+  spectrum anchor at dimensionless `lambda/h=1`; B38-B47 further make the
+  selector conditional on T1, tangent-filter inheritance. All are useful
+  frontier observations, not promoted claims.
 
 ## What Counts As A Future Success
 

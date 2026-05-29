@@ -55,6 +55,10 @@ B33-B36 extension controls
 
 B37 operational feedback quarantine
   locks feedback language to computable predicates and rejects awareness claims
+
+B38-B47 deep S1 campaign
+  shows arithmetic/torsion/filter reuse would force S1, but only conditional on
+  T1: tangent return inherits original arithmetic persistence filters
 ```
 
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
@@ -119,3 +123,10 @@ B37 operational feedback quarantine
 - **B37** — operational feedback quarantine. Feedback and invariant language
   are reduced to computable predicates; awareness/consciousness/religion/
   metaphysics-adjacent interpretations remain outside the claim system.
+- **B38-B47** — deep S1 campaign. B38/B43/B44/B45 show that integer
+  hyperbolic trace, minimal discriminant, torsion-one closure, or primitive
+  renormalization hierarchy each recover `I=1/4` if applied to the tangent
+  return. B39/B40/B41/B42/B46 show that this filter inheritance is not derived
+  by the current framework. B47 records the clean verdict:
+  `T1 -> S1 -> I=1/4 -> lambda/h=1`, where T1 is an explicit conditional
+  assumption.

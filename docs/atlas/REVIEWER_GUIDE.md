@@ -14,10 +14,11 @@ Read in this order:
 6. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
 7. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
 8. `frontier/B32_selector_axiom_audit/FINDINGS.md`
-9. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
-10. `docs/atlas/RESEARCH_TREE.md`
-11. `docs/atlas/FAILURE_ATLAS.md`
-12. `REPRODUCIBILITY.md`
+9. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
+10. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
+11. `docs/atlas/RESEARCH_TREE.md`
+12. `docs/atlas/FAILURE_ATLAS.md`
+13. `REPRODUCIBILITY.md`
 
 Then run:
 
@@ -72,8 +73,8 @@ The current physics posture is conservative:
 - Particle, gauge, cosmology, and observable bridges: open unless a specific
   probe states otherwise.
 - Fibonacci spectrum at dimensionless `lambda/h=1`: finite-approximant anchor,
-  not a prediction, because S1, the A-sector self-similarity selector, is
-  motivated rather than derived.
+  not a prediction, because T1, tangent-filter inheritance, is motivated rather
+  than derived. T1 implies S1, which then selects `I=1/4`.
 
 The most valuable review is not encouragement or dismissal. It is a precise
 statement of which inserted object is unavoidable and whether any bridge can be
