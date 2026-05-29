@@ -764,5 +764,24 @@ No claims changed. C1 remains conditional.
 
 ---
 
+## 2026-05-29 — PC02 draft theorem note
+
+**Draft note for review, not public preprint.**
+
+Started the PC02 draft track on branch `paper/pc02-draft-note`.
+
+- Added `papers/candidates/PC02_conditional_uniqueness/DRAFT_NOTE.md`.
+- The draft note assembles the conditional theorem into a readable sequence:
+  motivation, A1-A7, first mixed closure, mapping-torus torsion lemma, minimal
+  trace route, theorem proof, order caveat, downstream consequences, non-claims,
+  reproduction commands, and review questions.
+- The draft keeps the correct status: conditional mathematical theorem
+  candidate, ready for external mathematical review, not a physics result and not
+  a public preprint.
+
+No claims changed. C1 remains conditional.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
