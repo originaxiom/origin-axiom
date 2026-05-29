@@ -30,6 +30,7 @@ conditional uniqueness core
   -> A quadratic sector inside the lift
   -> lambda=1 spectral anchor on I=1/4
   -> B26 projective half-return selector for I=1/4
+  -> Lucas hierarchy lambda^2 = L_n - 2 under the same projective criterion
 ```
 
 The novelty, if any, is the controlled packaging of these known mathematical
@@ -76,6 +77,7 @@ state B25 as finite-approximant numerics
 cite known Fibonacci Hamiltonian literature
 label lambda=1 as MOTIVATED unless the projective selector is itself derived
 state B26 as a projective selector, not an unconditional derivation
+state the literal full-return control separately from the projective half-return
 ```
 
 ## Required Citations

@@ -907,6 +907,13 @@ review without merging it to `main`:
 - Verdict: B26 strengthens B25 from "shared invariant surface" to "unique
   projective half-return self-similarity surface," but this still depends on a
   projective/sign-quotient criterion that is not derived from A1-A7.
+- Extension: the same projective criterion gives an exact Lucas hierarchy for
+  even `n`: `char(F^n)=t^2-L_n t+1`, so
+  `I=(L_n-2)/4` and `lambda^2=L_n-2 = 1,5,16,45,121,...`.
+  This is exact algebra under the criterion, not yet a physical spectrum.
+- Full-return control: literal `T^6` matching of the `A` sector selects real
+  `c^2=1/4`, hence `I=-3/4` and `lambda^2=-3` under the B25 normalization. The
+  projective half-return distinction is therefore material.
 
 Ledger unchanged: B13-B26 remain frontier-only; `lambda=1` remains motivated by
 a sharper selector, not unconditionally derived.

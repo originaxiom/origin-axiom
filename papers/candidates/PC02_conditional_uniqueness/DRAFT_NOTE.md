@@ -117,6 +117,17 @@ signed trace map; it is a sign-flipping half-return. Thus `lambda=1` is selected
 by a natural projective self-similarity criterion, but that criterion is still
 an additional rule rather than a consequence of A1-A7.
 
+B26 also shows that the same projective criterion gives an exact Lucas hierarchy:
+
+```text
+char(F^n)=t^2-L_n t+1       (n even)
+I=(L_n-2)/4
+lambda^2=L_n-2 = 1, 5, 16, 45, 121, ...
+```
+
+The full-return control is different: the literal `T^6` return matches `A` at
+real `I=-3/4`, not at the B25 `I=1/4` surface.
+
 Relevant literature control: Damanik, Gorodetski, and Yessen, *The Fibonacci
 Hamiltonian*, `arXiv:1403.7823`.
 
