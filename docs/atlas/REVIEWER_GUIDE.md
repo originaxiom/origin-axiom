@@ -10,9 +10,11 @@ Read in this order:
 2. `CLAIMS.md`
 3. `docs/UNIQUENESS_THEOREM.md`
 4. `docs/SESSION3_SYNTHESIS.md`
-5. `docs/atlas/RESEARCH_TREE.md`
-6. `docs/atlas/FAILURE_ATLAS.md`
-7. `REPRODUCIBILITY.md`
+5. `frontier/README.md`
+6. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
+7. `docs/atlas/RESEARCH_TREE.md`
+8. `docs/atlas/FAILURE_ATLAS.md`
+9. `REPRODUCIBILITY.md`
 
 Then run:
 
@@ -66,6 +68,8 @@ The current physics posture is conservative:
   choices.
 - Particle, gauge, cosmology, and observable bridges: open unless a specific
   probe states otherwise.
+- Fibonacci spectrum at `lambda=1`: finite-approximant anchor, not a prediction,
+  because the coupling is motivated rather than derived.
 
 The most valuable review is not encouragement or dismissal. It is a precise
 statement of which inserted object is unavoidable and whether any bridge can be

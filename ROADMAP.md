@@ -18,13 +18,16 @@ framing is locked to the V4 / Reality-Check line.
 
 ---
 
-## Phase A — Tested Foundation · **complete — gate passed 2026-05-22**
+## Phase A — Tested Foundation · **complete — current core P1-P16**
 
-> Gate passed: `origin_axiom` package built, suite green (33 passed, 1 optional
-> skip), all ten P-claims locked. Tagged `phaseA-foundation-freeze`.
+> Initial gate passed 2026-05-22: `origin_axiom` package built, suite green
+> (33 passed, 1 optional skip), all ten initial P-claims locked. Tagged
+> `phaseA-foundation-freeze`. Later exact-algebra integrations promoted P11-P13
+> and P15-P16; the current suite is 66 passed, 1 skipped.
 
-**Scope:** lock every `proven` claim (P1–P10 in `CLAIMS.md`) behind an automated test, in a
-clean Python package. Reproduce — not extend — the verified core.
+**Scope:** lock every `proven` claim (currently P1-P16, with P14 unused) behind
+an automated test, in a clean Python package. Reproduce — not inflate — the
+verified core.
 
 **Non-claims:** Phase A makes no new claims. It does not touch `open` items. It does not
 promote anything.
@@ -39,6 +42,7 @@ promote anything.
 | A4 | `gluing` module — the variational gluing identity (Sympy). Locks P7. |
 | A5 | `topology` module — mapping-torus torsion; figure-eight / sister SnapPy data; the five-filter sieve. Locks P8, P9, P10. |
 | A6 | Reconcile `conditional` claims C1–C4: each documented with its named assumption and a test that checks the *conditional* statement, not more. |
+| A7 | Session-3 exact-algebra integrations: `log A` decomposition, gluing-equation factorization, isospectrality, Mobius vector field, derived cubic potential. Locks P11-P13 and P15-P16. |
 
 **Gate:** the full test suite is green; every P-claim in `CLAIMS.md` has a passing test;
 a freeze tag `phaseA-foundation-freeze` is created (`REPRODUCIBILITY.md`).
@@ -54,18 +58,19 @@ is explicitly labelled speculative. Nothing enters the `proven` core without pas
 **Non-claims:** until a gate is passed, no frontier result is a claim — only a logged
 observation.
 
-**Probes run so far** (each is a logged observation, not a claim):
+**Probe clusters run so far** (each is a logged observation, not a claim):
 
-| Probe | Question | Outcome |
+| Probe(s) | Question | Outcome |
 |---|---|---|
-| B1 | Gluing identity ↔ discrete Chern–Simons flatness? | Qualified yes at the holonomy level; no CS action / level `k`. |
-| B2 | Monodromy action on the moduli space? | Linear action on `(log M,log L)`; falsified the handoff's A-polynomial-curve claim. |
-| B3 | 4D Regge complex (handoff "Step 5A")? | 3D triangulation exact; the "4D stacking" is not a defined construction. |
-| B4 | BKL billiard / Gutzwiller / golden Kasner? | Figure-eight = shortest billiard orbit (exact); leading Gutzwiller term (37.8%, modest); golden Kasner exponents. Heavily caveated. |
-| B5 | Wheeler-DeWitt constraint / a Λ estimate? | Reproduces known structure; the `Λ` estimate is dead-adjacent (cf. D1, D2). Documentary only. |
+| B1-B5 | Topology/CS/moduli/Regge/BKL/Wheeler-DeWitt bridges? | Exact local structures found; no constructed 3+1 gravity bridge. |
+| B6-B9 | Field-theoretic lift of P15/P16? | Potential is derived as algebra; kinetic term, carrier, particle and fusion interpretations remain frontier. |
+| B13-B16 | Trace-map character variety, half-step, invariant controls, record swap? | Half-step trace lift contains the `A` sector; exchange/half-step symmetry is still an added condition. |
+| B17-B24 | Half-step kernel campaign: functoriality, awareness, spacetime, spectrum, BKL, anyon bridges? | Trace lift is canonical; semantic/physical dictionaries remain stalled. |
+| B25 | Fibonacci spectrum anchor at `lambda=1`? | Strong finite-approximant numerical anchor if `lambda=1` is accepted; coupling is motivated, not derived. |
 
-Across B1–B5 the pattern is consistent: the well-defined content is exact, but the bridge
-to 3+1 gravity rests, in every probe, on a step asserted but not constructed.
+Across Phase B the pattern is consistent: the well-defined content is exact or
+numerically reproducible, but each physical or semantic bridge stalls at an
+inserted dictionary, carrier, coupling, unit, selector, or observable.
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3

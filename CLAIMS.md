@@ -9,9 +9,9 @@ pointer. Prose elsewhere in the repo may not exceed the label of the claim it re
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-05-28 · derived from `AUDIT_REPORT.md` §4; Phase A tests added;
-P11–P13 added (exact-algebra results from the session-3 review); P15–P16 added (Möbius vector
-field + derived potential, session-3 synthesis — see `PROGRESS_LOG.md` 2026-05-27).
+**Last updated:** 2026-05-29 · proven ledger unchanged at 15 claims; C1 evidence
+upgraded by `docs/UNIQUENESS_THEOREM.md`; trace-map and spectrum work B13-B25
+logged as frontier only.
 
 ---
 
@@ -78,6 +78,11 @@ independent + 1 via-discriminant).
 Handoff-document steps 3B → 6 ("path to Einstein") map onto O1–O5. The first concrete
 frontier probe is whether the gluing identity `W = S_L − F_R + ms` maps onto the discrete
 Chern–Simons flatness condition `F = 0` — a well-defined yes/no computation.
+
+Current trace-map frontier work (B13-B25) refines O1-O8 but does not close any
+of them. The half-step trace lift is canonical and the Fibonacci spectrum at
+`lambda=1` is a useful finite-approximant anchor, but the required physical
+dictionaries and the derivation of `lambda=1` remain open.
 
 ---
 

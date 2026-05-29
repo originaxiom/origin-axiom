@@ -31,6 +31,7 @@ HISTORICAL_ARCHIVE
 | PC08 | Physics-First Compression Notes | COMPUTATIONAL_REPORT | SEED | External physics structures compress matter data and define bridge targets. | Not Origin-derived. |
 | PC09 | Legacy Toy-Universe Simulation Archive | HISTORICAL_ARCHIVE | SEED | Earlier generated reports and simulations may have archival value. | Pre-governance and likely superseded; requires revalidation. |
 | PC10 | A-Polynomial Convention Controls | THEOREM_NOTE / NEGATIVE_RESULT | SEED | Prevents repeated convention mistakes around cusp equations and active roots. | May be an appendix rather than a standalone paper. |
+| PC11 | Half-Step Trace Lift and Fibonacci Spectrum Anchor | COMPUTATIONAL_REPORT / LITERATURE_BRIDGE | EVIDENCE_EXISTS | B13-B25 isolate the canonical half-step trace lift and a finite-approximant spectral anchor at `lambda=1`. | Must cite known Fibonacci Hamiltonian results and keep `lambda=1` motivated, not derived. |
 
 ## Highest Priority
 
@@ -43,6 +44,7 @@ mathematical programs rather than broad speculation.
 PC02 = conditional uniqueness of the core
 PC04 = residue mechanism that survives cancellation controls
 PC06 = selector theorem question for state-integral routes
+PC11 = trace-map/spectrum bridge after B13-B25, once citations and controls are complete
 ```
 
 ## Paper Card Template

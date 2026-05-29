@@ -56,6 +56,9 @@ These are not all claims, but they guide future work:
   dynamical object, while the physical lift remains open.
 - Based data matter: conjugate matrices can share trace and spectrum while
   giving different fixed-point polynomials.
+- The trace-map half-step campaign gives a canonical character-variety lift and
+  a finite-approximant Fibonacci spectrum anchor at `lambda=1`; both are useful
+  frontier observations, not promoted claims.
 
 ## What Counts As A Future Success
 

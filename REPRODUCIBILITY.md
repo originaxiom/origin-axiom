@@ -48,6 +48,8 @@ exactly:
 | Tag | Meaning |
 |---|---|
 | `phaseA-foundation-freeze` | Phase A complete: all P-claims locked behind passing tests (Phase 0 governance and the legacy consolidation are included in the same milestone). |
+| `session3-synthesis-freeze` | Session-3 synthesis freeze: P15/P16 and the conditional uniqueness theorem are locked and public. |
+| `atlas-paper-integration-v1` | First atlas/paper integration checkpoint after consolidation of reviewer and paper-candidate navigation. |
 
 To reproduce a result as of a freeze:
 
@@ -63,3 +65,14 @@ python -m pytest tests/ -v
 All computations in the `proven` core are exact (integer/symbolic) or deterministic
 floating-point with fixed inputs. No result in the proven core depends on a random seed.
 Any stochastic exploration belongs in `frontier/` and must pin and record its seed.
+
+## Frontier probes
+
+Frontier probes are not part of the proven core, but many are executable:
+
+```bash
+python frontier/B25_fibonacci_spectrum_anchor/probe.py
+```
+
+Probe outputs are observations with bounded verdicts. A passing frontier probe
+does not promote a claim unless the governance gate is explicitly run and logged.
