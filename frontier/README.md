@@ -10,6 +10,28 @@ logged status change.
 
 **Phase B is in progress.** Probes logged so far:
 
+## Dependency Graph
+
+```text
+B13-B16 established the current kernel:
+  A1-A6 -> A
+  (L X)^2=A -> X=+/-P
+  F=L P, F^2=A
+  trace lift of F contains the A-sector
+
+B18 trace-lift functoriality
+  gates B20, B21, B23, B24
+
+B19 exchange/half-step axiom audit
+B17 alternation/persistence selector
+B22 spectrum genericity controls
+
+B20 operational awareness test
+B21 spacetime / Weil-Petersson dictionary test
+B23 BKL / gravity controls
+B24 anyon / quantum bridge
+```
+
 - **B1–B5** — gluing vs. Chern–Simons flatness, moduli evolution, Regge complex,
   BKL/Gutzwiller, Wheeler–DeWitt.
 - **B6–B9** — the field-theoretic lift of the derived potential (P15/P16):
@@ -33,3 +55,7 @@ logged status change.
 - **B16** — record-swap status. Exact algebra shows `P` is unique up to sign as
   the involution exchanging the primitive pair `{L,R}`, but the exchange
   symmetry itself is not forced by the current A1-A6 minimal-record axioms.
+- **B17-B24** — half-step kernel campaign. B18 establishes the trace map as the
+  canonical half-step trace lift; B19/B17/B22 control the exchange, alternation,
+  and spectrum claims; B20/B21/B23/B24 test awareness, spacetime, gravity, and
+  anyon dictionaries and leave them stalled where no dictionary is derived.

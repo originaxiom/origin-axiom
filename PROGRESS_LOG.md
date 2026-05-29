@@ -884,5 +884,44 @@ Verdict: `STALLED` at deriving exchange/half-step symmetry. No claims changed.
 
 ---
 
+## 2026-05-29 — B17-B24 half-step kernel campaign
+
+**Executed in modified dependency order; no claim promotion.**
+
+Added B17-B24 on branch `explore/trace-map-character-variety`, following the
+half-step kernel thesis:
+
+```text
+exchange/half-step symmetry -> trace lift -> recursive A-sector
+```
+
+- **B18 first:** the trace map is the functorial half-trace lift of
+  `F: a->ab, b->a`; `T_F^2` is the `A=F^2` trace lift. This passes the
+  canonicality gate but remains `STALLED` at the physical/semantic dictionary.
+- **B19:** plain exchange/order-conjugacy are too weak; adding `X^2=I`, or
+  using the operational half-step condition `(L X)^2=A`, isolates `P` up to
+  sign in bounded exact `GL(2,Z)` search. Generic orientation-reversing
+  involution and time reversal are too weak.
+- **B17:** same-record repetition stays parabolic; original A1-A6 filters
+  already select `LR/RL`; `LPLP=A` is a half-step refactorization, not a new
+  uniqueness theorem without the half-step condition.
+- **B22:** the `-1` parity sector is generic for orientation-reversing
+  symmetric-square lifts; the special object is the `A` quadratic sector
+  (`det=-1`, `trace=+/-1`), not parity alone.
+- **B20:** operational invariant-memory and feedback are present, but the trace
+  map does not explicitly read `I`; awareness/self-model language remains
+  quarantined.
+- **B21:** the half-step trace map is anti-Poisson for the
+  Goldman/Weil-Petersson bracket and `T^2` is Poisson; this gives a natural
+  character-variety symplectic structure, not spacetime.
+- **B23:** the perturbation map near `(1,1,1)` has unique nonlinear term
+  `2uw`; no BKL/Misner variable dictionary is derived.
+- **B24:** `SU(2)_3` is compatible because `2cos(pi/(k+2))=phi` only at `k=3`,
+  but the level-selection rule remains inserted.
+
+All new probes are frontier-only and end `STALLED`. No claims changed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
