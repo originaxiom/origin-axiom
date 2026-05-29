@@ -801,5 +801,32 @@ physical or cognitive interpretation. No claims changed.
 
 ---
 
+## 2026-05-29 — B14 half-step square-root selector
+
+**Continuation of the trace-map controls; exact algebra, no claim promotion.**
+
+Added `frontier/B14_half_step_square_root_selector/` on branch
+`explore/trace-map-character-variety`.
+
+- The probe checks the half-step behind B13. With record swap
+  `P=[[0,1],[1,0]]`, `F=L P=[[1,1],[1,0]]` satisfies `F^2=A`.
+- Exact result: the only `GL(2,Z)` square roots of `A` are `F` and `-F`. The
+  proof uses eigenvalue trace constraints plus Cayley-Hamilton:
+  if `X^2=A`, then `det(X)=-1`, `tr(X)=+/-1`, and
+  `X=tr(X)(A-I)`.
+- General mixed-closure result: for
+  `B(a,b)=L_a R_b=[[1+ab,a],[b,1]]`, an integer orientation-reversing square
+  root exists iff `a=b`; then `B(k,k)=(L_k P)^2`.
+- Consequence: the half-step requirement is a symmetry/balance selector. It does
+  not by itself select `k=1`; combined with the existing torsion-free/minimality
+  condition `ab=1`, it yields `F=L P` and `F^2=A`.
+- Caveat: this shifts the live question to the status of the record-swap `P`.
+  If `P` is a legitimate pre-dynamical symmetry of the two-record substrate, the
+  half-step is forced up to sign. If not, it remains inserted.
+
+Verdict: `STALLED` at deriving the record-swap symmetry. No claims changed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

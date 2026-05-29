@@ -21,3 +21,7 @@ logged status change.
   algebra shows the trace-map linearization contains the `A` quadratic as a
   lattice-conjugate rank-2 sector, but the bridge to physical `3+1`, matter,
   gravity, or awareness remains an inserted dictionary.
+- **B14** — the half-step square-root selector. Exact algebra shows `A` has only
+  two `GL(2,Z)` square roots, `F=L P` and `-F`, and that mixed closures
+  `B(a,b)=L_aR_b` admit an integer orientation-reversing square root iff `a=b`.
+  The remaining gap is whether the record-swap `P` is forced or inserted.
