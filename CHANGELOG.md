@@ -88,6 +88,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `papers/VALIDATION_LEDGER.md`, PC02 `REVIEWABILITY_CHECKLIST.md`, and
   validation briefs replace communication-oriented artifacts. No person-specific
   names or private correspondence are tracked in the repo.
+- Falsifiability matrix added: `papers/FALSIFIABILITY_MATRIX.md` maps PC02,
+  PC04, PC06, PC07, and PC11 to missing objects, validation questions, and
+  kill/rescope conditions. PC07 now has a paper card, and public-surface hygiene
+  is covered by `tests/test_public_surface_scan.py`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

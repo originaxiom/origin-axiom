@@ -9,19 +9,20 @@ Read in this order:
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
 3. `papers/REVIEWABILITY_INDEX.md`
-4. `papers/VALIDATION_WORKFLOW.md`
-5. `docs/UNIQUENESS_THEOREM.md`
-6. `docs/SESSION3_SYNTHESIS.md`
-7. `frontier/README.md`
-8. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
-9. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
-10. `frontier/B32_selector_axiom_audit/FINDINGS.md`
-11. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
-12. `docs/TRACE_SELECTOR_THEOREM.md`
-13. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
-14. `docs/atlas/RESEARCH_TREE.md`
-15. `docs/atlas/FAILURE_ATLAS.md`
-16. `REPRODUCIBILITY.md`
+4. `papers/FALSIFIABILITY_MATRIX.md`
+5. `papers/VALIDATION_WORKFLOW.md`
+6. `docs/UNIQUENESS_THEOREM.md`
+7. `docs/SESSION3_SYNTHESIS.md`
+8. `frontier/README.md`
+9. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
+10. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
+11. `frontier/B32_selector_axiom_audit/FINDINGS.md`
+12. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
+13. `docs/TRACE_SELECTOR_THEOREM.md`
+14. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
+15. `docs/atlas/RESEARCH_TREE.md`
+16. `docs/atlas/FAILURE_ATLAS.md`
+17. `REPRODUCIBILITY.md`
 
 Then run:
 
@@ -66,9 +67,11 @@ standard/natural tangent-filter inheritance principle or an inserted axiom, and
 whether the downstream connections are presented as known mathematics or
 project-specific packaging.
 
-For a compact handoff, start with `papers/REVIEWABILITY_INDEX.md`. Record
-actionable findings in `papers/VALIDATION_LEDGER.md`; do not change claim status
-until a finding is triaged and linked to a commit or PR.
+For a compact handoff, start with `papers/REVIEWABILITY_INDEX.md`, then use
+`papers/FALSIFIABILITY_MATRIX.md` to identify the missing object and the
+kill/rescope condition. Record actionable findings in
+`papers/VALIDATION_LEDGER.md`; do not change claim status until a finding is
+triaged and linked to a commit or PR.
 
 ## If You Are Checking Physics-Like Language
 
