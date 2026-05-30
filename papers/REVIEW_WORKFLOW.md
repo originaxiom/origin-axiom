@@ -55,9 +55,13 @@ well-posed.
 
 ## Packet Rules
 
+Outreach templates live in the candidate directories. Use them as sendable
+starting points, then strip any private context before sending or committing.
+
 For PC02, send:
 
 ```text
+papers/candidates/PC02_conditional_uniqueness/OUTREACH_KIT.md
 papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md
 papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md
 docs/UNIQUENESS_THEOREM.md

@@ -1109,6 +1109,26 @@ Ledger unchanged: 15 proven, 5 conditional, 9 open, 10 dead.
 
 ---
 
+## 2026-05-30 — PC02 outreach kit
+
+**Prepared the first external-review outreach template; no claims changed.**
+
+Added `papers/candidates/PC02_conditional_uniqueness/OUTREACH_KIT.md` with:
+
+- reviewer fit criteria for topology / mapping-torus / `SL(2,Z)` expertise;
+- short first-contact and full-review request templates;
+- the minimal file packet to send;
+- response logging instructions for `papers/REVIEW_RESPONSE_LEDGER.md`;
+- explicit non-claims preserving the conditional theorem framing.
+
+Updated `papers/EXTERNAL_REVIEW_INDEX.md` and `papers/REVIEW_WORKFLOW.md` so PC02
+outreach starts from the kit. No reviewer names, emails, private correspondence,
+or raw transcripts were added.
+
+Ledger unchanged: 15 proven, 5 conditional, 9 open, 10 dead.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**
