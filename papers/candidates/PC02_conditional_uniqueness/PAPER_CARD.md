@@ -91,6 +91,16 @@ torsion order = |det(B - I)| when det(B - I) != 0
 The repository tests check the algebraic consequences; the lemma note supplies
 the paper-facing topology proof for independent validation.
 
+## Status-Change Gate
+
+PC02 can become `DRAFTABLE` only if the mapping-torus homology/torsion lemma,
+the torsion-free closure filter, and the LR/RL "up to order" formulation survive
+independent validation.
+
+It must be rescaled or killed if the torsion calculation is wrong, if the
+torsion-free filter does not follow from the stated axioms, or if the based
+golden-polynomial caveat cannot be stated without overclaiming.
+
 ## Target Audience
 
 ```text

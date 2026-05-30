@@ -21,6 +21,7 @@ result cluster, but it cannot upgrade the status of that result.
 CANDIDATES.md = registry of candidate outputs
 ARTIFACT_MANIFEST.md = manifest for copied PDFs, source files, data, and logs
 REVIEWABILITY_INDEX.md = router for mathematical validation packets
+FALSIFIABILITY_MATRIX.md = status-change and kill/rescope matrix
 VALIDATION_WORKFLOW.md = process for auditing, triaging, and acting on findings
 VALIDATION_LEDGER.md = public-safe ledger for validation outcomes and actions
 candidates/ = one directory per candidate with a PAPER_CARD.md

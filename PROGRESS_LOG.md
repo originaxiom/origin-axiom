@@ -1113,6 +1113,36 @@ Ledger unchanged: 15 proven, 5 conditional, 9 open, 10 dead.
 
 ---
 
+## 2026-05-30 — Falsifiability matrix and public-surface QA
+
+**Closed the consolidation loop with explicit kill/rescope criteria; no claims changed.**
+
+Added `papers/FALSIFIABILITY_MATRIX.md` as the next audit stop after
+`CLAIMS.md` and `papers/REVIEWABILITY_INDEX.md`. It maps PC02, PC04, PC06,
+PC07, and PC11 to:
+
+- current status;
+- claim boundary;
+- missing object;
+- reproduction or proof path;
+- validation question;
+- kill/rescope condition.
+
+Added `papers/candidates/PC07_mobius_flow_potential/PAPER_CARD.md` because PC07
+was listed in the registry but did not yet have a candidate card. The card keeps
+P15/P16 as exact algebra and quarantines B6-B9 as a field-theory lift requiring
+inserted kinetic/carrier/unit choices.
+
+Added `tests/test_public_surface_scan.py` to lock the public documentation
+surface against stale communication artifacts, email-shaped strings, reviewer
+placeholder labels, and raw transcript markers.
+
+Updated the validation router, paper registry, paper cards, and auditor guide to
+point at the matrix before any status change. Ledger unchanged: 15 proven, 5
+conditional, 9 open, 10 dead.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**

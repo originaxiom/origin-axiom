@@ -152,6 +152,14 @@ standard Fricke-Vogt / character-variety trace-map references
 standard Fibonacci Hamiltonian gap-labeling references
 ```
 
+## Status-Change Gate
+
+PC11 can become `DRAFTABLE` only if T1 is independently validated as a theorem,
+standard naturality principle, or explicitly useful conditional assumption.
+
+It must be rescaled if T1 is merely inserted. In that case `lambda/h=1` remains
+conditional/motivated and cannot be framed as a prediction.
+
 ## Decision
 
 ```text

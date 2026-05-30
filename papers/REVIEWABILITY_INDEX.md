@@ -19,13 +19,14 @@ inheritance assumption is natural, standard, derivable, or inserted.
 
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
-3. `papers/VALIDATION_WORKFLOW.md`
-4. `papers/candidates/PC02_conditional_uniqueness/REVIEWABILITY_CHECKLIST.md`
-5. `papers/candidates/PC02_conditional_uniqueness/VALIDATION_BRIEF.md`
-6. `papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md`
-7. `papers/candidates/PC11_trace_map_spectrum_bridge/VALIDATION_BRIEF.md`
-8. `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md`
-9. `docs/TRACE_SELECTOR_THEOREM.md`
+3. `papers/FALSIFIABILITY_MATRIX.md`
+4. `papers/VALIDATION_WORKFLOW.md`
+5. `papers/candidates/PC02_conditional_uniqueness/REVIEWABILITY_CHECKLIST.md`
+6. `papers/candidates/PC02_conditional_uniqueness/VALIDATION_BRIEF.md`
+7. `papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md`
+8. `papers/candidates/PC11_trace_map_spectrum_bridge/VALIDATION_BRIEF.md`
+9. `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md`
+10. `docs/TRACE_SELECTOR_THEOREM.md`
 
 Record any actionable finding in:
 

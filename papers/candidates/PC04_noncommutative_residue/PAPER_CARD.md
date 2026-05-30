@@ -101,6 +101,16 @@ which noncommutative quotient retains residue
 why the L/R instance is minimal under stated filters
 ```
 
+## Status-Change Gate
+
+PC04 can become `NEEDS_VALIDATION` only after the private residue probes are
+rewritten as a public reproducer and the distinguishability-to-order step is
+formalized.
+
+It must be rescaled or killed if distinguishable inverse acts do not require
+ordered data, or if the proposed residue vanishes under the equivalence relation
+needed by the cancellation argument.
+
 ## Target Audience
 
 ```text

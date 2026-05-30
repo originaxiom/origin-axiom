@@ -95,6 +95,15 @@ relation to the figure-eight A-polynomial branch
 failure condition if the selector is not unique
 ```
 
+## Status-Change Gate
+
+PC06 can become `DRAFTABLE` only as a theorem-question dossier unless a
+source-level selector theorem is found.
+
+It must be rescaled or killed if the contour/thimble class is supplied rather
+than forced, if the selected class is nonunique, or if the desired branch is used
+as an input.
+
 ## Target Audience
 
 ```text
