@@ -55,7 +55,7 @@ Public-safety rules:
 no raw chat transcripts
 no model or private-tool names in public migration docs
 no private workflow narration
-no third-party contact details
+no third-party private identity details
 no local whole-computer manifests
 no downloaded PDFs unless explicitly approved and licensed
 no large campaign JSONL/result logs
@@ -90,7 +90,7 @@ Public-safe source material:
 
 ```text
 /Users/dri/tem_zip/docs/RESEARCH_ATLAS_PLAN.md
-/Users/dri/tem_zip/docs/REVIEWER_EXPERIENCE_ARCHITECTURE.md
+reader-experience architecture note from local staging
 /Users/dri/tem_zip/docs/PAPER_CANDIDATE_PIPELINE.md
 ```
 
@@ -99,7 +99,7 @@ Destination:
 ```text
 docs/atlas/README.md
 docs/atlas/RESEARCH_TREE.md
-docs/atlas/REVIEWER_GUIDE.md
+docs/atlas/AUDITOR_GUIDE.md
 docs/atlas/FAILURE_ATLAS.md
 docs/atlas/SUCCESS_ATLAS.md
 docs/atlas/GLOSSARY.md
@@ -325,7 +325,7 @@ Expected result for public migration docs:
 ```text
 no model or private-tool names
 no raw transcript language
-no private contact data
+no private identity data
 no accidental credentials
 ```
 

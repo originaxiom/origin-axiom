@@ -1,4 +1,4 @@
-# Reviewer Guide
+# Auditor Guide
 
 Status: navigation guide. It does not replace the governed ledgers.
 
@@ -8,8 +8,8 @@ Read in this order:
 
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
-3. `papers/EXTERNAL_REVIEW_INDEX.md`
-4. `papers/REVIEW_WORKFLOW.md`
+3. `papers/REVIEWABILITY_INDEX.md`
+4. `papers/VALIDATION_WORKFLOW.md`
 5. `docs/UNIQUENESS_THEOREM.md`
 6. `docs/SESSION3_SYNTHESIS.md`
 7. `frontier/README.md`
@@ -40,7 +40,7 @@ Start with:
 The key distinction is simple: exact mathematical consequences are not the same
 thing as physical claims. The project is strict about that boundary.
 
-## If You Are A Mathematician
+## If You Are Checking The Mathematics
 
 Start with:
 
@@ -60,17 +60,17 @@ The next conditional theorem to inspect is:
 T1 -> S1 -> I=1/4 -> lambda/h=1
 ```
 
-The most useful external check is whether the hypotheses are stated minimally,
-whether the torsion and mapping-torus facts are fully justified, whether T1 is a
+The useful check is whether the hypotheses are stated minimally, whether the
+torsion and mapping-torus facts are fully justified, whether T1 is a
 standard/natural tangent-filter inheritance principle or an inserted axiom, and
 whether the downstream connections are presented as known mathematics or
-genuinely new packaging.
+project-specific packaging.
 
-For a compact reviewer handoff, start with `papers/EXTERNAL_REVIEW_INDEX.md`.
-Record reviewer feedback in `papers/REVIEW_RESPONSE_LEDGER.md`; do not change
-claim status until a response is triaged and linked to a commit or PR.
+For a compact handoff, start with `papers/REVIEWABILITY_INDEX.md`. Record
+actionable findings in `papers/VALIDATION_LEDGER.md`; do not change claim status
+until a finding is triaged and linked to a commit or PR.
 
-## If You Are A Physicist
+## If You Are Checking Physics-Like Language
 
 Start with:
 
@@ -90,9 +90,8 @@ The current physics posture is conservative:
   not a prediction. `docs/TRACE_SELECTOR_THEOREM.md` shows that T1 implies S1
   and selects `I=1/4`, but T1 itself remains motivated rather than derived.
 
-The most valuable review is not encouragement or dismissal. It is a precise
-statement of which inserted object is unavoidable and whether any bridge can be
-made falsifiable.
+The most valuable check is a precise statement of which inserted object is
+unavoidable and whether any bridge can be made falsifiable.
 
 ## If You Are Reproducing The Work
 

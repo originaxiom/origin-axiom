@@ -100,7 +100,7 @@ failure condition if the selector is not unique
 ```text
 quantum topology readers
 state-integral and resurgence readers
-mathematical physics reviewers
+mathematical physics auditors
 ```
 
 ## Best Publication Form

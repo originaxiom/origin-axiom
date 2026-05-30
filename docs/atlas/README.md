@@ -36,8 +36,8 @@ ledger disagree, the governed ledger wins.
 
 - `RESEARCH_TREE.md` gives the current map from the original question to the
   surviving exact spine and the open physics bridge.
-- `REVIEWER_GUIDE.md` gives routes for different readers: new reader,
-  mathematician, physicist, and reproducibility checker.
+- `AUDITOR_GUIDE.md` gives routes for different readers: new reader,
+  mathematics checker, physics-language checker, and reproducibility checker.
 - `FAILURE_ATLAS.md` classifies repeated obstruction types so failed routes are
   not repeated.
 - `SUCCESS_ATLAS.md` records what survived under governance.

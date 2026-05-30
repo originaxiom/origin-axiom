@@ -1,9 +1,9 @@
-# PC11 External Review Brief
+# PC11 Validation Brief
 
-Status: review brief. This is a compact handoff for a mathematical reviewer.
+Status: validation brief. This is a compact handoff for mathematical auditing.
 It does not add claims.
 
-## What To Review
+## What To Validate
 
 PC11 is a computational/literature bridge around the trace-map branch:
 
@@ -16,9 +16,9 @@ conditional uniqueness core
   -> T1 -> S1 -> I=1/4 -> lambda/h=1
 ```
 
-The review target is not a physics theory and not a new Fibonacci Hamiltonian
-theorem. It is a bounded question: whether **T1** is mathematically natural or
-inserted.
+The validation target is not a physics theory and not a new Fibonacci
+Hamiltonian theorem. It is a bounded question: whether **T1** is mathematically
+natural or inserted.
 
 ## Minimal Reading Set
 
@@ -36,9 +36,7 @@ frontier/B47_s1_verdict_ledger/FINDINGS.md
 papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md
 ```
 
-## Main Checks Requested
-
-Please check:
+## Main Checks
 
 ```text
 Is the Fibonacci trace map correctly framed as the half-step trace lift?

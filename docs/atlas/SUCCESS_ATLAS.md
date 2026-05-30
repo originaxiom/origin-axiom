@@ -73,7 +73,7 @@ A future result should be classified by the strongest gate it actually passes:
 - Frontier: bounded probe with a named missing object.
 - Dead: falsified, circular, or killed by controls.
 
-For physics contact, the bar is higher:
+For a physics bridge, the bar is higher:
 
 ```text
 specific observable

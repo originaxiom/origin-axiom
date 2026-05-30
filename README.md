@@ -46,7 +46,7 @@ The honest one-line status:
 | `PROGRESS_LOG.md` | Append-only chronological log of work. |
 | `CHANGELOG.md` | Versioned, human-facing change history. |
 | `REPRODUCIBILITY.md` | Environment, build/test commands, freeze tags. |
-| `docs/atlas/` | Navigation layer: reviewer guide, research tree, success/failure atlases, simulator map. |
+| `docs/atlas/` | Navigation layer: auditor guide, research tree, success/failure atlases, simulator map. |
 | `docs/TRACE_SELECTOR_THEOREM.md` | Conditional T1 selector package: `T1 -> S1 -> I=1/4 -> lambda/h=1`. |
 | `papers/` | Paper-candidate registry and public artifact manifest. |
 | `src/origin_axiom/` | The tested package locking the `proven` core. *(Phase A)* |

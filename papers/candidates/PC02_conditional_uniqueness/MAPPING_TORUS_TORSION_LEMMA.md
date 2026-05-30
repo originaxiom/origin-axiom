@@ -125,9 +125,9 @@ This lemma supplies the paper-grade topology step used by
 that, once the mixed closure `B(a,b)` and torsion-free closure condition are
 accepted, the torsion filter forces `ab = 1`.
 
-## Review Notes
+## Validation Notes
 
-A reviewer should check:
+An audit should check:
 
 ```text
 the Wang sequence is the right convention for this mapping torus

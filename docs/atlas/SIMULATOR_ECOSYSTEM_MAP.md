@@ -10,7 +10,7 @@ Build an interactive simulator only when it does at least one real job:
 ```text
 explain a hard concept better than prose
 make a calculation reproducible in the browser
-let a reviewer vary assumptions and see the verdict change
+let a reader vary assumptions and see the verdict change
 show why a tempting path fails
 compare mechanisms under the same gate
 teach the mathematics without diluting rigor
@@ -54,7 +54,7 @@ claim.
 
 ### Trace / Discriminant / Phi Classifier
 
-Purpose: let a reviewer scan small `SL(2,Z)` candidates and see which filters
+Purpose: let a reader scan small `SL(2,Z)` candidates and see which filters
 select trace 3 and discriminant 5.
 
 Useful because: it directly mirrors the conditional uniqueness theorem.

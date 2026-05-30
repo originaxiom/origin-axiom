@@ -28,7 +28,7 @@ tests/test_uniqueness_theorem.py
 CLAIMS.md
 papers/candidates/PC02_conditional_uniqueness/PAPER_CARD.md
 papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
-papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md
+papers/candidates/PC02_conditional_uniqueness/VALIDATION_BRIEF.md
 ```
 
 Secondary:
@@ -102,7 +102,7 @@ conjugate representative K -> tau^2 - 3 tau + 1
 ```
 
 The golden fixed-point polynomial belongs to the based representative `A = LR`,
-not to the whole conjugacy class. A reviewer should check that the paper never
+not to the whole conjugacy class. The audit must check that the paper never
 silently turns this based fact into a class invariant.
 
 ## Paper-Grade Lemma
@@ -123,7 +123,7 @@ if det(B - I) != 0, the torsion order is |det(B - I)|
 For `B(a,b)`, this gives torsion order `ab`. Torsion-free closure then forces
 `ab = 1`.
 
-Review request:
+Validation checks:
 
 ```text
 confirm the lemma statement is standard and correctly applied
@@ -133,7 +133,7 @@ confirm whether the proof should use cellular chains, Wang sequence, or mapping-
 
 ## Non-Claims To Enforce
 
-The review should reject any draft wording that implies:
+The validation process should reject any draft wording that implies:
 
 ```text
 the substrate was derived from nothing
@@ -154,18 +154,18 @@ given the minimal-record axioms, the core is conditionally forced up to order
 Before PC02 becomes `DRAFTABLE`, it needs:
 
 ```text
-external check of the mapping-torus homology lemma
+independent check of the mapping-torus homology lemma
 one-page statement of axioms with motivation and limitations for the draft body
 explicit LR/RL order section
 table separating proven P-claims from conditional C1
 reproduction appendix naming the exact tests
 short related-work scan for primitive shears and once-punctured torus bundles
-one external mathematical review
+one independent mathematical validation pass
 ```
 
-## Review Questions
+## Validation Questions
 
-Ask the reviewer:
+Check:
 
 ```text
 Are A1-A7 stated with enough precision?

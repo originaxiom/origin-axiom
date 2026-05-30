@@ -1,9 +1,9 @@
-# PC02 External Review Brief
+# PC02 Validation Brief
 
-Status: review brief. This is a compact handoff for a mathematical reviewer.
+Status: validation brief. This is a compact handoff for mathematical auditing.
 It does not add claims.
 
-## What To Review
+## What To Validate
 
 PC02 claims a conditional theorem:
 
@@ -15,8 +15,9 @@ minimal-record axioms A1-A7
   -> governed downstream core P1-P16
 ```
 
-The review target is not a physics theory and not a derivation from nothing. It
-is a conditional uniqueness statement in a small integer record-transfer system.
+The validation target is not a physics theory and not a derivation from nothing.
+It is a conditional uniqueness statement in a small integer record-transfer
+system.
 
 ## Minimal Reading Set
 
@@ -30,9 +31,7 @@ tests/test_uniqueness_theorem.py
 papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md
 ```
 
-## Main Checks Requested
-
-Please check:
+## Main Checks
 
 ```text
 Are A1-A7 precise enough for a theorem note?
@@ -83,7 +82,7 @@ the frontier field-theory lift is proven
 Correct status:
 
 ```text
-conditional mathematical theorem candidate, ready for external review
+conditional mathematical theorem candidate, ready for validation
 ```
 
 ## Suggested Outcome Labels

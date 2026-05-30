@@ -106,7 +106,7 @@ why the L/R instance is minimal under stated filters
 ```text
 algebra and dynamics readers
 foundations readers interested in cancellation arguments
-reviewers of the project's obstruction map
+auditors of the project's obstruction map
 ```
 
 ## Best Publication Form

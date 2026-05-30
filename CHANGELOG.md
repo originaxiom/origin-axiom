@@ -39,7 +39,7 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Roadmap integration started with `docs/atlas/INTEGRATION_MANIFEST.md`, a
   public-safe manifest for migrating atlas, paper-candidate, campaign-synthesis,
   and review-packet material from private staging into the canonical repository.
-- Research Atlas skeleton added under `docs/atlas/`: reviewer guide, research
+- Research Atlas skeleton added under `docs/atlas/`: auditor guide, research
   tree, failure atlas, success atlas, glossary, and simulator ecosystem map. This
   is a navigation layer only; governed claims remain in `CLAIMS.md`.
 - Paper-candidate registry added under `papers/`: candidate index, artifact
@@ -48,7 +48,7 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - Quantum selector campaign summarized under `docs/atlas/campaigns/`: public-safe
   synthesis of the 232-cycle run, preserving verdict counts, survivors, killed
   routes, stalled bridge classes, and theorem questions without raw run artifacts.
-- PC02 external-review packet added, giving reviewers a concise audit path for
+- PC02 validation packet added, giving readers a concise audit path for
   the conditional uniqueness theorem, its tests, caveats, and missing topology
   lemma.
 - Noncommutative cancellation residue dossier added as an atlas node, with the
@@ -66,8 +66,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - PC02 paper-support lemma added: mapping-torus homology/torsion proof for the
   conditional uniqueness theorem, with PC02 paper card and review packet updated
   for external mathematical review.
-- PC02 external-review brief added, and PC02 readiness advanced from
-  `EVIDENCE_EXISTS` to `NEEDS_VALIDATION` pending outside mathematical review.
+- PC02 validation brief added, and PC02 readiness advanced from
+  `EVIDENCE_EXISTS` to `NEEDS_VALIDATION` pending independent mathematical
+  validation.
 - Conditional uniqueness theorem formalized: `docs/UNIQUENESS_THEOREM.md` and
   `tests/test_uniqueness_theorem.py` lock the machine-checked algebra
   `A1-A7 -> A=LR` up to order, while keeping C1 conditional.
@@ -80,9 +81,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `docs/TRACE_SELECTOR_THEOREM.md` formalizes conditional claim C5:
   `T1 -> S1 -> I=1/4 -> lambda/h=1`. The selector is conditional on T1, not
   proven or physical.
-- External-review packet added for PC11, plus `papers/EXTERNAL_REVIEW_INDEX.md`
-  routing reviewers through PC02 and PC11. PC11 readiness advances to
-  `NEEDS_VALIDATION`, pending outside review of T1.
+- PC11 validation packet added, plus `papers/REVIEWABILITY_INDEX.md` routing
+  PC02 and PC11 through reviewability and falsifiability checks. PC11 readiness
+  advances to `NEEDS_VALIDATION`, pending independent validation of T1.
+- Reviewability/falsifiability workflow added: `papers/VALIDATION_WORKFLOW.md`,
+  `papers/VALIDATION_LEDGER.md`, PC02 `REVIEWABILITY_CHECKLIST.md`, and
+  validation briefs replace communication-oriented artifacts. No person-specific
+  names or private correspondence are tracked in the repo.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
