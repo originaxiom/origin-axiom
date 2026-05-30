@@ -49,7 +49,7 @@ CLAIMS.md
 docs/UNIQUENESS_THEOREM.md
 docs/SESSION3_SYNTHESIS.md
 papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md
-papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md
+papers/candidates/PC02_conditional_uniqueness/VALIDATION_BRIEF.md
 tests/test_uniqueness_theorem.py
 tests/test_mobius_vector_field.py
 tests/test_derived_potential.py
@@ -89,7 +89,7 @@ torsion order = |det(B - I)| when det(B - I) != 0
 ```
 
 The repository tests check the algebraic consequences; the lemma note supplies
-the paper-facing topology proof for external review.
+the paper-facing topology proof for independent validation.
 
 ## Target Audience
 
@@ -97,7 +97,7 @@ the paper-facing topology proof for external review.
 low-dimensional topology readers
 dynamical systems readers
 mathematicians interested in rigidity and generators
-reviewers of the project core
+auditors of the project core
 ```
 
 ## Best Publication Form
@@ -105,11 +105,11 @@ reviewers of the project core
 ```text
 narrow theorem note
 reproducible technical report
-external-review packet before public draft
+validation packet before public draft
 ```
 
 ## Decision
 
 ```text
-Keep. Ready for external mathematical review.
+Keep. Ready for mathematical validation.
 ```

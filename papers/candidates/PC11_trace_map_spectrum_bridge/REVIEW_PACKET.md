@@ -25,7 +25,7 @@ Primary:
 ```text
 docs/TRACE_SELECTOR_THEOREM.md
 papers/candidates/PC11_trace_map_spectrum_bridge/PAPER_CARD.md
-papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md
+papers/candidates/PC11_trace_map_spectrum_bridge/VALIDATION_BRIEF.md
 CLAIMS.md
 frontier/B38_tangent_return_arithmetic_filter/FINDINGS.md
 frontier/B40_filter_reuse_audit/FINDINGS.md
@@ -98,7 +98,7 @@ this gives:
 lambda/h=1
 ```
 
-The reviewer should check whether this is a legitimate reuse of the original
+The audit should check whether this is a legitimate reuse of the original
 filters or an additional selector.
 
 ## Controls Already Logged
@@ -115,7 +115,7 @@ B38-B47: T1 implies S1; T1 not derived
 
 ## Non-Claims To Enforce
 
-The review should reject any draft wording that implies:
+The validation process should reject any draft wording that implies:
 
 ```text
 T1 is already derived
@@ -137,7 +137,7 @@ given T1, the trace selector conditionally selects I=1/4 and lambda/h=1
 Before PC11 becomes `DRAFTABLE`, it needs:
 
 ```text
-external check of T1 status
+independent check of T1 status
 related-work scan for trace maps, Fricke-Vogt invariants, and Fibonacci Hamiltonian gap labeling
 clear separation of known literature from project-specific packaging
 explicit statement that lambda/h is dimensionless
@@ -145,9 +145,9 @@ explicit statement that no physical units or observables are derived
 short appendix reproducing B18, B25, B26, B38, B40, and B47
 ```
 
-## Review Questions
+## Validation Questions
 
-Ask the reviewer:
+Check:
 
 ```text
 Is the trace lift of F described with standard terminology?

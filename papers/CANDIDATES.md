@@ -36,7 +36,7 @@ HISTORICAL_ARCHIVE
 ## Highest Priority
 
 PC02 is the first ship target because it has a precise theorem statement,
-tests, and a paper-support topology lemma ready for outside review. PC04 and PC06 are the next two
+tests, and a paper-support topology lemma ready for independent validation. PC04 and PC06 are the next two
 structured candidates because the latest campaign sharpened them into clear
 mathematical programs rather than broad speculation.
 

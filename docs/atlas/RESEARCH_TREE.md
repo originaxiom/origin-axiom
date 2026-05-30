@@ -121,7 +121,7 @@ Formal explanation:
 
 ## First Vertical Slice To Complete
 
-The first complete reviewer route should be:
+The first complete auditor route should be:
 
 ```text
 exact zero cannot move

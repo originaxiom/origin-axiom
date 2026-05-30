@@ -498,7 +498,7 @@ without bulk-copying exploratory material into the canonical repository.
 - Added `docs/atlas/RESEARCH_TREE.md`, mapping the main route from the original
   question through source-free zero failure, cancellation, noncommutative
   residue, the `A = LR` spine, topology host, and the still-open physics bridge.
-- Added `docs/atlas/REVIEWER_GUIDE.md`, with separate routes for new readers,
+- Added `docs/atlas/AUDITOR_GUIDE.md`, with separate routes for new readers,
   mathematicians, physicists, and reproducibility checkers.
 - Added `docs/atlas/FAILURE_ATLAS.md`, classifying repeated obstructions:
   source law missing, commutative cancellation, selector insertion, measure
@@ -594,16 +594,16 @@ suite before commit.
 
 ## 2026-05-28 — PC02 external-review packet (R4)
 
-**Review handoff, not new theorem content.**
+**Validation handoff, not new theorem content.**
 
 Implemented the fourth integration batch on branch
-`roadmap/atlas-paper-integration`: a concise external-review packet for the
+`roadmap/atlas-paper-integration`: a concise validation packet for the
 conditional uniqueness paper candidate.
 
 - Added `papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md`.
-- The packet gives a reviewer the target statement, files to read, reproduction
+- The packet gives a reader the target statement, files to read, reproduction
   commands, algebra to check, order caveat, non-claims, draft-readiness checklist,
-  and review questions.
+  and validation questions.
 - The packet isolates the paper-grade missing lemma:
   `H1(mapping torus of B) = Z plus coker(B - I)`, with torsion order
   `|det(B - I)|` when the determinant is nonzero.
@@ -745,19 +745,19 @@ of the topology step already used by the theorem document and tests.
 
 ---
 
-## 2026-05-29 — PC02 external-review brief
+## 2026-05-29 — PC02 validation brief
 
-**Review-ready handoff, not public draft.**
+**Validation-ready handoff, not public draft.**
 
 Completed the final PC02 wording pass on branch
 `paper/pc02-conditional-uniqueness`.
 
-- Added `papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md`.
+- Added `papers/candidates/PC02_conditional_uniqueness/VALIDATION_BRIEF.md`.
 - Tightened the PC02 paper card and review packet so the current state is
-  "ready for external mathematical review," not publication-ready.
+  "ready for mathematical validation," not publication-ready.
 - Advanced PC02 readiness from `EVIDENCE_EXISTS` to `NEEDS_VALIDATION` in both
   `papers/CANDIDATES.md` and the paper card, reflecting that the evidence and
-  proof packet exist but still need outside mathematical review before becoming
+  proof packet exist but still need independent mathematical validation before becoming
   `DRAFTABLE`.
 
 No claims changed. C1 remains conditional.
@@ -1048,10 +1048,10 @@ T1 -> S1 -> I=1/4 -> lambda/h=1
   integer hyperbolic trace or tangent torsion-one closure gives `mu=3`, hence
   `I=1/4`; B25's normalization gives `(lambda/h)²=4I=1`.
 - **The open object is now precise:** B39-B47 show that T1 itself is not derived
-  from A1-A7 plus exchange. External review should ask whether T1 is a theorem,
+  from A1-A7 plus exchange. Validation should ask whether T1 is a theorem,
   a standard naturality/filter-inheritance principle, or an extra axiom.
 - **Documentation synchronized:** `README.md`, `docs/atlas/README.md`,
-  `docs/atlas/REVIEWER_GUIDE.md`, and PC11 now point to the C5 package and keep
+  `docs/atlas/AUDITOR_GUIDE.md`, and PC11 now point to the C5 package and keep
   the spectrum bridge conditional, not predictive.
 
 Ledger update: 15 proven, **5 conditional**, 9 open, 10 dead. Proven test suite
@@ -1059,26 +1059,26 @@ unchanged.
 
 ---
 
-## 2026-05-30 — PC11 external-review packet and freeze preparation
+## 2026-05-30 — PC11 validation packet and freeze preparation
 
-**Prepared the trace-selector branch for external review and freeze.**
+**Prepared the trace-selector branch for validation and freeze.**
 
-Added a Markdown-only review layer for the now-narrowed mathematical question:
+Added a Markdown-only validation layer for the now-narrowed mathematical question:
 
 ```text
 Is T1 natural, standard, derivable, or inserted?
 ```
 
-- `papers/EXTERNAL_REVIEW_INDEX.md` routes reviewers to the two ready packets:
+- `papers/REVIEWABILITY_INDEX.md` routes readers to the two ready packets:
   PC02 (conditional uniqueness) and PC11 (half-step trace lift / C5 selector).
-- `papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md`
-  gives a compact review handoff focused on the trace lift, projective quotient,
+- `papers/candidates/PC11_trace_map_spectrum_bridge/VALIDATION_BRIEF.md`
+  gives a compact validation handoff focused on the trace lift, projective quotient,
   tangent return quadratic, and T1.
 - `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md` gives the
   full audit path, reproduction commands, controls, non-claims, and outcome
   labels.
 - PC11 readiness advanced from `EVIDENCE_EXISTS` to `NEEDS_VALIDATION`; it is
-  blocked from stronger status until external review of T1.
+  blocked from stronger status until independent validation of T1.
 - `REPRODUCIBILITY.md` now records the planned freeze tag
   `trace-selector-c5-freeze`.
 
@@ -1086,44 +1086,28 @@ No claims changed. Ledger remains 15 proven, 5 conditional, 9 open, 10 dead.
 
 ---
 
-## 2026-05-30 — External-review workflow scaffold
+## 2026-05-30 — Reviewability and falsifiability workflow
 
-**Added the review intake and triage process; no claims changed.**
+**Refocused the paper layer toward reviewability; no claims changed.**
 
-Added:
+Replaced the communication-oriented packet layer with repo-native validation
+artifacts:
 
-- `papers/REVIEW_WORKFLOW.md` — process for selecting a packet, sending minimal
-  files, recording feedback, assigning outcome labels, and deciding repository
-  actions.
-- `papers/REVIEW_RESPONSE_LEDGER.md` — public-safe ledger template for external
-  responses, with allowed decisions (`ACCEPT_FIX`, `ACCEPT_CLARIFY`,
+- `papers/VALIDATION_WORKFLOW.md` — process for selecting a packet, running
+  reproduction checks, recording findings, assigning outcome labels, and
+  deciding repository actions.
+- `papers/VALIDATION_LEDGER.md` — public-safe ledger template for actionable
+  technical findings, with allowed decisions (`ACCEPT_FIX`, `ACCEPT_CLARIFY`,
   `NEEDS_REPRO`, `DISPUTE_WITH_REASON`, `OUT_OF_SCOPE`, `KILL_OR_RESCOPE`).
-- Navigation updates in `papers/README.md`, `papers/EXTERNAL_REVIEW_INDEX.md`,
-  and `docs/atlas/REVIEWER_GUIDE.md`.
+- `papers/REVIEWABILITY_INDEX.md` — router for PC02 and PC11 validation packets.
+- `papers/candidates/PC02_conditional_uniqueness/REVIEWABILITY_CHECKLIST.md` —
+  PC02 audit path, falsification questions, and non-claims.
+- PC02 and PC11 validation briefs replace communication/review labels.
+- `docs/atlas/AUDITOR_GUIDE.md` replaces the previous reader-role guide.
 
-The workflow explicitly forbids raw private correspondence, private contact
-details, and claim-status changes before a response is logged, triaged, and
-linked to a commit or PR.
-
-Ledger unchanged: 15 proven, 5 conditional, 9 open, 10 dead.
-
----
-
-## 2026-05-30 — PC02 outreach kit
-
-**Prepared the first external-review outreach template; no claims changed.**
-
-Added `papers/candidates/PC02_conditional_uniqueness/OUTREACH_KIT.md` with:
-
-- reviewer fit criteria for topology / mapping-torus / `SL(2,Z)` expertise;
-- short first-contact and full-review request templates;
-- the minimal file packet to send;
-- response logging instructions for `papers/REVIEW_RESPONSE_LEDGER.md`;
-- explicit non-claims preserving the conditional theorem framing.
-
-Updated `papers/EXTERNAL_REVIEW_INDEX.md` and `papers/REVIEW_WORKFLOW.md` so PC02
-outreach starts from the kit. No reviewer names, emails, private correspondence,
-or raw transcripts were added.
+The repo now tracks reviewability, falsifiability, and validation decisions. It
+does not track specific people, private correspondence, private identity data,
+or private logistics.
 
 Ledger unchanged: 15 proven, 5 conditional, 9 open, 10 dead.
 
