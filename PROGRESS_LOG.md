@@ -1086,6 +1086,29 @@ No claims changed. Ledger remains 15 proven, 5 conditional, 9 open, 10 dead.
 
 ---
 
+## 2026-05-30 — External-review workflow scaffold
+
+**Added the review intake and triage process; no claims changed.**
+
+Added:
+
+- `papers/REVIEW_WORKFLOW.md` — process for selecting a packet, sending minimal
+  files, recording feedback, assigning outcome labels, and deciding repository
+  actions.
+- `papers/REVIEW_RESPONSE_LEDGER.md` — public-safe ledger template for external
+  responses, with allowed decisions (`ACCEPT_FIX`, `ACCEPT_CLARIFY`,
+  `NEEDS_REPRO`, `DISPUTE_WITH_REASON`, `OUT_OF_SCOPE`, `KILL_OR_RESCOPE`).
+- Navigation updates in `papers/README.md`, `papers/EXTERNAL_REVIEW_INDEX.md`,
+  and `docs/atlas/REVIEWER_GUIDE.md`.
+
+The workflow explicitly forbids raw private correspondence, private contact
+details, and claim-status changes before a response is logged, triaged, and
+linked to a commit or PR.
+
+Ledger unchanged: 15 proven, 5 conditional, 9 open, 10 dead.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**
