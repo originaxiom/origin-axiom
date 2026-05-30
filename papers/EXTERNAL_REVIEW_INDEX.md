@@ -20,11 +20,12 @@ inheritance assumption is natural, standard, derivable, or inserted.
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
 3. `papers/REVIEW_WORKFLOW.md`
-4. `papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md`
-5. `papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md`
-6. `papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md`
-7. `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md`
-8. `docs/TRACE_SELECTOR_THEOREM.md`
+4. `papers/candidates/PC02_conditional_uniqueness/OUTREACH_KIT.md`
+5. `papers/candidates/PC02_conditional_uniqueness/EXTERNAL_REVIEW_BRIEF.md`
+6. `papers/candidates/PC02_conditional_uniqueness/REVIEW_PACKET.md`
+7. `papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md`
+8. `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md`
+9. `docs/TRACE_SELECTOR_THEOREM.md`
 
 After receiving feedback, record the triage decision in:
 
