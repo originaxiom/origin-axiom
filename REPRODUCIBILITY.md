@@ -48,6 +48,10 @@ exactly:
 | Tag | Meaning |
 |---|---|
 | `phaseA-foundation-freeze` | Phase A complete: all P-claims locked behind passing tests (Phase 0 governance and the legacy consolidation are included in the same milestone). |
+| `session3-synthesis-freeze` | Session-3 synthesis freeze: P15/P16 and the conditional uniqueness theorem are locked and public. |
+| `atlas-paper-integration-v1` | First atlas/paper integration checkpoint after consolidation of reviewer and paper-candidate navigation. |
+| `trace-map-spectrum-checkpoint-v1` | Trace-map/spectrum checkpoint: B13-B25 plus public documentation harmonization; no new claim promotion. |
+| `trace-selector-c5-freeze` | Trace selector C5 freeze: B13-B47, C5/T1 conditional theorem, and PC02/PC11 external-review packets. |
 
 To reproduce a result as of a freeze:
 
@@ -63,3 +67,18 @@ python -m pytest tests/ -v
 All computations in the `proven` core are exact (integer/symbolic) or deterministic
 floating-point with fixed inputs. No result in the proven core depends on a random seed.
 Any stochastic exploration belongs in `frontier/` and must pin and record its seed.
+
+## Frontier probes
+
+Frontier probes are not part of the proven core, but many are executable:
+
+```bash
+python frontier/B25_fibonacci_spectrum_anchor/probe.py
+python frontier/B26_lambda1_derivation_attempt/probe.py
+python frontier/B38_tangent_return_arithmetic_filter/probe.py
+python frontier/B40_filter_reuse_audit/probe.py
+python frontier/B47_s1_verdict_ledger/probe.py
+```
+
+Probe outputs are observations with bounded verdicts. A passing frontier probe
+does not promote a claim unless the governance gate is explicitly run and logged.

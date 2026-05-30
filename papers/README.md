@@ -20,6 +20,7 @@ result cluster, but it cannot upgrade the status of that result.
 ```text
 CANDIDATES.md = registry of candidate outputs
 ARTIFACT_MANIFEST.md = manifest for copied PDFs, source files, data, and logs
+EXTERNAL_REVIEW_INDEX.md = router for mathematical review packets
 candidates/ = one directory per candidate with a PAPER_CARD.md
 ```
 

@@ -68,6 +68,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   for external mathematical review.
 - PC02 external-review brief added, and PC02 readiness advanced from
   `EVIDENCE_EXISTS` to `NEEDS_VALIDATION` pending outside mathematical review.
+- Conditional uniqueness theorem formalized: `docs/UNIQUENESS_THEOREM.md` and
+  `tests/test_uniqueness_theorem.py` lock the machine-checked algebra
+  `A1-A7 -> A=LR` up to order, while keeping C1 conditional.
+- Trace-map character-variety frontier campaign B13-B25 added. B18 establishes
+  the canonical half-step trace lift; B22 kills the special parity narrative
+  while preserving the special `A` quadratic sector; B25 records the Fibonacci
+  spectrum at dimensionless `lambda/h=1` as a finite-approximant numerical
+  anchor, initially classified as motivated, not derived. No claims promoted.
+- Trace selector package added: B26-B47 refine the `lambda/h=1` selector, and
+  `docs/TRACE_SELECTOR_THEOREM.md` formalizes conditional claim C5:
+  `T1 -> S1 -> I=1/4 -> lambda/h=1`. The selector is conditional on T1, not
+  proven or physical.
+- External-review packet added for PC11, plus `papers/EXTERNAL_REVIEW_INDEX.md`
+  routing reviewers through PC02 and PC11. PC11 readiness advances to
+  `NEEDS_VALIDATION`, pending outside review of T1.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

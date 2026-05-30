@@ -764,5 +764,395 @@ No claims changed. C1 remains conditional.
 
 ---
 
+## 2026-05-29 — B13 trace-map character-variety probe
+
+**Exploration branch probe; exact algebra, no claim promotion.**
+
+Started the trace-map exploration track on branch
+`explore/trace-map-character-variety`.
+
+- Added `frontier/B13_trace_map_character_variety/` with `README.md`,
+  `probe.py`, and `FINDINGS.md`.
+- The probe computes the punctured-torus trace map
+  `T(x,y,z) = (z,x,2xz-y)` and the Fricke-Vogt invariant
+  `I = x^2+y^2+z^2-2xyz-1`.
+- Exact result: the Jacobian at `(1,1,1)` has characteristic polynomial
+  `(t+1)(t^2-3t+1)`. On an invariant rank-2 lattice, the quadratic sector is
+  represented by `M=[[0,1],[-1,3]]`, a `GL(2,Z)` conjugate of
+  `A=[[2,1],[1,1]]`; the full parity-plus-rank-2 block basis has determinant
+  `5`.
+- Additional checks: `I` is preserved exactly; the `I=0` singular points form a
+  regular tetrahedron; the Hessian at `(1,1,1)` has eigenvalues `-2,4,4`; the
+  local `x=z=1+eps` Jacobian family preserves the `-1` parity eigenvalue while
+  splitting the two golden modes.
+- Control: the `x=z=1+eps` family is **not** a fixed-point branch. The only
+  fixed points of the trace map are `(0,0,0)` and `(1,1,1)`.
+- Genericity control: the `A`-sector is the symmetric-square trace lift of the
+  primitive orientation-reversing Fibonacci half-step `F=[[1,1],[1,0]]`, not of
+  the direct monodromy `A=F^2`. Direct `A` gives `(t-1)(t^2-7t+1)`, i.e. the
+  `A^2` sector. The `A` quadratic in a `GL(2,Z)` symmetric-square lift occurs
+  exactly for `det=-1`, `trace=+/-1`.
+- Caveat: all readings in terms of physical `3+1`, particle masses,
+  gauge-protection, Kasner/BKL gravity, or awareness remain interpretive
+  dictionaries, not derived physics.
+
+Verdict: `STALLED` at the dictionary from trace-character coordinates to
+physical or cognitive interpretation. No claims changed.
+
+---
+
+## 2026-05-29 — B14 half-step square-root selector
+
+**Continuation of the trace-map controls; exact algebra, no claim promotion.**
+
+Added `frontier/B14_half_step_square_root_selector/` on branch
+`explore/trace-map-character-variety`.
+
+- The probe checks the half-step behind B13. With record swap
+  `P=[[0,1],[1,0]]`, `F=L P=[[1,1],[1,0]]` satisfies `F^2=A`.
+- Exact result: the only `GL(2,Z)` square roots of `A` are `F` and `-F`. The
+  proof uses eigenvalue trace constraints plus Cayley-Hamilton:
+  if `X^2=A`, then `det(X)=-1`, `tr(X)=+/-1`, and
+  `X=tr(X)(A-I)`.
+- General mixed-closure result: for
+  `B(a,b)=L_a R_b=[[1+ab,a],[b,1]]`, an integer orientation-reversing square
+  root exists iff `a=b`; then `B(k,k)=(L_k P)^2`.
+- Consequence: the half-step requirement is a symmetry/balance selector. It does
+  not by itself select `k=1`; combined with the existing torsion-free/minimality
+  condition `ab=1`, it yields `F=L P` and `F^2=A`.
+- Caveat: this shifts the live question to the status of the record-swap `P`.
+  If `P` is a legitimate pre-dynamical symmetry of the two-record substrate, the
+  half-step is forced up to sign. If not, it remains inserted.
+
+Verdict: `STALLED` at deriving the record-swap symmetry. No claims changed.
+
+---
+
+## 2026-05-29 — B15 trace-map invariant controls
+
+**Part C2 trace-map audit; exact controls plus one normalization correction.**
+
+Added `frontier/B15_trace_map_invariant_controls/` on branch
+`explore/trace-map-character-variety`.
+
+- Exact result: for the naive vector-field proxy `V=T-id`, the Jacobian on the
+  diagonal `(c,c,c)` has characteristic polynomial
+  `(mu+2)(mu^2+(1-2c)mu+(1-2c))`; the quadratic discriminant is
+  `(2c-1)(2c+3)`, giving Eisenstein at `c=0`, nilpotent at `c=1/2`, and golden
+  at `c=1`.
+- Control: only `c=0` and `c=1` are actual trace-map fixed points; `c=1/2` is
+  a linearization checkpoint, not a fixed point.
+- Exact result: the discrete trace map preserves the Fricke-Vogt invariant
+  `I=x^2+y^2+z^2-2xyz-1`; the naive continuum proxy fails this at
+  `(3/2,1,3/2)` on `I=0`, where `dI/dt=-5/4`.
+- Correction: using the usual Fibonacci initial-line normalization with
+  hopping `h=1`, `x=(E-lambda)/2`, `y=E/2`, `z=1`, the invariant is
+  `I=lambda^2/4`. More generally, `I=(lambda/h)^2/4`. Therefore
+  `I(1,1,3/2)=1/4` gives dimensionless `lambda/h=+/-1`, not `sqrt(5)`. The
+  proposed `sqrt(5)` coupling requires a shifted convention and is not accepted
+  here.
+- Caveat: labels such as "nothing", "awareness", or "existence" for different
+  `I`-surfaces remain semantic overlays; the exact result is only invariant
+  separation.
+
+Verdict: `STALLED` at the interpretive dictionary. No claims changed.
+
+---
+
+## 2026-05-29 — B16 record-swap symmetry status
+
+**Testing whether the B14 half-step assumption is forced or inserted.**
+
+Added `frontier/B16_record_swap_status/` on branch
+`explore/trace-map-character-variety`.
+
+- Exact result: the involutions in `GL(2,Z)` that exchange the primitive shears
+  satisfy `X^2=I` and `X L X^-1=R`; bounded exact search finds only
+  `P=[[0,1],[1,0]]` and `-P`.
+- Exact result: the bounded automorphism group of the primitive pair `{L,R}` is
+  `{I,-I,P,-P}`, where `P` and `-P` swap the pair.
+- Relation to order: `P A P = RL`, so `P` exchanges the two based order choices.
+- Relation to half-step: `F=L P` and `F^2=A`; the sign ambiguity gives only
+  `+/-F`.
+- Caveat: A1-A6 do not derive the exchange-symmetry requirement. `P` is forced
+  only after adding a plausible but additional substrate-exchange axiom.
+- Minimality addendum: several weaker conditions were tested. Plain
+  orientation-reversing involution is too weak. The operational half-step
+  condition `(L X)^2=A` is sufficient and gives exactly `X=+/-P`; so does
+  requiring `X A X^-1=RL`. By contrast, generic orientation-reversing
+  time-reversal of `A` leaves many candidates.
+
+Verdict: `STALLED` at deriving exchange/half-step symmetry. No claims changed.
+
+---
+
+## 2026-05-29 — Trace-map/spectrum checkpoint and review-note package
+
+**Checkpoint packaging; no claim promotion.**
+
+Prepared the current `explore/trace-map-character-variety` branch for external
+review without merging it to `main`:
+
+- Added `papers/candidates/PC02_conditional_uniqueness/DRAFT_NOTE.md` as a
+  compact review note centered on the conditional uniqueness theorem. B13-B25
+  appear only as appendices and motivated frontier extensions.
+- Added `papers/candidates/PC11_trace_map_spectrum_bridge/PAPER_CARD.md` to
+  track the half-step trace lift / Fibonacci spectrum bridge separately from
+  PC02.
+- Added and executed `frontier/B26_lambda1_derivation_attempt/`. Exact algebra
+  confirms the proposed selector:
+  `char(DT^3 at (0,0,c))=(t+1)(t^2-(4c^2-2)t+1)`, so matching the `A`
+  quadratic forces `c^2=5/4`, hence `I=1/4` and positive dimensionless
+  `lambda/h=1`.
+- Control: `(0,0,c)` is not a literal period-3 orbit of the signed trace map;
+  `T^3(0,0,c)=(0,0,-c)` and the literal `T^6` return gives
+  `t^2-27t+1` at `I=1/4`, not `A`'s polynomial.
+- Verdict: B26 strengthens B25 from "shared invariant surface" to "unique
+  projective half-return self-similarity surface," but this still depends on a
+  projective/sign-quotient criterion that is not derived from A1-A7.
+- Extension: the same projective criterion gives an exact Lucas hierarchy for
+  even `n`: `char(F^n)=t^2-L_n t+1`, so
+  `I=(L_n-2)/4` and `(lambda/h)^2=L_n-2 = 1,5,16,45,121,...`.
+  This is exact algebra under the criterion, not yet a physical spectrum.
+- Full-return control: literal `T^6` matching of the `A` sector selects real
+  `c^2=1/4`, hence `I=-3/4` and `(lambda/h)^2=-3` under the B25 normalization.
+  The projective half-return distinction is therefore material.
+
+Ledger unchanged: B13-B26 remain frontier-only; `lambda/h=1` remains motivated
+by a sharper selector, not unconditionally derived.
+
+---
+
+## 2026-05-29 — B27-B29 higher-rank and selector controls
+
+**Extended the trace-map campaign; no claim promotion.**
+
+Added B27-B29 as controlled follow-ups to the B26 selector:
+
+- **B27 `SL(3)` Fibonacci trace lift:** derived and verified the
+  eight-coordinate `SL(3)` trace lift of `sigma(a)=ab, sigma(b)=a`. At the
+  trivial representation, the Jacobian factors as
+  `(t-1)(t+1)(t^2-4t-1)(t^2-3t+1)(t^2+t-1)`, with eigenvalues
+  `phi^3, phi^2, -phi, 1, -1, 1/phi, 1/phi^2, -1/phi^3`. The `A` quadratic
+  survives, but the fixed-point decomposition is symmetric/antisymmetric under
+  inverse-trace pairing; direct/inverse trace distinctions are not promoted to
+  particle/antiparticle physics.
+- **B28 projective quotient legitimacy:** proved the central sign action
+  `S(sa,sb)(x,y,z)=(sa*x,sb*y,sa*sb*z)` is compatible with the half-step trace
+  map via `T(S(sa,sb)p)=S(sa*sb,sa)T(p)`. Thus the B26
+  `T^3(0,0,c)=(0,0,-c)` identification is legitimate after passing to
+  central-sign / `PSL` data. The remaining gap is still the selector: choosing
+  that quotient as the self-similarity criterion is not derived from A1-A7.
+- **B29 hierarchy and normalization controls:** separated absolute `lambda`
+  from the dimensionless ratio `lambda/h`. Under the B26 projective criterion,
+  even `n` gives `(lambda/h)^2=L_n-2 = 1,5,16,45,121,320,...`; literal
+  full-return matching gives a different hierarchy
+  `(lambda/h)^2=sqrt(L_n-2)-4`. Finite spectra at the first projective values
+  `lambda/h=1,sqrt(5),4` pass top-gap labeling controls, validating the
+  computation but not deriving a physical spectrum.
+
+Verdict unchanged: B25-B29 strengthen the trace-map/spectrum bridge as exact
+and reproducible frontier evidence. They do not promote `lambda/h=1`, a
+physical dictionary, or any awareness/particle/spacetime interpretation into
+the core.
+
+---
+
+## 2026-05-29 — B30-B37 selector-first campaign
+
+**Executed the selector-first campaign; no claim promotion.**
+
+Added B30-B37 to test every current route toward the missing `lambda/h=1`
+selector.
+
+- **B30 projective state space:** the central-sign quotient is canonical once
+  the state space is lift-independent `PSL` trace-character data. Quotient
+  coordinates `u=x^2,v=y^2,w=z^2,r=xyz` obey `r^2=uvw`, and the trace map
+  descends polynomially. The B26 sign-flipping half-return is literal period 3
+  in the quotient, but it leaves `I=c^2-1` free.
+- **B31 primitive projective return:** primitive projective return alone exists
+  for every `c`. Matching the return linearization to the original `A`
+  quadratic selects `c^2=5/4`, `I=1/4`, `lambda/h=1`, but this is an additional
+  `A`-sector matching rule.
+- **B32 selector axiom audit:** isolated the missing object as **S1**: "the
+  primitive projective return linearization must contain the original
+  `A` quadratic sector `t^2-3t+1`." A1-A7 plus exchange get the trace-map
+  setting; they do not derive S1.
+- **B33-B36 extension routes:** `SL(2)`/`SL(3)` spectra fit a symmetric-power
+  tower, Goldman/WP structure descends to the quotient, sign topology explains
+  the order-3 projective behavior, and Fibonacci spectral controls remain
+  compatible with `lambda/h=1`. None independently derives S1.
+- **B37 operational feedback quarantine:** feedback and invariant language are
+  restricted to computable predicates. The trace map has nonlinear feedback and
+  a preserved invariant, but it does not satisfy an operational self-model
+  criterion; awareness/religion/metaphysics-adjacent language remains outside
+  the claims system.
+
+Net result: the frontier is narrower, not solved. The projective quotient is
+well-supported; the selector is now precisely S1 and remains `STALLED`.
+
+---
+
+## 2026-05-29 — B38-B47 deep S1 campaign
+
+**Deepened the selector search; no claim promotion.**
+
+Added B38-B47 to test whether S1 can be derived from arithmetic, topology,
+renormalization, or higher-rank stability.
+
+- **B38 tangent arithmetic filter:** for the primitive projective return, the
+  tangent trace is `mu=4c^2-2=4I+2`. If this tangent return inherits integer
+  hyperbolic trace plus minimality, or the tangent analogue of torsion-one
+  closure, then `mu=3`, hence `I=1/4` and `lambda/h=1`.
+- **B39-B40 filter inheritance audit:** integrality gives a discrete family
+  `c^2=(m+2)/4`, not a unique value. The missing assumption is **T1**: the
+  primitive projective tangent return inherits the original arithmetic
+  persistence filters. With T1, S1 follows; without T1, `I` remains free.
+- **B41-B42 controls:** the coordinate-axis projective 3-cycle is the simplest
+  nontrivial one-parameter family, but still leaves `I=c^2-1`; simple
+  variational quantities are monotone or boundary-selected and do not pick
+  `I=1/4` unless the target is built into the functional.
+- **B43-B45 supporting conditional routes:** minimal positive nonsquare
+  discriminant gives `Delta=5`, torsion-one closure gives `mu=3`, and the
+  primitive Lucas hierarchy member gives `(lambda/h)^2=1`; each route requires
+  the tangent arithmetic/filter inheritance assumption.
+- **B46 rank stability:** the selected `A` sector divides the known `SL(3)`
+  trace-lift Jacobian, while a nearby tangent quadratic does not. This supports
+  stability of the selected sector but does not derive it.
+- **B47 verdict ledger:** S1 is **conditional**, not derived. The strongest
+  honest dependency is `T1 -> S1 -> I=1/4 -> lambda/h=1`.
+
+Net result: the missing object moved one level deeper. S1 can be justified by a
+named tangent-filter inheritance assumption T1, but T1 itself is not derived
+from A1-A7 plus exchange.
+
+---
+
+## 2026-05-29 — Conditional trace selector theorem (formalizes C5)
+
+**Packaged the B38-B47 selector result as conditional claim C5; no proven-claim
+promotion.**
+
+Added `docs/TRACE_SELECTOR_THEOREM.md`, a theorem-style note that states the
+current strongest trace-map selector result:
+
+```text
+T1 -> S1 -> I=1/4 -> lambda/h=1
+```
+
+- **C5 added to `CLAIMS.md`:** the primitive projective tangent return selects
+  the `A` sector `t²−3t+1`, hence `I=1/4` and dimensionless `lambda/h=1`, only
+  under **T1**: the tangent return inherits the original arithmetic persistence
+  filters.
+- **The algebra after T1 is exact:** B38 locks `mu=4c²−2=4I+2`; minimal positive
+  integer hyperbolic trace or tangent torsion-one closure gives `mu=3`, hence
+  `I=1/4`; B25's normalization gives `(lambda/h)²=4I=1`.
+- **The open object is now precise:** B39-B47 show that T1 itself is not derived
+  from A1-A7 plus exchange. External review should ask whether T1 is a theorem,
+  a standard naturality/filter-inheritance principle, or an extra axiom.
+- **Documentation synchronized:** `README.md`, `docs/atlas/README.md`,
+  `docs/atlas/REVIEWER_GUIDE.md`, and PC11 now point to the C5 package and keep
+  the spectrum bridge conditional, not predictive.
+
+Ledger update: 15 proven, **5 conditional**, 9 open, 10 dead. Proven test suite
+unchanged.
+
+---
+
+## 2026-05-30 — PC11 external-review packet and freeze preparation
+
+**Prepared the trace-selector branch for external review and freeze.**
+
+Added a Markdown-only review layer for the now-narrowed mathematical question:
+
+```text
+Is T1 natural, standard, derivable, or inserted?
+```
+
+- `papers/EXTERNAL_REVIEW_INDEX.md` routes reviewers to the two ready packets:
+  PC02 (conditional uniqueness) and PC11 (half-step trace lift / C5 selector).
+- `papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md`
+  gives a compact review handoff focused on the trace lift, projective quotient,
+  tangent return quadratic, and T1.
+- `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md` gives the
+  full audit path, reproduction commands, controls, non-claims, and outcome
+  labels.
+- PC11 readiness advanced from `EVIDENCE_EXISTS` to `NEEDS_VALIDATION`; it is
+  blocked from stronger status until external review of T1.
+- `REPRODUCIBILITY.md` now records the planned freeze tag
+  `trace-selector-c5-freeze`.
+
+No claims changed. Ledger remains 15 proven, 5 conditional, 9 open, 10 dead.
+
+---
+
+## 2026-05-29 — B25 Fibonacci spectrum anchor
+
+**Curated finite-approximant probe; no claim promotion.**
+
+Added `frontier/B25_fibonacci_spectrum_anchor/` as a controlled replacement for
+the local exploratory spectrum scripts. The probe uses tridiagonal
+diagonalization of finite Fibonacci Hamiltonian approximants at dimensionless
+`lambda/h=1` with `h=1`, not brute-force random energy sampling.
+
+- Gap-labeling control: largest finite-approximant gaps match Fibonacci
+  gap-label residuals below `5e-4` in the default run. This validates the
+  implementation against known Fibonacci-Hamiltonian mathematics; it is not
+  claimed as new.
+- Dimension control: reports mid/wide/late finite-approximant box-counting
+  slopes. The mid-scale slope is near `0.75`, but the result is explicitly not
+  promoted to an exact Hausdorff dimension. Window sensitivity and finite-size
+  saturation are part of the output.
+- Bridge status: `I0=(lambda/h)^2/4`, so `lambda/h=1` gives `I0=1/4`. This is
+  the same invariant surface used in the figure-eight trace-map normalization,
+  but B18 functoriality holds for all invariant surfaces. The status of
+  `lambda/h=1` is therefore **MOTIVATED**, not derived.
+- Verdict: `STALLED` at deriving the coupling. If `lambda/h=1` is accepted as an
+  additional motivated input, the spectrum is a useful empirical/numerical
+  anchor. Without a derivation, it is not a falsifiable prediction of the core.
+
+No claims changed.
+
+---
+
+## 2026-05-29 — B17-B24 half-step kernel campaign
+
+**Executed in modified dependency order; no claim promotion.**
+
+Added B17-B24 on branch `explore/trace-map-character-variety`, following the
+half-step kernel thesis:
+
+```text
+exchange/half-step symmetry -> trace lift -> recursive A-sector
+```
+
+- **B18 first:** the trace map is the functorial half-trace lift of
+  `F: a->ab, b->a`; `T_F^2` is the `A=F^2` trace lift. This passes the
+  canonicality gate but remains `STALLED` at the physical/semantic dictionary.
+- **B19:** plain exchange/order-conjugacy are too weak; adding `X^2=I`, or
+  using the operational half-step condition `(L X)^2=A`, isolates `P` up to
+  sign in bounded exact `GL(2,Z)` search. Generic orientation-reversing
+  involution and time reversal are too weak.
+- **B17:** same-record repetition stays parabolic; original A1-A6 filters
+  already select `LR/RL`; `LPLP=A` is a half-step refactorization, not a new
+  uniqueness theorem without the half-step condition.
+- **B22:** the `-1` parity sector is generic for orientation-reversing
+  symmetric-square lifts; the special object is the `A` quadratic sector
+  (`det=-1`, `trace=+/-1`), not parity alone.
+- **B20:** operational invariant-memory and feedback are present, but the trace
+  map does not explicitly read `I`; awareness/self-model language remains
+  quarantined.
+- **B21:** the half-step trace map is anti-Poisson for the
+  Goldman/Weil-Petersson bracket and `T^2` is Poisson; this gives a natural
+  character-variety symplectic structure, not spacetime.
+- **B23:** the perturbation map near `(1,1,1)` has unique nonlinear term
+  `2uw`; no BKL/Misner variable dictionary is derived.
+- **B24:** `SU(2)_3` is compatible because `2cos(pi/(k+2))=phi` only at `k=3`,
+  but the level-selection rule remains inserted.
+
+All new probes are frontier-only and end `STALLED`. No claims changed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

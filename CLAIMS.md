@@ -9,9 +9,10 @@ pointer. Prose elsewhere in the repo may not exceed the label of the claim it re
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-05-28 · derived from `AUDIT_REPORT.md` §4; Phase A tests added;
-P11–P13 added (exact-algebra results from the session-3 review); P15–P16 added (Möbius vector
-field + derived potential, session-3 synthesis — see `PROGRESS_LOG.md` 2026-05-27).
+**Last updated:** 2026-05-29 · proven ledger unchanged at 15 claims; C1 evidence
+upgraded by `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace
+selector theorem; trace-map and spectrum work B13-B47 otherwise remains
+frontier only.
 
 ---
 
@@ -58,6 +59,7 @@ independent + 1 via-discriminant).
 | C2 | The Fibonacci `|F|²` probability matrix is reconstructed from `A`'s Perron eigenvector. | Requires an additional "Perron-switch / degeneracy" rule; plain MaxEnt gives ½,½. |
 | C3 | Trace 3 is the unique torsion-free hyperbolic trace. | Holds only within once-punctured torus bundles with `SL(2,ℤ)` monodromy. |
 | C4 | The `(disc 5)(disc −3)` state-integral factorization is unique to the figure-eight. | Verified for 11 census manifolds only — a census check, not a proof. |
+| C5 | The primitive projective tangent return selects the `A` sector `t²−3t+1`, hence `I=1/4` and dimensionless `lambda/h=1`. | Depends on **T1**: the primitive projective tangent return inherits the original arithmetic persistence filters. Formalized in `docs/TRACE_SELECTOR_THEOREM.md`; locked as frontier evidence by B38-B47. Stays `conditional`; T1 is motivated, not derived. |
 
 ---
 
@@ -78,6 +80,14 @@ independent + 1 via-discriminant).
 Handoff-document steps 3B → 6 ("path to Einstein") map onto O1–O5. The first concrete
 frontier probe is whether the gluing identity `W = S_L − F_R + ms` maps onto the discrete
 Chern–Simons flatness condition `F = 0` — a well-defined yes/no computation.
+
+Current trace-map frontier work (B13-B47) refines O1-O8 but does not close any
+of them. The half-step trace lift is canonical, the `SL(3)` lift preserves the
+`A` sector as higher-rank trace algebra, and the Fibonacci spectrum at
+dimensionless `lambda/h=1` is a useful finite-approximant anchor. The selector
+bottleneck is isolated as C5: `lambda/h=1` follows from T1, the assumption that
+the primitive projective tangent return inherits the original arithmetic
+persistence filters. The required physical dictionaries remain open.
 
 ---
 

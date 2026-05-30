@@ -8,11 +8,19 @@ Read in this order:
 
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
-3. `docs/UNIQUENESS_THEOREM.md`
-4. `docs/SESSION3_SYNTHESIS.md`
-5. `docs/atlas/RESEARCH_TREE.md`
-6. `docs/atlas/FAILURE_ATLAS.md`
-7. `REPRODUCIBILITY.md`
+3. `papers/EXTERNAL_REVIEW_INDEX.md`
+4. `docs/UNIQUENESS_THEOREM.md`
+5. `docs/SESSION3_SYNTHESIS.md`
+6. `frontier/README.md`
+7. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
+8. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
+9. `frontier/B32_selector_axiom_audit/FINDINGS.md`
+10. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
+11. `docs/TRACE_SELECTOR_THEOREM.md`
+12. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
+13. `docs/atlas/RESEARCH_TREE.md`
+14. `docs/atlas/FAILURE_ATLAS.md`
+15. `REPRODUCIBILITY.md`
 
 Then run:
 
@@ -45,10 +53,19 @@ The main thing to inspect is the conditional theorem:
 minimal-record axioms -> A = LR, up to order -> P1-P16
 ```
 
+The next conditional theorem to inspect is:
+
+```text
+T1 -> S1 -> I=1/4 -> lambda/h=1
+```
+
 The most useful external check is whether the hypotheses are stated minimally,
-whether the torsion and mapping-torus facts are fully justified, and whether
-the downstream connections are presented as known mathematics or genuinely new
-packaging.
+whether the torsion and mapping-torus facts are fully justified, whether T1 is a
+standard/natural tangent-filter inheritance principle or an inserted axiom, and
+whether the downstream connections are presented as known mathematics or
+genuinely new packaging.
+
+For a compact reviewer handoff, start with `papers/EXTERNAL_REVIEW_INDEX.md`.
 
 ## If You Are A Physicist
 
@@ -66,6 +83,9 @@ The current physics posture is conservative:
   choices.
 - Particle, gauge, cosmology, and observable bridges: open unless a specific
   probe states otherwise.
+- Fibonacci spectrum at dimensionless `lambda/h=1`: finite-approximant anchor,
+  not a prediction. `docs/TRACE_SELECTOR_THEOREM.md` shows that T1 implies S1
+  and selects `I=1/4`, but T1 itself remains motivated rather than derived.
 
 The most valuable review is not encouragement or dismissal. It is a precise
 statement of which inserted object is unavoidable and whether any bridge can be
