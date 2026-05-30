@@ -6,7 +6,7 @@ Status: paper candidate. No claims beyond governed repository artifacts.
 
 ```text
 Type: COMPUTATIONAL_REPORT / LITERATURE_BRIDGE
-Readiness: EVIDENCE_EXISTS
+Readiness: NEEDS_VALIDATION
 Priority: companion to PC02, not first ship target
 Main risk: lambda/h=1 is conditional on C5/T1, a tangent-filter inheritance selector not yet derived
 ```
@@ -91,6 +91,8 @@ frontier/B47_s1_verdict_ledger/
 PROGRESS_LOG.md
 docs/atlas/RESEARCH_TREE.md
 docs/TRACE_SELECTOR_THEOREM.md
+papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md
+papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md
 ```
 
 ## Reproduction Commands
@@ -156,6 +158,6 @@ standard Fibonacci Hamiltonian gap-labeling references
 Keep as a companion bridge card. B38-B47 sharpen the bridge further: the
 projective quotient is natural under PSL trace data, and C5 states that S1
 follows if the tangent return inherits the original arithmetic persistence
-filters. External review should focus on whether T1 is a natural theorem or an
-inserted criterion.
+filters. The review packet is ready; external review should focus on whether T1
+is a natural theorem or an inserted criterion.
 ```

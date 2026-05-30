@@ -8,18 +8,19 @@ Read in this order:
 
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
-3. `docs/UNIQUENESS_THEOREM.md`
-4. `docs/SESSION3_SYNTHESIS.md`
-5. `frontier/README.md`
-6. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
-7. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
-8. `frontier/B32_selector_axiom_audit/FINDINGS.md`
-9. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
-10. `docs/TRACE_SELECTOR_THEOREM.md`
-11. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
-12. `docs/atlas/RESEARCH_TREE.md`
-13. `docs/atlas/FAILURE_ATLAS.md`
-14. `REPRODUCIBILITY.md`
+3. `papers/EXTERNAL_REVIEW_INDEX.md`
+4. `docs/UNIQUENESS_THEOREM.md`
+5. `docs/SESSION3_SYNTHESIS.md`
+6. `frontier/README.md`
+7. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
+8. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
+9. `frontier/B32_selector_axiom_audit/FINDINGS.md`
+10. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
+11. `docs/TRACE_SELECTOR_THEOREM.md`
+12. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
+13. `docs/atlas/RESEARCH_TREE.md`
+14. `docs/atlas/FAILURE_ATLAS.md`
+15. `REPRODUCIBILITY.md`
 
 Then run:
 
@@ -63,6 +64,8 @@ whether the torsion and mapping-torus facts are fully justified, whether T1 is a
 standard/natural tangent-filter inheritance principle or an inserted axiom, and
 whether the downstream connections are presented as known mathematics or
 genuinely new packaging.
+
+For a compact reviewer handoff, start with `papers/EXTERNAL_REVIEW_INDEX.md`.
 
 ## If You Are A Physicist
 

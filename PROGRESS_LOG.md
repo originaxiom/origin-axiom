@@ -1059,6 +1059,33 @@ unchanged.
 
 ---
 
+## 2026-05-30 — PC11 external-review packet and freeze preparation
+
+**Prepared the trace-selector branch for external review and freeze.**
+
+Added a Markdown-only review layer for the now-narrowed mathematical question:
+
+```text
+Is T1 natural, standard, derivable, or inserted?
+```
+
+- `papers/EXTERNAL_REVIEW_INDEX.md` routes reviewers to the two ready packets:
+  PC02 (conditional uniqueness) and PC11 (half-step trace lift / C5 selector).
+- `papers/candidates/PC11_trace_map_spectrum_bridge/EXTERNAL_REVIEW_BRIEF.md`
+  gives a compact review handoff focused on the trace lift, projective quotient,
+  tangent return quadratic, and T1.
+- `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md` gives the
+  full audit path, reproduction commands, controls, non-claims, and outcome
+  labels.
+- PC11 readiness advanced from `EVIDENCE_EXISTS` to `NEEDS_VALIDATION`; it is
+  blocked from stronger status until external review of T1.
+- `REPRODUCIBILITY.md` now records the planned freeze tag
+  `trace-selector-c5-freeze`.
+
+No claims changed. Ledger remains 15 proven, 5 conditional, 9 open, 10 dead.
+
+---
+
 ## 2026-05-29 — B25 Fibonacci spectrum anchor
 
 **Curated finite-approximant probe; no claim promotion.**

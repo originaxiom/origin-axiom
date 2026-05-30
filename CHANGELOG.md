@@ -80,6 +80,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `docs/TRACE_SELECTOR_THEOREM.md` formalizes conditional claim C5:
   `T1 -> S1 -> I=1/4 -> lambda/h=1`. The selector is conditional on T1, not
   proven or physical.
+- External-review packet added for PC11, plus `papers/EXTERNAL_REVIEW_INDEX.md`
+  routing reviewers through PC02 and PC11. PC11 readiness advances to
+  `NEEDS_VALIDATION`, pending outside review of T1.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

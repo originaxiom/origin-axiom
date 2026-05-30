@@ -51,6 +51,7 @@ exactly:
 | `session3-synthesis-freeze` | Session-3 synthesis freeze: P15/P16 and the conditional uniqueness theorem are locked and public. |
 | `atlas-paper-integration-v1` | First atlas/paper integration checkpoint after consolidation of reviewer and paper-candidate navigation. |
 | `trace-map-spectrum-checkpoint-v1` | Trace-map/spectrum checkpoint: B13-B25 plus public documentation harmonization; no new claim promotion. |
+| `trace-selector-c5-freeze` | Trace selector C5 freeze: B13-B47, C5/T1 conditional theorem, and PC02/PC11 external-review packets. |
 
 To reproduce a result as of a freeze:
 
