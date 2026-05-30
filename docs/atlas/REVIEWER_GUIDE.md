@@ -9,18 +9,19 @@ Read in this order:
 1. `GOVERNANCE.md`
 2. `CLAIMS.md`
 3. `papers/EXTERNAL_REVIEW_INDEX.md`
-4. `docs/UNIQUENESS_THEOREM.md`
-5. `docs/SESSION3_SYNTHESIS.md`
-6. `frontier/README.md`
-7. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
-8. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
-9. `frontier/B32_selector_axiom_audit/FINDINGS.md`
-10. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
-11. `docs/TRACE_SELECTOR_THEOREM.md`
-12. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
-13. `docs/atlas/RESEARCH_TREE.md`
-14. `docs/atlas/FAILURE_ATLAS.md`
-15. `REPRODUCIBILITY.md`
+4. `papers/REVIEW_WORKFLOW.md`
+5. `docs/UNIQUENESS_THEOREM.md`
+6. `docs/SESSION3_SYNTHESIS.md`
+7. `frontier/README.md`
+8. `frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md`
+9. `frontier/B26_lambda1_derivation_attempt/FINDINGS.md`
+10. `frontier/B32_selector_axiom_audit/FINDINGS.md`
+11. `frontier/B47_s1_verdict_ledger/FINDINGS.md`
+12. `docs/TRACE_SELECTOR_THEOREM.md`
+13. `frontier/B37_operational_feedback_quarantine/FINDINGS.md`
+14. `docs/atlas/RESEARCH_TREE.md`
+15. `docs/atlas/FAILURE_ATLAS.md`
+16. `REPRODUCIBILITY.md`
 
 Then run:
 
@@ -66,6 +67,8 @@ whether the downstream connections are presented as known mathematics or
 genuinely new packaging.
 
 For a compact reviewer handoff, start with `papers/EXTERNAL_REVIEW_INDEX.md`.
+Record reviewer feedback in `papers/REVIEW_RESPONSE_LEDGER.md`; do not change
+claim status until a response is triaged and linked to a commit or PR.
 
 ## If You Are A Physicist
 

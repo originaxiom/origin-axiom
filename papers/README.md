@@ -21,6 +21,8 @@ result cluster, but it cannot upgrade the status of that result.
 CANDIDATES.md = registry of candidate outputs
 ARTIFACT_MANIFEST.md = manifest for copied PDFs, source files, data, and logs
 EXTERNAL_REVIEW_INDEX.md = router for mathematical review packets
+REVIEW_WORKFLOW.md = process for sending, triaging, and acting on reviews
+REVIEW_RESPONSE_LEDGER.md = public-safe ledger for review outcomes and actions
 candidates/ = one directory per candidate with a PAPER_CARD.md
 ```
 
