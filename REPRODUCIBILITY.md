@@ -78,6 +78,10 @@ python frontier/B26_lambda1_derivation_attempt/probe.py
 python frontier/B38_tangent_return_arithmetic_filter/probe.py
 python frontier/B40_filter_reuse_audit/probe.py
 python frontier/B47_s1_verdict_ledger/probe.py
+python frontier/B48_sl3_metallic_trace_maps/probe.py
+python frontier/B49_sl3_certificate_proof_hardening/probe.py
+python frontier/B51_sl3_symbolic_m_factorization/probe.py
+python frontier/B52_multichannel_fibonacci_bridge_control/probe.py
 ```
 
 Probe outputs are observations with bounded verdicts. A passing frontier probe

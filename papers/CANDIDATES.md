@@ -32,7 +32,7 @@ HISTORICAL_ARCHIVE
 | PC09 | Legacy Toy-Universe Simulation Archive | HISTORICAL_ARCHIVE | SEED | Earlier generated reports and simulations may have archival value. | Pre-governance and likely superseded; requires revalidation. |
 | PC10 | A-Polynomial Convention Controls | THEOREM_NOTE / NEGATIVE_RESULT | SEED | Prevents repeated convention mistakes around cusp equations and active roots. | May be an appendix rather than a standalone paper. |
 | PC11 | Half-Step Trace Lift and Fibonacci Spectrum Anchor | COMPUTATIONAL_REPORT / LITERATURE_BRIDGE | NEEDS_VALIDATION | B13-B47 isolate the canonical half-step trace lift, a finite-approximant spectral anchor, and conditional C5/T1 selector for `lambda/h=1`; validation packet now prepared. | Must cite known Fibonacci Hamiltonian results and keep T1 explicit as conditional, not proven. |
-| PC12 | Metallic SL(3) Trace-Map Arithmetic | THEOREM_NOTE / COMPUTATIONAL_REPORT | NEEDS_VALIDATION | B48 generalizes the B27 `SL(3)` Fibonacci trace lift to the metallic family; B49 decomposes the classification into proof modules; B50 assembles the internal theorem-note skeleton. | Global exclusions, entropy proof text, and literature positioning still need polish and validation. |
+| PC12 | Metallic SL(3) Trace-Map Arithmetic | THEOREM_NOTE / COMPUTATIONAL_REPORT | NEEDS_VALIDATION | B48 generalizes the B27 `SL(3)` Fibonacci trace lift to the metallic family; B49/B51 harden the proof modules; B50 assembles the internal theorem-note skeleton; B52 rules out the naive multichannel physics bridge. | Global exclusions, entropy proof text, and literature positioning still need polish and validation; no physical dictionary is known. |
 
 ## Highest Priority
 
@@ -46,11 +46,11 @@ PC02 = conditional uniqueness of the core
 PC04 = residue mechanism that survives cancellation controls
 PC06 = selector theorem question for state-integral routes
 PC11 = trace-map/spectrum bridge after B13-B47; validation packet ready, blocked from stronger status until the T1 selector assumption is independently validated
-PC12 = standalone metallic SL(3) trace-map arithmetic; skeleton assembled, blocked from stronger status until proof text and literature positioning are independently validated
+PC12 = standalone metallic SL(3) trace-map arithmetic; skeleton assembled and symbolic c=3 proof module added, blocked from stronger status until proof text and literature positioning are independently validated; naive multichannel physics bridge fails
 ```
 
 Use `papers/FALSIFIABILITY_MATRIX.md` before changing readiness for PC02, PC04,
-PC06, PC07, or PC11.
+PC06, PC07, PC11, or PC12.
 
 ## Paper Card Template
 

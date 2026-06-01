@@ -58,6 +58,8 @@ Proof status:
 ```text
 prose proof: straightforward Cayley-Hamilton derivation needed
 machine check: B48 trace-map formula and direct SL(3,Z) sanity checks
+symbolic support: B51 derives the c=3 fixed-line derivative rows from the
+  triple-root recurrence with m formal
 ```
 
 ### Theorem 2 -- Commutator Trace-Pair Invariant
@@ -111,6 +113,8 @@ Proof status:
 ```text
 prose proof: partially assembled by B49
 machine check: B48 broad rectangle plus B49 proof-module checks
+symbolic proof module: B51 proves the c=3 Jacobian block factorization for
+  formal m, replacing the earlier m<=50 confidence check for that component
 remaining polish: global c>=15 and c<=-12 coefficient-positivity exclusions
 ```
 
@@ -134,6 +138,26 @@ remaining polish: state as compact-unitary math only, not physics
 ## Proof Architecture For Theorem 4
 
 The fixed-line splitting proof should be written in this order:
+
+0. For the diagonal fixed line `c=3`, use the symbolic derivative module:
+
+```text
+tau_k recurrence at c=3 has characteristic equation (r-1)^3=0
+d tau_k / d x1 = k(k^2-1)/2
+d tau_k / d x2 = 1-k^2
+d tau_k / d x3 = k(k+1)/2
+d tau_k / d x4 = -k(k^2-1)/2
+d tau_k / d x6 = k(k-1)/2
+```
+
+The exchange `x1<->x4, x2<->x5, x3<->x8, x6<->x7` gives the `sigma`
+derivatives. The symbolic `8x8` Jacobian commutes with exchange and has
+sector characteristic polynomials:
+
+```text
+symmetric:     (t-1)(t+1)(t^2-(m^2+2)t+1)
+antisymmetric: (t^2+mt-1)(t^2-(m^3+3m)t-1)
+```
 
 1. Put the antisymmetric quartic in the form:
 
@@ -198,6 +222,9 @@ No physical interpretation is claimed.
 Compact SU(3) is used as a compact-unitary slice, not a gauge theory.
 The direct/inverse trace distinction is not particle/antiparticle physics.
 This does not solve the PC11 T1/S1 selector.
+The naive three-channel Fibonacci tight-binding bridge fails: standard
+multichannel transfer matrices are doubled 6x6 symplectic matrices, not the
+PC12 3x3 SL(3) character-variety recursion.
 ```
 
 ## Reproducibility Appendix
@@ -208,7 +235,9 @@ Required commands:
 python frontier/B48_sl3_metallic_trace_maps/probe.py
 python frontier/B48_sl3_metallic_trace_maps/probe.py --deep
 python frontier/B49_sl3_certificate_proof_hardening/probe.py
-python -m pytest tests/test_sl3_metallic_trace_maps.py tests/test_sl3_certificate_proof_hardening.py -q
+python frontier/B51_sl3_symbolic_m_factorization/probe.py
+python frontier/B52_multichannel_fibonacci_bridge_control/probe.py
+python -m pytest tests/test_sl3_metallic_trace_maps.py tests/test_sl3_certificate_proof_hardening.py tests/test_sl3_symbolic_m_factorization.py tests/test_multichannel_fibonacci_bridge_control.py -q
 ```
 
 ## Draftability Gate
@@ -220,4 +249,5 @@ the global c>=15 and c<=-12 exclusions are written as readable prose
 the entropy no-cancellation proof is written cleanly
 the Lawton/Procesi/trace-map literature positioning is checked
 the compact SU(3) language is verified as non-physics
+the physics-bridge language keeps the B52 negative control explicit
 ```

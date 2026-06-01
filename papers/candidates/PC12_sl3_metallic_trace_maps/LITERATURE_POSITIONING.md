@@ -37,6 +37,11 @@ claim to generalize the full spectral theory of substitution Hamiltonians.
 The compact `SU(3)` slice is a compact-unitary restriction of the trace dynamics.
 It is not `SU(3)` particle physics.
 
+The multichannel Fibonacci physics literature is a separate bridge question.
+Standard matrix-valued or strip tight-binding models use doubled phase-space
+transfer matrices, typically `2L x 2L` symplectic matrices for `L` channels.
+B52 records this as a negative control for the naive `L=3` bridge.
+
 ## Likely Novelty To Validate
 
 ```text
@@ -59,6 +64,7 @@ Lawton, Algebraic independence in SL(3,C) character varieties of free groups
 standard SL(2) trace-map / Fricke-Vogt references
 Bellon-Viallet, Algebraic entropy
 degree-growth literature for polynomial or rational maps
+matrix-valued / block Jacobi transfer-matrix literature for bridge controls
 ```
 
 ## Wording To Avoid

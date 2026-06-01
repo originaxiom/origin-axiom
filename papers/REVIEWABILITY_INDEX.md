@@ -33,7 +33,9 @@ and properly positioned in the character-variety literature.
 11. `papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md`
 12. `papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`
 13. `frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md`
-14. `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
+14. `frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md`
+15. `frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md`
+16. `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
 
 Record any actionable finding in:
 
@@ -69,6 +71,8 @@ Is the metallic SL(3) trace-map formula correct under the stated trace conventio
 Is the entropy computation a proof, not only observed degree growth?
 Is the B49 proof-module decomposition sufficient to draft the classification proof?
 Does the B50 skeleton preserve the correct theorem boundaries and non-claims?
+Does B51 correctly replace bounded c=3 factorization checks with a symbolic-m proof module?
+Does B52 correctly show that the naive multichannel Fibonacci bridge is 6x6 symplectic, not PC12 SL(3)?
 Is the compact SU(3) slice stated as compact-unitary mathematics only?
 What parts, if any, are already present in the existing literature?
 ```
@@ -84,6 +88,7 @@ lambda/h=1 is a physical prediction
 the Fibonacci Hamiltonian results are new gap-labeling mathematics
 the framework derives matter, gauge, gravity, spacetime, or awareness
 the metallic SL(3) direct/inverse trace distinction is particle physics
+the multichannel bridge is solved by the naive three-channel tight-binding model
 ```
 
 The correct status is:

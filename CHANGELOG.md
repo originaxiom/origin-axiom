@@ -103,6 +103,12 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - B50 proof-draft assembly added for PC12: B48/B49 are organized into an
   internal theorem-note skeleton with explicit theorem blocks, reproduction
   commands, non-claims, and draftability gates. PC12 remains `NEEDS_VALIDATION`.
+- B51 symbolic-`m` proof module added for PC12: the `c=3` fixed-line Jacobian
+  factorization is now verified with `m` formal, via closed-form derivative
+  sequences and exchange block diagonalization.
+- B52 multichannel Fibonacci bridge control added: the simplest three-channel
+  tight-binding model gives `6x6` symplectic transfer matrices and fails the
+  PC12 third-order `SL(3)` trace recursion, keeping PC12 mathematical.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

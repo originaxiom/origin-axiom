@@ -49,6 +49,13 @@ B49 SL(3) certificate-to-proof hardening
 B50 PC12 proof-draft assembly
   assembles B48/B49 into an internal theorem-note skeleton
 
+B51 SL(3) symbolic-m factorization
+  proves the c=3 fixed-line block factorization with m formal
+
+B52 multichannel Fibonacci bridge control
+  shows the naive 3-channel tight-binding bridge gives 6x6 symplectic transfer
+  matrices and fails the PC12 third-order trace recursion
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -129,6 +136,16 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
 - **B50** — PC12 proof-draft assembly. B48/B49 are organized into an internal
   theorem-note skeleton with five theorem blocks and explicit non-claims. This
   makes PC12 structurally ready for proof drafting, not public release.
+- **B51** — `SL(3)` symbolic-`m` factorization. The `c=3` fixed-line derivative
+  rows are derived from the `(r-1)^3` triple-root recurrence, the symbolic `8x8`
+  Jacobian commutes with the exchange involution, and the symmetric /
+  antisymmetric block characteristic polynomials are proved for formal `m`.
+- **B52** — multichannel Fibonacci bridge control. The simplest three-channel
+  Fibonacci tight-binding model yields `6x6` determinant-one symplectic transfer
+  matrices. In the commuting control it decouples into three `SL(2)` channels,
+  and in the generic control it obeys an order-six trace recursion, not PC12's
+  `SL(3)` third-order recursion. Verdict: useful negative control, no physics
+  bridge.
 - **B28** — projective quotient legitimacy. The B26 sign flip is legitimate as
   a central-sign / `PSL` lift ambiguity at the special orbit, and the trace map
   is equivariant under that sign action. The choice to use the quotient as a

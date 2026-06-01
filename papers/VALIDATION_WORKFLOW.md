@@ -105,6 +105,8 @@ papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
 frontier/B48_sl3_metallic_trace_maps/FINDINGS.md
 frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md
+frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md
+frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md
 papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
 ```
 
@@ -171,6 +173,7 @@ gap labeling is new to this project
 finite spectra prove an exact Hausdorff dimension
 the framework derives matter, gauge, gravity, spacetime, or awareness
 PC12 proves a physical SU(3) sector
+the naive three-channel Fibonacci bridge solves the PC12 physics dictionary
 ```
 
 The validation workflow is allowed to make the project smaller. That is a

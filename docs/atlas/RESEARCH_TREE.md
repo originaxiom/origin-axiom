@@ -57,6 +57,7 @@ minimal record axioms
   -> derived Mobius vector field and cubic potential
   -> half-step trace lift and Fibonacci spectral anchor (frontier)
   -> metallic SL(3) trace-map arithmetic as standalone PC12 (frontier)
+  -> symbolic-m PC12 proof support; naive multichannel physics bridge fails
 ```
 
 Primary files:
@@ -65,6 +66,7 @@ Primary files:
 - `docs/UNIQUENESS_THEOREM.md`
 - `docs/SESSION3_SYNTHESIS.md`
 - `tests/test_uniqueness_theorem.py`
+- `papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`
 
 ## The Load-Bearing Caveat
 

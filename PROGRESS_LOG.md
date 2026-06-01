@@ -1284,5 +1284,37 @@ need validation.
 
 ---
 
+## 2026-06-01 — B51 symbolic-m factorization and B52 bridge control
+
+**PC12 proof strengthened; naive physics bridge ruled out.**
+
+Integrated the cross-platform review packet into governed repo evidence:
+
+- **B51 `SL(3)` symbolic-`m` factorization:** the `c=3` fixed-line Jacobian
+  block factorization is now verified with `m` formal, not only checked over
+  bounded integer values. At `c=3`, the Cayley-Hamilton derivative recurrence
+  has characteristic equation `(r-1)^3=0`, giving polynomial derivative rows in
+  `k`. The symbolic `8x8` Jacobian commutes with the exchange involution and
+  block diagonalizes into symmetric and antisymmetric sectors with characteristic
+  polynomials `(t-1)(t+1)(t^2-(m^2+2)t+1)` and
+  `(t^2+mt-1)(t^2-(m^3+3m)t-1)`.
+- **B52 multichannel Fibonacci bridge control:** the simplest three-channel
+  Fibonacci tight-binding model was tested directly. Its site transfer matrices
+  are `6x6` determinant-one symplectic matrices on doubled phase space. In the
+  commuting control they decompose into three independent `SL(2)` channels. In
+  the generic control the PC12 third-order `SL(3)` trace recursion fails, while
+  the expected order-six Cayley-Hamilton recursion holds.
+- **Literature scan:** scalar and Jacobi Fibonacci Hamiltonian work remains
+  `SL(2)`/trace-map spectral theory; matrix-valued or multichannel models use
+  doubled `2L x 2L` transfer matrices. No source found in this scan supplies the
+  PC12 `SL(3)` physical dictionary.
+
+Net result: PC12 is stronger as standalone trace-map mathematics, but the
+physics bridge remains missing. The naive multichannel bridge is now a recorded
+negative result rather than an open ambiguity. No claims promoted; PC12 remains
+`NEEDS_VALIDATION`.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

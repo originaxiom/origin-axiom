@@ -62,6 +62,16 @@ B48 verifies seven independent checks:
 7. compact SU(3) diagonal-slice representatives for c=-1,0,1,3
 ```
 
+B51 upgrades item 4 from bounded verification to a symbolic proof module at
+`c=3`. At the triple-root fixed line, the derivative rows are polynomial in
+`m`, the exchange involution block diagonalizes the `8x8` Jacobian, and the
+sector characteristic polynomials are proved symbolically:
+
+```text
+symmetric:     (t-1)(t+1)(t^2-(m^2+2)t+1)
+antisymmetric: (t^2+mt-1)(t^2-(m^3+3m)t-1)
+```
+
 The default integer rectangle is:
 
 ```text
@@ -114,3 +124,8 @@ negative strip and boundary exclusions
 
 The remaining task is polished proof text, especially for the global
 coefficient-positivity exclusions outside the finite strips.
+
+B52 is not part of the classification certificate. It records the separate
+physics-bridge control: the naive three-channel Fibonacci tight-binding model
+uses `6x6` symplectic transfer matrices and does not satisfy this `SL(3)`
+third-order trace recursion.
