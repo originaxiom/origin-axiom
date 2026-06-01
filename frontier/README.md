@@ -46,6 +46,9 @@ B48 SL(3) metallic trace-map certificates
 B49 SL(3) certificate-to-proof hardening
   decomposes PC12's fixed-line splitting certificate into proof modules
 
+B50 PC12 proof-draft assembly
+  assembles B48/B49 into an internal theorem-note skeleton
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -123,6 +126,9 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   direct positive families, square-gap propagation, finite positive-strip
   exclusions, and negative-strip/boundary exclusions. PC12 is strengthened but
   remains `NEEDS_VALIDATION`.
+- **B50** — PC12 proof-draft assembly. B48/B49 are organized into an internal
+  theorem-note skeleton with five theorem blocks and explicit non-claims. This
+  makes PC12 structurally ready for proof drafting, not public release.
 - **B28** — projective quotient legitimacy. The B26 sign flip is legitimate as
   a central-sign / `PSL` lift ambiguity at the special orbit, and the trace map
   is equivariant under that sign action. The choice to use the quotient as a

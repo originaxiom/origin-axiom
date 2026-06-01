@@ -100,6 +100,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   decomposed into a universal splitting criterion, direct split families,
   square-gap propagation, finite strip exclusions, and negative boundary
   controls. PC12 remains `NEEDS_VALIDATION`.
+- B50 proof-draft assembly added for PC12: B48/B49 are organized into an
+  internal theorem-note skeleton with explicit theorem blocks, reproduction
+  commands, non-claims, and draftability gates. PC12 remains `NEEDS_VALIDATION`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

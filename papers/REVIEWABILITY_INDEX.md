@@ -33,6 +33,7 @@ and properly positioned in the character-variety literature.
 11. `papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md`
 12. `papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`
 13. `frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md`
+14. `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
 
 Record any actionable finding in:
 
@@ -67,6 +68,7 @@ For PC12:
 Is the metallic SL(3) trace-map formula correct under the stated trace convention?
 Is the entropy computation a proof, not only observed degree growth?
 Is the B49 proof-module decomposition sufficient to draft the classification proof?
+Does the B50 skeleton preserve the correct theorem boundaries and non-claims?
 Is the compact SU(3) slice stated as compact-unitary mathematics only?
 What parts, if any, are already present in the existing literature?
 ```

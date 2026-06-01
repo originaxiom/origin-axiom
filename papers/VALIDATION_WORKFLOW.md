@@ -105,6 +105,7 @@ papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
 frontier/B48_sl3_metallic_trace_maps/FINDINGS.md
 frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md
+papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
 ```
 
 Optional shared context:

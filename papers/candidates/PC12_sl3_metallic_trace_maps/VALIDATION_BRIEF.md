@@ -28,6 +28,7 @@ papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md
 frontier/B48_sl3_metallic_trace_maps/FINDINGS.md
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md
+papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
 papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
 frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md
 ```
@@ -40,6 +41,7 @@ python frontier/B48_sl3_metallic_trace_maps/probe.py --deep
 python frontier/B49_sl3_certificate_proof_hardening/probe.py
 python -m pytest tests/test_sl3_metallic_trace_maps.py -q
 python -m pytest tests/test_sl3_certificate_proof_hardening.py -q
+python -m pytest tests/test_pc12_draft_skeleton.py -q
 ```
 
 ## Main Checks

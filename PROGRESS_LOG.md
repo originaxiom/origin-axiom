@@ -1262,5 +1262,27 @@ text, especially for global coefficient-positivity exclusions." PC12 stays
 
 ---
 
+## 2026-06-01 — B50 PC12 proof-draft assembly
+
+**Internal theorem-note skeleton; no public draft.**
+
+Added `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
+and `frontier/B50_pc12_proof_draft_assembly/` to organize B48/B49 into five
+theorem blocks:
+
+- metallic `SL(3)` trace-map formula;
+- commutator trace-pair invariant;
+- algebraic entropy;
+- fixed-line integer splitting classification;
+- compact diagonal `SU(3)` slice.
+
+The skeleton records proof status for each block, required reproduction
+commands, and non-claim boundaries. It makes PC12 structurally ready for proof
+drafting, but not `DRAFTABLE`: global `c>=15` / `c<=-12` exclusions, entropy
+no-cancellation prose, literature positioning, and compact `SU(3)` wording still
+need validation.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
