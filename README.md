@@ -64,7 +64,7 @@ The honest one-line status:
 |---|---|
 | Phase 0 — Governance & specification | **locked** |
 | Phase A — Tested foundation | **complete** — suite green, P1–P16 locked (P14 unused) |
-| Phase B — Frontier | **in progress** — probes B1–B48 logged; trace-map selector packaged as conditional C5; metallic `SL(3)` trace-map arithmetic isolated as PC12 |
+| Phase B — Frontier | **in progress** — probes B1–B49 logged; trace-map selector packaged as conditional C5; metallic `SL(3)` trace-map arithmetic isolated as PC12 |
 | Phase C — Exhaustive survey of emergence-paths | **in progress** — see `paths/` |
 
 See `CLAIMS.md` for the current ledger: 15 `proven`, 5 `conditional`, 9 `open`, 10 `dead`.

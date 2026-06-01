@@ -30,6 +30,7 @@ B27 m=1 SL(3) Fibonacci trace lift
   -> entropy log((m + sqrt(m^2+4))/2)
   -> fixed-line Jacobian arithmetic splitting classification
   -> compact SU(3) diagonal-slice survival c=-1,0,1,3
+  -> B49 certificate-to-proof hardening for the splitting classification
 ```
 
 The novelty, if any, is the metallic `SL(3)` trace-map package and its exact
@@ -52,7 +53,9 @@ not a public-ready manuscript release
 ```text
 frontier/B27_sl3_fibonacci_trace_lift/
 frontier/B48_sl3_metallic_trace_maps/
+frontier/B49_sl3_certificate_proof_hardening/
 tests/test_sl3_metallic_trace_maps.py
+tests/test_sl3_certificate_proof_hardening.py
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
 papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md
@@ -63,7 +66,9 @@ papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md
 ```bash
 python frontier/B48_sl3_metallic_trace_maps/probe.py
 python frontier/B48_sl3_metallic_trace_maps/probe.py --deep
+python frontier/B49_sl3_certificate_proof_hardening/probe.py
 python -m pytest tests/test_sl3_metallic_trace_maps.py -q
+python -m pytest tests/test_sl3_certificate_proof_hardening.py -q
 ```
 
 ## Known Controls
@@ -75,12 +80,14 @@ entropy degree recurrence checked for m<=25, n<=30
 c=3 and c=1 Jacobian block factorizations checked exactly
 integer splitting classification checked over default and deep rectangles
 compact SU(3) slice checked by explicit representatives
+B49 checks universal splitting criterion, direct split families, square-gap
+propagation, finite positive strips, and negative strip / boundary exclusions
 ```
 
 ## Known Failures / Limits
 
 ```text
-certificate-assisted classification is not yet a compact human proof
+proof architecture exists, but polished human proof text is not yet written
 literature priority is not settled
 diagonal fixed-line arithmetic is not automatically a representation-locus theorem
 compact SU(3) slice is compact-unitary mathematics, not physics
@@ -120,5 +127,5 @@ conditional status of PC11 or any Origin-core claim.
 Next governed path:
 
 ```text
-B49 -- SL3 certificate-to-proof hardening
+B50 -- PC12 proof-draft assembly
 ```

@@ -27,6 +27,7 @@ Read in this order:
 papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md
 frontier/B48_sl3_metallic_trace_maps/FINDINGS.md
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
+frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md
 papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
 frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md
 ```
@@ -36,7 +37,9 @@ frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md
 ```bash
 python frontier/B48_sl3_metallic_trace_maps/probe.py
 python frontier/B48_sl3_metallic_trace_maps/probe.py --deep
+python frontier/B49_sl3_certificate_proof_hardening/probe.py
 python -m pytest tests/test_sl3_metallic_trace_maps.py -q
+python -m pytest tests/test_sl3_certificate_proof_hardening.py -q
 ```
 
 ## Main Checks
@@ -56,11 +59,12 @@ Does the literature already contain any part of the metallic SL(3) package?
 The missing object is:
 
 ```text
-a compact human-reviewable proof of the fixed-line splitting classification
+polished human proof text for the fixed-line splitting classification
 ```
 
-The certificate runner is evidence and reproducibility support. It should not be
-the only proof if PC12 is drafted.
+B49 supplies the proof-module architecture. The certificate runners are evidence
+and reproducibility support; they should not be the only proof if PC12 is
+drafted.
 
 ## Non-Claims
 

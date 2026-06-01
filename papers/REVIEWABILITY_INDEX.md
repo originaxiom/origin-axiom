@@ -32,6 +32,7 @@ and properly positioned in the character-variety literature.
 10. `docs/TRACE_SELECTOR_THEOREM.md`
 11. `papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md`
 12. `papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`
+13. `frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md`
 
 Record any actionable finding in:
 
@@ -65,7 +66,7 @@ For PC12:
 ```text
 Is the metallic SL(3) trace-map formula correct under the stated trace convention?
 Is the entropy computation a proof, not only observed degree growth?
-Can the fixed-line splitting classification be proof-hardened beyond certificates?
+Is the B49 proof-module decomposition sufficient to draft the classification proof?
 Is the compact SU(3) slice stated as compact-unitary mathematics only?
 What parts, if any, are already present in the existing literature?
 ```
@@ -88,5 +89,5 @@ The correct status is:
 ```text
 PC02: conditional theorem candidate, ready for mathematical validation
 PC11: computational/literature bridge, conditional on T1
-PC12: standalone metallic SL(3) arithmetic candidate, certificate-backed and not yet proof-hardened
+PC12: standalone metallic SL(3) arithmetic candidate, proof-hardened but not yet independently validated
 ```

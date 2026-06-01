@@ -43,8 +43,8 @@ B27 SL(3) Fibonacci trace lift
 B48 SL(3) metallic trace-map certificates
   generalizes B27 from m=1 to phi_m(a)=a^m b, phi_m(b)=a and supports PC12
 
-B49 planned SL(3) certificate-to-proof hardening
-  next target: convert PC12's fixed-line splitting certificate into a compact proof
+B49 SL(3) certificate-to-proof hardening
+  decomposes PC12's fixed-line splitting certificate into proof modules
 
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
@@ -118,6 +118,11 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   and compact `SU(3)` diagonal-slice representatives. This supports PC12 as
   standalone trace-map arithmetic and does not change PC11's T1-conditional
   selector status.
+- **B49** — `SL(3)` certificate-to-proof hardening. The B48 fixed-line
+  splitting classification is decomposed into a universal splitting criterion,
+  direct positive families, square-gap propagation, finite positive-strip
+  exclusions, and negative-strip/boundary exclusions. PC12 is strengthened but
+  remains `NEEDS_VALIDATION`.
 - **B28** — projective quotient legitimacy. The B26 sign flip is legitimate as
   a central-sign / `PSL` lift ambiguity at the special orbit, and the trace map
   is equivariant under that sign action. The choice to use the quotient as a

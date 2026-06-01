@@ -32,7 +32,7 @@ HISTORICAL_ARCHIVE
 | PC09 | Legacy Toy-Universe Simulation Archive | HISTORICAL_ARCHIVE | SEED | Earlier generated reports and simulations may have archival value. | Pre-governance and likely superseded; requires revalidation. |
 | PC10 | A-Polynomial Convention Controls | THEOREM_NOTE / NEGATIVE_RESULT | SEED | Prevents repeated convention mistakes around cusp equations and active roots. | May be an appendix rather than a standalone paper. |
 | PC11 | Half-Step Trace Lift and Fibonacci Spectrum Anchor | COMPUTATIONAL_REPORT / LITERATURE_BRIDGE | NEEDS_VALIDATION | B13-B47 isolate the canonical half-step trace lift, a finite-approximant spectral anchor, and conditional C5/T1 selector for `lambda/h=1`; validation packet now prepared. | Must cite known Fibonacci Hamiltonian results and keep T1 explicit as conditional, not proven. |
-| PC12 | Metallic SL(3) Trace-Map Arithmetic | THEOREM_NOTE / COMPUTATIONAL_REPORT | NEEDS_VALIDATION | B48 generalizes the B27 `SL(3)` Fibonacci trace lift to the metallic family `a -> a^m b, b -> a`, with commutator invariants, entropy, and certificate-backed fixed-line arithmetic. | Certificate-assisted classification needs a compact human-reviewable proof; literature priority is not settled. |
+| PC12 | Metallic SL(3) Trace-Map Arithmetic | THEOREM_NOTE / COMPUTATIONAL_REPORT | NEEDS_VALIDATION | B48 generalizes the B27 `SL(3)` Fibonacci trace lift to the metallic family `a -> a^m b, b -> a`; B49 decomposes the fixed-line classification into proof modules. | Certificate-assisted classification still needs polished human proof text and independent validation; literature priority is not settled. |
 
 ## Highest Priority
 
@@ -46,7 +46,7 @@ PC02 = conditional uniqueness of the core
 PC04 = residue mechanism that survives cancellation controls
 PC06 = selector theorem question for state-integral routes
 PC11 = trace-map/spectrum bridge after B13-B47; validation packet ready, blocked from stronger status until the T1 selector assumption is independently validated
-PC12 = standalone metallic SL(3) trace-map arithmetic; blocked from stronger status until certificate-assisted classification is proof-hardened and literature positioning is validated
+PC12 = standalone metallic SL(3) trace-map arithmetic; blocked from stronger status until proof text and literature positioning are independently validated
 ```
 
 Use `papers/FALSIFIABILITY_MATRIX.md` before changing readiness for PC02, PC04,

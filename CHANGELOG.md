@@ -96,6 +96,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   Fibonacci trace lift to the family `a -> a^m b, b -> a`; PC12 now tracks the
   standalone arithmetic candidate with certificate-backed fixed-line controls.
   Raw side-work bundles remain private and are not copied into the repo.
+- B49 proof-hardening added for PC12: the fixed-line splitting classification is
+  decomposed into a universal splitting criterion, direct split families,
+  square-gap propagation, finite strip exclusions, and negative boundary
+  controls. PC12 remains `NEEDS_VALIDATION`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

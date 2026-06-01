@@ -1241,5 +1241,26 @@ proof architecture.
 
 ---
 
+## 2026-06-01 — B49 PC12 proof-hardening
+
+**Proof architecture extracted; no claim promotion.**
+
+Added `frontier/B49_sl3_certificate_proof_hardening/` to decompose the PC12
+fixed-line integer splitting classification into reviewable proof modules:
+
+- universal discriminant/parity splitting criterion;
+- direct positive families and isolated negative split cases;
+- square-gap propagation lemma;
+- finite positive-strip exclusions for `4 <= c <= 14`;
+- negative strip and boundary exclusions for `-11 <= c <= -2`.
+
+The B49 probe checks the finite proof tables and recurrence propagation
+mechanism against the B48 arithmetic. This strengthens PC12 by narrowing the
+remaining task from "trust a broad certificate scan" to "write polished proof
+text, especially for global coefficient-positivity exclusions." PC12 stays
+`NEEDS_VALIDATION`; no Origin-core claim changes.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

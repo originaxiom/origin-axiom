@@ -101,3 +101,16 @@ The certificates strongly support the arithmetic classification inside the
 checked architecture. The next validation task is to turn the certificate logic
 into a compact proof, with the runner serving as reproducibility support rather
 than the only evidence.
+
+B49 starts that conversion by checking the reusable proof modules:
+
+```text
+universal splitting criterion
+positive split families and isolated cases
+square-gap propagation lemma
+finite positive strip exclusions
+negative strip and boundary exclusions
+```
+
+The remaining task is polished proof text, especially for the global
+coefficient-positivity exclusions outside the finite strips.
