@@ -40,6 +40,12 @@ B26 lambda/h=1 derivation attempt
 B27 SL(3) Fibonacci trace lift
   extends the trace-lift calculation to higher-rank character data
 
+B48 SL(3) metallic trace-map certificates
+  generalizes B27 from m=1 to phi_m(a)=a^m b, phi_m(b)=a and supports PC12
+
+B49 planned SL(3) certificate-to-proof hardening
+  next target: convert PC12's fixed-line splitting certificate into a compact proof
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -106,6 +112,12 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   sectors `(t-1)(t+1)(t²-4t-1)(t²-3t+1)(t²+t-1)`. The `A` sector survives and
   the commutator trace pair swaps under the half-step. Physical
   particle/antiparticle language is rejected as an unbuilt dictionary.
+- **B48** — metallic `SL(3)` trace-map certificates. The B27 `m=1` lift extends
+  to `phi_m(a)=a^m b, phi_m(b)=a`, with exact recurrence checks, commutator
+  trace-pair invariant, entropy controls, fixed-line arithmetic classification,
+  and compact `SU(3)` diagonal-slice representatives. This supports PC12 as
+  standalone trace-map arithmetic and does not change PC11's T1-conditional
+  selector status.
 - **B28** — projective quotient legitimacy. The B26 sign flip is legitimate as
   a central-sign / `PSL` lift ambiguity at the special orbit, and the trace map
   is equivariant under that sign action. The choice to use the quotient as a

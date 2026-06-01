@@ -1211,5 +1211,35 @@ All new probes are frontier-only and end `STALLED`. No claims changed.
 
 ---
 
+## 2026-06-01 — B48 / PC12 metallic SL(3) trace-map intake
+
+**Curated side-work intake; no claim promotion.**
+
+Integrated the reproducible mathematical payload of the private SL3 metallic
+trace-map work as a governed repository artifact:
+
+- **B48 `SL(3)` metallic trace maps:** adds a sanitized certificate probe for
+  the family `phi_m(a)=a^m b, phi_m(b)=a`, extending B27's `m=1` Fibonacci lift
+  to all `m>=1`. The probe checks the trace-map recurrence, direct exact
+  `SL(3,Z)` matrix traces, entropy recurrences, fixed-line Jacobian blocks,
+  integer splitting classification, and compact `SU(3)` diagonal-slice
+  representatives.
+- **PC12 paper candidate:** adds `Metallic SL(3) Trace-Map Arithmetic` as a
+  standalone `NEEDS_VALIDATION` candidate. It supports the trace-map ecosystem
+  but does not change PC11's `T1 -> S1 -> I=1/4 -> lambda/h=1` conditional
+  status.
+- **Governance boundary:** raw side-work bundles, coordination artifacts, and
+  private working notes were not copied. The public repo records only distilled
+  B48/PC12 material plus a private-source checksum in the artifact manifest.
+
+New strategic insight: B27 was not an isolated `m=1` accident; the higher-rank
+trace-lift route has a systematic metallic family with its own commutator
+invariants, entropy, and arithmetic fixed-line structure. The missing selector
+for PC11 remains missing. The next useful path is proof hardening: convert the
+certificate-assisted PC12 splitting classification into a compact reviewable
+proof architecture.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

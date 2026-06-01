@@ -23,6 +23,7 @@ Current validation packets:
 ```text
 PC02: conditional uniqueness of the core
 PC11: half-step trace lift and conditional trace selector
+PC12: metallic SL(3) trace-map arithmetic
 ```
 
 ## Validation Sequence
@@ -59,6 +60,15 @@ Fibonacci Hamiltonian / gap labeling
 renormalization on trace surfaces
 ```
 
+PC12 is best checked by someone using:
+
+```text
+SL(3,C) character varieties
+trace identities and invariant theory
+algebraic entropy / degree growth
+computer-assisted arithmetic classification
+```
+
 Physics-facing validation is not first. It becomes useful only after the
 mathematical bridge statement is well-posed and falsifiable.
 
@@ -84,6 +94,16 @@ For PC11, validate from:
 papers/candidates/PC11_trace_map_spectrum_bridge/VALIDATION_BRIEF.md
 papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md
 docs/TRACE_SELECTOR_THEOREM.md
+```
+
+For PC12, validate from:
+
+```text
+papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md
+papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md
+papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
+papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
+frontier/B48_sl3_metallic_trace_maps/FINDINGS.md
 ```
 
 Optional shared context:
@@ -128,6 +148,15 @@ NEEDS_RESCOPING
 KILLED
 ```
 
+For PC12, prefer:
+
+```text
+DRAFTABLE
+NEEDS_REVISION
+NEEDS_RESCOPING
+KILLED
+```
+
 ## Non-Claims To Preserve
 
 Reject or rewrite any summary that implies:
@@ -139,6 +168,7 @@ lambda/h=1 is a physical prediction
 gap labeling is new to this project
 finite spectra prove an exact Hausdorff dimension
 the framework derives matter, gauge, gravity, spacetime, or awareness
+PC12 proves a physical SU(3) sector
 ```
 
 The validation workflow is allowed to make the project smaller. That is a

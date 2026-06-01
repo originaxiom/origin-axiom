@@ -92,6 +92,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   PC04, PC06, PC07, and PC11 to missing objects, validation questions, and
   kill/rescope conditions. PC07 now has a paper card, and public-surface hygiene
   is covered by `tests/test_public_surface_scan.py`.
+- Metallic `SL(3)` trace-map intake added: B48 generalizes the B27 `m=1`
+  Fibonacci trace lift to the family `a -> a^m b, b -> a`; PC12 now tracks the
+  standalone arithmetic candidate with certificate-backed fixed-line controls.
+  Raw side-work bundles remain private and are not copied into the repo.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

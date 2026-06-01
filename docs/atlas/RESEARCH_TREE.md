@@ -56,6 +56,7 @@ minimal record axioms
   -> figure-eight / punctured-torus monodromy structure
   -> derived Mobius vector field and cubic potential
   -> half-step trace lift and Fibonacci spectral anchor (frontier)
+  -> metallic SL(3) trace-map arithmetic as standalone PC12 (frontier)
 ```
 
 Primary files:
