@@ -229,7 +229,7 @@ Observed continuation (`m = 1`):
 
 ```text
 n   M-powers present        sign sectors    parity block        status
-2   {2}                     none            none                exact
+2   {2}                     none            (t+1)               exact
 3   {-1, 2, 3}              none            (t-1)(t+1)           exact (Section 5)
 4   {-1, 1, 2, 3, 4}        {-2}            (t-1)^2(t+1)         over Z[m], all m (B63)
 5   {-1, 1, 1, 2, 3, 4, 5}  {-2, -3}        (t-1)^2(t+1)^2       numerical (22 of 24)

@@ -268,7 +268,14 @@ def theta_split(n, h):
 
 
 def sector_prediction(n=6):
-    """(odd-k quadratics, even-k quadratics, parity dim) from the theta-split."""
+    """(odd-height quads, even-height quads, parity dim) from the theta-split.
+
+    NB: the binning is by ROOT-HEIGHT parity. This equals the char(M^k) |k|-parity
+    count only for ODD n; at even n the highest even-|k| factor sits in an
+    odd-height space (verified: SL(4) is |k|-parity (3,3) but height (4,2), since
+    |k| ranges past the maximal root height). Used here as a dimension/sector
+    check; the |k|=3 multiplicity result comes from direct root-matching, not this.
+    """
     odd_q = even_q = 0
     for h in range(1, n):
         q = theta_split(n, h)[0] // 2

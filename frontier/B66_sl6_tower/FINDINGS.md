@@ -18,9 +18,14 @@ differ (3 vs 2), so it disambiguates the formula for all `n`.**
 ## Result
 
 ```text
-theta-split sector structure (exact):   9 odd-k + 6 even-k quadratics + 5 parity = 35   CONFIRMED
+theta-split sector dims (exact):   9 odd-height + 6 even-height quadratics + 5 parity = 35   CONFIRMED
 |k|=3 multiplicity (char(M^3)+char(-M^3)):   2        ->  max(n-d,1)=3  REFUTED
 ```
+
+(The 9/6 split is by ROOT HEIGHT, which equals the char(M^k) |k|-parity count
+only for odd n; at even n it differs -- SL(4) is |k|-parity (3,3) but height
+(4,2) -- because |k| runs past the maximal root height. The 35 total and the
+|k|=3 result below are independent of this labeling.)
 
 The numerical spectrum resolves the `|k|=3` region **cleanly** -- all four roots
 of the two `|k|=3` quadratics land on the catalog:
@@ -61,8 +66,10 @@ parity: ~ (t-1)^2 (t+1)^3                       (deg 5, theta-split prediction)
   determined numerically** (5 of 15 quadratics sit among the gauge modes). What
   *is* determined is the specific test the campaign posed: the `|k|=3` quadratics
   have **moderate** roots (`+-4.236`), resolve cleanly, and number exactly **2**.
-- **The `theta`-split sector count (9/6/5 = 35) is exact** (pure root-system
-  combinatorics, `sector_prediction(6)`; validated SL(3)=8, SL(4)=15, SL(5)=24).
+- **The `theta`-split sector dimensions (9/6/5 = 35) are exact** (pure root-system
+  combinatorics, `sector_prediction(6)`; the totals validate SL(3)=8, SL(4)=15,
+  SL(5)=24). The 9/6 is a root-height count, not a |k|-parity count (they agree
+  only for odd n; see the Result note).
 - A symbolic proof for `n>=5` still needs the ambient `SL(n,C)` Procesi trace ring
   (B58, open). This run is high-precision numerics (mpmath dps 60, inverse-word
   coordinates, tight `eps`-ladder extrapolation), not a theorem.

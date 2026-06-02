@@ -13,7 +13,7 @@ multiplicity follow `max(n-d,1)` (=> **3** at `n=6`) or saturate at **2**?
 
 ```text
 |k|=3 multiplicity (char(M^3)+char(-M^3)) = 2      ->  max(n-d,1)=3 REFUTED
-theta-split sectors  9 odd-k + 6 even-k + 5 parity = 35   CONFIRMED (exact)
+theta-split sector dims  9 odd-height + 6 even-height + 5 parity = 35   CONFIRMED (exact)
 ```
 
 The `|k|=3` quadratics resolve cleanly (all four roots `+-4.236, -+0.236` on the
@@ -47,7 +47,10 @@ sector_prediction(6) = (9, 6, 5)  ->  2*(9+6)+5 = 35
 ```
 
 It does **not** fix the per-`k` multiplicities -- those are what the numerics
-measure, and why the `|k|=3` test needed this run.
+measure, and why the `|k|=3` test needed this run. The `9/6` split is by root
+HEIGHT parity, which matches the `char(M^k)` `|k|`-parity count only for odd `n`
+(SL(4) is `|k|`-parity `(3,3)` but height `(4,2)`, since `|k|` runs past the
+maximal root height); the `|k|=3` result is from direct root-matching, not this.
 
 ## Honest limit
 
