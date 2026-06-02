@@ -322,15 +322,27 @@ No claim is promoted.
 method, the corrected tower so far is:
 
 ```text
-n   char(M^k) powers      sign sectors   parity block        (n^2-1 check)
-3   {-1, 2, 3}            none           (t-1)(t+1)   [deg 2]  2 + 3*2  = 8
-4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2(t+1) [deg 3]  3 + 5*2 + 2 = 15
+n   char(M^k) powers      sign sectors   parity block          (n^2-1 check)
+3   {-1, 2, 3}            none           (t-1)(t+1)     [deg 2]  2 + 3*2  = 8
+4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2(t+1)   [deg 3]  3 + 5*2 + 2 = 15
+5   {-1, 1, 1, 2,3,4,5}   -M^2, -M^3     (t-1)^2(t+1)^2 [deg 4]  [B61: 22 of 24]
 ```
 
-Trend `n=3 -> 4`: the `M`-powers climb and densify, a sign sector `char(-M^2)`
-appears, and the parity block grows. **SL(5) is unresolved**: its
-trace-coordinate differential has condition number `~1e11`, beyond
-double-precision extrapolation (and `mpmath` normal-equations pinv squares it to
-`~1e22`); resolving it needs a stable high-precision SVD solver or the symbolic
-ambient SL(5,C) trace ring. The corrected tower is empirical (n=3,4),
+Trend `n=3 -> 4 -> 5`: the `M`-powers climb (to `n`) and densify, sign sectors
+accrue (`-M^2` at `n=4`; `-M^3` joins at `n=5`), and the parity block grows by
+one each step.
+
+**SL(5) (B61, `frontier/B61_sl5_high_precision/`).** B60's "`cond ~1e11`
+barrier" was a misdiagnosis: at 60-digit precision the SVD shows the forward-only
+word set is *rank 23* (its 24th singular value is the precision floor, mis-read
+as `1e11` in double precision). With inverse-word coordinates (`A,B,A^-1,B^-1`,
+rank 24, `cond ~1e4`) and a stable SVD pseudoinverse, **22 of the 24 SL(5)
+multipliers resolve** to the catalog (the `n=5` row above). The remaining
+2-dimensional sector is a *method limit*: it lies in the directions where the
+coordinate differential loses rank at the fixed line, where the pseudoinverse is
+discontinuous, so its `eps -> 0` limit is gauge-dependent (the residual scatters
+across random base-points). Recovering it needs the symbolic ambient SL(5,C)
+trace ring (the same construction left open for the symbolic SL(4) proof).
+
+The corrected tower is empirical (n=3,4 complete; n=5 to 22/24),
 method-validated -- not a proven theorem.

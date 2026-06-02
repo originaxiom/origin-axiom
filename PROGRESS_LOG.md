@@ -1530,5 +1530,44 @@ multi-`eps` extrapolation) or the symbolic ambient SL(5,C) trace ring. Locked by
 
 ---
 
+## 2026-06-02 — B61 SL(5) high-precision factorization (barrier re-diagnosed; 22/24 resolved)
+
+**Frontier evidence (numerical, high-precision; method-validated on SL(3)/SL(4));
+no claim promotion.**
+
+Ported the method to `mpmath` (dps 60) with a stable SVD-based pseudoinverse
+(`pinv` via the tall-orientation SVD, losing only `~log10(cond)` digits vs
+`2 log10(cond)` for normal equations). Two findings:
+
+1. **B60's "SL(5) conditioning wall" was a misdiagnosis.** At dps 60 the SVD
+   shows the forward-only word set's 24th singular value is the dps zero-floor
+   (`~1e-40`): it is **rank 23**, not 24. Double precision read the rounding floor
+   as `cond ~1e11`. Switching to **inverse-word coordinates**
+   (`A,B,A^-1,B^-1`, len `<=4`) gives a genuine rank-24 system at `cond ~1e4`.
+   (Confirmed by a parallel computation; integrated here.)
+
+2. **22 of 24 SL(5) multipliers resolve** to the Cayley-Hamilton catalog:
+
+   ```text
+   char(M^-1)·char(M)^2·char(M^2)·char(M^3)·char(M^4)·char(M^5)
+            ·char(-M^2)·char(-M^3)·(t-1)^2(t+1)^2          [22 of 24]
+   ```
+
+   The n=5 tower row: powers climb to 5, sign sectors `-2,-3`, parity deg 4.
+   SL(3)/SL(4) reproduce to `~4e-14`/`~3e-9` (vs B60's `~1e-3` double floor).
+
+The remaining **2-dimensional sector is a method limit**, not a numerical
+artifact: it ties to the directions where `Dx` loses rank at the fixed line
+(the `(r-1)^n` degeneracy), where `pinv` is discontinuous, so the `eps->0` limit
+is **gauge-dependent** -- the residual scatters across seeds (verified
+20/22/24/26/28). Stable across extrapolation degree 5-9 and integer/half-integer
+power bases; `cond` at the relevant `eps` is only `~1e6-1e8` (trivial at dps 60).
+SL(3) (8/8) and SL(4) (15/15) had no such residual; `n=5` is where this
+representation-perturbation method first runs out. The last 2 need the symbolic
+ambient SL(5,C) trace ring (still open, cf. B58). Locked by
+`tests/test_b61_sl5.py`. Proven ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

@@ -28,8 +28,11 @@ The fixed-line factorization, computed by the B59 extrapolation method
 n   char(M^k) powers      sign sectors   parity block        (degree check)
 3   {-1, 2, 3}            none           (t-1)(t+1)   [2]    2 + 3*2 = 8  = n^2-1
 4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2(t+1) [3]    3 + 5*2 + 2 = 15 = n^2-1
-5   UNRESOLVED (see below)
+5   {-1,1,1,2,3,4,5}      -M^2, -M^3     (t-1)^2(t+1)^2 [4]  [B61: 22 of 24 resolved]
 ```
+
+The `n=5` row is resolved by **B61** (`../B61_sl5_high_precision/`); the "barrier"
+below was a rank-deficient word set, not conditioning.
 
 Trend `n=3 -> 4`: the `char(M^k)` powers **climb and densify** (`{-1,2,3}` ->
 `{-1,1,2,3,4}`), a **sign sector** appears (`char(-M^2)`, none at n=3), and the
@@ -51,6 +54,12 @@ A clean SL(5) factorization needs **either** a stable high-precision solver
 (SVD-based pseudo-inverse at high working precision with multi-`eps`
 extrapolation) **or** the symbolic ambient SL(5,C) trace ring. Neither is built
 here; the barrier is documented as a reproducible conditioning fact.
+
+> **Resolved by B61.** The stable SVD pinv at dps=60 shows the `~1e11` was the
+> double-precision *rounding floor* hiding a **rank-23** word set (forward-only
+> letters). Inverse-word coordinates restore rank 24 at `cond ~ 1e4`, and **22 of
+> 24** multipliers resolve to the catalog (the `n=5` row). The remaining 2 are a
+> method limit (fixed-line rank-loss). See `../B61_sl5_high_precision/`.
 
 ## Verdict
 

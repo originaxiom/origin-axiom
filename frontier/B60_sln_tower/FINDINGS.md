@@ -14,7 +14,10 @@ PRODUCES-RESULT (numerical) for n=3,4 cross-n map; SL(5) UNRESOLVED (conditionin
 n   char(M^k) powers      sign sectors   parity block          degree
 3   {-1, 2, 3}            none           (t-1)(t+1)             2     (2 + 3*2 = 8)
 4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2 (t+1)          3     (3 + 5*2 + 2 = 15)
+5   {-1,1,1,2,3,4,5}      -M^2, -M^3     (t-1)^2 (t+1)^2        4     [B61, 22 of 24]
 ```
+
+The `n=5` row is from **B61** (22 of 24 multipliers; see below).
 
 Three trends from `n=3` to `n=4`:
 
@@ -44,6 +47,14 @@ The required next step is a **stable high-precision solver** -- SVD-based
 pseudo-inverse at high working precision with multi-`eps` extrapolation -- or the
 **symbolic ambient SL(5,C) trace ring**. Recorded so the barrier is not
 re-encountered blindly.
+
+> **Update (B61):** the SVD pinv at dps=60 shows this "`cond ~ 1e11` barrier" was
+> a **misdiagnosis** -- B60's forward-only word set is **rank 23** (its 24th
+> singular value is the dps zero-floor, mis-read in double precision as
+> `cond ~ 1e11`). With inverse-word coordinates (`A,B,A^{-1},B^{-1}`, rank 24,
+> `cond ~ 1e4`), **22 of 24** SL(5) multipliers resolve to the catalog (the
+> `n=5` row above). The last 2 are a method limit (fixed-line rank-loss makes the
+> pinv `eps->0` limit gauge-dependent). See `../B61_sl5_high_precision/`.
 
 ## Status
 

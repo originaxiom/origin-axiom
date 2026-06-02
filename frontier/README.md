@@ -84,6 +84,11 @@ B60 SL(n) tower: cross-n structure map (n=3,4) + SL(5) barrier
   generalizes B59; n=3 powers{-1,2,3}, n=4 powers{-1,1,2,3,4}+char(-M^2)+deg-3
   parity; SL(5) unresolved (cond~1e11)
 
+B61 SL(5) high-precision factorization (resolves B60's "barrier")
+  SVD pinv at dps 60: B60's wall was a rank-23 word set; inverse-word coords give
+  rank 24, and 22 of 24 SL(5) multipliers resolve (powers{-1,1,1,2,3,4,5},
+  signs{-2,-3}, parity deg 4); last 2 a method limit (fixed-line rank-loss)
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -249,3 +254,13 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   ~1e11` defeats double-precision extrapolation and `mpmath` normal-equations
   pinv (squared to `~1e22`); a stable high-precision SVD solver or the symbolic
   ambient SL(5,C) trace ring is required. Numerical, validated for n=3,4.
+- **B61** — SL(5) high-precision factorization (resolves B60's "barrier").
+  A stable SVD pseudoinverse at dps 60 shows B60's `cond ~1e11` was the
+  double-precision rounding floor hiding a **rank-23** forward-only word set;
+  inverse-word coordinates (`A,B,A^-1,B^-1`) restore rank 24 at `cond ~1e4`, and
+  **22 of 24** SL(5) multipliers resolve to the catalog
+  (`char(M^-1)·char(M)^2·char(M^2..5)·char(-M^2)·char(-M^3)·(t-1)^2(t+1)^2` —
+  the n=5 tower row). The last 2 are a **method limit**: fixed-line rank-loss
+  makes the pinv `eps->0` limit gauge-dependent (residual scatters across seeds),
+  needing the symbolic ambient SL(5,C) ring. SL(3)/SL(4) reproduce to
+  `~4e-14`/`~3e-9`. Numerical, high-precision; no claim promoted.
