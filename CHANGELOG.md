@@ -156,6 +156,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `DRAFT_NOTE_SKELETON.md`: the rank-two `SL(n,C)` Jacobian is conjectured to
   factor into a parity block plus `(n²−1−parity)/2` degree-2 `char(M^k)` factors
   (confirmed n=2,3; SL(4)→7 untested). Not a claim; a candidate future probe.
+- B58 SL(4) tower test added (`frontier/B58_sl4_tower_test/`): an attempt at the
+  n=4 prediction. Confirms the mechanism (SL(4) identity recursion `(r-1)^4`,
+  cubic derivative sequences) and the obstruction (the fixed-line point is the
+  degenerate identity representation, so a representation-based numerical Jacobian
+  cannot recover the ambient map). Verdict `NEEDS-EXPERTISE`; the 7-factor
+  prediction stays untested. The full `15×15` ambient SL(4,C) trace map (Procesi
+  generators + substitution action) is the required next build.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
