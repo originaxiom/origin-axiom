@@ -152,6 +152,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   trivial fixed point of `λ→m²/λ`; no metal–insulator observable). Both strengthen
   E21's `STALLED` verdict; the Aubry kill is recorded in
   `docs/atlas/FAILURE_ATLAS.md`.
+- SL(n) factor-count tower recorded as an **untested prediction** in PC12's
+  `DRAFT_NOTE_SKELETON.md`: the rank-two `SL(n,C)` Jacobian is conjectured to
+  factor into a parity block plus `(n²−1−parity)/2` degree-2 `char(M^k)` factors
+  (confirmed n=2,3; SL(4)→7 untested). Not a claim; a candidate future probe.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
