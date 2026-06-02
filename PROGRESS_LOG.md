@@ -1637,5 +1637,41 @@ ledger unchanged.
 
 ---
 
+## 2026-06-02 — B63 SL(4) fixed-line factorization over Z[m] (computer-assisted)
+
+**Frontier evidence (computer-assisted symbolic: high-precision multi-m numerics
++ exact polynomial interpolation); validated vs B59 at m=1; no claim promotion.**
+
+Targeted B58's open task -- build the symbolic SL(4) Procesi trace ring -- and
+report two things honestly.
+
+- **The hand-built trace ring is harder than "one depth level deeper."** SL(3)'s
+  coordinates all have single-block substitution images `tr(A^k B^±)` (B54). SL(4)
+  needs `e_2(A)`, and there is no single-block-only coordinate system: it forces
+  either the 6-dim exterior-square representation `Lambda^2 V` (depth-6 recursion,
+  chain rule through `e_i(Lambda^2 A)(e(A))`) or genuine two-/three-block words
+  `tr((A^m B)^2 A)=tr(A^{m+1}B A^m B)`. That multi-block Procesi machinery is the
+  real reason B58 is open. Documented, not built.
+- **The result is established by a reliable computer-assisted route.** SL(4) has
+  no fixed-line rank-loss (unlike SL(5); B61/B62), so the rep-perturbation
+  Jacobian is clean at high precision for every `m`. Computing the 15 multipliers
+  for `m=1..6`, extracting each factor's eigenvalue sum (= exact integer
+  `tr(M^k)`), and interpolating it as a polynomial in `m` gives, over `Z[m]`:
+
+  ```text
+  char(M^-1) char(M) char(M^2) char(M^3) char(M^4) char(-M^2) (t-1)^2 (t+1)
+  L_2=m^2+2,  L_3=m^3+3m,  L_4=m^4+4m^2+2,  L_{±1}=±m
+  ```
+
+  PROVING (a) the SL(4) factorization over `Z[m]` (stronger than B59's m=1) and
+  (b) that the M-power set `{-1,1,2,3,4}`, the sign sector `{-M^2}`, and the
+  parity block are **m-independent** (only `L_k(m)` moves). m=1 reproduces B59
+  (max-match `3.4e-7`). The explicit `k(alpha)` root map is supplied structurally
+  by B62; the from-first-principles trace-ring proof (and symbolic `n>=5`) remain
+  open. Locked by `tests/test_b63_sl4_symbolic_m.py`. Proven core P1-P16
+  unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
