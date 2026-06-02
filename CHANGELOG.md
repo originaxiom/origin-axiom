@@ -144,6 +144,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   (`frontier/B57_general_m_splitting/`): `{c=1, c=3}` are universal splitting
   points; m-dependent extras classified for m=1..6; the Hilbert-class-field
   coincidence (`h(−15)=2`) is killed for m≥2. Extends PC12's Theorem-4 content.
+- E21 self-evidencing controls added (`paths/E21_self_evidencing_closure/`): two
+  further session results, integrated as quarantine controls. (i) The Fisher
+  information of `D(I)` equals `16/disc(char(M²)) = 16·g_WP(m²+2)` (a
+  Goldman/Weil–Petersson coefficient) — exact but a chain-rule identity, geometric
+  reading not promoted. (ii) Aubry self-duality at `λ=m` is dead (`λ=m` is the
+  trivial fixed point of `λ→m²/λ`; no metal–insulator observable). Both strengthen
+  E21's `STALLED` verdict; the Aubry kill is recorded in
+  `docs/atlas/FAILURE_ATLAS.md`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

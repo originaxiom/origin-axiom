@@ -164,6 +164,22 @@ a representation-theoretic reason for the invariant-surface value,
 not a shared cyclotomic polynomial
 ```
 
+### Aubry Self-Duality at lambda = m
+
+The hope that the self-evidencing coupling `lambda = m` is an Aubry self-dual
+(metal-insulator transition) point is dead. The duality map `lambda -> m^2/lambda`
+has `lambda = m` as its trivial fixed point, so "self-dual at lambda = m" is
+vacuous; the off-diagonal m-metallic model has no genuine Aubry self-duality at
+`lambda = m` for `m >= 2` (IPR test: `IPR(lambda) != IPR(m^2/lambda)` off the
+fixed point). For `m = 1` the known `lambda -> 1/lambda` duality is already
+literature. No new metal-insulator observable. See `paths/E21`.
+
+Typical missing object:
+
+```text
+a spectral symmetry that is not the trivial fixed point of the duality map
+```
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural

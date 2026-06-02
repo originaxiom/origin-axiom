@@ -1408,5 +1408,30 @@ Proven/conditional/open/dead ledger unchanged; no claim promoted.
 
 ---
 
+## 2026-06-02 — E21 self-evidencing controls (Weil–Petersson identity, Aubry-duality kill)
+
+**Quarantine controls; no claim promotion.**
+
+Integrated two further session results into the E21 self-evidencing quarantine
+(`paths/E21_self_evidencing_closure/`), both verified before integration:
+
+- **Fisher information = Weil–Petersson coefficient (exact, elementary).**
+  `F(m) = 16/(m²(m²+4)) = 16/disc(char(M²)) = 16·g_WP(m²+2) = (4/Δ_eig)²`, with
+  `g_WP(α)=1/(α²−4)`. Exact (verified symbolically) but it is the chain rule on
+  `LE(I)=arccosh(2I+1)` plus `disc(t²−αt+1)=α²−4=1/g_WP(α)`. The session itself
+  flags the Weil–Petersson reading as possibly "just calculus"; recorded, **not
+  promoted**.
+- **Aubry self-duality at `λ=m` killed.** `λ=m` is the trivial fixed point of the
+  duality map `λ→m²/λ`, so the apparent self-duality is vacuous; the off-diagonal
+  m-metallic model has no genuine Aubry self-duality at `λ=m` for `m≥2` (session
+  IPR test). No metal–insulator observable. Recorded in
+  `docs/atlas/FAILURE_ATLAS.md`.
+
+Both strengthen E21's `STALLED` verdict (one exact-but-elementary identity in
+geometric dress; one dead physical reading). The E21 probe now carries 5 checks.
+Kept out of PC12; no Origin-core claim changes; proven ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

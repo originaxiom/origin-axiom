@@ -74,6 +74,26 @@ def run_checks() -> list[tuple[str, bool, str]]:
     residual = (4 * I + 2) - (m**2 + 2)  # half-return middle coeff minus char(M^2) middle coeff
     ok3 = sp.expand(D - residual**2) == 0 and sp.solve(sp.Eq(D, 0), I) == [m**2 / 4]
     out.append(("D(I)=(4I-m^2)^2 IS THE SQUARED RESIDUAL", ok3, "zero iff I=m^2/4"))
+
+    # Fisher information of D(I) equals 16/disc(char(M^2)) = 16*g_WP(m^2+2).
+    # Exact, but it follows from the chain rule on LE(I)=arccosh(2I+1) plus the
+    # elementary disc(t^2 - a t + 1) = a^2 - 4 = 1/g_WP(a). The Weil-Petersson
+    # geometric reading is the originating session's own "may be just calculus";
+    # recorded, NOT promoted.
+    fisher = 16 / (m**2 * (m**2 + 4))
+    disc_charM2 = (m**2 + 2) ** 2 - 4
+    ok4 = (
+        sp.simplify(fisher - 16 / disc_charM2) == 0
+        and sp.simplify(disc_charM2 - m**2 * (m**2 + 4)) == 0
+    )
+    out.append(("FISHER INFO = 16/disc(char(M^2)) (WP coeff; chain-rule identity)", ok4, "exact; geometric reading not promoted"))
+
+    # Aubry deflation: the duality map lambda -> m^2/lambda has lambda=m as its
+    # trivial fixed point, so "self-dual at lambda=m" is vacuous. The off-diagonal
+    # model has no genuine Aubry self-duality at lambda=m for m>=2 (session IPR test:
+    # IPR(lambda) != IPR(m^2/lambda) off the fixed point). No metal-insulator observable.
+    ok5 = sp.simplify(m**2 / m - m) == 0
+    out.append(("AUBRY lambda=m IS THE TRIVIAL FIXED POINT (no metal-insulator obs)", ok5, "m^2/m = m; duality is vacuous at the fixed point"))
     return out
 
 

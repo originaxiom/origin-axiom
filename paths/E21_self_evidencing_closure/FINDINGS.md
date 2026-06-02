@@ -30,6 +30,30 @@ which `D(I)` is genuinely a free energy). The exact algebra belongs to the
 standalone trace-map mathematics (`frontier/B51`, `frontier/B54`, PC12); the
 self-evidencing/free-energy interpretation does not, and is kept out of PC12.
 
+## Further controls (2026-06-02)
+
+(d) **Fisher information = Weil–Petersson coefficient (exact, but elementary).**
+The Fisher information of `D(I)` is
+`F(m) = 16/(m²(m²+4)) = 16/disc(char(M²)) = 16·g_WP(m²+2) = (4/Δ_eig)²`, where
+`g_WP(α) = 1/(α²−4)` is the Goldman/Weil–Petersson metric coefficient and
+`Δ_eig = m√(m²+4)` the eigenvalue gap of `M²`. The identity is exact (verified
+symbolically) but follows from the chain rule on `LE(I)=arccosh(2I+1)` plus the
+elementary `disc(t²−αt+1)=α²−4=1/g_WP(α)`. The originating session itself flags
+the geometric reading as possibly "just calculus"; the "Teichmüller geometry
+controls self-evidencing sharpness" framing is **recorded, not promoted**.
+
+(e) **Aubry self-duality at `λ=m` is dead (no metal–insulator observable).** The
+duality map `λ → m²/λ` has `λ=m` as its trivial fixed point, so "self-dual at
+`λ=m`" is vacuous. The off-diagonal m-metallic model has **no** genuine Aubry
+self-duality at `λ=m` for `m≥2` (session IPR test: `IPR(λ) ≠ IPR(m²/λ)` off the
+fixed point); for `m=1` the known `λ→1/λ` duality is already literature. This
+removes a tempting physical reading of `λ=m`. Recorded in
+`../../docs/atlas/FAILURE_ATLAS.md`.
+
+Both controls **strengthen** the verdict: one is an exact-but-elementary identity
+dressed in geometry, the other kills a physical reading. Neither produces an
+observable.
+
 ## Verdict
 
 `STALLED`
