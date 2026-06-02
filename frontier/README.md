@@ -76,6 +76,10 @@ B58 SL(4) factor-count tower test (attempt)
   confirms SL(4) identity recursion (r-1)^4 + cubic derivatives; full 15x15
   ambient Jacobian needs SL(4) trace identities; verdict NEEDS-EXPERTISE
 
+B59 SL(4) fixed-line factorization (numerical; resolves B58)
+  method validated on SL(3) ground truth; SL(4) = char(M^k){-1,1,2,3,4} x
+  char(-M^2) x (t-1)^2(t+1); refutes the 7-char(M^k) tower prediction
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -226,3 +230,11 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   Jacobian cannot recover the ambient map). The full `15×15` ambient Jacobian
   needs the SL(4,C) 15-coordinate trace map (Procesi + substitution action), not
   built here. Verdict `NEEDS-EXPERTISE`; the SL(4) 7-factor prediction is untested.
+- **B59** — SL(4) fixed-line factorization (numerical). Resolves B58 by
+  extrapolating the ambient Jacobian
+  `DT(eps)=D[tr W_i(AB,A)] . pinv(D[tr W_j(A,B)])` to `eps=0` (validated to ~4
+  digits against B55's SL(3) `c=3` spectrum). The SL(4) spectrum factors as
+  `char(M^-1)char(M)char(M^2)char(M^3)char(M^4) . char(-M^2) . (t-1)^2(t+1)`:
+  5 clean `char(M^k)` (k=-1..4), a sign sector `char(-M^2)`, and a degree-3
+  parity block. **Refutes** the naive `7 char(M^k) + parity` prediction.
+  Numerical, method-validated; not a symbolic proof.
