@@ -99,6 +99,11 @@ B63 SL(4) factorization over Z[m] (computer-assisted symbolic; proves B59 for al
   tr(M^k), interpolated to L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2; M-power/sign/
   parity structure m-INDEPENDENT; trace ring needs Lambda^2/multi-block (open)
 
+B64 parity mechanism: proof of the tower's k(alpha) sector assignment (symbolic)
+  depth-n CH (J polynomial in m) + P=contragredient (m->-m) + Dickson parity
+  L_k(-m)=(-1)^k L_k(m) => even-|k| char(M^k) P-symmetric, odd-|k| P-antisymmetric;
+  full symbolic-m for SL(3); SL(4) sectors assigned; obstruction = e_2/Lambda^2
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -295,3 +300,14 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   `Z[m]` and that the M-power/sign/parity structure is **m-independent** (m=1
   reproduces B59). The explicit `k(alpha)` root map is from B62; the hand-built
   trace ring stays open. No claim promoted; proven core P1-P16 unchanged.
+- **B64** — parity mechanism: a symbolic proof of the tower's `k(alpha)`
+  sector-assignment. Depth-`n` Cayley-Hamilton makes the fixed-line Jacobian
+  polynomial in `m`; `P` = contragredient sends `m -> -m`; Dickson parity
+  `L_k(-m)=(-1)^k L_k(m)`. Hence **even-|k| `char(M^k)` is P-symmetric, odd-|k|
+  P-antisymmetric** (B62's root-height split, now explained). Verified in full
+  symbolic-`m` form for SL(3): symmetric=`(t-1)(t+1)char(M^2)`, antisym=
+  `char(M^-1)char(M^3)`. Applied to SL(4): even-k `{M^2,M^4,-M^2}` symmetric,
+  odd-k `{M^-1,M,M^3}` antisymmetric. The depth-4 derivative sequences are built;
+  a full symbolic SL(4) Jacobian's one remaining need is localized to
+  `e_2=tr(Lambda^2 A)` (the 6-dim exterior square). No claim promoted; proven
+  core P1-P16 unchanged.

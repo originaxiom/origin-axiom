@@ -1673,5 +1673,45 @@ report two things honestly.
 
 ---
 
+## 2026-06-02 — B64 parity mechanism: proof of the tower's k(α) sector assignment
+
+**Frontier evidence (exact symbolic algebra; SL(3) full, SL(4) sector
+assignment); no claim promotion.**
+
+Recorded and proved the structural mechanism behind B62's opposition-involution
+identification. `M=[[m,1],[1,0]]`, `L_k=tr(M^k)`. At the fixed line the trace-map
+Jacobian commutes with the exchange involution `P` (B54), so it block-diagonalizes
+into P-symmetric/antisymmetric sectors. Three facts fix the assignment:
+
+1. depth-n Cayley-Hamilton ⇒ `J(m)` entries are polynomials in `m` (derivative
+   sequences `∂τ_k/∂x_j` polynomial in `k`, evaluated at `k=m,m±1,…`);
+2. `P` = contragredient (`A↔A^-1`) sends `φ_m → φ_{-m}`, i.e. `m → -m`;
+3. Dickson parity `L_k(-m) = (-1)^k L_k(m)`.
+
+⇒ the symmetric sector char poly is **even in `m`**, the antisymmetric carries
+the **odd-in-`m`** content; so **`char(M^k)` with even `|k|` is P-symmetric, odd
+`|k|` P-antisymmetric** — the root-height split.
+
+- **SL(3), full symbolic `m`:** the depth-3 derivative sequences give
+  symmetric = `(t-1)(t+1)char(M^2)` (even in `m`, `k=2`), antisymmetric =
+  `char(M^-1)char(M^3)` (`k=-1,3`) — exact identities.
+- **SL(4):** the mechanism splits B63's factorization into P-symmetric
+  `{M^2,M^4,-M^2}` (even `|k|`) and P-antisymmetric `{M^-1,M,M^3}` (odd `|k|`),
+  verified by Dickson parity. The depth-4 derivative sequences are built (seed
+  degree 3 "cubic" + forced degree 4).
+- **Obstruction localized:** a full symbolic SL(4) Jacobian needs more than the
+  fundamental rep at exactly one place — `e_2 = tr(A^2)`, whose image
+  `tr((A^m B)^2) = (tr A^m B)^2 - 2 tr(Λ^2(A^m B))` needs the single-block
+  `Λ^2 V` (6-dim, depth-6). That is the even-`k` sector and the residual core of
+  B58.
+
+Net: the tower's structural theory now has which factors (B59-B62), which sector
+each lives in (B64, proven `k(α)`), and the `m`-dependence `L_k=tr(M^k)` (B63);
+one from-first-principles symbolic proof for all `n` (the `Λ^2`/multi-block trace
+ring, B58) remains. Locked by `tests/test_b64_parity_mechanism.py`. Proven core
+P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
