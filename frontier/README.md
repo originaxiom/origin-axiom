@@ -330,3 +330,19 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   full Jacobian), not matched. Computer-assisted entries + exact symbolic
   factorization; the from-first-principles Procesi trace ring (B58) is the purist
   open item. No claim promoted; proven core P1-P16 unchanged.
+- **B66** — the SL(6) numerical fixed-line tower (35-dim), settling the tower
+  multiplicity formula. Extends the inverse-word method (B61) to `n=6`, the
+  smallest `n` where `max(n-d,1)` (=> 3) and the saturating alternative (=> 2)
+  differ for the |k|=3 sector. The opposition-involution theta-split sector count
+  is exact (`sector_prediction(6)=(9,6,5)`: 9 odd-k + 6 even-k quadratics + 5
+  parity = 35; validated SL(3)=8/SL(4)=15/SL(5)=24). The numerics resolve the
+  |k|=3 region cleanly — all four roots of `char(M^3)`={4.236,-0.236} and
+  `char(-M^3)`={-4.236,0.236} on the catalog (dist <= 4e-4), exactly **two**
+  quadratics; the lone extra big-root mode (-4.434) has no small-root partner, so
+  it is gauge-corrupted, not a third factor. Hence **|k|=3 multiplicity = 2 (same
+  as SL(5)) — `max(n-d,1)` REFUTED.** Honest limit: the SL(6) fixed-line rank-loss
+  is severe — 26/35 resolve, 9 are gauge-corrupted (3 complex pairs + 3 real
+  outliers; the B62 mechanism amplified from SL(5)'s 2 modes), so the full
+  15-quadratic profile is not completely determined, but the |k|=3 quadratics
+  resolve and number 2 — the test. Symbolic proof for `n>=5` still needs the
+  ambient SL(n,C) trace ring (B58). No claim promoted; proven core P1-P16 unchanged.
