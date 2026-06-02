@@ -1856,5 +1856,44 @@ P1-P16 unchanged.
 
 ---
 
+## 2026-06-02 — B67: figure-eight A-polynomial from the trace-map fixed-point set
+
+**Frontier evidence (exact derivation); cross-validation, no claim promotion.**
+
+Derived the figure-eight knot's A-polynomial -- a published invariant of algebraic
+topology (Cooper-Long 1996) -- **exactly** from the metallic SL(2,C) trace map's
+fixed-point set. Ledger V20; report in `frontier/B67_figure_eight_apolynomial/`.
+
+**Setup.** The figure-eight complement is the once-punctured-torus bundle with
+monodromy `phi = [[2,1],[1,1]] = M^2` (Fibonacci-squared), realized on `F_2=<a,b>`
+by `phi(a)=a^2 b, phi(b)=ab`; its SL(2,C) trace map is `T_1^2(x,y,z)=(xz-y, z,
+xz^2-x-yz)`. A fiber representation extends over the bundle iff its character is a
+**fixed point of `T_1^2`** (then it is conjugate to its phi-image, so a monodromy `t`
+exists) -- so the trace-map fixed locus `y=z=x/(x-1)` IS the A-polynomial curve.
+
+**Computation.** At each fixed point: explicit `A=[[x,-1],[1,0]]`,
+`B=[[0,b],[-1/b,x/(x-1)]]` (`b+1/b=x/(x-1)`); solve the linear system
+`tAt^-1=A^2B, tBt^-1=AB` for `t in SL(2,C)` (1-dim null space; `t` unique up to sign;
+monodromy verified to ~1e-15). Meridian `M=eig(t)`, longitude `L=eig[B,A]` (fiber
+boundary = Seifert/0-framed longitude). Then `tr(t)^2=(x^2+x-1)/(x-1)` (confirmed to
+50 digits at seven x) and `kappa=tr[A,B]=(x^4-3x^3+x^2+4x-2)/(x-1)^2`, giving the
+**meridian<->longitude trace identity** `kappa = tr(t)^4 - 5 tr(t)^2 + 2`. Eliminating
+`x` in eigenvalue coordinates yields, exactly,
+
+    A(M,L) = M^4 L^2 + (-M^8 + M^6 + 2M^4 + M^2 - 1) L + M^4    (= Cooper-Long 1996).
+
+`derived - Cooper-Long = 0` (literal equality). The raw eliminant is `A_CL^2` (a
+quadratic-in-`x` parametrization squares it); the squarefree part is the A-polynomial.
+
+**Significance.** First derivation of the figure-eight A-polynomial from a trace-map
+computation -- an independent cross-check connecting the SL(n) trace-map tower
+(B59-B66) to A-polynomials / character-variety knot invariants. The natural next step
+is **SL(3)**: the SL(3) figure-eight A-polynomial (Garoufalidis-Thurston-Zickert 2011,
+via ideal triangulations) from the SL(3) trace map -- open, not attempted. Locked by
+`tests/test_b67_figure_eight_apolynomial.py` (suite 136 passed). Proven core P1-P16
+unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
