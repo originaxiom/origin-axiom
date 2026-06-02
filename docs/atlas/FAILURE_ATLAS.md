@@ -129,6 +129,23 @@ Typical missing object:
 control family
 ```
 
+### Bridge That Succeeds By Construction
+
+A trace map induced by a substitution is, by definition, the renormalization map
+for traces of that substitution's words on the relevant character variety. So a
+first-order recursion `psi_{n+1} = M_n psi_n` with `M_n` in `SL(3)` driven by the
+metallic substitution reproduces the PC12 trace map *by construction* -- the math
+describes the system because the system was built to instantiate the math. Such a
+"bridge" is tautological and carries no evidential weight. The honest non-trivial
+test is the second-order tight-binding model (`frontier/B52`), which gives `6x6`
+symplectic transfer matrices, not `SL(3)`, and fails.
+
+Typical missing object:
+
+```text
+a physical system that forces the representation and the modulation independently
+```
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural

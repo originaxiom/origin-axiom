@@ -109,6 +109,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - B52 multichannel Fibonacci bridge control added: the simplest three-channel
   tight-binding model gives `6x6` symplectic transfer matrices and fails the
   PC12 third-order `SL(3)` trace recursion, keeping PC12 mathematical.
+- B53 literature screen completed for PC12 (`LITERATURE_POSITIONING.md`): the
+  trace-map formula, commutator invariant, entropy, exchange decomposition, and
+  symbolic factorization are `STANDARD_REPACKAGE` (Lawton; Baake-Grimm-Roberts;
+  Bellon-Viallet); only the fixed-line splitting (Thm 4) is `APPARENTLY_NEW` and
+  elementary. PC12 rescaled `THEOREM_NOTE` -> `COMPUTATIONAL_REPORT` (still
+  `NEEDS_VALIDATION`).
+- B54 general-`c` exchange structure added (`frontier/B54_general_c_exchange_structure/`):
+  `[J(m,c),P]=0` proved for symbolic `c` (exchange block-diagonalization on the
+  whole fixed line, generalizing B51), with the `c=1` Eisenstein/golden twin
+  polynomials (disc -3, 5) echoing P12 and the `m=1` cyclotomic sweep.
+- Phase-C path E21 added (`paths/E21_self_evidencing_closure/`): the
+  self-evidencing / variational-free-energy framing of `lambda=m` is quarantined
+  with verdict `STALLED` (structural analogy only; the exact fact is the single
+  identity `4c^2-2=m^2+2`; predicts no observable). Kept out of PC12.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

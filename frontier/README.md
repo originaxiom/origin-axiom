@@ -56,6 +56,10 @@ B52 multichannel Fibonacci bridge control
   shows the naive 3-channel tight-binding bridge gives 6x6 symplectic transfer
   matrices and fails the PC12 third-order trace recursion
 
+B54 general-c exchange structure
+  generalizes B51: [J(m,c),P]=0 for symbolic c (whole fixed line); c=1
+  Eisenstein/golden twins; m=1 cyclotomic sweep
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -146,6 +150,15 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   and in the generic control it obeys an order-six trace recursion, not PC12's
   `SL(3)` third-order recursion. Verdict: useful negative control, no physics
   bridge.
+- **B54** — general-`c` exchange structure. `[J(m,c),P]=0` is proved for symbolic
+  `c`, so the exchange block-diagonalization holds on the whole fixed line, not
+  only at B51's `c=3` (the reason is structural: `P`-equivariance at the
+  `P`-invariant fixed line). At `c=1` the symmetric sector is the Eisenstein
+  quadratic `t^2-t+1` and the antisymmetric is the golden `t^2-t-1`
+  (discriminants -3 and 5 — the same pair as the P12 figure-eight gluing
+  equation); for `m=1` the symmetric quadratic `t^2-ct+1` sweeps
+  `Phi_3, Phi_4, Phi_6, (t-1)^2, char(A)` at `c=-1..3`. Standalone trace-map
+  math; no claim promoted.
 - **B28** — projective quotient legitimacy. The B26 sign flip is legitimate as
   a central-sign / `PSL` lift ambiguity at the special orbit, and the trace map
   is equivariant under that sign action. The choice to use the quotient as a

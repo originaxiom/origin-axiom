@@ -1,8 +1,9 @@
 # PATHS — emergence-path registry
 
-The 25 candidate paths by which "nothing being unstable" could produce reality.
-Status updated after every probe. See `MECHANISM_CLASSES.md` for class structure
-and `README.md` for ground rules.
+The 25 enumerated candidate paths by which "nothing being unstable" could produce
+reality (E1–E20, P1–P5); `E21+` are concrete instantiations of an already-listed
+mechanism, added as they are probed. Status updated after every probe. See
+`MECHANISM_CLASSES.md` for class structure and `README.md` for ground rules.
 
 **Verdict legend:** `PRODUCES-OBSERVABLE` · `STALLED` · `DEAD` · `NEEDS-EXPERTISE` ·
 `UNTOUCHED` (no probe yet) · `IN-PROGRESS` (probe partially complete).
@@ -31,6 +32,7 @@ and `README.md` for ground rules.
 | **E18** | I | Self-consistency / bootstrap — only consistent "somethings" exist | UNTOUCHED | — |
 | **E19** | J | Diophantine non-existence — no zero solution; smallest nonzero is reality | UNTOUCHED | — |
 | **E20** | K | De Sitter / positive-Λ — empty space is locally de Sitter, self-driving | UNTOUCHED | — |
+| **E21** | I | Self-evidencing closure — `λ=m` self-consistency of the metallic trace map (instantiates E18) | **STALLED** | `E21_self_evidencing_closure/` |
 | **P1** | L | Negation-as-creation (linguistic) | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
 | **P2** | L | Gödelian / undecidability | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
 | **P3** | L | Anthropic / observer-required | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
@@ -197,7 +199,18 @@ content's match to observation. *Status:* untouched.
 self-consistent; "nothing" is not; consistency is the selector that picks reality.
 *Distinguisher:* a precise consistency condition that rules out "nothing" and
 rules in a specific something. *Status:* untouched. Related to the S-matrix /
-conformal bootstrap programs in mainstream physics.
+conformal bootstrap programs in mainstream physics. Instantiated by **E21**.
+
+**E21 — Self-evidencing closure (instantiates E18).** *Mechanism:* the metallic
+trace-map coupling `λ=m` is the unique value where the linearized half-return
+reproduces `char(M)` of the substitution's own generator — read as
+selection-by-self-consistency. *Distinguisher:* a framework where the discrepancy
+`D(I)=(4I−m²)²` is a *bona fide* free energy (not a relabeled residual), plus an
+observable the coupling controls. *Verdict (2026-06-01):* **`STALLED`.** The exact
+fact is the single identity `4c²−2=m²+2`; the variational-free-energy reading is a
+structural analogy, not a derivation, and predicts no observable. The exact
+algebra is kept as standalone trace-map math (`../frontier/B51`, `../frontier/B54`,
+PC12); the framing is quarantined here. See `E21_self_evidencing_closure/`.
 
 ### Class J — Number-theoretic
 
