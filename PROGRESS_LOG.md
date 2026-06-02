@@ -1501,6 +1501,33 @@ the ambient SL(4,C) trace ring (B58). PC12's "Open Prediction" updated to
 `REFUTED`. Locked by `tests/test_sl4_factorization.py`. Suite: 95 passed, 1
 skipped. Proven ledger unchanged.
 
+## 2026-06-02 — B60 SL(n) tower: cross-n structure map (n=3,4) + SL(5) barrier
+
+**Frontier evidence (numerical, method-validated for n=3,4); no claim promotion.**
+
+Generalized the B59 extrapolation method to arbitrary `n` and built the corrected
+cross-n structure map:
+
+```text
+n   char(M^k) powers      sign sectors   parity block          n^2-1 check
+3   {-1, 2, 3}            none           (t-1)(t+1)   [deg 2]   2 + 3*2 = 8
+4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2(t+1) [deg 3]   3 + 5*2 + 2 = 15
+```
+
+From `n=3` to `n=4`: the `M`-powers climb and densify, a sign sector `char(-M^2)`
+appears, and the parity block grows. This empirical map replaces the refuted
+`(n^2-1-parity)/2` all-`char(M^k)` conjecture. Validated on SL(3) ground truth
+(`max match 0.0000`); SL(4) reproduces B59 (`0.0101`).
+
+**SL(5) is unresolved.** Its trace-coordinate differential has `cond ~1e11`,
+beyond double-precision extrapolation; five attempts failed (finite-diff,
+row-balanced, exact-diff at double precision; `mpmath` single-`eps` and multi-`eps`
+normal-equations pinv, which squares the conditioning to `~1e22` and goes
+numerically singular at `dps=45`). The barrier is documented as a reproducible
+conditioning fact. The next step is a stable high-precision SVD-based pinv (with
+multi-`eps` extrapolation) or the symbolic ambient SL(5,C) trace ring. Locked by
+`tests/test_sln_tower.py`. Suite: 97 passed, 1 skipped. Proven ledger unchanged.
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.

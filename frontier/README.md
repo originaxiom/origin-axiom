@@ -80,6 +80,10 @@ B59 SL(4) fixed-line factorization (numerical; resolves B58)
   method validated on SL(3) ground truth; SL(4) = char(M^k){-1,1,2,3,4} x
   char(-M^2) x (t-1)^2(t+1); refutes the 7-char(M^k) tower prediction
 
+B60 SL(n) tower: cross-n structure map (n=3,4) + SL(5) barrier
+  generalizes B59; n=3 powers{-1,2,3}, n=4 powers{-1,1,2,3,4}+char(-M^2)+deg-3
+  parity; SL(5) unresolved (cond~1e11)
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -238,3 +242,10 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   5 clean `char(M^k)` (k=-1..4), a sign sector `char(-M^2)`, and a degree-3
   parity block. **Refutes** the naive `7 char(M^k) + parity` prediction.
   Numerical, method-validated; not a symbolic proof.
+- **B60** — SL(n) tower: cross-n structure map + SL(5) barrier. Generalizes B59
+  and tabulates the corrected tower: n=3 `{-1,2,3}` / no sign / parity deg 2;
+  n=4 `{-1,1,2,3,4}` / `char(-M^2)` / parity deg 3 (the powers climb, a sign
+  sector appears, the parity block grows). **SL(5) is unresolved** — `cond(Dx)
+  ~1e11` defeats double-precision extrapolation and `mpmath` normal-equations
+  pinv (squared to `~1e22`); a stable high-precision SVD solver or the symbolic
+  ambient SL(5,C) trace ring is required. Numerical, validated for n=3,4.
