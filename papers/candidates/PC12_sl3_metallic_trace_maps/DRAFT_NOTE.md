@@ -238,8 +238,12 @@ n   M-powers present        sign sectors    parity block        status
 (For `n=4` the factorization is established for general `m` over `Z[m]` by a
 computer-assisted high-precision computation -- the factor sums interpolate to
 `L_k = tr(M^k)`, e.g. `L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2` -- showing the
-M-power/sign/parity structure is m-independent; the from-first-principles
-trace-ring proof remains open.)
+M-power/sign/parity structure is m-independent. Moreover the entire `15x15`
+fixed-line Jacobian `J(m)` is reconstructed exactly over `Z[m]` (its entries are
+canonical degree-4 polynomials in `m`, fixed by an over-determined fit) and
+`char(J(m))` is then *factored directly* over `Z[m]` into the above product --
+the factorization derived, not matched. The entries are computer-determined; a
+hand-derived Procesi trace-ring proof remains the purist open item.)
 
 (`n=3` is the `m=1` specialization of Section 5: `(t-1)(t+1)·char(M^{-1})·
 char(M^2)·char(M^3)`.) For `n=5`, 22 of the 24 multipliers resolve to the catalog

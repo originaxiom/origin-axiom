@@ -104,6 +104,13 @@ B64 parity mechanism: proof of the tower's k(alpha) sector assignment (symbolic)
   L_k(-m)=(-1)^k L_k(m) => even-|k| char(M^k) P-symmetric, odd-|k| P-antisymmetric;
   full symbolic-m for SL(3); SL(4) sectors assigned; obstruction = e_2/Lambda^2
 
+B65 symbolic SL(4) Jacobian J(m), char poly factored over Z[m]
+  single-block V+Lambda^2 spans only 12/15 (multi-block unavoidable); instead the
+  canonical degree-4-in-m Jacobian entries are reconstructed from high-precision
+  numerics (over-determined) and char(J(m)) is factored DIRECTLY as char(M^-1)
+  char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1); computer-assisted
+  entries + exact symbolic factorization (trace ring B58 still the purist open)
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -311,3 +318,15 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   a full symbolic SL(4) Jacobian's one remaining need is localized to
   `e_2=tr(Lambda^2 A)` (the 6-dim exterior square). No claim promoted; proven
   core P1-P16 unchanged.
+- **B65** — the symbolic SL(4) fixed-line Jacobian `J(m)`, char poly factored over
+  `Z[m]`. A rank check shows single-block V+`Lambda^2` traces span only 12/15
+  (mixed two-block words unavoidable; sharpens B64). Sidestepping the hand-built
+  trace ring: the Jacobian entries in the B59 word basis are canonical
+  (seed-independent) degree-4-in-`m` rationals, reconstructed from high-precision
+  numerics for `m=1..7` (over-determined: degree 4 fixed by 5 points, checked on
+  7), giving `J(m)` over `Z[m]`. `sympy.factor(char(J(m)))` =
+  `char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1)` — matches
+  B63/B64, `m=1`=B59. The factorization is now *derived* (direct factoring of the
+  full Jacobian), not matched. Computer-assisted entries + exact symbolic
+  factorization; the from-first-principles Procesi trace ring (B58) is the purist
+  open item. No claim promoted; proven core P1-P16 unchanged.

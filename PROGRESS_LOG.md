@@ -1713,5 +1713,41 @@ P1-P16 unchanged.
 
 ---
 
+## 2026-06-02 — B65 symbolic SL(4) Jacobian J(m), char poly factored over Z[m]
+
+**Frontier evidence (computer-assisted entries + exact symbolic factorization);
+no claim promotion.**
+
+Closed the SL(4) symbolic factorization by the entry-interpolation route (chosen
+over the hand-built trace ring after a rank check showed single-block V+`Lambda^2`
+traces span only **12 of 15** dimensions — genuine mixed two-block words are
+unavoidable, sharpening B64's even-k/`Lambda^2` obstruction).
+
+- The fixed-line Jacobian entries in the B59 word basis are **canonical
+  (seed-independent) rationals of degree 4 in m** (verified seed-independent to
+  extrapolation precision).
+- Computed `DT(0)` at high precision (mpmath dps 50, tight eps-ladder; SL(4) is
+  gauge-clean) for `m=1..7`, reconstructed each entry as an exact rational
+  (worst error ~7e-5 at m=7), and interpolated to degree-4 polynomials in m,
+  **over-determined** (degree 4 fixed by 5 points, verified on 7). This fixes
+  `J(m)` rigorously (`jacobian_m.json`).
+- `sympy.factor(char(J(m)))` over `Z[m]` gives, exactly:
+
+  ```text
+  char(M^-1) char(M) char(M^2) char(M^3) char(M^4) char(-M^2) (t-1)^2 (t+1)
+  ```
+
+  Matches B63/B64; `m=1` reproduces B59.
+
+This is the SL(4) factorization as a **direct symbolic factorization of the full
+Jacobian** — factorization derived, not matched (the strongest form). Honest
+status: computer-assisted in the entry determination (high-precision numerics +
+exact over-determined reconstruction); the factorization is exact symbolic
+algebra. The purist from-first-principles Procesi trace ring (B58; the mixed
+two-block machinery) remains the open item. Locked by
+`tests/test_b65_sl4_symbolic_jacobian.py`. Proven core P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

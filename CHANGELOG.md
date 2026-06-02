@@ -231,6 +231,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   are built; a full symbolic SL(4) Jacobian's one remaining need is localized to
   `e_2 = tr(Lambda^2 A)` (the 6-dim exterior square, the even-k sector). Ledger
   V15. No claim promoted; proven core P1-P16 unchanged.
+- B65 symbolic SL(4) Jacobian (`frontier/B65_sl4_symbolic_jacobian/`): determines
+  the full 15x15 SL(4) fixed-line Jacobian `J(m)` exactly over `Z[m]` and factors
+  `char(J(m))` directly as symbolic algebra. A hand-built trace ring needs
+  multi-block reductions (rank check: single-block V+`Lambda^2` traces span only
+  12/15), so instead the canonical (seed-independent) degree-4-in-m entries are
+  reconstructed from high-precision numerics (SL(4) is gauge-clean) for `m=1..7`,
+  over-determined (degree 4 fixed by 5 points, verified on 7); `sympy.factor`
+  gives
+  `char(J(m))=char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1)`.
+  Matches B63/B64; `m=1` reproduces B59. The factorization is now *derived*
+  (direct factoring of `J(m)`), not matched -- the strongest form short of a
+  hand-derived Procesi trace ring (B58, still open). Computer-assisted entries +
+  exact symbolic factorization. Ledger V16. No claim promoted; proven core
+  P1-P16 unchanged.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
