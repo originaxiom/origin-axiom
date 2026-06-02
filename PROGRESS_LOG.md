@@ -1749,5 +1749,37 @@ two-block machinery) remains the open item. Locked by
 
 ---
 
+## 2026-06-02 — B66 SL(6) numerical tower: the |k|=3 multiplicity test (= 2)
+
+**Frontier evidence (numerical, high-precision); no claim promotion.**
+
+Computed the `n=6` row of the metallic fixed-line tower (35-dim SL(6,C) character
+variety) by the inverse-word method (B61), to settle the tower's open
+multiplicity formula: does the odd-`k`, degree-`d=3` factor multiplicity follow
+`max(n-d,1)` (=> 3 at n=6) or saturate at 2? SL(6) is the smallest `n` where the
+two predictions differ — SL(5) gives `max(5-3,1)=2`, already equal to the
+alternative.
+
+**Result.** The opposition-involution theta-split sector structure is exact:
+9 odd-k + 6 even-k quadratics + 5 parity = 35 (`sector_prediction`; validated
+SL(3)=8, SL(4)=15, SL(5)=24). The numerics resolve the |k|=3 region cleanly —
+all four roots of `char(M^3)`={4.236,-0.236} and `char(-M^3)`={-4.236,0.236} land
+on the catalog (dist <= 4e-4), exactly TWO quadratics. The only extra big-root
+mode (-4.434, dist 0.198) has no small-root partner, so it is gauge-corrupted, not
+a third factor. Hence **|k|=3 multiplicity = 2, the same as SL(5) — it does NOT
+grow with `n`, refuting `max(n-d,1)`.**
+
+**Honest limit.** The SL(6) fixed-line rank-loss is far more severe than SL(5)'s:
+26/35 multipliers resolve, 9 are gauge-corrupted (3 complex-conjugate pairs + 3
+real outliers — the B62 trivial-rep mechanism amplified from SL(5)'s 2 modes). The
+full 15-quadratic profile is therefore not completely determined, but the |k|=3
+quadratics have moderate roots, resolve cleanly, and number 2 — which is the test.
+A symbolic proof for `n>=5` still needs the ambient SL(n,C) Procesi trace ring
+(B58, open). Ledger V17. Structure locked by `tests/test_b66_sl6_tower.py`;
+spectrum reproduced by `frontier/B66_sl6_tower/probe.py` (~30 min). Proven core
+P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

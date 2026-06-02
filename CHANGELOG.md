@@ -245,6 +245,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   hand-derived Procesi trace ring (B58, still open). Computer-assisted entries +
   exact symbolic factorization. Ledger V16. No claim promoted; proven core
   P1-P16 unchanged.
+- B66 SL(6) numerical tower (`frontier/B66_sl6_tower/`): computes the `n=6` row
+  (35-dim) by the inverse-word method to settle the tower multiplicity formula.
+  The opposition-involution theta-split sectors (9 odd-k + 6 even-k + 5 parity =
+  35) are exact; the |k|=3 region resolves cleanly to exactly two quadratics
+  (`char(M^3)`, `char(-M^3)`), so the **|k|=3 multiplicity = 2 — refuting
+  `max(n-d,1)=3`** (SL(6) is the first `n` that distinguishes 3 from 2). Honest
+  limit: 26/35 resolve, 9 modes gauge-corrupted (the B62 mechanism amplified from
+  SL(5)'s 2 modes). Ledger V17. Numerical, no claim promoted; proven core P1-P16
+  unchanged.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
