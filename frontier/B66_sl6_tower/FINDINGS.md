@@ -74,6 +74,22 @@ parity: ~ (t-1)^2 (t+1)^3                       (deg 5, theta-split prediction)
   (B58, open). This run is high-precision numerics (mpmath dps 60, inverse-word
   coordinates, tight `eps`-ladder extrapolation), not a theorem.
 
+## Validation (post-merge stress tests -- see `VALIDATION.md`)
+
+`mult(|k|=3) = 2` was stress-tested four ways and holds across every axis varied:
+
+- **Identical pipeline on SL(3..6)** (`validate.py`): mult(|k|=3) = 1, 1, **2**, 2.
+  The method recovers the known tower -- including SL(5)=2 under the *same* gauge
+  handling -- with *auto-selected* words (a word-set change from `SL6_WORDS`).
+- **Second/third m** (`second_m.py`): m=2 and m=3 both give mult 2, with the
+  |k|=3 big root tracking `L_3(m)` (14.07, 36.03) -- no m=1 coincidence.
+- **Gauge subspace** (`gauge.py`): the |k|=3 eigenvalues are seed-stable
+  (1e-7..1e-4) and well-conditioned, while the 8 gauge modes scatter by up to 3.8
+  across base points; mult=2 on the clean complement.
+- **Exact-over-Q (honest negative):** the numerical Jacobian is not canonical
+  (`||dt0(20)-dt0(24)||~7e3`), so no exact rational matrix exists to reconstruct;
+  a from-first-principles exact proof for n>=5 needs the trace ring (B58, open).
+
 ## Reproduce
 
 ```bash
