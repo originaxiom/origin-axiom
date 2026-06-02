@@ -316,4 +316,21 @@ was sound; the "all factors are char(M^k)" assumption was not.
 
 Status: B59 is **numerical (~3-4 digits), method-validated -- not a symbolic
 proof.** Symbolic confirmation still needs the ambient SL(4,C) trace ring (B58).
-The `n=5` case remains untested. No claim is promoted.
+No claim is promoted.
+
+**Cross-n structure map (B60, `frontier/B60_sln_tower/`).** Generalizing the
+method, the corrected tower so far is:
+
+```text
+n   char(M^k) powers      sign sectors   parity block        (n^2-1 check)
+3   {-1, 2, 3}            none           (t-1)(t+1)   [deg 2]  2 + 3*2  = 8
+4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2(t+1) [deg 3]  3 + 5*2 + 2 = 15
+```
+
+Trend `n=3 -> 4`: the `M`-powers climb and densify, a sign sector `char(-M^2)`
+appears, and the parity block grows. **SL(5) is unresolved**: its
+trace-coordinate differential has condition number `~1e11`, beyond
+double-precision extrapolation (and `mpmath` normal-equations pinv squares it to
+`~1e22`); resolving it needs a stable high-precision SVD solver or the symbolic
+ambient SL(5,C) trace ring. The corrected tower is empirical (n=3,4),
+method-validated -- not a proven theorem.

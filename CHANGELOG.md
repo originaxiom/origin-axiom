@@ -170,6 +170,12 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   5 clean `char(M^k)` (k=-1..4), a sign sector, and a degree-3 parity block —
   **refuting** the naive `7 char(M^k) + parity` tower prediction. Numerical, not
   a symbolic proof; no claim promoted.
+- B60 SL(n) tower added (`frontier/B60_sln_tower/`): generalizes B59's method and
+  builds the corrected cross-n structure map. n=3: powers `{-1,2,3}`, parity
+  deg 2; n=4: powers `{-1,1,2,3,4}` + `char(-M^2)` + parity deg 3 (powers climb,
+  a sign sector appears, parity grows). **SL(5) unresolved** (`cond(Dx)~1e11`;
+  needs a stable high-precision SVD solver or the symbolic ambient SL(5,C) trace
+  ring). Numerical, method-validated for n=3,4; no claim promoted.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
