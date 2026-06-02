@@ -348,3 +348,16 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   15-quadratic profile is not completely determined, but the |k|=3 quadratics
   resolve and number 2 — the test. Symbolic proof for `n>=5` still needs the
   ambient SL(n,C) trace ring (B58). No claim promoted; proven core P1-P16 unchanged.
+- **B67** — the figure-eight knot A-polynomial, derived **exactly** from the
+  trace-map fixed-point set (cross-validation against published algebraic topology).
+  The figure-eight complement is the once-punctured-torus bundle with monodromy
+  `phi=[[2,1],[1,1]]=M^2` (trace map `T_1^2`); a fiber rep extends over the bundle
+  iff its character is `T_1^2`-fixed, so the fixed locus `y=z=x/(x-1)` is the
+  A-polynomial curve. At each fixed point the monodromy `t` (`tAt^-1=A^2B,
+  tBt^-1=AB`, verified ~1e-15) gives meridian `M=eig(t)`, longitude `L=eig[B,A]`;
+  with `tr(t)^2=(x^2+x-1)/(x-1)` (50-digit) and `kappa=tr[A,B]`, the trace identity
+  is `kappa=tr(t)^4-5tr(t)^2+2`, and eliminating `x` yields
+  `A(M,L)=M^4L^2+(-M^8+M^6+2M^4+M^2-1)L+M^4` = Cooper-Long (1996), **exactly**. First
+  derivation of this A-polynomial from a trace map; connects the SL(n) tower to
+  character-variety knot invariants. SL(3) (Garoufalidis-Thurston-Zickert 2011) is
+  the open next step. No claim promoted; proven core P1-P16 unchanged.

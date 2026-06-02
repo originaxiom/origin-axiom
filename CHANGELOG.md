@@ -263,6 +263,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   modes scatter (up to 3.8) across base points. Exact-over-Q is the honest
   negative -- the numerical Jacobian is non-canonical (`||dt0(20)-dt0(24)||~7e3`),
   so the from-first-principles exact route for n>=5 remains the trace ring (B58).
+- B67 figure-eight A-polynomial from the trace map (`frontier/B67_figure_eight_apolynomial/`;
+  Ledger V20): the metallic SL(2,C) trace map's fixed-point set (monodromy
+  `phi=[[2,1],[1,1]]=M^2`, trace map `T_1^2`) reproduces the **published Cooper-Long
+  (1996) figure-eight A-polynomial exactly** -- `A(M,L)=M^4L^2+(-M^8+M^6+2M^4+M^2-1)L+M^4`.
+  A fiber rep extends over the bundle iff its character is `T_1^2`-fixed, so the fixed
+  locus `y=z=x/(x-1)` is the A-polynomial curve; the monodromy `t` gives meridian
+  `M=eig(t)`, longitude `L=eig[B,A]`, with trace identity `tr[A,B]=tr(t)^4-5tr(t)^2+2`.
+  First derivation of this A-polynomial from a trace-map computation -- an independent
+  cross-check of the SL(n) tower (B59-B66). SL(3) (Garoufalidis-Thurston-Zickert) is the
+  open next step. No claim promoted; proven core P1-P16 unchanged.
 
 ### Fixed
 - Tower verification pass (Ledger V18). **SL(2)/n=2 parity correction:** the
