@@ -236,6 +236,10 @@ This does not solve the PC11 T1/S1 selector.
 The naive three-channel Fibonacci tight-binding bridge fails: standard
 multichannel transfer matrices are doubled 6x6 symplectic matrices, not the
 PC12 3x3 SL(3) character-variety recursion.
+The figure-eight knot does not lie on the I=1/4 invariant surface (B56): the
+diagonal reps have I in {4, -17/2 +/- 7 sqrt5/2}, none = 1/4. The c=1 Eisenstein
+resemblance is a cyclotomic coincidence, distinct from the real P12
+gluing-equation discriminant echo.
 ```
 
 ## Reproducibility Appendix
@@ -248,7 +252,10 @@ python frontier/B48_sl3_metallic_trace_maps/probe.py --deep
 python frontier/B49_sl3_certificate_proof_hardening/probe.py
 python frontier/B51_sl3_symbolic_m_factorization/probe.py
 python frontier/B52_multichannel_fibonacci_bridge_control/probe.py
-python -m pytest tests/test_sl3_metallic_trace_maps.py tests/test_sl3_certificate_proof_hardening.py tests/test_sl3_symbolic_m_factorization.py tests/test_multichannel_fibonacci_bridge_control.py -q
+python frontier/B55_c1_fixed_line_structure/probe.py
+python frontier/B56_figure_eight_invariant_surface/probe.py
+python frontier/B57_general_m_splitting/probe.py
+python -m pytest tests/test_sl3_metallic_trace_maps.py tests/test_sl3_certificate_proof_hardening.py tests/test_sl3_symbolic_m_factorization.py tests/test_multichannel_fibonacci_bridge_control.py tests/test_c1_fixed_line_structure.py tests/test_figure_eight_invariant_surface.py tests/test_general_m_splitting.py -q
 ```
 
 ## Draftability Gate
@@ -260,8 +267,9 @@ literature positioning -- DONE (LITERATURE_POSITIONING.md): rescaled to a
   computational note; Thm 1-3 are STANDARD_REPACKAGE, Thm 4 the lone new bit
 entropy (Thm 3) stated with a Bellon-Viallet degree-growth citation, not as a
   fresh theorem
-global c>=15 and c<=-12 exclusions (Thm 4, the one genuinely new block) written
-  as readable prose -- still worth doing
+global c>=15 and c<=-12 exclusions (Thm 4) -- B57 classifies integer splitting
+  for m=1..6 via the discriminant criterion (finite solutions); the c=1 sectors
+  for general m are settled by B55; readable prose still worth writing
 compact SU(3) language verified as non-physics
 physics-bridge language keeps the B52 negative control explicit; the
   self-evidencing / free-energy framing stays quarantined in paths/E21, not PC12

@@ -1375,5 +1375,38 @@ Proven/conditional/open/dead ledger unchanged; no claim promoted.
 
 ---
 
+## 2026-06-02 — B55 c=1 general-m structure, B56 figure-eight kill, B57 splitting classification
+
+**Standalone trace-map math; no claim promotion.**
+
+- **B55** (`frontier/B55_c1_fixed_line_structure/`): completes the c=1 fixed-line
+  sector structure for general m. Symmetric sector is **mod 4** — `Φ₆` (m≡1,3),
+  `Φ₄` (m≡2), degenerate `(t−1)²` (m≡0); antisymmetric is
+  `(t−1)(t+1)(t²−mt−1) = char(M)` for all m. Proved per residue class (symbolic m)
+  via the c=1 closed forms (roots `{1,i,−i}` + a resonant linear term in `x1,x4`),
+  cross-checked m=1..12; m=1 reproduces B54's twins. This corrects the earlier
+  "odd→Φ₆ / even→Φ₄" reading (m≡0 mod 4 degenerates, not Φ₄). Locked by
+  `tests/test_c1_fixed_line_structure.py`.
+- **B56** (`frontier/B56_figure_eight_invariant_surface/`): negative control. The
+  diagonal SL(2,C) reps `w³−2w²−2w+1=(w+1)(w²−3w+1)`, roots `{−1,φ²,φ⁻²}`, give
+  Fricke–Vogt `I = 3w²−2w³−1 ∈ {4, −17/2 ± 7√5/2}`, none = `1/4`. The
+  figure-eight ↔ `I=1/4` (self-evidencing) bridge is **DEAD**; the c=1 Eisenstein
+  resemblance to the figure-eight tetrahedron shape (`z²−z+1`, complex, `Q(√−3)`)
+  is a cyclotomic coincidence. Scope guard: the separate P12 gluing-equation
+  discriminant echo `(−3, 5)` is unaffected. Locked by
+  `tests/test_figure_eight_invariant_surface.py`.
+- **B57** (`frontier/B57_general_m_splitting/`): classifies integer splitting of
+  the antisymmetric quartic for m=1..6. `{c=1, c=3}` universal; m-dependent extras
+  `m=1:{−11,−9}`, `m=2:{−3,−1}`, `m=3:{−3,0}`, `m=4:{−1}`, `m=5:{}`,
+  `m=6:{−1,0,2}`; counts vary `[4,4,4,3,2,5]`. The Hilbert-class-field coincidence
+  (`h(−15)=2` vs m=1) is killed for m≥2. Locked by
+  `tests/test_general_m_splitting.py`.
+- PC12 (a `COMPUTATIONAL_REPORT`) gains the general-m c=1 structure (B55) and the
+  splitting classification (B57); B56 enters as an explicit boundary. The
+  self-evidencing/FEP framing stays quarantined in `paths/E21`. Suite: 91 passed,
+  1 skipped (83 prior + 8 new). No claim promoted; proven ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

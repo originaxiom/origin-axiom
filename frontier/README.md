@@ -60,6 +60,18 @@ B54 general-c exchange structure
   generalizes B51: [J(m,c),P]=0 for symbolic c (whole fixed line); c=1
   Eisenstein/golden twins; m=1 cyclotomic sweep
 
+B55 c=1 fixed-line structure (general m)
+  completes B54's c=1 row: symmetric mod-4 (Phi6/Phi4/(t-1)^2), antisymmetric
+  (t-1)(t+1)(t^2-mt-1)=char(M) for all m
+
+B56 figure-eight invariant-surface negative control
+  diagonal SL(2,C) reps have I in {4,-17/2+-7sqrt5/2}, none=1/4; figure-eight
+  I=1/4 bridge DEAD; c=1 Eisenstein resemblance is a cyclotomic coincidence
+
+B57 general-m Diophantine splitting classification
+  {c=1,c=3} universal splitting points; m-dependent extras (m=1..6); Hilbert
+  class-field coincidence killed for m>=2
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -189,3 +201,17 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   `T1 -> S1 -> I=1/4 -> lambda/h=1`, where T1 is an explicit conditional
   assumption. `../docs/TRACE_SELECTOR_THEOREM.md` packages that verdict as C5;
   the files here remain frontier evidence, not proven claims.
+- **B55** — c=1 fixed-line structure for general `m`. Completes B54's `c=1` row:
+  the symmetric sector is **mod 4** (`Φ₆` for `m≡1,3`; `Φ₄` for `m≡2`; degenerate
+  `(t−1)²` for `m≡0`) and the antisymmetric sector is `(t−1)(t+1)(t²−mt−1)=char(M)`
+  for all `m`. Proved per residue class via the `c=1` closed forms (roots
+  `{1,i,−i}` + a resonant linear term); `m=1` reproduces B54's twins.
+- **B56** — figure-eight invariant-surface negative control. The diagonal
+  `SL(2,C)` reps `w³−2w²−2w+1` give Fricke–Vogt `I ∈ {4, −17/2 ± 7√5/2}`, none
+  `= 1/4`, so the figure-eight ↔ `I=1/4` (self-evidencing) bridge is **dead**; the
+  `c=1` Eisenstein resemblance to the figure-eight tetrahedron shape is a
+  cyclotomic coincidence. The separate P12 gluing-equation echo is unaffected.
+- **B57** — general-`m` Diophantine splitting. Classifies integer splitting of the
+  antisymmetric quartic for `m=1..6`: `{c=1, c=3}` universal, m-dependent extras,
+  counts `[4,4,4,3,2,5]`; the Hilbert-class-field coincidence is killed for `m≥2`.
+  Extends PC12's Theorem-4 content. Standalone trace-map math; no claim promoted.

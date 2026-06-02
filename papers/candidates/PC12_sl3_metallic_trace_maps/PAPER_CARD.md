@@ -42,6 +42,9 @@ B27 m=1 SL(3) Fibonacci trace lift
   -> B51 symbolic-m c=3 factorization proof module
   -> B52 multichannel physics-bridge negative control
   -> B54 general-c exchange commutation (all c) + c=1 Eisenstein/golden twins
+  -> B55 c=1 fixed-line structure for general m (symmetric mod-4; antisym char(M))
+  -> B56 figure-eight I=1/4 bridge negative control (cyclotomic coincidence)
+  -> B57 general-m Diophantine splitting classification ({c=1,c=3} universal)
 ```
 
 Per the 2026-06-01 literature screen (`LITERATURE_POSITIONING.md`), the
@@ -76,11 +79,17 @@ frontier/B50_pc12_proof_draft_assembly/
 frontier/B51_sl3_symbolic_m_factorization/
 frontier/B52_multichannel_fibonacci_bridge_control/
 frontier/B54_general_c_exchange_structure/
+frontier/B55_c1_fixed_line_structure/
+frontier/B56_figure_eight_invariant_surface/
+frontier/B57_general_m_splitting/
 tests/test_sl3_metallic_trace_maps.py
 tests/test_sl3_certificate_proof_hardening.py
 tests/test_sl3_symbolic_m_factorization.py
 tests/test_multichannel_fibonacci_bridge_control.py
 tests/test_general_c_exchange_structure.py
+tests/test_c1_fixed_line_structure.py
+tests/test_figure_eight_invariant_surface.py
+tests/test_general_m_splitting.py
 tests/test_pc12_draft_skeleton.py
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
@@ -121,6 +130,12 @@ B52 confirms the naive three-channel Fibonacci tight-binding model has 6x6
 symplectic transfer matrices and fails the PC12 third-order trace recursion
 B54 proves [J(m,c),P]=0 for symbolic c (exchange block-diagonalization on the
 whole fixed line, generalizing B51) and records the c=1 Eisenstein/golden twins
+B55 classifies the c=1 sectors for general m (symmetric mod-4; antisym char(M)),
+proved per residue class and cross-checked m=1..12
+B56 records the figure-eight I=1/4 bridge as a dead negative control (diagonal
+reps at I in {4,-17/2+-7sqrt5/2}, none=1/4)
+B57 classifies integer splitting for m=1..6 ({c=1,c=3} universal; class-field
+coincidence killed for m>=2)
 ```
 
 ## Known Failures / Limits
