@@ -255,6 +255,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   limit: 26/35 resolve, 9 modes gauge-corrupted (the B62 mechanism amplified from
   SL(5)'s 2 modes). Ledger V17. Numerical, no claim promoted; proven core P1-P16
   unchanged.
+- B66 validation campaign (`frontier/B66_sl6_tower/{validate,second_m,gauge}.py`,
+  `VALIDATION.md`; Ledger V19): stress-tested `mult(|k|=3) = 2` four ways. The
+  identical inverse-word pipeline recovers SL(3..6) = 1,1,**2**,2 (SL(5)=2 under
+  the same gauge-handling, auto-selected words); m=2 and m=3 give 2 with the |k|=3
+  root tracking `L_3(m)`; the |k|=3 eigenvalues are seed-stable while the 8 gauge
+  modes scatter (up to 3.8) across base points. Exact-over-Q is the honest
+  negative -- the numerical Jacobian is non-canonical (`||dt0(20)-dt0(24)||~7e3`),
+  so the from-first-principles exact route for n>=5 remains the trace ring (B58).
 
 ### Fixed
 - Tower verification pass (Ledger V18). **SL(2)/n=2 parity correction:** the

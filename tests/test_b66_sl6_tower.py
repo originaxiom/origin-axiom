@@ -163,3 +163,33 @@ def test_word_set_full_rank_35_at_generic_rep():
         col += 1
 
     assert np.linalg.matrix_rank(J, tol=1e-2) == 35
+
+
+def load_validate():
+    spec = importlib.util.spec_from_file_location(
+        "b66_validate", ROOT / "frontier" / "B66_sl6_tower" / "validate.py")
+    assert spec is not None and spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def test_validate_reduced_words_are_freely_reduced():
+    """The validation pipeline's candidate words are freely reduced (no A A^-1 etc.)
+    and number 4 + 4*3 + 4*3^2 + 4*3^3 = 160 at length <= 4."""
+    V = load_validate()
+    inv = {"A": "a", "a": "A", "B": "b", "b": "B"}
+    words = V.reduced_words(4)
+    assert len(words) == 160
+    for w in words:
+        assert all(inv[w[i]] != w[i + 1] for i in range(len(w) - 1))
+
+
+def test_validate_select_words_sl3_is_rank8():
+    """The automatic QR-pivot selection (Task 1) returns a valid rank-(n^2-1)
+    inverse-word coordinate set; checked at n=3 (fast)."""
+    V = load_validate()
+    words = V.select_words(3, 4, seed=20)  # asserts rank == 8 internally
+    assert len(words) == 8
+    assert all(set(w) <= set("ABab") for w in words)

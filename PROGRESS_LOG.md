@@ -1815,5 +1815,46 @@ P1-P16 unchanged.
 
 ---
 
+## 2026-06-02 — B66 validation campaign: mult(|k|=3)=2 stress-tested four ways
+
+**Validation prompted by review; the B66 result holds. Numerical, no claim change.**
+
+Four independent checks of the B66 key result (mult(|k|=3) = 2 for SL(6), so
+`max(n-d,1)=3` is refuted). Ledger V19; report in
+`frontier/B66_sl6_tower/VALIDATION.md`; scripts `validate.py`, `second_m.py`,
+`gauge.py`.
+
+**1. Identical pipeline on SL(3..6)** (`validate.py`). The same pipeline (automatic
+QR-pivot inverse-word selection -> `DT(eps)=DX.pinv(Dx)` extrapolation -> Dickson
+identification) gives mult(|k|=3) = **1, 1, 2, 2**. SL(5)=2 is recovered under the
+*same* gauge-handling SL(6) uses (the load-bearing check), with auto-selected words
+(a word-set change from the hardcoded `SL6_WORDS`).
+
+**2. Second/third m** (`second_m.py`). m=2 and m=3 both give mult 2, with the |k|=3
+big root tracking `L_3(m)` (14.0710678 = 7+sqrt(50); 36.0277564 = 18+sqrt(327)) --
+not a golden-ratio coincidence at m=1.
+
+**3. Gauge subspace** (`gauge.py`). Computing the 35x35 Jacobian at two base points
+(seeds 20, 24): the |k|=3 eigenvalues are seed-STABLE (1e-7..1e-4) and
+well-conditioned (kappa 15-108), while the 8 gauge modes SCATTER across base points
+(up to 3.8, several going complex<->real). mult=2 on the clean complement. (Two
+metrics in the first pass were the wrong tools -- an orthogonal "overlap" is
+meaningless for a non-normal matrix; replaced by eigenvalue condition number, and
+seed-stability is the decisive discriminator.)
+
+**4. Exact-over-Q (honest negative).** The numerical Jacobian is NOT canonical
+(`||dt0(seed20)-dt0(seed24)|| ~ 7e3`; the pinv amplifies error without bound in the
+gauge directions), so there is no exact rational matrix to reconstruct -- unlike
+gauge-clean SL(4) (B65). The intrinsic character-variety Jacobian is canonical, but
+computing it exactly is the ambient SL(6,C) Procesi trace ring -- B58, still open.
+
+**Net:** mult(|k|=3) = 2 is robust across 2 word sets x 2 seeds x 3 m values, and
+the method exactly recovers the proven SL(3)/SL(4) (B63/B65) and SL(5) tower. The
+from-first-principles exact proof for n>=5 remains B58. Validation machinery locked
+in `tests/test_b66_sl6_tower.py` (now 13 tests; suite 131 passed). Proven core
+P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
