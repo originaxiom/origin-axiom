@@ -1,7 +1,8 @@
 """Tests for B66: the SL(6) numerical fixed-line tower (35-dim).
 
 Fast structural checks: the opposition-involution theta-split sector counts
-(9 odd-k + 6 even-k + 5 parity = 35, validated across the tower), the Dickson
+(9 odd-height + 6 even-height + 5 parity = 35, validated across the tower; the
+height-parity binning equals |k|-parity only for odd n), the Dickson
 catalog Lucas coefficients, and that SL6_WORDS is a rank-35 coordinate set at a
 generic representation. The full numerical spectrum and the |k|=3 multiplicity
 result (= 2, refuting max(n-d,1)) live in FINDINGS.md and are reproduced by
@@ -40,7 +41,7 @@ def test_word_set_is_35_inverse_words():
 
 def test_theta_split_sector_prediction_is_9_6_5():
     probe = load_probe()
-    assert probe.sector_prediction(6) == (9, 6, 5)  # odd-k, even-k quads, parity
+    assert probe.sector_prediction(6) == (9, 6, 5)  # odd-height, even-height quads, parity
 
 
 def test_theta_split_totals_match_dim_across_tower():
@@ -64,6 +65,40 @@ def test_dickson_lucas_coefficients():
     L = probe._lucas(6)
     assert (L[2], L[3], L[4], L[5]) == (3, 4, 7, 11)  # Fibonacci-Lucas tr(M^k)
     assert L[-1] == -1  # tr(M^-1), M = [[1,1],[1,0]]
+
+
+def test_sl2_parity_factor_is_t_plus_1():
+    """The n=2 row: the SL(2) identity-fixed-point trace-map Jacobian factors as
+    (t+1)*char(M^2) for all m -- the parity eigenvalue is det(M) = -1, so the
+    factor is (t+1), NOT (t-1). (Coordinates x=trA, y=trB, z=trAB; p_k=tr(A^k B)
+    with p_0=y, p_1=z, p_k = x p_{k-1} - p_{k-2}; substitution A->A^m B, B->A.)"""
+    import sympy as sp
+
+    x, y, z, t = sp.symbols("x y z t")
+    for mval in range(1, 6):
+        p = [y, z]
+        for k in range(2, mval + 2):
+            p.append(sp.expand(x * p[-1] - p[-2]))
+        T = [p[mval], x, p[mval + 1]]  # x'=tr(A^m B), y'=tr A, z'=tr(A^{m+1}B)
+        J = sp.Matrix([[sp.diff(Ti, v) for v in (x, y, z)] for Ti in T]).subs({x: 2, y: 2, z: 2})
+        cp = sp.expand(J.charpoly(t).as_expr())
+        expected = sp.expand((t + 1) * (t**2 - (mval**2 + 2) * t + 1))  # (t+1)*char(M^2)
+        assert sp.expand(cp - expected) == 0
+
+
+def test_char_negMk_equals_char_Mminusk_for_odd_k_only():
+    """char(-M^k) = char(M^{-k}) iff k is odd (det M = -1); independent confirmation
+    of the B64 Dickson parity backbone L_k(-m) = (-1)^k L_k(m), checked through L_8."""
+    import sympy as sp
+
+    m, t = sp.symbols("m t")
+    M = sp.Matrix([[m, 1], [1, 0]])
+    for k in range(1, 9):
+        Mk, Mnk = sp.simplify(M**k), sp.simplify(M ** (-k))
+        char_negMk = sp.expand(t**2 + sp.trace(Mk) * t + Mk.det())     # char(-M^k)
+        char_Mnegk = sp.expand(t**2 - sp.trace(Mnk) * t + Mnk.det())   # char(M^{-k})
+        assert (sp.expand(char_negMk - char_Mnegk) == 0) == (k % 2 == 1)
+        assert sp.expand(sp.trace((-M) ** k) - (-1) ** k * sp.trace(M**k)) == 0  # Dickson parity
 
 
 def test_k3_catalog_roots():

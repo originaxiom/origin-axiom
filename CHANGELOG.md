@@ -247,13 +247,27 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   P1-P16 unchanged.
 - B66 SL(6) numerical tower (`frontier/B66_sl6_tower/`): computes the `n=6` row
   (35-dim) by the inverse-word method to settle the tower multiplicity formula.
-  The opposition-involution theta-split sectors (9 odd-k + 6 even-k + 5 parity =
-  35) are exact; the |k|=3 region resolves cleanly to exactly two quadratics
+  The opposition-involution theta-split sector dims (9 odd-height + 6 even-height
+  + 5 parity = 35) are exact (the 9/6 is a root-height count, = |k|-parity only
+  for odd n); the |k|=3 region resolves cleanly to exactly two quadratics
   (`char(M^3)`, `char(-M^3)`), so the **|k|=3 multiplicity = 2 — refuting
   `max(n-d,1)=3`** (SL(6) is the first `n` that distinguishes 3 from 2). Honest
   limit: 26/35 resolve, 9 modes gauge-corrupted (the B62 mechanism amplified from
   SL(5)'s 2 modes). Ledger V17. Numerical, no claim promoted; proven core P1-P16
   unchanged.
+
+### Fixed
+- Tower verification pass (Ledger V18). **SL(2)/n=2 parity correction:** the
+  `DRAFT_NOTE.md` cross-`n` tower table listed the `n=2` parity block as `none`,
+  under-counting the 3-dimensional `SL(2)` variety; the identity-fixed-point
+  Jacobian is `(t+1)·char(M^2)` for all `m` (parity eigenvalue = `det(M) = -1`),
+  so the block is `(t+1)` — corrected. **B66 labeling:** the `sector_prediction`
+  "9 odd-k + 6 even-k" is a root-HEIGHT count, equal to the `char(M^k)` |k|-parity
+  count only for odd `n` (SL(4) is |k|-parity `(3,3)` but height `(4,2)`);
+  relabeled "odd/even-height" throughout B66 + Ledger V17. The B66 `|k|=3 = 2`
+  result (direct root-matching) is unaffected. Both facts, plus
+  `char(-M^k)=char(M^{-k})` for odd `k` only and `L_k(-m)=(-1)^k L_k(m)` through
+  `L_8`, are now locked in `tests/test_b66_sl6_tower.py`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

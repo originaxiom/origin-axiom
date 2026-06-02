@@ -1781,5 +1781,39 @@ P1-P16 unchanged.
 
 ---
 
+## 2026-06-02 — Tower verification pass: SL(2) parity correction + B66 relabel
+
+**Verification prompted by review; corrections, no result change.**
+
+Re-verified the trace-map tower and caught two issues (Ledger V18).
+
+**(1) SL(2)/n=2 parity correction.** The identity-fixed-point trace-map Jacobian
+for `SL(2)` factors as `(t+1)·char(M^2)` for ALL `m` (verified symbolically:
+coords `x=trA, y=trB, z=trAB`, `p_k=tr(A^k B)` with `p_k=x p_{k-1}-p_{k-2}`,
+substitution `A->A^m B, B->A`). The parity eigenvalue is `det(M) = -1`, so the
+parity factor is `(t+1)`, **not** `(t-1)`. Confirmed three ways: the direct
+Jacobian, `det(M)=-1`, and the `Sym^2(F)` decomposition (eigenvalues `phi^2`,
+`phi*psi=-1`, `psi^2` — the `-1` is the cross-term `det(M)`). The `DRAFT_NOTE.md`
+cross-`n` tower table had listed the `n=2` parity block as `none` (under-counting
+the 3-dim variety by the degree-1 factor); corrected to `(t+1)`. (B33's probe
+already had `(t+1)(t^2-3t+1)`.)
+
+**(2) Dickson backbone, independent confirmation through `L_8`.**
+`char(-M^k) = char(M^{-k})` iff `k` is odd (true k=1,3,5,7; false k=2,4,6,8), and
+`L_k(-m) = (-1)^k L_k(m)` — an independent instance of the B64 parity mechanism.
+
+**(3) B66 labeling clarified.** `sector_prediction` bins quadratics by root-HEIGHT
+parity; this equals the `char(M^k)` |k|-parity count only for ODD `n`. At even `n`
+they differ (SL(4): height `(4,2)` vs |k|-parity `(3,3)`), because `|k|` runs past
+the maximal root height, so a `char(M^even)` factor lands in an odd-height space.
+So the B66 "9 odd-k + 6 even-k" is a root-HEIGHT count, relabeled "odd/even-height"
+in the B66 docs and Ledger V17. The B66 `|k|=3 multiplicity = 2` result comes from
+direct root-matching and is unaffected; the `35` total is unchanged.
+
+All three facts locked in `tests/test_b66_sl6_tower.py` (now 11 tests). Proven core
+P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
