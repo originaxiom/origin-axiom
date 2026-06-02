@@ -206,6 +206,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   positive, corroborating). Completes the SL(5) tower row (22 numerical + 2
   structural). Recorded as a **live structural result**; a symbolic proof needs
   the ambient SL(5,C) trace ring. Ledger V13. No claim promoted.
+- B63 SL(4) factorization over Z[m] (`frontier/B63_sl4_symbolic_m/`): establishes
+  the metallic SL(4) fixed-line factorization for general `m` and proves
+  m-independence. Building the symbolic Procesi trace ring (B58) is harder than
+  "one level deeper" -- `e_2(A)` forces the 6-dim `Lambda^2` representation
+  (depth-6) or multi-block words `tr((A^m B)^2 A)`; documented as the real reason
+  B58 is hard. Instead, SL(4) being gauge-clean, the high-precision Jacobian is
+  computed for `m=1..6`, each factor's eigenvalue sum extracted (= exact
+  `tr(M^k)`) and interpolated in `m`:
+  `char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1)` with
+  `L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2`. The M-power/sign/parity structure is
+  m-INDEPENDENT; m=1 reproduces B59. Computer-assisted symbolic (not a hand-built
+  trace ring); the explicit `k(alpha)` root map is supplied by B62. Ledger V14.
+  No claim promoted; proven core P1-P16 unchanged.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

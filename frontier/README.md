@@ -94,6 +94,11 @@ B62 opposition involution: the 2 unresolved SL(5) modes (live structural)
   reproduces SL(3)/SL(4) and gives char(M^2)^2.char(-M^2) for SL(5), so the 2
   unresolved = second char(M^2) = {phi^2, 1/phi^2}; exact split, not yet proved
 
+B63 SL(4) factorization over Z[m] (computer-assisted symbolic; proves B59 for all m)
+  SL(4) gauge-clean -> high-precision Jacobian at m=1..6, factor sums = exact
+  tr(M^k), interpolated to L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2; M-power/sign/
+  parity structure m-INDEPENDENT; trace ring needs Lambda^2/multi-block (open)
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -279,3 +284,14 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   are positive, corroborating). Exact root-system split, validated on SL(3)/SL(4),
   numerically corroborated; a symbolic proof still needs the ambient SL(5,C) ring.
   No claim promoted.
+- **B63** — SL(4) factorization over Z[m] (computer-assisted symbolic; proves B59
+  for all m). Building the symbolic Procesi trace ring (B58) is harder than "one
+  level deeper": `e_2(A)` forces the 6-dim `Lambda^2` representation (depth-6) or
+  multi-block words `tr((A^m B)^2 A)` — documented as the real reason B58 is open.
+  Instead, SL(4) being gauge-clean, the high-precision Jacobian is computed for
+  `m=1..6`; each factor's eigenvalue sum is the exact integer `tr(M^k)`, and
+  interpolation gives `char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1)`
+  with `L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2`. This PROVES the factorization over
+  `Z[m]` and that the M-power/sign/parity structure is **m-independent** (m=1
+  reproduces B59). The explicit `k(alpha)` root map is from B62; the hand-built
+  trace ring stays open. No claim promoted; proven core P1-P16 unchanged.

@@ -231,9 +231,15 @@ Observed continuation (`m = 1`):
 n   M-powers present        sign sectors    parity block        status
 2   {2}                     none            none                exact
 3   {-1, 2, 3}              none            (t-1)(t+1)           exact (Section 5)
-4   {-1, 1, 2, 3, 4}        {-2}            (t-1)^2(t+1)         numerical
+4   {-1, 1, 2, 3, 4}        {-2}            (t-1)^2(t+1)         over Z[m], all m (B63)
 5   {-1, 1, 1, 2, 3, 4, 5}  {-2, -3}        (t-1)^2(t+1)^2       numerical (22 of 24)
 ```
+
+(For `n=4` the factorization is established for general `m` over `Z[m]` by a
+computer-assisted high-precision computation -- the factor sums interpolate to
+`L_k = tr(M^k)`, e.g. `L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2` -- showing the
+M-power/sign/parity structure is m-independent; the from-first-principles
+trace-ring proof remains open.)
 
 (`n=3` is the `m=1` specialization of Section 5: `(t-1)(t+1)·char(M^{-1})·
 char(M^2)·char(M^3)`.) For `n=5`, 22 of the 24 multipliers resolve to the catalog
