@@ -260,6 +260,16 @@ i.e. eigenvalues `phi^2, 1/phi^2` (consistent with the residual modes being
 positive). This identification is structural, not proved here; it is one of the
 questions for a specialist (see the review packet, Q4).
 
+The sector *assignment* itself does have an exact-algebra explanation. The
+fixed-line Jacobian commutes with `P`, and three facts -- depth-`n`
+Cayley-Hamilton (Jacobian polynomial in `m`), `P` = contragredient (`m -> -m`),
+and Dickson parity `L_k(-m) = (-1)^k L_k(m)` -- force the `P`-symmetric sector's
+characteristic polynomial to be even in `m` and the `P`-antisymmetric one odd.
+Hence `char(M^k)` with even `|k|` lies in the symmetric sector and odd `|k|` in
+the antisymmetric one. This is verified in full symbolic-`m` form for `n=3`
+(symmetric `(t-1)(t+1)char(M^2)`, antisymmetric `char(M^-1)char(M^3)`) and assigns
+the `n=4,5` factors accordingly.
+
 This appendix is a numerical, method-validated observation only — **not** a
 proven theorem and not part of the classification of Sections 2-7.
 

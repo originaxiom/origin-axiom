@@ -219,6 +219,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   m-INDEPENDENT; m=1 reproduces B59. Computer-assisted symbolic (not a hand-built
   trace ring); the explicit `k(alpha)` root map is supplied by B62. Ledger V14.
   No claim promoted; proven core P1-P16 unchanged.
+- B64 parity mechanism (`frontier/B64_parity_mechanism/`): proves the tower's
+  `k(alpha)` sector-assignment formula as exact symbolic algebra. Depth-n
+  Cayley-Hamilton makes the fixed-line Jacobian polynomial in `m`; `P` is the
+  contragredient (`m -> -m`); Dickson parity `L_k(-m)=(-1)^k L_k(m)`. Hence
+  **even-|k| `char(M^k)` sits in the P-symmetric sector, odd-|k| in the
+  P-antisymmetric** (the root-height split B62 identified). Verified in full
+  symbolic-`m` form for SL(3) (symmetric=(t-1)(t+1)char(M^2), antisym=
+  char(M^-1)char(M^3)); applied to SL(4)'s factorization (even-k {M^2,M^4,-M^2}
+  symmetric, odd-k {M^-1,M,M^3} antisymmetric). The depth-4 derivative sequences
+  are built; a full symbolic SL(4) Jacobian's one remaining need is localized to
+  `e_2 = tr(Lambda^2 A)` (the 6-dim exterior square, the even-k sector). Ledger
+  V15. No claim promoted; proven core P1-P16 unchanged.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
