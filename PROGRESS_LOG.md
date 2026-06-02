@@ -1603,5 +1603,39 @@ skeleton, but lacked the review packet and checklist that PC02 has.
 
 ---
 
+## 2026-06-02 — B62 opposition involution: the 2 unresolved SL(5) modes
+
+**Frontier evidence (exact root-system structure; validated on SL(3)/SL(4);
+numerically corroborated); recorded as a live structural result; no claim
+promotion.**
+
+Tested a falsifiable prediction for B61's 2 unresolved SL(5) fixed-line modes.
+
+- **The numerics genuinely cannot decide them.** Re-verified: `tr(DT0)` and
+  `det(DT0)` from the B61 representation-perturbation method scatter across seeds
+  (tr = 22.8 / 20.8 / 14.5; det complex, varying). The 2-mode block's spectral
+  invariants are gauge-dependent, so no flavor of that numerics resolves them.
+- **The opposition involution does.** Identifying the exchange involution
+  (`tr W <-> tr W^-1`) with the opposition involution `theta = -w0` on the
+  `sl(n)` root system, the `theta`-eigenspace split on the height-2 root space is
+  exact (pure root-system combinatorics): `(+1,-1)` dims are `(2,0)` for `n=3`,
+  `(2,2)` for `n=4`, `(4,2)` for `n=5`. The first two reproduce the known SL(3)
+  (`char(M^2)`) and SL(4) (`char(M^2).char(-M^2)`) towers exactly; SL(5) is
+  `char(M^2)^2 . char(-M^2)`. Since B61 resolved 4 of those 6 dimensions as
+  `char(M^2).char(-M^2)`, the **2 unresolved modes are a second `char(M^2)`**:
+  eigenvalues `phi^2 = 2.618...` and `1/phi^2 = 0.382...` (sum +3, product +1).
+  Corroborated: the gauge-perturbed residual modes are positive (seed 20:
+  ~2.89, ~0.90), ruling out the negative-rooted `char(-M^2)`.
+
+This completes the SL(5) fixed-line row (22 numerical + 2 structural):
+`char(M^-1) char(M)^2 char(M^2)^2 char(M^3) char(M^4) char(M^5) char(-M^2)
+char(-M^3) (t-1)^2(t+1)^2`. Recorded as a **live structural result** -- the split
+is exact and validated, but a symbolic proof of the height decomposition needs
+the ambient SL(5,C) trace ring (B58's open task). Locked by
+`tests/test_b62_opposition_involution.py` (suite 107 passed, 1 skipped). Proven
+ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

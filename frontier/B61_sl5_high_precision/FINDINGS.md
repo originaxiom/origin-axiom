@@ -90,6 +90,14 @@ degenerate identity rep -- the **symbolic ambient SL(5,C) trace ring** (Procesi
 generators + the substitution action), the same construction left open for the
 symbolic SL(4) proof (B58). That is out of scope here.
 
+> **Identified by B62 (`../B62_opposition_involution/`).** The exchange
+> involution = opposition involution `theta=-w0` on the `sl(n)` root system; its
+> eigenspace split on the height-2 root space gives `char(M^2)^2 . char(-M^2)`
+> for `sl(5)` (and reproduces SL(3)/SL(4) exactly). Since B61 resolved 4 of those
+> 6 dimensions as `char(M^2).char(-M^2)`, the **2 missing modes are the second
+> `char(M^2)` = {phi^2, 1/phi^2}** (corroborated: the residual modes are
+> positive). Recorded as a live structural result, not a symbolic proof.
+
 ## Reproduce
 
 ```bash

@@ -14,7 +14,7 @@ PRODUCES-RESULT (numerical) for n=3,4 cross-n map; SL(5) UNRESOLVED (conditionin
 n   char(M^k) powers      sign sectors   parity block          degree
 3   {-1, 2, 3}            none           (t-1)(t+1)             2     (2 + 3*2 = 8)
 4   {-1, 1, 2, 3, 4}      char(-M^2)     (t-1)^2 (t+1)          3     (3 + 5*2 + 2 = 15)
-5   {-1,1,1,2,3,4,5}      -M^2, -M^3     (t-1)^2 (t+1)^2        4     [B61, 22 of 24]
+5   {-1,1,1,2,2,3,4,5}    -M^2, -M^3     (t-1)^2 (t+1)^2        4     [B61 22/24; B62 last 2 = char(M^2)]
 ```
 
 The `n=5` row is from **B61** (22 of 24 multipliers; see below).
