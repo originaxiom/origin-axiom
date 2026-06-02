@@ -146,6 +146,24 @@ Typical missing object:
 a physical system that forces the representation and the modulation independently
 ```
 
+### Figure-Eight Invariant-Surface Bridge (I = 1/4)
+
+The hope that the figure-eight knot sits on the self-evidencing surface `I = 1/4`
+is dead. The diagonal `SL(2,C)` representations (`w^3 - 2w^2 - 2w + 1`, roots
+`{-1, phi^2, phi^-2}`) have Fricke-Vogt invariant `I in {4, -17/2 +/- 7 sqrt5/2}`,
+none equal to `1/4`; the figure-eight geometric holonomy lives in `Q(sqrt-3)`,
+disjoint from this real locus. The `c=1` Eisenstein factor's resemblance to the
+figure-eight tetrahedron shape is a cyclotomic coincidence (`Phi_6` is the
+simplest discriminant `-3` cyclotomic). See `frontier/B56`. The separate P12
+gluing-equation discriminant echo is unaffected.
+
+Typical missing object:
+
+```text
+a representation-theoretic reason for the invariant-surface value,
+not a shared cyclotomic polynomial
+```
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural

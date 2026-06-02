@@ -57,7 +57,11 @@ controls and that a non-self-evidencing coupling does not. Neither exists.
 - `../../frontier/B52_multichannel_fibonacci_bridge_control/` — the naive
   multichannel physics bridge fails (`6×6` symplectic, not `SL(3)`).
 - First-order `SL(3)` bridge: tautological — see `../../docs/atlas/FAILURE_ATLAS.md`.
-- `../../frontier/B54_general_c_exchange_structure/`, `B51`, PC12 — the
+- `../../frontier/B56_figure_eight_invariant_surface/` — the figure-eight does
+  **not** lie on the `I=1/4` surface this framing centres on (diagonal reps at
+  `I ∈ {4, −17/2 ± 7√5/2}`, none `= 1/4`); the `c=1` Eisenstein resemblance is a
+  cyclotomic coincidence. A direct negative control on the self-evidencing bridge.
+- `../../frontier/B54_general_c_exchange_structure/`, `B55`, `B51`, PC12 — the
   underlying trace-map algebra, kept as standalone mathematics.
 
 ## Verdict

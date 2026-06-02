@@ -130,6 +130,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   earlier review-brief draft; the half-step / trace-map / conditional
   spectral-anchor material is retained as a clearly-marked non-theorem appendix.
   Editorial consolidation; PC02 stays `CONDITIONAL_THEOREM` / `NEEDS_VALIDATION`.
+- B55 c=1 general-m structure added (`frontier/B55_c1_fixed_line_structure/`):
+  the c=1 fixed-line symmetric sector is classified **mod 4** (`Φ₆` for m≡1,3;
+  `Φ₄` for m≡2; degenerate `(t−1)²` for m≡0) and the antisymmetric sector is
+  `(t−1)(t+1)(t²−mt−1) = char(M)` for all m, proved per residue class. Corrects
+  the earlier odd/even reading and completes B54's c=1 row.
+- B56 figure-eight invariant-surface negative control added
+  (`frontier/B56_figure_eight_invariant_surface/`): the diagonal SL(2,C) reps
+  have `I ∈ {4, −17/2 ± 7√5/2}`, none `= 1/4`; the figure-eight ↔ `I=1/4` bridge
+  is `DEAD` and the c=1 Eisenstein resemblance is a cyclotomic coincidence. The
+  P12 gluing-equation discriminant echo is unaffected.
+- B57 general-m Diophantine splitting classification added
+  (`frontier/B57_general_m_splitting/`): `{c=1, c=3}` are universal splitting
+  points; m-dependent extras classified for m=1..6; the Hilbert-class-field
+  coincidence (`h(−15)=2`) is killed for m≥2. Extends PC12's Theorem-4 content.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
