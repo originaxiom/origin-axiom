@@ -30,14 +30,14 @@ and properly positioned in the character-variety literature.
 8. `papers/candidates/PC11_trace_map_spectrum_bridge/VALIDATION_BRIEF.md`
 9. `papers/candidates/PC11_trace_map_spectrum_bridge/REVIEW_PACKET.md`
 10. `docs/TRACE_SELECTOR_THEOREM.md`
-11. `papers/candidates/PC12_sl3_metallic_trace_maps/VALIDATION_BRIEF.md`
-12. `papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`
-13. `frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md`
-14. `frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md`
-15. `frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md`
-16. `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
-17. `papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md`
-18. `frontier/B54_general_c_exchange_structure/FINDINGS.md`
+11. `papers/candidates/PC12_sl3_metallic_trace_maps/REVIEWABILITY_CHECKLIST.md`
+12. `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE.md`
+13. `papers/candidates/PC12_sl3_metallic_trace_maps/REVIEW_PACKET.md`
+14. `papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md`
+15. `papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md`
+16. `frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md`
+17. `frontier/B54_general_c_exchange_structure/FINDINGS.md`
+18. `frontier/B61_sl5_high_precision/FINDINGS.md`  (Appendix A tower)
 
 Record any actionable finding in:
 
@@ -77,6 +77,7 @@ Does B51 correctly replace bounded c=3 factorization checks with a symbolic-m pr
 Does B52 correctly show that the naive multichannel Fibonacci bridge is 6x6 symplectic, not PC12 SL(3)?
 Is the compact SU(3) slice stated as compact-unitary mathematics only?
 What parts, if any, are already present in the existing literature?
+Is the Appendix-A cross-n char(M^k) tower (n=3,4 complete, n=5 to 22/24) known or derivable from SL(n,C) coordinates + the substitution action, or new?
 ```
 
 ## Non-Claims To Enforce

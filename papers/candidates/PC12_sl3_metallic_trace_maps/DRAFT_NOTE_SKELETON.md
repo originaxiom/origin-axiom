@@ -1,5 +1,10 @@
 # PC12 Draft Note Skeleton
 
+> **Superseded for review by `DRAFT_NOTE.md` (2026-06-02).** This skeleton is the
+> internal build scaffold; its Theorem-4 proof architecture is the seed for the
+> eventual full proof. The polished, self-contained note for reviewers is
+> `DRAFT_NOTE.md`.
+
 Status: internal computational-note skeleton (rescaled 2026-06-01 from
 theorem-note per the B53 literature screen). Not a public preprint. Per
 `LITERATURE_POSITIONING.md`, Thm 1-3, the exchange decomposition, and the

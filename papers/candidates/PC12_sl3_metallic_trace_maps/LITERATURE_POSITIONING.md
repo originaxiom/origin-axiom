@@ -52,6 +52,8 @@ commutator trace-pair preservation for the metallic family
 exact entropy computation for this family
 fixed-line integer splitting classification
 compact diagonal SU(3) survival classification
+cross-n char(M^k) fixed-line factorization tower (n=3,4 complete, n=5 partial;
+  numerical; Appendix A of DRAFT_NOTE.md)
 ```
 
 Each item must be checked against the literature before PC12 can become
@@ -67,6 +69,9 @@ standard SL(2) trace-map / Fricke-Vogt references
 Bellon-Viallet, Algebraic entropy
 degree-growth literature for polynomial or rational maps
 matrix-valued / block Jacobi transfer-matrix literature for bridge controls
+algebraic entropy = spectral radius for mapping-class actions on character
+  varieties (arXiv:0812.0853) -- directly supports the Thm 3 entropy value
+Procesi / Sikora SL(n,C) trace generators (for the Appendix A cross-n tower)
 ```
 
 ## Wording To Avoid
@@ -142,4 +147,36 @@ Damanik, Gorodetski, Hyperbolicity of the Trace Map for the Weakly Coupled
 Trace map for an N-ternary Fibonacci lattice -- Phys. Lett. A (1994)
 The mapping class group action on SU(3)-character varieties -- arXiv:1909.10968
 A remark on the trace-map for the silver mean sequence -- arXiv:1010.2476
+```
+
+---
+
+## Refresh (2026-06-02)
+
+A second non-specialist web pass, run when the reviewer packet was assembled
+(again **not** specialist peer review). It confirmed the 2026-06-01 screen and
+added one directly useful citation; it did not overturn any verdict.
+
+- **Thm 3 (entropy) basis strengthened.** "Algebraic Entropy and the Action of
+  Mapping Class Groups on Character Varieties" (arXiv:0812.0853) proves
+  `e_alg(f) = rho(f)` (algebraic entropy equals the spectral radius of the
+  induced action). For `T_m` this is the Perron root of `M=[[m,1],[1,0]]`, i.e.
+  `log mu_m` -- so the entropy value is a direct instance of a published theorem,
+  reinforcing `STANDARD_REPACKAGE`.
+- **Sec 5 sector factorization** remains squarely inside Baake-Grimm-Roberts
+  reversing-symmetry theory (arXiv:math/9901124; arXiv:math-ph/9904025);
+  the `char(M^k)` form for this family is the open question (Q2 of the packet).
+- **Thm 4 splitting classification** and the **Appendix A cross-n tower**: no
+  prior source located for either. The neighborhoods are active (Lawton; Sikora;
+  Brown on Fricke-character automorphisms; Newhouse phenomena in the Fibonacci
+  trace map, arXiv:1507.07912), but nothing matching the specific Diophantine
+  classification or the `char(M^k)` fixed-point-linearization tower surfaced.
+  Both stay items for the specialist (packet Q1, Q3).
+
+### Additional sources (refresh)
+
+```text
+Algebraic entropy and the action of mapping class groups on character varieties
+  -- arXiv:0812.0853
+Newhouse phenomena in the Fibonacci trace map -- arXiv:1507.07912
 ```

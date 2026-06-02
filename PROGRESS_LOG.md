@@ -1569,5 +1569,39 @@ ambient SL(5,C) trace ring (still open, cf. B58). Locked by
 
 ---
 
+## 2026-06-02 — PC12 made review-ready for an external specialist
+
+**Packaging / governance; no claim promotion.**
+
+With the SL(n) line in good shape, prepared PC12 (metallic `SL(3)` trace maps)
+for an outside specialist read — the project's standing single-highest-value
+move. PC12 already had a thorough literature screen, validation brief, and
+skeleton, but lacked the review packet and checklist that PC02 has.
+
+**Done:**
+
+- **Polished, self-contained `DRAFT_NOTE.md`** built from the skeleton: setup +
+  Lawton coordinates; Thm 1-3 and the exchange-sector factorization stated with
+  citations (Lawton; Horowitz; Procesi; Baake-Grimm-Roberts; Bellon-Viallet) and
+  not re-proved; the apparently-new fixed-line integer-splitting classification
+  (Section 6); the compact `SU(3)` slice; and the numerical cross-n tower
+  (B59/B60/B61) as a clearly-labeled Appendix A. Pure computational mathematics —
+  no project, physics, or foundational framing (reads cold for a specialist).
+- **`REVIEW_PACKET.md` + `REVIEWABILITY_CHECKLIST.md`** mirroring PC02, with the
+  five sharpened questions (Q1 Sec-6 novelty; Q2 sector factorization vs BGR;
+  Q3 cross-n tower derivability; Q4 the SL(5) rank-loss obstruction; Q5
+  terminology).
+- **Bounded literature refresh** (web): confirmed the 2026-06-01 screen, added
+  the algebraic-entropy = spectral-radius citation (arXiv:0812.0853) directly
+  supporting the entropy value, and found no prior art for the Sec-6 splitting or
+  the cross-n tower. Folded into `LITERATURE_POSITIONING.md`,
+  `VALIDATION_BRIEF.md`, and `REVIEWABILITY_INDEX.md`.
+- **Status:** `PAPER_CARD` readiness `NEEDS_VALIDATION -> READY_FOR_REVIEW`
+  (specialist read pending); ledger row **V12**. The actual specialist read is
+  the user's hand-off and remains the open step. Suite unchanged: 102 passed,
+  1 skipped. Proven ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

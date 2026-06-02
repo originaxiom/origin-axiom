@@ -188,6 +188,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `eps->0` limit gauge-dependent; residual scatters across seeds), needing the
   symbolic ambient SL(5,C) ring. SL(3)/SL(4) reproduce to ~4e-14/~3e-9.
   Numerical, high-precision; no claim promoted.
+- PC12 made review-ready for an external specialist: a polished, self-contained
+  `DRAFT_NOTE.md` (standard blocks Sec 2-5 with citations; the apparently-new
+  fixed-line splitting classification in Sec 6; the numerical cross-n tower as a
+  labeled Appendix A), plus `REVIEW_PACKET.md` (five sharpened questions) and
+  `REVIEWABILITY_CHECKLIST.md`, mirroring PC02. A bounded literature refresh added
+  the entropy=spectral-radius citation (arXiv:0812.0853) and found no prior art
+  for the Sec-6 splitting or the cross-n tower. `PAPER_CARD` readiness advanced to
+  `READY_FOR_REVIEW`; ledger row V12. No claim promoted.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
