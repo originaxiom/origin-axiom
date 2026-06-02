@@ -1433,5 +1433,28 @@ Kept out of PC12; no Origin-core claim changes; proven ledger unchanged.
 
 ---
 
+## 2026-06-02 — Handoff triage; SL(n) factor-count tower recorded as a prediction
+
+**No claim promotion.**
+
+Triaged a pre-computed handoff of four items. Three were already integrated and
+were **not** re-done (no duplication):
+
+- Weil–Petersson identity — already integrated (E21, ledger V6, PR #11).
+- Off-diagonal Aubry-duality kill — already integrated (E21, FAILURE_ATLAS,
+  ledger V7, PR #11).
+- c=1 mod-4 correction — already integrated as B55 (PR #10).
+
+The one new item, the **SL(n) factor-count tower**, is recorded as an **untested
+prediction** in `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
+("Open Prediction" section): at the identity representation, the rank-two
+`SL(n,C)` Jacobian is conjectured to factor into a parity block plus
+`(n²−1−parity)/2` degree-2 `char(M^k)` factors (`parity = 2` odd n, `1` even n).
+Confirmed only at `n=2` (1 factor) and `n=3` (3 factors, powers {−1,2,3}); `n≥4`
+(SL(4): 7 factors) is untested and requires building the `SL(4)` trace map — a
+candidate future probe (B58+), explicitly not a claim. Proven ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

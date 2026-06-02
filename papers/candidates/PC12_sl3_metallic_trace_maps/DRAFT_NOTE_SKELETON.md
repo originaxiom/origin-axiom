@@ -275,3 +275,36 @@ physics-bridge language keeps the B52 negative control explicit; the
   self-evidencing / free-energy framing stays quarantined in paths/E21, not PC12
 independent specialist read of Thm 4 + framing -- deferred this cycle
 ```
+
+## Open Prediction -- SL(n) Factor-Count Tower (untested, NOT a claim)
+
+An untested extrapolation, recorded as a research prediction only. The rank-two
+`SL(n,C)` character variety of `F_2` has dimension `n^2 - 1`. The exchange
+involution `P` pairs `tr(W) <-> tr(W^-1)`, so its fixed (self-conjugate)
+subspace has dimension `parity(n)` and the rest pairs up. At the identity
+representation point the `SL(3)` Jacobian factors as
+`parity x char(M^-1) x char(M^2) x char(M^3)` -- a parity block plus
+`(dim - parity)/2` degree-2 `char(M^k)` factors.
+
+Conjectured tower (`parity = 2` for odd `n`, `1` for even `n`):
+
+```text
+n   dim = n^2-1   parity   char(M^k) factors = (dim - parity)/2
+2   3             1        1     CONFIRMED (char(M^2))
+3   8             2        3     CONFIRMED (powers {-1, 2, 3})
+4   15            1        7     UNTESTED
+5   24            2        11    UNTESTED
+```
+
+Status: **prediction, not proven.** Confirmed only at `n = 2, 3`. The
+parity-dimension count is sound (it follows from `P` pairing
+`tr(W) <-> tr(W^-1)`), but the assertion that the paired part organizes into
+exactly `(dim - parity)/2` *`char(M^k)`* factors -- rather than other degree-2
+polynomials -- is established only for `n <= 3`. The count alone does not predict
+*which* `M`-powers occur for `n >= 4`; that requires the explicit `SL(n)`
+delay-chain architecture.
+
+Testing `SL(4)` is a major computation (15 coordinates via Procesi's generating
+set for the `SL(4,C)` character variety of `F_2`, depth-4 Cayley-Hamilton
+recursion) -- a candidate future frontier probe (B58 or later), not built here.
+No claim is made until it is computed.
