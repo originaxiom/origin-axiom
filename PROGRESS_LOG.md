@@ -1355,5 +1355,25 @@ Proven/conditional/open/dead ledger unchanged; no claim promoted.
 
 ---
 
+## 2026-06-02 — PC02 draft-note reconciliation
+
+**Editorial consolidation; no claim promotion.**
+
+- Reconciled two parallel 2026-05-29 PC02 draft notes into one canonical
+  `papers/candidates/PC02_conditional_uniqueness/DRAFT_NOTE.md`. Adopted the
+  formal theorem-note structure from the unmerged `paper/pc02-draft-note` branch
+  (numbered sections; axiom table A1-A7; mapping-torus torsion lemma via the Wang
+  exact sequence; minimal-trace route; explicit Theorem + proof; the LR/RL
+  based-invariant table; non-claims; review questions) in place of the earlier
+  review-brief version. The half-step, trace-map, and conditional spectral-anchor
+  (`T1 -> I=1/4 -> lambda/h=1`, C5) material is retained as an explicitly
+  non-theorem Appendix A, with the Damanik-Gorodetski-Yessen citation
+  (arXiv:1403.7823). Updated the reproduction counts to the current suite
+  (83 passed, 1 skipped). PC02 stays `CONDITIONAL_THEOREM` / `NEEDS_VALIDATION`;
+  this is editorial, not a status change. The superseded `paper/pc02-draft-note`
+  branch can now be deleted.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

@@ -1,170 +1,265 @@
-# Draft Note -- Conditional Uniqueness of the Origin Axiom Core
+# Conditional Uniqueness of the Origin Axiom Core
 
-Status: external-review draft note. This is not a public preprint and does not
-promote any claim beyond `CLAIMS.md`.
+Status: draft theorem note for review. This is not a public preprint and does
+not promote any claim.
 
 ## Abstract
 
-We record a conditional rigidity result for the Origin Axiom core. Given explicit
-minimal-record axioms A1-A7, the first mixed persistent sector is forced to be
-`A=LR` up to order. The downstream algebraic consequences P1-P16 are
-machine-checked in the canonical repository. The result is conditional: the
-record substrate, primitive-update filters, torsion-free closure, and based
-order convention are hypotheses, not derived laws of nature.
-
-## Main Theorem
-
-Under the minimal-record axioms A1-A7 in `docs/UNIQUENESS_THEOREM.md`, the first
-mixed closure is:
+We isolate a small conditional theorem behind the Origin Axiom core. Given a
+two-record integer substrate, reversible orientation-preserving primitive
+one-channel updates, torsion-free first mixed closure, minimal hyperbolic
+complexity, and a final order convention, the persistent sector is forced to
 
 ```text
-A = L R = [[2,1],[1,1]]
+A = LR = [[2,1],[1,1]]
 ```
 
-up to the `LR/RL` order choice. It has trace `3`, determinant `1`,
-characteristic polynomial `t^2-3t+1`, eigenvalues `phi^2` and `phi^-2`, and
-discriminant `5`.
+up to the order choice `LR` versus `RL`. The selected matrix has trace `3`,
+determinant `1`, characteristic polynomial `t^2 - 3t + 1`, and eigenvalues
+`phi^2`, `phi^-2`. The order convention is load-bearing: as a Mobius action,
+`LR` has fixed-point polynomial `tau^2 - tau - 1`, while `RL` has
+`tau^2 + tau - 1`. The theorem is conditional; it does not derive the substrate,
+the order convention, physics, units, particles, gauge groups, or observables.
 
-## Proof Route
+## 1. Motivation
 
-The theorem is proven in the repository as a chain of exact computations and a
-standard topology lemma:
+The project originally asked whether "nothing" could be unstable and generate
+structure. The broad survey showed a repeated obstruction: source-free zero
+does not move, and candidate mechanisms usually work only after a source,
+selector, measure, carrier, unit scale, or observable bridge is supplied.
+
+The positive mathematical result is narrower. Once a minimal two-record
+substrate and primitive ordered updates are granted, the downstream core becomes
+rigid. This note states that rigidity as a conditional theorem.
+
+## 2. Axioms
+
+The theorem uses the following axioms.
+
+| # | Axiom | Content |
+|---|---|---|
+| A1 | Two-record substrate | The state space is `Z^2`. |
+| A2 | Reversible integer transfer | Updates are invertible integer-linear maps. |
+| A3 | Orientation-preserving | The update matrices have determinant `+1`. |
+| A4 | Primitive one-channel update | The elementary updates are the primitive shears `L` and `R`. |
+| A5 | Torsion-free first mixed closure | The first mixed persistent sector has torsion-free mapping-torus first homology. |
+| A6 | Minimality | Among nontrivial admissible closures, choose minimal hyperbolic complexity. |
+| A7 | Order convention | Choose the based order `LR` rather than its mirror `RL`. |
+
+The theorem does not derive these axioms. It states what follows once they are
+accepted.
+
+## 3. First Mixed Closure
+
+Let
 
 ```text
-positive primitive shears L_a, R_b
-  -> B(a,b)=L_a R_b = [[1+ab,a],[b,1]]
-  -> det(B-I)=-ab
-  -> torsion-free/minimal closure forces ab=1
-  -> a=b=1
-  -> A=LR, up to order
+L_a = [[1,a],[0,1]]
+R_b = [[1,0],[b,1]]
 ```
 
-The mapping-torus homology step is written in
-`MAPPING_TORUS_TORSION_LEMMA.md`:
+with positive integers `a,b`. The first mixed closure is
 
 ```text
-H1(mapping torus of B) = Z plus coker(B-I)
-torsion order = abs(det(B-I)) when det(B-I) is nonzero
+B(a,b) = L_a R_b = [[1+ab,a],[b,1]].
 ```
 
-The machine-checked lemmas are in `tests/test_uniqueness_theorem.py`.
-
-## Downstream Exact Algebra
-
-Given `A`, the governed core P1-P16 follows through existing tested modules:
+Direct calculation gives:
 
 ```text
-A
-  -> phi-spectrum and Fibonacci transfer structure
-  -> preserved phase-space form
-  -> figure-eight monodromy and torsion growth
-  -> log(A) sl(2,R) decomposition
-  -> Mobius vector field
-  -> derived cubic potential
+det B(a,b) = 1
+trace B(a,b) = 2 + ab
+det(B(a,b) - I) = -ab
 ```
 
-The Mobius vector field and potential are exact algebra about `A`; they are not
-physics claims.
-
-## Half-Step Appendix
-
-Frontier probes B13-B19 refine the based structure. The operational half-step
-condition
+The case `a = b = 1` gives:
 
 ```text
-(L X)^2 = A
+B(1,1) = L R = [[2,1],[1,1]].
 ```
 
-isolates `X=+/-P` in exact bounded searches, with `F=LP` and `F^2=A`.
-This is useful structure, but it remains conditional on the half-step condition
-or an exchange-symmetry interpretation of the two-record substrate.
+## 4. Torsion Lemma
 
-## Trace-Map Appendix
-
-B18 establishes that the Fibonacci trace map is the functorial half-trace lift
-of the half-step `F`. At `(1,1,1)` its Jacobian has:
+Let `M_B` be the mapping torus of the torus automorphism induced by `B`.
+The Wang exact sequence gives:
 
 ```text
-(t+1)(t^2-3t+1)
+H1(M_B; Z) = Z plus coker(B - I).
 ```
 
-The `-1` factor is generic for orientation-reversing lifts. B22 shows the
-special object is the `A` quadratic sector, which appears for the primitive
-half-step condition `det=-1`, `trace=+/-1`.
-
-No spacetime, matter, gauge, or awareness dictionary is claimed.
-
-## Conditional Spectral Anchor
-
-B25 tests the Fibonacci Hamiltonian at dimensionless `lambda/h=1`. Finite approximants show
-strict Fibonacci gap-label residuals for the largest gaps and a mid-scale
-box-counting slope near `0.75` at word index `20`.
-
-This is not an exact Hausdorff-dimension claim and not a prediction of the core.
-B26-B47 strengthen the coupling bridge by isolating the exact conditional
-selector. The primitive projective tangent return has:
+If `det(B - I) != 0`, then `coker(B - I)` is finite and:
 
 ```text
-mu = 4c^2 - 2 = 4I + 2
+|torsion H1(M_B; Z)| = |det(B - I)|.
 ```
 
-If T1 is accepted, meaning the tangent return inherits the original arithmetic
-persistence filters, then minimal positive hyperbolic trace gives `mu=3`, hence:
+For `B(a,b)` this gives torsion order `ab`. Therefore torsion-free closure
+forces:
 
 ```text
-I = 1/4
-lambda/h = 1
+ab = 1.
 ```
 
-The caveat is load-bearing: T1 is not derived from A1-A7 plus exchange. Thus
-`lambda/h=1` is conditional on T1, not a prediction of the core.
-
-B26 also shows that the same projective criterion gives an exact Lucas hierarchy:
+Over positive integers:
 
 ```text
-char(F^n)=t^2-L_n t+1       (n even)
-I=(L_n-2)/4
-(lambda/h)^2=L_n-2 = 1, 5, 16, 45, 121, ...
+a = b = 1.
 ```
 
-The full-return control is different: the literal `T^6` return matches `A` at
-real `I=-3/4`, not at the B25 `I=1/4` surface.
+The proof is written in
+`papers/candidates/PC02_conditional_uniqueness/MAPPING_TORUS_TORSION_LEMMA.md`.
 
-Relevant literature control: Damanik, Gorodetski, and Yessen, *The Fibonacci
-Hamiltonian*, `arXiv:1403.7823`.
+## 5. Minimal Trace Route
 
-## Explicit Non-Claims
+The same conclusion is reached from minimal hyperbolic trace. Since
 
 ```text
-not a derivation from absolute nothing
-not a physical theory
-not a derivation of 3+1 dimensions
-not a derivation of matter, gauge groups, constants, or observables
-not proof that lambda/h=1 is forced without T1
-not a new gap-labeling theorem for the Fibonacci Hamiltonian
+trace B(a,b) = 2 + ab,
 ```
 
-## Reviewer Questions
+and `a,b` are positive integers, the first hyperbolic trace is:
 
-1. Are A1-A7 stated minimally, or can any hypothesis be weakened without losing
-   the uniqueness theorem?
-2. Is the `LR/RL` order dependence presented correctly as based data rather
-   than conjugacy-invariant data?
-3. Is the mapping-torus torsion lemma stated with the right hypotheses?
-4. Is the half-step trace-lift bridge known standard material, new packaging, or
-   incorrectly framed?
-5. Is T1, the tangent-filter inheritance assumption packaged in
-   `docs/TRACE_SELECTOR_THEOREM.md`, natural or standard in the
-   character-variety/Fibonacci-Hamiltonian literature, or is it an inserted
-   selector?
+```text
+trace = 3.
+```
 
-## Reproduction
+This again forces:
+
+```text
+ab = 1,
+a = b = 1.
+```
+
+The two routes agree: torsion-free closure and minimal hyperbolic trace both
+select the same first mixed sector.
+
+## 6. Theorem
+
+**Theorem.** Under axioms A1-A6, the first mixed persistent sector is forced, up
+to the order convention A7, to be:
+
+```text
+A = L R = [[2,1],[1,1]].
+```
+
+It has:
+
+```text
+det A = 1
+trace A = 3
+charpoly(A) = t^2 - 3t + 1
+eigenvalues = phi^2, phi^-2
+```
+
+**Proof.** By A4, the first mixed closure has the form `B(a,b) = L_a R_b`.
+By the identities above, `det(B(a,b)-I) = -ab`. By A5 and the torsion lemma,
+torsion-free closure forces `ab = 1`; over positive integers, this gives
+`a = b = 1`. Equivalently, by A6 the first hyperbolic trace is `2 + ab = 3`,
+again forcing `ab = 1`. Hence `B(1,1) = LR = A`. The determinant, trace,
+characteristic polynomial, and eigenvalues are direct calculations.
+
+## 7. Order Is Not Cosmetic
+
+A1-A6 do not distinguish `LR` from `RL`. The two are conjugate and share trace,
+determinant, eigenvalues, and translation length. They are the same unbased
+sector.
+
+They differ as based Mobius transformations:
+
+| Sector | Fixed-point polynomial | Roots |
+|---|---|---|
+| `LR` | `tau^2 - tau - 1` | `phi`, `-1/phi` |
+| `RL` | `tau^2 + tau - 1` | `1/phi`, `-phi` |
+| `L A L^-1` | `tau^2 - 3 tau + 1` | `phi^2`, `phi^-2` |
+
+Thus the golden fixed-point polynomial is a based invariant of `A = LR`, not a
+conjugacy-class invariant. The order convention A7 is the residual binary input
+that selects the golden representative over its mirror.
+
+## 8. Downstream Consequences
+
+Given `A`, the governed core P1-P16 follows through existing exact-algebra
+claims and tests. This includes the phi-spectrum, figure-eight / punctured-torus
+monodromy host, closed-form `log A`, gluing identities, and the Mobius vector
+field and derived potential.
+
+This note does not restate those proofs. It only identifies the conditional
+route that forces `A` from the stated minimal-record assumptions.
+
+## 9. Non-Claims
+
+This theorem does not claim:
+
+```text
+the substrate is derived from nothing
+the order convention is forced from weaker data
+the result is a theory of physics
+units, particles, gauge fields, or observables are derived
+the frontier field-theory lift is proven
+```
+
+Correct status:
+
+```text
+conditional mathematical theorem candidate
+ready for external mathematical review
+not yet a public preprint
+```
+
+## 10. Reproduction
+
+Run from repository root:
 
 ```bash
 python -m pytest -q
 python -m pytest -q tests/test_uniqueness_theorem.py
-python frontier/B25_fibonacci_spectrum_anchor/probe.py
-python frontier/B26_lambda1_derivation_attempt/probe.py
-python frontier/B38_tangent_return_arithmetic_filter/probe.py
-python frontier/B47_s1_verdict_ledger/probe.py
 ```
+
+Current expected results:
+
+```text
+full suite: 83 passed, 1 skipped
+uniqueness theorem tests: 9 passed
+```
+
+## 11. Review Questions
+
+External review should focus on:
+
+```text
+Are A1-A7 precise enough?
+Is the torsion-free closure assumption natural or too tailored?
+Is the mapping-torus torsion lemma correct and convention-safe?
+Is "unique up to order" the right mathematical phrasing?
+Is the based-invariant distinction stated correctly?
+Should the P1-P16 corollary be narrowed before public drafting?
+Is the half-step trace-lift bridge (Appendix A) standard material, new packaging, or misframed?
+Is T1 (Appendix A) natural/standard in the character-variety or Fibonacci-Hamiltonian literature, or an inserted selector?
+```
+
+## 12. Appendix A -- Related frontier work (not part of the theorem)
+
+The following refine the structure around `A` but are **not** part of this
+conditional theorem. They are pointers for a reviewer who wants the wider
+context, and they mark the boundary between this theorem (PC02) and the
+trace-selector frontier (PC11 / C5).
+
+- **Half-step / record-swap.** The operational condition `(L X)^2 = A` isolates
+  `X = +/-P` in exact bounded searches, with `F = L P`, `F^2 = A`. This is
+  conditional on the half-step condition, or on an exchange-symmetry reading of
+  the two-record substrate. See `frontier/B13`-`B19`.
+- **Trace-map lift.** The Fibonacci trace map is the functorial half-trace lift
+  of `F`; at `(1,1,1)` its Jacobian gives `(t+1)(t^2-3t+1)`, the `-1` factor
+  generic for orientation-reversing lifts. The special object is the `A`
+  quadratic sector `t^2-3t+1`. See `frontier/B18`, `B22`.
+- **Conditional spectral anchor (PC11 / C5).** On the primitive projective
+  tangent return, `mu = 4c^2 - 2 = 4I + 2`; *if* T1 holds (the tangent return
+  inherits the original arithmetic persistence filters), minimal positive
+  hyperbolic trace gives `mu = 3`, hence `I = 1/4` and `lambda/h = 1`. T1 is
+  **not** derived from A1-A7; `lambda/h = 1` is conditional on T1, not a
+  prediction of this theorem. Packaged as C5 in
+  `docs/TRACE_SELECTOR_THEOREM.md`; frontier evidence in `B25`-`B47`.
+  Fibonacci-Hamiltonian context: Damanik, Gorodetski, Yessen, *The Fibonacci
+  Hamiltonian*, arXiv:1403.7823.
+
+None of these change the conditional theorem of Section 6.

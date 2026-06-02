@@ -123,6 +123,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   self-evidencing / variational-free-energy framing of `lambda=m` is quarantined
   with verdict `STALLED` (structural analogy only; the exact fact is the single
   identity `4c^2-2=m^2+2`; predicts no observable). Kept out of PC12.
+- PC02 draft note reconciled: the formal theorem-note structure (axiom table
+  A1-A7, mapping-torus torsion lemma via the Wang sequence, the LR/RL
+  based-invariant table, explicit theorem + proof) becomes the canonical
+  `papers/candidates/PC02_conditional_uniqueness/DRAFT_NOTE.md`, replacing the
+  earlier review-brief draft; the half-step / trace-map / conditional
+  spectral-anchor material is retained as a clearly-marked non-theorem appendix.
+  Editorial consolidation; PC02 stays `CONDITIONAL_THEOREM` / `NEEDS_VALIDATION`.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic
