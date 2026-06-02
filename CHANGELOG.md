@@ -176,6 +176,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   a sign sector appears, parity grows). **SL(5) unresolved** (`cond(Dx)~1e11`;
   needs a stable high-precision SVD solver or the symbolic ambient SL(5,C) trace
   ring). Numerical, method-validated for n=3,4; no claim promoted.
+- B61 SL(5) high-precision factorization added (`frontier/B61_sl5_high_precision/`):
+  ports the method to mpmath (dps 60) with a stable SVD pinv, and shows B60's
+  "`cond(Dx)~1e11` wall" was a **rank-23** forward-only word set (the 24th
+  singular value is the dps zero-floor, mis-read as `1e11` in double precision).
+  Inverse-word coordinates (`A,B,A^-1,B^-1`) restore rank 24 at `cond~1e4`, and
+  **22 of 24** SL(5) multipliers resolve to the catalog:
+  `char(M^-1)·char(M)^2·char(M^2)·char(M^3)·char(M^4)·char(M^5)·char(-M^2)·char(-M^3)·(t-1)^2(t+1)^2`
+  (powers climb to 5, sign sectors `-2,-3`, parity deg 4 -- the n=5 tower row).
+  The last 2 modes are a **method limit** (fixed-line rank-loss makes the pinv
+  `eps->0` limit gauge-dependent; residual scatters across seeds), needing the
+  symbolic ambient SL(5,C) ring. SL(3)/SL(4) reproduce to ~4e-14/~3e-9.
+  Numerical, high-precision; no claim promoted.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

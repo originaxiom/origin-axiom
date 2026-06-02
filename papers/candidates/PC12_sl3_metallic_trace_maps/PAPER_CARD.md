@@ -82,6 +82,9 @@ frontier/B54_general_c_exchange_structure/
 frontier/B55_c1_fixed_line_structure/
 frontier/B56_figure_eight_invariant_surface/
 frontier/B57_general_m_splitting/
+frontier/B59_sl4_factorization/
+frontier/B60_sln_tower/
+frontier/B61_sl5_high_precision/
 tests/test_sl3_metallic_trace_maps.py
 tests/test_sl3_certificate_proof_hardening.py
 tests/test_sl3_symbolic_m_factorization.py
@@ -90,6 +93,9 @@ tests/test_general_c_exchange_structure.py
 tests/test_c1_fixed_line_structure.py
 tests/test_figure_eight_invariant_surface.py
 tests/test_general_m_splitting.py
+tests/test_sl4_factorization.py
+tests/test_sln_tower.py
+tests/test_b61_sl5.py
 tests/test_pc12_draft_skeleton.py
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
@@ -136,6 +142,10 @@ B56 records the figure-eight I=1/4 bridge as a dead negative control (diagonal
 reps at I in {4,-17/2+-7sqrt5/2}, none=1/4)
 B57 classifies integer splitting for m=1..6 ({c=1,c=3} universal; class-field
 coincidence killed for m>=2)
+B59/B60 compute the SL(4) fixed-line factorization and the cross-n tower (n=3,4)
+by an extrapolated ambient Jacobian, validated on SL(3) ground truth
+B61 high-precision SVD pinv (dps 60) resolves 22 of 24 SL(5) multipliers
+(inverse-word coords, rank 24); SL(3)/SL(4) reproduce to ~4e-14/~3e-9
 ```
 
 ## Known Failures / Limits
