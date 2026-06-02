@@ -89,6 +89,11 @@ B61 SL(5) high-precision factorization (resolves B60's "barrier")
   rank 24, and 22 of 24 SL(5) multipliers resolve (powers{-1,1,1,2,3,4,5},
   signs{-2,-3}, parity deg 4); last 2 a method limit (fixed-line rank-loss)
 
+B62 opposition involution: the 2 unresolved SL(5) modes (live structural)
+  exchange involution = opposition involution theta=-w0; height-2 root-space split
+  reproduces SL(3)/SL(4) and gives char(M^2)^2.char(-M^2) for SL(5), so the 2
+  unresolved = second char(M^2) = {phi^2, 1/phi^2}; exact split, not yet proved
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -264,3 +269,13 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   makes the pinv `eps->0` limit gauge-dependent (residual scatters across seeds),
   needing the symbolic ambient SL(5,C) ring. SL(3)/SL(4) reproduce to
   `~4e-14`/`~3e-9`. Numerical, high-precision; no claim promoted.
+- **B62** — opposition involution: the 2 unresolved SL(5) modes (live structural
+  result). The B61 numerics cannot decide them (`tr(DT0)`/`det(DT0)` scatter
+  across seeds). Instead, identifying the exchange involution with the opposition
+  involution `theta=-w0` on the `sl(n)` root system: its eigenspace split on the
+  height-2 root space is exact and reproduces SL(3) (`char(M^2)`) and SL(4)
+  (`char(M^2).char(-M^2)`); for SL(5) it gives `char(M^2)^2.char(-M^2)`, so the 2
+  unresolved modes are a **second `char(M^2)` = {phi^2, 1/phi^2}** (residual modes
+  are positive, corroborating). Exact root-system split, validated on SL(3)/SL(4),
+  numerically corroborated; a symbolic proof still needs the ambient SL(5,C) ring.
+  No claim promoted.

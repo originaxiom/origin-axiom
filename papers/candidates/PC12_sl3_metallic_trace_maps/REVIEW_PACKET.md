@@ -48,6 +48,7 @@ frontier/B54_general_c_exchange_structure/FINDINGS.md     # [J(m,c),P]=0 on the 
 frontier/B55_c1_fixed_line_structure/FINDINGS.md          # c=1 sectors, general m
 frontier/B57_general_m_splitting/FINDINGS.md              # splitting classification m=1..6
 frontier/B59_sl4_factorization/, B60_sln_tower/, B61_sl5_high_precision/  # Appendix A tower
+frontier/B62_opposition_involution/                       # opposition-involution identification (Q4)
 ```
 
 ## Reproduction Commands
@@ -138,8 +139,12 @@ Q3. Is the empirical cross-n tower (Appendix A; n=3,4 complete, n=5 to 22/24)
     substitution action -- i.e. is there a representation-theoretic reason the
     multipliers are exactly char(M^k) of the metallic companion?
 Q4. Is the SL(5) 2-mode residual (fixed-line rank-loss / pseudoinverse
-    discontinuity) the expected obstruction, and is the symbolic ambient SL(n,C)
-    trace ring the standard route to it?
+    discontinuity) the expected obstruction? And is the structural identification
+    of those 2 modes sound -- namely, that the exchange involution is the
+    opposition involution theta=-w0 on the sl(n) root system, whose height-2
+    eigenspace split (char(M^2)^2.char(-M^2) for sl(5), reproducing sl(3)/sl(4))
+    forces the 2 modes to be a second char(M^2)? (See frontier/B62.) Is the
+    symbolic ambient SL(n,C) trace ring the route to a full proof?
 Q5. What standard terminology or existing theorem should replace any
     project-specific phrasing that remains?
 ```

@@ -196,6 +196,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   the entropy=spectral-radius citation (arXiv:0812.0853) and found no prior art
   for the Sec-6 splitting or the cross-n tower. `PAPER_CARD` readiness advanced to
   `READY_FOR_REVIEW`; ledger row V12. No claim promoted.
+- B62 opposition involution (`frontier/B62_opposition_involution/`): identifies
+  B61's 2 unresolved SL(5) fixed-line modes. The B61 numerics cannot decide them
+  (`tr(DT0)`/`det(DT0)` scatter across seeds). Identifying the exchange involution
+  with the opposition involution `theta=-w0` on the `sl(n)` root system, its
+  height-2 eigenspace split is exact and reproduces SL(3) (`char(M^2)`) and SL(4)
+  (`char(M^2).char(-M^2)`); for SL(5) it is `char(M^2)^2.char(-M^2)`, so the 2
+  unresolved modes are a second `char(M^2)` = {phi^2, 1/phi^2} (residual modes
+  positive, corroborating). Completes the SL(5) tower row (22 numerical + 2
+  structural). Recorded as a **live structural result**; a symbolic proof needs
+  the ambient SL(5,C) trace ring. Ledger V13. No claim promoted.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

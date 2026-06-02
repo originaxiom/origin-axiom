@@ -244,7 +244,17 @@ perturbation direction (it scatters across random `P,Q`). Those two are not
 recoverable by this representation-perturbation method and would require a
 symbolic ambient `SL(n,C)` trace-ring computation.
 
-This is reported as a numerical, method-validated observation only — **not** a
+A structural identification of those two modes: under the hypothesis that the
+exchange involution (`tr W <-> tr W^{-1}`) is the opposition involution
+`theta = -w_0` on the `sl(n)` root system, its eigenspace split on the height-2
+root space is `char(M^2)^2 . char(-M^2)` for `n=5` (and reproduces `n=3,4`
+exactly). As four of those six dimensions are resolved above as
+`char(M^2) . char(-M^2)`, the two remaining modes would be a second `char(M^2)`,
+i.e. eigenvalues `phi^2, 1/phi^2` (consistent with the residual modes being
+positive). This identification is structural, not proved here; it is one of the
+questions for a specialist (see the review packet, Q4).
+
+This appendix is a numerical, method-validated observation only — **not** a
 proven theorem and not part of the classification of Sections 2-7.
 
 ## Appendix B — Reproducibility
