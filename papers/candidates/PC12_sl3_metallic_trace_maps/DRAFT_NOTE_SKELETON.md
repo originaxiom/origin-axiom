@@ -306,5 +306,10 @@ delay-chain architecture.
 
 Testing `SL(4)` is a major computation (15 coordinates via Procesi's generating
 set for the `SL(4,C)` character variety of `F_2`, depth-4 Cayley-Hamilton
-recursion) -- a candidate future frontier probe (B58 or later), not built here.
-No claim is made until it is computed.
+recursion). **B58 attempted it** (`frontier/B58_sl4_tower_test/`): it confirms
+the mechanism (the `SL(4)` identity recursion is `(r-1)^4`, so derivative
+sequences are cubic in `k`) but the verdict is **NEEDS-EXPERTISE** -- the ambient
+15-coordinate trace map is required and not built, and the naive
+representation-based numerical route is ruled out (the fixed-line point is the
+degenerate identity representation, where traces are second-order). The `n=4`
+prediction stays **untested**; no claim is made until it is computed.

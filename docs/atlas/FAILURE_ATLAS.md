@@ -180,6 +180,25 @@ Typical missing object:
 a spectral symmetry that is not the trivial fixed point of the duality map
 ```
 
+### Fixed-Line Jacobian Needs The Ambient Trace Map (SL(n), n >= 4)
+
+The `char(M^k)` factorization (SL(3), B54/B55) is a property of the *ambient*
+trace-map Jacobian at the fixed line (all traces `= n`), which is the identity
+representation. There the representation-to-trace map is first-order degenerate
+(`d tr(W) = 0`; traces are second-order), so picking matrix representations near
+the identity and finite-differencing **cannot** recover that Jacobian -- it
+captures a different (second-order / representation-Hessian) object. Computing the
+fixed-line factorization for `SL(n)`, `n >= 4` therefore requires the explicit
+ambient trace map: a minimal generating set of `n^2-1` trace coordinates
+(Procesi) plus the substitution's action via the `SL(n)` trace identities. See
+`frontier/B58`.
+
+Typical missing object:
+
+```text
+the ambient SL(n,C) trace-coordinate map (generators + substitution action)
+```
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural

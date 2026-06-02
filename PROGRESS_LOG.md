@@ -1456,5 +1456,25 @@ candidate future probe (B58+), explicitly not a claim. Proven ledger unchanged.
 
 ---
 
+## 2026-06-02 — B58 SL(4) factor-count tower test (attempt; NEEDS-EXPERTISE)
+
+**Frontier attempt; no claim promotion.**
+
+Attempted the SL(n) tower prediction at `n=4` (`frontier/B58_sl4_tower_test/`).
+Confirmed the mechanism — the SL(4) identity forward recursion is `(r-1)^4`, so
+the fixed-line derivative sequences are cubic in `k` (degree `n-1`; SL(3) was
+`(r-1)^3`/quadratic) — and the obstruction: the fixed-line point (all traces
+`= n`) is the degenerate identity representation, where traces are second-order
+(`d tr(W)=0`), so a representation-based numerical Jacobian cannot recover the
+ambient fixed-line trace map that factors into `char(M^k)` (B54/B55). Testing the
+7-factor prediction requires the ambient 15-coordinate SL(4,C) trace map (Procesi
+generating set + substitution action via the SL(4) trace identities), not built
+here. Verdict **NEEDS-EXPERTISE**: the `n=4` prediction is untested (neither
+confirmed nor refuted) and stays a prediction in PC12. Locked by
+`tests/test_sl4_tower_test.py`. Suite: 93 passed, 1 skipped. Proven ledger
+unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

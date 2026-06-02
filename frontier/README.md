@@ -72,6 +72,10 @@ B57 general-m Diophantine splitting classification
   {c=1,c=3} universal splitting points; m-dependent extras (m=1..6); Hilbert
   class-field coincidence killed for m>=2
 
+B58 SL(4) factor-count tower test (attempt)
+  confirms SL(4) identity recursion (r-1)^4 + cubic derivatives; full 15x15
+  ambient Jacobian needs SL(4) trace identities; verdict NEEDS-EXPERTISE
+
 B28 projective quotient legitimacy
   controls whether the B26 sign quotient is canonical in lift-independent data
 
@@ -215,3 +219,10 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   antisymmetric quartic for `m=1..6`: `{c=1, c=3}` universal, m-dependent extras,
   counts `[4,4,4,3,2,5]`; the Hilbert-class-field coincidence is killed for `m≥2`.
   Extends PC12's Theorem-4 content. Standalone trace-map math; no claim promoted.
+- **B58** — SL(4) factor-count tower test (attempt). Confirms the mechanism (the
+  `SL(4)` identity recursion is `(r-1)^4`, so derivative sequences are cubic in
+  `k`; degree `n-1`) and the obstruction (the fixed-line point is the degenerate
+  identity representation, traces second-order, so a representation-based numerical
+  Jacobian cannot recover the ambient map). The full `15×15` ambient Jacobian
+  needs the SL(4,C) 15-coordinate trace map (Procesi + substitution action), not
+  built here. Verdict `NEEDS-EXPERTISE`; the SL(4) 7-factor prediction is untested.
