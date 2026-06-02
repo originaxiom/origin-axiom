@@ -52,6 +52,19 @@ quantum framework in which `D(I)` is a *bona fide* free energy / surprise,
 derived rather than assigned; and (b) an observable that the `λ = m` coupling
 controls and that a non-self-evidencing coupling does not. Neither exists.
 
+## Further controls (2026-06-02)
+
+- **Fisher information = Weil–Petersson coefficient (exact, elementary).**
+  `F(m) = 16/(m²(m²+4)) = 16/disc(char(M²)) = 16·g_WP(m²+2) = (4/Δ_eig)²`, with
+  `g_WP(α)=1/(α²−4)` the Goldman/Weil–Petersson coefficient. Exact (verified), but
+  it is the chain rule on `arccosh(2I+1)` plus `disc(t²−αt+1)=α²−4=1/g_WP(α)`. The
+  session itself flags the geometric reading as possibly "just calculus" — recorded,
+  **not promoted**.
+- **Aubry self-duality at `λ=m` is dead.** `λ=m` is the trivial fixed point of the
+  duality map `λ→m²/λ`, so "self-dual at `λ=m`" is vacuous; the off-diagonal model
+  has no genuine Aubry self-duality at `λ=m` for `m≥2` (session IPR test). No
+  metal–insulator observable. See `../../docs/atlas/FAILURE_ATLAS.md`.
+
 ## Relation to other probes
 
 - `../../frontier/B52_multichannel_fibonacci_bridge_control/` — the naive
