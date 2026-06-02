@@ -36,6 +36,8 @@ and properly positioned in the character-variety literature.
 14. `frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md`
 15. `frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md`
 16. `papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md`
+17. `papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md`
+18. `frontier/B54_general_c_exchange_structure/FINDINGS.md`
 
 Record any actionable finding in:
 
@@ -89,6 +91,7 @@ the Fibonacci Hamiltonian results are new gap-labeling mathematics
 the framework derives matter, gauge, gravity, spacetime, or awareness
 the metallic SL(3) direct/inverse trace distinction is particle physics
 the multichannel bridge is solved by the naive three-channel tight-binding model
+the metallic SL(3) self-evidencing condition (lambda=m) is a free energy or a Free Energy Principle result
 ```
 
 The correct status is:
@@ -96,5 +99,5 @@ The correct status is:
 ```text
 PC02: conditional theorem candidate, ready for mathematical validation
 PC11: computational/literature bridge, conditional on T1
-PC12: standalone metallic SL(3) arithmetic candidate, proof-hardened but not yet independently validated
+PC12: standalone metallic SL(3) computational note (rescaled after the 2026-06-01 literature screen: mostly STANDARD_REPACKAGE, Thm 4 the lone new bit); not yet independently validated; the self-evidencing/FEP framing is quarantined in paths/E21, not part of PC12
 ```

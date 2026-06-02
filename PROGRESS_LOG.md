@@ -1316,5 +1316,44 @@ negative result rather than an open ambiguity. No claims promoted; PC12 remains
 
 ---
 
+## 2026-06-01 — B53 literature screen, B54 general-c structure, PC12 rescale, E21 quarantine
+
+**Curated cross-session intake; no claim promotion.**
+
+- **B53 literature screen** (`papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md`):
+  classified PC12's blocks against the `SL(3,C)` character-variety and
+  substitution-trace-map literature. Verdict: Thm 1-3, the exchange
+  decomposition, and the symbolic-`m` factorization are `STANDARD_REPACKAGE`
+  (Lawton minimal `SL(3,C)` coordinates; Baake-Grimm-Roberts substitution trace
+  maps; Bellon-Viallet algebraic entropy = log of the metallic-mean Perron
+  root); only the fixed-line integer splitting (Thm 4) is `APPARENTLY_NEW`, and
+  it is elementary. PC12 rescaled `THEOREM_NOTE` -> `COMPUTATIONAL_REPORT`; still
+  `NEEDS_VALIDATION`. This is a screening pass, not specialist review.
+- **B54 general-c exchange structure** (`frontier/B54_general_c_exchange_structure/`):
+  proves `[J(m,c),P]=0` for symbolic `c` (m=1,2,3), generalizing B51's `c=3`
+  block-diagonalization to the whole fixed line; the reason is structural
+  (`P`-equivariance at the `P`-invariant fixed line). Records the `c=1` twin
+  polynomials — symmetric Eisenstein `t^2-t+1`, antisymmetric golden `t^2-t-1`,
+  discriminants -3 and 5, the same pair as the P12 figure-eight gluing equation —
+  and the `m=1` cyclotomic sweep `Phi_3, Phi_4, Phi_6, (t-1)^2, char(A)` at
+  `c=-1..3`. Locked by `tests/test_general_c_exchange_structure.py`. Standalone
+  trace-map math; no claim promoted.
+- **E21 self-evidencing closure quarantine** (`paths/E21_self_evidencing_closure/`):
+  an ambitious cross-session framing mapped the trace-map coupling `lambda=m`
+  onto a variational free energy. Verified the one exact fact (the half-return
+  characteristic polynomial equals `char(M^2)` at `I=m^2/4`) and recorded that it
+  is the single identity `4c^2-2=m^2+2`; `D(I)=(4I-m^2)^2` is a relabeled squared
+  residual; the free-energy mapping is structural analogy, not derivation; no
+  observable is predicted. Verdict `STALLED` (instantiates E18). Kept out of
+  PC12. The first-order `SL(3)` bridge tautology is noted in
+  `docs/atlas/FAILURE_ATLAS.md`.
+- **Not imported:** an external 9-page draft (self-evidencing framing; its
+  acknowledgments name AI platforms) was kept out of the repo pending a decision
+  reconciling acknowledgments with the repository privacy rule.
+
+Proven/conditional/open/dead ledger unchanged; no claim promoted.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

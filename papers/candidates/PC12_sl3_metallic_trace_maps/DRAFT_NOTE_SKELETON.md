@@ -1,6 +1,14 @@
 # PC12 Draft Note Skeleton
 
-Status: internal proof-draft skeleton. This is not a public preprint.
+Status: internal computational-note skeleton (rescaled 2026-06-01 from
+theorem-note per the B53 literature screen). Not a public preprint. Per
+`LITERATURE_POSITIONING.md`, Thm 1-3, the exchange decomposition, and the
+symbolic-`m` factorization are `STANDARD_REPACKAGE` (Lawton `SL(3,C)`
+coordinates; Baake-Grimm-Roberts substitution trace maps; Bellon-Viallet
+algebraic entropy); only Thm 4 (fixed-line splitting) is `APPARENTLY_NEW`, and it
+is elementary. The note states the standard blocks with citations and presents
+Thm 4 as the lone new arithmetic observation -- no heavy theorem-prose for the
+standard blocks is warranted.
 
 ## Working Title
 
@@ -60,6 +68,9 @@ prose proof: straightforward Cayley-Hamilton derivation needed
 machine check: B48 trace-map formula and direct SL(3,Z) sanity checks
 symbolic support: B51 derives the c=3 fixed-line derivative rows from the
   triple-root recurrence with m formal
+general-c support: B54 proves [J(m,c),P]=0 for symbolic c, so the exchange
+  block-diagonalization holds on the whole fixed line (not just c=3); the c=1
+  specialization gives the Eisenstein/golden twin polynomials (disc -3, 5)
 ```
 
 ### Theorem 2 -- Commutator Trace-Pair Invariant
@@ -245,9 +256,14 @@ python -m pytest tests/test_sl3_metallic_trace_maps.py tests/test_sl3_certificat
 PC12 can move from `NEEDS_VALIDATION` toward `DRAFTABLE` only after:
 
 ```text
-the global c>=15 and c<=-12 exclusions are written as readable prose
-the entropy no-cancellation proof is written cleanly
-the Lawton/Procesi/trace-map literature positioning is checked
-the compact SU(3) language is verified as non-physics
-the physics-bridge language keeps the B52 negative control explicit
+literature positioning -- DONE (LITERATURE_POSITIONING.md): rescaled to a
+  computational note; Thm 1-3 are STANDARD_REPACKAGE, Thm 4 the lone new bit
+entropy (Thm 3) stated with a Bellon-Viallet degree-growth citation, not as a
+  fresh theorem
+global c>=15 and c<=-12 exclusions (Thm 4, the one genuinely new block) written
+  as readable prose -- still worth doing
+compact SU(3) language verified as non-physics
+physics-bridge language keeps the B52 negative control explicit; the
+  self-evidencing / free-energy framing stays quarantined in paths/E21, not PC12
+independent specialist read of Thm 4 + framing -- deferred this cycle
 ```

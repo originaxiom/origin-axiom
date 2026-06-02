@@ -1,6 +1,8 @@
 # PC12 Literature Positioning
 
-Status: positioning note. This file is a validation guide, not a priority claim.
+Status: positioning note + completed literature screen (2026-06-01). The
+classification section below is a non-specialist screening pass, not specialist
+peer review.
 
 ## Best Short Description
 
@@ -83,4 +85,61 @@ Correct wording:
 
 ```text
 standalone higher-rank trace-map arithmetic candidate
+```
+
+---
+
+## Literature Classification (2026-06-01)
+
+Screening pass against the neighborhoods above. **This is a non-specialist
+literature screen, not peer review by an `SL(3,C)` character-variety or
+substitution-dynamics specialist; overlaps may exist that this screen misses.**
+Verdicts: `KNOWN` / `STANDARD_REPACKAGE` / `APPARENTLY_NEW` / `UNCLEAR`.
+
+| Block | Verdict | Basis in the literature |
+|---|---|---|
+| Thm 1 -- metallic `SL(3)` trace-map formula | STANDARD_REPACKAGE | The coordinate ring of the rank-two `SL(3,C)` character variety is a hypersurface in `C^9` with explicit minimal trace generators (Lawton 2008). Trace maps induced by free-group automorphisms are classical (Horowitz; Procesi). The metallic-family recurrences follow from Cayley-Hamilton reduction in these coordinates. Higher-than-`SL(2)` Fibonacci trace maps already appear in the physics literature (N-ary / ternary Fibonacci lattice, Phys. Lett. A, 1994). |
+| Thm 2 -- commutator trace-pair invariant | KNOWN / STANDARD_REPACKAGE | The two values `{tr[A,B], tr[A,B]^-1}` are the standard double-valued commutator coordinate of Lawton's `C^9` hypersurface. Invariance reduces to the group identity `[a^m b, a] ~ [a,b]^-1`, a one-line fact; the automorphism action on the commutator coordinate is standard mapping-class/character-variety theory. |
+| Thm 3 -- algebraic entropy `= log` metallic mean | STANDARD_REPACKAGE | Bellon-Viallet algebraic entropy is the exponential degree-growth rate; the "no-cancellation => degree dominance => entropy `= log`(growth rate)" argument is the standard Bellon-Viallet mechanism (degree growth becomes exponential precisely when cancellations are absent). The growth rate is the Perron root of the metallic substitution matrix `[[m,1],[1,0]]`, i.e. the metallic mean `(m+sqrt(m^2+4))/2`. |
+| Thm 4 -- fixed-line integer splitting classification | APPARENTLY_NEW (niche / elementary) | No source found classifying when this specific fixed-line Jacobian quartic splits over `Z`. It is an elementary Diophantine classification, not a spectral result; the Damanik-Gorodetski spectral theory of the Fibonacci trace map addresses a different question (hyperbolic non-wandering set, Cantor spectrum). Low general interest, but not located in the literature. |
+| Thm 5 -- compact `SU(3)` slice | STANDARD_REPACKAGE / minor | Compact-unitary restriction; the mapping-class action on `SU(3)` character varieties is studied (e.g. arXiv:1909.10968). A small explicit-representative computation. |
+| Exchange-symmetry block decomposition | STANDARD | Reversing-symmetry sector decomposition of trace maps is exactly the Baake-Grimm-Roberts "symmetries and reversing symmetries of trace maps" framework (arXiv:math/9901124). |
+| Symbolic-`m` factorization proof | STANDARD technique | Symbolic linear algebra over the triple-root `(r-1)^3` Cayley-Hamilton recurrence; proves a sub-component of Thm 4. |
+
+### Overall position
+
+PC12 sits at the **intersection of two established frameworks** -- Lawton's
+`SL(3,C)` rank-two character-variety coordinates and the Baake-Grimm-Roberts
+theory of substitution trace maps. Thm 1-3, the exchange decomposition, and the
+symbolic factorization are **standard methods applied to the metallic family**.
+The only component not located in the literature is **Thm 4**, the fixed-line
+integer splitting classification, which is elementary and niche.
+
+### Recommendation
+
+Rescale PC12 from a theorem-note to a **short computational report / note**: the
+metallic `SL(3)` trace-map family written down explicitly, with entropy and the
+commutator invariant credited to standard methods (Bellon-Viallet; Lawton; BGR),
+and Thm 4 presented as the one possibly-new arithmetic observation, flagged as
+elementary. Heavy theorem-paper proof prose for Thm 1-3 is not warranted. A
+specialist read remains the only way to confirm the Thm 4 novelty and the
+framing.
+
+### Sources (screening)
+
+```text
+Lawton, Minimal Affine Coordinates for SL(3,C) Character Varieties of Free
+  Groups -- arXiv:0709.4403 (J. Algebra 320, 2008)
+Lawton, Algebraic Independence in SL(3,C) Character Varieties of Free Groups
+  -- arXiv:0807.0798
+Baake, Grimm, Joseph, Trace maps, invariants, and some of their applications
+  -- arXiv:math-ph/9904025
+Baake, Roberts, Symmetries and reversing symmetries of trace maps
+  -- arXiv:math/9901124
+Bellon, Viallet, Algebraic entropy -- Comm. Math. Phys. 204 (1999)
+Damanik, Gorodetski, Hyperbolicity of the Trace Map for the Weakly Coupled
+  Fibonacci Hamiltonian -- arXiv:0806.0645
+Trace map for an N-ternary Fibonacci lattice -- Phys. Lett. A (1994)
+The mapping class group action on SU(3)-character varieties -- arXiv:1909.10968
+A remark on the trace-map for the silver mean sequence -- arXiv:1010.2476
 ```

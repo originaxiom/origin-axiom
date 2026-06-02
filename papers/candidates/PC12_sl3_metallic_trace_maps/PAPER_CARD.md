@@ -5,12 +5,19 @@ Status: paper candidate. No claims beyond governed repository artifacts.
 ## Classification
 
 ```text
-Type: THEOREM_NOTE / COMPUTATIONAL_REPORT
+Type: COMPUTATIONAL_REPORT
 Readiness: NEEDS_VALIDATION
 Priority: standalone companion to PC11, not an Origin-core promotion
-Main risk: the fixed-line splitting classification is certificate-assisted and
-must be made human-reviewable
+Main risk: per the 2026-06-01 literature screen (LITERATURE_POSITIONING.md),
+most blocks are STANDARD_REPACKAGE (Lawton SL(3,C) coordinates x
+Baake-Grimm-Roberts substitution trace maps); only the fixed-line splitting
+classification (Thm 4) is APPARENTLY_NEW, and it is elementary. The result is a
+computational note, not a theorem paper; specialist confirmation still needed.
 ```
+
+> **Rescaled 2026-06-01** from THEOREM_NOTE to COMPUTATIONAL_REPORT after the
+> B53 literature screen. The exact algebra stands and was extended (B54); the
+> framing is downgraded to match what is genuinely new.
 
 ## One-Sentence Thesis
 
@@ -34,10 +41,18 @@ B27 m=1 SL(3) Fibonacci trace lift
   -> B50 internal proof-draft skeleton
   -> B51 symbolic-m c=3 factorization proof module
   -> B52 multichannel physics-bridge negative control
+  -> B54 general-c exchange commutation (all c) + c=1 Eisenstein/golden twins
 ```
 
-The novelty, if any, is the metallic `SL(3)` trace-map package and its exact
-arithmetic controls. Literature priority remains a validation target.
+Per the 2026-06-01 literature screen (`LITERATURE_POSITIONING.md`), the
+trace-map formula (Thm 1), commutator invariant (Thm 2), algebraic entropy
+(Thm 3), exchange decomposition, and symbolic-`m` factorization are
+`STANDARD_REPACKAGE` — standard methods (Lawton; Baake-Grimm-Roberts;
+Bellon-Viallet) applied to the metallic family. Only the fixed-line integer
+splitting classification (Thm 4) is not located in the literature, and it is
+elementary. The contribution is therefore a governed, reproducible
+**computational note**, not a theorem paper; the `c=1` twin polynomials echo
+the figure-eight gluing-equation discriminant pair (P12).
 
 ## What Is Not Claimed
 
@@ -60,10 +75,12 @@ frontier/B49_sl3_certificate_proof_hardening/
 frontier/B50_pc12_proof_draft_assembly/
 frontier/B51_sl3_symbolic_m_factorization/
 frontier/B52_multichannel_fibonacci_bridge_control/
+frontier/B54_general_c_exchange_structure/
 tests/test_sl3_metallic_trace_maps.py
 tests/test_sl3_certificate_proof_hardening.py
 tests/test_sl3_symbolic_m_factorization.py
 tests/test_multichannel_fibonacci_bridge_control.py
+tests/test_general_c_exchange_structure.py
 tests/test_pc12_draft_skeleton.py
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
@@ -102,6 +119,8 @@ B51 proves the c=3 fixed-line Jacobian block factorization symbolically for
 formal m
 B52 confirms the naive three-channel Fibonacci tight-binding model has 6x6
 symplectic transfer matrices and fails the PC12 third-order trace recursion
+B54 proves [J(m,c),P]=0 for symbolic c (exchange block-diagonalization on the
+whole fixed line, generalizing B51) and records the c=1 Eisenstein/golden twins
 ```
 
 ## Known Failures / Limits
@@ -150,5 +169,11 @@ conditional status of PC11 or any Origin-core claim.
 Next governed path:
 
 ```text
-B53 -- PC12 global-exclusion proof text and literature-priority tightening
+B53 literature screen -- DONE (LITERATURE_POSITIONING.md): rescaled to a
+  computational note; heavy theorem-prose for the standard blocks is not warranted.
+B54 -- DONE: general-c exchange commutation + c=1 twin polynomials integrated.
+Remaining: independent specialist read (confirms Thm 4 novelty + framing),
+  deferred this cycle. No physics dictionary is claimed; B52 stays the explicit
+  negative control. The self-evidencing / free-energy framing is quarantined in
+  paths/E21_self_evidencing_closure/ and is not part of PC12.
 ```
