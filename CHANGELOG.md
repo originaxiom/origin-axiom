@@ -163,6 +163,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   cannot recover the ambient map). Verdict `NEEDS-EXPERTISE`; the 7-factor
   prediction stays untested. The full `15×15` ambient SL(4,C) trace map (Procesi
   generators + substitution action) is the required next build.
+- B59 SL(4) fixed-line factorization added (`frontier/B59_sl4_factorization/`):
+  resolves B58 numerically (method validated on SL(3) ground truth to ~4 digits).
+  The SL(4) spectrum factors as
+  `char(M^-1)char(M)char(M^2)char(M^3)char(M^4) · char(-M^2) · (t-1)^2(t+1)` —
+  5 clean `char(M^k)` (k=-1..4), a sign sector, and a degree-3 parity block —
+  **refuting** the naive `7 char(M^k) + parity` tower prediction. Numerical, not
+  a symbolic proof; no claim promoted.
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

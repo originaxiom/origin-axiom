@@ -292,24 +292,28 @@ Conjectured tower (`parity = 2` for odd `n`, `1` for even `n`):
 n   dim = n^2-1   parity   char(M^k) factors = (dim - parity)/2
 2   3             1        1     CONFIRMED (char(M^2))
 3   8             2        3     CONFIRMED (powers {-1, 2, 3})
-4   15            1        7     UNTESTED
+4   15            1        7     REFUTED  (B59: actually 5 char(M^k) + char(-M^2)
+                                          + degree-3 parity; see below)
 5   24            2        11    UNTESTED
 ```
 
-Status: **prediction, not proven.** Confirmed only at `n = 2, 3`. The
-parity-dimension count is sound (it follows from `P` pairing
-`tr(W) <-> tr(W^-1)`), but the assertion that the paired part organizes into
-exactly `(dim - parity)/2` *`char(M^k)`* factors -- rather than other degree-2
-polynomials -- is established only for `n <= 3`. The count alone does not predict
-*which* `M`-powers occur for `n >= 4`; that requires the explicit `SL(n)`
-delay-chain architecture.
+**Resolution (B59, `frontier/B59_sl4_factorization/`): the n=4 prediction is
+REFUTED.** B58 left it `NEEDS-EXPERTISE`; B59 computed the SL(4) fixed-line
+spectrum numerically (by extrapolating the ambient Jacobian
+`DT(eps)=D[tr W_i(AB,A)] . pinv(D[tr W_j(A,B)])` to `eps=0`, a method validated
+to ~4 digits against B55's SL(3) `c=3` spectrum). The actual factorization is
 
-Testing `SL(4)` is a major computation (15 coordinates via Procesi's generating
-set for the `SL(4,C)` character variety of `F_2`, depth-4 Cayley-Hamilton
-recursion). **B58 attempted it** (`frontier/B58_sl4_tower_test/`): it confirms
-the mechanism (the `SL(4)` identity recursion is `(r-1)^4`, so derivative
-sequences are cubic in `k`) but the verdict is **NEEDS-EXPERTISE** -- the ambient
-15-coordinate trace map is required and not built, and the naive
-representation-based numerical route is ruled out (the fixed-line point is the
-degenerate identity representation, where traces are second-order). The `n=4`
-prediction stays **untested**; no claim is made until it is computed.
+```text
+char(M^-1) . char(M) . char(M^2) . char(M^3) . char(M^4) . char(-M^2) . (t-1)^2 (t+1)
+```
+
+i.e. **5** clean `char(M^k)` (powers `k = -1,1,2,3,4` -- they do climb to 4),
+**plus a sign sector `char(-M^2)`** (eigenvalues `-phi^2, -phi^-2`, no SL(3)
+analog), **plus a degree-3 parity block** `(t-1)^2(t+1)`. So the
+`(n^2-1-parity)/2` "all char(M^k)" count is wrong: it is `3 (parity) + 5
+char(M^k) + 2 (char(-M^2)) = 15`, not `1 + 7`. The parity-dimension count alone
+was sound; the "all factors are char(M^k)" assumption was not.
+
+Status: B59 is **numerical (~3-4 digits), method-validated -- not a symbolic
+proof.** Symbolic confirmation still needs the ambient SL(4,C) trace ring (B58).
+The `n=5` case remains untested. No claim is promoted.

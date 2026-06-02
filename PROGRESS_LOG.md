@@ -1476,5 +1476,32 @@ unchanged.
 
 ---
 
+## 2026-06-02 — B59 SL(4) fixed-line factorization (numerical; tower prediction refuted)
+
+**Frontier evidence (numerical, method-validated); no claim promotion.**
+
+Resolved the SL(4) tower prediction that B58 left as `NEEDS-EXPERTISE`, by a
+method that sidesteps B58's obstruction: at a perturbed rep `A=exp(eps P)`,
+`B=exp(eps Q)` the trace-coordinate differential is full rank, so the ambient
+Jacobian `DT(eps)=D[tr W_i(AB,A)]·pinv(D[tr W_j(A,B)])` is computable, and
+`x(eps)→(n,..,n)` as `eps→0`; extrapolating gives the fixed-line Jacobian. The
+method reproduces B55's SL(3) `c=3` spectrum to ~4 digits (the credibility
+anchor). The SL(4) (15×15) spectrum factors as
+
+```text
+char(M^-1) · char(M) · char(M^2) · char(M^3) · char(M^4) · char(-M^2) · (t-1)^2(t+1)
+```
+
+— five clean `char(M^k)` (`k=-1,1,2,3,4`; powers climb to 4), one sign sector
+`char(-M^2)` (`-φ²,-φ⁻²`, no SL(3) analog), and a degree-3 parity block. This
+**REFUTES** the naive "7 `char(M^k)` + 1 parity" prediction (actual:
+`3 parity + 5 char(M^k) + 2 from char(-M^2)`). Numerical (~3-4 digits),
+method-validated — **not a symbolic proof**; symbolic confirmation still needs
+the ambient SL(4,C) trace ring (B58). PC12's "Open Prediction" updated to
+`REFUTED`. Locked by `tests/test_sl4_factorization.py`. Suite: 95 passed, 1
+skipped. Proven ledger unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
