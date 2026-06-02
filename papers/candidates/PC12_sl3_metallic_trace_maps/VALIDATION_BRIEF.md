@@ -25,15 +25,17 @@ It does not ask whether this derives physics or solves PC11's T1/S1 selector.
 Read in this order:
 
 ```text
+papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE.md          # the polished note
+papers/candidates/PC12_sl3_metallic_trace_maps/REVIEW_PACKET.md       # what to check + Q1-Q5
 papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md
 frontier/B48_sl3_metallic_trace_maps/FINDINGS.md
 papers/candidates/PC12_sl3_metallic_trace_maps/CERTIFICATE_APPENDIX.md
 frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md
 frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md
-papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md
 papers/candidates/PC12_sl3_metallic_trace_maps/LITERATURE_POSITIONING.md
 frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md
-frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md
+frontier/B59_sl4_factorization/FINDINGS.md                            # Appendix A tower (n=4)
+frontier/B61_sl5_high_precision/FINDINGS.md                           # Appendix A tower (n=5, 22/24)
 ```
 
 ## Reproduction Commands
@@ -63,6 +65,9 @@ Is the compact SU(3) slice stated as compact-unitary mathematics only?
 Does the literature already contain any part of the metallic SL(3) package?
 Does B52 correctly rule out the naive multichannel tight-binding bridge without
 overstating the negative result?
+Is the Appendix-A cross-n char(M^k) tower (n=3,4 complete, n=5 to 22/24) known or
+derivable, or genuinely new? Is the SL(5) 2-mode residual the expected
+fixed-line rank-loss obstruction?
 ```
 
 ## Core Missing Object

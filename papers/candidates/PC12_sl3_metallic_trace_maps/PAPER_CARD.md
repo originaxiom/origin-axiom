@@ -6,18 +6,25 @@ Status: paper candidate. No claims beyond governed repository artifacts.
 
 ```text
 Type: COMPUTATIONAL_REPORT
-Readiness: NEEDS_VALIDATION
+Readiness: READY_FOR_REVIEW (specialist read pending)
 Priority: standalone companion to PC11, not an Origin-core promotion
 Main risk: per the 2026-06-01 literature screen (LITERATURE_POSITIONING.md),
 most blocks are STANDARD_REPACKAGE (Lawton SL(3,C) coordinates x
 Baake-Grimm-Roberts substitution trace maps); only the fixed-line splitting
-classification (Thm 4) is APPARENTLY_NEW, and it is elementary. The result is a
-computational note, not a theorem paper; specialist confirmation still needed.
+classification (Thm 4 / note Section 6) is APPARENTLY_NEW, and it is elementary.
+The result is a computational note, not a theorem paper; specialist confirmation
+still needed.
 ```
 
 > **Rescaled 2026-06-01** from THEOREM_NOTE to COMPUTATIONAL_REPORT after the
 > B53 literature screen. The exact algebra stands and was extended (B54); the
 > framing is downgraded to match what is genuinely new.
+>
+> **Review-ready 2026-06-02.** Packaged for an external specialist read: the
+> polished, self-contained `DRAFT_NOTE.md`, a `REVIEW_PACKET.md` (with the five
+> sharpened questions Q1-Q5), and a `REVIEWABILITY_CHECKLIST.md`, mirroring PC02.
+> The numerical cross-n tower (B59/B60/B61) is folded in as Appendix A of the
+> note, labeled numerical. The actual specialist read is the remaining step.
 
 ## One-Sentence Thesis
 
@@ -45,6 +52,8 @@ B27 m=1 SL(3) Fibonacci trace lift
   -> B55 c=1 fixed-line structure for general m (symmetric mod-4; antisym char(M))
   -> B56 figure-eight I=1/4 bridge negative control (cyclotomic coincidence)
   -> B57 general-m Diophantine splitting classification ({c=1,c=3} universal)
+  -> B59/B60/B61 numerical cross-n char(M^k) tower (Appendix A; n=3,4 complete,
+     n=5 to 22/24) -- NOT a theorem; a specialist question (packet Q3)
 ```
 
 Per the 2026-06-01 literature screen (`LITERATURE_POSITIONING.md`), the
