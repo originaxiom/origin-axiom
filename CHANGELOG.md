@@ -286,6 +286,35 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   result (direct root-matching) is unaffected. Both facts, plus
   `char(-M^k)=char(M^{-k})` for odd `k` only and `L_k(-m)=(-1)^k L_k(m)` through
   `L_8`, are now locked in `tests/test_b66_sl6_tower.py`.
+- **CORRECTED MISCONCEPTION (B58 Stage 1, Ledger V21).** The scoping guesses that
+  the cotangent dimension is `3n^2-10n+11` (=8,19,36) and the excess `2(n-2)(n-3)`
+  (=0,4,12) were **never validated and are REFUTED** by the Đoković cross-check.
+  Kept visible (not deleted) so they are never re-derived. Actual cotangent (d-sigma
+  on `m/m^2` of the two-traceless-matrix trace algebra, modular over F_p, prime-stable):
+  `9` (n=3, = Teranishi 11 GL gens − 2) and `30` (n=4, = Đoković, exact per-degree
+  distribution), `>= 111` (n=5, PARTIAL lower bound). Actual excess (cotangent − the
+  `n^2-1` Jacobian) = `1, 15, >= 87` — a large mixed Dickson+parity multiset, the
+  *secondary* trace invariants (n=3: `det[X,Y]`). This **closes the cotangent route to
+  the `a_d` multiplicities** (see FAILURE_ATLAS); `a_d` needs the exterior-power
+  Cayley-Hamilton hand proof. (arXiv 2603.00816 Ishibashi-Mizuno confirmed real by
+  independent search; Kozai 1509.07487 and 2411.04431 pre-2026, fetched.)
+  *Forward guard:* no entropy/"spectral-weight" probe was produced; if one is ever
+  added, note that it computes `Σ|k|` spectral weight, NOT topological entropy
+  (= `n·log μ`, linear) — no `n^2` scaling, no fixed "antisymmetric fraction".
+
+### Added
+- B58 Stage 1 (`frontier/B58_stage1/`): the modular-F_p cotangent computation and the
+  Sym^{2k}/Kostant diagnostic (Step 2: bare = even-only/overshoot, coupled = odd-only,
+  neither = tower — B64's parity split is a sorting, not a formula). Tests in
+  `tests/test_b58_stage1.py`.
+- Overnight exploratory queue (`frontier/overnight_2026-06-03/`, Ledger V22/V23):
+  Job 1 time-reversal = Jacobian-level Dickson parity (corollary); Job 4 SL(7) partial
+  (constraints, char(M^3)=a_3=1 at n=7, INCONCLUSIVE); Job 2 SL(3) A-poly Sym^2 NO-GO
+  (geometric component is boundary-unipotent/GTZ); Job 3 cross-m m=2 = census m136,
+  framing OPEN; Job 5 skipped (gate). Job 6 AJ (`frontier/B68_aj_conjecture/`,
+  `frontier/aj_conjecture_check.json`): shelved, NOT promoted (order-2 recursion match
+  is below B67's exact-identity bar; q=1 limit unresolved). Literature review in
+  `frontier/literature_search.md` (principal-SL(2) / adjoint-torsion / Kozai framing).
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

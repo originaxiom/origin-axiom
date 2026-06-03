@@ -1,0 +1,64 @@
+{
+  "job": "aj_conjecture_check",
+  "started": "2026-06-03 08:23:03",
+  "status": "ok",
+  "knot": "figure-eight (4_1)",
+  "A_polynomial": "M^4 L^2 + (-M^8+M^6+2M^4+M^2-1) L + M^4  (Cooper-Long; from B67 trace map)",
+  "colored_jones": {
+    "J_1": "1",
+    "J_2": "q + 2 + 1/q",
+    "J_3": "q**3 + 2*q**2 + 4*q + 5 + 4/q + 2/q**2 + q**(-3)",
+    "J_4": "q**6 + 2*q**5 + 4*q**4 + 8*q**3 + 11*q**2 + 14*q + 16 + 14/q + 11/q**2 + 8/q**3 + 4/q**4 + 2/q**5 + q**(-6)",
+    "J_5": "q**10 + 2*q**9 + 4*q**8 + 8*q**7 + 14*q**6 + 21*q**5 + 30*q**4 + 40*q**3 + 48*q**2 + 54*q + 57 + 54/q + 48/q**2 + 40/q**3 + 30/q**4 + 21/q**5 + 14/q**6 + 8/q**7 + 4/q**8 + 2/q**9 + q**(-10)"
+  },
+  "minimal_recursion": [
+    {
+      "q": "(0.9323273456060345+0.361615431964962j)",
+      "minimal_order": 2,
+      "minimal_M_degree": 5,
+      "nullspace_gap": 103348982.32351843,
+      "annihilation_residual_N2_5": {
+        "2": 3.9643839719332597e-17,
+        "3": 2.495204475333154e-16,
+        "4": 7.197242748220343e-16,
+        "5": 3.9401952271472027e-16
+      }
+    },
+    {
+      "q": "(0.6137457494888116+0.7895037396899504j)",
+      "minimal_order": 2,
+      "minimal_M_degree": 5,
+      "nullspace_gap": 58291795366.92353,
+      "annihilation_residual_N2_5": {
+        "2": 2.200343280577997e-17,
+        "3": 2.4193723731152883e-17,
+        "4": 1.0423694635531255e-16,
+        "5": 7.23471236337687e-17
+      }
+    }
+  ],
+  "order_matches_A_L_degree": true,
+  "naive_quantization_residuals": {
+    "M=q^N (meridian^2), base N": {
+      "2": "nonzero",
+      "3": "nonzero",
+      "4": "nonzero",
+      "5": "nonzero"
+    },
+    "M=q^(N/2) (meridian), base N": {
+      "2": "nonzero",
+      "3": "nonzero",
+      "4": "nonzero",
+      "5": "nonzero"
+    },
+    "M=q^(N+1) (shifted)": {
+      "2": "nonzero",
+      "3": "nonzero",
+      "4": "nonzero",
+      "5": "nonzero"
+    }
+  },
+  "verdict": "STRUCTURAL MATCH (order): the colored Jones is q-holonomic with minimal recursion order 2 = A's L-degree, annihilating J_N (N=2..5) to ~1e-16; order 1 admits no recursion. The NAIVE symmetric quantization of A does NOT annihilate J_N (it is the q->1 shadow, missing the quantum corrections). The exact 'recursion|_{q=1} = A' identity is a proven theorem for 4_1 (Le); verifying it here is limited by convention (M_rec=q^N=meridian^2; A has only even M-powers) and by ill-conditioning of the q->1 nullspace -- flagged.",
+  "note": "Connects B67's trace-map A-polynomial to the colored Jones: the classical A-polynomial's L-degree (2) is exactly the order of the quantum recursion. Exploratory; no claim promotion.",
+  "finished": "2026-06-03 08:23:07"
+}

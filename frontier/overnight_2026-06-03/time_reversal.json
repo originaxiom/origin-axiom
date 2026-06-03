@@ -1,0 +1,53 @@
+{
+  "job": "time_reversal",
+  "started": "2026-06-03 01:57:59",
+  "status": "ok",
+  "SL3": {
+    "dim": 8,
+    "charpoly_J_factors": [
+      "(t+1)",
+      "(t-1)",
+      "char(-M^-3)",
+      "char(M^-1)",
+      "char(M^-2)"
+    ],
+    "charpoly_Jinv_factors": [
+      "(t+1)",
+      "(t-1)",
+      "char(-M^-1)",
+      "char(M^-2)",
+      "char(M^-3)"
+    ],
+    "time_reversal_PASS": true,
+    "rule": "even-k fixed, odd-k char(+M^k)<->char(-M^k)",
+    "reversal_equals_actual_inverse": true
+  },
+  "SL4": {
+    "dim": 15,
+    "charpoly_J_factors": [
+      "(t+1)",
+      "(t-1)",
+      "(t-1)",
+      "char(-M^-1)",
+      "char(-M^-2)",
+      "char(-M^-3)",
+      "char(M^-1)",
+      "char(M^-2)",
+      "char(M^-4)"
+    ],
+    "charpoly_Jinv_factors": [
+      "(t+1)",
+      "(t-1)",
+      "(t-1)",
+      "char(-M^-1)",
+      "char(-M^-2)",
+      "char(M^-1)",
+      "char(M^-2)",
+      "char(M^-3)",
+      "char(M^-4)"
+    ],
+    "time_reversal_PASS": true,
+    "rule": "even-k fixed, odd-k char(+M^k)<->char(-M^k)"
+  },
+  "finished": "2026-06-03 01:58:02"
+}

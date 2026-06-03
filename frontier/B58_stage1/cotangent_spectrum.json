@@ -1,0 +1,232 @@
+{
+  "job": "B58_stage1_step1_cotangent",
+  "m": 1,
+  "note": "COTANGENT spectrum (m/m^2) of the two-(traceless-)matrix trace algebra, labeled as such -- NOT a_d for n>=4 (inflated by excess). Validated against Teranishi (n=3: 9) and Djokovic (n=4: 30).",
+  "BRIEF_FORMULA_DISCREPANCY": "Brief's 3n^2-10n+11 (=8,19,36) and excess 2(n-2)(n-3) (=0,4,12) are REFUTED: actual cotangent = Teranishi/Djokovic minimal-generator count (9, 30, ...), excess = cotangent - (n^2-1) Jacobian = 1, 15, ... -- much larger and mixed. Flagged per hygiene item (Djokovic cross-check).",
+  "results": {
+    "n=3": {
+      "K_samples": 96,
+      "Lmax": 8,
+      "partial_best_effort": false,
+      "cotangent_dim": 9,
+      "Teranishi_Djokovic_traceless_count": 9,
+      "matches_published_count": true,
+      "brief_formula_3n2_10n_11": 8,
+      "per_degree": {
+        "2": {
+          "char(M^2)": 1,
+          "(t+1)": 1
+        },
+        "3": {
+          "char(M^-1)": 1,
+          "char(M^3)": 1
+        },
+        "4": {
+          "(t-1)": 1
+        },
+        "6": {
+          "(t+1)": 1
+        }
+      },
+      "cotangent_multiset": {
+        "char(M^2)": 1,
+        "(t+1)": 2,
+        "char(M^-1)": 1,
+        "char(M^3)": 1,
+        "(t-1)": 1
+      },
+      "prime_stable": true,
+      "jacobian_tower": {
+        "char(M^-1)": 1,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "(t-1)": 1,
+        "(t+1)": 1
+      },
+      "excess_multiset": {
+        "(t+1)": 1
+      },
+      "excess_dim": 1,
+      "brief_excess_dim_2(n-2)(n-3)": 0,
+      "seconds": 0.3
+    },
+    "n=4": {
+      "K_samples": 600,
+      "Lmax": 11,
+      "partial_best_effort": false,
+      "cotangent_dim": 30,
+      "Teranishi_Djokovic_traceless_count": 30,
+      "matches_published_count": true,
+      "brief_formula_3n2_10n_11": 19,
+      "per_degree": {
+        "2": {
+          "char(M^2)": 1,
+          "(t+1)": 1
+        },
+        "3": {
+          "char(M^-1)": 1,
+          "char(M^3)": 1
+        },
+        "4": {
+          "char(M^4)": 1,
+          "char(-M^2)": 1,
+          "(t-1)": 2
+        },
+        "5": {
+          "char(M^1)": 1
+        },
+        "6": {
+          "char(M^2)": 1,
+          "(t+1)": 2
+        },
+        "7": {
+          "char(M^-1)": 1
+        },
+        "8": {
+          "char(-M^2)": 1,
+          "(t-1)": 2
+        },
+        "9": {
+          "char(M^1)": 1,
+          "char(-M^3)": 1
+        },
+        "10": {
+          "(t+1)": 1
+        }
+      },
+      "cotangent_multiset": {
+        "char(M^2)": 2,
+        "(t+1)": 4,
+        "char(M^-1)": 2,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(-M^2)": 2,
+        "(t-1)": 4,
+        "char(M^1)": 2,
+        "char(-M^3)": 1
+      },
+      "prime_stable": true,
+      "jacobian_tower": {
+        "char(M^-1)": 1,
+        "char(M^1)": 1,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(-M^2)": 1,
+        "(t-1)": 2,
+        "(t+1)": 1
+      },
+      "excess_multiset": {
+        "char(M^2)": 1,
+        "(t+1)": 3,
+        "char(M^-1)": 1,
+        "char(-M^2)": 1,
+        "(t-1)": 2,
+        "char(M^1)": 1,
+        "char(-M^3)": 1
+      },
+      "excess_dim": 15,
+      "brief_excess_dim_2(n-2)(n-3)": 4,
+      "seconds": 147.7
+    },
+    "n=5": {
+      "K_samples": 1100,
+      "Lmax": 11,
+      "partial_best_effort": true,
+      "cotangent_dim": 111,
+      "Teranishi_Djokovic_traceless_count": null,
+      "matches_published_count": false,
+      "brief_formula_3n2_10n_11": 36,
+      "per_degree": {
+        "2": {
+          "char(M^2)": 1,
+          "(t+1)": 1
+        },
+        "3": {
+          "char(M^-1)": 1,
+          "char(M^3)": 1
+        },
+        "4": {
+          "char(M^4)": 1,
+          "char(-M^2)": 1,
+          "(t-1)": 2
+        },
+        "5": {
+          "char(M^1)": 2,
+          "char(M^5)": 1,
+          "char(-M^3)": 1
+        },
+        "6": {
+          "char(M^2)": 2,
+          "(t+1)": 3
+        },
+        "7": {
+          "char(M^-1)": 3,
+          "char(M^3)": 1
+        },
+        "8": {
+          "char(M^4)": 1,
+          "char(-M^2)": 3,
+          "(t-1)": 5
+        },
+        "9": {
+          "char(M^1)": 5,
+          "char(-M^3)": 3
+        },
+        "10": {
+          "char(M^2)": 5,
+          "char(-M^4)": 2,
+          "(t+1)": 8
+        },
+        "11": {
+          "char(M^-1)": 7,
+          "char(M^3)": 4,
+          "char(-M^5)": 1
+        }
+      },
+      "cotangent_multiset": {
+        "char(M^2)": 8,
+        "(t+1)": 12,
+        "char(M^-1)": 11,
+        "char(M^3)": 6,
+        "char(M^4)": 2,
+        "char(-M^2)": 4,
+        "(t-1)": 7,
+        "char(M^1)": 7,
+        "char(M^5)": 1,
+        "char(-M^3)": 4,
+        "char(-M^4)": 2,
+        "char(-M^5)": 1
+      },
+      "prime_stable": "single-prime",
+      "jacobian_tower": {
+        "char(M^-1)": 1,
+        "char(M^1)": 2,
+        "char(M^2)": 2,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(M^5)": 1,
+        "char(-M^2)": 1,
+        "char(-M^3)": 1,
+        "(t-1)": 2,
+        "(t+1)": 2
+      },
+      "excess_multiset": {
+        "char(M^2)": 6,
+        "(t+1)": 10,
+        "char(M^-1)": 10,
+        "char(M^3)": 5,
+        "char(M^4)": 1,
+        "char(-M^2)": 3,
+        "(t-1)": 5,
+        "char(M^1)": 5,
+        "char(-M^3)": 3,
+        "char(-M^4)": 2,
+        "char(-M^5)": 1
+      },
+      "excess_dim": 87,
+      "brief_excess_dim_2(n-2)(n-3)": 12,
+      "seconds": 2682.8
+    }
+  }
+}

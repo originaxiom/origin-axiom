@@ -1895,5 +1895,46 @@ unchanged.
 
 ---
 
+## 2026-06-03 — Closing the exploratory phase: B58 Stage 1 + overnight consolidation
+
+**Consolidation commit. Honest history: a corrected misconception is recorded, not deleted.**
+
+**Corrected misconception (Ledger V21).** A scoping guess that the cotangent dimension is
+`3n^2-10n+11` (=8,19,36) and the excess `2(n-2)(n-3)` (=0,4,12) was **never validated and is
+REFUTED** by the Đoković cross-check; kept visible so it is not re-derived. The cotangent
+spectrum (`d-sigma` on `m/m^2` of the two-traceless-matrix trace algebra, computed modular over
+F_p, prime-stable over 3 primes) is the genuine Teranishi/Đoković minimal-generator spectrum:
+**9** (n=3 = Teranishi 11 GL − 2), **30** (n=4 = Đoković, exact per-degree distribution
+3,4,6,2,4,2,4,4,1), and **>= 111** (n=5, PARTIAL lower bound at deg<=11, single prime, K=1100 --
+NOT a validated count). Excess = cotangent − `(n^2-1)` Jacobian = **1, 15, >= 87**.
+
+**Cotangent route to `a_d`: CLOSED** (FAILURE_ATLAS). The excess is the *secondary* trace
+invariants (n=3: `det[X,Y] = tr([X,Y]^3)/3`, sigma-eigenvalue −1; n=4: high-degree Đoković
+generators); primary-vs-secondary is module/syzygy structure, not sigma-weight, so no degree or
+factor rule separates the Jacobian primaries from the cotangent. Sharp at n=3: the tower's `(t+1)`
+and the excess's `(t+1)` share one 2-dim sigma-eigenspace. **B58 Step 2** killed the
+symmetric-power shortcut from the multiplicity side too (`sl(n)=+Sym^{2k}`: bare = even-only
+overshoot, coupled = odd-only; neither = tower; B64's parity split is a sorting, not a formula).
+Net: `a_d` needs the exterior-power Cayley-Hamilton hand proof (B58 proper).
+
+**Overnight consolidation (Ledger V22/V23).** Job 1 time-reversal promoted as a Dickson-parity
+COROLLARY (`charpoly(J^-1)=charpoly(J)` under even-k fixed / odd-k `char(+M^k)<->char(-M^k)`;
+"arrow of time" is a label only). Job 4 SL(7): CONSTRAINTS not conclusions (`char(M^3)=a_3=1` is
+the positive-power multiplicity at n=7, not total mult(3); `char(M^2)=3` weak; sign sector/`b_3`
+unreached; INCONCLUSIVE). Job 2 SL(3) A-poly: NO-GO (principal Sym^2 is the wrong component;
+geometric one is boundary-unipotent = the GTZ target). Job 3 cross-m m=2: census **m136**, B67
+framing does not transfer (residual ~6e-3), left OPEN. Job 5: correctly skipped. Job 6 AJ: NOT
+promoted, shelved in frontier (order-2 recursion match is below B67's exact-identity bar; q=1
+limit unresolved). Literature review folded in (`frontier/literature_search.md`: principal-SL(2),
+adjoint Reidemeister torsion, Kozai's fibered-3-manifold reducible deformations).
+
+**Forward guard:** no entropy/"spectral-weight" probe exists in the repo; if one is added later,
+it computes `Σ|k|` spectral weight, NOT topological entropy (= `n·log mu`, linear) -- no `n^2`
+scaling, no fixed "antisymmetric fraction" (those oscillate). **arXiv check:** 2603.00816
+(Ishibashi-Mizuno) confirmed real; Kozai 1509.07487 and 2411.04431 pre-2026. Suite green; locked
+by `tests/test_b58_stage1.py`. Proven core P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

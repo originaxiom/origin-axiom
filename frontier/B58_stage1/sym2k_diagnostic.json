@@ -1,0 +1,40 @@
+{
+  "job": "B58_stage1_step2_sym2k",
+  "m": 1,
+  "M": "[[1,1],[1,0]]",
+  "purpose": "predicted-NEGATIVE: Sym^{2k} principal-SL(2) decomposition != tower (kill #25, multiplicity side)",
+  "bare_kostant": {
+    "n=3": {
+      "dim": 8,
+      "spectrum": "char(M^2), char(M^4), (t+1), (t-1), char(-M^2)"
+    },
+    "n=4": {
+      "dim": 15,
+      "spectrum": "char(M^2)^2, char(M^4), char(M^6), (t+1)^2, (t-1), char(-M^2), char(-M^4)"
+    },
+    "n=5": {
+      "dim": 24,
+      "spectrum": "char(M^2)^2, char(M^4)^2, char(M^6), char(M^8), (t+1)^2, (t-1)^2, char(-M^2)^2, char(-M^4), char(-M^6)"
+    }
+  },
+  "coupled": {
+    "n=3": {
+      "dim": 16,
+      "spectrum": "char(M^1)^2, char(M^3), char(M^5), char(-M^1)^2, char(-M^3)^2"
+    },
+    "n=4": {
+      "dim": 30,
+      "spectrum": "char(M^1)^2, char(M^3)^3, char(M^5), char(M^7), char(-M^1)^4, char(-M^3)^2, char(-M^5)^2"
+    },
+    "n=5": {
+      "dim": 48,
+      "spectrum": "char(M^1)^4, char(M^3)^3, char(M^5)^3, char(M^7), char(M^9), char(-M^1)^4, char(-M^3)^4, char(-M^5)^2, char(-M^7)^2"
+    }
+  },
+  "tower_for_comparison": {
+    "n=3": "char(M^-1) char(M^2) char(M^3) (t-1)(t+1)",
+    "n=4": "char(M^-1) char(M) char(M^2) char(M^3) char(M^4) char(-M^2) (t-1)^2(t+1)",
+    "n=5": "char(M^-1) char(M)^2 char(M^2)^2 char(M^3) char(M^4) char(M^5) char(-M^2) char(-M^3) (t-1)^2(t+1)^2"
+  },
+  "verdict": "CONFIRMED NEGATIVE (expected): bare Kostant = even powers only, overshoots to M^{2(n-1)}; coupled = odd powers only; neither matches the tower (both parities, capped at M^n, open multiplicities). Symmetric-power coefficient decomposition does NOT reproduce the tower -- re-confirms kill #25 from the multiplicity side; B64 parity split is a sorting, not a formula."
+}
