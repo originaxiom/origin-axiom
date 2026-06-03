@@ -1,0 +1,173 @@
+{
+  "job": "B58_phaseA_jacobian_closure",
+  "m": 1,
+  "primes": [
+    2000003,
+    2000029,
+    2000039
+  ],
+  "method": "exact F_p eps-series least-squares pinv-limit of B66's DT(eps)=DX.pinv(Dx); B66 near-fixed-line word selection (basis choice); n x n matrix arithmetic auto-enforces Cayley-Hamilton/exterior-power closure",
+  "results": {
+    "n=3": {
+      "dim": 8,
+      "maxlen": 4,
+      "L": 8,
+      "n_words": 8,
+      "words": [
+        "bbbb",
+        "aaaa",
+        "BBBB",
+        "abab",
+        "AAAA",
+        "aBaB",
+        "AAbb",
+        "BBAA"
+      ],
+      "prime_stable": true,
+      "gate_pass": true,
+      "expected_tower": {
+        "char(M^-1)": 1,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "(t-1)": 1,
+        "(t+1)": 1
+      },
+      "computed_tower": {
+        "char(M^-1)": 1,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "(t-1)": 1,
+        "(t+1)": 1
+      },
+      "a_d": {
+        "2": 1,
+        "3": 1
+      },
+      "b_d": {}
+    },
+    "n=4": {
+      "dim": 15,
+      "maxlen": 4,
+      "L": 12,
+      "n_words": 15,
+      "words": [
+        "bbbb",
+        "aaaa",
+        "BBBB",
+        "AAAA",
+        "AbAb",
+        "aaBB",
+        "baba",
+        "BAAB",
+        "aBBB",
+        "aaab",
+        "babA",
+        "aaa",
+        "AbAA",
+        "BABB",
+        "BaB"
+      ],
+      "prime_stable": true,
+      "gate_pass": true,
+      "expected_tower": {
+        "char(M^-1)": 1,
+        "char(M^1)": 1,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(-M^2)": 1,
+        "(t-1)": 2,
+        "(t+1)": 1
+      },
+      "computed_tower": {
+        "char(M^-1)": 1,
+        "char(M^1)": 1,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(-M^2)": 1,
+        "(t-1)": 2,
+        "(t+1)": 1
+      },
+      "a_d": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "b_d": {
+        "2": 1
+      }
+    },
+    "n=5": {
+      "dim": 24,
+      "maxlen": 4,
+      "L": 12,
+      "n_words": 24,
+      "words": [
+        "AAAA",
+        "bbbb",
+        "BBBB",
+        "aaaa",
+        "baba",
+        "BBAA",
+        "aaBB",
+        "bbAA",
+        "bbbA",
+        "AAA",
+        "BBAB",
+        "babA",
+        "aaaB",
+        "BBBa",
+        "aaba",
+        "BABA",
+        "BAAA",
+        "BaBa",
+        "bbb",
+        "babb",
+        "BBA",
+        "aaa",
+        "bAAA",
+        "AbaB"
+      ],
+      "prime_stable": true,
+      "gate_pass": false,
+      "expected_tower": {
+        "char(M^-1)": 1,
+        "char(M^1)": 2,
+        "char(M^2)": 2,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(M^5)": 1,
+        "char(-M^2)": 1,
+        "char(-M^3)": 1,
+        "(t-1)": 2,
+        "(t+1)": 2
+      },
+      "computed_tower": {
+        "char(M^-1)": 1,
+        "char(M^1)": 2,
+        "char(M^2)": 1,
+        "char(M^3)": 1,
+        "char(M^4)": 1,
+        "char(M^5)": 1,
+        "char(-M^2)": 1,
+        "char(-M^3)": 1,
+        "(t-1)": 2,
+        "(t+1)": 1,
+        "UNTAGGED_REMAINDER": 1
+      },
+      "a_d": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "b_d": {
+        "2": 1,
+        "3": 1
+      }
+    }
+  }
+}
