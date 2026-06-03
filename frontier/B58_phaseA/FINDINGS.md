@@ -1,8 +1,57 @@
 # B58 Phase A — exact (n²−1) fixed-line Jacobian via ε-series over F_p
 
-**Date:** 2026-06-03. **Status:** exploratory, **uncommitted** (no commit/PR/ledger until
-reviewed — Stage 1 discipline). Proven core P1–P16 untouched. `m=1` throughout
-(`σ:(X,Y)→(X+Y,X)`).
+**Date:** 2026-06-03. **Status:** exploratory. Proven core P1–P16 untouched. `m=1` throughout
+(`σ:(X,Y)→(X+Y,X)`). Engine + n=4 pass committed (`efda953`); this update supersedes the §(c)
+causal framing below.
+
+---
+
+## UPDATE (2026-06-03) — the n=5 gap is the pinv-limit CONSTRUCTION, not the field/metric
+
+A follow-up brief hypothesized the n=5 `char(M²)` shortfall was an **F_p non-canonicity**
+artifact (finite fields have no positive-definite form → the least-squares metric is
+non-canonical → ambiguous at a degenerate eigenspace) and proposed an exact-ℚ + `S=I` fix
+(the analog of B66's real SVD-pinv) that should restore `a₂=2`. **The allowed cross-checks
+refute that diagnosis.** Three independent computations of the pinv-limit all return **`a₂=1`**
+at n=5 — across both fields and both metrics, including a genuinely positive-definite char-0 one:
+
+| computation | field | metric | char(M²) | leftover |
+|---|---|---|---|---|
+| this engine (committed) | F_p exact | random symmetric `S` | **1** | untagged deg-3 |
+| this engine, `S=I` | F_p exact, **prime-stable** (= ℚ mod p) | `S=I` (canonical) | **1** | untagged deg-3 |
+| B66 `fixed_line_spectrum` | ℝ (mpmath, dps 60) | MP-pinv (**positive-definite**) | **1** | `{−0.734, −0.734, 2.695}` |
+
+The `S=I` exact-F_p run is **prime-stable over 3 primes**, so for those primes `Dx·Dxᵀ` is
+non-singular and the result **equals the ℚ `S=I` result mod p** — the canonical-metric exact
+characteristic-zero answer is `a₂=1`. B66's real MP-pinv (literally the positive-definite char-0
+construction the fix invokes) also returns `a₂=1`. So **neither the field (F_p vs ℚ) nor the
+metric (random `S` vs `S=I`) is the cause** — the proposed exact-ℚ fix would reproduce `a₂=1`,
+not `a₂=2`. (A direct exact-ℚ engine, `_q_engine.py`, was written and **validated at n=3** — it reproduces
+`char(M⁻¹)·char(M²)·char(M³)·(t−1)(t+1)` exactly (~10 s) — confirming the construction is correct;
+but via sympy+`Fraction` it is impractically slow at n≥4 (n=4 did not finish in minutes vs the
+F_p engine's ~3 s, the anticipated rational blowup) without python-flint. It is also **not needed**:
+exact F_p with `S=I` already *is* the ℚ object mod p, prime-stably.)
+
+**The real cause: the pinv-limit is non-canonical at the n=5 degenerate even-k sector.** The
+leftover is a **non-Dickson** degree-3 block — B66's real eigenvalues there are
+`{−0.734, −0.734, 2.695}` (a *repeated* root, hinting at a defective/Jordan structure), nowhere
+near `char(M²)·(t+1)`'s roots `{2.618, 0.382, −1}`. At n=5 the even-k sector carries the *repeated*
+factors `char(M²)²` and `(t+1)²`; the `ε→0` least-squares limit at colliding eigenvalues is not a
+canonical operation, and **every** field/metric realization produces this defective cubic instead
+of the clean doubled Dickson factors. The clean `a₂=2` is recovered only by **B62's structural
+opposition-involution (θ=−w₀) argument**, which *does not go through the pinv-limit*. So the two
+characterizations **disagree exactly at the degenerate even-k block** — the pinv-limit / "ambient
+Jacobian" construction (B59–B66, any field/metric) underflows it; B62's structural split fills it.
+
+**This is the brief's anticipated outcome 3** ("the pinv-limit CONSTRUCTION, not the field,
+disagrees with B66/B62"). Per its binding rule: **STOP, do NOT patch** — the exact-ℚ field-swap
+is not the fix (the construction, not the arithmetic, is what underflows the degenerate sector),
+and the resolution (a degeneracy-aware canonical limit, or anchoring the multiplicities on B62's
+structural split rather than the pinv-limit at colliding eigenvalues) is a **joint decision, not a
+solo patch**. `a₂=2` is not in doubt (B62 structural); what is established is that **no pinv-limit
+realization recovers it at the collision** — the precise, corrected localization.
+
+---
 
 ## What this is
 

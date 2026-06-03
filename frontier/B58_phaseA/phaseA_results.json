@@ -169,5 +169,34 @@
         "3": 1
       }
     }
+  },
+  "n5_field_metric_crosschecks": {
+    "purpose": "settle whether the n=5 char(M^2) shortfall is field/metric (brief's hypothesis) or the pinv-limit construction",
+    "Fp_random_S": {
+      "char_M2": 1,
+      "prime_stable": true
+    },
+    "Fp_S_eq_I_canonical": {
+      "char_M2": 1,
+      "prime_stable": true,
+      "note": "S=I is the brief's canonical metric; prime-stable => Dx.Dx^T non-singular mod p => equals the exact-Q S=I result mod p"
+    },
+    "real_MP_pinv_mpmath_dps60": {
+      "char_M2": 1,
+      "leftover_eigenvalues": [
+        -0.734,
+        -0.734,
+        2.695
+      ],
+      "note": "positive-definite char-0 construction (the fix's own analog); leftover is NON-Dickson with a repeated root (defective/Jordan), not char(M^2).(t+1)={2.618,0.382,-1}"
+    },
+    "exact_Q_direct": {
+      "file": "_q_engine.py",
+      "status": "impractically slow via sympy+Fraction (no python-flint); n=4 alone >2min vs F_p ~3s (rational blowup)",
+      "note": "not needed: exact F_p with S=I already IS the Q object mod p, prime-stably"
+    },
+    "a2_true_value": 2,
+    "a2_true_source": "B62 structural opposition involution theta=-w0 (ledger V13); NOT pinv-limit-derived",
+    "conclusion": "ALL pinv-limit realizations (F_p random-S, F_p S=I, real MP-pinv) give char(M^2)=1 with a non-Dickson degree-3 leftover at the degenerate even-k sector (repeated char(M^2)^2,(t+1)^2). Field/metric is NOT the cause; the exact-Q fix would also give a_2=1. The pinv-limit CONSTRUCTION underflows the eigenvalue collision; a_2=2 is recovered only structurally (B62). Brief outcome 3: STOP, do not patch, joint reassessment."
   }
 }
