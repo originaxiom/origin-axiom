@@ -1936,5 +1936,25 @@ by `tests/test_b58_stage1.py`. Proven core P1-P16 unchanged.
 
 ---
 
+## 2026-06-03 — Punch-list closeout (post-reaudit) + tracked PC12-refresh deferral
+
+Closed the consolidation+audit arc (REPO_STATE.md). Applied the three trivially-safe punch-list
+items: (1) Ledger **V15 (B64)** status requalified `PROVEN (symbolic)` ->
+`PROVEN (symbolic, SL(3)); SECTOR-ASSIGNMENT (SL(4)); STRUCTURAL MECHANISM (general n)` to match
+the honest B64 README (full SL(3) symbolic proof; SL(4) sector-assignment; general-n is the
+mechanism -- not "general-n settled"). (2) `CLAIMS.md` date refreshed to 2026-06-03 with a note
+that the proven core P1-P16 is unchanged through all B58-B68 frontier work. (3) `CLAIMS.md`
+P7/P9 provenance footnote added (P7 sympy-verified-exact; P9 SnapPy/census + literature).
+
+**TRACKED DEFERRAL (do BEFORE any external PC12 specialist hand-off):** the PC12 candidate docs
+(`DRAFT_NOTE.md`, `PAPER_CARD.md`, `FALSIFIABILITY_MATRIX.md`, `LITERATURE_POSITIONING.md`)
+predate B58/B66/B67 and do not mention the SL(6) multiplicity result (`|k|=3 = 2`, `max(n-d,1)`
+refuted, B66), the figure-eight A-polynomial derived from the trace map (B67), or the
+cotangent-route closure (B58). They are **stale, not contradictory.** Fold these into the
+PC12 appendix/positioning before the specialist read. Deferred and tracked (also noted in
+`papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`). Proven core P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

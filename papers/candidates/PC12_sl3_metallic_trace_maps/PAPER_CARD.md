@@ -16,6 +16,13 @@ The result is a computational note, not a theorem paper; specialist confirmation
 still needed.
 ```
 
+> **TRACKED TODO (2026-06-03) — do BEFORE any external specialist hand-off.** These PC12 docs
+> predate B58/B66/B67 and do not yet mention: the SL(6) multiplicity result (`|k|=3 = 2`,
+> `max(n-d,1)` refuted, B66), the figure-eight A-polynomial derived from the trace map (B67),
+> or the cotangent-route closure (B58). They are *stale, not contradictory.* Fold these into the
+> Appendix-A tower / `LITERATURE_POSITIONING.md` before the specialist read. Deferral is
+> intentional and tracked (also in `PROGRESS_LOG.md`).
+
 > **Rescaled 2026-06-01** from THEOREM_NOTE to COMPUTATIONAL_REPORT after the
 > B53 literature screen. The exact algebra stands and was extended (B54); the
 > framing is downgraded to match what is genuinely new.

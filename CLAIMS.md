@@ -9,7 +9,9 @@ pointer. Prose elsewhere in the repo may not exceed the label of the claim it re
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-05-29 · proven ledger unchanged at 15 claims; C1 evidence
+**Last updated:** 2026-06-03 · the proven core P1–P16 is **unchanged through all B58–B68
+frontier work** (the SL(n) trace-map tower lives entirely in `frontier/` / PC12 — the date
+lag is not claim drift) · proven ledger unchanged at 15 claims; C1 evidence
 upgraded by `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace
 selector theorem; trace-map and spectrum work B13-B47 otherwise remains
 frontier only.
@@ -37,6 +39,12 @@ frontier only.
 | P16 | The gradient potential of P15's flow is `V(τ)=κ(τ³/3−τ²/2−τ)`, so `V′(τ)=κ(τ²−τ−1)`. Minimum at `φ` (`V″=+κ√5`), maximum at `−1/φ` (`V″=−κ√5`), and `τ=0` is **not** a critical point (`V′(0)=−κ`). Exact: integrate P15. No physical interpretation. | `tests/test_derived_potential.py` ✓ |
 
 *(P14 intentionally unused — reserved during the session-3 synthesis numbering.)*
+
+*Provenance of P7 and P9 (the `proven` basis made explicit):* **P7** is an exact identity
+verified in Sympy — computer-assisted-exact, not a hand proof. **P9** is figure-eight / m003
+census data (volume, `H₁`, Chern–Simons, amphichirality) from SnapPy plus the standard
+literature — software-verified established census facts. Both are `proven` on that basis;
+all other P-claims are exact algebra / standard sieve results.
 
 The field-theoretic lift of P15/P16 — the field equation `□τ+κ(τ²−τ−1)=0`, the
 Fisher–KPP creation dynamics, the particle spectrum (including the **non-exact**
