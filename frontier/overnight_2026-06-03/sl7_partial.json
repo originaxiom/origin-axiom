@@ -1,0 +1,80 @@
+{
+  "job": "sl7_partial",
+  "started": "2026-06-03 01:58:06",
+  "status": "ok",
+  "n": 7,
+  "dim": 48,
+  "dps": 50,
+  "num_words": 48,
+  "resolved_fraction": "34/48",
+  "likely_gauge_count": 8,
+  "low_k_profile": {
+    "|k|=1": {
+      "char(M^1)": {
+        "big_root": 1.618034,
+        "small_root": -0.618034,
+        "big_count": 3,
+        "small_count": 2,
+        "trustworthy": false,
+        "mult": null
+      },
+      "char(-M^1)": {
+        "big_root": -1.618034,
+        "small_root": 0.618034,
+        "big_count": 3,
+        "small_count": 2,
+        "trustworthy": false,
+        "mult": null
+      },
+      "|k|=1_multiplicity": null,
+      "INCONCLUSIVE": true
+    },
+    "|k|=2": {
+      "char(M^2)": {
+        "big_root": 2.618034,
+        "small_root": 0.381966,
+        "big_count": 3,
+        "small_count": 3,
+        "trustworthy": true,
+        "mult": 3
+      },
+      "char(-M^2)": {
+        "big_root": -2.618034,
+        "small_root": -0.381966,
+        "big_count": 1,
+        "small_count": 2,
+        "trustworthy": false,
+        "mult": null
+      },
+      "|k|=2_multiplicity": null,
+      "INCONCLUSIVE": true
+    },
+    "|k|=3": {
+      "char(M^3)": {
+        "big_root": 4.236068,
+        "small_root": -0.236068,
+        "big_count": 1,
+        "small_count": 1,
+        "trustworthy": true,
+        "mult": 1
+      },
+      "char(-M^3)": {
+        "big_root": -4.236068,
+        "small_root": 0.236068,
+        "big_count": 1,
+        "small_count": 3,
+        "trustworthy": false,
+        "mult": null
+      },
+      "|k|=3_multiplicity": null,
+      "INCONCLUSIVE": true
+    }
+  },
+  "eig1_to_5_condition_numbers": {
+    "min": 14.808,
+    "max": 8210323.581,
+    "median": 59008.914
+  },
+  "note": "Severe gauge degeneracy expected at n=7; |k| multiplicities are trustworthy only where big_count==small_count. Data to constrain, NOT a formula.",
+  "finished": "2026-06-03 02:17:34"
+}

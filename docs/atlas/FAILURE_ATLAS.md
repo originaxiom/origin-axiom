@@ -199,6 +199,41 @@ Typical missing object:
 the ambient SL(n,C) trace-coordinate map (generators + substitution action)
 ```
 
+### Cotangent-Subtraction Route To The Tower Multiplicities (CLOSED, B58 Stage 1)
+
+A natural attempt at the open `a_d` multiplicities: compute the full cotangent
+spectrum (`d-sigma` on `m/m^2` of the two-traceless-matrix trace algebra at the
+trivial representation) and *subtract* the `(n^2-1)` Jacobian to read off the
+multiplicities. **Closed.** The cotangent is the genuine Teranishi/Đoković
+minimal-generator spectrum -- dim 9 (n=3), 30 (n=4), >= 111 partial (n=5) -- far
+larger than the `(n^2-1)` Jacobian (8, 15, 24). The difference (the "excess",
+dim 1, 15, >= 87) is **not** a clean Dickson block and is **not** `sigma`-separable
+from the Jacobian: the excess is the *secondary* invariants of the trace ring
+(n=3: `det[X,Y] = tr([X,Y]^3)/3`, `sigma`-eigenvalue `-1`; n=4: the high-degree
+Đoković generators). Primary-vs-secondary is **module structure** (the syzygies),
+not `sigma`-weight, so no degree or factor rule peels the Jacobian primaries out.
+Sharp demonstration at n=3: the Jacobian tower's `(t+1)` and the excess's `(t+1)`
+occupy the *same* 2-dim `sigma`-eigenspace, so the `(n^2-1)` Jacobian is not a
+`sigma`-canonical sub-object of the cotangent.
+
+Typical missing object:
+
+```text
+the module (syzygy) structure separating primary from secondary trace invariants
+-- i.e. the exterior-power Cayley-Hamilton recursion (the B58-proper hand proof)
+```
+
+This also retired two adjacent shortcuts. **Symmetric-power / principal-`SL(2)`
+(Kostant) decomposition is dead from the multiplicity side too** (B58 Step 2):
+`sl(n) = +_{k} Sym^{2k}` gives, for the monodromy `M`, only even powers
+overshooting to `char(M^{2(n-1)})` (bare) or only odd powers (coupled with the
+`H^1(F_2)=C^2` factor); neither equals the tower (both parities, capped at `M^n`).
+B64's even-k/odd-k split is therefore a **sorting, not a formula**. And the
+**numerical (representation-perturbation) tower is exhausted at `n >= 6`**: the
+fixed-line rank-loss makes the `eps->0` pinv limit gauge-dependent (B66: 9 of 35
+modes gauge-corrupted; the matrix is non-canonical), so it cannot be pushed to
+higher `n`. All three routes point to the same missing object above.
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural
