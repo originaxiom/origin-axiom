@@ -70,8 +70,55 @@ This reproduces the **component structure** of the two independent published com
   membership) is the **B2–B3 continuation** — it needs an explicit SL(3) `(A,B)` realization off the
   Sym² curve (Lawton). Not claimed here.
 
-**Banked result:** the SL(3) figure-eight character variety, presented as `Fix(T_1²)` in fiber trace
-coordinates, has **exactly three 2-dimensional components, the geometric one containing the Sym² lift
-of the SL(2) holonomy** — reproducing the published HMP/Falbel structure from the trace map. Labeled
-**computer-assisted (exact symbolic decomposition + offline Sym² numerics)**, structural match to the
-literature, not a literal coordinate-ideal identity. Proven core P1–P16 untouched.
+**Banked result (B0–B1):** the SL(3) figure-eight character variety, presented as `Fix(T_1²)` in fiber
+trace coordinates, has **exactly three 2-dimensional components, the geometric one containing the Sym²
+lift of the SL(2) holonomy** — reproducing the published HMP/Falbel structure from the trace map.
+Labeled **computer-assisted (exact symbolic decomposition + offline Sym² numerics)**, structural match
+to the literature, not a literal coordinate-ideal identity. Proven core P1–P16 untouched.
+
+## B2–B3 — the peripheral eigenvalue A-variety (`peripheral.py`)
+
+The genuine B67 analogue: build explicit SL(3) reps on the fixed locus, derive the boundary
+(meridian/longitude) eigenvalue data, and compare to the published **eigenvalue A-variety**.
+
+- **B2 — explicit realization.** `realize(coords)` returns `(A,B) ∈ SL(3,C)` with the prescribed 8
+  trace coordinates: `A = diag` of the roots of `z³−x1·z²+x4·z−1`; `B` solved from the 6 trace
+  conditions + `det B=1` + 2 gauge conditions (fixing the diagonal torus that stabilizes `A`), with
+  the adjugate (`= B⁻¹` at `det 1`) keeping every condition polynomial. **Round-trips to `<1e-7` on
+  all three components**, `cond(B) ~ O(1–100)` (well-conditioned).
+- **B3 — monodromy and peripheral eigenvalues.** `t ∈ SL(3,C)` with `tA t⁻¹=φ(A)`, `tB t⁻¹=φ(B)`
+  (`φ: a↦a²b, b↦ab`, the figure-eight monodromy) via the **18×9 Kronecker null-space solve** (the
+  rank-3 analogue of B67's `kron` construction), residual `<1e-9`, `det t=1`. Meridian = eigenvalue
+  ratios of `t`; longitude = eigenvalue ratios of `[A,B]` — the PGL(3) "decorated" coordinates
+  (middle eigenvalue normalized to 1, as in Falbel et al.). *(Note: as already true at SL(2) in B67,
+  `t` and `[A,B]` do **not** commute as matrices — the A-variety relates their eigenvalues, not a
+  common eigenbasis.)*
+
+**Pipeline validation (geometric branch).** For a `Sym²` rep, `monodromy(Sym²A, Sym²B)` reproduces
+`Sym²` of the B67 SL(2) monodromy: `eig(t) = {μ², 1, μ⁻²}` (`μ = eig` of the SL(2) monodromy) to
+`~1e-13`. This confirms the realize→monodromy→eigenvalue pipeline is correct against B67 ground truth.
+
+**LITERAL A-variety match (Dehn-filling components) — the SL(3) Cooper–Long moment.** On the two
+trace-=1 components the trace-map peripheral eigenvalues satisfy the **published Falbel et al.
+(arXiv:1412.4711 §4.1) A-variety relations**, with the meridian↔longitude label transposed:
+
+| component | trace-map relation | Falbel | residual (median, 16 pts / 2 seeds) |
+|---|---|---|---|
+| **W1 = D2** | `M³ = L`, `M*³ = L*` | `L³ = M`, `L*³ = M*` | `~4e-10` |
+| **W2 = D3** | `M³L = 1`, `M*³L* = 1` | `L³M = 1`, `L*³M* = 1` | `~3e-10` |
+
+(`M` = eigenvalue ratios of the monodromy `t` (fibration generator), `L` = ratios of the fiber
+boundary `[A,B]`. The transpose is a convention choice of which peripheral curve is named meridian.)
+
+**Geometric component V0 (= Falbel D1).** No tidy closed A-variety form exists (their eliminated
+Gröbner basis is 141 polynomials), so no literal match is expected there; the Sym²-shadow validation
+is the geometric-branch check.
+
+**Banked result (B2–B3):** an explicit SL(3) realization + the Kronecker monodromy construction
+derive the peripheral eigenvalue A-variety from the trace-map fixed locus; the **Dehn-filling
+components literally reproduce Falbel et al.'s published A-variety relations `L³=M` / `L³M=1`**
+(meridian↔longitude transposed) to `~1e-10`, with the construction independently validated on the
+geometric branch by the Sym² shadow. This is the genuine SL(3) analogue of B67's exact Cooper–Long
+match, on the Dehn-filling components. Labeled **computer-assisted (exact component structure B1 +
+numerical realization/monodromy B2–B3, cross-validated against the published A-variety)**. Proven core
+P1–P16 untouched.
