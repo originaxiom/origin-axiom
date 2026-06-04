@@ -79,6 +79,12 @@ general law; it and B62's own θ-split make different n≥6 predictions.
 Applying B62's *own* `θ`-split (`probe.theta_split`, exact `A_{n-1}` combinatorics) at **every**
 height and reading `a_h=(θ+1)/2`, `b_h=(θ−1)/2` with `k=h`:
 
+> Notation: the precise form is `a_h = θ⁺_h/2`, `b_h = θ⁻_h/2`, where `θ⁺_h` / `θ⁻_h` are the
+> **+1 / −1 eigenspace dimensions** of `θ` on the height-`h` root space (always even). The shorthand
+> `(θ+1)/2` above refers to that eigenspace-dimension, **not** the trace `θ_h`. See
+> `CANDIDATE_A_D.md` for the precise statement and the closed form `a_h=⌈(n−h)/2⌉`, `b_h=⌊(n−h)/2⌋`.
+> The numbers in the table below are computed from the combinatorics, not from the shorthand.
+
 ```
             n=3       n=4         n=5
  h | (θ+,θ-)  a_h b_h | a_h b_h  | a_h b_h   (θ-recipe)   known a_h/b_h
