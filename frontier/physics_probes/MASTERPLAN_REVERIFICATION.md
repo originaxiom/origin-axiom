@@ -18,12 +18,23 @@ buggy:** those rows are *completeness equations* (they equal `(−1)^c` at any s
 holonomy extractors** — they returned a constant `(−1,1)` for every Dehn filling, i.e. degenerate
 `(±i,±1)` points and garbage "matches" (including a spurious Cooper-Long ↔ m136 match). Caught by a
 head-to-head: the fundamental-group route gives properly **varying** `(M²,L²)`; the shape "holonomy"
-is constant. **The shape-route is discarded.** The reliable verification remains **Gate 0 (V32)** —
-fundamental-group holonomy, a clean figure-eight control (Cooper-Long 88% on 4₁, 6% on m136), m=2
-eliminant 100% @ 1e-15 on m136. The full **symbolic gluing-variety elimination** is the gold-standard
-independent check and is **deferred** (high effort; Gate 0's controlled result is already strong).
-*(This is paranoid-verify working: a buggy "independent route" was caught, not reported as a
-confirmation.)*
+is constant. **The shape-route is discarded.**
+
+**Follow-up: the symbolic gluing-variety elimination was also attempted (sequential resultants on the
+SnapPy edge+cusp equations) and ALSO FAILS its figure-eight control.** It runs (exact integers, n−1
+edges) and yields a polynomial `A_glue(hM,hL)` that happens to match Cooper-Long at the L²/L⁰ ends
+(`hM⁴`), but `A_glue` does **not** vanish on the trusted fundamental-group `(M,L)` (best residual
+~5e-2 over all framings/signs) — so the generic-resultant approach has unresolved A-polynomial-from-
+gluing convention errors (the cusp-holonomy normalization / framing, which SnapPy handles with a
+specialized algorithm, not generic elimination). `script: gluing_elim2.py`.
+
+**Net for Phase 2:** TWO attempted independent routes (shape-route, resultant elimination) both fail
+the figure-eight control, so neither is trusted. **The reliable verification remains Gate 0 (V32)** —
+fundamental-group holonomy, which *passed* its figure-eight control (Cooper-Long 88% on 4₁, 6% on
+m136) and gave the m=2 eliminant at 100% @ 1e-15 on m136. The gold-standard symbolic A-polynomial
+needs SnapPy's specialized routine or Sage (cypari alone + generic resultants is insufficient), and
+remains the open item. *(This is paranoid-verify working: TWO buggy "independent routes" were caught
+by their failing controls and discarded, rather than reported as confirmations.)*
 
 ## Phase 4 — invariants + the 2-isogeny aside (handoff B), and SW closure
 - Binary-quartic invariants of `M⁴−6M²+1`: **I=4, J=0** ⇒ Jacobian `Y²=4X³−4X = (Y/2)²=X³−X`
