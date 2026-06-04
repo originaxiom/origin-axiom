@@ -1,10 +1,12 @@
 # Candidate general-`n` `a_d` formula (opposition-involution / θ=−w0 split)
 
 **STATUS: CANDIDATE — structural-conjecture. Verified-match for n=3,4,5 (full tower, every factor);
-UNPROVEN (needs the trace-ring identification, B58 proper); INCOMPLETE (the height-1 / wrap
-power-assignment and the parity are OBSERVED, not derived). NOT a theorem.**
+UNPROVEN (needs the trace-ring identification, B58 proper). The height-1 / wrap piece is now
+EXPLICIT and structurally motivated by the Cayley–Hamilton wrap (§ii) — narrowing the earlier
+"incomplete" gap — but the identification to the Jacobian and the proof remain open, so the overall
+status stays CANDIDATE (not a theorem). NOT a theorem.**
 
-Date 2026-06-03. Root-system bookkeeping only (B62's existing `probe.theta_split` / `roots_of_height`;
+Date 2026-06-03 (height-1 form + max(n−d,1) reconciliation added 2026-06-04). Root-system bookkeeping only (B62's existing `probe.theta_split` / `roots_of_height`;
 no Jacobian computation). `m=1` throughout; `M=[[1,1],[1,0]]`, `char(M^k)=t²−L_k t+(−1)^k`,
 `char(−M^k)=t²+L_k t+(−1)^k`, `L_k=tr(M^k)` (Lucas).
 
@@ -36,14 +38,27 @@ height `h`, iff `n+h` is odd.) This is the form B62 verified at `h=2`; it reprod
 always even, and the top height `h=n−1` has a 2-dim (not 1-dim) root space `{e_1−e_n, e_n−e_1}`, so
 `a_{n−1}=1`, no half-integers.
 
-**(ii) Height 1 + wrap factors — OBSERVED, NOT derived (the gap):**
+**(ii) Height 1 + wrap factors — EXPLICIT; structurally motivated by the CH wrap;
+identification to the Jacobian still pending (B58):**
 ```
    height-1 root space (dim 2(n−1))  =  char(M^1)^(n−3) · char(M^−1)^1 · char(M^n)^1
 ```
-i.e. `a_1 = n−3`, plus the inverse factor `char(M^−1)` (mult 1) and the top "Coxeter" factor
-`char(M^n)` (mult 1). The dimension matches (`2(n−3)+2+2 = 2(n−1)`) and `a_1=n−3` matches n=3,4,5,
-**but the θ-split alone does not assign these powers** — why height-1 carries `M^1, M^−1, M^n`
-rather than `M^1/−M^1` is the observed-not-derived piece.
+Explicit multiplicities: `a_1 = n−3`, `a_n = 1` (the Coxeter-number factor `char(M^n)`), and the
+inverse factor `char(M^−1)` at mult 1.
+
+**Structural origin (the "why").** At every height `h = 2..n−1` the θ split gives the clean counts
+`a_h=⌈(n−h)/2⌉`, `b_h=⌊(n−h)/2⌋`. Height 1 *deviates* from that pattern (which would give
+`a_1=⌈(n−1)/2⌉`, not `n−3`) because the **Cayley–Hamilton identity** — the degree-`n` relation
+`A^n = e_1 A^{n−1} − … ± I` — **wraps one factor from degree 1 up to degree `n`**. This is precisely
+why `a_1 = n−3` (one `char(M^1)` is consumed by the wrap) and why `a_n = 1` appears with no root
+height of its own (`n` is the Coxeter number of `A_{n−1}`; `char(M^−1)` is the natural wrap-around).
+The CH wrap is a *motivation*, not yet a proof; the trace-ring identification remains the open step.
+
+> **Verification note — no separate `b_1`.** `char(−M^1) = char(M^−1) = t²+t−1` are the **same
+> polynomial** (`L_1=1`, `(−1)^1=−1`; `L_{−1}=−1`, `(−1)^{−1}=−1`). The single self-dual `t²+t−1`
+> factor is counted **once** here as `char(M^−1)`; there is **no** additional `char(−M^1)`/`b_1`
+> factor — adding one would over-count the height-1 space to `2n` instead of the correct `2(n−1)`
+> (and break the dimension-sum). The known towers n=3,4,5 carry exactly one `t²+t−1`.
 
 **(iii) Cartan / parity (height 0, dim `n−1`) — also a θ-split, observed:**
 ```
@@ -94,6 +109,29 @@ the collision type where Phase A proved the pinv-limit **under-counts**: at n=5 
 (the candidate matches every n≤5 factor; B66 is the method demonstrably wrong at this collision and
 only resolved 26/35 of the n=6 row). **But neither is rigorous**, so `a₃(n=6)` is recorded OPEN —
 not asserted — pending a degeneracy-aware (canonical) computation or the trace-ring proof.
+
+**Total `mult(|k|=3)` at n=6 = 3 — and what this does (and does NOT) mean for `max(n−d,1)`.**
+The candidate gives `a₃=2`, `b₃=1`, so the total `mult(|k|=3) = a₃ + b₃ = 3` at n=6. More generally
+the candidate's total at every `|k|=d`, `d=2..n−1`, is
+`a_d + b_d = ⌈(n−d)/2⌉ + ⌊(n−d)/2⌋ = n − d`, which **equals `max(n−d,1)`** (`= n−d` for `d ≤ n−1`).
+
+> **Correction / verification (2026-06-04) — read this carefully; it reverses a recollection.**
+> `max(n−d,1)` was a formula for the **total** `mult(|k|=d) = a_d + b_d`, **not** for the positive
+> sector `a_d`. (Check at n=5, `d=3`: `max(5−3,1)=2` equals the total `a₃+b₃ = 1+1 = 2`, **not**
+> `a₃ = 1` — so as an `a_d`-claim it would already be wrong at n=5.) Therefore the candidate
+> **REPRODUCES `max(n−d,1)` as a total-multiplicity formula** (`total = n−d`); it does **not** refute
+> it. The candidate's genuinely new content is the **decomposition** `a_d=⌈(n−d)/2⌉ < n−d`,
+> `b_d=⌊(n−d)/2⌋` — which `max(n−d,1)` never specified.
+>
+> **Consequence — Ledger V17 needs review (FLAGGED, not edited here).** V17 records "B66 refutes
+> `max(n−d,1)`" on the basis of B66's *measured* `mult(|k|=3)=2` at n=6 (vs `max=3`). But that
+> measured `2` is exactly the **suspected degenerate under-count** (the candidate and `max(n−d,1)`
+> both give `3 = a₃+b₃` with `a₃=2`; B66 discarded a 3rd `|k|=3` mode as "gauge-corrupted"). So the
+> "refutation of `max(n−d,1)`" is **entangled with the under-count and is itself now OPEN** —
+> `max(n−d,1)`-as-total (=3) is the better-supported value, B66's `2` the suspected under-count.
+> This is **flagged for human decision**, not recorded as a kill-reversal: V17 and the FAILURE_ATLAS
+> entries are left unchanged here. (Note: the FAILURE_ATLAS kills — cotangent, Sym²ᵏ, pinv
+> under-count — are unaffected and stand; only the Ledger-V17 `max(n−d,1)` *refutation* is in question.)
 
 Also OPEN at n≥6: `b_d`. The candidate gives `b_2(n=6)=2`, whereas the old pattern `b_d=[d≤n−2]`
 gives `1`; these agree only for n≤5 and **diverge at n=6**. (See VALIDATION_LEDGER downgrade.)
