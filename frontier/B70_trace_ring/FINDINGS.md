@@ -40,37 +40,42 @@ multi-block algebra, only the incorporation of a *single two-index generator* ti
 This both explains why every single-index route stalled (they cannot produce even one `a·b` term) and
 gives the **minimal** extra structure a first-principles closure must add.
 
-## e₂-sector closure attempt — the rank-1 generator does NOT suffice (but the closure is bounded/finite)
+## e₂-sector closure — the rank-1 generator does NOT suffice; the closure is bounded at bidegree (3,3)
 
-`e2_sector_closure.py`. The fixed-line Jacobian uses the **full ε-series** (the 15 coordinates separate
-only across orders 1..L — the B58-Phase-A "rank-3 Fricke block" fact); the rank-1 result above is the
-**leading (ε²) order**. Computing the non-separable (two-index) content of `tr(AᵃBAᵇB)` at higher
-ε-orders (traceless X,Y):
+**The bound is correct, but it rests on the UNIPOTENT fixed-line object — not the generic ε-series.**
+(Correction, 2026-06-04, after independent recheck.)
 
-| ε-order | non-separable `(a,b)`-bidegrees | max bidegree |
-|---|---|---|
-| ε² | `(1,1)` | (1,1) — **rank-1** |
-| ε³ | `(1,1),(1,2),(2,1)` | (2,1) |
-| ε⁴ | `…,(2,2),(3,1)` | (3,1) |
-| ε⁵ | `…,(2,3),(4,1)` | (4,1) |
-| ε⁶ | `…,(3,3),(5,1)` | (5,1) |
+`e2_sector_closure.py` first measured the two-index `(a,b)`-content of `tr(AᵃBAᵇB)` via the **generic**
+traceless tangent `A=(I+εX)^a`. That object's content **grows unbounded** with ε-order — the max
+single-index degree equals the ε-order (1, 2, 3, …, **7** by ε⁸):
 
-**The two-index content grows with ε-order** — so a *single* rank-1 generator does **not** close the
-e₂ sector; the closure needs the higher-bidegree two-index structure across orders. This is the honest
-verdict: the optimistic "one generator closes it" is refuted.
+| ε-order | max single-index degree in a two-index monomial |
+|---|---|
+| ε² | 1 | ε³ → 2 | ε⁴ → 3 | ε⁵ → 4 | ε⁶ → 5 | ε⁷ → 6 | ε⁸ → 7 |
 
-**But the closure is BOUNDED / finite.** The fixed-line derivative sequences have degree `≤ n−1 = 3`
-(the `c=n` nilpotency — B58_sl4), so the Jacobian-relevant two-index content caps at **bidegree
-`(3,3)`**. The e₂-sector closure is therefore a **finite, bounded multi-generator problem** (a
-two-index generator set of bidegree `≤(3,3)`), with the rank-1 `(1,1)` term as its leading order — not
-a single generator, but **not an unbounded wall either.**
+So the generic ε-series does **not** demonstrate a `(3,3)` cap; the lone `(3,3)` it prints at ε⁶ is one
+monomial among a growing set. **The right object is the unipotent fixed line** (`c=n` ⇒ every trace
+`=n` ⇒ `A` unipotent, `(A−I)ⁿ=0`), on which
+
+    A^a = (I+N)^a = Σ_{j=0}^{n−1} C(a,j) N^j    (exact, N^n=0)  ⇒  a-degree ≤ n−1 = 3,
+
+so `tr(AᵃBAᵇB)` has bidegree **≤ (3,3)** — a one-line consequence of the `c=n` nilpotency (the proven
+B58_sl4 fact that fixed-line derivative sequences are degree `≤ n−1` in word-length, here per index).
+`e2_unipotent_bound.py` verifies this directly: with `A=I+N_A` (upper-nilpotent of index `n`) and
+`B=I+N_B` (lower-nilpotent, so the word is non-triangular), the bidegree is **exactly (3,3)** for a
+full-index `N_A` (and `(idx−1, idx−1)` for index `idx`). The optimistic "one generator closes it" is
+refuted (the content is genuinely two-index past `(1,1)`), but the closure is a **bounded, finite**
+problem (bidegree `≤(3,3)`), with the rank-1 `(1,1)` term as its leading order — not an unbounded wall.
 
 ## Honest status
 
 Two banked results: (1) the two-block obstruction's *leading order* is rank-1, exactly `e₂` (rigorous,
-traceless sl(n), n=4,5); (2) the *full* e₂-sector closure needs a **bounded** (bidegree ≤(3,3))
-multi-generator two-index set, not one generator. Together these turn the long-standing "two-block
-barrier" from a vague wall into a **precise, finite, bounded** structure — the genuine content a
-first-principles trace-ring proof must assemble. The full symbolic assembly of that bounded set into
-`J(m)` (gated vs B65) is the substantial continuation; labeled **computer-assisted structural
-characterization**, not PROVEN. Proven core untouched.
+traceless sl(n), n=4,5 — `two_block_rank1.py`, unaffected by the correction); (2) the *full* e₂-sector
+closure needs a **bounded** (bidegree `≤(3,3)`) multi-generator two-index set, the bound being a
+one-line consequence of the `c=n` unipotency (`e2_unipotent_bound.py`; the earlier
+`e2_sector_closure.py` generic-ε-series was the wrong object and is kept only as the unbounded-growth
+contrast). Together these turn the long-standing "two-block barrier" from a vague wall into a
+**precise, finite, bounded** structure — the genuine content a first-principles trace-ring proof must
+assemble. The full symbolic assembly of that bounded set into `J(m)` (gated vs B65) is the substantial
+continuation; labeled **computer-assisted structural characterization**, not PROVEN. Proven core
+untouched.

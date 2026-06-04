@@ -1,21 +1,23 @@
-"""B70 -- SL(4) e_2-sector closure attempt (does the rank-1 generator suffice?).
+"""B70 -- SL(4) e_2-sector: two-index content of tr(A^a B A^b B), GENERIC tangent (see CORRECTION).
 
-The fixed-line Jacobian uses the FULL eps-series (the 15 coords separate only across orders 1..L --
-the B58-Phase-A 'rank-3 Fricke block' fact). B70's rank-1 result is the LEADING (eps^2) order. This
-computes the non-separable (genuinely two-index) content of tr(A^a B A^b B) at higher eps-orders to
-test whether one generator closes the sector.
+CORRECTION (2026-06-04): this script uses the GENERIC traceless tangent A=(I+eps X)^a (X generic).
+That object's two-index (a,b)-content GROWS UNBOUNDED with eps-order -- the max single-index degree
+equals the eps-order (1,2,3,...,7 by eps^8), as the table below already hints and a longer run
+confirms. So this script does NOT demonstrate a (3,3) bound; the lone "(3,3)" printed at eps^6 is one
+monomial among a growing set, not a cap. The fixed-line / e_2-sector object is the UNIPOTENT one
+(c=n => A unipotent, (A-I)^n=0), on which A^a = sum_{j<n} C(a,j) N^j has a-degree <= n-1=3, so
+tr(A^a B A^b B) has bidegree <= (3,3) (one line from the c=n nilpotency). The CORRECT computation is
+in e2_unipotent_bound.py (bidegree exactly (3,3), tight for a full-index nilpotent). This file is kept
+as the generic-tangent contrast (it shows the eps-series growth, which is real but is NOT the closure
+object). The leading-order (eps^2) rank-1 result of two_block_rank1.py is on the proper traceless
+sl(n) tangent and is unaffected.
 
 Method: keep (a,b,eps) symbolic, use NUMERICAL traceless rational X,Y (fast matrix powers; the full
-symbolic 4x4 expansion to high eps-order is intractable). The (a,b)-bidegree of the non-separable part
-is a combinatorial fact independent of the specific X,Y, so numerical X,Y detect it correctly.
+symbolic 4x4 expansion to high eps-order is intractable).
 
-VERDICT: the two-index content GROWS with eps-order -- rank-1 (bidegree (1,1)) only at eps^2, then
-(2,1) at eps^3, (3,1)/(2,2) at eps^4, ... So a SINGLE rank-1 generator does NOT close the e_2 sector;
-the closure needs the full higher-bidegree two-index structure. BUT it is BOUNDED: the fixed-line
-derivative sequences have degree <= n-1 = 3 (c=n nilpotency), so the Jacobian-relevant two-index
-content caps at bidegree (3,3). The e_2-sector closure is therefore a FINITE problem (a bounded
-multi-generator two-index set), with the rank-1 (1,1) as its leading order -- not a single generator,
-but not an unbounded wall either.
+VERDICT (generic tangent): the two-index content GROWS with eps-order -- (1,1) at eps^2, (2,1) at
+eps^3, (3,1)/(2,2) at eps^4, ... unbounded. This is the WRONG object for the bound; see
+e2_unipotent_bound.py for the correct (3,3) cap on the unipotent fixed-line object.
 """
 import random
 import sympy as sp
@@ -51,6 +53,7 @@ for p in range(2, L + 1):
         print(f"  eps^{p}: separable"); continue
     two = sorted(m for m, _ in sp.Poly(ns, a, b).terms() if m[0] >= 1 and m[1] >= 1)
     print(f"  eps^{p}: two-index monomials {two}, max bidegree {max(two)}")
-print("\nVERDICT: rank-1 only at eps^2; the two-index content grows -> the e_2 sector needs MORE than")
-print("one generator. Bounded by c=n nilpotency (derivative-sequence degree <= n-1=3) -> bidegree <=")
-print("(3,3): the closure is a FINITE multi-generator problem, with the rank-1 (1,1) as leading order.")
+print("\nVERDICT (generic tangent): rank-1 only at eps^2; the two-index content GROWS UNBOUNDED with")
+print("eps-order (max single-index degree = eps-order). This is the WRONG object for the closure bound.")
+print("The (3,3) cap is a property of the UNIPOTENT fixed-line object (A^a = sum_{j<n} C(a,j) N^j,")
+print("a-degree <= n-1=3) -- see e2_unipotent_bound.py (bidegree exactly (3,3)).")
