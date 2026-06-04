@@ -1956,5 +1956,48 @@ PC12 appendix/positioning before the specialist read. Deferred and tracked (also
 
 ---
 
+## 2026-06-04 — B58 Phase A consolidation: merge, honest relabel, candidate `a_d` pinned
+
+Merged the Phase A branch (`frontier/b58-phaseA`) and consolidated the doc surfaces to the honest
+current state. **No new research direction started — the strategic fork is held for human decision.**
+
+**What Phase A established.** An EXACT `(n^2-1)` fixed-line Jacobian engine (eps-series dual numbers
+over F_p; the least-squares form of B66's pinv limit) — VALIDATED at n=4 (reproduces B65's
+`a_d=(1,1,1,1)` exactly, prime-stable). At n=5 it returns `a_2=1`, not the true 2.
+
+**The exact-`Q` "fix" hypothesis was WRONG and is kept visible.** I had hypothesised the n=5
+shortfall was finite-field non-canonicity, fixable over exact `Q` with `S=I`. Refuted: three
+realizations — F_p random metric; F_p `S=I` prime-stable (`= Q` mod p); real positive-definite
+mpmath — ALL give `a_2=1`. The cause is the pinv-limit CONSTRUCTION: the `eps->0` least-squares
+limit is non-canonical at the degenerate `char(M^2)^2/(t+1)^2` collision, returning a defective
+non-Dickson cubic `{-0.734,-0.734,2.695}`. **Headline: the pinv / ambient-Jacobian construction
+(B59–B66 + this engine) UNDER-COUNTS degenerate multiplicities — wrong, not merely ceilinged, from
+n=5 in every field/precision** (FAILURE_ATLAS sharpened; Ledger V24).
+
+**B62 clarified (Ledger V25, `B62_STATUS.md`).** Not a theorem: State 3 for the full `a_d`, State 2
+(verified candidate) for height-2 only. The θ-eigenspace dims are exact Lie theory; the unproven
+step is the IDENTIFICATION with the Jacobian multiplicities (needs the ambient SL(n,C) trace ring,
+B58 proper). B64 proved the SECTOR (SL(3)), not the COUNT.
+
+**Candidate `a_d` formula recorded (Ledger V26, `CANDIDATE_A_D.md`).** θ-split extended to all
+heights: `a_h=⌈(n-h)/2⌉`, `b_h=⌊(n-h)/2⌋` for `h=2..n-1`; plus an OBSERVED height-1/wrap piece
+(`char(M^1)^{n-3}·char(M^-1)·char(M^n)`) and parity. Reproduces the n=3,4,5 towers EXACTLY
+(integer-valid + dimension-sum `=n^2-1`, n=3..7). Three gaps: UNPROVEN (trace-ring identification),
+INCOMPLETE (height-1/wrap + parity observed not derived), and one CONFLICT at its first new
+prediction (below).
+
+**`b_d` and `a_3(n=6)` downgraded to OPEN.** `b_d=[d<=n-2]` is an n<=5 match only — it diverges
+from the θ-split at n=6 (`b_2`: 1 vs 2). `a_3(n=6)`: B66 numerical `1` is now understood as the
+pinv under-count at a degenerate collision (V17 annotated); the candidate predicts `2`
+(better-supported, NOT asserted). Both OPEN for n>=6.
+
+**Strategic state (deferred, human decision).** The pinv / ambient-Jacobian route is EXHAUSTED as a
+path to *degenerate* `a_d`. The B58 trace ring (structural form + identification proof) is the sole
+remaining route that both computes degenerate `a_d` reliably and proves it. The fork — bank the
+candidate + structural finding as a written result, vs commit to the multi-session B58 trace-ring
+proof — is HELD. Proven core P1-P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
