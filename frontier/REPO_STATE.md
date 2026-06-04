@@ -4,6 +4,38 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-04 (post-V42, current at `main` PR #48)
+>
+> The body below is the 2026-06-03 snapshot (ledger V1–V23, PR #26). Since then the **exploratory
+> Phase-8 work** has been banked (ledger **V24–V42**; proven core P1–P16 still untouched and
+> test-locked). What changed:
+>
+> - **Physics-paths sweep (V28–V39)** — a systematic probe of every reachable physics anchor, banked
+>   in `frontier/physics_probes/` (see its `PHYSICS_PROBES_SUMMARY.md`). Honest headline: **no physics
+>   crossing.** The two genuinely-open real-physics targets are closed negative — metallic anyons
+>   (V28: categorifiable only at `m=1`, Ostrik rank-2) and SL(n) quasicrystal spectra (V29: the
+>   symplectic obstruction, self-adjoint 1D transfer matrices are `Sp(2p,R)`, `SL(n)=Sp` only at
+>   `n=2`). The reachable physics (golden anyon, Fibonacci quasicrystal) is special to `m=1`/`n=2`,
+>   not general. The Chern–Simons/torsion family (V30/V31) is genuine topology with no clean new
+>   pattern; `τ_m` is identified as **Porti's adjoint Reidemeister torsion form**.
+> - **m136 / m=2 A-polynomial RESOLVED (V32 Gate-0 + V38 independent fit).** The m=2 trace-map
+>   eliminant `M²L²−(M⁴−4M²+1)L+M²` IS the census-m136 A-polynomial (holonomy-match + a from-scratch
+>   null-space-dim-1 fit, no Sage). The `j=1728`/CM-by-`Z[i]` spectral-curve thread (V32–V34) is banked.
+> - **B69 metallic A-polynomial family + cusp-torsion law (V35/V39/V40)** — VERIFIED m=1..4; the cusp
+>   law is a **STANDARD_REPACKAGE** (Baker–Petersen once-punctured-torus-bundle ideal points), not new.
+> - **B70 trace-ring attack (V41/V42)** — the SL(n) two-block / `e₂` obstruction is **rank-1 at
+>   leading order** (pinned exactly to `e₂=tr(Λ²A)`), and its full closure is a **bounded,
+>   finite multi-generator** set (bidegree `≤(3,3)`, by `c=n` nilpotency). The two-block barrier is now
+>   a precise finite structure — computer-assisted characterization, **not PROVEN**.
+> - **B68 AJ-conjecture probe (shelved, no claim).** Order-match (recursion order 2 = A's L-degree)
+>   only; the exact `q=1` identity below B67's bar.
+>
+> **Open-door updates vs §3 below:** the *m136/m=2 framing* door is **CLOSED-RESOLVED** (V32/V38).
+> The **B58-proper `a_d` trace ring** door is **sharpened, not closed** (B70: the obstruction is the
+> bounded `≤(3,3)` `e₂` two-index set — the precise remaining content). The **SL(3) figure-eight
+> A-polynomial (GTZ)** door remains OPEN (deferred as the more-tractable Track B). The AJ `q=1` and
+> SL(5) cotangent-count doors are unchanged. Outreach (`EXPERT_OUTREACH.md`) stays dormant/uncommitted.
+
 ## 0. Verdict
 
 Foundation is clean. One branch (`main`), no orphans. The 15-claim proven core (P1–P16, P14

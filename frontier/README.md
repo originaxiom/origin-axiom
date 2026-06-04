@@ -361,3 +361,36 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   derivation of this A-polynomial from a trace map; connects the SL(n) tower to
   character-variety knot invariants. SL(3) (Garoufalidis-Thurston-Zickert 2011) is
   the open next step. No claim promoted; proven core P1-P16 unchanged.
+- **B68** — AJ-conjecture check for the figure-eight (SHELVED, no claim). The
+  colored Jones (Habiro form) is q-holonomic with **minimal recursion order 2**,
+  matching the L-degree of the B67 A-polynomial, and the order-2 recursion
+  annihilates `J_N` for `N=2..5`. But the exact `recursion|_{q=1}=A` identity does
+  not resolve (the convention `M_rec=q^N=meridian^2` + an ill-conditioned `q→1`
+  nullspace); order-match alone is below B67's exact-identity bar. Kept as a labeled
+  exploratory probe only. No ledger claim; proven core P1-P16 unchanged.
+- **B69** — the metallic family of A-polynomial / trace-relation curves + a
+  cusp-torsion law (computer-assisted, VERIFIED m=1..4; m=1 PROVED via B67). The
+  trace-relation curve `F_m(x,κ)=0` (projection of the `T_m²` fixed locus to
+  `x=tr a, κ=tr[a,b]`) extends the figure-eight (m=1) to the metallic family
+  (`m=2: κ=(x⁴−6x²+12)/(x²−2)`, etc.). **Cusp-torsion law:** the cusps (poles of κ)
+  sit at elliptic-torsion values `x=2cos(π/k)`, `k∈{3..m+2}`, `k≡m (mod 2)`. The
+  banked "breakthrough-chat" handoff after independent re-derivation + a line-by-line
+  audit (which caught a `κ`-sign diagnostic bug — the complete structure is `κ=−2`,
+  not `+2`). **Novelty (`NOVELTY_CHECK.md`):** STANDARD_REPACKAGE — the cusp law is the
+  known Baker–Petersen ideal-point structure of once-punctured-torus bundles
+  (arXiv:1211.4479), repackaged through the trace map, not new. Ledger V35/V39/V40.
+  No claim promoted; proven core P1-P16 unchanged.
+- **B70** — the trace-ring proof attack (Phase-8 Track A): the SL(n) two-block
+  obstruction is RANK-1 at leading order, but its e₂-sector closure is a
+  **bounded multi-generator** problem. The candidate `a_d` formula (B62 θ-split)
+  is unproven; the proof needs the ambient SL(n,ℂ) trace ring, whose barrier is the
+  even-k / `e₂=tr(Λ²A)` sector carried by two-block words `tr(AᵃBAᵇB)`. On the
+  proper traceless `sl(n)` tangent, the **leading-order (ε²) Hessian** non-separable
+  content is a *single* rank-1 coupling `a·b·tr(X²)`, pinned exactly to `e₂` (the
+  identity `e₂-Hessian = −tr(X²)/2`; verified SL(4),SL(5), two words). But across the
+  **full ε-series** the two-index content grows (ε³→(2,1), ε⁴→(3,1)/(2,2), …), so one
+  generator does **not** close the sector — it is a *finite* multi-generator set
+  bounded by `c=n` nilpotency at bidegree `≤(3,3)`. NET: the long-standing
+  "two-block barrier" is now a **precise, finite, bounded** structure (the genuine
+  content a first-principles closure must assemble). Computer-assisted structural
+  characterization, not PROVEN. Ledger V41/V42. Proven core P1-P16 unchanged.

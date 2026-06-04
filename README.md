@@ -64,7 +64,7 @@ The honest one-line status:
 |---|---|
 | Phase 0 — Governance & specification | **locked** |
 | Phase A — Tested foundation | **complete** — suite green, P1–P16 locked (P14 unused) |
-| Phase B — Frontier | **in progress** — probes B1–B52 logged; trace-map selector packaged as conditional C5; metallic `SL(3)` trace-map arithmetic isolated as PC12 with a negative control for the naive multichannel physics bridge |
+| Phase B — Frontier | **in progress** — probes B1–B70 logged (ledger V1–V42). Trace-map selector packaged as conditional C5; metallic `SL(3)` arithmetic isolated as PC12. The `SL(n)` trace-map *tower* (B58–B66: Dickson-factor multiplicities, opposition-involution θ-split, computer-assisted `Z[m]` factorizations) and the figure-eight **A-polynomial derived exactly from the trace map** (B67) are banked, honestly labeled. The systematic **physics-paths sweep is robustly negative** (`frontier/physics_probes/`: no crossing into fundamental/new-quantum physics; every reachable anchor is special to `n=2`/`m=1`). Open: the `a_d` trace-ring proof (B70: barrier sharpened to a bounded finite structure) and the `SL(3)` GTZ A-polynomial |
 | Phase C — Exhaustive survey of emergence-paths | **in progress** — see `paths/` |
 
 See `CLAIMS.md` for the current ledger: 15 `proven`, 5 `conditional`, 9 `open`, 10 `dead`.
