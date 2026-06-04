@@ -11,6 +11,11 @@ Pipeline (mirrors B67 at rank 3):
     every condition polynomial. Round-trips to < 1e-7 on all three components (cond(B) ~ O(1-100)).
   * monodromy(A,B): t in SL(3,C) with t A t^-1 = phi(A), t B t^-1 = phi(B) (phi: a->a^2 b, b->ab, the
     figure-eight monodromy; fallback a->aba), via the 18x9 Kronecker null-space solve, det t = 1.
+  * meridian(A,B): the GENUINE peripheral meridian mu = w^-1 t (rho(mu)=w^-1 . t, w=a for phi:a->a^2 b),
+    which COMMUTES with the longitude [A,B] (the cusp peripheral subgroup is abelian). The conjugator w
+    satisfies phi([a,b])=w[a,b]w^-1 (verified by free-group reduction); the bare generator t does NOT
+    commute with [A,B], mu=w^-1 t does. Crucially eig(mu)=eig(t) (mu is itself a monodromy-lift, and
+    meridian eigenvalues are a bundle conjugacy-invariant), so the A-variety eigenvalue data is the same.
   * ratios(M): the two eigenvalue ratios (top/mid, bot/mid) -- the PGL(3) "decorated" A-variety
     coordinates (Falbel et al. normalize the middle boundary eigenvalue to 1).
 
@@ -22,9 +27,15 @@ RESULTS:
     Thistlethwaite, arXiv:1412.4711 sec 4.1), with meridian<->longitude labels transposed:
         W1 = D2:  M^3 = L,   M*^3 = L*       (Falbel:  L^3 = M,  L*^3 = M*)
         W2 = D3:  M^3 L = 1, M*^3 L* = 1     (Falbel:  L^3 M = 1, L*^3 M* = 1)
-    to ~1e-10 over >=16 points / 2 seeds. M = eigenvalue ratios of the monodromy t (the fibration
+    to ~1e-10 over >=16 points / 2 seeds. M = eigenvalue ratios of the meridian mu (the fibration
     generator), L = eigenvalue ratios of the fiber boundary [A,B]. This is the SL(3) analogue of
     B67's exact Cooper-Long match, on the Dehn-filling components.
+  * The genuine meridian mu = w^-1 t COMMUTES with the longitude [A,B] (~1e-10 on W1/W2/V0) -- the
+    correct abelian peripheral pair (the bare monodromy generator t does not commute; eig(mu)=eig(t),
+    so the relations above are unchanged). The meridian<->longitude transpose (M^3=L vs Falbel's L^3=M)
+    PERSISTS under the corrected meridian, so it is a genuine naming convention (which peripheral curve
+    is the meridian), not an artifact -- our naming is the geometrically-standard fibered-knot one
+    (meridian = fibration generator, longitude = fiber boundary).
   * The geometric component V0 (= Falbel D1) has no tidy closed A-variety form (their eliminated
     Groebner basis is 141 polynomials) -- no literal match is expected there; the Sym^2-shadow
     validation is the geometric-branch check.
@@ -78,9 +89,14 @@ def realize(coords, tol=1e-9, tries=40):
     return None
 
 
-def monodromy(A, B, tol=1e-7):
-    """t in SL(3,C) with t A t^-1 = phi(A), t B t^-1 = phi(B) for the figure-eight monodromy."""
-    for phiA, phiB in [(A @ A @ B, A @ B), (A @ B @ A, A @ B)]:
+def monodromy(A, B, tol=1e-7, with_conjugator=False):
+    """t in SL(3,C) with t A t^-1 = phi(A), t B t^-1 = phi(B) for the figure-eight monodromy.
+
+    The two word-conventions carry their boundary conjugator w (phi([a,b]) = w [a,b] w^-1, verified by
+    free-group reduction): phi:a->a^2 b => w=a (rho(w)=A); phi:a->aba => w=aba (rho(w)=ABA). With
+    with_conjugator=True returns (t, res, w_matrix) so the genuine commuting meridian mu = w^-1 t can
+    be formed (see meridian())."""
+    for phiA, phiB, wmat in [(A @ A @ B, A @ B, A), (A @ B @ A, A @ B, A @ B @ A)]:
         E = np.vstack([np.kron(A.T, I3) - np.kron(I3, phiA),
                        np.kron(B.T, I3) - np.kron(I3, phiB)])
         t = np.linalg.svd(E)[2][-1].conj().reshape(3, 3, order="F")
@@ -88,8 +104,25 @@ def monodromy(A, B, tol=1e-7):
         res = (np.max(np.abs(t @ A @ np.linalg.inv(t) - phiA))
                + np.max(np.abs(t @ B @ np.linalg.inv(t) - phiB)))
         if res < tol:
-            return t, res
-    return None, None
+            return (t, res, wmat) if with_conjugator else (t, res)
+    return (None, None, None) if with_conjugator else (None, None)
+
+
+def meridian(A, B, tol=1e-7):
+    """The GENUINE peripheral meridian mu = w^-1 t (rho(mu) = w^-1 . t), which COMMUTES with the
+    longitude [A,B] (the cusp's peripheral subgroup is abelian). The bare monodromy generator t does
+    NOT commute; mu = w^-1 t does, because t [a,b] t^-1 = phi([a,b]) = w [a,b] w^-1 so
+    mu [a,b] mu^-1 = w^-1 (w [a,b] w^-1) w = [a,b]. Crucially eig(mu) = eig(t) (mu is itself a
+    monodromy-lift: mu A mu^-1 = w^-1 phi(A) w; meridian eigenvalues are a bundle conjugacy-invariant),
+    so the A-variety eigenvalue data is UNCHANGED -- mu only fixes the commutativity, not the spectrum.
+    Returns (mu, commutator_residual) or (None, None)."""
+    t, res, wmat = monodromy(A, B, tol=tol, with_conjugator=True)
+    if t is None:
+        return None, None
+    mu = np.linalg.inv(wmat) @ t
+    comm = A @ B @ np.linalg.inv(A) @ np.linalg.inv(B)
+    cdev = np.max(np.abs(mu @ comm - comm @ mu))
+    return mu, cdev
 
 
 def ratios(M):
@@ -100,16 +133,17 @@ def ratios(M):
 
 
 def peripheral(coords):
-    """(M, M*, L, L*) for a fixed-locus character: meridian ratios from t, longitude ratios from [A,B]."""
+    """(M, M*, L, L*) for a fixed-locus character: meridian ratios from the genuine commuting meridian
+    mu = w^-1 t, longitude ratios from [A,B]. (eig(mu)=eig(t), so this equals the bare-t A-variety.)"""
     out = realize(coords)
     if out is None:
         return None
     A, B = out
-    t, res = monodromy(A, B)
-    if t is None:
+    mu, _cdev = meridian(A, B)
+    if mu is None:
         return None
     comm = A @ B @ np.linalg.inv(A) @ np.linalg.inv(B)
-    Mh, Ms = ratios(t)
+    Mh, Ms = ratios(mu)
     Lh, Ls = ratios(comm)
     return Mh, Ms, Lh, Ls
 
@@ -142,6 +176,22 @@ def main():
     ]:
         med, mx, n = _avariety_residual(name, fn, rel)
         print(f"  {name}:  {label}   median {med:.1e}, max {mx:.1e}  (n={n})")
+
+    print("\ngenuine meridian mu = w^-1 t commutes with the longitude [A,B] (abelian peripheral pair):")
+    for name, fn in [("W1", W1), ("W2", W2), ("V0 (geom)", V0)]:
+        devs = []
+        for sd in (5, 23):
+            rng = np.random.default_rng(sd)
+            for _ in range(6):
+                p = complex(rng.standard_normal(), rng.standard_normal())
+                q = complex(rng.standard_normal(), rng.standard_normal())
+                out = realize(fn(p, q))
+                if out is None:
+                    continue
+                mu, cdev = meridian(*out)
+                if mu is not None:
+                    devs.append(cdev)
+        print(f"  {name}: |[mu, [A,B]]| median {np.median(devs):.1e}  (n={len(devs)})")
     return 0
 
 

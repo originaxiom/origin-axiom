@@ -113,9 +113,35 @@ def test_sym2_shadow_validates_monodromy():
 
 def test_dehn_filling_avariety_literal_match():
     """B3: the Dehn-filling components reproduce Falbel et al.'s A-variety (arXiv:1412.4711), with
-    meridian<->longitude transposed:  W1=D2 -> M^3=L ;  W2=D3 -> M^3 L=1  (M=eig-ratios of t,
+    meridian<->longitude transposed:  W1=D2 -> M^3=L ;  W2=D3 -> M^3 L=1  (M=eig-ratios of mu,
     L=eig-ratios of [A,B])."""
     medW1, _, nW1 = per._avariety_residual("W1", per.W1, lambda M, L: abs(M**3 - L))
     medW2, _, nW2 = per._avariety_residual("W2", per.W2, lambda M, L: abs(M**3 * L - 1))
     assert nW1 >= 10 and medW1 < 1e-6
     assert nW2 >= 10 and medW2 < 1e-6
+
+
+def test_genuine_meridian_commutes_with_longitude():
+    """B3 (meridian fix): the genuine peripheral meridian mu = w^-1 t COMMUTES with the longitude
+    [A,B] (the abelian cusp pair) on all three components -- the bare monodromy t does NOT. And
+    eig(mu)=eig(t), so the A-variety eigenvalue data is unchanged."""
+    for fn in (per.V0, per.W1, per.W2):
+        rng = np.random.default_rng(5)
+        checked = 0
+        for _ in range(8):
+            p = complex(rng.standard_normal(), rng.standard_normal())
+            q = complex(rng.standard_normal(), rng.standard_normal())
+            out = per.realize(fn(p, q))
+            if out is None:
+                continue
+            A, B = out
+            mu, cdev = per.meridian(A, B)
+            t, _res = per.monodromy(A, B)
+            if mu is None or t is None:
+                continue
+            assert cdev < 1e-6                                   # mu commutes with [A,B]
+            eig_mu = np.sort_complex(np.linalg.eigvals(mu))
+            eig_t = np.sort_complex(np.linalg.eigvals(t))
+            assert np.max(np.abs(eig_mu - eig_t)) < 1e-7         # eig(mu) = eig(t)
+            checked += 1
+        assert checked >= 3
