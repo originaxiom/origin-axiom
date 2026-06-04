@@ -40,13 +40,37 @@ multi-block algebra, only the incorporation of a *single two-index generator* ti
 This both explains why every single-index route stalled (they cannot produce even one `a·b` term) and
 gives the **minimal** extra structure a first-principles closure must add.
 
-## Honest status / next step
+## e₂-sector closure attempt — the rank-1 generator does NOT suffice (but the closure is bounded/finite)
 
-This is a **characterization of the barrier, not yet the proof** (per the Phase-8 plan's stated likely
-outcome). The continuation: attempt to **close the SL(4) e₂ sector** by augmenting the single-block
-trace data with this one rank-1 two-index generator, assemble the full 15×15 `J(m)` symbolically, and
-gate against B65's exact factorization. If the single `a·b·tr(X²)` generator closes the 12/15→15/15
-gap and reproduces B65 from the construction, that is the SL(4) proof-of-concept for the general
-trace-ring proof; if it does not, characterize precisely what additional structure the substitution
-mixing requires. Labeled here as **computer-assisted structural characterization**, not PROVEN.
-Proven core untouched.
+`e2_sector_closure.py`. The fixed-line Jacobian uses the **full ε-series** (the 15 coordinates separate
+only across orders 1..L — the B58-Phase-A "rank-3 Fricke block" fact); the rank-1 result above is the
+**leading (ε²) order**. Computing the non-separable (two-index) content of `tr(AᵃBAᵇB)` at higher
+ε-orders (traceless X,Y):
+
+| ε-order | non-separable `(a,b)`-bidegrees | max bidegree |
+|---|---|---|
+| ε² | `(1,1)` | (1,1) — **rank-1** |
+| ε³ | `(1,1),(1,2),(2,1)` | (2,1) |
+| ε⁴ | `…,(2,2),(3,1)` | (3,1) |
+| ε⁵ | `…,(2,3),(4,1)` | (4,1) |
+| ε⁶ | `…,(3,3),(5,1)` | (5,1) |
+
+**The two-index content grows with ε-order** — so a *single* rank-1 generator does **not** close the
+e₂ sector; the closure needs the higher-bidegree two-index structure across orders. This is the honest
+verdict: the optimistic "one generator closes it" is refuted.
+
+**But the closure is BOUNDED / finite.** The fixed-line derivative sequences have degree `≤ n−1 = 3`
+(the `c=n` nilpotency — B58_sl4), so the Jacobian-relevant two-index content caps at **bidegree
+`(3,3)`**. The e₂-sector closure is therefore a **finite, bounded multi-generator problem** (a
+two-index generator set of bidegree `≤(3,3)`), with the rank-1 `(1,1)` term as its leading order — not
+a single generator, but **not an unbounded wall either.**
+
+## Honest status
+
+Two banked results: (1) the two-block obstruction's *leading order* is rank-1, exactly `e₂` (rigorous,
+traceless sl(n), n=4,5); (2) the *full* e₂-sector closure needs a **bounded** (bidegree ≤(3,3))
+multi-generator two-index set, not one generator. Together these turn the long-standing "two-block
+barrier" from a vague wall into a **precise, finite, bounded** structure — the genuine content a
+first-principles trace-ring proof must assemble. The full symbolic assembly of that bounded set into
+`J(m)` (gated vs B65) is the substantial continuation; labeled **computer-assisted structural
+characterization**, not PROVEN. Proven core untouched.
