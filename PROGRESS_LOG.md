@@ -1999,5 +1999,54 @@ proof — is HELD. Proven core P1-P16 unchanged.
 
 ---
 
+## 2026-06-04 — Phase 8: physics-paths sweep (robustly negative) + B68/B69/B70 + the trace-ring attack
+
+After the B58 Phase-A consolidation, ran the deferred Phase-8 program: a systematic sweep of every
+reachable physics anchor, the metallic A-polynomial family, and the trace-ring proof attack on `a_d`.
+All exploratory, all banked with honest labels; proven core P1–P16 untouched. Ledger **V28–V42**.
+
+**Physics-paths sweep — no crossing (V28–V39, `frontier/physics_probes/`).** The honest headline: the
+framework produces real mathematics (low-dim topology / number theory / 1D condensed matter) but has
+**no crossing into fundamental — or even new quantum — physics**; every reachable anchor is special to
+`n=2`/`m=1` and does not generalize. The two genuinely-open real-physics targets are **closed
+negative**: metallic anyons (V28 — `τ²=1+mτ` categorifiable only at `m=1`, Ostrik rank-2) and SL(n)
+quasicrystal spectra (V29 — the **symplectic obstruction**: self-adjoint 1D transfer matrices are
+`Sp(2p,R)`, and `SL(n)=Sp` only at `n=2`). The Chern–Simons/torsion family (V30) is genuine topology
+with no clean pattern (corrected at the real geometric rep `κ=−2`: `τ₁=−3∈Q(√−3)`, `τ₂=−16`; trace
+field degree 2→4→8); `τ_m` is identified (V31) as **Porti's adjoint Reidemeister torsion form**
+(Fried–Milnor), the peripheral-deformation direction. The `j=1728` / CM-by-`Z[i]` spectral-curve
+thread (V32–V34) and the emergent-geometry/area-law probes (V36/V37) are banked; the `m136`/`m=2`
+A-polynomial framing is **RESOLVED** — the m=2 trace-map eliminant `M²L²−(M⁴−4M²+1)L+M²` IS the
+census-m136 A-polynomial, confirmed both by holonomy-match (V32 Gate-0) and an independent from-scratch
+null-space-dim-1 fit (V38, no Sage). See `PHYSICS_PROBES_SUMMARY.md`.
+
+**B69 — metallic A-polynomial family + cusp-torsion law (V35/V39/V40).** The trace-relation curve
+`F_m(x,κ)=0` (projection of the `T_m²` fixed locus) extends the figure-eight (m=1) to the metallic
+family, VERIFIED m=1..4. **Cusp-torsion law:** cusps (poles of κ) at elliptic-torsion values
+`x=2cos(π/k)`, `k∈{3..m+2}`, `k≡m (mod 2)`. Banked the "breakthrough-chat" handoff after independent
+re-derivation + a line-by-line audit (caught a `κ`-sign diagnostic bug — the complete structure is
+`κ=−2`, not `+2`). **Novelty check: STANDARD_REPACKAGE** — the cusp law is the known Baker–Petersen
+ideal-point structure of once-punctured-torus bundles (arXiv:1211.4479), not new.
+
+**B68 — AJ-conjecture probe (shelved, no claim).** The figure-eight colored Jones is q-holonomic with
+minimal recursion order 2 (= the B67 A-polynomial's L-degree), annihilating `J_N` for `N=2..5`; but
+the exact `recursion|_{q=1}=A` identity does not resolve (convention `M_rec=q^N=meridian²` +
+ill-conditioned `q→1`), below B67's exact-identity bar. Order-match only.
+
+**B70 — the trace-ring attack on `a_d` (Phase-8 Track A; V41/V42).** The candidate `a_d` formula
+(B62 θ-split) is unproven; the proof needs the ambient SL(n,ℂ) trace ring, whose barrier is the
+even-k / `e₂=tr(Λ²A)` sector carried by two-block words `tr(AᵃBAᵇB)`. On the proper traceless `sl(n)`
+tangent (tracelessness by substitution after the products — the up-front projection blows up): the
+**leading-order (ε²) Hessian** non-separable content is a *single* rank-1 coupling `a·b·tr(X²)`, pinned
+exactly to `e₂` (identity `e₂-Hessian=−tr(X²)/2`; verified SL(4),SL(5), two words). But across the
+**full ε-series** the two-index content grows (ε³→(2,1), ε⁴→(3,1)/(2,2), …), so a single generator
+does **not** close the sector — it is a *finite* multi-generator set bounded by `c=n` nilpotency at
+bidegree `≤(3,3)`. NET: the long-standing two-block barrier is now a **precise, finite, bounded**
+structure — the genuine content a first-principles closure must assemble. Computer-assisted structural
+characterization, **not PROVEN**. The `SL(3)` GTZ A-polynomial (Track B) is the deferred
+more-tractable follow-on. Proven core P1–P16 unchanged.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

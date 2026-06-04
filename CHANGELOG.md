@@ -326,6 +326,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - B62 proof status clarified (`frontier/B58_phaseA/B62_STATUS.md`): State 3 for the full `a_d`,
   State 2 (verified candidate) for height-2 only; θ-eigenspace dims are exact Lie theory, the
   identification with the Jacobian is unproven.
+- **Phase-8 physics-paths sweep (`frontier/physics_probes/`, Ledger V28–V39): robustly negative.**
+  A systematic probe of every reachable physics anchor. Headline: real mathematics, **no crossing
+  into fundamental or new-quantum physics** — every anchor is special to `n=2`/`m=1`. Metallic
+  anyons (V28, closed: categorifiable only at `m=1`, Ostrik rank-2) and SL(n) quasicrystal spectra
+  (V29, closed: the symplectic obstruction, `SL(n)=Sp` only at `n=2`) both negative; Chern–Simons
+  torsion family (V30, no pattern) with `τ_m` identified as **Porti's adjoint Reidemeister torsion
+  form** (V31). The `m136`/`m=2` A-polynomial framing is **RESOLVED** — the m=2 trace-map eliminant
+  `M²L²−(M⁴−4M²+1)L+M²` IS census-m136, confirmed by holonomy-match (V32) and an independent
+  from-scratch null-space-dim-1 fit (V38). Consolidated in `PHYSICS_PROBES_SUMMARY.md`.
+- B69 metallic A-polynomial family + cusp-torsion law (`frontier/B69_metallic_apoly_family/`, Ledger
+  V35/V39/V40): VERIFIED m=1..4; cusps at elliptic-torsion `x=2cos(π/k)`. **Novelty: STANDARD_REPACKAGE**
+  — the cusp law is the known Baker–Petersen once-punctured-torus-bundle ideal-point structure
+  (arXiv:1211.4479), not new.
+- B70 trace-ring attack on `a_d` (`frontier/B70_trace_ring/`, Ledger V41/V42): the SL(n) two-block /
+  `e₂=tr(Λ²A)` obstruction is **rank-1 at leading order** (pinned exactly to `e₂`; verified SL(4),SL(5)
+  on the traceless `sl(n)` tangent), and its full closure is a **bounded, finite multi-generator** set
+  (bidegree `≤(3,3)` by `c=n` nilpotency). The two-block barrier is now a precise finite structure —
+  computer-assisted characterization, **not PROVEN**. The `SL(3)` GTZ A-polynomial (Track B) is the
+  deferred more-tractable follow-on.
 
 ### Changed
 - **REFUTED (kept visible as honest history): the exact-`Q` "field fix" hypothesis for the n=5
