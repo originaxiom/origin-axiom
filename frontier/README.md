@@ -394,3 +394,21 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   "two-block barrier" is now a **precise, finite, bounded** structure (the genuine
   content a first-principles closure must assemble). Computer-assisted structural
   characterization, not PROVEN. Ledger V41/V42. Proven core P1-P16 unchanged.
+- **B71** — the SL(3) figure-eight A-variety from the trace map (Phase-8 Track B, the
+  SL(3) analogue of B67). The figure-eight monodromy `[[2,1],[1,1]]=M²` acts on the 8
+  SL(3) fiber trace coordinates (B48) as `T_1²`; a fiber rep extends over the bundle
+  iff its character is `T_1²`-fixed, so `Fix(T_1²)` **is** the SL(3) character variety
+  of the figure-eight bundle. **B0–B1 (exact):** `Fix(T_1²)` decomposes into **exactly
+  three dimension-2 components** — `V0={x1=x4,x2=x5}` (geometric, contains `Sym²` of the
+  figure-eight SL(2) holonomy), `W1={x1=x4=1}`, `W2={x2=x5=1}` (Dehn-filling-type) —
+  reproducing the **component structure** of the published Heusener–Muñoz–Porti
+  (arXiv:1505.04451) and Falbel et al. (arXiv:1412.4711) character varieties; the `Sym²`
+  ground truth lands on `V0` to `~1e-14` (offline, exact). **B2–B3:** explicit SL(3)
+  realizations + the 18×9 Kronecker monodromy solve give the peripheral eigenvalue
+  A-variety; the **Dehn-filling components literally reproduce Falbel's A-variety**
+  (meridian↔longitude transposed): `W1=D2 → M³=L`, `W2=D3 → M³L=1` (`~1e-10`), validated
+  on the geometric branch by the Sym² shadow (`eig(t)={μ²,1,μ⁻²}`). The SL(3) analogue of
+  B67's Cooper–Long match, on the Dehn-filling components, from the trace map; the
+  geometric component (Falbel D1) has no tidy closed form (141-poly ideal), as in the
+  literature. Computer-assisted (exact B1 + numerical B2–B3, cross-validated vs Falbel).
+  Ledger V43/V44. Proven core P1-P16 unchanged.
