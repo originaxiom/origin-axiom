@@ -315,6 +315,35 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `frontier/aj_conjecture_check.json`): shelved, NOT promoted (order-2 recursion match
   is below B67's exact-identity bar; q=1 limit unresolved). Literature review in
   `frontier/literature_search.md` (principal-SL(2) / adjoint-torsion / Kozai framing).
+- B58 Phase A (`frontier/B58_phaseA/`, Ledger V24–V26): an EXACT `(n^2-1)` fixed-line Jacobian
+  engine (`jacobian_closure.py`; eps-series dual numbers over F_p; the least-squares form of
+  B66's pinv limit). VALIDATED at n=4 — reproduces B65's `a_d=(1,1,1,1)` exactly, prime-stable.
+- Candidate general-`n` `a_d` formula recorded (`frontier/B58_phaseA/CANDIDATE_A_D.md`): the
+  opposition-involution θ-split, `a_h=⌈(n-h)/2⌉`, `b_h=⌊(n-h)/2⌋` for `h=2..n-1`, plus an
+  OBSERVED height-1/wrap piece (`char(M^1)^{n-3}·char(M^-1)·char(M^n)`) and parity. Reproduces
+  the n=3,4,5 towers EXACTLY (integer-valid + dimension-sum `=n^2-1`, n=3..7). **CONJECTURED —
+  unproven (needs the trace-ring identification, B58) and incomplete (height-1/wrap observed).**
+- B62 proof status clarified (`frontier/B58_phaseA/B62_STATUS.md`): State 3 for the full `a_d`,
+  State 2 (verified candidate) for height-2 only; θ-eigenspace dims are exact Lie theory, the
+  identification with the Jacobian is unproven.
+
+### Changed
+- **REFUTED (kept visible as honest history): the exact-`Q` "field fix" hypothesis for the n=5
+  `a_2` shortfall.** The shortfall is the pinv-limit CONSTRUCTION, not the field/metric — three
+  realizations (F_p random metric; F_p `S=I`, prime-stable `= Q` mod `p`; real positive-definite
+  mpmath) all return `a_2=1` where the truth is `2`. The `eps->0` least-squares limit is
+  non-canonical at the degenerate `char(M^2)^2/(t+1)^2` collision (defective non-Dickson cubic).
+  So the pinv / ambient-Jacobian route (B59–B66 + the Phase A engine) **under-counts degenerate
+  multiplicities** — *wrong* from n=5, not merely ceilinged at n=6 (FAILURE_ATLAS, sharpened).
+- `b_d=[d<=n-2]` DOWNGRADED: an n<=5 match only — it diverges from the θ-split at n=6 (`b_2`:
+  1 vs 2). OPEN for n>=6.
+- `a_3(n=6)` is now OPEN (Ledger V17 annotated): B66's numerical `1` is understood as the pinv
+  under-count at a degenerate collision; the θ-split candidate predicts `2` (better-supported,
+  not asserted).
+- Strategic state: the pinv / ambient-Jacobian route is EXHAUSTED as a path to *degenerate*
+  `a_d`; the B58 trace ring (structural form + identification proof) is the sole remaining route
+  that both computes and proves it. The fork — bank the candidate + finding as a written result
+  vs commit to the multi-session B58 trace-ring proof — is DEFERRED (human decision).
 
 ### Changed
 - Project framing locked to the disciplined V4 / Reality-Check line; the optimistic

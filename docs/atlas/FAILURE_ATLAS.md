@@ -232,7 +232,47 @@ B64's even-k/odd-k split is therefore a **sorting, not a formula**. And the
 **numerical (representation-perturbation) tower is exhausted at `n >= 6`**: the
 fixed-line rank-loss makes the `eps->0` pinv limit gauge-dependent (B66: 9 of 35
 modes gauge-corrupted; the matrix is non-canonical), so it cannot be pushed to
-higher `n`. All three routes point to the same missing object above.
+higher `n`. All three routes point to the same missing object above. (This last
+point is *sharpened* by B58 Phase A below: the pinv tower is not merely ceilinged
+at `n >= 6` — it is *wrong* at degenerate root collisions from `n = 5`.)
+
+### Pinv-Limit / Ambient-Jacobian Under-Counts Degenerate Multiplicities (B58 Phase A)
+
+The representation-perturbation / "ambient Jacobian" construction (B59–B66, and the
+exact B58 Phase A engine) computes the `(n^2-1)` fixed-line Jacobian as the `eps->0`
+least-squares pinv limit `DT_0 = lim DX·pinv(Dx)`. **At a degenerate root collision
+-- where a Dickson factor repeats, e.g. `char(M^2)^2` and `(t+1)^2` at `n = 5` -- this
+limit is non-canonical and UNDER-COUNTS the multiplicity.** It is not merely
+numerically ceilinged; it is *wrong*, in every field and at every precision. At `n = 5`
+three independent realizations -- `F_p` random metric; `F_p` with `S = I`, prime-stable
+(`= Q` mod `p`); real positive-definite `mpmath` -- all return `a_2 = 1` where the true
+multiplicity is `2` (B62 structural + every `n <= 5` datum). The collision renders as a
+defective **non-Dickson** cubic (`{-0.734, -0.734, 2.695}`) instead of the doubled clean
+factors. Phase A's exact engine reproduces B65's `n = 4` tower EXACTLY (`a_d = (1,1,1,1)`)
+-- the construction is correct on non-degenerate spectra -- and inherits the under-count
+at `n = 5`; the exact-`Q` "field fix" (hypothesis: finite-field non-canonicity) was
+**REFUTED** (the canonical positive-definite real pinv under-counts identically).
+
+**Scope (important).** Only *degenerate* (repeated-factor) multiplicities are unreliable.
+Non-degenerate results stand: B65's full `n = 4` tower; B66's clean singletons (e.g. the
+`|k| = 3` quadratics at `n = 5` root-match cleanly). But any multiplicity the structural
+candidate predicts `>= 2` is suspect from the pinv tower -- e.g. `a_3(n=6)`: candidate `2`,
+B66 numerics `1` (OPEN); B66's "3rd `|k|=3` mode discarded as gauge-corrupted" is the
+under-count signature.
+
+Typical missing object:
+
+```text
+a canonical (degeneracy-aware) limit, OR the structural multiplicity directly:
+the opposition-involution theta-split form (B62; frontier/B58_phaseA/CANDIDATE_A_D.md)
++ the ambient SL(n,C) trace ring to PROVE the identification (B58 proper)
+```
+
+Consequence: this **CLOSES the pinv / ambient-Jacobian route as a path to *degenerate*
+`a_d`.** The sole remaining route that both computes degenerate `a_d` reliably *and*
+proves it is B62-structural (the form) + the B58 trace ring (the identification and the
+proof) -- which sharpens B58 from a purist open item to the only viable path to the
+multiplicity formula.
 
 ## Current Lesson
 
