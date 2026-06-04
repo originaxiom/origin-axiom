@@ -88,11 +88,22 @@ The genuine B67 analogue: build explicit SL(3) reps on the fixed locus, derive t
   all three components**, `cond(B) ~ O(1–100)` (well-conditioned).
 - **B3 — monodromy and peripheral eigenvalues.** `t ∈ SL(3,C)` with `tA t⁻¹=φ(A)`, `tB t⁻¹=φ(B)`
   (`φ: a↦a²b, b↦ab`, the figure-eight monodromy) via the **18×9 Kronecker null-space solve** (the
-  rank-3 analogue of B67's `kron` construction), residual `<1e-9`, `det t=1`. Meridian = eigenvalue
-  ratios of `t`; longitude = eigenvalue ratios of `[A,B]` — the PGL(3) "decorated" coordinates
-  (middle eigenvalue normalized to 1, as in Falbel et al.). *(Note: as already true at SL(2) in B67,
-  `t` and `[A,B]` do **not** commute as matrices — the A-variety relates their eigenvalues, not a
-  common eigenbasis.)*
+  rank-3 analogue of B67's `kron` construction), residual `<1e-9`, `det t=1`. Longitude = eigenvalue
+  ratios of `[A,B]`; meridian = eigenvalue ratios of the **genuine commuting meridian `μ = w⁻¹t`**
+  (see below) — the PGL(3) "decorated" coordinates (middle eigenvalue normalized to 1, as in Falbel).
+
+- **B3 — the genuine peripheral meridian `μ = w⁻¹t` (commutativity fix).** A torus cusp's peripheral
+  subgroup is abelian, so the meridian must commute with the longitude `[a,b]`. The bare monodromy
+  generator `t` does **not** commute with `[A,B]` (as is already true at SL(2) in B67). The fix: a
+  once-punctured-torus mapping class fixes `[a,b]` **up to conjugacy**, `φ([a,b]) = w·[a,b]·w⁻¹`
+  (verified by free-group reduction: `w=a` for `φ:a↦a²b`, `w=aba` for `φ:a↦aba`). Then
+  `μ = w⁻¹t` satisfies `μ[a,b]μ⁻¹ = w⁻¹(w[a,b]w⁻¹)w = [a,b]` — it **commutes** with the longitude.
+  Verified numerically: `‖[μ,[A,B]]‖ ~ 1e-10` on **W1, W2, and V0**. Crucially **`eig(μ)=eig(t)`**
+  (`~1e-11`): `μ` is itself a monodromy-lift (`μAμ⁻¹=ABA`), and meridian eigenvalues are a bundle
+  conjugacy-invariant — so the A-variety eigenvalue data is **unchanged**; `μ` fixes the commutativity,
+  not the spectrum. **The meridian↔longitude transpose persists** under `μ`, so it is a genuine naming
+  convention (which peripheral curve is the meridian), not an artifact — our naming is the
+  geometrically-standard fibered-knot one (meridian = fibration generator, longitude = fiber boundary).
 
 **Pipeline validation (geometric branch).** For a `Sym²` rep, `monodromy(Sym²A, Sym²B)` reproduces
 `Sym²` of the B67 SL(2) monodromy: `eig(t) = {μ², 1, μ⁻²}` (`μ = eig` of the SL(2) monodromy) to
@@ -107,8 +118,9 @@ trace-=1 components the trace-map peripheral eigenvalues satisfy the **published
 | **W1 = D2** | `M³ = L`, `M*³ = L*` | `L³ = M`, `L*³ = M*` | `~4e-10` |
 | **W2 = D3** | `M³L = 1`, `M*³L* = 1` | `L³M = 1`, `L*³M* = 1` | `~3e-10` |
 
-(`M` = eigenvalue ratios of the monodromy `t` (fibration generator), `L` = ratios of the fiber
-boundary `[A,B]`. The transpose is a convention choice of which peripheral curve is named meridian.)
+(`M` = eigenvalue ratios of the genuine commuting meridian `μ=w⁻¹t` (fibration generator;
+`eig(μ)=eig(t)`), `L` = ratios of the fiber boundary `[A,B]`. The transpose is a convention choice of
+which peripheral curve is named meridian; the corrected meridian `μ` commutes with `[A,B]`.)
 
 **Geometric component V0 (= Falbel D1).** No tidy closed A-variety form exists (their eliminated
 Gröbner basis is 141 polynomials), so no literal match is expected there; the Sym²-shadow validation
@@ -118,7 +130,9 @@ is the geometric-branch check.
 derive the peripheral eigenvalue A-variety from the trace-map fixed locus; the **Dehn-filling
 components literally reproduce Falbel et al.'s published A-variety relations `L³=M` / `L³M=1`**
 (meridian↔longitude transposed) to `~1e-10`, with the construction independently validated on the
-geometric branch by the Sym² shadow. This is the genuine SL(3) analogue of B67's exact Cooper–Long
-match, on the Dehn-filling components. Labeled **computer-assisted (exact component structure B1 +
-numerical realization/monodromy B2–B3, cross-validated against the published A-variety)**. Proven core
-P1–P16 untouched.
+geometric branch by the Sym² shadow. The **genuine peripheral meridian `μ=w⁻¹t` commutes with the
+longitude `[A,B]`** (the correct abelian cusp pair; `eig(μ)=eig(t)`, so the relations are unchanged),
+and the transpose is a genuine naming convention. This is the genuine SL(3) analogue of B67's exact
+Cooper–Long match, on the Dehn-filling components. Labeled **computer-assisted (exact component
+structure B1 + numerical realization/monodromy B2–B3, cross-validated against the published
+A-variety)**. Proven core P1–P16 untouched.
