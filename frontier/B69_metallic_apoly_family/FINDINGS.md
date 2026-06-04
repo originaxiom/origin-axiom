@@ -43,8 +43,11 @@ F_m family is consistent with the committed m=2 A-polynomial / spectral-curve wo
 ## Honest labels / open
 
 - **Cusp–torsion law:** computer-assisted, **VERIFIED m=1..4**; m=1 alone is PROVED (B67).
-- **m=5,6:** predicted `{3,5,7}` / `{4,6,8}`; the elimination is too slow to confirm this pass (the
-  same wall the chat hit). **NOT confirmed** — labeled predicted-only.
+- **m=5,6: NOW VERIFIED** (`cusp_extend_m56.py`). The full `F_m` elimination is too slow, but the cusp
+  polynomial = the **leading-z coefficient** of the fixed-locus polynomial (the ideal points are where
+  `z→∞`) — computable with no solve/Groebner. Result:
+  `m=5: (x−1)¹⁰(x²−x−1)⁴(x³−x²−2x+1)` → k-set **{3,5,7}** ✓ (min polys of `2cos(π/3),2cos(π/5),2cos(π/7)`);
+  `m=6: x⁵(x²−3)⁵(x²−2)¹⁵(x⁴−4x²+2)` → k-set **{4,6,8}** ✓. So the **cusp–torsion law holds m=1…6**.
 - **Novelty: NOT established.** Ideal points of character varieties at torsion values `2cos(π/k)` is a
   mathematically natural phenomenon (degeneration loci). Whether the metallic-family packaging is new
   vs implicit in twist-knot A-polynomial work (Hoste–Shanahan) **needs a literature check** before any
