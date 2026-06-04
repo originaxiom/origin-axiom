@@ -108,12 +108,20 @@ def coords8_numeric(A, B):
                      tr(Ai @ B), tr(A @ Bi), tr(Ai @ Bi)], dtype=complex)
 
 
+def _load_b67():
+    """Load the B67 probe under a unique module name (avoids the generic 'probe' name collision)."""
+    import importlib.util
+    import pathlib
+    p = pathlib.Path(__file__).resolve().parents[1] / "B67_figure_eight_apolynomial" / "probe.py"
+    spec = importlib.util.spec_from_file_location("b67_probe", p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
 def sym2_groundtruth_coords(xval):
     """The 8 SL(3) coordinates of Sym^2 applied to the B67 figure-eight SL(2) rep at x=xval."""
-    import sys
-    sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B67_figure_eight_apolynomial")
-    import probe as b67
-    A2, B2, *_ = b67.build_rep(xval)
+    A2, B2, *_ = _load_b67().build_rep(xval)
     return coords8_numeric(sym2(A2), sym2(B2))
 
 

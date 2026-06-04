@@ -10,12 +10,20 @@ components** — `V0={x1=x4,x2=x5}` (geometric, contains `Sym²` of the figure-e
 the published Heusener–Muñoz–Porti (arXiv:1505.04451) and Falbel et al. (arXiv:1412.4711) SL(3)
 figure-eight character varieties. The `Sym²` ground truth lands on `V0` to `~1e-14` (offline, exact).
 
-Honest scope: structural match (3 components, dim 2, geometric=Sym²), **not** a literal fiber↔knot
-coordinate-ideal identity. The peripheral eigenvalue A-variety (monodromy `t`, longitude `[A,B]`;
-literal Dehn-filling forms `L³=M`/`L³M=1`) is the B2–B3 continuation.
+**B2–B3 result (`peripheral.py`):** explicit SL(3) reps on each component (`realize`, round-trips
+`<1e-7`) + the 18×9 Kronecker monodromy solve give the peripheral eigenvalue A-variety. The
+Dehn-filling components **literally reproduce Falbel et al.'s published A-variety** (arXiv:1412.4711),
+meridian↔longitude transposed: **W1=D2 → `M³=L`**, **W2=D3 → `M³L=1`** (`~1e-10`). The construction is
+validated on the geometric branch by the Sym² shadow (`eig(t)={μ²,1,μ⁻²}`, `~1e-13`). This is the SL(3)
+analogue of B67's exact Cooper–Long match, on the Dehn-filling components. The geometric component
+(Falbel D1) has no tidy closed form (141-poly ideal), as expected — no literal match there.
 
-- `probe.py` — the trace map `T_1²`, `Fix(T_1²)` equations, the exact component decomposition, and
-  the `Sym²` ground truth. `python probe.py` prints the verified summary.
-- Tests: `tests/test_b71_sl3_apoly.py`. Ledger row **V43**.
+Honest scope: B0–B1 is a structural character-variety match (3 components, dim 2, geometric=Sym²),
+**not** a literal fiber↔knot coordinate-ideal identity; B2–B3 is a literal eigenvalue-A-variety match
+on the Dehn-filling components (numerical, `~1e-10`).
+
+- `probe.py` — the trace map `T_1²`, `Fix(T_1²)` equations, the exact component decomposition, the
+  `Sym²` ground truth. `peripheral.py` — `realize`, `monodromy`, the Dehn-filling A-variety match.
+- Tests: `tests/test_b71_sl3_apoly.py` (8 passing). Ledger rows **V43** (B0–B1), **V44** (B2–B3).
 
 Standalone character-variety mathematics; no physics, no Origin claim. Proven core P1–P16 untouched.
