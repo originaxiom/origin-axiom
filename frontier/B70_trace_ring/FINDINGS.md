@@ -12,16 +12,23 @@ nilpotent gate V36) hit the **same** barrier: the even-k / `e₂=tr(Λ²A)` sect
 **two-block words** `tr(AᵃBAᵇB)` whose fixed-line Hessian has a non-separable `a·b` coupling that no
 single-index `(r−1)^d` recursion generates (single-block V+Λ² traces span only 12/15 at SL(4), B65).
 
-## Result — the obstruction is RANK-1
+## Result — the obstruction is RANK-1 (rigorous, on the traceless sl(n) tangent)
 
 Computing the full `(a,b)`-dependence of the fixed-line Hessian (the `ε²` coefficient; traces vanish at
-first order at `c=n`) of the SL(4) two-block word `tr(AᵃBAᵇB)`:
+first order at `c=n`) of the two-block word `tr(AᵃBAᵇB)`, on the **proper traceless `sl(n)` tangent**
+(tracelessness imposed by substitution *after* the matrix products — the up-front projection blows up
+symbolically; this version is uncompromised):
 
-- It is **bidegree (2,2)** in `(a,b)` (≤ n−1=3, by the `c=n` nilpotency).
+- It is **bidegree (2,2)** in `(a,b)` (≤ n−1, by the `c=n` nilpotency).
 - Its **only non-separable term is `a·b·tr(X²)`** — a **single rank-1 bilinear coupling**. Every
   separable `aⁱ` / `bʲ` piece is single-index (already reachable by the nilpotent recursion).
-- `tr(X²)` is the **degree-2 even-k invariant** (the Hessian of the power trace `tr(A²)`; recall
-  `tr(A²)=tr(A)²−2 e₂`, so this is exactly the `e₂` sector).
+- **The coupling form is exactly the `e₂` coordinate:** `tr(X²) = −2·(Hessian of e₂=tr(Λ²A))`
+  (the identity `e₂-Hessian = −tr(X²)/2` on `sl(n)`, verified). So the *single* two-index generator is
+  pinned **precisely** to `e₂` — the even-k sector.
+
+**Robustness (all RANK-1, verified on traceless `sl(n)`):** SL(4) `tr(AᵃBAᵇB)`, SL(4) `tr(AᵃB²AᵇB)`,
+and SL(5) `tr(AᵃBAᵇB)` — every case has its non-separable content as the single `(1,1)` monomial
+`a·b·tr(X²)`. (The SL(5) symbolic case takes several minutes — long runs, no shortcuts.)
 
 ## Why this is progress
 
