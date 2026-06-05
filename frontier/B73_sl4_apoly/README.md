@@ -12,15 +12,29 @@ rank-independent conjugator `w=a` (V46).
   **shadow** of the Cooper–Long figure-eight A-polynomial (the rank-degree eigenvalue pattern,
   exponents ±3, ±1).
 
-**Honest boundary (deferred):** a genuine SL(4) *Dehn-filling* component (the analogue of SL(3)'s
-W1/W2 = ±3 fillings, where the predicted **degree-4 relation `L⁴=M`** and a possible link to the SL(2)
-spectral-curve **`j=1728`** would be tested) requires the SL(4) character-variety **fixed locus**, i.e.
-the SL(4) trace map (B48 is SL(3) only). A direct numerical fixed-locus search at candidate
-root-of-unity A-spectra found **no** SL(4) bundle reps — the right Dehn-filling spectra aren't known a
-priori without that machinery. So the **degree-4 / `j=1728` hypotheses are untested here** (recorded
-open, not claimed). The Sym³ geometric branch is the validated higher-rank content.
+**The degree=rank tower law — CONFIRMED at SL(4) (Path A, `dehn_filling.py`, V54).** The earlier P4
+deferral is resolved: a smarter targeted search (sweep finite-order A-spectra, solve the bundle
+condition for `B`) **does** find SL(4) Dehn-filling bundle reps, and the predicted relation lands:
+- **A-spectrum `{1,1,ω,ω²}`** (`ω=e^{2πi/3}`, `char (z−1)²(z²+z+1)`, **`tr A=tr A⁻¹=1`** — the direct
+  analogue of SL(3)'s W1 spectrum `{1,i,−i}`): the scalar criterion **`[A,B]=c·μ⁴` ⟺ `M⁴=L`** holds —
+  **degree = rank**. Confirmed to **~9e-39** at high precision (`dehn_filling_highprec.py`; controls
+  k=3,5 are O(1)); median ~5e-13 over a 15-rep family.
+- **A-spectrum `{primitive 8th roots, char z⁴+1}`** (`tr A=0`): a SECOND Dehn-filling component giving
+  **`M³=L`** (a different degree).
+
+So the **degree=rank law** — on the SL(n) figure-eight bundle's principal Dehn-filling component
+`{tr A=tr A⁻¹=1}`, the longitude is the meridian's n-th power `Mⁿ=L` — is confirmed for **n=3 (V47)**
+and **n=4** (here). Honest caveat: SL(4) has *more than one* Dehn-filling component (the `{z⁴+1}` one
+gives `M³=L`), so the rank-th power lives specifically on the `{tr=1}` component; degree=rank is the
+relation on that principal component, not the only one. The **SL(2) end is degenerate** (A0,
+`test_b73_dehn_filling`): `Fix(T_1²)` is a single geometric component, no Dehn-filling component,
+`L=M^k` not on Cooper–Long. The **`j=1728` link remains a separate, untested hypothesis** (and Path B,
+V53, independently confirms j=1728 is an isolated symmetry-forced point with no Coulomb structure).
+Label: high-precision-numerical (~1e-39), not yet symbolic-exact.
 
 - `probe.py` — `sym_power`, `monodromy` (general `n`), `meridian`, the Sym³ shadow check.
-- Tests: `tests/test_b73_sl4_apoly.py`. Ledger row **V50**.
+- `dehn_filling.py` — `realize_bundle_rep`, the degree=rank test; `dehn_filling_highprec.py` — the
+  ~1e-39 mpmath confirmation.
+- Tests: `tests/test_b73_sl4_apoly.py`, `tests/test_b73_dehn_filling.py`. Ledger rows **V50**, **V54**.
 
 Standalone character-variety mathematics; no physics, no Origin claim. Proven core P1–P16 untouched.
