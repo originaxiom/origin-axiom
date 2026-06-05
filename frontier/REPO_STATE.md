@@ -4,6 +4,27 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-05 (post-V69, current at `main` PR #76)
+>
+> The **unification push** (ledger **V66–V69**) tied the work into one object — the SL(n) figure-eight
+> character variety — and produced a paper skeleton. Suite **201 passed, 1 skip**; proven core P1–P16
+> untouched; `EXPERT_OUTREACH.md` dormant.
+>
+> - **B83/V66 — the `Aₙ` family** `L=(−1)ⁿ⁻¹Mⁿ` (the peripheral A-variety of the principal Dehn-filling
+>   component); **SL(4) `L=−M⁴` is NEW** (the first SL(4) figure-eight A-polynomial from the trace map),
+>   unifying Cooper–Long(SL2)/Falbel(SL3). Mechanism: exponent = rank = the filling slope.
+> - **B84/V67 — I1 refuted.** The SL(5) tower barrier is genuine **non-convergence** of the pinv-limit
+>   (even gauge-invariant power sums scatter), not a fixable gauge artifact. The path is symbolic σ.
+> - **B85/V68 — the lynchpin reduced.** Λ² functoriality (new, real) does NOT break the degeneracy (a
+>   root-system fact); the all-n tower from first principles reduces to one symbolic `e₂/Λ²` closure; no
+>   numerical/representation shortcut remains.
+> - **B86/V69 — the synthesis + paper skeleton** (`papers/SLN_FIGURE_EIGHT_SKELETON.md`): three threads,
+>   one object; novelty positioned (the `Aₙ` family / SL(4) A-poly is `APPARENTLY_NEW`, the #1 external
+>   check). Physics chapter stays closed.
+>
+> **Headline of the push:** the SL(4) figure-eight A-polynomial (`L=−M⁴`) + the `Aₙ` family is the new
+> result; the SL(5)+ tower from first principles is reduced to one symbolic step (the `e₂/Λ²` closure).
+>
 > ## Update — 2026-06-05 (post-V65, current at `main` PR #72)
 >
 > A follow-on run (ledger **V60–V65**) hardened degree=rank and proved the SL(4) tower from first
