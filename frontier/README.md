@@ -469,3 +469,18 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
 - **B82** — **consolidation, novelty, physics close** (follow-on Phase 3, V65). The three real threads
   are one object; SL(3) degree=rank KNOWN (Falbel), general APPARENTLY_NEW; the **physics chapter is
   formally CLOSED** (V28/V29/V34/V56/V58 — the kernel is always invariant theory of `sl(n)`).
+- **B83** — the SL(n) figure-eight A-polynomial family `L=(−1)ⁿ⁻¹Mⁿ` (unification push Phase A, V66).
+  The peripheral eigenvalue A-variety of the principal Dehn-filling component; `n=3` `L=+M³` (Falbel),
+  **`n=4` `L=−M⁴` (NEW — the first SL(4) figure-eight A-polynomial from the trace map)**, unifying
+  B67(SL2)/B71(SL3)/B73(SL4). Mechanism: exponent = rank = the filling slope.
+- **B84** — the SL(5) tower barrier is **non-convergence, not gauge** (Phase B, V67; **I1 refuted**).
+  Even the gauge-INVARIANT power sums `tr(DT_0(5)^k)` scatter across seeds → the spectrum itself is
+  seed-dependent (a non-convergence of the pinv-limit at the doubly-degenerate sector), not a basis
+  ambiguity. No gauge-fix/θ-split/averaging helps; the SL(5)+ tower needs the symbolic trace map σ.
+- **B85** — the all-n tower lynchpin **reduced** (Phase C/D, V68). Λ² functoriality is NEW + real
+  (`Λ²(A²B)=(Λ²A)²(Λ²B)`) but does NOT break the degeneracy (the `char(M²)²` multiplicity-2 is a
+  root-system fact, B62). The gap reduces to one symbolic step (the bounded rank-1 `e₂/Λ²` closure into
+  σ, B70); no numerical or representation shortcut remains.
+- **B86** — the **unification synthesis + novelty positioning + paper skeleton** (Phase E, V69). The
+  three threads (tower + A-polynomial + `Aₙ` family) as one object; the `Aₙ` family / SL(4) A-poly is
+  `APPARENTLY_NEW` (the #1 external check); paper skeleton in `papers/SLN_FIGURE_EIGHT_SKELETON.md`.
