@@ -4,6 +4,39 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-05 (post-V74, current at `main` PR #82) — the "Complete the Tower" run
+>
+> The CC-web **"Complete the Tower"** handoff was reconciled against `main` (most of it predated V60–V69)
+> and the genuine open prizes executed (ledger **V70–V74**). Suite **220 passed, 1 skip**; proven core
+> P1–P16 untouched; `EXPERT_OUTREACH.md` dormant; physics chapter stays closed. **Headline: `M⁴=L` is now
+> PROVED symbolic-exact at SL(4), and both flagships (the tower, degree=rank) are reduced to one clean
+> lemma each with the n≤4 cases proved.**
+>
+> - **B87/V70 — m=3 genus (Task 3).** The spectral-curve sequence is `3, 1, …` with **m=2 a minimum**
+>   (the handoff's hoped-for `3,1,0` is refuted, V34); the m=3 trace-relation curve is **genus 1**
+>   (`disc₃=(x²−x−1)(5x²−5x−1)`, squarefree quartic — sharpens V33's loose "≥2").
+> - **B88/V71 — SL(4) census (Task 2).** Exactly **two** clean Dehn-filling components at rank 4:
+>   `{1,1,ω,ω²}→M⁴=L` (principal, `c=−1`) and `{prim 8th}→M³=L` — **degrees {3,4}**. The degree is the
+>   robust invariant; not every bundle rep is on a Dehn-filling component.
+> - **B89/V72 — `M⁴=L` PROVED symbolic-exact (Task 1a).** Upgrades V54 (~1e-31) to a theorem over ℚ(ω):
+>   eliminating `B` collapses the bundle relations to one matrix equation; `A³=I` gives a 10-equation
+>   exact ideal; the rank-drop locus `t11=ω·t22` gives an explicit 4-parameter family on which
+>   `[A,B]·det(t)²=−det(t)·μ⁴` is a pure polynomial identity. (Trap banked: the generic gauge slice is
+>   `det t≡0`/vacuous; real reps live on the rank-drop locus.)
+> - **B89-T/V73 — the tower's cohomological route CLOSED (Task T).** `H¹(F₂;ad ρ)` at the (trivial-rep)
+>   fixed line gives `char(M)^{n²−1}≠tower` — a **third dead shortcut** (after B84 numerics, B85 `Λ²V`).
+>   Advance: the all-n tower = the explicit **two-sequence Sym product** `∏char(Sym^d M_m)`, verified
+>   **symbolic-in-m** = the proved (n≤4)/structural (n=5) tower (B58 had only m=1), reducing it to **one
+>   module-isomorphism**; predicts `a₃(n=6)=2` (overruling B66's gauge-corrupted pinv).
+> - **B90/V74 — degree=rank's uniform peripheral reduction (Task 1b).** **Lemma 1 PROVED uniform** (any n,
+>   pure group algebra from the bundle relations): `λ=[A,B]=μX⁻¹μY⁻¹` and `XμX⁻¹=μA` (the longitude is an
+>   explicit cusp word; `L1b` exact over ℚ(ω)). degree=rank reduces to one **collapse-lemma**, with
+>   **exponent = rank** traced to A's degree-n Cayley–Hamilton; proved n≤4.
+>
+> **Net:** the two flagships each become a single precise remaining lemma (the tower → one module-iso;
+> degree=rank → one collapse-lemma), the n≤4 cases proved, and the cohomological route closed. OPEN:
+> Task 6 (genus-2 generality, B91, Tier-3). `EXPERT_OUTREACH.md` stays dormant/uncommitted.
+>
 > ## Update — 2026-06-05 (post-V69, current at `main` PR #76)
 >
 > The **unification push** (ledger **V66–V69**) tied the work into one object — the SL(n) figure-eight

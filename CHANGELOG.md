@@ -9,6 +9,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **"Complete the Tower" run (2026-06-05, Ledger V70–V74; suite 220 passed, 1 skip; proven core
+  P1–P16 untouched; `EXPERT_OUTREACH.md` dormant).** The CC-web handoff reconciled against `main` and
+  the genuine open prizes executed:
+  `frontier/B87_m3_genus/` (Task 3, V70) the m=3 spectral-curve genus — sequence `3,1,…`, m=2 a minimum
+  (the `3,1,0` reading refuted), m=3 trace-relation curve genus 1;
+  `frontier/B88_sl4_census/` (Task 2, V71) the SL(4) Dehn-filling census — **degrees {3,4}**, two
+  components (`{1,1,ω,ω²}→M⁴=L`, `{prim 8th}→M³=L`);
+  `frontier/B89_sl4_symbolic_M4L/` (Task 1a, V72) **`M⁴=L` PROVED symbolic-exact at SL(4)** over ℚ(ω)
+  (upgrades V54 from ~1e-31), via the 10-equation exact ideal + the rank-drop-locus family;
+  `frontier/B89T_tower_route/` (Task T, V73) the tower's **cohomological route closed** (a 3rd dead
+  shortcut) + the explicit two-sequence **Sym-product** reduction (symbolic-in-m, proved n≤4) to one
+  module-isomorphism;
+  `frontier/B90_degree_rank_peripheral/` (Task 1b, V74) degree=rank's **uniform peripheral reduction** —
+  Lemma 1 (`λ=μX⁻¹μY⁻¹`, `XμX⁻¹=μA`) proved uniformly; reduced to one collapse-lemma, exponent = rank
+  from A's degree-n Cayley–Hamilton.
+  Net: both flagships (the tower, degree=rank) reduced to one clean lemma each with n≤4 proved; the
+  cohomological route closed. Open: Task 6 (genus-2 generality).
 - **Comprehensive Paths A–F mandate (2026-06-05, Ledger V53–V59; suite 179 passed, 1 skip; proven
   core P1–P16 untouched).** Two prizes + a fully-labeled speculative tail:
   `frontier/B73_sl4_apoly/` (Path A, V54) the **degree=rank tower law** `Mⁿ=L` on the principal
