@@ -3,6 +3,7 @@
 (n<=4) / structural (n=5) tower SYMBOLICALLY in m, with the n=6 discriminator a_3 = 2."""
 import importlib.util
 import pathlib
+import sys
 
 import sympy as sp
 
@@ -11,6 +12,20 @@ _spec = importlib.util.spec_from_file_location(
     "b89t", _ROOT / "frontier" / "B89T_tower_route" / "probe.py")
 B = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(B)
+
+
+def test_sym_product_matches_B80_actual_Jm_n4():
+    """Cross-check (CC-web audit): the two-sequence Sym product equals B80's ACTUAL symbolic J(m) char
+    poly at n=4 -- not just a hardcoded target string. Rules out a coincidence with a wrong target."""
+    spec = importlib.util.spec_from_file_location(
+        "b65", _ROOT / "frontier" / "B65_sl4_symbolic_jacobian" / "probe.py")
+    b65 = importlib.util.module_from_spec(spec)
+    sys.modules["b65"] = b65                      # required: b65 uses @dataclass
+    spec.loader.exec_module(b65)
+    t = sp.symbols("t")
+    charJ = sp.expand(b65.symbolic_jacobian().charpoly(t).as_expr())   # the real 15x15 J(m) (B80/B65)
+    sym = sp.expand(B.sym_tower(4).subs({B.t: t}))
+    assert sp.expand(charJ - sym) == 0
 
 
 def test_cohomological_route_fails():

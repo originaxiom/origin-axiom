@@ -1,49 +1,48 @@
-# B90 — the uniform peripheral reduction of degree=rank (Task 1b)
+# B90 — the peripheral form of degree=rank (Task 1b), CORRECTED after the CC-web audit
 
-**Status:** Lemma 1 **PROVED uniform** (group algebra from the bundle relations); degree=rank **PROVED**
-n=3,4; the fully uniform-`n` statement **REDUCED** to one named collapse-lemma. Standalone low-dim
-topology / group theory; **no Origin-core claim**; proven core P1–P16 untouched. Script `probe.py`; test
+**Status (post-audit, honest):** one genuine uniform result (**L1b**), one tautology (**L1a**, relabelled),
+one **refuted** mechanism ("exponent = rank from Cayley–Hamilton"). degree=rank stays **PROVED only at
+n=3,4** (B71, B89); uniform-n is **OPEN** and is *not* reduced to "L1b + CH". Standalone low-dim topology
+/ group theory; no Origin-core claim; proven core P1–P16 untouched. Script `probe.py`; test
 `tests/test_b90_degree_rank_peripheral.py`.
 
-## The goal
-degree=rank — `[A,B] = (−1)ⁿ⁻¹ μⁿ` on the principal figure-eight Dehn-filling component (`μ=A⁻¹t`, V46)
-— is PROVED exact at n=3 (B71/V47) and n=4 (B89/V72). B77 showed the mechanism is **peripheral** (the
-cusp), not the trace ring, but left the "why exponent = rank" derivation open. This stage makes the
-peripheral mechanism **explicit and uniform in n**.
+> **AUDIT (2026-06-05, CC-web verification chat).** The original B90 framing — "Lemma 1 reduces
+> degree=rank to a collapse-lemma; exponent = rank from A's degree-n Cayley–Hamilton" — overstated the
+> result. Three decisive checks (run in `probe.py`) corrected the record. This file is the corrected
+> version; the ledger carries the original V74 row plus a correction row (V75).
 
-## Lemma 1 — the uniform peripheral identity (PROVED, any n, no spectrum)
-The figure-eight bundle relations `tAt⁻¹=A²B`, `tBt⁻¹=AB` with `μ=A⁻¹t`, written via `t=Aμ` and
-`B=A⁻²tAt⁻¹=A⁻¹μAμ⁻¹A⁻¹`, give by direct computation:
+## What survives — L1b (genuine, proved uniform)
 ```
-   (L1a)   λ := [A,B] = μ (Aμ⁻¹A⁻¹) μ (A⁻¹μ⁻¹A) = μ X⁻¹ μ Y⁻¹ ,      X = AμA⁻¹,  Y = A⁻¹μA
-   (L1b)   X μ X⁻¹ = μ A                       (from tA⁻²tA = A⁻¹tAt, i.e. the 2nd bundle relation)
+   (L1b)   X μ X⁻¹ = μ A ,     X = A μ A⁻¹ .
 ```
-So the longitude is the explicit **cusp word `μ X⁻¹ μ Y⁻¹`** in the meridian and its A-conjugates, and
-the bundle imposes the clean conjugation law `X μ X⁻¹ = μ A`. (L1a) uses only the first relation; (L1b)
-is the second. Both are pure group-algebra consequences of the relations — **uniform in n, no spectral
-assumption**. Verified here to ~1e-13 at n=3, ~1e-10 at n=4, and **L1b exactly over ℚ(ω)** on the B89
-symbolic family.
+L1b is a real consequence of the bundle relations (it is the `(*)` equation `tA⁻²tA=A⁻¹tAt` of B89 with
+`t=Aμ`), proved uniformly in n, and it **fails on a random non-bundle `(A,t)`** (dev O(10)). It is the
+clean meridian form of the second bundle relation — the honest peripheral content of this stage.
 
-## The reduction (degree=rank ⟺ one collapse-lemma)
-```
-   COLLAPSE-LEMMA:  L1a + L1b + (A satisfies its degree-n minimal polynomial)  ⟹  λ = (−1)ⁿ⁻¹ μⁿ.
-```
-- **Why exponent = rank.** `A` is `n×n`: its Cayley–Hamilton / minimal polynomial has **degree n**.
-  Collapsing the A-conjugates `X, Y` in `μ X⁻¹ μ Y⁻¹` against the conjugation law (L1b) consumes exactly
-  that degree-n relation, producing the n-th power `μⁿ`. The exponent is the rank because `A` is rank-n.
-- **The sign** `c=(−1)ⁿ⁻¹` is the n-th root of unity forced by `det` (`cⁿ=det[A,B]/det(μ)ⁿ=1`, B77);
-  verified `c=+1` at n=3, `c=−1` at n=4.
-- The collapse-lemma is **PROVED at n=3** (B71, A-spectrum `{1,i,−i}`, `A⁴=I`) and **n=4** (B89,
-  `{1,1,ω,ω²}`, `A³=I`), where A's explicit finite order makes the collapse a finite symbolic check. The
-  fully uniform collapse (general n, A only constrained by `tr A=tr A⁻¹=1` + its degree-n CH) is the lone
-  open item.
+## What was corrected
+- **L1a is a TAUTOLOGY.** `λ=[A,B]=μX⁻¹μY⁻¹` (with `B:=A⁻²tAt⁻¹`, `Y=A⁻¹μA`) is a pure algebraic
+  **rewriting** of the longitude — it holds for an *arbitrary* `(A,t)` pair, even when the bundle
+  constraint fails (verified dev ~1e-10 on random non-bundle inputs). So L1a is **not** constraint
+  content and does **not** count toward any reduction. (The original FINDINGS framed it as "derived from
+  the bundle relations.")
+- **"Exponent = rank = Cayley–Hamilton degree" is REFUTED.** The **hinge test**: both SL(4) Dehn-filling
+  components satisfy L1b and both have 4×4 `A` (CH degree 4) — but the principal `{1,1,ω,ω²}` gives
+  `M⁴=L` while the secondary `{prim 8th roots, z⁴+1}` gives `M³=L`. **Same n, same CH degree, L1b on
+  both, different exponents (4 vs 3).** So the exponent is *not* determined by `L1b + degree-n CH`; it
+  reads the specific (principal) A-spectrum. The CH mechanism for "why n" does not hold.
 
-## Net
-Task 1b is reduced: the peripheral identity (L1a, L1b) is **proved uniformly**, answering B77's open
-"the mechanism is peripheral" with an explicit cusp-word identity; and degree=rank for all n is now
-exactly the **collapse-lemma**, with "why n" answered structurally (A's rank-n Cayley–Hamilton). This is
-the degree=rank analogue of B89-T's reduction of the tower to one module-iso: a single clean remaining
-lemma, n≤4 in hand.
+## Honest status
+- The genuine result is **L1b** (the uniform meridian form of the bundle constraint).
+- degree=rank `[A,B]=(−1)ⁿ⁻¹μⁿ` is **PROVED only at n=3,4** (B71, B89); the uniform-n statement is OPEN
+  and is **not** reduced to L1b + CH (refuted by the secondary component).
+- The real open question, sharpened: **why does the principal spectrum (and not the secondary) give
+  exponent = n?** L1b is component-blind, so the mechanism must read the A-eigenvalue structure (the cusp's
+  cyclic boundary holonomy / root-orders, cf. B88's degrees {3,4}) — **not** Cayley–Hamilton. This is the
+  honest continuation (pairs with the secondary-component degree question, B88/Task D).
+
+## Verdict per the discipline
+This is a **reformulation**, not a reduction: L1a is a tautology and the CH-exponent claim is refuted;
+only L1b (genuine, uniform) is new content. Banked honestly as a corrected negative.
 
 ```bash
 python frontier/B90_degree_rank_peripheral/probe.py
