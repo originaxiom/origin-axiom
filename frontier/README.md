@@ -451,3 +451,21 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   well-conditioned regime; off-circle is cond ~1e26 noise). No homogeneous order≤3 / Q-degree≤4
   recursion at generic `q` — **confirms V52's bounded negative** by an independent route; the
   figure-eight recursion is inhomogeneous/higher-degree (Garoufalidis–Le, a literature theorem).
+- **B77** — the degree=rank **mechanism** (follow-on Phase 1a, V60). Refines degree=rank to the signed
+  scalar-matrix identity `[A,B]=(−1)ⁿ⁻¹μⁿ` (`c=+1` at n=3, `c=−1` at n=4). **Refutes** the A↔D
+  unification: meridian/longitude eigenvalues are generic, NOT the Dickson `char(Mⁿ)` roots — degree=rank
+  is peripheral, not trace-ring.
+- **B78** — the n=5 degree=rank test (follow-on Phase 1b, V61): honest **method-limit**. The n-generic
+  finder reproduces n=3,4, but at SL(5) the bundle condition yields only REDUCIBLE reps. n=5 OPEN.
+- **B79** — the two-parameter `(m,n)` degree table (follow-on Phase 1c, V64): degree=rank holds on every
+  **computable** cell (`d(1,3)=d(3,3)=3`, `d(1,4)=4`, all `=rank`); even-m + rank-4-metallic cells OPEN.
+- **B80** — the **SL(4) metallic tower from first principles** (follow-on Phase 2, V62). `char(J(m))`
+  factors EXACTLY as the Dickson tower over ℚ[m] via the **CRT/F_p** symbolic-m Jacobian (exact F_p
+  ε-series `DT_0(m)` over 5 primes, interpolate in m, CRT + rational-reconstruct → ℚ[m], `sympy.factor`).
+  Char poly identical to B65; resolves the B70 SL(4) stall (e₂ closure automatic via n×n matrix arithmetic).
+- **B81** — the CRT/F_p route at **SL(5): blocked** (follow-on, V63). `char(DT_0(5))` SCATTERS across
+  seeds (gauge-corrupt; SL(4) is seed-invariant, why B80 works) — the doubly-degenerate `char(M²)²`
+  sector is the residual `e₂/Λ²` barrier (B58), localized as char-poly seed-scatter. SL(4) (V62) stands.
+- **B82** — **consolidation, novelty, physics close** (follow-on Phase 3, V65). The three real threads
+  are one object; SL(3) degree=rank KNOWN (Falbel), general APPARENTLY_NEW; the **physics chapter is
+  formally CLOSED** (V28/V29/V34/V56/V58 — the kernel is always invariant theory of `sl(n)`).
