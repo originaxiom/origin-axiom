@@ -1,18 +1,21 @@
-# B90 — the uniform peripheral reduction of degree=rank (Task 1b)
+# B90 — the peripheral form of degree=rank (Task 1b), CORRECTED after the CC-web audit
 
-Makes the **peripheral mechanism** of degree=rank (`[A,B]=(−1)ⁿ⁻¹μⁿ`, B77) explicit and **uniform in n**,
-reducing the all-n proof to one clean collapse-lemma.
+The original B90 framing ("Lemma 1 reduces degree=rank to a collapse-lemma; exponent = rank from
+Cayley–Hamilton") overstated the result. After the CC-web audit, the honest content is:
 
-- **`probe.py`** — verifies **Lemma 1** (proved uniform, from the bundle relations):
-  `λ=[A,B]=μX⁻¹μY⁻¹` and `XμX⁻¹=μA` (`X=AμA⁻¹`, `Y=A⁻¹μA`) on bundle reps at n=3,4, plus the collapse
-  `λ=(−1)ⁿ⁻¹μⁿ` (`c=+1` at n=3, `−1` at n=4).
-- **`FINDINGS.md`** — the derivation, the reduction, and "why exponent = rank" (A's degree-n
-  Cayley–Hamilton).
+- **`probe.py`** — runs the three audit checks:
+  - **L1b** `XμX⁻¹=μA` (`X=AμA⁻¹`) is **genuine** (fails off the bundle constraint), proved uniform —
+    the clean meridian form of the second bundle relation.
+  - **L1a** `λ=μX⁻¹μY⁻¹` is a **tautology** (holds on random non-bundle `(A,t)`) — a rewriting, not content.
+  - **the hinge test** — both SL(4) Dehn-filling components satisfy L1b and both have 4×4 A (CH degree 4),
+    but give **different exponents** (principal `M⁴`, secondary `{prim 8th}` `M³`) ⇒ **"exponent = CH
+    degree = rank" is REFUTED**.
+- **`FINDINGS.md`** — the corrected record.
 
-**Result.** The longitude is the explicit cusp word `μX⁻¹μY⁻¹`, and the bundle gives the clean
-conjugation law `XμX⁻¹=μA` — both **proved uniformly** (L1b verified exactly over ℚ(ω)). degree=rank for
-all n is then exactly the **collapse-lemma** `L1a+L1b+deg-n min-poly(A) ⟹ λ=(−1)ⁿ⁻¹μⁿ` — PROVED n=3
-(B71), n=4 (B89); the exponent = rank because A is an n×n matrix.
+**Net.** degree=rank `[A,B]=(−1)ⁿ⁻¹μⁿ` stays **PROVED only at n=3,4** (B71, B89); uniform-n is **OPEN**
+and is *not* reduced to L1b + CH. The genuine new content is **L1b** alone. The sharpened open question:
+why does the *principal* spectrum give exponent = n (the secondary does not) — a spectrum/root-order
+question (cf. B88), not Cayley–Hamilton.
 
 ```bash
 python frontier/B90_degree_rank_peripheral/probe.py

@@ -1,39 +1,40 @@
-"""B90 (Task 1b) -- the uniform peripheral reduction of degree=rank: Mⁿ=L from the bundle relations.
+"""B90 (Task 1b) -- the peripheral form of degree=rank, and the honest limits of the reduction.
 
-degree=rank (B73/B77/B83): on the principal figure-eight Dehn-filling component the longitude is the
-meridian's rank-th power, [A,B] = (-1)^(n-1) mu^n (mu = A^-1 t, V46), PROVED exact at n=3 (B71/V47) and
-n=4 (B89/V72). B77 showed the mechanism is PERIPHERAL (the cusp), not the trace ring. This stage makes
-the peripheral mechanism explicit and UNIFORM in n, reducing degree=rank to a single collapse-lemma.
+[CORRECTED 2026-06-05 after the CC-web audit -- see the AUDIT block below. The original framing
+("Lemma 1 reduces degree=rank to a collapse-lemma; exponent = rank from A's Cayley-Hamilton") OVERSTATED
+the result; two of its pieces do not survive scrutiny.]
 
-THE UNIFORM PERIPHERAL IDENTITY (Lemma 1 -- PROVED from the bundle relations, any n, no spectrum).
-The figure-eight bundle relations are t A t^-1 = A^2 B, t B t^-1 = A B, with mu = A^-1 t.  Writing
-t = A mu and eliminating B = A^-2 t A t^-1 = A^-1 mu A mu^-1 A^-1 gives, by direct computation,
+degree=rank (B73/B77/B83): on the PRINCIPAL figure-eight Dehn-filling component (A-spectrum {1,1,...,w,w2}
+with tr A = tr A^-1 = 1), the longitude is the meridian's rank-th power, [A,B] = (-1)^(n-1) mu^n
+(mu = A^-1 t, V46), PROVED exact at n=3 (B71/V47) and n=4 (B89/V72).  B77 located the mechanism in the
+cusp.  This stage writes the peripheral structure explicitly and tests how much of degree=rank it forces.
 
-    lambda := [A,B] = A B A^-1 B^-1 = mu (A mu^-1 A^-1) mu (A^-1 mu^-1 A) = mu X^-1 mu Y^-1   (L1a)
+WHAT IS TRUE (kept):
+  (L1b)  X mu X^-1 = mu A ,     X = A mu A^-1 ,                                                  GENUINE.
+  L1b is a real consequence of the bundle relations (= the (*) equation t A^-2 t A = A^-1 t A t with
+  t = A mu), PROVED uniformly in n; it FAILS on a random non-bundle (A,t) (dev O(10)).  It is the clean
+  meridian form of the second bundle relation.
 
-where X = A mu A^-1, Y = A^-1 mu A are the A-conjugates of the meridian.  (L1a uses only the first bundle
-relation.)  The second bundle relation is equivalent to the single matrix equation t A^-2 t A = A^-1 t A t
-(B89's (*)); with t = A mu it reads A mu A^-1 mu A = mu A^2 mu, i.e.
+WHAT DOES NOT SURVIVE (the audit, honest):
+  (L1a)  lambda = [A,B] = mu X^-1 mu Y^-1 ,   Y = A^-1 mu A .                                    TAUTOLOGY.
+  L1a is a pure algebraic REWRITING of the longitude (with B := A^-2 t A t^-1): it holds for an ARBITRARY
+  (A,t) pair, even when the bundle constraint fails (verified: dev ~1e-10 on random non-bundle (A,t)).
+  So L1a is NOT constraint content and does NOT count toward any reduction.
 
-    X mu X^-1 = mu A .                                                                          (L1b)
+  "EXPONENT = RANK from A's degree-n Cayley-Hamilton."                                           REFUTED.
+  The HINGE TEST (`hinge_test`) settles whether L1b + CH(A) forces the exponent: BOTH SL(4) Dehn-filling
+  components satisfy L1b, and both have 4x4 A (CH degree 4) -- but the principal {1,1,w,w2} gives M^4=L
+  while the secondary {prim 8th roots, z^4+1} gives M^3=L.  Same n, same CH degree, L1b on both, DIFFERENT
+  exponents (4 vs 3).  So the exponent is NOT determined by L1b + degree-n Cayley-Hamilton; it depends on
+  the specific (principal) A-spectrum.  The "exponent = rank = CH degree" mechanism is false.
 
-So the longitude is the explicit cusp word mu X^-1 mu Y^-1 in the meridian and its A-conjugates, and the
-bundle imposes the clean conjugation law X mu X^-1 = mu A.  Both are PROVED uniformly (pure group algebra
-from the relations); verified here exactly over Q(w) at n=4 and to ~1e-14 at n=3.
-
-THE REDUCTION.  degree=rank is now exactly:
-
-    COLLAPSE-LEMMA:  L1a + L1b + (A satisfies its degree-n minimal polynomial)  =>  lambda = (-1)^(n-1) mu^n.
-
-The EXPONENT = RANK because A is an n x n matrix: its Cayley-Hamilton / minimal polynomial has degree n,
-and collapsing the A-conjugates X,Y in mu X^-1 mu Y^-1 against the conjugation law (L1b) consumes exactly
-the degree-n relation of A -- producing the n-th power mu^n.  The sign c = (-1)^(n-1) is the n-th root of
-unity forced by det (B77).  The COLLAPSE-LEMMA is PROVED at n=3 (B71) and n=4 (B89) -- where the explicit
-A-spectra ({1,i,-i}, A^4=I; {1,1,w,w^2}, A^3=I) make the collapse a finite check -- and is the lone open
-item for the fully uniform-in-n statement.
-
-So Task 1b is reduced: the peripheral identity (L1a,L1b) is uniform and PROVED; degree=rank for all n
-is exactly the COLLAPSE-LEMMA, with the "why n" answered structurally (A's rank-n Cayley-Hamilton).
+HONEST STATUS (post-audit):
+  * L1b (the meridian form of the bundle constraint) is the genuine, uniform peripheral result here.
+  * degree=rank `[A,B]=(-1)^(n-1) mu^n` stays PROVED only at n=3,4 (B71,B89); the uniform-n statement is
+    OPEN, and is NOT reduced to "L1b + CH" (that reduction is refuted by the secondary component).
+  * The real open question is sharper than before: WHY does the PRINCIPAL spectrum (and not the secondary)
+    give exponent = n?  L1b is component-blind, so the mechanism must read the spectrum -- the cusp's
+    cyclic boundary holonomy and the A-eigenvalue orders (cf. B88's degrees {3,4}), not Cayley-Hamilton.
 
 Standalone low-dim topology / group theory; no physics, no Origin-core claim; proven core P1-P16 untouched.
 """
@@ -53,15 +54,33 @@ def _inv(M):
 
 
 def lemma1_residuals(A, B, t):
-    """Return (L1a dev, L1b dev): the uniform peripheral identity on a bundle rep (A,B,t)."""
+    """(L1a dev, L1b dev) on a rep. NOTE: L1a is a tautology (holds for any (A,t)); only L1b is genuine."""
     Ai = _inv(A)
     mu = Ai @ t
-    comm = A @ B @ Ai @ _inv(B)                      # lambda = [A,B]
-    X = A @ mu @ Ai                                  # X = A mu A^-1
-    Y = Ai @ mu @ A                                  # Y = A^-1 mu A
-    l1a = np.max(np.abs(comm - mu @ _inv(X) @ mu @ _inv(Y)))     # lambda = mu X^-1 mu Y^-1
-    l1b = np.max(np.abs(X @ mu @ _inv(X) - mu @ A))              # X mu X^-1 = mu A
+    comm = A @ B @ Ai @ _inv(B)
+    X = A @ mu @ Ai
+    Y = Ai @ mu @ A
+    l1a = np.max(np.abs(comm - mu @ _inv(X) @ mu @ _inv(Y)))
+    l1b = np.max(np.abs(X @ mu @ _inv(X) - mu @ A))
     return l1a, l1b
+
+
+def l1a_is_tautology(seed=0, trials=3):
+    """L1a holds even on RANDOM non-bundle (A,t) (B := A^-2 t A t^-1). Returns the worst deviation."""
+    rng = np.random.default_rng(seed)
+    worst = 0.0
+    for _ in range(trials):
+        A = rng.standard_normal((4, 4)) + 1j * rng.standard_normal((4, 4))
+        A = A / np.linalg.det(A) ** 0.25
+        t = rng.standard_normal((4, 4)) + 1j * rng.standard_normal((4, 4))
+        t = t / np.linalg.det(t) ** 0.25
+        Ai, ti = _inv(A), _inv(t)
+        B = Ai @ Ai @ t @ A @ ti               # B := A^-2 t A t^-1 (definition only -- bundle constraint NOT imposed)
+        mu = Ai @ t
+        comm = A @ B @ Ai @ _inv(B)
+        X, Y = A @ mu @ Ai, Ai @ mu @ A
+        worst = max(worst, np.max(np.abs(comm - mu @ _inv(X) @ mu @ _inv(Y))))
+    return worst
 
 
 def collapse_dev(A, B, t, n):
@@ -74,75 +93,55 @@ def collapse_dev(A, B, t, n):
     return dev, complex(np.mean(np.diag(S)))
 
 
-# --------------------------------------------------------------------------- #
-# bundle-rep builders (n=3 self-contained; n=4 reuses B73)
-# --------------------------------------------------------------------------- #
+def _best_exponent(A, B, t, ks=(2, 3, 4, 5)):
+    Ai = _inv(A)
+    mu = Ai @ t
+    comm = A @ B @ Ai @ _inv(B)
 
-def _build_n3(seed_max=400):
-    """An SL(3) figure-eight bundle rep on the principal {1,i,-i} component."""
-    I3 = np.eye(3, dtype=complex)
-    A = np.diag([1, 1j, -1j]).astype(complex)
-    W = ["A", "AA", "B", "BB", "AB", "AAB", "ABB", "ABAB", "AABB"]
-
-    def resid(bvec):
-        B = (bvec[:9] + 1j * bvec[9:]).reshape(3, 3)
-        try:
-            g = {"A": A, "B": B, "m": _inv(A), "n": _inv(B)}
-            pg = {"A": A @ A @ B, "B": A @ B, "m": _inv(A @ A @ B), "n": _inv(A @ B)}
-        except np.linalg.LinAlgError:
-            return np.ones(2 * len(W) + 2) * 1e3
-
-        def wd(s, gg):
-            M = np.eye(3, dtype=complex)
-            for c in s:
-                M = M @ gg[c]
-            return np.trace(M)
-        e = np.array([wd(w, g) - wd(w, pg) for w in W] + [np.linalg.det(B) - 1])
-        return np.concatenate([e.real, e.imag])
-
-    rng = np.random.default_rng(2)
-    for _ in range(seed_max):
-        r = least_squares(resid, rng.standard_normal(18) * 0.8, method="trf", max_nfev=700)
-        if np.max(np.abs(resid(r.x))) < 1e-9:
-            B = (r.x[:9] + 1j * r.x[9:]).reshape(3, 3)
-            pA, pB = A @ A @ B, A @ B
-            E = np.vstack([np.kron(A.T, I3) - np.kron(I3, pA), np.kron(B.T, I3) - np.kron(I3, pB)])
-            t = np.linalg.svd(E)[2][-1].conj().reshape(3, 3, order="F")
-            t = t / np.linalg.det(t) ** (1 / 3)
-            if np.max(np.abs(t @ A @ _inv(t) - pA)) < 1e-7:
-                return A, B, t
-    return None
+    def dev(k):
+        S = comm @ np.linalg.matrix_power(_inv(mu), k)
+        return max(np.max(np.abs(S - np.diag(np.diag(S)))), np.max(np.abs(np.diag(S) - np.mean(np.diag(S)))))
+    devs = {k: dev(k) for k in ks}
+    return min(devs, key=devs.get), devs
 
 
-def _build_n4():
+def hinge_test():
+    """THE HINGE TEST: both SL(4) Dehn-filling components satisfy L1b, with DIFFERENT exponents (4 vs 3).
+    Returns {component: (l1b_dev, best_k)} -- refutes 'exponent = CH degree = rank'."""
     spec = importlib.util.spec_from_file_location(
         "b73", _ROOT / "frontier" / "B73_sl4_apoly" / "dehn_filling.py")
     b73 = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(b73)
-    for sd in range(20):
-        out = b73.realize_bundle_rep(b73.SPEC_W1, seed=sd, tries=120)
-        if out is not None:
-            return out
-    return None
+    out = {}
+    for name, A_spec in (("principal {1,1,w,w2}", b73.SPEC_W1),
+                         ("secondary {prim 8th, z^4+1}", b73.SPEC_Z4)):
+        rep = None
+        for sd in range(40):
+            r = b73.realize_bundle_rep(A_spec, seed=sd, tries=120)
+            if r is not None:
+                rep = r
+                break
+        if rep is None:
+            out[name] = (None, None)
+            continue
+        A, B, t = rep
+        _, l1b = lemma1_residuals(A, B, t)
+        k, _ = _best_exponent(A, B, t)
+        out[name] = (l1b, k)
+    return out
 
 
 def main():
-    print("B90 (Task 1b) -- the uniform peripheral reduction of degree=rank\n")
-    print("Lemma 1 (PROVED uniform, from the bundle relations):")
-    print("   (L1a) lambda = mu X^-1 mu Y^-1     (X=A mu A^-1, Y=A^-1 mu A)")
-    print("   (L1b) X mu X^-1 = mu A\n")
-    for n, builder in ((3, _build_n3), (4, _build_n4)):
-        out = builder()
-        if out is None:
-            print(f"  n={n}: no rep this run (stochastic)")
-            continue
-        A, B, t = out
-        l1a, l1b = lemma1_residuals(A, B, t)
-        dev, c = collapse_dev(A, B, t, n)
-        print(f"  n={n}: L1a dev={l1a:.0e}, L1b dev={l1b:.0e} | collapse lambda=c*mu^{n} dev={dev:.0e}, "
-              f"c={c:+.2f} (= (-1)^{n-1})")
-    print("\nReduction: degree=rank  <=>  COLLAPSE-LEMMA  [ L1a + L1b + deg-n min-poly(A) => lambda=(-1)^(n-1) mu^n ].")
-    print("  L1a,L1b are PROVED uniform; the collapse is PROVED at n=3 (B71), n=4 (B89); exponent=rank = deg CH(A).")
+    print("B90 (Task 1b) -- the peripheral form of degree=rank, with the audit corrections\n")
+    print("L1b (GENUINE, proved uniform):  X mu X^-1 = mu A   (X = A mu A^-1)")
+    print(f"L1a (TAUTOLOGY): lambda = mu X^-1 mu Y^-1 holds on RANDOM non-bundle (A,t): "
+          f"dev = {l1a_is_tautology():.1e}  (=> rewriting, not constraint content)\n")
+    print("THE HINGE TEST -- does L1b + CH(A) force the exponent? (both components have 4x4 A, CH deg 4)")
+    for name, (l1b, k) in hinge_test().items():
+        print(f"  {name}: L1b dev={l1b:.0e}, best exponent M^{k}=L")
+    print("\n=> both satisfy L1b but exponents differ (4 vs 3) => 'exponent = CH degree = rank' REFUTED.")
+    print("   L1b is the genuine uniform peripheral constraint; the exponent needs the PRINCIPAL spectrum.")
+    print("   degree=rank stays PROVED only at n=3,4 (B71,B89); uniform-n is OPEN (NOT reduced to L1b+CH).")
     return 0
 
 

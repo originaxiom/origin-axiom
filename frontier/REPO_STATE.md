@@ -28,14 +28,21 @@ trivially-safe fixes applied, everything non-trivial PROPOSED; no premature clos
 >   Advance: the all-n tower = the explicit **two-sequence Sym product** `∏char(Sym^d M_m)`, verified
 >   **symbolic-in-m** = the proved (n≤4)/structural (n=5) tower (B58 had only m=1), reducing it to **one
 >   module-isomorphism**; predicts `a₃(n=6)=2` (overruling B66's gauge-corrupted pinv).
-> - **B90/V74 — degree=rank's uniform peripheral reduction (Task 1b).** **Lemma 1 PROVED uniform** (any n,
->   pure group algebra from the bundle relations): `λ=[A,B]=μX⁻¹μY⁻¹` and `XμX⁻¹=μA` (the longitude is an
->   explicit cusp word; `L1b` exact over ℚ(ω)). degree=rank reduces to one **collapse-lemma**, with
->   **exponent = rank** traced to A's degree-n Cayley–Hamilton; proved n≤4.
+> - **B90/V74 — the peripheral form of degree=rank (Task 1b)** — *corrected by the V75 audit (below).*
+>   `XμX⁻¹=μA` (L1b) is genuine and proved uniform (the meridian form of the bundle constraint); but L1a
+>   `λ=μX⁻¹μY⁻¹` is a **tautology** and "exponent = rank from Cayley–Hamilton" is **REFUTED**. degree=rank
+>   stays PROVED only at **n=3,4** (B71, B89); uniform-n is OPEN (not reduced to L1b+CH).
+> - **V75 — CC-web audit correction.** The hinge test: both SL(4) Dehn-filling components satisfy L1b and
+>   have 4×4 A (CH degree 4) but give different exponents (principal→`M⁴`, secondary `{prim 8th}`→`M³`),
+>   refuting "exponent = CH degree = rank." L1a holds on random non-bundle `(A,t)` (a tautology). POSITIVE:
+>   B89-T's two-sequence Sym product equals B80's **actual** symbolic `J(m)` char poly at n=4 exactly.
 >
-> **Net:** the two flagships each become a single precise remaining lemma (the tower → one module-iso;
-> degree=rank → one collapse-lemma), the n≤4 cases proved, and the cohomological route closed. OPEN:
-> Task 6 (genus-2 generality, B91, Tier-3). `EXPERT_OUTREACH.md` stays dormant/uncommitted.
+> **Net (honest, post-audit):** `M⁴=L` PROVED symbolic-exact (B89); the tower's all-n proof reduced to a
+> **GL(2,ℤ)/Sym plethysm** module-iso (B89-T, conjectural, n≤4 confirmed against the real `J(m)`); the
+> cohomological route closed. degree=rank is PROVED n=3,4 only and **not** uniformly reduced (B90 = a
+> reformulation; only L1b genuine). The tower and degree=rank are TWO problems, not one. OPEN: the tower
+> plethysm (rep theory), degree=rank uniform-n (spectrum/root-order, not CH), Paper-0 family
+> classification, Task 6 (genus-2). `EXPERT_OUTREACH.md` stays dormant/uncommitted; physics closed.
 >
 > ## Update — 2026-06-05 (post-V69, current at `main` PR #76)
 >
