@@ -105,8 +105,12 @@ def test_sym2_shadow_validates_monodromy():
         e3 = np.sort_complex(np.linalg.eigvals(t3))
         mu = np.linalg.eigvals(t2)
         mu = mu[np.argmax(np.abs(mu))]
-        pred = np.sort_complex(np.array([mu**2, 1.0, mu**-2]))
-        best = min(np.max(np.abs(e3 - w * pred))
+        pred_raw = np.array([mu**2, 1.0, mu**-2])
+        # t3 is determined up to a global cube-root-of-unity (the det=1 normalization branch, which is
+        # platform-dependent via the SVD null-vector phase). Match the eigenvalue SETS up to that phase --
+        # sorting AFTER rotating by w (NOT w * sort(pred)), so the comparison is branch-/order-robust.
+        # Tolerance stays 1e-7; this only fixes a sort-before-rotate fragility (see B71 FINDINGS).
+        best = min(np.max(np.abs(e3 - np.sort_complex(w * pred_raw)))
                    for w in (1, np.exp(2j*np.pi/3), np.exp(-2j*np.pi/3)))
         assert best < 1e-7
 

@@ -19,11 +19,13 @@ components reproduce. Standalone low-dim topology; no Origin-core claim; proven 
 """
 from __future__ import annotations
 
+import pathlib
 import sys
 
 import numpy as np
 
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B73_sl4_apoly")
+_FRONTIER = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(_FRONTIER / "B73_sl4_apoly"))
 import dehn_filling as D4  # noqa: E402
 
 W = np.exp(2j * np.pi / 3)

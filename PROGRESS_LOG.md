@@ -2156,5 +2156,24 @@ grounding (G2/G4), and the Paper 0 write-up.
 
 ---
 
+## 2026-06-06 — Task M: the degree=rank mechanism (V79) + the §1–§3 cleanup pass
+
+**Task M (B95/V79).** The V75 audit killed "exponent = Cayley–Hamilton degree"; B95 finds what the
+exponent reads. The principal spectrum is **forced** by `tr A = tr A⁻¹ = 1` (eig 1 at mult n−2): `{1,i,−i}`
+(n=3), `{1,1,ω,ω²}` (n=4), `{1,1,1,−1,−1}` (n=5), **impossible at n≥6**. At n=5 it has `A²=I` ⟹ `A,B`
+involutions ⟹ `⟨A,B⟩` dihedral ⟹ **reducible** (no irreducible SL(5) principal rep — upgrades B78's
+numerical limit to a structural reason). So **"exponent = rank" is an n∈{3,4} phenomenon**; the mechanism
+reads whether the cusp's forced finite-order spectrum admits an irreducible rep — explaining the n≥5 wall
+on both the tower and degree=rank. Corrects the handoff's SL(5) guess.
+
+**Cleanup pass (CC-web audit).** §1: corrected B94's "Cayley–Hamilton" overclaim for catalog universality
+to the **Sym-plethysm** (proven metallic / rigorous squares / confirmed non-square n=2 / open non-metallic
+n≥3), and locked the n=2 non-square datum (`sl2_nonsquare_check.py`). §2: de-hardcoded four `/Users/dri`
+absolute paths (B77/B79/B83/B88) to `Path(__file__)`-relative imports + a guard test. §3: diagnosed the
+B71 sym2-shadow test's cross-environment failure as a **sort-before-rotate** fragility (the SVD/det
+cube-root branch is platform-dependent); fixed the comparison to sort-after-rotate (tolerance unchanged).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

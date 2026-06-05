@@ -21,8 +21,12 @@ In every case `char(J²)` factors **exactly** over the catalog `char(Nᵏ)`, wit
 sign sector `char(−Nᵏ)` **and** the `(t+1)` factor are **absent**.
 
 ## The conclusion — "universal catalog, det=−1 parity"
-- **The Dickson catalog `∏char(Nᵏ)` is UNIVERSAL across `GL(2,ℤ)`** — `char(Nᵏ)` is just the characteristic
-  polynomial of `Nᵏ` (Cayley–Hamilton), and the trace-map Jacobian factors over it for any monodromy.
+- **The Dickson catalog `∏char(Nᵏ)` is the catalog of the monodromy's powers, `char(Nᵏ)=t²−tr(Nᵏ)t+det(N)ᵏ`.**
+  Its *appearance* in `char(J_N)` is the **Sym-plethysm** `char(J_N)=∏char(Symᵈ N)` — **not** Cayley–Hamilton
+  (CH only says `Nᵏ` satisfies its own char poly; it does **not** give the Jacobian's factorization). Status
+  of the plethysm: **proven** for metallic `N`; **rigorous** for squares `N=M²` (the squaring device used
+  here); **confirmed for a genuine non-square at `n=2`** (the external SL(2) trace-map Jacobian, see Scope);
+  **open** for non-metallic `N` at `n≥3` (= the plethysm-universality, Task A).
 - **The parity / sign sectors `char(−Nᵏ)` (and the `(t+1)` Cartan-parity factor) are det=−1-SPECIFIC** —
   the negative-small-eigenvalue (`−1/λ`) sectors (B93/MyCalc-1); squaring to det=+1 removes every one.
   So the tower's two-sheeted (CPT) structure is a **metallic (det=−1) phenomenon**, making the
@@ -38,8 +42,15 @@ problems, not one** (consistent with the audit's "stop unifying them").
 The det=+1 case here is reached by squaring the metallic `J` (so `N=M²`); this is decisive for the
 **parity-removal / catalog-survival** dichotomy (the det sign flips, the sign sectors vanish). A fully
 general non-metallic `N` (not a metallic power, e.g. `[[3,2],[1,1]]`) would need its own substitution's
-Jacobian; the per-eigenvalue argument (B93/MyCalc-1) already covers it structurally (both eigenvalues
-positive ⟹ no sign sectors). `m=1` baseline throughout.
+Jacobian. **The genuine non-square `[[3,2],[1,1]]`** (det=+1, period-2 CF, *not* a metallic power) **was
+checked at the actual trace-map Jacobian level** (not the Sym-product proxy): building the SL(2) trace map
+of an automorphism with that abelianization via Nielsen-generator composition and taking the Jacobian at
+the trivial point `(2,2,2)` gives `char(J)=(s−1)(s²−14s+1)=char(Sym²[[3,2],[1,1]])` — catalog factor
+present, parity marker `(s−det N)=(s−1)`, **no `(s+1)`**. Controls: metallic `[[1,1],[1,0]]→(s+1)(s²−3s+1)`,
+square `[[2,1],[1,1]]→(s−1)(s²−7s+1)`. This **upgrades** "covered structurally by MyCalc-1" to **confirmed
+at the actual-Jacobian level at `n=2` for a genuine non-square** (`sl2_nonsquare_check.py`,
+`computer-assisted (n=2)`). Still **open**: the `char(−Nᵏ)` sign sectors for non-metallic `N` at `n≥3`.
+`m=1` baseline throughout.
 
 ```bash
 python frontier/B94_tower_universality/probe.py

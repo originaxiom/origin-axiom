@@ -155,3 +155,17 @@ and the transpose is a genuine naming convention. This is the genuine SL(3) anal
 Cooper–Long match, on the Dehn-filling components. Labeled **computer-assisted (exact component
 structure B1 + numerical realization/monodromy B2–B3, cross-validated against the published
 A-variety)**. Proven core P1–P16 untouched.
+
+## Reproducibility note (§3 audit, 2026-06-06)
+
+`test_sym2_shadow_validates_monodromy` was reported failing in an external sandbox (`best≈2.455` vs the
+`1e-7` threshold) while green locally. **Diagnosis (not a tolerance issue):** the SL(3) monodromy `t3` from
+the SVD null-space is determined only up to a global **cube-root-of-unity** (the `det=1` normalization
+branch), and the SVD null-vector's phase is **platform/LAPACK-dependent**. The test compared the sorted
+eigenvalues `e3` to `w·sort(pred)` — but `w·sort(pred) ≠ sort(w·pred)` for a complex phase `w`, so when the
+branch lands on `ζ≠1` the sorted-elementwise comparison is misaligned and `best` jumps to `O(1)`
+(reproduced exactly: a `ζ=ω` branch gives `best≈2.46–6.88`). **Fix (correctness, tolerance unchanged):**
+sort **after** rotating — compare `e3` to `sort(w·pred)` over the three cube roots `w`. This is
+branch-/order-robust and keeps the tight `1e-7` bound. The underlying Sym²-shadow mathematics is
+unaffected. Because the fix makes the comparison independent of the SVD/LAPACK branch, no exact
+version-pin is required (the `requirements.txt` `>=` bounds stand).
