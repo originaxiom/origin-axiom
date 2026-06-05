@@ -4,6 +4,27 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-05 (post-V65, current at `main` PR #72)
+>
+> A follow-on run (ledger **V60–V65**) hardened degree=rank and proved the SL(4) tower from first
+> principles. Suite **191 passed, 1 skip**; proven core P1–P16 untouched; `EXPERT_OUTREACH.md` dormant.
+>
+> - **B80/V62 — the SL(4) metallic tower from first principles** (the headline). `char(J(m))` factors
+>   EXACTLY as the Dickson tower over ℚ[m] via the **CRT/F_p** symbolic-m Jacobian (exact F_p ε-series
+>   `DT_0(m)` over 5 primes → interpolate in m → CRT + rational-reconstruct → ℚ[m] → `sympy.factor`).
+>   Resolves the B70 SL(4) stall; char poly identical to B65; the e₂ two-block closure is automatic.
+> - **B81/V63 — SL(5) blocked**: `char(DT_0(5))` scatters across seeds (gauge-corrupt at the
+>   doubly-degenerate `char(M²)²` sector — the residual `e₂/Λ²` barrier, B58); SL(4) is seed-invariant,
+>   which is why B80 works. The barrier is now precisely localized as char-poly seed-scatter.
+> - **B77/V60 — degree=rank refined** to the signed law `[A,B]=(−1)ⁿ⁻¹μⁿ`; the A↔D unification REFUTED
+>   (meridian/longitude eigenvalues are generic, not the Dickson roots — degree=rank is peripheral).
+> - **B78/V61 — n=5 method-limit** (SL(5) yields only reducible reps numerically); **B79/V64** — the
+>   `(m,n)` table: degree=rank `=rank` on every computable cell, even-m + rank-4-metallic cells OPEN.
+> - **B82/V65 — consolidation + the physics chapter formally CLOSED** (the 0-for-many record
+>   V28/V29/V34/V56/V58 — the kernel is always invariant theory of `sl(n)`, never a 3+1D crossing).
+>   degree=rank at SL(3) is KNOWN (Falbel); the general pattern is APPARENTLY_NEW pending an external
+>   literature check (the one result most worth checking).
+>
 > ## Update — 2026-06-05 (post-V59, current at `main` PR #66)
 >
 > Since the post-V42 block below, two governed exploration runs were banked (ledger **V43–V59**;
