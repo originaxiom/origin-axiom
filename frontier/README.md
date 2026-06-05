@@ -412,3 +412,42 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   geometric component (Falbel D1) has no tidy closed form (141-poly ideal), as in the
   literature. Computer-assisted (exact B1 + numerical B2–B3, cross-validated vs Falbel).
   Ledger V43/V44. Proven core P1-P16 unchanged.
+- **B73** — the **degree=rank tower law** at SL(4) (Paths-A–F mandate, Path A). On the
+  SL(n) figure-eight bundle's **principal Dehn-filling component** `{tr A=tr A^-1=1}`, the
+  longitude is the meridian's `n`-th power: `M^n=L`. CONFIRMED at SL(4) (`M^4=L` on the
+  spectrum `{1,1,ω,ω²}`, high-precision ~1e-39 via mpmath Newton-refinement; the scalar
+  criterion `[A,B]=c·μ^4`, `μ=A^-1 t` from V46). A0 (exact): SL(2) is degenerate — `Fix(T_1^2)`
+  is a single geometric component, no Dehn-filling component, so the phenomenon starts at `n=3`.
+  Honest caveat: SL(4) has a SECOND Dehn-filling component (`{z^4+1}`, `tr A=0`) giving `M^3=L`,
+  so degree=rank is the relation on the *principal* component, not the only one. With SL(3)
+  (V47, `M^3=L`) this gives the law at `n=3,4`. Ledger V54. Proven core P1-P16 unchanged.
+- **B74** — higher-spin / W_N vs the metallic Dickson tower (Path C, literal-match test). Exact
+  sympy: the W_N charge-conjugation grading (spin-`s` current = degree-`s` Casimir, graded by
+  `(-1)^s` under `C=-X^T`; verified `tr((-X^T)^s)=(-1)^s tr(X^s)`, sl 3/4/5) and the Dickson
+  P-grading (`L_s(-m)=(-1)^s L_s(m)`, B64) are the **same** involution `-w0` of `A_{n-1}` on a
+  degree-`k` invariant. So the **parity grading is a LITERAL shared object (STRUCTURAL)**; but
+  the full spectrum diverges (the Dickson tower is strictly richer — negative powers, sign
+  sectors, multiplicities), clean bijection only at `n=3`; and the dynamical "eigenvalues = mode
+  growth rates" reading is **SPECULATIVE-ANALOGY** (no supporting computation). Real kernel is
+  sl(n) invariant theory, consistent with V28. Ledger V56. Proven core P1-P16 unchanged.
+- **B75** — the **m-axis of degree=rank** (Path F1, the two-parameter `(m,n)` thread). Builds the
+  metallic-`m` once-punctured-torus bundle (monodromy `φ_m^2`, `φ_m:a→a^m b, b→a`; trace `m^2+2`)
+  and tests degree=rank across `m`. METHOD: B73's scalar `μ=A^-1 t` criterion is calibrated to the
+  figure-eight's specific monodromy convention and FAILS on a conjugate one; the **convention-
+  independent** test is `eig[A,B]=eig(t)^k` (reproduces `M^3=L` for both fig-8 conventions, ~1e-14).
+  RESULT: at `n=3` the **odd** metallic bundles `m=1` AND `m=3` both give `M^3=L` — degree=rank
+  persists across the metallic family to a different hyperbolic manifold, a two-parameter
+  rank/topological invariant. OPEN: even `m=2` (no clean component over 61 spectra — consistent with
+  the cusp parity `k≡m mod 2`, B69); the rank-4 metallic corner. Ledger V57. Core unchanged.
+- **B76** — cusp-torsion × quantum group at roots of unity (Path F2/F3 closure). Exact sympy:
+  `2cos(π/k)=[2]_q` at `q=e^{iπ/k}`, so the cusp `k`-set `{3..m+2}` (B69) **is** the SU(2)\_{k−2}
+  quantum-group root-of-unity level set (both are `2cos(π/k)`, order-`2k` torsion) — closes B69's
+  open reconciliation item (STRUCTURAL); but the metallic fusion rule categorifies only at `m=1`
+  (V28), so the "anyonic TQFT" reading of the family is **SPECULATIVE-ANALOGY**. F3 (parity × CS)
+  is subsumed by V56 (the B64 parity split = the W_N charge-conjugation grading). Ledger V58.
+  Proven core P1-P16 unchanged.
+- **B68 (Path E retry, V59)** — the figure-eight AJ recursion, retried with a smarter method
+  (`cyclotomic_numeric.py`): Habiro `J_N` + **per-q numeric null-space at `|q|=1`** (the
+  well-conditioned regime; off-circle is cond ~1e26 noise). No homogeneous order≤3 / Q-degree≤4
+  recursion at generic `q` — **confirms V52's bounded negative** by an independent route; the
+  figure-eight recursion is inhomogeneous/higher-degree (Garoufalidis–Le, a literature theorem).
