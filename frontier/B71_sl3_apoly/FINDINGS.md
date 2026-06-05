@@ -126,6 +126,25 @@ which peripheral curve is named meridian; the corrected meridian `μ` commutes w
 Gröbner basis is 141 polynomials), so no literal match is expected there; the Sym²-shadow validation
 is the geometric-branch check.
 
+## P1 — the Dehn-filling A-variety as an EXACT scalar-matrix identity (`symbolic_dehn.py`)
+
+V44's relations are numerical (magnitude-sorted ratios, ~1e-10). V46's commutativity (`μ` and `[A,B]`
+commute) gives an **exact reformulation** with no eigenvalue extraction or pairing ambiguity — since a
+commuting pair is simultaneously diagonalizable, `M³=L` for all paired ratios is *exactly*
+
+| component | exact criterion |
+|---|---|
+| **W1 = D2** (`M³=L`) | `[A,B] = c·μ³` for a scalar `c`  ⟺  `[A,B]·μ⁻³` is a scalar matrix |
+| **W2 = D3** (`M³L=1`) | `[A,B]·μ³ = c` for a scalar `c`  ⟺  `[A,B]·μ³` is a scalar matrix |
+
+So the Dehn-filling A-variety relation **is** the statement that one explicit matrix is scalar —
+checkable without roots. Confirmed: the scalar-deviation is `~3e-10` (double, both components, 16
+pts/2 seeds), and on **W1 to 50 digits** — `A=diag(1,i,−i)` fixed, `B(p,q)` solved exactly over `ℚ(i)`
+(sympy), the monodromy null vector + scalar criterion evaluated in mpmath — **`M³=L` holds to `~1e-43`
+at 12 exact rational points** (an exact-grade upgrade of V44 on W1; the full symbolic identity in
+`(p,q)` is bottlenecked by radical realizations, so the high-precision exact-point certification is the
+practical exact form). Ledger **V47**.
+
 **Banked result (B2–B3):** an explicit SL(3) realization + the Kronecker monodromy construction
 derive the peripheral eigenvalue A-variety from the trace-map fixed locus; the **Dehn-filling
 components literally reproduce Falbel et al.'s published A-variety relations `L³=M` / `L³M=1`**

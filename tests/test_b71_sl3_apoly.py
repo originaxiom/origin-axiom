@@ -121,6 +121,22 @@ def test_dehn_filling_avariety_literal_match():
     assert nW2 >= 10 and medW2 < 1e-6
 
 
+_dspec = importlib.util.spec_from_file_location(
+    "b71_symbolic_dehn", _ROOT / "frontier" / "B71_sl3_apoly" / "symbolic_dehn.py")
+sdehn = importlib.util.module_from_spec(_dspec)
+_dspec.loader.exec_module(sdehn)
+
+
+def test_dehn_filling_exact_scalar_criterion():
+    """P1 (V47): the Dehn-filling relations are the EXACT scalar-matrix identities [A,B]=c*mu^3 (W1=D2)
+    and [A,B]*mu^3=c (W2=D3) -- equivalent to M^3=L / M^3 L=1 given the V46 commutativity. Check the
+    scalar-deviation is ~0 on both components."""
+    medW1, nW1 = sdehn.dehn_scalar_residual(sdehn.per.W1, "D2")
+    medW2, nW2 = sdehn.dehn_scalar_residual(sdehn.per.W2, "D3")
+    assert nW1 >= 10 and medW1 < 1e-6
+    assert nW2 >= 10 and medW2 < 1e-6
+
+
 def test_genuine_meridian_commutes_with_longitude():
     """B3 (meridian fix): the genuine peripheral meridian mu = w^-1 t COMMUTES with the longitude
     [A,B] (the abelian cusp pair) on all three components -- the bare monodromy t does NOT. And
