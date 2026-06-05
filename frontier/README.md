@@ -503,7 +503,31 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
   Advance: the all-n tower = the explicit **two-sequence Sym product** `∏char(Sym^d M_m)`, verified
   **symbolic-in-m** = the proved (n≤4)/structural (n=5) tower (B58 had only m=1), reducing it to **one
   module-isomorphism**; predicts `a₃(n=6)=2` (overruling B66's gauge-corrupted pinv).
-- **B90** — **degree=rank's uniform peripheral reduction** (Task 1b, V74). **Lemma 1 PROVED uniform**
-  (any n, pure group algebra from the bundle relations): `λ=[A,B]=μX⁻¹μY⁻¹` and `XμX⁻¹=μA` (the longitude
-  is an explicit cusp word; `L1b` exact over ℚ(ω)). degree=rank reduces to one **collapse-lemma**, with
-  **exponent = rank** traced to A's degree-n Cayley–Hamilton; proved n≤4. OPEN: Task 6 (genus-2, B91).
+- **B90** — the **peripheral form of degree=rank** (Task 1b, V74; **corrected by the V75 audit**). The
+  genuine content is **L1b** `XμX⁻¹=μA` (`X=AμA⁻¹`), proved uniform and exact over ℚ(ω). **Corrected:**
+  L1a `λ=μX⁻¹μY⁻¹` is a **tautology** (holds on random non-bundle `(A,t)`), and **"exponent = rank from
+  Cayley–Hamilton" is REFUTED** by the hinge test — both SL(4) components satisfy L1b with 4×4 A but give
+  exponents 4 vs 3. So degree=rank is **PROVED only n=3,4**; uniform-n is OPEN (not reduced to L1b+CH);
+  B90 is a reformulation. OPEN: Task 6 (genus-2, B91).
+
+### Paper 0 — the self-reference grounding (CC-web handoff; V76–V78)
+
+The motivation (characterize the metallic family by a condition, `m` free) is quarantined in
+`paths/philosophical/METALLIC_FOUNDATIONS.md`; the mathematics below uses none of it.
+
+- **B92** — the **metallic family as a classification** (Layer 1, V76; `proven`, computer-assisted). Among
+  non-negative hyperbolic unimodular 2×2 matrices, the dominant eigenvalue is purely-periodic-period-1
+  **⟺ det=−1** (verified for all 66 with entries ≤5), = the family `{M_m=[[m,1],[1,0]]}` up to `GL(2,ℤ)`
+  conjugacy, `m` free. Three equivalent forms (self-ref / CF / Möbius); **MyCalc-2** (CF-period a conjugacy
+  invariant → companion per trace); refinement (a) (the naive premises admit det=+1); **MyCalc-5** (systole:
+  `m=1` minimal → the member is contingent on a metric).
+- **B93** — **det=−1 is exactly the tower's parity** (Phase C, V77; `proven`/`computer-assisted`).
+  **MyCalc-1** (`det=−1 ⟺` a negative eigenvalue `−1/λ` ⟺ the sign sectors `char(−Nᵏ)`); **MyCalc-4**
+  (the parity `m→−m` and the field Galois `√→−√` are *distinct* ℤ/2's — refines handoff Idea-4: the CPT is
+  the contragredient, not Galois).
+- **B94** — **tower universality** (G1, V78; `computer-assisted`, exact SL(3)/SL(4)). Squaring the proved
+  metallic Jacobian (`J(φ²)=J(φ)²`, `M_m²` det=+1) shows `char(J²)` factors **exactly** over the catalog
+  `char(Nᵏ)` (**universal**) but with **no** sign sectors `char(−Nᵏ)` and **no** `(t+1)` (**parity
+  det=−1-specific**) ⇒ *"universal catalog, det=−1 parity"*, so `det=−1` is structurally distinguished.
+  **G3:** degree=rank is det-agnostic (figure-eight is det=+1, B89) ⇒ tower-parity and degree=rank are two
+  problems.

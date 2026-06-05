@@ -4,6 +4,34 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-06 (post-V78, current at `main` PR #86) — Paper 0: the self-reference grounding
+>
+> A new **foundational thread** (CC-web handoff, ledger **V76–V78**): characterize the metallic family by
+> a *condition* (`m` free) rather than choosing the seed. The motivation ("what is not-nothing → a family,
+> not a point") is **quarantined** in `paths/philosophical/METALLIC_FOUNDATIONS.md` — motivation only,
+> never a premise/claim, never promoted; the mathematics uses none of it. Suite **230 passed, 1 skip**;
+> scan green; proven core P1–P16 untouched; physics closed.
+>
+> - **B92/V76 — the classification** (`proven`, computer-assisted). Among non-negative hyperbolic
+>   unimodular 2×2 matrices, the dominant eigenvalue is purely-periodic-period-1 **⟺ det=−1** (all 66 with
+>   entries ≤5) — the family `{M_m=[[m,1],[1,0]]}` up to `GL(2,ℤ)` conjugacy, `m` free. Three equivalent
+>   forms; MyCalc-2 (CF-period a conjugacy invariant → companion per trace); refinement (a) (the naive
+>   premises admit det=+1, so det=−1 is the operative condition); MyCalc-5 (systole: `m=1` minimal → the
+>   member is contingent on a metric).
+> - **B93/V77 — det=−1 is exactly the tower's parity** (`proven`/`computer-assisted`). MyCalc-1
+>   (`det=−1 ⟺` a negative eigenvalue `−1/λ` ⟺ the `char(−Nᵏ)` sectors); MyCalc-4 (the parity `m→−m`
+>   and the field Galois `√→−√` are *distinct* ℤ/2's — corrects the handoff's "Galois = C").
+> - **B94/V78 — tower universality DECIDED** (G1; `computer-assisted`, exact SL(3)/SL(4)). Squaring the
+>   proved metallic Jacobian to a det=+1 monodromy: `char(J²)` factors **exactly** over the catalog
+>   `char(Nᵏ)` (universal) but **every** sign sector `char(−Nᵏ)` and the `(t+1)` vanish ⇒ **"universal
+>   catalog, det=−1 parity."** So `det=−1` (B92) is structurally distinguished. G3: degree=rank is
+>   det-agnostic (figure-eight is det=+1, B89) ⇒ the tower and degree=rank are two problems.
+>
+> **Net:** Layer 1 (the classification) is `proven`; `det=−1` is shown structurally distinguished (it is
+> exactly the tower's parity condition); the universality question is decided (universal catalog, det=−1
+> parity). OPEN: Phase L2 (the Lawvere/renormalization fixed-point attempt — research-level), G2/G4
+> (literature grounding), and the Paper 0 write-up.
+>
 > ## Update — 2026-06-05 (post-V74, current at `main` PR #82) — the "Complete the Tower" run
 >
 > The CC-web **"Complete the Tower"** handoff was reconciled against `main` (most of it predated V60–V69)

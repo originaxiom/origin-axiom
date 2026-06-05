@@ -9,6 +9,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **Paper 0 — the self-reference grounding (2026-06-06, Ledger V76–V78; suite 230 passed, 1 skip;
+  proven core P1–P16 untouched; philosophy quarantined).** A foundational thread characterizing the
+  metallic family by a condition (`m` free). `paths/philosophical/METALLIC_FOUNDATIONS.md` (quarantined
+  motivation, never a claim). `frontier/B92_metallic_classification/` (Layer 1, V76, `proven`): the family
+  = the `det=−1`/period-1 slice up to `GL(2,ℤ)` conjugacy (entries ≤5), with MyCalc-2 (conjugacy census)
+  and MyCalc-5 (systole/contingency). `frontier/B93_det_parity_bridge/` (Phase C, V77): MyCalc-1
+  (`det=−1 ⟺` the tower's parity sectors) and MyCalc-4 (parity ≠ Galois — refines the handoff).
+  `frontier/B94_tower_universality/` (G1, V78): **"universal catalog, det=−1 parity"** — the Dickson
+  catalog survives any `GL(2,ℤ)` monodromy but the sign/parity sectors are `det=−1`-specific (so `det=−1`
+  is structurally distinguished); degree=rank is det-agnostic (two problems).
+- **Audit correction (2026-06-05, Ledger V75).** Corrected B90's framing: L1a is a tautology and
+  "exponent = rank from Cayley–Hamilton" is refuted (the hinge test); only L1b is genuine. Strengthened
+  B89-T with the J(m) cross-check against B80.
 - **"Complete the Tower" run (2026-06-05, Ledger V70–V74; suite 220 passed, 1 skip; proven core
   P1–P16 untouched; `EXPERT_OUTREACH.md` dormant).** The CC-web handoff reconciled against `main` and
   the genuine open prizes executed:

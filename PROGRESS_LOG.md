@@ -2124,5 +2124,37 @@ is closed. Open: Task 6 (genus-2 generality). The mathematics is real; no physic
 
 ---
 
+## 2026-06-06 — the V75 audit + Paper 0 (the self-reference grounding)
+
+**The V75 audit (2026-06-05).** A CC-web verification chat audited the B87–B90 arc; three decisive checks
+corrected the record. B90's L1a is a **tautology** (holds on random non-bundle `(A,t)`); B90's
+"exponent = rank from Cayley–Hamilton" is **refuted** by the hinge test (both SL(4) Dehn-filling
+components satisfy L1b but give exponents 4 vs 3); only **L1b** `XμX⁻¹=μA` is genuine. B89-T strengthened
+with a cross-check confirming its Sym product equals B80's actual symbolic `J(m)` at n=4. degree=rank
+stands PROVED at n=3,4 only; uniform-n is open. (Methodology banked: never override an expected/symbolic
+result with numerics alone; don't count tautologies toward a reduction; run the decisive gate first.)
+
+**Paper 0 (2026-06-06, V76–V78).** A new foundational thread: characterize the metallic family by a
+*condition*, `m` free, rather than choosing the seed. Motivation **quarantined** in
+`paths/philosophical/METALLIC_FOUNDATIONS.md` (never a premise/claim). Suite **230 passed, 1 skip**;
+physics closed; P1–P16 untouched.
+
+- **B92/V76 — Layer 1 (`proven`).** Dominant eigenvalue purely-periodic-period-1 **⟺ det=−1** (all 66
+  matrices with entries ≤5) = the family `{M_m}` up to `GL(2,ℤ)` conjugacy, `m` free. Three equivalent
+  forms; MyCalc-2 (CF-period a conjugacy invariant); refinement (a) (the naive premises admit det=+1);
+  MyCalc-5 (systole — `m=1` minimal → the member is contingent on a metric).
+- **B93/V77 — Phase C.** MyCalc-1 (`det=−1 ⟺` a negative eigenvalue ⟺ the `char(−Nᵏ)` parity sectors);
+  MyCalc-4 (parity `m→−m` ≠ Galois `√→−√` — the CPT is the contragredient, not Galois; corrects Idea-4).
+- **B94/V78 — G1 (the decisive gate).** Squaring the proved metallic Jacobian to a det=+1 monodromy:
+  `char(J²)` factors **exactly** over the catalog `char(Nᵏ)` (universal) with **no** sign sectors and no
+  `(t+1)` ⇒ **"universal catalog, det=−1 parity"** — `det=−1` is structurally distinguished. G3:
+  degree=rank is det-agnostic (figure-eight is det=+1, B89) ⇒ two problems, not one.
+
+**Honest headline:** Layer 1 is proven; `det=−1` is shown to be exactly the tower's parity condition; the
+universality question is decided. OPEN: the Lawvere/renormalization fixed-point attempt (L2), literature
+grounding (G2/G4), and the Paper 0 write-up.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
