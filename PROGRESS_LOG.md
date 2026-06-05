@@ -2048,5 +2048,45 @@ more-tractable follow-on. Proven core P1–P16 unchanged.
 
 ---
 
+## 2026-06-05 — open-paths sweep (V43–V52) + the comprehensive Paths A–F mandate (V53–V59)
+
+Two governed exploration runs, all banked + merged; proven core P1–P16 untouched and test-locked
+(suite **179 passed, 1 skipped**); `EXPERT_OUTREACH.md` dormant.
+
+**Open-paths sweep (V43–V52).** B71 the SL(3) figure-eight A-variety from the trace map — `Fix(T_1²)`
+= exactly 3 components (matches Heusener–Muñoz–Porti / Falbel); Dehn-filling `W1=D2→M³=L`,
+`W2=D3→M³L=1`; the geometric `V0` has no tidy A-variety form (Falbel 141-poly). Plus P1 Dehn-filling
+exact (50-digit), P3 m=2 framing = m136, P4 SL(4) rank-independent meridian `μ=A⁻¹t`, P5 trace-ring
+scoped to the pinv-limit, P6 AJ bounded-negative.
+
+**Comprehensive Paths A–F mandate (V53–V59)** — the two prizes plus a fully-labeled speculative tail:
+- **A (V54, B73) — degree=rank tower law.** On the SL(n) figure-eight bundle's principal Dehn-filling
+  component `{tr A=tr A⁻¹=1}` the longitude is the meridian's `n`-th power, `Mⁿ=L`. Confirmed at SL(4)
+  (`M⁴=L`, ~1e-39); SL(2) degenerate (no such component); a 2nd SL(4) component gives `M³=L`. With
+  SL(3) (V47) the law holds at `n=3,4`. high-precision-numerical.
+- **D (V55, B70) — the symbolic-m ε-series pinv-limit construction** is BUILT and reproduces the SL(3)
+  tower from first principles (resolves the V51 stall; e₂ closure automatic via n×n matrix arithmetic).
+  The SL(4) build at L=12 over ℚ is the heavy open continuation (→ the a_d proof at n=4). computer-assisted.
+- **B (V53) — j=1728** re-examined: isolated + silver-mean-forced, no Coulomb family; **confirms** the
+  V34 kill with explicit `j(a)`.
+- **C (V56, B74) — higher-spin/W_N.** The parity grading is a LITERAL shared object (both the W_N
+  charge-conjugation grading and the Dickson P-grading are `−w0` of `A_{n−1}` on a degree-`k` invariant);
+  the full spectrum diverges; the dynamical reading is SPECULATIVE-ANALOGY.
+- **F1 (V57, B75) — the m-axis of degree=rank.** Odd metallic bundles `m=1` and `m=3` both give `M³=L`
+  at `n=3` (convention-independent test `eig[A,B]=eig(t)ⁿ`); degree=rank is a two-parameter `(m,n)`
+  rank invariant. Open: even-m spectrum (cusp parity), rank-4 metallic corner. high-precision-numerical.
+- **F2/F3 (V58, B76).** `2cos(π/k)=[2]_q` ⇒ the cusp `k`-set = the SU(2)_{k−2} root-of-unity level set
+  (closes B69's reconciliation); no categorical family lift (V28) ⇒ anyonic-TQFT reading SPECULATIVE-
+  ANALOGY. F3 (parity × CS) subsumed by V56.
+- **E (V59, B68) — AJ retry** with the smarter Habiro + `|q|=1` per-q null-space route: no clean
+  recursion at accessible order/degree, **confirming** the V52 bounded negative (literature theorem).
+
+Honest headline: the mathematics is real (degree=rank, the tower factorization, the figure-eight
+A-polynomial connection); every physics bridge returned negative. The two real open continuations both
+need the SL(4) ambient trace ring: the symbolic-m SL(4) Jacobian (D → a_d proof) and the rank-4 / even-m
+degree=rank corners (A/F1).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

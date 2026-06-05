@@ -9,6 +9,24 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **Comprehensive Paths A–F mandate (2026-06-05, Ledger V53–V59; suite 179 passed, 1 skip; proven
+  core P1–P16 untouched).** Two prizes + a fully-labeled speculative tail:
+  `frontier/B73_sl4_apoly/` (Path A, V54) the **degree=rank tower law** `Mⁿ=L` on the principal
+  Dehn-filling component, confirmed at SL(4) (~1e-39);
+  `frontier/B70_trace_ring/symbolic_m_pinv.py` (Path D, V55) the symbolic-m ε-series pinv-limit
+  construction, reproducing the SL(3) tower from first principles;
+  `frontier/physics_probes/spectral_curve_coulomb_test.py` (Path B, V53) confirms the j=1728 kill;
+  `frontier/B74_higher_spin_grading/` (Path C, V56) the W_N parity grading = `−w0` of `A_{n−1}`
+  (STRUCTURAL), spectrum diverges, dynamics SPECULATIVE-ANALOGY;
+  `frontier/B75_metallic_degree_rank/` (Path F1, V57) the **m-axis** of degree=rank (odd metallic
+  bundles m=1,3 give `M³=L`; convention-independent `eig[A,B]=eig(t)ⁿ`);
+  `frontier/B76_cusp_quantum_group/` (Path F2/F3, V58) cusp k-set = SU(2)_{k−2} root-of-unity level
+  set (closes B69), no categorical family lift (SPECULATIVE-ANALOGY);
+  `frontier/B68_aj_conjecture/cyclotomic_numeric.py` (Path E, V59) confirms the V52 AJ bounded negative.
+- **Open-paths sweep (2026-06-05, Ledger V43–V52).** `frontier/B71_sl3_apoly/` the SL(3) figure-eight
+  A-variety (Fix(T_1²) = 3 components, matches Heusener–Muñoz–Porti / Falbel; `W1=D2→M³=L`,
+  `W2=D3→M³L=1`); P1 Dehn-filling exact; P3 m=2 framing = m136; P4 rank-independent meridian; P5
+  trace-ring scoping; P6 AJ bounded-negative.
 - Full audit of all prior work: `AUDIT_REPORT.md`, `PROVENANCE.md`.
 - Phase 0 governance scaffolding: `GOVERNANCE.md`, `CLAIMS.md`, `README.md`, `ROADMAP.md`,
   `PROGRESS_LOG.md`, this changelog, `REPRODUCIBILITY.md`, `docs/ARCHIVE.md`, `.gitignore`.

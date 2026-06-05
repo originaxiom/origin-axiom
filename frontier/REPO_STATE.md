@@ -4,6 +4,37 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-05 (post-V59, current at `main` PR #66)
+>
+> Since the post-V42 block below, two governed exploration runs were banked (ledger **V43–V59**;
+> proven core P1–P16 still untouched and test-locked; suite **179 passed, 1 skipped**;
+> `EXPERT_OUTREACH.md` dormant/untracked). The work split into two campaigns:
+>
+> - **Open-paths sweep (V43–V52)** — B71 SL(3) figure-eight A-variety (Fix(T_1²) = 3 components,
+>   matches Heusener–Muñoz–Porti / Falbel; Dehn-filling `W1=D2→M³=L`, `W2=D3→M³L=1`); P1 Dehn-filling
+>   exact (50-digit); P3 m=2 framing resolved (=m136); P4 SL(4) rank-independent meridian; P5
+>   trace-ring scoped; P6 AJ bounded-negative.
+> - **Comprehensive Paths A–F mandate (V53–V59)** — the two prizes plus the speculative tail:
+>   - **A (V54, B73)** degree=rank tower law CONFIRMED at SL(4) (`M⁴=L` on the principal Dehn-filling
+>     component, ~1e-39); SL(2) degenerate, a 2nd SL(4) component gives `M³=L`.
+>   - **D (V55, B70)** the symbolic-m ε-series pinv-limit construction BUILT — reproduces the SL(3)
+>     tower from first principles (resolves the V51 stall); SL(4) build at L=12 over ℚ is the open
+>     continuation (→ the a_d proof at n=4).
+>   - **B (V53)** CONFIRMS the V34 j=1728 kill (isolated, silver-mean-forced, no Coulomb family).
+>   - **C (V56, B74)** higher-spin/W_N: the parity grading is a LITERAL shared object (−w0 of A_{n−1});
+>     spectrum diverges; dynamical reading SPECULATIVE-ANALOGY.
+>   - **F1 (V57, B75)** the m-axis of degree=rank — odd metallic bundles m=1,3 give `M³=L` at n=3; a
+>     two-parameter `(m,n)` rank invariant (convention-independent `eig[A,B]=eig(t)ⁿ`). Open: even-m,
+>     rank-4-metallic corners.
+>   - **F2/F3 (V58, B76)** cusp k-set = SU(2)_{k−2} root-of-unity level set (closes B69 reconciliation);
+>     no categorical family lift (V28) → SPECULATIVE-ANALOGY. F3 subsumed by V56.
+>   - **E (V59, B68)** smarter AJ retry confirms V52 (no clean recursion at |q|=1; literature theorem).
+>
+>   **Honest headline:** the math is real (degree=rank + the tower factorization + the A-polynomial
+>   connection); every physics bridge returned negative or "same Lie algebra / just roots of unity."
+>   The two real open continuations both need the **SL(4) ambient trace ring**: the symbolic-m SL(4)
+>   Jacobian (D → a_d proof) and the rank-4 / even-m degree=rank corners (A/F1).
+>
 > ## Update — 2026-06-04 (post-V42, current at `main` PR #48)
 >
 > The body below is the 2026-06-03 snapshot (ledger V1–V23, PR #26). Since then the **exploratory
