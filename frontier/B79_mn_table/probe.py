@@ -26,12 +26,16 @@ fixed-locus (B71-style) per cell, not numerics. Standalone topology; proven core
 """
 from __future__ import annotations
 
-import sys
+import importlib.util
+import pathlib
+import sys  # noqa: F401
 
 import numpy as np
 
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B75_metallic_degree_rank")
-import probe as B75  # noqa: E402
+_b75_path = pathlib.Path(__file__).resolve().parents[1] / "B75_metallic_degree_rank" / "probe.py"
+_spec = importlib.util.spec_from_file_location("b75_probe", _b75_path)
+B75 = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(B75)  # noqa: E402
 
 # the (m,n) degree table: COMPUTED cells (exponent = rank) with their ledger provenance
 COMPUTED = {

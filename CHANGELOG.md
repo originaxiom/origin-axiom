@@ -9,6 +9,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **Task M — the degree=rank mechanism (2026-06-06, Ledger V79; suite green; P1–P16 untouched).**
+  `frontier/B95_degree_rank_mechanism/`: the V75 audit killed "exponent = Cayley–Hamilton degree"; B95
+  finds what the exponent reads. The principal spectrum is **forced** by `tr A=tr A⁻¹=1` ({1,i,−i},
+  {1,1,ω,ω²}, {1,1,1,−1,−1}, impossible n≥6); at n=5 it degenerates (`A²=I` → dihedral → reducible, no
+  irreducible SL(5) principal rep — upgrades B78). So **"exponent = rank" is an n∈{3,4} phenomenon**; the
+  mechanism reads the cusp's forced finite-order spectrum, explaining the n≥5 wall on both the tower and
+  degree=rank. Corrects the handoff's SL(5) spectrum guess.
 - **Paper 0 — the self-reference grounding (2026-06-06, Ledger V76–V78; suite 230 passed, 1 skip;
   proven core P1–P16 untouched; philosophy quarantined).** A foundational thread characterizing the
   metallic family by a condition (`m` free). `paths/philosophical/METALLIC_FOUNDATIONS.md` (quarantined

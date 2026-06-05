@@ -9,8 +9,9 @@ The decisive G1 gate: does the metallic trace-map tower survive outside the meta
 - **`FINDINGS.md`** — the result, the conclusion, the honest scope.
 
 **Result (`computer-assisted`, exact n=3,4).** **Universal catalog, det=−1 parity.** The Dickson catalog
-`∏char(Nᵏ)` survives for any `GL(2,ℤ)` monodromy (Cayley–Hamilton); the parity/sign structure
-`char(−Nᵏ)` is det=−1-specific — so `det=−1` (B92) is *structurally distinguished*, not just simplest.
+`∏char(Nᵏ)` appears via the Sym-plethysm `char(J)=∏char(Symᵈ N)` (proven metallic; rigorous for squares
+`N=M²`; confirmed non-square at `n=2`; **open non-metallic `n≥3` — NOT Cayley–Hamilton**); the parity/sign
+structure `char(−Nᵏ)` is det=−1-specific — so `det=−1` (B92) is *structurally distinguished*, not just simplest.
 And the tower (parity det=−1-specific) and degree=rank (det-agnostic) answer "universal?" differently:
 **two problems**.
 

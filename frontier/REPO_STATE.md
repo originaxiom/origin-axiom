@@ -32,6 +32,14 @@ trivially-safe fixes applied, everything non-trivial PROPOSED; no premature clos
 > parity). OPEN: Phase L2 (the Lawvere/renormalization fixed-point attempt — research-level), G2/G4
 > (literature grounding), and the Paper 0 write-up.
 >
+> **Task M (B95/V79) — the degree=rank mechanism** (separate CC-web redirect; replaces the refuted CH
+> route of V75). The principal spectrum is **forced** by `tr A=tr A⁻¹=1` (eig 1 at mult n−2): `{1,i,−i}`
+> (n=3), `{1,1,ω,ω²}` (n=4), `{1,1,1,−1,−1}` (n=5), **impossible at n≥6**. At n=5 it has `A²=I` ⟹ `A,B`
+> involutions ⟹ dihedral ⟹ **reducible** (no irreducible SL(5) principal rep — upgrades B78). So
+> **"exponent = rank" is an n∈{3,4} phenomenon**; the mechanism reads whether the cusp's forced
+> finite-order spectrum admits an irreducible rep, explaining the n≥5 wall on both the tower and
+> degree=rank. Corrects the handoff's SL(5) guess. Full degree classification open.
+>
 > ## Update — 2026-06-05 (post-V74, current at `main` PR #82) — the "Complete the Tower" run
 >
 > The CC-web **"Complete the Tower"** handoff was reconciled against `main` (most of it predated V60–V69)

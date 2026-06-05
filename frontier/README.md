@@ -531,3 +531,12 @@ The motivation (characterize the metallic family by a condition, `m` free) is qu
   det=−1-specific**) ⇒ *"universal catalog, det=−1 parity"*, so `det=−1` is structurally distinguished.
   **G3:** degree=rank is det-agnostic (figure-eight is det=+1, B89) ⇒ tower-parity and degree=rank are two
   problems.
+
+- **B95** — the **degree=rank mechanism** (Task M, V79; `proven` + `open`). The V75 audit killed
+  "exponent = Cayley–Hamilton degree"; B95 finds what the exponent reads. The principal spectrum is
+  **forced** by `tr A=tr A⁻¹=1` (eig 1 at mult n−2): `{1,i,−i}` (n=3), `{1,1,ω,ω²}` (n=4),
+  **`{1,1,1,−1,−1}`** (n=5), **impossible at n≥6**. At n=5 it has `A²=I` ⟹ `A,B` involutions ⟹ `⟨A,B⟩`
+  dihedral ⟹ **reducible** (no irreducible SL(5) principal rep — upgrades B78's numerical limit). So
+  **"exponent = rank" is an n∈{3,4} phenomenon**: the mechanism reads whether the cusp's forced
+  finite-order spectrum admits an irreducible rep, explaining the n≥5 wall on *both* the tower and
+  degree=rank. Corrects the handoff's SL(5) spectrum guess. Full degree classification open.
