@@ -2088,5 +2088,41 @@ degree=rank corners (A/F1).
 
 ---
 
+## 2026-06-05 — follow-on + unification + "Complete the Tower" runs (V60–V74)
+
+Three governed exploration runs were banked since V59 (full per-stage detail in
+`frontier/REPO_STATE.md` update blocks and `papers/VALIDATION_LEDGER.md` V60–V74; proven core P1–P16
+untouched throughout; `EXPERT_OUTREACH.md` dormant/uncommitted; physics chapter CLOSED).
+
+**Follow-on (V60–V65) and unification push (V66–V69)** — headline: **B80/V62** proved the **SL(4)
+metallic tower from first principles** (CRT/F_p symbolic-m Jacobian, resolving the B70 stall); **B83/V66**
+established the **`Aₙ` family `L=(−1)ⁿ⁻¹Mⁿ`** with the SL(4) A-polynomial `L=−M⁴` NEW; **B84/B85** localized
+the SL(5)+ tower gap to one symbolic `e₂/Λ²` (Procesi) step (numerics + `Λ²V` shortcuts both dead). See
+REPO_STATE for the per-stage breakdown.
+
+**"Complete the Tower" run (V70–V74)** — the CC-web verification-chat handoff reconciled against `main`
+(most of it predated V60–V69) and the genuine open prizes executed. Suite **220 passed, 1 skip**.
+
+- **B87/V70 — m=3 genus (Task 3).** Spectral sequence `3,1,…`, m=2 a minimum (the `3,1,0` reading
+  refuted); m=3 trace-relation curve genus 1 (`disc₃=(x²−x−1)(5x²−5x−1)`).
+- **B88/V71 — SL(4) census (Task 2).** Two clean Dehn-filling components → **degrees {3,4}** at rank 4;
+  the degree is the robust invariant.
+- **B89/V72 — `M⁴=L` PROVED symbolic-exact (Task 1a).** Over ℚ(ω): eliminate `B` → one matrix equation;
+  `A³=I` → a 10-equation exact ideal; the rank-drop locus `t11=ω·t22` → an explicit 4-parameter family
+  on which `[A,B]·det(t)²=−det(t)·μ⁴` is a pure polynomial identity. (Trap: generic gauge slice is
+  `det t≡0`/vacuous.) Upgrades V54.
+- **B89-T/V73 — tower cohomological route CLOSED (Task T).** `H¹(F₂;ad ρ)` at the trivial-rep fixed line
+  gives `char(M)^{n²−1}≠tower` (a 3rd dead shortcut after B84/B85). Advance: all-n tower = explicit
+  two-sequence **Sym product** (symbolic-in-m, proved n≤4), reduced to one module-iso; `a₃(n=6)=2`.
+- **B90/V74 — degree=rank uniform peripheral reduction (Task 1b).** **Lemma 1 PROVED uniform**
+  (`λ=μX⁻¹μY⁻¹`, `XμX⁻¹=μA`, from the bundle relations); degree=rank reduced to one collapse-lemma,
+  exponent = rank from A's degree-n Cayley–Hamilton; proved n≤4.
+
+**Honest headline:** `M⁴=L` is now PROVED symbolic-exact at SL(4); both flagships (the tower, degree=rank)
+are reduced to a single clean lemma each with the n≤4 cases proved; the cohomological route to the tower
+is closed. Open: Task 6 (genus-2 generality). The mathematics is real; no physics reopened.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
