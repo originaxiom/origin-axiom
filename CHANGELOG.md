@@ -9,6 +9,27 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **Geometry-invariants + literature-bridge pass (2026-06-06, Ledger V80–V84; suite 249 passed, 1 skip;
+  proven core P1–P16 untouched; physics chapter stays CLOSED; physics interpretation quarantined).**
+  "Compute the numbers, quarantine the interpretation" — bounded quantum-topology invariants on the
+  metallic mapping-torus manifolds, banked as mathematics; every physics reading lives only in
+  `paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted).
+  `frontier/B96_geometry_invariants/` (V80): metallic volumes strictly monotone (`2.030<3.664<4.814`,
+  `m=1`=systole); the volume Hessian is **definite `(0,2)`, NOT Lorentzian** (155/156 fillings of `4_1`
+  below `V₀`) — the most-leveraged physics path returns negative.
+  `frontier/B97_sl2r_lorentzian/` (V81): the `(2,1)` Lorentzian form is **located** as the
+  `so(2,1)=sl(2,ℝ)` gauge algebra on the SL(2,ℝ)/Teichmüller component (toy 2+1 gravity) — structural, not
+  emergent; the 3+1 wall untouched.
+  `frontier/B98_geometric_jacobian/` (Probe 1, V82): at the **geometric** rep (not the trivial fixed line),
+  `char(D T₁²)=(t−1)(t²−5t+1)` = the **adjoint torsion `τ₁=−3`** (twisted Alexander), **NOT** the Dickson
+  tower — so the tower is a trivial-rep phenomenon (*consistent with* Daly arXiv:2411.04431 + 3d-3d, cited);
+  tower ≠ Kostant branching.
+  `frontier/B99_geometric_jacobian_sl3/` (Probe 1c, V83): the SL(3) geometric Jacobian is torsion-type
+  (the `c=5` SL(2) torsion pair carried by `Sym²`), not the SL(3) tower.
+  `frontier/B100_literature_crosscheck/` (Probes 2+6, V84): the Zickert/SnapPy **Ptolemy variety** of `4_1`
+  (2 obstruction classes, 6 trivial-class reps) cross-validates B71 from an independent code path, and the
+  **Baker–Petersen** (arXiv:1211.4479) twisted Alexander **is** the B98/B99 geometric Jacobian — two
+  published frameworks agree (methods cited, not claimed).
 - **Task M — the degree=rank mechanism (2026-06-06, Ledger V79; suite green; P1–P16 untouched).**
   `frontier/B95_degree_rank_mechanism/`: the V75 audit killed "exponent = Cayley–Hamilton degree"; B95
   finds what the exponent reads. The principal spectrum is **forced** by `tr A=tr A⁻¹=1` ({1,i,−i},

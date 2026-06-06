@@ -2175,5 +2175,53 @@ cube-root branch is platform-dependent); fixed the comparison to sort-after-rota
 
 ---
 
+## 2026-06-06 — geometry-invariants + literature-bridge pass (V80–V84); physics quarantined
+
+**Mandate (CC-web handoffs).** "Compute the numbers, quarantine the interpretation." Bounded
+quantum-topology invariants on the metallic mapping-torus manifolds (the SQUARE monodromy `M_m²`:
+`m=1`→`4_1`, `m=2`→`m136`, `m=3`→`s464`), banked as mathematics; **every** physics reading lives only in
+`paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
+**CLOSED**; proven core P1–P16 untouched; suite **249 passed, 1 skip**.
+
+**B96/V80 — geometry invariants.** Metallic volumes strictly monotone (`2.030<3.664<4.814`; `m=1`=systole,
+each cross-checked by the Bloch–Wigner dilog). The decisive Hessian computation: the complete structure is
+a strict volume **maximum** (155/156 fillings of `4_1` below `V₀`, 0 above) ⟹ the Neumann–Zagier volume
+Hessian is **definite `(0,2)`, NOT Lorentzian** — the most-leveraged "physics path" (CC-web Path 1) returns
+negative. `|τ₃|` left open (branch-ambiguous; from-scratch 1-loop did not calibrate to `τ₁=−3,τ₂=−16`).
+
+**B97/V81 — where the Lorentzian structure lives.** The `(2,1)` Lorentzian form is **located** as the
+`so(2,1)=sl(2,ℝ)` Killing form on the **SL(2,ℝ)/Teichmüller** component (the gauge algebra of *toy* 2+1
+gravity), not the SL(2,ℂ) geometric side (B96, Euclidean) — structural, present by construction, **not
+emergent**; the 3+1 wall untouched. So CC-web's "Lorentzian emergence" resolves to a precise deflated
+yes-and-no, quarantined in PHYSICS_RESONANCES.md (Path 1).
+
+**B98/V82 — the trace-map Jacobian at the GEOMETRIC rep (Probe 1).** The single most important untested
+computation: the tower (B89-T) is computed at the *trivial* fixed line (all traces `=n`), where Task T
+degenerated; the published bridges (3d-3d; Daly arXiv:2411.04431) live at the *geometric* rep. Result
+(exact SL(2)): on V0, `char(D T₁²)=(t−1)(t²−c(x)t+1)`, `c(x)=(2x²−x+1)/(x−1)`; the parabolic-puncture
+fixed point `x²−3x+3=0` (the figure-eight trace field `ℚ(√−3)`) gives `c=5` and the transverse pair's
+adjoint Reidemeister torsion `2−c=−3=τ₁`. So the **tower does NOT appear at the geometric rep — it is a
+trivial-rep phenomenon**; the geometric rep carries the torsion/twisted-Alexander object (*consistent with*
+Daly, cited, not claimed). Probe 5b: the tower ≠ the Kostant principal-`sl(2)` even-only branching.
+
+**B99/V83 — the SL(3) geometric Jacobian (Probe 1c).** The SL(3) geometric rep (`Sym²` on V0) gives 2
+eigenvalue-1's (tangent V0) + 3 transverse reciprocal pairs, sums `c∈{5, 4.5±4.664 i}`; the `c=5` pair is
+the SL(2) torsion pair carried up by `Sym²`. **NOT** the trivial-point SL(3) tower (real `{−1,3,4}`) — the
+geometric rep is the torsion side at SL(3) too.
+
+**B100/V84 — literature cross-checks (Probes 2+6).** The Zickert/SnapPy **Ptolemy variety** of `4_1`
+(`N=3`): 2 obstruction classes + 6 boundary-unipotent SL(3,ℂ) reps in the trivial class — the 0-dim slice
+of B71's components, cross-validated from an **independent code path**. The **Baker–Petersen**
+(arXiv:1211.4479) twisted Alexander **is** the B98/B99 geometric Jacobian `t²−5t+1`; the canonical
+component (trace coords, genus 0) and the A-poly spectral curve (genus 3) are different curves. Two
+published frameworks **agree** with the B71/B98/B99 picture (methods cited, not claimed).
+
+**Net.** No new path to physics; the chapter stays CLOSED, now reinforced by decisive computation (B96).
+The genuine value is mathematical: the volume ordering, and the located distinction between the two
+trace-map fixed points (trivial→tower; geometric→adjoint torsion/twisted Alexander), which explains the
+Task-T degeneration and cross-validates against Zickert/GGZ/Baker–Petersen/Daly.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

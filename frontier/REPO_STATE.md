@@ -4,6 +4,35 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-06 (post-V84, current at `main` PR #95) — geometry invariants + literature bridge
+>
+> Two CC-web handoffs, run on the project's discipline — **"compute the numbers, quarantine the
+> interpretation"** (ledger **V80–V84**). Bounded quantum-topology invariants on the metallic
+> mapping-torus manifolds, banked as mathematics; **every** physics reading lives only in
+> `paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
+> **CLOSED**; proven core P1–P16 untouched; suite **249 passed, 1 skip**.
+>
+> - **B96/V80 — geometry invariants.** Metallic volumes strictly monotone (`2.030<3.664<4.814`,
+>   `m=1`=systole); the volume Hessian is **definite `(0,2)`, NOT Lorentzian** (155/156 fillings of `4_1`
+>   below `V₀`) — the most-leveraged "physics path" returns negative. `|τ₃|` left open (branch-ambiguous).
+> - **B97/V81 — where the Lorentzian lives.** The `(2,1)` form is **located** as the `so(2,1)=sl(2,ℝ)`
+>   gauge algebra on the SL(2,ℝ)/Teichmüller component (toy 2+1 gravity) — structural, not emergent; the
+>   3+1 wall untouched.
+> - **B98/V82 — the trace-map Jacobian at the GEOMETRIC rep (Probe 1).** `char(D T₁²)=(t−1)(t²−5t+1)` =
+>   the **adjoint torsion `τ₁=−3`** (twisted Alexander), **NOT** the Dickson tower — so the tower is a
+>   trivial-rep phenomenon (*consistent with* Daly arXiv:2411.04431 + 3d-3d, cited); explains why Task T
+>   degenerated at the trivial rep. Tower ≠ Kostant branching.
+> - **B99/V83 — the SL(3) geometric Jacobian (Probe 1c).** Torsion-type (the `c=5` SL(2) torsion pair via
+>   `Sym²`), not the SL(3) tower (real `{−1,3,4}`).
+> - **B100/V84 — literature cross-checks (Probes 2+6).** The Zickert/SnapPy Ptolemy variety of `4_1`
+>   (2 obstruction classes, 6 trivial-class reps) cross-validates B71 from an independent code path; the
+>   Baker–Petersen (arXiv:1211.4479) twisted Alexander **is** the B98/B99 geometric Jacobian. Two published
+>   frameworks agree (cited, not claimed).
+>
+> **Net:** no new path to physics; the chapter stays CLOSED, now reinforced by a decisive computation
+> (B96). The genuine value is mathematical — the volume ordering, and the located distinction between the
+> two trace-map fixed points (trivial→tower; geometric→adjoint torsion/twisted Alexander).
+>
 > ## Update — 2026-06-06 (post-V78, current at `main` PR #86) — Paper 0: the self-reference grounding
 >
 > A new **foundational thread** (CC-web handoff, ledger **V76–V78**): characterize the metallic family by
