@@ -2223,5 +2223,46 @@ Task-T degeneration and cross-validates against Zickert/GGZ/Baker–Petersen/Dal
 
 ---
 
+## 2026-06-06 — the Hitchin-component reframing (V85); physics firewalled
+
+**Handoff (CC-web).** "The Hitchin-component reframing": verify two grounding computations (verify-don't-
+trust), land the **mathematics**, **firewall** the physics, and bank the "tower of spacetimes" reading as a
+**dead** negative. Both appendix scripts re-derived independently before landing (the ladder: Lorentzian
+only at `k=2`, split-form pattern; the V0 certificate: unique `SO(2,1)` form, signature `(2,1)`, Anosov
+hallmark, elliptic control complex). Suite **256 passed, 1 skip**; proven core P1–P16 untouched; physics
+chapter stays CLOSED.
+
+**B101/V85.** The geometric component **V0** (B71 — `Sym²` of the Fuchsian `SL(2,ℝ)` rep) **is the Fuchsian
+locus of the Hitchin / Fock–Goncharov positive component of the `SL(3,ℝ)` character variety** of the
+once-punctured torus (the principal embedding `PSL(2,ℝ)→SL(3,ℝ)` *is* `Sym²`). Four results:
+- **R1** (`STRUCTURAL`+`computer-assisted`): the Anosov hallmark (every non-peripheral word loxodromic,
+  cusp `[a,b]` unipotent, elliptic control complex) + the unique `SO(2,1)` invariant form, signature
+  `(2,1)` — the rigorous backbone of B97, now placed inside the Hitchin component. Cite Hitchin 1992,
+  Labourie, Fock–Goncharov, Choi–Goldman, Marquis.
+- **R2** (`dead`, first-class negative): the symmetric-space ladder — the principal `SL(2)` (`Symᵏ`) lands
+  in **split real forms** (`Sp(k+1,ℝ)` odd, `SO(p,p±1)` even); **Lorentzian only at `k=2` (`SO(2,1)`) and
+  it does not climb** (k=4→SO(3,2), k=6→SO(4,3), …). No "tower of spacetimes up the ranks"; the
+  phase-space-dimension "3+1D at SL(3)" idea is structurally void (recorded `docs/atlas/FAILURE_ATLAS.md`
+  with two companion dead heuristics: the Goldman metric is `(2,0)` Riemannian; the Hessian/Fisher-on-`k`
+  forms are definite, not spacetime).
+- **R3** (`computer-assisted`): under the principal `sl(2)`, `sl(3)=V₂⊕V₄` (weights `{±4,±2,±2,0,0}`; dims
+  3,5; differential degrees 2 quadratic, 3 **cubic**); **V0 = the `{cubic=0}` slice**.
+- **R4** (the genuinely-new computation; user opted in to attempt it now): (a) `H¹(F₂,sl(3)_Ad)=8` splits
+  **exactly** under the principal `sl(2)` into `3` (V₂/Teichmüller, tangent V0) ⊕ `5` (V₄/cubic,
+  transverse), verified at 2 Fuchsian seeds; (b) an explicit real family `ρ_t=exp(t·u)Sym²`, `u∈V₄`, at 2
+  Fuchsian seeds × 2 cubic directions, **stays Anosov, leaves V0** (`|x1−x4|`>0), and **breaks the
+  `SO(2,1)` form** (nulldim 0). Honest scope: an unconstrained cubic deformation also moves the puncture
+  holonomy off unipotent (fixing the boundary is a codim constraint, deferred to the verification chat's
+  parallel work — reconcile when it lands).
+
+**Firewall.** Only `PHYSICS_RESONANCES.md` carries interpretation: Path 1 updated with the ladder
+spacetime-tower kill; new **Path 7** cites the Hitchin→Higgs→geometric-Langlands→N=4 SYM chain
+(Kapustin–Witten) **with the ceiling stated** — even total success reaches `N=4` super-Yang–Mills, one
+superconformal gauge theory, *not* the Standard Model / gravity / "the universe"; never a claim, never
+promoted. No §8-forbidden wording in any math artifact. (Note: the `dead` reading was never a `CLAIMS.md`
+claim, so it is recorded in the failure atlas, not as an `ARCHIVE.md` D-row whose IDs match `CLAIMS.md`.)
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
