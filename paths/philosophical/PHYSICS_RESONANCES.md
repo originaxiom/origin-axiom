@@ -1,4 +1,4 @@
-# Physics resonances — the six paths, computed and adjudicated
+# Physics resonances — the six paths, computed and adjudicated (+ the Hitchin addendum, Path 7)
 
 > **SPECULATION — interpretation only.** Nothing here is a claim. No content promotes to `../../CLAIMS.md`
 > (GOVERNANCE §5), and none of it may appear as a premise/step in any proof, `frontier/` FINDINGS,
@@ -28,6 +28,15 @@ geometric side, and it is the well-known structural feature of 2+1 Chern–Simon
 model with no local gravitons, not 3+1 fundamental physics.** So "Lorentzian emergence" resolves to "the
 real component carries the so(2,1) gauge structure of a toy 2+1 gravity" — a precise, deflated *yes-and-no*,
 not the emergent spacetime that was hoped for. The 3+1 wall is untouched.
+*Reinforced* (B101, R2 — the spacetime-tower kill): the natural follow-on hope — that Lorentzian signature
+**climbs the ranks** (a "tower of spacetimes," 3+1D appearing at `SL(3)` or higher) — is **dead by
+computation**. The principal `SL(2)` (the `Symᵏ` ladder) lands in **split real forms** — `Sp(k+1,ℝ)` (odd
+`k`), `SO(p,p±1)` (even `k`) — whose maximally-balanced signatures are the structural *opposite* of
+Lorentzian. Lorentzian (one timelike) occurs at **exactly `k=2` (`SO(2,1)`) and does not climb** (k=4→SO(3,2),
+k=6→SO(4,3), …). `Sp(4,ℝ)=Spin(3,2)` / `SO(3,2)` genuinely appear (k=3,4 = the real AdS₄ / 2+1-conformal
+groups) but their symmetric spaces are higher-rank (dim 6), not the rank-1 spacetimes a universe needs. The
+single Lorentzian rung is the toy-2+1 one already located; there is no spacetime tower. (Recorded as `dead`:
+`docs/atlas/FAILURE_ATLAS.md`.)
 
 ## Path 2 / Path 5 — the volume/torsion ordering (selection) → **COMPUTED (volume), partial**
 *Computed* (B96): the metallic volumes are **strictly monotone** `2.030 < 3.664 < 4.814` (`m=1` smallest).
@@ -56,6 +65,20 @@ The objects (the modular surface `H/GL(2,ℤ)`, the `j`-invariant, geodesic spec
 "does the tower spectrum form an automorphic function" is **not yet a bounded computation**. Recorded as a
 genuine-but-unspecified future direction; no number to compute today.
 
+## Path 7 — Hitchin / higher-Teichmüller → geometric Langlands → N=4 SYM → **CITED CONTEXT ONLY, ceiling stated**
+*The mathematics* (B101, banked as higher-Teichmüller geometry — *not* physics): the geometric component
+**V0 is the Fuchsian locus of the `SL(3,ℝ)` Hitchin component**, whose cubic-differential directions are
+genuinely-`SL(3)` convex-projective deformations. *The cited chain* (published, **not ours**): the Hitchin
+component carries a **Higgs-bundle / nonabelian-Hodge** structure, which feeds **geometric Langlands**, which
+**Kapustin–Witten** realize as the **S-duality of `N=4` super-Yang–Mills**. This is a real and beautiful
+mathematical bridge — but the **ceiling is hard and must be stated**: *even total success along this chain
+reaches `N=4` super-Yang–Mills — **one specific, maximally-supersymmetric superconformal gauge theory** —
+**NOT** the Standard Model, **NOT** gravity, **NOT** "the universe."* `N=4` SYM has no chiral matter, no
+mass scale, exact conformal symmetry; it is a toy/laboratory theory, not observed physics. So this path is
+**cited context, never a claim, never a ledger result, never promoted**; it points at where the *mathematics*
+of V0 sits in the broader literature, and it does **not** reopen the physics chapter. (The "spacetime climbs
+the ranks" sub-hope is separately `dead` — Path 1, B101 R2.)
+
 ## Overall verdict (honest)
 The disciplined experiment — *compute the numbers, interpret after* — **answers the physics question
 cleanly and negatively**: the one decisive, leveraged computation (the Hessian signature) is `(0,2)`
@@ -63,6 +86,9 @@ cleanly and negatively**: the one decisive, leveraged computation (the Hessian s
 (already a theorem); the `n∈{3,4}=SM` map breaks on `n=2`; the det parity is an algebra fact, not a
 manifold invariant; the Langlands route has no bounded test. **No new path to physics emerges. The physics
 chapter stays closed — now reinforced by a decisive computation rather than only the prior sweep.** The
-genuine value of these computations is *mathematical* (the volume ordering, the systole/volume coherence,
-the NZ Hessian) — see `frontier/B96_geometry_invariants/`. Related: [[METALLIC_FOUNDATIONS]],
-the dead-sweep rows V28/V29/V34/V56/V58/V65.
+later Hitchin addendum (Path 7) does not change this: it *cites* where the mathematics of V0 sits (Hitchin /
+Langlands / `N=4` SYM) with the ceiling stated, and its "spacetime climbs the ranks" sub-hope is `dead`
+(B101 R2). The genuine value of these computations is *mathematical* (the volume ordering, the
+systole/volume coherence, the NZ Hessian, and V0 = the Fuchsian locus of the `SL(3,ℝ)` Hitchin component
+with its new cubic directions) — see `frontier/B96_geometry_invariants/`, `frontier/B101_hitchin_reframing/`.
+Related: [[METALLIC_FOUNDATIONS]], the dead-sweep rows V28/V29/V34/V56/V58/V65.

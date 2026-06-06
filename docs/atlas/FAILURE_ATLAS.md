@@ -274,6 +274,54 @@ proves it is B62-structural (the form) + the B58 trace ring (the identification 
 proof) -- which sharpens B58 from a purist open item to the only viable path to the
 multiplicity formula.
 
+### Spacetime Does Not Climb The Ranks (3+1D At SL(3), CLOSED — B101 R2)
+
+The hope that Lorentzian signature **climbs the principal-`SL(2)` ladder** — that a 3+1-dimensional
+spacetime would appear at `SL(3)` or higher where `SL(2)` gives only 2+1 — is dead by computation. The
+principal `SL(2)` (the `Symᵏ` ladder) lands in **split real forms**: `Sp(k+1,ℝ)` (odd `k`), `SO(p,p±1)`
+(even `k`). Split forms are **maximally balanced** — the structural *opposite* of Lorentzian (one timelike).
+Lorentzian occurs at **exactly `k=2` (`SO(2,1)`)** and does not recur: `k=4→SO(3,2)`, `k=6→SO(4,3)`,
+`k=8→SO(5,4)`. `Sp(4,ℝ)=Spin(3,2)` / `SO(3,2)` (k=3,4) are the real AdS₄ / 2+1-conformal groups, but their
+symmetric spaces are higher-rank (dim 6), not the rank-1 spacetimes a universe needs. The phase-space-
+dimension "3+1D at SL(3)" argument is therefore structurally void.
+
+Typical missing object:
+
+```text
+a Lorentzian (rank-1, signature (p,1)) symmetric space above k=2
+```
+
+### Goldman Metric Is Riemannian, Not Lorentzian (CLOSED)
+
+The hope that the moduli space carries an intrinsic `(1,1)` Lorentzian metric — a "phase space with a time
+direction" — fails: the Goldman / Weil–Petersson symplectic-paired metric on the relevant character-variety
+slice is **`(2,0)` Riemannian** (positive-definite), not `(1,1)`. The Fisher-information form computed in E21
+is exactly `16/disc(char(M²)) = 16·g_WP` — a positive Weil–Petersson coefficient (V6), an elementary
+chain-rule identity, with no timelike direction to provide.
+
+Typical missing object:
+
+```text
+an indefinite (1,1) metric on the moduli space
+```
+
+### Hessian-Signature And Fisher-On-k Heuristics Are Not Spacetime (CLOSED)
+
+Two recurring "Lorentzian emergence" heuristics are dead as physics. (i) The **volume-functional Hessian**:
+computed (B96) to be **`(0,2)` negative-definite** at the complete structure (Mostow maximum) — Euclidean,
+no timelike direction. (ii) The **Fisher metric on the parameter `k`/`m`**: it is the same positive
+Weil–Petersson coefficient as above (a 1-D positive metric on a parameter line), not a spacetime metric.
+Both are genuine mathematics (a definite Hessian; a positive Fisher form); neither carries the indefinite
+signature the "emergence" reading needs. The single genuine Lorentzian object in the whole project is the
+`so(2,1)` gauge algebra on the `SL(2,ℝ)` component (B97), a toy-2+1-gravity gauge structure, present by
+construction — see `paths/philosophical/PHYSICS_RESONANCES.md` Path 1.
+
+Typical missing object:
+
+```text
+an indefinite signature that is not put in by hand
+```
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural
