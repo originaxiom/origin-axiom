@@ -2264,5 +2264,46 @@ claim, so it is recorded in the failure atlas, not as an `ARCHIVE.md` D-row whos
 
 ---
 
+## 2026-06-06 — the W1/W2 dichotomy + the R4 boundary-controlled cubic continuation (V86)
+
+**Handoff (CC-web, from the verification chat after reading the B101/B100 report).** Two follow-ons: the
+deferred R4 continuation (a cusp-controlled cubic family) and an independent resolution of the B71 W1/W2
+question. **Verify-don't-trust applied to both appendix scripts before landing.** No physics (pure
+character-variety / higher-Teichmüller geometry). Suite **263 passed, 1 skip**; P1–P16 untouched.
+
+**B102/V86 — the W1/W2 dichotomy (D1–D4, SOLID; reproduces).**
+- **D1:** Cayley–Hamilton on the figure-eight `T₁²` forces every irreducible `Fix(T₁²)` SL(3) character to
+  satisfy `(trA−trA⁻¹)(trB−1)=0` and `(trA−trA⁻¹)(trB⁻¹−1)=0` ⇒ Case I (`trA=trA⁻¹`, self-dual) or the
+  `trB=trB⁻¹=1` branch; **0 "neither"** (census; exact on B71's V0/W1/W2).
+- **D2/D3:** mapping onto B71's *realized* components — **W1=(1,q,q,1,p,1,1,p) ⇒ `ρ(a)` eigenvalues
+  `{1,i,−i}`** (order-4 elliptic), **W2=(p,1,1,q,1,q,p,1) ⇒ `ρ(b)` elliptic** (order-independent on the
+  realized reps); the **geometric V0** point is self-dual with `tr(AB)` a root of `t²−t+7` (`Q(√−3)`; the
+  whole rep is in `Q(√−3)`). **Verdict:** all SL(3) figure-eight components are excluded from the real
+  `SL(3,ℝ)` Hitchin component — V0's geometric rep by **complexity**, the genuine W1/W2 by **ellipticity**
+  (an elliptic generator on the unit circle is not loxodromic ⇒ fails Labourie); ellipticity is the cleaner
+  obstruction. **Refinements to the handoff:** W1 carries the obstruction on `A`, W2 on `B` (the A/B
+  partners); `Q(√−3)` is the geometric *point*, not all of Case I (a 2-parameter family).
+- **D4:** the `{1,i,−i}` elliptic spectrum **is** Task M's forced `n=3` spectrum (B95) — the same arithmetic
+  object disqualifies W1/W2 from the Hitchin component.
+
+**B102/V86 — the R4 continuation (D5; robust mechanism, headline NOT reproduced).** Imposing `tr δC=0`,
+`tr C δC=0` (`C=ρ([a,b])`) cuts the `V₄⊕V₄` (dim 10) cubic directions to a **9-dim relative family** that
+keeps the cusp regular-unipotent **to first order** (`δe₁=δe₂=0`). **Honest finding:** this is first-order
+only — at second order the cusp splits by cube roots into one real + a complex pair, so a generic
+relative-family ray complexifies the cusp immediately (~78% complex at `t=0.05`). The handoff's clean
+`(λ,1,1/λ)` geodesic boundary with `Im=0` throughout and a cusp-collision wall at **`t*≈3.775`** **does not
+reproduce** (the literal `rel[:,0]` here goes complex near `t=0`, re-realifies to *negative* eigenvalues by
+`t≈0.4`, and is solidly 3-real — not collided — at `t=3.775`; `t*≈3.775` is a non-reproducible SVD-basis
+artifact). So the boundary control is first-order only; the strict unipotent-cusp-preserving (finite-area
+FG-positive) continuation **remains `open`**. Reconciles with B101 R4(b): the unconstrained version moved the
+cusp off-unipotent at first order; the relative family delays that to second order but does not eliminate it.
+
+Cite Heusener–Muñoz–Porti, Labourie, Hitchin/Fock–Goncharov/Goldman/Marquis. (The B100 Probe-2 Ptolemy reps
+would be the literal-figure-eight cross-check, route a, but reconstructing fiber matrices from Ptolemy
+coordinates is reconstruction-heavy; route b — classifying B71's *realized* W1/W2/V0 — is the airtight
+in-house equivalent and is what we ran.)
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

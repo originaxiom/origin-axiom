@@ -594,3 +594,15 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   genuinely-`SL(3)` convex-projective deformations the project never explored. Cite Hitchin 1992; Labourie;
   Fock–Goncharov; Choi–Goldman; Marquis. The Hitchin→Langlands→N=4 chain is cited, ceiling stated (N=4 SYM,
   not the Standard Model / gravity / the universe).
+- **B102** — **the W1/W2 dichotomy + the R4 boundary-controlled cubic continuation** (V86;
+  `STRUCTURAL`+`computer-assisted`, with an `open` tail). Two follow-ons to B101, verified before landing.
+  **D1:** Cayley–Hamilton on `T₁²` forces every irreducible `Fix(T₁²)` SL(3) character into Case I
+  (`trA=trA⁻¹`, self-dual) or the `trB=trB⁻¹=1` branch (0 "neither"; exact on B71's V0/W1/W2). **D2/D3:**
+  realizing B71's components, **W1→`ρ(a)` elliptic `{1,i,−i}`, W2→`ρ(b)` elliptic** (order-4, not loxodromic
+  ⇒ **not Hitchin**); the geometric V0 point is self-dual with `tr(AB)` a root of `t²−t+7` (`Q(√−3)`). So the
+  genuine non-`Sym²` components are excluded from the real Hitchin component by **ellipticity** (cleaner
+  than complexity), V0 by complexity. **D4:** the `{1,i,−i}` spectrum = Task M's forced `n=3` spectrum
+  (B95). **D5:** the boundary-controlled (relative) cubic family keeps the cusp real **only to first order**
+  — generic second-order cube-root complexification; the handoff's `t*≈3.775` geodesic boundary does **not**
+  reproduce; the unipotent-preserving continuation is `open`. Cite Heusener–Muñoz–Porti, Labourie,
+  Hitchin/Fock–Goncharov/Goldman/Marquis.
