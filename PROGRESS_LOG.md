@@ -2305,5 +2305,44 @@ in-house equivalent and is what we ran.)
 
 ---
 
+## 2026-06-07 — the SL(n) tower as a GL(2,ℤ) representation (V87); a fourth route
+
+**Goal (user): "prove the uniform-n tower."** The central open conjecture `char(J(m))=∏_d char(Sym^d M_m)`,
+proved `n≤4` (B80), reduced (B89-T) to the module-iso (M). Three routes had died (cohomological B89-T;
+numerical-pinv B84; Λ² B85). This session opened a **fourth route** and merged two converging CC-web handoffs
+("Task A — plethysm-universality at n=3" and "the Dehn-Twist Route to the all-n tower"). Verify-don't-trust
+applied to every load-bearing fact. Suite **269 passed, 1 skip**; P1–P16 untouched; no physics.
+
+**The idea.** Near the trivial rep `A=exp X, B=exp Y`, the metallic monodromy linearizes to
+`(X,Y)↦M_m(X,Y)`; more elementarily, **`J_φ(n)` factors through the abelianization `N∈GL(2,ℤ)`** (inner autos
+act trivially on traces). So `ρ_n: N↦J(n)` is a `GL(2,ℤ)`-representation and `char(J)` is a **class function
+= the catalog** — universality is structural and identical for metallic and non-metallic monodromies.
+
+**B103/V87 — what was proved.**
+- **Route 1 (universality, all n):** verified at SL(3) with the exact **Lawton** trace maps of the Dehn
+  twists (`U:a→a,b→ab`; `L:a→ab,b→b`; `S:a↔b`): the MCG relations `S²=I, SUS=L, SLS=U` **lift** to the 8×8
+  Jacobians; `J(3)` is **constant on each abelianization class** (21 multi-word classes); the **det-sign
+  parity law** (`k=2,3` always; `k=1` sector `char(±N)` by `det N`; parity `(t∓1)`) holds on metallic
+  (`det−1`) **and** non-metallic (`det+1`, e.g. `N=[[3,2],[1,1]]=U²L`). Sharpens B94 (the two-sheeted
+  structure is det-determined, not metallic-specific).
+- **Route 2 (the explicit rep; n=3,4 EXACT over ℚ[m]):** an explicit **`m`-independent invertible `P`** with
+  `P·J(m)·P⁻¹ = ⊕_d Sym^d(M_m)^{μ_d}` (`μ_d=[2≤d≤n]+[0≤d≤n−3]`), intertwiner dim `=Σμ_d²` (Schur: 3 at n=3,
+  5 at n=4). n=3 via the exact Lawton `J(m)` (word `Uᵐ S`, abelianization `M_m`, interpolated); n=4 via
+  **B80's** proved exact `J(m)`. So `char(J)=∏char(Sym^d M_m)^{μ_d}` = the explicit catalog, and the
+  `char(−M^k)` sign sectors are the `det(M_m)=−1` twists. This realizes the module-iso **(M)** — B89-T's lone
+  open item — **constructively and exactly for n=3,4**, engine-free.
+
+**The reframing (records the consequence).** The all-n tower question becomes **"decompose the `GL(2,ℤ)`-rep
+`ρ_n` into `Sym^d` pieces."** Universality is structural (Route 1, all n); the open content is the explicit
+catalog `μ_d` — proved n=3,4 (Route 2), structural n=5 (B62), open n≥5 (the Procesi wall). The Dehn-twist
+composition computes `char(ρ_n)` **without** the Procesi ring (the B85 wall) — the natural continuation
+(B104: the SL(4) elementary maps + non-metallic universality + the SL(5) attempt).
+
+**Method note (this session).** The earlier eps-series F_p engine is gauge-corrupted at n≥5 (B61/B66) and
+overshoots via the singular cotangent (m/m² dim 9 vs tower 8 at n=3); the **Lawton explicit trace maps** are
+exact, engine-free, and give the clean `J(m)` directly — the right tool, and the basis for B104.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

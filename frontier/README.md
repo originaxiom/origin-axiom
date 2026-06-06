@@ -606,3 +606,19 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   — generic second-order cube-root complexification; the handoff's `t*≈3.775` geodesic boundary does **not**
   reproduce; the unipotent-preserving continuation is `open`. Cite Heusener–Muñoz–Porti, Labourie,
   Hitchin/Fock–Goncharov/Goldman/Marquis.
+
+### The SL(n) tower as a GL(2,ℤ) representation (CC-web handoffs; V87)
+
+- **B103** — **the tower equivariance / plethysm-universality / constructive module-iso** (V87; `proven`
+  Route-1 structure all n + module-iso n=3,4; `open` explicit `μ_d` n≥5). A **fourth route** to the tower
+  (after the dead cohomological / pinv / Λ² routes). **Route 1 (universality, all n):** `J_φ(n)` factors
+  through the abelianization `N ∈ GL(2,ℤ)` (inner autos act trivially on traces) ⇒ `ρ_n: N↦J(n)` is a
+  `GL(2,ℤ)`-rep ⇒ `char(J)` is a **class function = the catalog**, universal for metallic **and
+  non-metallic** monodromies; **det-sign parity** (sharpens B94). Verified at SL(3) via the exact Lawton
+  maps `U,L,S` (relations `S²=I, SUS=L, SLS=U` lift; `J(3)` constant on each `N`-class). **Route 2
+  (constructive module-iso, n=3,4 exact over ℚ[m]):** an explicit `m`-independent invertible `P` with
+  **`P·J(m)·P⁻¹ = ⊕_d Sym^d(M_m)^{μ_d}`** (`μ_d=[2≤d≤n]+[0≤d≤n−3]`; intertwiner dim `=Σμ_d²` Schur); the
+  `char(−M^k)` sign sectors are the `det=−1` twists. Realizes the module-iso **(M)** (B89-T's lone open item)
+  constructively + exactly for n=3,4. **Reframing:** the all-n tower = **decompose the `GL(2,ℤ)`-rep `ρ_n`**;
+  universality is structural (all n), the explicit `μ_d` open n≥5 (the Procesi wall) — continuation B104.
+  Cite B94, B85/B89-T, B80, Lawton, Procesi.

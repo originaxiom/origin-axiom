@@ -4,6 +4,28 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V87, current at `main` PR #101) — the SL(n) tower as a GL(2,ℤ) representation
+>
+> **Headline: a fourth route to the tower, and the module-iso (M) proved constructively + exactly over ℚ[m]
+> at n=3,4.** Two converging CC-web handoffs synthesized (verify-don't-trust). Suite **269 passed, 1 skip**;
+> P1–P16 untouched; no physics.
+>
+> - **B103/V87.** **Route 1 (universality, all n):** `J_φ(n)` factors through the abelianization `N∈GL(2,ℤ)`
+>   (inner autos trivial on traces) ⇒ `ρ_n` is a `GL(2,ℤ)`-rep ⇒ `char(J)` is a **class function = the
+>   catalog**, universal for metallic **and non-metallic** monodromies; **det-sign parity** sharpens B94
+>   (verified at SL(3) via the exact Lawton maps; the MCG relations lift; `J(3)` constant on each `N`-class).
+>   **Route 2 (n=3,4 exact over ℚ[m]):** an explicit `m`-independent invertible `P` with
+>   `P·J(m)·P⁻¹ = ⊕_d Sym^d(M_m)^{μ_d}` (intertwiner dim `=Σμ_d²` Schur), realizing the module-iso **(M)**
+>   constructively; sign sectors = `det=−1` twists.
+> - **Reframing:** the all-n tower = **decompose the `GL(2,ℤ)`-rep `ρ_n`**; universality structural (all n),
+>   explicit `μ_d` proved n=3,4 / open n≥5 (the Procesi wall); the Dehn-twist composition computes
+>   `char(ρ_n)` without the Procesi ring → continuation **B104**.
+>
+> **Net:** the tower's *structure* (Dickson-product, det-sign sectors) is now understood representation-
+> theoretically and the module-iso is exact at n=3,4; the remaining all-n content is the explicit catalog
+> `μ_d` = decomposing `ρ_n`. Supersedes the prior "reduced to one module-iso" status with a constructive proof
+> at n≤4 + a clean reframing.
+>
 > ## Update — 2026-06-06 (post-V86, current at `main` PR #99) — the W1/W2 dichotomy + R4 continuation
 >
 > CC-web handoff (from the verification chat) "the R4 continuation + the W1/W2 dichotomy" (ledger **V86**):
