@@ -540,3 +540,38 @@ The motivation (characterize the metallic family by a condition, `m` free) is qu
   **"exponent = rank" is an n∈{3,4} phenomenon**: the mechanism reads whether the cusp's forced
   finite-order spectrum admits an irreducible rep, explaining the n≥5 wall on *both* the tower and
   degree=rank. Corrects the handoff's SL(5) spectrum guess. Full degree classification open.
+
+### Geometry-invariants + literature-bridge pass (CC-web handoffs; V80–V84)
+
+"Compute the numbers, quarantine the interpretation." Bounded quantum-topology invariants on the metallic
+mapping-torus manifolds, banked as mathematics; **every** physics reading lives only in
+`paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
+**CLOSED**; proven core P1–P16 untouched.
+
+- **B96** — **geometry invariants** (V80; `computer-assisted`). The metallic volumes are strictly monotone
+  (`2.030<3.664<4.814`; `m=1`=figure-eight=systole, cross-checked by the Bloch–Wigner dilog), and the
+  decisive Hessian result: the complete structure is a strict volume **maximum** (155/156 fillings of
+  `4_1` below `V₀`, 0 above) ⇒ the Neumann–Zagier volume Hessian is **definite `(0,2)`, NOT Lorentzian** —
+  the most-leveraged "physics path" returns negative. `|τ₃|` left open (branch-ambiguous; the from-scratch
+  1-loop did not calibrate to `τ₁=−3,τ₂=−16`, so unreported).
+- **B97** — **where the Lorentzian structure lives** (V81; `computer-assisted`). The `(2,1)` Lorentzian
+  form is **located** as the `so(2,1)=sl(2,ℝ)` Killing form on the **SL(2,ℝ)/Teichmüller** component (the
+  gauge algebra of *toy* 2+1 gravity), **not** the SL(2,ℂ) geometric side (B96, Euclidean `(0,2)`) —
+  structural, present by construction, **not emergent**; the 3+1 wall is untouched.
+- **B98** — **the trace-map Jacobian at the GEOMETRIC rep** (Probe 1, V82; `computer-assisted`, exact
+  SL(2)). At the geometric rep (not the trivial fixed line where the tower lives), `char(D T₁²)=(t−1)
+  (t²−5t+1)`: the transverse quadratic gives the **adjoint Reidemeister torsion `τ₁=−3`** (twisted
+  Alexander), **NOT** the Dickson tower. So the **tower is a trivial-rep phenomenon**; the geometric rep
+  carries the torsion object — *consistent with* Daly (arXiv:2411.04431) and the 3d-3d correspondence
+  (cited). Also: the tower ≠ the Kostant principal-`sl(2)` even-only branching (Probe 5b). Explains why
+  Task T degenerated at the trivial rep.
+- **B99** — **the SL(3) geometric Jacobian** (Probe 1c, V83; `computer-assisted`). The SL(3) geometric rep
+  (`Sym²` on V0) gives 2 eigenvalue-1's (tangent to V0) + 3 transverse reciprocal pairs, sums
+  `c∈{5, 4.5±4.664 i}`; the `c=5` pair is the SL(2) torsion pair carried up by `Sym²`. **NOT** the
+  trivial-point SL(3) tower (real `{−1,3,4}`) ⇒ the geometric rep is the torsion side at SL(3) too.
+- **B100** — **literature cross-checks** (Probes 2+6, V84; `computer-assisted`, methods **cited**). The
+  Zickert/SnapPy **Ptolemy variety** of `4_1` (`N=3`) gives 2 obstruction classes + 6 boundary-unipotent
+  SL(3,ℂ) reps in the trivial class — the 0-dim slice of B71's components, cross-validated from an
+  independent code path. The **Baker–Petersen** (arXiv:1211.4479) twisted Alexander **is** the B98/B99
+  geometric-rep Jacobian `t²−5t+1`; the canonical component (trace coords, genus 0) and the A-poly spectral
+  curve (genus 3) are different curves. Two published frameworks **agree** with the B71/B98/B99 picture.
