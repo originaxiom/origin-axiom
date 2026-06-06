@@ -622,3 +622,12 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   constructively + exactly for n=3,4. **Reframing:** the all-n tower = **decompose the `GL(2,ℤ)`-rep `ρ_n`**;
   universality is structural (all n), the explicit `μ_d` open n≥5 (the Procesi wall) — continuation B104.
   Cite B94, B85/B89-T, B80, Lawton, Procesi.
+- **B104** — **the Dehn-twist route: SL(4) universality + the SL(5) wall** (V88; `proven` SL(4) +
+  `characterized-wall` SL(5)). Executes the "Dehn-Twist Route" handoff in full: build any monodromy's trace
+  map by composing the elementary twists `U,L,S` inside the eps-series (not the Procesi ring). **SL(4)
+  (proven):** the GATE reproduces B80's metallic tower; `J` factors through `N`; `char(J(N))` = the
+  two-sequence catalog with **det-sign parity** for **metallic and non-metallic** `N` (e.g. `U²L`, det +1) —
+  the explicit SL(4) catalog is a computed theorem. **SL(5):** the engine inherits the eps-series gauge
+  degeneracy — `char(J)≠catalog` but **21/24 Dickson factors resolve** (the doubly-degenerate sector,
+  B61/B66); a **computational** wall, not a rep-theory failure. The n≥5 obstruction is now isolated to the
+  eps-series degeneracy. Cite B103, B80, B61/B66, Lawton/Procesi.

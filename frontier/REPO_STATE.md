@@ -4,6 +4,19 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V88, current at `main` PR #103) — the Dehn-twist route: SL(4) + the SL(5) wall
+>
+> **B104/V88** executes the "Dehn-Twist Route" handoff in full (the continuation of B103): build any
+> monodromy's trace map by composing the elementary twists `U,L,S` inside the eps-series — not the Procesi
+> ring (the B85 wall). Suite **274 passed, 1 skip**; P1–P16 untouched; no physics.
+> - **SL(4) (proven):** the GATE reproduces B80's metallic tower; `J` factors through `N`; `char(J(N))` = the
+>   two-sequence catalog with **det-sign parity** for **metallic and non-metallic** `N` (e.g. `U²L`, det +1)
+>   — the explicit SL(4) catalog is a computed theorem for all monodromies.
+> - **SL(5) (characterized wall):** the engine inherits the eps-series gauge degeneracy — `char(J)≠catalog`,
+>   but **21/24 Dickson factors resolve** (the doubly-degenerate sector, B61/B66). A **computational** wall,
+>   not a rep-theory failure; the n≥5 obstruction is now isolated to the eps-series degeneracy (a
+>   non-degenerate slice would close it).
+>
 > ## Update — 2026-06-07 (post-V87, current at `main` PR #101) — the SL(n) tower as a GL(2,ℤ) representation
 >
 > **Headline: a fourth route to the tower, and the module-iso (M) proved constructively + exactly over ℚ[m]

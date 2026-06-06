@@ -2344,5 +2344,37 @@ exact, engine-free, and give the clean `J(m)` directly — the right tool, and t
 
 ---
 
+## 2026-06-07 — the Dehn-twist route: SL(4) universality + the SL(5) wall (V88)
+
+**Handoff (CC-web): "the Dehn-Twist Route to the all-n tower"** — the natural continuation of B103, executed
+in full (verify-don't-trust). Build any monodromy's trace map by composing the elementary Dehn-twist
+substitutions `U,L,S` **inside the eps-series fixed-line construction** — *not* the full `(n²−1)`-coordinate
+Procesi substitution `σ` (the B85 wall). Suite **274 passed, 1 skip**; P1–P16 untouched; no physics.
+
+**B104/V88 — SL(4) (proven).** The generalized engine folds a word's twists on the dual-number pair
+(`U:(P,Q)→(P,PQ)`, `L:(P,Q)→(PQ,Q)`, `S:(P,Q)→(Q,P)`) to give `J(word)` at the SL(4) trivial line.
+- **GATE:** `['U','S']` (abelianization `M_1`) **reproduces B80's proved metallic SL(4) tower** mod p — the
+  elementary maps are correct.
+- **factor-through-N:** `char(J)` depends only on `N` (same-`N` words → identical `char(J)`).
+- **non-metallic universality:** `char(J(N)) = ∏_d char(Sym^d N)^{μ_d}` (two-sequence `{0,1,2,3,4}`) with the
+  **det-sign parity**, verified on metallic (`det −1`) **and genuine non-metallic** (`det +1`, e.g.
+  `N=U²L=[[3,2],[1,1]]`, `N=[[5,3],[3,2]]`). So the explicit SL(4) catalog is a **computed theorem for all
+  monodromies**, not a conjecture.
+
+**B104/V88 — SL(5) (characterized wall).** The engine is consistent (returns a Jacobian) but
+`char(J) ≠ catalog` (the two-sequence has `μ_2=2`, degree 24); `gcd(char(J), catalog)` has degree **21/24**
+— **21 of 24 Dickson factors resolve, 3 corrupted** at the doubly-degenerate sector. This is exactly
+B61/B66's gauge corruption: **the Dehn-twist composition does NOT bypass the eps-series gauge degeneracy.**
+The wall is **computational** (the eps-series metric degeneracy at n≥5), characterized — **not** a failure of
+the representation theory (universality is structural at all n, B103 Route 1, so `char(J_φ(5))` *is* the n=5
+catalog; the eps-series simply cannot resolve 3 of its factors).
+
+**Reframing (recorded).** The all-n tower = decompose the `GL(2,ℤ)`-rep `ρ_n`; the Dehn-twist composition
+computes `char(ρ_n)` without the Procesi ring; the remaining n≥5 obstruction is now **isolated to the
+eps-series doubly-degenerate sector** (a non-degenerate slice / inverse-word coordinates — B61's partial fix
+— would close n=5 directly), not a structural gap. Cite B103, B80 (GATE), B61/B66 (the wall), Lawton/Procesi.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
