@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **The Dehn-twist route: SL(4) universality + the SL(5) wall (2026-06-07, Ledger V88; suite 274 passed, 1
+  skip; no physics).** `frontier/B104_dehn_twist_tower/`: executes the "Dehn-Twist Route" handoff in full —
+  build any monodromy's trace map by composing the elementary twists `U,L,S` inside the eps-series (not the
+  Procesi ring, the B85 wall). **SL(4) (proven):** the GATE reproduces B80's metallic tower; `J` factors
+  through `N`; `char(J(N))` = the two-sequence catalog with **det-sign parity** for **metallic and
+  non-metallic** `N` (e.g. `U²L=[[3,2],[1,1]]`, det +1) — the explicit SL(4) catalog is a computed theorem.
+  **SL(5):** the engine inherits the eps-series gauge degeneracy (`char(J)≠catalog`, **21/24 Dickson factors
+  resolve**, the doubly-degenerate sector, B61/B66) — a **computational** wall, not a rep-theory failure; the
+  n≥5 obstruction is isolated to the eps-series degeneracy. Cite B103, B80, B61/B66, Lawton/Procesi.
 - **The SL(n) tower as a GL(2,ℤ) representation (2026-06-07, Ledger V87; suite 269 passed, 1 skip; proven
   core P1–P16 untouched; no physics).** `frontier/B103_tower_equivariance/`: a **fourth route** to the
   metallic tower, synthesizing two CC-web handoffs. **Route 1 (universality, all n):** `J_φ(n)` factors
