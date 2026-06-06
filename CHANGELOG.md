@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **The SL(n) tower as a GL(2,ℤ) representation (2026-06-07, Ledger V87; suite 269 passed, 1 skip; proven
+  core P1–P16 untouched; no physics).** `frontier/B103_tower_equivariance/`: a **fourth route** to the
+  metallic tower, synthesizing two CC-web handoffs. **Route 1 (universality, all n):** `J_φ(n)` factors
+  through the abelianization `N ∈ GL(2,ℤ)` ⇒ `ρ_n` is a `GL(2,ℤ)`-rep ⇒ `char(J)` is a **class function =
+  the catalog**, universal for metallic **and non-metallic** monodromies; **det-sign parity** sharpens B94
+  (verified at SL(3) via the exact Lawton maps `U,L,S`). **Route 2 (n=3,4 exact over ℚ[m]):** an explicit
+  `m`-independent invertible `P` with **`P·J(m)·P⁻¹ = ⊕_d Sym^d(M_m)^{μ_d}`** (intertwiner dim `=Σμ_d²`
+  Schur), realizing the module-iso **(M)** constructively + exactly for n=3,4; sign sectors = `det=−1` twists.
+  **Reframing:** the all-n tower = **decompose the `GL(2,ℤ)`-rep `ρ_n`**; universality structural (all n),
+  explicit `μ_d` open n≥5 (the Procesi wall) — continuation B104. Cite B94, B85/B89-T, B80, Lawton, Procesi.
 - **The W1/W2 dichotomy + the R4 boundary-controlled cubic continuation (2026-06-06, Ledger V86; suite 263
   passed, 1 skip; proven core P1–P16 untouched; no physics).** `frontier/B102_hitchin_continuation/`: two
   follow-ons to B101, verified before landing. **D1:** Cayley–Hamilton on `T₁²` forces every irreducible
