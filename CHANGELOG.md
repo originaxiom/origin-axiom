@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **The W1/W2 dichotomy + the R4 boundary-controlled cubic continuation (2026-06-06, Ledger V86; suite 263
+  passed, 1 skip; proven core P1–P16 untouched; no physics).** `frontier/B102_hitchin_continuation/`: two
+  follow-ons to B101, verified before landing. **D1:** Cayley–Hamilton on `T₁²` forces every irreducible
+  `Fix(T₁²)` SL(3) character into Case I (`trA=trA⁻¹`, self-dual) or the `trB=trB⁻¹=1` branch (0 "neither").
+  **D2/D3:** realizing B71's components, **W1→`ρ(a)` elliptic `{1,i,−i}`, W2→`ρ(b)` elliptic** ⇒ **not
+  Hitchin** (the genuine non-`Sym²` components are excluded by **ellipticity**, the cleaner obstruction; V0's
+  geometric rep by complexity, `Q(√−3)`). **D4:** the `{1,i,−i}` spectrum = Task M's `n=3` spectrum (B95).
+  **D5:** the boundary-controlled cubic family keeps the cusp real **only to first order** — generic
+  second-order complexification; the handoff's `t*≈3.775` geodesic boundary does **not** reproduce
+  (ray-dependent); the unipotent-preserving continuation is `open`. Cite Heusener–Muñoz–Porti, Labourie,
+  Hitchin/Fock–Goncharov/Goldman/Marquis.
 - **The Hitchin-component reframing (2026-06-06, Ledger V85; suite 256 passed, 1 skip; proven core P1–P16
   untouched; physics chapter stays CLOSED; physics chain firewalled).** `frontier/B101_hitchin_reframing/`:
   the geometric component V0 (B71, `Sym²` of the Fuchsian `SL(2,ℝ)` rep) **is the Fuchsian locus of the

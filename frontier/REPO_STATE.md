@@ -4,6 +4,27 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-06 (post-V86, current at `main` PR #99) — the W1/W2 dichotomy + R4 continuation
+>
+> CC-web handoff (from the verification chat) "the R4 continuation + the W1/W2 dichotomy" (ledger **V86**):
+> **verified before landing**; pure character-variety / higher-Teichmüller geometry, **no physics**. Suite
+> **263 passed, 1 skip**; P1–P16 untouched.
+>
+> - **B102/V86 — the W1/W2 dichotomy (D1–D4, SOLID).** Cayley–Hamilton on `T₁²` forces every irreducible
+>   `Fix(T₁²)` SL(3) character into Case I (`trA=trA⁻¹`, self-dual) or the `trB=trB⁻¹=1` branch (0
+>   "neither"). On B71's *realized* components: **W1→`ρ(a)` elliptic `{1,i,−i}`, W2→`ρ(b)` elliptic**
+>   (order-4, not loxodromic ⇒ **not Hitchin**); the geometric V0 point is self-dual, `tr(AB)` a root of
+>   `t²−t+7` (`Q(√−3)`). **V0 excluded by complexity, W1/W2 by ELLIPTICITY** (the cleaner obstruction); the
+>   `{1,i,−i}` spectrum **is** Task M's `n=3` spectrum (B95). Refines the handoff (W1 on A, W2 on B; `Q(√−3)`
+>   is the geometric point not all of Case I).
+> - **B102/V86 — the R4 continuation (D5; robust mechanism, headline not reproduced).** The boundary
+>   conditions cut the cubic directions to a 9-dim relative family keeping the cusp real **only to first
+>   order** (generic second-order cube-root complexification). **The handoff's `t*≈3.775` geodesic boundary
+>   does NOT reproduce** (ray-dependent); the unipotent-cusp-preserving continuation is `open`.
+>
+> **Net:** the genuine figure-eight SL(3) components are pinned out of the real Hitchin component (ellipticity
+> for W1/W2, complexity for V0); the boundary-controlled cubic continuation is first-order only.
+>
 > ## Update — 2026-06-06 (post-V85, current at `main` PR #97) — the Hitchin-component reframing
 >
 > CC-web handoff "the Hitchin-component reframing" (ledger **V85**): verify two grounding computations, land
