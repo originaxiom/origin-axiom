@@ -12,14 +12,22 @@ We did exactly that. The **discipline held and the answer is clean**: the single
 computation returns negative, and the rest are structural coincidences or break under scrutiny. Below,
 each path with the computed number (in `frontier/`) and my honest adjudication.
 
-## Path 1 — the Hessian signature (CC-web's "single most leveraged") → **COMPUTED, NEGATIVE**
+## Path 1 — the Hessian signature (CC-web's "single most leveraged") → **COMPUTED; located + deflated**
 *Hoped*: signature `(3,1)` ⇒ "Lorentzian emergence"; `(4,0)` ⇒ the door closes.
-*Computed* (B96): the hyperbolic-volume functional's Neumann–Zagier Hessian at the complete structure is
-**negative definite — signature `(0,2)`** (the complete structure is a strict volume *maximum*, Mostow:
-155/156 fillings below `vol₀`, 0 above). And the figure-eight **A-variety boundary is 1-complex-dimensional**
-(`L=(−1)ⁿ⁻¹Mⁿ`), so there is **no canonical 4×4 Hessian** to even *have* a `(3,1)` signature.
-**Verdict: the Lorentzian door is closed — by computation, not assertion.** This is the honest, decisive
-answer to "does a path to physics emerge here?": no.
+*Computed* (B96): on the **SL(2,ℂ) geometric** (hyperbolic-3-manifold) component the volume Hessian at the
+complete structure is **negative definite — `(0,2)` Euclidean** (Mostow max: 155/156 fillings below `vol₀`,
+0 above; and the A-variety boundary is 1-complex-dim `L=(−1)ⁿ⁻¹Mⁿ`, so no canonical 4×4 Hessian exists).
+**No Lorentzian on the geometric side.**
+*Computed* (B97, the honest follow-up): on the **SL(2,ℝ)/Teichmüller** component (the 2+1-gravity phase
+space) the Lorentzian form **is** present — it is the `sl(2,ℝ)=so(2,1)` gauge-algebra Killing form, signature
+**`(2,1)`** = the 2+1 Minkowski metric, preserved by the holonomy (SO(2,1) local Lorentz). The fiber has an
+explicit SL(2,ℝ) Fuchsian rep.
+**Verdict (deflated, honest): Lorentzian structure is *located* — on the real/Teichmüller side, as the
+gauge algebra of 2+1 gravity (Witten 1988), present *by construction, not emergent*.** It is not on the
+geometric side, and it is the well-known structural feature of 2+1 Chern–Simons gravity — **a solvable toy
+model with no local gravitons, not 3+1 fundamental physics.** So "Lorentzian emergence" resolves to "the
+real component carries the so(2,1) gauge structure of a toy 2+1 gravity" — a precise, deflated *yes-and-no*,
+not the emergent spacetime that was hoped for. The 3+1 wall is untouched.
 
 ## Path 2 / Path 5 — the volume/torsion ordering (selection) → **COMPUTED (volume), partial**
 *Computed* (B96): the metallic volumes are **strictly monotone** `2.030 < 3.664 < 4.814` (`m=1` smallest).
