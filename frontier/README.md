@@ -575,3 +575,22 @@ mapping-torus manifolds, banked as mathematics; **every** physics reading lives 
   independent code path. The **Baker–Petersen** (arXiv:1211.4479) twisted Alexander **is** the B98/B99
   geometric-rep Jacobian `t²−5t+1`; the canonical component (trace coords, genus 0) and the A-poly spectral
   curve (genus 3) are different curves. Two published frameworks **agree** with the B71/B98/B99 picture.
+
+### The Hitchin-component reframing (CC-web handoff; V85)
+
+The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.md` (cited, never claimed).
+
+- **B101** — **V0 = the Fuchsian locus of the `SL(3,ℝ)` Hitchin component** (V85; `computer-assisted`, + one
+  `dead` negative, one `open` direction). The geometric component V0 (B71 — `Sym²` of the Fuchsian `SL(2,ℝ)`
+  rep) *is* the Fuchsian locus of the Hitchin / Fock–Goncharov positive component of the once-punctured
+  torus. **R1** (`STRUCTURAL`): the Anosov hallmark (loxodromic + unipotent cusp + complex elliptic control)
+  + the unique `SO(2,1)` form, signature `(2,1)` — the rigorous backbone of B97, now inside the Hitchin
+  component. **R2** (`dead`): the symmetric-space ladder — the principal `SL(2)` lands in **split real
+  forms**; Lorentzian only at `k=2` and **does not climb** ⇒ **no tower of spacetimes** (kills the
+  phase-space "3+1D at SL(3)" idea structurally; `docs/atlas/FAILURE_ATLAS.md`). **R3**: `sl(3)=V₂⊕V₄`
+  (dims 3,5; degrees 2 quadratic, 3 **cubic**); `V0={cubic=0}`. **R4** (the genuinely-new computation):
+  `H¹(F₂,sl(3)_Ad)=8` splits **3⊕5** (Teichmüller ⊕ cubic), and an explicit Anosov family **leaves V0 and
+  breaks the `SO(2,1)` form** (2 Fuchsian seeds × 2 cubic directions) — the cubic directions are the
+  genuinely-`SL(3)` convex-projective deformations the project never explored. Cite Hitchin 1992; Labourie;
+  Fock–Goncharov; Choi–Goldman; Marquis. The Hitchin→Langlands→N=4 chain is cited, ceiling stated (N=4 SYM,
+  not the Standard Model / gravity / the universe).

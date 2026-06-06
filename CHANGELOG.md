@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **The Hitchin-component reframing (2026-06-06, Ledger V85; suite 256 passed, 1 skip; proven core P1–P16
+  untouched; physics chapter stays CLOSED; physics chain firewalled).** `frontier/B101_hitchin_reframing/`:
+  the geometric component V0 (B71, `Sym²` of the Fuchsian `SL(2,ℝ)` rep) **is the Fuchsian locus of the
+  `SL(3,ℝ)` Hitchin / Fock–Goncharov positive component** of the once-punctured torus. **R1** (`STRUCTURAL`):
+  the Anosov hallmark + the unique `SO(2,1)` form, signature `(2,1)`. **R2** (`dead`): the symmetric-space
+  ladder — the principal `SL(2)` lands in split real forms; Lorentzian only at `k=2`, does not climb ⇒ **no
+  tower of spacetimes** (kills the "3+1D at SL(3)" idea structurally). **R3**: `sl(3)=V₂⊕V₄`; `V0={cubic=0}`.
+  **R4** (genuinely-new): `H¹(F₂,sl(3)_Ad)=8` splits `3⊕5` (Teichmüller ⊕ cubic) + an explicit Anosov
+  deformation leaving V0 and breaking the `SO(2,1)` form. The Hitchin→Higgs→geometric-Langlands→N=4 SYM
+  chain (Kapustin–Witten) is **cited context only** (`PHYSICS_RESONANCES.md` Path 7) with the ceiling stated
+  (N=4 SYM, *not* the Standard Model / gravity / the universe); three dead-thread heuristics recorded in
+  `docs/atlas/FAILURE_ATLAS.md`.
 - **Geometry-invariants + literature-bridge pass (2026-06-06, Ledger V80–V84; suite 249 passed, 1 skip;
   proven core P1–P16 untouched; physics chapter stays CLOSED; physics interpretation quarantined).**
   "Compute the numbers, quarantine the interpretation" — bounded quantum-topology invariants on the

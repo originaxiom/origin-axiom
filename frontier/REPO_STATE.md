@@ -4,6 +4,28 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-06 (post-V85, current at `main` PR #97) — the Hitchin-component reframing
+>
+> CC-web handoff "the Hitchin-component reframing" (ledger **V85**): verify two grounding computations, land
+> the **mathematics**, **firewall** the physics. Both appendix scripts re-derived independently. Suite **256
+> passed, 1 skip**; proven core P1–P16 untouched; physics chapter stays **CLOSED**; the physics chain is
+> cited, never claimed.
+>
+> - **B101/V85 — V0 = the Fuchsian locus of the `SL(3,ℝ)` Hitchin component.** The geometric component V0
+>   (B71 — `Sym²` of the Fuchsian `SL(2,ℝ)` rep) *is* the Fuchsian locus of the Hitchin / Fock–Goncharov
+>   positive component of the once-punctured torus. **R1** (`STRUCTURAL`): the Anosov hallmark + the unique
+>   `SO(2,1)` form, signature `(2,1)`. **R2** (`dead`): the symmetric-space ladder — the principal `SL(2)`
+>   lands in split real forms; Lorentzian only at `k=2`, does not climb ⇒ **no tower of spacetimes** (kills
+>   the "3+1D at SL(3)" idea structurally). **R3**: `sl(3)=V₂⊕V₄`; `V0={cubic=0}`. **R4** (the genuinely-new
+>   computation): `H¹(F₂,sl(3)_Ad)=8` splits `3⊕5` (Teichmüller ⊕ cubic) + an explicit Anosov deformation
+>   leaving V0 and breaking the `SO(2,1)` form. Cite Hitchin 1992 / Labourie / Fock–Goncharov / Choi–Goldman
+>   / Marquis; the Hitchin→Langlands→N=4 chain cited with the ceiling stated (N=4 SYM, not the SM/gravity/
+>   the universe). Three dead-thread heuristics recorded in `docs/atlas/FAILURE_ATLAS.md`.
+>
+> **Net:** the new SL(3) content is the **5-dim cubic-differential** directions off V0 (exhibited
+> infinitesimally and as a finite Anosov deformation); the "spacetime tower" is dead; the physics stays
+> firewalled.
+>
 > ## Update — 2026-06-06 (post-V84, current at `main` PR #95) — geometry invariants + literature bridge
 >
 > Two CC-web handoffs, run on the project's discipline — **"compute the numbers, quarantine the
