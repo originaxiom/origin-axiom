@@ -21,6 +21,15 @@ def test_sl3_dehn_jacobian_partially_elliptic():
         assert st == (1, 1, 6)
 
 
+def test_d1_neutral_eigenvalues_are_roots_of_unity_seed_stable():
+    """[V93 hygiene] The SL(4) Dehn-filling Jacobian neutral eigenvalues are EXACTLY roots of unity and
+    seed-stable across realize seeds -- not gauge noise from the pinv at the repeated-eigenvalue rep."""
+    r = B.d1_neutral_eigenvalues_are_roots_of_unity()
+    for comp in ("principal", "secondary"):
+        assert r[comp]["all_roots_of_unity"] is True
+        assert r[comp]["seed_stable"] is True
+
+
 def test_sl4_jacobian_stability_does_not_encode_exponent():
     """Both SL(4) Dehn-filling components are 4-4-7 (same), yet principal exponent=4, secondary=3 -- the
     exponent is NOT read off the Jacobian (the hinge test is not met by stability)."""

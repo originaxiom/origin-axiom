@@ -22,6 +22,15 @@ So the **Dehn-filling reps are "center-like" / partially elliptic** — qualitat
 trivial and geometric reps. The neutral directions include the tangent to the (2-dim) component plus genuine
 **elliptic (root-of-unity)** eigenvalues — e.g. the SL(4) principal carries `±i, −1`, the secondary `ω, ω²`.
 
+**[V93 hygiene — the root-of-unity claim is verified, not gauge noise].** The SL(4) Jacobian here is built by a
+`pinv` over QR-selected words at a *repeated-eigenvalue* rep, so the B84 gauge-noise gate applies: a
+rank-deficient `pinv` can manufacture seed-dependent eigenvalues that mean nothing. We pass the gate.
+`d1_neutral_eigenvalues_are_roots_of_unity()` recomputes the neutral eigenvalues across **≥3 independent
+`realize_bundle_rep` seeds** and finds them **exactly roots of unity and seed-stable**: principal
+`angles/2π = {0, ±1/4, ±1/2}` (`= 1, ±i, −1`), secondary `angles/2π = {0, ±1/3}` (`= 1, ω, ω²`). The
+fine root-of-unity *values* are therefore real structure, not pinv artifact; the coarse `4-4-7` *count* was
+already robust (topological). Locking test: `test_d1_neutral_eigenvalues_are_roots_of_unity_seed_stable`.
+
 **Honest negative.** The **stability type does NOT encode the degree=rank exponent**: both SL(4) components
 have the *same* signature `(4,4,7)`, yet the principal has exponent 4 and the secondary 3. So the exponent is
 **not** read off the Jacobian — **no mechanism is claimed** (the hinge test is not met by the stability data).
@@ -46,6 +55,14 @@ So **degree=rank holds eigenvector-by-eigenvector**, with the B89/B88 scalar `c`
 SL(3), `−1` / `i` at SL(4)). The secondary's `Mᵢ` differ from the principal's (different A-spectrum), as
 expected. *(The earlier "branch noise" that killed an attempt is avoided by the simultaneous-diagonalization +
 the explicit scalar `c`.)*
+
+**[V93 hygiene — what is corroboration vs. what is new].** Split the credit honestly:
+- The **SL(4) principal** (`c=−1`, `M⁴=L`) **corroborates B89/B83**, where `L=(−1)^{n−1}Mⁿ` is *already proved
+  symbolic-exact over ℚ(ω)* (`c=(−1)^{n−1}=−1` at `n=4`). It is **numerical re-confirmation, not a new advance**.
+- The **new content** here is (i) the **SL(4) secondary** (`c=i`, `M³=L`, **`computer-assisted/numerical`**
+  ~5e-15 — *not* proved; the `c=i` scalar is the open piece, see Phase-4 `c→θ`), (ii) the **SL(3) W2**
+  per-eigenvector relation, and (iii) the **per-eigenvector method** itself (simultaneous-diagonalization +
+  explicit `c`), which is the clean carrier when the global stability signature does not encode the exponent.
 
 ## D3 — the SL(4) census completion
 On the two known SL(4) Dehn-filling components: **`M⁴=L` (principal, `c=−1`, `c⁴=1`)** and **`M³=L`
