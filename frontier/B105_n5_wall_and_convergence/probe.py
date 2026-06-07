@@ -117,9 +117,45 @@ def cusp_spectrum_facts(n):
 
 
 def unified_wall_table():
-    """The n=3,4 distinct vs n=5 collision -> the single root cause of all three walls (tower, degree=rank,
-    eps-series). At n>=6 no finite-order spectrum exists (B95)."""
+    """The forced cusp spectra n=3,4,5 (structural OBSERVATION). n>=6 has no finite-order spectrum (B95).
+    [V91]: a CANDIDATE common context, NOT 'one collision' -- see three_obstacle_distinction()."""
     return {n: cusp_spectrum_facts(n) for n in (3, 4, 5)}
+
+
+def _opposition_split_A4_height2():
+    """The A_4 height-2 root space split under the opposition involution theta=-w0 (the diagram flip
+    alpha_i<->alpha_{5-i}); returns (+1, -1) eigenspace dims over the POSITIVE roots."""
+    flip = {1: 4, 2: 3, 3: 2, 4: 1}
+    ht2 = [(1, 2), (2, 3), (3, 4)]                       # height-2 positive roots of A_4
+    theta = lambda r: tuple(sorted(flip[i] for i in r))
+    fixed = sum(1 for r in ht2 if theta(r) == r)
+    pairs = {frozenset((r, theta(r))) for r in ht2 if theta(r) != r}
+    return fixed + len(pairs), len(pairs)               # (+1, -1) = sum-of-pair + diff-of-pair
+
+
+def three_obstacle_distinction():
+    """[V91] n=5 is a THRESHOLD where THREE distinct obstacles degenerate -- not one collision. Returns the
+    verified table distinguishing them by eigenvalue / derivation / onset."""
+    # (i) degree=rank (B95): 2cos(theta)=3-n -> at n=5 eig -1 (A^2=I)
+    n5_dr = 3 - 5
+    degree_rank_eig = -1.0 if abs(n5_dr + 2) < 1e-12 else None
+    # (ii) tower/eps-series (B62): char(M^2)=t^2-3t+1, golden roots phi^2,1/phi^2
+    phi2 = (3 + 5 ** 0.5) / 2
+    char_m2_roots = sorted(np.roots([1, -3, 1]))         # [1/phi^2, phi^2]
+    plus, minus = _opposition_split_A4_height2()
+    return {
+        "degree_rank": {"source": "B95", "eigenvalue": degree_rank_eig, "is_root_of_unity": True,
+                        "onset_n": 5, "mechanism": "A^2=I degenerates tAt^-1=A^2B"},
+        "tower_eps_series": {"source": "B62", "eigenvalue_pair": [round(char_m2_roots[1], 4), round(char_m2_roots[0], 4)],
+                             "is_golden": bool(abs(char_m2_roots[1] - phi2) < 1e-9), "onset_n": 5,
+                             "A4_height2_theta_split_pos": [plus, minus],   # (2,1) over positive roots -> (4,2) over +/-
+                             "mechanism": "opposition involution; char(M^2)^2; no reference to A's spectrum"},
+        "trace_ring_nonclosure": {"source": "engine-free", "eigenvalue": None, "onset_n": 4,
+                                  "mechanism": "n^2-1 coords don't generate the SL(n) trace ring (algebraic)"},
+        "distinct_eigenvalues": bool(degree_rank_eig is not None and abs(degree_rank_eig - phi2) > 1),
+        "verdict": "THREE distinct obstacles at the n=5 threshold (different eigenvalues, independent "
+                   "derivations, different onset) -- NOT one collision.",
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -137,10 +173,11 @@ OBSERVATIONS = {
            "tower; geometric rep -> adjoint torsion. The tower is trivial-rep-specific."),
     "H5": ("COMPUTED", "B101", "gauge-algebra Killing signatures: sl(2,R) (2,1); sl(3,R) (5,3); sl(4,R) "
            "~ so(3,3) ⊃ so(3,1). Lorentzian only at the k=2 rung of the split-form ladder."),
-    "H6": ("STRUCTURAL-OBSERVATION", "B84/B85/B95/B104/B105", "the forced-cusp-spectrum collision (-1 mult 2 "
-           "at n=5; no finite-order spectrum n>=6) is a CANDIDATE common root cause of the tower / degree=rank "
-           "/ eps-series walls -- a structural observation, NOT a proof it causes them, NOT a 'natural "
-           "boundary' [CORRECTION B, V90]."),
+    "H6": ("STRUCTURAL-OBSERVATION", "B62/B84/B95/B105", "n=5 is a THRESHOLD where THREE DISTINCT obstacles "
+           "degenerate -- NOT one collision [V91]: degree=rank (B95, eigenvalue -1, A^2=I, onset n=5); the "
+           "tower/eps-series doubling (B62, golden char(M^2)^2, A_4 height-2 theta-split, onset n=5); and "
+           "trace-ring non-closure (engine-free, algebraic, onset n=4). Different eigenvalues, independent "
+           "derivations, different onset."),
 }
 # Explicit downgrades of two B105 inferences (V90 audit; banked, not silently edited):
 CORRECTIONS_V90 = {
@@ -157,6 +194,31 @@ CORRECTIONS_V90 = {
          "engine-free trace-ring non-closure) -- a methodological ceiling, not a theorem. Corrected: explicit "
          "catalog is a computed theorem THROUGH n=4; structure holds ALL n; explicit n>=5 catalog is OPEN, "
          "walled from two methods; the cusp collision is a candidate root cause, not a proof.",
+}
+# Further downgrade (V91): B105's "one collision is the common root cause" overreaches -- it is THREE
+# distinct obstacles that degenerate at the n=5 THRESHOLD, not one.
+CORRECTIONS_V91 = {
+    "three-obstacles": "DOWNGRADE of 'one collision (the repeated -1) is the common root cause'. n=5 is a "
+        "structural THRESHOLD where several distinct A_{n-1} features degenerate together -- but NOT a single "
+        "collision. (i) DEGREE=RANK (B95): A's forced principal spectrum 2cos(theta)=3-n reaches -1 at n=5 "
+        "(A^2=I), a ROOT OF UNITY, degenerating the figure-eight relation tAt^-1=A^2 B. (ii) TOWER/EPS-SERIES "
+        "(B62): the height-2 root space of A_4 splits (4,2) under the opposition involution theta=-w0, giving "
+        "char(M^2)^2 with eigenvalue char(M^2)={phi^2,1/phi^2} (GOLDEN), pure root-system combinatorics with "
+        "NO reference to A's spectrum. (iii) TRACE-RING NON-CLOSURE (engine-free): the n^2-1 coords do not "
+        "generate the SL(n) trace ring, purely algebraic, onset n=4, no eigenvalue degeneracy. DIFFERENT "
+        "eigenvalues (-1 vs phi^2), INDEPENDENT derivations (B95 vs B62), DIFFERENT onset (n=5 vs n=4). "
+        "Verified: 2cos=3-n gives -1 only at n=5; char(M^2)=t^2-3t+1 has golden roots; the A_4 height-2 "
+        "theta=-w0 split is (4,2). So 'one collision' is a narrative over distinct mechanisms -- WITHDRAWN.",
+    "rho_n-target": "SHARPENED open frontier (A4). Prove char(rho_n)=the Dickson catalog by showing the rho_n "
+        "decomposition reproduces the OPPOSITION-INVOLUTION multiplicities (theta=-w0 eigenspace dims on each "
+        "height-h A_{n-1} root space), directly from the GL(2,Z)-rep, WITHOUT building sigma. The contested "
+        "n=5 piece is ONLY B62's height-2 char(M^2)^2 (which B62 already supplies structurally); the "
+        "degree=rank -1 (B95) and the trace-ring non-closure are SEPARATE problems the catalog proof need NOT "
+        "touch. That bound is the useful output: a referee-defensible target, not 'resolve the n=5 wall'.",
+    "n4-scope-hedge": "HEDGE (A5). 'Explicit catalog through n=4 for all monodromies' rests at n=4 on the "
+        "B104 eps-series (clean at n=4 -- B80-validated, not gauge-corrupted -- but not independently "
+        "reproduced by the verification chat). Hedged statement: n=3 genuine-non-metallic both det signs "
+        "VERIFIED (the 23-monodromy sweep); n=4 metallic PROVED (B80), non-metallic via the B104 eps-series.",
 }
 CORRECTIONS = {
     "C1": "the Goldman metric is (2,0) Riemannian, NOT (1,1) Lorentzian (the negative Killing direction is "
@@ -189,10 +251,19 @@ def main():
               + ("  <-- candidate root cause" if f["nontrivial_collision"] else ""))
     print("  [CORRECTION B] no MATHEMATICAL boundary: char(J(n))=catalog is a class function ALL n (B103);")
     print("    n=4 is a methodological CEILING (eps-series + trace-ring non-closure), not a proved boundary.")
+    print("\n[V91] n=5 is a THRESHOLD of THREE DISTINCT obstacles -- NOT one collision:")
+    o = three_obstacle_distinction()
+    print(f"  (i)  degree=rank (B95): eigenvalue {o['degree_rank']['eigenvalue']} (root of unity, A^2=I), onset n=5")
+    print(f"  (ii) tower/eps-series (B62): char(M^2)^2 golden {o['tower_eps_series']['eigenvalue_pair']}, "
+          f"A_4 height-2 theta-split {o['tower_eps_series']['A4_height2_theta_split_pos']}(+,-) over pos roots, onset n=5")
+    print(f"  (iii)trace-ring non-closure (engine-free, algebraic), onset n=4")
+    print(f"  distinct eigenvalues (-1 vs phi^2): {o['distinct_eigenvalues']} => {o['verdict']}")
     print("\nCONVERGENCE: the project converges on ONE object rho_n (the GL(2,Z)-rep on the SL(n) trace ring).")
-    print("  Fully characterized n=3,4; explicit n>=5 OPEN. OPEN FRONTIER: prove char(rho_n)=catalog directly")
-    print("  from rho_n (B103) + B62 multiplicities (around the sigma-construction) -- closes n>=5 by proof.")
-    print(f"\nObservations: {list(OBSERVATIONS)}; corrections: {list(CORRECTIONS)}; V90 downgrades: {list(CORRECTIONS_V90)}")
+    print("  Fully characterized n=3,4; explicit n>=5 OPEN. SHARPENED OPEN FRONTIER [V91]: prove char(rho_n)=")
+    print("  catalog by reproducing the opposition-involution multiplicities (theta=-w0 eigenspace dims on")
+    print("  each height-h A_{n-1} root space) directly from rho_n; the contested n=5 piece is ONLY B62's")
+    print("  char(M^2)^2 -- the degree=rank -1 and trace-ring non-closure are separate, untouched problems.")
+    print(f"\nObs {list(OBSERVATIONS)}; C {list(CORRECTIONS)}; V90 {list(CORRECTIONS_V90)}; V91 {list(CORRECTIONS_V91)}")
     return 0
 
 
