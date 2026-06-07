@@ -109,3 +109,17 @@ Only by being mathematized. If, e.g., somebody writes down a precise formal syst
 in which "absolutely nothing" is provably undecidable in Gödel's sense, P2
 migrates to a new E-tag. Until then, philosophical arguments stay here, argued
 rather than computed, and clearly outside the claims layer.
+
+---
+
+## Companion documents (same register, firewalled speculation)
+
+- `METALLIC_FOUNDATIONS.md` — *why aim the theorem at the family, not the seed* (the "not-nothing → a
+  self-generating family" rationale behind the metallic classification).
+- `PHYSICS_RESONANCES.md` — the six adjudicated "paths to physics" (robustly negative) + the headline
+  single-scale negative (Path 8). The physics chapter stays CLOSED.
+- `COSMOGONY_FROM_THE_VOID.md` — the deliberate "*assume it is the final theory*" exercise: every major open
+  question of physics walked through the trace-map lens, **tagged [MATH]/[LEAP]/[HOOK]**, whose only legitimate
+  output is the list of bounded calculations the speculation suggests (all routing to the `ρ_n` decomposition).
+  Brave by design, but each leap is recorded *beside* the negative that bounds it. Nothing promotes to
+  `../../CLAIMS.md`.
