@@ -4,6 +4,21 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V102) — the ρ_n sign half PROVED + the five follow-on paths (B112–B115)
+>
+> The five paths B111 opened, computed. **B112 (V99) — the headline:** the **sign half of `ρ_n` is PROVED for
+> all n**, engine-free — an elementary root-system reversal lemma (`θ=−w₀` = the reversal on the height-`h` roots,
+> `(+1,−1)` dims `(⌈,⌊)`, verified all n≤12) × the banked B64 parity assignment ⇒ `mult char(±M^h)=⌈/⌊(n−h)/2⌉`.
+> The first catalog piece proved from first principles for all n. **B113 (V100):** the proved closed form
+> **resolves the SL(5) sign sectors** at heights 2–4 by proof — including `char(M²)²·char(−M²)` = B62's 2
+> gauge-corrupted modes — and **localizes degree=rank to height-1 + `char(Mⁿ)`** (the promotion is n-dependent;
+> power half open). **B114 (V101):** the covering-degree mechanism is **TESTED-NEGATIVE** (full degree `~k^{n−1}`,
+> not `k`); the exponent lead stays the `Mᵏ`-scalar arithmetic. **B115 (V102):** the known SL(4) Dehn-filling reps
+> are forced-locus (like SL(3)); off-locus SL(4) + genus-2 degree=rank scoped OPEN (obstructions named). **State
+> of the prize:** the **sign half is proved (all n)**; what remains is the **power half** — the single degree=rank
+> promotion `char(M)→char(Mⁿ)`, n-dependent, localized to the height-1/top-power interface. *No physics; P1–P16
+> untouched.*
+>
 > ## Update — 2026-06-07 (post-V98) — B111 the tower's sign structure + the degree=rank exponent
 >
 > The "sign findings" handoff (Chat 2 + the Opus supplement, ADDITION 1/2). **B111 (V98)** — the most-leveraged

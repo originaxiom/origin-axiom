@@ -2612,5 +2612,33 @@ Suite 304 passed; no physics; the `ρ_n` catalog proof stays the target; `CLAIMS
 
 ---
 
+## 2026-06-07 — the ρ_n sign half PROVED + the five follow-on paths (B112–B115)
+
+Computed the five paths B111 opened. **B112 (V99) — the headline:** the **sign half of `ρ_n` is PROVED for all
+n**, engine-free (no Procesi ring, no eps-series, no σ-construction). An elementary **root-system reversal
+lemma** — `θ=−w₀` acts by `−w₀(e_i−e_j)=e_{n+1−j}−e_{n+1−i}` (height-preserving), so on the `(n−h)` positive
+height-`h` roots it is the reversal `i↦(n−h+1)−i`, whose `(+1,−1)` eigenspace dims are `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)`
+(verified all n≤12, two ways) — times the banked **B64** parity assignment (`+1`→`char(M^h)`, `−1`→`char(−M^h)`)
+gives the closed form `mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`. The first catalog piece proved from
+first principles for all n.
+
+**B113 (V100):** the proved closed form **resolves the SL(5) sign sectors** at heights 2–4 *by proof* — matching
+the SL(5) tower exactly, including `char(M²)²·char(−M²)` = B62's two gauge-corrupted modes the eps-series `pinv`
+could not resolve — and **localizes degree=rank to height-1 + the top power `char(Mⁿ)`** (heights `2..n−1` are
+pure bulk-θ). Honest caveat: the promotion is **n-dependent** (consumes `−M` at n=5, `+M` at n=3,4), so the
+power half is the genuinely-hard open piece. **B114 (V101):** the covering-degree mechanism (S022's candidate for
+the exponent) is **TESTED-NEGATIVE** — the full covering degree is `~k^{n−1}`, not `k`; `=k` holds only at the
+single-eigenvalue level; the exponent lead stays the `Mᵏ`-scalar arithmetic (B111 ADD1). **B115 (V102):** the
+known SL(4) Dehn-filling reps are forced-locus (like SL(3), B110), so off-locus SL(4) content is in uncomputed
+components (obstruction: the missing SL(4) figure-eight character-variety classification); genus-2 degree=rank
+needs a genus-2 construction not in the repo (obstruction: the genus-2 peripheral structure) — both scoped OPEN.
+
+**State of the prize:** the **sign half of `ρ_n` is proved for all n** (B112); what remains for the full catalog
+is the **power half** — the single degree=rank promotion `char(M)→char(Mⁿ)`, n-dependent, localized to the
+height-1/top-power interface (B113), with the `Mᵏ`-scalar arithmetic (not covering degree) as the live lead.
+Suite 312+ passed; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
