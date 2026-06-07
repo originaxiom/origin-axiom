@@ -2668,6 +2668,32 @@ conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n
 cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
 V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
 
+## 2026-06-07 — Physics-bridge sweep, Phase 2: the monodromy sl(2) grading (an external det=−1 GL(2,ℤ)-rep)
+
+The structural lead. The earlier maps showed "tower ≠ Kostant principal-sl(2)" is a **banked negative** (B89-T/B98);
+B121 turns it into a **positive** characterization. The `(n²−1)`-dim trivial-point tower carries **two**
+`SL(2)`-actions on the adjoint `sl_n`:
+- **internal principal** `sl(2)⊂sl_n` (Kostant): adjoint `= ⊕_{i=1}^{n−1}Sym^{2i}`, **even** highest weights,
+  `det=+1` (the defining rep `Sym^{n−1}` lands in `SL(n)`) — this **is** the Fuchsian/Hitchin section (B101);
+- **external monodromy** `GL(2,ℤ)` (the mapping class group): the tower `⊕Sym^d(M_m)^{μ_d}` (B103), **mixed-parity**
+  highest weights.
+
+**Computed (B121).** The two reps share dim `n²−1` and **agree only at n=2**; for **n≥3 the tower has odd highest
+weights** (Kostant is even-only) ⇒ **inequivalent**. The obstruction **is `det(M_m)=−1`**: `Sym^d(M_m)` has
+eigenvalues `(−1)^j φ^{d−2j}` and `det Sym^d(M_m)=(−1)^{d(d+1)/2}` (a sign in every block; the `det=+1` partner gives
+all `+1`); the odd-highest-weight blocks are exactly the `char(−M^h)` sectors (B112) — the **same `det=−1` parity**
+as B118's fixed-root sign `(−1)^{h+1}` and B93/B94's catalog parity. **Kill condition not met:** same dimension but
+inequivalent — **not** a coincidence.
+
+**The bridge (firewalled, S024).** So the monodromy `sl(2)` is the **external `det=−1` `GL(2,ℤ)`-action** — the
+Hitchin/Fuchsian section's **monodromy partner**, offset by the program's own `det=−1` parity. This connects the
+trace-map tower to the Hitchin picture **without crossing the firewall**: the principal side is the Fuchsian/Hitchin
+section (B101), the monodromy side is the MCG, the gap is `det=−1`. The Hitchin→Langlands→class-S *reading* is
+firewalled (S024, POSTULATED; ceiling = N=4 SYM / class-S of the once-punctured torus, **not** the SM). Banked V109
++ B121 + S024; CATALOG/REPO_STATE/README updated. No physics in the math; nothing to `CLAIMS.md`; physics chapter
+stays CLOSED; the `ρ_n`/Sym-`μ_d` proof stays the prize; P1–P16 untouched. (Phase 3 — the heavy 3d-3d/modularity
+forks — follows.)
+
 ## 2026-06-07 — Physics-bridge sweep, Phase 1: the metallic means are distinct real quasicrystals (FIREWALLED)
 
 A brave-but-honest sweep of the bridges to physics, in response to "what can we compute so we don't give up on
