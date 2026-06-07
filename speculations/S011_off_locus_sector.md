@@ -20,9 +20,18 @@ trace-map spectrum: does it carry **incommensurate** scales (two independent qua
 exists (B73/B106 `realize_bundle_rep`, the B58 eps-series Jacobian); only the *off-locus seed* is new. Whether the
 sector carries independent content is decided in part by `S012` (`θ=−w₀ → c`).
 
+**[B110 RESULT — 2026-06-07, narrowed].** For the **figure-eight (4₁) at SL(3)** the off-locus sector is **EMPTY**:
+the variety has exactly **three irreducible components** (Heusener–Muñoz–Porti arXiv:1505.04451 = B71's V0, W1,
+W2), and **all three lie ON the forced locus** (`x1=x4` or `x2=x5`), so there is no irreducible 4₁ rep with
+`x1≠x4` AND `x2≠x5`. So 4₁ at SL(3) carries **no** genuinely non-principal content — the single-golden-scale
+picture is complete for it. **The fork is narrowed, not closed:** off-principal multichannel content at **higher
+rank** or for **other manifolds** is *not* settled and stays **OPEN** — it is just not in 4₁ at SL(3). See
+`../frontier/B110_off_locus_sector/`.
+
 **Negative beside the leap.** Do **not** assert "= new physics" — that is the open question, not the answer. The
-single-scale tower being too little (B107) is *localized to the principal component* only if this computation finds
-multi-scale off-locus; until run, neither ruled in nor out.
+single-scale tower being too little (B107) is *confirmed localized to the principal component for 4₁/SL(3)* (B110);
+whether a higher-rank / other-manifold off-locus sector carries multi-scale content is still neither ruled in nor
+out.
 
 Related: `S012` (decides determined-vs-independent), `S007` (the gap-labeling operator it would run on),
-`PHYSICS_EXERCISE.md` pointer #3.
+`PHYSICS_EXERCISE.md` pointer #3, `../frontier/B110_off_locus_sector/`.
