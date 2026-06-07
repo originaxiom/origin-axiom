@@ -23,6 +23,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **B120 — the trivial-point tower is determined by `(n; trace, det)` (2026-06-07, Ledger V107; no physics).**
+  Banks the Chat-2 exploration interlude (Q2/Q3) + the computed Supplement (S1–S5), verify-don't-trust. The
+  `(n²−1)`-dim tower (the Sym two-sequence, B117/B103) is **one object** fixed by two inputs — the unfolding depth
+  `n` and the abelianization seed `(trace, det)`. **Q3:** distinct same-`(trace,det)` integer matrices give
+  identical towers. **S2 (the deep lead):** the Sym content `μ_d` is m-independent — the `μ_d` are plethysm
+  multiplicities of the `GL(2,ℤ)`-rep `ρ_n`, trace-blind; this **reframes the prize as a plethysm** but is a
+  *reduction, not a closure* (proved n=3,4; same trace-ring wall). **Q2:** degree=rank **splits** — (I) spectral
+  `char(Mⁿ)` factor ⟺ `μ_n=1`, all n / (II) geometric longitude=meridianⁿ, n∈{3,4} (order `{4,3,2,∞}`) — dissolving
+  the apparent B117-vs-B119 tension. **Three corrections** (verify-don't-trust): S1's `(n²−3n)/2` → `(n−4)(n+1)/2`
+  (the doubling band forced); S5's `2·max(1,n−h−1)` guess refuted **and** a closed form found (heights run 0..n:
+  `count(n,0)=n−1`; `2(n−2)` h∈{1,2}; `2(n−h)` 3≤h≤n−1; `2` h=n); S4 confirms B116 is factor-level (the Chat-2
+  "n=3 divergence" was a units error). **Governed-folder banking:** `knowledge/K008` (the determination explainer),
+  `philosophy/P004` (expansion is interaction-born — `M_m=(twist)ᵐ·(swap)`, the SL(2,ℤ) finite-order-generation
+  spine), and the **downgrade** of the Markov-blanket / boundary-open reading to low-rank n∈{3,4} (TWO_SYMMETRY_FRAME,
+  S022). The all-`n` prize is unchanged and un-fused: prove the Sym two-sequence `μ_d` (B103), now seen as a plethysm.
 - **B118/B119 — the sign-half gate closed + the power-half sharp negative (2026-06-07, Ledger V105–V106; no
   physics).** Chat-2's Path 1 (the gate) and Path 3 (the hard path). **B118 (V105):** B112 proved the `(+1,−1)`
   eigenspace *dimensions* of `θ=−w₀` on the height-`h` roots by a permutation argument; the `⌈`-vs-`⌊` tip is

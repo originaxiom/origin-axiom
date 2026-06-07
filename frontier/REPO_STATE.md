@@ -4,6 +4,22 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V107) — B120: the tower is determined by (n; trace, det) (banks Chat-2 Q2/Q3 + S1–S5)
+>
+> The `(n²−1)`-dim trivial-point tower (the Sym two-sequence, B117/B103) is **one object** fixed by two inputs —
+> the unfolding depth `n` and the abelianization seed `(trace, det)`. **Q3:** distinct same-`(trace,det)` integer
+> matrices give identical towers. **S2 (the deep lead):** the Sym content `μ_d` is m-independent (the `μ_d` are
+> plethysm multiplicities of the `GL(2,ℤ)`-rep `ρ_n`, trace-blind) — **reframes the prize as a plethysm**, but a
+> *reduction, not a closure* (proved n=3,4; same trace-ring wall). **Q2:** degree=rank **splits** — (I) spectral
+> `char(Mⁿ)` factor ⟺ `μ_n=1`, all n / (II) geometric longitude=meridianⁿ, n∈{3,4} — dissolving the apparent
+> B117-vs-B119 tension; the lineage rows V47/V72/V74 are annotated. **Three corrections** (verify-don't-trust): S1's
+> `(n²−3n)/2` → `(n−4)(n+1)/2`; S5's guess refuted but a closed form found (heights run 0..n); S4 confirms B116 is
+> factor-level (the Chat-2 "n=3 divergence" was a units error). **Governed-folder banking:** `knowledge/K008`
+> (the determination explainer), `philosophy/P004` (expansion is interaction-born — `M_m=(twist)ᵐ·(swap)`, the
+> SL(2,ℤ) finite-order-generation spine), and the **downgrade** of the Markov-blanket / boundary-open reading to
+> low-rank n∈{3,4} (TWO_SYMMETRY_FRAME, S022). The prize is unchanged and un-fused: prove the Sym two-sequence `μ_d`
+> for all n (B103). *No physics; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V106) — B118/B119: the sign-half gate (a closed-form sign + correction) + the power-half sharp negative
 >
 > Chat-2's Path 1 (the gate) and Path 3 (the hard path), with the Opus reframing (B117) standing.

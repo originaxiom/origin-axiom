@@ -1,7 +1,14 @@
 # S022 — the peripheral ℤ/4 for degree=rank's `c` (the successor to the closed θ→c route)
 
-**Status: `ACTIVE (lead)`.** A conjecture/lead, **not** a result or an asserted route. Firewalled; not a claim.
-The successor to S012 (`θ→c`, TESTED-NEGATIVE, B108).
+**Status: `ACTIVE (lead) — LOW-RANK n∈{3,4}`.** A conjecture/lead, **not** a result or an asserted route.
+Firewalled; not a claim. The successor to S012 (`θ→c`, TESTED-NEGATIVE, B108).
+
+> **⚠ SCOPE (B120/V107 — the degree=rank split).** This lead lives entirely on the **(II) geometric** side of
+> degree=rank — longitude=meridianⁿ and the scalar `c` at the *irreducible Dehn-filling* rep — which exists only for
+> **`n∈{3,4}`** (B119/B95: the forced principal `a+1/a=3−n` is a root of unity with order `{4,3,2,∞}`; absent
+> irreducibly for `n≥5`). The **(I) spectral** statement (`char(Mⁿ)` is a tower factor ⟺ `μ_n=1`) is all-`n` and
+> already settled (`Sym^n` presence, B117) — it is *not* what this lead is about. So the peripheral `ℤ/4` for `c`
+> is a **low-rank** question, not a route to the all-`n` prize (which is the Sym two-sequence `μ_d`, B103).
 
 **Why this lead exists (the B108 negative was constructive).** B108 proved the order-4 ingredient degree=rank's
 `c` needs is **not** in the bulk opposition involution `θ=−w₀` (an involution, order 2, cannot produce the

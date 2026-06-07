@@ -114,14 +114,15 @@ rather than computed, and clearly outside the claims layer.
 
 ## Companion documents (the architecture)
 
-This `philosophy/` folder holds the **motivation** layer (P000–P003 below + P1–P5 above + the foundations doc).
+This `philosophy/` folder holds the **motivation** layer (P000–P004 below + P1–P5 above + the foundations doc).
 The **evolving speculative ideas** live one room over in `../speculations/` (the catalog `S001…S021`, the live
 exercise, the tombstones); the **narrative** is in `../story/`; the one-page map is `../ARCHITECTURE.md`.
 
 - `METALLIC_FOUNDATIONS.md` (here) — *why aim the theorem at the family, not the seed* (the "not-nothing → a
   self-generating family" rationale; the source material for **P000**).
-- `P000`–`P003` (here) — the foundational philosophical layer (what-is-not-nothing; architecture-not-furniture;
-  necessity-given-chosen-premises; dead-ends-as-boundaries), distinct from the P1–P5 argument register above.
+- `P000`–`P004` (here) — the foundational philosophical layer (what-is-not-nothing; architecture-not-furniture;
+  necessity-given-chosen-premises; dead-ends-as-boundaries; expansion-is-interaction-born), distinct from the P1–P5
+  argument register above.
 - `../speculations/PHYSICS_EXERCISE.md` — the deliberate "*assume it is the final theory*" exercise (the tiered
   MASTER), whose only legitimate output is the ranked calculation pointers. Its earlier long-form draft and the
   six adjudicated "paths to physics" are archived at `../speculations/archive/`.
