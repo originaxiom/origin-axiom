@@ -23,6 +23,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **Physics-bridge sweep, Phase 1 — the metallic means are distinct real quasicrystals (2026-06-07, Ledger V108;
+  FIREWALLED, no physics promotion).** A brave-but-honest sweep of the bridges to physics. First the **terrain map**
+  (`speculations/PHYSICS_BRIDGE_MAP.md`): every bridge classified DEAD (masses/Λ/spacetime/holography/anyons/
+  SW-family/SL(n≥3)-Hermitian-chain/tower=Kostant — do not revive), LIVE, or HEAVY. Then the Phase-1 live result
+  (`frontier/physics_probes/metallic_spectra.py`, S023, `TESTED-POSITIVE`): the SL(2) Hermitian metallic
+  quasicrystals (golden m=1, silver m=2, bronze m=3) are **arithmetically distinct real materials** — the
+  gap-labeling module lives in `ℚ(√(m²+4))` = `ℚ(√5),ℚ(√2),ℚ(√13)` (three distinct fields), with distinct RG scale
+  `φ_m` and spectral dimension — **even though** the tower *algebra* (the Sym two-sequence `μ_d`) is m-universal
+  (B120). The algebra is one object; the physics is a family of distinct, buildable materials. **Honest scope:** 1D
+  condensed matter, **not** fundamental physics; the SL(n≥3) extension is blocked (non-Hermitian). Firewalled;
+  nothing to `CLAIMS.md`; the physics chapter stays CLOSED; P1–P16 untouched.
 - **B120 — the trivial-point tower is determined by `(n; trace, det)` (2026-06-07, Ledger V107; no physics).**
   Banks the Chat-2 exploration interlude (Q2/Q3) + the computed Supplement (S1–S5), verify-don't-trust. The
   `(n²−1)`-dim tower (the Sym two-sequence, B117/B103) is **one object** fixed by two inputs — the unfolding depth

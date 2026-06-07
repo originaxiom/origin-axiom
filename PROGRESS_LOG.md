@@ -2668,6 +2668,37 @@ conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n
 cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
 V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
 
+## 2026-06-07 — Physics-bridge sweep, Phase 1: the metallic means are distinct real quasicrystals (FIREWALLED)
+
+A brave-but-honest sweep of the bridges to physics, in response to "what can we compute so we don't give up on
+physics?" The two read-only maps first established the **honest terrain**: most "obvious" bridges are already
+**dead or textbook** — masses/Λ/spacetime (B107/B96/B101), holography/entanglement (V37), the Seiberg–Witten /
+spectral-curve family (Gate1/2), the fusion/anyon family (only m=1 categorifies), the **SL(n≥3) Hermitian chain**
+(non-Hermitian, `sln_multichannel`), and "tower ≠ Kostant" (B89-T/B98). So bravery here = computing the **few
+genuinely-open forks**, each with a kill condition, all firewalled.
+
+**Phase 0 — the terrain map.** `speculations/PHYSICS_BRIDGE_MAP.md` classifies **every** bridge (DEAD / LIVE /
+HEAVY) so nothing is missed and the dead aren't revived. "Don't give up by knowing the whole terrain."
+
+**Phase 1 — the metallic-mean quasicrystals (the live, real-materials lead; S023, `TESTED-POSITIVE`).** The SL(2)
+Hermitian metallic substitution chain (`a→aᵐb, b→a`) is a **genuine, buildable quasicrystal** (golden m=1, silver
+m=2, bronze m=3 — realized in photonic lattices / cold atoms); its trace map is the Kohmoto–Kadanoff–Tang map
+(B107/K007). The sharp hinge, tied to **B120**: B120 proved the trace-map **algebra** (the Sym two-sequence `μ_d`)
+is **m-universal**; is the *physics* too? **No** — computed (`metallic_spectra.py`): the gap-labeling module
+`ℤ+ℤα_m` lives in `ℚ(√(m²+4))` with squarefree disc `{5,2,13}` → **three distinct quadratic fields**
+`ℚ(√5),ℚ(√2),ℚ(√13)` (gap labels confirmed 10/10, 12/12, 12/12 on the lattice); the RG scale `φ_m` and the spectral
+box-dimension `{0.628,0.636,0.650}` also differ. **The algebra is one object (m-universal); the physics is a family
+of distinct, buildable materials.** The connection-to-reality is genuine and computable — the spectral theory of
+real quasicrystals — *not* masses/Λ/spacetime (all dead).
+
+**Honest scope.** 1D condensed matter, **not** fundamental physics; the m=1 gap-labeling is textbook (Bellissard
+1992) — what's new is the systematic metallic-m family + the algebra-universal/physics-distinct contrast vs B120.
+The SL(n≥3) extension is **blocked** (non-Hermitian). Kill condition passed (had the spectra been affinely
+equivalent → TESTED-NEGATIVE; they are not). Banked V108 + S023 + the map; S007 updated (the SL(2)/m part computed,
+SL(n≥3) blocked); S022 noted low-rank. Firewalled; nothing to `CLAIMS.md`; physics chapter stays CLOSED; the
+`ρ_n`/Sym-`μ_d` proof stays the prize; P1–P16 untouched. (Phases 2–3 — the monodromy/Hitchin grading and the heavy
+3d-3d/modularity forks — follow.)
+
 ## 2026-06-07 — B120: the trivial-point tower is determined by (n; trace, det) — banks Chat-2 Q2/Q3 + Supplement S1–S5
 
 Banked the Chat-2 exploration interlude (Q2/Q3) and the computed Supplement (S1–S5), **verify-don't-trust**. The
