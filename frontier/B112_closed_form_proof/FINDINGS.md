@@ -1,14 +1,23 @@
 # B112 — PROOF of the opposition-involution closed form (the sign half of ρ_n), all n
 
-> **⚠ CORRECTION (B116/V103, explicit downgrade — verify-don't-trust).** The "**sign half of `ρ_n` proved for all
-> n**" headline below is **overstated** and is corrected here. B112 proves the θ-split **combinatorics** (the
-> `⌈/⌊` eigenspace dimensions of `−w₀` on the `A_{n−1}` root spaces) for all `n` — **a real theorem, and it
-> stands**. But the **identification** of the θ-split with the **tower's** `char(±M^h)` multiplicities (the
-> long-standing V25 unproven step) holds only for **`n ≤ 5`**; at `n ≥ 6` the θ-split **diverges** from the Sym
-> two-sequence (B103) — the actual tower-candidate — reproducing the banked V26/V27 divergence (`a₁` 2 vs 3, `a₂`
-> 3 vs 2, `b₂` 1 vs 2). **So B112 is "the sign half proved for `n ≤ 5`", not "for all n"; the all-`n` sign half is
-> OPEN**, and the live route is the **Sym two-sequence** proof (B103), not the θ-split. See
-> `../B116_reconcile_theta_sym/`. The combinatorial lemma (below) is unaffected.
+> **⚠ STATUS RELABEL (B116/V103 + B117/V104 — three tiers; verify-don't-trust).** The "**sign half of `ρ_n`
+> proved for all n**" headline below is **overstated**; the correct status has **three distinct tiers**:
+>
+> 1. **The `−w₀` multiplicity structure *up to the fixed-root label* — PROVED, all `n`.** The elementary
+>    root-system reversal lemma (below) gives the `⌈/⌊` eigenspace dimensions of `θ=−w₀` on the `A_{n−1}`
+>    height-`h` root spaces, for all `n`. **A real theorem — it stands.**
+> 2. **The *fixed-root labeling* (which sector is `char(M^h)` vs `char(−M^h)`) = B64** — proved symbolic at SL(3)
+>    + structural + verified-against-the-tower; **all-`n` pending B118** (the contragredient fixed-root-sign
+>    computation, Path 1).
+> 3. **The *tower realization with powers* — VERIFIED `n ≤ 5`, and SUPERSEDED as the tower.** The identification
+>    of the θ-split with the **tower's** `char(±M^h)` multiplicities (the long-standing V25 step) holds only
+>    `n ≤ 5`; at `n ≥ 6` the θ-split **diverges** from the **Sym two-sequence** (B103/B116) — the actual tower —
+>    reproducing the banked V26/V27 divergence (`a₁` 2 vs 3, `a₂` 3 vs 2, `b₂` 1 vs 2). **B117** reframes the
+>    tower as the Sym two-sequence (one object); the θ-split is *a* grading of it, exact only `n ≤ 5`.
+>
+> **So B112 ≠ "the sign half for all n."** The all-`n` sign half is OPEN; the live route is the **Sym two-sequence**
+> proof (B103), not the θ-split. See `../B116_reconcile_theta_sym/` and `../B117_interleaving/`. The combinatorial
+> lemma (Tier 1, below) is unaffected.
 
 **Status: `PROVED` (computer-assisted — an elementary root-system lemma + the banked B64 parity assignment).**
 The B111 decision split the `ρ_n` catalog prize into two named halves — the **sign** structure (bulk

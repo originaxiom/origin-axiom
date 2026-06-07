@@ -15,8 +15,11 @@ algebraically impossible ⇒ `k=3` forced. So the cusp spectrum is demonstrably 
 plausibly, its scalar `c`) is decided.
 
 **The constraints (what the ℤ/4 must explain).** A peripheral predictor must explain not just `c=i` (order 4) but
-**why `Mⁿ` is the specific power that appears** (the B111 promotion `char(M)→char(Mⁿ)`). The cusp orders are
-**`{n−1, n+1, 2n}`** on the three component types (B111 ADD2). Tested negatives so it does not soften:
+**why `Mⁿ` is the specific power that appears**. *Reframed (B117/V104):* the **bulk** `char(Mⁿ)` is no longer a
+"promotion" — it is **`Sym^n` presence** (`μ_n=1` ∀n in the Sym two-sequence; the "promotion"/"two-halves" framing
+is tombstoned). So the open peripheral question narrows to the **Dehn-filling `k=n`** (the exponent on the cusp
+component) and the scalar `c` — *not* a bulk power-half. The cusp orders are **`{n−1, n+1, 2n}`** on the three
+component types (B111 ADD2). Tested negatives so it does not soften:
 - `k = ord−1` — **TESTED-NEGATIVE** (OK at SL3, FAIL at SL4 principal & secondary; B111 ADD2).
 - `s_n = c` — **DEAD** (sign is order ≤2, can't reach order-4 `c=i`; `TOMBSTONES.md`).
 
@@ -38,4 +41,5 @@ whether `c` is organized by the cusp `ℤ/4` (B76 level), the way the bulk parit
 for a `B`/`V` number and supplies the degree=rank/peripheral half of the `ρ_n` prize (`TWO_SYMMETRY_FRAME.md`).
 
 Related: `S012` (the bulk θ→c, TESTED-NEGATIVE), `TWO_SYMMETRY_FRAME.md`, `../frontier/B111_sign_structure/`,
-`../frontier/B95_degree_rank_mechanism/`, `../frontier/B76_cusp_quantum_group/`.
+`../frontier/B95_degree_rank_mechanism/`, `../frontier/B76_cusp_quantum_group/`, `../frontier/B117_interleaving/`
+(the bulk `char(Mⁿ)` = `Sym^n` presence; the "promotion" tombstoned).

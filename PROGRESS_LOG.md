@@ -2640,6 +2640,41 @@ Suite 312+ passed; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize;
 
 ---
 
+## 2026-06-07 — B117: the interleaving insight (the tower is the Sym two-sequence; the "promotion" is a Sym¹ absence)
+
+The **headline reframing** of the B111–B116 run (the Opus interleaving insight, verify-don't-trust; every claim
+re-derived in `probe.py` + locked in `tests/test_b117_interleaving.py`). The `(n²−1)`-dim trivial-point tower
+carries **two gradings that interleave** — the HEIGHT/θ-split (B112, exact only n≤5) and the SYM decomposition
+(B103/B58, the actual tower). The insight is a clean derivation of the SYM side + the dissolution of the
+"promotion."
+
+**(3a) The dimension identity DERIVES the two-sequence shape.** `(n+1)(n+2)/2 − (n²−1) = −(n−4)(n+1)/2` (roots
+`{−1,4}`): the full module set `{Sym⁰..Sym^n}` (dim `(n+1)(n+2)/2`) vs the tower (dim `n²−1`) match **iff n=4**
+(the unique perfect fit). n<4 → surplus (omit modules), n>4 → deficit (double modules). This *derives* B103's
+`two_sequence_mult μ_d = [2≤d≤n] + [0≤d≤n−3]`: n=3 omits `Sym¹` (`{0,2,3}`, the **unique** subset of `{0,1,2,3}`
+summing to 8, enumerated all 16); n=4 all of `{0..4}` mult 1 (= the B80 **proved** tower, roots verified, `3c`);
+n≥5 doubles the overlap `Sym²..Sym^{n−3}` (n=5: `Sym²`; n=6: `Sym²,Sym³`). **The "n≥6 doubling is open" worry is
+resolved** (= the two-sequence overlap `[2≤d≤n−3]`).
+
+**(3b) The "promotion" is a `Sym¹` ABSENCE (B111/B113 superseded).** There is no promotion. At n=3 the height-1
+`char(−M)` is **`Sym³`'s** height-1 contribution (`(−1)¹φ^{3−2} = −φ`), not a "promoted `Sym¹`"; at n=4 all
+modules are present, nothing is promoted. Height-1 behaviour is a **selection** (which `Sym^d` appear), never a
+promotion. The "two separable halves" (sign + power) picture and the sign-conserving-promotion question are
+**dissolved** — tombstoned in `speculations/TOMBSTONES.md`.
+
+**(6) degree=rank = `Sym^n` presence.** `μ_n = 1` for all n≥2 (the `[2≤d≤n]` arm includes d=n) ⇒ **`char(Mⁿ)` is
+always a tower factor** = degree=rank at the char-poly level. *Status precision (honoring the DO-NOT — not "by
+dimension"):* `Sym^n` presence is dim-**forced** only at n=3 (the unique subset); at n=2,4 it is **rep-theory**
+(B33/V18, B103), not a dim necessity; at n≥5 it is the **two-sequence form** (B103). **Path 4 (n=6 cross-check,
+consistency not decisive):** the two-sequence predicts `|k|=3` total `= a₃+b₃ = 2+1 = 3` (= `max(n−d,1)`, the V17
+correction); B66 (26/35, gauge-corrupted) measured 2 — the known under-count (B58 Phase A).
+
+**The reframe + re-aimed prize.** The tower = the **Sym two-sequence** (one object); the prize is to prove `μ_d`
+for all n (B103's standing open problem, the realization/trace-ring wall), not "close two halves." **B112
+relabeled to three tiers** (the `−w₀` multiplicity structure up to the fixed-root label — proved all n; the
+fixed-root labeling = B64, pending B118; the tower realization with powers — verified n≤5, superseded). Banked
+V104; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
+
 ## 2026-06-07 — B116: reconcile θ-split (B112) vs Sym two-sequence (B103) — and a CORRECTION to B112
 
 Ran the B112↔B103 reconciliation (to *join* the prize's two halves). It found a **verify-don't-trust

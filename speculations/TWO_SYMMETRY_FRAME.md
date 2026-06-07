@@ -4,6 +4,14 @@
 is the organizing picture for the **open** work — the reframing that B108's negative and B111's promotion result
 made visible. It cites the mathematics one-way.
 
+> **⚠ PARTIALLY SUPERSEDED (B117/V104).** The **bulk** half of this frame is reframed: the tower is **one object**
+> — the Sym two-sequence — **not** "the bulk-`θ` closed form with one `char(M)` promoted to `char(Mⁿ)`." There is
+> **no promotion**; `char(Mⁿ)` is `Sym^n` presence (`μ_n=1`), and the height-1 sign is a `Sym¹` *absence*
+> (tombstoned in `TOMBSTONES.md`). What **survives** is the *peripheral* half: the cusp-spectrum `ℤ/k` symmetry is
+> still the live lead for the **Dehn-filling** degree=rank exponent `k=n` and the scalar `c` (S022, B119). Read the
+> "single promotion" / "two separable halves" language below as historical; the bulk `char(Mⁿ)` is settled
+> (`Sym^n` presence), and only the peripheral exponent/scalar remains open.
+
 ## The frame
 
 The metallic trace-map tower is governed by **two distinct symmetries**, and the open questions sort cleanly by

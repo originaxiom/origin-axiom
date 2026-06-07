@@ -4,6 +4,21 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V104) — B117: the interleaving insight (the tower is the Sym two-sequence)
+>
+> The **headline reframing** of the B111–B116 run (the Opus interleaving insight, verify-don't-trust). The
+> `(n²−1)`-dim trivial-point tower is **one object** — the **Sym two-sequence** (B103/B58) — not two separable
+> halves (sign + power). A **dimension identity** `(n+1)(n+2)/2 − (n²−1) = −(n−4)(n+1)/2` (roots `{−1,4}`)
+> **derives** B103's two-sequence `μ_d = [2≤d≤n]+[0≤d≤n−3]` (n=4 the unique perfect fit; n<4 omit modules — n=3
+> omits `Sym¹`, the unique subset `{0,2,3}`; n≥5 double `Sym²..Sym^{n−3}`). So **the "promotion" is a `Sym¹`
+> absence** (B111/B113 framing **superseded/tombstoned**); the height-1 `char(−M)` at n=3 is `Sym³`'s
+> contribution, not a "promoted `Sym¹`". **degree=rank's `char(Mⁿ)` = `Sym^n` presence** (`μ_n=1` ∀n; dim-forced
+> only at n=3 — *not* "by dimension"; rep-theory n=2,4; two-sequence form n≥5). `Sym⁰..⁴` product = the B80 proved
+> n=4 tower. **B112 relabeled to three tiers** (the `−w₀` multiplicity structure up to the fixed-root label —
+> proved all n; the fixed-root labeling = B64, pending B118; the tower realization with powers — verified n≤5,
+> superseded). **Re-aimed prize:** prove the **Sym two-sequence `μ_d`** for all n (B103's open problem). *No
+> physics; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V103) — B116 reconciliation + a CORRECTION to B112
 >
 > The B112↔B103 reconciliation (run to *join* the prize's two halves) found a **correction** instead (verify-
