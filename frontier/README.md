@@ -785,3 +785,14 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   now **positive**: the monodromy is the `det=−1` external action — the Hitchin section's monodromy partner, offset
   by the program's own catalog parity (B93/B94). **Not** a dimension coincidence (the kill condition fails). The
   Hitchin/Langlands *reading* is firewalled (`speculations/S024`, ceiling N=4 SYM); no physics in the math.
+- **B122** — **the tower is symmetric powers of the external fundamental `W = V⊕1`** (V111; unifies B121). The
+  two-sequence re-expressed as a virtual `GL(2)`-module: `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W = V⊕1`. A
+  **genuine `GL(2)`-module iso** (holds symbolically in general `(x,y)`, det-independent, n≤8; module-level proved
+  n=3,4 via B103) — *not* vacuous (the tower is a `GL(2,ℤ)`-rep, so module ≠ character over GL(2)). **`W` is B121's
+  external fundamental:** `det(W)=−1` (external) vs `det(Fricke=Sym²V)=+1` (internal/Kostant) — so Chat-2's "`W` =
+  Fricke" kill **is** B121's external≠internal, and the tower's odd weights = `Sym^n(V⊕1)∋V` = the B121 obstruction.
+  **B121 and the W-identity are one object.** `Sym⁴(3-space)=15=sl(4)` is the unique saturating order (the n=4 fixed
+  point, B117). **Honest:** a repackaging + a canonical `W`, **not** a wall-bypass — module-iso-equivalent to the
+  two-sequence, no functorial `Sym(W)→trace-ring` map; re-aims the prize ("prove the tower is *functorially*
+  `Sym^n(W)⊕…`") without lowering the wall. Magnitude layer only (signs = the det=−1 layer, B118). The 3+1/spin-2
+  *readings* are firewalled (`speculations/S028`).

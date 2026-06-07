@@ -23,6 +23,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **B122 — the tower is symmetric powers of the external fundamental `W = V⊕1` (2026-06-07, Ledger V111; no
+  physics).** Banks Chat-2's W-identity (audited, verify-don't-trust) and **unifies it with B121** (one object, not
+  two). The two-sequence re-expressed as a virtual `GL(2)`-module: `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W=V⊕1`.
+  A **genuine `GL(2)`-module iso** (symbolic in general `(x,y)`, det-independent, n≤8; module-level proved n=3,4 via
+  B103) — *not* vacuous (the tower is a `GL(2,ℤ)`-rep). **`W` is B121's external monodromy fundamental:** `det(W)=−1`
+  (external) vs `det(Fricke=Sym²V)=+1` (internal/Kostant), so Chat-2's "`W`=Fricke" kill **is** B121's
+  external≠internal; the tower's odd weights = `Sym^n(V⊕1)∋V` = the B121 parity obstruction. `Sym⁴(3-space)=15=sl(4)`
+  is the unique saturating order (the n=4 fixed point, B117). **Honest:** a repackaging + a canonical `W`, **not** a
+  wall-bypass (no functorial `Sym(W)→trace-ring` map; the `Sym⁴(3)=15` saturation is n=4-only). Re-aims the prize
+  ("prove the tower is *functorially* `Sym^n(W)⊕…`") without lowering the wall; magnitude layer only (signs = the
+  det=−1 layer, B118). K008 extended. The 3+1/spin-2 readings are firewalled (S028). Nothing to `CLAIMS.md`; P1–P16
+  untouched.
 - **Physics-bridge sweep, Phase 3 — the heavy forks mapped + the Kashaev feasibility (2026-06-07, Ledger V110;
   FIREWALLED).** The three heavy/deferred bridges are mapped as `DORMANT` speculations with concrete computations +
   obstructions: **S025** (off-principal independent spectral content at higher rank — EMPTY at 4₁/SL(3), B110; open

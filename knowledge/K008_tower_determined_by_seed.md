@@ -42,12 +42,34 @@ inversion identity `char(M^{−h}) = char(−M^h)` for odd `h`, B118) is itself 
 "`n` = how far the unfolding goes; `(trace,det)` = the seed it unfolds" is the precise, all-`n` form of
 "the interaction determines the tower."
 
+## The plethysm has a name: symmetric powers of a 3-dim rep (B122)
+
+The Sym two-sequence is not a custom decomposition — it is **symmetric powers of the 3-dimensional rep `W = V⊕1`**
+(the 2-dim defining `V` plus a trivial). As a virtual `GL(2)`-module:
+```
+   ρ_n  =  Sym^n(W)  ⊕  ( Sym^{n−3}(W) ⊖ W ),      W = V ⊕ 1.
+```
+- `Sym^a(V⊕1) = ⊕_{k=0}^a Sym^k(V)` (a contiguous band) is what makes the two-sequence's staircase; `Sym⁰⊕Sym¹ =
+  1⊕V = W`, so the correction is the "nonlinear part" `Sym^{n−3}(W) ⊖ W`.
+- It is a **genuine `GL(2)`-module iso** (verified symbolically in general `(x,y)`, det-independent, n≤8; proved
+  module-level at n=3,4 via B103) — not merely a character coincidence.
+- **`W` is canonical:** it is the **external monodromy `SL(2)`'s fundamental** (B121). `det(W)=−1` (the external
+  parity), whereas the Fricke 3-space `= Sym²(V)` has `det=+1` (the internal/principal/Kostant rep) — which is *why*
+  the natural guess "`W` = Fricke space" is wrong. The tower's odd `Sym`-weights come from `W∋V`; this is the same
+  `det=−1` parity that splits the catalog (B93/B94) and gives the inversion sign (B118).
+- **`Sym⁴(3-space) = 15 = sl(4)`**, and `4` is the *unique* order where `Sym^a(3-space)` saturates `n²−1` — the n=4
+  fixed point of the dimension identity, restated.
+
 ## What it does *not* license
 
-This is a structural determination, not a closure of the open problem: writing down the all-`n` formula for `μ_d`
-(the two-sequence / the plethysm) remains the central target (B103), behind the trace-ring wall. m-universality
-**reframes** that target as a plethysm computation but does not lower the wall.
+This is a structural determination and a clean **repackaging**, not a closure: the W-identity is module-iso-
+*equivalent* to the two-sequence, and there is **no functorial `Sym(W)→trace-ring` map** (the `Sym⁴(3)=15`
+saturation is n=4-only). So it identifies `W` canonically and re-aims the all-`n` target — *prove the tower is
+functorially `Sym^n(W) ⊕ (Sym^{n−3}(W)⊖W)`* — but it does **not** lower the trace-ring wall. It is the **magnitude
+layer** (the `Sym` content / eigenvalue magnitudes); the **signs** `char(M^h)` vs `char(−M^h)` are the orthogonal
+`det=−1` layer (B118). The all-`n` formula for `μ_d` remains the central target (B103), behind the wall.
 
 **Anchors:** B103 (the `GL(2,ℤ)`-rep + the `ℚ[m]`-iso, V87), B117 (the Sym two-sequence + the dimension identity,
-V104), B120 (the `(n;trace,det)` determination + m-universality, V107). External: classical plethysm / branching
-of `SL(2)` representations.
+V104), B120 (the `(n;trace,det)` determination + m-universality, V107), **B121** (the external monodromy `sl(2)`,
+V109), **B122** (the `W=V⊕1` symmetric-power identity, V111). External: classical plethysm / branching of `SL(2)`
+representations; the geometric/physical readings of `W` are firewalled (`../speculations/S028`).
