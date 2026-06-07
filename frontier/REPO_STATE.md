@@ -4,6 +4,24 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V97) — the Final Computation Arc (B108–B110, the architecture rooms)
+>
+> The CC-web "Final Computation Arc" + the intellectual-architecture build. **Architecture (PRs #113/#114):** four
+> governed rooms `speculations/` (catalog `S001–S021`, the `HELD(value-matching)` tier, the exercise, the DEAD
+> tombstones), `philosophy/` (`P000–P003` + migrated `P1–P5`), `story/` (00–08), `knowledge/` (stub) + root
+> `ARCHITECTURE.md`; `paths/philosophical/` migrated away (live refs redirected, append-only history kept).
+>
+> **B108 (V95) — `θ=−w₀ → c`? NO** (the prize, Task 1): the hinge fails — `θ` is an involution (order 2) and
+> predicts `c∈{1,−1}` but not the order-4 secondary `c=i`; degree=rank's `c` stays OPEN, missing a `ℤ/4`
+> ingredient (cusp-spectrum candidate). **B109 (V96) — the void dynamics (D2):** verify-don't-trust corrected the
+> coordinate-axis facts to the linearization `DT₁²` eigenvalues `{1,φ⁴,φ⁻⁴}`; the center manifold = the tower's
+> parity sector (1@SL2, 2@SL3); the void is a (2,1) saddle of `κ`; + L5 literature (degree=rank apparently-new;
+> W₄ real-but-generic). **B110 (V97) — the off-locus sector of `4₁`/SL(3) is EMPTY** (HMP's 3 components all on the
+> forced locus); the higher-rank/other-manifold fork stays open. **Dead-ends register** (PR #118): ~30 kills
+> consolidated in `docs/atlas/FAILURE_ATLAS.md` by pattern, the REVIVABLE (n=5-wall) lens foregrounded. Probe
+> updates: S001 (all-`m` amphichiral PROVED), S006 (Bell → TESTED-NEGATIVE). *No physics; the `ρ_n` catalog proof
+> stays the central target; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V94) — B106 Dehn-filling anatomy + hygiene + B107 physics-connection audit
 >
 > **B106 (V92) + hygiene (V93):** the trace map at the **Dehn-filling** reps — the never-computed *third*

@@ -672,3 +672,23 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   map is citable. **D:** citations confirmed (GKLP 1305.0937; DGG 1108.4389, 1112.5179). **E (open fork):** the
   off-principal multichannel reps — where B106's root-of-unity D1 data (Addition 3) shows the single-scale
   pattern breaks; the open `c→θ` check links it to the `ρ_n` target.
+- **B108** — **does `θ=−w₀` predict the Dehn-filling `c`?** (V95; the CC-web "Final Computation Arc" Task 1, the
+  prize). The mandatory **hinge** (all four per-eigenvector degree=rank scalars `c={1,1,−1,i}`, B106 D4) **FAILS**.
+  `θ` *is* a tower symmetry (`P²=I`, `[P,J(m)]=0` symbolic; organizes the Dickson parity, B62), and at the
+  Dehn-filling reps it acts as the contragredient sending **`c↦c⁻¹`** — so it fixes `c∈{1,−1}` (W1/W2/principal,
+  matching `c=(−1)^{n−1}`, B83) but **not** the secondary `c=i`. **Obstruction:** `θ` is an **involution (order
+  2)**; `c=i` is **order 4** — beyond its reach. degree=rank's `c` stays **OPEN**; the missing piece is an order-4
+  (`ℤ/4`) structure (candidate: the forced cusp spectrum `{1,i,−i}`, B95). Paper 1 frames degree=rank as the
+  central open question.
+- **B109** — **the trace-map dynamics at the void (D2)** (V96; Tasks 2/4/5/6). **Verify-don't-trust** corrected
+  the handoff's coordinate-axis "facts" (they don't reproduce) to the rigorous **linearization** `DT₁²(2,2,2)`,
+  eigenvalues `{1, φ⁴, φ⁻⁴}` (1 center, 1 unstable, 1 stable): the center direction **is the `A↔B` asymmetry**
+  (unifying "bounded direction" + "slow asymmetry mode"), Lyapunov `{0, ±4 log φ}`. The void is a **(2,1) saddle**
+  of `κ`. **SL(3):** the trivial-point Jacobian is the Dickson tower; the void's **center manifold = the tower's
+  root-of-unity (parity) sector** (dim 1 at SL(2), 2 at SL(3)). **L5 literature:** degree=rank `Mⁿ=L`
+  **apparently new** (HMP 1505.04451 confirms the 3 components but not the power law); the **W₄** anchor at `sl(4)`
+  is real (1111.2834) but generic `sl(N)↔W_N`, doesn't single out n=4.
+- **B110** — **the off-locus sector of `4₁` at SL(3) is EMPTY** (V97; Task 3 / S011). The variety has exactly
+  three irreducible components (HMP = B71's V0/W1/W2), all **on** the forced locus (`x1=x4` or `x2=x5`), so there
+  is no off-locus irreducible 4₁ SL(3) rep — the single-golden-scale picture is complete for it. **Scope:** the
+  broader S011 fork (higher rank / other manifolds) stays **OPEN**.

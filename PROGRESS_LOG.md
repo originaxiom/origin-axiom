@@ -2557,5 +2557,38 @@ untouched.
 
 ---
 
+## 2026-06-07 — the Final Computation Arc (B108–B110) + the dead-ends register
+
+Executed the CC-web "Final Computation Arc" after the architecture build, **verify-don't-trust throughout** (the
+handoff's empirical facts were re-derived, and two of them were corrected).
+
+**B108 (V95) — the prize, `θ=−w₀ → c`? NO.** The mandatory hinge (predict all four per-eigenvector degree=rank
+scalars `c={1,1,−1,i}`, B106 D4) **fails**. `θ` *is* a tower symmetry (`P²=I`, `[P,J(m)]=0` symbolic; organizes the
+Dickson parity, B62), and at the Dehn-filling reps it acts as the contragredient sending `c↦c⁻¹` — so it fixes
+`c∈{1,−1}` (W1/W2/principal, matching `c=(−1)^{n−1}`, B83) but **not** the secondary `c=i`. Obstruction: `θ` is an
+**involution (order 2)**; `c=i` is **order 4** — beyond its reach. degree=rank's `c` stays OPEN; the missing piece
+is an order-4 (`ℤ/4`) ingredient (candidate: the forced cusp spectrum `{1,i,−i}`, B95). **Trajectory call:** the
+negative branch — Paper 1 frames degree=rank as the central open question, with this obstruction precise.
+
+**B109 (V96) — the void dynamics (D2) + L5 literature.** The handoff's coordinate-axis facts do NOT reproduce; the
+rigorous linearization `DT₁²(2,2,2)` does, with eigenvalues `{1, φ⁴, φ⁻⁴}` (1 center = the `A↔B` asymmetry, 1
+unstable, 1 stable; Lyapunov `{0, ±4 log φ}`); the void is a `(2,1)` saddle of `κ`; and the SL(3) center manifold
+= the tower's root-of-unity parity sector (dim 1@SL2, 2@SL3). L5: degree=rank `Mⁿ=L` **apparently new** (HMP
+1505.04451 confirms 3 components but not the power law); the `W₄` anchor at `sl(4)` is real (1111.2834) but generic
+`sl(N)↔W_N`, doesn't single out n=4.
+
+**B110 (V97) — the off-locus sector of `4₁`/SL(3) is EMPTY.** The variety has exactly three irreducible components
+(HMP = B71's V0/W1/W2), all on the forced locus, so 4₁/SL(3) carries no non-principal content; the broader S011
+fork (higher rank / other manifolds) stays open.
+
+**Dead-ends register (Task 7).** ~30 kills consolidated in `docs/atlas/FAILURE_ATLAS.md` by structural pattern
+(numerology / wrong-dictionary / 3+1-spacetime / coincidence / the n=5-wall REVIVABLE kills / specific-manifold
+empties), each with kill mechanism + `V`/`B` + DEAD-vs-REVIVABLE; the REVIVABLE (n=5) lens foregrounded — every one
+converges on the `ρ_n` proof. Probe updates: **S001** (all-`m` amphichiral PROVED — `M_m²` symmetric ⇒ the systole
+not amphichirality selects `m=1`), **S006** (Bell/CHSH → TESTED-NEGATIVE — deterministic Fricke surface ⇒ CHSH≤2).
+Suite 298 passed; no physics; the `ρ_n` catalog proof stays the central target; `CLAIMS.md`/P1–P16 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
