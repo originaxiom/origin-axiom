@@ -2668,6 +2668,36 @@ conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n
 cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
 V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
 
+## 2026-06-07 — B122: the tower is symmetric powers of the external fundamental W=V⊕1 (unifies B121 + the Chat-2 W-identity)
+
+Audited Chat-2's "the tower is `Sym^n(W)`" handoff (verify-don't-trust), ran the brave functorial hinge test, and
+banked the result unified with B121. The two-sequence (B117) re-expressed as a virtual `GL(2)`-module:
+`ρ_n = Sym^n(W) ⊕ ( Sym^{n−3}(W) ⊖ W )`, `W = V ⊕ 1`.
+
+**What's verified.** (1) The character identity `ρ_n = Sym^n(W)+Sym^{n−3}(W)−1−V == μ_d` holds **n=2..11**
+(`Sym^a(V⊕1)=⊕_{k≤a}Sym^k(V)`; `Sym⁰⊕Sym¹=W`). (2) It is a **genuine `GL(2)`-module iso** — a first pass wrongly
+called it "automatic," but that's only over the cyclic `⟨M⟩`; the tower is a **`GL(2,ℤ)`-rep** (B103), and the
+identity holds **symbolically in general `(x,y)`, det-independent, n≤8** (module-level proved n=3,4 via B103). So it
+is functorial, not a numerical coincidence.
+
+**The unification with B121 (the headline).** `det(W=V⊕1)=−1` → B121's **external** `det=−1` parity; `det(Fricke =
+Sym²V)=+1` → the **internal** principal/Kostant parity. So Chat-2's kill of "`W` = Fricke 3-space" **is** B121's
+external≠internal: Fricke carries the internal embedding (even weights), the tower the external monodromy one (mixed
+parity); the tower's **odd weights** = `Sym^n(V⊕1)∋V` = the B121 parity obstruction, re-derived. **B121 and the
+W-identity are one object** — the monodromy grading *is* `Sym(`external fundamental `W)`. (Banked together, not as
+two ledger rows that quietly repeat — the cross-chat reconciliation Chat 1 flagged.) Corollary (A7a):
+`Sym⁴(3-space)=15=sl(4)` is the *unique* saturating order — the n=4 fixed point of the dimension identity (B117);
+band offset = dim W = 3 = the offset-2 in the `Sym(V)`-index (A1; one structure, reconciled readings).
+
+**The honest verdict (the brave functorial test, run).** It is module-iso-**equivalent** to the two-sequence
+(proving it all-n **==** proving `μ_d`); **no functorial `Sym(W)→trace-ring` map** exists, and the `Sym⁴(3)=15`
+saturation is n=4-only (the correction term blocks a single clean `Sym^n`). So B122 **repackages** the prize and
+**identifies `W` canonically**, but does **not** lower the trace-ring wall. Re-aimed prize: *prove the tower is
+functorially `Sym^n(W) ⊕ (Sym^{n−3}(W)⊖W)`* — a construction that does not yet exist. This is the **magnitude**
+layer; the signs `char(M^h)`/`char(−M^h)` are the orthogonal `det=−1` layer (B118). Banked V111 + K008 extended; the
+3+1 / spin-2 geometric *readings* (the seven-hints addenda) are firewalled in S028 (next), never in the math. No
+physics in the math; nothing to `CLAIMS.md`; the `ρ_n`/Sym-`μ_d` proof stays the prize; P1–P16 untouched.
+
 ## 2026-06-07 — Physics-bridge sweep, Phase 3: the heavy forks mapped + the Kashaev feasibility (sweep complete)
 
 The closing phase: the three heavy/deferred bridges, mapped as `DORMANT` speculations with concrete computations +

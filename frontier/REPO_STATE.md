@@ -4,6 +4,19 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V111) — B122: the tower is Sym^n(W=V⊕1) (unifies B121 + the Chat-2 W-identity)
+>
+> The two-sequence (B117) re-expressed as a virtual `GL(2)`-module: `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W=V⊕1`.
+> A **genuine `GL(2)`-module iso** (symbolic in general `(x,y)`, det-independent, n≤8; module-level proved n=3,4 via
+> B103). **`W` is B121's external monodromy fundamental** (`det(W)=−1`); the Fricke 3-space `=Sym²V` has `det=+1`
+> (internal/Kostant) — so the natural "`W`=Fricke" guess is **killed by B121's external≠internal**, and B121 ⟂ the
+> W-identity are **one object** (the monodromy grading *is* `Sym(`external fundamental`)`). `Sym⁴(3-space)=15=sl(4)`
+> is the unique saturating order (the n=4 fixed point). **Honest:** a repackaging + a canonical `W`, **not** a
+> wall-bypass — module-iso-equivalent to the two-sequence, no functorial `Sym(W)→trace-ring` map (the brave
+> functorial test was run and stalled). Re-aims the prize ("prove the tower is *functorially* `Sym^n(W)⊕…`") without
+> lowering the wall; the magnitude layer only (signs = the det=−1 layer, B118). K008 extended; the 3+1/spin-2
+> readings firewalled (S028). *No physics; nothing to `CLAIMS.md`; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V109) — physics-bridge sweep: distinct metallic materials (Phase 1) + the monodromy/Hitchin grading (Phase 2)
 >
 > A brave-but-honest sweep of the bridges to physics, all **firewalled** (`speculations/PHYSICS_BRIDGE_MAP.md` maps
