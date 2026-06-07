@@ -30,6 +30,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S019 | Fisher metric on CS level k | DEAD | heuristic, not rigorous |
 | S020 | 3+1D from Cartan geometry | WALLED | type-mismatch (3d→4d) |
 | S021 | entanglement = holographic | TESTED-NEGATIVE | generic CFT (V37) |
+| S022 | the peripheral ℤ/4 for degree=rank's `c` (the successor to θ→c; B111 proves the cusp arithmetic controls the exponent; covering-degree is the candidate mechanism, OPEN) | ACTIVE (lead) | B95, B76, B106, **B111** |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a

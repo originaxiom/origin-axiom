@@ -43,3 +43,13 @@ cause of the tower / degree=rank / eps-series walls. **WITHDRAWN** — `n=5` is 
 `A_{n−1}` obstacles degenerate together (different eigenvalues, independent derivations, different onset). Kill:
 **V91** (the three-obstacle correction). Not a speculation about physics, but a killed *framing*, banked here so it
 is not silently re-adopted.
+
+**Math-kill — `θ → c` (the bulk opposition involution predicts the degree=rank scalar).** **DEAD** — `θ=−w₀` is an
+involution (order 2); the secondary `c=i` is order 4; an order-2 symmetry cannot single out an order-4 scalar
+(`i↦−i`). Kill: **B108 / V95**. *Constructive:* the missing `ℤ/4` is **peripheral** — the live successor lead is
+`S022`.
+
+**Math-kill — `s_n = c` (the tower sign predicts the degree=rank scalar).** **DEAD** by the *same parity argument*:
+`s_n ∈ {±1}` is order ≤2 and cannot equal the order-4 secondary `c=i`. Kill: **B111 / V98** (consistent with
+B108). Not a new problem — the same `ℤ/2`-can't-reach-`ℤ/4` obstruction. *Also negative:* the cusp `ord−1` formula
+(B111 / V98 — fails the all-four hinge).
