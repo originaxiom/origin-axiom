@@ -4,13 +4,21 @@
 is the organizing picture for the **open** work — the reframing that B108's negative and B111's promotion result
 made visible. It cites the mathematics one-way.
 
-> **⚠ PARTIALLY SUPERSEDED (B117/V104).** The **bulk** half of this frame is reframed: the tower is **one object**
-> — the Sym two-sequence — **not** "the bulk-`θ` closed form with one `char(M)` promoted to `char(Mⁿ)`." There is
-> **no promotion**; `char(Mⁿ)` is `Sym^n` presence (`μ_n=1`), and the height-1 sign is a `Sym¹` *absence*
-> (tombstoned in `TOMBSTONES.md`). What **survives** is the *peripheral* half: the cusp-spectrum `ℤ/k` symmetry is
-> still the live lead for the **Dehn-filling** degree=rank exponent `k=n` and the scalar `c` (S022, B119). Read the
-> "single promotion" / "two separable halves" language below as historical; the bulk `char(Mⁿ)` is settled
-> (`Sym^n` presence), and only the peripheral exponent/scalar remains open.
+> **⚠ PARTIALLY SUPERSEDED (B117/V104; sharpened B120/V107).** The **bulk** half of this frame is reframed: the
+> tower is **one object** — the Sym two-sequence — **not** "the bulk-`θ` closed form with one `char(M)` promoted to
+> `char(Mⁿ)`." There is **no promotion**; `char(Mⁿ)` is `Sym^n` presence (`μ_n=1`), and the height-1 sign is a
+> `Sym¹` *absence* (tombstoned in `TOMBSTONES.md`). Read the "single promotion" / "two separable halves" language
+> below as historical.
+>
+> **The degree=rank split (B120/Q2).** degree=rank is two statements: **(I) spectral** `char(Mⁿ)` is a tower factor
+> ⟺ `μ_n=1` — **all n** (= `Sym^n` presence, the bulk, settled); **(II) geometric** longitude=meridianⁿ at the
+> irreducible Dehn-filling rep — **`n∈{3,4}` only** (the forced principal `a+1/a=3−n` is a root of unity with order
+> `{4,3,2,∞}`). So the **peripheral** half of this frame — the cusp-spectrum `ℤ/k` symmetry, the exponent/scalar,
+> and any "boundary the unit must reach beyond itself to close" (Markov-blanket / interior↔boundary) reading — is a
+> **low-rank `n∈{3,4}` phenomenon, not an all-`n` property** (B119: the principal does not exist irreducibly for
+> `n≥5`; B95). It is **downgraded, not tombstoned** — real at `n∈{3,4}`, just not general. What survives at all `n`
+> is the *internal* picture: the Sym two-sequence + an internal order-2 inversion involution (B118), no boundary it
+> fails to close (`../philosophy/P004_interaction_born.md`).
 
 ## The frame
 
