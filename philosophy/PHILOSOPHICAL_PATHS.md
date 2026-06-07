@@ -12,11 +12,11 @@ They live here, separately registered, **for three reasons**:
    Axiom intuition (the user's) is itself philosophical before it is mathematical.
 2. To be governed: the rest of the project is bound to a strict claim-vs-frontier
    distinction. If we let philosophical arguments mingle with claims-bearing work,
-   the discipline of `../../GOVERNANCE.md` collapses. Separation preserves both.
+   the discipline of `../GOVERNANCE.md` collapses. Separation preserves both.
 3. To be useful: a precise statement of why a philosophical argument *cannot* be
    reduced to a mathematical mechanism is itself informative about the path-space.
 
-**No content here promotes to `../../CLAIMS.md`.** A philosophical path that gets
+**No content here promotes to `../CLAIMS.md`.** A philosophical path that gets
 mathematized would gain a new E-tag and migrate to a `paths/E*/` directory.
 
 ## The five paths
@@ -112,14 +112,17 @@ rather than computed, and clearly outside the claims layer.
 
 ---
 
-## Companion documents (same register, firewalled speculation)
+## Companion documents (the architecture)
 
-- `METALLIC_FOUNDATIONS.md` — *why aim the theorem at the family, not the seed* (the "not-nothing → a
-  self-generating family" rationale behind the metallic classification).
-- `PHYSICS_RESONANCES.md` — the six adjudicated "paths to physics" (robustly negative) + the headline
-  single-scale negative (Path 8). The physics chapter stays CLOSED.
-- `COSMOGONY_FROM_THE_VOID.md` — the deliberate "*assume it is the final theory*" exercise: every major open
-  question of physics walked through the trace-map lens, **tagged [MATH]/[LEAP]/[HOOK]**, whose only legitimate
-  output is the list of bounded calculations the speculation suggests (all routing to the `ρ_n` decomposition).
-  Brave by design, but each leap is recorded *beside* the negative that bounds it. Nothing promotes to
-  `../../CLAIMS.md`.
+This `philosophy/` folder holds the **motivation** layer (P000–P003 below + P1–P5 above + the foundations doc).
+The **evolving speculative ideas** live one room over in `../speculations/` (the catalog `S001…S021`, the live
+exercise, the tombstones); the **narrative** is in `../story/`; the one-page map is `../ARCHITECTURE.md`.
+
+- `METALLIC_FOUNDATIONS.md` (here) — *why aim the theorem at the family, not the seed* (the "not-nothing → a
+  self-generating family" rationale; the source material for **P000**).
+- `P000`–`P003` (here) — the foundational philosophical layer (what-is-not-nothing; architecture-not-furniture;
+  necessity-given-chosen-premises; dead-ends-as-boundaries), distinct from the P1–P5 argument register above.
+- `../speculations/PHYSICS_EXERCISE.md` — the deliberate "*assume it is the final theory*" exercise (the tiered
+  MASTER), whose only legitimate output is the ranked calculation pointers. Its earlier long-form draft and the
+  six adjudicated "paths to physics" are archived at `../speculations/archive/`.
+- **No content here promotes to `../CLAIMS.md`; the physics chapter stays CLOSED.**

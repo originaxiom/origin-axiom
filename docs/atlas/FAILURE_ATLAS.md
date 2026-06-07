@@ -314,7 +314,7 @@ Weil–Petersson coefficient as above (a 1-D positive metric on a parameter line
 Both are genuine mathematics (a definite Hessian; a positive Fisher form); neither carries the indefinite
 signature the "emergence" reading needs. The single genuine Lorentzian object in the whole project is the
 `so(2,1)` gauge algebra on the `SL(2,ℝ)` component (B97), a toy-2+1-gravity gauge structure, present by
-construction — see `paths/philosophical/PHYSICS_RESONANCES.md` Path 1.
+construction — see `speculations/archive/PHYSICS_RESONANCES.md` Path 1.
 
 Typical missing object:
 

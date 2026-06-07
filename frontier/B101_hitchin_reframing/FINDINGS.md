@@ -2,7 +2,7 @@
 
 **Status: `computer-assisted` (+ one `dead` negative, one `open` direction).** Neutral higher-Teichmüller /
 Lie theory; the Hitchin→Higgs→geometric-Langlands→N=4 chain is **cited context only** (firewalled to
-`../../paths/philosophical/PHYSICS_RESONANCES.md`), never a claim. No Origin-core claim; proven core P1–P16
+`../../speculations/archive/PHYSICS_RESONANCES.md`), never a claim. No Origin-core claim; proven core P1–P16
 untouched. Script `probe.py`; test `tests/test_b101_hitchin_reframing.py`.
 
 ## The reframing

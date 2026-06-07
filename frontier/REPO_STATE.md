@@ -20,7 +20,7 @@ trivially-safe fixes applied, everything non-trivial PROPOSED; no premature clos
 > moduli-space monodromy, **not new physics** (the decisive negative). **C:** tower/torsion `=` masses are
 > withdrawn category errors; only the moduli-space `M_SUSY≅M_flat` + three-branch↔three-fixed-point map is
 > citable. **D:** GKLP 1305.0937, DGG 1108.4389/1112.5179. **E:** the off-principal multichannel fork is open.
-> *All physics firewalled to `paths/philosophical/PHYSICS_RESONANCES.md` (Path 8); nothing to `CLAIMS.md`; the
+> *All physics firewalled to `speculations/archive/PHYSICS_RESONANCES.md` (Path 8); nothing to `CLAIMS.md`; the
 > physics chapter stays CLOSED; P1–P16 untouched.*
 >
 > ## Update — 2026-06-07 (post-V91) — B105 three-obstacle correction + sharpened ρ_n target
@@ -154,7 +154,7 @@ trivially-safe fixes applied, everything non-trivial PROPOSED; no premature clos
 > Two CC-web handoffs, run on the project's discipline — **"compute the numbers, quarantine the
 > interpretation"** (ledger **V80–V84**). Bounded quantum-topology invariants on the metallic
 > mapping-torus manifolds, banked as mathematics; **every** physics reading lives only in
-> `paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
+> `speculations/archive/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
 > **CLOSED**; proven core P1–P16 untouched; suite **249 passed, 1 skip**.
 >
 > - **B96/V80 — geometry invariants.** Metallic volumes strictly monotone (`2.030<3.664<4.814`,
@@ -182,7 +182,7 @@ trivially-safe fixes applied, everything non-trivial PROPOSED; no premature clos
 >
 > A new **foundational thread** (CC-web handoff, ledger **V76–V78**): characterize the metallic family by
 > a *condition* (`m` free) rather than choosing the seed. The motivation ("what is not-nothing → a family,
-> not a point") is **quarantined** in `paths/philosophical/METALLIC_FOUNDATIONS.md` — motivation only,
+> not a point") is **quarantined** in `philosophy/METALLIC_FOUNDATIONS.md` — motivation only,
 > never a premise/claim, never promoted; the mathematics uses none of it. Suite **230 passed, 1 skip**;
 > scan green; proven core P1–P16 untouched; physics closed.
 >

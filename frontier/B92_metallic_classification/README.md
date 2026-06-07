@@ -12,7 +12,7 @@ Characterizes the metallic family by a condition (`m` free) instead of choosing 
 exactly the `det=−1` / period-1 slice; `m` is free; the member `m=1` (golden) is distinguished only by a
 metric (the systole). The bridge `det=−1 ⟺ the tower's parity` is B93; universality is B94.
 
-The motivation (why the family, not the seed) lives in `paths/philosophical/METALLIC_FOUNDATIONS.md` and
+The motivation (why the family, not the seed) lives in `philosophy/METALLIC_FOUNDATIONS.md` and
 is never used in the mathematics.
 
 ```bash

@@ -3,7 +3,7 @@
 **Status: `proven` (computer-assisted, finite verification).** Standalone number theory / `GL(2,ℤ)`; no
 physics, no Origin-core claim; proven core P1–P16 untouched. Script `probe.py`; test
 `tests/test_b92_metallic_classification.py`. (The *motivation* for characterizing the family rather than
-choosing a seed is recorded in `paths/philosophical/METALLIC_FOUNDATIONS.md` and is **not** used here.)
+choosing a seed is recorded in `philosophy/METALLIC_FOUNDATIONS.md` and is **not** used here.)
 
 ## The classification
 The metallic mean `λ_m=(m+√(m²+4))/2` is the dominant eigenvalue of the companion `M_m=[[m,1],[1,0]]`

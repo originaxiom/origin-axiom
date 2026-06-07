@@ -8,10 +8,24 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ## [Unreleased]
 
+### Changed
+- **Intellectual-architecture reorganization (2026-06-07; docs/org only, no math).** Introduced four governed rooms
+  for the evolving speculative ideas, all firewalled (nothing promotes to `CLAIMS.md`; the physics chapter stays
+  CLOSED; the mathematics never cites them): **`speculations/`** (the catalog `S001…S021` with a proof-status enum
+  incl. `HELD(value-matching)`, the "final theory" exercise `PHYSICS_EXERCISE.md`, per-live-speculation files, the
+  DEAD `TOMBSTONES.md`, and `archive/`); **`philosophy/`** (`GOVERNANCE` + `P000–P003` + the migrated `P1–P5`
+  register + `METALLIC_FOUNDATIONS`); **`story/`** and **`knowledge/`** (per the priority order); and the one-page
+  `ARCHITECTURE.md` (the one-way firewall arrow). **Migration:** `paths/philosophical/{PHILOSOPHICAL_PATHS,
+  METALLIC_FOUNDATIONS}.md → philosophy/`; `paths/philosophical/{PHYSICS_RESONANCES, COSMOGONY_FROM_THE_VOID}.md →
+  speculations/archive/` (COSMOGONY superseded by the corrected `PHYSICS_EXERCISE.md` — notably the κ=−2 cusp fix
+  and the HELD tier). All **live** references redirected (frontier firewall banners, READMEs, REPO_STATE, atlas,
+  this file, the repo-map); append-only `PROGRESS_LOG.md` history and historical ledger rows left intact, with a
+  migration mapping recorded in `PROGRESS_LOG.md`.
+
 ### Added
 - **B107 physics-connection audit — banked as a NEGATIVE (2026-06-07, Ledger V94; POSTULATED/FIREWALLED).**
   Banks the CC-web physics exploration as a first-class **dead-end log**; *all* physical readings are
-  **POSTULATED and firewalled** to `paths/philosophical/PHYSICS_RESONANCES.md` (Path 8), **nothing to
+  **POSTULATED and firewalled** to `speculations/archive/PHYSICS_RESONANCES.md` (Path 8), **nothing to
   `CLAIMS.md`**, the physics chapter stays **CLOSED**, P1–P16 untouched. **A (anchor, verified):** the SL(2)
   metallic trace map `φ_m: a→aᵐb, b→a` **is** the Kohmoto–Kadanoff–Tang / Fibonacci-Hamiltonian trace map —
   `tr[A,B]=x²+y²+z²−xyz−2` (Sütő/Fricke–Vogt) conserved ∀m (symbolic m=1..4), `φ_1=(z,x,xz−y)`. **B (the
@@ -99,7 +113,7 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   proven core P1–P16 untouched; physics chapter stays CLOSED; physics interpretation quarantined).**
   "Compute the numbers, quarantine the interpretation" — bounded quantum-topology invariants on the
   metallic mapping-torus manifolds, banked as mathematics; every physics reading lives only in
-  `paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted).
+  `speculations/archive/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted).
   `frontier/B96_geometry_invariants/` (V80): metallic volumes strictly monotone (`2.030<3.664<4.814`,
   `m=1`=systole); the volume Hessian is **definite `(0,2)`, NOT Lorentzian** (155/156 fillings of `4_1`
   below `V₀`) — the most-leveraged physics path returns negative.
@@ -125,7 +139,7 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   degree=rank. Corrects the handoff's SL(5) spectrum guess.
 - **Paper 0 — the self-reference grounding (2026-06-06, Ledger V76–V78; suite 230 passed, 1 skip;
   proven core P1–P16 untouched; philosophy quarantined).** A foundational thread characterizing the
-  metallic family by a condition (`m` free). `paths/philosophical/METALLIC_FOUNDATIONS.md` (quarantined
+  metallic family by a condition (`m` free). `philosophy/METALLIC_FOUNDATIONS.md` (quarantined
   motivation, never a claim). `frontier/B92_metallic_classification/` (Layer 1, V76, `proven`): the family
   = the `det=−1`/period-1 slice up to `GL(2,ℤ)` conjugacy (entries ≤5), with MyCalc-2 (conjugacy census)
   and MyCalc-5 (systole/contingency). `frontier/B93_det_parity_bridge/` (Phase C, V77): MyCalc-1

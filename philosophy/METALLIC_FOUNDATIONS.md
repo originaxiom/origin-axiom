@@ -1,7 +1,7 @@
 # Metallic foundations — the rationale for "aim the theorem at the family"
 
 > **SPECULATION / PHILOSOPHY — motivation only.** Nothing in this file is a claim. No content here
-> promotes to `../../CLAIMS.md` (GOVERNANCE §5), and none of it may appear as a premise, lemma, or step
+> promotes to `../CLAIMS.md` (GOVERNANCE §5), and none of it may appear as a premise, lemma, or step
 > in any proof, `frontier/` FINDINGS, `papers/` note, ledger row, or commit message. This file *may* cite
 > the mathematics; **the mathematics never cites this file.** The arrow is one-way: philosophy → why the
 > mathematics is shaped this way, never philosophy → a mathematical conclusion.

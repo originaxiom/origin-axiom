@@ -20,7 +20,7 @@ the cubic directions are genuinely-`SL(3)` convex-projective deformations the pr
 **Result.** V0 is the Fuchsian locus; the new `SL(3)` content is the **5-dim cubic-differential** directions
 (exhibited infinitesimally and as a finite Anosov deformation). No "tower of spacetimes." Cite Hitchin 1992;
 Labourie; Fock–Goncharov; Choi–Goldman; Marquis. The Hitchin→Higgs→Langlands→N=4 chain is **cited context
-only** (`paths/philosophical/PHYSICS_RESONANCES.md`), with the ceiling stated; never a claim.
+only** (`speculations/archive/PHYSICS_RESONANCES.md`), with the ceiling stated; never a claim.
 
 ```bash
 python frontier/B101_hitchin_reframing/probe.py

@@ -1,7 +1,7 @@
 # B107 — the physics-connection audit (the headline is a NEGATIVE)
 
 > **⚠ FIREWALL — POSTULATED.** Every physical reading on this page is **POSTULATED and quarantined**, firewalled
-> to `../../paths/philosophical/PHYSICS_RESONANCES.md`. **Nothing here reaches `CLAIMS.md`; the physics chapter
+> to `../../speculations/archive/PHYSICS_RESONANCES.md`. **Nothing here reaches `CLAIMS.md`; the physics chapter
 > stays CLOSED; P1–P16 are untouched.** The *mathematics* (the trace-map invariant A, the golden spectrum B) is
 > standard and verified; what this stage banks is the honest **classification** of what the physics does and —
 > mostly — does **not** license. The headline result is a **negative** (B): the tower is not new physics.
@@ -96,5 +96,5 @@ P1–P16 untouched.**
 python frontier/B107_physics_connection_audit/probe.py
 python -m pytest tests/test_b107_physics_connection_audit.py -q
 ```
-Physics POSTULATED + firewalled to `paths/philosophical/PHYSICS_RESONANCES.md`; no `CLAIMS.md` promotion; the
+Physics POSTULATED + firewalled to `speculations/archive/PHYSICS_RESONANCES.md`; no `CLAIMS.md` promotion; the
 physics chapter stays CLOSED; proven core P1–P16 untouched.
