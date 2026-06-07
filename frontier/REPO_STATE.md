@@ -4,6 +4,30 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V106) — B118/B119: the sign-half gate (a closed-form sign + correction) + the power-half sharp negative
+>
+> Chat-2's Path 1 (the gate) and Path 3 (the hard path), with the Opus reframing (B117) standing.
+> **B118 (V105) — the gate.** B112 proved the `(+1,−1)` eigenspace *dimensions* of `θ=−w₀` by a permutation
+> argument; the `⌈`-vs-`⌊` tip is decided by the sign θ carries on the lone fixed root (odd `m=n−h`). Path 1 asked
+> whether that sign is `+1` for all `(n,h)` (which would make B64 a uniform "`+1` sector = `char(M^h)`" theorem).
+> Realizing θ as the genuine *signed* contragredient involution `τ(X)=−J Xᵀ J⁻¹`, the **fixed-root sign
+> `= (−1)^{h+1}`** (symbolic + verified `n≤12`) — `+1` for odd `h`, `−1` for even `h`: **NOT a uniform +1**. So
+> B64's "`+1` sector = `char(M^h)`" holds only for odd `h` — a **refinement/correction** of B112's unsigned "fixed
+> root is always +1". The `(⌈,⌊)` dimensions stand; B112's `char(M^h)=⌈` labeling stays tower-verified `n≤5` (B118
+> supplies the all-`n` sign, not an independent all-`n` labeling proof). Emergent (non-circular): the fixed-root
+> sign `= +1` ⟺ the inversion identity `char(M^{−h})=char(−M^h)` ⟺ `h` odd. The θ-split is **not the tower** (the
+> Sym two-sequence, B117; diverges `n≥6`).
+> **B119 (V106) — a sharp negative on the power half.** `Mᵏ` central on the principal iff `order(a)|k`
+> (`a+1/a=3−n`, `order(a)={4,3,2,∞}`). `k=n` is non-central where the principal exists (n=3,4) but **not unique**
+> ⇒ centrality does **not** force `k=n` (the A-poly B83 pins it); and for **n≥5 the principal does not exist
+> irreducibly** (B95). So `exponent=rank` is an `n∈{3,4}` phenomenon; the brave `k=n` proof cannot be completed.
+> The secondary 2n-type gives exponent `n−1` (`Mⁿ=−I` central; extends B111). Emergent: the cusp order is
+> `{4,3,2,∞}`, **not** a clean `{n−1,n+1,2n}` law (B111 ADD2 conflated three components).
+> **Net.** B118 supplies the all-`n` fixed-root sign `(−1)^{h+1}` (a refinement of B112; the labeling stays
+> tower-verified `n≤5`); the positive peripheral power-half mechanism is a sharp
+> negative (B119). The all-`n` **tower** stays the prize = **prove the Sym two-sequence `μ_d`** (B103). *No
+> physics; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V104) — B117: the interleaving insight (the tower is the Sym two-sequence)
 >
 > The **headline reframing** of the B111–B116 run (the Opus interleaving insight, verify-don't-trust). The

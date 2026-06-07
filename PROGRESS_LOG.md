@@ -2640,6 +2640,62 @@ Suite 312+ passed; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize;
 
 ---
 
+## 2026-06-07 — B119: the Mᵏ-scalar (centrality) mechanism — a sharp negative on "prove k=n on the principal" (Chat-2 Path 3)
+
+Ran Chat-2's **Path 3** (the hard path; be brave). B111 ADD1 — the one surviving exponent lead — showed the cusp
+eigenvalue arithmetic *controls* the degree=rank exponent (on the SL(4) secondary `M⁴=−1` scalar ⇒ central
+commutator ⇒ `k=4` impossible, `k=3=n−1` forced). The brave goal: **prove `k=n` on the principal** from
+scalar-ness + bundle relations. **Result: a sharp negative.**
+
+**Reframe (B117).** The *bulk* `char(Mⁿ)` is no longer a "promotion" — it is `Sym^n` presence (`μ_n=1`). So this is
+the *peripheral* `k=n` on the Dehn-filling component, the one open shot at a positive power-half mechanism.
+
+**The arithmetic.** The forced principal cusp spectrum (B95) is `1` at mult `n−2` plus `{a,1/a}`, `a+1/a=3−n`;
+`order(a) = {4,3,2,∞}` for `n=3,4,5,≥6`. `Mᵏ` is central on the principal iff `order(a)|k`.
+
+**Why the brave proof does not close.** Where the principal exists (`n=3,4`) the irreducible longitude `L=[A,B]` is
+non-central ⇒ `k` not a multiple of `order(a)` — excluding `{order(a),2·order(a),…}` (n=4 excludes `k=3,6`) but
+**not** singling out `k=n` (n=4: `k=1,2,4,5` all non-central). Centrality is **necessary, not sufficient**; `k=n`
+is pinned by the **proved A-poly** `L=(−1)^{n−1}Mⁿ` (B83) — the scalar route is *subsumed* by B83, not an
+independent proof. For **n≥5 there is nothing to prove**: the principal Dehn-filling rep does not exist irreducibly
+(B95 — n=5 `A²=I` dihedral; n≥6 no finite-order spectrum). So **`exponent=rank` is an `n∈{3,4}` phenomenon**; the
+brave `k=n` proof **cannot be completed** — the obstruction stated as sharply as B108's order-2-vs-4.
+
+**The secondary (extends B111).** On the 2n-type (`Mᵏ` central iff `n|k`): `Mⁿ=−I` central ⇒ `k=n` gives a central
+commutator ⇒ the non-central longitude is `M^{n−1}` ⇒ exponent `n−1`. **Emergent (B111 ADD2 correction):** the
+cusp order on the degree=rank principal is `order(a) = {4,3,2,∞}`, **not** a clean `{n−1,n+1,2n}` law — B111 ADD2
+conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n=4 secondary = `2n`). No single all-n
+cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
+V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
+
+## 2026-06-07 — B118: the θ=−w₀ fixed-root sign = (−1)^{h+1} (NOT the anticipated uniform +1) — a refinement of B112 (Chat-2 Path 1)
+
+Ran Chat-2's **Path 1** (the gate). B112 proved the `(+1,−1)` eigenspace **dimensions** of `θ=−w₀` on the
+height-`h` roots of `A_{n−1}` by a **permutation** argument (no signs). The `⌈`-vs-`⌊` tip reduces to ONE sign: for
+odd `m=n−h` there is exactly one θ-fixed root (the middle), and the 2-cycles split `(1,1)` no matter how labeled.
+B112 *assumed* that sign is `+1`. **Path 1 asked whether it is `+1` for all `(n,h)`** — which would make B64 a
+uniform "`+1` sector = `char(M^h)`" theorem.
+
+**Computed it (genuine, signed).** Realizing `θ=−w₀` as the contragredient involution `τ(X)=−J Xᵀ J⁻¹` (standard
+antidiagonal so/sp form, `ε_p=(−1)^{p+1}`; `τ²=id`, acts as B112's reversal), a direct index computation gives, on
+the lone fixed root, the scalar **`(−1)^{h+1}`** — `FIXED-ROOT SIGN(n,h) = (−1)^{h+1}`, independent of `n`, proved
+symbolically (the ε-form residual is exactly `0`) and verified numerically all `n≤12`.
+
+**The finding (a correction).** The sign is **`(−1)^{h+1}`, NOT a uniform `+1`** — `+1` for odd `h`, `−1` for even
+`h`. So the genuine *signed* θ does **not** put the fixed root in the `+1` (symmetric) sector for all `h`; B112's
+unsigned-permutation reading ("the fixed root is always `+1`") is right only for odd `h`. The `(⌈,⌊)` **dimensions**
+(B112) are untouched (cycle structure); only the geometric **sign** is refined. B112's `char(M^h)=⌈` **labeling**
+stays tower-verified `n≤5` (B118 supplies the all-`n` sign, not an independent all-`n` labeling proof) — and B117
+shows the tower is the Sym two-sequence anyway (the θ-split diverges at `n≥6`, B116). So Path 1 returns a
+**closed-form sign + a correction**, not a uniform-`+1` theorem.
+
+**Emergent (chased inline, non-circular).** For `2×2` `det=−1` monodromy `M⁻¹∼−M`, so `char(M^{−h})=char(−M^h)`
+precisely for **odd `h`** (independently computed from the polynomials; fails even `h`). The fixed-root sign is
+`+1` exactly for odd `h` — the same parity. So `fixed-root sign = +1 ⟺ the inversion identity holds ⟺ h odd`
+(verified all `(n,h)`): the geometric eigenvalue and the polynomial identity are one fact (`−w₀` inverts the
+principal torus). Banked V105; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16
+untouched.
+
 ## 2026-06-07 — B117: the interleaving insight (the tower is the Sym two-sequence; the "promotion" is a Sym¹ absence)
 
 The **headline reframing** of the B111–B116 run (the Opus interleaving insight, verify-don't-trust; every claim
