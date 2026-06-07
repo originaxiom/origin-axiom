@@ -2668,6 +2668,33 @@ conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n
 cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
 V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
 
+## 2026-06-07 — B122 interlude extensions: the det layers split + the Sym tower is void-specific (terrain-sweeping)
+
+Audited the Chat-2 "ran the computable terrain to its edges" handoff (verify-don't-trust, incl. the self-caught
+order-6 correction) and banked two findings as **extensions of B122** (annotations, no new ledger row).
+
+- **F1 — the two layers split by `det`.** The figure-eight monodromy is the **golden unit squared**
+  (`M₁²=[[2,1],[1,1]]`, `det=+1`, eigenvalue `φ²`). The **magnitude layer** (the W-identity / `μ_d`) is a polynomial
+  identity in `(x,y)`, so it is **`det`-independent** — holds `det=+1` as well as `det=−1` (verified through n=14),
+  hence *more general than the metallic ray*. The **sign layer** (the inversion identity `char(M⁻¹)=char(−M)`, the
+  parity factor) is **`det=−1`-specific**: `char(M⁻¹)−char(−M)=0` at `det=−1`, `=−2tτ` at `det=+1`; and the parity
+  `(t−1)(t+1)` collapses to `(t−1)²` going golden → fig-8 (`=`golden², `det=+1`). So the two-layer model is exact:
+  W = magnitude (`det`-independent); signs = the metallic/orientation feature (B118).
+- **F2 — the `Sym` tower is void-specific.** On the SL(2) trace map `T(x,y,z)=(z,x,xz−y)`: at the **void `(2,2,2)`**
+  the Jacobian eigenvalues are `{−1,φ²,ψ²}=Sym²(M)` (the n=2 tower); at the other fixed point `(0,0,0)` they are
+  `{−1,e^{±iπ/3}}` = **6th roots of unity** (char poly `λ³+1`=`(λ+1)Φ₆`, `DT⁶=I` — order **6**, correcting a
+  narration slip of "order 3"), elliptic and **not** `Sym`-organized. So the `Sym^d(M)` tower lives where the
+  abelianization `M` acts — the void — making B106's "non-void = different spectral type" explicit at SL(2).
+- **Confirmations (cross-references, no rows):** the W-identity holds through **n=14** (past the banked n≤11); the
+  **S023** box-dimensions do not cleanly separate at longer chains (finite-size, drift within the m-to-m
+  differences) — reconfirming the W1 demotion (the result rests on the exact arithmetic field-distinctness).
+
+**Standing truth (in the entries).** None of this lowers the wall. The prize is unchanged: prove the tower is
+**functorially** `Sym^n(W) ⊕ (Sym^{n−3}(W)⊖W)` for the external fundamental `W=V⊕1` — the one missing piece is a
+**functorial `Sym(W)→trace-ring` construction** (defined without the ambient `SL(n)` trace ring), a construction to
+be found, not a probe to be run. Banked as B122/K008/S023 annotations + a V111 annotation; suite green; no physics;
+nothing to `CLAIMS.md`; the `ρ_n`/Sym-`μ_d` proof stays the prize; P1–P16 untouched.
+
 ## 2026-06-07 — Firewalled triage of the cross-chat "seven hints" (tiers kept separate; the S024 collision fixed)
 
 The companion to B122: the physics-facing hints two other chats produced on the same `μ_d` object, banked at the
