@@ -23,6 +23,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **B116 reconciliation + a CORRECTION to B112 (2026-06-07, Ledger V103; no physics).** The B112↔B103
+  reconciliation (run to join the prize's two halves) found a **verify-don't-trust correction** instead: the
+  **Sym two-sequence (B103) = the actual tower** (it matches the resolved SL(5) and carries `char(Mⁿ)`
+  automatically), while the **θ-split (B112) = the tower only `n ≤ 5`** and **diverges at `n=6`** (the banked
+  V26/V27). **B112's "sign half proved for all n" is explicitly downgraded to "n ≤ 5"** (the combinatorial lemma
+  stands for all n; the *tower-identification* — the V25 gap — holds only n≤5). The all-`n` sign half is **OPEN**;
+  the live route is the **Sym two-sequence** proof (B103), the better tower-candidate.
 - **The ρ_n sign half PROVED + the five follow-on paths — B112–B115 (2026-06-07, Ledger V99–V102; no physics).**
   **B112 (V99) — the headline:** the **sign half of `ρ_n` is proved for all n**, engine-free — an elementary
   root-system reversal lemma (`θ=−w₀` acts as the reversal on the height-`h` roots of `A_{n−1}`, `(+1,−1)`

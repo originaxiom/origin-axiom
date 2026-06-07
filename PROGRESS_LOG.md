@@ -2640,5 +2640,28 @@ Suite 312+ passed; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize;
 
 ---
 
+## 2026-06-07 — B116: reconcile θ-split (B112) vs Sym two-sequence (B103) — and a CORRECTION to B112
+
+Ran the B112↔B103 reconciliation (to *join* the prize's two halves). It found a **verify-don't-trust
+correction** instead, banked visibly (like V90/V91). **(1)** The **Sym two-sequence (B103/B58, V27 membership
+rule) = the actual tower**: `sym_counts(5)` matches the resolved SL(5) tower (B61+B62) **exactly**, including
+`char(M⁵)` — which is `Sym⁵`'s top weight, so the degree=rank top power is **automatic** on the Sym side (no
+separate "promotion"). **(2)** The **θ-split (B112) equals the tower only `n ≤ 5`** (there `Sym = θ-split + one
+degree=rank promotion`: agree on heights `2..n−1`, differ by one at height-1, plus Sym's `char(Mⁿ)`); **at `n=6`
+they DIVERGE** — exactly the banked **V26/V27** (`a₁` 2v3, `a₂` 3v2, `b₂` 1v2; they agree on `a₃(n=6)=2`).
+
+**Correction to B112 (explicit downgrade).** B112 proves the θ-split **combinatorics** (the `⌈/⌊` eigenspace
+dims of `−w₀` on the `A_{n−1}` root spaces) for all `n` — **a real theorem that stands**. But the
+**identification** of the θ-split with the **tower's** multiplicities (the long-standing V25 gap) holds only
+`n ≤ 5`; at `n ≥ 6` it diverges from the Sym two-sequence. So **B112's "sign half proved for all n" → "sign half
+proved for `n ≤ 5`; all-n OPEN."** Annotated V99, added a correction banner to B112 FINDINGS, banked V103.
+
+**Re-aimed prize.** The **Sym two-sequence is the better tower-candidate** (= the actual tower wherever known +
+carries `char(Mⁿ)` automatically), so **proving the Sym two-sequence for all `n`** (B103's open problem) is the
+live route to the catalog — *not* the θ-split — with the `Mᵏ`-scalar arithmetic (B111) for the exponent. Suite
+green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

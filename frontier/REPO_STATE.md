@@ -4,6 +4,17 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V103) — B116 reconciliation + a CORRECTION to B112
+>
+> The B112↔B103 reconciliation (run to *join* the prize's two halves) found a **correction** instead (verify-
+> don't-trust, banked visibly like V90/V91). The **Sym two-sequence (B103) = the actual tower** (it matches the
+> resolved SL(5) and carries `char(Mⁿ)` automatically as `Symⁿ`'s top weight); the **θ-split (B112) = the tower
+> only `n ≤ 5`** (= θ-split + one degree=rank promotion) and **DIVERGES at `n=6`** — exactly the banked V26/V27
+> (`a₁` 2v3, `a₂` 3v2, `b₂` 1v2). **B112's "sign half proved for all n" is downgraded to "n ≤ 5"** (the
+> combinatorial lemma stands for all n; the *tower-identification*, the V25 gap, holds only n≤5). The all-`n`
+> sign half is OPEN. **Re-aimed prize:** prove the **Sym two-sequence** for all n (B103's open problem) — the
+> better tower-candidate — with the `Mᵏ`-scalar arithmetic (B111) for the exponent. *No physics; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V102) — the ρ_n sign half PROVED + the five follow-on paths (B112–B115)
 >
 > The five paths B111 opened, computed. **B112 (V99) — the headline:** the **sign half of `ρ_n` is PROVED for

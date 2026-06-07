@@ -703,12 +703,19 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   correction:** `(t−1)(t−det N)` (the handoff's `(t+det N)` was wrong). `s_n↔c` DEAD. The leads it opens —
   the **peripheral ℤ/4** (`speculations/S022`) and the **two-symmetry frame** (`speculations/TWO_SYMMETRY_FRAME`)
   — name the degree=rank/peripheral half of the `ρ_n` prize.
-- **B112** — **PROOF of the opposition-involution closed form: the sign half of `ρ_n`, all n** (V99). The first
-  piece of the catalog proved **from first principles, engine-free, for all n**: an elementary **root-system
-  reversal lemma** (`θ=−w₀` acts on the `(n−h)` height-`h` roots of `A_{n−1}` as the reversal `i↦(n−h+1)−i`, with
-  `(+1,−1)` eigenspace dims `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)`, verified all n≤12) × the banked **B64** parity assignment ⇒
-  `mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`. Scope: proves the **bulk θ-decomposition** = the sign half;
-  the full tower = this **+ the single degree=rank promotion** (the power half, S022, open).
+- **B112** — **PROOF of the opposition-involution closed form** (V99; **corrected V103**). An elementary
+  **root-system reversal lemma** (`θ=−w₀` acts on the `(n−h)` height-`h` roots of `A_{n−1}` as the reversal
+  `i↦(n−h+1)−i`, with `(+1,−1)` eigenspace dims `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)`, verified all n≤12) × the banked **B64**
+  parity assignment ⇒ the closed form `mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`. **[V103 correction]** the
+  combinatorial lemma holds **for all n** (a real theorem), but its **identification with the tower** (the V25
+  gap) holds only **`n ≤ 5`** — at `n ≥ 6` the θ-split **diverges** from the Sym two-sequence (B116/V26/V27). So
+  B112 is **the sign half proved for `n ≤ 5`, not all n**; the all-`n` sign half is OPEN.
+- **B116** — **reconcile the θ-split (B112) with the Sym two-sequence (B103)** (V103). The reconciliation, run to
+  *join* the prize's halves, found a **correction**: the **Sym two-sequence = the actual tower** (it matches the
+  resolved SL(5) exactly and carries `char(Mⁿ)` automatically as `Symⁿ`'s top weight), while the **θ-split equals
+  the tower only `n ≤ 5`** (= θ-split + one degree=rank promotion) and **diverges at `n=6`** (the banked V26/V27:
+  `a₁` 2 vs 3, `a₂` 3 vs 2, `b₂` 1 vs 2). It downgrades B112's all-`n` claim and re-aims the prize: **proving the
+  Sym two-sequence for all n** (B103's open problem) is the live route, not the θ-split.
 - **B113** — **the proved closed form resolves the SL(5) sign sectors + localizes degree=rank** (V100). At
   heights 2,3,4 the closed form matches the SL(5) tower **exactly**, including `char(M²)²·char(−M²)` = **B62's 2
   gauge-corrupted modes** the eps-series could not resolve — so SL(5)'s sign sectors are now determined **by
