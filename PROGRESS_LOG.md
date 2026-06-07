@@ -2668,6 +2668,31 @@ conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n
 cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
 V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
 
+## 2026-06-07 — Physics-bridge sweep, Phase 3: the heavy forks mapped + the Kashaev feasibility (sweep complete)
+
+The closing phase: the three heavy/deferred bridges, mapped as `DORMANT` speculations with concrete computations +
+obstructions, plus one cheap in-house feasibility probe.
+- **S025 — off-principal independent spectral content at higher rank** (the S011 continuation): EMPTY for 4₁/SL(3)
+  (B110), open only at SL(4)/SL(5) or another manifold; obstruction = no SL(4) char-variety classification (B115) +
+  the non-Hermitian realization (`sln_multichannel`). A real open boundary, not a queued calculation.
+- **S026 — does the SL(n) tower organize the `T[4₁]` state-integral** (fixed knot, varying rank)? The moduli/A-variety
+  level is in-house (B71/B83 + vol 2.0299, B82), but the quantum state-integral at higher rank needs the quantum
+  dilogarithm (research-level). Vary the **rank n**, not the seed m (the family-in-m is dead, Gate 1/2).
+- **S027 — the metallic Kashaev invariants as quantum modular forms** (the `GL(2,ℤ)` cocycle): **feasibility shown
+  in-house** (`kashaev_feasibility.py`) — `J_N(4₁)=Σ|(q)_k|²` is a cheap finite sum and `(2π/N)log J_N → vol(4₁)`
+  (monotone, from above, N≤800). The open part is the Zagier–Garoufalidis modular cocycle + the per-knot arithmetic
+  in `ℚ(√(m²+4))` (tying to S023's field-distinctness).
+
+**The physics-bridge sweep is complete (Phases 0–3).** The honest outcome, answering "what can we compute so we
+don't give up on physics": the terrain is fully **mapped** (`PHYSICS_BRIDGE_MAP.md` — dead/live/heavy); the two
+**live** leads are **banked** — S023 (the metallic means are arithmetically distinct real quasicrystals, despite the
+m-universal algebra) and B121 (the tower is the **monodromy side of Hitchin**, separated from the Fuchsian/principal
+section by the program's own `det=−1` parity); and the **heavy** forks are scoped with feasibility + obstructions.
+The genuine connection-to-reality is condensed-matter quasicrystals (buildable) and the 3d-3d / complex-CS topology
+of the figure-eight (real QFT/knot invariants) — **not** masses/Λ/spacetime (all dead). Banked V110 + S025/S026/S027
++ the map; the sweep added V108–V110 and S023–S027. All firewalled; nothing to `CLAIMS.md`; physics chapter stays
+CLOSED; the `ρ_n`/Sym-`μ_d` proof stays the prize; P1–P16 untouched.
+
 ## 2026-06-07 — Physics-bridge sweep, Phase 2: the monodromy sl(2) grading (an external det=−1 GL(2,ℤ)-rep)
 
 The structural lead. The earlier maps showed "tower ≠ Kostant principal-sl(2)" is a **banked negative** (B89-T/B98);

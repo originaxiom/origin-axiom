@@ -23,6 +23,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **Physics-bridge sweep, Phase 3 — the heavy forks mapped + the Kashaev feasibility (2026-06-07, Ledger V110;
+  FIREWALLED).** The three heavy/deferred bridges are mapped as `DORMANT` speculations with concrete computations +
+  obstructions: **S025** (off-principal independent spectral content at higher rank — EMPTY at 4₁/SL(3), B110; open
+  only at SL(4)/SL(5) or other manifolds; obstruction = no SL(4) char-variety classification + non-Hermitian
+  realization), **S026** (does the SL(n) tower organize the `T[4₁]` state-integral at fixed knot / varying rank? —
+  moduli/A-variety level in-house, the quantum state-integral is research-level), **S027** (the metallic Kashaev
+  invariants as quantum modular forms — **feasibility shown in-house**, `kashaev_feasibility.py`: `J_N(4₁)→vol(4₁)`
+  monotone; the open part is the Zagier–Garoufalidis cocycle + the per-knot arithmetic in `ℚ(√(m²+4))`). All target
+  structural/arithmetic content, **not** new fundamental physics; the continuous family-in-m is dead, so the forks
+  vary the rank `n`, not the seed `m`. Firewalled; nothing to `CLAIMS.md`; physics chapter stays CLOSED; P1–P16
+  untouched. **This completes the physics-bridge sweep** (Phases 0–3): the terrain is fully mapped (dead/live/heavy),
+  the two live leads are banked (S023 distinct real quasicrystals, B121 the monodromy/Hitchin grading), and the
+  heavy forks are scoped with feasibility + obstructions.
 - **Physics-bridge sweep, Phase 2 — the monodromy sl(2) grading (2026-06-07, Ledger V109; no physics in the math).**
   B121 gives the **positive** characterization of the banked negative "tower ≠ Kostant" (B89-T/B98): the `(n²−1)`-dim
   tower carries two `SL(2)`-actions on the adjoint — the **internal principal** `sl(2)⊂sl_n` (Kostant `⊕Sym^{2i}`,

@@ -29,7 +29,7 @@ P1–P16 untouched.
 | # | fork | concrete computation | status |
 |---|---|---|---|
 | **Phase 1 / S023** | the **metallic-mean quasicrystals** are distinct real materials | gap-label field `ℚ(√(m²+4))`, RG scale `φ_m`, spectral dim — per m (SL(2), Hermitian) | **TESTED-POSITIVE** (`metallic_spectra.py`) — distinct fields `{√5,√2,√13}`; the algebra is m-universal (B120), the physics is not |
-| **Phase 2 / S024** | the **monodromy sl(2) grading** of the adjoint + the Hitchin relation | identify the non-principal `sl(2)↪sl_n` the tower grades by; relate to the principal (Kostant) + V0=Fuchsian (B101) | OPEN (the *negative* tower≠Kostant is banked; the *positive* characterization is the target) |
+| **Phase 2 / S024** | the **monodromy sl(2) grading** of the adjoint + the Hitchin relation | the tower = the **external `det=−1` `GL(2,ℤ)`-action**; inequivalent to the principal/Kostant (Hitchin/Fuchsian, B101) for n≥3 by the `det=−1` parity (odd `Sym^d`) | **DONE (B121/V109)** — positive characterization; Hitchin reading firewalled (S024) |
 | **S007** | the SL(n) operator gap-labeling | SL(2)/metallic-m part now computed (S023); the SL(n≥3) part is blocked (non-Hermitian) | POSTULATED → partially advanced |
 
 ## HEAVY / DEFERRED — mapped + feasibility-probed (Phase 3)
