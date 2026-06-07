@@ -20,10 +20,13 @@ plausibly, its scalar `c`) is decided.
 - `k = ord−1` — **TESTED-NEGATIVE** (OK at SL3, FAIL at SL4 principal & secondary; B111 ADD2).
 - `s_n = c` — **DEAD** (sign is order ≤2, can't reach order-4 `c=i`; `TOMBSTONES.md`).
 
-**The candidate positive mechanism (a hypothesis).** The **Weyl-orbit covering degree** of the map
-`(cusp parameter) ↦ L = c·Mᵏ`: at the eigenvalue level it is `k`-to-1 on all four components (B111 covering-degree
-test, partial-positive). Whether the **full** component covering (with the `SL(n)` + Weyl constraints) is exactly
-`k` is **open** — the live form of this lead.
+**The candidate positive mechanism — DOWNGRADED (B114).** The **Weyl-orbit covering degree** of `(cusp
+parameter) ↦ L = c·Mᵏ` was `k`-to-1 at the *single-eigenvalue* level (B111). But **B114 tested the full spectrum
+and it is NOT `k`**: the full covering degree (meridian spectra, `det=1`, mod Weyl) is `~k^{n−1}` (SL3 W1 = 9, SL4
+secondary = 27, principal = 40). So **the covering-degree-=-`k` mechanism is TESTED-NEGATIVE** — the exponent is
+*not* a covering degree. The live exponent lead is instead the **`Mᵏ`-scalar arithmetic** (B111 ADDITION 1: `k` =
+the smallest power where `Mᵏ` is non-scalar *and* bundle-compatible; the `M⁴=−1` impossibility forces `k=3` on the
+secondary). The peripheral `ℤ/4` for the *scalar `c`* (not the exponent) stays the open lead.
 
 **[HOOK] (the mandatory hinge, same discipline as B108).** Any proposed peripheral predictor must hit **all four**
 `c = {1, 1, −1, i}`, not three — the secondary `c=i` is the whole test (a ℤ/2-flavoured predictor fails by
