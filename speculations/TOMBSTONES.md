@@ -53,3 +53,14 @@ involution (order 2); the secondary `c=i` is order 4; an order-2 symmetry cannot
 `s_n ∈ {±1}` is order ≤2 and cannot equal the order-4 secondary `c=i`. Kill: **B111 / V98** (consistent with
 B108). Not a new problem — the same `ℤ/2`-can't-reach-`ℤ/4` obstruction. *Also negative:* the cusp `ord−1` formula
 (B111 / V98 — fails the all-four hinge).
+
+**Framing-kill — the "promotion" `char(M¹) → char(Mⁿ)` (and the "two separable halves" picture).** **SUPERSEDED**
+by the **Sym-selection** reframing (**B117 / V104**). The B111/B113 story described the tower as a bulk θ-split
+*plus* a single "degree=rank promotion" of the height-1 factor `char(M)` to `char(Mⁿ)` — two separable halves. The
+dimension identity `(n+1)(n+2)/2 − (n²−1) = −(n−4)(n+1)/2` shows the tower is **one object** — the Sym two-sequence
+`μ_d = [2≤d≤n]+[0≤d≤n−3]` — and the height-1 behaviour is a **`Sym¹` ABSENCE**, not a promotion: at `n=3` the
+unique subset `{0,2,3}` omits `Sym¹`, and the `char(−M)` at height 1 is **`Sym³`'s** height-1 contribution, not a
+"promoted `Sym¹`." `degree=rank`'s `char(Mⁿ)` is simply **`Sym^n` presence** (`μ_n=1` ∀n). So there is no
+promotion and no "power half" to close separately. The **sign-conserving-promotion** question (was the promotion
+sign-preserving?) is **DISSOLVED** with the framing. Kill: **B117 / V104**; see `../frontier/B117_interleaving/`.
+*Constructive:* the live prize is to prove the two-sequence `μ_d` for all `n` (B103's open problem).

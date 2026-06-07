@@ -703,7 +703,8 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   correction:** `(t−1)(t−det N)` (the handoff's `(t+det N)` was wrong). `s_n↔c` DEAD. The leads it opens —
   the **peripheral ℤ/4** (`speculations/S022`) and the **two-symmetry frame** (`speculations/TWO_SYMMETRY_FRAME`)
   — name the degree=rank/peripheral half of the `ρ_n` prize.
-- **B112** — **PROOF of the opposition-involution closed form** (V99; **corrected V103**). An elementary
+- **B112** — **PROOF of the opposition-involution closed form** (V99; **corrected V103, three-tier relabel
+  V104/B117**). An elementary
   **root-system reversal lemma** (`θ=−w₀` acts on the `(n−h)` height-`h` roots of `A_{n−1}` as the reversal
   `i↦(n−h+1)−i`, with `(+1,−1)` eigenspace dims `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)`, verified all n≤12) × the banked **B64**
   parity assignment ⇒ the closed form `mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`. **[V103 correction]** the
@@ -729,3 +730,14 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   SL(4) Dehn-filling reps are **on the forced locus** (like SL(3)) ⇒ off-locus SL(4) content is in **uncomputed**
   components (obstruction: no SL(4) figure-eight character-variety classification); **genus-2** degree=rank needs
   machinery not in the repo (obstruction: the genus-2 peripheral structure). Both scoped **OPEN**.
+- **B117** — **the interleaving insight: the tower is the Sym two-sequence; the "promotion" is a `Sym¹` absence**
+  (V104; the headline reframing, supersedes the B111/B113 framing). A **dimension identity**
+  `(n+1)(n+2)/2 − (n²−1) = −(n−4)(n+1)/2` (roots `{−1,4}`) **derives** B103's two-sequence `μ_d = [2≤d≤n]+[0≤d≤n−3]`:
+  n=4 is the unique perfect fit, n<4 a surplus (omit modules — n=3 omits `Sym¹`, the unique subset `{0,2,3}`),
+  n≥5 a deficit (double the overlap `Sym²..Sym^{n−3}`). So the tower is **one object** — there is **no
+  "promotion"**: the height-1 `char(−M)` at n=3 is `Sym³`'s contribution, not a "promoted `Sym¹`." **degree=rank's
+  `char(Mⁿ)` = `Sym^n` presence** (`μ_n=1` ∀n; dim-forced only at n=3, rep-theory at n=2,4, two-sequence form at
+  n≥5 — *not* "by dimension"). `Sym⁰..⁴` product = the B80 proved n=4 tower (verified). The **re-aimed prize**:
+  prove the two-sequence `μ_d` for all n (B103). **B112 relabeled to three tiers** (the `−w₀` multiplicity
+  structure up to the fixed-root label — proved all n; the fixed-root labeling = B64, pending B118; the tower
+  realization with powers — verified n≤5, superseded). The "promotion"/"two-halves" framing is **tombstoned**.
