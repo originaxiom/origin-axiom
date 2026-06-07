@@ -2523,5 +2523,39 @@ FINDINGS A–E + firewall banner, ledger **V94**.
 
 ---
 
+## 2026-06-07 — intellectual-architecture reorganization (four governed rooms; docs/org only, no math)
+
+Built the four-folder architecture for the *evolving speculative ideas*, all firewalled (nothing promotes to
+`CLAIMS.md`; the physics chapter stays CLOSED; the mathematics never cites these rooms; the ρ_n catalog proof
+stays the central math target).
+
+**New rooms.** `speculations/` — `GOVERNANCE.md` (proof-status enum incl. `HELD(value-matching)` + the HELD
+rule + the two uncrossable lines), `CATALOG.md` (`S001…S021`), `PHYSICS_EXERCISE.md` (the corrected tiered MASTER,
+with the **κ=−2 cusp** fix vs the archived draft's κ=2 error), per-live-speculation files `S001–S013,S020`,
+`TOMBSTONES.md` (the DEAD set linking to the failure atlas / CLAIMS-D / V-rows), and `archive/`. `philosophy/` —
+`GOVERNANCE.md` + `P000` (what-is-not-nothing / four chosen premises) + `P001` (architecture-not-furniture) +
+`P002` (necessity *given* chosen premises — a position, not a derived truth) + `P003` (dead-ends-as-boundaries),
+beside the migrated `P1–P5` register and `METALLIC_FOUNDATIONS`. Root `ARCHITECTURE.md` (the one-way arrow).
+`story/` + `knowledge/` follow in a second PR.
+
+**File migration (old → new) — the mapping for the append-only/historical references above that still name the
+old paths:**
+
+| old path | new path |
+|---|---|
+| `paths/philosophical/PHILOSOPHICAL_PATHS.md` | `philosophy/PHILOSOPHICAL_PATHS.md` |
+| `paths/philosophical/METALLIC_FOUNDATIONS.md` | `philosophy/METALLIC_FOUNDATIONS.md` |
+| `paths/philosophical/PHYSICS_RESONANCES.md` | `speculations/archive/PHYSICS_RESONANCES.md` |
+| `paths/philosophical/COSMOGONY_FROM_THE_VOID.md` | `speculations/archive/COSMOGONY_FROM_THE_VOID.md` (superseded by `speculations/PHYSICS_EXERCISE.md`) |
+
+All **live** references (frontier firewall banners in B92/B96/B97/B101/B107, `frontier/README.md`,
+`frontier/REPO_STATE.md`, the repo-map, `docs/atlas/FAILURE_ATLAS.md`, `CHANGELOG.md`, `paths/PATHS.md`) were
+redirected to the new locations. **Append-only history above and the historical `papers/VALIDATION_LEDGER.md`
+rows (V76/V80/V81/V85/V94) were left intact** — this table is the key for reading their old paths. Docs/org only;
+no mathematical content, no ledger result, no test change; `CLAIMS.md` / P1–P16 / the physics-chapter status
+untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

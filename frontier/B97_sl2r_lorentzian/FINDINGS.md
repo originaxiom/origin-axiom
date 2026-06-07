@@ -1,7 +1,7 @@
 # B97 — where Lorentzian structure lives: the SL(2,ℝ)/Teichmüller component
 
 **Status: `computer-assisted`.** Neutral Lie theory / low-dim topology; **no physics claim** — the
-2+1-gravity reading is quarantined in `paths/philosophical/PHYSICS_RESONANCES.md`. No Origin-core claim;
+2+1-gravity reading is quarantined in `speculations/archive/PHYSICS_RESONANCES.md`. No Origin-core claim;
 proven core P1–P16 untouched. Script `probe.py`; test `tests/test_b97_sl2r_lorentzian.py`.
 
 B96 computed the volume Hessian on the **SL(2,ℂ) geometric** (hyperbolic-3-manifold) component and found

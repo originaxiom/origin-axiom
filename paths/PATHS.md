@@ -33,11 +33,11 @@ mechanism, added as they are probed. Status updated after every probe. See
 | **E19** | J | Diophantine non-existence — no zero solution; smallest nonzero is reality | UNTOUCHED | — |
 | **E20** | K | De Sitter / positive-Λ — empty space is locally de Sitter, self-driving | UNTOUCHED | — |
 | **E21** | I | Self-evidencing closure — `λ=m` self-consistency of the metallic trace map (instantiates E18) | **STALLED** | `E21_self_evidencing_closure/` |
-| **P1** | L | Negation-as-creation (linguistic) | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
-| **P2** | L | Gödelian / undecidability | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
-| **P3** | L | Anthropic / observer-required | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
-| **P4** | L | Process (Whitehead) — non-occurrence is itself occurrence | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
-| **P5** | L | Apophatic / theological — the unnamable precedes naming | UNTOUCHED | `philosophical/PHILOSOPHICAL_PATHS.md` |
+| **P1** | L | Negation-as-creation (linguistic) | UNTOUCHED | `../philosophy/PHILOSOPHICAL_PATHS.md` |
+| **P2** | L | Gödelian / undecidability | UNTOUCHED | `../philosophy/PHILOSOPHICAL_PATHS.md` |
+| **P3** | L | Anthropic / observer-required | UNTOUCHED | `../philosophy/PHILOSOPHICAL_PATHS.md` |
+| **P4** | L | Process (Whitehead) — non-occurrence is itself occurrence | UNTOUCHED | `../philosophy/PHILOSOPHICAL_PATHS.md` |
+| **P5** | L | Apophatic / theological — the unnamable precedes naming | UNTOUCHED | `../philosophy/PHILOSOPHICAL_PATHS.md` |
 
 ## Per-path stubs
 

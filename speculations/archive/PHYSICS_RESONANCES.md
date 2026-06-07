@@ -1,3 +1,9 @@
+> **⚠ ARCHIVED for traceability.** Moved here from `paths/philosophical/` during the 2026-06-07 architecture
+> migration. The six adjudicated "paths to physics" (robustly negative) are now indexed in the speculation
+> `../CATALOG.md` (Path 1→S016/S017, Path 7→S020, the dead sweep→S014/S015/S019/S021) and the live exercise lives
+> in `../PHYSICS_EXERCISE.md`. Content unchanged. Still firewalled: nothing here promotes to `../../CLAIMS.md`;
+> the physics chapter stays CLOSED.
+
 # Physics resonances — the six paths, computed and adjudicated (+ the Hitchin addendum, Path 7)
 
 > **SPECULATION — interpretation only.** Nothing here is a claim. No content promotes to `../../CLAIMS.md`
@@ -112,4 +118,4 @@ Langlands / `N=4` SYM) with the ceiling stated, and its "spacetime climbs the ra
 (B101 R2). The genuine value of these computations is *mathematical* (the volume ordering, the
 systole/volume coherence, the NZ Hessian, and V0 = the Fuchsian locus of the `SL(3,ℝ)` Hitchin component
 with its new cubic directions) — see `frontier/B96_geometry_invariants/`, `frontier/B101_hitchin_reframing/`.
-Related: [[METALLIC_FOUNDATIONS]], the dead-sweep rows V28/V29/V34/V56/V58/V65.
+Related: `../../philosophy/METALLIC_FOUNDATIONS.md`, the dead-sweep rows V28/V29/V34/V56/V58/V65.

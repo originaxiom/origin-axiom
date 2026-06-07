@@ -1,7 +1,7 @@
 # B96 — geometry invariants of the metallic mapping-torus manifolds
 
 Bounded quantum-topology computations on the metallic bundles (`m=1→4_1`, `m=2→m136`, `m=3→s464`), banked
-as **mathematics**. Physics interpretations are quarantined in `paths/philosophical/PHYSICS_RESONANCES.md`.
+as **mathematics**. Physics interpretations are quarantined in `speculations/archive/PHYSICS_RESONANCES.md`.
 
 - **`probe.py`** — (1) the **volume ordering** `2.030 < 3.664 < 4.814` (SnapPy + Bloch–Wigner cross-check),
   strictly monotone; `m=1` smallest (= the systole, B92). (2) the **volume Hessian signature**: the

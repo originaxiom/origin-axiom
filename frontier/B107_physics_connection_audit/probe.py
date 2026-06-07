@@ -3,7 +3,7 @@
 Taking the physics seriously produced (A) an exact, citable literature anchor, (B) a precise
 "why-this-is-NOT-new-physics" mechanism (the decisive negative), (C) two corrected category-error
 overclaims, (D) confirmed citations, and (E) one honestly-open fork. NONE of it is promoted: physics stays
-POSTULATED / quarantined / firewalled to ../../paths/philosophical/PHYSICS_RESONANCES.md; nothing reaches
+POSTULATED / quarantined / firewalled to ../../speculations/archive/PHYSICS_RESONANCES.md; nothing reaches
 CLAIMS.md; the physics chapter stays CLOSED. P1-P16 untouched.
 
 This script reproduces the two COMPUTATIONAL anchors; the FINDINGS doc classifies A-E. The classification is

@@ -513,7 +513,7 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
 ### Paper 0 — the self-reference grounding (CC-web handoff; V76–V78)
 
 The motivation (characterize the metallic family by a condition, `m` free) is quarantined in
-`paths/philosophical/METALLIC_FOUNDATIONS.md`; the mathematics below uses none of it.
+`philosophy/METALLIC_FOUNDATIONS.md`; the mathematics below uses none of it.
 
 - **B92** — the **metallic family as a classification** (Layer 1, V76; `proven`, computer-assisted). Among
   non-negative hyperbolic unimodular 2×2 matrices, the dominant eigenvalue is purely-periodic-period-1
@@ -545,7 +545,7 @@ The motivation (characterize the metallic family by a condition, `m` free) is qu
 
 "Compute the numbers, quarantine the interpretation." Bounded quantum-topology invariants on the metallic
 mapping-torus manifolds, banked as mathematics; **every** physics reading lives only in
-`paths/philosophical/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
+`speculations/archive/PHYSICS_RESONANCES.md` (`SPECULATION`, never promoted). Physics chapter stays
 **CLOSED**; proven core P1–P16 untouched.
 
 - **B96** — **geometry invariants** (V80; `computer-assisted`). The metallic volumes are strictly monotone
@@ -578,7 +578,7 @@ mapping-torus manifolds, banked as mathematics; **every** physics reading lives 
 
 ### The Hitchin-component reframing (CC-web handoff; V85)
 
-The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.md` (cited, never claimed).
+The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.md` (cited, never claimed).
 
 - **B101** — **V0 = the Fuchsian locus of the `SL(3,ℝ)` Hitchin component** (V85; `computer-assisted`, + one
   `dead` negative, one `open` direction). The geometric component V0 (B71 — `Sym²` of the Fuchsian `SL(2,ℝ)`
@@ -662,7 +662,7 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   the **secondary** (`c=i`, numerical), **SL(3) W2**, and the **per-eigenvector method**. No physics.
 - **B107** — **the physics-connection audit (the headline is a NEGATIVE)** (V94, **POSTULATED/FIREWALLED**).
   Banks the CC-web physics exploration as a first-class **dead-end log**; *all* physical readings are
-  POSTULATED + firewalled to `paths/philosophical/PHYSICS_RESONANCES.md` (Path 8), **nothing to `CLAIMS.md`**,
+  POSTULATED + firewalled to `speculations/archive/PHYSICS_RESONANCES.md` (Path 8), **nothing to `CLAIMS.md`**,
   the physics chapter stays **CLOSED**. **A (verified anchor):** the metallic trace map `φ_m: a→aᵐb, b→a` **is**
   the KKT/Fibonacci trace map (`tr[A,B]=x²+y²+z²−xyz−2` = Sütő invariant, conserved ∀m; `φ_1=(z,x,xz−y)`) — a
   known quasicrystal object. **B (verified — the headline negative):** every SL(3) `m=1` tower eigenvalue is

@@ -1,7 +1,7 @@
 """B97 -- where Lorentzian structure lives: the SL(2,R)/Teichmuller component vs the SL(2,C) geometric one.
 
 Neutral low-dim-topology / Lie-theory mathematics; the 2+1-gravity reading is quarantined in
-paths/philosophical/PHYSICS_RESONANCES.md and is NOT used here.
+speculations/archive/PHYSICS_RESONANCES.md and is NOT used here.
 
 B96 computed the volume Hessian on the SL(2,C) GEOMETRIC (hyperbolic-3-manifold) component and found it
 NEGATIVE DEFINITE -- signature (0,2), Euclidean (Mostow: the complete structure maximizes volume). The

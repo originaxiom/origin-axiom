@@ -1,6 +1,6 @@
 """B96 -- geometry invariants of the metallic mapping-torus manifolds (volume ordering + the volume
 Hessian signature). Neutral low-dim-topology / quantum-topology mathematics; the physics readings are
-quarantined in paths/philosophical/PHYSICS_RESONANCES.md and are NOT used here.
+quarantined in speculations/archive/PHYSICS_RESONANCES.md and are NOT used here.
 
 The metallic once-punctured-torus bundle for parameter m is the mapping torus of the SQUARE monodromy
 M_m^2 = [[m,1],[1,0]]^2 (orientation-preserving, det=+1): m=1 -> [[2,1],[1,1]] = figure-eight 4_1;

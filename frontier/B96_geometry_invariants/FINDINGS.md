@@ -2,7 +2,7 @@
 
 **Status: `computer-assisted` (SnapPy 3.3.2 + mpmath).** Neutral low-dim-topology / quantum-topology
 mathematics; **no physics claim** — the physics readings are quarantined in
-`paths/philosophical/PHYSICS_RESONANCES.md` and are not used here. No Origin-core claim; proven core
+`speculations/archive/PHYSICS_RESONANCES.md` and are not used here. No Origin-core claim; proven core
 P1–P16 untouched. Script `probe.py`; test `tests/test_b96_geometry_invariants.py`.
 
 The metallic once-punctured-torus bundle for `m` is the mapping torus of the **square** monodromy `M_m²`

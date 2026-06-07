@@ -1,3 +1,10 @@
+> **⚠ ARCHIVED — SUPERSEDED.** This long-form essay (2026-06-07) was the first pass at the "assume it is the
+> final theory" exercise. It is **superseded by the corrected MASTER** `../PHYSICS_EXERCISE.md`, which bakes in
+> the fixes this draft lacks — notably the **κ correction** (the parabolic cusp is `κ=−2`, the geometric rep;
+> `κ=+2` is the trivial/void rep) and the **HELD(value-matching)** tier for Bell/CHSH and the baryon amplitude.
+> Kept here for traceability only. For the live exercise + catalog, read `../PHYSICS_EXERCISE.md` and
+> `../CATALOG.md`. Still firewalled: nothing here promotes to `../../CLAIMS.md`; the physics chapter stays CLOSED.
+
 # Cosmogony from the void — a brave, firewalled reading of the open questions
 
 > **SPECULATION / PHILOSOPHY — motivation only.** Nothing in this file is a claim. No content here promotes
@@ -312,6 +319,7 @@ at the same next computations the math points at — is the only thing this docu
 file's job was to show they point the same way, and to hand the calculations back to `frontier/` where the
 actual work — and the actual verdicts — live.
 
-Related: [[METALLIC_FOUNDATIONS]], `PHILOSOPHICAL_PATHS.md` (P1–P5), `PHYSICS_RESONANCES.md` (the adjudicated
-six paths + the headline negative, Path 8). **No content here promotes to `../../CLAIMS.md`; the physics chapter
+Related: `../../philosophy/METALLIC_FOUNDATIONS.md`, `../../philosophy/PHILOSOPHICAL_PATHS.md` (P1–P5),
+`./PHYSICS_RESONANCES.md` (the adjudicated six paths + the headline negative, Path 8), and the canonical
+successor `../PHYSICS_EXERCISE.md`. **No content here promotes to `../../CLAIMS.md`; the physics chapter
 stays CLOSED.**

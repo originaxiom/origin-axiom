@@ -1,7 +1,7 @@
 # B107 — the physics-connection audit (the headline is a NEGATIVE)
 
 > **⚠ FIREWALL — POSTULATED.** All physical readings are **POSTULATED / quarantined**, firewalled to
-> `../../paths/philosophical/PHYSICS_RESONANCES.md`. **Nothing reaches `CLAIMS.md`; the physics chapter stays
+> `../../speculations/archive/PHYSICS_RESONANCES.md`. **Nothing reaches `CLAIMS.md`; the physics chapter stays
 > CLOSED; P1–P16 untouched.**
 
 Banks the CC-web physics exploration as a first-class **dead-end log**. Taking the physics seriously produced a

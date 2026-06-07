@@ -13,7 +13,7 @@ algebra on the real/Teichmüller component (the 2+1-gravity phase space) — but
 gauge group is the Lorentz group), present by construction, **not emergent**. B96 + B97 locate the
 Lorentzian form precisely (real side, not geometric side) and correctly deflate it to the known
 2+1-gravity feature. The 2+1 mathematical-physics reading (and the toy-model caveat) is quarantined in
-`paths/philosophical/PHYSICS_RESONANCES.md`.
+`speculations/archive/PHYSICS_RESONANCES.md`.
 
 ```bash
 python frontier/B97_sl2r_lorentzian/probe.py
