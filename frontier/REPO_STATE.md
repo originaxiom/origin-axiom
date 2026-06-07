@@ -4,6 +4,20 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V91) — B105 three-obstacle correction + sharpened ρ_n target
+>
+> A further **explicit downgrade** of B105's "one collision is the common root cause" (verify-don't-trust:
+> B95 spectrum + B62 height-2 split re-derived). **n=5 is a structural THRESHOLD where three *distinct*
+> `A_{n−1}` obstacles degenerate** — (i) degree=rank (B95, eigenvalue `−1`, `A²=I`, onset n=5); (ii) the
+> tower/eps-series doubling (B62, golden `char(M²)²` from the A₄ height-2 `θ=−w₀` (4,2) split, onset n=5);
+> (iii) trace-ring non-closure (engine-free, algebraic, onset n=4). Different eigenvalues (`−1` vs `φ²`),
+> independent derivations, different onset — **not one collision** (withdrawn). *Kept:* the tower wall and
+> the eps-series rank-drop ARE one wall (both B62's `char(M²)²` doubling).
+> **Sharpened `ρ_n` target:** prove `char(ρ_n)=catalog` by reproducing the opposition-involution
+> multiplicities (`θ=−w₀` eigenspace dims per height-`h` A_{n−1} root space) directly from `ρ_n`; the
+> contested n=5 piece is **only** B62's `char(M²)²` — the degree=rank `−1` and trace-ring non-closure are
+> separate, untouched problems. Banked: `CORRECTIONS_V91` + `three_obstacle_distinction()` + test; ledger V91.
+>
 > ## Update — 2026-06-07 (post-V90, current at `main` PR #107) — B105 V90 audit (two inference downgrades)
 >
 > The CC verification chat flagged two B105 inferences that overreached; **both are withdrawn (V90, banked

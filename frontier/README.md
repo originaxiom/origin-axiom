@@ -640,8 +640,12 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   so the explicit **n=5 catalog is OPEN**, and a structural deviation there is *neither ruled in nor out*.
   **[V90 Correction B]** there is **no proved "natural boundary"**: `char(J(n))=catalog` is a class function
   for **all `n`** (B103); n=4 is a *methodological ceiling* (eps-series + trace-ring non-closure), not a
-  theorem. The forced-cusp collision at n=5 (`−1` mult 2) is a **candidate** common root cause, recorded as a
-  structural observation. **Convergence + open frontier:** the project converges on one object **`ρ_n`** (the
-  `GL(2,ℤ)`-rep on the SL(n) trace ring), fully characterized n=3,4, **explicit n≥5 OPEN** — the live target
-  being to prove `char(ρ_n)=catalog` directly from `ρ_n` (B103) + B62's multiplicities. Literature L1 (GKLP
-  1305.0937) + L4 (Bonahon–Dreyer 1209.3526 / Douglas–Sun 2011.01768) cited; H1–H6 / C1–C4 tabulated.
+  theorem. **[V91 — three obstacles, one threshold]** n=5 is a threshold where **three distinct** `A_{n−1}`
+  obstacles degenerate — degree=rank (B95, eigenvalue `−1`, `A²=I`), the tower/eps-series doubling (B62,
+  golden `char(M²)²` from the A₄ height-2 `θ=−w₀` (4,2) split), and trace-ring non-closure (engine-free,
+  onset n=4) — *different eigenvalues, independent derivations, different onset*, **not one collision**.
+  **Convergence + open frontier:** the project converges on one object **`ρ_n`** (the `GL(2,ℤ)`-rep on the
+  SL(n) trace ring), fully characterized n=3,4, **explicit n≥5 OPEN** — the **sharpened** live target (V91):
+  prove `char(ρ_n)=catalog` by reproducing the **opposition-involution multiplicities** directly from `ρ_n`,
+  the contested n=5 piece being *only* B62's `char(M²)²`. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer
+  1209.3526 / Douglas–Sun 2011.01768) cited; H1–H6 / C1–C4 tabulated.

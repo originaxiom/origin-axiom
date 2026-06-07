@@ -2451,5 +2451,45 @@ through n=4 for all monodromies; explicit n≥5 OPEN, walled from two methods; o
 
 ---
 
+## 2026-06-07 — B105 V91: the three-obstacle / one-threshold correction + the sharpened ρ_n target
+
+**Handoff (CC verification chat, Part A).** A *verified* correction to B105's convergence framing, banked as
+an **explicit downgrade**. Verify-don't-trust: B95's `2cosθ=3−n` spectrum and B62's A₄ height-2 opposition
+split re-derived. No physics; P1–P16 untouched; suite green.
+
+**What B105 got right (kept).** The **tower wall and the eps-series rank-drop are genuinely one wall** — both
+are B62's height-2 `char(M²)²` doubling (the multiplicity-2 eigenspace split is non-canonical, which is why
+the eps-series can't resolve it). Merging those two was correct.
+
+**The overreach (corrected).** B105 then folded the **degree=rank** wall into the same "one collision (the
+repeated −1)." That conflates **three distinct obstacles** that merely share the n=5 threshold:
+- **(i) degree=rank (B95):** `A`'s forced principal spectrum `2cosθ=3−n` reaches **`−1`** at n=5 (`A²=I`, a
+  root of unity), degenerating the figure-eight relation `tAt⁻¹=A²B`.
+- **(ii) tower / eps-series (B62):** the A₄ height-2 root space splits **(4,2)** under `θ=−w₀` (verified:
+  positive-root split (2,1) → (4,2) over ±), giving **`char(M²)²`** with eigenvalue **`φ²=(3+√5)/2`**
+  (golden; `char(M²)=t²−3t+1`) — pure root-system combinatorics, *no reference to `A`'s spectrum*.
+- **(iii) trace-ring non-closure (engine-free):** the `n²−1` coords don't generate the SL(n) trace ring —
+  purely algebraic, **onset n=4**, no eigenvalue degeneracy.
+*Different eigenvalues (`−1` vs `φ²`), independent derivations (B95 vs B62), different onset (n=5 vs n=4).* So
+"one collision" is a narrative over distinct mechanisms — **withdrawn**, replaced by "n=5 is a structural
+threshold where several distinct `A_{n−1}` features degenerate together."
+
+**The generative payoff — the `ρ_n` target, sharpened (A4).** The contested n=5 piece the catalog proof must
+handle is **only** B62's height-2 `char(M²)²` multiplicity (which B62 already supplies structurally, via the
+`θ=−w₀` `(+1,−1)` eigenspace dims on each height-`h` root space). So the live target becomes concrete: **prove
+`char(ρ_n)=catalog` by showing the `ρ_n` decomposition reproduces the opposition-involution multiplicities,
+directly from the `GL(2,ℤ)`-rep, without constructing σ.** The degree=rank `−1` (B95) and the trace-ring
+non-closure are **separate problems the catalog proof need not touch** — a referee-defensible target.
+
+**Scope hedge (A5).** "Explicit catalog through n=4 for all monodromies" now reads: n=3 genuine-non-metallic
+both det signs verified (the 23-monodromy sweep); n=4 metallic proved (B80), non-metallic via the B104
+eps-series (clean at n=4, B80-validated, not gauge-corrupted).
+
+**Banked.** B105 probe `CORRECTIONS_V91` + `three_obstacle_distinction()` (verified) + FINDINGS banner + H6
+reframe + a locking test; ledger **V91**; consolidation docs corrected. Standalone trace-map / Lie theory; no
+`CLAIMS.md` promotion.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

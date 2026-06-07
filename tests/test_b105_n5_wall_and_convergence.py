@@ -32,6 +32,19 @@ def test_v90_corrections_banked():
     assert "OVERSTATES" in B.CORRECTIONS_V90["B"]
 
 
+def test_v91_three_obstacles_distinct():
+    """[V91] n=5 is a threshold of THREE distinct obstacles, not one collision: degree=rank eigenvalue -1
+    (root of unity) vs the tower/eps-series golden char(M^2)^2 (A_4 height-2 (4,2) theta-split) vs trace-ring
+    non-closure (onset n=4) -- distinct eigenvalues, independent derivations, different onset."""
+    o = B.three_obstacle_distinction()
+    assert o["degree_rank"]["eigenvalue"] == -1.0 and o["degree_rank"]["onset_n"] == 5
+    assert o["tower_eps_series"]["is_golden"] is True and o["tower_eps_series"]["onset_n"] == 5
+    assert o["tower_eps_series"]["A4_height2_theta_split_pos"] == [2, 1]   # (4,2) over +/- roots
+    assert o["trace_ring_nonclosure"]["onset_n"] == 4
+    assert o["distinct_eigenvalues"] is True
+    assert set(B.CORRECTIONS_V91) == {"three-obstacles", "rho_n-target", "n4-scope-hedge"}
+
+
 def test_unified_wall_cusp_spectrum_collision_at_n5():
     """The forced cusp spectrum has tr=trinv=det=1 at n=3,4,5; its NON-trivial eigenvalues are distinct at
     n=3,4 and COLLIDE at n=5 (the doubly-degenerate -1 sector = the unified wall's root cause)."""

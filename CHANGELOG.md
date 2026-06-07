@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B105 three-obstacle correction + sharpened ρ_n target (2026-06-07, Ledger V91; no physics).** A further
+  explicit downgrade of B105's "one collision is the common root cause": **n=5 is a structural threshold
+  where three *distinct* `A_{n−1}` obstacles degenerate** — degree=rank (B95, eigenvalue `−1`, `A²=I`), the
+  tower/eps-series doubling (B62, golden `char(M²)²` from the A₄ height-2 `θ=−w₀` (4,2) split), and trace-ring
+  non-closure (engine-free, onset n=4) — different eigenvalues (`−1` vs `φ²`), independent derivations,
+  different onset. The open `ρ_n` target is **sharpened**: prove `char(ρ_n)=catalog` by reproducing the
+  opposition-involution multiplicities directly from `ρ_n`, the contested n=5 piece being *only* B62's
+  `char(M²)²` (the degree=rank `−1` and trace-ring non-closure are separate, untouched problems). The n=4
+  scope claim is hedged. Verified (`three_obstacle_distinction()`); banked in B105 (`CORRECTIONS_V91`).
 - **The n=5 wall + the ρ_n convergence, with the V90 audit (2026-06-07, Ledger V89 + V90; suite 278+ pass, 1
   skip; no physics).** `frontier/B105_n5_wall_and_convergence/`: the "n=5 Resolution" handoff, then **two
   explicit inference downgrades (V90)**. **N5:** the SL(5) eps-series resolves **21/24** Dickson factors, the

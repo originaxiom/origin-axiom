@@ -20,6 +20,21 @@ quarantined); P1–P16 untouched. Script `probe.py`; test `tests/test_b105_n5_wa
   the explicit **computation** (eps-series pinv non-convergence, B84; engine-free trace-ring non-closure) — a
   **methodological ceiling, not a theorem**. The cusp collision is a *candidate* common root cause, not a
   proof that it causes the walls.
+- **Correction V91 — "one collision is the common root cause" is withdrawn (THREE obstacles, one threshold).**
+  n=5 is a structural **threshold** where several distinct `A_{n−1}` features degenerate together, but it is
+  **not a single collision**. **(i) degree=rank (B95):** `A`'s forced principal spectrum `2cosθ=3−n` reaches
+  **`−1`** at n=5 (`A²=I`, a root of unity), degenerating `tAt⁻¹=A²B`. **(ii) tower / eps-series (B62):** the
+  A₄ height-2 root space splits **(4,2)** under the opposition involution `θ=−w₀`, giving **`char(M²)²`** with
+  eigenvalue **`φ²=(3+√5)/2`** (golden) — pure root-system combinatorics, *no reference to `A`'s spectrum*.
+  **(iii) trace-ring non-closure (engine-free):** the `n²−1` coords don't generate the SL(n) trace ring —
+  purely algebraic, **onset n=4**, no eigenvalue degeneracy. *Different eigenvalues (`−1` vs `φ²`), independent
+  derivations, different onset* — verified (`three_obstacle_distinction()`). **Sharpened `ρ_n` target [V91]:**
+  prove `char(ρ_n)=catalog` by reproducing the **opposition-involution multiplicities** (`θ=−w₀` eigenspace
+  dims on each height-`h` A_{n−1} root space) directly from the `GL(2,ℤ)`-rep; the contested n=5 piece is
+  **only** B62's `char(M²)²` — the degree=rank `−1` and the trace-ring non-closure are **separate problems the
+  catalog proof need not touch**. **Scope hedge [V91, A5]:** "explicit catalog through n=4" reads — n=3
+  genuine-non-metallic both det signs verified; n=4 metallic proved (B80), non-metallic via the B104
+  eps-series (clean at n=4, B80-validated).
 
 ## N5 — the decisive computation
 At SL(5) the Dehn-twist eps-series (B104) resolves **21 of 24** Dickson factors, and **the resolved 21 are
@@ -38,14 +53,16 @@ supported as `Sym²` by structural routes; **the strict "all 3 factors resolved"
 explicit n=5 catalog is OPEN**. A structural deviation at the unresolved 3-dim sector is **neither ruled in
 nor ruled out** by this computation.
 
-## H6 — the forced cusp spectrum (a structural OBSERVATION, not a boundary proof)
+## H6 — n=5 as a threshold of THREE distinct obstacles (structural observation; corrected V91)
 The forced cusp spectrum (`tr A = tr A⁻¹ = 1`, B95) is `{1,i,−i}` (n=3), `{1,1,ω,ω²}` (n=4), `{1,1,1,−1,−1}`
-(n=5). The **non-trivial eigenvalues are distinct at n=3,4 but collide at n=5** (`−1` with multiplicity 2); at
-**n≥6 no finite-order spectrum exists** (B95). This collision is a **candidate common root cause** of the
-three walls that looked independent — the tower wall (3 unresolved factors), the degree=rank wall (`A²=I` ⟹
-dihedral ⟹ reducible, B95), the eps-series rank-drop — **recorded as a structural observation, not a proof
-that it causes them** (Correction B). The structure `char(J(n)) =` the catalog holds for **all `n`** (B103);
-what is bounded at n=4 is the *explicit computation*, not the theorem.
+(n=5); the non-trivial eigenvalues are distinct at n=3,4 and the `−1` collides (mult 2) at n=5; n≥6 has no
+finite-order spectrum. **But this is not "one collision":** as the V91 correction above records, n=5 is a
+**threshold where three *distinct* `A_{n−1}` obstacles degenerate** — (i) degree=rank (B95, eigenvalue `−1`,
+`A²=I`, onset n=5), (ii) the tower / eps-series doubling (B62, golden `char(M²)²` from the A₄ height-2 `θ=−w₀`
+(4,2) split, onset n=5), and (iii) trace-ring non-closure (engine-free, algebraic, onset n=4). They have
+**different eigenvalues (`−1` vs `φ²`), independent derivations, and different onset** — so the collision is
+a *candidate common context*, **not** a proof of a single mechanism. The structure `char(J(n)) =` the catalog
+holds for **all `n`** (B103); what is bounded is the *explicit computation*, not the theorem.
 
 ## The convergence (the project's thesis)
 Every positive result is a property of **one object: `ρ_n`, the `GL(2,ℤ)`-representation on the SL(n) trace
