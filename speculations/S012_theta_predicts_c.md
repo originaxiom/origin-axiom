@@ -10,6 +10,12 @@ secondary `c=i`: the contragredient sends `c ↦ c⁻¹` (`i ↦ −i`), so an o
 `ℤ/2` flip. **The missing ingredient is an order-4 (`ℤ/4`) structure `θ` does not carry** — candidate: the forced
 cusp spectrum `{1, i, −i}` (B95). See `../frontier/B108_theta_to_c/`.
 
+**Successor lead.** The peripheral `ℤ/4` is now a separate live lead, `S022` — B111 proved the cusp arithmetic
+*controls* the exponent (the `M⁴`-scalar impossibility forces `k=3` on the secondary), so the cusp is the right
+place; the covering-degree mechanism is the candidate (open). The bulk θ vs peripheral cusp split is the
+`TWO_SYMMETRY_FRAME.md` reframing. (The `s_n↔c` variant of this conjecture is also DEAD, same parity argument —
+`TOMBSTONES.md`.)
+
 **Structural facts (cited).** (i) The Dehn-filling components carry per-eigenvector scalars `c ∈ {1, 1, −1, i}`
 (B106 D4: SL(3) `c=1`; SL(4) principal `c=−1`, secondary `c=i`). (ii) The opposition involution `θ=−w₀` splits the
 height-2 root spaces asymmetrically `(2,0),(2,2),(4,2)` at `n=3,4,5` (B62, structural). (iii) B83 already gives
