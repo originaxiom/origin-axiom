@@ -15,12 +15,21 @@ def test_n5_resolves_21_of_24():
     assert B.n5_resolved_degree() == 21
 
 
-def test_n5_corruption_is_gauge_noise_not_structural():
-    """The corrupted 3-dim factor VARIES across seeds (gauge noise) while all seeds resolve the same 21 ->
-    the degeneracy is a coordinate artifact, not a structural change in the formula."""
-    n_distinct, all_resolve_21 = B.n5_corruption_is_gauge_noise()
-    assert all_resolve_21 is True
-    assert n_distinct >= 2                                  # >1 distinct corruption => gauge noise
+def test_n5_unresolved_factor_varies_with_seed_rank_deficiency_signature():
+    """The 3 unresolved factors VARY across seeds while all seeds resolve the same 21. [CORRECTION A, V90]:
+    this is the expected eps-series RANK-DEFICIENCY signature (B84), UNINFORMATIVE about the true
+    factorization there -- it does NOT imply 'coordinate artifact, not structural change'. The locked facts
+    are the raw computation: the resolved 21 are invariant, the 3 unresolved are not."""
+    n_distinct, all_resolve_21 = B.n5_unresolved_factor_varies_with_seed()
+    assert all_resolve_21 is True                          # the genuine evidence: resolved 21 invariant
+    assert n_distinct >= 2                                  # unresolved sector varies (rank-deficiency, not informative)
+
+
+def test_v90_corrections_banked():
+    """Corrections A and B are banked explicitly as downgrades (not silent edits)."""
+    assert set(B.CORRECTIONS_V90) == {"A", "B"}
+    assert "UNINFORMATIVE" in B.CORRECTIONS_V90["A"]
+    assert "OVERSTATES" in B.CORRECTIONS_V90["B"]
 
 
 def test_unified_wall_cusp_spectrum_collision_at_n5():

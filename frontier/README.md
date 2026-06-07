@@ -631,14 +631,17 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   degeneracy — `char(J)≠catalog` but **21/24 Dickson factors resolve** (the doubly-degenerate sector,
   B61/B66); a **computational** wall, not a rep-theory failure. The n≥5 obstruction is now isolated to the
   eps-series degeneracy. Cite B103, B80, B61/B66, Lawton/Procesi.
-- **B105** — **the n=5 wall characterized + the ρ_n convergence** (V89; `characterized-wall` + synthesis).
-  The CC-web "n=5 Resolution + Literature + Final Observations" handoff. **N5 (decisive):** the SL(5) tower
-  degeneracy is a **coordinate artifact, not a structural change** — the eps-series resolves 21/24 Dickson
-  factors, the resolved 21 are universally catalog-consistent, the corrupted 3-dim factor is **gauge noise**
-  (varies across seeds); the strict "all 3" bar is not met (the n=5 catalog stays formally open, obstruction
-  = the gauge-degeneracy at the repeated `−1` cusp eigenvalue), but **"the formula changes at n=5" is ruled
-  out**. **H6 (unified wall):** the forced cusp spectra `{1,i,−i}`/`{1,1,ω,ω²}`/`{1,1,1,−1,−1}` collide
-  (non-trivial eigenvalues) first at n=5 — one root cause for the tower / degree=rank / eps-series walls;
-  natural boundary at n=4, proved. **Convergence:** the project converges on one object **`ρ_n`** (the
-  `GL(2,ℤ)`-rep on the SL(n) trace ring); fully characterized n=3,4, boundary proved. Literature L1 (GKLP
-  1305.0937) + L4 (Bonahon–Dreyer / Douglas–Sun) cited; H1–H6 / C1–C4 tabulated; physics quarantined.
+- **B105** — **the n=5 wall + the ρ_n convergence** (V89, **corrected V90**; `open` n≥5 + synthesis). The
+  CC-web "n=5 Resolution" handoff, then the **V90 audit** (two inference downgrades). **N5:** the SL(5)
+  eps-series resolves **21/24** Dickson factors, and the resolved 21 are **universally catalog-consistent**
+  (across seeds and monodromies) — strong evidence on the resolved sector; the 3 unresolved are supported as
+  `Sym²` by **structural routes** (B62/B89-T/B103). **[V90 Correction A]** the seed-variation of the 3
+  unresolved factors is the eps-series rank-deficiency signature (B84), **uninformative** about the truth —
+  so the explicit **n=5 catalog is OPEN**, and a structural deviation there is *neither ruled in nor out*.
+  **[V90 Correction B]** there is **no proved "natural boundary"**: `char(J(n))=catalog` is a class function
+  for **all `n`** (B103); n=4 is a *methodological ceiling* (eps-series + trace-ring non-closure), not a
+  theorem. The forced-cusp collision at n=5 (`−1` mult 2) is a **candidate** common root cause, recorded as a
+  structural observation. **Convergence + open frontier:** the project converges on one object **`ρ_n`** (the
+  `GL(2,ℤ)`-rep on the SL(n) trace ring), fully characterized n=3,4, **explicit n≥5 OPEN** — the live target
+  being to prove `char(ρ_n)=catalog` directly from `ρ_n` (B103) + B62's multiplicities. Literature L1 (GKLP
+  1305.0937) + L4 (Bonahon–Dreyer 1209.3526 / Douglas–Sun 2011.01768) cited; H1–H6 / C1–C4 tabulated.

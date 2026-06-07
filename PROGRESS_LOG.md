@@ -2412,5 +2412,44 @@ excluded). H1–H5 (computed elsewhere) + C1–C4 (corrections) tabulated by pro
 
 ---
 
+## 2026-06-07 — B105 V90 audit: two inference downgrades (the n=5 verdict + the boundary)
+
+**Handoff (CC verification chat): "Two corrections to B105."** The prior B105 entry (V89, above) overreached
+on two *inferences* — banked here as **explicit downgrades**, not silent edits (the 21/24 computation and
+the `ρ_n` thesis stand). Verify-don't-trust: Appendix A re-run + B84's own statement checked. Suite green.
+
+**Correction A — the "gauge-noise ⟹ coordinate artifact, NOT a structural change" inference is INVALID
+(withdrawn).** A rank-deficient eps-series `DX·pinv(dx)` (B84: `dx` rank-deficient at the unresolved sector;
+FAILURE_ATLAS "fixed-line rank-loss makes the eps→0 pinv limit gauge-dependent") returns approach/seed-
+dependent values *regardless of the true factorization*. Appendix A re-run confirms: the resolved sector
+`[2,3,5,7]` is exact and seed-independent for a true value `d=11` *and* `d=99`, while the contested
+eigenvalue is large seed-noise (range ~3800) whose spread is **identical** for `d=11` vs `d=99` — the true
+88-unit difference is buried. So **seed-variation is uninformative about the truth** at the unresolved
+sector. *Corrected:* the resolved 21 are universally catalog-consistent (real evidence); the 3 unresolved are
+supported as `Sym²` by the **structural routes** (B62/B89-T/B103), *not* by the seed-variation; **a structural
+deviation there is neither ruled in nor out** ⟹ the explicit **n=5 catalog is OPEN**.
+
+**Correction B — "natural boundary at n=4, proved / complete at n=4" OVERSTATES (withdrawn).** B103's
+factor-through-`N` makes `char(J(n)) =` the catalog a **class function for all `n`** — there is **no
+mathematical boundary**. What walls is the explicit **computation** (eps-series pinv non-convergence, B84;
+engine-free trace-ring non-closure) — a **methodological ceiling**, not a theorem. The forced-cusp collision
+at n=5 (`−1` mult 2) is a genuine structural **observation** and a **candidate** common root cause, *not* a
+proof that it causes the walls, and *not* a "natural boundary."
+
+**The open frontier (restated — the live target).** Prove `char(ρ_n) =` the Dickson catalog **directly from
+`ρ_n`** (B103) together with **B62's** multiplicities — *around* the σ-construction, never building it. That
+would close n≥5 **by proof** and settle Correction A's open question. B105 sets up the `ρ_n` thesis but does
+not attempt this proof — so it is the **open frontier**, not a closed result.
+
+**What stays (sound).** The 21/24 universal resolution; the `ρ_n` convergence thesis (endorsed); the
+forced-cusp-spectrum observation (as a structural fact / candidate root cause); the H/C ledger; the L1/L4
+literature (spot-checked — GKLP 1305.0937, Bonahon–Dreyer 1209.3526, Douglas–Sun 2011.01768; IDs/authors
+confirmed). **Paper 0 must use the corrected A/B statements** — "structure proven all-`n`; explicit catalog
+through n=4 for all monodromies; explicit n≥5 OPEN, walled from two methods; one fully-characterized object
+`ρ_n`" — *not* "complete at n=4 with a proved boundary." Banked as V90 (ledger), B105 probe `CORRECTIONS_V90`
++ FINDINGS banner + README + test reframed.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
