@@ -23,6 +23,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **The ρ_n sign half PROVED + the five follow-on paths — B112–B115 (2026-06-07, Ledger V99–V102; no physics).**
+  **B112 (V99) — the headline:** the **sign half of `ρ_n` is proved for all n**, engine-free — an elementary
+  root-system reversal lemma (`θ=−w₀` acts as the reversal on the height-`h` roots of `A_{n−1}`, `(+1,−1)`
+  eigenspace dims `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)`, verified all n≤12) × the banked B64 parity assignment ⇒
+  `mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`. The first catalog piece proved from first principles for all
+  n. **B113 (V100):** the proved closed form **resolves the SL(5) sign sectors** at heights 2–4 by proof
+  (including `char(M²)²·char(−M²)` = B62's two gauge-corrupted modes the eps-series could not resolve), and
+  **localizes degree=rank to height-1 + `char(Mⁿ)`** (the promotion is n-dependent — the power half stays open).
+  **B114 (V101):** the covering-degree mechanism is **TESTED-NEGATIVE** (full covering degree `~k^{n−1}`, not `k`).
+  **B115 (V102):** the known SL(4) Dehn-filling reps are forced-locus (like SL(3)); off-locus SL(4) + genus-2
+  degree=rank scoped **OPEN** with named obstructions. **State of the prize:** the sign half is proved (all n);
+  the open piece is the **power half** (the single degree=rank promotion `char(M)→char(Mⁿ)`, localized to the
+  height-1/top-power interface).
 - **B111 — the tower's sign structure + the degree=rank exponent (2026-06-07, Ledger V98; no physics).** The
   "sign findings" handoff. The opposition-involution all-heights **closed form** (`⌈(n−h)/2⌉` / `⌊(n−h)/2⌋`,
   matching B62 height-2) is **not** the proved tower: `Tower(n) = [closed form, heights 1..n−1]` with **exactly one

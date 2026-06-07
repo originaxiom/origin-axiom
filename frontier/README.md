@@ -703,3 +703,22 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   correction:** `(t−1)(t−det N)` (the handoff's `(t+det N)` was wrong). `s_n↔c` DEAD. The leads it opens —
   the **peripheral ℤ/4** (`speculations/S022`) and the **two-symmetry frame** (`speculations/TWO_SYMMETRY_FRAME`)
   — name the degree=rank/peripheral half of the `ρ_n` prize.
+- **B112** — **PROOF of the opposition-involution closed form: the sign half of `ρ_n`, all n** (V99). The first
+  piece of the catalog proved **from first principles, engine-free, for all n**: an elementary **root-system
+  reversal lemma** (`θ=−w₀` acts on the `(n−h)` height-`h` roots of `A_{n−1}` as the reversal `i↦(n−h+1)−i`, with
+  `(+1,−1)` eigenspace dims `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)`, verified all n≤12) × the banked **B64** parity assignment ⇒
+  `mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`. Scope: proves the **bulk θ-decomposition** = the sign half;
+  the full tower = this **+ the single degree=rank promotion** (the power half, S022, open).
+- **B113** — **the proved closed form resolves the SL(5) sign sectors + localizes degree=rank** (V100). At
+  heights 2,3,4 the closed form matches the SL(5) tower **exactly**, including `char(M²)²·char(−M²)` = **B62's 2
+  gauge-corrupted modes** the eps-series could not resolve — so SL(5)'s sign sectors are now determined **by
+  proof**, not the gauge-fragile numerics. degree=rank is **localized to height-1 + the top power `char(Mⁿ)`**;
+  the promotion is **n-dependent** (consumes `−M` at n=5, `+M` at n=3,4) — the power half stays open.
+- **B114** — **the covering-degree mechanism — TESTED-NEGATIVE** (V101). S022's candidate (exponent `k` = the
+  Weyl-orbit covering degree of `M↦L=c·Mᵏ`) does **not** hold at the full spectrum: the full covering degree is
+  `~k^{n−1}`, not `k`. The exponent is **not** a covering degree; the live lead stays the `Mᵏ`-scalar arithmetic
+  (B111 ADD1).
+- **B115** — **higher-rank + higher-genus generality of degree=rank** (V102; exploratory scoping). The known
+  SL(4) Dehn-filling reps are **on the forced locus** (like SL(3)) ⇒ off-locus SL(4) content is in **uncomputed**
+  components (obstruction: no SL(4) figure-eight character-variety classification); **genus-2** degree=rank needs
+  machinery not in the repo (obstruction: the genus-2 peripheral structure). Both scoped **OPEN**.
