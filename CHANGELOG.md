@@ -9,6 +9,26 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B107 physics-connection audit — banked as a NEGATIVE (2026-06-07, Ledger V94; POSTULATED/FIREWALLED).**
+  Banks the CC-web physics exploration as a first-class **dead-end log**; *all* physical readings are
+  **POSTULATED and firewalled** to `paths/philosophical/PHYSICS_RESONANCES.md` (Path 8), **nothing to
+  `CLAIMS.md`**, the physics chapter stays **CLOSED**, P1–P16 untouched. **A (anchor, verified):** the SL(2)
+  metallic trace map `φ_m: a→aᵐb, b→a` **is** the Kohmoto–Kadanoff–Tang / Fibonacci-Hamiltonian trace map —
+  `tr[A,B]=x²+y²+z²−xyz−2` (Sütő/Fricke–Vogt) conserved ∀m (symbolic m=1..4), `φ_1=(z,x,xz−y)`. **B (the
+  headline negative, verified):** every SL(3) `m=1` tower eigenvalue is `±φᵏ` — **one geometric scale `log φ`**;
+  a mass spectrum is a Hessian, not one ratio, so the tower is **re-presented moduli-space monodromy, not new
+  physics**. **C:** the tower/torsion `=` masses/dimensions identifications are **withdrawn category errors**
+  (only the moduli-space `M_SUSY ≅ M_flat` + three-branch ↔ three-fixed-point map is citable). **D:** citations
+  confirmed (GKLP 1305.0937; DGG 1108.4389, 1112.5179). **E:** the one open fork = the off-principal
+  multichannel reps. Reproduced (`quasicrystal_anchor`, `tower_roots_are_golden`); locking test; FINDINGS A–E.
+- **B106 Dehn-filling anatomy + hygiene (2026-06-07, Ledger V92/V93; no physics).** The trace map at the
+  never-computed **third** fixed-point class (Dehn-filling reps, after trivial=tower and geometric=torsion).
+  **D1:** three classes, three distinct Jacobian signatures — Dehn-filling **partially elliptic** (SL(3)
+  `(1,1,6)`, SL(4) `(4,4,7)`, root-of-unity neutral eigenvalues); honest negative — the stability *type* does
+  not encode the degree=rank exponent. **D4:** `Lᵢ=c·Mᵢ^k` per eigenvector (`c` a root of unity). **D3:** `M⁴=L`
+  / `M³=L`, conjugates absent. **[V93 hygiene]** the D1 root-of-unity values pass the **B84 gauge-noise gate**
+  (seed-stable); the D4 **principal** (`c=−1`) **corroborates** the proved B89/B83 (not new), the new content
+  being the **secondary** (`c=i`, numerical), **SL(3) W2**, and the **per-eigenvector method**.
 - **B105 three-obstacle correction + sharpened ρ_n target (2026-06-07, Ledger V91; no physics).** A further
   explicit downgrade of B105's "one collision is the common root cause": **n=5 is a structural threshold
   where three *distinct* `A_{n−1}` obstacles degenerate** — degree=rank (B95, eigenvalue `−1`, `A²=I`), the

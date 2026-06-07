@@ -2491,5 +2491,37 @@ reframe + a locking test; ledger **V91**; consolidation docs corrected. Standalo
 
 ---
 
+## 2026-06-07 — B106 hygiene (V93) + B107 physics-connection audit (V94, POSTULATED/FIREWALLED)
+
+**B106 hygiene (V93).** A verify-don't-trust amendment to the just-merged B106 (Dehn-filling anatomy, V92).
+**D1 gauge-noise gate:** the SL(4) Dehn-filling Jacobian is a `pinv` over QR-selected words at a
+repeated-eigenvalue rep, so the B84 gate applies — `d1_neutral_eigenvalues_are_roots_of_unity()` recomputes
+the neutral eigenvalues across ≥3 `realize` seeds and finds them *exactly* roots of unity and **seed-stable**
+(principal `1,±i,−1`; secondary `1,ω,ω²`), so the fine values are real structure, not pinv artifact (the coarse
+`4-4-7` count was already topological). **D4 corroboration/new split:** the SL(4) **principal** (`c=−1`, `M⁴=L`)
+**corroborates** the proved B89/B83 `L=(−1)^{n−1}Mⁿ` — *not* a new advance; the **new** content is the
+**secondary** (`c=i`, `M³=L`, numerical ~5e-15), the **SL(3) W2** relation, and the **per-eigenvector method**.
+Banked: probe function + locking test, FINDINGS/README split, ledger **V93** (a clarification row). Merged
+PR #110.
+
+**B107 physics-connection audit (V94, POSTULATED/FIREWALLED).** Banks the CC-web physics exploration as a
+first-class **dead-end log whose headline is a NEGATIVE**. *All* physical readings are **POSTULATED and
+firewalled** to `paths/philosophical/PHYSICS_RESONANCES.md` (new Path 8); **nothing to `CLAIMS.md`**; the
+physics chapter stays **CLOSED**; P1–P16 untouched. **A (verified anchor):** the SL(2) metallic trace map
+`φ_m: a→aᵐb, b→a` **is** the Kohmoto–Kadanoff–Tang / Fibonacci-Hamiltonian trace map — via Cayley–Hamilton the
+induced `(trA,trB,trAB)` map conserves `tr[A,B]=x²+y²+z²−xyz−2` (Sütő/Fricke–Vogt) for all `m` (symbolic
+m=1..4), and `φ_1=(z,x,xz−y)` (= B67's `T₁`); cite Sütő (1989), Damanik–Gorodetski–Yessen (2016), Roberts
+(1996). **B (verified — the decisive negative):** every SL(3) `m=1` tower eigenvalue is `±φᵏ` (the 8 values
+`{1,−1,φ²,φ⁻²,φ³,−φ,φ⁻¹,−φ⁻³}`) — **one geometric scale `log φ`**; a fluctuation spectrum is a Hessian, not one
+ratio, so the tower is **re-presented moduli-space monodromy, not new physics**. **C (corrected overclaim):**
+tower/torsion `=` masses/dimensions are **withdrawn category errors** — only the moduli-space-level
+`M_SUSY ≅ M_flat` + three-branch ↔ three-fixed-point map (the B106 classes) is citable. **D:** GKLP 1305.0937,
+DGG 1108.4389/1112.5179 confirmed. **E (open fork):** the off-principal multichannel reps; **Addition 3** —
+B106's root-of-unity D1 data confirms the single-scale pattern breaks there, the open `c→θ` check being the
+math link to `ρ_n`. Banked: `probe.py` (`quasicrystal_anchor`, `tower_roots_are_golden`), locking test,
+FINDINGS A–E + firewall banner, ledger **V94**.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
