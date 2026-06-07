@@ -1,4 +1,4 @@
-# Speculation catalog — `S001…S023`
+# Speculation catalog — `S001…S024`
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
@@ -33,6 +33,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S021 | entanglement = holographic | TESTED-NEGATIVE | generic CFT (V37) |
 | S022 | the peripheral ℤ/4 for degree=rank's `c` (the successor to θ→c; B111 proves the cusp arithmetic controls the exponent; covering-degree is the candidate mechanism, OPEN) — **scoped low-rank `n∈{3,4}` (B120/V107)** | ACTIVE (lead) | B95, B76, B106, **B111**, B120 |
 | S023 | the **metallic means are genuinely distinct real quasicrystals** — gap-label fields `ℚ(√5),ℚ(√2),ℚ(√13)`, RG scale `φ_m`, spectral dim all m-distinct, even though the tower algebra is m-universal (B120). 1D condensed matter, firewalled (Phase 1 of `PHYSICS_BRIDGE_MAP.md`) | **TESTED-POSITIVE** | **B120**, B107, K007 |
+| S024 | the tower lives on the **monodromy side of Hitchin**, separated from the Fuchsian/principal section by the `det=−1` parity (the math is **proved**, B121; the Hitchin/Langlands/class-S reading is the firewalled leap, ceiling N=4 SYM) | POSTULATED | **B121**, B101, K006 |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a

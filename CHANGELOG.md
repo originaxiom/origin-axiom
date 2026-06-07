@@ -23,6 +23,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **Physics-bridge sweep, Phase 2 — the monodromy sl(2) grading (2026-06-07, Ledger V109; no physics in the math).**
+  B121 gives the **positive** characterization of the banked negative "tower ≠ Kostant" (B89-T/B98): the `(n²−1)`-dim
+  tower carries two `SL(2)`-actions on the adjoint — the **internal principal** `sl(2)⊂sl_n` (Kostant `⊕Sym^{2i}`,
+  even weights, `det=+1` = the Hitchin/Fuchsian section, B101) and the **external monodromy** `GL(2,ℤ)` (the tower
+  `⊕Sym^d(M_m)^{μ_d}`, mixed parity, `det=−1` = the mapping class group). They agree only at n=2; for n≥3 the tower
+  has **odd** highest weights (Kostant is even-only) ⇒ inequivalent, and the obstruction **is** `det(M_m)=−1`
+  (`det Sym^d(M_m)=(−1)^{d(d+1)/2}`; the odd blocks are the `char(−M^h)` sectors, B112/B118 — the program's own
+  catalog parity, B93/B94). **Not** a dimension coincidence. The monodromy is the Hitchin section's `det=−1`
+  monodromy partner; the Hitchin/Langlands/class-S *reading* is firewalled (`speculations/S024`, ceiling N=4 SYM).
+  No physics in the math; nothing to `CLAIMS.md`; physics chapter stays CLOSED; P1–P16 untouched.
 - **Physics-bridge sweep, Phase 1 — the metallic means are distinct real quasicrystals (2026-06-07, Ledger V108;
   FIREWALLED, no physics promotion).** A brave-but-honest sweep of the bridges to physics. First the **terrain map**
   (`speculations/PHYSICS_BRIDGE_MAP.md`): every bridge classified DEAD (masses/Λ/spacetime/holography/anyons/

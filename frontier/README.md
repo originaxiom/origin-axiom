@@ -775,3 +775,13 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   `(n−4)(n+1)/2` (doubling band forced); S5's guess refuted but a closed form found (`count(n,0)=n−1`; `2(n−2)`
   h∈{1,2}; `2(n−h)` 3≤h≤n−1; `2` h=n; heights run 0..n); S4 confirms B116 is factor-level (the Chat-2 "n=3
   divergence" was a units error). The degree=rank lineage rows V47/V72/V74 are annotated with the (I)/(II) split.
+- **B121** — **the monodromy sl(2) grading: an external `det=−1` `GL(2,ℤ)`-rep, not the principal one** (V109;
+  Phase 2 of the physics-bridge sweep). The `(n²−1)`-dim tower carries **two** `SL(2)`-actions on the adjoint: the
+  **internal principal** `sl(2)⊂sl_n` (Kostant `⊕Sym^{2i}`, even weights, `det=+1` — the Hitchin/Fuchsian section,
+  B101) and the **external monodromy** `GL(2,ℤ)` (the tower `⊕Sym^d(M_m)^{μ_d}`, mixed parity, `det=−1` — the mapping
+  class group). They **agree only at n=2**; for n≥3 the tower has **odd** highest weights (Kostant is even-only) ⇒
+  inequivalent — and the obstruction **is** `det(M_m)=−1` (`det Sym^d(M_m)=(−1)^{d(d+1)/2}`, a sign in every block;
+  the odd blocks are the `char(−M^h)` sectors, B112/B118). So the banked negative "tower ≠ Kostant" (B89-T/B98) is
+  now **positive**: the monodromy is the `det=−1` external action — the Hitchin section's monodromy partner, offset
+  by the program's own catalog parity (B93/B94). **Not** a dimension coincidence (the kill condition fails). The
+  Hitchin/Langlands *reading* is firewalled (`speculations/S024`, ceiling N=4 SYM); no physics in the math.

@@ -4,6 +4,22 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V109) — physics-bridge sweep: distinct metallic materials (Phase 1) + the monodromy/Hitchin grading (Phase 2)
+>
+> A brave-but-honest sweep of the bridges to physics, all **firewalled** (`speculations/PHYSICS_BRIDGE_MAP.md` maps
+> the whole terrain: DEAD / LIVE / HEAVY). **Phase 1 (V108, S023, `TESTED-POSITIVE`):** the SL(2) Hermitian metallic
+> quasicrystals (golden/silver/bronze) are **arithmetically distinct real materials** — gap-label fields
+> `ℚ(√5),ℚ(√2),ℚ(√13)`, distinct RG scale `φ_m` and spectral dimension — **even though** the tower *algebra* is
+> m-universal (B120). The algebra is one object; the physics is a family of distinct, buildable materials (1D
+> condensed matter, NOT cosmology; SL(n≥3) blocked, non-Hermitian). **Phase 2 (V109, B121):** the `(n²−1)`-dim tower
+> carries two `SL(2)`-actions on the adjoint — the **internal principal** (Kostant, even, `det=+1` = the
+> Hitchin/Fuchsian section, B101) and the **external monodromy** `GL(2,ℤ)` (the tower, mixed parity, `det=−1` = the
+> mapping class group); they agree only at n=2, and the obstruction for n≥3 **is** `det(M_m)=−1` (odd `Sym^d` = the
+> `char(−M^h)` sectors, B112/B118). The banked negative "tower ≠ Kostant" (B89-T/B98) is now **positive**: the
+> monodromy is the `det=−1` external action, the Hitchin section's monodromy partner. The Hitchin/Langlands reading
+> is firewalled (S024, ceiling N=4 SYM). *No physics in the math; nothing to `CLAIMS.md`; physics chapter stays
+> CLOSED; P1–P16 untouched. The all-`n` prize (prove `μ_d`, B103) is untouched.*
+>
 > ## Update — 2026-06-07 (post-V107) — B120: the tower is determined by (n; trace, det) (banks Chat-2 Q2/Q3 + S1–S5)
 >
 > The `(n²−1)`-dim trivial-point tower (the Sym two-sequence, B117/B103) is **one object** fixed by two inputs —
