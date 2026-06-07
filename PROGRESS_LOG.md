@@ -2959,5 +2959,45 @@ green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 un
 
 ---
 
+## 2026-06-08 — B123: m=1 arithmeticity (the third selection criterion) + the quantum/knot triage (V112, SUPPORTED)
+
+**Context.** A Chat-2 triage of a quantum-tower / knot-invariant probing session, banked verify-don't-trust: **one
+genuinely new finding** (m=1 is arithmetic, m≥2 are not — a third independent `m=1` selection criterion), **five
+"standard theory in our notation" kills** (tombstoned so no future run re-derives them), **one honest tooling-gated
+target** (the metallic phase-structure discriminator). Tier discipline held: finding → math/knowledge tier; kills →
+dead-ends register; target → DORMANT pointer. Physics quarantined.
+
+**Done:**
+
+- **B123 (`frontier/B123_arithmeticity_m1/`, V112, `SUPPORTED`).** Computed in-house: the figure-eight complement's
+  regular ideal-triangulation shape is the **6th cyclotomic** root `z₀ = e^{iπ/3}` (`z²−z+1 = Φ₆`), invariant trace
+  field `ℚ(√−3)` → **arithmetic**; and the **order-6 echo** — the `(0,0,0)` non-void trace-map Jacobian spectrum
+  (`λ³+1`, 6th roots, B122) sits at `κ=−2`, the geometric/parabolic cusp (B69/B109), the same `ℚ(√−3)` (banked as an
+  **observation, not a connection**). Cited: **Reid (1991)** — the figure-eight is the *unique* arithmetic knot
+  complement, so the `m≥2` metallic manifolds are not arithmetic. The `m≥2` trace-field non-arithmeticity *via the
+  arithmeticity criterion* is the **named confirmation step** (SnapPy/Magma — the repo has no trace-field
+  classifier), so the entry is `SUPPORTED`, **not** `TESTED-POSITIVE`. Self-correction held: used the rectangular
+  form `½ + (√3/2)i` for the root (sympy leaves `exp(iπ/3)` unsimplified — cosmetic, math correct). 4 tests pass.
+- **`knowledge/K009`** (written, non-stub): *Why m=1 is special — three independent selection criteria*: the
+  **systole** (B92/S001, a metric), the **expansion threshold** (P004/B120, the dynamics), and **arithmeticity**
+  (B123, the number field). Three different imports, each picking `m=1`; none collapses the family to a member as a
+  theorem (`P000` stands). Added to `knowledge/INDEX.md`; `ARCHITECTURE.md` bumped to `K001–K009`.
+- **Five kills tombstoned** (`speculations/TOMBSTONES.md`, one consolidated block): quantum tower `|λ|=1` =
+  **unitarity** of the CS rep; finite-`k` eigenvalues = roots of unity (**tautological**, `q=exp(2πi/(k+2))` by
+  construction); Kashaev → volume = the **volume conjecture** (cross-ref S027's scope-fence); the `z₀`/k=4 phase
+  match = a **k=4 arithmetic coincidence** (`k+2=6=2·3`, cross-ref the CS-crossover Value-kill); "three regimes" =
+  interpretation on the standard asymptotic expansion. *Not a kill (cross-ref):* the `det=−1` middle-eigenvalue `−1`
+  is the proved **B121** parity (an asset).
+- **S027 §3 sharpened** (DORMANT, tooling-gated): the metallic phase-structure comparison — compute the quantum
+  phases + degeneracies at each `k` for the figure-eight, compare to other knots and to the metallic family m≥2; a
+  clean **yes/no** discriminator (does the metallic structure fingerprint the quantum data?). **Gate stated:** needs
+  SnapPy/Magma/state-integral code — *not* attempted in numpy+sympy. The "something is hiding" instinct is
+  **relocated** here, as a specific computable comparison.
+
+Suite green; physics quarantined; nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring`
+construction stays the un-lowered prize.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

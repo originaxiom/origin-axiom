@@ -60,6 +60,27 @@ coincidence, not structure** (the same shape as the killed value-matches: the co
 law, the `ord−1` formula). **TESTED-NEGATIVE / DEAD.** Tested across `m` and killed cleanly (Chat-1 seven-hints A4);
 do not re-chase. Same family as `S014` (value without a derivation of why that value).
 
+**Standard-theory-kills — the quantum/knot probing triage (Chat-2).** Five quantum-tower / knot-invariant
+observations that are **the ambient theory's definitions doing the work**, mistaken for framework-specific bridges.
+**DEAD / standard theory**; tombstoned so no future run re-derives them. Tier rule: the *math* is fine and known;
+the *bridge* reading is the kill.
+- **Quantum tower `|λ|=1`** = **unitarity** of the Chern–Simons representation (true of *every* quantum theory); the
+  classical `|λ|=φ^k≠1` is just that the classical trace map is a symplectomorphism, not unitary. The
+  quantum→classical transition is **standard semiclassics**, not framework-specific.
+- **Finite-`k` eigenvalues are roots of unity** — **tautological**: the rep is defined over `q=exp(2πi/(k+2))`, so
+  everything is roots of unity *by construction*.
+- **Kashaev invariant → volume** = the **volume conjecture** (Kashaev 1997, a *verified known result*), not a
+  discovered bridge. Already fenced as textbook/feasibility-only in `S027`'s ⚠ SCOPE block — see there.
+- **`z₀` / k=4 phase match** = a **k=4-specific arithmetic coincidence**: at `k=4`, `k+2=6=2·3` divides the
+  argument so phases are multiples of `π/3 = arg(z₀)`; at all other `k` they are multiples of `π/(k+2)≠π/3`. Same
+  k=4 coincidence as the **CS-crossover `k≈4↔n=4`** Value-kill above — not deep.
+- **"Three regimes"** (cyclotomic at finite `k` / algebraic at `k→∞` / transcendental coefficient) = an
+  interpretation laid on top of the **standard asymptotic expansion** of quantum invariants; not wrong, not new.
+
+  *Not a kill (cross-reference):* the **`det=−1` middle eigenvalue = −1** (vs `+1` at `det=+1`) is the **proved B121
+  parity** (the external `det=−1` `GL(2,ℤ)`-rep / the odd-`Sym^d` obstruction), already re-derived via fig-8 =
+  golden² (B122). An *asset*, anchored at `B121/S024` — not a dead thread.
+
 **Framing-kill — the "promotion" `char(M¹) → char(Mⁿ)` (and the "two separable halves" picture).** **SUPERSEDED**
 by the **Sym-selection** reframing (**B117 / V104**). The B111/B113 story described the tower as a bulk θ-split
 *plus* a single "degree=rank promotion" of the height-1 factor `char(M)` to `char(Mⁿ)` — two separable halves. The

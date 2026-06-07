@@ -796,3 +796,15 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   two-sequence, no functorial `Sym(W)→trace-ring` map; re-aims the prize ("prove the tower is *functorially*
   `Sym^n(W)⊕…`") without lowering the wall. Magnitude layer only (signs = the det=−1 layer, B118). The 3+1/spin-2
   *readings* are firewalled (`speculations/S028`).
+- **B123** — **m=1 arithmeticity: the third independent `m=1` selection criterion** (V112; `SUPPORTED`). The
+  figure-eight complement's regular ideal-triangulation shape is the **6th cyclotomic** root `z₀ = e^{iπ/3}`
+  (`z²−z+1 = Φ₆`), invariant trace field `ℚ(√−3)` → **arithmetic**; by **Reid (1991)** it is the *unique* arithmetic
+  knot complement, so the `m≥2` metallic manifolds are **not** arithmetic. This joins the **systole** (B92/S001) and
+  the **expansion threshold** (P004/B120) as a third *independent* piece of imported structure that picks `m=1`
+  (`knowledge/K009`). **Computed in-house:** the Φ₆ shape and the **order-6 echo** — the `(0,0,0)` non-void Jacobian
+  spectrum (`λ³+1`, 6th roots, B122) sits at `κ=−2`, the geometric/parabolic cusp (B69/B109), the same `ℚ(√−3)`
+  (banked as an **observation, not a connection**). **Cited/gated:** Reid 1991 (arithmeticity); the `m≥2`
+  trace-field non-arithmeticity is the **named confirmation step** (SnapPy/Magma — no in-house classifier), so
+  `SUPPORTED` not `TESTED-POSITIVE`. The `det=−1` middle-eigenvalue `= −1` is the proved **B121** parity (an asset,
+  cross-ref, not a new finding). Triage companion: five quantum/knot observations tombstoned as standard theory
+  (`speculations/TOMBSTONES.md`), one DORMANT tooling-gated target sharpened (`speculations/S027` §3).

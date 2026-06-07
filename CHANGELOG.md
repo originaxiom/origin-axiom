@@ -8,6 +8,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ## [Unreleased]
 
+### Added
+- **B123 — m=1 arithmeticity, the third independent `m=1` selection criterion (2026-06-08; V112, `SUPPORTED`).**
+  The figure-eight complement's regular ideal-triangulation shape is the 6th cyclotomic root `z₀ = e^{iπ/3}`
+  (`z²−z+1 = Φ₆`), invariant trace field `ℚ(√−3)` → **arithmetic**; by **Reid (1991)** the figure-eight is the
+  *unique* arithmetic knot complement, so the `m≥2` metallic manifolds are not arithmetic. This joins the **systole**
+  (B92/S001) and the **expansion threshold** (P004/B120) as a third *independent* import that picks `m=1` — written
+  up as `knowledge/K009`. **Computed in-house:** the Φ₆ shape and the **order-6 echo** (the `(0,0,0)` non-void
+  Jacobian spectrum `λ³+1` at `κ=−2`, the geometric cusp — banked as an *observation, not a connection*). **Cited /
+  gated:** Reid 1991; the `m≥2` trace-field non-arithmeticity is the **named confirmation step** (SnapPy/Magma — no
+  in-house classifier), so `SUPPORTED` not `TESTED-POSITIVE`. Triage companions, same PR: **five quantum/knot
+  observations tombstoned** as standard theory in our notation (unitarity `|λ|=1` / roots-of-unity tautology /
+  Kashaev=volume conjecture / `z₀`-k=4 coincidence / "three regimes") in `speculations/TOMBSTONES.md`; one **DORMANT
+  tooling-gated target** sharpened (`speculations/S027` §3, the metallic phase-structure discriminator). The `det=−1`
+  middle-eigenvalue `=−1` is the proved **B121** parity (asset, cross-ref). Physics quarantined; nothing to
+  `CLAIMS.md`; P1–P16 untouched.
+
 ### Changed
 - **B122 interlude extensions — the det layers split + the Sym tower is void-specific (2026-06-07; annotations, no
   new ledger row).** Two terrain-sweeping findings banked as extensions of B122 (verify-don't-trust): **(F1)** the
