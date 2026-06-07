@@ -322,6 +322,78 @@ Typical missing object:
 an indefinite signature that is not put in by hand
 ```
 
+## Consolidated dead-ends register (2026-06-07)
+
+A single-place index of the project's killed ideas (CC-web "Final Computation Arc" Task 7). Each row: a one-line
+description, the **kill mechanism**, the `V`/`B`/`P` where it died, **DEAD** (permanent — a structural argument)
+vs **REVIVABLE** (killed by a *computational* limitation, with a candidate exact/structural revival), and the
+**structural pattern** it belongs to. The full prose for each lives in the category sections above and in
+`speculations/TOMBSTONES.md`; this is the navigation table. Status `dead → anything` is forbidden (GOVERNANCE §5).
+
+### Pattern A — numerology / value-matching (a number with no derivation; the discipline that killed Λ)
+| # | dead end | kill mechanism | where | status |
+|---|---|---|---|---|
+| A1 | `φ^φ` as the axiom | computationally falsified | CLAIMS/atlas | DEAD |
+| A2 | `Λ = Λ_Planck·φ^{−2N}` (and `k≈137`) | null hypothesis (~60% of random constants match) + circular (`N` defined by the answer) | CLAIMS D1–D2 | DEAD |
+| A3 | dynamic dark energy `Λ(t)`, `w≈−0.04` | ruled out ~30σ by observation | CLAIMS D3 | DEAD |
+| A4 | specific masses / "14 ratios ≈ 16 masses" | numerology without an identification | S-tier T4 | DEAD/HELD |
+| A5 | e-fold count `62≈60`; CMB tilt `0.965` | iteration-count ≠ e-folds; no `k`→angular-scale map | S008 | HELD |
+| A6 | baryon `|Z(W1)/Z(W2)|≈10⁻⁹` | no derivation that the ratio *is* `n_B/n_γ`; no null test | S005 | HELD |
+
+### Pattern B — wrong dictionary (a real correspondence over-read)
+| # | dead end | kill mechanism | where | status |
+|---|---|---|---|---|
+| B1 | tower eigenvalues = masses / operator dimensions | moduli-space monodromy (`±φᵏ`, single scale), not a fluctuation Hessian | B107 / V94 | DEAD |
+| B2 | torsion = masses | same category error (linearized monodromy ≠ operator content) | B107 / V94 | DEAD |
+| B3 | `n∈{3,4}` = the Standard Model gauge group | the map breaks at `n=2` (no clean functor) | B96 / V80 | DEAD |
+| B4 | `det=−1` = CPT (a manifold invariant) | it is a trace-map/parity fact (B94), not a manifold invariant | V80 | DEAD |
+| B5 | "Fibonacci anyon physics" | rescoped to an exact Fibonacci *fusion-count* dictionary only | GOVERNANCE §8 | DEAD (rescoped) |
+
+### Pattern C — 3+1 / spacetime (type-mismatch, or a Riemannian form read as Lorentzian)
+| # | dead end | kill mechanism | where | status |
+|---|---|---|---|---|
+| C1 | the volume/Goldman Hessian is Lorentzian | computed **(0,2)/(2,0) definite**, Riemannian | B96 / V80 | DEAD |
+| C2 | phase-space "3+1D at SL(3)" (dim count) | the count is arithmetic; the metric is Riemannian | B101 / V85 | DEAD |
+| C3 | the spacetime tower climbs the ranks | the split-form ladder is Lorentzian **only at `k=2`** | B101 R2 / V85 | DEAD |
+| C4 | Fisher-metric-on-CS-level-`k` emergence | heuristic, not rigorous | atlas | DEAD |
+| C5 | 3+1D from Cartan geometry (`sl(2,ℂ)≅so(3,1)`) | the 3d→4d extraction is a structural **type-mismatch wall**, not a queued calc | S020 | **WALLED** |
+
+### Pattern D — coincidence bridges / refuted readings
+| # | dead end | kill mechanism | where | status |
+|---|---|---|---|---|
+| D1 | figure-eight ↔ `I=1/4` invariant-surface bridge | cyclotomic coincidence | B56 / V4 | DEAD |
+| D2 | Aubry self-duality at `λ=m` | vacuous (`λ=m` is the trivial fixed point of `λ→m²/λ`) | V7 | DEAD |
+| D3 | entanglement = holographic | **log** entanglement = generic 1D-CFT criticality; emergent geometry AdS-like but **generic** | V37 | TESTED-NEGATIVE |
+| D4 | Bell/CHSH on the classical Fricke surface | `z=f(x,y)` deterministic ⇒ CHSH ≤ 2 (classical hidden variables) | S006 / B108 | TESTED-NEGATIVE |
+| D5 | "one collision causes all the walls" | three *distinct* `A₄` obstacles at `n=5` (different eigenvalues, derivations, onsets) | V91 | WITHDRAWN |
+
+### Pattern E — the n=5 wall: **REVIVABLE kills** (killed by a computational limit, not a structural argument)
+*The high-value lens.* These died because the **eps-series numerics scattered** (gauge-degeneracy) or a *shortcut*
+collapsed — not because the result is false. Each has a candidate exact/structural revival. Templates: **B62**
+(the eps-series numerics were dead at `n=5`, but the opposition involution `θ=−w₀` revived `char(M²)²` exactly);
+the **engine-free `n=3`** (the eps-series degenerated, but the exact Lawton maps recovered it).
+| # | dead end | kill mechanism | where | revival candidate |
+|---|---|---|---|---|
+| E1 | SL(5)+ tower via the eps-series `pinv` | rank-deficient `pinv` **under-counts degenerate multiplicities** at the `char(M²)²` collision (every field/precision) | B58 Phase A / B84 / V24 | **B62 `θ`-split (structural)** + the engine-free Lawton/Dehn-twist composition (B103/B104) |
+| E2 | cotangent-subtraction route to the multiplicities `a_d` | the excess is the *secondary* invariants, not a `σ`-weight (Djoković cross-check) | B58 Stage 1 / V21 | the **exterior-power Cayley–Hamilton** hand proof (B58 proper) |
+| E3 | `max(n−d,1)` multiplicity formula (SL(6) `|k|=3`) | measured `=2` but entangled with the pinv under-count | B66 / V17 | the `θ`-split candidate (`a₃(n=6)=2`) + the symbolic SL(n) trace ring |
+| E4 | the `Sym^{2k}` even-only (Kostant principal) tower decomposition | the tower needs **both** parities; even-only is too small | V21 / V27 (kill #25) | the **two-sequence** (both-parity) `⊕Sym^d` product (proved `n≤4`, B103) |
+| E5 | the cohomological (`H¹`) shortcut to the all-`n` tower | gives `char(M)^{n²−1} ≠` tower (trivial-rep fixed line); 3rd dead shortcut (after B84/B85) | B89-T / V73 | the explicit two-sequence `Sym` product (E4) is the live route — not a shortcut |
+| E6 | the naive weight-space `θ → c` (degree=rank scalar) | `θ` is an involution (order 2); the secondary `c=i` is order 4 — unreachable | B108 / V95 | the **`ℤ/4` cusp spectrum** `{1,i,−i}` (B95) as the order-4 source |
+| E7 | the `A↔D` Lie-type tower unification | refuted | B77 | — (DEAD) |
+
+### Pattern F — specific-manifold empties (a clean negative, scope-limited)
+| # | dead end | kill mechanism | where | status |
+|---|---|---|---|---|
+| F1 | off-locus irreducible content for `4₁` at SL(3) | the 3 irreducible components (HMP) all lie **on** the forced locus | B110 / V97 | DEAD for `4₁`/SL(3); general fork **OPEN** |
+
+**Reading the register.** Patterns A–D are *permanent* (structural arguments or numerology controls) — never
+re-chase them. Pattern **E is the live frontier in disguise**: every E-row is a *computational* kill with a named
+structural revival, and they all converge on the same destination — the **`ρ_n` catalog proof** via the
+opposition-involution multiplicities (the central math target). Pattern F is scope-limited (the figure-eight at
+SL(3) is closed; higher rank / other manifolds remain open). See `speculations/TOMBSTONES.md` for the physics
+epitaphs and `speculations/CATALOG.md` for the live items.
+
 ## Current Lesson
 
 The obstruction is not one failed computation. It is a repeated structural
