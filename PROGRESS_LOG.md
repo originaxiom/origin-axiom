@@ -2376,5 +2376,41 @@ eps-series doubly-degenerate sector** (a non-degenerate slice / inverse-word coo
 
 ---
 
+## 2026-06-07 — the n=5 wall characterized + the ρ_n convergence (V89)
+
+**Handoff (CC-web): "the n=5 Resolution Attempt + Literature + Final Observations."** The single most
+decisive remaining computation, plus literature positioning and the banking of the campaign's observations.
+Verify-don't-trust. Suite **278 passed, 1 skip**; P1–P16 untouched; no physics (physical readings POSTULATED
++ quarantined).
+
+**N5 — the decisive computation (B105/V89).** *Is the n≥5 tower degeneracy a coordinate artifact or a
+structural change?* **VERDICT: coordinate artifact.** At SL(5) the Dehn-twist eps-series (B104) resolves
+`gcd(char(J), two-seq catalog) = 21/24` Dickson factors. Three findings pin it: (1) the resolved 21 are
+**universally catalog-consistent** (every monodromy, metallic + non-metallic, both det signs); (2) the
+corrupted 3-dim factor is **gauge noise** — distinct across seeds while the resolved 21 are invariant (a
+structural change would give a *fixed* wrong answer); (3) the eps-series ceiling is 21/24 over 20 seeds (cf.
+B61's 22). Three independent structural routes (B89-T, B62, B103) agree the unresolved piece is `Sym²`.
+**Conclusion (honest, strict bar):** "the formula changes at n=5" is **ruled out**; the catalog is strongly
+supported; but the strict "all 3 resolved" bar is **not met** — the n=5 catalog stays formally `open`, the
+obstruction pinned to the eps-series gauge-degeneracy at the cusp's repeated `−1` eigenvalue.
+
+**H6 — the unified wall (structural).** The forced cusp spectra (B95) are `{1,i,−i}`/`{1,1,ω,ω²}`/
+`{1,1,1,−1,−1}`; the **non-trivial eigenvalues are distinct at n=3,4 and collide at n=5** (`−1`, mult 2);
+n≥6 has no finite-order spectrum. **One collision** is the common root cause of the tower wall, the
+degree=rank wall (B95), and the eps-series rank-drop — so the **natural boundary is n=4**, proved structural.
+
+**Convergence (the thesis).** Every positive result is a property of **one object `ρ_n`** — the `GL(2,ℤ)`-rep
+on the SL(n) trace ring at the trivial point. Tower = `char(ρ_n)`; module-iso = its `Sym` decomposition;
+universality = its well-definedness; Hitchin = its moduli embedding. `ρ_n` is **completely characterized for
+n=3,4**, boundary at n=4 **proved**. One object, fully characterized in its natural range, boundary proved.
+
+**Literature (cited).** L1 — Gang–Koh–Lee–Park arXiv:1305.0937 (3d theories for once-punctured-torus bundles
+via 4d N=2* duality walls; **SL(2,ℂ) only** — our SL(3)/Dehn-filling/metallic data is *new within that
+framework*). L4 — Bonahon–Dreyer arXiv:1209.3526 + Douglas–Sun arXiv:2011.01768 (FG coords / Hitchin
+component for SL(3) on the once-punctured torus — consistent with B101 V0=FG-positive locus, B102 W1/W2
+excluded). H1–H5 (computed elsewhere) + C1–C4 (corrections) tabulated by proof status in B105 FINDINGS.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

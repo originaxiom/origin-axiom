@@ -631,3 +631,14 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   degeneracy — `char(J)≠catalog` but **21/24 Dickson factors resolve** (the doubly-degenerate sector,
   B61/B66); a **computational** wall, not a rep-theory failure. The n≥5 obstruction is now isolated to the
   eps-series degeneracy. Cite B103, B80, B61/B66, Lawton/Procesi.
+- **B105** — **the n=5 wall characterized + the ρ_n convergence** (V89; `characterized-wall` + synthesis).
+  The CC-web "n=5 Resolution + Literature + Final Observations" handoff. **N5 (decisive):** the SL(5) tower
+  degeneracy is a **coordinate artifact, not a structural change** — the eps-series resolves 21/24 Dickson
+  factors, the resolved 21 are universally catalog-consistent, the corrupted 3-dim factor is **gauge noise**
+  (varies across seeds); the strict "all 3" bar is not met (the n=5 catalog stays formally open, obstruction
+  = the gauge-degeneracy at the repeated `−1` cusp eigenvalue), but **"the formula changes at n=5" is ruled
+  out**. **H6 (unified wall):** the forced cusp spectra `{1,i,−i}`/`{1,1,ω,ω²}`/`{1,1,1,−1,−1}` collide
+  (non-trivial eigenvalues) first at n=5 — one root cause for the tower / degree=rank / eps-series walls;
+  natural boundary at n=4, proved. **Convergence:** the project converges on one object **`ρ_n`** (the
+  `GL(2,ℤ)`-rep on the SL(n) trace ring); fully characterized n=3,4, boundary proved. Literature L1 (GKLP
+  1305.0937) + L4 (Bonahon–Dreyer / Douglas–Sun) cited; H1–H6 / C1–C4 tabulated; physics quarantined.
