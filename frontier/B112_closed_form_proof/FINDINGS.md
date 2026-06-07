@@ -1,5 +1,15 @@
 # B112 — PROOF of the opposition-involution closed form (the sign half of ρ_n), all n
 
+> **⚠ CORRECTION (B116/V103, explicit downgrade — verify-don't-trust).** The "**sign half of `ρ_n` proved for all
+> n**" headline below is **overstated** and is corrected here. B112 proves the θ-split **combinatorics** (the
+> `⌈/⌊` eigenspace dimensions of `−w₀` on the `A_{n−1}` root spaces) for all `n` — **a real theorem, and it
+> stands**. But the **identification** of the θ-split with the **tower's** `char(±M^h)` multiplicities (the
+> long-standing V25 unproven step) holds only for **`n ≤ 5`**; at `n ≥ 6` the θ-split **diverges** from the Sym
+> two-sequence (B103) — the actual tower-candidate — reproducing the banked V26/V27 divergence (`a₁` 2 vs 3, `a₂`
+> 3 vs 2, `b₂` 1 vs 2). **So B112 is "the sign half proved for `n ≤ 5`", not "for all n"; the all-`n` sign half is
+> OPEN**, and the live route is the **Sym two-sequence** proof (B103), not the θ-split. See
+> `../B116_reconcile_theta_sym/`. The combinatorial lemma (below) is unaffected.
+
 **Status: `PROVED` (computer-assisted — an elementary root-system lemma + the banked B64 parity assignment).**
 The B111 decision split the `ρ_n` catalog prize into two named halves — the **sign** structure (bulk
 `θ=−w₀`) and the single **degree=rank promotion** `char(M)→char(Mⁿ)`. **This stage proves the sign half, for all
