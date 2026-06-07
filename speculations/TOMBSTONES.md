@@ -54,6 +54,12 @@ involution (order 2); the secondary `c=i` is order 4; an order-2 symmetry cannot
 B108). Not a new problem — the same `ℤ/2`-can't-reach-`ℤ/4` obstruction. *Also negative:* the cusp `ord−1` formula
 (B111 / V98 — fails the all-four hinge).
 
+**Value-kill — the CS-crossover `k≈4 ↔ n=4`.** The hoped coincidence "the Chern–Simons level crosses over near
+`k≈4`, matching the rank `n=4`" is **m-dependent** — `k≈2` at m=2, `k≈1` at m=3 — so it is a **figure-eight-volume
+coincidence, not structure** (the same shape as the killed value-matches: the cosmological constant, the cusp-order
+law, the `ord−1` formula). **TESTED-NEGATIVE / DEAD.** Tested across `m` and killed cleanly (Chat-1 seven-hints A4);
+do not re-chase. Same family as `S014` (value without a derivation of why that value).
+
 **Framing-kill — the "promotion" `char(M¹) → char(Mⁿ)` (and the "two separable halves" picture).** **SUPERSEDED**
 by the **Sym-selection** reframing (**B117 / V104**). The B111/B113 story described the tower as a bulk θ-split
 *plus* a single "degree=rank promotion" of the height-1 factor `char(M)` to `char(Mⁿ)` — two separable halves. The

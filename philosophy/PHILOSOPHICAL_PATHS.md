@@ -120,8 +120,8 @@ exercise, the tombstones); the **narrative** is in `../story/`; the one-page map
 
 - `METALLIC_FOUNDATIONS.md` (here) — *why aim the theorem at the family, not the seed* (the "not-nothing → a
   self-generating family" rationale; the source material for **P000**).
-- `P000`–`P004` (here) — the foundational philosophical layer (what-is-not-nothing; architecture-not-furniture;
-  necessity-given-chosen-premises; dead-ends-as-boundaries; expansion-is-interaction-born), distinct from the P1–P5
+- `P000`–`P005` (here) — the foundational philosophical layer (what-is-not-nothing; architecture-not-furniture;
+  necessity-given-chosen-premises; dead-ends-as-boundaries; expansion-is-interaction-born; laws-and-states), distinct from the P1–P5
   argument register above.
 - `../speculations/PHYSICS_EXERCISE.md` — the deliberate "*assume it is the final theory*" exercise (the tiered
   MASTER), whose only legitimate output is the ranked calculation pointers. Its earlier long-form draft and the
