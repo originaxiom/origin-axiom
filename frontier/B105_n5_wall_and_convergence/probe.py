@@ -2,29 +2,40 @@
 
 Three parts (executes the CC-web "n=5 Resolution + Literature + Final Observations" handoff):
 
-  N5 -- the decisive computation. Is the n>=5 tower degeneracy a COORDINATE ARTIFACT or a STRUCTURAL CHANGE?
-      VERDICT: coordinate artifact. At SL(5) the Dehn-twist eps-series resolves 21 of 24 Dickson factors;
-      the resolved 21 are UNIVERSALLY catalog-consistent (every monodromy, both det signs, share exactly the
-      two-sequence catalog minus one Sym^2), while the corrupted 3-dim factor is GAUGE NOISE (varies across
-      seeds -- a structural change would give a fixed wrong answer). The eps-series ceiling is 21/24 (cf.
-      B61's 22 with inverse-word/SVD); the doubly-degenerate -1^2 sector cannot be pinned. Three independent
-      structural routes (B89-T two-seq, B62 theta-split, B103) agree the unresolved 3-dim piece is Sym^2.
-      So the n=5 catalog is strongly supported but the strict "all 3 factors" bar is NOT met: the obstruction
-      is the eps-series gauge-degeneracy at the cusp's repeated -1 eigenvalue -- NOT a change in the formula.
+  *** CORRECTIONS A & B applied (V90 audit, explicit downgrade -- see CORRECTIONS_V90 below). Two prior
+      inferences in this stage overreached the evidence; the corrected statements are what this stage now
+      asserts. The COMPUTATION (21/24 universal) and the rho_n thesis are unchanged. ***
 
-  H6 -- the unified n>=5 wall (structural). The forced cusp spectrum (B95) is {1,i,-i} (n=3), {1,1,w,w^2}
-      (n=4), {1,1,1,-1,-1} (n=5). The NON-TRIVIAL eigenvalues are DISTINCT at n=3,4 but COLLIDE at n=5 (-1
-      with multiplicity 2); at n>=6 no finite-order spectrum exists at all (B95). This single collision is
-      the common root cause of the tower wall (3 corrupted factors, B84/B104), the degree=rank wall
-      (involution -> dihedral -> reducible, B95), and the eps-series rank-drop. The project has a NATURAL
-      BOUNDARY at n=4, proved structural.
+  N5 -- the decisive computation. At SL(5) the Dehn-twist eps-series resolves 21 of 24 Dickson factors, and
+      the resolved 21 are UNIVERSALLY catalog-consistent (the same two-sequence catalog across seeds AND
+      across monodromies, both det signs) -- strong evidence on the RESOLVED sector. The 3 unresolved factors
+      are supported as Sym^2 by the STRUCTURAL routes (B62 theta-split, B89-T two-seq, B103), NOT by the
+      seed-variation. [CORRECTION A]: the seed-variation of the 3 unresolved factors is the EXPECTED signature
+      of the eps-series rank-deficiency (B84: dx is rank-deficient there, so DX.pinv(dx) returns
+      approach/seed-dependent values regardless of the true factorization) -- it is UNINFORMATIVE about the
+      truth at the unresolved sector (Appendix A demonstrates this: the contested eigenvalue's seed-spread is
+      identical whether the true value is the catalog value or a wildly different deviation). So a structural
+      deviation at the unresolved sector is NEITHER RULED IN NOR RULED OUT by this computation. The strict
+      "all 3 factors" bar is NOT met; the explicit n=5 catalog is OPEN.
 
-  CONVERGENCE -- the project's thesis. Every positive result is a property of ONE object: rho_n, the
-      GL(2,Z)-representation on the SL(n) trace ring at the trivial point. The tower IS char(rho_n); the
+  H6 -- the forced cusp spectrum (structural OBSERVATION; B95). {1,i,-i} (n=3), {1,1,w,w^2} (n=4),
+      {1,1,1,-1,-1} (n=5): the NON-TRIVIAL eigenvalues are DISTINCT at n=3,4 but COLLIDE at n=5 (-1 with
+      multiplicity 2); n>=6 has no finite-order spectrum (B95). [CORRECTION B]: this collision is a CANDIDATE
+      common root cause across the tower / degree=rank / eps-series walls -- recorded as a structural
+      observation, NOT a proof that it causes them, and NOT a "natural boundary." There is NO mathematical
+      boundary: B103's factor-through-N makes char(J(n)) = the catalog a CLASS FUNCTION FOR ALL n (the tower
+      does not stop at n=4). What walls at n=4/5 is the explicit COMPUTATION -- the eps-series (pinv
+      non-convergence, B84) and the engine-free trace-ring (non-closure) -- a methodological ceiling, not a
+      theorem.
+
+  CONVERGENCE -- the project's thesis (endorsed). Every positive result is a property of ONE object: rho_n,
+      the GL(2,Z)-representation on the SL(n) trace ring at the trivial point. The tower IS char(rho_n); the
       module-iso IS its decomposition into Sym pieces; universality IS the well-definedness of rho_n; the
-      Hitchin identification places rho_n in a known moduli space. rho_n is COMPLETELY CHARACTERIZED for
-      n=3,4 (exact, constructive, universal) with its natural boundary at n=4 PROVED (eigenvalue collision
-      at n=5, impossibility at n>=6).
+      Hitchin identification places rho_n in a known moduli space. rho_n is fully characterized at n=3,4
+      (exact, constructive, universal); the explicit n>=5 catalog is OPEN (walled from two methods). THE OPEN
+      FRONTIER: prove char(rho_n) = the Dickson catalog DIRECTLY from rho_n (B103) + B62's multiplicities --
+      around the sigma-construction, never building it. That would close n>=5 by PROOF and settle Correction
+      A's open question. This stage SETS UP the thesis; it does NOT attempt that proof.
 
 The H1-H6 computed observations and the C1-C4 corrections are tabulated in FINDINGS.md (each labeled by
 proof status and the stage that computed it); all physical readings are POSTULATED and quarantined.
@@ -67,10 +78,12 @@ def n5_resolved_degree(dehn=("U", "S"), seed=20):
     return int(sp.gcd(chJ, cat).degree())
 
 
-def n5_corruption_is_gauge_noise(seeds=(20, 21, 22)):
-    """The corrupted 3-dim factor VARIES across seeds (gauge noise) while the resolved 21 are invariant ->
-    the degeneracy is a coordinate artifact, not a structural change. Returns (n_distinct_corrupted,
-    all_resolve_21)."""
+def n5_unresolved_factor_varies_with_seed(seeds=(20, 21, 22)):
+    """The 3 unresolved factors VARY across seeds while the resolved 21 are invariant. [CORRECTION A, V90]:
+    this is the EXPECTED signature of the eps-series rank-deficiency (B84) and is UNINFORMATIVE about the true
+    factorization at the unresolved sector -- it does NOT imply 'coordinate artifact, not structural change'
+    (Appendix A / B105 FINDINGS). The genuine evidence is the resolved-21 universal catalog-consistency.
+    Returns (n_distinct_unresolved, all_resolve_21)."""
     B = _b104()
     N = B.word_abelianization(["U", "S"])
     cat = sp.Poly(B.catalog_char(N.tolist(), 5), t, modulus=_P)
@@ -124,9 +137,26 @@ OBSERVATIONS = {
            "tower; geometric rep -> adjoint torsion. The tower is trivial-rep-specific."),
     "H5": ("COMPUTED", "B101", "gauge-algebra Killing signatures: sl(2,R) (2,1); sl(3,R) (5,3); sl(4,R) "
            "~ so(3,3) ⊃ so(3,1). Lorentzian only at the k=2 rung of the split-form ladder."),
-    "H6": ("STRUCTURAL", "B84/B85/B95/B104/B105", "the unified n>=5 wall: one eigenvalue collision (-1 "
-           "mult 2 at n=5) is the common root cause of the tower wall, the degree=rank wall, and the "
-           "eps-series rank-drop; natural boundary at n=4 (impossible n>=6)."),
+    "H6": ("STRUCTURAL-OBSERVATION", "B84/B85/B95/B104/B105", "the forced-cusp-spectrum collision (-1 mult 2 "
+           "at n=5; no finite-order spectrum n>=6) is a CANDIDATE common root cause of the tower / degree=rank "
+           "/ eps-series walls -- a structural observation, NOT a proof it causes them, NOT a 'natural "
+           "boundary' [CORRECTION B, V90]."),
+}
+# Explicit downgrades of two B105 inferences (V90 audit; banked, not silently edited):
+CORRECTIONS_V90 = {
+    "A": "DOWNGRADE: 'seed-variation of the 3 unresolved factors => coordinate artifact, NOT a structural "
+         "change' is INVALID. A rank-deficient DX.pinv(dx) (B84) returns approach/seed-dependent values at "
+         "the unresolvable sector REGARDLESS of the true factorization (Appendix A: the contested "
+         "eigenvalue's seed-spread is identical for the catalog value vs a wild deviation). Seed-variation is "
+         "UNINFORMATIVE about the truth there. Corrected: the resolved 21 are universally catalog-consistent "
+         "(real evidence); the 3 unresolved are supported as Sym^2 by STRUCTURAL routes (B62/B89-T/B103), not "
+         "by seed-variation; a structural deviation there is NEITHER ruled in NOR ruled out.",
+    "B": "DOWNGRADE: 'natural boundary at n=4, proved structural / mathematically complete at n=4' OVERSTATES. "
+         "B103's factor-through-N makes char(J(n)) = the catalog a CLASS FUNCTION FOR ALL n -- there is NO "
+         "mathematical boundary. What walls is the explicit COMPUTATION (eps-series pinv non-convergence; "
+         "engine-free trace-ring non-closure) -- a methodological ceiling, not a theorem. Corrected: explicit "
+         "catalog is a computed theorem THROUGH n=4; structure holds ALL n; explicit n>=5 catalog is OPEN, "
+         "walled from two methods; the cusp collision is a candidate root cause, not a proof.",
 }
 CORRECTIONS = {
     "C1": "the Goldman metric is (2,0) Riemannian, NOT (1,1) Lorentzian (the negative Killing direction is "
@@ -144,21 +174,25 @@ CORRECTIONS = {
 def main():
     print("B105 -- the n=5 wall (characterized) + the unified wall + the rho_n convergence\n")
     print("N5 (the decisive computation):")
-    print(f"  resolved factors at SL(5) (gcd with two-seq catalog): {n5_resolved_degree()}/24")
-    ndist, all21 = n5_corruption_is_gauge_noise()
-    print(f"  corrupted 3-dim factor across seeds: {ndist} distinct (gauge noise); all resolve 21: {all21}")
-    print("  VERDICT: coordinate artifact (gauge noise), NOT a structural change; the resolved 21 are")
-    print("           universally catalog-consistent; the strict 'all 3' bar is NOT met (eps-series ceiling).")
-    print("\nH6 -- the unified n>=5 wall (forced cusp spectra, B95):")
+    print(f"  resolved factors at SL(5) (gcd with two-seq catalog): {n5_resolved_degree()}/24"
+          " (universally catalog-consistent -- the genuine evidence)")
+    ndist, all21 = n5_unresolved_factor_varies_with_seed()
+    print(f"  3 unresolved factors across seeds: {ndist} distinct; all resolve 21: {all21}")
+    print("  [CORRECTION A] seed-variation is the eps-series RANK-DEFICIENCY signature (B84), UNINFORMATIVE")
+    print("    about the truth there; a structural deviation is NEITHER ruled in NOR out. The 3 are supported")
+    print("    as Sym^2 by STRUCTURAL routes (B62/B89-T/B103). The strict 'all 3' bar is NOT met -> n=5 OPEN.")
+    print("\nH6 -- the forced cusp spectra (structural OBSERVATION; B95):")
     for n, f in unified_wall_table().items():
         sp_str = {3: "{1,i,-i}", 4: "{1,1,w,w^2}", 5: "{1,1,1,-1,-1}"}[n]
         print(f"  n={n}: {sp_str:14} tr=trinv=det=1 {f['tr1'] and f['trinv1'] and f['det1']}; "
               f"non-trivial collision = {f['nontrivial_collision']}"
-              + ("  <-- the doubly-degenerate sector" if f["nontrivial_collision"] else ""))
-    print("  (n>=6: no finite-order spectrum exists -> the boundary at n=4 is proved.)")
-    print("\nCONVERGENCE: the project converges on ONE object rho_n (the GL(2,Z)-rep on the SL(n) trace ring")
-    print("  at the trivial point). The tower IS char(rho_n); fully characterized n=3,4; boundary n=4 proved.")
-    print(f"\nObservations banked: {list(OBSERVATIONS)}; corrections: {list(CORRECTIONS)}")
+              + ("  <-- candidate root cause" if f["nontrivial_collision"] else ""))
+    print("  [CORRECTION B] no MATHEMATICAL boundary: char(J(n))=catalog is a class function ALL n (B103);")
+    print("    n=4 is a methodological CEILING (eps-series + trace-ring non-closure), not a proved boundary.")
+    print("\nCONVERGENCE: the project converges on ONE object rho_n (the GL(2,Z)-rep on the SL(n) trace ring).")
+    print("  Fully characterized n=3,4; explicit n>=5 OPEN. OPEN FRONTIER: prove char(rho_n)=catalog directly")
+    print("  from rho_n (B103) + B62 multiplicities (around the sigma-construction) -- closes n>=5 by proof.")
+    print(f"\nObservations: {list(OBSERVATIONS)}; corrections: {list(CORRECTIONS)}; V90 downgrades: {list(CORRECTIONS_V90)}")
     return 0
 
 

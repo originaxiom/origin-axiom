@@ -9,17 +9,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
-- **The n=5 wall characterized + the ρ_n convergence (2026-06-07, Ledger V89; suite 278 passed, 1 skip; no
-  physics).** `frontier/B105_n5_wall_and_convergence/`: executes the "n=5 Resolution + Literature + Final
-  Observations" handoff. **N5 (decisive):** the SL(5) tower degeneracy is a **coordinate artifact, not a
-  structural change** — 21/24 Dickson factors resolve, the resolved 21 are universally catalog-consistent,
-  the corrupted 3-dim factor is gauge noise (varies across seeds); the strict "all 3" bar is unmet (n=5
-  catalog formally open, obstruction = the gauge-degeneracy at the repeated `−1` cusp eigenvalue), but "the
-  formula changes at n=5" is ruled out. **H6 (unified wall):** the forced cusp spectra collide first at n=5
-  (`−1` mult 2) — one root cause for the tower / degree=rank / eps-series walls; natural boundary at n=4,
-  proved. **Convergence:** the project converges on one object `ρ_n` (the `GL(2,ℤ)`-rep on the SL(n) trace
-  ring), fully characterized n=3,4. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer / Douglas–Sun) cited;
-  H1–H6 / C1–C4 tabulated; physics quarantined.
+- **The n=5 wall + the ρ_n convergence, with the V90 audit (2026-06-07, Ledger V89 + V90; suite 278+ pass, 1
+  skip; no physics).** `frontier/B105_n5_wall_and_convergence/`: the "n=5 Resolution" handoff, then **two
+  explicit inference downgrades (V90)**. **N5:** the SL(5) eps-series resolves **21/24** Dickson factors, the
+  resolved 21 are **universally catalog-consistent** (across seeds and monodromies); the 3 unresolved are
+  supported as `Sym²` by **structural routes** (B62/B89-T/B103). **[V90 Correction A]** the seed-variation of
+  the 3 unresolved factors is the eps-series rank-deficiency signature (B84), **uninformative** about the
+  truth — so the explicit **n=5 catalog is OPEN** and a structural deviation there is neither ruled in nor
+  out (the earlier "coordinate artifact, not structural / formula-doesn't-change" inference is **withdrawn**).
+  **[V90 Correction B]** there is **no proved "natural boundary at n=4"** — `char(J(n))=catalog` is a class
+  function for **all `n`** (B103); n=4 is a *methodological ceiling*, not a theorem (the earlier "complete at
+  n=4 with a proved boundary" is **withdrawn**); the cusp collision is a *candidate* root cause. **Convergence
+  + open frontier:** the project converges on one object `ρ_n` (the `GL(2,ℤ)`-rep on the SL(n) trace ring),
+  fully characterized n=3,4, **explicit n≥5 OPEN** — the live target being to prove `char(ρ_n)=catalog`
+  directly from `ρ_n` + B62's multiplicities. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer 1209.3526 /
+  Douglas–Sun 2011.01768) cited; H1–H6 / C1–C4 tabulated; physics quarantined.
 - **The Dehn-twist route: SL(4) universality + the SL(5) wall (2026-06-07, Ledger V88; suite 274 passed, 1
   skip; no physics).** `frontier/B104_dehn_twist_tower/`: executes the "Dehn-Twist Route" handoff in full —
   build any monodromy's trace map by composing the elementary twists `U,L,S` inside the eps-series (not the

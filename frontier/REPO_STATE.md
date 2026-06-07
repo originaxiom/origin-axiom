@@ -4,25 +4,39 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
-> ## Update — 2026-06-07 (post-V89, current at `main` PR #105) — the n=5 wall characterized + the ρ_n convergence
+> ## Update — 2026-06-07 (post-V90, current at `main` PR #107) — B105 V90 audit (two inference downgrades)
 >
-> **B105/V89** runs the decisive n=5 computation + the campaign synthesis. Suite **278 passed, 1 skip**;
-> P1–P16 untouched; no physics.
-> - **N5 (decisive):** the SL(5) tower degeneracy is a **coordinate artifact, NOT a structural change** —
->   21/24 Dickson factors resolve, the resolved 21 are universally catalog-consistent, the corrupted 3-dim
->   factor is **gauge noise** (varies across seeds). The strict "all 3" bar is **not met** (the n=5 catalog
->   stays formally open, obstruction = the gauge-degeneracy at the repeated `−1` cusp eigenvalue), but "the
->   formula changes at n=5" is **ruled out**.
-> - **H6 (unified wall):** the forced cusp spectra `{1,i,−i}`/`{1,1,ω,ω²}`/`{1,1,1,−1,−1}` — the non-trivial
->   eigenvalues collide first at n=5 (`−1` mult 2); n≥6 has no finite-order spectrum. **One collision** = the
->   root cause of the tower / degree=rank / eps-series walls → **natural boundary at n=4, proved**.
-> - **Convergence:** the project converges on one object **`ρ_n`** (the `GL(2,ℤ)`-rep on the SL(n) trace
->   ring), fully characterized n=3,4, boundary proved. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer /
->   Douglas–Sun) cited; H1–H6 / C1–C4 tabulated.
+> The CC verification chat flagged two B105 inferences that overreached; **both are withdrawn (V90, banked
+> explicitly).** The 21/24 computation and the `ρ_n` thesis stand.
+> - **Correction A:** "seed-variation ⟹ gauge noise ⟹ coordinate artifact, NOT a structural change" is
+>   **INVALID**. A rank-deficient eps-series returns seed-dependent values at the unresolved sector
+>   *regardless of the truth* (B84; Appendix A re-run confirms the true value is buried under the seed-noise).
+>   **The explicit n=5 catalog is OPEN; a structural deviation there is neither ruled in nor out.** The
+>   genuine evidence is the resolved-21 universal catalog-consistency; the 3 unresolved are supported as
+>   `Sym²` by the **structural routes** (B62/B89-T/B103), not by the seed-variation.
+> - **Correction B:** "natural boundary at n=4, proved / complete at n=4" **OVERSTATES**. `char(J(n))=catalog`
+>   is a class function for **all `n`** (B103) — no mathematical boundary; n=4 is a *methodological ceiling*
+>   (eps-series pinv non-convergence + trace-ring non-closure), not a theorem. The cusp collision is a
+>   *candidate* root cause, a structural observation, not a proof.
+> - **The open frontier (restated):** prove `char(ρ_n)=catalog` directly from `ρ_n` (B103) + B62's
+>   multiplicities — around the σ-construction; that would close n≥5 by proof.
 >
-> **Net:** the tower campaign is, on its own discipline, **complete at n=4 with a proved boundary** — the
-> n≥5 obstruction is one characterized eigenvalue collision, not a structural mystery; everything converges
-> on `ρ_n`.
+> **Corrected net:** structure proven all-`n`; explicit catalog through n=4 for all monodromies; **explicit
+> n≥5 catalog OPEN**, walled from two methods; one fully-characterized object `ρ_n` (exact/constructive
+> n=3,4). *Not* "complete at n=4 with a proved boundary."
+>
+> ## Update — 2026-06-07 (post-V89, current at `main` PR #105) — the n=5 wall + the ρ_n convergence [V89; see V90 above for the A/B downgrades]
+>
+> **B105/V89** runs the n=5 computation + the campaign synthesis. Suite **278 passed, 1 skip**; P1–P16
+> untouched; no physics. *(The "coordinate artifact, not structural" and "natural boundary proved" framing in
+> this block is corrected by the V90 audit above — read V90 first.)*
+> - **N5:** the SL(5) eps-series resolves 21/24 Dickson factors; the resolved 21 are universally
+>   catalog-consistent; the 3 unresolved are supported as `Sym²` by structural routes (B62/B89-T/B103). The
+>   strict "all 3" bar is not met → the explicit n=5 catalog is OPEN (per V90).
+> - **H6 (structural observation):** the forced cusp spectra `{1,i,−i}`/`{1,1,ω,ω²}`/`{1,1,1,−1,−1}` — the
+>   non-trivial eigenvalues collide first at n=5 (`−1` mult 2); a candidate root cause (per V90).
+> - **Convergence:** the project converges on one object **`ρ_n`**, fully characterized n=3,4, explicit n≥5
+>   open. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer / Douglas–Sun) cited; H1–H6 / C1–C4 tabulated.
 >
 > ## Update — 2026-06-07 (post-V88, current at `main` PR #103) — the Dehn-twist route: SL(4) + the SL(5) wall
 >
