@@ -1,8 +1,9 @@
-# Speculation catalog — `S001…S021`
+# Speculation catalog — `S001…S023`
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
-`POSTULATED / SUPPORTED / TESTED-POSITIVE / TESTED-NEGATIVE / HELD(value-matching) / DORMANT / WALLED / DEAD`.
+`POSTULATED / SUPPORTED / TESTED-POSITIVE / TESTED-NEGATIVE / HELD(value-matching) / DORMANT / WALLED / DEAD`. The
+full physics-bridge terrain (dead/live/heavy) is mapped in **`PHYSICS_BRIDGE_MAP.md`**.
 
 Live speculations have a per-entry file (`S0xx_*.md`); DEAD ones are epitaphs in `TOMBSTONES.md`. The long-form
 exercise that generated these is `PHYSICS_EXERCISE.md`.
@@ -30,7 +31,8 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S019 | Fisher metric on CS level k | DEAD | heuristic, not rigorous |
 | S020 | 3+1D from Cartan geometry | WALLED | type-mismatch (3d→4d) |
 | S021 | entanglement = holographic | TESTED-NEGATIVE | generic CFT (V37) |
-| S022 | the peripheral ℤ/4 for degree=rank's `c` (the successor to θ→c; B111 proves the cusp arithmetic controls the exponent; covering-degree is the candidate mechanism, OPEN) | ACTIVE (lead) | B95, B76, B106, **B111** |
+| S022 | the peripheral ℤ/4 for degree=rank's `c` (the successor to θ→c; B111 proves the cusp arithmetic controls the exponent; covering-degree is the candidate mechanism, OPEN) — **scoped low-rank `n∈{3,4}` (B120/V107)** | ACTIVE (lead) | B95, B76, B106, **B111**, B120 |
+| S023 | the **metallic means are genuinely distinct real quasicrystals** — gap-label fields `ℚ(√5),ℚ(√2),ℚ(√13)`, RG scale `φ_m`, spectral dim all m-distinct, even though the tower algebra is m-universal (B120). 1D condensed matter, firewalled (Phase 1 of `PHYSICS_BRIDGE_MAP.md`) | **TESTED-POSITIVE** | **B120**, B107, K007 |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a
