@@ -23,6 +23,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **B111 — the tower's sign structure + the degree=rank exponent (2026-06-07, Ledger V98; no physics).** The
+  "sign findings" handoff. The opposition-involution all-heights **closed form** (`⌈(n−h)/2⌉` / `⌊(n−h)/2⌋`,
+  matching B62 height-2) is **not** the proved tower: `Tower(n) = [closed form, heights 1..n−1]` with **exactly one
+  `char(M¹)` promoted to `char(Mⁿ)`** (verified n=3,4) — the single non-bulk piece being `char(Mⁿ)` = the
+  **degree=rank** top power. So the tower's **sign half is closed-form** (bulk θ); the only open piece is the
+  degree=rank promotion (peripheral). **ADDITION 1 (proved):** on the SL(4) secondary `M⁴=−1` is scalar ⇒ `k=4`
+  algebraically impossible (`k=3` forced); on the principal `M⁴` non-scalar ⇒ `k=4` allowed (`k=n` not proven).
+  **ADDITION 2:** cusp orders `{n−1,n+1,2n}`; the `ord−1` formula TESTED-NEGATIVE. SL(3) parity corrected to
+  `(t−1)(t−det N)`. Opens two leads (`speculations/S022` peripheral ℤ/4 + `TWO_SYMMETRY_FRAME`); `s_n↔c` DEAD.
 - **The Final Computation Arc — B108/B109/B110 (2026-06-07, Ledger V95–V97; no physics).** **B108 (V95):** the
   top-priority `θ=−w₀ → c` derivation — the mandatory **hinge fails**; `θ` is an involution (order 2) and predicts
   the order-`≤2` Dehn-filling scalars `c∈{1,−1}` but **not** the order-4 secondary `c=i`, so degree=rank's `c`

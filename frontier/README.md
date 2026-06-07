@@ -692,3 +692,14 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   three irreducible components (HMP = B71's V0/W1/W2), all **on** the forced locus (`x1=x4` or `x2=x5`), so there
   is no off-locus irreducible 4₁ SL(3) rep — the single-golden-scale picture is complete for it. **Scope:** the
   broader S011 fork (higher rank / other manifolds) stays **OPEN**.
+- **B111** — **the tower's sign structure = the opposition-involution closed form + one degree=rank promotion**
+  (V98; the sign-findings handoff). The `θ=−w₀` all-heights **closed form** (`⌈(n−h)/2⌉` / `⌊(n−h)/2⌋`; matches B62
+  height-2) is **not** the proved tower: `Tower(n) = [closed form, heights 1..n−1]` with **exactly one
+  `char(M¹)` promoted to `char(Mⁿ)`** (verified n=3,4) — the single non-bulk piece being `char(Mⁿ)` = the
+  **degree=rank** top power (`L=c·Mⁿ`). So the tower's **sign half IS the closed form** (bulk θ); the only open
+  piece is `char(Mⁿ)` (peripheral). **ADDITION 1 (proved):** on the SL(4) secondary `M⁴=−1` is **scalar** ⇒ `k=4`
+  algebraically **impossible** (`k=3` forced); on the principal `M⁴` is non-scalar ⇒ `k=4` allowed (but `k=n` not
+  proven). **ADDITION 2:** cusp orders `{n−1,n+1,2n}`; the `ord−1` formula **TESTED-NEGATIVE**. **SL(3) parity
+  correction:** `(t−1)(t−det N)` (the handoff's `(t+det N)` was wrong). `s_n↔c` DEAD. The leads it opens —
+  the **peripheral ℤ/4** (`speculations/S022`) and the **two-symmetry frame** (`speculations/TWO_SYMMETRY_FRAME`)
+  — name the degree=rank/peripheral half of the `ρ_n` prize.

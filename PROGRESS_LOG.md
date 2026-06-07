@@ -2590,5 +2590,27 @@ Suite 298 passed; no physics; the `ρ_n` catalog proof stays the central target;
 
 ---
 
+## 2026-06-07 — B111: the tower's sign structure + the degree=rank exponent (the "sign findings" handoff)
+
+Banked the Chat 2 "Bank findings + new paths" handoff + the Opus supplement (ADDITION 1/2/3); verify-don't-trust.
+
+**The most-leveraged computation (PATH B, done first).** The opposition-involution all-heights **closed form**
+(`mult char(M^h)=⌈(n−h)/2⌉`, `char(−M^h)=⌊(n−h)/2⌋`, `h=1..n−1`; matches B62's height-2 splits) is **not** the
+proved tower. Diffing vs the exact repo tower (n=3 Lawton Jacobian; n=4 B80): **`Tower(n) = [closed form, heights
+1..n−1]` with exactly one `char(M¹)` promoted to `char(Mⁿ)`** (verified n=3,4). The single non-bulk ingredient is
+`char(Mⁿ)` = the **degree=rank** top power (`L=c·Mⁿ`). **Decision:** the tower's **sign half IS the closed form**
+(bulk θ); the only open piece is `char(Mⁿ)` (peripheral). Both halves of the `ρ_n` prize named.
+
+**ADDITION 1 (proved negative).** On the SL(4) secondary `M⁴=ζ⁴=−1` is **scalar** ⇒ trivial commutator ⇒ `k=4`
+**algebraically impossible**; `k=3` forced. On the principal `M⁴` non-scalar ⇒ `k=4` allowed (but `k=n` *not*
+proven — honest scope). **ADDITION 2:** cusp orders `{n−1,n+1,2n}`; the `ord−1` formula **TESTED-NEGATIVE**.
+Covering-degree A1d: `k`-to-1 at the eigenvalue level (partial-positive), full covering open. **Correction:** the
+SL(3) parity is `(t−1)(t−det N)` (the handoff's `(t+det N)` was a sign slip). `s_n↔c` bridge **DEAD** (same parity
+argument as B108). **Leads opened:** `S022` (the peripheral ℤ/4 — the successor to θ→c) + `TWO_SYMMETRY_FRAME`
+(bulk θ + peripheral cusp; degree=rank at their interface — the promotion `char(M)→char(Mⁿ)` *is* the interface).
+Suite 304 passed; no physics; the `ρ_n` catalog proof stays the target; `CLAIMS.md`/P1–P16 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
