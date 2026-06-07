@@ -1,8 +1,8 @@
-# `knowledge/` — index of explainers `K001–K008`
+# `knowledge/` — index of explainers `K001–K009`
 
 > **STUB (K001–K007).** The titles and scopes are fixed below; the bodies are deferred (lowest-priority writing
 > task, see `GOVERNANCE.md`). Each will be a self-contained explainer — standard material cited to the literature,
-> the project's own use cited to `B`/`V` numbers, no new claims. **K008 is written** (the first non-stub entry).
+> the project's own use cited to `B`/`V` numbers, no new claims. **K008 and K009 are written** (non-stub entries).
 
 | ID | title | scope (what it will explain) | anchors |
 |---|---|---|---|
@@ -13,7 +13,8 @@
 | **K005** | The opposition involution `θ=−w₀` and root systems | `A_{n−1}` root systems, heights, the longest Weyl element, the `(+,−)` eigenspace split; the multiplicity question | B62, B74 |
 | **K006** | The 3d-3d correspondence (the citable physics) | `M_SUSY(T[M]) ≅ M_flat(M;G_C)`, flat connections = vacua, the three branches; the firewall and what is *not* licensed | B101, B107; `../speculations/` |
 | **K007** | The Fibonacci Hamiltonian / quasicrystal trace map | the Kohmoto–Kadanoff–Tang map, Sütő's invariant, the Cantor spectrum, gap-labeling; the metallic-mean family as a studied object | B107; `../speculations/S007` |
-| **K008** ✓ | [The trivial-point tower is determined by `(n; trace, det)`](K008_tower_determined_by_seed.md) | the tower factors as `tower(n; trace, det)` — `n` = Sym unfolding depth, `(trace,det)` = the MCG-word seed; m-universality of the Sym content; the plethysm reframing | B103, B117, B120 |
+| **K008** ✓ | [The trivial-point tower is determined by `(n; trace, det)`](K008_tower_determined_by_seed.md) | the tower factors as `tower(n; trace, det)` — `n` = Sym unfolding depth, `(trace,det)` = the MCG-word seed; m-universality of the Sym content; the plethysm reframing; the `W=V⊕1` symmetric-power identity | B103, B117, B120, B121, B122 |
+| **K009** ✓ | [Why m=1 is special: three independent selection criteria](K009_m1_selection_criteria.md) | the systole (B92), the expansion threshold (P004/B120), and arithmeticity (B123: `m=1` arithmetic, `ℚ(√−3)`, `z₀=e^{iπ/3}`; m≥2 not, Reid 1991) — three independent pieces of imported structure, each picking `m=1` | B92, B120, B123; Reid 1991 |
 
 When a `K`-doc is written, fill its row's status and link it here (✓ = written). Until then this index is the
 contract for what the layer will cover.
