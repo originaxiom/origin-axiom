@@ -23,6 +23,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   migration mapping recorded in `PROGRESS_LOG.md`.
 
 ### Added
+- **The Final Computation Arc — B108/B109/B110 (2026-06-07, Ledger V95–V97; no physics).** **B108 (V95):** the
+  top-priority `θ=−w₀ → c` derivation — the mandatory **hinge fails**; `θ` is an involution (order 2) and predicts
+  the order-`≤2` Dehn-filling scalars `c∈{1,−1}` but **not** the order-4 secondary `c=i`, so degree=rank's `c`
+  stays **OPEN** (missing a `ℤ/4` ingredient; cusp-spectrum candidate, B95). `θ` *is* confirmed a tower symmetry
+  (`[P,J(m)]=0`). **B109 (V96):** the trace-map dynamics at the void (D2) — verify-don't-trust corrected the
+  handoff's coordinate-axis facts to the rigorous linearization (`DT₁²` eigenvalues `{1,φ⁴,φ⁻⁴}`; the void's
+  center manifold = the tower's root-of-unity parity sector, dim 1@SL2/2@SL3; a (2,1) `κ` saddle) + L5 literature
+  (degree=rank `Mⁿ=L` apparently new; the `W₄` anchor real but generic). **B110 (V97):** the off-locus irreducible
+  sector of `4₁` at SL(3) is **EMPTY** (HMP's three components all on the forced locus); the higher-rank fork stays
+  open. Plus the **dead-ends register** (`docs/atlas/FAILURE_ATLAS.md`: ~30 kills by pattern, REVIVABLE lens) and
+  probe updates **S001** (all-`m` amphichiral PROVED), **S006** (Bell → TESTED-NEGATIVE).
 - **B107 physics-connection audit — banked as a NEGATIVE (2026-06-07, Ledger V94; POSTULATED/FIREWALLED).**
   Banks the CC-web physics exploration as a first-class **dead-end log**; *all* physical readings are
   **POSTULATED and firewalled** to `speculations/archive/PHYSICS_RESONANCES.md` (Path 8), **nothing to
