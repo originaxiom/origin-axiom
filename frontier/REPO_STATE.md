@@ -4,6 +4,18 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V98) — B111 the tower's sign structure + the degree=rank exponent
+>
+> The "sign findings" handoff (Chat 2 + the Opus supplement, ADDITION 1/2). **B111 (V98)** — the most-leveraged
+> computation, done first: the `θ=−w₀` all-heights **closed form** (`⌈(n−h)/2⌉`/`⌊(n−h)/2⌋`, matching B62 height-2)
+> is **not** the proved tower — `Tower(n) = [closed form] with one `char(M¹)` promoted to `char(Mⁿ)`** (verified
+> n=3,4). So the **sign half of `ρ_n` is closed-form** (bulk θ); the only open piece is `char(Mⁿ)` = degree=rank
+> (peripheral). **ADDITION 1** (proved): the SL(4) secondary `M⁴=−1` scalar ⇒ `k=4` impossible (`k=3` forced);
+> principal `M⁴` non-scalar ⇒ `k=4` allowed (`k=n` not proven). **ADDITION 2:** cusp orders `{n−1,n+1,2n}`; `ord−1`
+> TESTED-NEGATIVE. Corrected the SL(3) parity to `(t−1)(t−det N)`. **Leads (PR #121):** `S022` (the peripheral
+> ℤ/4, the successor to θ→c) + `TWO_SYMMETRY_FRAME` (bulk θ + peripheral cusp; degree=rank at the interface);
+> `s_n↔c` DEAD. *No physics; the `ρ_n` catalog proof stays the target; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V97) — the Final Computation Arc (B108–B110, the architecture rooms)
 >
 > The CC-web "Final Computation Arc" + the intellectual-architecture build. **Architecture (PRs #113/#114):** four
