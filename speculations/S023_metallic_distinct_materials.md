@@ -29,6 +29,12 @@ box-dimension is a *supporting, finite-size* dynamical observation, not the foun
 means are distinct because they live in **different quadratic fields**, which is exact arithmetic regardless of any
 dynamical sub-claim.
 
+> **⚠ Confirmation (Chat-2 interlude — the demotion stands).** A longer-chain re-check found the box-dimensions
+> **do not cleanly separate**: golden/silver/bronze hover ~0.4–0.5 and drift with chain length, the m-to-m
+> differences within the drift (not converged). This **reconfirms the W1 demotion** — the box-dimension is
+> finite-size/supporting only; `TESTED-POSITIVE` rests on the exact arithmetic field-distinctness, which is
+> unaffected. No re-scope needed.
+
 **[LEAP] (kept separate).** "The algebra is **one** object (m-universal, B120); the physics is a **family of
 distinct materials**." The connection-to-reality your intuition senses is real and computable — it is the
 **spectral theory of buildable quasicrystals** (silver/bronze are realizable), each with its own quadratic-field

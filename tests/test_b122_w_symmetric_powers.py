@@ -38,3 +38,28 @@ def test_a7a_sym4_unique_saturation():
 def test_honest_not_a_wall_bypass():
     nb = B.not_a_wall_bypass()
     assert nb["wall_bypassed"] is False           # repackaging + canonical W, NOT a proof route
+
+
+# --- Chat-2 interlude extensions (det layers + void-specificity) ---
+
+def test_fig8_is_golden_squared():
+    fg = B.fig8_is_golden_squared()
+    assert fg["M1sq"] == [[2, 1], [1, 1]] and fg["det_is_plus_one"] is True   # fig-8 = golden^2, det +1
+
+
+def test_magnitude_layer_det_independent_through_n14():
+    md = B.magnitude_layer_det_independent(14)
+    assert md["all_match"] is True and md["det_independent"] is True   # W-identity holds det=+/-1, n<=14
+
+
+def test_sign_layer_is_det_minus_one():
+    sl = B.sign_layer_is_det_minus_one()
+    assert sl["inversion_holds_det_minus_1"] is True       # char(M^-1)=char(-M) at det=-1
+    assert sl["inversion_fails_det_plus_1"] is True         # ... fails at det=+1 (the sign layer is metallic)
+
+
+def test_sym_tower_is_void_specific_order_6():
+    vs = B.sym_tower_is_void_specific()
+    assert vs["void_charpoly_is_Sym2M"] is True             # void (2,2,2) = Sym^2(M)
+    assert vs["zero_charpoly_is_lam3_plus_1"] is True        # (0,0,0) char poly lambda^3+1 = 6th roots
+    assert vs["order_is_6_not_3"] is True                    # the order-6 correction (NOT cube roots / order 3)

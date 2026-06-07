@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B122 interlude extensions — the det layers split + the Sym tower is void-specific (2026-06-07; annotations, no
+  new ledger row).** Two terrain-sweeping findings banked as extensions of B122 (verify-don't-trust): **(F1)** the
+  **magnitude layer** (the W-identity / `μ_d`) is **`det`-independent** — a polynomial identity in `(x,y)`, holds
+  `det=+1` as well as `det=−1` (verified through n=14), so it is *more general than the metallic ray*; the **sign
+  layer** (the inversion identity `char(M⁻¹)=char(−M)`, the parity factor) is **`det=−1`-specific** (the parity
+  `(t−1)(t+1)→(t−1)²` collapses going golden → fig-8 `=`golden², `det=+1`). **(F2)** the `Sym` tower is
+  **void-specific**: at SL(2) the void Jacobian `=Sym²(M)`, the other fixed point `(0,0,0)` is **6th roots of unity**
+  (`λ³+1`, `DT⁶=I` — order 6, a corrected narration slip of "order 3"), elliptic not `Sym` (corroborates B106).
+  Confirmations: the W-identity holds through n=14; the S023 box-dimensions do not cleanly separate (finite-size,
+  reconfirming the W1 demotion). None touch the wall — the functorial `Sym(W)→trace-ring` construction is still the
+  one missing piece. Nothing to `CLAIMS.md`; P1–P16 untouched.
 - **Firewalled triage of the cross-chat "seven hints" (2026-06-07; docs/governance, no math).** Banking the
   physics-facing hints on the `μ_d` object as **different tiers** so the firewall does not leak: `philosophy/P005`
   (laws vs states — INTERPRETATION on B120's spectral/geometric split); `speculations/S028` (the

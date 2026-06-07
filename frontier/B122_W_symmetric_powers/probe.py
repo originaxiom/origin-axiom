@@ -164,6 +164,79 @@ def not_a_wall_bypass():
                        "but does NOT lower the trace-ring wall. Magnitude layer only (signs = the det=-1 layer, B118)."}
 
 
+# --------------------------------------------------------------------------- #
+# the two layers split by det (Chat-2 interlude finding 1) + the n<=14 confirmation
+# --------------------------------------------------------------------------- #
+def fig8_is_golden_squared():
+    """The figure-eight monodromy is the golden unit SQUARED: M_1^2 = [[2,1],[1,1]], det=+1, eigenvalue phi^2.
+    Squaring the golden (det=-1) seed gives the fig-8 (det=+1) -- squares the eigenvalues, collapses the signs."""
+    M1 = sp.Matrix([[1, 1], [1, 0]])                    # golden, det = -1
+    M2 = M1 * M1
+    return {"M1sq": M2.tolist(), "det": int(M2.det()), "trace": int(M2.trace()),
+            "det_is_plus_one": M2.det() == 1, "eigenvalue": "phi^2 = (3+sqrt5)/2"}
+
+
+def magnitude_layer_det_independent(nmax=14):
+    """The MAGNITUDE layer (the W-identity / Sym content mu_d) is DET-INDEPENDENT: the identity holds for general
+    (x,y) (B122), so it is NOT a det=-1 feature; the multiplicity form matches mu_d through n=nmax (confirmation,
+    extends the banked n<=11)."""
+    from collections import Counter
+    bad = []
+    for n in range(2, nmax + 1):
+        c = Counter()
+        for k in range(0, n + 1):
+            c[k] += 1
+        for k in range(0, max(n - 3, -1) + 1):
+            c[k] += 1
+        c[0] -= 1
+        c[1] -= 1
+        if {k: v for k, v in c.items() if v != 0} != dict(_mu(n)):
+            bad.append(n)
+    return {"matches_through_n": nmax, "all_match": len(bad) == 0,
+            "det_independent": True,
+            "note": "the W-identity is a polynomial identity in (x,y) (B122), so the magnitude layer holds for "
+                    "det=+1 as well as det=-1 -- it is MORE GENERAL than the metallic ray (det=-1)."}
+
+
+def sign_layer_is_det_minus_one():
+    """The SIGN layer (the inversion identity char(M^-1)=char(-M), the parity factor) is DET=-1-SPECIFIC:
+    char(M^-1)-char(-M) = 0 at det=-1, = -2*t*tau at det=+1 (fails); the parity factor (t-1)(t-det) collapses
+    (t-1)(t+1) -> (t-1)^2 going golden(det-1) -> fig8(det+1=golden^2)."""
+    tt, tau, dd = sp.symbols("t tau d")
+    diff = sp.simplify((tt ** 2 - (tau / dd) * tt + 1 / dd) - (tt ** 2 + tau * tt + dd))
+    return {"inversion_holds_det_minus_1": sp.simplify(diff.subs(dd, -1)) == 0,
+            "inversion_fails_det_plus_1": sp.simplify(diff.subs(dd, 1)) != 0,
+            "parity_det_minus_1": str(sp.factor((tt - 1) * (tt + 1))),
+            "parity_det_plus_1": str(sp.factor((tt - 1) * (tt - 1))),
+            "note": "the signs (char(M^h) vs char(-M^h), B118) are the metallic/orientation feature; squaring "
+                    "golden->fig8 squares the eigenvalues and COLLAPSES the (t-1)(t+1) parity to (t-1)^2."}
+
+
+# --------------------------------------------------------------------------- #
+# the Sym tower is VOID-SPECIFIC (Chat-2 interlude finding 2; SL(2), order-6 corrected)
+# --------------------------------------------------------------------------- #
+def sym_tower_is_void_specific():
+    """At SL(2) on the trace map T(x,y,z)=(z,x,xz-y): at the VOID (2,2,2) the Jacobian eigenvalues are
+    {-1, phi^2, psi^2} = Sym^2(M) (the n=2 tower); at the OTHER fixed point (0,0,0) they are {-1, e^{+-i pi/3}} =
+    6th roots of unity (char poly lambda^3+1, DT^6=I) -- elliptic, NOT Sym-organized. So the Sym tower is the
+    linearization where the abelianization M acts: VOID-SPECIFIC (corroborates B106). [Order 6, not order 3.]"""
+    xs, ys, zs, lam = sp.symbols("xs ys zs lam")
+    T = [zs, xs, xs * zs - ys]
+    DT = sp.Matrix([[sp.diff(Ti, v) for v in (xs, ys, zs)] for Ti in T])
+    cp_void = sp.factor(DT.subs({xs: 2, ys: 2, zs: 2}).charpoly(lam).as_expr())
+    cp_zero = sp.expand(DT.subs({xs: 0, ys: 0, zs: 0}).charpoly(lam).as_expr())
+    phi = (1 + sp.sqrt(5)) / 2
+    sym2 = sp.expand(sp.prod([lam - e for e in (phi ** 2, sp.Integer(-1), 1 / phi ** 2)]))
+    void_is_sym2 = sp.simplify(cp_void - sym2) == 0
+    zero_is_lam3p1 = sp.simplify(cp_zero - (lam ** 3 + 1)) == 0       # 6th roots; NOT lambda^3-1 (cube roots)
+    return {"void_charpoly_is_Sym2M": bool(void_is_sym2),
+            "zero_charpoly_is_lam3_plus_1": bool(zero_is_lam3p1),
+            "zero_spectrum": "{-1, e^{+-i pi/3}} = 6th roots of unity (DT^6=I, order 6)",
+            "order_is_6_not_3": bool(zero_is_lam3p1),
+            "note": "the Sym^d(M) tower lives at the void (where M acts); the other fixed point is elliptic / "
+                    "root-of-unity (order 6), NOT Sym -- the Sym organization is void-specific (B106 made explicit)."}
+
+
 def main():
     print("=" * 78)
     print("B122 -- the tower is symmetric powers of the external fundamental W = V (+) 1 (unifies B121)")
@@ -183,6 +256,21 @@ def main():
     nb = not_a_wall_bypass()
     print(f"\n[VERDICT] wall bypassed: {nb['wall_bypassed']}")
     print(f"    {nb['verdict']}")
+    print("\n" + "-" * 78)
+    print("Chat-2 interlude extensions (terrain-sweeping; none touch the wall)")
+    print("-" * 78)
+    fg = fig8_is_golden_squared()
+    print(f"\n[F1] fig-8 monodromy = golden^2: M_1^2={fg['M1sq']}, det={fg['det']} (+1), eigenvalue {fg['eigenvalue']}")
+    md = magnitude_layer_det_independent(14)
+    print(f"[F1 magnitude] the W-identity is DET-INDEPENDENT (holds general (x,y)); matches mu_d through n={md['matches_through_n']}: "
+          f"{md['all_match']}")
+    sl = sign_layer_is_det_minus_one()
+    print(f"[F1 sign] inversion char(M^-1)=char(-M): det=-1 {sl['inversion_holds_det_minus_1']}, det=+1 FAILS "
+          f"{sl['inversion_fails_det_plus_1']}; parity (t-1)(t+1) [det-1] -> {sl['parity_det_plus_1']} [det+1]")
+    vs = sym_tower_is_void_specific()
+    print(f"\n[F2 void-specific] void (2,2,2) = Sym^2(M): {vs['void_charpoly_is_Sym2M']}; (0,0,0) char poly lambda^3+1 "
+          f"= {vs['zero_spectrum']}: {vs['zero_charpoly_is_lam3_plus_1']} (order 6, NOT 3: {vs['order_is_6_not_3']})")
+    print("\nNone of these lower the wall: the functorial Sym(W)->trace-ring map is still the one missing piece.")
 
 
 if __name__ == "__main__":

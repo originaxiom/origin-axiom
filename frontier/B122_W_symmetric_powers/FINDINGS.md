@@ -56,5 +56,30 @@ map** was found; the `Sym⁴(3)=15` saturation is n=4-only (the correction term 
 > fundamental `W` — a construction that does not yet exist. This is the **magnitude layer** (the `Sym` content); the
 > signs `char(M^h)` vs `char(−M^h)` are the orthogonal **`det=−1` layer** (B118's `(−1)^{h+1}`).
 
-**Ledger:** V111. **Reuses:** `B103.two_sequence_mult`. **Unifies:** B121 (the external action) + Chat-2's
-W-identity. **Anchors:** B117 (two-sequence + dimension identity), B118 (the sign layer), B120 (m-universality).
+## Extensions (Chat-2 interlude — terrain-sweeping; none touch the wall)
+
+- **The two layers split by `det` (Finding 1).** The figure-eight monodromy is the **golden unit squared**:
+  `M₁² = [[2,1],[1,1]]`, `det=+1`, eigenvalue `φ²`. From this the layers separate:
+  - **Magnitude layer (the W-identity / `μ_d`) is `det`-INDEPENDENT.** The identity is a polynomial identity in
+    `(x,y)` (above), so it holds for `det=+1` as well as `det=−1` — it is **more general than the metallic ray**
+    (not a `det=−1` feature). The multiplicity form matches `μ_d` **through n=14** (confirmation, past the banked
+    n≤11).
+  - **Sign layer (the inversion identity `char(M⁻¹)=char(−M)`, the parity sector) is `det=−1`-SPECIFIC.** Symbolic:
+    `char(M⁻¹)−char(−M) = 0` at `det=−1`, `= −2tτ` at `det=+1` (fails). The parity factor `(t−1)(t−det)` collapses
+    `(t−1)(t+1) → (t−1)²` going golden (`det=−1`) → fig-8 (`det=+1=`golden²) — squaring squares the eigenvalues and
+    collapses the signs while leaving the `Sym` content intact. **This confirms the two-layer model exactly:** W =
+    magnitude (`det`-independent); signs = the metallic/orientation feature (B118, `det=−1`).
+- **The `Sym` organization is VOID-SPECIFIC (Finding 2; explicit at SL(2), corroborates B106).** On the trace map
+  `T(x,y,z)=(z,x,xz−y)`: at the **void `(2,2,2)`** the Jacobian eigenvalues are `{−1, φ², ψ²} = Sym²(M)` (the n=2
+  tower); at the **other fixed point `(0,0,0)`** they are `{−1, e^{±iπ/3}}` = **6th roots of unity** (char poly
+  `λ³+1`, `DT⁶=I` — order **6**, *not* cube roots / order 3), an elliptic spectrum, **not** `Sym`-organized. So the
+  `Sym^d(M)` tower lives where the abelianization `M` acts — the void — making B106's "non-void reps are a different
+  spectral type" explicit and computable at SL(2).
+
+**The standing truth.** None of this lowers the wall. The functorial `Sym(W)→trace-ring` construction (a natural map
+defined without the ambient `SL(n)` trace ring) is still the one missing piece — a construction to be found, not a
+probe to be run.
+
+**Ledger:** V111 (light annotation for these extensions). **Reuses:** `B103.two_sequence_mult`. **Unifies:** B121
+(the external action) + Chat-2's W-identity. **Anchors:** B117 (two-sequence + dimension identity), B118 (the sign
+layer), B120 (m-universality), B106 (void vs non-void spectral types).

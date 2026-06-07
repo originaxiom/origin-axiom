@@ -59,6 +59,13 @@ The Sym two-sequence is not a custom decomposition — it is **symmetric powers 
   `det=−1` parity that splits the catalog (B93/B94) and gives the inversion sign (B118).
 - **`Sym⁴(3-space) = 15 = sl(4)`**, and `4` is the *unique* order where `Sym^a(3-space)` saturates `n²−1` — the n=4
   fixed point of the dimension identity, restated.
+- **The magnitude layer is `det`-independent; the sign layer is the metallic feature.** The W-identity is a
+  polynomial identity in the eigenvalues, so it holds for `det=+1` as well as `det=−1` (verified through n=14) — the
+  `Sym` content is **more general than the metallic ray**. The *signs* (`char(M^h)` vs `char(−M^h)`, the inversion
+  identity `char(M⁻¹)=char(−M)`, B118) are `det=−1`-specific and collapse under squaring (the figure-eight monodromy
+  `= `golden²`, det=+1`). And the `Sym` tower is **void-specific**: it is the linearization where the abelianization
+  `M` acts (the trivial fixed point); off the void the trace map is elliptic / root-of-unity (e.g. order-6 at SL(2)),
+  not `Sym`-organized (B106).
 
 ## What it does *not* license
 
