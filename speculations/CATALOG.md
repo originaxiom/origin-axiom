@@ -19,7 +19,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S008 | trace-map orbit count (DORMANT-D2) \| "iterations = e-folds" (HELD) | split | D2 pending |
 | S009 | confinement from `M³=L` | DORMANT | SL(3) Wilson loops |
 | S010 | n=4 boundary = `W₄` truncation | DORMANT | L5 literature |
-| S011 | irreducible OFF-locus sector (the open fork; **NOT** B106) | ACTIVE (uncomputed) | off-locus computation |
+| S011 | irreducible OFF-locus sector (the open fork; **NOT** B106) — **B110: EMPTY for 4₁ at SL(3)** (all 3 irreducible components on the forced locus, HMP); narrowed to higher-rank / other-manifold, still OPEN | ACTIVE (narrowed) | **B110**, HMP 1505.04451 |
 | S012 | θ=−w₀ predicts the Dehn-filling c-values (FEEDS ρ_n) — **B108: NO** on the hinge; θ (order 2) predicts the order-`≤2` c but not the order-4 secondary c=i; degree=rank's c stays OPEN, missing a ℤ/4 ingredient | TESTED-NEGATIVE | B62, B106, **B108** |
 | S013 | hierarchies = powers of one scale (structural); value-match = HELD | SUPPORTED | — |
 | S014 | cosmological-constant **value** | DEAD | null hypothesis (`../CLAIMS.md` D1–D3) |
