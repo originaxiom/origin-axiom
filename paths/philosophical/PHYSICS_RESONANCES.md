@@ -79,6 +79,27 @@ mass scale, exact conformal symmetry; it is a toy/laboratory theory, not observe
 of V0 sits in the broader literature, and it does **not** reopen the physics chapter. (The "spacetime climbs
 the ranks" sub-hope is separately `dead` — Path 1, B101 R2.)
 
+## Path 8 — the quasicrystal anchor + the single-scale negative → **CITED CONTEXT, headline NEGATIVE (B107)**
+*The mathematics* (B107, banked as trace-map dynamics — *not* physics): the SL(2) metallic trace map
+`φ_m: a→aᵐb, b→a` **is** the Kohmoto–Kadanoff–Tang / Fibonacci-Hamiltonian trace map (`tr[A,B]` = Sütő's
+spectral invariant `x²+y²+z²−xyz−2`, conserved for all `m`; `φ_1=(z,x,xz−y)`). So the tower sits on a **known
+quasicrystal object** — cite Sütő (1989), Damanik–Gorodetski–Yessen (Invent. Math. 206, 2016), Roberts
+(Physica A 228, 1996). *The decisive negative:* every SL(3) Fibonacci tower eigenvalue is `±φᵏ` — a **single
+geometric scale `log φ`** dressed by signs/powers. A mass spectrum is the **Hessian of an action**, generically
+not one ratio; a "spectrum" that collapses to one number is **re-presented moduli-space monodromy, not new
+physics**. *The corrected overclaims* (withdrawn category errors, like the V90/V91 downgrades): *tower
+eigenvalues = anomalous-dimensions/masses* and *torsion = masses* are **NOT** the 3d-3d dictionary — the
+tower/torsion are linearized monodromy on the moduli-space tangent, masses are the fluctuation Hessian
+(operator content), which the monodromy does not determine. **What is real and citable** is *moduli-space
+level only*: `M_SUSY(T[M]) ≅ M_flat(M;G_C)` (vacua = flat connections; GKLP `1305.0937`, DGG `1108.4389`,
+`1112.5179`), with the **three flat-connection types ↔ three vacuum branches** (trivial↔unbroken,
+geometric↔Higgs, Dehn-filling↔Coulomb) = the three trace-map fixed-point classes (B106). *The one open fork:*
+the genuinely irreducible **off-principal** SL(n) reps (multichannel quasiperiodic, not one Fibonacci chain)
+are untouched by the tower; B106's D1 root-of-unity data (`±i,−1`; `ω,ω²`, independent of `φ`) confirms the
+single-scale pattern **breaks** there — the only place any independent content could live. **All of this is
+cited context, never a claim, never promoted; the physics chapter stays CLOSED.** See
+`frontier/B107_physics_connection_audit/`.
+
 ## Overall verdict (honest)
 The disciplined experiment — *compute the numbers, interpret after* — **answers the physics question
 cleanly and negatively**: the one decisive, leveraged computation (the Hessian signature) is `(0,2)`

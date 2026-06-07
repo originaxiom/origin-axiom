@@ -649,3 +649,26 @@ The physics chain is **firewalled** to `paths/philosophical/PHYSICS_RESONANCES.m
   prove `char(ρ_n)=catalog` by reproducing the **opposition-involution multiplicities** directly from `ρ_n`,
   the contested n=5 piece being *only* B62's `char(M²)²`. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer
   1209.3526 / Douglas–Sun 2011.01768) cited; H1–H6 / C1–C4 tabulated.
+- **B106** — **the trace map at the DEHN-FILLING fixed points** (V92, **hygiene V93**; `computer-assisted`).
+  The never-computed **third** fixed-point class (after the *trivial*=tower and *geometric*=torsion reps).
+  **D1:** three classes, three distinct Jacobian signatures — trivial/geometric hyperbolic `(3,3,2)`,
+  Dehn-filling **partially ELLIPTIC** (SL(3) W1/W2 `(1,1,6)`; SL(4) principal/secondary `(4,4,7)` with
+  root-of-unity neutral eigenvalues). **Honest negative:** the stability *type* does **not** encode the
+  degree=rank exponent (both SL(4) components `(4,4,7)`, yet exponents 4 vs 3). **D4:** `μ` and `[A,B]`
+  commute; **`Lᵢ = c·Mᵢ^k` per eigenvector** (`c` a root of unity: `1` SL(3); `−1`/`i` SL(4)). **D3:** `M⁴=L`
+  (principal), `M³=L` (secondary); conjugates absent. **[V93 hygiene]** the D1 root-of-unity *values* pass the
+  **B84 gauge-noise gate** (seed-stable across ≥3 seeds — `1,±i,−1`; `1,ω,ω²`); the D4 SL(4) **principal**
+  (`c=−1`) **corroborates** the proved B89/B83 `L=(−1)^{n−1}Mⁿ` (not a new advance), the **new** content being
+  the **secondary** (`c=i`, numerical), **SL(3) W2**, and the **per-eigenvector method**. No physics.
+- **B107** — **the physics-connection audit (the headline is a NEGATIVE)** (V94, **POSTULATED/FIREWALLED**).
+  Banks the CC-web physics exploration as a first-class **dead-end log**; *all* physical readings are
+  POSTULATED + firewalled to `paths/philosophical/PHYSICS_RESONANCES.md` (Path 8), **nothing to `CLAIMS.md`**,
+  the physics chapter stays **CLOSED**. **A (verified anchor):** the metallic trace map `φ_m: a→aᵐb, b→a` **is**
+  the KKT/Fibonacci trace map (`tr[A,B]=x²+y²+z²−xyz−2` = Sütő invariant, conserved ∀m; `φ_1=(z,x,xz−y)`) — a
+  known quasicrystal object. **B (verified — the headline negative):** every SL(3) `m=1` tower eigenvalue is
+  `±φᵏ` — **one geometric scale `log φ`**; a mass spectrum is a Hessian, not one ratio, so the tower is
+  **re-presented moduli-space monodromy, not new physics**. **C (corrected overclaim):** tower/torsion `≠`
+  masses (withdrawn); only the *moduli-space-level* `M_SUSY ≅ M_flat` + the three-branch ↔ three-fixed-point
+  map is citable. **D:** citations confirmed (GKLP 1305.0937; DGG 1108.4389, 1112.5179). **E (open fork):** the
+  off-principal multichannel reps — where B106's root-of-unity D1 data (Addition 3) shows the single-scale
+  pattern breaks; the open `c→θ` check links it to the `ρ_n` target.

@@ -4,6 +4,25 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-07 (post-V94) — B106 Dehn-filling anatomy + hygiene + B107 physics-connection audit
+>
+> **B106 (V92) + hygiene (V93):** the trace map at the **Dehn-filling** reps — the never-computed *third*
+> fixed-point class (after trivial=tower and geometric=torsion). Three distinct Jacobian signatures; the
+> Dehn-filling reps are **partially elliptic** (SL(3) `(1,1,6)`, SL(4) `(4,4,7)`, root-of-unity neutral
+> eigenvalues). Honest negative: the stability *type* does **not** encode the degree=rank exponent. `Lᵢ=c·Mᵢ^k`
+> per eigenvector; `M⁴=L`/`M³=L`, conjugates absent. **[V93]** the D1 root-of-unity values pass the B84
+> gauge-noise gate (seed-stable); the SL(4) principal (`c=−1`) **corroborates** the proved B89/B83 (not new),
+> the **new** content is the secondary (`c=i`, numerical), SL(3) W2, and the per-eigenvector method. PR #110.
+>
+> **B107 (V94, POSTULATED/FIREWALLED):** the CC-web physics exploration banked as a **dead-end log whose
+> headline is a NEGATIVE**. **A:** the metallic trace map **is** the KKT/Fibonacci trace map (`tr[A,B]`=Sütő
+> invariant, conserved ∀m). **B:** every SL(3) tower eigenvalue is `±φᵏ` — **one golden scale** ⇒ re-presented
+> moduli-space monodromy, **not new physics** (the decisive negative). **C:** tower/torsion `=` masses are
+> withdrawn category errors; only the moduli-space `M_SUSY≅M_flat` + three-branch↔three-fixed-point map is
+> citable. **D:** GKLP 1305.0937, DGG 1108.4389/1112.5179. **E:** the off-principal multichannel fork is open.
+> *All physics firewalled to `paths/philosophical/PHYSICS_RESONANCES.md` (Path 8); nothing to `CLAIMS.md`; the
+> physics chapter stays CLOSED; P1–P16 untouched.*
+>
 > ## Update — 2026-06-07 (post-V91) — B105 three-obstacle correction + sharpened ρ_n target
 >
 > A further **explicit downgrade** of B105's "one collision is the common root cause" (verify-don't-trust:
