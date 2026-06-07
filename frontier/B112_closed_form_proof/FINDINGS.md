@@ -7,8 +7,11 @@
 >    root-system reversal lemma (below) gives the `⌈/⌊` eigenspace dimensions of `θ=−w₀` on the `A_{n−1}`
 >    height-`h` root spaces, for all `n`. **A real theorem — it stands.**
 > 2. **The *fixed-root labeling* (which sector is `char(M^h)` vs `char(−M^h)`) = B64** — proved symbolic at SL(3)
->    + structural + verified-against-the-tower; **all-`n` pending B118** (the contragredient fixed-root-sign
->    computation, Path 1).
+>    + structural + **tower-verified `n≤5`**. **B118 (V105)** computed the genuine *signed* fixed-root sign:
+>    `(−1)^{h+1}` (all `n`) — **NOT a uniform `+1`**, so B64's "`+1` sector = `char(M^h)`" holds only for odd `h`
+>    (a refinement; the `(⌈,⌊)` dimensions are untouched). The all-`n` *labeling* stays tower-verified `n≤5`
+>    (B118 supplies the sign, not an independent all-`n` labeling proof); the fixed-root sign **is** the inversion
+>    identity `char(M^{−h})=char(−M^h)` (odd `h`).
 > 3. **The *tower realization with powers* — VERIFIED `n ≤ 5`, and SUPERSEDED as the tower.** The identification
 >    of the θ-split with the **tower's** `char(±M^h)` multiplicities (the long-standing V25 step) holds only
 >    `n ≤ 5`; at `n ≥ 6` the θ-split **diverges** from the **Sym two-sequence** (B103/B116) — the actual tower —

@@ -741,3 +741,25 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   prove the two-sequence `μ_d` for all n (B103). **B112 relabeled to three tiers** (the `−w₀` multiplicity
   structure up to the fixed-root label — proved all n; the fixed-root labeling = B64, pending B118; the tower
   realization with powers — verified n≤5, superseded). The "promotion"/"two-halves" framing is **tombstoned**.
+- **B118** — **the θ=−w₀ fixed-root sign: the closed form `(−1)^{h+1}` (NOT a uniform +1)** (V105; Chat-2 Path 1,
+  the gate). B112 proved the `(+1,−1)` eigenspace *dimensions* by a permutation argument; the `⌈`-vs-`⌊` tip is
+  decided by the sign θ carries on the lone fixed root (odd `m=n−h`). Path 1 asked whether that sign is `+1` for
+  all `(n,h)` (which would make B64 a uniform "`+1` sector = `char(M^h)`" theorem). Realizing θ as the genuine
+  *signed* contragredient involution `τ(X)=−J Xᵀ J⁻¹` gives the closed form **fixed-root sign `= (−1)^{h+1}`**
+  (symbolic + verified all n≤12) — **`+1` for odd `h`, `−1` for even `h`: NOT a uniform +1.** So B64's "`+1`
+  sector = `char(M^h)`" holds only for odd `h` — a **refinement/correction** of B112's unsigned "fixed root is
+  always +1". The `(⌈,⌊)` dimensions stand; B112's `char(M^h)=⌈` labeling stays tower-verified `n≤5` (B118 supplies
+  the all-`n` sign, not an independent all-`n` labeling proof). **Emergent (non-circular):** the fixed-root sign
+  `= +1` ⟺ the inversion/det identity `char(M^{−h})=char(−M^h)` holds ⟺ `h` odd (`M⁻¹∼−M`). **Honest scope
+  (B116/B117):** the θ-split is **not the tower** (the Sym two-sequence, diverges `n≥6`).
+- **B119** — **the Mᵏ-scalar (centrality) mechanism — a sharp negative on "prove `k=n` on the principal"** (V106;
+  Chat-2 Path 3, the hard path). The brave attempt from cusp eigenvalue arithmetic. `Mᵏ` is central on the
+  principal iff `order(a)|k` (`a+1/a=3−n`, `order(a)={4,3,2,∞}` for n=3,4,5,≥6). Where the principal exists (n=3,4)
+  `k=n` is non-central but **not the unique** non-central `k` ⇒ centrality does **not** force `k=n` (the proved
+  A-poly `L=(−1)^{n−1}Mⁿ`, B83, pins it — the scalar route is subsumed by B83). For **n≥5 the principal does not
+  exist irreducibly** (B95: n=5 `A²=I` dihedral; n≥6 no finite-order spectrum), so there is nothing to prove ⇒
+  **`exponent=rank` is an `n∈{3,4}` phenomenon**; the brave proof cannot be completed. The **secondary** 2n-type
+  gives exponent `n−1` (`Mⁿ=−I` central; extends B111). **Emergent (B111 ADD2 correction):** the principal cusp
+  order is `{4,3,2,∞}`, **not** a clean `{n−1,n+1,2n}` law — B111 ADD2 conflated three components (W1=n+1,
+  principal=n−1, secondary=2n). Reframe (B117): the bulk `char(Mⁿ)` is `Sym^n` presence, so this was only the
+  peripheral `k=n` — the one open shot at a *positive* power-half mechanism, now closed negative.
