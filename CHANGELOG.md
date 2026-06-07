@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **The n=5 wall characterized + the ρ_n convergence (2026-06-07, Ledger V89; suite 278 passed, 1 skip; no
+  physics).** `frontier/B105_n5_wall_and_convergence/`: executes the "n=5 Resolution + Literature + Final
+  Observations" handoff. **N5 (decisive):** the SL(5) tower degeneracy is a **coordinate artifact, not a
+  structural change** — 21/24 Dickson factors resolve, the resolved 21 are universally catalog-consistent,
+  the corrupted 3-dim factor is gauge noise (varies across seeds); the strict "all 3" bar is unmet (n=5
+  catalog formally open, obstruction = the gauge-degeneracy at the repeated `−1` cusp eigenvalue), but "the
+  formula changes at n=5" is ruled out. **H6 (unified wall):** the forced cusp spectra collide first at n=5
+  (`−1` mult 2) — one root cause for the tower / degree=rank / eps-series walls; natural boundary at n=4,
+  proved. **Convergence:** the project converges on one object `ρ_n` (the `GL(2,ℤ)`-rep on the SL(n) trace
+  ring), fully characterized n=3,4. Literature L1 (GKLP 1305.0937) + L4 (Bonahon–Dreyer / Douglas–Sun) cited;
+  H1–H6 / C1–C4 tabulated; physics quarantined.
 - **The Dehn-twist route: SL(4) universality + the SL(5) wall (2026-06-07, Ledger V88; suite 274 passed, 1
   skip; no physics).** `frontier/B104_dehn_twist_tower/`: executes the "Dehn-Twist Route" handoff in full —
   build any monodromy's trace map by composing the elementary twists `U,L,S` inside the eps-series (not the
