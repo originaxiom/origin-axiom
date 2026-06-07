@@ -140,6 +140,57 @@ def sl4_dehn_jacobian(component):
     return ev, _stability(ev)
 
 
+def d1_neutral_eigenvalues_are_roots_of_unity(seeds=(0, 1, 2)):
+    """[V93 hygiene] The SL(4) Dehn-filling Jacobian's NEUTRAL eigenvalues (|.|=1) are EXACTLY roots of unity
+    and seed-stable -- NOT gauge noise from the pinv at the repeated-eigenvalue rep (the B84 lesson). Returns,
+    per component, the sorted multiset of neutral-eigenvalue angles/(2*pi) and whether they are stable across
+    the realize seeds. (The realize seed varies the point B on the component; the elliptic/root-of-unity
+    neutral angles are invariant, only the hyperbolic pair moves.)"""
+    df, jc = _df(), _jc()
+    out = {}
+    for comp in ("principal", "secondary"):
+        per_seed = []
+        for sd in seeds:
+            A, B, t = df.realize_bundle_rep(np.array(SL4_SPECTRA[comp]), seed=sd)
+            ev = _sl4_jacobian_from_rep(A, B, jc)
+            ang = sorted(round(float(np.angle(e) / (2 * np.pi)), 3) for e in ev if abs(abs(e) - 1) < 1e-2)
+            # are they all rational p/q with q<=6 (roots of unity)?
+            rou = all(min(abs(a - k / q) for q in range(1, 7) for k in range(-q, q + 1)) < 1e-3 for a in ang)
+            per_seed.append((tuple(ang), rou))
+        angles0 = per_seed[0][0]
+        out[comp] = {"angles_over_2pi": list(angles0), "all_roots_of_unity": all(r for _, r in per_seed),
+                     "seed_stable": all(s[0] == angles0 for s in per_seed)}
+    return out
+
+
+def _sl4_jacobian_from_rep(A, B, jc):
+    basis = [np.array(b, dtype=complex) for b in jc.basis_sln(4)]
+    pool = ["".join(p) for L in range(1, 5) for p in itertools.product("abAB", repeat=L)]
+    h = 1e-6
+    sigma = lambda A, B: (A @ B @ A, A @ B)
+
+    def dcmat(words, after_sigma=False):
+        D = np.zeros((len(words), 30), complex)
+        for k, X in enumerate(basis):
+            Ap, Am, Bp, Bm = A @ expm(h * X), A @ expm(-h * X), B @ expm(h * X), B @ expm(-h * X)
+            if after_sigma:
+                D[:, k] = (_cvec(*sigma(Ap, B), words) - _cvec(*sigma(Am, B), words)) / (2 * h)
+                D[:, 15 + k] = (_cvec(*sigma(A, Bp), words) - _cvec(*sigma(A, Bm), words)) / (2 * h)
+            else:
+                D[:, k] = (_cvec(Ap, B, words) - _cvec(Am, B, words)) / (2 * h)
+                D[:, 15 + k] = (_cvec(A, Bp, words) - _cvec(A, Bm, words)) / (2 * h)
+        return D
+    Dall = dcmat(pool)
+    chosen, cur = [], np.zeros((0, 30), complex)
+    for i in range(len(pool)):
+        test = np.vstack([cur, Dall[i]])
+        if np.linalg.matrix_rank(test, tol=1e-6) > cur.shape[0]:
+            chosen.append(pool[i]); cur = test
+        if len(chosen) == 15:
+            break
+    return np.linalg.eigvals(dcmat(chosen, True) @ np.linalg.pinv(dcmat(chosen)))
+
+
 def jacobian_stability_does_not_encode_exponent():
     """HONEST NEGATIVE: both SL(4) Dehn-filling components have the SAME stability signature (4,4,7), yet the
     principal exponent is 4 and the secondary 3 -- the exponent is NOT read off the Jacobian."""
