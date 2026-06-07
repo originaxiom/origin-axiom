@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **Firewalled triage of the cross-chat "seven hints" (2026-06-07; docs/governance, no math).** Banking the
+  physics-facing hints on the `μ_d` object as **different tiers** so the firewall does not leak: `philosophy/P005`
+  (laws vs states — INTERPRETATION on B120's spectral/geometric split); `speculations/S028` (the
+  `Sym⁴(3-space)=sl(4)` reading — the **algebra is proved** in B122, the **"3+1" geometry is fenced** POSTULATED,
+  "spacetime" stripped as adjacent to the DEAD S017/S018, bound to B122's open functorial hinge; the spin-2/gravity
+  overlay recorded fenced *underneath* the math, never in `knowledge/`). The CS-crossover `k≈4↔n=4` is **tombstoned**
+  (m-dependent volume coincidence). Watch-item fixes: **S023** re-scoped so `TESTED-POSITIVE` rests on the exact
+  arithmetic field-distinctness (box-dimension demoted to supporting/finite-size); **S027** sharpened so the golden
+  4₁ Kashaev is the *textbook* feasibility witness and the new content is the **m≥2** cocycle. **`S028 ≠ S024`** (a
+  numbering collision in the incoming handoff, corrected). Nothing to `CLAIMS.md`; physics chapter CLOSED.
 - **Intellectual-architecture reorganization (2026-06-07; docs/org only, no math).** Introduced four governed rooms
   for the evolving speculative ideas, all firewalled (nothing promotes to `CLAIMS.md`; the physics chapter stays
   CLOSED; the mathematics never cites them): **`speculations/`** (the catalog `S001…S021` with a proof-status enum

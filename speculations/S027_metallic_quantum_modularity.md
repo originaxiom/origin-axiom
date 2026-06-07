@@ -3,6 +3,13 @@
 **Status: `DORMANT`.** Firewalled; not a claim. Phase 3 of the physics-bridge sweep (a HEAVY/deferred fork, mapped
 + **feasibility shown in-house**). Nothing promotes to `../CLAIMS.md`; the physics chapter stays CLOSED.
 
+> **⚠ SCOPE (the genuinely-new content is `m≥2`).** The golden case (`4₁`, m=2 in the knot convention) — `J_N(4₁) →
+> vol(4₁)` — is **textbook** (the standard volume-conjecture example, ~1995, and Zagier's prototype quantum modular
+> form). It is recorded here only as the **in-house feasibility witness**, not as new content. The new content of
+> this fork is the **`m≥2` metallic family** (the silver/bronze knots/links): their colored-Jones at roots of unity,
+> and whether the quantum-modular **cocycle** varies with `m` through the field `ℚ(√(m²+4))` (tying to S023). Do not
+> re-derive the golden case as if it were the result.
+
 **[MATH] (the citable anchor + the in-house feasibility).** The figure-eight Kashaev invariant `J_N(4₁) =
 Σ_{k=0}^{N−1} |(q)_k|²` (`q=e^{2πi/N}`) is Zagier's prototype **quantum modular form** — a function on `ℚ` whose
 failure to be modular under `GL(2,ℤ)` is a smooth "cocycle" (the Zagier–Garoufalidis "strange identity"), and whose

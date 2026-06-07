@@ -19,7 +19,15 @@ not: the metallic means are **arithmetically distinct materials**.
 - **RG length-scale.** The renormalization (decimation) scaling is `φ_m = (m+√(m²+4))/2` — distinct per m
   (`1.618, 2.414, 3.303`).
 - **Spectral fractal dimension.** The box-counting dimension of the spectrum differs per m (`≈0.628, 0.636, 0.650`;
-  numerical / finite-size) — all `< 1` (Cantor), increasing with m.
+  **numerical / finite-size — supporting, not load-bearing**). The dimensions are computed **in-house** on the actual
+  silver/bronze chains (not extrapolated from the golden-case literature), but the values are close and finite-size,
+  so this is a *supporting* signal, not the keeper.
+
+**What `TESTED-POSITIVE` rests on (the scope, sharpened).** The load-bearing claim is the **arithmetic
+field-distinctness** (`ℚ(√5),ℚ(√2),ℚ(√13)` — exact) and the **distinct RG scale `φ_m`** (exact). The spectral
+box-dimension is a *supporting, finite-size* dynamical observation, not the foundation of the result — the metallic
+means are distinct because they live in **different quadratic fields**, which is exact arithmetic regardless of any
+dynamical sub-claim.
 
 **[LEAP] (kept separate).** "The algebra is **one** object (m-universal, B120); the physics is a **family of
 distinct materials**." The connection-to-reality your intuition senses is real and computable — it is the

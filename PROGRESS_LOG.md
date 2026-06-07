@@ -2668,6 +2668,34 @@ conflated three different components (n=3 W1 = `n+1`, n=4 principal = `n−1`, n
 cusp-order law; the orders are each component's primitive cusp eigenvalue order, governing `Mᵏ` centrality. Banked
 V106; suite green; no physics; no `CLAIMS.md`; the `ρ_n` proof stays the prize; P1–P16 untouched.
 
+## 2026-06-07 — Firewalled triage of the cross-chat "seven hints" (tiers kept separate; the S024 collision fixed)
+
+The companion to B122: the physics-facing hints two other chats produced on the same `μ_d` object, banked at the
+**right tier** so the firewall does not leak (the governing rule: the math and the physics enter as *different
+tiers*, never in one sentence).
+- **A3 → `philosophy/P005` (laws and states):** the Q2 split as a **law** (spectral, all n) vs a **state**
+  (geometric, n∈{3,4}) — "infinite structural depth, finite fundamental content." INTERPRETATION on B120, same tier
+  as P004; no dictionary claimed.
+- **A7a → B122 (math tier):** `Sym⁴(3-space)=15=sl(4)` (the unique saturating order), the offset = dim W, the
+  subtraction = `⊖W` — folded into the proved B122 entry, not as a physics claim.
+- **A7b/A2 → `speculations/S028` (fenced):** the `Sym⁴(3-space)=sl(4)` reading. The **algebra is proved** (B122);
+  the **"3+1" geometric reading is fenced** POSTULATED — "spacetime" stripped (adjacent to the DEAD S017/S018
+  spacetime-from-dimension-count), bound to B122's *open* functorial hinge (collapses with it). The spin-2/gravity
+  overlay (A2) is recorded **underneath** the math, labeled "unverified analogy requiring an unestablished 3d-3d
+  dictionary," never in `knowledge/`. **Crucial fix: this is `S028`, NOT `S024`** — the incoming handoff said S024,
+  but S024 is already the Phase-2 monodromy/Hitchin entry (a numbering collision, corrected).
+- **A4 → tombstone:** the CS-crossover `k≈4↔n=4` is m-dependent (k≈2 at m=2, k≈1 at m=3) — a volume coincidence,
+  same family as the killed value-matches. TESTED-NEGATIVE, banked in `TOMBSTONES`.
+- **A1 / A5 → cross-references:** the two-band reading (A1) is reconciled inside B122 (one structure, multiple
+  readings); A5 (interaction-born=P004, the number-fields=S023, the dimension identity=B117) is cross-referenced,
+  not double-entered.
+
+**Watch-item fixes (the latest cross-chat review).** **S023** re-scoped: `TESTED-POSITIVE` rests on the **exact
+arithmetic** (the distinct fields `ℚ(√5)/ℚ(√2)/ℚ(√13)` + `φ_m`); the spectral box-dimension is demoted to a
+*supporting, finite-size* signal (computed in-house, not golden-extrapolated, but soft). **S027** sharpened: the
+golden 4₁ Kashaev is the **textbook** feasibility witness; the genuinely-new content is the **m≥2** (silver/bronze)
+cocycle. No math; nothing to `CLAIMS.md`; physics chapter stays CLOSED; P1–P16 untouched.
+
 ## 2026-06-07 — B122: the tower is symmetric powers of the external fundamental W=V⊕1 (unifies B121 + the Chat-2 W-identity)
 
 Audited Chat-2's "the tower is `Sym^n(W)`" handoff (verify-don't-trust), ran the brave functorial hinge test, and
