@@ -1,18 +1,23 @@
 # S006 — Bell / CHSH on the Fricke surface
 
-**Status: `HELD(value-matching)`.** Firewalled; **explicitly not support.** See the HELD rule in `GOVERNANCE.md`.
+**Status: `TESTED-NEGATIVE`** (was `HELD(value-matching)`; resolved this round by a structural argument).
+Firewalled; not a claim.
 
 **The proposed calculation.** The Fricke relation `x²+y²+z²−xyz−2 = κ` constrains `z` given `(x,y)`. Treat two
-parties sharing a representation and measuring trace functions; compute the CHSH combination of "correlators" on a
-fixed-κ slice and ask whether it exceeds the classical bound 2. This is **pure algebra** on objects we already have.
+parties sharing a representation and measuring trace functions; compute the CHSH combination on a fixed-κ slice and
+ask whether it exceeds the classical bound 2.
 
-**Why it is HELD, not testable-as-support.** The blocker is **not tractability** — it is the **arbitrary
-`trace-coordinate ↔ measurement-correlator` identification**. Nothing derives that a trace function *is* a quantum
-measurement correlator; without that, a CHSH number has no physical meaning. *(Do not write "depends: none / pure
-algebra" — that reads as ready; the algebra is ready, the* meaning *is not.)*
+**The clean negative (why it cannot violate Bell).** On the **classical** Fricke surface, `z = f(x,y)`
+**deterministically** (given the branch). A deterministic functional relationship between the measured quantities
+is, by definition, reproducible by **classical hidden variables** — and such correlations satisfy **CHSH ≤ 2
+always**. So the *classical character variety cannot violate a Bell inequality*, full stop; there is no number to
+hold. This converts the old HELD item into a structural `TESTED-NEGATIVE`: the blocker was not the
+trace↔correlator identification but the determinism itself.
 
-**Rule for promotion.** Run the algebra if useful, but the result stays a "number in search of a meaning" until a
-derivation of the trace↔correlator identification AND a null test exist. **Do not bank a CHSH value as evidence of
-anything physical.**
+**Where a real test would live (not this computation).** Bell violation requires the **quantized** character
+variety — Chern–Simons at **finite level `k`**, where `SU(2)_k` (a finite fusion category) replaces the
+continuous Fricke surface and genuine non-commuting observables exist. That is a *different* computation (quantum,
+finite-`k`), not the classical algebra here.
 
-Related: `S014`/`S015` (the killed identifications this discipline descends from), `PHYSICS_EXERCISE.md` Tier 4.
+Related: `S014`/`S015` (the killed identifications), `S021` (the entanglement TESTED-NEGATIVE),
+`PHYSICS_EXERCISE.md` Tier 4.
