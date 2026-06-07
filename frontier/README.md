@@ -763,3 +763,15 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   order is `{4,3,2,∞}`, **not** a clean `{n−1,n+1,2n}` law — B111 ADD2 conflated three components (W1=n+1,
   principal=n−1, secondary=2n). Reframe (B117): the bulk `char(Mⁿ)` is `Sym^n` presence, so this was only the
   peripheral `k=n` — the one open shot at a *positive* power-half mechanism, now closed negative.
+- **B120** — **the trivial-point tower is determined by `(n; trace, det)`** (V107; banks Chat-2 Q2/Q3 + Supplement
+  S1–S5, verify-don't-trust, 3 corrections). The `(n²−1)`-dim tower is **one object** fixed by two inputs — the
+  unfolding depth `n` (the Sym two-sequence, B117) and the abelianization seed `(trace, det)` (twists→trace, swaps
+  mod 2→det). **Q3:** distinct same-`(trace,det)` integer matrices give identical towers (n=3,4,5). **S2
+  (m-universality, the deep lead):** the Sym content `μ_d` is m-independent (proved n=3,4 via B103's `ℚ[m]`-iso) —
+  the `μ_d` are plethysm multiplicities of the `GL(2,ℤ)`-rep `ρ_n`, trace-blind; this **reframes the prize as a
+  plethysm** but is **a reduction, not a closure** (all-n m-universality is the same trace-ring wall). **Q2:**
+  degree=rank **splits** — (I) spectral `char(Mⁿ)` factor ⟺ `μ_n=1`, all n; (II) geometric longitude=meridianⁿ,
+  n∈{3,4} (order `{4,3,2,∞}`) — dissolving the apparent B117-vs-B119 tension. **Corrections:** S1's `(n²−3n)/2` →
+  `(n−4)(n+1)/2` (doubling band forced); S5's guess refuted but a closed form found (`count(n,0)=n−1`; `2(n−2)`
+  h∈{1,2}; `2(n−h)` 3≤h≤n−1; `2` h=n; heights run 0..n); S4 confirms B116 is factor-level (the Chat-2 "n=3
+  divergence" was a units error). The degree=rank lineage rows V47/V72/V74 are annotated with the (I)/(II) split.
