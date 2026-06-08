@@ -17,8 +17,10 @@ has no torsion (`H₁=ℤ`); `m=2` has `(ℤ/2)²`; `m=3` has `(ℤ/3)²`; …
 
 In the 3d-3d correspondence the **torsion of `H₁(M)` controls the one-form (center) symmetry and the line-operator
 spectrum / polarization of `T[M]`** (Dimofte–Gaiotto–Gukov arXiv:1108.4389; Aharony–Seiberg–Tachikawa "reading
-between the lines"; the recent "Generalized global symmetries of `T[M]` theories" line, arXiv:2511.13696,
-JHEP04(2021)232). A `ℤ/n` center one-form symmetry is what an `SU(n)`-type gauge theory carries.
+between the lines"; Gukov–Hsin–Pei "Generalized Global Symmetries of `T[M]` theories" — **Part I** arXiv:2010.15890
+= JHEP 04 (2021) 232 (framework/polarization), **Part II** arXiv:2511.13696 = JHEP 05 (2026) 087 (the
+`H₁`-torsion → line-operator-spectrum result)). A `ℤ/n` center one-form symmetry is what an `SU(n)`-type gauge
+theory carries.
 
 ## The suggestive match (the HOOK — and why it is fenced, not banked)
 
@@ -43,6 +45,11 @@ for five reasons — each a concrete kill condition (apply our own discipline; n
    same *shape* as the killed value-matches (the cosmological constant `S014`, the CS-crossover `k≈4↔n=4`): a number
    coincided, with no derivation of *why that number*. *(Kill: same null-hypothesis family as `S014`.)*
 
+**Companion fork (B127).** The "select an `SU(m)` *theory*" reading has the same shape as the Fibonacci-anyon reading:
+both give the *symmetry / fusion data* (cheap) and never the *defining data* (the gauge group; the braiding/central
+charge). The metallic family's quantization is **non-unitary + achiral** (CS=0, B127), so even the topological-matter
+landing is the **Yang–Lee** side, fusion-rule-only — see `S030` and the K-C/K-D kills (`TOMBSTONES.md`).
+
 ## What would promote or kill it
 
 The decisive computation is **Gang–Kim–Lee–Park technology**: construct `T[M_2]` and `T[M_3]` explicitly and read off
@@ -57,5 +64,8 @@ the underlying structural fact.
 
 Related: **B126**/V115 (the proved `H₁` torsion + the ladder map), `../knowledge/K006` (the 3d-3d firewall), `S024`
 (the Hitchin/N=4 ceiling), `S027` (the quantum-modular door), `LADDER_LITERATURE.md` (citations), `../philosophy/P007`
-(the reframe). External: DGG arXiv:1108.4389; Aharony–Seiberg–Tachikawa; arXiv:2511.13696; Cho–Gang–Kim
-arXiv:2007.01532.
+(the reframe), `S030` (the Fibonacci/Yang–Lee fork, added B127). External: DGG arXiv:1108.4389;
+Aharony–Seiberg–Tachikawa; Gukov–Hsin–Pei "Generalized Global Symmetries of `T[M]`" Part I arXiv:2010.15890 (JHEP
+04(2021)232) + Part II arXiv:2511.13696 (JHEP 05(2026)087). *(Cho–Gang–Kim arXiv:2007.01532 — "M-theoretic Genesis"
+— concerns non-hyperbolic 3-manifolds → unitary topological orders; it is **not** a `T[M]`-torsion citation, removed
+here.)*

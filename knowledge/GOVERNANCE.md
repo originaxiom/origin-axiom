@@ -4,7 +4,7 @@ This folder holds **self-contained explainers** — `K001…K009` — each a sta
 background the project rests on, written so a reader can understand the concept *without* first reading the
 `frontier/` probes. It is the "textbook layer."
 
-> **Status: WRITTEN (K001–K009).** All nine explainers exist (the layer was completed in the B124 documentation
+> **Status: WRITTEN (K001–K010).** All ten explainers exist (the layer was completed in the B124 documentation
 > refresh). `K001`–`K007` are the standard-background pieces (trace map / character variety; the metallic family;
 > the Dickson tower; the figure-eight / Dehn filling / A-polynomials; the opposition involution; the 3d-3d
 > correspondence; the Fibonacci/quasicrystal trace map); `K008`–`K009` are the project's own consolidations (the
@@ -22,5 +22,5 @@ background the project rests on, written so a reader can understand the concept 
   own results (cited to `B`/`V` numbers, not re-proved).
 - **No claims, no duplicated proofs.** Explain; point to `frontier/` and `papers/` for the actual computations.
 
-See `INDEX.md` for the written `K001–K009` and their anchors. Companion rooms: `../story/` (the narrative),
+See `INDEX.md` for the written `K001–K010` and their anchors. Companion rooms: `../story/` (the narrative),
 `../philosophy/` (the motivation), `../speculations/` (the evolving ideas), `../ARCHITECTURE.md` (the map).

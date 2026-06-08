@@ -35,6 +35,14 @@ buys a theory with *no marginal deformations and sharp topological invariants an
 **not** buy chiral matter, generations, or a single particle mass. We lack no concept; we lack precisely what no
 3-manifold can carry.
 
+**Sharpened (B127, a third and fourth direction).** The same conclusion now arrives from the object's *own*
+invariants, not just the ladder. The metallic bundles are **achiral** (Chern–Simons invariant `≡ 0`) and
+**phase-trivial** — so the object carries no connection/holonomy content and is **not a gauge theory by direct
+computation**, not by failure to find one. Its native quantization is **non-unitary**; even the topological-matter
+landing is the non-unitary, achiral **Yang–Lee** side, and the anyon link is **fusion-algebra-only** (the framework
+gives the fusion rule, never the braiding/central charge). And its three faces — substitution `√5`, manifold `√−3`,
+braiding `ζ5` — live in arithmetically **disjoint** worlds. The firewall is now confirmed *in the object's own data*.
+
 ## The bigger pattern (the recursion the method asks for)
 
 *"Part of what bigger pattern is this?"* — the honest answer is **Langlands-shaped**: the same arithmetic that governs

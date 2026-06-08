@@ -28,12 +28,17 @@ far does rigidity propagate?" investigation. Each rung is tagged `[THEOREM] / [C
   **rank-1 abelian** 3d N=2 SCFT; vacua = the three flat connections = the A-polynomial (DGG **arXiv:1108.4389**,
   **1112.5179**; all-flat-connections correction **arXiv:1405.3663**).
 - `[CONSTRUCTION]` Mostow rigidity ⇒ `T[M]` has **no marginal couplings / no conformal manifold**.
-- `[THEOREM-level]` `M` **selects the SUSY phase**: no irreducible `SL(2,ℂ)` flat connection ⇒ SUSY spontaneously
-  broken; `4₁` has them ⇒ **unbroken SUSY, gapped vacua** (Cho–Gang–Kim **arXiv:2007.01532**; Gang–Yonekura
-  **1803.04009**).
+- `[established in the 3d-3d program]` `M` **selects the SUSY phase**: no irreducible `SL(2,ℂ)` flat connection ⇒
+  SUSY spontaneously broken (Witten-index / flat-connection argument); `4₁` has them ⇒ **unbroken SUSY, gapped
+  vacua** (Gang–Yonekura **arXiv:1803.04009**). *(Citation fix, B127: the earlier attribution to Cho–Gang–Kim
+  **arXiv:2007.01532** was mis-attached — that paper is about **non-hyperbolic** 3-manifolds → **unitary**
+  topological orders, which actually supports K-D, not this hyperbolic→unbroken-SUSY statement. Tag downgraded from
+  `[THEOREM-level]`; the ladder conclusion is unaffected — a weaker Floor 2 confirms the firewall earlier, never
+  later.)*
 - `[CONSTRUCTION]` `H₁(M)` torsion ↦ the **one-form/center symmetry + line-operator spectrum / polarization** of `T[M]`
-  (Aharony–Seiberg–Tachikawa; "Generalized global symmetries of `T[M]`" **arXiv:2511.13696**, JHEP04(2021)232). →
-  fenced reading `S029`.
+  (Aharony–Seiberg–Tachikawa, "Reading between the lines"; Gukov–Hsin–Pei, "Generalized Global Symmetries of `T[M]`
+  **Part I**" **arXiv:2010.15890** = JHEP 04 (2021) 232 — the framework/polarization; **Part II** **arXiv:2511.13696**
+  = JHEP 05 (2026) 087 — the `H₁`-torsion → line-operator-spectrum result). → fenced reading `S029`.
 
 ## Rung 3 — 3d → 4d: the determination is LOST here
 

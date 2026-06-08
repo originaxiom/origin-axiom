@@ -91,3 +91,36 @@ unique subset `{0,2,3}` omits `Sym¹`, and the `char(−M)` at height 1 is **`Sy
 promotion and no "power half" to close separately. The **sign-conserving-promotion** question (was the promotion
 sign-preserving?) is **DISSOLVED** with the framing. Kill: **B117 / V104**; see `../frontier/B117_interleaving/`.
 *Constructive:* the live prize is to prove the two-sequence `μ_d` for all `n` (B103's open problem).
+
+---
+
+**Chirality / Fibonacci / topological-layer kills (B127 / V116).** Threads 3 & 4 + the Fibonacci bridge, pursued
+through chirality, topology, and arithmetic, return a **multiply-confirmed negative** (the firewall `../philosophy/P007`
+confirmed from a third and fourth independent direction). Each kill carries the computation that killed it. The
+*math* underneath is fine and banked (B127, `../knowledge/K010`); the *bridge* reading is the kill.
+
+- **K-A/K-B — "det=−1 breaks chirality / selects the Standard-Model chiral structure" — DEAD, and INVERTED.** The
+  genuine orientation-odd invariant is the **Chern–Simons invariant**, and it is **identically 0** for every metallic
+  bundle `M_m²=R^m L^m` (SnapPy `complex_volume`, machine zero, m=1..6, against a discriminating census mix: m003
+  CS=4.93, m004=0). Two inversions: topologically `det=−1` is the orientation-**reversing symmetry** (the deck
+  transformation making `M_m²` amphichiral), *not* a chirality breaker; and the chiral invariant (CS) is exactly the
+  one that **cancels to 0** (chiral central charge `c₋=0`). The n=4 chiral/achiral split is 6/9; the SM is 8/7.
+  *Revival kill condition:* exhibit a metallic-derived object with **CS≠0** — none exists in the family. *(Distinct
+  from B124's algebraic **P-parity** of the tower — the `char(−M^h)` sectors, representation theory — which is
+  orthogonal to the manifold's topological CS and stands.)*
+- **K-C — "figure-eight quantized = the *physical* Fibonacci order / det=−1 selects the braiding chirality" — DEAD.**
+  Four independent reasons: (1) `k=3` is *selected* (by demanding `φ` be a quantum dimension), not forced; (2) wrong
+  categorification — the native quantization is **non-unitary** (hyperbolic → non-unitary complex-CS TQFT) → the
+  **Yang–Lee** side (`c=−22/5`), not the unitary Fibonacci (`c=+14/5`); (3) CS=0 contradicts "select R over R̄"
+  (amphichiral = no chirality preference); (4) **arithmetic separation** — Fibonacci braiding `∈ℚ(ζ5)`, the
+  substitution gives `φ∈ℚ(√5)⊂ℚ(ζ5)` (the quantum *dimension*, never the phase), the **manifold** is `ℚ(√−3)=ℚ(ζ3)`,
+  and `ℚ(ζ3)∩ℚ(ζ5)=ℚ`. The framework supplies only the **fusion rule** (shared by Fibonacci *and* Yang–Lee), never
+  the braiding/twist/central charge. Same pattern as the gauge-group route, one level more sophisticated. Kill: B127.
+- **K-D — "physical (unitary) topological order from the metallic family" — DEAD.** Metallic `m≥1` are hyperbolic →
+  non-unitary, and CS=0 → `c₋=0` → non-chiral; physical anyons need a *unitary* modular category and chiral order
+  needs `c₋≠0`. The only member that could give unitary order is `m=0` (swap, non-hyperbolic) — which has **no
+  expansion**. So **expansion ⊥ physical-topological-order** (a structural no-go). *Sharper:* `λ_m<2` only for `m=1`,
+  so only the golden case can be a quantum dimension at all. Kill: B127 (M-3).
+- **K-E — "a forced dimensionful scale or non-generic physical ratio" — DEAD.** `λ_m`, `2 log λ_m`, volumes, systoles
+  are hyperbolic-unit invariants; no ratio matches `α⁻¹=137.036`, `m_p/m_e=1836.15`, or `sin²θ_W=0.231`, and a null
+  test confirms any near-coincidence is generic. A physical scale requires **inserting** a length. Kill: B127 (M-E).

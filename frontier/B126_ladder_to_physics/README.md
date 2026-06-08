@@ -10,7 +10,7 @@ object's rigidity propagates **exactly two floors, provably**, then hits a *name
   `[1,1,3,3,7,6]` (`m=1..6`); rational exactly for the arithmetic members `m=1,2`. **Family-specific, not a law.**
 
 `FINDINGS.md` carries the **ladder map**: Floor 1 (arithmetic → quantization field; *proven* for our family, Yoon
-arXiv:2110.11003), Floor 2 (Mostow → no marginal couplings; `M` selects the SUSY phase; Cho–Gang–Kim arXiv:2007.01532),
+arXiv:2110.11003), Floor 2 (Mostow → no marginal couplings; `M` selects the SUSY phase; Gang–Yonekura arXiv:1803.04009 (2007.01532 mis-attach fixed, B127)),
 the **wall** (3d→4d = data of the 2d *boundary*, not `M`; SUSY scale orthogonal; ceiling N=4 SYM / N=2\*).
 
 ```

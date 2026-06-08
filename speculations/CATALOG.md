@@ -1,4 +1,4 @@
-# Speculation catalog — `S001…S029`
+# Speculation catalog — `S001…S030`
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
@@ -39,6 +39,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S027 | the **metallic Kashaev invariants as a family of quantum modular forms** (the `GL(2,ℤ)` cocycle) — golden 4₁ is the **textbook** feasibility witness (`J_N(4₁)→vol`); the new content is the **m≥2** cocycle + per-knot arithmetic in `ℚ(√(m²+4))` (the continuous family-in-m is DEAD, Gate 1) | DORMANT | B82, V37–V38, S023 |
 | S028 | the **`Sym⁴(3-space)=sl(4)`** reading — the **algebra is proved** (B122: `W=V⊕1` the external fundamental; the n=4 dimension-identity fixed point); the **"3+1" geometric reading is fenced** (POSTULATED, bound to the open functorial hinge; "spacetime" stripped — adjacent to the DEAD S017/S018). Includes the fenced A2 spin-2/gravity overlay note | POSTULATED (geometry) | **B122**, B121, B117, S010, S017/S018 |
 | S029 | the **homology torsion = center / one-form symmetry** of `T[M]` — the PROVED fact `H₁(M_m)=ℤ⊕(ℤ/m)²` (the metallic `m` = the torsion order, B126); the 3d-3d dictionary `H₁`-torsion ↦ one-form symmetry; the **`m→ℤ/m→`center-of-`SU(m)`→SM** reading FENCED by five kills (center≠group; the `(ℤ/m)²` doubling; `T[M]` is rank-1 **abelian** so `ℤ/m` is a line-spectrum symmetry not an `SU(m)` gauge group; combining `m`'s needs gluing; small-integer value-matching) | POSTULATED | **B126**/V115, K006, S024, `LADDER_LITERATURE` |
+| S030 | the **two categorifications of `τ×τ=1+τ`** — unitary Fibonacci (`(G₂)₁`, `c=+14/5`) vs non-unitary **Yang–Lee** (`M(2,5)`, `c=−22/5`); the framework's hyperbolic (non-unitary, CS=0) quantization lands on the **Yang–Lee** side, but **fusion-rule-only** (no forced braiding/central charge; arithmetic `ζ3`≠`ζ5`). The thin Lee–Yang-edge thread T-1, not recommended | DORMANT | **B127**/V116, S029, K010, TOMBSTONES (K-C/K-D) |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a
