@@ -63,6 +63,33 @@ These are not all claims, but they guide future work:
   tangent-filter inheritance. This is useful conditional/frontier structure, not
   a physical prediction.
 
+## The representation program (B59–B124)
+
+The project's center of gravity moved from the "from-nothing" spine above to a single, fully-recognized
+representation-theory object. Surviving structures, strongest gate first (full ledger in `papers/VALIDATION_LEDGER.md`,
+narrative in `story/`, background in `knowledge/`):
+
+- **`M⁴ = L` symbolic-exact at `SL(4)`** over `ℚ(ω)` (B89) — the figure-eight A-polynomial "degree = rank" relation
+  proved exactly (`knowledge/K004`).
+- **The Dickson tower `ρ_n = ⊕_d Sym^d(M)^{μ_d}`** proved exact at `n ≤ 4` (B80 from first principles; B103 made
+  `char(ρ_n)` a **class function** of the abelianization — the same catalog for all metallic and non-metallic seeds,
+  V87). `knowledge/K003`.
+- **The sign half of the catalog, proved for all `n`** (B112, V99): the opposition involution `θ = −w₀` gives
+  `mult char(±M^h) = ⌈/⌊(n−h)/2⌋` — engine-free. `knowledge/K005`.
+- **`ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W = V⊕1`** (B122, V111): the tower named as symmetric powers of the
+  **external monodromy fundamental** (`det W = −1`, B121/V109), a genuine `GL(2)`-module identity. `knowledge/K008`.
+- **The `(n; trace, det)` determination** (B120, V107): the tower depends only on the rank and the seed's conjugacy
+  invariants; m-universality of the `μ_d` content.
+- **Three fixed-point classes** (B106) and **the per-eigenvector law** `Lᵢ = c·Mᵢ^k`; the geometric component `V0` =
+  the `SL(3,ℝ)` Hitchin/Fuchsian locus (B101, V85).
+- **`m=1` is special for three independent reasons** — systole (B92), expansion threshold (P004/B120),
+  arithmeticity (B123: the unique arithmetic knot, Reid 1991). `knowledge/K009`.
+
+**The standing prize (the wall):** prove the tower is **functorially** `Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)` — the missing
+`Sym(W) → trace-ring` construction. The `n ≥ 5` explicit catalog stalls at exactly this point (three distinct
+obstacles converge there, V91). The proven core `P1–P16` is independent of all of it; the physics chapter is CLOSED
+(`knowledge/K006`, `K007`).
+
 ## What Counts As A Future Success
 
 A future result should be classified by the strongest gate it actually passes:

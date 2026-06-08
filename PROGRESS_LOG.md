@@ -3035,5 +3035,41 @@ construction stays the un-lowered prize.
 
 ---
 
+## 2026-06-08 — Documentation refresh to B124/V113 (docs only, no math, no claims)
+
+**Context.** The research had run well ahead of the governed documentation layer; this pass brought the layer up to
+the current state and adopted the project's own logic throughout. No new mathematics; nothing promoted to
+`CLAIMS.md`; the firewall and the standing prize unchanged.
+
+**Done:**
+
+- **`knowledge/` completed (the textbook layer).** Wrote all seven stubbed explainers — `K001` trace map &
+  character variety, `K002` the metallic family & continued fractions, `K003` the Dickson tower, `K004` figure-eight
+  / Dehn filling / A-polynomials, `K005` the opposition involution `θ=−w₀`, `K006` the 3d-3d correspondence (with its
+  firewall, the one place the project touches physics literature), `K007` the Fibonacci/quasicrystal trace map. Each
+  is self-contained: standard material cited to the literature, the project's own use cited by `B`/`V`, no new
+  claims, never a premise. Updated `INDEX.md` (all nine ✓, with current anchors) and `GOVERNANCE.md` (WRITTEN).
+- **`story/` extended.** Added chapter `09 — the representation, crystallized` covering the B111–B124 arc (the sign
+  half proved all `n`, `ρ_n = Sym^n(W)` with `W=V⊕1` the external `det=−1` fundamental, the arithmeticity and
+  time-reversal asides, and the functorial `Sym(W)→trace-ring` wall as the standing prize); refreshed `08 — where it
+  stands` to fold in the crystallization and hand off to 09.
+- **`docs/atlas/` refreshed** (it had frozen at the PC12 / Session-3 era). Added "the representation program
+  (B59–B124)" to `SUCCESS_ATLAS`, the representation-program branch + spine to `RESEARCH_TREE`, a full
+  representation-program vocabulary to `GLOSSARY`, and a "Pattern G — superseded framings & standard-theory kills
+  (B111–B124)" block to `FAILURE_ATLAS` (the promotion-framing supersession, `θ→c`, `s_n→c`, the CS-crossover, the
+  five quantum/knot kills, the `⌊n/2⌋` constant; plus the B121 det-parity *asset*, recorded so it is not re-killed).
+- **`ROADMAP` refreshed.** Extended the Phase B probe ladder through B33–B124, updated the suite count (369 passed),
+  and pointed the live center at `ρ_n` / the functorial wall.
+- **Stale live ranges fixed** across `ARCHITECTURE`, `README`, `philosophy/PHILOSOPHICAL_PATHS`,
+  `speculations/GOVERNANCE`, `knowledge/INDEX`, `knowledge/GOVERNANCE`: `S001…S021 → S001…S028`,
+  `K001–K007 (stubbed) → K001–K009 (all written)`, `P000–P003/P005 → P000–P006`, `story 00–08 → 00–09`. Historical
+  `CHANGELOG`/`PROGRESS_LOG` entries left as written (append-only).
+
+Public-surface + no-hardcoded-paths scans green; no code touched, so the math suite is unaffected (369 passed, 1
+skipped at B124). Nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring` construction stays
+the un-lowered prize.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

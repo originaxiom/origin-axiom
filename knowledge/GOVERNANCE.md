@@ -1,11 +1,14 @@
 # `knowledge/` — governance
 
-This folder will hold **self-contained explainers** — `K001…K007` — each a standalone introduction to one piece
-of background the project rests on, written so a reader can understand the concept *without* first reading the
+This folder holds **self-contained explainers** — `K001…K009` — each a standalone introduction to one piece of
+background the project rests on, written so a reader can understand the concept *without* first reading the
 `frontier/` probes. It is the "textbook layer."
 
-> **Status: STUB.** Only this governance file and `INDEX.md` exist now. The explainers are a large, self-contained
-> writing task and are the **lowest-priority** item in the architecture — named now, bodies deferred.
+> **Status: WRITTEN (K001–K009).** All nine explainers exist (the layer was completed in the B124 documentation
+> refresh). `K001`–`K007` are the standard-background pieces (trace map / character variety; the metallic family;
+> the Dickson tower; the figure-eight / Dehn filling / A-polynomials; the opposition involution; the 3d-3d
+> correspondence; the Fibonacci/quasicrystal trace map); `K008`–`K009` are the project's own consolidations (the
+> `(n;trace,det)` determination; why `m=1` is special). New `K`-docs append with a row in `INDEX.md`.
 
 > **Explainer, not claim.** Nothing here promotes to `../CLAIMS.md`. A `K`-doc may state standard, externally-known
 > mathematics (with citations) and may cite the project's own `B`/`V` results to say "this is where we use it" —
@@ -19,5 +22,5 @@ of background the project rests on, written so a reader can understand the conce
   own results (cited to `B`/`V` numbers, not re-proved).
 - **No claims, no duplicated proofs.** Explain; point to `frontier/` and `papers/` for the actual computations.
 
-See `INDEX.md` for the planned `K001–K007`. Companion rooms: `../story/` (the narrative), `../philosophy/` (the
-motivation), `../speculations/` (the evolving ideas), `../ARCHITECTURE.md` (the map).
+See `INDEX.md` for the written `K001–K009` and their anchors. Companion rooms: `../story/` (the narrative),
+`../philosophy/` (the motivation), `../speculations/` (the evolving ideas), `../ARCHITECTURE.md` (the map).

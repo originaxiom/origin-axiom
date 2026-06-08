@@ -51,7 +51,7 @@ hierarchy value fails — S013).
 
 ## What lives here
 
-- `CATALOG.md` — the index: every speculation `S001…S021`, its status, one line, and its evidence/dependency.
+- `CATALOG.md` — the index: every speculation `S001…S028`, its status, one line, and its evidence/dependency.
 - `PHYSICS_EXERCISE.md` — the long-form "assume it is the final theory" exercise (the tiered MASTER), whose only
   legitimate output is the ranked **calculation pointers**.
 - `S0xx_*.md` — one short file per **live** speculation (the evolving ones).
