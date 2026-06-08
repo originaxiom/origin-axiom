@@ -3239,5 +3239,39 @@ MATH tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the
 
 ---
 
+## 2026-06-08 — B130: no forced choice in the invariant ring — the seventh firewall form + the located which-seed fork (V119)
+
+The arc *after* B129, internalized from a cross-session handoff and **re-derived in-sandbox** (verify-don't-trust;
+the handoff itself carried a killed false-positive, K-G). The firewall question driven to its deepest **forced-answer**
+form: **does the structure carry an invariant that is *both* discretely multivalued *and* unsymmetrizable** — the exact
+object a forced choice requires? In the trace-ring invariants, **no** — the **seventh** firewall direction, the
+sharpest (not "does it reach physics" but "can it ever be made to choose").
+
+- **No forced choice (κ free on the fixed locus):** adjoin `k=κ`, eliminate `(x,y,z)` from `φ_m(x,y,z)=(x,y,z)`; the
+  `k`-only elimination ideal is **empty** (m=2,3,4 symbolic; m=5 a 259-value numerical continuum) → κ varies
+  continuously, no discrete value to select. Chirality is multivalued but the `Z₂` mirror relates its values (B128).
+- **The located fork:** within a fixed m the substitution `a→aᵐb,b→a` is the **unique deterministic** word; across m,
+  `trace=m` distinct → **not GL(2,ℤ)-conjugate** (Perron fields ℚ(√(m²+4))) — a genuine discrete fork, but it is the
+  **external seed label** (which structure exists), not a choice a unit makes from inside.
+- **Reading:** the structure is a **moduli space** (continuous κ × discrete seed-label) — *parametrizes, does not
+  choose*; the root of "permits but never forces" (B128). Banked `knowledge/K013`; `P007` seventh direction; `P008`
+  the root.
+- **Tombstone K-G:** "forced choice from isolated fixed points at m≥2" — DEAD (the *revival* failure mode): `sp.solve`
+  mislabeled **curve degeneracies** as isolated points (empty κ-elimination → κ free), and the symmetry argument was
+  circular. Method note → REPRODUCIBILITY (use the κ-elimination ideal + Jacobian rank, not `sp.solve` branch-counting).
+- **Foundation cross-check (honored, not re-banked):** the arithmetic-complexity-vs-m law is B126's κ-degree
+  `[1,1,3,3,7,6]`; a separate "field-degree vs m" algdep attempt was a noisier proxy (precision artifact) — B126 owns
+  it.
+- **Forward program `speculations/S032` (open MATH, not a bridge):** (A) the theorem-version (no invariant *whatsoever*
+  is forced); (B) the two-seed question — does gluing `M_{m₁},M_{m₂}` along their cusp tori create an *internal* fork
+  (is the minimal multiplicity for an internal forced choice **two**?), detector = the 0-dim part of the gluing
+  character variety via κ-elimination + Jacobian rank. Co-researcher emergent insight (the moduli-space framing; the
+  S031+B130 vertical/internal rigidity synthesis) banked in FINDINGS/S032. `K001–K013`, `S001…S032`, `P000–P008`.
+
+MATH tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the functorial `Sym(W)→trace-ring` wall
+(B85), and the merged B124–B129 (K010/K011/K012/P007/P008/S029/S030/S031) untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

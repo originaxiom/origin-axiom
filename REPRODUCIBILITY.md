@@ -59,6 +59,13 @@ pip install snappy
   candidate (`ftol≈1e-15`), then measure deviation from ℚ(√−3) with a threshold (≈1e-4) set ~100× above the artifact
   band (observed max 1.2e-6 over 427 points) and ~10× below any real escape. The escape count is then stable (no
   0-vs-1 flicker). *(Both B1 and B2 produced false firewall "reopenings" / a near-false-refutation before being caught.)*
+- **SCAN — "discrete vs continuous fixed-locus value?" use the elimination ideal, not `sp.solve` branch-counting**
+  (B130, the `K-G` revival false-positive). To decide whether an invariant `f` takes finitely many values on a fixed
+  locus (a genuine discrete choice) or varies continuously, **adjoin `k=f` and eliminate the coordinates** (lex Gröbner):
+  an **empty** `k`-only elimination ideal ⟹ `f` is unconstrained ⟹ continuous ⟹ no choice. `sp.solve` on the fixed
+  equations **mislabels degeneracies of a continuous curve as isolated 0-dimensional points** (tell: a returned "point"
+  still carries a free symbol, e.g. `κ = z²−2`). Confirm 0-dimensionality by **Jacobian rank** (rank = #coords), not by
+  `solve`'s branch split. *(This is the revival failure mode — a too-eager "yes" — sibling of bug B2's kill mode.)*
 - Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
   the verified constants are also recorded in-probe and tested unconditionally.
 

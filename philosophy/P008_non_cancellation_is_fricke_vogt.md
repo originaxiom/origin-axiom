@@ -57,8 +57,17 @@ parameters) but the specific physics is **contingent** — a spontaneous-symmetr
 residue that cannot cancel is real and named; *which* world is chosen from the landscape it permits is not in the
 principle.
 
+**Coda 2 (B130) — the root of "permits but never forces."** Why can the symmetric parent never make the choice? Because
+it has no internal fork to resolve. The Fricke–Vogt invariant `κ` is **free** (continuous) on the fixed locus — no
+discrete value to pick — and the substitution word is the **unique deterministic** fixed point — no combinatorial value
+to pick. The only discrete unsymmetric fork is **which seed** `m`, and that is the *input* (which unit exists), not an
+*output* (a choice the unit makes). So the structure is a **moduli space** — continuous `κ` × discrete seed-label — and
+*a moduli space parametrizes, it does not choose* (`../knowledge/K013`, the seventh firewall direction). **Existence is
+inevitable; the specific world is a choice the unit cannot make from inside, because it has no internal fork to
+resolve.** The residue that cannot cancel is real; the choosing is simply not there to be done.
+
 Related: `P000` (not-nothing as the family), `P003` (dead-ends as boundaries), `P006` (two-headed time — generic-form
-/ arithmetic-content), `P007` (the maximal probe; the SSB fifth direction), `../knowledge/K010` (the naming), `K011`
-(the chirality recursion), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
+/ arithmetic-content), `P007` (the maximal probe; the SSB fifth direction, the no-forced-choice seventh), `../knowledge/K010` (the naming), `K011`
+(the chirality recursion), `K013` (no forced choice / the moduli-space reading), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
 quasicrystals), B127 (the Fricke–Vogt dictionary), B128 (the recursion + the SSB sharpening).
 External: Sütő (1987); Damanik–Gorodetski (the horseshoe / Cantor spectrum).
