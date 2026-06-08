@@ -23,7 +23,9 @@ framing is locked to the V4 / Reality-Check line.
 > Initial gate passed 2026-05-22: `origin_axiom` package built, suite green
 > (33 passed, 1 optional skip), all ten initial P-claims locked. Tagged
 > `phaseA-foundation-freeze`. Later exact-algebra integrations promoted P11-P13
-> and P15-P16; the current suite is 66 passed, 1 skipped.
+> and P15-P16. The `P1–P16` core remains locked and untouched; the **full repo
+> suite** (core + the frontier `B`-probe locks) is now **369 passed, 1 skipped**
+> as of the B124 refresh.
 
 **Scope:** lock every `proven` claim (currently P1-P16, with P14 unused) behind
 an automated test, in a clean Python package. Reproduce — not inflate — the
@@ -67,14 +69,20 @@ observation.
 | B13-B16 | Trace-map character variety, half-step, invariant controls, record swap? | Half-step trace lift contains the `A` sector; exchange/half-step symmetry is still an added condition. |
 | B17-B24 | Half-step kernel campaign: functoriality, awareness, spacetime, spectrum, BKL, anyon bridges? | Trace lift is canonical; semantic/physical dictionaries remain stalled. |
 | B25 | Fibonacci spectrum anchor at `lambda=1`? | Strong finite-approximant numerical anchor if `lambda=1` is accepted; coupling is motivated, not derived. |
+| B33–B71 | The `SL(n)` trace-map **tower** + figure-eight A-polynomials/character variety? | Exact math: the Dickson tower (`knowledge/K003`), the A-polynomial / degree=rank `Mⁿ=L` family, the `SL(3)` A-variety (B67/B71). |
+| B80–B106 | Prove the tower; classify the fixed points; geometry/physics audit? | `M⁴=L` symbolic-exact (B89); tower exact `n≤4` (B80); `char(ρ_n)` a **class function** (B103); three fixed-point classes (B106); Riemannian (not Lorentzian) signature, physics chapter **CLOSED** (B96/B101/B107). |
+| B107–B124 | Consolidate the representation; bank the firewalled asides? | The **sign half proved all `n`** (B112); the tower = **`Sym^n(W)`, `W=V⊕1`** the external `det=−1` fundamental (B121/B122); the `(n;trace,det)` determination (B120); `m=1` arithmeticity (B123); reciprocity/time-reversal (B124). The standing prize: a **functorial `Sym(W)→trace-ring`** construction. |
 
 Across Phase B the pattern is consistent: the well-defined content is exact or
 numerically reproducible, but each physical or semantic bridge stalls at an
-inserted dictionary, carrier, coupling, unit, selector, or observable.
+inserted dictionary, carrier, coupling, unit, selector, or observable. The
+program's live center is now the representation `ρ_n` (`knowledge/K008`, `story/09`),
+ledger `V1–V113`, probes `B1–B124`.
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3
-material); speculative *physics* may not.
+material); speculative *physics* may not. All physics readings stay quarantined in
+`speculations/` + `philosophy/`; the physics chapter is CLOSED (`knowledge/K006`).
 
 ---
 

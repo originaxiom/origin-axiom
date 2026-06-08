@@ -68,6 +68,29 @@ Primary files:
 - `tests/test_uniqueness_theorem.py`
 - `papers/candidates/PC12_sl3_metallic_trace_maps/PAPER_CARD.md`
 
+## The Representation Program (the current center of gravity, B59–B124)
+
+The spine above is the historical "from-nothing" route. The project's live work is one recognized object — the
+`GL(2,ℤ)`-representation `ρ_n` on the `SL(n)` trace ring — and the branch that matters now is:
+
+```text
+the trivial-point linearization (the "tower")
+  -> ρ_n = (+)_d Sym^d(M)^{mu_d}     [Dickson tower; K003]
+    -> char(ρ_n) is a class function of the abelianization (B103, all n)
+    -> proved exact at n <= 4 (B80 first-principles; M^4 = L at SL(4), B89)
+  -> split into two halves
+    -> SIGN half: theta = -w0 multiplicities, PROVED all n (B112)   [K005]
+    -> MAGNITUDE half: rho_n = Sym^n(W) (+) (Sym^{n-3}(W) (-) W), W = V(+)1
+       -> W = the external monodromy fundamental, det W = -1 (B121/B122)   [K008]
+       -> a genuine GL(2)-module identity, NOT yet functorial
+  -> THE WALL: a functorial Sym(W) -> trace-ring construction (open)
+    -> n >= 5 explicit catalog stalls here (three obstacles, V91)
+  -> asides (firewalled): arithmeticity (B123, m=1 unique), reciprocity/time-reversal (B124)
+```
+
+Primary files for this branch: `papers/VALIDATION_LEDGER.md` (V87–V113), `frontier/B103…B124/`, `knowledge/K003`,
+`K005`, `K008`, `story/04`, `story/09`.
+
 ## The Load-Bearing Caveat
 
 The order choice is not cosmetic. `LR`, `RL`, and conjugate representatives can

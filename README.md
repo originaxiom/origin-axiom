@@ -53,10 +53,10 @@ The honest one-line status:
 | `tests/` | One assertion per proven number in `CLAIMS.md`. *(Phase A)* |
 | `frontier/` | Speculative `open` work, quarantined and gated. *(Phase B)* |
 | `paths/` | Systematic survey of emergence-mechanisms — the path-space registry and per-path probes. *(Phase C)* |
-| `speculations/` | The evolving-ideas room: the speculation catalog `S001…S021`, the "final theory" exercise, the HELD value-matches, the DEAD tombstones. Firewalled — nothing promotes to `CLAIMS.md`. |
-| `philosophy/` | The motivation layer: `P000–P003` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS`. Motivation only; cites the mathematics one-way. |
-| `story/` | The honest narrative of how the project unfolded, with `V`/`B` traceability and no duplicated math. |
-| `knowledge/` | Self-contained explainers `K001–K007` (stubbed; lowest priority). |
+| `speculations/` | The evolving-ideas room: the speculation catalog `S001…S028`, the "final theory" exercise, the HELD value-matches, the DEAD tombstones. Firewalled — nothing promotes to `CLAIMS.md`. |
+| `philosophy/` | The motivation layer: `P000–P006` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS`. Motivation only; cites the mathematics one-way. |
+| `story/` | The honest narrative of how the project unfolded (chapters 00–09), with `V`/`B` traceability and no duplicated math. |
+| `knowledge/` | Self-contained explainers `K001–K009` — standard background cited to the literature, the project's own use cited to `B`/`V` numbers, no new claims. |
 | `ARCHITECTURE.md` | The one-page map of the rooms and the one-way firewall arrow. |
 | `docs/` | Reconciled notes, the V4 paper, `ARCHIVE.md` (dead ideas). |
 | `legacy/` | Frozen prior history. Never edited; never a source of claims. |

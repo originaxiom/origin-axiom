@@ -8,6 +8,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ## [Unreleased]
 
+### Changed
+- **Documentation refresh to B124/V113 (2026-06-08; docs only, no math, no claims).** Brought the whole governed
+  documentation layer up to the current state of the research, which had run well ahead of it. **`knowledge/`
+  completed:** wrote all seven stubbed explainers — `K001` (trace map & character variety), `K002` (the metallic
+  family & continued fractions), `K003` (the Dickson tower), `K004` (figure-eight / Dehn filling / A-polynomials),
+  `K005` (the opposition involution `θ=−w₀`), `K006` (the 3d-3d correspondence + its firewall), `K007` (the
+  Fibonacci/quasicrystal trace map); the layer is now `K001–K009`, all written (standard material cited to the
+  literature, project use cited to `B`/`V`, no new claims). **`story/`:** added chapter `09 — the representation,
+  crystallized` (the B111–B124 arc: the sign half proved, `ρ_n = Sym^n(W)`, the external monodromy fundamental, the
+  functorial wall) and refreshed `08`. **`docs/atlas/`:** added the representation-program sections to
+  `SUCCESS_ATLAS`, `RESEARCH_TREE`, and `GLOSSARY`, and a "Pattern G" block of B111–B124 kills to `FAILURE_ATLAS`.
+  **`ROADMAP`:** refreshed the Phase B probe ladder through B33–B124 and the suite count (369 passed). **Stale live
+  ranges fixed:** `S001…S021 → S001…S028`, `K001–K007 → K001–K009 (all written)`, `P000–P003/P005 → P000–P006`
+  across `ARCHITECTURE`, `README`, `philosophy/PHILOSOPHICAL_PATHS`, `speculations/GOVERNANCE`, `knowledge/INDEX`
+  and `knowledge/GOVERNANCE`. Nothing promoted to `CLAIMS.md`; P1–P16 untouched; the firewall and the functorial
+  `Sym(W)→trace-ring` prize are unchanged.
+
 ### Added
 - **B124 — reciprocal `(λ,1/λ)` pairs + the time-reversal involution `λ↔1/λ` (2026-06-08; V113).** Two
   **strictly-separated** tiers. *Generic (symplectic):* the trace map is a reversible area-preserving map, so the

@@ -115,7 +115,7 @@ rather than computed, and clearly outside the claims layer.
 ## Companion documents (the architecture)
 
 This `philosophy/` folder holds the **motivation** layer (P000–P006 below + P1–P5 above + the foundations doc).
-The **evolving speculative ideas** live one room over in `../speculations/` (the catalog `S001…S021`, the live
+The **evolving speculative ideas** live one room over in `../speculations/` (the catalog `S001…S028`, the live
 exercise, the tombstones); the **narrative** is in `../story/`; the one-page map is `../ARCHITECTURE.md`.
 
 - `METALLIC_FOUNDATIONS.md` (here) — *why aim the theorem at the family, not the seed* (the "not-nothing → a

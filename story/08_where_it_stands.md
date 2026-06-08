@@ -12,6 +12,13 @@ The **central open problem** is one clean statement: prove **`char(ρ_n) = the D
 the opposition-involution multiplicities directly from `ρ_n` (chapter 04). It would close the `n ≥ 5` catalog *by
 proof* rather than by computation, and dissolve the `n=5` wall (chapter 05) into a corollary.
 
+Since this chapter was first written, the representation-theory consolidation (**B111–B124**, chapter 09) sharpened
+that statement considerably: the **sign half** of the catalog is now *proved for all `n`* via the opposition
+involution (**B112**), and the **magnitude half** has a canonical name — the tower is the **symmetric powers of the
+external monodromy fundamental**, `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W = V⊕1`, `det(W) = −1` (**B122**/**B121**).
+The open problem is therefore re-aimed but not lowered: *prove the tower is **functorially** `Sym^n(W)`* — the missing
+`Sym(W) → trace-ring` construction is the wall.
+
 The **live calculation pointers** — the only thing the physics exercise licensed (chapter 07,
 `../speculations/PHYSICS_EXERCISE.md`) — all point inward at the mathematics:
 
@@ -31,4 +38,5 @@ That is the state: a small self-generating object that turned out to know about 
 quasicrystals; one sharp open theorem; a mapped frontier; and an honest door on the speculation that motivates the
 next calculation.
 
-← back to `00_the_question.md`. See also `../ARCHITECTURE.md`.
+→ `09_the_representation.md` (how the object crystallized into a single recognized representation). ← back to
+`00_the_question.md`. See also `../ARCHITECTURE.md`.

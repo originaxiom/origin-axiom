@@ -42,6 +42,43 @@ central-sign ambiguity of the trace-lift data. It is the object used by
 Observable: a quantity or effect that can distinguish the proposal from
 alternatives or be compared to measurement.
 
+## Representation-Program Terms (the current center of gravity)
+
+Character variety: the space of representations `F₂ → SL(n,ℂ)` up to conjugacy; for `n=2` it is the affine 3-space
+of Fricke traces `(x,y,z)`. The project's arena (`knowledge/K001`).
+
+Trace map: the polynomial automorphism of the character variety induced by a mapping class / `GL(2,ℤ)` word; the
+project's recurring one is `T(x,y,z) = (z, x, xz − y)`.
+
+κ (kappa): the commutator trace coordinate `tr[A,B] = x²+y²+z²−xyz−2`; conserved by the trace map (= the Sütő
+quasicrystal invariant). The void sits at `κ=+2`, the geometric cusp at `κ=−2`.
+
+Metallic family / metallic mean: the matrices `M_m=[[m,1],[1,0]]` (`det=−1`) and their eigenvalues `λ_m=(m+√(m²+4))/2`
+(`m=1` golden, `m=2` silver, …); each a once-punctured-torus mapping class (`knowledge/K002`).
+
+Tower / `ρ_n`: the linearization of the `SL(n)` trace map at the trivial fixed point — an `(n²−1)`-dimensional
+`GL(2,ℤ)`-representation. The project's central object (`knowledge/K003`, `K008`).
+
+Dickson tower / catalog: the decomposition `ρ_n = ⊕_d Sym^d(M)^{μ_d}`, equivalently `char(ρ_n) = ∏_k char(±M^k)`;
+the `char(−M^k)` sectors are the `det=−1` twist.
+
+Two-sequence `μ_d`: the multiplicities `μ_d = [2≤d≤n] + [0≤d≤n−3]` of the symmetric powers in the tower.
+
+`W = V⊕1`: the 3-dimensional external monodromy fundamental (`det W = −1`); the tower is `Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖
+W)` (B122). Distinct from the Fricke 3-space `Sym²(V)` (`det=+1`, internal/principal).
+
+Opposition involution `θ = −w₀`: the contragredient/diagram symmetry of `A_{n−1}`; its `±1` eigenspaces give the
+catalog's sign multiplicities `⌈/⌊(n−h)/2⌋` (`knowledge/K005`).
+
+Degree = rank: the peripheral relation `L = (−1)^{n−1} M^n` (longitude eigenvalue = meridian eigenvalue to the rank);
+a spectral law for all `n` and a geometric state only for `n∈{3,4}` (`knowledge/K004`, P005).
+
+The wall / functorial `Sym(W) → trace-ring`: the standing open prize — a functorial construction realizing the tower
+as `Sym^n(W)` (the module identity alone is not a construction).
+
+Two-headed time: a labeled, firewalled *interpretation* of the spectrum's reciprocal/time-reversal symmetry
+(`λ↔1/λ`); generic-symplectic, not metallic; no arrow (`philosophy/P006`, B124).
+
 ## Topology And Geometry
 
 Puncture: a removed point or opening. In this project it marks the difference

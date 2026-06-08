@@ -387,12 +387,29 @@ the **engine-free `n=3`** (the eps-series degenerated, but the exact Lawton maps
 |---|---|---|---|---|
 | F1 | off-locus irreducible content for `4₁` at SL(3) | the 3 irreducible components (HMP) all lie **on** the forced locus | B110 / V97 | DEAD for `4₁`/SL(3); general fork **OPEN** |
 
-**Reading the register.** Patterns A–D are *permanent* (structural arguments or numerology controls) — never
-re-chase them. Pattern **E is the live frontier in disguise**: every E-row is a *computational* kill with a named
-structural revival, and they all converge on the same destination — the **`ρ_n` catalog proof** via the
-opposition-involution multiplicities (the central math target). Pattern F is scope-limited (the figure-eight at
-SL(3) is closed; higher rank / other manifolds remain open). See `speculations/TOMBSTONES.md` for the physics
-epitaphs and `speculations/CATALOG.md` for the live items.
+### Pattern G — superseded framings & standard-theory kills (B111–B124)
+
+The representation-program arc produced its own first-class negatives — framings that dissolved and "discoveries"
+that were the ambient theory's definitions. Tombstoned in `speculations/TOMBSTONES.md`; recorded here for the map.
+
+| # | dead end | kill mechanism | where | status |
+|---|---|---|---|---|
+| G1 | the "promotion" `char(M¹)→char(Mⁿ)` (two separable halves) | dissolved by the Sym-selection reframing — the tower is **one** object (the two-sequence); height-1 is a `Sym¹` absence, not a promotion | B117 / V104 | SUPERSEDED |
+| G2 | `θ → c` (opposition involution predicts the degree=rank scalar) | order-2 symmetry cannot single out the order-4 secondary `c=i` | B108 / V95 | DEAD |
+| G3 | `s_n → c` (the tower sign predicts the scalar) | same parity argument (`ℤ/2` can't reach `ℤ/4`) | B111 / V98 | DEAD |
+| G4 | the CS-crossover `k≈4 ↔ n=4` | m-dependent (`k≈2` at m=2) — a figure-eight-volume coincidence, not structure | seven-hints A4 | DEAD |
+| G5 | five quantum/knot "bridges" (unitarity `|λ|=1`, roots-of-unity tautology, Kashaev=volume conjecture, `z₀`/k=4 phase, "three regimes") | standard theory in our notation — the ambient framework's definitions, not framework-specific | Chat-2 triage | DEAD |
+| G6 | `⌊n/2⌋` as the exact sign-sector excess constant | bookkeeping-dependent; the raw `±1` excess is period-4, not monotone | B124 / V113 | DEAD (exact constant OPEN) |
+
+*Asset, not a kill (recorded so it is not re-killed):* the `det=−1` middle-eigenvalue `−1` is the **proved B121
+parity** (the external monodromy `det=−1` grading), re-derived via fig-8 = golden² (B122) — anchored at `B121`/`S024`.
+
+**Reading the register.** Patterns A–D and G are *permanent* (structural arguments, numerology controls, or
+standard-theory kills) — never re-chase them. Pattern **E is the live frontier in disguise**: every E-row is a
+*computational* kill with a named structural revival, and they all converge on the same destination — the **`ρ_n`
+catalog proof** (now sharpened to the functorial `Sym(W)→trace-ring` construction, `knowledge/K008`). Pattern F is
+scope-limited (the figure-eight at SL(3) is closed; higher rank / other manifolds remain open). See
+`speculations/TOMBSTONES.md` for the physics epitaphs and `speculations/CATALOG.md` for the live items.
 
 ## Current Lesson
 
