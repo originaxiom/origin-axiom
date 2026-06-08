@@ -836,3 +836,18 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   two ways (shape field + traces-of-squares); the exact `m≥3` field degree is precision-sensitive (not over-claimed).
   Corrects `knowledge/K009`/`K002`/`K004`/INDEX; tooling note in `REPRODUCIBILITY` (SnapPy gate lifted; MAGMA still
   unavailable). MATH only; the functorial `Sym(W)→trace-ring` wall is untouched.
+- **B126** — **the ladder to physics: how far does the metallic rigidity propagate?** (V115). A foundational-question
+  investigation (direct computation + a five-agent literature fleet). **Answer: exactly two floors, provably, then a
+  nameable wall.** **Floor 1** (arithmetic → quantization): the trace field determines the *field* of the perturbative
+  quantum series — a *theorem*, proven for our exact family (once-punctured-torus bundles, Yoon arXiv:2110.11003;
+  Dimofte–Garoufalidis 1202.6268). **Floor 2** (Mostow → `T[M]` rigidity): no marginal couplings; `M` selects the SUSY
+  phase (`4₁` → unbroken SUSY, gapped vacua, Cho–Gang–Kim 2007.01532); `H₁` torsion → one-form/center symmetry. **The
+  wall:** 3d→4d = data of the 2d *boundary* `∂M`, not `M`; the SUSY-breaking *scale* is orthogonal input. Honest
+  ceiling **N=4 SYM / N=2\*** — not the Standard Model. Two in-house facts: **(A)** `H₁(M_m)=ℤ⊕(ℤ/m)²` (SNF of
+  `M_m²−I=m·M_m`; SnapPy `m=1..7`) — the metallic `m` *is* the homology-torsion order; **(B)** arithmetic(`m=1,2`)⟺κ
+  rational in z (κ-degree `[1,1,3,3,7,6]`) — **family-specific, not a law** (no "arithmetic⟺simple-A-poly" theorem).
+  Firewalled readings: `speculations/S029` (the `H₁`-torsion → center-symmetry / `m→ℤ/m→`SU(m) reading, POSTULATED,
+  **five** kills), `philosophy/P007` (the object as a *maximal probe* of geometry↔QFT, not a seed of reality),
+  `speculations/LADDER_LITERATURE.md` (the citation map). Also corrects the inherited "exactly two arithmetic bundles"
+  off-by-one (BMR 1995 = three commensurability classes). MATH/number-theory tier; physics quarantined; the wall
+  untouched.

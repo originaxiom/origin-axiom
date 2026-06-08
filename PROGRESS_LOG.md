@@ -3104,5 +3104,47 @@ Nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring`
 
 ---
 
+## 2026-06-08 — B126: the ladder to physics — how far does the metallic rigidity propagate? (V115)
+
+**Context.** The user's foundational question ("what do we lack for a bridge to fundamental physics; what question
+are we posing wrong?"), run in "hardworking mode" with a five-agent literature fleet + direct computation, and
+synthesizing two exploration threads (compute-first; the four-floor ladder). Precondition agreed: a clean negative is
+a real result. MATH/number-theory tier; physics readings firewalled.
+
+**The answer (literature-grounded + computed).** The metallic object's *classical* rigidity propagates **exactly two
+floors** up the ladder (quantize → 3d `T[M]` → 4d → particle content), provably, then hits a **nameable** wall:
+- **Floor 1 — arithmetic → quantization:** the invariant trace field determines the *field* of the perturbative
+  quantum series — a THEOREM (Dimofte–Garoufalidis arXiv:1202.6268/1511.05628), **proven for our exact family**
+  (once-punctured-torus bundles, Yoon arXiv:2110.11003: 1-loop = adjoint torsion). Caveat: the trace-field-valuedness
+  is *universal*, so imaginary-quadratic / Bianchi fields are NOT "quantum-special" — the one untested door is the
+  `K₃`/Bloch grading on `ℚ(√−3)`/`ℚ(i)`.
+- **Floor 2 — Mostow → `T[M]` rigidity:** no marginal couplings; `M` selects the SUSY phase (`4₁` has irreducible
+  flat connections → unbroken SUSY, gapped vacua, Cho–Gang–Kim arXiv:2007.01532); `H₁` torsion → one-form/center
+  symmetry / line-operator spectrum (DGG; Aharony–Seiberg–Tachikawa; arXiv:2511.13696). `T[M]` is a concrete rank-1
+  **abelian** 3d N=2 SCFT.
+- **The wall:** 3d→4d (the 4d theory is data of the 2d *boundary* `∂M`, not `M`; ceiling N=4 SYM / N=2\*,
+  Kapustin–Witten) + the SUSY-breaking *scale* (orthogonal input — no manifold mechanism). **So we lack no concept; we
+  lack what no 3-manifold can carry.**
+
+**Computed in-house (verify-don't-trust):**
+- **(A)** `H₁(M_m) = ℤ ⊕ (ℤ/m)²` — PROVED by the Smith normal form of `M_m²−I = m·M_m` (invariant factors `(m,m)`),
+  confirmed by SnapPy `m=1..7`. The metallic `m` *is* the order of the homology torsion. (Verifies a cross-chat
+  observation; the SU(m)/Standard-Model reading is the firewalled `S029`.)
+- **(B)** arithmetic(`m=1,2`) ⟺ `κ` rational in z on the geometric component (κ-degree over `ℚ(z)` = `[1,1,3,3,7,6]`,
+  m=1..6; m≤4 computed exactly, the jump is at the arithmetic boundary m=2/3). **Family-specific, not a law** — the
+  literature has no "arithmetic ⟺ simple A-poly" theorem.
+
+**Banked:** B126 (probe + FINDINGS + README + test); `speculations/S029` (the center-symmetry reading, POSTULATED,
+five kill conditions); `philosophy/P007` (the maximal-probe reframe; the right question is "how far does rigidity
+propagate", answered); `speculations/LADDER_LITERATURE.md` (the five-agent citation map); the `PHYSICS_BRIDGE_MAP`
+ladder section; CATALOG S029. **Correction:** the inherited "exactly two arithmetic punctured-torus bundles" framing
+is an off-by-one (BMR 1995 = three commensurability classes; the figure-eight + sister m003 are two bundles in one
+ℚ(√−3) class) — corrected across K009/K002/B125. `ARCHITECTURE`/`PHILOSOPHICAL_PATHS` bumped to `P000–P007`; CATALOG
+to `S001…S029`.
+
+Nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring` construction stays the un-lowered prize.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
