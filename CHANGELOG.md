@@ -9,6 +9,29 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B127 — chirality, Fibonacci, arithmetic, and the object's proper name (2026-06-08; V116).** Resolves the
+  "threads 3 & 4 + Fibonacci" investigation (verify-don't-trust; every claim re-derived in-sandbox). The
+  physics-bridge claim returns a **clean, multiply-confirmed negative** (the firewall `P007` confirmed from a third
+  and fourth independent direction — chirality and arithmetic). **Surviving MATH:** the golden substitution's
+  **fusion algebra** is the Fibonacci/Yang–Lee fusion algebra (`λ²−λ−1`, Perron `φ`; the categorification is *not* a
+  framework output); the metallic family is the **achiral (Chern–Simons ≡ 0) + imaginary-quadratic corner** of the
+  once-punctured-torus bundles (CS=0 to machine precision m=1..6 vs a discriminating census mix); **expansion ⊥
+  unitary topological order** (hyperbolic→non-unitary, CS=0→`c₋=0`); and the **arithmetic trichotomy** — fusion
+  `ℚ(√(m²+4))` (real) vs manifold imaginary-quadratic vs braiding `ℚ(ζ5)`, with `ℚ(ζ3)∩ℚ(ζ5)=ℚ` (disjoint).
+  **The proper name (`knowledge/K010`, `philosophy/P008`):** the object is the **metallic-mean Schrödinger cocycle**
+  analyzed by its **Kohmoto–Kadanoff–Tang trace map**, `κ` its **Fricke–Vogt invariant**; the exact dictionary `κ=2`
+  (commuting/periodic/AC spectrum) vs `κ>2` (irreducible/hyperbolic Damanik–Gorodetski horseshoe/Cantor spectrum) —
+  **non-cancellation = Fricke–Vogt positivity = Cantor spectrum**. Emergent aperiodic-order physics (real, observed),
+  firewalled from fundamental — the strongest honest "this is physics" the arc has produced. New: `λ_m<2` **only for
+  m=1** → only golden can be a quantum dimension; the three BMR arithmetic classes named `{RL→ℚ(√−3), RRLL→ℚ(i),
+  RRL→ℚ(√−7)}` (√−7 non-metallic). **Four kills tombstoned** (K-A/K-B det=−1-breaks-chirality DEAD+INVERTED — CS≡0,
+  det=−1 is the orientation-reversing *symmetry*, distinct from B124's algebraic tower P-parity which stands; K-C
+  figure-eight = *physical* Fibonacci DEAD — non-unitary→Yang–Lee, fusion-rule-only, ζ5≠ζ3; K-D unitary topological
+  order DEAD; K-E forced scale DEAD); `S030` = the Fibonacci/Yang–Lee fork (DORMANT). **Citation fixes** to the merged
+  B126: re-attach Floor-2 SUSY from mis-attached Cho–Gang–Kim arXiv:2007.01532 (which is non-hyperbolic→unitary —
+  supports K-D) to Gang–Yonekura arXiv:1803.04009; split "Generalized Global Symmetries of T[M]" Part I (2010.15890,
+  JHEP04(2021)232) / Part II (2511.13696, JHEP05(2026)087). MATH + emergent-physics tier; physics POSTULATED/
+  quarantined; nothing to `CLAIMS.md`; P1–P16 and the functorial `Sym(W)→trace-ring` wall untouched.
 - **B126 — the ladder to physics: how far does the metallic rigidity propagate? (2026-06-08; V115).** A
   foundational-question investigation (direct computation + a five-agent literature survey). **Answer: the metallic
   object's classical rigidity propagates exactly two floors up the ladder (quantize → 3d `T[M]` → 4d → particle

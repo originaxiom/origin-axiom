@@ -49,9 +49,14 @@ complicated A-polynomials; the only genuine link is Mahler-measure ↔ Dedekind-
 - **Floor 2 — rigidity → rigidity of `T[M]` (ESTABLISHED).** Mostow–Prasad rigidity (`M` has no moduli) ⇒ `T[M]` has
   **no marginal couplings / no conformal manifold** — a real, established consequence. And `M` genuinely **selects the
   SUSY phase**: when `M` has no irreducible `SL(2,ℂ)` flat connection, SUSY is spontaneously broken; `4₁` *has*
-  irreducible flat connections ⇒ **unbroken SUSY, gapped massive vacua** (Cho–Gang–Kim, arXiv:2007.01532). The `H₁`
+  irreducible flat connections ⇒ **unbroken SUSY, gapped massive vacua** (Gang–Yonekura, arXiv:1803.04009 + the
+  Witten-index/flat-connection argument — *citation fix B127*: the earlier attribution to Cho–Gang–Kim
+  arXiv:2007.01532 was mis-attached; that paper concerns **non-hyperbolic** 3-manifolds → **unitary** topological
+  orders, so it actually supports the K-D no-go, not this statement — this Floor-2 sub-claim is correspondingly a
+  weaker "established in the 3d-3d program," which only confirms the firewall *earlier*). The `H₁`
   torsion of (A) controls the **one-form/center symmetry and line-operator spectrum** of `T[M]` (DGG arXiv:1108.4389;
-  Aharony–Seiberg–Tachikawa; the "Generalized global symmetries of `T[M]`" line, arXiv:2511.13696). `T[M]` itself is a
+  Aharony–Seiberg–Tachikawa; Gukov–Hsin–Pei "Generalized Global Symmetries of `T[M]`" Part I arXiv:2010.15890
+  (JHEP 04(2021)232) + Part II arXiv:2511.13696 (JHEP 05(2026)087, the torsion result)). `T[M]` itself is a
   concrete small **rank-1 abelian** 3d N=2 SCFT (two ideal tetrahedra; ≈ `U(1)` + 2 chirals), whose vacua reproduce
   the three flat connections / the A-polynomial — i.e. exactly the trace-map structure of this whole program.
 
@@ -81,6 +86,6 @@ the `K₃`/Bloch grading on `ℚ(√−3)`, `ℚ(i)` is the one genuinely-untest
 **Anchors:** B125 (the arithmetic members `m=1,2`), B107/K006/K007 (the firewall, the 3d-3d dictionary), the
 five-agent literature map (`speculations/LADDER_LITERATURE.md`). External (load-bearing): Dimofte–Garoufalidis
 1202.6268/1511.05628; Yoon 2110.11003; Garoufalidis–Zagier 2111.06645; Garoufalidis–Scholze–Wheeler–Zagier
-2412.04241; Cho–Gang–Kim 2007.01532; DGG 1108.4389; Gaiotto 0904.2715; Terashima–Yamazaki 1103.5748; Kapustin–Witten
+2412.04241; Gang–Yonekura 1803.04009 (Floor-2; 2007.01532 mis-attach fixed, B127); DGG 1108.4389; Gaiotto 0904.2715; Terashima–Yamazaki 1103.5748; Kapustin–Witten
 hep-th/0604151; Bowditch–Maclachlan–Reid 1995 (the *three* arithmetic commensurability classes — see the B125/K009
 correction). Firewalled readings: `speculations/S029` (center symmetry), `philosophy/P007` (the reframe).

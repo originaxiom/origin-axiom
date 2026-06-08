@@ -30,8 +30,8 @@ THE LADDER MAP (literature-grounded; see FINDINGS for citations). Rigidity propa
     torsion is Sage-gated in SnapPy; cited instead.]
   - FLOOR 2 (rigidity -> rigidity of T[M]): Mostow rigidity => T[M] has NO marginal couplings (no conformal
     manifold); and M selects the SUSY PHASE -- 4_1 has irreducible flat connections => unbroken SUSY, gapped vacua
-    (Cho-Gang-Kim arXiv:2007.01532). The H_1 torsion (A) -> the one-form/center symmetry / line-operator spectrum of
-    T[M] (DGG; Aharony-Seiberg-Tachikawa; arXiv:2511.13696). [The SU(m)/Standard-Model reading is FENCED: S029.]
+    (Gang-Yonekura arXiv:1803.04009; 2007.01532 mis-attach fixed B127). The H_1 torsion (A) -> the one-form/center symmetry / line-operator spectrum of
+    T[M] (DGG; ASvT; Gen.Glob.Symm Part I 2010.15890 + Part II 2511.13696). [The SU(m)/Standard-Model reading is FENCED: S029.]
   - THE WALL: 3d -> 4d (the 4d theory is data of the 2d BOUNDARY surface, not the 3-manifold M) + the SUSY-breaking
     SCALE (orthogonal input -- no manifold mechanism). Honest ceiling: N=4 SYM / N=2* (geometric Langlands,
     Kapustin-Witten). It does NOT reach chiral matter, generations, or the Standard Model.
@@ -148,7 +148,7 @@ def main():
 
     print("\n[LADDER] rigidity propagates EXACTLY TWO FLOORS, then hits the wall:")
     print("    Floor 1 (arithmetic -> quantization field): THEOREM, proven for our family (Yoon 2110.11003).")
-    print("    Floor 2 (Mostow -> no marginal couplings; M selects SUSY phase): 4_1 -> unbroken SUSY (CGK 2007.01532).")
+    print("    Floor 2 (Mostow -> no marginal couplings; M selects SUSY phase): 4_1 -> unbroken SUSY (Gang-Yonekura 1803.04009).")
     print("    WALL: 3d->4d = data of the 2d BOUNDARY, not M; SUSY-breaking scale = orthogonal. Ceiling: N=4 SYM/N=2*.")
     print("\n    => we lack no concept; we lack what no 3-manifold supplies (the 2d-boundary + the SUSY scale).")
     print("    Physics readings firewalled: S029 (H_1 torsion -> center symmetry), P007 (the reframe).")

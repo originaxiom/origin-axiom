@@ -3146,5 +3146,44 @@ Nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring`
 
 ---
 
+## 2026-06-08 — B127: chirality, Fibonacci, arithmetic, and the object's proper name (V116)
+
+**Context.** A CC handoff resolving the "threads 3 & 4 + Fibonacci" investigation, audited letter-by-letter
+(verify-don't-trust on the handoff itself — every computational claim re-derived in-sandbox; two citation errors in
+the merged B126 caught and fixed). The user's brief: co-researcher not just banker; brave but standards-strict. Net:
+the physics-bridge claim is a **clean, multiply-confirmed negative**, and the strongest survivor is the object's
+**proper name**.
+
+**Audit result — all computational claims verified.** CS≡0 for the metallic bundles `M_m²=R^m L^m` (machine zero,
+m=1..6) against a discriminating census mix (m003=4.93, m004=0, m006=−2.25); the Fibonacci fusion matrix = the golden
+substitution matrix; k=3 from 2cos(π/5)=φ; Yang–Lee `c=−22/5` vs Fibonacci `c=+14/5`; the arithmetic separation
+`ℚ(ζ3)∩ℚ(ζ5)=ℚ`; the cusp cutoff `a+1/a=3−n` reproducing n∈{3,4} (n=5→a=−1, the B95 degeneration); the null scale
+test; and the **three BMR arithmetic classes named** `RL→ℚ(√−3)`, `RRLL→ℚ(i)`, `RRL→ℚ(√−7)` (√−7 non-metallic).
+Chat-2's kills are **rigorous, not paranoid**.
+
+**Banked:**
+- **B127** (probe/test/FINDINGS/README): M-1 fusion-algebra; M-2 the **CS=0 achiral locus**; M-3 expansion ⊥
+  unitary-topological-order (+ the new `λ_m<2`-only-m=1 anyon obstruction); M-4 the arithmetic trichotomy; the
+  Fricke–Vogt dictionary; central charges; the null scale test; BMR three classes.
+- **The proper name** (the headline positive, full knowledge + philosophy entry per the user's choice):
+  `knowledge/K010` — the metallic-mean Schrödinger cocycle / KKT trace map / Fricke–Vogt invariant; the
+  `κ=2` (periodic AC) / `κ>2` (Cantor, Damanik–Gorodetski horseshoe) dictionary; "non-cancellation = Fricke–Vogt
+  positivity = Cantor spectrum." `philosophy/P008` — the principle named; emergent aperiodic-order physics,
+  firewalled from fundamental.
+- **Four kills tombstoned** (K-A/K-B/K-C/K-D/K-E) with their killing computations; `S030` the Fibonacci/Yang–Lee
+  two-categorification fork (DORMANT, fusion-rule-only). `S029`/`P007` sharpened (even the topological-matter landing
+  is non-unitary/achiral; the anyon link is fusion-algebra-only). A subtlety handled: B124's *algebraic* tower
+  P-parity vs B127's *topological* CS chirality are orthogonal and both stand.
+- **Citation fixes** to the merged B126: re-attach Floor-2 SUSY from the mis-attached Cho–Gang–Kim arXiv:2007.01532
+  (which is non-hyperbolic→unitary, actually supporting K-D) to Gang–Yonekura arXiv:1803.04009 (tag downgraded);
+  split "Generalized Global Symmetries of T[M]" into Part I (2010.15890=JHEP04(2021)232) / Part II
+  (2511.13696=JHEP05(2026)087) across S029/LADDER_LITERATURE/PHYSICS_BRIDGE_MAP/B126. `K001–K010`, `S001…S030`,
+  `P000–P008`.
+
+MATH + emergent-physics tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16 and the functorial
+`Sym(W)→trace-ring` wall untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

@@ -50,7 +50,7 @@ classical rigidity propagate?"** Answer: **exactly two floors, provably, then a 
 | floor | does rigidity propagate? | status |
 |---|---|---|
 | **1 — arithmetic → quantization** | YES: the trace field determines the **field** of the perturbative quantum series | **THEOREM**, proven for our family (Yoon arXiv:2110.11003; DG 1202.6268) |
-| **2 — Mostow → `T[M]` rigidity** | YES: no marginal couplings; `M` selects the SUSY phase (`4₁`→unbroken, gapped); `H₁` torsion → one-form symmetry | **ESTABLISHED** (Cho–Gang–Kim 2007.01532; DGG; ASvT) |
+| **2 — Mostow → `T[M]` rigidity** | YES: no marginal couplings; `M` selects the SUSY phase (`4₁`→unbroken, gapped); `H₁` torsion → one-form symmetry | **ESTABLISHED** (Gang–Yonekura 1803.04009; DGG; ASvT; Gen.Glob.Symm I 2010.15890 + II 2511.13696 — *2007.01532 mis-attach fixed B127*) |
 | **3 — 3d → 4d** | **NO**: the 4d theory is data of the 2d **boundary** `∂M`, not `M` | wall; ceiling **N=4 SYM / N=2\*** (Gaiotto; Kapustin–Witten) |
 | **4 — SUSY scale / masses** | **NO**: orthogonal input; no manifold mechanism | wall (Douglas landscape) |
 
