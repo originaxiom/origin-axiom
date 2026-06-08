@@ -55,6 +55,16 @@ parent permits but cannot make (it is invariant under the very reflection the ch
 vacuum selection works (Higgs phase, string vacua); the firewall to *fundamental* physics is unchanged and reinforced.
 The last torsion→gauge bridge is tombstoned with it (`K-F`, `../speculations/TOMBSTONES.md`).
 
+**Sharpened again (B129, a sixth direction — from *inside* the tower).** The previous five read the firewall from the
+base object or its propagation; the sixth reads it from the tower's own higher floors. Climbing the SL(n) tower adds
+**matrix size, not information**: the principal `Sym²` metallic SL(3) representation is irreducible yet has **every
+trace in ℚ(√−3)** (exact), and an off-sublocus fixed-class search over the 4-dim SL(3) bulk finds **no fixed point that
+escapes ℚ(√−3)** (427 points, max deviation `1.2e-6`). The tower is the single SL(2) Fibonacci ℚ(√−3) datum
+re-expressed in larger irreps — it never learns a second arithmetic language (`../knowledge/K012`). This also corrects
+a chat-only over-claim: the fence is not "rank is always 1" (covers reach rank 2) but **abelian × discrete, never a
+simple non-abelian factor** — rank grows by covering, only by **replication** (`../speculations/S029`, strengthened).
+The positive remains the emergent `K010` naming; the negative is the firewall, now six-deep.
+
 ## The bigger pattern (the recursion the method asks for)
 
 *"Part of what bigger pattern is this?"* — the honest answer is **Langlands-shaped**: the same arithmetic that governs

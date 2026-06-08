@@ -1,9 +1,10 @@
-# Speculation catalog — `S001…S030`
+# Speculation catalog — `S001…S031`
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
-`POSTULATED / SUPPORTED / TESTED-POSITIVE / TESTED-NEGATIVE / HELD(value-matching) / DORMANT / WALLED / DEAD`. The
-full physics-bridge terrain (dead/live/heavy) is mapped in **`PHYSICS_BRIDGE_MAP.md`**.
+`POSTULATED / SUPPORTED / TESTED-POSITIVE / TESTED-NEGATIVE / HELD(value-matching) / DORMANT / WALLED / DEAD / OPEN(MATH)`.
+The full physics-bridge terrain (dead/live/heavy) is mapped in **`PHYSICS_BRIDGE_MAP.md`**. (`S031` is the one MATH
+entry — an open theorem target, not a physics bridge.)
 
 Live speculations have a per-entry file (`S0xx_*.md`); DEAD ones are epitaphs in `TOMBSTONES.md`. The long-form
 exercise that generated these is `PHYSICS_EXERCISE.md`.
@@ -40,6 +41,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S028 | the **`Sym⁴(3-space)=sl(4)`** reading — the **algebra is proved** (B122: `W=V⊕1` the external fundamental; the n=4 dimension-identity fixed point); the **"3+1" geometric reading is fenced** (POSTULATED, bound to the open functorial hinge; "spacetime" stripped — adjacent to the DEAD S017/S018). Includes the fenced A2 spin-2/gravity overlay note | POSTULATED (geometry) | **B122**, B121, B117, S010, S017/S018 |
 | S029 | the **homology torsion = center / one-form symmetry** of `T[M]` — the PROVED fact `H₁(M_m)=ℤ⊕(ℤ/m)²` (the metallic `m` = the torsion order, B126); the 3d-3d dictionary `H₁`-torsion ↦ one-form symmetry; the **`m→ℤ/m→`center-of-`SU(m)`→SM** reading FENCED by five kills (center≠group; the `(ℤ/m)²` doubling; `T[M]` is rank-1 **abelian** so `ℤ/m` is a line-spectrum symmetry not an `SU(m)` gauge group; combining `m`'s needs gluing; small-integer value-matching) | POSTULATED | **B126**/V115, K006, S024, `LADDER_LITERATURE` |
 | S030 | the **two categorifications of `τ×τ=1+τ`** — unitary Fibonacci (`(G₂)₁`, `c=+14/5`) vs non-unitary **Yang–Lee** (`M(2,5)`, `c=−22/5`); the framework's hyperbolic (non-unitary, CS=0) quantization lands on the **Yang–Lee** side, but **fusion-rule-only** (no forced braiding/central charge; arithmetic `ζ3`≠`ζ5`). The thin Lee–Yang-edge thread T-1, not recommended | DORMANT | **B127**/V116, S029, K010, TOMBSTONES (K-C/K-D) |
+| S031 | the **SL(n) sealing capstone** (tier MATH, **not a physics bridge**) — prove the metallic trace map fixes *only* the `Sym^{n−1}` image of its SL(2) fixed point, for all m, n (would upgrade B129 from computer-assisted to proved). Evidence: m=1/SL(3) principal rep exact in ℚ(√−3) + 427 off-sublocus points, 0 escapes (max dev 1.2e-6) | OPEN (MATH) | **B129**/V118, K012, K003/K005, S025 |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a

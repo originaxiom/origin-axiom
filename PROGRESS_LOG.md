@@ -3211,5 +3211,33 @@ MATH + a firewalled SSB-sharpening tier; physics POSTULATED/quarantined; nothing
 
 ---
 
+## 2026-06-08 — B129: the SL(3) tower is sealed in ℚ(√−3) — the firewall from inside the tower (V118)
+
+The arc *after* B128, internalized from a cross-session handoff and **re-derived in-sandbox** (verify-don't-trust).
+**Does climbing the SL(n) tower produce new content, or is it the single SL(2) Fibonacci datum in larger irreps?** The
+latter — the **sixth** firewall direction, the first from *inside* the tower.
+
+- **S1a (EXACT, the load-bearing leg):** the principal `Sym²` metallic SL(3) rep is **irreducible** (algebra = `M₃`)
+  yet **every trace lies in ℚ(√−3)** (`trA=trB=3`, `trAB=½−(3√3/2)i`, `trA⁻¹B=9/2+(5√3/2)i`, `tr[A,B]=½+(3√3/2)i`).
+  SL(2) arithmetic in SL(3) clothing — no new field/generator/modulus.
+- **S1b (computer-assisted, a distribution):** off-sublocus root-find `tcoords(A,B)=tcoords(AB,A)` over the 4-dim
+  bulk; a 15-seed scan gives 427 converged fixed points, **max distance-to-ℚ(√−3) = 1.2e-6**, 0 beyond 1e-5 → **0
+  escapes**. Genuine content = the `Sym²` image (S1a).
+- **Covers correction (strengthens S029):** the firewall is **abelian × discrete, not "rank always 1"** — a
+  chat-only over-claim. Single bundles are 1-cusped rank-1, but covers reach rank 2 (silver `b++RRLL` degree-2 →
+  `(2,2)`); rank grows by **replication** only.
+- **Two method bugs banked (REPRODUCIBILITY SCAN):** B1 the `inQ3` detector (accept rationals; small `maxden` — a
+  large one approximates any real); B2 saddle fixed points (root-find, not iterate; the rep is unipotent so `|eig|=1`
+  can't separate genuine from trivial; robust **polished-distance** escape test).
+- **Verify-don't-trust correction:** the handoff's clean 22/56/0 reducible/finite/genuine split did **not** reproduce
+  (the search rarely converges to the genuine saddle); the robust S1b evidence is the **distance distribution** + the
+  **exact** S1a. Conclusion (0 escapes; sealed in ℚ(√−3)) is the same. Banked `knowledge/K012`; capstone
+  `speculations/S031` (open MATH, **not** a bridge); `P007` sixth direction. `K001–K012`, `S001…S031`, `P000–P008`.
+
+MATH tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the functorial `Sym(W)→trace-ring` wall
+(B85), and the merged B124–B128 (K010/K011/P007/P008/S029/S030) untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
