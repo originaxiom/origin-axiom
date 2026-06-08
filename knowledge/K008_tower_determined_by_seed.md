@@ -67,6 +67,27 @@ The Sym two-sequence is not a custom decomposition — it is **symmetric powers 
   `M` acts (the trivial fixed point); off the void the trace map is elliptic / root-of-unity (e.g. order-6 at SL(2)),
   not `Sym`-organized (B106).
 
+## The spectrum is reciprocal-closed: time-reversal and a det=−1 handedness residue (B124)
+
+The trace map is a reversible area-preserving (symplectic) map, so the tower spectrum is **reciprocal-closed**
+`(λ,1/λ)` and **time-reversal** (the inverse map) acts as `λ↔1/λ`, swapping the stable/unstable manifolds — generic
+to all such maps (the anchor is the SL(2) void Jacobian `{φ²,−1,φ⁻²}`: a reciprocal pair + the self-reciprocal `−1`,
+`det=−1`). This is **symplectic geometry, not a metallic feature**; the only metallic-specific datum is the **rate**
+`log φ²`. Two facts on top of it (B124/V113):
+
+- **No arrow.** Expanding-mode count `==` contracting-mode count, **exactly, every `n`, both `det` signs** (reciprocal
+  pairing forces it). The two "time directions" carry identically many modes — there is no forward-vs-backward
+  preference in the spectrum.
+- **A det=−1 chirality (P) residue.** Yet `det=−1` carries **negative** reciprocal-pair modes (the `char(−M^h)`
+  sectors; `det=+1` carries none) — the same amphichirality as the inversion identity `char(M⁻¹)=char(−M)` (B118),
+  surfacing in the mode counts. So the metallic structure breaks **chirality (P-like)** while **preserving
+  time-direction symmetry (T-like)**. The imbalance is real and `O(n/2)`, but its **exact constant is open**
+  (bookkeeping-dependent: the raw `±1` excess is period-4, not `⌊n/2⌋`; the n≥5 regime is inflated by the B117
+  middle-band doubling).
+
+The geometric/physical "two-headed time" *reading* of this reciprocity is an interpretation, firewalled in
+`../philosophy/P006` and `../speculations/S002` — it never enters here.
+
 ## What it does *not* license
 
 This is a structural determination and a clean **repackaging**, not a closure: the W-identity is module-iso-
@@ -78,5 +99,7 @@ layer** (the `Sym` content / eigenvalue magnitudes); the **signs** `char(M^h)` v
 
 **Anchors:** B103 (the `GL(2,ℤ)`-rep + the `ℚ[m]`-iso, V87), B117 (the Sym two-sequence + the dimension identity,
 V104), B120 (the `(n;trace,det)` determination + m-universality, V107), **B121** (the external monodromy `sl(2)`,
-V109), **B122** (the `W=V⊕1` symmetric-power identity, V111). External: classical plethysm / branching of `SL(2)`
-representations; the geometric/physical readings of `W` are firewalled (`../speculations/S028`).
+V109), **B122** (the `W=V⊕1` symmetric-power identity, V111), **B124** (reciprocal pairs / time-reversal + the
+det=−1 chirality residue, V113). External: classical plethysm / branching of `SL(2)` representations; the
+geometric/physical readings of `W` (and the "two-headed time" reading of the reciprocity) are firewalled
+(`../speculations/S028`, `../philosophy/P006`, `../speculations/S002`).

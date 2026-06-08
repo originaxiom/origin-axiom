@@ -2999,5 +2999,41 @@ construction stays the un-lowered prize.
 
 ---
 
+## 2026-06-08 — B124: reciprocal `(λ,1/λ)` pairs + time-reversal `λ↔1/λ` — two strictly-separated tiers (V113)
+
+**Context.** A Chat-2 handoff on the user's "what if time flows both ways and we're in the positive branch" thread:
+one computable **math** fact to bank (generic-symplectic), one **interpretation** to record (labeled, fenced), one
+**metallic-specific** open thread to log DORMANT. Tier discipline is the whole point — the math fact and the
+time-interpretation never share a sentence. Verified §1 (and the supplement's spectral counts) from scratch.
+
+**Done:**
+
+- **B124 (`frontier/B124_time_reversal_reciprocity/`, V113).** *Generic (symplectic), verified:* the SL(2) **void**
+  Jacobian (`T(x,y,z)=(z,x,xz−y)` at `(2,2,2)`) has eigenvalues `{φ²,−1,φ⁻²}` — a reciprocal `(λ,1/λ)` pair + the
+  self-reciprocal `−1`, `det=−1`; `(DT)⁻¹` carries the same (self-reciprocal) spectrum with stable/unstable **roles
+  swapped**. This is symplectic geometry, **not** a metallic feature; the only metallic-specific datum is the **rate**
+  `log φ²` (same lesson as the tombstoned unitarity / roots-of-unity / volume-conjecture kills). *Metallic-specific
+  (the supplement), verified:* from `ρ_n=⊕Sym^d(M)^{μ_d}` (B103), at `det=−1` the tower carries **negative**
+  reciprocal-pair modes (`char(−M^h)` sectors), `det=+1` carries **none** — a `det=−1` sign/chirality imbalance
+  `O(n/2)` (= amphichirality B118/B121, via `char(M⁻¹)=char(−M)`). **Decisive recompute: expanding count == contracting
+  count EXACTLY, every n (2..10), both det → NO arrow** — the asymmetry is **chirality (P)**, not time-direction (T).
+  **Correction B confirmed:** the raw `±1` excess `N(+1)−N(−1)` **oscillates period-4** `[−1,0,1,0,…]` — NOT monotone
+  `⌊n/2⌋`; distinct natural decompositions give distinct sequences (I independently got a third, `[0,1,3,4,4,5,7,8,8]`,
+  for pos-minus-neg sectors), so the **exact constant is bookkeeping-dependent / open** — the closed form was **not**
+  banked. 5 tests pass.
+- **Tiers banked separately.** Math: an annotation in `knowledge/K008` (the reciprocal/time-reversal structure +
+  the `det=−1` chirality residue, P-not-T). Interpretation: a **labeled** entry `philosophy/P006` — the "two-headed
+  time" reading (Carroll–Chen / CPT-symmetric resonance), recorded as an overlay (generic-symplectic, not metallic,
+  firewalled: iteration ≠ physical time), better-motivated than the matter-overlay but not load-bearing. Dynamics
+  fork: `speculations/S002` **corrected to no-arrow** (the spectrum is exactly forward/backward symmetric) + the **one
+  DORMANT metallic-specific thread** — does the seed select the low-entropy reference point (entropic) or is the fixed
+  point only spectrally distinguished (prior: spectral/generic)? `ARCHITECTURE`/`PHILOSOPHICAL_PATHS` bumped to
+  `P000–P006`; `CATALOG` S002 row updated.
+
+Suite green; physics quarantined; nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring`
+construction stays the un-lowered prize.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
