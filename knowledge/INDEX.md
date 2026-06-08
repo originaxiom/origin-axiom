@@ -1,8 +1,8 @@
-# `knowledge/` — index of explainers `K001–K011`
+# `knowledge/` — index of explainers `K001–K012`
 
-> **All written (K001–K011).** Each is a self-contained explainer — standard material cited to the literature, the
+> **All written (K001–K012).** Each is a self-contained explainer — standard material cited to the literature, the
 > project's own use cited to `B`/`V` numbers, no new claims. The layer is complete as of the B124 documentation
-> refresh (K011 appended at B128); this index is the contract for what each covers.
+> refresh (K011 appended at B128, K012 at B129); this index is the contract for what each covers.
 
 | ID | title | scope (what it explains) | anchors |
 |---|---|---|---|
@@ -17,6 +17,7 @@
 | **K009** ✓ | [Why m=1 is special: the selection criteria](K009_m1_selection_criteria.md) | the systole (B92) and the expansion threshold (P004/B120) uniquely select `m=1`; arithmeticity is a **two-element selector `{m=1 ℚ(√−3), m=2 ℚ(i)}`** (B125, corrects B123) — `m=1` is the *most-selected* point, not uniquely arithmetic | B92, B120, B125 (corrects B123); Maclachlan–Reid |
 | **K010** ✓ | [The object named: the metallic-mean Schrödinger cocycle and its Fricke–Vogt invariant](K010_metallic_schrodinger_cocycle.md) | the proper name — KKT trace map, `κ` = Fricke–Vogt invariant, the Markov surface, the metallic-mean Schrödinger operator; the exact dictionary `κ=2` (periodic AC) / `κ>2` (Cantor, Damanik–Gorodetski horseshoe); emergent aperiodic-order physics, firewalled from fundamental | B107, B124, B127; KKT 1983, Sütő 1987, Damanik–Gorodetski |
 | **K011** ✓ | [The chirality recursion: when a metallic concatenation is amphichiral](K011_chirality_recursion.md) | concatenations `W=R^{m₁}L^{m₁}…R^{m_k}L^{m_k}`; the recursion theorem (achiral ⟺ block-sequence reversal is a cyclic rotation; 15/15, k≤4); the order parameter is the **ordering** not the count; the exact `Z₂` mirror; the correct chirality test (`is_amphicheiral`, not naive isometry/CS sign); sharpens B127's CS=0 | B127, B128; once-punctured-torus bundles, SnapPy |
+| **K012** ✓ | [The SL(n) tower is sealed in ℚ(√−3): SL(2) data in larger irreps](K012_sln_tower_sealed.md) | the principal `Sym²` metallic SL(3) rep is irreducible yet all traces in ℚ(√−3); off-sublocus root-find (Lawton's 9 coords, the saddle/horseshoe method) finds 0 escapes (427 points, max dist 1.2e-6); the tower adds matrix size not information; the corrected firewall (**abelian × discrete**, rank grows only by replication); two method bugs | B128, B129; Lawton 2007, Damanik–Gorodetski |
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.

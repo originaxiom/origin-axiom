@@ -46,6 +46,19 @@ pip install snappy
   *small* CS can still be genuinely chiral). The correct test is `M.symmetry_group().is_amphicheiral()`, **gated on**
   `M.symmetry_group().is_full_group() == True`. Validated controls: m004/m003 amphichiral; m015/m016/m009 chiral.
   (Build punctured-torus bundles from `R/L` words as `snappy.Manifold("b++" + word)`.)
+- **SCAN — "is this number in ℚ(√−3)?" needs a small-height detector** (B129, bug B1). Test rationality of `Re(z)`
+  **and** of `Im(z)/√3` directly, and accept **pure rationals** (`1 = 1 + 0·√−3` *is* in ℚ(√−3) — a naive
+  `a + b√−3` grid rejects them and fakes "escapes"). Use a **small** `Fraction.limit_denominator` bound (≈100, the
+  genuine traces have small height): `limit_denominator(10000)` is too permissive — by Dirichlet it approximates almost
+  any real to <1e-8, so it would accept genuine escapes (√2, π) too. Tuned: `maxden=100`, `tol≈1e-6`.
+- **SCAN — fixed points of a hyperbolic trace map are SADDLES; root-find, don't iterate** (B129, bug B2). Forward
+  iteration *flees* saddles (the KKT/metallic trace map is a horseshoe, `knowledge/K010`). A solver stopping at
+  residual ~1e-7 lands on **degenerate** trivial/central fixed points with slightly-off traces (`0.99998` vs `1`) that
+  fake an "escape" at the residual floor. The figure-eight rep is **unipotent** (`|eig|=1`), so eigenvalue-modulus does
+  **not** separate genuine content from trivial reps. Robust escape test: **polished distance** — re-solve from the
+  candidate (`ftol≈1e-15`), then measure deviation from ℚ(√−3) with a threshold (≈1e-4) set ~100× above the artifact
+  band (observed max 1.2e-6 over 427 points) and ~10× below any real escape. The escape count is then stable (no
+  0-vs-1 flicker). *(Both B1 and B2 produced false firewall "reopenings" / a near-false-refutation before being caught.)*
 - Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
   the verified constants are also recorded in-probe and tested unconditionally.
 

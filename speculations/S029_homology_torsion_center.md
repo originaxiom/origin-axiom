@@ -58,6 +58,18 @@ signal. Combined with kill #3 (rank-1 abelian; center≠gauge), the torsion→ga
 `TOMBSTONES.md`, V117). The **mathematical fact** (`m` = torsion order, B126) stays banked; only the bridge reading is
 killed.
 
+**Strengthened (B129) — the fence is "abelian × discrete," not "rank 1."** A chat-only over-claim (never banked) held
+the firewall is rank-1 because single bundles are one-cusped, "structurally sealed at rank 1." That is **wrong**: a
+single bundle *is* one-cusped rank-1 abelian, but its finite **covers are multi-cusped and rank-2** — the silver
+bundle `b++RRLL` has degree-2 covers reaching `(cusps, free_rank)=(2,2)` (verified, SnapPy). The fence survives because
+a cover's extra cusps are **copies of the same boundary torus** permuted by the deck group: `T[cover]` is a discrete
+gauging/orbifold of copies of the rank-1 abelian `T[M]`, **not** a new irreducible non-abelian theory. So the correct
+fence is: **the metallic family produces abelian × discrete, never an irreducible *simple non-abelian* factor — rank
+can grow by covering, but only by replication.** This *strengthens* kill #3 (it now covers the covers, not just the
+base) and is corroborated from inside the tower by B129/`K012` (the SL(3) tower is sealed in ℚ(√−3): no off-sublocus
+irreducible content, no new field). Same lesson as `K-F`: the structure yields more abelian/discrete data, never a
+simple non-abelian factor.
+
 ## What would promote or kill it
 
 The decisive computation is **Gang–Kim–Lee–Park technology**: construct `T[M_2]` and `T[M_3]` explicitly and read off
