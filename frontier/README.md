@@ -796,7 +796,10 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   two-sequence, no functorial `Sym(W)→trace-ring` map; re-aims the prize ("prove the tower is *functorially*
   `Sym^n(W)⊕…`") without lowering the wall. Magnitude layer only (signs = the det=−1 layer, B118). The 3+1/spin-2
   *readings* are firewalled (`speculations/S028`).
-- **B123** — **m=1 arithmeticity: the third independent `m=1` selection criterion** (V112; `SUPPORTED`). The
+- **B123** — **m=1 arithmeticity** (V112; `SUPPORTED`). **⚠ PARTLY CORRECTED by B125/V114:** the "third *independent*
+  / *unique* `m=1` selection criterion" framing is **wrong** — arithmeticity is a **two-element selector `{m=1, m=2}`**
+  (silver is also arithmetic, `ℚ(i)`). The computed-in-house facts below (the `m=1` `Φ₆` shape, the order-6 echo)
+  stand; the *uniqueness* reading does not. The
   figure-eight complement's regular ideal-triangulation shape is the **6th cyclotomic** root `z₀ = e^{iπ/3}`
   (`z²−z+1 = Φ₆`), invariant trace field `ℚ(√−3)` → **arithmetic**; by **Reid (1991)** it is the *unique* arithmetic
   knot complement, so the `m≥2` metallic manifolds are **not** arithmetic. This joins the **systole** (B92/S001) and
@@ -821,3 +824,15 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   the B117 middle-band doubling). Math in `knowledge/K008`; the **"two-headed time"** *reading* is a labeled overlay,
   firewalled in `philosophy/P006` + the dynamics fork `speculations/S002` (corrected to **no arrow** + one DORMANT
   metallic-specific thread). NO physics; the functorial `Sym(W)→trace-ring` wall is untouched.
+- **B125** — **SnapPy arithmeticity of the metallic `R^m L^m` bundles** (V114; **TESTED-POSITIVE**; **corrects
+  K009/B123**). With SnapPy runnable in-sandbox, the invariant trace field `kM` is computable directly:
+  **arithmeticity does *not* uniquely select `m=1`** — it selects **{m=1 golden `ℚ(√−3)`, m=2 silver `ℚ(i)`}** and
+  kills `m≥3` (`kM` not imaginary quadratic). The orientable metallic members are the once-punctured-torus **bundles**
+  `M_m² = R^m L^m` (`m=1` = the figure-eight); the two arithmetic ones sit in different Bianchi families (not
+  commensurable) — the "exactly two arithmetic punctured-torus bundles" K009 already cited. This **overturns** the
+  B123/K009 "third *independent* / *unique* `m=1`" reading, which mis-applied **Reid 1991** (a *knot* theorem) to
+  bundles. **Preserved:** Reid stands (knots ≠ bundles; `m=2` being arithmetic confirms its scope); the order-6 echo
+  stays an observation. **Honest:** the two arithmetic verdicts + the `m≥3` non-arithmetic verdict reproduce robustly
+  two ways (shape field + traces-of-squares); the exact `m≥3` field degree is precision-sensitive (not over-claimed).
+  Corrects `knowledge/K009`/`K002`/`K004`/INDEX; tooling note in `REPRODUCIBILITY` (SnapPy gate lifted; MAGMA still
+  unavailable). MATH only; the functorial `Sym(W)→trace-ring` wall is untouched.

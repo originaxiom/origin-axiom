@@ -3071,5 +3071,38 @@ the un-lowered prize.
 
 ---
 
+## 2026-06-08 — B125: SnapPy arithmeticity of the metallic R^m L^m bundles — overturns K009 (V114, TESTED-POSITIVE)
+
+**Context.** A correction handoff: SnapPy is now runnable in-sandbox, so the invariant trace field of the metallic
+family is computable directly. Verify-don't-trust applied to the handoff itself — reproduced §1–§3 from scratch
+before banking. MATH tier only; physics untouched; the functorial `Sym(W)→trace-ring` wall not touched.
+
+**Done (verified):**
+
+- **The spine** (numpy, exact): `M_m² = R^m L^m`, `tr = m²+2` (→ 3,6,11,18,27,38). The orientable metallic members
+  ARE the once-punctured-torus bundles `R^m L^m`; `m=1` = the figure-eight (`m004`, vol 2.029883, build-checked).
+- **The result** (SnapPy 3.3.2 + cypari, reproduced two independent ways — the shape field [Neumann–Reid] and the
+  lift-independent traces-of-squares): **arithmeticity does NOT uniquely select `m=1`.** It is a **two-element
+  selector `{m=1 golden `ℚ(√−3)`, m=2 silver `ℚ(i)`}`**; `m≥3` are non-arithmetic (`kM` not imaginary quadratic).
+  The two arithmetic fields are distinct → different Bianchi families → not commensurable → two genuinely distinct
+  arithmetic metallic manifolds (= the "exactly two arithmetic punctured-torus bundles" K009 already cited).
+- **Honest scope** (verify-don't-trust on the handoff): the two arithmetic verdicts + the `m≥3` non-arithmetic
+  verdict reproduce robustly; the *exact* `m≥3` field degree is primitive-element/precision-sensitive (I observed 4
+  or 8; the canonical value is 6) — it does not move any verdict (>2 kills imaginary-quadratic), so it is not
+  over-claimed.
+- **The correction.** Overturns the B123/K009 "third *independent* / *unique* `m=1` arithmetic criterion," which
+  mis-applied **Reid 1991** (a *knot* theorem) to *bundles*. Corrected `knowledge/K009` (systole + expansion still
+  uniquely select `m=1`; arithmeticity is the two-element selector), `K002`, `K004`, `INDEX`; annotated the V112
+  ledger row. **Preserved:** Reid 1991 stands (knots ≠ bundles; `m=2` being arithmetic confirms its scope — `m=2` is
+  necessarily not a knot); the order-6 echo stays an observation.
+- **Tooling note** (`REPRODUCIBILITY`): SnapPy 3.3.2 + cypari 2.5.6 installable/usable in-sandbox (the SnapPy gate is
+  lifted; the documented gotchas recorded); MAGMA is NOT installable (license-gated) — genuinely MAGMA-only work
+  stays parked for *no tool*. The B125 test skips its live recompute when SnapPy is absent (`importorskip`) so the
+  suite stays green without it.
+
+Nothing to `CLAIMS.md`; P1–P16 untouched; the functorial `Sym(W)→trace-ring` construction stays the un-lowered prize.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

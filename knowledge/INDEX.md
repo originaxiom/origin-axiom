@@ -14,7 +14,7 @@
 | **K006** ✓ | [The 3d-3d correspondence (the citable physics)](K006_3d3d_correspondence.md) | `M_SUSY(T[M]) ≅ M_flat(M;G_C)`, flat connections = vacua, the three branches; the firewall and what is *not* licensed | B101, B107; `../speculations/` |
 | **K007** ✓ | [The Fibonacci Hamiltonian / quasicrystal trace map](K007_fibonacci_hamiltonian_quasicrystal.md) | the Kohmoto–Kadanoff–Tang map, Sütő's invariant, the Cantor spectrum, gap-labeling; the metallic-mean family as a studied object | B107; `../speculations/S007`, `S023` |
 | **K008** ✓ | [The trivial-point tower is determined by `(n; trace, det)`](K008_tower_determined_by_seed.md) | the tower factors as `tower(n; trace, det)` — `n` = Sym unfolding depth, `(trace,det)` = the MCG-word seed; m-universality; the plethysm reframing; `W=V⊕1`; the reciprocal/time-reversal + chirality residue | B103, B117, B120, B121, B122, B124 |
-| **K009** ✓ | [Why m=1 is special: three independent selection criteria](K009_m1_selection_criteria.md) | the systole (B92), the expansion threshold (P004/B120), and arithmeticity (B123: `m=1` arithmetic, `ℚ(√−3)`, `z₀=e^{iπ/3}`; m≥2 not, Reid 1991) | B92, B120, B123; Reid 1991 |
+| **K009** ✓ | [Why m=1 is special: the selection criteria](K009_m1_selection_criteria.md) | the systole (B92) and the expansion threshold (P004/B120) uniquely select `m=1`; arithmeticity is a **two-element selector `{m=1 ℚ(√−3), m=2 ℚ(i)}`** (B125, corrects B123) — `m=1` is the *most-selected* point, not uniquely arithmetic | B92, B120, B125 (corrects B123); Maclachlan–Reid |
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.

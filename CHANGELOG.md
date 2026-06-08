@@ -9,6 +9,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B125 — arithmeticity correction (overturns K009; 2026-06-08; V114, TESTED-POSITIVE).** With SnapPy now runnable
+  in-sandbox, the invariant trace field `kM` of the metallic family is computable directly. Result: **arithmeticity
+  does *not* uniquely select `m=1`** — it selects **{m=1 golden `ℚ(√−3)`, m=2 silver `ℚ(i)`}** and kills `m≥3`. The
+  orientable metallic members are the once-punctured-torus **bundles** `M_m² = R^m L^m` (`m=1` = the figure-eight,
+  `m004`); the two arithmetic ones are in different Bianchi families (not commensurable) — the "exactly two arithmetic
+  punctured-torus bundles" K009 already cited. This **corrects** the B123/K009 "third *independent* / *unique* `m=1`
+  arithmetic" sub-claim, which mis-applied **Reid 1991** (a *knot* theorem) to bundles. **Corrected:**
+  `knowledge/K009` (arithmeticity is a two-element selector; systole + expansion still uniquely select `m=1`),
+  `K002`, `K004`, `knowledge/INDEX`, and the V112 ledger row (annotated). **Preserved:** Reid 1991 stands
+  (knots ≠ bundles; `m=2` being arithmetic confirms its scope); the order-6 echo stays an observation. **Honest:** the
+  two arithmetic verdicts + the `m≥3` non-arithmetic verdict reproduce robustly two ways (shape field +
+  traces-of-squares); the exact `m≥3` field degree is precision-sensitive and not over-claimed. Tooling availability
+  recorded in `REPRODUCIBILITY` (SnapPy 3.3.2 + cypari installable in-sandbox — gate lifted; MAGMA still
+  unavailable). MATH tier only; physics POSTULATED/quarantined untouched; nothing to `CLAIMS.md`; P1–P16 and the
+  functorial `Sym(W)→trace-ring` wall untouched.
 - **Documentation refresh to B124/V113 (2026-06-08; docs only, no math, no claims).** Brought the whole governed
   documentation layer up to the current state of the research, which had run well ahead of it. **`knowledge/`
   completed:** wrote all seven stubbed explainers — `K001` (trace map & character variety), `K002` (the metallic
