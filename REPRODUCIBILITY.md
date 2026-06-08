@@ -25,6 +25,23 @@ pip install snappy
 
 *(`requirements.txt` and the `src/` package are created in Phase A — see `ROADMAP.md`.)*
 
+### Tooling availability (recorded for the arithmetic / low-dim-topology probes)
+
+- **SnapPy + cypari are installable and usable in-sandbox** (`pip install snappy --break-system-packages` brings
+  SnapPy 3.3.2 + cypari 2.5.6). This **lifts the gate** on items previously parked as "SnapPy/MAGMA-gated" — most
+  were only *SnapPy*-gated. Used by **B125** (the metallic invariant-trace-field / arithmeticity computation).
+- **MAGMA is NOT installable** (closed, license-gated). Genuinely MAGMA-only work (heavy Galois / class-field
+  computation) stays parked — parked for *no tool*, not handed to anyone as a "prove it."
+- **SnapPy 3.3.2 gotchas** (documented so they are not re-derived): the high-level `invariant_trace_field()` /
+  `.find_field()` are **Sage-gated** (use shapes + `cypari.algdep` instead — the shape field *is* the invariant
+  trace field, Neumann–Reid); `polished_holonomy(bits_prec=…)` is **broken** (use
+  `ManifoldHP(...).fundamental_group().SL2C(word)` for high precision); `algdep` works in **method form** and the
+  degree search must **start at 2** (`algdep(x,1)` on a non-rational raises a domain error); build pari complex
+  numbers from `str(z.real())/str(z.imag())` to preserve precision; the `SL₂` *generator*-trace field can be **2×**
+  the shape field (lift-dependent sign) — use traces of **squares** for the commensurability invariant.
+- Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
+  the verified constants are also recorded in-probe and tested unconditionally.
+
 ---
 
 ## Running the tests

@@ -54,7 +54,9 @@ with `L = M^n`, which exists only for `n ∈ {3,4}`; B95/B119 show the forced pr
 - `B83`/`B89` — the A-polynomial **family** `L = (−1)^{n−1} M^n` and the symbolic-exact `M⁴ = L`.
 - `B106` — the Dehn-filling fixed-point class (the third class), partially elliptic.
 - `B123` — `4₁` is the **unique arithmetic knot complement** (Reid 1991), shape `e^{iπ/3}`, trace field `ℚ(√−3)`
-  (`K009`).
+  (`K009`). **Reid's uniqueness is about *knots* and does not extend to bundles:** the metallic `R^m L^m` are
+  once-punctured-torus *bundles*, and B125 finds **two** of them arithmetic — `m=1` (`ℚ(√−3)`) and `m=2` silver
+  (`ℚ(i)`); `m=2` is necessarily *not* a knot, confirming Reid's scope.
 
 ## What this is and is not
 

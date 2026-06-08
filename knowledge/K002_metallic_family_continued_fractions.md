@@ -37,10 +37,12 @@ which `m=1` is extremal within the family.
    distinguishing the external monodromy `sl(2)` from the internal principal one (B121, `K008`).
 2. **Period-1 / "not-nothing" cuts out the family, not a member.** The condition "is a metallic unit" (a hyperbolic
    `GL(2,ℤ)` element with period-1 continued fraction) selects the whole family `{M_m}`; choosing a *member* requires
-   importing extra structure. `K009` collects three independent such imports — the **systole** (a metric: `m=1` is the
-   shortest closed geodesic on the modular surface, B92), the **expansion threshold** (a dynamical onset, P004/B120),
-   and **arithmeticity** (a number field: `m=1` is the unique arithmetic one, B123). The motivation for aiming the
-   theorem at the *family* rather than the seed is in `../philosophy/METALLIC_FOUNDATIONS.md` and `../philosophy/P000`.
+   importing extra structure. `K009` collects these imports — the **systole** (a metric: `m=1` is the shortest closed
+   geodesic on the modular surface, B92) and the **expansion threshold** (a dynamical onset, P004/B120) each uniquely
+   select `m=1`; **arithmeticity** (a number field) is a **two-element selector** picking `{m=1 golden ℚ(√−3),
+   m=2 silver ℚ(i)}` — the two arithmetic punctured-torus bundles (B125, correcting B123). The motivation for aiming
+   the theorem at the *family* rather than the seed is in `../philosophy/METALLIC_FOUNDATIONS.md` and
+   `../philosophy/P000`.
 
 ## How the project uses it
 
@@ -58,6 +60,6 @@ The metallic family is a family of **arithmetic / dynamical objects** (units, ge
 distinctness** of the members (e.g. the distinct trace fields `ℚ(√(m²+4))`, `S023`) and the catalog the family shares.
 
 **Anchors:** B92/V76 (systole), B93/B94 (det=−1 parity), B103 (the catalog as a class function); `../philosophy/
-METALLIC_FOUNDATIONS.md`, `../philosophy/P000`, `K009` (the three `m=1` selections). External: continued fractions
+METALLIC_FOUNDATIONS.md`, `../philosophy/P000`, `K009` (the `m=1` selections). External: continued fractions
 and the Hurwitz theorem (Hardy–Wright); the metallic means (de Spinadel); `M_m` as a once-punctured-torus mapping
 class (`K004`).
