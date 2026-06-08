@@ -1,13 +1,15 @@
 # S032 — The no-forced-choice forward program: the theorem-version + the two-seed internal-fork question
 
-**Status: `OPEN` — tier: MATH (genuine mathematics targets, EXPLICITLY NOT a physics bridge).** Recorded as the forward
-program of B130, not a physics reading. Nothing promotes to `../CLAIMS.md`; P1–P16 untouched. *(Filed in
-`speculations/` alongside `S031` as a MATH-only entry — it carries no firewalled physics overlay.)*
+**Status: `Target B ANSWERED (B131) · Target A OPEN` — tier: MATH (genuine mathematics targets, EXPLICITLY NOT a
+physics bridge).** Recorded as the forward program of B130, not a physics reading. Nothing promotes to
+`../CLAIMS.md`; P1–P16 untouched. *(Filed in `speculations/` alongside `S031` as a MATH-only entry — it carries no
+firewalled physics overlay.)*
 
 B130 (`../knowledge/K013`) proved, in the **trace-ring / character-variety invariants**, that the metallic structure
 has **no forced choice**: the Fricke–Vogt invariant `κ` is free on the fixed locus (κ-elimination ideal empty, m=2–5),
 the substitution word is the unique deterministic fixed point, and the only discrete unsymmetric fork is the **external
-seed** `m`. Two natural targets remain open.
+seed** `m`. Two natural targets followed; **Target B is now answered (B131/V120, YES — heterogeneity makes a choice)**;
+Target A (the full theorem-version) remains open.
 
 ## Target A — the theorem-version (no invariant *whatsoever* is forced)
 
@@ -21,9 +23,19 @@ Candidate route: classify the invariant ring of the metallic mapping class on th
 every generator is either MCG-determined (single-valued) or moves in a positive-dimensional family; combine with the
 `K012`/S031 vertical-sealing to argue no *new* discrete invariant appears up the SL(n) tower either.
 
-## Target B — is choice an emergent property of multiplicity? (the two-seed question)
+## Target B — is choice an emergent property of multiplicity? (the two-seed question) — **ANSWERED: YES (B131)**
 
-B130 locates the question precisely: a single seed is **internally fork-free**, and the only fork is external
+> **Resolved by B131/V120 — and the answer is YES, with a sharpening: it is *heterogeneity*, not multiplicity, that
+> makes a choice.** Gluing two metallic bundles along their boundary tori matches their A-polynomial curves in the
+> 2-dim boundary-torus character space; **two distinct seeds = two distinct curves → a 0-dimensional (discrete)
+> intersection** → the previously-free `κ` collapses to a **finite set** (a fork). The **same seed** glued to itself =
+> the **same curve** → a continuum (no fork). So the minimal multiplicity for an internal discrete fork is **two
+> distinct seeds**. The (1,2) fork is **exact**: `κ ∈ {−4, −2}` (both irreducible, κ≠2), from `(trT²−2)(trT²−4)=0`,
+> built on A-polynomials validated against B67 (m=1) and B69/V33 (m=2). Pairs (1,3),(2,3) give larger discrete forks
+> (numerical). This is emergent aperiodic-order / 3-manifold mathematics — **not** a physics bridge (the honest
+> expectation held). See `../frontier/B131_two_seed_fork/`. *(Target A — the full theorem-version — remains open.)*
+
+B130 located the question precisely: a single seed is **internally fork-free**, and the only fork is external
 seed-selection. The sharper next form:
 
 > **Does combining two distinct seeds `m₁ ≠ m₂` create an *internal* discrete fork that neither had alone — a finite set

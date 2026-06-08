@@ -3273,5 +3273,32 @@ MATH tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the
 
 ---
 
+## 2026-06-09 — B131: two-seed gluing creates an internal discrete fork — heterogeneity makes a choice (answers S032-B) (V120)
+
+The autonomous continuation after B130 (the user chose "push into the amalgam"). B130 located the question: a single
+metallic seed is **internally fork-free** (κ free; only fork = the external seed `m`). **S032-B** (the precise form of
+the standing "minimal multiplicity to become more" intuition): does combining two distinct seeds create an *internal*
+fork? **Answer: YES — and it is heterogeneity, not multiplicity.** Re-derived in-sandbox (verify-don't-trust).
+
+- **Mechanism (proven):** each seed's fixed locus is a 1-dim curve whose boundary data `(κ, trT)` traces an
+  **A-polynomial curve** in the 2-dim boundary-torus character space; gluing matches the curves. **Same seed → same
+  curve → continuum** (no fork); **distinct seeds → distinct curves → 0-dim intersection → discrete fork.**
+- **A-poly curves validated** two independent ways: m=1 `κ=trT⁴−5trT²+2` (**B67**), m=2 `κ=trT²−6` (**B69/V33**),
+  re-derived here from explicit SL(2,ℂ) matrices (residual ~1e-14); m=3 irrational (B69 double cover).
+- **Forks:** (1,2) **exact** `{−4,−2}` (both irreducible, κ≠2); (1,3) 6 values, (2,3) 4 values (numerical). `κ=−2` =
+  shared complete-cusp config; the others genuine. By B130's definition a forced choice exists.
+- **K-G discipline applied:** the discreteness is a genuine transversal 0-dim intersection (not a curve degeneracy);
+  all fork points κ≠2 hence irreducible.
+- Banked `knowledge/K014` (choice from heterogeneity, companion to K013); resolved `speculations/S032` Target B (YES;
+  Target A still open); `P008` Coda 3 (choice is born from the interaction of *different* units). `K001–K014`,
+  `S001…S032`, `P000–P008`.
+
+The reading: a single seed is a **moduli space** (parametrizes, does not choose, B130); two **distinct** seeds glued
+create **discreteness** — choice is emergent/relational, born from heterogeneity. Emergent aperiodic-order / 3-manifold
+mathematics — **not** a physics bridge. MATH tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the
+functorial `Sym(W)→trace-ring` wall (B85), and the merged B124–B130 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
