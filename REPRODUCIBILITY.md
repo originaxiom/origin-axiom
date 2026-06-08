@@ -39,6 +39,13 @@ pip install snappy
   degree search must **start at 2** (`algdep(x,1)` on a non-rational raises a domain error); build pari complex
   numbers from `str(z.real())/str(z.imag())` to preserve precision; the `SL₂` *generator*-trace field can be **2×**
   the shape field (lift-dependent sign) — use traces of **squares** for the commensurability invariant.
+- **SCAN — chirality / amphichirality MUST use `symmetry_group().is_amphicheiral()`** (B128). Naive
+  `M.is_isometric_to(M_mirror)` is **orientation-blind** and gives **false positives** — it returns `True` for the
+  known-chiral census knots m015/m016/m009 (it admits the orientation-**reversing** mirror isometry). Raw Chern–Simons
+  **sign** is also unsafe (CS carries a period/modulus; an achiral manifold can read CS = π²/2 as for m003, and a
+  *small* CS can still be genuinely chiral). The correct test is `M.symmetry_group().is_amphicheiral()`, **gated on**
+  `M.symmetry_group().is_full_group() == True`. Validated controls: m004/m003 amphichiral; m015/m016/m009 chiral.
+  (Build punctured-torus bundles from `R/L` words as `snappy.Manifold("b++" + word)`.)
 - Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
   the verified constants are also recorded in-probe and tested unconditionally.
 

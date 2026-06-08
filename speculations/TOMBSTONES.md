@@ -124,3 +124,28 @@ confirmed from a third and fourth independent direction). Each kill carries the 
 - **K-E — "a forced dimensionful scale or non-generic physical ratio" — DEAD.** `λ_m`, `2 log λ_m`, volumes, systoles
   are hyperbolic-unit invariants; no ratio matches `α⁻¹=137.036`, `m_p/m_e=1836.15`, or `sin²θ_W=0.231`, and a null
   test confirms any near-coincidence is generic. A physical scale requires **inserting** a length. Kill: B127 (M-E).
+
+---
+
+**Symmetry-breaking-layer kill (B128 / V117).** The arc after B127 confirmed the firewall from a **fifth** direction
+(the symmetric object provably cannot force its own breaking) and produced a clean new MATH theorem (the chirality
+recursion, `../knowledge/K011`) — but it also killed the last torsion bridge. The *math* underneath is fine and banked
+(B128); the *bridge* reading is the kill.
+
+- **K-F — "single torsion `ℤ/n` → `SU(n)` center → gauge-group bridge" — DEAD, two independent reasons.**
+  **(1) Empirical:** `H₁` torsion does **not** track chirality — it tracks **periodicity / symmetry-order**. Achiral
+  **doubles** are *single*-torsion (`RLRRLL → ℤ/13`, `RRLLRRRLLL → ℤ/61`, `RLRRRLLL → ℤ/25`); achiral **periodic**
+  triples are *doubled* (`(RL)³ → ℤ/4⊕ℤ/4`, `(R²L²)³ → ℤ/14⊕ℤ/14`); the **chiral** (1,2,3) is *single* (`ℤ/157`). So
+  "broken vacuum = single torsion" is false: `RRLLRRRLLL` is single-torsion **and** achiral; the doubling is the
+  pure/periodic `(R^mL^m)^k` high-symmetry feature, not chirality. **(2) Interpretive:** center ≠ gauge group — the
+  same conflation `S029`/`S030` already closed (`T[M]` is rank-1 abelian; `ℤ/n` is a one-form symmetry, not an
+  `SU(n)`). *Revival kill condition:* exhibit a single metallic object whose line-operator spectrum organizes as an
+  `SU(n)`-type gauge sector beyond the abelian `U(1)` core (the `S029` decisive computation) — none exists. Kill: B128
+  (verified in-sandbox: the torsion table + `is_amphicheiral`); cross-ref `S029` (the rank-1 abelian fence), `S030`.
+  *(Constructive: the surviving MATH is the chirality recursion `K011`; the surviving physics reading is the SSB
+  sharpening of `../philosophy/P007`/`P008` — permits, never forces.)*
+
+  *Method-bug note (test-infra; see `../REPRODUCIBILITY.md`):* the chirality determinations above use
+  `symmetry_group().is_amphicheiral()` gated on `is_full_group()`. Naive `is_isometric_to(mirror)` is orientation-blind
+  and **false-positives** on the known-chiral m015/m016/m009; raw CS **sign** is unsafe (period/modulus). Banked so no
+  future run repeats the orientation-blind error.

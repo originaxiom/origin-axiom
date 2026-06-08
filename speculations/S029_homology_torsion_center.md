@@ -50,6 +50,14 @@ both give the *symmetry / fusion data* (cheap) and never the *defining data* (th
 charge). The metallic family's quantization is **non-unitary + achiral** (CS=0, B127), so even the topological-matter
 landing is the **Yang–Lee** side, fusion-rule-only — see `S030` and the K-C/K-D kills (`TOMBSTONES.md`).
 
+**Now tombstoned as a bridge (B128, K-F).** A direct empirical test closes the "single torsion → broken vacuum →
+`SU(n)`" sub-reading: `H₁` torsion tracks **periodicity / symmetry-order**, *not* chirality. The achiral double
+`RRLLRRRLLL` is single-torsion (`ℤ/61`) while the **chiral** `(1,2,3)` is also single (`ℤ/157`), and the *doubled*
+`(ℤ/m)²` is the high-symmetry **periodic** `(R^mL^m)^k` feature — so torsion rank carries no chirality/breaking
+signal. Combined with kill #3 (rank-1 abelian; center≠gauge), the torsion→gauge bridge is **DEAD** (`K-F`,
+`TOMBSTONES.md`, V117). The **mathematical fact** (`m` = torsion order, B126) stays banked; only the bridge reading is
+killed.
+
 ## What would promote or kill it
 
 The decisive computation is **Gang–Kim–Lee–Park technology**: construct `T[M_2]` and `T[M_3]` explicitly and read off
