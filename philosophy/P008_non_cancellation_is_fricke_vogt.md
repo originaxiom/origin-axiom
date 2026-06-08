@@ -66,8 +66,17 @@ to pick. The only discrete unsymmetric fork is **which seed** `m`, and that is t
 inevitable; the specific world is a choice the unit cannot make from inside, because it has no internal fork to
 resolve.** The residue that cannot cancel is real; the choosing is simply not there to be done.
 
+**Coda 3 (B131) — where choice does enter: heterogeneity.** A single unit cannot choose; but **gluing two *distinct*
+units** does create a genuine internal fork — the previously-free `κ` collapses to a discrete set (the (1,2) gluing:
+`κ ∈ {−4, −2}`, exact). And it is **heterogeneity, not multiplicity**: a unit glued to a *copy of itself* stays a
+continuum; only two *different* seeds discretize (`../knowledge/K014`). So the honest arc is complete in shape:
+non-cancellation forces a symmetric **parent** that cannot choose (a moduli space), and **choice is born from the
+interaction of different units** — emergent, relational, not present in any one. (This is aperiodic-order / 3-manifold
+mathematics, firewalled; *not* vacuum selection — but it is the precise, computed form of "minimal multiplicity to
+become more.")
+
 Related: `P000` (not-nothing as the family), `P003` (dead-ends as boundaries), `P006` (two-headed time — generic-form
 / arithmetic-content), `P007` (the maximal probe; the SSB fifth direction, the no-forced-choice seventh), `../knowledge/K010` (the naming), `K011`
-(the chirality recursion), `K013` (no forced choice / the moduli-space reading), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
-quasicrystals), B127 (the Fricke–Vogt dictionary), B128 (the recursion + the SSB sharpening).
+(the chirality recursion), `K013` (no forced choice / the moduli-space reading), `K014` (choice from heterogeneity), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
+quasicrystals), B127 (the Fricke–Vogt dictionary), B128 (the recursion + the SSB sharpening), B131 (choice from heterogeneity).
 External: Sütő (1987); Damanik–Gorodetski (the horseshoe / Cantor spectrum).
