@@ -65,6 +65,18 @@ a chat-only over-claim: the fence is not "rank is always 1" (covers reach rank 2
 simple non-abelian factor** — rank grows by covering, only by **replication** (`../speculations/S029`, strengthened).
 The positive remains the emergent `K010` naming; the negative is the firewall, now six-deep.
 
+**Sharpened again (B130, a seventh direction — the deepest form).** The first six asked "does it reach physics"; the
+seventh asks "can it ever be made to *choose*." A *forced choice* requires an invariant that is **discretely
+multivalued and unsymmetrizable** (more than one value, with no symmetry relating them). Computed in the structure's own
+invariant ring, no such object exists: the Fricke–Vogt invariant `κ` is **free** on the fixed locus (the κ-elimination
+ideal is empty, m=2–5 — `κ` slides continuously, no discrete value to select), and chirality is multivalued but the
+`Z₂` mirror relates its values (B128). The only genuine discrete unsymmetric fork is **which seed** `m` — and that is
+**external input** (a unit cannot choose to be a different unit; internally it is a deterministic word + a continuous
+`κ`). So the structure is a **moduli space** — continuous `κ` × discrete seed-label — and *a moduli space parametrizes,
+it does not choose* (`../knowledge/K013`). This is the mechanism *under* "permits but never forces" (the fifth
+direction): permission is the continuous family; the inability to force is the absence of any internal discrete fork.
+The negative is now seven-deep, and the seventh answers the deepest version of the founding question.
+
 ## The bigger pattern (the recursion the method asks for)
 
 *"Part of what bigger pattern is this?"* — the honest answer is **Langlands-shaped**: the same arithmetic that governs

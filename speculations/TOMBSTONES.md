@@ -149,3 +149,30 @@ recursion, `../knowledge/K011`) — but it also killed the last torsion bridge. 
   `symmetry_group().is_amphicheiral()` gated on `is_full_group()`. Naive `is_isometric_to(mirror)` is orientation-blind
   and **false-positives** on the known-chiral m015/m016/m009; raw CS **sign** is unsafe (period/modulus). Banked so no
   future run repeats the orientation-blind error.
+
+---
+
+**No-forced-choice-layer kill (B130 / V119).** The arc after B129 confirmed the firewall from a **seventh** direction
+(no invariant in the trace ring is discretely-multivalued-and-unsymmetric — the structure is a moduli space, not a
+chooser; `../knowledge/K013`) — and along the way killed a **false-positive of the *revival* kind** (a too-eager "yes,"
+the sibling of the B129 method-bug-#2 kill mode). Banked so the error is not re-derived.
+
+- **K-G — "the metallic structure HAS a forced choice (isolated fixed points with distinct `κ` at m≥2)" — FALSE, two
+  kills.** An intermediate run *declared* a forced choice: `sp.solve` on the fixed-locus equations returned "isolated
+  points" with distinct `κ`-values (−6, −158/21 at m=2; −1/4 at m=3; 2/3, 6.5 at m=4), and a symmetry argument *appeared*
+  to show them unsymmetrizable. Both legs were wrong. **(1)** The "isolated points" are **degenerate points of the
+  continuous fixed curve**, not 0-dimensional components: the proper test — adjoin `k=κ` and eliminate the coordinates —
+  gives an **empty `κ`-elimination ideal** (m=2,3,4 symbolic; m=5 a 259-value continuum), so `κ` is *free* and those
+  "isolated" values are punctures / parametrization artifacts where `sp.solve` split a curve (tell: some branches still
+  carried a free symbol, e.g. `κ = z²−2`). **(2)** The symmetry argument was **circular** — it checked only the 4
+  `κ`-preserving *sign* symmetries (a subgroup), not the full trace-map automorphism action, then concluded "no symmetry
+  relates them." *Revival kill condition:* exhibit a genuine **0-dimensional** fixed-locus component (Jacobian rank 3 /
+  empty `κ`-elimination contradicted) with `κ≠2` and no full-group symmetry to another such — none exists in the
+  invariant ring. Kill: B130 (verified in-sandbox: the empty `κ`-elimination ideal). *(Constructive: the surviving MATH
+  is the no-forced-choice result `K013`; the surviving reading is `../philosophy/P007`/`P008` — the moduli-space root of
+  permits-but-never-forces.)*
+
+  *Method-bug note (test-infra; see `../REPRODUCIBILITY.md`):* to test "discrete vs continuous fixed-locus value," use
+  the **`κ`-elimination ideal** (adjoin `k=κ`, eliminate the coordinates; empty ⟹ continuous ⟹ no choice) and confirm
+  0-dimensionality by **Jacobian rank** — **not** `sp.solve` branch-counting, which mislabels curve degeneracies as
+  isolated points.
