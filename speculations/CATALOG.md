@@ -11,7 +11,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | ID | speculation | status | evidence / depends |
 |---|---|---|---|
 | S001 | amphichirality → θ=0 in `T[4₁]` (not 4d QCD; about `φ₁²`; **ALL metallic `m` amphichiral — PROVED**, `M_m²` symmetric; the systole, not amphichirality, selects `m=1`) | SUPPORTED | B67, B71, B92 |
-| S002 | arrow of time = trace-map flow direction (no e-folds) | SUPPORTED | B106; D2 pending |
+| S002 | arrow of time — **CORRECTED to two-headed time (B124): no arrow** (spectrum exactly fwd/bwd symmetric); metallic-specific residue = handedness (P), not direction (T); one DORMANT thread (does the seed select the reference point?) | SUPPORTED | B106, **B124/V113**; `../philosophy/P006` |
 | S003 | κ-conservation (structural); flatness = Ω is analogy | SUPPORTED | quasicrystal anchor (B107) |
 | S004 | W1/W2 (A↔B) asymmetry, structural | SUPPORTED | B102, B106 |
 | S005 | baryon-asymmetry amplitude `|Z(W1)/Z(W2)| ≈ 10⁻⁹` | HELD(value-matching) | B106 D1 |

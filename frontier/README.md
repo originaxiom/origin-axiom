@@ -808,3 +808,16 @@ The physics chain is **firewalled** to `speculations/archive/PHYSICS_RESONANCES.
   `SUPPORTED` not `TESTED-POSITIVE`. The `det=−1` middle-eigenvalue `= −1` is the proved **B121** parity (an asset,
   cross-ref, not a new finding). Triage companion: five quantum/knot observations tombstoned as standard theory
   (`speculations/TOMBSTONES.md`), one DORMANT tooling-gated target sharpened (`speculations/S027` §3).
+- **B124** — **reciprocal `(λ,1/λ)` pairs + the time-reversal involution `λ↔1/λ`** (V113). **Two strictly-separated
+  tiers.** *Generic (symplectic):* the trace map is a reversible area-preserving map, so the Jacobian spectrum at a
+  hyperbolic fixed point is **reciprocal-closed** `(λ,1/λ)` and time-reversal (the inverse map) acts as `λ↔1/λ`,
+  swapping stable/unstable — **not** a metallic feature (symplectic geometry); the only metallic-specific datum is the
+  **rate** `log φ²` (same lesson as unitarity / tautological roots / the volume conjecture). Anchor: the SL(2) **void**
+  Jacobian `{φ²,−1,φ⁻²}`, `det=−1`. *Metallic-specific (the supplement):* at SL(n≥3) `det=−1` the tower carries
+  **negative** reciprocal-pair modes (`char(−M^h)` sectors; `det=+1` carries **none**) — a `det=−1` **sign/chirality**
+  imbalance `O(n/2)` (= amphichirality B118/B121, via the inversion identity `char(M⁻¹)=char(−M)`). **But expanding
+  count == contracting count EXACTLY, every n, both det → NO arrow:** the asymmetry is **chirality (P)**, not
+  time-direction (T). The exact constant is **open** (the raw `±1` excess is period-4, not `⌊n/2⌋`; n≥5 inflated by
+  the B117 middle-band doubling). Math in `knowledge/K008`; the **"two-headed time"** *reading* is a labeled overlay,
+  firewalled in `philosophy/P006` + the dynamics fork `speculations/S002` (corrected to **no arrow** + one DORMANT
+  metallic-specific thread). NO physics; the functorial `Sym(W)→trace-ring` wall is untouched.

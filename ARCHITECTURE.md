@@ -31,7 +31,7 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 | `papers/` | paper-candidate registry; the `V`-validation-ledger | — |
 | `docs/atlas/` | navigation + the **FAILURE_ATLAS** (dead ideas, first-class negatives) | — |
 | **`speculations/`** | the **evolving-ideas** room: the catalog `S001…S021`, the "final theory" exercise, the **HELD** value-matches, the **DEAD** tombstones, the `archive/` | **never** |
-| **`philosophy/`** | the **motivation** layer: `P000–P005` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
+| **`philosophy/`** | the **motivation** layer: `P000–P006` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
 | **`story/`** | the **honest narrative** — how the project actually unfolded, with `V`/`B` traceability, no duplicated math | **never** |
 | **`knowledge/`** | self-contained explainers `K001–K009` (`K001–K007` stubbed; **`K008` written** — the `(n; trace, det)` determination) | **never** |
 | `paths/` | the systematic emergence-mechanism survey (`E`-paths) | via mathematization |
