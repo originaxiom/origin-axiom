@@ -50,7 +50,15 @@ No particle content, no gauge group, no constant of nature, no fundamental claim
 Fricke–Vogt positivity and places the object in aperiodic spectral theory — a description of order *within* existence,
 firewalled from the *contents* of existence.
 
+**Coda (B128) — the symmetric parent.** "Non-cancellation" produces the *maximally symmetric* configuration
+(amphichiral, CS=0, equal-weight, achiral subshift). The honest consequence: existence is **inevitable** (forced, zero
+parameters) but the specific physics is **contingent** — a spontaneous-symmetry-breaking selection the symmetric parent
+*permits but cannot force* (`P007`, the fifth firewall direction; the chirality recursion `../knowledge/K011`). The
+residue that cannot cancel is real and named; *which* world is chosen from the landscape it permits is not in the
+principle.
+
 Related: `P000` (not-nothing as the family), `P003` (dead-ends as boundaries), `P006` (two-headed time — generic-form
-/ arithmetic-content), `P007` (the maximal probe), `../knowledge/K010` (the naming) and `K007` (the KKT/quasicrystal
-background), `../speculations/S023` (the distinct metallic quasicrystals), B127 (the Fricke–Vogt dictionary).
+/ arithmetic-content), `P007` (the maximal probe; the SSB fifth direction), `../knowledge/K010` (the naming), `K011`
+(the chirality recursion), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
+quasicrystals), B127 (the Fricke–Vogt dictionary), B128 (the recursion + the SSB sharpening).
 External: Sütő (1987); Damanik–Gorodetski (the horseshoe / Cantor spectrum).

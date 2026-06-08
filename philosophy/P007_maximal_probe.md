@@ -43,6 +43,18 @@ landing is the non-unitary, achiral **Yang–Lee** side, and the anyon link is *
 gives the fusion rule, never the braiding/central charge). And its three faces — substitution `√5`, manifold `√−3`,
 braiding `ζ5` — live in arithmetically **disjoint** worlds. The firewall is now confirmed *in the object's own data*.
 
+**Sharpened again (B128, a fifth and structural direction).** The strongest form of the negative: the symmetric
+object **cannot force its own symmetry breaking**. Everything the forced chain produces — amphichirality, CS=0,
+equal-weight `|Z|=1`, the achiral subshift — is the *maximally symmetric* configuration, and "breaking" means leaving
+it. Composition into a generic *order* (gluing distinct metallic towers, e.g. the chiral triple `(1,2,3)`) **permits**
+a parity break (CS≠0; the first metallic-derived object to do so), but every structure-preserving operation keeps the
+object achiral, and *which* arrangement breaks is a free **ordering** choice the structure does not dictate (the
+chirality recursion, `../knowledge/K011`). So **existence is inevitable** (the symmetric structure is forced, zero free
+parameters) while **the specific physics is contingent** — a spontaneous-symmetry-breaking *selection* the symmetric
+parent permits but cannot make (it is invariant under the very reflection the choice requires). This is exactly how
+vacuum selection works (Higgs phase, string vacua); the firewall to *fundamental* physics is unchanged and reinforced.
+The last torsion→gauge bridge is tombstoned with it (`K-F`, `../speculations/TOMBSTONES.md`).
+
 ## The bigger pattern (the recursion the method asks for)
 
 *"Part of what bigger pattern is this?"* — the honest answer is **Langlands-shaped**: the same arithmetic that governs

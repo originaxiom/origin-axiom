@@ -3185,5 +3185,31 @@ MATH + emergent-physics tier; physics POSTULATED/quarantined; nothing to `CLAIMS
 
 ---
 
+## 2026-06-08 — B128: the symmetry-breaking landscape — chirality recursion, the order parameter, the torsion firewall (V117)
+
+The arc *after* B127/K010, internalized from a cross-session handoff and **re-derived in-sandbox** (verify-don't-trust)
+on validated controls with the **correct** chirality test. **Result:** the metallic structure **permits symmetry
+breaking but never forces it** — composition into a generic *order* can break parity (CS≠0), but every
+structure-preserving operation keeps the object achiral and *which* arrangement breaks is a free ordering choice.
+
+- **Method bug (propagated as a `REPRODUCIBILITY.md` SCAN):** naive `is_isometric_to(mirror)` is orientation-blind →
+  **false positives** on known-chiral m015/m016/m009; raw CS sign unsafe. Correct test:
+  `symmetry_group().is_amphicheiral()` gated on `is_full_group()`. Re-verified controls in-sandbox.
+- **B128** (probe/test/FINDINGS/README): **M-A** the **chirality recursion theorem** — `W=R^{m₁}L^{m₁}…R^{m_k}L^{m_k}`
+  achiral ⟺ the block-sequence `(m₁…m_k)` reversal is a cyclic rotation (15/15 SnapPy across k≤4 + structural reason);
+  **M-B** the order parameter is the **ordering**, not the count (balanced #R=#L=6 triples that are chiral); **M-C** the
+  exact `Z₂` (block-reversal negates CS to machine zero). Banked as `knowledge/K011` (sharpens B127/M-2: pure metallic
+  words = the k=1 corner).
+- **Tombstone K-F:** "single torsion `ℤ/n` → `SU(n)` center → gauge bridge" — DEAD, (1) torsion tracks
+  periodicity/symmetry-order not chirality (single torsion in both achiral `RRLLRRRLLL` and chiral `(1,2,3)`; doubling
+  is the periodic case), (2) center≠gauge (S029/S030). `speculations/TOMBSTONES.md` + S029 cross-ref.
+- **Firewall — fifth direction:** `P007`/`P008` sharpened — the symmetric object **cannot force its own breaking**;
+  existence inevitable, specific physics a contingent SSB selection. `K001–K011`, `S001…S030`, `P000–P008`.
+
+MATH + a firewalled SSB-sharpening tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the functorial
+`Sym(W)→trace-ring` wall (B85), and the merged B127/K010/P008/S030 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
