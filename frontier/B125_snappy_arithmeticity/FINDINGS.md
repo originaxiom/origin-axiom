@@ -70,5 +70,7 @@ golden" was partly an artifact of applying a knot theorem to bundles.
 
 **Anchors:** B123/V112 (the corrected claim + its audit caveat — the origin of the catch), B92/S001 (systole),
 P004/B120 (expansion threshold), `knowledge/K002`, `K004`, `K009`. External: Maclachlan–Reid, *The Arithmetic of
-Hyperbolic 3-Manifolds* (Thm 8.3.2; the two arithmetic punctured-torus bundles); Reid 1991 (the unique arithmetic
+Hyperbolic 3-Manifolds* (Thm 8.3.2); Bowditch–Maclachlan–Reid 1995 (**three** commensurability classes of arithmetic
+once-punctured-torus bundles — "m=1,2 arithmetic" is family-restricted, *not* the global count; corrected by B126);
+Reid 1991 (the unique arithmetic
 knot); Neumann–Reid (shape field = invariant trace field). Tooling: SnapPy 3.3.2 + cypari 2.5.6, in-sandbox.

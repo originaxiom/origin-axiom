@@ -40,6 +40,25 @@ P1–P16 untouched.
 | **S026** | the `T[4₁]` **state-integral / 3d index** at fixed knot, varying rank n | does the SL(n) A-variety (B71/B83) organize a tower of partition functions? | quantum-dilogarithm machinery cost; only the moduli level is citable (K006) |
 | **S027** | **quantum modularity** of the metallic Kashaev invariants | the `GL(2,ℤ)` modular cocycle of `J_N` for metallic knots | the *continuous* family-in-m is dead (Gate 1); target the arithmetic/cocycle only |
 
+## THE LADDER (B126) — how far does the rigidity propagate, and where exactly does it stop?
+
+The deepest honest result (a five-agent literature survey + computation; full citations in `LADDER_LITERATURE.md`,
+synthesis in `../frontier/B126_ladder_to_physics/FINDINGS.md`, reframe in `../philosophy/P007`). The question is not
+"is there a bridge?" but **"how far up the ladder (quantize → 3d `T[M]` → 4d → particle content) does the object's
+classical rigidity propagate?"** Answer: **exactly two floors, provably, then a nameable wall.**
+
+| floor | does rigidity propagate? | status |
+|---|---|---|
+| **1 — arithmetic → quantization** | YES: the trace field determines the **field** of the perturbative quantum series | **THEOREM**, proven for our family (Yoon arXiv:2110.11003; DG 1202.6268) |
+| **2 — Mostow → `T[M]` rigidity** | YES: no marginal couplings; `M` selects the SUSY phase (`4₁`→unbroken, gapped); `H₁` torsion → one-form symmetry | **ESTABLISHED** (Cho–Gang–Kim 2007.01532; DGG; ASvT) |
+| **3 — 3d → 4d** | **NO**: the 4d theory is data of the 2d **boundary** `∂M`, not `M` | wall; ceiling **N=4 SYM / N=2\*** (Gaiotto; Kapustin–Witten) |
+| **4 — SUSY scale / masses** | **NO**: orthogonal input; no manifold mechanism | wall (Douglas landscape) |
+
+**So we lack no concept** — we lack what no 3-manifold can carry (the 2d-boundary data fixing the 4d theory, and the
+SUSY-breaking scale). The new in-house structural fact at Floor 2 is `H₁(M_m)=ℤ⊕(ℤ/m)²` (the metallic `m` = the
+torsion order, B126); its center-symmetry reading is `S029` (POSTULATED, five kills). The one genuinely-untested door
+is whether the `K₃`/Bloch grading of the quantization is special on `ℚ(√−3)`/`ℚ(i)` (DORMANT, `S027`-adjacent).
+
 ## The discipline (why this is brave AND honest)
 
 The framework is *a theory of the architecture of the possible, not the furniture of the actual*. The dead column is

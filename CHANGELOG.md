@@ -8,6 +8,29 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ## [Unreleased]
 
+### Added
+- **B126 — the ladder to physics: how far does the metallic rigidity propagate? (2026-06-08; V115).** A
+  foundational-question investigation (direct computation + a five-agent literature survey). **Answer: the metallic
+  object's classical rigidity propagates exactly two floors up the ladder (quantize → 3d `T[M]` → 4d → particle
+  content), provably, then hits a nameable wall.** **Floor 1** (arithmetic → quantization): the invariant trace field
+  determines the *field* of the perturbative quantum series — a *theorem*, proven for our exact family
+  (once-punctured-torus bundles, Yoon arXiv:2110.11003; Dimofte–Garoufalidis 1202.6268). **Floor 2** (Mostow → `T[M]`
+  rigidity): no marginal couplings; `M` selects the SUSY phase (`4₁` → unbroken SUSY, gapped vacua, Cho–Gang–Kim
+  2007.01532); `H₁` torsion → one-form/center symmetry. **The wall:** 3d→4d is data of the 2d *boundary* surface, not
+  the 3-manifold; the SUSY-breaking *scale* is orthogonal input. Honest ceiling **N=4 SYM / N=2\*** (geometric
+  Langlands) — not the Standard Model. So we lack no concept; we lack what no 3-manifold can carry. Two in-house
+  facts: **(A)** `H₁(M_m) = ℤ ⊕ (ℤ/m)²` (Smith normal form of `M_m²−I = m·M_m`; SnapPy `m=1..7`) — the metallic `m`
+  *is* the order of the homology torsion; **(B)** arithmetic(`m=1,2`) ⟺ `κ` rational in z on the geometric component
+  (κ-degree over `ℚ(z)` = `[1,1,3,3,7,6]`) — **family-specific, not a law** (no "arithmetic ⟺ simple A-poly"
+  theorem). Firewalled readings: `speculations/S029` (the `H₁`-torsion → center-symmetry / `m→ℤ/m→`SU(m)→SM reading,
+  POSTULATED, with **five** explicit kill conditions — incl. that `T[M]` is rank-1 *abelian* so `ℤ/m` is a
+  line-spectrum symmetry, not an `SU(m)` gauge group), `philosophy/P007` (the object as a **maximal probe** of the
+  geometry↔QFT correspondence, not a seed of reality), `speculations/LADDER_LITERATURE.md` (the citation map), the
+  `PHYSICS_BRIDGE_MAP` ladder section. Also **corrects** the inherited "exactly two arithmetic punctured-torus
+  bundles" off-by-one (Bowditch–Maclachlan–Reid 1995 = *three* commensurability classes; "m=1,2 arithmetic" is a
+  family-restricted statement) across K009/K002/B125. MATH/number-theory tier; physics POSTULATED/quarantined; nothing
+  to `CLAIMS.md`; P1–P16 and the functorial `Sym(W)→trace-ring` wall untouched.
+
 ### Changed
 - **B125 — arithmeticity correction (overturns K009; 2026-06-08; V114, TESTED-POSITIVE).** With SnapPy now runnable
   in-sandbox, the invariant trace field `kM` of the metallic family is computable directly. Result: **arithmeticity

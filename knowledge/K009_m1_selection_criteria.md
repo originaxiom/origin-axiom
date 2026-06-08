@@ -64,5 +64,8 @@ problem (the functorial `Sym(W)→trace-ring` construction; the `μ_d` two-seque
 **Anchors:** B92/S001 (systole), P004/B120 (expansion threshold), **B125** (arithmeticity corrected: the two-element
 selector `{m=1,m=2}`, V114), B123/V112 (the original `SUPPORTED` claim, now corrected), B69/B109 (the `κ=±2` cusp),
 B121/B122 (the `det=−1` parity, the order-6 echo). External: Maclachlan–Reid, *The Arithmetic of Hyperbolic
-3-Manifolds* (the criterion + the two arithmetic punctured-torus bundles); Reid, *Arithmeticity of knot complements*
+3-Manifolds* (the arithmeticity criterion); Bowditch–Maclachlan–Reid 1995 (**three** cyclic commensurability classes
+of arithmetic once-punctured-torus bundles — so "the two arithmetic members of the `R^m L^m` family" is a
+family-restricted statement, *not* the global count; the figure-eight `m004` and its sister `m003` are two bundles in
+one `ℚ(√−3)` class); Reid, *Arithmeticity of knot complements*
 (1991) — the unique arithmetic *knot* (preserved; knots ≠ bundles).

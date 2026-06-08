@@ -3,7 +3,9 @@
 **Overturns K009.** Arithmeticity does *not* uniquely select `m=1`; it selects **{m=1 golden `ℚ(√−3)`, m=2 silver
 `ℚ(i)`}** and kills `m≥3`. The B123 audit flagged exactly this gap (Reid 1991 is about *knots*; the `m≥2` metallic
 manifolds are *bundles*). The two arithmetic fields are distinct → not commensurable → two genuinely distinct
-arithmetic metallic manifolds (the "exactly two arithmetic punctured-torus bundles" K009 already cited).
+arithmetic metallic manifolds. *(Framing corrected by B126: the global classification is **three** commensurability
+classes (Bowditch–Maclachlan–Reid 1995), with the figure-eight + its sister `m003` two bundles in one `ℚ(√−3)`
+class; "m=1,2 arithmetic" is a **family-restricted** statement about `R^m L^m`, not the global count.)*
 
 `probe.py`:
 - **the spine** (pure numpy): `M_m² = R^m L^m`, `tr = m²+2` — the orientable metallic members are the `R^m L^m`

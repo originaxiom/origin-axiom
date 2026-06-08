@@ -40,7 +40,8 @@ which `m=1` is extremal within the family.
    importing extra structure. `K009` collects these imports — the **systole** (a metric: `m=1` is the shortest closed
    geodesic on the modular surface, B92) and the **expansion threshold** (a dynamical onset, P004/B120) each uniquely
    select `m=1`; **arithmeticity** (a number field) is a **two-element selector** picking `{m=1 golden ℚ(√−3),
-   m=2 silver ℚ(i)}` — the two arithmetic punctured-torus bundles (B125, correcting B123). The motivation for aiming
+   m=2 silver ℚ(i)}` — the two arithmetic members **of the `R^m L^m` family** (B125, correcting B123; the *global*
+   count is three commensurability classes, Bowditch–Maclachlan–Reid 1995). The motivation for aiming
    the theorem at the *family* rather than the seed is in `../philosophy/METALLIC_FOUNDATIONS.md` and
    `../philosophy/P000`.
 
