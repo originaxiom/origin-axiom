@@ -46,13 +46,24 @@ emergent `K010` naming.
 
 ## Scope
 
-The (1,2) result is exact and doubly-validated (B67, B69/V33, plus an in-sandbox matrix re-derivation); the general
-mechanism (distinct curves → discrete; same → continuum) is a Bézout fact, gluing-map-independent. Pairs (1,3),(2,3)
-are numerical (m=3's curve is irrational). The exact discrete set depends on the gluing map and on whether the shared
-complete-cusp `κ=−2` is counted; the qualitative continuum→discrete transition does not. The full theorem-version
-(`S032` Target A) remains open.
+The (1,2) result is exact and doubly-validated (B67, B69/V33, plus an in-sandbox matrix re-derivation); the
+distinct-curves → 0-dimensional-intersection step is a Bézout fact. Pairs (1,3),(2,3) are numerical (m=3's curve is
+irrational). The full theorem-version (`S032` Target A) remains open.
+
+> **Prior art + qualification (B134/V123 novelty audit).** This phenomenon is **known**: **Kitano–Nozaki 2020**
+> (arXiv:1904.02559) prove finiteness of a splice's torsion image exactly via the two pieces' A-polynomial curves
+> intersecting in the boundary-torus character variety (`gcd=1` ⟹ Bézout-finite). **Important qualification:** their
+> evidence shows the discreteness is driven by the meridian↔longitude-**swapping splice** gluing, **not** by the
+> pieces being distinct — a same-knot splice `Σ(K,K)` is *already* finite. So the **"heterogeneity makes the choice"**
+> reading here is correct **only for the identity gluing** (under which distinct seeds → distinct curves → discrete,
+> same seed → same curve → continuum); under the splice/swap gluing the **gluing map alone** forks even a same-seed
+> glue (verified in B134: swap-glue fig8-to-fig8 → `P=f(f(P))`, degree 16, discrete). The honest general statement is
+> *the gluing map determines continuum-vs-discrete*; distinctness suffices under the identity gluing. B131's math
+> stands; this is a framing qualification. See `../docs/NOVELTY_AUDIT.md` (R2).
 
 **Anchors:** B131/V120 (the result), B130/`K013` (single-seed fork-freeness — the question this answers), B67/`K004`
 (the m=1 A-polynomial), B69 (the metallic A-poly family / V33), B128/`K011` (why word-concatenation was the wrong
 construction — chirality symmetrizes away), `../speculations/S032` (the program), `K010` (`κ` = the Fricke–Vogt
-invariant). External: A-polynomials of once-punctured-torus bundles; character varieties of torus gluings.
+invariant), **B134/`../docs/NOVELTY_AUDIT.md` (the Kitano–Nozaki prior art + the gluing-map qualification)**. External:
+A-polynomials of once-punctured-torus bundles; **Kitano–Nozaki 2020 (arXiv:1904.02559)**; character varieties of torus
+gluings (Culler–Shalen).

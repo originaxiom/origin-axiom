@@ -59,7 +59,14 @@ The quantum layer's *robust* facts are the **single-seed** ones (`K016`): pure p
 the **Lee–Yang** identification (`S030`/`K010`, B132/S8): at k=3 the σ₃ Galois conjugate gives `d_τ=−1/φ` (M(2,5)). The
 *chirality* readings (field shift, vanishing fragility) are withdrawn.
 
+**Prior art (B134/V123 novelty audit, R3): this is standard quantum topology.** The cyclotomic field content of WRT
+SU(2)_k invariants is a known fact: **Jeffrey 1992** (CMP 147 — torus-bundle `Z=Tr ρ(U)` is an explicit Gauss sum,
+cyclotomic content set by `Tr U ∓ 2` and level `k+2`); **Dong–Lin–Ng 2015** (the modular rep is ℚ(ζₙ)-rational, kernel
+a congruence subgroup of level `n=ord(T)`); **Lawrence–Zagier 1999** (WRT in ℚ(ζ), Galois-equivariant). The
+spin-content-mod-4 → ℚ(i) statement is a corollary-level refinement of these. We **cite**, claim nothing novel.
+
 **Anchors:** B132/V121 (the eigenvalue layer + the validated convention), **B133/V122 (the correction + the control)**,
-`K011`/B128 (the chirality recursion — classical, *separate* from the quantum field content), `K014`/B131 (the two-seed
-fork), `K010`/`S030` (Lee–Yang), `K016` (the surviving m=1 quantum criteria), `../speculations/TOMBSTONES.md` (`K-H`),
-`../REPRODUCIBILITY.md` (`MB6`). External: SU(2)_k modular tensor category; Reshetikhin–Turaev; Lee–Yang / M(2,5).
+**B134/`../docs/NOVELTY_AUDIT.md` (the R3 prior art)**, `K011`/B128 (the chirality recursion — classical, *separate*
+from the quantum field content), `K014`/B131 (the two-seed fork), `K010`/`S030` (Lee–Yang), `K016`,
+`../speculations/TOMBSTONES.md` (`K-H`), `../REPRODUCIBILITY.md` (`MB6`). External: SU(2)_k modular tensor category;
+**Jeffrey 1992; Dong–Lin–Ng 2015; Lawrence–Zagier 1999**; Reshetikhin–Turaev; Lee–Yang / M(2,5).
