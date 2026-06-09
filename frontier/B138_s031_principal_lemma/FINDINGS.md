@@ -43,6 +43,14 @@ single number field), so it is **not** a B137-style discrete fixed point and mus
 (this is why the known-SL(4)-rep trace-field check returned "OTHER"). *(Recorded because this conflation was made and
 caught in-session — a verify-don't-trust note on the reasoning, not just the claims.)*
 
+**Sharpened (B140 — the principled `φ` vs `φ²` mechanism).** The object-clarification above was *asserted*; B140 gives
+the reason. The metallic incidence `N = [[m,1],[1,0]]` has **`det = −1`** (orientation-reversing) and **`N² = RᵐLᵐ`**
+(verified m=1,2,3). So the **single** map `φ_m` (det −1) has **isolated/discrete** fixed points (S031's object —
+verified SL(2): exactly 2 points, unique irreducible the rational `(0,0,0)`, κ=−2), while `φ_m²` (det +1, `= RᵐLᵐ`,
+the **bundle** monodromy) has a **positive-dimensional** fixed locus (B71's geometric character variety — verified
+SL(2): a curve). "Discrete fixed points vs geometric components" is therefore principled: **`φ` (det −1, discrete) vs
+`φ²` (det +1, the bundle, positive-dim).** (See `frontier/B140_compute_reconciliation/`, ledger V129.)
+
 ## S031 status after B138
 
 | piece | status |

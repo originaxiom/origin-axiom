@@ -7,7 +7,11 @@
 ## The setup
 
 The orientable metallic bundles are the once-punctured-torus bundles whose monodromy word is `M_m² = R^m L^m`
-(`K002`, `K004`). B127 (`K010`) showed each **pure** metallic word is **achiral** (Chern–Simons invariant ≡ 0). The
+(`K002`, `K004`). Here `M_m = [[m,1],[1,0]]` is the metallic incidence (`det = −1`, orientation-reversing), and
+`M_m² = [[m,1],[1,0]]² = RᵐLᵐ` exactly (verified m=1,2,3; B140/V129) — so the geometric (orientable) bundles **are**
+the `RᵐLᵐ` words, with block sequence `(m,m)`. Since `(m,m)` is a cyclic palindrome, the recursion below gives **every
+metallic bundle is amphichiral** (the `k=1` / pure-double case). B127 (`K010`) showed each **pure** metallic word is
+**achiral** (Chern–Simons invariant ≡ 0). The
 natural next question is what happens to *concatenations* of metallic blocks — gluing several towers:
 ```
    W = R^{m₁}L^{m₁} · R^{m₂}L^{m₂} ··· R^{m_k}L^{m_k},   block-length sequence (m₁,…,m_k).

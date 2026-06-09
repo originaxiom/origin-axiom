@@ -67,6 +67,15 @@ This is the strongest honest "this is physics" the arc has produced — and it i
 edge** `M(2,5)` (`d_τ=−1/φ`) — computed in B132, `S030` (TESTED-POSITIVE), `K015` — also emergent non-equilibrium
 physics, firewalled from fundamental.)*
 
+## The geometric bundles' trace fields (B140 — a record, distinct from the `φ`-fixed S031 object)
+
+The orientable metallic bundles `RᵐLᵐ` (the `φ²`-geometric object; `M_m = [[m,1],[1,0]]`, `M_m² = RᵐLᵐ`, `K011`) have
+**invariant trace fields** that are **imaginary quadratic only for m=1,2**: **m=1 → ℚ(√−3)**, **m=2 → ℚ(i)** (B125,
+B129/`K012`), **m≥3 → higher-degree** (B140/V129; a structural fact, not a compute limit). This is almost certainly
+*why* m=1,2 are the family's two **arithmetic** members (arithmeticity ⟺ imaginary-quadratic invariant trace field
+for these). Note this is the **`φ²`-geometric bundle** trace field — a **different object** from the **rational**
+`φ`-fixed content of the trace-map automorphism (`S031`, B140); the two must not be conflated.
+
 **Anchors:** B107/`K007` (the KKT identification), B124 (the void Jacobian / horseshoe-anchoring hyperbolicity), B127
 (the Fricke–Vogt dictionary + CS=0 + the arithmetic separation), `K001` (the Markov surface), `S023` (the distinct
 metallic quasicrystals), `../philosophy/P008` (the reading). External: Kohmoto–Kadanoff–Tang (1983); Sütő (1987);
