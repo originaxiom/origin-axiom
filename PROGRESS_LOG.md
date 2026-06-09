@@ -3420,5 +3420,26 @@ MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B136 untouch
 
 ---
 
+## 2026-06-09 — B138: S031 push — principal-image direction PROVED (all n); SL(4) bulk obstruction; object-clarification (V127)
+
+Pushing S031 further: into SL(4), then toward the proof. The honest outcome:
+
+- **Principal-image direction PROVED (all n)** — the *easy half* of S031: the principal `Sym^{n−1}` image of an SL(2)
+  rep over `K` is a `K`-sealed fixed point for every n, because `Sym^d` is **ℤ-defined** (its matrix entries are
+  integer polynomials in `g`'s entries), so `g∈SL(2,K) ⟹ Sym^{n−1}(g)∈SL(n,K)` and all word-traces ∈ K. Verified
+  symbolically n=2..5 for m=1 (ℚ(√−3)) and m=2 (ℚ(i)). The open **converse** (nothing *else* escapes) is the hard half.
+- **SL(4) bulk: intractable in-session (honest negative).** The B137-style off-sublocus root-find at SL(4) times out
+  with a faithful 340-word residual and under-pins the character with a lighter one — SL(4) sealing evidence not
+  obtained (needs a complete SL(4) trace-coordinate set; NEEDS-EXPERTISE).
+- **Object-clarification (a verify-don't-trust note on my own reasoning):** S031 is about the **discrete** trace-map
+  fixed points `(A^mB,A)` (B129/B137), *not* B71's positive-dim **geometric** components (V0/W1/W2). A generic
+  geometric-component point has continuous traces (no number field) → `realize_bundle_rep` returned "OTHER" and does
+  not test sealing. (I briefly conflated these; caught and banked.)
+
+**S031 status:** principal direction PROVED; SL(3) full sealing verified m=1 (B129), m=2 (B137); SL(n≥4) + the all-n
+converse OPEN. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B137 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
