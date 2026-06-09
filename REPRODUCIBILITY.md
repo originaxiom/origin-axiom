@@ -103,6 +103,16 @@ pip install snappy
   symmetry, `MB8`); (b) check the **level** — SU(N) needs the SL(N,ℂ) variety (dim ≈ (N−1)·#cusps), not SL(2,ℂ); (c)
   a cusp-symmetry restated as `κ_i=κ_j` equalities is **automatic**, not independent evidence. Extends `MB9`
   (group ≠ gauge) from groups to invariants. Cluster: `MB6`/`MB8`/`MB9`/`MB10` = "right object, wrong level."
+- **SCAN — MB11: state every result twice — bare math theorem + labeled (POSTULATED) physics reading — and never let
+  the second contaminate the first** (B143, the strategic synthesis; the constructive form of `MB6` and of the
+  firewall). The recurring drift is not in the *computations* but in the *prose*: a math fact (a character-variety
+  dimension, a cusp count, a discrete intersection) gets written with a physics name (a gauge rank, a coupling, a
+  "vacuum selection") and the borrowed reading silently becomes load-bearing. It crept into the project's own best
+  strategic reflection, which is the tell that it needs an explicit rule. **Guard:** for any result, write (a) the bare
+  mathematical statement, then (b) — separately and explicitly tagged POSTULATED — any physics reading, which cites (a)
+  one-way and is never cited back. The 3d-3d / `T[M]` cusp↔gauge dictionary is *borrowed* (`../knowledge/K006`), so all
+  cusp/gauge language is layer (b). Sibling of `MB10` (structure ≠ gauge) and the whole tombstone wall: "right object,
+  wrong level," here as "right fact, wrong tier."
 - **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
   multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
   physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /

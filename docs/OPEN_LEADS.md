@@ -34,6 +34,20 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 | **L1–L3** | m=1 selection criteria (pure-phase, `Z=ω`, eigenvalue-order field). | — | — | **BANKED** — `../knowledge/K016`. Do not re-run. |
 | **L12** | "Chirality shifts the eigenvalue arithmetic." | — | — | **WITHDRAWN** — tombstone K-H, guard MB6 (the field content is the SU(2)_k quantum-group twist, present in achiral words). |
 
+## The campaign roadmap (B143 — see `STRATEGIC_SYNTHESIS.md`)
+
+The three-voice strategic synthesis (CC + Chat-1 + Chat-2) is banked in **`STRATEGIC_SYNTHESIS.md`** (two-tier:
+math program / labeled POSTULATED aspiration). It sets the governing roadmap:
+
+- **Campaign 1 — chirality of interactions (the bottleneck).** Does a cusp-glued composite of two distinct seeds have
+  an orientation-*independent* invariant distinguishing it from its mirror (chirality-(ii), the real wall)?
+  **Venue verdict (B143):** the algebraic (trace) venue is **mirror-blind** (rigorous, B139/B140) — it carries the
+  κ-landscape, not chirality. Chirality-(ii) needs the **topological venue** (closed JSJ composite → **install
+  Regina**) or a **2-cusped hyperbolic-link realization** (construction open). ⟹ **B144.**
+- **Campaign 2 — ground or demote the cusp↔gauge dictionary** (cheap part done: MB11 + the synthesis tiers; heavy part
+  = compute `T[M]` for one metallic bundle, optional).
+- **Campaign 3 — S031a full-locus** (symbolic elimination, Singular; when idle).
+
 ## Standing open threads (B142 inventory — lose nothing)
 
 The bigger open *prizes/threads* (distinct from the per-lead catalog above), with status and cleanest next step:

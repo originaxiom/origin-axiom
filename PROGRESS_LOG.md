@@ -3565,5 +3565,31 @@ under pyenv; 6 under Sage).
 
 ---
 
+## 2026-06-09 — B143: strategic synthesis banked (3-voice) + Campaign-1 feasibility scope — the venue verdict (V132)
+
+A joint reflection by three independent runs (CC + Chat-1 Opus 4.6 + Chat-2 Opus 4.8) on *how the SM could emerge from
+not-nothing / interaction of not-nothings*, banked as **`docs/STRATEGIC_SYNTHESIS.md`** (two-tier: math program /
+labeled POSTULATED aspiration). Plus the gating feasibility scope for the chosen Campaign 1.
+
+- **The map:** monad + subtractive shell; the three-layer "why" (forced≠contingent / finiteness-density [B141] /
+  right-object-wrong-level); the **corrected scorecard** — chirality is the *only proven* obstruction; the other three
+  SM features are unchecked because the 3d-3d cusp→gauge dictionary is **borrowed/POSTULATED** (verified K006); the
+  chirality (i) generic vs (ii) the real wall distinction; the open-paths map; the Campaign 1/2/3 roadmap.
+- **MB11** banked: *state every result twice — bare math theorem + labeled POSTULATED physics reading; never let the
+  second contaminate the first* (distilled from a drift caught in CC's own reflection).
+- **Campaign-1 venue verdict (the gating result):** the **algebraic (trace) venue is mirror-blind to chirality-(ii)** —
+  RIGOROUS: B131's interaction lives in `(κ,trT)`, both trace invariants, and the mirror preserves all traces
+  (B139/B140), so the fork is automatically mirror-invariant. The algebraic venue carries the κ-**landscape**, not
+  chirality. Chirality-(ii) needs an orientation-sensitive invariant → the **topological venue** (closed JSJ composite;
+  needs **Regina**, not installed) or a **2-cusped hyperbolic-link realization** (construction open). ⟹ **B144.**
+- Verified: B131 reuse reproduces `fork(1,2)={−4,−2}`; Chat-1's "588 reps / Massey" claim corrected (Massey dead for
+  s776, the 3-chain link; K-I).
+
+MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B142 untouched. Ledger **V132**.
+`docs/STRATEGIC_SYNTHESIS.md` + `frontier/B143_interaction_feasibility/` + `tests/test_b143_interaction_feasibility.py`
+(4 passed).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
