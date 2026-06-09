@@ -93,6 +93,16 @@ pip install snappy
   doc labelled this "MB7"; that collides with the repo's MB7 above, so it is banked here as **MB8**. A further
   level-confusion guard — "a non-abelian symmetry **group** is not non-abelian **gauge** content" — is queued in a
   later handoff and will be **MB9**.)*
+- **SCAN — MB10: structure-group invariants are not gauge-group rank (the dimensional form of MB9)** (B142, the
+  "Borromean/SU(3)" over-reach). The **dimension** of an **SL(2,ℂ)** character variety does **not** establish **SU(N)**
+  gauge content; matching "char-variety dim = rank(SU(N))" conflates the structure group with a would-be gauge group.
+  SU(N) gauge content in the 3d-3d correspondence comes from **SL(N,ℂ)** Chern–Simons (`T_N[M]`), not a numerical
+  dim/rank coincidence on the SL(2,ℂ) side. **Guard:** before reading any "dim k = rank G" as gauge enhancement, (a)
+  recall Thurston — a k-cusped hyperbolic 3-manifold's SL(2,ℂ) character variety has complex dim **= #cusps** at the
+  geometric rep (so the number is the cusp count, generic — run the **null control** across manifolds of differing
+  symmetry, `MB8`); (b) check the **level** — SU(N) needs the SL(N,ℂ) variety (dim ≈ (N−1)·#cusps), not SL(2,ℂ); (c)
+  a cusp-symmetry restated as `κ_i=κ_j` equalities is **automatic**, not independent evidence. Extends `MB9`
+  (group ≠ gauge) from groups to invariants. Cluster: `MB6`/`MB8`/`MB9`/`MB10` = "right object, wrong level."
 - **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
   multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
   physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /

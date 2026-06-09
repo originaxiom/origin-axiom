@@ -26,10 +26,14 @@ object and **"fixed point"** from another — **no single object has both.** B14
   irreducible SL(2) φ-fixed point `(0,0,0)` (κ=−2) is the **quaternion group Q₈** (`A=diag(i,−i)`, `B=[[0,1],[−1,0]]` ⟹
   `A²=B²=−I`, `AB=−BA`; order 8), **finite** with irrep dims `{1,1,1,1,2}`, **max irrep dim 2**. So the principal
   `Sym^{n−1}` image (dim n) is **reducible for all n≥3** — **RIGOROUS** (verified alg-dim `{n=2:4, 3:3, 4:4, 5:4, 6:4,
-  7:4}`; `χ_{Sym²}=(3,3,−1,−1,−1)=χ_a⊕χ_b⊕χ_c`). SL(2) is the only level where it is irreducible. The full SL(3)
-  φ-fixed locus appears **entirely reducible** (no non-principal irreducible φ-fixed point either) — **CONJECTURE**
-  (intertwiner search: 60/60 reducible, 0 irreducible; open n≥4; rigorous path = symbolic elimination, the SL(4)
-  route). Firewall-aligned: the φ-fixed content is **reducible × discrete** (tighter than B140's "rational").
+  7:4}`; `χ_{Sym²}=(3,3,−1,−1,−1)=χ_a⊕χ_b⊕χ_c`). SL(2) is the only level where it is irreducible.
+  **The SL(3) principal stratum is also RIGOROUS (B142/V131 — Klein-4):** at the principal eigenvalues `{1,−1,−1}`,
+  `A²=I` (involution); the φ-fixed necessary condition `A ~ B ~ AB` makes `B`,`AB` involutions too, and two involutions
+  whose product is an involution **commute** (`(AB)²=I ⟹ ABAB=I ⟹ BAB=A ⟹ BA=AB`) ⟹ `⟨A,B⟩` is Klein-4 (abelian) ⟹
+  **reducible** — no search needed (reconfirmed 78/78). The remaining **full** SL(3) φ-fixed locus (all eigenvalue
+  strata, and n≥4) appears **entirely reducible** (intertwiner search: 60/60 reducible, 0 irreducible) — **CONJECTURE**;
+  the all-strata proof is the symbolic-elimination prize (same machinery as the SL(4) route). Firewall-aligned: the
+  φ-fixed content is **reducible × discrete** (tighter than B140's "rational").
   *This corrects B140's "rigidity of the principal irreducible fixed point" — there is **no** irreducible principal
   φ-fixed point at n≥3 to be rigid about.*
 - **S031b — the φ²-geometric tower is IRREDUCIBLE ∀n, in ℚ(√−3).** `Sym^{n−1}` of the figure-eight **holonomy**
