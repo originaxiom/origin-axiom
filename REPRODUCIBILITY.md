@@ -83,6 +83,25 @@ pip install snappy
   **genuine irreducible** points (algebra = `M_n`, dim n²); classify by algebra rank first. (B129's m=1 search missed
   this only because its reducibles happened to be rational ∈ ℚ(√−3); m=2's reducibles have messy non-ℚ(i) `κ`.) Sibling
   of MB2 / K-G / K-H — a surprising "escape" that is a degenerate artifact.
+- **SCAN — MB8: a generic / necessary feature is not a discriminating / sufficient one — check the null case**
+  (CHAT-1 LEADS REGISTER §E). When a feature is observed on the object of interest and read as *evidence for* a
+  property, ask whether the feature is **generic** — present on the null/control object too. A *necessary*
+  condition that everything satisfies discriminates nothing; only a feature that **separates** the positive case
+  from the null case is evidence. (This is the structural sibling of MB6 "reproduction≠interpretation" — there the
+  miss is the missing *control*; here the miss is the missing *null case*. Both are "right object, wrong level":
+  run the case where the property is **absent** and confirm the feature disappears.) *(Numbering note: the CHAT-1
+  doc labelled this "MB7"; that collides with the repo's MB7 above, so it is banked here as **MB8**. A further
+  level-confusion guard — "a non-abelian symmetry **group** is not non-abelian **gauge** content" — is queued in a
+  later handoff and will be **MB9**.)*
+- **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
+  multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
+  physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /
+  fixed-locus** (abelian × discrete), **not** on the monodromy *group* (which is non-abelian for any hyperbolic
+  object — every knot group is). Generating a free subgroup of SL(2,ℤ) (e.g. two seeds → 161 elements by length 4)
+  is **generic and firewall-neutral**. The guard cluster: **MB6** reproduction≠interpretation (missing control) ·
+  **MB8** generic≠discriminating (missing null case) · **MB9** group-level≠gauge-level — the "right object, wrong
+  level" family, each defeated by naming the level the claim lives on. *(The B139 handoff labelled this "MB8"; that
+  number was taken by the CHAT-1 §E guard, so it is banked here as **MB9**.)*
 - Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
   the verified constants are also recorded in-probe and tested unconditionally.
 

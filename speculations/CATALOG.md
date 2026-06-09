@@ -1,4 +1,4 @@
-# Speculation catalog — `S001…S032`
+# Speculation catalog — `S001…S033`
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
@@ -43,6 +43,7 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S030 | the **two categorifications of `τ×τ=1+τ`** — unitary Fibonacci (`(G₂)₁`, `c=+14/5`) vs non-unitary **Yang–Lee** (`M(2,5)`, `c=−22/5`); **the σ₃ Galois conjugate (`q→q³`, `φ↔−1/φ`) realizing Lee–Yang is now COMPUTED at k=3 (B132)** — the framework's native quantum theory is the Lee–Yang CFT (emergent non-equilibrium criticality, not the SM) | **TESTED-POSITIVE** | **B127**/V116, **B132**/V121, K010, K015 |
 | S031 | the **SL(n) sealing capstone** (tier MATH, **not a physics bridge**) — prove the metallic trace map fixes *only* the `Sym^{n−1}` image of its SL(2) fixed point, for all m, n (would upgrade B129 from computer-assisted to proved). Evidence: m=1/SL(3) principal rep exact in ℚ(√−3) + 427 off-sublocus points, 0 escapes (max dev 1.2e-6) | OPEN (MATH) | **B129**/V118, K012, K003/K005, S025 |
 | S032 | the **no-forced-choice forward program** (tier MATH, **not a physics bridge**) — (A) theorem-version: prove *no* invariant whatsoever (not just trace-ring) is discretely-multivalued-and-unsymmetric [**OPEN**]; (B) the two-seed question: does gluing `M_{m₁},M_{m₂}` create an *internal* fork? [**ANSWERED B131/V120: YES** — distinct seeds = distinct A-poly curves → discrete intersection; (1,2) fork `κ∈{−4,−2}` exact; same-seed → continuum; *heterogeneity*, not multiplicity, makes the choice; minimal multiplicity = two distinct seeds] | A OPEN / B ANSWERED (MATH) | **B130**/V119, **B131**/V120, K013, K014, S031 |
+| S033 | **"Gate-1": does a cusp-swap symmetry give a *simple non-abelian* factor?** (FIREWALLED, emergent shadow only) — the Whitehead-link two-cusp probe: does the cusp-exchange act as a **Weyl reflection** fusing two `U(1)`s into an `SU(2)`, or stay an abelian `U(1)×U(1)⋊ℤ/2`? **Prior LOW** (abelian wall, sibling of S029/S028); **tool-gated** (Sage/GKLP); unrun. Even a "yes" is emergent, carries no chirality (P009) | OPEN(MATH) · prior LOW · tool-gated | CHAT-1 §D (L13), S029, S028, K006, P009 |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a

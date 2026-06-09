@@ -3441,5 +3441,54 @@ converse OPEN. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124
 
 ---
 
+## 2026-06-09 — CHAT-1 LEADS REGISTER: selective registration (open-lead catalog, MB8, S033)
+
+Cross-checked the **CHAT-1 LEADS REGISTER** (a ~23-thread quantum-layer triage) against the repo and registered
+only the **non-duplicate, non-stale** leads — *not* the whole doc (much was already banked or refuted):
+
+- **`docs/OPEN_LEADS.md`** (new) — the live open-lead catalog. Carries §B/§D open leads as rows: **L6**
+  non-metallic sealing (★★★, the genuine S031 generalization), **L5** its SL(3) scout, **L7** one-theorem capstone
+  (★★★), **L8** chiral compositions, **L10** classical field-fusion (likely negative), **L11** rank-2 covers.
+  Records dispositions so nothing is re-run: **L1–L3** BANKED (K016), **L9** BANKED (B132 S6), **L12** WITHDRAWN
+  (K-H), and **L4** ("chiral fragility") **WITHDRAWN (B133)** — the k=4 vanishing is composition-driven, not
+  chirality (control: achiral `RRLRLL`,`RLRRLL` also vanish).
+- **`REPRODUCIBILITY.md` — MB8** — "a generic/necessary feature is not a discriminating/sufficient one — check the
+  null case." The CHAT-1 §E guard; banked as **MB8** (its doc-label "MB7" collided with the existing reducible-locus
+  MB7). Sibling of MB6 (missing control ↔ missing null case).
+- **`speculations/S033`** (new, FIREWALLED) — "Gate-1": the Whitehead-link cusp-swap-as-Weyl-reflection probe.
+  Prior LOW (abelian wall, sibling of S029/S028), tool-gated (Sage/GKLP), unrun; even a "yes" is emergent and
+  carries no chirality. CATALOG updated (`S001…S033`).
+
+No frontier probe (bookkeeping/registration, not a computation); no `CLAIMS.md` change; P1–P16, B85 untouched.
+
+---
+
+## 2026-06-09 — B139: "SM through multiplicity" — firewall cartography (NOT a crossing) (V128)
+
+Banked three Chat-2 informatory calculations decomposing *"can multiplicity produce the Standard Model?"* as
+**cartography of the firewall** — a sharper statement + one guard + one open probe. **Firewall-CONFIRMING, not a
+result, not a physics crossing.** The CHAT-1 leads registration (above) is folded into this PR.
+
+- **The sharper firewall statement (S029 framing note).** Multiplicity permits MORE structure (more abelian
+  couplings = cusp count, a discrete trace-fork B131, chiral objects = CS-sign) but cannot permit the TWO
+  SM-distinguishing structures: a **simple non-abelian factor** (contingently blocked; Gate-1/`S033`) and
+  **irreducible chirality** (structurally blocked).
+- **Item 1 — chirality articulation (VERIFIED), `philosophy/P009`.** The SM-side face of `det=−1→CS=0`: the mirror
+  (`swap_{R↔L}∘reverse`) sends the monodromy `M→Mᵀ` (since `L=Rᵀ`), preserving trace/charpoly/Perron-field/volume
+  and only flipping the CS sign — **chirality is a CS-sign, not an inequivalence.** Verified for 6 chiral words
+  (universal for achiral too); SnapPy: vol invariant, CS flips, `H₁` invariant. **Load-bearing caveat banked:**
+  "structurally blocked" = blocked at all *standard* invariants, **not** a proof no invariant distinguishes. (Also
+  fixed a B133 leftover in P009 — the withdrawn "chirality fuses the eigenvalue field" line.)
+- **Item 2 — MB9** (`REPRODUCIBILITY.md`): a non-abelian symmetry **group** ≠ non-abelian **gauge** content (the
+  firewall is on the abelian × discrete trace-ring/`T[M]`, not the monodromy group). Cluster MB6/MB8/MB9 = "right
+  object, wrong level."
+- **Item 3 — open lead B139-G** (`docs/OPEN_LEADS.md`): does the chirality block survive the **genus ladder**?
+  (genus-1 special; the falsifier for Item 1; trace-level, unrun; a break gives only *emergent* chirality).
+
+MATH tier (cartography); nothing to `CLAIMS.md`; P1–P16, B85, S031, the merged B124–B138 untouched. Ledger
+**V128**. `frontier/B139_firewall_cartography/` + `tests/test_b139_firewall_cartography.py` (4 tests, green).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
