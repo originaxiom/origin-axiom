@@ -24,6 +24,11 @@ Proving this upgrades B129 from **computer-assisted-strong** (m=1; SL(3); 427 of
 - **Structural reason to expect it:** climbing the tower is the principal `SL(2)→SL(n)` embedding (`K003`/`K005`); a
   fixed point of the lifted map that is *not* the lift of an SL(2) fixed point would be new content the embedding does
   not obviously supply, and B129 finds none.
+- **Extended to m=2 (B137/V126):** the SL(3) sealing now holds for **both arithmetic metallic members** — m=1 in
+  ℚ(√−3) (B129) and **m=2 (silver) in ℚ(i)** — among irreducible off-sublocus fixed points, 0 escapes from `K_m` (2
+  seeds each). *(En route, a verify-don't-trust catch: the **reducible** locus fakes escapes — its `κ` is not in `K_m`
+  — so escapes must be counted only among irreducible (algdim=9) points; method note **MB7**, `../REPRODUCIBILITY.md`.
+  m≥3 has non-quadratic `K_m`; SL(n≥4) needs SL(4) trace coordinates — both still open.)*
 
 ## What a proof needs (the obstruction)
 

@@ -3401,5 +3401,24 @@ B124–B134 untouched.
 
 ---
 
+## 2026-06-09 — B137: S031 sealing extended to m=2 (silver, SL(3), ℚ(i)) + the reducible-filter (MB7) (V126)
+
+A "push further" increment on the **S031** capstone (the SL(n) sealing). B129 verified m=1 at SL(3) (ℚ(√−3)) and left
+m≥2 undone; this closes m=2 (silver, ℚ(i)).
+
+- **Result:** the SL(3) tower is sealed in `K_m` for **both arithmetic metallic members** — m=1 in ℚ(√−3) (reproduces
+  B129) and **m=2 in ℚ(i)** (new): among **irreducible** off-sublocus fixed points, **0 escapes** from the SL(2) trace
+  field (2 seeds each). Strengthens S031 from {m=1} to {m=1, m=2}; theorem-version (all m,n) stays open.
+- **Verify-don't-trust catch (MB7):** a naive search nearly read as "S031 false for m=2" (16 escapes, dist 0.004) —
+  but the escapes were all **reducible** degenerate points (algdim 7, `trA=−1`, `|eig|=1`, well-converged), whose `κ`
+  isn't constrained to `K_m`. B129's m=1 missed this only because its reducibles are rational (∈ ℚ(√−3)). Guard:
+  count escapes only among **irreducible** (algdim=9) points; then m=2 seals. → `REPRODUCIBILITY.md` MB7 (sibling of
+  MB2/K-G/K-H).
+- Banked B137 (probe/FINDINGS/README/test); S031 evidence extended; m≥3 (non-quadratic `K_m`) and SL(n≥4) flagged open.
+
+MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B136 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
