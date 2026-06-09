@@ -32,9 +32,14 @@ The structural reason: the manifold mirror is realized by the `R↔L` block swap
 **lifts the integer-sequence reversal**; doubles close by cyclic conjugacy of the monodromy product, triples and
 higher do not.
 
-**Status: strongly-supported conjecture** — `15/15` SnapPy `is_amphicheiral` predictions across `k=1,2,3,4`, plus the
-clean structural argument. The open **proof target** is to turn the block-reversal / cyclic-conjugacy argument into a
-theorem. Verified with the **correct** chirality test (see the method note).
+**Status: PROVED (B134/V123)** — as an elementary corollary of **Goodman–Heard–Hodgson 2008** (arXiv:0801.4815), which
+classify the symmetries of a once-punctured-torus bundle by its L/R monodromy word: amphichiral ⟺ the word is
+**anti-palindromic** (`reverse(W) = swap_{L↔R}(W)` cyclically). For a metallic-block word, `reverse(W)` and `swap(W)`
+are both `LᵃRᵃ`-block words with block-length sequences `(m_k,…,m₁)` and `(m₁,…,m_k)`; they agree cyclically ⟺ the
+block-length sequence is a cyclic palindrome. So **amphichiral ⟺ `(m₁,…,m_k)` is a cyclic palindrome** — proved. (Was a
+`15/15` computer-verified conjecture; the novelty audit located the GHH mechanism — see `../docs/NOVELTY_AUDIT.md`,
+`../frontier/B134_chirality_recursion_proved/`. The **block-length lift** is the project's novel kernel; the chirality
+mechanism is GHH's. One outstanding specialist check: GHH's criterion as a strict iff for all these bundles.)
 
 ## The order parameter and the `Z₂` (B128)
 
@@ -62,7 +67,9 @@ firewall direction). It does **not** license a gauge group: the companion attemp
 `SU(n)` center is tombstoned (`K-F`, `../speculations/TOMBSTONES.md`; torsion tracks periodicity, not chirality, and
 center≠gauge — `S029`/`S030`).
 
-**Anchors:** B128/V117 (the recursion, the order parameter, the `Z₂`, the method bug, `K-F`), B127/`K010` (the CS=0
-pure-metallic locus this sharpens), `K002`/`K004` (the metallic bundles), `../philosophy/P007`/`P008` (the firewall),
-`../speculations/S029`/`S030` (the rank-1 abelian fence / Yang–Lee fork). External: once-punctured-torus bundles;
-SnapPy `symmetry_group().is_amphicheiral()`, `complex_volume`.
+**Anchors:** B128/V117 (the recursion, the order parameter, the `Z₂`, the method bug, `K-F`), **B134/V123 (the PROOF
+via GHH)**, B127/`K010` (the CS=0 pure-metallic locus this sharpens), `K002`/`K004` (the metallic bundles),
+`../philosophy/P007`/`P008` (the firewall), `../speculations/S029`/`S030` (the rank-1 abelian fence / Yang–Lee fork),
+`../docs/NOVELTY_AUDIT.md` (R1). External: **Goodman–Heard–Hodgson 2008 (arXiv:0801.4815, the anti-palindromic word
+criterion)**; Kauffman–Lambropoulou (palindromic rational knots); once-punctured-torus bundles; SnapPy
+`symmetry_group().is_amphicheiral()`.

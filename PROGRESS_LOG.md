@@ -3353,5 +3353,30 @@ This is Phase A of the approved program (correction + paths 1/2/4: novelty audit
 
 ---
 
+## 2026-06-09 — B134: the chirality recursion PROVED (corollary of GHH 2008) + the novelty audit (V123)
+
+Phase B (novelty/literature audit) + Phase C (one proof) of the approved program. A deep adversarial literature pass
+(deep-research workflow: 102 agents, fan-out → fetch → 3-vote verify → cited synthesis) placed the project's three
+candidate-novel results against prior art; banked the audit and **proved** the one novel kernel.
+
+- **Novelty verdicts** (`docs/NOVELTY_AUDIT.md`): **R1** chirality recursion — PARTIALLY-KNOWN (mechanism = Goodman–
+  Heard–Hodgson 2008's anti-palindromic-word criterion; the integer-block-length lift is the novel kernel); **R2**
+  two-seed fork — KNOWN (Kitano–Nozaki 2020), with a framing qualification (discreteness is gluing-map-driven, not
+  distinctness; "heterogeneity" is identity-gluing-specific); **R3** SU(2)_k field content — KNOWN/standard (Jeffrey
+  1992; Dong–Lin–Ng 2015; Lawrence–Zagier 1999) — confirming the B133 correction.
+- **The theorem (proved):** metallic-block bundle `R^{m₁}L^{m₁}…R^{m_k}L^{m_k}` is **amphichiral ⟺ the block-length
+  sequence is a cyclic palindrome.** Proof: GHH give amphichiral ⟺ word anti-palindromic; `reverse(W)` and `swap(W)`
+  are both `LᵃRᵃ`-block words, matching cyclically iff the block-length sequences agree up to rotation. **∎** Verified:
+  the lemma holds exhaustively (5460 sequences) + SnapPy three-way agreement (16/16). **B128/K011 upgraded from
+  computer-assisted (15/15) to PROVED.**
+- **Reconciliations:** K011 → PROVED (cite GHH); K014/B131 annotated (Kitano–Nozaki + the gluing-map qualification,
+  verified: swap-glue same-seed → degree-16 discrete); K015/K010 → R3 standard citations. `K001–K016`, `S001…S032`,
+  `P000–P009`.
+
+The honest net: of the three, two are known and one has a now-proved novel kernel — exactly what an audit should
+surface. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, S031, and the merged B124–B133 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
