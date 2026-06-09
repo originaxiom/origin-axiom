@@ -40,10 +40,34 @@ future session re-counts the views as independent confirmations.
 
 It places the whole firewall arc under one motivational heading and sharpens the next question: **the minimal breaking
 of monadicity is multi-seed composition** — and B131 (`K014`) computed that two *distinct* seeds create a discrete
-internal fork (heterogeneity makes a choice), while B132 (`K015`) found the quantum companion (chirality fuses the
-eigenvalue field). It does **not** license a physics claim: the only "this is physics" remains the emergent Lee–Yang /
-aperiodic-order identity (`K010`/`K015`/`S030`), firewalled from fundamental physics.
+internal fork (heterogeneity makes a choice), while B132 (`K015`) found the quantum companion: the SU(2)_k eigenvalue
+**field content** is quantum-group arithmetic (the word's spin-content mod 4 / T-twist), present in achiral and chiral
+words alike — *not* a chirality property (the "chirality fuses the field" reading was **withdrawn** in B133; see the
+`K-H` tombstone + guard `MB6`). It does **not** license a physics claim: the only "this is physics" remains the emergent
+Lee–Yang / aperiodic-order identity (`K010`/`K015`/`S030`), firewalled from fundamental physics.
+
+## The SM-side face of `det = −1 → CS = 0` (cartography, B139)
+
+The `det = −1` closure (C1 above) has a sharper **Standard-Model-side** restatement, recorded here as cartography (it
+is **not** a new firewall direction — a new *view* of the existing one). For any metallic-block word, the mirror
+(`swap_{R↔L} ∘ reverse`) is a **relabeling that preserves the trace** ⟹ same characteristic polynomial ⟹ same Perron
+field ⟹ same real hyperbolic geometry (volume); **only the Chern–Simons sign flips.** The clean reason is mechanical:
+with `R = [[1,1],[0,1]]` and `L = Rᵀ`, the mirror sends the monodromy `M` to `Mᵀ`, and `tr(Mᵀ) = tr(M)` exactly
+(verified B139, six chiral words; SnapPy: volume mirror-invariant, CS flips sign, `H₁` invariant). So a bundle and its
+mirror are the **same geometry with opposite CS** — a symmetric pair. The SM's defining feature is chirality *without* a
+mirror partner (parity violation: the mirror is a *different* theory); these objects structurally lack it because the
+mirror **distributes over the word** (mirror-symmetric blocks → mirror-symmetric composites). Multiplicity cannot
+manufacture it.
+
+> **The load-bearing caveat (must ride with this reading).** "Structurally blocked" means **blocked at every invariant
+> computed — trace, char poly, Perron field, volume, CS** — it is **not** a proof that *no* invariant distinguishes a
+> chiral bundle from its mirror. The honest statement is: **chirality is a CS-sign, not an inequivalence, across all
+> standard invariants.** The falsifier is the **genus ladder** (`docs/OPEN_LEADS.md`, B139): the relabeling-preserves-
+> trace structure is special to genus-1 (SL(2,ℤ), two generators); at genus ≥ 2 the mirror may not be a relabeling, and
+> a bundle and its mirror could become genuinely inequivalent. Even then the chirality would be **emergent**, not the
+> SM's fundamental chirality.
 
 Related: `P007` (the maximal probe; the seven firewall directions), `P008` (non-cancellation; the moduli-space root, the
-heterogeneity coda), `../knowledge/K010`,`K012`,`K013`,`K014`,`K015`,`K016` (the constituent results), B127–B132.
-External: the constituent literature cited in those `K`-docs.
+heterogeneity coda), `../knowledge/K010`,`K012`,`K013`,`K014`,`K015`,`K016` (the constituent results), B127–B132,
+B139 (the SM-side cartography), `../speculations/S029`/`S033` (the firewall program / Gate-1). External: the
+constituent literature cited in those `K`-docs.
