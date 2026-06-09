@@ -14,6 +14,18 @@ the SM). Nothing promotes to `../CLAIMS.md`; P1–P16 untouched.
 > (Lee–Yang edge singularity, experimentally observed; Peng et al. 2015), firewalled from fundamental physics. The
 > thread is no longer DORMANT: the bridge is computed, not merely noted.
 
+> **Sharpening (B135/V124) — m=1-specific, modular-data level.** Two honest calibrations. **(1) m-specific, not a
+> family.** Only the golden mean `λ₁=φ<2` is a quantum dimension (`2cos(π/(k+2))<2` forces m=1); for m≥2, `λ_m>2`, so
+> there is **no metallic family of Lee–Yang CFTs** — the bridge is the *single* golden case. The metallic *family* is
+> the family of distinct aperiodic **spectral** objects (`../knowledge/K010`, trace field ℚ(√(m²+4))), not a family of
+> minimal models. **(2) Match level.** The m=1 match holds at **modular-data level** — fusion rule + quantum dimension
+> + S-matrix Galois conjugate (Fibonacci → Yang–Lee, S⁴=I) + central charge (`c=−22/5`, `c_eff=2/5`) — which is
+> *stronger* than the audit's "fusion-rule-only" caution, but it is **not** a full RCFT identification (no torus
+> partition-function / character match; the framework's object is the hyperbolic, non-unitary complex-CS quantization,
+> tied to M(2,5) via the quantum dimension/fusion, not a proven RCFT equality). So `TESTED-POSITIVE` stands, scoped to
+> **modular-data level, m=1-specific, emergent**. (Standard modular data: audit R3 — Jeffrey 1992, Dong–Lin–Ng 2015,
+> Lawrence–Zagier 1999.) See `../frontier/B135_lee_yang_m_specific/`.
+
 ## The fork (the fenced content)
 
 The golden substitution's fusion algebra `τ×τ = 1+τ` (Perron eigenvalue `φ` = the quantum dimension of `τ`, B127 M-1)
