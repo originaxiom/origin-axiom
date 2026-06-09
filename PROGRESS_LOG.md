@@ -3378,5 +3378,28 @@ surface. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, S031, and the merged 
 
 ---
 
+## 2026-06-09 — B135 + B136: the Lee–Yang bridge is m=1-specific; amphichirality for all LR words (V124, V125)
+
+The last two approved paths (Phase D, then the generalization of the proved chirality theorem), banked together.
+
+- **B135 (Phase D — Lee–Yang, V124).** The Lee–Yang bridge is **m=1-specific**: only `λ₁=φ<2` is a quantum dimension
+  (`2cos(π/(k+2))<2` ⟹ m=1); m≥2 (`λ_m>2`) cannot be → **no metallic family of Lee–Yang CFTs**. The metallic *family*
+  is the spectral/quasicrystal one (`K010`, ℚ(√(m²+4))). The single golden bridge (m=1 → M(2,5)) holds at
+  **modular-data level** (σ₃ Galois conjugate Fibonacci→Yang–Lee: `d_τ=−1/φ`, S-matrix, `c=−22/5`, `c_eff=2/5`) —
+  stronger than fusion-rule-only, but not a full RCFT identification. `S030` sharpened (m=1-specific, modular-data,
+  emergent, firewalled). Standard modular data: Jeffrey 1992 / Dong–Lin–Ng 2015 / Lawrence–Zagier 1999.
+- **B136 (generalization of the proved theorem, V125).** Extends B134's metallic recursion to **any** LR word:
+  `R^{a₁}L^{b₁}…R^{a_k}L^{b_k}` is **amphichiral ⟺ the block-pair sequence `((a_i,b_i))` is fixed up to cyclic rotation
+  by (reverse order + swap each `(a,b)→(b,a)`)**. Proved as a GHH-2008 corollary in block-pair form; reduces to B134's
+  cyclic palindrome on the metallic locus `a_i=b_i`. Verified: lemma exhaustive (7380 sequences) + SnapPy on metallic
+  and **non-metallic** words. `K011` generalized. Honest novelty: a clean restatement/generalization of GHH's
+  criterion, not a new 3-manifold theorem.
+
+This completes the approved program (Phases A–D + the generalization; paper deferred). `K001–K016`, `S001…S032`,
+`P000–P009`. MATH (+ emergent-physics, firewalled) tiers; nothing to `CLAIMS.md`; P1–P16, B85, S031, the merged
+B124–B134 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

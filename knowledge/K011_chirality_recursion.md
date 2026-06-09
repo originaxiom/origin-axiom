@@ -41,6 +41,11 @@ block-length sequence is a cyclic palindrome. So **amphichiral ⟺ `(m₁,…,m_
 `../frontier/B134_chirality_recursion_proved/`. The **block-length lift** is the project's novel kernel; the chirality
 mechanism is GHH's. One outstanding specialist check: GHH's criterion as a strict iff for all these bundles.)
 
+**Generalization (B136/V125).** The same argument extends to **any** LR word `R^{a₁}L^{b₁}…R^{a_k}L^{b_k}`: the bundle
+is amphichiral ⟺ the **block-pair sequence** `((a_i,b_i))` is fixed (up to cyclic rotation) by *reverse order + swap
+each `(a,b)→(b,a)`*. The metallic `a_i=b_i` case makes the swap trivial, recovering the cyclic-palindrome criterion
+above. See `../frontier/B136_general_amphichirality/`.
+
 ## The order parameter and the `Z₂` (B128)
 
 - **The order parameter is the ordering, not the count.** The three chiral triples `(1,2,3),(1,3,2),(3,2,1)` all have
