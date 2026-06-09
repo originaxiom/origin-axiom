@@ -113,6 +113,19 @@ pip install snappy
   one-way and is never cited back. The 3d-3d / `T[M]` cusp↔gauge dictionary is *borrowed* (`../knowledge/K006`), so all
   cusp/gauge language is layer (b). Sibling of `MB10` (structure ≠ gauge) and the whole tombstone wall: "right object,
   wrong level," here as "right fact, wrong tier."
+- **SCAN — MB12: check a definition for VACUITY before using it as a target — can the property it names ever actually
+  fail?** (B144, named by the 3-chat synthesis.) The subtlest "right object, wrong level": *right intuition, vacuous
+  formalization, hidden by fluent phrasing.* A target can read as rigorous and pass several independent readers yet name
+  a property that is **never** false — so "testing" it is meaningless. **Guard:** before computing toward "is X able to
+  do Y," run the null/extreme case **on the definition itself** — exhibit a case where Y *could* be false; if you
+  can't, the target is vacuous. The chain this caught (chirality of interactions): (1) "an *orientation-independent*
+  invariant distinguishing M from its mirror M̄" — vacuous (orientation-independent ⟹ equal on M, M̄); (2) "an
+  *orientation-sensitive* invariant doing *more than flip sign/conjugate*" — vacuous (`CS(M̄)=−CS(M)`, `WRT(M̄)=WRT(M)*`,
+  `η(M̄)=−η(M)` for *every* 3-manifold, by functoriality under orientation reversal); (3) "*preferred* handedness in a
+  mirror-symmetric construction" — vacuous (the family is mirror-closed: the mirror of a composite is another
+  composite). The non-vacuous notions survive (chiral = no orientation-reversing self-homeo; *contingency* vs the
+  symmetry being broken). Sibling of `MB10`/`MB11`; the danger here is that it is **not** physics-over-math
+  contamination (the usual tell) but formal incoherence that sounds like rigor.
 - **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
   multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
   physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /

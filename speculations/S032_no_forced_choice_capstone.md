@@ -59,6 +59,17 @@ fork. The **boundary gluing** is where a genuine non-orbit discrete set could ap
 mathematics** — the minimal multiplicity for an internal fork to exist — **not** the Standard Model's vacuum selection.
 A real discovery about emergence, not a physics bridge. This question is **unrun**; recorded only.
 
+## Chirality of interactions (B144 — interaction injects contingency, not chirality-breaking)
+
+A companion question to Target B: does *interaction* (gluing distinct seeds) break the **chirality** symmetry the way
+it creates a discrete κ-fork? **No — and structurally so (B144).** The wall is *preferred vs convention* handedness
+(the invariant-based formulations are vacuous, MB12). For amphichiral pieces the family is **mirror-closed**
+(`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)` — the mirror is just the mirrored-gluing composite of the same pieces), so
+seed-heterogeneity gives **no preferred handedness**: the firewall extends from single objects to interactions.
+**Contingency (the κ-fork, Target B) and chirality-breaking are different axes** — multiplicity moves the first, not
+the second. The only route to preferred handedness is **breaking the construction's `R↔L` mirror symmetry** (a
+chirally-asymmetric input, not more seeds; `../docs/OPEN_LEADS.md` Campaign 1′). See `../frontier/B144_interaction_chirality/`.
+
 ## Why this matters (the framing it sharpens)
 
 B130's reading is that single-seed self-reference produces a **moduli space** (continuous κ × discrete seed-label), and

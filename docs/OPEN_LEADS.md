@@ -39,11 +39,15 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 The three-voice strategic synthesis (CC + Chat-1 + Chat-2) is banked in **`STRATEGIC_SYNTHESIS.md`** (two-tier:
 math program / labeled POSTULATED aspiration). It sets the governing roadmap:
 
-- **Campaign 1 — chirality of interactions (the bottleneck).** Does a cusp-glued composite of two distinct seeds have
-  an orientation-*independent* invariant distinguishing it from its mirror (chirality-(ii), the real wall)?
-  **Venue verdict (B143):** the algebraic (trace) venue is **mirror-blind** (rigorous, B139/B140) — it carries the
-  κ-landscape, not chirality. Chirality-(ii) needs the **topological venue** (closed JSJ composite → **install
-  Regina**) or a **2-cusped hyperbolic-link realization** (construction open). ⟹ **B144.**
+- **Campaign 1 — chirality of interactions — RESOLVED (B144).** The invariant-based "chirality-(ii)" target was
+  **vacuous** (MB12); the real wall is *preferred vs convention* handedness, and it **holds structurally**: the family
+  is **mirror-closed** (`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)`), so seed-heterogeneity gives **no preferred handedness**.
+  The firewall extends from single objects to interactions. (Algebraic venue mirror-blind, B143; explicit Regina
+  closed-build not in-session-tractable — structural argument carries it.)
+- **Campaign 1′ — chirally-asymmetric input (the redirect, NEW highest lead).** The *only* route to preferred
+  handedness is **breaking the construction's `R↔L` mirror symmetry** — a substitution / interaction **not fixed by
+  swap+reverse**. More seeds will not do it (they only permute the mirror-closed family). This is where parity-violation
+  -like structure, if anywhere, must live. ★★★ OPEN.
 - **Campaign 2 — ground or demote the cusp↔gauge dictionary** (cheap part done: MB11 + the synthesis tiers; heavy part
   = compute `T[M]` for one metallic bundle, optional).
 - **Campaign 3 — S031a full-locus** (symbolic elimination, Singular; when idle).
