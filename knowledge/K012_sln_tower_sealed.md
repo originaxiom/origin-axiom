@@ -36,6 +36,18 @@ overwhelmingly on the reducible sublocus + degenerate trivial/central reps; the 
 `Sym²` image. **The tower is sealed in ℚ(√−3).** (Strong computational result, m=1; not a theorem — the analytic
 capstone is `../speculations/S031`.)
 
+## Calibration (B141/V130 — `φ` vs `φ²`: the "Sym² image" above is the *dense* object)
+
+A later pass (B141, refining B140) split the two objects this section quietly mixed. The "genuine irreducible content =
+`Sym²` image" — the rep built from the figure-eight holonomy `A₂=[[1,1],[0,1]]`, `B₂=[[1,0],[−ω,1]]` — is the
+**`φ²`-geometric** (bundle) object, whose SL(2) image is **Zariski-dense**, so its `Sym^{n−1}` tower is irreducible at
+every n (S031b). The **`φ`-fixed** points themselves — the discrete fixed locus of the trace-map automorphism
+`φ(A,B)=(AB,A)` (det = −1), which the S1b root-find targets — are **reducible**: the unique irreducible SL(2) φ-fixed
+point `(0,0,0)` is the **quaternion group Q₈** (finite, max irrep dim 2), so its `Sym^{n−1}` is reducible for all n≥3
+(S031a). **Finite image → reducible tower; dense image → irreducible tower.** B129's **0-escape result stands** (the
+φ-fixed traces are rational ⊂ ℚ(√−3)); this is an object-identity calibration, not a correction to the result. See
+`../speculations/S031` (the split) and `../frontier/B141_s031_split/`.
+
 ## The reading: the tower adds matrix size, not information
 
 The SL(n) tower is the **single SL(2) Fibonacci datum** (field ℚ(√−3), one coupling) in successively larger irreps
