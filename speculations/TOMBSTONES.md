@@ -176,3 +176,24 @@ the sibling of the B129 method-bug-#2 kill mode). Banked so the error is not re-
   the **`κ`-elimination ideal** (adjoin `k=κ`, eliminate the coordinates; empty ⟹ continuous ⟹ no choice) and confirm
   0-dimensionality by **Jacobian rank** — **not** `sp.solve` branch-counting, which mislabels curve degeneracies as
   isolated points.
+
+---
+
+**Quantum-layer kill (B133 / V122) — a correction to a MERGED result (B132/K015).** The arc's verify-don't-trust
+discipline, applied to its own banked work: the B132 headline was numerically real but interpretively wrong.
+
+- **K-H — "chirality shifts the eigenvalue arithmetic (achiral → ℚ(√−3), chiral/cross-seed → ℚ(ζ₁₂))" — DEAD.** The
+  ℚ(i) / ℚ(ζ₁₂) content is the **SU(2)_k quantum-group twist** (the word's spin-content mod 4, the T-matrix phase
+  `exp(·πi/4)`), **present in achiral words too** — not a chirality property, not a manifold property. **The decisive
+  control** (k=4, `is_amphicheiral`-verified): **achiral words alone span all three fields** — `RRLL → ℚ(ζ₁₂)`,
+  `RRRLLL → ℚ(√−3)`, `RLRLRL → ℚ` (rational). The original S7 sample merely correlated chirality with spin-content-mod-4.
+  The **k=4 vanishing** is also not chirality-linked (achiral `RRLRLL`, `RLRRLL` vanish), so the S5 "chiral fragility /
+  non-cancellation selects the symmetric vacuum" reading is withdrawn with it. The classical trace fields stay disjoint
+  (ℚ(√−3) ∩ ℚ(i) = ℚ; B125/B129 untouched). Kill: B133 (the control, in-sandbox). *Third recurrence* of this
+  field-fusion artifact across sessions — banked firmly. *(Constructive: the surviving MATH is the m-mod-4 quantum-group
+  field content + the single-seed m=1 criteria `K016`; see `../knowledge/K015`.)*
+
+  *Method note (`MB6`, see `../REPRODUCIBILITY.md`):* **reproduction is not interpretation.** A claim can verify at the
+  computation level (numbers reproduce) yet be wrong at the interpretation level (the causal attribution). For any
+  "property X causes effect Y," run the **CONTROL** that varies X while holding the confounds fixed (here: achiral-vs-
+  chiral at fixed quantum-group inputs / fixed R,L multiset). Sibling of `K-G` (the revival mode), one remove out.

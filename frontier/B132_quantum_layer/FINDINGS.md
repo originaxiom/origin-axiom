@@ -1,18 +1,26 @@
-# B132 — The quantum layer: eigenvalue field-fusion, the chirality-arithmetic connection, and the quantum selection criteria (V121)
+# B132 — The quantum layer: SU(2)_k eigenvalue field content, the quantum selection criteria, the Lee–Yang bridge (V121; CORRECTED by B133/V122)
+
+> **⚠ CORRECTION (B133/V122).** The original B132 headline — *"chirality shifts the eigenvalue arithmetic
+> (achiral → ℚ(√−3), chiral → ℚ(ζ₁₂))"* — is **WITHDRAWN as a sampling artifact**. The eigenvalue *orders* are correct;
+> their *attribution to chirality* is wrong. The field content is **quantum-group arithmetic** (word spin-content mod 4,
+> the SU(2)_k T-twist), present in **achiral words too**. The decisive control: at k=4, **achiral words alone span all
+> three fields** (`RRLL`→ℚ(ζ₁₂), `RRRLLL`→ℚ(√−3), `RLRLRL`→ℚ), and the k=4 vanishing is also not chirality-linked
+> (achiral `RRLRLL`,`RLRRLL` vanish). So **S7 (chirality-arithmetic) and S5 (chiral fragility) are withdrawn**; what
+> stands is the m-mod-4 mechanism + the single-seed m=1 criteria + Lee–Yang. Tombstone `K-H`; guard `MB6`
+> ("reproduction ≠ interpretation — run the control"). See the corrected `knowledge/K015`.
 
 Internalizes a cross-session "Chat-1" handoff (10 results), **re-derived in-sandbox** (verify-don't-trust). The handoff
 was built on a **stale snapshot** (pre-B130/B131); its numbering and one "open" item collide with merged work
 (reconciled below). The genuinely new content is a whole **quantum layer** on top of the classical character-variety
 results (B127–B131): the SU(2)_k Witten–Reshetikhin–Turaev data `Z_k` of the metallic once-punctured-torus bundles.
 
-**One-line result.** **Chirality shifts the eigenvalue arithmetic.** At the saturation level `k=4`, the SU(2)_k
-eigenvalue spectrum of an **achiral** metallic composition sits in **ℚ(√−3)** (golden); a **chiral / cross-seed**
-composition **fuses to ℚ(ζ₁₂) = ℚ(√−3, i)** and its partition function **vanishes** (`|Z|=0`). The figure-eight (m=1)
-is the unique perfectly coherent seed (`|Z_k|=1` at every level; `Z_{k=4}=ω`, the trace-field generator). The
-non-cancellation principle **selects the achiral (symmetric) vacuum**: chiral states are more fragile. The native
-physics is the **Lee–Yang edge** (the σ₃ Galois conjugate, `d_τ=−1/φ`), not the Standard Model. MATH and physics in
-different tiers. Nothing to `CLAIMS.md`; P1–P16, the functorial `Sym(W)→trace-ring` wall (B85), S031, and the merged
-B124–B131 untouched.
+**One-line result (corrected).** The SU(2)_k eigenvalue **field content is quantum-group arithmetic** — the word's
+spin-content mod 4 (the T-matrix twist `exp(·πi/4)`), present in achiral and chiral words alike, **not** a chirality or
+manifold property; the classical trace fields stay disjoint (ℚ(√−3)∩ℚ(i)=ℚ). The robust **single-seed** facts: the
+figure-eight (m=1) is the unique perfectly coherent seed (`|Z_k|=1` at every level; `Z_{k=4}=ω`), the vanishing period
+is `|O_K^×|/2` for arithmetic m, and there are exactly two scales by m mod 4. The native physics is the **Lee–Yang
+edge** (the σ₃ Galois conjugate, `d_τ=−1/φ`), not the Standard Model. MATH and physics in different tiers. Nothing to
+`CLAIMS.md`; P1–P16, the functorial `Sym(W)→trace-ring` wall (B85), S031, and the merged B124–B131 untouched.
 
 ## Reconciliation (the handoff was stale)
 
@@ -35,15 +43,19 @@ This reproduces the handoff's eigenvalue orders **exactly** (the eigenvalue-orde
 - **S1c — eigenvalue field-fusion (single seeds m=1..7 at k=4).** m=1 `{6,6,6,2,2}` pure ℚ(√−3); m=2 `{6,4,4,2,2}`
   **fused ℚ(ζ₁₂)**; `m ≡ 2 mod 4` carries the order-4 (ℚ(i)) content (m=2,6 fuse); all others ℚ(√−3). The ℚ(i)
   content is quantum-group arithmetic (SU(2)₄, the T-phase `exp(mπi/4)` at spins j=1,3), controlled by `m mod 8`.
-- **S7 — the chirality-arithmetic connection (compositions at k=4).**
-  | composition | field | `|Z|` |
+- **S7 — [WITHDRAWN by B133] the field content is quantum-group, not chirality (compositions at k=4).** The original
+  reading ("achiral→ℚ(√−3), chiral→ℚ(ζ₁₂)+vanish") is a **sampling artifact**. The decisive control (all words below
+  are achiral by `is_amphicheiral`):
+  | word (achiral) | field | `|Z|` |
   |---|---|---|
-  | fig8 (RL), same-seed RLRL, silver×silver, (1,2,1) achiral | **ℚ(√−3)** | 1 |
-  | silver (RRLL) | ℚ(ζ₁₂) | 1.880 |
-  | **fig8×silver (cross)**, **(1,2,3) chiral** | **ℚ(ζ₁₂) fused** | **0 (vanish)** |
-  Same-seed stays/defuses to ℚ(√−3); cross-seed and the chiral triple **fuse to ℚ(ζ₁₂) and vanish**. The shift is
-  **chirality-driven, not word-length-driven** (RLRL is 4 letters/ℚ(√−3); the 12-letter (1,2,3) is ℚ(ζ₁₂)). This is
-  the quantum refinement of the B128 chirality recursion and the quantum companion of B131's classical fork.
+  | `RRLL` | **ℚ(ζ₁₂)** | 1.880 |
+  | `RRRLLL` | ℚ(√−3) | 2 |
+  | `RLRLRL` | ℚ (rational) | 5 |
+  | `RRLRLL`, `RLRRLL` | ℚ(ζ₁₂) | **0 (vanish)** |
+  **Achiral words alone span all three fields** — so the field tracks **word spin-content mod 4** (the SU(2)_k T-twist),
+  not chirality, not the manifold. The classical trace fields stay disjoint (ℚ(√−3)∩ℚ(i)=ℚ). Tombstone `K-H`; guard
+  `MB6`. *(The B128 chirality recursion and B131 fork are classical and stand — they are not refined by this; the
+  earlier "quantum companion" framing is withdrawn.)*
 - **S1a — the self-referential loop.** `Z_{k=4}(M_1) = e^{2πi/3} = ω`, the generator of the trace field ℚ(√−3): the
   partition function at the saturation level *outputs the trace-field generator*. m=1-specific.
 - **S3a — pure phase is m=1-unique.** `|Z_k|=1` at every non-vanishing `k` only for m=1 — the strongest m=1 selection
@@ -55,9 +67,11 @@ This reproduces the handoff's eigenvalue orders **exactly** (the eigenvalue-orde
 - **S4 — exactly two quantum scales, by m mod 4.** First non-vanishing level `k=1` (`ℏ=2π/3`) for `m ≢ 2 mod 4`, and
   `k=2` (`ℏ=π/2`) for `m ≡ 2 mod 4`. The non-cancellation principle admits **two** allowed scales; the selection is
   seed-level (external).
-- **S5 — chiral fragility / the persistence hierarchy.** The chiral (1,2,3) vanishes at more levels (k=2,3,4,5,7,9)
-  than its achiral sibling (1,2,1) (k=2,5,8,…). Non-cancellation **selects the symmetric (achiral) vacuum**:
-  m=1 achiral (most persistent, `|Z|=1`) > achiral compositions > chiral compositions (least persistent).
+- **S5 — [WITHDRAWN by B133] vanishing is word-composition, not chirality.** The earlier "chiral fragility /
+  non-cancellation selects the symmetric vacuum" reading is withdrawn: **achiral** words `RRLRLL`, `RLRRLL` also vanish
+  at k=4, and the (1,2,3)-vs-(1,2,1) difference was confounded with word length (no control was run). The vanishing
+  levels are a per-word partition-function fact, not a chirality marker. *(The single-seed `|Z|=1` m=1-coherence, S3a,
+  is unaffected and stands.)*
 - **S6 — commensurability (SnapPy).** silver (RRLL, 1-cusp, CS=0, achiral) and L5a1 (2-cusp, CS=−0.125, **chiral**)
   share volume 3.6639 but are not isometric — same commensurability class; the 2-cusped member broke the achiral
   symmetry. (S5c: chiral compositions' torsion — (1,2,3) `ℤ/157⊕ℤ`, balanced-chiral RRLRRLLL `ℤ/2⊕ℤ/14⊕ℤ`.)

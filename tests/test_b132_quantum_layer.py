@@ -1,4 +1,4 @@
-"""Locks for B132 -- the quantum layer (eigenvalue field-fusion, chirality-arithmetic, quantum selection criteria).
+"""Locks for B132 -- the quantum layer (SU(2)_k field content, quantum selection criteria; CORRECTED by B133).
 
 All checks use the validated SU(2)_k modular rep (framing=False, R=T, L=STS^-1); the eigenvalue-order method is exact
 and precision-independent, so these run unconditionally (numpy only).
@@ -30,14 +30,14 @@ def test_field_fusion_m_mod_4():
     assert all(not r[m]["fused"] for m in (1, 3, 4, 5, 7))
 
 
-def test_chirality_arithmetic_connection():
-    rows = {x["label"]: x for x in B132.chirality_arithmetic()}
-    # same-seed / achiral -> Q(sqrt-3); cross-seed / chiral -> Q(zeta12) and vanish
-    assert rows["fig8xfig8 (same)"]["field"] == "Q(sqrt-3)"
-    assert rows["silverxsilver (same)"]["field"] == "Q(sqrt-3)"   # DEFUSED
-    assert rows["(1,2,1) achiral"]["field"] == "Q(sqrt-3)"
-    assert rows["fig8xsilver (cross)"]["field"] == "Q(zeta12)" and rows["fig8xsilver (cross)"]["absZ"] == 0.0
-    assert rows["(1,2,3) chiral"]["field"] == "Q(zeta12)" and rows["(1,2,3) chiral"]["absZ"] == 0.0
+def test_field_content_not_chirality():
+    # [CORRECTED B133] the field is word-composition (quantum-group), NOT chirality: ACHIRAL words alone span
+    # all three fields, and achiral words vanish at k=4 -> neither field nor vanishing tracks chirality.
+    c = B132.chirality_control()
+    assert set(c["achiral_words_span_fields"]) == {"Q (rational)", "Q(sqrt-3)", "Q(zeta12)"}
+    assert c["chirality_determines_field"] is False     # headline withdrawn
+    assert c["achiral_words_vanishing_at_k4"]           # achiral words vanish at k=4 too
+    assert c["vanishing_tracks_chirality"] is False
 
 
 def test_self_referential_loop_Z_eq_omega():
@@ -61,10 +61,11 @@ def test_two_scales_by_m_mod_4():
     assert B132.two_scales()["two_scales_by_m_mod_4"]
 
 
-def test_chiral_fragility():
-    r = B132.chiral_fragility()
-    assert r["chiral_vanishes_at_k4"]
-    assert r["chiral_more_fragile"]
+def test_vanishing_is_composition_not_chirality():
+    # [CORRECTED B133] the S5 chiral-fragility reading is withdrawn: ACHIRAL words vanish at k=4 too.
+    r = B132.vanishing_is_composition_not_chirality()
+    assert r["achiral_words_vanishing_at_k4"]
+    assert r["chirality_explains_vanishing"] is False
 
 
 def test_lee_yang_galois():
