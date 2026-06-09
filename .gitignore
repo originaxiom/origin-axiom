@@ -8,6 +8,7 @@ env/
 *.egg-info/
 .eggs/
 build/
+audit/
 dist/
 .pytest_cache/
 .ruff_cache/
