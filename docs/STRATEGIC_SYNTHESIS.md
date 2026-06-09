@@ -76,9 +76,15 @@ fixed by swap+reverse), not more seeds.
   (`K-C`); Borromean/SU(3) (`K-I`).
 - **RESOLVED (B144):** **cusp-gluing composite chirality** — the firewall extends structurally (mirror-closure; no
   preferred handedness from seed-heterogeneity). The new lead it spawns ⬇ is the only route to preferred handedness.
-- **LIVE-MATH (gradable now):** ① **chirally-asymmetric input** — a substitution / interaction *not fixed by
-  swap+reverse* (the only way to break the `R↔L` mirror symmetry, hence the only route to preferred handedness; B144
-  redirect); ② the **GL(2,ℤ) gluing landscape** (extend B131 from identity-gluing to all gluings; map the discrete
+- **RESOLVED (B145):** **chirally-asymmetric input / can chirality be forced?** — **No.** Canonicity (minimal volume /
+  arithmeticity / simplest substitution / palindromic period) **coincides with the self-mirror (amphichiral)
+  condition** (catalog n=39: minimal o-p-t bundle = figure-eight = amphichiral; every quadratic-trace-field bundle
+  amphichiral; no arithmetic chiral o-p-t bundle). **Preferred handedness (parity) is irreducibly contingent** — the
+  deepest firewall statement (`K017`). The residual lead ⬇ is the only place it could still live.
+- **LIVE-MATH (gradable now):** ① **non-arithmetic-but-otherwise-canonical chiral input?** — the residue of B145:
+  chirality lives off the arithmetic/palindromic locus; is there *any* principled (non-arbitrary) selection of a
+  non-palindromic input, or is every such choice genuinely contingent? (likely contingent — the honest expectation);
+  ② the **GL(2,ℤ) gluing landscape** (extend B131 from identity-gluing to all gluings; map the discrete
   κ-sets — Chat-1's Lead A; *contingency* axis, not chirality); ③ the **off-forced deformation neighbourhood** (the
   dense "shadow" of the forced point — Chat-1's Lead B / B141 finiteness-density); ④ **S031a full-locus** (symbolic
   elimination, Singular).
@@ -93,8 +99,13 @@ fixed by swap+reverse), not more seeds.
 (trace) venue is mirror-blind, so it ran topologically (Regina installed). Result (B144, via MB12): the wall is
 *preferred vs convention* handedness (the invariant-based formulations were vacuous), and it **holds structurally** —
 the family is **mirror-closed** (`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)`), so seed-heterogeneity gives no preferred
-handedness. The firewall extends from single objects to interactions. **Redirect (now Campaign 1′):** the only route to
-preferred handedness is a **chirally-asymmetric input** (a substitution not fixed by swap+reverse) — *not* more seeds.
+handedness. The firewall extends from single objects to interactions.
+
+**Campaign 1′ — can chirality be forced? — RESOLVED (B145).** The redirect (a chirally-asymmetric input) is the only
+route to preferred handedness — and it **cannot be forced**: canonicity (minimal volume / arithmeticity / simplest
+substitution / palindromic period) **coincides with the self-mirror (amphichiral) condition** (B145 catalog, n=39; no
+arithmetic chiral o-p-t bundle). **Preferred handedness (parity) is irreducibly contingent** — *forced ⟹ self-mirror ⟹
+no parity* (`K017`). Parity lives strictly on the contingent side; chirality cannot be derived from "not nothing."
 
 **Campaign 2 — ground or demote the dictionary.** Cheap part done here (`MB11` + this doc's two tiers). Heavy part —
 actually compute `T[M]` for one metallic bundle to test whether cusp↔U(1) holds for *our* objects — left optional.

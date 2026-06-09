@@ -44,10 +44,15 @@ math program / labeled POSTULATED aspiration). It sets the governing roadmap:
   is **mirror-closed** (`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)`), so seed-heterogeneity gives **no preferred handedness**.
   The firewall extends from single objects to interactions. (Algebraic venue mirror-blind, B143; explicit Regina
   closed-build not in-session-tractable — structural argument carries it.)
-- **Campaign 1′ — chirally-asymmetric input (the redirect, NEW highest lead).** The *only* route to preferred
-  handedness is **breaking the construction's `R↔L` mirror symmetry** — a substitution / interaction **not fixed by
-  swap+reverse**. More seeds will not do it (they only permute the mirror-closed family). This is where parity-violation
-  -like structure, if anywhere, must live. ★★★ OPEN.
+- **Campaign 1′ — can chirality be forced? — RESOLVED (B145): No.** Canonicity (minimal volume / arithmeticity /
+  simplest substitution / palindromic period) **coincides with the self-mirror (amphichiral) condition** (catalog
+  n=39: minimal o-p-t bundle = figure-eight = amphichiral; every quadratic-trace-field bundle amphichiral; **no
+  arithmetic chiral o-p-t bundle**). **Preferred handedness (parity) is irreducibly contingent** — the deepest firewall
+  statement (`../knowledge/K017`; *forced ⟹ self-mirror ⟹ no parity*). Not a K-A revival (opposite conclusion).
+- **Campaign 1″ — a principled non-palindromic input? (the residue, likely contingent).** B145 locates chirality off
+  the arithmetic/palindromic locus. Is there *any* non-arbitrary selection of a non-palindromic input (a canonicity
+  measure whose minimizer is chiral), or is every such choice genuinely contingent? Honest expectation: contingent
+  (the firewall holds). ★ OPEN — the last residue of the chirality axis.
 - **Campaign 2 — ground or demote the cusp↔gauge dictionary** (cheap part done: MB11 + the synthesis tiers; heavy part
   = compute `T[M]` for one metallic bundle, optional).
 - **Campaign 3 — S031a full-locus** (symbolic elimination, Singular; when idle).
