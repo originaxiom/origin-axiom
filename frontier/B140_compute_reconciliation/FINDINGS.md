@@ -45,6 +45,14 @@ the framing tightens. This is a **φ-vs-φ² clarification + tightening**, not a
 and no exotic fixed points up the tower.* That reframes the open converse (B138's hard half) as a **rigidity problem**
 (the `K003` Dickson/Chebyshev flavor) — cleaner than "why do points land in `K_m`."
 
+> **Sharpened (B141/V130).** This reframe is itself adjusted one layer further: the principal φ-fixed point is **not
+> irreducible** at n≥3. Its SL(2) rep `(0,0,0)` is the **quaternion group Q₈** (finite, max irrep dim 2), so the
+> principal `Sym^{n−1}` image is **reducible for all n≥3** — there is no irreducible principal φ-fixed point to be
+> "rigid" about. S031 is therefore **split**: S031a (φ-fixed) is **reducible × discrete** (Q₈ finiteness, rigorous;
+> full SL(3) locus entirely reducible, conjecture), and the irreducible ℚ(√−3) tower is S031b (`Sym^{n−1}` of the
+> *dense* fig-8 holonomy). The **rational** φ-fixed content found here (`(−1,−1,−1)`, commutator 3) is exactly a
+> *reducible* Q₈ `Sym²` point. See `../B141_s031_split/`.
+
 **Retracted (never banked, lived only in a Chat-2 message):** "~35 non-principal φ-fixed points carry ℚ(√−3)" and
 "the converse routes to Heusener–Muñoz–Porti." Both **wrong**: there are **no** non-principal irreducible φ-fixed
 points (verified) — the converse is rigidity, **not** an HMP classification.

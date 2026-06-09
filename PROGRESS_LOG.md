@@ -3517,5 +3517,28 @@ MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B139 untouch
 
 ---
 
+## 2026-06-09 — B141: split S031 — φ-fixed tower REDUCIBLE (Q₈), φ²-geometric tower IRREDUCIBLE (dense fig-8) (V130)
+
+Third reconciliation pass on S031, one layer past B140 — a substantive correction to B140's reframe. The root of the
+φ-vs-φ² distinction is **finiteness vs density of the SL(2) image.** All re-derived in-sandbox. **B129 preserved.**
+
+- **Item 1 (RIGOROUS, all n).** The unique irreducible SL(2) φ-fixed point `(0,0,0)` (κ=−2) is the **quaternion group
+  Q₈** (`A²=B²=−I`, `AB=−BA`, order 8), finite with max irrep dim 2. So the principal `Sym^{n−1}` image (dim n) is
+  **reducible for all n≥3** (alg-dim `{2:4,3:3,4:4,5:4,6:4,7:4}`; `χ_{Sym²}=(3,3,−1,−1,−1)=χ_a⊕χ_b⊕χ_c`). **No
+  irreducible principal φ-fixed point at n≥3** — corrects B140's "rigidity of the principal *irreducible* fixed point."
+- **Item 2 (RIGOROUS, all n).** The φ²-geometric fig-8 holonomy (B129's S1a, Zariski-dense) has `Sym^{n−1}`
+  **irreducible ∀n** (alg dim n², n=2..5), traces in ℚ(√−3).
+- **Item 3 (SOLID).** Finite image (Q₈) → reducible tower; dense image (fig-8) → irreducible tower — S031 conflated
+  the two (irreducibility+ℚ(√−3) from φ², "fixed point" from φ; no single object has both).
+- **Item 4 (CONJECTURE, open n≥4).** The SL(3) φ-fixed locus appears entirely reducible (intertwiner search: 60/60
+  converged, 0 irreducible). Rigorous path = symbolic elimination (the SL(4) route).
+
+**Split:** S031a (φ-fixed) = **reducible × discrete**; S031b (φ²-geometric) = **irreducible ∀n in ℚ(√−3)** (B129 S1a).
+B129's 0-escape conclusion **stands** (φ-fixed traces rational ⊂ ℚ(√−3); object-identity calibration). S031, CATALOG,
+K012, and B140 FINDINGS updated. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B140 untouched.
+Ledger **V130**. `frontier/B141_s031_split/` + `tests/test_b141_s031_split.py` (6 tests, green).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
