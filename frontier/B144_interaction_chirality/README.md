@@ -14,7 +14,7 @@ preferred handedness.** The firewall extends to cusp-interactions **structurally
 every level). Premise verified (both pieces amphichiral); chiral-(i) composites are generic (exist) but mirror-closed
 (no preferred side). Seed-heterogeneity gives contingency (B131), not chirality-breaking.
 
-**Gate (Chat-2):** explicit closed-composite build in Regina is not in-session-tractable (boundary-torus matching is
+**Gate (an AI-assisted review):** explicit closed-composite build in Regina is not in-session-tractable (boundary-torus matching is
 not a single call; closed non-hyperbolic) — the structural argument carries it; no mirror-closure failure observed.
 
 **Redirect (POSTULATED):** preferred handedness needs **breaking the `R↔L` mirror symmetry** — a chirally-asymmetric

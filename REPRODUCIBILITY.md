@@ -84,13 +84,13 @@ pip install snappy
   this only because its reducibles happened to be rational ∈ ℚ(√−3); m=2's reducibles have messy non-ℚ(i) `κ`.) Sibling
   of MB2 / K-G / K-H — a surprising "escape" that is a degenerate artifact.
 - **SCAN — MB8: a generic / necessary feature is not a discriminating / sufficient one — check the null case**
-  (CHAT-1 LEADS REGISTER §E). When a feature is observed on the object of interest and read as *evidence for* a
+  (an AI-assisted leads register, §E). When a feature is observed on the object of interest and read as *evidence for* a
   property, ask whether the feature is **generic** — present on the null/control object too. A *necessary*
   condition that everything satisfies discriminates nothing; only a feature that **separates** the positive case
   from the null case is evidence. (This is the structural sibling of MB6 "reproduction≠interpretation" — there the
   miss is the missing *control*; here the miss is the missing *null case*. Both are "right object, wrong level":
-  run the case where the property is **absent** and confirm the feature disappears.) *(Numbering note: the CHAT-1
-  doc labelled this "MB7"; that collides with the repo's MB7 above, so it is banked here as **MB8**. A further
+  run the case where the property is **absent** and confirm the feature disappears.) *(Numbering note: the external
+  register labelled this "MB7"; that collides with the repo's MB7 above, so it is banked here as **MB8**. A further
   level-confusion guard — "a non-abelian symmetry **group** is not non-abelian **gauge** content" — is queued in a
   later handoff and will be **MB9**.)*
 - **SCAN — MB10: structure-group invariants are not gauge-group rank (the dimensional form of MB9)** (B142, the
@@ -114,7 +114,7 @@ pip install snappy
   cusp/gauge language is layer (b). Sibling of `MB10` (structure ≠ gauge) and the whole tombstone wall: "right object,
   wrong level," here as "right fact, wrong tier."
 - **SCAN — MB12: check a definition for VACUITY before using it as a target — can the property it names ever actually
-  fail?** (B144, named by the 3-chat synthesis.) The subtlest "right object, wrong level": *right intuition, vacuous
+  fail?** (B144.) The subtlest "right object, wrong level": *right intuition, vacuous
   formalization, hidden by fluent phrasing.* A target can read as rigorous and pass several independent readers yet name
   a property that is **never** false — so "testing" it is meaningless. **Guard:** before computing toward "is X able to
   do Y," run the null/extreme case **on the definition itself** — exhibit a case where Y *could* be false; if you
@@ -134,9 +134,20 @@ pip install snappy
   is **generic and firewall-neutral**. The guard cluster: **MB6** reproduction≠interpretation (missing control) ·
   **MB8** generic≠discriminating (missing null case) · **MB9** group-level≠gauge-level — the "right object, wrong
   level" family, each defeated by naming the level the claim lives on. *(The B139 handoff labelled this "MB8"; that
-  number was taken by the CHAT-1 §E guard, so it is banked here as **MB9**.)*
+  number was taken by the AI-assisted register's §E guard, so it is banked here as **MB9**.)*
 - Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
   the verified constants are also recorded in-probe and tested unconditionally.
+
+---
+
+## AI-reference policy (and the backlog)
+
+Tracked files may use **generic** "AI-assisted" / "AI-assistant" phrasing, but must **not** carry per-chat labels or
+model names. `tests/test_public_surface_scan.py::test_no_ai_labels_in_living_docs` enforces this on the **living/
+governing** set (`REPRODUCIBILITY`, `docs/STRATEGIC_SYNTHESIS`, `docs/OPEN_LEADS`, `knowledge/`, and the recent
+`frontier/B143–B146` dirs). **Backlog (scheduled):** the append-only `PROGRESS_LOG`/`CHANGELOG`, the papers ledger's
+older rows, and pre-B143 FINDINGS still carry legacy per-chat AI labels; a dedicated scrub will neutralize them and
+widen the guard's path list to the full public surface (B146 did not edit append-only history).
 
 ---
 

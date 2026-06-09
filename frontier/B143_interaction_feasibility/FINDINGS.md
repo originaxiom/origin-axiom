@@ -1,6 +1,6 @@
 # B143 — strategic synthesis (banked) + Campaign-1 feasibility scope: the venue verdict (V132)
 
-Two deliverables: the three-voice strategic synthesis (`../../docs/STRATEGIC_SYNTHESIS.md`) and the gating
+Two deliverables: the strategic synthesis (`../../docs/STRATEGIC_SYNTHESIS.md`) and the gating
 feasibility scope for Campaign 1 ("ask the chirality question of the glued objects"). MATH tier; firewalled; nothing
 to `CLAIMS.md`; P1–P16, B85, the merged B124–B142 untouched.
 
@@ -24,7 +24,7 @@ to `CLAIMS.md`; P1–P16, B85, the merged B124–B142 untouched.
   not installed.**
 - **(link) scout** — the ideal venue is a 2-cusped **hyperbolic** realization (SnapPy-native: `is_amphicheiral` + CS
   work), but whether the two-seed interaction *has* such a realization is itself a construction question (open).
-- **(588) Chat-1's claim** — the "588 irreducible reps" count is not reproducible without the source method; the
+- **(588) an AI-assisted review's claim** — the "588 irreducible reps" count is not reproducible without the source method; the
   falsifiable part (non-trivial Massey product → dim reduction) is **dead for s776** (the 3-chain link is **not**
   Brunnian; K-I, `is_isometric_to(s776, L6a4)` = False). If computed on the real Borromean rings (L6a4) it is a
   separate item, still subject to MB10 (SL(2,ℂ) dim ≠ rank SU(3)).
@@ -38,7 +38,7 @@ real one.
 
 ## The strategic synthesis (banked separately)
 
-`../../docs/STRATEGIC_SYNTHESIS.md` records the three-voice convergence (CC + Chat-1 + Chat-2), two-tier (math program
+`../../docs/STRATEGIC_SYNTHESIS.md` records the convergence (an AI-assisted multi-pass review), two-tier (math program
 / labeled POSTULATED physics aspiration): the monad + subtractive-shell shape; the three-layer "why" (forced≠contingent
 / finiteness-density / level-gap); the corrected scorecard (chirality the only *proven* obstruction; the 3d-3d
 dictionary borrowed/POSTULATED, K006); the chirality (i)/(ii) distinction; the open-paths map; and the Campaign 1/2/3

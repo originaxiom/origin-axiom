@@ -45,7 +45,7 @@ correlation, **not** a theorem that *every* conceivable canonicity principle for
 **Aspiration (POSTULATED, MB11):** **preferred handedness (parity) is irreducibly contingent** — it cannot be forced
 from a zero-parameter / minimal principle; it requires a choice of handedness no such principle makes. This is the
 **deepest statement of the firewall**: *forced ⟹ self-mirror ⟹ no parity; parity lives strictly on the contingent
-side* (Chat-2's `forced ≠ contingent`, now located precisely on the chirality axis). It also *locates* where chirality
+side* (the `forced ≠ contingent`, now located precisely on the chirality axis). It also *locates* where chirality
 could come from — a non-palindromic / non-arithmetic / non-minimal (contingent) input — which is the informative
 residue, not a crack.
 

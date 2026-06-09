@@ -45,3 +45,4 @@ legacy/reports/genesis/*.txt
 
 # --- Local Claude Code session state (scheduled-task locks, etc.) — never commit ---
 .claude/
+.tmpwork/
