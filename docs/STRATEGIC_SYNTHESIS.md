@@ -48,23 +48,39 @@ is **borrowed / POSTULATED**, never grounded for our specific objects. So *every
 result. (This corrects CC's reflection, which wrote "n cusps → n U(1)s" and "vacuum selection achieved" as if earned —
 the exact drift `MB11` now guards against.)
 
-## 4. Chirality has two notions — and only one is the wall
+## 4. Chirality — the corrected, non-vacuous statement (B144/MB12)
 
-- **(i) genuinely chiral manifold** (no orientation-reversing self-homeo): generic, and **already achieved** by
-  composites (B128's chiral triples). *Not* the wall.
-- **(ii) mirror = an orientation-*independently* distinct object** (different volume / trace field / …): **forbidden for
-  any hyperbolic 3-manifold** by the orientation-reversal theorem (B139/B140 — "chirality is a CS-sign, not an
-  inequivalence"). **This is the wall, and (ii) is what the SM's parity violation needs.**
+*An earlier version of this section ("notion (ii) = an orientation-independent invariant distinguishing M from M̄") was
+**vacuous** and is withdrawn — an orientation-independent invariant is equal on M and M̄ by definition. So is its
+"fix" ("an orientation-sensitive invariant doing more than flip sign"): `CS(M̄)=−CS(M)`, `WRT(M̄)=WRT(M)*`,
+`η(M̄)=−η(M)` for **every** 3-manifold. Caught by **MB12** (`../REPRODUCIBILITY.md`).*
+
+The non-vacuous picture:
+- **chiral = no orientation-reversing self-homeo** (`is_amphicheiral` False): **generic, already achieved** by
+  composites (B128). *Not* the wall.
+- **the wall is *preferred vs convention* handedness:** does the construction **prefer** a handedness (the mirror is
+  *not* reached within the family), or is any chirality a **convention** the construction's own `R↔L` mirror symmetry
+  undoes (the mirror is another member of the family)?
+
+**B144 result:** for cusp-glued interactions the wall **holds structurally** — the family is **mirror-closed**
+(`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)`, the mirror is just the mirrored-gluing composite of the same amphichiral pieces),
+so **no preferred handedness can arise from seed-heterogeneity** (which injects *contingency*, B131, on a different
+axis). The firewall therefore extends from single objects to interactions. **The redirect:** preferred handedness — what
+the SM needs — requires **breaking the `R↔L` mirror symmetry**, i.e. a **chirally-asymmetric input** (a substitution not
+fixed by swap+reverse), not more seeds.
 
 ## 5. Open-paths map
 
 - **DEAD (do not revisit):** single-seed → SM; torsion → gauge (`K-F`); chirality from the metallic family at standard
   invariants (B139/B140); value-matching (`S014`); spacetime signature (`S016`–`S018`); unitary Fibonacci-anyon
   (`K-C`); Borromean/SU(3) (`K-I`).
-- **LIVE-MATH (gradable now):** ① **cusp-gluing composite chirality-(ii)** via orientation-sensitive invariants (the
-  bottleneck — but venue-gated, see §6); ② the **GL(2,ℤ) gluing landscape** (extend B131 from identity-gluing to all
-  gluings; map the discrete κ-sets — Chat-1's Lead A); ③ the **off-forced deformation neighbourhood** (the dense
-  "shadow" of the forced point — Chat-1's Lead B / B141 finiteness-density); ④ **S031a full-locus** (symbolic
+- **RESOLVED (B144):** **cusp-gluing composite chirality** — the firewall extends structurally (mirror-closure; no
+  preferred handedness from seed-heterogeneity). The new lead it spawns ⬇ is the only route to preferred handedness.
+- **LIVE-MATH (gradable now):** ① **chirally-asymmetric input** — a substitution / interaction *not fixed by
+  swap+reverse* (the only way to break the `R↔L` mirror symmetry, hence the only route to preferred handedness; B144
+  redirect); ② the **GL(2,ℤ) gluing landscape** (extend B131 from identity-gluing to all gluings; map the discrete
+  κ-sets — Chat-1's Lead A; *contingency* axis, not chirality); ③ the **off-forced deformation neighbourhood** (the
+  dense "shadow" of the forced point — Chat-1's Lead B / B141 finiteness-density); ④ **S031a full-locus** (symbolic
   elimination, Singular).
 - **NEEDS-GROUNDING-OR-DEMOTION:** anything cusp↔gauge — either ground `T[M]` for one metallic bundle, or keep as
   labeled aspiration (`MB11`).
@@ -73,16 +89,12 @@ the exact drift `MB11` now guards against.)
 
 ## 6. The roadmap
 
-**Campaign 1 — chirality of interactions (the bottleneck).** *MATH:* for two distinct metallic seeds glued along cusp
-tori (over choices of gluing map), is every composite mirror-equivalent at orientation-*independent* invariants, or
-does some composite have an invariant distinguishing it from its mirror? *Control:* `is_amphicheiral` (notion i) vs the
-orientation-independent separator (notion ii). *Aspiration:* a crack in (ii) would be the first parity-violation-like
-candidate in the program. *Honest prior:* probably still no — but a clean negative extends the firewall from single
-objects to interactions (a theorem), and the small chance of a crack is the only thing that would change the picture.
-- **Venue verdict (B143):** the **algebraic (trace) venue is mirror-blind to (ii)** — RIGOROUS, since the mirror
-  preserves all traces (B139/B140) and B131's interaction lives in `(κ, trT)`. So Campaign 1 must run in the
-  **topological venue** (closed JSJ composite; needs **Regina**, not yet installed) or a **2-cusped hyperbolic-link
-  realization** (SnapPy-native; the realization is itself a construction question). This becomes **B144**.
+**Campaign 1 — chirality of interactions (the bottleneck) — RESOLVED (B144).** Venue verdict (B143): the algebraic
+(trace) venue is mirror-blind, so it ran topologically (Regina installed). Result (B144, via MB12): the wall is
+*preferred vs convention* handedness (the invariant-based formulations were vacuous), and it **holds structurally** —
+the family is **mirror-closed** (`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)`), so seed-heterogeneity gives no preferred
+handedness. The firewall extends from single objects to interactions. **Redirect (now Campaign 1′):** the only route to
+preferred handedness is a **chirally-asymmetric input** (a substitution not fixed by swap+reverse) — *not* more seeds.
 
 **Campaign 2 — ground or demote the dictionary.** Cheap part done here (`MB11` + this doc's two tiers). Heavy part —
 actually compute `T[M]` for one metallic bundle to test whether cusp↔U(1) holds for *our* objects — left optional.
