@@ -1,8 +1,18 @@
 # S030 — The two categorifications of `τ×τ=1+τ`: unitary Fibonacci vs non-unitary Yang–Lee
 
-**Status: `DORMANT` (thin; not recommended).** Firewalled; not a claim. The *math* (the fusion algebra, the central
-charges, the arithmetic) is banked in B127; the *physics bridge* is fenced. Nothing promotes to `../CLAIMS.md`;
-P1–P16 untouched.
+**Status: `TESTED-POSITIVE` (the Lee–Yang realization is now *computed*; B132/V121).** Firewalled; not a claim. The
+*math* (the fusion algebra, the central charges, the arithmetic) is banked in B127; the **Galois conjugation realizing
+Lee–Yang is now explicit** (below); the *physics bridge stays POSTULATED* (emergent non-equilibrium criticality, not
+the SM). Nothing promotes to `../CLAIMS.md`; P1–P16 untouched.
+
+> **Upgrade (B132/V121) — the σ₃ Lee–Yang realization is computed.** At level `k=3` (N=5), the SU(2)_k quantum
+> dimension `d_τ = 2cos(π/5) = +φ` (the unitary Fibonacci point, `(G₂)₁`, c=+14/5). Its **Galois conjugate σ₃**
+> (`q → q³`, i.e. `2cos(π/5) → 2cos(3π/5)`) gives `d_τ = −1/φ` — the **non-unitary Lee–Yang / M(2,5)** point
+> (c=−22/5), verified in-sandbox. So the framework's native quantum theory at `k=3` *is* the Lee–Yang CFT, reached by
+> the Galois conjugation `φ ↔ −1/φ` that maps the golden substitution's fusion rule to the M(2,5) minimal model. This
+> is the strongest concrete physics bridge the arc has produced — and it is **emergent non-equilibrium physics**
+> (Lee–Yang edge singularity, experimentally observed; Peng et al. 2015), firewalled from fundamental physics. The
+> thread is no longer DORMANT: the bridge is computed, not merely noted.
 
 ## The fork (the fenced content)
 

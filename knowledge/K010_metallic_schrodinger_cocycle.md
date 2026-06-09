@@ -63,6 +63,9 @@ no connection/holonomy content — **not a gauge theory, by direct computation**
 **order within existence**; it does not derive the *contents* of existence. The fundamental firewall is unchanged.
 
 This is the strongest honest "this is physics" the arc has produced — and it is **emergent physics, named correctly**.
+*(The quantum layer adds a second emergent identity: at level `k=3` the σ₃ Galois conjugate realizes the **Lee–Yang
+edge** `M(2,5)` (`d_τ=−1/φ`) — computed in B132, `S030` (TESTED-POSITIVE), `K015` — also emergent non-equilibrium
+physics, firewalled from fundamental.)*
 
 **Anchors:** B107/`K007` (the KKT identification), B124 (the void Jacobian / horseshoe-anchoring hyperbolicity), B127
 (the Fricke–Vogt dictionary + CS=0 + the arithmetic separation), `K001` (the Markov surface), `S023` (the distinct

@@ -3300,5 +3300,34 @@ functorial `Sym(W)→trace-ring` wall (B85), and the merged B124–B130 untouche
 
 ---
 
+## 2026-06-09 — B132: the quantum layer — eigenvalue field-fusion, chirality-arithmetic, quantum selection criteria (V121)
+
+Internalizes a cross-session "Chat-1" handoff (10 results) built on a **stale snapshot** (pre-B130/B131), **re-derived
+in-sandbox** (verify-don't-trust). **Reconciliation:** B130/B131 already merged; the handoff's "KEY" Step 17 (two-seed
+internal fork) **is** B131 (already done) — this quantum batch is its **companion** at the quantum level. Renumbered to
+B132 / K015,K016 / P009 / V121.
+
+The new content is a **quantum layer**: the SU(2)_k WRT data `Z_k` of the metallic bundles (validated convention: `R=T`,
+`L=STS⁻¹`, framing-free `T`; eigenvalue-order method, exact). **Headline — chirality shifts the eigenvalue arithmetic:**
+at k=4, achiral/same-seed compositions → **ℚ(√−3)**; chiral/cross-seed → **ℚ(ζ₁₂) fused and the partition function
+vanishes** (`|Z|=0`). The quantum companion of B128 (chirality recursion) + B131 (classical fork).
+
+- **Verified:** S1c field-fusion m=1..7 (m≡2 mod 4 → ℚ(i)); S7 the chirality-arithmetic table; S1a `Z_{k=4}(M_1)=ω`;
+  S3a pure-phase `|Z|=1` m=1-unique; S2 vanishing period `=|O_K^×|/2` (m=1→3, m=2→2, m=3/4 aperiodic); S4 two scales by
+  m mod 4; S5 chiral fragility (non-cancellation selects the symmetric vacuum); S6 silver↔L5a1 commensurability; S8 the
+  Lee–Yang σ₃ realization (`d_τ=−1/φ`).
+- **Quarantined (verify-don't-trust):** S9 (RRL κ-degree=3 refutes the criterion) did **not** reproduce — got degree
+  1/2 (convention-dependent), never 3; not banked.
+- Banked `knowledge/K015` (chirality-arithmetic field-fusion) + `K016` (m=1 criteria, +2 quantum); `philosophy/P009`
+  (Monadic Closure as a firewalled synthesis — the seven closures reduce to ~3 root causes, **not** a theorem);
+  upgraded `speculations/S030` DORMANT→**TESTED-POSITIVE** (Lee–Yang computed) + `K010` reference. `K001–K016`,
+  `S001…S032`, `P000–P009`.
+
+The native physics is the **Lee–Yang edge** (emergent non-equilibrium criticality), not the Standard Model. MATH /
+quantum-topology tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P1–P16, the functorial
+`Sym(W)→trace-ring` wall (B85), S031, and the merged B124–B131 untouched.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

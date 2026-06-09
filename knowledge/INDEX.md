@@ -1,9 +1,9 @@
-# `knowledge/` — index of explainers `K001–K014`
+# `knowledge/` — index of explainers `K001–K016`
 
-> **All written (K001–K014).** Each is a self-contained explainer — standard material cited to the literature, the
+> **All written (K001–K016).** Each is a self-contained explainer — standard material cited to the literature, the
 > project's own use cited to `B`/`V` numbers, no new claims. The layer is complete as of the B124 documentation
-> refresh (K011 appended at B128, K012 at B129, K013 at B130, K014 at B131); this index is the contract for what each
-> covers.
+> refresh (K011 at B128, K012 at B129, K013 at B130, K014 at B131, K015/K016 at B132); this index is the contract for
+> what each covers.
 
 | ID | title | scope (what it explains) | anchors |
 |---|---|---|---|
@@ -21,6 +21,8 @@
 | **K012** ✓ | [The SL(n) tower is sealed in ℚ(√−3): SL(2) data in larger irreps](K012_sln_tower_sealed.md) | the principal `Sym²` metallic SL(3) rep is irreducible yet all traces in ℚ(√−3); off-sublocus root-find (Lawton's 9 coords, the saddle/horseshoe method) finds 0 escapes (427 points, max dist 1.2e-6); the tower adds matrix size not information; the corrected firewall (**abelian × discrete**, rank grows only by replication); two method bugs | B128, B129; Lawton 2007, Damanik–Gorodetski |
 | **K013** ✓ | [No forced choice in the invariant ring: the structure is a moduli space](K013_no_forced_choice.md) | the sharp definition of a *forced choice* (invariant + discretely-multivalued + unsymmetrizable); `κ` is **free** on the fixed locus (κ-elimination ideal empty, m=2–5) → no discrete value to select; the only discrete fork is the **external seed** `m` (deterministic word + continuous κ internally); the moduli-space reading; the `K-G` tombstone / κ-elimination method | B128, B129, B130; Fricke trace coordinates |
 | **K014** ✓ | [Choice from heterogeneity: gluing distinct seeds discretizes the invariant](K014_choice_from_heterogeneity.md) | the companion to K013 — gluing two bundles matches their A-polynomial curves; **distinct seeds → distinct curves → discrete fork** ((1,2): `κ∈{−4,−2}` exact), **same seed → continuum**; it is *heterogeneity*, not multiplicity, that makes a choice; minimal multiplicity = two distinct seeds; choice enters only with interaction of *different* units | B130, B131, B67, B69; A-polynomials, torus gluings |
+| **K015** ✓ | [The chirality–arithmetic connection: eigenvalue field-fusion (quantum layer)](K015_chirality_arithmetic_field_fusion.md) | the SU(2)_k WRT data `Z_k` of the bundles; the eigenvalue-order method; **chirality shifts the eigenvalue arithmetic** — achiral→ℚ(√−3), chiral/cross-seed→ℚ(ζ₁₂) and vanish at k=4; the non-cancellation persistence hierarchy; the quantum companion of K011 (chirality recursion) + K014 (classical fork) | B132, B128, B131; SU(2)_k modular data, Lee–Yang |
+| **K016** ✓ | [The m=1 selection criteria, consolidated](K016_m1_selection_criteria.md) | the ways the figure-eight is distinguished — systole, expansion `λ<2`, arithmeticity (a {m=1,m=2} selector), **pure phase `|Z_k|=1` (new)**, **self-loop `Z_{k=4}=ω` (new)**, κ-degree=1 on the geometric component ({m=1,m=2}); the unverified RRL-κ-degree refutation quarantined | B107, B125, B127, B126, B132; `K009` |
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.
