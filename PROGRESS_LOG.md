@@ -3329,5 +3329,29 @@ quantum-topology tier; physics POSTULATED/quarantined; nothing to `CLAIMS.md`; P
 
 ---
 
+## 2026-06-09 — B133: scope-correction to merged B132/K015 — "chirality shifts the arithmetic" is a quantum-group artifact (V122)
+
+**Verify-don't-trust applied to the project's own merged work** (the same correction discipline applied to incoming
+handoffs, now flowing toward the repo). A correction handoff flagged that B132/K015's headline — *"chirality shifts the
+eigenvalue arithmetic (achiral→ℚ(√−3), chiral→ℚ(ζ₁₂))"* — is false. **Verified in-sandbox and confirmed (and extended).**
+
+- **The decisive control** (k=4, `is_amphicheiral`-verified): **achiral words alone span all three fields** —
+  `RRLL`→ℚ(ζ₁₂), `RRRLLL`→ℚ(√−3), `RLRLRL`→ℚ. So the field tracks the **word's spin-content mod 4** (the SU(2)_k
+  T-twist), **not** chirality, **not** the manifold. The eigenvalue *orders* are correct; the *attribution* was the
+  artifact (chirality was confounded with composition).
+- **Extended beyond the handoff:** the k=4 **vanishing** is also not chirality-linked (achiral `RRLRLL`,`RLRRLL`
+  vanish) — so **S5 chiral-fragility is also withdrawn**, not just restated.
+- **Banked:** rewrote `K015` (quantum-group field content, not chirality; kept the eigenvalue-order method + m-mod-4
+  mechanism + the control); withdrew S7/S5 in the B132 probe/FINDINGS/README + tests; **tombstone K-H** (third
+  recurrence of this field-fusion artifact; sibling of K-G); **REPRODUCIBILITY MB6** — *reproduction is not
+  interpretation; run the control*. Annotated V121. (Also fixed a latent `_field` bug: order-2-only → ℚ rational.)
+- **Confirmed solid, untouched:** P009 (Monadic Closure scrutiny), the S9 quarantine, S1a/S2/S3a (single-seed m=1),
+  S6, S8/Lee–Yang/S030. Classical trace fields stay disjoint (ℚ(√−3)∩ℚ(i)=ℚ; B125/B129).
+
+Within-MATH-tier correctness fix; nothing to `CLAIMS.md`; P1–P16, B85, S031, and the merged B124–B131 untouched.
+This is Phase A of the approved program (correction + paths 1/2/4: novelty audit, one proof, Lee–Yang; paper deferred).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

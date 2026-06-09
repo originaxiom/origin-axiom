@@ -66,6 +66,15 @@ pip install snappy
   equations **mislabels degeneracies of a continuous curve as isolated 0-dimensional points** (tell: a returned "point"
   still carries a free symbol, e.g. `κ = z²−2`). Confirm 0-dimensionality by **Jacobian rank** (rank = #coords), not by
   `solve`'s branch split. *(This is the revival failure mode — a too-eager "yes" — sibling of bug B2's kill mode.)*
+- **SCAN — MB6: "reproduction is not interpretation" — run the control, not just the reproduce-check** (B133, the
+  `K-H` field-fusion artifact, a correction to merged B132/K015). A cross-session handoff (or your own prior result) can
+  verify at the **computation** level — the numbers reproduce exactly — yet be wrong at the **interpretation** level:
+  the causal/structural claim attached to the numbers. The "chirality shifts the eigenvalue arithmetic" claim survived
+  **three** times because it is numerically real and interpretively false (it passes every "does it reproduce" test).
+  **The guard:** for any claim of the form "property X causes effect Y," run the **CONTROL that varies X while holding
+  the confounds fixed** (here: achiral-vs-chiral words at fixed quantum-group inputs / fixed R,L multiset — which showed
+  achiral words alone span all three fields, so the field tracks word-composition, not chirality). Banking on
+  reproduction alone, without the control, is the lazy-revival failure mode at one remove.
 - Tests that need SnapPy **skip** (via `pytest.importorskip`) when it is absent, so the suite stays green without it;
   the verified constants are also recorded in-probe and tested unconditionally.
 

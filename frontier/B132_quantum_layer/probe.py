@@ -1,17 +1,27 @@
-"""B132 -- the quantum layer: eigenvalue field-fusion, the chirality-arithmetic connection, and the quantum
-selection criteria of the metallic once-punctured-torus bundles.
+"""B132 -- the quantum layer: SU(2)_k eigenvalue field content, the quantum selection criteria, and the Lee-Yang
+bridge of the metallic once-punctured-torus bundles. [CORRECTED by B133, see CORRECTION below.]
 
-Internalizes a cross-session "Chat-1" handoff (10 results), re-derived in-sandbox (verify-don't-trust). The handoff was
-built on a STALE snapshot (pre-B130/B131); its numbering and one "open" item collide with merged work -- reconciled
-here (see RECONCILIATION below). The genuinely NEW content is a whole QUANTUM layer on top of the classical
-character-variety results (B127-B131): the SU(2)_k Witten-Reshetikhin-Turaev data Z_k of the bundles.
+Internalizes a cross-session "Chat-1" handoff (10 results), re-derived in-sandbox (verify-don't-trust). The genuinely
+NEW content is a QUANTUM layer on top of the classical character-variety results (B127-B131): the SU(2)_k
+Witten-Reshetikhin-Turaev data Z_k of the bundles.
 
-ONE-LINE RESULT. CHIRALITY SHIFTS THE EIGENVALUE ARITHMETIC. At the saturation level k=4, the SU(2)_k eigenvalue
-spectrum of an achiral metallic composition sits in Q(sqrt-3) (golden); a chiral / cross-seed composition FUSES to
-Q(zeta12) = Q(sqrt-3, i) and its partition function VANISHES. The figure-eight (m=1) is the unique perfectly coherent
-seed (|Z_k|=1 at every level; Z_{k=4}=omega = the trace-field generator). The non-cancellation principle SELECTS the
-achiral (symmetric) vacuum: chiral states are more fragile (vanish at more levels). The native physics is the Lee-Yang
-edge (the sigma_3 Galois conjugate, d_tau=-1/phi), not the Standard Model.
+ONE-LINE RESULT. The SU(2)_k eigenvalue FIELD CONTENT is QUANTUM-GROUP arithmetic -- controlled by the word's
+spin-content mod 4 (the T-matrix twist exp(.pi i/4)), present in ACHIRAL and CHIRAL words ALIKE. The figure-eight (m=1)
+is the unique perfectly coherent seed (|Z_k|=1 at every level; Z_{k=4}=omega = the trace-field generator). The native
+physics is the Lee-Yang edge (the sigma_3 Galois conjugate, d_tau=-1/phi), not the Standard Model.
+
+  ============================================================================================================
+  CORRECTION (B133/V122) -- the original B132 HEADLINE was a sampling artifact, now WITHDRAWN:
+    The original claim "CHIRALITY shifts the eigenvalue arithmetic (achiral->Q(sqrt-3), chiral->Q(zeta12))" is FALSE.
+    The eigenvalue ORDERS are correct; their ATTRIBUTION to chirality is the artifact. The decisive CONTROL (run
+    in-sandbox, is_amphicheiral-verified): ACHIRAL words ALONE span ALL THREE fields -- RRLL->Q(zeta12),
+    RRRLLL->Q(sqrt-3), RLRLRL->Q(rational). And the k=4 VANISHING is also NOT chirality (achiral RRLRLL, RLRRLL
+    vanish at k=4). The field + the vanishing track WORD COMPOSITION (quantum-group, m mod 4), not chirality, not the
+    manifold; classical trace fields stay disjoint (Q(sqrt-3) cap Q(i) = Q). Tombstone K-H; method note MB6
+    ("reproduction is not interpretation -- run the control"). The earlier S5 "chiral fragility / non-cancellation
+    selects the symmetric vacuum" reading is likewise WITHDRAWN (confounded with word length; no control existed).
+    WHAT STANDS: S1c (m mod 4 field, below), S1a/S3a/S2 (single-seed m=1 facts), S8 (Lee-Yang), P009, S9-quarantine.
+  ============================================================================================================
 
 MATH and physics in DIFFERENT tiers. Nothing to CLAIMS.md; P1-P16, the functorial Sym(W)->trace-ring wall (B85),
 S031, and the merged B124-B131 untouched.
@@ -33,17 +43,18 @@ S031, and the merged B124-B131 untouched.
   VERIFIED RESULTS (this probe):
     S1c  field-fusion (m=1..7 at k=4): m=1 {6,6,6,2,2} pure Q(sqrt-3); m=2 {6,4,4,2,2} FUSED Q(zeta12);
          m ≡ 2 mod 4 carries the order-4 (Q(i)) content (m=2,6); others Q(sqrt-3). [quantum-group SU(2)_4, m mod 8]
-    S7   THE CHIRALITY-ARITHMETIC CONNECTION (k=4): same-seed (RLRL, silverxsilver) -> Q(sqrt-3) (pure/defused);
-         cross-seed (fig8xsilver) & CHIRAL triple (1,2,3) -> Q(zeta12) FUSED and |Z|=0 (VANISH); achiral (1,2,1)
-         -> Q(sqrt-3). Breaking chirality shifts the arithmetic Q(sqrt-3) -> Q(i). NOT word-length driven.
+    S7   [WITHDRAWN by B133] field content by word COMPOSITION (k=4), NOT chirality: ACHIRAL words alone span all
+         three fields (RRLL->Q(zeta12), RRRLLL->Q(sqrt-3), RLRLRL->Q). The original "chirality shifts the arithmetic"
+         reading is a sampling artifact (chirality was confounded with spin-content mod 4). Tombstone K-H.
     S1a  Z_{k=4}(M_1) = omega = e^{2 pi i/3} (the trace-field generator) -- a self-referential loop, m=1-specific.
     S3a  PURE PHASE |Z_k|=1 at every non-vanishing k is m=1-UNIQUE (the strongest m=1 selection criterion).
     S2   VANISHING PERIOD = |O_K^x|/2 for ARITHMETIC m: m=1 (Q(sqrt-3)) period 3 = 6/2; m=2 (Q(i)) period 2 = 4/2;
          non-arithmetic m=3,4 IRREGULAR. The vanishing is controlled by the unit group of the trace field.
     S4   exactly TWO quantum scales, selected by m mod 4: first non-vanishing k=1 (hbar=2pi/3) for m !≡ 2 mod 4,
          k=2 (hbar=pi/2) for m ≡ 2 mod 4.
-    S5   chiral FRAGILITY: the chiral (1,2,3) vanishes at more levels than its achiral sibling; non-cancellation
-         selects the symmetric (achiral) vacuum. [persistence hierarchy: m=1 achiral > achiral comps > chiral comps]
+    S5   [WITHDRAWN by B133] partition-function VANISHING is word-composition, NOT chirality: ACHIRAL words RRLRLL,
+         RLRRLL vanish at k=4 too; the (1,2,3)-vs-(1,2,1) difference was confounded with word length (no control).
+         The "chiral fragility / non-cancellation selects the symmetric vacuum" reading is withdrawn.
     S6   silver (RRLL, 1-cusp, CS=0, achiral) and L5a1 (2-cusp, CS=-0.125, CHIRAL) share volume 3.6639, not
          isometric -- same commensurability class; the 2-cusped member broke the achiral symmetry. [SnapPy]
     S8   the Lee-Yang bridge: at k=3 (N=5) the sigma_3 Galois conjugate (q->q^3) sends d_tau = +phi (Fibonacci,
@@ -98,6 +109,7 @@ def _orders(rep):
 
 
 def _field(orders):
+    # order 3/6 -> Q(sqrt-3); order 4 -> Q(i); both -> Q(zeta12); only order 1/2 (=+-1) -> Q rational.
     s = {o for o in orders if o}
     has6 = any(o in (3, 6) for o in s)
     has4 = any(o == 4 for o in s)
@@ -105,7 +117,9 @@ def _field(orders):
         return "Q(zeta12)"
     if has4:
         return "Q(i)"
-    return "Q(sqrt-3)"
+    if has6:
+        return "Q(sqrt-3)"
+    return "Q (rational)"
 
 
 # ----------------------------------------------------------------------------------------------------------------
@@ -120,19 +134,32 @@ def field_fusion(mmax=7, k=4):
 
 
 # ----------------------------------------------------------------------------------------------------------------
-# S7 -- the chirality-arithmetic connection (compositions at k=4).
+# S7 [CORRECTED, B133] -- the field content is QUANTUM-GROUP arithmetic (word composition mod 4), NOT chirality.
+#   The control: ACHIRAL words alone span ALL THREE fields, and achiral words vanish at k=4 -- so neither the field
+#   nor the vanishing tracks chirality. (Each word below is ACHIRAL per is_amphicheiral; see chirality_control().)
 # ----------------------------------------------------------------------------------------------------------------
-def chirality_arithmetic(k=4):
-    cases = [("RL", [1], "fig8"), ("RRLL", [2], "silver"), ("RLRL", [1, 1], "fig8xfig8 (same)"),
-             ("RLRRLL", [1, 2], "fig8xsilver (cross)"), ("RRLLRRLL", [2, 2], "silverxsilver (same)"),
-             (None, [1, 2, 1], "(1,2,1) achiral"), (None, [1, 2, 3], "(1,2,3) chiral")]
+def field_content_by_composition(k=4):
+    # all-achiral control: same R,L multiset / different composition -> the field ranges over all three.
+    words = [("RRLL", "achiral"), ("RRLRLL", "achiral"), ("RRRLLL", "achiral"),
+             ("RLRLRL", "achiral"), ("RLRRLL", "achiral")]
     out = []
-    for w, seq, label in cases:
-        word = w if w is not None else _seq_word(seq)
+    for word, chir in words:
         rep = _rho_word(word, k)
-        out.append({"label": label, "word": word, "orders": _orders(rep),
+        out.append({"word": word, "chirality": chir, "orders": _orders(rep),
                     "field": _field(_orders(rep)), "absZ": round(abs(np.trace(rep)), 3)})
     return out
+
+
+def chirality_control():
+    """The decisive control (B133): among ACHIRAL words alone the field spans all three -> chirality is NOT the cause.
+    Chirality labels are the is_amphicheiral verdicts (validated convention, recorded; SnapPy-checked in-sandbox)."""
+    achiral_fields = {r["field"] for r in field_content_by_composition()}
+    achiral_vanish_at_k4 = [r["word"] for r in field_content_by_composition() if r["absZ"] == 0.0]
+    return {"achiral_words_span_fields": sorted(achiral_fields),
+            "chirality_determines_field": len(achiral_fields) == 1,   # FALSE -> withdrawn headline
+            "achiral_words_vanishing_at_k4": achiral_vanish_at_k4,
+            "vanishing_tracks_chirality": False,                       # achiral words vanish too
+            "note": "field + vanishing are word-composition (quantum-group, m mod 4), NOT chirality. K-H tombstoned."}
 
 
 # ----------------------------------------------------------------------------------------------------------------
@@ -185,17 +212,17 @@ def two_scales(mmax=12):
 
 
 # ----------------------------------------------------------------------------------------------------------------
-# S5 -- chiral fragility (the non-cancellation persistence hierarchy).
+# S5 [CORRECTED, B133] -- partition-function vanishing is WORD-COMPOSITION, not chirality.
+#   The earlier "chiral more fragile / chiral vanishes at k=4" reading is WITHDRAWN: ACHIRAL words vanish at k=4
+#   too (RRLRLL, RLRRLL), and the (1,2,3)-vs-(1,2,1) difference was confounded with word length. No control existed.
 # ----------------------------------------------------------------------------------------------------------------
-def chiral_fragility(kmax=11):
-    def van_levels(seq):
-        w = _seq_word(seq)
+def vanishing_is_composition_not_chirality(kmax=11):
+    def van(w):
         return [k for k in range(1, kmax + 1) if abs(np.trace(_rho_word(w, k))) < 1e-7]
-    chiral = van_levels([1, 2, 3])
-    achiral = van_levels([1, 2, 1])
-    return {"chiral_123_vanish": chiral, "achiral_121_vanish": achiral,
-            "chiral_more_fragile": len(chiral) > len(achiral),
-            "chiral_vanishes_at_k4": 4 in chiral}
+    achiral_vanishers = [w for w in ("RRLRLL", "RLRRLL") if 4 in van(w)]   # achiral, yet vanish at k=4
+    return {"achiral_words_vanishing_at_k4": achiral_vanishers,
+            "chirality_explains_vanishing": False,
+            "note": "vanishing levels are word-composition-dependent; the chiral-fragility/SSB reading is withdrawn."}
 
 
 # ----------------------------------------------------------------------------------------------------------------
@@ -220,10 +247,10 @@ def main():
     for m, r in field_fusion().items():
         print(f"    m={m}: orders {r['orders']} -> {r['field']}{'  FUSED' if r['fused'] else ''}")
 
-    print("\n[S7 the chirality-arithmetic connection at k=4]")
-    for r in chirality_arithmetic():
-        print(f"    {r['label']:22} {r['field']:11} |Z|={r['absZ']:.3f}  orders {r['orders']}")
-    print("    => achiral/same-seed -> Q(sqrt-3); chiral/cross-seed -> Q(zeta12) FUSED and VANISHES (|Z|=0).")
+    print("\n[S7 CORRECTED -- field content is QUANTUM-GROUP (word composition), NOT chirality (B133)]")
+    for r in field_content_by_composition():
+        print(f"    {r['word']:10} [{r['chirality']}]  {r['field']:13} |Z|={r['absZ']:.3f}  orders {r['orders']}")
+    print("    control:", chirality_control())
 
     print("\n[S1a self-referential loop]", self_referential_loop())
     print("[S3a pure phase |Z|=1 m=1-unique]", {m: r["all_unit_modulus"] for m, r in pure_phase().items()})
@@ -232,9 +259,9 @@ def main():
           (vanishing_period()["m1_period3_eq_6over2"], vanishing_period()["m2_period2_eq_4over2"],
            vanishing_period()["nonarith_irregular"]))
     print("[S4 two scales by m mod 4]", two_scales()["two_scales_by_m_mod_4"], two_scales()["first_nonvanishing_k"])
-    print("[S5 chiral fragility]", chiral_fragility())
+    print("[S5 CORRECTED -- vanishing is composition not chirality]", vanishing_is_composition_not_chirality())
     print("[S8 Lee-Yang]", lee_yang())
-    print("\nChirality shifts the eigenvalue arithmetic; the achiral (symmetric) vacuum is the most persistent.")
+    print("\n[CORRECTED B133] field content + vanishing are QUANTUM-GROUP (word composition mod 4), NOT chirality.")
     print("Native physics = Lee-Yang edge (S030). MATH tier; physics POSTULATED. Companion to B131 (classical fork).")
 
 

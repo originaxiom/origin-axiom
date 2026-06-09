@@ -1,17 +1,22 @@
-# B132 — the quantum layer: eigenvalue field-fusion, chirality-arithmetic, quantum selection criteria
+# B132 — the quantum layer: SU(2)_k field content, quantum selection criteria, Lee–Yang (CORRECTED by B133)
 
 Internalizes a cross-session "Chat-1" handoff (verify-don't-trust, in-sandbox). The genuinely new content is the
 **quantum layer** on the metallic once-punctured-torus bundles: the SU(2)_k WRT data `Z_k`.
 
-**One-line:** **chirality shifts the eigenvalue arithmetic** — at k=4, achiral compositions sit in **ℚ(√−3)**;
-chiral/cross-seed compositions **fuse to ℚ(ζ₁₂) and vanish** (`|Z|=0`). The figure-eight (m=1) is the unique perfectly
-coherent seed (`|Z_k|=1`; `Z_{k=4}=ω`).
+> **⚠ CORRECTION (B133):** the original headline "chirality shifts the eigenvalue arithmetic" is **withdrawn** — a
+> sampling artifact. The field content is **quantum-group arithmetic** (word spin-content mod 4), present in achiral
+> words too (control: achiral `RRLL`→ℚ(ζ₁₂), `RRRLLL`→ℚ(√−3), `RLRLRL`→ℚ span all three). S7 + S5 withdrawn; tombstone
+> `K-H`, guard `MB6`. See `knowledge/K015`.
+
+**One-line (corrected):** the SU(2)_k eigenvalue **field content is quantum-group arithmetic** (word composition mod 4),
+**not** chirality. The robust facts are single-seed: the figure-eight (m=1) is the unique perfectly coherent seed
+(`|Z_k|=1`; `Z_{k=4}=ω`), vanishing period `=|O_K^×|/2`, two scales by m mod 4; plus the Lee–Yang σ₃ bridge.
 
 `probe.py` verifies (validated convention: `R=T`, `L=STS⁻¹`, framing-free `T`; eigenvalue-order method, exact):
-- **S1c** field-fusion m=1..7 (m≡2 mod 4 → ℚ(i) content); **S7** the chirality-arithmetic connection
-  (achiral→ℚ(√−3), chiral/cross-seed→ℚ(ζ₁₂) + vanish); **S1a** `Z_{k=4}(M_1)=ω`; **S3a** pure-phase m=1-unique;
-  **S2** vanishing period `=|O_K^×|/2` (m=1→3, m=2→2, non-arith irregular); **S4** two scales by m mod 4;
-  **S5** chiral fragility; **S6** silver↔L5a1 commensurability; **S8** the Lee–Yang σ₃ (`d_τ=−1/φ`).
+- **S1c** field content m=1..7 (m≡2 mod 4 → ℚ(i) content — quantum-group, m mod 4); **S7 [corrected]** the control —
+  achiral words span all three fields (field is composition, not chirality); **S1a** `Z_{k=4}(M_1)=ω`; **S3a**
+  pure-phase m=1-unique; **S2** vanishing period `=|O_K^×|/2` (m=1→3, m=2→2, non-arith irregular); **S4** two scales by
+  m mod 4; **S5 [corrected]** vanishing is composition not chirality; **S6** silver↔L5a1; **S8** the Lee–Yang σ₃.
 - **Quarantined:** S9 (RRL κ-degree=3) did **not** reproduce (got 1/2, not 3) — not banked.
 
 ```
