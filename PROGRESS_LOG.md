@@ -3540,5 +3540,30 @@ Ledger **V130**. `frontier/B141_s031_split/` + `tests/test_b141_s031_split.py` (
 
 ---
 
+## 2026-06-09 — B142: (A) S031a principal RIGOROUS (Klein-4); (B) magic-manifold cartography + MB10; (C) inventory (V131)
+
+Three independent subtractive items. **Sage 10.9 + SnapPy-in-Sage + Ptolemy + Singular installed** (`~/.local/bin/sage-python`),
+so the Sage-gated computations now run; the relevant parts were exercised here.
+
+- **Item A — RIGOROUS (upgrades B141 Item-4 principal from conjecture).** The principal φ-fixed stratum is reducible
+  by a one-line proof: principal eigenvalues `{1,−1,−1}` ⟹ `A²=I`; the φ-fixed necessary condition `A~B~AB` makes
+  `B`,`AB` involutions; two involutions whose product is an involution **commute** (`(AB)²=I ⟹ BAB=A ⟹ BA=AB`) ⟹
+  Klein-4 (abelian) ⟹ **reducible**. No search; reconfirmed 78/78. Full SL(3) locus (all strata, n≥4) stays CONJECTURE.
+- **Item B — CARTOGRAPHY (firewall-confirming, NOT a result/crossing).** The "Borromean/SU(3) gauge enhancement" claim
+  dies three ways: (B.1) **misidentified** — `s776` = the magic manifold (`6³₁`, ℚ(√−7), 3-chain link, **not**
+  Brunnian); the real Borromean rings = `L6a4` (ℚ(i)); `is_isometric_to`=False; (B.2) **structure ≠ gauge (MB10)** —
+  Thurston SL(2,ℂ) char-variety dim = #cusps = **3** not 2 (generic; MB8 null control across sym 8/12/48), and SL(2,ℂ)
+  dim ≠ rank(SU(3)) — SU(3) is **SL(3,ℂ)** CS (s776 SL(3,ℂ) Ptolemy: 14 obstruction classes, dim 6); (B.3) **outside
+  the forced chain** — trace field not ℚ(√−3). Banked as tombstone **K-I** + guard **MB10**. Trace fields confirmed via
+  the new Sage `find_field` (s776 `x²−x+2`, L6a4 `x²+1`, 4₁ `x²−x+1`).
+- **Item C — inventory** in `docs/OPEN_LEADS.md` ("Standing open threads"): S031a full-locus (symbolic elimination, the
+  rigorous prize, = SL(4) machinery), B85, S032-A, S033 (now tied to MB10), K011 GHH-iff, genus-2 CS.
+
+MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B141 untouched; B129/B141 preserved. Ledger **V131**.
+`frontier/B142_klein4_and_magic_cartography/` + `tests/test_b142_klein4_and_magic_cartography.py` (5 passed + 1 sage-skip
+under pyenv; 6 under Sage).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

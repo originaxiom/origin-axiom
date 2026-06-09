@@ -197,3 +197,26 @@ discipline, applied to its own banked work: the B132 headline was numerically re
   computation level (numbers reproduce) yet be wrong at the interpretation level (the causal attribution). For any
   "property X causes effect Y," run the **CONTROL** that varies X while holding the confounds fixed (here: achiral-vs-
   chiral at fixed quantum-group inputs / fixed R,L multiset). Sibling of `K-G` (the revival mode), one remove out.
+
+- **K-I — "the Borromean rings (`s776`) show SU(3) gauge enhancement (S₃-invariant SL(2,ℂ) character variety of complex
+  dim 2 = rank SU(3))" — DEAD, three independent kills (firewall-confirming).** A sibling computation read a "dim 2 =
+  rank SU(3)" coincidence + Weyl-symmetric `κ`'s as non-abelian gauge enhancement. It fails: **(1) misidentified
+  manifold** — `s776` is the **magic manifold** (`L6a5 = 6³₁`, vol 5.33349, trace field **ℚ(√−7)**, the **3-chain
+  link**, components pairwise linked, **not Brunnian**); the **actual Borromean rings** = `L6a4 = 6³₂` (vol 7.32772,
+  trace field **ℚ(i)**), and `is_isometric_to` = **False** — so the "Brunnian triple-linking / Massey product reduces
+  dim 3→2" mechanism is attached to a manifold with none of those properties. **(2) structure ≠ gauge (`MB10`)** — by
+  Thurston a k-cusped hyperbolic 3-manifold has SL(2,ℂ) character-variety dim **= k** at the geometric rep, so for
+  s776 that is **3**, not 2 ("dim 2" is a symmetry slice; generic across 3-cusped manifolds of differing symmetry,
+  verified); and SL(2,ℂ) dim ≠ rank(SU(3)) — SU(3) gauge content is **SL(3,ℂ)** Chern–Simons (`T₃[M]`: s776's SL(3,ℂ)
+  Ptolemy variety has 14 obstruction classes, geometric dim 6), not an SL(2,ℂ) dim/rank coincidence; the `κ₁₂=κ₂₃=κ₁₃`
+  equality is the S₃ cusp symmetry restated (automatic), not independent evidence. **(3) outside the forced chain** —
+  trace field ℚ(√−7) (or ℚ(i)), **not ℚ(√−3)**: not the figure-eight / metallic family / forced by the axioms, so not
+  a crossing of the firewall. Kill: B142 (SnapPy + Sage, in-sandbox). **Firewall-confirming:** richness lives *off* the
+  forced chain (a symmetric manifold the axioms don't generate); the forced chain stays tame (same lesson as B141's
+  finiteness/density split). Sibling of the B139/B140 cartography.
+
+  *Method note (`MB10`, see `../REPRODUCIBILITY.md`):* **structure-group invariants ≠ gauge-group rank.** The dimension
+  of an SL(2,ℂ) character variety does not establish SU(N) gauge content — an SU(N) reading needs the **SL(N,ℂ)**
+  Chern–Simons data (`T_N[M]`), not a numerical dim/rank coincidence on the SL(2,ℂ) side. Extends `MB9` (group ≠
+  gauge). The genuine non-abelian-enhancement question is therefore a separate, SL(N,ℂ)-level thread (S033-adjacent),
+  clearly outside the forced chain.
