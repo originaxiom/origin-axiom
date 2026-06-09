@@ -3618,5 +3618,27 @@ OPEN_LEADS updated. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged
 
 ---
 
+## 2026-06-09 — B145: Campaign 1′ — chirality cannot be forced (canonicity ⟺ self-mirror); parity is contingent (V134)
+
+B144's redirect asked whether a chirally-asymmetric input can be **forced**. Answer: **no** — and this closes the
+chirality axis. **Framing (GHH/B128):** `b++W` amphichiral ⟺ `W` anti-palindromic (= palindromic continued-fraction
+period); the metallic `RᵐLᵐ` (canonical/arithmetic) family is **exactly** the self-mirror family.
+
+- **Catalog (n=39 o-p-t bundles, len ≤ 7):** GHH ⟺ SnapPy `is_amphicheiral` on **all 39**; minimal-volume bundle =
+  figure-eight `RL` (amphichiral), minimal chiral `RRL` strictly larger; trace-field degrees amphichiral ∈ {2,8},
+  chiral ∈ {4,6,8,12} — **every quadratic (arithmetic) trace field is amphichiral; no arithmetic chiral o-p-t bundle**;
+  simplest substitution (Fibonacci → `RL`) self-mirror.
+- **Verdict (MATH):** canonicity (minimal volume / arithmeticity / simplest substitution / palindromic period)
+  **coincides with the self-mirror (amphichiral) condition**; chirality requires leaving the canonical locus.
+- **Aspiration (POSTULATED):** **preferred handedness (parity) is irreducibly contingent** — *forced ⟹ self-mirror ⟹
+  no parity*. The deepest firewall statement; parity lives strictly on the contingent side. **Not a K-A revival**
+  (opposite conclusion — chirality is non-canonical).
+
+New knowledge **K017**; `STRATEGIC_SYNTHESIS`, S032, OPEN_LEADS updated (Campaign 1′ resolved; 1″ residue). MATH tier;
+nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B144 untouched; K-A not revived. Ledger **V134**.
+`frontier/B145_forced_chirality/` + `tests/test_b145_forced_chirality.py` (4 passed).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

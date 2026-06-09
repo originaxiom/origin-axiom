@@ -1,9 +1,9 @@
-# `knowledge/` — index of explainers `K001–K016`
+# `knowledge/` — index of explainers `K001–K017`
 
-> **All written (K001–K016).** Each is a self-contained explainer — standard material cited to the literature, the
+> **All written (K001–K017).** Each is a self-contained explainer — standard material cited to the literature, the
 > project's own use cited to `B`/`V` numbers, no new claims. The layer is complete as of the B124 documentation
-> refresh (K011 at B128, K012 at B129, K013 at B130, K014 at B131, K015/K016 at B132); this index is the contract for
-> what each covers.
+> refresh (K011 at B128, K012 at B129, K013 at B130, K014 at B131, K015/K016 at B132, K017 at B145); this index is the
+> contract for what each covers.
 
 | ID | title | scope (what it explains) | anchors |
 |---|---|---|---|
@@ -23,6 +23,8 @@
 | **K014** ✓ | [Choice from heterogeneity: gluing distinct seeds discretizes the invariant](K014_choice_from_heterogeneity.md) | the companion to K013 — gluing two bundles matches their A-polynomial curves; **distinct seeds → distinct curves → discrete fork** ((1,2): `κ∈{−4,−2}` exact), **same seed → continuum**; it is *heterogeneity*, not multiplicity, that makes a choice; minimal multiplicity = two distinct seeds; choice enters only with interaction of *different* units | B130, B131, B67, B69; A-polynomials, torus gluings |
 | **K015** ✓ | [The SU(2)_k eigenvalue field content is quantum-group arithmetic (word composition mod 4)](K015_chirality_arithmetic_field_fusion.md) | the SU(2)_k WRT data `Z_k`; the eigenvalue-order method; the field content is the **quantum-group twist (spin-content mod 4)**, present in achiral & chiral words alike — **NOT chirality** (corrected B133: the "chirality shifts the arithmetic" headline was a sampling artifact, withdrawn; control = achiral words span all three fields); classical trace fields disjoint | B132, **B133** (correction); SU(2)_k modular data |
 | **K016** ✓ | [The m=1 selection criteria, consolidated](K016_m1_selection_criteria.md) | the ways the figure-eight is distinguished — systole, expansion `λ<2`, arithmeticity (a {m=1,m=2} selector), **pure phase `|Z_k|=1` (new)**, **self-loop `Z_{k=4}=ω` (new)**, κ-degree=1 on the geometric component ({m=1,m=2}); the unverified RRL-κ-degree refutation quarantined | B107, B125, B127, B126, B132; `K009` |
+
+| **K017** ✓ | [Chirality is contingent: the canonical o-p-t family is the self-mirror family](K017_chirality_is_contingent.md) | Campaign 1′ — a once-punctured-torus bundle is amphichiral ⟺ its monodromy is **anti-palindromic** (GHH); the metallic `RᵐLᵐ` (canonical/arithmetic) family is **exactly** the self-mirror family. Catalog (n=39): minimal-volume bundle = figure-eight = amphichiral, minimal chiral strictly larger; **every quadratic (arithmetic) trace field is amphichiral** (no arithmetic chiral o-p-t bundle). **Canonicity ⟺ self-mirror** ⟹ chirality cannot be forced; **preferred handedness (parity) is irreducibly contingent** (POSTULATED). Not a K-A revival (opposite conclusion) | B145/V134, B144, B128/B136, `K011`; GHH 2008, Bowditch–Maclachlan–Reid |
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.

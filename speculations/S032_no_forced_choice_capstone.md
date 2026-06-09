@@ -70,6 +70,12 @@ seed-heterogeneity gives **no preferred handedness**: the firewall extends from 
 the second. The only route to preferred handedness is **breaking the construction's `R↔L` mirror symmetry** (a
 chirally-asymmetric input, not more seeds; `../docs/OPEN_LEADS.md` Campaign 1′). See `../frontier/B144_interaction_chirality/`.
 
+**And that input cannot be forced (B145/`K017`).** Canonicity (minimal volume / arithmeticity / simplest substitution /
+palindromic period) **coincides with the self-mirror (amphichiral) condition** — the canonical o-p-t family *is* the
+metallic `RᵐLᵐ` (self-mirror) family; no arithmetic chiral o-p-t bundle exists (catalog n=39). So **preferred
+handedness (parity) is irreducibly contingent**: *forced ⟹ self-mirror ⟹ no parity*. This closes the chirality axis —
+parity lives strictly on the contingent side, the deepest statement of the firewall. See `../frontier/B145_forced_chirality/`.
+
 ## Why this matters (the framing it sharpens)
 
 B130's reading is that single-seed self-reference produces a **moduli space** (continuous κ × discrete seed-label), and
