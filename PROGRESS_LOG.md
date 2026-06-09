@@ -3640,5 +3640,35 @@ nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B144 untouched; K-A not
 
 ---
 
+## 2026-06-09 — B146: B145 scrutiny calibration — tighten the conclusion, the dichotomy, the refuted arithmetic arm (V135)
+
+A scrutiny pass (independently reproduced) found B145 **sound but over-scoped**; this calibrates it. MATH tier; K-A
+stays dead.
+
+- **Part A (verified):** the four axioms **permit** chirality (`RRL/RLL` det-1 Pisot **chiral**) — amphichirality is
+  forced by the metallic minimality criterion (`b→a`), so bare-math = "metallic ⟹ self-mirror," not "forced ⟹
+  self-mirror" (A1); "no single **canonical** object is chiral," not "chirality can't be forced" (A2); the
+  **two-mechanism** statement replaces the slogan (A3); symmetric ⟹ amphichiral is **sufficient, not necessary**
+  (`RRLLRL`, A4).
+- **A5 (the catch):** B145's arithmeticity arm is **refuted as stated** — it used the *non-invariant* trace field;
+  with the **invariant** trace field the imaginary-quadratic o-p-t bundles are `RL=ℚ(√−3), RRLL=ℚ(i)` (amphichiral) **and
+  `RRL/RLL=ℚ(√−7)` (CHIRAL)**. So the surviving canonical⟹self-mirror rests on the near-tautological volume/palindromic
+  arms, not arithmeticity.
+- **B1 (the dichotomy):** `M` and `M̄` agree on every orientation-*independent* invariant (verified RRL/RLL/RRRL: equal
+  vol/`H₁`/trace-field, CS flips) ⟹ **no canonical selection can prefer a handedness**; this **derives** the κ/chirality
+  asymmetry (κ-fork genuine — κ orientation-independent; chirality-fork convention — handedness orientation-sensitive).
+  Not a K-A revival.
+- **B2 (open → B147):** is the chiral pair `RRL/RLL` (ℚ(√−7)) **fully arithmetic** (integral traces, Maclachlan–Reid;
+  BMR finiteness = route to a theorem)? If yes, "no arithmetic chiral o-p-t bundle" is outright false.
+- **Housekeeping:** stripped per-chat AI labels from the living/governing docs (generic "AI-assisted" is fine) +
+  extended `test_public_surface_scan.py` (`test_no_ai_labels_in_living_docs`); append-only history flagged as a
+  scheduled scrub.
+
+`K017` rewritten; `STRATEGIC_SYNTHESIS`/`OPEN_LEADS` synced. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged
+B124–B145 untouched; K-A not revived. Ledger **V135**. `frontier/B146_b145_calibration/` +
+`tests/test_b146_b145_calibration.py` (2 passed + 1 sage-skip; guard green).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

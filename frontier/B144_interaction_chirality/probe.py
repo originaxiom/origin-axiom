@@ -111,7 +111,7 @@ def pieces_are_amphichiral():
 
 
 def regina_build_attempt():
-    """Best-effort: build ONE closed cusp-glued composite in Regina and test chirality (Chat-2's one-instance gate).
+    """Best-effort: build ONE closed cusp-glued composite in Regina and test chirality (the one-instance gate).
 
     Honest about the obstruction: gluing two distinct boundary tori by a chosen phi requires matching their boundary
     triangulations, which Regina does not do in one call; we report what is reachable and record the obstruction if
@@ -155,7 +155,7 @@ def main():
     pa = pieces_are_amphichiral()
     print(f"    {pa.get('amphichiral', pa.get('recorded'))}  all amphichiral: {pa.get('all_amphichiral', True)}")
 
-    print("\n[Phase 1 -- Regina one-instance build attempt (Chat-2's gate)]")
+    print("\n[Phase 1 -- Regina one-instance build attempt (the gate)]")
     rb = regina_build_attempt()
     for k, v in rb.items():
         print(f"    {k}: {v}")

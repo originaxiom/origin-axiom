@@ -32,7 +32,7 @@ both True), so an orientation-reversing `h_i` exists and the identity applies; a
 (for generic `φ`, `φ ≠ h₂φh₁⁻¹`, so `M ≇⁺ M̄`) — chiral JSJ composites *exist*, extending B128 to the new category, but
 their mirror is always in the family (no preferred side).
 
-## The one-instance gate (Chat-2's verify-don't-trust) — honest obstruction
+## The one-instance gate (a verify-don't-trust) — honest obstruction
 
 Attempting the explicit closed composite in Regina: each piece truncates (`idealToFinite`) to a single boundary torus
 (constructible), but **identifying the two boundary tori by a specified `φ` is not a single Regina call** (the boundary

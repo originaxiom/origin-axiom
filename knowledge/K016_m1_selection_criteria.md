@@ -35,7 +35,7 @@ The metallic once-punctured-torus bundles `M_m = R^m L^m` (`K002`/`K004`) form a
 
 6. **κ rational on the geometric component (`κ-degree = 1`).** Over ℚ(z) on the geometric component of the bundle
    character variety, `κ = tr[a,b]` is rational (degree 1) for `m=1,2` and acquires higher degree for `m≥3`. (B126;
-   the κ-degree sequence `[1,1,3,3,7,6]`.) *(Scope note: a Chat-1 claim that the non-metallic `RRL` (ℚ(√−7)) bundle has
+   the κ-degree sequence `[1,1,3,3,7,6]`.) *(Scope note: an AI-assisted claim that the non-metallic `RRL` (ℚ(√−7)) bundle has
    κ-degree 3 — purportedly refuting "κ-degree=1 ⟺ arithmetic" — did **not** reproduce (B132 found degree 1 or 2,
    convention-dependent) and is **not** banked; the criterion as stated for the metallic family stands.)*
 

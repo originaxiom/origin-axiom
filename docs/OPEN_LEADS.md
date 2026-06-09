@@ -4,7 +4,7 @@ A registry of **open leads**: directions named but not yet run, ranked by value 
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a
 candidate for a future frontier stage; banking one means *deciding to run it*, not asserting it.
 
-Provenance: the bulk of this catalog was extracted from the **CHAT-1 LEADS REGISTER** (a cross-session triage of
+Provenance: the bulk of this catalog was extracted from an **AI-assisted leads register** (a cross-session triage of
 ~23 quantum-layer threads). Only the **non-duplicate, non-stale** leads are carried here; the cross-check against
 the repo is recorded in the "disposition" column so duplicates are not re-run and withdrawn items are not revived.
 
@@ -14,7 +14,7 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
   `WITHDRAWN` (refuted/stale — do not revive, see tombstone/correction).
 - **Value:** subjective ranking of payoff if it closes (`★★★` = a real generalization / theorem; `★★` = a useful
   extension; `★` = a probe).
-- A lead going `OPEN → frontier stage` should cite its CHAT-1 `L#` tag for traceability.
+- A lead going `OPEN → frontier stage` should cite its source `L#` tag for traceability.
 
 ## The catalog
 
@@ -36,23 +36,26 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 
 ## The campaign roadmap (B143 — see `STRATEGIC_SYNTHESIS.md`)
 
-The three-voice strategic synthesis (CC + Chat-1 + Chat-2) is banked in **`STRATEGIC_SYNTHESIS.md`** (two-tier:
-math program / labeled POSTULATED aspiration). It sets the governing roadmap:
+The strategic synthesis is banked in **`STRATEGIC_SYNTHESIS.md`** (two-tier: math program / labeled POSTULATED
+aspiration). It sets the governing roadmap:
 
 - **Campaign 1 — chirality of interactions — RESOLVED (B144).** The invariant-based "chirality-(ii)" target was
   **vacuous** (MB12); the real wall is *preferred vs convention* handedness, and it **holds structurally**: the family
   is **mirror-closed** (`M̄(m1,m2,φ) ≅⁺ M(m1,m2, h₂φh₁⁻¹)`), so seed-heterogeneity gives **no preferred handedness**.
   The firewall extends from single objects to interactions. (Algebraic venue mirror-blind, B143; explicit Regina
   closed-build not in-session-tractable — structural argument carries it.)
-- **Campaign 1′ — can chirality be forced? — RESOLVED (B145): No.** Canonicity (minimal volume / arithmeticity /
-  simplest substitution / palindromic period) **coincides with the self-mirror (amphichiral) condition** (catalog
-  n=39: minimal o-p-t bundle = figure-eight = amphichiral; every quadratic-trace-field bundle amphichiral; **no
-  arithmetic chiral o-p-t bundle**). **Preferred handedness (parity) is irreducibly contingent** — the deepest firewall
-  statement (`../knowledge/K017`; *forced ⟹ self-mirror ⟹ no parity*). Not a K-A revival (opposite conclusion).
-- **Campaign 1″ — a principled non-palindromic input? (the residue, likely contingent).** B145 locates chirality off
-  the arithmetic/palindromic locus. Is there *any* non-arbitrary selection of a non-palindromic input (a canonicity
-  measure whose minimizer is chiral), or is every such choice genuinely contingent? Honest expectation: contingent
-  (the firewall holds). ★ OPEN — the last residue of the chirality axis.
+- **Campaign 1′ — can chirality be forced? — RESOLVED via the dichotomy (B145, calibrated B146).** No single
+  *canonical* object is chiral (figure-eight is the amphichiral minimum; chirality first appears strictly above it),
+  and the **preferred-handedness dichotomy** makes "no preferred handedness" rigorous: M and M̄ agree on every
+  orientation-*independent* invariant, so **no canonical selection can prefer a handedness** (κ-fork genuine — κ
+  orientation-independent; chirality-fork convention — handedness orientation-sensitive; `../knowledge/K017`). **B146
+  catch:** B145's arithmeticity arm is **refuted as stated** (it used the *non-invariant* trace field; with the
+  *invariant* one, `RRL/RLL = ℚ(√−7)` are **chiral** imaginary-quadratic) — so support is the near-tautological
+  volume/palindromic arms + the dichotomy, not arithmeticity. Not a K-A revival.
+- **Campaign 1″ — is the chiral pair `RRL/RLL` (ℚ(√−7)) fully *arithmetic*? (B147, the real arithmetic question).**
+  Imaginary-quadratic invariant trace field is necessary; arithmeticity also needs **integral traces**
+  (Maclachlan–Reid); the Bowditch–Maclachlan–Reid finiteness/classification is the route to a theorem. If `RRL` is
+  arithmetic, "no arithmetic chiral o-p-t bundle" is outright false. ★★ OPEN — the load-bearing arithmetic arm.
 - **Campaign 2 — ground or demote the cusp↔gauge dictionary** (cheap part done: MB11 + the synthesis tiers; heavy part
   = compute `T[M]` for one metallic bundle, optional).
 - **Campaign 3 — S031a full-locus** (symbolic elimination, Singular; when idle).
@@ -70,10 +73,10 @@ The bigger open *prizes/threads* (distinct from the per-lead catalog above), wit
 | **K011 GHH-iff** | optional/pending | promote the Goodman–Heard–Hodgson "iff" from K011's parenthetical to a status line (the chirality recursion's load-bearing dependency). |
 | **Genus-2 CS numeric** (B140 soft spot) | optional, low priority | retriangulate + re-run the genus-2 twister `complex_volume` (it returned None); the orientation-reversal theorem is the load-bearing content. |
 
-## Note on the CHAT-1 doc's §E guard numbering
+## Note on the AI-assisted register's §E guard numbering
 
-The CHAT-1 doc's §E used "MB7" for the *"a generic/necessary feature is not discriminating — check the null
-case"* guard. That **collides** with the repo's existing MB7 (`../REPRODUCIBILITY.md` = "filter the reducible
-locus before counting escapes", B137). The §E guard has therefore been banked as **MB8**, not MB7. (A *second*,
-distinct guard — "a non-abelian *group* is not non-abelian *gauge* content" — is queued in a later handoff and
-will be **MB9**.) See `../REPRODUCIBILITY.md`.
+The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
+null case"* guard. That **collides** with the repo's existing MB7 (`../REPRODUCIBILITY.md` = "filter the reducible
+locus before counting escapes", B137). The §E guard was therefore banked as **MB8**, not MB7. (A *second*,
+distinct guard — "a non-abelian *group* is not non-abelian *gauge* content" — became **MB9**.) See
+`../REPRODUCIBILITY.md`.

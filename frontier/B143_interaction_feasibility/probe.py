@@ -1,6 +1,6 @@
 """B143 -- Campaign-1 feasibility scope: which venue can carry the chirality-of-interactions question?
 
-Strategic synthesis (CC + Chat-1 + Chat-2) picked Campaign 1 = "ask the chirality question OF the glued objects."
+Strategic synthesis (an AI-assisted multi-pass review) picked Campaign 1 = "ask the chirality question OF the glued objects."
 Before committing, scope the GATING question: can we even construct/analyse the object, and in which venue? This probe
 returns a VENUE VERDICT; the actual chirality computation is B144 (planned after this). Verify-don't-trust; MATH tier.
 
@@ -23,7 +23,7 @@ returns a VENUE VERDICT; the actual chirality computation is B144 (planned after
    (A) algebraic: reuses B131 (apoly_relation/fork); great for the kappa-landscape; BLIND to (ii) (above).
    (link) scout: the ideal venue is a 2-cusped HYPERBOLIC realization (stays in SnapPy's wheelhouse, is_amphicheiral
        + CS work) -- but whether the two-seed interaction has such a realization is itself a construction question.
-   (588) verify Chat-1's "588 irreducible reps / S3->Z2 / Massey product": the Massey attribution is DEAD for s776
+   (588) verify an AI-assisted review's "588 irreducible reps / S3->Z2 / Massey product": the Massey attribution is DEAD for s776
        (the 3-chain link is NOT Brunnian; K-I); if it was on the real Borromean rings (L6a4) it is a separate item,
        still subject to MB10 (SL(2,C) dim != SU(3)).
 """
@@ -109,7 +109,7 @@ def topological_venue():
 
 
 # ----------------------------------------------------------------------------------------------------------------
-# (588) verify Chat-1's claim: identify the manifold and the falsifiable part (the Massey attribution).
+# (588) verify an AI-assisted review's claim: identify the manifold and the falsifiable part (the Massey attribution).
 # ----------------------------------------------------------------------------------------------------------------
 def verify_588_claim():
     try:
@@ -146,7 +146,7 @@ def main():
     print("\n[ (T) topological venue ]")
     print("   ", topological_venue())
 
-    print("\n[ (588) Chat-1 claim verification ]")
+    print("\n[ (588) claim verification ]")
     print("   ", verify_588_claim())
 
     print("\nVENUE VERDICT: chirality-(ii) is INVISIBLE to the algebraic trace venue (rigorous, B139/B140); it needs")

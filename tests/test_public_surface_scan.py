@@ -77,3 +77,38 @@ def test_no_raw_transcript_markers_in_public_docs():
             if marker in text:
                 offenders.append(f"{path.relative_to(ROOT)} contains raw transcript marker {marker!r}")
     assert offenders == []
+
+
+# --- no per-chat / model AI labels in the living/governing docs (generic "AI-assisted" phrasing IS allowed) ---
+# Scoped to the cleaned set; the historical backlog (append-only PROGRESS_LOG/CHANGELOG, papers ledger, older
+# FINDINGS) carries legacy attributions and is a separate scheduled scrub — when done, widen this list.
+LIVING_DOC_FILES = [ROOT / "REPRODUCIBILITY.md", ROOT / "docs" / "STRATEGIC_SYNTHESIS.md",
+                    ROOT / "docs" / "OPEN_LEADS.md"]
+LIVING_DOC_DIRS = [ROOT / "knowledge",
+                   ROOT / "frontier" / "B143_interaction_feasibility",
+                   ROOT / "frontier" / "B144_interaction_chirality",
+                   ROOT / "frontier" / "B145_forced_chirality",
+                   ROOT / "frontier" / "B146_b145_calibration"]
+
+# Forbidden specific labels (NOT generic "AI assistant"/"AI-assisted", which are fine).
+AI_LABEL_RE = re.compile(r"Chat[- ]?[12]\b|3-?chat|3-?voice|three[- ]voice|three independent runs|Opus 4|Claude",
+                         re.IGNORECASE)
+
+
+def _iter_living_docs():
+    for f in LIVING_DOC_FILES:
+        if f.is_file():
+            yield f
+    for d in LIVING_DOC_DIRS:
+        if d.is_dir():
+            for pat in ("*.md", "*.py"):
+                yield from d.rglob(pat)
+
+
+def test_no_ai_labels_in_living_docs():
+    offenders = []
+    for path in _iter_living_docs():
+        m = AI_LABEL_RE.search(path.read_text(encoding="utf-8"))
+        if m:
+            offenders.append(f"{path.relative_to(ROOT)} contains AI label {m.group(0)!r}")
+    assert offenders == [], offenders
