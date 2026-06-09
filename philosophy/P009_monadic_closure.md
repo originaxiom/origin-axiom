@@ -62,10 +62,11 @@ manufacture it.
 > **The load-bearing caveat (must ride with this reading).** "Structurally blocked" means **blocked at every invariant
 > computed — trace, char poly, Perron field, volume, CS** — it is **not** a proof that *no* invariant distinguishes a
 > chiral bundle from its mirror. The honest statement is: **chirality is a CS-sign, not an inequivalence, across all
-> standard invariants.** The falsifier is the **genus ladder** (`docs/OPEN_LEADS.md`, B139): the relabeling-preserves-
-> trace structure is special to genus-1 (SL(2,ℤ), two generators); at genus ≥ 2 the mirror may not be a relabeling, and
-> a bundle and its mirror could become genuinely inequivalent. Even then the chirality would be **emergent**, not the
-> SM's fundamental chirality.
+> standard invariants.** The genus ladder — once flagged as the falsifier — is now **closed (B140)**: the genus-1
+> `M → Mᵀ` relabeling is a *genus-1 mechanism*, but the conclusion is the standard **orientation-reversal theorem**
+> (genus-independent: the mirror has same volume, opposite CS, conjugate-isomorphic trace field), so the block
+> **survives every genus**. The firewall is *stronger* than the genus-1 argument implied. The **residual** caveat is
+> the general one: blocked at all *standard* invariants, not a proof that no *cleverer* invariant distinguishes.
 
 Related: `P007` (the maximal probe; the seven firewall directions), `P008` (non-cancellation; the moduli-space root, the
 heterogeneity coda), `../knowledge/K010`,`K012`,`K013`,`K014`,`K015`,`K016` (the constituent results), B127–B132,
