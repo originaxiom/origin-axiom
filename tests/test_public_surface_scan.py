@@ -92,7 +92,8 @@ LIVING_DOC_DIRS = [ROOT / "knowledge",
                    ROOT / "frontier" / "B147_arithmetic_chiral_bundle",
                    ROOT / "frontier" / "B148_kappa_fricke_metallic",
                    ROOT / "frontier" / "B149_sl4_ideal_completeness",
-                   ROOT / "frontier" / "B150_class_s_coincidence"]
+                   ROOT / "frontier" / "B150_class_s_coincidence",
+                   ROOT / "frontier" / "B151_firewall_confirmation"]
 
 # Forbidden specific labels (NOT generic "AI assistant"/"AI-assisted", which are fine).
 AI_LABEL_RE = re.compile(r"Chat[- ]?[12]\b|3-?chat|3-?voice|three[- ]voice|three independent runs|Opus 4|Claude",

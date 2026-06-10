@@ -153,12 +153,19 @@ A grounding pass translated the project's governing question into the sharpest f
   and the Q₈ point are two distinct orbits on it); `RᵐLᵐ` is hyperbolic with eigenvalue (metallic mean)² and trace
   field ℚ(√(m²+4)). This precisely characterizes *what the tower's symmetry is* — and it is mathematics, on the math
   side of the firewall.
-- **The two live tasks (OPEN; reading/proof, see `OPEN_LEADS.md` L14/L15).** ① **Class-S coincidence** (L14): does the
-  SL(2,ℤ) trace-map action coincide with the known duality/MCG action of the once-punctured-torus class-S theory? — the
-  one direction with genuine mathematical traction (still math, not a crossing). ② **Firewall confirmation** (L15):
-  confirm in GTZ / Dimofte / Córdova–Jafferis that the complex volume enters the 3d–3d partition function only as a
-  dimensionless exponent — the decisive boundary check; if confirmed, bank as the honest limit of the physics aspiration.
+- **The two tasks — both now resolved.** ① **Class-S coincidence (L14 — CHARACTERIZED, B150/V139): MIXED.** The SL(2,ℤ)
+  trace-map action on the Fricke character variety **is** the N=2\* S-duality mapping-class action (FORCED, literature-
+  confirmed: Allegretti–Shan 2411.17378 — "on the character variety, not merely on τ"; Cantat–Loray dynamical degree =
+  λ_m²; GMN Coulomb = Hitchin); the τ-modularity and the physical-magnitude/gauge content are RHYME. The bridge is real,
+  but it is a *symmetry* identity — still math. ② **Firewall confirmation (L15 — CONFIRMED, B151/V140): the firewall
+  HOLDS.** GTZ/Dimofte/Córdova–Jafferis: the complex volume `∈ ℂ/4π²ℤ` enters the 3d–3d partition function only as the
+  dimensionless exponent saddle; all dimensionful content is in the level `k↔ℏ` and the squashing radius, none in the
+  invariant (and CS=0 for the unit — the candidate scale-carrier vanishes). **No κ-/volume-type invariant of the unit
+  can source a physical scale.** So the unification reaches across the widest gap as a **symmetry identity (L14)** and
+  **terminates at the firewall (L15)** — a real bridge + a confirmed wall, the honest boundary of the one-object picture.
+  The cosmological-constant question lies on the far side of a wall this structure does not cross.
 
 See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibration/`,
 `../frontier/B147_arithmetic_chiral_bundle/`, `../frontier/B148_kappa_fricke_metallic/`,
-`../papers/VALIDATION_LEDGER.md` (V132, V135, V136, V137).
+`../frontier/B150_class_s_coincidence/`, `../frontier/B151_firewall_confirmation/`,
+`../papers/VALIDATION_LEDGER.md` (V132, V135, V136, V137, V139, V140).
