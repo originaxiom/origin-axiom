@@ -31,13 +31,17 @@ A once-punctured-torus bundle `b++W` is **amphichiral ⟺ its `R/L` monodromy wo
   amphichiral, but `RRLLRL` is amphichiral with a **non-symmetric** monodromy `[[12,7],[5,3]]`. So the *metallic*
   family's amphichirality is near-tautological (symmetric matrices), but amphichirality in general is a **strictly
   broader** invariant — the metallic family is its symmetric sub-part.
-- **The arithmeticity arm is REFUTED as stated (A5, the B146 catch).** B145 claimed "every quadratic-trace-field o-p-t
-  bundle is amphichiral / no arithmetic chiral o-p-t bundle," but it used the **non-invariant** trace field
-  (`trace_field_gens`). Recomputed with the arithmeticity-relevant **invariant** trace field
-  (`invariant_trace_field_gens`): the imaginary-quadratic (degree-2, **arithmetic-necessary**) o-p-t bundles in range
-  are `{RL : ℚ(√−3), RRLL : ℚ(i)}` (amphichiral, metallic) **and `{RRL, RLL} : ℚ(√−7)` (CHIRAL, a mirror pair)**. So
-  imaginary-quadratic invariant trace field does **not** imply amphichiral — there *is* a chiral o-p-t bundle with an
-  arithmetic-necessary invariant trace field. The arm does **not** independently support canonicity ⟹ amphichirality.
+- **The arithmeticity arm is REFUTED OUTRIGHT (A5, the B146 catch → settled in B147).** B145 claimed "every
+  quadratic-trace-field o-p-t bundle is amphichiral / no arithmetic chiral o-p-t bundle," but it used the
+  **non-invariant** trace field (`trace_field_gens`). Recomputed with the arithmeticity-relevant **invariant** trace
+  field (`invariant_trace_field_gens`): the imaginary-quadratic (degree-2, **arithmetic-necessary**) o-p-t bundles in
+  range are `{RL : ℚ(√−3), RRLL : ℚ(i)}` (amphichiral, metallic) **and `{RRL, RLL} : ℚ(√−7)` (CHIRAL, a mirror pair)**.
+  B147 then applied the **full** Maclachlan–Reid criterion (imaginary-quadratic invariant trace field **AND integral
+  traces**): `RRL/RLL` have **integral traces** (every holonomy-trace minimal polynomial is monic; independently
+  confirmed by Humbert — vol = 3 × Bianchi covolume of ℚ(√−7), the figure-eight control giving the known 12). So
+  **`RRL/RLL` are arithmetic chiral o-p-t bundles — "arithmetic ⟹ amphichiral" is FALSE.** The arm does **not** support
+  canonicity ⟹ amphichirality at all. *(This also corrects the loose paraphrase "exactly two o-p-t bundles": that count
+  is the **metallic** m=1,2 family, B125, which stands — but there are **≥ 4** arithmetic o-p-t bundles overall.)*
 
 **What survives (bare-math, honest scope):** the *canonical-minimum* o-p-t bundle is the figure-eight (amphichiral),
 and chirality first appears strictly above it; the *metallic* (palindromic-period, symmetric-monodromy) family is
@@ -69,16 +73,20 @@ reading. **Not a K-A revival:** K-A ("det=−1 selects SM chirality") is DEAD/in
 dichotomy here is "no *canonical* preference" (orientation-independent invariants can't pick a side), explicitly **not**
 "CS picks a side." No metallic object with CS≠0 is claimed.
 
-## Open (B147)
+## Resolved (B147) — the chiral pair is fully arithmetic
 
-Is the chiral pair `RRL/RLL` (invariant trace field ℚ(√−7)) **fully arithmetic**? Imaginary-quadratic invariant trace
-field is *necessary* but not *sufficient* — arithmeticity also needs **integral traces** (Maclachlan–Reid). If `RRL`
-**is** arithmetic, then "no arithmetic chiral o-p-t bundle" is outright false; if not, "no arithmetic chiral o-p-t
-bundle" may survive but only via the *integral-traces* condition (which B145 never tested), and the
-Bowditch–Maclachlan–Reid finiteness/classification is the route to settle it as a theorem.
+The chiral pair `RRL/RLL` (invariant trace field ℚ(√−7)) **is fully arithmetic**: both Maclachlan–Reid conditions hold
+— imaginary-quadratic invariant trace field **and integral traces** (every holonomy-trace minimal polynomial is monic),
+independently confirmed by Humbert (vol = 3 × Bianchi covolume; the figure-eight control reproduces the known 12). So
+**arithmetic chiral o-p-t bundles exist** — "no arithmetic chiral o-p-t bundle" is outright false, and arithmeticity
+does **not** coincide with self-mirror. The firewall is **unaffected**: `RRL/RLL` are a mirror pair, both arithmetic,
+and arithmeticity is orientation-independent, so by the dichotomy above it cannot prefer a handedness — a sub-claim
+correction, not a crossing. The surviving "no single canonical object is chiral" rests on the volume-minimality /
+palindromic-period arms only. (B147.)
 
 **Anchors:** B145 (the catalog), B146 (the calibration: invariant-trace-field correction, the dichotomy, the two-
-mechanism statement), B144 (the redirect; mirror-closure), B131 (the κ-fork), B128/B136/`K011` (GHH), B141
+mechanism statement), B147 (the chiral pair `RRL/RLL` is **fully arithmetic** — arithmetic arm refuted outright),
+B144 (the redirect; mirror-closure), B131 (the κ-fork), B128/B136/`K011` (GHH), B141
 (finiteness/density), `../speculations/S032`, `../docs/STRATEGIC_SYNTHESIS.md`, `../speculations/TOMBSTONES.md` (`K-A`,
 not revived). External: Goodman–Heard–Hodgson 2008; Bowditch–Maclachlan–Reid (arithmetic punctured-torus bundles);
 Maclachlan–Reid (arithmeticity = imaginary-quadratic invariant trace field + integral traces).

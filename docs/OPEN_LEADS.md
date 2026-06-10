@@ -52,10 +52,14 @@ aspiration). It sets the governing roadmap:
   catch:** B145's arithmeticity arm is **refuted as stated** (it used the *non-invariant* trace field; with the
   *invariant* one, `RRL/RLL = ℚ(√−7)` are **chiral** imaginary-quadratic) — so support is the near-tautological
   volume/palindromic arms + the dichotomy, not arithmeticity. Not a K-A revival.
-- **Campaign 1″ — is the chiral pair `RRL/RLL` (ℚ(√−7)) fully *arithmetic*? (B147, the real arithmetic question).**
-  Imaginary-quadratic invariant trace field is necessary; arithmeticity also needs **integral traces**
-  (Maclachlan–Reid); the Bowditch–Maclachlan–Reid finiteness/classification is the route to a theorem. If `RRL` is
-  arithmetic, "no arithmetic chiral o-p-t bundle" is outright false. ★★ OPEN — the load-bearing arithmetic arm.
+- **Campaign 1″ — is the chiral pair `RRL/RLL` (ℚ(√−7)) fully *arithmetic*? — RESOLVED: YES (B147).** Both
+  Maclachlan–Reid conditions hold — imaginary-quadratic invariant trace field **and integral traces** (every
+  holonomy-trace minimal polynomial monic; independently confirmed by Humbert: vol = 3 × Bianchi covolume, the
+  figure-eight control giving the known 12). So **arithmetic chiral o-p-t bundles exist** — B145's arithmeticity arm is
+  **refuted outright** ("arithmetic ⟹ amphichiral" is false). The cited "exactly two o-p-t bundles" is corrected (it is
+  the **metallic** m=1,2 family, B125, which stands; ≥4 arithmetic o-p-t bundles overall). The **firewall survives**:
+  `RRL/RLL` are a mirror pair, both arithmetic, and arithmeticity is orientation-independent → it cannot prefer a
+  handedness (the B146 dichotomy). A sub-claim correction, not a crossing; not a K-A revival. (`../knowledge/K017`.)
 - **Campaign 2 — ground or demote the cusp↔gauge dictionary** (cheap part done: MB11 + the synthesis tiers; heavy part
   = compute `T[M]` for one metallic bundle, optional).
 - **Campaign 3 — S031a full-locus** (symbolic elimination, Singular; when idle).
