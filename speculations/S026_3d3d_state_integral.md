@@ -3,6 +3,13 @@
 **Status: `DORMANT`.** Firewalled; not a claim. Phase 3 of the physics-bridge sweep (a HEAVY/deferred fork,
 mapped + obstruction stated). Nothing promotes to `../CLAIMS.md`; the physics chapter stays CLOSED.
 
+> **Closing-arc update (B151).** This 3d–3d / state-integral context is exactly where the **firewall was confirmed**:
+> the complex volume / CS invariant of `T[4₁]` is a dimensionless element of `ℂ/4π²ℤ` entering the partition function
+> only as the exponent saddle, with all dimensionful content in the level `ℏ↔k` and the squashing radius, none in the
+> invariant (GTZ 1111.2828; Dimofte 1409.0857; Córdova–Jafferis 1305.2891) — `B151/V140`. So even raising the rank
+> organizes *dimensionless* saddle data, never a physical scale. See `../frontier/B151_firewall_confirmation/`,
+> `../docs/STRATEGIC_SYNTHESIS.md` §8/§8a.
+
 **[MATH] (the citable anchor).** The figure-eight complement defines a 3d N=2 SCFT `T[4₁]`; its partition functions
 on `S³_b` (squashed sphere), `D²×S¹`, and lens spaces are **state-integrals** built from the quantum dilogarithm
 (Andersen–Kashaev; Dimofte–Gaiotto–Gukov), whose **saddle points are the flat connections = the character-variety

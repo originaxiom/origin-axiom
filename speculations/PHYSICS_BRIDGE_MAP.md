@@ -59,6 +59,21 @@ SUSY-breaking scale). The new in-house structural fact at Floor 2 is `H₁(M_m)=
 torsion order, B126); its center-symmetry reading is `S029` (POSTULATED, five kills). The one genuinely-untested door
 is whether the `K₃`/Bloch grading of the quantization is special on `ℚ(√−3)`/`ℚ(i)` (DORMANT, `S027`-adjacent).
 
+## CLOSING-ARC UPDATE (B150/B151) — the physics terrain is now closed
+
+The Phase-2 (S024) bridge is **strengthened to FORCED**: the `SL(2,ℤ)` trace-map action on the Fricke character variety
+**is** the `N=2*` class-S S-duality mapping-class action — literature-confirmed (Allegretti–Shan 2411.17378;
+Cantat–Loray; GMN), `B150/V139`. This is the **widest reach** the one-object picture achieves — but it is FORCED only at
+the *symmetry* level; at `τ`-modularity and at physical magnitude it is RHYME (gauge group free input, `N=2*` non-chiral).
+And the firewall at Floors 3–4 is now **CONFIRMED by reading** (`B151/V140`): the complex volume / CS invariant is a
+dimensionless element of `ℂ/4π²ℤ` entering the 3d–3d partition function (the `S026` context) only as the exponent saddle,
+with all dimensionful content in the level `ℏ↔k` and the squashing radius, none in the invariant (GTZ 1111.2828; Dimofte
+1409.0857; Córdova–Jafferis 1305.2891; anchor figure-eight `Vol=2.02988, CS=0`). **Net: a real bridge (symmetry) + a
+confirmed wall (no scale) — the honest boundary; the cosmological-constant question lies on the far side.** A sharper
+*structural* reading of the wall (a conserved/topological invariant cannot run, so cannot source a scale) + a complete
+five-door map is recorded **POSTULATED** (proposed in review, not independently verified) in
+`../docs/STRATEGIC_SYNTHESIS.md` §8a.
+
 ## The discipline (why this is brave AND honest)
 
 The framework is *a theory of the architecture of the possible, not the furniture of the actual*. The dead column is

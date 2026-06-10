@@ -78,6 +78,8 @@ for these). Note this is the **`φ²`-geometric bundle** trace field — a **dif
 
 **Anchors:** B107/`K007` (the KKT identification), B124 (the void Jacobian / horseshoe-anchoring hyperbolicity), B127
 (the Fricke–Vogt dictionary + CS=0 + the arithmetic separation), `K001` (the Markov surface), `S023` (the distinct
-metallic quasicrystals), `../philosophy/P008` (the reading). External: Kohmoto–Kadanoff–Tang (1983); Sütő (1987);
+metallic quasicrystals), `../philosophy/P008` (the reading); **B148/V137 (`κ = 4·I_FV + 2` re-derived exactly; the
+metallic monodromies are the `SL(2,ℤ)` MCG action), B151/V140 (the firewall confirmed — `κ`/the complex volume is
+dimensionless, `∈ ℂ/4π²ℤ`, and sources no physical scale)**. External: Kohmoto–Kadanoff–Tang (1983); Sütő (1987);
 Bellissard (gap labeling); Damanik–Gorodetski (the Fibonacci Hamiltonian / horseshoe); Vogt (1889), Fricke, Goldman
 (trace coordinates).

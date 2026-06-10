@@ -15,7 +15,13 @@ The strongest results of the whole enterprise are often negatives:
 - the cosmological-constant **value** formula is dead (null hypothesis) — this *defines* the numerology line;
 - **tower-eigenvalues ≠ masses** (B107) — this *defines* the architecture/furniture boundary (`P001`);
 - the **Hessian is `(2,0)` Riemannian, not Lorentzian** (B96/B101) — no spacetime falls out for free;
-- the **3d→4d type-mismatch** is a structural wall, not a queued task (`../speculations/S020`).
+- the **3d→4d type-mismatch** is a structural wall, not a queued task (`../speculations/S020`);
+- the **firewall confirmed** (B151) — this is the sharpest boundary of all, because it stands at the end of a
+  *real* bridge: the object's symmetry genuinely **is** a four-dimensional gauge theory's duality action (B150,
+  FORCED), yet the invariants are dimensionless and carry **no physical scale**. A symmetry identity is not a scale;
+  the cosmological-constant question lies on the far side of a wall this structure does not cross. A sharper
+  *structural* reading of that wall (a conserved/topological invariant cannot run, so cannot source a scale) is
+  recorded **POSTULATED** — proposed in review, not yet verified — in `../docs/STRATEGIC_SYNTHESIS.md` §8a.
 
 Each of these *tells us where the boundary is*, and every one is recorded as a first-class object — in
 `../docs/atlas/FAILURE_ATLAS.md`, the `../CLAIMS.md` D-rows, and `../speculations/TOMBSTONES.md`. A permanent kill

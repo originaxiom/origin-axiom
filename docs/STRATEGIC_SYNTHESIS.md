@@ -165,6 +165,34 @@ A grounding pass translated the project's governing question into the sharpest f
   **terminates at the firewall (L15)** — a real bridge + a confirmed wall, the honest boundary of the one-object picture.
   The cosmological-constant question lies on the far side of a wall this structure does not cross.
 
+### 8a. A sharper structural reading of the firewall (POSTULATED — proposed in review, not independently verified)
+
+> **Status: POSTULATED.** What is *banked* is the B151 literature form above (the invariant is dimensionless; the scale
+> lives in `ℏ/k` + the squashing radius). The reading below is a sharper *structural* argument proposed in a review pass;
+> it is compelling and probably correct, but it has **not** been through the verify-gate that B144–B151 passed — so it is
+> recorded here at POSTULATED tier, **not** as banked fact. It is written once, here; `../speculations/PHYSICS_BRIDGE_MAP.md`
+> and `../philosophy/P003` point to it. Verifying it would be a fresh task, not part of closure.
+
+- **Why the wall may be structural, not just a literature observation.** κ is a **conserved first integral** of the
+  trace map (B148 proved the Dehn twists preserve it) and the complex volume is a **topological invariant** (fixed in
+  ℂ/4π²ℤ). Scales are manufactured by **running** — dimensional transmutation needs a β-function / anomaly / flowing
+  coupling. A conserved/topological invariant **by definition does not run**, so it is the *antithesis* of a transmuting
+  coupling. On this reading the wall is a **structural impossibility**, not merely "three papers assign the units
+  elsewhere." (Latent in the grounding report's Part D; B151 banked only the weaker literature form.)
+- **The complete door-map (argued complete in review; POSTULATED).** There are *argued to be* exactly five ways a scale
+  can enter a scale-free structure, each closed or self-defeating: **(1) dimensional transmutation** — needs a running
+  coupling; κ is conserved → blocked structurally. **(2) anomaly** — needs κ promoted to a dynamical coupling in an
+  action with broken scale invariance; in 3d–3d κ stays a fixed label in the exponent, never a coupling → blocked.
+  **(3) VEV / spontaneous breaking** — needs a dimensionful potential parameter; not present, would be hand-input.
+  **(4) explicit imported scale** (Λ_QCD⁴ / Planck / the squashing radius) with κ riding as a dimensionless coefficient
+  — the θ-angle pattern; *works*, but the scale is **put in by hand**, the negation of the forced/zero-parameter premise
+  — a door that leads *out* of the program. **(5) κ-discreteness → a dimensionless *ratio*** (not a scale) — the only
+  logically-open lane (θ, Chern numbers, Hall conductance all fix *ratios*); but it is where the project's tombstones
+  cluster (the α attempts, the Λ-formula null-killed at 60%, K-A), and its one survivor is L14 itself, which is
+  *mathematics* (`MB9`/`MB10`: not the SM's gauge content). **Net (POSTULATED): the scale-lane is structurally shut; the
+  ratio-lane is open-in-principle but exhausted-in-practice, survivor is math — the wall has no door, only an exit that
+  leaves the program.** This is the argument that *earns the stop*; it is recorded, not asserted as proven.
+
 See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibration/`,
 `../frontier/B147_arithmetic_chiral_bundle/`, `../frontier/B148_kappa_fricke_metallic/`,
 `../frontier/B150_class_s_coincidence/`, `../frontier/B151_firewall_confirmation/`,

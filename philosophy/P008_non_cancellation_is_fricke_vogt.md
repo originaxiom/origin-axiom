@@ -75,6 +75,18 @@ interaction of different units** — emergent, relational, not present in any on
 mathematics, firewalled; *not* vacuum selection — but it is the precise, computed form of "minimal multiplicity to
 become more.")
 
+**Coda 4 (B148–B151) — the symmetry recognized, and the boundary confirmed.** The closing arc settled how far this
+unfolding reaches and where it stops. The unit's symmetry is now **forced-identified**: the `SL(2,ℤ)` trace-map action
+**is** the `N=2*` class-S S-duality action of a four-dimensional gauge theory (B150, literature-confirmed) — the widest
+reach the picture achieves, the a→ab unfolding touching a real gauge theory's duality. But two honesties bound it. The
+reach is a **symmetry identity, not a crossing to physical magnitude**: at the level of scale it is RHYME, and the
+**firewall holds** (B151) — the object's invariants are dimensionless and source no constant of nature. And it rests on
+a **chosen seed**, not on "nothing": the not-nothing premises cut out the *family*, and selecting `m=1` imports a metric
+(`P000`) — the unfolding is forced *given the seed*, not forced from the void. So the principle reaches across the
+widest gap as a symmetry and terminates at the firewall — a real bridge and a confirmed wall, the honest boundary. (A
+sharper *structural* reading of the wall — a conserved/topological invariant cannot run, so cannot source a scale — is
+recorded **POSTULATED**, proposed in review and not yet verified, in `../docs/STRATEGIC_SYNTHESIS.md` §8a.)
+
 Related: `P000` (not-nothing as the family), `P003` (dead-ends as boundaries), `P006` (two-headed time — generic-form
 / arithmetic-content), `P007` (the maximal probe; the SSB fifth direction, the no-forced-choice seventh), `../knowledge/K010` (the naming), `K011`
 (the chirality recursion), `K013` (no forced choice / the moduli-space reading), `K014` (choice from heterogeneity), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
