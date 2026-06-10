@@ -81,9 +81,14 @@ fixed by swap+reverse), not more seeds.
   rigorous. **But B145's arithmeticity arm is refuted as stated** (it used the *non-invariant* trace field; with the
   *invariant* trace field, `RRL/RLL = ℚ(√−7)` are **chiral** imaginary-quadratic) — so the surviving canonical⟹
   self-mirror rests on the near-tautological volume/palindromic arms, not arithmeticity. (`K017`.)
-- **LIVE-MATH (gradable now):** ① **is the chiral pair `RRL/RLL` (ℚ(√−7)) fully *arithmetic*?** (B147 — imaginary-
-  quadratic invariant trace field is necessary; arithmeticity also needs integral traces, Maclachlan–Reid; the BMR
-  finiteness/classification is the route to a theorem. If yes, "no arithmetic chiral o-p-t bundle" is outright false.)
+- **RESOLVED (B147):** **the chiral pair `RRL/RLL` (ℚ(√−7)) is fully *arithmetic*** — both Maclachlan–Reid conditions
+  hold (imaginary-quadratic invariant trace field **and integral traces**; independently confirmed by Humbert,
+  vol = 3 × Bianchi covolume, figure-eight control = the known 12). So **arithmetic chiral o-p-t bundles exist**:
+  B145's arithmeticity arm is **refuted outright** ("arithmetic ⟹ amphichiral" false), the cited "exactly two o-p-t
+  bundles" is corrected (metallic m=1,2, B125, stands; ≥4 arithmetic overall). The firewall survives via the dichotomy
+  (`RRL/RLL` a mirror pair, both arithmetic, arithmeticity orientation-independent). A sub-claim correction, not a
+  crossing.
+- **LIVE-MATH (gradable now):**
   ② the **GL(2,ℤ) gluing landscape** (extend B131 from identity-gluing to all gluings; map the discrete
   κ-sets — Lead A; *contingency* axis, not chirality); ③ the **off-forced deformation neighbourhood** (the
   dense "shadow" of the forced point — Lead B / B141 finiteness-density); ④ **S031a full-locus** (symbolic
@@ -107,7 +112,9 @@ handedness" rigorous: M and M̄ agree on every orientation-*independent* invaria
 independent) selection can prefer a handedness** — κ-fork genuine (κ orientation-independent), chirality-fork always
 convention (handedness orientation-sensitive). *Calibration:* B145's arithmeticity arm was refuted (wrong field; `RRL`
 is chiral with ℚ(√−7) invariant trace field), so the support is the near-tautological volume/palindromic arms + the
-dichotomy, **not** arithmeticity. Open (B147): is `RRL` fully arithmetic?
+dichotomy, **not** arithmeticity. **B147 settled the residue:** `RRL/RLL` are **fully arithmetic** (integral traces +
+imaginary-quadratic field; Humbert cross-check) — arithmetic chiral o-p-t bundles **exist**, so the arithmetic arm is
+refuted outright; the firewall survives via the dichotomy (mirror pair, both arithmetic).
 
 **Campaign 2 — ground or demote the dictionary.** Cheap part done here (`MB11` + this doc's two tiers). Heavy part —
 actually compute `T[M]` for one metallic bundle to test whether cusp↔U(1) holds for *our* objects — left optional.
@@ -124,4 +131,4 @@ contingency (two distinct seeds, B131).** That is a real contribution to "why th
 symmetry," and it is what the work already is.
 
 See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibration/`,
-`../papers/VALIDATION_LEDGER.md` (V132, V135).
+`../frontier/B147_arithmetic_chiral_bundle/`, `../papers/VALIDATION_LEDGER.md` (V132, V135, V136).

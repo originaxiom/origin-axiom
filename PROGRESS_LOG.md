@@ -3668,6 +3668,32 @@ stays dead.
 B124–B145 untouched; K-A not revived. Ledger **V135**. `frontier/B146_b145_calibration/` +
 `tests/test_b146_b145_calibration.py` (2 passed + 1 sage-skip; guard green).
 
+## 2026-06-10 — B147: the chiral pair RRL/RLL is FULLY ARITHMETIC — the arithmetic arm collapses (V136)
+
+B146 left one residue: imaginary-quadratic **invariant** trace field (ℚ(√−7)) is *necessary* for arithmeticity, not
+sufficient. B147 applies the **full** Maclachlan–Reid criterion. MATH tier; K-A stays dead.
+
+- **Result:** `RRL/RLL` have **integral traces** (every holonomy-trace minimal polynomial is monic) on top of the
+  imaginary-quadratic invariant trace field ℚ(√−7) ⟹ **they are arithmetic CHIRAL once-punctured-torus bundles.**
+  Independently confirmed by **Humbert** (vol = 3 × Bianchi covolume of ℚ(√−7); the figure-eight control reproduces the
+  known **12**). The scan (len ≤ 7) finds exactly **four** arithmetic o-p-t bundles: `RL` (ℚ(√−3), amphichiral),
+  `RRLL` (ℚ(i), amphichiral), and the chiral mirror pair `RRL/RLL` (ℚ(√−7)).
+- **B145's arithmeticity arm is REFUTED OUTRIGHT** — arithmetic chiral o-p-t bundles **exist**, so "arithmetic ⟹
+  amphichiral" is false; the surviving "no single canonical object is chiral" rests on the volume/palindromic arms only.
+- **"Exactly two o-p-t bundles" corrected** — that count is the **metallic** m=1,2 family (B125, which **stands**); ≥4
+  arithmetic o-p-t bundles exist overall.
+- **The firewall survives — a sub-claim correction, not a crossing.** `RRL/RLL` are a mirror pair, both arithmetic;
+  arithmeticity is orientation-independent, so by the B146 dichotomy it cannot prefer a handedness. Not a K-A revival.
+- **Guard:** the eager-yes (RRL "arithmetic" vs the cited "exactly two") was held until the integrality test was
+  validated to *discriminate* (caught a real `polcoef` bug: read the leading coefficient at the **actual** degree) and
+  an **independent** method (Humbert) confirmed it. Two methods agree.
+
+`K017` updated (arithmetic arm refuted outright; firewall survives via the dichotomy); `STRATEGIC_SYNTHESIS`/`OPEN_LEADS`
+synced (Campaign 1″ resolved); B125 docstring carries the "exactly two" → metallic-m=1,2 calibration note. MATH tier;
+nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B146 untouched; K-A not revived. Ledger **V136**.
+`frontier/B147_arithmetic_chiral_bundle/` + `tests/test_b147_arithmetic_chiral_bundle.py` (4 passed; pyenv, SnapPy +
+cypari).
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.

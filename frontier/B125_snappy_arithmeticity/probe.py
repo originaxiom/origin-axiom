@@ -6,6 +6,12 @@ kills m>=3. This is exactly the gap the B123 audit flagged -- Reid 1991 is about
 manifolds are once-punctured-torus BUNDLES, so knot-uniqueness never transferred. (And it closes cleanly: K009
 already cited "exactly two arithmetic once-punctured-torus bundles" -- they are m=1 and m=2.)
 
+CALIBRATION (B147). The "exactly two" here is correct as a statement about the METALLIC family (m=1 golden Q(sqrt-3),
+m=2 silver Q(i)); do NOT read it as "exactly two o-p-t bundles overall." B147 found arithmetic CHIRAL (non-metallic)
+o-p-t bundles -- RRL/RLL = Q(sqrt-7), full Maclachlan-Reid (imag-quadratic invariant trace field + integral traces,
+Humbert vol = 3x Bianchi covolume) -- so there are >=4 arithmetic o-p-t bundles. This metallic m=1,2 result STANDS;
+only the loose paraphrase "exactly two o-p-t bundles" was over-stated. See frontier/B147_arithmetic_chiral_bundle/.
+
 STRUCTURAL IDENTITY (the spine; pure numpy, always runs).
     M_m = [[m,1],[1,0]],  det = -1.   Its orientable square is a positive LR-word:
         M_m^2 = R^m L^m ,   R = [[1,1],[0,1]],  L = [[1,0],[1,1]].
