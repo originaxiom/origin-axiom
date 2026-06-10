@@ -3750,6 +3750,34 @@ MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, B89, the merged B124–B148 un
 `frontier/B149_sl4_ideal_completeness/` (probe/decompose/classify_fp + `decomposition.json`, `irreducibility_fp.json`) +
 `tests/test_b149_sl4_ideal_completeness.py` (6 passed; pyenv).
 
+## 2026-06-10 — B150: class-S coincidence (L14) — the trace-map action IS the N=2\* S-duality MCG action; τ-modularity & physical magnitude are RHYME (V139)
+
+L14 scoping/characterization pass (focused literature read; **not** a verdict-of-match, no sandbox "match" fabricated):
+does the SL(2,ℤ) trace-map action on the once-punctured-torus character variety (B148's object) coincide with the
+class-S S-duality / MCG action? MATH tier (physics-adjacent, **firewalled**); nothing to `CLAIMS.md`.
+
+- **Binding distinction (two spaces):** SL(2,ℤ) on the UV coupling τ = the well-known modularity = HOMONYM → RHYME;
+  FORCED requires the action **on the character variety** to reproduce the B148 anchors (hyperbolic classes, λ_m²,
+  ℚ(√(m²+4)) fixed slopes, the κ cubic, κ=−2 Markov).
+- **Sources read:** Allegretti–Shan (2411.17378) — `M_flat(S_{1,1},SL₂ℂ)` = the Fricke cubic, MCG `SL₂(ℤ)=Mod(S_{1,1})`
+  by Dehn twists, three subalgebras = quantized K-theoretic Coulomb branches of the **N=2\*** theories MCG-permuted,
+  S-duality acting "on the character variety itself through MCG, not merely on τ"; Cantat–Loray (AIF 2009 / 0711.1579) —
+  dynamical degree = homology spectral radius (= λ_m² for `RᵐLᵐ`); GMN (0907.3987) — Coulomb branch = Hitchin moduli.
+  Convention verified: B148 `κ = λ+λ⁻¹` exactly; same cubic; κ=−2 ⟺ λ=−1.
+- **Verdict — MIXED.** **FORCED at the character-variety / MCG level** — the SL(2,ℤ) trace-map action on the Fricke
+  character variety **is** the N=2\* S-duality mapping-class action (same cubic/MCG/Dehn-twist generators; λ_m² = the
+  Cantat–Loray dynamical degree; κ=−2 = the Markov fiber; Coulomb branches MCG-permuted). **RHYME at the τ-modularity
+  level** (homonym) **and at the physical-magnitude / gauge level** (gauge group free input, no scale fixed, N=2\*
+  non-chiral — the firewall, **L15's** separate question). **Even the FORCED part is mathematics** (symmetry = a known
+  duality action); it does **not** cross to physical magnitude. The widest reach of the one-object picture yet,
+  literature-confirmed. (Refines, not contradicts, the earlier "RHYME/PARTIAL" scoping, which answered the different
+  "is SL(2,ℤ) a Weyl group / does it select the SM" question.)
+
+`OPEN_LEADS` L14 status → CHARACTERIZED (MIXED); L15 (firewall confirmation) and H2 (HMP/Tillmann by hand) remain
+open/separate; living-docs guard widened to B150. MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B149
+untouched; firewall intact. Ledger **V139**. `frontier/B150_class_s_coincidence/` +
+`tests/test_b150_class_s_coincidence.py` (5 passed; pyenv).
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
