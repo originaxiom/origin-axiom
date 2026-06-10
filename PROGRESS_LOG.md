@@ -3694,6 +3694,32 @@ nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B146 untouched; K-A not
 `frontier/B147_arithmetic_chiral_bundle/` + `tests/test_b147_arithmetic_chiral_bundle.py` (4 passed; pyenv, SnapPy +
 cypari).
 
+## 2026-06-10 — B148: κ/Fricke–Vogt pinned, the metallic monodromy = SL(2,ℤ) MCG action, the class-S open question (V137)
+
+A physics-boundary scrutiny pass reframed the project's core question as the cosmological-constant problem ("why does
+exact cancellation fail by a tiny *forced* amount," κ = tr[A,B] the candidate residue-skeleton). The computations it
+surfaced were **independently re-derived here** (verify-don't-trust on a cross-session handoff — every claim re-proved
+symbolically, not inherited). MATH tier; **firewalled** throughout.
+
+- **§0 firewall (gating):** κ is scale-free (pure number / ℂ/π²ℤ) — no β-function, no RG, no anomaly — and **cannot**
+  become a dimensionful energy density without an externally supplied scale. Every precedent (θ-vacuum, CS level,
+  quantized Hall, anomaly coefficients) fixes a dimensionless *ratio*; the *scale* is supplied independently. Mainstream
+  physics does **not** force a commutator-type obstruction. Everything below is math about the tower's symmetry, not a
+  bridge to physics; nothing to `CLAIMS.md`.
+- **§1 (re-derived):** `tr(ABA⁻¹B⁻¹)=x²+y²+z²−xyz−2=:κ`; `κ=4·I_FV+2` exactly under the half-trace convention (`x=2X`);
+  both trace maps preserve their own invariant.
+- **§2 (re-derived):** `tr(RᵐLᵐ)=m²+2`; the Dehn twists `τ_a,τ_b` preserve κ ⟹ the metallic monodromies **are** the
+  SL(2,ℤ) MCG action; κ=−2 = the Markov surface; the Markov root `(3,3,3)` and the Q₈ point `(0,0,0)` are two distinct
+  orbits on that surface (not a point).
+- **§3 (re-derived):** `RᵐLᵐ` hyperbolic; eigenvalue = (metallic mean)²; fixed slopes = roots of `t²+mt−1=0`; trace
+  field ℚ(√(m²+4)) reduced (m=1, m=4 share ℚ(√5)).
+- **Open (reading/proof, not sandbox):** L14 class-S coincidence (the one mathematically-tractable direction — still
+  math, not a crossing) and L15 firewall confirmation (the decisive boundary check, GTZ / Dimofte / Córdova–Jafferis).
+
+`STRATEGIC_SYNTHESIS` §8 + `OPEN_LEADS` (L14/L15, Campaign 4) added; living-docs guard widened to B147/B148. MATH tier;
+nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B147 untouched; firewall intact. Ledger **V137**.
+`frontier/B148_kappa_fricke_metallic/` + `tests/test_b148_kappa_fricke_metallic.py` (5 passed; pyenv, pure sympy).
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.

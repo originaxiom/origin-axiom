@@ -130,5 +130,35 @@ proven), which are merely unchecked (the rest, pending the dictionary), and the 
 contingency (two distinct seeds, B131).** That is a real contribution to "why there is structure rather than featureless
 symmetry," and it is what the work already is.
 
+## 8. The physics-boundary reframe and the dimensional firewall (B148 — firewalled)
+
+> **Two tiers (`MB11`).** The *math* below is banked; the *physics reading* is **POSTULATED**, cited one-way, never
+> the reverse. Nothing here promotes to `../CLAIMS.md`.
+
+A grounding pass translated the project's governing question into the sharpest form mainstream physics recognizes.
+
+- **The reframe (POSTULATED).** "Why is there something rather than nothing" becomes, operationally, the
+  **cosmological-constant problem** in the form *"why does exact vacuum-energy cancellation fail by a tiny **forced**
+  amount"* (ρ_Λ small-but-nonzero, ~10⁻⁴⁷ GeV⁴ — the hard part is the *residue*, not exact zero). κ = tr[A,B] is the
+  candidate skeleton of that residue. The closest real structural analogue is the **de Sitter swampland** "no exact dS,
+  quasi-dS forced" conjecture (itself disputed, now under DESI observational pressure).
+- **The dimensional firewall (the gating fact).** κ is **scale-free** (a pure number / ℂ/π²ℤ): no β-function, no RG
+  flow, no anomaly. It **cannot become a dimensionful energy density without an externally supplied scale.** Every
+  precedent where dimensionless topology touches a dimensionful observable (θ-vacuum, CS level, quantized Hall, anomaly
+  coefficients) fixes a **ratio**; the **scale is always supplied independently** (Λ_QCD⁴, e²/h, ℏ/level).
+  **Mainstream physics does not force a commutator-type non-cancellation obstruction** — the conjecture is, at present,
+  an *unforced analogy*. (Strong dimensional argument; formally an absence, not a cited no-go theorem.)
+- **What B148 banked (math, re-derived).** κ = 4·I_FV + 2 exactly (half-trace convention); the metallic monodromies
+  **are** the SL(2,ℤ) mapping-class action (Dehn twists preserve κ); κ=−2 is the **Markov surface** (the Markov root
+  and the Q₈ point are two distinct orbits on it); `RᵐLᵐ` is hyperbolic with eigenvalue (metallic mean)² and trace
+  field ℚ(√(m²+4)). This precisely characterizes *what the tower's symmetry is* — and it is mathematics, on the math
+  side of the firewall.
+- **The two live tasks (OPEN; reading/proof, see `OPEN_LEADS.md` L14/L15).** ① **Class-S coincidence** (L14): does the
+  SL(2,ℤ) trace-map action coincide with the known duality/MCG action of the once-punctured-torus class-S theory? — the
+  one direction with genuine mathematical traction (still math, not a crossing). ② **Firewall confirmation** (L15):
+  confirm in GTZ / Dimofte / Córdova–Jafferis that the complex volume enters the 3d–3d partition function only as a
+  dimensionless exponent — the decisive boundary check; if confirmed, bank as the honest limit of the physics aspiration.
+
 See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibration/`,
-`../frontier/B147_arithmetic_chiral_bundle/`, `../papers/VALIDATION_LEDGER.md` (V132, V135, V136).
+`../frontier/B147_arithmetic_chiral_bundle/`, `../frontier/B148_kappa_fricke_metallic/`,
+`../papers/VALIDATION_LEDGER.md` (V132, V135, V136, V137).
