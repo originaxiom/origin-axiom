@@ -51,6 +51,10 @@ heavy forks, all DORMANT or POSTULATED), and **nothing crosses into `../CLAIMS.m
 mathematical (the functorial `Sym(W) → trace-ring` construction, `K008`).
 
 **Anchors:** B101/V85 (the Hitchin-component reframing), B107/V94 (the physics-connection audit, POSTULATED), B96
-(the Riemannian signature). External: Dimofte–Gaiotto–Gukov (3d-3d, 1108.4389 / 1112.5179); Gang–Kim–Lee–Park
-(1305.0937, higher-rank); Gaiotto (class-`S`). Firewalled readings: `../speculations/S024`, `S025`–`S027`,
-`PHYSICS_BRIDGE_MAP.md`.
+(the Riemannian signature); **B150/V139 (the class-S identification made explicit — the `SL(2,ℤ)` trace-map action IS
+the `N=2*` S-duality mapping-class action, FORCED at the *symmetry* level; Allegretti–Shan 2411.17378), B151/V140 (the
+firewall confirmed — the complex volume / CS invariant is a dimensionless element of `ℂ/4π²ℤ`, carrying no physical
+scale; the ceiling here is reached, not crossed)**. External: Dimofte–Gaiotto–Gukov (3d-3d, 1108.4389 / 1112.5179);
+Gang–Kim–Lee–Park (1305.0937, higher-rank); Gaiotto (class-`S`); Garoufalidis–Thurston–Zickert (1111.2828);
+Córdova–Jafferis (1305.2891). Firewalled readings: `../speculations/S024`, `S025`–`S027`, `PHYSICS_BRIDGE_MAP.md`,
+`../docs/STRATEGIC_SYNTHESIS.md` §8/§8a.

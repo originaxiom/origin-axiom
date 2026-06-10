@@ -220,3 +220,18 @@ discipline, applied to its own banked work: the B132 headline was numerically re
   Chern–Simons data (`T_N[M]`), not a numerical dim/rank coincidence on the SL(2,ℂ) side. Extends `MB9` (group ≠
   gauge). The genuine non-abelian-enhancement question is therefore a separate, SL(N,ℂ)-level thread (S033-adjacent),
   clearly outside the forced chain.
+
+---
+
+**Closing-arc note (B144–B151) — no new kills; existing kills refined/confirmed.** The closing arc produced no new
+dead speculations; it *sharpened* two existing epitaphs and confirmed the firewall. (i) **K-A refined (B147):** the
+arithmetic sub-arm of B145 ("no arithmetic chiral o-p-t bundle / arithmetic ⟹ amphichiral") is **refuted outright** —
+`RRL/RLL` are fully arithmetic chiral bundles (invariant trace field ℚ(√−7), integral traces). This is a *sub-claim
+correction*, not a K-A revival (det=−1 stays orientation-reversing; the surviving chirality statement is "no canonical
+object is chiral," resting on volume-minimality / palindromic-period, `../knowledge/K017`). (ii) **K-E confirmed (B151):**
+"no forced dimensionful scale" is now confirmed at the deepest level — the complex volume / CS invariant is a
+dimensionless element of ℂ/4π²ℤ; all scale lives in the level `ℏ↔k` + the squashing radius, none in the invariant
+(GTZ/Dimofte/Córdova–Jafferis). The class-S identification (B150) is FORCED at the *symmetry* level but RHYME at physical
+magnitude — a real bridge, no crossing. A sharper *structural* reading of the wall (a conserved/topological invariant
+cannot run, so cannot source a scale) + a complete five-door map is recorded **POSTULATED** (proposed in review, not
+independently verified) in `../docs/STRATEGIC_SYNTHESIS.md` §8a — not a kill, a recorded boundary argument.

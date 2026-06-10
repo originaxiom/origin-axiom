@@ -1,8 +1,14 @@
 # S024 — the tower lives on the monodromy side of Hitchin, separated from the Fuchsian section by `det=−1`
 
-**Status: `POSTULATED`.** Firewalled; not a claim. Phase 2 of the physics-bridge sweep (`PHYSICS_BRIDGE_MAP.md`).
-The *mathematics* of this reading is **proved** (B121); the *physics interpretation* below is the firewalled leap.
-Nothing promotes to `../CLAIMS.md`; the physics chapter stays CLOSED.
+**Status: `POSTULATED` (strengthened B150).** Firewalled; not a claim. Phase 2 of the physics-bridge sweep
+(`PHYSICS_BRIDGE_MAP.md`). The *mathematics* of this reading is **proved** (B121); the *physics interpretation* below
+is the firewalled leap. Nothing promotes to `../CLAIMS.md`; the physics chapter stays CLOSED.
+
+> **Closing-arc update (B150/B151).** The monodromy-side reading is now **FORCED at the symmetry level**: the
+> `SL(2,ℤ)` trace-map action on the Fricke character variety **is** the `N=2*` class-S S-duality mapping-class action,
+> literature-confirmed (Allegretti–Shan 2411.17378; Cantat–Loray; GMN) — `B150/V139`. It is FORCED only as a *symmetry*
+> identity; at physical magnitude it is RHYME, and the firewall holds (`B151/V140`) — the complex volume sources no
+> scale. See `../frontier/B150_class_s_coincidence/`, `../docs/STRATEGIC_SYNTHESIS.md` §8/§8a.
 
 **[MATH] (proved, B121).** The `(n²−1)`-dim trivial-point tower carries two inequivalent `SL(2)`-actions on the
 adjoint `sl_n`:

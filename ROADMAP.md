@@ -24,8 +24,8 @@ framing is locked to the V4 / Reality-Check line.
 > (33 passed, 1 optional skip), all ten initial P-claims locked. Tagged
 > `phaseA-foundation-freeze`. Later exact-algebra integrations promoted P11-P13
 > and P15-P16. The `P1–P16` core remains locked and untouched; the **full repo
-> suite** (core + the frontier `B`-probe locks) is now **369 passed, 1 skipped**
-> as of the B124 refresh.
+> suite** (core + the frontier `B`-probe locks) is **488 passed, 4 skipped**
+> as of the closure refresh (B151).
 
 **Scope:** lock every `proven` claim (currently P1-P16, with P14 unused) behind
 an automated test, in a clean Python package. Reproduce — not inflate — the
@@ -72,12 +72,16 @@ observation.
 | B33–B71 | The `SL(n)` trace-map **tower** + figure-eight A-polynomials/character variety? | Exact math: the Dickson tower (`knowledge/K003`), the A-polynomial / degree=rank `Mⁿ=L` family, the `SL(3)` A-variety (B67/B71). |
 | B80–B106 | Prove the tower; classify the fixed points; geometry/physics audit? | `M⁴=L` symbolic-exact (B89); tower exact `n≤4` (B80); `char(ρ_n)` a **class function** (B103); three fixed-point classes (B106); Riemannian (not Lorentzian) signature, physics chapter **CLOSED** (B96/B101/B107). |
 | B107–B124 | Consolidate the representation; bank the firewalled asides? | The **sign half proved all `n`** (B112); the tower = **`Sym^n(W)`, `W=V⊕1`** the external `det=−1` fundamental (B121/B122); the `(n;trace,det)` determination (B120); `m=1` arithmeticity (B123); reciprocity/time-reversal (B124). The standing prize: a **functorial `Sym(W)→trace-ring`** construction. |
+| B128–B151 | The closing arc: chirality, completeness, the symmetry, and the physics boundary. | **Chirality axis CLOSED** — forced+generic but always self-mirror or mirror-paired ⟹ no preferred handedness; arithmeticity arm refuted outright (B144–B147). **Degree=rank COMPLETE on the irreducible locus** — B89's family is the whole component, `M⁴=L` unconditional (B149). **The unit's symmetry FORCED-identified** with the `N=2*` class-S S-duality mapping-class action (B148/B150, literature-confirmed). **Firewall CONFIRMED** — the complex volume is dimensionless (`ℂ/4π²ℤ`), carries no physical scale (B151). **The physics arc is CLOSED at the firewall** — a real bridge (symmetry) + a confirmed wall (no scale); cosmological-constant question on the far side. A POSTULATED structural reading of the wall: `STRATEGIC_SYNTHESIS.md` §8a. |
 
 Across Phase B the pattern is consistent: the well-defined content is exact or
 numerically reproducible, but each physical or semantic bridge stalls at an
-inserted dictionary, carrier, coupling, unit, selector, or observable. The
-program's live center is now the representation `ρ_n` (`knowledge/K008`, `story/09`),
-ledger `V1–V113`, probes `B1–B124`.
+inserted dictionary, carrier, coupling, unit, selector, or observable — and the
+**physics arc is now closed at the firewall** (a real symmetry bridge, a confirmed
+scale wall). The remaining open frontier is **mathematics**: the functorial
+`Sym(W)→trace-ring` wall (`ρ_n`; `knowledge/K008`, `story/09`), the `GL(2,ℤ)`
+gluing landscape (H5), and the arithmetic-minimality question (H4). Ledger
+`V1–V140`, probes `B1–B151`.
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3

@@ -69,4 +69,6 @@ labeled, in `../speculations/` and `../philosophy/`.
 That is the state: one small self-generating object, fully recognized as a representation, with one sharp functorial
 theorem left to prove.
 
-← back to `00_the_question.md`. See also `08_where_it_stands.md`, `../knowledge/K008`, `../ARCHITECTURE.md`.
+→ `10_chirality_and_completeness.md` (the internal questions close), then `11_the_bridge_and_the_wall.md` (the
+outward reach and the boundary). ← back to `00_the_question.md`. See also `08_where_it_stands.md`,
+`../knowledge/K008`, `../ARCHITECTURE.md`.

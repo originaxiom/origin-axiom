@@ -71,9 +71,12 @@ aspiration). It sets the governing roadmap:
   and cannot source ρ_Λ without an externally supplied scale; mainstream physics does **not** force a commutator-type
   obstruction (closest real analogue = the de Sitter swampland "no exact dS" structure, itself conjectural). **Banked
   (B148, re-derived):** κ=4I+2 (half-trace convention), the metallic monodromies = the SL(2,ℤ) MCG action, κ=−2 =
-  the Markov surface, eigenvalue = (metallic mean)², field ℚ(√(m²+4)). **Live:** **L14** (class-S coincidence — the one
-  tractable direction) and **L15** (firewall confirmation — the decisive boundary check). All firewalled; nothing
-  crosses to physical magnitude. See `STRATEGIC_SYNTHESIS.md` §8.
+  the Markov surface, eigenvalue = (metallic mean)², field ℚ(√(m²+4)). **Both leads now resolved:** **L14**
+  (class-S coincidence — CHARACTERIZED MIXED, B150: the SL(2,ℤ) trace-map action IS the N=2* S-duality MCG action,
+  FORCED at the character-variety level, RHYME at τ-modularity/magnitude) and **L15** (firewall confirmation —
+  CONFIRMED, B151: the firewall HOLDS, no invariant carries a scale). **The physics arc is CLOSED** — a real bridge
+  (symmetry) + a confirmed wall (no scale). A POSTULATED structural sharpening of the wall is recorded in
+  `STRATEGIC_SYNTHESIS.md` §8a. All firewalled; nothing crosses to physical magnitude.
 
 ## Standing open threads (B142 inventory — lose nothing)
 
@@ -83,7 +86,9 @@ The bigger open *prizes/threads* (distinct from the per-lead catalog above), wit
 |---|---|---|
 | **S031a full-locus** (φ-fixed entirely reducible at SL(n)) | principal stratum **RIGOROUS** (B142 Klein-4); full locus **CONJECTURE** | **symbolic elimination** of the φ-fixed system `A g⁻¹ A g = g A g⁻¹` (B=g⁻¹Ag), 0-dim (det=−1 ⟹ isolated); the `A~B~AB` (char `x³−sx²+px−1`) reduction cuts it. **Same machinery as the SL(4) route — do together.** Sage/Singular now available. |
 | **H1 — B89 completeness** (is the posited M⁴=L family the whole variety?) | **RESOLVED (B149, V138) — OUTCOME (a).** | **DONE.** Gauge-stratified ideal decomposition over ℚ(ω) (exhibited) + exact-over-F_p Burnside classification: the only stratum with **irreducible** reps is B89's rank-`Q=I₂` family, where M⁴=L holds; all other components of `V(I)` are reducible (MB7) or vacuous (`det t=0`). So **B89's family is the complete irreducible locus; M⁴=L is unconditional on it.** B89's proof untouched (scope upgraded). |
-| **H2 — citation check (BY HAND, external)** | **OPEN — the live follow-on to H1; not a sandbox task.** | Read **HMP** (arXiv:1505.04451): confirm `φ(m³ℓ)=1`; read **Tillmann** (math/0508295): confirm the trace dictionary. Only a human/external source closes whether the degree=rank / `L=(−1)ⁿ⁻¹Mⁿ` relation is already in the literature. **Do NOT branch to L14 (class-S) or other Tier-3 leads until H2 resolves** (the pull toward interesting-and-adjacent is the gravity to resist). |
+| **H2 — citation check (BY HAND, external)** | **OPEN — the user's by-hand accuracy check; not a sandbox task, not a gate.** | Read **HMP** (arXiv:1505.04451): confirm `φ(m³ℓ)=1`; read **Tillmann** (math/0508295): confirm the trace dictionary. Only a human/external source closes whether the degree=rank / `L=(−1)ⁿ⁻¹Mⁿ` relation is already in the literature. Small, parallel, whenever. |
+| **H4 — why is the figure-eight minimal along every axis?** (seeing question) | **OPEN (MATH); SHARPENED — mostly deflates.** | Under the project's own blade, the "minimal along every axis at once" convergence is largely **one axis in costumes**: minimal word-length ⟹ minimal volume ⟹ simplest substitution ⟹ root of the Markov tree ⟹ smallest trace field are all monotone in word-complexity. The **one non-deflatable axis is arithmeticity** (B147: arithmeticity is *scattered*, not word-length-ordered; the figure-eight is Reid's **unique arithmetic knot complement**, a separate deep theorem). So the real H4 = **why the independent arithmetic axis also bottoms out at the figure-eight.** A fresh line, not a debt. |
+| **H5 — the GL(2,ℤ) gluing / interaction landscape** (seeing question) | **OPEN (MATH).** | Extend B131/B144 from identity- and metallic-gluing to the full `GL(2,ℤ)` gluing landscape — map the discrete `κ`-sets and the interaction structure when units interact. Only touched so far. A fresh line, not a debt. |
 | **B85** — functorial `Sym(W) → trace-ring` wall | standing MATH prize, untouched | the honest proof-work target. |
 | **S032-A** — no-forced-choice *theorem*-version | OPEN | prove **no** invariant whatsoever (not just trace-ring) is discretely-multivalued-and-unsymmetric. |
 | **S033** — Gate-1 / Whitehead cusp-swap → SU(2)? | tool-gated, prior LOW | **now tied to MB10:** any SU(N) enhancement needs the **SL(N,ℂ)** CS data (`T_N[M]`), not SL(2,ℂ) dimension-matching. Sage/GKLP now available. |
