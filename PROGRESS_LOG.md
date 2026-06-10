@@ -3778,6 +3778,33 @@ open/separate; living-docs guard widened to B150. MATH tier; nothing to `CLAIMS.
 untouched; firewall intact. Ledger **V139**. `frontier/B150_class_s_coincidence/` +
 `tests/test_b150_class_s_coincidence.py` (5 passed; pyenv).
 
+## 2026-06-10 — B151: firewall confirmation (L15) — the firewall HOLDS; the unification is a symmetry identity that terminates at the wall (V140)
+
+The decisive boundary check, a **reading** task (how the primary sources assign units). L14 made the bridge real (the
+unit's SL(2,ℤ) symmetry IS the N=2\* duality action), so the firewall is tested hardest here. MATH tier (physics-boundary),
+**firewalled**; nothing to `CLAIMS.md`.
+
+- **The question:** in 3d–3d applied to the figure-eight, does the complex volume / CS invariant enter the partition
+  function **only** as a dimensionless exponent, with all dimensionful content in `ℏ↔k` + the squashing radius and **none**
+  in the invariant?
+- **Anchor (computed, SnapPy):** figure-eight Vol = 2.0298832128 (= 2·V_tet), **CS = 0** (amphichiral); `Vol+iCS ∈ ℂ/4π²ℤ`
+  — a dimensionless number mod a lattice. **Pre-strengthening:** CS (the candidate scale-carrier) vanishes for the unit,
+  so its complex volume is purely the real hyperbolic volume — the unit is the *least* likely object to carry a scale.
+- **The reading (3 sources, all FIREWALL_HOLDS):** GTZ (1111.2828) — `ĉ(ρ) ∈ ℂ/4π²ℤ` (Neumann extended Bloch group),
+  dimensionless; Dimofte (1409.0857) — complex CS *at level k*, state-integral on `L(k,1)`, units in `k↔ℏ` + lens
+  geometry, `Vol_C` the exponent saddle; Córdova–Jafferis (1305.2891) — "a squashing parameter controls the imaginary
+  part of the complex CS level." In every case the units sit in `ℏ/k` + the squashing radius, never in the invariant.
+- **Verdict — FIREWALL HOLDS, decisively.** No κ-type or volume-type invariant of the unit can source a physical scale.
+  The unification is a **symmetry identity (L14)** and **terminates at the firewall (L15)** — a real bridge + a confirmed
+  wall = the honest boundary of the one-object picture; the cosmological-constant question lies on the far side. Banked as
+  the firewall holding (a real result, **not** a crossing; the real L14 bridge is **not** over-read — a symmetry is not a
+  scale).
+
+`OPEN_LEADS` L15 → CONFIRMED; `STRATEGIC_SYNTHESIS` §8 updated (L14/L15 both resolved); living-docs guard widened to B151.
+H2 (HMP/Tillmann by hand) and H4/H5 (deeper-understanding frontier) remain separate/open. MATH tier; nothing to
+`CLAIMS.md`; P1–P16, B85, the merged B124–B150 untouched; firewall intact. Ledger **V140**.
+`frontier/B151_firewall_confirmation/` + `tests/test_b151_firewall_confirmation.py` (5 passed; pyenv).
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
