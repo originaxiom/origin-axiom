@@ -3720,6 +3720,36 @@ symbolically, not inherited). MATH tier; **firewalled** throughout.
 nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B147 untouched; firewall intact. Ledger **V137**.
 `frontier/B148_kappa_fricke_metallic/` + `tests/test_b148_kappa_fricke_metallic.py` (5 passed; pyenv, pure sympy).
 
+## 2026-06-10 — B149: B89's family is the COMPLETE irreducible component; M⁴=L unconditional on the irreducible locus (V138)
+
+H1 (refocused). B89 is **already** an exact symbolic proof over ℚ(ω) (re-read + re-ran: `[A,B]det²=−det·μ⁴` holds
+entry-by-entry `==0`; the handoff's "numerically-coaxed" premise doesn't apply; `exp011` is a separate downstream
+numeric check). The real residual gap was **completeness**: B89 *posits* a 4-param family and proves M⁴=L on it — does
+it exhaust the defining ideal's variety? MATH tier; no physics; B89's proof untouched (scope refined).
+
+- **Method:** gauge-stratify the defining ideal `I` (10 quadratics `S=tAt` off-pattern, A=diag(1,1,ω,ω²)) by rank of the
+  coupling block `Q=t[0:2,2:4]` (rank gauge-invariant; the full 16-var primdec is gauge-intractable). The Q normal forms
+  (rank 2→I₂; rank 1→three forms; rank 0→0) **exhaust all reps up to gauge**.
+- **Exhibited (symbolic, Sage/Singular `minimal_associated_primes` over ℚ(ω)):** rank-Q2 (B89's, dense) = **exactly 2
+  components, both M⁴=L** (by exact ideal membership) — B89's family (`det≠0`) + a vacuous (`det≡0`) branch; rank-Q1
+  forms vacuous/reducible; **rank-Q0 reducible — exhibited** (`Q=0`⇒`span(e₂,e₃)` invariant under A,t,B).
+- **Decisive classification (exact over F_p, p≡1 mod 3, two primes; Burnside algebra-dim=16 ⟺ absolutely irreducible):**
+  the **only** stratum carrying irreducible reps is rank-Q2 = B89's family; **decisive cell (irreducible ∧ M⁴=L fails) =
+  0**. → **OUTCOME (a):** B89's family is the complete component of irreducible bundle reps; M⁴=L is **unconditional on
+  the irreducible locus**; every M⁴=L violation in `V(I)` is reducible (MB7) or vacuous (det=0). Scope upgraded from "on
+  the principal component" to "the principal component **is** the irreducible locus."
+- **Methodology (verify-don't-trust caught 3 wrong turns):** a symbol-name collision (caught by the consistency gate);
+  the **Schur commutant test is invalid for irreducibility** (a reducible non-semisimple rep can have commutant=scalars
+  — it falsely flagged the provably-reducible Q=0 stratum; the correct **Burnside** test was validated against the Q=0
+  exhibit and B89's known irreducibility); a BFS algebra-dim blowup (→ span-closure). No float claim is load-bearing.
+- **Next (H2, by hand, external):** read HMP (arXiv:1505.04451, `φ(m³ℓ)=1`) and Tillmann (math/0508295, trace
+  dictionary) — only a human/external source closes the literature/novelty question. Do **not** branch to L14 until H2.
+
+`OPEN_LEADS` H1 resolved / H2 logged; B89 FINDINGS forward note (scope upgraded); living-docs guard widened to B149.
+MATH tier; nothing to `CLAIMS.md`; P1–P16, B85, B89, the merged B124–B148 untouched. Ledger **V138**.
+`frontier/B149_sl4_ideal_completeness/` (probe/decompose/classify_fp + `decomposition.json`, `irreducibility_fp.json`) +
+`tests/test_b149_sl4_ideal_completeness.py` (6 passed; pyenv).
+
 ---
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.

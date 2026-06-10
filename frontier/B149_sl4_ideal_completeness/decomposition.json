@@ -1,0 +1,455 @@
+{
+  "field": "Q(w), w^2+w+1=0",
+  "ideal": "S=tAt off-pattern, A=diag(1,1,w,w^2), 10 quadratics in 16 vars; stratified by rank(Q)",
+  "strata": {
+    "rankQ2_Qinv": {
+      "label": "rankQ2_Qinv",
+      "n_vars": 12,
+      "Q": {
+        "(0, 2)": "1",
+        "(0, 3)": "0",
+        "(1, 2)": "0",
+        "(1, 3)": "1"
+      },
+      "n_components": 2,
+      "components": [
+        {
+          "index": 0,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": false,
+          "gens": [
+            "t22 + (-w)*t33",
+            "t20 + (-w)*t31",
+            "t11 + (-w - 1)*t33",
+            "t10 + (-w - 1)*t32",
+            "t01 + w*t23",
+            "t00 + (-w - 1)*t33",
+            "t23*t32 + w*t33^2 + (-w - 1)*t31",
+            "t23*t30 - t21*t32",
+            "t21*t32^2 + w*t30*t33^2 + (-w - 1)*t30*t31"
+          ]
+        },
+        {
+          "index": 1,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t11 + (-w - 1)*t33",
+            "t10 + (-w - 1)*t32",
+            "t01 + w*t23",
+            "t00 + w*t22",
+            "t23*t32 + w*t33^2 + (-w - 1)*t31",
+            "t22*t32 + w*t32*t33 + (-w - 1)*t30",
+            "t23*t30 - t21*t32",
+            "t22*t30 - t20*t32 + w*t31*t32 + (-w)*t30*t33",
+            "t22*t23 + w*t23*t33 + (-w - 1)*t21",
+            "t22^2 + (w + 1)*t33^2 + (-w - 1)*t20 - t31",
+            "t21*t22 - t20*t23 + w*t23*t31 + (-w)*t21*t33",
+            "t22*t33^2 + w*t33^3 + w*t22*t31 + (-w)*t21*t32 + (-w - 1)*t31*t33",
+            "2*t21*t32*t33 - t20*t33^2 + w*t31*t33^2 + w*t21*t30 + (-w)*t20*t31 + (-w - 1)*t31^2",
+            "t21*t32^2 + w*t30*t33^2 + (-w - 1)*t30*t31",
+            "t20*t32^2 + (-w)*t31*t32^2 + (2*w)*t30*t32*t33 + (-w - 1)*t30^2",
+            "t20*t23^2 + (-w)*t23^2*t31 + (2*w)*t21*t23*t33 + (-w - 1)*t21^2",
+            "t20*t32*t33^2 + (-w)*t31*t32*t33^2 + (2*w)*t30*t33^3 + (-w)*t21*t30*t32 + w*t20*t31*t32 + (w + 1)*t31^2*t32 + (-2*w - 2)*t30*t31*t33",
+            "t20*t23*t33^2 + (-w)*t23*t31*t33^2 + (2*w)*t21*t33^3 + w*t20*t23*t31 + (w + 1)*t23*t31^2 + (-w)*t21^2*t32 + (-2*w - 2)*t21*t31*t33",
+            "t20^2*t33^3 + (4*w)*t21*t30*t33^3 + (-2*w)*t20*t31*t33^3 + (-w - 1)*t31^2*t33^3 + (-2*w)*t21^2*t30*t32 + (2*w)*t20*t21*t31*t32 + (2*w + 2)*t21*t31^2*t32 + (-w)*t20*t21*t30*t33 + w*t20^2*t31*t33 + (-5*w - 5)*t21*t30*t31*t33 + (2*w + 2)*t20*t31^2*t33 + t31^3*t33"
+          ]
+        }
+      ]
+    },
+    "rankQ1_10": {
+      "label": "rankQ1_10",
+      "n_vars": 12,
+      "Q": {
+        "(0, 2)": "1",
+        "(0, 3)": "0",
+        "(1, 2)": "0",
+        "(1, 3)": "0"
+      },
+      "n_components": 4,
+      "components": [
+        {
+          "index": 0,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t33",
+            "t23",
+            "t22",
+            "t21",
+            "t20",
+            "t10",
+            "t00",
+            "t01*t30 + t11*t31"
+          ]
+        },
+        {
+          "index": 1,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t33",
+            "t23",
+            "t22",
+            "t20",
+            "t11",
+            "t10",
+            "t00",
+            "t01*t30 + w*t21*t32"
+          ]
+        },
+        {
+          "index": 2,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t33",
+            "t23",
+            "t11",
+            "t10",
+            "t00 + w*t22",
+            "t22*t32 + (-w - 1)*t30",
+            "t22*t30 - t20*t32",
+            "t01*t30 + w*t21*t32",
+            "t22^2 + (-w - 1)*t20",
+            "t01*t22 - t21",
+            "t01*t20 + w*t21*t22",
+            "t20*t32^2 + (-w - 1)*t30^2"
+          ]
+        },
+        {
+          "index": 3,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t33",
+            "t23",
+            "t10",
+            "t00 + w*t22",
+            "t22*t32 + (-w - 1)*t30",
+            "t22*t31 - t21*t32",
+            "t22*t30 - t20*t32",
+            "t21*t30 - t20*t31",
+            "t01*t30 + t11*t31 + w*t21*t32",
+            "t22^2 + (-w - 1)*t20",
+            "t01*t20 + t11*t21 + w*t21*t22",
+            "t21*t32^2 + (-w - 1)*t30*t31",
+            "t20*t32^2 + (-w - 1)*t30^2"
+          ]
+        }
+      ]
+    },
+    "rankQ1_11": {
+      "label": "rankQ1_11",
+      "n_vars": 12,
+      "Q": {
+        "(0, 2)": "1",
+        "(0, 3)": "1",
+        "(1, 2)": "0",
+        "(1, 3)": "0"
+      },
+      "n_components": 4,
+      "components": [
+        {
+          "index": 0,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t32 - t33",
+            "t22 - t23",
+            "t10",
+            "t00 + w*t23 + (-w - 1)*t33",
+            "t23*t33 + w*t33^2 + (-w - 1)*t30",
+            "t23*t31 - t21*t33",
+            "t23*t30 - t20*t33",
+            "t21*t30 - t20*t31",
+            "t01*t30 + t11*t31 + w*t21*t33 + (-w - 1)*t31*t33",
+            "t23^2 + (w + 1)*t33^2 + (-w - 1)*t20 - t30",
+            "t01*t20 + t11*t21 + w*t21*t23 + (-w - 1)*t21*t33",
+            "t21*t33^2 + w*t31*t33^2 + (-w - 1)*t30*t31",
+            "t20*t33^2 + w*t30*t33^2 + (-w - 1)*t30^2"
+          ]
+        },
+        {
+          "index": 1,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t32 - t33",
+            "t22 - t23",
+            "t11",
+            "t10",
+            "t00 + w*t23 + (-w - 1)*t33",
+            "t23*t33 + w*t33^2 + (-w - 1)*t30",
+            "t23*t30 - t20*t33",
+            "t01*t30 + w*t21*t33 + (-w - 1)*t31*t33",
+            "t23^2 + (w + 1)*t33^2 + (-w - 1)*t20 - t30",
+            "t01*t23 + w*t01*t33 - t21 + (-w)*t31",
+            "t01*t20 + w*t21*t23 + (-w - 1)*t23*t31",
+            "t20*t33^2 + w*t30*t33^2 + (-w - 1)*t30^2"
+          ]
+        },
+        {
+          "index": 2,
+          "dim": 4,
+          "m4_equals_l": false,
+          "det_t_vanishes": false,
+          "gens": [
+            "t23 + (-w)*t32",
+            "t22 + (-w)*t33",
+            "t21 + (-w)*t31",
+            "t20 + (-w)*t30",
+            "t10",
+            "t00 + (-w - 1)*t32 + (-w - 1)*t33",
+            "t32^2 + t33^2 + w*t30",
+            "t01*t30 + t11*t31 + (-w - 1)*t31*t32 + (-w - 1)*t31*t33"
+          ]
+        },
+        {
+          "index": 3,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": false,
+          "gens": [
+            "t23 + (-w)*t32",
+            "t22 + (-w)*t33",
+            "t20 + (-w)*t30",
+            "t11 + (w + 1)*t32 + (-w - 1)*t33",
+            "t10",
+            "t00 + (-w - 1)*t32 + (-w - 1)*t33",
+            "t32^2 + t33^2 + w*t30",
+            "t01*t30 + w*t21*t32 + (-w - 1)*t31*t32"
+          ]
+        }
+      ]
+    },
+    "rankQ1_b": {
+      "label": "rankQ1_b",
+      "n_vars": 12,
+      "Q": {
+        "(0, 2)": "0",
+        "(0, 3)": "1",
+        "(1, 2)": "0",
+        "(1, 3)": "0"
+      },
+      "n_components": 4,
+      "components": [
+        {
+          "index": 0,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t33",
+            "t32",
+            "t31",
+            "t30",
+            "t22",
+            "t10",
+            "t00",
+            "t01*t20 + t11*t21"
+          ]
+        },
+        {
+          "index": 1,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t33",
+            "t32",
+            "t30",
+            "t22",
+            "t11",
+            "t10",
+            "t00",
+            "t01*t20 + (-w - 1)*t23*t31"
+          ]
+        },
+        {
+          "index": 2,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t32",
+            "t22",
+            "t11",
+            "t10",
+            "t00 + (-w - 1)*t33",
+            "t33^2 + w*t30",
+            "t23*t33 + w*t20",
+            "t01*t33 - t31",
+            "t23*t30 - t20*t33",
+            "t01*t30 + (-w - 1)*t31*t33",
+            "t01*t20 + (-w - 1)*t23*t31"
+          ]
+        },
+        {
+          "index": 3,
+          "dim": 4,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t32",
+            "t22",
+            "t10",
+            "t00 + (-w - 1)*t33",
+            "t33^2 + w*t30",
+            "t23*t33 + w*t20",
+            "t23*t31 - t21*t33",
+            "t23*t30 - t20*t33",
+            "t21*t30 - t20*t31",
+            "t01*t30 + t11*t31 + (-w - 1)*t31*t33",
+            "t01*t20 + t11*t21 + (-w - 1)*t21*t33"
+          ]
+        }
+      ]
+    },
+    "rankQ0": {
+      "label": "rankQ0",
+      "n_vars": 12,
+      "Q": {
+        "(0, 2)": "0",
+        "(0, 3)": "0",
+        "(1, 2)": "0",
+        "(1, 3)": "0"
+      },
+      "n_components": 6,
+      "components": [
+        {
+          "index": 0,
+          "dim": 6,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t22 + w*t33",
+            "t23*t32 + w*t33^2",
+            "t21*t32 + w*t31*t33",
+            "t20*t32 + w*t30*t33",
+            "t23*t31 - t21*t33",
+            "t23*t30 - t20*t33",
+            "t21*t30 - t20*t31",
+            "t01*t30 + t11*t31",
+            "t00*t30 + t10*t31",
+            "t01*t20 + t11*t21",
+            "t00*t20 + t10*t21",
+            "t01*t10 - t00*t11"
+          ]
+        },
+        {
+          "index": 1,
+          "dim": 6,
+          "m4_equals_l": false,
+          "det_t_vanishes": false,
+          "gens": [
+            "t22 + (-w)*t33",
+            "t23*t32 + w*t33^2",
+            "t21*t30 - t20*t31",
+            "t01*t30 + t11*t31 + w*t21*t32 + (-w - 1)*t31*t33",
+            "t00*t30 + t10*t31 + w*t20*t32 + (-w - 1)*t30*t33",
+            "t01*t20 + t11*t21 + (-w - 1)*t23*t31 + (-w - 1)*t21*t33",
+            "t00*t20 + t10*t21 + (-w - 1)*t23*t30 + (-w - 1)*t20*t33",
+            "t23*t31^2 + (w + 1)*t21^2*t32",
+            "t23*t30*t31 + (w + 1)*t20*t21*t32",
+            "t01*t10*t31 - t00*t11*t31 + (-w)*t00*t21*t32 + (-w)*t11*t21*t32 + (w + 1)*t00*t31*t33 + (w + 1)*t11*t31*t33 - 2*t21*t32*t33",
+            "t23*t30^2 + (w + 1)*t20^2*t32",
+            "t01*t10*t21 - t00*t11*t21 + (w + 1)*t00*t23*t31 + (w + 1)*t11*t23*t31 + (w + 1)*t00*t21*t33 + (w + 1)*t11*t21*t33 + (-2*w)*t23*t31*t33",
+            "t21^2*t32^2 + (-w - 1)*t31^2*t33^2",
+            "t20*t21*t32^2 + (-w - 1)*t30*t31*t33^2",
+            "t20^2*t32^2 + (-w - 1)*t30^2*t33^2",
+            "t01^2*t10^2 - 2*t00*t01*t10*t11 + t00^2*t11^2 + (2*w + 2)*t00*t01*t10*t33 + (-2*w - 2)*t00^2*t11*t33 + (2*w + 2)*t01*t10*t11*t33 + (-2*w - 2)*t00*t11^2*t33 + (2*w)*t00^2*t33^2 + (4*w)*t00*t11*t33^2 + (2*w)*t11^2*t33^2 + 4*t00*t33^3 + 4*t11*t33^3 + (-4*w - 4)*t33^4"
+          ]
+        },
+        {
+          "index": 2,
+          "dim": 6,
+          "m4_equals_l": false,
+          "det_t_vanishes": true,
+          "gens": [
+            "t31",
+            "t30",
+            "t22 + w*t33",
+            "t21",
+            "t20",
+            "t23*t32 + w*t33^2"
+          ]
+        },
+        {
+          "index": 3,
+          "dim": 6,
+          "m4_equals_l": false,
+          "det_t_vanishes": false,
+          "gens": [
+            "t31",
+            "t30",
+            "t22 + (-w)*t33",
+            "t21",
+            "t20",
+            "t23*t32 + w*t33^2"
+          ]
+        },
+        {
+          "index": 4,
+          "dim": 6,
+          "m4_equals_l": true,
+          "det_t_vanishes": false,
+          "gens": [
+            "t22 + (-w)*t33",
+            "t00 + t11 + (-2*w - 2)*t33",
+            "t23*t32 + w*t33^2",
+            "t11*t30 - t10*t31 + (-w)*t20*t32 + (-w - 1)*t30*t33",
+            "t01*t30 + t11*t31 + w*t21*t32 + (-w - 1)*t31*t33",
+            "t11*t20 - t10*t21 + (w + 1)*t23*t30 + (-w - 1)*t20*t33",
+            "t01*t20 + t11*t21 + (-w - 1)*t23*t31 + (-w - 1)*t21*t33",
+            "t01*t10 + t11^2 + (-2*w - 2)*t11*t33 + (2*w)*t33^2",
+            "t10*t21*t30 + (-w - 1)*t23*t30^2 - t10*t20*t31 + (-w)*t20^2*t32"
+          ]
+        },
+        {
+          "index": 5,
+          "dim": 6,
+          "m4_equals_l": true,
+          "det_t_vanishes": true,
+          "gens": [
+            "t22 + w*t33",
+            "t00 + t11",
+            "t23*t32 + w*t33^2",
+            "t11*t30 - t10*t31 + (-w)*t20*t32 + (w + 1)*t30*t33",
+            "t01*t30 + t11*t31 + w*t21*t32 + (-w - 1)*t31*t33",
+            "t11*t20 - t10*t21 + (w + 1)*t23*t30 + (-w - 1)*t20*t33",
+            "t01*t20 + t11*t21 + (-w - 1)*t23*t31 + (w + 1)*t21*t33",
+            "t01*t10 + t11^2",
+            "t10*t21*t30 + (-w - 1)*t23*t30^2 - t10*t20*t31 + (-w)*t20^2*t32 + (2*w + 2)*t20*t30*t33"
+          ]
+        }
+      ]
+    }
+  },
+  "verdict": {
+    "all_strata_decomposed": true,
+    "det_nonzero_components_violating_M4L": [
+      [
+        "rankQ1_11",
+        2
+      ],
+      [
+        "rankQ0",
+        1
+      ],
+      [
+        "rankQ0",
+        3
+      ]
+    ],
+    "note": "'det_nonzero_components_violating_M4L' flags components with det t != 0 where M^4=L fails -- but this uses ONLY det != 0, NOT the MB7 irreducibility filter. The genuine-bundle-rep question needs IRREDUCIBILITY (Burnside), settled exactly over F_p in irreducibility_fp.json: every such component is REDUCIBLE (the only stratum carrying irreducible reps is rankQ2 = B89's family, where M^4=L holds). See FINDINGS.md for the combined verdict (OUTCOME (a): B89's family is the complete IRREDUCIBLE locus)."
+  }
+}

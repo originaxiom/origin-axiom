@@ -49,3 +49,11 @@ python -m pytest tests/test_b89_sl4_symbolic_M4L.py -q
 ```
 
 No Origin-core claim; proven core P1–P16 untouched; outreach dormant.
+
+> **Forward note (B149, V138).** B89 proves M⁴=L on a *posited* 4-parameter family. B149 (`../B149_sl4_ideal_completeness/`)
+> closes the completeness question: an exhibited gauge-stratified decomposition of the defining ideal over ℚ(ω) +
+> an exact-over-F_p Burnside classification show that **the only stratum carrying irreducible reps is this family
+> (rank `Q=I₂`), where M⁴=L holds** — every other component of `V(I)` is reducible (MB7) or vacuous (`det t=0`). So
+> B89's family is the **complete component of irreducible bundle reps** and M⁴=L is **unconditional on the irreducible
+> locus** (not just the posited slice). B89's proof stands as written; B149 upgrades its scope from "on the principal
+> component" to "the principal component is the irreducible locus."

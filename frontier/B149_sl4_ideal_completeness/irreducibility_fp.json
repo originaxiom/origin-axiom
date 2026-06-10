@@ -1,0 +1,47 @@
+{
+  "prime": 1000003,
+  "test": "Burnside algebra-dim=16 <=> absolutely irreducible (validated vs the symbolic Q=0 reducibility exhibit and B89's known irreducibility)",
+  "per_stratum": {
+    "rankQ2 (Q=I2,B89)": {
+      "irr&M4=L": 12,
+      "irr&M4!=L": 0,
+      "red&M4=L": 0,
+      "red&M4!=L": 0,
+      "n": 12
+    },
+    "rankQ1 [[1,0],[0,0]]": {
+      "irr&M4=L": 0,
+      "irr&M4!=L": 0,
+      "red&M4=L": 0,
+      "red&M4!=L": 0,
+      "n": 0
+    },
+    "rankQ1 [[1,1],[0,0]]": {
+      "irr&M4=L": 0,
+      "irr&M4!=L": 0,
+      "red&M4=L": 7,
+      "red&M4!=L": 7,
+      "n": 14
+    },
+    "rankQ1 [[0,1],[0,0]]": {
+      "irr&M4=L": 0,
+      "irr&M4!=L": 0,
+      "red&M4=L": 0,
+      "red&M4!=L": 0,
+      "n": 0
+    },
+    "rankQ0 (Q=0)": {
+      "irr&M4=L": 0,
+      "irr&M4!=L": 0,
+      "red&M4=L": 7,
+      "red&M4!=L": 6,
+      "n": 13
+    }
+  },
+  "decisive_cell_irreducible_and_M4L_fails": 0,
+  "total_irreducible_satisfying_M4L": 12,
+  "only_stratum_with_irreducible_reps": [
+    "rankQ2 (Q=I2,B89)"
+  ],
+  "verdict": "CLEAN"
+}
