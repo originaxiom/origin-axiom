@@ -1,0 +1,146 @@
+\section{The knot: the figure-eight $A$-polynomial family}
+\label{sec:knot}
+
+We now turn to the geometric face of the object: the figure-eight knot complement and its
+$A$-polynomial. The $A$-polynomial records the relation between the meridian eigenvalue
+$M$ and the longitude eigenvalue $L$ as the cusp holonomy varies along the character
+variety. The central observation is that the trace-map fixed locus of the previous
+sections \emph{reproduces} the published $A$-polynomial data exactly at $\SL(2)$ and
+$\SL(3)$, and \emph{extends} it to $\SL(4)$.
+
+\subsection{The known base cases}
+
+\begin{theorem}[\sKnown, reproduced exactly]\label{thm:cl}
+At $\SL(2)$ the fixed locus $\mathrm{Fix}(T_1^2)$ of the squared metallic trace map
+yields the Cooper--Long figure-eight $A$-polynomial \cite{ccgls1994}
+\begin{equation}\label{eq:CL}
+  A(M,L) = M^4L^2 + (-M^8+M^6+2M^4+M^2-1)\,L + M^4,
+\end{equation}
+to machine precision. At $\SL(3)$ the same construction reproduces the boundary
+$A$-variety of Heusener--Mu\~noz--Porti and Falbel et al.\
+\cite{hmp2016,fgkrt2014}: the two Dehn-filling components
+$W_1:\ M^3=L$ and $W_2:\ M^3L=1$, together with a geometric component $V_0$ (the
+$\Sym^2$ shadow of the $\SL(2)$ component) which has no tidy closed form.
+\end{theorem}
+
+Figures~\ref{fig:apoly} and \ref{fig:sl3} show the $\SL(2)$ curve and the $\SL(3)$
+component structure. We claim no novelty for Theorem~\ref{thm:cl}: it is a verification
+that our trace-map machinery agrees with the literature, and it is the control that
+licenses the extension to $\SL(4)$.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.78\linewidth]{fig06_apolynomial_sl2}
+  \caption{The figure-eight $A$-polynomial \eqref{eq:CL} (Cooper--Long) recovered from
+  the trace-map fixed locus: the two real branches $L_\pm(M)$ and, in the complex-$L$
+  region, $|L|=1$. \sKnown}
+  \label{fig:apoly}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.82\linewidth]{fig07_sl3_character_variety}
+  \caption{The $\SL(3)$ figure-eight character variety reproduced by the trace map: the
+  geometric component $V_0$ ($\Sym^2$, dimension $2$) and the two Dehn-filling components
+  $W_1:M^3=L$, $W_2:M^3L=1$, matching Falbel et al.\ and Heusener--Mu\~noz--Porti. This
+  is the $n=3$ base case of the degree$=$rank family. \sKnown}
+  \label{fig:sl3}
+\end{figure}
+
+\subsection{The $\SL(4)$ relation, and the family it suggests}
+
+On the principal Dehn-filling component --- the component on which $\tr A=\tr A^{-1}=1$,
+which carries the geometric representation --- the boundary eigenvalues satisfy a single
+clean relation, the meridian raised to the rank:
+\begin{equation}\label{eq:family}
+  L \;=\; (-1)^{\,n-1} M^{\,n}.
+\end{equation}
+At $n=2$ this is the effective slope of \eqref{eq:CL}; at $n=3$ it is Falbel's $L=+M^3$.
+The new instance is $n=4$.
+
+\begin{theorem}[\sExact \;/\; \sGated]\label{thm:m4l}
+On the principal $\SL(4)$ Dehn-filling component the longitude and meridian eigenvalues
+satisfy
+\begin{equation}
+  L = -M^4,
+\end{equation}
+established symbolic-exact over $\Q(\omega)$ ($\omega$ a primitive cube root of unity).
+Concretely, eliminating the second generator collapses the bundle relations to an ideal
+whose principal-spectrum stratum is a four-parameter family on which the identity
+$[A,B]\cdot\det(t)^2 = -\det(t)\cdot\mu^4$ holds as a polynomial identity --- no division,
+no numerics. Moreover this family is \emph{complete} on the irreducible locus
+(Theorem~\ref{thm:complete}).
+\end{theorem}
+
+\paragraph{\textmd{\textbf{The gate, stated plainly.}}} Theorem~\ref{thm:m4l} is the one
+result in this paper we cannot present as settled-novel, and we flag it \sGated\
+deliberately and repeatedly. An adversarial literature read --- assuming the result was
+already known and hunting for prior art in the Cooper--Long, Heusener--Mu\~noz--Porti,
+Falbel, Tillmann and Bergeron--Falbel--Guilloux circle \cite{ccgls1994,hmp2016,fgkrt2014,tillmann2005,bfg2014}
+--- found no statement of the $\SL(4)$ figure-eight $A$-polynomial $L=-M^4$, and the
+literature describes $\SL(4)$ figure-eight geometry as open. But two cautions are
+binding. \emph{First}, an AI-assisted literature read \emph{de-risks} a novelty question;
+it does not \emph{close} it. The reader should treat ``appears novel'' as ``no prior art
+was found by a non-specialist sweep,'' and the genuine verdict awaits a specialist in the
+Falbel / Bergeron--Falbel--Guilloux subfield. \emph{Second}, the relation \eqref{eq:family}
+is established only at $n=3$ (known) and $n=4$ (Theorem~\ref{thm:m4l}); the principal
+$\SL(5)$ representation is not numerically locatable, so ``a family for all $n\ge3$'' is a
+\emph{conjecture plus a prediction}, not an established family (\fig{fig:slope}). It may
+also be implicit in the flag-variety frameworks of \cite{bfg2014,gtz2015}; that, too, is
+for a specialist to decide.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.78\linewidth]{fig08_an_family_slope_rank}
+  \caption{The conjectural $A_n$ family $L=(-1)^{n-1}M^n$ in the $(\log|M|,\log|L|)$
+  plane: the slope of each line equals the rank. $n=3$ is Falbel (known); $n=4$
+  ($L=-M^4$) is Theorem~\ref{thm:m4l}, \sGated; $n\ge5$ is conjectural and not yet
+  locatable. \sGated}
+  \label{fig:slope}
+\end{figure}
+
+\subsection{Completeness on the irreducible locus}
+
+The proof of $L=-M^4$ posits an explicit four-parameter family of $\SL(4)$ bundle
+representations. A natural worry is that this family is only a checked corner of a larger
+variety. It is not.
+
+\begin{theorem}[\sProved]\label{thm:complete}
+For the principal $A$-spectrum $\{1,1,\omega,\omega^2\}$, the defining ideal of the
+$\SL(4)$ figure-eight bundle representations, stratified by the rank of the coupling
+block (the only stratification compatible with the gauge action), has a single stratum
+carrying absolutely irreducible representations: the four-parameter family of
+Theorem~\ref{thm:m4l}. Every other stratum is reducible or vacuous ($\det t=0$).
+Consequently $L=-M^4$ holds \emph{unconditionally on the irreducible locus}.
+\end{theorem}
+
+Figure~\ref{fig:strat} shows the stratification. The irreducibility classification was
+performed exactly over a finite field using the \emph{Burnside} criterion (the generated
+algebra is the full matrix algebra iff the representation is absolutely irreducible),
+\emph{validated against} a stratum already proved reducible by hand. We stress this point
+of method because the verdict flipped twice under scrutiny before settling: a tempting
+alternative test, the Schur commutant, is \emph{invalid} for non-semisimple
+representations and falsely flagged a provably-reducible stratum as irreducible. The
+banked result rests on the validated test, not the convenient one.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig09_sl4_stratification}
+  \caption{$\SL(4)$ completeness. Gauge-rank strata of the bundle ideal, classified by
+  the Burnside test over $\Fp$: only the rank-$Q{=}2$ stratum (the family of
+  Theorem~\ref{thm:m4l}) carries irreducible representations, and all of them satisfy
+  $M^4=L$. The irreducible locus \emph{is} the family. \sProved}
+  \label{fig:strat}
+\end{figure}
+
+\subsection{Why ``exponent $=$ rank'' stops}
+
+The relation \eqref{eq:family} ties the $A$-polynomial exponent to the rank $n$, and the
+sign $(-1)^{n-1}$ to $\det M=-1$. The mechanism is the principal Dehn-filling spectrum:
+the boundary condition $\tr A=\tr A^{-1}=1$ \emph{forces} the spectrum to be
+$\{1,i,-i\}$ at $n=3$, $\{1,1,\omega,\omega^2\}$ at $n=4$, and $\{1,1,1,-1,-1\}$ at
+$n=5$; for $n\ge6$ it is impossible. At $n=5$ the forced spectrum makes $A^2=I$, hence
+$\langle A,B\rangle$ dihedral, hence reducible --- there is no irreducible bundle
+representation on the principal $\SL(5)$ component. So ``exponent $=$ rank'' is genuinely
+an $n\in\{3,4\}$ phenomenon, read off the cusp's forced spectrum, and the apparent ceiling
+is a fact about the boundary condition, not a limit of computation.

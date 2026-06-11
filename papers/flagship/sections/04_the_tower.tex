@@ -1,0 +1,89 @@
+\section{The tower: a Dickson factorisation, proved through $\SL(4)$}
+\label{sec:tower}
+
+The trace map of Section~\ref{sec:invariant} lives on $\SL(2,\C)$ characters. Replacing
+$\SL(2,\C)$ by $\SL(n,\C)$ produces, for each $n$, an $(n^2-1)$-dimensional linear map
+$J(m)$ --- the linearisation of the $\SL(n)$ metallic trace map at the trivial
+representation, an adjoint-type representation of the external monodromy. The
+\emph{tower} is the sequence $(J(m))_{n\ge2}$, and its arithmetic is governed by a single
+catalogue.
+
+\subsection{The Dickson catalogue}
+
+For the metallic matrix $M=M_m$ write $L_k=\tr(M^k)$, the Lucas-type sequence with
+$L_k=mL_{k-1}+L_{k-2}$ (recall $\det M=-1$). The characteristic polynomial of $\pm M^k$
+is
+\begin{equation}
+  \chi(\pm M^k) \;=\; t^2 \mp L_k\,t + (-1)^k,
+\end{equation}
+a \emph{Dickson polynomial} in the variable $m$. The central structural fact is that the
+$(n^2-1)$-dimensional charpoly $\det(tI-J(m))$ factors entirely over this catalogue.
+
+\begin{theorem}[\sExact, \sProved]\label{thm:tower}
+Over $\Z[m]$ one has the factorisations
+\begin{align}
+  n=3:\quad \det(tI-J) &= \chi(M^{-1})\,\chi(M^2)\,\chi(M^3)\,(t-1)(t+1),\\
+  n=4:\quad \det(tI-J) &= \chi(M)\,\chi(-M)\,\chi(M^2)\,\chi(-M^2)\,\chi(M^3)\,\chi(M^4)\,(t-1)^2(t+1).
+\end{align}
+The $n=3$ identity is symbolic over all $m$; the $n=4$ identity is established
+\emph{from first principles} by a Chinese-remainder/$\Fp$ interpolation of the symbolic
+Jacobian over $\Z[m]$, with the factored characteristic polynomial reconstructed exactly
+and verified to match the catalogue.
+\end{theorem}
+
+Figure~\ref{fig:tower} displays the catalogue: each factor $\chi(\pm M^k)$ is a node at
+signed power $k$, coloured by the parity of $|k|$. (By the Observation of
+Section~\ref{sec:object}, $\chi(M^{-1})=\chi(-M)$, so the $n=3$ ``inverse'' node and a
+sign node coincide.) The parity colouring is itself a theorem.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig04_dickson_tower}
+  \caption{The Dickson tower. The $(n^2-1)$-dimensional charpoly $\det(tI-J(m))$ factors
+  into Dickson pieces $\chi(\pm M^k)=t^2\mp L_k t+(-1)^k$; nodes are placed at the signed
+  power $k$ and coloured by parity ($\circ$ sign $+$, $\diamond$ sign $-$). Even-$|k|$
+  factors are $P$-symmetric, odd-$|k|$ factors $P$-antisymmetric --- the same
+  $\theta=-w_0$ that grades $A_{n-1}$. Data and factorisation from the symbolic
+  $\SL(4)$ Jacobian. \sProved}
+  \label{fig:tower}
+\end{figure}
+
+\begin{proposition}[\sProved]\label{prop:parity}
+The factor $\chi(M^k)$ sits in the $P$-symmetric part of the adjoint module when $|k|$ is
+even and in the $P$-antisymmetric part when $|k|$ is odd, where $P$ is the
+contragredient ($m\mapsto -m$) symmetry. This grading is exactly the action of the
+opposition involution $\theta=-w_0$ of the root system $A_{n-1}$ (\fig{fig:opp}); it
+holds for all $n$ by a Dickson-parity argument and requires no numerics.
+\end{proposition}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.62\linewidth]{fig05_opposition_involution}
+  \caption{The opposition involution $\theta=-w_0$ on the $A_2$ (i.e.\ $\SL(3)$) weight
+  lattice: a weight $\mu$ and its image $-w_0\mu$ are exchanged by the mirror. Even-$|k|$
+  Dickson factors are fixed (symmetric), odd-$|k|$ flipped (antisymmetric). The same
+  involution governs charge conjugation of the $W_N$ algebras. \sProved}
+  \label{fig:opp}
+\end{figure}
+
+\subsection{The wall at $n\ge5$}
+
+The factorisation is proved for $n\le4$ and is \emph{structurally} understood, but not
+symbolically proved, for $n\ge5$. The obstruction is sharp and worth stating precisely,
+because it is the paper's principal open problem (Section~\ref{sec:open}). One can write
+the tower abstractly as a symmetric-power decomposition
+\begin{equation}\label{eq:symw}
+  \rho_n \;\cong\; \Sym^n(W)\;\oplus\;\bigl(\Sym^{\,n-3}(W)\ominus W\bigr),
+  \qquad W = V\oplus\mathbf{1},\ \det W=-1,
+\end{equation}
+with $W$ the external-monodromy fundamental; this is proved as an isomorphism of modules
+at $n=3,4$ and conjectured in general. The remaining step --- assembling the bounded
+rank-one $e_2/\Lambda^2$ closure into the exact trace map as a \emph{functorial}
+construction --- is genuinely open. We emphasise that three plausible shortcuts are
+\emph{dead}: a perturbative numerical route does not converge at the doubly-degenerate
+$\chi(M^2)^2$ sector that first appears at $n=5$; the $\Lambda^2$ functoriality, while
+real, does not break that degeneracy; and a cohomological route returns the trivial-rep
+fixed line rather than the tower. The principal-spectrum analysis explains why $n=5$ is a
+threshold rather than a mere computational limit: the Dehn-filling boundary condition
+forces the principal spectrum to degenerate there (Section~\ref{sec:knot}), so
+``exponent $=$ rank'' is an $n\in\{3,4\}$ phenomenon, not a failure of effort.

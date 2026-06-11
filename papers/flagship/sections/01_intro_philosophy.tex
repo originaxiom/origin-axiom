@@ -1,0 +1,89 @@
+\section{Introduction: one object, four registers}
+\label{sec:intro}
+
+This paper is the report of a single sustained experiment. We fix one mathematical
+object --- a family of hyperbolic three-manifolds so small and so forced that it is
+hard to call it a choice --- and we follow it wherever its own structure leads. It
+leads, as it turns out, into four different parts of mathematics: the dynamics of a
+trace map, the representation theory of a tower of Lie groups, the geometry of the
+figure-eight knot's character variety, and the duality group of a four-dimensional
+supersymmetric gauge theory. The thesis of the paper is not any one of the results
+along the way. It is that these four faces are faces of \emph{the same object}, and
+that following the object honestly --- recording at every step exactly what is proved,
+what is computed, what is borrowed, and what is merely suggested --- maps out precisely
+how far such an object reaches, and where it stops.
+
+\subsection*{A note on proof status} Because the object touches so many registers, the
+single greatest risk is a quiet drift in what is being claimed. We therefore attach to
+every substantive statement a colour-coded badge:
+\begin{center}\small
+\sProved\ exact and machine-checkable\quad
+\sExact\ symbolic over a ring\quad
+\sNum\ high-precision numerics\\[2pt]
+\sStruct\ structurally forced, not fully symbolic\quad
+\sKnown\ established in the literature\\[2pt]
+\sGated\ appears new but awaits a specialist\quad
+\sPost\ proposed, not put through the verification gate
+\end{center}
+The badges are not decoration. The one genuinely new headline of the paper --- the
+$\SL(4)$ figure-eight $A$-polynomial $L=-M^4$ and the family it suggests
+(Section~\ref{sec:knot}) --- carries the badge \sGated\ throughout: an adversarial
+literature read found no prior art, but an AI-assisted read \emph{de-risks} a novelty
+question without \emph{closing} it, and the family is established only at two values of
+the rank. We state this in the abstract, we state it again here, and we state it at the
+result. Everything else in the paper is \sProved, \sExact, \sNum, or \sKnown, and is
+labelled accordingly.
+
+\subsection{The motivating question, and the firewall that contains it}
+
+The object was not chosen for its knot theory. It was chosen as the smallest answer to
+a deliberately na\"ive question: \emph{what is the least structure that is not nothing?}
+One can refuse the metaphysics of ``why is there something'' and ask instead, as a
+mathematical question, what the minimal non-degenerate self-referential object looks
+like --- and discover that the minimal answers do not form a unique point but a
+\emph{self-generating family}. That reframing is the project's philosophical spine, and
+we will let it motivate the exposition. But motivation is all it is. We adopt one
+absolute rule, which we will call the \emph{firewall}:
+
+\begin{quote}\itshape
+Philosophy and physical interpretation may cite mathematics; mathematics may never cite
+philosophy. If a motivating sentence is ever needed to support a theorem, the boundary
+has been crossed, and the sentence is wrong where it stands.
+\end{quote}
+
+This is why the paper can be, at once, philosophically motivated and mathematically
+sober. The reader who wants only the theorems may read Sections~\ref{sec:object}--\ref{sec:chirality}
+and ignore every interpretive remark without losing a single implication. The reader
+interested in the larger question will find it addressed exactly once, in
+Section~\ref{sec:bridge}, and addressed by the same standard of proof as everything
+else: with a forced mathematical identification on one side and a confirmed obstruction
+on the other.
+
+\subsection{Architecture, not furniture}
+
+A second principle organises what we do and do not claim. The object is a theory of
+\emph{structure} --- of symmetry, of hierarchy, of which configurations are possible ---
+and not a theory of \emph{values}: it does not select a coupling constant, a mass, or a
+cosmological scale. Borrowing a phrase from the project's notes, it is architecture, not
+furniture. This is not modesty for its own sake; it is a theorem-shaped fact, made
+precise in Section~\ref{sec:bridge}, that the invariants the object naturally produces
+are dimensionless and scale-free. Stating it at the outset pre-sorts the questions one
+may ask: structural questions (what is the symmetry? what is the representation? what is
+the $A$-polynomial?) have answers, and we give them; value questions (what number does
+this predict?) meet a wall, and we exhibit the wall rather than climbing over it.
+
+\subsection{What is in the paper}
+
+Section~\ref{sec:object} introduces the metallic once-punctured-torus bundles and their
+arithmetic. Section~\ref{sec:invariant} pins the boundary invariant $\kk=\tr[A,B]$ to
+the Fricke--Vogt invariant of the Fibonacci trace map and identifies the metallic
+monodromies with the $\SL(2,\Z)$ mapping-class action. Section~\ref{sec:tower} builds
+the adjoint-type ``Dickson tower'' and proves its factorisation through $\SL(4)$, noting
+the precise wall at $n\ge 5$. Section~\ref{sec:knot} is the geometric heart: the
+trace-map fixed locus reproduces the figure-eight $A$-polynomial exactly at $\SL(2)$ and
+$\SL(3)$, and yields the new, gated $\SL(4)$ relation $L=-M^4$, complete on the
+irreducible locus. Section~\ref{sec:chirality} closes the chirality question with a
+palindromic criterion for amphichirality. Section~\ref{sec:bridge} makes the bridge to
+physics and confirms the wall. Sections~\ref{sec:discussion}--\ref{sec:open} discuss the
+object's proper name as an aperiodic-order operator, the open problems, and the
+reproducibility discipline; an appendix collects proof sketches.

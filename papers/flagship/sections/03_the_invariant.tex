@@ -1,0 +1,85 @@
+\section{The invariant: $\kk=\tr[A,B]$ and the Fricke cubic}
+\label{sec:invariant}
+
+A representation $\rho\colon\pi_1(T_\circ)=\langle A,B\rangle\to\SL(2,\C)$ of the free
+group on two generators is determined up to conjugacy by the three trace coordinates
+\begin{equation}
+  x=\tr\rho(A),\qquad y=\tr\rho(B),\qquad z=\tr\rho(AB),
+\end{equation}
+a classical theorem of Fricke and Vogt. In these coordinates the trace of the boundary
+commutator is the \emph{Fricke cubic}
+\begin{equation}\label{eq:fricke}
+  \kk \;=\; \tr\rho[A,B] \;=\; x^2+y^2+z^2-xyz-2,
+\end{equation}
+and the relative character variety of $T_\circ$ with fixed boundary holonomy is the level
+surface $\{\kk=\text{const}\}$, an affine cubic surface (\fig{fig:fricke}). The mapping
+class group acts on the trace coordinates by polynomial automorphisms preserving
+\eqref{eq:fricke} leaf by leaf; this is the \emph{trace map}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.82\linewidth]{fig02_fricke_cubic}
+  \caption{A leaf of the Fricke cubic foliation $\kk=x^2+y^2+z^2-xyz-2$: the
+  $\kk=2$ leaf is the classical Cayley nodal cubic, with four conical nodes (marked).
+  The trace map preserves each $\kk$-leaf; the Markov leaf $\kk=-2$ (four noncompact
+  horns) is the degenerate fibre on which the dynamics is most rigid. \sProved}
+  \label{fig:fricke}
+\end{figure}
+
+\subsection{$\kk$ is the Fricke--Vogt invariant of the Fibonacci trace map}
+
+The cubic \eqref{eq:fricke} is exactly the conserved quantity of the Fibonacci trace map
+of Kohmoto--Kadanoff--Tang and S\"ut\H{o} \cite{kkt1983,suto1987}. In the half-trace
+normalisation $x=2X$ etc., one has the identity
+\begin{equation}\label{eq:kfv}
+  \kk \;=\; 4\,I_{\mathrm{FV}} + 2,
+  \qquad I_{\mathrm{FV}} = X^2+Y^2+Z^2-2XYZ-1,
+\end{equation}
+where $I_{\mathrm{FV}}$ is the Fricke--Vogt invariant familiar from the spectral theory
+of the Fibonacci Hamiltonian. We verified \eqref{eq:fricke}--\eqref{eq:kfv} and the
+following statements symbolically.
+
+\begin{proposition}[\sProved]\label{prop:invariant}
+Let $\tau_a,\tau_b$ be the trace-map automorphisms induced by the two Dehn twists. Then:
+\begin{enumerate}[leftmargin=2em]
+\item $\tau_a$ and $\tau_b$ preserve $\kk$ identically, so the metallic monodromies
+  $W_m=R^mL^m$ act on each Fricke leaf; the action on trace coordinates \emph{is} the
+  $\SL(2,\Z)$ mapping-class action on the character variety.
+\item The leaf $\kk=-2$ is the \emph{Markov surface} $x^2+y^2+z^2=xyz$, on which the
+  metallic dynamics restricts to the classical Markov triple recursion.
+\item On the leaf carrying the metallic monodromy the eigenvalue of the linearised action
+  is $\lambda_m^2$, the dilatation; the fixed slopes are the roots of $t^2+mt-1=0$, and
+  the dynamical degree (in the sense of Cantat--Loray \cite{cantatloray2009}) equals
+  $\lambda_m^2$.
+\end{enumerate}
+\end{proposition}
+
+The content of Proposition~\ref{prop:invariant} is that three a priori different objects
+--- the boundary trace of a surface-group representation, the conserved invariant of a
+one-dimensional aperiodic Schr\"odinger operator, and the Markov cubic of number theory
+--- are literally the same polynomial, and that the metallic monodromies are the
+mapping-class symmetry of all three at once. None of these identifications is new
+individually (they go back to Fricke, to KKT/S\"ut\H{o}, and to Markov; see
+\cite{goldman2009,baakegrimm2013,aigner2013}); the point is that they are properties of
+\emph{this} object, holding simultaneously, and we make them the anchor for everything
+downstream.
+
+\subsection{The trace map as a dynamical system}
+
+Iterating the trace map on a Fricke leaf gives a polynomial dynamical system whose
+fixed point structure encodes the object's rigidity. At the distinguished fixed point ---
+the ``void'' from which the family is generated --- the linearisation is a hyperbolic
+saddle with one marginal direction: the Lyapunov spectrum is
+$\{0,\,\pm 4\log\varphi\}$ for the golden case (\fig{fig:dynamics}). The single zero
+exponent is the direction along the Fricke leaf; the two nonzero exponents are the
+expanding/contracting directions of the metallic stretch. This is the dynamical face of
+the object; its representation-theoretic face is the subject of the next section.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig03_trace_map_dynamics}
+  \caption{The void fixed point of the metallic trace map. \emph{Left:} the linearised
+  flow, a hyperbolic saddle with one marginal (leaf) direction. \emph{Right:} the
+  Lyapunov spectrum $\{0,\pm 4\log\varphi\}$ of the golden case. \sNum}
+  \label{fig:dynamics}
+\end{figure}
