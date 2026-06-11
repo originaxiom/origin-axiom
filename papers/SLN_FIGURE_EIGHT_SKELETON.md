@@ -60,15 +60,23 @@ is the external-framework item (below). **high-precision-numerical** (`n=3,4`).
 
 ## Novelty positioning (internal — the gate before any external claim)
 
-- **Known:** SL(2) Cooper–Long; SL(3) Falbel (`M³=L`); the metallic trace-map machinery is largely
-  `STANDARD_REPACKAGE` (Lawton; Baake–Grimm–Roberts).
-- **`APPARENTLY_NEW` — pending an external literature check** (the rule is no external contact, so this
-  cannot be closed here):
-  1. the **`Aₙ` family / the SL(4) A-polynomial `L=−M⁴`** — natural in the **Bergeron–Falbel–Guilloux**
-     SL(n)/PGL(n) figure-eight framework, but I am not aware of it being stated; it is an `n≥3`
-     phenomenon (A0: SL(2) degenerate), **not** `Sym^{n−1}` of an SL(2) filling. **The #1 thing to check.**
-  2. the **CRT/F_p first-principles tower proof** (B80) as a technique;
-  3. the **parity-graded Dickson factorization** + the opposition-involution sector structure (B62/B64).
+> **Updated by the R4 novelty audit (2026-06-11, `../docs/NOVELTY_AUDIT.md`).** An adversarial AI literature read
+> (HMP 1505.04451; Falbel/FGKRT 1412.4711; Tillmann math/0508295; Ptolemy/Dehn-filling 2002.10356; targeted searches)
+> de-risked the gate but did **not** close it — a specialist read is still required (the H2 lead). Findings below.
+
+- **Known (confirmed by R4):** SL(2) Cooper–Long; SL(3) — **Heusener–Muñoz–Porti (1505.04451)** (the five components,
+  two from exceptional Dehn fillings) and **Falbel–FGKRT (1412.4711)** (the boundary projection; `M³=L` / `M³L=1`); the
+  metallic trace-map machinery is largely `STANDARD_REPACKAGE` (Lawton; Baake–Grimm–Roberts).
+- **`APPARENTLY_NEW` (skeleton enum) → R4 verdict `APPEARS-NOVEL` / `NEEDS-SPECIALIST`:**
+  1. the **`Aₙ` family / the SL(4) A-polynomial `L=−M⁴`** — **no prior art found** after an adversarial sweep, and the
+     literature calls SL(4) figure-eight geometry open. BUT: established only at **n=3,4** (symbolic-exact n=4 only,
+     B89; n≥5 not locatable), so "a family for all n≥3" is a conjecture + a prediction, not an established family; and
+     it may be **implicit** in the Bergeron–Falbel–Guilloux / Garoufalidis–Thurston–Zickert framework. **Still the #1
+     thing for a specialist (Falbel/HMP/BFG circle) to confirm before any external claim.**
+  2. the **CRT/F_p first-principles tower proof** (B80) — R4: a **standard computational-algebra technique** (modular
+     interpolation + CRT + rational reconstruction); the application is the project's, the method is not new.
+  3. the **parity-graded Dickson factorization** + the opposition-involution sector structure (B62/B64) — not
+     separately re-audited in R4; related to R1's chirality-mechanism provenance (GHH); treat as needs-specialist.
 
 ## Open / future work
 - The **general-`n` tower from first principles** — the bounded `e₂/Λ²` symbolic closure (B85); the
