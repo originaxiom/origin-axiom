@@ -1,0 +1,58 @@
+\section{Controls, and the range of validity}
+\label{sec:controls}
+
+\subsection{The lower-rank controls} The same trace-map construction reproduces the known figure-eight
+data, which we use only as controls (no novelty is claimed):
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{$\SL(2)$ \sKnown.} The fixed locus reproduces the Cooper--Long $A$-polynomial
+  \cite{ccgls1994}
+  $A(M,L)=M^4L^2+(-M^8+M^6+2M^4+M^2-1)L+M^4$, verified symbolically.
+\item \textbf{$\SL(3)$ \sKnown.} It reproduces the Falbel/Heusener--Mu\~noz--Porti variety
+  \cite{fgkrt2014,hmp2016}: the boundary relations $M^3=L$ and $M^3L=1$ on the two Dehn-filling components
+  $W_1,W_2$, alongside the geometric (``distinguished'') component $V_0$ that contains the $\Sym^2$ image
+  of the $\SL(2)$ representations. (The full $\SL(3)$ variety has five components --- two reducible and
+  three irreducible; we reproduce the three irreducible ones, of which $V_0$ is the distinguished one.
+  HMP give explicit equations for $V_0$.)
+\end{itemize}
+
+\subsection{The slope, by rank} Placing the controls beside Theorem~\ref{thm:relation}, the
+\emph{Dehn-filling slope} on the principal component is $L=+M^3$ at $n=3$ and $L=-M^4$ at $n=4$
+(Figure~\ref{fig:slope}). We emphasise what is and is not claimed.
+
+\begin{itemize}[leftmargin=1.4em]
+\item There is \textbf{no $n=2$ instance of the monomial slope.} Substituting $L=-M^2$ into the
+  Cooper--Long polynomial gives $A(M,-M^2)=M^2(M^4-1)^2$, which vanishes only at the degenerate points
+  $M^4=1$; the $\SL(2)$ $A$-polynomial is an irreducible degree-two curve in $L$, not a monomial. The
+  family of monomial slopes therefore begins at $n=3$.
+\item \textbf{$n=3$ is Falbel's (known); $n=4$ is established here.} Two ranks --- one borrowed, one new
+  --- do not constitute a proven ``family for all $n$,'' and we do not assert one.
+\end{itemize}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_slope}
+  \caption{The Dehn-filling slope on the principal component: $L=+M^3$ ($n=3$, Falbel, \sKnown) and
+  $L=-M^4$ ($n=4$, Theorem~\ref{thm:relation}). No $n=2$ monomial instance exists; $n\ge5$ is open.}
+  \label{fig:slope}
+\end{figure}
+
+\subsection{The $\SL(5)$ status is open}\label{ss:n5} One might hope to argue that the principal slope is
+an $n\in\{3,4\}$ phenomenon by showing the principal $\SL(5)$ component carries no irreducible
+representation. That argument, in the form ``the boundary condition forces the spectrum
+$\{1,1,1,-1,-1\}$, whence $A^2=I$, whence $\langle A,B\rangle$ is dihedral, whence reducible,'' has a
+\emph{genuine gap}, and we record the honest status.
+
+\begin{remark}[the gap]\label{rem:gap}
+First, $\tr A=\tr A^{-1}=1$ does not pin the spectrum: at $n=4$ it leaves $e_2$ free (the principal value
+$\{1,1,\omega,\omega^2\}$ is the single point $e_2=0$); at $n=5$ it leaves $e_2,e_3$ free. Second, even
+granting the spectrum $\{1,1,1,-1,-1\}$, the step ``$\Rightarrow A^2=I$'' assumes $A$ semisimple: a single
+$2\times2$ Jordan block at the eigenvalue $+1$ gives a matrix with that spectrum, $\tr A=\tr A^{-1}=1$,
+$\det A=1$, yet $A^2\neq I$. Since these representations are routinely non-semisimple --- the very reason
+the Burnside test, not the Schur commutant, is needed in Section~\ref{sec:complete2} --- semisimplicity
+cannot be assumed here. We therefore leave the principal $\SL(5)$ component open: it is not located, and we
+do not claim it cannot exist.
+\end{remark}
+
+Thus the established statement is: \emph{the principal Dehn-filling slope is $L=+M^3$ at $n=3$ (known) and
+$L=-M^4$ at $n=4$; the $n=5$ case is open.} The completeness Theorem~\ref{thm:complete} is an $n=4$
+statement and is unaffected.

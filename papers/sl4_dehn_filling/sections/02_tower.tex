@@ -1,0 +1,64 @@
+\section{The object, the trace map, and the tower}
+\label{sec:tower}
+
+\subsection{The metallic family} The metallic monodromies are $W_m=R^mL^m$, conjugate to $M_m^2$ with
+$M_m=\left(\begin{smallmatrix}m&1\\1&0\end{smallmatrix}\right)$, $\det M_m=-1$. The figure-eight is
+$m=1$ ($\varphi=RL\sim M_1^2$); we work with it throughout and use $\lambda=\varphi=\tfrac12(1+\sqrt5)$
+for the golden mean. The boundary invariant of a representation $\rho\colon F_2=\langle A,B\rangle\to
+\SL(2,\C)$ is the Fricke commutator cubic
+\begin{equation}\label{eq:fricke}
+  \kappa=\tr\rho[A,B]=x^2+y^2+z^2-xyz-2,\qquad (x,y,z)=(\tr A,\tr B,\tr AB),
+\end{equation}
+the conserved quantity of the trace map; $\kappa=-2$ is the Markov surface and the complete-structure
+locus, $\kappa=2$ the reducible/trivial locus. The Dehn twists act on $(x,y,z)$ by polynomial
+automorphisms preserving \eqref{eq:fricke} \cite{goldman2009,robertsbaake1994,cantatloray2009}; we call
+this action the trace map.
+
+\subsection{The tower and its linearisation $J(m)$}\label{ss:Jdef} For $\SL(n,\C)$ the trace map acts on
+the $(n^2-1)$ adjoint trace coordinates. We fix, once and for all, the object of Theorem~\ref{thm:tower}:
+\begin{quote}
+$J(m)$ is the Jacobian of the \emph{one-step} metallic substitution trace map $T_m$ on the
+$(n^2-1)$-dimensional space of adjoint $\SL(n)$ trace coordinates, evaluated at the \emph{trivial
+character} (the image of the trivial representation), as a matrix over $\Z[m]$.
+\end{quote}
+Two conventions must be pinned, because they are easy to conflate. \emph{(i) Which map.} $T_m$ is the
+single substitution $a\mapsto a^mb,\ b\mapsto a$ (whose abelianisation is $M_m$), \emph{not} the
+composite monodromy $W_m=M_m^2$; the catalogue below indexes powers of $M_m$, and only the one-step map
+produces the odd powers. \emph{(ii) Which point.} The trivial character is the saddle of the dynamics;
+at $\SL(2)$ it is $(x,y,z)=(2,2,2)$, where $T_1$ has Jacobian characteristic polynomial
+$(t+1)(t^2-3t+1)=\chr(M^2)\,(t+1)$ (eigenvalues $\{-1,\lambda^4,\lambda^{-4}\}$). The origin $(0,0,0)$
+is \emph{not} this point (its Jacobian is $t^3-1$, all eigenvalues of modulus $1$). The composite $W_m$
+at $(2,2,2)$ gives instead $(t-1)(t^2-7t+1)=\chr(M^4)(t-1)$, whose multiplier $\lambda^4$ is the
+dilatation; we use the one-step map.
+
+\subsection{The Dickson factorisation} Write $L_k=\tr(M_m^k)$ and $\chr(\pm M^k)=t^2\mp L_k t+(-1)^k$, a
+Dickson polynomial in $m$ (so $\chr(M^{-1})=\chr(-M)$, as $\det M_m=-1$).
+
+\begin{theorem}[\sExact]\label{thm:tower}
+Over $\Z[m]$ the characteristic polynomial of $J(m)$ factors over the Dickson catalogue:
+\begin{align}
+ n=2:&\quad \chr(M^2)\,(t+1);\label{eq:n2}\\
+ n=3:&\quad \chr(M^{-1})\,\chr(M^2)\,\chr(M^3)\,(t-1)(t+1);\\
+ n=4:&\quad \chr(M)\,\chr(-M)\,\chr(M^2)\,\chr(-M^2)\,\chr(M^3)\,\chr(M^4)\,(t-1)^2(t+1).
+\end{align}
+The $n=2,3$ identities are symbolic over all $m$; the $n=4$ identity is established by a
+Chinese-remainder/$\Fp$ interpolation over $\Z[m]$ with the degree bound stated in
+Appendix~\ref{app:crt} and a closing exact evaluation of $\det(tI-J(m_0))$ over $\Z$ at one
+$m_0$ beyond the bound.
+\end{theorem}
+
+The $n=2$ row \eqref{eq:n2} is also the $n=2$ instance of the virtual-module description
+$\rho_n\cong\Sym^n(W)\oplus(\Sym^{n-3}(W)\ominus W)$, $W=V\oplus\mathbf 1$, $\det W=-1$ (a $\GL(2)$-module
+isomorphism verified through $n=8$): at $n=2$, $\Sym^2(W)\ominus W$ has eigenvalues
+$\{\lambda^4,-1,\lambda^{-4}\}=\chr(M^2)(t+1)$, a machine-checked base case. The factorisation is proved
+for $n\le4$; the general-$n$ case (a functorial assembly of a bounded symbolic closure) is open and is
+\emph{not} used below. Figure~\ref{fig:tower} displays the catalogue.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig_tower}
+  \caption{The Dickson tower: $\det(tI-J(m))=\prod_k\chr(\pm M^k)$ for $n=2,3,4$. Nodes at signed power
+  $k$; $\circ$ sign $+$, $\diamond$ sign $-$; colour $=$ parity of $|k|$. The $n=2$ row is $\chr(M^2)(t+1)$
+  (the corrected base case), not $\chr(M)$. \sExact}
+  \label{fig:tower}
+\end{figure}

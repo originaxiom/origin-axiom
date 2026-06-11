@@ -1,0 +1,49 @@
+\section{Introduction}
+\label{sec:intro}
+
+The figure-eight knot complement $4_1=m004$ is the once-punctured-torus bundle with monodromy
+$\varphi=RL$, where $R,L$ are the two Dehn twists generating $\mathrm{MCG}(T_\circ)\cong\SL(2,\Z)$. Its
+$\SL(2,\C)$ and $\SL(3,\C)$ character varieties are classical: Cooper--Culler--Gillet--Long--Shalen gave
+the $\SL(2)$ $A$-polynomial \cite{ccgls1994}, and Heusener--Mu\~noz--Porti \cite{hmp2016} and
+Falbel--Guilloux--Koseleff--Rouillier--Thistlethwaite \cite{fgkrt2014} described the $\SL(3)$ variety,
+whose distinguished Dehn-filling components carry the boundary relations $M^3=L$ and $M^3L=1$. At
+$\SL(4,\C)$ the picture is far less complete.
+
+This note isolates one $\SL(4,\C)$ component and proves two statements about it.
+
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{The relation (Section~\ref{sec:dehn}).} On the component over the boundary spectrum
+  $\{1,1,\omega,\omega^2\}$ ($\omega$ a primitive cube root of unity), the meridian $\mu$ and the
+  longitude $[A,B]$ satisfy the exact matrix identity $[A,B]=-\mu^4$, hence $L=-M^4$ on eigenvalues
+  (Theorem~\ref{thm:relation}). Because $\mu^4[A,B]^{-1}=-I$ is central, the relation is a
+  \emph{Dehn-filling slope}: the $\SL(4)$ analogue of Falbel's $\SL(3)$ relations, with finite-order
+  boundary holonomy.
+\item \textbf{Completeness (Section~\ref{sec:complete2}).} A gauge-stratified primary decomposition of the
+  defining ideal over $\Q(\omega)$, together with an exact finite-field Burnside test of irreducibility,
+  shows the explicit four-parameter family of Section~\ref{sec:dehn} is the \emph{entire irreducible
+  locus} for this spectrum (Theorem~\ref{thm:complete}). So $L=-M^4$ holds there unconditionally.
+\end{itemize}
+
+\paragraph{\textmd{\textbf{What this is and is not.}}} The component is of \emph{Dehn-filling type}: its
+meridian has finite order $\{1,1,\omega,\omega^2\}$, in contrast to the boundary-\emph{unipotent}
+meridians of the convex-projective deformations of the geometric representation computed by
+Cooper--Long--Thistlethwaite \cite{cooperlongthistlethwaite2006} and Ballas \cite{ballas2015}
+(see Section~\ref{sec:novelty}). It is the natural higher-rank analogue of Falbel's $\SL(3)$ Dehn-filling
+slope, not a deformation of the discrete faithful representation. We make \emph{no} claim of a relation
+``$L=(-1)^{n-1}M^n$ for all $n$'': the slope is reproduced at $n=2,3$ (known) and established at $n=4$
+here; the $\SL(5)$ status is genuinely open (Section~\ref{sec:controls}).
+
+\paragraph{\textmd{\textbf{Method and proof status.}}} Every statement carries a status tag:
+\sExact\ (proved symbolically over a ring), \sProved\ (exact and machine-checkable), \sNum\
+(high-precision numerics), \sKnown\ (in the literature, reproduced here as a control), \sGated\ (a
+novelty question we have de-risked but cannot close without a specialist). The relation
+(Theorem~\ref{thm:relation}) is a polynomial matrix identity over $\Q(\omega)$, cleared of inverses; the
+completeness theorem rests on a symbolic primary decomposition (the component structure) plus an exact
+$\Fp$ Burnside classification (irreducibility), validated against a stratum proved reducible by hand. The
+supporting code and a finite-field certificate accompany the paper (a Zenodo deposit at submission).
+
+\paragraph{\textmd{\textbf{Context: the trace-map tower.}}} Section~\ref{sec:tower} records the ambient
+structure the component lives in --- the linearisation of the $\SL(n)$ metallic trace map at the trivial
+character factors over a Dickson catalogue, proved through $n=4$, with a clean $n=2$ base case --- and
+fixes the definitions and conventions used throughout. Section~\ref{sec:novelty} positions the result
+against the projective-geometry and Ptolemy programs and states the one open novelty check.
