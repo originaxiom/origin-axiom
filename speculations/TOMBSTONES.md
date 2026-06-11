@@ -261,3 +261,27 @@ conjecture* is logged as a lead, `../docs/OPEN_LEADS.md` L16.)
 *Method note (MB6, see `../REPRODUCIBILITY.md`):* the `3 = 3` of K-J is the recurring **reproduction-is-not-
 interpretation** trap — two numbers coincide while measuring different things. Run the control (here: check
 irreducibility, `κ`, and *which* trace) before reading a coincidence as an identity.
+
+---
+
+**Cross-session kills (2026-06-11) — the CM/arithmetic cluster.** A second review session (and an audit) ran a
+CM-volume / arithmetic line on the seed; two items are kills. The *math* is fine; the *identification* is the kill.
+Tombstoned so no future run re-derives them. (The survivors of that session — the figure-eight/silver CM volumes,
+verified and tiered KNOWN/NUMERICAL — are in `../frontier/B147_arithmetic_chiral_bundle/FINDINGS.md`; the full
+disposition is `../docs/CROSS_SESSION_2026-06-11_disposition.md`.)
+
+- **K-N — `|disc_CM| = κ_m` (the CM discriminant equals the commutator parameter) — DEAD.** The golden
+  coincidence `|−3| = 3 = κ₁` does **not** generalize: at silver, `|disc(ℚ(i))| = |−4| = 4` but `κ₂ = m²+2 = 6`
+  (`4 ≠ 6`). A shared integer at `m=1` is not a law. Same family as K-J (a `3 = 3` artifact) and the `S014`
+  numerology discipline. *Revival kill condition:* a metallic `m≥2` with `|disc_CM| = κ_m` — none.
+- **K-O — the golden "trace leak" `tr ρ_{SU(2)₃}(A) = −1/φ` as a distinguished signal — DEAD (resolved by the
+  class count).** The seed's `SU(2)₃` trace is `−1/φ` (nonzero, field-forced golden, exact), and a per-element
+  table shows the seed's words carry nonzero golden traces while several other hyperbolics (`RRL`, `RLL`, `T²R`,
+  …) have trace exactly `0`. But the adjudicating count refutes any signal: in the finite image (order **2880**),
+  **1350/2880 ≈ 47%** of elements have nonzero trace and **384/2880 ≈ 13%** have golden-magnitude (`|φ^{±1}|`)
+  trace — the seed sits in a **populated** class, not a singleton; nonzero trace is a coin-flip-frequency
+  property, vanishing equally common. Field-forcing (any nonzero value is golden, trace field `ℚ(√5)`) **stands**
+  as the trivially-true part; "distinguished by nonvanishing" does **not**. Not a leak, not "dead by genericity"
+  — resolved by the count. *Revival kill condition:* a class-level invariant separating the seed from the other
+  ~13% golden-magnitude classes — the count says there is none. (An earlier aggregate "47/60 words ∈ ℚ(√5)" was
+  itself an artifact — `0 ∈ ℚ(√5)` — corrected by the per-element table, then by the class count.)
