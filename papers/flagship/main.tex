@@ -1,0 +1,123 @@
+\documentclass[11pt,reqno]{amsart}
+
+% ---------------------------------------------------------------------------
+%  The flagship integrative preprint.
+%  A whole-repo, proof-status-honest exposition. Every result carries a
+%  \status{} badge; the one GATED headline (SL(4) L=-M^4 / the A_n family) is
+%  flagged in the abstract and in section 5; the physics arc is a FORCED
+%  symmetry bridge plus a CONFIRMED dimensional wall, never a crossing to scale.
+% ---------------------------------------------------------------------------
+
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[margin=1.05in]{geometry}
+\usepackage[colorlinks=true,linkcolor=BlueViolet!70!black,citecolor=ForestGreen!60!black,urlcolor=NavyBlue]{hyperref}
+
+\graphicspath{{figures/out/}}
+
+% --- proof-status badges (mirror figures/style.mplstyle) -------------------
+\definecolor{stProved}{HTML}{2E7D54}
+\definecolor{stNum}{HTML}{1B3A5B}
+\definecolor{stStruct}{HTML}{7A4F9E}
+\definecolor{stKnown}{HTML}{8C8C8C}
+\definecolor{stGated}{HTML}{B6411A}
+\definecolor{stPost}{HTML}{C79A1E}
+
+\newcommand{\badge}[2]{{\setlength{\fboxsep}{2pt}%
+  \colorbox{#1}{\textcolor{white}{\sffamily\bfseries\scriptsize #2}}}}
+\newcommand{\sProved}{\badge{stProved}{PROVED}}
+\newcommand{\sExact}{\badge{stProved}{SYMBOLIC-EXACT}}
+\newcommand{\sNum}{\badge{stNum}{NUMERICAL}}
+\newcommand{\sStruct}{\badge{stStruct}{STRUCTURAL}}
+\newcommand{\sKnown}{\badge{stKnown}{KNOWN}}
+\newcommand{\sGated}{\badge{stGated}{GATED}}
+\newcommand{\sPost}{\badge{stPost}{POSTULATED}}
+\newcommand{\sForced}{\badge{stStruct}{FORCED}}
+
+% --- theorem environments --------------------------------------------------
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{observation}[theorem]{Observation}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% --- macros ----------------------------------------------------------------
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\GL}{\mathrm{GL}}
+\newcommand{\PGL}{\mathrm{PGL}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Vol}{\operatorname{Vol}}
+\newcommand{\CS}{\mathrm{CS}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Fp}{\mathbb{F}_p}
+\newcommand{\kk}{\kappa}
+\newcommand{\fig}[1]{Figure~\ref{#1}}
+\DeclareMathOperator{\Sym}{Sym}
+
+\begin{document}
+
+\title[A self-generating object: tower, knot, and the boundary of scale]{A self-generating object:\\
+the metallic once-punctured-torus family,\\ its trace-map tower, and the boundary between structure and scale}
+
+\author{Dritëro M.}
+\address{Independent researcher, Prishtina.}
+
+\date{\today}
+
+\begin{abstract}
+We study a single object --- the metallic once-punctured-torus bundles, whose
+monodromies are the words $R^mL^m$ in the two Dehn twists --- and follow it across
+four mathematical registers: the dynamics of its trace map, the representation
+theory of an associated tower, the geometry of the figure-eight knot's character
+variety, and a duality of a four-dimensional gauge theory. The boundary invariant
+$\kk=\tr[A,B]$ is exactly the Fricke--Vogt invariant of the Fibonacci trace map,
+and the metallic monodromies realise the $\SL(2,\Z)$ mapping-class action on the
+Fricke cubic. The adjoint-type tower factors over a Dickson catalogue
+$\chi(\pm M^k)$, proved from first principles through $\SL(4)$. On the principal
+Dehn-filling component the longitude and meridian eigenvalues satisfy
+$L=(-1)^{n-1}M^n$; this reproduces Cooper--Long at $\SL(2)$ and Falbel at $\SL(3)$,
+and gives $L=-M^4$ at $\SL(4)$, which we establish symbolic-exact and complete on
+the irreducible locus. \textbf{The $\SL(4)$ result and the family it suggests are
+flagged \sGated: after an adversarial literature read they appear novel but require
+a specialist's confirmation, and the family is established only at $n=3,4$.}
+Finally we make precise where the object reaches physics and where it stops: its
+$\SL(2,\Z)$ symmetry \emph{is} the $S$-duality / mapping-class action of the
+$\mathcal{N}=2^\ast$ class-$S$ theory (a forced identification, literature-confirmed),
+yet no $\kk$-type or volume-type invariant carries a physical \emph{scale} across
+that bridge. The pairing --- a real bridge, a confirmed wall --- is the honest
+limit of how far a single self-generating object reaches. Every statement is tagged
+by its proof status; nothing here is asserted beyond what a reader can check.
+\end{abstract}
+
+\maketitle
+
+\input{sections/01_intro_philosophy}
+\input{sections/02_the_object}
+\input{sections/03_the_invariant}
+\input{sections/04_the_tower}
+\input{sections/05_the_knot}
+\input{sections/06_chirality}
+\input{sections/07_bridge_and_wall}
+\input{sections/08_discussion}
+\input{sections/09_open_and_methods}
+\input{sections/appendix}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

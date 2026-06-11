@@ -1,0 +1,58 @@
+\appendix
+
+\section{Proof sketches}
+\label{app:proofs}
+
+We collect the load-bearing computations in outline; full symbolic scripts and
+finite-field certificates are in the project's probe code.
+
+\subsection{The Fricke identity \texorpdfstring{$\kk=4I_{\mathrm{FV}}+2$}{kappa = 4 I + 2}}
+\label{app:kappa}
+
+With $A,B\in\SL(2,\C)$ and $x=\tr A,\ y=\tr B,\ z=\tr AB$, the Cayley--Hamilton relation
+$A^2=(\tr A)A-I$ and the trace identity $\tr(AB)+\tr(AB^{-1})=\tr A\,\tr B$ give, after a
+direct expansion, $\tr[A,B]=\tr(ABA^{-1}B^{-1})=x^2+y^2+z^2-xyz-2$, which is
+\eqref{eq:fricke}. Substituting the half-trace normalisation $x=2X,\,y=2Y,\,z=2Z$ yields
+$\kk=4(X^2+Y^2+Z^2-2XYZ-1)+2=4I_{\mathrm{FV}}+2$, which is \eqref{eq:kfv}. That the two
+Dehn-twist automorphisms preserve $\kk$ is checked by composing the explicit substitutions
+$(x,y,z)\mapsto(x,\,z,\,xz-y)$ and its partner and confirming $\kk$ is fixed; the
+verification is a finite symbolic identity.
+
+\subsection{The $\SL(4)$ Dickson factorisation by CRT/$\Fp$}
+\label{app:crt}
+
+Direct symbolic computation of the $15\times15$ Jacobian $J(m)$ over $\Z[m]$ is feasible
+but heavy; we instead reconstruct it by interpolation. For each prime $p$ in a fixed set
+and each integer $m_0$ in a range exceeding the total degree, the numeric Jacobian
+$J(m_0)\bmod p$ is assembled and its characteristic polynomial computed. Lagrange
+interpolation in $m_0$ recovers the coefficients mod $p$; the Chinese Remainder Theorem
+and rational reconstruction across the primes recover them over $\Q$. The resulting
+characteristic polynomial factors exactly as in Theorem~\ref{thm:tower}; the factorisation
+$(t-1)^2(t+1)\prod\chi(\pm M^k)$ is then confirmed against the Dickson catalogue
+symbolically. The technique (modular interpolation $+$ CRT $+$ rational reconstruction) is
+standard computational algebra; only its application here is the project's.
+
+\subsection{$L=-M^4$ by ideal elimination}
+\label{app:m4l}
+
+On the principal $A$-spectrum $\{1,1,\omega,\omega^2\}$ one writes the bundle relation
+$B\,\rho(\varphi)\,B^{-1}=\rho(\varphi)^{\text{conj}}$ and eliminates $B$, collapsing the
+defining equations to an ideal in the entries of the coupling block $t$. On the
+rank-two stratum $t_{11}=\omega\,t_{22}$ the solution set is a four-parameter family, and
+on it the commutator longitude satisfies the polynomial identity
+$[A,B]\cdot\det(t)^2=-\det(t)\cdot\mu^4$ with $\mu=A^{-1}t$ the meridian; clearing the
+common factor $\det(t)\ne0$ on the irreducible stratum gives $L=-M^4$ at the level of
+eigenvalues. No division is performed before the non-vanishing of $\det(t)$ is established,
+and no numerics enter. Completeness (Theorem~\ref{thm:complete}) is the separate
+finite-field Burnside classification described in Section~\ref{sec:knot}.
+
+\subsection{Figure reproduction}
+\label{app:figs}
+
+All figures are produced by \texttt{figures/gen\_figures.py} under the canonical Python
+environment. Figures~\ref{fig:tower} and \ref{fig:strat} read committed data artifacts
+(the symbolic $\SL(4)$ Jacobian and the finite-field stratification certificate);
+Figures~\ref{fig:metallic}, \ref{fig:fricke}, \ref{fig:dynamics}, \ref{fig:opp},
+\ref{fig:apoly}, \ref{fig:slope}, \ref{fig:chirality}, \ref{fig:cantor} and
+\ref{fig:bridge} are recomputed in-script and are deterministic. Each figure carries the
+proof-status badge of the result it depicts, mirroring the badges in the text.

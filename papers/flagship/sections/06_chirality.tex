@@ -1,0 +1,65 @@
+\section{Chirality: a palindromic criterion for amphichirality}
+\label{sec:chirality}
+
+The project's one \emph{proven} obstruction to Standard-Model-like structure is chirality:
+parity violation requires a preferred handedness, and we can ask precisely whether the
+metallic construction admits one. The answer, developed across a sub-arc of the work, is
+a clean dichotomy.
+
+\subsection{The block-length criterion}
+
+Recall the composites $W=R^{m_1}L^{m_1}\cdots R^{m_k}L^{m_k}$. Each is a hyperbolic
+once-punctured-torus bundle, and we ask when $M_W$ is amphichiral.
+
+\begin{theorem}[\sProved \;(corollary of \cite{ghh2008})]\label{thm:palindrome}
+The metallic composite with block-length sequence $(m_1,\dots,m_k)$ is amphichiral if and
+only if the sequence is a \emph{cyclic palindrome}, i.e.\ its reversal is a cyclic
+rotation of itself.
+\end{theorem}
+
+The mechanism --- amphichirality detected by an (anti-)palindromic $R,L$ word --- is the
+Goodman--Heard--Hodgson criterion \cite{ghh2008}; the contribution here is the lift to
+the integer block-length sequence and the census it produces (\fig{fig:chirality}). The
+census makes the dichotomy visible: all single blocks and all length-two sequences are
+cyclic palindromes (hence amphichiral), while the first chiral cases are the
+all-distinct length-three sequences such as $(1,2,3)$.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.56\linewidth]{fig10_chirality_census}
+  \caption{The chirality census over metallic-block composites: a sequence is amphichiral
+  iff it is a cyclic palindrome. The canonical singles ($RL\in\Q(\sqrt{-3})$,
+  $R^2L^2\in\Q(i)$) are self-mirror; the first chiral cases are all-distinct triples.
+  \sProved}
+  \label{fig:chirality}
+\end{figure}
+
+\subsection{The preferred-handedness dichotomy}
+
+Beyond the criterion, the family as a whole cannot prefer a handedness. The mirror of a
+metallic composite is another composite of the same pieces, so the family is
+\emph{mirror-closed}; chirality, while forced and generic among hyperbolic bundles, is
+always either self-mirror (the canonical singles) or mirror-paired (the composites).
+
+\begin{proposition}[\sStruct]\label{prop:dichotomy}
+$M_W$ and its mirror $\overline{M_W}$ agree on every orientation-\emph{independent}
+invariant. Hence no canonical (orientation-independent) selection principle can prefer a
+handedness: a $\kk$-fork is genuine selection, because $\kk$ is orientation-independent,
+whereas a chirality-fork is always a convention, because handedness is
+orientation-sensitive. The figure-eight is the amphichiral minimum; chirality first
+appears strictly above it.
+\end{proposition}
+
+\subsection{A refuted shortcut, and what survives}
+
+It is tempting to argue that arithmetic bundles must be amphichiral. This is false. The
+chiral mirror pair $RRL/RLL$ --- general $R,L$ words, not metallic-block composites --- is
+\emph{fully arithmetic}, with invariant trace field $\Q(\sqrt{-7})$, integral traces, and
+a confirming Humbert-volume cross-check. So ``arithmetic $\Rightarrow$ amphichiral'' is
+simply wrong; the surviving statement rests on volume-minimality and the dichotomy of
+Proposition~\ref{prop:dichotomy}, not on arithmeticity. We record this because it was
+found the disciplined way: a numerical result contradicting a cited ``exactly two''
+arithmetic chiral count was held until two independent methods agreed and a genuine bug
+(reading a leading coefficient at the wrong degree) was fixed. The reading we license is
+narrow and exact: \emph{chirality is contingent relative to the metallic minimality
+criteria, and no canonical principle prefers a handedness.}

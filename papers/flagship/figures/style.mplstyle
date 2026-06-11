@@ -1,0 +1,32 @@
+# Publication style for the flagship paper figures.
+figure.figsize: 7.0, 4.2
+figure.dpi: 140
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.pad_inches: 0.03
+
+font.family: serif
+font.serif: DejaVu Serif
+mathtext.fontset: cm
+font.size: 11
+axes.titlesize: 12
+axes.labelsize: 11
+legend.fontsize: 9
+xtick.labelsize: 9
+ytick.labelsize: 9
+
+axes.prop_cycle: cycler('color', ['1b3a5b', 'b6411a', '2e7d54', '7a4f9e', 'c79a1e', '8c8c8c'])
+axes.linewidth: 0.9
+axes.grid: True
+grid.color: cccccc
+grid.linewidth: 0.5
+grid.alpha: 0.7
+axes.axisbelow: True
+axes.edgecolor: 333333
+
+lines.linewidth: 1.8
+lines.markersize: 6
+
+legend.frameon: True
+legend.framealpha: 0.9
+legend.edgecolor: cccccc
