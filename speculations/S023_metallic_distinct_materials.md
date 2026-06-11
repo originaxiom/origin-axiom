@@ -51,6 +51,27 @@ chain is non-Hermitian (no quantum Hamiltonian; `sln_multichannel_probe`, S007),
 would be `TESTED-NEGATIVE` ("same material rescaled"). They are not — the fields are distinct → first-class
 positive.
 
+## Which seeds share a field — the collision / Pell structure
+
+**[MATH] (verified in-session).** Distinct seeds need **not** give distinct fields: `squarefree(m²+4)` collides.
+The seeds sharing `ℚ(√5)` are *exactly* the odd-index Lucas numbers `m ∈ {1, 4, 11, 29, 76, 199, …}` — the
+solutions of the Pell equation `m² − 5a² = −4`; likewise `{2, 14, …}` share `ℚ(√2)` and `{3, 36, …}` share
+`ℚ(√13)`, each its own Pell family `m² − d·a² = −4`. So the arithmetic fingerprint is the **field**, not the digit
+`m`: two different seeds in the same field are the *same* material arithmetically. (Verified: `squarefree(m²+4)`
+enumerated over `m ≤ 60`; the Lucas/Pell identification by direct solve.) The full structure of which `(m, m′)`
+collide is a clean open number-theory lead, logged in `../docs/OPEN_LEADS.md` (L16).
+
+**[LEAD] (the field-multiplicity rank conjecture — NOT banked).** A review session proposed that for a quasicrystal
+built by *coupling* several metallic seeds, the gap-labeling / Fourier-module rank is `1 + (#distinct fields)` — the
+distinct-field count, not the seed count. The rigorous pieces (mine, this session): a single seed gives rank 2 (the
+`ℤ + ℤα_m` module, standard); same-field seeds cannot raise the rank past 2 (one quadratic field is 2-dimensional);
+distinct fields contribute `ℚ`-independent `√d` directions (classical). The **open, and possibly false, step** is
+that the *coupled* module is exactly `ℤ ⊕ Σ(seed frequencies)` with no cross terms — a product / cut-and-project
+coupling can introduce `√(dᵢdⱼ)` directions (golden × silver → `√10`), which would push the rank *above* `1+k`. So
+this is a lead, not a theorem. The physical reading (diffraction-measurable Fourier-module rank) is `PERMITTED`,
+firewall-honored (the scale is the real material's — door 4). **NB** this "coupling" is a *combined substitution*,
+which is **not** B131/K014's 3-manifold cusp-gluing (a different construction — do not conflate). Logged: L16.
+
 Related: `S007` (the SL(n) gap-labeling hook — its SL(2)/m-family part is now computed here; the SL(n≥3) part stays
 blocked), `K007` (the KKT/quasicrystal anchor), `../frontier/physics_probes/metallic_spectra.py`, B107, **B120**
 (the m-universal algebra this contrasts against).

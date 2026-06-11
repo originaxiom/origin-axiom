@@ -52,6 +52,23 @@ remains** (B84 killed the numerical; this stage killed the Λ²V representation 
 honest scoping of the deepest open item: `n≤4` proved, `n≥5` structural (B62) with the first-principles
 gap reduced to one symbolic construction.
 
+## Two constraints on the obstruction's shape (review-session; verified, additive)
+
+A review session offered two *negative constraints* on what the residual obstruction can be. Neither solves it — the
+wall stands exactly as the Verdict states (the symbolic Procesi-trace-ring assembly of the `char(M²)²` sector). They
+only narrow its shape:
+
+- **(i) Not multiplicative-rank-shaped (genuinely additive).** Every `Sym^d(M)` eigenvalue is `±φ^{d−2j}`, so the
+  multiplicative group the tower eigenvalues generate has **free rank 1** (`⟨φ⟩`, times the sign `⟨−1⟩`) at every
+  `n`. Hence whatever blocks the functorial `Sym(W)→trace-ring` map **cannot** be an eigenvalue multiplicative-rank
+  mismatch — there is no rank to mismatch. (Verified in-session; not previously recorded here.)
+- **(ii) Not a clean parity-eigenspace (already substantially recorded).** The subtracted `W = Sym¹⊕Sym⁰ = V⊕1` is
+  *mixed* under `M→−M` (odd ⊕ even, `det W=−1`), so the `⊖W` correction is not a single eigenspace a parity-respecting
+  functor would produce. This is a re-reading of the already-banked **B121/B122** parity fact (`det W=−1`, the
+  odd-`Sym^d` obstruction), not new content.
+
+No new attack is opened from these; they are constraints on the open `n≥5` symbolic step, not progress on it.
+
 ## Reproduce
 
 ```bash

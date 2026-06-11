@@ -53,6 +53,23 @@ a specific word.
   `κ = +2` (B109), the geometric/parabolic cusp at `κ = −2` (B69/B101), and `κ` is conserved along the flow (it is
   the Sütő invariant of the quasicrystal reading, `K007`).
 
+## The cusp as a degenerate field (a known correspondence, noted for the seed)
+
+The geometric point `κ = −2` realizes a standard correspondence from the isomonodromy / conformal-field-theory
+dictionary. The puncture holonomy has trace `λ + λ⁻¹ = κ`, so `|κ| = 2 ⟺` the holonomy is **parabolic** (`λ = ±1`)
+`⟺` the cusp; and writing the eigenvalue as `e^{2πip}`, `κ = 2cos(2πp) = −2 ⟺ p = 1/2`, a **degenerate (Kac)
+momentum**. So the seed's complete-hyperbolic cusp — the Markov fibre `κ = −2` (`K010`, B69/B148/B150) — corresponds
+to a level-2 degenerate field. By contrast the metallic quasicrystal / cocycle reading lives in the **hyperbolic
+regime `κ > 2`** (B127, `K007`), where the trace-map orbits are bounded and the continued-fraction digits are finite
+(period-1, `K002`) — bulk closed geodesics, never the `κ = −2` boundary where orbits escape and digits diverge.
+
+**Separation (load-bearing).** `κ = −2` (the geometric/Markov cusp, degenerate field) and `κ > 2` (the regime the
+metallic seeds occupy) are different points of the variety and must not be blurred — a session that first conflated
+them produced an artifact. This is a `KNOWN` correspondence (parabolic monodromy ↔ degenerate field; Cantat–Loray /
+isomonodromy), sitting on the **character-variety / boundary-holonomy** side — *forced-adjacent* to the B150 class-S
+bridge, **not** the `τ`-modularity side (which would be rhyme). It is a correspondence label, not a scale crossing;
+the firewall (B151/`K006`) stands. (Review-session observation; the `p = 1/2` and parabolic facts verified in-session.)
+
 ## What this is and is not
 
 The character variety is a *moduli space of flat connections on a surface*, and the trace map is the *mapping-class
