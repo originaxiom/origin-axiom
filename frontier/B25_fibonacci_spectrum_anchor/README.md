@@ -41,6 +41,20 @@ sufficient derivation.
 `lambda/h=1` is accepted, but `lambda/h=1` remains motivated rather than
 forced.
 
+## Refined fingerprint at λ*=1 (2026-06-11, review-session, NUMERICAL)
+
+A cross-session run sharpened the experimental card at the `λ/h=1` (`I=1/4`) point (numbers
+reproduced in-session; the arena is the known Fibonacci Hamiltonian, so this is a refinement of
+the numerics above, not a new result):
+
+- periodic-approximant **band count = `F_k` exactly** (every gap open) through the `F=610` approximant;
+- **bandwidth-decay ratio ≈ 0.8711(4)** across levels (sharpens the earlier "mid-scale slope ≈ 0.75");
+- largest gaps at **IDOS labels `{m/φ} mod 1`** (the golden gap-labeling lattice);
+- box-counting dimension `D₀` **not converged** — bracketed `[0.78, 0.93]`, Aitken ≈ 0.86 — flagged as
+  finite-size/supporting, not load-bearing.
+
+These are an experimental-target card, not a derivation; `λ/h=1` stays motivated (Verdict above).
+
 ## Literature Control
 
 The gap-labeling and Cantor-spectrum facts are treated as known controls; see

@@ -87,6 +87,29 @@ is needed. The volume/Bianchi-covolume cross-check is recorded (it runs under sa
 calibration note to `frontier/B125_snappy_arithmeticity/probe.py` ("exactly two" → metallic m=1,2; ≥4 overall).
 Nothing to `CLAIMS.md`; P1–P16, B85, the merged B124–B146 untouched; K-A not revived. Ledger **V136**.
 
+## Addendum (2026-06-11) — the CM volumes behind the Bianchi ratios (review-session, verified)
+
+A cross-session review noted that the two arithmetic *metallic* members have closed-form CM volumes, the
+arithmetic content behind the integer Bianchi ratios above:
+
+- **Golden `RL` = figure-eight:** `Vol = (3√3/2)·L(2,χ₋₃)`. **KNOWN** — the classical Bloch–Wigner /
+  Humbert / Borel identity (CM volume = a Dirichlet `L`-value over `ℚ(√−3)`); reproduced, not new.
+- **Silver `RRLL` (= census `m136`):** `Vol = 4·G = 4·L(2,χ₋₄)`, `G` = Catalan's constant. **NUMERICAL**
+  (verified in-session: `Vol = 3.6638623767 = 4G` to snappy precision; `b++LR` confirmed `= 4_1`). This is
+  almost certainly the classical `ℚ(i)` / Gaussian analogue of the figure-eight identity (the silver bundle
+  is octahedral, each ideal tetrahedron contributing `G`) — **treat as likely-KNOWN pending a literature
+  check**; a 10-digit match is evidence, not a proof of the exact identity.
+- **The CM sublocus** of the metallic family is `{golden (disc −3), silver (disc −4)}` — exactly the two
+  arithmetic members **already banked in B125** (`m≥3` leave the imaginary-quadratic fields); the "exactly
+  two, nowhere else" framing rests on the BMR finiteness of arithmetic o-p-t bundles (already cited above).
+  Not new beyond B125/K002.
+- **Kill (review-session) — `|disc_CM| = κ_m` is NOT a law:** it would give `|−4| = 4` at silver but `κ₂ =
+  m²+2 = 6` (`4 ≠ 6`), so the golden "3 = 3"-shaped coincidence (`|−3| = 3 = κ₁`) does **not** generalize.
+  Tombstoned (`../../speculations/TOMBSTONES.md`, R3). A shared-integer is not an identity.
+
+Tier: golden `KNOWN`, silver `NUMERICAL`→likely-KNOWN (literature-gated), sublocus = B125. Nothing to
+`CLAIMS.md`. See `../../docs/CROSS_SESSION_2026-06-11_disposition.md`.
+
 **Anchors:** B146 (the catch + the dichotomy), B145 (the catalog), B125 (the metallic m=1,2 arithmeticity — stands),
 B131 (the κ-fork), `K017`, `docs/STRATEGIC_SYNTHESIS.md`. External: Maclachlan–Reid (arithmeticity = imaginary-
 quadratic invariant trace field + integral traces); Humbert (arithmetic volume = integer × Bianchi covolume);

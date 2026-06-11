@@ -197,3 +197,20 @@ See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibrat
 `../frontier/B147_arithmetic_chiral_bundle/`, `../frontier/B148_kappa_fricke_metallic/`,
 `../frontier/B150_class_s_coincidence/`, `../frontier/B151_firewall_confirmation/`,
 `../papers/VALIDATION_LEDGER.md` (V132, V135, V136, V137, V139, V140).
+
+### 8b. Two-route convergence, and the standing external-review gap (2026-06-11)
+
+Two parallel review sessions reached this same boundary by independent internal routes — one via
+geodesics / field-multiplicity (the real-quadratic axis; `S023`/L16), one via congruence-truncation +
+CM-volumes (`B147` addendum) — and a fresh-clone external audit independently reached the same verdict:
+**the construction does not stand as a Theory of Everything by the project's own banked results, and the
+refusal to be one (the firewall) is its most credible feature** — consistent with B150/B151 and §8/§8a.
+
+The honest caveat is binding: **instance-convergence is corroboration, not external review.** All three are
+the same kind of mind sharing priors and this repo; the genuinely independent legs are the *literature*
+anchors (Allegretti–Shan; GTZ/Dimofte/Córdova–Jafferis; Ng–Schauenburg; Humbert; Sütő). The standing
+recommendation — **one real external specialist** — survives intact and **unmet**; B150 (the trace-map =
+N=2\* S-duality identification, primary-source-checkable in an afternoon) is the highest-value artifact for
+that single contact. This note records the convergence and the gap; it is not itself a claim, and not a
+substitute for review. Full disposition of the two sessions + the audit:
+`CROSS_SESSION_2026-06-11_disposition.md`.

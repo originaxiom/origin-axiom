@@ -89,6 +89,13 @@ See `CLAIMS.md` for the current ledger: 15 `proven`, 5 `conditional`, 9 `open`, 
 5. Run the tests (`REPRODUCIBILITY.md`) — every `proven` claim is checkable.
 6. Treat `frontier/` and `legacy/` as clearly marked: speculation and history, not results.
 
+**Before you compute anything new:** the corpus is large and re-derivation is the main waste. First
+grep `docs/OPEN_LEADS.md` (its disposition column says what is already done/withdrawn) and skim the
+method-bug guards **MB6–MB12 in `REPRODUCIBILITY.md`** (orientation-blind `is_isometric_to`,
+reproduction-is-not-interpretation, vacuity checks, …) — several have been independently re-hit by
+fresh sessions. `docs/atlas/` (RESEARCH_TREE, AUDITOR_GUIDE, FAILURE/SUCCESS atlases) maps
+question-shapes to probe IDs.
+
 ---
 
 ## Author

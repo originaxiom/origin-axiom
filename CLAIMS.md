@@ -9,12 +9,12 @@ pointer. Prose elsewhere in the repo may not exceed the label of the claim it re
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-06-03 · the proven core P1–P16 is **unchanged through all B58–B68
-frontier work** (the SL(n) trace-map tower lives entirely in `frontier/` / PC12 — the date
-lag is not claim drift) · proven ledger unchanged at 15 claims; C1 evidence
-upgraded by `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace
-selector theorem; trace-map and spectrum work B13-B47 otherwise remains
-frontier only.
+**Last updated:** 2026-06-11 · the proven core P1–P16 is **unchanged through all frontier work to
+date (B1–B152)** — **B69–B152 produced zero promotions** to this ledger (the SL(n) trace-map tower,
+the chirality / class-S / firewall arc, and all cross-session processing live entirely in `frontier/`
+/ `knowledge/` / `speculations/`; the date/range lag is not claim drift) · proven ledger unchanged at
+15 claims; C1 evidence upgraded by `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace
+selector theorem; trace-map and spectrum work B13–B47 otherwise remains frontier only.
 
 ---
 

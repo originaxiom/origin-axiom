@@ -67,6 +67,18 @@ The Sym two-sequence is not a custom decomposition — it is **symmetric powers 
   `M` acts (the trivial fixed point); off the void the trace map is elliptic / root-of-unity (e.g. order-6 at SL(2)),
   not `Sym`-organized (B106).
 
+## A centralizer reading of the multiplicities (framing note, 2026-06-11)
+
+A review session offered an elementary re-reading of the B121/B122 multiplicity data (a *framing*, not new
+math): a seed lift into `SL(n)` leaves unbroken the centralizer of its image, which over the eigenvalue
+multiplicities `(m_i)` is `S(∏_i GL(m_i))`. Consequences, all immediate from the data above:
+- an **irreducible `Sym^k` lift breaks to the maximal torus at every rank** — `φ` is not a root of unity, so
+  `Sym^k(M)` has distinct eigenvalues and the centralizer is `(GL_1)^{·}∩SL`;
+- **non-abelian unbroken factors arise only from repeated weights** (e.g. a `GL(2)` in `SL(4)` from the
+  `A⊗A` multiplicity, or from `Λ²(Sym³)` — the `Λ²` of the B85 functor — in `SL(6)`).
+This is linear algebra on the banked `Sym`-decomposition, recorded as a pointer to B121/B122; it adds no
+claim. STRUCTURAL framing only.
+
 ## The spectrum is reciprocal-closed: time-reversal and a det=−1 handedness residue (B124)
 
 The trace map is a reversible area-preserving (symplectic) map, so the tower spectrum is **reciprocal-closed**
