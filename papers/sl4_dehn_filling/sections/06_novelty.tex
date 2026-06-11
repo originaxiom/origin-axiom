@@ -1,0 +1,43 @@
+\section{Relation to prior work, and the open novelty check}
+\label{sec:novelty}
+
+We have located no prior statement of $L=-M^4$ on the figure-eight, and we have actively excluded the
+literature quadrant where it would most plausibly already live. We set out what we checked, and the one
+check we cannot close ourselves.
+
+\subsection{The convex-projective / projective-geometry program (excluded)} The most concrete $\SL(4)$
+figure-eight representations in the literature are the convex-projective deformations of the
+\emph{geometric} representation: Cooper--Long--Thistlethwaite \cite{cooperlongthistlethwaite2006} computed
+$\SL(4,\R)$ representation varieties directly, and Ballas \cite{ballas2015} (see also
+Ballas--Danciger--Lee \cite{ballasdancigerlee2018}) gave an explicit one-parameter family
+$\rho_t\colon\pi_1(4_1)\to\PGL(4,\R)$ deforming the discrete faithful representation. These are
+\emph{boundary-unipotent}: in Ballas's family the meridian $\rho_t(m)$ is a unipotent matrix for all $t$
+(the longitude is unipotent only at the complete structure). Our component is of the opposite type --- the
+meridian has \emph{finite order}, spectrum $\{1,1,\omega,\omega^2\}$ --- so it is not a member of, or a
+limit of, the convex-projective families. (At the eigenvalue level, $M=1$ there would force $L=-1$ under
+$L=-M^4$, which their non-unipotent longitude does not satisfy.) The convex-projective quadrant therefore
+does not contain our relation.
+
+\subsection{The Ptolemy / gluing-variety program (the right machine; published only at $n=2$)} The natural
+tool for boundary relations of $\SL(n)$/$\PGL(n)$ representations of $4_1$ is the (extended) Ptolemy
+variety: Garoufalidis--Goerner--Zickert \cite{ggz2015} for the gluing equations and Zickert
+\cite{zickert2016} for an algorithm producing the $\SL(n,\C)$ $A$-varieties (and reproducing the $\SL(2)$
+$A$-polynomial of $m004$). This machinery can in principle compute exactly the relation studied here;
+\cite{zickert2016} works the figure-eight example only at $n=2$, and we found no published $n=4$
+computation. The associated databases (CURVE; the Ptolemy module of \texttt{SnapPy}) tabulate
+boundary-unipotent $\PGL(n)$ representations of $m004$, which --- being unipotent --- again do not include
+our finite-order-meridian component.
+
+\subsection{The honest novelty verdict} \sGated. After excluding the convex-projective quadrant and
+locating the Ptolemy quadrant (machinery present, $n=4$ figure-eight computation not published), we find
+no prior statement of $L=-M^4$. But the relation is \emph{computable} by the extended-Ptolemy algorithm,
+so a specialist could confirm in short order whether an equivalent computation already exists. We do not
+claim novelty closed: the contribution is best stated as ``the first explicit statement, with a
+completeness classification, of the $\SL(4,\C)$ figure-eight Dehn-filling slope $L=-M^4$,'' with the
+specialist check (to Guilloux, Zickert, Goerner, Tillmann, or Ballas) the remaining step. This is the
+honest reading of an AI-assisted literature search: it de-risks, it does not certify.
+
+\subsection*{Acknowledgements} This work used AI-assisted computation and exposition under an explicit
+proof-status discipline; all statements are reproducible from the accompanying code and finite-field
+certificate (Zenodo deposit at submission). The author thanks no institution and claims no specialist
+standing in higher-rank character varieties; Section~\ref{sec:novelty}'s verdict is offered in that light.

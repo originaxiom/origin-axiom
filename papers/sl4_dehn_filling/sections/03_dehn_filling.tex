@@ -1,0 +1,66 @@
+\section{The Dehn-filling component and the relation $L=-M^4$}
+\label{sec:dehn}
+
+\subsection{Bundle representations} A representation of the figure-eight bundle group is a pair
+$(A,t)\in\SL(4,\C)^2$, where $A,B$ generate the fibre group $F_2=\pi_1(T_\circ)$ and $t$ realises the
+monodromy $\varphi=RL$ acting on the fibre by the once-punctured-torus relations
+\begin{equation}\label{eq:bundle}
+  t\,A\,t^{-1}=A^2B,\qquad t\,B\,t^{-1}=AB.
+\end{equation}
+(To avoid the notation clash common in this subject we keep $A,B$ for the \emph{fibre} generators
+throughout; the peripheral data is built from them below.) Eliminating $B=A^{-2}tAt^{-1}$ collapses
+\eqref{eq:bundle} to a single matrix equation in $(A,t)$,
+\begin{equation}\label{eq:star}
+  t\,A^{-2}\,t\,A=A^{-1}\,t\,A\,t.
+\end{equation}
+
+\subsection{The principal spectrum and the explicit family} Fix the boundary $A$-spectrum to the
+principal value
+\begin{equation}
+  A=\operatorname{diag}(1,1,\omega,\omega^2),\qquad \omega^3=1,\ \omega\neq1,
+\end{equation}
+so $A^3=I$ and $A^{-2}=A$. Writing $S=tAt$, equation \eqref{eq:star} forces $S_{ij}=0$ whenever
+$a_j\neq a_i^{-1}$ (with $a=(1,1,\omega,\omega^2)$); i.e. $S$ vanishes off the block pattern compatible
+with the eigenvalue pairing. These are $10$ quadratic equations --- the exact defining ideal of the
+bundle family for this spectrum. The centraliser of $A$ (the gauge group) is
+$\mathrm{S}(\GL_2\times\GL_1\times\GL_1)$; on the dense slice where the $V_{\omega,\omega^2}\!\to V_1$
+block $Q=t[0{:}2,2{:}4]$ is invertible, gauge normalises $Q=I_2$. Writing $t$ in $2{+}1{+}1$ blocks
+$t=\left(\begin{smallmatrix}P&I\\R&T\end{smallmatrix}\right)$, the ideal becomes $P=-DT$ ($D=\mathrm{diag}(\omega,\omega^2)$)
+together with $TDR=RDT$ and $\operatorname{diag}(R+TDT)=0$; the non-degenerate ($\det t\neq0$)
+representations live on the single linear rank-drop condition $t_{11}=\omega\,t_{22}$, on which $R$
+carries one extra free parameter $s$. The component is the explicit four-parameter family
+\begin{equation}\label{eq:family}
+  T=\begin{pmatrix}\omega t_{22}&t_{12}\\ t_{21}&t_{22}\end{pmatrix},\quad P=-DT,\quad Q=I_2,\quad
+  R=\begin{pmatrix} t_{12}t_{21}(\omega{+}1)-t_{22}^2 & s\\[2pt] s\,t_{21}/t_{12} & t_{22}^2+\omega(t_{22}^2-t_{12}t_{21})\end{pmatrix},
+\end{equation}
+with parameters $(t_{12},t_{21},t_{22},s)$ and $\det t$ a genuine nonzero polynomial in them.
+
+\subsection{The relation} Let $\mu=A^{-1}t$ be the meridian and $[A,B]$ the longitude (the puncture
+loop). The eigenvalues $M,L$ of $\mu,[A,B]$ are the figure-eight $A$-polynomial coordinates.
+
+\begin{theorem}[\sExact]\label{thm:relation}
+For all $(t_{12},t_{21},t_{22},s)$, the following holds as a polynomial matrix identity over $\Q(\omega)$,
+cleared of inverses via $t^{-1}=\operatorname{adj}(t)/\det(t)$ (no division):
+\begin{equation}\label{eq:m4l}
+  [A,B]\cdot\det(t)^2 \;=\; -\det(t)\cdot\mu^4 .
+\end{equation}
+On the $\SL(4)$ normalisation $\det t=1$ this is $[A,B]=-\mu^4$, hence on eigenvalues $L=-M^4$.
+\end{theorem}
+
+The proof is the entry-by-entry verification of \eqref{eq:m4l} on the family \eqref{eq:family}; we sketch
+it in Appendix~\ref{app:m4l} and provide the script. The controls $M^3,M^5$ (not scalar) and $c^4=1$
+($c=-1/\det t$) are checked in the same computation.
+
+\subsection{Why this is a Dehn-filling slope}\label{ss:dehn} Theorem~\ref{thm:relation} is more than an
+eigenvalue relation: $[A,B]=-\mu^4$ as matrices means
+\begin{equation}\label{eq:central}
+  \mu^4\,[A,B]^{-1}=-I\in Z(\SL(4,\C)).
+\end{equation}
+So the longitude equals a central element times $\mu^4$, and the family factors projectively through the
+$-4$ slope on the meridian --- a \emph{Dehn-filling slope}, exactly the structure of Falbel's $\SL(3)$
+relations $M^3=L$, $M^3L=1$ \cite{fgkrt2014,hmp2016}, one rank up. The meridian has finite order (its
+spectrum is $\{1,1,\omega,\omega^2\}$), so this is an orbifold/Dehn-filling component, not a deformation
+of the discrete faithful representation; we return to the distinction in Section~\ref{sec:novelty}. The
+relation is not a formal consequence of the determinant condition alone: $\det$ fixes only the scalar
+$c=-1$ \emph{given} the matrix proportionality $[A,B]\propto\mu^4$, which is the content of
+\eqref{eq:m4l}.

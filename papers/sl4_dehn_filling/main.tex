@@ -1,0 +1,102 @@
+\documentclass[11pt,reqno]{amsart}
+
+% ---------------------------------------------------------------------------
+%  The narrow note (post-review rewrite of the flagship's mathematical core).
+%  Scope: ONE figure-eight component at SL(4,C) -- the Dehn-filling slope
+%  L = -M^4 -- and its completeness, with the metallic trace-map tower as
+%  context. Honest-badged; novelty positioned against the projective-geometry
+%  and Ptolemy programs; specialist-close pending. The philosophical essay of
+%  the flagship is split off and is NOT part of this note.
+% ---------------------------------------------------------------------------
+
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[margin=1.1in]{geometry}
+\usepackage[colorlinks=true,linkcolor=BlueViolet!70!black,citecolor=ForestGreen!60!black,urlcolor=NavyBlue]{hyperref}
+
+\graphicspath{{figures/out/}}
+
+% --- proof-status badges (kept, but used sparingly and never over-stated) ---
+\definecolor{stProved}{HTML}{2E7D54}
+\definecolor{stNum}{HTML}{1B3A5B}
+\definecolor{stStruct}{HTML}{7A4F9E}
+\definecolor{stKnown}{HTML}{8C8C8C}
+\definecolor{stGated}{HTML}{B6411A}
+\newcommand{\badge}[2]{{\setlength{\fboxsep}{2pt}%
+  \colorbox{#1}{\textcolor{white}{\sffamily\bfseries\scriptsize #2}}}}
+\newcommand{\sProved}{\badge{stProved}{PROVED}}
+\newcommand{\sExact}{\badge{stProved}{SYMBOLIC-EXACT}}
+\newcommand{\sNum}{\badge{stNum}{NUMERICAL}}
+\newcommand{\sKnown}{\badge{stKnown}{KNOWN}}
+\newcommand{\sGated}{\badge{stGated}{NEEDS-SPECIALIST}}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\PGL}{\mathrm{PGL}}
+\newcommand{\GL}{\mathrm{GL}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Fp}{\mathbb{F}_p}
+\newcommand{\chr}{\chi}
+\DeclareMathOperator{\Sym}{Sym}
+
+\begin{document}
+
+\title[An SL(4,C) Dehn-filling slope of the figure-eight knot]{An $\SL(4,\C)$ Dehn-filling slope of the figure-eight knot:\\ the relation $L=-M^4$ and its completeness}
+\author{Dritëro M.}
+\address{Independent researcher, Prishtina.}
+\date{\today}
+
+\begin{abstract}
+We exhibit an irreducible four-parameter component of the $\SL(4,\C)$ character variety of the
+figure-eight knot complement $4_1$ on which the meridian $\mu$ and longitude $[A,B]$ satisfy the exact
+matrix identity $[A,B]=-\mu^4$, hence the eigenvalue relation $L=-M^4$. The component sits over the
+boundary $A$-spectrum $\{1,1,\omega,\omega^2\}$ ($\omega^3=1$); its meridian is of finite order, so the
+relation is a \emph{Dehn-filling slope} --- the $\SL(4)$ analogue of Falbel's $\SL(3)$ relations $M^3=L$,
+$M^3L=1$, and a distinct object from the boundary-unipotent convex-projective deformations of the
+geometric representation studied by Cooper--Long--Thistlethwaite and Ballas. A gauge-stratified primary
+decomposition over $\Q(\omega)$ together with an exact finite-field Burnside classification shows this
+four-parameter family is the \emph{entire irreducible locus} for that spectrum, so $L=-M^4$ holds there
+unconditionally. We frame the result against the metallic trace-map tower (whose adjoint Jacobian factors
+over a Dickson catalogue, proved through rank $4$, with a clean $n=2$ base case) and the figure-eight
+$A$-polynomial controls at $\SL(2)$ (Cooper--Long) and $\SL(3)$ (Falbel/Heusener--Mu\~noz--Porti). We do
+\emph{not} claim a relation ``for all $n$'': the family is established at $n=3$ (known) and $n=4$, and the
+$\SL(5)$ status is open (Section~\ref{sec:controls}). An adversarial literature read found no prior
+statement of $L=-M^4$ and excludes the convex-projective circle, but the relation is computable by the
+extended-Ptolemy $A$-variety algorithm (published only at $n=2$), so a specialist confirmation is the
+remaining novelty check. Code and a finite-field certificate accompany the paper.
+\end{abstract}
+
+\maketitle
+
+\input{sections/01_intro}
+\input{sections/02_tower}
+\input{sections/03_dehn_filling}
+\input{sections/04_completeness}
+\input{sections/05_controls}
+\input{sections/06_novelty}
+\input{sections/appendix}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

@@ -1,0 +1,53 @@
+\appendix
+
+\section{Proof sketches and certificates}
+\label{app:crt}\label{app:m4l}\label{app:strata}
+
+Full scripts and the finite-field certificate accompany the paper; we record the load-bearing details.
+
+\subsection{The CRT/$\Fp$ degree bound for Theorem~\ref{thm:tower} ($n=4$)} The catalogue factors
+$\chr(\pm M^k)=t^2\mp L_k t+(-1)^k$ have $L_k=\tr(M_m^k)$ of $m$-degree $k$. For $n=4$ the factors run
+$k\le4$, so every coefficient of $\det(tI-J(m))$ is a polynomial in $m$ of degree at most
+$1+1+2+2+3+4=13$. Sampling $J(m_0)\bmod p$ at $m_0=1,\dots,14$ over a set of primes whose product exceeds
+twice the (bounded) coefficient height, then Lagrange-interpolating in $m_0$ and reconstructing over $\Q$
+by CRT, recovers the coefficients exactly. The reconstruction was confirmed against a direct symbolic
+evaluation of $\det(tI-J(15))$ over $\Z$ --- i.e.\ against the object itself, not merely against the
+catalogue.
+
+\subsection{The identity $[A,B]=-\mu^4$ (Theorem~\ref{thm:relation})} On the family \eqref{eq:family} with
+$A=\operatorname{diag}(1,1,\omega,\omega^2)$ and $B=A^{-2}tAt^{-1}=AtAt^{-1}$, clear $t^{-1}$ via
+$t^{-1}=\operatorname{adj}(t)/\det(t)$ and reduce all scalars modulo $\omega^2+\omega+1$. The matrix
+$[A,B]\cdot\det(t)^2+\det(t)\cdot\mu^4$ is then a $4\times4$ matrix of polynomials in
+$(t_{12},t_{21},t_{22},s)$ over $\Q(\omega)$; each of its $16$ entries reduces identically to $0$. (No
+division is performed before $\det t\neq0$ is used, so the identity is pure ring algebra.) Setting
+$\det t=1$ gives $[A,B]=-\mu^4$ and the central relation \eqref{eq:central}. The controls $\mu^3,\mu^5$ are
+verified non-scalar on the family, and $c=-1/\det t$ satisfies $c^4=1$.
+
+\subsection{The gauge-rank strata and the $\det t=0$ certificate (Theorem~\ref{thm:complete})} The primary
+decomposition over $\Q(\omega)$, stratified by $\mathrm{rank}\,Q$, has the component counts:
+
+\begin{center}\small
+\begin{tabular}{lcl}
+\toprule
+stratum & \#\,components & carries irreducible reps? \\
+\midrule
+$\mathrm{rank}\,Q=2$ (the family \eqref{eq:family}) & $2$ & \textbf{yes} (one, $4$-param; $M^4=L$) \\
+$\mathrm{rank}\,Q=1$ (three gauge normal forms) & $4+4+4$ & no (reducible / $\det t=0$) \\
+$\mathrm{rank}\,Q=0$ ($\det t=0$) & $6$ & no (reducible, certificate below) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+On the $\mathrm{rank}\,Q=0$ stratum the coupling block $Q=t[0{:}2,2{:}4]$ vanishes, so in the eigenspace
+splitting $\C^4=V_1\oplus V_\omega\oplus V_{\omega^2}$ the monodromy $t$ is block-triangular: it maps
+$V_1\to V_1\oplus(\text{lower})$ with no $V_{\omega,\omega^2}\to V_1$ component. Since $A$ acts as a scalar
+on each $V_{a}$, the subspace spanned by $V_\omega\oplus V_{\omega^2}$ (equivalently its $t$-saturation) is
+invariant under both $\rho(A)$ and $\rho(B)=AtAt^{-1}$; this exhibits a common invariant subspace, so every
+representation on this stratum is reducible. This is the hand-proved control against which the $\Fp$
+Burnside test (Section~\ref{sec:complete2}) was validated: the test returns ``reducible'' on exactly this
+stratum, confirming it does not false-certify, before it is trusted on the remaining strata.
+
+\subsection{Figure reproduction} The figures are produced by the accompanying deterministic script:
+Figure~\ref{fig:tower} from the symbolic Dickson factorisation (Theorem~\ref{thm:tower}),
+Figure~\ref{fig:strat} from the finite-field classification certificate, Figure~\ref{fig:slope} from the
+exact $n=3,4$ relations. Each carries the proof-status of the statement it depicts.
