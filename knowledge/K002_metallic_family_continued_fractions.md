@@ -59,6 +59,9 @@ The metallic family is a family of **arithmetic / dynamical objects** (units, ge
 `λ_m` are not physical constants; the family-in-`m` is **dead as a moduli/physics family** (genus locked, forced
 `j = 1728`; the volume-conjecture and CS-crossover readings are tombstoned). The live content is the **arithmetic
 distinctness** of the members (e.g. the distinct trace fields `ℚ(√(m²+4))`, `S023`) and the catalog the family shares.
+Which members *share* a field is itself arithmetic: `squarefree(m²+4)` collides along Pell families `m²−d·a²=−4` — the
+`ℚ(√5)` seeds are exactly the odd-index Lucas numbers `{1, 4, 11, 29, …}` (`S023`, a review-session observation
+verified in-session; the open structure of the collisions is logged as `../docs/OPEN_LEADS.md` L16).
 
 **Anchors:** B92/V76 (systole), B93/B94 (det=−1 parity), B103 (the catalog as a class function); `../philosophy/
 METALLIC_FOUNDATIONS.md`, `../philosophy/P000`, `K009` (the `m=1` selections). External: continued fractions

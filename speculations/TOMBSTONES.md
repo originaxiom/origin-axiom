@@ -235,3 +235,29 @@ dimensionless element of ℂ/4π²ℤ; all scale lives in the level `ℏ↔k` + 
 magnitude — a real bridge, no crossing. A sharper *structural* reading of the wall (a conserved/topological invariant
 cannot run, so cannot source a scale) + a complete five-door map is recorded **POSTULATED** (proposed in review, not
 independently verified) in `../docs/STRATEGIC_SYNTHESIS.md` §8a — not a kill, a recorded boundary argument.
+
+---
+
+**Review-session kills — the spectral-rank cluster.** A CFT / quantum-chaos review session on the seed produced
+several "rank" identifications that dissolved on scrutiny. The *math* underneath each is fine and standard; the
+*identification* is the kill. Tombstoned so no future run re-derives them. (The one survivor of that session — the
+field-multiplicity collision / Pell structure — is banked as `[MATH]` in `S023`; the field-multiplicity *rank
+conjecture* is logged as a lead, `../docs/OPEN_LEADS.md` L16.)
+
+- **K-J — `φ² = degenerate-block monodromy multiplier` — DEAD.** The degenerate (`φ_{2,1}`) torus block is
+  **reducible** (`κ = 2`); the seed is **irreducible** (`κ > 2`). They are different points of the character variety.
+  The apparent "`3 = 3`" confirmation was an **artifact** — an eigenvalue-trace compared against a commutator-trace
+  (different quantities). *Revival kill condition:* a single representation that is both the degenerate reducible block
+  and the irreducible seed — impossible (reducible ≠ irreducible).
+- **K-K — `gap-labeling rank = composition period` — DEAD.** A period-`k` geodesic is a `2×2` matrix = a 2-letter
+  substitution = **always rank 2**, independent of `k`. Nothing internal to a single seed raises the spectral rank
+  above 2. (The session first mislabeled golden Fibonacci as "rank 1"; it is rank 2.)
+- **K-L — `rank = SL(n) tower depth` — DEAD.** The tower eigenvalues are all powers of `φ²` (multiplicative free-rank
+  1) at every `n` (cf. the B85 constraint note); the spectral rank does not climb with `n`. Same lesson as K-K from
+  the tower side.
+- **K-M — the "measurable gap-labeling-rank prediction" built on K-K/K-L — DEAD.** With its premises (K-K/K-L) dead,
+  the prediction falls. The *correct* rank statement is field-multiplicity (S023 / L16), not period or tower depth.
+
+*Method note (MB6, see `../REPRODUCIBILITY.md`):* the `3 = 3` of K-J is the recurring **reproduction-is-not-
+interpretation** trap — two numbers coincide while measuring different things. Run the control (here: check
+irreducibility, `κ`, and *which* trace) before reading a coincidence as an identity.
