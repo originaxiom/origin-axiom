@@ -8,8 +8,10 @@ _ROOT = pathlib.Path(__file__).resolve().parents[1]
 # assembled so the literal strings do not appear in this file's own source
 _FORBIDDEN = ("/Us" + "ers/", "/ho" + "me/")
 # legacy/ is checked-in history (incl. a vendored virtualenv); site-packages/venvs are third-party.
+# audit/ and .tmpwork/ are gitignored scratch workspaces (never committed) -- out of scope for a guard
+# that, per its docstring, governs *committed* .py files; they hold one-off probes with absolute paths.
 _SKIP_DIRS = {".git", "__pycache__", ".venv", "venv", "node_modules", ".mypy_cache", ".pytest_cache",
-              "legacy", "site-packages", "phi_env", "dist-packages"}
+              "legacy", "site-packages", "phi_env", "dist-packages", "audit", ".tmpwork"}
 
 
 def test_no_absolute_machine_paths_in_py():

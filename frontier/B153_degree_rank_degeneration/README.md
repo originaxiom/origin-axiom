@@ -3,10 +3,16 @@
 **Question.** Is the figure-eight degree=rank relation `L=(−1)^{n-1}Mⁿ` a genuine A-polynomial component,
 and how does it behave across rank?
 
-**Answer (STRUCTURAL; V142).** It is rank-stratified: a genuine **component at n=3** (`L=+M³`, Falbel),
-a measure-zero **slice at n=4** (`L=−M⁴`, exact over ℚ(ω)), and **absent at n=5** (semisimple provably
-reducible; non-ss numerically absent). This replaces the deflated PC13 "SL(4) component" claim. No physics;
-nothing to `CLAIMS.md`.
+**Answer (STRUCTURAL; V142, n=5 corrected V143).** It is rank-stratified: a genuine **component at n=3**
+(`L=+M³`, Falbel), a measure-zero **slice at n=4** (`L=−M⁴`, exact over ℚ(ω)), and **not realized on any
+irreducible rep at n=5** (semisimple provably reducible; non-ss irreducibles *exist* — corrected — but
+degree=rank fails on them). This replaces the deflated PC13 "SL(4) component" claim. No physics; nothing
+to `CLAIMS.md`.
+
+> **n=5 correction (2026-06-15, self-audit).** The first cut claimed "n=5 absent: non-ss 0/120, no
+> irreducible reps." That was a `det t=0`-drift artifact; with `det t=1` pinned, irreducible SL(5) reps with
+> the principal spectrum **do exist** (non-ss). The headline is unchanged (degree=rank still not realized on
+> an irreducible rep) but the reason is corrected. Reproduce: `python n5_nonss_irreducible.py`.
 
 **Toolkit (`sln_toolkit.py`, self-tested).** Reusable substrate built during the campaign: the bundle
 relation, irreducibility (Burnside), peripheral/relation extraction, the **exact** deformation-theory
