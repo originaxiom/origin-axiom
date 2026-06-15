@@ -62,7 +62,8 @@ def main():
     print("\nDegeneration (campaign synthesis):")
     print("  n=3 {1,i,-i}    : L=+M^3 on a spectrum-RIGID component   (Falbel; numerical + Q(i) decomposition)")
     print("  n=4 {1,1,w,w2}  : L=-M^4 on a SLICE only                  (exact over Q(w): tangent 29/kernel 19)")
-    print("  n=5 {1,1,1,-1,-1}: reducible/absent                       (semisimple proven; non-ss 0/120 numerically)")
+    print("  n=5 {1,1,1,-1,-1}: NOT realized on irreducibles           (ss reducible PROVEN; non-ss irreducibles")
+    print("                     EXIST but degree=rank fails on them    -- corrected 2026-06-15, see n5_nonss_irreducible.py)")
     print("\nselftest:", "PASS" if all(ok) else "FAIL")
     tk._selftest()
     return 0 if all(ok) else 1
