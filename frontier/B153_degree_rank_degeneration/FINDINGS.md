@@ -1,7 +1,7 @@
 # B153 — the rank-stratified degeneration of degree=rank
 
-**Date:** 2026-06-15. **Status:** STRUCTURAL (exact/proven at two ranks; numerical + literature at the
-third). Standalone low-dimensional topology / character-variety geometry; **no Origin-core claim**;
+**Date:** 2026-06-15. **Status:** STRUCTURAL (n=3 exact over F_p + literature; n=4 exact over ℚ(ω);
+n=5 semisimple proven + non-ss verified numerically). Standalone low-dimensional topology / character-variety geometry; **no Origin-core claim**;
 proven core P1–P16 untouched. Nothing promotes to `../../CLAIMS.md`. Toolkit: `sln_toolkit.py` (self-tested);
 probe: `probe.py`; test: `tests/test_b153_degree_rank_degeneration.py`. Ledger: V142.
 
@@ -17,7 +17,7 @@ adversarial review rounds deflated the prior "SL(4) A-polynomial component" clai
 
 | rank | principal spectrum | relation | locus | rigor |
 |---|---|---|---|---|
-| 3 | `{1,i,−i}` (order 4) | `L=+M³` | spectrum-**rigid component** | numerical (63 witnesses, 1e-14) + Q(i) decomposition (2 comps, dims 3,5) + Falbel [lit.] |
+| 3 | `{1,i,−i}` (order 4) | `L=+M³` | spectrum-**rigid component** | **exact over F_p (3 primes)**: geometric (dim-5) comp tangent 11, rigid, irreducible, L=+M³; reducible slice (dim-3) tangent 10 — validated vs n=4=19; + Falbel [lit.] + 63 numerical witnesses (1e-14) |
 | 4 | `{1,1,ω,ω²}` (order 3) | `L=−M⁴` | **slice** (spectrum deforms) | **exact over ℚ(ω)** (A-free tangent rank 29, kernel 19) |
 | 5 | `{1,1,1,−1,−1}` (order 2) | — | **not realized on irreducibles** | semisimple reducible **proven**; non-ss irreducibles **exist** (verified) but degree=rank fails on them (numerical, strong) |
 
@@ -37,12 +37,18 @@ adversarial review rounds deflated the prior "SL(4) A-polynomial component" clai
    larger component on which `L=−M⁴` fails (in every form — pairwise, vs M, and as a char-poly identity).
    Confirmed mod p (3 primes, round 2) and **exactly over ℚ(ω)** (Sage cyclotomic-field rank).
 
-2. **n=3 is a genuine component (rigid).** The `{1,i,−i}` locus carries `L=+M³` (Falbel's relation, with
-   the correct `(−1)^{n-1}=+` sign) on a spectrum-**rigid** locus: a witness has A-free tangent 11 with
-   `tr A` unable to move within SL×SL (vs tangent 14 on a coexisting slice piece). The det-t=1-saturated
-   ideal has 2 components over both `GF(p)` and `ℚ(i)` (dims 3, 5). Matches the literature (Falbel/HMP:
-   the SL(3) Dehn-filling relations hold on entire components). [n=3 rigidity is numerical + literature;
-   exact A-free tangent at an exact n=3 point deferred.]
+2. **n=3 is a genuine component (rigid) — now EXACT over F_p.** The `{1,i,−i}` det-t-saturated `(*)`-ideal
+   has 2 components in t-space (dims 3, 5; over `GF(p)` and `ℚ(i)`). Exactly over F_p (3 primes; the tangent
+   function validated against the known n=4 = 19), the **dim-5 component is the geometric one**: A-free
+   tangent **11** with `tr A` unable to move in SL×SL (spectrum **rigid**), **irreducible** (Burnside rank
+   9), carrying **`L=+M³`** as a matrix identity (Falbel's relation, correct `(−1)^{n-1}=+` sign). The
+   **dim-3 component is a *reducible* slice**: A-free tangent **10**, `tr A` moves, Burnside rank 5, no
+   relation. Matches the literature (Falbel/HMP: the SL(3) Dehn-filling relations hold on entire
+   components). **Correction (2026-06-15):** the earlier *numerical* "slice-piece tangent 14" was wrong
+   (exact value **10**), and that piece is **reducible**, not a relation-carrying slice; the rigid-component
+   tangent 11 + irreducibility + `L=+M³` are now confirmed **exactly**. Reproduce: `n3_exact_endpoint.sage`
+   (Sage). [ℚ(i)-exact, vs F_p-exact, is optional — the multi-prime result + Falbel + 63 numerical
+   witnesses (1e-14) already make it solid.]
 
 3. **n=5: degree=rank is not realized on an irreducible rep** (corrected 2026-06-15).
    - *Semisimple* `{1,1,1,−1,−1}` (`A²=I`): `A⁻²=I ⇒` (bundle relation `tAt⁻¹=A²B`) `B=tAt⁻¹ ⇒
@@ -78,7 +84,8 @@ statement.
 
 ## Open
 - Generality: does the same degeneration hold for the silver bundle (m=2)? (needs the `R²L²` monodromy).
-- Exact n=3 rigidity (exact A-free tangent at an exact point).
+- Exact n=3 rigidity: **DONE over F_p** (3 primes; `n3_exact_endpoint.sage`). Optional further upgrade to
+  exact over `ℚ(i)` (the F_p multi-prime + literature already suffice).
 - n=5: a from-first-principles proof that degree=rank fails on the (existing) non-ss irreducible locus
   (currently numerical, strong) — i.e. that `[A,B]=μ⁵/det t` has no irreducible solution. The irreducibles
   themselves are now established (not absent); the absence is *of the relation on them*, not of the reps.
@@ -88,5 +95,6 @@ statement.
 ```bash
 python frontier/B153_degree_rank_degeneration/probe.py
 python frontier/B153_degree_rank_degeneration/n5_nonss_irreducible.py   # corrected n=5 (irreducibles exist)
+sage   frontier/B153_degree_rank_degeneration/n3_exact_endpoint.sage    # exact n=3 endpoint over F_p (needs Sage)
 python -m pytest tests/test_b153_degree_rank_degeneration.py -q
 ```
