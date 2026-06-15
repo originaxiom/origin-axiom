@@ -4,6 +4,28 @@
 trivially-safe fixes applied, everything non-trivial PROPOSED; no premature closes. Audited at
 `main` @ `6d3b5f6` (PR #26).
 
+> ## Update — 2026-06-15 (post-V145) — B153 rank-stratified degeneration + a self-scrutiny campaign that corrected merged work
+>
+> **B153 (V142–V144, PRs #176/#177/#178, merged).** The figure-eight degree=rank relation `L=(−1)^{n-1}Mⁿ` is
+> **rank-stratified** — a genuine SL(n,ℂ) character-variety **component at n=3** (`L=+M³`, Falbel; **exact over
+> F_p**: geometric dim-5 component tangent 11/rigid/irreducible, reducible slice tangent 10 — correcting an earlier
+> numerical "14"), a measure-zero **slice at n=4** (`L=−M⁴`, exact over ℚ(ω), tangent 29/19), and **not realized on
+> an irreducible rep at n=5**. Replaces the deflated PC13 "SL(4) component". Reusable, self-tested toolkit
+> `sln_toolkit.py` seals the finite-difference / sqrt-branch / near-singular-`t⁻¹` bug classes.
+>
+> **The self-scrutiny campaign (V143, V145).** A multi-agent audit (re-derive + adversarial panel against the R1–R10
+> taxonomy in `audit/VERIFICATION_PRINCIPLE.md`) **found real bugs in merged work**, each independently verified then
+> corrected: **n=5** "0/120, no irreducibles" was a `det t=0`-drift artifact — non-ss irreducible SL(5) reps with
+> spectrum {1,1,1,−1,−1} **exist** (2 certificates: Burnside rank 25 + Schur commutant 1), but degree=rank fails on
+> them; the **finite-order insight** (principal ⟹ semisimple ⟹ `A²=I` ⟹ dihedral ⟹ reducible) makes the **n=5
+> absence PROVEN** for the principal family and reconciles **B95 ↔ B153**. Also corrected: **B95/V79** ("forced
+> spectrum" → conditional on the mult-(n−2) ansatz), **P10** (owner-approved down-tiering: trace-3 sieve proved, the
+> other four filters suggestive/NEEDS-SPECIALIST), **B92/V76-V78** ("all conjugate to the companion" false at m≥4;
+> companion = one GL(2,ℤ) class among `h(m²+4)`), **V99/B112** (the "all-n" sign claim, already self-relabeled by
+> B116/B117/B118, back-pointed). **Two-mirrors:** the audit *de-risks*, it does not *certify* — novelty stays
+> NEEDS-SPECIALIST. MATH tier; nothing promoted to `CLAIMS.md` (P10 reworded *down*); P1–P9, P11–P16, B85 untouched.
+> Open next: silver-bundle (m=2) generality (φ_silver = `A↦A³BA²B, B↦A²B`, derived); fold the lean-synthesis flags.
+
 > ## Update — 2026-06-07 (post-V111) — B122: the tower is Sym^n(W=V⊕1) (unifies B121 + the Chat-2 W-identity)
 >
 > The two-sequence (B117) re-expressed as a virtual `GL(2)`-module: `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W=V⊕1`.

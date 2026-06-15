@@ -45,8 +45,13 @@ rank,
 ```
 This has two readings that the project keeps separate (P005): a **spectral law** (`char(M^n)` is always a tower
 factor, `μ_n = 1` for all `n` — `K003`) and a **geometric state** (an actual irreducible Dehn-filling representation
-with `L = M^n`, which exists only for `n ∈ {3,4}`; B95/B119 show the forced principal spectrum degenerates at `n=5`).
-`M⁴ = L` is proved symbolic-exact over `ℚ(ω)` at `SL(4)` (B89).
+with `L = M^n`, which exists only for `n ∈ {3,4}`; B95/B119/B153 show the principal spectrum — forced *given* the
+mult-(n−2) ansatz — degenerates at `n=5`: a principal/Dehn-filling rep has the boundary element of **finite order**
+⟹ semisimple ⟹ `A²=I` ⟹ reducible, so **no irreducible principal rep at n=5**, PROVEN).
+`M⁴ = L` is proved symbolic-exact over `ℚ(ω)` at `SL(4)` (B89); the **rank-stratified** picture (genuine
+component at n=3, slice at n=4 — n=3 also now exact over F_p, n=4 over ℚ(ω) — absent at n=5) is **B153** (V142–V145),
+which also corrected an earlier numerical "n=5 0/120 no-irreducibles" claim (non-ss irreducibles *do* exist but
+carry no degree=rank relation).
 
 ## How the project uses it
 

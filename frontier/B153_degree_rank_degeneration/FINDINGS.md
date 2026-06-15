@@ -19,7 +19,7 @@ adversarial review rounds deflated the prior "SL(4) A-polynomial component" clai
 |---|---|---|---|---|
 | 3 | `{1,i,−i}` (order 4) | `L=+M³` | spectrum-**rigid component** | **exact over F_p (3 primes)**: geometric (dim-5) comp tangent 11, rigid, irreducible, L=+M³; reducible slice (dim-3) tangent 10 — validated vs n=4=19; + Falbel [lit.] + 63 numerical witnesses (1e-14) |
 | 4 | `{1,1,ω,ω²}` (order 3) | `L=−M⁴` | **slice** (spectrum deforms) | **exact over ℚ(ω)** (A-free tangent rank 29, kernel 19) |
-| 5 | `{1,1,1,−1,−1}` (order 2) | — | **not realized on irreducibles** | semisimple reducible **proven**; non-ss irreducibles **exist** (verified) but degree=rank fails on them (numerical, strong) |
+| 5 | `{1,1,1,−1,−1}` (order 2) | — | **not realized on irreducibles** | **PROVEN for the principal (finite-order-A) family** (semisimple ⟹ A²=I ⟹ dihedral ⟹ reducible); the non-ss irreducibles (A infinite order, not Dehn-filling) **exist** but degree=rank fails on them (numerical, strong) |
 
 > **CORRECTION (2026-06-15, self-audit).** The earlier n=5 row read "reducible / absent — non-ss numerical
 > (0/120)". That "0/120, no irreducible reps" was an **artifact** of random Newton drifting to the vacuous
@@ -62,15 +62,18 @@ adversarial review rounds deflated the prior "SL(4) A-polynomial component" clai
      ~15-orders-of-magnitude SVD gaps. **But** the degree=rank relation **fails** on every one of them:
      the best matrix-identity match `‖[A,B] − (−1)^{n-1}μⁿ/det t‖` over `n=2..8` and a large well-conditioned
      sample is ≈ 2.5 (≫ 0). [NUMERICAL, strong]
-   - **Net:** degree=rank `L=(−1)^{n-1}Mⁿ` is **not carried by any irreducible rep** with this spectrum —
-     the semisimple locus (where `A²=I` could force the relation) is reducible, and the relation fails on
-     the irreducible (non-ss) locus. So it is absent *on irreducibles* — but **not** because irreducibles
-     are absent (they are not). Apparent obstruction (interpretation, not proven): the degree=rank pattern
-     wants the principal `A` of order 2 at n=5 (the B95 forced-spectrum pattern: order 4,3,2 for n=3,4,5),
-     and order-2 `A` forces the dihedral collapse — so the relation has nowhere irreducible to live. Tiers:
-     semisimple-reducible **proven**;
-     non-ss-irreducibles-exist **verified (numerical, strong, 2 certificates)**; degree=rank-fails-on-them
-     **numerical (strong)**; a from-first-principles proof of the full non-ss absence remains open.
+   - **Net (sharpened with the finite-order distinction).** A *principal / Dehn-filling* rep has `A` of
+     **finite order** (root-of-unity eigenvalues realized **semisimply**) — that is what makes `Mⁿ=L` a
+     filling slope. At n=5 the forced principal spectrum then forces `A²=I` (semisimple + eigenvalues in
+     `{±1}`), so the dihedral argument gives reducible: **no irreducible principal (finite-order-`A`) rep
+     exists ⇒ degree=rank is absent at n=5 — PROVEN** (not merely numerical). The non-semisimple irreducibles
+     are *outside* this family: a non-diagonalizable `A` with the same eigenvalue spectrum has **infinite
+     order** (so it is not a Dehn-filling rep), and degree=rank fails on it anyway (numerical) — i.e.
+     *relaxing* the finite-order condition still does not recover `Mⁿ=L`. So the headline absence is **proven
+     for the principal family**, with the non-ss exploration as the "relaxation doesn't help" corollary.
+     The old "0/120, no irreducibles" was simply wrong (it missed the non-ss irreducibles). Tiers:
+     no-irreducible-principal-rep ⇒ degree=rank-absent **PROVEN**; non-ss-irreducibles-exist **verified
+     (numerical, strong, 2 certificates)**; degree=rank-fails-on-the-non-ss-locus **numerical (strong)**.
 
 Supporting (B153a): among order-3 SL(4) meridian spectra, `{1,1,ω,ω²}` (type `(2,1,1)`) is the **unique**
 one with irreducible reps; `(2,2)={ω,ω,ω²,ω²}` is totally reducible (Burnside rank 4), `(3,1)` has no
@@ -86,9 +89,11 @@ statement.
 - Generality: does the same degeneration hold for the silver bundle (m=2)? (needs the `R²L²` monodromy).
 - Exact n=3 rigidity: **DONE over F_p** (3 primes; `n3_exact_endpoint.sage`). Optional further upgrade to
   exact over `ℚ(i)` (the F_p multi-prime + literature already suffice).
-- n=5: a from-first-principles proof that degree=rank fails on the (existing) non-ss irreducible locus
-  (currently numerical, strong) — i.e. that `[A,B]=μ⁵/det t` has no irreducible solution. The irreducibles
-  themselves are now established (not absent); the absence is *of the relation on them*, not of the reps.
+- n=5: the principal (finite-order-`A`) absence is now **PROVEN** (semisimple ⟹ A²=I ⟹ dihedral). The
+  residual open item is a from-first-principles proof that degree=rank also fails on the *non-ss* (infinite
+  order, non-Dehn-filling) irreducible locus — i.e. that `[A,B]=μ⁵/det t` has no irreducible solution there
+  (currently numerical, strong). The irreducibles themselves are established (not absent); the open part is
+  the relation's absence *on the non-principal locus*, which is not needed for the Dehn-filling headline.
 - Novelty: is this degeneration structure known in the Falbel/HMP/BFG circle? (specialist).
 
 ## Reproduce

@@ -3807,5 +3807,77 @@ H2 (HMP/Tillmann by hand) and H4/H5 (deeper-understanding frontier) remain separ
 
 ---
 
+## 2026-06-11 — B152: Chern–Simons as a one-sided parity order parameter (census test) (V141)
+
+**Context (catch-up entry).** Cross-session brief item F4, reproduced independently in-sandbox before banking.
+
+**Done.** Scanned SnapPy `OrientableCuspedCensus[:240]` testing the law *amphichiral ⇒ CS is 2-torsion*
+(`CS mod ½ ∈ {0,¼}`). Method guards: amphichirality via `symmetry_group().is_amphicheiral()` **gated on**
+`is_full_group()` (naive `is_isometric_to` is orientation-blind, B128); CS 2-torsion by **circular** proximity
+to `{0,¼}` mod ½ (a tiny negative CS wraps to ~0.4999 under `%0.5` — a modulo-sign bug caught and fixed in my
+own probe in-session). **Result:** 7 amphichiral (m003, m004, m135, m136, m203, m206, m207), **0 necessity
+violations**, and **exactly one converse counterexample** m208 (chiral, full group, yet CS=0) — so CS-2-torsion
+is **necessary but not sufficient**, the correct one-sided behaviour of an order parameter. No physics; a fact
+about the census. `frontier/B152_cs_amphichirality_census/` + test (3 passed). Ledger **V141**.
+
+---
+
+## 2026-06-15 — B153 + the self-scrutiny campaign: the rank-stratified degeneration, two corrections, and a repo-wide audit
+
+**Context.** After three adversarial review rounds deflated the PC13 "SL(4) figure-eight A-polynomial
+component" to a *slice*, this session (a) banked the honest, stronger replacement — the **rank-stratified
+degeneration of degree=rank** — then (b) on the owner's request ran a **repo-wide self-scrutiny campaign**
+(multi-agent workflow) that **found real bugs in merged work**, which were verified and corrected. Discipline
+throughout: verify-don't-trust (re-derive, don't re-run); two-mirrors (the audit *de-risks*, it does not
+*certify* — novelty still needs the external specialist); nothing to `CLAIMS.md` (except an owner-approved
+*down-tiering* of P10); PR-merged as `originaxiom`.
+
+**Done.**
+
+- **B153 — the rank-stratified degeneration (V142; PR #176, merged).** The figure-eight degree=rank relation
+  `L=(−1)^{n-1}Mⁿ` is **rank-stratified**: a genuine SL(n,ℂ) character-variety **component at n=3** (`L=+M³`,
+  Falbel), a measure-zero **slice at n=4** (`L=−M⁴`, exact over ℚ(ω): A-free tangent 29/kernel 19), and **not
+  realized on an irreducible rep at n=5**. Built a validated reusable toolkit (`sln_toolkit.py`) that seals the
+  recurring bug classes (finite-difference, sqrt-branch, near-singular `t⁻¹`). Supersedes PC13's "component".
+
+- **B153 n=5 CORRECTION (V143; PR #177, merged) — a real bug the self-audit found.** The banked "n=5 non-ss:
+  0/120, no irreducible reps" was a `det t=0`-drift artifact (the *same* vacuous-stratum bug fixed at n=3 but
+  never back-applied to n=5). With `det t=1` pinned, **irreducible SL(5) reps with spectrum {1,1,1,−1,−1} DO
+  exist** (non-semisimple, the two `[3]`-block Jordan types), certified by **two independent tests that agree**
+  (Burnside span-rank 25 **and** Schur commutant dim 1; ~15-orders SVD gaps; cond(t)~20). But degree=rank
+  **fails** on them. Headline survives; reason corrected. `n5_nonss_irreducible.py` + regression test.
+
+- **B153 n=3 EXACT (V144; PR #178, merged).** Re-derived the n=3 endpoint **exactly over F_p** (3 primes; the
+  A-free-tangent function first **validated by reproducing the known n=4 = 19**): the **dim-5 component** is the
+  geometric one — tangent **11**, `tr A` rigid, irreducible (Burnside 9), carries **`L=+M³`** (matrix identity);
+  the **dim-3 component** is a **reducible slice** — tangent **10**, not the earlier numerical "**14**" (a second
+  numerical error caught). Upgrades the lower endpoint to match n=4's exactness. `n3_exact_endpoint.sage`.
+
+- **Self-scrutiny campaign (multi-agent workflow).** The full-panel run died twice on a 427-agent fan-out (it
+  paneled every load-bearing claim) competing with heavy Sage; **32 verdicts survived: 28 CONFIRMED, 4
+  OVER_TIERED**. A **leaner re-run** (panels only flagged claims) covers all ~90 claims for the synthesis.
+
+- **Consolidated corrections (V145; pending PR `frontier/self-audit-corrections`).** Each flag independently
+  re-verified, then corrected in place: **B95/V79** — "principal spectrum *forced*" → forced *given* the
+  mult-(n−2)/finite-order ansatz (counterexample {1,ω,ω²,e^{±iπ/3}}); and the key **finite-order insight** —
+  a principal/Dehn-filling rep has `A` finite-order ⟹ semisimple ⟹ `A²=I` ⟹ dihedral ⟹ reducible, so **no
+  irreducible principal rep at n=5 is PROVEN** (which *upgrades* the B153 n=5 endpoint from numerical to proven
+  for the principal family, and reconciles B95 ↔ B153). **P10** (CLAIMS.md, owner-approved down-tiering) —
+  "five filters all select 4₁" → trace-3 sieve **PROVED**; the other four documented/suggestive
+  (NEEDS-SPECIALIST). **B92/V76-V78** — "all det=−1 trace-m matrices conjugate to the companion" is **false at
+  m≥4** (Sage class numbers: h(m²+4)=2 at m=4, disc 20); the companion is one GL(2,ℤ) class among `h`. **V99/B112**
+  — "sign half for all n" already self-relabeled by B116/B117/B118; ledger back-pointer added.
+
+**Verdict.** The verification principle paid off: the audit's B95 flag and my own n=5 re-derivation
+*independently converged* on the same gap — and fixing it made the result **stronger** (the n=5 absence is
+provable for the principal family, not merely numerical). MATH tier; P1–P9, P11–P16, B85 untouched.
+
+**Open / next.** Fold any NEW flags from the lean synthesis into the corrections PR; run the full-suite gate;
+then continue the math (Phase C): the **silver bundle (m=2) generality** of the degeneration (φ_silver =
+`A↦A³BA²B, B↦A²B`, derived) and a from-first-principles proof on the non-ss locus. Specialist novelty email
+drafted (owner sends). Ledgers **V142–V145**.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

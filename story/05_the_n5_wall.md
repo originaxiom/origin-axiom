@@ -8,9 +8,13 @@ audits and a withdrawn narrative.
 The first telling was tidy: "one collision causes all the walls." It was **withdrawn** (V91). The truth is that
 `n = 5` is a **threshold where three *distinct* `A₄` obstacles degenerate together** — not one cause:
 
-- **degree=rank** (**B95**, V79): the forced principal spectrum `2cos θ = 3 − n` reaches `−1` at `n = 5`
-  (`A² = I`, a root of unity), degenerating the figure-eight relation. "exponent = rank" is an `n ∈ {3,4}`
-  phenomenon.
+- **degree=rank** (**B95**, V79; sharpened by **B153**, V143/V145): the principal spectrum (forced *given* the
+  mult-(n−2) ansatz) `2cos θ = 3 − n` reaches `−1` at `n = 5`. A principal/Dehn-filling representation has its
+  boundary element of **finite order** ⟹ semisimple ⟹ `A² = I` ⟹ `⟨A,B⟩` dihedral ⟹ **reducible** — so there is
+  **no irreducible principal rep at `n=5`** (now *proven*, not numerical). "exponent = rank" is an `n ∈ {3,4}`
+  phenomenon. (A 2026-06-15 self-audit corrected an earlier "`0/120`, no irreducibles" reading: non-semisimple
+  reps with the same eigenvalue spectrum — boundary element of *infinite* order, hence not Dehn-filling — *do*
+  exist and are irreducible, but degree=rank fails on them, so they live outside the wall.)
 - **the tower / eps-series** (**B62**): the `A₄` height-2 root space splits `(4,2)` under `θ = −w₀`, giving
   `char(M²)²` — pure root-system combinatorics, the golden `φ²`, with *no* reference to the spectrum above.
 - **trace-ring non-closure** (engine-free): the `n²−1` coordinates stop generating the SL(n) trace ring, an onset
