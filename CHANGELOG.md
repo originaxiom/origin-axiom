@@ -9,6 +9,31 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B153 — the rank-stratified degeneration of degree=rank + a self-scrutiny campaign that corrected merged work (2026-06-15; V142–V145).**
+  Replaces the deflated PC13 "SL(4) figure-eight A-polynomial component" with the honest, stronger result: the figure-eight
+  degree=rank relation `L=(−1)^{n-1}Mⁿ` is **rank-stratified** — a genuine SL(n,ℂ) character-variety **component at n=3**
+  (`L=+M³`, Falbel; **now exact over F_p**, 3 primes: geometric dim-5 component tangent 11/rigid/irreducible, with a
+  reducible slice tangent 10 — correcting an earlier numerical "tangent 14"), a measure-zero **slice at n=4** (`L=−M⁴`,
+  exact over ℚ(ω): A-free tangent 29/kernel 19), and **not realized on any irreducible representation at n=5**. A validated
+  reusable toolkit (`sln_toolkit.py`) seals the recurring bug classes (finite-difference, sqrt-branch, near-singular `t⁻¹`).
+  **The self-scrutiny campaign (multi-agent workflow) found real bugs in merged results, verified and corrected them:**
+  (i) **n=5 (V143):** the banked "non-ss: 0/120, no irreducible reps" was a `det t=0`-drift artifact — with `det t=1` pinned,
+  irreducible SL(5) reps with spectrum {1,1,1,−1,−1} **do exist** (non-semisimple `[3]`-block Jordan types; two independent
+  certificates, Burnside rank 25 **and** Schur commutant dim 1); degree=rank fails on them, so the headline survives, reason
+  corrected. (ii) **B95/V79:** "the principal spectrum is *forced*" → forced *given* the mult-(n−2)/finite-order ansatz
+  (counterexample {1,ω,ω²,e^{±iπ/3}}); and the **finite-order insight** — a principal/Dehn-filling rep has `A` finite-order
+  ⟹ semisimple ⟹ `A²=I` ⟹ dihedral ⟹ reducible, so **no irreducible principal rep at n=5 is PROVEN** (upgrading the n=5
+  endpoint from numerical to proven, reconciling B95 ↔ B153). (iii) **P10** (owner-approved CLAIMS.md down-tiering):
+  "five independent filters all select 4₁" → trace-3 sieve **PROVED**; the other four documented/suggestive
+  (NEEDS-SPECIALIST). (iv) **B92/V76-V78:** "all det=−1 trace-`m` matrices conjugate to the companion" is **false at m≥4**
+  (form class number `h(m²+4)=2` at m=4, disc 20); the companion is one GL(2,ℤ) class among `h`. (v) **V99/B112:** the
+  "sign half for all n" headline (already self-relabeled by B116/B117/B118) given a ledger back-pointer. The audit's B95 flag
+  and the independent n=5 re-derivation *converged* on the same gap. MATH tier; **two-mirrors** (the audit de-risks, novelty
+  still NEEDS-SPECIALIST); nothing promoted to `CLAIMS.md` (P10 was reworded *down*); P1–P9, P11–P16, B85 untouched.
+- **B152 — Chern–Simons as a one-sided parity order parameter (2026-06-11; V141).** Census test of *amphichiral ⇒ CS is
+  2-torsion* over SnapPy `OrientableCuspedCensus[:240]`: **0 necessity violations**, exactly **one converse counterexample**
+  (m208, chiral with CS=0) — so CS-2-torsion is **necessary but not sufficient**, the correct order-parameter behaviour.
+  Method guards: amphichirality gated on `is_full_group()`; CS torsion by *circular* distance mod ½. No physics; a census fact.
 - **B127 — chirality, Fibonacci, arithmetic, and the object's proper name (2026-06-08; V116).** Resolves the
   "threads 3 & 4 + Fibonacci" investigation (verify-don't-trust; every claim re-derived in-sandbox). The
   physics-bridge claim returns a **clean, multiply-confirmed negative** (the firewall `P007` confirmed from a third

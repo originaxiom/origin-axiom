@@ -21,8 +21,19 @@ entries ≤ 5** (the det=+1 cases all show a preperiod or longer period).
 The CF period of the dominant eigenvalue is a `GL(2,ℤ)`-conjugacy invariant (the cutting sequence of the
 geodesic). **Verified consistency:** the period is constant across all matrices of each `(trace, det)`
 class over the census; for `det=−1`, every trace-`m` matrix has period 1 with repeat-block `(m)` and
-eigenvalue `λ_m` — i.e. all are conjugate to the companion `M_m`. So the family is `{M_m : m≥1}` **up to
-`GL(2,ℤ)` conjugacy (recoding), with `m` free** — a computed statement, not a posited one.
+eigenvalue `λ_m`. The proven statement is that **this period-1 eigenvalue-CF criterion (a `(tr,det)`
+invariant) cuts out the metallic discriminants `m²+4`**, and the companion `M_m` realizes each.
+
+> **⚠ CORRECTION (2026-06-15, self-audit).** The original inference "period 1 ⟹ **all** trace-`m` det=−1
+> matrices are conjugate to the companion `M_m`" is **false at `m≥4`**. Period-1 is *necessary*, not
+> *sufficient*, for conjugacy: by Latimer–MacDuffee the `GL(2,ℤ)`-conjugacy classes with char poly
+> `x²−mx−1` are the ideal classes of `ℤ[λ_m]`, counted by the form class number `h(m²+4)`. Computed
+> (Sage `BinaryQF_reduced_representatives`): `h = 1` for `m=1,2,3` (companion unique) but **`h=2` at `m=4`**
+> (disc 20, the conductor-2 order over `ℚ(√5)`), and `h>1` again at `m=6,8,…`. So the honest statement is
+> "the **companion `M_m` is one `GL(2,ℤ)` class** among `h(m²+4)`; the period-1 CF criterion (the proven
+> invariant) does not pin a unique class beyond `m≤3`." The det=−1 ⟺ tower-parity result (B93) and the
+> systole selection (MyCalc-5) are unaffected; only the "all conjugate to the companion" phrasing is
+> corrected. The scope note below already flagged the "ideal-class subtleties at larger trace".
 
 ## Refinement (a) — det=−1 is the operative *extra* condition
 The four naive premises (two letters, substitution, invertibility `det=±1`, expansion) do **not** select

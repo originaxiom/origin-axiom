@@ -8,6 +8,28 @@ Companion file: `PROVENANCE.md` (the artifact map). This report is the *verdict*
 
 ---
 
+> ## Update — 2026-06-15 — repo-wide self-scrutiny campaign (the falsification discipline, applied to the frontier)
+>
+> The §1 thesis below — *"the project's single greatest asset is its falsification discipline; its single greatest
+> risk is that optimistic framing regenerates faster than it is killed"* — was put to the test directly. On the
+> owner's request a **multi-agent self-audit** re-derived (not re-ran) the banked claims against the R1–R10 risk
+> taxonomy (`audit/VERIFICATION_PRINCIPLE.md`) and **found real over-claims in *merged* frontier work**, which were
+> verified and corrected the same session (ledger V143–V145; `PROGRESS_LOG.md` 2026-06-15):
+> - **B153 n=5** "no irreducible reps (0/120)" — a `det t=0`-drift numerical artifact; corrected (irreducibles
+>   exist; the absence is *of the relation*, and is PROVEN for the principal/finite-order family).
+> - **B95/V79** "the principal spectrum is *forced*" — forced only given the mult-(n−2) ansatz; corrected.
+> - **P10** (CLAIMS.md) "five independent filters all select 4₁" — only the trace-3 sieve is proved; **down-tiered**
+>   (owner-approved) to "trace-3 sieve PROVED; the other four suggestive/NEEDS-SPECIALIST."
+> - **B92/V76-V78** "all det=−1 trace-`m` matrices conjugate to the companion" — false at m≥4 (class number); corrected.
+> - **B99/V99·B112** "sign half of the tower for all n" — already self-relabeled (B116/B117/B118); back-pointed.
+>
+> **The discipline held, and the frontier now carries the same scrutiny the core always had.** Two corrections made
+> the underlying results *stronger* (the n=5 absence became provable). **Two-mirrors caveat:** the audit *de-risks*,
+> it does not *certify* — independent novelty closure still requires the external specialist. The §1 verdict stands;
+> the self-audit is the asset operating as intended.
+
+---
+
 ## 1. Executive summary
 
 The Origin Axiom project is a **legitimate independent research program**, not numerology —

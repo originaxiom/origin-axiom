@@ -63,6 +63,16 @@ def gluing_equation_factorization():
     (discriminant -3) times a golden quadratic (discriminant 5). Pure polynomial
     algebra; no numerical approximation.
 
+    Shape-parameter note (self-audit 2026-06-15, verify-don't-trust): this is the SAME
+    edge equation SnapPy returns, written in a different ideal-tetrahedron shape. SnapPy's
+    edge equation in the ``z`` shape (at w=z) is ``z**4 - z**2 + 2z - 1 =
+    (z**2 - z + 1)(z**2 + z - 1)``; under the cross-ratio shape change ``z -> 1/z`` (equiv.
+    ``(z-1)/z``) it maps exactly onto ``z**2 (z-1)**2 - 1`` here. The Eisenstein factor
+    ``z**2 - z + 1`` (the complete structure ``z = e^{i pi/3}``) is identical in both; the
+    golden disc-5 factor is ``z**2 - z - 1`` here / ``z**2 + z - 1`` in the ``z`` shape (the
+    same variety). So both the equation AND its Eisenstein x golden factorization are genuine;
+    an audit pass that flagged the golden factor as an "artifact" missed this shape ambiguity.
+
     Returns ``(z, lhs, eisenstein, golden)`` where ``lhs = z**2 (z-1)**2 - 1``.
     """
     z = sp.symbols("z")
