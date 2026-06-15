@@ -1,5 +1,12 @@
 # An SL(4,C) Dehn-filling slope of the figure-eight knot — narrow note (PC13)
 
+> **SUPERSEDED (2026-06-15).** The "component" framing here is **refuted** (round-2 deformation theory,
+> verified): `{1,1,ω,ω²}` is not rigid, so the family is a codimension-1 **slice**, not a component. The
+> honest, stronger result is the **rank-stratified degeneration of degree=rank** (component at n=3, slice
+> at n=4, absent at n=5) — banked in `frontier/B153_degree_rank_degeneration/`. This note is retained as a
+> record and is to be **rewritten to the B153 thesis** before any external use. `[A,B]=−µ⁴` on the family
+> and the completeness-for-the-fixed-spectrum remain correct as *slice* statements.
+
 The post-review rewrite of the flagship's mathematical core, scoped to one submittable result.
 
 **Scope.** One SL(4,ℂ) figure-eight component: the Dehn-filling slope `L=−M⁴` (matrix identity
