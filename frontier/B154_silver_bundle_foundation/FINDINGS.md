@@ -74,6 +74,12 @@ Verified data `(m, o) → k` (the sign is forced by parity, `+` for n odd):
 | **figure-eight m=1** | k=4 (n=3 and n=4) | k=3 (n=3) |
 | **silver m=2** | k=4 (n=3 and n=4) | k=2 (n=3) |
 
+**Geometric meaning of k (eigenvalue probe, `eig_structure.py`):** `[A,B]=±µᵏ` is **not a point relation — it is
+an A-polynomial component of slope `k`**. On the sub-locus the meridian eigenvalues `M=eig(µ)` are *generic*
+(`|M|≠1`) yet `L=Mᵏ` holds along the whole curve (err 1e-11…1e-15); the special points where `M` is a root
+of unity (e.g. the figure-eight principal `{1,i,−i}`: `M` of orders 3,2,6) are the genuine finite-order
+**Dehn fillings** sitting on that component. So `k` is the **A-polynomial slope** — and it is order-determined.
+
 A clean closed form fits every point: **`k = 4 − m(o−3)`** (m = metallic index, o = boundary-spectrum order).
 [Honest tier: the *order-not-rank* conclusion is solid — the off-principal `k=4` at two ranks is decisive;
 the closed form `k=4−m(o−3)` is an **empirical fit on o∈{3,4}, m∈{1,2}** (the constants 4,3 are not yet
