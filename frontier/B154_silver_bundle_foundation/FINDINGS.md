@@ -92,9 +92,24 @@ yields no irreducible reps even with the fast analytic solver (the figure-eight 
 is found fine), for both figure-eight and silver. So the o=4/SL(4) data point does not exist to test, and
 `k=4−m(o−3)` holds on all six accessible (m,o,n) points. (`fig_sl4_o4.py`.)
 
+### Toward deriving `k` (attempt 2026-06-16: framework + honest reduction — NOT a derivation)
+`k` is the exponent of the degree=rank A-polynomial component `[A,B]=±µᵏ` (verified as a **matrix identity**,
+`µ=A⁻ᵐt`). Structural origin of the m-dependence: the monodromy conjugates the longitude by `Aᵐ`
+(`φ_m([A,B])=Aᵐ[A,B]A⁻ᵐ`), forcing `µ=A⁻ᵐt`. For a *specific* spectrum the identity is derivable
+algebraically from `A^o=I` + the bundle relations — the route **B89** used to prove `[A,B]=−µ⁴` from `A³=I`
+at SL(4) (computer-assisted over `ℤ[m]`); the silver analogue is the same computation with the eliminated
+`F1/F2` (harder, `B` not explicit). A **full first-principles derivation of the closed form `k=4−m(o−3)` is
+OPEN** — it reduces to the exponent/slope of the *metallic* A-polynomial component at SL(n) for boundary
+order o, i.e. the metallic generalization of the whole B67/B71/B89 A-polynomial program (a multi-stage
+effort, not a quick result). Constraints a derivation must reproduce: sign forced by parity (`+` for n odd);
+**order-determined, not rank**; `o=3 ⇒ k=4` independent of m (a fixed point of the m-dependence).
+*(Methodology note: a naive log-log "slope" fit fails on complex-log branch cuts — `log(Mᵏ)≠k·log M` mod
+2πi; the matrix identity `[A,B]=±µᵏ`, not a log-fit, is the correct statement.)*
+
 ## Still open
-- Derive `k=4−m(o−3)` (or its correct generalization) from the cusp structure / A-polynomial; test o≥5 and
-  higher m (bronze m=3) — needs a structured construction and admissible higher-order spectra.
+- **Derive `k=4−m(o−3)`** (the deep prize) — via the per-spectrum B89-style algebra (`A^o=I` + bundle
+  relations) or the metallic A-polynomial; test o≥5 and higher m (bronze m=3) — needs a structured
+  construction and admissible higher-order spectra.
 - **Characterize the sub-locus** (slice vs component) and the **silver principal spectrum** (the B95-analogue).
   Reuse `../B153.../sln_toolkit.py` patterns (general in n).
 
