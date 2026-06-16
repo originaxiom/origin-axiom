@@ -1,10 +1,11 @@
 # B154 — the silver bundle (m=2, R²L²): foundation for the degeneration-generality question
 
-**Date:** 2026-06-15 (updated 2026-06-16). **Status:** FOUNDATION verified + **SL(3) partial result**
-(degree=rank generality is genuinely *weaker* for silver — see below); full characterization OPEN. Standalone
-low-dim topology / character varieties; no physics, no Origin-core claim; P1–P16 untouched; nothing to
-`CLAIMS.md`. Probes: `probe.py` (SL(2) foundation), `silver_construct.py` (SL(n) construction + scan); exact
-derivation: `silver_tracemap.sage` (Sage). Ledger: V146.
+**Date:** 2026-06-15 (updated 2026-06-16). **Status:** FOUNDATION verified + **degree=rank GENERALIZES to
+silver** with the derived metallic meridian `µ=A⁻ᵐt` (matrix identity on a sub-locus; SL(3) solid, SL(4)
+preliminary); the exponent law + sub-locus characterization OPEN. Standalone low-dim topology / character
+varieties; no physics, no Origin-core claim; P1–P16 untouched; nothing to `CLAIMS.md`. Probes: `probe.py`
+(SL(2) foundation), `silver_construct.py` (SL(n) construction), `silver_degree_rank.py` (the µ=A⁻²t matrix
+identity); exact derivation: `silver_tracemap.sage` (Sage). Ledger: V146.
 
 ## Question (Phase C of the B153 campaign)
 Does the rank-stratified degeneration of degree=rank (`L=(−1)^{n-1}Mⁿ`: genuine component at n=3, slice at
@@ -37,26 +38,33 @@ The silver bundle relations eliminate (R1+R2) to the clean degree-2 system in `(
 `F1: tB² = A⁻¹tA` and `F2: tBt⁻¹ = A²B` (with `{F1,F2} ⟺ {R1,R2}`, verified). This is the silver analogue of
 B89's construction (`silver_construct.py`). The SL(2) build reproduces `κ=½z²+8/z²−2` (validation).
 
-**SL(3) spectrum scan + skeptical verification** (the verification matters — the raw scan's "best err 1e-15"
-was a cherry-picked single rep):
-- `{1,ω,ω²}` (order 3): 38 irreducible silver reps; `L=Mⁱ` with `M=eig(t)` holds **as an eigenvalue relation
-  on only ~10/38**, exponent `i=4`; the **matrix identity `[A,B]=t⁴/det t` holds on 0/38** (median err ~4).
-- `{1,i,−i}` (order 4): 29 irreducible; eigenvalue `L=M²` on ~4/29; matrix identity **0/29**.
-- `{1,1,1}`, `{ω,ω,ω}`: 0 irreducible. Generic: irreducible but no relation.
+### The metallic cusp meridian (DERIVED — the key) `µ = A⁻ᵐt`
+The monodromy preserves the fiber boundary only **up to conjugacy**: `φ([A,B]) = Aᵐ[A,B]A⁻ᵐ`, an **exact
+free-group identity** (m=1 figure-eight, m=2 silver; verified by word reduction `φ_silver([A,B]) =
+AAABA⁻¹B⁻¹A⁻¹A⁻¹ = A²[A,B]A⁻²`, and well-conditioned matrices). Hence **`µ = A⁻ᵐt` commutes with `[A,B]`**
+— it is the cusp meridian (the figure-eight's `A⁻¹t` is the `m=1` case). Confirmed on silver bundle reps:
+`‖[µ,[A,B]]‖ ~ 1e-11`, `µ=A⁻²t`. (My first SL(3) scan used the *naive* `eig(t)` — the wrong framing — and
+the matrix identity failed 0/38; that was a wrong-meridian artifact, now corrected.)
 
-**Conclusion (verified):** silver does **NOT** carry the figure-eight's *uniform matrix-identity* degree=rank
-(`[A,B]=(−1)^{n-1}µⁿ` held on the *entire* spectrum-locus for figure-eight, B149). For silver there is at
-most an **eigenvalue relation on a sub-locus** (~26% of the irreducible reps at a given finite-order
-spectrum), with a spectrum-dependent exponent (4 at order-3, 2 at order-4) in the *naive* meridian `eig(t)`.
-So the rank-stratified degeneration is, at this stage, **figure-eight-special in the strong sense**.
+### Silver degree=rank DOES hold (matrix identity, with `µ=A⁻²t`) — on a sub-locus
+With the correct meridian, the **matrix identity `[A,B] = ± µᵏ` holds** (det t = 1, so det µ = 1 = det[A,B]):
+- `{1,ω,ω²}` (order 3) at SL(3): **`[A,B] = +µ⁴`** on 14/55 irreducible reps (err 1e-12, cond ~7).
+- `{1,i,−i}` (order 4) at SL(3): **`[A,B] = +µ²`** on 6/37 (err 1e-12, cond ~15).
+- `{1,1,ω,ω²}` at SL(4): **`[A,B] = −µ⁴`** (1 rep, cond ~1e3 — preliminary; random Newton barely reaches
+  SL(4) silver). The sign/exponent match the figure-eight SL(4) result (`−µ⁴`), with `µ=A⁻²t` here.
+
+**Conclusion (verified, CORRECTING the first cut):** degree=rank is **NOT figure-eight-special** — it
+**generalizes to the metallic family** with the meridian `µ = A⁻ᵐt`. For silver it is a **matrix identity on
+a SUB-LOCUS** (~25% of the irreducible reps at a finite-order spectrum), i.e. a *slice* phenomenon — vs the
+figure-eight, where it held on the entire spectrum-locus (B149). So the rank-stratified picture extends, but
+the "component vs slice" balance shifts toward slice for `m=2`.
 
 ## Still open
-- **The correct silver cusp meridian.** The figure-eight meridian is `µ=A⁻¹t` (a fiber-word × t); the naive
-  `eig(t)` is almost certainly the wrong framing for silver. The clean relation (if any) likely needs `µ =
-  (fiber word)·t` — derive the silver cusp framing, then re-test the matrix identity. (The ~26% sub-locus
-  hints something real is there in the right coordinates.)
-- Characterize the sub-locus (component? slice?) and extend to SL(4)/SL(5). Reuse `../B153.../sln_toolkit.py`
-  patterns (general in n).
+- **The exponent law.** Exponents so far: figure-eight `{1,i,−i}`@SL3 `µ³`, `{1,1,ω,ω²}`@SL4 `−µ⁴`; silver
+  `{1,ω,ω²}`@SL3 `+µ⁴`, `{1,i,−i}`@SL3 `+µ²`, `{1,1,ω,ω²}`@SL4 `−µ⁴`. Not simply `n`; depends on (spectrum, m).
+  Needs more data (a structured SL(4)/SL(5) silver construction, since random Newton is too weak there).
+- **Characterize the sub-locus** (slice? component? what extra equation cuts it out) and the **silver
+  principal spectrum** (the B95-analogue). Reuse `../B153.../sln_toolkit.py` patterns (general in n).
 
 ## Method notes (verify-don't-trust payoffs)
 Two of my own bugs were caught by the figure-eight control before any silver conclusion: (i) the trace-map
