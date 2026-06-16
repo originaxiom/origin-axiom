@@ -9,6 +9,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B154 — the metallic meridian `µ=A⁻ᵐt` and the order-based degree=rank exponent (silver bundle; 2026-06-16; V146–V147).**
+  Phase C of the B153 campaign (does degree=rank generalize from the figure-eight m=1 to the silver bundle m=2, R²L²?).
+  **(1) The metallic meridian:** `µ=A⁻ᵐt`, derived from the exact free-group identity `φ_m([A,B])=Aᵐ[A,B]A⁻ᵐ` (the
+  monodromy fixes the fiber boundary up to conjugacy; the figure-eight's `A⁻¹t` is the m=1 case). **(2) degree=rank
+  GENERALIZES** to the metallic family: with `µ=A⁻ᵐt` the matrix identity `[A,B]=±µᵏ` holds for silver too — so it is
+  *not* figure-eight-special. **(3) The exponent is ORDER-based, not rank-based** — "degree=rank" (`k=n`) is a
+  coincidence of the principal spectra (B95 ties their order to the rank); the decisive test is that figure-eight
+  `{1,ω,ω²}` (order 3) gives `k=4` at *both* n=3 and n=4. Closed-form fit **`k=4−m(o−3)`** (o = boundary-spectrum
+  order) on all accessible points; `k` is the A-polynomial slope. **(4) Geometry:** the silver `{1,ω,ω²}`@SL3 locus
+  is a fixed-spectrum component (codim 0) that is an A-free slice (tr A moves) — the figure-eight n=4 pattern.
+  A first-principles *derivation* of `k=4−m(o−3)` is open (the metallic A-polynomial, the B67→B89 program generalized).
+  Several verify-don't-trust self-corrections along the way (best-rep over-read → wrong-meridian → derived positive;
+  "slice"→ the precise component/slice deformation theory). Also: the **lean self-audit workflow completed** (V147) —
+  48/50 confirmed, only P10/P12 flagged (both already handled; it reversed its own P12 verdict), 2 minor honesty
+  caveats applied. MATH tier; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B153 — the rank-stratified degeneration of degree=rank + a self-scrutiny campaign that corrected merged work (2026-06-15; V142–V145).**
   Replaces the deflated PC13 "SL(4) figure-eight A-polynomial component" with the honest, stronger result: the figure-eight
   degree=rank relation `L=(−1)^{n-1}Mⁿ` is **rank-stratified** — a genuine SL(n,ℂ) character-variety **component at n=3**
