@@ -9,6 +9,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **PC17 — "Two Results from the Metallic Trace-Map Program" external-review note banked (2026-06-16).**
+  A specialist-facing consolidation (`papers/metallic_trace_map_note/`, privacy-cleaned, status-labelled) of three
+  standalone results: **A** `L=−M⁴` on the figure-eight SL(4) spectrum-pinned *slice* + completeness (the honest,
+  corrected scope of the deflated PC13 "component"); **B** `κ=2+λ²` (the trace map *is* the Fibonacci–Hamiltonian
+  trace map); **C** the "golden × phase" rational spectral bridge at n=4 (= `frontier/B155`). Registered as PC17 in
+  `papers/CANDIDATES.md`. Results A/B repackage banked repo work; only C (B155) is new. Novelty of A/C is
+  NEEDS-SPECIALIST; §5 firewall load-bearing.
 - **B155 — the "golden × phase" spectral bridge at n=4 (2026-06-16; V148).**
   Processing an external-review note (Result C) + an AI-assisted cross-session synthesis (the "Ω" history-enumeration
   program) one-by-one through governance, each **independently re-derived** before banking. A single integer matrix
