@@ -2,8 +2,8 @@
 
 **Date:** 2026-06-15 (updated 2026-06-16). **Status:** degree=rank GENERALIZES to the metallic family with
 the derived meridian `µ=A⁻ᵐt`, and the exponent is **order-based, not rank-based** (`k=4−m(o−3)` fit;
-"degree=rank" is a principal-spectrum coincidence). Matrix identity on a sub-locus; sub-locus
-characterization + closed-form derivation OPEN. Standalone low-dim topology / character varieties; no
+"degree=rank" is a principal-spectrum coincidence). Matrix identity on a **COMPONENT** (codim 0, moduli
+dim 1; corrects the earlier "slice" framing); the A-free spectrum-rigidity + closed-form derivation of k OPEN. Standalone low-dim topology / character varieties; no
 physics, no Origin-core claim; P1–P16 untouched; nothing to `CLAIMS.md`. Probes: `probe.py`,
 `silver_construct.py`, `silver_degree_rank.py`, `silver_exp3.py`, `fig_exponent.py`; exact derivation:
 `silver_tracemap.sage`. Ledger: V146.
@@ -47,18 +47,29 @@ AAABA⁻¹B⁻¹A⁻¹A⁻¹ = A²[A,B]A⁻²`, and well-conditioned matrices). 
 `‖[µ,[A,B]]‖ ~ 1e-11`, `µ=A⁻²t`. (My first SL(3) scan used the *naive* `eig(t)` — the wrong framing — and
 the matrix identity failed 0/38; that was a wrong-meridian artifact, now corrected.)
 
-### Silver degree=rank DOES hold (matrix identity, with `µ=A⁻²t`) — on a sub-locus
+### Silver degree=rank DOES hold (matrix identity, with `µ=A⁻²t`) — on a COMPONENT
 With the correct meridian, the **matrix identity `[A,B] = ± µᵏ` holds** (det t = 1, so det µ = 1 = det[A,B]):
 - `{1,ω,ω²}` (order 3) at SL(3): **`[A,B] = +µ⁴`** on 14/55 irreducible reps (err 1e-12, cond ~7).
 - `{1,i,−i}` (order 4) at SL(3): **`[A,B] = +µ²`** on 6/37 (err 1e-12, cond ~15).
 - `{1,1,ω,ω²}` at SL(4): **`[A,B] = −µ⁴`** (1 rep, cond ~1e3 — preliminary; random Newton barely reaches
   SL(4) silver). The sign/exponent match the figure-eight SL(4) result (`−µ⁴`), with `µ=A⁻²t` here.
 
-**Conclusion (verified, CORRECTING the first cut):** degree=rank is **NOT figure-eight-special** — it
-**generalizes to the metallic family** with the meridian `µ = A⁻ᵐt`. For silver it is a **matrix identity on
-a SUB-LOCUS** (~25% of the irreducible reps at a finite-order spectrum), i.e. a *slice* phenomenon — vs the
-figure-eight, where it held on the entire spectrum-locus (B149). So the rank-stratified picture extends, but
-the "component vs slice" balance shifts toward slice for `m=2`.
+### Sub-locus characterization (deformation theory) — it is a COMPONENT, not a slice
+At a fixed spectrum (e.g. `{1,ω,ω²}`@SL3), the silver bundle variety `V={(B,t): F1,F2, det B=det t=1}` has
+Zariski tangent **3** at well-conditioned irreducible reps (clean SVD gap: `sF[14]≈0.3` vs `sF[15]≈1e-15`).
+Adding the degree=rank relation `[A,B]=µ⁴` (9 equations) at a sub-locus point gives tangent **3 again — the
+relation adds rank 0** (3 consistent reps). So **codim(sub-locus in V) = 0: the degree=rank locus is a
+union of COMPONENTS of `V`** (the relation holds identically on them), tangent 3 ⇒ **moduli dim 1** after the
+2-dim `Z(A)`=SL-diagonal gauge — an A-polynomial *curve*. `V` is a union of 3-dim components; ~25% of random
+Newton seeds land on the degree=rank one(s), the rest on others. (`silver_sublocus2.py`.)
+
+**Conclusion (verified, CORRECTING the earlier "slice" framing):** degree=rank is **NOT figure-eight-special**
+— it **generalizes to the metallic family** with `µ=A⁻ᵐt`, and for silver (fixed spectrum) it holds on a
+genuine **COMPONENT** (codim 0, moduli dim 1), like the figure-eight n=3 — *not* a slice. The earlier
+"slice, ~25%" wording (PRs #182/#183) conflated the seed-fraction with codimension; the deformation theory
+shows codim 0. [Caveat: this is the *fixed-spectrum* component analysis; the *A-free* spectrum-rigidity
+question of B153's n=3-vs-n=4 sense (does the spectrum deform?) is a separate analysis, not yet done for
+silver — see Open.]
 
 ### The exponent is ORDER-based, not rank-based — "degree=rank" is a principal-spectrum coincidence
 The exponent `k` in `[A,B]=±µᵏ` is determined by the **order `o` of the boundary spectrum**, NOT by the rank
@@ -110,8 +121,10 @@ effort, not a quick result). Constraints a derivation must reproduce: sign force
 - **Derive `k=4−m(o−3)`** (the deep prize) — via the per-spectrum B89-style algebra (`A^o=I` + bundle
   relations) or the metallic A-polynomial; test o≥5 and higher m (bronze m=3) — needs a structured
   construction and admissible higher-order spectra.
-- **Characterize the sub-locus** (slice vs component) and the **silver principal spectrum** (the B95-analogue).
-  Reuse `../B153.../sln_toolkit.py` patterns (general in n).
+- Sub-locus: **DONE** — it is a COMPONENT (codim 0, moduli dim 1; `silver_sublocus2.py`). Remaining: the
+  **A-free spectrum-rigidity** (B153's n=3-component-vs-n=4-slice sense: does the `{1,ω,ω²}` spectrum deform
+  off the silver degree=rank component?) and the **silver principal spectrum** (the B95-analogue). Reuse
+  `../B153.../sln_toolkit.py` patterns.
 
 ## Method notes (verify-don't-trust payoffs)
 Two of my own bugs were caught by the figure-eight control before any silver conclusion: (i) the trace-map
