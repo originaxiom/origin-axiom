@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **`docs/UNIFIED_STATE.md` — the cross-branch "Unified State of Knowledge" brief banked (2026-06-16).**
+  A single source of truth across **Branch A** (trace-map / character variety, this repo) and **Branch B** (the Ω
+  history-enumeration handoff), privacy-cleaned (generic source labels; math branch names kept) and status-labelled.
+  Carries a **verify-don't-trust banner**: Branch A is banked/tested here (B1–B155, V1–V148); Branch B is a *separate*
+  handoff program whose B-numbering (B206…B907) is distinct, of which only the **core Ω₄/TC-1 theorem** has been
+  independently re-derived in-sandbox (counts, TC-2, history-entropy `log 2` are `[confirm-with-Ω-handoff]`).
+  Records the **B-number bridge** (Ω-side "B206" = this repo's `frontier/B155`) and folds in the V148 sharpening of the
+  B206 ≅ Ω₄ unification (shared canonical object — same charpoly + signature + ℚ-conjugacy class; the integer Ω family
+  reaches the charpoly only at half-integer `m=−1/2`, so not a common integer lattice point). Firewall preserved;
+  nothing to `CLAIMS.md`.
 - **PC17 — "Two Results from the Metallic Trace-Map Program" external-review note banked (2026-06-16).**
   A specialist-facing consolidation (`papers/metallic_trace_map_note/`, privacy-cleaned, status-labelled) of three
   standalone results: **A** `L=−M⁴` on the figure-eight SL(4) spectrum-pinned *slice* + completeness (the honest,
