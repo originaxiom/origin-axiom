@@ -86,7 +86,15 @@ family = irreducible locus *for the fixed `{1,1,ω,ω²}` spectrum*, B149) stand
 statement.
 
 ## Open
-- Generality: does the same degeneration hold for the silver bundle (m=2)? (needs the `R²L²` monodromy).
+- Generality: **PARTLY ANSWERED — see [[../B154_silver_bundle_foundation]]** (V146). Degree=rank
+  **generalizes to the metallic family** with the derived meridian `µ=A⁻ᵐt` (from `φ_m([A,B])=Aᵐ[A,B]A⁻ᵐ`,
+  an exact free-group identity; figure-eight's `A⁻¹t` is `m=1`). KEY REFRAMING: the exponent is
+  **order-based, not rank-based** — `[A,B]=±µᵏ` with `k=4−m(o−3)` (o = boundary-spectrum order); the
+  figure-eight `{1,ω,ω²}` gives `k=4` at *both* n=3 and n=4. So this note's `L=(−1)^{n-1}Mⁿ` (`k=n`) is
+  correct **for the principal spectra** (where B95 ties order to rank), but "=rank" is a *coincidence* of
+  those spectra — the underlying invariant is the order. For silver the relation lives on a *sub-locus*
+  (slice, ~25%), vs the figure-eight's full spectrum-locus. Remaining: the silver principal spectrum + the
+  slice/component characterization + a closed-form derivation of `k`.
 - Exact n=3 rigidity: **DONE over F_p** (3 primes; `n3_exact_endpoint.sage`). Optional further upgrade to
   exact over `ℚ(i)` (the F_p multi-prime + literature already suffice).
 - n=5: the principal (finite-order-`A`) absence is now **PROVEN** (semisimple ⟹ A²=I ⟹ dihedral). The

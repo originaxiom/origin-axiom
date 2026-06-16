@@ -1,11 +1,12 @@
 # B154 — the silver bundle (m=2, R²L²): foundation for the degeneration-generality question
 
-**Date:** 2026-06-15 (updated 2026-06-16). **Status:** FOUNDATION verified + **degree=rank GENERALIZES to
-silver** with the derived metallic meridian `µ=A⁻ᵐt` (matrix identity on a sub-locus; SL(3) solid, SL(4)
-preliminary); the exponent law + sub-locus characterization OPEN. Standalone low-dim topology / character
-varieties; no physics, no Origin-core claim; P1–P16 untouched; nothing to `CLAIMS.md`. Probes: `probe.py`
-(SL(2) foundation), `silver_construct.py` (SL(n) construction), `silver_degree_rank.py` (the µ=A⁻²t matrix
-identity); exact derivation: `silver_tracemap.sage` (Sage). Ledger: V146.
+**Date:** 2026-06-15 (updated 2026-06-16). **Status:** degree=rank GENERALIZES to the metallic family with
+the derived meridian `µ=A⁻ᵐt`, and the exponent is **order-based, not rank-based** (`k=4−m(o−3)` fit;
+"degree=rank" is a principal-spectrum coincidence). Matrix identity on a sub-locus; sub-locus
+characterization + closed-form derivation OPEN. Standalone low-dim topology / character varieties; no
+physics, no Origin-core claim; P1–P16 untouched; nothing to `CLAIMS.md`. Probes: `probe.py`,
+`silver_construct.py`, `silver_degree_rank.py`, `silver_exp3.py`, `fig_exponent.py`; exact derivation:
+`silver_tracemap.sage`. Ledger: V146.
 
 ## Question (Phase C of the B153 campaign)
 Does the rank-stratified degeneration of degree=rank (`L=(−1)^{n-1}Mⁿ`: genuine component at n=3, slice at
@@ -59,12 +60,31 @@ a SUB-LOCUS** (~25% of the irreducible reps at a finite-order spectrum), i.e. a 
 figure-eight, where it held on the entire spectrum-locus (B149). So the rank-stratified picture extends, but
 the "component vs slice" balance shifts toward slice for `m=2`.
 
+### The exponent is ORDER-based, not rank-based — "degree=rank" is a principal-spectrum coincidence
+The exponent `k` in `[A,B]=±µᵏ` is determined by the **order `o` of the boundary spectrum**, NOT by the rank
+`n`. **Decisive test** (off-principal spectra, where `o` is *not* linked to `n`): the figure-eight
+`{1,ω,ω²}` (o=3) gives `k=4` at **both** n=3 and n=4 — not `k=n`. So the celebrated `L=(−1)^{n-1}Mⁿ`
+("degree=rank", `k=n`) is a **coincidence of the principal spectra**, whose order is tied to the rank by
+B95 (`n=3↔o4, n=4↔o3, …`); the underlying invariant is the order.
+
+Verified data `(m, o) → k` (the sign is forced by parity, `+` for n odd):
+
+| | o=3 ({1,ω,ω²}-type) | o=4 ({1,i,−i}-type) |
+|---|---|---|
+| **figure-eight m=1** | k=4 (n=3 and n=4) | k=3 (n=3) |
+| **silver m=2** | k=4 (n=3 and n=4) | k=2 (n=3) |
+
+A clean closed form fits every point: **`k = 4 − m(o−3)`** (m = metallic index, o = boundary-spectrum order).
+[Honest tier: the *order-not-rank* conclusion is solid — the off-principal `k=4` at two ranks is decisive;
+the closed form `k=4−m(o−3)` is an **empirical fit on o∈{3,4}, m∈{1,2}** (the constants 4,3 are not yet
+derived), and the o=4 cases at SL(4) eluded random Newton (need a structured construction). Reproducers:
+`silver_exp3.py`, `fig_exponent.py` in `audit/lab/`.]
+
 ## Still open
-- **The exponent law.** Exponents so far: figure-eight `{1,i,−i}`@SL3 `µ³`, `{1,1,ω,ω²}`@SL4 `−µ⁴`; silver
-  `{1,ω,ω²}`@SL3 `+µ⁴`, `{1,i,−i}`@SL3 `+µ²`, `{1,1,ω,ω²}`@SL4 `−µ⁴`. Not simply `n`; depends on (spectrum, m).
-  Needs more data (a structured SL(4)/SL(5) silver construction, since random Newton is too weak there).
-- **Characterize the sub-locus** (slice? component? what extra equation cuts it out) and the **silver
-  principal spectrum** (the B95-analogue). Reuse `../B153.../sln_toolkit.py` patterns (general in n).
+- Derive `k=4−m(o−3)` (or its correct generalization) from the cusp structure; test o≥5 and higher m
+  (needs a structured SL(4)/SL(5) construction — random Newton is too weak at the o=4/SL(4) corner).
+- **Characterize the sub-locus** (slice vs component) and the **silver principal spectrum** (the B95-analogue).
+  Reuse `../B153.../sln_toolkit.py` patterns (general in n).
 
 ## Method notes (verify-don't-trust payoffs)
 Two of my own bugs were caught by the figure-eight control before any silver conclusion: (i) the trace-map
