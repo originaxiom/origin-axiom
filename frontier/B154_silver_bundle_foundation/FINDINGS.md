@@ -1,8 +1,10 @@
 # B154 — the silver bundle (m=2, R²L²): foundation for the degeneration-generality question
 
-**Date:** 2026-06-15. **Status:** FOUNDATION (verified) — the generality question is **OPEN**. Standalone
+**Date:** 2026-06-15 (updated 2026-06-16). **Status:** FOUNDATION verified + **SL(3) partial result**
+(degree=rank generality is genuinely *weaker* for silver — see below); full characterization OPEN. Standalone
 low-dim topology / character varieties; no physics, no Origin-core claim; P1–P16 untouched; nothing to
-`CLAIMS.md`. Probe: `probe.py` (pyenv); exact derivation: `silver_tracemap.sage` (Sage). Ledger: V146.
+`CLAIMS.md`. Probes: `probe.py` (SL(2) foundation), `silver_construct.py` (SL(n) construction + scan); exact
+derivation: `silver_tracemap.sage` (Sage). Ledger: V146.
 
 ## Question (Phase C of the B153 campaign)
 Does the rank-stratified degeneration of degree=rank (`L=(−1)^{n-1}Mⁿ`: genuine component at n=3, slice at
@@ -29,12 +31,32 @@ to the **silver bundle** (m=2, `R²L²`), or is it figure-eight-specific?
 4. **The monodromy `t`** (`tA=φ(A)t`, `tB=φ(B)t`) is solved convention-free over the `E_ij` basis
    (residual ~1e-15); needed for the peripheral / degree=rank analysis.
 
-## Open (Phase C continues)
-- **The silver principal spectrum** — the B95-analogue for `R²L²` (degree=rank is a relation at the
-  *principal / forced finite-order* point, NOT generic on the curve; a first peripheral scan over generic
-  points shows no clean `L=±Mᵏ`, as expected).
-- With it: the **SL(n) silver degeneration** at n=3,4,5 — component / slice / absent? Is the exponent still
-  `n` (as figure-eight) or `m·n` / different for `m=2`? Reuse `../B153.../sln_toolkit.py` (general in n).
+## Partial progress (SL(2)–SL(3), verified) — silver degree=rank is WEAKER than figure-eight
+
+The silver bundle relations eliminate (R1+R2) to the clean degree-2 system in `(B,t)` given `A`:
+`F1: tB² = A⁻¹tA` and `F2: tBt⁻¹ = A²B` (with `{F1,F2} ⟺ {R1,R2}`, verified). This is the silver analogue of
+B89's construction (`silver_construct.py`). The SL(2) build reproduces `κ=½z²+8/z²−2` (validation).
+
+**SL(3) spectrum scan + skeptical verification** (the verification matters — the raw scan's "best err 1e-15"
+was a cherry-picked single rep):
+- `{1,ω,ω²}` (order 3): 38 irreducible silver reps; `L=Mⁱ` with `M=eig(t)` holds **as an eigenvalue relation
+  on only ~10/38**, exponent `i=4`; the **matrix identity `[A,B]=t⁴/det t` holds on 0/38** (median err ~4).
+- `{1,i,−i}` (order 4): 29 irreducible; eigenvalue `L=M²` on ~4/29; matrix identity **0/29**.
+- `{1,1,1}`, `{ω,ω,ω}`: 0 irreducible. Generic: irreducible but no relation.
+
+**Conclusion (verified):** silver does **NOT** carry the figure-eight's *uniform matrix-identity* degree=rank
+(`[A,B]=(−1)^{n-1}µⁿ` held on the *entire* spectrum-locus for figure-eight, B149). For silver there is at
+most an **eigenvalue relation on a sub-locus** (~26% of the irreducible reps at a given finite-order
+spectrum), with a spectrum-dependent exponent (4 at order-3, 2 at order-4) in the *naive* meridian `eig(t)`.
+So the rank-stratified degeneration is, at this stage, **figure-eight-special in the strong sense**.
+
+## Still open
+- **The correct silver cusp meridian.** The figure-eight meridian is `µ=A⁻¹t` (a fiber-word × t); the naive
+  `eig(t)` is almost certainly the wrong framing for silver. The clean relation (if any) likely needs `µ =
+  (fiber word)·t` — derive the silver cusp framing, then re-test the matrix identity. (The ~26% sub-locus
+  hints something real is there in the right coordinates.)
+- Characterize the sub-locus (component? slice?) and extend to SL(4)/SL(5). Reuse `../B153.../sln_toolkit.py`
+  patterns (general in n).
 
 ## Method notes (verify-don't-trust payoffs)
 Two of my own bugs were caught by the figure-eight control before any silver conclusion: (i) the trace-map
@@ -45,7 +67,8 @@ known answer (here B67) is the cheapest guard.
 
 ## Reproduce
 ```bash
-python frontier/B154_silver_bundle_foundation/probe.py
-sage   frontier/B154_silver_bundle_foundation/silver_tracemap.sage   # exact fixed locus (needs Sage)
+python frontier/B154_silver_bundle_foundation/probe.py            # SL(2) foundation (kappa + control + t-solver)
+python frontier/B154_silver_bundle_foundation/silver_construct.py # SL(n) construction + SL(3) degree=rank scan
+sage   frontier/B154_silver_bundle_foundation/silver_tracemap.sage # exact fixed locus (needs Sage)
 python -m pytest tests/test_b154_silver_bundle_foundation.py -q
 ```
