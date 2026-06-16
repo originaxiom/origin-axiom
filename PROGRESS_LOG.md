@@ -3879,5 +3879,49 @@ drafted (owner sends). Ledgers **V142–V145**.
 
 ---
 
+## 2026-06-16 — B154: the metallic meridian and the order-based degree=rank exponent (silver bundle)
+
+**Context.** Phase C of the B153 campaign: does the rank-stratified degeneration of degree=rank generalize
+from the figure-eight (m=1, RL) to the silver bundle (m=2, R²L²)? Banked incrementally (PRs #180–189) as a
+single arc, each step verified, several **self-corrections** caught by the verify-don't-trust discipline.
+
+**Done (B154; V146, V147).**
+
+- **The metallic meridian `µ = A⁻ᵐt`** — derived from the exact free-group identity `φ_m([A,B]) = Aᵐ[A,B]A⁻ᵐ`
+  (the monodromy fixes the fiber boundary only up to conjugacy; verified m=1,2 by word reduction). The
+  figure-eight's `A⁻¹t` is the m=1 case; it is the cusp meridian (`µ` commutes with `[A,B]`).
+
+- **Degree=rank GENERALIZES to the metallic family.** With `µ=A⁻ᵐt`, the matrix identity `[A,B]=±µᵏ` holds for
+  the silver bundle (SL(3): `{1,ω,ω²}`→`+µ⁴`, `{1,i,−i}`→`+µ²`; SL(4) `{1,1,ω,ω²}`→`−µ⁴`). So it is **not**
+  figure-eight-special.
+
+- **The exponent is ORDER-based, not rank-based** — "degree=rank" is a *coincidence of the principal spectra*
+  (B95 ties their order to the rank). Decisive test: figure-eight `{1,ω,ω²}` (order 3) gives `k=4` at *both*
+  n=3 and n=4 (not `k=n`). Closed-form fit **`k = 4 − m(o−3)`** (o = boundary-spectrum order) on all six
+  accessible (m,o,n) points; the o=4/SL(4) corner admits no irreducibles. `k` is the **A-polynomial slope**
+  (holds along a curve at generic M; finite-order points are the Dehn fillings).
+
+- **Geometry.** The silver `{1,ω,ω²}`@SL3 degree=rank locus is a **component** of the fixed-spectrum variety
+  (codim 0, deformation theory) that is an **A-free slice** (tr A moves, tangent 11) — exactly the
+  **figure-eight n=4 pattern**, not the rigid n=3. Tentative: rigidity may also be order-based.
+
+- **Foundation + machinery.** The silver SL(2) character variety (`κ=½z²+8/z²−2`, distinct from figure-eight)
+  via the trace-map fixed locus; the silver bundle relations eliminate to `F1: tB²=A⁻¹tA, F2: tBt⁻¹=A²B`; the
+  convention-free monodromy-t solver. Validated throughout against the figure-eight control (reproduces B67).
+
+- **Self-corrections (verify-don't-trust, this arc):** the best-rep scan over-read → the wrong-meridian
+  over-negative (PR #181, "silver doesn't carry it") → the derived true positive (`µ=A⁻ᵐt`); and the "slice
+  ~25%" wording → the precise component(fixed-spectrum)+slice(A-free) deformation theory. A genuine
+  *derivation* of `k=4−m(o−3)` is OPEN (reduces to the metallic A-polynomial — the B67→B89 program
+  generalized).
+
+**Also (2026-06-16): the lean self-audit workflow COMPLETED** (V147) — 62 claims, 48 CONFIRMED, only P10/P12
+flagged (both already handled); it independently reversed its own P12 BUGGED verdict and confirmed P10's fix.
+Acted on its two minor recommendations (P12 shape-coordinate caveat + a CI identification test; P10 min-volume
+m003-tie annotation). The two-mirrors discipline is working. MATH tier throughout; nothing to `CLAIMS.md`
+(the P10/P12 edits are honesty caveats); P1–P16 cores untouched. Ledgers **V146, V147**.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
