@@ -3923,5 +3923,38 @@ m003-tie annotation). The two-mirrors discipline is working. MATH tier throughou
 
 ---
 
+## 2026-06-16 — B155: the "golden × phase" spectral bridge at n=4 (processing the external handoff, step 1/3)
+
+Processing three external files (an external-review note's two results + the cross-session "Ω" synthesis brief +
+the Chat history) **one-by-one through governance, straight to the repo**, each **independently re-derived**
+before banking (verify-don't-trust: a cross-session claim is corroboration, not validation). **Step 1 = Result C.**
+
+**B155 — the canonical n=4 object.** A single integer matrix `M_g = [[1,1,0,0],[0,1,1,0],[1,1,1,1],[1,1,0,1]] ∈
+SL(4,ℤ)` realizes **"figure-eight monodromy × order-6 phase"** as a *rational block structure* (re-derived
+exactly, pure sympy, all checks PASS):
+
+- **Spectrum.** `charpoly(M_g) = (x²−3x+1)(x²−x+1) = x⁴−4x³+5x²−4x+1` — the **golden** factor (figure-eight
+  monodromy trace poly, disc 5, root φ², real ⇒ Anosov) × the **phase** factor (`Φ₆`, disc −3, |root|=1, finite
+  order 6).
+- **Rational form.** `M_g ∼_ℚ [[2,1],[1,1]] ⊕ [[0,1],[−1,1]]` (same invariant factors) and **nonderogatory**
+  (min poly = char poly) ⇒ any matrix with this charpoly is ℚ-conjugate to it.
+- **Glue.** The two invariant 2-planes glue inside ℤ⁴ with cokernel **(ℤ/2)²** (sublattice index 4, SNF
+  `diag(1,1,2,2)`), and this is **representative-specific** — the block-diagonal form with the same χ has
+  *trivial* glue (a GL(4,ℤ)-class invariant, not forced by the spectral type).
+- **Inertia.** An invariant symmetric form of **signature (1,3)** with discriminant **−15 = disc ℚ(√5)·disc ℚ(√−3)**.
+
+**B206 ≅ Ω₄, honestly scoped.** The Ω positive-shear family `R_{a,m}` (reciprocal charpoly
+`x⁴−ax³+(2a−2m−4)x²−ax+1`, signature (1,3) on its live cone) reaches `M_g`'s charpoly only at the *half-integer*
+point **`a=4, m=−1/2`**. So the bridge is the **shared canonical object** (same charpoly + signature + ℚ-conjugacy
+class), **not** a common integer lattice point; the shorthand "same matrix two ways" overstates it — this is the
+honest statement banked.
+
+**Firewall.** Signature (1,3) = **algebraic inertia** of a bilinear form, NOT spacetime/metric/time. No physics
+claim; the Ω "non-cancellation" motivation stays firewalled. MATH tier; nothing to `CLAIMS.md`; P1–P16 untouched.
+Reproducer `frontier/B155_golden_phase_bridge/golden_phase_bridge.py`; test `tests/test_b155_golden_phase_bridge.py`
+(6 passed). Ledger **V148**. Steps 2 (two-results note → `papers/`) and 3 (unified brief → `docs/`) follow.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

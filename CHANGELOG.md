@@ -9,6 +9,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B155 — the "golden × phase" spectral bridge at n=4 (2026-06-16; V148).**
+  Processing an external-review note (Result C) + an AI-assisted cross-session synthesis (the "Ω" history-enumeration
+  program) one-by-one through governance, each **independently re-derived** before banking. A single integer matrix
+  `M_g = [[1,1,0,0],[0,1,1,0],[1,1,1,1],[1,1,0,1]] ∈ SL(4,ℤ)` realizes **"figure-eight monodromy × order-6 phase"**
+  as a rational block structure: `charpoly(M_g) = (x²−3x+1)(x²−x+1)` — the *golden* factor (figure-eight monodromy
+  trace poly, disc 5, root φ², real/Anosov) times the *phase* factor (`Φ₆`, disc −3, finite order 6). It is ℚ-similar
+  to `[[2,1],[1,1]] ⊕ [[0,1],[−1,1]]` and nonderogatory; it glues the two invariant 2-planes inside ℤ⁴ with cokernel
+  **(ℤ/2)²** (class-specific — the block-diagonal form with the same χ has trivial glue); and it carries an invariant
+  symmetric form of **signature (1,3)** with discriminant **−15 = disc ℚ(√5)·disc ℚ(√−3)**. **B206 ≅ Ω₄, honestly
+  scoped:** the Ω positive-shear family `R_{a,m}` reaches this characteristic polynomial only at the *half-integer*
+  point `a=4, m=−1/2`, so the bridge is the **shared canonical object** (same charpoly + signature + ℚ-conjugacy
+  class), not a common integer lattice point. **Firewall:** signature (1,3) = algebraic inertia of a bilinear form,
+  **not** spacetime; no physics claim. MATH tier; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B154 — the metallic meridian `µ=A⁻ᵐt` and the order-based degree=rank exponent (silver bundle; 2026-06-16; V146–V147).**
   Phase C of the B153 campaign (does degree=rank generalize from the figure-eight m=1 to the silver bundle m=2, R²L²?).
   **(1) The metallic meridian:** `µ=A⁻ᵐt`, derived from the exact free-group identity `φ_m([A,B])=Aᵐ[A,B]A⁻ᵐ` (the
