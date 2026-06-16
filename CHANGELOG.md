@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B157 — the metallic degree=rank exponent: `k=4−m(o−3)` REFUTED; order-not-rank survives (2026-06-17; V151).**
+  Phase 2 (derive the "metallic A-polynomial" exponent), a two-route workflow (B67 eliminant + B89 ideal
+  algebra) with adversarial synthesis — the adversary (high confidence) couldn't break it and strengthened the
+  SL(4)-emptiness leg. **Headline (a self-correction):** the empirically-banked closed form **`k = 4 − m(o−3)`
+  is REFUTED** — extending to **bronze (m=3)** gives genuine non-degenerate counterexamples `(3,4)→k=3` (formula
+  predicts 1) and `(3,6)→k=1` (predicts −5); it was an artifact of m∈{1,2}, and no ≤3-parameter law fits the
+  corrected grid. **What survives** (the hedged part of B154): `k` is **order-determined, rank-independent**
+  (`o=3 ⇒ k=4` at n=3 and n=4). **New exact figure-eight cells:** `o=3→4` over ℚ(ω) and **`o=4→3` over ℚ(i)**
+  (`[A,B]=c·µ³`, two ways). **New machinery:** the general-m bundle system + the exact identity
+  `φ_m([A,B])=Aᵐ[A,B]A⁻ᵐ` ⟹ cusp meridian `µ=A⁻ᵐt` for all m. **SL(4) `{1,1,i,−i}` (o=4) provably empty**
+  (Lemma 1: `det(UR)·det(LL)` in the bundle ideal over ℚ(i); reducible). Corrects **B154/V146** in place. MATH
+  tier; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B156 completion — source-chat cross-check + TC-1/TC-4 + the commuting-shears scope (2026-06-16; V150).**
   The owner supplied the **source reasoning** (the ChatGPT/Ω chat that produced the work, which itself ingested
   the ~1085pp Claude trace — the two chats cross-examined each other). An agent cross-check + fresh re-derivation

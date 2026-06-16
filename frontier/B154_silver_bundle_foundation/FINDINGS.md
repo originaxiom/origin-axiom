@@ -1,7 +1,8 @@
 # B154 — the silver bundle (m=2, R²L²): foundation for the degeneration-generality question
 
-**Date:** 2026-06-15 (updated 2026-06-16). **Status:** degree=rank GENERALIZES to the metallic family with
-the derived meridian `µ=A⁻ᵐt`, and the exponent is **order-based, not rank-based** (`k=4−m(o−3)` fit;
+**Date:** 2026-06-15 (updated 2026-06-16; **CORRECTED 2026-06-17 — see banner below**). **Status:** degree=rank
+GENERALIZES to the metallic family with the derived meridian `µ=A⁻ᵐt`, and the exponent is **order-based, not
+rank-based** (~~`k=4−m(o−3)` fit~~ **REFUTED by bronze, B157/V151 — the order-not-rank conclusion survives**;
 "degree=rank" is a principal-spectrum coincidence). The `{1,ω,ω²}`@SL3 locus is a fixed-spectrum
 **component** (codim 0) that is an **A-free SLICE** (tr A moves, tangent 11) — the figure-eight n=4 pattern.
 Closed-form derivation of k OPEN. Standalone low-dim topology / character varieties; no
@@ -104,6 +105,14 @@ A clean closed form fits every point: **`k = 4 − m(o−3)`** (m = metallic ind
 the closed form `k=4−m(o−3)` is an **empirical fit on o∈{3,4}, m∈{1,2}** (the constants 4,3 are not yet
 derived), and the o=4 cases at SL(4) eluded random Newton (need a structured construction). Reproducers:
 `silver_exp3.py`, `fig_exponent.py` in `audit/lab/`.]
+
+> **CORRECTION (2026-06-17, B157/V151).** The closed form **`k = 4 − m(o−3)` is REFUTED.** Extending to
+> **bronze (m=3)** gives genuine non-degenerate counterexamples — `(m=3,o=4)→k=3` (formula predicts 1) and
+> `(m=3,o=6)→k=1` (predicts −5) — so the formula was an **artifact of having only m∈{1,2}**; no ≤3-parameter
+> affine/modular law fits the corrected grid (`(m=3,o=3)` is excised as the `o∣m` collapse where `µ=t`). What
+> **survives** is exactly the hedged part: `k` is **order-determined and rank-independent** (`o=3 ⇒ k=4` at
+> n=3 and n=4 for m=1,2). The figure-eight cells are now **exact** (o=3→4 over ℚ(ω); o=4→3 over ℚ(i)), and the
+> `{1,1,i,−i}`@SL(4) point is **provably empty** (not just Newton-elusive). See `frontier/B157_metallic_exponent/`.
 
 **Data completeness note.** The closed form is tested on every *accessible* point: o=3 at n=3,4 (both m) and
 o=4 at n=3 (both m). The o=4 spectra appear to admit irreducible reps **only at SL(3)** — `{1,1,i,−i}`@SL(4)

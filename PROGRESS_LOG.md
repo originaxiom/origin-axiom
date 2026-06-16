@@ -4024,5 +4024,36 @@ against the banked B156, and everything new was **re-derived here** (verify-don'
 
 ---
 
+## 2026-06-17 — B157: the metallic exponent — `k=4−m(o−3)` REFUTED (Phase 2)
+
+Phase 2 of the post-handoff push: derive the "metallic A-polynomial" exponent. Run concurrently with the L10
+re-run as a **two-route workflow** (R2 = B67 A-polynomial eliminant; R1 = B89 per-spectrum ideal algebra) with
+an **adversarial synthesis**. The adversary (high confidence) could not break the conclusion and *strengthened*
+the SL(4)-emptiness leg; every load-bearing computation was re-run in the main loop (verify-don't-trust).
+
+**Headline — a self-correction.** The empirically-banked closed form **`k = 4 − m(o−3)` is REFUTED.** Extending
+to **bronze (m=3)** gives genuine, non-degenerate counterexamples: `(m=3,o=4)→k=3` (the formula predicts 1;
+`Aᵐ≠I`, `‖µ−t‖=8.1`, irreducible, residual 1.7e-14) and `(m=3,o=6)→k=1` (predicts −5). The formula was an
+**artifact of having only m∈{1,2}**; `(m=3,o=3)` is excised as the `o∣m` collapse (`µ=A⁻ᵐt=t`). No
+≤3-parameter affine/modular law fits the corrected grid (candidate fits overfit a 5-point set, disagree
+off-grid). **What survives** (exactly the hedged part of B154/V146): `k` is **order-determined and
+rank-independent** — `o=3 ⇒ k=4` at *both* n=3 and n=4; "degree=rank" (`k=n`) is a principal-spectrum
+coincidence; `k = min{ j : [A,B]·µ⁻ʲ scalar on the variety }`.
+
+**Genuine advances banked alongside the refutation.** (1) The **general-m bundle construction** — `F1: tBᵐ=A⁻¹tA`,
+`F2: tB=AᵐBt`, the exact free-group identity `φ_m([A,B])=Aᵐ[A,B]A⁻ᵐ` (verified m=1,2,3) ⟹ the cusp meridian is
+`µ=A⁻ᵐt` for all m; `metallic_construct.py` reduces exactly to the figure-eight toolkit at m=1. (2) Two **exact
+figure-eight cells**: `o=3→k=4` over ℚ(ω) (B71/B89) and **NEW `o=4→k=3` over ℚ(i)** (`[A,B]=c·µ³`, two ways
+incl. the smallest-j-scalar mechanism). (3) The SL(4) `{1,1,i,−i}` (o=4) corner is **provably empty** (Lemma 1
+exact: `det(UR)·det(LL)` in the bundle ideal over ℚ(i); the nondegenerate branch reducible) — not just
+Newton-elusive. `o=5,6` admit no irreducible SL(3) reps (inadmissible); the grid is genuinely sparse.
+
+Banked `frontier/B157_metallic_exponent/` (FINDINGS + 7 reproducers), **corrected B154 FINDINGS + V146** in
+place (the `k=4−m(o−3)` fit → REFUTED banner), ledger **V151**, test lock 4 checks. MATH tier; firewall intact;
+nothing to `CLAIMS.md`. This closes the post-handoff plan (Phase 1 = Ω integration done; Phase 2 = derive-k,
+which honestly resolved to a refutation + the order-determined structure + new exact cells).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
