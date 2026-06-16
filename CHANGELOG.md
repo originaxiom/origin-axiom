@@ -9,6 +9,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B156 — the Ω strict-full cone: full integration of the cross-session Ω program, Phase 1 (2026-06-16; V149).**
+  Banks the **Ω-specific** content (the SL(4) lift of P6) onto current main, with **all four Ω theorems
+  independently re-derived + adversarially verified** (a 4-claim workflow with skeptics; 4/4 confirmed, none
+  refuted): **(1)** core R/G algebra — `R_{a,m} ∈ SL(4,ℤ)`, `det R=1`, palindromic
+  `χ = x⁴−ax³+(2a−2m−4)x²−ax+1`, `RᵀGR=G`, `det G=−δ/(m+1)`, shears `A:δ→δ+2`/`C:δ→δ−1`, signature **(1,3)**
+  on the live cone (wall `δ=0` → (1,2,1); (2,2) below) — constancy *rigorous* (det `G<0` + Sylvester pivot
+  certificate); **(2)** TC-2 — strict-full ⟹ reciprocal char poly; **(3)** the **Fibonacci** block-count
+  (`F_{n+1}`, growth `φ`); **(4)** wall-avoiding **history entropy = log 2** (exact: `W_n(δ) ~ (1−φ^{−δ})·2ⁿ`).
+  Strict-full **survivor counts** L4–L7 = 96/672/3840/20928 re-confirmed by **two** from-scratch enumerators
+  (exact `det` test, with/without the reciprocity shortcut); L8–L10 = 105312/521904/2488080 from artifacts,
+  independent re-run in progress. **Verify-don't-trust payoff:** the handoff's own brute-force script counts
+  strict-full *per char-poly class* and **over-counts** (L5: 3120 vs the true 672) — the correct count is
+  *per-matrix*; a 40 hr blind run of that script would have computed the wrong quantity. Also caught + fixed a
+  TC-2 exposition imprecision. Firewall claim-boundary table copied **verbatim**; signature (1,3) = algebraic
+  inertia, entropy = word-growth, **no physics**. Expert one-page note → `papers/omega_strict_full_note/`
+  (**PC18**). MATH tier; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **`docs/UNIFIED_STATE.md` — the cross-branch "Unified State of Knowledge" brief banked (2026-06-16).**
   A single source of truth across **Branch A** (trace-map / character variety, this repo) and **Branch B** (the Ω
   history-enumeration handoff), privacy-cleaned (generic source labels; math branch names kept) and status-labelled.

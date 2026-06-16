@@ -3956,5 +3956,45 @@ Reproducer `frontier/B155_golden_phase_bridge/golden_phase_bridge.py`; test `tes
 
 ---
 
+## 2026-06-16 — B156: full Ω-branch integration, Phase 1 (the strict-full cone)
+
+Owner chose, after the 3-file handoff (B155/PC17/brief), to do the **full Ω-branch integration then the
+derive-k research push**, "both, sequenced," with "all relevant agents." This is **Phase 1**: re-derive the
+Ω theorems under our governance and bank the Ω-specific content as `frontier/B156_omega_strict_full_cone/`.
+
+**Method (verify-don't-trust, multi-agent).** A Workflow ran **4 independent verifiers + adversarial
+skeptics** (one per claim). All re-derived from scratch (not the handoff's code), all re-run by the main loop:
+
+- **Core R/G algebra** [proved]: `R_{a,m} ∈ SL(4,ℤ)`, `det R=1`, palindromic `χ`, `RᵀGR=G`, `det G=−δ/(m+1)`,
+  shears `A:δ→δ+2`/`C:δ→δ−1`, signature **(1,3)** on the live cone / (1,2,1) wall / (2,2) below — constancy
+  *rigorous* (det `G<0` on the convex cone + Sylvester pivot certificate). 16/16 PASS.
+- **TC-2** [proved]: strict-full ⟹ `M~M⁻¹` ⟹ reciprocal char poly; 8/8 strict-full examples palindromic + 2
+  non-reciprocal controls with no nondegenerate form.
+- **Fibonacci block-count** [exact]: `F_{n+1}` (compositions into {1,2}), growth `φ`, four methods agree.
+- **Wall-avoiding history entropy = log 2** [proved], by an **exact** mechanism (not numerics):
+  `log W_n − n·log2 → log(1−φ^{−δ})`, so `W_n(δ) ~ (1−φ^{−δ})·2ⁿ`.
+
+**Counts.** Strict-full **survivor** = a history from the Ω₄ seed (golden×phase char poly, strict-full at L4)
+staying strict-full at every level. L4–L7 = **96/672/3840/20928** independently re-confirmed by *two*
+from-scratch enumerators (exact `det`-of-generic-form test, with and without the reciprocity shortcut).
+L8–L10 = 105312/521904/2488080 from the exact-state artifacts; the independent re-run is the **heavy
+background counter** (state-propagation to L10), to be appended when it lands.
+
+**Two verify-don't-trust payoffs.** (1) The handoff's own brute-force script attributes strict-full status
+*per char-poly class representative* and **over-counts** (L5: 3120 vs the true 672; L6: 57792 vs 3840) — the
+correct count is *per-matrix*. Blindly launching it for a 40 hr run would have computed the wrong quantity;
+the correct definition was pinned **before** any heavy job. (2) Caught a circular intermediate identity in the
+handoff's TC-2 exposition (fixed; the result stands).
+
+**Firewall.** The Ω claim-boundary table is copied **verbatim** into the FINDINGS: signature (1,3) =
+algebraic inertia (NOT spacetime), history entropy = word-growth (NOT thermodynamic), endpoint/class entropy
+OPEN, U/V free-semigroup REFUTED, gravity/QM/cosmology FORBIDDEN. The Ω₄ seed = the `frontier/B155`
+golden×phase object (the two programs converge there). Expert one-page note → `papers/omega_strict_full_note/`
+(**PC18**); novelty NEEDS-SPECIALIST. MATH tier; nothing to `CLAIMS.md`; P1–P16 untouched. Ledger **V149**.
+Reproducers in `frontier/B156_omega_strict_full_cone/`; test `tests/test_b156_omega_strict_full_cone.py`
+(6 passed). Next: append the L8–L10 re-run counts, then **Phase 2** (derive `k=4−m(o−3)`).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
