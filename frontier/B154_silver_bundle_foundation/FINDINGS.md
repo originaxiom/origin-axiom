@@ -86,9 +86,15 @@ the closed form `k=4−m(o−3)` is an **empirical fit on o∈{3,4}, m∈{1,2}**
 derived), and the o=4 cases at SL(4) eluded random Newton (need a structured construction). Reproducers:
 `silver_exp3.py`, `fig_exponent.py` in `audit/lab/`.]
 
+**Data completeness note.** The closed form is tested on every *accessible* point: o=3 at n=3,4 (both m) and
+o=4 at n=3 (both m). The o=4 spectra appear to admit irreducible reps **only at SL(3)** — `{1,1,i,−i}`@SL(4)
+yields no irreducible reps even with the fast analytic solver (the figure-eight `{1,1,ω,ω²}`@SL(4) control
+is found fine), for both figure-eight and silver. So the o=4/SL(4) data point does not exist to test, and
+`k=4−m(o−3)` holds on all six accessible (m,o,n) points. (`fig_sl4_o4.py`.)
+
 ## Still open
-- Derive `k=4−m(o−3)` (or its correct generalization) from the cusp structure; test o≥5 and higher m
-  (needs a structured SL(4)/SL(5) construction — random Newton is too weak at the o=4/SL(4) corner).
+- Derive `k=4−m(o−3)` (or its correct generalization) from the cusp structure / A-polynomial; test o≥5 and
+  higher m (bronze m=3) — needs a structured construction and admissible higher-order spectra.
 - **Characterize the sub-locus** (slice vs component) and the **silver principal spectrum** (the B95-analogue).
   Reuse `../B153.../sln_toolkit.py` patterns (general in n).
 
