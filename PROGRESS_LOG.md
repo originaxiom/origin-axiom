@@ -3996,5 +3996,31 @@ Reproducers in `frontier/B156_omega_strict_full_cone/`; test `tests/test_b156_om
 
 ---
 
+## 2026-06-16 — B156 completion: source-chat cross-check, TC-1/TC-4, the commuting-shears scope
+
+Owner supplied the **source reasoning** for the Ω work: the ChatGPT/Ω chat (1435 messages) that produced it,
+which itself ingested the ~1085pp Claude trace — *the two chats cross-examined each other*. Digested as a
+cross-check (gitignored `audit/handoff_2026-06-15/chatgpt_omega_transcripts/`); an agent cross-checked it
+against the banked B156, and everything new was **re-derived here** (verify-don't-trust), not transcribed.
+
+- **B156 confirmed faithful.** All four theorems + firewall + counts correctly transferred; our independent
+  re-derivations (the (1,3) Sylvester-pivot rigor, the exact log-2 survival mechanism) *strengthen* the source.
+  History entropy **log 2** is the final value — it supersedes the earlier lower bounds `log φ` and `(1/3)log 7`
+  (both `< log 2`); B156/PC18 already used log 2.
+- **Two missed theorems banked (re-derived):** **TC-1** [exact] — Ω₄ is the *unique minimal* strict-full seed
+  (minimal SC level L=4; every strict-full L4 history has charpoly (4,5,4) = golden×phase = the `frontier/B155`
+  object); **TC-4** [proved] — orientation no-go (relabel-closed ensembles have zero net Pfaffian residual; the
+  Pfaffian sign law `Ω(πw)=sign(π)Ω(w)` + ensemble closure → boundary-induced orientation). `tc1_tc4_verify.py`.
+- **Decisive scope (the collaboration's concluding verdict):** **Ω is the abelianized shadow of the trace-map
+  tower, not its mechanism.** The strict-full shears `A=S₀₃, C=S₂₃` **commute** (`E₀₃E₂₃=E₂₃E₀₃=0`), so
+  `R↦A, L↦C` cannot represent the noncommutative trace-map monodromy (and the R-cone endpoint entropy is 0,
+  order-independent). The **Ω↔tower bridge audit** (κ↦δ/det G? χ_Ω↦Dickson/Lucas? do R,L relations realize?) was
+  proposed but **never run** — recorded as the open frontier (`docs/OPEN_LEADS.md` L18, `docs/UNIFIED_STATE.md`).
+- **Counts:** the independent heavy re-run re-confirmed **L8=105312, L9=521904** (matching the artifacts); L10
+  in progress. Updated B156 FINDINGS + `docs/UNIFIED_STATE.md` + PC18 + ledger **V150**; test lock now 8 checks.
+  Next: append L10 when the counter lands, then **Phase 2** (derive `k=4−m(o−3)`).
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
