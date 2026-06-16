@@ -70,7 +70,19 @@ progress. The block-word structure of the survivor language gives the **Fibonacc
 **6. Wall-avoiding history entropy.** The number `W_n(δ)` of length-n wall-avoiding `{A,C}` histories (δ ≥ 1)
 has exponential rate exactly **log 2**, by an exact mechanism: `log W_n − n·log 2 → log(survival prob)` with
 survival probability `1 − φ^{−δ} > 0` (from the first-passage recurrence; characteristic `r³−2r+1=0`, roots
-`{1, 1/φ, −φ}`). So `W_n(δ) ~ (1−φ^{−δ})·2ⁿ`. **[proved]**
+`{1, 1/φ, −φ}`). So `W_n(δ) ~ (1−φ^{−δ})·2ⁿ`. (`log 2` is the final value; it supersedes the earlier lower
+bounds `log φ` and `(1/3)log 7`, both `< log 2`.) **[proved]**
+
+**7. Ω₄ is the unique minimal strict-full seed (TC-1).** The minimal level with any strongly-connected history
+is `L=4` (a strongly connected digraph on 4 nodes needs ≥ 4 edges), and every strict-full `L=4` history has
+characteristic polynomial **exactly** `x⁴−4x³+5x²−4x+1 = (4,5,4) = golden×phase`. So the survivor tower is
+rooted at one canonical object. **[exact]**
+
+**8. Orientation no-go (TC-4).** With `Ω(w) =` Pfaffian of the antisymmetrized dependency matrix
+(`A₀₁A₂₃−A₀₂A₁₃+A₀₃A₁₂`): relabeling the 4 nodes by `π` gives `Ω(πw) = sign(π)·Ω(w)` (Pfaffian sign law)
+while preserving strong-connectivity and strict-fullness, so any relabel-closed ensemble has **zero net
+orientation residual**. Orientation is **boundary-induced, not internally derived** — the "non-cancellation"
+motivation stated as a proved no-go. **[proved]**
 
 ## What is NOT claimed — the claim firewall
 
@@ -87,6 +99,12 @@ This is the **SL(4) lift of P6** (SL(2) positive shears `L,R` preserve a signatu
 reciprocal/palindromic polynomials. The Ω₄ seed `x⁴−4x³+5x²−4x+1 = (x²−3x+1)(x²−x+1)` is the **same
 canonical "golden × phase" object** reached from the character-variety side as `frontier/B155` — the two
 programs meet there (see `docs/UNIFIED_STATE.md`).
+
+**Scope (honest).** This convergence is on the *object*, not a mechanism. The strict-full shears `A=S₀₃`
+and `C=S₂₃` **commute** (`E₀₃E₂₃ = E₂₃E₀₃ = 0`), so `R↦A, L↦C` cannot represent the *noncommutative*
+trace-map monodromy — Ω is at most the **abelianized / non-collapse shadow** of the tower, not its body. The
+deciding open test is the Ω↔tower **bridge audit** (does `κ` pull back to `δ`/`det G`? does `χ_Ω` specialize
+to the Dickson/Lucas factors?), not yet run.
 
 ## Reproduction
 

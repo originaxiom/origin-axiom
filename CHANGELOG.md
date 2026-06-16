@@ -9,6 +9,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B156 completion — source-chat cross-check + TC-1/TC-4 + the commuting-shears scope (2026-06-16; V150).**
+  The owner supplied the **source reasoning** (the ChatGPT/Ω chat that produced the work, which itself ingested
+  the ~1085pp Claude trace — the two chats cross-examined each other). An agent cross-check + fresh re-derivation
+  here: **(1)** confirmed B156 is faithful (our re-derivations even strengthen the source) and that history
+  entropy **log 2** is final (it supersedes the older `(1/3)log 7` bound); **(2)** banked two missed theorems,
+  each re-derived (not transcribed) — **TC-1** [exact]: Ω₄ is the *unique minimal* strict-full seed (minimal
+  level L=4; every strict-full L4 history has charpoly (4,5,4)=golden×phase), and **TC-4** [proved]: an
+  orientation *no-go* (relabel-closed ensembles have zero net Pfaffian residual — orientation is boundary-induced,
+  the rigorous core of "non-cancellation"); **(3)** the decisive scope — **Ω is the abelianized shadow of the
+  trace-map tower, not its mechanism**: the strict-full shears `A=S₀₃, C=S₂₃` **commute**, so `R↦A, L↦C` cannot
+  represent the noncommutative monodromy; the Ω↔tower **bridge audit** (κ↦δ/det G? χ_Ω↦Dickson?) is the open
+  frontier (`docs/OPEN_LEADS.md` L18), never run; **(4)** the independent heavy re-run re-confirmed **L8=105312,
+  L9=521904** (L10 in progress). Updated `frontier/B156`, `docs/UNIFIED_STATE.md`, PC18. MATH tier; firewall
+  intact; nothing to `CLAIMS.md`.
 - **B156 — the Ω strict-full cone: full integration of the cross-session Ω program, Phase 1 (2026-06-16; V149).**
   Banks the **Ω-specific** content (the SL(4) lift of P6) onto current main, with **all four Ω theorems
   independently re-derived + adversarially verified** (a 4-claim workflow with skeptics; 4/4 confirmed, none

@@ -107,9 +107,54 @@ def test_strict_full_L4_seed_is_96_and_reciprocal():
     spec.loader.exec_module(ir)
     cache = {}
     seed = ir.initial_seed_counter(cache)
-    assert sum(seed.values()) == 96
+    assert sum(seed.values()) == 96  # TC-1: the Ω4 minimal strict-full seed count
     assert len(seed) == 36
     # every seed endpoint has the golden×phase charpoly (4,5,4) -> reciprocal (a==c)
     for M in seed:
         abc = ir.charpoly_abc(M)
         assert abc == (4, 5, 4) and abc[0] == abc[2]
+
+
+def test_tc4_pfaffian_sign_law():
+    # Pf(Pπ A Pπ^T) = sign(π) Pf(A): odd relabel flips sign, even preserves it
+    s = sp.symbols("a01 a02 a03 a12 a13 a23")
+    A = sp.Matrix([[0, s[0], s[1], s[2]], [-s[0], 0, s[3], s[4]],
+                   [-s[1], -s[3], 0, s[5]], [-s[2], -s[4], -s[5], 0]])
+    pf = lambda M: M[0, 1] * M[2, 3] - M[0, 2] * M[1, 3] + M[0, 3] * M[1, 2]
+    def P(p):
+        M = sp.zeros(4)
+        for i in range(4):
+            M[i, p[i]] = 1
+        return M
+    Po, Pe = P((1, 0, 2, 3)), P((1, 2, 0, 3))   # odd transposition, even 3-cycle
+    assert sp.expand(pf(Po * A * Po.T) + pf(A)) == 0   # odd -> sign flip
+    assert sp.expand(pf(Pe * A * Pe.T) - pf(A)) == 0   # even -> preserved
+
+
+def test_tc4_net_orientation_residual_zero_at_L4():
+    import itertools
+    N = 4
+    EDGES = [(i, j) for i in range(N) for j in range(N) if i != j]
+
+    def sc(hist):
+        adj = [set() for _ in range(N)]; radj = [set() for _ in range(N)]
+        for i, j in hist:
+            adj[j].add(i); radj[i].add(j)
+        def reach(g):
+            seen = {0}; st = [0]
+            while st:
+                u = st.pop()
+                for v in g[u]:
+                    if v not in seen:
+                        seen.add(v); st.append(v)
+            return len(seen) == N
+        return reach(adj) and reach(radj)
+
+    def orient(hist):
+        C = [[0] * N for _ in range(N)]
+        for i, j in hist:
+            C[j][i] += 1
+        a = [[C[i][j] - C[j][i] for j in range(N)] for i in range(N)]
+        return a[0][1] * a[2][3] - a[0][2] * a[1][3] + a[0][3] * a[1][2]
+
+    assert sum(orient(h) for h in itertools.product(EDGES, repeat=4) if sc(h)) == 0

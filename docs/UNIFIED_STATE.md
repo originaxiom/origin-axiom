@@ -150,6 +150,13 @@ This is the substance of "unifying," and it is **cross-method convergence**, not
    equal/conjugate over $\mathbb{Z}$ to $M_g$**; the two programs meet at the **shared canonical object** (charpoly +
    signature + $\mathbb{Q}$-conjugacy class), not at a common integer lattice point. The honest unification is at the
    canonical-object level; "the same integer matrix two ways" would overstate it.
+   **Decisive scope (the source-chat verdict, B156):** the convergence is on the *object*, **not** a mechanism. The
+   two strict-full shears $A=S_{03}$ and $C=S_{23}$ **commute** ($E_{03}E_{23}=E_{23}E_{03}=0\Rightarrow AC=CA$), so the
+   map $R\mapsto A,\ L\mapsto C$ **cannot** represent the *noncommutative* trace-map monodromy — and indeed the Ω
+   R-cone endpoint entropy is $0$ (order-independent). So **Ω is the abelianized / non-collapse shadow of the tower,
+   not its body.** The open test is the **Ω↔tower bridge audit** (never run): do the exact $R,L$ relations get realized
+   by any Ω generators? does $\kappa$ pull back to $\delta$ or $\det G$? does $\chi_\Omega$ specialize to the
+   Dickson/Lucas factors? If those fail, Ω is **standalone**. **[open]**
 2. **The same golden/Fibonacci growth.** A's trace map *is* the Fibonacci–Hamiltonian ($\kappa=2+\lambda^2$); B's
    admissible block counts *are* the Fibonacci numbers (growth $\varphi$). Same arithmetic heartbeat.
    ([confirm-with-Ω-handoff] on the B-side count.)
@@ -185,10 +192,12 @@ faithfully.
 
 1. **External specialist** — a single qualified human (character varieties / higher Teichmüller / aperiodic order).
    Unmet; the decisive step.
-2. **Finish the B206 ≅ Ω₄ identification** — V148 settled the canonical-object level (shared $\mathbb{Q}$-conjugacy
-   class + signature; integer Ω reaches the charpoly only at half-integer $m=-\tfrac12$). What remains is the in-repo
-   re-derivation of the Ω **enumeration** side (counts, TC-2, history entropy) under governance, so the convergence is
-   double-checked, not handoff-trusted.
+2. **The Ω↔tower bridge audit** (the genuine unification frontier; never run) — do the exact $R,L$ trace-map
+   relations get realized by any Ω generators? does $\kappa$ pull back to $\delta$/$\det G$? does $\chi_\Omega$
+   specialize to the Dickson/Lucas factors? Since $A,C$ **commute**, a faithful (noncommutative) realization is
+   already known *not* to exist, so this audit decides whether Ω is even an abelianized image or fully standalone.
+   (The B206 ≅ Ω₄ canonical-object identification + the in-repo re-derivation of the Ω side — counts L4–L9, TC-1/TC-2,
+   history entropy — are **done**: V148/V149/V150, `frontier/B155`+`B156`.)
 3. **Uniform-$n$ / metallic A-polynomial** ($k=4-m(o-3)$) — Branch A's deep prize ($n=5$ open).
 4. **Endpoint entropy** and a **forced (non-arbitrary) boundary/asymmetry rule** — Branch B's deep prize.
 5. **Off-slice 3-dim component equations** (Branch A) and the **uv-route growth estimate** (Branch B).
