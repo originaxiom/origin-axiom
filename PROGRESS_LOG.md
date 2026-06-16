@@ -4016,9 +4016,11 @@ against the banked B156, and everything new was **re-derived here** (verify-don'
   `R↦A, L↦C` cannot represent the noncommutative trace-map monodromy (and the R-cone endpoint entropy is 0,
   order-independent). The **Ω↔tower bridge audit** (κ↦δ/det G? χ_Ω↦Dickson/Lucas? do R,L relations realize?) was
   proposed but **never run** — recorded as the open frontier (`docs/OPEN_LEADS.md` L18, `docs/UNIFIED_STATE.md`).
-- **Counts:** the independent heavy re-run re-confirmed **L8=105312, L9=521904** (matching the artifacts); L10
-  in progress. Updated B156 FINDINGS + `docs/UNIFIED_STATE.md` + PC18 + ledger **V150**; test lock now 8 checks.
-  Next: append L10 when the counter lands, then **Phase 2** (derive `k=4−m(o−3)`).
+- **Counts:** the independent heavy re-run (state-propagation, fresh code) re-confirmed the **full strict-full
+  tower L4–L10 = 96/672/3840/20928/105312/521904/2488080** (endpoint matrices 36→65472; L10 took ~3.5 h,
+  112200 distinct metric-solves), matching the handoff artifacts at **every** level — **Phase 1 closed**.
+  Updated B156 FINDINGS + `docs/UNIFIED_STATE.md` + PC18 + ledger **V150**; test lock 8 checks. **Phase 2**
+  (derive `k=4−m(o−3)`) launched concurrently.
 
 ---
 

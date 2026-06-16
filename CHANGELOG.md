@@ -20,8 +20,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   the rigorous core of "non-cancellation"); **(3)** the decisive scope — **Ω is the abelianized shadow of the
   trace-map tower, not its mechanism**: the strict-full shears `A=S₀₃, C=S₂₃` **commute**, so `R↦A, L↦C` cannot
   represent the noncommutative monodromy; the Ω↔tower **bridge audit** (κ↦δ/det G? χ_Ω↦Dickson?) is the open
-  frontier (`docs/OPEN_LEADS.md` L18), never run; **(4)** the independent heavy re-run re-confirmed **L8=105312,
-  L9=521904** (L10 in progress). Updated `frontier/B156`, `docs/UNIFIED_STATE.md`, PC18. MATH tier; firewall
+  frontier (`docs/OPEN_LEADS.md` L18), never run; **(4)** the independent heavy re-run re-confirmed the **full
+  strict-full count tower L4–L10 = 96/672/3840/20928/105312/521904/2488080** (state-propagation, fresh code),
+  matching the handoff artifacts at every level — Phase 1 closed. Updated `frontier/B156`,
+  `docs/UNIFIED_STATE.md`, PC18. MATH tier; firewall
   intact; nothing to `CLAIMS.md`.
 - **B156 — the Ω strict-full cone: full integration of the cross-session Ω program, Phase 1 (2026-06-16; V149).**
   Banks the **Ω-specific** content (the SL(4) lift of P6) onto current main, with **all four Ω theorems

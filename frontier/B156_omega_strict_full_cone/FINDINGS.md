@@ -3,7 +3,8 @@
 **Date:** 2026-06-16. **Status:** six Ω theorems INDEPENDENTLY RE-DERIVED + adversarially verified — core R/G
 algebra [proved], TC-2 reciprocity [proved], Fibonacci block-count [exact], history-entropy=log 2 [proved],
 **TC-1** Ω₄ unique minimal seed [exact], **TC-4** orientation no-go [proved]; strict-full survivor counts
-L4–L9 re-confirmed by two independent enumerators ([exact]), L10 re-run in progress (see `## Counts`). Scope
+**L4–L10 fully re-confirmed** by an independent enumerator (L4–L7 by two methods), matching the handoff
+artifacts at every level (96…2488080) ([exact]). Scope
 sharpened by the source-chat cross-check: **Ω is the abelianized shadow of the trace-map tower, not its
 mechanism** (the strict-full shears commute — see `## Scope`). Standalone linear algebra / combinatorics /
 symbolic dynamics; **no Origin-core claim, no physics**; proven core P1–P16 untouched. Nothing promotes to
@@ -122,7 +123,13 @@ level 4..L. The recursion is `survivors_L = strict-full subset of (survivors_{L�
 | 7 | 20928 | 3240 | **[exact]** two methods |
 | 8 | 105312 | 9396 | **[exact]** re-run confirmed (independent state-propagation) |
 | 9 | 521904 | 25536 | **[exact]** re-run confirmed (independent state-propagation) |
-| 10 | 2488080 | 65472 | [artifact; independent re-run in progress] |
+| 10 | 2488080 | 65472 | **[exact]** re-run confirmed (independent state-propagation, 112200 distinct metric-solves) |
+
+> **Re-run complete (2026-06-16).** The independent counter (`independent_recount.py`, fresh code, exact
+> per-matrix `det`-of-generic-form test, reciprocity shortcut justified by TC-2) re-derived **all of L4–L10**
+> by state-propagation and matched the handoff artifacts at **every** level (96, 672, 3840, 20928, 105312,
+> 521904, 2488080; endpoint matrices 36→65472). L4–L7 were additionally re-confirmed by the no-shortcut exact
+> `det` run. So the survivor-count tower is independently verified end-to-end.
 
 > **verify-don't-trust note.** The handoff's *own* brute-force script (`omega_reproduce_l4_l6.py`) attributes
 > strict-full status **per char-poly class representative**, which **over-counts** (it reports L5=3120, L6=57792
@@ -167,8 +174,8 @@ certify).
 (21 checks), `opus_wall_entropy_verify.py` (entropy = log 2 + the survival mechanism), `tc1_tc4_verify.py`
 (TC-1 minimal-seed uniqueness + TC-4 orientation no-go). The survivor counts:
 `independent_recount.py --max-level 7` (L4–L7, exact, no shortcut) and
-`independent_recount.py --recip-shortcut --max-level 10` (the L8–L10 re-run; L8/L9 confirmed = 105312/521904,
-L10 in progress).
+`independent_recount.py --recip-shortcut --max-level 10` (the full L4–L10 re-run; all levels confirmed =
+96/672/3840/20928/105312/521904/2488080).
 
 ## Provenance note (the source reasoning)
 
