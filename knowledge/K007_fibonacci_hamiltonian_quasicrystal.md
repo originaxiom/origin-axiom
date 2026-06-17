@@ -54,7 +54,10 @@ object as the trace map — a real, citable connection. It is **not** a bridge t
 data" instinct is relocated to the honest, tooling-gated question of `S027` (does the metallic structure fingerprint
 the quantum invariants?), not to any spectral identification.
 
-**Anchors:** B107/V94 (the KKT identification, POSTULATED/firewalled); `../speculations/S007` (mass gaps, firewalled),
+**Anchors:** B107/V94 (the KKT identification, POSTULATED/firewalled); **B160/V154** (a fresh cross-session worker
+independently re-derived the bridge from scratch and converged on the same firewall — *corroboration, not new
+physics*; pins `κ=tr[A,B]=2+λ²` to the explicit transfer matrices via `z=xy−2`, adds an independent **bronze m=3**
+quasicrystal, and the **κ-sweep** lead to the figure-eight hyperbolic point `κ=−2` ⟺ `λ=2i`); `../speculations/S007` (mass gaps, firewalled),
 `S023` (distinct metallic quasicrystals, TESTED-POSITIVE), `S027` (the metallic-quantum-modular question, DORMANT).
 External: Kohmoto–Kadanoff–Tang (1983); Sütő (1987, the invariant + Cantor spectrum); Damanik–Gorodetski (the
 Fibonacci Hamiltonian, hyperbolicity); Bellissard (gap labeling).

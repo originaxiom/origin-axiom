@@ -9,6 +9,24 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B160 — the metallic-quasicrystal bridge: independent rediscovery + bronze + the κ-sweep lead (2026-06-17; V154).**
+  A fresh cross-session worker (no repo access) re-derived `κ = tr[A,B] = 2+λ²` → the Fibonacci-Hamiltonian
+  quasicrystal → zero-measure Cantor spectrum, and converged on the **identical bridge-not-crossing firewall**.
+  Verify-don't-trust finding: the **entire bridge is already banked** (B107/A, B148/V137, K007, K010, B124, B127,
+  S023) — **corroboration, not new physics**. Verified increments: the explicit transfer-matrix proof
+  (`z=xy−2 ⟹ tr[A,B]=2+λ²`, E-independent, symbolic); an **independent bronze (m=3)** trace map (Cayley–Hamilton)
+  conserving the Fricke invariant with a zero-measure Cantor spectrum (ratio ~0.719); and the **κ-sweep** lead —
+  one foliated monodromy from the quasicrystal (κ>2, K007) to the **figure-eight hyperbolic point** (κ=−2 ⟺ λ=2i,
+  parabolic commutator, B67), the κ<2 middle left **OPEN**. Emergent/condensed-matter math, **bridge not crossing**;
+  nothing to `CLAIMS.md`. Reproducers + `tests/test_b160_quasicrystal_bridge.py` (5 passed).
+- **B159 — the Ω strict-full class-graded DAG L4–L10, independently verified (2026-06-17; V153).**
+  A cross-session "gate2 class DAG export" (the charpoly-class–graded transition graph of the Ω strict-full cone,
+  L4–L10) ingested and **independently verified**: full L4–L10 conservation/structure (classes 1,2,6,18,49,115,283;
+  histories 96→2 488 080; matrices 36→65 472), **every one of the 474 classes reciprocal** (TC-2 cone-wide), the
+  L4 **seed = Ω₄ = B155**, and a **from-scratch re-enumeration** reproducing L4–L7 class-by-class and edge-by-edge.
+  Metallic spectra (figure-eight T=3, silver T=6, bronze T=11) appear as reciprocal factors. The Myrheim–Meyer /
+  causal-set "Gate-2" reading is **firewalled** (the export itself disclaims a manifold verdict). Reproducer +
+  `tests/test_b159_omega_class_dag.py` (6 passed).
 - **B158 — the Ω↔tower bridge audit: a spectral-only correspondence (2026-06-17; V152).**
   Resolves the open lead **L18**. The Ω charpoly factors into reciprocal quadratics with the exact relation
   **`(p−2)(q−2) = −2(m+1)`**, and **every metallic bundle-monodromy charpoly `x²−T_M x+1`** (`T_M=M²+2` =

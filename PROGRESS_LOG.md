@@ -4082,5 +4082,63 @@ OPEN_LEADS L18 → resolved, ledger **V152**, 3-test lock. MATH tier; firewall i
 
 ---
 
+## 2026-06-17 — B159: the Ω strict-full class-graded DAG (L4–L10), independently verified (V153)
+
+A cross-session "gate2 class DAG export" — the charpoly-class–graded transition graph of the Ω strict-full cone
+across depths L4–L10 (nodes CSV, edges CSV, a 1.16 MB transition-DAG JSON) — was ingested to `audit/omega_gate2/`
+(gitignored) and **independently verified** before banking.
+
+- **PART 1 [exact, full L4–L10]** on the class CSVs: level counts (classes **1, 2, 6, 18, 49, 115, 283**;
+  histories 96 → 2 488 080; matrices 36 → 65 472) all match; **every one of the 474 classes has a palindromic
+  charpoly** (TC-2 confirmed *across the whole cone*, not just the `R_{a,m}` family); the **L4 seed class
+  `(4,5,4)` = `(x²−3x+1)(x²−x+1)` = Ω₄ = B155** roots the entire tree; incoming edge history-mass per class =
+  class `history_count`; retained mass = target, candidate = source × 12 (the 12 unit shears).
+- **PART 2 [exact, L4–L7]** — a **from-scratch re-enumeration** with our own counter (`frontier/B156`
+  `independent_recount.py`, exact det-based full-metric test, never touched the export pipeline) reproduced the
+  class counts, the per-class `(history, matrix)` counts, **and** every edge history-multiplicity (2, 9, 36
+  edges) **exactly**.
+- **Metallic spectral image (B158):** the bundle-monodromy traces `T_M=M²+2` appear as reciprocal factors —
+  `T₁=3` (figure-eight) in 9 classes incl. the seed, `T₂=6` (silver) in 12, **`T₃=11` (bronze) at L10**.
+
+Banked `frontier/B159_omega_class_dag/` (FINDINGS + CSVs + `verify_gate2_dag.py`; full JSON SHA256 recorded,
+retained in `audit/`), ledger **V153**, 6-test lock. The Myrheim–Meyer / causal-set "Gate-2 poset" reading is
+**firewalled** (`docs/OPEN_LEADS.md` L21; the export itself disclaims a manifold verdict). MATH tier; nothing to
+`CLAIMS.md`.
+
+---
+
+## 2026-06-17 — B160: the metallic-quasicrystal bridge — independent rediscovery + bronze + the κ-sweep lead (V154)
+
+A fresh cross-session worker (a web session, **no repo access**) re-derived the project's quasicrystal bridge
+**`κ = tr[A,B] = 2 + λ²` → Fibonacci-Hamiltonian quasicrystal → zero-measure Cantor spectrum** (Sütő 1987) from
+scratch, under explicit "deliver physics" pressure, and **converged on the identical bridge-not-crossing
+firewall** ("the crossing stayed shut").
+
+- **Verify-don't-trust finding:** the **entire bridge is already banked** — B107/A (the KKT identification,
+  verified m=1..4), B148/V137 (`κ=4·I_FV+2` pinned), K007, K010, B124, B127, S023. So this is **corroboration,
+  not new physics** (two independent AI sessions, no shared context, same bridge + same firewall; the worker's
+  "crossing stayed shut" = B107/B's banked headline negative — the SL(n) tower is one golden scale `±φᵏ`, not a
+  mass spectrum). This is the verify-don't-trust payoff working against an *over*-claim (a rediscovery presented
+  as a breakthrough), not only against under-claims.
+- **Verified increments (our own from-scratch scripts):** the generic Fricke identity
+  `tr[A,B]=x²+y²+z²−xyz−2` (so `κ` *is* the punctured-torus commutator invariant) and, for the explicit transfer
+  matrices `A=[[E−λ,−1],[1,0]], B=[[E,−1],[1,0]]`, the collapse `z=tr(AB)=xy−2 ⟹ tr[A,B]=2+λ²`, **independent of
+  E** — pinning B107's POSTULATED identification to an exact transfer-matrix identity. **[symbolic]**
+- **New data point — independent bronze (m=3):** Cayley–Hamilton trace map
+  `(a,b,c)↦(b, (b²−1)c−ab, (b²−1)(bc−a)−bc)` matches the matrices and conserves the Fricke invariant
+  symbolically; word ratio → `(3+√13)/2` (bronze mean); spectrum measure → 0 at its own rate **~0.719** (golden
+  0.759, silver 0.779) = zero-measure Cantor (Damanik–Killip–Lenz). **[symbolic + numeric]**
+- **The genuine lead — the κ-sweep:** one foliated monodromy interpolates `κ>2` (quasicrystal, K007) → `κ=2`
+  (periodic) → `κ<2` (non-Hermitian / PT) → **`κ=−2` (the figure-eight complete hyperbolic structure, B67)**;
+  verified anchor: `κ=2+λ²=−2 ⟺ λ=2i`, and the commutator becomes a genuine **parabolic** (trace −2, single
+  Jordan block `(C+I)²=0`, *not* central −I) = the cusp. The `κ<2` middle (Cantor persistence in ℂ; geometric
+  encoding at κ=−2) is **OPEN/exploratory** (`docs/OPEN_LEADS.md` L19/L20), **not** banked as a finding.
+
+Banked `frontier/B160_quasicrystal_bridge_corroboration/` (FINDINGS + 6 reproducers), ledger **V154**, 5-test
+lock; K007/K010 anchors updated to note the independent rediscovery + the new κ-sweep increment. **Emergent /
+condensed-matter mathematics, a bridge NOT a crossing**; firewall intact; nothing to `CLAIMS.md`.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
