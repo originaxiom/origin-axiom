@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B161 — the cancellation-locus stratification: the non-cancellation obstruction, as math (2026-06-18; V155).**
+  Math infrastructure for the spine `speculations/S034`. Reframes the dead "does κ source a Λ value?" into "is exact
+  cancellation structurally non-generic?". **R1 [exact]:** the cancellation locus κ=2 (commuting/abelian/periodic) is
+  **codim-1 / measure-zero** — `{κ=2}` a single hypersurface; κ **free** on the φ_m fixed locus (κ-elimination empty,
+  re-derived m=2,4, *not* `sp.solve`); commuting pairs measure-zero (null-test, generic to non-abelian dynamics, the
+  metallic family not special); MB12 abelian control κ≡2 (falsifiable). **R2 [exact]+[num]+[proved]:** cancellation is
+  the **trivial** fiber (κ=2 ⟺ λ=0 = free Laplacian, full band [−2,2] measure 4), non-cancellation **fractures** it
+  (κ>2 measure 4.000→1.817→0.706→0.097; MB6 control); Ω-cone analogue B156 entropy 0 vs log 2. **Reconciliation:**
+  *the value is free* (B130) vs *the zero is non-generic* (here) — **refutes fine-tuning, NOT "forced/empty"** (κ=2
+  attained). Pure MATH, firewalled (physics reading in S034 only); nothing to `CLAIMS.md`. `tests/test_b161_*` (5).
+  Formalizes `OPEN_LEADS` L17.
 - **B160 — the metallic-quasicrystal bridge: independent rediscovery + bronze + the κ-sweep lead (2026-06-17; V154).**
   A fresh cross-session worker (no repo access) re-derived `κ = tr[A,B] = 2+λ²` → the Fibonacci-Hamiltonian
   quasicrystal → zero-measure Cantor spectrum, and converged on the **identical bridge-not-crossing firewall**.
