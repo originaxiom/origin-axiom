@@ -4055,5 +4055,32 @@ which honestly resolved to a refutation + the order-determined structure + new e
 
 ---
 
+## 2026-06-17 — B158: the Ω↔tower bridge audit (spectral-only); resolves L18
+
+With the post-handoff plan closed, pushed into the open lead it left — the **Ω↔tower bridge audit** (L18): is
+Ω connected to the metallic trace-map tower as a *mechanism*, only spectrally, or standalone? Three exact
+checks (sympy, re-run in the main loop):
+
+- **Result 1 [exact].** `χ_Ω` factors into reciprocal quadratics `(x²−px+1)(x²−qx+1)` with the clean identity
+  **`(p−2)(q−2) = −2(m+1)`** (a=p+q) — the Ω wall parameter `m` is the shifted product of the factor-traces.
+- **Result 2 [exact].** Every metallic bundle-monodromy charpoly `x²−T_M x+1` (`T_M=M²+2` = 3,6,11,18,…, the
+  trace of `φ_M=R^M L^M`'s abelianization) is a reciprocal factor of the integer Ω family **on the live cone**
+  (signature (1,3)), paired with a phase — verified by instantiating the explicit `R_{a,m}`: figure-eight
+  (T=3)×Φ₆ = `(4,−½)` = **Ω₄=B155**; **silver (T=6)×Φ₆ = `R_{7,1}`** (integer, the silver analogue);
+  M=4 = `R_{19,7}`; M=6 = `R_{39,17}`; fig×Φ₄ = `R_{3,0}`; silver×Φ₄ = `R_{6,3}`.
+- **Result 3 [structural].** But `A=S₀₃, C=S₂₃` **commute** ⟹ abelian image only; no faithful representation of
+  the noncommutative monodromy, and no functional `κ↦δ` pullback (cubic Fricke vs linear wall coordinate).
+
+**Verdict:** Ω is the **abelianized *spectral* image** of the metallic tower — the full monodromy charpoly
+sequence is realized as Ω reciprocal factors at integer live-cone lattice points (Result 2), governed by the
+wall relation (Result 1) — but **not a faithful mechanism** (Result 3). This sharpens B156's qualitative
+"abelianized shadow" to a precise positive statement and closes L18 at the spectral level. **Honest scope:** a
+2-parameter reciprocal quartic *can* hit any (monodromy, phase) pair, so the content is the clean wall relation
++ the integer-live-cone realizability + the canonical fig-8/silver anchors, not a deep dynamical bridge (which
+the commuting obstruction rules out). Banked `frontier/B158_omega_tower_bridge/` (FINDINGS + reproducer),
+OPEN_LEADS L18 → resolved, ledger **V152**, 3-test lock. MATH tier; firewall intact; nothing to `CLAIMS.md`.
+
+---
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
