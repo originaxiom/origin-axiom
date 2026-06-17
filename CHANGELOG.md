@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B162 — the κ-sweep: κ=2 is the unique cancellation↔non-cancellation wall (2026-06-18; V156).**
+  The geometric face of the non-cancellation obstruction (S034/B161). The figure-eight monodromy foliated over
+  `κ=2+λ²` has a spectrum that is **positive-measure only at κ=2** (the full AC band, `|σ|=4.000` — the
+  trivial/cancellation vacuum) and **zero-measure everywhere else**: a real **Cantor** set for κ>2
+  (4.000→1.817→0.706→0.097) and a **thin** complex set for κ<2 (2D area→0; lift-off `max|Im E|≈0.91μ`). Method =
+  self-validated finite-chain diagonalization (V1 Hermitian sanity, V2 bulk BC-robustness, V3 size convergence,
+  V4 chiral `E↔−Ē`). κ=−2 endpoint = figure-eight cusp (λ=2i, parabolic commutator, symbolic). **OPEN** (no
+  ground truth off the real axis): whether the κ<2 thin set is a true Cantor set, and whether κ=−2 encodes the
+  hyperbolic geometry. A **mathematical bridge, not a crossing** (both ends established — Sütő, Thurston);
+  nothing to `CLAIMS.md`. `tests/test_b162_*` (3). Promotes `OPEN_LEADS` L19.
 - **B161 — the cancellation-locus stratification: the non-cancellation obstruction, as math (2026-06-18; V155).**
   Math infrastructure for the spine `speculations/S034`. Reframes the dead "does κ source a Λ value?" into "is exact
   cancellation structurally non-generic?". **R1 [exact]:** the cancellation locus κ=2 (commuting/abelian/periodic) is

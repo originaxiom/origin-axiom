@@ -87,6 +87,15 @@ widest gap as a symmetry and terminates at the firewall — a real bridge and a 
 sharper *structural* reading of the wall — a conserved/topological invariant cannot run, so cannot source a scale — is
 recorded **POSTULATED**, proposed in review and not yet verified, in `../docs/STRATEGIC_SYNTHESIS.md` §8a.)
 
+**Coda — the obstruction, made precise (2026-06-18).** The non-cancellation principle now has a sharp
+mathematical form (`../frontier/B161`, `../frontier/B162`; firewalled reading `../speculations/S034`): the
+cancellation locus `κ=2` is **non-generic** (codimension-1; `κ` free, B130) and **trivial** when attained (the
+full AC band — the periodic vacuum), while non-cancellation `κ>2` is the structurally-typical, zero-measure
+**residue** (the Cantor dust); `κ=2` is the *unique* fiber with positive spectral measure. The honest statement
+— *the value is free* (B130), *the zero is non-generic* — **refutes fine-tuning without claiming "forced":**
+non-cancellation needs no tuning to occur, yet cancellation is attained, not forbidden. The firewall is
+unchanged — character-variety / spectral mathematics, no `Λ` value, no scale.
+
 Related: `P000` (not-nothing as the family), `P003` (dead-ends as boundaries), `P006` (two-headed time — generic-form
 / arithmetic-content), `P007` (the maximal probe; the SSB fifth direction, the no-forced-choice seventh), `../knowledge/K010` (the naming), `K011`
 (the chirality recursion), `K013` (no forced choice / the moduli-space reading), `K014` (choice from heterogeneity), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic

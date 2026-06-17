@@ -2,7 +2,8 @@
 
 **Status: `SUPPORTED` (the obstruction *direction*: cancellation is non-generic) + a `[LEAP]` physics reading.**
 Firewalled (`GOVERNANCE.md`); not a claim; nothing promotes to `../CLAIMS.md`; the physics chapter stays CLOSED;
-P1–P16 untouched.
+P1–P16 untouched. **Math infrastructure now banked: `../frontier/B161` (V155, the stratification) +
+`../frontier/B162` (V156, the κ-sweep wall).**
 
 This is the **reframe of a dead question**. The old form — *"does `κ` source a physical scale / a value of `Λ`?"*
 — is **DEAD** (S014 cosmological-constant value formula, null-hypothesis; B151/L15, `κ` is scale-free). The live
@@ -65,7 +66,8 @@ The **κ-sweep** makes the obstruction geometric: the figure-eight/golden monodr
 continuous band `[−2,2]`. So `κ=2` is the *unique wall* between cancellation (periodic band) and the
 non-cancellation Cantor residue. Method (finite-chain diagonalization) is self-validated (Hermitian sanity,
 bulk BC-robustness, size-convergence, chiral symmetry all pass):
-`audit/quasicrystal_handoff/kappa_sweep_explore.py`. **Frontier promotion: B162.** *Open / not claimed:* whether
+`audit/quasicrystal_handoff/kappa_sweep_explore.py`. **Now banked: `../frontier/B162` (V156)** — κ=2 is the
+*unique* fiber with positive spectral measure (`|σ|=4.000`, the full band), every other κ zero-measure. *Open / not claimed:* whether
 the Cantor structure persists into `κ<2` as a *theorem* (no ground truth off the real axis), and whether the
 `κ=−2` complex spectrum *encodes* the figure-eight hyperbolic geometry.
 
