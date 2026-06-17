@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B158 — the Ω↔tower bridge audit: a spectral-only correspondence (2026-06-17; V152).**
+  Resolves the open lead **L18**. The Ω charpoly factors into reciprocal quadratics with the exact relation
+  **`(p−2)(q−2) = −2(m+1)`**, and **every metallic bundle-monodromy charpoly `x²−T_M x+1`** (`T_M=M²+2` =
+  3,6,11,18,…) is realized as a reciprocal factor of the integer Ω family **on the live cone** (signature
+  (1,3)) — the figure-eight (T=3)×Φ₆ is Ω₄=B155, the **silver (T=6)×Φ₆ is the integer point `R_{7,1}`**.
+  **But** the strict-full shears commute (`A·C=C·A`), so there is **no faithful mechanism** and no functional
+  `κ↦δ` pullback. **Verdict:** Ω is the **abelianized *spectral* image** of the metallic tower (monodromy
+  spectra realized as Ω reciprocal factors at lattice points), not its dynamics — sharpening B156's qualitative
+  "abelianized shadow" to a precise positive statement. MATH tier; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B157 — the metallic degree=rank exponent: `k=4−m(o−3)` REFUTED; order-not-rank survives (2026-06-17; V151).**
   Phase 2 (derive the "metallic A-polynomial" exponent), a two-route workflow (B67 eliminant + B89 ideal
   algebra) with adversarial synthesis — the adversary (high confidence) couldn't break it and strengthened the
