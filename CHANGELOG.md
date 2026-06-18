@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B166 — SL(n) higher-rank aperiodic operators (2026-06-18; V163; P2b, L20).** Pushes the tower past SL(2).
+  **Q0 [exact]:** the symplectic obstruction (V29) — odd n has no nondegenerate antisymmetric form, so SL(n≥3) is
+  **not** a self-adjoint operator's transfer group (Sp=SL only at n=2) ⟹ **intrinsically non-Hermitian**; the
+  SL(2)↔Fibonacci quantum spectrum is the n=2 coincidence. **Q1 [recorded negative]:** a naive SL(3) metallic
+  cocycle shows **no clean Cantor thinning** (fib fraction ≈ periodic) — SL(2)'s Cantor structure does **not**
+  trivially transfer; genuinely open. **Q2 [cited]:** one golden tower scale `±φᵏ` (B107/B60). **Verdict:**
+  non-Hermitian + one scale + structure-open → **NEEDS-SPECIALIST** (no higher-rank ground truth). Emergent/
+  condensed-matter at most; nothing to `CLAIMS.md`. L20 → CHARACTERIZED. `tests/test_b166_*` (3).
 - **B165 — toward the off-axis (κ<2) Cantor theorem (2026-06-18; V162; P2a).** Strengthens B163. **D1:** B163's
   MST-max-gap diagnostic extended to **golden/silver/bronze** — the κ<2 Cantor structure is **seed-robust**
   (persistent gaps 0.21/0.20/0.18 vs the κ=2 band →0). **Conditional theorem:** the κ<2 spectrum = the
