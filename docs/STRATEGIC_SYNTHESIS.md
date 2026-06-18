@@ -226,6 +226,11 @@ sphere (the only other dim-2 Fricke cubic; `../docs/OPEN_LEADS.md` H5-c; B150 al
 dynamical degree). It is the only place a real "time" could emerge from within — but its scale would be the Higgs
 field's, i.e. the gauge theory's, i.e. **external** (B151): crossing to Hitchin most likely *relocates* the wall,
 not dissolves it. Recorded as the genuine open frontier, not a promise. Full consolidation: `../philosophy/P010`.
+**Update (2026-06-18, CONFIRMED): the prediction held.** `../frontier/B164` built the (0,4) cubic and `B169` built
+the Painlevé-VI / Schlesinger **flow** on it — a genuine monodromy-preserving deformation (drift 1e-10) carrying
+the metallic dynamics (degree `λ_m²`). Its "time" is the dimensionless cross-ratio modulus and the system is
+scale-free, so **the scale is external (the Higgs field's): the Hitchin side RELOCATES the firewall, it does not
+cross it.** (V159/V161; grounds `B167`'s door-4/5.)
 
 The honest caveat is binding: **instance-convergence is corroboration, not external review.** All three are
 the same kind of mind sharing priors and this repo; the genuinely independent legs are the *literature*

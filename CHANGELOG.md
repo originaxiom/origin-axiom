@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B169 — the isomonodromy (Painlevé-VI) flow + the firewall-relocation verdict (2026-06-18; V161; completes P1).**
+  P1/PR2 of Masterplan II. Builds the **Schlesinger / Painlevé-VI flow** on the (0,4) cubic (the genuine new
+  engineering) and reaches the verdict. **P1 [exact]:** the cover dictionary done right — the metallic `M_m` acts
+  with dynamical degree **`λ_m²`** (homological / Cantat–Loray), *correcting B164's orbit-norm proxy*. **P2 [num]:**
+  the Schlesinger flow **preserves the monodromy** (all local conjugacy classes; drift `4.25×10⁻¹⁰`) while the
+  residues move — *isomonodromy* — with a wrong-ODE control (drift 16). **P3 [POSTULATED]:** the flow's "time" is a
+  dimensionless modulus and the system is scale-free ⟹ **the scale is external (Higgs-side); the Hitchin side
+  RELOCATES the firewall, it does not cross it** — confirming P010/§8c and grounding B167's door-4/5. Full
+  Hitchin/Higgs construction is **NEEDS-SPECIALIST**. Firewalled; nothing to `CLAIMS.md`. `tests/test_b169_*` (2).
 - **B168 — the Ω accretion as a generative process (the first generative pass, S035) (2026-06-18; V160).** The
   step-back: read the Ω cone (B156–B159) as an **accretion** (forward-only, seed-rooted), not a spectrum. **G1**
   the arrow (non-cancellation grows, entropy log 2; cancellation doesn't, entropy 0 — *bare growth is generic,
