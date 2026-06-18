@@ -39,7 +39,11 @@ perfectly reversible, `P006`).
 - **N1 — the scale wall probably *relocates*, not dissolves.** Counting is dimensionless. An emergent scale from
   accretion needs a *unit of accretion* (a "lattice spacing"), which is external — unless the **growth-rate
   itself is the only scale** (a relational/Machian reading: everything measured in units of the unfolding). That
-  last step is a further `[LEAP]`, not established.
+  last step is a further `[LEAP]` — now **ASSESSED** (`B170`/V164): it is **undecidable from within** (Machian and
+  external readings give the same dimensionless math) and its only predictive form is **value-matching**, which is
+  **dead** (the program's φ²/metallic/log 2 numbers match observed constants no better than a random base — the
+  S014 lane, confirmed with a null control). So the leap **reinterprets** the wall (the honest philosophical face —
+  a relational universe has only ratios), it does **not dissolve** it. POSTULATED; value-matching forbidden.
 - **N2 — the door-map did not test the ensemble.** `B167` closed scale-from-a-single-conserved-invariant. It did
   **not** address **scale-from-the-ensemble** (large-N / large-deviation / emergent-thermodynamic). That is the
   one *genuinely different* scale-door — and it is exactly the **causal-set "spacetime from counting"** door,
@@ -75,7 +79,8 @@ its boldest form (emergent spacetime) is firewalled. A direction worth walking *
 |---|---|---|
 | study **behaviour**, not invariants | the Ω accretion DAG as a generative process (forward arrow, log 2, onset) | `B156`–`B159` banked *spectrally*; generative reading **unrun** |
 | "Big Bang" = **onset** from the minimal seed | TC-1 (Ω₄ unique minimal seed) as the first rung; large-deviation onset | TC-1 banked; the onset reading **unrun** |
-| scale from the **ensemble**, not `κ` | does large-N counting / accretion-rate yield an emergent scale (not via `κ`)? | **OPEN** — the door `B167` did not address; **firewalled** (causal-set, L21) |
+| scale from the **ensemble**, not `κ` | does large-N counting / accretion-rate yield an emergent scale (not via `κ`)? | **RUN** (`B168`/V160): real non-i.i.d. accretion, but every rate **dimensionless** ⇒ no ensemble scale (wall relocates, 3rd mode); causal-set dimension stays **firewalled** (L21) |
+| growth-rate is the only ("Machian") scale | is "external" vacuous in a relational universe ⇒ does the wall dissolve? | **ASSESSED** (`B170`/V164): undecidable from within + only-testable-form is value-matching (DEAD, S014) ⇒ reinterprets, does **not** dissolve |
 | **interaction** generates selection | iterated multi-seed composition → forced structure at large N | `B131`/`K014` banked (one fork); iterated/large-N **unrun** |
 | "real but not special" | null-test: accretion arrow generic to any growing DAG? | **must run**; expect generic (like `B167`) |
 | "Λ / masses / initial condition from invariants" | — | **DEAD** (engineer-the-Big-Bang; `B167`, S014) — *not* re-walked |
@@ -83,5 +88,6 @@ its boldest form (emergent spacetime) is firewalled. A direction worth walking *
 Related: `../philosophy/P001` (architecture not furniture), `P004` (interaction born), `P006` (the reversible
 trace map vs the accretion arrow), `P008` (non-cancellation), `P010` (the category root), `S034` (the
 non-cancellation obstruction), `../story/12_what_we_learned.md`; math anchors `B131`,`B156`–`B159`,`B164`,`B167`,
-`K014`; the firewalled causal-set hook `OPEN_LEADS` L21. External: causal-set theory / Myrheim–Meyer
-(the ensemble-scale door, firewalled); large-deviation theory (the generative-rate language).
+`B168` (the generative pass run), `B170` (the Machian leap assessed), `K014`,`K018`; the firewalled causal-set hook
+`OPEN_LEADS` L21. External: causal-set theory / Myrheim–Meyer (the ensemble-scale door, firewalled);
+large-deviation theory (the generative-rate language); Machian relationalism / Barbour (the leap of N1).
