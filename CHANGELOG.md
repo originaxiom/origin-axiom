@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B174 — the GL(2,ℤ) gluing-map landscape (2026-06-18; V168; H5).** The cusp-gluing lane — the
+  **character-variety companion** to the spectral multi-seed arc (B171–B173). Extends B131 (identity gluing) and
+  B134 (one swap) to the gluing-map landscape via the abelian peripheral trace ring `(p,q,r)` and the mapping-class
+  action. **Validation:** identity glue `(1,1)`→CONTINUUM, `(1,2)`→`{−4,−2}` (B131); swap fig-8 self-glue →
+  `p=f(f(p))` degree 16 (B134). **Landscape:** CONTINUUM only on the measure-zero curve-aligned locus
+  (identity/same-seed); **discrete for every nontrivial φ**, the fork size φ-dependent — **multiplies under swaps**
+  (S→16, ST→32) and grows slowly under twists (T→9, T²→10); finiteness = Kitano–Nozaki Bézout. **Cross-face
+  agreement:** same principle as B171–B173 — interaction of *distinct* units forces structure no single unit has
+  (spectral combination gap ↔ character-variety κ-fork). **H5 → CHARACTERIZED.** Scope: pairwise only (once-cusp);
+  large-N/multi-cusp + the all-φ theorem NEEDS-SPECIALIST. Emergent topology (K010); firewalled, nothing to
+  `CLAIMS.md`. `tests/test_b174_*` (3).
 - **B173 — the gap-labeling reduction, Phase 2 (2026-06-18; V167; multi-seed plan, L16).** Reduces B172's
   combination gap to the **gap-labeling theorem** (a citable consequence, not a new claim) and **confirms the L16
   rank formula**. For the 1D superposition operator the gap-label group is the **frequency module ℤ+ℤα_g+ℤα_s —
