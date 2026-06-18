@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B168 — the Ω accretion as a generative process (the first generative pass, S035) (2026-06-18; V160).** The
+  step-back: read the Ω cone (B156–B159) as an **accretion** (forward-only, seed-rooted), not a spectrum. **G1**
+  the arrow (non-cancellation grows, entropy log 2; cancellation doesn't, entropy 0 — *bare growth is generic,
+  MB12-honest; the asymmetry is the content*). **G2** emergent rates (retention `0.583→0.397`, decreasing +
+  decelerating). **G3** null-test: not i.i.d.-generic (the constraint tightens with depth); the limiting rate's
+  specialness is unresolved on 6 points (needs L≥11). **G4** every rate is **dimensionless ⟹ no ensemble scale —
+  the firewall RELOCATES** (3rd time, after B107/B151 and B167; S035 N1 confirmed). The generative reading is
+  *real* but the gain is understanding, not a crossing. Sub-branches flagged (limiting-rate / multi-seed /
+  firewalled causal-set dimension). Firewalled; nothing to `CLAIMS.md`. `tests/test_b168_*` (3).
 - **B164 — the 4-punctured-sphere Fricke cubic + the metallic monodromy (2026-06-18; V159).** P1/PR1 of Masterplan II
   (the Betti→Hitchin direction, H5-c). The only other dim-2 Fricke cubic besides the OPT seed is the (0,4) sphere —
   the **Painlevé-VI / class-S monodromy manifold**. Built: the **Jimbo–Fricke cubic** + its three **Vieta involutions**
