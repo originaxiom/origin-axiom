@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B171 — the heterogeneous metallic quasicrystal, Phase 0 (2026-06-18; V165; multi-seed plan, L16).** Opens the
+  multi-seed-interaction frontier in the **substitution / gap-labeling** lane (the spectral face of the κ↔spectrum
+  bridge, K010). Builds the woven two-frequency metallic Schrödinger operator + its IDS gap labels. **B2:** the woven
+  spectrum is **bilingual** — both pure rank-2 ladders (golden & silver `±1`) survive [credible]. **B3 [density
+  trap]:** the rank-3 label set is **dense** (chance-hit 1.0%→2.9%→5.8%→9.6%→20.3% for sum ≤1,2,3,4,6) ⟹ only
+  **small labels (sum ≤ 3)** are credible. **B4 [verification]:** the cross-session "first combination gap" IDS 0.611
+  is a **real, wide** gap (w 0.11) but its only match is the **large** label (3,−3) (sum 6, ~20% null) ⟹
+  **plausible-yet-UNVERIFIED**, not established. *Verify-don't-trust applied twice* — to the cross-session over-read
+  **and** to this probe's own first-draft "density artifact" over-claim (the gap is real; corrected to "real gap,
+  unverified label"). The rank-3 combination-gap question is **OPEN** (Phase 1: IDS-convergence + small-label hunt,
+  seed-robust). Emergent quasicrystal math (K007/K010 boundary); firewalled, nothing to `CLAIMS.md`. `tests/test_b171_*` (3).
 - **B170 — the relational/Machian scale leap, ASSESSED (2026-06-18; V164; closes S035's last `[LEAP]`).** Assesses
   whether "external" dissolves into "self-referential" — the Machian reading that a purely relational universe has
   only ratios, so the firewall would **dissolve** not relocate. **L1 [structural]:** **undecidable from within** —
