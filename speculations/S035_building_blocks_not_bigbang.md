@@ -89,14 +89,17 @@ its boldest form (emergent spacetime) is firewalled. A direction worth walking *
 | scale from the **ensemble**, not `κ` | does large-N counting / accretion-rate yield an emergent scale (not via `κ`)? | **RUN** (`B168`/V160): real non-i.i.d. accretion, but every rate **dimensionless** ⇒ no ensemble scale (wall relocates, 3rd mode); causal-set dimension stays **firewalled** (L21) |
 | growth-rate is the only ("Machian") scale | is "external" vacuous in a relational universe ⇒ does the wall dissolve? | **ASSESSED** (`B170`/V164): undecidable from within + only-testable-form is value-matching (DEAD, S014) ⇒ reinterprets, does **not** dissolve |
 | **interaction** generates structure | iterated multi-seed composition → structure at large N no single seed has | **RUN, spectral face** (`B171`–`B173`/V165–V167): weaving two *distinct* metallic blocks yields a genuine **interaction-born combination gap** (rank-3 gap-label, absent from either pure chain) — the spectral companion to `K014`'s character-variety `κ`-fork; emergent quasicrystal math (`K010`), value-matching forbidden. (Character-variety fork `B131`/`K014` banked; large-N cusp-gluing **unrun**.) |
+| the structure **maintains itself** (a *cell*, not a *crystal*) | does κ>2 order **starve** when the substitution flux stops (metabolism), or is it conserved/frozen? | **RUN** (`B177`/V171): a conservative active-chaotic **CRYSTAL/HORSESHOE, NOT a cell** — κ is **conserved** (cannot starve), the gaps **freeze** (held by structure not flux), the dynamics is **reversible** (no arrow); an active set exists (the horseshoe) but it is reversible chaos = *order that wanders*, not *order that maintains itself*. **Life relocates external** (K018 in the life register); metabolism/homeostasis/arrow must be **added**. "Heredity owned" = over-read (κ-conservation is a symmetry, not heredity). |
 | "real but not special" | null-test: accretion arrow generic to any growing DAG? | **must run**; expect generic (like `B167`) |
 | "Λ / masses / initial condition from invariants" | — | **DEAD** (engineer-the-Big-Bang; `B167`, S014) — *not* re-walked |
 
 Related: `../philosophy/P001` (architecture not furniture), `P004` (interaction born), `P006` (the reversible
 trace map vs the accretion arrow), `P008` (non-cancellation), `P010` (the category root), `S034` (the
 non-cancellation obstruction), `../story/12_what_we_learned.md`; math anchors `B131`,`B156`–`B159`,`B164`,`B167`,
-`B168` (the generative pass run), `B170` (the Machian leap assessed), **`B171`–`B173` (the multi-seed interaction
-run: the interaction-born combination gap)**, `K014`,`K018`; the firewalled causal-set hook `OPEN_LEADS` L21 (and the
-spectral lane `L16`). External: causal-set theory / Myrheim–Meyer (the ensemble-scale door, firewalled);
-large-deviation theory (the generative-rate language); Machian relationalism / Barbour (the leap of N1);
-gap-labeling (Johnson–Moser/Bellissard, the citable backbone of the B171–B173 lane).
+`B168` (the generative pass run), `B170` (the Machian leap assessed), **`B171`–`B176`/`K019` (the multi-seed
+interaction run: the interaction-born combination gap + two-number predictability + the golden privilege)**, **`B177`
+(the metabolism test: crystal/horseshoe not cell — life relocates external)**, `K014`,`K018`; the firewalled
+causal-set hook `OPEN_LEADS` L21 (and the spectral lane `L16`). External: causal-set theory / Myrheim–Meyer (the
+ensemble-scale door, firewalled); large-deviation theory (the generative-rate language); Machian relationalism /
+Barbour (the leap of N1); gap-labeling (Johnson–Moser/Bellissard, the citable backbone of the B171–B176 lane);
+dissipative structures / Prigogine (the open-system machinery a metabolism would need, which B177 shows the object lacks).

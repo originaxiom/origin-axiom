@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B177 — the metabolism test, "is it alive?" H3 to the knife (2026-06-18; V171; S035 register, firewalled).**
+  The decisive test of a cross-session ("chat2") life-hunt: does κ>2 order **starve** when you stop feeding the
+  chain (a self-maintaining *cell*), or is it conserved/frozen (a *crystal*)? **Verdict: a conservative
+  active-chaotic CRYSTAL/HORSESHOE, not a cell.** **C1** κ (the Fricke–Vogt first integral) is **conserved** across
+  generations (drift <1e-8) — cannot starve (H3 original form dead by the conservation law). **C2** the real
+  Sturmian gap **converges/freezes** (1.0653, |Δw|→1e-4) — held by static *structure*, not *flux*; doesn't close
+  (H3 revised form dead — a conservative spectral problem has no metabolism). **C3** the trace map is **invertible**
+  (no arrow). **C4** there *is* an active set (the κ>2 horseshoe, cited B163/B165) but it's reversible chaos — *order
+  that wanders, not order that maintains itself*. So metabolism/homeostasis/arrow **relocate external** (K018 in the
+  life register); "heredity already owned" is an over-read (κ-conservation is a symmetry, not heredity). *Verify-
+  don't-trust:* my own C4 divergence demo was escape-contaminated (B165's recorded lesson) → replaced by the cited
+  clean result. Firewalled; nothing to `CLAIMS.md`. `tests/test_b177_*` (4).
 - **K019 — the collective (multibody) metallic spectrum (2026-06-18; multibody-extraction plan P4).** The
   textbook-layer **synthesis** of the multi-seed arc (B171–B176), companion to K007/K010 (the single chain). The
   one-line result: *a lone unit only parametrizes; structure no single unit has appears only with interaction of
