@@ -9,6 +9,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B178 — the perturbative mechanism: the width law + golden privilege are ONE textbook thing (2026-06-18; V172;
+  understand-completely consolidation).** Identifies the single perturbative mechanism behind both flagships: the
+  combination gap `(n₁,n₂)` is the order-`|n₁|+|n₂|` term, ∝ `λ₁^{|n₁|}λ₂^{|n₂|}`, Diophantine-robust — *order* gives
+  the width law (B175), the *Diophantine factor* gives the golden privilege (B176). Introduces the **contamination-
+  robust index method** (gap pinned to its gap-labeling eigenvalue index) and confirms the **per-frequency structure**
+  (power-1 clean; (2,1)/(1,2) carry a distinct higher power ~1.7). **Honest limit:** the exact integer (=2) is
+  textbook but numerically **plateaus at ~1.7** (saturation + finite-N), not cleanly resolved in-sandbox →
+  NEEDS-SPECIALIST. Golden privilege = a Diophantine-amplification heuristic. **A multi-step verify-don't-trust
+  record:** a window-max "derivation" was wrong → over-hastily called a "failure" → an owner challenge surfaced that
+  the window-max *can* contaminate → the index method confirmed the structure and showed the power-2 shortfall is
+  *genuine saturation, not contamination* → an intermediate "B175 is contaminated" alarm was itself **walked back**
+  (B175 stands). Both over-claim directions corrected. Emergent quasicrystal math (K010); firewalled, nothing to
+  `CLAIMS.md`; B175/B176 unchanged. `tests/test_b178_*` (3).
 - **B177 — the metabolism test, "is it alive?" H3 to the knife (2026-06-18; V171; S035 register, firewalled).**
   The decisive test of a cross-session ("chat2") life-hunt: does κ>2 order **starve** when you stop feeding the
   chain (a self-maintaining *cell*), or is it conserved/frozen (a *crystal*)? **Verdict: a conservative
