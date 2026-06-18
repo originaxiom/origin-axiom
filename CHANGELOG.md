@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B173 — the gap-labeling reduction, Phase 2 (2026-06-18; V167; multi-seed plan, L16).** Reduces B172's
+  combination gap to the **gap-labeling theorem** (a citable consequence, not a new claim) and **confirms the L16
+  rank formula**. For the 1D superposition operator the gap-label group is the **frequency module ℤ+ℤα_g+ℤα_s —
+  rank 3, product-free** (Johnson–Moser 1982; Bellissard; Damanik–Fillman 2022, arXiv:2203.03696). **R1/R2 (PSLQ):**
+  golden+silver have no integer relation → rank 3, and the *full* L16 formula `rank = 1 + #distinct quadratic fields`
+  is confirmed (distinct fields → 3; same-field golden m=1 & m=4 → dependent `−1+2α₁−α₄=0` → caps at 2). **R3:** the
+  product α_g·α_s is a genuine 4th direction that the 1D theorem **excludes** (products are a ℤ^d≥2 / 2D-tiling
+  feature — Elliott 1984, Forrest–Hunton–Kellendonk) ⟹ L16's **√(dᵢdⱼ) worry is dispelled**. **Novelty (tiered):**
+  the mechanism is **KNOWN** (not claimed); the explicit golden+silver construction **APPEARS-NOVEL** as a worked
+  example (≠ Damanik–Gorodetski "Square Fibonacci," arXiv:1601.01639) → NEEDS-SPECIALIST. Residual: discontinuous-`f`
+  exact group + realized-gaps. Emergent quasicrystal math (K007/K010); firewalled, nothing to `CLAIMS.md`.
+  `tests/test_b173_*` (4).
 - **B172 — the combination gap resolved, Phase 1 (2026-06-18; V166; multi-seed plan, L16).** Answers B171's question
   — *does heterogeneous interaction generate a rank-3 combination gap?* — **affirmatively (hedged)**. **C1:** the
   woven metallic quasicrystal has a **real, persistent** spectral gap (in-gap to N=128 000, width 0.114) whose IDS
