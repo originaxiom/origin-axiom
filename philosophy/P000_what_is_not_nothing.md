@@ -37,5 +37,15 @@ eigenvalue` (B92); `det=−1` is *structurally distinguished* — it is exactly 
 (B92–B94); and the tower itself is the Jacobian of the trace map at the **trivial fixed point** (the void) —
 "not-nothing" as the first variation of nothing (B89-T). **None of these uses a word of this file.**
 
+**A `[RHYME]`, one-way and firewalled (B176/V170).** This file's anchor choice — φ as "what maximally resists the
+trivial" — *rhymes* with an independent, banked numerical fact: in the **collective** woven-metallic spectrum the
+combination structure preferentially **dresses the golden (φ) resonance** (golden's satellite ladder dominates
+silver's and bronze's, θ-averaged, in both models, and not because golden has a wider bare gap). The kernel is
+standard — φ is the Hurwitz-extremal most-irrational number, hence the KAM-most-robust quasiperiodic frequency — so
+the property for which P000 *chose* φ surfaces, unbidden, as the resonance the many-body spectrum most robustly keeps.
+**This is a `[RHYME]`, not support:** emergent quasicrystal physics (`K010` boundary); it derives no premise and
+promotes nothing; and honestly the privilege is **golden-stands-alone**, not a monotone irrationality order
+(silver ≈ bronze, B176-C4). A suggestive resonance is not a proof that the choice was forced.
+
 Related: `METALLIC_FOUNDATIONS.md`, `P001` (architecture-not-furniture), `P002` (necessity *given* the premises),
-`PHILOSOPHICAL_PATHS.md` (P1–P5).
+`PHILOSOPHICAL_PATHS.md` (P1–P5); `../frontier/B176_golden_privilege/` (the `[RHYME]`), `K009`/`K016` (the φ selections).
