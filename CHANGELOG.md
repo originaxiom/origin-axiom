@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B172 — the combination gap resolved, Phase 1 (2026-06-18; V166; multi-seed plan, L16).** Answers B171's question
+  — *does heterogeneous interaction generate a rank-3 combination gap?* — **affirmatively (hedged)**. **C1:** the
+  woven metallic quasicrystal has a **real, persistent** spectral gap (in-gap to N=128 000, width 0.114) whose IDS
+  (≈0.6114, via the exact Sturm/pivot count) is **not any single-frequency ladder value** — ≥8× closer to the
+  combination label (3,−3) than to the nearest single-freq value of any order ⟹ it needs **both** frequencies ⟹
+  **interaction-born** (a rank-3 feature no single seed has). **Honest limit:** the IDS plateaus at the finite-size
+  floor (~2e-4); the *specific* label is consistent with (3,−3) but a sharp many-digit certification is
+  **NEEDS-SPECIALIST**. **C2:** bilingual inheritance is **seed-robust** (3 metallic pairs); small-label combination
+  gaps essentially **absent** (one non-robust golden+bronze (1,−2) hit) — the combination structure lives at larger
+  labels. *Verify-don't-trust (3rd self-correction):* the probe's first-draft "clean convergence to (3,−3)" was
+  **refuted by its own run** and rewritten to "combination gap, label ~(3,−3)." Emergent quasicrystal math
+  (K007/K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b172_*` (3).
 - **B171 — the heterogeneous metallic quasicrystal, Phase 0 (2026-06-18; V165; multi-seed plan, L16).** Opens the
   multi-seed-interaction frontier in the **substitution / gap-labeling** lane (the spectral face of the κ↔spectrum
   bridge, K010). Builds the woven two-frequency metallic Schrödinger operator + its IDS gap labels. **B2:** the woven
