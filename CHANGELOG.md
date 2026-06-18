@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B170 — the relational/Machian scale leap, ASSESSED (2026-06-18; V164; closes S035's last `[LEAP]`).** Assesses
+  whether "external" dissolves into "self-referential" — the Machian reading that a purely relational universe has
+  only ratios, so the firewall would **dissolve** not relocate. **L1 [structural]:** **undecidable from within** —
+  the Machian and external readings give the **same** dimensionless math; no internal computation distinguishes
+  them (interpretive, not a calculation). **L2 [num, null-test]:** the only predictive form is **value-matching**,
+  which is **dead** — the program's φ²/metallic/`log 2` numbers match observed constants (`α⁻¹`, `m_p/m_e`, …) no
+  better than a **random** base (median exponent-distance-to-integer 0.258 vs 0.251 — indistinguishable; the S014
+  lane, now with a control). **Verdict:** the leap **reinterprets** the wall (its honest philosophical face) but
+  does **not dissolve** it; **POSTULATED**, value-matching **forbidden**. Closes S035's last leap: the wall
+  relocates in every reachable mode (B167/B168/B169 → K018). Firewalled; nothing to `CLAIMS.md`. `tests/test_b170_*` (2).
 - **B166 — SL(n) higher-rank aperiodic operators (2026-06-18; V163; P2b, L20).** Pushes the tower past SL(2).
   **Q0 [exact]:** the symplectic obstruction (V29) — odd n has no nondegenerate antisymmetric form, so SL(n≥3) is
   **not** a self-adjoint operator's transfer group (Sp=SL only at n=2) ⟹ **intrinsically non-Hermitian**; the
