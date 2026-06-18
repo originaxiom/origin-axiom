@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B165 — toward the off-axis (κ<2) Cantor theorem (2026-06-18; V162; P2a).** Strengthens B163. **D1:** B163's
+  MST-max-gap diagnostic extended to **golden/silver/bronze** — the κ<2 Cantor structure is **seed-robust**
+  (persistent gaps 0.21/0.20/0.18 vs the κ=2 band →0). **Conditional theorem:** the κ<2 spectrum = the
+  non-escaping set of the complexified trace map; *uniform hyperbolicity ⟹ Cantor* — reducing the open theorem to
+  **one** hypothesis (off-axis hyperbolicity), numerically supported but **NEEDS-SPECIALIST** (Damanik–Gorodetski
+  is Hermitian-κ>2 only). **Verify-don't-trust record:** two attempted new diagnostics (ε-component-count, naive
+  trace-map "domination") **failed** to separate Cantor from band and were discarded — B163's MST remains the clean
+  one. Firewalled; nothing to `CLAIMS.md`. `tests/test_b165_*` (2).
 - **B169 — the isomonodromy (Painlevé-VI) flow + the firewall-relocation verdict (2026-06-18; V161; completes P1).**
   P1/PR2 of Masterplan II. Builds the **Schlesinger / Painlevé-VI flow** on the (0,4) cubic (the genuine new
   engineering) and reaches the verdict. **P1 [exact]:** the cover dictionary done right — the metallic `M_m` acts
