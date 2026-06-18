@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B176 — the golden privilege, with controls (2026-06-18; V170; multibody-extraction plan P3).** Controlled test
+  of a cross-session ("chat2") claim that the woven chain "dresses the most irrational resonance." **Confirms-yet-
+  corrects:** **φ/golden is genuinely privileged** — its combination satellite ladder dominates *both* silver's (8.9×
+  cosine, 3.3× Sturmian) and bronze's (3.4×), θ-averaged, in **both** models, and **not** because golden has a wider
+  bare gap (ladder ratio 8.9× ≫ principal-width ratio 1.6×). **But it is golden-stands-alone, NOT a monotone order**
+  — silver and bronze are comparable (s/b 1.5/0.77), so it does *not* continue golden>silver>bronze. The
+  golden=most-irrational=most-robust math is real (Hurwitz/KAM); the P000-anchor tie is a one-way **`[RHYME]`** with a
+  real kernel, not a derivation; the effect is cosine-dominant; a rigorous theorem is NEEDS-SPECIALIST. Emergent
+  quasicrystal physics (K007/K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b176_*` (3).
 - **B175 — the collective spectrum is two-number predictable (2026-06-18; V169; multibody-extraction plan P1+P2).**
   The disciplined version of a cross-session ("chat2") "combination ridge." The woven metallic spectrum is
   predictable from two pairs of numbers: **`(α₁,α₂)` fix every gap *height* exactly** at all couplings (gap-labeling,
