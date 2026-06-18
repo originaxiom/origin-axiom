@@ -67,7 +67,14 @@ its boldest form (emergent spacetime) is firewalled. A direction worth walking *
    independent of `κ`? (Builds on `B156`–`B159`; the generative reading is unrun.)
 2. **Iterated multi-seed composition** (`B131`/`K014` beyond two seeds): does a **forced structure** emerge at
    large N from interaction, where a single seed has none (`B130`)? (The "minimal multiplicity for choice = two"
-   continued.)
+   continued.) — **RUN, spectral face** (`B171`–`B173`/V165–V167): weaving two *distinct* metallic building blocks
+   (golden + silver) produces a genuine **interaction-born combination gap** — a rank-3 gap-label feature
+   `n₁α_g + n₂α_s` (both nonzero) **absent from either pure chain**. This is the **spectral companion to `K014`**
+   (where gluing *distinct* seeds discretizes `κ`): two independent faces of *structure enters only with the
+   interaction of different units*. `[MATH]`. **Firewall:** emergent quasicrystal spectral structure (`K010`
+   boundary), the gap-label rank is a **citable** gap-labeling-theorem consequence — **not** a selection of physical
+   constants; value-matching forbidden. The cosmogony reading (interaction-born structure ↔ "more than one building
+   block makes a world richer than the parts") stays an explicit `[LEAP]`.
 3. **Null-test (mandatory):** is the accretion arrow / `log 2` entropy **generic to any growing non-abelian
    DAG**, or special to the metallic/Ω structure? Expect *generic* (cf. the `B167` null-test: the obstruction was
    generic to non-abelian dynamics) — in which case the generative thread is **real but not special**, the honest
@@ -81,13 +88,15 @@ its boldest form (emergent spacetime) is firewalled. A direction worth walking *
 | "Big Bang" = **onset** from the minimal seed | TC-1 (Ω₄ unique minimal seed) as the first rung; large-deviation onset | TC-1 banked; the onset reading **unrun** |
 | scale from the **ensemble**, not `κ` | does large-N counting / accretion-rate yield an emergent scale (not via `κ`)? | **RUN** (`B168`/V160): real non-i.i.d. accretion, but every rate **dimensionless** ⇒ no ensemble scale (wall relocates, 3rd mode); causal-set dimension stays **firewalled** (L21) |
 | growth-rate is the only ("Machian") scale | is "external" vacuous in a relational universe ⇒ does the wall dissolve? | **ASSESSED** (`B170`/V164): undecidable from within + only-testable-form is value-matching (DEAD, S014) ⇒ reinterprets, does **not** dissolve |
-| **interaction** generates selection | iterated multi-seed composition → forced structure at large N | `B131`/`K014` banked (one fork); iterated/large-N **unrun** |
+| **interaction** generates structure | iterated multi-seed composition → structure at large N no single seed has | **RUN, spectral face** (`B171`–`B173`/V165–V167): weaving two *distinct* metallic blocks yields a genuine **interaction-born combination gap** (rank-3 gap-label, absent from either pure chain) — the spectral companion to `K014`'s character-variety `κ`-fork; emergent quasicrystal math (`K010`), value-matching forbidden. (Character-variety fork `B131`/`K014` banked; large-N cusp-gluing **unrun**.) |
 | "real but not special" | null-test: accretion arrow generic to any growing DAG? | **must run**; expect generic (like `B167`) |
 | "Λ / masses / initial condition from invariants" | — | **DEAD** (engineer-the-Big-Bang; `B167`, S014) — *not* re-walked |
 
 Related: `../philosophy/P001` (architecture not furniture), `P004` (interaction born), `P006` (the reversible
 trace map vs the accretion arrow), `P008` (non-cancellation), `P010` (the category root), `S034` (the
 non-cancellation obstruction), `../story/12_what_we_learned.md`; math anchors `B131`,`B156`–`B159`,`B164`,`B167`,
-`B168` (the generative pass run), `B170` (the Machian leap assessed), `K014`,`K018`; the firewalled causal-set hook
-`OPEN_LEADS` L21. External: causal-set theory / Myrheim–Meyer (the ensemble-scale door, firewalled);
-large-deviation theory (the generative-rate language); Machian relationalism / Barbour (the leap of N1).
+`B168` (the generative pass run), `B170` (the Machian leap assessed), **`B171`–`B173` (the multi-seed interaction
+run: the interaction-born combination gap)**, `K014`,`K018`; the firewalled causal-set hook `OPEN_LEADS` L21 (and the
+spectral lane `L16`). External: causal-set theory / Myrheim–Meyer (the ensemble-scale door, firewalled);
+large-deviation theory (the generative-rate language); Machian relationalism / Barbour (the leap of N1);
+gap-labeling (Johnson–Moser/Bellissard, the citable backbone of the B171–B173 lane).

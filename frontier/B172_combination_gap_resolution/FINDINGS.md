@@ -27,12 +27,14 @@ validated against the dense solver). For the gap-center energy `E* = 2.389`:
 
 - **A real, persistent gap:** `E*` stays inside a spectral gap (no states in `[E*−0.02, E*+0.02]`) at every N up to
   128 000 (8× the reference) — energy width 0.114.
-- **It is a combination gap, not an inherited ladder:** at every N the IDS (≈0.6114) is **≥8× closer (often far
-  more) to the combination label (3,−3)=0.6114613 than to the nearest single-frequency label of any order** — the
-  nearest single-freq value is the high-order silver (0,−13)=0.615 (≈3.8e-3 away); the prominent golden (1,0)=0.618
-  ladder is 6.6e-3 away. Since 0.6114 is **not** any `(n,0)`/`(0,n)` value, the gap **requires both frequencies** —
-  **absent from either pure chain** (interaction-born). This is the clean part of the answer: *interaction generates a
-  spectral gap no single seed has.*
+- **It is a combination gap, not a low-order inherited ladder:** at every N the IDS (≈0.6114) is **≥8× closer (often
+  far more) to the combination label (3,−3)=0.6114613 than to the nearest single-frequency label of any LOW order
+  (|n|≤14)** — that nearest low-order single-freq value is silver (0,−13)=0.615 (≈3.8e-3 away); the prominent golden
+  (1,0)=0.618 ladder is 6.6e-3 away. (Caveat, per the arc verifier: *high-order* single-freq labels are dense — e.g.
+  silver (0,−57) sits ≈1.3e-3 away — so the meaningful "not an inherited ladder" comparison is at **bounded order**;
+  even so the (3,−3) match at ~2–4e-4 still beats every single-freq label found.) Since 0.6114 is **not** any
+  *low-order* `(n,0)`/`(0,n)` value, the gap **requires both frequencies** — **absent from either pure chain**
+  (interaction-born). This is the clean part of the answer: *interaction generates a spectral gap no single seed has.*
 - **Honest limit:** the IDS does **not** sharpen below the finite-size floor (~2e-4) and the fixed-reference count
   drifts off the gap past N ~ 1e5. So the **specific** label is **consistent with (3,−3)** (the lowest-sum match) but
   a **sharp** certification (ruling out higher-sum module neighbours; θ-averaged / gap-edge-tracked IDS) is

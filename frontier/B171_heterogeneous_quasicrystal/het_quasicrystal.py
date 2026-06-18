@@ -24,7 +24,7 @@ Phase-0 locks:
      By the gap-labeling theorem a real gap's IDS must lie in the module, so its true label is
      well-defined but UNIDENTIFIED at this resolution -- the (3,-3) assignment (err ~2e-4 ~ O(1/N))
      is PLAUSIBLE but NOT statistically credible. The honest status: real gap, label unverified;
-     the Phase-1 test is whether its IDS CONVERGES to (3,-3)=0.611457 as N grows. (The cross-session
+     the Phase-1 test is whether its IDS CONVERGES to (3,-3)=0.611461 as N grows. (The cross-session
      headline over-read a plausible-but-uncertified large-label match as an established result.)
 
 VERDICT (Phase 0): the woven spectrum is bilingual (both rank-2 ladders survive) [B2, credible];
@@ -145,7 +145,7 @@ chk("chance-hit rate rises with label-sum (density trap real); sum<=3 is the low
     x=f"sum<=3: {100*null_rate(ag,as_,3,TOL):.1f}%  vs  sum<=6: {100*null_rate(ag,as_,6,TOL):.1f}%")
 
 print("\n== B4 [VERIFICATION]: the cross-session 0.611 gap -- real, but label (3,-3) UNVERIFIED ==")
-comb = (3 * ag - 3 * as_) % 1.0                 # = 0.611457, the claimed (3,-3) combination label
+comb = (3 * ag - 3 * as_) % 1.0                 # = 0.611461, the claimed (3,-3) combination label
 # locate the actual woven-chain gap nearest 0.611 (reuse B2's spectrum)
 near = min(wgaps, key=lambda g: min(abs(g[0] - comb), 1 - abs(g[0] - comb)))
 nids, nw = near
@@ -169,7 +169,7 @@ print("\nVERDICT: the woven metallic spectrum is BILINGUAL -- both rank-2 ladder
 print("the density trap is real and quantified [B3]; the cross-session 0.611 gap is REAL (w~0.11) but its")
 print("combination-label (3,-3) is PLAUSIBLE-yet-UNVERIFIED (sum 6, ~20% null) [B4, verify-don't-trust] -- not")
 print("a density artifact (the gap exists) and not an established combination gap (the label is uncertified).")
-print("Phase-1 test = IDS-convergence to 0.611457 + a genuine SMALL-label hunt. Firewall: emergent quasicrystal")
+print("Phase-1 test = IDS-convergence to 0.611461 + a genuine SMALL-label hunt. Firewall: emergent quasicrystal")
 print("math (K007/K010 boundary), nothing to CLAIMS.md.")
 print("\n" + ("ALL CHECKS PASS" if ok else "SOME CHECKS FAILED"))
 import sys; sys.exit(0 if ok else 1)

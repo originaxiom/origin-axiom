@@ -8,7 +8,7 @@ RIGHT way -- by IDS-CONVERGENCE (gap-labeling theorem: the IDS on a true gap is 
 element; count/N converges to it) -- and hunts the small-label window seed-robustly.
 
   C1 [IDS-convergence, the certification] count_below(E*)/N for N up to ~2e5: does the 0.611 gap's
-     IDS converge to the combination label (3,-3)=0.6114573 (BOTH coeffs nonzero => interaction-born,
+     IDS converge to the combination label (3,-3)=0.6114613 (BOTH coeffs nonzero => interaction-born,
      a label unavailable to either pure chain) and AWAY from the competing golden ladder (1,0)=0.6180340?
   C2 [small-label hunt, seed-robust] golden+silver / golden+bronze / silver+bronze at large N: is the
      bilingual inheritance seed-robust, and do any prominent gaps land on a genuine SMALL combination
@@ -67,7 +67,7 @@ def best_label(ids, a1, a2, Lmax=8):
 
 ag, as_, ab = alpha(1), alpha(2), alpha(3)
 LAM, TH1, TH2 = 1.5, 0.1357, 0.1357 + 0.27
-COMB = (3 * ag - 3 * as_) % 1.0          # (3,-3) = 0.6114573 -- the candidate combination label
+COMB = (3 * ag - 3 * as_) % 1.0          # (3,-3) = 0.6114613 -- the candidate combination label
 GOLD = (1 * ag + 0 * as_) % 1.0          # (1,0)  = 0.6180340 -- the competing inherited ladder
 
 # self-test: the Sturm count agrees with the dense solver
@@ -76,7 +76,9 @@ chk("Sturm count == dense eigenvalue count (validation)",
     all(count_below(_d, E) == int((_e < E).sum()) for E in (-1.0, 0.5, 1.7, 3.5)))
 
 def nearest_single_freq(ids, a1, a2, nmax=14):
-    """distance from ids to the nearest SINGLE-frequency (inherited-ladder) label (n,0) or (0,n)."""
+    """distance from ids to the nearest LOW-ORDER (|n|<=nmax) single-frequency label (n,0)/(0,n).
+    NB high-order single-freq labels are DENSE (a_i irrational), so the meaningful 'not an inherited
+    ladder' comparison is at bounded order -- that is what makes the combination claim falsifiable."""
     best = 1.0
     for n in range(1, nmax + 1):
         for v in ((n * a1) % 1.0, (-n * a1) % 1.0, (n * a2) % 1.0, (-n * a2) % 1.0):
@@ -84,7 +86,7 @@ def nearest_single_freq(ids, a1, a2, nmax=14):
     return best
 
 print("\n== C1 [the 0.611 gap]: a genuine COMBINATION gap (interaction-born), label consistent with (3,-3) ==")
-# locate the gap-center energy E* (the gap with IDS nearest 0.6114573, excluding the 0.618 golden gap)
+# locate the gap-center energy E* (the gap with IDS nearest 0.6114613, excluding the 0.618 golden gap)
 N0 = 16000
 e0 = spectrum(woven_diag(N0, [(LAM, ag, TH1), (LAM, as_, TH2)]))
 cands = [(ids, w, E) for ids, w, E in top_gaps(e0, N0, k=30, min_w=0.03) if 0.602 < ids < 0.616]
@@ -102,8 +104,8 @@ for N in (4000, 8000, 16000, 32000, 64000, 128000):
     print(f"   N={N:7d}  IDS={ids:.7f}  |IDS-(3,-3)|={rc:.2e}  dist-to-nearest-single-freq={rs:.2e}  gap={in_gap}")
 chk("a real, persistent spectral gap: E* stays inside a gap at every N up to 128000 (8x the reference)",
     all(r[4] for r in rows))
-chk("the gap is a genuine COMBINATION gap (interaction-born): its IDS is NOT any single-frequency ladder "
-    "value -- >=7x closer to (3,-3) than to the nearest inherited (n,0)/(0,n) label, at EVERY N",
+chk("the gap is a genuine COMBINATION gap (interaction-born): its IDS is NOT any LOW-order single-frequency "
+    "ladder value -- >=7x closer to (3,-3) than to the nearest inherited (n,0)/(0,n) label (|n|<=14), at EVERY N",
     all(r[2] < r[3] / 7 for r in rows),
     x=f"|IDS-(3,-3)|~{max(r[2] for r in rows):.0e} vs nearest single-freq ~{min(r[3] for r in rows):.0e} "
       f"=> not the golden/silver ladder, requires BOTH frequencies")
