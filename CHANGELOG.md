@@ -9,6 +9,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B175 — the collective spectrum is two-number predictable (2026-06-18; V169; multibody-extraction plan P1+P2).**
+  The disciplined version of a cross-session ("chat2") "combination ridge." The woven metallic spectrum is
+  predictable from two pairs of numbers: **`(α₁,α₂)` fix every gap *height* exactly** at all couplings (gap-labeling,
+  seed-robust across golden+silver & golden+bronze, label-error ~8e-5), and **`(λ₁,λ₂)` fix every gap *width*** via
+  the order-power law `width ~ λ^(|n₁|+|n₂|)` **at weak coupling** (order-2 slope **1.92/2.01**, order-3 →3). So four
+  numbers forecast the whole weak-coupling spectrum — a **collective** phenomenon (the single unit has no combination
+  gaps). **Bound (once):** the width law is **perturbative** — it saturates at strong coupling; predictivity over
+  **structure**, not a fundamental constant. **Model distinction (reconciles B172/B173, corrects the over-reach):**
+  the ridge **opens in the cosine (bichromatic) model** (0.211) but is **~closed in the metallic Sturmian chain**
+  (0.016) — heights are potential-independent (the theorem), *which* gaps open is potential-dependent. **3
+  verify-don't-trust self-corrections** (ridge-is-metallic→cosine-specific; clean-law→weak-coupling-law; the null
+  threshold). Emergent quasicrystal physics (K007/K010, *measured* materials); firewalled, nothing to `CLAIMS.md`.
+  `tests/test_b175_*` (3).
 - **B174 — the GL(2,ℤ) gluing-map landscape (2026-06-18; V168; H5).** The cusp-gluing lane — the
   **character-variety companion** to the spectral multi-seed arc (B171–B173). Extends B131 (identity gluing) and
   B134 (one swap) to the gluing-map landscape via the abelian peripheral trace ring `(p,q,r)` and the mapping-class
