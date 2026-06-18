@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B163 — the κ-sweep resolved: the κ<2 spectrum is a Cantor set; no figure-eight encoding (2026-06-18; V157).**
+  Resolves the two open items B162 left (L19), each with a control / null-test. **(3a) [num, control-bracketed]:**
+  the non-Hermitian κ<2 spectrum is a **genuine Cantor set (totally disconnected)**, not a curve — the largest
+  spectral gap (max MST edge / diameter) **converges to a positive constant** across F=144→1597, tracking the
+  κ>2 known-Cantor control (~0.16) and the opposite of the κ=2 full-band control (→0). Upgrades B162's
+  "thin/zero-area" to "Cantor". **(3b) [num, negative + null-test]:** **no spectral encoding** of the figure-eight
+  geometry — every feature is smooth through κ=−2 (no kink at the cusp-opening) and no figure-eight invariant
+  (vol, √−3, 2/φ) matches specially there (neighbors equal/better). The figure-eight link is the **boundary trace
+  κ=−2 alone** (B160), not the spectrum — the "spectrum deforms into hyperbolic geometry" reading is refuted at
+  the spectral level. **(3a)-as-theorem stays OPEN** (no ground truth off the real axis). Firewalled; nothing to
+  `CLAIMS.md`. `tests/test_b163_*` (2).
 - **B162 — the κ-sweep: κ=2 is the unique cancellation↔non-cancellation wall (2026-06-18; V156).**
   The geometric face of the non-cancellation obstruction (S034/B161). The figure-eight monodromy foliated over
   `κ=2+λ²` has a spectrum that is **positive-measure only at κ=2** (the full AC band, `|σ|=4.000` — the
