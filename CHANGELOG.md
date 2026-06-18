@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B164 — the 4-punctured-sphere Fricke cubic + the metallic monodromy (2026-06-18; V159).** P1/PR1 of Masterplan II
+  (the Betti→Hitchin direction, H5-c). The only other dim-2 Fricke cubic besides the OPT seed is the (0,4) sphere —
+  the **Painlevé-VI / class-S monodromy manifold**. Built: the **Jimbo–Fricke cubic** + its three **Vieta involutions**
+  (the MCG/Painlevé-VI dynamics) which preserve it `[exact]`; the **bridge** `tᵢ=0 ⟹` the OPT cubic at **κ=2** (the
+  void fiber) `[exact]`; the **metallic degrees** `λ_m²` / trace fields `ℚ(√(m²+4))` `[exact]`; and the dynamics is
+  **loxodromic** `[num]` (with a period-2 control). **Verify-don't-trust self-correction:** a draft "dynamical
+  degree = φ²" was refuted by the numerics (orbit-norm growth ≠ dynamical degree) and removed. **Deferred to PR2:**
+  the OPT↔(0,4) cover dictionary (→ degree `λ_m²` per metallic m), the isomonodromy **flow**, and the
+  firewall-relocation verdict. Standalone dynamics math; nothing to `CLAIMS.md`. `tests/test_b164_*` (3).
 - **B167 — the conserved ⟹ no-internal-scale lemma (the firewall, stated) (2026-06-18; V158).** P3 of Masterplan II.
   Sharpens the POSTULATED §8a five-door map + B148/B151/P010 into a **stated structural argument**: a
   conserved/topological first integral (`κ`) of a measure-preserving map **does not run ⟹ cannot source a
