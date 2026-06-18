@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B179 — the metallic "numbers" unified: one object, several views (2026-06-19; V173; understand-completely #3).**
+  Pure symbolic algebra. The whole geometric/arithmetic tower of a metallic seed `m` is **one algebraic object** —
+  `λ_m = (m+√(m²+4))/2`, the root of `x²−mx−1` — and every number we carry is an exact function of it: the gap-label
+  frequency `1/λ_m`, the bundle trace `m²+2 = λ_m²+λ_m⁻²`, the dynamical degree `λ_m²`, the field `ℚ(√(m²+4))`, the
+  Hurwitz constant `1/√(m²+4) = 1/(λ_m+1/λ_m)`, the tower eigenvalues `±λ_m^k`. Bridge identities: `λ_m ± 1/λ_m =
+  √(m²+4)` resp. `m`. **Honest boundary (MB12):** three same-named parameters are **distinct** and must not be
+  conflated with `λ_m` — the Schrödinger coupling `λ` (free knob), the Fricke modular `λ̃` in `κ=λ̃+1/λ̃` (a free
+  character-variety coordinate), and the gap-labeling IDS (a derived combination). Golden `m=1` collapses the tower to
+  `φ`. No new claim; pure algebra of what we have. `tests/test_b179_*` (4).
 - **B178 — the perturbative mechanism: the width law + golden privilege are ONE textbook thing (2026-06-18; V172;
   understand-completely consolidation).** Identifies the single perturbative mechanism behind both flagships: the
   combination gap `(n₁,n₂)` is the order-`|n₁|+|n₂|` term, ∝ `λ₁^{|n₁|}λ₂^{|n₂|}`, Diophantine-robust — *order* gives
