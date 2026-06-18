@@ -192,6 +192,9 @@ A grounding pass translated the project's governing question into the sharpest f
   *mathematics* (`MB9`/`MB10`: not the SM's gauge content). **Net (POSTULATED): the scale-lane is structurally shut; the
   ratio-lane is open-in-principle but exhausted-in-practice, survivor is math — the wall has no door, only an exit that
   leaves the program.** This is the argument that *earns the stop*; it is recorded, not asserted as proven.
+  **The door-map is now stated precisely as a lemma in `../frontier/B167_conserved_no_scale_lemma/`** (V158): the
+  conservation/dimensionlessness backbone `[exact]`, the "no running ⟹ no internal scale" step + the five-door
+  taxonomy POSTULATED (argued complete), with door 4 (external import) the non-vacuity witness.
 
 See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibration/`,
 `../frontier/B147_arithmetic_chiral_bundle/`, `../frontier/B148_kappa_fricke_metallic/`,

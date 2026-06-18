@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B167 — the conserved ⟹ no-internal-scale lemma (the firewall, stated) (2026-06-18; V158).** P3 of Masterplan II.
+  Sharpens the POSTULATED §8a five-door map + B148/B151/P010 into a **stated structural argument**: a
+  conserved/topological first integral (`κ`) of a measure-preserving map **does not run ⟹ cannot source a
+  dimensionful scale from within**; a scale enters only by **external import** (door 4 — the θ-angle pattern, the
+  non-vacuity witness). Backbone **[exact]** (re-derived fresh: `κ` conserved by the Dehn twists + `φ_{1,2,3}`;
+  dimensionless; MB6/MB12 control + witness). Five-door taxonomy **POSTULATED (argued complete)**. Independently
+  **adversarially red-teamed** (6th-door stress test — holography/backreaction/Casimir/modular-weight/regulator/
+  adiabatic — each reduces to door 1/4/5; firewall/scoping/tiering pass). **Firewall-side**: no scale, no Λ, no
+  crossing; nothing to `CLAIMS.md`; stays POSTULATED. Betti↔Hitchin grounding deferred to a post-P1 PR.
+  `tests/test_b167_*` (4).
 - **B163 — the κ-sweep resolved: the κ<2 spectrum is a Cantor set; no figure-eight encoding (2026-06-18; V157).**
   Resolves the two open items B162 left (L19), each with a control / null-test. **(3a) [num, control-bracketed]:**
   the non-Hermitian κ<2 spectrum is a **genuine Cantor set (totally disconnected)**, not a curve — the largest
