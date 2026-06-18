@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **K019 — the collective (multibody) metallic spectrum (2026-06-18; multibody-extraction plan P4).** The
+  textbook-layer **synthesis** of the multi-seed arc (B171–B176), companion to K007/K010 (the single chain). The
+  one-line result: *a lone unit only parametrizes; structure no single unit has appears only with interaction of
+  distinct units, and it is predictable.* Consolidates the **two faces** (spectral combination gap ↔ character-variety
+  κ-fork), the **two-number predictability** (heights exact by gap-labeling; widths by the weak-coupling order-power
+  law), the **golden privilege** (φ stands alone), the **model caveat** (heights universal, openings potential-dependent),
+  and the honest physics-contact statement (both genuine contacts are *collective*; predictivity over structure, not
+  constants). INDEX + ARCHITECTURE bumped to K019. No new claims (explainer); nothing to `CLAIMS.md`.
 - **B176 — the golden privilege, with controls (2026-06-18; V170; multibody-extraction plan P3).** Controlled test
   of a cross-session ("chat2") claim that the woven chain "dresses the most irrational resonance." **Confirms-yet-
   corrects:** **φ/golden is genuinely privileged** — its combination satellite ladder dominates *both* silver's (8.9×
