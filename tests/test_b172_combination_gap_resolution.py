@@ -52,9 +52,10 @@ def test_0611_is_a_combination_not_single_frequency():
     ag, as_ = _alpha(1), _alpha(2)
     comb = (3 * ag - 3 * as_) % 1.0                       # (3,-3) = 0.6114613, both coeffs nonzero
     assert abs(comb - 0.6114613) < 1e-6
-    # the nearest single-frequency value of ANY order is ~3.8e-3 away (high-order silver (0,-13); the
-    # prominent golden (1,0) ladder is 6.6e-3 away) => 0.611 is NOT a ladder value => needs BOTH frequencies
-    assert _nearest_single_freq(comb, ag, as_) > 3e-3     # interaction-born combination label
+    # the nearest LOW-order (|n|<=14) single-frequency value is ~3.8e-3 away (silver (0,-13); the prominent
+    # golden (1,0) ladder is 6.6e-3) => 0.611 is NOT a low-order ladder value => needs BOTH frequencies.
+    # (high-order single-freq labels are dense, so the meaningful comparison is bounded-order, as here.)
+    assert _nearest_single_freq(comb, ag, as_, nmax=14) > 3e-3   # interaction-born combination label
 
 
 def test_woven_chain_has_real_combination_gap_near_0611():

@@ -48,7 +48,7 @@ The woven metallic spectrum is **bilingual** (both rank-2 ladders survive) [B2, 
 and quantified [B3]; the cross-session 0.611 gap is **real but its combination-label (3,−3) is unverified** [B4]. The
 genuine question — *does heterogeneous interaction generate a real rank-3 combination gap?* — is **OPEN**, with two
 concrete Phase-1 tests now defined: **(i)** track the 0.6112 gap's IDS as `N` grows — does it **converge** to
-0.611457 (confirming (3,−3))?; **(ii)** hunt the **small-label** witnesses `(1,1) 0.032, (1,−1) 0.204, (2,1) 0.650,
+0.611461 (confirming (3,−3))?; **(ii)** hunt the **small-label** witnesses `(1,1) 0.032, (1,−1) 0.204, (2,1) 0.650,
 (1,2) 0.447, (2,−1) 0.822, (1,−2) 0.790` (sum ≤ 3, low null), **seed-robustly** across ≥2 metallic pairs.
 
 ## Scope / honesty (what this is NOT)
