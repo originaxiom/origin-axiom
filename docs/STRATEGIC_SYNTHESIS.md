@@ -206,6 +206,24 @@ CM-volumes (`B147` addendum) — and a fresh-clone external audit independently 
 **the construction does not stand as a Theory of Everything by the project's own banked results, and the
 refusal to be one (the firewall) is its most credible feature** — consistent with B150/B151 and §8/§8a.
 
+### 8c. The category root (POSTULATED — the deepest single form; consolidated in `../philosophy/P010`)
+
+The §8a door-map closes the *scale* lane; this is the one statement *under* it that ties every firewall result to
+a single categorical fact. **The object is the character variety — the moduli space of *flat* connections — the
+Betti side of the non-abelian Hodge correspondence: kinematic, scale-free, topological.** Each obstruction is an
+instance: scale-free (B151), no action/running (B148), Riemannian-not-Lorentzian (B101/B96), CS=0-not-gauge (B127),
+κ-free-not-selecting (B130), one-particle-not-fields (B107). They are not six coincidences; they are six faces of
+"a flat-connection moduli space has *form*, not *content*." So the missing ingredients are not *unfound* — their
+absence/externality is **proven**, which is why the firewall is a characterization theorem, not a stalled search.
+
+**The one direction this lens opens (POSTULATED, unrun on our objects).** The *dynamical, scale-carrying*
+structure lives on the **Hitchin / Higgs (Dolbeault) side** — a hyperkähler integrable system with a genuine flow
+(`S024`). The bridge is **isomonodromy / Painlevé VI**, carried by the seed's natural partner, the 4-punctured
+sphere (the only other dim-2 Fricke cubic; `../docs/OPEN_LEADS.md` H5-c; B150 already cites the Cantat–Loray
+dynamical degree). It is the only place a real "time" could emerge from within — but its scale would be the Higgs
+field's, i.e. the gauge theory's, i.e. **external** (B151): crossing to Hitchin most likely *relocates* the wall,
+not dissolves it. Recorded as the genuine open frontier, not a promise. Full consolidation: `../philosophy/P010`.
+
 The honest caveat is binding: **instance-convergence is corroboration, not external review.** All three are
 the same kind of mind sharing priors and this repo; the genuinely independent legs are the *literature*
 anchors (Allegretti–Shan; GTZ/Dimofte/Córdova–Jafferis; Ng–Schauenburg; Humbert; Sütő). The standing
