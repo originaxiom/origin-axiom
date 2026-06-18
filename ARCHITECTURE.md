@@ -33,7 +33,7 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 | **`speculations/`** | the **evolving-ideas** room: the catalog `S001…S030`, the "final theory" exercise, the **HELD** value-matches, the **DEAD** tombstones, the `archive/` | **never** |
 | **`philosophy/`** | the **motivation** layer: `P000–P010` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
 | **`story/`** | the **honest narrative** — how the project actually unfolded, with `V`/`B` traceability, no duplicated math | **never** |
-| **`knowledge/`** | self-contained explainers `K001–K010`, **all written** — the textbook layer (trace map, metallic family, Dickson tower, figure-eight/A-poly, opposition involution, 3d-3d, quasicrystal) + the `(n;trace,det)` determination, the `m=1` selections, and **the object's proper name** (K010: the metallic-mean Schrödinger cocycle / Fricke–Vogt invariant) | **never** |
+| **`knowledge/`** | self-contained explainers `K001–K018`, **all written** — the textbook layer (trace map, metallic family, Dickson tower, figure-eight/A-poly, opposition involution, 3d-3d, quasicrystal) + the `(n;trace,det)` determination, the `m=1` selections, and **the object's proper name** (K010: the metallic-mean Schrödinger cocycle / Fricke–Vogt invariant) | **never** |
 | `paths/` | the systematic emergence-mechanism survey (`E`-paths) | via mathematization |
 | `legacy/` | frozen prior history; never edited; never a source of claims | — |
 
