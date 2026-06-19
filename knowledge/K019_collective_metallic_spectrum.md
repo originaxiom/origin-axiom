@@ -23,6 +23,15 @@ The project reached the same statement from two independent directions:
 A single seed is a moduli space (a continuum — `K013`); **choice/structure enters only with the interaction of
 different units** (`K014`). K019 records *how much* and *how predictable* that structure is.
 
+**Read precisely (B180):** "two faces" is **one hinge quantity + two analogous operations**, *not* a numerical
+identity. The hinge `κ = tr[A,B]` genuinely lives on both faces — it is the character-variety boundary coordinate
+*and* the conserved trace-map invariant whose value sets the spectral type (κ=2 full band → κ>2 Cantor) [a real link,
+`K010`]. But the two *interaction operations* — **cusp-gluing** (match two bundles' `(κ,P)` → a discrete κ-fork) and
+**potential-weaving** (add two metallic potentials → gap labels `n₁α₁+n₂α₂`) — are **distinct math with distinct
+outputs** (trace values vs IDS fractions); they share only the *signature* single=continuum / distinct=structure. The
+naive read "the κ-fork values equal the gap labels" is **false** — exactly the conflation the do-not-conflate boundary
+(`B179`) guards against.
+
 ## The spectral face, made quantitative (B171–B176)
 
 For a woven two-frequency chain `V_n = λ₁ g(α₁n+θ₁) + λ₂ g(α₂n+θ₂)` (`α_m = 1/`metallic-mean):

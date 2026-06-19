@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B180 — the two-faces dictionary: one hinge quantity + two analogous operations (2026-06-19; V174;
+  understand-completely #5).** Resolves "is *two faces of one principle* (K019) an identity or an analogy?" →
+  **a sharpening.** **C1:** `κ = tr[A,B]` is the *same conserved number* on both faces — the character-variety
+  boundary coordinate *and* the trace-map invariant (the Dehn-twist trace maps conserve κ, symbolic). **C2 [live]:**
+  κ's value sets the spectral type — coupling 0 (periodic) → full band (0 gaps), κ>2 → Cantor (13 gaps); so the
+  character-variety κ **governs** the spectral face (the real bridge, K010). **C3 [fence, MB12]:** the two
+  *interaction operations* — cusp-gluing (bundle κ-fork) vs potential-weaving (gap labels) — are **distinct math
+  with distinct outputs** (trace values vs IDS fractions), sharing only the signature single=continuum/distinct=structure.
+  The naive "κ-fork = gap labels" is **false**. K019 sharpened (no retraction). Emergent topology/spectral math (K010);
+  firewalled, nothing to `CLAIMS.md`. `tests/test_b180_*` (2).
 - **B179 — the metallic "numbers" unified: one object, several views (2026-06-19; V173; understand-completely #3).**
   Pure symbolic algebra. The whole geometric/arithmetic tower of a metallic seed `m` is **one algebraic object** —
   `λ_m = (m+√(m²+4))/2`, the root of `x²−mx−1` — and every number we carry is an exact function of it: the gap-label
