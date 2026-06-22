@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B187 — the open / interacting many-body collective (Masterplan III, Track B) (2026-06-22; V181).** Extends B183
+  (single-particle) to the **interacting** case S036 left open — **computed** by exact diagonalization of a few
+  fermions. B183's *thresholdless arrow* **persists with interactions**: the permanently-critical metallic chain's
+  many-body real→complex (point-gap) threshold `g_c(U) ≈ 0` for all `U=0…4` (a two-body interaction opens **no**
+  protective gap — slightly *more* fragile), while the Aubry–André localized control stays **protected** (finite
+  `g_c ≈ 0.7–1.4`) at every `U`. Robust across `L=10–16`, 2–3 particles. The arrow is genuine but `g_c` is
+  **dimensionless** and the arrow's **source is the externally-imposed openness** (not self-generated) → no scale,
+  extends B183's firewall verdict to the many-body case. Thermodynamic-N driven/MBL regime = NEEDS-SPECIALIST.
+  Emergent condensed-matter many-body math (K010 boundary); firewalled, nothing to `CLAIMS.md`. `tests/test_b187_*` (2).
 - **B186 — off-axis hyperbolicity certification (Masterplan III, Track C) (2026-06-22; V180).** The first frontier of
   the computable-frontier program (compute every open branch to its boundary; defer nothing prematurely). Grounds
   B165's *conditional* theorem for the off-axis κ<2 Cantor spectrum (L19): the hyperbolicity hypothesis is
