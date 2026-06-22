@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B192 — SL(n≥3) higher-rank Lyapunov spectra (Masterplan III, Track D; L20 deepened) (2026-06-22; V185).**
+  Computed the *full* Lyapunov spectrum (QR-flag) of the metallic SL(n) transfer cocycle, turning V29 into a
+  **measured property**. **A clean parity law:** the spectrum is **symmetric (symplectic) iff `n` is even** (defect
+  n=2: 0.000, n=4: 0.003) and **asymmetric (non-Hermitian) iff `n` is odd** (n=3: 0.22, n=5: 0.11) — exactly
+  tracking "a symplectic form exists iff `n` even" (V29). The even-`n` symmetry is **special to the metallic
+  cocycle** (a generic SL(n) is asymmetric for all `n`: n=4 defect ≈0.52, `163×`) — so the metallic even-`n`
+  cocycle is conjugate to a symplectic one (it *uses* the form), while odd-`n` is genuinely non-Hermitian. Spectrum
+  sums to 0 (SL(n)); the bounded set + one golden tower scale persist. Rigorous higher-rank spectral theory stays
+  NEEDS-SPECIALIST. Emergent non-Hermitian math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b192_*` (2).
 - **B189 — the Ω accretion causal-set dimension (Masterplan III, Track E; L21, FIREWALLED) (2026-06-22; V184).**
   Computed the Myrheim–Meyer ordering-fraction dimension of the Ω class DAG (B156/B159) — *and hunted the artifact*.
   The estimator (calibrated on Minkowski sprinklings, matches Meyer's `f(d)` to a few %) gives `d_MM ≈ 3.94` for the
