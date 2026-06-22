@@ -1,9 +1,11 @@
-"""B190 -- abstract iterated gluing (V183). Fast locks.
+"""B190 -- abstract iterated gluing (V183; corrected 2026-06-22 after adversarial verification). Fast locks.
 
-Iterating the trace-ring gluing does NOT converge to a forced-unique value. OPEN gluing proliferates (fork
-size T^k -> 8+k, swaps double); CLOSED/loop (over-determined) gluing collapses to a finite discrete set that
-also grows with the loop word (ST->1 but the trivial (2,2,2); STST->3 incl. genuine golden-field points).
-Confirms B185 in the trace ring. Full version in iterated_gluing.py.
+Iterating the trace-ring gluing does NOT converge to a forced-unique value. OPEN gluing proliferates -- the
+fork-polynomial DEGREE (a Bezout upper bound, NOT the geometric count) grows T^k -> 8+k, swaps double.
+CLOSED/loop (over-determined) gluing collapses to a finite discrete set whose TOTAL count grows (1,2,3,4) but
+whose GENUINE (golden-field) non-trivial points are NON-monotone (seq 0,0,2,0: appear at STST, vanish at
+STSTST), never a single forced value. The lone count-1 loop ST fixes the trivial (2,2,2). Full version in
+iterated_gluing.py.
 """
 import sympy as sp
 
@@ -31,16 +33,18 @@ def _fixed(word):
     return [s for s in sols if all(v in s for v in (p, q, r)) and not any(s[v].free_symbols for v in (p, q, r))]
 
 
-def test_open_fork_proliferates():
+def test_open_fork_polynomial_degree_proliferates():
+    # the fork-polynomial DEGREE (Bezout upper bound on the geometric count) grows; never collapses to 1
     for k in (1, 2, 3):
-        assert _fork_size("T"*k) == 8 + k          # linear growth in twists
+        assert _fork_size("T"*k) == 8 + k          # degree law, linear in twists
     assert _fork_size("S") == 16 and _fork_size("ST") == 32   # doubling per swap
 
 
-def test_loop_overdetermination_finite_growing_not_unique():
-    cST, cTST, cSTST = len(_fixed("ST")), len(_fixed("TST")), len(_fixed("STST"))
-    assert (cST, cTST, cSTST) == (1, 2, 3)         # finite, growing with loop word
-    # the lone unique (ST) is the trivial point; genuine golden-field points first appear at STST
+def test_loop_total_count_grows_genuine_nonmonotone_not_unique():
+    # TOTAL fixed-point count grows monotonically; the lone count-1 (ST) is the trivial point
+    assert [len(_fixed(w)) for w in ("ST", "TST", "STST", "STSTST")] == [1, 2, 3, 4]
     s = _fixed("ST")[0]; assert all(s[v] in (2, -2) for v in (p, q, r))
-    genuine = [t for t in _fixed("STST") if not all(t[v] in (2, -2) for v in (p, q, r))]
-    assert len(genuine) == 2 and any(t[v].has(sp.sqrt(5)) for t in genuine for v in (p, q, r))
+    # GENUINE (non-trivial) count is non-monotone: 0,0,2,0 -- golden-field points appear (STST) and vanish (STSTST)
+    def genuine(w): return [t for t in _fixed(w) if not all(t[v] in (2, -2) for v in (p, q, r))]
+    assert [len(genuine(w)) for w in ("ST", "TST", "STST", "STSTST")] == [0, 0, 2, 0]
+    assert any(t[v].has(sp.sqrt(5)) for t in genuine("STST") for v in (p, q, r))   # golden field

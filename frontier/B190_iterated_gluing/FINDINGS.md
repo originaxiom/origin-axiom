@@ -8,24 +8,35 @@ it does not converge to a forced-unique value** — confirming B185 in the trace
 low-dim-topology / character-variety math (`K010` boundary); no scale/Λ; **nothing to `../../CLAIMS.md`**; P1–P16
 frozen. Ledger V183. Reproducer `iterated_gluing.py` (`ALL CHECKS PASS`).
 
+**CORRECTION (2026-06-22, in-batch adversarial verification — core unchanged, two precision fixes):** (1) the C1
+"fork size" is the **degree** of the fork's defining polynomial (a Bézout/resultant *upper bound*), not the
+geometric solution count — the `8+k`/doubling is the degree law, and only "proliferates, never 1, never 0" is the
+robust geometric claim. (2) the C3 genuine (non-trivial) fixed-point count is **non-monotone** — `0,0,2,0` for
+`ST,TST,STST,STSTST` (golden-field points appear at STST, vanish at STSTST) — which *strengthens* "never a forced
+unique value." Both verified independently (Gröbner zero-dimensionality + Newton-homotopy + exact substitution);
+the load-bearing C2/C3 finiteness, the trivial-`ST`, and the genuine golden-field points are all confirmed exact.
+
 ## The two directions
 
 Maps (B174): `S` (swap `μ↔λ`): `(p,q,r)→(q,p,r)`; `T` (Dehn twist): `(p,q,r)→(p,r,pr−q)`.
 
-- **C1 — OPEN gluing proliferates.** The fork size (Bézout degree of the single-map glued variety) **grows** with
-  the gluing word: `T^k → 8+k` (linear in twists: 9,10,11,12,13), and swaps `~double` (`S=16, ST=32, STSTS=64`).
-  Always `>1`, never `0` — iterating the gluing gives *more* discrete structure, never convergence to a unique
-  point. (Sharpens B174's "fork grows with complexity" into the explicit `8+k` / doubling laws.)
-- **C2 — CLOSED/LOOP over-determination → finite discrete, growing.** A closed-loop gluing imposes the composed
-  word's **fixed-point** condition on the boundary variety. For pseudo-Anosov words the fixed-point set is
-  **finite and grows with length**: `ST→1, TST→2, STST→3`. So over-determination *does* collapse the continuum to
-  a discrete set (selection-to-discrete confirmed). (Reducible Dehn-twist words like `T` keep a 1-parameter fixed
-  *curve* — parabolic, not finite.)
-- **C3 — but NOT forced-unique, and the lone unique is vacuous.** The only count-1 loop (`ST`) fixes the **trivial**
-  point `(2,2,2)` (all traces `2` = reducible; MB12-vacuous). Genuine non-trivial fixed points first appear at
-  `STST` — **two golden-field points** `((√5−1)/2, −(√5+1)/2, …)` — as a *multiplet*, and the count grows with the
-  loop word. So the "selection" is **per-gluing-choice with the count proliferating**, never a single forced value.
-  This is the trace-ring realization of B185's "selects-to-discrete, not forced-unique."
+- **C1 — OPEN gluing proliferates.** The fork's **defining-polynomial degree** (a Bézout/resultant *upper bound*
+  on the geometric solution count, **not** the count itself) **grows** with the gluing word: `T^k → 8+k` (linear in
+  twists: 9,10,11,12,13), swaps `~double` (`S=16, ST=32`). Always `>1`, never `0` — the fork polynomial never
+  collapses to a single point. (*Correction note below: `8+k`/doubling is the **degree** law; the genuine geometric
+  count is smaller, with repeated/extraneous factors — only "proliferation, never 1, never 0" is the robust claim.*)
+- **C2 — CLOSED/LOOP over-determination → finite discrete, total count growing.** A closed-loop gluing imposes the
+  composed word's **fixed-point** condition on the boundary variety (verified zero-dimensional ideals). For
+  pseudo-Anosov words the fixed-point set is **finite and the total count grows** with length:
+  `ST→1, TST→2, STST→3, STSTST→4`. So over-determination *does* collapse the continuum to a discrete set
+  (selection-to-discrete confirmed). (Reducible Dehn-twist words like `T` keep a 1-parameter fixed *curve* —
+  parabolic, not finite.)
+- **C3 — NOT forced-unique; the lone unique is vacuous; the genuine count is NON-monotone.** The only count-1 loop
+  (`ST`) fixes the **trivial** point `(2,2,2)` (all traces `2` = reducible; MB12-vacuous). The genuine non-trivial
+  fixed points are **golden-field** `((√5−1)/2, −(√5+1)/2, …)` — they **appear** at `STST` (two of them) and
+  **vanish** at `STSTST`: the genuine-count sequence is `0,0,2,0` for `ST,TST,STST,STSTST` — **non-monotone**. So
+  the genuine selection is *erratic per gluing-choice* and **never converges to a single forced value** (this
+  *strengthens* the conclusion). The trace-ring realization of B185's "selects-to-discrete, not forced-unique."
 - **C4 — FIREWALL + scope.** The abstract trace-ring iteration is computed in both directions; the *literal*
   closed-loop 3-manifold realization is multi-cusp = **NEEDS-SPECIALIST** (B185's 1-cusp cap).
 

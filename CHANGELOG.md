@@ -11,14 +11,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ### Added
 - **B190 — abstract iterated gluing (Masterplan III, Track F) (2026-06-22; V183).** Pushes B174's trace-ring gluing
   past B185's pair-cap, **in both directions**, to test whether iterating forces a *unique* selection. **It does
-  not.** **Open** gluing proliferates — the fork (Bézout degree) grows `T^k → 8+k` (linear in twists), swaps
-  `~double` (S=16, ST=32, STSTS=64); never collapses to 1, never empties. **Closed/loop** (over-determination =
-  fixed points) collapses the continuum to a **finite discrete** set that **also grows** with the loop word
-  (ST→1, TST→2, STST→3); the lone count-1 case (ST) is the **trivial** point `(2,2,2)` (MB12-vacuous), and genuine
-  non-trivial fixed points first appear at STST as **golden-field** multiplets `((√5−1)/2, …)`. So
-  selection-to-discrete **yes**, selection-to-forced-unique **no** — confirms B185 in the trace ring (both
-  directions). The literal closed-loop 3-manifold realization is multi-cusp = NEEDS-SPECIALIST. Emergent
-  character-variety math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b190_*` (2).
+  not.** **Open** gluing proliferates — the fork-polynomial **degree** (a Bézout/resultant *upper bound*, not the
+  geometric count) grows `T^k → 8+k` (linear in twists), swaps `~double` (S=16, ST=32); never collapses to 1, never
+  empties. **Closed/loop** (over-determination = fixed points) collapses the continuum to a **finite discrete** set
+  whose **total** count grows (ST→1, TST→2, STST→3, STSTST→4); the lone count-1 case (ST) is the **trivial** point
+  `(2,2,2)` (MB12-vacuous), and the genuine non-trivial fixed points are **golden-field** `((√5−1)/2, …)` and
+  **non-monotone** (seq `0,0,2,0` — appear at STST, vanish at STSTST). So selection-to-discrete **yes**,
+  selection-to-forced-unique **no** — confirms B185 in the trace ring (both directions). The literal closed-loop
+  3-manifold realization is multi-cusp = NEEDS-SPECIALIST. *(Two precision fixes applied post-merge after in-batch
+  adversarial verification — see FINDINGS; core unchanged.)* Emergent character-variety math (K010); firewalled,
+  nothing to `CLAIMS.md`. `tests/test_b190_*` (2).
 - **B188 — the driven-dissipative metallic chain (Masterplan III, Track B) (2026-06-22; V182).** The genuinely
   **dissipative** (Lindblad) channel — **computed** the Liouvillian gap (slowest relaxation rate) of a dephasing
   metallic chain vs controls. **An inversion of the naive "criticality ⟹ gapless" guess:** the **localized**
