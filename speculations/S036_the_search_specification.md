@@ -38,7 +38,7 @@ measured against this table (no bypassing a hit; no blessing a coincidence).
 | dynamics | a time evolution | — | ✓ trace map / isomonodromy |
 | quantization | a discrete spectrum | trivial (any quasiperiodic op) | ✓ emergent (gap-labeling) |
 | interaction / coupling | forces between units | — | ✓ gluing / weaving |
-| **selection** | interaction forces a *unique* / specially-structured choice | the discrete set merely *proliferates* with N (no convergence) | ~ pair → finite fork; uniqueness **untested** |
+| **selection** | interaction forces a *unique* / specially-structured choice | the discrete set merely *proliferates* with N (no convergence) | ~ pair → finite fork; **superposition channel tested (`B182`): PROLIFERATES (gap-label rank = 1+#distinct-fields → ∞), it does NOT select-to-unique. Selection-to-unique is a CONSTRAINT (gluing/over-determination) phenomenon — multi-cusp NEEDS-SPECIALIST (H5-a).** |
 | **symmetry / gauge** | the SM gauge group *forced* | gauge group is free input (as N=2\* is) | ~ S-duality real, SM **not selected** (`B150`/L15) |
 | **a SCALE** | a dimensionful quantity / a *forced* ratio from the collective, not reducible to an external unit | every collective quantity is still a dimensionless ratio of counts/frequencies/lattice-units | ✗ external — **criticality door now tested (`B181`): the metallic object is *permanently critical* = scale-free *by* criticality; a finite emergent length needs broken criticality (off-metallic) + is dimensionless; scale-search → Hitchin side. (Open: an *open/driven* large-N collective.)** |
 | **arrow of time** | genuine irreversible / dissipative dynamics | only a combinatorial counting-arrow; dynamics stays reversible | ✗ Ω-arrow combinatorial (`B168`); trace map reversible (`B177`) |

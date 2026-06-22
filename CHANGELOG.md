@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B182 — the selection / multiplicity door (S036 hunt 2) (2026-06-19; V176).** The direct answer to "2 / more /
+  set / infinity of units?" for the **superposition (weaving)** channel: it **proliferates**, it does **not**
+  select-to-unique. PSLQ shows weaving `N` distinct-field metallic units gives a gap-label module of **rank `1+N`**
+  (→ ∞ as N→∞); it's the number of **distinct fields** that grows it, not the unit count (same-field `m=1,4` are
+  dependent, `−1+2α₁−α₄=0`). **The fence:** selection-to-*unique* is a **constraint** (gluing/over-determination)
+  phenomenon — finite κ-fork pairwise (K014/B174), over-determined when iterated — multi-cusp **NEEDS-SPECIALIST**;
+  superposition only enriches. And the proliferating structure stays dimensionless + scale-free (B181). So "infinity
+  of units" → infinitely rich, still scale-free; SELECTION-uniqueness stays open on the constraint side. Pure
+  arithmetic (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b182_*` (2).
 - **S036 + B181 — the search specification, and its first hunt (the criticality scale-door) (2026-06-19; V175).**
   **`speculations/S036`** (firewalled, POSTULATED) is the **search specification** prompted by the reframe *"the ToE
   emerges from the interaction of multiple units, not the single one — clarify what we're searching for so we
