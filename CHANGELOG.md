@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B188 — the driven-dissipative metallic chain (Masterplan III, Track B) (2026-06-22; V182).** The genuinely
+  **dissipative** (Lindblad) channel — **computed** the Liouvillian gap (slowest relaxation rate) of a dephasing
+  metallic chain vs controls. **An inversion of the naive "criticality ⟹ gapless" guess:** the **localized**
+  (Aubry–André) control is the near-gapless one (gap `~100×` smaller — localization ⟹ slow relaxation), while the
+  permanently-critical metallic chain relaxes like an **extended** chain (gap `~` periodic). The gap decays to zero
+  in the thermodynamic limit (diffusive — no finite emergent timescale) and is **homogeneous in the external rates**
+  (`Δ(sH,sγ)=sΔ` exactly → no intrinsic scale). Completes the open-system trilogy B183/B187/B188 — a real but
+  externally-sourced, dimensionless arrow; no emergent scale. Interacting Lindblad = NEEDS-SPECIALIST. Emergent
+  open-quantum-systems math (K010 boundary); firewalled, nothing to `CLAIMS.md`. `tests/test_b188_*` (2).
 - **B187 — the open / interacting many-body collective (Masterplan III, Track B) (2026-06-22; V181).** Extends B183
   (single-particle) to the **interacting** case S036 left open — **computed** by exact diagonalization of a few
   fermions. B183's *thresholdless arrow* **persists with interactions**: the permanently-critical metallic chain's
