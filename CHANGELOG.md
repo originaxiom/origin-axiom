@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B189 — the Ω accretion causal-set dimension (Masterplan III, Track E; L21, FIREWALLED) (2026-06-22; V184).**
+  Computed the Myrheim–Meyer ordering-fraction dimension of the Ω class DAG (B156/B159) — *and hunted the artifact*.
+  The estimator (calibrated on Minkowski sprinklings, matches Meyer's `f(d)` to a few %) gives `d_MM ≈ 3.94` for the
+  full poset — but it is a **generic graded-DAG / truncation artifact, not a spacetime dimension**: it **drifts**
+  upward with truncation (`2.08→2.70→3.28→3.63→3.94` for `L≤6…10`, no convergence) **and** is **matched by a random
+  graded-DAG null control** (`3.79±0.01`, same level sizes + edge counts). So the program's most over-readable
+  number (a "4") is vacuous as physics — the firewall holds **by computation**, preempting any "Ω predicts 4D"
+  over-read. L21 computed and closed firewalled; combinatorial-only, nothing to `CLAIMS.md`. `tests/test_b189_*` (2).
 - **B190 — abstract iterated gluing (Masterplan III, Track F) (2026-06-22; V183).** Pushes B174's trace-ring gluing
   past B185's pair-cap, **in both directions**, to test whether iterating forces a *unique* selection. **It does
   not.** **Open** gluing proliferates — the fork-polynomial **degree** (a Bézout/resultant *upper bound*, not the
