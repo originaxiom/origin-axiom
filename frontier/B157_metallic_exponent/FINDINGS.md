@@ -79,6 +79,18 @@ program to `φ_m`** — a per-cell `min-j`-scalar computation over ℚ(ζ_o) —
 data corners that would constrain it (`m≥4`; `o≥5`, which needs `n≥5`) are blocked by the SL(4)/SL(5) Newton
 wall; a structured construction (B89-style) is the prerequisite. **[open]**
 
+**UPDATE 2026-06-23 (both in-sandbox routes confirmed exhausted — NEEDS-SPECIALIST / real CAS):** the structured
+*automatic* construction was attempted in the pyenv sympy sandbox (auto-solve of the full (*)-ideal, and the
+ideal-membership `min-j`-scalar reading via a Gröbner basis over `ℚ(ζ_o)`). It is **intractable here**: `sp.solve`
+on the 9-variable cyclotomic system hits an internal Gröbner bug, and a `grevlex` Gröbner basis of the (*)-ideal
+does **not finish even at SL(3)** (10 vars, >3 min, no result) — so SL(5) (25 vars) is hopeless in sympy. The
+**per-cell hand-reduced** symbolic proofs *do* work and are exact (`r1_fig_sl3_o4_proof.py` SL(3) o=4→k=3 over
+ℚ(i); B89 SL(4) o=3→k=4 over ℚ(ω)), but they don't auto-generalize. So the wall cells are unreachable in-sandbox
+from **both** sides — Newton numerics (above) **and** sympy symbolic (here). Reaching them needs a **proper CAS**
+(Singular / Macaulay2 / Sage with efficient Gröbner over `ℚ(ζ_o)`) or per-cell hand-reduction generalized to the
+SL(5)/o≥5 spectra — genuine **NEEDS-SPECIALIST**, now confirmed by computation. *(The exponent-law flagship, Track
+A of Masterplan III, terminates here for the in-sandbox program.)*
+
 ## Firewall
 
 Standalone character-variety / low-dim-topology mathematics. No physics; nothing to `CLAIMS.md`. The figure-
