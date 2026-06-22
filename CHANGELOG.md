@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B196 + S037 — the entropy↔conformal-dimension bridge, and the firewalled cosmogony (2026-06-23; V186).**
+  *Solid math (B196):* under Painlevé VI ↔ c=1 (Gamayun–Iorgov–Lisovyy), the metallic once-punctured-torus object
+  is a **c=1 four-twist-field** (Δ=1/16) conformal block whose single nontrivial datum is the dimension of its
+  (hyperbolic) bundle/time-monodromy, **`Δ = −(ln λ_m/π)² = −(topological entropy/2π)²`** — the object's *dynamics*
+  dressed as a CFT dimension, dimensionless and non-unitary. Rests on the exact identity `λ_m²+1/λ_m² = m²+2`.
+  Forces **no** physical content (c=1 trivially fixed; Δ dimensionless; no scale/mass); the precise PVI channel
+  placement is the one NEEDS-SPECIALIST detail (the value is exact). *Firewalled speculation (`speculations/S037`):*
+  the four-part dualism — object = form (a conformal block whose content is its own entropy); Higgs field = scale;
+  bath = arrow; import = identity — three legs external (the wall). Negatives kept prominent (B169 time=modulus,
+  B151/B167 scale=import, B189 the artifact warning): this **confirms relocation, does not breach**. Emergent
+  quantum-topology math (K010); nothing to `CLAIMS.md`; P1–P16 frozen. `tests/test_b196_*` (3).
 - **B192 — SL(n≥3) higher-rank Lyapunov spectra (Masterplan III, Track D; L20 deepened) (2026-06-22; V185).**
   Computed the *full* Lyapunov spectrum (QR-flag) of the metallic SL(n) transfer cocycle, turning V29 into a
   **measured property**. **A clean parity law:** the spectrum is **symmetric (symplectic) iff `n` is even** (defect
