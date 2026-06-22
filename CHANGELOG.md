@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B184 — the symmetry / gauge door (S036 hunt 4) (2026-06-22; V178).** Does the interaction of multiple units
+  **force** a symmetry (a gauge group)? **No — computed, not asserted.** Each unit has a *forced* symmetry: the
+  modular **SL(2,ℤ)** duality (B150 — real, but a *duality* not the SM gauge group) and a self-similarity
+  **inflation** `×λ_m` = the companion `[[m,1],[1,0]] ∈ GL(2,ℤ)`. But the interaction of *distinct-field* units
+  **breaks** the global inflation (the cross-product `α₁α₂` escapes the rank-3 module; the dilation factors
+  `λ₁,λ₂` are multiplicatively independent) and only **multiplies** the per-unit dualities — a product that
+  **proliferates** with N (mirrors B182), not a selected Lie/gauge group. Same-field units keep a *shared*
+  inflation (`α₁α₄=2−3α₁`, field-not-count). So the **gauge** content stays **free input** (the S036 null), now
+  computed. **Unifying fact across B182/B184:** the *same* distinct-field / cross-product-escape arithmetic that
+  grows the gap-label rank (B182) is what breaks the inflation symmetry (B184) — proliferation and symmetry-breaking
+  are two faces of one fact. Emergent quasicrystal/character-variety symmetry math (K010); firewalled, nothing to
+  `CLAIMS.md`. `tests/test_b184_*` (4).
 - **B183 — the open / driven collective arrow door (S036 hunt 3) (2026-06-22; V177).** The last untested arrow/scale
   door B181 left open ("an *open/driven* large-N collective"), **computed, not deferred.** Two naive PT probes are
   artifacts (a halves-split gives `max|Im|=γ` trivially; a staggered ±iγ gives `γ_c→0` for any `V≠0` — a
