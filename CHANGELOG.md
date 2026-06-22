@@ -9,6 +9,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B183 — the open / driven collective arrow door (S036 hunt 3) (2026-06-22; V177).** The last untested arrow/scale
+  door B181 left open ("an *open/driven* large-N collective"), **computed, not deferred.** Two naive PT probes are
+  artifacts (a halves-split gives `max|Im|=γ` trivially; a staggered ±iγ gives `γ_c→0` for any `V≠0` — a
+  **chiral-symmetry** artifact, not localization). The discriminating, theorem-backed probe is the **Hatano–Nelson**
+  imaginary gauge field under PBC: the real spectrum goes complex (a non-unitary, **irreversible** point gap = an
+  arrow) at `g_c = min` Lyapunov over the spectrum = the inverse localization length. **Result — the same inversion
+  as B181:** the metallic collective is **thresholdless** (`g_c≈0`, since permanently critical, B181) — it gains an
+  irreversible spectrum under the *slightest* drive; criticality = **maximal fragility** to the arrow, not robustness.
+  A localized control (AA `V=8cos`, off-metallic) is **protected** up to the *exact* finite `g_c=ln4=1.386`. **The
+  firewall holds:** the arrow is genuine (unlike combinatorial Ω, B168 / reversible trace map, B177) but `g_c` is
+  **dimensionless** (no scale) and the arrow's **source is external** (the openness is input — not self-generated).
+  So the **ARROW** ingredient upgrades to "emergent in the open collective, thresholdless, dimensionless, externally
+  sourced"; **SCALE** stays external. Permanent criticality is **double-edged** — it *is* the scale-freeness (`ξ→∞`)
+  **and** the zero-threshold arrow-fragility (`g_c=0`). Validated against exact `ln4`; controls pass. Emergent
+  non-Hermitian/localization math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b183_*` (3).
 - **B182 — the selection / multiplicity door (S036 hunt 2) (2026-06-19; V176).** The direct answer to "2 / more /
   set / infinity of units?" for the **superposition (weaving)** channel: it **proliferates**, it does **not**
   select-to-unique. PSLQ shows weaving `N` distinct-field metallic units gives a gap-label module of **rank `1+N`**

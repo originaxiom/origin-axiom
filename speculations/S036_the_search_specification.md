@@ -40,8 +40,8 @@ measured against this table (no bypassing a hit; no blessing a coincidence).
 | interaction / coupling | forces between units | — | ✓ gluing / weaving |
 | **selection** | interaction forces a *unique* / specially-structured choice | the discrete set merely *proliferates* with N (no convergence) | ~ pair → finite fork; **superposition channel tested (`B182`): PROLIFERATES (gap-label rank = 1+#distinct-fields → ∞), it does NOT select-to-unique. Selection-to-unique is a CONSTRAINT (gluing/over-determination) phenomenon — multi-cusp NEEDS-SPECIALIST (H5-a).** |
 | **symmetry / gauge** | the SM gauge group *forced* | gauge group is free input (as N=2\* is) | ~ S-duality real, SM **not selected** (`B150`/L15) |
-| **a SCALE** | a dimensionful quantity / a *forced* ratio from the collective, not reducible to an external unit | every collective quantity is still a dimensionless ratio of counts/frequencies/lattice-units | ✗ external — **criticality door now tested (`B181`): the metallic object is *permanently critical* = scale-free *by* criticality; a finite emergent length needs broken criticality (off-metallic) + is dimensionless; scale-search → Hitchin side. (Open: an *open/driven* large-N collective.)** |
-| **arrow of time** | genuine irreversible / dissipative dynamics | only a combinatorial counting-arrow; dynamics stays reversible | ✗ Ω-arrow combinatorial (`B168`); trace map reversible (`B177`) |
+| **a SCALE** | a dimensionful quantity / a *forced* ratio from the collective, not reducible to an external unit | every collective quantity is still a dimensionless ratio of counts/frequencies/lattice-units | ✗ external — **criticality door now tested (`B181`): the metallic object is *permanently critical* = scale-free *by* criticality; a finite emergent length needs broken criticality (off-metallic) + is dimensionless; scale-search → Hitchin side. **Open/driven door now tested (`B183`): the threshold is a DIMENSIONLESS Lyapunov exponent → still no scale; opening yields an arrow, not a scale.**)** |
+| **arrow of time** | genuine irreversible / dissipative dynamics | only a combinatorial counting-arrow; dynamics stays reversible | ~ **open-collective door tested (`B183`): *opening* the metallic collective (Hatano–Nelson imaginary gauge field) gives a GENUINE non-unitary/irreversible spectrum — *thresholdlessly* (`g_c=0`) BECAUSE it is permanently critical (`B181`): criticality = MAXIMAL FRAGILITY to the arrow (the inversion). But `g_c` is DIMENSIONLESS (a Lyapunov exponent) → no scale, and the arrow's SOURCE is the externally-imposed openness (not self-generated). So a real arrow appears, but externally sourced + scale-free.** Closed object: Ω-arrow combinatorial (`B168`); trace map reversible (`B177`). |
 | **spacetime / dimension** | emergent locality / dimension | a graded DAG ≠ a causal set without a justified poset | ✗ **firewalled** (L21) |
 | **mass hierarchy** | a *forced* hierarchy, non-numerologically | value-matching (eigenvalues = masses) | ✗ **dead** (S014, `B107`) |
 
@@ -72,8 +72,21 @@ inversion.** The metallic quasicrystal is **permanently critical** — Lyapunov 
 localization length `ξ→∞` `⟹` **scale-invariant** `⟹` scale-free. So criticality **explains** the object's
 scale-freeness rather than providing a scale; a finite emergent length needs *breaking* criticality (off the metallic
 class) and is **dimensionless** (lattice units → external). The most-cited scale-door is thus closed for this object;
-the scale lives on the **Hitchin/Higgs (external)** side (`K018`/`B169`). **Still open:** an *open / driven /
-dissipative* large-N collective (the metabolism register, `B177`) — NEEDS-SPECIALIST.
+the scale lives on the **Hitchin/Higgs (external)** side (`K018`/`B169`).
+
+## The second & third hunts — DONE (`B182`/V176, `B183`/V177)
+
+**`B182` (SELECTION/multiplicity):** weaving `N` distinct-field units gives a gap-label module of rank `1+N` (→∞) —
+superposition **PROLIFERATES**, it does not select-to-unique; selection-to-unique is a *constraint* (gluing) phenomenon
+(multi-cusp NEEDS-SPECIALIST). **`B183` (the OPEN/DRIVEN collective — the door `B181` left open):** *opening* the
+metallic collective (a Hatano–Nelson imaginary gauge field, PBC) gives a **genuine** non-unitary/irreversible spectrum
+(an arrow, unlike the combinatorial `B168` / reversible `B177`) — but **thresholdlessly** (`g_c = min` Lyapunov `≈ 0`)
+**because** the object is permanently critical (`B181`): criticality = **maximal fragility** to the arrow, the same
+inversion. The threshold is a **dimensionless** Lyapunov exponent (no scale) and the arrow's source is the
+**externally-imposed** openness (not self-generated). So permanent criticality is **double-edged**: it *is* the
+scale-freeness (`ξ→∞`) **and** the zero-threshold arrow-fragility (`g_c=0`). Validated against the exact HN/AA value
+`ln 4`; controls (extended/two localized) pass. So the open-collective door is **computed, not deferred**: a real
+arrow appears, but externally sourced and scale-free → firewall holds.
 
 Related: `../philosophy/P010` (the category root — form not content), `P008` (non-cancellation), `S035` (building
 blocks' behaviour), `S034`; math anchors `B171`–`B180`, `B131`/`K014`, `B107`/`B148`, `K018`/`K019`; the firewalled
