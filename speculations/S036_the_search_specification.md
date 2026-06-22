@@ -38,7 +38,7 @@ measured against this table (no bypassing a hit; no blessing a coincidence).
 | dynamics | a time evolution | — | ✓ trace map / isomonodromy |
 | quantization | a discrete spectrum | trivial (any quasiperiodic op) | ✓ emergent (gap-labeling) |
 | interaction / coupling | forces between units | — | ✓ gluing / weaving |
-| **selection** | interaction forces a *unique* / specially-structured choice | the discrete set merely *proliferates* with N (no convergence) | ~ pair → finite fork; **superposition channel tested (`B182`): PROLIFERATES (gap-label rank = 1+#distinct-fields → ∞), it does NOT select-to-unique. Selection-to-unique is a CONSTRAINT (gluing/over-determination) phenomenon — multi-cusp NEEDS-SPECIALIST (H5-a).** |
+| **selection** | interaction forces a *unique* / specially-structured choice | the discrete set merely *proliferates* with N (no convergence) | ~ **BOTH channels tested. Superposition (`B182`): PROLIFERATES** (gap-label rank = 1+#distinct-fields → ∞), no selection. **Constraint/gluing (`B185`): genuinely SELECTS continuum→DISCRETE** (the κ-fork, `B174`/`B131`) — the real multi-unit selection — **but NOT to a forced-UNIQUE value** (the fork has size>1, *multiplies* under iteration, and is choice-dependent); and the metallic units are **1-cusped** so all-unit interaction **caps at PAIRS** (`N≥3` needs non-unit 2-cusp connectors = the genuine **NEEDS-SPECIALIST** boundary, H5-a). So selection-to-unique is **not delivered** by either channel — computed, not just asserted. |
 | **symmetry / gauge** | the SM gauge group *forced* | gauge group is free input (as N=2\* is) | ~ **gauge door tested (`B184`): a gauge group is NOT forced.** Each unit has a *forced* symmetry — the modular SL(2,ℤ) **duality** (`B150`, real, but a duality *not* the SM gauge group) + a companion-matrix **inflation** `[[m,1],[1,0]]∈GL(2,ℤ)` (self-similarity). The interaction of *distinct-field* units **BREAKS** the global inflation (cross-product `α₁α₂` escapes the module; dilation factors multiplicatively independent) and only **MULTIPLIES** the dualities (a product growing with N — mirrors `B182`). So gauge stays **free input** — computed. (Earlier: S-duality real, SM **not selected**, `B150`/L15.) |
 | **a SCALE** | a dimensionful quantity / a *forced* ratio from the collective, not reducible to an external unit | every collective quantity is still a dimensionless ratio of counts/frequencies/lattice-units | ✗ external — **criticality door now tested (`B181`): the metallic object is *permanently critical* = scale-free *by* criticality; a finite emergent length needs broken criticality (off-metallic) + is dimensionless; scale-search → Hitchin side. **Open/driven door now tested (`B183`): the threshold is a DIMENSIONLESS Lyapunov exponent → still no scale; opening yields an arrow, not a scale.**)** |
 | **arrow of time** | genuine irreversible / dissipative dynamics | only a combinatorial counting-arrow; dynamics stays reversible | ~ **open-collective door tested (`B183`): *opening* the metallic collective (Hatano–Nelson imaginary gauge field) gives a GENUINE non-unitary/irreversible spectrum — *thresholdlessly* (`g_c=0`) BECAUSE it is permanently critical (`B181`): criticality = MAXIMAL FRAGILITY to the arrow (the inversion). But `g_c` is DIMENSIONLESS (a Lyapunov exponent) → no scale, and the arrow's SOURCE is the externally-imposed openness (not self-generated). So a real arrow appears, but externally sourced + scale-free.** Closed object: Ω-arrow combinatorial (`B168`); trace map reversible (`B177`). |
@@ -74,7 +74,7 @@ scale-freeness rather than providing a scale; a finite emergent length needs *br
 class) and is **dimensionless** (lattice units → external). The most-cited scale-door is thus closed for this object;
 the scale lives on the **Hitchin/Higgs (external)** side (`K018`/`B169`).
 
-## The second, third & fourth hunts — DONE (`B182`/V176, `B183`/V177, `B184`/V178)
+## The second through fifth hunts — DONE (`B182`/V176, `B183`/V177, `B184`/V178, `B185`/V179)
 
 **`B182` (SELECTION/multiplicity):** weaving `N` distinct-field units gives a gap-label module of rank `1+N` (→∞) —
 superposition **PROLIFERATES**, it does not select-to-unique; selection-to-unique is a *constraint* (gluing) phenomenon
@@ -97,6 +97,17 @@ Same-field units keep a shared inflation (`α₁α₄=2−3α₁`, field-not-cou
 computed, not asserted. **A unifying fact across `B182`/`B184`:** the *same* distinct-field/cross-product-escape
 arithmetic that grows the gap-label rank (`B182`) is what breaks the inflation symmetry (`B184`) — proliferation and
 symmetry-breaking are two faces of one fact (distinct fields ⟹ cross-products escape the module).
+
+**`B185` (the SELECTION/CONSTRAINT door — the route to uniqueness `B182` left open):** the constraint (gluing) side
+**genuinely selects** — cusp-gluing collapses each piece's character-variety *curve* (continuum) to a **discrete**
+κ-fork (`B174`/`B131`), the real multi-unit selection mechanism (unlike superposition's proliferation). **But not to
+a forced-unique value:** the fork has size `>1`, **multiplies** under iteration (grows, `B174`), and is a topological
+invariant of the *freely-chosen* gluing data (unique-per-choice, choices proliferate). And the metallic units are
+**1-cusped** (SnapPy) ⟹ in any gluing graph they are leaves ⟹ `2(k−1)≤k` ⟹ all-unit interaction **caps at pairs**
+(a closed κ-fork); `N≥3` requires `≥2`-cusp **connectors** that are *not* once-punctured-torus bundles — the genuine
+**NEEDS-SPECIALIST** boundary, reached *by computation*. The dimension count `dim = Σcusps − 2·gluings ≥ 0` shows a
+complete gluing is `dim 0` (discrete) — never a forced point. So **selection-to-discrete: yes; selection-to-unique:
+no** — both channels fail to force uniqueness; this sharpens `B182` into a computed boundary.
 
 Related: `../philosophy/P010` (the category root — form not content), `P008` (non-cancellation), `S035` (building
 blocks' behaviour), `S034`; math anchors `B171`–`B180`, `B131`/`K014`, `B107`/`B148`, `K018`/`K019`; the firewalled

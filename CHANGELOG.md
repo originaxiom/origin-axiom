@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B185 — the selection / constraint door (S036 hunt 5) (2026-06-22; V179).** The route to selection-to-*unique*
+  that B182 left as "a constraint (gluing) phenomenon, multi-cusp NEEDS-SPECIALIST" — **computed** up to the genuine
+  boundary. The constraint (gluing) side **genuinely selects**: cusp-gluing collapses each piece's character-variety
+  *curve* (a continuum) to a **discrete** κ-fork (B174/B131) — the real ">1 building block" selection, unlike
+  superposition which proliferates (B182). **But not to a forced-unique value:** the fork has size `>1`, **multiplies**
+  under iteration (grows, B174), and is a topological invariant of the *freely-chosen* gluing data (unique-per-choice,
+  choices proliferate). And the metallic units are **1-cusped** (SnapPy) → leaves in any gluing graph → `2(k−1)≤k` →
+  all-unit interaction **caps at pairs** (a closed κ-fork); `N≥3` needs `≥2`-cusp **connectors** that are *not*
+  once-punctured-torus bundles = the genuine **NEEDS-SPECIALIST** boundary. The dimension count `dim = Σcusps −
+  2·gluings ≥ 0` (closed → `0`, discrete) shows no forced point. So **selection-to-discrete: yes; selection-to-unique:
+  no** — neither channel forces uniqueness; this sharpens B182 into a computed boundary. Emergent character-variety /
+  3-manifold gluing math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b185_*` (3).
 - **B184 — the symmetry / gauge door (S036 hunt 4) (2026-06-22; V178).** Does the interaction of multiple units
   **force** a symmetry (a gauge group)? **No — computed, not asserted.** Each unit has a *forced* symmetry: the
   modular **SL(2,ℤ)** duality (B150 — real, but a *duality* not the SM gauge group) and a self-similarity
