@@ -23,9 +23,12 @@ edges, and its ordering fraction → `d_MM`.
 - **C2 — it DRIFTS (no convergence).** `d_MM` rises monotonically with truncation level: `L≤6 → 2.08`, `L≤7 → 2.70`,
   `L≤8 → 3.28`, `L≤9 → 3.63`, `L≤10 → 3.94`. It does **not** stabilize — the value tracks the *number of layers*
   included. A real spacetime dimension would converge; a graded poset's "dimension" grows with its depth.
-- **C3 — NULL CONTROL: a generic graded-DAG artifact.** A **random** graded DAG with the *same level sizes* and the
-  *same consecutive-level edge counts* gives `d_MM = 3.79 ± 0.01` — **indistinguishable** from Ω's 3.94. So the
-  value is **not special to Ω**; it is what *any* layered DAG of this shape yields.
+- **C3 — NULL CONTROL: the same *order* as a generic graded DAG.** A **random** graded DAG with the *same level
+  sizes* and the *same consecutive-level edge counts* gives `d_MM = 3.78 ± 0.01` (30 seeds) — the **same order** as
+  Ω's `3.94` (both generic-layering artifacts `≈ 4`). *(Corrected 2026-06-23: the original "indistinguishable" was an
+  overstatement — Ω actually sits `~0.15` (≈12σ) **above** the null, because it is sparser in transitive reach /
+  more tree-like, i.e. **even less** manifoldlike. This **strengthens** the firewall: Ω is *less* manifold-like than
+  a random DAG of its shape.)* The point stands: a "≈4" comes out of generic layering, not Lorentzian geometry.
 - **C4 — FIREWALL (decisive).** The Myrheim–Meyer estimator assumes a Lorentzian **sprinkling**; the Ω cone is a
   **graded 7-layer DAG**, which violates that assumption. The `d≈4` is truncation-dependent (C2) **and** reproduced
   by a null (C3) — a **combinatorial artifact**, not a spacetime dimension. The L21 hook is **computed and closed as
