@@ -1,67 +1,65 @@
-# B192 — SL(n≥3) higher-rank Lyapunov spectra: the parity law makes V29 a measured property
+# B192 — SL(n≥3) higher-rank Lyapunov spectra: the "parity law" REFUTED (recorded negative)
 
-**Date:** 2026-06-22. **Status:** Masterplan III, **Track D** (L20/B166 deepened). **Computed** the *full* Lyapunov
-spectrum (all `n` exponents, QR-flag) of the metallic SL(n) transfer cocycle and read its **symmetry**. **Result: a
-clean parity law** — the metallic Lyapunov spectrum is **symmetric (symplectic) iff `n` is even**, **asymmetric
-(non-Hermitian) iff `n` is odd** — directly realizing V29 ("a symplectic form on `ℝⁿ` exists iff `n` even"), and the
-even-`n` symmetry is **special to the metallic cocycle** (a generic SL(n) is asymmetric for all `n`). **Firewall-side:**
-emergent non-Hermitian higher-rank spectral math (`K010` boundary), *not* fundamental; no scale/Λ; **nothing to
-`../../CLAIMS.md`**; P1–P16 frozen. Ledger V185. Reproducer `sln_higher_rank.py` (`ALL CHECKS PASS`).
+**Date:** 2026-06-22; **CORRECTED 2026-06-23** after independent adversarial verification. **Status:** Masterplan
+III, Track D (L20/B166). **The original headline — a metallic Lyapunov-spectrum "parity law" (symmetric iff `n`
+even, realizing V29, special to the metallic cocycle) — is REFUTED.** It was an artifact of cherry-picked energies
+plus a rigged control. This file now records the honest negative + the verify-don't-trust catch. **Firewall-side:**
+emergent non-Hermitian math (`K010`); nothing to `../../CLAIMS.md`; P1–P16 frozen. Ledger V185 (corrected). Reproducer
+`sln_higher_rank.py` (`ALL CHECKS PASS` — the checks now *verify the refutation*).
 
-## The setup
+## What was claimed, and why it's wrong
 
-The metallic SL(n) transfer companion `M_n(E,V)` (det = 1): first row `[E−V, −1, 0,…,0, (−1)^{n−1}]`, subdiagonal
-`1`s (generalizes B166's `M3`); Fibonacci ordering of the on-site potential `V ∈ {λ, 0}`. The **full** Lyapunov
-spectrum `γ_1 ≥ … ≥ γ_n` is computed by the QR-flag method (accumulating `log|R_{ii}|` for all `i`). B166 looked only
-at the *top* exponent (and recorded that SL(2)-style Cantor thinning doesn't transfer); here the *whole spectrum* and
-its symmetry are the object.
+The original B192 claimed the metallic SL(n) transfer cocycle's full Lyapunov spectrum is **symmetric (±-paired /
+symplectic) iff `n` is even** and **asymmetric iff `n` is odd** — directly realizing V29 ("symplectic form exists iff
+`n` even") — and that this even-`n` symmetry is **special to the metallic cocycle** (`163×` vs a generic SL(n)).
+Independent verification broke all three load-bearing legs:
 
-## The result
+- **D1 [STANDS] — sum = 0.** The full QR-flag Lyapunov spectrum sums to 0 (det=1, the SL(n) structure) for n=3,4,5.
+  This is true and trivial.
+- **D2 [REFUTED] — there is no parity law.** The symmetry defect at the **cherry-picked** energies `(1.3, 2.1, −1.7)`
+  (where n=4 read 0.003 "symmetric") **inverts on a fair broad energy grid**:
 
-| `n` | parity | spectrum | sum | symmetry defect `Σ|γ_i+γ_{n+1−i}|` |
-|---|---|---|---|---|
-| 2 | even | `[ 0.13, −0.13]` | 0 | **0.000** (symmetric) |
-| 3 | odd | `[ 0.25, 0.11, −0.36]` | 0 | **0.222** (asymmetric) |
-| 4 | even | `[ 0.29, 0.28, −0.28, −0.29]` | 0 | **0.003** (symmetric) |
-| 5 | odd | `[ 0.29, 0.25, −0.06, −0.21, −0.27]` | 0 | **0.114** (asymmetric) |
+  | n | 2 | 3 | 4 | 5 | 6 |
+  |---|---|---|---|---|---|
+  | defect (cherry) | 0.00 | 0.22 | **0.003** | 0.11 | 0.07 |
+  | defect (fair grid) | 0.00 | **0.03** | **0.34** | 0.41 | **0.50** |
 
-- **D1 — SL(n) structure.** The spectrum **sums to 0** (det = 1) for `n=3,4,5` — the SL(n) cocycle constraint.
-- **D2 — the parity law (V29 made visible), controlled.** The symmetry defect is `~0` for **even** `n` (n=2: 0.000,
-  n=4: 0.003 → a `±`-symmetric, symplectic spectrum) and **large** for **odd** `n` (n=3: 0.22, n=5: 0.11 →
-  non-Hermitian). **Control:** a generic random SL(n) cocycle is asymmetric for **all** `n` (n=4 defect `≈0.52`),
-  so the even-`n` symmetry is **special to the metallic cocycle** — `163×` smaller defect than generic SL(4). The
-  metallic even-`n` transfer cocycle is therefore (conjugate to) a **symplectic** one — it *uses* the symplectic
-  form V29 guarantees exists for even `n`; the odd-`n` cocycle cannot (no form) and is genuinely non-Hermitian.
-- **D3 — bounded set + tower.** A Cantor-like bounded (top-Lyapunov `≈0`) set persists (nonempty, not full), and the
-  band-center linearization carries one golden tower scale `±φᵏ` (B107/B60). B166's recorded negative stands:
-  SL(2)-style *clean* Cantor thinning still does not trivially transfer at the top-Lyapunov level.
-- **D4 — FIREWALL.** Emergent non-Hermitian higher-rank spectral math; the odd-`n` cocycle is genuinely
-  non-Hermitian (asymmetric spectrum); the rigorous higher-rank spectral theory (Hausdorff dimension, a horseshoe,
-  the spectral-set topology) stays **NEEDS-SPECIALIST** (no ground truth, B166).
+  On the fair grid the defect **grows monotonically with n** — no even/odd alternation; n=4 (even) is *more*
+  asymmetric than n=3 (odd); n=6 (even) is *not* symmetric. The "law" was a property of three hand-picked energies.
+- **D3 [REFUTED] — not special to the metallic cocycle.** A **random potential in the same companion** matches
+  metallic on the fair grid (n=4: random 0.337 vs metallic 0.344; n=6: 0.509 vs 0.503). So the (energy-dependent)
+  approximate ±-symmetry is a **structural property of the nearest-neighbour transfer/companion matrix** — its
+  eigenvalues come in reciprocal pairs `(λ, 1/λ)` at the relevant energies — present for random/periodic potentials
+  too. The original "163×" compared metallic-at-cherry-energy against a **dense-Gaussian** SL(n) matrix (which has
+  *no* transfer-matrix structure) — apples-to-oranges; against the matched same-companion control the ratio is ~1×.
 
-## What this means (L20)
+## What survives
 
-B166 established V29 as an *abstract algebra* fact (the symplectic form exists iff `n` even) and a *negative*
-(no clean Cantor thinning). B192 turns the algebra fact into a **measured spectral property**: the metallic
-transfer cocycle's Lyapunov spectrum is symplectically symmetric *exactly* when `n` is even — and this is
-non-trivial (generic SL(n) is asymmetric for all `n`). So the "intrinsically non-Hermitian for odd `n`" statement is
-now directly visible as Lyapunov-spectrum asymmetry, the cleanest possible signature. The rigorous spectral theory
-remains the genuine specialist boundary.
+- **D1** (sum=0).
+- **B166's original results STAND** (they are B166, not B192): SL(n≥3) is intrinsically **non-Hermitian** via the
+  exact symplectic obstruction (every odd-`n` antisymmetric form is degenerate, V29), and the naive SL(3) cocycle
+  shows **no clean SL(2)-style Cantor thinning** (B166's recorded negative). V29 holds **at the algebra level** — it
+  is simply **not realized as a Lyapunov-spectrum parity** (the would-be realization is the refuted claim).
+- The rigorous higher-rank non-Hermitian spectral theory stays **NEEDS-SPECIALIST** (no ground truth).
 
-## Scope / honesty
-- The full Lyapunov spectrum + symmetry are robust (QR-flag, averaged over energies, vs a generic-SL(n) control).
-- The even-`n` symmetry is established for `n=2,4`; the metallic cocycle being *literally* symplectic (vs merely
-  conjugate to one, giving the symmetric spectrum) is the natural specialist follow-up, not claimed here.
-- Emergent condensed-matter / dynamical-systems mathematics (`K010` boundary); no physical-magnitude claim; nothing
-  to `../../CLAIMS.md`; P1–P16 untouched.
+## The lesson (verify-don't-trust)
+
+Two methodological traps, both caught by an independent verifier re-deriving on a *fair* energy grid with a *matched*
+control: **(1) energy cherry-picking** — reading a "law" off three special energies where the companion happens to
+sit in its reciprocal-pairing regime; **(2) a rigged control** — a dense-Gaussian SL(n) "generic" baseline that
+lacks the transfer-matrix structure, inflating the apparent specialness. The honest fix needs an **energy-averaged**
+diagnostic and a **same-structure** (random-potential) control. This is the third verify-don't-trust self-correction
+of the Masterplan III batch (with B189's framing fix and B190's degree/monotonicity fixes).
 
 ## Anchors
-`B166_sln_aperiodic` (V29 / the symplectic obstruction + the top-Lyapunov negative this deepens), `B109` (the
-center-manifold / band-center link), `B60`/`B61`/`B107` (the SL(n) tower, the golden scale), `docs/OPEN_LEADS.md`
-L20. External: the QR-flag / multiplicative ergodic (Oseledets) Lyapunov spectrum; symplectic cocycles ⟹
-`±`-symmetric Lyapunov spectra; non-Hermitian aperiodic / higher-rank spectral theory (the specialist residual).
+`B166_sln_aperiodic` (V29 + the no-Cantor-thinning negative — the standing results that survive), `B109` (the
+center-manifold link), `B60`/`B61`/`B107` (the tower / golden scale), `docs/OPEN_LEADS.md` L20 (reverted to B166's
+CHARACTERIZED status; the B192 parity-law addition removed). External: QR-flag / Oseledets Lyapunov spectrum;
+reciprocal-pair eigenvalues of nearest-neighbour transfer matrices (the actual cause of the energy-dependent
+approximate symmetry); symplectic cocycles ⟹ ±-symmetric spectra (the *genuine* statement, which the metallic
+companion does not satisfy as a law).
 
 ## Reproduction
-`python frontier/B192_sln_higher_rank/sln_higher_rank.py` — D1 the full spectrum sums to 0; D2 the parity law +
-the generic-SL(n) control; D3 the bounded set + golden tower scale; D4 the firewall/NEEDS-SPECIALIST residual.
-Prints `ALL CHECKS PASS`. Fast locks in `tests/test_b192_sln_higher_rank.py` (2 tests, ~0.5s).
+`python frontier/B192_sln_higher_rank/sln_higher_rank.py` — D1 sum=0; D2 the cherry→fair inversion (no parity law);
+D3 the random-potential match (not metallic-special); D4 what survives (V29 at the algebra level / B166). Prints
+`ALL CHECKS PASS` (the checks verify the refutation). Fast locks in `tests/test_b192_sln_higher_rank.py` (3 tests).

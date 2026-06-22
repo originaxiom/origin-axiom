@@ -8,6 +8,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ## [Unreleased]
 
+### Changed
+- **Verification corrections (Phase V, 2026-06-23): B192 REFUTED, B189 framing fix.** An independent adversarial
+  verification pass on the recent batch (B189/B192/B196) cleared **B196/S037** (identities exact, firewall airtight)
+  but caught two problems. **B192 — the Lyapunov "parity law" is REFUTED** (retracted in place to a recorded
+  negative): the claimed *symmetric-iff-`n`-even / special-to-metallic* law was an artifact of cherry-picked
+  energies (it **inverts** on a fair energy grid — n=4→0.34, n=3→0.03, n=6→0.50, no even/odd alternation) plus a
+  rigged dense-Gaussian control (a *random potential* in the same companion matches metallic, n=4: 0.34). The
+  approximate ±-symmetry is a generic reciprocal-pair transfer-matrix property, not a law and not metallic-special;
+  V29 holds at the algebra level but is *not* realized as a Lyapunov parity. Only "spectrum sums to 0" survives;
+  **B166's original results are unchanged.** **B189 — framing fix**: the C3 "indistinguishable from the null"
+  overstated — Ω's `d_MM=3.94` sits `~0.15` (≈12σ, 30 seeds) **above** the null `3.78` (sparser/more tree-like → even
+  *less* manifoldlike); same *order* (both ~4 graded-DAG artifacts), and the headline (d≈4 is an artifact, vacuous as
+  physics) **stands and is strengthened**. Reproducers/tests/FINDINGS/ledger/OPEN_LEADS reworded. (verify-don't-trust
+  working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
+
 ### Added
 - **B196 + S037 — the entropy↔conformal-dimension bridge, and the firewalled cosmogony (2026-06-23; V186).**
   *Solid math (B196):* under Painlevé VI ↔ c=1 (Gamayun–Iorgov–Lisovyy), the metallic once-punctured-torus object
