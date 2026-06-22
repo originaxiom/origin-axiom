@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **B186 — off-axis hyperbolicity certification (Masterplan III, Track C) (2026-06-22; V180).** The first frontier of
+  the computable-frontier program (compute every open branch to its boundary; defer nothing prematurely). Grounds
+  B165's *conditional* theorem for the off-axis κ<2 Cantor spectrum (L19): the hyperbolicity hypothesis is
+  strengthened from **one** diagnostic (B163's MST) to **three independent** ones, the key one **validated on the
+  Damanik–Gorodetski-proven κ>2 case**. The trace-map **escape rate** `γ` (a Bowen–Ruelle hyperbolicity signature:
+  exponential escape ⟺ hyperbolic repeller) is `>0` off-axis (κ<2) exactly as on the proven κ>2 case and `≈0` on the
+  κ=2 band (calibrator) — fixing B165's escape-contaminated naive ratio; robust to trapping radius and sampling.
+  Plus **box-counting dimension** (off-axis `<` band, golden+silver), independent of the MST. Two *local* diagnostics
+  recorded NEGATIVE (per-point `|λ_max(DT)|`, bounded-orbit Lyapunov — verify-don't-trust). Only the rigorous off-axis
+  uniform-hyperbolicity *proof* (a non-Hermitian Damanik–Gorodetski) stays NEEDS-SPECIALIST. Emergent
+  spectral/dynamical math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b186_*` (2).
 - **B185 — the selection / constraint door (S036 hunt 5) (2026-06-22; V179).** The route to selection-to-*unique*
   that B182 left as "a constraint (gluing) phenomenon, multi-cusp NEEDS-SPECIALIST" — **computed** up to the genuine
   boundary. The constraint (gluing) side **genuinely selects**: cusp-gluing collapses each piece's character-variety
