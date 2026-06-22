@@ -9,6 +9,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Added
+- **S036 + B181 — the search specification, and its first hunt (the criticality scale-door) (2026-06-19; V175).**
+  **`speculations/S036`** (firewalled, POSTULATED) is the **search specification** prompted by the reframe *"the ToE
+  emerges from the interaction of multiple units, not the single one — clarify what we're searching for so we
+  recognize a result and don't bypass it."* It registers each physics ingredient with **what would count** as it
+  emerging from interaction and **the null to reject** (the MB12 vacuity-check at program scale): the *form*
+  ingredients are present/emergent; the *content* ingredients (scale, arrow, selection-uniqueness, gauge, masses) are
+  external/dead at single+pair, with **multiplicity (N→∞)** the untested lever. **`B181`** runs the first hunt — the
+  **large-N / criticality** scale-door — and finds an **inversion:** the metallic quasicrystal is **permanently
+  critical** (Lyapunov γ≈0 on the spectrum at *all* coupling — no metal–insulator transition, vs the Aubry–André
+  control which localizes at λ>2 with γ=ln(λ/2)). Permanent criticality ⟹ `ξ→∞` ⟹ scale-invariant ⟹ **scale-free
+  *by* criticality** — so criticality *explains* the scale-freeness rather than providing a scale; a finite emergent
+  length needs *breaking* criticality (off the metallic class) and is *dimensionless* (lattice units → external). The
+  scale-search points to the Hitchin/Higgs side; open = an *open/driven* large-N collective. Emergent criticality math
+  (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b181_*` (2).
 - **B180 — the two-faces dictionary: one hinge quantity + two analogous operations (2026-06-19; V174;
   understand-completely #5).** Resolves "is *two faces of one principle* (K019) an identity or an analogy?" →
   **a sharpening.** **C1:** `κ = tr[A,B]` is the *same conserved number* on both faces — the character-variety
