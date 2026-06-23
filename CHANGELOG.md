@@ -24,6 +24,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B191 — the formal 2-cusp connector (Masterplan III, Track F; H5-a) (2026-06-23; V187).** B185 capped the
+  1-cusp metallic units at *pairs*, so `N≥3` needs a `≥2`-cusp **connector**. Computed at the trace-ring level: the
+  κ-selection **nests** — a *coupling* connector (modeled by its internal mapping class `φ_c`,
+  `boundary₂=φ_c(boundary₁)`) propagates leaf₁'s A-poly constraint into a **discrete** fork on leaf₂ (`T→9, S→16,
+  ST→32`), while the **identity/uncoupled** connector gives a **continuum** (the control). Discrete-and-
+  **proliferating** (grows with `φ_c`, never forced-unique), so the selection mechanism extends past B185's pair-cap
+  to `N≥3` in principle; the B185 dim count agrees (`(1+2+1)−2·2 = 0`, discrete iff coupled). The **true geometric
+  metallic 2-cusp 3-manifold connector** (existence, which `φ_c`) is the NEEDS-SPECIALIST residual. Closes Track F.
+  Emergent character-variety math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b191_*` (2).
 - **B196 + S037 — the entropy↔conformal-dimension bridge, and the firewalled cosmogony (2026-06-23; V186).**
   *Solid math (B196):* under Painlevé VI ↔ c=1 (Gamayun–Iorgov–Lisovyy), the metallic once-punctured-torus object
   is a **c=1 four-twist-field** (Δ=1/16) conformal block whose single nontrivial datum is the dimension of its
