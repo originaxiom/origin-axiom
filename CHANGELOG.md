@@ -24,6 +24,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B197 — the figure-eight volume-tie broken by torsion-freeness (a verified chat2 increment) (2026-06-23; V189).**
+  A cross-session (chat2) foundation-stress probe of the figure-eight Step-1 selection (C1), **independently
+  re-derived** before banking. The bulk re-derives banked work (K016 criteria, P10 filters) — cited, not re-banked.
+  **The one genuine increment:** P10's *unresolved* m003 volume-tie is **broken by torsion-freeness** — m003 carries
+  ℤ/5 torsion (not a b++ bundle), so among torsion-free bundles the figure-eight is the **unique** volume minimum
+  (verified over all 241 b++ bundles to length 10). Sharpens P10's volume filter. Framed per **V145** (trace-3 the
+  *only* proof; volume "unique *given* torsion-free" — leans on the torsion-free locus, **not** an independent axis;
+  the "prefer-simplicity" premise is permanent), so it **hardens C1 modestly**, not "independent overdetermination"
+  (the chat2 headline overstated; the corrected reading is banked). Also: the chiral pair `b++RRL`/`b++RLL` —
+  equal volume, opposite CS=±1/48. A one-line **P10 sharpening is proposed for owner approval** (not committed).
+  Form-side, K010; nothing to `CLAIMS.md`. `tests/test_b197_*` (2).
 - **B193 — the SL(3) sealing / field-content scouts (Masterplan III, Track G) (2026-06-23; V188).** Closes Track G.
   **L8:** chirality (cyclic-palindrome block sequence, B128/B134) and the **SU(2)_k eigenvalue field** (B132) are
   **independent** — all four (chirality, field) combinations occur, so the field is the quantum mod-4 spin-content,

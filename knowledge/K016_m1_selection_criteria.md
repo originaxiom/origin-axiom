@@ -16,7 +16,10 @@ The metallic once-punctured-torus bundles `M_m = R^m L^m` (`K002`/`K004`) form a
 **Classical (geometric / arithmetic):**
 
 1. **Systole — smallest volume.** `m=1` is the figure-eight, the minimal-volume orientable cusped hyperbolic
-   3-manifold; the systole / volume is extremal in the family. (B107; `K009`.)
+   3-manifold; the systole / volume is extremal in the family. (B107; `K009`.) The volume coincidence with the
+   sister `m003` (P9/P10) is **cross-family and torsion-broken**: `m003` carries `ℤ/5` torsion (not a positive-word
+   `b++` bundle), so **among torsion-free / within `b++` the figure-eight is the *unique* volume minimum** (`B197` —
+   sharpens P10's volume filter; still leans on the torsion-free condition, not an independent proof).
 2. **Expansion threshold — `λ_m < 2` only for `m=1`.** The metallic mean `λ_m=(m+√(m²+4))/2` is below 2 (the
    quantum-dimension range) only for `m=1`; so only the golden case can be a `2cos` quantum dimension. (B127; `K009`.)
 3. **Arithmeticity (a two-element selector).** `m=1` (ℚ(√−3)) is arithmetic; so is `m=2` (ℚ(i)); `m≥3` are not. So
