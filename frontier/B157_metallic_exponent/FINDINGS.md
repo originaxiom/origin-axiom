@@ -91,6 +91,19 @@ from **both** sides — Newton numerics (above) **and** sympy symbolic (here). R
 SL(5)/o≥5 spectra — genuine **NEEDS-SPECIALIST**, now confirmed by computation. *(The exponent-law flagship, Track
 A of Masterplan III, terminates here for the in-sandbox program.)*
 
+**CORRECTION 2026-06-23 (B198 — the mark above was PREMATURE; the wall is partly breached):** two of the three
+premises were tooling/diagnosis, not math. (1) "needs a real CAS (Singular/Macaulay2/**Sage**)" — **Sage is
+installed in-environment** (`command -v sage`); it reproduces the SL(3) cells **exactly** via the geometric
+component (o=3→k=4, o=4→k=3, the Gröbner sympy could not finish). (2) "SL(5) Newton wall" — the failure was
+**gauge-induced Jacobian rank-deficiency**; **gauge-fixing** the diagonal torus makes Newton converge, reaching
+the previously-unreachable **SL(5) o=5, m=1 → k=2** (`[A,B]=+µ²`, certified to ~23 digits, 3 independent methods).
+This **extends the m=1 row to o=5** (`k=7−o`) and shows `k=4−m(o−3)` governs m∈{1,2} in *value and
+existence-boundary* (m=2 o=5 → no irreducible rep, the formula's `k=0`). What genuinely **remains**
+NEEDS-SPECIALIST is *narrower*: the **exact symbolic** k at SL(5) (primary decomposition over ℚ(ζ₅) at 25 vars —
+Sage stalls already at SL(4)/16 vars) and the general all-m closed form (the `gcd(m,o)` anomaly). The wall
+**moved** from "any CAS at all" to "exact decomposition at ≥16 vars." See `frontier/B198_metallic_exponent_CAS/`
+(V190).
+
 ## Firewall
 
 Standalone character-variety / low-dim-topology mathematics. No physics; nothing to `CLAIMS.md`. The figure-

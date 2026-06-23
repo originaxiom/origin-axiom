@@ -24,6 +24,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B198 — the B157 metallic-exponent wall, breached by computation (2026-06-23; V190).** A direct test of the
+  "we compute before deferring to a specialist" directive and the new `GOVERNANCE.md` §6.1 **(C)** guardrail.
+  B157 had marked the SL(5)/o≥5 exponent cells `NEEDS-SPECIALIST` ("needs a real CAS"); **two of the three
+  premises were tooling/diagnosis, not math.** (1) **Sage is installed in-environment** (`command -v sage`) and
+  reproduces the SL(3) cells **exactly** via the geometric component (o=3→k=4, o=4→k=3 — the Gröbner sympy could
+  not finish). (2) The "SL(5) Newton wall" was **gauge-induced Jacobian rank-deficiency**; **gauge-fixing** the
+  diagonal torus makes Newton converge, reaching the previously-unreachable **SL(5) o=5, m=1 → `[A,B]=+µ²`, k=2**,
+  certified three independent ways (two Newton solvers + an mpmath dps=60 certificate where `‖[A,B]−µ²‖` falls in
+  *lockstep* with the relation residual to 1.5e-23, proving exactness; `c=+1`; neighbours excluded). This
+  **extends the figure-eight (m=1) row to o=5** (`k=7−o`; note `k=2≠rank 5`, so it *reinforces* B157's
+  "order-determined, not degree=rank"). New: `k=4−m(o−3)` governs m∈{1,2} in **both value and existence-boundary**
+  (m=2 o=5 has *no* irreducible rep — the formula's `k=0`); m=3 stays anomalous (lead: `gcd(m,o)>1`). The wall
+  **moved** — the residual is now the *exact-symbolic* `k` at SL(5) (primary decomposition at 25 vars; Sage stalls
+  already at SL(4)/16 vars) and the all-m closed form, `NEEDS-SPECIALIST` on maximal computed evidence. A first
+  high-precision certificate **failed** (a seed-selection bug in the certificate script), was caught and fixed —
+  verify-don't-trust. B157 FINDINGS corrected in place. Standalone character-variety math; firewall intact; P1–P16
+  untouched; nothing to `CLAIMS.md`.
 - **B197 — the figure-eight volume-tie broken by torsion-freeness (a verified chat2 increment) (2026-06-23; V189).**
   A cross-session (chat2) foundation-stress probe of the figure-eight Step-1 selection (C1), **independently
   re-derived** before banking. The bulk re-derives banked work (K016 criteria, P10 filters) — cited, not re-banked.
