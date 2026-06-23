@@ -48,6 +48,11 @@ def test_sl5_o5_certified_k2():
     c = comm * (mu**-2)
     assert abs(c[0, 0] - 1) < mp.mpf(10)**(-12)
     assert max(abs(c[i, j]) for i in range(n) for j in range(n) if i != j) < mp.mpf(10)**(-12)
+    # the rep is on the GEOMETRIC/cusped component: mu loxodromic + infinite order (NOT a
+    # finite-order-mu Dehn-filling point, where k would be ambiguous mod order(mu)). See meridian_order.py.
+    ev = [complex(e) for e in mp.eig(mu, left=False, right=False)]
+    assert max(abs(abs(e) - 1) for e in ev) > 0.1                       # loxodromic (off unit circle)
+    assert all(max(abs(e**dd - 1) for e in ev) > 1e-6 for dd in range(1, 41))  # mu infinite order
 
 
 def test_validation_cells_reproduce_known_k():
