@@ -24,6 +24,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B193 — the SL(3) sealing / field-content scouts (Masterplan III, Track G) (2026-06-23; V188).** Closes Track G.
+  **L8:** chirality (cyclic-palindrome block sequence, B128/B134) and the **SU(2)_k eigenvalue field** (B132) are
+  **independent** — all four (chirality, field) combinations occur, so the field is the quantum mod-4 spin-content,
+  not chirality (extends B133 across composition). **L10:** the field-fusion to `Q(ζ₁₂)=Q(√−3,i)` is a **quantum**
+  (SU(2)_k) phenomenon (a silver block already reaches it), while the **classical** metallic seed trace-fields stay
+  **disjoint** (`Q(√−3)∩Q(i)=Q`, exact). **L5/L6:** the non-metallic SL(3) sealing search is **scoped
+  NEEDS-SPECIALIST** (the B137 method + SnapPy-gated trace fields = intricate numerics; the B192 lesson cautions
+  against rushing it). Reinforces K015/K016 (field = quantum-group arithmetic, not chirality). Emergent
+  quantum-topology / character-variety math (K010); firewalled, nothing to `CLAIMS.md`. `tests/test_b193_*` (2).
 - **B191 — the formal 2-cusp connector (Masterplan III, Track F; H5-a) (2026-06-23; V187).** B185 capped the
   1-cusp metallic units at *pairs*, so `N≥3` needs a `≥2`-cusp **connector**. Computed at the trace-ring level: the
   κ-selection **nests** — a *coupling* connector (modeled by its internal mapping class `φ_c`,
