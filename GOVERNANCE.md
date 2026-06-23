@@ -1,7 +1,7 @@
 # Origin Axiom — Governance (Phase 0)
 
 **Status:** Phase 0 — locked. Amendments require a logged entry in `PROGRESS_LOG.md`.
-**Last updated:** 2026-05-22
+**Last updated:** 2026-06-23
 
 This file is the **constitution** of the consolidated Origin Axiom repository. It exists for
 one reason: the project has a documented history of generating a small, genuine mathematical
@@ -40,6 +40,13 @@ apply to itself is:
 
 The handoff document is retained in `legacy/` as a historical record of the exploration. It
 is **not** a source of claims.
+
+**The form / contents distinction (canonical phrasing of the firewall).** The object the
+project studies is the *form* of physics — the scale-free, kinematic, Betti / flat-side
+structure (the `K010` emergent-math boundary) — never its *contents*: a scale `Λ`, a mass, a
+gauge group, a spacetime, an arrow of time. Those remain **postulated inputs, not outputs**.
+"We have the form, not the contents" is the one-line statement of the firewall; any prose that
+lets the object *produce* contents (rather than be a compatible form for them) has breached it.
 
 ---
 
@@ -103,6 +110,29 @@ Before any claim is labelled `proven`, ask the skeptic's questions and record th
 5. Does the wording claim physics where only mathematics was shown?
 
 The project's credibility is the honesty of these answers, not the size of the claims.
+
+### 6.1 Two standing posture guardrails (the C / K pair)
+
+The red-team questions above gate individual claims. Two further guardrails govern the
+**program's overall posture**. They are a complementary pair — each is the antidote to the
+other's failure mode, and a healthy frontier sits *between* them:
+
+- **(C) Racing to close.** Do not upgrade "no breach found by the probes actually run" to "the
+  central question is answered, the answer is no, the product is done." Absence of a reachable
+  breach is `open` (no breach *yet found*), **not** a proof of impossibility. Declaring
+  victory-by-exhaustion is as much an overclaim as declaring physics — and it silently kills
+  live leads. The honest statement is "no breach reachable by the current probes," with the
+  residuals named.
+- **(K) Building past closed evidence.** Do not keep elaborating structure on a foundation the
+  evidence has already closed or refuted. When a result is retracted (e.g. a "law" that proved
+  to be a cherry-picked artifact), the structure resting on it retracts *with* it — it is not
+  re-narrated under a new heading.
+
+C forbids construction-on-emptiness (calling an unfinished search a finished proof); K forbids
+construction-on-sand (calling a refuted result a foundation). Both are overclaims about the
+*state of the evidence*, which §6 governs for single claims and which (C)/(K) extend to the
+program. *(Harvested from the 2026-06 cross-chat strategy review; (K) is the discipline behind
+the B192 refutation, (C) the correction to that review's own "we're done" posture.)*
 
 ---
 

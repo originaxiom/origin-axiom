@@ -4140,5 +4140,25 @@ condensed-matter mathematics, a bridge NOT a crossing**; firewall intact; nothin
 
 ---
 
+## 2026-06-23 — GOVERNANCE amendment: the form/contents firewall phrasing + the C/K posture guardrails
+
+A §10 amendment to the constitution (discipline-strengthening, no rule loosened). Harvested the
+two genuinely-useful framing tools from the 2026-06 cross-chat strategy review, kept single-source
+in `GOVERNANCE.md` (the review document itself was **not** adopted as a parallel authority):
+
+- **§2 — the form/contents distinction.** Canonical one-line phrasing of the firewall: the object
+  is the *form* of physics (scale-free, kinematic, `K010` boundary), never its *contents* (`Λ`,
+  mass, gauge group, spacetime, arrow), which stay postulated inputs. Restates `P010`/the firewall;
+  adds no claim.
+- **§6.1 — the C/K posture guardrails.** (C) Racing to close: do not upgrade "no breach found by
+  the probes run" to "the question is answered, the product is done" — absence of a reachable
+  breach is `open`, not a proof of impossibility. (K) Building past closed evidence: do not
+  elaborate structure on a refuted/closed foundation; when a result retracts, the structure on it
+  retracts too. (K) is the discipline behind the **B192** parity-law refutation; (C) is the
+  correction to the review's own "we're done" posture (the over-conservative reading that overstates
+  the evidence — we have *no reachable breach*, not *proven impossible*).
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
