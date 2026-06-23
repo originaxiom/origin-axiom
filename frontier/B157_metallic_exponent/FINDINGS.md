@@ -100,8 +100,11 @@ the previously-unreachable **SL(5) o=5, m=1 → k=2** (`[A,B]=+µ²`, certified 
 This **extends the m=1 row to o=5** (`k=7−o`) and shows `k=4−m(o−3)` governs m∈{1,2} in *value and
 existence-boundary* (m=2 o=5 → no irreducible rep, the formula's `k=0`). What genuinely **remains**
 NEEDS-SPECIALIST is *narrower*: the **exact symbolic** k at SL(5) (primary decomposition over ℚ(ζ₅) at 25 vars —
-Sage stalls already at SL(4)/16 vars) and the general all-m closed form (the `gcd(m,o)` anomaly). The wall
-**moved** from "any CAS at all" to "exact decomposition at ≥16 vars." See `frontier/B198_metallic_exponent_CAS/`
+Sage stalls already at SL(4)/16 vars) and the general all-m closed form. The wall **moved** from "any CAS at all"
+to "exact decomposition at ≥16 vars." **(Follow-up correction, same PR: the B198 grid REFUTED its own first-draft
+secondary claims — there is no simple `k(o,m)` law and no `gcd(m,o)` rule; the exponent must be read on the
+geometric stratum where the meridian `µ=A⁻ᵐt` has INFINITE order, and even there o=4,8 both give k=3. The SL(5)
+o=5 m=1 → k=2 headline is confirmed loxodromic/geometric and stands.)** See `frontier/B198_metallic_exponent_CAS/`
 (V190).
 
 ## Firewall

@@ -61,10 +61,34 @@ m∈{1,2}:
 | **m=1** | 4 | 3 | **2 (NEW)** |  → `k = 7−o`, confirmed to o=5 |
 | **m=2** | 4 | 2 | **none (NEW)** | → `k = 10−2o`; at o=5 formula gives `k=0` (trivial longitude) and indeed **no irreducible rep exists** |
 
-So `k = 4 − m(o−3)` governs m∈{1,2} in **both value and existence-boundary**: the irreducible cell exists
-**iff `4 − m(o−3) ≥ 1`**. The **m=3** row stays anomalous (o=4→3≠1, o=6→1≠−5); the lead is that m=3 breaks
-exactly where `gcd(m,o)>1` (o=3 is `o∣m`; o=6 has gcd 3). `[observation — not proven; the gcd hypothesis is the
-next computation]`
+At o≤5 this *looked* like `k=4−m(o−3)` governing m∈{1,2} in value and existence-boundary. **That reading was an
+over-reach on too small an `o` range — CORRECTED below (the grid follow-up).** What is solid: the m=1 row
+`(o=3,4,5)→(4,3,2)`, the m=2 row `(o=3,4)→(4,2)`, m=3 o=4→3 (re-verified, certified method), and m=2 o=5 has no
+irreducible rep — all on the geometric component.
+
+## Grid follow-up + CORRECTION (2026-06-23) — the meridian-order refinement; no simple closed form
+
+Extending the grid to o=8 and re-checking with the **meridian order** (`order(µ)`, `µ=A⁻ᵐt`) **refutes the two
+secondary claims above** (verify-don't-trust + the (K) guardrail, applied to this frontier's own first draft):
+
+1. **The exponent must be read on the geometric / cusped component — where `µ` has INFINITE order (loxodromic).**
+   The bundle variety *also* contains **finite-order-`µ` (Dehn-filling / orbifold) reps**, where `[A,B]=µ^k` holds
+   only **mod `order(µ)`** and which are **not** the canonical cusp. Example: SL(4) o=8 m=1 has a genuine
+   irreducible branch with `order(µ)=20` (µ-eigenvalues are 20th roots of unity) giving a spurious "k=8"; the
+   **geometric** branch there (µ infinite order) gives **k=3**. Including the finite-order-µ reps produced the
+   illusory "component-dependent / multi-exponent" readings. *(The shipped certified SL(5) o=5 rep is confirmed on
+   the geometric component: `µ` loxodromic, `|eig|=2.09,1.0,1.62,0.62,0.48`, infinite order — so the **k=2 headline
+   stands, strengthened**. `meridian_order.py`, and the test now checks it.)*
+2. **No simple single-valued `k(o,m)` law — even on the geometric component.** On the µ-infinite component,
+   **o=4 m=1 and o=8 m=1 BOTH give k=3** (8/8 reps each). So `k=7−o` / `k=4−m(o−3)` and the **`gcd(m,o)` lead are
+   REFUTED** (o=8 m=1: the formula predicts `k=−1` and *no* rep, but a geometric rep exists with `k=3`). The
+   existence-boundary claim falls with it.
+
+**Net:** the headline (the wall breach + SL(5) o=5 m=1 → k=2, geometric) is unchanged and strengthened; the
+order-determined values on the geometric component are solid for the clean cells; but **the closed-form exponent
+law does not reduce to a simple `k(o,m)`** — the right invariant is subtler (the variety stratifies by `order(µ)`,
+and even the geometric stratum gives `o=4,8 → 3`). The closed form stays genuinely **NEEDS-SPECIALIST** — now with
+the correct object identified (read `k` on the `order(µ)=∞` stratum). `meridian_order.py --grid` reproduces this.
 
 ## Grid sparsity
 
@@ -95,4 +119,6 @@ P1–P16 untouched. The figure-eight A-polynomial connection (B67) is to a publi
 - `sage_groebner.py` (**sage-python**): the EXACT SL(3) cells (ideal membership on the geometric component) +
   `dim` mode for rigorous existence/emptiness.
 - `mp_certificate.py` (**pyenv** `python`, mpmath): the SL(5) o=5 high-precision certificate (the lockstep table).
+- `meridian_order.py` (**pyenv**): the meridian-order refinement — the certified rep is loxodromic/infinite-order
+  (geometric); `--grid` shows o=4,8 both → k=3 on the µ-infinite stratum (the CORRECTION to the secondary claims).
 - `cert_sl5o5_rep.json`: a certified SL(5) o=5 rep (≈40-digit entries) loaded by `tests/test_b198_*`.
