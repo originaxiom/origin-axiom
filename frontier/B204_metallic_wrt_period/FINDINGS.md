@@ -74,13 +74,23 @@ dimension `n−1` growing. Sketch (full argument + exact identities in `PROOF.md
 cross Gauss-sum period `L_c` (its 2-adic part) the **one remaining lemma** to reach `[proved]` for the exact
 formula. Tier: `[periodicity proved; exact period one Gauss-sum-period lemma from closure]`.
 
-## Novelty (UNCHECKED — flagged for a prior-art pass)
+## Novelty — CHECKED (adversarial deep-research, V199; see `NOVELTY.md`)
 
-That WRT/RT invariants of torus bundles are Gauss sums is **known** (Jeffrey 1992; Garoufalidis;
-Hikami) — so the *mechanism* is standard. Whether the explicit closed-form **level-period as a function of
-the monodromy word** `lcm(a,b)(4+ab)/gcd(4+ab,4)` is recorded, or new, is **not yet checked**. Tiered:
-law `[num, strongly confirmed]`; mechanism `[Gauss-sum reduction, sketch]`; exact-period proof + novelty
-`[NEEDS prior-art / specialist]`. Do not promote until checked.
+**The framework and the proof mechanism are KNOWN prior art — `Z_k=tr(ρ_k(A))` of a torus-bundle mapping
+torus evaluated as a quadratic Gauss sum via reciprocity is exactly Jeffrey 1992 (CMP 147, Thm 4.1 / eq 4.8
+for the hyperbolic case `|Tr|>2`); our Gauss-reciprocity proof re-derives her method.** The exact SU(2)_k
+level-periodicity with a homology-set period is `PARTIALLY-KNOWN` (congruence subgroup property + Funar's
+abelian `|Z_k|=|H¹(M;ℤ/k)|^{1/2}`). The explicit `(a,b)`-period and the metallic-reality are `APPEARS-NOVEL
+but NEEDS-SPECIALIST` — at best a new corollary/specialization, very plausibly implicit in Jeffrey eq (4.8)
+(which already carries **both** `|Tr∓2|` moduli, i.e. both `ab=det(A−I)` and `4+ab=det(A+I)`). Two prior-art
+clusters (Coste–Gannon Galois / quantum-modular-forms; Hikami–Rozansky Gauss-sum evaluations) were NOT
+retrieved → the novel verdicts are absence-of-evidence. **Do not claim novelty.**
+
+**Framing correction (verified):** `Z_k=tr(ρ_k(R^a L^b))` with the closed-torus Kac–Peterson `S,T` is the WRT
+invariant of the **closed-torus mapping torus** `M_{R^a L^b}` (a Sol 3-manifold; Turaev / Funar Lemma 3.2),
+**not** the cusped once-punctured-torus bundle (figure-eight etc.). They share the monodromy `R^a L^b` but are
+different 3-manifolds. The **monodromy family** is metallic `R^m L^m`; the **invariant** is the closed-torus
+(Jeffrey) one. The period result is unaffected; only the topological label is corrected.
 
 ## Firewall
 Standalone quantum-topology / low-dimensional-topology arithmetic. No physics; no Λ/scale/spectral-mass; no

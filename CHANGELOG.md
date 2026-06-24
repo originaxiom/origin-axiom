@@ -38,9 +38,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `det = −(4+ab) = −det(γ+I)`); `per(diagonal)=lcm(a,b)` is proved. The exact period is verified on 14 cells; a
   closed form for the cross Gauss-sum period is the one remaining lemma to full `[proved]`.
   **Corrects** the prior exploratory memo ("no clean law / period absent when `m²+4` prime" — a search-bound artifact;
-  `m=1`, disc 5 prime, has the smallest period). Novelty **UNCHECKED** (mechanism is standard — Jeffrey/Garoufalidis;
-  the closed-form word-period flagged for a prior-art pass). Standalone quantum-topology/arithmetic; nothing to
-  `CLAIMS.md`; P1–P16 untouched.
+  `m=1`, disc 5 prime, has the smallest period). **Novelty CHECKED (V199, `NOVELTY.md`) — DEFLATED:** an
+  adversarial 99-agent prior-art pass found the framework **and** the proof mechanism are KNOWN — `Z_k=tr(ρ_k(A))`
+  of a torus-bundle mapping torus as a quadratic Gauss sum via reciprocity is exactly **Jeffrey 1992** (CMP 147,
+  eq 4.8 for `|Tr|>2`, which already carries *both* `|Tr∓2|` moduli = `ab` and `4+ab`); our proof re-derives her
+  method. Exact SU(2)_k periodicity is PARTIALLY-KNOWN (congruence subgroup property + Funar's abelian
+  `|Z_k|=|H¹|^{1/2}`); the explicit `(a,b)`-period and metallic reality are APPEARS-NOVEL but NEEDS-SPECIALIST
+  (the period likely drops out of Jeffrey eq 4.8; reality likely folklore). **Framing corrected:** `Z_k` is the
+  WRT invariant of the **closed-torus** mapping torus (Jeffrey's Sol-manifold object), not the cusped
+  punctured-torus bundle — shared monodromy, different 3-manifold. **Do not claim novelty.** Standalone
+  quantum-topology/arithmetic; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B203 — the 4 silver SL(3) components classified: all irreducible & cusped-type (2026-06-24; V196).** Identifies
   the new silver component (B201's comp3) and **explains B202** (resolves OPEN_LEADS L23(b)). All four components of
   the silver SL(3) character variety are **irreducible** (Burnside dim 9) with **A, B, µ of infinite order**
