@@ -64,6 +64,37 @@ amphichiral-fibered-knot literature.
    / Garoufalidis** Gauss-sum / Eichler-integral evaluations (named in the query, not fetched).
 3. Check the amphichiral-fibered-knot literature for the `a=b` reality fact.
 
+## Primary-source verification — direct read of Jeffrey 1992 (2026-06-24)
+
+Per "verify the agents, scrutinize Jeffrey" — the paper was read directly (scanned PDF, CMP 147), **not
+taken on the agents' word**. Findings, all from the primary source:
+- **§4.1, eq (4.3):** the SU(2) torus-bundle formula is for a **general** `U=[[a,b],[c,d]] ∈ SL(2,ℤ)`,
+  `a+d≠±2` — *not* trace-only. (An earlier mid-investigation guess that her formula was the `U=T^pS`
+  trace-only case was a **misreading** — that is §4.2, the general-group case — and is **retracted**.)
+- **eq (4.5):** `Z(Σ_U,r;ψ(U)) = Tr ℛ(U)` — definitional. **eq (4.8)** (Theorem 4.1) is the explicit closed
+  form for `|Tr U|>2`: a double Gauss sum `Σ_± (1/(2|c|√|d+a∓2|)) Σ_{β mod c} Σ_{γ=1}^{|d+a∓2|} e^{2πir(−cγ²+(a−d)γβ+bβ²)/(d+a∓2)}`,
+  with the two moduli `d+a∓2 = Tr∓2 = det(U∓I)` — for `U=R^aL^b` these are exactly **`ab` and `4+ab`**. Confirms
+  the deep-research's claim verbatim.
+- **Matrix-level identity (airtight):** Jeffrey's S (eq 4.9) with the SU(2) inner product `⟨λ,μ⟩=λμ/2` and
+  `|vol Λ^w/vol Λ^R|^{1/2}=1/√2` reduces to `√(2/r) sin(π(λ+1)(μ+1)/r)` = **our S**; her T (4.10) = our T. So
+  `Tr ℛ(R^aL^b) = tr(T^a S T^{-b} S^{-1})` = **our `Z_k` exactly** (up to the projective framing phase, which
+  `|·|` kills). **Our `Z` IS Jeffrey's torus-bundle invariant.**
+- **Focus:** the paper's stated objective is the `r→∞` semiclassical limit; "period"/"periodic" never refers to
+  the level dependence (only to alcoves / flat-connection conditions). So the **level-periodicity itself is not
+  Jeffrey's subject** — but it is a corollary of her (4.8) (the period of that Gauss sum in `r`). The exact
+  period is **not** a trivial denominator read-off: same-trace words differ (`Z_k(R^1L^4)≠Z_k(R^2L^2)`, periods
+  8 vs 4, both trace 6 — verified), and the `(2,2)` period `4 < lcm(ab,4+ab)=8` shows real Gauss-sum
+  cancellation; but it is derivable from (4.8).
+- **Honest caveat:** a direct numerical re-implementation of the *evaluated* (4.8) did **not** reproduce
+  `|Z_k|` (it returned reciprocal metallic-mean values, e.g. `φ` vs our `1/φ`) — an unresolved
+  convention/normalization bug in transcribing her framing-laden closed form. This does **not** affect the
+  conclusion: the identity `Z=Tr ℛ(U)` is established at the matrix level above, independent of (4.8).
+
+**Net (confirmed by primary source):** the V199 deflation **stands and is strengthened** — our `Z` is Jeffrey's
+invariant, the mechanism and moduli are hers, the period is a derivable (non-trivial, unstated-by-her)
+corollary. The only genuine residual prior-art risk is the two **unexamined** clusters (Coste–Gannon Galois /
+quantum-modular-forms; Hikami/Rozansky), where the level-periodicity may already be recorded.
+
 ## Source-hygiene note
 The original B204 citation guess ("Jeffrey … J. Math. Phys. 1992 … representation of the mapping class
 group") had the **wrong venue/subtitle** — corrected above to CMP 147 (1992), "…and the semiclassical
