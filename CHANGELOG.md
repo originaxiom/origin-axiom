@@ -24,6 +24,24 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B199 — the metallic exponent: no closed-form law; the clean exponent is a *sublocus*; SL(5) exact-symbolic
+  exhausted (2026-06-24; V192).** A multi-agent **Workflow** (113 agents, ~4.5M tokens, 4h: adversarial verify → law
+  propose+judge panel → 4 Goal-B exact routes → deep-research novelty → consolidate) closing the flagship by
+  computation. **Three results.** *(A) No closed-form law.* No single-valued `k(o,m)` (or `…,gcd`, or `k(A^m-spectrum)`)
+  survives — three decisive, independently-reproduced refuters: the **o=4/o=8 collision** (both → k=3 at m=1; shared
+  `eff_o=4` = eigenvalue-ratio-group order — kills `k=7−o`, every `f(o)`, gcd-rules, and the `eff_o` candidate too), the
+  **A^m-spectrum collision** (`A²[o4]=A³[o6]=diag(1,−1,−1)` exactly, yet k=2 vs 1), and **non-monotonicity** (o=4 column
+  3,2,3; brute force → zero affine fits). The only surviving closed form is the **sign `s=(−1)ⁿ⁻¹`** (splits at o=8).
+  The exponent is the structural metallic-A-polynomial slope; order-not-rank survives; degree=rank refuted at SL5
+  (k=2≠5). *(B) Verify-don't-trust correction of B198.* The rigid `[A,B]=µ²` holds only on a **~1% rigid sublocus** of
+  the dim-4 loxodromic component (grid 8/887; workflow 24/3486) — B198's "305/305 on the geometric component" was an
+  `err`-filter selection artifact; the **k=2 value stands** (at the complete cusped rep), only the *scope* is
+  down-tiered (B198 corrected in place). At SL3 it holds on the whole component; the sublocus emerges with rank.
+  *(C) SL(5) exact-symbolic exhausted.* All four maximal routes → `NEEDS-SPECIALIST` at a sharp wall — the *first*
+  degrevlex Gröbner basis at 25 vars does not terminate in 600s over ℚ(ζ₅) *or* F_p; the engines are validated
+  exact-mod-p on SL(3); R4 found the k=2 locus is **not rationally parametrizable**. Novelty (19 sources): R1
+  PARTIALLY-KNOWN (higher-n + metallic APPEARS-NOVEL), R3 APPEARS-NOVEL. Standalone character-variety math; firewall
+  intact; P1–P16 untouched; nothing to `CLAIMS.md`.
 - **B198 — the B157 metallic-exponent wall, breached by computation (2026-06-23; V190).** A direct test of the
   "we compute before deferring to a specialist" directive and the new `GOVERNANCE.md` §6.1 **(C)** guardrail.
   B157 had marked the SL(5)/o≥5 exponent cells `NEEDS-SPECIALIST` ("needs a real CAS"); **two of the three

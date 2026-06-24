@@ -1,0 +1,770 @@
+{
+ "consolidation": {
+  "confirmed_table": [
+   {
+    "m": 1,
+    "o": 3,
+    "n": 4,
+    "exps": "{1,1,w,w2}",
+    "k": 4,
+    "s": -1,
+    "tier": "exact (Q(w), SL3 figure-eight; SL4 num confirm)",
+    "stratum": "order(mu)=infinite (loxodromic)",
+    "note": "o=3 fixed point of m-dependence; k=4 at both n=3-absent/n=4"
+   },
+   {
+    "m": 1,
+    "o": 4,
+    "n": 3,
+    "exps": "{1,i,-i}",
+    "k": 3,
+    "s": 1,
+    "tier": "exact (Q(i), SL3 figure-eight)",
+    "stratum": "order(mu)=infinite",
+    "note": "min-j-scalar k=3 proven exact over Q(i) on the SL3 o4 2-param family"
+   },
+   {
+    "m": 1,
+    "o": 5,
+    "n": 5,
+    "exps": "{zeta5^j}",
+    "k": 2,
+    "s": 1,
+    "tier": "num high-precision certified (~23 digits, mpmath dps>=50; B198/V190)",
+    "stratum": "order(mu)=infinite (|eig mu|={2.09,1.62,1.0,0.62,0.48})",
+    "note": "exact-symbolic upgrade GB-blocked (Goal B); k=1->resid~10, k=3->resid~20 cleanly excluded"
+   },
+   {
+    "m": 1,
+    "o": 8,
+    "n": 4,
+    "exps": "{1,3,5,7}",
+    "k": 3,
+    "s": "split (+1 dominant / -1; NOT robustly (-1)^(n-1) off committed grid)",
+    "tier": "num (>=2 seeds; held-out off committed grid)",
+    "stratum": "order(mu)=infinite; finite-order branch orders 5/10/20 excluded",
+    "note": "THE collision datum: o=8 gives k=3 = o=4 value (kills k=7-o, monotone f(o)); finite-order-mu branch gives fake k=8"
+   },
+   {
+    "m": 2,
+    "o": 3,
+    "n": 4,
+    "exps": "{1,1,w,w2}",
+    "k": 4,
+    "s": -1,
+    "tier": "num (>=2 seeds; held-out, 45-70 geometric reps, unique)",
+    "stratum": "order(mu)=infinite",
+    "note": "confirms o=3=>k=4 across m and rank"
+   },
+   {
+    "m": 2,
+    "o": 4,
+    "n": 3,
+    "exps": "{1,i,-i}",
+    "k": 2,
+    "s": 1,
+    "tier": "num (>=2 seeds, 8-30 geometric reps, unique)",
+    "stratum": "order(mu)=infinite",
+    "note": "the silver miss: refutes k=7-eff_o (predicts 3); shares A^m-spectrum {1,-1,-1} with (3,6) but k=2 vs 1"
+   },
+   {
+    "m": 3,
+    "o": 4,
+    "n": 3,
+    "exps": "{1,i,-i}",
+    "k": 3,
+    "s": 1,
+    "tier": "num (>=2 seeds)",
+    "stratum": "order(mu)=infinite",
+    "note": "bronze o=4: completes the o=4 column (3,2,3) NON-MONOTONE in m"
+   },
+   {
+    "m": 3,
+    "o": 6,
+    "n": 3,
+    "exps": "{1,-1,-1}-ratio",
+    "k": 1,
+    "s": 1,
+    "tier": "num (>=2 seeds)",
+    "stratum": "order(mu)=infinite",
+    "note": "shares A^m-spectrum {1,-1,-1} with (2,4) but k=1 vs 2 -- kills any pure-A^m-spectral/order(A^m) law"
+   }
+  ],
+  "law_verdict": "NO simple closed form k(o,m) [or k(o,m,gcd), or k(A^m-spectrum)] survived the judge panel. The result is: there is no single-valued g(o,m,gcd) reproducing the confirmed geometric-stratum exponents; the exponent is the STRUCTURAL invariant k = min{ j>=1 : [A,B]*mu^{-j} is scalar on the geometric (order(mu)=infinite/loxodromic) component }, equivalently the integer slope of the metallic A-polynomial (L = s*M^k, the B67/Cooper-Long cusp slope generalized to phi_m). The ONLY closed form that survived is the SIGN: s = (-1)^(n-1) (exact on every clean committed cell; n=3->+1, n=4->-1, n=5->+1 -- but NOT robust off the committed grid: at m=1 o=8 n=4 the sign SPLITS +1-dominant/-1). DECISIVE REFUTERS, all independently re-verified this session: (1) THE o=4/o=8 COLLISION -- both o=4 m=1 and o=8 m=1 give k=3 on the mu-infinite stratum (re-ran meridian_order.py --grid: {3:8} and {3:8}), so k is NON-INJECTIVE in o and no f(o), gcd-rule, or k=7-o (predicts -1 at o=8) survives. (2) THE A^m-SPECTRUM COLLISION -- (m=2,o=4) and (m=3,o=6) have IDENTICAL A^m-spectrum {1,-1,-1} (verified A^2[o4]=A^3[o6]=diag(1,-1,-1)) yet k=2 vs k=1, killing any pure-A^m-spectral or order(A^m) law. (3) NON-MONOTONICITY -- the o=4 column is k=(3,2,3) over m=(1,2,3), defeating every affine/2-parameter law. Brute force found ZERO affine integer fits over {m,o,n,gcd,o/gcd,m/gcd,o-m,o*m,o^2,m+o} at 1/2/3 features. SPECIFIC REFUTED CANDIDATES + FAILED PREDICTIONS: k=7-o (REFUTED at o=8); k=4-m(o-3) (REFUTED by bronze m=3 and o=8); k=7-eff_o (apoly-slope candidate: explicit law, but MISSES the verified silver cell m=2 o=4 -- predicts 3, actual 2; Fit FAILS, all judges); b199-closed-form candidate's structural prediction m=5 o=4 n=3 -> k=3 FAILED in computation (306 irreducible reps but ZERO on the geometric/loxodromic stratum -- all NOCLEAN, geometric_k=None); the spectral and b199 predictions for m=4 o=3 n=4 -> k=4 were NOT numerically confirmed (28-min Newton + fast probe both found 0 geometric reps -- the documented m>=4 / 50-var (B,t) Newton wall). The 'no-simple-law-stratified' candidate's fits_all_confirmed=true was flagged by OverfitMB12 as DEFINITION-AS-DISCOVERY/vacuity (min-j-scalar IS the definition of k, cannot fail) -- so its 'fit' carries no weight, though its falsifiable NEGATIVE (no g(o,m)) is TRUE and its concrete held-out predictions (m=2 o=3 n=4 -> k=4; m=4 o=4 n=3 -> EMPTY) both MATCHED. PANEL TALLY: only spectral-slope-Aspectrum passed multiple judges, and only for the SIGN law + the real spectral-slope MECHANISM (k = log|eig L|/log|eig mu| on commuting loxodromic eigenvectors, verified slope=2.0000 on the certified SL5 rep) -- its EXPONENT is honestly self-tiered structural-only. Net verdict: NO closed-form metallic exponent law; the standing NEEDS-SPECIALIST mark (closed-form metallic A-polynomial slope) is REAFFIRMED, with order-not-rank surviving and degree=rank (k=n) refuted at SL5 o5 (k=2 != 5).",
+  "goalB_outcome": "NO route completed an EXACT proof. All four Goal-B routes (R1 rank-stratification, R2 Q(zeta5) variety, R3 F_p slice, R4 hand-reduction) for the headline cell SL(5) o=5 m=1 are NEEDS-SPECIALIST. The VALUE is settled: k=2, s=+1, scalar c=+1, i.e. [A,B]=+mu^2 -- but only at tier [num, high-precision certified] (B198/V190: mpmath dps=50, residual ||[A,B]-mu^2||~4e-19, neighbors k=1->resid 10.0 and k=3->resid 20.5 cleanly excluded; mu loxodromic |eig|={2.09,1.0,1.62,0.62,0.48} => infinite order => correct geometric/cusped stratum; re-verified this session via meridian_order.py). SHARP STALL BOUNDARIES (route / vars / field / step): R2 is the cleanest boundary -- the FIRST degrevlex Groebner basis at 25 variables (the SL5 o=5 bundle ideal, 26 generators) does NOT terminate within 600s, over Q(zeta5) OR F_p (p=1000081 KILLED at exactly 600.0s with no dim output; cyclotomic compounds cost ~14x). I.dimension()/saturate/minimal_associated_primes/variety(QQbar) all presuppose this GB and are therefore unreached. OPERATIONAL NOTE: signal.SIGALRM does NOT interrupt Singular's C kernel -- only external os-level process kill enforces a deadline. R3 (F_p slice, p=101, 21 gauge-fixed vars): linear elimination cheaply removes 21->11 vars (<1s) but the residual quadratic+det GB walls across SIX formulations (direct det1 std, saturation-by-det, elim-substituted-deg27, elim-det-deg5, slimgb killed at 540s, generic-slice-membership 4&6 cuts) all at the 600s cap. R1 (rank-strat, 10-var residual after triangular reduction, F_p / Q(zeta5)): decomposition of the dim-4 geometric component stalls -- I.dimension() over Q(zeta5) times out 300s; saturation+minimal_associated_primes over F_101 killed at 400s; F_p Newton has an EMPTY basin (0 hits in 1500-4000 seeds) so no exact F_p point could be produced. R4 (hand-reduction, 25 vars): TWO independent walls -- (a) NON-RATIONALITY: the k=2 locus is a codim-2 proper subvariety that is NOT rationally parametrizable (high-precision monodromy dps=50 returns to a different sheet, return-distance 3.5e-2 to 7e-2), so no B89-style explicit rational family exists; (b) the GB wall on the 2-dim k2-locus ideal (55 gens) >420s. METHOD VALIDATED [exact-mod-p]: the F_p / Q(zeta) engines correctly reproduce every known SL(3) cell (o=3 -> k=4 at p=31,43; o=4 -> k=3,c=1 at p=41,101; slicing preserves k), and SL(4) o=4 is provably EMPTY (dim=-1 mod-p), confirming B157 -- so the SL(5) outcome is a genuine combinatorial compute wall, not a bug. IMPORTANT VERIFY-DON'T-TRUST CORRECTION (R1): B198's headline '[A,B]=mu^2 on the geometric component' is OVER-STATED -- the rigid matrix identity holds only on a dim-2 SUBLOCUS of the dim-4 loxodromic component (tangent-2 vs tangent-4; among 3486 loxodromic irreducible reps only 24, ~0.7%, satisfy any clean [A,B]=+-mu^k, all k=2; the rest satisfy NO fixed exponent). B198/V190's confirm() err<1e-6 filter structurally selects this sublocus, so its '305/305 unanimous k=2' is a selection artifact. mu and [A,B] always COMMUTE (peripheral), but the eigenvalue slope eig(L)=eig(mu)^k is NOT a fixed integer on generic loxodromic reps -- it is integer only on the distinguished rigid sublocus containing the certified rep. HONEST DOWN-TIER: 'm=1 metallic exponent at SL5 o5 is k=2 on the geometric component' should read 'k=2 on the distinguished rigid sublocus / at the complete cusped rep'. NEXT-STEP for a specialist (outside the 600s sandbox): dedicated FGLM/F4 (Magma/msolve), or decompose the UNSATURATED ideal directly (avoid the saturation blow-up), or a from-first-principles metallic A-polynomial derivation (the B67->B89 program generalized to phi_m, n=5) -- this is the standing open prize.",
+  "novelty_tiering": "Per-result, after an adversarial prior-art hunt (19 primary sources, n=2 and n=3 prior art bounding all claims). R1 (SL(n) figure-eight A-polynomial family L=(-1)^(n-1) M^n and its metallic m>1 generalization): PARTIALLY-KNOWN. The n=2 case is classical (Cooper-Long) and the n=3 case is FULLY KNOWN prior art -- Falbel-Guilloux-Koseleff-Rouillier-Thistlethwaite (arXiv:1412.4711, Exp.Math.2016) state verbatim L^3=M (component D2) and L^3 M=1 (D3) plus an explicit geometric-component SL(3) A-polynomial matching Zickert; Heusener-Munoz-Porti (arXiv:1505.04451) confirm 5 components dim 2 with the distinguished component = Sym^2 of the SL(2) holonomy. BUT no source presents a uniform higher-n (n>=4) family, the closed-form L=(-1)^(n-1) M^n across n, or ANY metallic (R^m L^m, m>1) higher-n generalization -- the GTZ/Goerner gluing machinery (arXiv:1207.6711) is boundary-UNIPOTENT only (computes figure-eight at n=3 full, n=4 gluing-equations-only, as zero-dimensional components, no A-polynomial). So the uniform higher-n family and the metallic generalization APPEAR-NOVEL. R2 (the exponent must be read on the order(mu)=infinity cusped stratum, finite-order-mu reps being Dehn-filling/orbifold points): PARTIALLY-KNOWN. The valuation-theoretic version -- A-polynomial slope = ratio of valuations at ideal points = boundary slope (Newton polygon) -- is FULLY STANDARD (CCGLS 1994; Benard-Florens-Rodau arXiv:2103.14151 Thm 5.2) but ONLY in rank 2, and the STANDARD stratification is ideal-points-vs-smooth-points (valuation-theoretic) or complex-length/cone-angle (Thurston), NOT the project's order(mu)=infinity-vs-finite-order-mu (meridian-eigenvalue-order) stratification. These coincide on the geometric component in many cases but are not definitionally identical -- the specific framing is PARTIALLY-KNOWN, with the strongest residual uncertainty being whether the order-stratification is genuinely distinct or a re-description of the valuation/ideal-point picture. R3 (the exponent is ORDER-determined by boundary spectrum order o, NOT rank-determined, with no simple k(o,m) closed form): APPEARS-NOVEL pending specialist confirmation. The n=2 prior art for tunnel-number-one once-punctured-torus / twist-knot families is solid (Baker-Petersen arXiv:1211.4479 IJM 2013; Petersen NYJM 21 2015; Hoste-Shanahan: figure-eight = J(2,-2)), but ALL are strictly rank 2 and NONE gives an order/arithmetic characterization of the A-polynomial slope at higher rank. NUANCE: tunnel-number-one is the single-twist R L^n family; metallic R^m L^m (m>=2) is NOT tunnel-number-one (figure-eight m=1 is the unique overlap), so even at n=2 the metallic m>=2 family sits just outside Baker-Petersen. CAVEATS: verdicts are 'no contradicting prior art found,' NOT 'proven novel'; the whole higher-n A-polynomial-slope question lives outside the well-developed (rank-2-only) theory, so APPEARS-NOVEL partly reflects a genuine field gap. UNCHECKED: Zickert arXiv:1405.0025 (SL(n) A-variety, drops boundary-unipotency) is the single most important un-examined source for R1's higher-n claim. COMPONENT-INVERSION wrinkle (R1/R2): in Falbel's n=3 data the tidy L^3=M lives on the Dehn-FILLING components while the GEOMETRIC component carries a 141-polynomial non-tidy relation -- a specialist must check whether [A,B]=s*mu^k with clean integer k actually holds on the geometric component for n>=3 (vs only on orbifold strata).",
+  "reproducer_plan": [
+   "EXACT PATHS, run with pyenv python (canonical test env, NOT sage):",
+   "(1) /Users/dri/origin-axiom/frontier/B199_metallic_exponent_law/geom_grid.py  ->  smoke test: m=1 o=4 n=3 geometric_k=3, m=1 o=3 n=4 geometric_k=4, prints 'ALL CHECKS PASS' [RE-RAN THIS SESSION: PASSES]. This is the Goal-A P1 geometric-stratum grid engine (geom_exponent_cell reads k on the order(mu)=infinite loxodromic stratum only).",
+   "(2) /Users/dri/origin-axiom/frontier/B198_metallic_exponent_CAS/meridian_order.py  ->  certified SL5 o=5 m=1 rep is loxodromic + infinite-order (|eig mu|={2.09,1.0,1.62,0.62,0.48}), k=2 unambiguous, prints 'OK' [RE-RAN: PASSES]. Add --grid for the o=4/o=8 collision: both -> {3:8} on the mu-infinite component [RE-RAN: confirmed].",
+   "(3) /Users/dri/origin-axiom/frontier/B157_metallic_exponent/r3_k_mechanism.py  ->  the min-j-scalar mechanism k=3 EXACT over Q(i) on the SL3 o4 figure-eight family (the structural invariant, exact tier).",
+   "(4) /Users/dri/origin-axiom/frontier/B157_metallic_exponent/sl4_o4_empty.py  ->  SL(4) {1,1,i,-i} corner provably EMPTY (ideal-membership / dim=-1) -- the rank-existence boundary.",
+   "(5) /Users/dri/origin-axiom/frontier/B198_metallic_exponent_CAS/sage_groebner.py  ->  EXACT SL3 cells over Q(zeta): o=3 -> k=4 (3 geometric primes), o=4 -> k=3 (run with sage-python, NOT pyenv -- it is the only sage dependency; the [exact] anchor cells).",
+   "DEGENERACY/COLLISION CHECKS (fast linear algebra, pyenv, no Newton): m=4 o=4 has ||A^4 - I|| ~ 7e-16 (mu=A^-4 t collapses to t; INADMISSIBLE) [RE-VERIFIED]; o=4 A^2 = o=6 A^3 = diag(1,-1,-1) identical A^m-spectrum yet k=2 vs k=1 [RE-VERIFIED].",
+   "HEADLINE TIERS (honest): SIGN s=(-1)^(n-1) on committed cells = surviving closed form [but NOT robust off-grid -- splits at o=8]; EXPONENT k = NO closed form, structural-only (= metallic A-polynomial slope / min-j-scalar); SL3 figure-eight cells (o=3->4, o=4->3) = [exact]; SL5 o=5 -> k=2 = [num, high-precision certified ~23 digits], exact proof NEEDS-SPECIALIST (25-var GB wall); o=8->3 and all m>=2 cells = [num, >=2 seeds]; m>=4 cells (m=4 o=3, m=5 o=4) = UNREACHED (50-var Newton wall) -> structural/None.",
+   "GOAL-B reproducers (boundary-mapping, will WALL not pass -- documents the NEEDS-SPECIALIST stall): R2 /tmp/r2_sl5_exact/gb_boundary.py (external-kill harness, since SIGALRM fails vs Singular); R3 /Users/dri/origin-axiom/audit/b199_fp_scratch/fp_sl3_validate.py (PASSES -- validates the exact-mod-p engine on SL3) + fp_sliced_membership.py (walls at SL5).",
+   "FIREWALL: nothing written to CLAIMS.md; P1-P16 untouched; no repo edits outside frontier/ engine + /tmp + audit/ scratch; no physics, no scale; standalone character-variety / low-dim-topology math only."
+  ],
+  "headline_tiers": [
+   "SIGN s=(-1)^(n-1): SURVIVING closed form [exact on committed cells; NOT robust off-grid -- splits +1/-1 at m=1 o=8 n=4]",
+   "EXPONENT k: NO closed form in (o,m,gcd) or A^m-spectrum [STRUCTURAL-ONLY = metallic A-polynomial slope = min{j: [A,B]mu^{-j} scalar on the order(mu)=inf component]; NEEDS-SPECIALIST for derivation]",
+   "SL3 figure-eight cells (m=1 o=3 -> k=4 over Q(w); m=1 o=4 -> k=3 over Q(i)): [exact]",
+   "SL5 o=5 m=1 -> k=2, s=+1: [num, high-precision certified ~23 digits] VALUE; EXACT proof NEEDS-SPECIALIST (25-var Groebner wall, 600s cap, Q(zeta5) and F_p both)",
+   "o=4/o=8 collision (both k=3 at m=1): [num, re-verified] -- the decisive refuter of k=7-o, f(o), and gcd laws",
+   "A^m-spectrum collision (m=2 o=4 -> k=2 vs m=3 o=6 -> k=1, identical spectrum {1,-1,-1}): [num/exact-spectrum] -- kills all A^m-spectral laws",
+   "order-not-rank survives; degree=rank (k=n) REFUTED at SL5 o5 (k=2 != 5): [num-certified]",
+   "B198 down-tier (verify-don't-trust): [A,B]=mu^2 holds on a dim-2 SUBLOCUS, not the whole dim-4 loxodromic component (~0.7% of loxodromic reps); B198's '305/305 unanimous' is an err-filter selection artifact",
+   "novelty: R1 PARTIALLY-KNOWN (n=2,3 known; uniform higher-n + metallic APPEARS-NOVEL); R2 PARTIALLY-KNOWN (valuation stratification standant rank-2 only; meridian-order framing distinct); R3 APPEARS-NOVEL (no higher-rank order/arithmetic slope characterization in prior art)",
+   "m>=4 cells (m=4 o=3 n=4; m=5 o=4 n=3): UNREACHED -- documented 50-var (B,t) Newton wall; predictions structural/None, NOT numerically confirmed"
+  ],
+  "one_line": "No closed-form metallic exponent k(o,m) survives; only the sign s=(-1)^(n-1) (committed cells) and the structural characterization k = metallic A-polynomial slope on the order(mu)=infinite component survive -- the o=4/o=8 collision and the {1,-1,-1} A^m-spectrum collision kill every arithmetic law, and the exact SL5 o5 proof (k=2 certified numerically) is NEEDS-SPECIALIST at a 25-variable Groebner wall."
+ },
+ "confirmed_count": 0,
+ "candidates": 4,
+ "goalB_exact": null,
+ "payload": {
+  "confirmed_table": [],
+  "verify": [],
+  "empty_cells": [],
+  "candidates": [
+   {
+    "candidate_id": "b199-closed-form-in-o-m-gcd",
+    "formula": "NO closed form exists. STATEMENT (falsifiable): there is no single-valued function k = g(o, m, gcd(m,o)) reproducing the confirmed geometric-stratum exponents. PROOF-BY-OBSTRUCTION on the confirmed cells (k in [A,B]=s*mu^k, mu=A^-m t, read on order(mu)=inf): (O1) o-non-injectivity at fixed m: g(8,1,1)=g(4,1,1)=3 is FORCED, yet within m=1 the row is k(o)=[o3:4, o4:3, o5:2, o8:3] -- strictly decreasing to a minimum at o=5 then RISING back to 3 at o=8; no affine/monotone/low-degree polynomial in o passes through (3,4),(4,3),(5,2),(8,3). (O2) m-non-monotonicity at fixed o: at o=4 the column is k(m)=[m1:3, m2:2, m3:3] -- non-monotone, so no affine k(m). The right (non-closed) object is the per-spectrum ideal quantity k = min{ j>=0 : [A,B]*mu^{-j} is scalar on the geometric (order(mu)=inf) component of the bundle character variety }. Documented anchor: 'o=3 => k=4 independent of m (a fixed point of the m-dependence)' (B154 FINDINGS).",
+    "invariants_used": [
+     "o = order of the boundary/cusp spectrum (order of the eigenvalues of A)",
+     "m = metallic monodromy index (phi_m = R^m L^m)",
+     "gcd(m,o)",
+     "o/gcd(m,o) (reduced order, tested)",
+     "Euler totient phi(o) (tested)",
+     "o mod m, floor(o/m), o-m, o*m (tested)",
+     "tr(M_m)=metallic Lucas char 3,6,11 (tested; constant per m-row)",
+     "order(mu) used ONLY as the stratum selector (geometric = infinite-order/loxodromic), not as a fitting input"
+    ],
+    "fits_all_confirmed": false,
+    "predictions": [
+     {
+      "cell": "m=4 o=3 n=4 [STRUCTURAL prediction, backed by the documented 'o=3 => k=4 is a fixed point of the m-dependence' (B154); cell is admissible/non-degenerate since gcd(4,3)=1, o-does-not-divide-m, A^m != I; numeric re-confirmation was in progress but the m>=4 (B,t) Newton at 50 vars is too slow to land in-window]",
+      "k": 4
+     },
+     {
+      "cell": "m=5 o=4 n=3 [STRUCTURAL prediction: at o=4, gcd(m,4)=1 (m=1,3) gives k=3; gcd(5,4)=1 so predict k=3; admissible/non-degenerate, A^5=A != I]",
+      "k": 3
+     },
+     {
+      "cell": "m=4 o=4 n=3 [NOT admissible: o|m (4|4) => A^m=I => mu=A^-m t = t collapses (||A^4-I||=0 verified); this is the o|m degenerate exclusion (same as the excluded m=3 o=3), NOT a metallic cusp point -- the prompt's example cell is degenerate, so no k is defined]",
+      "k": 0
+     }
+    ],
+    "refutations_avoided": [
+     "k=7-o (REFUTED: fails o=8 m=1 predicting -1 vs actual 3, and all m>=2 e.g. o=4 m=2 predicts 3 vs actual 2)",
+     "k=4-m(o-3) (REFUTED: fits m in {1,2} for o<=4 but fails the m=3 bronze row -- (3,4) predicts 1 vs 3, (3,6) predicts -5 vs 1 -- and fails o=8 m=1 predicting -1 vs 3)",
+     "gcd(m,o)-rules (REFUTED: at gcd=1, k maps to {o3:4,o4:3,o5:2,o8:3} -- not a function of gcd; and o=4,o=8 both gcd=1 m=1 both give k=3 while o=3 gcd=1 gives 4)",
+     "o/gcd (reduced order) law (REFUTED: o_red=2 occurs at both (m=2,o=4)->k=2 and (m=3,o=6)->k=1, different k for same o_red)",
+     "tr(M_m)-based law (REFUTED: tr(M_m) is constant per m-row -- 3,6,11 -- so cannot distinguish o within a row)"
+    ],
+    "misses": [
+     "The whole-grid: any g(o,m,gcd) misses because of O1 (o-non-injectivity: o=4 and o=8 both ->3 at m=1) and O2 (o=4 column m-non-monotone 3,2,3).",
+     "Exhaustive integer-affine search over <=3 features from {o,m,gcd,o-m,o/gcd,m/gcd,o*m,o^2,m+o,phi(o),floor(o/2),o mod m,floor(o/m)} with coeffs in [-4,4] returns ZERO fits.",
+     "The only 'consistent' lookups (k=f(m, o mod 4) and k=f(m, o mod 6)) are per-m lookup tables with NO rule linking the m-rows -> not laws; they cannot predict any new m (e.g. m=4) at all."
+    ],
+    "reasoning": "Confirmed geometric-stratum data (re-verified this session; geom_grid engine reproduced ALL 5 fast validation anchors exactly): (m,o)->k = {(1,3):4 [exact Q(w)], (1,4):3 [exact Q(i)], (1,5):2 [num-cert ~23 digits, B198], (1,8):3 [num, 182 geo reps all k=3], (2,3):4, (2,4):2, (2,5):none/no-irred-rep, (3,4):3, (3,6):1}; o|m cells (3,3),(4,4) are degenerate (mu=t) and excluded. My assigned angle is a closed form in (o,m,gcd) ONLY. Exhaustive search (2 libraries, <=3 features, integer coeffs) finds NO fit, and there are two clean structural obstructions: (O1) k is non-injective in o at fixed m -- (1,4) and (1,8) BOTH give 3 -- and the m=1 row dips then rises, so no function of o (alone, or with the o-blind invariants m,gcd) can fit; (O2) the o=4 column is non-monotone in m (3,2,3). Therefore self_status=structural-only: k is NOT a closed form in (o,m,gcd); it is the per-spectrum minimal-j-scalar ideal invariant on the order(mu)=infinite geometric component (the metallic A-polynomial cusp datum), which depends on the full spectrum/geometry, not on (o,m,gcd) arithmetic. Held-out predictions are issued from documented structural facts (o=3 is a fixed point of the m-dependence -> k=4; o=4 coprime-m gives k=3), tiered as structural since the m>=4 (B,t)-Newton numerics (50 vars, rep density ~1/130, geometric filter) did not land in-window. Discipline: standalone character-variety math, nothing to CLAIMS.md, no repo edits outside /tmp; values tiered [exact]/[num-certified]/[num]/[structural].",
+    "self_status": "structural-only"
+   },
+   {
+    "candidate_id": "spectral-slope-Aspectrum",
+    "formula": "SIGN (closed form, fits all): s = (-1)^(n-1), i.e. [A,B] = (-1)^(n-1) * mu^k, mu = A^{-m} t.  EXPONENT (structural-only, no closed algebraic form survives): k is the A-polynomial slope read SPECTRALLY as k = log|eig(L)| / log|eig(mu)| on the loxodromic (off-unit-circle) common eigenvectors of the commuting cusp pair (L=[A,B], mu); equivalently k = min{ j>=1 : [A,B]*mu^{-j} is scalar on the variety }. This integer is NOT a closed function of the A-spectrum / A^m-spectrum: the decisive refutation is that the cells (m=2,o=4,n=3) and (m=3,o=6,n=3) share the IDENTICAL A^m-spectrum {1,-1,-1} yet give k=2 vs k=1. The strongest surviving SPECTRAL sub-rule is single-valued only on a sublattice: for spectra whose principal sector has odd prime order, k=7-order(A^m) on o in {3,4,5} (m=1), but this is BROKEN at o=8 (k=3, not -1) -> k is non-monotone in o. Best honest single invariant: 'o=3 => k=4' holds in every confirmed o=3 cell.",
+    "invariants_used": [
+     "mu = A^{-m} t (cusp meridian, from phi_m([A,B])=A^m[A,B]A^{-m})",
+     "L = [A,B] (longitude), commutes with mu",
+     "eig(mu): loxodromic eigenvalues off the unit circle (order(mu)=infinite stratum)",
+     "A-polynomial slope k = log|eig(L)|/log|eig(mu)| on shared loxodromic eigenvectors",
+     "order(A^m) = o/gcd(m,o) (order of the meridian-twisting element)",
+     "A^m-spectrum (eigenvalue multiplicities); principal sector a+1/a=3-n (B95)",
+     "sign parity n mod 2"
+    ],
+    "fits_all_confirmed": false,
+    "predictions": [
+     {
+      "cell": "m=4 o=3 n=4",
+      "k": 4
+     },
+     {
+      "cell": "m=4 o=4 n=3 (DEGENERATE: q=o/gcd=1, A^4=I, mu collapses to t -> INADMISSIBLE, not a metallic point)",
+      "k": 0
+     },
+     {
+      "cell": "m=1 o=8 n=4 (held-out off committed grid; computed this session, mu-infinite)",
+      "k": 3
+     }
+    ],
+    "refutations_avoided": [
+     "k=7-o (refuted: o=8 m=1 gives k=3 not -1; verified this session via meridian_order.py --grid)",
+     "k=4-m(o-3) (refuted by bronze m=3 and by o=8)",
+     "gcd(m,o)-only rules (o=4 and o=8 both give k=3 at m=1; and gcd alone cannot separate (2,4)->2 from (3,6)->1 which share gcd-free identical A^m-spectrum)",
+     "any single-valued k(A^m-spectrum): refuted because (2,4,3) and (3,6,3) have identical A^m-spectrum {1,-1,-1} but k=2 vs k=1",
+     "any monotone-decreasing f(o): refuted by o=5->2 then o=8->3",
+     "degree=rank k=n: refuted at SL5 o5 (k=2 != 5), consistent with order-not-rank"
+    ],
+    "misses": [
+     "No closed-form k(spectrum) exists on the confirmed grid: 0 affine integer laws over {m,o,n,gcd(m,o),order(A^m)} fit all 10 cells (brute-forced up to 3 terms, coeffs in [-3,3]).",
+     "k=7-order(A^m) misses: (1,8,4)->predicts -1 vs actual 3; (2,4,3)->predicts 5 vs 2; (3,6,3)->predicts 5 vs 1.",
+     "Pure A^m-spectral law impossible: (2,4,3,k=2) and (3,6,3,k=1) have identical A^m-spectrum {1,-1,-1}.",
+     "The numeric confirmation of the held-out m=4 o=3 n=4 prediction (k=4) was NOT obtained: random Newton found no irreducible rep in 2500+ then 12000 seeds, hitting the documented m>=4/SL(4) Newton wall; prediction is structural-only [NEEDS-SPECIALIST for symbolic confirmation]."
+    ],
+    "reasoning": "Assigned angle = spectral (k as a function of meridian/A-spectrum, not just (o,m)). I assembled all confirmed cells from B157/B154/B198 FINDINGS plus the uncommitted-but-verified o=8 datum (I re-ran meridian_order.py --grid: SL(4) o=8 m=1 on the mu-infinite component gives k=3, 8 reps), and re-verified the silver cells (m=2 o=3->k=4, m=2 o=4->k=2) independently. THE POSITIVE RESULT: the spectral mechanism is real and EXACT -- on the certified SL5 o5 rep I diagonalized mu and L=[A,B] simultaneously; they commute (off-diagonal ~1e-39) and log|eig L|/log|eig mu| = 2.0000 = k on every loxodromic eigenvector. So k IS the A-polynomial slope, read spectrally as the longitude-winding-per-meridian-winding on the cusp. This reproduces k on all reachable cells (slope=4,3,3,2,1 matching). THE NEGATIVE RESULT (honest): the slope's VALUE has no closed form in the A-spectrum. The killer is that (m=2,o=4,n=3) and (m=3,o=6,n=3) have the SAME A^m-spectrum {1,-1,-1} (since A^2 for o=4 = A^3 for o=6 = diag(1,-1,-1)) but k=2 vs k=1 -- so any pure-A^m-spectral law is impossible, and any law must also see m or o (the full A, not just A^m). A brute force over affine integer laws in {m,o,n,gcd,order(A^m)} (<=3 terms) found ZERO fits. The o=8 cell independently kills monotone f(o) (non-monotone: 4,3,2 then back to 3). So the angle yields a STRUCTURAL characterization (the spectral slope mechanism), not a closed form -> self_status=structural-only. Predictions computed: m=4 o=4 n=3 is degenerate (q=o/gcd(m,o)=1 => A^4=I => mu=t collapses; verified the meridian collapses), excluded by the B157 o|m rule. m=4 o=3 n=4 -> k=4 by the robust 'o=3=>k=4' invariant (all four confirmed o=3 cells give 4 across m in {1,2}, n in {3,4}); numeric Newton confirmation blocked by the m>=4/SL(4) wall (no irreducible rep in 12000 seeds), so this prediction is structural. All standalone character-variety math; nothing to CLAIMS.md; no repo edits outside /tmp.",
+    "self_status": "structural-only"
+   },
+   {
+    "candidate_id": "apoly-slope-effective-cusp-order",
+    "formula": "k = 7 - eff_o   where eff_o = order of the eigenvalue-RATIO group of A = LCM of the pairwise orders of {zeta_o^(e_i - e_j)} = the PSL-projection (cone/cusp) order of the diagonal A=diag(zeta_o^{e_i}). Equivalently k is the A-polynomial boundary slope of the line L = s*M^k (L = eig of longitude [A,B], M = eig of meridian mu = A^{-m}t), read on the order(mu)=infinite (loxodromic) stratum. Companion structural facts: (i) ADMISSIBILITY/degeneracy law: eff_o | m  ==>  A^m=I  ==>  mu=t collapses (inadmissible), generalizing the o|m exclusion; (ii) for m>=2 the slope is m-dependent, arithmetic and NON-MONOTONE (eff_o=4 gives k=3,2,3 for m=1,2,3), and at m=4,o=3,n=4 it stops being a single integer at all -- so 7-eff_o is a closed form only for the m=1 (figure-eight) row.",
+    "invariants_used": [
+     "eff_o = order of the eigenvalue-ratio group of A (= LCM of pairwise orders of zeta_o^{e_i-e_j} = PSL-projection order of A); NOT the raw spectral order o",
+     "k = A-polynomial / Newton-polygon boundary slope of the longitude-vs-meridian relation L = s*M^k (L=eig[A,B], M=eig(mu), mu=A^{-m}t)",
+     "order(mu): the exponent is read ONLY on the order(mu)=infinite (loxodromic/cusped/geometric) stratum, excluding finite-order Dehn-filling reps",
+     "the figure-eight base boundary slope = 4 (Cooper-Long A-poly Newton polygon), realized at eff_o=3 as 7-3=4",
+     "A^m=I collapse (eff_o | m) as the admissibility/degeneracy criterion"
+    ],
+    "fits_all_confirmed": false,
+    "predictions": [
+     {
+      "cell": "m=4 o=4 n=3 {1,i,-i}: INADMISSIBLE (degenerate). eff_o=4 divides m=4 => A^4=I => mu=t collapses; no metallic (order(mu)=infinite) rep exists. Verified A^4=I exactly. The held-out cell suggested in the prompt is on the excluded stratum, like the known m=3,o=3 exclusion.",
+      "k": 0
+     },
+     {
+      "cell": "m=4 o=3 n=4 {1,1,w,w2}: admissible (A^4=A != I), eff_o=3. The 7-eff_o law would predict k=4, BUT computation REFUTES a single clean exponent here: irreducible geometric reps (resid ~1e-13, cond 8-200) have [A,B] commuting with mu yet per-eigenvalue ratios log|L|/log|M| SCATTER (3.98, -0.61, 0.86, 1.12) and the fitted slope is seed-unstable (0.711, 1.006). So [A,B] is a general cusp-diagonal element, NOT a power s*mu^k -- the A-polynomial has multiple Newton edges, not one line. Honest prediction: NO well-defined single integer k at this cell (only one eigenvalue-pair tracks the slope-4 edge).",
+      "k": -1
+     }
+    ],
+    "refutations_avoided": [
+     "k=7-o: REFUTED by o=8 m=1 (gives k=3 not -1). My 7-eff_o AVOIDS this because eff_o({zeta_8^1,3,5,7})=4, so 7-eff_o=3 = the observed value. The eff_o substitution is the actual repair: o=4 and o=8 collapse to the same cusp order 4.",
+     "k=4-m(o-3): REFUTED by bronze m=3 (predicts (3,4)->1, (3,6)->-5; actual 3,1). With eff_o the m=1 row 7-eff_o is correct on bronze o4 (3) and o6 (1); the formula's failure was conflating raw o with effective cusp order plus an over-fit m-term.",
+     "gcd(m,o) rules: REFUTED because o=4 and o=8 both give k=3 at m=1 (raw gcd cannot see the eff_o collapse). 7-eff_o is gcd-free and m-independent on the figure-eight row.",
+     "the o=4 vs o=8 anomaly (the central refutation of every prior law): RESOLVED by eff_o -- both have ratio-group order 4."
+    ],
+    "misses": [
+     "silver m=2, o=4, n=3 (eff_o=4): observed k=2 (8/8 seeds, robust slope method), but 7-eff_o predicts 3. The sole miss of the m=1-style law -- a genuine downward m-shift of 1. The m-dependence at eff_o=4 is non-monotone (k=3,2,3 for m=1,2,3), so no clean 2-parameter law (tested gcd(m,eff_o)-(.), m=eff_o/2 mod eff_o, A^m-ratio order -- each fixes silver but re-breaks bronze o6). The m-shift is arithmetic, not a Dehn-twist shear.",
+     "held-out m=4 o=3 n=4: the slope is not a single integer at all (per-eigenvalue ratios scatter), so even 'k as a boundary slope' degrades to a multi-edge A-polynomial there -- a refutation-on-arrival for any single-k closed form at higher m."
+    ],
+    "self_status": "structural-only",
+    "reasoning": "Angle: A-polynomial / Newton-polygon slope. I verified the foundational claim that k is LITERALLY a boundary slope: [A,B]=s*mu^k is the eigenvalue identity L=s*M^k (residual ~1e-15 on the certified SL5 o5 rep; per-eigenvalue ratios are all exactly equal on clean cells -- 3.0,3.0,3.0 for gold o4 and 4.0x3 for gold o3). The genuine advance is identifying the RIGHT cusp invariant: eff_o = order of the eigenvalue-ratio group of A (= LCM of orders of zeta_o^{e_i-e_j} = PSL-projection order), confirmed numerically (o=8 {1,3,5,7} has ratio-orders {1,2,4}, LCM 4). This converts the REFUTED 7-o into k=7-eff_o, which (a) fits the entire m=1 figure-eight row (eff_o=3,4,5 -> 4,3,2), (b) RESOLVES the o=4/o=8 counterexample that killed all prior laws (both eff_o=4 -> k=3), and (c) fits 7/8 confirmed cells overall. At eff_o=3 it returns 7-3=4 = the figure-eight knot's actual boundary slope (Cooper-Long Newton polygon), so it is the figure-eight A-polynomial slope as a function of effective cone order. I also derived a clean degeneracy/admissibility law eff_o | m => mu=t (A^m=I), which generalizes the o|m exclusion and makes the suggested held-out cell m=4 o=4 n=3 inadmissible. WHY structural-only not surviving-closed-form: (1) k=7-eff_o has one genuine miss -- silver m=2 o=4 -> k=2 (verified 8/8 seeds by the robust slope method, vs predicted 3); the m-dependence is real and NON-MONOTONE (eff_o=4: 3,2,3 over m=1,2,3), defeating every 2-parameter closed form I tested. (2) Decisively, at the admissible held-out cell m=4 o=3 n=4 the exponent stops being a single integer: irreducible geometric reps (resid 1e-13) have [A,B] commuting with mu but per-eigenvalue log|L|/log|M| ratios SCATTER (3.98,-0.61,0.86,1.12) and the slope is seed-unstable (0.711,1.006). So the longitude is a general cusp-diagonal element and the metallic A-polynomial there has MULTIPLE Newton edges, not the single line L=M^k. Net structural characterization: k is the figure-eight A-polynomial boundary slope 7-eff_o on the m=1 row (eff_o the PSL cusp order, NOT raw o), the slope picture explains and repairs the o=8 refutation, but for m>=2 the metallic monodromy shears the Newton polygon arithmetically -- generically dropping the slope by an integer (silver) and eventually fragmenting it into several edges (m=4 o=3), so no single-valued closed form k(m,o,n) exists, consistent with the standing NEEDS-SPECIALIST mark. All values numeric/[num]; the eff_o repair and degeneracy law are [exact] (root-of-unity arithmetic); the SL5 base identity is [num, high-precision certified] (inherited from B198)."
+   },
+   {
+    "candidate_id": "no-simple-law-stratified-A1",
+    "formula": "STRUCTURAL (no closed form in (o,m)). Claim: the geometric-stratum exponent k is NOT a function of (o,m). It is a per-component ideal invariant: k = min{ j>=1 : [A,B]\u00b7mu^{-j} is a scalar matrix on the coordinate ring of the geometric (order(mu)=infinite, loxodromic) irreducible component C of the metallic bundle character variety }, mu=A^{-m}t. Equivalently k = (the integer slope of the metallic A-polynomial: the exponent of the longitude eigenvalue L=M^{\u00b1k} along the curve C at generic meridian eigenvalue M, the cusped/Cooper-Long slope generalizing B67). The determining data is the component C (its tangent-space stratum and its A-polynomial), NOT the pair (o,m). FALSIFIABLE NEGATIVE: no single-valued g with k=g(o,m) reproduces all confirmed geometric-stratum cells, because (i) at fixed o=4, k=(3,2,3) for m=(1,2,3) is non-monotone with the m=1 and m=3 values colliding, and (ii) at fixed m=1, k=(4,3,3,2) for o=(3,4,8,5) is non-injective in o (o=4 and o=8 both give k=3). Any proposed k=g(o,m) is refuted the moment it must separate these collisions.",
+    "invariants_used": [
+     "geometric component C (order(mu)=infinite / loxodromic stratum)",
+     "meridian mu=A^{-m}t, longitude [A,B], commuting via phi_m([A,B])=A^m[A,B]A^{-m}",
+     "min-j-scalar ideal invariant: k=min{j:[A,B]mu^{-j} scalar on coordinate ring of C}",
+     "metallic A-polynomial integer slope (L=M^{\u00b1k}), B67 Cooper-Long cusp slope generalized",
+     "boundary-spectrum order o and index m as labels not determinants; rank n via B95 selects admissible orders"
+    ],
+    "fits_all_confirmed": true,
+    "predictions": [
+     {
+      "cell": "m=2, o=3, n=4 (spectrum {1,1,w,w^2}); geometric stratum",
+      "k": 4
+     },
+     {
+      "cell": "m=4, o=4, n=3 (spectrum {1,i,-i}); geometric stratum -- predicted EMPTY (no order(mu)=infinite irreducible rep; existence boundary is component/rank-determined, needs n>3)",
+      "k": 0
+     },
+     {
+      "cell": "m=4, o=3, n=4 (spectrum {1,1,w,w^2}); geometric stratum -- predicted EMPTY at n=4 as well (the m>=4 geometric branch does not realize at this small rank; k=0 sentinel means 'no admissible geometric component here')",
+      "k": 0
+     }
+    ],
+    "refutations_avoided": [
+     "k=7-o (refuted: o=4 and o=8 both give k=3 on the geometric stratum, so 7-o cannot hold for both; also m-dependence at o=4 gives 3,2,3)",
+     "k=4-m(o-3) (refuted: bronze m=3 o=4 gives 3 not 1, and m=3 o=6 gives 1 not -5; also o=8 m=1 gives 3 not -1; my claim explicitly forbids ANY k=g(o,m))",
+     "gcd(m,o) rules (refuted: o=4 and o=8 both give k=3 at m=1 despite gcd(1,4)=gcd(1,8)=1 vs needing to also separate them from o=3; and o=4 m=1 vs o=4 m=2 give 3 vs 2 with gcd unable to track)",
+     "degree=rank / k=n (refuted: o=3 gives k=4 at BOTH n=3 and n=4; o=4 m=1 gives k=3 at both n=3 and n=4; SL5 o5 gives k=2 != rank 5 -- k tracks the component's A-poly slope / order, never the rank)",
+     "log-slope / branch-cut numeric fit (avoided: k read as the smallest integer j making [A,B]\u00b7mu^{-j} an exact scalar matrix on the variety, an ideal fact, not a complex-log regression)",
+     "reading k on the wrong stratum (avoided: the finite-order-mu Dehn-filling branch gives spurious k only-defined-mod-order(mu) values, e.g. SL4 o8 m1 had an order-20-mu branch giving a fake k=8; the law is stated only on the order(mu)=infinite geometric component)"
+    ],
+    "self_status": "structural-only",
+    "misses": [
+     "No closed form is produced by design: this angle asserts the NON-existence of a k=g(o,m) law and supplies a structural invariant instead. The structural invariant (min-j-scalar = A-poly slope on the geometric component) is VERIFIED to read the correct k cell-by-cell (exact over Q(i) at SL3 o4->3; matches every numeric geometric-stratum cell) but is NOT itself a formula you can evaluate without computing the component -- it relocates the content into 'which component / which A-polynomial', which is the honest structural answer.",
+     "The m>=4 existence boundary is only partially mapped: m=4 o=4 n=3 and m=4 o=3 n=3/n=4 yielded irreducible reps but NONE on the geometric (order(mu)=infinite) stratum at these small ranks (42, 105 irreducibles found, 0 geometric-k). I predict these cells are geometrically empty at small n, but a rigorous emptiness proof (a la the B157 SL4 {1,1,i,-i} ideal-membership argument) is NOT done for the m=4 corners -- the empty-prediction is [num] not [exact].",
+     "A first-principles DERIVATION of the per-component A-poly slope (the metallic generalization of the B67->B89 program to phi_m) is open; without it, 'k = A-poly slope' is descriptively exact but not predictively closed. This remains NEEDS-SPECIALIST for the proof.",
+     "Exact symbolic k at SL5 (o=5 -> k=2) is only [num, high-precision certified ~23 digits], not [proved] -- the Q(zeta5) primary decomposition at 25 vars is unreached; so the o=5 row of the data table is certified-numeric, the SL3 figure-eight cells are the only [exact] ones."
+    ],
+    "reasoning": "ASSIGNED ANGLE = no-simple-law / stratified. I verified the confirmed data independently this session (pyenv python, repo default) on the geometric/cusped stratum where mu=A^{-m}t has INFINITE order (loxodromic) -- the only stratum on which k is unambiguous (the finite-order-mu Dehn-filling branch gives k only mod order(mu), which is what manufactured earlier illusory multi-exponent readings). Reproduced cells: SL3 {(1,3)->4,(2,3)->4,(1,4)->3,(2,4)->2,(3,4)->3,(3,6)->1}, SL4 {(1,3)->4,(2,3)->4,(1,4)->3,(1,8)->3}, SL5 {(1,5)->2, certified loxodromic |eig(mu)|=[2.09,1.0,1.62,0.62,0.48], infinite order}. Two collisions kill any k=g(o,m): fixed o=4 gives k=(3,2,3) over m=(1,2,3) (non-monotone, m=1==m=3), and fixed m=1 gives k=(4,3,3,2) over o=(3,4,8,5) (o=4==o=8, non-injective). These two facts alone refute k=7-o, k=4-m(o-3), and gcd(m,o)-rules simultaneously, matching the already-banked refutations and adding the o=4/o=8 collision as a fresh independent refuter. POSITIVE structural content: I confirmed symbolically (sympy, exact over Q(i)) that on the SL3 o=4 figure-eight 2-parameter family, k=3 is exactly the smallest j with [A,B]\u00b7mu^{-j} a scalar matrix on the variety (the scalar is a genuine non-constant function of the moduli q,t22, so this is an ideal fact along the component, i.e. the A-polynomial slope a la B67 Cooper-Long, not arithmetic in (o,m)). So the determinant of k is the GEOMETRIC COMPONENT (its A-polynomial), and (o,m,n) are merely labels: o selects the admissible spectra, n=rank selects which orders are realizable (B95), and the component carries the slope. HELD-OUT: m=2 o=3 n=4 -> k=4 (computed this session, 8 geometric reps) confirms order-determination across rank (o=3->4 at n=3 AND n=4). m=4 o=4 n=3 and m=4 o=3 n=4 -> predicted EMPTY on the geometric stratum (computed: irreducibles exist but none loxodromic/clean-k at small n), illustrating the existence boundary is itself component/rank-stratified, not a function of (o,m). Tiering: SL3 figure-eight cells [exact]; min-j mechanism [exact over Q(i)]; SL5 o5->2 [num high-precision certified]; all other geometric-stratum cells [num, >=2 seeds, irreducibility+non-central-longitude+mu-infinite gated]; m=4 emptiness [num]; the derivation/proof of the slope law NEEDS-SPECIALIST. DISCIPLINE: pure character-variety mathematics; no CLAIMS.md, no physics, no scale; computed only, no commits, scratch in /tmp. Key reproducers (absolute paths): /Users/dri/origin-axiom/frontier/B198_metallic_exponent_CAS/meridian_order.py (o=4,o=8 both k=3 on mu-infinite stratum; SL5 loxodromic check), /Users/dri/origin-axiom/frontier/B157_metallic_exponent/r3_k_mechanism.py (min-j-scalar = k=3 exact over Q(i)), /Users/dri/origin-axiom/frontier/B157_metallic_exponent/metallic_construct.py (general-m construction + exponent reader), /Users/dri/origin-axiom/frontier/B198_metallic_exponent_CAS/cert_sl5o5_rep.json (certified SL5 o5 m1 geometric rep)."
+   }
+  ],
+  "judgements": [
+   {
+    "judge": "Fit",
+    "verdicts": [
+     {
+      "candidate_id": "b199-closed-form-in-o-m-gcd",
+      "pass": false,
+      "predicted_cell": "m=5 o=4 n=3 (exps [0,1,3]); also primary cell m=4 o=3 n=4 (exps [0,0,1,2])",
+      "predicted_k": 3,
+      "actual_k": null,
+      "reason": "FIT: this candidate offers NO closed-form formula (its 'formula' is the falsifiable negative 'no g(o,m,gcd) exists' plus the per-spectrum min-j structural invariant). It self-reports fits_all_confirmed=false. A non-formula cannot reproduce every confirmed cell as a closed form, so Fit=false. I re-verified the confirmed grid independently and the candidate's reported values are all correct: (1,3,4)k=4 s=-1, (1,4,3)k=3 s=+1, (2,3,4)k=4 s=-1, (2,4,3)k=2 s=+1, (3,4,3)k=3 s=+1, (3,6,3)k=1 s=+1; (1,3,3) is empty (o=3 needs n=4); m=4 o=4 is degenerate (A^4=I, ||A^4-I||~7e-16, mu=t collapses) -- the candidate's degeneracy/admissibility reasoning is sound. PREDICT: I computed its structural predictions. m=5 o=4 n=3: 306 irreducible reps found but ZERO on the geometric (order(mu)=infinite) stratum -> geometric_k=None (EMPTY), so the predicted k=3 is NOT realized (actual=None). m=4 o=3 n=4: a 28-min full Newton run plus a fast probe both found 0 geometric reps (cell admissible, A^4=A, but no loxodromic rep lands in-window), so the predicted k=4 is NOT confirmed (actual=None). Both held-out predictions miss in computation. The candidate honestly tiers these as structural-only blocked by the m>=4 Newton wall, which my 28-min run reproduces."
+     },
+     {
+      "candidate_id": "spectral-slope-Aspectrum",
+      "pass": false,
+      "predicted_cell": "m=4 o=3 n=4 (exps [0,0,1,2])",
+      "predicted_k": 4,
+      "actual_k": null,
+      "reason": "FIT: the SIGN sub-formula s=(-1)^(n-1) IS exactly verified on every confirmed cell I computed (n=4 cells -> s=-1: (1,3,4),(2,3,4); n=3 cells -> s=+1: (1,4,3),(2,4,3),(3,4,3),(3,6,3)). But the EXPONENT has no closed algebraic form (candidate self-reports fits_all_confirmed=false; the exponent is the spectral A-poly slope, structural-only). As an exponent formula it does not reproduce the cells, so Fit=false. I independently CONFIRMED its load-bearing refutation: (m=2,o=4) and (m=3,o=6) both have A^m-spectrum {1,-1,-1} and order(A^m)=2 yet k=2 vs k=1, so no pure-A^m-spectral or order(A^m)-only law can exist. PREDICT: m=4 o=3 n=4 -> predicted k=4. Computed: no geometric rep lands in-window (28-min Newton + fast probe both 0 geometric reps), actual=None -> prediction NOT verified. The candidate flagged this as structural (m>=4 Newton wall, no irreducible rep in 12000 seeds); my run reproduces the wall."
+     },
+     {
+      "candidate_id": "apoly-slope-effective-cusp-order",
+      "pass": false,
+      "predicted_cell": "m=4 o=3 n=4 (exps [0,0,1,2]); admissibility cell m=4 o=4 n=3",
+      "predicted_k": -1,
+      "actual_k": null,
+      "reason": "FIT: the explicit closed form k=7-eff_o (eff_o = eigenvalue-ratio-group order) is REFUTED on the confirmed grid. I recomputed eff_o exactly: o=3->3, o=4->4, o=8->4, o=5->5, o=6->6. So 7-eff_o gives o=3:4, o=4:3, o=8:3, o=5:2, o=6:1 -- correct on the m=1 row AND it does repair the o=8 case (k=3 not 7-o=-1). BUT it MISSES (m=2,o=4): predicts 7-eff_o=3, actual k=2 (I verified k=2,s=+1, 17 geometric reps). The candidate honestly lists this as its sole miss. fits_all_confirmed=false -> Fit=false. The eff_o repair and the degeneracy law (eff_o|m => A^m=I; I verified A^4=I at m=4 o=4) are genuine and exact. PREDICT: m=4 o=3 n=4 -> predicted k=-1 (claims scattering geometric reps, no single integer). Computed: NO geometric reps reachable in-window at all (0 in 28-min run + 0 in fast probe), so the specific 'scattering geometric reps at resid 1e-13' it reports were not reproduced; actual geometric_k=None. Directionally consistent with 'no clean single k' but the cited reps did not reproduce, so the prediction is not verified."
+     },
+     {
+      "candidate_id": "no-simple-law-stratified-A1",
+      "pass": true,
+      "predicted_cell": "m=2 o=3 n=4 (exps [0,0,1,2]); plus the EMPTY predictions m=4 o=3 n=4 and m=4 o=4 n=3",
+      "predicted_k": 4,
+      "actual_k": 4,
+      "reason": "FIT: this candidate's content is the structural min-j-scalar invariant k=min{j:[A,B]mu^{-j} scalar on the geometric component C}, which IS the definition by which every confirmed k is read, so it reproduces every confirmed cell by construction (it claims fits_all_confirmed=true honestly -- it asserts NON-existence of a g(o,m) closed form and supplies the invariant instead, not a free-constant fit). I re-verified the entire confirmed grid it cites and every value matches: (1,3)4,(2,3)4,(1,4)3,(2,4)2,(3,4)3,(3,6)1, with the o=4/o=8 collision (both k=3 at m=1) and the o=4 m-column non-monotone (3,2,3) both independently confirmed -- these are real obstructions, not overfit artifacts. PREDICT: I computed its held-out cell m=2 o=3 n=4 -> k=4 (45 geometric reps, unique, s=-1): predicted k=4, actual k=4, MATCH. Its EMPTY predictions also verified: m=4 o=3 n=4 -> 0 geometric reps in a 28-min run + fast probe (predicted EMPTY/k=0 sentinel = 'no admissible geometric component at small n' -- MATCHES), and m=4 o=4 n=3 -> degenerate (A^4=I verified, mu collapses, predicted EMPTY -- MATCHES). This is the only candidate whose held-out predictions are confirmed by my computation and whose Fit holds (its structural invariant reproduces every cell). The first-principles DERIVATION of the slope remains NEEDS-SPECIALIST, which it correctly tiers; that does not affect the Fit verdict since the invariant is descriptively exact on every confirmed cell."
+     }
+    ],
+    "overall": "Independently re-verified the confirmed geometric-stratum grid with the B199 engine (pyenv python; geom_grid.geom_exponent_cell), all values [num], >=2-3 seeds, on the order(mu)=INFINITE loxodromic stratum: (1,3,4)k=4 s=-1, (1,4,3)k=3 s=+1, (2,3,4)k=4 s=-1, (2,4,3)k=2 s=+1, (3,4,3)k=3 s=+1, (3,6,3)k=1 s=+1; (1,3,3) empty (o=3 realized only at n=4); m=4 o=4 degenerate (A^4=I exactly, mu=A^-4 t=t collapses). The sign rule s=(-1)^(n-1) holds on every cell computed. FIT verdicts: only the no-simple-law candidate fits all confirmed cells -- because its 'formula' IS the structural min-j-scalar invariant by which k is defined (it honestly asserts non-existence of a closed g(o,m), not an overfit). The other three self-report fits_all_confirmed=false: b199 supplies a falsifiable negative (no closed form), spectral fits only the SIGN s=(-1)^(n-1) (exponent structural), and apoly's explicit k=7-eff_o is refuted by the verified (m=2,o=4)=2 (predicts 3). I independently confirmed the two load-bearing refutations: (a) (m=2,o=4) and (m=3,o=6) share A^m-spectrum {1,-1,-1} / order(A^m)=2 but give k=2 vs 1 (kills any A^m-spectral/order law); (b) o=4 and o=8 both give k=3 at m=1 (kills f(o) and gcd laws). PREDICT: computed three held-out cells. m=2 o=3 n=4 -> k=4 (45 geometric reps) confirms the no-simple-law prediction. m=5 o=4 n=3 -> 306 irreducibles but 0 geometric (EMPTY), so b199's k=3 prediction is not realized. m=4 o=3 n=4 -> a 28-min Newton run plus a fast probe both found 0 geometric reps (the documented m>=4 / 50-var Newton wall), so b199's and spectral's k=4 predictions are NOT numerically confirmed, while no-simple-law's EMPTY prediction (and apoly's no-single-k direction) is the one that holds. DISCIPLINE: standalone character-variety math; nothing to CLAIMS.md; no commits; no repo files edited; scratch under /Users/dri/origin-axiom/audit_b199_scratch created and removed. Engine reproducer: /Users/dri/origin-axiom/frontier/B199_metallic_exponent_law/geom_grid.py (smoke test ALL CHECKS PASS)."
+   },
+   {
+    "judge": "OverfitMB12",
+    "verdicts": [
+     {
+      "candidate_id": "b199-closed-form-in-o-m-gcd",
+      "pass": false,
+      "predicted_cell": "m=5 o=4 n=3 (exps [0,1,3])",
+      "predicted_k": 3,
+      "actual_k": null,
+      "reason": "FIT: honestly declares fits_all_confirmed=false, self_status=structural-only; its falsifiable NEGATIVE ('no g(o,m,gcd)') is TRUE -- I independently found 0 affine fits at 1/2/3 features and reproduced O1 (o=4,o=8 both ->3) and O2 (o=4 column 3,2,3). Not vacuous on its primary claim. PREDICT (decisive miss): it issues a non-degenerate structural prediction m=5 o=4 n=3 -> k=3. I computed this admissible cell: 162 (mine)/306 (parent) irreducible geometric reps, ~145/146 loxodromic (order(mu)=inf), but EVERY one NOCLEAN (best-fit err >1e-6 for all k; best-fit 'k' scatters {0,1,2,3,5,12}). geometric_k=None, NOT 3 (parent workflow got the same None). Prediction MISS => pass=false."
+     },
+     {
+      "candidate_id": "spectral-slope-Aspectrum",
+      "pass": true,
+      "predicted_cell": "m=1 o=8 n=4 (exps [1,3,5,7])",
+      "predicted_k": 3,
+      "actual_k": 3,
+      "reason": "FIT: SIGN law s=(-1)^(n-1) reproduces every clean committed cell exactly (n=3 ->+1, n=4 ->-1, n=5 ->+1). Exponent honestly tiered structural-only. MB12 (not vacuous): spectral-slope mechanism k=log|eig L|/log|eig mu| is a genuine verifiable object -- on the certified SL5 o5 rep mu and L=[A,B] commute and slope reads 2.0000=k. Its falsifiable killer is real and verified ((2,4,3),(3,6,3) identical A^m-spectrum {1,-1,-1} but k=2 vs 1). Not definition-as-discovery (slope is a computed spectral quantity). PREDICT: m=1 o=8 n=4 -> k=3; I computed geometric_k=3 (dominant, 136 reps) -- HIT. Survives the OverfitMB12 lens; pass=true."
+     },
+     {
+      "candidate_id": "apoly-slope-effective-cusp-order",
+      "pass": false,
+      "predicted_cell": "m=4 o=4 n=3 (exps [0,1,3])",
+      "predicted_k": 0,
+      "actual_k": null,
+      "reason": "FIT (fails): proposes FALSIFIABLE positive law k=7-eff_o (eff_o=eigenvalue-ratio/PSL cusp order). Verified it fits 7/8 and resolves the o=4/o=8 anomaly, but MISSES silver (2,4,3): 7-eff_o=3, actual k=2 (parent-confirmed). Any miss => Fit fails. MB12: least vacuous candidate -- eff_o is principled, not ad-hoc, honestly reports the miss and non-monotone m-dependence (3,2,3). PREDICT: m=4 o=4 n=3 -> INADMISSIBLE (k=0 sentinel): confirmed A^4=I => mu=t collapses, n_irred=0, EMPTY -- inadmissibility CORRECT (actual_k=None). Prediction HITS, but pass=false forced by Fit-gate (7-eff_o genuinely refuted at silver)."
+     },
+     {
+      "candidate_id": "no-simple-law-stratified-A1",
+      "pass": false,
+      "predicted_cell": "m=2 o=3 n=4 (exps [0,0,1,2])",
+      "predicted_k": 4,
+      "actual_k": 4,
+      "reason": "MB12 VACUITY (decisive): only candidate declaring fits_all_confirmed=TRUE, backed by k=min{j>=1:[A,B]*mu^{-j} scalar on the geometric component} -- literally the DEFINITION of the exponent in [A,B]=s*mu^k. A definitional invariant tautologically reads the correct k on every cell; CANNOT fail as a fit. Textbook definition-as-discovery/vacuity -- exactly what OverfitMB12 flags. The candidate itself concedes the fit 'is NOT a formula you can evaluate without computing the component -- it relocates the content', admitting unfalsifiability. Its falsifiable NEGATIVE (k not a function of (o,m)) is TRUE and matches my brute force, but a 'fits_all_confirmed: true' headline backed by an unfalsifiable definition fails the vacuity gate. PREDICT: m=2 o=3 n=4 -> k=4; computed geometric_k=4 s=-1 (45 reps, parent-confirmed) -- prediction HITS, but pass=false on MB12 vacuity: the central fits-all claim can never fail."
+     }
+    ],
+    "overall": "OverfitMB12 verdict. I independently rebuilt and verified the confirmed geometric-stratum grid (k in [A,B]=s*mu^k, mu=A^-m t, read ONLY on order(mu)=infinite/loxodromic) with the B199 geom_grid engine (pyenv python), cross-confirmed against the parent workflow audit scratch. Verified: (1,3,4)->4/s=-1, (1,4,3)->3/+, (1,5,5)->2/+ [cert], (1,8,4)->3/+ (sign split), (2,3,4)->4/-, (2,4,3)->2/+, (3,4,3)->3/+, (3,6,3)->1/+. Sign s=(-1)^(n-1) holds on every clean committed cell. My brute force: ZERO affine integer fits over {m,o,n,gcd,o/gcd,m/gcd,o-m,o*m,o^2,m+o} at 1/2/3 features; reproduced O1 (m=1 non-injective: o=4,o=8 both->3), O2 (o=4 non-monotone: 3,2,3), and the A^m-spectrum collision (2,4,3)k=2 vs (3,6,3)k=1. So NO closed form k(o,m,gcd) exists. PASS spectral-slope-Aspectrum (falsifiable+correct sign law, real spectral mechanism, prediction m=1 o=8 n=4 ->3 HIT). FAIL the other three: b199-closed-form (its m=5 o=4 ->k=3 prediction refuted: loxodromic reps all NOCLEAN, geometric_k=None); apoly-slope-effective-cusp-order (k=7-eff_o misses silver (2,4,3) 3 vs 2 -- Fit fails, though least vacuous and m=4 o=4 inadmissibility prediction HITS); no-simple-law-stratified-A1 (MB12 vacuity: fits_all_confirmed=true via the min-j-scalar DEFINITION = definition-as-discovery, unfalsifiable). Computed predictions: m=4 o=4 n=3 EMPTY (A^4=I); m=5 o=4 n=3 None; m=2 o=3 n=4 k=4; m=1 o=8 n=4 k=3. m=4 o=3 n=4 untested in-window (SL4 m>=4 Newton wall; not gating any verdict).</parameter>\n</invoke>\n"
+   },
+   {
+    "judge": "Predict",
+    "overall": "Predict-judge verdicts on the metallic exponent k in [A,B]=s*mu^k, mu=A^-m t, read on the order(mu)=infinite (loxodromic) geometric stratum. I rebuilt the verified grid this session with the B199 geom_grid engine (pyenv python, B198 gauge-fixed Newton) [num, >=2 seeds, irreducible+non-degenerate+mu-infinite gated]. VERIFIED confirmed grid: (1,3,4)=4 s-1, (1,4,3)=3 s+1, (1,8,4)=3 (sign SPLIT +1:64/-1:51), (2,3,4)=4 s-1, (2,4,3)=2 s+1, (3,4,3)=3 s+1, (3,6,3)=1 s+1; SL5 (1,5,5)=2 inherited [num-certified, B198]. HELD-OUT cells I COMPUTED: m=4 o=4 n=3 -> EMPTY (degenerate, A^4=I exactly => mu=A^-4 t = t collapses, n_irred=0) [num/exact-degeneracy]; m=2 o=3 n=4 -> k=4 s-1 (70/70 geometric reps, unique) [num]; m=1 o=8 n=4 -> k=3 (115 geo reps, dominant; finite-order branch orders 5/10/20 confirm the fake-k warning) [num]. The slow high-m cells m=5 o=4 n=3 and m=4 o=3 n=4 (50-var (B,t) Newton, ~1/130 rep density) did NOT land in my compute window -- consistent with the documented m>=4 SL(4) Newton wall (B157/B198 FINDINGS) and with candidates 1&2 self-tiering those exact cells as structural/numerics-didn't-land. KEY CROSS-CHECKS verified independently (pure linear algebra, no Newton): (2,4) A^2 = (3,6) A^3 = diag(1,-1,-1) IDENTICAL A^m-spectrum but k=2 vs 1 (kills any pure-A^m-spectral law); 7-eff_o gives o4->3 but (2,4,3) actual k=2 (candidate 3 Fit fail); O1 (o=4 & o=8 both ->3 at m=1) and O2 (o=4 column 3,2,3 non-monotone) both hold (kill any g(o,m,gcd)). Every candidate's reachable held-out prediction that I could compute MATCHED. Discipline: standalone character-variety math; computed in /tmp only; nothing committed; nothing to CLAIMS.md.",
+    "verdicts": [
+     {
+      "candidate_id": "b199-closed-form-in-o-m-gcd",
+      "pass": true,
+      "predicted_cell": "m=4 o=4 n=3 (predicted degenerate/inadmissible, no k defined, k=0 sentinel)",
+      "predicted_k": 0,
+      "actual_k": null,
+      "reason": "PREDICT: I computed its most-checkable held-out cell m=4 o=4 n=3 -> A^4=I exactly (||A^4-I||=7e-16), so mu=A^-4 t = t collapses; engine returns n_irred=0, geometric_k=None (EMPTY). This matches the candidate's prediction that the cell is degenerate/inadmissible (its k=0 is an explicit 'no metallic k' sentinel, NOT a numeric exponent). I could not land the other two predictions (m=5 o=4->3, m=4 o=3->4) in-window -- but the candidate itself tiers those as STRUCTURAL because of the m>=4 (B,t) Newton wall, which my run independently reproduced (cells unreachable in ~2800/4500 attempts). The candidate's substantive content is a FALSIFIABLE non-existence claim (no g(o,m,gcd)): both its obstructions are VERIFIED on my grid -- O1 (m=1 row o=3,4,5,8 -> 4,3,2,3 is non-injective: o=4 and o=8 both give 3) and O2 (o=4 column m=1,2,3 -> 3,2,3 non-monotone). FIT: no positive formula, so nothing to mis-reproduce; all its stated facts about confirmed cells are correct. OVERFITMB12: the opposite of overfit -- zero free constants, sharply falsifiable (any single g fitting all cells refutes it), not vacuous. Sound and matched."
+     },
+     {
+      "candidate_id": "spectral-slope-Aspectrum",
+      "pass": true,
+      "predicted_cell": "m=1 o=8 n=4 (held-out off committed grid; predicted k=3)",
+      "predicted_k": 3,
+      "actual_k": 3,
+      "reason": "PREDICT: I computed its committed reachable held-out cell m=1 o=8 n=4 -> geometric_k=3 (115 loxodromic reps, dominant), EXACTLY matching its prediction k=3. This is the o=8 datum that refutes k=7-o and monotone f(o), and the candidate calls it correctly. Its second prediction m=4 o=3->4 is tiered structural (Newton wall); not reachable in-window, but its value is consistent with the verified o=3 fixed point (m=2 o=3 n=4 -> k=4 confirmed this session). FIT: the SIGN closed form s=(-1)^(n-1) holds on the committed confirmed cells (n=3 -> +1: (1,4),(2,4),(3,4); n=4 -> -1: (1,3),(2,3)). CAVEAT (OverfitMB12): at the o=8 cell n=4 the sign is SPLIT (+1:64 / -1:51, dominant +1, NOT the predicted -1) -- so s=(-1)^(n-1) is NOT robust off the committed grid; I flag this but it is not a committed confirmed cell. EXPONENT honestly self-tiered structural-only: the killer it cites -- (2,4,3) & (3,6,3) share A^m-spectrum {1,-1,-1} yet k=2 vs 1 -- I verified directly (A^2[o4]=A^3[o6]=diag(1,-1,-1)); so no pure-A^m-spectral closed form exists. The POSITIVE spectral-slope mechanism (k = log|eig L|/log|eig mu| on commuting loxodromic eigenvectors) is real. Held-out prediction matched -> PASS."
+     },
+     {
+      "candidate_id": "apoly-slope-effective-cusp-order",
+      "pass": false,
+      "predicted_cell": "m=4 o=4 n=3 (predicted INADMISSIBLE/degenerate, k=0); its substantive prediction m=4 o=3 n=4 -> k=-1 (no single integer) was unreachable in-window",
+      "predicted_k": 0,
+      "actual_k": null,
+      "reason": "FIT FAILS, so pass=false. Its positive closed form k=7-eff_o (eff_o = order of the eigenvalue-ratio/PSL group of A) is REFUTED on a confirmed cell: I verified eff_o(o=4 {1,i,-i})=4 -> predicts k=3, but the verified silver cell m=2 o=4 n=3 has k=2 (30 reps, unique, this session). First miss: (2,4,3) predicted 3, actual 2. The candidate honestly reports fits_all_confirmed:false and this exact miss. PREDICT: its degeneracy call m=4 o=4 n=3 -> inadmissible (eff_o|m) I confirmed EMPTY (A^4=I, n_irred=0) -- correct -- but that is the unanimous easy cell. Its DISTINGUISHING prediction m=4 o=3 n=4 -> k=-1 (slope fragments into multiple Newton edges, no single integer) was not reachable in my window (m>=4 SL(4) Newton wall), so it is NOT confirmed; combined with the silver Fit failure I cannot pass it. OVERFITMB12: eff_o is a natural, well-motivated invariant (it correctly RESOLVES the o=4/o=8 collision both->eff_o=4->3, verified) and it is NOT vacuous -- it makes a falsifiable prediction that demonstrably fails at silver. So it is an honest partial law, not overfit, but it does not fit all confirmed cells. pass=false on Fit."
+     },
+     {
+      "candidate_id": "no-simple-law-stratified-A1",
+      "pass": true,
+      "predicted_cell": "m=2 o=3 n=4 (predicted k=4); plus m=4 o=4 n=3 (predicted EMPTY)",
+      "predicted_k": 4,
+      "actual_k": 4,
+      "reason": "PREDICT: I computed its reachable held-out cell m=2 o=3 n=4 -> geometric_k=4 (70/70 loxodromic reps, ALL (s,k)=(-1,4), unique), EXACTLY matching its prediction k=4 and confirming its 'o=3 => k=4 is a fixed point across n and m' claim (verified at (1,3,4) and (2,3,4)). Its second prediction m=4 o=4 n=3 -> EMPTY I confirmed (A^4=I degenerate, n_irred=0). Its m=4 o=3 n=4 -> EMPTY prediction was not reachable in-window (Newton wall) so neither confirmed nor refuted, but its other two predictions both matched. FIT: it claims fits_all_confirmed:true via k = min-j-scalar = A-poly slope. OVERFITMB12 CAVEAT: this is TAUTOLOGICAL (k=min{j:[A,B]mu^{-j} scalar} IS the definition of the exponent, since [A,B]=s*mu^k <=> [A,B]mu^{-k}=sI) -- a definition-as-discovery, so 'fits all' cannot fail by construction (GOVERNANCE 6 vacuity flag). The candidate is SELF-AWARE of this (its misses explicitly say it 'is NOT itself a formula you can evaluate without computing the component -- it relocates the content'). The OPERATIVE content is the falsifiable NEGATIVE (no g(o,m)) plus testable predictions; the negative's two collisions are verified on my grid (O1 o=4/o=8 both ->3; O2 o=4 column 3,2,3) and the (2,4)/(3,6) identical A^m-spectrum split. As the Predict judge: its concrete held-out predictions matched -> pass=true; I flag the tautological-fit as the OverfitMB12 concern for the panel."
+     }
+    ]
+   }
+  ],
+  "goalB": [
+   {
+    "route": "R3_Fp_slice",
+    "completed": false,
+    "exact_k": null,
+    "tier": "exact-mod-p",
+    "boundary": {
+     "stalled_at": "Groebner basis of the SL(5) o=5 m=1 ideal (degrevlex over GF(101))",
+     "detail": "Linear elimination cheaply removes 21->11 of the gauge-fixed variables (<1s), but the residual quadratic+det system's GB does not complete within the 600s CPU cap. Confirmed across SIX formulations at p=101, all walling: (1) direct det=1 ideal {25 quadratics + det-1, 21 vars, Singular std} EXIT=152 at 600s; (2) saturation of the quadratic ideal by det -- never printed 'sat done', EXIT=152 at 600s; (3) linear-elim to 11 vars but substitution inflated relation degrees to 27 -- >600s; (4) elim with det kept at native degree 5 -- >600s; (5) Singular slimgb engine -- killed at 540 CPU-s, no GB; (6) generic-slice membership with 4 and 6 cuts -- first GB never completed, killed at ~5:28 CPU each. Root cause: the SL(5) det=1 representation-variety ideal (positive-dimensional, like SL3 which is dim 3-4) generates a Groebner basis too large for the 600s budget in this contended environment; F_p arithmetic (single-word coeffs) does not help -- the explosion is combinatorial, not coefficient-size. The numerical certificate stands: B198/V190 already established k=2, c=+1 at [num, 23-digit certified]; the exact-mod-p upgrade is the next tier and it is GB-blocked.",
+     "vars": 21
+    },
+    "notes": "DISCIPLINE OK: standalone character-variety / low-dim-topology computation only; nothing to CLAIMS.md; no commits, no repo edits; all scratch under /Users/dri/origin-axiom/audit/b199_fp_scratch/. METHOD VALIDATED [exact-mod-p]: the F_p generic-membership engine correctly reproduces the known SL(3) exact cells -- SL3 o=3 {1,w,w2} -> k=4 (p=31 AND p=43, both MATCH); SL3 o=4 {1,i,-i} -> k=3 with scalar c=1 (p=41 AND p=101, both MATCH); and generic-slicing was independently validated to PRESERVE k on SL3 (k=4, k=3 read identically after random affine cuts with empty-backoff). This proves the code is correct, so the SL(5) outcome is a genuine compute wall, not a bug. KEY GEOMETRIC FINDING: the (quads+det-1) ideal is POSITIVE-dimensional (SL3 o3 dim=3, o4 dim=4; the membership/scalarity test holds on the whole geometric component so 0-dim is NOT required) -- this corrects an early wrong assumption that the geometric reps are isolated 0-dim points (they are isolated only up to gauge; det t=1 is one constraint short of pinning, and the det=0 locus dominates the det-free variety). A naive F_p fixed-point 'Newton' found 0 exact roots (no metric in F_p; wrong tool -- GB is required to produce exact points). exact_k for SL(5) o=5 m=1: NOT obtained over F_p (GB-blocked); but the prior result k=2=7-o=4-m(o-3) at m=1 stands at [num, high-precision certified] from B198/V190 (23-digit mpmath tracking certificate, 12 reps, 2 independent solvers). Primes attempted for SL(5): 101 (g=95 order 5); 1031 was queued but the wall is prime-independent (combinatorial GB blowup). Reusable artifacts in /Users/dri/origin-axiom/audit/b199_fp_scratch/: fp_sl3_validate.py (PASSES -- the exact-mod-p validation), fp_sliced_membership.py (the route R3 engine, parameterized by n,p,o,exps,ncut -- works at SL3, walls at SL5), fp_clean.py (deteq/sat/satdet1 modes), sl3val.txt (validation log showing all MATCH). NEXT-STEP for a specialist or longer budget: the SL(5) o=5 GB needs either (a) a dedicated FGLM/F4 implementation (Magma/msolve) outside the 600s sandbox cap, or (b) the symbolic relation-rewrite mu=A^-1*t => R=0 <=> A*mu*A^-1*mu*A = mu*A^2*mu, which could yield a CAS-free [exact] proof of [A,B]=mu^2 and bypass the GB entirely (not pursued to completion here).",
+    "field": "low-dimensional topology / SL(n,C) character varieties of the once-punctured torus (metallic trace-map tower); standalone, no Origin-core claim.",
+    "exact_s": null,
+    "geometric_component": {
+     "sl3_o3_dim": 3,
+     "sl3_o4_dim": 4,
+     "sl3_o3_k": 4,
+     "sl3_o4_k": 3,
+     "sl3_o4_c": 1,
+     "sl3_validation_primes": [
+      31,
+      41,
+      43,
+      101
+     ],
+     "sl3_all_match": true,
+     "slicing_preserves_k": true,
+     "sl5_gauge_fixed_vars": 21,
+     "sl5_vars_after_linear_elim": 11,
+     "sl5_elim_degree_blowup": 27,
+     "sl5_relation_degree_native": 2,
+     "sl5_det_degree": 5,
+     "sl5_p_used": 101,
+     "sl5_g": 95,
+     "sl5_GB_completed": false,
+     "sl5_formulations_tried": [
+      "direct_det1_std",
+      "saturation_by_det",
+      "elim_substituted_deg27",
+      "elim_det_deg5",
+      "slimgb",
+      "generic_slice_membership_4_and_6_cuts"
+     ],
+     "sl5_all_walled_at_cpu_seconds": 600,
+     "slimgb_killed_at_cpu_seconds": 540,
+     "prior_certified_k": 2,
+     "prior_certified_c": 1,
+     "prior_tier": "num-high-precision-certified-B198-V190"
+    }
+   },
+   {
+    "route": "R1_rank_strat",
+    "completed": false,
+    "exact_k": 2,
+    "exact_s": 1,
+    "tier": "NEEDS-SPECIALIST",
+    "field": "F_p (zeta5, p=101 and structurally p=1 mod 5) for the stratification/decomposition attempts; C (numpy complex128 + B198 mpmath 60-dps cert) for the numeric value. Q(zeta5) attempted but stalls.",
+    "boundary": {
+     "stalled_at": "decomposition of the 10-variable residual ideal (the dim-4 geometric component) over F_p",
+     "detail": "After gauge-fixing the superdiagonal (t[i,i+1]=1) the relation tA^-2tA=A^-1tAt becomes torus-homogeneous, graded by the cyclic weight class (i-j) mod 5 (5 diagonals of Z/5). Triangular elimination solves 10-11 of the 17 constrained entries in CLOSED FORM (each appears linearly with a constant K-coefficient in one relation entry), collapsing the 25-var ideal to a residual ideal in 10 vars (6-7 remaining cvars + 4 free params; the geometric component is dim 4 mod gauge). Every downstream exact step then stalls: (a) I.dimension() of the 21-var gauge-fixed ideal over Q(zeta5) TIMES OUT at 300s; (b) groebner_basis()+membership of the FULL ideal over F_101 runs PAST 450s (libsingular C-GB ignores the Sage Python alarm, so it must be killed externally); (c) saturation(det)+minimal_associated_primes of the 10-var residual over F_101 is KILLED at 400s wall without finishing; (d) the residual dimension over the fraction field F_101(4 params) does not finish in 360s. (e) An exact-mod-p jet/formal-neighborhood certificate (no GB) was built but blocked at the point-finding step: F_p Newton has an empty basin (0 hits in 1500-4000 seeds, both from random starts and from triangular-construction seeds), so no exact F_p point on the variety could be produced. The wall is sharply localized: 'exact primary decomposition / saturation at >=10 variables' (a narrowing of B157/B198's 'needs a real CAS').",
+     "vars": 10
+    },
+    "geometric_component": {
+     "value_when_identity_holds": "k=2, s=+1 (so [A,B]=+mu^2), det(mu)=1; verified at B198 cert rep ||[A,B]-mu^2||=2.5e-15 with k=1 (err 3.9) and k=3 (err 8.2) cleanly excluded; eig([A,B])=eig(mu)^2 to 6.8e-15; mu loxodromic |eig|=(0.48,0.62,1.0,1.62,2.09); [mu,[A,B]] commute to 5e-15",
+     "CRITICAL_CORRECTION": "The matrix identity [A,B]=s*mu^k does NOT hold on the whole dim-4 geometric/loxodromic component. It holds only on a dim-2 SUBLOCUS (tangent dim 2 of {relation=0 AND [A,B]=mu^2} at the cert rep, vs tangent 4 for the full component; first-order derivative of [A,B]-mu^2 along the component tangent is ~2.0, not 0, while along a random direction it is ~21). Numerically: among 3486 loxodromic irreducible reps only 24 (0.7%) satisfy any clean [A,B]=+-mu^k (all 24 are k=2); the other 3462 satisfy NO fixed exponent (median best-fit residual 7.85, max 7e5). mu and [A,B] always COMMUTE (peripheral, 40/40) but the eigenvalue slope eig(L)=eig(m)^k is NOT a fixed integer on generic reps. B198/V190 gauge_newton.confirm() applies an err<1e-6 filter that structurally selects this sublocus, which is why it reported 'k=2 unanimous (305/305)' -- that unanimity is a selection artifact; k=2 is the exponent on the distinguished sublocus (containing B198's certified rep), not a property of the whole component.",
+     "component_structure": "Multiple irreducible components carry irreducible reps: a dim-4 loxodromic component (containing the k=2 dim-2 sublocus) and a dim-5 'elliptic' component (all |eig mu|=1, including order(mu)=20 Dehn-filling-type points where the best-fit reads k=6/k=10 mod order). The exponent must be read on the loxodromic stratum, consistent with B198's order(mu)=infinity caveat."
+    },
+    "notes": "DISCIPLINE OK: standalone character-variety / low-dim-topology only; no CLAIMS.md, no physics, no commits, no repo edits (all scratch in /tmp/b_route_r1). Tools: sage-python for CAS, pyenv python for numerics. VERDICT: exact_k=2 is the value WHEN the rigid matrix identity [A,B]=+mu^k holds (verified unambiguous on the sublocus), but the exact-SYMBOLIC certification over F_p/Q(zeta5) is NEEDS-SPECIALIST -- blocked by decomposition of the 10-var residual. TIERING: k=2 on the sublocus = [num, high-precision certified] (B198 cert rep + my 5 independent clean reps + eigenvalue relation); the broader exponent law = [num]. VERIFY-DON'T-TRUST PAYOFF (important): I caught that B198's '[A,B]=mu^2 on the geometric component, k=2' is over-stated -- it is a dim-2 sublocus property, not a component property; on the generic dim-4 loxodromic component there is NO fixed matrix/eigenvalue exponent (the err-filter in B198's confirm() hid this). This should down-tier B198/V190's headline from 'the m=1 metallic exponent at SL(5) o=5 is k=2 on the geometric component' to 'k=2 on the distinguished rigid sublocus containing the certified rep'. REUSABLE RESULTS for a follow-up specialist pass: (1) the relation is torus-homogeneous with cyclic grading (i-j) mod 5 -- exploit for a structured decomposition; (2) the 10-var triangular reduction (11 closed-form solves) is the right size-reduction; (3) the genuine open question is the exact decomposition of the dim-4 component and a clean DEFINITION of the canonical exponent (likely the A-polynomial boundary slope read at the distinguished/complete rep on the dim-2 sublocus, NOT a matrix identity on the component). Key scratch files: /tmp/b_route_r1/{decompose_sl5.py, residual_v2.py, decomp_best.py, jet_complex.py, true_dist.py, eigen_k.py, k2_sublocus.py, confirm_sublocus.py, final_summary.py}. Anchors verified against: frontier/B198_metallic_exponent_CAS/{gauge_newton.py,cert_sl5o5_rep.json,FINDINGS.md}, frontier/B149_sl4_ideal_completeness/decompose.py (template)."
+   },
+   {
+    "route": "R2_Qz5_variety",
+    "completed": false,
+    "exact_k": null,
+    "exact_s": null,
+    "tier": "NEEDS-SPECIALIST",
+    "field": "Q(zeta5) (exact route attempted); F_p p=1 mod o (mod-p fallback also stalls at 25 vars); QQbar (target for the 0-dim variety, unreached)",
+    "boundary": {
+     "stalled_at": "the FIRST Groebner basis at 25 variables -- stage B (I.dimension()), which every later stage (saturate, minimal_associated_primes, variety) presupposes",
+     "detail": "Single degrevlex Groebner basis of the SL(5) o=5 m=1 bundle ideal (26 generators, 25 vars) does NOT finish. HARD external-kill measurement: SL(5) o=5 dim [25 vars] mod-p (p=1000081) KILLED at exactly 600.0s with no DIM output; the Q(zeta5) dim run KILLED at >580s with no output. Cyclotomic compounds the cost: even at SL(3)/9 vars, saturate-then-minimal_associated_primes over Q(zeta3) ran >19min (vs 1.34s mod-p) before kill -- the saturation balloons the generator set (28 dense high-degree gens) which makes the subsequent decomposition far slower than decomposing the unsaturated ideal directly. OPERATIONAL: signal.SIGALRM does NOT interrupt Singular's C Groebner kernel, so only external os-level process kill enforces a deadline (relevant for anyone re-attempting). Named residual: 'a single degrevlex Groebner basis at 25 variables over Q(zeta5) (or even F_p) does not terminate within 600s; saturate/minimal_associated_primes/variety(QQbar) are therefore all unreached.' This matches and sharpens the B198 residual ('Sage primary decomposition stalls at SL(4)/16 vars'): SL(4) o=4 is actually fast because its ideal is EMPTY (dim=-1 mod-p, confirmed), so the genuine 25-var test is SL(5) o=5, and that is where the single-GB wall sits.",
+     "vars": 25
+    },
+    "notes": "DELIVERABLE / VALUE OF k: k=2 ([A,B]=+mu^2, sign s=+1, scalar c=+1), but at TIER [num, high-precision certified], NOT [exact]. The exact-symbolic route (this task) did not reach it. I independently RE-VERIFIED k=2 from the B198 certified rep with mpmath at dps=50 (verify-don't-trust, separate code path): (*)-relation residual 5.0e-39; mu loxodromic |eig|={2.094,1.0,1.617,0.619,0.478} => INFINITE order => the correct geometric/cusped stratum (k read only there, per instruction); ||[A,B]-mu^2||=4.1e-19, ||[A,B]*mu^-2 - I||=2.4e-19 with c=1.0; neighbours excluded (||[A,B]-mu^1||=10.0, ||-mu^3||=20.5). So k=2 is effectively certain numerically but I am tiering it NEEDS-SPECIALIST for the EXACT proof requested, because the exact route stalled.\n\nROUTE VALIDATED (it is correct, only the scale is the problem), three ways, all consistent with B71/B89/B157/B198:\n- EXACT over Q(zeta) at SL(3) (B198 sage_groebner.py, ideal-membership of [A,B]*mu^-j on the geometric prime): o=3 {1,w,w2} -> THREE geometric primes (dim 3) each k=4 + one reducible slice (dim 2, k=None); o=4 {1,i,-i} -> geometric prime (dim 4) k=3 + reducible. Exact, matches the figure-eight A-polynomial cells.\n- mod-p FULL pipeline at SL(3) (my r2_fp.py, saturate->minimal_associated_primes->read_k): dim 3, 4 primes dims [2,3,3,3], geometric comps k=4, reducible k=None, in 1.34s.\n- SL(4) o=4 ideal is EMPTY over F_p (dim=-1, minimal_associated_primes=[empty]) -- independent mod-p confirmation of B157's 'SL(4) {1,1,i,-i} corner provably empty' (note: my harness used the distinct-root o=4 spectrum {1,i,-1,-i}; both the distinct-root and the principal {1,1,i,-i} corners are non-realizing at SL(4)).\n\n(C)-guardrail compliance: this is a NAMED, measured residual ('single 25-var Groebner basis does not finish in 600s, SIGALRM cannot interrupt Singular'), NOT a vague 'unreachable'. A real CAS path that could plausibly breach it: (i) decompose the UNSATURATED ideal directly (avoid the saturation blow-up seen here), (ii) Singular/Macaulay2 with a smart monomial order + modular/Hensel-lifted Groebner over Q(zeta5), or (iii) per-spectrum hand-reduction of the o=5 cell a la r1_fig_sl3_o4_proof.py (B157) -- none feasible in this sandbox under heavy parallel CPU contention.\n\nDISCIPLINE: standalone character-variety / low-dim-topology only; nothing to CLAIMS.md; no repo files edited; all work in /tmp/r2_sl5_exact scratch (stage_probe.py, r2_endpoint.py, r2_fp.py, sl5_dim_only.py, sl5_cut_variety.py, gb_boundary.py, verify_k2_cert.py); no git operations. Reusable scratch: /tmp/r2_sl5_exact/gb_boundary.py is the clean boundary-mapping harness (external subprocess kill, since SIGALRM fails vs Singular).",
+    "geometric_component": {
+     "meridian_mu": "A^-1 t (m=1)",
+     "mu_order_at_certified_rep": "infinite (loxodromic): |eig|={2.094,1.0,1.617,0.619,0.478}",
+     "stratum_read": "order(mu)=INFINITE / cusped / geometric (as instructed)",
+     "k_numeric_certified": 2,
+     "sign_s": 1,
+     "scalar_c": 1,
+     "residual_AB_minus_mu2": "4.079e-19 (dps=50)",
+     "residual_AB_mu_inv2_minus_I": "2.380e-19",
+     "neighbors_excluded": "k=1 -> 10.0, k=3 -> 20.5",
+     "exact_validation_cells": {
+      "SL3_o3": "k=4 (3 geometric primes, exact Q(zeta3))",
+      "SL3_o4": "k=3 (geometric prime, exact Q(i))",
+      "SL4_o4": "ideal empty dim=-1 (mod-p)"
+     }
+    }
+   },
+   {
+    "route": "R4_hand_reduction",
+    "completed": false,
+    "exact_k": 2,
+    "exact_s": 1,
+    "tier": "NEEDS-SPECIALIST",
+    "field": "large: generic k=2-locus point has tr(mu) of algebraic degree >=10 over Q (no minimal poly up to deg 8 with coeffs<1e8); locus not in Q(zeta5) or any small extension",
+    "boundary": {
+     "stalled_at": "explicit-rational-family-construction AND ideal-membership-Groebner (two independent walls)",
+     "detail": "(1) NON-RATIONALITY: [A,B]=mu^2 does NOT hold on the bundle component -- it cuts out a codim-2 proper subvariety (bundle variety dim 4 gauge+det-fixed; k=2 locus dim 2; only 51/710=7% of random irreducible reps satisfy ANY integer-k relation, the rest satisfy none). The k=2 locus itself is NOT rationally parametrizable: high-precision (dps=50, residual 1e-37) monodromy/path-following around loops in BOTH free coordinates (radii 0.05 and 0.10) returns to a DIFFERENT sheet (return-distance 3.5e-2 to 7e-2) -- a genuinely algebraic multi-sheeted variety, so no B89-style explicit rational gauge-parametrization exists. (2) GROEBNER WALL: every exact ideal-membership route stalls in Sage over Q(zeta5) -- full gauge-fixed bundle ideal (25 vars) dimension times out >400s; curve specialization (fix 3 entries -> 1-dim) >300s; reduced k=2-locus ideal (55 gens, 2-dim) dimension >420s (all killed, exit 252). Root cause vs B89: there A^3=I gave A^-2=A and a LINEAR vanishing pattern S=tAt that linearized the ideal into a rational 4-param family; here A^5=I but A^-2 != A, so Rel_ij = sum_k t_ik t_kj (a_k^-2 a_j - a_i^-1 a_k) [term k=2(i+j) mod5 drops, derived exact] stays irreducibly bilinear -- no linear pattern. Also no small-field single-point certificate: generic k=2-locus points have trace field degree >=10 over Q.",
+     "vars": 25
+    },
+    "geometric_component": {
+     "bundle_variety_dim_gauge_det_fixed": 4,
+     "k2_locus_dim": 2,
+     "k2_locus_codimension": 2,
+     "frac_irreducible_reps_with_integer_k": "51/710 (~7%)",
+     "k2_locus_rational": false,
+     "monodromy_return_distance": "3.5e-2 to 7.0e-2 (both free coords, radii 0.05/0.10, residual 1e-37)",
+     "generic_k2_point_tracefield_degree": ">=10 over Q",
+     "meridian": "mu=A^-1 t loxodromic, |eig|=[2.094,1.617,1.0,0.478,0.619], order INFINITE (geometric/cusped, not Dehn-filling)",
+     "peripheral_abelian": "[mu,[A,B]]=0 to ~1e-12 for ALL reps ON the variety (NOT for off-variety random t -- needs the relation, so itself ideal-membership not a free identity)",
+     "eigenvalue_relation": "per common eigenline L=M^2 to ~1e-16/1e-18 on the k=2 locus (A-polynomial slope 2)"
+    },
+    "notes": "GOAL B route R4 at SL(5) o=5 m=1: the k=2 value is RE-CONFIRMED but an EXACT symbolic identity proof is OBSTRUCTED (not achieved). [num-certified] target (B198 cert_sl5o5_rep.json, re-verified this run): relation residual 9.0e-16, det t=1.000000 (non-vacuous), ||[A,B]-mu^2||=3.5e-15 with s=+1/c=+1, neighbors k=1 (3.88) & k=3 (8.23) excluded, Burnside rank 25 (irreducible), ||mu-t||=2.19 (A^m!=I non-degenerate), mu loxodromic/infinite-order (geometric component). Re-derived B198 distribution in float64: of 710 irreducible non-degenerate reps, exactly 51 give (s,k)=(+1,2), the rest NO small integer exponent -- so B198's 'all (1,2)' came from its err<1e-6 filter which selects precisely the k=2 locus. [exact] symbolic results obtained: (a) closed form Rel_ij = sum_k t_ik t_kj (a_k^-2 a_j - a_i^-1 a_k), a_p=z^p, with the k=2(i+j) mod 5 term identically vanishing (verified over Q(z)/cyclo5); (b) the bundle vs B89 contrast (A^-2 != A => no linear pattern => irreducibly bilinear quadratic ideal). WHY R4 CANNOT CLOSE HERE: (1) [A,B]=mu^2 is a codim-2 PROPER subvariety (dim 2) of the dim-4 bundle component, NOT an identity on it -- and that k=2 locus is NON-RATIONAL (nontrivial monodromy under both coordinate projections, dps=50/residual 1e-37), so no explicit rational gauge-parametrized family exists to run the B89 polynomial-identity argument on; (2) ideal membership via Groebner normal form (the 'sympy reduce mod cyclotomic minpoly' of the prompt) hits a hard CAS wall (Sage times out on 25-var, 1-dim curve, and 2-dim k2-locus ideals). The right exact object is the SL(5) figure-eight A-polynomial (the algebraic k=2 locus); proving k=2 exactly = proving slope-2 on that A-poly curve, needing either specialist primary-decomposition / Ptolemy-Zickert or a from-first-principles A-polynomial derivation (the standing open prize from b154-metallic-meridian-exponent, the B67->B89 program generalized to n=5). Re-affirms B198 'wall MOVED not vanished': k=2 VALUE is [num-certified] solid; EXACT proof is genuinely NEEDS-SPECIALIST, obstruction now pinned to non-rationality + a >=2-dim-ideal GB wall, not 'our probes can't reach it'. DISCIPLINE: standalone character-variety math, nothing to CLAIMS.md, no physics, no repo files edited (all scratch in /tmp), no commits. Scratch reproducers (pyenv python unless noted): /tmp/sl5_pattern2.py (exact relation closed form), /tmp/sl5_slice.py + /tmp/sl5_k2locus2.py (dims 4 and 2), /tmp/sl5_k2_param.py (non-rationality monodromy), /tmp/sl5_special_pt.py (trace-field degree>=10), /tmp/sl5_identity.sage.py + /tmp/sl5_curve_gb.sage.py + /tmp/sl5_k2_gb.sage.py (Groebner wall, sage-python, all timed out exit 252). Source rep: /Users/dri/origin-axiom/frontier/B198_metallic_exponent_CAS/cert_sl5o5_rep.json; template: /Users/dri/origin-axiom/frontier/B89_sl4_symbolic_M4L/probe.py."
+   }
+  ],
+  "novelty": {
+   "question": "Prior-art / novelty assessment for the \"metallic exponent\" in low-dimensional topology / character varieties. For EACH of the\n3 results below decide KNOWN (cite) / PARTIALLY-KNOWN / APPEARS-NOVEL / NEEDS-SPECIALIST; be adversarial (assume known, hunt prior art).\nCONTEXT: metallic once-punctured-torus bundles = mapping tori with monodromy R^m L^m (m=1 = figure-eight knot complement);\nSL(n,C) character variety; cusp meridian mu=A^{-m} t; longitude [A,B]; on the geometric (loxodromic-meridian) component there is\na matrix identity [A,B]=s*mu^k; k is essentially the A-polynomial slope.\nR1: the SL(n) figure-eight A-polynomial family L=(-1)^{n-1} M^n (n=2 Cooper-Long; n=3 Heusener-Munoz-Porti / Falbel; n=4 L=-M^4) and\nits metallic (m>1) generalization -- is the higher-n family known? (check Bergeron-Falbel-Guilloux, Garoufalidis-Thurston-Zickert).\nR2: the observation that the exponent k must be read on the order(mu)=infinity (cusped) stratum, finite-order-mu reps being\nDehn-filling/orbifold points -- is this stratification of the A-polynomial-exponent standard? (Culler-Shalen, A-polynomial literature).\nR3: the exponent being ORDER-determined (by the boundary spectrum order o), NOT rank-determined, and that there is no simple k(o,m)\nclosed form. -- is an order/arithmetic characterization of the A-polynomial slope for punctured-torus bundles known? (Baker-Petersen\ntunnel-number-one char varieties; Hoste-Shanahan twist knots).\nDeliver a per-result verdict + strongest citations (authors,year,what) + residual uncertainty / what a specialist must confirm.",
+   "summary": "All three results survive an adversarial prior-art hunt as APPEARS-NOVEL at the level the project claims them, with well-documented n=2 and n=3 prior art bounding them. R1 (the SL(n) figure-eight A-polynomial family L=(-1)^{n-1}M^n and its metallic m>1 generalization): the n=2 case is classical (Cooper-Long) and the n=3 case is fully known prior art (Falbel-Guilloux-Koseleff-Rouillier-Thistlethwaite arXiv:1412.4711, Heusener-Munoz-Porti arXiv:1505.04451, Zickert arXiv:1405.0025, with explicit L^3=M / L^3 M=1 relations on Dehn-filling components and an explicit geometric-component SL(3) A-polynomial), but NO source presents a uniform higher-n (n>=4) family, the L=(-1)^{n-1}M^n closed form across n, or any metallic R^m L^m (m>1) higher-n generalization; the GTZ/Goerner gluing-equation machinery (arXiv:1207.6711) is boundary-unipotent parametrization only and computes the figure-eight at n=3,4 as zero-dimensional components with no A-polynomial. R2 (exponent must be read on the order(mu)=infinity cusped stratum): the valuation-theoretic version \u2014 A-polynomial slope = ratio of valuations at ideal points = boundary slope (Newton polygon) \u2014 is fully standard (CCGLS 1994; Benard-Florens-Rodau arXiv:2103.14151), but only in rank 2, and the standard stratification is ideal-points-vs-smooth-points (valuation-theoretic), NOT the project's order(mu)=infinity-vs-finite-order-mu (Dehn-filling/orbifold) stratification, so the specific framing is PARTIALLY-KNOWN. R3 (exponent is ORDER-determined by boundary spectrum order o, not rank, with no simple k(o,m) closed form): the n=2 character-variety prior art for tunnel-number-one and twist-knot punctured-torus families is solid (Baker-Petersen arXiv:1211.4479; Petersen NYJM 2015; Hoste-Shanahan), but none gives an order/arithmetic characterization of the A-polynomial slope at higher rank, so the order-not-rank claim APPEARS-NOVEL pending specialist confirmation.",
+   "findings": [
+    {
+     "claim": "R1 VERDICT \u2014 PARTIALLY-KNOWN (n=2,3 known; uniform higher-n family and metallic generalization APPEARS-NOVEL). The n=3 SL(3,C)/PGL(3,C) figure-eight A-polynomial is fully documented prior art: the character variety has 5 components (3 irreducible, dim 2), the distinguished/geometric component V0 contains the Sym^2:SL(2,C)->SL(3,C) holonomy curve, and the eigenvalue relations L^3=M (component D2) and L^3 M=1 / L^3=1/M (component D3) hold on the Dehn-filling components, with an explicit SL(3) A-polynomial on the geometric component matching Zickert. This establishes the n=3 instance of L=(-1)^{n-1}M^n. NO source presents the uniform higher-n (n>=4) family, the closed-form L=(-1)^{n-1}M^n across n, or any metallic (R^m L^m, m>1) higher-n generalization.",
+     "confidence": "high",
+     "sources": [
+      "https://arxiv.org/pdf/1412.4711",
+      "https://arxiv.org/abs/1505.04451",
+      "https://arxiv.org/pdf/1207.6711"
+     ],
+     "evidence": "Falbel et al. (arXiv:1412.4711, Exp. Math. 2016) state verbatim L^3=M on D2 and L^3 M=1 on D3, plus an explicit geometric-component A-polynomial (-L^8 M + 2L^7 M + 3L^6 M - ... - M = 0) 'the same as the one independently found by C. Zickert'. Heusener-Munoz-Porti (arXiv:1505.04451, Illinois J. Math 2016) confirm 5 components dim 2 with the distinguished component containing Sym^2 of the SL(2) holonomy (= geometric/loxodromic-meridian component for n=3). GTZ/Goerner (arXiv:1207.6711, AGT 2015) compute figure-eight only at n=3 (full) and n=4 (gluing equations only) as ZERO-dimensional boundary-unipotent components over Q(sqrt(-7))/Q(sqrt(-3)), explicitly 'not the standard meridian and longitude' \u2014 no A-polynomial, no L=(-1)^{n-1}M^n. NUANCE: the tidy cubic L^3=M lives on Dehn-filling components D2/D3; the geometric component D1's eigenvalue relation is a 141-polynomial Grobner basis with no tidy form (relevant to R2).",
+     "vote": "5 supporting claims [0,1,2,3,4,5,6], all primary peer-reviewed sources"
+    },
+    {
+     "claim": "R1 corroboration \u2014 the geometric vocabulary (meridian acting as monodromy by conjugation, longitude = fiber-boundary commutator [a,b]) used in the metallic framework is standard for once-punctured-torus bundles, and the metallic R^m L^m family (figure-eight = m=1) is a recognized special case of the Murasugi R/L word decomposition. But no higher-n A-polynomial construction exists in this peripheral-setup literature.",
+     "confidence": "high",
+     "sources": [
+      "https://arxiv.org/pdf/2411.04431"
+     ],
+     "evidence": "Daly (arXiv:2411.04431, Nov 2024) sets up pi_1(M) = <a,b,x | xax^-1=phi(a), xbx^-1=phi(b)>, with x a meridian acting as monodromy phi, and longitude l = aba^-1 b^-1 = [a,b]; uses Murasugi decomposition phi = i^e R^{n1} L^{n2}... so R^m L^m is a special case and the figure-eight (m=1) is the precursor. This matches the metallic mu=A^{-m}t / [A,B] vocabulary at the vocabulary level (mu=A^{-m}t is a twisted meridian, a standard peripheral adjustment). The paper is projective-rigidity via twisted Alexander polynomial, not an SL(n) A-polynomial tower.",
+     "vote": "1 supporting claim [7], primary source; the 'PGL(4,R) projective-deformation = R^mL^m setup' framing claim was REFUTED 0-3 as overreaching toward prior-art status, leaving only the vocabulary-level match"
+    },
+    {
+     "claim": "R2 VERDICT \u2014 PARTIALLY-KNOWN. Reading the A-polynomial slope/exponent at the ideal (cusped, pole-at-infinity) stratum is fully standard: the slope invariant equals minus the logarithmic Gauss map of the A-polynomial, and at an ideal point equals the ratio of valuations v_y(L)/v_y(M) = minus the Culler-Shalen boundary slope = slope of the corresponding Newton-polygon side (CCGLS 1994). BUT this standard stratification is ideal-points-vs-smooth-points (valuation-theoretic), NOT the project's order(mu)=infinity-vs-finite-order-mu (cusped-vs-Dehn-filling/orbifold) stratification, and it is strictly rank 2.",
+     "confidence": "high",
+     "sources": [
+      "https://arxiv.org/pdf/2103.14151"
+     ],
+     "evidence": "Benard-Florens-Rodau (arXiv:2103.14151, 2021) Theorem 4.1: s_K(chi) = -(M/L)(d_M A / d_L A) on each dim-1 component; Theorem 1.3: slope = minus the log-Gauss map of A; Theorem 5.2 (at ideal point y): slope = v_y(L)/v_y(M) = minus boundary slope of the Culler-Shalen incompressible surface = slope of the Newton-polygon side (foundational CCGLS Inventiones 118, 1994). Strictly SL_2(C) (abstract). The paper's stratification is ideal (pole) vs smooth (regular) points \u2014 valuation-theoretic \u2014 which the verifier explicitly flagged as NOT identical to R2's order(mu)=infinity vs finite-order-mu stratification. CAVEAT from R1 finding: Falbel's tidy L^3=M relations appear on the Dehn-filling components while the geometric component carries the complicated relation \u2014 the inverse of the n=2 reading-on-geometric-component picture, a genuine open framing wrinkle for R2.",
+     "vote": "2 supporting claims [9,10], primary source; FOUR adjacent CCGLS/Thurston-cone stratification claims were REFUTED (0-3 / 1-2) for asserting the order/finite-vs-infinite stratification is 'standard' when the literature framing is valuation-theoretic or geometric-cone, not meridian-order"
+    },
+    {
+     "claim": "R3 VERDICT \u2014 APPEARS-NOVEL (order-not-rank characterization and absence of simple k(o,m)). The n=2 character-variety prior art for the relevant punctured-torus-bundle / twist-knot families is solid and well-cited, but none provides an order/arithmetic characterization of the A-polynomial slope, and all are confined to rank 2 \u2014 so no prior art contradicts the order-determined (vs rank-determined) exponent claim or the absence of a simple k(o,m) closed form.",
+     "confidence": "high",
+     "sources": [
+      "https://arxiv.org/abs/1211.4479",
+      "https://nyjm.albany.edu/j/2015/21-39v.pdf"
+     ],
+     "evidence": "Baker-Petersen (arXiv:1211.4479, IJM 2013) determine the full SL_2(C)/PSL_2(C) character varieties of tunnel-number-one once-punctured-torus bundles (Whitehead-link fillings) with birational/smooth models and canonical-component genera \u2014 direct n=2 char-variety prior art, but purely SL_2 (0 SL(n>2), 0 A-polynomial mentions). Petersen (NYJM 21, 2015) computes A-polynomials of J(k,l) double-twist knots strictly via the SL_2(C) eigenvalue map; Hoste-Shanahan place figure-eight = J(2,-2) inside the two-bridge/twist-knot tunnel-number-one family. NUANCE: tunnel-number-one is the single-twist R L^n family; the metallic R^m L^m (m>=2) is NOT tunnel-number-one \u2014 figure-eight (m=1) is the unique overlap \u2014 so even at n=2 the metallic family m>=2 sits just outside the Baker-Petersen coverage. None of these gives an order/arithmetic slope characterization at any rank.",
+     "vote": "4 supporting claims [11,12,13,14], all primary peer-reviewed sources, unanimous except [11] at 2-1"
+    }
+   ],
+   "caveats": "SCOPE OF EVIDENCE: This synthesis confirms what the cited literature does and does NOT contain; it does not independently re-verify the project's own metallic-exponent computations (k=4-m(o-3) etc., which per memory B157 was itself REFUTED in-project, with 'order-not-rank' surviving). The novelty verdicts are therefore 'no contradicting prior art found,' not 'proven novel.' STRATIFICATION MISMATCH (R2): the strongest residual uncertainty \u2014 the standard literature stratifies by ideal-vs-smooth (valuation) points (Benard-Florens-Rodau) or by complex-length/cone-angle (Thurston Dehn-surgery space), while the project stratifies by meridian eigenvalue ORDER (infinite vs finite/root-of-unity). These coincide on the geometric component in many cases but are not definitionally the same; a specialist must confirm whether the project's order-stratification is genuinely distinct or a re-description of the valuation/ideal-point picture. COMPONENT INVERSION (R1/R2): in the n=3 Falbel data the tidy power relation L^3=M lives on the Dehn-filling components D2/D3, whereas the geometric component D1 carries a 141-polynomial relation \u2014 the project reads k on the geometric/loxodromic component, so whether [A,B]=s*mu^k with clean integer k actually holds on the geometric component for n>=3 (vs only on orbifold strata) needs explicit specialist check. RANK BARRIER: essentially all A-polynomial-slope machinery (CCGLS, Benard-Florens-Rodau, Baker-Petersen, Petersen, Hoste-Shanahan) is rank-2-only; the entire higher-n question lives outside the well-developed theory, so 'APPEARS-NOVEL' here partly reflects a genuine gap in the field rather than exhaustive coverage. SOURCE QUALITY: all load-bearing citations are primary peer-reviewed papers (arXiv + journal); the few semanticscholar-only claims were the ones REFUTED. TIME-SENSITIVITY: low \u2014 the n=3 results (2014-2016) and CCGLS framework (1994) are stable; the most recent relevant work (Daly 2024) is a preprint and could be superseded, but it does not assert the higher-n family either.",
+   "openQuestions": [
+    "Does Zickert's SL(n,C) A-variety framework (arXiv:1405.0025, 'Ptolemy coordinates, Dehn invariant, and the A-polynomial', Math. Z. 2016) \u2014 which drops boundary-unipotency and is cited as independently producing the n=3 figure-eight A-polynomial \u2014 contain or readily yield the uniform L=(-1)^{n-1}M^n family for n>=4? This is the single most important unchecked prior-art source for R1's higher-n claim and was not directly examined.",
+    "Is the project's order(mu)-stratification (infinite-order/cusped vs finite-order/Dehn-filling-orbifold meridian) provably equivalent to, or genuinely finer/coarser than, the standard ideal-point-vs-smooth-point (valuation) stratification of Benard-Florens-Rodau and the Thurston complex-length/cone-angle stratification? Resolving this decides whether R2 is PARTIALLY-KNOWN (re-description) or APPEARS-NOVEL (distinct).",
+    "For n>=3 on the GEOMETRIC component specifically (not the Dehn-filling components D2/D3 where L^3=M lives), does an integer-exponent identity [A,B]=s*mu^k actually hold, given that Falbel reports the geometric component D1 carries a 141-polynomial non-tidy relation? This bears on whether the metallic exponent k is even well-defined as a single integer on the geometric stratum at higher n.",
+    "Does any higher-rank (SL(n), n>2) A-polynomial-slope or boundary-slope theory exist beyond the n=3 figure-eight computations \u2014 i.e., is there a Culler-Shalen / Newton-polygon analogue for SL(n,C) character varieties that could pre-empt R3's order-determined-slope claim? No such source surfaced, but the field gap means a representation-theory specialist should confirm before banking R3 as novel."
+   ],
+   "refuted": [
+    {
+     "claim": "The GTZ gluing-equations framework parametrizes BOUNDARY-UNIPOTENT (peripheral-unipotent / Borel) PGL(n,C) and SL(n,C) representations via shape/Ptolemy coordinates and Neumann-Zagier-type gluing+cusp equations. This is the unipotent-meridian regime, NOT the loxodromic-meridian geometric component on which the A-polynomial slope k and the identity [A,B]=s*mu^k live -- so the paper's machinery does not directly produce the metallic exponent.",
+     "vote": "0-3",
+     "source": "https://www.semanticscholar.org/paper/Gluing-equations-for-PGL(n%2C-%E2%84%82)%E2%80%93representations-of-Garoufalidis-G%C3%B6rner/1b11cd7fa09f8ddbeb1720c86f9064d618fd54c1"
+    },
+    {
+     "claim": "The paper's only explicit figure-eight knot example is computed at n=3 (the gluing/cusp equations in Section 14 are written 'for n = 3'), yielding 4 zero-dimensional algebraic components over Q(sqrt(-7)) and Q(sqrt(-3)), with the geometric one arising from PSL(2,C)->SL(3,C). It does NOT present a higher-n (n>=4) figure-eight family, nor the A-polynomial relation L=(-1)^(n-1) M^n, nor punctured-torus-bundle / metallic (R^m L^m, m>1) generalizations.",
+     "vote": "1-2",
+     "source": "https://www.semanticscholar.org/paper/Gluing-equations-for-PGL(n%2C-%E2%84%82)%E2%80%93representations-of-Garoufalidis-G%C3%B6rner/1b11cd7fa09f8ddbeb1720c86f9064d618fd54c1"
+    },
+    {
+     "claim": "The entire framework treats only BOUNDARY-UNIPOTENT representations (peripheral curves -> unipotent elements), so all peripheral/cusp eigenvalues are forced to 1. This structurally excludes the loxodromic-meridian (order(mu)=infinity, eigenvalue != root of unity) geometric stratum on which R2/R3 say the A-polynomial exponent k must be read - the paper cannot see eigenvalue-order strata at all.",
+     "vote": "0-3",
+     "source": "https://arxiv.org/pdf/1207.6711"
+    },
+    {
+     "claim": "General hyperbolic once-punctured torus bundles are parametrized by the Murasugi R/L word decomposition of the SL(2,Z) monodromy (phi = i^eps R^{n1} L^{n2} ... L^{n2k}), and the paper's worked example is phi = L^2 R^2 -- i.e. it explicitly handles a metallic-type R^m L^m bundle and treats the figure-eight (m=1) as the precursor case. This is direct prior art for the SETUP of the metallic once-punctured-torus family (R1), though it works in PGL(4,R) as the projective-deformation space of the PSL(2,C) holonomy, not as an SL(n) figure-eight A-polynomial tower.",
+     "vote": "0-3",
+     "source": "https://arxiv.org/pdf/2411.04431"
+    },
+    {
+     "claim": "The slopes of the sides of the Newton polygon of the A-polynomial are boundary slopes of incompressible surfaces in the knot complement. This is the central CCGLS [3] theorem and is exactly the 'A-polynomial slope = exponent k' linkage that R1/R3 invoke: the exponent k in [A,B]=s*mu^k is the A-polynomial slope, which CCGLS identify with a boundary slope.",
+     "vote": "0-3",
+     "source": "https://link.springer.com/article/10.1007/BF01231526"
+    },
+    {
+     "claim": "The character/representation variety is stratified into honest representation points (the image \u03c0V) versus points at infinity (\u03c0\u0304V \u2212 \u03c0V), and the latter -- the ideal points reached by sequences of representations going to infinity -- are precisely what yield incompressible surfaces and hence the boundary slopes. This directly supports R2: the boundary-slope/exponent data is read off the going-to-infinity (ideal) stratum, distinguished from finite-character points.",
+     "vote": "0-3",
+     "source": "https://link.springer.com/article/10.1007/BF01231526"
+    },
+    {
+     "claim": "For knot families obtained by Dehn filling a fixed parent manifold, the A-polynomial's defining (Ptolemy) equations split into a FIXED finite set of 'outside' equations plus a SEQUENCE of equations determined completely by the slope of the Dehn filling, yielding a recursive definition of the A-polynomial in terms of the filling slope. This is a slope/Dehn-filling stratification of the A-polynomial computation and is directly relevant to R2's claim about slope/Dehn-filling structure being standard.",
+     "vote": "1-2",
+     "source": "https://users.monash.edu.au/~jpurcell/papers/ApolyDehnFill.pdf"
+    },
+    {
+     "claim": "The CCGLS/Culler-Long framework assigns to each ideal point of an SL(2,C) character-variety curve a root of unity lambda determined ORDER-theoretically (its order divides the number of boundary components of the associated incompressible surface), via tr_alpha(x) = lambda + lambda^{-1}; this is an arithmetic/order-based characterization of the boundary-trace at the degeneration, directly supporting R3's claim that the relevant exponent/spectral data is order-determined rather than rank-determined.",
+     "vote": "0-3",
+     "source": "https://arxiv.org/pdf/math/9801064"
+    },
+    {
+     "claim": "Ideal points are precisely the boundary (infinite-order / pole-of-peripheral-trace) points of the smooth projective model of the geometric component, and are operationally distinguished from finite-order representations: at an ideal point a peripheral trace function has a pole, forcing exactly one finite boundary slope. This is the standard CCGLS stratification of the character variety into ideal (cusped-degeneration) vs. interior (finite-order/Dehn-filling) points that R2 asks about.",
+     "vote": "0-3",
+     "source": "https://arxiv.org/pdf/math/9801064"
+    },
+    {
+     "claim": "There is a precise geometric stratification of points in Dehn surgery space by the complex length (boundary holonomy) of the peripheral curve: complex length 2*pi*i gives a smooth complete/filled structure (infinite-order meridian limit at the cusp), complex length alpha*i with alpha not 2*pi gives a hyperbolic CONE structure (orbifold / finite-order point) with cone angle alpha. This is exactly the cusped-vs-finite-order stratification by meridian holonomy that R2 concerns, expressed geometrically rather than via the A-polynomial.",
+     "vote": "1-2",
+     "source": "https://msp.org/gt/2008/12-2/gt-v12-n2-p09-p.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.semanticscholar.org/paper/Gluing-equations-for-PGL(n%2C-%E2%84%82)%E2%80%93representations-of-Garoufalidis-G%C3%B6rner/1b11cd7fa09f8ddbeb1720c86f9064d618fd54c1",
+     "quality": "primary",
+     "angle": "SL(n) figure-eight A-polynomial / higher character varieties (R1 primary)",
+     "claimCount": 4
+    },
+    {
+     "url": "https://arxiv.org/pdf/1207.6711",
+     "quality": "primary",
+     "angle": "Garoufalidis-Thurston-Zickert / Bergeron-Falbel-Guilloux gluing-variety machinery (R1 adversarial)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/abs/1505.04451",
+     "quality": "primary",
+     "angle": "Garoufalidis-Thurston-Zickert / Bergeron-Falbel-Guilloux gluing-variety machinery (R1 adversarial)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/pdf/1412.4711",
+     "quality": "primary",
+     "angle": "Garoufalidis-Thurston-Zickert / Bergeron-Falbel-Guilloux gluing-variety machinery (R1 adversarial)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/pdf/2411.04431",
+     "quality": "primary",
+     "angle": "Garoufalidis-Thurston-Zickert / Bergeron-Falbel-Guilloux gluing-variety machinery (R1 adversarial)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://link.springer.com/article/10.1007/BF01231526",
+     "quality": "primary",
+     "angle": "A-polynomial ideal points, Dehn filling, ideal-vs-finite-order stratification (R2)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://users.monash.edu.au/~jpurcell/papers/ApolyDehnFill.pdf",
+     "quality": "primary",
+     "angle": "A-polynomial ideal points, Dehn filling, ideal-vs-finite-order stratification (R2)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/pdf/math/9801064",
+     "quality": "primary",
+     "angle": "A-polynomial ideal points, Dehn filling, ideal-vs-finite-order stratification (R2)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://msp.org/gt/2008/12-2/gt-v12-n2-p09-p.pdf",
+     "quality": "primary",
+     "angle": "A-polynomial ideal points, Dehn filling, ideal-vs-finite-order stratification (R2)",
+     "claimCount": 4
+    },
+    {
+     "url": "https://arxiv.org/pdf/2103.14151",
+     "quality": "primary",
+     "angle": "A-polynomial ideal points, Dehn filling, ideal-vs-finite-order stratification (R2)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/abs/1211.4479",
+     "quality": "primary",
+     "angle": "Punctured-torus bundles A-polynomial, twist knots, tunnel-number-one (R1+R3)",
+     "claimCount": 4
+    },
+    {
+     "url": "https://nyjm.albany.edu/j/2015/21-39v.pdf",
+     "quality": "primary",
+     "angle": "Punctured-torus bundles A-polynomial, twist knots, tunnel-number-one (R1+R3)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/abs/1403.2020",
+     "quality": "primary",
+     "angle": "Punctured-torus bundles A-polynomial, twist knots, tunnel-number-one (R1+R3)",
+     "claimCount": 4
+    },
+    {
+     "url": "https://arxiv.org/abs/1412.4711",
+     "quality": "primary",
+     "angle": "Punctured-torus bundles A-polynomial, twist knots, tunnel-number-one (R1+R3)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://www.math.umd.edu/~zickert/GluingEquations.pdf",
+     "quality": "primary",
+     "angle": "Punctured-torus bundles A-polynomial, twist knots, tunnel-number-one (R1+R3)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://digitalcommons.lmu.edu/math_fac/165/",
+     "quality": "primary",
+     "angle": "Punctured-torus bundles A-polynomial, twist knots, tunnel-number-one (R1+R3)",
+     "claimCount": 3
+    },
+    {
+     "url": "https://arxiv.org/pdf/2206.14954",
+     "quality": "primary",
+     "angle": "Arithmetic / order-of-eigenvalue characterization of A-polynomial slope (R3 contrarian)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://arxiv.org/pdf/math/0411205",
+     "quality": "primary",
+     "angle": "Arithmetic / order-of-eigenvalue characterization of A-polynomial slope (R3 contrarian)",
+     "claimCount": 5
+    },
+    {
+     "url": "https://web.math.ucsb.edu/~cooper/19.pdf",
+     "quality": "primary",
+     "angle": "Arithmetic / order-of-eigenvalue characterization of A-polynomial slope (R3 contrarian)",
+     "claimCount": 5
+    }
+   ],
+   "stats": {
+    "angles": 5,
+    "sourcesFetched": 19,
+    "claimsExtracted": 89,
+    "claimsVerified": 25,
+    "confirmed": 15,
+    "killed": 10,
+    "afterSynthesis": 4,
+    "urlDupes": 10,
+    "budgetDropped": 1,
+    "agentCalls": 101
+   }
+  }
+ }
+}
