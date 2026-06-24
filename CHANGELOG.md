@@ -24,6 +24,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B203 — the 4 silver SL(3) components classified: all irreducible & cusped-type (2026-06-24; V196).** Identifies
+  the new silver component (B201's comp3) and **explains B202** (resolves OPEN_LEADS L23(b)). All four components of
+  the silver SL(3) character variety are **irreducible** (Burnside dim 9) with **A, B, µ of infinite order**
+  (continuous trace) — cusped/loxodromic-type, **none a finite-order-A Dehn-filling component**. So comp3
+  (`{tr A+tr A⁻¹=−1, tr B+tr B⁻¹=−1}`, no figure-eight analog) is a *genuine new irreducible* component. **Why this
+  explains B202:** the figure-eight's tidy `M³=L`/`M³L=1` live on its *finite-order-A* Dehn-filling components
+  (`W1={x1=x4=1}` → `A=diag(1,i,−i)`, order 4); silver has no such torsion locus, so no tidy `[A,B]=c·µᵏ`. The
+  figure-eight's tidy Dehn-filling A-variety is a special low-trace phenomenon, absent for m≥2. Completes the silver
+  SL(3) story (B201 → B202 → B203); silver SL(3) A-polynomial uniformly Falbel-size → `NEEDS-SPECIALIST` (B199).
+  Standalone character-variety math; P1–P16 untouched; nothing to `CLAIMS.md`.
 - **B202 — the silver SL(3) A-variety: no tidy `[A,B]=c·µᵏ` (2026-06-24; V195).** Completes the SL(3)
   metallic-A-polynomial direction (B201 → its peripheral relations; resolves OPEN_LEADS L23(a)). **Result
   (validated):** the silver (m=2) bundle has a *correct commuting* cusp meridian `µ=A⁻²t` (B154; `cdev~1e-9` on all
