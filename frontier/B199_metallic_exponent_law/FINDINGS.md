@@ -26,7 +26,8 @@ geometric exponent is a **low-m phenomenon**. Tiers: SL3 cells `[exact]` (Q(ω)/
 ## Result A — NO closed-form law `k(o,m)`; only the sign survives
 
 No single-valued `k(o,m)` (or `k(o,m,gcd)`, or `k(A^m-spectrum)`) reproduces the table. **Three decisive refuters**
-(independently reproduced this session):
+(the o=4/o=8 collision and the non-monotonicity were *fully* re-derived by CC this session; the A^m-spectrum *matrix
+identity* was re-derived by CC — its `k`-values are from the workflow grid):
 
 1. **The o=4 / o=8 collision.** Both give `k=3` at m=1 on the µ-infinite stratum (my grid: `{3:8}` and `{3:8}`). The
    shared invariant is the **effective/projective order** `eff_o` = order of the eigenvalue-**ratio** group of A
@@ -58,6 +59,13 @@ Honest restatement: *"the SL(5) o=5 m=1 exponent is `k=2` at the complete cusped
 geometric component." This aligns with Falbel's n=3 **component-inversion** (the tidy `L³=M` lives on the Dehn-filling
 components; the geometric component carries a 141-term non-tidy relation). **B198 FINDINGS corrected in place; the `k=2`
 *value* stands (where the identity holds), only the *scope* is down-tiered.**
+
+**The sublocus is GENUINE, not a numerical artifact (CC re-verification, prompted by an owner "U sure?").** Among **60**
+loxodromic irreducible reps lying *exactly* on the variety (median relresid **2.2e-13**), **59 are NOT clean** — their
+best-`k` exponent error is **O(1)** (min 1.2e-6, **median 7.67**, max 7910), while only **1** is clean (k=2). The ratio
+`err / (relresid·cond(t))` has median **8.8×10¹¹ ≫ 1**, so the O(1) error is *real structure* — generic loxodromic reps
+satisfy **no** integer exponent — not an `err`-threshold filtering numerically-under-resolved-but-genuine reps. So the clean
+exponent is a real **codim-2 rigid sublocus**, confirming the correction. (`sublocus_genuine.py`.)
 
 ## Result C — Goal B: SL(5) exact-symbolic EXHAUSTED (4 routes) → a sharp NEEDS-SPECIALIST boundary
 
