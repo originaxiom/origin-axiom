@@ -56,10 +56,54 @@ def test_nonmetallic_is_complex_metallic_is_real():
     assert not re_ok                                            # Re(Z) is not
 
 
+# ---- Gauss-sum reciprocity proof locks (B204 PROOF.md) ----
+import mpmath as mp  # noqa: E402
+from gauss_proof import (Ztil_direct, Z_orig, Ztil_closed, diag_closed,  # noqa: E402
+                         cross_closed, G_a, sub_period, lcm as glcm)
+mp.mp.dps = 25
+
+
+def test_proof_full_range_and_winding():
+    # de-wound full-range Ztil == original Z * winding phase (range extension + winding identity)
+    for (a, b) in [(1, 1), (2, 2), (1, 2), (1, 3)]:
+        lhs = Ztil_direct(a, b, 6)
+        rhs = Z_orig(a, b, 6) * mp.e**(1j * mp.pi * (a - b) / 12)
+        assert abs(lhs - rhs) < mp.mpf(10) ** -18, (a, b)
+
+
+def test_proof_reciprocity_closed_form():
+    # Ztil == (Landsberg-Schaar diagonal) + (2D Gauss-reciprocity cross), an EXACT identity
+    for (a, b) in [(1, 1), (2, 2), (3, 3), (1, 2), (1, 3), (2, 3)]:
+        assert abs(Ztil_direct(a, b, 6) - Ztil_closed(a, b, 6)) < mp.mpf(10) ** -18, (a, b)
+
+
+def test_proof_diagonal_period_is_lcm():
+    # G_a has period exactly a (s=1) => per(diagonal G_a conj G_b) = lcm(a,b)
+    for (a, b) in [(1, 1), (2, 2), (3, 3), (1, 2), (1, 3), (2, 3), (3, 5)]:
+        assert sub_period(lambda n: diag_closed(a, b, n), 2 * glcm(a, b) + 6) == glcm(a, b), (a, b)
+    # the s=1 argument itself: G_a(n) != G_a(n+d) for 0<d<a (period is exactly a)
+    for a in [2, 3, 4, 5, 6]:
+        for d in range(1, a):
+            assert abs(G_a(a, 1) - G_a(a, 1 + d)) > mp.mpf(10) ** -6 or \
+                   any(abs(G_a(a, n) - G_a(a, n + d)) > mp.mpf(10) ** -6 for n in range(1, a))
+
+
+def test_proof_exact_period_equals_formula():
+    # lcm(per(diag)=lcm(a,b), per(cross)) == P = lcm(a,b)(4+ab)/gcd(4+ab,4)
+    for (a, b) in [(1, 1), (2, 2), (3, 3), (4, 4), (1, 2), (2, 3), (2, 4), (2, 6)]:
+        P = period_predicted(a, b)
+        pC = sub_period(lambda n: cross_closed(a, b, n), 4 * (a * b + 4) + 8)
+        assert glcm(glcm(a, b), pC) == P, (a, b, pC, P)
+
+
 if __name__ == "__main__":
     test_sum_and_matrix_paths_agree()
     test_m1_period5_anchor()
     test_metallic_period_law()
     test_general_period_law()
     test_nonmetallic_is_complex_metallic_is_real()
+    test_proof_full_range_and_winding()
+    test_proof_reciprocity_closed_form()
+    test_proof_diagonal_period_is_lcm()
+    test_proof_exact_period_equals_formula()
     print("ALL CHECKS PASS")
