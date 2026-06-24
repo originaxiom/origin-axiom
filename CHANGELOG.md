@@ -24,6 +24,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B200 — verification of the chat1 independent-computation handoff (2026-06-24; V193).** Three incoming
+  "MATH" results re-derived before banking (verify-don't-trust; cf. B197 for chat2). **R2 VERIFIED + banked:**
+  *on-site is the unique finite-range interaction preserving the Fibonacci Sturmian alphabet* — the paired potential
+  `V_n+V_{n+d}` at d=1 (NN) has 2 values but complexity `p(4)=6` (not Sturmian), d=2 (NNN) has 3 values; only d=0
+  preserves it (structural reason: d≥1 sees *pairs*). Refines K019 / the B171–B176 interaction frontier; honest scope
+  (alphabet-preserving is a proxy for metallic-preserving). **R1 REFUTED:** the "κ₁=κ₂=3 at U=t doublon fixed point"
+  used the *strong-coupling* formula `t_eff=2t²/U` out of regime (at U=t it gives `t_eff=2t`; a genuine 2-body Hubbard
+  ED shows no doublon band and RMS 3.77 vs the prediction), and its "RMS=0 verification" was *circular*
+  (effective-Fibonacci-chain-with-`λ_eff` vs the single particle, equal by construction at U=t). Recorded refuted.
+  **R3 standard ETH** (not banked; its specific Poisson→GOE numbers didn't even reproduce in a quick check). The
+  **"not nothing" ladder** stays firewalled/POSTULATED (known results + selection-bias deflation; nothing to
+  `CLAIMS.md`). Only R2 survives as a new increment. Standalone condensed-matter / symbolic-dynamics math; P1–P16
+  untouched.
 - **B199 — the metallic exponent: no closed-form law; the clean exponent is a *sublocus*; SL(5) exact-symbolic
   exhausted (2026-06-24; V192).** A multi-agent **Workflow** (113 agents, ~4.5M tokens, 4h: adversarial verify → law
   propose+judge panel → 4 Goal-B exact routes → deep-research novelty → consolidate) closing the flagship by
