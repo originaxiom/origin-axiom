@@ -78,9 +78,17 @@ Literal **large-N** gluing (multi-cusp building blocks; the genus-2 nesting, H5-
 the *discontinuous* Sturmian sampling; **which** labels open *actual* gaps off the real axis (B165); a **rigorous**
 golden-privilege theorem (why φ uniquely stands alone); SL(n) higher-rank (B166).
 
+**Interaction-type selection (B200, V193):** among *finite-range* interactions, **on-site (d=0) is the unique one
+that preserves the Fibonacci two-letter Sturmian alphabet** — the paired potential `V_n+V_{n+d}` at d=1 (NN) has 2
+values but subword complexity `p(4)=6>5` (not Sturmian), and d=2 (NNN) has 3 values; only d=0 leaves the composite
+seeing the same site sequence (any d≥1 sees *pairs*, whose correlations the substitution does not control). A verified
+chat1-handoff increment; honest scope = it preserves the *alphabet/complexity* (a proxy for "metallic-preserving"),
+the full spectral consequence being a further step. *(The same handoff's "U=t doublon = single-particle replica" was
+REFUTED — a strong-coupling formula used out of regime; see B200.)*
+
 **Anchors:** B171 (the woven baseline + density trap), B172 (the combination gap), B173 (the gap-labeling reduction /
 L16), B174 (the gluing-map landscape / H5), B175 (two-number predictivity / the width law), B176 (the golden
-privilege); `K007`/`K010` (the single-chain object), `K013`/`K014` (continuum vs interaction-born choice),
+privilege), **B200** (on-site = the unique Sturmian-preserving interaction); `K007`/`K010` (the single-chain object), `K013`/`K014` (continuum vs interaction-born choice),
 `../philosophy/P000` (the φ `[RHYME]`), `../speculations/S035` (the "building blocks' behaviour" reframe). External:
 gap-labeling theorem (Johnson–Moser; Bellissard; Damanik–Fillman 2022); perturbation theory of quasiperiodic gaps;
 bichromatic / Aubry–André operators; Hurwitz / KAM (φ = most-irrational = most-robust); Kitano–Nozaki 2020 (the
