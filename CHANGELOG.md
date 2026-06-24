@@ -24,6 +24,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B201 — the metallic (silver) SL(3) character variety from the trace-map fixed locus (2026-06-24; V194).**
+  Extends B71 (figure-eight SL(3)) to the metallic family — the SL(3) face of "the metallic A-polynomial on the
+  geometric component" (the object the B199 integer exponent was a shadow of). **Part 1 (banked, exact):** the silver
+  (m=2) bundle monodromy `T_2²` (B48 metallic trace map) has fixed locus `Fix(T_2²)` decomposing into **four** dim-2
+  components — **one more than the figure-eight's three** — the geometric `{tr A=tr A⁻¹, tr B=tr B⁻¹}` (same form as
+  B71's V0, contains Sym²), two Dehn-filling-type, and a **new `{tr A+tr A⁻¹=−1, tr B+tr B⁻¹=−1}` component with no
+  figure-eight analog**. m=1 reproduces B71's 3 components exactly (validation). So the silver SL(3) character variety
+  is *richer* than the figure-eight's. **Part 2 (deferred, not banked):** the per-component peripheral A-variety
+  relations (the silver analog of B71's `M³=L`) — a quick in-house pipeline failed its figure-eight `M³=L` validation
+  gate, so per verify-don't-trust nothing from it is banked; the fault is isolated (B71's *native* peripheral machinery
+  recovers `M³=L` cleanly), and the correct next step (explicit silver component parametrizations → B71-native
+  peripheral with `µ=A⁻²t`) is recorded. Expected: Dehn-filling tidy, geometric Falbel-size (NEEDS-SPECIALIST, per
+  B199). Standalone character-variety math; P1–P16 untouched; nothing to `CLAIMS.md`.
 - **B200 — verification of the chat1 independent-computation handoff (2026-06-24; V193).** Three incoming
   "MATH" results re-derived before banking (verify-don't-trust; cf. B197 for chat2). **R2 VERIFIED + banked:**
   *on-site is the unique finite-range interaction preserving the Fibonacci Sturmian alphabet* — the paired potential
