@@ -24,6 +24,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B206 — the golden object's spin shadow is 2I = SL(2,𝔽₅) = McKay-E₈ (2026-06-25; V203).** The McKay seam
+  question, computed (not hedged). The golden mean (`m=1`, field `ℚ(√5)`, disc 5) has congruence shadow
+  `SL(2,𝔽₅) = 2I` (binary icosahedral = McKay partner of affine `E₈`). Classical/trace level = `PSL(2,𝔽₅)=A₅`
+  (5 irreps); quantum/spin level = `SL(2,𝔽₅)=2I` (9 irreps = affine `E₈` marks); the `ℤ/2` between them is the
+  center `{±I}` = the spin cover SU(2)→SO(3) = the half-trace `κ=4I+2`; the **4 extra spinorial irreps `{2,2,4,6}`**
+  are what the quantum level sees and the classical cannot. So "does the quantum level carry spinorial structure
+  the classical can't?" = **yes, structurally** (not a φ-rhyme). **Golden-specific:** `SL(2,𝔽_p)` is
+  binary-polyhedral only for `p≤5`, and only the `ℚ(√5)` family (`m=1,4`) hits disc 5 — golden is the unique
+  metallic mean whose spin shadow is McKay-`E₈`. **Honest:** ingredients all standard (assembly is the
+  contribution); novelty **UNCHECKED** (golden↔`E₈` known in physics, Coldea 2010; → L26). **Firewall:** this is
+  McKay/representation-theoretic `E₈`, **not** physics' `E₈` gauge group. Nothing to `CLAIMS.md`; P1–P16 untouched.
 - **Synthesis — "the metallic once-punctured-torus object, seen four ways" (2026-06-24; V202).**
   `papers/metallic_one_object/SYNTHESIS.md`: a synthesis / cross-face dictionary (an **exposition, not a new
   theorem**) assembling one object — the `SL(2,ℤ)` trace map / metallic mean `λ_m` — through four lenses:
