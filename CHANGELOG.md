@@ -24,6 +24,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B205 — the quantum (skein) trace map for the metallic family (2026-06-24; V201).** The "quantum swerve"
+  (path C) — the first **generic-`q`** (not root-of-unity, so *not* WRT/Jeffrey) quantum computation in the repo.
+  Derives + **verifies** the Kauffman-bracket skein algebra of the once-punctured torus, its central element
+  `Ω(q)` (solved, verified central; classical limit = the Fricke `κ=tr[A,B]`, half-trace), and the quantum Dehn
+  twists `R_q,L_q` as **verified automorphisms** (preserve all relations + `Ω`; classical limit = the Kohmoto
+  trace map). q-Chebyshev `[m]_q` structure. **Honest novelty (`NOVELTY.md`): the machinery is KNOWN** — skein
+  algebra (Bullock–Przytycki), the `SL(2,ℤ)` action = the Askey–Wilson algebra / spherical DAHA
+  (Terwilliger; Cherednik). B205 = the in-repo construction + verification + metallic specialization; **no theorem
+  claimed**; the "quantum metallic mean" (à la Morier-Genoud–Ovsienko) is **UNCHECKED, suspected already-known**.
+  Standalone quantum-algebra; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B204 — the WRT level-period law for once-punctured-torus bundles (2026-06-24; V197).** Pins the live Path-A
   metallic period question and shows the metallic law is the **diagonal** of a law for **all** once-punctured-torus
   bundles `RᵃLᵇ`. The SU(2)_k Reshetikhin–Turaev modular trace `Z(a,b;k)=tr(ρ_k(RᵃLᵇ))=tr(TᵃST⁻ᵇS⁻¹)` has level-period
