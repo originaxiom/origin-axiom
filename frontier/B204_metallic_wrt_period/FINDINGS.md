@@ -56,14 +56,23 @@ The earlier exploratory memo's "no clean law / period absent when `m^2+4` is pri
 artifact** (the scan bound was below `m(m^2+4)`); `m=1` (disc 5, prime) has the smallest period, falsifying
 the prime/composite split. Corrected here.
 
-## Mechanism (why — a derivation sketch, not yet a full proof)
+## Mechanism — PROVED: periodicity via Gauss-sum reciprocity (see `PROOF.md`)
 
-With `p=i+1, q=j+1` and `sin^2(pi pq/n) = 1/2 - 1/4(e^{2 pi i pq/n} + e^{-2 pi i pq/n})`, the double sum
-factors into **products of quadratic Gauss sums** `G(c, 4n) = sum_p e^{2 pi i c p^2/(4n)}` (with the `pq`
-cross-term completed-square into a shifted Gauss sum). The level-period of such Gauss-sum products under
-quadratic (Landsberg–Schaar) reciprocity is what produces the discriminant factor `4+ab` and the modulus
-`lcm(a,b)`. A full reciprocity proof of the exact period (incl. the partial-range `p=1..n-1` truncation) is
-the remaining step — **open / likely a known-techniques computation** (see novelty).
+The qualitative theorem is now **proved**: `|Z(a,b;n)|` is exactly periodic in the level despite the matrix
+dimension `n−1` growing. Sketch (full argument + exact identities in `PROOF.md`, reproducer `gauss_proof.py`):
+1. `sin^2(pi pq/n)` vanishes at `p,q in {0,n} (mod n)`, so the de-wound trace
+   `Z̃(n)=Σ_{p,q=1}^{n-1} e^{iπ(ap²-bq²)/(2n)} sin²(πpq/n)` extends to a **full period** `0..2n-1` —
+   giving clean Gauss sums with **no boundary corrections**.
+2. Split `sin²`; the diagonal evaluates by **Landsberg–Schaar** to `(1/(2√(ab)))·G_a(n)G_b(n)*` (the `√(2n)`
+   amplitudes exactly cancel the `1/(2n)` — *this* is why a growing-dimension trace stays bounded & periodic),
+   and the cross term by **2D Gauss reciprocity** (binary form `det = −(4+ab) = −det(γ+I)`).
+3. `G_a(n)` has period **exactly `a`** (take `s=1`), so `per(diagonal)=lcm(a,b)` — PROVED; the cross period
+   `L_c` divides `4+ab`. Hence `|Z|` periodic with `P=lcm(lcm(a,b),L_c)`.
+
+**Status:** periodicity PROVED; the diagonal factor `lcm(a,b)` PROVED; the exact period
+`P=lcm(a,b)(4+ab)/gcd(4+ab,4)` **verified** (14 cells via the cheap dual sum), with a closed form for the
+cross Gauss-sum period `L_c` (its 2-adic part) the **one remaining lemma** to reach `[proved]` for the exact
+formula. Tier: `[periodicity proved; exact period one Gauss-sum-period lemma from closure]`.
 
 ## Novelty (UNCHECKED — flagged for a prior-art pass)
 
@@ -78,7 +87,10 @@ Standalone quantum-topology / low-dimensional-topology arithmetic. No physics; n
 gauge content; nothing to `CLAIMS.md`; P1–P16 untouched (K010 form-side).
 
 ## Reproduction
-- `python period_law.py` — self-check (sum vs matrix), the `m=1` anchor, the metallic law `m=1..8`, the
-  general law on a spread of `(a,b)` incl. large held-out cells. ~2s, numpy only.
-- `tests/test_b204_metallic_wrt_period.py` (pyenv, numpy-only) — 5 locks incl. the real-vs-complex
-  dichotomy. 5 passed.
+- `python period_law.py` — the numerical law: self-check (sum vs matrix), the `m=1` anchor, the metallic law
+  `m=1..8`, the general law on a spread of `(a,b)` incl. large held-out cells. ~2s, numpy only.
+- `python gauss_proof.py` — the **Gauss-sum reciprocity proof** reproducer (mpmath): the full-range/winding
+  identity, the exact Landsberg–Schaar + 2D-reciprocity closed form, `per(diagonal)=lcm(a,b)`, and
+  `lcm(per(diag),per(cross))=P` on 14 cells. ~1 min. See `PROOF.md`.
+- `tests/test_b204_metallic_wrt_period.py` (pyenv) — 9 locks: the numerical law (5) + the proof identities (4:
+  full-range/winding, the reciprocity closed form, diagonal period `=lcm(a,b)`, exact period `=P`). 9 passed.

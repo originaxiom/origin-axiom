@@ -32,7 +32,11 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `m=1` reproduces chat1's verified figure-eight period-5 `Z={1,0,−1/φ,0,1}`). The period is read off the mapping
   torus: `4+ab=det(γ+I)` (homology) × `lcm(a,b)` (twist). **Why the metallic family is special:** the constant phase
   `e^{−2πi(a−b)/(4n)}` is 1 iff `a=b`, so metallic `Z` is *real* and periodic; for `a≠b` only `|Z|` is periodic.
-  Mechanism (sketch): the sum factors into quadratic Gauss sums; the period follows from Landsberg–Schaar reciprocity.
+  **Periodicity PROVED (V198, `PROOF.md`):** `Z̃` extends to a full period (`sin²` vanishes at the boundary) →
+  clean Gauss sums; Landsberg–Schaar gives the diagonal (the `√(2n)` amplitudes cancel `1/(2n)` — why a
+  growing-dimension trace stays bounded & periodic), 2D Gauss reciprocity gives the cross (binary form
+  `det = −(4+ab) = −det(γ+I)`); `per(diagonal)=lcm(a,b)` is proved. The exact period is verified on 14 cells; a
+  closed form for the cross Gauss-sum period is the one remaining lemma to full `[proved]`.
   **Corrects** the prior exploratory memo ("no clean law / period absent when `m²+4` prime" — a search-bound artifact;
   `m=1`, disc 5 prime, has the smallest period). Novelty **UNCHECKED** (mechanism is standard — Jeffrey/Garoufalidis;
   the closed-form word-period flagged for a prior-art pass). Standalone quantum-topology/arithmetic; nothing to
