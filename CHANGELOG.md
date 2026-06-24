@@ -24,6 +24,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B204 — the WRT level-period law for once-punctured-torus bundles (2026-06-24; V197).** Pins the live Path-A
+  metallic period question and shows the metallic law is the **diagonal** of a law for **all** once-punctured-torus
+  bundles `RᵃLᵇ`. The SU(2)_k Reshetikhin–Turaev modular trace `Z(a,b;k)=tr(ρ_k(RᵃLᵇ))=tr(TᵃST⁻ᵇS⁻¹)` has level-period
+  **`per|Z(a,b)| = lcm(a,b)·(4+ab)/gcd(4+ab,4)`** (predict-then-confirm on 21 `(a,b)` + 12 metallic cells, all
+  fundamental). The metallic diagonal `a=b=m` gives **`P(m)=m(m²+4)/gcd(m²+4,4)`** (`P(1..8)=5,4,39,20,145,60,371,136`;
+  `m=1` reproduces chat1's verified figure-eight period-5 `Z={1,0,−1/φ,0,1}`). The period is read off the mapping
+  torus: `4+ab=det(γ+I)` (homology) × `lcm(a,b)` (twist). **Why the metallic family is special:** the constant phase
+  `e^{−2πi(a−b)/(4n)}` is 1 iff `a=b`, so metallic `Z` is *real* and periodic; for `a≠b` only `|Z|` is periodic.
+  Mechanism (sketch): the sum factors into quadratic Gauss sums; the period follows from Landsberg–Schaar reciprocity.
+  **Corrects** the prior exploratory memo ("no clean law / period absent when `m²+4` prime" — a search-bound artifact;
+  `m=1`, disc 5 prime, has the smallest period). Novelty **UNCHECKED** (mechanism is standard — Jeffrey/Garoufalidis;
+  the closed-form word-period flagged for a prior-art pass). Standalone quantum-topology/arithmetic; nothing to
+  `CLAIMS.md`; P1–P16 untouched.
 - **B203 — the 4 silver SL(3) components classified: all irreducible & cusped-type (2026-06-24; V196).** Identifies
   the new silver component (B201's comp3) and **explains B202** (resolves OPEN_LEADS L23(b)). All four components of
   the silver SL(3) character variety are **irreducible** (Burnside dim 9) with **A, B, µ of infinite order**
