@@ -24,6 +24,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B202 — the silver SL(3) A-variety: no tidy `[A,B]=c·µᵏ` (2026-06-24; V195).** Completes the SL(3)
+  metallic-A-polynomial direction (B201 → its peripheral relations; resolves OPEN_LEADS L23(a)). **Result
+  (validated):** the silver (m=2) bundle has a *correct commuting* cusp meridian `µ=A⁻²t` (B154; `cdev~1e-9` on all
+  four components), but **none of its four character-variety components carries a tidy matrix relation `[A,B]=c·µᵏ`**
+  (matexp best-score medians 16.1, 6.5, 2.8, 1.2 — all ≫1e-6) — whereas the figure-eight's Dehn-filling components do
+  (`W1: c·µ³ = M³=L`; `W2: c·µ⁻³`). So **the figure-eight's tidy Dehn-filling A-variety is non-generic** in the
+  metallic family; the silver A-variety is all-Falbel-size. **Method:** the pairing-free **matrix exponent**
+  (`[A,B]·µ⁻ᵏ` scalar; B71/B198), gated on the figure-eight (recovers `M³=L`/`M³L=1` exactly) — fixing the
+  eigenvalue-ordering scramble that sank B201 Part 2. Honest SL(3) picture now complete: SL(2) tidy (B67/B69); SL(3)
+  figure-eight tidy only on its trace-1 Dehn-filling components (B71); SL(3) silver no tidy component at all (B202) →
+  closed-form silver SL(3) A-polynomial `NEEDS-SPECIALIST` (per B199). A verify-don't-trust arc (the ratio pipeline
+  failed its gate → not banked → matrix-exponent method gated → the negative banked). Standalone character-variety
+  math; P1–P16 untouched; nothing to `CLAIMS.md`.
 - **B201 — the metallic (silver) SL(3) character variety from the trace-map fixed locus (2026-06-24; V194).**
   Extends B71 (figure-eight SL(3)) to the metallic family — the SL(3) face of "the metallic A-polynomial on the
   geometric component" (the object the B199 integer exponent was a shadow of). **Part 1 (banked, exact):** the silver
