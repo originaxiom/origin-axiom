@@ -24,6 +24,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **Synthesis — "the metallic once-punctured-torus object, seen four ways" (2026-06-24; V202).**
+  `papers/metallic_one_object/SYNTHESIS.md`: a synthesis / cross-face dictionary (an **exposition, not a new
+  theorem**) assembling one object — the `SL(2,ℤ)` trace map / metallic mean `λ_m` — through four lenses:
+  **(I)** character variety / Fricke trace map (incl. the SL(n) tower as higher-rank Face I), **(II)** closed
+  geodesic on the modular surface (`ℓ=4 log λ_m`, multiplier `λ_m²` = Cantat–Loray dynamical degree), **(III)**
+  Fibonacci/quasicrystal spectrum (`κ=2+λ²`, Kohmoto), **(IV)** quantum (WRT = Jeffrey 1992 at roots of unity;
+  skein/DAHA at generic `q`). The hinge: `λ_m²` is simultaneously the geodesic multiplier, the dynamical degree,
+  and the trace-map periodic-orbit multiplier (verified). **No novelty claimed** — each face is banked
+  (B71/B148/B150/B198–B205, K002/K007/K010, B160–B186) or literature-owned (Jeffrey, Cantat–Loray,
+  Damanik–Gorodetski, DAHA/MGO); the contribution is the unified map. Explicit scope boundary (Ω cone, Hitchin
+  flow, off-axis spectral, chirality barrier marked out-of-scope); firewall + proven-core relation stated;
+  cross-referenced to `STRATEGIC_SYNTHESIS.md`/`ARCHITECTURE.md`. Consolidates the four-leads investigation
+  (exponent → no-law; period → Jeffrey; unification → trace-map core; quantum → DAHA), whose meta-finding is
+  that the object is real but **well-charted mathematics**. Nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B205 — the quantum (skein) trace map for the metallic family (2026-06-24; V201).** The "quantum swerve"
   (path C) — the first **generic-`q`** (not root-of-unity, so *not* WRT/Jeffrey) quantum computation in the repo.
   Derives + **verifies** the Kauffman-bracket skein algebra of the once-punctured torus, its central element
