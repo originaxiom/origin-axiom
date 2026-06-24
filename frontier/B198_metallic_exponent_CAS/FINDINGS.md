@@ -43,6 +43,17 @@ Note `k=2 ≠ rank 5` — **reinforces** B157's "order-determined, not degree=ra
 certificate). The **exact symbolic proof** over `ℚ(ζ₅)` (primary decomposition, 25 vars) is **not** done — see
 the residual. This is not `[proved]`.
 
+**SCOPE CORRECTION (B199, V192 — verify-don't-trust, confirmed two ways):** the phrase "[A,B]=µ² **on the
+geometric component**" (and the "305/305 unanimous") **over-states the scope**. The rigid identity holds only on a
+**dim-2 *sublocus*** of the dim-4 loxodromic component — **~1% of irreducible loxodromic reps** (B199 grid:
+8/887=0.9%; the B199 workflow: 24/3486=0.7%). The `confirm()` `err<1e-6` filter **selects** that sublocus, so the
+unanimity was a filter artifact. `µ` and `[A,B]` always commute (peripheral), but `eig(L)=eig(µ)^k` is a fixed
+integer **only on the distinguished rigid sublocus** (which contains the complete cusped rep), not on generic
+loxodromic reps. The **k=2 value stands** (at the complete cusped rep / on the sublocus); only the *scope* is
+down-tiered: read it as "k=2 at the complete cusped rep," not "on the whole geometric component." At SL(3) the
+identity *does* hold on the whole component (o=4: 100%); the sublocus phenomenon emerges with rank. See
+`frontier/B199_metallic_exponent_law/`.
+
 ## Validation — the method reproduces every known cell
 
 - **Sage/Singular EXACT** (ideal membership over `ℚ(ζ_o)`, read on the geometric component):
