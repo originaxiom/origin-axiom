@@ -24,6 +24,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B207 (symmetry-breaking door, finished) — no GUT chain (2026-06-25; V206).** Finished the symmetry-breaking
+  door with a clean **arithmetic negative**: `E₆=2T=SL(2,𝔽₃)` never occurs (`m²+4≡1,2 mod 3`, 3 never ramifies);
+  `E₇=2O` never occurs (`|2O|=48` is no `|SL(2,𝔽_p)|`); only `E₈` (`ℚ(√5)`, m=1,4,11) is hit. So the `E₈→E₆`
+  branch is golden's *internal* subgroup lattice, **not** a family-realized chain, and the dynamics selects
+  `2D₅` not `2T`. The object does **not** realize a GUT-style symmetry-breaking chain — the firewall holds; the
+  genuine structures are the κ=2 wall (dynamical) and golden's isolated `E₈`. Flips the S038 item to
+  done-negative. Nothing to `CLAIMS.md`.
 - **B207 (scale door, computed) — the metallic bundle volumes are bounded (2026-06-25; V205).** Pushed the
   scale door with SnapPy: the hyperbolic volumes of `RᵐLᵐ` (m=1=figure-eight) are **bounded and converge** —
   golden = `2·v_tet` (the minimal cusped hyperbolic volume), silver = `v_oct` exactly (m136), `Vol_m ↗ 2·v_oct`

@@ -26,6 +26,15 @@ def test_scale_spectrum_no_intrinsic_hierarchy():
     assert min(r["reg"] for r in spectrum()) == regulator(1)
 
 
+def test_symmetry_breaking_no_gut_chain():
+    # only E8 occurs in the family; E6 (needs 3|m^2+4) and E7 (2O not SL(2,Fp)) are impossible
+    from family_shadows import family_summary, sl2_order
+    assert all((m * m + 4) % 3 != 0 for m in range(0, 2000))          # E6=2T never (3 never ramifies)
+    assert 48 not in [sl2_order(p) for p in range(2, 300)]            # E7=2O is not any SL(2,Fp)
+    e8 = [r["m"] for r in family_summary(20) if r["E8"]]
+    assert e8 == [1, 4, 11]                                            # only Q(sqrt5) family hits E8
+
+
 def test_metallic_volumes_bounded_golden_minimal():
     # SnapPy-gated: metallic bundle volumes converge (bounded), golden=2 v_tet minimal, silver=v_oct
     try:

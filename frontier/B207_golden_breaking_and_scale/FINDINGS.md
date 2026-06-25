@@ -18,6 +18,21 @@ as pure finite-group structure:
 `E₈⊃E₇⊃E₆` and the finite containment `2I⊃2T` are different things (subgroup containment does not transfer
 through McKay). The `E₇`-skip is a real fact about the *finite* shadow.
 
+## Part 1b — symmetry breaking, finished: no GUT chain (an arithmetic obstruction)
+
+Is the `E₈→E₆` branch a *family-realized* breaking chain, or just golden's internal subgroup lattice? **The
+latter, decisively** — a clean arithmetic obstruction:
+- **`E₆=2T=SL(2,𝔽₃)` never occurs:** `m²+4 ≡ 1 or 2 (mod 3)` for *all* m, so 3 never ramifies in the metallic
+  fields.
+- **`E₇=2O` never occurs:** `|2O|=48` is never `|SL(2,𝔽_p)|=p(p²−1)` (orders 6,24,120,336,…) — `2O` is not a
+  congruence quotient at all.
+- **Only `E₈`** occurs, hit by the `ℚ(√5)` family (m=1,4,11 — odd-index Lucas).
+
+So the `E₈→E₆` chain is golden's **internal** lattice (`2T⊂2I`), *not* realized across the family, and the
+dynamics selects `2D₅` (5-fold), not `2T`. **Verdict: NEGATIVE for a GUT-style symmetry-breaking chain — the
+firewall holds.** The genuine symmetry-breaking structures remain (a) the dynamical κ=2 wall (generic, banked
+B161/B162) and (b) golden's *isolated* `E₈` (B206); there is no chain between them.
+
 ## Part 2 — scale: the metallic family's dimensionless scale-spectrum
 
 The object is scale-free → no **absolute** scale (B151 stands). Its intrinsic **dimensionless** invariants:
