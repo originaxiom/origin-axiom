@@ -159,7 +159,34 @@ claim is made or implied.** The reframe the four-leads investigation supports: t
 **arithmetic and dynamical** (computable, real) — and that content is **known mathematics**; the unified map is
 the honest deliverable.
 
-## 9. References (by face; standard in the area)
+## 9. The punchline — what the four shadows converge on
+
+The four faces are not four costumes of one object; they are four **shadows of one conjugacy class**
+$\varphi_m = R^mL^m \in \mathrm{SL}(2,\mathbb{Z})$. The synthesis earns its closing in one sentence:
+
+> **The arithmetic shadow of $\varphi_m$ — its reduction modulo the field discriminant — is, for the golden
+> mean alone, the unique exceptional McKay group $2I = \mathrm{SL}(2,\mathbb{F}_5) = E_8$; and this is golden-
+> specific because $5$ is simultaneously the smallest fundamental discriminant (making $\varphi$ dynamically
+> extremal) and the largest McKay prime $\mathrm{SL}(2,\mathbb{F}_p)$ (making $2I$ the largest binary-polyhedral
+> group). The minimal point and the exceptional point are the same point, for the same reason: $5$.** `[B206]`
+
+Three independent specialnesses of the golden mean coincide, all forced by $5$: **dynamically extremal** (the
+most badly-approximable number, smallest regulator, the systole), **arithmetically exceptional** ($2I=E_8$),
+and **least-hierarchical** (smallest volume $2v_{\mathrm{tet}}$, the floor of the bounded volume window
+$[2v_{\mathrm{tet}}, 2v_{\mathrm{oct}})$, `[B207]`). The same "$5$" runs through the period law too: the WRT
+level-period $P(m)$ is always a multiple of the squarefree part of the discriminant $m^2+4$, and at golden that
+part *is* the McKay prime $5$ `[B208]` — so the quantum invariant (Face IV) and the arithmetic shadow are the
+same arithmetic.
+
+**The content-axis verdict (firewalled, `S038`):** pushing the two open physics-adjacent doors *confirms and
+sharpens* the firewall rather than breaching it. **Scale** — the bundle volumes are bounded (the volume-
+conjecture exponential rate *saturates* at $2v_{\mathrm{oct}}$), so the object cannot supply an unbounded scale;
+all unbounded scale is the quantization level. **Symmetry breaking** — there is no GUT-style chain: $E_6$ is
+arithmetically impossible ($3 \nmid m^2+4$), $E_7$ is not a congruence quotient, only $E_8$ occurs, isolated.
+The object is **mathematics that bears on the physical question without crossing into it**: its content is the
+arithmetic of one conjugacy class, and at its minimal point that arithmetic is $E_8$.
+
+## 10. References (by face; standard in the area)
 - **Char. variety / trace map:** Fricke–Vogt; W. Goldman (trace coordinates, MCG action); Cantat–Loray (AIF 2009).
 - **Geodesic / dynamical degree:** Cantat–Loray; classical hyperbolic geometry of $\mathbb{H}/\mathrm{SL}(2,\mathbb{Z})$.
 - **Quasicrystal:** Sütő (1987); Damanik–Gorodetski (Fibonacci Hamiltonian); Damanik–Killip–Lenz.
