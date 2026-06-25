@@ -119,9 +119,23 @@ def relations():
             for (A, B, C) in [(gx, gy, gz), (gy, gz, gx), (gz, gx, gy)]]
 
 
+def relation_on_images(img, A, B, C):
+    """The defining relation q<A><B> - q^-1<B><A> - (q-q^-1)<C>, evaluated on the IMAGES of the
+    generators A,B,C. An algebra endomorphism is a homomorphism iff this vanishes for every cyclic
+    triple -- i.e. the images satisfy the SAME skein relations."""
+    iA, iB, iC = img[A], img[B], img[C]
+    return add(scal(q, mul(iA, iB)), scal(-q**-1, mul(iB, iA)), scal(-(q - q**-1), iC))
+
+
 def is_automorphism(img):
-    return all(is_zero(apply_hom(img, r)) for r in relations()) and \
-        is_zero(add(apply_hom(img, Omega), scal(-1, Omega)))
+    """GENUINE check (re-audit fix, 2026-06-25): the earlier version applied the map to an
+    already-reduced (=zero) relation word, so the relation clause was VACUOUS -- it returned True
+    even for non-automorphisms like X->2X that happen to fix Omega. The honest test substitutes the
+    images into the un-reduced relation and reduces afterward; the negative controls (X->2X, Y<->Z,
+    X->X+Y) now correctly FAIL, while R_q, L_q still pass."""
+    rels_ok = all(is_zero(relation_on_images(img, A, B, C))
+                  for (A, B, C) in [(X, Y, Z), (Y, Z, X), (Z, X, Y)])
+    return rels_ok and is_zero(add(apply_hom(img, Omega), scal(-1, Omega)))
 
 
 def classical(elt):

@@ -9,6 +9,29 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **Re-audit of the quietly-banked batch B205–B209 (2026-06-25; V212).** Acting on the owner's challenge — that
+  findings banked *without* an explicit verify-push may carry the same superficiality that verify-requests keep
+  exposing — each of the five findings banked this session without a push (B205–B209) was **independently
+  re-derived from scratch** (5 parallel adversarial verifiers + own confirmation of every substantive fix).
+  **Verdict: every load-bearing *number* held (the math is correct in all five), but the prediction was right for
+  the *framings* and *tests*.** Fixes applied in place: **B206 (real over-claim)** — "golden is the *unique*
+  metallic mean whose spin shadow is McKay-E₈ / field 5 only for m=1,4" is **false** (a cap-`m≤8` artifact + a
+  field-vs-shadow conflation): the field is exactly `ℚ(√5)` for the whole Lucas family `{1,4,11,29,…}` and the
+  `2I=SL(2,𝔽₅)` shadow appears for every `m` with `5∣m²+4` (since `⟨R,L⟩=SL(2,ℤ)` surjects mod 5 for *any* m) →
+  corrected to "golden = the **minimal/fundamental** member of the `ℚ(√5)/E₈` family," and the test now locks the
+  genuine **surjection** `⟨R,L⟩→120` (the prior lock checked only one element's order 10 — the same gap caught in
+  B210/V210). **B207 (framing over-reach)** — the "volumes → Borromean" limit was asserted from a value-coincidence
+  + an Aitken estimate (~3·10⁻³ short); the structural drill that *earns* it lives in B211/L31 — FINDINGS reworded
+  and the fragile `<0.01` Aitken lock replaced with honest "approaches, bounded-above" bounds. **B205 (test
+  soft-spot)** — the `is_automorphism` relation-clause was **vacuous** (applied the map to an already-reduced=0
+  relation; returned True even for `X→2X`); the math is right (`R_q,L_q` *are* automorphisms) but the check now
+  substitutes images into the un-reduced relation + three negative controls. **B208 (under-claim upgraded)** — the
+  divisibility `squarefree(m²+4) ∣ P(m)` is in fact a **theorem** (proven; 0 failures to m=300 000), not just
+  "checked m=1..300". **B209 (confirmed)** — `Λ*(ℝ⁶)` under A₅ `=(64,0,4,4,4)`, all mult 4, spinorial `{2,2,4,6}`
+  absent, fully re-derived; added an explicit dimension-saturation lock. Firewalls all clean; **nothing to
+  `CLAIMS.md`; P1–P16 untouched.** The honest meta-lesson: the banked *quantities* were sound, but two
+  uniqueness-framings and three tests carried exactly the predicted superficiality — verify-don't-trust now applied
+  to one's own quietly-banked work.
 - **Verification corrections (Phase V, 2026-06-23): B192 REFUTED, B189 framing fix.** An independent adversarial
   verification pass on the recent batch (B189/B192/B196) cleared **B196/S037** (identities exact, firewall airtight)
   but caught two problems. **B192 — the Lyapunov "parity law" is REFUTED** (retracted in place to a recorded

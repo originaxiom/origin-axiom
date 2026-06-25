@@ -5,7 +5,11 @@ RESULT (verified, canonized to geometric / positively-oriented triangulations; c
 'linear-growth' misread): the volumes are BOUNDED and CONVERGE:
   golden  (m=1) = 2.02988  = 2 v_tet  (figure-eight, the MINIMAL cusped hyperbolic volume) -- the floor
   silver  (m=2) = 3.66386  = v_oct    (one regular ideal octahedron; census m136), exactly
-  Vol_m increasing, Aitken-accelerated limit -> 2 v_oct = 7.32772 (= Vol(Borromean rings)) as m->inf.
+  Vol_m increasing, bounded, with a numerical Aitken limit ~ 2 v_oct = 7.32772.
+RE-AUDIT NOTE (2026-06-25): "limit = Vol(Borromean rings)" is a VALUE COINCIDENCE here (Aitken estimate,
+~3e-3 short). The structural identification -- R^mL^m is a Dehn filling of the Borromean complement -- is
+EARNED in B211/L31 by drilling the short geodesics (m-independently -> 6^3_2=L6a4, vol exactly 2 v_oct).
+This module establishes only the bounded/monotone/floor facts.
 SCALE READ: the object's exponential rate in the volume conjecture |<R^mL^m>_N| ~ e^{N Vol_m/2pi}
 SATURATES (Vol_m bounded by 2 v_oct). The object cannot supply an unbounded rate; all unbounded scale
 is the quantization LEVEL N -- confirms + sharpens the firewall (B151). FIREWALL: hyperbolic geometry /

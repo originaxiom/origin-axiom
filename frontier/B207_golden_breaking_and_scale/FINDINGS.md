@@ -52,11 +52,16 @@ m=1 = figure-eight), canonized to geometric triangulations:
 - **golden (m=1) = 2.02988 = `2·v_tet`** (figure-eight = two ideal tetrahedra; the **minimal** cusped
   hyperbolic volume) — the floor.
 - **silver (m=2) = 3.66386 = `v_oct`** (one regular ideal octahedron; census **m136**), exactly.
-- `Vol_m` increasing, Aitken-³-accelerated **limit → `2·v_oct = 7.32772`** (= Vol(Borromean rings)) as
-  `m→∞`. So the volumes are **bounded** in `[2.03, 7.33)`, golden at the floor.
+- `Vol_m` increasing and **bounded**, with an Aitken-³-accelerated numerical limit `≈ 2·v_oct = 7.32772`
+  (`m→∞`); the volumes sit in `[2.03, 7.33)`, golden at the floor.
 
 **Correction (verify-don't-trust):** an initial pass misread the volumes as growing *linearly*; canonizing to
 geometric triangulations shows they **converge** (increments decay `1.63,1.15,0.76,…`).
+
+**Correction (re-audit, 2026-06-25) — the "→ Borromean" framing was OVER-REACHED here.** B207 establishes the
+*numerical* limit `≈ 2·v_oct` (an Aitken estimate, `~3·10⁻³` short at the term-counts used) and notes that
+`2·v_oct = Vol(Borromean rings)` — but that is a **value coincidence**, not a derivation. The structural fact
+that `RᵐLᵐ` *is* a Dehn filling of the Borromean complement is **earned in [B211 / L31](../B211_metallic_arithmetic_geometric_faces/FINDINGS.md)** by *drilling* the short core geodesics (`m`-independently → `6³₂=L6a4=t12067`, the Borromean rings complement, vol exactly `2·v_oct`). So the bounded/monotone/floor facts stand; the **identification of the limit manifold belongs to B211, not to this Aitken estimate**.
 
 **Scale read:** the volume-conjecture exponential rate `|⟨RᵐLᵐ⟩_N| ~ e^{N·Vol_m/2π}` **saturates** (`Vol_m`
 bounded by `2·v_oct`) — the object cannot supply an *unbounded* exponential rate; all unbounded scale is the
