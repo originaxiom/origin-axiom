@@ -13,6 +13,10 @@ Two genuinely-uncomputed paths, run:
      (B207), so neither arithmetic reaches it. Silver = degenerate prime 2 on both sides (Q(sqrt2),Q(i));
      bronze+ non-arithmetic. => golden is the unique metallic mean hitting exceptional McKay primes on
      BOTH arithmetics.
+     [B212 correction, 2026-06-25: the silver "degenerate -> S3 both sides" is COMPUTED & sharpened --
+      monodromy side: R^2L^2 == I mod 2 (TRIVIAL, not S3; the S3 is the <R,L> group); hyperbolic side:
+      trace-degenerate (square-traces 2,+-2i all == 0 mod (1+i), no order-3 element), image-group a
+      named quaternion residual. golden's 2T=E6/2I=E8 unaffected (integral & full). See frontier/B212.]
  (2) Is the WRT modular-rep image at the golden level (SU(2)_3) = 2I? NO: |<S,T>| = 2880 (SL(2,Z/20)-
      related; ord(T) gives level 20, not 5). So the quantum face is NOT the congruence shadow as a
      group -- the WRT<->shadow link is purely arithmetic (det(gamma+I)=m^2+4, B208), not a group iso.
@@ -91,7 +95,8 @@ if __name__ == "__main__":
     print(f"    => golden hits BOTH McKay-exceptional primes (3,5 -> E6,E8). |2T|={sl2_order(3)}, |2I|={sl2_order(5)}.")
     print(f"    VERIFIED: figure-eight holonomy mod (sqrt-3) surjects onto SL(2,F3)=2T, |image|={figure_eight_mod3_image()} (=24).")
     print(f"    E7=2O (48) not an SL(2,Fp) order: {48 not in [sl2_order(p) for p in range(2,200)]} -> excluded from both.")
-    print("    silver: monodromy Q(sqrt2)(ram 2) + hyperbolic Q(i)(ram 2) -> both S3 (degenerate); bronze+ non-arith.")
+    print("    silver: monodromy Q(sqrt2) + hyperbolic Q(i), prime 2 -> DEGENERATE [B212 COMPUTED: R^2L^2==I mod 2")
+    print("            (trivial, not S3); hyperbolic trace-degenerate (square-tr==0 mod (1+i)); image-group residual].")
     print()
     o = wrt_image_order_su2_3()
     print(f"(2) WRT modular-rep image at golden level (SU(2)_3): |<S,T>| = {o}  (2I would be 120)")

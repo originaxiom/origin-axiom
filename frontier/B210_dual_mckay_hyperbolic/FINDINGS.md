@@ -29,6 +29,13 @@ is the unique metallic mean whose both arithmetics hit exceptional McKay primes*
 across `m=1..7` confirms **golden and silver are the only arithmetic bundles** (degree-2 imaginary-quadratic
 trace fields; m≥3 are degree ≥4, non-arithmetic).
 
+> **Correction (B212, 2026-06-25).** The silver "**degenerate prime 2 → S₃ both sides**" above was assumed by
+> analogy; **computed** (B212), it is sharper: *monodromy side* — `R²L² ≡ I (mod 2)` is **trivial**, not S₃ (the
+> "S₃" is the `⟨R,L⟩=SL(2,𝔽₂)` *group* shadow, a different object), part of the law "`RᵐLᵐ≡I mod p ⇔ p∣m ⇔ p=2,m
+> even"; *hyperbolic side* — trace-**degenerate** (silver's square-traces `2, ±2i` all `≡0 mod (1+i)` ⇒ no order-3
+> element survives), with the image-**group** a named quaternion-order residual (the holonomy is a quaternion order
+> over `ℚ(i)`, not `SL(2,ℤ[i])`). Golden's `2T=E₆` / `2I=E₈` (integral & full) is **unaffected**. See `frontier/B212`.
+
 **The mod-3 → E₆ step is VERIFIED, not asserted (after a "verify it all" pass).** The figure-eight discrete-
 faithful Riley parameter is `u = ω` (the *cube* root of unity, `ω²+ω+1=0` — corrected from an initial 6th-root
 slip; both are units in `ℤ[ω]`, so the conclusion is robust). It is a **unit**, so mod `(√−3)` it reduces to a
