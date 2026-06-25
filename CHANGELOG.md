@@ -24,6 +24,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B208 + synthesis punchline — the WRT period and the congruence shadow are the same arithmetic (2026-06-25; V207).**
+  B204 (the WRT period, Face IV) and B206 (the congruence shadow, Face I) are two reads of one homological
+  invariant `det(γ+I)=m²+4`: `squarefree(m²+4)` (the field radicand) **always divides** `P(m)`, and at golden the
+  three collapse — `P(1)=5 = det(γ+I) = disc ℚ(√5) = the McKay prime`, `SL(2,𝔽₅)=2I=E₈` (the three 5's are one).
+  And `papers/metallic_one_object/SYNTHESIS.md` finally gets its **punchline (§9)**: the four faces are shadows of
+  one conjugacy class whose arithmetic shadow at disc 5 is the unique exceptional McKay group — golden-specific
+  because 5 is *simultaneously* the smallest fundamental discriminant (extremal) and the largest McKay prime
+  (exceptional); the minimal point and the exceptional point are the same point, for the same reason. Nothing to
+  `CLAIMS.md`; P1–P16 untouched.
 - **B207 (symmetry-breaking door, finished) — no GUT chain (2026-06-25; V206).** Finished the symmetry-breaking
   door with a clean **arithmetic negative**: `E₆=2T=SL(2,𝔽₃)` never occurs (`m²+4≡1,2 mod 3`, 3 never ramifies);
   `E₇=2O` never occurs (`|2O|=48` is no `|SL(2,𝔽_p)|`); only `E₈` (`ℚ(√5)`, m=1,4,11) is hit. So the `E₈→E₆`
