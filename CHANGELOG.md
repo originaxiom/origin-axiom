@@ -24,6 +24,28 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B211 — the metallic family's three faces: geometric limit, chirality spectrum, and the arithmetic of the
+  variety itself (2026-06-25; V211).** The six remaining *computable* leads (L29–L34), run properly and verified —
+  each computed (not asserted), with its load-bearing step locked in a test. **Headline (L34, a new arithmetic
+  face):** the arithmetic of the character *variety* itself (its Weil zeta over `𝔽_p`), never touched — all prior
+  arithmetic was a number *field* (monodromy `ℚ(√(m²+4))` or hyperbolic trace `ℚ(√−3)`). The figure-eight's
+  non-abelian `SL(2,ℂ)` character variety polynomial `Φ(x,z)=z²−(x²+1)z+(2x²−1)` is **derived** from the Riley
+  relator and **verified** at the complete structure (`x=2 → u²+u+1`, roots `ω`). It is an irreducible genus-1 curve
+  and **`#X^{na}(𝔽_p) = p − 1 − a_p(E)` exactly** (23 good primes `p≤97`) for `E: y²=x(x−1)(x−5) =` Cremona
+  **`40a1`** (conductor 40, `j=148176/25`, **non-CM**, rank 0): the variety is birational to a weight-2 newform of
+  level 40 — *not* the `ℚ(√−3)` of the trace field (whose ramified prime 3 isn't even among the variety's bad primes
+  `{2,5}`). **L31:** drilling the short core geodesics of `RᵐLᵐ` returns `m`-independently the **Borromean rings
+  complement** (`6³₂=L6a4=t12067`, two ideal octahedra, vol `2·v_oct`) — the metallic bundles are large-twist Dehn
+  fillings of one fixed parent (corrects B207's then-unearned "→Borromean"). **L32:** every `RᵐLᵐ` (`m=1..6`) is
+  **amphichiral** (isometric to its orientation-reversal) ⇒ `CS=0` for all `m` (firewall L15 holds family-wide).
+  **L33:** the B204 WRT level-period **is a Pisano period** of `x_{n+1}=m·x_n+x_{n−1}` (`π(m,m²+4)=4Q(m)`,
+  `P_WRT=(m/4)π`). **L29:** `ord(RᵐLᵐ mod m²+4)=2Q(m)`. **L30 (resolved-neg):** the skein quotient at
+  `q=e^{2πi/5}` (`SU(2)₃` Verlinde, rank 4) is **not** the `2I` rep ring (rank 9) — consistent with B210's WRT image
+  of order 2880; the WRT/skein↔shadow link is arithmetic (B208), not a rep-ring identity. Novelty **UNCHECKED** on
+  L34 (the `40a1`/Weil-zeta framing — the polynomial is classical), L31 (likely folklore), L33 (Pisano standard);
+  L32/L29/L30 are characterizations/consequences. Firewall: standalone low-dim topology / arithmetic geometry /
+  quantum topology; **nothing to `CLAIMS.md`; P1–P16 untouched.** `frontier/B211_metallic_arithmetic_geometric_faces/`
+  + `tests/test_b211_metallic_faces.py` (7 locks, the L34 relation load-bearing). `OPEN_LEADS` L29–L34 → DONE.
 - **B210 — golden's dual McKay (E₈ + E₆); WRT image ≠ 2I; computable-paths catalog (2026-06-25; V209).** Two
   uncomputed paths, run. **(1) Dual McKay:** the metallic bundles' *complex* hyperbolic invariant trace fields
   (the cusped manifold's arithmetic, distinct from the real monodromy field) — golden = `ℚ(√−3)` (m004),
