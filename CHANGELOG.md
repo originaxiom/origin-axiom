@@ -24,6 +24,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B210 — golden's dual McKay (E₈ + E₆); WRT image ≠ 2I; computable-paths catalog (2026-06-25; V209).** Two
+  uncomputed paths, run. **(1) Dual McKay:** the metallic bundles' *complex* hyperbolic invariant trace fields
+  (the cusped manifold's arithmetic, distinct from the real monodromy field) — golden = `ℚ(√−3)` (m004),
+  silver = `ℚ(i)` (m136), bronze deg 8, m=4 deg 4. So golden carries **both** exceptional McKay-congruence
+  groups: `E₈` (monodromy `ℚ(√5)` mod 5) **and** `E₆` (hyperbolic `ℚ(√−3)` mod 3) — the two exceptional McKay
+  primes {3,5}; `E₇=2O` excluded (not a congruence quotient). Golden is the *unique* metallic mean hitting
+  exceptional McKay primes on both arithmetics (silver = degenerate 2; bronze+ non-arithmetic). **(2)
+  Resolved-negative:** the WRT modular-rep image at the golden level is order **2880** (`SL(2,ℤ/20)`-related),
+  **not** `2I` — so the quantum face is a bigger object; the WRT↔shadow link is purely arithmetic (`m²+4`, B208),
+  not a group iso. Also **marked all computable paths** (`OPEN_LEADS` L27–L34, with status). Novelty UNCHECKED;
+  McKay/rep-theoretic `E₆`/`E₈`, not physics; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B209 — the classical/quantum boundary: the tiling sees A₅, the spinorial E₈-completion is absent (2026-06-25; V208).**
   The icosahedral quasicrystal's exterior algebra `Λ*(ℝ⁶)` (A₅ acting via `3⊕3'`) decomposes into exactly the **5
   bosonic A₅ irreps**, each at multiplicity **4** (total `64=2⁶`; the golden ratio in the character table cancels
