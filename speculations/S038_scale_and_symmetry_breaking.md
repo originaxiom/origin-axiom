@@ -33,9 +33,12 @@ positive-measure point; `κ≠2` (broken/Cantor) is typical. "The value is free;
 
 - **[HOOK]** The spin `ℤ/2` (`A₅→2I`, the center, = SU(2)→SO(3)) is the one genuine symmetry-distinction the
   object carries; "breaking" as the choice of spin lift.
-- **[LEAP]** The `E₇`-skip is suggestive: if one *postulated* a physics reading of the McKay chain, the golden
-  object would route `E₈→E₆` (the `E₆` GUT branch) and *not* through `E₇`. This is a finite-group fact dressed
-  as a hint; it is **not** a gauge statement (subgroup containment ≠ Lie-subalgebra breaking) and is firewalled.
+- **[MATH — RESOLVED, NEGATIVE (B207)]** Is the `E₈→E₆` branch a *family-realized* breaking chain? **No.**
+  `E₆=2T=SL(2,𝔽₃)` never occurs (`m²+4≡1,2 mod 3`, so 3 never ramifies); `E₇=2O` never occurs (`|2O|=48` is no
+  `|SL(2,𝔽_p)|`); only `E₈` (`ℚ(√5)`, m=1,4,11) is hit. So the `E₈→E₆` chain is golden's **internal** subgroup
+  lattice, *not* family-realized, and the dynamics selects `2D₅` not `2T`. **The object does not realize a
+  GUT-style breaking chain — the firewall holds.** The genuine structures are the κ=2 wall (dynamical) and
+  golden's *isolated* `E₈` (arithmetic); there is no chain between them.
 
 ## Door 2 — scale
 
@@ -70,7 +73,7 @@ identifies where one would have to be inserted (the level). Nothing here is a ph
 | breaking is generic not fine-tuned | κ-sweep measure (B161/B162) | **[done]** κ=2 unique positive-measure |
 | no intrinsic scale hierarchy | regulator/period spectrum (B207) | **[done]** logarithmic, O(1) |
 | where a hierarchy could enter | volume-conjecture rate `Vol_m` vs level `N` (B207) | **[done]** `Vol_m` **bounded** (→`2·v_oct`, golden=`2·v_tet` min) ⇒ rate **saturates**, all unbounded scale is the level `N` — firewall confirmed + sharpened |
-| the `E₇`-skip / `E₆`-branch is meaningful | embed the metallic shadows of *other* `m` into a McKay chain | **[open]** expect no chain (only golden hits an exceptional) |
+| the `E₇`-skip / `E₆`-branch is meaningful | embed the metallic shadows of *other* `m` into a McKay chain (B207) | **[done — NEGATIVE]** no family chain: `E₆` impossible (`3∤m²+4`), `E₇` impossible (`2O`≠`SL(2,𝔽_p)`); only `E₈` (`ℚ(√5)`) occurs. The `E₈→E₆` branch is golden's *internal* lattice, not family-realized; dynamics selects `2D₅`. Firewall holds (no GUT chain) |
 | the triple coincidence at 5 (extremal/exceptional/least-hierarchical) | is it forced or a small-number artifact? | **[open / philosophical]** the math poses it; does not settle it |
 
 ## Anchors
