@@ -119,13 +119,19 @@ multiplier is the hinge that makes Faces I–III literally the same dynamics **[
 produced this map repeatedly confirmed the object is **well-charted mathematics** (Jeffrey; Cantat–Loray;
 Damanik–Gorodetski; DAHA/MGO). The map itself is an exposition, not a theorem.
 
+**A structural fact about *interactions* (Face III) `[B200]`.** On the Fibonacci chain, **on-site is the unique
+finite-range interaction that preserves the Sturmian (two-letter) complexity** — any range $d\ge1$ makes a bound
+composite see *paired* potentials whose sequence carries correlations the substitution does not control, raising
+the subword complexity. So the structure-preserving interaction is **forced, not chosen** — a small "not nothing"
+that the firewalled `S038` table records (the HELD / value-matching reading: the form forces what may enter).
+
 **Genuine open frontiers (all NEEDS-SPECIALIST):**
 1. A **trace formula** actually linking the Face II length spectrum to the Face III Cantor spectrum (beyond the
    shared $\lambda_m^2$) — the one connection no community has written.
 2. Off-axis ($\kappa<2$) uniform hyperbolicity — a non-Hermitian Damanik–Gorodetski **[B163/B186 open]**.
 3. The exact $\mathrm{SL}(5)$ symbolic exponent **[B199 open, 25-var Gröbner wall]**.
-4. The WRT period's full closed form (the cross Gauss-sum 2-adic lemma) **[B204 open]**; and whether a genuine
-   "quantum metallic mean" exists beyond MGO **[B205/L25 open, prior-art unchecked]**.
+4. Whether a genuine "quantum metallic mean" exists beyond MGO **[B205/L25 open, prior-art unchecked]**. *(The WRT
+   period's full closed form — the cross Gauss-sum 2-adic lemma — is now **closed**: `[proved]`, `[B204/V214]`.)*
 
 ## 7b. Scope boundary (what this map deliberately leaves out)
 
@@ -165,10 +171,16 @@ The four faces are not four costumes of one object; they are four **shadows of o
 $\varphi_m = R^mL^m \in \mathrm{SL}(2,\mathbb{Z})$. The synthesis earns its closing in one sentence:
 
 > **The arithmetic shadow of $\varphi_m$ — its reduction modulo the field discriminant — is, for the golden
-> mean alone, the unique exceptional McKay group $2I = \mathrm{SL}(2,\mathbb{F}_5) = E_8$; and this is golden-
-> specific because $5$ is simultaneously the smallest fundamental discriminant (making $\varphi$ dynamically
-> extremal) and the largest McKay prime $\mathrm{SL}(2,\mathbb{F}_p)$ (making $2I$ the largest binary-polyhedral
-> group). The minimal point and the exceptional point are the same point, for the same reason: $5$.** `[B206]`
+> mean, the exceptional McKay group $2I = \mathrm{SL}(2,\mathbb{F}_5) = E_8$; golden is the *minimal /
+> fundamental* member of the $\mathbb{Q}(\sqrt 5)$ family that carries it, distinguished because $5$ is
+> simultaneously the smallest fundamental discriminant (making $\varphi$ dynamically extremal) and the largest
+> McKay prime $\mathrm{SL}(2,\mathbb{F}_p)$ (making $2I$ the largest binary-polyhedral group). The minimal point
+> and the exceptional point are the same point, for the same reason: $5$.** `[B206]`
+
+> *Correction (V212): the earlier "for the golden mean **alone**, the **unique** exceptional McKay group" was an
+> overclaim caught in the re-audit. The $2I=\mathrm{SL}(2,\mathbb{F}_5)$ shadow appears for **every** $m$ with
+> $5\mid m^2+4$ (the field is exactly $\mathbb{Q}(\sqrt5)$ for the Lucas family $m\in\{1,4,11,29,\dots\}$); golden
+> is the **minimal** such mean, not the only one `[B206/V212]`.*
 
 Three independent specialnesses of the golden mean coincide, all forced by $5$: **dynamically extremal** (the
 most badly-approximable number, smallest regulator, the systole), **arithmetically exceptional** ($2I=E_8$),
@@ -178,11 +190,33 @@ level-period $P(m)$ is always a multiple of the squarefree part of the discrimin
 part *is* the McKay prime $5$ `[B208]` — so the quantum invariant (Face IV) and the arithmetic shadow are the
 same arithmetic.
 
+**The dual McKay — golden carries $E_6$ *and* $E_8$ `[B210]`.** The object has *two* arithmetics: the **real
+monodromy** field $\mathbb{Q}(\sqrt 5)$ (which gives $E_8$ above) and a **complex hyperbolic** invariant trace
+field. For golden the latter is $\mathbb{Q}(\sqrt{-3})$ — the figure-eight is two regular ideal **tetrahedra**, so
+the tetrahedral field gives the tetrahedral McKay group $2T=\mathrm{SL}(2,\mathbb{F}_3)=E_6$. So golden touches
+$E_6$ (its tetrahedral building blocks) and $E_8$ (its golden monodromy), missing $E_7$ (octahedral $2O$, no
+congruence quotient) — plausibly an instance of **Arnold's trinity** (tetra/octa/icosa $\leftrightarrow E_6/E_7/E_8$).
+This resolves the apparent tension below: $E_6$ is impossible *from the monodromy arithmetic* ($3\nmid m^2+4$) yet
+present *in the hyperbolic arithmetic*. *(Silver's prime-$2$ shadow is degenerate, now computed: its monodromy
+$R^2L^2\equiv I \bmod 2$ and its hyperbolic square-traces vanish $\bmod (1+i)$ — no order-3 / McKay structure
+`[B212]`.)*
+
+**The arithmetic of the variety itself `[B211]`.** Beyond the monodromy and the trace field, the character
+*variety* has its own arithmetic: the figure-eight non-abelian $\mathrm{SL}(2,\mathbb{C})$ character variety is the
+non-CM **elliptic curve $40a1$** ($\#X(\mathbb{F}_p)=p-1-a_p$, a weight-2 newform of conductor $40$) — distinct
+from the $\mathbb{Q}(\sqrt{-3})$ at its complete-structure point. And the period law is **number-theoretic**: $P(m)$
+is the **Pisano period** of the metallic recurrence $x_{n+1}=m x_n+x_{n-1}$ (Face IV $\leftrightarrow$ elementary
+arithmetic) `[B211/L33]`. **Geometry across the family `[B211]`:** every $R^mL^m$ is **amphichiral** ($\mathrm{CS}=0$,
+the candidate scale-carrier vanishes family-wide), and the bounded volumes converge to $2v_{\mathrm{oct}}$ because
+the bundles are **Dehn fillings of the Borromean rings complement** (two ideal octahedra) — the geometric parent of
+the whole family.
+
 **The content-axis verdict (firewalled, `S038`):** pushing the two open physics-adjacent doors *confirms and
 sharpens* the firewall rather than breaching it. **Scale** — the bundle volumes are bounded (the volume-
 conjecture exponential rate *saturates* at $2v_{\mathrm{oct}}$), so the object cannot supply an unbounded scale;
-all unbounded scale is the quantization level. **Symmetry breaking** — there is no GUT-style chain: $E_6$ is
-arithmetically impossible ($3 \nmid m^2+4$), $E_7$ is not a congruence quotient, only $E_8$ occurs, isolated.
+all unbounded scale is the quantization level. **Symmetry breaking** — there is no GUT-style chain: in the *monodromy*
+arithmetic $E_6$ is impossible ($3 \nmid m^2+4$), $E_7$ is not a congruence quotient, only $E_8$ occurs, isolated
+(the *hyperbolic* $E_6$ of the dual McKay above is a different arithmetic, not a breaking chain).
 The object is **mathematics that bears on the physical question without crossing into it**: its content is the
 arithmetic of one conjugacy class, and at its minimal point that arithmetic is $E_8$.
 

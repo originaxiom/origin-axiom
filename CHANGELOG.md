@@ -9,6 +9,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **SYNTHESIS consolidation — the dual-McKay, all of B211, the V212 correction, and on-site, woven in (2026-06-25;
+  V215).** The "metallic one object, four ways" synthesis had been updated for B206–B208 but **dropped** the later
+  results — chat1 flagged that updating only for B210 would repeat the "agreed-then-dropped" pattern one layer
+  deeper. Folded in all of it: (B0) §9 "for the golden mean **alone**, the **unique** exceptional McKay group" →
+  "golden is the **minimal/fundamental** member of the `ℚ(√5)` family" (propagating the B206/V212 correction);
+  (B) a **dual-McKay** paragraph — golden carries `E₆` (hyperbolic `ℚ(√−3)`, figure-eight = two ideal tetrahedra →
+  `2T=E₆`) **and** `E₈` (monodromy `ℚ(√5)` → `2I`), missing `E₇` (Arnold trinity), reconciling "E₆ impossible in
+  the *monodromy* arithmetic vs present in the *hyperbolic* one"; (B1) **all of B211** — the character *variety's*
+  own arithmetic (non-CM elliptic curve `40a1`), the WRT period as a **Pisano period**, **family-wide
+  amphichirality** (`CS=0`), and the **Borromean-complement parent**; plus the B212 silver-degeneracy note; (C)
+  the **on-site uniqueness** result (B200/R2) into §7 + the `S038` table (the "forced not chosen" / HELD reading,
+  firewalled). **Next-layer drop caught:** §7 still listed the B204 cross-lemma as open — now marked closed (L36).
+  Completeness guard: every banked B204–B212 has a synthesis touchpoint. Exposition only, **no new theorem; nothing
+  to `CLAIMS.md`.**
 - **B204 — the WRT level-period law is now `[proved]` (the cross-period lemma closed; 2026-06-25; V214).** The one
   remaining lemma of the B204 proof — a closed form for the cross Gauss-sum period `L_c` (its 2-adic part) — is
   **closed**: `L_c = (4+ab)/2^{min(v₂a,v₂b,2)}`, proved by exact integer arithmetic (no numerics). (1) The cross
