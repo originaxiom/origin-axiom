@@ -24,6 +24,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B209 — the classical/quantum boundary: the tiling sees A₅, the spinorial E₈-completion is absent (2026-06-25; V208).**
+  The icosahedral quasicrystal's exterior algebra `Λ*(ℝ⁶)` (A₅ acting via `3⊕3'`) decomposes into exactly the **5
+  bosonic A₅ irreps**, each at multiplicity **4** (total `64=2⁶`; the golden ratio in the character table cancels
+  to a clean 4). The **4 spinorial irreps of the double cover `2I` — `{2,2',4',6}`, exactly the affine-`E₈` nodes
+  beyond `A₅` — are absent**: the classical tiling sees only `A₅`; the `E₈`-completing spinorial irreps require
+  the quantum/spin lift `2I` (the `SL` level of B206 vs classical `PSL=A₅`). The classical/quantum boundary **is**
+  those 4 irreps — the same spin `ℤ/2` as B206, made concrete as which representations are visible classically vs
+  only quantumly. McKay/representation-theoretic `E₈`, not physics' `E₈`; firewalled. Nothing to `CLAIMS.md`.
 - **B208 + synthesis punchline — the WRT period and the congruence shadow are the same arithmetic (2026-06-25; V207).**
   B204 (the WRT period, Face IV) and B206 (the congruence shadow, Face I) are two reads of one homological
   invariant `det(γ+I)=m²+4`: `squarefree(m²+4)` (the field radicand) **always divides** `P(m)`, and at golden the
