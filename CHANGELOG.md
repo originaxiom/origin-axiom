@@ -74,6 +74,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B214 — the general-word WRT period law + its class-field refinement + the Funar deflation (2026-06-26; V217).**
+  Extends B204 off the metallic diagonal: for *arbitrary* hyperbolic words `γ=∏R^{aᵢ}L^{bᵢ}∈SL(2,ℤ)`, the WRT
+  level-period is, **on the principal class, `P(γ)=lcm(det(γ−I),det(γ+I))=lcm(tr−2,tr+2)`** (verified on many
+  words, distinct traces, incl. non-symmetric). **The new content — a class-field refinement:** the period reads
+  the conjugacy / **ideal class** (Latimer–Macduffee; the repo's B92), not just the trace — at *fundamental*
+  discriminant `D=t²−4` (conductor `f=1`) all classes share the period, but at conductor `f>1` it **splits**
+  (non-principal classes get `lcm/d`, `d∣f`: `D=32→{8,4}`, `D=45→{45,15}`, `D=320→{80,40}`); B204 lived where
+  `h=1`, so the split was invisible. **The deflation (verify-don't-trust on both an over-read and a relayed
+  claim):** three trace-15 words give identical `|Z|`, but that is neither "content from interaction" (a same
+  monodromy giving the same invariant is the *definition* of a topological invariant) **nor** "all three are
+  conjugate" (orbit reduction: `M₁~M₂` conjugate, but `M₀` is **not** — yet identical `|Z|`, period 221 = **Funar's**
+  non-conjugate-same-WRT phenomenon). So `|Z|`-equality ≠ conjugacy; the banked content is the formula + the
+  conductor-split. Novelty: Jeffrey + Funar known; the conductor-split closed form is the candidate-new piece
+  (UNCHECKED). Firewall: standalone quantum-topology/arithmetic; **nothing to `CLAIMS.md`; P1–P16 untouched.** Next:
+  the exact class-field period law + the Borromean-surgery bridge (`OPEN_LEADS` L39).
 - **B213 + S039 — the do-or-die program, Act I: the Higgs-side period data (firewalled; 2026-06-25; V216).** The
   owner's do-or-die question (explain the cosmological-constant problem / unify QM–GR) taken at full weight, behind
   the firewall (`speculations/S039`, POSTULATED). The move: the firewall (no invariant sources a scale) is banked
