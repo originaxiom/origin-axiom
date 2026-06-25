@@ -59,7 +59,9 @@ def test_nonmetallic_is_complex_metallic_is_real():
 # ---- Gauss-sum reciprocity proof locks (B204 PROOF.md) ----
 import mpmath as mp  # noqa: E402
 from gauss_proof import (Ztil_direct, Z_orig, Ztil_closed, diag_closed,  # noqa: E402
-                         cross_closed, G_a, sub_period, lcm as glcm)
+                         cross_closed, G_a, sub_period, lcm as glcm,
+                         v2, cross_support_gcd, cross_period_exact, cross_period_closed)
+from math import gcd  # noqa: E402
 mp.mp.dps = 25
 
 
@@ -94,6 +96,28 @@ def test_proof_exact_period_equals_formula():
         P = period_predicted(a, b)
         pC = sub_period(lambda n: cross_closed(a, b, n), 4 * (a * b + 4) + 8)
         assert glcm(glcm(a, b), pC) == P, (a, b, pC, P)
+
+
+def test_cross_period_closed_form_matches_mpmath():
+    # the CLOSED FORM L_c = (4+ab)/2^min(v2a,v2b,2) == the mpmath cross-sum period (cross-check)
+    for (a, b) in [(1, 1), (2, 2), (4, 4), (1, 2), (2, 3), (3, 5), (5, 6), (3, 7)]:
+        pC = sub_period(lambda n: cross_closed(a, b, n), 4 * (a * b + 4) + 8)
+        assert cross_period_closed(a, b) == pC == cross_period_exact(a, b), (a, b)
+
+
+def test_closing_lemma_exact_integer():
+    # LOAD-BEARING (the lemma close, no numerics): content gcd = 2^c, period = D/2^c, and the lcm identity
+    for a in range(1, 15):
+        for b in range(1, 15):
+            D = a * b + 4
+            c = min(v2(a), v2(b), 2)
+            assert cross_support_gcd(a, b) == 2 ** c, (a, b)                 # form content = 2^c
+            assert cross_period_exact(a, b) == cross_period_closed(a, b)     # period = D/2^c
+            assert glcm(glcm(a, b), cross_period_closed(a, b)) == \
+                glcm(a, b) * D // gcd(D, 4)                                  # the exact-period identity
+    # the no-odd-prime step, spot-checked: no odd p divides the content
+    for (a, b) in [(3, 5), (5, 7), (3, 3)]:
+        assert cross_support_gcd(a, b) % 2 in (0, 1) and cross_support_gcd(a, b) & (cross_support_gcd(a, b) - 1) == 0
 
 
 if __name__ == "__main__":

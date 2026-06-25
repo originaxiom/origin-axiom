@@ -9,6 +9,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B204 — the WRT level-period law is now `[proved]` (the cross-period lemma closed; 2026-06-25; V214).** The one
+  remaining lemma of the B204 proof — a closed form for the cross Gauss-sum period `L_c` (its 2-adic part) — is
+  **closed**: `L_c = (4+ab)/2^{min(v₂a,v₂b,2)}`, proved by exact integer arithmetic (no numerics). (1) The cross
+  Gauss sum `Γ_t(N)=∑_m c_m ω^{Nm}` has non-negative integer counts `c_m` (no cancellation), so a finite
+  exponential sum over a `2D`-th root has period **exactly** `2D/gcd(2D, support)`. (2) The **content
+  `gcd(2D,{Q_t(y)}) = 2^{min(v₂a,v₂b,2)}`** — every term of `Q_t=b y₁²+4t y₁y₂−a y₂²` has `v₂≥c` (the `4t` cross
+  caps the 2-power at 2), no odd prime divides it (`p∣a,p∣b ⇒ p∣4`). (3) The `lcm(lcm(a,b),L_c)=lcm(a,b)·(4+ab)/
+  gcd(4+ab,4)` identity (9-case 2-adic, verified 200×200). So **`per|Z(a,b)| = lcm(a,b)(4+ab)/gcd(4+ab,4)` is
+  proved** (metallic diagonal `P(m)=m(m²+4)/gcd(m²+4,4)`). The reciprocity inputs + the framework remain KNOWN
+  (Jeffrey 1992, V199) — this closes the repo's own period-formula proof; the formula's novelty stays per V199 (do
+  not claim). chat1's "highest-value next step" (L36). Firewall: standalone quantum-topology/arithmetic; **nothing
+  to `CLAIMS.md`.** `gauss_proof.py` (+`cross_period_closed/exact/support_gcd`), `PROOF.md`, `FINDINGS.md`,
+  `tests/test_b204_*` (+2 locks).
 - **Re-audit of the quietly-banked batch B205–B209 (2026-06-25; V212).** Acting on the owner's challenge — that
   findings banked *without* an explicit verify-push may carry the same superficiality that verify-requests keep
   exposing — each of the five findings banked this session without a push (B205–B209) was **independently

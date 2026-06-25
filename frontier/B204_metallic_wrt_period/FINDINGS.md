@@ -69,10 +69,15 @@ dimension `n−1` growing. Sketch (full argument + exact identities in `PROOF.md
 3. `G_a(n)` has period **exactly `a`** (take `s=1`), so `per(diagonal)=lcm(a,b)` — PROVED; the cross period
    `L_c` divides `4+ab`. Hence `|Z|` periodic with `P=lcm(lcm(a,b),L_c)`.
 
-**Status:** periodicity PROVED; the diagonal factor `lcm(a,b)` PROVED; the exact period
-`P=lcm(a,b)(4+ab)/gcd(4+ab,4)` **verified** (14 cells via the cheap dual sum), with a closed form for the
-cross Gauss-sum period `L_c` (its 2-adic part) the **one remaining lemma** to reach `[proved]` for the exact
-formula. Tier: `[periodicity proved; exact period one Gauss-sum-period lemma from closure]`.
+**Status (UPGRADED 2026-06-25 — the lemma is CLOSED):** periodicity PROVED; the diagonal factor `lcm(a,b)`
+PROVED; **and the cross-period now has the closed form `L_c=(4+ab)/2^{min(v₂a,v₂b,2)}`**, so the exact period
+`P=lcm(a,b)(4+ab)/gcd(4+ab,4)` is **PROVED**. The close (exact integer arithmetic, no numerics; see `PROOF.md`
+Step 4): the cross Gauss sum `Γ_t(N)=∑_m c_m ω^{Nm}` (counts `c_m≥0`, no cancellation) has period **exactly**
+`2D/gcd(2D,content)`, and the **content `gcd(2D,{Q_t(y)}) = 2^{min(v₂a,v₂b,2)}`** (every term has `v₂≥c`, the
+`4t y₁y₂` cross capping at 2; no odd prime divides it since `p|a,p|b ⇒ p|4`); the `lcm(lcm(a,b),L_c)=P` identity
+is the 9-case 2-adic computation (verified `200×200`). Verified exactly for all `a,b∈1..14` + cross-checked vs the
+`mpmath` cross-sum. Tier: **`[proved]`** for the exact-period formula (`L_c` lemma closed). This was chat1's
+"highest-value next step" (L36).
 
 ## Novelty — CHECKED (adversarial deep-research, V199; see `NOVELTY.md`)
 
