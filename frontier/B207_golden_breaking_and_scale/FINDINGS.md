@@ -30,12 +30,32 @@ regulator `log λ_m` (= geodesic length/4 = entropy), dilatation `λ_m²`, confo
 - **Golden has the smallest regulator (`log φ`)** → the *least-hierarchical* / extremal point (the same
   extremality that makes it dynamically minimal and arithmetically exceptional — cf. B206).
 
+## Part 3 — scale, computed: the metallic bundle volumes are bounded (SnapPy)
+
+The hyperbolic volumes of the metallic once-punctured-torus bundles `RᵐLᵐ` (`= twister bundle('aᵐBᵐ')`,
+m=1 = figure-eight), canonized to geometric triangulations:
+- **golden (m=1) = 2.02988 = `2·v_tet`** (figure-eight = two ideal tetrahedra; the **minimal** cusped
+  hyperbolic volume) — the floor.
+- **silver (m=2) = 3.66386 = `v_oct`** (one regular ideal octahedron; census **m136**), exactly.
+- `Vol_m` increasing, Aitken-³-accelerated **limit → `2·v_oct = 7.32772`** (= Vol(Borromean rings)) as
+  `m→∞`. So the volumes are **bounded** in `[2.03, 7.33)`, golden at the floor.
+
+**Correction (verify-don't-trust):** an initial pass misread the volumes as growing *linearly*; canonizing to
+geometric triangulations shows they **converge** (increments decay `1.63,1.15,0.76,…`).
+
+**Scale read:** the volume-conjecture exponential rate `|⟨RᵐLᵐ⟩_N| ~ e^{N·Vol_m/2π}` **saturates** (`Vol_m`
+bounded by `2·v_oct`) — the object cannot supply an *unbounded* exponential rate; all unbounded scale is the
+quantization **level `N`**. This *confirms and sharpens* the firewall (B151): no absolute scale, and even the
+intrinsic rate is bounded. Golden = the minimal rate.
+
 ## Firewall
-Finite-group structure + dimensionless invariants only. No scale, no gauge content, no physical-magnitude
+Finite-group structure + dimensionless invariants + hyperbolic volumes only. No scale, no gauge content, no physical-magnitude
 claim; nothing to `CLAIMS.md`; P1–P16 untouched. The firewalled physics *reading* is `speculations/S038`
 (one-way: S038 cites B207, never the reverse).
 
 ## Reproduction
 - `python golden_breaking.py` — `2I` order spectrum, `⟨RL⟩`/normalizer (`2D₅`), the `2T`/`2O` (E₆/E₇) test.
 - `python scale_spectrum.py` — the dimensionless spectrum + hierarchy diagnostics.
-- `tests/test_b207_golden_breaking_and_scale.py` — 2 locks. 2 passed.
+- `python scale_volume.py` — the metallic bundle volumes (SnapPy): golden=2 v_tet (min), silver=v_oct,
+  Aitken limit → 2 v_oct.
+- `tests/test_b207_golden_breaking_and_scale.py` — 3 locks (the volume lock is SnapPy-gated). 3 passed.
