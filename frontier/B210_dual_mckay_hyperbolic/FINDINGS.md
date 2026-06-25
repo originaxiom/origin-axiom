@@ -25,11 +25,25 @@ So golden's two arithmetics ramify at **3 and 5 — exactly the two McKay-except
   hyperbolic ℚ(√−3) →  prime 3  →  SL(2,𝔽₃) = 2T = E₆   [NEW]
 ```
 `E₇=2O` is excluded — `|2O|=48` is no `|SL(2,𝔽_p)|` (B207) — so **neither** arithmetic can reach it. **Golden
-is the unique metallic mean whose both arithmetics hit exceptional McKay primes** (silver hits the degenerate
-prime 2 on both sides; bronze onward are non-arithmetic on the hyperbolic side). The two exceptional McKay
-groups that *are* congruence quotients (`2T=E₆` at 3, `2I=E₈` at 5) are exactly golden's two ramified-prime
-shadows — and golden is arithmetic on both sides (figure-eight is the arithmetic punctured-torus bundle over
-`ℚ(√−3)`; its monodromy is in `SL(2,ℤ)`).
+is the unique metallic mean whose both arithmetics hit exceptional McKay primes**; the arithmeticity pattern
+across `m=1..7` confirms **golden and silver are the only arithmetic bundles** (degree-2 imaginary-quadratic
+trace fields; m≥3 are degree ≥4, non-arithmetic).
+
+**The mod-3 → E₆ step is VERIFIED, not asserted (after a "verify it all" pass).** The figure-eight discrete-
+faithful Riley parameter is `u = ω` (the *cube* root of unity, `ω²+ω+1=0` — corrected from an initial 6th-root
+slip; both are units in `ℤ[ω]`, so the conclusion is robust). It is a **unit**, so mod `(√−3)` it reduces to a
+nonzero element (`ω↦1`, `−ω↦2`), and the two parabolics `A=[[1,1],[0,1]]`, `B=[[1,0],[2,1]]` **generate all of
+`SL(2,𝔽₃)=2T`** (order 24, verified) — the figure-eight group *surjects* onto `2T=E₆`, at the same level as
+B206's monodromy-mod-5 → `2I`.
+
+**The hyperbolic E₆ has a geometric origin (the hint underweighted at first):** the figure-eight is **two
+regular ideal tetrahedra** (both shapes `e^{iπ/3}`, `z²−z+1=0 → ℚ(√−3)`), so the *tetrahedral* field gives the
+*tetrahedral* McKay group `2T=E₆` — not a numerical accident. (Silver is octahedral, shape `i → ℚ(i)`.)
+
+**Likely framework — Arnold's trinities.** The triple (tetrahedron, octahedron, icosahedron) ↔ (`E₆`,`E₇`,`E₈`)
+↔ (`2T`,`2O`,`2I`) is one of Arnold's "trinities." Golden touches `E₆` (tetrahedral — its building blocks) and
+`E₈` (icosahedral — its golden monodromy), missing `E₇` (octahedral); this dual-McKay is plausibly a
+manifestation of that trinity. **Novelty therefore UNCHECKED** (this is the likely known home — do not claim).
 
 ## (2) The WRT face is not the congruence shadow as a group (resolved-negative)
 

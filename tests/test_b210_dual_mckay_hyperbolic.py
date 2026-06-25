@@ -22,6 +22,12 @@ def test_golden_hyperbolic_field_is_eisenstein():
     assert HYP_TRACE_FIELDS[2] == ("m136", "x^2+1", 2, "Q(i)")
 
 
+def test_figure_eight_surjects_onto_2T_E6_mod3():
+    # VERIFIED (not asserted): figure-eight holonomy mod (sqrt-3) = SL(2,F3) = 2T = E6 (order 24)
+    from dual_mckay import figure_eight_mod3_image
+    assert figure_eight_mod3_image() == 24
+
+
 def test_wrt_image_is_not_2I():
     # the WRT modular-rep image at the golden level is NOT 2I (order 2880, SL(2,Z/20)-related)
     o = wrt_image_order_su2_3()
