@@ -37,6 +37,29 @@ def mckay_at_prime(p):
     return {2: "S3 (degenerate)", 3: "2T=E6", 5: "2I=E8"}.get(p, f"PSL(2,{p}) generic")
 
 
+def figure_eight_mod3_image():
+    """VERIFIED (not asserted): the figure-eight holonomy reduces mod the ramified prime (sqrt-3) to
+    all of SL(2,F3)=2T=E6. Riley parameter u = omega = (-1+sqrt-3)/2 (cube root of unity, u^2+u+1=0,
+    a UNIT in Z[omega]); mod (sqrt-3), omega -> 1, so B=[[1,0],[-omega,1]] -> [[1,0],[2,1]]; with the
+    meridian A=[[1,1],[0,1]] these two parabolics generate SL(2,F3) (order 24). Geometric origin: the
+    figure-eight = 2 regular ideal TETRAHEDRA (shape e^{i pi/3}, z^2-z+1=0 -> Q(sqrt-3)), so the
+    TETRAHEDRAL field gives the TETRAHEDRAL McKay group 2T=E6 -- not a coincidence."""
+    def mul(x, y, p=3):
+        a, b, c, d = x; e, f, g, h = y
+        return ((a*e+b*g) % p, (a*f+b*h) % p, (c*e+d*g) % p, (c*f+d*h) % p)
+    A = (1, 1, 0, 1); B = (1, 0, 2, 1)            # -omega = 2 mod (sqrt-3)
+    S = {(1, 0, 0, 1), A, B}; fr = [A, B]
+    while fr:
+        nf = []
+        for x in fr:
+            for g in (A, B):
+                Pp = mul(x, g)
+                if Pp not in S:
+                    S.add(Pp); nf.append(Pp)
+        fr = nf
+    return len(S)
+
+
 def wrt_image_order_su2_3():
     """|<S,T>| for the SU(2)_3 modular representation (the golden level, q=e^{2pi i/5})."""
     k = 3; n = k + 2
@@ -66,6 +89,7 @@ if __name__ == "__main__":
     print(f"    monodromy  field {MONODROMY_FIELDS[1][0]:>9} ramified at {MONODROMY_FIELDS[1][1]} -> SL(2,F{MONODROMY_FIELDS[1][1]}) = {mckay_at_prime(MONODROMY_FIELDS[1][1])}")
     print(f"    hyperbolic field {'Q(sqrt-3)':>9} ramified at 3 -> SL(2,F3) = {mckay_at_prime(3)}")
     print(f"    => golden hits BOTH McKay-exceptional primes (3,5 -> E6,E8). |2T|={sl2_order(3)}, |2I|={sl2_order(5)}.")
+    print(f"    VERIFIED: figure-eight holonomy mod (sqrt-3) surjects onto SL(2,F3)=2T, |image|={figure_eight_mod3_image()} (=24).")
     print(f"    E7=2O (48) not an SL(2,Fp) order: {48 not in [sl2_order(p) for p in range(2,200)]} -> excluded from both.")
     print("    silver: monodromy Q(sqrt2)(ram 2) + hyperbolic Q(i)(ram 2) -> both S3 (degenerate); bronze+ non-arith.")
     print()
