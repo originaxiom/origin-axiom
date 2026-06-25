@@ -24,6 +24,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B207 + S038 — the firewall-content push: scale & symmetry breaking (2026-06-25; V204).** Per owner steer
+  (keep the math threads; push the firewall content questions). Firewall-clean math (`frontier/B207`) + the
+  firewalled reading (`speculations/S038`, POSTULATED, one-way, nothing to `CLAIMS.md`). **Symmetry breaking:**
+  the golden shadow `2I=SL(2,𝔽₅)=E₈` (B206) read as `G→H` — the metallic dynamics `⟨RL⟩` selects residual
+  `2D₅`; the finite McKay sub-chain `2I⊃2T(=E₆)` but `2I⊉2O(=E₇)`, so golden's shadow breaks **`E₈→E₆`,
+  skipping `E₇`** (icosahedron has no octahedral subgroup) — *finite-group structure, firewalled from gauge*;
+  and breaking is *generic not fine-tuned* (the κ=2 wall). **Scale:** the metallic dimensionless scale-spectrum
+  grows only **logarithmically** (no intrinsic exponential hierarchy), so any hierarchy is a quantization-**level**
+  effect (volume conjecture), not the geometry — *confirms* the firewall (B151) and *locates* where a scale
+  would enter; golden is the *least-hierarchical* point (the triple coincidence at 5: extremal + exceptional +
+  least-hierarchical). Negatives kept prominent (gauge free, spacetime (1,1), chirality mirror-closed, no
+  absolute scale — the closed doors). Both pushes confirm relocation, do not breach. Nothing to `CLAIMS.md`;
+  P1–P16 untouched.
 - **B206 — the golden object's spin shadow is 2I = SL(2,𝔽₅) = McKay-E₈ (2026-06-25; V203).** The McKay seam
   question, computed (not hedged). The golden mean (`m=1`, field `ℚ(√5)`, disc 5) has congruence shadow
   `SL(2,𝔽₅) = 2I` (binary icosahedral = McKay partner of affine `E₈`). Classical/trace level = `PSL(2,𝔽₅)=A₅`
