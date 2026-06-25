@@ -74,6 +74,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B213 + S039 — the do-or-die program, Act I: the Higgs-side period data (firewalled; 2026-06-25; V216).** The
+  owner's do-or-die question (explain the cosmological-constant problem / unify QM–GR) taken at full weight, behind
+  the firewall (`speculations/S039`, POSTULATED). The move: the firewall (no invariant sources a scale) is banked
+  across 3 modes (K018); the one bridge built-up-to-but-not-crossed is the **Hitchin/Higgs side**, where the scale
+  would live (B169). B211 gave the key — the figure-eight character variety **is** the elliptic curve `40a1`, a
+  genuine Higgs-side handle. **Act I (computed):** does it carry a forced tiny dimensionless number (a CC-hierarchy
+  candidate)? **No** — `40a1` data all `O(1)`/BSD-generic (`Ω=1.484`, `L(E,1)=0.742`, `L/Ω=1/2` exact, `Ш=1`,
+  regulator 1, Mahler `m(Φ)=0.742≈Ω/2`); the **null test** kills the only candidate (`L/Ω=1/2` is generic — every
+  rank-0 curve gives a simple BSD rational), so no numerology survives (S014 stays dead). **The firewall holds a
+  4th independent time, now on the Higgs side** (confirms B181: criticality ⇒ no hierarchy). Structural find:
+  conductor `40=2³·5` sees the golden/`E₈` prime 5 (`ℚ(√5)`), not the hyperbolic prime 3 — the variety is a Betti
+  object, its arithmetic tracks the Betti/monodromy side. **The positive structural claim banked (S039, [LEAP]):**
+  vacuum-energy scale is a **form↔filling matching datum**, not an intrinsic output; the canonical object
+  (figure-eight) sits *at* the `Λ=0` vacuum `κ=−2` (B67). Not a solution — a proof, in a fully-computable toy, of
+  *where the scale must come from and why this structure cannot supply it.* Acts II/III + the metallic tower stay
+  open. Firewall: physics readings are one-way HOOKs; no `[proved]`; **nothing to `CLAIMS.md`; P1–P16 untouched;**
+  the 4d-gravity lift stays NEEDS-SPECIALIST (K006).
 - **B212 — the metallic congruence/monodromy shadow, computed (corrects B210's silver line; 2026-06-25; V213).**
   chat1 flagged that B210's "silver = degenerate prime 2 → S₃ both sides" was *assumed by analogy* — the exact
   asserted-not-computed pattern the golden verify-it-all pass (V210) and the V212 re-audit kept catching. Computed:
