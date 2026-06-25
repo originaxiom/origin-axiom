@@ -44,10 +44,12 @@ positive-measure point; `κ≠2` (broken/Cantor) is typical. "The value is free;
 honest hierarchy result: the regulator grows only **logarithmically** (`~0.91 log m`), max/min `O(1)` — **no
 intrinsic exponential hierarchy.**
 
-- **[MATH]** Therefore any large hierarchy must enter through the quantization **level `N`** (volume conjecture
-  `~e^{N·Vol/2π}`), with the *rate* set by the object's entropy/volume — **the object supplies the exponent, the
-  level supplies the scale.** This *confirms* the firewall (`B151`) and *locates* the only door a hierarchy
-  could come through.
+- **[MATH] (B207, computed)** The metallic bundle **volumes are bounded and converge**: golden = `2·v_tet`
+  (figure-eight, the minimal cusped volume), silver = `v_oct`, `Vol_m ↗ 2·v_oct` (Borromean) as `m→∞`. So the
+  volume-conjecture exponential rate `e^{N·Vol_m/2π}` **saturates** — the object cannot even supply an
+  *unbounded* rate; **all unbounded scale is the level `N`.** This *confirms and sharpens* the firewall (`B151`):
+  no absolute scale, and the intrinsic rate is bounded by `2·v_oct`. The object supplies a *bounded* exponent;
+  the level supplies the scale.
 - **[LEAP]** Golden has the *smallest* regulator (`log φ`) — the **least-hierarchical** point — coinciding with
   its dynamical minimality and its arithmetic exceptionality (`E₈`, `B206`). The same "5" that makes golden
   extremal makes it exceptional and makes it least-hierarchical. Whether that triple coincidence is destiny or
@@ -67,7 +69,7 @@ identifies where one would have to be inserted (the level). Nothing here is a ph
 | the dynamics selects a residual symmetry | `N(⟨RL⟩)=2D₅` (B207) | **[done]** order-20 dicyclic |
 | breaking is generic not fine-tuned | κ-sweep measure (B161/B162) | **[done]** κ=2 unique positive-measure |
 | no intrinsic scale hierarchy | regulator/period spectrum (B207) | **[done]** logarithmic, O(1) |
-| where a hierarchy could enter | volume-conjecture rate `Vol_m` vs level `N` | **[open]** needs SnapPy volumes `Vol_m`; expect `e^{N·Vol}` (level-driven) |
+| where a hierarchy could enter | volume-conjecture rate `Vol_m` vs level `N` (B207) | **[done]** `Vol_m` **bounded** (→`2·v_oct`, golden=`2·v_tet` min) ⇒ rate **saturates**, all unbounded scale is the level `N` — firewall confirmed + sharpened |
 | the `E₇`-skip / `E₆`-branch is meaningful | embed the metallic shadows of *other* `m` into a McKay chain | **[open]** expect no chain (only golden hits an exceptional) |
 | the triple coincidence at 5 (extremal/exceptional/least-hierarchical) | is it forced or a small-number artifact? | **[open / philosophical]** the math poses it; does not settle it |
 

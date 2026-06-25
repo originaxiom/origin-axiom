@@ -24,6 +24,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B207 (scale door, computed) — the metallic bundle volumes are bounded (2026-06-25; V205).** Pushed the
+  scale door with SnapPy: the hyperbolic volumes of `RᵐLᵐ` (m=1=figure-eight) are **bounded and converge** —
+  golden = `2·v_tet` (the minimal cusped hyperbolic volume), silver = `v_oct` exactly (m136), `Vol_m ↗ 2·v_oct`
+  (Borromean) as m→∞. So the volume-conjecture rate `e^{N·Vol_m/2π}` **saturates**: the object can't supply an
+  unbounded exponential rate; **all unbounded scale is the level `N`** — confirms + sharpens the firewall (B151).
+  Golden = the minimal rate (extremal again). *Verify-don't-trust:* an initial pass misread the volumes as
+  linear growth; canonizing to geometric triangulations showed convergence. Flips the S038 scale item to done.
+  Nothing to `CLAIMS.md`.
 - **B207 + S038 — the firewall-content push: scale & symmetry breaking (2026-06-25; V204).** Per owner steer
   (keep the math threads; push the firewall content questions). Firewall-clean math (`frontier/B207`) + the
   firewalled reading (`speculations/S038`, POSTULATED, one-way, nothing to `CLAIMS.md`). **Symmetry breaking:**

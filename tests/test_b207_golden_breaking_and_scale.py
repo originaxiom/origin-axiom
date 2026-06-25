@@ -26,6 +26,25 @@ def test_scale_spectrum_no_intrinsic_hierarchy():
     assert min(r["reg"] for r in spectrum()) == regulator(1)
 
 
+def test_metallic_volumes_bounded_golden_minimal():
+    # SnapPy-gated: metallic bundle volumes converge (bounded), golden=2 v_tet minimal, silver=v_oct
+    try:
+        import snappy  # noqa: F401
+    except Exception:
+        import pytest
+        pytest.skip("snappy not available")
+    from scale_volume import metallic_volume, limit_estimate, V_TET, V_OCT
+    v1, _ = metallic_volume(1)
+    v2, _ = metallic_volume(2)
+    assert abs(v1 - 2 * V_TET) < 1e-6          # golden = figure-eight = 2 ideal tetrahedra
+    assert abs(v2 - V_OCT) < 1e-6              # silver = one ideal octahedron
+    vols, lim = limit_estimate(24)
+    assert all(vols[i] < vols[i + 1] for i in range(len(vols) - 1))   # increasing
+    assert all(v < 2 * V_OCT for v in vols)   # bounded by 2 v_oct
+    assert vols[0] == min(vols)               # golden minimal
+    assert abs(lim - 2 * V_OCT) < 0.01        # Aitken limit -> 2 v_oct (Borromean)
+
+
 if __name__ == "__main__":
     test_golden_breaking_lattice()
     test_scale_spectrum_no_intrinsic_hierarchy()
