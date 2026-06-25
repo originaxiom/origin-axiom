@@ -27,20 +27,30 @@ def test_mckay_e8_marks():
     assert sorted(DIMS_2I) == [1, 2, 2, 3, 3, 4, 4, 5, 6]
 
 
-def test_golden_specificity():
-    # only the Q(sqrt5) family (m=1,4) hits disc 5 => 2I=SL(2,F5)=McKay-E8
-    fields = {m: sqfree(m * m + 4) for m in range(1, 9)}
-    assert fields[1] == 5 and fields[4] == 5
-    assert all(fields[m] != 5 for m in (2, 3, 5, 6, 7, 8))
+def test_golden_specificity_corrected():
+    # re-audit (2026-06-25): golden is the MINIMAL member of the Q(sqrt5)/E8 family, NOT the unique one.
+    s = summary()
+    # field is EXACTLY Q(sqrt5) (sqfree=5) for the odd-index Lucas family, not just {1,4}
+    assert s["field_is_sqrt5"][:4] == [1, 4, 11, 29]
+    assert sqfree(11 * 11 + 4) == 5 and sqfree(29 * 29 + 4) == 5   # the cap-m<=8 artifact, exposed
+    # the 2I=SL(2,F5) shadow (5 | m^2+4) is WIDER still: m == +-1 mod 5
+    assert s["two_I_shadow_ms"][:6] == [1, 4, 6, 9, 11, 14]
+    # golden is the minimal one (smallest disc); silver/bronze fields are NOT disc-5
+    assert sqfree(1 + 4) == 5 and sqfree(4 + 4) == 2 and sqfree(9 + 4) == 13
 
 
-def test_golden_monodromy_reduces_into_2I():
-    assert summary()["RL_mod5_order"] == 10   # RL=[[2,1],[1,1]] mod 5, finite order in SL(2,F5)=2I
+def test_golden_monodromy_SURJECTS_onto_2I():
+    # LOAD-BEARING (re-audit fix): the shadow is the WHOLE SL(2,F5)=2I, i.e. <R,L> surjects (order 120) --
+    # not merely that one element RL has finite order 10 (which alone does NOT establish the 2I shadow).
+    s = summary()
+    assert s["monodromy_shadow_order"] == 120     # <R,L> mod 5 = all of SL(2,F5) = 2I
+    assert s["RL_single_order"] == 10             # a single RL element: only a cyclic order-10 subgroup
+    assert s["RL_mod5_order"] == 10               # (consistent with the single-element order)
 
 
 if __name__ == "__main__":
     test_spin_cover_structure()
     test_mckay_e8_marks()
-    test_golden_specificity()
-    test_golden_monodromy_reduces_into_2I()
+    test_golden_specificity_corrected()
+    test_golden_monodromy_SURJECTS_onto_2I()
     print("ALL CHECKS PASS")

@@ -49,9 +49,14 @@ def test_metallic_volumes_bounded_golden_minimal():
     assert abs(v2 - V_OCT) < 1e-6              # silver = one ideal octahedron
     vols, lim = limit_estimate(24)
     assert all(vols[i] < vols[i + 1] for i in range(len(vols) - 1))   # increasing
-    assert all(v < 2 * V_OCT for v in vols)   # bounded by 2 v_oct
+    assert all(v < 2 * V_OCT for v in vols)   # bounded by 2 v_oct (the ROBUST facts)
     assert vols[0] == min(vols)               # golden minimal
-    assert abs(lim - 2 * V_OCT) < 0.01        # Aitken limit -> 2 v_oct (Borromean)
+    # re-audit (2026-06-25): the Aitken estimate only APPROACHES 2 v_oct from below (it is term-count
+    # sensitive: ~3e-3 short at n=24, larger at n=12) -- so lock "approaches, bounded above by", NOT an
+    # equality. The structural identity (limit = Borromean complement) is earned in B211/L31 by drilling,
+    # not by this estimate; do not over-tighten this tolerance.
+    assert vols[-1] < lim < 2 * V_OCT         # monotone Aitken estimate, still below the ceiling
+    assert abs(lim - 2 * V_OCT) < 0.05        # numerical: approaches 2 v_oct (NOT an identity lock)
 
 
 if __name__ == "__main__":

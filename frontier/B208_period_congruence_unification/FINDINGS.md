@@ -11,9 +11,14 @@ For `γ = RᵐLᵐ = [[1+m², m],[m,1]]`, `det(γ+I) = m²+4`. Both banked threa
 - **B206 (arithmetic, Face I):** the congruence shadow is `SL(2, p)` at the ramified primes of the field
   `ℚ(√(m²+4))`; the field radicand is `squarefree(m²+4)`.
 
-**Verified:** `squarefree(m²+4)` (the field radicand) **always divides `P(m)`** (checked m=1..300). So the
-WRT period *contains* the field radicand — the quantum invariant and the arithmetic shadow are governed by the
-same number `m²+4`.
+**Verified — and PROVABLE (upgraded on re-audit, 2026-06-25):** `squarefree(m²+4)` (the field radicand —
+here the *squarefree part* `s`, the product of primes of odd exponent, so that `ℚ(√(m²+4))=ℚ(√s)`) **always
+divides `P(m) = m(m²+4)/gcd(m²+4,4)`**. This is not just sampled (originally checked m=1..300; an independent
+re-audit found **0 failures to m=300 000** via `sympy.factorint`) — it is a **theorem**: write `m²+4 = s·t²`.
+*m odd* → `m²+4` odd, `gcd=1`, `P=m(m²+4)`, so `s | m²+4 | P` trivially. *m even* → the 2-adic valuation forces
+`t` even (`v₂(m²+4)∈{2,3}` for `m` even), so `t²/4∈ℤ` and `P = s·(m·t²/4)`, divisible by `s`. ∎ So the WRT
+period *contains* the field radicand — the quantum invariant and the arithmetic shadow are governed by the same
+`m²+4`.
 
 ## The golden collapse
 

@@ -21,15 +21,28 @@ $$\mathrm{SL}(2,\mathbb{F}_5) \;=\; 2I \ (\text{binary icosahedral}) \;=\; \text
 
 The `ℤ/2` between them is the **center `{±I}`** = the spin cover SU(2)→SO(3) = the half-trace `κ=4·I_FV+2`
 that recurred all session. The **4 extra irreps `{2,2,4,6}`** are spinorial — what the quantum level sees and
-the classical level cannot. The golden monodromy `RL=[[2,1],[1,1]]` reduces mod 5 to an order-10 element of
-`2I`. **[all verified: orders 120/60, center 2, 9 vs 5 conjugacy classes, sum-of-squares 120/60.]**
+the classical level cannot. The monodromy generators **`⟨R,L⟩` surject onto all of `SL(2,𝔽₅)`** mod 5 (BFS
+closure = 120 — the genuine shadow is the *whole* `2I`; a *single* element `RL=[[2,1],[1,1]]` generates only a
+cyclic order-10 piece, which alone does **not** pin `2I`). **[all verified: surjection 120, orders 120/60,
+center 2, 9 vs 5 conjugacy classes, sum-of-squares 120/60.]**
 
-## Golden-specificity (the sharp part)
+## Golden-specificity — corrected on re-audit (2026-06-25)
 
-`SL(2,𝔽_p)` is a binary-polyhedral (McKay/ADE) group **only for `p ≤ 5`** (`p=3 → 2T = E₆`, `p=5 → 2I = E₈`).
-Among metallic discriminants `m²+4`, the squarefree field is `5` **only** for `m=1` and `m=4` (the `ℚ(√5)` /
-odd-index-Lucas family). So **the golden mean is the unique metallic mean whose spin shadow is the McKay-`E₈`
-group** — which is *why* golden, and not silver/bronze, is the one tied to the icosahedron and `E₈`.
+`SL(2,𝔽_p)` is binary-polyhedral (McKay/ADE) **only for `p ≤ 5`** (`p=3 → 2T = E₆`, `p=5 → 2I = E₈`; and `3`
+never divides `m²+4`, B207). Reducing by the **field discriminant**, golden's disc `=5` gives the McKay-`E₈`
+group `2I=SL(2,𝔽₅)`.
+
+**This is NOT unique to golden** — two corrections to the original "only `m=1,4` / golden unique":
+- The field is *exactly* `ℚ(√5)` (sqfree`(m²+4)=5`) for the **whole odd-index-Lucas family `m∈{1,4,11,29,76,…}`**,
+  not just `{1,4}` (that was a `cap-m≤8` artifact — `m=11→125`, `m=29→845=5·13²` also give field `ℚ(√5)`).
+- The `2I=SL(2,𝔽₅)` *shadow* appears for **every `m` with `5∣m²+4`** (`m≡±1 mod 5`, i.e. `{1,4,6,9,11,14,…}`),
+  because `⟨R,L⟩=SL(2,ℤ)` surjects onto `SL(2,𝔽₅)` mod 5 for *any* `m` (the shadow group is a property of the
+  modulus, not of the individual `m`).
+
+The honest sharp statement: **golden is the *minimal / fundamental* member of the `ℚ(√5)`/`E₈` family** (the
+figure-eight, smallest discriminant, the trace-3 root of the Markov tree) — the simplest mean whose field
+discriminant is the McKay-`E₈` prime 5 — *not* the unique one. Silver/bronze differ (disc 8, 13) because their
+*own* field discriminants are not McKay primes; but `m=4, 11, 29, …` share golden's `E₈` discriminant-shadow.
 
 ## Honest status
 
