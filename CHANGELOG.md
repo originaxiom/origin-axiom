@@ -47,6 +47,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B212 — the metallic congruence/monodromy shadow, computed (corrects B210's silver line; 2026-06-25; V213).**
+  chat1 flagged that B210's "silver = degenerate prime 2 → S₃ both sides" was *assumed by analogy* — the exact
+  asserted-not-computed pattern the golden verify-it-all pass (V210) and the V212 re-audit kept catching. Computed:
+  (1) the **congruence-group shadow** `⟨R,L⟩ mod (m²+4) = SL(2,ℤ/N)` (golden 120=2I=E₈, silver 384=SL(2,ℤ/8),
+  bronze 2184=SL(2,𝔽₁₃)) — a property of the modulus; (2) the **monodromy element** `RᵐLᵐ mod p` is order `2Q(m)`
+  generically but **`≡ I` for even m** — silver `R²L² ≡ I mod 2` is **trivial, not S₃** (the "S₃" is the `⟨R,L⟩`
+  *group*, conflated); (3) the **proved law** `RᵐLᵐ≡I mod p ⇔ p∣m ⇔ p=2,m even` (m=1..15); (4) the **hyperbolic**
+  shadow (m136 via snap) is trace-**degenerate** — silver's square-traces `2,±2i` all `≡0 mod (1+i)` ⇒ no order-3
+  element survives (no McKay-exceptional structure, vs golden's full `2T=E₆`), while the holonomy is a **quaternion
+  order over ℚ(i)** (square-matrices not in `SL(2,ℤ[i])`) so the image-**group** is a named residual. Net: B210's
+  silver line corrected; golden's `2T=E₆`/`2I=E₈` (integral & full) unaffected. Firewall: McKay rep-theory, not
+  physics; **nothing to `CLAIMS.md`; P1–P16 untouched.** Resolves `OPEN_LEADS` L35 (+ the L29 shadow-structure).
 - **B211 — the metallic family's three faces: geometric limit, chirality spectrum, and the arithmetic of the
   variety itself (2026-06-25; V211).** The six remaining *computable* leads (L29–L34), run properly and verified —
   each computed (not asserted), with its load-bearing step locked in a test. **Headline (L34, a new arithmetic
