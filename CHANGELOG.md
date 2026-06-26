@@ -74,6 +74,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B224 — golden is the UNIQUE metallic mean whose chain is supersymmetric (2026-06-26; V227).** chat1's
+  "close the circle." The su(2)_k anyon chain → minimal model `M(k+1,k+2)` (Feiguin–Trebst–Ludwig; `k=3`→`M(4,5)`
+  `c=7/10` = the golden chain, reproduced B220/B222). **Among all unitary minimal models `M(q,q+1)`, only `M(4,5)`
+  is N=1 superconformal** (= SM(3); the only `c<1` solution of `1−6/(q(q+1))=(3/2)(1−8/(p(p+2)))`). In the metallic
+  family (level `k_m=m²+2`, since `n=k+2=m²+4` = the discriminant): `m=1`→`c=7/10` (SUSY); `m=2`(silver)→`25/28`;
+  `m=3`(bronze)→`25/26`; `c_m→1`, none superconformal but golden. So **golden is the unique metallic mean whose
+  chain is supersymmetric** — the SUSY point needs exactly the golden level `k=3` (`n=5=m²+4`). Closes the circle:
+  golden is minimal, exceptional (`E₈`/`E₆`), least-hierarchical, **and** uniquely supersymmetric — all via `5=m²+4`
+  at `m=1`. Flow `[cited]` (k=3 reproduced); central charges + uniqueness `[exact]`; novelty UNCHECKED. Firewall:
+  dimensionless CFT, not a scale. **Nothing to `CLAIMS.md`; P1–P16 untouched.**
 - **The SUSY thread — golden multiplicity produces emergent SUPERSYMMETRY (B221/B222/B223 + S040; 2026-06-26;
   V224–V226).** The thing hiding in plain sight: `c=7/10` (B220) is not "a number" — it **is** the tricritical
   Ising `M(4,5)` = the **first N=1 superconformal minimal model**, so the object's multiplicity (golden, B218)
