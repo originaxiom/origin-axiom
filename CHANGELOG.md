@@ -74,6 +74,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B228 — the mechanism behind golden's SUSY-uniqueness: the ordinary/super coset coincidence at SU(2)₃
+  (2026-06-26; V231).** The L45 follow-on, answered cleanly **in-sandbox** (no Seifert recipe needed). The ordinary
+  minimal model `M(m,m+1) = (SU(2)_{m−2}×SU(2)₁)/SU(2)_{m−1}` and the N=1 super minimal model
+  `SM(m') = (SU(2)_{m'−2}×SU(2)₂)/SU(2)_{m'}` **coincide** (same numerator multiset + denominator) only at
+  `(m,m')=(4,3)` — the **TCI, denominator SU(2)₃ (golden)**. So `SU(2)₃` is the unique level where the
+  `SU(2)₁`-based (ordinary) and `SU(2)₂`-based (super) coset constructions coincide — the **structural** reason
+  behind B224's central-charge uniqueness (deepens "c-coincidence" → "coset-coincidence"). Metallic statement:
+  chain `m` has GKO denominator `SU(2)_{m²+2}`, which is `SU(2)₃` only for `m=1`, so **golden is the unique metallic
+  chain whose coset is also a super-minimal-model coset** — settling the L45 follow-on without the super-Seifert
+  recipe. Verified in-sandbox (both coset families reproduce the known central charges; the coincidence is unique).
+  4 pytest locks `[exact]`; super-GKO `[cited]`. Novelty UNCHECKED. Firewalled (S040). **Nothing to `CLAIMS.md`;
+  P1–P16 untouched.**
 - **B227 — L45: the metallic SUSY chains have explicit Seifert 3-manifold duals (2026-06-26; V230).** The concrete
   lead from the L43 scout. B224's metallic chains flow to `M(m²+4, m²+3)`; Gang–Kang–Kim (arXiv:2405.16377, recipe
   verified) realize `M(P,Q)` as a class-R theory on Seifert `S²((P,P−R),(Q,S),(3,1))`. For the metallic family the
