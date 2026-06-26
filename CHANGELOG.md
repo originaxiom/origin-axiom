@@ -74,6 +74,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B218 — does metallic *multiplicity* select an emergent theory? Yes: golden, the unique anyon (2026-06-26;
+  V221).** The probe of the interaction/multiplicity thesis. **Answer (exact): multiplicity selects golden** as the
+  *unique* anyon-realizable metallic mean, via the **Jones-index selection** — `λ_m<2` (a quantized unitary anyon
+  dimension) iff `m=1`; `λ_1=2cos(π/5)=φ` exactly = the **Fibonacci anyon** (SU(2)₃ = the dual-McKay E₈ point,
+  B206/B210); `λ_m≥1+√2>2` for `m≥2` (above the index-4 wall). The golden **anyon chain** flows to a specific CFT
+  (tricritical Ising `c=7/10`, Feiguin 2007) — **cited, not reproduced** (my in-sandbox ED was inconclusive: a
+  first anyon-chain Hamiltonian was buggy/gapped, the XXZ proxy under-resolved near criticality; flagged, not
+  banked). **Firewall (the thesis limit):** what multiplicity selects is a **dimensionless topological/CFT
+  structure** (an anyon theory, a central charge), **not** physical content/scale — chiral fermions + the SM are
+  theorem-blocked (Nielsen–Ninomiya). So "content from multiplicity" = **selected topology** (golden / Fibonacci /
+  tricritical-Ising), not emergent scale — the most positive honest answer the object supports. Novelty UNCHECKED.
+  **Nothing to `CLAIMS.md`; P1–P16 untouched.**
 - **B217 — L40 resolved: the Borromean bridge is the geometric origin of the VOLUME (cusped), not the period
   (closed/algebraic) (2026-06-26; V220).** chat1's L40 asked whether B204's period law has a geometric origin via
   the Borromean parent (L31). **Answer (computed): no** — the period and the Borromean live on *different*
