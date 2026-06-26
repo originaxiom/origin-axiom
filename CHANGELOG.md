@@ -74,6 +74,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B225 — conductor-decomposition test: 5 = golden filling (holds), 2 = octahedral parent (refuted) (2026-06-26;
+  V228).** A verify-don't-trust test of chat1's "game-changer": does 40a1's conductor `40=2³·5` split as
+  `(octahedral parent 2) × (golden filling 5)`? With a validated 2-bridge pipeline (reproduces B211's `Φ` and bad
+  primes `{2,5}=40a1`): **SOLID** — `5` is the golden filling (the figure-eight branch locus `(x²−1)(x²−5)`; the
+  `x²=5` branch = the golden monodromy discriminant `t²−4=5` for trace 3). **REFUTED** — `2` is not the octahedral
+  parent: prime 2 appears in *every* 2-bridge knot, twist (Whitehead fillings) **and non-twist** (`6_2,6_3,7_6,
+  8_3,8_8,9_4`), so it is universal to 2-bridge character varieties, not parent-specific. So `40` does **not**
+  decompose as `(parent)×(filling)`. Foundations verified (Whitehead/Borromean ℚ(i) prime 2; fig-8 ℚ(√−3) prime 3;
+  golden ℚ(√5) prime 5). Method limit: disc-of-disc overcounts for genus ≥ 2 (clean only `4_1`,`5_2`); higher
+  conductors = Jacobian-conductor NEEDS-SPECIALIST. Resolves L44 (one half real, one half not). **Nothing to
+  `CLAIMS.md`; P1–P16 untouched.**
 - **B224 — golden is the UNIQUE metallic mean whose chain is supersymmetric (2026-06-26; V227).** chat1's
   "close the circle." The su(2)_k anyon chain → minimal model `M(k+1,k+2)` (Feiguin–Trebst–Ludwig; `k=3`→`M(4,5)`
   `c=7/10` = the golden chain, reproduced B220/B222). **Among all unitary minimal models `M(q,q+1)`, only `M(4,5)`
