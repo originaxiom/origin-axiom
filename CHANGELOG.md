@@ -74,6 +74,28 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **The SUSY thread — golden multiplicity produces emergent SUPERSYMMETRY (B221/B222/B223 + S040; 2026-06-26;
+  V224–V226).** The thing hiding in plain sight: `c=7/10` (B220) is not "a number" — it **is** the tricritical
+  Ising `M(4,5)` = the **first N=1 superconformal minimal model**, so the object's multiplicity (golden, B218)
+  produces, by interaction alone, an **emergent supersymmetric** theory.
+  - **B221 (the exact anchor; V224).** `c=7/10` by three agreeing exact derivations — the GKO coset
+    `(SU(2)₂×SU(2)₁)/SU(2)₃` (`SU(2)₃` = the golden level), the Virasoro minimal `M(4,5)`, the N=1 superconformal
+    series (`m=3`); the 6 TCI primaries `{0,1/10,3/5,3/2,7/16,3/80}` (the `h=3/2` = the supercurrent); the golden
+    quantum dimension `d₁(SU(2)₃)=φ`; and **`content(RᵐLᵐ)=m`** — L39/B219's period-controlling invariant *is* the
+    multiplicity (= B212's congruence modulus = B204's `gcd(a,b)`). All `[exact]`.
+  - **B222 (Act I; V225).** Momentum-resolved ED (with a machine-precision correctness gate
+    `⊕ₖ spec(Hₖ)=spec(H_full)`) reproduces the **full** tricritical-Ising operator content: NS `{0,1/10,3/5,3/2}`
+    **including the `h=3/2` supercurrent** at `x=3.0` essentially exactly (`[reproduced]`), and the Ramond
+    primaries `{3/80,7/16}` from the odd-N sector (`[consistent]`). Emergent N=1 SUSY confirmed from the spectrum.
+  - **B223 (Act II; V226).** The golden chain's SUSY is **emergent/IR-only** — no conserved `(−1)^F`
+    (`‖[H,(−1)^F]‖=0.97`, `[TESTED-NEGATIVE]`) — while **exact lattice N=2 SUSY** lives on the Fendley–Schoutens
+    sibling of the same Lucas Hilbert space (`Q²=0`, `H={Q,Q†}`, integer Witten index, `E_gs=0`; `[exact]`). The
+    SUSY is collective/external, not on-site.
+  - **S040 (firewalled).** The two-SUSY question (the figure-eight's licensed 3d-3d SUSY, `M_SUSY≅M_flat`,
+    vs the emergent chain SUSY — bridged by `SU(2)₃` on both sides; a HOOK, not asserted) and the "external"
+    thesis (interaction manufactures the *symmetry*; the *scale* enters from outside). Physics classical
+    (Friedan–Qiu–Shenker; Feiguin 2007; Fendley–Schoutens); novelty UNCHECKED. **Nothing to `CLAIMS.md`;
+    P1–P16 untouched; no `[proved]` on any physics reading.**
 - **B220 — L41 closed: the golden (Fibonacci anyon) chain CFT reproduced in-sandbox, `c=7/10` (2026-06-26;
   V223).** The B218 residual. B218 *cited* the chain CFT `c=7/10` because a first ED gave a **gapped artifact**
   (`c≈0`). Corrected ED: the golden chain (`N` Fibonacci anyons on a ring; fusion-path basis `l∈{1,τ}`; constraint
