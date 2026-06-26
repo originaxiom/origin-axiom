@@ -74,6 +74,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B217 — L40 resolved: the Borromean bridge is the geometric origin of the VOLUME (cusped), not the period
+  (closed/algebraic) (2026-06-26; V220).** chat1's L40 asked whether B204's period law has a geometric origin via
+  the Borromean parent (L31). **Answer (computed): no** — the period and the Borromean live on *different*
+  manifolds sharing only the monodromy `γ` (the closed-Sol / cusped-hyperbolic duality, V200). (1) B204's
+  `Z_k=tr(ρ_k(γ))` is the **closed** torus bundle: verified `Z_k(identity)=Z(T³)=k+1`; the figure-eight closed
+  bundle is the period-5 `1/φ` object — **the period is algebraic** (B204–B216). (2) The **cusped** figure-eight
+  (m004 = 2 ideal tetrahedra; the metallic family = Borromean Dehn fillings, L31) carries the hyperbolic **volume**
+  via the Kashaev volume conjecture: `(2π/N)log⟨4_1⟩_N → Vol=2.02988` (confirmed with the Ohtsuki `(3π logN)/N`
+  correction). **The Borromean parent governs the VOLUME, not the period.** A Borromean surgery presentation of the
+  closed bundle reproduces `Z_k` only by topological invariance — a re-presentation, never an explanation —
+  confirming + sharpening chat1's caveat (it can only reproduce; it actually governs a *different* invariant). So
+  the period's origin is algebraic (trace/Gauss sums); the Borromean/geometric content is the volume. Novelty
+  UNCHECKED (closed/cusped + volume conjecture classical; the L40 resolution for this family is the contribution).
+  Firewall: standalone quantum-topology/hyperbolic geometry; **nothing to `CLAIMS.md`; P1–P16 untouched.** The
+  WRT-period arc (B204→B214→B215→B216→B217) is now complete in-sandbox; the f≥8 genus theory is the specialist
+  residual.
 - **B216 — the f≥8 boundary of the class-field period law: genus-theoretic, NEEDS-SPECIALIST (2026-06-26; V219).**
   The focused attack on L39 (B215's `f≥8` residual). (A) Built a **correct, validated general WRT factorization**
   (`SL(2,ℤ)→S,T`) so `Z_k(γ)=tr(ρ_k(γ))` is computable for *arbitrary* `γ`, not just block words — validated to
