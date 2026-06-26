@@ -74,6 +74,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **S041 — the framework search started: the object's signatures as a filter against SM/GR frameworks; first
+  verdict = structural rhymes, no crossing (2026-06-27; V234).** Owner ask (via chat1): use the object as a filter
+  against heterotic / F-theory / Connes NCG / moonshine. Started with discipline (a shared object = the null
+  hypothesis; a *crossing* needs a derivation + a null test, HELD). Skeptical scout: **F-theory** — generic
+  modularity only, and the special CM→rational-N=(2,2)-SCFT realization is *blocked* (40a1 is non-CM, a Betti
+  object); **heterotic** — same E₈ algebra, different role (Galois/McKay vs gauge); **NCG** — no shared data;
+  **moonshine — the one genuine HOOK** — the object's dual McKay E₈+E₆ (E₇ excluded, B210) are exactly McKay's
+  Monster- and Fischer-seeding diagrams, so the object's arithmetic *selects Monster+Fischer, excludes the Baby
+  Monster* — but shared rep-theory, not physics. **Verdict:** every overlap a structural rhyme; the firewall holds
+  a 5th time, now against external frameworks. Continuation registered (deeper super-moonshine scout; novelty-check
+  the E₈+E₆−E₇ selection). Firewalled (S041); novelty UNCHECKED. **Nothing to `CLAIMS.md`; P1–P16 untouched.**
 - **B230 — golden's SUSY-uniqueness is robust to AFM/FM; the FM "silver SUSY" is a central-charge coincidence,
   not real (2026-06-27; V233).** A stress-test of B224/B228 (chat1) with a verify-don't-trust catch. The su(2)_k
   chain: AFM → M(k+1,k+2), FM → Z_k parafermion (`c=2(k-1)/(k+2)`). A naive c-test flags silver FM (Z₆,
