@@ -74,6 +74,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B229 — the TCI's two 3d-3d bulk realizations are different 3-manifolds: one CFT, two bulks (2026-06-26;
+  V232).** The L45 residual completed — the explicit **super-Seifert** dual of the tricritical Ising. Both 3d-3d
+  recipes share the form `S²((P,P−R),(Q,S),(3,1))`, differing only by the determinant = the SU(2) level: **ordinary
+  `M(P,Q)` has `PS−QR=1` (SU(2)₁); super `SM(P,Q)` has `PS−QR=2` (SU(2)₂)**. So the TCI realizes as: ordinary
+  M(4,5) → `S²(3,4,5)`, `|H₁|=83`; super SM(3,5) → `S²(3,3,5)`, `|H₁|=66`. **Same boundary CFT (c=7/10; the cosets
+  coincide, B228) but different bulk 3-manifold** — one CFT, two distinct bulks, distinguished by the
+  SU(2)₁-vs-SU(2)₂ structure; the coset coincidence does *not* lift to the bulk. Only golden is both (the metallic
+  ordinary models have `|P−Q|=1`, the unitary super series `|P−Q|=2`; the unique overlap is TCI = M(4,5) = SM(3,5)).
+  Ordinary recipe `[verified]` (B227); TCI=SM(3,5) `[verified]` (super c-formula, arXiv:2405.05746); super recipe
+  `[cited]` (verbatim abstract, arXiv:2511.04524); super `|H₁|=66` `[computed]`, not anchored on a published super
+  worked example (flagged; the different-base-orbifold conclusion needs only the recipe-fixed cone orders). 5 pytest
+  locks. Novelty UNCHECKED. Firewalled (S040). **Nothing to `CLAIMS.md`; P1–P16 untouched.**
 - **B228 — the mechanism behind golden's SUSY-uniqueness: the ordinary/super coset coincidence at SU(2)₃
   (2026-06-26; V231).** The L45 follow-on, answered cleanly **in-sandbox** (no Seifert recipe needed). The ordinary
   minimal model `M(m,m+1) = (SU(2)_{m−2}×SU(2)₁)/SU(2)_{m−1}` and the N=1 super minimal model
