@@ -74,6 +74,30 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B220 — L41 closed: the golden (Fibonacci anyon) chain CFT reproduced in-sandbox, `c=7/10` (2026-06-26;
+  V223).** The B218 residual. B218 *cited* the chain CFT `c=7/10` because a first ED gave a **gapped artifact**
+  (`c≈0`). Corrected ED: the golden chain (`N` Fibonacci anyons on a ring; fusion-path basis `l∈{1,τ}`; constraint
+  no-two-adjacent-identities; Hilbert dim = Lucas `L_N`); local term = projector onto the **identity** fusion
+  channel, the only nontrivial piece the `(τ,τ)` rank-1 block `P = F·diag(1,0)·F = [[φ⁻²,φ⁻³ᐟ²],[φ⁻³ᐟ²,φ⁻¹]]`.
+  **The bug before:** the off-diagonal `φ⁻³ᐟ²` (the kinetic term) was dropped → a trivially gapped chain. With
+  `H_AFM=−Σĥ_i`, `c` from the PBC entanglement entropy (slope → `c/3`, no velocity): `N=14..22` is **gapless**
+  (`gap·N≈0.86` const) with `c_ent≈0.71` (mean `N≥16` = 0.7135) = **tricritical Ising `c=7/10`**, distinct from 0
+  (gapped) and 0.8 (Potts). FM → 3-state Potts `c=4/5` consistent but noisier. So the chain CFT is now
+  **reproduced, not cited** (upgrades B218 `[cited]`→`[reproduced]`). Physics classical (Feiguin 2007); the
+  contribution is the correct in-sandbox reproduction. **Firewall:** a dimensionless central charge, not a scale.
+  **Nothing to `CLAIMS.md`; P1–P16 untouched.**
+- **B219 — L39 resolved: the class-field period law is the form CONTENT (elementary), not genus-theoretic — overturns
+  B216 (2026-06-26; V222).** A **compute-before-deferring win**: B216/V219 deferred the `f≥8` boundary to a
+  specialist (genus theory); the actual answer is **elementary**. The period-controlling invariant is the
+  binary-quadratic-form **content** `content(γ)=gcd(b,c,a−d)` = the largest modulus where `γ ≡ s·I` for *any* scalar
+  `s`. **Theorem (verified):** `P(γ)=lcm(t−2,t+2)/content(γ)`, a function of `(trace, content)` **only — no genus
+  dependence**. B216 tested `γ≡±I` (only ±1), which fails at `f=8` because `(ℤ/2^k)^×` has extra square-roots of 1
+  for `k≥3` (mod 8 = {1,3,5,7}); `GAMMA_A=[[13,−8],[−8,5]]≡5·I (mod 8)` → true content 8, not 4. **Decisive:**
+  exhaustive `f=8` (`t=18`, `D=320`, all four genera) — every content-1 class has period 80 (334 reps), content-2→40,
+  content-4→20, content-8→10; **genus-independent** (B216's "not minimal" flags were short-window detector false
+  positives). Generalizes to `f=16` (`9·I mod 16` → period 68); reproduces B204 (`content(RᵃLᵇ)=gcd(a,b)`).
+  **Overturns B216/V219** (NEEDS-SPECIALIST → RESOLVED). Novelty UNCHECKED. **Nothing to `CLAIMS.md`; P1–P16
+  untouched.**
 - **B218 — does metallic *multiplicity* select an emergent theory? Yes: golden, the unique anyon (2026-06-26;
   V221).** The probe of the interaction/multiplicity thesis. **Answer (exact): multiplicity selects golden** as the
   *unique* anyon-realizable metallic mean, via the **Jones-index selection** — `λ_m<2` (a quantized unitary anyon

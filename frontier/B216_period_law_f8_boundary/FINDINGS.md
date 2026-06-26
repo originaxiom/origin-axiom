@@ -1,5 +1,14 @@
 # B216 — the f≥8 boundary of the class-field period law: genus-theoretic (NEEDS-SPECIALIST)
 
+> ⚠️ **OVERTURNED by B219 (V222, 2026-06-26).** The "genus-theoretic / NEEDS-SPECIALIST" verdict below is
+> **wrong** — it was an artifact of testing `γ≡±I` (only the scalars ±1). The correct, **elementary** invariant
+> is the binary-quadratic-form **content** `content(γ)=gcd(b,c,a−d)` = the largest modulus where `γ` reduces to
+> *any* scalar. At `f=8`, mod 8 has extra square-roots of 1 ({1,3,5,7}), so `GAMMA_A=[[13,−8],[−8,5]]≡5·I (mod 8)`
+> has true content **8**, not the `±I`-depth 4 — which is the *entire* "obstruction" below. B219 verifies
+> `P(γ)=lcm(t−2,t+2)/content(γ)` exhaustively at `f=8` (all genera → period is genus-**independent**) and at
+> `f=16`. The validated general-WRT tool built here is correct and reused by B219; only the *conclusion* is
+> overturned. See `frontier/B219_period_content_law/`.
+
 **Date:** 2026-06-26. **Status:** the focused attack on L39 (the `f≥8` residual of B215's class-field period
 law). Built a **validated general-word WRT tool**, pushed the elementary criteria to **exhaustion**, and
 **proved** the `f≥8` split is a finer **form-class / genus** invariant — a sharply-characterized
