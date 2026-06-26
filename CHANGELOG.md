@@ -74,6 +74,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B226 — L43 resolved: the two SUSYs are two faces, separated by the hyperbolic/non-hyperbolic divide
+  (2026-06-26; V229).** The deepest open question (chat1): the same golden/figure-eight object carries SUSY twice —
+  the licensed 3d-3d SUSY (`T[4₁]` N=2, `M_SUSY=M_flat`=40a1) and the emergent N=1 superconformal chain SUSY
+  (`c=7/10`). One structure or two? **Two faces.** A literature scout (WebSearch/WebFetch): 2D Virasoro minimal
+  models — *including the supersymmetric ones (the tricritical Ising)* — are realized as 3d bulk theories from
+  **non-hyperbolic (Seifert / torus-knot)** 3-manifolds via `T[SU(2)]`/`SU(2)_k` (Gang et al.,
+  arXiv:2405.16377 → TCI via Seifert `S²((5,−1),(4,5),(3,1))`; 2511.04524=JHEP 03(2026)066; 2512.23122). The
+  **figure-eight is hyperbolic** → its 3d-3d theory is the complex-SL(2,ℂ)/3d-gravity object (`Vol=2.03`,
+  arXiv:2401.13900), **not** a minimal model. So the shared ingredient is `SU(2)₃`/`T[SU(2)]`, **not** the
+  figure-eight's geometry — the golden-chain CFT (TCI) and the figure-eight knot sit on opposite sides of the
+  hyperbolicity divide, two distinct 3-manifolds in the same Class-R framework. (Rhymes with B217's
+  closed-Sol/cusped-hyperbolic split.) Exact `4₁` 3d-3d→2d reduction stays NEEDS-SPECIALIST; the qualitative
+  answer is settled. Firewalled (S040); central charges `[exact]`, the split `[literature-grounded]`. **Nothing to
+  `CLAIMS.md`; P1–P16 untouched.**
 - **B225 — conductor-decomposition test: 5 = golden filling (holds), 2 = octahedral parent (refuted) (2026-06-26;
   V228).** A verify-don't-trust test of chat1's "game-changer": does 40a1's conductor `40=2³·5` split as
   `(octahedral parent 2) × (golden filling 5)`? With a validated 2-bridge pipeline (reproduces B211's `Φ` and bad
