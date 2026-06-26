@@ -74,6 +74,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B216 — the f≥8 boundary of the class-field period law: genus-theoretic, NEEDS-SPECIALIST (2026-06-26; V219).**
+  The focused attack on L39 (B215's `f≥8` residual). (A) Built a **correct, validated general WRT factorization**
+  (`SL(2,ℤ)→S,T`) so `Z_k(γ)=tr(ρ_k(γ))` is computable for *arbitrary* `γ`, not just block words — validated to
+  machine precision against B204/B214's block-word `Z` (a real bug in a first quick version was caught and fixed:
+  the `e=−1` final block is `S²T^{−m}`, not `−T^m`). (B) **The obstruction:** at `f=8` (`t=18`, `D=320`) two
+  **non-conjugate** classes `[[13,−8],[−8,5]]` (d=8) and `[[17,−4],[−4,1]]` (d=4) have **identical** elementary
+  invariants (scalar-depth 4, order-profile (1,1,2,4)) — so `d` is **not** a function of scalar-depth or
+  order-mod-2^k; it is a finer **form-class / genus** invariant (Latimer–Macduffee = the repo's B92). All
+  elementary refinements fail uniformly. **Verdict:** the full `f≥8` law is genus-theoretic (2-adic genus /
+  spinor-genus / metaplectic level) → **NEEDS-SPECIALIST** — a *named* boundary (the counterexample + the validated
+  tool), reached by computing to **exhaustion** of the elementary methods. B215 stands exact for `f∈{2,3,4}`.
+  Novelty UNCHECKED. Firewall: standalone quantum-topology/arithmetic; **nothing to `CLAIMS.md`; P1–P16 untouched.**
+  (L39's algebraic side now: closed form f≤4 + genus-theoretic boundary f≥8; the geometric Borromean bridge is the
+  separate L40.)
 - **B215 — the class-field period law: the closed form for B214's conductor-split (2026-06-26; V218).** Hunted and
   **found** the closed form: `P(γ) = lcm(t−2,t+2)/d(γ)`, with `d(γ) = max{d′∣f : γ ≡ ±I (mod d′)}` — the
   **scalar-reduction depth** of the conjugacy class (how deep `γ` reduces to the center `±I`). **Verified exact for
