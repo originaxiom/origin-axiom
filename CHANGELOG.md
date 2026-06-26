@@ -74,6 +74,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B215 — the class-field period law: the closed form for B214's conductor-split (2026-06-26; V218).** Hunted and
+  **found** the closed form: `P(γ) = lcm(t−2,t+2)/d(γ)`, with `d(γ) = max{d′∣f : γ ≡ ±I (mod d′)}` — the
+  **scalar-reduction depth** of the conjugacy class (how deep `γ` reduces to the center `±I`). **Verified exact for
+  conductor `f ∈ {2,3,4}`** (every class at `t=6,7,10,11,14,22`; the depth ranges over all divisors of `f`). The
+  SL(2,ℤ) classes of trace `t` are the ideal classes of the order `ℤ[λ]` of conductor `f` (Latimer–Macduffee = the
+  repo's B92), so the period reads the **form class** via its scalar depth — `B204 → B214 → B92`. **Named boundary
+  (open):** at `f=8` (`t=18`, the golden field with conductor 8) the law is incomplete — the `≡I mod 4` class splits
+  by `d=4` as predicted, but two order-2-mod-2 classes split by an extra factor 2 the scalar criterion misses (and a
+  naive "order-2" rule is refuted: `f=2`'s order-2 class has `d=1`, `f=8`'s have `d=2`); the higher-2-power split is
+  a finer 2-adic phenomenon → NEEDS-SPECIALIST. Novelty UNCHECKED (Gauss-sum period theory classical; the
+  scalar-depth form is the candidate-new piece). Firewall: standalone quantum-topology/arithmetic; **nothing to
+  `CLAIMS.md`; P1–P16 untouched.** Next: the Borromean-surgery bridge + the 2-adic refinement (`OPEN_LEADS` L39).
 - **B214 — the general-word WRT period law + its class-field refinement + the Funar deflation (2026-06-26; V217).**
   Extends B204 off the metallic diagonal: for *arbitrary* hyperbolic words `γ=∏R^{aᵢ}L^{bᵢ}∈SL(2,ℤ)`, the WRT
   level-period is, **on the principal class, `P(γ)=lcm(det(γ−I),det(γ+I))=lcm(tr−2,tr+2)`** (verified on many
