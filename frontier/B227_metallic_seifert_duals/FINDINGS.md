@@ -40,6 +40,12 @@ for all `m`** (since `P−Q=1`). So
 So the metallic SUSY chains pick out the **subfamily of unitary-minimal-model Seifert spaces whose largest cone
 order is a metallic discriminant** — tying B224 concretely to the active Gang et al. 3d-3d minimal-model program.
 
+## Registered observation (chat1): the near-square |H₁| signature
+`|H₁| = (2m²+7)² + 2` is **always 2 more than a perfect square**, hence `|H₁| ≡ 3 (mod 4)` for every `m` (since
+`(2m²+7)² ≡ 1 mod 4`). So these metallic Seifert duals carry a fixed quadratic-residue signature (`|H₁| ≡ 3 mod 4`).
+At `m=1,2` `|H₁|=83, 227` are prime; at `m=3`, `627 = 3·11·19`. Registered as an arithmetic observation to track
+(not a lead) — the near-square / `≡3 mod 4` structure may connect to the character variety's arithmetic; no claim made.
+
 ## Honest status / tiers
 - the recipe application + the Seifert data + `|H₁|`/Euler invariants: **`[exact]`** (pyenv `fractions`; the
   `|H₁|` det formula cross-checked with sage-python Smith form; `m=1` validated against the published TCI).

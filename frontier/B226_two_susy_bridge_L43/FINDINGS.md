@@ -40,6 +40,17 @@ figure-eight's hyperbolic geometry.** The golden-chain CFT (TCI) lives on the **
 side; the figure-eight knot (the golden `m=1` bundle) lives on the **hyperbolic / 3d-gravity** side. They are two
 distinct 3-manifolds / theories in the **same Class-R / 3d-3d framework** — two faces, not one structure.
 
+## Update (B228): the two faces are *algebraically unified*, not merely "SU(2)₃ on both sides"
+
+B228 sharpens this resolution. The "two faces" are **geometrically distinct** (a hyperbolic knot complement vs a
+non-hyperbolic Seifert space) but **algebraically unified**: both exist precisely because **SU(2)₃ is the unique
+level at which the ordinary (SU(2)₁-based) and N=1-super (SU(2)₂-based) GKO coset constructions coincide** (B228),
+and `SU(2)₃` is the golden level because `5 = m²+4` at `m=1` (B218). So this finding's "they share SU(2)₃"
+understates it: the shared `SU(2)₃` is not a coincidence of labels — it is the *unique algebraic coincidence point*
+of the non-super and super constructions, and the two SUSYs are two geometric realizations of that one coincidence.
+(B229 then shows the bulk realizations are genuinely different 3-manifolds — `S²(3,4,5)` vs `S²(3,3,5)` — so the
+algebraic unification does **not** collapse the geometry: one algebraic coincidence, two distinct bulk 3-manifolds.)
+
 ## What it rhymes with (firewall-clean)
 This mirrors the repo's banked **closed-Sol vs cusped-hyperbolic duality** (B217/V200): golden sits on *both*
 sides of a hyperbolicity split, as **different manifolds** — there the period (algebraic, closed) vs the volume

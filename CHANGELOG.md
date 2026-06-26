@@ -74,6 +74,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B230 — golden's SUSY-uniqueness is robust to AFM/FM; the FM "silver SUSY" is a central-charge coincidence,
+  not real (2026-06-27; V233).** A stress-test of B224/B228 (chat1) with a verify-don't-trust catch. The su(2)_k
+  chain: AFM → M(k+1,k+2), FM → Z_k parafermion (`c=2(k-1)/(k+2)`). A naive c-test flags silver FM (Z₆,
+  `c=5/4=c(SM(6))`) — but the Z₆ parafermion (`SU(2)₆/U(1)`) and SM(6) (`(SU(2)₄×SU(2)₂)/SU(2)₆`) are **different
+  cosets → different CFTs**, so it's a central-charge coincidence, **not** SUSY. With B228's rigorous coset
+  criterion, the only genuine N=1 super metallic chain in *any* coupling is golden+AFM (= TCI). So golden's
+  SUSY-uniqueness is **robust to AFM/FM**, and the episode reinforces "use the coset identity, not c-matching."
+  Also this PR: B226 FINDINGS updated (the two faces are *algebraically unified* by B228's SU(2)₃ coset coincidence,
+  not merely "SU(2)₃ on both sides"); registered the B227 near-square observation `|H₁|=(2m²+7)²+2 ⇒ |H₁|≡3 mod 4`.
+  3 pytest locks. Firewalled. **Nothing to `CLAIMS.md`; P1–P16 untouched.**
 - **B229 — the TCI's two 3d-3d bulk realizations are different 3-manifolds: one CFT, two bulks (2026-06-26;
   V232).** The L45 residual completed — the explicit **super-Seifert** dual of the tricritical Ising. Both 3d-3d
   recipes share the form `S²((P,P−R),(Q,S),(3,1))`, differing only by the determinant = the SU(2) level: **ordinary
