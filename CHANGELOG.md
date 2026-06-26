@@ -74,6 +74,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   working — the 3rd and 4th self-corrections of the Masterplan III batch, after B190.)
 
 ### Added
+- **B227 — L45: the metallic SUSY chains have explicit Seifert 3-manifold duals (2026-06-26; V230).** The concrete
+  lead from the L43 scout. B224's metallic chains flow to `M(m²+4, m²+3)`; Gang–Kang–Kim (arXiv:2405.16377, recipe
+  verified) realize `M(P,Q)` as a class-R theory on Seifert `S²((P,P−R),(Q,S),(3,1))`. For the metallic family the
+  condition `PS−QR=1` is solved by **`(R,S)=(1,1)` for all m** → **`S²((m²+4, m²+3),(m²+3,1),(3,1))`** (m=1
+  reproduces the paper's TCI Seifert, `|H₁|=83`). **Pattern:** cone orders `(m²+4, m²+3, 3)` — largest = the
+  **metallic discriminant** `m²+4` (5,8,13,20,29,…); `|H₁| = 4m⁴+28m²+51 = (2m²+7)²+2`; all base orbifolds
+  hyperbolic → `SL₂~`/non-hyperbolic (consistent with B226). So the metallic SUSY chains are the subfamily of
+  unitary-minimal-model Seifert spaces with largest cone order = a metallic discriminant — a concrete bridge from
+  the repo's metallic structure to the active 3d-3d minimal-model program. Recipe `[cited]`, construction/invariants
+  `[exact]` (4 pytest locks; `|H₁|` cross-checked vs sage Smith form; m=1 validated vs the published TCI). Follow-on
+  (open): golden-SUSY-uniqueness as a Seifert-overlap with the SUSY-minimal-model family. Novelty UNCHECKED.
+  Firewalled (S040). **Nothing to `CLAIMS.md`; P1–P16 untouched.**
 - **B226 — L43 resolved: the two SUSYs are two faces, separated by the hyperbolic/non-hyperbolic divide
   (2026-06-26; V229).** The deepest open question (chat1): the same golden/figure-eight object carries SUSY twice —
   the licensed 3d-3d SUSY (`T[4₁]` N=2, `M_SUSY=M_flat`=40a1) and the emergent N=1 superconformal chain SUSY
