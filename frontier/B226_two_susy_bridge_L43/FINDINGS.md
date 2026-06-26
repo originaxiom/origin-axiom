@@ -45,6 +45,20 @@ This mirrors the repo's banked **closed-Sol vs cusped-hyperbolic duality** (B217
 sides of a hyperbolicity split, as **different manifolds** — there the period (algebraic, closed) vs the volume
 (geometric, cusped); here the minimal-model CFT (non-hyperbolic) vs the 3d-gravity theory (hyperbolic).
 
+## Verification (verify-don't-trust the literature scout)
+The load-bearing papers were checked against their **actual arXiv abstracts** (not just the summarizer): 2405.16377
+(Gang–Kang–Kim, minimal models ↔ Seifert), 2512.23122 (Gang–Park–Sohn, torus-knot minimal models), JHEP 03(2026)066
+and JHEP 01(2025)027 (SUSY / non-unitary N=1 minimal models from 3-manifolds) — all **real and as cited**. One
+correction: an earlier full-text summary suggested a "hyperbolic-link alternative" construction; the **abstract is
+Seifert-only**, and "Choi–Gang–Kim 2022" is *Infrared phases of 3D class R theories* (not a hyperbolic-link →
+minimal-model recipe). So "two faces" is verified and slightly stronger: there is **no established construction
+giving the figure-eight a minimal model**. (Residual, registered as a thread: a *non-canonical* class-R/hyperbolic
+construction could conceivably engineer one — unestablished, not a counterexample.)
+
+**New lead surfaced (L45):** B224's metallic chains → `M(m²+3, m²+4)`, and Gang–Kang–Kim realize `M(P,Q)` via the
+Seifert space `S²((P,P−R),(Q,S),(3,1))` — so each metallic SUSY chain has an **explicit Seifert-3-manifold dual**.
+Computing that family (and whether the metallic Seifert data is special) ties B224 to the active 3d-3d program.
+
 ## Honest status / tiers
 - the central charges / level bookkeeping (`SU(2)₃` WZW `9/5`; coset `7/10`): **`[exact]`** (firewall-clean).
 - the resolution "two faces, separated by hyperbolicity": **`[literature-grounded]`** — the minimal-model ↔
