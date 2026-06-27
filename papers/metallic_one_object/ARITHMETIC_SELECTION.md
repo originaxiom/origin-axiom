@@ -82,6 +82,16 @@ The **field-vs-group** distinction is the table's discipline: `m=1` is the only 
 3. **Field-congruence:** `2O`'s character field `ℚ(√2)` has `disc 8 ≡ 0 (mod 4)`, but the object (trace-1) reaches
    only `disc ≡ 1 (mod 4)` (§3), so `ℚ(√2)` is unreachable.
 These are distinct objects (a group order, a representation, a field discriminant) — not one wall seen three ways.
+**Computational confirmation `[banked B237]`:** GAP `GQuotients` finds π₁(silver bundle) carries **no `2O`
+quotient** (the `ℚ(√2)` match is field-only); the binary-polyhedral quotient structure is manifold-specific
+(golden → `2T=E₆`; silver → `S₄`, the octahedral *rotation* group, never the binary `2O`; bronze → `2T`+`2I`), and
+`2O` is absent from all of them.
+
+**A nuance: E₇ *does* appear in the TCI — as a coset algebra `[banked B236]`.** The tricritical Ising model has the
+alternative coset realization `(E₇)₁⊕(E₇)₁/(E₇)₂` (c=7/10, verified). So `E₇` has a genuine **coset-algebra** role
+*inside* the object's golden CFT, even though `E₇=2O` is excluded from the object's **McKay / congruence-quotient**
+arithmetic. This is a different role for `E₇` (coset algebra vs binary-polyhedral group) and does **not** contradict
+the exclusion — a worthwhile honest caveat.
 
 **The field ladder closes `[banked B235]`.** The trace-1 ladder's discriminant `1−4det` is realized only at the two
 unit determinants (`det=+1→−3`, `det=−1→+5`). The next imaginary rung `ℚ(√−7)` (`det=2`) needs a non-unimodular
@@ -113,12 +123,15 @@ category) — the last is a rhyme and is demoted on sight. The exceptional-group
 `(G₂)₁`, E₆, E₈; E₇ excluded; **F₄ retracted** — no `SU(3)_k ⊂ (F₄)₁` conformal embedding, `c(SU(3)_k)≠26/5`)
 `[B235]`.
 
-**Open / NEEDS-SPECIALIST.** (i) The **coset-coincidence mechanism** — that the ordinary GKO coset and the `N=1`
-super GKO coset coincide *uniquely* at `SU(2)₃` (making golden the unique metallic `N=1` chain) — is, to our search,
-**not stated as a proposition** in the literature (the uniqueness *fact* that TCI is both conformal and
-superconformal is Qiu 1986, via Johnson–Clifford); confirming the *mechanism* is original requires a by-hand read of
-Qiu 1986 and Lässig et al. 1991 **[NEEDS-SPECIALIST, gate on the originality claim]**. (ii) Whether the silver
-bundle carries a genuine `2O` *group* quotient or only the field `ℚ(√2)` **[open, L48]**.
+**The coset-coincidence mechanism — references found, verified `[banked B236]`.** The ordinary GKO coset
+`M(m,m+1)=(SU(2)_{m-2}×SU(2)_1)/SU(2)_{m-1}` and the super coset `SM_k=(SU(2)_k×SU(2)_2)/SU(2)_{k+2}` (Lashkevich,
+hep-th/9301093) **coincide as the same coset `(SU(2)_1×SU(2)_2)/SU(2)_3` uniquely at the TCI** — verified by central
+charges and a uniqueness sweep (the only such `(m,k)` is `(4,1)`). The uniqueness *fact* (TCI both conformal and
+superconformal) is Qiu 1986 (via Johnson–Clifford); the two coset formulas appear separately in the literature; the
+**mechanistic observation** that the coincidence *is* the two cosets being equal at `SU(2)₃` is, to our search, not
+stated as a proposition — so it is offered as a **modest original organizing observation**, not a deep theorem.
+*(Resolves the earlier `NEEDS-SPECIALIST` gate; the remaining residue is only whether a specialist deems the
+mechanism "obvious.")*
 
 ## 7. Firewall and what is not claimed
 
