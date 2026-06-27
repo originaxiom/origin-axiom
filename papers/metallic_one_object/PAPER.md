@@ -189,7 +189,10 @@ geometry — `Fix(T₁²)`: three components of dimension 2, the geometric `Sym�
 symmetry of the 3d `N=2` theory `T[K]`, *universal across all hyperbolic twist knots*, from the `A₁` theory)
 **[lit: arXiv:1803.04009; B241]**. These differ in *type* (variety / number / symmetry) and *specificity*
 (golden / golden / twist-universal): (1)↔(2) are classical and quantum descriptions of the same SL(3) structure
-(quantization; volume conjecture as `k→∞`), while (3) is genuinely separate — so the recurrence of "SU(3)" is
+(quantization; the `SU(3)₂` invariant is a single number that resolves the three components only in the `k→∞`
+asymptotics — whose classical saddles we compute: via the Ptolemy variety the geometric component has complex
+volume `4·Vol(4₁)`, the `Sym²` factor `(n³−n)/6`, the other two volume 0 **[banked B244]**), while (3) is
+genuinely separate — so the recurrence of "SU(3)" is
 three objects, not one (a further check that the rhyme with the Standard-Model gauge group, §5.4, is not an
 identification).
 
