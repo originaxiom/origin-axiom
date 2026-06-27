@@ -224,6 +224,20 @@ present *in the hyperbolic arithmetic*. *(Silver's prime-$2$ shadow is degenerat
 $R^2L^2\equiv I \bmod 2$ and its hyperbolic square-traces vanish $\bmod (1+i)$ — no order-3 / McKay structure
 `[B212]`.)*
 
+**The dual McKay is one fact with a sign — the trace-1 congruence law `[B234]`.** Golden's two fields both come from
+a **trace-1** integer quadratic $x^2-x+\det$, whose discriminant is $\operatorname{disc}=1-4\det$: the monodromy
+$M_1$ ($\det=-1$) gives $\operatorname{disc}=+5\to\mathbb{Q}(\sqrt5)\to E_8$, and the cusp shape ($\det=+1$,
+$z=e^{i\pi/3}$ solving $z^2-z+1=0$) gives $\operatorname{disc}=-3\to\mathbb{Q}(\sqrt{-3})\to E_6$. Since
+$1-4\det\equiv 1\pmod 4$ **always**, the object (built from trace-1 elements) can reach *only* discriminants
+$\equiv 1\pmod 4$ — and $E_7$'s octahedral field $\mathbb{Q}(\sqrt2)$ (disc $8\equiv 0$) is **unreachable**. This is
+a *third*, field-level reason for the $E_7$ exclusion, **independent** of (not the same wall as) the group-order
+exclusion ($|2O|=48\neq p(p^2-1)$) and the rep-theoretic one ($E_7$'s $\mathbf{56}$ is real) — so $E_7$ is
+**overdetermined / triply excluded**. The metallic *family* does reach $\mathbb{Q}(\sqrt2)$ — at **silver**
+($m=2$, disc $8$) — but silver's monodromy is infinite-order, so the **group** $2O$ never closes; only golden
+($n=5$ prime) closes a finite $\mathrm{SL}(2,\mathbb{F}_5)=2I$. *(Two layers: a **field ladder** present at every
+$m$, and a **group closure** only at golden.)* The trace-1 law predicts the next reachable rung is
+$\mathbb{Q}(\sqrt{-7})$ (disc $-7$); whether it surfaces in the object's deeper data is an open probe.
+
 **The arithmetic of the variety itself `[B211]`.** Beyond the monodromy and the trace field, the character
 *variety* has its own arithmetic: the figure-eight non-abelian $\mathrm{SL}(2,\mathbb{C})$ character variety is the
 non-CM **elliptic curve $40a1$** ($\#X(\mathbb{F}_p)=p-1-a_p$, a weight-2 newform of conductor $40$) — distinct

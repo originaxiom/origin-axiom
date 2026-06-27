@@ -33,7 +33,7 @@ a cheap CHECK may only set a diagnostic flag (`generic?`/`vacuous?`/`non-reprodu
 | H9 | **level-rank duality** `SU(2)₃ ↔ SU(3)₂` at `q=e^{2πi/5}`, through `(G₂)₁` and `(F₄)₁`; the Fibonacci anyon `= (G₂)₁`. Not an iso (4 vs 6 irreps) — a modular-data duality | HOOK | 2026-06-27 | NOTICED | chat1-verified-lit | — |
 | H10 | **S041 correction:** "NCG: no shared data" is wrong. Connes' `ℂ⊕ℍ⊕M₃(ℂ)` encodes primes `{2,3}`; ours `{2,3,5}`; overlap `{2,3}`, golden prime 5 absent — a *partial* rhyme | ANOMALY | 2026-06-27 | CHECKED | corrected | corrected S041 (an unearned-negative caught — rule 7) |
 | H11 | the **Kodama state** = `SU(2)` Chern–Simons at `k ~ 6/(GΛ)`; at what Λ does `k=3`? | QUESTION | 2026-06-27 | **CHECKED** | **FIREWALL/HELD; computed** | **COMPUTED (k=6π/GΛ): k=3 ⇒ Λ≈2π/l_P²≈2.4×10⁷⁰ m⁻² (Planck scale, ≈6.28 Planck units); the observed Λ needs k≈6.5×10¹²² (no object structure).** Clean *quantitative* negative — the CC-problem's 122 orders = the gap between the object's natural level k=3 (UV) and k→∞ (IR). Firewall *relocated to k*, not crossed (K018). Run, not prejudged. → S041 |
-| H12 | does `c=7/10` (our TCI) appear in **Conway super-moonshine** (the N=1 SCFT module via the Leech lattice)? | QUESTION | 2026-06-27 | **CHECKED** | partial | **As a c=7/10 *building block*: NOT established** (at most an open bilinear-character-relation direction, 2003.13700). **But the Fibonacci fusion category** (golden/SU(2)₃, B218) **appears as topological defect lines in the Conway SCFT** (Angius et al. 2512.19640, Dec 2025) — the object's golden data touches Conway moonshine as a non-invertible *symmetry*, not a sub-VOA. → H19 |
+| H12 | does `c=7/10` (our TCI) appear in **Conway super-moonshine** (the N=1 SCFT module via the Leech lattice)? | QUESTION | 2026-06-27 | **CHECKED** | **DEMOTED (B234)** | building-block: NOT established (2003.13700). The Fibonacci category appears in the Conway SCFT (2512.19640) **but the category is unique ⟹ generic ubiquity, NOT a 2nd moonshine hook** (B234/H26); filed under H17, below the object-specific McKay hook. S041 corrected. |
 
 ## QUESTION-pass additions (first cycle, 2026-06-27)
 
@@ -50,7 +50,37 @@ a cheap CHECK may only set a diagnostic flag (`generic?`/`vacuous?`/`non-reprodu
 
 | H# | hint | type | noticed | state | flags | disposition |
 |---|---|---|---|---|---|---|
-| H19 | the **Fibonacci fusion category appears as topological defect lines (non-invertible symmetry) in the Conway SCFT** (Angius et al. arXiv:2512.19640, Dec 2025) — the object's golden/Fibonacci anyon data (B218, SU(2)₃) connects to **Conway moonshine** as a symmetry, *not* as a c=7/10 sub-VOA | HOOK | 2026-06-27 | NOTICED | from H12 | candidate → `OPEN_LEADS` (a Conway↔Fibonacci scout): does the paper's Fibonacci TDL F-/R-symbol data match the object's specific SU(2)₃ data? firewalled — a category-theory rhyme, not a physics crossing |
+| H19 | ~~the Fibonacci fusion category in the Conway SCFT as a 2nd moonshine hook; match its F/R-symbols to the object's SU(2)₃~~ | HOOK | 2026-06-27 | **DORMANT (B234)** | **circular-test** | **KILLED-as-posed (B234/H26):** the Fibonacci category is unique ⟹ the F/R "match" is forced ⟹ the test cannot fail ⟹ no object-specific info. `residual-hint:` the *opposite* question (does Conway use `ℚ(√5)`/`40a1`/a chirality beyond the bare category?) is the only informative version; prior = no. Reframed under H17/H28. |
+
+## Chat1/Chat2 handoff (2026-06-27) — registered NOTICED before judging
+
+Two handoffs: **Chat-1** (the computed exploration survey — Paths 1/A/2/3 + 5 discoveries) and **Chat-2** (a critique
+of Chat-1 + its own discovery). Every distinct item registered here first; verdicts attach at CHECK (`B234`).
+
+**CHECKED 2026-06-27 via `B234`** (all recomputed, cross-checked): **VERIFIED** — H20, H22, H23, H25, H27, H28, H29
+(+ the why-5 co-occurrence). **VERIFIED-and-corrects-our-own-work** — H26 (H19 is circular ⟹ **H12 demoted**,
+S041 fixed). **CORRECTED** — H30 (chat2's "same wall" → E₇ is *overdetermined/triple*, distinct mechanisms, with
+chat1). **agreed framing** — H31 (H11 wording softened). **verify-lit (by hand)** — H21, H24. **promoted to leads**
+— H32/H33/H34 → `OPEN_LEADS` (need SnapPy/specialist). The strongest new result is **H27** (the trace-1 congruence
+law); the strongest *method* is **H28** (the specificity filter, now standing in `S041`).
+
+| H# | hint | type | noticed | state | flags | disposition |
+|---|---|---|---|---|---|---|
+| H20 | **E₇ exclusion is OVERDETERMINED** — independent mechanisms: Diophantine (`48≠p(p²−1)`, no congruence quotient) + rep-theoretic (E₇'s 56 is real/non-chiral) (chat1 Path 1) | MATH | 2026-06-27 | NOTICED | — | B234 |
+| H21 | the coset-coincidence **mechanism** (ordinary GKO = super GKO coset at `SU(2)₃`) is **not stated as a proposition** in the lit; the uniqueness *fact* is Qiu 1986 (via Johnson–Clifford hep-th/0311129); Lässig et al. 1991 write the TCI coset (chat1 Path A) | HOOK | 2026-06-27 | NOTICED | verify-lit | refines B228/L45 |
+| H22 | **character-field = trace-field correspondence:** `2T→ℚ(√−3)`=hyperbolic field, `2I→ℚ(√5)`=monodromy field, `2O→ℚ(√2)`=ABSENT ⟹ E₇ **triply** excluded (chat1 D1) | MATH | 2026-06-27 | NOTICED | — | B234 |
+| H23 | the **silver bundle (m=2) carries E₇'s field** `ℚ(√2)` (disc 8) — "what golden excludes, silver includes"; the metallic *field ladder* `M_m=[[m,1],[1,0]]`, disc `m²+4` (chat1 D2) | PATTERN | 2026-06-27 | NOTICED | — | B234 |
+| H24 | **exceptional-group footprint 4/5:** G₂ (Fibonacci=(G₂)₁, direct), F₄ (level-rank `SU(2)₃↔SU(3)₂`, indirect), E₆ (direct), E₇ (excluded), E₈ (direct) (chat1 D3) | HOOK | 2026-06-27 | NOTICED | — | B234 |
+| H25 | **SUSY vs E₈ are distinct:** SUSY needs `n=5` exactly; the E₈-*field* needs `squarefree(n)=5` (m=1,4,11,…); `m=4` has the E₈ field but NOT SUSY (`M(19,20)` not super) (chat1 D4) | MATH | 2026-06-27 | NOTICED | — | B234 |
+| H26 | **H19 is CIRCULAR** (chat2) — the Fibonacci fusion category is unique (one F-matrix, two braidings), so any Fibonacci system shares the F/R data ⟹ the "match" can't fail ⟹ no object-specific info; the Conway hook is **generic** (Fibonacci ubiquity), NOT a 2nd moonshine crossing; **demote H12 below McKay, file under H17** | ANOMALY | 2026-06-27 | NOTICED | corrects-own-work | B234 → deflate H12/H19, fix S041 |
+| H27 | **the trace-1 congruence law** (chat2's discovery) — golden's two fields are one fact with a sign: `disc=1−4·det`, trace-1 ⟹ `disc≡1 (mod 4)`; permits E₈ (`5`,det−1) & E₆ (`−3`,det+1), **forbids E₇** (`ℚ(√2)`, disc 8≡0); next imaginary rung = `ℚ(√−7)` (disc −7) | MATH | 2026-06-27 | NOTICED | — | B234 |
+| H28 | the **specificity filter** (chat2's method) — sweep metallic `m`; classify framework overlaps as **golden-specific** (only m=1) / **object-specific** (only `{ℚ(√5),ℚ(√−3)}`) / **universal** (no m-dependence → demote). Turns the framework search from "collect rhymes" to "measure specificity" | MATH | 2026-06-27 | NOTICED | standing-method | B234 → S041 standing filter |
+| H29 | the **SL(2,F_p)↔binary-polyhedral bound** (chat2, load-bearing) — only `p∈{3,5}` give exceptional McKay groups (orders `24,120`), `p=5` largest; re-derive the finite-SU(2)-subgroup bound independently before banking | MATH | 2026-06-27 | NOTICED | re-derive | B234 |
+| H30 | **caution (chat2):** chat2's "trace-1 congruence = the SAME obstruction as the Diophantine `48≠p(p²−1)`" is an *interpretation* — verify provably-equivalent vs merely-coincident (chat2's own flag) | ANOMALY | 2026-06-27 | NOTICED | cross-check | B234 (my prior: DISTINCT → overdetermined, with chat1) |
+| H31 | **caution (chat2):** H11's "122 orders = gap between `k=3` and `k→∞`" is near-tautological (any UV/IR ratio reappears the CC problem) — a clean HELD negative, not insight; don't sell as such | ANOMALY | 2026-06-27 | NOTICED | framing | adjust S041 H11 wording |
+| H32 | **lead:** does `ℚ(√−7)` (the next trace-1 imaginary rung) appear in the object's data — a deeper cusp field, a covering, a Markov-level field? (chat2) | QUESTION | 2026-06-27 | NOTICED | needs-snappy | candidate OPEN_LEADS |
+| H33 | **lead:** does the silver bundle (m=2) actually carry a `2O` quotient of its π₁, or is `ℚ(√2)` only a field coincidence? (chat1 lead 2 / chat2) | QUESTION | 2026-06-27 | NOTICED | needs-computation | candidate OPEN_LEADS |
+| H34 | **lead:** `SU(3)₂` WRT of the figure-eight vs `SU(2)₃` (level-rank, B204); + assemble the full metallic table m=1..6 (model, SUSY, McKay, Seifert dual, \|H₁\|) (chat1 leads 1,3) | QUESTION | 2026-06-27 | NOTICED | needs-snappy/compute | candidate OPEN_LEADS |
 
 ## Tombstoned hints
 *(none yet — killed hints route here with a `residual-hint:` field, per anti-blindness rule 4.)*
