@@ -53,3 +53,5 @@ specificity filter (H28) it is a **universal** rhyme, not an object-specific foo
 B204/B218/B224/B227/B228/B231 (the table's cells), B234 (field-vs-group, the trace-1 congruence law, the
 specificity filter), B210 (dual McKay). Leads closed/refined: L47 (closed), L49 (assembled); H24 corrected.
 Literature: arithmeticity of `4₁` / Bianchi `PSL(2,O₃)` (standard); conformal-embedding central charges (standard).
+
+> **See B239** for the referee-proof restatement of the field-ladder closure: a unimodular element has `disc=t²−4det`, so imaginary quadratic trace fields are only `ℚ(i)`/`ℚ(√−3)` (the `disc=−4` floor); `ℚ(√−7)` is below the floor (no "det=2" needed).

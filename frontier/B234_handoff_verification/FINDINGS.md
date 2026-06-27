@@ -68,3 +68,5 @@ So `m=4` carries the E₈ field but is **not** SUSY (`M(19,20)`), and `n≠5`. T
 B210 (dual McKay), B218/B224/B228/B231 (the golden-only boundary), B233 (why-5 / the cascade), B232 (the tower).
 Literature to read by hand (H21): Qiu 1986; Johnson–Clifford hep-th/0311129; Lässig et al. 1991; Ostrik
 (Fibonacci-category uniqueness). Leads → `OPEN_LEADS` (H32/H33/H34).
+
+> **Superseded framing (B239):** the "trace-1, `disc=1−4det`" statement here is fragile (the bundle monodromy `RL` is trace 3). Use the reconciled **unimodular** law (B239): `disc=t²−4det`; the only imaginary quadratic trace fields are `ℚ(i)` & `ℚ(√−3)` (the `disc=−4` floor); E₇/`√2` needs even trace; `ℚ(√−7)` below the floor.
