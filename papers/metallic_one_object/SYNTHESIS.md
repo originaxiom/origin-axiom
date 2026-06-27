@@ -190,6 +190,15 @@ level-period $P(m)$ is always a multiple of the squarefree part of the discrimin
 part *is* the McKay prime $5$ `[B208]` — so the quantum invariant (Face IV) and the arithmetic shadow are the
 same arithmetic.
 
+**Sharpened `[B233]` — one cascade, one coincidence (not a pile-up).** Decomposing the dependency: *eight of
+eight* "$5$"-faces (smallest mean, systole, least volume, the anyon level $k{=}3$/$n{=}5$, the SUSY coset
+$\mathrm{SU}(2)_3$, the WRT period's $5$-divisibility, the conductor $40{=}2^3\!\cdot\!5$, and the $E_8$ shadow)
+**cascade from a single root** — golden $=m{=}1$, the field $\mathbb{Q}(\sqrt5)$, discriminant $5$. The *only*
+genuine coincidence is that $\min_m(m^2{+}4)=5$ is **also** the largest McKay prime ($\mathrm{SL}(2,\mathbb{F}_5)
+=2I=E_8$; $E_7{=}2O$ of order $48$ is never an $\mathrm{SL}(2,\mathbb{F}_p)$, hence structurally excluded). So the
+"$5$ web" is **one causal cascade plus one number-theoretic coincidence** (the smallest metallic discriminant is
+the largest McKay prime) — a *partial* unification, verified exactly.
+
 **The dual McKay — golden carries $E_6$ *and* $E_8$ `[B210]`.** The object has *two* arithmetics: the **real
 monodromy** field $\mathbb{Q}(\sqrt 5)$ (which gives $E_8$ above) and a **complex hyperbolic** invariant trace
 field. For golden the latter is $\mathbb{Q}(\sqrt{-3})$ — the figure-eight is two regular ideal **tetrahedra**, so
