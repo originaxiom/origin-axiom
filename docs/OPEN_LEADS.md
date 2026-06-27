@@ -4,6 +4,10 @@ A registry of **open leads**: directions named but not yet run, ranked by value 
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a
 candidate for a future frontier stage; banking one means *deciding to run it*, not asserting it.
 
+Leads may originate from `HINT_LEDGER.md` (the pre-decision hint register, governed by `../METHOD.md`): a promoted
+hint carries its `H#` for traceability. The two ledgers have **different admission bars** — `HINT_LEDGER` records
+*anything noticed*; promotion to a lead here is *the* judged step (a decision to run).
+
 Provenance: the bulk of this catalog was extracted from an **AI-assisted leads register** (a cross-session triage of
 ~23 quantum-layer threads). Only the **non-duplicate, non-stale** leads are carried here; the cross-check against
 the repo is recorded in the "disposition" column so duplicates are not re-run and withdrawn items are not revived.

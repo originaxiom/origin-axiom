@@ -134,6 +134,26 @@ construction-on-sand (calling a refuted result a foundation). Both are overclaim
 program. *(Harvested from the 2026-06 cross-chat strategy review; (K) is the discipline behind
 the B192 refutation, (C) the correction to that review's own "we're done" posture.)*
 
+### 6.2 The staging principle (verification attaches at promotion, not at birth)
+
+The red-team lens and the full verification battery are **promotion-stage** tools. They do **not** fire at the
+birth of a hint. A *hint* — a pattern, coincidence, anomaly, or unasked question — is **recorded before it is
+judged** (in `docs/HINT_LEDGER.md`), and is **not** subject to the red-team lens, the MB-guards at full strength,
+or the HELD rule until it is promoted past the cheap CHECKED stage. **Recording a hint is not asserting it.**
+
+- Running the heavy adversarial battery on an **un-promoted** hint is itself a protocol violation (it re-imports
+  the false-negative reflex the staging exists to prevent). A cheap check may only set a diagnostic flag and route
+  a hint to **DORMANT** (parked, revivable) — it may **not** kill. Only the full **promotion gate** produces a
+  `TESTED-NEGATIVE` / `dead`.
+- This is the generative twin of §6.1: (C)/(K) forbid unearned verdicts *about claims*; the staging principle
+  forbids unearned verdicts *about hints*. "This hint is worthless," asserted without running the gate, is as much
+  an overclaim about the state of the evidence as "we proved physics." Generativity is added strictly **under** the
+  rigor floor — the promotion gate is never softened.
+
+The full protocol (the staged pipeline, the attachment table, the seven anti-blindness rules, the WIDEN/QUESTION
+cadences) lives in `METHOD.md`. *(Added 2026-06-27 — the fix for the structural asymmetry that left rigor
+institutionalized and generativity ad hoc, so verification was silently blinding the program to hints.)*
+
 ---
 
 ## 7. Phase structure

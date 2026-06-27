@@ -60,7 +60,11 @@ external claim.
   as PC01's capstone section.
 - **PC05 — the methodology paper** (verdict labels, failure registers, bounded campaigns, the two-tier
   MATH/POSTULATED rule, verify-don't-trust). The arc gave it real case studies (the B147 `polcoef`
-  bug, the B149 Schur-commutant flip). Upgrades from SEED on the strength of those.
+  bug, the B149 Schur-commutant flip). Upgrades from SEED on the strength of those. **Now has its missing
+  *generative half*:** `../METHOD.md` + `../docs/HINT_LEDGER.md` (the staging principle — rigor at promotion not
+  birth — + the hint register), the dual protocol that keeps the verification discipline from blinding the program
+  to hints. The S041 "NCG: no shared data" → corrected (an *unearned negative*) is the worked case study of the
+  generative half, symmetric to the B147/B149 over-claim cases of the rigor half.
 
 **Tier 2 — strongest mathematics, GATED on the H2 specialist close.**
 - **PC13 — the SL(n) figure-eight flagship** (`SLN_FIGURE_EIGHT_SKELETON.md`; absorbs PC12). The

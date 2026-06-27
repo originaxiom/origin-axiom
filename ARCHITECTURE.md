@@ -30,6 +30,7 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 | `frontier/` | speculative-but-computed `open` work, quarantined + gated; the `B`-probes | only through `conditional → proven` |
 | `papers/` | paper-candidate registry; the `V`-validation-ledger | — |
 | `docs/atlas/` | navigation + the **FAILURE_ATLAS** (dead ideas, first-class negatives) | — |
+| `docs/HINT_LEDGER.md` | the **hint register** — pre-decision observations (patterns, coincidences, anomalies, unasked questions); the generative counterpart to the `V`-ledger (governed by `METHOD.md`) | promotes **to `OPEN_LEADS.md`**, never directly to CLAIMS |
 | **`speculations/`** | the **evolving-ideas** room: the catalog `S001…S030`, the "final theory" exercise, the **HELD** value-matches, the **DEAD** tombstones, the `archive/` | **never** |
 | **`philosophy/`** | the **motivation** layer: `P000–P010` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
 | **`story/`** | the **honest narrative** — how the project actually unfolded, with `V`/`B` traceability, no duplicated math | **never** |
