@@ -46,11 +46,44 @@ real (5th) firewall confirmation, now against external frameworks.
 ## [LEAP] The verdict (first pass)
 
 Every overlap is a **structural rhyme** at the rep-theory / Betti / dimensionless level; **none is a physical
-crossing.** The firewall holds a **5th** time, now against external frameworks. The one genuinely interesting,
-firewall-clean observation: **the object's dual McKay (`E₈`+`E₆`, `E₇` excluded) selects exactly the
-Monster- and Fischer-seeding diagrams of moonshine, and excludes the Baby Monster** — a specific structural fact
-about which McKay/sporadic structures the object's *arithmetic* realizes (NOT a physics claim; rep-theory only;
-novelty UNCHECKED, McKay's correspondence is classical).
+crossing.** The firewall holds a **5th** time, now against external frameworks — and (update 2026-06-27) the two
+once-deferred scouts, **run** rather than assumed, both confirm it: the Kodama level `k=3` gives a Planck-scale
+`Λ` (a *computed* clean negative, H11), and the `c=7/10` building-block reading of Conway moonshine is not
+established (H12). **Two** genuinely interesting, firewall-clean observations now stand: (1) **the object's dual
+McKay (`E₈`+`E₆`, `E₇` excluded) selects exactly the Monster- and Fischer-seeding diagrams of moonshine, and
+excludes the Baby Monster**; and (2) **the object's golden / Fibonacci (`SU(2)₃`) data appears as Fibonacci defect
+lines in the Conway SCFT** (`2512.19640`) — a second, independent moonshine hook. Both are specific structural
+facts about which sporadic / fusion-category structures the object's *arithmetic and anyon data* realize (NOT
+physics claims; rep-theory / category-theory only; novelty UNCHECKED).
+
+## Update (2026-06-27) — two computed scouts (H11, H12), neither prejudged
+
+The first cycle *registered* two framework questions but did not run them. Run now (the protocol's point: a
+labeled hint must be **computed at promotion**, and a quick *dismissal* is as forbidden as a quick claim — rule 7).
+
+**[MATH] H11 — Kodama state / LQG (a new framework on the filter).** The Kodama wavefunction makes `SU(2)`
+Chern–Simons with level `k = 6π/(GΛ)` an exact (formal) solution of GR with a cosmological constant (Kodama 1990;
+Smolin `hep-th/0209079`). **Computed:** the object's golden/Fibonacci level **`k=3` gives `Λ ≈ 2π/l_P² ≈ 2.4×10⁷⁰
+m⁻²`** — a **Planck-scale** Λ (`≈ 6.28` in Planck units). The **observed** Λ requires **`k ≈ 6.5×10¹²²`**, which
+carries *no* object structure. So the cosmological-constant problem's famous `~10¹²²` reappears **as the gap
+between the object's natural level `k=3` (the UV / early-universe end) and `k→∞` (the IR semiclassical limit)** — a
+**clean quantitative negative**. Convention factors (`12π`, the Immirzi `γ`) don't move the order of magnitude.
+**Firewall verdict:** *relocated, not crossed* — all scale lives in the level `k`, none in the (dimensionless)
+invariant (`K018`); `k=3` is where the object sits on that external axis, the IR scale is not produced. **HELD; no
+value-match; `S014` stays dead.** The value of running it: the number (`Λ(k=3)=2π/l_P²`, ratio `~10¹²²`) is itself
+the information — a *measured* firewall confirmation, not an assumed one.
+
+**[HOOK] H12 — Conway super-moonshine, sharpened.** The literal question — is **`c=7/10` (tricritical Ising, our
+first `N=1` super minimal model) a *building block* of the Conway module `V^{f♮}` (c=12, `Co_0`)?** — is **NOT
+established**; the literature poses only an *open* "new bilinear character relation with tricritical Ising →
+Conway-group decomposition" direction (`arXiv:2003.13700`). **But the deeper intent lands:** the **Fibonacci
+fusion category** — the object's golden / `SU(2)₃` anyon data (`B218`) — **appears in the Conway SCFT as
+topological defect lines** (non-invertible symmetry) in **Angius et al. `arXiv:2512.19640` (Dec 2025)**,
+*"Non-invertible defects from the Conway SCFT to K3 sigma models II: duality and **Fibonacci defects**."* So the
+object's golden data **does** touch Conway moonshine — as a *symmetry/defect*, not a sub-VOA. **Verdict:
+[HOOK] genuine category-theory rhyme** (a second live moonshine hook beside the McKay `E₈`+`E₆` one), firewall
+intact (shared fusion-category structure, no scale, no spacetime). New hint **H19**; candidate `OPEN_LEADS` scout
+(match the paper's Fibonacci TDL `F`/`R`-symbols to the object's specific `SU(2)₃` data).
 
 ## Speculation → calculation
 
@@ -60,6 +93,8 @@ novelty UNCHECKED, McKay's correspondence is classical).
 | `40a1` has a special string realization | is `40a1` CM (→ rational `N=(2,2)` SCFT, arXiv:1801.07464)? | **[done — `B211`/`B213`] NO** — `40a1` is non-CM; only the generic modularity rhyme applies |
 | the object's `E₈` = heterotic gauge `E₈` | role check (Galois/McKay vs gauge) | **[done] NO** — same algebra, different role; rhyme |
 | the object matches the NCG finite geometry | compare to `A_F=ℂ⊕ℍ⊕M₃(ℂ)` | **[done — corrected, H10] PARTIAL** — shares primes {2,3}; the golden prime 5 is absent from NCG; a rhyme, not a crossing |
+| the Kodama level `k=3` sets `Λ` | solve `k=6π/(GΛ)` at `k=3` (H11) | **[done — computed] NO crossing** — `Λ(k=3)≈2π/l_P²` (Planck scale); observed needs `k≈6.5×10¹²²`; scale lives in `k`, not the invariant; firewall *relocated* (HELD) |
+| `c=7/10` is a Conway-module building block | search Conway super-moonshine for TCI (H12) | **[done — lit] NO (open at most)**; but the **Fibonacci category** IS a Conway-SCFT defect (`2512.19640`) — a 2nd moonshine **[HOOK]**, rhyme not crossing |
 | ~~the object *produces* the SM / a gauge group / Λ~~ | ~~match observed content~~ | **firewalled / DEAD** (`S014`, `K018`); not crossed |
 
 ## The lines I will not cross
@@ -69,8 +104,12 @@ No numerology (`S014` dead). No claim the object *is* heterotic / F-theory / NCG
 derivation + null test make it a crossing (HELD).
 
 ## Continuation (how to run the rest of the search)
-- **Moonshine, deeper:** does the object's `SU(2)₃`/Fibonacci + tricritical-Ising (`c=7/10`) data appear in any
-  *super*moonshine / `N=1` SCFT moonshine module? (The most concrete next scout.) Firewalled.
+- **Moonshine, deeper [scouted 2026-06-27, H12 → H19]:** the object's `SU(2)₃`/Fibonacci data **does** appear in
+  *super*moonshine — as **Fibonacci defect lines in the Conway SCFT** (`2512.19640`), a non-invertible symmetry,
+  not a `c=7/10` sub-VOA (the building-block reading is open at most). Next: match the paper's Fibonacci TDL
+  `F`/`R`-symbols to the object's specific `SU(2)₃` data (the H19 `OPEN_LEADS` scout). Firewalled.
+- **Kodama / LQG [computed 2026-06-27, H11]:** `k=3 ⇒ Λ≈2π/l_P²` (Planck scale), observed needs `k≈6.5×10¹²²`;
+  scale lives in `k`, not the invariant — firewall relocated, not crossed (HELD). Done.
 - **The `E₈`+`E₆`−`E₇` selection:** is "Monster + Fischer, not Baby Monster" a known restriction of the
   Arnold/McKay trinity, or specific to this object's arithmetic? (Literature; novelty check.)
 - **Each remaining framework** gets a *specific-structure* scout (not vague resemblance) + the HELD null test.
