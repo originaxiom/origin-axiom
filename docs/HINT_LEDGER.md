@@ -66,7 +66,9 @@ specificity filter, now standing in `S041`).
 **Follow-up resolutions (`B235`, 2026-06-27):** **H24 CORRECTED** — F₄ retracted, footprint **3/5** (no
 `SU(3)_k⊂(F₄)₁` conformal embedding: `c(SU(3)_k)` never `=26/5`). **H32 CLOSED** — `ℚ(√−7)` does **not** appear
 (SnapPy: all `4₁` covers ≤deg 6 keep `ℚ(√−3)` — arithmetic; algebraically the trace-1 ladder closes at `{√5,√−3}`
-by unimodularity `det∈{±1}`). **H34 ASSEMBLED** — the metallic family table m=1..6 (→ L49, the paper's §4).
+by unimodularity `det∈{±1}`). **H34 RESOLVED** — the metallic family table m=1..6 (→ L49, the paper's §4, B235) **and** the `SU(3)₂` WRT
+level-rank check (B238): `Z(4₁;SU(2)₃)=Z(4₁;SU(3)₂)=−1/φ` (figure-eight coincides via shared `κ=5`), but not a
+general level-rank equality — figure-eight-specific.
 
 **Follow-up resolutions (`B236`/`B237`, 2026-06-27, SnapPy+GAP):** **H21 CLOSED** — the coset-coincidence
 mechanism verified (Lashkevich/GKO/Qiu refs; `M(4,5)≡SM_1` the same coset, unique; E₇-in-TCI bonus), clearing the
