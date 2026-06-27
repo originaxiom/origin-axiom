@@ -155,6 +155,30 @@ embedding), the closed figure-eight bundle's WRT invariant coincides: `Z(4₁;SU
 **figure-eight-specific** — silver and bronze give different `SU(2)`/`SU(3)` invariants — and is rooted in the
 shared golden `κ=5`. (Another golden-specific instance, on the quantum face.) **[banked B238]**
 
+### 4.4 Golden integrality of the colored Jones — the filter at its sharpest
+
+At the golden root `q=e^{2πi/5}`, the figure-eight's colored Jones `J_N`, weighted by the `SU(2)₃` quantum
+dimension `[N]={1,φ,φ,1}`, is a vector of **integers**:
+> `[N]·J_N(4₁; e^{2πi/5}) = {1, −2, −2, 1}` (N=1..4) — the `φ` cancels the `1/φ` in `J_N={1,−2/φ,−2/φ,1}`.
+
+The mechanism is exact: `J_2 = 1−4\sin(π/5)\sin(3π/5)`, and `\sin(π/5)\sin(3π/5)=√5/4` (special to `n=5`, where the
+cyclotomic field collapses to the quadratic `ℚ(√5)`) gives `J_2=1−√5=−2/φ`. **Golden-specific:** the other
+metallic roots `n=8,13` give non-integers. **[banked B240]**
+
+This is the specificity filter (§4.1) in its cleanest form, because the result *resolves into two tiers* under a
+sweep of amphicheiral knots (a validated `U_q(sl₂)` R-matrix colored Jones; integrality decided rigorously by the
+Galois action `√5↦−√5`):
+- **amphichirality ⇒ real, in `ℤ[φ]`** — a property of the whole *class* (Habiro integrality intersected with the
+  real field). Chiral knots (`3₁,5₂`) instead give non-real values in `ℚ(ζ₅)`.
+- **the `√5`-part vanishing (pure `ℤ`) ⇒ figure-eight-specific** — among the amphicheiral knots through 10
+  crossings with braid index ≤5 (`6₃,8₉,8₁₂,8₁₇,8₁₈,10₁₇`), **only `4₁`** is pure-integer; e.g. `8₁₈=(σ₁σ₂⁻¹)⁴`,
+  which lies in the figure-eight's *own braid family* (`4₁=(σ₁σ₂⁻¹)²`), gives `−8+7φ`.
+
+So the filter does exactly its job: it tells apart a generic class trait (real-valuedness, shared by all
+amphicheiral knots) from the genuinely object-specific fact (pure integrality, the figure-eight alone). *(The
+companion observation `Σ[N]·J_N = −2 = −χ` of Slavich's bounding 4-manifold is HELD/unverified — the raw sum is not
+the normalized WRT invariant — and is not used here.)*
+
 ## 5. The boundary
 
 ### 5.1 The dimensional firewall
@@ -221,7 +245,8 @@ everything above is verified and banked.
 ## References (by role; standard in the area)
 Maclachlan–Reid, Reid (figure-eight arithmetic / unique arithmetic knot); Cantat 2009, Goldman, Fricke–Vogt
 (character-variety trace map); Süto, Damanik–Gorodetski (Fibonacci-Hamiltonian); Jeffrey 1992 (WRT of torus
-bundles); Feiguin–Trebst–Ludwig et al. 2007 (golden chain → TCI); Goddard–Kent–Olive 1986, Lashkevich
-hep-th/9301093, Qiu 1986 / Johnson–Clifford hep-th/0311129 (cosets / uniqueness); McKay (the correspondence);
-Gukov–Teschner–Zagier, Dimofte, Córdova–Jafferis (3d–3d / complex CS). In-repo provenance: B210, B211, B221–B224,
-B228, B230, B233–B239 (and `SYNTHESIS.md`, `ARITHMETIC_SELECTION.md`, `S041`).
+bundles); Habiro (cyclotomic expansion / integrality of the colored Jones); Feiguin–Trebst–Ludwig et al. 2007
+(golden chain → TCI); Goddard–Kent–Olive 1986, Lashkevich hep-th/9301093 (cosets), Friedan–Qiu–Shenker 1985 / Qiu
+1986 (the TCI as the unique ordinary+superconformal minimal model); McKay (the correspondence); Gukov–Teschner–
+Zagier, Dimofte, Córdova–Jafferis (3d–3d / complex CS). In-repo provenance: B210, B211, B221–B224, B228, B230,
+B233–B240 (and `SYNTHESIS.md`, `ARITHMETIC_SELECTION.md`, `S041`).
