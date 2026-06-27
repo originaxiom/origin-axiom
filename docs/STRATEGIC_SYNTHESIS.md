@@ -256,11 +256,17 @@ not yet claims):
 - **The hyperbolicity-split motif (H4).** The object recurs on *both sides* of a hyperbolic/non-hyperbolic divide
   as **different manifolds**: period (closed-Sol, algebraic) vs volume (cusped-hyperbolic) (B217/V200); the
   figure-eight's 3d-gravity SUSY (hyperbolic) vs the golden-chain TCI (non-hyperbolic Seifert) (B226); the TCI's
-  ordinary vs super bulk 3-manifolds `S²(3,4,5)` vs `S²(3,3,5)` (B229). Open question (H13): is there a single
-  unifying statement?
+  ordinary vs super bulk 3-manifolds `S²(3,4,5)` vs `S²(3,3,5)` (B229). **Resolved → H13 (B233):** stated as a
+  candidate theorem — the monodromy class `γ∈SL(2,ℤ)` / its `SU(2)₃` data is *hyperbolicity-blind* and is realized
+  twice, on a non-hyperbolic (Sol/Seifert) manifold carrying the algebraic/quantum face and on a hyperbolic
+  manifold carrying the geometric (volume) face, never on one manifold. (A pattern from 3 witnesses, not "every
+  axis" proven.)
 - **The "5" web (H2).** The golden discriminant `5 = m²+4|_{m=1}` governs golden on every face: WRT period 5; the
   Fibonacci/`SU(2)₃` level (`n=k+2=5`); the SUSY coset denominator `SU(2)₃`; the labels `M(4,5)=SM(3,5)`; the
-  `40a1` conductor `2³·5`. Open question (H17): one reason, or a pile-up of coincidences?
+  `40a1` conductor `2³·5`. **Resolved → H17 (B233): NOT a pile-up — a *partial* unification.** Eight of eight
+  faces cascade from one root (golden `= m=1`, the field `ℚ(√5)`, disc `5`); the only genuine coincidence is that
+  `min(m²+4)=5` is *also* the largest McKay prime (`SL(2,F₅)=2I=E₈`; `E₇=2O` structurally excluded). One cascade +
+  one number coincidence — verified exactly in `frontier/B233_synthesis_split_and_five/verify_five.py`.
 
 DORMANT sweep: none (register newly seeded). Physics-parallels prompt → the framework search (S041/L46) stays
 live; the deepest live question is H14 (is the object's `E₈+E₆−E₇` exclusion the *same* obstruction as heterotic's
