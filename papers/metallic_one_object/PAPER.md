@@ -200,6 +200,13 @@ iff the knot is **amphicheiral**: for `4₁` (amphicheiral) `SU(2)₃=SU(3)₂=�
 conjugate pairs. So *amphichirality is precisely the condition that makes the level-rank coincidence exact* —
 binding the §4.4 amphichirality theme to the §4.3/B238 level-rank theme. **[banked B242]**
 
+This conjugation mechanism is *level-independent* (`q^κ=−1` for every `SU(2)_k↔SU(k)_2`), so it is **not** golden-
+specific — the golden value `−2/φ` is the `k=3` specialization, and the figure-eight is level-rank-self-dual at
+every `k`. The honest control: the self-dual value `V(k)` is quadratic only at the four small-`φ(κ)` levels
+`κ∈{5,8,10,12}` (`√5, √2, ℚ, √3`); golden (`k=3`) and silver (`k=6`) coincide with the metallic fields `m=1,2`, but
+this is a **2-case coincidence, not a ladder** — bronze (`κ=13`, `m=3`) gives a degree-6 value, *not* in `ℚ(√13)`.
+The mechanism is universal; the metallic values are not a pattern. **[banked B243]**
+
 ## 5. The boundary
 
 ### 5.1 The dimensional firewall
