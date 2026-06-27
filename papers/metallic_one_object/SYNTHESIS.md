@@ -220,11 +220,51 @@ arithmetic $E_6$ is impossible ($3 \nmid m^2+4$), $E_7$ is not a congruence quot
 The object is **mathematics that bears on the physical question without crossing into it**: its content is the
 arithmetic of one conjugacy class, and at its minimal point that arithmetic is $E_8$.
 
+## 9c. Addendum (2026-06-27) — the golden chain's emergent supersymmetry `[B218–B230]`
+
+After this map was written, the **quantum face (Face IV) was pushed into its anyonic / CFT regime**, and the
+golden member turned out to carry one more structural shadow — **emergent supersymmetry** — entirely firewalled,
+nothing promoted. The chain of facts (each `[banked B#/V#]`):
+
+- **Golden = Fibonacci anyons = $\mathrm{SU}(2)_3$** `[B218]`. The metallic selection at $m=1$ lands on the
+  Fibonacci modular tensor category, i.e. the $\mathrm{SU}(2)_3$ / $(G_2)_1$ anyon data — the quantum-topology
+  incarnation of the golden mean ($d_\tau=\varphi$).
+- **The golden (Fibonacci) chain flows to tricritical Ising, $c=7/10$** `[B220–B222]`. The
+  antiferromagnetic golden chain's critical theory is the minimal model $M(4,5)$, which is **the first $N=1$
+  superconformal minimal model** $\mathrm{SM}(3,5)$ — so the lattice model has an **emergent** $N=1$
+  superconformal symmetry, with the supercurrent visible in the momentum-resolved spectrum (correctness-gated:
+  $\bigoplus_k \mathrm{spec}(H_k)=\mathrm{spec}(H_{\text{full}})$) `[B222]`. The SUSY is **emergent, not a lattice
+  grading** — the chain carries no exact $(-1)^F$ at finite size `[B223]`.
+- **The mechanism is a unique coset coincidence at $\mathrm{SU}(2)_3$** `[B228]`. The ordinary GKO coset
+  $M(q,q{+}1)=(\mathrm{SU}(2)_{q-2}\times\mathrm{SU}(2)_1)/\mathrm{SU}(2)_{q-1}$ and the $N=1$ super coset
+  $\mathrm{SM}(q')=(\mathrm{SU}(2)_{q'-2}\times\mathrm{SU}(2)_2)/\mathrm{SU}(2)_{q'}$ **coincide for exactly one
+  value** — at $(4,5)$ = tricritical Ising, with shared denominator $\mathrm{SU}(2)_3$ (the golden level). This is
+  *why* golden, and only golden, is superconformal.
+- **Golden is uniquely SUSY, robustly** `[B224/B230]`. Among the metallic chains, only $m=1$ realizes the
+  $N=1$ superconformal coincidence; the result is robust to AFM/FM and to the parafermionic $Z_k$ generalization.
+  The silver FM near-coincidence $c=5/4$ is a **central-charge coincidence, not a CFT identity** (different
+  cosets) `[B230]` — a verify-don't-trust catch.
+- **Explicit Seifert duals** `[B227/B229]`. The metallic bundles sit opposite Seifert-fibered duals
+  $S^2((m^2{+}4,m^2{+}3),(m^2{+}3,1),(3,1))$ under the Gang–Kang–Kim 3d–3d correspondence, with the ordinary
+  ($PS-QR=1$) vs super ($PS-QR=2$) determinant reading $=$ the $\mathrm{SU}(2)$ level; at tricritical Ising the
+  ordinary $S^2(3,4,5)$ ($|H_1|=83$) and super $S^2(3,3,5)$ ($|H_1|=66$) are explicit `[B229]`.
+
+**Where this sits.** This is a **deepening of Face IV** (the quantum face), not a fifth independent face: the same
+$\mathrm{SU}(2)_3$/golden anyon data, read in its critical-CFT regime, exposes the superconformal structure. It is
+**scale-free and rep-theoretic** — an emergent symmetry of a critical lattice model, *not* a physical SUSY of
+spacetime. The framework search (`speculations/S041`) confirms every external-framework overlap (heterotic /
+F-theory / NCG / moonshine) is a **structural rhyme, no crossing**; the firewall holds. Nothing here promotes to
+`CLAIMS.md`; the program's physics aims stay firewalled (§8).
+
 ## 10. References (by face; standard in the area)
 - **Char. variety / trace map:** Fricke–Vogt; W. Goldman (trace coordinates, MCG action); Cantat–Loray (AIF 2009).
 - **Geodesic / dynamical degree:** Cantat–Loray; classical hyperbolic geometry of $\mathbb{H}/\mathrm{SL}(2,\mathbb{Z})$.
 - **Quasicrystal:** Sütő (1987); Damanik–Gorodetski (Fibonacci Hamiltonian); Damanik–Killip–Lenz.
 - **Quantum:** L. Jeffrey, *CMP* 147 (1992) 563–604 (WRT of torus bundles = Gauss sums); Bullock–Przytycki
   (skein algebra); Terwilliger (Askey–Wilson algebra); Cherednik (DAHA); Morier-Genoud–Ovsienko (q-reals).
+- **Emergent SUSY / golden chain (§9c):** Feiguin–Trebst–Ludwig–Affleck–Kitaev–Wang–Freedman (golden chain →
+  tricritical Ising); Goddard–Kent–Olive (GKO coset); Friedan–Qiu–Shenker / Qiu (the $N=1$ super minimal series);
+  Fendley–Schoutens (lattice supersymmetry); Gang–Kang–Kim and Baek–Kang (3d–3d Seifert duals, arXiv:2405.16377,
+  2511.04524). **[literature]**
 - **In-repo provenance:** B148/V137, B150/V139, B71, B198–B203, K002, K007, K010, B160/B162/B163/B166/B186,
-  B204/V197–V200, B205/V201.
+  B204/V197–V200, B205/V201; (§9c addendum) B218, B220–B224, B227–B230.

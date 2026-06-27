@@ -9,12 +9,22 @@ pointer. Prose elsewhere in the repo may not exceed the label of the claim it re
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-06-11 · the proven core P1–P16 is **unchanged through all frontier work to
-date (B1–B152)** — **B69–B152 produced zero promotions** to this ledger (the SL(n) trace-map tower,
-the chirality / class-S / firewall arc, and all cross-session processing live entirely in `frontier/`
-/ `knowledge/` / `speculations/`; the date/range lag is not claim drift) · proven ledger unchanged at
-15 claims; C1 evidence upgraded by `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace
-selector theorem; trace-map and spectrum work B13–B47 otherwise remains frontier only.
+**Last updated:** 2026-06-27 · the proven core P1–P16 is **unchanged through all frontier work to
+date (B1–B230)** — **B69–B230 produced zero promotions** to this ledger (the SL(n) trace-map tower,
+the chirality / class-S / firewall arc, and the object-mapping arc — the four faces, the elliptic
+curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — all
+live entirely in `frontier/` / `knowledge/` / `speculations/` / `papers/metallic_one_object/`; the
+date/range lag is not claim drift) · proven ledger unchanged at 15 claims; C1 evidence upgraded by
+`docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace selector theorem; trace-map and spectrum
+work B13–B47 otherwise remains frontier only.
+
+> **Frontier headline results (navigational pointer — NOT promoted, NOT claims).** The frontier work
+> B69–B230 is rich but **none of it is promoted to this ledger** (firewall + the `conditional → proven`
+> gate). For the honestly-labelled frontier results see: `ROADMAP.md` (the Phase B probe table),
+> `papers/metallic_one_object/SYNTHESIS.md` (the four-faces map), `papers/VALIDATION_LEDGER.md`
+> (`V1…V234`), `docs/OPEN_LEADS.md` (`L1…L46`), and `speculations/` (the firewalled physics readings).
+> This pointer exists so a reader is not misled into thinking the rich frontier is *absent* — it is
+> deliberately *not here*, by the firewall.
 
 ---
 
