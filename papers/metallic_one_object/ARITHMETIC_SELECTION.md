@@ -30,7 +30,7 @@ eigenvalue is the `m`-th metallic mean `λ_m=(m+√(m²+4))/2`. The homological 
 `m`, `det −1`, characteristic polynomial `x²−mx−1`, discriminant `n=m²+4`. The figure-eight knot complement is
 `m=1` **[banked, standard]**. The eigenvalue/trace field is `ℚ(√(m²+4))` **[banked K002]**.
 
-## 3. Why 5 — the trace-1 congruence law (the conceptual backbone)
+## 3. Why 5 — the unimodular trace-field law (the conceptual backbone)
 
 **The single root.** Tracing every appearance of `5` to `n=m²+4` **[banked B233/B234]**:
 
@@ -42,11 +42,20 @@ eigenvalue is the `m`-th metallic mean `λ_m=(m+√(m²+4))/2`. The homological 
 | character-variety conductor | `5 ∣ 40` | branch locus `x²=n=5` |
 | congruence / McKay | `SL(2,F₅)=2I=E₈` | `p=n=5` |
 
-**The trace-1 congruence law `[banked B234/V—; verified]`.** The object's two arithmetic fields are *one fact with
-a sign*. A **trace-1** integer quadratic `x²−x+det` has discriminant `disc = 1−4·det`, which is **always
-`≡1 (mod 4)`**. The monodromy `M_1` (`det=−1`) gives `disc 5 → ℚ(√5) → E₈`; the cusp shape (`det=+1`, the figure-
-eight tetrahedron `z=e^{iπ/3}` solving `z²−z+1=0`) gives `disc −3 → ℚ(√−3) → E₆`. The two number fields the object
-carries are exactly the two **unit determinants** `det = ∓1`.
+**The unimodular trace-field law `[banked B239; verified]`.** The object's holonomy/monodromy elements are
+**unimodular** (`det=±1`); for trace `t` the characteristic polynomial is `x²−tx+det`, discriminant `disc=t²−4·det`.
+Two consequences pin the arithmetic:
+- **`ℚ(√5)` is robust** (it is not a "trace-1" accident): the bundle monodromy `RL=[[2,1],[1,1]]` has **trace 3**,
+  `det +1`, `disc 9−4=5`; the homological monodromy `M_1=[[1,1],[1,0]]` has trace 1, `det −1`, `disc 1+4=5` — both
+  `→ ℚ(√5) → E₈`.
+- **The only two imaginary quadratic trace fields a unimodular element can have are `ℚ(i)` and `ℚ(√−3)`:** `disc<0`
+  forces `det=+1` and `|t|≤1`, so `disc∈{−4 (t=0→ℚ(i)), −3 (t=±1→ℚ(√−3))}` — a **disc=−4 floor**. The figure-eight's
+  geometry sits at `ℚ(√−3)` (`z=e^{iπ/3}`, `z²−z+1=0`; prime 3 `→ 2T=E₆`); the *only* other point is `ℚ(i)` (prime 2)
+  — exactly the Whitehead/Borromean parent (§ on the `40a1` conductor `2³·5`). The object lands on one of a
+  two-element menu, not on "5 by coincidence."
+
+(The earlier "trace-1, `disc=1−4det`" phrasing was a fragile representative — `RL` is trace 3 — and is superseded by
+this robust unimodular form.)
 
 **The "why-5" verdict — one cascade plus one coincidence (not a pile-up) `[banked B233]`.** Eight of eight `5`-faces
 cascade from the single root `n=m²+4=5` (the field `ℚ(√5)`). The *only* genuinely independent fact is that
@@ -78,9 +87,11 @@ The **field-vs-group** distinction is the table's discipline: `m=1` is the only 
 
 **E₇ is excluded, and overdetermined `[banked B234]`.** Three independent obstructions each forbid `E₇=2O`:
 1. **Group-order (Diophantine):** `|2O|=48 ≠ p(p²−1)`, so `2O` is never a congruence quotient `SL(2,F_p)`.
-2. **Representation-theoretic:** `E₇`'s `56` is real (non-chiral) **[literature]**.
-3. **Field-congruence:** `2O`'s character field `ℚ(√2)` has `disc 8 ≡ 0 (mod 4)`, but the object (trace-1) reaches
-   only `disc ≡ 1 (mod 4)` (§3), so `ℚ(√2)` is unreachable.
+2. **Representation-theoretic:** `E₇` has **no complex representations** (`w₀=−1` ⟹ every irrep self-dual; the `56`
+   is **pseudoreal**, FS `−1`, symplectic — Sage-verified), so it gives no chiral matter **[literature + B234]**.
+3. **Trace-parity:** `2O`'s character field `ℚ(√2)` has `disc 8 ≡ 0 (mod 4)`, requiring **even** trace (`t=±2`,
+   `det −1` = silver `M_2`); the object's elements are **odd-trace** (`disc ≡ 1 mod 4`), so `ℚ(√2)` lives at
+   silver/even-`m`, not here (§3).
 These are distinct objects (a group order, a representation, a field discriminant) — not one wall seen three ways.
 **Computational confirmation `[banked B237]`:** GAP `GQuotients` finds π₁(silver bundle) carries **no `2O`
 quotient** (the `ℚ(√2)` match is field-only); the binary-polyhedral quotient structure is manifold-specific
@@ -93,12 +104,14 @@ alternative coset realization `(E₇)₁⊕(E₇)₁/(E₇)₂` (c=7/10, verifie
 arithmetic. This is a different role for `E₇` (coset algebra vs binary-polyhedral group) and does **not** contradict
 the exclusion — a worthwhile honest caveat.
 
-**The field ladder closes `[banked B235]`.** The trace-1 ladder's discriminant `1−4det` is realized only at the two
-unit determinants (`det=+1→−3`, `det=−1→+5`). The next imaginary rung `ℚ(√−7)` (`det=2`) needs a non-unimodular
-element the object does not have; and computationally (SnapPy) every cover of the figure-eight up to degree 6 keeps
-the invariant trace field `ℚ(√−3)` (`4₁` is **arithmetic**, Bianchi `PSL(2,O₃)`). So the object's arithmetic is
-*closed* on `{ℚ(√5), ℚ(√−3)}` — exactly the two unit determinants — with a reason (unimodularity + arithmeticity),
-not an accident.
+**The imaginary field ladder closes `[banked B239/B235]`.** A unimodular element has `disc=t²−4·det`, so an
+*imaginary* quadratic trace field requires `det=+1`, `|t|≤1` — a **`disc=−4` floor** giving exactly `{ℚ(i)`
+(`t=0`), `ℚ(√−3)` (`t=±1`)`}`. `ℚ(√−7)` (`disc −7`) is **below the floor** — unreachable by *any* unimodular element
+(no `det=2` needed as an excuse). Computationally (SnapPy), every cover of the figure-eight up to degree 6 keeps the
+invariant trace field `ℚ(√−3)` (`4₁` is **arithmetic**, Bianchi `PSL(2,O₃)`). So the object's imaginary arithmetic
+is *closed* on a two-element menu, and it sits at `ℚ(√−3)` — the other point being `ℚ(i)`, the Whitehead/Borromean
+parent (the `40a1` conductor's 2-part). With the real field `ℚ(√5)` (robust, §3), the dual McKay `E₆+E₈` exhausts
+the object's quadratic fields.
 
 **The dimensional firewall `[banked K018; B151]`.** No invariant of the object carries a scale: the complex
 volume / Chern–Simons class is a dimensionless element of `ℂ/4π²ℤ`; all scale lives in the external quantization
