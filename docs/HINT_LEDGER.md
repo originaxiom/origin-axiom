@@ -72,7 +72,10 @@ general level-rank equality — figure-eight-specific.
 
 **Follow-up resolutions (`B236`/`B237`, 2026-06-27, SnapPy+GAP):** **H21 CLOSED** — the coset-coincidence
 mechanism verified (Lashkevich/GKO/Qiu refs; `M(4,5)≡SM_1` the same coset, unique; E₇-in-TCI bonus), clearing the
-paper's originality gate. **H33 RESOLVED** — silver carries **no `2O`** (GQuotients=0, field-only coincidence); and
+paper's originality gate. **(Lit-gate read done, NOVELTY_AUDIT R6):** the mechanism is **PARTIALLY-KNOWN** — the
+uniqueness *fact* is standard (FQS 1985 / Qiu 1986); the two cosets appear separately; Lashkevich (read in full)
+does *not* state the same-coset observation — so "modest organizing observation, not a theorem" is supported. Cite
+FQS/Qiu directly (chat1's hep-th/0311129 was misattributed). **H33 RESOLVED** — silver carries **no `2O`** (GQuotients=0, field-only coincidence); and
 chat1's "all metallic bundles carry 2T,2I" is **corrected** to manifold-specific (golden→2T, silver→S₄, bronze→2T+2I;
 2O absent throughout).
 

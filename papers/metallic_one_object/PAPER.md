@@ -70,11 +70,16 @@ metallic chain at index `m` flows to `M(m²+3, m²+4)` with GKO denominator `SU(
 > **Theorem (selection).** Among the metallic anyon chains `{RᵐLᵐ}_{m≥1}`, the golden case `m=1` is the unique one
 > that is `N=1` superconformal — because `m²+2=3 ⟺ m=1`. **[banked B224/B228/B236]**
 
-The uniqueness *fact* (that the tricritical Ising model is the unique CFT that is both an ordinary and a
-superconformal minimal model) is due to Qiu [lit: 1986]; the two coset formulas appear separately in the
-literature. The observation that the coincidence *is* the two cosets being the same coset at `SU(2)₃` we offer as a
-**modest organizing proposition** (its presence/absence in the literature is the one item still
-[NEEDS-SPECIALIST] — a by-hand read of Qiu 1986 / Lashkevich 1993; §6).
+The uniqueness *fact* (that the tricritical Ising model is the unique minimal model that is both ordinary-conformal
+and superconformal) is standard, traceable to Friedan–Qiu–Shenker [lit: 1985] and Qiu [lit: 1986] — a corollary of
+the ordinary series `c=1−6/(q(q+1))` and the super series `c=(3/2)(1−8/(p(p+2)))` overlapping only at `c=7/10`. The
+two coset formulas appear **separately** in the literature (ordinary: GKO 1986, Lässig 1991; super: Lashkevich
+1993). We offer the observation that the coincidence *is* the two cosets being the **same coset** at `SU(2)₃` as a
+**modest organizing proposition** — and we have checked it (a by-hand read, §6): Lashkevich's super-coset paper
+makes no reference to the ordinary GKO coset, no comparison, and no tricritical-Ising discussion (its own "unusual"
+decomposition is the *different* `SM_k∼(M_k×M_{k+1})/M_1`); we found the same-coset statement nowhere. It is
+plausibly unstated, though near-obvious once both cosets are written — so we claim it only as organizing, not as a
+theorem.
 
 ### 3.2 The arithmetic backbone: a unimodular trace-field law
 
@@ -205,9 +210,13 @@ claim; nothing crosses to scale.
 | a 4-manifold from the figure-eight's flat connections? | Slavich's hyperbolic 4-manifold bounded by `4₁` × the `SL(2,ℂ)` CS / 4-simplex constructions on `40a1` | **[open — mathematics, NEEDS-SPECIALIST]** left to specialists; no scale is asserted. |
 | does any external framework feature the object's *specific* structures? | the specificity filter (§4) vs heterotic / F-theory / NCG / moonshine | **[banked]** every overlap is a structural rhyme; the firewall holds (`S041`). The one object-specific moonshine fact: the dual McKay `E₈+E₆` selects Monster + Fischer, excludes the Baby Monster. |
 
-**The one true gate.** §3.1's "modest original proposition" (the coset *mechanism* as a stated result) needs the
-Qiu 1986 / Lashkevich 1993 by-hand read; the mechanism itself is computationally closed (B236). Everything else
-above is verified and banked.
+**The literature gate (now read).** §3.1's "modest organizing proposition" was the one item needing a by-hand
+read. Done: the uniqueness *fact* is standard (FQS 1985 / Qiu 1986); the two cosets appear separately; and the
+load-bearing paper (Lashkevich 1993, read in full) makes no reference to the ordinary GKO coset and no TCI
+discussion. The same-coset observation is found stated nowhere — plausibly unstated but near-obvious — so it is
+offered as organizing, not as a theorem (and the misattributed "Qiu via hep-th/0311129" citation is corrected to
+FQS 1985 / Qiu 1986 directly). The mechanism itself is computationally closed (B236). **No open gate remains**;
+everything above is verified and banked.
 
 ## References (by role; standard in the area)
 Maclachlan–Reid, Reid (figure-eight arithmetic / unique arithmetic knot); Cantat 2009, Goldman, Fricke–Vogt
