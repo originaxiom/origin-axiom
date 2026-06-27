@@ -97,5 +97,17 @@ chat1's "all metallic bundles carry 2T,2I" is **corrected** to manifold-specific
 | H33 | **lead:** does the silver bundle (m=2) actually carry a `2O` quotient of its π₁, or is `ℚ(√2)` only a field coincidence? (chat1 lead 2 / chat2) | QUESTION | 2026-06-27 | **CHECKED** | **RESOLVED (B237)** | **NO 2O** (GAP GQuotients=0): `ℚ(√2)` is a field-only coincidence. Also **corrects chat1**: the binary-polyhedral structure is manifold-specific (golden→2T, silver→S₄ [not binary 2O], bronze→2T+2I), NOT "all carry 2T,2I"; **2O absent from all three**. |
 | H34 | **lead:** `SU(3)₂` WRT of the figure-eight vs `SU(2)₃` (level-rank, B204); + assemble the full metallic table m=1..6 (model, SUSY, McKay, Seifert dual, \|H₁\|) (chat1 leads 1,3) | QUESTION | 2026-06-27 | NOTICED | needs-snappy/compute | candidate OPEN_LEADS |
 
+## Physics-hunt handoff (2026-06-27, firewalled; verify-don't-trust adjudication of chat1 vs chat2)
+
+A chat1 physics hunt (figure-eight → SM gauge groups / SUSY / generations) + a chat2 critique. All
+**firewalled** (`speculations/`-tier; nothing to `CLAIMS.md`); the verdicts below are my independent
+re-computation.
+
+| H# | hint | type | noticed | state | flags | disposition |
+|---|---|---|---|---|---|---|
+| H35 | **golden integrality of the colored Jones** — `[N]·J_N(4₁;e^{2πi/5})={1,−2,−2,1}` (`φ` cancels `1/φ`; mechanism `sin(π/5)sin(3π/5)=√5/4`) | MATH | 2026-06-27 | **CHECKED** | **VERIFIED → B240** | re-computed: golden-specific (other roots fail) + figure-eight(amphicheiral)-specific (chiral → complex). The genuine keeper; both chats agree. `Z=−χ(Slavich)` is HELD/unverified. Firewall-clean. |
+| H36 | **amphicheirality = the E₆ outer automorphism** — conjugation on `2T`'s irreps = the finite-E₆ Dynkin automorphism | MATH | 2026-06-27 | **CHECKED** | **VERIFIED (math), NOT a physics bridge** | **adjudicates the chat1/chat2 hinge:** I computed the McKay quiver of `2T` (= affine `Ẽ₆`), removed the fixed trivial/affine node, and confirmed conjugation **is** a nontrivial graph automorphism of the finite `E₆` diagram. So chat1 is **substantively right** (standard McKay/Galois), chat2 right only that the *script asserted* it. But it is a clean rep-theory fact, **not** a derivation of physics. |
+| H37 | the SM-emergence chain (`E₆` embedding → `SU(3)×SU(2)×U(1)`; twisted class-S → N=1; `A₄/V₄→3` generations) | HOOK | 2026-06-27 | **CHECKED** | **FIREWALLED / DEFLATED** | chat2's deflations **confirmed**: "SUSY-breaking CLOSED" and "3 generations forced" do **not** hold — `z²=ω₃` is shared by *all* regular-ideal-tetrahedra manifolds (not object-specific), the generation count is `\|χ\|/2=1` not 3 (the `χ=6` step is reverse-engineered), and the 4d lift is uncomputed. The `(E₆)₁⊃SU(3)₂×(G₂)₁` central charges are exact (rep-theory), but the *gauge-group identification* is a rhyme. **Scale: provably external** (Buckingham-Pi — chat2, sound). HELD; nothing crosses. |
+
 ## Tombstoned hints
 *(none yet — killed hints route here with a `residual-hint:` field, per anti-blindness rule 4.)*
