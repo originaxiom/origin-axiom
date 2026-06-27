@@ -3,12 +3,26 @@
 **A synthesis / map.** Dritëro M. (with AI-assisted computation). 2026-06-24.
 
 This note assembles, into **one object seen through four lenses**, results that are individually known —
-each to a different community — but whose **unified dictionary is not written down in any single place**. It
-claims **no new theorem**: every face below is either banked in this repo (with its `B#`/`V#`) or owned by the
-cited literature. The contribution is the **map** — the explicit cross-face dictionary in which one number,
-the metallic mean $\lambda_m$, and one dynamical system, the $\mathrm{SL}(2,\mathbb{Z})$ trace map, wear four
-costumes. Standalone mathematics; **no physics; nothing to `CLAIMS.md`; the program's physics aims are
-firewalled and not invoked** (§6).
+each to a different community. It claims **no new theorem**: every face below is either banked in this repo
+(with its `B#`/`V#`) or owned by the cited literature.
+
+**Prior-art credit (novelty audit `../../docs/NOVELTY_AUDIT.md` R5, 2026-06-27).** Three of the four faces are
+**already unified in one reference**: **Cantat, *Bers and Hénon, Painlevé and Schrödinger* (Duke Math. J. 149
+(2009), arXiv:0711.1727)** ties together Face I (the $\mathrm{GL}(2,\mathbb{Z})=\mathrm{Out}(F_2)$ trace map on
+the character variety), Face II (the dynamical degree / spectral radius), and Face III (the Schrödinger /
+quasicrystal spectral theory) — displayed for the golden $m=1$ case. The metallic spectral face beyond golden is
+established too (silver $m=2$: De Simone–Marin, arXiv:0905.3082; the Fibonacci trace map: Damanik–Gorodetski,
+arXiv:0806.0645). So this note's genuine contribution is **narrower and stated honestly**: (i) bringing in **Face
+IV** (the WRT / skein / DAHA quantization — published only in isolation: Jeffrey 1992; Andersen–Jørgensen,
+arXiv:1206.2552) alongside Cantat's three; (ii) **indexing the whole dictionary across the full metallic family**
+$\lambda_m$ (not only $m=1$); and (iii) the **arithmetic capstone** (§9: the elliptic curve `40a1`, the dual McKay
+$E_8{+}E_6$). The four-face dictionary is therefore **PARTIALLY-KNOWN** (Cantat is the three-face precedent), not
+a wholly new synthesis.
+
+The contribution is the **map** — the explicit cross-face dictionary in which one number, the metallic mean
+$\lambda_m$, and one dynamical system, the $\mathrm{SL}(2,\mathbb{Z})$ trace map, wear four costumes. Standalone
+mathematics; **no physics; nothing to `CLAIMS.md`; the program's physics aims are firewalled and not invoked**
+(§6).
 
 ## 0. Status labels
 - **[banked B#/V#]** — established + verified in this repo at the cited stage.
