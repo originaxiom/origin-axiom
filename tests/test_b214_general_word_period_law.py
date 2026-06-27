@@ -5,13 +5,19 @@ Load-bearing locks (the FORMULA and the refinement, NOT the identical-trace exam
  - the conductor-split: at conductor f>1 the period splits (lcm/d, d|f); at f=1 it does not.
  - the deflation: M1~M2 conjugate but M0 not -> |Z|-equality is Funar, not conjugacy/'interaction'.
 """
-import os
-import sys
+import importlib.util
+import pathlib
 from math import gcd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "frontier", "B214_general_word_period_law"))
-from period_law import (gmat, det_moduli, lcm, lcm_law, conductor,  # noqa: E402
-                        period, conjugate)
+# load THIS probe's period_law.py by explicit path under a unique module name -- B204 ships a
+# same-named period_law.py, and a sys.path-based `import period_law` collides in a full-suite run.
+_PL = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B214_general_word_period_law" / "period_law.py"
+_spec = importlib.util.spec_from_file_location("period_law_b214", _PL)
+period_law = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(period_law)
+gmat, det_moduli, lcm, lcm_law, conductor, period, conjugate = (
+    period_law.gmat, period_law.det_moduli, period_law.lcm, period_law.lcm_law,
+    period_law.conductor, period_law.period, period_law.conjugate)
 
 
 def test_general_word_period_law_principal_class():
@@ -46,7 +52,7 @@ def test_deflation_funar_not_conjugacy():
 
 def test_funar_same_Z_different_class():
     # M0 (different class from M1) nonetheless has identical |Z| at several levels -> Funar
-    from period_law import Zabs
+    Zabs = period_law.Zabs
     M0w, M1w = [(1, 1), (2, 2)], [(1, 2), (2, 1)]
     assert not conjugate(gmat(M0w), gmat(M1w))           # non-conjugate ...
     for k in (8, 12, 17, 23):

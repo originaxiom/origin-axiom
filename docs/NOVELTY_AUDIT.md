@@ -122,6 +122,59 @@ real closer). The CRT/F_p method is a **KNOWN technique**; the n≥5 mechanism i
 
 ---
 
+## R5 — the three post-B230 headlines (dual McKay / four faces / emergent-SUSY uniqueness) — 2026-06-27
+
+A fresh adversarial deep-research pass (fan-out search → fetch primary sources → 3-vote verification) on the three
+headline results of the metallic-object arc. **Method caveat (binding):** the NOVEL/PARTIAL verdicts rest on
+*absence of a found prior-art match*, not a proof of originality — strictly weaker than the (high-confidence)
+positive *background* findings, hence **medium** confidence; a specialist could know unpublished or differently-indexed
+prior art.
+
+### R5a — the dual McKay selection (B210) — **APPEARS-NOVEL / NEEDS-SPECIALIST**
+- **Background, all KNOWN (3-0):** the McKay/Arnold trinity `2T/2O/2I ↔ E₆/E₇/E₈` is standard (Dechant, arXiv:1603.04805;
+  Arnold, *Symplectization… mathematical trinities* 1999); the figure-eight invariant trace field `ℚ(√−3)` (two regular
+  ideal tetrahedra) is standard (Fominykh et al., arXiv:1502.00383); and the **two-field structure** (real monodromy
+  field vs totally-imaginary invariant trace field) is documented for *every* hyperbolic once-punctured-torus bundle
+  (Calegari, arXiv:math/0510416).
+- **The new assembly:** no source packages these into the **dual McKay selection** — monodromy field `ℚ(√5)→SL(2,F₅)=2I=E₈`
+  **and** trace field `ℚ(√−3)→SL(2,F₃)=2T=E₆`, with `2O=E₇` **excluded** — tied to the Arnold trinity, for the
+  figure-eight or any cusped manifold. **Verdict APPEARS-NOVEL / NEEDS-SPECIALIST** (Bianchi-group / arithmetic-groups
+  specialist; the E₇-exclusion robustness across the metallic family is the open close).
+
+### R5b — the four-faces dictionary — **PARTIALLY-KNOWN** (the important correction)
+- **Cantat (2009, arXiv:0711.1727) already unifies THREE of the four faces in one paper** — Face I (the
+  `GL(2,ℤ)=Out(F₂)` trace map on the character variety), Face II (dynamical degree / spectral radius), and Face III
+  (Schrödinger / quasicrystal spectral theory). The metallic spectral face is established beyond golden (silver `m=2`:
+  De Simone–Marin, arXiv:0905.3082; the Fibonacci trace-map: Damanik–Gorodetski, arXiv:0806.0645). The WRT face is
+  published but **isolated** (Jeffrey 1992; Andersen–Jørgensen, arXiv:1206.2552).
+- **The new assembly:** bringing in **Face IV** (WRT/skein/DAHA) alongside the other three, **and** indexing the whole
+  dictionary across the **full metallic family `λ_m`** (Cantat displays it for golden `m=1`; the all-`m` extension of
+  I–III is inferred, not displayed in one source), plus the arithmetic capstone (40a1, dual McKay). **Verdict
+  PARTIALLY-KNOWN** — our four-faces note must (and now does) **credit Cantat 2009 as the three-face precedent**; the
+  contribution is the +Face-IV union, the metallic-family indexing, and the arithmetic capstone. *Scope note:* the WRT
+  sources treat **closed** torus bundles (`|Tr|>2`) while the metallic objects are **cusped** OPT bundles — consistent
+  with our own period(closed)/volume(cusped) split (B217).
+
+### R5c — emergent-SUSY uniqueness (B224/B228) — **APPEARS-NOVEL / NEEDS-SPECIALIST**
+- **Background, KNOWN (3-0):** the golden/Fibonacci `SU(2)₃` AFM chain → tricritical Ising `c=7/10` (Feiguin et al.,
+  arXiv:cond-mat/0612341); both the ordinary GKO coset and the `N=1` super coset are standard. A published *"unusual
+  coset construction"* relates super and ordinary cosets — **but the specific route `SM_k~(M_k×M_{k+1})/M_1 → SM_1~M_2=TCI`
+  was REFUTED** in verification (so do not rely on that derivation).
+- **The new assembly:** the **uniqueness** statement — TCI/`SU(2)₃` is the *sole* coincidence of an ordinary and an `N=1`
+  super minimal-model coset, making golden the unique metallic (`k=m²+2`) `N=1` superconformal chain — was **not found
+  stated anywhere**. **Verdict APPEARS-NOVEL / NEEDS-SPECIALIST**; the clean close is a direct central-charge proof
+  (`1−6/((k+2)(k+3))` vs `3/2−12/((p+2)(p+4))` + primary-field matching) — B224/B228 essentially do this, so this is the
+  strongest-supported of the three (a CFT specialist confirms no prior statement).
+
+**Net (R5):** the *pieces* are all prior art (the null hypothesis holds for the ingredients — McKay trinity, the trace
+fields, Cantat's three-face unification, the Fibonacci→TCI flow, the GKO cosets), but the three *specific assemblies*
+clear the "no specific match found" burden — two APPEARS-NOVEL/NEEDS-SPECIALIST (dual McKay; SUSY-uniqueness) and one
+PARTIALLY-KNOWN (four faces, with Cantat 2009 the precedent now credited). All medium-confidence (absence-of-evidence).
+Honest going-forward: **cite Dechant/Arnold, Fominykh, Calegari, Cantat 2009, De Simone–Marin, Jeffrey,
+Andersen–Jørgensen, Feiguin et al.**; reserve novelty for the three assemblies, each pending a specialist close.
+
+---
+
 ## Net assessment
 
 Of R1–R3, two are **known** (R2 Kitano–Nozaki; R3 standard quantum topology) and one is **partially novel** with the

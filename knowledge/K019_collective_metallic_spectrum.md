@@ -82,7 +82,7 @@ golden-privilege theorem (why φ uniquely stands alone); SL(n) higher-rank (B166
 that preserves the Fibonacci two-letter Sturmian alphabet** — the paired potential `V_n+V_{n+d}` at d=1 (NN) has 2
 values but subword complexity `p(4)=6>5` (not Sturmian), and d=2 (NNN) has 3 values; only d=0 leaves the composite
 seeing the same site sequence (any d≥1 sees *pairs*, whose correlations the substitution does not control). A verified
-chat1-handoff increment; honest scope = it preserves the *alphabet/complexity* (a proxy for "metallic-preserving"),
+cross-session handoff increment; honest scope = it preserves the *alphabet/complexity* (a proxy for "metallic-preserving"),
 the full spectral consequence being a further step. *(The same handoff's "U=t doublon = single-particle replica" was
 REFUTED — a strong-coupling formula used out of regime; see B200.)*
 
