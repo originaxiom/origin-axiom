@@ -7,8 +7,14 @@ cross-product alpha_1*alpha_2 escapes the module) and only MULTIPLIES the per-un
 Full version in symmetry_gauge.py.
 """
 import numpy as np
+import pytest
 from mpmath import mp, mpf, sqrt, pslq, log
-mp.dps = 50
+
+
+@pytest.fixture(autouse=True)
+def _mp_dps():
+    """set precision per-test (not at module level) so collection order can't leak a lower global dps."""
+    mp.dps = 50
 
 
 def _lam(m):   return (m + sqrt(m * m + 4)) / 2

@@ -133,6 +133,22 @@ The bigger open *prizes/threads* (distinct from the per-lead catalog above), wit
 | **K011 GHH-iff** | optional/pending | promote the Goodman–Heard–Hodgson "iff" from K011's parenthetical to a status line (the chirality recursion's load-bearing dependency). |
 | **Genus-2 CS numeric** (B140 soft spot) | optional, low priority | retriangulate + re-run the genus-2 twister `complex_volume` (it returned None); the orientation-reversal theorem is the load-bearing content. |
 
+## Specialist hand-off register (terminal NEEDS-SPECIALIST — in-sandbox computation exhausted)
+
+The items below are at genuine specialist walls: the in-sandbox computation has been pushed to exhaustion and
+the residue needs dedicated/external work (a CAS the sandbox lacks, a rigorous proof, or an expert read), not
+more rushing. Cleanly parked here for the paper / specialist phase, each with what is actually needed.
+
+| item | the in-sandbox terminus | what a specialist needs |
+|---|---|---|
+| **ρ_n catalog — the all-`n` tower** | reduced to the one-step stabilization `ρ_n ≅ ρ_{n−1} ⊕ Sym^n(V) ⊕ Sym^{n−3}(V)` (B232; verified n≤5, extended n=8). The CH-derivation of the lag-3 `Sym^{n−3}` was attempted and does **not** close in-sandbox (B85 Procesi wall). | the **Procesi trace-ring `σ` construction** for SL(n) two-matrix invariants — prove the stabilization lemma (the lag-3 term as the degree-`n` Cayley–Hamilton cokernel). |
+| **L22 — SL(5) exact-symbolic exponent `k`** | the closed form is refuted (B199); only the exact-symbolic `k=2` at SL(5) remains. | a **Gröbner/F4/FGLM engine that finishes the first degrevlex GB at 25 vars** over `ℚ(ζ₅)`/`F_p` (Magma / msolve) — the sandbox's Singular stalls past 600s; + a from-first-principles metallic A-polynomial (B67→B89 at `φ_m`, n=5). |
+| **L5/L6 — general-word (non-metallic) sealing** | metallic sealing verified at SL(3) (B129/B137); the general SL(3) search is intricate off-sublocus numerics + SnapPy-gated trace fields. | **careful dedicated work** (per the B192-refutation caution — not a rushed scan): the B137 off-sublocus method on a curated non-metallic word set with the MB7 reducible-locus guard. |
+| **L20 / L19-3a / L23a — off-axis & higher-rank spectral, silver SL(3) A-poly** | characterized (B166/B163/B186/B202) but with **no ground truth** off the SL(2)-Sturmian axis. | a **rigorous non-Hermitian / higher-rank spectral theory** (a non-Hermitian Damanik–Gorodetski; the Falbel-size silver SL(3) A-polynomial). |
+
+*(The firewalled physics-adjacent HELD items — Kodama `k=3`, the framework crossings — are not "specialist
+math" but firewall-closed; see `../speculations/S041`. They are not on this register.)*
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the

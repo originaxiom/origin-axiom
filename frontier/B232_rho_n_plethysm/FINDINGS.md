@@ -46,8 +46,14 @@ This is genuine progress on the hard prize:
 **The residual open lemma (stated):** prove the *actual* trace-map Jacobian gains exactly `Sym^n(V) ⊕ Sym^{n−3}(V)`
 at each step — the `+Sym^n` is the new top trace word (plausibly direct); the `+Sym^{n−3}` lag-3 is governed by the
 degree-`n` Cayley–Hamilton relation (`dim W = 3`). This is the lone remaining input, now a clean local statement
-rather than the full catalog. NEEDS-SPECIALIST only *after* this local lemma resists in-sandbox attack (not yet
-exhausted — the next concrete try is the Cayley–Hamilton derivation of the lag-3 term).
+rather than the full catalog. NEEDS-SPECIALIST only *after* this local lemma resists in-sandbox attack.
+
+**Update — the in-sandbox attempt is now made (exhausted).** The Cayley–Hamilton derivation of the lag-3
+`Sym^{n−3}` term was attempted symbolically: the increment character identity re-confirms, but a clean CH-only
+derivation does **not** close — it requires the Procesi trace-ring `σ` structure (the `B85` wall). So the
+stabilization lemma is now **terminal NEEDS-SPECIALIST** (the Procesi construction), recorded in the specialist
+hand-off register (`docs/OPEN_LEADS.md`). The `B232` reduction stands as the furthest in-sandbox result. No
+artifact was forced.
 
 ## Anchors
 B80/B103 (proved n≤4), B62 (structural n=5/6, θ=−w₀ opposition involution), B89-T (the two-sequence form + the

@@ -110,7 +110,11 @@ the all-`n` target is reduced to a *local* induction — the **one-step stabiliz
 ⊕ Sym^{n−3}(V)` (verified on the real Jacobian `n≤5`, extended to `n=8`, and shown to fail for the foreclosed
 cohomological route); the residual lemma is now the single stabilization step (the lag-3 `Sym^{n−3}` from the
 degree-`n` Cayley–Hamilton relation, `dim W=3`), not the whole catalog. A relocation of the wall to a cleaner
-statement, not a closure. It is the **magnitude
+statement, not a closure. **Update (the in-sandbox attempt is now exhausted):** the Cayley–Hamilton derivation
+of the lag-3 term was attempted symbolically — the increment character identity re-confirms, but a clean
+CH-only derivation does **not** close: it requires the Procesi trace-ring structure (the `B85` wall). So the
+stabilization lemma is now **terminal NEEDS-SPECIALIST** (the Procesi `σ` construction); the `B232` reduction
+stands as the furthest in-sandbox result. It is the **magnitude
 layer** (the `Sym` content / eigenvalue magnitudes); the **signs** `char(M^h)` vs `char(−M^h)` are the orthogonal
 `det=−1` layer (B118). The all-`n` formula for `μ_d` remains the central target (B103), behind the wall.
 

@@ -62,7 +62,15 @@ from gauss_proof import (Ztil_direct, Z_orig, Ztil_closed, diag_closed,  # noqa:
                          cross_closed, G_a, sub_period, lcm as glcm,
                          v2, cross_support_gcd, cross_period_exact, cross_period_closed)
 from math import gcd  # noqa: E402
-mp.mp.dps = 25
+import pytest  # noqa: E402
+
+
+@pytest.fixture(autouse=True)
+def _mp_dps():
+    """set precision per-test (not at module level): the module-level set ran during collection and, being
+    last alphabetically among the mp.dps setters, leaked dps=25 globally -> starved the higher-precision
+    pslq tests (b173/b182/b184/b196). Per-test setting is order-independent."""
+    mp.mp.dps = 25
 
 
 def test_proof_full_range_and_winding():
