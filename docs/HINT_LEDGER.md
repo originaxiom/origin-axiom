@@ -32,8 +32,8 @@ a cheap CHECK may only set a diagnostic flag (`generic?`/`vacuous?`/`non-reprodu
 | H8 | **heterotic** standard embedding `E₈ → SU(3)×E₆` **skips E₇** in the chiral/N=1 case — the *same exclusion pattern as B210* | HOOK | 2026-06-27 | NOTICED | chat1-verified-lit | see H14 |
 | H9 | **level-rank duality** `SU(2)₃ ↔ SU(3)₂` at `q=e^{2πi/5}`, through `(G₂)₁` and `(F₄)₁`; the Fibonacci anyon `= (G₂)₁`. Not an iso (4 vs 6 irreps) — a modular-data duality | HOOK | 2026-06-27 | NOTICED | chat1-verified-lit | — |
 | H10 | **S041 correction:** "NCG: no shared data" is wrong. Connes' `ℂ⊕ℍ⊕M₃(ℂ)` encodes primes `{2,3}`; ours `{2,3,5}`; overlap `{2,3}`, golden prime 5 absent — a *partial* rhyme | ANOMALY | 2026-06-27 | CHECKED | corrected | corrected S041 (an unearned-negative caught — rule 7) |
-| H11 | the **Kodama state** = `SU(2)` Chern–Simons at `k ~ 6/(GΛ)`; at what Λ does `k=3`? | QUESTION | 2026-06-27 | NOTICED | **FIREWALL/HELD** | any Λ output is value-matching (S014 dead); honest prior: `k=3 → Planck-scale Λ`, far from the observed tiny one ⇒ firewall-confirming, not a crossing |
-| H12 | does `c=7/10` (our TCI) appear in **Conway super-moonshine** (the N=1 SCFT module via the Leech lattice)? | QUESTION | 2026-06-27 | NOTICED | — | literature-answerable; the deeper L46 scout; see H12 |
+| H11 | the **Kodama state** = `SU(2)` Chern–Simons at `k ~ 6/(GΛ)`; at what Λ does `k=3`? | QUESTION | 2026-06-27 | **CHECKED** | **FIREWALL/HELD; computed** | **COMPUTED (k=6π/GΛ): k=3 ⇒ Λ≈2π/l_P²≈2.4×10⁷⁰ m⁻² (Planck scale, ≈6.28 Planck units); the observed Λ needs k≈6.5×10¹²² (no object structure).** Clean *quantitative* negative — the CC-problem's 122 orders = the gap between the object's natural level k=3 (UV) and k→∞ (IR). Firewall *relocated to k*, not crossed (K018). Run, not prejudged. → S041 |
+| H12 | does `c=7/10` (our TCI) appear in **Conway super-moonshine** (the N=1 SCFT module via the Leech lattice)? | QUESTION | 2026-06-27 | **CHECKED** | partial | **As a c=7/10 *building block*: NOT established** (at most an open bilinear-character-relation direction, 2003.13700). **But the Fibonacci fusion category** (golden/SU(2)₃, B218) **appears as topological defect lines in the Conway SCFT** (Angius et al. 2512.19640, Dec 2025) — the object's golden data touches Conway moonshine as a non-invertible *symmetry*, not a sub-VOA. → H19 |
 
 ## QUESTION-pass additions (first cycle, 2026-06-27)
 
@@ -45,6 +45,12 @@ a cheap CHECK may only set a diagnostic flag (`generic?`/`vacuous?`/`non-reprodu
 | H16 | is `\|H₁\| ≡ 3 (mod 4)` (H1) tied to `40a1`'s reduction / the character-variety arithmetic (the conductor `2³·5`)? | QUESTION | 2026-06-27 | NOTICED | — | arithmetic-geometry scout |
 | H17 | **why** does `5 = m²+4` at `m=1` govern golden across *every* face (period, anyon level, SUSY coset, conductor) — one reason or a pile-up of coincidences? | QUESTION | 2026-06-27 | NOTICED | — | the deepest "why golden" question |
 | H18 | **(standing physics-parallels prompt)** which of our verified results have known parallels in physics frameworks we haven't examined? (re-run every WIDEN) | QUESTION | 2026-06-27 | NOTICED | standing | spawns per-result sub-scouts; keeps L46/S041 live |
+
+## Compute-cycle additions (2026-06-27)
+
+| H# | hint | type | noticed | state | flags | disposition |
+|---|---|---|---|---|---|---|
+| H19 | the **Fibonacci fusion category appears as topological defect lines (non-invertible symmetry) in the Conway SCFT** (Angius et al. arXiv:2512.19640, Dec 2025) — the object's golden/Fibonacci anyon data (B218, SU(2)₃) connects to **Conway moonshine** as a symmetry, *not* as a c=7/10 sub-VOA | HOOK | 2026-06-27 | NOTICED | from H12 | candidate → `OPEN_LEADS` (a Conway↔Fibonacci scout): does the paper's Fibonacci TDL F-/R-symbol data match the object's specific SU(2)₃ data? firewalled — a category-theory rhyme, not a physics crossing |
 
 ## Tombstoned hints
 *(none yet — killed hints route here with a `residual-hint:` field, per anti-blindness rule 4.)*
