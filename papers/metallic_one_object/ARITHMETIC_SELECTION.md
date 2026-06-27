@@ -123,6 +123,12 @@ category) — the last is a rhyme and is demoted on sight. The exceptional-group
 `(G₂)₁`, E₆, E₈; E₇ excluded; **F₄ retracted** — no `SU(3)_k ⊂ (F₄)₁` conformal embedding, `c(SU(3)_k)≠26/5`)
 `[B235]`.
 
+**A quantum-topology instance of the same `5` `[banked B238]`.** Under level-rank duality `SU(2)₃ ↔ SU(3)₂` (shared
+`κ=k+N=5`, the golden cyclotomic; `c`-sum `=5=c(SU(6)₁)`), the closed figure-eight-bundle WRT invariant **coincides**
+`Z(4₁;SU(2)₃)=Z(4₁;SU(3)₂)=−1/φ` — but **only** at the figure-eight: silver (`RRLL`) and bronze (`RRRLLL`) give
+*different* SU(2)/SU(3) traces. So the level-rank coincidence is itself **golden-specific**, again rooted in the
+shared `κ=5` — one more entry in the "`5`" table, on the quantum face.
+
 **The coset-coincidence mechanism — references found, verified `[banked B236]`.** The ordinary GKO coset
 `M(m,m+1)=(SU(2)_{m-2}×SU(2)_1)/SU(2)_{m-1}` and the super coset `SM_k=(SU(2)_k×SU(2)_2)/SU(2)_{k+2}` (Lashkevich,
 hep-th/9301093) **coincide as the same coset `(SU(2)_1×SU(2)_2)/SU(2)_3` uniquely at the TCI** — verified by central
