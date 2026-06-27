@@ -24,8 +24,9 @@ framing is locked to the V4 / Reality-Check line.
 > (33 passed, 1 optional skip), all ten initial P-claims locked. Tagged
 > `phaseA-foundation-freeze`. Later exact-algebra integrations promoted P11-P13
 > and P15-P16. The `P1–P16` core remains locked and untouched; the **full repo
-> suite** (core + the frontier `B`-probe locks) is **488 passed, 4 skipped**
-> as of the closure refresh (B151).
+> suite** (core + the frontier `B`-probe locks) now spans **770 test functions across
+> 208 files** as of the B230 refresh (the proven core is unchanged; all growth is
+> frontier `B`-probe locks).
 
 **Scope:** lock every `proven` claim (currently P1-P16, with P14 unused) behind
 an automated test, in a clean Python package. Reproduce — not inflate — the
@@ -73,6 +74,8 @@ observation.
 | B80–B106 | Prove the tower; classify the fixed points; geometry/physics audit? | `M⁴=L` symbolic-exact (B89); tower exact `n≤4` (B80); `char(ρ_n)` a **class function** (B103); three fixed-point classes (B106); Riemannian (not Lorentzian) signature, physics chapter **CLOSED** (B96/B101/B107). |
 | B107–B124 | Consolidate the representation; bank the firewalled asides? | The **sign half proved all `n`** (B112); the tower = **`Sym^n(W)`, `W=V⊕1`** the external `det=−1` fundamental (B121/B122); the `(n;trace,det)` determination (B120); `m=1` arithmeticity (B123); reciprocity/time-reversal (B124). The standing prize: a **functorial `Sym(W)→trace-ring`** construction. |
 | B128–B151 | The closing arc: chirality, completeness, the symmetry, and the physics boundary. | **Chirality axis CLOSED** — forced+generic but always self-mirror or mirror-paired ⟹ no preferred handedness; arithmeticity arm refuted outright (B144–B147). **Degree=rank COMPLETE on the irreducible locus** — B89's family is the whole component, `M⁴=L` unconditional (B149). **The unit's symmetry FORCED-identified** with the `N=2*` class-S S-duality mapping-class action (B148/B150, literature-confirmed). **Firewall CONFIRMED** — the complex volume is dimensionless (`ℂ/4π²ℤ`), carries no physical scale (B151). **The physics arc is CLOSED at the firewall** — a real bridge (symmetry) + a confirmed wall (no scale); cosmological-constant question on the far side. A POSTULATED structural reading of the wall: `STRATEGIC_SYNTHESIS.md` §8a. |
+| B152–B217 | The object's faces: arithmetic, geometry, character-variety, dual McKay. | **The four-faces object** — the metallic bundle `RᵐLᵐ` mapped through trace-map / hyperbolic-geometry / character-variety / quantum-topology lenses (`papers/metallic_one_object/SYNTHESIS.md`). The WRT **period law** `P(γ)=lcm(t−2,t+2)/content`, `content=m` (B204/B208/B214/B219, correcting the B216 genus reading); the figure-eight character variety **is the elliptic curve `40a1`** (conductor `2³·5`, non-CM, B211); the **dual McKay** `E₈`(`ℚ(√5)`) + `E₆`(`ℚ(√−3)`), **`E₇` excluded** (B210); a hyperbolicity-divide separating two faces (B217). All firewalled. |
+| B218–B230 | Emergent supersymmetry from golden multiplicity. | The golden Fibonacci-anyon / `SU(2)₃` chain flows to **tricritical Ising `c=7/10` = the first `N=1` superconformal minimal model** (B218–B224), via the *unique* ordinary↔super coset coincidence at `SU(2)₃` (B228); golden is **uniquely SUSY** among metallic chains, robust AFM/FM (B224/B230); explicit metallic/super Seifert duals `S²(m²+4,m²+3,3)` (B227/B229). Emergent, not lattice (B223). All firewalled. The framework search (`speculations/S041`): every external-framework overlap is a **rhyme, no crossing** — firewall holds a 5th time. |
 
 Across Phase B the pattern is consistent: the well-defined content is exact or
 numerically reproducible, but each physical or semantic bridge stalls at an
@@ -80,8 +83,12 @@ inserted dictionary, carrier, coupling, unit, selector, or observable — and th
 **physics arc is now closed at the firewall** (a real symmetry bridge, a confirmed
 scale wall). The remaining open frontier is **mathematics**: the functorial
 `Sym(W)→trace-ring` wall (`ρ_n`; `knowledge/K008`, `story/09`), the `GL(2,ℤ)`
-gluing landscape (H5), and the arithmetic-minimality question (H4). Ledger
-`V1–V140`, probes `B1–B151`.
+gluing landscape (H5), and the arithmetic-minimality question (H4). Since B151 the
+frontier has mapped the **one object through four faces** (B152–B230): the elliptic
+curve `40a1`, the dual McKay `E₈`+`E₆`, and an emergent `N=1` superconformal
+(`c=7/10`) symmetry — every cross-face link a verified *rhyme* at the Betti /
+rep-theory / dimensionless level, the firewall reconfirmed throughout. Ledger
+`V1–V234`, probes `B1–B230`.
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3
