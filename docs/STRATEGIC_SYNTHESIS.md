@@ -240,3 +240,28 @@ N=2\* S-duality identification, primary-source-checkable in an afternoon) is the
 that single contact. This note records the convergence and the gap; it is not itself a claim, and not a
 substitute for review. Full disposition of the two sessions + the audit:
 `CROSS_SESSION_2026-06-11_disposition.md`.
+
+## 9. WIDEN (2026-06-27) — the SUSY arc, and two cross-finding motifs
+
+First WIDEN under the new cadence (`../METHOD.md`). The SUSY arc (B218–B230, V221–V233) is the headline since the
+last synthesis: golden multiplicity → emergent N=1 superconformal SUSY (tricritical Ising `c=7/10`), confirmed via
+the finite-size spectrum incl. the supercurrent (B221/B222), emergent-not-lattice (B223), **uniquely golden** and
+robust to AFM/FM (B224/B230), the two-SUSY question resolved as **two faces** (B226), explicit Seifert duals
+(B227), the **mechanism** = the unique ordinary/super coset coincidence at `SU(2)₃` (B228), and the TCI's two
+*distinct* bulk 3-manifolds (B229). The firewall held a 5th time against external frameworks (S041). Every B218–B230
+result has a touchpoint here or in `../papers/metallic_one_object/SYNTHESIS.md`.
+
+Two **cross-finding motifs** surfaced (registered as hints `../docs/HINT_LEDGER.md` H4, H2 — candidate syntheses,
+not yet claims):
+- **The hyperbolicity-split motif (H4).** The object recurs on *both sides* of a hyperbolic/non-hyperbolic divide
+  as **different manifolds**: period (closed-Sol, algebraic) vs volume (cusped-hyperbolic) (B217/V200); the
+  figure-eight's 3d-gravity SUSY (hyperbolic) vs the golden-chain TCI (non-hyperbolic Seifert) (B226); the TCI's
+  ordinary vs super bulk 3-manifolds `S²(3,4,5)` vs `S²(3,3,5)` (B229). Open question (H13): is there a single
+  unifying statement?
+- **The "5" web (H2).** The golden discriminant `5 = m²+4|_{m=1}` governs golden on every face: WRT period 5; the
+  Fibonacci/`SU(2)₃` level (`n=k+2=5`); the SUSY coset denominator `SU(2)₃`; the labels `M(4,5)=SM(3,5)`; the
+  `40a1` conductor `2³·5`. Open question (H17): one reason, or a pile-up of coincidences?
+
+DORMANT sweep: none (register newly seeded). Physics-parallels prompt → the framework search (S041/L46) stays
+live; the deepest live question is H14 (is the object's `E₈+E₆−E₇` exclusion the *same* obstruction as heterotic's
+`E₇`-skip?).

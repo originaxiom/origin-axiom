@@ -127,3 +127,13 @@ failure modes is itself the contribution.
 - A rung does not start until the previous rung's gate passes.
 - Dead claims (`docs/ARCHIVE.md`) are never revisited.
 - Every rung completion is logged in `PROGRESS_LOG.md` and reflected in `CLAIMS.md`.
+- **WIDEN cadence** (every ~10 banked results; governed by `METHOD.md`): cross-finding synthesis — every banked
+  result since the last WIDEN gets a touchpoint in `docs/STRATEGIC_SYNTHESIS.md` / the relevant `SYNTHESIS.md`;
+  resurface dropped patterns (the L37 audit, made standing); a **mandatory DORMANT sweep** of `docs/HINT_LEDGER.md`;
+  and the **standing physics-parallels prompt** ("which verified results have known parallels in frameworks we
+  haven't examined?" — keeps the framework search L46/S041 live). *Zero new NOTICED hints since the last WIDEN is
+  the rut-alarm.*
+- **QUESTION cadence** (same trigger): run the completeness-critic prompt-set ("what modality/connection haven't we
+  tried? the adjacent unasked question to each banked result? what would a skeptic say is missing?") → new
+  `QUESTION`-type rows in `docs/HINT_LEDGER.md`. (Internalizes the chat1/chat2 cross-check so new questions don't
+  depend on it.)
