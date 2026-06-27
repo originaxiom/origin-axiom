@@ -5,8 +5,14 @@ Superposition PROLIFERATES: weaving N distinct-field metallic units gives a gap-
 structure-menu, it does not select to a unique value. The fence (selection-to-unique = a constraint/gluing
 phenomenon, NEEDS-SPECIALIST) lives in multiplicity_selection.py.
 """
+import pytest
 from mpmath import pslq, mp, mpf, sqrt
-mp.dps = 50
+
+
+@pytest.fixture(autouse=True)
+def _mp_dps():
+    """set precision per-test (not at module level) so collection order can't leak a lower global dps."""
+    mp.dps = 50
 
 
 def _alpha(m):

@@ -6,8 +6,14 @@ m=1 & m=4, both Q(√5)) IS dependent (-1+2α_1-α_4=0) -> rank caps at 2; and t
 genuine 4th direction (theorem-excluded for a 1D single shift). The cited reduction itself lives in
 gaplabel_rank.py / FINDINGS.md.
 """
+import pytest
 from mpmath import pslq, mp, mpf, sqrt
-mp.dps = 50
+
+
+@pytest.fixture(autouse=True)
+def _mp_dps():
+    """set precision per-test (not at module level) so collection order can't leak a lower global dps."""
+    mp.dps = 50
 
 
 def _alpha(m):

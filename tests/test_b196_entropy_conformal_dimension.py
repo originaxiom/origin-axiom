@@ -6,7 +6,13 @@ Full version in entropy_dimension.py.
 """
 import sympy as sp
 import mpmath as mp
-mp.mp.dps = 40
+import pytest
+
+
+@pytest.fixture(autouse=True)
+def _mp_dps():
+    """set precision per-test (not at module level) so collection order can't leak a lower global dps."""
+    mp.mp.dps = 40
 
 
 def test_bridge_identities_exact():
