@@ -15,11 +15,24 @@ identity `sin(π/5)sin(3π/5) = √5/4` (special to `n=5`, where the cyclotomic 
 to a quadratic) gives `J_2 = 1−√5 = −2/φ`.
 
 ## Specificity (passes the filter, two ways)
-- **Golden-specific:** at the other metallic roots `n=8, 13` the products are **not** integers (the cyclotomic
-  field does not collapse to a quadratic).
-- **Figure-eight (amphicheiral)-specific:** `4₁` is amphicheiral, so its `J_N` lies in the *real* field `ℚ(√5)`
-  at this root; a **chiral** knot (the trefoil) has `J_N` in the full cyclotomic `ℚ(ζ₅)` — complex, not integer
-  (corroborated computationally).
+### The two-tier structure (closing sweep, `colored_jones_sweep.py`)
+A validated `U_q(sl₂)` R-matrix colored Jones (reproduces the Habiro formula for `4₁` at all `N=1..4`) run over a
+sweep of **amphicheiral** knots through 10 crossings (braid index ≤5: `4₁, 6₃, 8₉, 8₁₂, 8₁₇, 8₁₈, 10₁₇`) settles
+the figure-eight-vs-class question. Integrality is decided **rigorously by Galois** (`[N]·J_N ∈ ℤ` iff fixed by
+`√5 ↦ −√5`, realized as `q=e^{iπ/5} ↦ e^{3iπ/5}`) — no float lattice-search.
+
+- **Golden-specific (the root):** at the other metallic roots `n=8, 13` the products are **not** integers.
+- **Amphichirality ⇒ `ℤ[φ]` (the *class* property):** every amphicheiral knot gives a **real** `[N]·J_N = a+bφ`
+  (`a,b∈ℤ`; Habiro integrality ∩ ℝ); chiral knots (`3₁, 5₂`) give non-real values (in `ℚ(ζ₅)`, not the real
+  subfield) — the amphichiral signature.
+- **Pure `ℤ` ⇒ FIGURE-EIGHT-SPECIFIC (the sharp fact):** among the seven amphicheiral knots, **only `4₁`** has
+  `b=0` (the `√5`-part vanishes): `4₁→−2`, but `6₃→−2+√5`, `8₉→−2+2√5`, `8₁₂→−6+3φ`, `8₁₈→−8+7φ`, …. Notably
+  `8₁₈=(σ₁σ₂⁻¹)⁴` lies in the figure-eight's *own braid family* (`4₁=(σ₁σ₂⁻¹)²`) and still fails — the integrality
+  is genuinely `4₁`-specific, not a family trait.
+
+**Verdict:** the golden integrality is object-specific in the strong sense — `4₁` is the unique pure-`ℤ` case in
+the tested amphicheiral set. Scope stated honestly: amphicheiral knots ≤10 crossings, braid index ≤5; `8₃` (braid
+index 7) and `10₃` (9) exceed the dense `N=4` matrix ceiling and were **not** tested (reported, not dropped).
 
 ## Honest caveat (both chats flag; held, not banked)
 The observation `Z = −2 = −χ(Slavich 4-manifold)` is **unverified**: the raw sum `Z` is *not* the normalized WRT
