@@ -179,6 +179,27 @@ amphicheiral knots) from the genuinely object-specific fact (pure integrality, t
 companion observation `Σ[N]·J_N = −2 = −χ` of Slavich's bounding 4-manifold is HELD/unverified — the raw sum is not
 the normalized WRT invariant — and is not used here.)*
 
+### 4.5 Three SU(3)'s, three faces — and what unifies the quantum one with amphichirality
+
+The figure-eight carries **three distinct objects** that all read "SU(3)", one on each of three faces, and keeping
+them apart is itself an instance of the discipline (§4.1): **(1)** the **SL(3,ℂ) character variety** (classical
+geometry — `Fix(T₁²)`: three components of dimension 2, the geometric `Sym²` plus two Dehn-filling components)
+**[banked B71]**; **(2)** the **level-rank gauge `SU(3)₂`** (quantum — a Chern–Simons group at level 2, dual to
+`SU(2)₃` with shared `κ=5`) **[banked B238]**; **(3)** the **Gang–Yonekura flavor `SU(3)`** (a global flavor
+symmetry of the 3d `N=2` theory `T[K]`, *universal across all hyperbolic twist knots*, from the `A₁` theory)
+**[lit: arXiv:1803.04009; B241]**. These differ in *type* (variety / number / symmetry) and *specificity*
+(golden / golden / twist-universal): (1)↔(2) are classical and quantum descriptions of the same SL(3) structure
+(quantization; volume conjecture as `k→∞`), while (3) is genuinely separate — so the recurrence of "SU(3)" is
+three objects, not one (a further check that the rhyme with the Standard-Model gauge group, §5.4, is not an
+identification).
+
+One clean relation closes the loop with §4.4. The fundamental `SU(N)_k` knot invariant is `HOMFLY(a=qᴺ, z=q−q⁻¹)`,
+and the level-rank duality `SU(2)₃↔SU(3)₂` sends `a=qᴺ↦a=q^{5−N}=−q^{−N}`, i.e. `a²↦\overline{a²}` at `q=e^{iπ/5}`
+— **the duality acts as complex conjugation.** Hence the two invariants coincide *exactly* iff the value is real
+iff the knot is **amphicheiral**: for `4₁` (amphicheiral) `SU(2)₃=SU(3)₂=−2/φ`, while chiral knots give complex-
+conjugate pairs. So *amphichirality is precisely the condition that makes the level-rank coincidence exact* —
+binding the §4.4 amphichirality theme to the §4.3/B238 level-rank theme. **[banked B242]**
+
 ## 5. The boundary
 
 ### 5.1 The dimensional firewall
@@ -248,5 +269,6 @@ Maclachlan–Reid, Reid (figure-eight arithmetic / unique arithmetic knot); Cant
 bundles); Habiro (cyclotomic expansion / integrality of the colored Jones); Feiguin–Trebst–Ludwig et al. 2007
 (golden chain → TCI); Goddard–Kent–Olive 1986, Lashkevich hep-th/9301093 (cosets), Friedan–Qiu–Shenker 1985 / Qiu
 1986 (the TCI as the unique ordinary+superconformal minimal model); McKay (the correspondence); Gukov–Teschner–
-Zagier, Dimofte, Córdova–Jafferis (3d–3d / complex CS). In-repo provenance: B210, B211, B221–B224, B228, B230,
-B233–B240 (and `SYNTHESIS.md`, `ARITHMETIC_SELECTION.md`, `S041`).
+Zagier, Dimofte, Córdova–Jafferis (3d–3d / complex CS); Gang–Yonekura arXiv:1803.04009 (twist-knot flavor `SU(3)`),
+Naculich–Schnitzer / arXiv:2106.15012 (level-rank duality of knot invariants). In-repo provenance: B210, B211,
+B221–B224, B228, B230, B233–B242 (and `SYNTHESIS.md`, `ARITHMETIC_SELECTION.md`, `S041`).
