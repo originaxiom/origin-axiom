@@ -19,7 +19,7 @@ were cross-checked against each other and the repo. **Verify-don't-trust caught 
 | **H26** | **H19 is CIRCULAR** — Fibonacci category unique ⟹ F/R match forced ⟹ no info; Conway hook **generic** (chat2) | ✅ **VERIFIED — corrects our own work** | **deflate H12/H19**, fix S041 |
 | **H30** | chat2's "congruence = SAME wall as Diophantine `48≠p(p²−1)`" | ⚠️ **OVERSTATED → CORRECTED** | E₇ is **overdetermined/triple** (group vs field are *distinct* objects); confirms chat1 |
 | **H25** | field (squarefree=5) vs coincidence (n=5) vs SUSY (chat1 D4, neither stated cleanly) | ✅ **VERIFIED + SHARPENED** | E₈-field at m=1,4,11…; `n=5` only m=1; SUSY only m=1 |
-| **H20** | E₇ exclusion OVERDETERMINED (Diophantine + rep-theoretic) (chat1 Path 1) | ✅ VERIFIED (arith part) | keep; rep-theoretic (56 real) cited |
+| **H20** | E₇ exclusion OVERDETERMINED (Diophantine + rep-theoretic) (chat1 Path 1) | ✅ VERIFIED; **rep-theoretic claim CORRECTED** | Diophantine `48≠p(p²−1)` holds; the rep-theoretic part: E₇'s 56 is **pseudoreal (FS −1, symplectic)**, *not* "real (+1)" as chat1/early-draft stated (Sage `e7_fs_indicator.py`: trivial ∈ Λ²(56)). Conclusion unchanged — E₇ has **no complex reps** (`w₀=−1`) ⟹ non-chiral. |
 | **H29** | only `p∈{3,5}` give exceptional McKay `SL(2,F_p)`, 5 largest (chat2, load-bearing) | ✅ **RE-DERIVED** | bank the bound |
 | **H22** | character-field = trace-field (`2T→ℚ(√−3)` hyperbolic, `2I→ℚ(√5)` monodromy, `2O→ℚ(√2)` absent) (chat1 D1) | ✅ VERIFIED | bank |
 | **H23** | metallic field ladder; silver `m=2` carries E₇'s `ℚ(√2)` (chat1 D2) | ✅ VERIFIED | bank |
