@@ -47,7 +47,9 @@ allows it; the math is the same either way).
 - GKO cosets (1986) + Lashkevich super coset (hep-th/9301093); Qiu (1986) uniqueness *fact*.
 - the four faces — 3/4 unified by **Cantat 2009** (arXiv:0711.1727); WRT (Jeffrey); McKay; level-rank.
 
-## The one true gate (no chat substitutes)
-The **Qiu 1986 / Lässig 1991 by-hand read** — is the coset *mechanism* stated as a proposition? Gates §3's "modest
-original observation." Path A is *computationally* closed (B236: the cosets are literally the same, unique); only
-the literature-presence question remains. Everything else is verified and banked.
+## The one true gate — **READ DONE (NOVELTY_AUDIT R6, 2026-06-27)**
+The Qiu/Lässig/Lashkevich by-hand read is complete: **PARTIALLY-KNOWN.** The uniqueness *fact* is standard (FQS
+1985 / Qiu 1986); the two cosets appear separately; Lashkevich (hep-th/9301093, read in full) does **not** state
+the same-coset observation. So §3's "modest organizing observation, not a theorem" is **supported and
+literature-checked**; cite FQS/Qiu directly (chat1's hep-th/0311129 was a misattribution). **No open gate remains;
+the draft is complete pending editorial review.**

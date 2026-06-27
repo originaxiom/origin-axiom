@@ -175,6 +175,29 @@ Andersen–Jørgensen, Feiguin et al.**; reserve novelty for the three assemblie
 
 ---
 
+## R6 — the coset-coincidence mechanism (the Qiu/Lässig by-hand read) — 2026-06-27 — **PARTIALLY-KNOWN**
+
+The one item the R5 pass left as `NEEDS-SPECIALIST`: is the **mechanism** — "the ordinary GKO minimal-model coset
+and the `N=1` super GKO coset are *literally the same coset* `(SU(2)_1×SU(2)_2)/SU(2)_3`, uniquely at the
+tricritical Ising point" — stated as a proposition in the literature? A focused primary-source read:
+
+- **The uniqueness *fact* is KNOWN** — "TCI is the unique minimal model that is both ordinary and superconformal" is
+  standard, a corollary of the two `c`-series overlapping only at `7/10`; traces to **Friedan–Qiu–Shenker 1985**
+  (Phys. Lett. B151 37) and **Qiu 1986** (Nucl. Phys. B270 205). *(Correction: chat1's "Qiu via Johnson–Clifford
+  hep-th/0311129" is a misattribution — that arXiv id is a Type-0A string paper; cite FQS/Qiu directly.)*
+- **The two cosets are KNOWN, separately** — ordinary `su(2)_2×su(2)_1/su(2)_3` (GKO 1986; Lässig 1991), super
+  `SM_k=(SU(2)_k×SU(2)_2)/SU(2)_{k+2}` (**Lashkevich, hep-th/9301093**, "…an Unusual Coset Construction").
+- **The mechanism is NOT found stated.** Lashkevich's paper was **read in full** (ar5iv): it makes no reference to
+  the ordinary GKO coset, no comparison, and **no tricritical-Ising discussion**; its own "unusual" decomposition
+  is the *different* `SM_k∼(M_k×M_{k+1})/M_1`. No source states the same-coset observation.
+
+**Verdict — PARTIALLY-KNOWN.** All ingredients are prior art (uniqueness fact; both cosets); the specific
+"same-coset-at-`SU(2)₃`" framing is **not found stated** but is **near-obvious** once both cosets are written. So
+the paper's "modest organizing observation, not a theorem" framing is **supported and now literature-checked**; the
+residual is only whether a specialist deems it too obvious to have been written. Closes the last open gate of PC19.
+
+---
+
 ## Net assessment
 
 Of R1–R3, two are **known** (R2 Kitano–Nozaki; R3 standard quantum topology) and one is **partially novel** with the
