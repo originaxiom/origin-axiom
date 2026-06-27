@@ -105,7 +105,12 @@ The geometric/physical "two-headed time" *reading* of this reciprocity is an int
 This is a structural determination and a clean **repackaging**, not a closure: the W-identity is module-iso-
 *equivalent* to the two-sequence, and there is **no functorial `Sym(W)→trace-ring` map** (the `Sym⁴(3)=15`
 saturation is n=4-only). So it identifies `W` canonically and re-aims the all-`n` target — *prove the tower is
-functorially `Sym^n(W) ⊕ (Sym^{n−3}(W)⊖W)`* — but it does **not** lower the trace-ring wall. It is the **magnitude
+functorially `Sym^n(W) ⊕ (Sym^{n−3}(W)⊖W)`* — but it does **not** lower the trace-ring wall. **Update (B232):**
+the all-`n` target is reduced to a *local* induction — the **one-step stabilization** `ρ_n ≅ ρ_{n−1} ⊕ Sym^n(V)
+⊕ Sym^{n−3}(V)` (verified on the real Jacobian `n≤5`, extended to `n=8`, and shown to fail for the foreclosed
+cohomological route); the residual lemma is now the single stabilization step (the lag-3 `Sym^{n−3}` from the
+degree-`n` Cayley–Hamilton relation, `dim W=3`), not the whole catalog. A relocation of the wall to a cleaner
+statement, not a closure. It is the **magnitude
 layer** (the `Sym` content / eigenvalue magnitudes); the **signs** `char(M^h)` vs `char(−M^h)` are the orthogonal
 `det=−1` layer (B118). The all-`n` formula for `μ_d` remains the central target (B103), behind the wall.
 
