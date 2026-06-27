@@ -60,19 +60,24 @@ of Chat-1 + its own discovery). Every distinct item registered here first; verdi
 **CHECKED 2026-06-27 via `B234`** (all recomputed, cross-checked): **VERIFIED** — H20, H22, H23, H25, H27, H28, H29
 (+ the why-5 co-occurrence). **VERIFIED-and-corrects-our-own-work** — H26 (H19 is circular ⟹ **H12 demoted**,
 S041 fixed). **CORRECTED** — H30 (chat2's "same wall" → E₇ is *overdetermined/triple*, distinct mechanisms, with
-chat1). **agreed framing** — H31 (H11 wording softened). **verify-lit (by hand)** — H21 (the Qiu/Lässig read). The strongest new result is **H27** (the trace-1 congruence
-law); the strongest *method* is **H28** (the specificity filter, now standing in `S041`).
+chat1). **agreed framing** — H31 (H11 wording softened). The strongest new result is **H27** (the trace-1 congruence law); the strongest *method* is **H28** (the
+specificity filter, now standing in `S041`).
 
 **Follow-up resolutions (`B235`, 2026-06-27):** **H24 CORRECTED** — F₄ retracted, footprint **3/5** (no
 `SU(3)_k⊂(F₄)₁` conformal embedding: `c(SU(3)_k)` never `=26/5`). **H32 CLOSED** — `ℚ(√−7)` does **not** appear
 (SnapPy: all `4₁` covers ≤deg 6 keep `ℚ(√−3)` — arithmetic; algebraically the trace-1 ladder closes at `{√5,√−3}`
 by unimodularity `det∈{±1}`). **H34 ASSEMBLED** — the metallic family table m=1..6 (→ L49, the paper's §4).
-**H33 remains a lead** (silver `2O`, L48, needs computation).
+
+**Follow-up resolutions (`B236`/`B237`, 2026-06-27, SnapPy+GAP):** **H21 CLOSED** — the coset-coincidence
+mechanism verified (Lashkevich/GKO/Qiu refs; `M(4,5)≡SM_1` the same coset, unique; E₇-in-TCI bonus), clearing the
+paper's originality gate. **H33 RESOLVED** — silver carries **no `2O`** (GQuotients=0, field-only coincidence); and
+chat1's "all metallic bundles carry 2T,2I" is **corrected** to manifold-specific (golden→2T, silver→S₄, bronze→2T+2I;
+2O absent throughout).
 
 | H# | hint | type | noticed | state | flags | disposition |
 |---|---|---|---|---|---|---|
 | H20 | **E₇ exclusion is OVERDETERMINED** — independent mechanisms: Diophantine (`48≠p(p²−1)`, no congruence quotient) + rep-theoretic (E₇'s 56 is real/non-chiral) (chat1 Path 1) | MATH | 2026-06-27 | NOTICED | — | B234 |
-| H21 | the coset-coincidence **mechanism** (ordinary GKO = super GKO coset at `SU(2)₃`) is **not stated as a proposition** in the lit; the uniqueness *fact* is Qiu 1986 (via Johnson–Clifford hep-th/0311129); Lässig et al. 1991 write the TCI coset (chat1 Path A) | HOOK | 2026-06-27 | NOTICED | verify-lit | refines B228/L45 |
+| H21 | the coset-coincidence **mechanism** (ordinary GKO = super GKO coset at `SU(2)₃`) is **not stated as a proposition** in the lit; the uniqueness *fact* is Qiu 1986 (via Johnson–Clifford hep-th/0311129); Lässig et al. 1991 write the TCI coset (chat1 Path A) | HOOK | 2026-06-27 | **CHECKED** | **CLOSED (B236)** | refs found (chat1) + **verified by central charges (B236):** super `SM_k=(SU(2)_k×SU(2)_2)/SU(2)_{k+2}` (Lashkevich hep-th/9301093), ordinary M(m,m+1) (GKO); `M(4,5)`≡`SM_1` = the *same* coset `(SU(2)_1×SU(2)_2)/SU(2)_3` (unique over the sweep), c=7/10; uniqueness fact = Qiu 1986. **Bonus:** TCI = `(E₇)₁⊕(E₇)₁/(E₇)₂` (c=7/10) — E₇ in the TCI as a coset algebra (≠ the excluded McKay role). **Closes the H21 gate** on the paper's originality claim. |
 | H22 | **character-field = trace-field correspondence:** `2T→ℚ(√−3)`=hyperbolic field, `2I→ℚ(√5)`=monodromy field, `2O→ℚ(√2)`=ABSENT ⟹ E₇ **triply** excluded (chat1 D1) | MATH | 2026-06-27 | NOTICED | — | B234 |
 | H23 | the **silver bundle (m=2) carries E₇'s field** `ℚ(√2)` (disc 8) — "what golden excludes, silver includes"; the metallic *field ladder* `M_m=[[m,1],[1,0]]`, disc `m²+4` (chat1 D2) | PATTERN | 2026-06-27 | NOTICED | — | B234 |
 | H24 | ~~exceptional-group footprint 4/5 (incl. F₄ via `SU(2)₃↔SU(3)₂→(F₄)₁`)~~ → **3/5** (chat1 D3, **retracted by chat1 + B235**) | HOOK | 2026-06-27 | **CHECKED** | **CORRECTED** | **F₄ RETRACTED (B235):** no integer `k` has `c(SU(3)_k)=c((F₄)₁)=26/5` ⟹ no `SU(3)_k⊂(F₄)₁` conformal embedding ⟹ the route is void. Footprint = **3/5**: G₂ (Fibonacci), E₆ (`ℚ(√−3)`), E₈ (`ℚ(√5)`); E₇ excluded. (The real `(G₂)₁×(F₄)₁⊂(E₈)₁` is generic CFT, not object-specific.) |
@@ -84,7 +89,7 @@ by unimodularity `det∈{±1}`). **H34 ASSEMBLED** — the metallic family table
 | H30 | **caution (chat2):** chat2's "trace-1 congruence = the SAME obstruction as the Diophantine `48≠p(p²−1)`" is an *interpretation* — verify provably-equivalent vs merely-coincident (chat2's own flag) | ANOMALY | 2026-06-27 | NOTICED | cross-check | B234 (my prior: DISTINCT → overdetermined, with chat1) |
 | H31 | **caution (chat2):** H11's "122 orders = gap between `k=3` and `k→∞`" is near-tautological (any UV/IR ratio reappears the CC problem) — a clean HELD negative, not insight; don't sell as such | ANOMALY | 2026-06-27 | NOTICED | framing | adjust S041 H11 wording |
 | H32 | **lead:** does `ℚ(√−7)` (the next trace-1 imaginary rung) appear in the object's data — a deeper cusp field, a covering, a Markov-level field? (chat2) | QUESTION | 2026-06-27 | NOTICED | needs-snappy | candidate OPEN_LEADS |
-| H33 | **lead:** does the silver bundle (m=2) actually carry a `2O` quotient of its π₁, or is `ℚ(√2)` only a field coincidence? (chat1 lead 2 / chat2) | QUESTION | 2026-06-27 | NOTICED | needs-computation | candidate OPEN_LEADS |
+| H33 | **lead:** does the silver bundle (m=2) actually carry a `2O` quotient of its π₁, or is `ℚ(√2)` only a field coincidence? (chat1 lead 2 / chat2) | QUESTION | 2026-06-27 | **CHECKED** | **RESOLVED (B237)** | **NO 2O** (GAP GQuotients=0): `ℚ(√2)` is a field-only coincidence. Also **corrects chat1**: the binary-polyhedral structure is manifold-specific (golden→2T, silver→S₄ [not binary 2O], bronze→2T+2I), NOT "all carry 2T,2I"; **2O absent from all three**. |
 | H34 | **lead:** `SU(3)₂` WRT of the figure-eight vs `SU(2)₃` (level-rank, B204); + assemble the full metallic table m=1..6 (model, SUSY, McKay, Seifert dual, \|H₁\|) (chat1 leads 1,3) | QUESTION | 2026-06-27 | NOTICED | needs-snappy/compute | candidate OPEN_LEADS |
 
 ## Tombstoned hints
