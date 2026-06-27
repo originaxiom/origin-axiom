@@ -25,7 +25,7 @@ were cross-checked against each other and the repo. **Verify-don't-trust caught 
 | **H23** | metallic field ladder; silver `m=2` carries E₇'s `ℚ(√2)` (chat1 D2) | ✅ VERIFIED | bank |
 | **Path 2** | primality + SUSY-overlap co-occur **only** at n=5 (m=1..200) (chat1/chat2 push) | ✅ VERIFIED | confirms B233 |
 | **H21** | coset-coincidence *mechanism* not stated in lit; uniqueness = Qiu 1986 (chat1 Path A) | 🔶 **verify-lit (by hand)** | read Qiu / Lässig / Johnson–Clifford *papers*, not abstracts |
-| **H24** | exceptional footprint 4/5 (G₂,E₆,E₈ direct; F₄ indirect; E₇ out) (chat1 D3) | 🔶 partial | G₂/E₆/E₈/E₇ verified; F₄ level-rank chain cited, unverified |
+| **H24** | exceptional footprint (G₂,E₆,E₈ direct; F₄?; E₇ out) (chat1 D3) | ❌ **F₄ RETRACTED → 3/5 (B235)** | no `SU(3)_k⊂(F₄)₁` conformal embedding (`c≠26/5`); footprint is **3/5** |
 | **H31** | H11 "122 orders = k=3 vs k→∞" near-tautological (chat2) | ✅ agreed | soften S041 H11 wording |
 | **H32** | does `ℚ(√−7)` (next trace-1 rung) appear in the object's data? (chat2) | 🔸 **LEAD** | needs SnapPy → OPEN_LEADS |
 | **H33** | does silver carry a real `2O` quotient, or only the field? (chat1/chat2) | 🔸 **LEAD** | needs computation → OPEN_LEADS |

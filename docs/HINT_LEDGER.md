@@ -60,9 +60,14 @@ of Chat-1 + its own discovery). Every distinct item registered here first; verdi
 **CHECKED 2026-06-27 via `B234`** (all recomputed, cross-checked): **VERIFIED** — H20, H22, H23, H25, H27, H28, H29
 (+ the why-5 co-occurrence). **VERIFIED-and-corrects-our-own-work** — H26 (H19 is circular ⟹ **H12 demoted**,
 S041 fixed). **CORRECTED** — H30 (chat2's "same wall" → E₇ is *overdetermined/triple*, distinct mechanisms, with
-chat1). **agreed framing** — H31 (H11 wording softened). **verify-lit (by hand)** — H21, H24. **promoted to leads**
-— H32/H33/H34 → `OPEN_LEADS` (need SnapPy/specialist). The strongest new result is **H27** (the trace-1 congruence
+chat1). **agreed framing** — H31 (H11 wording softened). **verify-lit (by hand)** — H21 (the Qiu/Lässig read). The strongest new result is **H27** (the trace-1 congruence
 law); the strongest *method* is **H28** (the specificity filter, now standing in `S041`).
+
+**Follow-up resolutions (`B235`, 2026-06-27):** **H24 CORRECTED** — F₄ retracted, footprint **3/5** (no
+`SU(3)_k⊂(F₄)₁` conformal embedding: `c(SU(3)_k)` never `=26/5`). **H32 CLOSED** — `ℚ(√−7)` does **not** appear
+(SnapPy: all `4₁` covers ≤deg 6 keep `ℚ(√−3)` — arithmetic; algebraically the trace-1 ladder closes at `{√5,√−3}`
+by unimodularity `det∈{±1}`). **H34 ASSEMBLED** — the metallic family table m=1..6 (→ L49, the paper's §4).
+**H33 remains a lead** (silver `2O`, L48, needs computation).
 
 | H# | hint | type | noticed | state | flags | disposition |
 |---|---|---|---|---|---|---|
@@ -70,7 +75,7 @@ law); the strongest *method* is **H28** (the specificity filter, now standing in
 | H21 | the coset-coincidence **mechanism** (ordinary GKO = super GKO coset at `SU(2)₃`) is **not stated as a proposition** in the lit; the uniqueness *fact* is Qiu 1986 (via Johnson–Clifford hep-th/0311129); Lässig et al. 1991 write the TCI coset (chat1 Path A) | HOOK | 2026-06-27 | NOTICED | verify-lit | refines B228/L45 |
 | H22 | **character-field = trace-field correspondence:** `2T→ℚ(√−3)`=hyperbolic field, `2I→ℚ(√5)`=monodromy field, `2O→ℚ(√2)`=ABSENT ⟹ E₇ **triply** excluded (chat1 D1) | MATH | 2026-06-27 | NOTICED | — | B234 |
 | H23 | the **silver bundle (m=2) carries E₇'s field** `ℚ(√2)` (disc 8) — "what golden excludes, silver includes"; the metallic *field ladder* `M_m=[[m,1],[1,0]]`, disc `m²+4` (chat1 D2) | PATTERN | 2026-06-27 | NOTICED | — | B234 |
-| H24 | **exceptional-group footprint 4/5:** G₂ (Fibonacci=(G₂)₁, direct), F₄ (level-rank `SU(2)₃↔SU(3)₂`, indirect), E₆ (direct), E₇ (excluded), E₈ (direct) (chat1 D3) | HOOK | 2026-06-27 | NOTICED | — | B234 |
+| H24 | ~~exceptional-group footprint 4/5 (incl. F₄ via `SU(2)₃↔SU(3)₂→(F₄)₁`)~~ → **3/5** (chat1 D3, **retracted by chat1 + B235**) | HOOK | 2026-06-27 | **CHECKED** | **CORRECTED** | **F₄ RETRACTED (B235):** no integer `k` has `c(SU(3)_k)=c((F₄)₁)=26/5` ⟹ no `SU(3)_k⊂(F₄)₁` conformal embedding ⟹ the route is void. Footprint = **3/5**: G₂ (Fibonacci), E₆ (`ℚ(√−3)`), E₈ (`ℚ(√5)`); E₇ excluded. (The real `(G₂)₁×(F₄)₁⊂(E₈)₁` is generic CFT, not object-specific.) |
 | H25 | **SUSY vs E₈ are distinct:** SUSY needs `n=5` exactly; the E₈-*field* needs `squarefree(n)=5` (m=1,4,11,…); `m=4` has the E₈ field but NOT SUSY (`M(19,20)` not super) (chat1 D4) | MATH | 2026-06-27 | NOTICED | — | B234 |
 | H26 | **H19 is CIRCULAR** (chat2) — the Fibonacci fusion category is unique (one F-matrix, two braidings), so any Fibonacci system shares the F/R data ⟹ the "match" can't fail ⟹ no object-specific info; the Conway hook is **generic** (Fibonacci ubiquity), NOT a 2nd moonshine crossing; **demote H12 below McKay, file under H17** | ANOMALY | 2026-06-27 | NOTICED | corrects-own-work | B234 → deflate H12/H19, fix S041 |
 | H27 | **the trace-1 congruence law** (chat2's discovery) — golden's two fields are one fact with a sign: `disc=1−4·det`, trace-1 ⟹ `disc≡1 (mod 4)`; permits E₈ (`5`,det−1) & E₆ (`−3`,det+1), **forbids E₇** (`ℚ(√2)`, disc 8≡0); next imaginary rung = `ℚ(√−7)` (disc −7) | MATH | 2026-06-27 | NOTICED | — | B234 |
