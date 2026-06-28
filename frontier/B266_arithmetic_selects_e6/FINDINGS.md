@@ -64,3 +64,13 @@ but **not** sufficient (it passes for all odd `q`, e.g. `q=7,9`). Conclusion unc
 textbook (Dechant). The **arithmetic-selection overlay** (ramified prime → binary-polyhedral → McKay-ADE as a
 *selection rule*, E₇ homeless because `2O≠SL(2,q)`) was not found in prior art — APPEARS-NOVEL, modest,
 NEEDS-SPECIALIST. See `frontier/B264_e6_character_variety/NOVELTY.md`, `docs/NOVELTY_AUDIT.md` R6.
+
+## Correction (R6 addendum, 2026-06-28) — the two ends are GROUP-asymmetric
+The deep-research audit (R6) surfaced Stuebner 2025 (arXiv:2502.06488): **`pi_1(4_1)` does NOT surject onto `A_5`**,
+hence not onto `2I=SL(2,F_5)`. **Verified in-sandbox** (GAP `GQuotients` on the SnapPy presentation,
+`verify_surjections.py`): `2T=SL(2,F_3)` → **2** surjections (the E₆ leg is genuine), but `A_5` → **0** and
+`2I=SL(2,F_5)` → **0**. So the line-30 framing "the two-ended E₆/E₈ structure = the two ramified-prime reductions of
+the two end-fields" is correct **only at the FIELD level**: the E₆ end is a genuine *group* surjection of the
+figure-eight (its own trace field `ℚ(√−3)`, ramified prime 3); the E₈ end is `ℚ(√5)`'s ramified prime 5 — the
+*spherical companion's* field, **not** a surjection of `pi_1(4_1)`. The ends are arithmetically **asymmetric at the
+group level**. (b266_surjection_verdict.py + test; NOVELTY_AUDIT R6 addendum.)

@@ -32,17 +32,23 @@ theorem.**
 - **Not found in any reference:** the *arithmetic selection rule* combining them — ramified prime 3 → 𝔽₃ → 2T → E₆;
   `det=5` → 𝔽₅ → 2I → E₈; **E₇ "homeless" because 2O is never `SL(2,q)`**. This synthesis is the candidate-novel
   kernel — **APPEARS-NOVEL but modest** (a re-synthesis of standard pieces); **NEEDS-SPECIALIST** to confirm.
+- **Verified asymmetry (R6 addendum):** Stuebner 2025 (arXiv:2502.06488) + in-sandbox GAP `GQuotients` (`2T`→2,
+  `A_5`→0, `2I`→0) show the two ends are **group-asymmetric**: the E₆ end is a genuine `pi_1(4_1)` surjection onto
+  2T; the E₈ end (`ℚ(√5)`, prime 5) is **field-level only** — the spherical companion's field, not a 4₁ surjection.
 
 ## CLAIM 3 — quantum invariant arithmetic at trace-field roots (B276)
 **Verdict: KNOWN (phenomenon); the specific ζ₃-residue framing is a minor observation (matches B276's "PARTIAL").**
 - Quantum modularity of the `4₁` colored Jones is **proven and active**: **Garoufalidis–Zagier** (figure-eight),
   **Bettin–Drappeau** (≤7 crossings). The **Habiro/Le cyclotomic expansion** of `J_N(4₁)` and the volume from
-  `Li₂(e^{±iπ/3})` (`ζ₆` generates `ℚ(√−3)`) are standard. The arithmetic of WRT special values (Habiro ring,
+  `Li₂(e^{±iπ/3})` (`ζ₆` generates `ℚ(√−3)`) are standard. The canonical arithmetic framework is
+  **Garoufalidis–Scholze–Wheeler–Zagier 2024** ("The Habiro ring of a number field", arXiv:2412.04241; `K_3`-graded,
+  Frobenius-glued, Bloch-group modules) — exactly CLAIM 3's setting. The arithmetic of WRT special values (Habiro ring,
   Coste–Gannon Galois action, quantum modular forms) is established. B276's `ζ₃,ζ₆∈ℤ[ζ₃]` degeneration is a small,
   honest observation within this known framework — consistent with its self-labelled PARTIAL/coherence status.
 
 ## CLAIM 4 — amphichirality realized as the E₆ outer automorphism (B271)
-**Verdict: PARTIALLY-KNOWN — both halves standard; the IDENTIFICATION APPEARS-NOVEL as a framing (NEEDS-SPECIALIST).**
+**Verdict: NEEDS-SPECIALIST — both halves standard; the IDENTIFICATION is uninvestigated (zero verified prior art —
+an absence of coverage, not confirmed novelty).**
 - A knot symmetry **acting on a (higher-rank) character variety** is standard: **Heusener–Muñoz–Porti** (the `D₄`
   action on the SL(3) variety of `4₁`), **Paoluzzi–Porti** (invariant character varieties of symmetric knots).
 - The `E₆` **outer automorphism** with fixed subalgebra `F₄` and the `(E₆,F₄)` symmetric pair (EIV) is **textbook**.
