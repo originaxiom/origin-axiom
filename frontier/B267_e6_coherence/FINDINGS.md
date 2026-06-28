@@ -43,3 +43,15 @@ Anchors: B264 (tangent dim = rank, exponent grading), B265 (E₆-irreducible fla
 selects E₆), B256 (E₇ homeless). Lit: Kostant 1959 (principal `sl(2)`, exponents, `dim = ℓ(h+1)`), Kostant 1984
 (finite subgroups of SU(2), McKay, the Coxeter element); McKay 1980; Springer (regular elements, Coxeter
 eigenvalues `2cos(πm/h)`).
+
+## Correction (2026-06-28 adversarial audit / B272)
+"**Five independent invariants** coincide ⟹ one E₆" **overstates the evidential weight**. The geometric side is E₆
+**by construction** (B264 *chooses* the principal `sl(2)→e₆` and decomposes by E₆ exponents), so once the arithmetic
+side is also E₆ (B266), agreement of Coxeter number, exponent *sum*, dimension, and Molien series is **automatic** —
+these are invariants of the single Lie algebra E₆, not five independent confirmations. Also: `e6_coherence.py`'s
+`e6_dynkin_adjacency()` **hard-codes the E₆ Dynkin diagram**; it does not read `2T`'s McKay graph (the genuine
+`McKay(2T)=`affine E₆ derivation is in B266's `mckay_selection_sage.py`). **The genuine, non-tautological content
+is exactly two facts:** (i) the arithmetic route *independently* lands on **E₆** (rather than F₄ or another type) —
+B266; and (ii) the resulting **exponent set `{1,4,5,7,8,11}`** is the one grading B264's tangent space. That is a
+**consistency check** (the two constructions are not in conflict; both are E₆), not five independent measurements.
+The physics guardrail (wall #2 still open) is unaffected.
