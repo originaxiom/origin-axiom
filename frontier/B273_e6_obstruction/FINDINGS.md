@@ -43,3 +43,10 @@ smoothness in the `SL(2)` case (`dim H¹=#cusps`, B270), but not separately comp
 Anchors: B264 (`dim H¹=6=rank`), B265 (Zariski-density; the existence claim), B270 (the `SL(2)`-block cup product +
 cusp mechanism), B272 (the audit that flagged this), B267 (exponents). Lit: Goldman (cup product / obstruction
 theory of character varieties); Heusener–Porti (deformations of 3-manifold reps); Thurston (`SL(2)` smoothness).
+
+## Update (2026-06-28 / B274) — the all-orders residual is now closed
+The "honest residual" above (all-orders smoothness / higher Massey products) is resolved in **B274**: `ρ_prin` is a
+**smooth point** of the E₆ character variety (dim 6 = rank), shown two ways — the boundary/cusp MFP criterion
+(certificates dim H¹(M)=6, meridian regular ker(ad e)=6, dim H¹(∂M)=12=2·rank) and the cubic 3rd-order obstruction
+vanishing identically. So the existence of the {4,8} E₆-irreducible flat connections is **unconditional**, not
+merely to finite order. B265 status: expected → 2nd-order (B273) → smooth point (B274).
