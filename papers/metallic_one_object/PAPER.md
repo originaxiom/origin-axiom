@@ -126,8 +126,10 @@ sweep the metallic parameter `m` and ask what survives **[banked B234]**.
   Fibonacci fusion category is unique, so it appears in *every* Fibonacci system (Read–Rezayi, `(G₂)₁`, Yang–Lee,
   and the Conway SCFT [lit: Angius et al. 2025]) — its appearance anywhere is not a connection to *this* object.
 - **Object-specific** (lives only in `{ℚ(√5), ℚ(√−3)}`) → a genuine selection: the dual McKay `E₆+E₈`.
-- **Golden-specific** (survives only at `m=1`) → the sharpest: the superconformal selection (§3.1), and the
-  coincidence `n=5`.
+- **Golden-specific** (survives only at `m=1`) → the sharpest: the superconformal selection (§3.1), the
+  coincidence `n=5`, and the **E₆↔E₈ geometric transition** (§5.2). The last fails for *every* `m≥2` by a homology
+  obstruction, not a near-miss: `H₁(Mₘ)=ℤ⊕(ℤ/m)²` equals `ℤ` (a knot complement in `S³`) **iff `m=1`**, so only the
+  figure-eight has the knot determinant / lens-space double cover the transition is built from **[banked B251]**.
 
 The filter is the project's answer to the numerology charge: it is a stated criterion, applied uniformly, under
 which most "5 everywhere" observations are demoted and only the selection survives.
