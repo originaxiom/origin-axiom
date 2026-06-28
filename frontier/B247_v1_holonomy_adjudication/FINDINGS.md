@@ -37,7 +37,14 @@ object-specific, not more.
     but `e^{iπ/3}` is a root of `u²−u+1`, **not** of the figure-eight's parabolic Riley polynomial `u²+u+1` (roots
     `e^{±2iπ/3}`). So chat2's *explicit matrices are not a valid `4₁` representation* (wrong cyclotomic root). The
     **conclusion survives** — the correct rep (`u=e^{2iπ/3}`) also has complex traces (the value above), and SnapPy
-    confirms it — but the matrices were wrong; we use the corrected ones.
+    confirms it — but the matrices were wrong; we use the corrected ones. The likely slip: the figure-eight *cusp
+    shape* is `z=e^{iπ/3}` (root of `z²−z+1`), but the off-diagonal *Riley parameter* is `u=z²=e^{2iπ/3}`.
+  - *Clinching ground-truth (`holonomy_ground_truth_sage.py`):* SnapPy's discrete-faithful holonomy (unsimplified;
+    meridian generators parabolic, trace `−2`) has meridian-pair trace `tr(ac)=2.5+0.866i = 2−e^{−2iπ/3}`, hence
+    `u=e^{±2iπ/3}` (arg `±120°`, `|u|=1`) — chat2's `e^{iπ/3}` (arg `60°`) would give `tr=1.5`. **The trap that hid
+    the error:** `tr[a,b]=u²+2 = 1.5±0.866i` for *both* roots (each squares to a primitive cube root), so the
+    commutator trace looks right either way; the discriminators are `tr(ab)` (linear in `u`: 2.5 vs 1.5) and the
+    2-bridge relator `a w = w b` (`w=ba⁻¹b⁻¹a`), which only `u=e^{2iπ/3}` satisfies. Both are locked in the tests.
 - **Test 2 (the SU(2) reps are a different family — and a different field):** the figure-eight's Riley polynomial
   `u² − (x²−5)u − (x²−5) = 0` gives, at meridian trace `x=0`, `u=−(2±√5)/2 ∈ ℚ(√5)` (real) with `tr(ab)=φ` or
   `−1/φ` — genuine non-abelian **SU(2)** reps. They sit on a *different* component from the geometric one, with a

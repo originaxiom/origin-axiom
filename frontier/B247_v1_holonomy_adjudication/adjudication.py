@@ -103,6 +103,24 @@ def chat2_matrices_are_invalid_rep():
     return abs(bad ** 2 + bad + 1) > 1e-9          # True => chat2's matrices fail the relation
 
 
+# ---- CLINCHING RECORD: SnapPy ground-truth for the wrong-root catch (holonomy_ground_truth_sage.py) ----
+# SnapPy's discrete-faithful holonomy of 4_1 (unsimplified presentation; meridian generators a,c parabolic, tr=-2)
+# gives meridian-pair trace tr(a c) = 2.5 + 0.866 i = 2 - e^{-2 i pi/3}, i.e. Riley parameter u = e^{+-2 i pi/3}
+# (root of u^2+u+1) -- NOT chat2's e^{i pi/3}. The TRAP that hid the error: tr[a,b] = u^2+2 = 1.5 +- 0.866 i for
+# BOTH roots (each squares to a primitive cube root), so the commutator trace looks right either way. The
+# discriminators are tr(ab) (linear in u: 2.5 vs 1.5) and the 2-bridge relator below.
+SNAPPY_MERIDIAN_TR_AB = complex(2.5, 0.8660254037844386)   # 2 - e^{-2 i pi/3}; our rep (u=e^{2i pi/3}) is its mirror
+
+
+def satisfies_figure_eight_relator(u):
+    """does rho (Riley param u) satisfy the 2-bridge b(5,3) relator a w = w b, w = b a^-1 b^-1 a?"""
+    a = np.array([[1, 1], [0, 1]], dtype=complex)
+    b = np.array([[1, 0], [-u, 1]], dtype=complex)
+    A, B = np.linalg.inv(a), np.linalg.inv(b)
+    w = b @ A @ B @ a
+    return np.allclose(a @ w, w @ b)
+
+
 # ---- TEST 2: the figure-eight Riley polynomial; geometric (Q(sqrt-3)) vs SU(2) arc (Q(sqrt5)) ----
 def riley_roots(meridian_eig):
     s, u = sp.symbols('s u')
@@ -129,6 +147,16 @@ if __name__ == "__main__":
     for name, t in test1_traces().items():
         print(f"  tr({name}) = {t.real:+.4f} {t.imag:+.4f}i   complex: {abs(t.imag) > 1e-9}")
     assert all(abs(t.imag) > 1e-9 for t in test1_traces().values())
+
+    print("\n=== clinching record: chat2's wrong-root catch, settled by SnapPy + the relator ===")
+    print(f"  SnapPy meridian-pair tr(ac) = {SNAPPY_MERIDIAN_TR_AB}  = 2 - e^{{-2i pi/3}}  -> u = e^{{+-2i pi/3}}")
+    print(f"  correct rep tr(ab) = {test1_traces()['ab']:.4f}  (= 2.5 -+ 0.866i, the mirror; real part 2.5 matches)")
+    for u, lbl in ((cmath.exp(2j * cmath.pi / 3), "u=e^{2i pi/3} (correct, u^2+u+1)"),
+                   (cmath.exp(1j * cmath.pi / 3), "u=e^{i pi/3} (chat2, u^2-u+1)")):
+        print(f"  relator a w = w b for {lbl}: {satisfies_figure_eight_relator(u)}")
+    assert satisfies_figure_eight_relator(cmath.exp(2j * cmath.pi / 3))
+    assert not satisfies_figure_eight_relator(cmath.exp(1j * cmath.pi / 3))
+    assert abs(test1_traces()["ab"].real - SNAPPY_MERIDIAN_TR_AB.real) < 1e-9
 
     print("\n=== TEST 2: Riley polynomial -- geometric Q(sqrt-3) vs SU(2) arc Q(sqrt5) ===")
     print(f"  meridian eig s=1 (x=2, geometric): u = {riley_roots(1)}   (e^(i pi/3), field Q(sqrt-3) -> E6)")
