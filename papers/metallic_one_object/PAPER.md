@@ -248,9 +248,17 @@ Three independent mechanisms each forbid `2O` (`↔E₇`):
    `M₂`); the object's elements are odd-trace (`disc ≡ 1 mod 4`), so `ℚ(√2)` lives at silver/even-`m`, not here.
 
 These act on different objects (a group order, a representation's reality, a field discriminant) — not one wall
-seen three ways. **An honest caveat:** `E₇` *does* appear in the TCI itself, via the coset
-`(E₇)_1⊕(E₇)_1/(E₇)_2` (`c=7/10`, verified **[banked B236]**) — a coset-algebra role, distinct from the
-McKay/congruence role from which it is excluded; no contradiction.
+seen three ways. A fourth, **geometric** mechanism now unifies the exclusion with the *selection* of `E₆+E₈`: sweep
+the figure-eight's orbifold tower (cone angle `α=2π/n`, meridian trace `x=2cos(π/n)`); the holonomy trace field
+`ℚ(x,√((5−x²)(1−x²)))` is a clean quadratic (a single McKay group) iff `x∈ℚ`, which by **Niven's theorem** holds
+only for `n∈{1,2,3,∞}` — giving exactly `E₆` (hyperbolic cusp, `ℚ(√−3)`), the Euclidean transition (`n=3`,
+degenerate), and `E₈` (spherical `ℤ/2` orbifold, `ℚ(√5)`; double cover the lens space `L(5,2)`, `det(4₁)=5`).
+`E₇`'s `ℚ(√2)` would need `x=√2` (`n=4`), irrational by Niven, so it only ever appears *mixed* (`ℚ(√2,√−3)`), never
+clean. **So the dual McKay `E₆+E₈` and the `E₇`-exclusion are one arithmetic fact** — Niven's theorem on the
+cone-manifold deformation **[banked B248/B249]** (figure-eight-specific: only `m=1` is a knot complement, so only it
+has the orbifold/determinant structure to host the transition). **An honest caveat:** `E₇` *does* appear in the TCI
+itself, via the coset `(E₇)_1⊕(E₇)_1/(E₇)_2` (`c=7/10`, verified **[banked B236]**) — a coset-algebra role, distinct
+from the McKay/congruence role from which it is excluded; no contradiction.
 
 ### 5.3 The imaginary field ladder closes
 
