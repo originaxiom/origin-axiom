@@ -95,7 +95,12 @@ The figure-eight carries two number fields, and they are one fact with a sign. I
 
 Via the McKay correspondence, `ℚ(√−3)=ℚ(ω₃)` is the character field of `2T=SL(2,F₃)` (`↔E₆`) and `ℚ(√5)=ℚ(φ)` that
 of `2I=SL(2,F₅)` (`↔E₈`). So the object carries the **dual McKay `E₆+E₈`** [banked B210]. The octahedral
-`2O` (`↔E₇`) is **overdetermined-excluded** (§5.2).
+`2O` (`↔E₇`) is **overdetermined-excluded** (§5.2). These two fields are not unrelated faces: they are the two
+**ends of the figure-eight's cone-manifold geometric transition** — the *hyperbolic* structure (complete cusp,
+`ℚ(√−3)→E₆`) and the *spherical* structure (the `ℤ/2` orbifold, whose double branched cover is the lens space
+`L(5,2)`, `|H₁|=det(4₁)=5`, holonomy `SU(2)`, `ℚ(√5)→E₈`), separated by the Euclidean point at cone angle `2π/3`.
+So `E₆+E₈` is the object's hyperbolic and spherical geometry, and the golden "5" of the `E₈` end *is* the knot
+determinant **[banked B248]**.
 
 ### 3.3 Why "5" — one cascade, not a pile-up
 

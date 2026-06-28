@@ -84,12 +84,23 @@ def centralizer_dim(factor):
 
 
 # ---- TEST 1: the geometric holonomy has complex word-traces (not SU(2)-conjugable) ----
+# NOTE (verify-don't-trust catch): chat2's handoff gave rho(b)=[[1,0],[-e^{i pi/3},1]], i.e. Riley parameter
+# u=e^{i pi/3} -- a root of u^2-u+1, NOT of the figure-eight's parabolic Riley polynomial u^2+u+1 (roots
+# e^{+-2 i pi/3}). So chat2's *explicit matrices* are NOT a valid 4_1 representation (wrong cyclotomic root). The
+# CONCLUSION survives -- the correct discrete-faithful rep (u=e^{2 i pi/3}) also has complex traces, and SnapPy
+# confirms it independently -- but we use the CORRECT matrices here.
 def test1_traces():
-    w = cmath.exp(1j * cmath.pi / 3)
+    u = cmath.exp(2j * cmath.pi / 3)               # correct figure-eight cusp parameter (root of u^2+u+1)
     a = np.array([[1, 1], [0, 1]], dtype=complex)
-    b = np.array([[1, 0], [-w, 1]], dtype=complex)
+    b = np.array([[1, 0], [-u, 1]], dtype=complex)
     tr = lambda M: M[0, 0] + M[1, 1]
     return {"ab": tr(a @ b), "[a,b]": tr(a @ b @ np.linalg.inv(a) @ np.linalg.inv(b))}
+
+
+def chat2_matrices_are_invalid_rep():
+    """chat2's stated u=e^{i pi/3} is NOT a root of the figure-eight Riley poly u^2+u+1 (the correct one)."""
+    bad = cmath.exp(1j * cmath.pi / 3)
+    return abs(bad ** 2 + bad + 1) > 1e-9          # True => chat2's matrices fail the relation
 
 
 # ---- TEST 2: the figure-eight Riley polynomial; geometric (Q(sqrt-3)) vs SU(2) arc (Q(sqrt5)) ----
