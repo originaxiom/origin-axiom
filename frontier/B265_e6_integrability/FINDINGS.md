@@ -57,3 +57,17 @@ Anchors: B264 (tangent dim = rank), B71/B89 (SL(3)/SL(4) char varieties), B260 (
 B259 (the wall map). Lit: Thurston (`H¹(ad)=1`, smoothness); Menal-Ferrer–Porti 2012 (twisted cohomology / local
 coordinates, cusped hyperbolic); Kostant (principal `sl(2)`, exponents); Dynkin (subalgebras containing the
 principal `sl(2)`); Dimofte–Gaiotto–Gukov (3d-3d type G).
+
+## Correction (2026-06-28 adversarial audit / B272)
+The headline "genuine E₆-irreducible flat connections EXIST" is **stronger than what is proven here** and is
+hereby softened. What is solid: (i) `dim H¹(Ad ρ_prin)=6=rank` (MFP, independently re-confirmed 3 ways); (ii) the
+`{4,8}` directions are **E₆-Zariski-dense** (pure Lie theory, solid). What is **not** separately established: the
+**integrability** of the `{4,8}` directions as E₆-reps. B270 computes the cup-product obstruction only for the
+`SL(2)/Sym²` (exponent-1) block; for `{4,8}` the obstruction is the `e₆`-bracket-coupled cup product
+`H¹×H¹→H²(e₆)`, which is **not computed**. The cusp mechanism (`dim H¹=#cusps`) and the general "geometric rep is a
+smooth point" principle make existence **strongly expected**, but the cited Menal-Ferrer–Porti theorem is the
+*dimension count* (`dim H¹(Sym^{2k})=#cusps`), not an E₆ *smoothness/integrability* theorem. **Honest status:**
+E₆-irreducible flat connections are *expected to exist* (rank-dimensional tangent space + Zariski-dense + cusp
+mechanism), **conditional on** integrability of the `{4,8}` directions — established for exponent 1, open for
+`{4,8}` (the residual computation: the `e₆` bracket-coupled obstruction). The verdict "they EXIST" should read
+"they are expected to exist; the tangent-level structure is established."

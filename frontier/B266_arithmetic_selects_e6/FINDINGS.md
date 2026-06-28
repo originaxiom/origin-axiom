@@ -48,3 +48,12 @@ Anchors: B247–B261 (the two-ended E₆/E₈ structure), **B256** (E₇ homeles
 co-appear), B259/B260 (the wall map / wall #2), B264/B265 (E₆-irreducible flat connections exist — *what* the
 selected type is *about*). Lit: McKay 1980 (binary polyhedral ↔ affine ADE); Maclachlan–Reid (arithmetic of
 hyperbolic 3-manifolds, figure-eight = `PSL₂(O₃)`); the classical `SL(2,𝔽₃)≅2T`, `SL(2,𝔽₅)≅2I`.
+
+## Correction (2026-06-28 adversarial audit / B272)
+The canonicity argument "`SL(2,𝔽_q)` is binary-polyhedral only for `q∈{3,5}`" is **correct**, but the stated
+reason ("`q=2` gives `S₃`; `q≥7` too large") **skipped `q=4`** — the dangerous near-miss, since `SL(2,𝔽₄)≅A₅`
+(order 60) is the *icosahedral* group, easily confused with the *binary* icosahedral `2I=SL(2,𝔽₅)`. Correct
+exclusions: `q=2→S₃` (center trivial), `q=4→A₅` (center trivial — not in `SU(2)`), `q≥7` (order `q(q²−1)` too large
+/ wrong composition factors). The **decisive criterion** is *the existence of a faithful 2-dim quaternionic
+(Frobenius–Schur `−1`) irrep* — present only for `q∈{3,5}` (`2T`, `2I`); the center-`ℤ/2` test alone is necessary
+but **not** sufficient (it passes for all odd `q`, e.g. `q=7,9`). Conclusion unchanged; justification corrected.
