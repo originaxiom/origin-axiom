@@ -60,9 +60,15 @@ invariant**. (A live chiral bridge would have required a `4₁`-specific conjuga
 ## The firewall-clean statement (the bankable core)
 > Amphicheirality forces **every** complex-conjugation-odd invariant of the object to vanish or pair — `CS=0`,
 > `L(5,2)` amphichiral, the spherical CS values `±`-paired, the `E₈` decomposition conjugate-paired, the `27↔27̄`
-> swap (H36) — so the object carries **no intrinsic CP-odd / chiral datum**: it is matter–antimatter symmetric.
-> This is a **second firewall**, independent of the dead holonomy bridge: *chirality, not the gauge group or the
-> scale, is the located obstruction to matter.*
+> swap (H36) — so the object carries **no explicit CP-odd / chiral datum**: it is *explicitly* matter–antimatter
+> symmetric. This is a **second firewall**, independent of the dead holonomy bridge: *chirality, not the gauge group
+> or the scale, is the located obstruction to matter.*
+
+> **Refinement (B253, adopting chat-2's self-correction).** "No *explicit* CP-odd datum" is the exact claim; an
+> earlier phrasing ("cannot source a matter–antimatter asymmetry") was too strong. A theory with an explicit
+> symmetry can still source asymmetry by **spontaneously breaking** it — but that requires *dynamics* (a potential,
+> vacua) **external** to the object (firewall `K018`). So the located firewall is sharper, not weaker: the object
+> supplies the symmetric seed; any breaking is external (the S040 thesis). See B253 for the full adjudication.
 
 This is all rep theory + topology — **no physical gauge group is claimed or needed**. It **extends S001**
 (`amphichirality→θ=0` = CP-symmetric) to the rep-theory/transition level and is consistent with **S002**

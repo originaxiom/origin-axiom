@@ -63,6 +63,16 @@ cap** (Euclidean methods between two Lorentzian phases). The minimal self-refere
 its own deformation, a toy "before/after" with the two exceptional geometries as its asymptotic phases and the
 golden `5` as the positive-curvature phase's torsion. This is a *rhyme*, not a model: see the negatives.
 
+## [LEAP] The chirality reduction (Chat-2, adjudicated in `B253`)
+The chirality axis coincides with the transition axis: the hyperbolic end `E₆` is **complex-rep-capable** (the 27),
+the spherical end `E₈` is **not** (248 real) — bankable rep theory (`B253` Part A). The brave reading: the
+amphicheiral involution `τ` (the `27↔27̄` swap, `H36`) could be the **symmetric seed** of a Left–Right structure
+whose *spontaneous* breaking sources chirality — *amphicheirality as the origin of chirality, not its obstruction*.
+Held as `[LEAP]`, **not** decidable from the object (`B253` Part B): `T[4₁]` is **3d** (`K006`), not the 4d where
+chirality lives; `E₆` is a McKay label, not a gauge group (`B247`); gauging `τ` is a model choice and SSB needs
+external dynamics (`K018`); and the Chern–Simons "discriminator" is **inconclusive** at `CS=0` (`τ` is gaugeable,
+both branches open). Fits the `S040` thesis: the object supplies the symmetric seed; the world supplies the breaking.
+
 ## Where this stops (the negatives, kept prominent)
 - **No scale.** The complex volume is dimensionless (`ℂ/4π²ℤ`, `K018`/`B151`); every dimensionful ingredient
   (`ℏ↔k`, the squashing radius) is external. The transition produces *structure*, never a *scale*.
@@ -70,13 +80,13 @@ golden `5` as the positive-curvature phase's torsion. This is a *rhyme*, not a m
   bounce is a `[LEAP]`; the math is a static deformation of flat connections.
 - **No gauge group, no matter.** `B247` is final; `E₆/E₇/E₈` here are **McKay / Arnold-trinity labels**, not gauge
   groups. The cosmology is **3d**, not 4d spacetime.
-- **The chirality question is settled and points the wrong way** (`B252`, adjudicating the Chat-2 obstruction):
-  every complex-conjugation-odd invariant of the object vanishes or pairs (`CS=0`; `L(5,2)` amphichiral; spherical
-  CS `±`-paired; the `E₈` decomposition conjugate-paired; the `27↔27̄` swap of `H36`), so the object carries **no
-  intrinsic CP-odd / chiral datum** — a *second* firewall (chirality, not gauge/scale), extending `S001`
-  (`amphichirality→θ=0`) and grounded in `H36` (amphicheirality = the E₆ outer automorphism). The bare
-  amphicheirality is **universal** across the metallic family; its `E₆/27↔27̄` realization is `m=1`-specific. No E₆
-  gauge group is needed or claimed.
+- **The explicit-chirality direction is settled and points the wrong way** (`B252`, adjudicating the Chat-2
+  obstruction): every complex-conjugation-odd invariant of the object vanishes or pairs (`CS=0`; `L(5,2)`
+  amphichiral; spherical CS `±`-paired; the `E₈` decomposition conjugate-paired; the `27↔27̄` swap of `H36`), so the
+  object carries **no explicit CP-odd / chiral datum** — a *second* firewall (chirality, not gauge/scale), extending
+  `S001` (`amphichirality→θ=0`) and grounded in `H36`. The bare amphicheirality is **universal** across the metallic
+  family; its `E₆/27↔27̄` realization is `m=1`-specific. No E₆ gauge group is needed or claimed. (A *spontaneous*
+  breaking of `τ` could still source chirality — but that needs external dynamics; the `[LEAP]` below, `B253`.)
 
 ## Speculation → calculation
 
