@@ -70,8 +70,13 @@ golden `5` as the positive-curvature phase's torsion. This is a *rhyme*, not a m
   bounce is a `[LEAP]`; the math is a static deformation of flat connections.
 - **No gauge group, no matter.** `B247` is final; `E₆/E₇/E₈` here are **McKay / Arnold-trinity labels**, not gauge
   groups. The cosmology is **3d**, not 4d spacetime.
-- **The chirality question is open and points the wrong way** — see the incoming Chat-2 obstruction (handled
-  separately): the object's symmetries look `27↔27̄`-symmetric, i.e. matter–antimatter symmetric.
+- **The chirality question is settled and points the wrong way** (`B252`, adjudicating the Chat-2 obstruction):
+  every complex-conjugation-odd invariant of the object vanishes or pairs (`CS=0`; `L(5,2)` amphichiral; spherical
+  CS `±`-paired; the `E₈` decomposition conjugate-paired; the `27↔27̄` swap of `H36`), so the object carries **no
+  intrinsic CP-odd / chiral datum** — a *second* firewall (chirality, not gauge/scale), extending `S001`
+  (`amphichirality→θ=0`) and grounded in `H36` (amphicheirality = the E₆ outer automorphism). The bare
+  amphicheirality is **universal** across the metallic family; its `E₆/27↔27̄` realization is `m=1`-specific. No E₆
+  gauge group is needed or claimed.
 
 ## Speculation → calculation
 
