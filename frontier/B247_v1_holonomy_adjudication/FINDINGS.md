@@ -65,6 +65,26 @@ motivation."
 - **Firewall:** holds, sharply located — exactly the program's recurring shape (the gauge group is real, the
   arithmetic E₆ selection is real, the *link* runs through an identification the object does not force).
 
+## Compactness refinement (does `C_{E₆}(SU(2))=SU(6)` depend on compact vs non-compact?)
+A sharper reading of the SL(2,ℂ)-vs-SU(2) distinction above. The answer has three layers:
+- **Complex type — real-form-independent.** `C_{𝔢₆(ℂ)}(𝔞₁)=𝔞₅=𝔰𝔩(6,ℂ)` is the algebraic branching `E₆⊃A₁×A₅`
+  (`78=(3,1)+(1,35)+(2,20)`, the `(2,20)` has no `A₁`-singlet; Sage dim-check confirmed). So "the centralizer is
+  *a real form of* SL(6)" holds in **every** real form.
+- **The real form — compactness-dependent.** Same `A₁` has two real forms (`su(2)` compact, `sl(2,ℝ)` split, both
+  3-dim). Compact `SU(2)⊂` compact `E₆(−78)` → **compact `SU(6)`** (this probe's number); split `SL(2,ℝ)⊂E₆(6)` →
+  a **non-compact** real form of `SL(6)`. Same complex type, different real form.
+- **The holonomy is neither — it is `SL(2,ℂ)` (the complex group, real-dim 6), not a real form of `A₁`.** Its real
+  Lie algebra complexifies to `𝔰𝔩(2,ℂ)⊕𝔰𝔩(2,ℂ)` (two commuting `A₁`'s). Two consequences that **sharpen** the
+  verdict: (1) `SL(2,ℂ)` has **no nontrivial finite-dimensional unitary representation**, so there is *no*
+  nontrivial homomorphism `SL(2,ℂ)→` compact `E₆` at all — the compact GUT `E₆` (the one with the complex `27`,
+  the McKay structure) simply has no hyperbolic-holonomy subgroup to be broken by; (2) where it *can* sit (a
+  non-compact `E₆`), `SL(2,ℂ)⊃SU(2)` forces `C(SL(2,ℂ))⊆C(SU(2))`, strictly smaller **and** non-compact.
+
+So `SU(6)` is the correct answer to *"what does the compact long-`SU(2)` centralize in compact `E₆`"* — robust at
+the complex level — but the **actual hyperbolic holonomy cannot break the compact GUT `E₆` for a cleaner reason than
+the centralizer's size**: there is no embedding to begin with (a compact group cannot host a non-compact `SL(2,ℂ)`).
+This is the strongest form of the firewall on this corridor and does not change the verdict.
+
 Credit: chat 2 substantially right on the decisive point; this probe additionally corrects the V1 "positive" on
 both desks. Anchors: B210 (dual McKay E₆+E₈), B71 (SL(3,ℂ) char variety), B239 (the `disc=−4` floor / `ℚ(√−3)`),
 PAPER §5.1/§5.4 (firewall). Literature: Heckman–Vafa arXiv:0806.0102 (E₆⊃SU(3)×G₂); Riley (2-bridge char varieties);
