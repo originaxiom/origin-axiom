@@ -79,3 +79,10 @@ large primes; all six exponent directions + a generic combination; Schwartz–Zi
 second order in *every* direction. Status upgrade: "expected to exist" → **"established to second order — the
 leading obstruction vanishes identically."** The only remaining gap is all-orders smoothness (higher Massey
 products), expected by the same cusp mechanism as `SL(2)` but not separately computed.
+
+## Update (2026-06-28 / B274) — existence is now unconditional
+Following B273 (2nd-order), **B274** establishes that `ρ_prin` is a **smooth point** of the E₆ character variety
+(dim 6 = rank) via the boundary/cusp MFP criterion + the vanishing cubic obstruction. The {4,8} E₆-irreducible flat
+connections therefore **exist unconditionally** (all orders). Status of B265's headline: "E₆-irreducible flat
+connections exist" — now established (smooth point), with the single honest caveat that the MFP smoothness
+*criterion* is cited, not re-derived in-sandbox (the same footing as the SL(2)/Thurston statement).
