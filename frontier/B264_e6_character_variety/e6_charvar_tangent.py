@@ -90,6 +90,7 @@ def _rank(M, tol=mp.mpf(10) ** (-50)):
 
 def H1_sym(k):
     """dim H^1(pi_1(4_1), Sym^{2k}(rho_geo))."""
+    mp.mp.dps = 80   # self-guard: _rank's tol=1e-50 needs >=~55 dps; don't trust the module-load global to survive
     n = 2 * k
     S = {g: symn(BASE[g], n) for g in "ab"}
     Si = {g: symn(BASE[g.upper()], n) for g in "ab"}

@@ -69,6 +69,7 @@ def trapped_exponents():
 
 # (2) Integrability: dim H^2(pi_1(4_1), Sym^{2k}) via the Fox complex (H^2 = coker d1 = dim V - rank d1).
 def H2_sym(k):
+    mp.mp.dps = 80   # self-guard: b264._rank's tol=1e-50 needs >=~55 dps; don't trust the module-load global
     n = 2 * k
     S = {g: b264.symn(b264.BASE[g], n) for g in "ab"}
     Si = {g: b264.symn(b264.BASE[g.upper()], n) for g in "ab"}

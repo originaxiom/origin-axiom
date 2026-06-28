@@ -49,6 +49,7 @@ RAMIFIED_PRIME = 3                                        # unique ramified prim
 
 def in_ring_of_integers(x, tol=mp.mpf(10) ** -20):
     """Is x in Z[zeta_3] = O_{Q(sqrt-3)}? Returns (bool, a, b) with x = a + b*zeta_3, a,b in Z."""
+    mp.mp.dps = 60   # self-guard against mpmath global-dps pollution across the test suite
     b = 2 * x.imag / mp.sqrt(3)
     a = x.real + b / 2
     ai, bi = mp.nint(a), mp.nint(b)
@@ -57,6 +58,7 @@ def in_ring_of_integers(x, tol=mp.mpf(10) ** -20):
 
 def jones_sequence(order, n_terms=15):
     """J_N(4_1; q) at q = a primitive `order`-th root of unity, N=1..n_terms, as (a,b) in Z[zeta_3]."""
+    mp.mp.dps = 60   # self-guard against mpmath global-dps pollution across the test suite
     q = mp.e ** (2j * mp.pi / order)
     return [in_ring_of_integers(colored_jones(N, q))[1:] for N in range(1, n_terms + 1)]
 
@@ -69,12 +71,14 @@ def detect_period(seq):
 
 
 def all_integral(order, n_terms=15):
+    mp.mp.dps = 60   # self-guard against mpmath global-dps pollution across the test suite
     q = mp.e ** (2j * mp.pi / order)
     return all(in_ring_of_integers(colored_jones(N, q))[0] for N in range(1, n_terms + 1))
 
 
 def ramification_holds():
     """(1 - zeta_3)(1 - zeta_3^2) = 3 exactly => 3 ramifies in Q(sqrt-3)."""
+    mp.mp.dps = 60   # self-guard against mpmath global-dps pollution across the test suite
     z = mp.e ** (2j * mp.pi / 3)
     return abs((1 - z) * (1 - z ** 2) - 3) < mp.mpf(10) ** -40
 
