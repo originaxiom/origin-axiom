@@ -71,3 +71,11 @@ E₆-irreducible flat connections are *expected to exist* (rank-dimensional tang
 mechanism), **conditional on** integrability of the `{4,8}` directions — established for exponent 1, open for
 `{4,8}` (the residual computation: the `e₆` bracket-coupled obstruction). The verdict "they EXIST" should read
 "they are expected to exist; the tangent-level structure is established."
+
+## Update (2026-06-28 / B273) — the flagged residual is now computed
+The integrability gap flagged above (the `e₆`-bracket-coupled obstruction for the `{4,8}` directions) has been
+**computed** in **B273**: the full quadratic cup product `H¹×H¹→H²(e₆)` is **identically zero** (exact mod two
+large primes; all six exponent directions + a generic combination; Schwartz–Zippel). So `ρ_prin` is unobstructed to
+second order in *every* direction. Status upgrade: "expected to exist" → **"established to second order — the
+leading obstruction vanishes identically."** The only remaining gap is all-orders smoothness (higher Massey
+products), expected by the same cusp mechanism as `SL(2)` but not separately computed.

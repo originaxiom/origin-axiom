@@ -65,3 +65,9 @@ unproven conjecture (input = output E₆), and the map was silent on family repl
 Anchors: B262–B271 (the arc), B259/B268 (the 5-wall map), B257 (the ℤ/3 ≠ 3 generations), B254/B207 (SM-content
 negatives), S042/S043 (the Λ firewall). Method: two adversarial general-purpose audit agents + SnapPy/GAP/sympy
 hand-checks.
+
+## Update (2026-06-28 / B273) — the B265 residual is resolved
+The "residual open item" recorded above for B265 (the uncomputed `e₆`-bracket-coupled `{4,8}` obstruction) has been
+**computed in B273**: the full quadratic cup product `H¹×H¹→H²(e₆)` is **identically zero** (exact, two primes, all
+directions + generic). B265's status moves from "expected to exist" to "established to second order." The remaining
+gaps in the extended map (the `input-E₆=output-E₆` CRUX; family replication; SM matter; the Λ-sign) are unchanged.
