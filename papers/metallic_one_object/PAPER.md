@@ -109,8 +109,12 @@ Every appearance of `5` traces to the single discriminant `n=m²+4=5` at `m=1`: 
 and the conductor's 5-part. The genuinely independent fact is that `n=5` is *simultaneously* the smallest metallic
 discriminant, prime, `≡1 (mod 4)` (so `ℚ(√5)` is real), and equal to `4+1` (the ordinary–super overlap index) —
 these are algebraic consequences of `n` being the smallest metallic discriminant that is prime, not five separate
-miracles **[banked B233]**. This is exactly the kind of "5 everywhere" observation that needs the discipline of §4
-to be a *result* rather than numerology.
+miracles **[banked B233]**. The same `5` reappears **geometrically** as the knot determinant `det(4₁)=5` — the
+order of `H₁` of the spherical end's double branched cover `L(5,2)=S³/ℤ₅` (§5.2) — and quantitatively as the
+**spherical-end volume** `Vol=π²/5` and its Chern–Simons in `(1/5)ℤ`, while the hyperbolic-end `−3` sits in the
+ideal-tetrahedron shape `e^{iπ/3}` (`Vol=6Λ(π/3)`): one geometric quantity, the complex volume across the
+hyperbolic↔spherical transition, carries both arithmetic invariants **[banked B248/B249/B250]**. This is exactly the
+kind of "5 everywhere" observation that needs the discipline of §4 to be a *result* rather than numerology.
 
 ## 4. The specificity filter, and controls
 
