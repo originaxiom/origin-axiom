@@ -39,6 +39,19 @@ def test_chat2_matrices_used_the_wrong_root():
     assert b247.chat2_matrices_are_invalid_rep()
 
 
+def test_snappy_ground_truth_relator_discriminator():
+    # clinching record: only u=e^{2i pi/3} satisfies the 2-bridge relator a w = w b (chat2's e^{i pi/3} fails);
+    # SnapPy meridian-pair tr(ac)=2.5+0.866i => u=e^{+-2i pi/3}, real(tr(ab))=2.5 (chat2's would give 1.5)
+    import cmath
+    assert b247.satisfies_figure_eight_relator(cmath.exp(2j * cmath.pi / 3))
+    assert not b247.satisfies_figure_eight_relator(cmath.exp(1j * cmath.pi / 3))
+    assert abs(b247.SNAPPY_MERIDIAN_TR_AB.real - 2.5) < 1e-9
+    assert abs(b247.test1_traces()["ab"].real - b247.SNAPPY_MERIDIAN_TR_AB.real) < 1e-9
+    # the trap: tr[a,b]=u^2+2 = 1.5 +- 0.866i for BOTH roots (does NOT discriminate)
+    for u in (cmath.exp(2j * cmath.pi / 3), cmath.exp(1j * cmath.pi / 3)):
+        assert abs((u ** 2 + 2).real - 1.5) < 1e-9
+
+
 def test2_su2_arc_is_golden_and_distinct_field():
     s5 = sp.sqrt(5)
     r0 = set(b247.riley_roots(sp.I))
