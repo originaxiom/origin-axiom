@@ -293,6 +293,45 @@ spacetime. The framework search (`speculations/S041`) confirms every external-fr
 F-theory / NCG / moonshine) is a **structural rhyme, no crossing**; the firewall holds. Nothing here promotes to
 `CLAIMS.md`; the program's physics aims stay firewalled (§8).
 
+## 9d. Addendum (2026-06-28) — the E₆ bridge `[B262–B267]`
+
+After §9c, the **quantum face was pushed toward its 3d–3d / character-variety regime**, following a redirect (the
+right object for a type-$E_6$ 3d–3d theory is the **$E_6$ character variety** of $\pi_1(4_1)$ — the flat
+$E_6$ connections — *not* the geometric $\mathrm{SL}(2,\mathbb{C})$ holonomy). Six banked results (each
+`[banked B#]`, all firewalled) turned the long-asserted "figure-eight $\leftrightarrow E_6$" link into a verified
+mathematical structure:
+
+- **$T[4_1]$ reconstructed and pinned** `[B262/B263]`. The 3d $\mathcal{N}=2$ theory from two tetrahedra:
+  $U(1)$ gauge $+$ two chirals $+$ monopole superpotential, with the Chern–Simons frame fixed by the
+  Neumann–Zagier symplectic data (unit BF coupling to the meridian).
+- **The $E_6$ character variety is rank-dimensional** `[B264]`. Under the principal $\mathfrak{sl}(2)\to\mathfrak{e}_6$,
+  the adjoint splits by the $E_6$ **exponents** $\{1,4,5,7,8,11\}$; an exact Fox-calculus computation gives
+  $\dim H^1(\pi_1(4_1),\mathrm{Sym}^{2k})=1$ for all $k$ (matching Menal-Ferrer–Porti / Thurston), so
+  $\dim H^1(\mathrm{Ad}\,\rho_{\mathrm{prin}})=6=\mathrm{rank}(E_6)$ — strictly larger than the dim-1
+  $\mathrm{SL}(2)$ curve, with the directions $\{4,8\}$ lying **beyond $F_4$**.
+- **Genuine $E_6$-irreducible flat connections exist** `[B265]`. The $\{4,8\}$ deformations integrate (the
+  geometric rep is a smooth point) and are **$E_6$-Zariski-dense** (in $\mathfrak{e}_6$,
+  $\langle$principal $\mathfrak{sl}(2),\,\exp 4/8\rangle=\mathfrak{e}_6$ (78); $\exp 5/7/11$ stay trapped in
+  $\mathfrak{f}_4$ (52)).
+- **The arithmetic *selects* $E_6$** `[B266]`. The trace field $\mathbb{Q}(\sqrt{-3})$ has unique ramified prime
+  $3$; reduction mod $\mathfrak{p}=(\sqrt{-3})$ sends the figure-eight group **onto** $\mathrm{SL}(2,\mathbb{F}_3)=2T$
+  (binary tetrahedral), whose McKay graph is affine $E_6$. One mechanism gives the **two ends** ($\mathbb{Q}(\sqrt 5)$
+  ramifies at $5\to\mathrm{SL}(2,\mathbb{F}_5)=2I\to E_8$) and explains **$E_7$'s homelessness** ($2O$ is never
+  $\mathrm{SL}(2,q)$ — reproducing `[B256]`).
+- **The two $E_6$'s coincide** `[B267]`. The McKay-$E_6$ (arithmetic) and the character-variety-$E_6$ (geometric)
+  agree on five invariants — the McKay graph (affine node removed) **reproduces** $B264$'s exponents; $h=12$,
+  $\#\text{roots}=36$, $\dim=78$, and $\mathrm{Molien}(2T)=(1+q^{12})/((1-q^6)(1-q^8))$ all match. They are **one
+  $E_6$**.
+
+**Where this sits.** This is a **further deepening of Face IV** — the quantum face read in its 3d–3d /
+flat-connection regime — *not* a fifth face, and emphatically **not** a Standard-Model claim. What is established is
+the **symmetry side**: the figure-eight genuinely carries $E_6$, coherently, from arithmetic and from geometry. The
+**five-wall map** (`B259`) is updated accordingly (`B268`): wall #1 (SL(2,ℂ) vs compact $E_6$) **dissolves** (it was
+the Coulomb branch, and $E_6$-irreducible connections exist); wall #2 (type selection) **reduces** to a single
+physics conjecture ("does the 3d–3d *input* type equal the arithmetic type?") with no Lie-theoretic obstruction
+left; walls #3 (chirality), #4 (4d-lift), and #5 (scale/DESI, a 122-order gap) stand. The firewall holds exactly
+where it should — symmetry yes; scale, chirality, and dynamics must still enter from outside the object.
+
 ## 10. References (by face; standard in the area)
 - **Char. variety / trace map:** Fricke–Vogt; W. Goldman (trace coordinates, MCG action); Cantat–Loray (AIF 2009).
 - **Geodesic / dynamical degree:** Cantat–Loray; classical hyperbolic geometry of $\mathbb{H}/\mathrm{SL}(2,\mathbb{Z})$.
