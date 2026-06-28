@@ -53,3 +53,10 @@ characterized** (input-required). Both remain **open** — honestly. With B268 (
 Anchors: B252/B253 (CP-symmetry, the SSB dichotomy), B210/H36 (amphicheirality = E₆ outer automorphism), B264/B265
 (the `{4,8}` E₆-density directions), B267 (exponents), B268 (wall map v2), B250 (`CS=0`), K006/K018 (3d-3d / the
 firewall). Lit: the symmetric pair `(E₆,F₄)`; Gaiotto (class S); Dimofte–Gaiotto–Gukov (3d-3d).
+
+## Novelty (R6, 2026-06-28)
+**PARTIALLY-KNOWN.** Symmetry acting on a (higher-rank) character variety is standard (Heusener–Muñoz–Porti's `D₄`
+action on the SL(3) variety of `4₁`; Paoluzzi–Porti); the `(E₆,F₄)` symmetric pair / E₆ outer automorphism is
+textbook. The **identification** — a knot's amphichirality realized *as* the E₆ outer automorphism, chirality locus
+= the `26 = e₆/f₄` — was not found in prior art; APPEARS-NOVEL as a framing, NEEDS-SPECIALIST. See
+`frontier/B264_e6_character_variety/NOVELTY.md`, `docs/NOVELTY_AUDIT.md` R6.

@@ -218,3 +218,35 @@ substitute for the specialist; that is the H2 lead, and it remains genuinely ope
 
 **Method note (MB6, `../REPRODUCIBILITY.md`):** reproduction ≠ interpretation. **Method note (this audit):** "appears
 novel" requires an adversarial prior-art search, not absence-of-memory — here it downgraded two of three.
+
+---
+
+## R6 — the E₆-bridge arc (B262–B277), 2026-06-28
+
+Adversarial deep-research pass (workflow `wa2zghuze`, ~30 agents) on four claims. Full per-claim citations in
+`frontier/B264_e6_character_variety/NOVELTY.md`. Summary:
+
+- **CLAIM 1 — E₆ character variety dim H¹=rank, ρ_prin smooth (B264/B273/B274/B275): KNOWN (framework).** The
+  dimension count is **Falbel–Guilloux 2015** (general reductive `G`, incl. E₆: `dim ≥ cusps·rank` for `χ=0`); the
+  smoothness/cohomology is **Menal-Ferrer–Porti** (twisted cohomology + half-lives injection; SL(n) local
+  coordinates via principal-composed holonomy), applying **termwise** to the Kostant exponents `Sym^{2mᵢ}`. The
+  higher-rank `4₁` program (Falbel-FGKRT, Heusener–Muñoz–Porti) stops at SL(3). **B264/B273/B274/B275 = a worked E₆
+  instance + explicit (mod-p) cup-product computation, NOT a new theorem** (B274 already cites the criterion).
+- **CLAIM 2 — arithmetic selection (B266): PARTIALLY-KNOWN.** Reduction `knot group → SL(2, residue field)` is
+  standard (Long–Reid; Chinburg–Reid–Stover *ramified*; Şengün; Riley `4₁↠SL(2,𝔽₃)`); McKay `2T↔E₆/2I↔E₈/2O↔E₇`
+  textbook (Dechant). The **selection-rule overlay** (ramified-prime → binary-polyhedral → McKay-ADE, with E₇
+  homeless because `2O≠SL(2,q)`) was **not found** in prior art — **APPEARS-NOVEL, modest, NEEDS-SPECIALIST**.
+- **CLAIM 3 — quantum arithmetic (B276): KNOWN.** Quantum modularity (Garoufalidis–Zagier; Bettin–Drappeau), Habiro
+  expansion, `Li₂(ζ₆)` volume are standard; B276's `ζ₃`-residue degeneration is a minor observation within it
+  (consistent with its self-labelled PARTIAL/coherence).
+- **CLAIM 4 — amphichirality = E₆ outer automorphism (B271): PARTIALLY-KNOWN.** Symmetry-on-character-variety
+  standard (Heusener–Muñoz–Porti; Paoluzzi–Porti); `(E₆,F₄)` symmetric pair textbook. The **identification**
+  (amphichirality realized as the E₆ outer automorphism; chirality locus = the 26) **not found** — APPEARS-NOVEL as
+  a framing, NEEDS-SPECIALIST.
+
+**Net:** the load-bearing existence math is essentially KNOWN (Falbel–Guilloux + MFP applied to E₆). The only
+candidate-novel kernels are the CLAIM-2 selection overlay and the CLAIM-4 framing — both modest and pending a
+specialist. Honest framing: **cite Falbel–Guilloux / Menal-Ferrer–Porti / Falbel-FGKRT / Heusener–Muñoz–Porti /
+Long–Reid / Chinburg–Reid–Stover / Dechant / Garoufalidis–Zagier; claim no novelty for existence/dimension/
+smoothness.** Nothing to `CLAIMS.md`. (Method note: this pass DOWNGRADED the core claim — adversarial search beats
+absence-of-memory, again.)

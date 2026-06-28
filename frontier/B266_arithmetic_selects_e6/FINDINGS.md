@@ -57,3 +57,10 @@ exclusions: `q=2→S₃` (center trivial), `q=4→A₅` (center trivial — not 
 / wrong composition factors). The **decisive criterion** is *the existence of a faithful 2-dim quaternionic
 (Frobenius–Schur `−1`) irrep* — present only for `q∈{3,5}` (`2T`, `2I`); the center-`ℤ/2` test alone is necessary
 but **not** sufficient (it passes for all odd `q`, e.g. `q=7,9`). Conclusion unchanged; justification corrected.
+
+## Novelty (R6, 2026-06-28)
+**PARTIALLY-KNOWN.** Reduction `knot group → SL(2, residue field of a trace-field prime)` is standard (Long–Reid
+1998; Chinburg–Reid–Stover 2011 for *ramified* primes; Şengün; Riley for `4₁↠SL(2,𝔽₃)`); McKay `2T↔E₆/2I↔E₈`
+textbook (Dechant). The **arithmetic-selection overlay** (ramified prime → binary-polyhedral → McKay-ADE as a
+*selection rule*, E₇ homeless because `2O≠SL(2,q)`) was not found in prior art — APPEARS-NOVEL, modest,
+NEEDS-SPECIALIST. See `frontier/B264_e6_character_variety/NOVELTY.md`, `docs/NOVELTY_AUDIT.md` R6.

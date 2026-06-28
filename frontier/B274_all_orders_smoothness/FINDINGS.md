@@ -44,3 +44,10 @@ remaining honesty note is shared with the whole program: the MFP smoothness *cri
 Anchors: B264 (dim H¹=6=rank), B265 (existence/density), B270 (per-block cusp mechanism, half-lives), B273 (quadratic
 obstruction = 0). Lit: Heusener–Porti; Menal-Ferrer–Porti (twisted cohomology / smoothness for hyperbolic
 3-manifold reps); Thurston (SL(2) smoothness); Goldman (obstruction theory).
+
+## Novelty (R6, 2026-06-28)
+**KNOWN (framework).** The dim-`= rank` count is **Falbel–Guilloux 2015** (general reductive `G`, incl. E₆); the
+smooth-point/cohomology mechanism is **Menal-Ferrer–Porti** (the criterion this result cites), applying termwise to
+the Kostant exponents. B274 (and B264/B273/B275) is a **worked E₆ instance with explicit computation, not a new
+theorem** — consistent with the honest footnote above (criterion cited, not re-derived). See
+`frontier/B264_e6_character_variety/NOVELTY.md`, `docs/NOVELTY_AUDIT.md` R6.
