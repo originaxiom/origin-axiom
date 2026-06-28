@@ -250,3 +250,21 @@ specialist. Honest framing: **cite Falbel–Guilloux / Menal-Ferrer–Porti / Fa
 Long–Reid / Chinburg–Reid–Stover / Dechant / Garoufalidis–Zagier; claim no novelty for existence/dimension/
 smoothness.** Nothing to `CLAIMS.md`. (Method note: this pass DOWNGRADED the core claim — adversarial search beats
 absence-of-memory, again.)
+
+### R6 addendum (2026-06-28) — full-synthesis refinements + a verified asymmetry
+The deep-research synthesis (workflow `wa2zghuze`, 105 agents, 24/25 claims confirmed) **confirmed** the R6 verdicts
+and added:
+- **CLAIM 1** — precise prior art: Menal-Ferrer–Porti **arXiv:1001.2242** (Thm 0.4 smoothness; Thm 0.3
+  `dim H¹=l(n−1)`), **arXiv:1111.4338** (Thm 3.1), **arXiv:1110.3718** (composed-holonomy torsion). A 2026
+  exceptional-group generalization (arXiv:2603.00816) was *flagged but is post-cutoff and unverified* — a lead that,
+  if genuine, pushes CLAIM 1 fully to KNOWN.
+- **CLAIM 2** — a **verified asymmetry**: Stuebner 2025 (arXiv:2502.06488) shows `pi_1(4_1)` does not surject onto
+  `A_5`; **re-verified in-sandbox** (GAP `GQuotients`: `2T`→2, `A_5`→0, `2I`→0). The E₆ end is a genuine figure-eight
+  *group* surjection (`4_1↠2T`); the E₈ end (`det=5`, `ℚ(√5)`) is **field-level only** — the two ramified-prime
+  "reductions" are symmetric only as fields, not as group surjections. (frontier/B266 correction.)
+- **CLAIM 3** — the canonical framework is **Garoufalidis–Scholze–Wheeler–Zagier 2024** ("The Habiro ring of a
+  number field", arXiv:2412.04241; `K_3`-graded, Frobenius-glued, Bloch-group modules); colored-Jones Habiro lift
+  arXiv:2603.01619 (post-cutoff lead). Verdict KNOWN, unchanged.
+- **CLAIM 4** — the official verdict is **NEEDS-SPECIALIST** (zero verified prior art — an *absence of coverage*,
+  not confirmed novelty); the components (amphichirality; the `(E₆,F₄)=EIV` symmetric pair) are individually
+  standard, only the *identification* is uninvestigated.
