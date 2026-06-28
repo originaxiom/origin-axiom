@@ -30,9 +30,14 @@ object-specific, not more.
 
 ### (Bridge) "the figure-eight's geometric holonomy lives in SU(2)_long" — **FALSE as stated (chat2 right, decisive)**
 - **Test 1 (geometric ≠ SU(2)):** the discrete-faithful holonomy has genuinely complex word-traces
-  (`tr(ab)=tr[a,b]'=3/2±√3/2·i ∈ ℚ(√−3)`) — confirmed from chat2's explicit matrices *and* independently from
-  SnapPy. An SU(2) rep needs all word-traces real in `[−2,2]`, so the geometric holonomy is **not** SU(2)-conjugable
-  (as a hyperbolic = non-compact holonomy must be).
+  (commutator trace `[a,b]=(3−√−3)/2=3/2−√3/2·i ∈ ℚ(√−3)`) — confirmed from the correct matrices *and*
+  independently from SnapPy. An SU(2) rep needs all word-traces real in `[−2,2]`, so the geometric holonomy is
+  **not** SU(2)-conjugable (as a hyperbolic = non-compact holonomy must be).
+  - *Verify-don't-trust catch on chat2's matrices:* chat2 gave `ρ(b)=[[1,0],[−e^{iπ/3},1]]` (Riley `u=e^{iπ/3}`),
+    but `e^{iπ/3}` is a root of `u²−u+1`, **not** of the figure-eight's parabolic Riley polynomial `u²+u+1` (roots
+    `e^{±2iπ/3}`). So chat2's *explicit matrices are not a valid `4₁` representation* (wrong cyclotomic root). The
+    **conclusion survives** — the correct rep (`u=e^{2iπ/3}`) also has complex traces (the value above), and SnapPy
+    confirms it — but the matrices were wrong; we use the corrected ones.
 - **Test 2 (the SU(2) reps are a different family — and a different field):** the figure-eight's Riley polynomial
   `u² − (x²−5)u − (x²−5) = 0` gives, at meridian trace `x=0`, `u=−(2±√5)/2 ∈ ℚ(√5)` (real) with `tr(ab)=φ` or
   `−1/φ` — genuine non-abelian **SU(2)** reps. They sit on a *different* component from the geometric one, with a

@@ -27,10 +27,16 @@ def test_centralizer_corrected():
 
 
 def test1_geometric_holonomy_is_not_su2():
-    # complex word-traces => not SU(2)-conjugable; tr(ab) = 3/2 - sqrt3/2 i
+    # complex word-traces => not SU(2)-conjugable; the CORRECT rep (u=e^{2 i pi/3}) gives the Eisenstein
+    # commutator trace [a,b] = (3-sqrt(-3))/2 = 1.5 - sqrt3/2 i  (matches SnapPy's discrete-faithful holonomy)
     tr = b247.test1_traces()
     assert all(abs(t.imag) > 1e-9 for t in tr.values())
-    assert abs(tr["ab"] - complex(1.5, -3 ** 0.5 / 2)) < 1e-9
+    assert abs(tr["[a,b]"] - complex(1.5, -3 ** 0.5 / 2)) < 1e-9
+
+
+def test_chat2_matrices_used_the_wrong_root():
+    # verify-don't-trust catch: chat2's u=e^{i pi/3} is NOT a root of the figure-eight Riley poly u^2+u+1
+    assert b247.chat2_matrices_are_invalid_rep()
 
 
 def test2_su2_arc_is_golden_and_distinct_field():
