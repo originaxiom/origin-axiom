@@ -332,6 +332,39 @@ physics conjecture ("does the 3d–3d *input* type equal the arithmetic type?") 
 left; walls #3 (chirality), #4 (4d-lift), and #5 (scale/DESI, a 122-order gap) stand. The firewall holds exactly
 where it should — symmetry yes; scale, chirality, and dynamics must still enter from outside the object.
 
+## 9e. Addendum (2026-06-28) — the E₆ bridge, completed and bounded `[B273–B278]`
+
+After §9d, a post-audit push (prompted by the `B272` adversarial verification) **closed the existence story** and
+**made the remaining walls precise**, all firewalled:
+
+- **Existence is unconditional** `[B273/B274/B275]`. The residual `B272` flagged — was the $\{4,8\}$ deformation
+  actually *integrable*? — is resolved. `B273`: the $\mathfrak{e}_6$-bracket-coupled **quadratic cup product**
+  $H^1\times H^1\to H^2(\mathfrak{e}_6)$ **vanishes identically** (exact mod two primes; all six exponent directions
+  $+$ a generic combination; Schwartz–Zippel). `B274`: $\rho_{\mathrm{prin}}$ is a **smooth point** of the $E_6$
+  character variety (dim $6=\mathrm{rank}$), via the boundary/cusp Menal-Ferrer–Porti criterion (certificates
+  $\dim H^1(M)=6$, regular meridian $\ker(\mathrm{ad}\,e)=6$, $\dim H^1(\partial M)=12=2\,\mathrm{rank}$) and the
+  cubic third-order obstruction also $=0$. `B275`: an **explicit** $(A,B)$ flat $E_6$ connection ($|R-I|\sim 8\times
+  10^{-8}$, nonzero $\{4,8\}$). So "$E_6$-irreducible flat connections exist" is now **proven (all orders) with a
+  concrete witness** — upgrading `B265`'s status: expected → 2nd-order → **smooth point**.
+- **The quantum invariant's arithmetic is the $2T$ field** `[B276]`. The colored Jones of $4_1$ at the trace-field
+  roots $\zeta_3,\zeta_6$ degenerates into $\mathbb{Z}[\zeta_3]=\mathcal{O}_{\mathbb{Q}(\sqrt{-3})}$, with
+  $(1-\zeta_3)(1-\zeta_3^2)=3$ — the $E_6$-end companion to the $\zeta_5/E_8$ result `[B261]`. A genuine
+  **coherence** (Z's special-value field $=$ the field whose ramified prime gives $2T$=McKay-$E_6$), **not** a
+  settlement of wall #2.
+- **Wall #4 made precise** `[B277]`. The figure-eight is a once-punctured-torus *bundle*, so it has a canonical
+  surface (fiber $\Sigma_{1,1}$) and monodromy $\varphi=RL\in\mathrm{SL}(2,\mathbb{Z})$; class-S of the fiber is
+  $\mathcal{N}=2^\ast\,\mathrm{SU}(2)$, with $\varphi$ an **S-duality** element and $T[4_1]$ its duality wall. A
+  *chiral* 4d SM is blocked by **two named inputs**: the $\mathcal{N}=2\to\mathcal{N}=1$ datum (= wall #3) and the
+  free type $G$ (= the CRUX). Not "no lift" — a precise input-required result.
+
+**The honest bound `[B278]`.** Wall map **v3** records the **single load-bearing conjecture** —
+$\text{input-}E_6=\text{output-}E_6$ (the 3d–3d/class-S input type is free; the arithmetic fixes only the output) —
+and, fixing a gap `B272` found, **adds the previously-missing walls explicitly**: family replication (3 generations;
+the $\mathbb{Z}/3$ is the Eisenstein cube-root, not three families), SM matter / $E_6\to$SM breaking, and the
+$\Lambda$-**sign** (hyperbolic $\Lambda<0$ vs observed $\Lambda>0$, separate from wall #5's magnitude). Net: the
+figure-eight carries $E_6$ coherently and the flat connections demonstrably exist, but the bridge to physics rests
+on one unproven coincidence (input $=$ output $E_6$) and several inputs the object does not supply.
+
 ## 10. References (by face; standard in the area)
 - **Char. variety / trace map:** Fricke–Vogt; W. Goldman (trace coordinates, MCG action); Cantat–Loray (AIF 2009).
 - **Geodesic / dynamical degree:** Cantat–Loray; classical hyperbolic geometry of $\mathbb{H}/\mathrm{SL}(2,\mathbb{Z})$.
