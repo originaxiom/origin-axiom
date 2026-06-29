@@ -31,6 +31,19 @@ equally. **E₆ is not geometrically distinguished at all.** The 3d-3d input typ
 no character-variety mechanism that would make the input E₆. (Even "2T appears in the mod-3 reduction" is generic:
 the principal `SU(2) ⊃ 2T` sits in *every* `G`.)
 
+### The finer check — irreducibility, not just dimension (`density_probe.py`)
+`dim H¹ = rank` is *coarse*. The physically relevant invariant is **irreducibility**: does 4₁ have genuinely
+`G`-Zariski-dense (irreducible) flat connections, or do the principal deformations stay trapped in a subalgebra? If
+E₆ were the *only* type with dense flat connections, the character variety **would** distinguish it. Computed (B265's
+density method, generalized): for the principal `sl(2)→g`, `dim⟨principal sl(2), v_m⟩` per exponent `m` —
+> **A₂**: exp 2 → 8 (dense) · **G₂**: exp 5 → 14 (dense) · **A₃**: exp 2 → 15 · **D₄**: exp 3 → 28 · **F₄**: exps
+> {5,7,11} → 52 (*fully* dense) · **E₆**: exps {4,8} → 78, {5,7,11} → 52 (trapped in F₄).
+
+**Every type has a dense direction.** So the figure-eight has genuinely `G`-irreducible flat connections for **every**
+`G` — E₆ is not distinguished even at the irreducibility level. (Aside: E₆'s trapped exponents {5,7,11} are exactly
+the F₄ exponents — the `F₄⊂E₆` symmetric pair / the τ-fixed subalgebra, B271 — a nice consistency, not a
+distinction.) **The geometric-level conclusion holds two invariant-levels deep.**
+
 ## What would make the CRUX TRUE — and why it's not in-sandbox
 The only candidate forcing principle: **impose `G = McKay(arithmetic reduction)`** — E₆ is the *unique* type whose
 McKay finite-subgroup graph equals the figure-eight's arithmetic quotient `2T`. This is a genuine selection *rule one
@@ -54,6 +67,14 @@ constructive Lagrangian/quiver/state-integral** (the DGG / Andersen–Kashaev oc
   the burden is a forcing mechanism, and the geometry is positive evidence against one.**" This *strengthens* the
   structural theorem: even the E₆ "selection" is an arithmetic-output coincidence, not a forced physical input —
   the object supplies structure, not the selection of a dynamical type.
+
+## Where a real "miss" could still hide (the honest residual)
+The geometric level is now closed at **two** invariant-levels (dimension *and* irreducibility) — E₆ is provably not
+distinguished there. The one place a genuine forcing could still live is the **physics-forcing level**: a real
+`T[4₁; E₆]` computation could, in principle, reveal that the type-E₆ 3d-3d theory has structure tied to `2T` that
+the character variety alone doesn't see. I **cannot rule this out in-sandbox** (exceptional 3d-3d is tool-gated). So
+the honest statement is *"unforced by everything computable here,"* **not** *"provably false."* That residual is
+exactly — and only — the specialist gate; it is not a computation I can do.
 
 ## Recommendation
 Do **not** spend in-sandbox cycles attempting `T[4₁; E₆]` (tool-gated, not constructively known). The CRUX is now a

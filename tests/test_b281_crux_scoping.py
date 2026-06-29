@@ -12,7 +12,8 @@ _spec.loader.exec_module(b281)
 
 
 def test_geometry_does_not_distinguish_e6():
-    assert b281.EVERY_TYPE_GIVES_RANK            # input type geometrically free
+    assert b281.EVERY_TYPE_GIVES_RANK            # coarse: dim H^1 = rank for all G
+    assert b281.EVERY_TYPE_HAS_DENSE_DIRECTIONS  # finer: all G have irreducible flat connections too
 
 
 def test_crux_not_settleable_in_sandbox():
