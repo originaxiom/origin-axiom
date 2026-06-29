@@ -78,7 +78,48 @@ identifies where one would have to be inserted (the level). Nothing here is a ph
 | golden carries `E₆` *and* `E₈` via its **two** arithmetics | hyperbolic trace field (`ℚ(√−3)`, tetrahedral `2T=E₆`) vs monodromy field (`ℚ(√5)`, icosahedral `2I=E₈`) (B210) | **[done]** dual McKay; `E₆` impossible in the *monodromy* arithmetic but present in the *hyperbolic* one — different arithmetic, not a breaking chain; `E₇`=`2O` missing (Arnold trinity). Still firewalled rep-theory, not physics |
 | the triple coincidence at 5 (extremal/exceptional/least-hierarchical) | is it forced or a small-number artifact? | **[open / philosophical]** the math poses it; does not settle it |
 
+## Door 1 — UPDATE (2026-06-29): the seam relocates symmetry-breaking, and the Curie→SSB→gauge refinement
+
+The seam arc (`B286`–`B289`, `B295`) sharpens Door 1 considerably, and **corrects an over-statement** in the
+motivation (`P011`).
+
+- **[MATH] (B286, B289)** The figure-eight is an **open** object (a complement, with a cusp = the interface with
+  "the nothing"); its symmetries are open-object symmetries, and **closing it (Dehn filling) is the
+  symmetry-breaking.** Verified: every one of the **78** hyperbolic closings is **chiral** and obeys a **forced sign
+  law `CS(p,−q) = −CS(p,q)`**; the amphichiral-preserving locus is **empty**. The handedness is the **`ℚ(√−3)`
+  Galois conjugation** — the same `u↔u²` involution that flips `B285`'s commutator phase `κ = √3·e^{∓iπ/6}` between
+  `±π/6` (the `τ`/amphichirality swap). So the closing forces *a* CP sign via the Eisenstein arithmetic.
+- **[MATH/[LEAP]] (B295, Chat-2 adjudicated) — the Curie correction, with the negatives kept prominent.** `P011`
+  said *"Curie's principle forbids the sign — a hard wall."* That is the **wrong argument**: Curie has the famous
+  **spontaneous-symmetry-breaking loophole** (a symmetric system *does* select an asymmetric outcome when a running
+  control parameter destabilizes the symmetric point). So the externality of the **sign** is **not** a Curie wall.
+  But Chat-2's positive pivot is **not established in-sandbox**, on two computed/gated counts:
+  - **[MATH — NEGATIVE] the SSB "τ-symmetric double-well potential" is ABSENT.** The program's gradient potential
+    `V(τ)=κ(τ³/3−τ²/2−τ)` (`P15/P16`) is the **wrong object** on three counts: its `τ` is the **modular** parameter
+    (`A` acts by `τ→(2τ+1)/(τ+1)`), **not** the amphichiral involution; its critical points are **golden** `φ,−1/φ ∈
+    ℚ(√5)`, **disjoint** from the **Eisenstein** `±π/6` vacua `ω,ω² ∈ ℚ(√−3)`; and it is a **single-well** (one min,
+    one max), not a degenerate double-well. The conflation of the two `τ`'s is the trap. **SSB-availability is not
+    demonstrated.**
+  - **[LEAP — STOP-GATE] "τ is gauged" is unverified.** Chat-2's "sign is pure gauge" rests on reading `B279`'s
+    topological **FIX** bit as `τ` gauged — the parity-anomaly/η-invariant link that `B279`'s own status flags as
+    unverified. **NEEDS-SPECIALIST.** The gauge reframe stays **conditional**.
+- **[MATH] net.** `B289` stands — the sign is **external** because the object is **CP-symmetric** (it delivers
+  `±π/6` symmetrically). But the **reason** is open: **not** "Curie forbids it" (refuted), and **not** an established
+  "pure gauge" (`τ`-gauged unverified). No symmetry-breaking *mechanism* (SSB or gauge-fixing) is shown in-sandbox.
+- **[LEAP] the live frontier** Chat-2 names: does the **running de Sitter clock** (`k`, via `T_dS ~ 1/√k`)
+  **dynamically gauge-fix** the `τ`-sign (→ matter-over-antimatter internal, fixed by *when* on the clock), or is it
+  truly pure gauge (→ external)? Computable structure (the peripheral symplectic, `B293`); the **trajectory** is
+  specialist-gated. The matter map (Sakharov-style, firewalled): **magnitude `π/6`** forced in the **bulk** (`B285`),
+  **sign-exists** at the **seam** (`B289`), **which-sign** + the **baryon magnitude** **external** (`S005` HELD).
+
+**The negatives, kept prominent (unchanged stance).** The seam *relocates* symmetry-breaking to the closure and
+gives it a forced *sign law*; it does **not** supply a forced *sign*, an SSB potential, or an established gauge
+mechanism. The firewall holds — `B295` is, if anything, a *sharper* firewall (the externality is real but its
+mechanism is open). Nothing here is a physical-magnitude claim.
+
 ## Anchors
 `frontier/B207` (the two probes), `B206` (golden=2I=E₈), `B196`/`B204` (Δ, WRT period), `B151`/`B167` (scale
 firewall), `B161`/`B162`/`S034` (κ-wall, generic breaking), `B101`/`B128`–`B147` (the closed negatives),
-`papers/metallic_one_object` (the four-faces map), `S037` (the form-and-filling reading).
+`papers/metallic_one_object` (the four-faces map), `S037` (the form-and-filling reading); **the seam arc:**
+`B286` (the seam), `B287` (the distinguished closing), `B288` (E₆ lost on closing), `B289` (the CP sign law),
+`B295` (the SSB/gauge adjudication), `B285` (the ±π/6 magnitude), `P011` (corrected), `S043`/`S044` (the clock/Λ).
