@@ -22,15 +22,23 @@ Bernardo–Hui (PRL 2026; arXiv submitted 2025-06-17). Fetched and cross-checked
   (odd). [HOOK, better than the chats': the object is **CP-symmetric** (B252) — the natural home for a CP-symmetric
   object is exactly these `θ∈{0,π}` vacua; still no figure-eight in the paper, so no contact, but the resonance is
   real and touches wall #3.]
-- **REFUTED as paper content — basis: a verbatim-forced re-read 2026-06-29** (every sentence containing
+- **NOT IN *THIS* PAPER — basis: a verbatim-forced re-read 2026-06-29** (every sentence containing
   DESI / dark energy / equation-of-state / quintessence / observation / measured / data / dynamical / evolving /
-  running returned **NONE**). The paper does **NOT** predict the observed value of `Λ` (Task-4: no number given;
-  protection ≠ prediction); has **NO** dynamics / running / `k(t)`; **NO** DESI / `w` / observational contact; **NO**
-  knots / figure-eight / E₆ / golden `k=3`. ⟹ "3-of-4 DESI", "`k` runs `3→10¹²²`", "instanton rate `Γ~exp(−k·Vol)`",
-  "fermionic CSK" were **chat embellishments, not the paper's**. (Epistemic caveat: this is a verbatim-forced read
-  via the fetch tool's summariser returning quote-or-NONE — strong, but short of me reading the typeset PDF; and a
-  separate Alexander DESI *companion* paper was searched-for and **not found**, so "DESI" is *unlocated*, not the
-  same as *disproven everywhere*.)
+  running returned **NONE**). The 2026 PRL does **NOT** predict the observed value of `Λ` (Task-4: no number given;
+  protection ≠ prediction); has **NO** dynamics / `k(t)`; **NO** DESI / `w` / observational contact; **NO** knots /
+  figure-eight / E₆ / golden `k=3`. ⟹ "3-of-4 DESI" and the specific "`k` runs `3→10¹²²`" trajectory are **not in
+  this paper**. (Caveat: a verbatim-forced read via the fetch summariser quote-or-NONE — strong, short of the typeset
+  PDF; a DESI *companion* was searched-for and **not found**, so DESI is *unlocated*, not disproven everywhere.)
+- **CORRECTION (chat-1, 2026-06-30) — the dynamics is REAL, in a DIFFERENT paper I had not read.** I wrongly let
+  "no dynamics in the 2026 PRL" imply "dynamics = embellishment". **arXiv:1807.01381 (Alexander–Magueijo–Smolin,
+  *The quantum cosmological constant*, 2018)** — abstract verified — states *"the cosmological constant becomes
+  dynamical and turns out to be conjugate to the Chern-Simons invariant … the inverse cosmological constant and
+  Chern-Simons time become conjugate operators,"* with an **uncertainty relation** between `Λ` and CS-time and the
+  Kodama state reinterpreted as transition functions. So **`Λ`↔CS-time conjugacy is published**, not mine to dismiss.
+  *Residual still open:* conjugacy + uncertainty is **not** a derived `k(t)` trajectory — "`k` runs `3→10¹²²`" as a
+  solved flow remains unshown. "Instanton rate `Γ~exp(−k·Vol)`" is **standard CS/WRT asymptotics** (volume
+  conjecture — chat-1 right that I over-dismissed the kernel), but reading it as a *cosmological* tunneling rate
+  (4₁ = the instanton) is a modeling step, not textbook. "Fermionic CSK" is in neither paper read.
 
 ## [MATH] What was verified in-sandbox
 1. **The `G·Λ` algebra IS the paper's, now source-checked.** Eq (2) with the superselection integer
@@ -45,6 +53,11 @@ Bernardo–Hui (PRL 2026; arXiv submitted 2025-06-17). Fetched and cross-checked
    de Sitter entropy `3π/(GΛ)`) — **the "122 orders" IS the de Sitter-entropy exponent**. *Honest scope:* "one rod =
    `ℓ_P`" is the *natural* identification, not forced; and the paper leaves the integer `k` **unspecified**, so this
    pins the *structure* of the scale, not its *value*.
+1c. **The Gibbons-Hawking relations (chat-1 claim 4, adjudicated 2026-06-30).** From `Λ=6π/(kG)` + de Sitter
+   `R=√(3/Λ)`: **`S_GH = A/4G = k/2` is EXACT** (sympy-checked; identical to the `k=2·S_dS` above). chat-1 also
+   wrote `T=√(k/2π)`; verify-don't-trust catches the slip — **`√(k/2π)` is the de Sitter RADIUS, not the
+   temperature**; the GH temperature is `T = 1/√(2πkG) ~ 1/√k` (colder for large `k`). So claim 4 = half right
+   (`S=k/2` ✓), half mislabeled (`T` ✗). [The Λ-sign reframe (chat-1 claim 5) is in the negatives below.]
 2. **The spin-structure bit = FIX** (Chat-2's "highest-value computation"), banked as **B279**: the amphicheiral τ
    *fixes* both spin structures of 4₁ (the `S³`-bounding spin structure is ambient-symmetry-invariant). In Chat-2's
    own framework this is the **non-chiral** branch (τ gaugeable ⟹ chirality external) — consistent with the firewall
@@ -54,20 +67,29 @@ Bernardo–Hui (PRL 2026; arXiv submitted 2025-06-17). Fetched and cross-checked
    the dimensional filter were already banked (B254/B255/B266).
 
 ## [LEAP] / the honest negatives — what is NOT established
-- **What the paper actually claims (now read):** the WdW derivation of `θ=12π²/(Λℓ²)`, the θ-sector, and
-  **topological protection** (`Λ` robust to graviton loops, Hall-conductance analogy) ARE in the paper. The
-  *fermionic* CSK state, the *instanton rate* `Γ~exp(−k·Vol)`, the **`Λ`↔CS-time dynamics**, and the **"3-of-4
-  DESI"** match are **NOT** — they are absent at the source (chat embellishments). Use only the protection claim.
+- **What the 2026 paper claims (now read):** the WdW derivation of `θ=12π²/(Λℓ²)`, the θ-sector, and **topological
+  protection** (`Λ` robust to graviton loops, Hall-conductance analogy) ARE in it. The *fermionic* CSK state and the
+  **"3-of-4 DESI"** match are **NOT** in it. The **`Λ`↔CS-time dynamics** is NOT in the 2026 paper but **IS** in the
+  **2018** paper (arXiv:1807.01381 — see the correction above); the *instanton rate* `Γ~exp(−k·Vol)` is standard
+  CS/WRT asymptotics, not from either paper. So "use only the protection claim" was too narrow — the framework spans
+  2018 (dynamics) + 2026 (protection).
 - **The 122-order gap stands** (S043, verified B259): golden `k=3` is a **Planck-scale** `Λ`; the observed value
   needs `k ~ 10¹²²` (recomputed: `6.6×10¹²²` standard `ℓ²=G` / `2.6×10¹²¹` reduced `ℓ²=8πG`; the robust content is
   the exponent ~122 = the de Sitter-entropy scale — my first pass mis-stated this as `10¹²³`). The paper *confirms*
   it leaves `k` unspecified — so it does **not** solve the cosmological-constant problem either; it offers
   **protection (stability), not prediction (value)**. The honest open hook is "could the *object* fix the integer
   `k`?" — but the object gives `k=3` (Planck `Λ`), not the observed `k~10¹²²`. The gap is confirmed, not closed.
-- **No dynamics — and now confirmed absent at the source.** The paper has no `k(t)`, no running, no equation of
-  motion for `Λ`. "Alexander supplies the dynamics" is refuted, not merely unverified.
-- **Λ-sign.** 4₁ is hyperbolic (`Λ<0`/AdS); observed DE is `Λ>0`/dS — a separate sign mismatch (recorded as an
-  input-required wall, B278).
+- **Dynamics: CONJUGACY yes (2018), TRAJECTORY no.** Correcting my earlier "refuted": `Λ`↔CS-time conjugacy + an
+  uncertainty relation ARE established (arXiv:1807.01381). What is **still** unshown is a derived `k(t)` flow — "`k`
+  runs `3→10¹²²`" as a solved trajectory with a `w(z)` is not in either paper. So the dynamics is a *canonical
+  structure*, not a *solved evolution*.
+- **Λ-sign — possibly a category error (chat-1 claim 5, candidate wall-dissolution).** B278 recorded "4₁ hyperbolic
+  (`Λ<0`/AdS) vs observed `Λ>0`/dS" as a mismatch. chat-1's point: in the CSK framework `Λ=6π/(kG)` ⟹
+  `sign Λ = sign k`, and the Kodama state is the **de Sitter** (`Λ>0`) wavefunction for `k>0` — so the cosmological
+  `Λ`-sign is set by the **CS level**, *not* by 4₁'s curvature. 4₁'s hyperbolicity is the geometry of the *knot
+  complement*, a different 3-manifold from the cosmological slice, so the B278 wall may be conflating the two.
+  **Plausible** — but it requires that 4₁'s role is **not** to be the spacetime metric (it's the CS/auxiliary
+  manifold). Recorded as a candidate dissolution of the Λ-sign wall, **not yet banked** as resolved.
 - **Chat-2's load-bearing link is unverified.** The chain *spin-fix ⟹ τ-invariant η ⟹ τ gaugeable-with-fermions*
   uses a parity-anomaly/η-invariant step the handoff itself flags as derived-that-session and not
   literature-checked. B279 banks only the **topological** bit; the gauging reading is [LEAP].
