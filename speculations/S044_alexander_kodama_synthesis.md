@@ -14,12 +14,23 @@ Bernardo–Hui (PRL 2026; arXiv submitted 2025-06-17). Fetched and cross-checked
   `6π/(Λ ℓ²_Pl) ∈ ℤ`"; CSK state Eq (8) `Ψ = 𝒩 exp(3i/(2Λℓ²) CS[A])`; the headline claim is **topological protection
   of `Λ` against graviton-loop corrections, analogous to quantized Hall conductance** — a *stability /
   technical-naturalness* claim.
-- **REFUTED as paper content (checked "absent"):** the paper does **NOT** predict the observed value of `Λ`
-  (protection ≠ prediction); has **NO** time-dependence / running / `k(t)` / dynamics; **NO** mention of DESI, `w`,
-  or quintessence; **NO** mention of knots, the figure-eight, hyperbolic manifolds, E₆, or a golden `k=3`; and does
-  **not even specify** which integer `6π/(Λℓ²)` equals. ⟹ the "3-of-4 DESI", "`k` runs `3→10¹²²`", "instanton rate
-  `Γ~exp(−k·Vol)`", and "dissolves the CC problem" claims were **chat embellishments, not the paper's** — the firewall
-  was right, now provably.
+- **CONFIRMED verbatim — the paper's CP/parity structure (which I first MISSED; caught on a "U sure?" re-read).**
+  Final Discussion paragraph, quoted: *"For generic θ≠0, the θ-vacuum breaks parity, similar to what happens in QCD.
+  However, CP is preserved for θ=0 and θ=π. Therefore, we can construct a 'non-trivial' CP-invariant vacuum state
+  using our proposal in Eq. (2): θ=π ⟹ Λ=12π/ℓ²_Pl(1+2n) for n∈ℤ. This is in addition to the trivial θ=0 case."* So
+  there are **two CP-invariant sectors**: `θ=0` ⟹ `6π/(Λℓ²)=k∈ℤ` (= our `G·Λ=6π/k`) and `θ=π` ⟹ `12π/(Λℓ²)=2n+1`
+  (odd). [HOOK, better than the chats': the object is **CP-symmetric** (B252) — the natural home for a CP-symmetric
+  object is exactly these `θ∈{0,π}` vacua; still no figure-eight in the paper, so no contact, but the resonance is
+  real and touches wall #3.]
+- **REFUTED as paper content — basis: a verbatim-forced re-read 2026-06-29** (every sentence containing
+  DESI / dark energy / equation-of-state / quintessence / observation / measured / data / dynamical / evolving /
+  running returned **NONE**). The paper does **NOT** predict the observed value of `Λ` (Task-4: no number given;
+  protection ≠ prediction); has **NO** dynamics / running / `k(t)`; **NO** DESI / `w` / observational contact; **NO**
+  knots / figure-eight / E₆ / golden `k=3`. ⟹ "3-of-4 DESI", "`k` runs `3→10¹²²`", "instanton rate `Γ~exp(−k·Vol)`",
+  "fermionic CSK" were **chat embellishments, not the paper's**. (Epistemic caveat: this is a verbatim-forced read
+  via the fetch tool's summariser returning quote-or-NONE — strong, but short of me reading the typeset PDF; and a
+  separate Alexander DESI *companion* paper was searched-for and **not found**, so "DESI" is *unlocated*, not the
+  same as *disproven everywhere*.)
 
 ## [MATH] What was verified in-sandbox
 1. **The `G·Λ` algebra IS the paper's, now source-checked.** Eq (2) with the superselection integer
@@ -48,10 +59,11 @@ Bernardo–Hui (PRL 2026; arXiv submitted 2025-06-17). Fetched and cross-checked
   *fermionic* CSK state, the *instanton rate* `Γ~exp(−k·Vol)`, the **`Λ`↔CS-time dynamics**, and the **"3-of-4
   DESI"** match are **NOT** — they are absent at the source (chat embellishments). Use only the protection claim.
 - **The 122-order gap stands** (S043, verified B259): golden `k=3` is a **Planck-scale** `Λ`; the observed value
-  needs `k ~ 10¹²³`. The paper *confirms* it leaves `k` unspecified — so it does **not** solve the
-  cosmological-constant problem either; it offers **protection (stability), not prediction (value)**. The honest open
-  hook is "could the *object* fix the integer `k`?" — but the object gives `k=3` (Planck `Λ`), not the observed
-  `k~10¹²³`. The gap is confirmed, not closed.
+  needs `k ~ 10¹²²` (recomputed: `6.6×10¹²²` standard `ℓ²=G` / `2.6×10¹²¹` reduced `ℓ²=8πG`; the robust content is
+  the exponent ~122 = the de Sitter-entropy scale — my first pass mis-stated this as `10¹²³`). The paper *confirms*
+  it leaves `k` unspecified — so it does **not** solve the cosmological-constant problem either; it offers
+  **protection (stability), not prediction (value)**. The honest open hook is "could the *object* fix the integer
+  `k`?" — but the object gives `k=3` (Planck `Λ`), not the observed `k~10¹²²`. The gap is confirmed, not closed.
 - **No dynamics — and now confirmed absent at the source.** The paper has no `k(t)`, no running, no equation of
   motion for `Λ`. "Alexander supplies the dynamics" is refuted, not merely unverified.
 - **Λ-sign.** 4₁ is hyperbolic (`Λ<0`/AdS); observed DE is `Λ>0`/dS — a separate sign mismatch (recorded as an
