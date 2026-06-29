@@ -35,6 +35,19 @@ the symmetric space of the possible, and a symmetric object provably cannot sele
 delivers the *manifold* of vacua (structure); *which* vacuum is realized is fixed by history/fluctuation — outside
 the symmetric law. Architecture-not-furniture is therefore a **theorem-shaped** stance, not a posture.
 
+> **CORRECTION — the wall is at the CLOSURE, not in the object (B286, 2026-06-30).** The paragraph above quietly
+> assumes a **closed** object. Curie's principle is a *closed-system* theorem; the figure-eight is a **complement**
+> (`S³∖K`), hence **open** — it has a cusp, the interface with "the nothing." An open object breaks its symmetries
+> through **boundary conditions**, no contradiction. And **closing it — Dehn filling, the interaction with the
+> nothing — IS the symmetry-breaking**, verified (B286): the cusped object is amphichiral (`CS=0`); *every* generic
+> filling is **chiral** (`CS∉{0,½}`), with the **CP sign set by the oriented slope** (`CS(p,−q)=−CS(p,q)`); the
+> selection set is **finite and forced** (10 exceptional fillings); and **scale is generated at the seam** (core
+> geodesic `≈2π/n`). So actualization is *not external* — it is the **closure**, which is **constitutive** of a
+> complement, not foreign to it. Curie still forbids a *closed* symmetric world from self-selecting; it says nothing
+> about an *open* object closing against the nothing. The structural theorem stands, **relocated to the seam**:
+> the object supplies the space of possibility (bulk); the actualization is the closing (boundary) — and the closing
+> is part of the object. (Owner's three sources, vindicated: object + interaction-with-the-nothing + multiplicity.)
+
 ## (b) The scale/initial-condition is where "external" may dissolve — the live fork
 "Why `k ~ 10¹²²` now" is **not** a symmetry-breaking question — it is a rate + an initial condition. And here the
 object may supply the dynamics *internally*: it carries a **symplectic structure** (the Goldman bracket on the
