@@ -15,7 +15,9 @@ Chat-2 argued the externality is **not** a Curie wall but (a) an **SSB** loophol
    - its `τ` is the **modular** parameter on ℍ (`A` acts by `τ→(2τ+1)/(τ+1)`), **not** the amphichiral involution;
    - its critical points are **golden** `φ = (1+√5)/2` (min), `−1/φ = (1−√5)/2` (max) in `ℚ(√5)` — **disjoint** from
      the **Eisenstein** `±π/6` vacua `ω, ω² ∈ ℚ(√−3)` (verified disjoint, sympy);
-   - it is a **single-well** (one min, one max), not a degenerate **double-well**.
+   - it is a **cubic with exactly one minimum** (`φ`) and one maximum (`−1/φ`), unbounded below — so it **cannot** be
+     the degenerate **double-well** SSB requires (a cubic rules out SSB regardless of which `τ`, which only sharpens
+     the point).
    The conflation of the two `τ`'s is the trap. **SSB-availability is not demonstrated.** (The degenerate `±π/6`
    vacua themselves *do* exist — the two conjugate Riley roots of the real polynomial `u²+u+1`, swapped by complex
    conjugation = `τ` — but they are inert without a potential.)

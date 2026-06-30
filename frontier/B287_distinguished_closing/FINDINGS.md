@@ -28,6 +28,13 @@ fillings it is the **unique** torus bundle (Sol); the rest stratify.
 3. **Regina** recognises `m004(0,1) = T x I / [[2,1],[1,1]]` — the closed torus bundle with monodromy **exactly A**,
    independently of the hyperbolic geometry (combinatorial recognition). It is the only `T x I /` member of the 10.
 
+## Uniqueness is homology-forced (red-team strengthening, Arc II)
+The "unique torus bundle" headline does **not** depend on Regina's recognizer (which returns `None` on the ±1,±3
+simplified triangulations): a closed **torus bundle** has `b₁ ≥ 1` (the `ℤ` from the base circle), but **every**
+non-zero exceptional filling has **finite `H₁`** (ℤ/2, ℤ/3, ℤ/4) or is `S³` — so none of them *can* be a torus
+bundle, regardless of recognition. Only `(0,1)` (with `H₁=ℤ`) survives. (And "monodromy **exactly** `A`" is Regina's
+canonical normal form; method 1, the Alexander polynomial, states the weaker honest "conjugate to `A`" — consistent.)
+
 ## The P8 connection (the torsion ladder)
 `|det(Aⁿ − I)| = 1, 5, 16, 45, 121, 320, … = L_{2n} − 2` (Lucas) is the `H₁`-torsion of the **closed `Aⁿ` torus
 bundles** — the fiber-direction cyclic covers. The distinguished closing is the **`n=1` base** (torsion `1`, hence

@@ -22,6 +22,16 @@ A **filling slope `(p,q)`** picks a **Lagrangian line** in the peripheral `(μ,�
 direction"; the conjugate variable is the evolving one. (This is the same "filling = polarization" the seam reframe
 named.)
 
+**Honest caveats (red-team, Arc II).** Three scoping points, none affecting the claim as worded but worth stating:
+(a) the `kappa_is_casimir()` check follows from the **Nambu-bracket construction** (`{κ,·}=0` for *any* cubic via the
+repeated-vector triple product) — the *content* is the identification of this bracket with the **Goldman** bracket and
+`κ` with the boundary trace `tr[a,b]`, imported from Goldman/Fricke, not derived here; (b) `A·Bᵀ` symmetric is the
+**generic** Neumann–Zagier theorem (true for every ideal triangulation of every cusped manifold), instantiated here,
+not a figure-eight-specific fact; (c) the BF coupling **`k_um=−1` is frame-dependent** (the `Sp(2,ℤ)` duality group;
+B263 notes the frame-invariant content is the partition function) — the frame-**robust** reading is "a *unit* mixed
+pairing," and that is what realises the `μ↔λ` conjugacy. "Goldman = NZ" is the standard interpretive identification,
+asserted (the two pictures each carry a symplectic structure), not an exhibited isomorphism.
+
 ## [HOOK — firewalled] the Λ ↔ CS-time resonance
 Alexander–Magueijo–Smolin 2018 (`arXiv:1807.01381`, logged in S044) make physical **time emerge as the variable
 conjugate to `Λ`** (Chern–Simons time). The peripheral symplectic pairing is the **structural analog** — a

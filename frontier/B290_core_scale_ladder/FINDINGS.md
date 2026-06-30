@@ -17,6 +17,12 @@ shape**. (The `1/n³` imaginary term is `π/6`, a geometric NZ coefficient.)
 **Two methods:** (1) SnapPy `core_length` directly; (2) the correction coefficient **predicted independently** from
 the separately-computed cusp shape (`2π/|τ_cusp| = π/√3`) — matches the measured `Re(ℓ_ℂ)·n² → 1.81379` to 5 digits.
 
+**Caveat (red-team, Arc II — m004-specificity).** The NZ correction is genuinely the *complex* coefficient
+`2πi/τ`; it lands as a *clean real* `π/√3` only because m004's cusp shape `τ=2√3·i` is **purely imaginary**. On a
+manifold with a non-imaginary cusp shape (e.g. m003, `τ=½+0.866i`) the correction splits into a real `1/n²` part plus
+a separate `~−π/n` imaginary term. So the tidy real-coefficient form is figure-eight-specific (the claim is scoped to
+m004 and labels it the NZ ladder); the *generic* statement is "`ℓ_ℂ = 2πi/n + (2πi/τ)/n² + …`."
+
 ## 2. The filling `n` is NOT the level `k` (NEGATIVE)
 - The filling coefficient `n` is a **topological** Dehn-surgery integer.
 - The WRT level `k` (B204) is a **quantum** root-of-unity parameter, `q = e^{2πi/(k+2)}` (B204's own shifted level is
