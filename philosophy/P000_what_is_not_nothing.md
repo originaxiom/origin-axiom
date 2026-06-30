@@ -22,8 +22,13 @@ theorems:
    trace map), with no datum imported from outside.
 3. **A family, `m` free.** The not-nothing condition cuts out the **metallic family** `M_m=[[m,1],[1,0]]` up to
    `GL(2,ℤ)` conjugacy — the `det=−1` / period-1 slice (B92, *proved*) — not a single member.
-4. **The member is contingent.** Selecting `m=1` (golden) requires importing a **metric**: `m=1` is the *systole*
-   (shortest closed geodesic on the modular surface). The family is determined; the member is a choice.
+4. **The member is contingent — `m=1` is the *most-selected* member, not forced outright.** Three distinct criteria
+   single it out (`K009`/B313): the **systole** (a *metric* — shortest closed geodesic, B92), the **expansion
+   threshold** (a *non-metric, dynamical* criterion — `m=1` is where twist·swap first ignites hyperbolicity, P004/B120),
+   and **arithmeticity** (a `{m=1, m=2}` selector, B125). Two are unique to `m=1`. But "most-selected" is *not* "forced
+   as a theorem": no single criterion collapses the family to a member without importing extra structure. The family is
+   determined; the member is contingent. *(Corrects the earlier "requires a metric" phrasing — the expansion-threshold
+   selector is non-metric.)*
 
 **The irreducibility of choice (the honest position).** Given these four premises, the family follows
 *necessarily* — but the premises themselves are **chosen**. The choice is not eliminated; it is **relocated and
