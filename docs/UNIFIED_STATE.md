@@ -154,9 +154,11 @@ This is the substance of "unifying," and it is **cross-method convergence**, not
    two strict-full shears $A=S_{03}$ and $C=S_{23}$ **commute** ($E_{03}E_{23}=E_{23}E_{03}=0\Rightarrow AC=CA$), so the
    map $R\mapsto A,\ L\mapsto C$ **cannot** represent the *noncommutative* trace-map monodromy — and indeed the Ω
    R-cone endpoint entropy is $0$ (order-independent). So **Ω is the abelianized / non-collapse shadow of the tower,
-   not its body.** The open test is the **Ω↔tower bridge audit** (never run): do the exact $R,L$ relations get realized
-   by any Ω generators? does $\kappa$ pull back to $\delta$ or $\det G$? does $\chi_\Omega$ specialize to the
-   Dickson/Lucas factors? If those fail, Ω is **standalone**. **[open]**
+   not its body.** The **Ω↔tower bridge audit** was subsequently **RESOLVED at the spectral level** (B158/V152,
+   `OPEN_LEADS` L18): Ω = the **abelianized spectral image** of the metallic tower (the commutative $A,C$ cannot realize
+   the noncommutative trace-map monodromy, so Ω is the non-collapse shadow, not a faithful body). *(This doc, dated
+   2026-06-16, predates B158; the "never run" phrasing below is superseded — the spectral question is answered, Ω is an
+   abelianized image, not fully standalone.)* **[resolved-spectral, B158]**
 2. **The same golden/Fibonacci growth.** A's trace map *is* the Fibonacci–Hamiltonian ($\kappa=2+\lambda^2$); B's
    admissible block counts *are* the Fibonacci numbers (growth $\varphi$). Same arithmetic heartbeat.
    ([confirm-with-Ω-handoff] on the B-side count.)
@@ -192,10 +194,10 @@ faithfully.
 
 1. **External specialist** — a single qualified human (character varieties / higher Teichmüller / aperiodic order).
    Unmet; the decisive step.
-2. **The Ω↔tower bridge audit** (the genuine unification frontier; never run) — do the exact $R,L$ trace-map
-   relations get realized by any Ω generators? does $\kappa$ pull back to $\delta$/$\det G$? does $\chi_\Omega$
-   specialize to the Dickson/Lucas factors? Since $A,C$ **commute**, a faithful (noncommutative) realization is
-   already known *not* to exist, so this audit decides whether Ω is even an abelianized image or fully standalone.
+2. **The Ω↔tower bridge audit** — **RESOLVED at the spectral level (B158/V152, `OPEN_LEADS` L18):** Ω is the
+   **abelianized spectral image** of the metallic tower. Since $A,C$ **commute**, a faithful (noncommutative)
+   realization does *not* exist; the audit settled that Ω is an abelianized image (the non-collapse shadow), not fully
+   standalone. *(This "never run" entry is superseded by B158, which postdates this 2026-06-16 doc.)*
    (The B206 ≅ Ω₄ canonical-object identification + the in-repo re-derivation of the Ω side — counts L4–L9, TC-1/TC-2,
    history entropy — are **done**: V148/V149/V150, `frontier/B155`+`B156`.)
 3. **Uniform-$n$ / metallic A-polynomial** ($k=4-m(o-3)$) — Branch A's deep prize ($n=5$ open).
