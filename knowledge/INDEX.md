@@ -1,9 +1,11 @@
-# `knowledge/` — index of explainers `K001–K019`
+# `knowledge/` — index of explainers `K001–K020`
 
-> **All written (K001–K019).** Each is a self-contained explainer — standard material cited to the literature, the
-> project's own use cited to `B`/`V` numbers, no new claims. The layer is complete as of the B124 documentation
-> refresh (K011 at B128, K012 at B129, K013 at B130, K014 at B131, K015/K016 at B132, K017 at B145, K018 at B167–B169,
-> **K019 at B171–B176**); this index is the contract for what each covers.
+> **All written (K001–K020).** Each is a self-contained explainer — standard material cited to the literature, the
+> project's own use cited to `B`/`V` numbers, no new claims. `K001–K019` consolidate the foundations through the
+> multibody arc (≈B176); **`K020` consolidates the B238–B314 era** — the two-ended object, the E₆ arc, the cascade, the
+> seam, and the structural theorem mechanized as a Galois theorem (B285/B314). This index is the contract for what each
+> covers. (Forward-pointers: `K013` no-forced-choice and `K015` SU(2)_k field content are both *advanced* by the Galois
+> mechanism — see `K020 §6–7`; `K009` selection is sharpened by B313 — m=1 is the most-selected member.)
 
 | ID | title | scope (what it explains) | anchors |
 |---|---|---|---|
@@ -29,6 +31,8 @@
 | **K018** ✓ | [The firewall is robust across modes: a characterization, not a wall met once](K018_firewall_robust_across_modes.md) | Masterplan-II consolidation (2026-06). The dimensionful-scale question, asked three structurally different ways, gives one verdict — the scale is **external** in every mode: **single invariant** (B167: conserved ⟹ no scale), **dynamical/Hitchin side** (B164/B169: the isomonodromy flow is real but its time is a dimensionless modulus, scale = Higgs/external), **ensemble/generative side** (B168: the Ω accretion is real but all rates are dimensionless). The firewall is the *same* wall reached by three independent routes — a characterization of what the Betti/flat object lacks (P010), not a wall patched once. Genuinely there: the N=2\* symmetry identity (B150), the metallic quasicrystal (K007/K010, Cantor incl. κ<2 seed-robust B163/B165), the generative accretion (B168), the non-Hermitian higher-rank frontier (B166). The path to physics = a bridge + a relocated wall, not a crossing | B107, B130, B148, **B151**, **B164/B167/B168/B169**, B161–B163/B165/B166; `P008`,`P010`; `S034`/`S035` |
 
 | **K019** ✓ | [The collective (multibody) metallic spectrum: what interaction of distinct units builds](K019_collective_metallic_spectrum.md) | The multi-seed / multibody arc (2026-06), companion to `K007`/`K010` (the *single* chain). A lone unit only parametrizes (continuum, `K013`); **structure no single unit has appears only with interaction of distinct units, and it is predictable.** Two faces: spectral **interaction-born combination gap** (B171–B173/B175) ↔ character-variety **discrete κ-fork** (B131/`K014`, B174). Quantitative: **heights** = the rank-3 gap-label module `ℤ+ℤα₁+ℤα₂` (exact, gap-labeling theorem, L16 confirmed, √(dᵢdⱼ)-worry dispelled, B173); **widths** = the order-power law `λ^(\|n₁\|+\|n₂\|)` at weak coupling (perturbative, saturates strong, B175); **golden privilege** = φ-resonance dressed, golden-stands-alone not a monotone order (B176, P000 `[RHYME]`). Caveat: module heights are potential-independent, *which gaps open* + widths are potential-dependent (cosine ridge vs Sturmian-closed, B175). Both genuine physics contacts (this + class-S duality B150) are **collective**; predictivity over **structure**, not constants; emergent (measured materials), firewalled | B171–B176, B131, B150; `K007`/`K010`,`K013`/`K014`; `P000`,`S035` |
+
+| **K020** ✓ | [The structural theorem: the object forces form, not values — and it is a Galois theorem](K020_structural_theorem_galois.md) | The B238–B314 consolidation. The **two-ended object** (E₆/`ℚ(√−3)`/Eisenstein ↔ E₈/`ℚ(√5)`/golden, E₇ excluded by Niven, B248/B258/B261); the **arithmetic atom** (`4₁→ℚ(√−3)→2T→McKay Ê₆`, B266/B282) and the **E₆ character variety** (B264); the **cascade** (generic Slansky chain + the one object connection, the Eisenstein ω at trinification = an irreducible A-poly branch point, the two ends in one discriminant; realization = the CRUX; B305/B306/B310/B311); **Face IV houses the form** (the CIZ SU(2)₁₀ E₆ modular invariant, one E₆/three ADE hats, both ends; level generic; B312/B313); the **four faces of one κ** (B309). **The mechanism:** every discrete invariant is a Galois orbit of the object's own arithmetic — two ends, two `ℤ/2` (Eisenstein `√−3` CP-sign B285 + golden `√5` WRT B314) — *the value-free monad is a Galois theorem*. Open: **S032-A** (the all-invariants theorem; two of three classes sealed). Firewalled | B248–B314 (esp. B285, B305/B306, B309, B311, B312, B314); `K009`/`K013`/`K014`, `P008`/`P009`/`P012`, `S032`; Slansky, CIZ, McKay, Niven, Coste–Gannon |
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.
