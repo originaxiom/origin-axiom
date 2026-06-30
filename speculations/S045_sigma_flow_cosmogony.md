@@ -57,10 +57,16 @@ the degree-2/torsion-free obstruction). **Boundary:** B302 *locates* a ℤ/3 in 
 **NOT** derive three generations (that is the physics dictionary). The same arithmetic atom (ℚ(√−3), B282) that gives
 E₆ gives the hidden ℤ/3 — one atom, two faces.
 
-## The one live frontier (firewalled)
-Does the running de Sitter clock dynamically **gauge-fix the CP/τ-sign** (→ matter-over-antimatter internal)? The one
-place a forcing might still live (B295/B293; `[[motivation-required-firewall-for-sobriety]]`). Computable structure;
-gated trajectory.
+## The one live frontier — now REDUCED (B303, firewalled)
+Does the running de Sitter clock **gauge-fix the CP/τ-sign** (→ matter-over-antimatter internal)? **B303 reduces it to
+a single identification.** `[MATH]` the cusped (amphichiral) object is `CS=0` (the CP-symmetric clock-origin); every
+closing has `CS` with a definite sign = the CP sign (B289), constant along a fixed-orientation history; so the **CP
+sign IS the sign of the Chern–Simons `CS`** — not a separate choice. `[LEAP]` *if* CS-time = the cosmological clock
+(Alexander 1807.01381) and the arrow is forced (this note's σ-flow), **then the CP sign = the sign of the clock = the
+arrow of time** — matter-over-antimatter internal. The forcing moves from OPEN → **reduced to two named firewalled
+inputs (CS=clock; arrow forced), with the math fully in place.** The baryon *magnitude* `η_B` stays external
+(freeze-out). The matter map: magnitude `π/6` bulk (B285); **sign = the sign of the CS-clock = the arrow** (B303);
+`η_B` external. `[[motivation-required-firewall-for-sobriety]]`.
 
 ## Anchors
 `../frontier/B300` (the assessment), `B298` (the generation negative), `B299` (the trinification triality),
