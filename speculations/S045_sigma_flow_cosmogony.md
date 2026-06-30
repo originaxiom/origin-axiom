@@ -80,6 +80,27 @@ inputs (CS=clock; arrow forced), with the math fully in place.** The baryon *mag
 (freeze-out). The matter map: magnitude `π/6` bulk (B285); **sign = the sign of the CS-clock = the arrow** (B303);
 `η_B` external. `[[motivation-required-firewall-for-sobriety]]`.
 
+## [LITERATURE] two prior-art / validation notes (cross-chat, 2026-06-30, firewalled)
+Recorded for honesty and positioning; neither changes a banked math result (the program firewalls all physics).
+- **[HOOK] Shape Dynamics validates the scale-free reframe.** The "why look for an *external* scale in a
+  self-referential universe whose only outside is the nothing?" instinct (the structural theorem; `S045` scale=ℓ_P)
+  is the founding principle of **Shape Dynamics** (Barbour–Bertotti 1982; Mercati; Koslowski; Gryb; Pure Shape
+  Dynamics arXiv:2503.00996, 2310.19989). Verbatim: a relational description is *"forced upon any theory that intends
+  to describe the universe as a whole,"* and the dynamics *"decouples from the last dimensionful degree of freedom."*
+  Their **Tenet I** is our reframe. **Honest scope (the discipline cuts both ways):** Shape Dynamics dissolves the
+  *overall scale*, **not** the relational content — the shape still has a dimensionless Hamiltonian, which is exactly
+  the dimensionless ratios we compute (`B304`: sin²θ_W=3/8, b_τ, the running). So "no exterior scale" is published QG,
+  and it reframes the 122-order gap (`S043`/`S044`) as **partly a category error** (no exterior to source a scale)
+  **plus** a real internal question — *locating "now"* on the shape-space curve (the Mach–Poincaré principle: a point
+  + a direction generate the curve), an internal integration, not an external input. Genuine external validation; the
+  scale "gap" is sharper, not closed.
+- **[REFERENCE] knots-as-particles is prior art.** **arXiv:1910.09966** ("Braids, 3-manifolds, elementary particles")
+  treats fermions as hyperbolic knot complements tied to number theory via quaternionic trace fields, using the same
+  arithmeticity condition (a field with exactly two non-real embeddings). The *physics framing* "knots-as-particles +
+  trace-field-arithmetic" is **not original to this program** — it must be cited, and no firewalled physics reading
+  should claim it as novel. (This does **not** touch any banked *math* result; the program claims no physics, and its
+  novelty audits — `B296` — concern the specific math, which is correctly attributed.)
+
 ## Anchors
 `../frontier/B300` (the assessment), `B298` (the generation negative), `B299` (the trinification triality),
 `B248`/`B256` (the two-ended E₆/E₈), `S038`/`S043`/`S044` (scale / Λ / the Alexander relation), `P012` (the seam and
