@@ -9,11 +9,13 @@ pointer. Prose elsewhere in the repo may not exceed the label of the claim it re
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
-**Last updated:** 2026-06-27 · the proven core P1–P16 is **unchanged through all frontier work to
-date (B1–B230)** — **B69–B230 produced zero promotions** to this ledger (the SL(n) trace-map tower,
-the chirality / class-S / firewall arc, and the object-mapping arc — the four faces, the elliptic
-curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — all
-live entirely in `frontier/` / `knowledge/` / `speculations/` / `papers/metallic_one_object/`; the
+**Last updated:** 2026-07-01 · the proven core P1–P16 is **unchanged through all frontier work to
+date (B1–B314)** — **B69–B314 produced zero promotions** to this ledger (the SL(n) trace-map tower,
+the chirality / class-S / firewall arc, the object-mapping arc — the four faces, the elliptic
+curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — and the
+structural-theorem arc B231–B314, the two-ended object / the cascade / Face IV / *the firewall as a
+Galois theorem* (`knowledge/K020`, `philosophy/P013`) — all
+live entirely in `frontier/` / `knowledge/` / `speculations/` / `papers/`; the
 date/range lag is not claim drift) · proven ledger unchanged at 15 claims; C1 evidence upgraded by
 `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace selector theorem; trace-map and spectrum
 work B13–B47 otherwise remains frontier only.

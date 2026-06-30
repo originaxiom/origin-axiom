@@ -9,6 +9,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The structural-theorem arc B231–B314, and the recontextualization audit + masterplan (2026-07-01).** The
+  object-mapping arc sharpened into a single proven statement — *the object forces form/structure, never physical
+  values* — and the documentation layer (which had fallen ~80–190 probes behind) was brought current. **The math
+  (B231–B314):** the **two-ended object** (`E₆`/`ℚ(√−3)` Eisenstein ↔ `E₈`/`ℚ(√5)` golden, `E₇` excluded by Niven;
+  B248/B258/B261); the **arithmetic atom** + figure-eight **`E₆` character variety** (B266/B282/B264); the
+  **principal-grading cascade** = standard Slansky Lie theory + the one object datum, the Eisenstein `ω` at trinification
+  (an irreducible A-poly branch point; B305/B306/B310/B311); **Face IV houses the *form*** (the CIZ `SU(2)₁₀` `E₆`
+  modular invariant, one `E₆`/three ADE hats, both ends, generic level; B312/B313); the **four faces of one `κ`** (B309);
+  and **the mechanism — the firewall is a Galois theorem**: every discrete invariant is a Galois orbit of the object's
+  own arithmetic, two ends/two `ℤ/2` (the CP sign via `√−3→−√−3`, B285; the colored-Jones data via `√5→−√5`, B314).
+  Open: the all-invariants `S032-A`; the three specialist gates (`T[4₁;E₆]` CRUX, multiplicity→generations,
+  non-Hermitian Damanik–Gorodetski). **The consolidation:** a full 8-agent A-to-Z repo audit
+  (`docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md`), the new `knowledge/K020` + `philosophy/P013` (the Galois theorem's
+  homes), README/CLAIMS/GOVERNANCE refreshed to B314, and the obstruction-repo suspicion closed (examined file-by-file;
+  its core = P008, confirmed by reading). All firewalled; **zero promotions** to `CLAIMS.md` (proven core P1–P16 frozen).
 - **SYNTHESIS consolidation — the dual-McKay, all of B211, the V212 correction, and on-site, woven in (2026-06-25;
   V215).** The "metallic one object, four ways" synthesis had been updated for B206–B208 but **dropped** the later
   results — chat1 flagged that updating only for B210 would repeat the "agreed-then-dropped" pattern one layer
