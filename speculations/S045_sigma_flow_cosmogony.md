@@ -45,6 +45,18 @@ Take the gluing arithmetic; leave the family assumption.
 - The Friedmann `H²~ρ` route is **closed** (m can't be the running coupling).
 - The 122-order gap is **history-or-gap**, not closed: the object gives `k=3` (Planck Λ), not `~10¹²²`.
 
+## [LEAP] the Dehn filling as the N=2→N=1 datum — wall #3 dissolves into the seam (B304, peer Chat-1)
+`[LEAP, DGG]` In Dimofte–Gaiotto–Gukov, the cusped manifold gives a 3d N=2 theory and a **Dehn filling adds a
+mass/superpotential deformation breaking N=2→N=1.** If so, the single act of **closing** the figure-eight does all
+four "external" breakings at once: **chirality** (N=2→N=1) + **amphichirality** (CS≠0, B286) + **scale** (core
+geodesic, B290) + **the CP sign** (oriented slope, B289). So **wall #3 (chirality, B277) is not external — it is the
+seam.** This consolidates the whole seam picture (the closing is one act with four faces) and is consistent with
+B286/B303 (the closing = the value-source). `[firewall]` the DGG/mass-deformation reading is unverified physics
+(`T[4₁;E₆]` uncomputed); the *structure* (one act, four faces) is what we have shown. `[MATH, B304]` separately
+verified: the object forces the gauge-DYNAMICS skeleton — `sin²θ_W=3/8` (Georgi-Glashow) and the β asymptotic-freedom
+unification pattern — but **generic-GUT** (via E₆⊃SM), not object-specific; the object-specific gem is `24=|2T|` E₆
+principal-grading weights with `j≡0 mod 3` (ties the grading to the McKay 2T, B266).
+
 ## [LEAP] the generation ℤ/3 as a hidden symmetry (the multiplicity thread, B302)
 The fresh-eyes root reading — *a value is relational; the object is a monad (P009); the two walls map onto the two
 relational sources (seam-couplings, multiplicity-generations)* — gives the generation count a firewalled home. **[MATH]**
