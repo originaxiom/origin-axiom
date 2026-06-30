@@ -96,6 +96,16 @@ full AC band — the periodic vacuum), while non-cancellation `κ>2` is the stru
 non-cancellation needs no tuning to occur, yet cancellation is attained, not forbidden. The firewall is
 unchanged — character-variety / spectral mathematics, no `Λ` value, no scale.
 
+**Coda 2 — the four faces of one κ (2026-06-30, `../frontier/B309`).** The non-cancellation κ is *literally the same
+commutator trace* as the recent arc's other κ's — `κ = tr[a,b] = u²+2`: at `u=0` it is `2` (this principle's
+cancellable wall); at the Eisenstein root `u=ω` it is `ω²+2 = √3·e^{∓iπ/6}` with `κ−2=ω²`, `|κ−2|=1` (the **unit
+obstruction**). So **one κ wears four faces, each banked separately:** *existence* (this principle, `κ≠2 ⟺` not-
+nothing), *geometry* (the **seam**, `B286`/`B294` — the cusp holonomy, closing breaks the symmetries), *matter* (the
+**CP phase** `arg κ=∓π/6`, `B285`, and the chain `κ−2=ω²→ℚ(√−3)→2T→E₆→the cascade` `B305`/`B306`), and *quantum*
+(**Face IV**, `B204`/`B218`–`230`/`B293` — `[a,b]≠I` gives the Goldman symplectic structure, quantized as the WRT/anyon
+TQFT). The recent seam/CP arc had been re-deriving *this principle* in geometric and gauge-theoretic clothing without
+citing it; `B309` ties them. Still firewalled: the "κ is the cosmological residue / the TOE" reading is `[HOOK]`.
+
 Related: `P000` (not-nothing as the family), `P003` (dead-ends as boundaries), `P006` (two-headed time — generic-form
 / arithmetic-content), `P007` (the maximal probe; the SSB fifth direction, the no-forced-choice seventh), `../knowledge/K010` (the naming), `K011`
 (the chirality recursion), `K013` (no forced choice / the moduli-space reading), `K014` (choice from heterogeneity), `K007` (the KKT/quasicrystal background), `../speculations/S023` (the distinct metallic
