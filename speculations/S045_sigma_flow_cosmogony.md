@@ -45,6 +45,18 @@ Take the gluing arithmetic; leave the family assumption.
 - The Friedmann `H²~ρ` route is **closed** (m can't be the running coupling).
 - The 122-order gap is **history-or-gap**, not closed: the object gives `k=3` (Planck Λ), not `~10¹²²`.
 
+## [LEAP] the generation ℤ/3 as a hidden symmetry (the multiplicity thread, B302)
+The fresh-eyes root reading — *a value is relational; the object is a monad (P009); the two walls map onto the two
+relational sources (seam-couplings, multiplicity-generations)* — gives the generation count a firewalled home. **[MATH]**
+the figure-eight has a **hidden ℤ/3 symmetry**: its symmetry group is `D4` (order 8, no order-3) and its knot group is
+torsion-free, but its arithmetic commensurator `PGL(2,O₋₃)` has order-3 elements (the Eisenstein units of ℚ(√−3));
+the figure-eight is an index-12 cover of the order-3 minimal orbifold (B302, Neumann–Reid/Riley). **[LEAP]** *if* the
+three generations are a ℤ/3, this hidden symmetry is their natural home — **relational** (in the commensurability
+class, the "multiplicity of items"), not in the single object, which explains why one object can't carry it (B298,
+the degree-2/torsion-free obstruction). **Boundary:** B302 *locates* a ℤ/3 in the structurally-right place; it does
+**NOT** derive three generations (that is the physics dictionary). The same arithmetic atom (ℚ(√−3), B282) that gives
+E₆ gives the hidden ℤ/3 — one atom, two faces.
+
 ## The one live frontier (firewalled)
 Does the running de Sitter clock dynamically **gauge-fix the CP/τ-sign** (→ matter-over-antimatter internal)? The one
 place a forcing might still live (B295/B293; `[[motivation-required-firewall-for-sobriety]]`). Computable structure;
