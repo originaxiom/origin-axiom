@@ -45,6 +45,17 @@ cleanly isolated as the single specialist question, not buried under a "new casc
 The accurate open frontier (from B309) — Face IV (the TQFT quantization) ↔ the SM content — is the other in-sandbox
 direction; the cascade is not it.
 
+## Refinement (B311, 2026-06-30)
+Chat-2 proposed the last in-sandbox step this verdict skipped: are the cascade grading points actual *special points* on
+the figure-eight's A-polynomial? **B311 ran it and refines this card.** The points `M=i` (N=2) and `M=e^{iπ/3}` (N=3)
+*are* branch points of the figure-eight A-poly discriminant `(x−1)²(x+1)²(x²−3x+1)(x²+x+1)`, `x=M²` (the two arithmetic
+ends — Eisenstein `x²+x+1`, golden `x²−3x+1` — in one discriminant). So "no new object-specific content" was slightly
+too strong: the **trinification (N=3)** sits at a genuine *irreducible* branch point (`L=−1`), upgrading B305 from
+arithmetic-eigenvalue to character-variety relevance. **But the realization still does not close:** N=2 (M=i) is
+*reducible* (`L=1`, abelian) and N≥4 are not branch points at all — the points are isolated, the first reducible, so the
+chain is not realized as a connected breaking. The object-specific core remains the **one trinification step**; the full
+physical realization remains the CRUX. See `B311`.
+
 ## The fence
 Pure arithmetic (the spacing refutation) + the generic/object split + the tie to the banked `ω` (B305). The "physical
 gauge dynamics" reading is the CRUX, firewalled. Nothing to `CLAIMS.md`.
