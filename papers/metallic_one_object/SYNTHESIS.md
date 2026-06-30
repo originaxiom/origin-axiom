@@ -365,6 +365,41 @@ $\Lambda$-**sign** (hyperbolic $\Lambda<0$ vs observed $\Lambda>0$, separate fro
 figure-eight carries $E_6$ coherently and the flat connections demonstrably exist, but the bridge to physics rests
 on one unproven coincidence (input $=$ output $E_6$) and several inputs the object does not supply.
 
+## 9f. Addendum (2026-06-30) — the seam: the object is open, and closing it is where structure actualizes `[B286–B297]`
+
+A reframe (`B286`) corrected the load-bearing framing behind the firewall. The figure-eight is an **open** object — a
+**complement** $S^3\setminus K$, defined by what is removed, with a **cusp** (boundary torus) = its interface with
+"the nothing." Its symmetries (amphichirality, CP) are *open-object* symmetries; **closing it — Dehn filling, the
+interaction with the nothing — is where they break.** Curie's principle (a *closed*-system theorem) was misapplied;
+the ingredients live at the **seam**. The arc then worked every implication and verified the lot:
+
+- **The seam supplies the ingredients** `[B286]`: the cusped object is amphichiral ($\mathrm{CS}=0$); generic fillings
+  are **chiral**; the selection set is finite ($10$ exceptional fillings); scale is born at the seam (core geodesic
+  $\sim 2\pi/n$); the clock is peripheral ($\langle\mu,\lambda\rangle=1$).
+- **Selective for the object's own structure** `[B287]`: the fiber/$0$-slope filling is the **unique** Sol torus
+  bundle among the $10$ exceptionals, with monodromy **exactly** $A=[[2,1],[1,1]]$ — the $A=LR$ of `P1`, plus the
+  `P8` torsion ladder $|\det(A^n-I)|$. The object re-instantiates its own proven core at a canonical closing.
+- **Catalogue for SM-values** `[B288–B293]`: the $E_6$/$\mathbb{Q}(\sqrt{-3})$ arithmetic is **lost on closing**
+  (no closing re-sees it — sharpening the CRUX toward *catalogue*, `B288`); the CP **sign law** is forced
+  ($\mathrm{CS}(p,-q)=-\mathrm{CS}(p,q)$, handedness $=$ the $\mathbb{Q}(\sqrt{-3})$ Galois $\pm\pi/6$ swap) but the
+  **sign** is external (`B289`); the scale **ladder** $2\pi/n$ is generated but $n\neq k$ and the value is gapped
+  (`B290`); selection is **axis-stratified** (`B291`); multiplicity is **tripartite** (only the fiber is a $2$-manifold,
+  `B292`); the **clock** is the peripheral symplectic pairing (Goldman $=$ NZ), trajectory gated (`B293`).
+- **The Curie$\to$SSB$\to$gauge refinement** `[B295]` (Chat-2 adjudicated): Curie is **not** a hard wall (SSB
+  loophole), but the SSB potential is **absent** (the program's $V(\tau)$ is the modular-$\tau$/golden/cubic object,
+  disjoint from the Eisenstein $\pm\pi/6$ vacua) and "$\tau$ gauged" is a stop-gate. The sign is external; the
+  *mechanism* is open.
+- **Verified** `[B296]`: the whole arc survives an adversarial red-team (0 refutations, 0 firewall leaks); the
+  classical math is confirmed KNOWN/cited (Thurston, Garoufalidis–Jeon, Goldman/NZ), the novel *connections* flagged.
+
+**The structural theorem, relocated to the seam `[B294/B297]`.** Wall map **v4**: *the object supplies a canonical
+closing and all the dimensionless **structure** (the dynamics $A=LR$, the CP magnitude $\pi/6$ + sign law, the scale
+ladder $2\pi/n$, the clock); the **actualization** of a specific SM-valued world is **not forced**.* **Selective** for
+the object's own structure; **catalogue** for SM-values. The matter map (firewalled, $1$ of $3$ forced): CP
+**magnitude** $\pi/6$ in the **bulk**, CP **sign-exists** at the **seam**, **which-sign** $+$ baryon magnitude
+**external**. This is `P001`/`P011` (architecture-not-furniture) made precise and *mechanistic* at the boundary — the
+firewall, **strengthened**.
+
 ## 10. References (by face; standard in the area)
 - **Char. variety / trace map:** Fricke–Vogt; W. Goldman (trace coordinates, MCG action); Cantat–Loray (AIF 2009).
 - **Geodesic / dynamical degree:** Cantat–Loray; classical hyperbolic geometry of $\mathbb{H}/\mathrm{SL}(2,\mathbb{Z})$.

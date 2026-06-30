@@ -35,6 +35,14 @@ the symmetric space of the possible, and a symmetric object provably cannot sele
 delivers the *manifold* of vacua (structure); *which* vacuum is realized is fixed by history/fluctuation — outside
 the symmetric law. Architecture-not-furniture is therefore a **theorem-shaped** stance, not a posture.
 
+> **SECOND CORRECTION — the wall is a GAUGE/external wall, not a Curie wall (B295, P012, 2026-06-30).** The Curie
+> argument below is itself the *wrong* argument: Curie has the **spontaneous-symmetry-breaking** loophole (a running
+> control parameter), so it cannot be a "hard wall." The sign is external because the object is **CP-symmetric** and
+> **no symmetry-breaking mechanism is established in-sandbox** (the SSB potential is absent — the program's $V(\tau)$
+> is the modular-$\tau$/golden/cubic object, disjoint from the Eisenstein $\pm\pi/6$ vacua; "$\tau$ gauged" is an
+> unverified stop-gate). See **`P012`** for the completed account (selective for structure, catalogue for value) and
+> the seam arc `B286`–`B297`. The Curie paragraph below is **retained for the record**, corrected by `P012`.
+
 > **CORRECTION — the wall is at the CLOSURE, not in the object (B286, 2026-06-30).** The paragraph above quietly
 > assumes a **closed** object. Curie's principle is a *closed-system* theorem; the figure-eight is a **complement**
 > (`S³∖K`), hence **open** — it has a cusp, the interface with "the nothing." An open object breaks its symmetries
