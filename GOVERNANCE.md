@@ -161,10 +161,11 @@ institutionalized and generativity ad hoc, so verification was silently blinding
 | Phase | Scope | Status |
 |---|---|---|
 | **Phase 0** | Governance, specification, claim ledger, repo scaffolding. | locked |
-| **Phase A** | The tested foundation: lock every `proven` result behind a test. | active |
-| **Phase B** | The frontier: attempt `open` items in `frontier/`, quarantined, gated. | not started |
+| **Phase A** | The tested foundation: lock every `proven` result behind a test. | complete — suite green, P1–P16 locked |
+| **Phase B** | The frontier: attempt `open` items in `frontier/`, quarantined, gated. | active — probes B1–B314 (firewalled; zero promotions) |
+| **Phase C** | Exhaustive survey of emergence-paths (`paths/`). | in progress |
 
-Phase B may not begin until Phase A's test suite is green. See `ROADMAP.md`.
+Phase B began only after Phase A's test suite was green. See `ROADMAP.md`.
 
 ---
 
