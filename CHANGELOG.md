@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The hierarchy-atom handoffs B326–B327 (2026-07-01).** Two three-seat reports pushed the mass-hierarchy bottleneck;
+  both verified in-sandbox before banking (verify-don't-trust). **B326 (Chat-2, [VERIFIED]):** the generation `ℤ/3`
+  breaking is **finite congruence torsion**, not transcendental — `H₁(3-fold cyclic cover of 4₁)=ℤ⊕(ℤ/4)²` (SnapPy 3.3.2
+  *and* the exact Alexander module ℤ[t]/(Δ,t³−1), Smith form diag(4,4)); the deck `ℤ/3` acts irreducibly with char poly
+  `Φ₃ = Δ mod 4` (since `−3≡1 mod 4`); and the *same* `Δ=t²−3t+1` carries **both arithmetic ends** (`disc=5`→√5,
+  `mod 4=Φ₃`→√−3). Finite torsion ⇒ *texture, not magnitudes*. **B327 (Chat-1, [VERIFIED + SHARPENED]):** the hierarchy
+  CRUX = the branching `27|₂T`; a cross-chat contradiction was resolved by direct E₆ computation (principal
+  `27 = V(16)+V(8)+V(0)`, spins 8,4,0 — Chat-2 right, Chat-1's `9V₀+6V₁` wrong), and `n₁=n₂` was shown forced by
+  **self-duality** of the SU(2) restriction (not integer spin — the half-integer "McKay-SL(2) escape" fails). Sharpened
+  atom: the fork is *self-dual (quaternionic) SU(2) → Level 4* vs *non-self-dual complex embedding → Level 3*, the
+  standard quaternionic `2T` favouring **Level 4**. `docs/OPEN_PROBLEMS.md` gate B updated to this atomic form. All
+  firewalled; **zero promotions** to `CLAIMS.md`.
 - **The specialist-handoff arc B315–B325 + `docs/OPEN_PROBLEMS.md` (2026-07-01).** After the consolidation, the
   forgotten leads and cross-chat handoffs were run to conclusion and the frontier was mapped to a specialist handoff.
   **New results:** B315 (the E₇-exclusion *contains* heterotic's, shared root = pseudoreality); B316 (`√−7` is the
