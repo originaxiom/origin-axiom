@@ -29,13 +29,13 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 | `src/`, `tests/` | the tested package locking the proven core | via the gates only |
 | `frontier/` | speculative-but-computed `open` work, quarantined + gated; the `B`-probes | only through `conditional → proven` |
 | `papers/` | paper-candidate registry; the `V`-validation-ledger | — |
-| `docs/atlas/` | navigation + the **FAILURE_ATLAS** (dead ideas, first-class negatives) | — |
-| `docs/OPEN_LEADS.md` | the **actionable-leads register** (`L1…L46`); the disposition column records what is done / withdrawn (grep before computing) | promotes via a `frontier/` probe → the gates |
+| `docs/atlas/` | navigation + the **FAILURE_ATLAS** (dead ideas, first-class negatives) — **historical (B124-era); see its freeze banner** | — |
+| `docs/OPEN_LEADS.md` | the **actionable-leads register** (`L1…L50`); the disposition column records what is done / withdrawn (grep before computing). The current frontier + its four specialist gates live in `docs/OPEN_PROBLEMS.md` | promotes via a `frontier/` probe → the gates |
 | `docs/HINT_LEDGER.md` | the **hint register** — pre-decision observations (patterns, coincidences, anomalies, unasked questions); the generative counterpart to the `V`-ledger (governed by root `METHOD.md`) | promotes **to `OPEN_LEADS.md`**, never directly to CLAIMS |
-| **`speculations/`** | the **evolving-ideas** room: the catalog `S001…S041`, the "final theory" exercise, the **HELD** value-matches, the **DEAD** tombstones, the `archive/` | **never** |
-| **`philosophy/`** | the **motivation** layer: `P000–P010` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
+| **`speculations/`** | the **evolving-ideas** room: the catalog `S001…S045`, the "final theory" exercise, the **HELD** value-matches, the **DEAD** tombstones, the `archive/` | **never** |
+| **`philosophy/`** | the **motivation** layer: `P000–P013` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
 | **`story/`** | the **honest narrative** — how the project actually unfolded, with `V`/`B` traceability, no duplicated math | **never** |
-| **`knowledge/`** | self-contained explainers `K001–K019`, **all written** — the textbook layer (trace map, metallic family, Dickson tower, figure-eight/A-poly, opposition involution, 3d-3d, quasicrystal) + the `(n;trace,det)` determination, the `m=1` selections, **the object's proper name** (K010: the metallic-mean Schrödinger cocycle / Fricke–Vogt invariant), the firewall-robust-across-modes characterization (K018), and **the collective/multibody metallic spectrum** (K019: interaction of distinct units builds predictable structure no single unit has) | **never** |
+| **`knowledge/`** | self-contained explainers `K001–K020`, **all written** — the textbook layer (trace map, metallic family, Dickson tower, figure-eight/A-poly, opposition involution, 3d-3d, quasicrystal) + the `(n;trace,det)` determination, the `m=1` selections, **the object's proper name** (K010), the firewall-robust characterization (K018), the collective/multibody spectrum (K019), and **the structural theorem as a Galois theorem + the four levels** (K020) | **never** |
 | `paths/` | the systematic emergence-mechanism survey (`E`-paths) | via mathematization |
 | `legacy/` | frozen prior history; never edited; never a source of claims | — |
 
