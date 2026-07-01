@@ -9,6 +9,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **`knowledge/K021` — the founding-identity synthesis + B334 (2026-07-01).** A specialist-facing explainer tying the
+  session's verified spine into one self-contained document (the axiom → `g = −R·L⁻¹` → the two ends → E₆ + generations →
+  `n₁=n₂`/Level 4 → the seam). **B334 (Chat handoff, verified):** the seam's Hilbert class field **`H(ℚ(√−15)) =
+  ℚ(√5,√−3)`** — the two ends are the *arithmetic completion* of the seam (genus theory; verified by the splitting law
+  `principal ⟺ p≡1,4 mod 15` + a binary-form cross-check, 0 mismatches). Reconciles B333: the seam is **intrinsically
+  generic** (h=2 common) yet **relationally distinguished** (its HCF is the two ends); the `137` prediction is **dead**
+  (non-principal fraction ≈ 0.556, a coin flip). Firewalled; nothing to `CLAIMS.md`.
 - **B333 — the compositum seam probe: the firewall holds *at* the seam (2026-07-01).** The first probe run *in* the seam
   (not on one side). The B332 meditation located a value's home in the compositum's third subfield **ℚ(√−15)**
   (`√5·√−3`, ramified at `15=3·5`). Run with a **null test** up front: `h(−15)=2` (Chat-1's claim, verified) — **but

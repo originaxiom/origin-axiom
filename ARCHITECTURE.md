@@ -35,7 +35,7 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 | **`speculations/`** | the **evolving-ideas** room: the catalog `S001…S045`, the "final theory" exercise, the **HELD** value-matches, the **DEAD** tombstones, the `archive/` | **never** |
 | **`philosophy/`** | the **motivation** layer: `P000–P013` + the `P1–P5` argument register + `METALLIC_FOUNDATIONS` | **never** |
 | **`story/`** | the **honest narrative** — how the project actually unfolded, with `V`/`B` traceability, no duplicated math | **never** |
-| **`knowledge/`** | self-contained explainers `K001–K020`, **all written** — the textbook layer (trace map, metallic family, Dickson tower, figure-eight/A-poly, opposition involution, 3d-3d, quasicrystal) + the `(n;trace,det)` determination, the `m=1` selections, **the object's proper name** (K010), the firewall-robust characterization (K018), the collective/multibody spectrum (K019), and **the structural theorem as a Galois theorem + the four levels** (K020) | **never** |
+| **`knowledge/`** | self-contained explainers `K001–K021`, **all written** — the textbook layer (trace map, metallic family, Dickson tower, figure-eight/A-poly, opposition involution, 3d-3d, quasicrystal) + the `(n;trace,det)` determination, the `m=1` selections, **the object's proper name** (K010), the firewall-robust characterization (K018), the collective/multibody spectrum (K019), **the structural theorem as a Galois theorem + the four levels** (K020), and **the founding identity `g=−R·L⁻¹`, the two ends, and where the values are/are not** (K021) | **never** |
 | `paths/` | the systematic emergence-mechanism survey (`E`-paths) | via mathematization |
 | `legacy/` | frozen prior history; never edited; never a source of claims | — |
 
