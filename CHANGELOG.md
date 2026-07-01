@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B331 — the SL(2,ℂ) "complex escape" closed at its root (2026-07-01).** Chat-1's meditation (structure = real
+  invariants / values = phases) proposed that the holonomy being in `SL(2,ℂ)` (not `SU(2)`) could give `n₁≠n₂` via a
+  holomorphic non-self-dual lift, then self-corrected. **Verified + sharpened:** the generation element
+  `g=[[0,−1],[1,−1]]` is **elliptic and ambivalent** (`g~g⁻¹`, eigenvalues `{ω,ω²}`), so `χ_27(g)` is **real in every
+  representation — holomorphic and compact coincide (both 0)**. Holomorphicity is invisible at a finite-order element; it
+  only distinguishes *loxodromic* elements (volume/CS = structure). Corrects Chat-1's "center/non-center" heuristic (the
+  central `z` gives `χ_27=27ω`, complex — "order-3 ⇒ real" is false) *and* B329's σ-stability framing. Closes the escape
+  for the arithmetically-relevant lift (Riley = an `SL(2,ℂ)` rep) → **Level 4 confirmed**; the fully-general all-embeddings
+  claim stays open (H103). Firewalled; nothing to `CLAIMS.md`.
 - **The in-sandbox attack sweep B329–B330 + S046 + R7 (2026-07-01).** A "research / get-informed / meditate / sober /
   attack" push on the computable frontier (don't-give-up; compute-before-deferring), all firewalled, **zero `CLAIMS.md`
   promotions.** **B329 ([VERIFIED]):** `27|₂T` computed for *both* natural embeddings from a from-scratch 2T character
