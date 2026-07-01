@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B332 — the two ends = product and ratio of the founding letters (2026-07-01).** Chat-1 handoff, verify-don't-trust.
+  **Verified exact:** `g = −R·L⁻¹` (the generation ℤ/3 element *is* the signed ratio of `σ`'s two letters `R,L`), and
+  `g⁻¹a = −L`. The two simplest length-2 combinations land on the two arithmetic ends: **product `RL`** (trace 3, disc 5)
+  → `ℚ(√5)` → **E₈** (golden); **ratio `g`** (order 3, disc −3) → `ℚ(√−3)` → **E₆** (Eisenstein, gauge + generations).
+  **Corrected** Chat-1's inverted labeling ("product→E₆" is wrong-ended; product is √5/E₈) and the "golden ratio → ℚ(√−3)"
+  field-conflation. **Quarantined (not banked):** the overlap index `[Γ:Γ∩gΓg⁻¹]=3` (reported; `g` commensurates but
+  index-3 unverified — needs Bianchi computation); the `1/4` suppression (DEAD — Chat-1's null test) and `16=4+h(E₆)`
+  (inconsistent hook). Firewalled; nothing to `CLAIMS.md`.
 - **B331 — the SL(2,ℂ) "complex escape" closed at its root (2026-07-01).** Chat-1's meditation (structure = real
   invariants / values = phases) proposed that the holonomy being in `SL(2,ℂ)` (not `SU(2)`) could give `n₁≠n₂` via a
   holomorphic non-self-dual lift, then self-corrected. **Verified + sharpened:** the generation element
