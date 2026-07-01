@@ -9,6 +9,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B335 — the generation ℤ/3 is an exact isometry: the mass degeneracy is a *theorem* (2026-07-01).** Probed the real
+  Level-4 geometry in-sandbox (SnapPy) instead of deferring. The three generations are related by the **deck
+  transformation** of the 3-fold cover — an **isometry** — so every real invariant (volume 3× exactly; shortest
+  geodesics at multiplicity 3; CS; cusp shape `2√3·i`, `|·|²=12=h(E₆)`) is **ℤ/3-equal → masses exactly degenerate.**
+  The hierarchy is the *breaking* of an exact isometry (external by definition), not a hidden value. What the object
+  *does* distinguish is the ℤ/3-eigenvalue `{1,ω,ω²}` — a **phase (CP/mixing), not a mass**. This is the geometry-side
+  proof of `n₁=n₂` (B327/B329/B331). **Refuted (verify-don't-trust, on this seat):** the cover's order-24 symmetry group
+  is **not** 2T (its abelianization is `(ℤ/2)²`, not `ℤ/3`) — the McKay-group hope killed before it became a claim.
+  Firewalled; nothing to `CLAIMS.md`.
 - **`knowledge/K021` — the founding-identity synthesis + B334 (2026-07-01).** A specialist-facing explainer tying the
   session's verified spine into one self-contained document (the axiom → `g = −R·L⁻¹` → the two ends → E₆ + generations →
   `n₁=n₂`/Level 4 → the seam). **B334 (Chat handoff, verified):** the seam's Hilbert class field **`H(ℚ(√−15)) =
