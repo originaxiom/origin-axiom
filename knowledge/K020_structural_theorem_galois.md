@@ -105,6 +105,34 @@ strong form (no standalone bump). So the honest characterization is: **a rigorou
 physics, plus one modest external prediction that does not, by itself, cross the firewall** — and a standing caution not
 to mistake absorption for confirmation.
 
+**The firewall, confirmed empirically (B322).** Beyond the *proof* (the Galois mechanism), the value-firewall has now
+been *demonstrated by a null test*. Mining the object's own geometry — the volumes and core-lengths of its Dehn fillings,
+79 invariants → 6241 numbers with all pairwise ratios — matches the SM's 12 dimensionless parameters at exactly the
+**chance level** (`p ≈ 0.5`): a dense ratio-set matches *any* target set that well, and the SM is not special. The object
+does not encode the SM values, shown not merely proven. And a checkable corollary (B325): even the exact `ℤ/3`-circulant
+generation-perturbation (B324, `M = α·J + ω·P`, `β−α = ω`) does not carry the hierarchy — its light modes are
+magnitude-degenerate by the *accidental* `|ω|=1`, not any symmetry, and the "the E₆ cubic can't lift it" obstruction is a
+rep-theory error (the two light modes are *distinct* `ℤ/3` irreps, so a symmetric cubic *can* split them). Structure,
+never values.
+
+## 8. The four levels — where each symmetry lives
+
+The clearest organizing map of the object's structure (verified, B323): the program's symmetries live at **four distinct
+levels**, and confusing them produced every overclaim of the arc.
+
+| level | what | symmetry | `ℤ/3`? | determines |
+|---|---|---|---|---|
+| **1** — the object (complement) | `π₁(4₁)` | **D₄**, order 8 (torsion-free) | **no** (`3∤8`) | the structure; the amphichiral `ℤ/2` (CP sign) |
+| **2** — the seam (cusp torus) | flat torus, `τ=2√3·i` | **`ℤ/2 × ℤ/2`** | **no** (order-3 fixes `ω`, not `2√3·i`) | the two internal values (CP sign, `k=3`) |
+| **3** — the E₆ character variety | the gauge structure | the **E₆ center `ℤ/3`** (`det Cartan = 3`) | **yes** (gauge / trinification, *within* a generation; `θ`) | the democratic Yukawa, the cascade |
+| **4** — the commensurator | `PGL(2,𝒪₋₃)` | the **Eisenstein-unit `ℤ/3`** (B302) | **yes** (generations, *between* copies; `φ`) | the generation multiplicity |
+
+Both `ℤ/3`s come from **one fact — `3` ramifies in `ℚ(√−3)`** — and `L3 × L4 = ℤ/3 × ℤ/3 = trinification × generation`
+= the `(θ,φ)` structure (B299). The value-firewall (L1/L2 carry no `ℤ/3`; the two crossing values are the L2 amphichiral
+`ℤ/2`) and the generation question (the L3↔L4 relation) are both statements *about which level carries what*. The CRUX —
+the one specialist gate for the generations — is a Level-3 computation (the E₆ cubic on the `ℤ/3`-conjugate reps; B325
+confirms it is *not* obstructed), fed by any Level-4 embedding asymmetry.
+
 ## 7. What is open
 
 The Galois mechanism seals the **two load-bearing invariant classes** — classical (trace ring, B130) and quantum
@@ -117,7 +145,10 @@ outright (`K009`: systole + the non-metric expansion threshold + arithmeticity; 
 
 **Anchors:** B248/B249/B258/B261 (two-ended object), B266/B282 (the atom), B264–B270/B274/B275 (E₆ character variety),
 B285 (CP phase = Galois), B286–B294 (the seam), B305/B306/B310/B311 (the cascade), B309 (four faces of κ), B312 (Face IV
-houses the form), B313 (the Fibonacci bridge), **B314** (Galois seals Face IV); `K009`/`K013`/`K014` (selection,
-no-forced-choice, heterogeneity), `../philosophy/P008`/`P009`/`P012`, `../speculations/S032`. External: Slansky (1981,
-the E₆ chain); Cappelli–Itzykson–Zuber (1987, SU(2)_k modular invariants); the McKay correspondence; Niven (rational
-angles); Coste–Gannon (the Galois action on modular data).
+houses the form), B313 (the Fibonacci bridge), **B314** (Galois seals Face IV); B315 (E₇/heterotic), B316 (√−7 chirality
+field), B317 (transcendental Painlevé VI), B318 (amphichirality = the Eisenstein-end firewall), **B322** (the value hunt
+/ null test), B323 (the four levels), B324 (the exact ω-circulant), B325 (the ℤ/3-protection refutation); `K009`/`K013`/
+`K014` (selection, no-forced-choice, heterogeneity), `../philosophy/P008`/`P009`/`P012`/`P013`, `../speculations/S032`,
+`../docs/OPEN_PROBLEMS.md` (the four gates). External: Slansky (1981, the E₆ chain); Cappelli–Itzykson–Zuber (1987,
+SU(2)_k modular invariants); the McKay correspondence; Niven (rational angles); Coste–Gannon (the Galois action on
+modular data).
