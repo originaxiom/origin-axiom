@@ -18,8 +18,12 @@ Disc(x) = (x−1)² (x+1)² (x²−3x+1) (x²+x+1)
 - `x²+x+1 → x = ω, ω²` — the **ℚ(√−3) (Eisenstein)** end.
 - `x²−3x+1 → x = φ², φ⁻²` — the **ℚ(√5) (golden)** end.
 
-So the program's **two arithmetic ends sit in one figure-eight discriminant** — a genuine object-specific fact,
-consistent with the banked two-ended theme.
+So the program's **two arithmetic ends sit in one figure-eight discriminant** — consistent with the banked two-ended
+theme. **(Refined by B318, 2026-07-01: this slightly overclaims the *golden* factor. `x²−3x+1` is the figure-eight's own
+monodromy eigenvalue quadratic (roots `φ², φ⁻²`, trace 3) — *definitional*, every metallic `m` has its own — not a
+surprising coincidence. The Eisenstein factor `x²+x+1` is the real content: the meridian torsion point `M=ζ₁₂`, on the
+curve because the trace field is `ℚ(√−3)` = arithmeticity/B282. Honest residue: a new B282 certificate, the Eisenstein
+arithmetic as the `M=ζ₁₂` branch point.)**
 
 ## The cascade grading points, and the catch
 Via the principal lift (the E₆ meridian holonomy acts on a height-`h` root with eigenvalue `M^{2h}`; the centralizer is

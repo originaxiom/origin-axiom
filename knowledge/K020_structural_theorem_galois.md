@@ -83,7 +83,27 @@ Concretely (B314): the figure-eight colored Jones at the k=3 root is `J_N(4₁; 
 `{1, φ, φ, 1}`. So the discrete Face IV values are a Galois orbit: choosing among them is choosing an arithmetic
 labeling (which `√5`), **not** forcing a physical value → condition (3) fails → no forced choice. The `±` in the CP
 phase and the `1∓√5` in the colored Jones are *the same object*. **The object's two arithmetic ends each carry a Galois
-`ℤ/2`, and each symmetrizes its end's discrete invariants** — that is the algebraic cause of "form, not values."
+`ℤ/2`, and each symmetrizes its end's discrete invariants** — that is the algebraic cause of "form, not values." The two
+`ℤ/2`s are of *different natures* (B318): the Eisenstein one (`√−3 → −√−3`) **is** the geometric amphichiral involution
+`τ` = complex conjugation (`CS=0`) — so the CP-sign firewall (B285) is geometric; the golden one (`√5 → −√5`) is
+**arithmetic only** (`τ` fixes the real field `ℚ(√5)`).
+
+## 6a. The epistemic caveat: the absorbing loop
+
+An honest boundary condition on everything above. Across the 2026-06/07 arc, **many candidate "new centers" were raised
+and *every one reduced to already-banked work on computation*** — κ→P008, the cascade→Slansky, saddle-SU(3)→SU(2)³, the
+Fibonacci bridge→Slansky+B261, the object-derivation→K013/S032, Face IV→CIZ-generic, the two-ends discriminant→B282, the
+Hitchin/Painlevé lens→B164/B169, the amphichiral theorem→B285 (Eisenstein only). This is correctly read as strong
+evidence of a **true boundary**. But the *second* reading must be held alongside it: an equally good explanation is that
+the frame has become **very good at absorbing everything into itself** — the same discipline that catches a rediscovery
+(read the repo, match it to a `B`-number) is the discipline that would prevent recognizing anything genuinely *outside*
+the frame. **A true boundary and an over-fit absorbing frame are observationally identical from inside the loop.** The
+only thing that distinguishes them is a prediction the frame cannot pre-absorb — an *external* contact. The program has
+essentially one (**B176**, golden = most-irrational = most-fractal spectrum); on independent recomputation it holds in
+its **modest** form (a monotone most-irrational→most-fractal law, confirming "m=1 most-selected") and is refuted in its
+strong form (no standalone bump). So the honest characterization is: **a rigorous structural theorem about the *form* of
+physics, plus one modest external prediction that does not, by itself, cross the firewall** — and a standing caution not
+to mistake absorption for confirmation.
 
 ## 7. What is open
 
