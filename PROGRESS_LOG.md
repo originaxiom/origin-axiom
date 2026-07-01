@@ -4160,5 +4160,31 @@ in `GOVERNANCE.md` (the review document itself was **not** adopted as a parallel
 
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
+---
+
+## 2026-07-01 — Catch-up: the structural-theorem + specialist-handoff arcs (B161–B325)
+
+This is a single catch-up entry; the detailed working history since the June-17 entry (B160) is not backfilled
+here — it lives in `CHANGELOG.md` (arc-level, newest-first) and each `frontier/B###/FINDINGS.md`.
+
+Two arcs closed the gap from B160 to the current frontier B325, all firewalled, **zero `CLAIMS.md` promotions**:
+
+- **The structural-theorem arc (B231–B314).** The four-faces object sharpened into one proven statement — *the object
+  forces the form of physics (E₆, the cascade, `κ`, both arithmetic ends), never its physical values.* Mechanized as a
+  **Galois theorem**: every discrete invariant is a Galois orbit of the object's own arithmetic (`√−3→−√−3` CP sign,
+  `√5→−√5` WRT data). The two-ended object, the arithmetic atom `4₁→ℚ(√−3)→2T→E₆`, the E₆ character variety, the
+  cascade (generic Slansky + the Eisenstein `ω`), Face IV houses the *form*, the four faces of one `κ`. Consolidated in
+  `knowledge/K020`, `philosophy/P013`.
+
+- **The specialist-handoff arc (B315–B325).** The forgotten leads and three-seat cross-chat handoffs run to conclusion
+  and the frontier mapped to a specialist handoff (`docs/OPEN_PROBLEMS.md`, four gates: the in-sandbox `S032-A` +
+  the `T[4₁;E₆]` CRUX / multiplicity / non-Hermitian Damanik–Gorodetski). Headline: **the value hunt, run** — the
+  object's Dehn-filling invariants match the SM's dimensionless parameters *at chance* (`p≈0.5`, a null test), so the
+  value-firewall is now confirmed *empirically*, not just proven (B322). Plus the four-level framework (B323), the
+  exact ω-circulant (structure not values, B324), and the "ℤ/3-protection" refutation (B325).
+
+Also: the recontextualization audit + masterplan (`docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md`) and a full
+documentation consolidation (this pass) bringing the entry-point / narrative / ledger docs current to B325.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
