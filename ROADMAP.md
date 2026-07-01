@@ -24,8 +24,8 @@ framing is locked to the V4 / Reality-Check line.
 > (33 passed, 1 optional skip), all ten initial P-claims locked. Tagged
 > `phaseA-foundation-freeze`. Later exact-algebra integrations promoted P11-P13
 > and P15-P16. The `P1–P16` core remains locked and untouched; the **full repo
-> suite** (core + the frontier `B`-probe locks) now spans **770 test functions across
-> 208 files** as of the B230 refresh (the proven core is unchanged; all growth is
+> suite** (core + the frontier `B`-probe locks) now spans **~1113 test functions across
+> 304 files** as of the B325 frontier (the proven core is unchanged; all growth is
 > frontier `B`-probe locks).
 
 **Scope:** lock every `proven` claim (currently P1-P16, with P14 unused) behind
@@ -76,6 +76,8 @@ observation.
 | B128–B151 | The closing arc: chirality, completeness, the symmetry, and the physics boundary. | **Chirality axis CLOSED** — forced+generic but always self-mirror or mirror-paired ⟹ no preferred handedness; arithmeticity arm refuted outright (B144–B147). **Degree=rank COMPLETE on the irreducible locus** — B89's family is the whole component, `M⁴=L` unconditional (B149). **The unit's symmetry FORCED-identified** with the `N=2*` class-S S-duality mapping-class action (B148/B150, literature-confirmed). **Firewall CONFIRMED** — the complex volume is dimensionless (`ℂ/4π²ℤ`), carries no physical scale (B151). **The physics arc is CLOSED at the firewall** — a real bridge (symmetry) + a confirmed wall (no scale); cosmological-constant question on the far side. A POSTULATED structural reading of the wall: `STRATEGIC_SYNTHESIS.md` §8a. |
 | B152–B217 | The object's faces: arithmetic, geometry, character-variety, dual McKay. | **The four-faces object** — the metallic bundle `RᵐLᵐ` mapped through trace-map / hyperbolic-geometry / character-variety / quantum-topology lenses (`papers/metallic_one_object/SYNTHESIS.md`). The WRT **period law** `P(γ)=lcm(t−2,t+2)/content`, `content=m` (B204/B208/B214/B219, correcting the B216 genus reading); the figure-eight character variety **is the elliptic curve `40a1`** (conductor `2³·5`, non-CM, B211); the **dual McKay** `E₈`(`ℚ(√5)`) + `E₆`(`ℚ(√−3)`), **`E₇` excluded** (B210); a hyperbolicity-divide separating two faces (B217). All firewalled. |
 | B218–B230 | Emergent supersymmetry from golden multiplicity. | The golden Fibonacci-anyon / `SU(2)₃` chain flows to **tricritical Ising `c=7/10` = the first `N=1` superconformal minimal model** (B218–B224), via the *unique* ordinary↔super coset coincidence at `SU(2)₃` (B228); golden is **uniquely SUSY** among metallic chains, robust AFM/FM (B224/B230); explicit metallic/super Seifert duals `S²(m²+4,m²+3,3)` (B227/B229). Emergent, not lattice (B223). All firewalled. The framework search (`speculations/S041`): every external-framework overlap is a **rhyme, no crossing** — firewall holds a 5th time. |
+| B231–B314 | The structural-theorem arc: the object forces form, not values. | The **two-ended object** (`E₆`/`ℚ(√−3)` ↔ `E₈`/`ℚ(√5)`, `E₇` excluded by Niven; B248/B258/B261); the **arithmetic atom** `4₁→ℚ(√−3)→2T→McKay Ê₆` + the `E₆` character variety (B264/B266/B282); the **cascade** = standard Slansky Lie theory + the Eisenstein `ω` (B305/B306/B310/B311); **Face IV houses the *form*** (CIZ `SU(2)₁₀`; B312/B313); the **four faces of one `κ`** (B309). **The firewall is a Galois theorem** — every discrete invariant is a Galois orbit of the object's own arithmetic (B285/B314). *The object forces the form of physics, never its values.* All firewalled; `knowledge/K020`, `philosophy/P013`. |
+| B315–B325 | The specialist handoff + the value hunt. | Forgotten leads + cross-chat handoffs run to conclusion; the frontier mapped to four gates (`docs/OPEN_PROBLEMS.md`). E₇-exclusion contains heterotic's (pseudoreal root, B315); `√−7` = the chirality field (B316); the object is a **transcendental** Painlevé-VI solution (B317); amphichirality = the geometric firewall (B318); **the value hunt, run — the object's invariants match the SM at chance (`p≈0.5`, null test): the firewall confirmed empirically** (B322); the **four-level framework** (B323); the ω-circulant generation matrix exact in `ℤ[ω]` = structure not values (B324); the "ℤ/3-protection" obstruction refuted, CRUX stays Level 3 (B325). All firewalled. |
 
 Across Phase B the pattern is consistent: the well-defined content is exact or
 numerically reproducible, but each physical or semantic bridge stalls at an
@@ -87,8 +89,12 @@ gluing landscape (H5), and the arithmetic-minimality question (H4). Since B151 t
 frontier has mapped the **one object through four faces** (B152–B230): the elliptic
 curve `40a1`, the dual McKay `E₈`+`E₆`, and an emergent `N=1` superconformal
 (`c=7/10`) symmetry — every cross-face link a verified *rhyme* at the Betti /
-rep-theory / dimensionless level, the firewall reconfirmed throughout. Ledger
-`V1–V234`, probes `B1–B230`.
+rep-theory / dimensionless level, the firewall reconfirmed throughout. Since then the
+**structural-theorem arc (B231–B314)** sharpened this into one proven statement — *the
+object forces form, not values*, the firewall as a Galois theorem — and the
+**specialist-handoff arc (B315–B325)** mapped the frontier to four gates and confirmed
+the value-firewall empirically (the value-hunt null test). Ledger through `V238`, probes
+`B1–B325`; recent probes in `CHANGELOG.md`; the current frontier in `docs/OPEN_PROBLEMS.md`.
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3

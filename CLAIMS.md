@@ -21,10 +21,12 @@ date/range lag is not claim drift) · proven ledger unchanged at 15 claims; C1 e
 work B13–B47 otherwise remains frontier only.
 
 > **Frontier headline results (navigational pointer — NOT promoted, NOT claims).** The frontier work
-> B69–B230 is rich but **none of it is promoted to this ledger** (firewall + the `conditional → proven`
-> gate). For the honestly-labelled frontier results see: `ROADMAP.md` (the Phase B probe table),
-> `papers/metallic_one_object/SYNTHESIS.md` (the four-faces map), `papers/VALIDATION_LEDGER.md`
-> (`V1…V234`), `docs/OPEN_LEADS.md` (`L1…L46`), and `speculations/` (the firewalled physics readings).
+> B69–B325 is rich but **none of it is promoted to this ledger** (firewall + the `conditional → proven`
+> gate). For the honestly-labelled frontier results see: `knowledge/K020` (the current headline — the
+> structural theorem as a Galois theorem), `docs/OPEN_PROBLEMS.md` (the current frontier — four gates),
+> `CHANGELOG.md` (recent history), `ROADMAP.md` (the Phase B probe table), `papers/metallic_one_object/
+> SYNTHESIS.md` (the four-faces map), `papers/VALIDATION_LEDGER.md` (`V1…V238`), `docs/OPEN_LEADS.md`
+> (`L1…L50`), and `speculations/` (the firewalled physics readings).
 > This pointer exists so a reader is not misled into thinking the rich frontier is *absent* — it is
 > deliberately *not here*, by the firewall.
 
