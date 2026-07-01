@@ -9,6 +9,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The in-sandbox attack sweep B329–B330 + S046 + R7 (2026-07-01).** A "research / get-informed / meditate / sober /
+  attack" push on the computable frontier (don't-give-up; compute-before-deferring), all firewalled, **zero `CLAIMS.md`
+  promotions.** **B329 ([VERIFIED]):** `27|₂T` computed for *both* natural embeddings from a from-scratch 2T character
+  table — principal (quaternionic SU(2)) `= 3·1⊕3·1′⊕3·1″⊕6·3`, trinification (complex SU(3)) `= 9·1⊕3·1′⊕3·1″⊕3·2′⊕3·2″`
+  — **both give `n₁=n₂` → Level 4.** Tightens B327: even the *complex* SU(3) route can't split the light generations
+  (the 27's balanced `3/3̄` pairing restores reality; non-vacuity witnessed — the SU(3) `3`|₂T is genuinely complex).
+  Level 3 needs a chiral (non-σ-stable) embedding no canonical candidate supplies. **B330 ([CONDITIONAL], gate A/S032-A):**
+  the no-forced-choice capstone attacked via one Galois-symmetrization mechanism — folds B130+B314+B318 and stresses two
+  fresh classes (B326 cover-torsion `(ℤ/4)²`, cohomology `H¹`); **five classes now sealed**, no forced choice among them;
+  worded per the C-guardrail (`open`, not universal proof; untested classes named). **L34 (silver/bronze Weil zeta):
+  DORMANT** — the m=1 `40a1` was a 2-bridge-Riley artifact; the trace-map fixed locus is genus-0 (m=1) / irregular
+  (m=2,3); the full canonical-component arithmetic is NEEDS-SPECIALIST (R7: Baker–Petersen gap). **H14:** already resolved
+  by B315 (checked, not re-banked). **Research (`NOVELTY_AUDIT.md` R7):** four cited verdicts (the `27|₂T` table, the
+  complex embedding, the `Δ` two-ends coincidence, silver/bronze curves). **Meditate (`speculations/S046`, firewalled):**
+  "the value lives at the seam" — every value is a symmetry the object leaves unbroken; a speculation→calculation table
+  (new hints H103–H106). All firewalled; nothing to `CLAIMS.md`.
 - **The hierarchy-atom handoffs B326–B327 (2026-07-01).** Two three-seat reports pushed the mass-hierarchy bottleneck;
   both verified in-sandbox before banking (verify-don't-trust). **B326 (Chat-2, [VERIFIED]):** the generation `ℤ/3`
   breaking is **finite congruence torsion**, not transcendental — `H₁(3-fold cyclic cover of 4₁)=ℤ⊕(ℤ/4)²` (SnapPy 3.3.2

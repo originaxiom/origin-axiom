@@ -33,12 +33,15 @@ figure-eight). Do not read the generic tier as object-specific forcing.
 ### A — S032-A: the all-invariants no-forced-choice theorem (the one in-sandbox gate)
 **Question.** Is there *any* invariant of a single seed that is (1) trace-map-invariant, (2) discretely multivalued,
 (3) unsymmetrizable — a genuine forced choice?
-**Settled.** No, for the **trace ring** (B130: `κ` continuous) and the **quantum/WRT** class (B314: Galois-symmetrized;
-B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`). Two of three load-bearing classes
-sealed by one mechanism (Galois symmetrization).
-**What closes it.** Extend to *all* invariant classes (cohomology, torsion, …), or exhibit a counterexample. The
-amphichiral involution `τ` (B318) is the candidate uniform mechanism for the Eisenstein end; the golden end needs the
-arithmetic Galois.
+**Settled.** No, for the **trace ring** (B130: `κ` continuous), the **quantum/WRT** class (B314: Galois-symmetrized;
+B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`), and — **newly (B330)** — the
+**cover-torsion** class (B326's `(ℤ/4)²` has an *irreducible* deck action → no distinguished sub-object → no forced
+choice) and **cohomology `H¹`** (a canonical integer). **Five classes** now sealed by **one mechanism**: a finite Galois
+orbit is always symmetrizable, so the object hands you the symmetric orbit, never a member. *(C-guardrail: this is
+`open`, not proof of universal impossibility — see below.)*
+**What closes it.** Extend to the **untested** classes (Reidemeister/Ptolemy torsion, Chern–Simons/`η`, higher/irregular
+covers, `SL(n≥3)` gluing-variety invariants, Bloch-group classes — named in B330), or exhibit a counterexample. The
+candidate proof strategy is uniform: show each such class is a Galois orbit of the object's arithmetic (B330).
 **Obstruction / tier.** A universally-quantified "no invariant whatsoever" — hard, possibly itself specialist, but the
 one arguably-still-in-sandbox target. If proven ⇒ single-seed member-contingency is **irreducible** (the firewall's
 deepest form); choice enters only via heterogeneity (K014/B131).

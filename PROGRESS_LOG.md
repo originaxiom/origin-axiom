@@ -4186,5 +4186,30 @@ Two arcs closed the gap from B160 to the current frontier B325, all firewalled, 
 Also: the recontextualization audit + masterplan (`docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md`) and a full
 documentation consolidation (this pass) bringing the entry-point / narrative / ledger docs current to B325.
 
+---
+
+## 2026-07-01 — The in-sandbox attack sweep (B329, B330; L34 DORMANT; S046; R7)
+
+A "research / get-informed / meditate / sober / attack" push on the computable frontier (owner directive: *don't give
+up*; the standing compute-before-deferring mandate). Four sequenced targets, all firewalled, **zero `CLAIMS.md`
+promotions.**
+
+- **B329 [VERIFIED] (Target 2).** `27|₂T` computed for *both* natural embeddings from a from-scratch, orthonormality-
+  verified 2T character table: principal (quaternionic SU(2)) `= 3·1⊕3·1′⊕3·1″⊕6·3`; trinification (complex SU(3))
+  `= 9·1⊕3·1′⊕3·1″⊕3·2′⊕3·2″`. **Both give `n₁=n₂` → Level 4** — tightens B327 (even the complex SU(3) route can't split
+  the light generations; the 27's balanced `3/3̄` restores reality; non-vacuity witnessed). `OPEN_PROBLEMS` gate B updated.
+- **B330 [CONDITIONAL] (Target 3, gate A/S032-A).** The no-forced-choice capstone via one Galois-symmetrization
+  mechanism: folded B130+B314+B318, stressed two fresh classes (B326 cover-torsion `(ℤ/4)²` — irreducible deck action, no
+  distinguished sub-object; cohomology `H¹` — canonical integer). **Five classes sealed**, no forced choice among them.
+  Worded per the **C-guardrail** (`open`, not universal proof; untested classes named). Gate A updated.
+- **L34 (Target 1) → DORMANT.** The m=1 `40a1` was a *2-bridge-Riley* artifact; the intrinsic trace-map fixed locus
+  `Fix(φ_m)` is genus-0 (`#Fix(𝔽_p)=p−1`, m=1) / irregular (m=2,3). Full silver/bronze canonical-component arithmetic =
+  NEEDS-SPECIALIST (R7-confirmed Baker–Petersen gap). Data recorded in `OPEN_LEADS.md` L34.
+- **H14 (Target 4).** Already resolved by **B315** — checked, not re-banked (no duplicate probe).
+- **Research → `NOVELTY_AUDIT.md` R7**: four cited verdicts. **Meditate → `speculations/S046`** (firewalled): "the value
+  lives at the seam"; new hints **H103–H106** in `HINT_LEDGER.md`.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
