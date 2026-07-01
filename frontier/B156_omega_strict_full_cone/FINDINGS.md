@@ -179,7 +179,7 @@ certify).
 
 ## Provenance note (the source reasoning)
 
-The cross-session ChatGPT/Ω chat that produced this work (which itself ingested the ~1085pp Claude trace —
+The cross-session ChatGPT/Ω chat that produced this work (which itself ingested the ~1085pp AI trace —
 the two chats cross-examined each other) was digested as a cross-check (gitignored
 `audit/handoff_2026-06-15/chatgpt_omega_transcripts/`). It confirmed every banked claim, fixed the entropy
 value to its final `log 2` (older drafts used `(1/3)log 7`), surfaced TC-1/TC-4 (now banked), and produced the

@@ -38,7 +38,7 @@ A-poly equals Cooper–Long. The same pipeline must confirm it.
 
 - **The m=2 spectral curve is m136's cusp A-polynomial**, with `(M,L)=(eig t, eig[B,A])` =
   `(meridian, longitude)` at **framing k=0** — **no framing shift, no M↔L swap**. This directly
-  refutes the Claude-web "swap M↔L for SnapPy" convention flag (consistent with B67: `eig(t)=meridian`).
+  refutes the AI-web "swap M↔L for SnapPy" convention flag (consistent with B67: `eig(t)=meridian`).
 - The earlier **Job 3 "INCONCLUSIVE" is resolved**: it fit an *unconstrained* candidate (a spurious
   bidegree-(8,1), i.e. a single L-branch over-fit) and scored it by max-residual over abelian
   contaminants. Using the *known* eliminant + a robust statistic + the calibrated 4_1 control gives a

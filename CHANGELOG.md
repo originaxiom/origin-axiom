@@ -1089,7 +1089,7 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   tier; nothing to `CLAIMS.md`; P1–P16 untouched.
 - **B156 completion — source-chat cross-check + TC-1/TC-4 + the commuting-shears scope (2026-06-16; V150).**
   The owner supplied the **source reasoning** (the ChatGPT/Ω chat that produced the work, which itself ingested
-  the ~1085pp Claude trace — the two chats cross-examined each other). An agent cross-check + fresh re-derivation
+  the ~1085pp AI trace — the two chats cross-examined each other). An agent cross-check + fresh re-derivation
   here: **(1)** confirmed B156 is faithful (our re-derivations even strengthen the source) and that history
   entropy **log 2** is final (it supersedes the older `(1/3)log 7` bound); **(2)** banked two missed theorems,
   each re-derived (not transcribed) — **TC-1** [exact]: Ω₄ is the *unique minimal* strict-full seed (minimal

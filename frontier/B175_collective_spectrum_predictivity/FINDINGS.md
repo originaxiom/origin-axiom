@@ -1,7 +1,7 @@
 # B175 — the collective spectrum is two-number predictable (heights exact + the weak-coupling width law)
 
 **Date:** 2026-06-18. **Status:** the master extraction of the multibody lane (plan
-`~/.claude/plans/collective-multibody-extraction.md`, P1+P2) — the **disciplined version** of a cross-session
+a local planning note, P1+P2) — the **disciplined version** of a cross-session
 ("chat2") "combination ridge." Establishes that the woven metallic spectrum is **predictable from two pairs of
 numbers**: `(α₁,α₂)` fix every gap *height* exactly (gap-labeling theorem), and `(λ₁,λ₂)` fix every gap *width* via
 an order-power law **at weak coupling**. **Firewall-side**: emergent quasicrystal physics (`K007`/`K010` boundary;

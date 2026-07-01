@@ -35,7 +35,7 @@ repository was created as the single canonical home.
 - Governance: framework-grade but right-sized.
 - Plan: Phase A (tested foundation) first, then Phase B (frontier).
 
-**Blocked:** GitHub reorganization — the available `gh` login (`edhe-dev`) has no admin
+**Blocked:** GitHub reorganization — the available `gh` login had no admin
 rights on the `originaxiom` org. Awaiting owner authentication.
 
 **Next:** reorganize `old/` into `legacy/`; then Phase A — build `src/origin_axiom/` and the
@@ -3999,7 +3999,7 @@ Reproducers in `frontier/B156_omega_strict_full_cone/`; test `tests/test_b156_om
 ## 2026-06-16 — B156 completion: source-chat cross-check, TC-1/TC-4, the commuting-shears scope
 
 Owner supplied the **source reasoning** for the Ω work: the ChatGPT/Ω chat (1435 messages) that produced it,
-which itself ingested the ~1085pp Claude trace — *the two chats cross-examined each other*. Digested as a
+which itself ingested the ~1085pp AI trace — *the two chats cross-examined each other*. Digested as a
 cross-check (gitignored `audit/handoff_2026-06-15/chatgpt_omega_transcripts/`); an agent cross-checked it
 against the banked B156, and everything new was **re-derived here** (verify-don't-trust), not transcribed.
 

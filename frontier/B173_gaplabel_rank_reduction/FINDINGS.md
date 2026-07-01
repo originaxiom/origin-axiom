@@ -1,7 +1,7 @@
 # B173 — the gap-labeling reduction (Phase 2): the rank-3 module is a theorem; L16 confirmed, the √(dᵢdⱼ) worry dispelled
 
 **Date:** 2026-06-18. **Status:** **Phase 2** of the multi-seed-interaction plan
-(`~/.claude/plans/multi-seed-heterogeneous-quasicrystal.md`), the L16 spectral lane — the **theorem-reduction**
+(a local planning note), the L16 spectral lane — the **theorem-reduction**
 step. Reduces B172's numerical combination gap to the **gap-labeling theorem** (a citable consequence, not a new
 claim), **confirms the L16 rank formula**, and **dispels its one "possibly-false step."** Backed by two adversarial,
 citation-checked research legs (the reduction; the novelty). **Firewall-side**: emergent quasicrystal math

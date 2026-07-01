@@ -18,6 +18,7 @@ test = ["pytest>=7.4"]
 where = ["src"]
 
 [tool.pytest.ini_options]
-# Lets `pytest` import the package without an install step.
-pythonpath = ["src"]
+# Lets a plain `pytest` invocation import both the installed-style `src` package and the
+# repo-root `frontier`/`scripts` namespace packages without an install step or PYTHONPATH.
+pythonpath = ["src", "."]
 testpaths = ["tests"]

@@ -15,7 +15,7 @@ Seiberg–Witten identification with N=2 SU(2) at the self-dual point, or a forc
 - Cross-ratio of the branch points `±(1+√2), ±(√2−1)` is `λ=2` (harmonic) ⇒ `j=1728`, CM by `Z[i]`.
 - Period ratio `τ = ±i` (computed: `3.7e-9 − 1.0000000011·i`; `|Re τ|≈0, |τ|=1` — the lemniscatic CM
   point). Holomorphic period `= 2.6220575… = Γ(1/4)²/(2√(2π))`.
-- These reproduce the Claude-web computations (`τ=i`, the `Γ(1/4)²` period) exactly. **The algebra was
+- These reproduce the AI-web computations (`τ=i`, the `Γ(1/4)²` period) exactly. **The algebra was
   correct.** They are standard CM consequences of `j=1728`.
 
 ## Why it is not a Seiberg–Witten identification

@@ -43,6 +43,6 @@ frontier/**/scratch/
 # --- Genesis raw transcripts: contain third-party PII; public repo, keep private ---
 legacy/reports/genesis/*.txt
 
-# --- Local Claude Code session state (scheduled-task locks, etc.) — never commit ---
+# --- Local AI coding-session state (scheduled-task locks, etc.) — never commit ---
 .claude/
 .tmpwork/

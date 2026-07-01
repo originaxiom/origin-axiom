@@ -1,4 +1,4 @@
-# Session 3 Synthesis: Handoff to Claude Code
+# Session 3 Synthesis: Handoff to the coding agent
 
 ## What happened
 
@@ -92,7 +92,7 @@ within ~20 steps. Universal attractor.
 
 ### Promote to proven core (exact algebra about proven objects):
 
-**P11: sl(2) decomposition** (already agreed with Claude Code)
+**P11: sl(2) decomposition** (already agreed with the coding agent)
   log(A) = (log(φ²)/√5)(H + 2(E+F)), frame/boost = 2, torsion = 0
 
 **P12: Gluing equation factorization** (already agreed)
