@@ -49,7 +49,17 @@ principal-grading cascade (B305/B306) as *physical gauge dynamics*, with the cus
 **Settled.** The E₆ character variety of `4₁` exists (B264/B274/B275); the cascade is generic Lie theory + the object's
 Eisenstein `ω` (B305); the trinification is an irreducible A-poly branch point (B311); the "πi/3-spacing realization" is
 refuted (B310).
-**What closes it.** Construct `T[4₁;E₆]` explicitly (the DGG state integral for an **exceptional** group).
+**The hierarchy sub-atom (B326/B327, computed in-sandbox).** The mass-hierarchy question inside the CRUX reduces to the
+branching `27|₂T` — specifically whether the two light generations split (`n₁≠n₂`, the E₆ cubic decides it at "Level 3",
+computable) or stay degenerate (`n₁=n₂` → "Level 4", the commensurator gate). **Verified:** the principal decomposition
+is `27 = V(16)+V(8)+V(0)` (spins 8,4,0), and `n₁=n₂` is forced by **self-duality** of the SU(2) restriction — *not* by
+integer spin, so the "half-integer McKay-SL(2) escape" fails. **Sharpened atom:** the fork is *does the arithmetic
+`2T↪E₆` factor through a self-dual (quaternionic) SU(2) (→ `n₁=n₂`, Level 4) or a non-self-dual complex embedding
+(→ `n₁≠n₂`, Level 3)*; the standard quaternionic realization of the arithmetic `2T` favours **Level 4**. The generation
+`ℤ/3`-breaking datum itself is *finite congruence torsion* `H₁(3-fold cover of 4₁)=ℤ⊕(ℤ/4)²` with irreducible `Φ₃`
+deck-action (B326) — arithmetic, not transcendental, and it gives **texture, not magnitudes**.
+**What closes it.** Construct `T[4₁;E₆]` explicitly (the DGG state integral for an **exceptional** group); and settle the
+self-dual-vs-complex embedding of the arithmetic `2T` (the hierarchy sub-atom above).
 **Obstruction / tier.** State-integral models exist for `SU(N)`/classical groups; the exceptional case is not standard.
 **Specialist.** *Note:* even if realized, it tests whether the *structure* becomes dynamics — it does not, by itself,
 extract SM *values* from the object (the structural theorem forbids that from the single seed).
