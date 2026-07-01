@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B343 — the object forces *exact TBM* (θ₁₃=0), not TM2 (2026-07-01).** Chat-2's three-step self-correction, verified at
+  the landing; **corrects B342/S048**. The neutrino residual symmetry is the object's own 2-torsion **Klein group**
+  `ℤ₂×ℤ₂` (of `(ℤ/4)²`, B326); the deck ℤ/3 acts **irreducibly** (`Φ₃` irreducible mod 2), 3-cycling the three `ℤ₂`'s and
+  selecting **none** → the **full Klein survives → exact TBM (θ₁₃=0)** (not TM1/TM2; `T=diag(1,ω,ω²)` also doesn't
+  normalise the neutrino Klein). The **TM2 tension dissolves** (the object never bet on TM2); `θ₁₃=0` is excluded, so the
+  TBM-**breaking** (θ₁₃ size + direction) is external. **Unification:** the *same* irreducibility makes the object
+  mass-blind (B335), split-blind (B327/B329), **and** direction-blind — one arithmetic property. Surviving content
+  (firewalled): lepton mixing is TBM-structured (observed); the deviation external. Nothing to `CLAIMS.md`.
 - **The CP/mixing sweep B339–B342 + S048 (2026-07-01).** The flow interior (H107–H109) + Chat-2's lepton-mixing reading,
   all firewalled, **zero `CLAIMS.md`**. **B339 (H107):** the chiral-flow sub-leading is `CS(1,n)=−1/(2n)+1/(24n³)+…` —
   `c₂=0` (amphichirality theorem) and `c₃=1/24=1/(2·h(E₆))`, **rational, no √−3** (the flow's arithmetic is `|τ|²=12`, not
