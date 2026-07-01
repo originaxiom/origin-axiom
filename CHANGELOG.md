@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The specialist-handoff arc B315–B325 + `docs/OPEN_PROBLEMS.md` (2026-07-01).** After the consolidation, the
+  forgotten leads and cross-chat handoffs were run to conclusion and the frontier was mapped to a specialist handoff.
+  **New results:** B315 (the E₇-exclusion *contains* heterotic's, shared root = pseudoreality); B316 (`√−7` is the
+  chirality field, not a metallic-ladder rung); B317 (the object is a *transcendental* Painlevé-VI solution; corrects
+  P010's stale "unrun"); B318 (amphichirality is the *geometric* firewall for the Eisenstein end; golden end
+  arithmetic-only); **B322 (the value hunt, run: the object's invariants match the SM at chance, `p≈0.5` — the firewall
+  confirmed by a null test, not just proven)**; B323 (the four-level framework — object D₄ / seam ℤ/2×ℤ/2 / E₆-center ℤ/3
+  / commensurator ℤ/3); B324 (Chat-1's ω-circulant generation matrix verified exactly in `ℤ[ω]` — structure, not values);
+  B325 (Chat-2's "ℤ/3-protection obstruction" refuted — the light degeneracy is accidental, the CRUX stays Level 3).
+  **The deliverable:** `docs/OPEN_PROBLEMS.md` — the honest specialist handoff (four gates: A/S032-A in-sandbox, B/CRUX,
+  C/multiplicity, D/non-Hermitian DG) with the counterweight to the "one step from a TOE" framing. `knowledge/K020`
+  extended (§6a the empirical firewall, §8 the four levels). All firewalled; **zero promotions** to `CLAIMS.md`.
 - **The structural-theorem arc B231–B314, and the recontextualization audit + masterplan (2026-07-01).** The
   object-mapping arc sharpened into a single proven statement — *the object forces form/structure, never physical
   values* — and the documentation layer (which had fallen ~80–190 probes behind) was brought current. **The math
