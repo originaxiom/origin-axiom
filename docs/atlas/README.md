@@ -1,5 +1,12 @@
 # Research Atlas
 
+> ⚠️ **FROZEN — historical (2026-06-08, B124/V113).** This atlas maps the *early-stage* research (the
+> "from-nothing" / representation-program era, through ~B124 and the PC01–PC06 paper-candidate framing). The frontier
+> has since advanced to **B325** and the framing has evolved (the metallic-object / two-ended / structural-theorem
+> arcs). **Use this atlas for historical context only.** For the current state, read: `../../README.md` (the "Current
+> state — read next" block), `../../knowledge/K020` (the current headline), `../OPEN_PROBLEMS.md` (the frontier),
+> `../../papers/metallic_one_object/SYNTHESIS.md`, and `../../CHANGELOG.md`.
+
 Status: public navigation layer. This directory adds structure around the
 governed repository; it does not add claims.
 

@@ -1,5 +1,15 @@
 # Origin Axiom — Unified State of Knowledge
 
+> ⚠️ **OUTDATED & MIXED-SOURCE (2026-06-15).** This briefing combines **two separate branches** and is now stale:
+> - **Branch A (this repo)** — the trace-map / character-variety work, then banked through ~B155; the frontier is now
+>   at **B325**.
+> - **Branch B (Ω)** — an *external* history-enumeration handoff bundle (`origin_axiom_handoff_2026-06-15`, ledger
+>   B868–B907). **The Ω branch is NOT in this repo's main line and its results are not verified here.**
+>
+> A fresh reader should **not** treat the Ω `B`-numbers as part of this repo's frontier. For the current state of
+> *this repo*, read `../README.md` ("Current state — read next"), `../knowledge/K020`, `OPEN_PROBLEMS.md`, and
+> `../CHANGELOG.md`. This file is kept for the cross-method convergence record only.
+
 **A single source of truth across both branches, for briefing a fresh working session.**
 Compiled (AI-assisted, cross-session) from: the trace-map / character-variety work (**Branch A**, banked in this
 repo), and the **Ω** history-enumeration handoff bundle dated **2026-06-15** (`origin_axiom_handoff_2026-06-15`,

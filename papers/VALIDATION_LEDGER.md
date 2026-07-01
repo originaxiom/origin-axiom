@@ -1,5 +1,10 @@
 # Validation Ledger
 
+> **Scope (2026-07-01).** This ledger records per-probe validations through **V238 (~B300, 2026-06-29)**. The frontier
+> has since advanced to **B325**; the B301–B325 arc (the structural theorem's completion + the specialist handoff) is
+> tracked in `../CHANGELOG.md`, `../docs/OPEN_PROBLEMS.md`, and each `frontier/B###/FINDINGS.md`, rather than backfilled
+> here. It adds no claims; nothing promotes to `../CLAIMS.md`.
+
 Status: public-safe validation ledger. This file records actionable findings
 and the repository decision taken for each. It adds no claims.
 

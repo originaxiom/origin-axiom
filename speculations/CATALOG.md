@@ -1,8 +1,8 @@
 # Speculation catalog — `S001…S045`
 
-> *Index note: the rows below are written through `S035`; `S036–S045` are live files (the S036 search register, the
-> cosmogony arc `S035→S045`, the framework search `S041`, the no-forced-choice capstone `S032`) — consult those files
-> directly until their index rows are backfilled.*
+> *Index note (2026-07-01): the rows below index `S001–S035` plus `S042–S044`. `S036–S041` (the search register, the
+> framework search `S041`, the no-forced-choice capstone `S032`) and `S045` (the σ-flow cosmogony) exist as live files —
+> consult them directly until their index rows are backfilled.*
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
