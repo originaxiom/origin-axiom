@@ -7005,6 +7005,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B347": {
+   "slug": "e6 tangent gradings",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "amphichiral_cp",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B121",
+    "B264",
+    "B265",
+    "B270",
+    "B289",
+    "B318",
+    "B67",
+    "K022"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B34": {
    "slug": "goldman wp quotient naturality",
    "motifs": [
