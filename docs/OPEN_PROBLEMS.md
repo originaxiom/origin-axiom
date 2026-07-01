@@ -61,6 +61,14 @@ integer spin, so the "half-integer McKay-SL(2) escape" fails. **Sharpened atom:*
 (→ `n₁≠n₂`, Level 3)*; the standard quaternionic realization of the arithmetic `2T` favours **Level 4**. The generation
 `ℤ/3`-breaking datum itself is *finite congruence torsion* `H₁(3-fold cover of 4₁)=ℤ⊕(ℤ/4)²` with irreducible `Φ₃`
 deck-action (B326) — arithmetic, not transcendental, and it gives **texture, not magnitudes**.
+**The symmetry-broken sector (B335–B338, probed in-sandbox).** The single-object degeneracy is a *theorem*, not a gap:
+the generation ℤ/3 is the **deck transformation** of the 3-fold cover, hence an exact isometry → the masses are
+`ℤ/3`-equal (B335). The value is a *magnitude* difference an exact symmetry forbids; what the object distinguishes is a
+*phase* (CP/mixing), not a mass. Attacking the broken sector: the value's imaginary home `ℚ(√−15)` is **doubly
+separated** — generic (B333) and geometrically unreachable (B336, monodromy `{t²−4}∌−15`, commensurables all `ℚ(√−3)`);
+**structure ⊕ ordering** — symmetric ⇒ E₆ + democratic, distinct seeds ⇒ ordered + no shared E₆, no static config has
+both (B337); and the **bridge is a flow** (Dehn filling, `CS~−1/(2n)`) whose parameter is **external** (B338). So the
+hierarchy is *selected by the external breaking* (the vacuum/filling), not forced — the firewall stated as a theorem.
 **What closes it.** Construct `T[4₁;E₆]` explicitly (the DGG state integral for an **exceptional** group); and settle the
 self-dual-vs-complex embedding of the arithmetic `2T` (the hierarchy sub-atom above).
 **Obstruction / tier.** State-integral models exist for `SU(N)`/classical groups; the exceptional case is not standard.
