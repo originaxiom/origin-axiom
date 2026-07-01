@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The CP/mixing sweep B339–B342 + S048 (2026-07-01).** The flow interior (H107–H109) + Chat-2's lepton-mixing reading,
+  all firewalled, **zero `CLAIMS.md`**. **B339 (H107):** the chiral-flow sub-leading is `CS(1,n)=−1/(2n)+1/(24n³)+…` —
+  `c₂=0` (amphichirality theorem) and `c₃=1/24=1/(2·h(E₆))`, **rational, no √−3** (the flow's arithmetic is `|τ|²=12`, not
+  Eisenstein). **B340 (H108):** the CP phase `κ` along the flow — `±π/6` is **extremal at the amphichiral cusp** (CS=0);
+  chirality *lowers* `arg κ` at `O(CS²)`; the CP sign is external (orientation). **B341/H109:** resolved by B337 (no probe)
+  — the ordered spectrum is a 3-seed multiplicity invariant, E₆ is single-object → structure⊕ordering forbids both in one
+  config. **B342 + `speculations/S048` (heavily firewalled):** the object's ℤ/3 *is* the trimaximal (magic) symmetry
+  (`(1,1,1)/√3` = ℤ/3-invariant = TBM middle column) — a **math fact**; but the honest data comparison (the check Chat-2
+  skipped) shows **current data favours TM1 over TM2** (θ₁₂: TM1 34.3° vs TM2 35.7° vs obs 33.4°). Guardrails explicit:
+  symmetry-not-magnitude, B322 null, HELD unmet, the δ-sign joint (PMNS-in-ℚ(√−3)) unweldable → NEEDS-SPECIALIST. *(θ★/D10
+  is a separate defunct project, not a constraint — noted in memory.)* Verified-not-trusted throughout.
 - **The symmetry-broken sweep B336–B338 + S047 (2026-07-01).** Two cross-chat insights (both verified here), probed *in*
   the symmetry-broken sector instead of deferring. **B336 (Chat-1, chirality):** the value would live in the imaginary
   seam `ℚ(√−15)`; confirmed `J_N(4₁;ζ₁₅)` real (amphichiral → zero √−15), but the chiral *routes* are provably closed —
