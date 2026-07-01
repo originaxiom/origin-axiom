@@ -1,7 +1,7 @@
 # B172 — the combination gap, resolved (Phase 1): interaction *does* generate a rank-3 gap, label ~(3,−3)
 
 **Date:** 2026-06-18. **Status:** **Phase 1** of the multi-seed-interaction plan
-(`~/.claude/plans/multi-seed-heterogeneous-quasicrystal.md`), the L16 spectral lane. Answers the question B171
+(a local planning note), the L16 spectral lane. Answers the question B171
 opened — *does heterogeneous interaction generate a genuine rank-3 combination gap?* — **affirmatively, hedged**: the
 woven metallic quasicrystal has a real, persistent spectral gap whose IDS is **not any single-frequency
 (inherited-ladder) value**, so it requires **both** frequencies — a **combination gap present in neither pure chain**

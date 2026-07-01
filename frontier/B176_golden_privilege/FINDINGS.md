@@ -1,7 +1,7 @@
 # B176 — the golden privilege, with controls (P3): φ stands alone, but it is *not* a monotone irrationality order
 
 **Date:** 2026-06-18. **Status:** **P3** of the multibody-extraction plan
-(`~/.claude/plans/collective-multibody-extraction.md`) — the controlled test of a cross-session ("chat2") claim
+(a local planning note) — the controlled test of a cross-session ("chat2") claim
 that the woven-chain combination structure "dresses the most irrational resonance." Honest verdict: **φ/golden is
 genuinely privileged (it stands alone), but it is NOT a monotone golden>silver>bronze ordering.** Confirms chat2's
 core "φ is special"; corrects its "most-irrational-in-order" generalization. **Firewall-side**: emergent quasicrystal

@@ -1,6 +1,6 @@
 # B171 — the heterogeneous metallic quasicrystal (Phase 0): baseline, density-trap null, cross-session verification
 
-**Date:** 2026-06-18. **Status:** **Phase 0** of the multi-seed-interaction plan (`~/.claude/plans/multi-seed-heterogeneous-quasicrystal.md`),
+**Date:** 2026-06-18. **Status:** **Phase 0** of the multi-seed-interaction plan (a local planning note),
 the **substitution / gap-labeling lane** (OPEN_LEADS **L16**) — the *spectral* face of the κ↔spectrum bridge (`K010`),
 chosen over the cusp-gluing/κ lane (H5) per owner direction. This establishes the **baseline + the density-trap null**
 and **verifies a cross-session claim** before it shapes the plan. **Firewall-side**: emergent quasicrystal /

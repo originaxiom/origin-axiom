@@ -9,7 +9,7 @@ hyperbolic 3-manifolds is a TQFT; this is the Dimofte-object / cross-check, not 
 the Chern–Simons semiclassical data (A-polynomial = classical action; normal Reidemeister-type torsion
 `τ_m = det'(I − D(T_m²)|_normal)` = one-loop-type term) of the metallic mapping tori `φ_m²`, computed at
 the **correct** complete hyperbolic structure (`κ = tr[A,B] = −2`, both peripheral elements parabolic).
-This **corrects** the earlier Claude-web evaluation at `κ=+2`, which sat at the *identity* rep `x=2` and
+This **corrects** the earlier AI-web evaluation at `κ=+2`, which sat at the *identity* rep `x=2` and
 returned the abelian determinant (5 for m=1, 32 for m=2), not the geometric torsion.
 
 ## Results
