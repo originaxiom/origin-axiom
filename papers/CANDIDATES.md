@@ -45,6 +45,10 @@ HISTORICAL_ARCHIVE
 
 ## Portfolio triage (2026-06-11 — folds in the B124–B151 arc)
 
+> *Snapshot note: this triage is a 2026-06-11 snapshot. Later candidate cards (PC20 the E₆-bridge/seam, PC21 the
+> structural theorem) were added above but are **not** re-triaged here; for the current strategic map see
+> `../docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md` and `../docs/OPEN_PROBLEMS.md`.*
+
 The arc (chirality axis closed, degree=rank completed, class-S bridge identified, firewall confirmed)
 is now reflected above. Every candidate is tagged with its `docs/NOVELTY_AUDIT.md` verdict, its gate,
 and a realistic venue/tier. The binding caveat from R4: an AI literature read **de-risks but does not
