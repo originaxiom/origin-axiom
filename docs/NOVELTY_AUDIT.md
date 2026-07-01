@@ -268,3 +268,33 @@ and added:
 - **CLAIM 4** — the official verdict is **NEEDS-SPECIALIST** (zero verified prior art — an *absence of coverage*,
   not confirmed novelty); the components (amphichirality; the `(E₆,F₄)=EIV` symmetric pair) are individually
   standard, only the *identification* is uninvestigated.
+
+---
+
+## R7 (2026-07-01) — the hierarchy-atom / L34 items (four residual topics)
+
+Adversarial web/literature sweep (assume-known-until-refuted) on the items **not** already covered by R1–R6. Feeds
+`frontier/B326`, `B329`, and the L34 follow-on.
+
+- **ITEM 1 — `27|₂T` branching.** **PARTIALLY-KNOWN.** Both ingredients are standard: the principal-SL(2) decomposition
+  `27 = V(16)⊕V(8)⊕V(0)` (Gross, *Duke* 100 (1999); Kostant arXiv:math/0411142) and SU(2)-irrep→Γ branching (Kostant;
+  McKay 1980). The **explicit** restriction of the 27 into the seven `2T`-irreps appears **unpublished** but is a routine
+  corollary; computed in-sweep and **re-verified in-sandbox (B329)**: `27|₂T = 3·1 ⊕ 3·1′ ⊕ 3·1″ ⊕ 6·3` (factors
+  through `A₄`; no spinors; real character). Residual: medium — could be buried in a Slodowy/GSV singularity paper.
+  **Specialist:** Griess / Reeder / Gross (finite subgroups of exceptional groups).
+- **ITEM 2 — complex (non-self-dual) `2T ↪ E₆`.** **NEEDS-SPECIALIST** (constituents KNOWN; synthesis APPEARS-NOVEL).
+  `2T` has complex-type pairs `1′/1″`, `2′/2″` (FS 0) and a quaternionic `2` (FS −1); the complex faithful `3 = 1′⊕2′`
+  gives `2T ↪ SU(3) ⊂ E₆` (trinification). The mechanism (complex embedding *can* give a chiral 27-character) is sound
+  and non-vacuous (**B329**: the SU(3) `3`|₂T has complex character), **but** the actual E₆ 27's balanced `3/3̄`
+  trinification restores reality (`n₁=n₂`). No source states this pair (real vs chiral). **Specialist:** as ITEM 1 + an
+  E₆-flavor phenomenologist.
+- **ITEM 3 — `Δ₄₁ = t²−3t+1` carries both √5 (disc) and √−3 (`≡Φ₃ mod 2/4`).** **APPEARS-NOVEL as a stated coincidence,
+  but light.** Constituents standard (disc 5 → `Q(√5)`; trace field `Q(√−3)` — Riley/Thurston/Maclachlan–Reid). No source
+  states the mod-`p` reduction picture; but `−3 ≡ 1 mod 4` makes the mod-2 identity automatic → keep as **`[HOOK]`**, not
+  a theorem (see `speculations/S046`). Likely not worth specialist escalation.
+- **ITEM 4 — silver/bronze character-variety curves + conductors.** **PARTIALLY-KNOWN / NEEDS-SPECIALIST.**
+  Baker–Petersen (*IJM* 24 (2013), arXiv:1211.4479) determine once-punctured-torus-bundle character varieties for the
+  **tunnel-number-one** family `φₙ = τ_c τ_b^{n+2}` (fig-8 = their `n=−3`; elliptic canonical components at `n=−6,−4,−3,5`)
+  — but the **symmetric metallic words `RᵐLᵐ` (silver, bronze) are NOT in that family** (tunnel number >1), and **no
+  conductor / LMFDB labels** exist for any of them. So the silver/bronze arithmetic is genuinely uncomputed. **Specialist:**
+  Baker / Petersen / Chesebro / Dunfield, + an arithmetic-geometry collaborator for the LMFDB side.
