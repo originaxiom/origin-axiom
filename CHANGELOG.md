@@ -9,6 +9,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B333 — the compositum seam probe: the firewall holds *at* the seam (2026-07-01).** The first probe run *in* the seam
+  (not on one side). The B332 meditation located a value's home in the compositum's third subfield **ℚ(√−15)**
+  (`√5·√−3`, ramified at `15=3·5`). Run with a **null test** up front: `h(−15)=2` (Chat-1's claim, verified) — **but
+  `h=2` is common** (14 of 123 fundamental discriminants to −400), units `{±1}` generic, ramification at `{3,5}`
+  tautological. So **ℚ(√−15) is arithmetically GENERIC** → no SM structure → **firewall holds at the seam.** Retires the
+  compositum `[HOOK]` (verify-don't-trust on this seat's own proposal): the seam is the correct *structural* home of a
+  value, but the value is not in the field's arithmetic — the specific gluing needs external input (Level 4), as B326/B331
+  already located. Firewalled; nothing to `CLAIMS.md`.
 - **B332 — the two ends = product and ratio of the founding letters (2026-07-01).** Chat-1 handoff, verify-don't-trust.
   **Verified exact:** `g = −R·L⁻¹` (the generation ℤ/3 element *is* the signed ratio of `σ`'s two letters `R,L`), and
   `g⁻¹a = −L`. The two simplest length-2 combinations land on the two arithmetic ends: **product `RL`** (trace 3, disc 5)
