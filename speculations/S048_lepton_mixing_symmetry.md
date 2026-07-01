@@ -1,9 +1,18 @@
-# S048 — the lepton-mixing symmetry reading: TM2, with the guardrails louder than the result (firewalled)
+# S048 — the lepton-mixing symmetry reading: *exact TBM* (θ₁₃=0), breaking external (firewalled)
 
-**FIREWALLED SPECULATION. Tags: `[MATH]` verified (B342) · `[LEAP]` unforced identification · `[HOOK]` motivated
+**FIREWALLED SPECULATION. Tags: `[MATH]` verified (B342/B343) · `[LEAP]` unforced identification · `[HOOK]` motivated
 observation. Nothing crosses to `CLAIMS.md`; nothing is `HELD` without the two-part test.** The physics-facing reading of
-Chat-2's CP-redirect. The math backbone is B342 (`frontier/`); this note holds the *interpretation*, and — because this
-is the closest the program comes to touching measured data — the guardrails are stated **above** the reading, not below.
+Chat-2's CP-redirect. The math backbone is B342/B343 (`frontier/`); this note holds the *interpretation*, and — because
+this is the closest the program comes to touching measured data — the guardrails are stated **above** the reading.
+
+> **CORRECTION (B343, 2026-07-01): the "object selects TM2" reading below is RETRACTED.** Verified: the neutrino residual
+> symmetry is the object's own 2-torsion **Klein group** `ℤ₂×ℤ₂` (of the `(ℤ/4)²` torsion, B326), and the deck ℤ/3 acts
+> on it **irreducibly** (`Φ₃` irreducible mod 2), 3-cycling the three `ℤ₂`'s and selecting **none**. So the object forces
+> the **full Klein → exact TBM (θ₁₃=0)**, not TM1 and not TM2. The TM2 tension **dissolves** (the object never bet on
+> TM2). And `θ₁₃=0` is itself excluded — so the object's symmetry is the `θ₁₃=0` *limit*; the TBM-**breaking** (θ₁₃'s size
+> *and* direction) is **external**. The **same irreducibility** that makes the object mass-blind (B335) and split-blind
+> (B327/B329) makes it **direction-blind** here — one arithmetic property. *(The `[LEAP]`/`[HOOK]`/TM2 text below is kept
+> for the record of how the reading was corrected; read it through this banner.)*
 
 ## Guardrails (binding, read first)
 1. **Symmetry, not magnitude.** A discrete-symmetry pattern (TBM/TM2) is *form* and may be discussed here; a fit of the
