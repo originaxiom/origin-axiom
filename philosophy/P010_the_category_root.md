@@ -59,7 +59,11 @@ The honest caveat that keeps this from being false hope: even on the Hitchin sid
 field's**, which in the class-S / 3d–3d dictionary is the *gauge theory's* scale — **external** (B151). So crossing
 to Hitchin most likely **relocates** the firewall (the Painlevé "time" is a dimensionless modulus, not physical
 time — the same type-mismatch as `P006`) rather than dissolving it. It is the one frontier where the object grows
-a genuine dynamics; it is also unrun on *our* objects. A direction, stated as one, not a promise.
+a genuine dynamics. **(Update — this lens has since been RUN: B164 built the (0,4) Fricke cubic + the Painlevé-VI/MCG
+dynamics; B169 ran the isomonodromy flow, computed the dynamical degree `λ_m²`, and confirmed the dimensionless-time
+verdict; B317 placed the object as a *transcendental* Painlevé-VI solution — positive entropy `2 log λ_m`, hyperbolic
+nonlinear monodromy, **not** one of the algebraic Lisovyy–Tykhyy solutions. The prediction held: real chaotic dynamics,
+dimensionless time, firewall *relocated* not dissolved. The "unrun on our objects" phrasing predates B164/B169/B317.)**
 
 ## The constructive flip (so the consolidation is not only a wall)
 
