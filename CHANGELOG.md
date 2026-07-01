@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The symmetry-broken sweep B336–B338 + S047 (2026-07-01).** Two cross-chat insights (both verified here), probed *in*
+  the symmetry-broken sector instead of deferring. **B336 (Chat-1, chirality):** the value would live in the imaginary
+  seam `ℚ(√−15)`; confirmed `J_N(4₁;ζ₁₅)` real (amphichiral → zero √−15), but the chiral *routes* are provably closed —
+  monodromy `{t²−4}∌−15`, commensurables all `ℚ(√−3)≠ℚ(√−15)` (O₋₃ vs O₋₁₅), fillings non-arithmetic. With B333 (√−15
+  generic), the value's home is **doubly separated** (generic arithmetic + not a geometric invariant). **B337 (Chat-2,
+  multiplicity):** the **structure⊕ordering** theorem — a symmetric object gives E₆ + *democratic* `{52,1,1}`; distinct
+  seeds give *ordered* `{10.2,−4,−0.2}` but distinct fields (`√−3,ℚ(i),deg≥4`) → no shared E₆; `{1,2,3}` not forced
+  (arithmeticity selects `{1,2}`). Same symmetry forces structure and forbids ordering — no static config has both.
+  **B338 (the bridge):** the object *contains* a flow — Dehn filling `(1,n)` from the symmetric cusp (`CS=0`) to
+  broken/chiral configs, with the chiral order parameter **`CS ~ −1/(2n)`** — but the flow *parameter* (the slope) is
+  external, so the value is **selected, not forced**. **`speculations/S047`** holds the firewalled reunification reading
+  (symmetric UV → filling flow → broken IR). All firewalled; nothing to `CLAIMS.md`.
 - **B335 — the generation ℤ/3 is an exact isometry: the mass degeneracy is a *theorem* (2026-07-01).** Probed the real
   Level-4 geometry in-sandbox (SnapPy) instead of deferring. The three generations are related by the **deck
   transformation** of the 3-fold cover — an **isometry** — so every real invariant (volume 3× exactly; shortest

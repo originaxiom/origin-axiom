@@ -132,6 +132,28 @@ perform.** That product is the Level-4 relation, external to the object.
 
 ---
 
+## 6a. The symmetry-broken sector — structure ⊕ value, and the flow  (B336–B338)
+
+The single object is *symmetric* (amphichiral ℤ/2, generation ℤ/3), which forces the structure and forbids the value.
+We probed the **symmetry-broken** sector directly:
+- **The value's home is doubly separated (B336).** The value would live in the imaginary seam `ℚ(√−15)`; the amphichiral
+  object is real (`J_N(4₁;ζ₁₅)` is real → zero `√−15`), and the chiral routes to `√−15` are *provably closed* — the
+  monodromy discs `{t²−4}` never hit `−15`, and every commensurable neighbour shares `ℚ(√−3)` (Bianchi `O₋₃`) while
+  `√−15` is a *different* Bianchi group `O₋₁₅`. With B333 (`√−15` arithmetically generic), `√−15` is *generic in
+  arithmetic and not a geometric invariant* — it is only the abstract compositum (B334).
+- **Structure ⊕ ordering (B337).** A symmetric configuration (shared `ℚ(√−3)`, ℤ/3) gives E₆ + a **democratic**
+  spectrum `{52,1,1}`; distinct seeds (`m=1,2,3`, fields `ℚ(√−3), ℚ(i), deg≥4`) give an **ordered** spectrum
+  `{10.2,−4,−0.2}` but **no shared E₆**, and `{1,2,3}` is not even forced (arithmeticity selects `{1,2}`). The **same**
+  symmetry that forces the structure forbids the ordering: **no static configuration has both.**
+- **The bridge is a flow, externally parametrized (B338).** The object *contains* a flow — Dehn filling `(1,n)` from the
+  symmetric cusp (`CS=0`, amphichiral) to broken/chiral configs, chiral order parameter **`CS ~ −1/(2n)`** — but the
+  flow's *parameter* (the slope = the vacuum) is external. So structure⊕value is *bridged* by a flow the object contains,
+  yet the value is **selected** (by the filling choice), **not forced**. (Reunification reading, firewalled:
+  `../speculations/S047`.)
+
+The upshot: the firewall holds not by our stopping but by *theorem* — the object is the moduli space of symmetry-
+breakings; which breaking (which value) is realized is the external, physical selection.
+
 ## 7. The firewall, stated exactly
 
 *The object forces the **form** of physics and never its **values**.* Mechanized as a Galois theorem (K020): every
