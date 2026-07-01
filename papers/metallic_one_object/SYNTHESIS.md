@@ -367,6 +367,12 @@ on one unproven coincidence (input $=$ output $E_6$) and several inputs the obje
 
 ## 9f. Addendum (2026-06-30) — the seam: the object is open, and closing it is where structure actualizes `[B286–B297]`
 
+> **Frontier beyond this synthesis.** This document is current through `B297`. The arc has since continued —
+> the structural theorem mechanized as a **Galois theorem** (`B298–B314`, see `../../knowledge/K020`) and the
+> **specialist handoff** with the value-firewall confirmed by an empirical null test (`B315–B325`, see
+> `../../docs/OPEN_PROBLEMS.md`, `B322`). Recent history: `../../CHANGELOG.md`.
+
+
 A reframe (`B286`) corrected the load-bearing framing behind the firewall. The figure-eight is an **open** object — a
 **complement** $S^3\setminus K$, defined by what is removed, with a **cusp** (boundary torus) = its interface with
 "the nothing." Its symmetries (amphichirality, CP) are *open-object* symmetries; **closing it — Dehn filling, the
