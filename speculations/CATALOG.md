@@ -1,10 +1,12 @@
-# Speculation catalog — `S001…S047`
+# Speculation catalog — `S001…S048`
 
 > *Index note (2026-07-01): the rows below index `S001–S035` plus `S042–S044`. `S036–S041` (the search register, the
 > framework search `S041`, the no-forced-choice capstone `S032`), `S045` (the σ-flow cosmogony), `S046` (the
-> value-at-the-seam reading — every value is a symmetry the object leaves unbroken; cites B326/B327/B329/B330), and
+> value-at-the-seam reading — every value is a symmetry the object leaves unbroken; cites B326/B327/B329/B330),
 > `S047` (the reunification flow — symmetric UV → Dehn-filling flow → broken IR; the value is the external filling
-> choice; cites B336/B337/B338) exist as live files — consult them directly until their index rows are backfilled.*
+> choice; cites B336/B337/B338), and `S048` (the lepton-mixing symmetry reading — the object's ℤ/3 is the trimaximal
+> symmetry; TM2 but **disfavoured vs TM1**; symmetry not magnitude; cites B342, heavily firewalled) exist as live files —
+> consult them directly until their index rows are backfilled.*
 
 The index of the project's speculative readings. **Firewalled** (see `GOVERNANCE.md`): nothing here promotes to
 `../CLAIMS.md`; speculations cite proved results, never the reverse; the physics chapter stays CLOSED. Status enum:
