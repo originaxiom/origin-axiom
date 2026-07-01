@@ -34,14 +34,23 @@ figure-eight). Do not read the generic tier as object-specific forcing.
 **Question.** Is there *any* invariant of a single seed that is (1) trace-map-invariant, (2) discretely multivalued,
 (3) unsymmetrizable — a genuine forced choice?
 **Settled.** No, for the **trace ring** (B130: `κ` continuous), the **quantum/WRT** class (B314: Galois-symmetrized;
-B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`), and — **newly (B330)** — the
-**cover-torsion** class (B326's `(ℤ/4)²` has an *irreducible* deck action → no distinguished sub-object → no forced
-choice) and **cohomology `H¹`** (a canonical integer). **Five classes** now sealed by **one mechanism**: a finite Galois
-orbit is always symmetrizable, so the object hands you the symmetric orbit, never a member. *(C-guardrail: this is
-`open`, not proof of universal impossibility — see below.)*
-**What closes it.** Extend to the **untested** classes (Reidemeister/Ptolemy torsion, Chern–Simons/`η`, higher/irregular
-covers, `SL(n≥3)` gluing-variety invariants, Bloch-group classes — named in B330), or exhibit a counterexample. The
-candidate proof strategy is uniform: show each such class is a Galois orbit of the object's arithmetic (B330).
+B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`), the **cover-torsion** class (B330,
+via B326's `(ℤ/4)²`: *irreducible* deck action → no distinguished sub-object → no forced choice), **cohomology `H¹`**
+(a canonical integer, B330); and — **newly (B347/B348, 2026-07-01)** — the **cyclic-cover abelian-torsion** class for
+*all* `n` (B347: the orders are the P8/C5 Lucas ladder — canonical integers; the Alexander factor multiset `{Δ(ζₙʲ)}`
+is a Galois-closed orbit with **integer** symmetric functions; the deck action is fixed-point-free *uniformly* since
+`det(A−I)=Δ(1)=−1` is a unit — an **MB8 generic-knot** mechanism, honestly tiered; subsumes B326's `n=3` and settles
+B330's "higher **cyclic** covers" item) and the object's **Bloch/scissors class** (B348: the orbit is `{+β,−β}` =
+`{+Vol,−Vol}`, sum 0, and the residual sign = *orientation* is killed by the object's own amphichirality — *self*-
+symmetrized, B318's geometric firewall landing in the Bloch group; plus **the seam identity** `1−z₀ = z̄₀`: at the
+Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation). **Seven
+classes** now sealed by **one mechanism**: a finite Galois orbit is always symmetrizable, so the object hands you the
+symmetric orbit, never a member. *(C-guardrail: this is `open`, not proof of universal impossibility — see below.)*
+**What closes it.** Extend to the remaining **untested** classes (the **nonabelian** Ptolemy/adjoint torsion of the
+character-variety components — B98/B99's `τ₁=−3` is a single rational, canonical, but the class as a whole is open;
+Chern–Simons/`η` beyond the banked `CS=0`; **irregular** covers; `SL(n≥3)` gluing-variety invariants; the
+extended-Bloch/`K₃^{ind}` torsion theory beyond the object's own class), or exhibit a counterexample. The candidate
+proof strategy is uniform: show each such class is a Galois orbit of the object's arithmetic (B330).
 **Obstruction / tier.** A universally-quantified "no invariant whatsoever" — hard, possibly itself specialist, but the
 one arguably-still-in-sandbox target. If proven ⇒ single-seed member-contingency is **irreducible** (the firewall's
 deepest form); choice enters only via heterogeneity (K014/B131).

@@ -9,6 +9,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **Gate A extensions B347–B348 (2026-07-01).** Two of B330's named untested invariant classes sealed under the
+  same Galois-symmetrization mechanism, both in-sandbox, both CONDITIONAL (C-guardrail), nothing promoted.
+  **B347 — the cyclic-cover abelian-torsion class:** the n-fold-cover torsion orders are the **P8/C5 Lucas ladder**
+  `|det(Aⁿ−I)| = L₂ₙ−2` (one ladder, three faces); the Alexander factor multiset `{Δ(ζₙʲ)}` is a Galois-closed orbit
+  with **integer** symmetric functions; SNF gives the groups (n=3 → `(ℤ/4)²`, independently re-deriving B326); and
+  the deck action is fixed-point-free for **every** n with the one-line cause `det(A−I)=Δ(1)=−1` a unit — honestly
+  tiered as an **MB8 generic-knot** mechanism (Δ(1)=±1 for all knots), not object-specific forcing. **B348 — the
+  Bloch/scissors class:** the object's class `β=2[e^{iπ/3}]` has Galois orbit `{+β,−β}` = `{+Vol,−Vol}` (sum 0,
+  canonical); the residual sign is the *orientation*, killed by the object's own amphichirality (B318's geometric
+  firewall landing in the Bloch group — *self*-symmetrized); plus **the seam identity** `1−z₀ = z̄₀`: at the
+  Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation (`z(1−z)=1 ⇔
+  z²−z+1=0` — the P12 quadratic is exactly that locus). **Seven classes** now sealed; the untested residual is
+  renamed precisely in `OPEN_PROBLEMS.md` gate A (nonabelian Ptolemy/adjoint torsion, CS/η beyond `CS=0`, irregular
+  covers, `SL(n≥3)` gluing invariants, extended-Bloch/`K₃` torsion). Nothing to `CLAIMS.md`.
 - **External audit + robustness hardening (2026-07-01).** A fresh-clone, fresh-environment reproduction pass:
   3 frontier locks (B101/B106) failed on ill-conditioned numerical certificates and were re-certified
   structurally (nilpotency instead of defective-matrix eigenvalues; a measured-gap 1e-4 neutrality window

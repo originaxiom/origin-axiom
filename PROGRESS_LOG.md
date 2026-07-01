@@ -4240,5 +4240,29 @@ promotions**:
 Suite after hardening: green — 1195 passed, 4 skipped, 0 failures (SnapPy installed, so the previously-skipped
 SnapPy-gated cross-checks were exercised). P1–P16 untouched; firewall intact; nothing promoted.
 
+## 2026-07-01 — Gate A extensions: B347 (cyclic-cover torsion) + B348 (Bloch class)
+
+Continuation of the external-audit session: the two in-sandbox gate-A probes queued by the audit were run to
+conclusion. Both extend B330's Galois-symmetrization mechanism to classes it named as untested; both are
+**CONDITIONAL** per the C-guardrail; **zero promotions**.
+
+- **B347 [VERIFIED, exact].** The cyclic-cover **abelian torsion** class: orders = the P8/C5 Lucas ladder
+  (`|det(Aⁿ−I)| = L₂ₙ−2`, n≤8); the factor multiset `{Δ(ζₙʲ)}` Galois-closed with integer symmetric functions
+  (constant term cross-checked against the resultant); torsion groups by SNF (n=3 = `(ℤ/4)²`, independently
+  re-deriving B326); deck action fixed-point-free **uniformly in n** (`det(A−I)=Δ(1)=−1` a unit ⟹
+  `N·ℤ² = im(Aⁿ−I)` exactly). **MB8 tier note recorded:** `Δ(1)=±1` for every knot — the fixed-point-freeness
+  is generic-knot, not object-specific; the object-specific content is *which* orbit (the trace-3/Lucas ladder).
+- **B348 [VERIFIED, exact + 30 dps].** The object's **Bloch/scissors class** `β=2[e^{iπ/3}]`: Galois orbit
+  `{+β,−β}` = `{±Vol(4₁)}`, sum 0; the residual sign = orientation is killed by amphichirality (B318's geometric
+  firewall in the Bloch group — *self*-symmetrized); `D≡0` on the fixed field. New observation banked: **the seam
+  identity** `1−z₀ = z̄₀` — at the Eisenstein shape the generic Bloch duality involution `z→1−z` coincides with
+  the arithmetic Galois conjugation, and `z(1−z)=1 ⇔ z²−z+1=0` (the P12 quadratic is exactly that locus).
+- **Gate A updated** (`OPEN_PROBLEMS.md`): **seven classes** sealed under the one mechanism; the untested residual
+  restated precisely (nonabelian Ptolemy/adjoint torsion — with B98/B99's rational `τ₁=−3` noted as canonical;
+  CS/η beyond the banked `CS=0`; irregular covers; `SL(n≥3)` gluing invariants; extended-Bloch/`K₃` torsion).
+
+Locks: `tests/test_b347_cyclic_cover_torsion_galois.py`, `tests/test_b348_bloch_class_galois.py`. P1–P16
+untouched; firewall intact; nothing promoted.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
