@@ -60,3 +60,13 @@ discipline working on our own work.)
 
 Anchors: `B107`,`B130`,`B148`,`B150`,`B151`,`B159`–`B164`,`B167`; `K007`,`K010`; `P001`,`P003`,`P010`;
 `S023`,`S034`,`S035`; `../docs/STRATEGIC_SYNTHESIS.md` §8/§8a/§8c.
+
+---
+
+> **Where the story continues (the narrative closes here, at ≈B167 / 2026-06-17).** The frontier has since advanced
+> through two arcs, not yet written up as chapters: **(1) the structural-theorem arc (B231–B314)** — the four-faces map
+> sharpened into one proven statement, *the object forces the form of physics, never its values*, mechanized as a
+> **Galois theorem** (`../knowledge/K020`, `../philosophy/P013`); and **(2) the specialist-handoff arc (B315–B325)** —
+> the frontier mapped to four gates, with the value-firewall confirmed empirically by a null test
+> (`../docs/OPEN_PROBLEMS.md`, `B322`). For the full recent history see `../CHANGELOG.md`; for the current state,
+> `../README.md`'s "Current state — read next" block.

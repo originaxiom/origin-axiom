@@ -22,9 +22,12 @@ than a proof. It is the room a newcomer reads first to understand *what happened
 
 ## Chapters
 
-`00`–`08`, oldest-question-first: the question; the seed object; the tower; degree=rank & the knot invariants; the
+`00`–`12`, oldest-question-first: the question; the seed object; the tower; degree=rank & the knot invariants; the
 unification (`ρ_n`); the `n=5` wall; the three fixed-point classes; the physics sweep and its negatives; where it
-stands. Each is a short arc, not a textbook.
+stands (`00`–`08`); then the consolidation arc — `ρ_n` crystallized (`09`), chirality & degree=rank closed (`10`), the
+bridge and the wall (`11`), and what we learned / the firewall as a theorem (`12`). Each is a short arc, not a
+textbook. **The narrative closes at chapter 12 (≈B167, 2026-06-17); the frontier has since advanced to B325 — see
+`12_what_we_learned.md`'s closing pointer, then `../CHANGELOG.md` and `../docs/OPEN_PROBLEMS.md`.**
 
 Companion rooms: `../speculations/` (the evolving ideas), `../philosophy/` (the motivation), `../ARCHITECTURE.md`
 (the map).
