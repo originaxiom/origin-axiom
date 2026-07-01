@@ -9,6 +9,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **The deviation-structure sweep B344–B346 + K022 (2026-07-01).** The reframe from B343 (*the object is the symmetric
+  centre, not value-blind*) turned into a probe: the object forces the **form of the deviation space** around the centre
+  — all dimensionless **relations/textures** (form, per the `sin²θ_W=3/8` precedent), never magnitudes. **B344:** `det(dφ)=1`
+  + κ-invariance ⇒ deviations come in a **reciprocal symplectic pair `(λ,1/λ)`**; κ is the un-paired Casimir = the
+  scale/cusp door (external); this is *why* the metallic tower is `λ^k↔λ^{−k}` (B65). **B345:** the deviation modes carry
+  ℤ/3 charges `{0,1,2}`, forcing a **charge-conservation selection rule** (the anti-diagonal ω-circulant texture, B324) —
+  *independent* of the E₆-exponent split (B265). **B346 (the "prize"):** **symplectic conjugation = ℤ/3 charge
+  conjugation** (linked), E₆-exponent independent — but **no data-facing second falsifier** emerged (the cross-relations
+  are *forms*, not measured predictions), which is the on-brand honest result. **`knowledge/K022`:** the reframe — the
+  object is the symmetric centre and forces the *geometry of the perturbations*; the world sets the magnitudes. Deepens
+  K020. Nothing to `CLAIMS.md`.
 - **B343 — the object forces *exact TBM* (θ₁₃=0), not TM2 (2026-07-01).** Chat-2's three-step self-correction, verified at
   the landing; **corrects B342/S048**. The neutrino residual symmetry is the object's own 2-torsion **Klein group**
   `ℤ₂×ℤ₂` (of `(ℤ/4)²`, B326); the deck ℤ/3 acts **irreducibly** (`Φ₃` irreducible mod 2), 3-cycling the three `ℤ₂`'s and
