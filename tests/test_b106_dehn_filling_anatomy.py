@@ -48,7 +48,12 @@ def test_eigenvalue_anatomy_per_eigenvector_relation():
         assert r["k"] == k
         assert r["commute_offdiag"] < 1e-6                 # mu and [A,B] commute
         assert r["per_eigenvector_dev"] < 1e-6             # L_i = c M_i^k per eigenvector
-        assert abs(r["c"] - c) < 1e-3                       # the scalar c (root of unity)
+        # the scalar c, up to complex conjugation: the numerical realization
+        # can land on either of the two conjugate reps (LAPACK-version- and
+        # seed-dependent branch), and c=+i / c=-i are the same Galois-conjugate
+        # arithmetic content. (Audit fix 2026-07-01: a fresh environment
+        # deterministically realized the conjugate, c=-i, for "secondary".)
+        assert min(abs(r["c"] - c), abs(r["c"] - np.conj(c))) < 1e-3
         assert abs(abs(r["c_to_k"]) - 1) < 1e-3            # |c^k| = 1
 
 

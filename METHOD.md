@@ -7,7 +7,7 @@ C/K guardrails (`GOVERNANCE §6.1`).
 ## The problem this fixes
 
 The verification discipline is deflationary by design — verify-don't-trust, the HELD rule, null tests, the
-one-way firewall, the MB6–MB12 guards, "dead is permanent." Pushed hard at the wrong moment it kills **hints,
+one-way firewall, the MB6–MB13 guards, "dead is permanent." Pushed hard at the wrong moment it kills **hints,
 bigger pictures, and new questions before they can grow** — a hint at birth looks like an overclaim. The repo's
 machinery was asymmetric: ~6 institutionalized artifacts for rigor, **one** thin artifact for generativity
 (`docs/OPEN_LEADS.md`, which admits only *decisions to run*). So the program was structurally biased toward
@@ -99,6 +99,6 @@ Fire **per ~10 banked results**, piggybacked on the gate-completion / `PROGRESS_
 ## Anchors
 `GOVERNANCE.md` (§6 red-team, §6.1 C/K, §6.2 the staging principle, §8 anti-overclaim glossary);
 `docs/HINT_LEDGER.md` (the register); `docs/OPEN_LEADS.md` (the decision-to-run ledger hints promote into);
-`ROADMAP.md` (the WIDEN/QUESTION standing rules); `REPRODUCIBILITY.md` (MB6–MB12); `speculations/GOVERNANCE.md`
+`ROADMAP.md` (the WIDEN/QUESTION standing rules); `REPRODUCIBILITY.md` (MB6–MB13); `speculations/GOVERNANCE.md`
 (the HELD rule + status enum the gate reuses); `papers/VALIDATION_LEDGER.md` (the rigor counterpart);
 `papers/CANDIDATES.md` PC05 (the methodology paper — this is its generative half).

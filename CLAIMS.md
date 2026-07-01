@@ -10,7 +10,7 @@ by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
 **Last updated:** 2026-07-01 · the proven core P1–P16 is **unchanged through all frontier work to
-date (B1–B314)** — **B69–B314 produced zero promotions** to this ledger (the SL(n) trace-map tower,
+date (B1–B346)** — **B69–B346 produced zero promotions** to this ledger (the SL(n) trace-map tower,
 the chirality / class-S / firewall arc, the object-mapping arc — the four faces, the elliptic
 curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — and the
 structural-theorem arc B231–B314, the two-ended object / the cascade / Face IV / *the firewall as a
@@ -81,7 +81,7 @@ independent + 1 via-discriminant).
 | C2 | The Fibonacci `|F|²` probability matrix is reconstructed from `A`'s Perron eigenvector. | Requires an additional "Perron-switch / degeneracy" rule; plain MaxEnt gives ½,½. |
 | C3 | Trace 3 is the unique torsion-free hyperbolic trace. | Holds only within once-punctured torus bundles with `SL(2,ℤ)` monodromy. |
 | C4 | The `(disc 5)(disc −3)` state-integral factorization is unique to the figure-eight. | Verified for 11 census manifolds only — a census check, not a proof. |
-| C5 | The primitive projective tangent return selects the `A` sector `t²−3t+1`, hence `I=1/4` and dimensionless `lambda/h=1`. | Depends on **T1**: the primitive projective tangent return inherits the original arithmetic persistence filters. Formalized in `docs/TRACE_SELECTOR_THEOREM.md`; locked as frontier evidence by B38-B47. Stays `conditional`; T1 is motivated, not derived. |
+| C5 | The primitive projective tangent return selects the `A` sector `t²−3t+1`, hence `I=1/4` and dimensionless `lambda/h=1`. | Depends on **T1**: the primitive projective tangent return inherits the original arithmetic persistence filters. Formalized in `docs/TRACE_SELECTOR_THEOREM.md`; locked as frontier evidence by B38-B47; the post-T1 algebra (`mu=4I+2`, T1-filters ⟹ `mu=3` ⟹ `I=1/4` ⟹ `lambda/h=1`, the Lucas-hierarchy control, and its identity with the P8 torsion ladder) is test-locked by `tests/test_trace_selector_c5.py` ✓ (2026-07-01 audit — C5 was previously the one ledger entry with no executable evidence). Stays `conditional`; T1 is motivated, not derived. |
 
 ---
 

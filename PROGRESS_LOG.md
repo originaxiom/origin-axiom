@@ -4211,5 +4211,34 @@ promotions.**
 
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
+## 2026-07-01 — External audit + robustness hardening (fresh-clone reproduction pass)
+
+An independent audit session (fresh clone, fresh environment, SnapPy 3.3.2 installed) ran the full claim-by-claim
+verification the repo invites in `README.md` §"How to navigate." Findings and fixes, **zero label changes, zero
+promotions**:
+
+- **Fresh-environment reproduction: the suite was NOT green** — 3 frontier locks failed deterministically
+  (`test_b101` unipotent-cusp, `test_b106` roots-of-unity + anatomy scalar) from ill-conditioned certificates
+  (eigenvalues of a defective matrix; a 1e-2 neutrality window capturing a hyperbolic pair at 7e-3; a
+  Galois-conjugate branch `c=−i` vs `c=+i`). All three re-certified structurally (nilpotency residual,
+  measured-gap window, conjugation-closed comparison); banked as guard **MB13** in `REPRODUCIBILITY.md`.
+  The *findings* of B101/B106 were confirmed correct; only the certificates were fragile.
+- **Claim-by-claim test audit (P1–P16, C1, C5):** 12/15 proven claims verified LOCKED by exact symbolic tests.
+  Hardened the rest: **P9** was circular (constants mirrored back at themselves; `H₁`, amphichirality, sister
+  torsion untested) — now recomputed independently (dilogarithm volume, no SnapPy) plus live SnapPy cross-checks
+  for every clause; **P5** count-partition was tautological and the `β_c` thresholds untested — now brute-force
+  word-ensemble sums + exact growth-rate assertions; **P4** parameter point now *derived* as the unique solution,
+  weak-cooperativity actually asserted; **P11** `log(A)` now derived independently by exact eigendecomposition;
+  **P10** three of the four documented auxiliary filters (min volume, amphichirality, Eisenstein triangulation)
+  now live-checked against SnapPy. **C5** was the one ledger entry with no executable evidence — the post-T1
+  algebra is now locked by `tests/test_trace_selector_c5.py` (including the Lucas-hierarchy ↔ P8 torsion-ladder
+  identity).
+- **Documentation drift corrected:** the frontier stands at **B346** (345 probe directories), while GOVERNANCE §7
+  said B314 and README/ROADMAP said B325 with stale test counts (~1113/304 vs actual 1197/325 after this pass) —
+  exactly the "credibility bugs" class the 2026-07 masterplan flagged. Ceilings and counters refreshed.
+
+Suite after hardening: green — 1195 passed, 4 skipped, 0 failures (SnapPy installed, so the previously-skipped
+SnapPy-gated cross-checks were exercised). P1–P16 untouched; firewall intact; nothing promoted.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

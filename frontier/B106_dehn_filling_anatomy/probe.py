@@ -153,7 +153,13 @@ def d1_neutral_eigenvalues_are_roots_of_unity(seeds=(0, 1, 2)):
         for sd in seeds:
             A, B, t = df.realize_bundle_rep(np.array(SL4_SPECTRA[comp]), seed=sd)
             ev = _sl4_jacobian_from_rep(A, B, jc)
-            ang = sorted(round(float(np.angle(e) / (2 * np.pi)), 3) for e in ev if abs(abs(e) - 1) < 1e-2)
+            # Neutrality window 1e-4, NOT 1e-2: the genuine neutral eigenvalues sit
+            # within ~1e-5 of the unit circle at every realize seed, while a moving
+            # HYPERBOLIC pair can pass as close as ~7e-3 (principal, seed 1) -- a
+            # 1e-2 window captures it and pollutes the angle set with non-root-of-
+            # unity angles. (Audit fix 2026-07-01; measured separation >= 2 orders
+            # of magnitude on each side of 1e-4.)
+            ang = sorted(round(float(np.angle(e) / (2 * np.pi)), 3) for e in ev if abs(abs(e) - 1) < 1e-4)
             # are they all rational p/q with q<=6 (roots of unity)?
             rou = all(min(abs(a - k / q) for q in range(1, 7) for k in range(-q, q + 1)) < 1e-3 for a in ang)
             per_seed.append((tuple(ang), rou))

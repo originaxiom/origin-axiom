@@ -126,6 +126,21 @@ pip install snappy
   composite). The non-vacuous notions survive (chiral = no orientation-reversing self-homeo; *contingency* vs the
   symmetry being broken). Sibling of `MB10`/`MB11`; the danger here is that it is **not** physics-over-math
   contamination (the usual tell) but formal incoherence that sounds like rigor.
+- **SCAN — MB13: a green suite is not an environment-independent suite — never certify an ill-conditioned
+  property through raw eigenvalue data** (2026-07-01 external audit; a fresh-clone run failed 3 frontier locks that
+  were green in the authoring environment). Three concrete instances, all fixed with structural certificates: (1)
+  **unipotency via `eigvals ≈ 1` is LAPACK-version-dependent** — the eigenvalues of a defective (single-Jordan-block)
+  matrix move by `eps^(1/3)` under an `eps` entry perturbation (~4e-5 at machine precision), so a 1e-6 tolerance on
+  eigenvalues false-negatives on a genuinely unipotent cusp; certify nilpotency `(M−I)^n ≈ 0` instead (B101; sibling
+  of the B129/B2 guard). (2) **a "neutral eigenvalue" window must be set from the measured gap, not round numbers** —
+  at one realize seed a moving *hyperbolic* pair passed within 7e-3 of the unit circle, inside the 1e-2 window,
+  polluting the root-of-unity angle set; the genuine neutrals sit within 1e-5, so 1e-4 separates by two orders each
+  side (B106). (3) **numerical realizations land on either Galois-conjugate rep** — the scalar in `L=c·M^k` came out
+  `c=−i` where the authoring environment got `c=+i`; assert conjugation-invariant data (accept `{c, c̄}`), since the
+  branch is seed/LAPACK-dependent while the arithmetic content is the conjugacy class. **Guard:** any lock asserting
+  eigen-data near a defective matrix, a threshold window, or a complex branch must state why the certificate is
+  stable across BLAS/LAPACK builds — or use the structural form (nilpotency residual, measured-gap window,
+  conjugation-closed comparison).
 - **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
   multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
   physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /

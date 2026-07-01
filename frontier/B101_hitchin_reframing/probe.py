@@ -193,8 +193,16 @@ def v0_anosov_hallmark():
     for W in _WORDS:
         e = np.sort(np.linalg.eigvals(_word(g, W)).real)
         per_word[W] = bool(np.all(e > 1e-7) and (e[1] - e[0]) > 1e-5 and (e[2] - e[1]) > 1e-5)
-    cusp = np.linalg.eigvals(_word(g, "abAB"))               # [a,b] -> unipotent (all eigenvalues 1)
-    cusp_unipotent = bool(np.allclose(cusp, 1.0, atol=1e-6))
+    # [a,b] -> unipotent. Certify structurally via nilpotency, (M - I)^3 = 0:
+    # the eigenvalues of a defective (single-Jordan-block) matrix are
+    # ill-conditioned -- an entry perturbation eps moves them by eps^(1/3)
+    # (~4e-5 at machine precision here), so np.allclose(eigvals, 1, atol=1e-6)
+    # is LAPACK-version-dependent and false-negatives on a genuinely unipotent
+    # cusp. (Audit fix 2026-07-01; same failure family as the B129/B2 MB guard:
+    # eigenvalue data is the wrong certificate near a non-diagonalizable point.)
+    Mc = _word(g, "abAB")
+    nil = np.linalg.matrix_power(Mc - np.eye(3), 3)
+    cusp_unipotent = bool(np.max(np.abs(nil)) < 1e-8)
     th = 0.7
     Ae = np.array([[np.cos(th), -np.sin(th)], [np.sin(th), np.cos(th)]])
     ell = np.linalg.eigvals(sym2(Ae))

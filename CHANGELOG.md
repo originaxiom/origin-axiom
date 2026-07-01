@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **External audit + robustness hardening (2026-07-01).** A fresh-clone, fresh-environment reproduction pass:
+  3 frontier locks (B101/B106) failed on ill-conditioned numerical certificates and were re-certified
+  structurally (nilpotency instead of defective-matrix eigenvalues; a measured-gap 1e-4 neutrality window
+  instead of 1e-2; Galois-conjugation-closed scalar comparison) — findings unchanged, certificates hardened;
+  banked as guard **MB13** (`REPRODUCIBILITY.md`). The proven ledger's weak spots were closed: **P9**
+  de-circularized (independent dilogarithm volume + live SnapPy checks for `H₁`/CS/amphichirality/sister),
+  **P5** brute-force word-ensemble sums + exact threshold assertions, **P4** parameter point derived as unique,
+  **P11** independent eigendecomposition derivation of `log(A)`, **P10** three auxiliary filters live-checked,
+  **C5** given its first executable lock (`tests/test_trace_selector_c5.py`). Stale ceilings/counters corrected
+  (frontier B346; 1197 tests / 325 files). Zero label changes; zero promotions; P1–P16 semantics untouched.
 - **The deviation-structure sweep B344–B346 + K022 (2026-07-01).** The reframe from B343 (*the object is the symmetric
   centre, not value-blind*) turned into a probe: the object forces the **form of the deviation space** around the centre
   — all dimensionless **relations/textures** (form, per the `sin²θ_W=3/8` precedent), never magnitudes. **B344:** `det(dφ)=1`
