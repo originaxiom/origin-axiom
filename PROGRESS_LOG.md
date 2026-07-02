@@ -4484,3 +4484,22 @@ intact (fingerprints and nulls are *form*; recognitions are numerical-tier, hone
 
 Locks: `tests/test_b356_sigma_stability_scan.py` (4 always-on ~1 s; the full 2T/2O/2I sweep under `OA_SLOW=1`
 with the banked counts). Zero promotions; P1–P16 untouched; firewall intact (windows and closures are *form*).
+
+## 2026-07-02 — B357 (W1.3): the E₆ boundary restriction — rank 6/6, Lagrangian certified, the universal-τ identity
+
+- **rank(r) = 6/6:** every B347 tangent class restricts to a nonzero class in its 2-dim boundary block (class
+  residuals at per-block floors, `1.5e-60…1.1e-27`) — **no peripherally-invisible E₆ deformations**; with
+  block-orthogonality of the Killing pairing this **certifies the image of `H¹(M,𝔢₆) → H¹(T²,𝔢₆)` is
+  Lagrangian** (6 = half of 12) — the classical integration-cycle statement a `T[4₁;E₆]` state integral needs.
+- **The universal-τ identity:** on every cocycle of every block, the leading NZ functionals satisfy
+  `K(z(λ),h) = τ·K(z(µ),h)` with one constant `τ = −2√3·i` = the cusp shape (SnapPy control to 12 digits),
+  **uniform across all six exponents** (deviation ≤ `1.3e-52`) — the leading peripheral datum does NOT split by
+  exponent; no "higher cusp shapes" at first order. Mechanism (stated): `U = exp(N̂)`, `V = exp(τN̂)` share one
+  nilpotent; `K(·,h)` kills `im N̂ ⊕ ker N̂`.
+- **Controls (MB12):** ω nondegenerate on the honest orthonormal `H¹` basis in every block (dets nonzero,
+  antisymmetry ≤ `1e-55`); `φ_µ ≠ 0` in every block. A first (invariant-line) basis was ω-degenerate and
+  mis-spanned `H¹` — caught by exactly these gates and replaced; the depth-2 canonical Gram is the named
+  follow-up (the τ-identity shows the naive two-functional coordinates have rank 1).
+
+Locks: `tests/test_b357_e6_boundary_restriction.py` (2 always-on ~2 s; all-six sweep under `OA_SLOW=1`).
+Zero promotions; firewall intact (ranks, Lagrangians and τ are *form*).
