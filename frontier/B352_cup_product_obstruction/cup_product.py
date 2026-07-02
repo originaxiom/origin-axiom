@@ -118,102 +118,52 @@ def _norm(mk):
     return mp.sqrt(mp.mpf(_N2[mk].numerator) / mp.mpf(_N2[mk].denominator))
 
 
-# --- the exact bracket in chain coordinates (via the weight grading) --------------------
-def _bracket_chain():
-    """c[(i, j)] = sparse dict {k: Fraction} with [W_i, W_j] = sum_k c_k W_k, where
-    W_i are the UNNORMALIZED chain vectors, indexed by chain-coordinate position.
-    Exact: each solve happens inside one weight space (dim <= 6)."""
-    # weight -> list of chain positions, and the exact Gram-free solver per weight:
-    from collections import defaultdict
-    by_w = defaultdict(list)
-    for pos, mk in enumerate(COLS):
-        by_w[_WEIGHT[mk]].append(pos)
-    # exact solve: express an e6-sparse vector in the chain vectors of its weight
-    def express(vec, w):
-        cols = by_w[w]
-        basis = [CHAINS[m][k] for m, k in (COLS[p] for p in cols)]
-        idxs = sorted({i for b in basis for i in b} | set(vec))
-        A_ = [[Fraction(b.get(i, 0)) for b in basis] for i in idxs]
-        b_ = [Fraction(vec.get(i, 0)) for i in idxs]
-        # exact least-structure Gauss (the system is consistent and full-rank)
-        ncol = len(basis)
-        M = [row[:] + [bb] for row, bb in zip(A_, b_)]
-        piv = []
-        r = 0
-        for c in range(ncol):
-            p = next((i for i in range(r, len(M)) if M[i][c] != 0), None)
-            if p is None:
-                continue
-            M[r], M[p] = M[p], M[r]
-            M[r] = [x / M[r][c] for x in M[r]]
-            for i in range(len(M)):
-                if i != r and M[i][c] != 0:
-                    M[i] = [xi - M[i][c] * xr for xi, xr in zip(M[i], M[r])]
-            piv.append(c)
-            r += 1
-        sol = [Fraction(0)] * ncol
-        for rr, c in enumerate(piv):
-            sol[c] = M[rr][ncol]
-        # consistency: rows beyond rank must be zero
-        for i in range(r, len(M)):
-            assert M[i][ncol] == 0, "inconsistent weight-space solve"
-        return {cols[c]: s for c, s in zip(range(ncol), sol) if s != 0}
-
-    table = {}
-    for i, (mi, ki) in enumerate(COLS):
-        Wi = CHAINS[mi][ki]
-        for j, (mj, kj) in enumerate(COLS):
-            if j < i:
-                continue
-            Wj = CHAINS[mj][kj]
-            br = E6.brk(Wi, Wj)
-            if not br:
-                continue
-            w = _WEIGHT[(mi, ki)] + _WEIGHT[(mj, kj)]
-            sol = express(br, w)
-            if sol:
-                table[(i, j)] = sol
-                table[(j, i)] = {k: -v for k, v in sol.items()}
-    return table
-
-
-BRK_CHAIN = _bracket_chain()
-
-# normalized-basis numeric structure constants: [Wt_i, Wt_j] = sum ct_k Wt_k with
-# ct = c * n_i n_j / n_k  (moderate magnitudes; verified finite below)
+# --- the two-basis architecture ----------------------------------------------------------
+# Brackets / ad / Gram live in the B351 ROOT basis (integer structure constants,
+# perfectly conditioned; the Gram is exact). The group action lives per-block in the
+# NORMALIZED CHAIN basis (block-diagonal; no 78-dim conjugation of operators is ever
+# inverted at low precision). Only VECTORS cross between the bases, through S at
+# dps 100, which absorbs the ~1e20 dynamic range of the big Sym blocks.
+# (A first design transported the bracket into the normalized chain basis; the
+# transported structure constants span 1e-6..1e+73 -- Euclidean column norms are not
+# an invariant scaling -- and the Gram went numerically singular. Kept as a lesson.)
 _guard()
 _NORMS = [_norm(mk) for mk in COLS]
-BRK_NORMED = {}
-for (i, j), sol in BRK_CHAIN.items():
-    BRK_NORMED[(i, j)] = {
-        k: mp.mpf(v.numerator) / mp.mpf(v.denominator) * _NORMS[i] * _NORMS[j] / _NORMS[k]
-        for k, v in sol.items()
-    }
+
+# S: root coordinates <- normalized chain coordinates (columns = W_{m,k} / |W_{m,k}|)
+S = mp.zeros(DIM, DIM)
+for pos, (m, k) in enumerate(COLS):
+    for i, c in CHAINS[m][k].items():
+        S[i, pos] = mp.mpf(Fraction(c).numerator) / mp.mpf(Fraction(c).denominator) / _NORMS[pos]
+S_INV = mp.inverse(S)
 
 
-# --- mp matrix helpers ------------------------------------------------------------------
-def _zeros(r, c):
-    return mp.zeros(r, c)
-
-
-def _matmul(A_, B_):
-    return A_ * B_
-
-
-def _to_list(M):
-    return M
-
-
-def ad_chain(v):
-    """ad(v) as a 78x78 mp matrix in the NORMALIZED chain basis; v is an mp column
-    vector of chain coordinates."""
+def ad_root(v):
+    """ad(v) as a 78x78 mp matrix in the ROOT basis (exact integer structure
+    constants from B351); v is an mp column vector of root coordinates."""
     out = mp.zeros(DIM, DIM)
-    for (i, j), sol in BRK_NORMED.items():
+    for i in range(DIM):
         vi = v[i]
         if vi == 0:
             continue
-        for k, c in sol.items():
-            out[k, j] += vi * c
+        for j in range(DIM):
+            for k, c in E6.BRACKET[(i, j)].items():
+                out[k, j] += vi * c
+    return out
+
+
+def _brk_vec_root(u, v):
+    out = mp.zeros(DIM, 1)
+    for i in range(DIM):
+        ui = u[i]
+        if ui == 0:
+            continue
+        for j in range(DIM):
+            vj = v[j]
+            if vj == 0:
+                continue
+            for k, c in E6.BRACKET[(i, j)].items():
+                out[k] += ui * vj * c
     return out
 
 
@@ -309,8 +259,20 @@ def X_full(ch):
     return out
 
 
-def rep_checks(n_pairs=6, seed=3):
-    """(a) X(rel) = I per block; (b) X preserves the transported bracket."""
+_XROOT = {}
+
+
+def X_root(ch):
+    """Ad rho(g) in ROOT coordinates: S blockdiag S^-1 (dps 100 absorbs the block
+    dynamic range; validated by rep_checks)."""
+    if ch not in _XROOT:
+        _XROOT[ch] = S * X_full(ch) * S_INV
+    return _XROOT[ch]
+
+
+def rep_checks(n_pairs=4, seed=3):
+    """(a) X(rel) = I per block (chain coords, no conjugation); (b) X_root preserves
+    the EXACT integer bracket -- the load-bearing validation of the whole assembly."""
     _guard()
     worst_rel = mp.mpf(0)
     for m in EXPONENTS:
@@ -322,32 +284,15 @@ def rep_checks(n_pairs=6, seed=3):
                             for i in range(N_OF[m]) for j in range(N_OF[m])))
     import random
     rnd = random.Random(seed)
-    XA = X_full("a")
     worst_auto = mp.mpf(0)
-    for _ in range(n_pairs):
-        u = mp.matrix([rnd.uniform(-1, 1) for _ in range(DIM)])
-        v = mp.matrix([rnd.uniform(-1, 1) for _ in range(DIM)])
-        Xu, Xv = XA * u, XA * v
-        lhs = _brk_vec(Xu, Xv)
-        rhs = XA * _brk_vec(u, v)
-        num = mp.norm(lhs - rhs)
-        den = mp.norm(rhs)
-        worst_auto = max(worst_auto, num / den)
+    for X in (X_root("a"), X_root("b")):
+        for _ in range(n_pairs):
+            u = mp.matrix([rnd.uniform(-1, 1) for _ in range(DIM)])
+            v = mp.matrix([rnd.uniform(-1, 1) for _ in range(DIM)])
+            lhs = _brk_vec_root(X * u, X * v)
+            rhs = X * _brk_vec_root(u, v)
+            worst_auto = max(worst_auto, mp.norm(lhs - rhs) / mp.norm(rhs))
     return worst_rel, worst_auto
-
-
-def _brk_vec(u, v):
-    out = mp.zeros(DIM, 1)
-    for (i, j), sol in BRK_NORMED.items():
-        ui = u[i]
-        if ui == 0:
-            continue
-        vj = v[j]
-        if vj == 0:
-            continue
-        for k, c in sol.items():
-            out[k] += ui * vj * c
-    return out
 
 
 # --- the Fox complex (block-diagonal) ----------------------------------------------------
@@ -451,86 +396,94 @@ def h2_functional(m):
     return u / mp.norm(u)
 
 
-# --- the second-order relator expansion ---------------------------------------------------
-_AD_BASIS = None
-
-
-def _ad_basis():
-    global _AD_BASIS
-    if _AD_BASIS is None:
-        _guard()
-        _AD_BASIS = []
-        for i in range(DIM):
-            M = mp.zeros(DIM, DIM)
-            for (ii, j), sol in BRK_NORMED.items():
-                if ii != i:
-                    continue
-                for k, c in sol.items():
-                    M[k, j] += c
-            _AD_BASIS.append(M)
-    return _AD_BASIS
-
-
+# --- the second-order relator expansion (ROOT coordinates) --------------------------------
+# ad basis matrices are exact integer sparse dicts; the Gram is exact integers.
+_AD_SPARSE = None
 _GRAM = None
 
 
+def _ad_sparse():
+    global _AD_SPARSE
+    if _AD_SPARSE is None:
+        _AD_SPARSE = []
+        for i in range(DIM):
+            entries = {}
+            for j in range(DIM):
+                for k, c in E6.BRACKET[(i, j)].items():
+                    entries[(k, j)] = entries.get((k, j), 0) + c
+            _AD_SPARSE.append({kj: c for kj, c in entries.items() if c})
+    return _AD_SPARSE
+
+
 def _gram():
+    """Exact integer Gram G_ij = tr(ad_i^T ad_j) = sum over shared entries."""
     global _GRAM
     if _GRAM is None:
-        _guard()
-        ads = _ad_basis()
-        _GRAM = mp.zeros(DIM, DIM)
+        ads = _ad_sparse()
+        G = [[0] * DIM for _ in range(DIM)]
         for i in range(DIM):
             for j in range(i, DIM):
-                s = mp.mpf(0)
-                for r in range(DIM):
-                    for c in range(DIM):
-                        s += ads[i][r, c] * ads[j][r, c]
-                _GRAM[i, j] = s
-                _GRAM[j, i] = s
+                s = 0
+                ai, aj = ads[i], ads[j]
+                if len(aj) < len(ai):
+                    ai, aj = aj, ai
+                for kj, c in ai.items():
+                    cj = aj.get(kj)
+                    if cj:
+                        s += c * cj
+                G[i][j] = s
+                G[j][i] = s
+        _GRAM = mp.matrix(G)
     return _GRAM
 
 
-def obstruction_vector(za, zb):
-    """q with ad(q) = the t^2 coefficient of the relator product; plus diagnostics."""
+def obstruction_vector(za_c, zb_c):
+    """q (root coords) with ad(q) = the t^2 coefficient of the relator product.
+    Inputs are CHAIN-coordinate cocycle vectors; converted through S here."""
     _guard()
-    Z = {"a": ad_chain(za), "b": ad_chain(zb)}
+    za, zb = S * za_c, S * zb_c
+    Z = {"a": ad_root(za), "b": ad_root(zb)}
     Z2 = {g: Z[g] * Z[g] for g in "ab"}
-    XF = {ch: X_full(ch) for ch in "abAB"}
-    P0, P1, P2 = mp.eye(DIM), mp.zeros(DIM, DIM), mp.zeros(DIM, DIM)
+    XF = {ch: X_root(ch) for ch in "abAB"}
+    P0 = mp.eye(DIM)
+    P1 = mp.zeros(DIM, DIM)
+    P2 = mp.zeros(DIM, DIM)
     for ch in REL:
-        X = XF[ch if ch.islower() else ch]
         if ch.islower():
-            L0, L1, L2 = X, Z[ch] * X, Z2[ch] * X * 0.5
+            L0, L1, L2 = XF[ch], Z[ch] * XF[ch], (Z2[ch] * XF[ch]) * mp.mpf(0.5)
         else:
             g = ch.lower()
             L0 = XF[ch]
             L1 = -(XF[ch] * Z[g])
-            L2 = (XF[ch] * Z2[g]) * 0.5
+            L2 = (XF[ch] * Z2[g]) * mp.mpf(0.5)
         P2 = P2 * L0 + P1 * L1 + P0 * L2
         P1 = P1 * L0 + P0 * L1
         P0 = P0 * L0
     first = mp.norm(P1)
-    # solve ad(q) = P2 via the Gram normal equations
-    ads = _ad_basis()
-    b = mp.matrix([sum(ads[i][r, c] * P2[r, c] for r in range(DIM) for c in range(DIM))
-                   for i in range(DIM)])
+    # solve ad(q) = P2 via the exact-Gram normal equations
+    ads = _ad_sparse()
+    b = mp.matrix([sum(c * P2[k, j] for (k, j), c in ads[i].items()) for i in range(DIM)])
     q = mp.lu_solve(_gram(), b)
     R = mp.zeros(DIM, DIM)
     for i in range(DIM):
-        if q[i] != 0:
-            R = R + ads[i] * q[i]
+        qi = q[i]
+        if qi != 0:
+            for (k, j), c in ads[i].items():
+                R[k, j] += qi * c
     res = mp.norm(R - P2) / max(mp.norm(P2), mp.mpf(10) ** -200)
     return q, first, res
 
 
-def obstruction_class(za, zb):
-    q, first, res = obstruction_vector(za, zb)
+def obstruction_class(za_c, zb_c):
+    """The H^2 class of the obstruction, per exponent block: convert q back to chain
+    coordinates and pair with the block H^2 functionals."""
+    q, first, res = obstruction_vector(za_c, zb_c)
+    q_c = S_INV * q
     comps = {}
     for m in EXPONENTS:
         u = h2_functional(m)
         o, n = OFFSET[m], N_OF[m]
-        comps[m] = abs(sum(mp.conj(u[k]) * q[o + k] for k in range(n)))
+        comps[m] = abs(sum(mp.conj(u[k]) * q_c[o + k] for k in range(n)))
     diag = {"first_order_residual": float(first), "ad_solve_residual": float(res),
             "q_norm": float(mp.norm(q))}
     return {m: float(v) for m, v in comps.items()}, diag
@@ -538,13 +491,21 @@ def obstruction_class(za, zb):
 
 # --- controls and the verdict --------------------------------------------------------------
 def control_coboundary(seed=5):
+    """z = d^0 v built in CHAIN coordinates (blockwise, well-scaled)."""
     _guard()
     import random
     rnd = random.Random(seed)
     v = mp.matrix([rnd.uniform(-1, 1) for _ in range(DIM)])
-    XA, XB = X_full("a"), X_full("b")
-    za = XA * v - v
-    zb = XB * v - v
+    za = mp.zeros(DIM, 1)
+    zb = mp.zeros(DIM, 1)
+    for m in EXPONENTS:
+        o, n = OFFSET[m], N_OF[m]
+        vm = mp.matrix([v[o + k] for k in range(n)])
+        wa = BLK["a"][m] * vm - vm
+        wb = BLK["b"][m] * vm - vm
+        for k in range(n):
+            za[o + k] = wa[k]
+            zb[o + k] = wb[k]
     nrm = mp.sqrt(mp.norm(za) ** 2 + mp.norm(zb) ** 2)
     return obstruction_class(za / nrm, zb / nrm)
 
