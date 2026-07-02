@@ -4610,3 +4610,12 @@ Locks: `tests/test_b362_seam_law_confirmations.py` + `tests/test_b363_seam_lift_
   data; not completed).
 
 Locks: `tests/test_b364_theta_polarization.py` (2, <1 s). Zero promotions; firewall intact.
+
+## 2026-07-02 — Wave 2 (the probation campaign) registered
+
+The post-seam queue: W2.1/W2.2 the L57 endgame (S-side identification + the odd-spin argument — the seam arc's
+probation gate); W2.3 the value-map `s(m₁,m₂)` (pre-registered local-symbol functional form); W2.4 the
+cover-tower pairing (`tr(A₁³)=18` ⇒ the golden 3-fold cover IS the m=4 seed — the seam × generation-deck
+question made computable); W2.5 dynamics (L53 + depth-2 Gram); W2.6 the cyclic-dilog bridge (seam data →
+Kashaev `q=ζ₁₅` partition-function shadow — the values-meet-dynamics candidate); W2.7 sweepers; W2.8 the owner
+outreach + a firewalled gravity reconnaissance. All two-outcome; everything on probation pending L57.

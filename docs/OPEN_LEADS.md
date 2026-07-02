@@ -188,6 +188,28 @@ stage — the `2T↪E₆` fork was found already banked as B329); zero promotion
 | W1.5 — the level-45 tables | quantum pair, the remaining real-mixing aperture | queued (B359): `ℚ(ζ₉)⁺` is a real cubic — the first level where real entries could mix the ends; null pre-registered; **note** the conjugation mechanism `conj = Ad(diag(1,−1))` holds at 45 (pre-gated), so the phase channel is expected flat there too — the genuine question is real-tower mixing |
 | wave 2 | L53 Massey · γ-table (MB7/MB8, even-degree discriminator) · H103 full classification · H105 + L38 sweepers · D8 skein/A-ideal pairing (L25 prior-art gate first) · complex-κ numerics (B163-3b/B186/B192 fences) · coupled state integral (contour convention per the atlas node) | sequenced by wave-1 findings |
 
+## Wave 2 — the probation campaign (2026-07-02, post-seam; the standing queue)
+
+Every seam-arc result is ON PROBATION pending L57; wave 2 is built to settle it and to convert coefficients
+into laws. Standing disciplines unchanged (exact-first, pre-registration, two-outcome, MB guards, the
+counterweight before any "breakthrough"). Sequenced by dependency:
+
+| # | probe | front | the computation | probation gate / kill |
+|---|---|---|---|---|
+| W2.1 | **B365 — the S-side identification** | Seam/L57 | complete the Poisson computation for the two theta families; identify the geometric S-matrix (the half-characteristic `ζ₃₀` data suggests the odd polarization) | decides which polarization the fiber's modular action actually carries; wrong-family match kills the spin conjecture |
+| W2.2 | **B366 — the odd-spin argument** | Seam/L57 | formalize "the puncture selects the half-characteristic" (the odd theta vanishing ↔ the puncture point; the κ-boundary word vs the characteristic) | **the L57 endgame**: forced ⇒ the seam form is an INVARIANT (paper-grade MATH candidate); choice ⇒ the sixth channel closes and the boundary theorem sharpens — both bank |
+| W2.3 | **B367 — the value-map** | Seam | `s(m₁,m₂)` over all pairs with keys `m ∈ {2,7,8,…}` (m=8 qualifies: elliptic at both primes); pre-register the functional form (local Weil-index/Hilbert-symbol structure at 3,5 — the 15-smooth×2-power denominators) + random-form null | a closed form = the program's first candidate forced dimensionless relations; no closed form = the value-map stays a table |
+| W2.4 | **B368 — the cover-tower pairing** | Generations | `tr(A₁³) = 18` ⇒ the golden seed's 3-fold fiber-cover IS the m=4 seed, and (1,4) is seam-dark; compute the seam pairing across the power/cover tower (`A_m^k` traces) | does the seam see the generation deck? either verdict constrains Gate C from below |
+| W2.5 | L53 + the depth-2 NZ Gram | Dynamics | Massey third order; the canonical second boundary coordinate (B357 follow-up) | smoothness evidence + the full classical phase-space data for Gate B |
+| W2.6 | **B369 — the cyclic-dilog bridge** | Dynamics | connect the level-15 Weil/seam data to the Kashaev cyclic quantum dilogarithm at `q = ζ₁₅`; do the seam coefficients appear in the coupled-pair partition-function shadow? | the values-meet-dynamics crossing candidate; contour/selector cautions per the atlas node |
+| W2.7 | H103 (ω-window realization) · level-45/level-map seam robustness · the quad/higher invariant algebra | sweepers | finite questions, machinery hot | each closes or opens a named window |
+| W2.8 | **L51 outreach (OWNER)** + gravity reconnaissance | external | send Gates B/C/D briefs now carrying: certified Lagrangian + universal-τ + the exact seam law + the polarization conjecture (native quantum-topology language); one firewalled wall-map pass on the glued-pair (closed graph manifold) 4d question | specialist engagement; the gravity pass expects a wall-map update only |
+
+Endpoints, honestly: best chain = L57 forced → `s(m₁,m₂)` closed form → seam values inside a partition function
+→ the dictionary question becomes concrete (pre-registered vs SM dimensionless structures). Even then a full
+TOE requires Gates B/C/D + the 4d lift. Failure branches are equally banked: L57-as-choice closes the sixth
+channel exactly. FIREWALLED throughout; zero promotions without derivation + null + the counterweight.
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
