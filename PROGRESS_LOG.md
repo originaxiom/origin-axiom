@@ -4635,3 +4635,19 @@ outreach + a firewalled gravity reconnaissance. All two-outcome; everything on p
   polarization.** The seam arc remains on probation pending that argument.
 
 Locks: `tests/test_b365_polarization_signature.py` (2, <1 s). Zero promotions; firewall intact.
+
+## 2026-07-03 — B366 (first installment): the invariant spin sector lives in the seam-bearing class
+
+- **Two exact lemmas:** (1) `SL(2,ℤ)` fixes only the origin among the fiber's 2-torsion (the puncture = the
+  unique invariant point; the three half-periods one orbit); (2) the odd characteristic `[½,½]` is the unique
+  invariant spin structure (both generators fix it; the three evens form one orbit).
+- **With the B364/B365 identification** (`T+=[½,0]` — its B364 T-multiplier independently matches `T` fixing
+  `[½,0]`; `T−=[½,½]`; `S+=[0,0]`; `S−=[0,½]`): **the seam-bearing (a=½) class contains the unique invariant
+  spin sector; the canonical (a=0) class contains none.** The gate's forcing argument has its exact skeleton:
+  an MCG-equivariant single-sector quantization of the punctured fiber can only use the invariant sector.
+- **Pre-registered, not yet passed:** the classical S-mixing prediction `T−→T−, S+→S+, T+↔S−` — three quick
+  numerical ansatz attempts failed for three recorded reasons (degenerate strip; mis-derived prefactor;
+  conflated growth measurement); the derivation-first S-transformation redo is the named next step. **The
+  seam arc remains ON PROBATION until it passes.**
+
+Locks: `tests/test_b366_invariant_spin_sector.py` (3, exact, <1 s). Zero promotions; firewall intact.
