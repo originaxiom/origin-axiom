@@ -4752,3 +4752,22 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   m=4 seed pair carries {±1/120,±1/240,±1/480} — equal trace, equal lift order, different seam forms.
 - Gate-C reading (firewalled): a ℤ/3 deck does not manufacture seam-distinct generation sectors — the
   sheets carry relabeled copies of one form. Locks: `tests/test_b368_cover_tower.py` (4, exact).
+
+## 2026-07-03 — W2.8 prep: the outreach package upgraded (Brief S added)
+
+- `frontier/EXPERT_OUTREACH.md`: **Brief S (new, the lead exhibit)** — the pair-level Weil invariant
+  (the seam law) as a bounded prior-art question for a modular-data/Weil-representation specialist
+  (type-matches named with verify flags; Deloup–Turaev reciprocity flagged as the closest known
+  neighborhood). Gates B and C "what we supply" upgraded in place (the exact 𝔢₆, the certified boundary
+  Lagrangian + universal-τ; the ψ³ deck equivariance + the chirality window). Sequencing updated: Brief S
+  first. **Sending remains the owner's action**; log sends/replies here.
+
+## 2026-07-03 — W2.5 opened: B370 pre-registration committed (third-order Massey + depth-2 Gram)
+
+- `frontier/B370_massey_depth2/PREREGISTRATION.md`: leg A = the third-order Maurer–Cartan obstruction
+  per exponent direction (the order-3 Fox/BCH relator expansion DERIVED SYMBOLICALLY FIRST — the B366
+  lesson — validated on the m=1 integrable control before any verdict; Massey class read modulo its
+  indeterminacy with an MB12 transverse-pairing control); leg B = the depth-2 boundary Gram against
+  unchanged B357 conventions with three declared readouts (symmetry / τ-persistence / θ-blocks). Both
+  legs two-outcome; completes the Gate-B classical-germ package. Execution next session (fresh context
+  for the derivation; machinery = B352's two-basis architecture, dps 100).
