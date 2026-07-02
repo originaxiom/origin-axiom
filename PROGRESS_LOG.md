@@ -4799,3 +4799,26 @@ attaches at promotion) was designed expecting promotions to fire; they never did
 - Propagated: `CLAIMS.md` header + Certified-data section; `ARCHITECTURE.md` ledger row; `README.md`
   zero-promotions lines. The physics firewall, the one-way room rule, HELD, and every §5/§6 bar are
   untouched. The promotion audit itself is registered in `OPEN_LEADS` as a dedicated session.
+
+## 2026-07-03 — the promotion-audit sweep (collection stage) COMPLETE
+
+- Four parallel strict sweeps over frontier/B1–B369 FINDINGS (instruction: when in doubt, NOT).
+  **Yield: 63 candidates** — 33 PROVEN-tier, 7 CONDITIONAL-tier, 20 DATA-tier (E-ids), 3
+  adjudicate-tier (dps-100 computer-assisted) — of ~350 probes; 297 NOT with recorded reasons.
+- Compiler flags for adjudication: B368/B369 mis-triaged NOT (pre-reform stamps read literally —
+  re-read); B263 has no FINDINGS (hygiene); correction-chain candidates (B112, B131, B92/B95/B153,
+  B134/B136, B204) adjudicated with their qualifications; B370 classified when leg A banks.
+- Worksheet: `audit/PROMOTION_AUDIT_WORKSHEET.md` (private audit room; iCloud-synced). The
+  adjudication session (task #167) re-reads every candidate, runs §6, verifies locks, writes scoped
+  statements, and promotes survivors in ONE reviewed PR. Bar, never importance (owner-confirmed).
+
+## 2026-07-03 — B370 leg A DONE: all six E₆ tangent directions unobstructed at THIRD order
+
+- Jet-arithmetic method (no BCH transcription; self-gating P₁/P₂/P₃), dps 100, 2.9 h. Controls:
+  coboundary class 6.2e−87 (exact tier), the integrable m=1 control 9.6e−62 (floor). **Every
+  direction's third-order class sits 5–10 orders below its own P-gates** — m=4: 8.5e−63, m=5:
+  3.8e−61, m=7: 1.2e−55, m=8: 3.1e−54, m=11: 1.1e−48 (floors grow with the Sym-block range, the
+  B352 pattern). MB12 non-vacuous on every nontrivial indeterminacy span (ranks 0,1,1,3,4,4).
+- **The 6-dim local moduli's integrability evidence reaches order 3, escape sector included.**
+  Honest tier: computer-assisted; order 4+ untested; leg B (depth-2 boundary Gram) runs next.
+- Locks: `tests/test_b370_massey.py` (4, from the banked JSON). Pre-registration honored end-to-end.
