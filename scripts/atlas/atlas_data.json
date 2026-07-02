@@ -7553,6 +7553,26 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B370": {
+   "slug": "massey depth2",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B274",
+    "B347",
+    "B352",
+    "B357"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [
