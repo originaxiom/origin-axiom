@@ -7454,17 +7454,21 @@
    "slug": "invariant spin sector",
    "motifs": [
     "torsion",
+    "symplectic",
+    "wrt_quantum",
     "lorentzian",
     "firewall"
    ],
    "refs": [
+    "B355",
     "B358",
     "B363",
     "B364",
-    "B365"
+    "B365",
+    "L57"
    ],
-   "obstacle": "spacetime_3p1",
-   "obstacle_conf": 3,
+   "obstacle": "observable",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },

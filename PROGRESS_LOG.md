@@ -4651,3 +4651,30 @@ Locks: `tests/test_b365_polarization_signature.py` (2, <1 s). Zero promotions; f
   seam arc remains ON PROBATION until it passes.**
 
 Locks: `tests/test_b366_invariant_spin_sector.py` (3, exact, <1 s). Zero promotions; firewall intact.
+
+## 2026-07-03 — B366 part 2: the derived S-transformation — the closure dichotomy (W2.2 verdict)
+
+- **The pre-registered naive S-mixing pattern FAILED** (`T−→T−, S+→S+, T+↔S−` is NOT how the geometric `S`
+  acts at level 15) — the 4th failed-and-sharpened prediction of the arc; superseded by the derivation.
+- **Two exact closed formulas** (one Jacobi inversion each; `j`-dependence cancels identically in both
+  prefactors): the **triangular family is S-closed at fixed τ** — image = same family at `z + (τ+1)/30`
+  (a 30-torsion Heisenberg translation), `ζ₃₀` kernel, prefactor `e((30z+1)²/120τ)`; the **square family
+  exits** — image at `(z/2, τ/4)` (a rescaling, not a Heisenberg operation; B365's doubling from the S side).
+  Verified 7.1e−12 / 1.2e−10, twist-shift identity 1.1e−15, half-K stable; no fits, no free parameters.
+- **The gate's verdict, premise named:** within the standing premise (pair states = level-15 fiber theta
+  functions with the standard Heisenberg/metaplectic action), a modular quantization needs `S` to act on the
+  state space at the given modulus — only the seam-bearing class has that; part 1's invariant-spin selector
+  agrees. **The theta lift is forced at this tier; the seam form is an invariant of the quantized pair.**
+  The premise stays a named modeling assumption; nothing promotes.
+
+Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.3 (the value-map).
+
+## 2026-07-03 — W2.4/B368 premise corrected (verified): equal trace ≠ same seed
+
+- The queue row's premise (`tr(A₁³) = 18 = 4²+2` ⇒ the golden 3-fold fiber cover IS the m=4 seed) is
+  **refuted by exact integer arithmetic** (cross-checked in-sandbox): fixed-point binary forms
+  `(RL)³ → (8,−8,−8)`, content 8, primitive disc **5**; `R⁴L⁴ → (4,−16,−4)`, content 4, primitive disc
+  **20**. Primitive discriminants are conjugacy invariants ⇒ not conjugate. The genuine cover tower is
+  `(RL)^k` (disc 5, unit powers) — a different column from the metallic family (disc `m²(m²+4)`).
+- B368 re-scoped accordingly in `OPEN_LEADS` (W2.4); equal-trace-different-seam is an independent
+  finer-than-spectrum instance for the ledger.

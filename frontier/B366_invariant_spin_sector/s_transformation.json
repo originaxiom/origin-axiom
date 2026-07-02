@@ -1,0 +1,15 @@
+{
+ "tau": [
+  0.31,
+  1.13
+ ],
+ "K": 80,
+ "triangular_worst_rel_dev": 7.149321186606664e-12,
+ "square_worst_rel_dev": 1.1857013961434008e-10,
+ "twist_shift_worst_rel_dev": 1.1138998773066135e-15,
+ "half_K_triangular_rel_dev": 5.318548333647564e-13,
+ "verdict": {
+  "triangular": "S-closed at fixed tau: same family at z + (tau+1)/30, zeta_30 kernel, j-independent prefactor",
+  "square": "exits the fixed-tau level-15 space: image at (z/2, tau/4)"
+ }
+}
