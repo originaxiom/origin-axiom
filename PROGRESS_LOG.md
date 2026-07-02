@@ -4503,3 +4503,25 @@ with the banked counts). Zero promotions; P1–P16 untouched; firewall intact (w
 
 Locks: `tests/test_b357_e6_boundary_restriction.py` (2 always-on ~2 s; all-six sweep under `OA_SLOW=1`).
 Zero promotions; firewall intact (ranks, Lagrangians and τ are *form*).
+
+## 2026-07-02 — B358: the seam, exactly certified — √−15 lives in the twisted quantum-pair sector (and provably not in the canonical one)
+
+- **The escalation protocol ran as pre-declared** (higher precision → exact; second independent construction →
+  two): the cross-session Par-inserted seam claim was rebuilt in EXACT Fraction arithmetic over `ℚ(ζ₆₀)`
+  (`cyclo_engine.py`; the full `C[j][l] = tr(Par·W₁ʲW₂ˡ)` tables; exact Galois H-average; exact solve in
+  `{1,√5,√−3,√−15}`).
+- **The dichotomy (the result):** the **theta/Jacobi lift** (cross-session construction;
+  `Par·W·Par⁻¹·W⁻¹ = X¹Z²`) carries `√−15` in **44/49** nonzero doubles — exact small rationals; flagship
+  `tr(Par·P₀Q₄) → −1/48 −(1/80)√5 −(1/48)√−3 +(1/48)√−15`, certified coefficient-for-coefficient at the
+  claimed label. The **canonical lift** (B355; `Par` commutes with the image) has **`s ≡ 0` exactly on all
+  doubles**. Single-seed controls: `r = s = 0` exactly, both lifts. The exact table also settles the
+  height-blocked 217 from the cross-session run.
+- **Meaning (honest form):** after five closed channels, `√−15` appears **exactly, and only, in the
+  Heisenberg-twisted sector of the two-seed pairing** — the seam coefficient is a function of the lift's
+  theta-characteristic. **L57 registered:** is the characteristic *forced* by the pairing geometry (theta
+  structures / gluing frame), or a choice? Nothing promoted either way; field-membership statement, not
+  physics.
+- Committed exact C-tables (regenerable) + independent dps-40 numeric spot-checks of both.
+
+Locks: `tests/test_b358_seam_certification.py` (4 always-on ~1 s; full counts under `OA_SLOW=1`). Zero
+promotions; firewall intact.
