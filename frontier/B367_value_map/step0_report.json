@@ -1,0 +1,64 @@
+{
+ "orders": {
+  "1": 20,
+  "2": 12,
+  "3": 6,
+  "4": 20,
+  "7": 12
+ },
+ "projector_gates": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "7": true
+ },
+ "single_controls": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "7": true
+ },
+ "S0_1_sum_rules": true,
+ "S0_2_addendum_12": true,
+ "S0_6_briefing_table": true,
+ "S0_6_rank": 4,
+ "S0_6_coxeter_odd": true,
+ "S0_6_sectorB_rows": [
+  0,
+  4
+ ],
+ "S0_6_sector_disjoint": true,
+ "S0_3_addendum_23": true,
+ "S0_3_value_set_23": [
+  "-1/144",
+  "-1/288",
+  "1/144",
+  "1/288"
+ ],
+ "S0_4_13_zero": true,
+ "S0_4_14_zero": true,
+ "S0_5_value_set_24": [
+  "-1/120",
+  "-1/240",
+  "-1/480",
+  "1/120",
+  "1/240",
+  "1/480"
+ ],
+ "S0_5_value_set_34": [
+  "-1/48",
+  "-1/96",
+  "1/48",
+  "1/96"
+ ],
+ "S0_7_sum_s_squared": {
+  "1,2": "43/7200",
+  "1,3": "0",
+  "1,4": "0",
+  "2,3": "1/2304",
+  "2,4": "3/3200",
+  "3,4": "1/192"
+ }
+}

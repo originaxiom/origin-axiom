@@ -4678,3 +4678,36 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   `(RL)^k` (disc 5, unit powers) — a different column from the metallic family (disc `m²(m²+4)`).
 - B368 re-scoped accordingly in `OPEN_LEADS` (W2.4); equal-trace-different-seam is an independent
   finer-than-spectrum instance for the ledger.
+
+## 2026-07-03 — B367 (W2.3) step 0: the exact six-pair s-matrices — every pre-registered check passed
+
+- Pre-registration committed BEFORE computing (PR #442). Fresh theta-lift Weil matrices (W_m = WR^m·D^m,
+  ℚ(ζ₆₀) engine), all six pair s-matrices **fully identified exactly** (no PSLQ). Gates: orders
+  (20,12,6,20), projector sums/idempotence exact, single-seed controls clean, **all row/col sums exactly 0**.
+- **Reconciliation complete — three independent computations now agree on every comparable entry:** the 8
+  relayed (1,2) entries exact (S0.2); the relayed 11×11 (1,2) matrix reproduces entry-by-entry with its
+  structure now exact — **rank 4, Coxeter-odd, {4,8}-sector = rows {0,4} disjoint** (S0.6); the (2,3)
+  ±1/144 entries exact AND **the pre-registered ±1/288 prediction HIT** (the height-blocked entries; S0.3);
+  the (1,3)/(1,4) zeros upgrade to **exact tier** (S0.4); first complete (2,4)/(3,4) tables — value sets
+  {±1/120,±1/240,±1/480} and {±1/48,±1/96} (S0.5).
+- **Exact aggregates Σs² (supersede all partial values): 43/7200 · 1/192 · 3/3200 · 1/2304 · 0 · 0**
+  ((1,2) > (3,4) > (2,4) > (2,3) > the two exact zeros). V1 denominator hypothesis holds on all data
+  (2^a·3^b·5^c, a≤5, b≤2, c≤1).
+- Locks: `tests/test_b367_step0.py` (5 always-on + 1 OA_SLOW regen). The V3 local-symbol search + null +
+  held-outs run NEXT, exactly as pre-registered — no formula claim is licensed by step 0.
+
+## 2026-07-03 — B367 step 0 (continued): the completed table REFUTES the B361 local law at pair (3,4)
+
+- (3,4) is **bright** ({±1/48, ±1/96}, Σs² = 1/192, second-largest) with **no seed elliptic at both
+  primes** — the banked "bright ⇔ a both-elliptic seed" rule (11 pairs) dies on the twelfth pair. The
+  covering repair dies on (1,3) (identical covering pattern, exactly dark). W₁/W₄ have identical level-15
+  spectra ⇒ **support is strictly finer than spectra + ellipticity types.** Two independent computations
+  agree on (3,4). B361's row updated; its confirming pairs remain valid data.
+
+## 2026-07-03 — suite hygiene note (pre-existing, tracked): one intermittent flake per full run
+
+- Two consecutive full runs each showed ONE failing test, a DIFFERENT one each time (b207 volumes
+  monotonicity, then b137 m=2 sealing) — both pass standalone and in targeted groups, both untouched by the
+  merged diffs (which were additive). Reads as load/ordering sensitivity (SnapPy retriangulation randomness
+  / sympy cache pressure), not mathematics. Tracked as a hygiene item; targeted verification (both flaked
+  tests + all diff-adjacent locks: 21 passed) gates the current merge.

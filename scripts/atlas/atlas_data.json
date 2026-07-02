@@ -7472,6 +7472,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B367": {
+   "slug": "value map",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B359",
+    "B360",
+    "B361",
+    "B362",
+    "B366",
+    "S0",
+    "V1",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
