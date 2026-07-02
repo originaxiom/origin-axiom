@@ -4739,3 +4739,16 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   twist). The exact structure: **rotation acts by the √5-Galois involution, exponent-wise:
   r₍₂,₁₎(a) = σ(r₍₁,₂₎(a))**. Same manifold, lift moved by Heisenberg, arithmetic moved by Galois.
 - Locks: `tests/test_b369_concat_kill.py` (4, exact, <1 s). The June word-trace lead fully resolved.
+
+## 2026-07-03 — B368 (W2.4, corrected scope) DONE: the seam sees the deck equivariantly
+
+- **The deck identity, exact (all 240 cells):** `t_cover(a,b) = t_base(7a mod 20, b)` — the (RL)³ cover's
+  pairing against m=2 is the base (1,2) pairing relabeled by the deck's exponent action `a↦3a` (forced by
+  `P_a(W₁³)=P_{7a}(W₁)`, gcd(3,20)=1; verified against the banked B367 table). **Covers create no new seam
+  content against a fixed partner; the form is ψ³-equivariant, not blind.**
+- Cover exponent list = `3·K1 mod 20 = {0,2,3,5,7,8,12,13,15,17,18}` — the relayed cross-session list now
+  verified. Tower singles `W₁^k` (k=2..5) all clean — the wall extends up the tower.
+- **Trace-18 twins split at the seam:** the cover pair carries the base's 14 values (±1/48…±1/480); the
+  m=4 seed pair carries {±1/120,±1/240,±1/480} — equal trace, equal lift order, different seam forms.
+- Gate-C reading (firewalled): a ℤ/3 deck does not manufacture seam-distinct generation sectors — the
+  sheets carry relabeled copies of one form. Locks: `tests/test_b368_cover_tower.py` (4, exact).
