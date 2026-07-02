@@ -4525,3 +4525,21 @@ Zero promotions; firewall intact (ranks, Lagrangians and τ are *form*).
 
 Locks: `tests/test_b358_seam_certification.py` (4 always-on ~1 s; full counts under `OA_SLOW=1`). Zero
 promotions; firewall intact.
+
+## 2026-07-02 — B359: the seam form — pair-specific and parity-selective, exactly
+
+- **Three exact paths to the flagship first:** the cross-session symbolic certificate (integer vectors mod
+  `Φ₆₀`, Galois-norm inversion) was run on this machine and **PASSES** — `s = 1/48` exactly — joining B358's
+  two independent exact computations.
+- **The seam form (the L57 opener, run the day it was proposed):** extending B358's engine to seed 3, both
+  lifts, all exact: **(1,3) golden×bronze is seam-DARK** (0 of 39 doubles, exactly); **(2,3) silver×bronze is
+  bright with its own disjoint value set** `s ∈ {±1/144, ±1/288}` (the bronze pair's denominators carry `3²`);
+  the canonical lift is 0 everywhere (the dichotomy control, again). So the twisted-sector seam data is
+  **pair-specific** — and **selective**: both bright pairs contain the even seed; the odd–odd pair is dark —
+  the parity texture (B354/B356) surfacing at the seam level. **Observed pattern (3 points), with the
+  pre-registered prediction: (1,4) bright, (3,5) dark.**
+- Committed exact artifact (regenerable; OA_SLOW regeneration lock); B358's guards cover the shared engine.
+  L57 (is the characteristic forced?) remains the governing question; nothing promotes.
+
+Locks: `tests/test_b359_seam_form.py` (3 always-on <1 s; full regeneration under `OA_SLOW=1`). Zero
+promotions; firewall intact.
