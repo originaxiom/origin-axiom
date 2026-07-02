@@ -69,9 +69,18 @@ refuted (B310). **The tangent is computed (B347, 2026-07-02, via the principal S
 three breaking scales" reading; the relay's `{2−√3,3,2+√3}` spectrum was **G₂⊕A₂**, not E₆); amphichirality acts as a
 uniform real structure `J²=+1` on every line (**no split** — CP-even everywhere, consistent with the symmetric-centre
 reading K022); and the hyperelliptic involution grades the six lines by `(−1)^{m+1}` = **the E₆→F₄ folding at the
-tangent level**, with `−1`-eigenspace `{4,8}` = the `𝔢₆/𝔣₄ = 26` coset = B265's escape sector. Open inside B347: whether
-the hyperelliptic involution *is* the diagram involution `θ` (rep-theoretic identity, unproven), and the `{4,8}`
-integrability = the B265/B270 cup-product obstruction (in progress in a peer session; not yet banked).
+tangent level**, with `−1`-eigenspace `{4,8}` = the `𝔢₆/𝔣₄ = 26` coset = B265's escape sector. **The θ sign-pattern
+question is settled at the algebra level (B351, 2026-07-02, exact):** the Jacobi-verified Chevalley 𝔢₆ carries the
+diagram involution θ as a verified automorphism acting on the six exponent lines by exactly `(−1)^{m+1}` — the
+hyperelliptic grading *is* the θ-grading `𝔢₆ = 𝔣₄ ⊕ 26` (the geometric identification, that the manifold's involution
+*induces* θ, stays open). **And the `{4,8}` integrability is answered at second order (B352, 2026-07-02, dps 100):**
+the cup-product obstruction `[z∪z] ∈ H²(4₁,𝔢₆)` **vanishes for all six exponent directions and the `{4,8}` mix**
+(classes ≤ `1e-52` against q-cochains up to `1e16`; controls: the `m=1` curve direction and coboundaries vanish, the
+H² pairing is provably non-vacuous, θ-parity visible as exact-zeros in the `{4,8}` blocks). The escape sector is
+locally **real at second order** — consistent with (and evidence for) a Menal-Ferrer–Porti-type smoothness statement
+at exceptional type; third-and-higher orders untested. This strengthens the CRUX's realization question: `T[4₁;E₆]`
+has a genuinely 6-dim local moduli to quantize. Still open inside the gate: the geometric θ-identification, all-orders
+integrability, and the state integral itself.
 **The hierarchy sub-atom (B326/B327, computed in-sandbox).** The mass-hierarchy question inside the CRUX reduces to the
 branching `27|₂T` — specifically whether the two light generations split (`n₁≠n₂`, the E₆ cubic decides it at "Level 3",
 computable) or stay degenerate (`n₁=n₂` → "Level 4", the commensurator gate). **Verified:** the principal decomposition

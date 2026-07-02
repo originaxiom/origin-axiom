@@ -9,6 +9,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B352 — the cup-product obstruction, computed: all six directions unobstructed at second order (2026-07-02;
+  part 2, closing the B265/B270 open item at second order).** The obstruction `[z∪z] ∈ H²(4₁,𝔢₆)` **vanishes for
+  every exponent direction** — including the θ-odd `{4,8}` escape sector and its polarization mix — with classes
+  ≤ `1e-52` against raw second-order cochains up to `1e16` (the vanishing is *exactness*: `z₂` exists). Controls:
+  the `m=1` direction (the real A-poly curve) and coboundaries give zero; the H² pairing is O(1) on random vectors
+  (MB12 positive control); θ-parity appears as exact-zeros in the `{4,8}` H²-blocks 5–10 orders below the F₄
+  floor. Two honest architecture failures banked en route (double precision cannot span the `e^{±22μ}` block
+  range — relator residual `1e+49`; Euclidean chain normalization is not invariant — structure constants
+  `1e-6..1e+73`, singular Gram); the working design is two-basis (exact root-basis brackets/Gram ⊕ block-diagonal
+  chain-basis action, vectors crossing via `S` at dps 100) with structural-rank/cliff spectra decisions. Honest
+  tier: consistent with (evidence for, not proof of) Menal-Ferrer–Porti-type smoothness at exceptional type;
+  third order untested. Gate B updated: the CRUX has a genuinely 6-dim local moduli. Lock: fast structural tier
+  always-on; the full ~12-min sweep gated behind `OA_SLOW=1`. Firewalled; nothing to `CLAIMS.md`.
 - **B351 — the exact Chevalley 𝔢₆ (2026-07-02; part 1 of the `{4,8}`-integrability program).** The cross-session
   cup-product push had stalled at "signed structure constants failed Jacobi." Removed with the standard guaranteed
   construction, verified **exactly over the integers**: Frenkel–Kac cocycle brackets with **0 Jacobi violations on

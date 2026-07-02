@@ -4354,5 +4354,35 @@ Jacobi" — is therefore picked up here. Part 1 banked as **B351** (`frontier/B3
 Lock: `tests/test_b351_exact_e6_chevalley.py` (7 tests; pure ints/Fractions, 0.2 s). Zero promotions;
 P1–P16 untouched; firewall intact.
 
+## 2026-07-02 — B352: the cup-product obstruction computed — all six directions unobstructed at 2nd order
+
+Part 2 of the `{4,8}`-integrability program (the B265/B270 open item; the peer session's stalled push, taken
+over after the seat change). **Result: the obstruction `[z∪z] ∈ H²(π₁(4₁),𝔢₆)` vanishes for all six exponent
+directions and the `{4,8}` polarization mix** — classes ≤ `1e-52` while the raw second-order cochains reach
+`9.4e16`, so the vanishing is exactness (second-order deformations exist), not triviality. The θ-odd escape
+sector is locally **real at second order**.
+
+- **Controls (all clean):** the `m=1` direction = the actual A-polynomial curve → class `≤ 2.4e-62` ✓; random
+  coboundary → `≤ 4.6e-74` ✓; **MB12 positive control** — the H² pairing functionals give `0.10–0.36` on random
+  vectors, so the zeros are information; **θ-parity signature** — the `{4,8}`-block components sit 5–10 orders
+  below the F₄-block floor (exact-zero by the B351 θ-grading vs numerical floor).
+- **Machinery integrity:** relator identity to `9e-54`; the assembled `Ad ρ` preserves the exact B351 bracket to
+  `5e-71`; cocycle residuals ≤ `2.6e-51`; ad-solve residuals ≤ `3.5e-56`. dps 100, MB13-§4 self-guarded.
+- **Two honest architecture failures banked in the module docstring:** (1) double precision cannot span the
+  `e^{±2mμ}` block range (numpy build: relator residual `1e+49`); (2) Euclidean normalization of the chain basis
+  is not invariant (transported structure constants `1e-6..1e+73`, singular Gram). Working design: two-basis —
+  exact integer root-basis brackets/Gram (B351) ⊕ block-diagonal chain-basis group action (antidiagonal
+  closed-form intertwiners), vectors crossing via `S` at dps 100; rank decisions by structural rank + >20-order
+  cliff assertions (the genuine block spectra span ~25 orders before a >60-order cliff).
+- **Honest tier:** numerical (50+-order margins), second order only (no Goldman–Millson formality for knot
+  groups), one point (the principal-geometric rep). Landing: exactly what a Menal-Ferrer–Porti-type smoothness
+  theorem at exceptional type would predict — evidence for it, not a proof.
+- **Gate B updated** (`OPEN_PROBLEMS.md`): the CRUX `T[4₁;E₆]` now has a genuinely 6-dim local moduli at second
+  order; still open — the geometric θ-identification, all-orders integrability, the state integral itself.
+
+Locks: `tests/test_b352_cup_product_obstruction.py` (structural tier ~18 s always-on; the full 741-s sweep gated
+behind `OA_SLOW=1`, reproducer documented). Zero promotions; P1–P16 untouched; firewall intact (dimensions and
+vanishing classes are *form*, K020).
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
