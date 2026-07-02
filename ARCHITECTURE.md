@@ -25,7 +25,7 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 
 | Room | What it holds | Promotes to `CLAIMS.md`? |
 |---|---|---|
-| `CLAIMS.md` | the living ledger of proven results (P1–P16) | — (it *is* the ledger) |
+| `CLAIMS.md` | the living ledger (`proven` P · `conditional` C · **certified data** E · `open` O · `dead` D; §5 gates + the §5.1 promotion-audit lane, 2026-07-03) | — (it *is* the ledger) |
 | `src/`, `tests/` | the tested package locking the proven core | via the gates only |
 | `frontier/` | speculative-but-computed `open` work, quarantined + gated; the `B`-probes | only through `conditional → proven` |
 | `papers/` | paper-candidate registry; the `V`-validation-ledger | — |

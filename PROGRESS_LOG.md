@@ -4779,3 +4779,23 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   preparation artifacts only; nothing has been sent, and nothing will be without the owner's explicit
   decision at the exhaustion point. The live queue is computational: B370 execution, the level-45
   sweeper, the (1,3)/(3,4) discriminator, the finer-input value-map re-registration.
+
+## 2026-07-03 — GOVERNANCE amendment: the promotion-audit lane + automated gates + the decadal review
+
+**Rationale (owner-approved; §10-compliant — additive discipline, no rule weakened):** Phase B ran with
+the §5 promotion gates idle ("zero promotions" was practice, not law), leaving `CLAIMS.md`
+unrepresentative of the project's load-bearing exact results and creating an epistemic asymmetry
+(refutations bank decisively; positives could never graduate). The staging principle (§6.2 — verification
+attaches at promotion) was designed expecting promotions to fire; they never did. Instituted:
+
+- **§5.1** — the mathematics lane (eligibility is independent of physics readings; the framing lock
+  governs interpretation, never eligibility) + the **Certified data** ledger section (`E`-ids) + the
+  **promotion audit** (periodic §5-bar sweep of `frontier/`; promotions only through the gates, logged).
+  The celebrated metric changes: not "zero promotions" but "promotions with zero unmarked retractions."
+- **§11** — automated gates (`scripts/gates/gates.py`, suite-locked by `tests/test_repo_gates.py`;
+  7 gates green at institution: framing lock, claims integrity, one-way firewall, append-only log,
+  atlas freshness, attribution, forbidden artifacts) + the **decadal review** (every ~10 merges;
+  ledger `docs/progress/REVIEWS.md`, seeded with Review 0 at this commit's anchor).
+- Propagated: `CLAIMS.md` header + Certified-data section; `ARCHITECTURE.md` ledger row; `README.md`
+  zero-promotions lines. The physics firewall, the one-way room rule, HELD, and every §5/§6 bar are
+  untouched. The promotion audit itself is registered in `OPEN_LEADS` as a dedicated session.
