@@ -7432,6 +7432,24 @@
    "status": "dead",
    "domain": "geometry"
   },
+  "B365": {
+   "slug": "polarization signature",
+   "motifs": [
+    "symplectic",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B363",
+    "B364",
+    "L57"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "geometry"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
