@@ -7240,6 +7240,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B356": {
+   "slug": "sigma stability scan",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B327",
+    "B329",
+    "H103",
+    "H104",
+    "S046"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B35": {
    "slug": "topology cusp marking route",
    "motifs": [],
