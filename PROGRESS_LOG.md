@@ -4594,3 +4594,19 @@ Locks: `tests/test_b361_seam_local_law.py` (3, <1 s). Zero promotions; firewall 
 
 Locks: `tests/test_b362_seam_law_confirmations.py` + `tests/test_b363_seam_lift_anatomy.py` (6 always-on,
 <1 s). Zero promotions; firewall intact.
+
+## 2026-07-02 — B364: the two lifts are two polarizations — L57 becomes a spin-structure question
+
+- **Tested:** is the theta lift *the* geometric lift (the level-15 theta-transformation action)? **T-side:**
+  the triangular family (`E = n(n−1)/30`) is T-stable with **exactly the theta lift's multiplier** (analytic
+  identity + `6e-15`). **The control killed the conclusion:** the square family (`n²/15`) is *also* T-stable
+  with **exactly the canonical multiplier** (`8e-15`) — both classes arise as theta families; T-stability
+  forces nothing.
+- **L57 sharpened to polarization form:** the two lift classes = two polarizations (half-characteristic/odd
+  `(2n−1)²/120` vs integral `n²/15`); *which does the two-seed gluing induce on the shared fiber's theta
+  bundle?* **Named candidate (conjecture): the puncture's odd spin structure selects the half-characteristic**
+  — one bundle, one lift map, both monodromies ⇒ the theta class forced on both slots at once (exactly B363's
+  measured two-sidedness). Honest gap: the S-side identification (Poisson shows half-characteristic `ζ₃₀`
+  data; not completed).
+
+Locks: `tests/test_b364_theta_polarization.py` (2, <1 s). Zero promotions; firewall intact.
