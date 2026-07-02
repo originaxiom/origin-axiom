@@ -7497,6 +7497,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B369": {
+   "slug": "concatenation kill",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B361",
+    "B367"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
