@@ -7283,6 +7283,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B358": {
+   "slug": "seam certification",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B336",
+    "B354",
+    "B355",
+    "L57"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B35": {
    "slug": "topology cusp marking route",
    "motifs": [],
