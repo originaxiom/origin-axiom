@@ -4435,5 +4435,29 @@ Locks: `tests/test_b354_interface_pairing_certificates.py` (6 tests, <1 s, exact
 untouched; firewall intact (forks, certificates and textures are *form*; the pre-registered SM/PMNS construction
 cross-session was killed by its own declared null — the discipline held).
 
+## 2026-07-02 — The value-boundary queue registered; B355 (W1.1): the Weil layer independently, the phase null fired
+
+- **The campaign registered** (`docs/OPEN_LEADS.md`, "The value-boundary queue"): compute each genuinely-open
+  relational channel (multiplicity/gluing/quantization) to a two-outcome verdict; pre-registered nulls; MB guards
+  per probe; atlas/FAILURE_ATLAS consult first (this cut one planned probe *at planning stage* — the `2T↪E₆` fork
+  was already banked as B329; `OPEN_PROBLEMS` Gate B synced accordingly).
+- **B355 — the Weil layer, independently (W1.1).** `W_N` for `SL(2,ℤ/N)`, N=3,5,15, built from scratch with the
+  conventions *earned*: a systematic `(c,d,μ)` search returns exactly `d≡−2c`, `μ=g_c(N)` as the
+  relation-satisfying family. Five gates pass (relations; the composite-level Gauss `tr ρ₁₅(T)=i√15` — the
+  CRT-twist catch; twisted-factor trace multiplicativity; word well-definedness; `⟨R,L⟩=SL(2,ℤ/15)`, order 2880).
+- **The cross-session quantum layer (L56): VERIFIED** — trace table (all 1; bronze 3 at N=3,15), the
+  operator-level divisibility law (`ρ_N(A_m)=1 ⟺ N|m`, incl. seed-15 at the seam level), and the fingerprint
+  tables recomputed in gauge-invariant projector form: (1,2) has **11 distinct values** incl. the exclusive
+  quartic `2025T⁴−3375T³+1935T²−435T+31`; (2,3) is quartic-free, golden-tower only; every recognized quadratic
+  disc is `5·square` — the flattening no-go confirmed. L56 → RESOLVED.
+- **The new result (pre-registered null — FIRED):** the gauge-invariant *triple phases* `tr(P_iQ_jR_k)` across
+  the three seeds are **all exactly real** — 605/605 (numpy sweep; mpmath spot floor `1.6e-40`). The phase
+  aperture at level 15 is **empty**; the flattening extends to Bargmann-type triples. Mechanism ingredient
+  verified: complex conjugation implements `Ad(diag(1,−1))` on the image (`conj(T)=T⁻¹`, `conj(S)=S⁻¹`); the
+  full reality proof for the triple class is the named residual. Remaining aperture in this lane: level 45 (W1.4).
+
+Locks: `tests/test_b355_weil_layer_independent.py` (6 tests, ~56 s). Zero promotions; P1–P16 untouched; firewall
+intact (fingerprints and nulls are *form*; recognitions are numerical-tier, honestly labeled).
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
