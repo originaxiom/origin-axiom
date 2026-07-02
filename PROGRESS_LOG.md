@@ -4543,3 +4543,20 @@ promotions; firewall intact.
 
 Locks: `tests/test_b359_seam_form.py` (3 always-on <1 s; full regeneration under `OA_SLOW=1`). Zero
 promotions; firewall intact.
+
+## 2026-07-02 — B360: the selection rule, tested — both parity readings die; silver-selectivity survives
+
+- **The pre-registered B359 predictions ran (exact, theta lift): (3,5) DARK ✓ — but (1,4) DARK ✗** (the
+  "contains an even seed" reading refuted) **and (2,4) BRIGHT** (36/49; `s ∈ {±1/120,±1/240,±1/480}` — the
+  "opposite parity" reading refuted too). Three points did not make a law; the declared test killed both
+  readings in one run.
+- **Surviving rule (6 pairs, exact): bright ⇔ the pair contains silver (m=2)** — the unique seed among 1–5
+  that is **regular-elliptic at 5 and nontrivial at 3** (`disc(A_m) = m⁴+4m² ≡ 0 mod 5` for m∈{1,4,5};
+  `3|m` trivializes m=3). Two hypotheses separate — H-min (the `A₂` residue class specifically) vs H-loc
+  (any 5-elliptic ∧ 3-nontrivial seed) — with the **pre-registered discriminator: pair (1,7)** (m=7 qualifies
+  under H-loc): bright ⇒ H-loc, dark ⇒ H-min.
+- New exact data: (2,4)'s `s`-set is a subset of (1,2)'s denominators (no new primes), unlike (2,3)'s
+  bronze-`3²` values — the value-map (pair ↦ s-set) keeps accumulating structure for the post-L57 pass.
+
+Locks: `tests/test_b360_seam_selection_rule.py` (3 always-on <1 s; regeneration under `OA_SLOW=1`). Zero
+promotions; firewall intact; everything remains lift-sector mathematics pending L57.

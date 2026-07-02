@@ -7336,6 +7336,27 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B360": {
+   "slug": "seam selection rule",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B354",
+    "B356",
+    "B358",
+    "B359",
+    "K020",
+    "L57"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
