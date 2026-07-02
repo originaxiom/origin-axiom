@@ -9,6 +9,11 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **Suite hygiene — the global-dps test-order failure class fixed, MB13 §4 (2026-07-02).** All 6 B347-E₆ locks
+  failed in full-suite order (passed in isolation): B302 lowers the **global** `mp.mp.dps` to 25 at call time and
+  runs first alphabetically. B347 now self-guards every entry point (the pre-existing B264/B265/B276 idiom, now a
+  written rule); B302 is raise-only; B348 uses scoped `mp.workdps`. `REPRODUCIBILITY.md` MB13 gains §4: entry
+  points own their precision, never lower the shared global, "passes alone, fails in suite" is the tell.
 - **Main sync + relay disposition (2026-07-02).** Merged main's **B347_e6_tangent_gradings** (PR #424, the peer
   session's corrected E₆ tangent probe — `dim H¹ = 6 = rank E₆`, uniform per exponent; amphichirality a uniform
   real structure; the hyperelliptic involution = the E₆→F₄ folding at the tangent level) and verified its 6 tests

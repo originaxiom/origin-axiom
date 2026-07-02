@@ -25,6 +25,21 @@ Pure mpmath (pyenv); the geometric rep is hard-coded over Q(sqrt3, i) and self-v
 import mpmath as mp
 
 mp.mp.dps = 70
+
+# Self-guard (the B264/B265/B276 pattern): mp.mp.dps is GLOBAL test-suite state,
+# and other probes write it at call time (B302 sets 25), so in full-suite order
+# the module-load value above is long gone by the time these functions run --
+# all six locks failed suite-wide at dps 25 while passing in isolation
+# (root-caused 2026-07-02; minimal repro: test_b302 + test_b347). Every public
+# entry point below re-asserts the working precision; never trust the
+# module-load global.
+_DPS = 70
+
+
+def _guard():
+    mp.mp.dps = _DPS
+
+
 _s3 = mp.sqrt(3)
 _I = mp.mpc(0, 1)
 EXPONENTS = [1, 4, 5, 7, 8, 11]
@@ -48,6 +63,7 @@ def _ev(word, rep=_BASE):
 
 def geometric_rep_residual():
     """||rho(relator) - I|| for the hard-coded rep (should be ~1e-60)."""
+    _guard()
     return mp.norm(_ev(REL) - mp.eye(2))
 
 
@@ -79,6 +95,7 @@ def symrep(g, d):
 
 
 def symrep_homomorphism_residual(d=6):
+    _guard()
     return mp.norm(symrep(_BASE["a"] * _BASE["b"], d) - symrep(_BASE["a"], d) * symrep(_BASE["b"], d))
 
 
@@ -114,6 +131,7 @@ def _rank(M, tol=mp.mpf(10) ** -40):
 
 def H1_dim(m):
     """dim H^1(4_1, Sym^{2m}) at the geometric rep, via ranks of the Fox cochain complex."""
+    _guard()
     d = 2 * m
     dim = d + 1
     R = _R(d)
@@ -133,6 +151,7 @@ def H1_dim(m):
 
 
 def e6_tangent_total():
+    _guard()
     return sum(H1_dim(m) for m in EXPONENTS)
 
 
@@ -260,6 +279,7 @@ def _line_eigenvalue(m, inv, square):
 
 def amphichiral_indicator(m):
     """J^2 eigenvalue of the amphichiral (orientation-reversing) involution on H^1(Sym^{2m}); +1 = real."""
+    _guard()
     mu = _line_eigenvalue(m, _AMPHI, square=True)
     assert abs(mu.imag) < mp.mpf(10) ** -6, mu
     return 1 if mu.real > 0 else -1
@@ -267,12 +287,14 @@ def amphichiral_indicator(m):
 
 def hyperelliptic_sign(m):
     """+/-1 eigenvalue of the hyperelliptic involution (a->a^-1,b->b^-1) on H^1(Sym^{2m}); = (-1)^{m+1}."""
+    _guard()
     lm = _line_eigenvalue(m, _HYPER, square=False)
     assert abs(lm.imag) < mp.mpf(10) ** -6, lm
     return 1 if lm.real > 0 else -1
 
 
 def run_all():
+    _guard()
     dims = {m: H1_dim(m) for m in EXPONENTS}
     amph = {m: amphichiral_indicator(m) for m in EXPONENTS}
     hyp = {m: hyperelliptic_sign(m) for m in EXPONENTS}

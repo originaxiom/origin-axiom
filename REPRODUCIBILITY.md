@@ -147,7 +147,13 @@ pip install snappy
   branch is seed/LAPACK-dependent while the arithmetic content is the conjugacy class. **Guard:** any lock asserting
   eigen-data near a defective matrix, a threshold window, or a complex branch must state why the certificate is
   stable across BLAS/LAPACK builds — or use the structural form (nilpotency residual, measured-gap window,
-  conjugation-closed comparison).
+  conjugation-closed comparison). **(4) — the test-ORDER sibling (2026-07-02): `mp.mp.dps` is GLOBAL shared
+  test-suite state.** A probe that trusts its module-load `mp.mp.dps = N` fails in full-suite order the moment any
+  earlier-running test writes a lower value at call time (B302's `dps=25` silently broke all 6 B347-E₆ locks,
+  which passed in isolation — the pass/fail bit depended on which tests ran first). **Guard:** every public
+  computational entry point re-asserts its own working precision (the B264/B265/B276 "self-guard" idiom, now also
+  B347), or uses scoped `mp.workdps(...)`; and no probe may *lower* the global at call time (raise-only:
+  `mp.mp.dps = max(mp.mp.dps, N)`). "Passes alone, fails in suite" (or vice versa) is the tell.
 - **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
   multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
   physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /

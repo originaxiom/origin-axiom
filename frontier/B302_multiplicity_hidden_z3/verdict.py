@@ -50,7 +50,7 @@ def eisenstein_unit_order3():
 def cover_index():
     """vol(m004)/covol(PSL(2,O_-3)) via Humbert (mpmath) -- must be ~12 (Riley)."""
     import mpmath as mp
-    mp.mp.dps = 25
+    mp.mp.dps = max(mp.mp.dps, 25)   # raise-only: never LOWER the global (it is shared test-suite state; the 2026-07-02 B347 lesson)
     L2 = sum((1 if n % 3 == 1 else (-1 if n % 3 == 2 else 0)) / mp.mpf(n)**2 for n in range(1, 100000))
     covol = mp.mpf(3)**mp.mpf('1.5') * mp.zeta(2) * L2 / (4 * mp.pi**2)
     return float(mp.mpf('2.029883212819307') / covol)

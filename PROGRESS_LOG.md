@@ -4310,5 +4310,24 @@ the correct replacement as **B347_e6_tangent_gradings** (PR #424, merged to main
 
 Zero promotions; P1–P16 untouched; firewall intact.
 
+## 2026-07-02 — Suite hygiene: the global-dps test-order failure class (MB13 §4)
+
+The post-merge full-suite run failed **all 6 B347-E₆ locks** while every one passed in isolation. Root-caused
+and fixed:
+
+- **Mechanism:** `mp.mp.dps` is a global; B302 lowers it to 25 at call time; in alphabetical suite order B302's
+  test runs before B347's, so the E₆ tangent computation (needs ~55+ dps for its 1e-50 residual gates) ran at
+  25 dps. Minimal deterministic repro: `pytest test_b302_* test_b347_*` (6 failures in 9 s). Three older probes
+  (B264/B265/B276) had already independently discovered this and carry inline "self-guard" comments — the
+  pattern existed but was not yet a written rule.
+- **Fixes:** B347 now re-asserts `dps=70` at every public entry point (the self-guard idiom); B302 is
+  raise-only (`max(mp.mp.dps, 25)` — never lowers the shared global); B348's Bloch–Wigner uses scoped
+  `mp.workdps` (it was itself a polluter-in-waiting). **MB13 extended with §4** (the test-order sibling):
+  entry points own their precision; no probe may lower the global; "passes alone, fails in suite" is the tell.
+- Also observed once (first post-merge run only): a transient `test_b207` failure that did not reproduce in
+  either subsequent full run — logged as an unreproduced flake, not diagnosed, not papered over.
+
+Zero promotions; no mathematical content changed — certificates only.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

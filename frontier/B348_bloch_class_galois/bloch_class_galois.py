@@ -61,10 +61,14 @@ def seam_identity():
 
 
 def bloch_wigner(w, dps=30):
-    """Bloch-Wigner dilogarithm D(w) = Im(Li2(w)) + arg(1-w) log|w| (exact functional form)."""
-    mp.mp.dps = dps
-    w = mp.mpc(w)
-    return mp.im(mp.polylog(2, w)) + mp.arg(1 - w) * mp.log(abs(w))
+    """Bloch-Wigner dilogarithm D(w) = Im(Li2(w)) + arg(1-w) log|w| (exact functional form).
+
+    Precision is SCOPED (mp.workdps), not written to the global mp.mp.dps: the global is
+    shared test-suite state, and lowering it poisons any high-precision probe that runs
+    later in suite order (the 2026-07-02 B302 -> B347 failure class)."""
+    with mp.workdps(dps):
+        w = mp.mpc(w)
+        return mp.im(mp.polylog(2, w)) + mp.arg(1 - w) * mp.log(abs(w))
 
 
 def orbit_is_symmetrizable():
