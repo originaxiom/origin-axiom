@@ -34,13 +34,26 @@ figure-eight). Do not read the generic tier as object-specific forcing.
 **Question.** Is there *any* invariant of a single seed that is (1) trace-map-invariant, (2) discretely multivalued,
 (3) unsymmetrizable — a genuine forced choice?
 **Settled.** No, for the **trace ring** (B130: `κ` continuous), the **quantum/WRT** class (B314: Galois-symmetrized;
-B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`), and — **newly (B330)** — the
-**cover-torsion** class (B326's `(ℤ/4)²` has an *irreducible* deck action → no distinguished sub-object → no forced
-choice) and **cohomology `H¹`** (a canonical integer). **Five classes** now sealed by **one mechanism**: a finite Galois
-orbit is always symmetrizable, so the object hands you the symmetric orbit, never a member. *(C-guardrail: this is
-`open`, not proof of universal impossibility — see below.)*
-**What closes it.** Extend to the **untested** classes (Reidemeister/Ptolemy torsion, Chern–Simons/`η`, higher/irregular
-covers, `SL(n≥3)` gluing-variety invariants, Bloch-group classes — named in B330), or exhibit a counterexample. The
+B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`), the **cover-torsion** class (B330,
+via B326's `(ℤ/4)²`: *irreducible* deck action → no distinguished sub-object → no forced choice), **cohomology `H¹`**
+(a canonical integer, B330); and — **newly (B348/B350, 2026-07-01)** — the **cyclic-cover abelian-torsion** class for
+*all* `n` (B350: the orders are the P8/C5 Lucas ladder — canonical integers; the Alexander factor multiset `{Δ(ζₙʲ)}`
+is a Galois-closed orbit with **integer** symmetric functions; the deck action is fixed-point-free *uniformly* since
+`det(A−I)=Δ(1)=−1` is a unit — an **MB8 generic-knot** mechanism, honestly tiered; subsumes B326's `n=3` and settles
+B330's "higher **cyclic** covers" item) and the object's **Bloch/scissors class** (B348: the orbit is `{+β,−β}` =
+`{+Vol,−Vol}`, sum 0, and the residual sign = *orientation* is killed by the object's own amphichirality — *self*-
+symmetrized, B318's geometric firewall landing in the Bloch group; plus **the seam identity** `1−z₀ = z̄₀`: at the
+Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation); and the
+**irregular-cover** class stress-tested through index 6 (**B349**: the cover census per index is a canonical
+**multiset** — SnapPy enumeration, the cyclic members cross-validating B350's SNF exactly — and **every** within-index
+invariant multiplicity collapses to a **single isometry class**, so the object never distinguishes a member; index ≤ 6
+is a computational horizon, not a theorem). **Eight classes** now sealed by **one mechanism**: a finite Galois orbit
+is always symmetrizable, so the object hands you the symmetric orbit, never a member. *(C-guardrail: this is `open`,
+not proof of universal impossibility — see below.)*
+**What closes it.** Extend to the remaining **untested** classes (the **nonabelian** Ptolemy/adjoint torsion of the
+character-variety components — B98/B99's `τ₁=−3` is a single rational, canonical, but the class as a whole is open;
+Chern–Simons/`η` beyond the banked `CS=0`; **irregular covers beyond index 6**; `SL(n≥3)` gluing-variety invariants;
+the extended-Bloch/`K₃^{ind}` torsion theory beyond the object's own class), or exhibit a counterexample. The
 candidate proof strategy is uniform: show each such class is a Galois orbit of the object's arithmetic (B330).
 **Obstruction / tier.** A universally-quantified "no invariant whatsoever" — hard, possibly itself specialist, but the
 one arguably-still-in-sandbox target. If proven ⇒ single-seed member-contingency is **irreducible** (the firewall's
@@ -51,7 +64,23 @@ deepest form); choice enters only via heterogeneity (K014/B131).
 principal-grading cascade (B305/B306) as *physical gauge dynamics*, with the cusp deformation as the control parameter?
 **Settled.** The E₆ character variety of `4₁` exists (B264/B274/B275); the cascade is generic Lie theory + the object's
 Eisenstein `ω` (B305); the trinification is an irreducible A-poly branch point (B311); the "πi/3-spacing realization" is
-refuted (B310).
+refuted (B310). **The tangent is computed (B347, 2026-07-02, via the principal SL₂):** `dim H¹(π₁(4₁), 𝔢₆) = 6 = rank E₆`
+— exactly **one** deformation direction per exponent, **uniform** (this *refutes* the relayed "degenerate cascade /
+three breaking scales" reading; the relay's `{2−√3,3,2+√3}` spectrum was **G₂⊕A₂**, not E₆); amphichirality acts as a
+uniform real structure `J²=+1` on every line (**no split** — CP-even everywhere, consistent with the symmetric-centre
+reading K022); and the hyperelliptic involution grades the six lines by `(−1)^{m+1}` = **the E₆→F₄ folding at the
+tangent level**, with `−1`-eigenspace `{4,8}` = the `𝔢₆/𝔣₄ = 26` coset = B265's escape sector. **The θ sign-pattern
+question is settled at the algebra level (B351, 2026-07-02, exact):** the Jacobi-verified Chevalley 𝔢₆ carries the
+diagram involution θ as a verified automorphism acting on the six exponent lines by exactly `(−1)^{m+1}` — the
+hyperelliptic grading *is* the θ-grading `𝔢₆ = 𝔣₄ ⊕ 26` (the geometric identification, that the manifold's involution
+*induces* θ, stays open). **And the `{4,8}` integrability is answered at second order (B352, 2026-07-02, dps 100):**
+the cup-product obstruction `[z∪z] ∈ H²(4₁,𝔢₆)` **vanishes for all six exponent directions and the `{4,8}` mix**
+(classes ≤ `1e-52` against q-cochains up to `1e16`; controls: the `m=1` curve direction and coboundaries vanish, the
+H² pairing is provably non-vacuous, θ-parity visible as exact-zeros in the `{4,8}` blocks). The escape sector is
+locally **real at second order** — consistent with (and evidence for) a Menal-Ferrer–Porti-type smoothness statement
+at exceptional type; third-and-higher orders untested. This strengthens the CRUX's realization question: `T[4₁;E₆]`
+has a genuinely 6-dim local moduli to quantize. Still open inside the gate: the geometric θ-identification, all-orders
+integrability, and the state integral itself.
 **The hierarchy sub-atom (B326/B327, computed in-sandbox).** The mass-hierarchy question inside the CRUX reduces to the
 branching `27|₂T` — specifically whether the two light generations split (`n₁≠n₂`, the E₆ cubic decides it at "Level 3",
 computable) or stay degenerate (`n₁=n₂` → "Level 4", the commensurator gate). **Verified:** the principal decomposition

@@ -9,6 +9,77 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B352 — the cup-product obstruction, computed: all six directions unobstructed at second order (2026-07-02;
+  part 2, closing the B265/B270 open item at second order).** The obstruction `[z∪z] ∈ H²(4₁,𝔢₆)` **vanishes for
+  every exponent direction** — including the θ-odd `{4,8}` escape sector and its polarization mix — with classes
+  ≤ `1e-52` against raw second-order cochains up to `1e16` (the vanishing is *exactness*: `z₂` exists). Controls:
+  the `m=1` direction (the real A-poly curve) and coboundaries give zero; the H² pairing is O(1) on random vectors
+  (MB12 positive control); θ-parity appears as exact-zeros in the `{4,8}` H²-blocks 5–10 orders below the F₄
+  floor. Two honest architecture failures banked en route (double precision cannot span the `e^{±22μ}` block
+  range — relator residual `1e+49`; Euclidean chain normalization is not invariant — structure constants
+  `1e-6..1e+73`, singular Gram); the working design is two-basis (exact root-basis brackets/Gram ⊕ block-diagonal
+  chain-basis action, vectors crossing via `S` at dps 100) with structural-rank/cliff spectra decisions. Honest
+  tier: consistent with (evidence for, not proof of) Menal-Ferrer–Porti-type smoothness at exceptional type;
+  third order untested. Gate B updated: the CRUX has a genuinely 6-dim local moduli. Lock: fast structural tier
+  always-on; the full ~12-min sweep gated behind `OA_SLOW=1`. Firewalled; nothing to `CLAIMS.md`.
+- **B351 — the exact Chevalley 𝔢₆ (2026-07-02; part 1 of the `{4,8}`-integrability program).** The cross-session
+  cup-product push had stalled at "signed structure constants failed Jacobi." Removed with the standard guaranteed
+  construction, verified **exactly over the integers**: Frenkel–Kac cocycle brackets with **0 Jacobi violations on
+  all 76,076 basis triples** (and the trap isolated: `[e_α,e_{−α}] = −h_α` is *forced* — the `+h_α` convention fails
+  exactly 1440 mixed triples by `2e_β`); the principal sl₂ (`c = 2A⁻¹𝟙 = (16,22,30,42,30,16)`) exact; the exponent
+  decomposition `𝔢₆ = ⊕ Sym^{2m}`, `m ∈ {1,4,5,7,8,11}` exact; the diagram involution θ built and verified
+  (automorphism, involution, `𝔣₄ = 52` fixed ⊕ `26`), commuting with the principal sl₂ and acting on the six
+  exponent lines by **exactly `(−1)^{m+1}`** — settling B347's flagged sign-pattern question at the algebra level
+  (the geometric identification stays open). Sets up part 2: the B265/B270 cup-product obstruction against the F₄
+  blocks in this exact basis. Firewalled; nothing to `CLAIMS.md`.
+- **Suite hygiene — the global-dps test-order failure class fixed, MB13 §4 (2026-07-02).** All 6 B347-E₆ locks
+  failed in full-suite order (passed in isolation): B302 lowers the **global** `mp.mp.dps` to 25 at call time and
+  runs first alphabetically. B347 now self-guards every entry point (the pre-existing B264/B265/B276 idiom, now a
+  written rule); B302 is raise-only; B348 uses scoped `mp.workdps`. `REPRODUCIBILITY.md` MB13 gains §4: entry
+  points own their precision, never lower the shared global, "passes alone, fails in suite" is the tell.
+- **Main sync + relay disposition (2026-07-02).** Merged main's **B347_e6_tangent_gradings** (PR #424, the peer
+  session's corrected E₆ tangent probe — `dim H¹ = 6 = rank E₆`, uniform per exponent; amphichirality a uniform
+  real structure; the hyperelliptic involution = the E₆→F₄ folding at the tangent level) and verified its 6 tests
+  green in this sandbox. Resolved the same-day probe-ID collision by renumbering this branch's cyclic-cover
+  torsion probe **B347 → B350** (main's number stands). Gate B "Settled" updated with the banked B347 facts (the
+  relayed in-progress cup-product items noted, not banked). Added the **multi-session probe-ID hygiene rule** to
+  `REPRODUCIBILITY.md` (fetch main, take max+1; first-to-main keeps the number).
+- **Gate A extension B349 + the gate-based outreach package (2026-07-01).** **B349 — irregular covers through
+  index 6:** all covers of the figure-eight enumerated (SnapPy); the census per index is a canonical **multiset**
+  (banked exact); the cyclic members cross-validate B350's `coker(Aⁿ−I)` SNF **exactly** (independent routes, one
+  answer); and **every** within-index invariant multiplicity (the twin `ℤ/2⊕ℤ²` index-5 covers; the 4×/2×/2×
+  index-6 groups) collapses to a **single isometry class** — the object never distinguishes a member (the
+  identification lives in the commensurator, cf. B323/B348). Index ≤ 6 honestly flagged as a computational
+  horizon, not a theorem. **Eight classes** now sealed at gate A; `OPEN_PROBLEMS.md` updated. **The outreach
+  package:** `frontier/EXPERT_OUTREACH.md` extended with the 2026-07 gate-based briefs — one bounded,
+  proof-status-honest question per gate (B: `T[4₁;E₆]` state integral at exceptional type; C: commensurator
+  `ℤ/3` → family replication or trinification-only; D: non-Hermitian Damanik–Gorodetski at complex `κ`), expert
+  picks to verify, sequencing/hygiene rules (one gate one expert; log every send; a "known, see X" reply is a
+  good outcome). All CONDITIONAL/firewalled; nothing to `CLAIMS.md`.
+- **Gate A extensions B348 + B350 (2026-07-01; B350 originally numbered B347, renumbered after the ID collision with main's B347_e6_tangent_gradings, PR #424).** Two of B330's named untested invariant classes sealed under the
+  same Galois-symmetrization mechanism, both in-sandbox, both CONDITIONAL (C-guardrail), nothing promoted.
+  **B350 — the cyclic-cover abelian-torsion class:** the n-fold-cover torsion orders are the **P8/C5 Lucas ladder**
+  `|det(Aⁿ−I)| = L₂ₙ−2` (one ladder, three faces); the Alexander factor multiset `{Δ(ζₙʲ)}` is a Galois-closed orbit
+  with **integer** symmetric functions; SNF gives the groups (n=3 → `(ℤ/4)²`, independently re-deriving B326); and
+  the deck action is fixed-point-free for **every** n with the one-line cause `det(A−I)=Δ(1)=−1` a unit — honestly
+  tiered as an **MB8 generic-knot** mechanism (Δ(1)=±1 for all knots), not object-specific forcing. **B348 — the
+  Bloch/scissors class:** the object's class `β=2[e^{iπ/3}]` has Galois orbit `{+β,−β}` = `{+Vol,−Vol}` (sum 0,
+  canonical); the residual sign is the *orientation*, killed by the object's own amphichirality (B318's geometric
+  firewall landing in the Bloch group — *self*-symmetrized); plus **the seam identity** `1−z₀ = z̄₀`: at the
+  Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation (`z(1−z)=1 ⇔
+  z²−z+1=0` — the P12 quadratic is exactly that locus). **Seven classes** now sealed; the untested residual is
+  renamed precisely in `OPEN_PROBLEMS.md` gate A (nonabelian Ptolemy/adjoint torsion, CS/η beyond `CS=0`, irregular
+  covers, `SL(n≥3)` gluing invariants, extended-Bloch/`K₃` torsion). Nothing to `CLAIMS.md`.
+- **External audit + robustness hardening (2026-07-01).** A fresh-clone, fresh-environment reproduction pass:
+  3 frontier locks (B101/B106) failed on ill-conditioned numerical certificates and were re-certified
+  structurally (nilpotency instead of defective-matrix eigenvalues; a measured-gap 1e-4 neutrality window
+  instead of 1e-2; Galois-conjugation-closed scalar comparison) — findings unchanged, certificates hardened;
+  banked as guard **MB13** (`REPRODUCIBILITY.md`). The proven ledger's weak spots were closed: **P9**
+  de-circularized (independent dilogarithm volume + live SnapPy checks for `H₁`/CS/amphichirality/sister),
+  **P5** brute-force word-ensemble sums + exact threshold assertions, **P4** parameter point derived as unique,
+  **P11** independent eigendecomposition derivation of `log(A)`, **P10** three auxiliary filters live-checked,
+  **C5** given its first executable lock (`tests/test_trace_selector_c5.py`). Stale ceilings/counters corrected
+  (frontier B346; 1197 tests / 325 files). Zero label changes; zero promotions; P1–P16 semantics untouched.
 - **The deviation-structure sweep B344–B346 + K022 (2026-07-01).** The reframe from B343 (*the object is the symmetric
   centre, not value-blind*) turned into a probe: the object forces the **form of the deviation space** around the centre
   — all dimensionless **relations/textures** (form, per the `sin²θ_W=3/8` precedent), never magnitudes. **B344:** `det(dφ)=1`

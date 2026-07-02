@@ -80,3 +80,80 @@ Dritëro
   page 2 = the candidate `a_d` with its three gaps (unproven identification, height-1/wrap motivated,
   `a₃(n=6)` open). Do **not** send the physics-thesis framing — it would undercut the math.
 - If no reply in ~3 weeks, Garoufalidis is the clean second ask (reframe toward A-polynomial/AJ).
+
+---
+
+# 2026-07 — The gate-based outreach package (Gates B / C / D)
+
+**Context.** Since the section above was drafted (2026-06-04, pre-gates), the frontier has been
+mapped to four named gates (`docs/OPEN_PROBLEMS.md`). Gate A is in-sandbox (B330/B347/B348/B349);
+Gates B–D need specialists. Each brief below is **self-contained, bounded, and honest about proof
+status** — the same discipline as the B67 draft above. All addresses must be **verified before
+sending**; send under your own name; attach the specific gate section of `OPEN_PROBLEMS.md` (or a
+2-page extract), never the whole repo, never the physics-thesis framing.
+
+## Gate B — the CRUX `T[4₁;E₆]` (3d-3d at exceptional gauge type)
+
+- **Who:** a 3d-3d correspondence / complex Chern–Simons specialist. **Tudor Dimofte** (above)
+  remains the primary fit — this is literally the DGG `T[M]` construction. Alternatives: a member
+  of the Gang–Yamazaki or Terashima–Yamazaki lineage (state integrals), or **Sergei Gukov's**
+  group (3d-3d origin; verify current contacts).
+- **The bounded question:** "The DGG state-integral construction of `T[M;G]` is explicit for
+  `G = SU(N)`/classical groups. Is there any construction — even conjectural — of `T[4₁; E₆]`?
+  Concretely: does the figure-eight's `E₆` character variety (which exists; we computed the
+  relevant components) admit a Neumann–Zagier-type datum an exceptional-group state integral
+  could quantize? If yes, the *arithmetic* sub-question is whether the `2T ↪ E₆` embedding
+  factors through a self-dual (quaternionic) or a complex `SU(2)` — that single fork decides a
+  degeneracy question we can state precisely."
+- **What we supply:** the `E₆` character-variety computations (B264/B274/B275), the cascade
+  structure (B305/B306), the sharpened `27|₂T` branching atom (B326/B327/B329), the refuted
+  routes (B310, B325 — so they are not re-walked).
+- **What we do NOT claim:** any physics realization; the gate note itself says even a realized
+  `T[4₁;E₆]` does not by itself extract values.
+
+## Gate C — multiplicity → the generation count (commensurator / orbifold arithmetic)
+
+- **Who:** an arithmetic-hyperbolic-geometry specialist (commensurators, orbifolds, trace
+  fields): the **Maclachlan–Reid** school (e.g. **Alan Reid**, Rice; verify) or a
+  SnapPy/Sage-fluent computational topologist (**Nathan Dunfield**, UIUC; verify — also a fit
+  for the cover/enumeration side, cf. B349).
+- **The bounded question:** "The figure-eight group's commensurator contains an intrinsic `ℤ/3`
+  (the order-3 Eisenstein units in `PGL(2,𝒪₋₃)`). Under the 3d-3d dictionary, matter multiplets
+  live on character-variety components. Does the `ℤ/3` commensurator action produce **three
+  symmetric copies** of a given component's matter content (a genuine family replication), or
+  does it only permute the trinification factors (the 'wrong' 3)? A definite answer either way
+  closes or opens our gate — both outcomes are valuable to us."
+- **What we supply:** B302 (the `ℤ/3` located, intrinsic), B307 (single-knot `C₃` trace-field
+  obstruction — why replication must come from relation, not a bigger object), B321, B323 (the
+  four-level framework), B349 (the cover census through index 6, where the commensurator
+  identifications are visible as isometries).
+- **Honest flag:** this gate has a stated *refutation* condition; we want the true answer, not a
+  favorable one.
+
+## Gate D — a non-Hermitian Damanik–Gorodetski theorem (spectral theory)
+
+- **Who:** the theorem's own school: **David Damanik** (Rice) or **Anton Gorodetski** (UC
+  Irvine); alternatively a non-self-adjoint-operators specialist (e.g. the Sjöstrand/Davies
+  lineage; verify all addresses).
+- **The bounded question:** "The Fibonacci Hamiltonian's trace map at real coupling gives Cantor
+  spectrum / dimension theory (your theorems). Our object forces the *same* trace map but at the
+  complex parameter `κ = √3·e^{±iπ/6}` — a non-self-adjoint transfer-operator cocycle. Is there
+  any DG-type structure theorem (spectrum as a dynamically-defined set, dimension bounds) in the
+  non-Hermitian regime, or is it known to be genuinely open? We have in-sandbox numerics of the
+  complex-κ dynamics and can share the invariant-surface structure (the Sütő invariant is
+  conserved for all `m`)."
+- **What we supply:** K007/K010 (the Hermitian baseline, cited), B107 (the KKT identification),
+  B317 (the object as a transcendental Painlevé-VI solution — relevant because it rules out
+  algebraic shortcuts), L19/L20 (the parked leads).
+- **Honest flag:** we do not claim the non-Hermitian spectrum *means* anything physical; the
+  question is purely spectral-theoretic.
+
+## Sequencing and hygiene
+1. **One gate, one expert, one bounded question per email.** No cross-gate storytelling.
+2. Lead with the concrete computed object (the `E₆` components / the `ℤ/3` commensurator / the
+   complex-κ trace map), never with the program.
+3. Keep the proof-status line in every draft; offer the 2-page extract, not the repo.
+4. Log every send + reply in `PROGRESS_LOG.md`; a "known, see X" reply closes a gate honestly
+   and is a *good* outcome (C-guardrail: we want the state of the evidence, not encouragement).
+5. If a reply opens a collaboration, the firewall wording travels with the material: the object
+   forces form, not values; no physics claims.

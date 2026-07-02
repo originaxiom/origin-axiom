@@ -4211,5 +4211,178 @@ promotions.**
 
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
+## 2026-07-01 — External audit + robustness hardening (fresh-clone reproduction pass)
+
+An independent audit session (fresh clone, fresh environment, SnapPy 3.3.2 installed) ran the full claim-by-claim
+verification the repo invites in `README.md` §"How to navigate." Findings and fixes, **zero label changes, zero
+promotions**:
+
+- **Fresh-environment reproduction: the suite was NOT green** — 3 frontier locks failed deterministically
+  (`test_b101` unipotent-cusp, `test_b106` roots-of-unity + anatomy scalar) from ill-conditioned certificates
+  (eigenvalues of a defective matrix; a 1e-2 neutrality window capturing a hyperbolic pair at 7e-3; a
+  Galois-conjugate branch `c=−i` vs `c=+i`). All three re-certified structurally (nilpotency residual,
+  measured-gap window, conjugation-closed comparison); banked as guard **MB13** in `REPRODUCIBILITY.md`.
+  The *findings* of B101/B106 were confirmed correct; only the certificates were fragile.
+- **Claim-by-claim test audit (P1–P16, C1, C5):** 12/15 proven claims verified LOCKED by exact symbolic tests.
+  Hardened the rest: **P9** was circular (constants mirrored back at themselves; `H₁`, amphichirality, sister
+  torsion untested) — now recomputed independently (dilogarithm volume, no SnapPy) plus live SnapPy cross-checks
+  for every clause; **P5** count-partition was tautological and the `β_c` thresholds untested — now brute-force
+  word-ensemble sums + exact growth-rate assertions; **P4** parameter point now *derived* as the unique solution,
+  weak-cooperativity actually asserted; **P11** `log(A)` now derived independently by exact eigendecomposition;
+  **P10** three of the four documented auxiliary filters (min volume, amphichirality, Eisenstein triangulation)
+  now live-checked against SnapPy. **C5** was the one ledger entry with no executable evidence — the post-T1
+  algebra is now locked by `tests/test_trace_selector_c5.py` (including the Lucas-hierarchy ↔ P8 torsion-ladder
+  identity).
+- **Documentation drift corrected:** the frontier stands at **B346** (345 probe directories), while GOVERNANCE §7
+  said B314 and README/ROADMAP said B325 with stale test counts (~1113/304 vs actual 1197/325 after this pass) —
+  exactly the "credibility bugs" class the 2026-07 masterplan flagged. Ceilings and counters refreshed.
+
+Suite after hardening: green — 1195 passed, 4 skipped, 0 failures (SnapPy installed, so the previously-skipped
+SnapPy-gated cross-checks were exercised). P1–P16 untouched; firewall intact; nothing promoted.
+
+## 2026-07-01 — Gate A extensions: B350 (cyclic-cover torsion; originally numbered B347, renumbered on merge with main's B347 PR #424) + B348 (Bloch class)
+
+Continuation of the external-audit session: the two in-sandbox gate-A probes queued by the audit were run to
+conclusion. Both extend B330's Galois-symmetrization mechanism to classes it named as untested; both are
+**CONDITIONAL** per the C-guardrail; **zero promotions**.
+
+- **B350 [VERIFIED, exact].** The cyclic-cover **abelian torsion** class: orders = the P8/C5 Lucas ladder
+  (`|det(Aⁿ−I)| = L₂ₙ−2`, n≤8); the factor multiset `{Δ(ζₙʲ)}` Galois-closed with integer symmetric functions
+  (constant term cross-checked against the resultant); torsion groups by SNF (n=3 = `(ℤ/4)²`, independently
+  re-deriving B326); deck action fixed-point-free **uniformly in n** (`det(A−I)=Δ(1)=−1` a unit ⟹
+  `N·ℤ² = im(Aⁿ−I)` exactly). **MB8 tier note recorded:** `Δ(1)=±1` for every knot — the fixed-point-freeness
+  is generic-knot, not object-specific; the object-specific content is *which* orbit (the trace-3/Lucas ladder).
+- **B348 [VERIFIED, exact + 30 dps].** The object's **Bloch/scissors class** `β=2[e^{iπ/3}]`: Galois orbit
+  `{+β,−β}` = `{±Vol(4₁)}`, sum 0; the residual sign = orientation is killed by amphichirality (B318's geometric
+  firewall in the Bloch group — *self*-symmetrized); `D≡0` on the fixed field. New observation banked: **the seam
+  identity** `1−z₀ = z̄₀` — at the Eisenstein shape the generic Bloch duality involution `z→1−z` coincides with
+  the arithmetic Galois conjugation, and `z(1−z)=1 ⇔ z²−z+1=0` (the P12 quadratic is exactly that locus).
+- **Gate A updated** (`OPEN_PROBLEMS.md`): **seven classes** sealed under the one mechanism; the untested residual
+  restated precisely (nonabelian Ptolemy/adjoint torsion — with B98/B99's rational `τ₁=−3` noted as canonical;
+  CS/η beyond the banked `CS=0`; irregular covers; `SL(n≥3)` gluing invariants; extended-Bloch/`K₃` torsion).
+
+Locks: `tests/test_b347_cyclic_cover_torsion_galois.py`, `tests/test_b348_bloch_class_galois.py`. P1–P16
+untouched; firewall intact; nothing promoted.
+
+## 2026-07-01 — Gate A extension B349 (irregular covers) + the Gates B–D outreach package
+
+Continuation of the gate-A sweep. **CONDITIONAL** per the C-guardrail; **zero promotions**.
+
+- **B349 [VERIFIED, SnapPy].** All covers of 4₁ through index 6: the census per index is a canonical
+  **multiset** (banked exact: index 4 = 1 cyclic + 1 irregular `ℤ²`; index 5 = 1 + 3; index 6 = 1 + 10);
+  the cyclic members' `H₁` torsion equals B350's `coker(Aⁿ−I)` SNF **exactly** (`[5]`, `[4,4]`, `[3,15]`,
+  `[11,11]`, `[8,40]`) — independent-route cross-validation; **every** within-index invariant multiplicity
+  collapses to a **single isometry class** (index 5: the twin `ℤ/2⊕ℤ²` pair, 4 isometries; index 6: the
+  4×`ℤ/3⊕ℤ²`, 2×`ℤ/12⊕ℤ`, 2×`ℤ/5⊕ℤ²` groups) — the object never distinguishes a member; the "distinction"
+  is non-conjugate subgroups with one geometric quotient, invisible to every manifold invariant. MB note:
+  `is_isometric_to` is orientation-blind, which is *sufficient here* (any self-identification defeats a
+  forced choice; no chirality claim made). Index ≤ 6 = a computational horizon, not a theorem.
+- **Gate A now: eight classes sealed** under the one Galois-symmetrization mechanism (`OPEN_PROBLEMS.md`
+  updated; untested residual restated: nonabelian Ptolemy/adjoint torsion, CS/η beyond `CS=0`, irregular
+  covers beyond index 6, `SL(n≥3)` gluing invariants, extended-Bloch/`K₃` torsion).
+- **The Gates B–D outreach package** (`frontier/EXPERT_OUTREACH.md`, new 2026-07 section): one bounded,
+  proof-status-honest question per gate; expert picks (addresses to verify before sending); what we supply
+  per gate (including the refuted routes so they are not re-walked); sequencing/hygiene rules — one gate,
+  one expert, one question; log every send/reply; a "known, see X" reply closes a gate honestly and is a
+  good outcome.
+
+Locks: `tests/test_b349_irregular_covers_galois.py` (SnapPy-gated). P1–P16 untouched; firewall intact;
+nothing promoted.
+
+## 2026-07-02 — Cross-chat relay disposition: PR #424 absorbed; probe-ID collision resolved (B347→B350)
+
+The owner relayed the peer session's ("CC") message correcting an earlier "E6 → SM dictionary" handoff and banking
+the correct replacement as **B347_e6_tangent_gradings** (PR #424, merged to main). Disposition in this branch:
+
+- **Merged main** (`10f6673`) into the audit branch; the only delta was PR #424 (self-contained probe + test +
+  atlas). **Verified in this sandbox:** all 6 B347 tests green (MB6 — reproduction run, not trusted).
+- **Probe-ID collision resolved:** this branch had independently banked a *different* B347 (the gate-A
+  cyclic-cover torsion probe, same day, parallel sessions). Renumbered ours **B347 → B350** everywhere (probe dir,
+  lock test, OPEN_PROBLEMS, CHANGELOG, this log); main's B347 = the E₆ tangent probe stands. A **multi-session
+  probe-ID hygiene rule** is added to `REPRODUCIBILITY.md` so this class of collision is caught at banking time.
+- **Gate B updated** (`OPEN_PROBLEMS.md`): B347's banked facts added to "Settled" — `dim H¹(π₁(4₁),𝔢₆) = 6 = rank`,
+  uniform per exponent (degenerate-cascade reading refuted); amphichirality = uniform real structure (no split);
+  hyperelliptic involution = the E₆→F₄ folding at the tangent level (`{4,8}` = the 26 coset = the escape sector).
+  The relay's §3 in-progress items (per-exponent `H²=1`, θ-even reduction of the cup-product obstruction to the F₄
+  blocks) are **noted but NOT banked** — they live in the peer session until a probe with tests lands.
+- **Relay corrections acknowledged where they touch this branch:** none of the killed items (the G₂⊕A₂ mislabel,
+  the `(2.05)^exponent` numerology, the two numeric slips) had entered this branch's documents.
+
+Zero promotions; P1–P16 untouched; firewall intact.
+
+## 2026-07-02 — Suite hygiene: the global-dps test-order failure class (MB13 §4)
+
+The post-merge full-suite run failed **all 6 B347-E₆ locks** while every one passed in isolation. Root-caused
+and fixed:
+
+- **Mechanism:** `mp.mp.dps` is a global; B302 lowers it to 25 at call time; in alphabetical suite order B302's
+  test runs before B347's, so the E₆ tangent computation (needs ~55+ dps for its 1e-50 residual gates) ran at
+  25 dps. Minimal deterministic repro: `pytest test_b302_* test_b347_*` (6 failures in 9 s). Three older probes
+  (B264/B265/B276) had already independently discovered this and carry inline "self-guard" comments — the
+  pattern existed but was not yet a written rule.
+- **Fixes:** B347 now re-asserts `dps=70` at every public entry point (the self-guard idiom); B302 is
+  raise-only (`max(mp.mp.dps, 25)` — never lowers the shared global); B348's Bloch–Wigner uses scoped
+  `mp.workdps` (it was itself a polluter-in-waiting). **MB13 extended with §4** (the test-order sibling):
+  entry points own their precision; no probe may lower the global; "passes alone, fails in suite" is the tell.
+- Also observed once (first post-merge run only): a transient `test_b207` failure that did not reproduce in
+  either subsequent full run — logged as an unreproduced flake, not diagnosed, not papered over.
+
+Zero promotions; no mathematical content changed — certificates only.
+
+## 2026-07-02 — B351: the exact Chevalley 𝔢₆ (the cup-product program unblocked)
+
+Seat note: the owner paused the peer session ("CC"); this session is now the main seat. The peer's
+in-progress item — the `{4,8}`-integrability cup product, stalled at "signed structure constants failed
+Jacobi" — is therefore picked up here. Part 1 banked as **B351** (`frontier/B351_exact_e6_chevalley/`):
+
+- **The blocker removed, exactly.** Frenkel–Kac asymmetry cocycle on the E₆ root lattice; the full Jacobi
+  identity verified on **all 76,076 basis triples over the integers: 0 violations**. The trap that killed
+  the earlier attempt is isolated and documented at the fix site: with `[e_α,e_{−α}] = +h_α` exactly 1440
+  mixed triples `(e_α,e_{−α},e_β)`, `(α,β)=−1`, violate Jacobi by `2e_β`; the Cartan-return sign is forced
+  to `−h_α` by the cocycle convention (hand-derivation in the module).
+- **The principal sl₂ and the exponents, exact:** `c = 2A⁻¹𝟙 = (16,22,30,42,30,16)`; `[h,e]=2e`,
+  `[h,f]=−2f`, `[e,f]=h`; `dim ker(ad e) = 6` with ad-h weights `{2,8,10,14,16,22}` — the B347 framing
+  `𝔢₆ = ⊕ Sym^{2m}` now exact.
+- **θ built and verified:** automorphism on all pairs, involution, fixed = **52 = 𝔣₄**, minus = **26**;
+  commutes with the principal sl₂; acts on the six exponent lines by **exactly `(−1)^{m+1}`** (+1 on
+  `{1,5,7,11}`, −1 on `{4,8}`). This settles B347's flagged question at the algebra level: the
+  hyperelliptic `(−1)^{m+1}` grading *is* the θ-grading `𝔢₆ = 𝔣₄ ⊕ 26`. The geometric identification
+  (that the manifold's involution induces θ on the character variety) remains open — part 2 territory.
+- **Next (part 2):** map B347's numeric `H¹` cocycles (`m ∈ {4,8}`) into this exact basis and evaluate
+  `[z ∪ z] ∈ H²(4₁,𝔢₆)` against the four F₄ blocks (B265/B270).
+
+Lock: `tests/test_b351_exact_e6_chevalley.py` (7 tests; pure ints/Fractions, 0.2 s). Zero promotions;
+P1–P16 untouched; firewall intact.
+
+## 2026-07-02 — B352: the cup-product obstruction computed — all six directions unobstructed at 2nd order
+
+Part 2 of the `{4,8}`-integrability program (the B265/B270 open item; the peer session's stalled push, taken
+over after the seat change). **Result: the obstruction `[z∪z] ∈ H²(π₁(4₁),𝔢₆)` vanishes for all six exponent
+directions and the `{4,8}` polarization mix** — classes ≤ `1e-52` while the raw second-order cochains reach
+`9.4e16`, so the vanishing is exactness (second-order deformations exist), not triviality. The θ-odd escape
+sector is locally **real at second order**.
+
+- **Controls (all clean):** the `m=1` direction = the actual A-polynomial curve → class `≤ 2.4e-62` ✓; random
+  coboundary → `≤ 4.6e-74` ✓; **MB12 positive control** — the H² pairing functionals give `0.10–0.36` on random
+  vectors, so the zeros are information; **θ-parity signature** — the `{4,8}`-block components sit 5–10 orders
+  below the F₄-block floor (exact-zero by the B351 θ-grading vs numerical floor).
+- **Machinery integrity:** relator identity to `9e-54`; the assembled `Ad ρ` preserves the exact B351 bracket to
+  `5e-71`; cocycle residuals ≤ `2.6e-51`; ad-solve residuals ≤ `3.5e-56`. dps 100, MB13-§4 self-guarded.
+- **Two honest architecture failures banked in the module docstring:** (1) double precision cannot span the
+  `e^{±2mμ}` block range (numpy build: relator residual `1e+49`); (2) Euclidean normalization of the chain basis
+  is not invariant (transported structure constants `1e-6..1e+73`, singular Gram). Working design: two-basis —
+  exact integer root-basis brackets/Gram (B351) ⊕ block-diagonal chain-basis group action (antidiagonal
+  closed-form intertwiners), vectors crossing via `S` at dps 100; rank decisions by structural rank + >20-order
+  cliff assertions (the genuine block spectra span ~25 orders before a >60-order cliff).
+- **Honest tier:** numerical (50+-order margins), second order only (no Goldman–Millson formality for knot
+  groups), one point (the principal-geometric rep). Landing: exactly what a Menal-Ferrer–Porti-type smoothness
+  theorem at exceptional type would predict — evidence for it, not a proof.
+- **Gate B updated** (`OPEN_PROBLEMS.md`): the CRUX `T[4₁;E₆]` now has a genuinely 6-dim local moduli at second
+  order; still open — the geometric θ-identification, all-orders integrability, the state integral itself.
+
+Locks: `tests/test_b352_cup_product_obstruction.py` (structural tier ~18 s always-on; the full 741-s sweep gated
+behind `OA_SLOW=1`, reproducer documented). Zero promotions; P1–P16 untouched; firewall intact (dimensions and
+vanishing classes are *form*, K020).
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

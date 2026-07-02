@@ -41,7 +41,7 @@ def eisenstein_order3_elements():
 def cover_index_of_minimal_orbifold():
     # covol(PSL(2,O_-3)) by Humbert: |d|^{3/2} zeta_K(2)/(4 pi^2); index = vol(m004)/covol
     import mpmath as mp
-    mp.mp.dps = 25
+    mp.mp.dps = max(mp.mp.dps, 25)   # raise-only: never LOWER the global (it is shared test-suite state; the 2026-07-02 B347 lesson)
     d = 3
     # zeta_{Q(sqrt-3)}(2) = zeta(2) * L(2, chi_-3)
     L2 = mp.mpf(0)

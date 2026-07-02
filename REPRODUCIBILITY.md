@@ -126,6 +126,34 @@ pip install snappy
   composite). The non-vacuous notions survive (chiral = no orientation-reversing self-homeo; *contingency* vs the
   symmetry being broken). Sibling of `MB10`/`MB11`; the danger here is that it is **not** physics-over-math
   contamination (the usual tell) but formal incoherence that sounds like rigor.
+- **SCAN — multi-session probe-ID hygiene (2026-07-02, after the B347 collision).** Probe IDs are permanent and
+  unique, and multiple sessions now bank probes in parallel. **Before banking a new `B`-probe: `git fetch origin
+  main` and take `max(B) + 1` across BOTH `origin/main` and your working branch.** If a collision is discovered at
+  merge time anyway, the rule is: **whichever probe reached `main` first keeps the number; the unmerged side
+  renumbers** (precedent: this branch's cyclic-cover torsion probe B347 → B350 when main merged
+  `B347_e6_tangent_gradings`, PR #424). Renumber everywhere (probe dir, lock test, OPEN_PROBLEMS, CHANGELOG,
+  PROGRESS_LOG) in a dedicated commit so the history explains itself.
+- **SCAN — MB13: a green suite is not an environment-independent suite — never certify an ill-conditioned
+  property through raw eigenvalue data** (2026-07-01 external audit; a fresh-clone run failed 3 frontier locks that
+  were green in the authoring environment). Three concrete instances, all fixed with structural certificates: (1)
+  **unipotency via `eigvals ≈ 1` is LAPACK-version-dependent** — the eigenvalues of a defective (single-Jordan-block)
+  matrix move by `eps^(1/3)` under an `eps` entry perturbation (~4e-5 at machine precision), so a 1e-6 tolerance on
+  eigenvalues false-negatives on a genuinely unipotent cusp; certify nilpotency `(M−I)^n ≈ 0` instead (B101; sibling
+  of the B129/B2 guard). (2) **a "neutral eigenvalue" window must be set from the measured gap, not round numbers** —
+  at one realize seed a moving *hyperbolic* pair passed within 7e-3 of the unit circle, inside the 1e-2 window,
+  polluting the root-of-unity angle set; the genuine neutrals sit within 1e-5, so 1e-4 separates by two orders each
+  side (B106). (3) **numerical realizations land on either Galois-conjugate rep** — the scalar in `L=c·M^k` came out
+  `c=−i` where the authoring environment got `c=+i`; assert conjugation-invariant data (accept `{c, c̄}`), since the
+  branch is seed/LAPACK-dependent while the arithmetic content is the conjugacy class. **Guard:** any lock asserting
+  eigen-data near a defective matrix, a threshold window, or a complex branch must state why the certificate is
+  stable across BLAS/LAPACK builds — or use the structural form (nilpotency residual, measured-gap window,
+  conjugation-closed comparison). **(4) — the test-ORDER sibling (2026-07-02): `mp.mp.dps` is GLOBAL shared
+  test-suite state.** A probe that trusts its module-load `mp.mp.dps = N` fails in full-suite order the moment any
+  earlier-running test writes a lower value at call time (B302's `dps=25` silently broke all 6 B347-E₆ locks,
+  which passed in isolation — the pass/fail bit depended on which tests ran first). **Guard:** every public
+  computational entry point re-asserts its own working precision (the B264/B265/B276 "self-guard" idiom, now also
+  B347), or uses scoped `mp.workdps(...)`; and no probe may *lower* the global at call time (raise-only:
+  `mp.mp.dps = max(mp.mp.dps, N)`). "Passes alone, fails in suite" (or vice versa) is the tell.
 - **SCAN — MB9: a non-abelian symmetry GROUP is not non-abelian GAUGE content** (B139, the "SM through
   multiplicity" cartography). Before reading "the construction generates a non-abelian / free group" as "non-abelian
   physics / the firewall cracked," **check the level**: the firewall is stated on the **trace-ring / `T[M]` /
