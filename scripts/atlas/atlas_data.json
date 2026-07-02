@@ -7450,6 +7450,24 @@
    "status": "dead",
    "domain": "geometry"
   },
+  "B366": {
+   "slug": "invariant spin sector",
+   "motifs": [
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B363",
+    "B364",
+    "B365"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
