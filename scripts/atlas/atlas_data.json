@@ -7263,6 +7263,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B357": {
+   "slug": "e6 boundary restriction",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B293",
+    "B321",
+    "B347"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B35": {
    "slug": "topology cusp marking route",
    "motifs": [],
