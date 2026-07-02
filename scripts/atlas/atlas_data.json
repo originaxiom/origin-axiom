@@ -7303,6 +7303,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B359": {
+   "slug": "seam form",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B354",
+    "B356",
+    "B358",
+    "K020",
+    "L57"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B35": {
    "slug": "topology cusp marking route",
    "motifs": [],
