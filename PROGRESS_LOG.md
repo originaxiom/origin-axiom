@@ -4771,3 +4771,11 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   unchanged B357 conventions with three declared readouts (symmetry / τ-persistence / θ-blocks). Both
   legs two-outcome; completes the Gate-B classical-germ package. Execution next session (fresh context
   for the derivation; machinery = B352's two-basis architecture, dps 100).
+
+## 2026-07-03 — W2.8/L51 set DORMANT (owner directive): compute first, outreach only at exhaustion
+
+- Owner directive (reaffirming the standing compute-first rule): **no external contact of any kind until
+  the in-sandbox computational paths are exhausted.** The outreach briefs (incl. Brief S) remain banked as
+  preparation artifacts only; nothing has been sent, and nothing will be without the owner's explicit
+  decision at the exhaustion point. The live queue is computational: B370 execution, the level-45
+  sweeper, the (1,3)/(3,4) discriminator, the finer-input value-map re-registration.
