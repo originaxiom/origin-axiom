@@ -9,6 +9,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **Main sync + relay disposition (2026-07-02).** Merged main's **B347_e6_tangent_gradings** (PR #424, the peer
+  session's corrected E₆ tangent probe — `dim H¹ = 6 = rank E₆`, uniform per exponent; amphichirality a uniform
+  real structure; the hyperelliptic involution = the E₆→F₄ folding at the tangent level) and verified its 6 tests
+  green in this sandbox. Resolved the same-day probe-ID collision by renumbering this branch's cyclic-cover
+  torsion probe **B347 → B350** (main's number stands). Gate B "Settled" updated with the banked B347 facts (the
+  relayed in-progress cup-product items noted, not banked). Added the **multi-session probe-ID hygiene rule** to
+  `REPRODUCIBILITY.md` (fetch main, take max+1; first-to-main keeps the number).
 - **Gate A extension B349 + the gate-based outreach package (2026-07-01).** **B349 — irregular covers through
   index 6:** all covers of the figure-eight enumerated (SnapPy); the census per index is a canonical **multiset**
   (banked exact); the cyclic members cross-validate B350's `coker(Aⁿ−I)` SNF **exactly** (independent routes, one

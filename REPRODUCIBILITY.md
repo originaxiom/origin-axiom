@@ -126,6 +126,13 @@ pip install snappy
   composite). The non-vacuous notions survive (chiral = no orientation-reversing self-homeo; *contingency* vs the
   symmetry being broken). Sibling of `MB10`/`MB11`; the danger here is that it is **not** physics-over-math
   contamination (the usual tell) but formal incoherence that sounds like rigor.
+- **SCAN — multi-session probe-ID hygiene (2026-07-02, after the B347 collision).** Probe IDs are permanent and
+  unique, and multiple sessions now bank probes in parallel. **Before banking a new `B`-probe: `git fetch origin
+  main` and take `max(B) + 1` across BOTH `origin/main` and your working branch.** If a collision is discovered at
+  merge time anyway, the rule is: **whichever probe reached `main` first keeps the number; the unmerged side
+  renumbers** (precedent: this branch's cyclic-cover torsion probe B347 → B350 when main merged
+  `B347_e6_tangent_gradings`, PR #424). Renumber everywhere (probe dir, lock test, OPEN_PROBLEMS, CHANGELOG,
+  PROGRESS_LOG) in a dedicated commit so the history explains itself.
 - **SCAN — MB13: a green suite is not an environment-independent suite — never certify an ill-conditioned
   property through raw eigenvalue data** (2026-07-01 external audit; a fresh-clone run failed 3 frontier locks that
   were green in the authoring environment). Three concrete instances, all fixed with structural certificates: (1)

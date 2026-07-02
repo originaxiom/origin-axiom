@@ -4289,5 +4289,26 @@ Continuation of the gate-A sweep. **CONDITIONAL** per the C-guardrail; **zero pr
 Locks: `tests/test_b349_irregular_covers_galois.py` (SnapPy-gated). P1–P16 untouched; firewall intact;
 nothing promoted.
 
+## 2026-07-02 — Cross-chat relay disposition: PR #424 absorbed; probe-ID collision resolved (B347→B350)
+
+The owner relayed the peer session's ("CC") message correcting an earlier "E6 → SM dictionary" handoff and banking
+the correct replacement as **B347_e6_tangent_gradings** (PR #424, merged to main). Disposition in this branch:
+
+- **Merged main** (`10f6673`) into the audit branch; the only delta was PR #424 (self-contained probe + test +
+  atlas). **Verified in this sandbox:** all 6 B347 tests green (MB6 — reproduction run, not trusted).
+- **Probe-ID collision resolved:** this branch had independently banked a *different* B347 (the gate-A
+  cyclic-cover torsion probe, same day, parallel sessions). Renumbered ours **B347 → B350** everywhere (probe dir,
+  lock test, OPEN_PROBLEMS, CHANGELOG, this log); main's B347 = the E₆ tangent probe stands. A **multi-session
+  probe-ID hygiene rule** is added to `REPRODUCIBILITY.md` so this class of collision is caught at banking time.
+- **Gate B updated** (`OPEN_PROBLEMS.md`): B347's banked facts added to "Settled" — `dim H¹(π₁(4₁),𝔢₆) = 6 = rank`,
+  uniform per exponent (degenerate-cascade reading refuted); amphichirality = uniform real structure (no split);
+  hyperelliptic involution = the E₆→F₄ folding at the tangent level (`{4,8}` = the 26 coset = the escape sector).
+  The relay's §3 in-progress items (per-exponent `H²=1`, θ-even reduction of the cup-product obstruction to the F₄
+  blocks) are **noted but NOT banked** — they live in the peer session until a probe with tests lands.
+- **Relay corrections acknowledged where they touch this branch:** none of the killed items (the G₂⊕A₂ mislabel,
+  the `(2.05)^exponent` numerology, the two numeric slips) had entered this branch's documents.
+
+Zero promotions; P1–P16 untouched; firewall intact.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

@@ -64,7 +64,14 @@ deepest form); choice enters only via heterogeneity (K014/B131).
 principal-grading cascade (B305/B306) as *physical gauge dynamics*, with the cusp deformation as the control parameter?
 **Settled.** The E₆ character variety of `4₁` exists (B264/B274/B275); the cascade is generic Lie theory + the object's
 Eisenstein `ω` (B305); the trinification is an irreducible A-poly branch point (B311); the "πi/3-spacing realization" is
-refuted (B310).
+refuted (B310). **The tangent is computed (B347, 2026-07-02, via the principal SL₂):** `dim H¹(π₁(4₁), 𝔢₆) = 6 = rank E₆`
+— exactly **one** deformation direction per exponent, **uniform** (this *refutes* the relayed "degenerate cascade /
+three breaking scales" reading; the relay's `{2−√3,3,2+√3}` spectrum was **G₂⊕A₂**, not E₆); amphichirality acts as a
+uniform real structure `J²=+1` on every line (**no split** — CP-even everywhere, consistent with the symmetric-centre
+reading K022); and the hyperelliptic involution grades the six lines by `(−1)^{m+1}` = **the E₆→F₄ folding at the
+tangent level**, with `−1`-eigenspace `{4,8}` = the `𝔢₆/𝔣₄ = 26` coset = B265's escape sector. Open inside B347: whether
+the hyperelliptic involution *is* the diagram involution `θ` (rep-theoretic identity, unproven), and the `{4,8}`
+integrability = the B265/B270 cup-product obstruction (in progress in a peer session; not yet banked).
 **The hierarchy sub-atom (B326/B327, computed in-sandbox).** The mass-hierarchy question inside the CRUX reduces to the
 branching `27|₂T` — specifically whether the two light generations split (`n₁≠n₂`, the E₆ cubic decides it at "Level 3",
 computable) or stay degenerate (`n₁=n₂` → "Level 4", the commensurator gate). **Verified:** the principal decomposition
