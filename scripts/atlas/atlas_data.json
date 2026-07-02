@@ -7032,6 +7032,54 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B348": {
+   "slug": "bloch class galois",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B285",
+    "B318",
+    "B330",
+    "K020",
+    "P12",
+    "P9",
+    "S032"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B349": {
+   "slug": "irregular covers galois",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B128",
+    "B323",
+    "B326",
+    "B330",
+    "B348",
+    "B350",
+    "S032"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B34": {
    "slug": "goldman wp quotient naturality",
    "motifs": [
@@ -7046,6 +7094,95 @@
    "obstacle_conf": 1,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B350": {
+   "slug": "cyclic cover torsion galois",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B326",
+    "B330",
+    "B98",
+    "B99",
+    "K020",
+    "P8",
+    "S032"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B351": {
+   "slug": "exact e6 chevalley",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B264",
+    "B265",
+    "B270",
+    "B347"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B352": {
+   "slug": "cup product obstruction",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "symplectic",
+    "apolynomial",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B264",
+    "B265",
+    "B270",
+    "B347",
+    "B351",
+    "K020"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B353": {
+   "slug": "geometric theta identification",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "B351",
+    "B352",
+    "L52",
+    "L53"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
   },
   "B35": {
    "slug": "topology cusp marking route",

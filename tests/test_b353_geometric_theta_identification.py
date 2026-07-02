@@ -1,0 +1,29 @@
+"""B353 -- the geometric theta-identification: hyperelliptic involution = theta on the E6 tangent."""
+import sys
+import os
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B353_geometric_theta_identification'))
+import mpmath as mp
+from geometric_theta import (
+    EXPONENTS, SIGN,
+    theta_chain_blockscalar_residual, theta_commutes_with_holonomy, hyperelliptic_certificate,
+)
+
+
+def test_theta_is_the_blockscalar_in_the_geometric_basis():
+    # S^-1 theta S = (+)_m (-1)^{m+1} Id_{2m+1}, the full 78x78 identity (Schur made exact)
+    assert theta_chain_blockscalar_residual() < mp.mpf(10) ** -60
+
+
+def test_theta_commutes_with_the_holonomy_image():
+    # theta fixes the principal SL2 pointwise -> sigma-twisted complex = theta-twisted complex
+    assert theta_commutes_with_holonomy() < mp.mpf(10) ** -60
+
+
+def test_hyperelliptic_action_equals_theta_with_gauge_certificate():
+    # J(z0) = (-1)^{m+1} z0 + d0(v): eigenvalue exact, explicit-coboundary residual at the floor
+    for m in EXPONENTS:
+        lam, resid = hyperelliptic_certificate(m)
+        assert abs(lam.imag) < mp.mpf(10) ** -30, (m, lam)
+        assert abs(lam.real - SIGN[m]) < mp.mpf(10) ** -30, (m, lam)
+        assert resid < mp.mpf(10) ** -40, (m, resid)
