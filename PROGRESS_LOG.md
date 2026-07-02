@@ -4384,5 +4384,26 @@ Locks: `tests/test_b352_cup_product_obstruction.py` (structural tier ~18 s alway
 behind `OA_SLOW=1`, reproducer documented). Zero promotions; P1–P16 untouched; firewall intact (dimensions and
 vanishing classes are *form*, K020).
 
+## 2026-07-02 — PR #425 merged + verified; B353 closes L52 (the geometric θ-identification); L55 hygiene done
+
+- **The audit branch (PR #425) merged to main and cross-verified.** B351's Jacobi claim confirmed by an
+  **independent second implementation** (full Frenkel–Kac convention incl. the diagonal `Σaᵢbᵢ` term: the
+  Cartan-return sign *emerges* as `−1` uniformly; 0 violations over 4000 random triples; the failing family under
+  the `+h_α` convention is **exactly 1440 triples**, matching B351's count digit-for-digit). B352's controls
+  (MB12 positive pairing; the `m=1` real-curve control; the θ-parity signature — `{4,8}`-block components 5–10
+  orders below the F₄ blocks, the forced-zero fingerprint) reviewed and accepted.
+- **B353 — the geometric θ-identification (L52, B347's last open item): DONE.** θ transported through the B352
+  `S`-intertwiner into the geometric chain basis **is** the block-scalar `⊕ₘ(−1)^{m+1}Id_{2m+1}` (full 78×78
+  identity, residual `7e-102` — Schur made exact); θ commutes with the holonomy Ad-image (`2e-88`), so the
+  σ-twisted and θ-twisted Fox complexes coincide; per-line **gauge certificates** `J(z₀)=(−1)^{m+1}z₀+d⁰v`
+  (residuals `9.9e-72…3.6e-79`). **The hyperelliptic involution induces exactly θ** on the E₆ tangent at the
+  principal-geometric rep — operator-level, not sign-matching. Global variety-level statement: scope note only.
+- **L55 hygiene:** atlas regenerated (334 probes, B350–B353 mined); fresh bare-`pytest` suite green on merged
+  main; the `OA_SLOW=1` B352 sweep re-run once post-merge. Next free ID: **B354**.
+
+Locks: `tests/test_b353_geometric_theta_identification.py` (3 tests, ~19 s). Zero promotions; P1–P16 untouched;
+firewall intact (an involution identification is *form*, K020). Next in the arc: L53 (third-order/Massey), L54
+(adjoint-torsion Galois), L51 (owner outreach send).
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
