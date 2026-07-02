@@ -1,4 +1,4 @@
-# B347 — gate A extension: the cyclic-cover torsion class is a Galois orbit (conditional)
+# B350 — gate A extension: the cyclic-cover torsion class is a Galois orbit (conditional)
 
 **Status: banked (frontier) as a CONDITIONAL structural result. Attacks gate A (S032-A) in-sandbox,
 extending B330 to the first of its named untested classes. Firewalled; nothing to `CLAIMS.md`.**

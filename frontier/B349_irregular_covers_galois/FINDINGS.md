@@ -1,15 +1,15 @@
 # B349 — gate A extension: irregular covers through index 6 — canonical multisets, no forced choice (conditional)
 
 **Status: banked (frontier) as a CONDITIONAL structural result. Attacks gate A (S032-A) in-sandbox,
-extending B330/B347/B348 to another named untested class. Firewalled; nothing to `CLAIMS.md`.**
+extending B330/B350/B348 to another named untested class. Firewalled; nothing to `CLAIMS.md`.**
 
-B347 sealed the **cyclic** cover tower; the untested residual still named **irregular** (non-normal)
+B350 sealed the **cyclic** cover tower; the untested residual still named **irregular** (non-normal)
 covers. This probe enumerates **all** covers of the figure-eight through index 6 (SnapPy subgroup
 enumeration) and runs the gate-A question at each index.
 
 ## Verified (SnapPy 3.3.2; census banked as exact integers)
-- **(i) Cross-validation of B347.** The cyclic covers' `H₁` torsion from SnapPy's group
-  enumeration equals B347's `coker(Aⁿ−I)` Smith normal forms **exactly** (`n=2..6`: `[5]`,
+- **(i) Cross-validation of B350.** The cyclic covers' `H₁` torsion from SnapPy's group
+  enumeration equals B350's `coker(Aⁿ−I)` Smith normal forms **exactly** (`n=2..6`: `[5]`,
   `[4,4]`, `[3,15]`, `[11,11]`, `[8,40]`) — two independent routes (subgroup enumeration vs.
   monodromy algebra), one answer.
 - **(ii) The cover census is a canonical multiset.** Per index: `4` → 1 cyclic + 1 irregular
@@ -43,7 +43,7 @@ covers, all canonical/multiset-level. Nothing to `CLAIMS.md`.
 SnapPy subgroup/cover enumeration + homology + `is_isometric_to` (with the MB note above);
 banked census asserted as exact integers. `irregular_covers.py` ·
 `tests/test_b349_irregular_covers_galois.py` (importorskip-gated on SnapPy, like the other
-SnapPy locks). Related: **B330** (mechanism), **B347** (cyclic tower; SNF cross-validated here),
+SnapPy locks). Related: **B330** (mechanism), **B350** (cyclic tower; SNF cross-validated here),
 **B348** (self-symmetrization), **B326** (the `n=3` cover), **B323** (commensurator level),
 **OPEN_PROBLEMS.md** gate A. Lit: standard low-index subgroup enumeration; SnapPy census
 methods (Culler–Dunfield–Goerner–Weeks).

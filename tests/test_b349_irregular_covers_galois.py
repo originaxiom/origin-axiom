@@ -1,6 +1,6 @@
 """B349 lock -- gate A extension: irregular covers through index 6.
 
-The cover census per index is a canonical multiset; the cyclic members reproduce B347's
+The cover census per index is a canonical multiset; the cyclic members reproduce B350's
 coker(A^n - I) SNF exactly (independent-route cross-validation); and every within-index
 invariant multiplicity collapses to a single isometry class -- the object never distinguishes
 a member. CONDITIONAL per the C-guardrail (index <= 6 is a computational horizon); nothing to
@@ -23,10 +23,10 @@ def fig8():
     return snappy.Manifold("4_1")
 
 
-def test_cyclic_covers_cross_validate_B347(fig8):
-    for n, (torsion, betti_one, matches) in b349.cyclic_covers_match_B347(fig8, 6).items():
+def test_cyclic_covers_cross_validate_B350(fig8):
+    for n, (torsion, betti_one, matches) in b349.cyclic_covers_match_B350(fig8, 6).items():
         assert betti_one, f"n={n}: cyclic cover betti != 1"
-        assert matches, f"n={n}: SnapPy torsion {torsion} != B347 SNF"
+        assert matches, f"n={n}: SnapPy torsion {torsion} != B350 SNF"
 
 
 def test_cover_census_is_the_banked_canonical_multiset(fig8):

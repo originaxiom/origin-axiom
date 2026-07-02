@@ -36,8 +36,8 @@ figure-eight). Do not read the generic tier as object-specific forcing.
 **Settled.** No, for the **trace ring** (B130: `κ` continuous), the **quantum/WRT** class (B314: Galois-symmetrized;
 B318: for the Eisenstein end this is the *geometric* amphichiral involution `τ`), the **cover-torsion** class (B330,
 via B326's `(ℤ/4)²`: *irreducible* deck action → no distinguished sub-object → no forced choice), **cohomology `H¹`**
-(a canonical integer, B330); and — **newly (B347/B348, 2026-07-01)** — the **cyclic-cover abelian-torsion** class for
-*all* `n` (B347: the orders are the P8/C5 Lucas ladder — canonical integers; the Alexander factor multiset `{Δ(ζₙʲ)}`
+(a canonical integer, B330); and — **newly (B348/B350, 2026-07-01)** — the **cyclic-cover abelian-torsion** class for
+*all* `n` (B350: the orders are the P8/C5 Lucas ladder — canonical integers; the Alexander factor multiset `{Δ(ζₙʲ)}`
 is a Galois-closed orbit with **integer** symmetric functions; the deck action is fixed-point-free *uniformly* since
 `det(A−I)=Δ(1)=−1` is a unit — an **MB8 generic-knot** mechanism, honestly tiered; subsumes B326's `n=3` and settles
 B330's "higher **cyclic** covers" item) and the object's **Bloch/scissors class** (B348: the orbit is `{+β,−β}` =
@@ -45,7 +45,7 @@ B330's "higher **cyclic** covers" item) and the object's **Bloch/scissors class*
 symmetrized, B318's geometric firewall landing in the Bloch group; plus **the seam identity** `1−z₀ = z̄₀`: at the
 Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation); and the
 **irregular-cover** class stress-tested through index 6 (**B349**: the cover census per index is a canonical
-**multiset** — SnapPy enumeration, the cyclic members cross-validating B347's SNF exactly — and **every** within-index
+**multiset** — SnapPy enumeration, the cyclic members cross-validating B350's SNF exactly — and **every** within-index
 invariant multiplicity collapses to a **single isometry class**, so the object never distinguishes a member; index ≤ 6
 is a computational horizon, not a theorem). **Eight classes** now sealed by **one mechanism**: a finite Galois orbit
 is always symmetrizable, so the object hands you the symmetric orbit, never a member. *(C-guardrail: this is `open`,

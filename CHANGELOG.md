@@ -11,7 +11,7 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ### Changed
 - **Gate A extension B349 + the gate-based outreach package (2026-07-01).** **B349 — irregular covers through
   index 6:** all covers of the figure-eight enumerated (SnapPy); the census per index is a canonical **multiset**
-  (banked exact); the cyclic members cross-validate B347's `coker(Aⁿ−I)` SNF **exactly** (independent routes, one
+  (banked exact); the cyclic members cross-validate B350's `coker(Aⁿ−I)` SNF **exactly** (independent routes, one
   answer); and **every** within-index invariant multiplicity (the twin `ℤ/2⊕ℤ²` index-5 covers; the 4×/2×/2×
   index-6 groups) collapses to a **single isometry class** — the object never distinguishes a member (the
   identification lives in the commensurator, cf. B323/B348). Index ≤ 6 honestly flagged as a computational
@@ -21,9 +21,9 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   `ℤ/3` → family replication or trinification-only; D: non-Hermitian Damanik–Gorodetski at complex `κ`), expert
   picks to verify, sequencing/hygiene rules (one gate one expert; log every send; a "known, see X" reply is a
   good outcome). All CONDITIONAL/firewalled; nothing to `CLAIMS.md`.
-- **Gate A extensions B347–B348 (2026-07-01).** Two of B330's named untested invariant classes sealed under the
+- **Gate A extensions B348 + B350 (2026-07-01; B350 originally numbered B347, renumbered after the ID collision with main's B347_e6_tangent_gradings, PR #424).** Two of B330's named untested invariant classes sealed under the
   same Galois-symmetrization mechanism, both in-sandbox, both CONDITIONAL (C-guardrail), nothing promoted.
-  **B347 — the cyclic-cover abelian-torsion class:** the n-fold-cover torsion orders are the **P8/C5 Lucas ladder**
+  **B350 — the cyclic-cover abelian-torsion class:** the n-fold-cover torsion orders are the **P8/C5 Lucas ladder**
   `|det(Aⁿ−I)| = L₂ₙ−2` (one ladder, three faces); the Alexander factor multiset `{Δ(ζₙʲ)}` is a Galois-closed orbit
   with **integer** symmetric functions; SNF gives the groups (n=3 → `(ℤ/4)²`, independently re-deriving B326); and
   the deck action is fixed-point-free for **every** n with the one-line cause `det(A−I)=Δ(1)=−1` a unit — honestly

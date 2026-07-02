@@ -4240,13 +4240,13 @@ promotions**:
 Suite after hardening: green — 1195 passed, 4 skipped, 0 failures (SnapPy installed, so the previously-skipped
 SnapPy-gated cross-checks were exercised). P1–P16 untouched; firewall intact; nothing promoted.
 
-## 2026-07-01 — Gate A extensions: B347 (cyclic-cover torsion) + B348 (Bloch class)
+## 2026-07-01 — Gate A extensions: B350 (cyclic-cover torsion; originally numbered B347, renumbered on merge with main's B347 PR #424) + B348 (Bloch class)
 
 Continuation of the external-audit session: the two in-sandbox gate-A probes queued by the audit were run to
 conclusion. Both extend B330's Galois-symmetrization mechanism to classes it named as untested; both are
 **CONDITIONAL** per the C-guardrail; **zero promotions**.
 
-- **B347 [VERIFIED, exact].** The cyclic-cover **abelian torsion** class: orders = the P8/C5 Lucas ladder
+- **B350 [VERIFIED, exact].** The cyclic-cover **abelian torsion** class: orders = the P8/C5 Lucas ladder
   (`|det(Aⁿ−I)| = L₂ₙ−2`, n≤8); the factor multiset `{Δ(ζₙʲ)}` Galois-closed with integer symmetric functions
   (constant term cross-checked against the resultant); torsion groups by SNF (n=3 = `(ℤ/4)²`, independently
   re-deriving B326); deck action fixed-point-free **uniformly in n** (`det(A−I)=Δ(1)=−1` a unit ⟹
@@ -4270,7 +4270,7 @@ Continuation of the gate-A sweep. **CONDITIONAL** per the C-guardrail; **zero pr
 
 - **B349 [VERIFIED, SnapPy].** All covers of 4₁ through index 6: the census per index is a canonical
   **multiset** (banked exact: index 4 = 1 cyclic + 1 irregular `ℤ²`; index 5 = 1 + 3; index 6 = 1 + 10);
-  the cyclic members' `H₁` torsion equals B347's `coker(Aⁿ−I)` SNF **exactly** (`[5]`, `[4,4]`, `[3,15]`,
+  the cyclic members' `H₁` torsion equals B350's `coker(Aⁿ−I)` SNF **exactly** (`[5]`, `[4,4]`, `[3,15]`,
   `[11,11]`, `[8,40]`) — independent-route cross-validation; **every** within-index invariant multiplicity
   collapses to a **single isometry class** (index 5: the twin `ℤ/2⊕ℤ²` pair, 4 isometries; index 6: the
   4×`ℤ/3⊕ℤ²`, 2×`ℤ/12⊕ℤ`, 2×`ℤ/5⊕ℤ²` groups) — the object never distinguishes a member; the "distinction"

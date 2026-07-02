@@ -1,4 +1,4 @@
-"""B347 / gate A (S032-A) -- the cyclic-cover torsion class is a Galois orbit: no forced choice.
+"""B350 / gate A (S032-A) -- the cyclic-cover torsion class is a Galois orbit: no forced choice.
 
 Extends B330's mechanism to the first of its named untested classes: REIDEMEISTER/ABELIAN
 TORSION OF THE CYCLIC COVERS. The n-fold cyclic cover of the figure-eight complement is the
@@ -126,7 +126,7 @@ def generic_tier_note():
 
 
 if __name__ == "__main__":
-    print("B347 -- the cyclic-cover torsion class as a Galois orbit (gate A extension)\n")
+    print("B350 -- the cyclic-cover torsion class as a Galois orbit (gate A extension)\n")
     print("(i) torsion orders |det(A^n-I)| vs Lucas L_2n - 2 (the P8/C5 ladder):")
     print("   ", torsion_orders())
     print("(ii) factor multisets Galois-closed with integer symmetric functions:")

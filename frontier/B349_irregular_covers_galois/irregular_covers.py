@@ -2,12 +2,12 @@
 isometry-identified multiplicities, no forced choice.
 
 Extends B330's mechanism to another of its named untested classes: invariants of IRREGULAR
-(non-normal, non-cyclic) covers. B347 sealed the cyclic tower; this probe enumerates ALL
+(non-normal, non-cyclic) covers. B350 sealed the cyclic tower; this probe enumerates ALL
 covers of the figure-eight through index 6 (SnapPy subgroup enumeration) and asks the gate-A
 question at each index: does any cover-level invariant hand the object a forced choice?
 
 Verified here (SnapPy 3.3.x; all values banked as exact integers/homology types):
-  (i)   CROSS-VALIDATION: the cyclic covers' H1 torsion from SnapPy equals B347's
+  (i)   CROSS-VALIDATION: the cyclic covers' H1 torsion from SnapPy equals B350's
         coker(A^n - I) Smith normal forms exactly (n = 2..6: [5], [4,4], [3,15], [11,11],
         [8,40]) -- two independent routes (group enumeration vs. monodromy algebra), one answer;
   (ii)  the cover CENSUS per index is a canonical multiset of (type, H1): index 4 = 1 cyclic
@@ -59,8 +59,8 @@ def cover_census(M, k):
     return dict(cnt)
 
 
-def cyclic_covers_match_B347(M, nmax=6):
-    """(i) SnapPy's cyclic-cover H1 torsion == B347's coker(A^n - I) SNF, n = 2..nmax."""
+def cyclic_covers_match_B350(M, nmax=6):
+    """(i) SnapPy's cyclic-cover H1 torsion == B350's coker(A^n - I) SNF, n = 2..nmax."""
     out = {}
     for n in range(2, nmax + 1):
         cyc = [C for C in M.covers(n) if C.cover_info()["type"] == "cyclic"]
@@ -96,7 +96,7 @@ def main():
     import snappy
     M = snappy.Manifold("4_1")
     print("B349 -- irregular covers through index 6 (gate A extension)\n")
-    print("(i) cyclic covers vs B347 SNF:", cyclic_covers_match_B347(M))
+    print("(i) cyclic covers vs B350 SNF:", cyclic_covers_match_B350(M))
     for k in (4, 5, 6):
         census = cover_census(M, k)
         print(f"(ii) index {k} census: {census}  matches banked: {census == EXPECTED_CENSUS[k]}")

@@ -25,7 +25,7 @@ framing is locked to the V4 / Reality-Check line.
 > `phaseA-foundation-freeze`. Later exact-algebra integrations promoted P11-P13
 > and P15-P16. The `P1–P16` core remains locked and untouched; the **full repo
 > suite** (core + the frontier `B`-probe locks) now spans **~1211 test functions across
-> 328 files** as of the B349 frontier (the proven core is unchanged; all growth is
+> 328 files** as of the B350 frontier (the proven core is unchanged; all growth is
 > frontier `B`-probe locks).
 
 **Scope:** lock every `proven` claim (currently P1-P16, with P14 unused) behind
@@ -94,7 +94,7 @@ rep-theory / dimensionless level, the firewall reconfirmed throughout. Since the
 object forces form, not values*, the firewall as a Galois theorem — and the
 **specialist-handoff arc (B315–B325)** mapped the frontier to four gates and confirmed
 the value-firewall empirically (the value-hunt null test). Ledger through `V238`, probes
-`B1–B349`; recent probes in `CHANGELOG.md`; the current frontier in `docs/OPEN_PROBLEMS.md`.
+`B1–B350`; recent probes in `CHANGELOG.md`; the current frontier in `docs/OPEN_PROBLEMS.md`.
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3
