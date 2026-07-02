@@ -4405,5 +4405,35 @@ Locks: `tests/test_b353_geometric_theta_identification.py` (3 tests, ~19 s). Zer
 firewall intact (an involution identification is *form*, K020). Next in the arc: L53 (third-order/Massey), L54
 (adjoint-torsion Galois), L51 (owner outreach send).
 
+## 2026-07-02 — B354: the interface-pairing certificates (cross-session verified layer) + B332 correction + L56
+
+- **Cross-session integration under verify-don't-trust.** A solo scrutiny-seat session delivered the
+  "multiplicity × outer-nothing" interface-pairing computation (handoff + self-certifying reproducer, received and
+  re-run — all four stage gates pass). Verified layer banked as **B354**; the rest tiered honestly.
+- **Lineage correction folded in:** the golden/silver interface relations, the `(1,2)` intersection and its
+  `κ∈{−4,−2}` fork are **B131/V120** (banked June 9; Kitano–Nozaki 2020 prior art, NOVELTY_AUDIT R2) — the
+  cross-session "first column of a table nobody has" framing is corrected; B174 has the same-seed gluing landscape.
+- **New and verified (B354, all exact sympy):** (1) the **strong-channel kill** re-derived by Gröbner —
+  `Fix(T_i)∩Fix(T_j) = {(0,0,0),(2,2,2)}` for `(1,2)` and `(1,3)`, = `Fix(T_a)∩Fix(T_b)` (bulk sharing is
+  family-universal, carries no pair data); (2) the **exact pair-point certificates** — irreducible minpolys
+  (quintic `(1,3)`, cubic `(2,3)` in `T=m²`) whose κ-images reproduce B131's banked numeric forks on all 8 values;
+  (3) the **classical seam-null** — prime odd degrees ⇒ no quadratic subfield ⇒ no `√−15` in the classical pair
+  arithmetic (third channel closed after B336); (4) the **divisibility law** `RᵐLᵐ≡I mod p ⟺ p|m` (exact, one
+  line — the mechanism under the parity texture and the bronze mod-3 scalar); (5) the **parity-texture exact legs**
+  (golden `l=−2` fiber `{1,4}`, silver `{4}` only). CONDITIONAL: bronze pair-specificity (numerical, 900-start
+  null reproduced; exact `A_bronze` elimination open).
+- **B332 FINDINGS annotated (the deck correction, verified):** the generation deck of the 3-fold cyclic cover acts
+  via the **hyperbolic monodromy `A`**, not the elliptic `g` (`det(A−I)=−1` ⇒ cover unwraps the base). B343/TBM
+  unaffected (`A` and `g` share charpoly `x²+x+1` mod 4 — checked); two-level structure: torsion = democratic,
+  fiber = `φ²`-ordered. The algebra `g=−R·L⁻¹` stays true; the "generation-cycling element" reading retracted.
+- **L56 registered:** the quantum-pair program (Weil traces, level-15 overlap fingerprint tables, the flattening
+  no-go, the level-45/phase-table next shots) — spot-checks pass (the claimed `(1,2)`-only quartic: irreducible,
+  4 real roots in `(0,1)`, factors over `ℚ(√5)`, disc `3¹⁴·5⁷`) but **BLOCKED on the Weil reproducer**; nothing
+  from that layer banked.
+
+Locks: `tests/test_b354_interface_pairing_certificates.py` (6 tests, <1 s, exact). Zero promotions; P1–P16
+untouched; firewall intact (forks, certificates and textures are *form*; the pre-registered SM/PMNS construction
+cross-session was killed by its own declared null — the discipline held).
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
