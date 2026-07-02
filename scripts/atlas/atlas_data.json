@@ -7415,6 +7415,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B364": {
+   "slug": "theta polarization",
+   "motifs": [
+    "symplectic",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B363",
+    "L57"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "geometry"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
