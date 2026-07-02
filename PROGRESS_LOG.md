@@ -4575,3 +4575,22 @@ promotions; firewall intact; everything remains lift-sector mathematics pending 
   (1,5)/(4,5) dark. Stated as a law of the computed range, not proved; theta-lift sector pending L57.
 
 Locks: `tests/test_b361_seam_local_law.py` (3, <1 s). Zero promotions; firewall intact.
+
+## 2026-07-02 — B362 + B363: the law at 11 pairs; the seam's lift anatomy — two-sided and class-bound
+
+- **B362 (EXACT): three pre-registered predictions, three hits** — (2,7) BRIGHT (12/17, `s`-set = (1,7)'s),
+  (1,5) DARK, (4,5) DARK. **The local law stands at 11 exact pairs, zero counterexamples:** bright ⇔ the pair
+  contains a doubly-elliptic seed (m ∈ {2,7} among m ≤ 7).
+- **B363 (the L57 opener):** the seam as a function on the lift torus. Verdicts: canonical×canonical dark in
+  **both frames**; **all 225 one-sided Heisenberg twists dark**; **theta×canonical dark in either slot
+  order**. With the exact bright theta×theta side: **the seam is TWO-SIDED — it requires the theta class in
+  BOTH slots** (bilinear in the characteristic — the lift-sector echo of `√−15 = √−3·√5` and of the
+  multiplicity theme). The **Par-lemma** (one line): Par-commuting lifts force real Par-traces ⇒ `s ≡ 0` —
+  non-commutation is *necessary*; the scan shows it is *not sufficient*. The theta lift is not a Heisenberg
+  twist of the canonical lift — it lives over the non-square quadratic-character class (`c = 2⁻¹ ≡ 8 mod 15`).
+- **L57, restated sharply:** does the two-seed pairing geometry force the theta class on both slots
+  simultaneously? (A theta structure on the *gluing* torus would decorate both boundary restrictions at once —
+  the encouraging shape.) Analytic step, not a scan; now the program's sharpest open question.
+
+Locks: `tests/test_b362_seam_law_confirmations.py` + `tests/test_b363_seam_lift_anatomy.py` (6 always-on,
+<1 s). Zero promotions; firewall intact.

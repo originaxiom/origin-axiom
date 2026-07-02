@@ -7379,6 +7379,42 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B362": {
+   "slug": "seam law confirmations",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B360",
+    "B361",
+    "L57"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "meta"
+  },
+  "B363": {
+   "slug": "seam lift anatomy",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B359",
+    "B361",
+    "B362",
+    "L57"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
