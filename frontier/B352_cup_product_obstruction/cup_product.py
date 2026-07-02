@@ -516,32 +516,56 @@ def control_coboundary(seed=5):
     return obstruction_class(za / nrm, zb / nrm)
 
 
-def run_all():
+def control_pairing_not_vacuous(seed=7):
+    """Positive control: the H^2 functionals pair O(1) with random vectors, so a
+    vanishing class is information, not a degenerate pairing (MB12 guard)."""
+    _guard()
+    import random
+    rnd = random.Random(seed)
+    out = {}
+    for m in EXPONENTS:
+        u = h2_functional(m)
+        n = N_OF[m]
+        v = mp.matrix([rnd.uniform(-1, 1) for _ in range(n)])
+        out[m] = float(abs(sum(mp.conj(u[k]) * v[k] for k in range(n))) / mp.norm(v))
+    return out
+
+
+def run_all(full=True):
     r = {}
     worst_rel, worst_auto = rep_checks()
     r["relator_residual"] = float(worst_rel)
     r["automorphism_residual"] = float(worst_auto)
-    z = {m: h1_line(m) for m in (1, 4, 8)}
+    r["control_pairing"] = control_pairing_not_vacuous()
+    exps = EXPONENTS if full else [1, 4]
+    z = {m: h1_line(m) for m in exps}
     r["control_m1"] = obstruction_class(*z[1])
     r["control_coboundary"] = control_coboundary()
-    r["obstruction_m4"] = obstruction_class(*z[4])
-    r["obstruction_m8"] = obstruction_class(*z[8])
-    za = z[4][0] + z[8][0]
-    zb = z[4][1] + z[8][1]
-    nrm = mp.sqrt(mp.norm(za) ** 2 + mp.norm(zb) ** 2)
-    r["obstruction_m4_plus_m8"] = obstruction_class(za / nrm, zb / nrm)
+    for m in exps:
+        if m == 1:
+            continue
+        r[f"obstruction_m{m}"] = obstruction_class(*z[m])
+    if 4 in exps and 8 in exps:
+        za = z[4][0] + z[8][0]
+        zb = z[4][1] + z[8][1]
+        nrm = mp.sqrt(mp.norm(za) ** 2 + mp.norm(zb) ** 2)
+        r["obstruction_m4_plus_m8"] = obstruction_class(za / nrm, zb / nrm)
     return r
 
 
 if __name__ == "__main__":
-    r = run_all()
-    print("B352 -- the {4,8} cup-product obstruction (chain coordinates, mp dps %d)\n" % _DPS)
+    import time
+    t0 = time.time()
+    r = run_all(full=True)
+    print("B352 -- the cup-product obstruction, all six exponent directions (mp dps %d)\n" % _DPS)
     print(f"rep checks: relator residual {r['relator_residual']:.2e}, "
-          f"automorphism residual {r['automorphism_residual']:.2e}\n")
-    for key in ("control_m1", "control_coboundary", "obstruction_m4",
-                "obstruction_m8", "obstruction_m4_plus_m8"):
+          f"automorphism residual {r['automorphism_residual']:.2e}")
+    print(f"pairing positive control (must be O(1)): "
+          f"{ {m: f'{v:.2f}' for m, v in r['control_pairing'].items()} }\n")
+    for key in sorted(k for k in r if k.startswith(("control_m", "control_cob", "obstruction"))):
         comps, diag = r[key]
         pretty = {m: f"{v:.3e}" for m, v in comps.items()}
         print(f"{key}:")
         print(f"    components {pretty}")
         print(f"    diagnostics {[f'{k}={v:.2e}' for k, v in diag.items()]}")
+    print(f"\nelapsed: {time.time() - t0:.0f} s")
