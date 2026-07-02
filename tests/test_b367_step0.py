@@ -98,3 +98,17 @@ def test_regenerate_smallest_pair_matches_banked():
     _, p3 = matrix_order(build_theta_W(3))
     fresh = pair_smatrix(p2, p3)
     assert fresh == TABLES[(2, 3)]
+
+
+def test_v3_verdict_outcome_B():
+    """The pre-registered model fails on the true data; the graded diagnosis is stable."""
+    import sys
+    sys.path.insert(0, HERE)
+    from v3_search import load_tables, records, solve_model
+    tables = load_tables()
+    train = [(1, 2), (2, 3), (2, 4), (3, 4)]
+    assert solve_model(records(tables, train)) is None          # outcome B
+    assert solve_model(records(tables, [(2, 4)])) is not None   # rank-1 pair factors
+    assert solve_model(records(tables, [(2, 3)])) is not None
+    assert solve_model(records(tables, [(1, 2)])) is None       # rank-4 pair fails
+    assert solve_model(records(tables, [(3, 4)])) is None       # the law-breaker fails

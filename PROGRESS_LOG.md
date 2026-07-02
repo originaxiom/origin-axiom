@@ -4711,3 +4711,18 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   merged diffs (which were additive). Reads as load/ordering sensitivity (SnapPy retriangulation randomness
   / sympy cache pressure), not mathematics. Tracked as a hygiene item; targeted verification (both flaked
   tests + all diff-adjacent locks: 21 passed) gates the current merge.
+
+## 2026-07-03 — B367 (W2.3) COMPLETE: the V3 verdict is outcome (B) — the value map is not CRT-local
+
+- The pre-registered model (`s = X3[3-local] · X5[5-local] · X4[4-part]`, exact multiplicative tensor
+  completion) **fails on the true data; 0/200 matched random tables pass** (the test has teeth). Diagnosis,
+  exact and graded: (2,4) and (2,3) factor individually; **(1,2) (rank 4) and (3,4) (the law-breaker) do
+  not**; every two-pair joint is inconsistent (even (2,3)+(2,4), sharing seed 2). Ranks: 4, 2, 1, 2 —
+  rank alone does not decide factorability.
+- **Probe conclusion: neither the support (the refuted law) nor the values (V3) factor through
+  (m mod 3, m mod 5, CRT labels)** — the seam form is an eigenbasis-geometry invariant in a strong sense.
+  Per the pre-registration the lead closes at this complexity (open at higher complexity, not
+  "impossible"); the exact six-pair table is the banked exhibit. Any finer-input model (fixed-point form
+  discs; Galois-cocycle data) requires a NEW pre-registration before computing.
+- Locks: +1 (the V3 verdict + graded diagnosis). W2.3 CLOSED; queue advances (B368 corrected scope, W2.9
+  concatenation-kill, W2.5).
