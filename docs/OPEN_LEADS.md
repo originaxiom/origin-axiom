@@ -150,6 +150,18 @@ more rushing. Cleanly parked here for the paper / specialist phase, each with wh
 *(The firewalled physics-adjacent HELD items — Kodama `k=3`, the framework crossings — are not "specialist
 math" but firewall-closed; see `../speculations/S041`. They are not on this register.)*
 
+## The continuation plan (2026-07-02, post-B352 — the standing queue)
+
+Registered so the thread is not lost between sessions. Ordered by leverage; each row says what unblocks it.
+
+| lead | the task | state / first step |
+|---|---|---|
+| **L51 — send the gate B/C/D outreach** | The three bounded specialist briefs in `../frontier/EXPERT_OUTREACH.md` (the 2026-07 gate-based section). **B352 materially strengthens the gate-B pitch**: a specialist is now handed a *computed* 6-dim second-order-smooth local moduli plus the exact Jacobi-verified 𝔢₆ (B351), not a conjecture. | **Owner action** (send under own name; verify addresses first). One gate, one expert, one question; log every send/reply in `PROGRESS_LOG.md`. Deliberately sequenced *after* the audit branch merges. |
+| **L52 — the geometric θ-identification** | B347's last open item, half-settled by B351 (the `(−1)^{m+1}` grading *is* the θ-grading — algebra level, exact). Remaining: does the manifold's hyperelliptic involution *induce* θ on the E₆ character variety — the H¹-level intertwining, not just the sign pattern? | **In-sandbox, ~one probe.** The B352 machinery already has the exact θ (B351) and computes involution actions on the H¹ lines (B347); the missing step is conjugating the two actions through the module identification and checking they agree as automorphisms. |
+| **L53 — third-order obstruction (beyond the quadratic cone)** | B352 killed the 2nd-order obstruction in all six directions. All-orders integrability (true local smoothness — the Menal-Ferrer–Porti analogue at E₆) is open; no Goldman–Millson formality is available for knot groups. | **In-sandbox, harder.** Solve `z₂` explicitly from the `t²` data (a Fox solve the B352 machinery already supports), extend the relator expansion to `t³`, evaluate the Massey-type bracket. Vanishing hardens the smoothness conjecture; non-vanishing would be a genuinely new wall — either outcome banks. |
+| **L54 — gate A residual classes** | Eight classes sealed (B330/B348/B349/B350). Named residual: nonabelian Ptolemy/adjoint torsion; CS/η beyond `CS=0`; irregular covers beyond index 6; `SL(n≥3)` gluing-variety invariants; extended-Bloch/`K₃` torsion. | **In-sandbox, diminishing returns** — the cheap members are done. Most tractable next: the adjoint-torsion Galois behavior at the geometric rep (B98/B99's `τ₁=−3` is rational; extend to the full torsion-polynomial Galois orbit). |
+| **L55 — post-merge hygiene** | After the audit branch lands on main: regenerate the atlas (`scripts/atlas/render.py`), confirm a fresh-clone suite is green on main (the reproducibility promise — including running the `OA_SLOW=1` B352 sweep once, per its FINDINGS reproducer), and note the ID counter (next free: **B353**). | **Mechanical**, first session after merge. |
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
