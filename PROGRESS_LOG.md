@@ -4560,3 +4560,18 @@ promotions; firewall intact.
 
 Locks: `tests/test_b360_seam_selection_rule.py` (3 always-on <1 s; regeneration under `OA_SLOW=1`). Zero
 promotions; firewall intact; everything remains lift-sector mathematics pending L57.
+
+## 2026-07-02 — B361: the seam's local law — the discriminator decides H-loc
+
+- **(1,7): BRIGHT** (20/31, `s ∈ {±1/48, ±1/96}`) ⇒ H-min (literal contains-2) **refuted**; **(3,7): BRIGHT**
+  with the **value-echo** — its `s`-set is *identical* to (2,3)'s (`{±1/144, ±1/288}`).
+- **The law (8 pairs, exact, zero counterexamples): the Par-inserted pair invariant carries `√−15` iff the
+  pair contains a seed elliptic at both primes** (char poly irreducible mod 3 and mod 5; m = 2, 7 qualify;
+  m = 1, 4 are 5-parabolic, m = 3 is 3-trivial, m = 5 is 5-trivial). The shape is exactly natural for
+  `√−15 = √−3·√5` — one seed carrying both primes' quadratic data — **and the single-seed controls stay
+  exactly clean: the key needs the lock; multiplicity remains essential.**
+- The value-map (pair ↦ s-set) is finer than partner-only ((1,7) ≠ (1,2) sets but (3,7) = (2,3)) — real
+  structure registered for the post-L57 pass. Next cheap discriminators pre-registered: (2,7) bright,
+  (1,5)/(4,5) dark. Stated as a law of the computed range, not proved; theta-lift sector pending L57.
+
+Locks: `tests/test_b361_seam_local_law.py` (3, <1 s). Zero promotions; firewall intact.

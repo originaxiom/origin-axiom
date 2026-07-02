@@ -7357,6 +7357,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B361": {
+   "slug": "seam local law",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B359",
+    "B360",
+    "K020",
+    "L57"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B36": {
    "slug": "fibonacci renormalization route",
    "motifs": [
