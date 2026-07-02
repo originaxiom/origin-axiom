@@ -4619,3 +4619,19 @@ cover-tower pairing (`tr(A₁³)=18` ⇒ the golden 3-fold cover IS the m=4 seed
 question made computable); W2.5 dynamics (L53 + depth-2 Gram); W2.6 the cyclic-dilog bridge (seam data →
 Kashaev `q=ζ₁₅` partition-function shadow — the values-meet-dynamics candidate); W2.7 sweepers; W2.8 the owner
 outreach + a firewalled gravity reconnaissance. All two-outcome; everything on probation pending L57.
+
+## 2026-07-03 — B365 (W2.1): S-closure fails for both (the metaplectic doubling); the vanishing signature discriminates
+
+- **My pre-registered closure prediction was REFUTED by its own test** (both families' S-projection residuals
+  ≈ 0.63): the corrected Poisson algebra shows the half-shift `(−1)^m` twist — **at odd level the S-transform
+  forces the level-30 metaplectic doubling for BOTH polarizations**; the two 15-dim lifts are graded slices of
+  the level-30 theta space. Selection does not happen at the S-closure level. (The campaign's second
+  self-refuted prediction; both redirected the question productively.)
+- **The surviving discriminator — the half-period vanishing signature:** the **triangular** family vanishes at
+  **exactly one** half-period (`z = 1/2`, one basis function, exact at `3.3e-21`) and nowhere else; the
+  **square** family vanishes at **all four** half-periods. Single-distinguished-point = the odd-theta
+  signature — and the once-punctured fiber has exactly one marked point. **W2.2 sharpened to a concrete
+  identification: the puncture's position in the fiber quantization ↔ the `z = 1/2` point of the triangular
+  polarization.** The seam arc remains on probation pending that argument.
+
+Locks: `tests/test_b365_polarization_signature.py` (2, <1 s). Zero promotions; firewall intact.
