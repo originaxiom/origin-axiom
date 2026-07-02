@@ -4822,3 +4822,13 @@ attaches at promotion) was designed expecting promotions to fire; they never did
 - **The 6-dim local moduli's integrability evidence reaches order 3, escape sector included.**
   Honest tier: computer-assisted; order 4+ untested; leg B (depth-2 boundary Gram) runs next.
 - Locks: `tests/test_b370_massey.py` (4, from the banked JSON). Pre-registration honored end-to-end.
+
+## 2026-07-03 — B370 leg B: two gate-blocked runs, bug localized (no verdicts read)
+
+- The pre-registered first-order τ-gate stopped both leg-B executions (τ spread 3e+04 vs the banked
+  uniform −2√3·i) — the depth-2 readouts were never interpreted. Isolation test localizes the bug to
+  the root→TG bridge: B352's chain basis relates to TG's symrep basis by the **antidiagonal
+  intertwiners** (`_intertwiner(m)`), not a diagonal rescale. Fix identified (compose the bridge with
+  the intertwiner); the m=1 τ-gate is the acceptance test. δ = φ_λ − τ·φ_µ stays the right invariant.
+- Method note: the gate design paid for itself twice — two O(1) "defect matrices" were produced and
+  correctly discarded as convention artifacts before any interpretation.

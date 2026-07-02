@@ -50,6 +50,20 @@ untested; the m=1 control calibrates but does not certify the floors; the gauge 
 (minimal-norm) is quotiented out by the indeterminacy span per the pre-registration. Leg B (the
 depth-2 boundary Gram, three declared readouts) runs next on the solved `z₂`'s.
 
+## Leg B status (in progress; gate-blocked, diagnosis recorded — NO verdicts read)
+
+Two executions of `massey_legB.py` (the τ-defect matrix) were stopped by the pre-registered
+first-order gate: the universal-τ identity did not reproduce (spread 3e+04 across directions vs
+the banked uniform −2√3·i), so the depth-2 readouts were never interpreted — the gate did exactly
+its job, twice. The isolation test (this session, recorded in the log) localizes the bug: the
+root→TG-block bridge in `chain_block_TG` treats B352's chain basis as a rescaled copy of
+B347/TG's symrep basis, but the two are related by B352's **antidiagonal intertwiners**
+(`_intertwiner(m)` — built for precisely this reason). Fix identified: compose the bridge with
+the intertwiner, re-run the m=1 τ-gate (must give −2√3·i uniformly), then the full matrix. The
+τ-defect δ(m→m′) = φ_λ − τ·φ_µ remains the right invariant (its indeterminacy-invariance follows
+from the universal-τ). Until the gate passes, leg B asserts nothing.
+
 **Provenance.** B352 (machinery, second order), B347 (the tangent classes), B357 (boundary
 conventions awaiting leg B), PREREGISTRATION.md (PR #447). Reproducer: `massey.py` (~2.9 h);
-locks: `tests/test_b370_massey.py` (from the banked JSON + gates).
+locks: `tests/test_b370_massey.py` (from the banked JSON + gates). Leg B work-in-progress:
+`massey_legB.py` (τ-gated; see status above).
