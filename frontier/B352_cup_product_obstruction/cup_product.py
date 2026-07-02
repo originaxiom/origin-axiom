@@ -343,10 +343,16 @@ def h1_line(m):
     d1, d0 = FOX[m]
     n = N_OF[m]
     U, sv, Vh = _svd(d1)
-    smax = max(sv[i] for i in range(len(sv)))
-    kern = [mp.matrix([mp.conj(Vh[i, j]) for j in range(2 * n)])
-            for i in range(2 * n)
-            if (sv[i] if i < len(sv) else mp.mpf(0)) < smax * mp.mpf(10) ** -30]
+    # STRUCTURAL rank: rank d^1_m = n - 1 (block coker is 1-dim), so the kernel is
+    # the n+1 smallest right-singular directions. A fixed relative cut fails here:
+    # the genuine singular values themselves span ~25 orders of magnitude (the
+    # e^{+-2m mu} block range), then fall off a >60-order cliff to the true null.
+    # Assert the cliff instead of guessing a threshold.
+    order = sorted(range(len(sv)), key=lambda i: abs(sv[i]))
+    cliff = abs(sv[order[0]]) / abs(sv[order[1]])
+    assert cliff < mp.mpf(10) ** -20, (m, "no rank cliff", cliff)
+    null_idx = set(order[:1]) | set(range(len(sv), 2 * n))
+    kern = [mp.matrix([mp.conj(Vh[i, j]) for j in range(2 * n)]) for i in null_idx]
     assert len(kern) == n + 1, (m, len(kern), n + 1)
     # subtract the im d^0 component (Gram-Schmidt against an orthonormalized image)
     cols = [mp.matrix([d0[i, j] for i in range(2 * n)]) for j in range(n)]
@@ -387,12 +393,12 @@ def h2_functional(m):
     d1, _ = FOX[m]
     n = N_OF[m]
     U, sv, Vh = _svd(d1.transpose_conj())
-    smax = max(sv[i] for i in range(len(sv)))
-    null = [mp.matrix([mp.conj(Vh[i, j]) for j in range(n)])
-            for i in range(n)
-            if (sv[i] if i < len(sv) else mp.mpf(0)) < smax * mp.mpf(10) ** -30]
-    assert len(null) == 1, (m, len(null))
-    u = null[0]
+    # structural rank + cliff assertion (see h1_line): coker d^1_m is exactly 1-dim
+    order = sorted(range(len(sv)), key=lambda i: abs(sv[i]))
+    cliff = abs(sv[order[0]]) / abs(sv[order[1]])
+    assert cliff < mp.mpf(10) ** -20, (m, "no rank cliff", cliff)
+    i0 = order[0]
+    u = mp.matrix([mp.conj(Vh[i0, j]) for j in range(n)])
     return u / mp.norm(u)
 
 
