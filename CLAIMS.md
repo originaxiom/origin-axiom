@@ -30,6 +30,13 @@ work B13–B47 otherwise remains frontier only.
 > This pointer exists so a reader is not misled into thinking the rich frontier is *absent* — it is
 > deliberately *not here*, by the firewall.
 
+**2026-07-03 — the promotion-audit lane instituted (GOVERNANCE §5.1/§11).** The zero-promotions
+posture above was Phase-B *practice*, not law. The §5 gates now run on a cadence (the decadal
+review, `docs/progress/REVIEWS.md`) and a dedicated **promotion audit** is registered
+(`docs/OPEN_LEADS.md`) to sweep B69–B370 for entries that meet the bars — mathematics is eligible
+on its own terms; the framing lock is untouched. Entries land only through the gates, each logged.
+A **Certified data** section (`E`-ids) is added below for exact computational exhibits.
+
 ---
 
 ## Proven — exact, checkable, safe to build on
@@ -82,6 +89,16 @@ independent + 1 via-discriminant).
 | C3 | Trace 3 is the unique torsion-free hyperbolic trace. | Holds only within once-punctured torus bundles with `SL(2,ℤ)` monodromy. |
 | C4 | The `(disc 5)(disc −3)` state-integral factorization is unique to the figure-eight. | Verified for 11 census manifolds only — a census check, not a proof. |
 | C5 | The primitive projective tangent return selects the `A` sector `t²−3t+1`, hence `I=1/4` and dimensionless `lambda/h=1`. | Depends on **T1**: the primitive projective tangent return inherits the original arithmetic persistence filters. Formalized in `docs/TRACE_SELECTOR_THEOREM.md`; locked as frontier evidence by B38-B47; the post-T1 algebra (`mu=4I+2`, T1-filters ⟹ `mu=3` ⟹ `I=1/4` ⟹ `lambda/h=1`, the Lucas-hierarchy control, and its identity with the P8 torsion ladder) is test-locked by `tests/test_trace_selector_c5.py` ✓ (2026-07-01 audit — C5 was previously the one ledger entry with no executable evidence). Stays `conditional`; T1 is motivated, not derived. |
+
+---
+
+## Certified data — exact computational exhibits (reproducible, test-locked; data, not statements)
+
+*(Instituted 2026-07-03, GOVERNANCE §5.1. Seeded by the promotion audit; entries land only through
+the gates. `E`-ids.)*
+
+| ID | Exhibit | Evidence |
+|---|---|---|
 
 ---
 

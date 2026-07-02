@@ -1,7 +1,7 @@
 # Origin Axiom — Governance (Phase 0)
 
 **Status:** Phase 0 — locked. Amendments require a logged entry in `PROGRESS_LOG.md`.
-**Last updated:** 2026-06-23
+**Last updated:** 2026-07-03
 
 This file is the **constitution** of the consolidated Origin Axiom repository. It exists for
 one reason: the project has a documented history of generating a small, genuine mathematical
@@ -96,6 +96,25 @@ Status changes are **gated** and must be logged in `PROGRESS_LOG.md`:
 
 Nothing moves out of `frontier/` into the proven core without passing the
 `conditional → proven` gate.
+
+### 5.1 The mathematics lane and the promotion audit (2026-07-03)
+
+The gates above apply to mathematical claims **on their own terms**: a statement whose proof is
+exact (or computer-assisted-exact with a certificate), locked by a test, and scrutinized per §6
+is eligible for the ledger regardless of any physics reading — the framing lock (§2) governs
+*interpretation*, never *eligibility*. Phase B's long-standing zero-promotions posture was
+practice, not law, and it left the ledger unrepresentative of the project's actual load-bearing
+results (rationale logged in `PROGRESS_LOG.md`, 2026-07-03). Two additions, both additive:
+
+- **Certified data.** `CLAIMS.md` gains a *Certified data* section (`E`-ids) for exact
+  computational exhibits — tables, aggregates — that are reproducible and test-locked but are
+  data, not statements. The §4 three-part backing (code + test + document) applies unchanged.
+- **The promotion audit.** A periodic dedicated pass sweeps `frontier/` FINDINGS for entries
+  meeting the §5 bars and processes candidates through the existing gates — never by fiat,
+  every promotion logged. The metric the project celebrates is **not** "zero promotions" but
+  **"promotions with zero unmarked retractions"**: the ledger must represent what the project
+  actually knows, at the strength it actually knows it. Refutations already bank decisively;
+  positives must be able to graduate on the same evidentiary standard.
 
 ---
 
@@ -194,6 +213,22 @@ Recurring wording corrections. The left column is **forbidden**; use the right.
 - **Freezes** — stable states are git-tagged (see `REPRODUCIBILITY.md`).
 - **`legacy/`** — frozen prior history. Never edited, never a source of claims.
 - **`docs/ARCHIVE.md`** — the register of dead ideas and why they died.
+
+---
+
+## 11. Automated gates and the decadal review (2026-07-03)
+
+- **Gates.** `scripts/gates/gates.py` implements fast, deterministic checks of the invariants
+  in this file: the framing lock (§2/§8 banned phrasings), claims-ledger integrity (§3/§4 —
+  labels, evidence files exist), the one-way firewall (no speculative room cited as claim
+  evidence), append-only `PROGRESS_LOG.md` (§9), atlas freshness (the recurrence atlas
+  regenerates with the frontier), attribution hygiene, and the forbidden-artifacts list.
+  `tests/test_repo_gates.py` runs them with the suite, so **every merge enforces them**.
+  Whitelists are frozen constants in the gate file — auditable, versioned amendments only.
+- **The decadal review.** Every ~10 merges on `main`, a whole-repo review fires (ledger and
+  protocol: `docs/progress/REVIEWS.md`); the gates surface DUE status automatically. The
+  review includes the §5.1 promotion-candidacy sweep — this is where "verification attaches
+  at promotion" (§6.2) fires on a cadence instead of never.
 
 ---
 
