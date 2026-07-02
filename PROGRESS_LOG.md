@@ -4726,3 +4726,16 @@ Locks: `tests/test_b366_s_transformation.py` (3, <1 s). W2.2 RESOLVED; next: W2.
   discs; Galois-cocycle data) requires a NEW pre-registration before computing.
 - Locks: +1 (the V3 verdict + graded diagnosis). W2.3 CLOSED; queue advances (B368 corrected scope, W2.9
   concatenation-kill, W2.5).
+
+## 2026-07-03 — B369 (W2.9) DONE: concatenation kills the seam (prediction hit) + the rotation-Galois identity
+
+- **The registered prediction HIT, 6/6**: every two-block word `R^{m₁}L^{m₁}R^{m₂}L^{m₂}` tested
+  ((1,2),(2,1),(1,3),(2,3),(3,4),(1,4)) is **seam-null** — zero √−3/√−15 in every eigenprojector readout,
+  exactly. Sharpest instance: the (3,4) word is clean while the (3,4) PAIR is bright at Σs² = 1/192. **The
+  seam lives in the unglued pair relation; gluing the same blocks into one monodromy kills it.** The
+  single-object wall extends to these first non-seed single objects (word orders 4,4,20,20,4,10).
+- **One design-error gate, diagnosed into a finding**: the naive rotated-word multiset gate failed because
+  it tested a non-invariant (the readout is (lift,Par)-sector data; Par-conjugation = the X¹Z² Heisenberg
+  twist). The exact structure: **rotation acts by the √5-Galois involution, exponent-wise:
+  r₍₂,₁₎(a) = σ(r₍₁,₂₎(a))**. Same manifold, lift moved by Heisenberg, arithmetic moved by Galois.
+- Locks: `tests/test_b369_concat_kill.py` (4, exact, <1 s). The June word-trace lead fully resolved.
