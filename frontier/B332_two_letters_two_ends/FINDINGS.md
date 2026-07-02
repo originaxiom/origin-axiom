@@ -5,6 +5,15 @@
 inverted interpretation and two dead hooks. This probe banks the **verified** identity with the **corrected**
 interpretation, and explicitly quarantines what did not check out.
 
+> **CORRECTION (2026-07-02, cross-session, verified in-repo — B354 provenance).** The framing below of `g` as "the
+> generation ℤ/3" is **wrong at the deck level**: the generation deck of the 3-fold cyclic cover acts via the
+> **hyperbolic monodromy `A`** (trace 3), not the elliptic `g`. Proof: `det(A−I) = −1` ⇒ `coker(A−I) = 0` ⇒
+> `H₁(4₁) = ℤ` is the base direction ⇒ the cyclic cover unwraps the *base* ⇒ deck = `A`. **B343/exact-TBM is
+> unaffected** (deck-choice-blind at torsion: `A mod 4` and `g mod 4` share the charpoly `x²+x+1` — verified), but at
+> the fiber (char-0) level `A` is hyperbolic (the `φ^{±2}` *ordering* direction) where `g` is elliptic (democratic) —
+> the two-level structure: **torsion = democratic (TBM), fiber = ordered**. The *algebra* `g = −R·L⁻¹` below stays
+> true; only the "generation-cycling element" reading of `g` is retracted.
+
 ## The verified identity (the real find)
 The substitution `σ` builds two letters `R = [[1,1],[0,1]]`, `L = [[1,0],[1,1]]` (generators of `SL(2,ℤ)`). Exactly:
 - **`g = −R·L⁻¹`** — the commensurator's order-3 element `g = [[0,−1],[1,−1]]` (the generation ℤ/3, B324/B326) **is the
