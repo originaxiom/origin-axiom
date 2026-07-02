@@ -4329,5 +4329,30 @@ and fixed:
 
 Zero promotions; no mathematical content changed — certificates only.
 
+## 2026-07-02 — B351: the exact Chevalley 𝔢₆ (the cup-product program unblocked)
+
+Seat note: the owner paused the peer session ("CC"); this session is now the main seat. The peer's
+in-progress item — the `{4,8}`-integrability cup product, stalled at "signed structure constants failed
+Jacobi" — is therefore picked up here. Part 1 banked as **B351** (`frontier/B351_exact_e6_chevalley/`):
+
+- **The blocker removed, exactly.** Frenkel–Kac asymmetry cocycle on the E₆ root lattice; the full Jacobi
+  identity verified on **all 76,076 basis triples over the integers: 0 violations**. The trap that killed
+  the earlier attempt is isolated and documented at the fix site: with `[e_α,e_{−α}] = +h_α` exactly 1440
+  mixed triples `(e_α,e_{−α},e_β)`, `(α,β)=−1`, violate Jacobi by `2e_β`; the Cartan-return sign is forced
+  to `−h_α` by the cocycle convention (hand-derivation in the module).
+- **The principal sl₂ and the exponents, exact:** `c = 2A⁻¹𝟙 = (16,22,30,42,30,16)`; `[h,e]=2e`,
+  `[h,f]=−2f`, `[e,f]=h`; `dim ker(ad e) = 6` with ad-h weights `{2,8,10,14,16,22}` — the B347 framing
+  `𝔢₆ = ⊕ Sym^{2m}` now exact.
+- **θ built and verified:** automorphism on all pairs, involution, fixed = **52 = 𝔣₄**, minus = **26**;
+  commutes with the principal sl₂; acts on the six exponent lines by **exactly `(−1)^{m+1}`** (+1 on
+  `{1,5,7,11}`, −1 on `{4,8}`). This settles B347's flagged question at the algebra level: the
+  hyperelliptic `(−1)^{m+1}` grading *is* the θ-grading `𝔢₆ = 𝔣₄ ⊕ 26`. The geometric identification
+  (that the manifold's involution induces θ on the character variety) remains open — part 2 territory.
+- **Next (part 2):** map B347's numeric `H¹` cocycles (`m ∈ {4,8}`) into this exact basis and evaluate
+  `[z ∪ z] ∈ H²(4₁,𝔢₆)` against the four F₄ blocks (B265/B270).
+
+Lock: `tests/test_b351_exact_e6_chevalley.py` (7 tests; pure ints/Fractions, 0.2 s). Zero promotions;
+P1–P16 untouched; firewall intact.
+
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->

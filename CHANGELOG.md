@@ -9,6 +9,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **B351 — the exact Chevalley 𝔢₆ (2026-07-02; part 1 of the `{4,8}`-integrability program).** The cross-session
+  cup-product push had stalled at "signed structure constants failed Jacobi." Removed with the standard guaranteed
+  construction, verified **exactly over the integers**: Frenkel–Kac cocycle brackets with **0 Jacobi violations on
+  all 76,076 basis triples** (and the trap isolated: `[e_α,e_{−α}] = −h_α` is *forced* — the `+h_α` convention fails
+  exactly 1440 mixed triples by `2e_β`); the principal sl₂ (`c = 2A⁻¹𝟙 = (16,22,30,42,30,16)`) exact; the exponent
+  decomposition `𝔢₆ = ⊕ Sym^{2m}`, `m ∈ {1,4,5,7,8,11}` exact; the diagram involution θ built and verified
+  (automorphism, involution, `𝔣₄ = 52` fixed ⊕ `26`), commuting with the principal sl₂ and acting on the six
+  exponent lines by **exactly `(−1)^{m+1}`** — settling B347's flagged sign-pattern question at the algebra level
+  (the geometric identification stays open). Sets up part 2: the B265/B270 cup-product obstruction against the F₄
+  blocks in this exact basis. Firewalled; nothing to `CLAIMS.md`.
 - **Suite hygiene — the global-dps test-order failure class fixed, MB13 §4 (2026-07-02).** All 6 B347-E₆ locks
   failed in full-suite order (passed in isolation): B302 lowers the **global** `mp.mp.dps` to 25 at call time and
   runs first alphabetically. B347 now self-guards every entry point (the pre-existing B264/B265/B276 idiom, now a
