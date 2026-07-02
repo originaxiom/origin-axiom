@@ -175,7 +175,7 @@ stage — the `2T↪E₆` fork was found already banked as B329); zero promotion
 | wave item | channel | state |
 |---|---|---|
 | W1.1 — the Weil layer, independently | quantum pair (L56) | **DONE (B355)**: conventions earned, cross-session layer verified, **phase null FIRED** (605/605 triples real — the level-15 phase aperture is empty) |
-| W1.2 — σ-stability quick pair | the H103/H104 register (post-B329) | queued: det-lemma note + the finite-subgroup chirality scan `{2T,2O,2I,A₄,S₄,A₅}` |
+| W1.2 — σ-stability quick pair | the H103/H104 register (post-B329) | **DONE (B356)**: det-lemma exact (FS=−1 ⇔ SL(2)-admissible — SL(2)-routes force quaternionic 2s); mod-3 blindness; **the chirality window is exactly the Eisenstein ω** (complex candidates only for A₄ 1028/1089 and 2T 70262/71192; S₄/2O/A₅/2I closed by the reality theorem). H103 (wave 2) = the sharply-scoped finite realization question |
 | W1.3 — the E₆ boundary restriction | `T[4₁;E₆]` classical structure | queued: `rank(r)`, the Lagrangianity certificate (forced by half-lives-half-dies — an integrity certificate + first exceptional-type instance), the NZ-type Gram, θ-blocks; sl₂ control first |
 | W1.4 — the level-45 tables | quantum pair, the remaining aperture | queued, **serialized after W1.1's gate** (passed): `ℚ(ζ₉)⁺` is a real cubic — the first level where real entries could mix the ends; null pre-registered |
 | wave 2 | L53 Massey · γ-table (MB7/MB8, even-degree discriminator) · H103 full classification · H105 + L38 sweepers · D8 skein/A-ideal pairing (L25 prior-art gate first) · complex-κ numerics (B163-3b/B186/B192 fences) · coupled state integral (contour convention per the atlas node) | sequenced by wave-1 findings |

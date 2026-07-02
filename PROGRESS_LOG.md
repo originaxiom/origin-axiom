@@ -4461,3 +4461,26 @@ intact (fingerprints and nulls are *form*; recognitions are numerical-tier, hone
 
 <!-- New entries go ABOVE this line, newest first is also acceptable — pick one order and keep it.
      This log uses oldest-first. -->
+
+## 2026-07-02 — B356 (W1.2): the σ-stability quick pair — the chirality window is exactly the Eisenstein ω
+
+- **The det-lemma (exact, all binaries):** the det-character of a 2-dim irrep is trivial **iff** it is
+  quaternionic (FS = −1) — verified across 2T/2O/2I/S₄ from concretely-built groups with derived, exactly-gated
+  character tables. Every `SL(2,ℂ)`-factoring route forces the quaternionic 2: B327's "complex 2′/2″ escape" is
+  closed at the determinant level. **Mod-3 blindness:** `ω^k−1` divisible by `(1−ω)` ⇒ the mod-`√−3` route
+  cannot see the twist.
+- **H104 RUN — the chirality scan** over `{A₄,S₄,2T,2O,A₅,2I}` (all faithful 27-dim assemblies with
+  `(Sym³V)^G ≠ 0`): complex (chiral-candidate) assemblies exist **only for A₄ (1028/1089) and 2T
+  (70262/71192)** — exactly the two groups with `ℤ/3` abelianization (the ω-characters); `S₄/2O/A₅/2I` are
+  closed by the **reality theorem** (all characters real ⇒ every assembly self-dual). The factor-route
+  identities (SU(2)-factoring / single-SU(3)-factor / diagonal trinification ⇒ σ-stable, every finite G) are
+  stated and generalize B329's two computations.
+- **Method note:** no transcribed tables — groups built concretely (Hurwitz/icosian quaternions;
+  permutations), tables derived from tensor powers + concrete abelianization characters (A₅ via the icosahedral
+  seed; the `φ↔1−φ` ambiguity is the Galois table-automorphism, verdict-invariant), snapped to exact values and
+  gated by exact orthonormality + FS + `Σd²=|G|` (the gates caught two real development bugs).
+- **H103 sharpened** (wave 2): whether any ω-window assembly is *realized* by a genuine `E₆`-conjugacy class
+  with nondegenerate invariant cubic — a finite question. Ledger rows updated (HINT_LEDGER H104 → RUN).
+
+Locks: `tests/test_b356_sigma_stability_scan.py` (4 always-on ~1 s; the full 2T/2O/2I sweep under `OA_SLOW=1`
+with the banked counts). Zero promotions; P1–P16 untouched; firewall intact (windows and closures are *form*).
