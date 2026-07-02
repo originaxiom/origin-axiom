@@ -43,14 +43,18 @@ is a Galois-closed orbit with **integer** symmetric functions; the deck action i
 B330's "higher **cyclic** covers" item) and the object's **Bloch/scissors class** (B348: the orbit is `{+β,−β}` =
 `{+Vol,−Vol}`, sum 0, and the residual sign = *orientation* is killed by the object's own amphichirality — *self*-
 symmetrized, B318's geometric firewall landing in the Bloch group; plus **the seam identity** `1−z₀ = z̄₀`: at the
-Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation). **Seven
-classes** now sealed by **one mechanism**: a finite Galois orbit is always symmetrizable, so the object hands you the
-symmetric orbit, never a member. *(C-guardrail: this is `open`, not proof of universal impossibility — see below.)*
+Eisenstein shape the generic Bloch duality involution `z→1−z` *is* the arithmetic Galois conjugation); and the
+**irregular-cover** class stress-tested through index 6 (**B349**: the cover census per index is a canonical
+**multiset** — SnapPy enumeration, the cyclic members cross-validating B347's SNF exactly — and **every** within-index
+invariant multiplicity collapses to a **single isometry class**, so the object never distinguishes a member; index ≤ 6
+is a computational horizon, not a theorem). **Eight classes** now sealed by **one mechanism**: a finite Galois orbit
+is always symmetrizable, so the object hands you the symmetric orbit, never a member. *(C-guardrail: this is `open`,
+not proof of universal impossibility — see below.)*
 **What closes it.** Extend to the remaining **untested** classes (the **nonabelian** Ptolemy/adjoint torsion of the
 character-variety components — B98/B99's `τ₁=−3` is a single rational, canonical, but the class as a whole is open;
-Chern–Simons/`η` beyond the banked `CS=0`; **irregular** covers; `SL(n≥3)` gluing-variety invariants; the
-extended-Bloch/`K₃^{ind}` torsion theory beyond the object's own class), or exhibit a counterexample. The candidate
-proof strategy is uniform: show each such class is a Galois orbit of the object's arithmetic (B330).
+Chern–Simons/`η` beyond the banked `CS=0`; **irregular covers beyond index 6**; `SL(n≥3)` gluing-variety invariants;
+the extended-Bloch/`K₃^{ind}` torsion theory beyond the object's own class), or exhibit a counterexample. The
+candidate proof strategy is uniform: show each such class is a Galois orbit of the object's arithmetic (B330).
 **Obstruction / tier.** A universally-quantified "no invariant whatsoever" — hard, possibly itself specialist, but the
 one arguably-still-in-sandbox target. If proven ⇒ single-seed member-contingency is **irreducible** (the firewall's
 deepest form); choice enters only via heterogeneity (K014/B131).

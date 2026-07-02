@@ -9,6 +9,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ## [Unreleased]
 
 ### Changed
+- **Gate A extension B349 + the gate-based outreach package (2026-07-01).** **B349 — irregular covers through
+  index 6:** all covers of the figure-eight enumerated (SnapPy); the census per index is a canonical **multiset**
+  (banked exact); the cyclic members cross-validate B347's `coker(Aⁿ−I)` SNF **exactly** (independent routes, one
+  answer); and **every** within-index invariant multiplicity (the twin `ℤ/2⊕ℤ²` index-5 covers; the 4×/2×/2×
+  index-6 groups) collapses to a **single isometry class** — the object never distinguishes a member (the
+  identification lives in the commensurator, cf. B323/B348). Index ≤ 6 honestly flagged as a computational
+  horizon, not a theorem. **Eight classes** now sealed at gate A; `OPEN_PROBLEMS.md` updated. **The outreach
+  package:** `frontier/EXPERT_OUTREACH.md` extended with the 2026-07 gate-based briefs — one bounded,
+  proof-status-honest question per gate (B: `T[4₁;E₆]` state integral at exceptional type; C: commensurator
+  `ℤ/3` → family replication or trinification-only; D: non-Hermitian Damanik–Gorodetski at complex `κ`), expert
+  picks to verify, sequencing/hygiene rules (one gate one expert; log every send; a "known, see X" reply is a
+  good outcome). All CONDITIONAL/firewalled; nothing to `CLAIMS.md`.
 - **Gate A extensions B347–B348 (2026-07-01).** Two of B330's named untested invariant classes sealed under the
   same Galois-symmetrization mechanism, both in-sandbox, both CONDITIONAL (C-guardrail), nothing promoted.
   **B347 — the cyclic-cover abelian-torsion class:** the n-fold-cover torsion orders are the **P8/C5 Lucas ladder**

@@ -10,7 +10,7 @@ by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
 **Last updated:** 2026-07-01 · the proven core P1–P16 is **unchanged through all frontier work to
-date (B1–B348)** — **B69–B348 produced zero promotions** to this ledger (the SL(n) trace-map tower,
+date (B1–B349)** — **B69–B349 produced zero promotions** to this ledger (the SL(n) trace-map tower,
 the chirality / class-S / firewall arc, the object-mapping arc — the four faces, the elliptic
 curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — and the
 structural-theorem arc B231–B314, the two-ended object / the cascade / Face IV / *the firewall as a
