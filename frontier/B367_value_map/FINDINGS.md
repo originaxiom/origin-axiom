@@ -1,8 +1,10 @@
 # B367 (W2.3) — the value-map s(m₁,m₂): step 0 — the exact six-pair matrices
 
-**Status: step 0 banked (frontier); the pre-registered hypothesis stage (V3 search + null + held-outs) is
-next and has NOT run. Pre-registration: `PREREGISTRATION.md`, committed before any computation (PR #442).
-Firewalled; nothing to `CLAIMS.md`.**
+**Status: banked COMPLETE (frontier). Step 0 (the exact six-pair matrices) passed every pre-registered
+check and refuted the B361 local law; the V3 hypothesis stage ran exactly as pre-registered and returned
+outcome (B): NO uniform CRT-local product formula at the declared complexity — the exact table + the graded
+obstruction bank as the channel's exhibit. Pre-registration: `PREREGISTRATION.md` (PR #442, committed before
+any computation). Firewalled; nothing to `CLAIMS.md`.**
 
 ## What step 0 computed
 
@@ -52,6 +54,28 @@ discordant pair {(1,3) dark, (3,4) bright} shows **the support pattern is strict
 local ellipticity types** — the finer-than-spectrum phenomenon, previously seen in the values, now
 operates at the support level. (The V3 search is *not* pre-refuted: its declared inputs are m mod 3 and
 m mod 5, and 1 ≢ 4 mod 5 — what died is the coarser type-level law.)
+
+## The V3 verdict (outcome B): no local-symbol product formula at declared complexity
+
+The pre-registered model — `s = X3[e₃a, e₃b, m₁%3, m₂%3] · X5[e₅a, e₅b, m₁%5, m₂%5] · X4[e₄a, e₄b]`,
+solved by exact multiplicative tensor completion over ℚ (`v3_search.py`) — **fails on the true data**
+(`true_pass: False`) while **0 of 200** support/sign/denominator-matched random tables pass, so the test
+has teeth and the failure is informative, not vacuous. The diagnosis is sharply graded:
+
+- **Per-pair:** (2,4) and (2,3) *do* factor into the CRT-local form individually; **(1,2) and (3,4) do
+  not** — the rank-4 pair and the law-breaking pair are exactly the locally-unfactorable ones.
+- **Uniformity:** every two-pair joint is inconsistent — including (2,3)+(2,4), which share seed 2. No two
+  pairs admit common local tables.
+- **Exact ranks** of the bright s-matrices: (1,2) = 4, (2,3) = 2, (2,4) = 1, (3,4) = 2. Rank alone does
+  not decide local factorability ((2,3) factors at rank 2; (3,4) fails at rank 2).
+
+Together with the law refutation above, the conclusion of the probe: **the value map is not a function of
+CRT-local data at level 15** — neither its support (the law) nor its values (V3) factor through
+(m mod 3, m mod 5, CRT labels). The seam form is an eigenbasis-geometry invariant in a strong sense: any
+closed form must use data finer than everything local tried here (candidate finer inputs, for a FUTURE
+pre-registration only: the seeds' fixed-point quadratic forms — disc 5 vs 20 distinguishes m=1 from m=4 —
+or Galois-cocycle data of the eigenbases). Per the pre-registration, the lead closes **at this complexity
+budget** (label: open at higher complexity, not "impossible"); the exact six-pair table is the exhibit.
 
 ## What this changes
 

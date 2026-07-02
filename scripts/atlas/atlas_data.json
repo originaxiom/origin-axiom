@@ -7492,9 +7492,9 @@
     "V1",
     "V3"
    ],
-   "obstacle": "particle_dict",
-   "obstacle_conf": 1,
-   "status": "banked",
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B36": {
