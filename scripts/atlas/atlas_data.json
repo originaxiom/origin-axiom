@@ -7219,6 +7219,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B355": {
+   "slug": "weil layer independent",
+   "motifs": [
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B131",
+    "B314",
+    "B354",
+    "L56"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B35": {
    "slug": "topology cusp marking route",
    "motifs": [],

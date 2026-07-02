@@ -87,7 +87,12 @@ computable) or stay degenerate (`n₁=n₂` → "Level 4", the commensurator gat
 is `27 = V(16)+V(8)+V(0)` (spins 8,4,0), and `n₁=n₂` is forced by **self-duality** of the SU(2) restriction — *not* by
 integer spin, so the "half-integer McKay-SL(2) escape" fails. **Sharpened atom:** the fork is *does the arithmetic
 `2T↪E₆` factor through a self-dual (quaternionic) SU(2) (→ `n₁=n₂`, Level 4) or a non-self-dual complex embedding
-(→ `n₁≠n₂`, Level 3)*; the standard quaternionic realization of the arithmetic `2T` favours **Level 4**. The generation
+(→ `n₁≠n₂`, Level 3)*; the standard quaternionic realization of the arithmetic `2T` favours **Level 4**.
+**Settled for canonical embeddings (B329):** `27|₂T` computed explicitly for *both* natural routes — the
+quaternionic `2T ⊂ SU(2) ⊂ E₆` **and** the complex trinification `2T ⊂ SU(3) ⊂ E₆` — and **both give `n₁=n₂`**
+(the balanced `3/3̄` pairing cancels the complex parts); **Level 3 is unreachable by any canonical `2T↪E₆`.**
+The residual is a chiral (non-σ-stable) embedding, for which no natural candidate exists — the live piece is the
+σ-stability register (H103/H104, the value-boundary queue W1.2). The generation
 `ℤ/3`-breaking datum itself is *finite congruence torsion* `H₁(3-fold cover of 4₁)=ℤ⊕(ℤ/4)²` with irreducible `Φ₃`
 deck-action (B326) — arithmetic, not transcendental, and it gives **texture, not magnitudes**.
 **The symmetry-broken sector (B335–B338, probed in-sandbox).** The single-object degeneracy is a *theorem*, not a gap:
