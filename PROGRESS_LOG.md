@@ -1063,3 +1063,8 @@ closed form of −1/16 (P64 residue).
   values = (1+c)/12 over ζ₉⁺ orbits; 1/4 = (1+2)/12 degenerate; Σ_support = 1 frozen at all
   levels. W5 P-SCALE verdict amended (sum frozen, not the cell value). Import-trap guards
   banked (census_big, k1_fullfield).
+
+## 2026-07-05 — M3 COMPLETE (kill): the mirror is emergent — no cell-local origin
+
+- Cell-wise σ-law fails 140/240 (both lifts); passing set ≠ ±I mod 3 (staged). The mirror
+  is a summation-level symmetry — the twist admits it only in aggregate (cf. B389).
