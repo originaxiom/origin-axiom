@@ -854,3 +854,18 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   prime outside {2,3,5} in the program's exact values** — flagged, not interpreted. The relayed
   reciprocal-ratio claim did not reproduce as stated (returned for specification). C-5 constraints
   sharpened for D3(c); lock added.
+
+## 2026-07-03/04 — B380: the Galois covariance laws verified (P61); the F₄ reciprocal duality
+## confirmed after a wrong-object correction on the verifying side
+
+- The relayed pre-registered census verified cell-exactly: **σ₃₁ is a proven symmetry of all six
+  tables** (odd rows of (1,2) pair up — half redundant); **the mirror is conjugation**
+  (t(a,−b) = τ₃(t(a,b)), full-vector — mirror-column reality now derived); the τ₃-relabel laws
+  exact on four tables + the tower domain measured exactly (36 odd fails); √5-flippers fail
+  everywhere (the P60 conjugacy is trace-level only); **(2,3) is stabilized by the entire
+  √5-fixing half-group** (all 8 — verified).
+- The earlier "returned" reciprocal-ratio claim: VERIFIED once the right object was specified
+  (K2-columns 1,5): ratios {−4,−1/4}∪{−3/2,−2/3} reciprocal pairs; equal-norm F₄ Gram
+  (49/115200; ⟨v₁,v₅⟩ = −13/57600) — reconciled with the banked canonical spectrum.
+- Intake recorded (hints): 1/48 = Haar(2T×ℤ/2) = B₂/8; the McKay node map; the dilog-bridge
+  negative. Residues ranked in FINDINGS (row-16 reality still the stubborn one). P61 promoted.
