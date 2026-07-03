@@ -949,3 +949,9 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   word-grid det-class distribution fails on exactly the riddle pair ((3,4) ≡ (1,3):
   {63,21,27,9}/120). DERIVED continuation: D·C⁻¹ = Z^{−8} exactly — theta words = standard
   lift × T(v_word); the discriminator must live in the accumulated word-shift map's 5-part.
+
+## 2026-07-04 — B385 T2-partial: the v_word map separates the riddle pair (first layer that does)
+
+- W-word = U_std(γ′)·T(v_word)·phase derived and sanity-locked; the 5-part support sets are
+  disjoint bright-vs-dark; (3,4): 12 vectors vs (1,3): 18. Criterion extraction = next
+  (property scan registered in FINDINGS).
