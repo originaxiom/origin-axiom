@@ -971,3 +971,9 @@ joint labels on the riddle. Criterion open, true form named (window-cancellation
 r = 36k twists, forcing support 6); presence doesn't separate. The criterion arc STAGED with
 the honest ledger (one data-level separator, five nulls, one voided draft). Next: the CRT
 closed form of −1/16 (P64 residue).
+
+## 2026-07-04 — Closure Campaign W0 + W1/L1: visibility infra (PR #490) + the tensor identity
+
+- W0: live status board (iCloud-mirrored) + the tier roadmap banked; reporting protocol on.
+- B386 L1: C[j,l] = C₃·C₅ exactly (0/240) at (u₃,u₅)=(2,2); (1,1) fails 146/240 — the seam
+  table tensor-splits; the 1/12 factorizes into 3-local × 5-local data. L2 next.
