@@ -104,3 +104,12 @@ out; full null gauntlet pre-registered before any value claim); (c) the full C-5
 gated on (a)+(b). **D4** the Kashaev bridge + modular-data identification (citations; kills
 bankable). **D5** the synthesis: DERIVED vs RESISTED — the boundary of the object is itself
 the deliverable.
+
+
+## D0+D1 (2026-07-03, B377): the existence law derived; the duel is set
+
+The local table (3…125, exact) yields the v2 law — sector = (line)⊗(doublet), doublets at odd
+prime powers, ramified-side lines at even powers — deriving all six banked verdicts including
+the census-confirmed 225 death (prediction registered while the census ran: HIT). Acceptance
+rungs registered: 375 → 108°, 405 → 36°, **675 → exists at 90°** (reversing the naive "none").
+Promotion gated on the rungs.

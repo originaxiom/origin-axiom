@@ -7689,6 +7689,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B377": {
+   "slug": "existence law derivation",
+   "motifs": [
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B372",
+    "B374",
+    "B376",
+    "P59"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [

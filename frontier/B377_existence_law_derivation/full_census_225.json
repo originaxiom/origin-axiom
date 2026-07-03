@@ -1,0 +1,326 @@
+{
+ "order": 300,
+ "hits": [],
+ "tested": {
+  "1": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "4": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "5": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "6": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "11": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "14": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "16": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "19": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "20": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "24": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "25": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 4
+  },
+  "26": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "29": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "30": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "31": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "34": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "36": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "41": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "44": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "46": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "49": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "50": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 4
+  },
+  "54": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "55": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "56": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "59": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "61": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "64": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "66": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "70": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "71": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "74": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "76": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "79": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "80": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "84": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "86": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "89": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "91": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "94": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "95": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "96": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "100": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 4
+  },
+  "101": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "104": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "106": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "109": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "114": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "116": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "119": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "120": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "121": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "124": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "125": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 4
+  },
+  "126": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "130": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "131": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "134": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "136": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "139": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "144": {
+   "dim_a": 1,
+   "dim_b": 1,
+   "min_module": 7
+  },
+  "145": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "146": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  },
+  "149": {
+   "dim_a": 2,
+   "dim_b": 2,
+   "min_module": 7
+  }
+ }
+}

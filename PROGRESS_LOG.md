@@ -817,3 +817,18 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   ℤ[φ]-splitting arithmetic (5 ramifies, 3 inert) with the R2 obstruction as character misalignment;
   **Phase 2's derive-don't-fit target fixed**: derive the existence law, a(N), and ultimately the
   C-5 seam tables from cat-map Hecke theory — breakthrough if it derives, sharpest boundary if not.
+
+## 2026-07-03 — B377 (D0+D1): the existence law DERIVED; the 225 prediction HIT; three rung
+## predictions registered (one REVERSED by our own 27-census)
+
+- **D0:** the full-multiplicity census at 225 = NONE — the prediction registered while it ran, HIT.
+- **The complete local table** (3,5,9,25,27,81,125 exact): doublets at ODD prime powers only
+  (3-side 90°; ramified 5-side 36/108 by σ-class); lines always on the inert side, EVEN powers only
+  on the ramified side. Tensor factorization verified with corrected multipliers ((2,2) at 15 —
+  the relayed note's values were a parametrization offset, caught by our failed-then-fixed check).
+- **The v2 law derives all six banked verdicts** incl. 75's 90° and the 225 death. Acceptance
+  predictions registered BEFORE the rungs: **375 → 108°** (the 90° branch died with the missing
+  125-line), **405 → 36°**, **675 → EXISTS at 90°** (REVERSING the naive "none" — the odd-power
+  27-doublet flips it). Law promotion GATED on all three.
+- Governance note of record: campaign and labor decided HERE; the relayed material entered as
+  substance only, verified and corrected before any use.
