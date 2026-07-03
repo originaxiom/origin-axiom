@@ -7839,6 +7839,8 @@
    "slug": "bright dark discriminator",
    "motifs": [
     "eisenstein",
+    "amphichiral_cp",
+    "torsion",
     "lorentzian",
     "firewall"
    ],
@@ -7848,7 +7850,7 @@
     "P65"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 3,
+   "obstacle_conf": 8,
    "status": "dead",
    "domain": "arithmetic"
   },

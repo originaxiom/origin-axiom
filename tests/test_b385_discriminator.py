@@ -56,3 +56,18 @@ def test_dark_cells_are_not_anti_free():
 def test_bright_exclusive_labels():
     assert sorted(map(str, AC["missed"])) == sorted(map(str, [
         [1, [0, 2]], [1, [2, 1]], [1, [2, 3]], [1, [4, 2]]]))
+
+
+QP = json.load(open(os.path.join(HERE, "quasiperiods.json")))
+
+
+def test_quasiperiod_ladder_15_45():
+    assert QP["1,5"]["Q"] == QP["4,5"]["Q"]
+    assert [2, 2, 36] in QP["1,5"]["Q"] and [10, 2, 0] in QP["1,5"]["Q"]
+    assert len(QP["1,5"]["Q"]) == 9
+
+
+def test_quasiperiod_presence_does_not_separate():
+    none_b = [k for k, v in QP.items() if v["status"] == "bright" and not v["Q"]]
+    none_d = [k for k, v in QP.items() if v["status"] == "dark" and not v["Q"]]
+    assert none_b and none_d

@@ -966,3 +966,8 @@ joint labels on the riddle. Criterion open, true form named (window-cancellation
   reading corrected in place); and the Π_H/DFT commutation fallacy voided the translation-kill
   logic (third appearance of the trap this session). Continuation reframed: field-level
   quasi-periods C[j+dj,l+dl] = ζ₆₀^r·C[j,l], which commute with the DFT.
+
+## 2026-07-04 — B385 T3 + staging: quasi-period ladders found ((1,5)/(4,5): 9 elements,
+r = 36k twists, forcing support 6); presence doesn't separate. The criterion arc STAGED with
+the honest ledger (one data-level separator, five nulls, one voided draft). Next: the CRT
+closed form of −1/16 (P64 residue).
