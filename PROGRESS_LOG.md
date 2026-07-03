@@ -747,3 +747,15 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   Denominators stay 15-smooth × 2-power (≤ 2880).
 - E16 promoted at banking (the exact table; certified data). Follow-on lead registered: the value
   tower's growth with the level (the conductor structure of the seam). Task #161 completed.
+
+## 2026-07-03 — B373 (PD1.1) the kill test: MOVED — gapless-trending; the relayed bet loses; E17
+
+- **Exactly one invariant two-state sector at level 45: exponents {6,54}** — the exponent pinned at
+  ±6 while ord grows (20 → 60), so the quasi-energy moved 108° → 36° (= 108/3) with
+  `tr ρ(A₁) = φ` exactly (2cos 36°). Silver pinned at 60° (seed-dependent — data). Helicity and the
+  global dihedral relation persist. The pre-registered MOVED outcome hit verbatim; the independent
+  "pinned/anyon-shaped" bet is the refuted branch at this rung.
+- **The tower door (PD2.2) is ALIVE**: phase ~ 9π/N → 0. Pre-registered for level 135 BEFORE
+  computing: unique sector at ±6 of ord 180 (±12°, trace 2cos 12°), pairing + dihedral persist.
+- E17 promoted at banking. The priced-doors campaign's first verdict: the mass-word's costume moves
+  from "possibly anyon" to "lattice-artifact phase, gapless-trending" — still zero physics nouns earned.

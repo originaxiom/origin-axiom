@@ -7619,6 +7619,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B373": {
+   "slug": "level45 minimal sector",
+   "motifs": [
+    "metallic",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B372",
+    "P56",
+    "P57"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [
