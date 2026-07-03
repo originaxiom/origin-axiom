@@ -10,11 +10,12 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 ---
 
 ## RUNNING NOW
-- Nothing in the background. (This line always names the job, its pid/watcher, and an ETA.)
+- W1 / B386 leg 1 (foreground): the CRT tensor-identity verification C[j,l] = C₃·C₅ on all
+  240 cells. ETA minutes; banked either way.
 
 ## LAST BANKED
-- W0 (this PR): the visibility infrastructure — this board, the roadmap, the reporting
-  protocol (every message ends with a status footer; wakeups spaced 45–60 min).
+- PR #490 (W0): the visibility infrastructure — this board, the roadmap, the reporting
+  protocol.
 
 ## NEXT (top 3)
 1. **W1 / B386** — the CRT closed form of the 1/12: prereg, then evaluate the −1/16 and
