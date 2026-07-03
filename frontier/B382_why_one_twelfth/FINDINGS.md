@@ -35,3 +35,32 @@ three registered readings. KILLS unchanged from the pre-registration.
 
 **Provenance.** PREREGISTRATION.md; P56/P57/P60/P62 (the machinery). Reproducer:
 `trace_formula.py` (~3 min); locks: `tests/test_b382_trace_formula.py`.
+
+---
+
+# Leg 2 BANKED: the closed form — and the twist isolated as the half-characteristic term
+
+**The law, every convention pinned by data (fit over all five domain words, then the canonical
+cross-check registered-and-passed):**
+
+    tr(U_γ · XᵃZᵇ) = tr(U_γ) · ζ₁₅^{ ½·ω(v,(γ−I)⁻¹v) − ½·ab − ½·ω(v,(1,1)) },   v=(a,b)
+
+- `½·ω(v,(γ−I)⁻¹v)` — the classical Hannay–Berry quadratic (fit α = 8 = 2⁻¹ on the J·(γ−I)⁻¹
+  form; the ten equivalent Cayley faces all fit with the forced factor-2 relations).
+- `−½·ab` — the X^aZ^b ↔ Weyl-ordering correction (fit s = 7 = −2⁻¹).
+- `−½·ω(v,(1,1))` — **the theta twist**: the universal linear part (7a+8b) decodes as the
+  half-characteristic shift at the Weyl point (1,1).
+
+**The cross-check (prediction registered in verify_canonical.py BEFORE running):** the canonical
+model (C = diag ζ^{8j²} = canonical lift of the same shear; D = C·χ with χ = diag ζ^{−8j})
+satisfies the SAME law with the SAME quadratic and ordering constants and **linear part ≡ (0,0)**
+— verified on all five words (canonical_check.json; orders 20/12 match). The twist enters the
+shifted-trace spectrum as exactly one term: the half-characteristic. "The seam lives at the
+half-characteristic point (½,½)·(1,1)" is now an exact trace-formula statement.
+
+**Leg 3 (next):** the slot constant is a DFT of these shifted traces at the FIXED shift (1,1):
+via P57, Par·W₁ʲW₂ˡ = ζ₆⁻¹·J⁻¹·T(1,1)·W₁ʲW₂ˡ, so
+    Π_H tr(Par·H₁H₂) = ζ₆⁻¹/(o₁o₂) Σ_{j,l} c₁(j)c₂(l) · tr(W₁ʲW₂ˡJ⁻¹) · ζ₁₅^{Q_{jl}(1,1)}
+with c₁, c₂ the slot DFT windows and o₁o₂ = 240 — every factor now has a name; assemble and see
+which registered 1/12 reading the factorization forces. Reproducers: leg2_fit (inline, banked
+in this session's transcript + the fit re-runnable from trace_formula.json), verify_canonical.py.
