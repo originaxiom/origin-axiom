@@ -7782,6 +7782,7 @@
   "B382": {
    "slug": "why one twelfth",
    "motifs": [
+    "eisenstein",
     "lorentzian",
     "firewall"
    ],
@@ -7791,10 +7792,10 @@
     "P60",
     "P62"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "observable",
+   "obstacle_conf": 1,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B38": {
    "slug": "tangent return arithmetic filter",

@@ -1,0 +1,107 @@
+{
+ "1,0": {
+  "gamma_cols": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "pure_phase": true,
+  "quadratic": true,
+  "Q": [
+   8,
+   14,
+   7,
+   0,
+   0
+  ]
+ },
+ "0,1": {
+  "gamma_cols": [
+   [
+    5,
+    2
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "pure_phase": true,
+  "quadratic": true,
+  "Q": [
+   4,
+   14,
+   11,
+   0,
+   0
+  ]
+ },
+ "1,1": {
+  "gamma_cols": [
+   [
+    12,
+    7
+   ],
+   [
+    5,
+    3
+   ]
+  ],
+  "pure_phase": true,
+  "quadratic": true,
+  "Q": [
+   2,
+   13,
+   5,
+   0,
+   0
+  ]
+ },
+ "2,1": {
+  "gamma_cols": [
+   [
+    1,
+    4
+   ],
+   [
+    13,
+    8
+   ]
+  ],
+  "pure_phase": true,
+  "quadratic": true,
+  "Q": [
+   11,
+   0,
+   13,
+   0,
+   0
+  ]
+ },
+ "2,3": {
+  "gamma_cols": [
+   [
+    5,
+    2
+   ],
+   [
+    2,
+    13
+   ]
+  ],
+  "pure_phase": true,
+  "quadratic": true,
+  "Q": [
+   1,
+   11,
+   14,
+   0,
+   0
+  ]
+ }
+}

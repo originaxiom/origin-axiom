@@ -886,3 +886,11 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   boundary confirms itself**. The D-side intertwining is phase-free (DXD⁻¹ = XZ). Universal
   linear part (7a+8b) — the shift's own fingerprint. Legs 2–3 (ordering correction + the slot
   constant in closed form) named and pending.
+
+## 2026-07-04 — B382 leg 2: the closed form; the twist IS the half-characteristic term
+
+- tr(U·XᵃZᵇ) = tr(U)·ζ₁₅^{½ω(v,(γ−I)⁻¹v) − ½ab − ½ω(v,(1,1))} — all conventions pinned by the
+  ten-face Cayley fit (α=2⁻¹, s=−2⁻¹). Registered cross-check PASSED: the canonical model gives
+  the SAME quadratic+ordering with linear part (0,0) — the theta twist enters the trace formula
+  as exactly one term, the half-characteristic −½ω(v,(1,1)) at the Weyl point. Leg 3: assemble
+  the slot constant as the (1,1)-shifted DFT (o₁o₂=240 in view).
