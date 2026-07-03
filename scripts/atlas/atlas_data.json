@@ -8171,6 +8171,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B403": {
+   "slug": "lead package",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B401",
+    "B402",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "P67",
+    "S042",
+    "S4",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "meta"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
