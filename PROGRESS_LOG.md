@@ -996,3 +996,9 @@ closed form of −1/16 (P64 residue).
 - t(54/126, 2/10)@135 = 0 at 3/3 primes. The seam ↔ value-sector coincidence is exclusive to
   the base level 15 (dark at 45 exact-banked, dark at 135 CRT). The graded-pair ratio ladder
   is dead as registered; the structural fact is the deliverable. W2 exits at session 2 of 3.
+
+## 2026-07-04 — W3.i (B388): the m=2 transport KILL + coarsening structure
+
+- C0-C3 all fail (exhaustive); reason: level-45 m=2 singles are strictly coarser (two bare
+  values by a mod 3; c₁ ≡ 0; c₂ even-supported, odd under a→a+6, pattern (1,2,1)/48). The
+  seeds have OPPOSITE level behavior: m=1 identical transport, m=2 coarsening. 4 locks.
