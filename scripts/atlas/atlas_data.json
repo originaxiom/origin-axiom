@@ -7760,6 +7760,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B381": {
+   "slug": "twist isolation",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "P19",
+    "P56",
+    "P57",
+    "P60",
+    "P61",
+    "P62"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [
