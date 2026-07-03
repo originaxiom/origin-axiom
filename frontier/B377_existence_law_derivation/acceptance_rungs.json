@@ -1,0 +1,32 @@
+{
+ "375": {
+  "prediction_deg": 108,
+  "ord_pred": 500,
+  "all_primes_pass": true,
+  "verdicts": [
+   true,
+   true,
+   true
+  ]
+ },
+ "405": {
+  "prediction_deg": 36,
+  "ord_pred": 540,
+  "all_primes_pass": true,
+  "verdicts": [
+   true,
+   true,
+   true
+  ]
+ },
+ "675": {
+  "prediction_deg": 90,
+  "ord_pred": 900,
+  "all_primes_pass": true,
+  "verdicts": [
+   true,
+   true,
+   true
+  ]
+ }
+}

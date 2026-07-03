@@ -70,3 +70,32 @@ anchor-commit: 4cc43e448616a0c134b82d6154ae8c5b299ef76a
    wrong-object errors caught on BOTH sides (the verifier's row/column error included — recorded).
 
 Next review due ~10 merges from this anchor.
+
+---
+
+# Review 3 — 2026-07-04 (merges #472–#482, the autonomous-mode window)
+
+**Scope.** PRs #475–#482: P62 (twist isolation), B382 legs 1–4 (the why-1/12 program), B383
+(row-16 theorem), the acceptance-duel banking wave (P63–P65 promotions in flight this PR).
+
+**Claims hygiene.** Three promotions this window (P63/P64/P65) — each carries prereg-first
+provenance, exact verification, and locks; the CLAIMS header's stale "fifteen proven" line
+fixed; append-only respected (corrections in place with markers, none needed this window).
+
+**Verification depth.** B382's canonical cross-check was REGISTERED before running (the
+strongest pattern of the window — prediction: linear part (0,0); passed on all five words).
+The duel's 405 stall was diagnosed to a real engineering trap (primes ≡ 1 mod 13500 lack ζ₈₁;
+silent floor-division corruption) — fixed, and the fix is itself documented in FINDINGS. The
+Kashaev T1 integrality assumption was WRONG (values are not rational at general N) — caught by
+the exact machinery's own assert, corrected to Galois-component extraction; the correction is
+the finding.
+
+**Debt.** (i) B384 T2/T3 pending (registered); (ii) the CRT closed form of the −1/16 phase sum
+(named residue of P64); (iii) D3(a) bright/dark criterion still open; (iv) the mirror's
+non-Galois mechanism and the (2,3) stabilizer — both named in OPEN_LEADS; (v) suite flake
+policy unchanged (one rerun, then targeted-gate documentation).
+
+**Verdict.** Discipline held under autonomous mode: every bank prereg'd, two kills banked as
+findings, one trap documented. The promotion cadence (3 in one window) reflects the campaign
+reaching its derivation targets, not bar drift — each promotion's evidence is a registered
+prediction that passed.

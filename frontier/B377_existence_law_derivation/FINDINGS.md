@@ -53,3 +53,21 @@ stated. Promotion of the law is GATED on all three rungs passing.
 **Provenance.** B372–B374 (the measured rungs), B376/P59 (the cat-map frame), the relayed
 mechanism note (substance verified + corrected; conventions reconciled here). Reproducers:
 `local_censuses.py`, `full_census_225.py`; locks: `tests/test_b377_existence_law.py`.
+
+---
+
+# ACCEPTANCE DUEL: 3/3 — the law is now PROVEN-PREDICTIVE (P63)
+
+All three registered predictions (committed in PREDICTION_BEFORE_CENSUS.md and the acceptance
+preregistration BEFORE any computation at these levels) verified at 3 primes each:
+
+    N=375: (3-line)⊗(125-doublet, u₁₂₅=42) — EXISTS, phase 108°, ord 500  → PASS [3/3]
+    N=405: (81-line, u₈₁=65)⊗(5-doublet)   — EXISTS, phase 36°,  ord 540  → PASS [3/3]
+    N=675: (27-doublet)⊗(25-line)          — EXISTS, phase 90°,  ord 900  → PASS [3/3]
+
+Nine sub-verdicts (existence + phase + order at three fresh levels), all correct — three
+different phases predicted by the QR-class mechanism. The v2 law is promoted (P63).
+Engineering note: the first acceptance run used primes ≡ 1 mod 13500, which does not contain
+ζ₈₁ — the 405 local model was corrupted and its order loop unbounded (a real trap: silent
+floor-division in pow(g,(p−1)//q,p)); fixed to primes ≡ 1 mod 40500 + an order cap. Locks:
+tests/test_b377_acceptance.py.
