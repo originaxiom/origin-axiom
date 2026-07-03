@@ -16,6 +16,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - Nothing in the background.
 
 ## LAST BANKED
+- **M3 COMPLETE (kill): the mirror is EMERGENT** — no cell-local Galois origin (140/240
+  cells fail the σ-law; the passing set is not ±I mod 3; characterization staged). The
+  twist admits the mirror only in aggregate — second such symmetry after B389.
 - **M2 COMPLETE — both candidates killed, and the reward is THE UNIFIED SINGLES LAW:**
   the twelve 405-values are (1+c)/12 over ζ₉⁺-orbits, the old 1/4 = (1+2)/12 is the
   degenerate case, and Σ_support = 1 is the true frozen invariant at all four levels.
@@ -23,9 +26,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **M3** — derive the mirror law from the trace formula (B395 prereg).
-2. **M4** — the all-pairs formula gate + the two staged whys re-enter.
-3. **M5** — the (2,3) stabilizer + defect-tracelessness; then the completeness re-audit.
+1. **M4** — the all-pairs formula gate (B396) + three staged whys re-enter.
+2. **M5** — the (2,3) stabilizer + defect-tracelessness; then the completeness re-audit.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

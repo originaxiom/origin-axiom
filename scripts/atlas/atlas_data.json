@@ -8018,6 +8018,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B395": {
+   "slug": "mirror derivation",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B389",
+    "P61"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
