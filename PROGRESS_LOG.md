@@ -832,3 +832,15 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   27-doublet flips it). Law promotion GATED on all three.
 - Governance note of record: campaign and labor decided HERE; the relayed material entered as
   substance only, verified and corrected before any use.
+
+## 2026-07-03 — B379 (D3(b) opener): the reduction theorem + closed form VERIFIED; P60; the
+## W2.11 gap is now ONE number + ONE reality proof
+
+- The relayed selection-rule hunt (owner-directed; pre-registered there before computation)
+  verified item-by-item here: **T1 the reduction theorem, 13/13 cells component-exact** (both
+  seats' first checkers independently hit and fixed the same real-subfield trap — cross-validating
+  the machinery); **T2 the closed form exact**: the rigid sector = one constant with two Galois
+  faces (−(φ/6)√−3 and its σ_√5 conjugate), so ±1/48 = ±(1/4)·(1/12); the Weyl form holds with J
+  verified scalar on both blocks. The support pattern is now DERIVED. Their H2/H3 kills recorded.
+- **Row 16 is ℚ(√5)-dark** (banked-data-exact; σ₄₉ pairs rows 4↔16). The remaining W2.11 gap:
+  (1) derive the 1/12; (2) prove t(16,·) ∈ ℚ(√5). P60 promoted at banking.
