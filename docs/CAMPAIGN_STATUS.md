@@ -3,8 +3,11 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**Campaign:** The Closure Campaign (owner-approved 2026-07-04) — close the value sector's
-internal theory (W1–W4), one firewalled wall-probe wave (W5), dossiers + wrap (W6).
+**Campaign:** Closure II — the Mechanism Campaign (owner-approved at the decision gate,
+2026-07-04): M1 convolution-cancellation · M2 the twisted support walk (+405 rung) · M3
+derive the mirror law · M4 the complete-table gate (all six pairs) · M5 the last census
+facts. After M1–M5 the object is computation-complete (only specialist-register items
+remain) and the wall campaign starts.
 Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 
 ---
@@ -18,8 +21,10 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   dossiers written (not sent), Review 4 anchored. Synthesis in docs/RECOGNITION.md.
 
 ## NEXT (top 3)
-1. **Next campaign = owner's decision gate** — candidates on the residue queue: the
-   convolution-cancellation mechanism; the twisted support walk; the paper phase.
+1. **M1 session 1** — the cancellation mechanism (B393 prereg + spectral vectors vs the
+   rank-2 form).
+2. **M2** — support-walk rule + the registered 405 prediction.
+3. **M3/M4/M5** — mirror derivation; the all-pairs formula gate; the last census facts.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
