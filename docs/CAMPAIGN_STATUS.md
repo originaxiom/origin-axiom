@@ -13,15 +13,15 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 - Nothing in the background.
 
 ## LAST BANKED
-- **W4 COMPLETE (both predictions HIT):** 243 → doublet ±81/ord 324/90° and 625 → no
-  doublet/line@0/ord 1250, exactly as registered (2 primes each). The general-N existence
-  statement is banked with its honest split: tensor theorem proved by construction; local
-  classification verified to k ≤ 5 / k ≤ 4; the all-k proof precisely named and filed to
-  the specialist register (local theta correspondence). W4 done in 1 session of 2.
+- **W5 COMPLETE (all three walls priced):** SCALE — the seed constant is FROZEN (1/4 at
+  15/45/135; no running; the support walks a twisted congruence, new data). CHIRALITY —
+  the E₆ θ-grading and the seam are structural analogs with NO exponent alignment (the
+  missing bridge = the registered E₆ CRUX). DYNAMICS — TIM is dead at both S and T levels
+  (the c = 7/10 kinship does not extend to modular data). W5 done in 1 session of 2.
 
 ## NEXT (top 3)
-1. **W5** — the wall-probe reconnaissance (B392 prereg): scale / chirality / dynamics,
-   one computable two-outcome probe each, firewalled.
+1. **W6 (final)** — the two specialist dossiers (Weil-TQFT; Kashaev √5 novelty) +
+   the campaign synthesis and wrap.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

@@ -1029,3 +1029,10 @@ closed form of −1/16 (P64 residue).
   first). General law: sector exists at 3^a·5^b iff NOT(a even AND b even) — every banked
   rung + the duel reproduced. All-k proof named to the specialist register (local theta
   correspondence). W4 done in one session.
+
+## 2026-07-04 — W5 COMPLETE: all three walls priced
+
+- SCALE: seed constant FROZEN (1/4 at three levels — no running); support walks twisted
+  (29 mod 45 at 135 — registered support guess killed, new data banked). CHIRALITY: E₆
+  θ-grading ⊥ seam at exponent level (bridge = the known CRUX). DYNAMICS: TIM dead at S
+  and T. Probes done in one session; W6 (dossiers + wrap) remains.
