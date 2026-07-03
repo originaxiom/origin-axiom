@@ -31,3 +31,42 @@ genus-character assembly is the natural candidate).
 
 **Provenance.** p1_p2_class.py, p1_prediction.py → two JSONs; locks
 tests/test_b401_sixth_angle.py.
+
+---
+
+# Session 2 BANKED: two genus selection rules + the exact-identity dossier
+
+## P3 — the genus characters refine the 1/12's fine grain (exact)
+
+Splitting the generic (class-1) slot partial by (χ₅, χ₋₃) of det(γ′−I):
+
+    (χ₅,χ₋₃) = (+,+): (0, 0, 0,     −1/120)   18 cells
+               (+,−): (0, 0, −1/24, −1/60)    68 cells
+               (−,+): (0, 0, 0,     −1/80)     8 cells
+               (−,−): (0, 0, −1/48, −1/40)    48 cells
+
+- **RULE 1 (the Eisenstein gate): the √−3-component vanishes identically on χ₋₃ = +1** —
+  the z-channel is gated by the Eisenstein character of the fixed-point determinant.
+- **RULE 2 (boundary equipartition): the class-5 partial splits χ₋₃-EVENLY —
+  (0,0,−1/96,−1/96) from 4 cells and the same from 64 cells** — exact aggregate balance
+  across a 16-fold population asymmetry (the emergent signature at the boundary).
+  (Recombinations: z: −1/24−1/48 = −1/16 ✓; s: −(2+4+3+6)/240 = −1/16 ✓; class-5 halves
+  sum to −1/48 ✓.)
+
+## P4 — the exact-identity dossier (each item exact; classical facts cited, not claimed)
+
+- **The component basis IS the Gauss-sum basis:** {1, √5, √−3, √−15} =
+  {1, g(χ₅), g(χ₋₃), g(χ₋₁₅)} — the program's H-decomposition has been the genus-character
+  decomposition of ℚ(√−15)'s class field all along; the banked S-normalizer g(15) = √−15
+  is the seam character's Gauss sum.
+- **The dynamics computes the regulator:** the banked Lyapunov data (B109: exponents
+  ±4 log φ at the void) = 4·Reg(ℚ(√5)); by Dirichlet, = 2√5·L(1, χ₅) — the golden pillar's
+  entropy is the real genus character's L-value (classical: cat-map entropy = log of the
+  fundamental-unit power; cited).
+- **The seam character carries the class number:** L(1, χ₋₁₅) = 2πh/(w√15) = 2π/√15 with
+  h = 2, w = 2 — the ℤ/2 that acts on the banked constants (P1) is the same h = 2 in the
+  seam character's L-value.
+- ζ_H = ζ·L(χ₋₃)·L(χ₅)·L(χ₋₁₅): one factor per program pillar (twist / dynamics / seam).
+
+**Provenance.** p3_genus_refine.py → p3_genus.json; the P4 identities are closed-form
+(no numerics); locks tests/test_b401_sixth_angle.py (P3 section).

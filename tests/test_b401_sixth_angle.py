@@ -24,3 +24,14 @@ def test_p2_spectroscopy_anchors():
     assert s["23"]["cls"] == "nonprincipal" and s["2"]["cls"] == "nonprincipal"
     assert s["7"]["cls"] == "inert" and s["11"]["cls"] == "inert"
     assert s["3"]["cls"] == "ramified" and s["5"]["cls"] == "ramified"
+
+
+def test_p3_eisenstein_gate_and_equipartition():
+    R = json.load(open(os.path.join(HERE, "p3_genus.json")))
+    assert R["chi5=1,chi3=1"]["partial"][2] == "0"
+    assert R["chi5=-1,chi3=1"]["partial"][2] == "0"
+    assert R["chi5=1,chi3=-1"]["partial"][2] == "-1/24"
+    assert R["chi5=-1,chi3=-1"]["partial"][2] == "-1/48"
+    assert R["cls5,chi3=1"]["partial"] == ["0", "0", "-1/96", "-1/96"]
+    assert R["cls5,chi3=-1"]["partial"] == ["0", "0", "-1/96", "-1/96"]
+    assert R["cls5,chi3=1"]["cells"] == 4 and R["cls5,chi3=-1"]["cells"] == 64
