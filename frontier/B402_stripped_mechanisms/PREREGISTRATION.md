@@ -32,3 +32,19 @@ threes (the W-B1 pattern)?
 
 Machinery: the ζ₆₀ engine; build_theta_W-pattern with shifted D-cocycles; the slot DFT
 machinery. Locks per verdict. Firewalled.
+
+## Q2 CORRECTION + REFRAME (2026-07-04, before any Q2 computation)
+
+The mod-2 3-orbit framing above is WRONG for odd N (no 2-torsion in (ℤ/15)²; at odd level
+all characteristics are translation-equivalent as representations). The honest invariant
+content: translations move the address but ALSO move Par — with Par FIXED, different
+addresses are genuinely inequivalent SEAM THEORIES (banked anchors: our address r = 7
+i.e. D = C·Z⁷⁻¹⁵ = C·Z^{-8} is bright; r = 0, the canonical model, is seam-null — P62).
+
+**Q2′ (registered): THE SEAM LANDSCAPE.** For each r ∈ ℤ/15 build the sibling model
+(D_r = C·Z^r, WR_r = F·D_r⁻¹·F⁻¹, W_m = WR_r^m·D_r^m), compute its (1,2) Par-table and
+record whether ANY cell carries √−15 content (s-bright model or s-null model).
+REGISTERED CANDIDATES for the brightness law over r: (i) bright ⟺ r ≢ 0 (only the
+canonical point is null); (ii) bright ⟺ gcd(r, 15) = 1 (units only); (iii) bright ⟺ a
+character condition (χ₃/χ₅-shaped set). KILL: an irregular set — bank the landscape
+as data. Two anchors must reproduce: r = 0 null, r = 7 bright (gate).
