@@ -1099,3 +1099,9 @@ closed form of −1/16 (P64 residue).
 - Singles' 1/4: class-1 only (boundaries cancel exactly; counts {1:5, 3:5, 5:10} on l=0).
   Seam's 1/12: generic + golden boundary. The twist's value content = boundary
   recruitment. 1215 rung computing (walk-law duel registered).
+
+## 2026-07-05 — Wall W-B1 COMPLETE: no canonical frame (the kill, maximally sharp)
+
+- The golden slot rows are antipodal (one line, labels ±2); the Mercedes plane's support
+  omits exactly {±2, 6}; exact orthogonality by spectral support disjointness. No
+  canonical 3×3 exists — the content wall priced; S5 grounded geometrically.

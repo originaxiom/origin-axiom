@@ -8113,6 +8113,22 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B400": {
+   "slug": "canonical frame",
+   "motifs": [
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B398",
+    "S5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
