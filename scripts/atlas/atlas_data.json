@@ -7798,6 +7798,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B383": {
+   "slug": "row16 reality",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "P60",
+    "P61"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [
