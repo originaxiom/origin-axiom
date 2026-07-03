@@ -119,3 +119,15 @@ Promotion gated on the rungs.
 
 No intertwiner (exhaustive family); Par central in the canonical model, Par−J = the Weyl step in
 the theta model; the twist = ζ₁₅^{−j(j+1)/2} exactly. The forcing chain closes up to one number.
+
+## Phase-2 status (2026-07-04): D1 CLOSED (P63) · D3(b) CLOSED (P64) · row-16 (P65) · D4 in flight
+
+**D0 ✅ D1 ✅ (P63)** — the v2 existence law derived from the local censuses and
+proven-predictive by the 3/3 acceptance duel (375: 108°/500, 405: 36°/540, 675: 90°/900; nine
+sub-verdicts at three primes each, predictions committed first). **D2 ✅ (P62).** **D3(b) ✅
+(P64)** — the why-1/12 answered: the shifted trace formula (the twist = the half-characteristic
+term −½ω(v,(1,1))), the 142/142 Par-table factorization, the exact reassembly, and the
+det-class split **1/12 = 1/16 (generic) + 1/48 (5-boundary)**; the row-16 silence mechanized
+(P65: reality theorem + ζ₅-spectrum zero). D3(a) (bright/dark criterion) OPEN. **D4 IN
+PROGRESS** (B384: T1 banked — ⟨4₁⟩_N carries nonzero ℚ(√5) content at every 5|N level, exact;
+T2/T3 registered and pending). D5 fires when D4's verdicts land.

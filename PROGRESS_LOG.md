@@ -917,3 +917,14 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
 - All 240 cells: |χ|² = the fixed-point count (1/9/5/25/45 by class) — the twist is pure
   phase; the −1/16 is a pure phase-sum identity (84 unit terms). Residue named: its CRT
   ζ₃×ζ₅ closed form. Per-cell class partials banked; they recombine to −1/16 / −1/48 exactly.
+
+## 2026-07-04 — THE ACCEPTANCE DUEL: 3/3 — the v2 existence law PROMOTED (P63); D1 CLOSED
+
+- 375: 108°/ord 500 ✓✓✓ · 405: 36°/ord 540 ✓✓✓ · 675: exists 90°/ord 900 ✓✓✓ — nine registered
+  sub-verdicts, all correct, three phases distinguished by QR class. Root cause of the 405
+  stall found and fixed (primes lacked ζ₈₁ — silent floor-division corruption; now ≡1 mod
+  40500 + order cap). PROMOTIONS: P63 (v2 law), P64 (B382 trace formula + 1/16+1/48), P65
+  (B383 row-16 theorem). B384 T1 landed: ⟨4₁⟩_N is NOT rational at general N — exact Galois
+  components extracted; the √5-part is NONZERO at every 5|N level (2 at N=5; 2023/4 at 15;
+  13100 at 25; 71150671/4 at 45; ~1.3e20 at 135): registered bet (b) PASSES — golden content
+  in the Kashaev ladder at our levels. Scaling gate consistent (2π·log/N decreasing 4.93→2.36).

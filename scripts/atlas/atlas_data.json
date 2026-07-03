@@ -7700,10 +7700,11 @@
     "B372",
     "B374",
     "B376",
-    "P59"
+    "P59",
+    "P63"
    ],
    "obstacle": "observable",
-   "obstacle_conf": 6,
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7811,6 +7812,22 @@
     "P60",
     "P61"
    ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B384": {
+   "slug": "kashaev bridge",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "wrt_quantum",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [],
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
