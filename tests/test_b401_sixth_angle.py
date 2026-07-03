@@ -35,3 +35,8 @@ def test_p3_eisenstein_gate_and_equipartition():
     assert R["cls5,chi3=1"]["partial"] == ["0", "0", "-1/96", "-1/96"]
     assert R["cls5,chi3=-1"]["partial"] == ["0", "0", "-1/96", "-1/96"]
     assert R["cls5,chi3=1"]["cells"] == 4 and R["cls5,chi3=-1"]["cells"] == 64
+
+
+def test_rule1_is_cellwise():
+    R = json.load(open(os.path.join(HERE, "rule1_cellwise.json")))
+    assert R["tot"] == 26 and R["z_viol"] == 0 and R["s_viol"] == 0

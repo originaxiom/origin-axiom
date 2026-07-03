@@ -70,3 +70,16 @@ Splitting the generic (class-1) slot partial by (χ₅, χ₋₃) of det(γ′�
 
 **Provenance.** p3_genus_refine.py → p3_genus.json; the P4 identities are closed-form
 (no numerics); locks tests/test_b401_sixth_angle.py (P3 section).
+
+---
+
+# Session 2 addendum: RULE 1 UPGRADED TO A CELL-WISE LAW
+
+Prompted by the Chat-1 synthesis (character-orthogonality reading), tested and found
+STRONGER than proposed: **every class-1 cell with χ₋₃(det(γ′−I)) = +1 is individually
+ℚ(√5)-real — z = 0 AND s = 0 on all 26 such cells** (rule1_cellwise.json). The Eisenstein
+gate is not an aggregate selection rule but a LOCAL law of the metaplectic character's
+field content: the 3-side Gauss sum (hence any √−3) enters χ only at non-residue
+determinants. This is the first genus rule with a cell-level mechanism — a derivation
+target one step from closed (the character field-content argument, classical Gauss-sum
+arithmetic).
