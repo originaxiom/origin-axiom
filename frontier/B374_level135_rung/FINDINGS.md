@@ -46,5 +46,17 @@ registered as **the phase-map riddle** with the N = 225 rung as the next datum (
 prediction registered — report as found; the existence+uniqueness law is the only registered
 expectation). Data: `rung75.json`.
 
+## Second same-day addendum: N = 225 — THE EXISTENCE LAW DIES (no invariant sector)
+
+The registered expectation (unique sector exists) FAILED at N = 225: ord = 300 = 4N/3 holds,
+sixteen mult-1 pairs exist, **none is invariant** (cross-prime confirmed; `rung225.json`). The
+eighth registered kill. Five-rung pattern in m = N/15: sectors exist at m = 1, 3, 5, 9
+(prime powers) and die at m = 15 = 3·5 (the first mixed m). **Refined pre-registrations
+(committed before computation):** N = 405 (m = 27): sector EXISTS with phase 36° (the 3-tower
+alternation); N = 375 (m = 25): sector EXISTS (5-tower); N = 675 (m = 45 = 9·5): NO sector
+(mixed m). KILL conditions: any deviation. The tower-limit reading sharpens again: the minimal
+sector is a property of PRIME-POWER towers, not of the level lattice — any continuum story must
+reckon with sector-death at mixed levels.
+
 **Provenance.** B373 (the prediction + kill, PR #461), B372 (engine). Reproducer: `rung135.py`
 (~25 min); locks: `tests/test_b374_rung135.py`.
