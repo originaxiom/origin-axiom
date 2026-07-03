@@ -129,3 +129,28 @@ frozen 1/4 (new, unexplained); (iv) W6 wrap items in flight.
 
 **Verdict.** The campaign closed the value sector's internal theory to named residues and
 priced all three walls with registered probes. Discipline intact under the new cadence.
+
+---
+
+# Review 5 — 2026-07-05 (merges #501–#508, Closure II)
+
+anchor-commit: `2a74d4c47f28f2dda17764be5173d7ba6bc3d09b`
+
+**Scope.** The Mechanism Campaign M1–M5 (PRs #502–#508).
+
+**Claims hygiene.** One in-place strengthening (P64 → universal, 661/661, marked). Five
+preregs, five two-outcome verdicts: two mechanisms found (stratification law; unified
+singles law with the sum rule), three corrective kills (emergent mirror; aggregate
+stabilizer; intra-model conjugacy). Every kill banked WITH the structure that killed it.
+
+**Verification depth.** Registered predictions used at 405 (both killed — the kill was the
+discovery); the wrong-orbit-order reconstruction was caught by its own order-invariant
+(the clean 1/12 average); the import-trap fired twice before the guards landed — hygiene
+now banked. The bright-controls-read-zero check caught a broken instrument before banking.
+
+**Debt.** The emergent-symmetry family (mirror characterization, (2,3) window mechanism,
+√5-withholding rule) — one family, likely one theory; the deeper support-walk rule; the
+two specialist items. All named; none computable-and-unattempted.
+
+**Verdict.** The object is computation-complete at level 15. The discipline's strongest
+session-family to date: five waves, five verdicts, zero drift.
