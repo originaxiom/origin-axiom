@@ -33,5 +33,18 @@ registered next question.
 - **Level 405 (= 15·27):** prediction — the alternation continues: phase 36° (parity of k).
   Queued (heavier compute; registered now, run later).
 
+## Same-day addendum: the level-75 rung (the 5-tower) — the pentagon-pair prediction ALSO killed
+
+The registered weak-form prediction for N = 75 fired its kill: the unique invariant sector is
+{25, 75} of ord 100 — **phase ±90°, trace 2cos 90° = 0 exactly** (the sector at exact
+quarter-turn; the golden trace vanishes). Seventh productive failure. The four-rung table
+(15/45/135/75): phases 108°/36°/108°/90°, exponent fractions a/N = 2/5, 2/15, 2/5, 1/3, with
+ord = 4N/3 uniform. **The robust law across four rungs and two tower directions: the unique
+invariant two-state sector EXISTS at every level tested, with the helicity structure and
+ord = 4N/3.** The phase is a not-yet-cracked arithmetic function of the 3-part and 5-part of N —
+registered as **the phase-map riddle** with the N = 225 rung as the next datum (NO phase
+prediction registered — report as found; the existence+uniqueness law is the only registered
+expectation). Data: `rung75.json`.
+
 **Provenance.** B373 (the prediction + kill, PR #461), B372 (engine). Reproducer: `rung135.py`
 (~25 min); locks: `tests/test_b374_rung135.py`.

@@ -7650,7 +7650,7 @@
     "B373"
    ],
    "obstacle": "observable",
-   "obstacle_conf": 5,
+   "obstacle_conf": 8,
    "status": "dead",
    "domain": "arithmetic"
   },
