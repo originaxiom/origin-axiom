@@ -977,3 +977,10 @@ closed form of −1/16 (P64 residue).
 - W0: live status board (iCloud-mirrored) + the tier roadmap banked; reporting protocol on.
 - B386 L1: C[j,l] = C₃·C₅ exactly (0/240) at (u₃,u₅)=(2,2); (1,1) fails 146/240 — the seam
   table tensor-splits; the 1/12 factorizes into 3-local × 5-local data. L2 next.
+
+## 2026-07-04 — W1 COMPLETE (P66): the 1/12 in closed form, end-to-end
+
+- B386 L2: the class partials assemble exactly as two-branch products of local sums (3-side
+  ℤ₄×ℤ₄ table × 5-side parity-branch constants); −1/16 and −1/48 reproduced; golden-boundary
+  couples equal parities only (off-parity branches ≡ 0). With L1 (tensor identity) the 1/12
+  is derived from local data end-to-end. Promoted P66. W1 exited BANKED at time-box.
