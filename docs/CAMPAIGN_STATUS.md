@@ -13,21 +13,19 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- **M2: the 405 singles** (B394, pid 50232, PID-watcher armed, ETA ~5 min). Registered
-  primary prediction: support ≡ 59 (mod 135), all values 1/4.
+- Nothing in the background.
 
 ## LAST BANKED
-- **M1 COMPLETE: the annihilation mechanism = the product-field stratification law.**
-  Dark (1,4)/(3,5): every product fully real; dark (1,3): imaginary parts √5-free
-  (z-only); bright pairs put the same stratum into s-carrying. **s-darkness of the class
-  ⟺ the 5-side never donates √5 to an imaginary product.** Galois eigen-patterns of X₃
-  do NOT discriminate (K2 killed). Residual why staged; re-entry via M4.
+- **M2 COMPLETE — both candidates killed, and the reward is THE UNIFIED SINGLES LAW:**
+  the twelve 405-values are (1+c)/12 over ζ₉⁺-orbits, the old 1/4 = (1+2)/12 is the
+  degenerate case, and Σ_support = 1 is the true frozen invariant at all four levels.
+  The 1/12 appears a second time — as the universal singles normalizer. (Support
+  ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **M1 session 1** — the cancellation mechanism (B393 prereg + spectral vectors vs the
-   rank-2 form).
-2. **M2** — support-walk rule + the registered 405 prediction.
-3. **M3/M4/M5** — mirror derivation; the all-pairs formula gate; the last census facts.
+1. **M3** — derive the mirror law from the trace formula (B395 prereg).
+2. **M4** — the all-pairs formula gate + the two staged whys re-enter.
+3. **M5** — the (2,3) stabilizer + defect-tracelessness; then the completeness re-audit.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

@@ -50,8 +50,9 @@ def run(m1, m2, st):
     return dict(status=st, X3=len(X3), X5=len(X5), terms=total,
                 nonzero_terms=nonzero_terms, cells_nonzero_sum=cells_nonzero_sum)
 
-res = {}
-for (m1, m2, st) in ((1,3,"dark"),(3,5,"dark"),(3,4,"bright"),(2,3,"bright")):
-    res[f"{m1},{m2}"] = run(m1, m2, st)
-json.dump(res, open(os.path.join(HERE, "k1_fullfield.json"), "w"), indent=1)
-print("DONE")
+if __name__ == "__main__":
+    res = {}
+    for (m1, m2, st) in ((1,3,"dark"),(3,5,"dark"),(3,4,"bright"),(2,3,"bright")):
+        res[f"{m1},{m2}"] = run(m1, m2, st)
+    json.dump(res, open(os.path.join(HERE, "k1_fullfield.json"), "w"), indent=1)
+    print("DONE")
