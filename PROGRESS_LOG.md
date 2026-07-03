@@ -934,3 +934,11 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
 - Coset 1 + (ord/4)ℤ at both 15 and 45, same value (1/4) — first exact cross-level constant
   equality (the level-45 companion step). m=2: same ord-12 grid + denominator family, extra
   basis components at 45 — relabel law OPEN. T3 (the (S,T) seam block) next; then D5.
+
+## 2026-07-04 — B384 T3 + D5: the campaign wrap — D0–D5 COMPLETE
+
+- T3: the slot's S-compression is TRIANGULAR (F(6,14)=0 exact) — NO-MATCH to 2-anyon/U(1)_k
+  blocks at sector level; g(15) = √−15 (the seam radical normalizes S); twist diagonal
+  h=(3/10,7/10); tr(F|slot) = −(5/16φ)(3−√−3). D5 synthesis written into RECOGNITION.md
+  (6 derived, 5 resisted, residue queue priced); PRICED_DOORS PD1.2/PD3.1 rows updated.
+  The Derivation Campaign's registered program is COMPLETE.

@@ -48,3 +48,26 @@ Level-15 (exact ζ₆₀ engine) vs level-45 (banked identified singles, sweep45
 
 This is the level-45 companion-constant step: the transported 1/4 is the first exact cross-level
 constant equality in the campaign. Locks: tests/test_b384_kashaev.py (T2 section).
+
+---
+
+# T3 BANKED: the (S,T) slot block — triangular S ⇒ NO-MATCH at sector level
+
+Exact compressions on the slot basis (v_a = P_a·w, rank-1 verified on all 16 entries):
+
+- **g(15) = √−15 exactly** (H-components (0,0,0,1)) — the S-matrix normalization 1/g is the
+  seam field's own radical.
+- **The F-block is TRIANGULAR**: F(6,14) = 0 (scaling-independent zero) while F(14,6) ≠ 0 —
+  F maps v₁₄ off the 6-line but v₆ onto the 14-line. The slot is NOT S-closed ⇒ **NO-MATCH
+  to the U(1)_k / 2-anyon modular-block shape** (registered comparison; those require a
+  symmetric unitary S on the sector). Any Weil-TQFT identification lives at the FULL 15-dim
+  representation, not the sector — banked as the boundary of the modular-data reading.
+- The sector's natural twist diagonal (W₁-eigenphases) is (e^{2πi·3/10}, e^{2πi·7/10}) —
+  h = (3/10, 7/10); and the scaling-invariant diagonal entries give
+  tr(F|slot) = (1−√5)·(5/32)·(3−√−3) = −(5/(16φ))·(3−√−3) — a golden × Eisenstein
+  factorization of the sector's S-trace. NEEDS-SPECIALIST (novelty/known-status of both).
+- D_theta and C_canon compressions banked in t3_block.json (full 2×2, exact).
+
+D4's verdict pair is now complete: T1 golden content (bet b PASS, bet c KILL), T2 identity
+transport of 1/4, T3 sector-level NO-MATCH with the triangular-S boundary + the golden/
+Eisenstein trace exhibit. Locks: tests/test_b384_kashaev.py (T3 section).
