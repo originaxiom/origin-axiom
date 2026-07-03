@@ -1,0 +1,26 @@
+{
+ "mercedes": true,
+ "kernel_zero": true,
+ "n": "1/6912",
+ "g6": {
+  "norm2": "1/1152"
+ },
+ "g14": {
+  "norm2": "1/1152"
+ },
+ "inner": "-1/1152",
+ "rel": {
+  "g6": {
+   "onto_e1": "0",
+   "onto_e2": "0",
+   "norm2": "1/1152",
+   "cos2_to_plane": "0"
+  },
+  "g14": {
+   "onto_e1": "0",
+   "onto_e2": "0",
+   "norm2": "1/1152",
+   "cos2_to_plane": "0"
+  }
+ }
+}
