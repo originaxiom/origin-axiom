@@ -797,3 +797,12 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   kill. Five-rung law in m = N/15: sectors at prime-power m (1, 3, 5, 9), none at m = 15 = 3·5.
   **The minimal sector lives on prime-power towers only.** Refined preregs committed: 405 exists
   (36°), 375 exists, 675 none. The tower/continuum reading must survive sector-death at mixed levels.
+
+## 2026-07-03 — the Recognition campaign registered (PR #466) + R1 first pass: the classics miss
+
+- Phase 0 delivered: the Constraint Document (C-1…C-12) — every exact fact a candidate generating
+  theory must reproduce. Four recognition sweeps pre-registered with kills.
+- R1 first pass: **Rademacher Φ(A_m) ≡ 3 across the metallic family** (new exact datum; constant ⇒
+  killed as the phase generator); Dedekind s(1,m) killed by the affine criterion. The level-indexed
+  zoo (Weil/Maslov index of the A₁-action at level N; η-quotient multipliers) is the registered
+  continuation.
