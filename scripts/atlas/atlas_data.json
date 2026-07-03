@@ -7988,6 +7988,20 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B393": {
+   "slug": "cancellation mechanism",
+   "motifs": [
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "K1"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [

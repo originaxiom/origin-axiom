@@ -1,0 +1,34 @@
+{
+ "1,3": {
+  "status": "dark",
+  "X3": 3,
+  "X5": 13,
+  "terms": 39,
+  "nonzero_terms": 0,
+  "cells_nonzero_sum": 0
+ },
+ "3,5": {
+  "status": "dark",
+  "X3": 3,
+  "X5": 5,
+  "terms": 15,
+  "nonzero_terms": 0,
+  "cells_nonzero_sum": 0
+ },
+ "3,4": {
+  "status": "bright",
+  "X3": 3,
+  "X5": 13,
+  "terms": 39,
+  "nonzero_terms": 24,
+  "cells_nonzero_sum": 24
+ },
+ "2,3": {
+  "status": "bright",
+  "X3": 3,
+  "X5": 13,
+  "terms": 39,
+  "nonzero_terms": 18,
+  "cells_nonzero_sum": 18
+ }
+}
