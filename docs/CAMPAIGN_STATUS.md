@@ -16,6 +16,10 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - Nothing in the background.
 
 ## LAST BANKED
+- **B398 COMPLETE: the handoff fully scrutinized.** Math layer: core verified exact +
+  four corrections. Physics layer: the PMNS ensemble FAILED its pre-registered statistics
+  gate (p ≈ 0.09–0.44 vs binding 0.01) — numerology-class, firewalled in S042; the
+  verified math banks as mathematics.
 - **B398 S1–S4 (the handoff's math layer):** 23/75 + the doublet + 98/−52 fully verified
   (fork pinned: 23/75 restricted vs 23/25 full); (3,4) 7/5 verified; (2,3) ℤ/3 exact but
   its "1/3" is a mislabel (degenerate Gram, ratio 1); "tensor rank 4" unsupported
@@ -37,9 +41,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **THE HANDOFF SCRUTINY (B398, running)** — verify Chat-1's spectral/tensor math from
-   banked data (S1–S4), then the binding adversarial-statistics gate on the PMNS reads
-   (S5), then intake + the decision memo (S6) and a HARD STOP for the wall discussion.
+1. **HARD STOP (by design): the wall-campaign discussion with the owner** — the
+   scrutiny is complete; the decision memo is delivered in-session.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
