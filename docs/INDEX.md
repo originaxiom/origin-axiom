@@ -23,6 +23,7 @@ credibility model (GOVERNANCE §1/§9); this map says what to read for the curre
 | `docs/ARCHIVE.md` | the dead-ideas register (why each died — permanent) |
 | `docs/HINT_LEDGER.md` · `docs/NOVELTY_AUDIT.md` | the staged-rigor registers (METHOD.md governs) |
 | `docs/RECURRENCE_ATLAS.md` + `scripts/atlas/` | the re-runnable probe atlas (351 probes) |
+| `docs/TOOLBOX.md` | **the reuse index** — engines, lemmas, design patterns, by applies-when |
 | `METHOD.md` · `ARCHITECTURE.md` · `PROVENANCE.md` · `REPRODUCIBILITY.md` | protocol, rooms, lineage, repro |
 | `frontier/B*/FINDINGS.md` | the probe corpus — every result, refutation, and tombstone, each with locks |
 
