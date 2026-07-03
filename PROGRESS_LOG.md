@@ -904,3 +904,10 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   Mechanical-240 REFUTED as mechanism; Haar/B₂ remain numerological faces. Residue: derive
   −1/16, −1/48 from |tr|² = 15/|det| per class. Bonus: the banked 3-block face's grading
   identified as ±(P₄−P₀)⊗±(Q₈−Q₄); new exact face value ±1/24 for (P₄−P₁₆)⊗(Q₄−Q₈).
+
+## 2026-07-04 — B383: the row-16 reality THEOREM (proved) + the ζ₅-spectrum mechanism
+
+- t(16,b) ∈ ℚ(√5) for ALL b — finite exact verification (T1); the darkness is a zero of the
+  anti-table's ζ₅-spectrum at exactly the 16-exponent (T2), distinguishing 16-dark from
+  4-bright by character exponent alone (T3; new exact row-4 values banked). The P60 residue
+  is closed: row-16 silence = reality theorem + mirror law.
