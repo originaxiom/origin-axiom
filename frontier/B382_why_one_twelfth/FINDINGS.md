@@ -104,3 +104,16 @@ with its ℚ(√5)-darkness. My symmetric guess (P₄−P₁₆)⊗(Q₄−Q₈)
 **Provenance.** assemble_constant.py (~4 min), decompose_reading.py (~4 min); assembly.json,
 reading.json; locks in tests/test_b382_trace_formula.py. Pre-registration: PREREGISTRATION.md
 (PR #477, committed first). Firewall: statements about the level-15 theta model.
+
+---
+
+# Leg 4 BANKED: the magnitude law — |χ|² = #Fix(γ′), unit on the generic cells
+
+Exact, all 240 cells: **|χ(j,l)|² = #ker(γ′−I mod 15)** — the classical fixed-point count.
+Distribution: class 1 → 1 (all 142); class 3 → 9 (all 26: full 3-kernel); class 5 → 5 (60
+cells) or 25 (8 cells: full 5-kernel); class 15 → 45. The theta twist leaves magnitudes
+untouched (pure phase, consistent with the half-characteristic reading). Consequence: the
+−1/16 generic partial is a PURE PHASE-SUM identity over 84 unit-magnitude terms — the last
+layer (its CRT ζ₃×ζ₅ closed-form evaluation) is named as the residue. Per-(a,b) class
+partials banked in magnitudes.json (they recombine to −1/16 and −1/48 exactly; the x,y parts
+cancel in the grading as required).

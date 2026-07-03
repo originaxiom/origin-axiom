@@ -84,3 +84,22 @@ def test_leg3_the_reading_class_partials():
         "15": ["0", "0", "0", "0"]}
     assert RDG["support"] == {"cells": 128,
                               "classes": {"1": 84, "3": 12, "5": 28, "15": 4}}
+
+
+def test_leg4_magnitude_law():
+    MG = json.load(open(os.path.join(HERE, "magnitudes.json")))
+    assert MG["hist"] == {
+        "1": {"1|0|0|0": 142}, "3": {"9|0|0|0": 26},
+        "5": {"25|0|0|0": 8, "5|0|0|0": 60}, "15": {"45|0|0|0": 4}}
+
+
+def test_leg4_partials_recombine():
+    MG = json.load(open(os.path.join(HERE, "magnitudes.json")))
+    from fractions import Fraction as Fr
+    for cls, tgt in (("1", Fr(-1, 16)), ("5", Fr(-1, 48))):
+        for comp in (2, 3):
+            s = (Fr(MG["partials"][f"6,2,cls{cls}"][comp])
+                 - Fr(MG["partials"][f"6,10,cls{cls}"][comp])
+                 - Fr(MG["partials"][f"14,2,cls{cls}"][comp])
+                 + Fr(MG["partials"][f"14,10,cls{cls}"][comp]))
+            assert s == tgt
