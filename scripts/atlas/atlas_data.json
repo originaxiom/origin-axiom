@@ -7854,6 +7854,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B386": {
+   "slug": "crt closed form",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B377",
+    "L1",
+    "L2"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [

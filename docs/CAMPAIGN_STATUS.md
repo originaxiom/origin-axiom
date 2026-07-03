@@ -10,16 +10,16 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 ---
 
 ## RUNNING NOW
-- W1 / B386 leg 1 (foreground): the CRT tensor-identity verification C[j,l] = C₃·C₅ on all
-  240 cells. ETA minutes; banked either way.
+- Nothing in the background. Next wakeup ≈ 50 min (W1 / L2).
 
 ## LAST BANKED
-- PR #490 (W0): the visibility infrastructure — this board, the roadmap, the reporting
-  protocol.
+- W1 / B386 L1: **the Par-trace tensor identity** — the whole seam table is exactly
+  (3-local trace) × (5-local trace), 0/240 mismatches at the banked (2,2) multiplier.
+  The 1/12's factors provably live in a 3×3 and a 5×5 model separately.
 
 ## NEXT (top 3)
-1. **W1 / B386** — the CRT closed form of the 1/12: prereg, then evaluate the −1/16 and
-   −1/48 phase sums by the ζ₃×ζ₅ tensor split. Time-box: 2 sessions.
+1. **W1 / B386 L2** — evaluate the windowed local sums in closed form (two-branch product
+   over the shared parity; the −1/16 and −1/48 as explicit products). Session 2 of 2.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
