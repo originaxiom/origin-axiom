@@ -8087,6 +8087,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B399": {
+   "slug": "wall scale",
+   "motifs": [
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "P64"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
