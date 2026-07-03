@@ -7629,12 +7629,29 @@
    ],
    "refs": [
     "B372",
+    "B374",
     "P56",
     "P57"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 1,
-   "status": "banked",
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B374": {
+   "slug": "level135 rung",
+   "motifs": [
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B372",
+    "B373"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B37": {

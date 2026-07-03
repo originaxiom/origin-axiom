@@ -759,3 +759,15 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   computing: unique sector at ±6 of ord 180 (±12°, trace 2cos 12°), pairing + dihedral persist.
 - E17 promoted at banking. The priced-doors campaign's first verdict: the mass-word's costume moves
   from "possibly anyon" to "lattice-artifact phase, gapless-trending" — still zero physics nouns earned.
+
+## 2026-07-03 — B374 (rung 3): the pinned-exponent law REFUTED — the pentagon-pair oscillation
+
+- Level 135: **the unique invariant sector is {54, 126} — phase ±108° again** (ord 180; dihedral
+  global; cross-prime confirmed). B373's registered kill fired: the "gapless-trending, 9π/N" reading
+  is dead at rung three (the sixth productive failure). The exact three-rung law: phase pinned to the
+  pentagon pair {36°, 108°}, alternating with the 3-adic parity of N = 15·3^k; traces alternate
+  1−φ / φ / 1−φ. The mass-word reading returns to anyon-shaped on this tower; the gapless hinge is
+  CLOSED along 15·3^k as measured.
+- **E17's extrapolation clause corrected in place** (marked, logged; the level-45 data stands).
+- Pre-registered before computation: level 75 (5-tower) — pentagon-pair membership (weak form);
+  level 405 — alternation continues (36°). B373's FINDINGS carries the refutation cross-reference.
