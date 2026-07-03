@@ -10,21 +10,18 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 ---
 
 ## RUNNING NOW
-- **W4 census at q = 243 and 625** (B391): pid 46732, watcher armed — I am re-invoked the
-  moment it completes (event-driven cadence, owner-requested; timers retired except a
-  60-min dead-watcher fallback). ETA ≈ 10–25 min. Registered predictions: 243 → doublet
-  ±81/ord 324; 625 → NO doublet, line at 0/ord 1250.
+- Nothing in the background.
 
 ## LAST BANKED
-- **W3 COMPLETE (P67 + the attribution).** Brightness is local and predictive (P67);
-  the dark pairs split into two proven classes via the exact rank-2 pairing:
-  kernel-killed {(1,5),(4,5)} vs convolution-cancelled {(1,3),(1,4),(3,5)} — the riddle
-  pair is the subtle class, now a sharply posed finite question. W3 closed at session
-  3 of 3, on time-box.
+- **W4 COMPLETE (both predictions HIT):** 243 → doublet ±81/ord 324/90° and 625 → no
+  doublet/line@0/ord 1250, exactly as registered (2 primes each). The general-N existence
+  statement is banked with its honest split: tensor theorem proved by construction; local
+  classification verified to k ≤ 5 / k ≤ 4; the all-k proof precisely named and filed to
+  the specialist register (local theta correspondence). W4 done in 1 session of 2.
 
 ## NEXT (top 3)
-1. **W4 session 1** — B391 prereg: the existence law at general N (lemma list + census
-   checks at q = 243, 625; correct ζ-coverage primes — the 405-trap lesson).
+1. **W5** — the wall-probe reconnaissance (B392 prereg): scale / chirality / dynamics,
+   one computable two-outcome probe each, firewalled.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
