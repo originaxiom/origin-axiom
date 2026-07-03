@@ -4870,3 +4870,20 @@ FINDINGS describe evidence-not-proof; a future "exact-core extraction" pass is t
 The proven core P1–P16 is untouched; the physics firewall is untouched; every O-target remains
 open; nothing physics-adjacent moved. The ledger now represents what the project knows, at the
 strength it knows it. (New metric in force: promotions with zero unmarked retractions.)
+
+## 2026-07-03 — B371: the minimal two-state sector — verified, banked, promoted (P56, P57)
+
+- A relayed cross-session probe (pre-registered there before computation, with kill conditions and an
+  honest errors ledger) answered the owner's "can we compute a photon?" with **NO at the physics level**
+  and a well-posed slot question at the math level. **Independently re-verified here from scratch,
+  every claim exact** (`slot_verification.py`): the 2-dim invariant sector, global dihedral relation,
+  helicity pairing ±ζ₆₀⁹, pentagon-angle golden action (1−φ exactly), the true parity J = Ŝ²
+  (monomial j→1−j, commutes exactly), the Weyl identity J·Par = ζ₆⁻¹·X·Z, and the seam self-coupling
+  at ±1/48 on exactly {6,14}×{2,10}. The value stratification of the (1,2) table = the prime-3 parity
+  split (rigid rows {0,4,6,14} + silent 16 = the trivial-at-3 tower).
+- **Promoted at banking (§5.1 steady state): P56 (the sector), P57 (the parity + Weyl identities)** —
+  exact, locked (4 tests), two independent computation paths. FIREWALL intact: a photon-shaped slot
+  is not a photon; no physics noun earned.
+- **Registered open (fresh pre-registration required): the row-16 silence** — no forcing law survives
+  the exact data (three involutions killed); localized to the XZ block-diagonal on the 3-dim block;
+  the selection-rule derivation of ±1/48 as the unique allowed sector↔sector XZ element is the target.

@@ -7574,6 +7574,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B371": {
+   "slug": "minimal two state sector",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B366",
+    "B367",
+    "K020",
+    "P1",
+    "P5",
+    "P56",
+    "P57"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [
