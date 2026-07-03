@@ -35,3 +35,16 @@ def test_mb12_nonvacuous_on_nontrivial_spans():
         r = DIRS[f"m={m}"]
         if r["indeterminacy_rank"] > 0:
             assert min(r["mb12_random_residuals"]) > 0.1
+
+
+def test_leg_b_gates_and_verdicts():
+    """Leg B: the tau-gate certified, then the pre-registered readouts."""
+    rep = json.load(open(os.path.join(HERE, "massey_legB.json")))
+    assert rep["gates"]["tau_universal_spread"] < 1e-60           # the acceptance gate
+    for m in (1, 4, 5, 7, 8, 11):
+        assert rep["gates"][f"first_order_m{m}"]["offdiag"] < 1e-55
+    assert rep["readout_delta_zero"] is False                     # tau is first-order only
+    assert 0.9 < rep["readout_delta_scale"] < 1.1
+    tb = rep["readout_theta_blocks"]
+    assert tb["esc->esc"] < 0.45 and tb["f4->esc"] < 0.45         # escape-target suppression
+    assert tb["esc->f4"] > 0.9 and tb["f4->f4"] > 0.9             # F4-target saturation

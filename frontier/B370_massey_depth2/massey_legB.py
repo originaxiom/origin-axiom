@@ -72,15 +72,19 @@ def word_jet2(word, za_c, zb_c, wa_c, wb_c):
 
 
 def chain_block_TG(vec_root, mprime):
-    """Root vector -> B357/TG per-block coordinates. S's columns are the NORMALIZED
-    chains, so a coefficient c_k on chain_k/N_k is c_k/N_k on the raw TG basis vector
-    chain_k — DIVIDE by the norm (the first run multiplied; the first-order tau gate
-    caught it: tau spread 3e4 instead of 0)."""
+    """Root vector -> B357/TG per-block (symrep monomial) coordinates, through B352's
+    intertwiner: T = INTERTWINERS[m] satisfies (chain-basis gens)·T = T·(TG gens), i.e.
+    T maps TG coords to normalized-chain coords; T is antidiagonal T[d-j, j] = tau_j.
+    Hence v_TG[j] = v_chain[d-j] / T[d-j, j]. (Two earlier scale-only bridges failed the
+    pre-registered first-order tau-gate — recorded in FINDINGS; this composes the basis
+    change the gate demanded.)"""
     vc = CP.S_INV * vec_root
+    T = CP.INTERTWINERS[mprime]
     o, n = CP.OFFSET[mprime], CP.N_OF[mprime]
+    d = n - 1
     out = mp.matrix(n, 1)
-    for k in range(n):
-        out[k] = vc[o + k] / CP._NORMS[o + k]
+    for j in range(n):
+        out[j] = vc[o + (d - j)] / T[d - j, j]
     return out
 
 
