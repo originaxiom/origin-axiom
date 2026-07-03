@@ -8033,6 +8033,19 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B396": {
+   "slug": "allpairs gate",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "P64"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
