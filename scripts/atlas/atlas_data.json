@@ -7857,17 +7857,21 @@
   "B386": {
    "slug": "crt closed form",
    "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
     "firewall"
    ],
    "refs": [
     "B377",
     "L1",
-    "L2"
+    "L2",
+    "P66"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
-   "domain": "meta"
+   "domain": "arithmetic"
   },
   "B38": {
    "slug": "tangent return arithmetic filter",
