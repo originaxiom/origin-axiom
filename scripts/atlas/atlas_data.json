@@ -7991,11 +7991,13 @@
   "B393": {
    "slug": "cancellation mechanism",
    "motifs": [
+    "golden",
     "torsion",
     "firewall"
    ],
    "refs": [
-    "K1"
+    "K1",
+    "K2"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 2,

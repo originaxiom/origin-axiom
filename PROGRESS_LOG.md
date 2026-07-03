@@ -1050,3 +1050,9 @@ closed form of −1/16 (P64 residue).
   banked (full-field spectra required; bright-controls-read-zero caught the broken form).
 
 - M1 addendum: (1,4) termwise-zero confirmed (0/39) — the mutual-annihilation class is fully covered.
+
+## 2026-07-04 — Closure II M1 COMPLETE: the product-field stratification law
+
+- K2 killed (identical Galois patterns); the law: the annihilation class's 5-side never
+  donates √5 to an imaginary product ((1,4)/(3,5) products fully real; (1,3) z-only;
+  bright complements s-carrying). M2's 405 prediction registered (59 mod 135) and running.
