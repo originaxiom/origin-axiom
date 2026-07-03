@@ -45,3 +45,28 @@ anchor-commit: ffc94bc5ef8b594bff881d8883fd5d49007c8a18
    Ledger now: 57 proven · 12 conditional · 16 certified-data · 9 open · 10 dead.
 
 Next review due ~10 merges from this anchor.
+
+---
+
+## Review 2 — 2026-07-04 (merges 11–25 from Review 1; the counter hit 15 during the overnight arc)
+
+anchor-commit: 4cc43e448616a0c134b82d6154ae8c5b299ef76a
+
+1. **Suite:** green at this review's gating run (recorded in the PR body).
+2. **Gates:** 7/7 green.
+3. **Atlas:** fresh at 360 probes.
+4. **Promotion-candidacy sweep:** the steady state is working — every post-audit probe promoted
+   at banking (P56–P61, E16–E17) or correctly held: **B377's v2 existence law is promotion-GATED
+   on the in-flight acceptance duel** (375 passed; 405/675 pending) — the gate is the discipline,
+   not a backlog. The dps-quartet's exact-core extraction pass remains the named future item.
+5. **Framing/stale-leads:** framing gate green repo-wide. OPEN_LEADS current (W2.11 carries the
+   P60/P61 progress; the priced-doors and Recognition campaign rows current; L51 DORMANT).
+6. **Window highlights (merges 11–25):** the priced-doors campaign registered and run (the
+   tower arc B372–B374: five rungs, two phase laws killed by registered kills); the recognition
+   hit (P59 — the quantized golden cat map); the Derivation Campaign opened (D0 confirmed, the
+   v2 law derived from the complete local table); the selection-rule reduction (P60 — a table
+   became one number); the Galois covariance laws (P61). Ledger now: **61 proven · 12
+   conditional · 17 certified-data**. Three-seat verification ran in both directions, with
+   wrong-object errors caught on BOTH sides (the verifier's row/column error included — recorded).
+
+Next review due ~10 merges from this anchor.
