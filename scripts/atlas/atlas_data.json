@@ -7723,7 +7723,7 @@
     "P60"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 1,
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7737,6 +7737,28 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B380": {
+   "slug": "galois covariance",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "K2",
+    "P56",
+    "P57",
+    "P60",
+    "P61"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B38": {
    "slug": "tangent return arithmetic filter",
