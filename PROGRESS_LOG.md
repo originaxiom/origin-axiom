@@ -959,3 +959,10 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
 ## 2026-07-04 — B385 T2b: darkness is SPECTRUM-cancellation (dark (1,3) has 44/120 anti cells,
 same as bright (3,4)) — the P65 mechanism at pair scale; 3 scan nulls; 4 bright-exclusive
 joint labels on the riddle. Criterion open, true form named (window-cancellation identity).
+
+## 2026-07-04 — B385 correction: the criterion draft KILLED by its own 12/12 test
+
+- Two self-caught errors: the banked split is s-only (my T2b counts were z∨s — data true,
+  reading corrected in place); and the Π_H/DFT commutation fallacy voided the translation-kill
+  logic (third appearance of the trap this session). Continuation reframed: field-level
+  quasi-periods C[j+dj,l+dl] = ζ₆₀^r·C[j,l], which commute with the DFT.
