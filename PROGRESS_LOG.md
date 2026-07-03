@@ -790,3 +790,10 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   arithmetic. Hardware = owner decision (out of campaign scope); feasibility honestly estimated in
   CIRCUIT.md (~10⁶ shots/word to resolve 1/48; synthesis depth = the engineering question). The
   letter/spirit firewall stated and governing.
+
+## 2026-07-03 — N=225: NO invariant sector — the existence law dies at the first mixed level
+
+- ord = 300 = 4N/3 ✓; sixteen mult-1 pairs; **zero invariant** (cross-prime). Eighth registered
+  kill. Five-rung law in m = N/15: sectors at prime-power m (1, 3, 5, 9), none at m = 15 = 3·5.
+  **The minimal sector lives on prime-power towers only.** Refined preregs committed: 405 exists
+  (36°), 375 exists, 675 none. The tower/continuum reading must survive sector-death at mixed levels.

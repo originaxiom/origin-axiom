@@ -24,3 +24,10 @@ def test_rung75_quarter_turn():
     assert r["sectors"] in ([[25, 75]], [(25, 75)])
     assert r["phase_deg_25"] == 90.0
     assert r["cross_prime_confirmed"] is True
+
+
+def test_rung225_no_sector():
+    r = json.load(open(os.path.join(HERE, "rung225.json")))
+    assert r["order"] == 300 and r["n_mult1"] == 16
+    assert r["sectors"] == []
+    assert r["cross_prime_confirmed"] is True
