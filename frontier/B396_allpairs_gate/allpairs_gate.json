@@ -1,0 +1,56 @@
+{
+ "1,2": {
+  "ords": [
+   20,
+   12
+  ],
+  "match": 142,
+  "boundary": 98,
+  "mismatch": 0
+ },
+ "1,3": {
+  "ords": [
+   20,
+   6
+  ],
+  "match": 63,
+  "boundary": 57,
+  "mismatch": 0
+ },
+ "1,4": {
+  "ords": [
+   20,
+   20
+  ],
+  "match": 212,
+  "boundary": 188,
+  "mismatch": 0
+ },
+ "2,3": {
+  "ords": [
+   12,
+   6
+  ],
+  "match": 39,
+  "boundary": 33,
+  "mismatch": 0
+ },
+ "2,4": {
+  "ords": [
+   12,
+   20
+  ],
+  "match": 142,
+  "boundary": 98,
+  "mismatch": 0
+ },
+ "3,4": {
+  "ords": [
+   6,
+   20
+  ],
+  "match": 63,
+  "boundary": 57,
+  "mismatch": 0
+ }
+}

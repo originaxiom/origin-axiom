@@ -1068,3 +1068,8 @@ closed form of −1/16 (P64 residue).
 
 - Cell-wise σ-law fails 140/240 (both lifts); passing set ≠ ±I mod 3 (staged). The mirror
   is a summation-level symmetry — the twist admits it only in aggregate (cf. B389).
+
+## 2026-07-05 — M4 COMPLETE: the formula is universal (661/661, all six pairs)
+
+- Zero mismatches on every banked pair's domain; the complete banked dataset is now
+  formula-derived; D3(c) closed; P64 strengthened in place.

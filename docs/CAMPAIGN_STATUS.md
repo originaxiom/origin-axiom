@@ -16,6 +16,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - Nothing in the background.
 
 ## LAST BANKED
+- **M4 COMPLETE: the formula is UNIVERSAL** — 661/661 domain cells across all six banked
+  pairs, zero mismatches; the entire banked dataset is now formula-derived (D3(c) closed;
+  P64 strengthened in place).
 - **M3 COMPLETE (kill): the mirror is EMERGENT** — no cell-local Galois origin (140/240
   cells fail the σ-law; the passing set is not ±I mod 3; characterization staged). The
   twist admits the mirror only in aggregate — second such symmetry after B389.
@@ -26,8 +29,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **M4** — the all-pairs formula gate (B396) + three staged whys re-enter.
-2. **M5** — the (2,3) stabilizer + defect-tracelessness; then the completeness re-audit.
+1. **M5 (final)** — the (2,3) stabilizer + defect-tracelessness; then the completeness
+   re-audit and the Closure II wrap.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
