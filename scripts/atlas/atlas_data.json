@@ -8046,6 +8046,22 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B397": {
+   "slug": "last census facts",
+   "motifs": [
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B382",
+    "P60"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [

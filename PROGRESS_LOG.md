@@ -1073,3 +1073,10 @@ closed form of −1/16 (P64 residue).
 
 - Zero mismatches on every banked pair's domain; the complete banked dataset is now
   formula-derived; D3(c) closed; P64 strengthened in place.
+
+## 2026-07-05 — M5 + CLOSURE II COMPLETE: the object is computation-complete
+
+- (a) the (2,3) stabilizer is aggregate (third emergent symmetry; no local relabel exists);
+  (b) the σ√5 trace-conjugacy is intra-model (corrected; new face value ±1/24). Synthesis
+  in RECOGNITION.md: everything derived or precisely named; no computable questions remain
+  at level 15.

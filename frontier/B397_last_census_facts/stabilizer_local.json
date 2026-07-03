@@ -1,0 +1,17 @@
+{
+ "2,3": {
+  "nonzero": 56,
+  "sigma19_fixed": 8,
+  "moved": 48
+ },
+ "1,2": {
+  "nonzero": 176,
+  "sigma19_fixed": 16,
+  "moved": 160
+ },
+ "3,4": {
+  "nonzero": 88,
+  "sigma19_fixed": 8,
+  "moved": 80
+ }
+}
