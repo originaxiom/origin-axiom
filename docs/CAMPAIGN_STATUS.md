@@ -16,6 +16,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - Nothing in the background.
 
 ## LAST BANKED
+- **CLOSURE II COMPLETE (M1–M5):** mechanism, unified law, two emergent-symmetry verdicts,
+  universality (661/661), and the corrected defect reading. The object is
+  computation-complete; synthesis in RECOGNITION.md.
 - **M4 COMPLETE: the formula is UNIVERSAL** — 661/661 domain cells across all six banked
   pairs, zero mismatches; the entire banked dataset is now formula-derived (D3(c) closed;
   P64 strengthened in place).
@@ -29,8 +32,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **M5 (final)** — the (2,3) stabilizer + defect-tracelessness; then the completeness
-   re-audit and the Closure II wrap.
+1. **The wall campaign** — owner's decision gate (the object is computation-complete;
+   candidates: the scale wall via the (1+c)/12 tower structure; the paper phase; the
+   emergent-symmetry family as a dedicated theory arc).
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

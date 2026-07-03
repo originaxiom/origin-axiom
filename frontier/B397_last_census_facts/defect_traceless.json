@@ -1,0 +1,33 @@
+{
+ "slot": {
+  "std": [
+   "0",
+   "0",
+   "-1/12",
+   "-1/12"
+  ],
+  "flip": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "conjugate_match": false
+ },
+ "3block": {
+  "std": [
+   "0",
+   "0",
+   "-1/12",
+   "1/12"
+  ],
+  "flip": [
+   "0",
+   "0",
+   "-1/24",
+   "-1/24"
+  ],
+  "conjugate_match": false
+ },
+ "raw_cells_differ": true
+}

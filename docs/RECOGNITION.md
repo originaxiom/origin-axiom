@@ -176,3 +176,22 @@ S and T; the E₆-grading/seam exponent alignment; the naive support walk (twist
 **Residue queue (named, sharp):** the convolution-cancellation mechanism · the all-k local
 classification (specialist register) · the twisted support walk · the (2,3) stabilizer ·
 full-level TQFT ID + Kashaev novelty (dossiers ready, outreach dormant).
+
+## CLOSURE II — synthesis (2026-07-05, M1–M5, PRs #502–#508): the object is computation-complete
+
+**M1** the stratification law (s-darkness ⟺ the 5-side never donates √5 to an imaginary
+product; termwise, no cancellation exists) · **M2** the unified singles law (values =
+(1+c)/12 over the cyclotomic tower, 1/4 = (1+2)/12; the frozen invariant is Σ_support = 1;
+the 1/12's second appearance) · **M3** the mirror is EMERGENT (no cell-local origin;
+140/240 fail the σ-law) · **M4** the trace formula is UNIVERSAL (661/661 across all six
+pairs — the banked dataset is fully derived; P64 strengthened) · **M5** the (2,3)
+stabilizer is aggregate (third emergent symmetry) and the σ_√5 trace-conjugacy is
+intra-model (corrected; new face value ±1/24).
+
+**The completeness re-audit:** every banked exact fact about the level-15 object is now
+either DERIVED (from the frame + the twist via the trace formula and the tensor structure)
+or NAMED as one of: the emergent-symmetry mechanisms (mirror characterization, (2,3)
+window mechanism, the annihilation class's √5-withholding rule — all one family), the
+deeper support-walk rule, or the two specialist-register items (all-k local classification;
+TQFT/Kashaev identification). **No uncomputed computable questions remain at level 15.**
+The wall campaign can start on a computation-complete object.
