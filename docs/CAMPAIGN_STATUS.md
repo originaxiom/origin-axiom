@@ -17,6 +17,10 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
 
 ## LAST BANKED
+- **B402 Q1: the single-object wall has TWO mechanisms, split by seed** — golden: locally
+  forbidden (20/20 cells real); silver: emergent-only (4 unit-power cells carry ±1/8
+  imaginary content, window-cancelled). The m=1/m=2 dichotomy again. Q2 (the
+  characteristic 3-orbit) registered and queued.
 - **W-C session 1 (the owner's angle, B401): the ℤ/2 CLASS GROUP of ℚ(√−15) is
   load-bearing** — the seam field is its Hilbert class field; slot↔3-block AND the two
   ±1/24 faces are class-group orbits; the falsifiable split-covariance prediction

@@ -8152,6 +8152,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B402": {
+   "slug": "stripped mechanisms",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "P64"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
