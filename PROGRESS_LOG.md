@@ -1131,3 +1131,9 @@ closed form of −1/16 (P64 residue).
   prediction can never fire) and REFUTED on numerators (inert 7, 13, 49 banked in seam
   quantities). Sentinels 17/19 recorded for future numerator tests. The six leads map to
   banked/running work (L3's bridge already dead; L4 = W-A in flight).
+
+## 2026-07-04 — B401 addendum: the Eisenstein gate is CELL-WISE (26/26 fully real)
+
+- Chat-1's orthogonality reading tested: stronger than proposed — χ₋₃(det)=+1 class-1
+  cells are individually ℚ(√5)-real (z = s = 0). Local law; mechanism = Gauss-sum field
+  content. Chat-2 retirement noted (cross-check discipline now CC + Chat-1).
