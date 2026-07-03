@@ -1,0 +1,122 @@
+{
+ "0": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 0,
+  "bright": false
+ },
+ "1": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "2": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "3": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 32,
+  "bright": true
+ },
+ "4": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "5": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 36,
+  "bright": true
+ },
+ "6": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 32,
+  "bright": true
+ },
+ "7": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "8": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "9": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 32,
+  "bright": true
+ },
+ "10": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 36,
+  "bright": true
+ },
+ "11": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "12": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 32,
+  "bright": true
+ },
+ "13": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ },
+ "14": {
+  "ords": [
+   20,
+   12
+  ],
+  "s_cells": 44,
+  "bright": true
+ }
+}
