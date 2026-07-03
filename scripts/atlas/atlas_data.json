@@ -8099,7 +8099,7 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B39": {
@@ -8217,6 +8217,22 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "meta"
+  },
+  "B405": {
+   "slug": "supersingular check",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B403",
+    "S5"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B40": {
    "slug": "filter reuse audit",

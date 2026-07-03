@@ -12,3 +12,13 @@ def test_a3_singles_purely_generic():
         assert R[a]["3"] == ["0", "0", "0", "0"]
         assert R[a]["5"] == ["0", "0", "0", "0"]
     assert R["class_counts_l0"] == {"1": 5, "3": 5, "5": 10}
+
+
+def test_a1_1215_kill_and_structure():
+    R = json.load(open(os.path.join(HERE, "singles_1215.json")))
+    assert len(R) == 2
+    for p, cells in R.items():
+        ks = sorted(map(int, cells))
+        assert len(ks) == 24
+        assert all(k % 45 == 31 for k in ks)
+        assert len(set(cells.values())) == 4

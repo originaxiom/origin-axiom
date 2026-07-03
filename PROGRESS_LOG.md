@@ -1148,3 +1148,7 @@ closed form of −1/16 (P64 residue).
 
 - 142/142 generic cells are roots of unity; 3|ord ⟺ χ₋₃(det)=−1 (0 violations); χ₅=−1
   forces the 5-part one-directionally. The gate is now an order theorem.
+
+## 2026-07-04 — the 1215 rung: both walk candidates KILLED; v0 = 1/12 (third appearance);
+B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated by controls
+(11/13/17/19 all give 16), sentinels {31, 79, 167} banked; retcon flagged third time.
