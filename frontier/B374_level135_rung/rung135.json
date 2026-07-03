@@ -1,0 +1,13 @@
+{
+ "order_W1": 180,
+ "n_mult1_pairs": 15,
+ "invariant_sectors": [
+  [
+   54,
+   126
+  ]
+ ],
+ "dihedral_global": true,
+ "cross_prime_confirmed": true,
+ "prediction_hit": false
+}

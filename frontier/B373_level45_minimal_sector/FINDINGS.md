@@ -17,7 +17,13 @@ globally at 45 (as at 15). On the sector, exactly:
   behavior, banked as data).
 - `tr ρ(Ŝ) = 0` — the helicity pairing persists.
 
-## The structural reading (the tower hinge)
+## The structural reading — **CORRECTED same-day by B374 (rung 3)**
+
+**The extrapolation below was refuted at level 135** (the registered kill fired): the exponent is
+NOT pinned at ±6 — at 135 the unique sector sits at {54, 126}, phase ±108° again. The true law
+across three exact rungs: the phase oscillates on the pentagon pair {36°, 108°} with the 3-adic
+parity of the level (see B374). The level-45 data above is unchanged. Original text preserved:
+
 
 The eigenvalue EXPONENT is pinned at ±6 while the order grows with the level
 (ord = 20, 60 at N = 15, 45 — i.e. 4N/3): the angle is `2π·6/(4N/3) = 9π/N → 0` along the
