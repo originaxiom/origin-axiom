@@ -4846,3 +4846,27 @@ attaches at promotion) was designed expecting promotions to fire; they never did
   ~3× suppressed (0.33) — the depth-2 germ sees the E₆→F₄ fold. (3) Mixed symmetry (data).
 - **W2.5 COMPLETE ⇒ the Gate-B classical germ is complete**: orders 1–3 integrable + Lagrangian +
   universal-τ (order 1) + the depth-2 τ-defect matrix with its θ-grading. +1 lock (leg B gates+verdicts).
+
+## 2026-07-03 — THE PROMOTION AUDIT EXECUTED: 61 entries promoted (P17–P55, C6–C12, E1–E15); 6 held
+
+**Protocol applied uniformly per candidate** (GOVERNANCE §5/§5.1/§6): FINDINGS re-read; the five
+red-team questions answered; the test lock verified standalone (281 tests across five batches: 24 +
+61 + 69 + 90 + 37); the independent-second-path leg checked; a scoped statement written; label
+assigned by the bar, never importance (owner directive). Sweep provenance: four parallel strict
+triage passes over frontier/B1–B369 (63 candidates of ~350 probes; 297 NOT with recorded reasons).
+
+**Promoted: 39 proven (P17–P55), 7 conditional (C6–C12, each with its premise in the statement),
+15 certified-data (E1–E15).** Scoping decisions of record: B112 promotes ONLY its Tier-1 lemma (its
+own relabel warning governs); B90 promotes ONLY L1b (tautology + refuted mechanism excluded); B153
+excludes the numerical non-semisimple leg; B134/B136 are corollaries of the published GHH-2008
+criterion (cited) + exhaustive certificates; B204 cites the Jeffrey-1992 framework (novelty not
+claimed); B65+B80 and B273+B274 each merge into ONE claim with two independent evidence paths;
+B131 is scoped to its exact (1,2) fork; B211/B240 promote data with novelty explicitly not claimed.
+
+**Held, with reasons: 6.** B63 (subsumed by P22's two-path claim); B196 (identities subsumed by E6;
+placement NEEDS-SPECIALIST); B352/B353/B357/B370 (the dps-100 computer-assisted class — their own
+FINDINGS describe evidence-not-proof; a future "exact-core extraction" pass is the named route).
+
+The proven core P1–P16 is untouched; the physics firewall is untouched; every O-target remains
+open; nothing physics-adjacent moved. The ledger now represents what the project knows, at the
+strength it knows it. (New metric in force: promotions with zero unmarked retractions.)

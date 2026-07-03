@@ -1,5 +1,7 @@
 # Origin Axiom — Audit Report
 
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+
 **Date:** 2026-05-22 · **Auditor:** repository consolidation audit · **Scope:** full reconciliation of all prior
 Origin Axiom work (4 GitHub repos, the `old/` archive, the May-2026 sessions) ahead of
 starting a clean canonical repository.

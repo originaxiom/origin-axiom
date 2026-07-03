@@ -1,5 +1,7 @@
 # Strategic synthesis — the shape of the work, the open paths, the roadmap (2026-06, B143)
 
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+
 A multi-pass scrutiny of the project's governing question, banked because the strategic map is itself a result worth
 not losing, and writing it down cleanly is the best guard against drift. (Calibrated by the B146 scrutiny pass.)
 

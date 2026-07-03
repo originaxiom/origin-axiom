@@ -181,7 +181,7 @@ institutionalized and generativity ad hoc, so verification was silently blinding
 |---|---|---|
 | **Phase 0** | Governance, specification, claim ledger, repo scaffolding. | locked |
 | **Phase A** | The tested foundation: lock every `proven` result behind a test. | complete — suite green, P1–P16 locked |
-| **Phase B** | The frontier: attempt `open` items in `frontier/`, quarantined, gated. | active — probes B1–B352 (firewalled; zero promotions) |
+| **Phase B** | The frontier: attempt `open` items in `frontier/`, quarantined, gated. | active — probes B1–B370+; physics-boundary rows firewalled throughout; the §5.1 promotion audit executed 2026-07-03 (P17–P55, C6–C12, E1–E15 promoted through the §5 gates) |
 | **Phase C** | Exhaustive survey of emergence-paths (`paths/`). | in progress |
 
 Phase B began only after Phase A's test suite was green. See `ROADMAP.md`.

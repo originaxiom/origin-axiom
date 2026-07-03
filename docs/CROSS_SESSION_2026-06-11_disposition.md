@@ -1,5 +1,7 @@
 # Cross-session processing — disposition ledger (2026-06-11)
 
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+
 Processing record for two parallel review sessions (B = pairing/CFT/arithmetic; C = scrutiny) plus a
 fresh-clone external audit. Default per item: **check against the live repo; bank only what my own
 verification confirms is new + correct, at the supported tier; dedup / tombstone / discard the rest.**

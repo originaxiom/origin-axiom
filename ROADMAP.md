@@ -94,7 +94,7 @@ rep-theory / dimensionless level, the firewall reconfirmed throughout. Since the
 object forces form, not values*, the firewall as a Galois theorem — and the
 **specialist-handoff arc (B315–B325)** mapped the frontier to four gates and confirmed
 the value-firewall empirically (the value-hunt null test). Ledger through `V238`, probes
-`B1–B352`; recent probes in `CHANGELOG.md`; the current frontier in `docs/OPEN_PROBLEMS.md`.
+`B1–B370+`; recent probes in `CHANGELOG.md`; the current frontier in `docs/OPEN_PROBLEMS.md`; the promoted tier in `CLAIMS.md` (2026-07-03 audit).
 
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3
