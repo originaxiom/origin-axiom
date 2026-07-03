@@ -45,3 +45,23 @@ caveats. S5's pre-registered gate now decides.
 
 **Provenance.** s1_s2_spectral.py, s3_tensor.py, the S4 inline checks → four JSONs; locks
 tests/test_b398_handoff_scrutiny.py.
+
+---
+
+# S5 BANKED: the statistics gate — the PMNS ensemble does NOT survive (binding verdict)
+
+Per the committed prereg (pool, protocol, and threshold registered before enumeration):
+- The registered formula space contains **5,964 distinct reduced fractions** in (0,1);
+  the twenty target windows carry ≈ 0.295 total width. Hits within 1σ: sin²θ₁₂ → 139
+  formulas; sin²θ₂₃ → 169; sin²θ₁₃ → 32; even α_s(M_Z) → 22.
+- A data-derived ratio hits SOME target window with p ≈ 0.96; a 1550-formula scan hits
+  the θ₂₃ window with p ≈ 1.0; the θ₁₃ = θ₁₂/k selection succeeds for 1 of 11 pool
+  divisors (p ≈ 0.09).
+- **Combined ensemble p ≈ 0.087 (raw), ≈ 0.44 (family-corrected) — the binding threshold
+  was p < 0.01. THE ENSEMBLE BANKS AS NUMEROLOGY-CLASS.** No physics voicing; no δ = π/2
+  registration. (Robustness: no reasonable variation of the model approaches 0.01; the
+  S1–S4 corrections had already removed two of the three coherence arguments.)
+
+The exact mathematics stands independently (S1–S4): the 23/75 Gram ratio, the 1/24
+doublet, the 98/−52 integers, the 7/5 pair, and the ℤ/3 point are real, banked
+structure of the seam form — as MATHEMATICS. Locks: tests (S5 section).

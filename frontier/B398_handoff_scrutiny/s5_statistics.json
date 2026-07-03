@@ -1,0 +1,113 @@
+{
+ "pmns_s12": {
+  "center": 0.307,
+  "sigma": 0.013,
+  "hits_1sigma": 139
+ },
+ "pmns_s23": {
+  "center": 0.545,
+  "sigma": 0.023,
+  "hits_1sigma": 169
+ },
+ "pmns_s13": {
+  "center": 0.022,
+  "sigma": 0.0007,
+  "hits_1sigma": 32
+ },
+ "weinberg_MZ": {
+  "center": 0.23122,
+  "sigma": 4e-05,
+  "hits_1sigma": 0
+ },
+ "alpha": {
+  "center": 0.0072974,
+  "sigma": 1e-07,
+  "hits_1sigma": 0
+ },
+ "alpha_s_MZ": {
+  "center": 0.1179,
+  "sigma": 0.0009,
+  "hits_1sigma": 22
+ },
+ "ckm_lambda": {
+  "center": 0.225,
+  "sigma": 0.0007,
+  "hits_1sigma": 7
+ },
+ "ckm_A": {
+  "center": 0.826,
+  "sigma": 0.012,
+  "hits_1sigma": 71
+ },
+ "ckm_rhobar": {
+  "center": 0.159,
+  "sigma": 0.01,
+  "hits_1sigma": 165
+ },
+ "ckm_etabar": {
+  "center": 0.348,
+  "sigma": 0.01,
+  "hits_1sigma": 104
+ },
+ "mmu_mtau": {
+  "center": 0.05946,
+  "sigma": 5e-05,
+  "hits_1sigma": 1
+ },
+ "me_mmu": {
+  "center": 0.004836,
+  "sigma": 1e-06,
+  "hits_1sigma": 0
+ },
+ "mc_mt": {
+  "center": 0.0074,
+  "sigma": 0.0004,
+  "hits_1sigma": 28
+ },
+ "ms_mb": {
+  "center": 0.022,
+  "sigma": 0.002,
+  "hits_1sigma": 88
+ },
+ "mu_md": {
+  "center": 0.47,
+  "sigma": 0.06,
+  "hits_1sigma": 504
+ },
+ "mb_mt": {
+  "center": 0.0243,
+  "sigma": 0.0005,
+  "hits_1sigma": 21
+ },
+ "mtau_mt": {
+  "center": 0.01027,
+  "sigma": 5e-05,
+  "hits_1sigma": 1
+ },
+ "md_ms": {
+  "center": 0.05,
+  "sigma": 0.004,
+  "hits_1sigma": 133
+ },
+ "theta_c_sin2": {
+  "center": 0.0506,
+  "sigma": 0.0003,
+  "hits_1sigma": 8
+ },
+ "jcp_ckm_e5": {
+  "center": 0.3,
+  "sigma": 0.01,
+  "hits_1sigma": 115
+ },
+ "_ensemble": {
+  "space_size": 5964,
+  "window_sum": 0.2952822,
+  "p_data_ratio_hits_some_target": 0.9571,
+  "frac_space_in_s23_window": 0.02834,
+  "p_scan1550_hits_s23": 1.0,
+  "theta13_divisor_hits": "1/11",
+  "p_theta13_given_theta12": 0.091,
+  "p_combined_raw": 0.08701196456672074,
+  "p_combined_family_corrected": 0.43505982283360367
+ }
+}

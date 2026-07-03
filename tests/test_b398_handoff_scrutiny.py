@@ -38,3 +38,11 @@ def test_s3_fibers_and_rectangles():
     assert S3["fibers"] == {"0,0": 1, "1,1": 2, "1,3": 2, "2,2": 1,
                             "3,1": 2, "3,3": 2}
     assert S3["rect"] == [168, 265]
+
+
+def test_s5_gate_verdict():
+    S5 = json.load(open(os.path.join(HERE, "s5_statistics.json")))
+    e = S5["_ensemble"]
+    assert e["space_size"] == 5964
+    assert S5["pmns_s12"]["hits_1sigma"] == 139
+    assert e["p_combined_family_corrected"] > 0.01   # the binding rule: ensemble killed

@@ -1087,3 +1087,9 @@ closed form of −1/16 (P64 residue).
   7/5; the ℤ/3 point's exactness; all ranks; the fiber pattern. CORRECTED/UNSUPPORTED:
   (2,3) "1/3" mislabel; "tensor rank 4"; 296/464; the σ⊗Weil(5) adjoint bridge. The 7 has
   banked provenance (φ⁴+φ⁻⁴, B109). S5 gate next.
+
+## 2026-07-05 — B398 COMPLETE: S5 gate kills the PMNS ensemble; math banked as math
+
+- Binding verdict: p ≈ 0.087 raw / 0.44 corrected vs the registered 0.01 — numerology-class
+  (S042, firewalled; revival bar = a derivation, not a match). The exact seam-form
+  mathematics (23/75, doublet, 98/−52, 7/5, the ℤ/3 point) stands as banked structure.
