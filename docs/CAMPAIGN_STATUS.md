@@ -17,6 +17,10 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
 
 ## LAST BANKED
+- **W-C session 2 (B401): two genus selection rules** — the √−3 channel is GATED by
+  χ₋₃ = −1 on generic cells; the golden boundary splits χ₋₃-evenly (4 cells ≡ 64 cells,
+  −1/96 each). Plus the identity dossier: the H-basis IS the Gauss-sum basis of the genus
+  characters; entropy = 4·Reg(ℚ(√5)) = 2√5·L(1,χ₅); h = 2 rides the seam character.
 - **B402 Q1: the single-object wall has TWO mechanisms, split by seed** — golden: locally
   forbidden (20/20 cells real); silver: emergent-only (4 unit-power cells carry ±1/8
   imaginary content, window-cancelled). The m=1/m=2 dichotomy again. Q2 (the
@@ -59,8 +63,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 
 ## NEXT (top 3)
 1. **Wall W-A (running):** the 1215 verdict → the walk law → A2 hierarchy probe.
-2. **W-C (the sixth angle) session 2:** P3 genus-character assembly + P4 exact
-   class-number-formula relations; then the wall wrap.
+2. **Q2 (the ℤ/3 twist-address siblings)** and **A2 (hierarchy probe)** — then the
+   wall-campaign wrap memo.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

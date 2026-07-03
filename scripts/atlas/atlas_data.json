@@ -8136,9 +8136,11 @@
     "golden",
     "amphichiral_cp",
     "torsion",
+    "lorentzian",
     "firewall"
    ],
    "refs": [
+    "B109",
     "B382",
     "B397",
     "P1",

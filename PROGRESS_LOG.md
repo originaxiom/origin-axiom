@@ -1118,3 +1118,9 @@ closed form of −1/16 (P64 residue).
 - m=1: cell-wise real (locally forbidden). m=2: aggregate-only (units j ∈ {1,5,7,11}
   carry ±1/8, window-cancelled). The narrative's best line refined into two mechanisms.
   Q2 (the twist-address 3-orbit) registered with the address-measurement pipeline.
+
+## 2026-07-04 — W-C session 2: two genus selection rules + the identity dossier
+
+- The Eisenstein gate (z ≡ 0 on χ₋₃ = +1 generic sectors); boundary equipartition (4 cells
+  = 64 cells = −1/96 each). Dossier: H-basis = Gauss-sum basis of the genus characters;
+  entropy = 4Reg = 2√5·L(1,χ₅); the seam character carries h = 2.
