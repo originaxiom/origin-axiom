@@ -7672,6 +7672,23 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B376": {
+   "slug": "cat map recognition",
+   "motifs": [
+    "metallic",
+    "golden",
+    "five_web"
+   ],
+   "refs": [
+    "B372",
+    "B374",
+    "P59"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [

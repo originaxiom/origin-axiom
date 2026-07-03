@@ -806,3 +806,14 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   killed as the phase generator); Dedekind s(1,m) killed by the affine criterion. The level-indexed
   zoo (Weil/Maslov index of the A₁-action at level N; η-quotient multipliers) is the registered
   continuation.
+
+## 2026-07-03 — B376 (R1): RECOGNITION HIT — the tower is the quantized golden cat map (P59)
+
+- **π(N)/2 = ord(A₁ mod N) = the measured Weil order at ALL FIVE levels** including the sector-less
+  225. "ord = 4N/3" was coincidental; the Pisano identity is structural. Predictions registered:
+  500/540/900 at N = 375/405/675.
+- The frame (Hannay–Berry; Kurlberg–Rudnick Hecke theory) is KNOWN mathematics — cited, not claimed.
+  What it buys: the phase-map riddle → cat-map doublet eigenvalues; the prime-power existence law →
+  ℤ[φ]-splitting arithmetic (5 ramifies, 3 inert) with the R2 obstruction as character misalignment;
+  **Phase 2's derive-don't-fit target fixed**: derive the existence law, a(N), and ultimately the
+  C-5 seam tables from cat-map Hecke theory — breakthrough if it derives, sharpest boundary if not.

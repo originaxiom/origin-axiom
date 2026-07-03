@@ -1,0 +1,49 @@
+{
+ "15": {
+  "pisano": 40,
+  "half": 20,
+  "ord_cat_map": 20,
+  "measured_weil_order": 20,
+  "identity": true
+ },
+ "45": {
+  "pisano": 120,
+  "half": 60,
+  "ord_cat_map": 60,
+  "measured_weil_order": 60,
+  "identity": true
+ },
+ "75": {
+  "pisano": 200,
+  "half": 100,
+  "ord_cat_map": 100,
+  "measured_weil_order": 100,
+  "identity": true
+ },
+ "135": {
+  "pisano": 360,
+  "half": 180,
+  "ord_cat_map": 180,
+  "measured_weil_order": 180,
+  "identity": true
+ },
+ "225": {
+  "pisano": 600,
+  "half": 300,
+  "ord_cat_map": 300,
+  "measured_weil_order": 300,
+  "identity": true
+ },
+ "375": {
+  "pisano": 1000,
+  "predicted_order": 500
+ },
+ "405": {
+  "pisano": 1080,
+  "predicted_order": 540
+ },
+ "675": {
+  "pisano": 1800,
+  "predicted_order": 900
+ }
+}
