@@ -990,3 +990,9 @@ closed form of −1/16 (P64 residue).
 - const(45) = 0 exactly (sector rows ±6 absent from the banked E16 support); ratio 0 ∉ R1-R4;
   gauntlet not triggered. The structural read: the coincidence of seam and value sector is a
   base-level (15) phenomenon. The 135 sector-row computation is running (named continuation).
+
+## 2026-07-04 — W2 COMPLETE: the 135 rung is zero too — the decoupling is a two-rung fact
+
+- t(54/126, 2/10)@135 = 0 at 3/3 primes. The seam ↔ value-sector coincidence is exclusive to
+  the base level 15 (dark at 45 exact-banked, dark at 135 CRT). The graded-pair ratio ladder
+  is dead as registered; the structural fact is the deliverable. W2 exits at session 2 of 3.

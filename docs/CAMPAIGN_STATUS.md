@@ -10,19 +10,17 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 ---
 
 ## RUNNING NOW
-- **The 135 rung's sector rows** (B387 continuation): pid 41968, watcher armed, ETA ~30-60
-  min — decides whether the ratio ladder lives at 135 or the seam/sector decoupling is a
-  two-rung fact.
+- Nothing in the background. Next wakeup ≈ 45–60 min (W3 session 1).
 
 ## LAST BANKED
-- **W2 / 2a+2b: the registered KILL — and it's structural.** The level-45 value sector
-  (rows ±6) carries ZERO Par-pair content (exact, from the locked E16 table): const(45) = 0,
-  ratio = 0 ∉ the registered set. **The seam and the value sector decouple above the base
-  level** — the two structures coincide only at 15. No pattern claim before the 135 rung
-  (per prereg); gauntlet not triggered.
+- **W2 COMPLETE (KILL-with-structure, under time-box):** the 135 rung is ZERO too (3/3
+  primes) — **the seam/value-sector coincidence is exclusive to level 15** (dark at 45
+  exact, dark at 135 by CRT). The graded-pair ratio ladder is dead as registered; the
+  decoupling fact is the deliverable.
 
 ## NEXT (top 3)
-1. **W2 / 135-rung verdict** (running) — then bank + W2 wrap (session 2 of 3).
+1. **W3 session 1** — the m=2 relabel law 15→45 (basis semantics of the extra level-45
+   components), prereg first (B388).
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

@@ -36,3 +36,18 @@ The 135 rung's sector rows: t(54,b), t(126,b), b ∈ {2,10} at ord(W₁@135) = 1
 
 **Provenance.** extract_45.py → extract_45.json (from the banked sweep45.json, E16-locked);
 locks tests/test_b387_ladder.py.
+
+---
+
+# The 135 rung: ZERO again (3/3 primes) — W2 wraps: the decoupling is a two-rung fact
+
+t(54,b) = t(126,b) = 0 for b ∈ {2,10} at level 135 (the banked B374 sector rows, ord 180),
+unanimous across three primes (rung135_sector_rows.json). **The value sector is Par-dark at
+every level above the base tested (45 exact-banked, 135 3-prime CRT): the seam ↔ value-sector
+coincidence is exclusive to level 15.** The forced-ratio ladder in the graded-pair channel
+is dead as registered — and the structural fact that killed it is the deliverable: whatever
+transports up the tower (the m=1 single-seed 1/4 does, PR #484), the seam's pair channel and
+the value sector separate immediately above the base. W2 exits BANKED at session 2 of 3.
+
+**Provenance.** rung135_sector_rows.py (detached, ~35 min; the par-trace O(N²) cell trick);
+locks tests/test_b387_ladder.py.
