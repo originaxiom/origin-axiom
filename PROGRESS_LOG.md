@@ -1002,3 +1002,9 @@ closed form of −1/16 (P64 residue).
 - C0-C3 all fail (exhaustive); reason: level-45 m=2 singles are strictly coarser (two bare
   values by a mod 3; c₁ ≡ 0; c₂ even-supported, odd under a→a+6, pattern (1,2,1)/48). The
   seeds have OPPOSITE level behavior: m=1 identical transport, m=2 coarsening. 4 locks.
+
+## 2026-07-04 — W3.ii (B389): the mirror is NOT inversion — the dihedral route is twist-blocked
+
+- M3 ✓ ([Ŝ,Par]=0); M1/M2 killed; ŜW₁Ŝ⁻¹ matches W₁⁻¹ in support (0/225) but not phases —
+  inversion is twist-broken (P62 pattern), so the mirror is twist-compatible, not a group
+  shadow. W3.i+ii both done in session 1; W3.iii (criterion) has 2 sessions.

@@ -7907,6 +7907,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B389": {
+   "slug": "mirror mechanism",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "P61",
+    "P62"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [
