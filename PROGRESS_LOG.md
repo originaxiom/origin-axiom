@@ -1048,3 +1048,5 @@ closed form of −1/16 (P64 residue).
 - No cancellation exists: dark non-kernel pairs have EVERY convolution term zero (bright
   controls have teeth). Dark classes = KERNEL vs MUTUAL-ANNIHILATION. Instrument correction
   banked (full-field spectra required; bright-controls-read-zero caught the broken form).
+
+- M1 addendum: (1,4) termwise-zero confirmed (0/39) — the mutual-annihilation class is fully covered.

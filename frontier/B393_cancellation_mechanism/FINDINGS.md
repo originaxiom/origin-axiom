@@ -19,7 +19,7 @@ mechanism (5-side kernel) — the two dark classes are now: KERNEL vs MUTUAL-ANN
 **Session-2 item (named):** the one-line Galois property forcing termwise orthogonality —
 candidate: the dark pairs' X₃ elements lie in a Galois eigenspace whose product with the
 X₅-span is √−15-free (test the four Gal(ℚ(ζ₆₀)/H) stabilizers on the X₃ elements, dark vs
-bright). Also re-verify on (1,4) (deferred this session for cost).
+bright). (1,4) COMPLETED: 0/39 nonzero terms — the class is fully covered {0/39, 0/39, 0/15}.
 
 **Provenance.** k1_fullfield.py (~10 min) → k1_fullfield.json; locks
 tests/test_b393_mechanism.py.
