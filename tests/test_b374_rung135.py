@@ -16,3 +16,11 @@ def test_refutation_of_the_pinned_exponent_law():
 def test_gates():
     assert R["dihedral_global"] is True
     assert R["cross_prime_confirmed"] is True
+
+
+def test_rung75_quarter_turn():
+    r = json.load(open(os.path.join(HERE, "rung75.json")))
+    assert r["order"] == 100
+    assert r["sectors"] in ([[25, 75]], [(25, 75)])
+    assert r["phase_deg_25"] == 90.0
+    assert r["cross_prime_confirmed"] is True

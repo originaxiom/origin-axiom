@@ -1,0 +1,12 @@
+{
+ "order": 100,
+ "n_mult1": 13,
+ "sectors": [
+  [
+   25,
+   75
+  ]
+ ],
+ "cross_prime_confirmed": true,
+ "phase_deg_25": 90.0
+}

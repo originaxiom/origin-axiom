@@ -771,3 +771,11 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
 - **E17's extrapolation clause corrected in place** (marked, logged; the level-45 data stands).
 - Pre-registered before computation: level 75 (5-tower) — pentagon-pair membership (weak form);
   level 405 — alternation continues (36°). B373's FINDINGS carries the refutation cross-reference.
+
+## 2026-07-03 — the 75-rung (5-tower): the pentagon-pair prediction also killed — phase 90°, trace 0
+
+- Unique sector {25, 75} of ord 100: **±90°, golden trace exactly 0** (quarter-turn). Seventh
+  productive failure. Four exact rungs: phases 108/36/108/90; a/N = 2/5, 2/15, 2/5, 1/3; ord = 4N/3
+  uniform. **The surviving law: existence + uniqueness of the invariant two-state sector at every
+  level tested (two tower directions), with helicity and ord = 4N/3.** The phase-map riddle
+  registered (3-part/5-part arithmetic of N); next datum N = 225, NO phase prediction registered.
