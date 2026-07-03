@@ -1105,3 +1105,10 @@ closed form of −1/16 (P64 residue).
 - The golden slot rows are antipodal (one line, labels ±2); the Mercedes plane's support
   omits exactly {±2, 6}; exact orthogonality by spectral support disjointness. No
   canonical 3×3 exists — the content wall priced; S5 grounded geometrically.
+
+## 2026-07-04 — W-C session 1 (the owner's sixth angle): the class group is load-bearing
+
+- H = Hilbert class field of ℚ(√−15); σ_cl pairs slot↔−3block AND B382-face↔B397-face;
+  the split-covariance prediction CONFIRMED exactly (3-block: −1/16,+1/16 ⊕ −1/48,+1/48).
+  Prime spectroscopy banked (23, 2 non-principal; 7, 11, 13 inert; naive channel-sorting
+  bet killed by 7-in-spectrum). P3/P4 next.
