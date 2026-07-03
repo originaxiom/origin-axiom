@@ -1,0 +1,94 @@
+{
+ "orbit": {
+  "slot": {
+   "image": [
+    "0",
+    "0",
+    "1/12",
+    "-1/12"
+   ],
+   "equals": null,
+   "equals_minus": "3block"
+  },
+  "3block": {
+   "image": [
+    "0",
+    "0",
+    "1/12",
+    "1/12"
+   ],
+   "equals": null,
+   "equals_minus": "slot"
+  },
+  "face_B382": {
+   "image": [
+    "0",
+    "0",
+    "-1/24",
+    "-1/24"
+   ],
+   "equals": "face_B397",
+   "equals_minus": null
+  },
+  "face_B397": {
+   "image": [
+    "0",
+    "0",
+    "1/24",
+    "-1/24"
+   ],
+   "equals": "face_B382",
+   "equals_minus": null
+  },
+  "class1_part": {
+   "image": [
+    "0",
+    "0",
+    "1/16",
+    "-1/16"
+   ],
+   "equals": null,
+   "equals_minus": null
+  },
+  "class5_part": {
+   "image": [
+    "0",
+    "0",
+    "1/48",
+    "-1/48"
+   ],
+   "equals": null,
+   "equals_minus": null
+  }
+ },
+ "spectroscopy": {
+  "2": {
+   "cls": "nonprincipal",
+   "where": "denominators everywhere (2-powers up to 2^6)"
+  },
+  "3": {
+   "cls": "ramified",
+   "where": "denominators; the 3-side"
+  },
+  "5": {
+   "cls": "ramified",
+   "where": "denominators; the 5-side / golden boundary"
+  },
+  "7": {
+   "cls": "inert",
+   "where": "the (3,4) Gram ratio 7/5; |tr J| = 7"
+  },
+  "23": {
+   "cls": "nonprincipal",
+   "where": "the Gram eigenvalue 23/19200; the 23/75 ratio"
+  },
+  "11": {
+   "cls": "inert",
+   "where": "handoff numerology only (6/11) -- control"
+  },
+  "13": {
+   "cls": "inert",
+   "where": "F4 Gram inner -13/57600"
+  }
+ }
+}

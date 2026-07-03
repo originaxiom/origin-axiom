@@ -17,6 +17,11 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
 
 ## LAST BANKED
+- **W-C session 1 (the owner's angle, B401): the ℤ/2 CLASS GROUP of ℚ(√−15) is
+  load-bearing** — the seam field is its Hilbert class field; slot↔3-block AND the two
+  ±1/24 faces are class-group orbits; the falsifiable split-covariance prediction
+  CONFIRMED exactly; prime spectroscopy banked (23, 2 non-principal; naive sorting bet
+  honestly killed by 7-inert).
 - **W-B1 COMPLETE (one session): NO canonical frame exists.** In the only choice-free
   common space, the golden seam line (W₂-labels ±2) and the ℤ/3 Mercedes plane occupy
   DISJOINT spectral sectors — exact orthogonality, zero relative geometry. The content
@@ -50,7 +55,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 
 ## NEXT (top 3)
 1. **Wall W-A (running):** the 1215 verdict → the walk law → A2 hierarchy probe.
-2. **W-A2** (hierarchy probe) after the 1215 verdict; then the wall-campaign wrap.
+2. **W-C (the sixth angle) session 2:** P3 genus-character assembly + P4 exact
+   class-number-formula relations; then the wall wrap.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

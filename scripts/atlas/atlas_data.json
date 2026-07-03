@@ -8129,6 +8129,29 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B401": {
+   "slug": "sixth angle",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B382",
+    "B397",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P60"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
