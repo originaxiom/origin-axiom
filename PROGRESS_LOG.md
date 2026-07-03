@@ -911,3 +911,9 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   anti-table's ζ₅-spectrum at exactly the 16-exponent (T2), distinguishing 16-dark from
   4-bright by character exponent alone (T3; new exact row-4 values banked). The P60 residue
   is closed: row-16 silence = reality theorem + mirror law.
+
+## 2026-07-04 — B382 leg 4: the magnitude law |χ|² = #Fix(γ′) — unit on generic cells
+
+- All 240 cells: |χ|² = the fixed-point count (1/9/5/25/45 by class) — the twist is pure
+  phase; the −1/16 is a pure phase-sum identity (84 unit terms). Residue named: its CRT
+  ζ₃×ζ₅ closed form. Per-cell class partials banked; they recombine to −1/16 / −1/48 exactly.

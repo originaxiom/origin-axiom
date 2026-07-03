@@ -7794,7 +7794,7 @@
     "P62"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 1,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },
