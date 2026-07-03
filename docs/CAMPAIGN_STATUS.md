@@ -13,13 +13,15 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- Nothing in the background.
+- **M2: the 405 singles** (B394, pid 50232, PID-watcher armed, ETA ~5 min). Registered
+  primary prediction: support ≡ 59 (mod 135), all values 1/4.
 
 ## LAST BANKED
-- **M1 session 1 (B393): the mechanism is TERMWISE — no cancellation exists.** Every
-  pairing term vanishes individually for the dark non-kernel pairs (0/39, 0/15; bright
-  controls 24/39, 18/39). The two dark classes are now KERNEL vs MUTUAL-ANNIHILATION.
-  Session 2: the one-line Galois "why" + the (1,4) completion.
+- **M1 COMPLETE: the annihilation mechanism = the product-field stratification law.**
+  Dark (1,4)/(3,5): every product fully real; dark (1,3): imaginary parts √5-free
+  (z-only); bright pairs put the same stratum into s-carrying. **s-darkness of the class
+  ⟺ the 5-side never donates √5 to an imaginary product.** Galois eigen-patterns of X₃
+  do NOT discriminate (K2 killed). Residual why staged; re-entry via M4.
 
 ## NEXT (top 3)
 1. **M1 session 1** — the cancellation mechanism (B393 prereg + spectral vectors vs the

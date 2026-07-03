@@ -23,3 +23,19 @@ bright). (1,4) COMPLETED: 0/39 nonzero terms — the class is fully covered {0/3
 
 **Provenance.** k1_fullfield.py (~10 min) → k1_fullfield.json; locks
 tests/test_b393_mechanism.py.
+
+---
+
+# Session 2 BANKED — M1 CLOSES: the product-field stratification law
+
+- **K2 (Galois eigen-pattern of X₃) KILLED:** dark and bright X₃ spectra have IDENTICAL
+  Galois structure (each pair: one fully-fixed cell + two σ₄₉-fixed cells; galois_why.json).
+- **THE LAW (exact, all products classified; product_fields.json):** the annihilation class
+  is stratified — (1,4), (3,5): every X₃·X₅ product is FULLY REAL (39/39, 15/15 in the
+  (x,y)-block); (1,3): products are √5-free in their imaginary part (15 real + 24 z-only,
+  0 s-carrying); bright controls put exactly the complementary stratum into s-carrying
+  ((3,4): 15 real + 24 s; (2,3): 21 real + 18 s). **s-darkness of the class ⟺ the 5-side
+  never donates √5 to an imaginary product.**
+- Residual (staged, named): why (1,3)'s 5-side withholds √5 at the X₃-paired frequencies
+  while (3,4)'s donates — one more Galois layer down; re-entry via M4's all-pairs formula
+  view. M1 exits at session 2 of 2, on time-box.
