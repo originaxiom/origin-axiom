@@ -1056,3 +1056,10 @@ closed form of −1/16 (P64 residue).
 - K2 killed (identical Galois patterns); the law: the annihilation class's 5-side never
   donates √5 to an imaginary product ((1,4)/(3,5) products fully real; (1,3) z-only;
   bright complements s-carrying). M2's 405 prediction registered (59 mod 135) and running.
+
+## 2026-07-05 — M2 COMPLETE: the unified singles law — (1+c)/12 and the sum rule
+
+- Both registered 405 candidates killed (support ≡ 31 mod 45, twelve cells). The reward:
+  values = (1+c)/12 over ζ₉⁺ orbits; 1/4 = (1+2)/12 degenerate; Σ_support = 1 frozen at all
+  levels. W5 P-SCALE verdict amended (sum frozen, not the cell value). Import-trap guards
+  banked (census_big, k1_fullfield).

@@ -132,8 +132,10 @@ def census(q, ord_pred, p, g):
                 doublet_deg=(360.0*doublet[0]/o if doublet else None))
 
 CASES = [(243, 324), (625, 1250)]
-res = {}
-for q, ord_pred in CASES:
+
+if __name__ == "__main__":
+  res = {}
+  for q, ord_pred in CASES:
     prs = primes_1_mod(4*q, 2, start=3*10**7)
     for p in prs:
         assert (p-1) % q == 0
@@ -141,5 +143,5 @@ for q, ord_pred in CASES:
         r = census(q, ord_pred, p, g)
         res.setdefault(str(q), []).append(dict(prime=p, **r))
         print(q, p, r, flush=True)
-json.dump(res, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "census_big.json"), "w"), indent=1)
-print("DONE", flush=True)
+  json.dump(res, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "census_big.json"), "w"), indent=1)
+  print("DONE", flush=True)

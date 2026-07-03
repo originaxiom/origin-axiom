@@ -8004,6 +8004,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B394": {
+   "slug": "support walk",
+   "motifs": [
+    "metallic",
+    "firewall"
+   ],
+   "refs": [
+    "B372"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
