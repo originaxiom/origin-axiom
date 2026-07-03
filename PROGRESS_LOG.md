@@ -942,3 +942,10 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   h=(3/10,7/10); tr(F|slot) = −(5/16φ)(3−√−3). D5 synthesis written into RECOGNITION.md
   (6 derived, 5 resisted, residue queue priced); PRICED_DOORS PD1.2/PD3.1 rows updated.
   The Derivation Campaign's registered program is COMPLETE.
+
+## 2026-07-04 — B385 T1: double kill — the bright/dark discriminator is character-level
+
+- Kill 1: no γ-group invariant separates (bright (2,3) ≡ dark (1,3) profiles). Kill 2: the
+  word-grid det-class distribution fails on exactly the riddle pair ((3,4) ≡ (1,3):
+  {63,21,27,9}/120). DERIVED continuation: D·C⁻¹ = Z^{−8} exactly — theta words = standard
+  lift × T(v_word); the discriminator must live in the accumulated word-shift map's 5-part.
