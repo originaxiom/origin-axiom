@@ -7598,6 +7598,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B372": {
+   "slug": "level45 sweeper",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B367",
+    "P19",
+    "P56",
+    "P57"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [

@@ -4887,3 +4887,15 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
 - **Registered open (fresh pre-registration required): the row-16 silence** — no forcing law survives
   the exact data (three involutions killed); localized to the XZ block-diagonal on the 3-dim block;
   the selection-rule derivation of ±1/48 as the unique allowed sector↔sector XZ element is the target.
+
+## 2026-07-03 — B372 (W2.7) DONE: the seam is a LEVEL-FAMILY phenomenon (null refuted); E16
+
+- CRT/F_p engine (toolbox row 6), gate-anchored on the banked level-15 flagship (exact
+  reproduction), 3 primes, held-out embeddings, zero identification failures.
+- **Q1 (the wall): HOLDS, cleaner than at 15** — singles = four cells ≡ 1 mod 15, each exactly 1/4,
+  purely rational. **Q2: the pre-registered null REFUTED** (the arc's 5th productive failure):
+  **all 144 pair cells carry imaginary components; 144/144 carry √−15-type content; every cell has
+  genuine ℚ(ζ₉)⁺ dependence** — the seam persists at 45 and its home GROWS to the 12-dim compositum.
+  Denominators stay 15-smooth × 2-power (≤ 2880).
+- E16 promoted at banking (the exact table; certified data). Follow-on lead registered: the value
+  tower's growth with the level (the conductor structure of the seam). Task #161 completed.

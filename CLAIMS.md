@@ -168,6 +168,7 @@ the gates. `E`-ids.)*
 | E13 | H₁ of the 3-fold cyclic cover of 4₁ = ℤ ⊕ (ℤ/4)² with the deck ℤ/3 acting irreducibly (Φ₃ mod 4) — verified two independent ways (SnapPy + the exact Alexander module). | `frontier/B326_congruence_torsion` · `tests/test_b326_congruence_torsion.py` ✓ |
 | E14 | dim H¹(4₁, Sym^{2m}) = 1 per E₆ exponent (six blocks; discrete rank-cliff outputs at ~10⁸⁵ margins) with the hyperelliptic θ-grading (−1)^{m+1} = the E₆ → F₄ split (second path: the exact total of the E₆ tangent claim + independent per-block rank cliffs). | `frontier/B347_e6_tangent_gradings` · `tests/test_b347_e6_tangent_gradings.py` ✓ |
 | E15 | The exact pair-point minimal polynomials: (1,3): T⁵−13T⁴+60T³−121T²+114T−47; (2,3): T³−16T²+68T−72 (odd degree ⇒ no quadratic subfield). | `frontier/B354_interface_pairing_certificates` · `tests/test_b354_interface_pairing_certificates.py` ✓ |
+| E16 | The exact level-45 tables (seeds 1, 2): singles = exactly four nonzero cells (a ≡ 1 mod 15), each exactly 1/4, purely rational; the full 60×12 pair table has 144 nonzero cells, every one carrying √−15-type content and genuine ℚ(ζ₉)⁺ dependence — the seam persists at level 45 and its arithmetic home is the 12-dim compositum ℚ(ζ₉)⁺·ℚ(√5,√−3). CRT/F_p exact (3 primes, held-out-embedding verified; the N=15 pipeline gate reproduces the banked flagship). | `frontier/B372_level45_sweeper` · `tests/test_b372_level45.py` ✓ |
 
 ---
 
