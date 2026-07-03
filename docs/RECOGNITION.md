@@ -63,3 +63,16 @@ q ↦ αq + β with α, β ∈ ℚ fixed across ALL data points simultaneously.
 **KILL**: no zoo member (with one affine map) reproduces the phase quadruple; separately, none
 reproduces 1/48. Either kill banks; a hit escalates to the derive-don't-fit test (Phase 2:
 re-derive the full C-5 tables from the identified theory).
+
+
+## R1 — first pass banked (2026-07-03): the seed-indexed classics MISS
+
+Computed exactly: Rademacher Φ(A_m) = 3 for ALL m ∈ {1,3,5,9} — **constant across the metallic
+family** (a new small exact datum; a constant cannot generate the varying phases). Dedekind
+s(1,m) = 0, 1/18, 1/5, 14/27 — no single affine map carries either zoo member to the phase
+quadruple {3/10, 1/10, 1/4, 3/10}. **Both seed-indexed classics are killed under the declared
+criterion.** Recorded subtlety: the sector phases are indexed by the LEVEL N = 15m (the golden
+seed quantized at growing level), not by the seed matrix — the level-indexed zoo (the Weil/Maslov
+index of the A₁-action on the level-N theta space; η-quotient multipliers; level-scaled Dedekind
+sums) is the registered continuation, computable directly from the banked engine. 1/48 remains
+untested against the zoo (queued with the level-indexed pass).
