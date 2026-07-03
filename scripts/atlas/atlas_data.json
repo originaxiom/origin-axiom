@@ -8062,6 +8062,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B398": {
+   "slug": "handoff scrutiny",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B109",
+    "K2",
+    "P64",
+    "P66",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
