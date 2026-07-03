@@ -1,5 +1,7 @@
 # Origin Axiom — Unified State of Knowledge
 
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+
 > ⚠️ **OUTDATED & MIXED-SOURCE (2026-06-15).** This briefing combines **two separate branches** and is now stale:
 > - **Branch A (this repo)** — the trace-map / character-variety work, then banked through ~B155; the frontier is now
 >   at **B325**.

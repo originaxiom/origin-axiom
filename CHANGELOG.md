@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-03 — the promotion audit (GOVERNANCE §5.1) executed
+
+- **+39 `proven` (P17–P55), +7 `conditional` (C6–C12), +15 certified-data (E1–E15)** promoted from
+  the frontier through the §5 gates (63 candidates adjudicated, 281 lock tests verified standalone,
+  6 held with reasons; scrutiny record in `PROGRESS_LOG.md`). Original core P1–P16 unchanged;
+  physics firewall untouched. Same day: automated gates + the decadal review instituted (§11);
+  campaign wave 2 completed (B355–B370); the Gate-B classical germ completed (B370).
+
+---
+
 ## [Unreleased]
 
 ### Changed

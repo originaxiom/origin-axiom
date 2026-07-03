@@ -1,5 +1,7 @@
 # Session 3 Synthesis: Handoff to the coding agent
 
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+
 ## What happened
 
 The original 2025 field-theory approach (non-cancellation potential, driven scalar,

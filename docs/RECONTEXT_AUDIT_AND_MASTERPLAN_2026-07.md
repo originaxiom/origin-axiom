@@ -1,5 +1,7 @@
 # Recontextualization Audit + Masterplan (2026-07-01)
 
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+
 > A-to-Z repo audit (8 parallel region-agents) to recontextualize the program and surface forgotten pieces, plus the
 > phased plan to act on it. The audit was read-only; this doc records its findings and sequences the response. Governed
 > by `GOVERNANCE.md` (firewall: physics stays in `speculations/`, nothing promotes to `CLAIMS.md` proven core).
