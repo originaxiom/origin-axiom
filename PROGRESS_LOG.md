@@ -1124,3 +1124,10 @@ closed form of −1/16 (P64 residue).
 - The Eisenstein gate (z ≡ 0 on χ₋₃ = +1 generic sectors); boundary equipartition (4 cells
   = 64 cells = −1/96 each). Dossier: H-basis = Gauss-sum basis of the genus characters;
   entropy = 4Reg = 2√5·L(1,χ₅); the seam character carries h = 2.
+
+## 2026-07-04 — B403: the six-leads package scrutinized
+
+- The prime-filter theorem: VACUOUS on denominators (group-order smoothness; the 17/19
+  prediction can never fire) and REFUTED on numerators (inert 7, 13, 49 banked in seam
+  quantities). Sentinels 17/19 recorded for future numerator tests. The six leads map to
+  banked/running work (L3's bridge already dead; L4 = W-A in flight).
