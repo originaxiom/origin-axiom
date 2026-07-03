@@ -13,9 +13,13 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- Nothing in the background.
+- **W-A1: the 1215 rung** (B399, pid 54009, PID-watcher armed, ETA 1–3 h) — decides
+  between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
 
 ## LAST BANKED
+- **W-A3: the two 1/12s are DIFFERENT objects** — the singles constant is purely generic
+  (boundary classes cancel exactly); the seam's 1/12 recruits the golden boundary. The
+  twist's value content = boundary recruitment; explains the W2 decoupling.
 - **B398 COMPLETE: the handoff fully scrutinized.** Math layer: core verified exact +
   four corrections. Physics layer: the PMNS ensemble FAILED its pre-registered statistics
   gate (p ≈ 0.09–0.44 vs binding 0.01) — numerology-class, firewalled in S042; the
@@ -41,8 +45,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **HARD STOP (by design): the wall-campaign discussion with the owner** — the
-   scrutiny is complete; the decision memo is delivered in-session.
+1. **Wall W-A (running):** the 1215 verdict → the walk law → A2 hierarchy probe.
+2. **Wall W-B1:** the canonical-unitary existence question (derivation-first).
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

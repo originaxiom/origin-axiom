@@ -1093,3 +1093,9 @@ closed form of −1/16 (P64 residue).
 - Binding verdict: p ≈ 0.087 raw / 0.44 corrected vs the registered 0.01 — numerology-class
   (S042, firewalled; revival bar = a derivation, not a match). The exact seam-form
   mathematics (23/75, doublet, 98/−52, 7/5, the ℤ/3 point) stands as banked structure.
+
+## 2026-07-05 — Wall campaign W-A3: the two 1/12s are different objects
+
+- Singles' 1/4: class-1 only (boundaries cancel exactly; counts {1:5, 3:5, 5:10} on l=0).
+  Seam's 1/12: generic + golden boundary. The twist's value content = boundary
+  recruitment. 1215 rung computing (walk-law duel registered).
