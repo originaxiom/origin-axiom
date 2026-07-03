@@ -1080,3 +1080,10 @@ closed form of −1/16 (P64 residue).
   (b) the σ√5 trace-conjugacy is intra-model (corrected; new face value ±1/24). Synthesis
   in RECOGNITION.md: everything derived or precisely named; no computable questions remain
   at level 15.
+
+## 2026-07-05 — B398 S1–S4: the handoff's math scrutinized
+
+- VERIFIED: the 1/24 doublet; the F₄ Gram and 23/75 (fork pinned vs 23/25); 98/−52; (3,4)
+  7/5; the ℤ/3 point's exactness; all ranks; the fiber pattern. CORRECTED/UNSUPPORTED:
+  (2,3) "1/3" mislabel; "tensor rank 4"; 296/464; the σ⊗Weil(5) adjoint bridge. The 7 has
+  banked provenance (φ⁴+φ⁻⁴, B109). S5 gate next.

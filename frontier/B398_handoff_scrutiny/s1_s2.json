@@ -1,0 +1,56 @@
+{
+ "S1_blocks": {
+  "escape_antipaired": true,
+  "escape_a": "1/48",
+  "separated_antipaired": true,
+  "separated_a": "1/48",
+  "doublet_sigma": "1/24"
+ },
+ "S1_F4": {
+  "G": [
+   [
+    "49/115200",
+    "-13/57600"
+   ],
+   [
+    "-13/57600",
+    "49/115200"
+   ]
+  ],
+  "eigs": [
+   "1/1536",
+   "23/115200"
+  ],
+  "ratio": "23/75",
+  "int480": {
+   "norm": "98",
+   "inner": "-52"
+  }
+ },
+ "S1_fork": {
+  "full_rational_ratio": "23/25",
+  "F4_restricted_ratio": "23/75"
+ },
+ "S2_23": {
+  "norms": [
+   "1/6912"
+  ],
+  "inners": [
+   "-1/13824"
+  ],
+  "eig_ratio_claim": "div0"
+ },
+ "S2_34": {
+  "seven_five_found": false,
+  "columns": null,
+  "n_nonzero_cols": 10
+ },
+ "S2_ranks": {
+  "1,2": 4,
+  "2,3": 2,
+  "2,4": 1,
+  "3,4": 2,
+  "1,3": 0,
+  "1,4": 0
+ }
+}
