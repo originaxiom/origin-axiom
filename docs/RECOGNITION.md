@@ -85,3 +85,22 @@ ord(W₁@N) = ord(A₁ mod N) = π(N)/2 exactly at all five measured levels (inc
 (cited). Phase 2's derive-target is fixed: the doublet existence law + a(N) + the C-5 tables from
 cat-map Hecke theory. R2's obstruction now has a candidate mechanism (ℤ[φ] splitting: 5 ramified,
 3 inert; character alignment at mixed levels).
+
+
+## Phase 2 — THE DERIVATION CAMPAIGN (registered 2026-07-03; owner-approved; run to completion)
+
+Derive-don't-fit against C-1…C-12, from the identified frame (quantized cat map, KR Hecke —
+cited) plus our one addition (the theta/metaplectic twist). Legs, each two-outcome:
+**D0** intake the B377 full-multiplicity census at 225 (in flight) — HIT ⇒ the existence law
+repairs to a VISIBILITY law; NONE ⇒ the death is the twist's first exact locus.
+**D1** derive the existence/visibility law + the phase function a(N); predict a(375/405/675) +
+existence BEFORE the rungs (ord predictions already registered, P59); run the rungs as TRIPLE
+prediction tests. **D2** isolate the twist: the exact cocycle between the theta lift and the
+standard quantization; "the seam is a twist invariant" (the B358 canonical null, recast) as a
+pre-registered statement with the cocycle exhibit. **D3** the crown, separately pre-registered:
+(a) bright/dark derived from bi-order arithmetic (acceptance test = the (1,3)/(3,4) riddle);
+(b) the ±1/48 selection rule from the Weyl/dihedral/twist structure (row-16 silence must fall
+out; full null gauntlet pre-registered before any value claim); (c) the full C-5 derivation,
+gated on (a)+(b). **D4** the Kashaev bridge + modular-data identification (citations; kills
+bankable). **D5** the synthesis: DERIVED vs RESISTED — the boundary of the object is itself
+the deliverable.
