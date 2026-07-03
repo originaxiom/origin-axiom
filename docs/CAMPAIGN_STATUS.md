@@ -17,6 +17,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
 
 ## LAST BANKED
+- **Q2′ (B402): THE SEAM LANDSCAPE** — the canonical point is the UNIQUE null among all
+  15 twist addresses; intensity stratified exactly by gcd(address,15) = {units: 44,
+  3-torsion: 32, 5-torsion: 36}. Classicality is the exception; the seam is generic.
 - **W-C session 2 (B401): two genus selection rules** — the √−3 channel is GATED by
   χ₋₃ = −1 on generic cells; the golden boundary splits χ₋₃-evenly (4 cells ≡ 64 cells,
   −1/96 each). Plus the identity dossier: the H-basis IS the Gauss-sum basis of the genus
@@ -63,8 +66,7 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 
 ## NEXT (top 3)
 1. **Wall W-A (running):** the 1215 verdict → the walk law → A2 hierarchy probe.
-2. **Q2 (the ℤ/3 twist-address siblings)** and **A2 (hierarchy probe)** — then the
-   wall-campaign wrap memo.
+2. **A2 (hierarchy probe)** after the 1215 verdict — then the wall-campaign wrap memo.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

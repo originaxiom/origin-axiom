@@ -8161,13 +8161,15 @@
     "metallic",
     "golden",
     "z3_generation",
+    "torsion",
     "firewall"
    ],
    "refs": [
+    "P62",
     "P64"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },

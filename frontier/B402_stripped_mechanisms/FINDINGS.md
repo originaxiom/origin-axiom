@@ -27,3 +27,24 @@ selection; distinction ⇒ the address is forced — either banks.
 
 **Provenance.** q1_single_reality.py → q1_single_reality.json; locks
 tests/test_b402_mechanisms.py.
+
+---
+
+# Q2′ BANKED: the seam landscape — the canonical point is the unique null
+
+All 15 D-side twist addresses computed (q2_landscape.json; every model ord 20×12):
+
+- **r = 0 (canonical): NULL** — the P62 anchor reproduced from the landscape side.
+- **All 14 nonzero addresses: BRIGHT**, with the s-cell count stratified EXACTLY by
+  gcd(r, 15): units → 44 (the banked theory sits here, r = 7); 3-torsion {3,6,9,12} → 32;
+  5-torsion {5,10} → 36.
+
+**The law: seam intensity = f(gcd(address, 15)), f = {1: 44, 3: 32, 5: 36, 15: 0}.**
+The reframe of P62: every twist opens the pair channel; the untwisted point is the UNIQUE
+dark point of the whole address space — classicality is the exception, not the seam. The
+"spontaneous choice" question dissolves: nothing is chosen; the intensity class is set by
+the address's torsion type. (The registered mod-2 3-orbit framing was corrected in the
+prereg before this run — odd N has no 2-torsion.)
+
+**Provenance.** q2_landscape.py (~35 min) → q2_landscape.json; locks
+tests/test_b402_mechanisms.py.

@@ -1137,3 +1137,9 @@ closed form of −1/16 (P64 residue).
 - Chat-1's orthogonality reading tested: stronger than proposed — χ₋₃(det)=+1 class-1
   cells are individually ℚ(√5)-real (z = s = 0). Local law; mechanism = Gauss-sum field
   content. Chat-2 retirement noted (cross-check discipline now CC + Chat-1).
+
+## 2026-07-04 — Q2′: the seam landscape — the canonical point is the unique null
+
+- All 15 addresses: r=0 null (P62 anchor ✓); 14 bright with intensity f(gcd(r,15)) =
+  {1:44, 3:32, 5:36}. Every twist opens the channel; classicality is measure-zero in the
+  address space. The corrected prereg's candidate (i) + a finer stratification law.
