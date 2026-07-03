@@ -1036,3 +1036,9 @@ closed form of −1/16 (P64 residue).
   (29 mod 45 at 135 — registered support guess killed, new data banked). CHIRALITY: E₆
   θ-grading ⊥ seam at exponent level (bridge = the known CRUX). DYNAMICS: TIM dead at S
   and T. Probes done in one session; W6 (dossiers + wrap) remains.
+
+## 2026-07-04 — W6: dossiers written; Review 4; THE CLOSURE CAMPAIGN COMPLETE
+
+- Both specialist dossiers ready (not sent; outreach dormant); Review 4 anchored; synthesis
+  in RECOGNITION.md. Campaign totals: PRs #490–#501, P66+P67 promoted, five structural
+  kills, general-N law, three walls priced, every wave at or under time-box.
