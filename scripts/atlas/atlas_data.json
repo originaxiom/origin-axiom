@@ -7559,6 +7559,7 @@
     "figure_eight",
     "dickson_tower",
     "eisenstein",
+    "golden",
     "lorentzian",
     "firewall"
    ],
@@ -7569,9 +7570,9 @@
     "B357"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 8,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B37": {
    "slug": "operational feedback quarantine",

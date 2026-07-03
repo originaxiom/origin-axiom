@@ -1,10 +1,11 @@
 # B370 (W2.5) — leg A: all six E₆ tangent directions are unobstructed at third order
 
-**Status: leg A banked (frontier); computer-assisted (mpmath dps 100), controls passed, conditional
-by nature (an obstruction may appear at any higher order — no "smooth, period" claim). Leg B (the
-depth-2 boundary Gram) is pre-registered and NOT yet run. Pre-registration: `PREREGISTRATION.md`
-(PR #447, committed before any computation). Firewalled; nothing promotes here (candidacy is the
-promotion audit's to adjudicate). Campaign W2.5.**
+**Status: COMPLETE (both legs banked, frontier). Computer-assisted (mpmath dps 100), all gates
+passed; conditional by nature (higher orders untested — no "smooth, period" claim). Pre-registration:
+`PREREGISTRATION.md` (PR #447, committed before any computation). Firewalled; nothing promotes here
+(candidacy is the promotion audit's to adjudicate). Campaign W2.5 — with this, the Gate-B classical
+germ is complete: orders 1–3 integrable + Lagrangian + universal-τ (order 1) + the depth-2 bending
+data below.**
 
 ## Method (as pre-registered: derivation-first, self-gating)
 
@@ -50,20 +51,32 @@ untested; the m=1 control calibrates but does not certify the floors; the gauge 
 (minimal-norm) is quotiented out by the indeterminacy span per the pre-registration. Leg B (the
 depth-2 boundary Gram, three declared readouts) runs next on the solved `z₂`'s.
 
-## Leg B status (in progress; gate-blocked, diagnosis recorded — NO verdicts read)
+## Leg B — the depth-2 boundary data: the τ-defect matrix (VERDICTS, gates green)
 
-Two executions of `massey_legB.py` (the τ-defect matrix) were stopped by the pre-registered
-first-order gate: the universal-τ identity did not reproduce (spread 3e+04 across directions vs
-the banked uniform −2√3·i), so the depth-2 readouts were never interpreted — the gate did exactly
-its job, twice. The isolation test (this session, recorded in the log) localizes the bug: the
-root→TG-block bridge in `chain_block_TG` treats B352's chain basis as a rescaled copy of
-B347/TG's symrep basis, but the two are related by B352's **antidiagonal intertwiners**
-(`_intertwiner(m)` — built for precisely this reason). Fix identified: compose the bridge with
-the intertwiner, re-run the m=1 τ-gate (must give −2√3·i uniformly), then the full matrix. The
-τ-defect δ(m→m′) = φ_λ − τ·φ_µ remains the right invariant (its indeterminacy-invariance follows
-from the universal-τ). Until the gate passes, leg B asserts nothing.
+Two earlier executions were stopped by the pre-registered first-order τ-gate (basis-bridge bugs — a
+scale-only bridge twice; both recorded, neither interpreted). The fix: the root→TG bridge must compose
+with B352's **antidiagonal intertwiners** (`v_TG[j] = v_chain[d−j]/τ_j`); the acceptance test then
+passed exactly — **τ = −2√3·i reproduced uniformly across all six directions, spread 1.4e−63**, with
+per-block off-diagonals at floor (1e−60..1e−66). With the gate green, the τ-defect
+`δ(m→m′) = φ_λ(z₂) − τ·φ_µ(z₂)` is indeterminacy-invariant (the universal-τ kills the ζ-shifts), and
+its readouts are legitimate invariant content (`massey_legB.py`, `massey_legB.json`, run 2402 s;
+all values relative to their per-entry φ-scale — the blocks span ~50 orders):
+
+1. **The universal-τ is strictly first-order.** δ ≢ 0: the maximal relative defect is **1.017** — at
+   depth 2 the boundary germ bends off the τ-line by order one. B357's universal shape is an order-1
+   identity, not an all-orders rigidity — a sharp, previously unknown boundary on that banked result.
+2. **The bending is θ-graded.** Into F₄-target blocks the defect saturates (relative max 0.99–1.00);
+   into escape-sector targets ({4,8}) it is suppressed ~3× (0.325/0.326). **The depth-2 germ sees the
+   E₆ → F₄ fold** — the first appearance of the θ-grading in the boundary dynamics data.
+3. **Mixed symmetry.** Neither symmetric nor antisymmetric (sym-dev 1.50, antisym-dev 2.00 at the
+   normalization where a symmetric matrix gives 0 and 2 respectively); the maximal entries lean
+   symmetric. Reported as data.
+
+Method note for the record: the τ-gate rejected two O(1) "defect matrices" as convention artifacts
+before any interpretation, then certified the third. The gate design — re-deriving a banked identity
+inside the new pipeline before reading anything new — is what made these verdicts safe to state.
 
 **Provenance.** B352 (machinery, second order), B347 (the tangent classes), B357 (boundary
-conventions awaiting leg B), PREREGISTRATION.md (PR #447). Reproducer: `massey.py` (~2.9 h);
-locks: `tests/test_b370_massey.py` (from the banked JSON + gates). Leg B work-in-progress:
-`massey_legB.py` (τ-gated; see status above).
+conventions awaiting leg B), PREREGISTRATION.md (PR #447). Reproducers: `massey.py` (~2.9 h, leg A),
+`massey_legB.py` (~40 min, leg B); locks: `tests/test_b370_massey.py` (both legs, from the banked
+JSONs + gates).

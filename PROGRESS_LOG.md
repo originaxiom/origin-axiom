@@ -4832,3 +4832,17 @@ attaches at promotion) was designed expecting promotions to fire; they never did
   the intertwiner); the m=1 τ-gate is the acceptance test. δ = φ_λ − τ·φ_µ stays the right invariant.
 - Method note: the gate design paid for itself twice — two O(1) "defect matrices" were produced and
   correctly discarded as convention artifacts before any interpretation.
+
+## 2026-07-03 — B370 leg B DONE (W2.5 COMPLETE): the universal-τ is strictly first-order, and the
+## depth-2 bending is θ-graded
+
+- The τ-gate certified the pipeline on the third run (the fix: compose the root→TG bridge with B352's
+  antidiagonal intertwiners): **τ = −2√3·i uniform across all six directions, spread 1.4e−63**;
+  off-diagonals at floor. Two earlier O(1) "defect matrices" were gate-rejected as convention
+  artifacts — never interpreted.
+- **Verdicts (relative to per-entry φ-scale):** (1) δ ≢ 0 at relative scale 1.017 — **the universal-τ
+  does not persist at depth 2**; B357's identity is an order-1 rigidity, now sharply bounded.
+  (2) **θ-graded bending**: F₄-target blocks saturate (0.99–1.00) while escape-sector targets are
+  ~3× suppressed (0.33) — the depth-2 germ sees the E₆→F₄ fold. (3) Mixed symmetry (data).
+- **W2.5 COMPLETE ⇒ the Gate-B classical germ is complete**: orders 1–3 integrable + Lagrangian +
+  universal-τ (order 1) + the depth-2 τ-defect matrix with its θ-grading. +1 lock (leg B gates+verdicts).
