@@ -7873,6 +7873,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B387": {
+   "slug": "forced ratio ladder",
+   "motifs": [
+    "golden",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B372",
+    "B373",
+    "B374"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [

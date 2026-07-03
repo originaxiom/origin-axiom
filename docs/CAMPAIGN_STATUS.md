@@ -10,18 +10,19 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 ---
 
 ## RUNNING NOW
-- Nothing in the background. Next wakeup ≈ 50 min (W2 / 2a).
+- **The 135 rung's sector rows** (B387 continuation): pid 41968, watcher armed, ETA ~30-60
+  min — decides whether the ratio ladder lives at 135 or the seam/sector decoupling is a
+  two-rung fact.
 
 ## LAST BANKED
-- **W1 COMPLETE (P66 promoted):** the 1/12 derived end-to-end — the seam table tensor-splits
-  (L1, 0/240), and the class partials assemble as two-branch products of local constants
-  (L2, exact both classes). Bonus structure: the golden-boundary class couples equal
-  parities only. W1 exited BANKED on session 2 of 2.
+- **W2 / 2a+2b: the registered KILL — and it's structural.** The level-45 value sector
+  (rows ±6) carries ZERO Par-pair content (exact, from the locked E16 table): const(45) = 0,
+  ratio = 0 ∉ the registered set. **The seam and the value sector decouple above the base
+  level** — the two structures coincide only at 15. No pattern claim before the 135 rung
+  (per prereg); gauntlet not triggered.
 
 ## NEXT (top 3)
-1. **W2 / 2a** — extract the level-45 pair sector constants (sweep45.json +
-   fp_engine.identify); then 2b: prereg the ratio bet BEFORE computing the comparison.
-   Session 1 of 3.
+1. **W2 / 135-rung verdict** (running) — then bank + W2 wrap (session 2 of 3).
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

@@ -984,3 +984,9 @@ closed form of −1/16 (P64 residue).
   ℤ₄×ℤ₄ table × 5-side parity-branch constants); −1/16 and −1/48 reproduced; golden-boundary
   couples equal parities only (off-parity branches ≡ 0). With L1 (tensor identity) the 1/12
   is derived from local data end-to-end. Promoted P66. W1 exited BANKED at time-box.
+
+## 2026-07-04 — W2 2a/2b: the registered KILL — the seam and the value sector DECOUPLE at 45
+
+- const(45) = 0 exactly (sector rows ±6 absent from the banked E16 support); ratio 0 ∉ R1-R4;
+  gauntlet not triggered. The structural read: the coincidence of seam and value sector is a
+  base-level (15) phenomenon. The 135 sector-row computation is running (named continuation).
