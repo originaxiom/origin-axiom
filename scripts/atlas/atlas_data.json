@@ -7654,6 +7654,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B375": {
+   "slug": "four qubit compilation",
+   "motifs": [
+    "kappa",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B367",
+    "P56",
+    "P57",
+    "P58"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [

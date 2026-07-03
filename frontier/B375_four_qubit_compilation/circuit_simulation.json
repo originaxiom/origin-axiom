@@ -1,0 +1,11 @@
+{
+ "UF_unitary_exact": true,
+ "WR_from_primitives_exact": true,
+ "protocol_reproduces_banked_cells": true,
+ "kappa_word_trace": [
+  "1",
+  "0",
+  "0",
+  "0"
+ ]
+}
