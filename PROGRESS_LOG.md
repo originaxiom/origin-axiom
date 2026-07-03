@@ -1008,3 +1008,10 @@ closed form of −1/16 (P64 residue).
 - M3 ✓ ([Ŝ,Par]=0); M1/M2 killed; ŜW₁Ŝ⁻¹ matches W₁⁻¹ in support (0/225) but not phases —
   inversion is twist-broken (P62 pattern), so the mirror is twist-compatible, not a group
   shadow. W3.i+ii both done in session 1; W3.iii (criterion) has 2 sessions.
+
+## 2026-07-04 — W3.iii (B390, P67): BRIGHTNESS IS LOCAL — predictive out-of-sample
+
+- Tensor identity 12/12 pairs; s-classification from local q=3,5 data alone 12/12; the
+  registered out-of-sample PASSED ((2,5): predicted dark locally, verified dark globally).
+  D3(a)'s riddle localized to the local-spectra pairing. Attribution = session 3 (the
+  per-side Π_H columns are flagged unreliable — the standing hazard, subtler form).

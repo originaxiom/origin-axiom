@@ -7935,6 +7935,21 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B390": {
+   "slug": "criterion tensor",
+   "motifs": [
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B385",
+    "P67"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
