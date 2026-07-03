@@ -15,3 +15,8 @@ def test_dark_pairs_termwise_zero():
 def test_bright_controls_have_teeth():
     assert R["3,4"]["nonzero_terms"] == 24
     assert R["2,3"]["nonzero_terms"] == 18
+
+
+def test_14_completes_the_class():
+    r = json.load(open(os.path.join(HERE, "k1_14.json")))
+    assert r["nonzero_terms"] == 0 and r["terms"] == 39
