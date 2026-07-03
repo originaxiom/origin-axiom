@@ -7783,6 +7783,7 @@
    "slug": "why one twelfth",
    "motifs": [
     "eisenstein",
+    "golden",
     "lorentzian",
     "firewall"
    ],
@@ -7792,7 +7793,7 @@
     "P60",
     "P62"
    ],
-   "obstacle": "observable",
+   "obstacle": "units_scale",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
