@@ -7968,6 +7968,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B392": {
+   "slug": "wall probes",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "L50"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
