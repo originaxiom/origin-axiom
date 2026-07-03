@@ -44,3 +44,15 @@ def test_vword_support_sets_disjoint_bright_dark():
     d = {tuple(map(tuple, VW[k]["support"])) for k in VW
          if VW[k]["status"] == "dark"}
     assert not (b & d)
+
+
+AC = json.load(open(os.path.join(HERE, "anti_correlation.json")))
+
+
+def test_dark_cells_are_not_anti_free():
+    assert AC["nb"] == 44 and AC["nd"] == 44
+
+
+def test_bright_exclusive_labels():
+    assert sorted(map(str, AC["missed"])) == sorted(map(str, [
+        [1, [0, 2]], [1, [2, 1]], [1, [2, 3]], [1, [4, 2]]]))
