@@ -30,3 +30,23 @@ verify on all 12.
 
 **Provenance.** group_hunt.py, class_counts.py (seconds each); locks
 tests/test_b385_discriminator.py.
+
+---
+
+# T2-partial BANKED: the v_word map SEES the riddle — first layer that separates
+
+The accumulated word-shift map v_word(j,l) (from the derived factorization
+W-word = U_std(γ′)·T(v_word)·phase, with insertions X⁻⁸ per WR_c-step and Z⁻⁸ per C-step;
+γ-sanity verified for all six seeds): the 5-part support profiles across all 12 pairs give
+
+- scalar stats FAIL (support sizes bright {6,12,18,20} vs dark {6,10,18,22} overlap;
+  zero-cell counts overlap) — consistent with the two banked kills;
+- **the support SETS are disjoint bright-vs-dark (no collision), and the riddle pair
+  separates for the first time: (3,4) has 12 support vectors, (1,3) has 18, different sets**
+  (vword.json). Adjacent hint: (2,7)-bright and (3,5)-dark share the symmetric core
+  {(0,0),(1,3),(3,1),(4,4)} and differ by coordinate-SWAPPED extras ((0,3),(4,1) vs
+  (3,0),(1,4)) — a reflection-parity flavor, not yet a criterion.
+
+**Registered next step:** the systematic property scan on the banked supports (swap-closure,
+negation, QR-multiplier orbits, ω-pairing multisets, joint (γ′, v_word) anti-content) to
+extract the STATED criterion; then re-verify 12/12 + the out-of-sample prediction.

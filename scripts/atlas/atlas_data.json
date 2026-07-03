@@ -7838,16 +7838,17 @@
   "B385": {
    "slug": "bright dark discriminator",
    "motifs": [
+    "eisenstein",
     "firewall"
    ],
    "refs": [
     "B382",
     "P64"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
    "status": "dead",
-   "domain": "meta"
+   "domain": "arithmetic"
   },
   "B38": {
    "slug": "tangent return arithmetic filter",

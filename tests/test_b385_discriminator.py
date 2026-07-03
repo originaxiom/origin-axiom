@@ -28,3 +28,19 @@ def test_kill2_word_map_fails_on_riddle():
 def test_b382_profile_is_shared_by_two_pairs():
     assert CC["res"]["1,2"]["counts"] == CC["res"]["2,4"]["counts"] == {
         "1": 142, "3": 26, "5": 68, "15": 4}
+
+
+VW = json.load(open(os.path.join(HERE, "vword.json")))
+
+
+def test_vword_riddle_pair_separates():
+    assert VW["3,4"]["nsupport"] == 12 and VW["1,3"]["nsupport"] == 18
+    assert VW["3,4"]["support"] != VW["1,3"]["support"]
+
+
+def test_vword_support_sets_disjoint_bright_dark():
+    b = {tuple(map(tuple, VW[k]["support"])) for k in VW
+         if VW[k]["status"] == "bright"}
+    d = {tuple(map(tuple, VW[k]["support"])) for k in VW
+         if VW[k]["status"] == "dark"}
+    assert not (b & d)
