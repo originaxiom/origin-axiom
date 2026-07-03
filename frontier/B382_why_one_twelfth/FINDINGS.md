@@ -64,3 +64,43 @@ via P57, Par·W₁ʲW₂ˡ = ζ₆⁻¹·J⁻¹·T(1,1)·W₁ʲW₂ˡ, so
 with c₁, c₂ the slot DFT windows and o₁o₂ = 240 — every factor now has a name; assemble and see
 which registered 1/12 reading the factorization forces. Reproducers: leg2_fit (inline, banked
 in this session's transcript + the fit re-runnable from trace_formula.json), verify_canonical.py.
+
+---
+
+# Leg 3 BANKED: the assembly is exact — and the 1/12 decomposes as 1/16 + 1/48
+
+**Gate A (the factorization): 142/142.** Every cell of the Par-table with det(γ′−I) invertible
+mod 15 equals `ζ₆⁻¹ · tr(W₁ʲW₂ˡJ⁻¹) · ζ₁₅^{Q(1,1)}` exactly (Q from the leg-2 closed form at
+the fixed shift v₀=(1,1); J = ζ₆⁻¹XZ·Par by P57; γ′ = −γ₁ʲγ₂ˡ). Zero mismatches; the 98
+boundary cells split by det-class as {3: 26, 5: 68, 15: 4}.
+
+**Gate B (the assembly): the slot constant reproduces exactly** —
+t(6,2)−t(6,10)−t(14,2)+t(14,10) → Π_H = (0, 0, −1/12, −1/12), the banked −(φ/6)√−3.
+
+**THE READING (the registered adjudication).** Splitting the slot sum by det-class of (γ′−I):
+
+    class 1 (generic Hannay–Berry cells):   (0, 0, −1/16, −1/16)
+    class 3 (3-singular boundary):          0
+    class 5 (5-singular boundary):          (0, 0, −1/48, −1/48)
+    class 15:                               0
+    ─────────────────────────────────────────────────────────────
+    total:  −1/16 − 1/48 = −4/48 = −1/12    (exact)
+
+**The 1/12 is the generic metaplectic sum (−1/16) plus exactly one-third more from the
+5-ramified boundary (−1/48) — the golden prime's cells; the 3-side boundary is silent.**
+Adjudication of the three registered readings: mechanical-240 is REFUTED as mechanism (the
+sum is class-weighted, not uniform support-counting — support is 128 cells with classes
+{1: 84, 3: 12, 5: 28, 15: 4}); Haar(2T×ℤ/2) and B₂/8 remain numerological faces — neither is
+forced by the factorization; the TRUE mechanism is the two-class split above. Residue (named):
+derive the −1/16 and −1/48 values themselves from the character magnitudes |tr|² = 15/|det|
+per class — the next layer down.
+
+**Bonus lock (the 3-block face resolved):** searching all ±-gradings on the banked table, the
+banked 3-block constant (0, 0, −1/12, +1/12) is hit by exactly the gradings
+H₁′ = ±(P₄−P₀), H₂′ = ±(Q₈−Q₄) (matched signs) — row 16 absent from the grading, consistent
+with its ℚ(√5)-darkness. My symmetric guess (P₄−P₁₆)⊗(Q₄−Q₈) gives a NEW exact sector value
+(0, 0, +1/24, −1/24) — banked as data.
+
+**Provenance.** assemble_constant.py (~4 min), decompose_reading.py (~4 min); assembly.json,
+reading.json; locks in tests/test_b382_trace_formula.py. Pre-registration: PREREGISTRATION.md
+(PR #477, committed first). Firewall: statements about the level-15 theta model.

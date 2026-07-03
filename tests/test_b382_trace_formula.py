@@ -51,3 +51,36 @@ def test_leg2_closed_form_fit():
         assert (8*JM[0][0]) % 15 == A
         assert (8*(JM[0][1]+JM[1][0]) + 7) % 15 == B
         assert (8*JM[1][1]) % 15 == C
+
+
+ASM = json.load(open(os.path.join(HERE, "assembly.json")))
+
+
+def test_leg3_factorization_gate():
+    assert ASM["gateA"] == {"match": 142, "boundary": 98, "mismatch": 0, "chi0": 0}
+    assert ASM["det_classes"] == {"1": 142, "3": 26, "5": 68, "15": 4}
+
+
+def test_leg3_slot_constant_exact():
+    assert ASM["slot"] == ["0", "0", "-1/12", "-1/12"]
+
+
+def test_leg3_new_3block_face_value():
+    assert ASM["blk"] == ["0", "0", "1/24", "-1/24"]
+
+
+def test_leg3_3block_grading_identified():
+    RDG = json.load(open(os.path.join(HERE, "reading.json")))
+    assert sorted(RDG["found_3blk"]) == sorted(
+        [[[-1, 1, 0], [0, -1, 1]], [[1, -1, 0], [0, 1, -1]]])
+
+
+def test_leg3_the_reading_class_partials():
+    RDG = json.load(open(os.path.join(HERE, "reading.json")))
+    assert RDG["slot_partials"] == {
+        "1": ["0", "0", "-1/16", "-1/16"],
+        "3": ["0", "0", "0", "0"],
+        "5": ["0", "0", "-1/48", "-1/48"],
+        "15": ["0", "0", "0", "0"]}
+    assert RDG["support"] == {"cells": 128,
+                              "classes": {"1": 84, "3": 12, "5": 28, "15": 4}}

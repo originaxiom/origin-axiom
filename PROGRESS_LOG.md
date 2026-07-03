@@ -894,3 +894,13 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   the SAME quadratic+ordering with linear part (0,0) — the theta twist enters the trace formula
   as exactly one term, the half-characteristic −½ω(v,(1,1)) at the Weyl point. Leg 3: assemble
   the slot constant as the (1,1)-shifted DFT (o₁o₂=240 in view).
+
+## 2026-07-04 — B382 leg 3: the assembly exact; THE 1/12 DECOMPOSES AS 1/16 + 1/48
+
+- Gate A: 142/142 domain cells of the Par-table equal ζ₆⁻¹·χ·ζ₁₅^Q — the whole table IS the
+  trace formula on its domain. Gate B: the slot constant reassembles exactly to (0,0,−1/12,−1/12).
+- THE READING: det-class split = generic −1/16 + 5-boundary −1/48 (classes 3, 15 silent) — the
+  1/12 is the Hannay–Berry generic sum plus one-third more from the golden-ramified cells.
+  Mechanical-240 REFUTED as mechanism; Haar/B₂ remain numerological faces. Residue: derive
+  −1/16, −1/48 from |tr|² = 15/|det| per class. Bonus: the banked 3-block face's grading
+  identified as ±(P₄−P₀)⊗±(Q₈−Q₄); new exact face value ±1/24 for (P₄−P₁₆)⊗(Q₄−Q₈).
