@@ -191,3 +191,13 @@ re-computation.
 
 ## Tombstoned hints
 *(none yet — killed hints route here with a `residual-hint:` field, per anti-blindness rule 4.)*
+
+## 2026-07-04 — "The self-reference IS the object" (owner-relayed, chat-origin)
+The narrative: substitution self-reference → amphichiral self-recognition → variety →
+fixed point → the seam as the object seeing itself through its double; "the masses are
+the self-reference made quantitative." Recorded as a HOOK. The one banked fact it names
+sharply: singles are real, ONLY pairs carry the seam (B372's single-object wall). The one
+theorem-shaped echo: the twist enters the trace formula as the object's OWN lattice point
+(P64's half-characteristic at the Weyl point). Adjudication in-session (2026-07-04):
+the "MUST couple" necessity claims are contradicted by the kill record (dark pairs,
+225-death, W2 decoupling); the final masses line is firewalled as pure leap.
