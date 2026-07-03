@@ -1,0 +1,40 @@
+{
+ "243": [
+  {
+   "prime": 30000781,
+   "ord": 324,
+   "line0": true,
+   "doublet": [
+    81,
+    243
+   ],
+   "doublet_deg": 90.0
+  },
+  {
+   "prime": 30003697,
+   "ord": 324,
+   "line0": true,
+   "doublet": [
+    81,
+    243
+   ],
+   "doublet_deg": 90.0
+  }
+ ],
+ "625": [
+  {
+   "prime": 30007501,
+   "ord": 1250,
+   "line0": true,
+   "doublet": null,
+   "doublet_deg": null
+  },
+  {
+   "prime": 30017501,
+   "ord": 1250,
+   "line0": true,
+   "doublet": null,
+   "doublet_deg": null
+  }
+ ]
+}

@@ -1022,3 +1022,10 @@ closed form of −1/16 (P64 residue).
   {(1,5),(4,5)} (5-side in the right-kernel; partners are the 5-parabolic twins) vs
   CONVOLUTION-CANCELLED {(1,3),(1,4),(3,5)} (the subtle class, riddle included). W3 closes
   at session 3/3; residue named (the cancellation mechanism).
+
+## 2026-07-04 — W4 COMPLETE: both census predictions HIT — the general-N statement banked
+
+- 243: doublet ±81/ord 324/90°; 625: no doublet/line@0/ord 1250 (2 primes each, registered
+  first). General law: sector exists at 3^a·5^b iff NOT(a even AND b even) — every banked
+  rung + the duel reproduced. All-k proof named to the specialist register (local theta
+  correspondence). W4 done in one session.

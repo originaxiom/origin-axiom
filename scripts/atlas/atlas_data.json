@@ -7950,6 +7950,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B391": {
+   "slug": "existence general",
+   "motifs": [
+    "metallic",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "P59",
+    "P63",
+    "P66",
+    "P67"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B39": {
    "slug": "tangent lattice naturality",
    "motifs": [
