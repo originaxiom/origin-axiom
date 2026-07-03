@@ -1,0 +1,15 @@
+{
+ "cells": {
+  "6,2": null,
+  "6,10": null,
+  "54,2": null,
+  "54,10": null
+ },
+ "sector_rows_absent": [
+  6,
+  54
+ ],
+ "const45": "0 (exact -- sector rows carry no Par-pair content)",
+ "ratio": "0",
+ "verdict": "KILL (registered branch): ratio not in R1-R4; ladder needs 135"
+}
