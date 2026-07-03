@@ -10,7 +10,10 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 ---
 
 ## RUNNING NOW
-- Nothing in the background. Next wakeup ≈ 45–60 min (W3 session 1).
+- **W4 census at q = 243 and 625** (B391): pid 46732, watcher armed — I am re-invoked the
+  moment it completes (event-driven cadence, owner-requested; timers retired except a
+  60-min dead-watcher fallback). ETA ≈ 10–25 min. Registered predictions: 243 → doublet
+  ±81/ord 324; 625 → NO doublet, line at 0/ord 1250.
 
 ## LAST BANKED
 - **W3 COMPLETE (P67 + the attribution).** Brightness is local and predictive (P67);
