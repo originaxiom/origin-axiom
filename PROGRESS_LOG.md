@@ -878,3 +878,11 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   corollary); Par−J = the Weyl step in the theta model. **seam ≠ 0 ⟺ the twist is carried.**
 - The chain now closes: premise ⇒ twist forced (C6) ⇒ seam exists (P62) ⇒ support forced (P60)
   ⇒ symmetries forced (P61); the rigid sector's one remaining freedom = the 1/12. D2 ✅.
+
+## 2026-07-04 — B382 leg 1: the phase-ratio law verified on its exact classical domain
+
+- `tr(U·XᵃZᵇ) = tr(U)·ζ₁₅^{Q(a,b)}` with Q quadratic — exact on all 225 shifts for every sampled
+  word with det(γ−I) invertible; the two non-invertible words fail as pure phases — **the domain
+  boundary confirms itself**. The D-side intertwining is phase-free (DXD⁻¹ = XZ). Universal
+  linear part (7a+8b) — the shift's own fingerprint. Legs 2–3 (ordering correction + the slot
+  constant in closed form) named and pending.

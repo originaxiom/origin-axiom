@@ -7779,6 +7779,23 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B382": {
+   "slug": "why one twelfth",
+   "motifs": [
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "P56",
+    "P57",
+    "P60",
+    "P62"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [
