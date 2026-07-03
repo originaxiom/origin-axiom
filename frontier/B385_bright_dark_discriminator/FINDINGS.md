@@ -96,3 +96,22 @@ criterion (the draft FAILED its 12/12 test — criterion.json records the miss):
 C[j+dj, l+dl] = ζ₆₀^r · C[j,l] (exact equalities in ℚ(ζ₆₀)) — these DO commute with the DFT
 and force support/s-selection rules directly. The criterion must also reduce, away from the
 riddle, to the banked 11/12 partial rule (bright ⇔ seed elliptic at both primes).
+
+---
+
+# T3 BANKED + the arc STAGED: quasi-period structure found; the criterion remains OPEN
+
+**New exact structure (quasiperiods.json):** field-level quasi-periods C[j+dj,l+dl] = ζ₆₀^r·C[j,l]:
+(1,2): (10,6,0) · (2,4): (6,10,0) · (1,7): the (5,3,0)-ladder · (2,7): the (2,10,0)-ladder ·
+(1,4): the (5,15,0)-ladder · **(1,5),(4,5): a genuine NINE-element quasi-ladder with nonzero
+twists r = 36k mod 60** — forcing their support down to 6 cells (each quasi-period cuts the
+support by the affine congruence 3·dj·a + 5·dl·b ≡ r mod 60, which commutes with the DFT).
+Presence does NOT separate bright/dark ((2,3),(3,4),(3,7) bright and (1,3),(3,5) dark all
+have none).
+
+**The staged status (honest ledger).** Separates: the v_word 5-part support sets (data-level;
+riddle splits 12-vs-18). Does not separate: γ-group invariants; word-grid class statistics;
+support closure properties; quasi-period presence; the translation-kill draft (VOIDED — see
+the correction). The stated criterion is OPEN; the banked 11/12 ellipticity rule + the
+v_word data + the quasi-period lattices are its raw material. Named re-entry points: the
+m=2 relabel law and the mirror mechanism (both adjacent to the v_word structure).
