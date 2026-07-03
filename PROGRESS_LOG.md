@@ -1143,3 +1143,8 @@ closed form of −1/16 (P64 residue).
 - All 15 addresses: r=0 null (P62 anchor ✓); 14 bright with intensity f(gcd(r,15)) =
   {1:44, 3:32, 5:36}. Every twist opens the channel; classicality is measure-zero in the
   address space. The corrected prereg's candidate (i) + a finer stratification law.
+
+## 2026-07-04 — B404 → P68: the root-of-unity law; the Eisenstein gate derived
+
+- 142/142 generic cells are roots of unity; 3|ord ⟺ χ₋₃(det)=−1 (0 violations); χ₅=−1
+  forces the 5-part one-directionally. The gate is now an order theorem.

@@ -17,6 +17,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
 
 ## LAST BANKED
+- **B404 → P68: the Eisenstein gate DERIVED** — every generic cell is a root of unity
+  (142/142) with character-gated orders (3-part ⟺ χ₋₃(det) = −1; 5-part forced
+  one-directionally by χ₅ = −1). The sixth angle now derives, not just organizes.
 - **Q2′ (B402): THE SEAM LANDSCAPE** — the canonical point is the UNIQUE null among all
   15 twist addresses; intensity stratified exactly by gcd(address,15) = {units: 44,
   3-torsion: 32, 5-torsion: 36}. Classicality is the exception; the seam is generic.
