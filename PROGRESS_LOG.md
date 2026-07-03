@@ -955,3 +955,7 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
 - W-word = U_std(γ′)·T(v_word)·phase derived and sanity-locked; the 5-part support sets are
   disjoint bright-vs-dark; (3,4): 12 vectors vs (1,3): 18. Criterion extraction = next
   (property scan registered in FINDINGS).
+
+## 2026-07-04 — B385 T2b: darkness is SPECTRUM-cancellation (dark (1,3) has 44/120 anti cells,
+same as bright (3,4)) — the P65 mechanism at pair scale; 3 scan nulls; 4 bright-exclusive
+joint labels on the riddle. Criterion open, true form named (window-cancellation identity).

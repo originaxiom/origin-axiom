@@ -50,3 +50,27 @@ W-word = U_std(γ′)·T(v_word)·phase, with insertions X⁻⁸ per WR_c-step a
 **Registered next step:** the systematic property scan on the banked supports (swap-closure,
 negation, QR-multiplier orbits, ω-pairing multisets, joint (γ′, v_word) anti-content) to
 extract the STATED criterion; then re-verify 12/12 + the out-of-sample prediction.
+
+---
+
+# T2b BANKED: darkness is SPECTRUM-cancellation, not cell-vanishing (+ 3 scan nulls)
+
+**The correction (exhibit: the riddle pair, exact).** The dark pair (1,3) has **44/120
+anti-carrying raw cells — the same count as bright (3,4)**. Dark ≠ anti-free cells; dark =
+every DFT window kills a nonzero anti-table (the H-average does not commute with ζ-multiplication,
+so cell-level anti-content coexists with a fully real projected t-table). This is the P65
+row-16 mechanism at whole-pair scale — darkness is a complete spectral null of the anti-table.
+
+**Scan nulls (3, banked):** closure properties (swap/neg/dbl/swap-neg) all fail on all 12
+supports; diagonal and antidiagonal contents overlap across bright/dark ((2,4)-bright shares
+its full diagonal with dark pairs); scalar stats already dead (T2-partial).
+
+**Label-exclusion data (riddle):** bright (3,4)'s anti-cells occupy 12 joint labels
+(cls, v_word mod 5); the dark grid visits 8 of them; **4 labels are bright-exclusive:
+(1,(0,2)), (1,(2,1)), (1,(2,3)), (1,(4,2))** — all with a ±2 coordinate; with v₃ refinement,
+all bright-exclusive labels have v₃ ∈ {(1,0),(1,2)} (anti_correlation.json).
+
+**The named next question (the criterion's true form):** prove the window-cancellation
+identity for dark pairs — why every ζ-window annihilates (1,3)'s 44-cell anti-table (the
+per-pair analog of the P65 ζ₅-spectrum argument). The criterion, once stated, is a property
+of the (γ′, v_word)-labelled character sums, not of any support set alone.
