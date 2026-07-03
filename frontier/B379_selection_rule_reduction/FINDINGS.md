@@ -47,3 +47,22 @@ exactly (4·49 ≡ 16, 16·49 ≡ 4 mod 20) — Galois-partner rows, one bright,
 **Provenance.** The relayed pre-registration + handoff (verified item-by-item; H2/H3 kills
 recorded there); P56/P57 (the machinery), the banked step0 tables (the comparison target).
 Reproducer: `reduction_verification.py`; locks: `tests/test_b379_selection_rule.py`.
+
+## Addendum (same day): the exact Gram spectrum of the seam form — the doublet is a theorem
+
+Relayed SVD observations verified against the banked (1,2) matrix by exact characteristic
+polynomial (Faddeev–LeVerrier over ℚ): rank 4 ✓ and the spectrum of S·Sᵀ is EXACTLY
+
+    { 1/576, 1/576, 1/768, 23/19200 }        (trace = 43/7200 = the banked aggregate ✓)
+
+- **The top doublet is exact**: 1/576 = 1/24² is a double root (p and p′ both vanish) — the
+  two strongest observables (one in the escape columns, one in the non-exponent columns
+  {2,10}) have identically equal strength 1/24 = 1/|2T|, the Haar normalization appearing as a
+  Gram eigenvalue. Degeneracy across different sectors ⇒ a symmetry to be named (D3 target).
+- **All four eigenvalues are rational** (the residual quadratic has perfect-square
+  discriminant 1/9600²) — spectrum ∝ {100, 100, 75, 69}/57600.
+- **The prime 23 appears** (σ₄² = 23/19200) — the first prime outside {2,3,5} in the program's
+  exact value structure. Flagged, not interpreted.
+- The relayed "reciprocal ratio" claim for the F₄ pair did NOT reproduce as stated in the exact
+  row-ratio check (rows 1/9: {−3/2, −1/4, +1/6}; rows 5/15: {−1, +1/4, +4}) — returned for
+  object specification; not banked.

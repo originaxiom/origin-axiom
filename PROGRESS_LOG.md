@@ -844,3 +844,13 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   verified scalar on both blocks. The support pattern is now DERIVED. Their H2/H3 kills recorded.
 - **Row 16 is ℚ(√5)-dark** (banked-data-exact; σ₄₉ pairs rows 4↔16). The remaining W2.11 gap:
   (1) derive the 1/12; (2) prove t(16,·) ∈ ℚ(√5). P60 promoted at banking.
+
+## 2026-07-03 — the seam form's exact Gram spectrum: the doublet is a theorem; the prime 23 appears
+
+- Relayed SVD observations verified by exact char poly: Gram spectrum = {1/576, 1/576, 1/768,
+  23/19200} exactly (all rational; perfect-square discriminant; trace = the banked 43/7200).
+  **1/576 = 1/24² is a double root** — the two strongest observables (escape vs the non-exponent
+  {2,10} columns) are exactly degenerate at the Haar strength 1/24 = 1/|2T|. **23 is the first
+  prime outside {2,3,5} in the program's exact values** — flagged, not interpreted. The relayed
+  reciprocal-ratio claim did not reproduce as stated (returned for specification). C-5 constraints
+  sharpened for D3(c); lock added.
