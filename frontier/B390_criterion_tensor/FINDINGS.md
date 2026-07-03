@@ -34,3 +34,28 @@ not be quoted.
 
 **Provenance.** criterion_tensor.py (~15 min), the out-of-sample script →
 {criterion.json, out_of_sample_25.json}; locks tests/test_b390_criterion.py.
+
+---
+
+# Session 3 BANKED: the attribution via the exact pairing — W3 EXITS
+
+**The pairing:** B(ζ₁₂^r, ζ₂₀^s) = √−15-coeff of Π_H(product) — an exact 4×8 rational
+matrix, **rank 2** (attribution.json; rows r ∈ {0,3} vanish identically — only the ζ₁₂-
+and ζ₁₂²-rows pair, each hitting three ζ₂₀-columns at ±1/8).
+
+**The corrected attribution of the five dark pairs (kernel conditions, not per-side Π_H):**
+- **(1,5), (4,5): KERNEL-KILLED** — the entire 5-side spectrum lies in B's right-kernel.
+  Note both have m₁ ∈ {1,4}, the 5-parabolic twins: the kernel kill occurs when the seed-5
+  pair's partner is 5-parabolic.
+- **(1,3), (1,4), (3,5): CONVOLUTION CANCELLATION** — both sides carry pairing-visible
+  content; the convolution sums to zero. The riddle pair (1,3) is in the subtle class, as
+  the prereg's D-c predicted. ((3,5) moves here from the earlier flagged-unreliable per-side
+  guess — the flag was warranted.)
+
+**W3 exit state:** the criterion is banked and promoted (P67: locality + out-of-sample);
+the attribution is banked (kernel vs convolution classes, exact); the NAMED RESIDUE for a
+future wave is the mechanism of the convolution-cancellation class — why exactly
+{(1,3), (1,4), (3,5)} cancel — now a sharply posed finite question about three pairs'
+local spectra against a rank-2 form. W3 closes at session 3 of 3, on time-box.
+
+**Provenance.** attribution_pairing.py → attribution.json; locks tests/test_b390_criterion.py.

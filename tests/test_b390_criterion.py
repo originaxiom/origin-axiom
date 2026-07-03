@@ -22,3 +22,14 @@ def test_g2_local_classification_12_of_12():
 def test_out_of_sample_2_5():
     O = json.load(open(os.path.join(HERE, "out_of_sample_25.json")))
     assert O["prediction"] == "dark" and O["verdict"] == "dark" and O["match"] is True
+
+
+def test_attribution_pairing():
+    A = json.load(open(os.path.join(HERE, "attribution.json")))
+    assert A["rankB"] == 2
+    assert A["1,5"]["all5_right"] is True and A["4,5"]["all5_right"] is True
+    for k in ("1,3", "1,4", "3,5"):
+        assert A[k]["all5_right"] is False and A[k]["all3_left"] is False
+        assert A[k]["attribution"].startswith("KILL-C")
+    for k in ("3,4", "2,3"):
+        assert A[k]["status"] == "bright"
