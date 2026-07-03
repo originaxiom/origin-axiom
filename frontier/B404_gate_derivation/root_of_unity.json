@@ -1,0 +1,12 @@
+{
+ "tot": 142,
+ "not_root": 0,
+ "gate_viol": 0,
+ "l3_plus": [
+  "False",
+  "True"
+ ],
+ "l3_minus": [
+  "True"
+ ]
+}
