@@ -1,0 +1,182 @@
+{
+ "1,2": {
+  "ords": [
+   20,
+   12
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 44,
+  "side3_sqrt3": true,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "both-sides-live"
+ },
+ "2,3": {
+  "ords": [
+   12,
+   6
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 18,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "2,4": {
+  "ords": [
+   12,
+   20
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 36,
+  "side3_sqrt3": true,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "both-sides-live"
+ },
+ "3,4": {
+  "ords": [
+   6,
+   20
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 24,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "1,7": {
+  "ords": [
+   20,
+   12
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 20,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "3,7": {
+  "ords": [
+   6,
+   12
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 18,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "2,7": {
+  "ords": [
+   12,
+   12
+  ],
+  "G1": true,
+  "s_bright": true,
+  "n_s_cells": 12,
+  "side3_sqrt3": true,
+  "side5_sqrt5": true,
+  "status": "bright",
+  "predicted": "bright",
+  "match": true,
+  "attribution": "both-sides-live"
+ },
+ "1,3": {
+  "ords": [
+   20,
+   6
+  ],
+  "G1": true,
+  "s_bright": false,
+  "n_s_cells": 0,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "dark",
+  "predicted": "dark",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "1,4": {
+  "ords": [
+   20,
+   20
+  ],
+  "G1": true,
+  "s_bright": false,
+  "n_s_cells": 0,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "dark",
+  "predicted": "dark",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "3,5": {
+  "ords": [
+   6,
+   4
+  ],
+  "G1": true,
+  "s_bright": false,
+  "n_s_cells": 0,
+  "side3_sqrt3": false,
+  "side5_sqrt5": true,
+  "status": "dark",
+  "predicted": "dark",
+  "match": true,
+  "attribution": "D-b (3-side dead)"
+ },
+ "1,5": {
+  "ords": [
+   20,
+   4
+  ],
+  "G1": true,
+  "s_bright": false,
+  "n_s_cells": 0,
+  "side3_sqrt3": true,
+  "side5_sqrt5": false,
+  "status": "dark",
+  "predicted": "dark",
+  "match": true,
+  "attribution": "D-a (5-side dead)"
+ },
+ "4,5": {
+  "ords": [
+   20,
+   4
+  ],
+  "G1": true,
+  "s_bright": false,
+  "n_s_cells": 0,
+  "side3_sqrt3": true,
+  "side5_sqrt5": false,
+  "status": "dark",
+  "predicted": "dark",
+  "match": true,
+  "attribution": "D-a (5-side dead)"
+ }
+}

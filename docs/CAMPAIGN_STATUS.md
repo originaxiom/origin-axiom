@@ -13,15 +13,15 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 - Nothing in the background. Next wakeup ≈ 45–60 min (W3 session 1).
 
 ## LAST BANKED
-- **W3.i + W3.ii in one session:** (B388) the m=2 transport KILL + coarsening structure
-  (m=1 and m=2 seeds have opposite level behavior); (B389) the mirror is NOT inversion —
-  the dihedral relation is TWIST-BLOCKED (support-exact, phase-broken), so the mirror is a
-  genuinely twist-compatible symmetry. Both preregs' kills banked with structure.
+- **W3.iii (B390) — P67 PROMOTED: brightness is LOCAL.** The tensor identity holds for all
+  pairs; the bright/dark classification reproduces from the q=3,5 local models alone
+  (12/12); and the registered out-of-sample test PASSED — (2,5) predicted dark from local
+  data, verified dark globally. The old riddle is localized. Session-3 item: the exact
+  bilinear attribution (which side kills which dark pair).
 
 ## NEXT (top 3)
-1. **W3.iii** — the bright/dark criterion with the full toolkit (v_word supports,
-   quasi-periods, the 11/12 ellipticity rule, and now the twist-blocked-inversion fact);
-   out-of-sample acceptance on (2,5). Sessions 2–3 of 3, then hard stage.
+1. **W3 session 3 (last)** — the attribution pairing (the correct √−15 bilinear form on
+   ℚ(ζ₁₂)×ℚ(ζ₂₀)); then W3 wraps and W4 (existence law, general N) begins.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
