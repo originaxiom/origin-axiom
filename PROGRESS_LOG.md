@@ -1112,3 +1112,9 @@ closed form of −1/16 (P64 residue).
   the split-covariance prediction CONFIRMED exactly (3-block: −1/16,+1/16 ⊕ −1/48,+1/48).
   Prime spectroscopy banked (23, 2 non-principal; 7, 11, 13 inert; naive channel-sorting
   bet killed by 7-in-spectrum). P3/P4 next.
+
+## 2026-07-04 — B402 Q1: the pair-requirement wall splits by seed (local vs emergent)
+
+- m=1: cell-wise real (locally forbidden). m=2: aggregate-only (units j ∈ {1,5,7,11}
+  carry ±1/8, window-cancelled). The narrative's best line refined into two mechanisms.
+  Q2 (the twist-address 3-orbit) registered with the address-measurement pipeline.
