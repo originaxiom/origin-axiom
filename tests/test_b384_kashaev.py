@@ -23,3 +23,23 @@ def test_no_sqrt5_subfield_elsewhere():
 def test_scaling_gate_decreasing():
     gs = [R[N]["growth"] for N in ("5", "9", "15", "27", "45", "81", "135")]
     assert all(a > b for a, b in zip(gs, gs[1:]))
+
+
+T2 = json.load(open(os.path.join(HERE, "t2_level15_singles.json")))
+SW = json.load(open(os.path.join(
+    HERE, "..", "B372_level45_sweeper", "sweep45.json")))
+
+
+def test_t2_m1_identity_transport():
+    assert set(T2["m1_ord20"]) == {"1", "6", "11", "16"}
+    assert all(v[0] == "1/4" and v[1:] == ["0", "0", "0"]
+               for v in T2["m1_ord20"].values())
+    assert set(SW["singles1"]) == {"1", "16", "31", "46"}
+    assert all(v[0] == "1/4" and all(x == "0" for x in v[1:])
+               for v in SW["singles1"].values())
+
+
+def test_t2_m2_level15_values():
+    assert T2["m2_ord12"]["0"] == ["1/12", "1/12", "0", "0"]
+    assert T2["m2_ord12"]["2"] == ["1/8", "0", "0", "0"]
+    assert "6" not in T2["m2_ord12"]

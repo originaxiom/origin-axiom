@@ -29,3 +29,22 @@ literature (Habiro-ring/Garoufalidis–Zagier neighborhood expected to know it).
 
 **Provenance.** kashaev_smalls.py (exact ℤ[x]/(xᴺ−1) arithmetic + Ramanujan-sum traces;
 ~2 min) → kashaev.json; locks tests/test_b384_kashaev.py.
+
+---
+
+# T2 BANKED: the tower transports the m=1 single-seed constant EXACTLY
+
+Level-15 (exact ζ₆₀ engine) vs level-45 (banked identified singles, sweep45.json):
+
+- **m=1 seed: IDENTITY TRANSPORT.** Nonzero cells form the coset 1 + (ord/4)ℤ at both levels
+  ({1,6,11,16} mod 20 at N=15; {1,16,31,46} mod 60 at N=45), every cell carrying the SAME
+  value (1/4, 0, 0, …). The registered rational-linear transport bet PASSES with ratio 1.
+- **m=2 seed: same ord-12 grid at both levels, same denominator family** (48ths/24ths:
+  {5/48, ±1/48, 1/24, 1/12, 1/8}), but the level-45 cells carry additional components in the
+  12-dim declared basis (positions 8–9) — NO identity or single-scalar law; the exact relabel
+  law is OPEN pending the level-45 basis semantics. Level-15 m=2 singles banked exactly
+  (t2_level15_singles.json): a=0: (1/12,1/12); a=1,5,7,11: (5/48,−1/48); a=2,10: (1/8,0);
+  a=3,9: (1/24,1/24); a=4,8: (1/12,−1/24); a=6: 0.
+
+This is the level-45 companion-constant step: the transported 1/4 is the first exact cross-level
+constant equality in the campaign. Locks: tests/test_b384_kashaev.py (T2 section).
