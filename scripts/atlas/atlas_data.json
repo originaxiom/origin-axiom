@@ -7707,6 +7707,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B379": {
+   "slug": "selection rule reduction",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "H2",
+    "H3",
+    "P56",
+    "P57",
+    "P60"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B37": {
    "slug": "operational feedback quarantine",
    "motifs": [
