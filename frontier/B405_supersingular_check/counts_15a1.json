@@ -1,0 +1,42 @@
+{
+ "2": {
+  "points": 4,
+  "a_p": -1,
+  "supersingular": false
+ },
+ "7": {
+  "points": 8,
+  "a_p": 0,
+  "supersingular": true
+ },
+ "11": {
+  "points": 16,
+  "a_p": -4,
+  "supersingular": false
+ },
+ "13": {
+  "points": 16,
+  "a_p": -2,
+  "supersingular": false
+ },
+ "17": {
+  "points": 16,
+  "a_p": 2,
+  "supersingular": false
+ },
+ "19": {
+  "points": 16,
+  "a_p": 4,
+  "supersingular": false
+ },
+ "23": {
+  "points": 24,
+  "a_p": 0,
+  "supersingular": true
+ },
+ "29": {
+  "points": 32,
+  "a_p": -2,
+  "supersingular": false
+ }
+}

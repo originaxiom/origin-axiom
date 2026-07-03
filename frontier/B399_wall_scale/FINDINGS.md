@@ -19,3 +19,20 @@ decoupling: the singles transport classically up the tower while the seam's pair
 boundary-dependent, does not.)
 
 **Provenance.** a3_normalizer.py → a3_normalizer.json; locks tests/test_b399_wall.py.
+
+---
+
+# A1 BANKED: the 1215 rung — both candidates KILLED; the third form's data
+
+Both primes unanimous (singles_1215.json): **24 cells** (CAND-FIX said 12, CAND-DEG said
+36 — both dead as registered). Structure: support ≡ 31 (mod 45) — **the 45-residue FROZE**
+between 405 and 1215; mod-135 classes doubled to {31, 121}; count walk 4,4,4,12,24. Only
+FOUR distinct values: **the class-31 line (12 cells) carries exactly 1/12 — the third
+independent appearance of 1/12 in the program** (seam constant; singles normalizer; now
+the frozen deep-tower value). The class-121 triple (4 cells each, cycling mod 405) is NOT
+the (1+c)/12 form nor c/12 (both tested); its exact identification is the named next step
+(a third prime or the ζ₂₇⁺ 9-dim solve). Sum rule Σ = 1 ⟺ the triple sums to 0 — decided
+by the identification.
+
+**Provenance.** singles_1215.py (~2.5 h, 2 primes), the reconstruction session; locks
+tests/test_b399_wall.py (A1 section).
