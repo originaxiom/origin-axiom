@@ -869,3 +869,12 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   (49/115200; ⟨v₁,v₅⟩ = −13/57600) — reconciled with the banked canonical spectrum.
 - Intake recorded (hints): 1/48 = Haar(2T×ℤ/2) = B₂/8; the McKay node map; the dilog-bridge
   negative. Residues ranked in FINDINGS (row-16 reality still the stubborn one). P61 promoted.
+
+## 2026-07-04 — B381 (D2 COMPLETE): the seam is a twist invariant (P62)
+
+- No intertwiner in the exhaustive natural family: the theta and canonical lifts are genuinely
+  inequivalent — the half-characteristic twist (cocycle ζ₁₅^{−j(j+1)/2}, exhibited) is structure.
+- The mechanism is a commutant fact: Par central in the canonical model (the B358 null = a
+  corollary); Par−J = the Weyl step in the theta model. **seam ≠ 0 ⟺ the twist is carried.**
+- The chain now closes: premise ⇒ twist forced (C6) ⇒ seam exists (P62) ⇒ support forced (P60)
+  ⇒ symmetries forced (P61); the rigid sector's one remaining freedom = the 1/12. D2 ✅.

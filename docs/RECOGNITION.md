@@ -113,3 +113,9 @@ prime powers, ramified-side lines at even powers — deriving all six banked ver
 the census-confirmed 225 death (prediction registered while the census ran: HIT). Acceptance
 rungs registered: 375 → 108°, 405 → 36°, **675 → exists at 90°** (reversing the naive "none").
 Promotion gated on the rungs.
+
+
+## D2 (2026-07-04, B381/P62): the twist isolated — the seam is a twist invariant
+
+No intertwiner (exhaustive family); Par central in the canonical model, Par−J = the Weyl step in
+the theta model; the twist = ζ₁₅^{−j(j+1)/2} exactly. The forcing chain closes up to one number.
