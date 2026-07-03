@@ -928,3 +928,9 @@ strength it knows it. (New metric in force: promotions with zero unmarked retrac
   components extracted; the √5-part is NONZERO at every 5|N level (2 at N=5; 2023/4 at 15;
   13100 at 25; 71150671/4 at 45; ~1.3e20 at 135): registered bet (b) PASSES — golden content
   in the Kashaev ladder at our levels. Scaling gate consistent (2π·log/N decreasing 4.93→2.36).
+
+## 2026-07-04 — B384 T2: the tower transports the m=1 seed constant EXACTLY (1/4, identity)
+
+- Coset 1 + (ord/4)ℤ at both 15 and 45, same value (1/4) — first exact cross-level constant
+  equality (the level-45 companion step). m=2: same ord-12 grid + denominator family, extra
+  basis components at 45 — relabel law OPEN. T3 (the (S,T) seam block) next; then D5.
