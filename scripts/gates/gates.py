@@ -116,11 +116,35 @@ def gate_firewall_oneway():
 
 # --- gate: PROGRESS_LOG is append-only ----------------------------------------------------
 def gate_append_only():
+    """Append-only, with the one constitutional exception (GOVERNANCE §9): a quarterly
+    roll-up may move a PREFIX of dated entries verbatim into docs/progress/ — the gate
+    then requires (a) the live log ends with HEAD's retained suffix and (b) the removed
+    prefix appears verbatim inside the docs/progress/ archives."""
     rc, head = _git("show", "HEAD:PROGRESS_LOG.md")
     if rc != 0:
         return True, "git unavailable — skipped"
     cur = _read("PROGRESS_LOG.md")
-    return cur.startswith(head), f"HEAD prefix preserved: {cur.startswith(head)}"
+    if cur.startswith(head):
+        return True, "HEAD prefix preserved"
+    # roll-up path: longest common suffix
+    n = 0
+    while n < min(len(cur), len(head)) and cur[-1 - n] == head[-1 - n]:
+        n += 1
+    retained = head[len(head) - n:]
+    removed = head[:len(head) - n]
+    if not retained.strip():
+        return False, "no common suffix with HEAD — not an append, not a roll-up"
+    arch_dir = os.path.join(ROOT, "docs", "progress")
+    archive = ""
+    if os.path.isdir(arch_dir):
+        for f in sorted(os.listdir(arch_dir)):
+            if f.endswith(".md"):
+                archive += _read(f"docs/progress/{f}")
+    # the removed dated entries (from the first "## 20" heading) must live in the archive
+    k = removed.find("## 20")
+    moved = removed[k:] if k >= 0 else removed
+    ok = moved.strip() in archive
+    return ok, f"roll-up: removed prefix archived verbatim: {ok}"
 
 
 # --- gate: atlas freshness (the automatic-update invariant) --------------------------------
