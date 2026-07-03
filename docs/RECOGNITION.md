@@ -158,3 +158,21 @@ the m=2 relabel law · the mirror's non-Galois mechanism · the (2,3) half-group
 defect-tracelessness · full-level Weil-TQFT ID (NEEDS-SPECIALIST) · AK-model ID
 (NEEDS-SPECIALIST). The campaign's registered program (D0–D5) is COMPLETE: every D-verdict
 banked, three promotions, two registered kills, one engineering trap documented.
+
+## THE CLOSURE CAMPAIGN — synthesis (2026-07-04, W0–W6, PRs #490–#501)
+
+**Derived/promoted:** P66 (the 1/12 in closed form end-to-end — tensor identity + two-branch
+local assembly) · P67 (brightness is LOCAL, out-of-sample verified on (2,5)) · the dark-pair
+attribution (kernel-killed {(1,5),(4,5)} vs convolution-cancelled {(1,3),(1,4),(3,5)} via
+the exact rank-2 pairing) · the general-N existence statement (sector at 3^a·5^b iff NOT
+both exponents even; 243/625 predictions hit) · the frozen seed constant (1/4 at three
+levels — no running).
+
+**Killed with structure:** the graded-pair forced-ratio ladder (the seam and the value
+sector DECOUPLE above level 15 — two rungs); the m=2 relabel law (coarsening; opposite
+seed behaviors); inversion as the mirror's mechanism (twist-blocked dihedral); TIM at both
+S and T; the E₆-grading/seam exponent alignment; the naive support walk (twisted, 29 mod 45).
+
+**Residue queue (named, sharp):** the convolution-cancellation mechanism · the all-k local
+classification (specialist register) · the twisted support walk · the (2,3) stabilizer ·
+full-level TQFT ID + Kashaev novelty (dossiers ready, outreach dormant).

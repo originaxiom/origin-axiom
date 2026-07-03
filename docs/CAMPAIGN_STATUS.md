@@ -5,7 +5,7 @@ this is the owner's one-glance view of what the machine is doing.*
 
 **Campaign:** The Closure Campaign (owner-approved 2026-07-04) — close the value sector's
 internal theory (W1–W4), one firewalled wall-probe wave (W5), dossiers + wrap (W6).
-Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.md`.
+Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 
 ---
 
@@ -13,15 +13,13 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 - Nothing in the background.
 
 ## LAST BANKED
-- **W5 COMPLETE (all three walls priced):** SCALE — the seed constant is FROZEN (1/4 at
-  15/45/135; no running; the support walks a twisted congruence, new data). CHIRALITY —
-  the E₆ θ-grading and the seam are structural analogs with NO exponent alignment (the
-  missing bridge = the registered E₆ CRUX). DYNAMICS — TIM is dead at both S and T levels
-  (the c = 7/10 kinship does not extend to modular data). W5 done in 1 session of 2.
+- **THE CLOSURE CAMPAIGN IS COMPLETE (W0–W6).** Two promotions (P66, P67), five
+  structural kills, the general-N existence law, all three walls priced, both specialist
+  dossiers written (not sent), Review 4 anchored. Synthesis in docs/RECOGNITION.md.
 
 ## NEXT (top 3)
-1. **W6 (final)** — the two specialist dossiers (Weil-TQFT; Kashaev √5 novelty) +
-   the campaign synthesis and wrap.
+1. **Next campaign = owner's decision gate** — candidates on the residue queue: the
+   convolution-cancellation mechanism; the twisted support walk; the paper phase.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

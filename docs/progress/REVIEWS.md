@@ -101,3 +101,31 @@ policy unchanged (one rerun, then targeted-gate documentation).
 findings, one trap documented. The promotion cadence (3 in one window) reflects the campaign
 reaching its derivation targets, not bar drift — each promotion's evidence is a registered
 prediction that passed.
+
+---
+
+# Review 4 — 2026-07-04 (merges #484–#500, the Closure Campaign)
+
+anchor-commit: `102291e36ced840d7472c1fb46a17650addf446b`
+
+**Scope.** The full Closure Campaign W0–W5 (PRs #490–#500) plus the tail of the prior wave.
+
+**Claims hygiene.** Two promotions (P66 closed form; P67 locality — the latter with a
+registered out-of-sample prediction that PASSED). Every wave prereg-first; five registered
+kills banked WITH their structure (W2 decoupling ×2 rungs; B388 coarsening; B389
+twist-blocked inversion; P-SCALE support walk); one flagged-unreliable intermediate
+(per-side Π_H attribution) corrected by the exact pairing in the same wave — the standing
+hazard note did its job. Time-boxes: every wave at or under budget (W4, W5 each done in
+one session of two).
+
+**Verification depth.** Out-of-sample prediction used twice (pair (2,5); census 243/625 —
+all registered before computation, all hit or half-hit with the miss banked as data). The
+event-driven cadence (owner-requested) replaced timers mid-campaign without a dropped
+verdict.
+
+**Debt.** (i) The convolution-cancellation mechanism (three pairs); (ii) the all-k local
+classification (specialist register, precise scope); (iii) the twisted support walk of the
+frozen 1/4 (new, unexplained); (iv) W6 wrap items in flight.
+
+**Verdict.** The campaign closed the value sector's internal theory to named residues and
+priced all three walls with registered probes. Discipline intact under the new cadence.
