@@ -43,3 +43,21 @@ def test_t2_m2_level15_values():
     assert T2["m2_ord12"]["0"] == ["1/12", "1/12", "0", "0"]
     assert T2["m2_ord12"]["2"] == ["1/8", "0", "0", "0"]
     assert "6" not in T2["m2_ord12"]
+
+
+T3 = json.load(open(os.path.join(HERE, "t3_block.json")))
+
+
+def test_t3_gauss_sum_is_seam_radical():
+    assert T3["gauss15"] == ["0", "0", "0", "1"]
+
+
+def test_t3_triangular_S_on_slot():
+    assert T3["F"]["6,14"]["HAvg"] == ["0", "0", "0", "0"]
+    assert T3["F"]["14,6"]["HAvg"] != ["0", "0", "0", "0"]
+    assert all(v["proportional"] is True for v in T3["F"].values())
+
+
+def test_t3_diagonal_entries_exact():
+    assert T3["F"]["6,6"]["HAvg"] == ["0", "-3/8", "0", "1/8"]
+    assert T3["F"]["14,14"]["HAvg"] == ["15/32", "-3/32", "-5/32", "1/32"]

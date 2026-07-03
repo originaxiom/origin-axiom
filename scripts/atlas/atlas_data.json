@@ -7822,14 +7822,16 @@
    "motifs": [
     "figure_eight",
     "metallic",
+    "eisenstein",
     "golden",
+    "torsion",
     "wrt_quantum",
     "firewall",
     "five_web"
    ],
    "refs": [],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },

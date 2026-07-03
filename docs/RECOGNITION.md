@@ -131,3 +131,30 @@ det-class split **1/12 = 1/16 (generic) + 1/48 (5-boundary)**; the row-16 silenc
 (P65: reality theorem + ζ₅-spectrum zero). D3(a) (bright/dark criterion) OPEN. **D4 IN
 PROGRESS** (B384: T1 banked — ⟨4₁⟩_N carries nonzero ℚ(√5) content at every 5|N level, exact;
 T2/T3 registered and pending). D5 fires when D4's verdicts land.
+
+## D5 — THE CAMPAIGN SYNTHESIS (2026-07-04; the wrap)
+
+**What DERIVED (all promoted or locked):**
+1. The frame identification (P59): the tower IS the quantized golden cat map (Pisano exact).
+2. The existence law (P63): local-census tensor law, six rungs re-derived, duel 3/3 predictive.
+3. The twist isolated (P62): seam ⟺ half-characteristic cocycle; canonical model seam-null.
+4. The trace formula (P64): twist = −½ω(v,(1,1)) in the shifted spectrum; the Par-table
+   factorizes 142/142; **1/12 = 1/16 + 1/48** (generic + golden boundary); |χ|² = #Fix(γ′).
+5. The row-16 theorem (P65): ℚ(√5)-reality with the ζ₅-spectrum-zero mechanism.
+6. Cross-level transport (B384-T2): the single-seed 1/4 carries 15→45 identically.
+
+**What RESISTED (= the exact boundary of the object; each banked):**
+1. D3(a) the bright/dark pair criterion — still open (the (1,3)/(3,4) discriminator).
+2. Sector-level modular data (B384-T3): triangular S ⇒ the slot is NOT a modular block;
+   identification must go to full level 15.
+3. The Kashaev ℚ(√5) content is present but its LAW (valuation ladder) failed bet (c) —
+   the bridge exists at field level, not (yet) at valuation level.
+4. The three numerological faces of 1/12 (Haar, B₂/8, mechanical-240): mechanical-240
+   refuted; Haar/B₂ remain unforced numerology — the true split is 1/16 + 1/48.
+5. The m=2 cross-level relabel law (extra basis components at 45) — open.
+
+**Residue queue (named, priced):** D3(a) discriminator · the CRT ζ₃×ζ₅ closed form of −1/16 ·
+the m=2 relabel law · the mirror's non-Galois mechanism · the (2,3) half-group stabilizer ·
+defect-tracelessness · full-level Weil-TQFT ID (NEEDS-SPECIALIST) · AK-model ID
+(NEEDS-SPECIALIST). The campaign's registered program (D0–D5) is COMPLETE: every D-verdict
+banked, three promotions, two registered kills, one engineering trap documented.

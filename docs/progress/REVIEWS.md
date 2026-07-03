@@ -75,6 +75,8 @@ Next review due ~10 merges from this anchor.
 
 # Review 3 — 2026-07-04 (merges #472–#482, the autonomous-mode window)
 
+anchor-commit: `a4c0c06f40ba94df5564a19d55d314dd06e2ecc7`
+
 **Scope.** PRs #475–#482: P62 (twist isolation), B382 legs 1–4 (the why-1/12 program), B383
 (row-16 theorem), the acceptance-duel banking wave (P63–P65 promotions in flight this PR).
 
