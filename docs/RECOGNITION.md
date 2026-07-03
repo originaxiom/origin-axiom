@@ -76,3 +76,12 @@ seed quantized at growing level), not by the seed matrix — the level-indexed z
 index of the A₁-action on the level-N theta space; η-quotient multipliers; level-scaled Dedekind
 sums) is the registered continuation, computable directly from the banked engine. 1/48 remains
 untested against the zoo (queued with the level-indexed pass).
+
+
+## R1 — STRUCTURAL HIT (2026-07-03, B376/P59): the quantized golden cat map
+
+ord(W₁@N) = ord(A₁ mod N) = π(N)/2 exactly at all five measured levels (incl. the sector-less
+225); predictions 500/540/900 registered for 375/405/675. Frame: Hannay–Berry / Kurlberg–Rudnick
+(cited). Phase 2's derive-target is fixed: the doublet existence law + a(N) + the C-5 tables from
+cat-map Hecke theory. R2's obstruction now has a candidate mechanism (ℤ[φ] splitting: 5 ramified,
+3 inert; character alignment at mixed levels).
