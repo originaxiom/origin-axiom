@@ -1015,3 +1015,10 @@ closed form of −1/16 (P64 residue).
   registered out-of-sample PASSED ((2,5): predicted dark locally, verified dark globally).
   D3(a)'s riddle localized to the local-spectra pairing. Attribution = session 3 (the
   per-side Π_H columns are flagged unreliable — the standing hazard, subtler form).
+
+## 2026-07-04 — W3 COMPLETE: the attribution via the exact rank-2 pairing
+
+- B(ζ₁₂^r, ζ₂₀^s) computed exactly (4×8, rank 2). Dark pairs split: KERNEL-KILLED
+  {(1,5),(4,5)} (5-side in the right-kernel; partners are the 5-parabolic twins) vs
+  CONVOLUTION-CANCELLED {(1,3),(1,4),(3,5)} (the subtle class, riddle included). W3 closes
+  at session 3/3; residue named (the cancellation mechanism).

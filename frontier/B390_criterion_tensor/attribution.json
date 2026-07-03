@@ -1,0 +1,94 @@
+{
+ "B": [
+  [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "0",
+   "1/8",
+   "0",
+   "1/8",
+   "0",
+   "0",
+   "0",
+   "1/8"
+  ],
+  [
+   "0",
+   "0",
+   "1/8",
+   "0",
+   "1/8",
+   "0",
+   "-1/8",
+   "0"
+  ],
+  [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ]
+ ],
+ "rankB": 2,
+ "1,3": {
+  "status": "dark",
+  "all3_left": false,
+  "all5_right": false,
+  "coord_fail": 10,
+  "attribution": "KILL-C (convolution cancellation)"
+ },
+ "1,4": {
+  "status": "dark",
+  "all3_left": false,
+  "all5_right": false,
+  "coord_fail": 0,
+  "attribution": "KILL-C (convolution cancellation)"
+ },
+ "3,5": {
+  "status": "dark",
+  "all3_left": false,
+  "all5_right": false,
+  "coord_fail": 4,
+  "attribution": "KILL-C (convolution cancellation)"
+ },
+ "1,5": {
+  "status": "dark",
+  "all3_left": false,
+  "all5_right": true,
+  "coord_fail": 0,
+  "attribution": "KILL-5 (5-side in right-kernel)"
+ },
+ "4,5": {
+  "status": "dark",
+  "all3_left": false,
+  "all5_right": true,
+  "coord_fail": 0,
+  "attribution": "KILL-5 (5-side in right-kernel)"
+ },
+ "3,4": {
+  "status": "bright",
+  "all3_left": false,
+  "all5_right": false,
+  "coord_fail": 10,
+  "attribution": "LIVE (bright)"
+ },
+ "2,3": {
+  "status": "bright",
+  "all3_left": false,
+  "all5_right": false,
+  "coord_fail": 8,
+  "attribution": "LIVE (bright)"
+ }
+}

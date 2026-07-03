@@ -7946,7 +7946,7 @@
     "P67"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 1,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
