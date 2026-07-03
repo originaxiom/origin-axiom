@@ -13,14 +13,15 @@ Full plan: `~/.claude/plans/cc-handoff-eventual-globe.md` · map: `docs/ROADMAP.
 - Nothing in the background. Next wakeup ≈ 45–60 min (W3 session 1).
 
 ## LAST BANKED
-- **W2 COMPLETE (KILL-with-structure, under time-box):** the 135 rung is ZERO too (3/3
-  primes) — **the seam/value-sector coincidence is exclusive to level 15** (dark at 45
-  exact, dark at 135 by CRT). The graded-pair ratio ladder is dead as registered; the
-  decoupling fact is the deliverable.
+- **W3.i (B388): the m=2 transport KILL + the coarsening.** No relabel law 15→45 exists
+  (all registered candidates exhausted) because the level-45 m=2 singles are strictly
+  COARSER: two bare values (a mod 3), c₁ ≡ 0, c₂ on even a with an odd half-period flip.
+  The two seeds have opposite level behavior (m=1 transports identically; m=2 coarsens).
 
 ## NEXT (top 3)
-1. **W3 session 1** — the m=2 relabel law 15→45 (basis semantics of the extra level-45
-   components), prereg first (B388).
+1. **W3.ii (B389)** — the mirror mechanism: test Ŝ-inversion symmetry t(−a,−b) = t(a,b)
+   (no Galois) on the banked table; if it holds, the mirror law reduces to an a-flip
+   Galois law. Session 2 of 3.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

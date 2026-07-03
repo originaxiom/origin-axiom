@@ -7891,6 +7891,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B388": {
+   "slug": "m2 relabel law",
+   "motifs": [
+    "metallic",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B385",
+    "B386"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B38": {
    "slug": "tangent return arithmetic filter",
    "motifs": [
