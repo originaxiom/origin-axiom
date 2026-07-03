@@ -1042,3 +1042,9 @@ closed form of −1/16 (P64 residue).
 - Both specialist dossiers ready (not sent; outreach dormant); Review 4 anchored; synthesis
   in RECOGNITION.md. Campaign totals: PRs #490–#501, P66+P67 promoted, five structural
   kills, general-N law, three walls priced, every wave at or under time-box.
+
+## 2026-07-04 — Closure II / M1 session 1: K1-STRONG — termwise s-orthogonality
+
+- No cancellation exists: dark non-kernel pairs have EVERY convolution term zero (bright
+  controls have teeth). Dark classes = KERNEL vs MUTUAL-ANNIHILATION. Instrument correction
+  banked (full-field spectra required; bright-controls-read-zero caught the broken form).

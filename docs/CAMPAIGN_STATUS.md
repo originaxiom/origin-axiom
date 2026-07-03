@@ -16,9 +16,10 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - Nothing in the background.
 
 ## LAST BANKED
-- **THE CLOSURE CAMPAIGN IS COMPLETE (W0–W6).** Two promotions (P66, P67), five
-  structural kills, the general-N existence law, all three walls priced, both specialist
-  dossiers written (not sent), Review 4 anchored. Synthesis in docs/RECOGNITION.md.
+- **M1 session 1 (B393): the mechanism is TERMWISE — no cancellation exists.** Every
+  pairing term vanishes individually for the dark non-kernel pairs (0/39, 0/15; bright
+  controls 24/39, 18/39). The two dark classes are now KERNEL vs MUTUAL-ANNIHILATION.
+  Session 2: the one-line Galois "why" + the (1,4) completion.
 
 ## NEXT (top 3)
 1. **M1 session 1** — the cancellation mechanism (B393 prereg + spectral vectors vs the
