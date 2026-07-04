@@ -70,9 +70,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **The next-campaign decision gate (owner)** — candidates: the seam-channel hierarchy
-   test; the 1215-triple ID (+ sentinel test); the class-group/emergent-symmetry theory
-   arc; the paper phase (P59–P68 is a complete arc).
+1. **THE MASTERPLAN is banked (docs/MASTERPLAN.md)** — Phase 1 (the loaded questions)
+   starts on the owner's go: the 1215-triple ID + the seam-channel hierarchy test in one
+   session.
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

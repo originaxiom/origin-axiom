@@ -207,3 +207,10 @@ Moonshine mapping (genus characters ↔ moonshine groups; CM points of ℚ(√�
 defined computation. "Gate B tractable in minutes" (Fox/Sym^{2m} with B347 holonomy):
 pending their exact reproducible inputs. E5 (seam = f₁₅ ⊗ Weil(15)): NEEDS-FORMULATION
 (no rational→integer map proposed). The 31-collision tension filed in B406.
+
+## 2026-07-04 — Chat-1 session synthesis (intake note)
+Their §1 misbanks two items at handoff-time: the support inclusion is (1,2)-ONLY (B407
+killed universality: (2,4) both-exclusives, (1,3) reversed) and the two-prime reduction
+excludes 23 (overclaim flagged). A2 already banked (contraction). Angle VII (length
+spectrum, l₁ ≈ 1.087) noted as their candidate — no computation defined yet. §6's
+multi-seat lesson adopted into the MASTERPLAN.

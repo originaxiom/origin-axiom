@@ -1171,3 +1171,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Their 16 s-only cells check exactly; universality dies ((2,4) both-exclusives; (1,3)
   reversed). The find: per-pair nesting mirrors the M1 product strata exactly. Fact-1
   record corrected (φ⁴+φ⁻⁴=7 already banked; 23-extension overclaim flagged).
+
+## 2026-07-04 — THE MASTERPLAN banked (docs/MASTERPLAN.md)
+
+- Five phases: loaded questions → coupling-channel theory → named gates → the paper →
+  the gated physics frontier. Sentinels armed; multi-seat protocol formalized; intake
+  note filed on the synthesis handoff (two §1 corrections, A2 lag).
