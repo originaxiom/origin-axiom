@@ -1165,3 +1165,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   rational torsion (Z/8 on 15a1; full 2-torsion on 40a1) — the quantization-map lead dies
   at the congruence level. The 31-collision tension filed (principal-absent vs sentinel).
   Hooks ledgered.
+
+## 2026-07-04 — B407: support nesting — (1,2) verified, law killed at (2,4), reversed at (1,3)
+
+- Their 16 s-only cells check exactly; universality dies ((2,4) both-exclusives; (1,3)
+  reversed). The find: per-pair nesting mirrors the M1 product strata exactly. Fact-1
+  record corrected (φ⁴+φ⁻⁴=7 already banked; 23-extension overclaim flagged).

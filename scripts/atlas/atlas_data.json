@@ -8254,6 +8254,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B407": {
+   "slug": "support nesting",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B109",
+    "B398",
+    "S4"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
