@@ -1398,3 +1398,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   Paper 2's cornerstone upgraded to the strong two-FAMILIES form (golden family / Eisenstein
   family meeting minimally). The papers' foundation (outlines + theorem spines + verification
   backbone + strong cornerstone) is complete; F4 prose is the remaining fill.
+
+## 2026-07-04 — Flagship: polished abstracts for both papers; the foundation is complete
+
+- Paper 1 (value theory) + Paper 2 (the trinity) abstracts written. The papers' submission-
+  track FOUNDATION is complete: outlines + theorem spines (11 + cornerstone/10) + verification
+  backbone (74/74 green) + strong two-families cornerstone + abstracts. Remaining: F3 figures
+  + F4 full prose (the multi-session fill). The deep-investigation campaign (U1-U5) is queued
+  after.
