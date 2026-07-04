@@ -8351,6 +8351,7 @@
     "firewall"
    ],
    "refs": [
+    "B418",
     "P68"
    ],
    "obstacle": null,
@@ -8460,6 +8461,21 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B418": {
+   "slug": "tw4 upstairs",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B389",
+    "B411"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
   },
   "B41": {
    "slug": "projective orbit census",

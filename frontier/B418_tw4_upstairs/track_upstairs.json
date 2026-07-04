@@ -1,0 +1,17 @@
+{
+ "support": 49,
+ "mirror_upstairs_galois": [],
+ "sample_richness": {
+  "0,0": 4,
+  "0,4": 8,
+  "0,8": 7,
+  "1,1": 6,
+  "1,3": 13,
+  "1,5": 8
+ },
+ "verdict": "mirror is NOT cell-local even upstairs -- emergence is intrinsic",
+ "bar": {
+  "any_exact_SM_match": false,
+  "reason": "upstairs symmetry (if any) is a subgroup of Gal(Q(zeta60)/Q)=(Z/60)*, order 16 -- an abelian cyclotomic Galois group, not an SM gauge structure"
+ }
+}

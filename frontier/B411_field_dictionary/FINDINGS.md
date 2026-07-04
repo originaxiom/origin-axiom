@@ -36,3 +36,13 @@ field. It DOES determine the field on the BOUNDARY cells (gcd ∈ {3,5,15}: sing
 
 **Provenance.** sweep.py → dictionary.json; a directional finding (no promotion). Locks:
 tests/test_b411_dictionary.py (the boundary-determinism + generic-multivalence facts).
+
+
+---
+
+## UPDATE (TW4/B418): the 'work upstairs' hope is REFUTED for the mirror
+The mirror is NOT cell-local even in the full ℚ(ζ₆₀) (no Galois element realizes it on the
+raw table — B418). The emergent symmetries are INTRINSIC, not Π_H-artifacts. B411's meta-
+insight (Π_H is the local/emergent boundary) stands as a DESCRIPTION, but the actionable
+direction (unify the negatives by working upstairs) is closed for the mirror. Sharper truth:
+the emergence is a genuine feature of the object.
