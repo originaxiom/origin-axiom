@@ -34,3 +34,25 @@ The energy meditation ("dimensions enter through the measure of integration"; ob
 cost across a blanket) — a HOOK restating Gate B philosophically. The Markov-blanket
 vocabulary remains the rhyme this repo refuses in claims. Kept for motivation, never for
 foundations.
+
+---
+
+## Addendum (2026-07-04): the "12√3 inter-track operator" package
+
+**Arithmetic — all EXACT (verified):** h(E₆) = 12; |1−ω| = √3; the track ratio B/A = 36/√3
+= 12√3 = 6²/√3 is constant across the three generations; (12√3)² = 432 = 16×27; 27 =
+dim(fundamental E₆); 16 = SO(10) one-generation spinor. Every identity checks.
+
+**Interpretation — DEFLATED (two independent kills):**
+1. **The "constant ratio = protected symmetry" claim is TAUTOLOGICAL.** The tracks are
+   DEFINED as A = √3·6ⁿ, B = 6^{n+2}; the ratio 6^{n+2}/(√3·6ⁿ) = 12√3 is independent of n
+   BY CONSTRUCTION. A ratio built into the parametrization is not an emergent selection
+   rule — no operator was constructed, no protection derived. And the underlying "masses =
+   6ⁿ·√3" is already S043-deflated (base-6 = dressing; values not reproducible).
+2. **432 = 16×27 is post-hoc factorization selection:** 432 has 10 factorizations as a·b;
+   "16×27" is chosen because it maps to (SO(10) spinor, E₆ 27), not because the structure
+   forces that split over 2⁴·3³. The S042 numerology bar applies.
+
+**Verdict:** the exact identities join the arithmetic record; the hidden-sector /
+Coxeter-Eisenstein-operator reading is numerology-class (firewalled, unvoiced). Revival
+bar unchanged: a DERIVATION of the track masses (not a re-parametrization) would reopen it.
