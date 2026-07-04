@@ -1,88 +1,119 @@
-# THE MASTERPLAN — FINAL DRAFT (2026-07-04; for owner sign-off)
+# THE MASTERPLAN — FINAL (2026-07-04; for owner sign-off)
 
-*Built on verdicts only, per owner direction. The provisional draft's architecture,
-finalized with Phase 1's results, the S043 extractions, and the Paper-1 phrasing
-governor. Standing discipline everywhere: prereg-first, binding gates, two-outcome
-design, sentinels, event-driven cadence, board + iCloud + notifications, reviews per
-~10 merges, the three-seat scrutiny protocol (scouts propose; CC verifies; mathematics
-is what survives), firewall absolute.*
+*Built on verdicts only. Draft hardened by a 3-member adversarial panel (rigor auditor,
+strategist, mathematician) whose single most important catch — the seam-persistence
+pivot was an embedding-max artifact — was re-checked and CORRECTED before this rewrite
+(B408 correction, PR #528). Standing discipline: prereg-first, binding gates, two-outcome
+design, self-firing sentinels, event-driven cadence, board+iCloud+notifications, decadal
+reviews, the three-seat scrutiny protocol (scouts propose, CC verifies, mathematics
+survives), firewall absolute.*
 
-## THE VERDICT FOUNDATION (what this plan stands on — all banked, all locked)
+## FOUNDATION — BANKED & LOCKED (level-15 exact unless marked all-N)
 
-1. The object is computation-complete at level 15; the whole banked dataset is
-   formula-derived (P64 universal, 661/661).
-2. The value theory is organized and partially derived by the class field theory of
-   ℚ(√−15) (the sixth angle): the class-group action, the genus gates, P68's order
-   theorem, the seam landscape (classicality = the unique dark address).
-3. **The scale question has exactly one open door:** every classical channel contracts
-   (A2), the sum rule is frozen at 1 through all five rungs (Phase 1a), BUT the seam
-   channel PERSISTS/GROWS 15→45 (Phase 1b, ratio ≈ 1.217). The boundary-recruited pair
-   channel is the object's single scale-lever candidate.
-4. The content question is priced: no canonical frame exists (W-B1); any mixing-type
-   object requires arbitrary choices; the coupling channel (twist / boundary recruitment
-   / non-principal class) is the only mechanism.
-5. The singles' value field DEEPENS at 1215 (resists ζ₉⁺ and ℚ(√5)); the exact triple is
-   a degree-6 reconstruction in flight — its landing auto-adjudicates the 31-collision
-   and the supersingular sentinels.
-6. Novelty is mapped (5K/4L/5N + two sweep rounds): the genuine contributions are the
-   OVERLAYS (seam object, existence law, locality, stratification, class-group action)
-   plus first-computed INSTANCES (the E₆ variety of 4₁); frameworks are cited, never
-   claimed.
+1. Computation-complete at level 15; the whole banked dataset is formula-derived
+   (P64: all six banked pairs at level 15, 661/661).
+2. The value theory is organized and partly derived by the class field theory of
+   ℚ(√−15): the class-group action, genus gates, P68's order theorem (Eisenstein gate),
+   the seam landscape.
+3. **The scale wall is FULLY priced (no open door):** every internal channel contracts up
+   the tower — the singles (A2) AND, under the embedding-invariant measure, the seam
+   (B408 correction, normalized ratio 0.76). The sum rule is frozen at 1 through all five
+   tested rungs (Phase 1a, 3/3 primes). **The object generates no hierarchy; any physical
+   scale is necessarily EXTERNAL** (Chern–Simons level / curvature radius — S043).
+4. The content wall is priced: no canonical frame (W-B1); the coupling channel (twist /
+   boundary recruitment / non-principal class) is the only cross-sector mechanism.
+5. All-N results: P59 (Pisano, predictive), P63 (existence law, 9-rung predictive), P68
+   (Eisenstein gate, derived).
 
-## PHASE 2 — the coupling-channel theory (3–5 sessions) — THE CROWN
+## FOUNDATION — OBSERVED-ONCE / IN-FLIGHT / PENDING (not locked)
 
-The seam is the one lever; this phase builds its theory:
-- **2a. The seam-envelope law:** the exact 135 pair sweep (the 36-dim identification —
-  the B372 pattern extended; the only instrument after the scout's 2-strike void). Does
-  the growth continue? A growth LAW here is the program's first scale-shaped result;
-  contraction at 135 kills the lever honestly.
-- **2b. The class-group unification:** prove the ℤ/2-everywhere family is h(ℚ(√−15))
-  acting at window level — derive Rule 2 (equipartition) as P68 derived Rule 1; the
-  mirror's window characterization; the annihilation class's √5-withholding "why".
-- **2c. The strata-mirror theorem:** formalize B407's find (table anatomy = product
-  stratification, pair by pair).
-- Exit: BANK the theory or STAGE with the exact boundary; either is the campaign's
-  deliverable.
+- The 1215 triple's exact identity: IN FLIGHT (degree-6 reconstruction, watcher armed).
+  On landing it adjudicates the 31-collision (a filed tension) and the supersingular
+  sentinels — the SINGLES sentinels, independent of the seam channel.
+- The E₆ variety of 4₁ (B264/B347): APPEARS-NOVEL, pending specialist (not "first" until
+  confirmed).
 
-## PHASE 3 — the named constructions and gates (2–3 sessions in-sandbox, then register)
+## PHASE 2 — the coupling-channel theory (the crown; owner/review-gated, not session-bound)
 
-- **Gate B** (E₆ state integral): contingent on Chat-1's reproducible inputs (formally
-  demanded); one registered in-sandbox attempt.
-- **The spectral-triple construction (S043 extraction):** formulate (A, H, D) = (E₆
-  character ring, seam space, Fox-built D); the registered question is well-posedness,
-  not masses. Two-outcome: a formulable triple (bank the object) or the precise
+The seam is the only cross-sector mechanism; this phase is its DERIVATION theory (content,
+not scale — the scale question is closed). Ordered by information-per-compute-hour:
+
+- **2c (banked synthesis, ~1 session, no new compute) — FIRST:** formalize B407 (per-pair
+  table anatomy = the M1 product stratification). State explicitly what it proves BEYOND
+  P66/P67/M1, or fold it into that write-up. Hardens the "stratification" overlay Paper 1
+  claims.
+- **2b (the long pole; a P68-scale derivation, 2–4 sessions + review gates):** the
+  registered QUESTION (not a foregone conclusion) — does an involution ι on the level-N
+  windows exist with t(ιa,ιb) = σ_cl·t(a,b), ι = the nontrivial class of Cl(ℚ(√−15)) via
+  the P4 Gauss-sum basis? Reconcile explicitly with M3 (the mirror is EMERGENT, no
+  cell-local origin — so any window law must be aggregate). ACCEPTANCE TEST (binding,
+  two-outcome): derive the convolution-cancellation mechanism ({(1,3),(1,4),(3,5)} vs the
+  exact rank-2 pairing — the named staged residue) — or the channel closes. Rule 2
+  (equipartition) is an aggregate-counting statement, NOT the cell-wise shape of P68.
+- **2a (confirmatory, gated — deferred, low priority):** the exact 135 pair sweep, ONLY
+  if a specific reason to revisit the scale question arises. 2a.0 gate (banked-data,
+  <1 session) FIRST if ever run: the embedding-invariant normalization already gave
+  contraction — 2a is no longer the crown, it is a closed-question confirmation.
+- EXIT: BANK the coupling theorem set or STAGE the exact boundary; each leg BANK-or-STAGE
+  at its own time-box.
+
+## PHASE 3 — the named constructions and gates (definitional-first; then register)
+
+- **The spectral-triple construction (S043):** a DEFINITIONAL step FIRST — specify A's
+  *-involution (R(E₆) vs ℂ[X_{E₆}(4₁)]), H's inner product, and the representation
+  π: A → B(H) bridging the E₆ side and the arithmetic side (no banked bridge exists yet);
+  note Fox-D is generically NOT self-adjoint. Only then the well-posedness question; if H
+  is finite-dimensional, the target is the first-order/real-structure conditions (bare
+  "is it a triple" is vacuous there). Two-outcome: a defined object or the precise
   obstruction.
-- **E₆ topological recursion (S043 extraction):** scope against the DFM SL(2) anchor;
-  likely specialist-adjacent — one session to state it, then register.
-- Dossier refresh + the two reading tasks (Kirillov–Ostrik for the CRT phase;
-  Niibo–Ueki reciprocity vs our genus gating).
+- **Gate B (E₆ state integral) = OPEN_LEADS L50:** the (θ,φ) = trinification-triality
+  part is BANKED (B299); the state integral is the specialist residual. In-sandbox: EITHER
+  specify the integrand+domain in-repo (a self-contained convergence question) OR move to
+  the blocked-on-input queue — do NOT gate Phase-3 math on Chat-1 inputs that may never
+  arrive.
+- **E₆ topological recursion (S043):** one session to state it against the DFM SL(2)
+  anchor; likely specialist-adjacent → register.
+- Reading tasks: Kirillov–Ostrik (CRT phase); Niibo–Ueki reciprocity vs the genus gating.
 
-## PHASE 4 — Paper 1 (3–5 sessions; interleaves after Phase 2)
+## PHASE 4 — Paper 1 (DRAFTS IN PARALLEL WITH PHASE 2; agent fan-out + review panel)
 
 "The quantized golden cat map with a half-characteristic twist: exact value theory and
-class-field structure." Scope: P59–P68 + the walls as theorems + the landscape + the
-emergent-symmetry family. **Governed by the phrasing rule:** novelty claimed ONLY for
-the overlays and instance-firstness (the E₆ variety of 4₁ explicitly "first computed
-instance, known framework"); Gelca–Uribe cited as the closest prior; Jeffrey/skein
-items cited. Multi-agent drafting fan-out + adversarial review panel (approved use).
+class-field structure." Scope = P59–P68 + W-C + the landscape + the emergent-symmetry
+family, on the spine P59→P62→P64→(value laws)→P68/W-C. **W-A/W-B RELOCATE to a discussion
+section or a companion structural note** (they are firewall-boundary statements, not
+value-theory theorems). **Theorem list carries a SCOPE COLUMN** (level-15-exact vs all-N);
+"universal" → "all six banked pairs at level 15". **Phrasing governor (binding):** novelty
+only for the overlays + apparently-first instances (E₆ variety of 4₁ = "apparently-first
+computed instance, known framework, pending specialist"); Gelca–Uribe cited as closest
+prior; Jeffrey/skein cited. All banked/locked NOW — no dependency on the 135 or triple
+verdicts (those feed a possible Paper 2).
 
-## PHASE 5 — the gated frontier (no schedule; the bars govern)
+## PHASE 5 — the gated frontier (no schedule; bars govern)
 
-Physics attempts ONLY through the coupling channel, only if Phase 2 forces a
-cross-sector quantity; then the pre-registered null gauntlet; then a DEDICATED
-adversarial session (owner present) before any voicing. S042/S043 bars stand:
-derivations reopen; matches never do. If the channel yields nothing forced, the honest
-terminal statement — a self-computing arithmetic object with named walls — IS the
-deliverable, and Paper 1 carries it.
+Physics attempts ONLY through the coupling channel (content/derivation — the scale
+question is closed: any scale is external). ENTRY GATE, defined: a single quantity that a
+banked identity REQUIRES to be equal across two inequivalent sectors with NO free
+parameter. If Phase 2 produces one → the pre-registered null gauntlet → a DEDICATED
+adversarial session (owner present) before any voicing. S042/S043 bars: derivations
+reopen; matches never do. If nothing is forced, the honest terminal statement — a
+self-computing arithmetic object with fully-priced walls — IS the deliverable, carried by
+Paper 1.
 
-## SENTINELS (standing, self-firing)
+## SENTINELS (standing rule, explicit trigger)
 
-Numerator primes 17/19 (ideal-class test) · 31/79/167 (supersingular test) · the
-31-collision (fires with the triple ID, in flight) · any new exceptional prime in the
-135 sweep → instant class + supersingular cross-check.
+**Whenever any new numerator prime is banked anywhere → the armed watcher runs the class
+test (ℚ(√−15): principal/non-principal) AND the supersingular test (15a1) automatically.**
+Current: 17/19, 31/79/167, the 31-collision (fires with the triple ID, in flight).
+
+## OUT OF SCOPE (explicit decline)
+
+The SL(n)-tower specialist register (ρ_n/Procesi, L22 SL(5)-k, L5/L6 sealing, L20
+off-axis spectral) — the pre-value-campaign program, irrelevant to the seam/value
+masterplan. Named so no future seat accidentally revives it.
 
 ## SEQUENCING
 
-Triple-ID lands (automatic) → Phase 2 (2a first — it decides the lever) → Phase 3 ∥
-Phase 4 → Phase 5 gate. Reviews and the board continue throughout; every cross-chat
-package gets the B398-pattern scrutiny before anything enters the record.
+Triple-ID watcher (singles sentinels) ∥ Phase 2c → 2b ∥ Paper 1 drafting → Phase 3
+(definitional-first) → Phase 5 entry gate. The triple gates the sentinels, NOT the
+coupling theory (de-serialized). Reviews + board continue; every cross-chat package gets
+B398-pattern scrutiny before entering the record.
