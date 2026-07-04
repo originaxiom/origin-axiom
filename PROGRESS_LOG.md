@@ -1282,3 +1282,13 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   B408 + measure B413). The scale wall is closed at the mechanism level; any scale is
   external. Terminal statement stands; Paper 1 is the deliverable. A full SM-derivation
   campaign is NOT licensed (the precondition failed at the last candidate mechanism).
+
+## 2026-07-04 — the structure reframe (S044/B414): honest engagement with 'we have to see it'
+
+- Took the reframe seriously (object as SM STRUCTURE not numbers; scale-external as correct
+  factorization; emergent-symmetries as flavor-structure-shaped). Pre-registered structural
+  test 1 (forced-Z/3 = generations): FAILS privilege (core multiplicity is Z/2, the class
+  group). But it LOCATES the obstruction precisely: seeing SM content reduces to the
+  content-wall frame (W-B1, no canonical frame), which the object doesn't self-provide.
+  Honest fork: external structural frame, or not there. One untried probe: the class-group
+  Z/2 as frame-provider. Firewalled (S044); no promotion.
