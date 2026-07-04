@@ -6,6 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-04 — B425: two E₆ torsions (dynamical-golden + geometric-Eisenstein)
+
+- **Correction + new result.** Verified a cross-chat catch: B423's golden "E₆ torsion" is the
+  **dynamical zeta** of the homological monodromy A (golden by construction), not the geometric
+  torsion its prereg claimed. **B425** computes the geometric Reidemeister torsion at the
+  discrete-faithful holonomy ρ_geo (u=ω forced by the relator): **Eisenstein** — rational
+  coefficients (√−3 cancels, Galois-invariant at all six E₆ exponents), adjoint **−3 = disc
+  ℚ(√−3)**, reproducing banked V30/V31 (Porti form) by a third method. The two torsions (−5
+  golden, −3 Eisenstein) realize the double-uniqueness cornerstone as two computed discriminants
+  meeting at √−15. Emergence bar not cleared (Eisenstein arithmetic, not SM).
+- Guard: the raw Fox eigenvalue-product (−25−13ω, "prime 67") is a presentation artifact, not an
+  invariant (rational for ∂r/∂a; t-dependent). The invariant is −3.
+- Files: `frontier/B425_geometric_torsion/`, `frontier/B423_gateB_torsion/CORRECTION.md`,
+  `tests/test_b425_geometric_torsion.py`; corrections in `knowledge/THE_GOLDEN_CAT_MAP_PRINCIPLE.md`
+  and `papers/P2_trinity/` (ABSTRACT/OUTLINE/THEOREMS) + `papers/REPRODUCIBILITY_LEDGER.md`.
+  Nothing to CLAIMS (firewalled).
+
 ## 2026-07-03 — the promotion audit (GOVERNANCE §5.1) executed
 
 - **+39 `proven` (P17–P55), +7 `conditional` (C6–C12), +15 certified-data (E1–E15)** promoted from

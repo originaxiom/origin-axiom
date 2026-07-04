@@ -1,6 +1,12 @@
 # B423 (GATE B, computed) — the E₆ torsion is a Fibonacci-square product: rich structure,
 # figure-eight-specific, but Fibonacci arithmetic (not SM) — 3 of 4 bars cleared
 
+> **LABEL CORRECTION (2026-07-04, see CORRECTION.md + [[B425]]):** this computes the **dynamical
+> zeta** det(I−Sym^{2m}(A)) with A = the *homological monodromy* (golden cat map), NOT "the torsion
+> at the holonomy" the prereg claimed. The geometric torsion at ρ_geo is Eisenstein (adjoint −3,
+> B425/V30/V31). The numbers below are correct as the **dynamical zeta**; read "torsion" as
+> "dynamical zeta" throughout. The two are the object's two cornerstone-side torsions.
+
 **Status: banked — a genuinely new result + the honest verdict. The owner's compute-don't-
 argue distinction VINDICATED. Firewalled.**
 

@@ -26,7 +26,8 @@ locks below passes 74/74 in ~15s. No floats in the load-bearing arithmetic (exac
 | T1 cornerstone | test_golden_cat_map_principle (+B67 banked; Reid 1991 cited) | knowledge/… |
 | T2 dynamics | test_b416 | frontier/B416_tw2_dynamics |
 | T3 symbolic | test_b417 | frontier/B417_tw3_symbolic |
-| T4 torsion=periodic orbits | test_b423, test_golden_cat_map_principle | frontier/B423_gateB_torsion |
+| T4a dynamical zeta=periodic orbits (golden, monodromy) | test_b423, test_golden_cat_map_principle | frontier/B423_gateB_torsion |
+| T4b geometric torsion at holonomy (Eisenstein, −3; = V30/V31 Porti form) | test_b425 | frontier/B425_geometric_torsion |
 | T5 Hessian | test_b424 | frontier/B424_gateB_hessian |
 | T6 quantum invariant | test_b419, test_b384 | frontier/B419_tw5_quantum, B384_kashaev_bridge |
 | T7 measure | test_b413, test_b415 | frontier/B413_scale_genesis, B415_behavior_tracking |

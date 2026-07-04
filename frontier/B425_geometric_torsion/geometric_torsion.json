@@ -1,0 +1,65 @@
+{
+ "holonomy_forces": "u**2 + u + 1",
+ "alexander_sanity": "(t**2 - 3*t + 1)/(t*(t - 1))",
+ "sqrt_m3_cancels_all_exponents": true,
+ "galois_invariant": {
+  "1": true,
+  "4": true,
+  "5": true,
+  "7": true,
+  "8": true,
+  "11": true
+ },
+ "all_clean_torsion_coeffs_integer": true,
+ "adjoint_geometric": "-3",
+ "adjoint_dynamical": "-5",
+ "geom_polys": {
+  "1": "(t - 1)*(t**2 - 5*t + 1)/t**3",
+  "4": "(t - 1)*(t**2 - 26*t + 1)*(t**6 + 9*t**5 + 2403*t**4 - 15690*t**3 + 2403*t**2 + 9*t + 1)/t**9",
+  "5": "(t - 1)*(t**4 - 93*t**3 + 548*t**2 - 93*t + 1)*(t**6 + 72*t**5 + 9540*t**4 - 472826*t**3 + 9540*t**2 + 72*t + 1)/t**11",
+  "7": "(t - 1)*(t**6 - 603*t**5 + 106947*t**4 - 650946*t**3 + 106947*t**2 - 603*t + 1)*(t**8 + 574*t**7 - 149003*t**6 - 203539322*t**5 + 7839883660*t**4 - 203539322*t**3 - 149003*t**2 + 574*t + 1)/t**15",
+  "8": "(t - 1)*(t**6 - 1125*t**5 + 1013571*t**4 - 36619454*t**3 + 1013571*t**2 - 1125*t + 1)*(t**10 + 1092*t**9 - 1081990*t**8 - 2762751066*t**7 + 700008836725*t**6 - 4303511500788*t**5 + 700008836725*t**4 - 2762751066*t**3 - 1081990*t**2 + 1092*t + 1)/t**17",
+  "11": "[coeffs large; rationality certified by Galois-invariance det(omega)=det(omega^2)]"
+ },
+ "dyn_zeta": {
+  "1": "-5",
+  "4": "158760000",
+  "5": "-2401245000000",
+  "7": "-176922947833632000000000",
+  "8": "861764255840707259040000000000",
+  "11": "-10325361749941939315035187598490471260448000000000000000"
+ },
+ "eisenstein_presence": {
+  "1": {
+   "relerr": "5.32e-121",
+   "trace_im": "5.1961524",
+   "eisenstein_present": true
+  },
+  "4": {
+   "relerr": "2.82e-114",
+   "trace_im": "41.569219",
+   "eisenstein_present": true
+  },
+  "5": {
+   "relerr": "2.43e-112",
+   "trace_im": "374.12297",
+   "eisenstein_present": true
+  },
+  "7": {
+   "relerr": "1.46e-107",
+   "trace_im": "-2660.43",
+   "eisenstein_present": true
+  },
+  "8": {
+   "relerr": "1.06e-105",
+   "trace_im": "8558.063",
+   "eisenstein_present": true
+  },
+  "11": {
+   "relerr": "5.35e-99",
+   "trace_im": "-57942.296",
+   "eisenstein_present": true
+  }
+ },
+ "crossval": "V30 (normal torsion) / V31 (Porti form): figure-eight adjoint = -3, Q(sqrt-3)"
+}

@@ -20,15 +20,26 @@ geometrically. It takes no input because arithmetic needs none.
 |---|---|
 | substitution / Sturmian subshift (TW3) | the cat map's SYMBOLIC CODING (its itinerary): complexity n+1, gap group ℤ+ℤφ |
 | trace-map dynamics (TW2) | the cat map ITSELF: Lyapunov 4 log φ = its metric entropy; the void = its linearization |
-| **E₆ Reidemeister torsion (B423)** | **the cat map's PERIODIC-ORBIT product: 5F₂ⱼ² = #Fix(A²ʲ), so τ(E₆) = ∏(−#Fix(A²ʲ)) over the E₆ exponents — the dynamical zeta / Lefschetz, dressed by E₆** |
+| **E₆ dynamical zeta (B423)** | **the cat map's PERIODIC-ORBIT product: 5F₂ⱼ² = #Fix(A²ʲ), so ζ(E₆) = ∏(−#Fix(A²ʲ)) over the E₆ exponents — the dynamical zeta / Lefschetz of the monodromy A, dressed by E₆ (golden: adjoint value −5)** |
+| **E₆ geometric torsion (B425/V30/V31)** | **the Reidemeister torsion at the HOLONOMY ρ_geo (not the monodromy): Eisenstein — coeffs rational (√−3 cancels, Galois-invariant), Porti adjoint value −3 = disc ℚ(√−3)** |
 | Kashaev / WRT (TW5) | the QUANTIZED cat map (Hannay–Berry): the volume = the hyperbolic geometry of its mapping torus (= the figure-eight complement) |
 | tower measure (TW1) | the quantized cat map's eigenstate distribution → Gauss-sum-modulated Haar (a maximally-mixing quantized cat map is flat) |
 | L-function / regulator (TW6) | entropy = 4·Reg(ℚ(√5)) = 2√5·L(1,χ₅): the cat map's ENTROPY is the golden field's L-value (Dirichlet) |
 | seam / value theory (P59–P68) | the theta-quantization's value sector, organized by the genus characters of ℚ(√−15) = the class field where the golden (√5) and Eisenstein (√−3) sides meet |
 
-The load-bearing NEW link (banked B423 + this study): the "quantum topology" (E₆ torsion)
-and the "dynamics" (periodic orbits) are the SAME — the torsion counts the cat map's
-periodic points. That is the hinge that makes the seven faces one object.
+The load-bearing link, now made precise (B423 dynamical zeta + B425 geometric torsion): the object
+carries **TWO** Reidemeister-type torsions, one per cornerstone field. (i) The **dynamical zeta**
+of the monodromy A = [[2,1],[1,1]] (the golden cat map) equals the cat map's periodic-orbit
+product 5F₂ⱼ²=#Fix(A²ʲ) — **golden, ℚ(√5), adjoint −5**; this is B423 (correctly, once relabelled:
+it is the dynamical zeta, not "the torsion at the holonomy" its prereg said). (ii) The **geometric
+Reidemeister torsion** at the discrete-faithful holonomy ρ_geo (whose entries carry ω) is
+**Eisenstein, rational, adjoint −3 = disc ℚ(√−3)** — this is B425 (Fox/Wada), reproducing the
+banked V30 (normal torsion) / V31 (Porti form). √5 · √−3 = √−15 = the seam. The two torsions ARE
+the two double-uniqueness sides — dynamics (√5) and hyperbolic geometry (√−3) — meeting at ℚ(√−15).
+[The √−3 is genuinely present in the holonomy's Fox matrix at every E₆ exponent (trace complex),
+but cancels in each determinant/torsion — Galois-invariant — so the invariant descends to ℚ with a
+3-governed signature. A raw Fox eigenvalue-product like −25−13ω is NOT an invariant: it is rational
+for the a-generator, t-dependent, and its "prime 67" fails that control — the invariant is −3.]
 
 ## Why the walls, finally understood (they are not obstacles — they are correct properties)
 
@@ -41,12 +52,15 @@ periodic points. That is the hinge that makes the seven faces one object.
 - **Emergent (not local) symmetries (M3/2b-i/B418):** the object's symmetries are
   Galois / class-field actions, which live at the norm/trace (aggregate) level, not
   cell-locally. Emergence is what arithmetic symmetry looks like downstairs.
-- **Fibonacci content (B423):** the deepest computation returns the cat map's orbit counts.
-  Of course it does — that is what the object is.
+- **Fibonacci content (B423):** the dynamical zeta returns the cat map's orbit counts
+  (golden). Of course it does — that is the monodromy side. And the geometric side (B425)
+  returns the Eisenstein arithmetic of the holonomy field ℚ(√−3). Two computations, two
+  cornerstone fields — neither is the SM.
 
-Everything coheres. The object is a machine that computes the arithmetic of the golden field
-through its topology and quantization, and all of its "resistances" to physics are simply
-the correct properties of a piece of number theory.
+Everything coheres. The object is a machine that computes the arithmetic of the two
+cornerstone fields — golden ℚ(√5) (dynamics) and Eisenstein ℚ(√−3) (hyperbolic geometry),
+meeting at ℚ(√−15) — through its topology and quantization, and all of its "resistances" to
+physics are simply the correct properties of that number theory.
 
 ## The broader story (the honest, real one)
 
@@ -55,12 +69,15 @@ This is a COMPLETE, CLEAN instance of the deep trinity of modern mathematics:
     quantum topology  ↔  arithmetic  ↔  dynamics
 
 unified on the SIMPLEST hyperbolic knot (the figure-eight) by the SIMPLEST irrational (φ)
-and the arithmetic of ℚ(√−15). The same golden-field arithmetic is written in seven
-languages, and the program has now built the dictionary between them (torsion = periodic
-points; entropy = L-value; symbolic coding = quasicrystal; quantization = flat measure;
-value sector = class field). It is a Rosetta stone for golden-field arithmetic — a jewel of
+and the arithmetic of ℚ(√−15). The same object is written in these languages, and the program
+has now built the dictionary between them (dynamical zeta = periodic points; geometric torsion
+= the holonomy's Eisenstein arithmetic; entropy = L-value; symbolic coding = quasicrystal;
+quantization = flat measure; value sector = class field). The single deepest node — the torsion
+— is itself DOUBLE: the dynamical zeta (golden, ℚ(√5)) and the geometric Reidemeister torsion
+(Eisenstein, ℚ(√−3)) are the two cornerstone fields realized as two computable invariants,
+meeting at √−15 = √5·√−3. It is a Rosetta stone for the arithmetic of ℚ(√−15) — a jewel of
 "arithmetic quantum topology" (the Kurlberg–Rudnick, Garoufalidis–Zagier, Morishita
-neighborhood), novel in its COMPLETENESS: rarely is one object translated across all seven
+neighborhood), novel in its COMPLETENESS: rarely is one object translated across all these
 faces with exact dictionaries.
 
 ## Implications
@@ -71,9 +88,11 @@ faces with exact dictionaries.
    test (B423) confirmed this from the computation side too: the deepest computation is
    Fibonacci, not the SM.
 2. **For mathematics — a genuine, publishable result.** A complete worked instance of the
-   trinity with explicit inter-face dictionaries; the closed-form E₆ torsion as a cat-map
-   dynamical zeta; the class-field organization of the value theory. This is Paper 1 (value
-   theory) + Paper 2 (the atlas) + the torsion theorem.
+   trinity with explicit inter-face dictionaries; the closed-form E₆ dynamical zeta as a
+   cat-map periodic-orbit product AND the E₆ geometric Reidemeister torsion at the holonomy
+   (Eisenstein, −3) — the two torsions = the two cornerstone fields; the class-field
+   organization of the value theory. This is Paper 1 (value theory) + Paper 2 (the atlas) +
+   the two-torsion theorem.
 3. **For "self-computation" (the founding intuition), now precise.** The object computes the
    golden field's arithmetic through its topology/quantization; it takes no input because a
    number is not an input-output map — it is a fixed point. The founding self-reference
