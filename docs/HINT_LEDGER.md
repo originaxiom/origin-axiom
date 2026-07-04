@@ -214,3 +214,16 @@ killed universality: (2,4) both-exclusives, (1,3) reversed) and the two-prime re
 excludes 23 (overclaim flagged). A2 already banked (contraction). Angle VII (length
 spectrum, l₁ ≈ 1.087) noted as their candidate — no computation defined yet. §6's
 multi-seat lesson adopted into the MASTERPLAN.
+
+## 2026-07-04 — THE REVIVAL HUNT (atlas + standing threads vs the new instruments)
+- **B334 VINDICATED** (see its FINDINGS addendum): dead-as-numerology → B401/P68 theorems.
+  The first full revival cycle; the atlas's reason-to-exist demonstrated.
+- **Cancellation-obstacle oracle pattern (9 stuck probes incl. B299, B385-era):** M1's
+  termwise test is now the STANDARD first move — "cancellation" splits into termwise-
+  annihilation vs aggregate-cancellation vs kernel-kill (three banked instances).
+- **units_scale obstacle (27 stuck probes):** bulk-annotated by the Wall verdict — the
+  internal tower refines and cannot run; the seam channel persists (the one lever). Those
+  probes' wall is now PRICED, not vague.
+- **S032-A (no-forced-choice theorem)** and **H4 (the arithmetic-axis minimality)**: both
+  gain the class-field language (choices ↔ ideal classes; Reid-uniqueness ↔ which class
+  fields arise). Candidate Phase-2/3 side-questions, not yet probes.

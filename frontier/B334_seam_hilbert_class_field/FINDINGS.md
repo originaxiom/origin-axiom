@@ -48,3 +48,17 @@ Nothing to `CLAIMS.md`.
 `seam_hcf.py` (pyenv) · `tests/test_b334_seam_hilbert_class_field.py`. Related: **B333** (the seam is intrinsically
 generic — reconciled here), **B332** (the two ends = product/ratio), **B326** (Level-4 texture), **S046**
 (value-at-the-seam). Lit: genus theory of imaginary quadratic fields (Gauss; the genus field = HCF when `h = 2^{t−1}`).
+
+---
+
+## VINDICATION (2026-07-04, the atlas revival hunt): B334 was right before the instruments
+
+The identification stated here (H(ℚ(√−15)) = ℚ(√5,√−3), the seam's own class field) sat
+atlas-tagged as dead-with-the-arc. The Wall Campaign's sixth angle (B401, owner-proposed)
+independently rebuilt it and went further: the ℤ/2 class group ACTS on the banked
+constants (slot ↔ −3-block; the two ±1/24 faces are one orbit), the split-covariance
+prediction was CONFIRMED, the genus characters gate the values (P68: the Eisenstein gate
+as a root-of-unity order theorem), and the boundary is character-equipartitioned. B334 →
+B401/P68 is the program's first complete revival cycle: an interpretation that died for
+lack of instruments, reborn as theorems when the instruments arrived. (Atlas lineage
+note; status of the INSIGHT: vindicated; the arc's other members unchanged.)

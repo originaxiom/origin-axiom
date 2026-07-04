@@ -1207,3 +1207,8 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - B204=Jeffrey'92, B205=skein-standard (both cite-only); B264 reconciled: known framework,
   apparently-first worked instance. Paper 1 claims novelty only in the overlays (the
   APPEARS-NOVEL core) + instance-firstness. Chat-2 active again.
+
+## 2026-07-04 — the revival hunt: B334 vindicated (dead → B401/P68); oracle patterns banked
+
+- The first complete atlas revival cycle. Cancellation-oracle pattern (termwise-first)
+  and the units_scale bulk annotation recorded; S032-A and H4 gain class-field language.
