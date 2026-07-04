@@ -1183,3 +1183,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - The singles contract; the seam grows. The boundary channel is the one scale-lever
   candidate; Wall 1 open through exactly this door. Next rung named (the 135 pair sweep).
   Third prime for the triple ID still grinding (watcher armed).
+
+## 2026-07-04 — THE NOVELTY MAP banked (docs/dossiers/NOVELTY_MAP.md)
+
+- The informed triage before any agent sweep: 5 K-items (cite), 4 L-items (find the
+  dictionary), 5 N-items (adversarial hunt). Each with its agent brief. Sweep launches
+  on the owner's go, after Phase 1a per the verdicts-first ordering.
