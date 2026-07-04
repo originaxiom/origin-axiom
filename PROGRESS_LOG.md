@@ -1384,3 +1384,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   deep campaign (U1-U5, after the papers): complete the atlas, map connections to the
   cornerstone, test whether the uniqueness list is ONE fact, push each angle, synthesize
   (Paper 3). Enriches Paper 2's cornerstone section.
+
+## 2026-07-04 — Flagship F2 complete: Paper 1 theorem spine (11 lock-backed theorems)
+
+- The value-theory theorems (order law, twist invariant, trace formula + 1/12, closed form,
+  locality, existence law, root-of-unity gate, row-16, Galois covariance, class-field
+  organization, the walls) with precise statements + locks. Both papers now have complete
+  theorem spines. F3 (dictionary/figures) + F4 (prose) next.
