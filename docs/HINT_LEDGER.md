@@ -242,3 +242,14 @@ until derived. (4) exp(−1/s) = exp(−48): SELF-FLAGGED by the author as the k
 correctly; S042 bar applies (derivation or nothing). EXTRACTIONS FOR THE MASTERPLAN:
 the spectral-triple formulation question and the E₆ topological recursion join Gate B in
 Phase 3 as named constructions; everything else goes to speculations/ with verdicts.
+
+## 2026-07-04 — THE HINT SWEEP (B411): the local/emergent dichotomy — work upstairs in ℚ(ζ₆₀)
+The negatives are not scattered — they are ONE structure. LOCAL/derivable layer (P68 gate,
+root-of-unity law, boundary field-dictionary) vs EMERGENT/aggregate layer (mirror M3, class
+action 2b-i, (2,3) stabilizer M5). **Π_H (order-4 average over Gal(ℚ(ζ₆₀)/H)) is the boundary
+between them.** THE NEW ANGLE (would ease the job, converts 3+ negatives into 1 target):
+study the raw table UPSTAIRS in ℚ(ζ₆₀) before Π_H, where the relabeling symmetries are
+conjecturally cell-local; the emergent H-relations become projection corollaries. This is
+also the natural home of Phase 2b's staged √5-withholding residual (= the full-field
+convolution). Companion refinement: the complete LOCAL cell invariant is (γ′-class, χ-field-
+datum), not γ′ alone (the boundary dictionary is single-valued, the generic needs χ).
