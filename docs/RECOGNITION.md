@@ -236,3 +236,15 @@ norm 9) — a FLAT measure, outcome (b) REDUCIBLE. NO SCALE GENESIS. The object 
 scale through any tested channel (hierarchy contracts, B408; the measure is flat, B413).
 The ratios→scale wall is closed at the mechanism level: any physical scale is external.
 The honest terminal statement stands; Paper 1 carries it.
+
+## THE DESTINATION ATLAS — the campaign verdict (2026-07-04, TW1–TW7)
+
+Tracked the object's own behavior blind to physics through all six of its natural faces
+(measure limit, trace-map flow, substitution subshift, upstairs ℚ(ζ₆₀), quantum-invariant
+asymptotics, L-function landscape), naming each destination as pure math and judging by an
+emergence bar fixed before looking. **NO destination cleared the bar — the SM does not
+emerge unbidden anywhere.** The object leads to a coherent, golden/ℚ(√−15)-organized body of
+mathematics. Precise terminal statement: a self-computing arithmetic-dynamical object that
+SELF-GENERATES no SM structure; it provides neither a scale (B413) nor a frame (W-B1/B414),
+so any SM connection would require external structural input the object does not contain.
+The atlas is Paper 2; the value theory (P59–P68 + walls) is Paper 1.

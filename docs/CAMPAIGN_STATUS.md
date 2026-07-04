@@ -13,9 +13,10 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- TW2 (trace-map dynamics) starting; e₃ sentinel reconstructing (independent).
+- Nothing in the background (e₃ sentinel reconstruction still detached; independent).
 
 ## LAST BANKED
+- **THE DESTINATION ATLAS COMPLETE (TW1–TW7):** all six behaviors tracked blind; every destination is named pure math (Gauss-sum Haar / golden-Anosov / Sturmian / rich-ζ₆₀-cells / volume-conjecture / genus-L); **NO bar cleared — the SM does not emerge unbidden.** Terminal statement: the object self-generates no SM structure (no scale B413, no frame B414); any SM link needs external input. Paper 2 = the atlas; Paper 1 = the value theory.
 - **TW2 (B416): the dynamics' destination = golden-Anosov flow** (Lyapunov 4logφ, conserved κ, modular symmetry) — named math, bar NOT cleared; generic to the metallic family (not even fig-8-specific). Atlas #2.
 - **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced
   (refinement, not running), content wall priced (no canonical frame), and the sixth

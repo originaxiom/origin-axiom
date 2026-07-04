@@ -1317,3 +1317,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - The mirror is not cell-local even upstairs in Q(zeta60) (all 16 Galois elements fail on the
   raw table). Emergence is a genuine feature, not a projection artifact. Raw cells rich
   (4-13/16) but unsymmetric. Bar not cleared. Atlas #4. B411 annotated (hope closed for mirror).
+
+## 2026-07-04 — Destination Atlas TW6 + TW7: campaign COMPLETE — SM does not emerge unbidden
+
+- TW6: entropy=4Reg=2sqrt5 L(1,chi5) verified; genus-character L-landscape of Q(sqrt-15).
+  TW7 synthesis: all six destinations named math, NO bar cleared. Terminal statement: the
+  object self-generates no SM structure (no scale, no frame); coherent golden/Q(sqrt-15)
+  mathematics. Paper 2 = the atlas. The behavior-tracking method delivered a decisive,
+  non-self-deceiving negative.
