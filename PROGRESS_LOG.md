@@ -1306,3 +1306,8 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Void Jacobian {φ⁻⁴,1,φ⁴} confirmed; coordinate symmetry trivial (order 1); real symmetry
   = modular/mapping-class. Forced invariants (4logφ, κ, modular group) — none an SM
   structure; generic to the metallic family (fails the control too). Atlas #2, named math.
+
+## 2026-07-04 — Destination Atlas TW3 (B417): symbolic dynamics = Sturmian quasicrystal, no SM
+
+- p(n)=n+1, entropy 0, gap group Z+Z phi. Contrast: subshift zero-entropy vs flow 4logphi.
+  Named math, bar not cleared. Atlas #3.

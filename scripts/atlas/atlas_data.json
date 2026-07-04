@@ -8447,6 +8447,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B417": {
+   "slug": "tw3 symbolic",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "quasicrystal",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],
