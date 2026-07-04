@@ -13,7 +13,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- Nothing in the background.
+- **Primes 4–6 for the 1215 triple** (degree-6 reconstruction; pid 65345, watcher armed,
+  ETA ~4 h). On landing: the exact triple → the 31-collision + sentinel adjudication
+  fires automatically.
 
 ## LAST BANKED
 - **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced
@@ -70,9 +72,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **THE MASTERPLAN is banked (docs/MASTERPLAN.md)** — Phase 1 (the loaded questions)
-   starts on the owner's go: the 1215-triple ID + the seam-channel hierarchy test in one
-   session.
+1. **THE FINAL MASTERPLAN** (superplan treatment) — Phase 1's verdict set is complete
+   enough: sum rule ✓ depth 5; seam persists ✓; scout void ✓; the triple's exact ID is
+   the one pending sentinel (fires automatically on the primes-4–6 watcher).
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.
