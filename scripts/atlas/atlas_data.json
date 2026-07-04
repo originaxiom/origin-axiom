@@ -8234,6 +8234,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B406": {
+   "slug": "two conductor",
+   "motifs": [
+    "figure_eight",
+    "torsion",
+    "wrt_quantum",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B347",
+    "B398",
+    "B403",
+    "B405"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
