@@ -1,0 +1,28 @@
+{
+ "complexity": {
+  "1": 2,
+  "2": 3,
+  "3": 4,
+  "4": 5,
+  "5": 6,
+  "6": 7,
+  "7": 8,
+  "8": 9,
+  "9": 10,
+  "10": 11,
+  "11": 12
+ },
+ "sturmian": true,
+ "topological_entropy": 0,
+ "gap_group": "Z + Z*phi (golden quasicrystal module)",
+ "contrast": "trace-map flow entropy = 4 log phi (TW2); the SUBSHIFT is zero-entropy -- different systems",
+ "bar": {
+  "forced_invariants": [
+   "complexity n+1",
+   "topological entropy 0",
+   "gap group Z+Z phi"
+  ],
+  "any_exact_SM_match": false,
+  "reason": "n+1 complexity and Z+Z phi gap group are quasicrystal invariants; zero entropy; none is an SM structure. Control: other Sturmians give Z+Z alpha -- golden not SM-distinctive."
+ }
+}
