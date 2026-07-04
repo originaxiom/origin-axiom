@@ -8588,6 +8588,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B424": {
+   "slug": "gateB hessian",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B423"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B42": {
    "slug": "variational selector controls",
    "motifs": [
