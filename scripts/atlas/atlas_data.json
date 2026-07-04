@@ -8273,6 +8273,19 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B408": {
+   "slug": "seam hierarchy",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B372"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [
