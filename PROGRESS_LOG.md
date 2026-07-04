@@ -1177,3 +1177,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Five phases: loaded questions → coupling-channel theory → named gates → the paper →
   the gated physics frontier. Sentinels armed; multi-seat protocol formalized; intake
   note filed on the synthesis handoff (two §1 corrections, A2 lag).
+
+## 2026-07-04 — PHASE 1b: THE SEAM DOES NOT CONTRACT (ratio ≈ 1.217, 15→45)
+
+- The singles contract; the seam grows. The boundary channel is the one scale-lever
+  candidate; Wall 1 open through exactly this door. Next rung named (the 135 pair sweep).
+  Third prime for the triple ID still grinding (watcher armed).
