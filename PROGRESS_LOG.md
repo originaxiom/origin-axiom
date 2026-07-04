@@ -1406,3 +1406,38 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   backbone (74/74 green) + strong two-families cornerstone + abstracts. Remaining: F3 figures
   + F4 full prose (the multi-session fill). The deep-investigation campaign (U1-U5) is queued
   after.
+
+## 2026-07-04 — B425: the object has TWO E₆ torsions (a cross-chat catch, verified and banked)
+
+- **A cross-chat catch was correct, and it TIGHTENS the papers.** B423 had computed
+  τ_m = det(I − Sym^{2m}(A)) with A = [[2,1],[1,1]] — the figure-eight's *homological
+  monodromy* (the golden cat map) — and its prereg mislabelled this "the torsion at the
+  holonomy / at the parabolic geometric point." It is not: A is the monodromy, not ρ_geo.
+  B423 correctly computed the **dynamical zeta** (golden by construction, adjoint −5); it did
+  not compute the geometric torsion.
+- **B425 computes the geometric torsion at the true holonomy ρ_geo** (a↦[[1,1],[0,1]],
+  b↦[[1,0],[−u,1]], with ρ(relator)=I FORCING u²+u+1=0 ⇒ u=ω, trace field ℚ(√−3)). Exact via
+  Fox/Wada + CRT over primes p≡1 mod 3, validated by the trivial rep reproducing the ordinary
+  Alexander polynomial t²−3t+1. Result: the twisted Alexander coefficients are **rational
+  integers at every E₆ exponent** (√−3 cancels — the determinant is Galois-invariant), and the
+  **canonical adjoint value is −3 = disc ℚ(√−3)** (numerator t²−5t+1). This **reproduces the
+  banked V30** (normal Reidemeister torsion at the κ=−2 root) **and V31** (Porti adjoint-torsion
+  form) — three independent methods agree on −3.
+- **Where √−3 lives vs cancels:** the Fox MATRIX carries √−3 (trace = 2+3√3·i at m=1; Im(trace)
+  ≠0 at all six exponents, mpmath 120-digit) but it CANCELS in every determinant/torsion. The
+  cross-chat's precision blow-up (relerr 10²⁹ at m=11) is a pure double-precision artifact —
+  ~10⁻¹¹⁵ at 120 digits.
+- **The two torsions = the two cornerstone sides:** dynamical zeta (golden, ℚ(√5), −5) and
+  geometric torsion (Eisenstein, ℚ(√−3), −3); √5·√−3 = √−15 = the seam. The double uniqueness
+  is now two *computed* discriminants, not just two theorems.
+- **Emergence bar: still NOT cleared.** Eisenstein/rational arithmetic is the object's second
+  cornerstone field (Reid's arithmetic-knot field), named mathematics — not a gauge group,
+  generation count, or anomaly lattice. The "√−3 door" opens onto ℚ(√−3), not physics. Wall holds.
+- **Guard banked:** a follow-up "the Fox torsion is −25−13ω, norm 469=7·67, new prime 67" claim
+  is a **presentation artifact** — that quantity is the product of the two nonzero eigenvalues of
+  the un-normalized Fox matrix, which is RATIONAL for ∂r/∂a, t-dependent, and not an invariant;
+  the invariant (normalized determinant) is −3. No new prime.
+- **Corrections applied:** B423 (CORRECTION.md + banner), knowledge/THE_GOLDEN_CAT_MAP_PRINCIPLE.md
+  (dictionary row + hinge), Paper 2 ABSTRACT/OUTLINE/THEOREMS (Thm 4 → 4a dynamical zeta / 4b
+  geometric torsion + two-torsion corollary), REPRODUCIBILITY_LEDGER (T4a/T4b). Locks:
+  tests/test_b425_geometric_torsion.py (10/10); affected suite 15/15 green.

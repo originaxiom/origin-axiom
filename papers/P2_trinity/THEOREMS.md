@@ -48,16 +48,36 @@ invariant κ = tr[a,b]. [lock: test_b416]
 Sturmian subshift: complexity p(n)=n+1, topological entropy 0, gap-labelling group ℤ+ℤφ.
 [lock: test_b417]
 
-**Theorem 4 (torsion = periodic orbits — the hinge).** The regularized E₆-adjoint
-Reidemeister torsion of 4₁ at the discrete faithful representation is
-    τ(E₆) = ∏_{i∈exp(E₆)} τ_{m_i},  τ_m = ∏_{j=1}^{m}(2 − L_{4j}) = ∏_{j=1}^{m}(−5 F_{2j}²),
-and 5 F_{2j}² = |det(A^{2j} − I)| = #Fix(A^{2j}). Hence τ(E₆) = ∏(−#Fix(A^{2j})) over the
-E₆ exponents: **the adjoint torsion is the golden cat map's periodic-orbit product.**
-Its prime content is the Fibonacci apparition primes {2,3,5,7,11,13,17,19,29,41,47,89,199}.
+**Theorem 4a (dynamical zeta = periodic orbits — the golden hinge).** The E₆-graded
+dynamical zeta of the golden *monodromy* A = [[2,1],[1,1]] is
+    ζ(E₆) = ∏_{i∈exp(E₆)} ζ_{m_i},  ζ_m = ∏_{j=1}^{m}(2 − L_{4j}) = ∏_{j=1}^{m}(−5 F_{2j}²),
+and 5 F_{2j}² = |det(A^{2j} − I)| = #Fix(A^{2j}). Hence ζ(E₆) = ∏(−#Fix(A^{2j})) over the
+E₆ exponents: **this invariant is the golden cat map's periodic-orbit product**, golden, with
+prime content the Fibonacci apparition primes {2,3,5,7,11,13,17,19,29,41,47,89,199}.
 *Proof sketch.* 𝔢₆ = ⊕Sym^{2m_i} over exp(E₆)={1,4,5,7,8,11} (B347: dim H¹=1 per summand).
 det(I−Sym^{2m}A) has the invariant vector removed (the H¹=1 direction), leaving
 ∏_{k≠m}(1−φ^{4(m−k)}) = ∏_{j=1}^m(1−φ^{4j})(1−φ^{−4j}) = ∏(2−L_{4j}); the identity
 2−L_{4j} = −5F_{2j}² = −|det(A^{2j}−I)| is classical. ∎ [lock: test_b423, test_golden_cat_map_principle]
+*Note.* This is the torsion twisted by the fibration's *homological* monodromy A (a golden
+invariant by construction), not the torsion at the hyperbolic holonomy — that is Theorem 4b.
+
+**Theorem 4b (geometric torsion at the holonomy — the Eisenstein hinge).** The E₆-adjoint
+Reidemeister torsion of 4₁ at the *discrete faithful holonomy* ρ_geo (a↦[[1,1],[0,1]],
+b↦[[1,0],[−ω,1]], with ρ(relator)=I forcing ω²+ω+1=0; trace field ℚ(√−3)) is **Eisenstein,
+not golden**: its twisted Alexander coefficients are rational integers at every E₆ exponent
+(√−3 cancels — the determinant is Galois-invariant under Gal(ℚ(√−3)/ℚ)), and the canonical
+adjoint value is **−3 = disc ℚ(√−3)** (numerator t²−5t+1, roots in ℚ(√21)). This is Porti's
+adjoint Reidemeister-torsion form, reproducing the value computed independently by the normal
+torsion at the κ=−2 root (V30) and its Fried–Milnor identification (V31) — three methods agree.
+*Proof/verification.* Fox calculus (Wada invariant) at ρ_geo, exact via CRT over primes p≡1
+mod 3, validated by the trivial rep reproducing the ordinary Alexander polynomial t²−3t+1; the
+Eisenstein content is genuinely present in the Fox matrix (its trace is complex at every
+exponent) but cancels in each determinant. ∎ [lock: test_b425]
+
+**Corollary (two torsions = two cornerstone sides).** 4₁ carries two 𝔢₆ torsions — the
+dynamical zeta (golden, ℚ(√5), Theorem 4a) and the geometric torsion (Eisenstein, ℚ(√−3),
+Theorem 4b) — realizing the double uniqueness (Section 2) as two computed discriminants, 5 and
+−3, whose product √5·√−3 = √−15 is the seam field.
 
 **Theorem 5 (Hessian).** The Chern–Simons Hessian spectrum on H¹(4₁,𝔢₆) is the six per-
 exponent torsions {τ_{m_i}} (∏ = τ(E₆)); it is Fibonacci-golden and no pairwise ratio equals

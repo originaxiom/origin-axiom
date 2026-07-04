@@ -12,14 +12,17 @@ The figure-eight knot 4₁ is the unique object that is simultaneously the mappi
 simplest golden cat map A = [[2,1],[1,1]] (forcing ℚ(√5)) and the unique arithmetic knot
 (Reid 1991; forcing ℚ(√−3)). We show this double uniqueness forces the seam field ℚ(√−15) —
 whose Hilbert class field is ℚ(√5,√−3) — and organizes a complete family of invariants of 4₁
-into ONE object seen in seven languages: its symbolic coding (Sturmian), its dynamics
-(Anosov, entropy 4 log φ), its Reidemeister torsion in the E₆ adjoint, its quantum invariant
-(Kashaev/volume), its quantized measure, its L-function landscape, and its theta value theory.
-The central identity: the E₆ adjoint torsion equals the cat map's periodic-orbit product
-(5F₂ⱼ² = #Fix(A²ʲ)), so quantum topology and dynamics coincide; the torsion and its Hessian
-spectrum are Fibonacci-golden with the apparition-prime spectrum. We give the explicit
-dictionaries between all seven faces and show the object's "walls" (no scale, no canonical
-frame, emergent symmetries) are the correct properties of golden-field arithmetic.
+into ONE object seen across several languages: its symbolic coding (Sturmian), its dynamics
+(Anosov, entropy 4 log φ), its TWO Reidemeister torsions in the E₆ adjoint (dynamical zeta +
+geometric), its quantum invariant (Kashaev/volume), its quantized measure, its L-function
+landscape, and its theta value theory. The central identity: the object carries two E₆
+torsions, one per uniqueness — the dynamical zeta of the monodromy equals the cat map's
+periodic-orbit product (5F₂ⱼ² = #Fix(A²ʲ)), golden, apparition-prime spectrum; the geometric
+torsion at the holonomy is Eisenstein (rational coeffs, √−3 cancels; adjoint −3 = disc ℚ(√−3),
+Porti's form). The two torsions realize the double uniqueness as two computed discriminants
+(5, −3) meeting at √−15. We give the explicit dictionaries between all these faces and show the
+object's "walls" (no scale, no canonical frame, emergent symmetries) are the correct properties
+of that (golden × Eisenstein) arithmetic.
 
 ## The cornerstone (Section 2)
 The double uniqueness (Fact 1 dynamics / Fact 2 Reid geometry) → ℚ(√−15). Why THIS object.
@@ -29,7 +32,8 @@ The double uniqueness (Fact 1 dynamics / Fact 2 Reid geometry) → ℚ(√−15)
 |---|---|---|
 | symbolic | Sturmian subshift (complexity n+1, gap ℤ+ℤφ) | test_b417 |
 | dynamics | Anosov flow, entropy 4 log φ, conserved κ | test_b416 |
-| torsion (E₆) | periodic-orbit product 5F₂ⱼ²=#Fix(A²ʲ); Fibonacci apparition primes | test_b423 |
+| torsion — dynamical zeta (E₆) | periodic-orbit product 5F₂ⱼ²=#Fix(A²ʲ) at the monodromy A; Fibonacci apparition primes (golden) | test_b423 |
+| torsion — geometric (E₆) | Reidemeister torsion at the holonomy ρ_geo; rational (√−3 cancels, Galois-inv.); adjoint −3 = disc ℚ(√−3), Eisenstein | test_b425 |
 | Hessian | the frequency spectrum {τ_m}, Fibonacci-golden, no SM mass ratio | test_b424 |
 | quantum | Kashaev/volume; growth → Vol(4₁); ℚ(√5) content at 5\|N | test_b419/b384 |
 | measure | Gauss-sum-modulated Haar on ℤ₃×ℤ/5 (flat) | test_b415/b413 |
@@ -38,8 +42,9 @@ The double uniqueness (Fact 1 dynamics / Fact 2 Reid geometry) → ℚ(√−15)
 ## The walls as correct properties (Section 6)
 No scale (flat measure) = arithmetic is dimensionless; no frame (orthogonal sectors) = the
 class group is nontrivial; emergent symmetries = Galois/class-field act aggregately. The
-Gate B computation (torsion + Hessian, golden to the last term) confirms it from the
-computation side.
+Gate B computation (the dynamical zeta + Hessian, golden to the last term) confirms it from the
+computation side; the geometric torsion confirms the other side is Eisenstein — both are named
+arithmetic, neither is the SM.
 
 ## Discussion (Section 7)
 The trinity, complete on the simplest hyperbolic knot; the arithmetic-quantum-topology
