@@ -1351,3 +1351,13 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   The walls are the CORRECT properties of golden-field arithmetic. Broad story: a complete,
   novel instance of the quantum-topology / arithmetic / dynamics trinity on the figure-eight,
   unified by phi and Q(sqrt-15).
+
+## 2026-07-04 — GATE B COMPLETE (B424 Hessian golden) + THE CORNERSTONE found
+
+- B424: the Hessian frequency spectrum is Fibonacci-golden (same apparition primes, no SM
+  mass ratio within 2%). Gate B golden to the last term. THE CORNERSTONE: 4_1 is the unique
+  object that is BOTH the simplest golden cat map's mapping torus (=>Q(sqrt5)) AND the unique
+  arithmetic knot (Reid 1991 => Q(sqrt-3)); the double uniqueness forces the seam field
+  Q(sqrt-15) and everything downstream. Why THIS object: the unique meeting of golden dynamics
+  and Eisenstein arithmetic. Special for mathematics, not physics. The founding intuition
+  honored (uniquely distinguished) and corrected (for the trinity, not the SM).

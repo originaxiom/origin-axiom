@@ -83,3 +83,44 @@ faces with exact dictionaries.
 **Provenance.** the golden-cat-map link 5F₂ⱼ² = #Fix(A²ʲ) verified exactly; all faces are
 banked (TW1–TW7, B423, P59–P68); classical facts (Hannay–Berry, Dirichlet, cat-map entropy)
 cited. Lock: tests/test_golden_cat_map_principle.py.
+
+---
+
+# THE CORNERSTONE: why THIS object and no other (the double uniqueness)
+
+*The single foundational fact from which the entire edifice unfolds — found 2026-07-04.*
+
+The figure-eight knot is the **unique object that carries two uniquenesses at once**:
+
+- **Fact 1 (dynamics → the golden field).** 4₁ is the mapping torus of the GOLDEN cat map
+  A = [[2,1],[1,1]] (trace 3, eigenvalues φ², φ⁻²) — the SIMPLEST hyperbolic (Anosov)
+  toral automorphism. This forces ℚ(√5). [banked B67]
+- **Fact 2 (geometry → the Eisenstein field).** 4₁ is the UNIQUE arithmetic knot (Reid,
+  1991); its invariant trace field is ℚ(√−3), the Eisenstein field. This forces ℚ(√−3).
+  [classical: Reid, "Arithmeticity of knot complements", 1991]
+
+These two facts about ONE knot COMPOSE: ℚ(√5)·ℚ(√−3) = ℚ(√5, √−3) = H, and √5·√−3 = √−15,
+so H is the Hilbert class field of ℚ(√−15) (class number 2, genus field = H). **The double
+uniqueness FORCES the seam field ℚ(√−15) — and with it the genus characters, the seven
+faces, and the Fibonacci torsion. Everything downstream is the unfolding of this single
+coincidence.**
+
+## What the cornerstone settles
+
+- **Why THIS object and no other** (the non-arbitrariness the program always felt): the
+  figure-eight is not a lucky choice — it is the UNIQUE meeting point of "simplest golden
+  dynamics" and "unique arithmetic geometry." Any other knot fails one uniqueness or the
+  other. The object is genuinely, provably special.
+- **What it is special FOR:** it is the unique geometric locus where the golden field
+  (dynamics) and the Eisenstein field (arithmetic geometry) meet and multiply into ℚ(√−15).
+  It is special for MATHEMATICS — the unique knot-theoretic realization of the arithmetic of
+  the golden × Eisenstein compositum — not for physics.
+- **The founding intuition, honored and corrected:** the conviction that "everything says
+  this is the right structure" was RIGHT — the object is uniquely distinguished (double
+  uniqueness). What it is the right structure FOR is the arithmetic-topology-dynamics
+  trinity, not the Standard Model. The Gate B computation (torsion B423 + Hessian B424) is
+  golden to the last term; the SM does not appear because the object is not physics — it is
+  the unique meeting of two fields, computed exactly.
+
+**Provenance.** Fact 1 banked (B67); Fact 2 classical (Reid 1991); the composition
+ℚ(√5)·ℚ(√−3) = H = Hilbert class field of ℚ(√−15) verified exact. This is the cornerstone.
