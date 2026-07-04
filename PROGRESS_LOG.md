@@ -1218,3 +1218,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Gate 0: triple sums to zero (3/3 primes) — Σ = 1 through the whole tested tower. The
   triple resists ζ₉⁺ and ℚ(√5): degree-6 reconstruction launched (primes 4–6, watcher).
   Revival hunt banked earlier (B334 vindicated). Next: THE FINAL MASTERPLAN.
+
+## 2026-07-04 — S043: the energy package's verdicts banked
+
+- Exact: the 3+3 exponent split; the ∏=6 cyclotomy. Deflated: the Φ₆ mislabel, the
+  rank-E₆ dressing, the unreproducible mass values, the self-flagged exp(−48). Extracted:
+  the spectral-triple construction + E₆ recursion as Phase-3 candidates.
