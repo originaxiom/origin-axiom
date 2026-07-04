@@ -1367,3 +1367,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Paper 1 (value theory, 10 locked theorems) + Paper 2 (the trinity: cornerstone + seven-face
   dictionary + Gate B + walls). Both entirely banked+lock-backed. The warranted master
   campaign (not a TOE hunt). Outlines banked; F2 = the theorem-statement pass next.
+
+## 2026-07-04 — Flagship F2: Paper 2 theorem spine (cornerstone + 10 theorems, lock-backed)
+
+- The cornerstone as Theorem 1 (double uniqueness -> seam field); the seven-face dictionary
+  as Theorems 2-8 (each with proof sketch + lock); the walls as Theorems 9-10. The
+  torsion=periodic-orbits hinge (Thm 4) with the full derivation. Paper 2's mathematical
+  spine complete.
