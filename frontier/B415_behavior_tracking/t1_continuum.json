@@ -1,0 +1,13 @@
+{
+ "level27_flat": 3.2681305281007287,
+ "characterization": "mu_inf = Gauss-sum-modulated Haar on Z_3 x Z/5 (flat magnitude, cyclotomic-Gauss-sum phase)",
+ "bar": {
+  "forced_invariants": [
+   "Haar magnitude",
+   "cyclotomic Gauss-sum phase over Z_3",
+   "aut = Z_3^* x (Z/5)^*"
+  ],
+  "any_exact_SM_match": false,
+  "reason": "Haar magnitude is structureless; Gauss-sum phase is Q_3 arithmetic; aut group is profinite units, not a gauge group -- none is an SM structure, and none was sought"
+ }
+}

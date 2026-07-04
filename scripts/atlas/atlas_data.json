@@ -8411,6 +8411,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B415": {
+   "slug": "behavior tracking",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "firewall"
+   ],
+   "refs": [
+    "B411",
+    "B413"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],

@@ -1292,3 +1292,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   content-wall frame (W-B1, no canonical frame), which the object doesn't self-provide.
   Honest fork: external structural frame, or not there. One untried probe: the class-group
   Z/2 as frame-provider. Firewalled (S044); no promotion.
+
+## 2026-07-04 — BEHAVIOR-TRACKING (B415 T1): the tower's destination is named math, no SM
+
+- Method adopted (track blind, name as math, registered emergence bar). T1: the tower-
+  measure's continuum limit = Gauss-sum-modulated Haar on Z_3 x Z/5 (anchored by B413's
+  exact level-9 flat result). Emergence bar NOT cleared (forced invariants are Q_3/Q_5
+  arithmetic, no SM structure, none sought). The disciplined negative. Other behaviors
+  (trace-map dynamics, upstairs Q(zeta60), coupling channel) still to track.
