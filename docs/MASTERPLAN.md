@@ -1,4 +1,4 @@
-# THE MASTERPLAN — FINAL (2026-07-04; for owner sign-off)
+# THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
 *Built on verdicts only. Draft hardened by a 3-member adversarial panel (rigor auditor,
 strategist, mathematician) whose single most important catch — the seam-persistence
