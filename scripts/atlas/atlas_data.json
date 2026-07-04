@@ -8567,6 +8567,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B423": {
+   "slug": "gateB torsion",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B347"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B42": {
    "slug": "variational selector controls",
    "motifs": [
