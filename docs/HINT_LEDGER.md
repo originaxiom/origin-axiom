@@ -253,3 +253,13 @@ conjecturally cell-local; the emergent H-relations become projection corollaries
 also the natural home of Phase 2b's staged √5-withholding residual (= the full-field
 convolution). Companion refinement: the complete LOCAL cell invariant is (γ′-class, χ-field-
 datum), not γ′ alone (the boundary dictionary is single-valued, the generic needs χ).
+
+## 2026-07-04 — "what else" sweep (B412): the tower is a REFINING MEASURE, not a hierarchy
+The scale wall killed hierarchy; the same tower carries an EXACT measure: mass = 1 frozen,
+each parent splits into a cyclotomic orbit summing to it, innovations trace-zero (Σc = 0;
+the 1215 triple e₁ = 0). => an Iwasawa-type distribution on lim(ℤ/3ᵏ×ℤ/5). NEW LEVER (the
+plan lacked it): the tower-measure's p-adic L-function / Mellin transform is the natural
+probe, and it plugs into the banked L-value identity (entropy = 4Reg = 2√5 L(1,χ₅)). The
+scale question's productive afterlife: not "does it run" (no) but "what is its p-adic
+L-function." Companion to B411 (work upstairs in ℚ(ζ₆₀)) — both are structural reframes born
+from the negatives.

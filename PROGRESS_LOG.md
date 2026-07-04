@@ -1268,3 +1268,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   negatives are one structure — Pi_H is the boundary between a local/derivable layer and an
   emergent/aggregate layer. New angle: study the raw table UPSTAIRS in Q(zeta60) before
   Pi_H; the emergent symmetries become projection corollaries. Ledgered.
+
+## 2026-07-04 — "what else" (B412): the tower is a refining MEASURE (Iwasawa-type)
+
+- Exact: mass=1 frozen, parents split into cyclotomic orbits summing to them, innovations
+  trace-zero. The scale wall killed hierarchy but the tower carries a p-adic measure. New
+  lever: its p-adic L-function / Mellin transform (plugs into entropy=4Reg=2sqrt5 L(1,chi5)).
