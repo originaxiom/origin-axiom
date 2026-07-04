@@ -1341,3 +1341,13 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   forced structure the symmetry tests missed, figure-eight-specific (control = Pell primes).
   Bar (iii) fails: Fibonacci arithmetic, not SM. The wall holds from the computation side
   too. A new theorem (closed-form E6 torsion) for the papers.
+
+## 2026-07-04 — THE UNIFYING PRINCIPLE (knowledge/THE_GOLDEN_CAT_MAP_PRINCIPLE.md)
+
+- The object IS the golden cat map, written in seven languages: every face (symbolic,
+  dynamics, torsion, quantum, measure, L-function, value theory) is a spectral/dynamical
+  invariant of A=[[2,1],[1,1]], all golden-field-valued. Hinge (verified): the E6 torsion
+  = the cat map's periodic-orbit product (5F_2j^2 = #Fix(A^2j)) -- quantum topology = dynamics.
+  The walls are the CORRECT properties of golden-field arithmetic. Broad story: a complete,
+  novel instance of the quantum-topology / arithmetic / dynamics trinity on the figure-eight,
+  unified by phi and Q(sqrt-15).
