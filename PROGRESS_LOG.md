@@ -1247,3 +1247,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Count conservation holds 4/6 (fails at high-multiplicity bright pairs, DFT non-injective
   on strata). B407 is P67/M1 restated (multiplicity ≤ 1 only), not a separate theorem;
   Paper-1 overclaim prevented. Phase 2c done; 2b (the long pole) next.
+
+## 2026-07-04 — the 1215 triple (partial): sum rule EXACT over Q; e₂ = −1/48
+
+- Cubic t³ − (1/48)t − e₃; e₁ = 0 exact (sum rule proven at depth 5 over Q), e₂ = −1/48
+  (the seam coefficient recurs — 4th appearance). e₃ pending primes 7–10; the sentinel
+  test is on e₃. Triple = ζ₂₇-level Z/3 orbit; the line = 1/12 × 12.

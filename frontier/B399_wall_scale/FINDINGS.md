@@ -65,3 +65,25 @@ degree-3/golden span** (the home-growth pattern in the singles channel; a banked
 Exact identification = a degree-6 reconstruction: primes 4–6 launched (detached); on
 landing, the ID adjudicates the 31-collision and the supersingular sentinels
 AUTOMATICALLY (the sentinel protocol). Locks: tests (gate-0 section).
+
+---
+
+# THE 1215 TRIPLE (partial): sum rule EXACT; e₂ = −1/48 (the seam value recurs)
+
+The 24 cells resolve as: **12 cells at exactly 1/12** (the frozen line) + a **ℤ/3 triple**
+at the ζ₂₇ level (one class mod 135, splitting mod 405), 4 cells each. The triple's minimal
+polynomial (symmetric functions reconstructed by 6-prime CRT, stable from 4 primes):
+
+    t³ − (1/48)·t − e₃,   with  e₁ = 0 (EXACT), e₂ = −1/48 (EXACT), e₃ pending.
+
+- **e₁ = 0 is now EXACT (not mod-p):** the sum rule Σ_support = 1 is PROVEN at depth 5 over
+  ℚ, not merely per-prime.
+- **e₂ = −1/48 is the SEAM COEFFICIENT** — the fourth independent appearance of the
+  1/48-family (seam value; 1/12 normalizer; the 1/12 line; now the triple's second
+  symmetric function). The deep-tower singles and the seam share the exact constant −1/48.
+- **e₃ (the product) needs more primes** (its height exceeds 6-prime reach); primes 7–10
+  launched. **The 31-collision + supersingular sentinel test is on e₃'s prime content —
+  PENDING that reconstruction.**
+
+**Provenance.** triple_cubic reconstruction (inline, 6 primes) → triple_id.json; locks
+tests/test_b399_wall.py (triple section). Sentinel adjudication: OPEN pending e₃.

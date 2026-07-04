@@ -13,9 +13,8 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- **Primes 4–6 for the 1215 triple** (degree-6 reconstruction; pid 65345, watcher armed,
-  ETA ~4 h). On landing: the exact triple → the 31-collision + sentinel adjudication
-  fires automatically.
+- **Primes 7–10 for the triple's e₃** (pid 75043, watcher armed) — the sentinel-bearing
+  coefficient; the 31-collision + supersingular test fires on its reconstruction.
 
 ## LAST BANKED
 - **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced

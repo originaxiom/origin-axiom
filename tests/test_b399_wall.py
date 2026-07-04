@@ -39,3 +39,8 @@ def test_phase1a_sum_rule_depth5():
     for p, cells in D.items():
         s = sum(int(cells[str(c)]) for c in (121, 256, 391)) % int(p)
         assert s == 0
+
+
+def test_triple_cubic_partial():
+    R = json.load(open(os.path.join(HERE, "triple_id.json")))
+    assert R["e1"] == "0" and R["e2"] == "-1/48"
