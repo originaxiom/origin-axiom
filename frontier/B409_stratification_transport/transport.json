@@ -1,0 +1,45 @@
+{
+ "1,2": {
+  "table_s": 44,
+  "table_z": 0,
+  "prod_s": 60,
+  "prod_z": 0,
+  "match": false
+ },
+ "1,3": {
+  "table_s": 0,
+  "table_z": 24,
+  "prod_s": 0,
+  "prod_z": 24,
+  "match": true
+ },
+ "1,4": {
+  "table_s": 0,
+  "table_z": 0,
+  "prod_s": 0,
+  "prod_z": 0,
+  "match": true
+ },
+ "2,3": {
+  "table_s": 18,
+  "table_z": 0,
+  "prod_s": 18,
+  "prod_z": 0,
+  "match": true
+ },
+ "2,4": {
+  "table_s": 36,
+  "table_z": 8,
+  "prod_s": 36,
+  "prod_z": 24,
+  "match": false
+ },
+ "3,4": {
+  "table_s": 24,
+  "table_z": 0,
+  "prod_s": 24,
+  "prod_z": 0,
+  "match": true
+ },
+ "all_match": false
+}

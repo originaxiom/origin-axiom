@@ -38,10 +38,9 @@ survives), firewall absolute.*
 The seam is the only cross-sector mechanism; this phase is its DERIVATION theory (content,
 not scale — the scale question is closed). Ordered by information-per-compute-hour:
 
-- **2c (banked synthesis, ~1 session, no new compute) — FIRST:** formalize B407 (per-pair
-  table anatomy = the M1 product stratification). State explicitly what it proves BEYOND
-  P66/P67/M1, or fold it into that write-up. Hardens the "stratification" overlay Paper 1
-  claims.
+- **2c ✅ DONE (B409):** the transport candidate is KILLED (4/6; fails at high-
+  multiplicity bright pairs — DFT non-injective on strata). B407 FOLDS into P67/M1; the
+  strata-mirror is scoped to multiplicity ≤ 1, NOT a Paper-1 theorem (overclaim prevented).
 - **2b (the long pole; a P68-scale derivation, 2–4 sessions + review gates):** the
   registered QUESTION (not a foregone conclusion) — does an involution ι on the level-N
   windows exist with t(ιa,ιb) = σ_cl·t(a,b), ι = the nontrivial class of Cl(ℚ(√−15)) via

@@ -8292,6 +8292,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B409": {
+   "slug": "stratification transport",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B407",
+    "P66",
+    "P67"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "meta"
+  },
   "B40": {
    "slug": "filter reuse audit",
    "motifs": [

@@ -132,3 +132,10 @@ landscape — the APPEARS-NOVEL core, needs-specialist). Paper 1 claims novelty 
 class (ii) and for instance-firstness in class (i) — framework language is always cited,
 never claimed. (Multi-seat note: Chat-2 active again; three-seat verify-never-trust
 discipline resumes.)
+
+
+## Phase-2c note (2026-07-04): the strata-mirror is NOT a separate theorem
+B409 killed the count-conservation candidate (4/6 pairs; fails at the high-multiplicity
+bright pairs where the DFT is non-injective on strata). Paper 1 must NOT claim "table
+anatomy = product stratification" as a result — it is P67/M1 restated, valid only where
+multiplicity ≤ 1. Scoped, not asserted.
