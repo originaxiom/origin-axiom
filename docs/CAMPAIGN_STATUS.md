@@ -13,10 +13,12 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 ---
 
 ## RUNNING NOW
-- **W-A1: the 1215 rung** (B399, pid 54009, PID-watcher armed, ETA 1–3 h) — decides
-  between the two registered walk-law candidates (CAND-FIX vs CAND-DEG).
+- Nothing in the background.
 
 ## LAST BANKED
+- **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced
+  (refinement, not running), content wall priced (no canonical frame), and the sixth
+  angle delivered the organizing discovery (class field theory of ℚ(√−15), P68).
 - **B404 → P68: the Eisenstein gate DERIVED** — every generic cell is a root of unity
   (142/142) with character-gated orders (3-part ⟺ χ₋₃(det) = −1; 5-part forced
   one-directionally by χ₅ = −1). The sixth angle now derives, not just organizes.
@@ -68,8 +70,9 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   ≡ 31 mod 45; the deeper walk rule staged.) Hygiene: import-trap guards banked.
 
 ## NEXT (top 3)
-1. **Wall W-A (running):** the 1215 verdict → the walk law → A2 hierarchy probe.
-2. **A2 (hierarchy probe)** after the 1215 verdict — then the wall-campaign wrap memo.
+1. **The next-campaign decision gate (owner)** — candidates: the seam-channel hierarchy
+   test; the 1215-triple ID (+ sentinel test); the class-group/emergent-symmetry theory
+   arc; the paper phase (P59–P68 is a complete arc).
 2. **W2 / 2a** — extract the level-45 pair sector constants (the forced-ratio ladder's
    first rung). Time-box: 3 sessions.
 3. **W3** — bright/dark re-entry via the m=2 relabel law + mirror mechanism.

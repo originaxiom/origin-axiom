@@ -195,3 +195,34 @@ window mechanism, the annihilation class's √5-withholding rule — all one fam
 deeper support-walk rule, or the two specialist-register items (all-k local classification;
 TQFT/Kashaev identification). **No uncomputed computable questions remain at level 15.**
 The wall campaign can start on a computation-complete object.
+
+## THE WALL CAMPAIGN — synthesis (2026-07-04, W-A/W-B/W-C, PRs #511–#521)
+
+**W-A (the scale wall): PRICED — the internal tower cannot generate scale.** The singles
+tower is a measure refinement (sum frozen at 1; envelope monotonically contracting; values
+in [−1/12, 1/4]); the walk law needs a third form (both registered candidates killed at
+1215; the 45-residue froze at 31; the frozen line carries the program's third independent
+1/12); the two 1/12s are DIFFERENT objects (the classical one is boundary-free; the seam's
+recruits the golden boundary). Any hierarchy must come from the seam/boundary channel —
+the one untested lever, named.
+
+**W-B (the content wall): PRICED — no canonical frame exists.** In the unique choice-free
+common space the golden line and the ℤ/3 Mercedes plane are exactly orthogonal (disjoint
+spectral sectors). Any mixing-type object requires arbitrary identifications; the S5
+numerology verdict has a geometric ground.
+
+**W-C (the sixth angle, owner's): THE ORGANIZING DISCOVERY.** The seam field is the
+Hilbert class field of ℚ(√−15); the ℤ/2 class group acts on the banked constants (two
+orbit pairs; split-covariance CONFIRMED by prediction); the genus characters gate the
+values (the Eisenstein gate, DERIVED as a root-of-unity order theorem — P68; the boundary
+equipartition); the component basis is the Gauss-sum basis; entropy = 4·Reg = 2√5·L(1,χ₅).
+Plus: the seam landscape (canonical = the unique null address; intensity = f(gcd(r,15)));
+the single-object wall splits by seed (local vs emergent). Scrutiny layer: the PMNS
+ensemble, prime filter, and McKay dictionary all killed by registered gates; the
+supersingular pair {7, 23} banked as a real datum with sentinels {31, 79, 167}.
+
+**The wall map after the campaign:** the object couples its two arithmetic worlds through
+exactly one mechanism (twist/boundary/non-principal class); its internal channels refine
+but do not run; its visible symmetries are aggregate. The named levers for any future
+crossing: the seam-channel hierarchy test, and the coupling-channel theory (the
+class-group/emergent-symmetry unification).

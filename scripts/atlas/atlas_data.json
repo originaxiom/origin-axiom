@@ -8097,8 +8097,8 @@
    "refs": [
     "P64"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
    "status": "dead",
    "domain": "arithmetic"
   },

@@ -22,3 +22,8 @@ def test_a1_1215_kill_and_structure():
         assert len(ks) == 24
         assert all(k % 45 == 31 for k in ks)
         assert len(set(cells.values())) == 4
+
+
+def test_a2_contraction():
+    R = json.load(open(os.path.join(HERE, "a2_hierarchy.json")))
+    assert R["contraction"] is True
