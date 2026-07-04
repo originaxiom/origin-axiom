@@ -1158,3 +1158,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - A2: monotone contraction — the tower refines, never runs; Wall 1 priced exactly.
   Synthesis in RECOGNITION.md; both walls priced with mechanisms; the sixth angle is the
   campaign's discovery (class group, genus gates, P68). Decision gate to the owner.
+
+## 2026-07-04 — B406: the two-conductor bridge verified, then deflated by torsion
+
+- Hecke pattern exact as claimed; mod-4 congruence holds to p<200 but is FORCED by
+  rational torsion (Z/8 on 15a1; full 2-torsion on 40a1) — the quantization-map lead dies
+  at the congruence level. The 31-collision tension filed (principal-absent vs sentinel).
+  Hooks ledgered.

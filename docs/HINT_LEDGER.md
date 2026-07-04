@@ -201,3 +201,9 @@ theorem-shaped echo: the twist enters the trace formula as the object's OWN latt
 (P64's half-characteristic at the Weyl point). Adjudication in-session (2026-07-04):
 the "MUST couple" necessity claims are contradicted by the kill record (dark pairs,
 225-death, W2 decoupling); the final masses line is firewalled as pure leap.
+
+## 2026-07-04 — Chat-1 final handoff hooks (B406 processing)
+Moonshine mapping (genus characters ↔ moonshine groups; CM points of ℚ(√−15)): HOOK, no
+defined computation. "Gate B tractable in minutes" (Fox/Sym^{2m} with B347 holonomy):
+pending their exact reproducible inputs. E5 (seam = f₁₅ ⊗ Weil(15)): NEEDS-FORMULATION
+(no rational→integer map proposed). The 31-collision tension filed in B406.
