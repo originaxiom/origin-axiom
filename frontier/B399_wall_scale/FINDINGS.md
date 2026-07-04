@@ -51,3 +51,17 @@ come from the seam/boundary channel (the pair tables across levels) — the one 
 not yet tested for hierarchy; named as the next lever.
 
 **Provenance.** a2_hierarchy.py → a2_hierarchy.json; locks tests/test_b399_wall.py.
+
+---
+
+# PHASE 1a BANKED: the sum rule holds at depth 5; the triple's field DEEPENS
+
+Three primes unanimous (gate 0): **the 1215 triple sums to exactly ZERO** — with the
+twelve exact 1/12-cells, Σ_support = 1 at the fifth rung: **the frozen total is confirmed
+through the entire tested tower.** The triple itself RESISTS every affordable ansatz:
+not ℚ(ζ₉)⁺ (conjugate-orbit and free-coefficient searches, denominators ≤ 2160,
+coefficients ≤ 400), not ℚ(√5) — **the singles' value field deepens at 1215 beyond the
+degree-3/golden span** (the home-growth pattern in the singles channel; a banked datum).
+Exact identification = a degree-6 reconstruction: primes 4–6 launched (detached); on
+landing, the ID adjudicates the 31-collision and the supersingular sentinels
+AUTOMATICALLY (the sentinel protocol). Locks: tests (gate-0 section).

@@ -1212,3 +1212,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 
 - The first complete atlas revival cycle. Cancellation-oracle pattern (termwise-first)
   and the units_scale bulk annotation recorded; S032-A and H4 gain class-field language.
+
+## 2026-07-04 — PHASE 1a BANKED: sum rule confirmed at depth 5; the value field deepens
+
+- Gate 0: triple sums to zero (3/3 primes) — Σ = 1 through the whole tested tower. The
+  triple resists ζ₉⁺ and ℚ(√5): degree-6 reconstruction launched (primes 4–6, watcher).
+  Revival hunt banked earlier (B334 vindicated). Next: THE FINAL MASTERPLAN.

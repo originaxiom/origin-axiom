@@ -27,3 +27,15 @@ def test_a1_1215_kill_and_structure():
 def test_a2_contraction():
     R = json.load(open(os.path.join(HERE, "a2_hierarchy.json")))
     assert R["contraction"] is True
+
+
+def test_phase1a_sum_rule_depth5():
+    import sys
+    HERE2 = os.path.join(HERE)
+    A = json.load(open(os.path.join(HERE2, "singles_1215.json")))
+    B = json.load(open(os.path.join(HERE2, "singles_1215_p3.json")))
+    D = {**A, **B}
+    assert len(D) == 3
+    for p, cells in D.items():
+        s = sum(int(cells[str(c)]) for c in (121, 256, 391)) % int(p)
+        assert s == 0
