@@ -1196,3 +1196,8 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   prior (our pair+parity extends their single-seed frame); Kirillov–Ostrik filed as the
   CRT-phase tool; Niibo–Ueki reciprocity registered as the genus-gating reading; the E₆
   character variety registered APPEARS-NOVEL in the specialist register.
+
+## 2026-07-04 — the 135 scout: gate FAILED, scout VOID (the binding gate working as built)
+
+- Pipeline omitted the inner Π_H average; fix specified; the exact Phase-2 sweep
+  supersedes. No void numbers anywhere. Third prime ~30 min out.

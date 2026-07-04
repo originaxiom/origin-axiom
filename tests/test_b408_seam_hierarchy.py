@@ -11,3 +11,9 @@ def test_seam_persistence():
     assert R["verdict"] == "PERSISTENCE"
     assert R["ratio"] > 1.2 and R["ratio"] < 1.25
     assert R["cell"] == "4,8"
+
+
+def test_scout_void_gate():
+    S = json.load(open(os.path.join(HERE, "scout_135.json")))
+    assert abs(S["15"] - 1/48) > 1e-6      # the gate failed => scout void (the lock
+    # records the FAILURE so no one mistakes scout numbers for verdicts)
