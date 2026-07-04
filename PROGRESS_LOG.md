@@ -1231,3 +1231,13 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   artifact. Embedding-invariant RMS: env45/env15 = 0.76 < 1 — the seam CONTRACTS. Every
   internal channel contracts; the object has NO scale lever. The one open door closes;
   any physical scale must be external. B408 corrected in place with a lock.
+
+## 2026-07-04 — THE MASTERPLAN FINAL: panel-hardened, corrected foundation
+
+- 3-member adversarial panel run; the pivot (seam persistence) caught as an artifact and
+  corrected (PR #528). Final plan: scale wall fully priced (all channels contract, scale
+  external); Phase 2 = the coupling-channel DERIVATION theory (2c→2b, 2b's binding
+  acceptance test = the convolution-cancellation residue); Phase 3 definitional-first
+  (spectral triple, Gate B=L50 with B299 banked); Paper 1 ∥ Phase 2 (governed scope,
+  W-A/W-B relocated); Phase 5 entry gate DEFINED; sentinels given an explicit trigger;
+  SL(n) register declined. Awaiting owner sign-off.
