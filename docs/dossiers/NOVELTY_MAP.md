@@ -75,3 +75,38 @@ dictionary (their language ↔ ours). N-items get the adversarial framing: "this
 probably known — find it." Intake through the B398-pattern scrutiny; the dossiers absorb
 the verdicts; NOTHING enters CLAIMS.md from the sweep (novelty status is metadata, not
 mathematics).
+
+---
+
+## SWEEP INTAKE — round 1 (Chat-1 web sweep, 2026-07-04; CC adjudication attached)
+
+*Protocol note: these are sweep-reported literature verdicts. CC's adjudication from
+training knowledge is attached per item; absence claims are capped at APPEARS-NOVEL
+(one sweep cannot prove absence). Final status = specialist confirmation.*
+
+### Reported genuinely-new (all map onto the N-items above)
+
+- **E₆ character variety of knot complements** (↔ our B264/B274/B347): SL(2) classical
+  (Thurston), SL(3) Heusener–Muñoz–Porti 2015 / Falbel et al. 2014 — citations correct
+  (CC-consistent). No E₆ publication found. STATUS: **APPEARS-NOVEL, pending specialist**
+  (registered in OPEN_LEADS below).
+- **The Par-inserted pair channel** (↔ N1): no precedent found (CC-consistent — my N1).
+- **Genus characters ↔ quantum-invariant components** (↔ N4): none found (CC-consistent).
+- **Supersingular ↔ program primes** (↔ B405): none found; NOTE: ours is a post-hoc
+  observation — novelty of the *connection* ≠ significance; status: novel-as-observation.
+
+### Adjacent frameworks (the sweep's real payload — tools)
+
+- **Gelca–Uribe, "From classical theta functions to TQFT":** abelian Chern–Simons =
+  Weil-representation theory — THE closest prior work to the quantum angle; our seam
+  construction lives one storey above their single-seed framework (the pair + parity
+  twist is the extension). ACTION TAKEN: cited in the Weil-TQFT dossier.
+- **Kirillov Jr.–Ostrik, "q-analog of the McKay correspondence":** quantum subgroups of
+  U_q(sl₂) at roots of unity — the named technology for the McKay/CRT-phase lead (L3 of
+  the leads register). ACTION: filed as the tool for that lead.
+- **Morishita (Knots and Primes) / Niibo–Ueki (idelic CFT for 3-manifolds):** adjacent
+  but distinct — they treat the knot AS a number-field analog; we study the ACTUAL number
+  field arising from the invariant. REGISTERED QUESTION (W-C follow-up): is the genus
+  gating a special case of their Hilbert reciprocity? (Reading task, dossier-filed.)
+- Hot-water list (McKay itself, SL2/SL3 varieties, Kashaev, Jeffrey '92 torus-bundle WRT,
+  volume conjecture): cite-only — consistent with our K-rows and the old L24 audit.

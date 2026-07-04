@@ -24,3 +24,11 @@ the triangular sector compression a known phenomenon (non-semisimple / logarithm
 
 **Reproduce everything:** `pytest tests/test_b382_trace_formula.py tests/test_b384_kashaev.py`
 (seconds; all exact).
+
+**Citation anchor (sweep round 1):** Gelca–Uribe ("From classical theta functions to
+TQFT") — abelian CS = Weil-rep theory; the closest published framework to this
+construction. Our object extends it by (i) the half-characteristic twist (P62/P64) and
+(ii) the Par-inserted PAIR channel (the seam) — neither present in their single-seed
+setting. Kirillov Jr.–Ostrik (q-McKay) is the candidate technology for the CRT-phase
+question. Niibo–Ueki (idelic CFT / Hilbert reciprocity on 3-manifolds): registered
+reading — is the genus-character gating a special case?

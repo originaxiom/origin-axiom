@@ -1189,3 +1189,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - The informed triage before any agent sweep: 5 K-items (cite), 4 L-items (find the
   dictionary), 5 N-items (adversarial hunt). Each with its agent brief. Sweep launches
   on the owner's go, after Phase 1a per the verdicts-first ordering.
+
+## 2026-07-04 — Sweep round 1 intake: 4 APPEARS-NOVEL confirmations, 3 tool-citations
+
+- The sweep maps onto the novelty map's N-items 1:1; Gelca–Uribe cited as the closest
+  prior (our pair+parity extends their single-seed frame); Kirillov–Ostrik filed as the
+  CRT-phase tool; Niibo–Ueki reciprocity registered as the genus-gating reading; the E₆
+  character variety registered APPEARS-NOVEL in the specialist register.
