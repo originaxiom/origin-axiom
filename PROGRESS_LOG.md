@@ -1241,3 +1241,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   (spectral triple, Gate B=L50 with B299 banked); Paper 1 ∥ Phase 2 (governed scope,
   W-A/W-B relocated); Phase 5 entry gate DEFINED; sentinels given an explicit trigger;
   SL(n) register declined. Awaiting owner sign-off.
+
+## 2026-07-04 — Phase 2c (B409): the transport theorem KILLED — B407 folds into P67/M1
+
+- Count conservation holds 4/6 (fails at high-multiplicity bright pairs, DFT non-injective
+  on strata). B407 is P67/M1 restated (multiplicity ≤ 1 only), not a separate theorem;
+  Paper-1 overclaim prevented. Phase 2c done; 2b (the long pole) next.
