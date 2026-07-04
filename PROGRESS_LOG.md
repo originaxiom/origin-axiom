@@ -1311,3 +1311,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 
 - p(n)=n+1, entropy 0, gap group Z+Z phi. Contrast: subshift zero-entropy vs flow 4logphi.
   Named math, bar not cleared. Atlas #3.
+
+## 2026-07-04 — Destination Atlas TW4 (B418): emergence is INTRINSIC; B411 upstairs-hope refuted
+
+- The mirror is not cell-local even upstairs in Q(zeta60) (all 16 Galois elements fail on the
+  raw table). Emergence is a genuine feature, not a projection artifact. Raw cells rich
+  (4-13/16) but unsymmetric. Bar not cleared. Atlas #4. B411 annotated (hope closed for mirror).
