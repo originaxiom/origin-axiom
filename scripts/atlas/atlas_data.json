@@ -8358,6 +8358,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B412": {
+   "slug": "tower measure",
+   "motifs": [
+    "metallic",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B372",
+    "B392",
+    "B394",
+    "B408",
+    "S043"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],
