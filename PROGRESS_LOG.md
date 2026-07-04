@@ -1361,3 +1361,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   Q(sqrt-15) and everything downstream. Why THIS object: the unique meeting of golden dynamics
   and Eisenstein arithmetic. Special for mathematics, not physics. The founding intuition
   honored (uniquely distinguished) and corrected (for the trinity, not the SM).
+
+## 2026-07-04 — THE FLAGSHIP CAMPAIGN launched: the two papers (F1 outlines)
+
+- Paper 1 (value theory, 10 locked theorems) + Paper 2 (the trinity: cornerstone + seven-face
+  dictionary + Gate B + walls). Both entirely banked+lock-backed. The warranted master
+  campaign (not a TOE hunt). Outlines banked; F2 = the theorem-statement pass next.
