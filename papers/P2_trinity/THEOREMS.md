@@ -14,6 +14,28 @@ generate ℚ(√5,√−3), which is the Hilbert class field H of ℚ(√−15),
 φ²,φ^{−2} ∈ ℚ(√5). ℚ(√−15) has discriminant −15 = (−3)(5), class number 2; its genus field
 = Hilbert class field = ℚ(√−3,√5) (genus theory). ∎ [Fact (a) lock: B67; (b) Reid 1991.]
 
+
+
+## §2b. The cornerstone, in its strong form (two FAMILIES, not two facts)
+
+**Theorem 1′ (the double family).** The ~twelve distinguished/extremal characterizations of
+4₁ organize into two families that meet in one knot:
+- the GOLDEN family (all "simplest hyperbolic monodromy", → ℚ(√5)): mapping torus of A;
+  A realizes the MINIMAL dilatation φ² of any pseudo-Anosov on Σ_{1,1}; the Alexander
+  polynomial t²−3t+1 = (t−φ²)(t−φ⁻²) IS A's characteristic polynomial; the 2-bridge knot
+  b(5,2); entropy 2 log φ.
+- the EISENSTEIN family (all "simplest arithmetic geometry", → ℚ(√−3)): the unique arithmetic
+  knot (Reid); two regular ideal tetrahedra of shape ω=e^{iπ/3} (⇒ the trace field ℚ(√−3)
+  geometrically); the smallest-volume cusped hyperbolic 3-manifold; commensurable with the
+  Bianchi orbifold H³/PSL(2,ℤ[ω]); volume in the Bloch group of ℚ(√−3).
+Their fields multiply (√5·√−3=√−15) to give H = the Hilbert class field of ℚ(√−15); the
+amphichiral ℤ/2 of 4₁ is the class group. 4₁ is the MINIMAL meeting (the simplest hyperbolic
+knot). [G-family: G1 banked B67, G2–G5 classical; E-family: E1 Reid 1991, E2–E5 classical.]
+
+**Open (Paper 3 / the deep campaign):** whether the two families REDUCE to the single fact
+"minimal golden dynamics ∩ minimal arithmetic geometry", or are independent — the Uniqueness
+Atlas U1–U5.
+
 ## §3–5. The seven-face dictionary
 
 Throughout, A = [[2,1],[1,1]], φ² = A's Perron eigenvalue, F_n / L_n Fibonacci / Lucas.

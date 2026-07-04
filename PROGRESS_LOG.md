@@ -1391,3 +1391,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   locality, existence law, root-of-unity gate, row-16, Galois covariance, class-field
   organization, the walls) with precise statements + locks. Both papers now have complete
   theorem spines. F3 (dictionary/figures) + F4 (prose) next.
+
+## 2026-07-04 — Flagship: reproducibility ledger (74/74 locks green) + cornerstone upgraded
+
+- Every paper theorem mapped to its lock + reproducer; the whole backbone verified green.
+  Paper 2's cornerstone upgraded to the strong two-FAMILIES form (golden family / Eisenstein
+  family meeting minimally). The papers' foundation (outlines + theorem spines + verification
+  backbone + strong cornerstone) is complete; F4 prose is the remaining fill.
