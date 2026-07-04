@@ -1325,3 +1325,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   object self-generates no SM structure (no scale, no frame); coherent golden/Q(sqrt-15)
   mathematics. Paper 2 = the atlas. The behavior-tracking method delivered a decisive,
   non-self-deceiving negative.
+
+## 2026-07-04 — B422: the Z/2 (mirror/class-group) frame test -- NO FRAME, wall holds both sides
+
+- The owner's 'interacting mirror' intuition, disciplined (Z/2 as content-frame): the golden
+  line and its mirror are BOTH orthogonal to the Mercedes plane (cos^2=0). The content wall
+  holds under Z/2 as under Z/3 (W-B1). B414's last in-object frame door closes; the frame is
+  external. One untested variant (tensor double) with a strong prior against (flatness +
+  orthogonality are product-stable). Markov-blanket framing refused; testable core tested.

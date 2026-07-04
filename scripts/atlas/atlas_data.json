@@ -8549,6 +8549,24 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B422": {
+   "slug": "mirror frame",
+   "motifs": [
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B413",
+    "B414"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B42": {
    "slug": "variational selector controls",
    "motifs": [

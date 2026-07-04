@@ -1,0 +1,7 @@
+{
+ "golden_overlap": "0",
+ "golden_mirror_overlap": "0",
+ "golden_norm": "1/1152",
+ "frame_exists": false,
+ "verdict": "NO FRAME: orthogonality preserved under Z/2 -- content wall holds; frame is external"
+}
