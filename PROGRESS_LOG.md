@@ -1261,3 +1261,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   (= P67 at product resolution + M1 stratification, banked); the deep √5-withholding
   residual STAGES (the Π_H-per-side hazard, 4th appearance, forbids a per-side statement).
   Two-outcome success: derivation-to-M1 + a named wall.
+
+## 2026-07-04 — hint sweep (B411): the local/emergent dichotomy; work upstairs in Q(zeta60)
+
+- Naive field-dictionary killed (generic multi-valued) but localizes the direction: the
+  negatives are one structure — Pi_H is the boundary between a local/derivable layer and an
+  emergent/aggregate layer. New angle: study the raw table UPSTAIRS in Q(zeta60) before
+  Pi_H; the emergent symmetries become projection corollaries. Ledgered.
