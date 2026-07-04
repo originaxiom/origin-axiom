@@ -110,3 +110,25 @@ training knowledge is attached per item; absence claims are capped at APPEARS-NO
   gating a special case of their Hilbert reciprocity? (Reading task, dossier-filed.)
 - Hot-water list (McKay itself, SL2/SL3 varieties, Kashaev, Jeffrey '92 torus-bundle WRT,
   volume conjecture): cite-only — consistent with our K-rows and the old L24 audit.
+
+---
+
+## SWEEP INTAKE — round 2 (Chat-2 adversarial passes, 2026-07-04)
+
+**Downgrades (accepted, consistent with our own audits):**
+- B204 WRT-period ↔ **Jeffrey 1992** — KNOWN (matches our L24 audit flag; cite).
+- B205 quantum trace map ↔ **standard skein machinery** — KNOWN framework (cite;
+  Bonahon–Wong circle).
+- B264 E₆ existence ↔ **known framework** — the RECONCILIATION with round 1's
+  "appears-novel": character varieties for reductive G + smoothness machinery = known
+  THEORY; the 4₁/E₆ computation (H¹ = 6, the gradings) = an apparently-first WORKED
+  INSTANCE. Both true; the claim class is "first instance," never "new theory."
+
+**THE PAPER-1 PHRASING GOVERNOR (binding for Phase 4):** the repo's genuine contributions
+are (i) worked instances inside known frameworks (the E₆ variety of 4₁; the level-15
+theta model's exact tables) and (ii) the selection-rule / stratification / class-group
+OVERLAYS (the seam object, the existence law, locality, the root-of-unity gating, the
+landscape — the APPEARS-NOVEL core, needs-specialist). Paper 1 claims novelty ONLY in
+class (ii) and for instance-firstness in class (i) — framework language is always cited,
+never claimed. (Multi-seat note: Chat-2 active again; three-seat verify-never-trust
+discipline resumes.)

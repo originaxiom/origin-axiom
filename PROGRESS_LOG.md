@@ -1201,3 +1201,9 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 
 - Pipeline omitted the inner Π_H average; fix specified; the exact Phase-2 sweep
   supersedes. No void numbers anywhere. Third prime ~30 min out.
+
+## 2026-07-04 — Sweep round 2 (Chat-2): downgrades accepted; Paper-1 phrasing governor set
+
+- B204=Jeffrey'92, B205=skein-standard (both cite-only); B264 reconciled: known framework,
+  apparently-first worked instance. Paper 1 claims novelty only in the overlays (the
+  APPEARS-NOVEL core) + instance-firstness. Chat-2 active again.
