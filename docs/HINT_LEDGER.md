@@ -227,3 +227,18 @@ multi-seat lesson adopted into the MASTERPLAN.
 - **S032-A (no-forced-choice theorem)** and **H4 (the arithmetic-axis minimality)**: both
   gain the class-field language (choices ↔ ideal classes; Reid-uniqueness ↔ which class
   fields arise). Candidate Phase-2/3 side-questions, not yet probes.
+
+## 2026-07-04 — the "what is energy" package (pre-masterplan intake; full scrutiny pending)
+TRIAGE (CC, immediate): (1) the energy meditation = firewalled HOOK (the Markov-blanket
+vocabulary is the exact rhyme OPEN_LEADS already refuses). (2) Four dimensionalization
+branches: spectral-Dirac (Gate-B-adjacent, real), regulators/L-values (partially banked:
+entropy = 4Reg; BSD-for-15a1 computable), Connes spectral triple (A = E₆ char ring,
+H = seam space, D = Fox-built — a NEW concrete construction proposal, needs formulation),
+topological recursion (DFM = real SL(2) anchor; E₆ open). (3) The two-track torsion claim:
+∏_{k=1..5}|1−ζ₆^k| = 6 is STANDARD cyclotomy (∏ = n; their "Φ₆(1) = 6" is a mislabel —
+Φ₆(1) = 1), so "base 6 = rank E₆, derived" is DRESSING (any order-6 shape gives 6); the
+2m-mod-6 track split is checkable arithmetic; the mass assignment is numerology-class
+until derived. (4) exp(−1/s) = exp(−48): SELF-FLAGGED by the author as the known trap —
+correctly; S042 bar applies (derivation or nothing). EXTRACTIONS FOR THE MASTERPLAN:
+the spectral-triple formulation question and the E₆ topological recursion join Gate B in
+Phase 3 as named constructions; everything else goes to speculations/ with verdicts.
