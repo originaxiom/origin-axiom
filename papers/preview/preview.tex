@@ -1,0 +1,100 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\phigold}{\varphi}
+\title{The golden cat map program \\ \large A two-paper preview (working draft)}
+\author{Dritëro M.}
+\date{2026-07-04}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent This preview collects the abstracts and theorem spines of two papers on the
+figure-eight knot $4_1$, its twisted Weil value theory, and its realization as the golden
+cat map. Every theorem below is exact and machine-verified (74/74 locks green). Frameworks
+are cited, never claimed; no physics is asserted.
+\end{abstract}
+
+\section*{Paper 1 --- Exact value theory and class-field structure}
+
+Attached to the golden cat map $A=\left[\begin{smallmatrix}2&1\\1&1\end{smallmatrix}\right]$
+(the monodromy of $4_1$) is a tower of level-$N$ Weil representations with a
+half-characteristic twist. Its parity-inserted pair invariants (``the seam'') form an exact
+value theory governed by the arithmetic of $\Q(\sqrt{-15})$.
+
+\begin{theorem}[order law]
+$\operatorname{ord}(W_1 \text{ at level } N) = \pi(N)/2$, the half Pisano period: the tower
+is the quantized golden cat map. (Frame: Hannay--Berry / Kurlberg--Rudnick, cited.)
+\end{theorem}
+\begin{theorem}[shifted trace formula and the $1/12$]
+On $\det(\gamma-I)\in(\Z/15)^\times$,
+$\operatorname{tr}(U_\gamma X^aZ^b)=\operatorname{tr}(U_\gamma)\,\zeta_{15}^{\frac12\omega(v,(\gamma-I)^{-1}v)-\frac12 ab-\frac12\omega(v,(1,1))}$,
+the twist entering as the single half-characteristic term; the whole Par-table factorizes
+(661/661 over six pairs), and the sector constant decomposes by determinant class as
+$\tfrac1{12}=\tfrac1{16}+\tfrac1{48}$, with magnitudes $|\chi|^2=\#\mathrm{Fix}(\gamma')$.
+\end{theorem}
+\begin{theorem}[existence law, general $N$]
+The value sector at $N=3^a5^b$ exists iff not ($a$ even and $b$ even); predictive across
+nine sub-verdicts and census-confirmed at $243,625$.
+\end{theorem}
+\begin{theorem}[locality of brightness]
+Whether a sector is nonzero is reproduced from the two local models at $q=3,5$ by spectral
+convolution ($12/12$); predictive out-of-sample.
+\end{theorem}
+\begin{theorem}[root-of-unity gate]
+Every generic cell is a root of unity in $\mu_{60}$; the orders are genus-character gated:
+$3\mid\operatorname{ord}(C)\iff\chi_{-3}(\det(\gamma'-I))=-1$ (the Eisenstein gate).
+\end{theorem}
+\begin{theorem}[class-field organization]
+$\Q(\sqrt5,\sqrt{-3})$ is the Hilbert class field of $\Q(\sqrt{-15})$; the class group
+$\Z/2$ acts on the value constants, the basis $\{1,\sqrt5,\sqrt{-3},\sqrt{-15}\}$ is the
+Gauss-sum basis of the three genus characters, and two genus selection rules hold.
+\end{theorem}
+\begin{theorem}[boundary theorems / the walls]
+Every internal channel contracts and the tower-measure is flat (no scale); the golden and
+cyclic sectors are exactly orthogonal under both $\Z/3$ and $\Z/2$ (no canonical frame).
+\end{theorem}
+
+\section*{Paper 2 --- The figure-eight as the golden cat map: the trinity}
+
+\begin{theorem}[the cornerstone, two families]
+$4_1$ is the mapping torus of the simplest golden cat map (its monodromy realizes the
+minimal pseudo-Anosov dilatation $\phigold^2$ on the once-punctured torus; its Alexander
+polynomial $t^2-3t+1=(t-\phigold^2)(t-\phigold^{-2})$ is $A$'s characteristic polynomial),
+forcing $\Q(\sqrt5)$; and it is the unique arithmetic knot (Reid 1991; two regular ideal
+tetrahedra of Eisenstein shape $e^{i\pi/3}$), forcing $\Q(\sqrt{-3})$. These compose:
+$\sqrt5\cdot\sqrt{-3}=\sqrt{-15}$ and $\Q(\sqrt5,\sqrt{-3})$ is the Hilbert class field of
+$\Q(\sqrt{-15})$.
+\end{theorem}
+\begin{theorem}[torsion $=$ periodic orbits, the hinge]
+The regularized $E_6$-adjoint Reidemeister torsion of $4_1$ is
+$\tau(E_6)=\prod_i\prod_{j=1}^{m_i}(-5F_{2j}^2)$, and
+$5F_{2j}^2=|\det(A^{2j}-I)|=\#\mathrm{Fix}(A^{2j})$. Hence the adjoint torsion is the golden
+cat map's periodic-orbit product; its prime content is the Fibonacci apparition primes
+$\{2,3,5,7,11,13,17,19,29,41,47,89,199\}$.
+\end{theorem}
+\begin{theorem}[the seven faces]
+The symbolic coding (Sturmian, gap group $\Z+\Z\phigold$), the dynamics (Anosov, entropy
+$4\log\phigold$), the torsion (above), its Hessian spectrum (Fibonacci-golden, no SM mass
+ratio), the Kashaev invariant (volume-conjecture regime, $\Q(\sqrt5)$-content at $5\mid N$),
+the value measure (Gauss-sum-modulated Haar), and the $L$-landscape
+($\text{entropy}=4\operatorname{Reg}=2\sqrt5\,L(1,\chi_5)$) are all invariants of the one
+cat map, related by explicit dictionaries.
+\end{theorem}
+\begin{corollary}[the honest boundary]
+$4_1$ is the unique minimal geometric realization of the arithmetic of the
+golden $\times$ Eisenstein compositum $\Q(\sqrt{-15})$. Its invariants are that arithmetic,
+in seven languages; the walls (no scale, no frame) are the arithmetic's own properties.
+\end{corollary}
+
+\bigskip
+\noindent\textit{Preview only: full prose and figures pending. Reproducibility: every
+theorem is backed by an exact lock test (74/74 passing).}
+\end{document}
