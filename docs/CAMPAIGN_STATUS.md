@@ -16,6 +16,7 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - TW2 (trace-map dynamics) starting; e₃ sentinel reconstructing (independent).
 
 ## LAST BANKED
+- **TW2 (B416): the dynamics' destination = golden-Anosov flow** (Lyapunov 4logφ, conserved κ, modular symmetry) — named math, bar NOT cleared; generic to the metallic family (not even fig-8-specific). Atlas #2.
 - **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced
   (refinement, not running), content wall priced (no canonical frame), and the sixth
   angle delivered the organizing discovery (class field theory of ℚ(√−15), P68).

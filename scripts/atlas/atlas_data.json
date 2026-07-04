@@ -8427,6 +8427,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B416": {
+   "slug": "tw2 dynamics",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B109"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],
