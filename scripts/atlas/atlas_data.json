@@ -8322,6 +8322,25 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B410": {
+   "slug": "coupling derivation",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B393",
+    "B401",
+    "P67"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],
