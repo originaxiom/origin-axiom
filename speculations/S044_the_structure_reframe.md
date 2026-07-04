@@ -48,3 +48,15 @@ canonical frame). **"Seeing the SM" reduces to ONE precise problem: the content-
 which the object does not self-provide.** Honest fork: an external structural frame (as the
 SM needs an external scale), or it is not there. Untried in-object probe: the class-group
 ℤ/2 as frame-provider (the Mercedes ℤ/3 gave orthogonality; the core is ℤ/2).
+
+## Gate B computed (B423): the compute-don't-argue distinction VINDICATED — but it's math
+
+[MATH] The owner's decisive point (symmetry asks ALLOW, computation asks PRODUCE; the seam
+is the precedent) was correct: computing Gate B's leading term (the regularized E₆ torsion)
+produced τ(E₆) = ∏(−5)^{m_i}(∏F_{2j})², prime content = the Fibonacci apparition primes
+{2,3,5,7,11,13,17,19,29,41,47,89,199} — rich structure NO symmetry test could see, and
+figure-eight-specific (silver control = Pell primes). [MATH] But bar (iii) fails: the
+spectrum is Fibonacci arithmetic (law of apparition), not an SM structure. The wall holds
+from the computation side too — the object computes NUMBER THEORY, not physics. A real new
+theorem for the papers; the honest verdict unchanged, now stronger (tested by computation,
+not just argument).

@@ -1333,3 +1333,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   holds under Z/2 as under Z/3 (W-B1). B414's last in-object frame door closes; the frame is
   external. One untested variant (tensor double) with a strong prior against (flatness +
   orthogonality are product-stable). Markov-blanket framing refused; testable core tested.
+
+## 2026-07-04 — GATE B COMPUTED (B423): the E6 torsion = Fibonacci-square product
+
+- The owner's compute-don't-argue point vindicated: tau(E6) = prod(-5)^m (prod F_2j)^2,
+  prime content = Fibonacci apparition primes {2,3,5,7,11,13,17,19,29,41,47,89,199} -- rich
+  forced structure the symmetry tests missed, figure-eight-specific (control = Pell primes).
+  Bar (iii) fails: Fibonacci arithmetic, not SM. The wall holds from the computation side
+  too. A new theorem (closed-form E6 torsion) for the papers.
