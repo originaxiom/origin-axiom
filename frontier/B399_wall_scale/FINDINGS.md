@@ -36,3 +36,18 @@ by the identification.
 
 **Provenance.** singles_1215.py (~2.5 h, 2 primes), the reconstruction session; locks
 tests/test_b399_wall.py (A1 section).
+
+---
+
+# A2 BANKED — W-A closes: the tower is a resolution generator, not a scale generator
+
+Exact envelope across the five rungs: max|v| = 1/4, 1/4, 1/4, (1+2cos40°)/12 ≈ 0.211,
+1/12 (the exact known line at 1215; triple ID open, sum-rule-conditional). **Monotone
+contraction; every value in [−1/12, 1/4]; the total is frozen at 1 while the support
+Galois-splits.** The registered expectation (BOUNDED) is confirmed with the sharper law:
+the singles tower refines the fixed measure into finer cyclotomic detail — it cannot
+generate hierarchy. WALL-1 PRICING: any scale separation, if this object has one, must
+come from the seam/boundary channel (the pair tables across levels) — the one channel
+not yet tested for hierarchy; named as the next lever.
+
+**Provenance.** a2_hierarchy.py → a2_hierarchy.json; locks tests/test_b399_wall.py.

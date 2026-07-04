@@ -1,0 +1,39 @@
+{
+ "stats": {
+  "15": {
+   "min": "1/4",
+   "max": "1/4",
+   "sum": "1"
+  },
+  "45": {
+   "min": "1/4",
+   "max": "1/4",
+   "sum": "1"
+  },
+  "135": {
+   "min": "1/4",
+   "max": "1/4",
+   "sum": "1"
+  },
+  "405": {
+   "min": "-0.073282",
+   "max": "0.211007",
+   "sum": "1 (exact, banked)",
+   "exact_form": "(1+c)/12, c in zeta9+ orbit"
+  },
+  "1215": {
+   "known_line": "1/12 x 12 cells (exact)",
+   "triple": "ID open",
+   "sum": "1 conditional on triple summing to 0"
+  }
+ },
+ "envelope": [
+  "0.25",
+  "0.25",
+  "0.25",
+  "0.21100740718649633",
+  "0.08333333333333333"
+ ],
+ "contraction": true,
+ "caveat": "1215 envelope uses the exact 1/12 line; triple ID open"
+}

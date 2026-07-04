@@ -1152,3 +1152,9 @@ closed form of −1/16 (P64 residue).
 ## 2026-07-04 — the 1215 rung: both walk candidates KILLED; v0 = 1/12 (third appearance);
 B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated by controls
 (11/13/17/19 all give 16), sentinels {31, 79, 167} banked; retcon flagged third time.
+
+## 2026-07-04 — A2 + THE WALL CAMPAIGN WRAP
+
+- A2: monotone contraction — the tower refines, never runs; Wall 1 priced exactly.
+  Synthesis in RECOGNITION.md; both walls priced with mechanisms; the sixth angle is the
+  campaign's discovery (class group, genus gates, P68). Decision gate to the owner.
