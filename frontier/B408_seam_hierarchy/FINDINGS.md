@@ -25,3 +25,10 @@ act on H-averaged tables — 16 embeddings per level, not 4). Per the binding cl
 scout is VOID; no scout number enters any record (scout_135.json retained as the bug
 exhibit). The exact Phase-2 sweep (36-dim identification) supersedes; the fix (the full
 16-embedding pipeline) is specified above if a scout is ever wanted first.
+
+**Scout v2 (the specified fix): GATE FAILED AGAIN** (15-level 0.02135 vs 1/48 — 2.5% off;
+45-level far off; suspected residual: the i-action within the H-coset average). Two
+attempts = the drift rule's limit: **the numerical scout is STAGED PERMANENTLY**; the
+exact 36-dim Phase-2 sweep is the only instrument for the 135 envelope. (scout_v2.json
+retained as exhibit; no scout number has entered any record — the binding gate held both
+times.)
