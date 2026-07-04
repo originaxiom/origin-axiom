@@ -154,3 +154,33 @@ two specialist items. All named; none computable-and-unattempted.
 
 **Verdict.** The object is computation-complete at level 15. The discipline's strongest
 session-family to date: five waves, five verdicts, zero drift.
+
+---
+
+# Review 6 — 2026-07-04 (merges #509–#521: the scrutiny + the Wall Campaign)
+
+anchor-commit: `a07fadbf2a9d0bb53951cb1ec1c8a2854bd5ab89`
+
+**Scope.** B398 scrutiny (S1–S6), B403/B405 (the follow-on packages), the Wall Campaign
+(B399–B402, B404), the wrap.
+
+**Claims hygiene.** One promotion (P68 — the root-of-unity law, prereg'd with zero
+violations across 142 cells). Binding gates used twice against exciting material (the
+PMNS ensemble at p ≈ 0.09–0.44; the McKay dictionary by controls) — both killed cleanly;
+the killed prime filter's THREE return attempts each flagged and re-killed with banked
+witnesses. One prereg error self-corrected BEFORE computation (the odd-N mod-2 framing in
+Q2). Predictions used and honored: the split-covariance prediction CONFIRMED; both
+walk-law candidates KILLED at 1215 as registered outcomes.
+
+**Verification depth.** The sixth angle produced a confirmed falsifiable prediction, a
+derivation (P68), and two selection rules within 24 hours of being proposed — the
+strongest single-lens session in the program. Sentinel protocol extended (17/19; the
+supersingular list {31, 79, 167}).
+
+**Debt.** The 1215 triple identification (third prime); the seam-channel hierarchy test
+(the one untested lever); the coupling-channel unification arc; two specialist dossiers
+unchanged.
+
+**Verdict.** Both walls priced with mechanisms rather than hopes; the discipline held
+against three waves of cross-chat enthusiasm while extracting every gram of real
+substance from them.
