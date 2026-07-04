@@ -25,3 +25,19 @@ channel the object's one scale lever?**
 
 VACUITY GUARD: both outcomes are live (the singles contracted 1/4 → 1/12-scale, so
 contraction is possible; the 45-table's c-dressing could push magnitudes either way).
+
+## ADDENDUM (2026-07-04): the 135 NUMERICAL SCOUT (registered before running)
+
+The exact 135 sweep (36-dim identification) is a Phase-2 job. The envelope question
+admits a numerical scout: compute the Par-graded pair table at complex embeddings
+(numpy, float64), extract the √−15-sector per cell by the 4-fold Galois combination
+(s-part = [T(e) − T(e·a₅) − T(e·a₃) + T(e·a₅a₃)]/(4·√−15(e)) with a₅/a₃ the
+√5-only/√−3-only flip exponents), and take the max magnitude over cells × ζ-embeddings.
+
+**THE GATE (binding):** the identical pipeline must reproduce (i) env₁₅ = 1/48 and
+(ii) env₄₅ ≈ 0.02535468 (the banked exact verdicts) to ≤ 1e−8 relative error. If the
+gate fails, the scout is void.
+
+**Registered outcomes at 135:** GROWTH (env₁₃₅ > env₄₅ — the lever strengthens; the
+growth-law question opens), PLATEAU (≈ equal), CONTRACTION (the 45 excess was a blip).
+Scout verdicts are labeled NUMERICAL-SCOUT; exact confirmation = the Phase-2 sweep.
