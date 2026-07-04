@@ -1374,3 +1374,13 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   as Theorems 2-8 (each with proof sketch + lock); the walls as Theorems 9-10. The
   torsion=periodic-orbits hinge (Thm 4) with the full derivation. Paper 2's mathematical
   spine complete.
+
+## 2026-07-04 — THE UNIQUENESS ATLAS (first assembly + deep-investigation campaign plan)
+
+- The figure-eight is extremal in ~12 independent ways, splitting golden (G1-G5: cat map,
+  min-dilatation pA, Alexander=char poly, 2-bridge 5/2, entropy) / Eisenstein (E1-E5: unique
+  arithmetic, 2 regular ideal tetrahedra, min-volume cusped, Bianchi PSL(2,O-3), Bloch group)
+  / amphichiral (X1-X2 = the class-group Z/2) / meeting (M1 simplest hyperbolic knot). The
+  deep campaign (U1-U5, after the papers): complete the atlas, map connections to the
+  cornerstone, test whether the uniqueness list is ONE fact, push each angle, synthesize
+  (Paper 3). Enriches Paper 2's cornerstone section.
