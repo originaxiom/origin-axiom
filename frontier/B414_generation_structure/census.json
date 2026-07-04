@@ -1,0 +1,43 @@
+{
+ "census": {
+  "Z2_class_group": {
+   "order": 2,
+   "exact": true,
+   "forced": true,
+   "where": "h(Q(sqrt-15))=2; acts on ALL value constants (P1/B401); genus split; the seam's two Galois faces",
+   "centrality": "CORE -- organizes the entire value theory"
+  },
+  "Z2_sector_doublet": {
+   "order": 2,
+   "exact": true,
+   "forced": true,
+   "where": "the value SECTOR is a 2-dim doublet (existence law P63); the minimal slot is 2-state (P56)",
+   "centrality": "CORE -- the sector itself is order-2"
+  },
+  "Z3_mercedes": {
+   "order": 3,
+   "exact": true,
+   "forced": true,
+   "where": "the (2,3) pair's three equal-norm columns (P61 stabilizer)",
+   "centrality": "one pair"
+  },
+  "Z3_zeta9_tower": {
+   "order": 3,
+   "exact": true,
+   "forced": true,
+   "where": "the zeta9+ orbit: 405 singles, the 1215 triple; the 3-adic direction of the tower",
+   "centrality": "the tower's 3-part"
+  },
+  "Z3_E6_exponent_split": {
+   "order": 3,
+   "exact": true,
+   "forced": true,
+   "where": "6 E6 exponents split 3+3 under 2m mod 6",
+   "centrality": "representation-theoretic"
+  }
+ },
+ "core_Z2": 2,
+ "core_Z3": 0,
+ "Z3_privileged": false,
+ "verdict": "3-2 structure exact but not distinctive; distinctive test blocked by content wall"
+}

@@ -8393,6 +8393,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B414": {
+   "slug": "generation structure",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],

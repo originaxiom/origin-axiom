@@ -37,3 +37,14 @@ selection-rule lattice, symmetry pattern) vs what the SM FORCES (generation coun
 / hypercharge structure, conservation laws) — checked BEFORE comparison, no tuning. A
 forced structural match is real evidence; a systematic miss closes the question honestly.
 The generation census (S045/B414) is the first, most-forced instance.
+
+## Test-1 result (B414): the generation reading fails privilege, but locates the obstruction
+
+[MATH] The object's core multiplicity is ℤ/2 (class group + doublet sector), not ℤ/3 — so
+"ℤ/3 = generations privileged" FAILS. [MATH] But the object DOES carry an exact 3-2 structure
+(SM-skeleton-shaped; a [HOOK], not distinctive evidence). [MATH]+key: the DISTINCTIVE test
+(representations → anomaly-free content) is blocked by the content-wall frame (W-B1: no
+canonical frame). **"Seeing the SM" reduces to ONE precise problem: the content-wall frame,
+which the object does not self-provide.** Honest fork: an external structural frame (as the
+SM needs an external scale), or it is not there. Untried in-object probe: the class-group
+ℤ/2 as frame-provider (the Mercedes ℤ/3 gave orthogonality; the core is ℤ/2).
