@@ -8278,15 +8278,19 @@
   "B408": {
    "slug": "seam hierarchy",
    "motifs": [
+    "metallic",
+    "amphichiral_cp",
+    "torsion",
     "firewall"
    ],
    "refs": [
-    "B372"
+    "B372",
+    "S043"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 3,
+   "obstacle_conf": 6,
    "status": "banked",
-   "domain": "meta"
+   "domain": "arithmetic"
   },
   "B40": {
    "slug": "filter reuse audit",

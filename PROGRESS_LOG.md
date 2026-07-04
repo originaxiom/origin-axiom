@@ -1224,3 +1224,10 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Exact: the 3+3 exponent split; the ∏=6 cyclotomy. Deflated: the Φ₆ mislabel, the
   rank-E₆ dressing, the unreproducible mass values, the self-flagged exp(−48). Extracted:
   the spectral-triple construction + E₆ recursion as Phase-3 candidates.
+
+## 2026-07-04 — PANEL CORRECTION: the seam contracts too — Wall 1 fully priced
+
+- The adversarial masterplan panel caught the Phase-1b persistence as an embedding-max
+  artifact. Embedding-invariant RMS: env45/env15 = 0.76 < 1 — the seam CONTRACTS. Every
+  internal channel contracts; the object has NO scale lever. The one open door closes;
+  any physical scale must be external. B408 corrected in place with a lock.
