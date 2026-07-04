@@ -184,3 +184,35 @@ unchanged.
 **Verdict.** Both walls priced with mechanisms rather than hopes; the discipline held
 against three waves of cross-chat enthusiasm while extracting every gram of real
 substance from them.
+
+---
+
+# Review 7 — 2026-07-04 (merges #522–#540: the reframe + the Destination Atlas)
+
+anchor-commit: `edceb2d5a5fe7d5639213be42c924eefe376cc6d`
+
+**Scope.** The energy-package scrutiny (S043), the structure reframe (S044/B414), Scale-
+Genesis (B413), the hint sweeps (B411/B412), and the full Destination Atlas campaign
+(TW1–TW7 / B415–B421).
+
+**Claims hygiene.** Zero physics promotions (correct). Every physics-adjacent package
+(energy meditation, 12√3 sector, PMNS residue) firewalled with its kill. The reframe
+(object as structure) was engaged genuinely and tested — the forced-ℤ/3=generations reading
+FAILED its privilege check honestly; the tracking campaign's emergence bar was fixed before
+looking and never moved.
+
+**Verification depth.** The campaign's defining virtue: a NON-SELF-DECEIVING method. No SM
+target was sought; six behaviors tracked blind; all named as pure math; the bar (forced +
+unsought + exact + control) judged each. Scale-Genesis and the atlas both returned decisive
+negatives by construction. One self-correction of note: TW4 REFUTED our own B411 upstairs-
+hope (emergence is intrinsic).
+
+**Debt.** e₃ (the 1215 singles sentinel) reconstructing — Phase-1 cleanup, independent.
+Paper 1 (value theory) + Paper 2 (the atlas) are the consolidation deliverables. The
+content-wall frame (B414) is the one EXTERNAL question left open (the object self-provides
+no frame).
+
+**Verdict.** The program reached an honest terminal statement on the physics ambition:
+tracked blind by the fairest possible method, the object self-generates no SM structure. It
+IS a complete, novel, coherent body of mathematics (golden/ℚ(√−15)-organized). The
+discipline held to the end — the negative is trustworthy precisely because nothing was hunted.
