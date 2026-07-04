@@ -3,18 +3,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**Campaign:** Closure II — the Mechanism Campaign (owner-approved at the decision gate,
-2026-07-04): M1 convolution-cancellation · M2 the twisted support walk (+405 rung) · M3
-derive the mirror law · M4 the complete-table gate (all six pairs) · M5 the last census
-facts. After M1–M5 the object is computation-complete (only specialist-register items
-remain) and the wall campaign starts.
+**Campaign:** THE DESTINATION ATLAS (owner-approved 2026-07-04) — track the object's OWN
+behavior blind to physics, name each destination as pure math, judge by the emergence bar
+fixed before looking. TW1 ✅ (tower-measure limit = Gauss-sum Haar, no SM). TW2 dynamics ·
+TW3 symbolic · TW4 upstairs ℚ(ζ₆₀) · TW5 quantum-invariant asymptotics · TW6 L-functions ·
+TW7 the atlas + verdict. Autonomous; owner signs off only at a bar-clearing emergence.
 Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 
 ---
 
 ## RUNNING NOW
-- **Primes 7–10 for the triple's e₃** (pid 75043, watcher armed) — the sentinel-bearing
-  coefficient; the 31-collision + supersingular test fires on its reconstruction.
+- TW2 (trace-map dynamics) starting; e₃ sentinel reconstructing (independent).
 
 ## LAST BANKED
 - **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced
