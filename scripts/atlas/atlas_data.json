@@ -8477,6 +8477,22 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B419": {
+   "slug": "tw5 quantum",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B384"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],
@@ -8488,6 +8504,50 @@
    "obstacle_conf": 0,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B420": {
+   "slug": "tw6 lfunctions",
+   "motifs": [
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B421": {
+   "slug": "tw7 atlas",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "torsion",
+    "quasicrystal",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B413",
+    "B414",
+    "B415",
+    "B416",
+    "B417",
+    "B418",
+    "B419",
+    "B420",
+    "P59",
+    "P68"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "arithmetic"
   },
   "B42": {
    "slug": "variational selector controls",

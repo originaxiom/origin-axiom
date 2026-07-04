@@ -1,0 +1,11 @@
+{
+ "entropy_eq_4Reg": true,
+ "entropy_eq_2sqrt5_L1chi5": true,
+ "L1_chi5": 0.43040894096400406,
+ "L1_chim15": 1.6223114703894448,
+ "destination": "zeta_H = zeta * L(chi-3) L(chi5) L(chi-15): the genus-character L-factorization of the Hilbert class field of Q(sqrt-15); one factor per program pillar (twist/dynamics/seam)",
+ "bar": {
+  "any_exact_SM_match": false,
+  "reason": "the L-landscape is the class field theory of Q(sqrt-15) (three genus characters); special values are transcendental (pi/sqrt15) or golden L-values; no SM structure"
+ }
+}

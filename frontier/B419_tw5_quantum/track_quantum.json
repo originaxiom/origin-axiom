@@ -1,0 +1,32 @@
+{
+ "growth": {
+  "20": {
+   "growth": 3.3647374263629017
+  },
+  "40": {
+   "growth": 2.858168215633952
+  },
+  "60": {
+   "growth": 2.6452497127619896
+  },
+  "80": {
+   "growth": 2.525110868639838
+  },
+  "100": {
+   "growth": 2.447006309685692
+  },
+  "140": {
+   "growth": 2.350406786322791
+  },
+  "180": {
+   "growth": 2.29230687755769
+  }
+ },
+ "limit_target": 2.029883212819307,
+ "sqrt5_content": "banked B384: <4_1>_5 = 46+2sqrt5; sqrt5 nonzero at every 5|N",
+ "destination": "the volume-conjecture asymptotic (growth -> Vol(4_1)=2.0299) with Q(sqrt5) arithmetic content",
+ "bar": {
+  "any_exact_SM_match": false,
+  "reason": "the destination is a hyperbolic volume (a transcendental geometric constant) + Q(sqrt5) arithmetic; no SM structure; control: other knots give other volumes"
+ }
+}
