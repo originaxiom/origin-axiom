@@ -91,6 +91,15 @@ computed instance, known framework, pending specialist"); Gelca–Uribe cited as
 prior; Jeffrey/skein cited. All banked/locked NOW — no dependency on the 135 or triple
 verdicts (those feed a possible Paper 2).
 
+## SCALE-GENESIS RESULT (2026-07-04): the scale branch is CLOSED
+
+B413: the tower-measure is FLAT (|L(χ)| = mass, Gauss-sum phases) — outcome (b), no scale
+genesis. The object generates no scale through any channel. Phase 5's SCALE ambitions are
+closed; only the CONTENT branch (the coupling channel, Phase 2b's residual) remains a
+physics lever, and it is for content/derivation, not scale. The honest terminal statement
+(a self-computing arithmetic object with fully-closed scale walls) is now the leading
+deliverable — Paper 1.
+
 ## PHASE 5 — the gated frontier (no schedule; bars govern)
 
 Physics attempts ONLY through the coupling channel (content/derivation — the scale

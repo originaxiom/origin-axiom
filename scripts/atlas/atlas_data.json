@@ -8378,6 +8378,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B413": {
+   "slug": "scale genesis",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B408"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B41": {
    "slug": "projective orbit census",
    "motifs": [],

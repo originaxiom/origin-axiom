@@ -226,3 +226,13 @@ exactly one mechanism (twist/boundary/non-principal class); its internal channel
 but do not run; its visible symmetries are aggregate. The named levers for any future
 crossing: the seam-channel hierarchy test, and the coupling-channel theory (the
 class-group/emergent-symmetry unification).
+
+
+## SCALE-GENESIS — the decisive verdict (2026-07-04, B413)
+
+The tower-measure (B412) was the last candidate scale mechanism. G1: its Fourier spectrum
+has CONSTANT magnitude = the mass (|L(χ)| = 1/4 all χ; 12·L(χ₁) = an exact ℤ[ζ₉] Gauss sum,
+norm 9) — a FLAT measure, outcome (b) REDUCIBLE. NO SCALE GENESIS. The object generates no
+scale through any tested channel (hierarchy contracts, B408; the measure is flat, B413).
+The ratios→scale wall is closed at the mechanism level: any physical scale is external.
+The honest terminal statement stands; Paper 1 carries it.

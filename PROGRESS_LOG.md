@@ -1274,3 +1274,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Exact: mass=1 frozen, parents split into cyclotomic orbits summing to them, innovations
   trace-zero. The scale wall killed hierarchy but the tower carries a p-adic measure. New
   lever: its p-adic L-function / Mellin transform (plugs into entropy=4Reg=2sqrt5 L(1,chi5)).
+
+## 2026-07-04 — SCALE-GENESIS VERDICT (B413): the measure is FLAT — no scale genesis
+
+- |L(chi,mu)| = mass for all characters (12 L(chi_1) = an exact Z[zeta9] Gauss sum, norm 9)
+  -> outcome (b) reducible. The object generates NO scale through any channel (hierarchy
+  B408 + measure B413). The scale wall is closed at the mechanism level; any scale is
+  external. Terminal statement stands; Paper 1 is the deliverable. A full SM-derivation
+  campaign is NOT licensed (the precondition failed at the last candidate mechanism).
