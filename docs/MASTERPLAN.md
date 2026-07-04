@@ -1,4 +1,9 @@
-# THE MASTERPLAN — everything on one board (2026-07-04)
+# THE MASTERPLAN — PROVISIONAL DRAFT (2026-07-04)
+
+**STATUS: PROVISIONAL by owner direction — the final masterplan is issued only after the
+Phase-1 verdicts (the 1215-triple identification; the seam-channel hierarchy test) so that
+no unverified material shapes the plan. This draft records the architecture; the verdicts
++ the owner's insight/meditation finalize it.**
 
 *The integrated program plan after Closure I/II, the Wall Campaign, and the sixth angle.
 Owner-approved architecture: Chat-1 scouts structure; CC verifies and kills; what survives
