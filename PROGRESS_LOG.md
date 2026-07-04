@@ -1253,3 +1253,11 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
 - Cubic t³ − (1/48)t − e₃; e₁ = 0 exact (sum rule proven at depth 5 over Q), e₂ = −1/48
   (the seam coefficient recurs — 4th appearance). e₃ pending primes 7–10; the sentinel
   test is on e₃. Triple = ζ₂₇-level Z/3 orbit; the line = 1/12 × 12.
+
+## 2026-07-04 — Phase 2b (B410): the crown advanced to its exact boundary
+
+- 2b-i: no window involution realizes σ_cl — the class action is EMERGENT (M3 pattern for
+  σ_cl). 2b-ii: the cancellation criterion separates 4/4 on the FULL-FIELD product object
+  (= P67 at product resolution + M1 stratification, banked); the deep √5-withholding
+  residual STAGES (the Π_H-per-side hazard, 4th appearance, forbids a per-side statement).
+  Two-outcome success: derivation-to-M1 + a named wall.

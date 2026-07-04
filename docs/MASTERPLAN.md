@@ -41,7 +41,11 @@ not scale — the scale question is closed). Ordered by information-per-compute-
 - **2c ✅ DONE (B409):** the transport candidate is KILLED (4/6; fails at high-
   multiplicity bright pairs — DFT non-injective on strata). B407 FOLDS into P67/M1; the
   strata-mirror is scoped to multiplicity ≤ 1, NOT a Paper-1 theorem (overclaim prevented).
-- **2b (the long pole; a P68-scale derivation, 2–4 sessions + review gates):** the
+- **2b ADVANCED (B410): class action is EMERGENT (2b-i, no window involution); the**
+  **cancellation criterion is DERIVED on the full-field object (4/4, = P67 at product**
+  **resolution + M1 stratification); the deep residual (the 5-side √5-withholding**
+  **frequency structure) STAGES with its exact obstruction (the Π_H-per-side hazard forbids**
+  **a per-side statement). The crown reached its exact boundary. Original framing kept:** the
   registered QUESTION (not a foregone conclusion) — does an involution ι on the level-N
   windows exist with t(ιa,ιb) = σ_cl·t(a,b), ι = the nontrivial class of Cl(ℚ(√−15)) via
   the P4 Gauss-sum basis? Reconcile explicitly with M3 (the mirror is EMERGENT, no
