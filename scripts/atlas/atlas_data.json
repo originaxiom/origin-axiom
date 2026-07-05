@@ -8635,6 +8635,67 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B426": {
+   "slug": "scale lever closed form",
+   "motifs": [
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B372",
+    "B408",
+    "P63",
+    "P66",
+    "P67"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B427": {
+   "slug": "cpt exchange trace",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B367",
+    "B369",
+    "B380",
+    "P61"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B428": {
+   "slug": "upstairs spin walls",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "B426",
+    "P6",
+    "S049"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B42": {
    "slug": "variational selector controls",
    "motifs": [

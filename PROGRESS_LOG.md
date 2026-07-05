@@ -1441,3 +1441,41 @@ B405: supersingular pair verified {7,23} (only ones < 30), dictionary deflated b
   (dictionary row + hinge), Paper 2 ABSTRACT/OUTLINE/THEOREMS (Thm 4 → 4a dynamical zeta / 4b
   geometric torsion + two-torsion corollary), REPRODUCIBILITY_LEDGER (T4a/T4b). Locks:
   tests/test_b425_geometric_torsion.py (10/10); affected suite 15/15 green.
+
+## 2026-07-05 — the handoff adjudication (B426/B427/B428) + the Origin-Postulate campaign running
+
+Context: the Origin Postulate locked (PR #548) — D: object → physics lives at the INTERFACE; the
+owner's mandate: compute the unfolding continuously, update the repo as we go. Two cross-chat
+handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicated verify-don't-trust:
+
+- **B426 — the scale-lever closed form (Chat-2 G1 VERIFIED) + the Galois-orbit contraction
+  theorem (new).** env₄₅/env₁₅ = (3α²+4α−1)/10, α=2cos(2π/9), minpoly 1000x³−1500x²+360x−19,
+  cyclic cubic in ℚ(ζ₉)⁺, √5-free — verified from the banked B372 sweep45.json exact coefficients
+  (cell (4,8) √−15 sector (1/96,−1/160,1/480); exhaustive 144×3 scan confirms the max at
+  (4,8)/emb2; symbolic identity exact). NEW: the three "embeddings" are the three GALOIS
+  CONJUGATES; mean = 1/2, RMS = √51/10 ≈ 0.714, geometric mean = (19/1000)^{1/3} ≈ 0.267 —
+  EVERY Galois-invariant functional < 1; growth exists only under non-invariant max. The B408
+  correction is now a THEOREM (the object supplies no invariant functional under which the seam
+  grows). G2 structural half credited (√5-freeness forced by CRT locality; P63/P66/P67 verified
+  present); the quantitative C₉/C₃ level-9 build logged open.
+- **B427 — the twisted exchange trace: Chat-1's base identity TRUE, corollary CORRECTED, and the
+  correction is a discovery.** tr(W₁·Par·W₂) = tr_{V⊗V}(Q(W₁⊗W₂)) with Q=(Par⊗I)P verified;
+  Q-multiplicities {57,56,56,56} verified combinatorially. But Chat-1's tr(Q³·)=tr(Q·) step is
+  FALSE on the actual Weil matrices: C = tr(Par·W₂W₁) = ζ₁₅ ≠ C′ = tr(Par·W₁W₂) = ζ₁₅².
+  Corrected projector traces: ±1 sectors see the SYMMETRIZED seam (C+C′)/2, ±i the
+  ANTISYMMETRIZED (C−C′)/2. STRUCTURAL PAYOFF: C′ = σ₁₇(C) — exchange acts by a GALOIS element
+  that flips √5 and √−3 but FIXES √−15: the seam's physical channel is exchange-symmetric.
+  Extends the "symmetries ARE Galois" law (P61/B380; B369 rotation = √5-Galois; now exchange = σ₁₇).
+- **B428 — the two upstairs spin walls, three-seat cross-validated.** (1) E₆ level 1 = the ℤ/3
+  Eisenstein anyon theory: primaries h = {0, 2/3, 2/3}, twist ω — NO θ=−1, zero fermions
+  (Chat-2 prereg confirmed; standard prior art flagged). (2) The principal sl2 (the only forced
+  embedding) makes 27 = [17,9,1] and 78 all integer-spin — the canonical E₆↔Lorentz bridge is
+  bosonic-only (two independent routes agree with S049). Spacetime chain disposition aligned
+  across seats: holonomy=Spin(3,1)/mass-shell real but fails the CONTROL bar-leg (generic to
+  hyperbolic geometry); O1 stays OPEN. REGISTERED NEXT INTERFACE TARGET (Phase I.2): the actual
+  relationship between the E₆ rep and ρ_geo on the one π₁ — is the bosonic verdict rigid along
+  B347's 6-dim unobstructed moduli? Read off, not assumed.
+- Chat-1's §2/§7 self-kills accepted (E₇/E₈ dimension coincidences, "96=3 generations", the 67,
+  Par=P=θ conflation, F₄→G₂-as-involution). Chat-2's meta: context drift caught by the multi-seat
+  protocol (retracted stale campaign) — the B398 pattern is load-bearing.
+- Locks: test_b426 (5), test_b427 (3), test_b428 (2) — 10/10 green; atlas 408; gates green.

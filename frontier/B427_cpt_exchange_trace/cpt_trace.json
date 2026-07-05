@@ -1,0 +1,27 @@
+{
+ "multiplicities": {
+  "plus1": 57,
+  "minus1": 56,
+  "plus_i": 56,
+  "minus_i": 56,
+  "fixed": 1,
+  "four_cycles": 56
+ },
+ "C_slot": [
+  4
+ ],
+ "Cp_slot": [
+  8
+ ],
+ "C_equals_Cp": false,
+ "exchange_galois": [
+  17,
+  47
+ ],
+ "sigma17": {
+  "on_i": "fix",
+  "on_sqrt5": "flip",
+  "on_sqrtm3": "flip",
+  "on_sqrtm15": "fix"
+ }
+}
