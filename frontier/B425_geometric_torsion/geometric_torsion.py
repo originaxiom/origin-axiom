@@ -18,7 +18,8 @@ Two computations, both exact:
 VERDICT: sqrt(-3) is PRESENT in the Fox matrix at every exponent (trace complex) yet CANCELS
 in every determinant (torsion rational). The canonical adjoint torsion is -3 (= disc Q(sqrt-3),
 Eisenstein) -- reproducing the banked V30 (normal torsion) / V31 (Porti-form) figure-eight
-value by a third independent method -- vs B423's dynamical adjoint -5 (= disc Q(sqrt5), golden).
+value by a third independent method -- vs B423's dynamical adjoint zeta value -5 (the dynamical
+  zeta zeta_1 = 2 - L_4 = -5; note this is the TORSION VALUE, NOT disc Q(sqrt5) which is +5).
 The object carries TWO torsions: dynamical (golden, monodromy) and geometric (Eisenstein,
 holonomy) = the two double-uniqueness cornerstone sides, meeting at sqrt(-15)=sqrt5*sqrt(-3).
 """
@@ -345,7 +346,7 @@ if __name__=="__main__":
           all(galois.values()), " per-exponent:", galois)
     print("clean-reconstruction torsion coeffs integer (m in 1,4,5,7,8):", all_integer)
     print(f"\nadjoint GEOMETRIC torsion (rho_geo)  = {adj}   [disc Q(sqrt-3) = -3, Eisenstein]")
-    print(f"adjoint DYNAMICAL zeta   (B423)      = {dyn_zeta(1)}   [disc Q(sqrt5)  = -5, golden]")
+    print(f"adjoint DYNAMICAL zeta   (B423)      = {dyn_zeta(1)}   [dynamical zeta value -5; disc Q(sqrt5) = +5, golden]")
     print("\nEisenstein present in Fox matrix (trace Im != 0) at every exponent:")
     for m in E6:
         e=eis[m]; print(f"  m={m:>2}: relerr(120dig)={e['relerr']:>10}  trace_im={e['trace_im']:>12}  present={e['eisenstein_present']}")
