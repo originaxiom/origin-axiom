@@ -2,9 +2,32 @@
 
 Status: public-safe validation router. This file adds no claims.
 
-## Purpose
+## Current scrutiny package (2026-07-05 — start here)
 
-The repository has two reviewable mathematical packets:
+The program's honest scrutiny package is ranked in **`docs/CLOSURE_2026-07-05.md` §5**. For an
+external specialist, the recommended offer, strongest first:
+
+```text
+1. The character-variety = elliptic curve 40a1  (E9, tests/test_b211_metallic_faces.py)
+   — pure arithmetic, independent #X(F_p) and a_p cross-checks, novelty DISCLAIMED.
+   Offer the LOCK, not the surrounding "four faces" narrative (Cantat 2009 unified three).
+2. The SL(4) figure-eight A-polynomial  L = -M^4  (P25/P37, tests/test_b89_sl4_symbolic_M4L.py)
+   — the one genuinely-novel low-dim-topology kernel (n<=3 known). OFFER AS A SINGLE SL(4)
+   INSTANCE, NOT A FAMILY: the "tower L=(-1)^{n-1}M^n for all n" is a two-point (n=3,4) dataset.
+3. The two E6 torsions            (papers/P2_trinity/PAPER.md, tests/test_b425)
+   — clean packaging of individually-STANDARD invariants; Paper 2 not yet independently validated.
+4. The WRT field-content laws      (P40/P44, tests/test_b204) — KNOWN; a verifiable-correct anchor.
+5. The E6 character variety / L50 CRUX — an OPEN PROBLEM for a specialist, NEVER a claim.
+```
+
+The two terminal write-ups are `papers/P1_value_theory/PAPER.md` (the Q(sqrt-15) value theory)
+and `papers/P2_trinity/PAPER.md` (the trinity). The single gate to submission is a **human
+specialist's novelty read** — every APPEARS-NOVEL verdict is an AI-literature-search
+absence-of-match, not specialist-confirmed.
+
+## Purpose (historical packets)
+
+The earlier reviewable packets (retained for the record; superseded by the package above):
 
 ```text
 PC02: conditional uniqueness of the core
