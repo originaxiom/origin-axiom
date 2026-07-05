@@ -8731,6 +8731,21 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B430": {
+   "slug": "sl2 landscape",
+   "motifs": [
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B428",
+    "B429"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
