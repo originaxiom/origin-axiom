@@ -8686,6 +8686,7 @@
     "firewall"
    ],
    "refs": [
+    "B299",
     "B347",
     "B426",
     "P6",
@@ -8827,6 +8828,24 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B435": {
+   "slug": "child founding",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B432",
+    "B434"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B43": {
    "slug": "markov fricke arithmetic route",
