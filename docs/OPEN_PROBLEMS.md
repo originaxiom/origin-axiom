@@ -4,6 +4,14 @@
 > can pick each gate up cold. Governed by `GOVERNANCE.md` (firewall: physics stays firewalled; nothing here promotes to
 > `CLAIMS.md`). Written 2026-07-01, after the recontextualization audit + masterplan
 > (`RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md`) and the B315–B321 arc.
+>
+> **Freshness note (2026-07-05):** the four gates (A/S032-A in-sandbox; B/CRUX `T[4₁;E₆]`, C/multiplicity,
+> D/non-Hermitian DG — specialist) still stand as written. For the *live* frontier since this was written — the
+> value-boundary campaign (B326–B408), THE DESTINATION ATLAS (TW1–TW7, no bar cleared), and the running
+> **CHILD PROGRAM** (B435–B440, C0–C3: the three-tiered Inversion Law, the child's SL(2) vacuum book) — read
+> `docs/CAMPAIGN_STATUS.md` (the live board), `docs/AUDIT_2026-07-05.md` (the latest audit + leads re-score), and
+> `docs/OPEN_LEADS.md`. Gate B's "Settled" facts below were extended by B347–B352 (the E₆ tangent = 6, the θ split);
+> the gate itself is unchanged.
 
 ## 0. The frame — and what a TOE would actually require
 
