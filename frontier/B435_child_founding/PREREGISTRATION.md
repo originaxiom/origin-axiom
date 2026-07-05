@@ -35,3 +35,28 @@ H₁(child) = ℤ/5 (golden prime returns in torsion); abelian E₆ vacua = 75 K
 founding.py); the S₃/outer refinement 17 recorded.
 
 Firewall absolute; nothing to CLAIMS; physics-shaped ≠ physics.
+
+## ADDENDUM (2026-07-05, before C3 runs) — adopted protocol upgrades + the Bridge Spec track
+
+**C3 protocol (Chat-2 adjudication, adopted):** (1) the −283 reproduce-gate BOTH-SIDED:
+engine must recover x⁴−x−1 on the known child AND resolve every family member and every
+control to the same depth — asymmetric coverage rows are COVERAGE-VOID, not "generic";
+(2) THREE registered outcomes: family≫control (inheritance; the break), both-correlated
+(a general surgery fact — its own bank, claimed by neither side), both-generic (Inversion
+Law 4th instance); (3) the Alexander-channel receipt runs in the opening block (trefoil's
+6th-roots transport vs parent's φ² — the demotion gets its control).
+**The Inversion Law's register:** a three-instance empirical NULL HYPOTHESIS, not a theorem.
+Break criterion (verbatim): a child invariant (a) figure-eight-specific, (b) not shared by
+slope-5 surgery on other knots, (c) traceable to the parent's distinctive arithmetic
+(√5/√−3), not to the integer 5 through cyclotomy.
+
+**THE BRIDGE SPEC track (owner-directed, parallel to C3–C6):** characterize the gap itself —
+physics' measured demands vs the object's supplies, each gap item a precise missing
+structure. Registered rows: the cubic rendezvous (3 generations need a degree-3 carrier
+[B298] ⟷ the scale-lever cubic ℚ(ζ₉)⁺ [B426]; controls: other cubics must fail); the
+log-cycle commensurability test (measured EW→GUT→Planck log-intervals vs the object's
+log-units, PSLQ WITH null ensembles); the baryon rows (η ≈ 6.1×10⁻¹⁰ = 1 in 1.6×10⁹;
+the ±5 mirror children carry the CP-seed SHAPE with EQUAL weights ⇒ the object alone
+predicts η = 0 — the wall lands where cosmology's own unsolved problem sits; registered
+hunt for any forced ~10⁻⁹ number, nulls attached; prediction on record: empty).
+Numerology-max protocol on all three: two-outcome, registered nulls, no salvage.
