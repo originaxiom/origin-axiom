@@ -73,3 +73,29 @@ and the first thing it forbids is the golden arithmetic — the same wall, read 
 
 **Provenance.** probe.py (exact cyclotomic, self-checking). Cross-refs: B427 (exchange = σ₁₇),
 B402 (seam stratification), P68 (Eisenstein gate), the Origin Axiom (frustrated cancellation).
+
+## W2 — the IMAGE (the E₆ coupling side; √5) — validated core + named residue
+
+The kernel/image hypothesis's *image* is the E₆ mixing rate ("how fast the allowed happens").
+Built the **27-dim minuscule module of 𝔢₆** from B351's exact data. Results:
+
+- **Validated:** the module is a genuine representation (simple Chevalley generators satisfy the
+  E₆ Serre relations + `[E_i,F_j]=δ_ij H_i`), and its **principal-sl2 branching is exactly
+  27 = V₁₇ ⊕ V₉ ⊕ V₁ = [17,9,1]** (spin 8, 4, 0), from the exact diagonal H-grading.
+- **The E₆-specific datum (structural):** F₄'s exponents are {1,5,7,11} — **no 4**; E₆'s are
+  {1,4,5,7,8,11} — **has 4**. So the m=4 (Sym⁸) block exists in 𝔢₆ but **not** f₄; the m=4
+  direction is the E₆/F₄ coset, **θ-odd** ((−1)^{4+1}=−1). **Impossible within F₄ (no Sym⁸) and
+  within SL(2) (no 27).** A Sym⁸ (spin-4) operator on the 27 couples **V₁₇↔V₉** by Clebsch–Gordan
+  (spin4 ⊂ spin8⊗spin4) — a nonzero-allowed reduced element. **The coupling exists and is E₆.**
+- **Residue (honest boundary):** the *exact numerical* mixing rate of the cocycle `h1_line(4)`
+  needs ρ₂₇ matched to B351's ε-cocycle **sign** convention (the all-+1 minuscule build gives the
+  right branching but ~12/120 root-bracket signs differ from B351's basis; branching unaffected).
+  Sign-matching + projecting the cocycle onto the Sym⁸ block yields the number — a bounded,
+  specialist-adjacent step, not the qualitative claim (confirmed). Reproducer `w2_image.py`.
+
+**Read across W1/W2 (the setup for W3).** The **kernel** (W1: seam dark locus, √−3, *symmetric*,
+on the level-15 Weil torus ℤ/20×ℤ/12) and the **image** (W2: the E₆ V₁₇↔V₉ coupling, √5, on the
+E₆-character-variety cusp torus) **both exist — but on different domains.** Whether they are two
+faces of *one* object (the kernel/image duality) is exactly **W3** (the ρ↔ρ_geo bridge, B428's
+open target). W1+W2 establish that the two faces are real and separately located; W3 asks if
+they connect, or if √−3/√5 is only the arithmetic of ℚ(√−15) with no dynamical map.
