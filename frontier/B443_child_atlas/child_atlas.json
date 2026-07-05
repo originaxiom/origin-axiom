@@ -1,0 +1,98 @@
+{
+ "floors": [
+  {
+   "wave": "C0",
+   "bud": "B435",
+   "floor": "homology / abelian E6 vacua",
+   "tier": "numerator-forced",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  },
+  {
+   "wave": "C1",
+   "bud": "B436",
+   "floor": "arithmetic identity (Borel, disc -283)",
+   "tier": "special-vs-generic; -283 shared with 5_2",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  },
+  {
+   "wave": "C2",
+   "bud": "B437",
+   "floor": "abelian torsion book (golden return retracted)",
+   "tier": "numerator-forced",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  },
+  {
+   "wave": "B438",
+   "bud": "B438",
+   "floor": "foreign control (5_2 shares -283 + 121)",
+   "tier": "3-tier Inversion Law",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  },
+  {
+   "wave": "C3",
+   "bud": "B439/B440",
+   "floor": "SL(2) vacuum book (4 vacua, -283, 4_1=5_2 count)",
+   "tier": "commensurability-shared",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  },
+  {
+   "wave": "C5",
+   "bud": "B441",
+   "floor": "WRT / quantum field content (surgery-forced)",
+   "tier": "Bin 3 (laundering)",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  },
+  {
+   "wave": "C4",
+   "bud": "B442",
+   "floor": "E6 lift (composites, -283-forced)",
+   "tier": "Bin 3 (laundering)",
+   "bar": {
+    "forced": true,
+    "unsought": true,
+    "exact_sm": false,
+    "control": true
+   }
+  }
+ ],
+ "verdict": {
+  "floors": 7,
+  "bars_cleared": 0,
+  "figure_eight_unique_features": 0,
+  "result": "BAR NOT CLEARED at any floor",
+  "hypothesis": "physics is what the object PRODUCES",
+  "hypothesis_status": "FALSIFIED at every computable floor",
+  "terminal": "surgery launders identity: the forced child inherits the parent's commensurability class and nothing finer; SM-free named mathematics",
+  "specialist_residue": "intrinsic-E6 torsion (C4 named boundary)"
+ }
+}

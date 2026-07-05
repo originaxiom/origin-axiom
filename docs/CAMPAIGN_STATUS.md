@@ -3,7 +3,10 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**Campaign:** THE CHILD PROGRAM (owner-approved 2026-07-05) — the banked chain σ → 4₁ (rigid
+**Campaign:** THE CHILD PROGRAM — **COMPLETE (2026-07-05, C0–C6, B435–B443).** Verdict: no
+emergence bar cleared; nothing figure-eight-unique at any floor; the hypothesis "physics is what
+the object produces" is falsified at every computable floor (the three-tier Inversion Law). See
+`frontier/B443_child_atlas/FINDINGS.md`. Original approval: — the banked chain σ → 4₁ (rigid
 parent) → forced filling ±5 (B434) → **the CHILD = the Meyerhoff manifold 4₁(5,1)**; study the
 child with the parent's full discipline and test *"the SM is what the object PRODUCES, not what
 it contains"* against the four-part emergence bar (forced · unsought · exact-SM · control). C0
