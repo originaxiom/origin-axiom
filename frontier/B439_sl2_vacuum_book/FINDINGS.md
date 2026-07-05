@@ -2,8 +2,9 @@
 
 **Status: banked (C3, slope-control-complete). The held verdict is now RESOLVED by [[B440]]:
 the 5₂ foreign control ran (closed-manifold character variety), 4₁'s quartic cross-validated
-independently, and the tier-3 verdict is NO figure-eight-unique feature (−283 field
-commensurability-shared; golden inversion). Firewalled.**
+independently, and the tier-3 verdict is NO figure-eight-unique feature — 4₁ and 5₂ both have 4
+irreducible vacua in the identical −283 field (B440 corrected by adversarial review: the golden
+factor is reducible/universal, not a "golden inversion"). Firewalled.**
 
 ## The child's SL(2,C) vacuum spectrum (exact)
 
