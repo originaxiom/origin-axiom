@@ -8808,6 +8808,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B434": {
+   "slug": "slope selection",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B225",
+    "B432"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
