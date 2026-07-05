@@ -216,3 +216,45 @@ no frame).
 tracked blind by the fairest possible method, the object self-generates no SM structure. It
 IS a complete, novel, coherent body of mathematics (golden/ℚ(√−15)-organized). The
 discipline held to the end — the negative is trustworthy precisely because nothing was hunted.
+
+# Review 8 — 2026-07-05 (merges #541–#557: the two torsions, the Origin Postulate, the interface campaign)
+
+anchor-commit: `1fa0ea49d219298d5b3ddbc0aa74c9b7b4ab4f30`
+
+**Scope.** The B425 two-torsion correction (dynamical zeta vs geometric torsion; Paper-2 hinge
+re-labelled honestly); the automorphic identification (the object = the weight-1 dihedral
+newform of ℚ(√−15)) + Iwasawa rigidity in BOTH towers (λ=μ=0 cyclotomic AND anticyclotomic);
+S049 (self-mirror = the chirality obstruction, computed); the LEAD_REGISTER (5-reader
+exhaustive re-score, 133 probes); the Origin Postulate (locked: D at the interface, four-part
+bar, explicit failure criterion); the handoff adjudications (B426–B431: scale-lever closed form
++ Galois-orbit contraction; exchange = σ₁₇ fixes √−15; upstairs spin walls; Bosonic Rigidity
+Theorem; sl2 landscape priced; seam spatial gating law); the interface campaign first arc
+(B432 chirality interface-sourced 31/31; B433 3d-3d dictionary calibrated at SL(2); B434 slope
+selection: forced input ±5 → the Meyerhoff manifold, disc −283).
+
+**Claims hygiene.** Zero physics promotions (correct). Every cross-chat claim verified before
+banking; three claimed results were corrected in the process (Chat-1's projector corollary —
+now the σ₁₇ exchange-Galois law; the "prime 67" artifact; two value-level readings of the
+spatial split) and two of our own overclaims fixed in place (B423's label; B432's first merge
+carried a broken JSON caught by its own lock; B433's first lock had a mistranscribed eliminant
+— both fixed same-session, on the record). One process deviation logged: the B433 lock fix
+landed via a direct conflict-resolution merge to main.
+
+**Verification depth.** The strongest pattern this decade: THEOREMS, not scans — the scale
+wall closed at Galois level (every invariant functional contracts); chirality walls closed by
+Whitehead rigidity; the fermion door priced exactly (exists, unforced, unreachable by
+deformation). The interface campaign's first arc delivered the complete chirality mechanism as
+mathematics: forced source + forced minimal input (slope 5, the maximal-exceptional boundary)
++ computed output (Meyerhoff, CS unit ±0.0770) — with the honest negative that the output
+exits ℚ(√−15) entirely (disc −283).
+
+**Debt.** e₃ still reconstructing (relaunched, 7 primes to go); the 1-loop⇄torsion calibration
+leg deferred (needs the exact Dimofte–Garoufalidis NZ formula); the metallic A-poly sampler
+fragile; T[4₁,E₆] assembly = L50 (specialist, priced); Papers 1–2 prose (F3/F4) pending.
+
+**Verdict.** The Origin Postulate reframed the program without loosening it: the walls became
+the search map, and the map is now three theorems sharper. The interface is where D lives;
+its first channel (chirality) is complete as mathematics and honestly negative on the SM leg.
+Discipline held under the highest pressure this program has seen (the owner's direct push for
+the physics goal): every brave claim was computed, every computation banked, every negative
+stated plainly.
