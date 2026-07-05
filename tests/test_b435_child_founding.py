@@ -20,3 +20,12 @@ def test_control_sibling_counts_differ():
     sols7 = F.kac_solutions(7)
     n7, f7 = F.orbits_mod_rotation(sols7)
     assert (len(sols7), n7) != (75, 25)  # control leg: the child's count is slope-specific
+
+
+def test_full_hom_count_including_trivial():
+    # correction: 75 gcd-1 solutions = order-5 classes (25); full Hom(Z/5,E6)/conj = 26
+    from math import gcd as _g
+    from itertools import product as _p
+    all_sols = [a for a in _p(range(6), repeat=7)
+                if sum(x*m for x, m in zip(a, F.MARKS)) == 5]
+    assert len(all_sols) == 78                              # 75 + 3 identity vectors
