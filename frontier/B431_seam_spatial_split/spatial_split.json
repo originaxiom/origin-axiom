@@ -1,0 +1,28 @@
+{
+ "n_scells": 44,
+ "active": 120,
+ "dark": 120,
+ "y0mod3_dark": true,
+ "x0mod10_dark": true,
+ "crt_counts": [
+  4,
+  4,
+  14,
+  14,
+  14,
+  14,
+  14,
+  14,
+  14,
+  14
+ ],
+ "parity_preserved": true,
+ "parity_values_equal": false,
+ "fixed_points": 0,
+ "n_orbits": 34,
+ "orbit_sizes": {
+  "2": 24,
+  "4": 2,
+  "8": 8
+ }
+}

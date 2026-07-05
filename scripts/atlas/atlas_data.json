@@ -8746,6 +8746,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B431": {
+   "slug": "seam spatial split",
+   "motifs": [
+    "eisenstein",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B367",
+    "B427"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
