@@ -16,6 +16,18 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
 - Nothing in the background (e₃ sentinel reconstruction still detached; independent).
 
 ## LAST BANKED
+- **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
+  B426: Chat-2's scale-lever closed form VERIFIED exact — env₄₅/env₁₅ = (3α²+4α−1)/10 ∈ ℚ(ζ₉)⁺,
+  √5-free (forced by CRT locality) — PLUS the new Galois-orbit contraction theorem: the three
+  embeddings are Galois conjugates; every invariant functional < 1 (mean 1/2, RMS √51/10, geo-mean
+  (19/1000)^⅓); the B408 "1.217" artifact is now a theorem-level closure of the scale wall.
+  B427: Chat-1's seam-as-twisted-exchange-trace identity TRUE ({57,56,56,56} verified); its
+  projector corollary CORRECTED (C′=σ₁₇(C)≠C) — and the correction is a law: EXCHANGE ACTS BY THE
+  GALOIS ELEMENT σ₁₇, which FIXES √−15 (the physical seam channel is exchange-symmetric).
+  B428: the two upstairs spin walls, three seats agreeing — E₆ level 1 = ℤ/3 Eisenstein anyons
+  (no fermion); the principal sl2 makes the 27 = [17,9,1] bosonic-only. O1 stays OPEN.
+  NEXT INTERFACE TARGET (Phase I.2, registered): is the bosonic verdict rigid along B347's 6-dim
+  E₆ moduli of the one π₁? — read the ρ↔ρ_geo coupling off the character variety, don't assume it.
 - **B425 — the object has TWO E₆ torsions = the two cornerstone sides (a correction that TIGHTENS the papers).** A cross-chat catch was RIGHT: B423's golden "E₆ torsion" is the **dynamical zeta** of the *monodromy* A (golden by construction, adjoint −5), NOT the geometric torsion its prereg claimed. The **geometric** Reidemeister torsion at the holonomy ρ_geo (u=ω forced) is **Eisenstein**: coeffs rational (√−3 cancels, Galois-invariant at all six E₆ exponents), canonical adjoint **−3 = disc ℚ(√−3)** — reproducing the banked V30 (normal torsion) / V31 (Porti form) by a third method (Fox/Wada). The √−3 IS present in the Fox matrix (trace complex everywhere) but cancels in every determinant. Two torsions (golden −5, Eisenstein −3) = the two double-uniqueness sides, √5·√−3=√−15. Emergence bar STILL not cleared (Eisenstein arithmetic, not SM); the "√−3 door" opens onto the object's second cornerstone field, not physics. Corrected B423 label, knowledge doc, Paper 2 (Thm 4→4a/4b). Guard banked: the raw Fox eigenvalue-product (−25−13ω, "prime 67") is NOT an invariant (rational for ∂r/∂a, t-dependent). Locks: test_b425 (10/10). [PR pending]
 - **THE DESTINATION ATLAS COMPLETE (TW1–TW7):** all six behaviors tracked blind; every destination is named pure math (Gauss-sum Haar / golden-Anosov / Sturmian / rich-ζ₆₀-cells / volume-conjecture / genus-L); **NO bar cleared — the SM does not emerge unbidden.** Terminal statement: the object self-generates no SM structure (no scale B413, no frame B414); any SM link needs external input. Paper 2 = the atlas; Paper 1 = the value theory.
 - **TW2 (B416): the dynamics' destination = golden-Anosov flow** (Lyapunov 4logφ, conserved κ, modular symmetry) — named math, bar NOT cleared; generic to the metallic family (not even fig-8-specific). Atlas #2.
