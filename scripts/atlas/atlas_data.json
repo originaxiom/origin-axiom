@@ -8912,6 +8912,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B439": {
+   "slug": "sl2 vacuum book",
+   "motifs": [
+    "figure_eight",
+    "torsion",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B434",
+    "B435",
+    "B436",
+    "B438",
+    "B67"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],

@@ -1,0 +1,34 @@
+{
+ "slope5_trace_poly": "t**5 - t**4 - 5*t**3 + 5*t**2 + 5*t - 2",
+ "slope5_factors": [
+  [
+   "t + 2",
+   1,
+   null
+  ],
+  [
+   "t**4 - 3*t**3 + t**2 + 3*t - 1",
+   4,
+   -283
+  ]
+ ],
+ "slope7_trace_poly": "t**7 - 7*t**5 - t**4 + 14*t**3 + 5*t**2 - 7*t - 2",
+ "slope7_factors": [
+  [
+   "t + 2",
+   1,
+   null
+  ],
+  [
+   "t**6 - 2*t**5 - 3*t**4 + 5*t**3 + 4*t**2 - 3*t - 1",
+   6,
+   50173
+  ]
+ ],
+ "child_irreducible_vacua": 4,
+ "child_vacuum_disc": -283,
+ "slope7_irreducible_vacua": 6,
+ "slope7_disc": 50173,
+ "reproduce_gate_passed": true,
+ "foreign_control": "PENDING (5_2 tier-3, per B438) -- Inversion-Law verdict HELD"
+}

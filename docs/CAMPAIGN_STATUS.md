@@ -7,8 +7,9 @@ this is the owner's one-glance view of what the machine is doing.*
 parent) → forced filling ±5 (B434) → **the CHILD = the Meyerhoff manifold 4₁(5,1)**; study the
 child with the parent's full discipline and test *"the SM is what the object PRODUCES, not what
 it contains"* against the four-part emergence bar (forced · unsought · exact-SM · control). C0
-(B435) · C1 (B436) · C2 (B437) · **C3 the SL(2) vacuum book (next)** · C4 E₆ lift · C5 WRT ·
-C6 the Child Atlas + verdict. Predecessor DESTINATION ATLAS complete (TW1–TW7, no bar cleared).
+(B435) · C1 (B436) · C2 (B437) · **C3 (B439 core banked; 5₂ foreign control next)** · C4 E₆
+lift · C5 WRT · C6 the Child Atlas + verdict. Predecessor DESTINATION ATLAS complete (TW1–TW7,
+no bar cleared).
 Autonomous; owner signs off only at a bar-clearing emergence. Map: `docs/ROADMAP.md` ·
 audit: `docs/AUDIT_2026-07-05.md`.
 
@@ -22,6 +23,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
   answer (guard-stamped 2026-07-05).
 
 ## LAST BANKED
+- **B439 — C3: the child's SL(2,C) vacuum book (figure-eight core + slope control).** The child's
+  irreducible SL(2,C) vacua = the Cooper–Long A-polynomial on `L=M⁻⁵`, in the meridian trace:
+  Q₅(t) = (t+2)·(**t⁴−3t³+t²+3t−1**) — 1 reducible + **4 irreducible vacua**, and the quartic is
+  the child's **own trace field** (disc −283; explicit root α³−α², α a root of x⁴−x−1 — the −283
+  reproduce-gate PASSES rigorously). Slope-7 control: 6 vacua, disc 50173=131·383 — different
+  count AND field (control passes). **Verdict HELD:** per the C3 prereg the Inversion-Law reading
+  needs the 5₂ FOREIGN control (B438's tier-3 bar — 5₂ shares the −283 field, so the sharp
+  question is whether the vacuum *structure* is shared too). Next step registered: 5₂(5,1)'s
+  spectrum via the closed-manifold character variety (gluing-elimination reproduced 4₁/6₁ but
+  degenerated on 5₂'s default triangulation). Lock test_b439 (4/4).
 - **B438 — the missing FOREIGN control: nothing about the child is figure-eight-UNIQUE (the
   July-5 audit's decisive finding).** B436 had shipped with only the SLOPE control and skipped
   its pre-registered foreign control; run now: **5₂(5,1) also gives x⁴−x−1 (disc −283) AND the
