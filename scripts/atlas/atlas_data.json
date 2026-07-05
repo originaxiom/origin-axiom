@@ -8696,6 +8696,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B429": {
+   "slug": "bosonic rigidity",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "amphichiral_cp",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "B370",
+    "B425",
+    "B428",
+    "S049"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B42": {
    "slug": "variational selector controls",
    "motifs": [

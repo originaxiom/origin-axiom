@@ -1,0 +1,49 @@
+{
+ "block_dims": [
+  3,
+  9,
+  11,
+  15,
+  17,
+  23
+ ],
+ "whitehead": {
+  "1": {
+   "n": 2,
+   "cocycle_dim": 3,
+   "coboundary_dim": 3,
+   "h1_zero": true
+  },
+  "4": {
+   "n": 8,
+   "cocycle_dim": 9,
+   "coboundary_dim": 9,
+   "h1_zero": true
+  },
+  "5": {
+   "n": 10,
+   "cocycle_dim": 11,
+   "coboundary_dim": 11,
+   "h1_zero": true
+  },
+  "7": {
+   "n": 14,
+   "cocycle_dim": 15,
+   "coboundary_dim": 15,
+   "h1_zero": true
+  },
+  "8": {
+   "n": 16,
+   "cocycle_dim": 17,
+   "coboundary_dim": 17,
+   "h1_zero": true
+  },
+  "11": {
+   "n": 22,
+   "cocycle_dim": 23,
+   "coboundary_dim": 23,
+   "h1_zero": true
+  }
+ },
+ "all_h1_zero": true
+}
