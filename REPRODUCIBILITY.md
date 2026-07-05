@@ -3,6 +3,17 @@
 Every `proven` claim in `CLAIMS.md` must be reproducible from this repository by a third
 party. This file is the entry point. Governed by `GOVERNANCE.md` §9.
 
+> **CI-scope disclosure (honest, 2026-07-05).** There is **no full continuous integration**. The
+> `.github/workflows/core.yml` runner is deliberately untracked (the repo's `tracked-forbidden`
+> gate forbids committing under `.github/`), and even when run it exercises **only the ~16
+> proven-core tests** (P1–P16 + a few conditionals; `sympy`/`numpy` only). The other ~1500 test
+> functions — including essentially all the headline frontier results (the SL(n) tower, the E₆
+> work, the `40a1` character-variety lock, WRT, the seam value theory) — are **locally locked,
+> not CI-covered**, and several need SnapPy/Sage. A handful of locks freeze recorded Sage/SnapPy
+> constants (regression guards) rather than recompute from scratch. None of this is hidden — it
+> is stated here so an outside reviewer knows exactly what "green suite" does and does not cover.
+> See `docs/CLOSURE_2026-07-05.md` §5–6.
+
 ---
 
 ## Environment
