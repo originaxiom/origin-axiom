@@ -6,7 +6,7 @@
 
 ## 0. In one sentence
 
-A *tiny* set of objects resolves the *majority* of the ~330 frontier probes — the trace-map words, the metallic tower,
+A *tiny* set of objects resolves the *majority* of the ~420 frontier probes — the trace-map words, the metallic tower,
 the figure-eight, the two arithmetic ends, and the one conserved trace `κ`. The **Recurrence Atlas** mines that fact into
 a queryable graph so we can (i) **re-orient fast**, (ii) **re-use** what has historically resolved an obstacle, and
 (iii) tell **genuine unity** (a conserved quantity that *must* recur) apart from **the hammer** (our method, which recurs

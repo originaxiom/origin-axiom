@@ -8,6 +8,8 @@ credibility model (GOVERNANCE §1/§9); this map says what to read for the curre
 | file | role |
 |---|---|
 | `README.md` | the front door: what this is, phase status, honest framing |
+| `docs/CAMPAIGN_STATUS.md` | **the live board** — the running campaign, what's computing now, last banked |
+| `philosophy/THE_ORIGIN_POSTULATE.md` | the north star for the current campaign (D at the interface) |
 | `GOVERNANCE.md` | the constitution: labels, gates, firewall, automated gates (§11) |
 | `CLAIMS.md` | **the ledger** — proven P1–P55 · conditional C1–C12 · certified data E1–E15 · open · dead |
 | `docs/OPEN_LEADS.md` · `docs/OPEN_PROBLEMS.md` | the live frontier: leads, waves, the four gates |
@@ -22,7 +24,7 @@ credibility model (GOVERNANCE §1/§9); this map says what to read for the curre
 | `docs/UNIQUENESS_THEOREM.md` · `docs/TRACE_SELECTOR_THEOREM.md` | formalized evidence for C1 / C5 |
 | `docs/ARCHIVE.md` | the dead-ideas register (why each died — permanent) |
 | `docs/HINT_LEDGER.md` · `docs/NOVELTY_AUDIT.md` | the staged-rigor registers (METHOD.md governs) |
-| `docs/RECURRENCE_ATLAS.md` + `scripts/atlas/` | the re-runnable probe atlas (351 probes) |
+| `docs/RECURRENCE_ATLAS.md` + `scripts/atlas/` | the re-runnable probe atlas (420 probes) |
 | `docs/TOOLBOX.md` | **the reuse index** — engines, lemmas, design patterns, by applies-when |
 | `METHOD.md` · `ARCHITECTURE.md` · `PROVENANCE.md` · `REPRODUCIBILITY.md` | protocol, rooms, lineage, repro |
 | `frontier/B*/FINDINGS.md` | the probe corpus — every result, refutation, and tombstone, each with locks |
