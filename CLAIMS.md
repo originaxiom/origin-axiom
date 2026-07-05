@@ -10,7 +10,7 @@ by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–
 the session-3 integration; P15–P16 in the session-3 *synthesis* (P14 is intentionally unused).
 
 **Last updated:** 2026-07-04 (+P68 the root-of-unity law with character-gated orders; +P67 brightness is local — predictive out-of-sample; +P66 the CRT-local closed form of the 1/12; +P63 the predictive existence law — acceptance duel 3/3; +P64 the shifted trace formula and the 1/16 + 1/48 origin of the 1/12; +P65 the row-16 reality theorem; earlier 2026-07-03: the §5.1 promotion audit +39 `proven` P17–P55, +7 `conditional` C6–C12, +15 certified-data E1–E15 — scrutiny record in `PROGRESS_LOG.md`; the original core P1–P16 unchanged) · the proven core P1–P16 is **unchanged through all frontier work to
-date (B1–B352)** — **B69–B352 produced zero promotions** to this ledger (the SL(n) trace-map tower,
+date (B1–B440)** — **B69–B440 produced zero promotions** to this ledger (the SL(n) trace-map tower,
 the chirality / class-S / firewall arc, the object-mapping arc — the four faces, the elliptic
 curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — and the
 structural-theorem arc B231–B314, the two-ended object / the cascade / Face IV / *the firewall as a
