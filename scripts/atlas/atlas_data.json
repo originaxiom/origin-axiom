@@ -8763,6 +8763,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B432": {
+   "slug": "filling chirality",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B225",
+    "B428",
+    "B429",
+    "B430",
+    "S049"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
