@@ -1,7 +1,9 @@
 # B439 — C3: the child's SL(2,C) vacuum book (the figure-eight core + slope control; foreign control next)
 
-**Status: banked (C3, slope-control-complete). The Inversion-Law verdict at the SL(2) floor is
-HELD pending the 5₂ foreign control (the tier-3 discriminator, per B438). Firewalled.**
+**Status: banked (C3, slope-control-complete). The held verdict is now RESOLVED by [[B440]]:
+the 5₂ foreign control ran (closed-manifold character variety), 4₁'s quartic cross-validated
+independently, and the tier-3 verdict is NO figure-eight-unique feature (−283 field
+commensurability-shared; golden inversion). Firewalled.**
 
 ## The child's SL(2,C) vacuum spectrum (exact)
 

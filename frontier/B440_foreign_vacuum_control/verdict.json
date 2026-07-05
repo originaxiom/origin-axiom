@@ -1,0 +1,12 @@
+{
+ "counts": {
+  "4_1(5,1)": 4,
+  "5_2(5,1)": 6,
+  "6_1(5,1)": 11,
+  "3_1(5,1)": 5
+ },
+ "child_matches_b439": true,
+ "neg283_field_shared": true,
+ "golden_only_in_foreign": true,
+ "tier3": "NO figure-eight-unique feature; -283 field commensurability-shared; count is genericity; golden inversion (golden parent's child is golden-free, foreign 5_2's child carries golden) => Inversion Law 4th instance at the SL(2) floor"
+}

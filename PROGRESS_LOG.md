@@ -1526,3 +1526,16 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   (B438's tier-3 bar). A-poly gluing-elimination reproduced 4₁ (Cooper–Long) and 6₁ but
   degenerated on snappy's default 5₂/3₁ triangulations → foreign control will use the
   closed-manifold character variety directly. Lock test_b439 (4/4).
+
+- **B440 (C3 foreign control COMPLETE) — no figure-eight-unique feature at the SL(2) floor.**
+  The SL(2,C) vacuum spectra of the closed manifolds K(5,1), computed convention-free from π₁
+  (2-generator groups, both relators = I, eliminated to the meridian trace): 4₁ [child] = 4
+  vacua all in the −283 field (character-variety quartic x⁴−3x³+x²+3x−1 = B439's Cooper–Long
+  A-poly quartic EXACTLY — two independent methods agree); 5₂ [neighbour] = 6 vacua = 2 in
+  ℚ(√5) + 4 in the SAME −283 field (mutual-containment field iso); 3₁ = 5 (disc 11⁴); 6₁ = 11.
+  Tier-3 verdict: the −283 field is commensurability-shared (as B438 predicted); the count is
+  A-poly-degree genericity; the GOLDEN INVERSION — the ℚ(√5) vacua the golden parent (Δ₄₁
+  golden) might transmit are ABSENT in the child, PRESENT in the non-golden 5₂'s child. Surgery
+  launders identity; the Inversion Law's 4th instance, at the SL(2) floor, tested against the
+  commensurability neighbour — the sharpest. C3 complete; C5 (WRT) is the next knot-dependent
+  channel. Lock test_b440 (4/4).
