@@ -5,8 +5,13 @@ F_{U±} = sum_n [n]^2 t_n^{±1},  [n]=sin(n pi/r)/sin(pi/r),  t_n = exp(i pi (n^
 RT framing twist, conformal weight h_n=(n^2-1)/(4r)),  q = exp(2 pi i/r).
 
 TWO validations baked in (see validate()): (1) tau_r(S^3)=1 via +1 surgery on the unknot;
-(2) amphichirality tau_r(4_1(5,1)) = conj tau_r(4_1(-5,1)) (4_1 is amphichiral). Both caught
-real bugs during the build (the colored-Jones convention; a factor-of-2 in the twist).
+(2) amphichirality tau_r(4_1(5,1)) = conj tau_r(4_1(-5,1)) (4_1 is amphichiral). NOTE (review
+2026-07-05): validation (1) is STRUCTURALLY TAUTOLOGICAL -- with cj_unknot==1 and p=1, F_L is
+literally F_{U+}, so tau==1 by construction; it does NOT independently test the formula. The
+real validation weight is on amphichirality (a genuine non-trivial check) plus the Kashaev match
+(cj_fig8 at q=zeta_N reproduces <4_1>_N = 46+2 sqrt5). THOSE caught the build bugs (the
+colored-Jones convention; a factor-of-2 in the twist that made the r=5 Gauss sum vanish); the
+S^3 check did not, and should not be cited as having done so.
 
 Firewall: quantum topology arithmetic. No physics claim. The 'field content' this computes is
 a cyclotomic-field question about a knot invariant, not a physical amplitude.
