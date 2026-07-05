@@ -1554,3 +1554,15 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   −283 field-sharing all stand. verify.py + lock + FINDINGS + board corrected; the raw
   charvar.json (the tr(A)-elimination) is unchanged (only its reading was wrong). The review
   worked exactly as designed — caught a real banked error before C4 built on it.
+
+- **B441 (C5) — the child's WRT/quantum invariant: field content is surgery-forced (Bin 3).**
+  WRT via the Kirby surgery formula on the parent's colored Jones; tool validated (τ(S³)=1,
+  amphichirality — caught 2 build bugs before any result). Field content by the Galois-twist
+  stabilizer, with the forced-vs-residual split: **Field(τ_r(4₁(5,1))) = Field(τ_r(L(5,1)))**
+  (the same Galois subgroup) at every r tested (7,9,11,13,15,21); the residual is trivial. At
+  r=15 the field is degree-8 with √5/√−3/√−15 — but all FORCED (present in L(5,1) and
+  trefoil(5,1)), none figure-eight-specific. Knot-dependence is in the VALUE only (a distinct
+  element of the same forced field). Verdict Bin 3: the Inversion Law holds at the WRT floor,
+  the physics-touching channel. Recorded-not-built-on: at the unforced slope 7 the child
+  sometimes adds field content beyond its skeleton (r=5,15) — 2 points, a lead, artifact-suspect.
+  Lock test_b441 (4/4).

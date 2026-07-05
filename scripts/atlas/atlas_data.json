@@ -8971,6 +8971,33 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B441": {
+   "slug": "child wrt",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B208",
+    "B214",
+    "B384",
+    "B419",
+    "B434",
+    "B437",
+    "B438",
+    "B440"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B44": {
    "slug": "topological torsion route",
    "motifs": [
