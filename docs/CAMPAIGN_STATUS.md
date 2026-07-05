@@ -8,8 +8,8 @@ parent) → forced filling ±5 (B434) → **the CHILD = the Meyerhoff manifold 4
 child with the parent's full discipline and test *"the SM is what the object PRODUCES, not what
 it contains"* against the four-part emergence bar (forced · unsought · exact-SM · control). C0
 (B435) · C1 (B436) · C2 (B437) · **C3 (B439 core banked; 5₂ foreign control next)** · C4 E₆
-lift · C5 WRT · C6 the Child Atlas + verdict. Predecessor DESTINATION ATLAS complete (TW1–TW7,
-no bar cleared).
+lift · C5 WRT (next knot-dependent channel) · C6 the Child Atlas + verdict. Predecessor
+DESTINATION ATLAS complete (TW1–TW7, no bar cleared).
 Autonomous; owner signs off only at a bar-clearing emergence. Map: `docs/ROADMAP.md` ·
 audit: `docs/AUDIT_2026-07-05.md`.
 
@@ -23,6 +23,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
   answer (guard-stamped 2026-07-05).
 
 ## LAST BANKED
+- **B440 — C3 foreign control COMPLETE: no figure-eight-unique feature at the SL(2) floor.** The
+  SL(2,C) vacuum spectra of K(5,1), convention-free from π₁: **4₁ [child] = 4 vacua all in the
+  −283 field** (character-variety quartic x⁴−3x³+x²+3x−1 = B439's A-poly quartic exactly — two
+  independent methods agree); **5₂ [neighbour] = 6 vacua = 2 in ℚ(√5) + 4 in the SAME −283
+  field**; 3₁ = 5 (disc 11⁴); 6₁ = 11. Verdict: the −283 field is commensurability-shared; the
+  count is A-poly-degree genericity; and — the striking part — the golden ℚ(√5) vacua the
+  *golden* parent might transmit are **absent in the child, present in the non-golden 5₂'s
+  child** (golden inversion). Inversion Law's 4th instance, at the SL(2) floor, tested against
+  the commensurability neighbour — the sharpest yet. Lock test_b440 (4/4).
 - **B439 — C3: the child's SL(2,C) vacuum book (figure-eight core + slope control).** The child's
   irreducible SL(2,C) vacua = the Cooper–Long A-polynomial on `L=M⁻⁵`, in the meridian trace:
   Q₅(t) = (t+2)·(**t⁴−3t³+t²+3t−1**) — 1 reducible + **4 irreducible vacua**, and the quartic is

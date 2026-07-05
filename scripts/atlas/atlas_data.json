@@ -8916,6 +8916,7 @@
    "slug": "sl2 vacuum book",
    "motifs": [
     "figure_eight",
+    "golden",
     "torsion",
     "apolynomial",
     "firewall"
@@ -8925,6 +8926,7 @@
     "B435",
     "B436",
     "B438",
+    "B440",
     "B67"
    ],
    "obstacle": null,
@@ -8942,6 +8944,31 @@
    "obstacle_conf": 0,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B440": {
+   "slug": "foreign vacuum control",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B434",
+    "B436",
+    "B437",
+    "B438",
+    "B439"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
   },
   "B44": {
    "slug": "topological torsion route",
