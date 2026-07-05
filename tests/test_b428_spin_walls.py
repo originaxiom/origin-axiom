@@ -23,3 +23,14 @@ def test_27_under_principal_sl2_is_all_integer_spin():
     assert dims == [17, 9, 1]                             # Sym^16 + Sym^8 + Sym^0
     assert all(d % 2 == 1 for d in dims)                  # all odd-dim = integer spin = bosonic
     assert sum(dims) == 27
+
+
+def test_involution_cascade():
+    # E6 ->(theta) F4 ->(Cayley) SO(9): the full chain's dimension identities
+    assert 52 + 26 == 78          # E6 adj = F4 adj + the 26
+    assert 36 + 16 == 52          # F4 = so(9) + spinor16  (symmetric pair FII)
+    assert 1 + 9 + 16 == 26       # the 26 under SO(9)
+    assert 36 + 16 + 16 + 9 + 1 == 78
+    assert 36 + 9 == 45 == 10*9//2   # adj SO(10) reconciliation
+    # the kill: F4's symmetric pairs are so(9) [coset 16] and sp(3)+su(2) [coset 28]; G2 is not one
+    assert (21 + 3) + 28 == 52 and 52 - 14 == 38 and 38 not in (16, 28)
