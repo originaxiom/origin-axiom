@@ -8,6 +8,7 @@ credibility model (GOVERNANCE §1/§9); this map says what to read for the curre
 | file | role |
 |---|---|
 | `README.md` | the front door: what this is, phase status, honest framing |
+| `docs/CLOSURE_2026-07-05.md` | **the close** — what this is, what it found, the scrutiny package + weakest points |
 | `docs/CAMPAIGN_STATUS.md` | **the live board** — the running campaign, what's computing now, last banked |
 | `philosophy/THE_ORIGIN_POSTULATE.md` | the north star for the current campaign (D at the interface) |
 | `GOVERNANCE.md` | the constitution: labels, gates, firewall, automated gates (§11) |
