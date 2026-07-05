@@ -9025,6 +9025,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B443": {
+   "slug": "child atlas",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B434",
+    "B435",
+    "B436",
+    "B437",
+    "B438",
+    "B439",
+    "B440",
+    "B441",
+    "B442"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B44": {
    "slug": "topological torsion route",
    "motifs": [

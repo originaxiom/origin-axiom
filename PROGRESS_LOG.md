@@ -1576,3 +1576,15 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   commensurability-shared, not fig-8-specific — Bin 3, inheriting C3. The intrinsically-E₆
   residue (non-composite vacua) is NAMED as the specialist boundary (the closed-manifold E₆
   torsion engine), per the plan. Lock test_b442 (3/3).
+
+- **B443 (C6) — THE CHILD ATLAS: the campaign synthesis + verdict. THE CHILD PROGRAM COMPLETE.**
+  Assembles C0–C5 (B435–B442) and runs the four-part emergence bar over all 7 floors: at every
+  floor forced ✓ / unsought ✓ / control ✓ but exact-SM ✗ (named mathematics, not SM structure).
+  **No bar cleared; 0 figure-eight-unique features.** The three-tier Inversion Law holds at every
+  floor (numerator-forced / commensurability-shared / unique=∅). The hypothesis "physics is what
+  the object PRODUCES" is FALSIFIED at every computable floor — surgery launders identity, the
+  forced child inherits the parent's commensurability class and nothing finer. Terminal statement
+  (Paper-3 seed): a self-generating arithmetic object whose forced child (Meyerhoff, x⁴−x−1, disc
+  −283) is SM-free named mathematics. The one in-sandbox residue = the intrinsic-E₆ torsion (C4's
+  named boundary), a specialist gate. Two retractions on the record (golden return, golden
+  inversion) — the discipline working. Lock test_b443 (3/3). Firewall absolute — nothing to CLAIMS.
