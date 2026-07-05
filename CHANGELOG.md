@@ -6,6 +6,40 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-05 — THE CHILD PROGRAM (C0–C3) + the interface arc + a repo audit
+
+- **The interface arc (B426–B434).** The 2026-07-05 handoff adjudication and the Origin Postulate
+  (`philosophy/THE_ORIGIN_POSTULATE.md`): `D:object→physics` lives at the **interface**, not the
+  interior. B426 the scale-lever closed form (`env₄₅/env₁₅ ∈ ℚ(ζ₉)⁺`, √5-free) + the Galois-orbit
+  contraction theorem; B427 exchange acts by the Galois element σ₁₇ (fixes √−15); B428 the two
+  bosonic spin walls (three-seat agreed); B429–B433 bosonic rigidity, the sl2 landscape, the seam
+  split, filling chirality (all fillings chiral; the forced output exits ℚ(√−15)), the 3d–3d DGG
+  calibration (eliminant = −A_CL(M,L)·A_CL(M,−L)); **B434 slope selection** — ±5 = the boundary of
+  the maximal exceptional set `{0,±1,…,±4}`, so the forced child = the **Meyerhoff manifold
+  `4₁(5,1)`** (H₁=ℤ/5, trace field `x⁴−x−1`, disc −283).
+- **THE CHILD PROGRAM, C0–C3 (B435–B440).** Study the forced child and test *"the SM is what the
+  object produces, not what it contains"* against the four-part emergence bar.
+  - **C0 (B435):** H₁=ℤ/5; the abelian E₆ vacuum count derived = **26** (25 nontrivial + trivial).
+  - **C1 (B436):** the Borel identity EXACT — `vol = 12·|d|^{3/2}·ζ_K(2)/(4π²)³` to `4.5×10⁻⁶⁴`.
+  - **C2 (B437):** the "golden return" **retracted** as inheritance (numerator-forced; trefoil
+    control) → **THE INVERSION LAW** banked.
+  - **B438 (the audit's decisive catch):** B436/B437 had skipped the pre-registered FOREIGN
+    control; run — `5₂(5,1)` shares the child's −283 field **and** its 121 torsion value ⇒ the
+    Inversion Law is **three-tiered** (numerator-forced / commensurability-shared / unique = ∅).
+  - **C3 (B439/B440):** the child's SL(2,C) vacuum book. The child has **4 irreducible vacua all in
+    the −283 field** (= its own trace field), by two independent methods that agree exactly
+    (Cooper–Long A-poly on `L=M⁻⁵` and the closed-manifold character variety). Verdict — **no
+    figure-eight-unique feature**: the −283 field is commensurability-shared, the count is
+    genericity, and the **golden inversion** (the golden parent's child is golden-free; the
+    non-golden `5₂`'s child carries the ℚ(√5) vacua). Surgery launders identity.
+- **Repo audit (`docs/AUDIT_2026-07-05.md`).** Three auditors + a cross-chat audit reconciled:
+  the B438 correctness catch; hygiene (B435/B437 wording, the S042/S043/S044 file collisions
+  renumbered to S050/S051/S052 with the CATALOG re-indexed); the e₃ `triple_cubic.json` snapshot
+  stamped UNSTABLE (unconverged CRT — not the answer); the LEAD_REGISTER/board refreshed; a leads
+  re-score (Cluster A metallic A-poly, L54 gate-A torsion, e₃ now-unblockable).
+- Emergence bar **not cleared** anywhere; every physics-shaped reading firewalled to
+  `speculations/` + `philosophy/`; nothing to `CLAIMS.md`. Locks: test_b426–test_b440 all green.
+
 ## 2026-07-04 — B425: two E₆ torsions (dynamical-golden + geometric-Eisenstein)
 
 - **Correction + new result.** Verified a cross-chat catch: B423's golden "E₆ torsion" is the
