@@ -1,4 +1,8 @@
-# S042 — the Chat-1 PMNS reads: recorded with the binding statistics verdict (2026-07-05)
+# S050 — the Chat-1 PMNS reads: recorded with the binding statistics verdict (2026-07-05)
+
+> **Renumbered 2026-07-05 (audit):** was mis-filed as "S042" (collides with the canonical
+> S042 curvature-sign-transition capstone). Reassigned to S050. Legacy citations reading
+> "S042 numerology bar / derivation-or-nothing" refer to this file's verdict.
 
 **[FIREWALL] This note records physics-adjacent numerology that FAILED its pre-registered
 statistics gate (B398 S5: combined p ≈ 0.087 raw / 0.44 corrected vs the binding 0.01).

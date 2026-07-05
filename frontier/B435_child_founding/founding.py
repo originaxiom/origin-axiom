@@ -69,7 +69,7 @@ if __name__ == "__main__":
     print("H1(child) = Z/5  (5,1)-surgery => Z/p; the golden prime returns in torsion")
     print(f"Kac solutions (order|5 in E6): {len(sols)}")
     print(f"rotation-fixed solutions: {n_fix}  (must be 0: fixed => 3 | 5, impossible)")
-    print(f"ABELIAN E6 VACUA of the child: {n_orb} = 5^2   (Hom(Z/5,E6)/conj, simply connected)")
+    print(f"ABELIAN E6 VACUA of the child: {n_orb} = 5^2 nontrivial (26 incl. trivial vacuum)   (Hom(Z/5,E6)/conj)")
     print(f"refinement mod outer flip (S3): {n_s3}")
     json.dump(dict(H1="Z/5", kac_solutions=len(sols), rotation_fixed=n_fix,
                    abelian_vacua=n_orb, mod_S3=n_s3),

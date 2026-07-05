@@ -1,10 +1,13 @@
-"""B437 (C2) -- the child's abelian torsion book: THE GOLDEN RETURN + the Lucas-square law.
+"""B437 (C2) -- the child's abelian torsion book: the "golden return" [RETRACTED as inheritance,
+#562: numerator-forced, trefoil control] + the Lucas-square law.
 
 Child = 4_1(5,1) (H1 = Z/5, B435). Abelian Reidemeister torsions via the surgery formula:
 tau_j = Delta(zeta5^j)/(zeta5^j - 1)^2, Delta = t^2-3t+1 = (t-phi^2)(t-phi^-2) (GOLDEN roots).
 
 RESULTS (exact, sympy poly arithmetic mod Phi_p + numeric crosscheck):
-1. THE GOLDEN RETURN: tau's trace to the real subfield = 3 + sqrt(5)/5 in Q(sqrt5) -- and
+1. THE "GOLDEN RETURN" [RETRACTED as inheritance, #562 -- trefoil(5,1) gives the SAME
+   Q(sqrt5); the field is forced by the numerator 5, not the parent]: tau's trace to the
+   real subfield = 3 + sqrt(5)/5 in Q(sqrt5) -- and
    Q(sqrt5) IS the real subfield of Q(zeta5): the parent's golden field is literally the
    child's abelian character field. Slope 5 -> Z/5 -> zeta5 -> sqrt5: the loop closes.
 2. THE LUCAS-SQUARE LAW: total abelian torsion prod_j |Delta(zeta_p^j)| = |2 - L_{2p}| = L_p^2

@@ -239,7 +239,7 @@ topological recursion (DFM = real SL(2) anchor; E₆ open). (3) The two-track to
 Φ₆(1) = 1), so "base 6 = rank E₆, derived" is DRESSING (any order-6 shape gives 6); the
 2m-mod-6 track split is checkable arithmetic; the mass assignment is numerology-class
 until derived. (4) exp(−1/s) = exp(−48): SELF-FLAGGED by the author as the known trap —
-correctly; S042 bar applies (derivation or nothing). EXTRACTIONS FOR THE MASTERPLAN:
+correctly; S050 bar applies (derivation or nothing). EXTRACTIONS FOR THE MASTERPLAN:
 the spectral-triple formulation question and the E₆ topological recursion join Gate B in
 Phase 3 as named constructions; everything else goes to speculations/ with verdicts.
 

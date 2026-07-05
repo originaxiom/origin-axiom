@@ -1479,3 +1479,37 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   Par=P=θ conflation, F₄→G₂-as-involution). Chat-2's meta: context drift caught by the multi-seat
   protocol (retracted stale campaign) — the B398 pattern is load-bearing.
 - Locks: test_b426 (5), test_b427 (3), test_b428 (2) — 10/10 green; atlas 408; gates green.
+
+## 2026-07-05 — the interface arc → THE CHILD PROGRAM (B429–B438)
+
+- **B429–B434 — the interface arc: from the handoff adjudication to the forced child.** B429
+  Bosonic Rigidity (the bosonic verdict along B347's E₆ moduli); B430 the sl2 landscape; B431
+  the seam spatial split; B432 filling chirality (ALL fillings of the parent are chiral — the
+  interface is chiral-sourced — yet the forced ±5 output exits ℚ(√−15)); B433 the 3d-3d DGG
+  calibration (eliminant = −A_CL(M,L)·A_CL(M,−L), pinned at SL(2)); **B434 slope selection**:
+  ±5 = the boundary of the maximal exceptional set {0,±1,…,±4}; the forced child = the
+  **Meyerhoff manifold 4₁(5,1)**, H₁ = ℤ/5, trace field x⁴−x−1, disc −283, CS unit ±0.0770381802.
+- **B435 (C0) — the Child Program founding.** H₁ = ℤ/5; the abelian E₆ vacuum count derived:
+  Hom(ℤ/5,E₆)/conj = 25 nontrivial (= 5²) + 1 trivial = **26** (Kac Σaᵢmᵢ=5 mod the ℤ/3
+  center-rotation, all orbits free since 3∤5). CORRECTED (#562): the ℤ/5 "birthmark" is
+  numerator-forced (every knot at slope 5), not inheritance.
+- **B436 (C1) — the child's identity card.** The Borel identity EXACT: vol = 12·|d|^{3/2}·ζ_K(2)/(4π²)³
+  to |ratio−12| = 4.5×10⁻⁶⁴; CS not identified (honest open residue). CORRECTED (B438): the
+  bud shipped with only the slope control; the −283 field is class-shared with 5₂, not fig-8-unique.
+- **B437 (C2) — the abelian torsion book + the Inversion Law.** The "golden return"
+  (Tr τ = 3+√5/5 ∈ ℚ(√5)) RETRACTED as inheritance: numerator-forced (trefoil(5,1) gives the
+  same field). The Lucas-square law (total torsion = |Res(Φ₅,Δ_K)| = L₅² = 121). **THE INVERSION
+  LAW banked**: every inherited-looking child feature is forced-for-all-knots; every
+  fig-8-specific feature is parent-disjoint.
+- **B438 — the missing FOREIGN control: nothing about the child is figure-eight-UNIQUE (the
+  July-5 audit's decisive finding).** 5₂(5,1) also gives x⁴−x−1 (disc −283) AND the same 121
+  torsion value; 6₁/m003/m007 differ. {4₁,5₂} = a commensurability class. The Inversion Law
+  becomes THREE TIERS — (1) numerator-forced (all knots at slope 5); (2) commensurability-shared
+  (4₁≈5₂: −283, 121); (3) figure-eight-UNIQUE = none. Break criterion RAISED: a genuine break
+  must distinguish 4₁ from 5₂ → C3's control set now includes 5₂. Corrects B436/B437 wording.
+  Lock test_b438 (3/3).
+- **The 2026-07-05 repo audit (docs/AUDIT_2026-07-05.md).** Three parallel auditors + Chat-1's
+  own audit reconciled: hygiene fixes (B435/B436/B437 wording, founding.py labels), the B438
+  correctness catch (the skipped foreign control), the leads re-score (Cluster A metallic
+  A-poly / L54 gate-A torsion / e₃ now-unblockable), and the e₃ guard (triple_cubic.json
+  unconverged, stamped). Board + LEAD_REGISTER refreshed.

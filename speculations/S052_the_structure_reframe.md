@@ -1,9 +1,13 @@
-# S044 — the reframe: the object as SM STRUCTURE, not SM numbers (2026-07-04)
+# S052 — the reframe: the object as SM STRUCTURE, not SM numbers (2026-07-04)
+
+> **Renumbered 2026-07-05 (audit):** was mis-filed as "S044" (collides with the canonical
+> S044 Alexander–Kodama synthesis). Reassigned to S052. Legacy citations reading "the
+> structure reframe (S044/B414)" refer to this file.
 
 **[FIREWALL] Owner-prompted brave reframe ("we just have to see it"). CC's honest
 meditation. Tags: [MATH] exact banked fact, [LEAP] interpretive jump, [HOOK] motivating
 speculation. Nothing here is a claim; the discipline is the pre-registered structural test
-below, NOT this prose. S042/S043 bars stand: a DERIVATION reopens; interpretation never does.**
+below, NOT this prose. The S050/S051 numerology bars stand: a DERIVATION reopens; interpretation never does.**
 
 ## The frame shift
 

@@ -3,19 +3,40 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**Campaign:** THE DESTINATION ATLAS (owner-approved 2026-07-04) — track the object's OWN
-behavior blind to physics, name each destination as pure math, judge by the emergence bar
-fixed before looking. TW1 ✅ (tower-measure limit = Gauss-sum Haar, no SM). TW2 dynamics ·
-TW3 symbolic · TW4 upstairs ℚ(ζ₆₀) · TW5 quantum-invariant asymptotics · TW6 L-functions ·
-TW7 the atlas + verdict. Autonomous; owner signs off only at a bar-clearing emergence.
-Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
+**Campaign:** THE CHILD PROGRAM (owner-approved 2026-07-05) — the banked chain σ → 4₁ (rigid
+parent) → forced filling ±5 (B434) → **the CHILD = the Meyerhoff manifold 4₁(5,1)**; study the
+child with the parent's full discipline and test *"the SM is what the object PRODUCES, not what
+it contains"* against the four-part emergence bar (forced · unsought · exact-SM · control). C0
+(B435) · C1 (B436) · C2 (B437) · **C3 the SL(2) vacuum book (next)** · C4 E₆ lift · C5 WRT ·
+C6 the Child Atlas + verdict. Predecessor DESTINATION ATLAS complete (TW1–TW7, no bar cleared).
+Autonomous; owner signs off only at a bar-clearing emergence. Map: `docs/ROADMAP.md` ·
+audit: `docs/AUDIT_2026-07-05.md`.
 
 ---
 
 ## RUNNING NOW
-- Nothing in the background (e₃ sentinel reconstruction still detached; independent).
+- **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
+  (x-deg 95×14) detached; bank on landing.
+- **e₃ exact** (B399) — CRT reconstruction sentinel detached; fires the B403/B405/B406 sentinel
+  battery on landing. NOTE: the on-disk `triple_cubic.json` snapshot is UNCONVERGED — not the
+  answer (guard-stamped 2026-07-05).
 
 ## LAST BANKED
+- **B438 — the missing FOREIGN control: nothing about the child is figure-eight-UNIQUE (the
+  July-5 audit's decisive finding).** B436 had shipped with only the SLOPE control and skipped
+  its pre-registered foreign control; run now: **5₂(5,1) also gives x⁴−x−1 (disc −283) AND the
+  same 121 torsion value** — {4₁, 5₂} are a commensurability class; 6₁/m003/m007 differ. The
+  Inversion Law becomes THREE TIERS: (1) numerator-forced (every knot at slope 5: ℤ/5, √5, 26
+  vacua); (2) commensurability-shared (4₁≈5₂: the −283 field, the 121 value); (3)
+  figure-eight-UNIQUE = **none found**. Break criterion RAISED — a genuine break must
+  distinguish 4₁ from **5₂**, so C3's control set now includes 5₂. Corrects B436 ("special vs
+  generic, class-shared with 5₂") and B437 (the Lucas VALUE is Δ_K-specific, not family-generic).
+- **B429–B434 — the interface arc (handoff adjudication → the forced child).** B429 Bosonic
+  Rigidity, B430 sl2 landscape, B431 seam spatial split, B432 filling chirality (all fillings
+  chiral; the forced ±5 output exits ℚ(√−15)), B433 3d-3d DGG calibration (eliminant =
+  −A_CL(M,L)·A_CL(M,−L)), B434 slope selection (±5 = boundary of the maximal exceptional set;
+  child = Meyerhoff, trace field x⁴−x−1, disc −283). Founding C0–C2 = B435/B436/B437.
+- **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
 - **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
   B426: Chat-2's scale-lever closed form VERIFIED exact — env₄₅/env₁₅ = (3α²+4α−1)/10 ∈ ℚ(ζ₉)⁺,
   √5-free (forced by CRT locality) — PLUS the new Galois-orbit contraction theorem: the three
@@ -28,7 +49,7 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   (no fermion); the principal sl2 makes the 27 = [17,9,1] bosonic-only. O1 stays OPEN.
   NEXT INTERFACE TARGET (Phase I.2, registered): is the bosonic verdict rigid along B347's 6-dim
   E₆ moduli of the one π₁? — read the ρ↔ρ_geo coupling off the character variety, don't assume it.
-- **B425 — the object has TWO E₆ torsions = the two cornerstone sides (a correction that TIGHTENS the papers).** A cross-chat catch was RIGHT: B423's golden "E₆ torsion" is the **dynamical zeta** of the *monodromy* A (golden by construction, adjoint −5), NOT the geometric torsion its prereg claimed. The **geometric** Reidemeister torsion at the holonomy ρ_geo (u=ω forced) is **Eisenstein**: coeffs rational (√−3 cancels, Galois-invariant at all six E₆ exponents), canonical adjoint **−3 = disc ℚ(√−3)** — reproducing the banked V30 (normal torsion) / V31 (Porti form) by a third method (Fox/Wada). The √−3 IS present in the Fox matrix (trace complex everywhere) but cancels in every determinant. Two torsions (golden −5, Eisenstein −3) = the two double-uniqueness sides, √5·√−3=√−15. Emergence bar STILL not cleared (Eisenstein arithmetic, not SM); the "√−3 door" opens onto the object's second cornerstone field, not physics. Corrected B423 label, knowledge doc, Paper 2 (Thm 4→4a/4b). Guard banked: the raw Fox eigenvalue-product (−25−13ω, "prime 67") is NOT an invariant (rational for ∂r/∂a, t-dependent). Locks: test_b425 (10/10). [PR pending]
+- **B425 — the object has TWO E₆ torsions = the two cornerstone sides (a correction that TIGHTENS the papers).** A cross-chat catch was RIGHT: B423's golden "E₆ torsion" is the **dynamical zeta** of the *monodromy* A (golden by construction, adjoint −5), NOT the geometric torsion its prereg claimed. The **geometric** Reidemeister torsion at the holonomy ρ_geo (u=ω forced) is **Eisenstein**: coeffs rational (√−3 cancels, Galois-invariant at all six E₆ exponents), canonical adjoint **−3 = disc ℚ(√−3)** — reproducing the banked V30 (normal torsion) / V31 (Porti form) by a third method (Fox/Wada). The √−3 IS present in the Fox matrix (trace complex everywhere) but cancels in every determinant. Two torsions (golden −5, Eisenstein −3) = the two double-uniqueness sides, √5·√−3=√−15. Emergence bar STILL not cleared (Eisenstein arithmetic, not SM); the "√−3 door" opens onto the object's second cornerstone field, not physics. Corrected B423 label, knowledge doc, Paper 2 (Thm 4→4a/4b). Guard banked: the raw Fox eigenvalue-product (−25−13ω, "prime 67") is NOT an invariant (rational for ∂r/∂a, t-dependent). Locks: test_b425 (10/10).
 - **THE DESTINATION ATLAS COMPLETE (TW1–TW7):** all six behaviors tracked blind; every destination is named pure math (Gauss-sum Haar / golden-Anosov / Sturmian / rich-ζ₆₀-cells / volume-conjecture / genus-L); **NO bar cleared — the SM does not emerge unbidden.** Terminal statement: the object self-generates no SM structure (no scale B413, no frame B414); any SM link needs external input. Paper 2 = the atlas; Paper 1 = the value theory.
 - **TW2 (B416): the dynamics' destination = golden-Anosov flow** (Lyapunov 4logφ, conserved κ, modular symmetry) — named math, bar NOT cleared; generic to the metallic family (not even fig-8-specific). Atlas #2.
 - **THE WALL CAMPAIGN IS COMPLETE** (synthesis in RECOGNITION.md): scale wall priced
@@ -62,7 +83,7 @@ Full plan: the approved session plan file (local) · map: `docs/ROADMAP.md`.
   twist's value content = boundary recruitment; explains the W2 decoupling.
 - **B398 COMPLETE: the handoff fully scrutinized.** Math layer: core verified exact +
   four corrections. Physics layer: the PMNS ensemble FAILED its pre-registered statistics
-  gate (p ≈ 0.09–0.44 vs binding 0.01) — numerology-class, firewalled in S042; the
+  gate (p ≈ 0.09–0.44 vs binding 0.01) — numerology-class, firewalled in S050; the
   verified math banks as mathematics.
 - **B398 S1–S4 (the handoff's math layer):** 23/75 + the doublet + 98/−52 fully verified
   (fork pinned: 23/75 restricted vs 23/25 full); (3,4) 7/5 verified; (2,3) ℤ/3 exact but
