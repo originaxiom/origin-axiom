@@ -1,12 +1,13 @@
 {
- "counts": {
+ "irreducible_counts": {
   "4_1(5,1)": 4,
-  "5_2(5,1)": 6,
+  "5_2(5,1)": 4,
   "6_1(5,1)": 11,
   "3_1(5,1)": 5
  },
  "child_matches_b439": true,
  "neg283_field_shared": true,
- "golden_only_in_foreign": true,
- "tier3": "NO figure-eight-unique feature; -283 field commensurability-shared; count is genericity; golden inversion (golden parent's child is golden-free, foreign 5_2's child carries golden) => Inversion Law 4th instance at the SL(2) floor"
+ "golden_is_reducible_and_universal": true,
+ "retracted": "the 'golden inversion' (golden only in 5_2's child) -- artifact of unfiltered reducibles + the A-upper/B-lower parametrization; golden abelian chars are universal (H_1=Z/5)",
+ "tier3": "NO figure-eight-unique feature; 4_1 and 5_2 share the -283 field AND the irreducible count 4; golden Q(sqrt5) is numerator-forced reducible, universal => Inversion Law 4th instance at the SL(2) floor (a cleaner, stronger negative)"
 }

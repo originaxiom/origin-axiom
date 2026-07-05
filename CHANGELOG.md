@@ -29,9 +29,11 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   - **C3 (B439/B440):** the child's SL(2,C) vacuum book. The child has **4 irreducible vacua all in
     the −283 field** (= its own trace field), by two independent methods that agree exactly
     (Cooper–Long A-poly on `L=M⁻⁵` and the closed-manifold character variety). Verdict — **no
-    figure-eight-unique feature**: the −283 field is commensurability-shared, the count is
-    genericity, and the **golden inversion** (the golden parent's child is golden-free; the
-    non-golden `5₂`'s child carries the ℚ(√5) vacua). Surgery launders identity.
+    figure-eight-unique feature**: 4₁ and its commensurability neighbour 5₂ **both have 4
+    irreducible vacua in the identical −283 field** (adversarial review corrected the first cut —
+    the golden ℚ(√5) factor is the *reducible* abelian ℤ/5 characters, universal across all
+    K(5,1); the "golden inversion" reading was a parametrization artifact, retracted). Surgery
+    launders identity down to the SL(2) vacuum count — a cleaner, stronger negative.
 - **Repo audit (`docs/AUDIT_2026-07-05.md`).** Three auditors + a cross-chat audit reconciled:
   the B438 correctness catch; hygiene (B435/B437 wording, the S042/S043/S044 file collisions
   renumbered to S050/S051/S052 with the CATALOG re-indexed); the e₃ `triple_cubic.json` snapshot

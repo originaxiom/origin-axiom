@@ -258,3 +258,35 @@ its first channel (chirality) is complete as mathematics and honestly negative o
 Discipline held under the highest pressure this program has seen (the owner's direct push for
 the physics goal): every brave claim was computed, every computation banked, every negative
 stated plainly.
+
+---
+
+## Review 3 — 2026-07-05 (the C3-wave review; caught a real banked defect)
+
+anchor-commit: bab8ddd12abfab9ee074aa142cb62f6f1f117718
+
+Fired at 10 merges (the interface arc + Child Program C0–C3 + the audit + the doc sweep). An
+independent adversarial reviewer **recomputed the load-bearing C3 result (B438/B439/B440) from
+scratch** (own scripts, fresh snappy relators, reducibility saturation — did not read the banked
+code). Outcome:
+
+1. **CONFIRMED:** B439 (the figure-eight vacuum quartic x⁴−3x³+x²+3x−1, disc −283, S₄); the
+   reproduce-gate (pari `nfisisom` — genuinely the same field as x⁴−x−1, not just equal disc);
+   B440's 4₁ cross-validation (character variety = A-poly quartic, two independent methods); the
+   −283 field-sharing between 4₁ and 5₂.
+2. **REFUTED (a real defect, now corrected):** B440's "5₂ = 6 vacua incl. a golden factor" and
+   the "golden inversion." The golden factor x²+x−1 is the **reducible** abelian ℤ/5 characters
+   (verified: diagonal reps, [A,B]=I; and the abelianization exponent-sums show golden abelian
+   characters exist for **all four** K(5,1) — universal, numerator-forced). It surfaced only for
+   5₂ (B=I abelian rep) as a parametrization artifact. Corrected: **4₁ and 5₂ both have 4
+   irreducible vacua in the identical −283 field** — a cleaner, stronger negative. Fixed in
+   B440 verify.py/lock/FINDINGS + CAMPAIGN_STATUS/PROGRESS_LOG/CHANGELOG/README/B439. The raw
+   charvar.json (the tr(A)-elimination) was correct; only the irreducible/reducible reading was
+   wrong.
+3. **Suite/gates/atlas:** locks green post-correction (test_b438/b439/b440); gates green; atlas
+   regenerated. **Framing:** no physics leak; the corrected verdict is honestly a negative.
+4. **Lesson (banked):** a tr(A)-elimination degree is NOT the irreducible-character count —
+   always separate reducibles (tr[A,B]=2) before counting or comparing SL(2,C) vacua; and never
+   compare a count across knots without confirming the parametrization surfaces the same
+   character classes for each. The verify-don't-trust review paid for itself: the defect would
+   have propagated into C4 (the E₆ lift builds on these vacua).

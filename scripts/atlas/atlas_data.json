@@ -8949,6 +8949,7 @@
    "slug": "foreign vacuum control",
    "motifs": [
     "figure_eight",
+    "kappa",
     "dickson_tower",
     "eisenstein",
     "golden",
@@ -8967,7 +8968,7 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
-   "status": "banked",
+   "status": "dead",
    "domain": "topology"
   },
   "B44": {

@@ -23,15 +23,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
   answer (guard-stamped 2026-07-05).
 
 ## LAST BANKED
-- **B440 — C3 foreign control COMPLETE: no figure-eight-unique feature at the SL(2) floor.** The
-  SL(2,C) vacuum spectra of K(5,1), convention-free from π₁: **4₁ [child] = 4 vacua all in the
-  −283 field** (character-variety quartic x⁴−3x³+x²+3x−1 = B439's A-poly quartic exactly — two
-  independent methods agree); **5₂ [neighbour] = 6 vacua = 2 in ℚ(√5) + 4 in the SAME −283
-  field**; 3₁ = 5 (disc 11⁴); 6₁ = 11. Verdict: the −283 field is commensurability-shared; the
-  count is A-poly-degree genericity; and — the striking part — the golden ℚ(√5) vacua the
-  *golden* parent might transmit are **absent in the child, present in the non-golden 5₂'s
-  child** (golden inversion). Inversion Law's 4th instance, at the SL(2) floor, tested against
-  the commensurability neighbour — the sharpest yet. Lock test_b440 (4/4).
+- **B440 — C3 foreign control COMPLETE: no figure-eight-unique feature at the SL(2) floor
+  (CORRECTED by adversarial review 2026-07-05).** The SL(2,C) vacuum spectra of K(5,1),
+  convention-free from π₁: **4₁ [child] and 5₂ [neighbour] BOTH = 4 irreducible vacua in the
+  identical −283 field** (child quartic x⁴−3x³+x²+3x−1 = B439's A-poly quartic exactly — two
+  independent methods agree; 5₂'s x⁴−4x³+4x²+x−1, same field); 3₁ = 5 (disc 11⁴); 6₁ = 11.
+  Verdict: the −283 field AND the irreducible count (4) are commensurability-shared; counts
+  differ across knots only by A-poly-degree genericity. **RETRACTED:** the first cut's "golden
+  inversion" — the golden ℚ(√5) factor is the REDUCIBLE abelian ℤ/5 characters, UNIVERSAL across
+  all four fillings (H₁=ℤ/5), not a figure-eight-vs-5₂ signal; it was a parametrization artifact.
+  The corrected reading is a *cleaner, stronger* negative (child and neighbour share even the
+  irreducible count). Inversion Law's 4th instance, at the SL(2) floor. Lock test_b440 (4/4).
 - **B439 — C3: the child's SL(2,C) vacuum book (figure-eight core + slope control).** The child's
   irreducible SL(2,C) vacua = the Cooper–Long A-polynomial on `L=M⁻⁵`, in the meridian trace:
   Q₅(t) = (t+2)·(**t⁴−3t³+t²+3t−1**) — 1 reducible + **4 irreducible vacua**, and the quartic is

@@ -11,10 +11,10 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 420 frontier probes; status {'banked': 283, 'dead': 80, 'open': 43, 'dormant': 14}
-  the ONE conserved first integral: kappa (recurs 102x, 24%) -- genuine unity, MUST recur
+  corpus: 420 frontier probes; status {'banked': 282, 'dead': 81, 'open': 43, 'dormant': 14}
+  the ONE conserved first integral: kappa (recurs 103x, 24%) -- genuine unity, MUST recur
   top recurring motifs: firewall(299), golden(259), metallic(217), trace_map(212), eisenstein(210), figure_eight(204)
-  recurrence is: structural-invariant 1536 mentions | conserved-integral 102 | TOOL 212
+  recurrence is: structural-invariant 1536 mentions | conserved-integral 103 | TOOL 212
   the honest split: the trace-map TOOL is in 212 probes (50%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B156, B309, B321, B154, B140, B258
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -34,7 +34,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | figure_eight | 204 | 48% | object | no | topology | the simplest hyperbolic knot; the carrier object |
 | torsion | 129 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | amphichiral_cp | 120 | 28% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
-| kappa | 102 | 24% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
+| kappa | 103 | 24% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | wrt_quantum | 97 | 23% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | dickson_tower | 83 | 19% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
 | z3_generation | 79 | 18% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
@@ -47,7 +47,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 ### The honest split — unity vs the hammer
 
-- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **102** probes (24%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
+- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **103** probes (24%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
 - **Structural invariants** (the two ends, ω, the Dickson parity, …): **1536** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **212** probes (50%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
@@ -88,13 +88,13 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | B272 | 18 | dead | two_ends+object=dynamics+physics_bridge | arithmetic, dynamics, meta, physics, representation, topology |
 | B295 | 18 | dead | two_ends+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, meta, quantum, topology |
 | B425 | 18 | banked | two_ends+object=dynamics+physics_bridge | arithmetic, dynamics, meta, physics, representation, topology |
+| B440 | 18 | dead | two_ends+object=dynamics+quantum_meeting | arithmetic, dynamics, meta, quantum, representation, topology |
 | B127 | 17 | banked | two_ends+object=dynamics+quantum_meeting | arithmetic, dynamics, meta, quantum, topology |
 | B129 | 17 | banked | two_ends+object=dynamics | arithmetic, dynamics, meta, quantum, representation, topology |
 | B132 | 17 | dead | two_ends+object=dynamics+quantum_meeting | arithmetic, dynamics, meta, quantum, topology |
 | B240 | 17 | banked | object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B315 | 17 | banked | two_ends+object=dynamics+quantum_meeting | arithmetic, dynamics, geometry, meta, quantum, topology |
 | B126 | 16 | banked | two_ends+object=dynamics+quantum_meeting | arithmetic, dynamics, meta, quantum, topology |
-| B155 | 16 | banked | two_ends+object=dynamics+physics_bridge | arithmetic, dynamics, meta, physics, topology |
 
 **The unity-patterns** (the documented cross-structure identifications the detector looks for):
 

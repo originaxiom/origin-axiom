@@ -1539,3 +1539,18 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   launders identity; the Inversion Law's 4th instance, at the SL(2) floor, tested against the
   commensurability neighbour — the sharpest. C3 complete; C5 (WRT) is the next knot-dependent
   channel. Lock test_b440 (4/4).
+
+- **B440 CORRECTION (2026-07-05, adversarial decadal review).** The independent reviewer (fresh
+  recomputation, reducibility saturation) refuted two sub-claims of the just-banked B440, both
+  verified here: (1) 5₂'s golden factor x²+x−1 is the **REDUCIBLE abelian ℤ/5 characters**
+  (A,B diagonal, [A,B]=I, tr=2), not an irreducible vacuum; (2) those golden abelian characters
+  are **UNIVERSAL** — H₁=ℤ/5 forces them for every K(5,1) (confirmed via the abelianization
+  exponent-sums for 4₁/5₂/3₁/6₁); they surfaced in the raw tr(A)-elimination only for 5₂ (B=I
+  abelian rep) — a parametrization artifact. **The "golden inversion" is retracted.** Corrected
+  result: **4₁ and 5₂ both have exactly 4 irreducible vacua in the identical −283 field** — a
+  cleaner, stronger commensurability-shared negative (child and neighbour share even the
+  irreducible count, nothing finer). CONFIRMED by the review: B439 (the figure-eight quartic,
+  disc −283, S₄, nfisisom same field), the two-independent-method cross-validation, and the
+  −283 field-sharing all stand. verify.py + lock + FINDINGS + board corrected; the raw
+  charvar.json (the tr(A)-elimination) is unchanged (only its reading was wrong). The review
+  worked exactly as designed — caught a real banked error before C4 built on it.
