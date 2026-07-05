@@ -1,4 +1,7 @@
-# S043 — the "what is energy" package: verdicts (2026-07-04)
+# S051 — the "what is energy" package: verdicts (2026-07-04)
+
+> **Renumbered 2026-07-05 (audit):** was mis-filed as "S043" (collides with the canonical
+> S043 topological-Λ/DESI capstone). Reassigned to S051.
 
 **[FIREWALL] Intake scrutiny of the pre-masterplan energy package. Nothing here is a
 claim; the exact bits are recorded as arithmetic, the speculative bits as firewalled
@@ -16,7 +19,7 @@ hooks with verdicts.**
   identification with rank(E₆) is unearned.
 - The per-track "masses" (√3·6ⁿ; 6ⁿ): NOT REPRODUCIBLE from the communicated factors —
   the combination rule was never stated. NEEDS-FORMULATION.
-- exp(−1/s) = exp(−48): the author self-flags it as the known trap — agreed; the S042
+- exp(−1/s) = exp(−48): the author self-flags it as the known trap — agreed; the S050
   bar applies (a derivation reopens it; order-of-magnitude fitting never will).
 
 ## Extracted for the masterplan (the real payload)
@@ -51,7 +54,7 @@ dim(fundamental E₆); 16 = SO(10) one-generation spinor. Every identity checks.
    6ⁿ·√3" is already S043-deflated (base-6 = dressing; values not reproducible).
 2. **432 = 16×27 is post-hoc factorization selection:** 432 has 10 factorizations as a·b;
    "16×27" is chosen because it maps to (SO(10) spinor, E₆ 27), not because the structure
-   forces that split over 2⁴·3³. The S042 numerology bar applies.
+   forces that split over 2⁴·3³. The S050 numerology bar applies.
 
 **Verdict:** the exact identities join the arithmetic record; the hidden-sector /
 Coxeter-Eisenstein-operator reading is numerology-class (firewalled, unvoiced). Revival

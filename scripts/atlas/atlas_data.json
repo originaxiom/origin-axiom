@@ -8840,33 +8840,40 @@
    ],
    "refs": [
     "B432",
-    "B434"
+    "B434",
+    "B437"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B436": {
    "slug": "child identity",
    "motifs": [
     "figure_eight",
+    "eisenstein",
+    "golden",
     "torsion",
     "lorentzian",
     "firewall"
    ],
    "refs": [
     "B434",
-    "B435"
+    "B435",
+    "B437",
+    "B438"
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B437": {
    "slug": "child abelian book",
    "motifs": [
+    "figure_eight",
+    "eisenstein",
     "golden",
     "torsion",
     "firewall"
@@ -8875,7 +8882,30 @@
     "B423",
     "B425",
     "B434",
-    "B435"
+    "B435",
+    "B438"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B438": {
+   "slug": "foreign control",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B425",
+    "B434",
+    "B436",
+    "B437"
    ],
    "obstacle": null,
    "obstacle_conf": 0,

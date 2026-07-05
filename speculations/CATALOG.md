@@ -1,6 +1,10 @@
 # Speculation catalog — `S001…S048`
 
-> *Index note (2026-07-01): the rows below index `S001–S035` plus `S042–S044`. `S036–S041` (the search register, the
+> *Index note (2026-07-01, updated 2026-07-05): the rows below index `S001–S035` plus `S042–S044` and the
+> renumbered `S050–S052` (the three files that had collided on `S042/S043/S044` — the PMNS numerology verdict,
+> the energy-package verdicts, and the B414 structure-reframe — reassigned in the 2026-07-05 audit; their
+> canonical `S042/S043/S044` remain the curvature / topological-Λ / Alexander–Kodama capstones). `S049` (the
+> self-mirror-matter reading) is a live file whose index row is still to be backfilled. `S036–S041` (the search register, the
 > framework search `S041`, the no-forced-choice capstone `S032`), `S045` (the σ-flow cosmogony), `S046` (the
 > value-at-the-seam reading — every value is a symmetry the object leaves unbroken; cites B326/B327/B329/B330),
 > `S047` (the reunification flow — symmetric UV → Dehn-filling flow → broken IR; the value is the external filling
@@ -58,6 +62,10 @@ exercise that generated these is `PHYSICS_EXERCISE.md`.
 | S043 | **topological Λ, the Kodama relation, and the DESI hook (with its 122-order negative)** — the `B259` companion. [MATH] `k=6π/(GΛ)` with `GΛ` dimensionless (4d); golden `k=3 → GΛ=2π` — the cleanest dimensionful-adjacent statement, = the scale-free thesis (K018) made concrete; **keep, firewalled**. [HOOK] integer-incrementing `k` ⇒ stepwise Λ ⇒ *evolving* dark energy (DESI DR2 2.5–4.2σ), no fine-tuning. [LEAP] the **122-order negative** (verified B259): `k=3` is a **Planck-scale** Λ; observed DE needs `k~10¹²⁴`, so `k=3` is *not* the DESI dark energy (the c.c. problem reappears); also step-function ≠ `w₀wₐ`, no rate law, Λ-sign. Honest: closest *rhyme* with observation, **not** contact; motivation preserved, negatives stated. | POSTULATED (firewalled hook, 122-order [LEAP]) | **B259**, **B250**, K018/B151, K006, S042, DESI DR2 2025 |
 
 | S044 | **the Alexander–Kodama synthesis (two cross-chat handoffs, firewalled)** — the `S043` companion crediting Alexander–Bernardo–Hui (PRL 2026, arXiv:2506.14886, **unread**). [MATH] `G·Λ=6π/k` generalizes S043 (golden `k=3`=its slice); the **spin-structure bit = FIX** (B279) ⟹ Chat-2's *non-chiral* branch; rep theory banked (B280). [HOOK] θ-sector topological protection + Λ-CS-time dynamics + fermionic CSK. [LEAP] **paper relayed/unread**, the **122-order gap stands** (no CC-problem solution), no `k(t)` rate, Λ-sign, and Chat-2's parity-anomaly link unverified. Motivation kept, contact not claimed. | POSTULATED (firewalled hook; relayed source + 122-order [LEAP]) | **B279**, **B280**, S043, S042, B259, B278, arXiv:2506.14886 (unread) |
+
+| S050 | **the Chat-1 PMNS reads — recorded with the binding statistics verdict** (renumbered 2026-07-05 from a mis-filed "S042"). The PMNS-angle numerology reads collected and adjudicated against the binding statistical bar (p ≈ 0.09–0.44 vs 0.01) — numerology-class, firewalled. Legacy "S042 numerology bar / derivation-or-nothing" citations point here. | POSTULATED (firewalled; numerology bar not met) | B-numerology-bar, S042 |
+| S051 | **the "what is energy" package: verdicts** (renumbered 2026-07-05 from a mis-filed "S043"). The energy-package proposals adjudicated: `exp(−48)` self-flagged trap, `6ⁿ·√3` base-6 dressing — all S050-numerology-bar-deflated; firewalled. | POSTULATED (firewalled; deflated) | S050, S043 |
+| S052 | **the reframe: the object as SM STRUCTURE, not SM numbers** (renumbered 2026-07-05 from a mis-filed "S044"). The B414 companion — the methodological reframe from hunting SM values to tracking SM *structure* (seeded the DESTINATION ATLAS). Legacy "the structure reframe (S044/B414)" citations point here. | POSTULATED (firewalled; method reframe) | **B414**, S044 |
 
 **Reading the pattern (the organizing insight).** Every `SUPPORTED`/`ACTIVE` entry is **structural** (symmetry,
 hierarchy, vacuum architecture, the direction of flow); every `HELD`/`DEAD` entry asks for a **value** or a

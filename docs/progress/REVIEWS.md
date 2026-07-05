@@ -191,7 +191,7 @@ substance from them.
 
 anchor-commit: `edceb2d5a5fe7d5639213be42c924eefe376cc6d`
 
-**Scope.** The energy-package scrutiny (S043), the structure reframe (S044/B414), Scale-
+**Scope.** The energy-package scrutiny (S051), the structure reframe (S052/B414), Scale-
 Genesis (B413), the hint sweeps (B411/B412), and the full Destination Atlas campaign
 (TW1–TW7 / B415–B421).
 

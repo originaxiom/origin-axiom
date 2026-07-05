@@ -1,6 +1,8 @@
-# B437 — C2: the child's abelian torsion book — THE GOLDEN RETURN (exact) + the Lucas-square law
+# B437 — C2: the child's abelian torsion book — the "golden return" [RETRACTED AS INHERITANCE, see §CORRECTION] + the Lucas-square law
 
-**Status: banked (C2). Registered outcome: GOLDEN RETURN — confirmed exactly. Firewalled.**
+**Status: banked (C2), then CORRECTED (#562). The "golden return" is NUMERATOR-FORCED, not
+inheritance (trefoil control below). What survives: the Lucas-square law and the parent's
+Alexander data displayed through a channel every knot shares. Firewalled.**
 
 - **The golden return.** The child's abelian torsion (surgery formula from the parent's
   Alexander polynomial t²−3t+1 = (t−φ²)(t−φ⁻²)) traced to the real subfield:
@@ -10,9 +12,14 @@
 - **The Lucas-square law.** Total abelian torsion = |2−L₂ₚ| = **Lₚ²** (classical L₂ₙ = Lₙ²+2,
   odd n): child → L₅² = 121 = 11²; sibling (7) → L₇² = 841 = 29². (= |H₁| of the parent's
   p-fold cyclic branched cover.)
-- **The control dichotomy (bar leg iv, exact).** The Lucas-square law is FAMILY-GENERIC; the
-  golden-field return is SLOPE-5-SPECIFIC (√5 ⊂ ℚ(ζ₅); ℚ(ζ₇)⁺ is cubic — no √5). The forced
-  child inherits the parent's field; the unforced sibling does not.
+- **The control dichotomy (bar leg iv, exact) — corrected by B438.** What is family-generic is
+  the FORMULA total abelian torsion = |Res(Φₚ, Δ_K)|; the VALUE Lₚ² = 121 is Δ_K-specific
+  (trefoil → 1). It is NOT even figure-eight-unique: **5₂(5,1) also gives 121** (B438), because
+  {4₁, 5₂} share the −283 trace field — a commensurability class. So the value records the
+  parent's own Alexander data through a channel every knot shares, and the "special" −283 exit
+  is a class property, not a fingerprint. (Original over-claim "the Lucas-square law is
+  FAMILY-GENERIC" retracted: the law-as-formula is generic, its value is knot-specific but
+  class-shared — see [[B438]].)
 - The child's torsion prime 11 lies in the parent's Fibonacci apparition set (B423) — noted,
   not interpreted.
 
@@ -39,9 +46,18 @@ campaign's sharpest structural finding):** *every inherited-looking feature of t
 forced-for-all-knots (ℤ/5, ζ₅/√5, the 26 abelian vacua, the Lucas-square law), and every
 figure-eight-specific feature is parent-disjoint (the arithmetic quartic −283, S₄, no
 quadratic subfield).* Where the child echoes the parent, it is generic; where it is special,
-it is foreign. C1's arithmeticity survives as the genuinely special fact — and it is
-golden-free. The trefoil control cannot even be posed for the geometric claims (trefoil is
+it is foreign. The trefoil control cannot even be posed for the geometric claims (trefoil is
 not hyperbolic): the shared part is homological, the special part geometric — consistent.
+
+**FURTHER SHARPENED BY B438 (2026-07-05 audit — the missing FOREIGN control):** C1's
+arithmeticity does NOT survive as "the genuinely special, figure-eight-specific fact." The
+−283 field is **shared with 5₂(5,1)** (a hyperbolic knot foreign to the parent), so it is a
+**commensurability-class** property, not a figure-eight fingerprint. The Inversion Law becomes
+**three tiers**: (1) numerator-forced = every knot at slope 5 (ℤ/5, √5, the 26 vacua); (2)
+commensurability-shared = 4₁≈5₂ (the −283 field, the 121 value); (3) figure-eight-UNIQUE =
+**none found**. The break criterion is raised accordingly: a genuine inheritance break must
+distinguish 4₁ from **5₂** (its commensurability neighbor), not merely from the trefoil or a
+generic knot — so C3's interior→exit control set now includes 5₂. See [[B438]].
 
 B435 bookkeeping correction (same adjudication): 75 gcd-1 Kac solutions = order-exactly-5
 classes only; full Hom(ℤ/5,E₆)/conj = **25 + 1 trivial = 26** (78 raw vectors incl. the 3
