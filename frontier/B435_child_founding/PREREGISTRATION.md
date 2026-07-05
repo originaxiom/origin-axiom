@@ -60,3 +60,15 @@ the ±5 mirror children carry the CP-seed SHAPE with EQUAL weights ⇒ the objec
 predicts η = 0 — the wall lands where cosmology's own unsolved problem sits; registered
 hunt for any forced ~10⁻⁹ number, nulls attached; prediction on record: empty).
 Numerology-max protocol on all three: two-outcome, registered nulls, no salvage.
+
+## ADDENDUM 2 (before C3 lands — interpretation weights + the Bridge Spec master control)
+**Bridge Spec master control (Chat-2 flag, adopted):** every spec row runs against a FOREIGN
+column — the same matching for a generic hyperbolic manifold + E₆ toolbox. Anything that
+"rendezvouses" equally there is toolbox-meets-toolbox, not object-meets-physics. The cubic
+rendezvous specifically must select ℚ(ζ₉)⁺ over generic cubics, or it is void. "Both ends
+agree" enters the record ONLY with this control signed.
+**C3 interpretation pre-bins (fixed before the number):** family≫control = the fingerprint
+survives the birth = the PRECONDITION for physics reopens the chain — NOT "physics".
+generic/middle = a control-signed boundary theorem on what surgery transmits — NOT "nothing";
+the object remains a genuine self-computing interior on the shared continent. The verdict is
+read at these weights, whichever seat it kills.
