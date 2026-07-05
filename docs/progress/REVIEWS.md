@@ -290,3 +290,32 @@ code). Outcome:
    compare a count across knots without confirming the parametrization surfaces the same
    character classes for each. The verify-don't-trust review paid for itself: the defect would
    have propagated into C4 (the E₆ lift builds on these vacua).
+
+---
+
+## Review 4 — 2026-07-05 (the C5/C4 review; the Child Program completion seal)
+
+anchor-commit: c463166
+
+Fired after the Child Program completion (C4/C5/C6). An independent adversarial reviewer
+**re-implemented C5 (B441) and C4 (B442) from scratch** — including a fully **exact
+cyclotomic-arithmetic** WRT/stabilizer engine (zero floating point) — and tried hard to surface a
+hidden Bin-1 break. Outcome: **no refutation; both CONFIRMED, and C5 strengthened.**
+
+1. **C5 CONFIRMED + strengthened.** The child-field == skeleton-field claim holds exactly across
+   **15 values of r** (not just the banked 6). The field is exactly **ℚ(ζ_r)** for both — the
+   stabilizer is universally {1, 2r+1}, σ_{2r+1}: ζ_{4r}↦−ζ_{4r}, fixed field ℚ(ζ_{2r})=ℚ(ζ_r).
+   So the √5/√−3/√−15 at r=15 are forced by ℚ(ζ_15); no figure-eight-specific field content;
+   Bin 3 is now *mechanized*. The Kashaev check and amphichirality reproduced independently.
+   **Honest note adopted:** the τ_r(S³)=1 validation is structurally tautological (F_L≡F_{U+}
+   for the unknot at p=1) and did not catch bugs — corrected in wrt.py + the FINDINGS; the real
+   validations are amphichirality + Kashaev.
+2. **C4 CONFIRMED.** 78 = ⊕Sym^{2mᵢ} (dims sum 78), degree-22 character, both −283-field
+   reductions, and the Galois sums (child 5201, 5₂ −105717) all reproduced. The
+   `galois_invariant_sum` was **hardened** to the exact companion-matrix trace (the nsimplify
+   route was fragile; value unchanged).
+3. **Suite/gates/atlas:** locks green post-hardening (test_b441/b442 7/7); gates green.
+4. **Net:** the Child Program verdict (no bar cleared, nothing figure-eight-unique) survives an
+   independent exact recompute of its deepest survivor (C5) with a wider sweep designed to break
+   it. Two campaign retractions (golden return, golden inversion) + zero surviving-result
+   refutations = the review discipline earning its keep across the whole campaign.

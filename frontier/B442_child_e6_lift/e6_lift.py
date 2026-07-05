@@ -54,9 +54,13 @@ def e6_char_at_vacua(quartic):
 
 
 def galois_invariant_sum(quartic):
-    """sum over the 4 vacua of the E6 adjoint character -- a rational number."""
-    val = sum(e6_adjoint_char().subs(x, r) for r in sp.Poly(quartic, x).all_roots())
-    return sp.nsimplify(sp.re(sp.N(val, 40)))
+    """sum over the 4 vacua of the E6 adjoint character = trace of chi(Companion(quartic)) --
+    an EXACT integer (hardened 2026-07-05 from the fragile nsimplify(re(N(...))) after review)."""
+    comp = sp.Matrix.companion(sp.Poly(quartic, x))
+    acc = sp.zeros(4)
+    for c in sp.Poly(e6_adjoint_char(), x).all_coeffs():      # Horner on the companion matrix
+        acc = acc*comp + c*sp.eye(4)
+    return sp.trace(acc)
 
 
 if __name__ == "__main__":

@@ -8993,8 +8993,8 @@
     "B438",
     "B440"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
   },

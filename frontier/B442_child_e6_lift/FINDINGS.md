@@ -38,6 +38,12 @@ in-sandbox and forced; the intrinsic floor is the honest boundary.
 is commensurability-shared, no bar cleared. Character-level rigorous; the full closed-manifold
 torsion is structural (a function of the −283 vacua) + the named intrinsic boundary.
 
+**Review note (2026-07-05).** Independently confirmed: the 78-decomposition (dims [3,9,11,15,17,23],
+sum 78), the degree-22 character, both reductions, the same −283 field (5₂'s quartic has a linear
+factor over ℚ(child-root)), and the Galois sums (child 5201, 5₂ −105717). The `galois_invariant_sum`
+was **hardened** from a fragile `nsimplify(re(N(...)))` to the exact companion-matrix trace of χ
+(same value, airtight method).
+
 **Provenance.** e6_lift.py → e6_lift.json; lock tests/test_b442_child_e6_lift.py (3/3). Reuses the
 E₆ exponents + Sym machinery (B425/B428/B306). Cross-refs: B439/B440 (the vacua), B435 (26 abelian
 vacua), the Inversion Law (B437/B438), C5 (B441, WRT also forced).
