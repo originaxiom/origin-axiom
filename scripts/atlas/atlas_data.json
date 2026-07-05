@@ -8864,6 +8864,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B437": {
+   "slug": "child abelian book",
+   "motifs": [
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B423",
+    "B425",
+    "B434",
+    "B435"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
