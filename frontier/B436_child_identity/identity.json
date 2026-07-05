@@ -1,0 +1,9 @@
+{
+ "borel_ratio_minus_12_abs": "4.52e-64",
+ "vol_hp": "0.981368828892232088091452189794427068238164321906312438642604200",
+ "zeta_K2_260bits": "1.0569405745997073095869445221617513946569132212229403412667230752070156270648",
+ "cs_hp": "0.0770381802637702225443959018109324425331261348569701971705017304",
+ "cs_small_rational": "none (registered outcome: not identified)",
+ "sibling_7_field_degree": "no field found through degree 14",
+ "child_field": "x^4 - x - 1, disc -283, signature (2,1)"
+}
