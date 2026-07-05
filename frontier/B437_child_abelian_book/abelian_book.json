@@ -1,0 +1,7 @@
+{
+ "golden_trace": "sqrt(5)/5 + 3",
+ "child_total": 121,
+ "sibling_total": 841,
+ "lucas_law": "|2-L_{2p}| = L_p^2 (odd p; L_{2n}=L_n^2+2)",
+ "apparition_11": true
+}
