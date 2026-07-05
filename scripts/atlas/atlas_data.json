@@ -8847,6 +8847,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B436": {
+   "slug": "child identity",
+   "motifs": [
+    "figure_eight",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B434",
+    "B435"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
