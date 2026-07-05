@@ -7,7 +7,7 @@ this is the owner's one-glance view of what the machine is doing.*
 parent) → forced filling ±5 (B434) → **the CHILD = the Meyerhoff manifold 4₁(5,1)**; study the
 child with the parent's full discipline and test *"the SM is what the object PRODUCES, not what
 it contains"* against the four-part emergence bar (forced · unsought · exact-SM · control). C0
-(B435) · C1 (B436) · C2 (B437) · **C3 (B439 core banked; 5₂ foreign control next)** · C4 E₆
+(B435) · C1 (B436) · C2 (B437) · C3 (B439/B440) · **C5 (B441 banked: WRT field surgery-forced, Bin 3)** · C4 E₆
 lift · C5 WRT (next knot-dependent channel) · C6 the Child Atlas + verdict. Predecessor
 DESTINATION ATLAS complete (TW1–TW7, no bar cleared).
 Autonomous; owner signs off only at a bar-clearing emergence. Map: `docs/ROADMAP.md` ·

@@ -1,0 +1,27 @@
+{
+ "child_field_forced": true,
+ "method_ok": true,
+ "r15": {
+  "skeleton_L5": {
+   "degree": 8,
+   "stab": [
+    1,
+    31
+   ],
+   "has_sqrt5": true,
+   "has_sqrtm3": true,
+   "has_sqrtm15": true
+  },
+  "child_4_1_5": {
+   "degree": 8,
+   "stab": [
+    1,
+    31
+   ],
+   "has_sqrt5": true,
+   "has_sqrtm3": true,
+   "has_sqrtm15": true
+  }
+ },
+ "verdict": "Bin 3 (laundering): WRT field content surgery-forced, child==skeleton field all r; sqrt5/sqrt-3/sqrt-15 forced not fig-8-specific"
+}
