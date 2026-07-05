@@ -42,3 +42,13 @@ campaign's next computation (Phase I.2), replacing the assumed GUT-style couplin
 **Provenance.** spin_walls.py → spin_walls.json; lock tests/test_b428_spin_walls.py.
 Cross-refs: S049 (the 27 decomposition + involution table), B347 (E₆ tangent machinery),
 Chat-1/Chat-2 handoffs 2026-07-05 (adjudicated; their §2/§7 self-kills accepted).
+
+## Addendum (2026-07-05, GAP-3): the involution cascade — verified and locked
+
+The complete chain (Chat-1 §5, adjudicated): **E₆ →[θ] F₄ →[Cayley] SO(9)** with
+78 = 52+26; 52 = 36+16; 26 = 1+9+16 ⟹ **78 = 36 + 16 + 16̄ + 9 + 1**, and the SO(10)
+reconciliation 36+9 = 45 = adj SO(10). All dimension identities verified. **The kill stands:**
+F₄ → G₂ is NOT an involution — Cartan's symmetric pairs of F₄ are exactly so(9) (coset 16) and
+sp(3)⊕su(2) (coset 28); G₂ (coset would be 38) is not among them. "Three folds = three
+generations" stays dead; the ℤ/3 is the center (B299), not a fold. Prior art: standard
+branching (flagged). Lock: test_b428_spin_walls.py::test_involution_cascade.
