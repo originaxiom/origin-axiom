@@ -1566,3 +1566,13 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   the physics-touching channel. Recorded-not-built-on: at the unforced slope 7 the child
   sometimes adds field content beyond its skeleton (r=5,15) — 2 points, a lead, artifact-suspect.
   Lock test_b441 (4/4).
+
+- **B442 (C4) — the E₆ lift of the child's vacua: composite data is −283-forced (Bin 3).** The
+  E₆ adjoint 78 = ⊕ Sym^{2mᵢ} (mᵢ = E₆ exponents {1,4,5,7,8,11}); the composite torsion factors
+  as ∏ τ(Sym^{2mᵢ}∘ρ), a function of the C3 vacua. Those vacua are the −283 quartic roots
+  (shared with 5₂). The E₆ adjoint meridian character (deg 22) reduces at each vacuum to an
+  element of the −283 field (child: −1116x³+1844x²+1767x−741; 5₂: a different element of the
+  same field; Galois-invariant sum = rational 5201). So the E₆ composite data is
+  commensurability-shared, not fig-8-specific — Bin 3, inheriting C3. The intrinsically-E₆
+  residue (non-composite vacua) is NAMED as the specialist boundary (the closed-manifold E₆
+  torsion engine), per the plan. Lock test_b442 (3/3).
