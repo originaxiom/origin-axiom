@@ -38,7 +38,19 @@ transitions**. Exact (cyclotomic) result:
 |---|---|---|
 | the lens extracts a real, exact selection rule where the value-lens saw only "dark" | [MATH] | **validated** — the zeros carry structure; the reframing works |
 | the rule is purely mod-5 / primitive-root-2 = the level-5 Weil (golden √5) arithmetic | [MATH] | **forced** — the numerator structure again, now as a conservation law; not a *specific* SM rule |
-| the directionality (W₁·W₂ selects, W₂·W₁ doesn't; beyond Galois) | [HOOK] | **live residue** — a directed conservation law is CP/arrow/chirality-shaped, at the golden seam |
+| the directionality (W₁·W₂ selects, W₂·W₁ doesn't; beyond Galois) | ~~[HOOK]~~ **RETRACTED (W1)** | ~~live residue~~ — a **raw-cell artifact**; dissolves at the proper H-projected seam (see W1 update) |
+
+> **W1 UPDATE (2026-07-05, the Seam–E₆ Bridge campaign, kernel wave — retraction).** The directed
+> rule was the S053 headline's live residue (the only possible Bin A). **It is dead.** Re-derived
+> at the *proper* H-projected seam (the DFT-eigenprojector pair table, `s√−15` coefficient, not the
+> raw matrix support), both orders give **49 nonzero / 44 seam-bearing cells — identical**. The
+> 45-vs-225 was raw *cell-vanishing*, exactly what B385 warned is NOT the true (spectrum-cancellation)
+> darkness. The seam kernel is **order-symmetric** (consistent with B427: exchange = σ₁₇, a Galois
+> symmetry, preserves the seam-count). The arrow/CP residue is retracted. What survives as the
+> kernel is the already-banked **χ₋₃ (√−3) Eisenstein gate** (P68/B404: `3|ord ⟺ χ₋₃(det)=−1`;
+> B431: the 120/120 split, `y≡0 mod3` all dark) — a genuine but *forced* selection rule, the √−3
+> half of the kernel/image split. Reproducer: `w1_kernel.py`. The discipline caught the striking
+> residue as an artifact *before* it was built on — the third such catch this campaign.
 | "physics = the object's selection rules (kernel); existence = the cancellation remainder" | [LEAP] | the right *category*; this first rule is forced, not physical |
 
 **Speculation → calculation:**
