@@ -1,0 +1,15 @@
+{
+ "root": {
+  "eigs": {
+   "-1": 6,
+   "0": 15,
+   "1": 6
+  },
+  "doublets": 6,
+  "singlets": 15,
+  "spinorial": true
+ },
+ "principal": {
+  "all_even": true
+ }
+}
