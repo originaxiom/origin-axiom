@@ -1513,3 +1513,16 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   correctness catch (the skipped foreign control), the leads re-score (Cluster A metallic
   A-poly / L54 gate-A torsion / e₃ now-unblockable), and the e₃ guard (triple_cubic.json
   unconverged, stamped). Board + LEAD_REGISTER refreshed.
+
+## 2026-07-05 (cont.) — C3 opens: the child's SL(2) vacuum book (B439)
+
+- **B439 (C3) — the child's SL(2,C) vacuum book (figure-eight core + slope control).** The
+  child 4₁(5,1)'s irreducible SL(2,C) vacua = the banked B67 Cooper–Long A-polynomial on the
+  (5,1)-line L=M⁻⁵; in the meridian trace t=M+1/M: Q₅(t) = (t+2)·(t⁴−3t³+t²+3t−1) = 1 reducible
+  + 4 irreducible vacua. The vacuum quartic has disc −283 and IS the child's own invariant trace
+  field x⁴−x−1 (explicit root α³−α², verified by remainder; both S₄, disc −283) — the −283
+  reproduce-gate passes rigorously. Slope-7 control: (t+2)·(sextic), 6 vacua, disc 50173=131·383
+  — different count AND field (slope control passes). Verdict HELD pending the 5₂ foreign control
+  (B438's tier-3 bar). A-poly gluing-elimination reproduced 4₁ (Cooper–Long) and 6₁ but
+  degenerated on snappy's default 5₂/3₁ triangulations → foreign control will use the
+  closed-manifold character variety directly. Lock test_b439 (4/4).
