@@ -2,14 +2,23 @@
 
 **Dritëro M.**
 
+> **STATUS (2026-07-05): NOT submittable as a research paper.** A four-reviewer adversarial pass
+> (`papers/REVIEW_VERDICT_2026-07-05.md`) confirmed the arithmetic is correct but found **no new
+> theorem**: the two anchor torsions are individually standard (Theorem 4a is the Lefschetz zeta of
+> the cat map re-indexed; Theorem 4b reproduces Porti's known adjoint torsion, value −3), and the
+> program's own novelty audit already rates the E₆ content KNOWN. The honest destination is an
+> **expository survey** (no novelty claimed), or a short note "Two E₆ adjoint torsions of the
+> figure-eight" *if the pairing survives a specialist*. **The anchoring "two computed discriminants
+> 5 and −3" pairing is asymmetric** — see the corrected Corollary in §4. Review corrections applied
+> inline and flagged `[review]`.
+
 *Draft (full prose from the banked theorem spine; every dictionary entry is machine-verified and
-lock-backed — see the locks named inline and §7). This is a **synthesis paper**: its contribution
-is an organizing principle and an explicit dictionary, not new individual invariants. The two E₆
-torsions that anchor it are, individually, standard invariants (a periodic-orbit product and
-Porti's adjoint Reidemeister torsion); what is offered as new is the **E₆-graded packaging** and
-the observation that the two torsions realize one arithmetic double-uniqueness. Novelty is flagged
-needs-specialist where claimed (§7). This paper has not yet been independently validated as a paper.
-No physical interpretation is asserted.*
+lock-backed). This is a **synthesis paper**: its contribution is an organizing principle and an
+explicit dictionary, **not new theorems** — the two E₆ torsions are, individually, standard
+invariants (a periodic-orbit product = a Lefschetz zeta, and Porti's adjoint Reidemeister torsion).
+What was offered as new is the E₆-graded packaging and the pairing; per the review that packaging is
+not, on its own, a theorem, and the pairing is asymmetric (§4). No physical interpretation is
+asserted.*
 
 ---
 
@@ -21,7 +30,8 @@ arithmetic knot (Reid, 1991; forcing `ℚ(√−3)` through its hyperbolic geome
 uniquenesses about a single knot compose — `√5·√−3 = √−15` — into `ℚ(√5,√−3)`, the Hilbert class
 field of `ℚ(√−15)`. We show that this double uniqueness is the organizing principle behind a family
 of invariants of `4₁`, exhibiting one object in several mathematical languages: its symbolic coding
-(a Sturmian system), its dynamics (Anosov, entropy `4 log φ`), its two Reidemeister-type torsions in
+(a Sturmian system), its dynamics (Anosov; the monodromy has topological entropy `2 log φ`, the
+trace-map flow Lyapunov exponent `4 log φ` — two distinct systems, kept distinct `[review]`), its two Reidemeister-type torsions in
 the exceptional adjoint representation `𝔢₆`, its quantum invariant (Kashaev, in the volume-conjecture
 regime), its quantized value measure, and its L-function landscape. The central identity is that the
 object carries **two `𝔢₆` torsions, one per uniqueness**: the E₆-graded dynamical zeta of the golden
@@ -120,9 +130,9 @@ sets the dynamical entropy sets the quasicrystal spacing of the coding.
 
 **Hessian / frequency spectrum.** The Chern–Simons Hessian spectrum on `H¹(4₁, 𝔢₆)` is the six
 per-exponent torsions `{τ_{m_i}}` (with `∏ τ_{m_i} = τ(E₆)`); it is Fibonacci-golden, and no
-pairwise ratio matches a Standard-Model mass ratio to within the tested tolerance (lock `test_b424`).
-We record the last clause only to mark the boundary: the spectrum is named golden arithmetic, not a
-mass spectrum.
+the six per-exponent torsions are Fibonacci-golden (lock `test_b424`). `[review: the earlier clause
+"no pairwise ratio matches a Standard-Model mass ratio" is cut — it imports a physics frame with no
+antecedent in a pure-math paper.]`
 
 **Quantum invariant.** The Kashaev invariant `⟨4₁⟩_N` satisfies the volume conjecture,
 `2π log⟨4₁⟩_N / N → Vol(4₁)`, and lies in `ℚ(ζ_N)⁺` with a nonzero `ℚ(√5)`-part exactly when `5 | N`
@@ -178,7 +188,9 @@ Eisenstein, not golden: its twisted Alexander coefficients are rational integers
 exponent (the `√−3` cancels — each determinant is `Gal(ℚ(√−3)/ℚ)`-invariant), and the canonical
 adjoint value is `−3 = disc ℚ(√−3)`. This is Porti's adjoint Reidemeister-torsion form, and it
 reproduces the value obtained independently by the normal torsion at the `κ = −2` root and by its
-Fried–Milnor identification — three methods agree.*
+Fried–Milnor identification. `[review: only ONE method (Fox/Wada) is computed in this artifact; the
+normal-torsion (V30) and Porti/Fried–Milnor (V31) values are banked cross-references, not
+re-verified here — "three methods agree" is corrected to one computation plus two cross-references.]`*
 
 *Verification.* Fox calculus (the Wada invariant) at `ρ_geo`, carried out exactly by CRT over primes
 `p ≡ 1 mod 3`, and validated by the trivial representation reproducing the ordinary Alexander
@@ -191,8 +203,13 @@ holonomy — is the substance of the corollary below.
 
 **Corollary (two torsions = two cornerstone sides).** *`4₁` carries two `𝔢₆` torsions: the dynamical
 zeta (golden, `ℚ(√5)`, Theorem 4a) and the geometric torsion (Eisenstein, `ℚ(√−3)`, Theorem 4b).
-They realize the double uniqueness of §2 as two computed discriminants, `5` and `−3`, whose product
-`√5·√−3 = √−15` is the seam field.*
+They realize the double uniqueness of §2 as two computed torsion values, one on each genus side of
+`ℚ(√−15)`. `[review — the pairing is asymmetric, stated honestly:]` the Eisenstein side is a genuine
+coincidence — the geometric torsion value is `−3 = disc ℚ(√−3)`; the golden side is NOT — the
+dynamical zeta value is `ζ₁ = 2−L₄ = −5`, which is a torsion value in `ℚ(√5)`, **not** `disc ℚ(√5)`
+(that is `+5`). So the clean "`−3 = disc(√−3) ↔ 5 = disc(√5)`" reading does not hold; what holds is
+that the two torsions live in the two genus subfields `ℚ(√−3)` and `ℚ(√5)` whose compositum is the
+Hilbert class field of `ℚ(√−15)`. That weaker (and correct) statement is the pairing.*
 
 This corollary is the paper's organizing statement. Each torsion is, on its own, a standard object
 (a periodic-orbit product; Porti's adjoint torsion, reproducing a known value `−3`). The claim is

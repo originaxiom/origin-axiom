@@ -2,11 +2,21 @@
 
 **Dritëro M.**
 
-*Draft (full prose from the banked theorem spine; every theorem is machine-verified and
-lock-backed — see §9). Novelty is claimed only for the overlays and first-computed instances
-identified in §1.4; the underlying frameworks (Weil/theta representations, the quantized cat
-map of Hannay–Berry and Kurlberg–Rudnick, Gelca–Uribe's abelian Chern–Simons/Weil dictionary)
-are cited, not claimed. No physical interpretation is asserted anywhere in this paper.*
+> **STATUS (2026-07-05): NOT submittable as-is.** A four-reviewer adversarial pass
+> (`papers/REVIEW_VERDICT_2026-07-05.md`) confirmed the mathematics is correct and reproducible
+> but found the **novelty largely unestablished** — the hostile referee named prior art for nearly
+> every load-bearing object (the "seam" is a discrete Wigner function; the "twist" is the theta
+> characteristic; "value theory" is the Kurlberg–Rudnick matrix-element program; Theorem 3 is the
+> standard Gauss-sum evaluation). The honest destination is a **short computational note** whose one
+> candidate contribution is the existence law (Theorem 6), *conditional on a specialist confirming
+> novelty*. Concrete corrections from the review are applied inline below and flagged `[review]`.
+
+*Draft (full prose from the banked theorem spine; the results are machine-verified and lock-backed —
+see §9, and the honest recompute-vs-regression-guard note there). Novelty is claimed only for the
+overlays in §1.4, and — per the review — is **not yet established**; the underlying frameworks
+(Weil/theta representations, the quantized cat map of Hannay–Berry and Kurlberg–Rudnick, Wigner
+functions on the torus, Gelca–Uribe's abelian Chern–Simons/Weil dictionary) are cited, not claimed.
+No physical interpretation is asserted.*
 
 ---
 
@@ -224,11 +234,14 @@ The seam *value* `s(a,b)` and its zero-pattern, however, do not factor through `
 brightness locality of Theorem 5 is the correct sense in which the seam is local: it is decided by
 the two local models and their convolution, not by a product of local symbols.
 
-**Theorem 6 (the existence law, general `N`).** *At level `N = 3^a · 5^b` the value sector exists
-if and only if not both exponents are even. Precisely: doublets occur at odd prime powers only
+**Conjecture 6 (the existence law, general `N`) `[review: was "Theorem"; it is derive-and-test at
+finitely many levels, not proved for all N — restated as a conjecture]`.** *At level `N = 3^a · 5^b`
+the value sector exists if and only if not both exponents are even. Precisely: doublets occur at odd prime powers only
 (the 3-side at `90°`, the 5-side at `36°/108°` according to quadratic-residue class); lines occur
 on the inert 3-side always and on the ramified 5-side at even powers only. The law is predictive at
-nine independent sub-verdicts (levels 375, 405, 675) and census-confirmed at 243 and 625.*
+nine sub-verdicts (levels 375, 405, 675). `[review: the earlier claim "census-confirmed at 243 and
+625" is dropped — the cited lock covers prime-powers only up to 81/125 and the 225 death, not 243 or
+625.]`*
 
 *Proof (derived, then predictively tested; locks `test_b377_*`, claim P63).* The value sector is
 built from a line factor and a doublet factor whose existence is controlled by the parity of the
@@ -365,5 +378,8 @@ are exact but certificate-backed. (iii) The high-level environment for the tower
   Chern–Simons and the Weil representation).
 - (class field theory of `ℚ(√−15)`; standard references for genus theory and the Hilbert class field.)
 
-*Provenance: full prose written from the banked theorem spine `THEOREMS.md`; theorems T1–T11 =
-claims P59–P68 (+P60/P61), each lock-backed. Firewalled — no physical interpretation is claimed.*
+*Provenance: full prose written from the banked theorem spine `THEOREMS.md`. `[review-corrected]`:
+Theorems **1–9** map to the promoted ledger claims **P59–P68 (+P60/P61)**, each lock-backed;
+**Theorems 10 and 11 (the class-field organization and the boundary theorems) are frontier-locked
+only, NOT promoted P-claims** — they are presented above at the same exactness but with a lower
+claim-altitude. Firewalled — no physical interpretation is claimed.*
