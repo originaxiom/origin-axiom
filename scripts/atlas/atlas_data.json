@@ -8782,6 +8782,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B433": {
+   "slug": "3d3d calibration",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "B426",
+    "B428",
+    "B429",
+    "B430",
+    "B67",
+    "L50",
+    "V238"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B43": {
    "slug": "markov fricke arithmetic route",
    "motifs": [],
