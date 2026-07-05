@@ -1,0 +1,15 @@
+{
+ "e6_exponents": [
+  1,
+  4,
+  5,
+  7,
+  8,
+  11
+ ],
+ "adj_char_degree": 22,
+ "child_char": "-1116*x**3 + 1844*x**2 + 1767*x - 741",
+ "foreign_char": "-23777*x**3 + 25467*x**2 + 5928*x - 6016",
+ "galois_sum": 5201,
+ "verdict": "Bin 3: E6 composite data -283-forced, shared with 5_2; intrinsic-E6 residue NAMED as the specialist boundary"
+}

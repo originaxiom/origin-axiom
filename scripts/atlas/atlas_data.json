@@ -8998,6 +8998,33 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B442": {
+   "slug": "child e6 lift",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B306",
+    "B425",
+    "B428",
+    "B435",
+    "B437",
+    "B438",
+    "B439",
+    "B440",
+    "B441",
+    "L50"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B44": {
    "slug": "topological torsion route",
    "motifs": [
