@@ -1,9 +1,24 @@
-# CAMPAIGN STATUS — the live board (Closure Campaign)
+# CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**Campaign:** THE CHILD PROGRAM — **COMPLETE (2026-07-05, C0–C6, B435–B443).** Verdict: no
+**Campaign:** THE THERMODYNAMIC CAMPAIGN — **LAUNCHED 2026-07-06.** The owner's critique ("we're
+deriving reality from frozen matter") made systematic: every prior invariant was T=0/static; this
+campaign computes the object's WARM layer — distributions, spectra, response, quantized integers
+of the object-as-system. Made falsifiable after a three-agent adversarial review of the plan
+itself (v1 had labeled theorem-foreclosed channels "decisive"; inverted in v2): per probe, three
+outcomes — **LAUNDERS** (the launder must be *demonstrated* via an explicit out-of-sample-predicting
+closed-form, never asserted) / **NEW-MATH** (banks as mathematics) / **H1-candidate** (→ B398
+discipline, owner present, before voicing). Decisive core: **D1 (B446) tower moment law + twisted
+SFF → D2 (B447) m-scan harness → D3 (B448) interacting entanglement (power-gated) + D4 (B449)
+trace-map resonances**; then the completion sweep + verdict Z. Registration: `docs/OPEN_LEADS.md`
+§thermodynamic campaign · frame: `speculations/S054` · prereg per probe, committed before compute.
+Expected honest outcome (stated before computing): H0a confirmed with earned demonstrations +
+1–2 NEW-MATH banks; H1 possible only in D3, marginally D1/D2. Autonomous; owner signs off only
+at an H1 escalation.
+
+**Previous campaign:** THE CHILD PROGRAM — **COMPLETE (2026-07-05, C0–C6, B435–B443).** Verdict: no
 emergence bar cleared; nothing figure-eight-unique at any floor; the hypothesis "physics is what
 the object produces" is falsified at every computable floor (the three-tier Inversion Law). See
 `frontier/B443_child_atlas/FINDINGS.md`. Original approval: — the banked chain σ → 4₁ (rigid
@@ -19,6 +34,8 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
+- **D1 (B446) — the tower moment law + twisted SFF** (Thermodynamic Campaign, decisive probe 1):
+  prereg committed; pipeline build → KR prime gates → tower N=45..1215 → silver control → SFF.
 - **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
   (x-deg 95×14) detached; bank on landing.
 - **e₃ exact** (B399) — CRT reconstruction sentinel detached; fires the B403/B405/B406 sentinel

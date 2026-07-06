@@ -215,6 +215,33 @@ Endpoints, honestly: best chain = L57 forced → `s(m₁,m₂)` closed form → 
 TOE requires Gates B/C/D + the 4d lift. Failure branches are equally banked: L57-as-choice closes the sixth
 channel exactly. FIREWALLED throughout; zero promotions without derivation + null + the counterweight.
 
+## The thermodynamic campaign (2026-07-06 — the standing campaign)
+
+The owner's critique — *"we're deriving reality from frozen matter"* — made systematic: every prior
+invariant was T=0/equilibrium/static; this campaign computes the object's WARM layer (distributions,
+spectra, response, quantized integers of the object-as-system) to a decisive three-outcome verdict
+per probe: **LAUNDERS** (an explicit closed-form F of the frozen whitelist + class data is exhibited,
+burden-inversion — the launder is demonstrated, never asserted) · **NEW-MATH** (un-launderable, no
+physical content — banks as mathematics) · **H1-candidate** (un-launderable + physical, survives BOTH
+controls → B398 discipline, owner present, before voicing). Plan v2 was adversarially reviewed by
+three independent seats before launch (v1 had labeled theorem-foreclosed channels "decisive" — the
+K020 §6a absorbing frame at campaign-design level; inverted in v2). Discipline: per-probe
+prereg-first with a mandatory lit-gate line; TWO controls (simpler-system AND same-class m-scan);
+reproduce a known number before any object claim; the whitelist frozen at registration (extensions =
+owner sign-off, retraction-grade); atlas + FAILURE_ATLAS consulted per probe; zero promotions;
+FIREWALLED throughout (frame: `../speculations/S054_thermodynamic_campaign.md`). Pre-kills honored:
+B181 (no intrinsic T_c), Dry Ten Martini + gap-labeling (Wave-A-as-fingerprint theorem-dead), B352
+(cup product banked), arg⟨4₁⟩_N ≡ 0 (Kashaev phase vacuous), KR2005 (prime-N variance is a gate).
+
+| probe | channel | state |
+|---|---|---|
+| **D1 (B446) — the tower moment law + twisted SFF** | quantized cat map: Hecke-desymmetrized Var/kurtosis along N=15·3^k; the CRT fixed-cofactor product law (lemma candidate); joint-moment stratum; untwisted SFF = pre-registered P59 launder-control; parity-resolved SFF | **prereg committed; running** |
+| D2 (B447) — the m-scan harness | the new standard control: m=1..6, m²+4-stratified; C(T), β(V) (Damanik–Tcheremchantsev gate), f(α)/P(β) (B186 engine), gap-label realization (θ_m module), γ(E); smooth-in-m vs exceptional-at-m=1 classifier (three known mechanisms whitelisted) | queued |
+| D3 (B448) — interacting entanglement | extend B187's ED engine: level statistics, EE scaling, entanglement-spectrum statistics; POWER-GATED (prereg power analysis or specialist boundary); lit-gate Macé–Laflorencie–Alet 2019 | queued (after D1/D2) |
+| D4 (B449) — trace-map transfer-operator resonances | Ruelle resonance spectrum via cycle expansion on the B186-certified horseshoe (beyond the leading pressure); m-scan + κ-scan; the in-sandbox F3 proxy | queued |
+| C1–C4 — completion sweep | Chern/pump validation table (theorem-foreclosed; extends path1b) · E1 confirm (B419/B425) + E2 pairing-check-then-CS-value (ℚ(√−7) dilog) + E3 = 5₂ control on B352 · TQFT entanglement (BFLP gate) · F3 boundary-naming + F2 one-hour B420 confirm | queued (after core, owner discretion) |
+| Z (B45x) — the verdict | assemble vs H0a; the burden-inversion ledger (every LAUNDERS cites its exhibited F) | queued |
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
