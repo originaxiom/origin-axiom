@@ -1,0 +1,34 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+===== slope (5,1): SnapPy geometric CS = 0.0770381803 =====
+  t=-2.000000+0.000000i  m*=0.000000+3.141593j  CS=+0.29999995  Im/voldrop=-4.059768
+  t=-0.905166+0.000000i  m*=-0.000000+2.040456j  CS=-0.44158663  Im/voldrop=-2.029883
+  t=+0.328956+0.000000i  m*=0.000000+1.405567j  CS=-0.10663901  Im/voldrop=-2.029883
+  t=+1.788105-0.401358i  m*=0.360784-0.575606j  CS=+0.07703818  Im/voldrop=1.048514 <== GEOMETRIC GATE
+  t=+1.788105+0.401358i  m*=0.360784+0.575606j  CS=-0.10618306  Im/voldrop=1.218359
+
+===== slope (7,1): SnapPy geometric CS = 0.0606168663 =====
+  t=-2.000000+0.000000i  m*=0.000000+3.141593j  CS=+0.29999995  Im/voldrop=-4.059768
+  t=-1.123139-0.280028i  m*=0.167371-2.157711j  CS=+0.09030502  Im/voldrop=1.127503
+  t=-1.123139+0.280028i  m*=0.167371+2.157711j  CS=+0.40348432  Im/voldrop=-0.075878
+  t=-0.272443-0.000000i  m*=-0.000000+1.707442j  CS=-0.35110654  Im/voldrop=-2.029884
+  t=+0.779219-0.000000i  m*=0.000000+1.170589j  CS=-0.24935306  Im/voldrop=-2.029883
+  t=+1.869751-0.140344i  m*=0.178323-0.402190j  CS=+0.06740433  Im/voldrop=0.554327
+  t=+1.869751+0.140344i  m*=0.178323+0.402190j  CS=-0.06740433  Im/voldrop=0.554327
+
+
+===== MULTI-PATH CONSISTENCY (the binding pass) =====
+-- slope (5,1), SnapPy geometric CS = 0.0770381803 --
+  t=-2.000000+0.000000i  CS=+0.30000000  paths=OK  voldrop=-4.05977
+  t=-0.905166+0.000000i  CS=-0.44158700  paths=OK  voldrop=-2.02988 [SU(2)]
+  t=+0.328956+0.000000i  CS=-0.34076700  paths=OK  voldrop=-2.02988 [SU(2)]
+  t=+1.788105-0.401358i  CS=+0.07703800  paths=OK  voldrop=+1.04851 <== GATE
+  t=+1.788105+0.401358i  CS=-0.10618300  paths=OK  voldrop=+1.21836
+-- slope (7,1), SnapPy geometric CS = 0.0606168663 --
+  t=-2.000000+0.000000i  CS=+0.30000000  paths=OK  voldrop=-4.05977
+  t=-1.123139-0.280028i  CS=+0.09030500  paths=OK  voldrop=+1.12750
+  t=-1.123139+0.280028i  CS=+0.40348400  paths=OK  voldrop=-0.07588
+  t=-0.272443-0.000000i  CS=-0.19238900  paths=OK  voldrop=-2.02988 [SU(2)]
+  t=+0.779219-0.000000i  CS=-0.24935300  paths=OK  voldrop=-2.02988 [SU(2)]
+  t=+1.869751-0.140344i  CS=+0.06061700  paths=OK  voldrop=+0.56611 <== GATE
+  t=+1.869751+0.140344i  CS=-0.06740400  paths=OK  voldrop=+0.55433
