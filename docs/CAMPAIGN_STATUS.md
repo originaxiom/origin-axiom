@@ -34,9 +34,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **Next: the Ethogram campaign** (plan-mode with full homework + adversarial plan review) → the
-  lens probes (D'Ariano QCA + Verlinde boundary), per the approved 2026-07-07 order. The Concept
-  Atlas is live (`speculations/concept_atlas/`, PR #592; heartbeat card updated by B448).
+- **THE ETHOGRAM CAMPAIGN — LAUNCHED (2026-07-07, plan v2 red-teamed + owner-approved).** The
+  object as organism: observation-without-target across four generative channels, then two TYPED
+  comparison gates (the EZ dry run: ALL GATES VALIDATED). E0 (B452) banked — the dictionary
+  (two-tiered cards with falsifiers; ENVIRONMENT + DEATH cards; the no-heredity disanalogy
+  stated), the frozen registry, the null spec. Next: E1 (B453, covers of the child) + E2 (B454,
+  the closure lemma) in parallel → E3 (B455, integrate the five directions) → E4 freeze → EZ.
+  Then the lens probes (D'Ariano QCA + Verlinde boundary).
 - **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
   (x-deg 95×14) detached; bank on landing.
 

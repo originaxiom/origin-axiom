@@ -244,6 +244,29 @@ B181 (no intrinsic T_c), Dry Ten Martini + gap-labeling (Wave-A-as-fingerprint t
 | C1–C4 — completion sweep | Chern/pump validation table (theorem-foreclosed; extends path1b) · E1 confirm (B419/B425) + E2 pairing-check-then-CS-value (ℚ(√−7) dilog) + E3 = 5₂ control on B352 · TQFT entanglement (BFLP gate) · F3 boundary-naming + F2 one-hour B420 confirm | queued (after core, owner discretion) |
 | Z (B45x) — the verdict | assemble vs H0a; the burden-inversion ledger (every LAUNDERS cites its exhibited F) | queued |
 
+## The Ethogram campaign (2026-07-07 — the standing campaign)
+
+The owner's reframe made systematic: treat the object as an ORGANISM — catalog its behaviors across
+four generative channels (surgery lineage, covering tower, word evolution, trace-map dynamics) with
+NO physics target during observation; freeze the catalog; only then compare against a FROZEN
+registry under two TYPED gates (EZ-1 behavior-specificity vs null-ensemble catalogs; EZ-2
+numeric-correspondence under the B322/B398 machinery, binding p<0.01; structural predicates can
+never fire alone). Full ethological frame (owner's choice): every life-concept mapping carries
+definition + computation + falsifier and is itself attackable; a card that fails its falsifier is
+RETIRED, never patched. Plan v2 adversarially red-teamed before launch (1 FATAL — the EZ type
+error — + 7 MAJOR fixed; theorem-forced invariants relabeled as gates; UNDECIDED-AT-DEPTH-L bin
+added; p-values licensed only where nulls support them). The S054 whitelist + burden-inversion
+rule bind verbatim. Frame + card deck: `../speculations/S055_ethogram/DICTIONARY.md`.
+
+| probe | channel | state |
+|---|---|---|
+| **E0 (B452) — the dictionary + typed comparison prereg** | the card deck (two-tiered, falsifiers, disanalogy lines, ENVIRONMENT + DEATH cards); the frozen registry (20 numeric + 3 structural predicates); the null-ensemble spec; **the EZ dry run: ALL GATES VALIDATED (fire AND fail demonstrated)** | **DONE (2026-07-07)** — `frontier/B452…`, lock 2/2 |
+| E1 (B453) — reproduction: the lineage | the sterility assembly (labeled); the ℤ/5 cover of the child (b₁, torsion, virtual-fibering degree — never computed; vol ×5 + invariant trace field = theorem-forced gates; Agol backdrop stated; BLOCKING lit-gate Chinburg/census); the parent cover-field table (Maclachlan–Reid reconciliation = gate) | queued |
+| E2 (B454) — growth, exhaustion, choice | PRIMARY: the closure lemma (induction over the B448 recursion); secondary: bounded counterexample scan L=8; per-level forced-vs-choice (B449 method); verdicts incl. UNDECIDED-AT-DEPTH-8 (never counted as H0a); random-word null n≥1000 (the p-value channel) + Thue–Morse | queued |
+| E3 (B455) — stimulus-response | integrate the FIVE non-geometric E₆ directions (geometric = the A-poly curve = the gate, must pass first); landing-verdict taxonomy (COMPONENT-FOUND / WALL / OBSTRUCTED-AT-ORDER-k / DIVERGENT — "nothing happened" inadmissible); dps-100 conditional tier stated; compute ceiling precommitted; NZ filling curve demoted to an E4 descriptive card | queued |
+| E4 (B456) — the catalog | every behavior as a dictionary entry (behavior / mechanism / genericity under both controls / whitelist status); freeze + hash before EZ | queued |
+| EZ (B457) — the two typed gates + verdict | EZ-1 specificity + EZ-2 correspondence (frozen registry, p<0.01, trials-corrected) + structural joint; H1 requires both gates + both controls + B398 escalation, owner present | queued |
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
