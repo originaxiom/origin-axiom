@@ -72,3 +72,30 @@ The standing pattern, again: generic mechanism (equivariance), pair-specific lab
 - In every outcome: ℤ/2×ℤ/2 ≅ "CP structure" remains a structural predicate that cannot fire
   alone (B452's frozen rule); "you cannot accidentally reproduce a coset structure" remains
   inverted (equivariance reproduces it automatically).
+
+
+## THE VERDICT LANDED (Chat-2's control, 2026-07-07 — the pre-registered reading fires)
+
+**Chat-2's cross-address control: the tier structure splits by Legendre class — c=1 (the
+fig-8's address) is IDENTICAL to c=4 and c=11 (the QR class), different from the NQR class
+(70 total-dark vs 10 total-dark).** The selection structure is the QR-class's at level 15, not
+the object's. This is the pre-registered class-shared branch, and it now stands on TWO
+independent axes: the ADDRESS axis (Chat-2's control; anticipated by the banked B402 QR/NQR
+split) and the SEED-PAIR axis (this addendum's `pair_control.py`: every pair has its own table).
+The Klein-four selection rule is real, exact, elegant — and it is the arithmetic class's.
+
+**Convergence note (the real closure):** all three seats have now independently derived the same
+theorem through different computations — Chat-2's words ("the object forces its arithmetic, and
+everything built on that arithmetic is shared by the whole class that has it") are K020's Galois
+firewall = the Inversion Law = the campaigns' H0a, reached this time through the deepest exact
+selection structure the program has produced.
+
+**One correction to Chat-2's "the last door I can't see through" (band topology / integer
+invariants — third re-flag):** the single-particle version is THEOREM-CLOSED, banked (the
+campaign review + B447): the gap-labeling theorem maps the integers into ℤ+ℤθ_m — the integers
+ARE arithmetic-class-sorted (by the module/continued fraction, not the Legendre symbol — the
+mechanism Chat-2 says "doesn't apply to integers" is exactly the one that does); the Dry Ten
+Martini problem is solved (all gaps open, every irrational α), so the realized-label set cannot
+differ; Chern = gap label (Kraus–Zilberberg). The honest surviving sliver is the INTERACTING
+case (no gap-labeling theorem exists there) = the queued thermo-campaign probe D3 (B450),
+power-gated, lit-gated (Macé–Laflorencie–Alet 2019).
