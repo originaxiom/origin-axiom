@@ -269,6 +269,28 @@ rule bind verbatim. Frame + card deck: `../speculations/S055_ethogram/DICTIONARY
 | **B459 — the Klein-four addendum, verified** | the 2026-07-07 addendum | **DONE (PR #601)** — arithmetic bit-for-bit (5 of 16 patterns, 120/20/20/10/70; Laws 1–2 PASS); **mechanism = the subfield lattice of ℚ(√5,√−3)** (equivariance, not a group miracle — "Law 3 as algebra" corrected); new exact facts banked (subfield-membership everywhere; no pure-√−15 values); dictionary HELD |
 | EZ (B457) — the two typed gates + verdict | as preregistered | **DONE — H0a EARNED, campaign CLOSED.** EZ-1: closure correctly non-specific (p₁=1.0); label-fires adjudicated (generic mechanisms, own labels). EZ-2: 6 hits vs null 3.99, **p=0.168 — does not fire** (the B322 verdict at the behavioral level). Structural: 0/3. **No H1.** The behavioral map + the dictionary-with-retirements bank as the deliverables |
 
+## The Relation campaign (2026-07-07 — the standing campaign)
+
+Chat-1's five relation paths (child / link / double / 4d-lift / Ruelle), premises corrected by
+homework, plan red-teamed (1 sub-cell fatal-cut: 4₁'s mirror-double is equal-by-theorem via
+B144; R3a redesigned to the φ-scan pairing; R2 budget-laddered; R4 scoped to the principal
+lift). MB12 applied to the plan itself: the cells that CAN fire = R5's resonance spectrum, R2's
+SL(3) fields, R3a′'s phases, R1's per-vacuum CS; pre-forced cells labeled as gates/tables.
+Incoming computations verified/folded (v2.1): Chat-2's gap-label retraction CONFIRMS the banked
+B447 adjudication (threshold artifact; labels = ℤ universally; the datum is α=θ₁ — known);
+Borromean incoming claims to verify exactly in R2 with two corrections (vol = 2 octahedra;
+trace-field-vs-seam-field comparison fixed). The whitelist + burden-inversion bind verbatim.
+Hygiene note: Archive.zip (owner's) and B399/B87 outputs (running exploratory jobs) stay
+untracked by standing rule — adjudicated, not forgotten.
+
+| probe | channel | state |
+|---|---|---|
+| R4 (B463) — the principal centralizer | the 4d-commutant cell, scoped; Kostant lit-gate; long-root SU(6) control gate | **prereg committed; running first** |
+| R1 (B460) — the child's own dynamics | length spectrum (table cell, pre-forced, blocking lit-gate) + per-vacuum CS of the 4 vacua (LIVE; ±0.077 engine gate; 4h timebox) | prereg committed; queued |
+| R2 (B461) — the Borromean rings | the first link; feasibility ladder (F_p/CRT → per-class 1h Groebner → LLL fallback); Brunnian two-register test; controls Whitehead + s776 + o9_39906; incoming-claims table | queued |
+| R3 (B462) — the double | φ-scan WRT pairing vs the B174 classical fork table (THE probe); ‖Z‖² = gate; 5₂ mirror-double = the chirality payload (4₁'s cut — equal-by-theorem); self-gluing κ-diagonal | queued |
+| R5 = D4 (B451) — trace-map Ruelle resonances | the reserved thermo slot; γ=0.51 gate; κ>2 bounds; grammar named as input | queued |
+| RZ (B464) — the verdict | per-probe bins; does ANY relational invariant escape class-laundering? | queued |
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
