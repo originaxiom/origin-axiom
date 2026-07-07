@@ -73,3 +73,20 @@ def test_galois_split_is_mod3_not_qr():
         classes.setdefault(s, []).append(c)
     parts = sorted(sorted(v) for v in classes.values())
     assert parts == [[1, 4, 7, 13], [2, 8, 11, 14]]   # mod-3 split, not QR {1,4}
+
+
+def test_chat2_c_family_15_9_table_and_complementarity():
+    """ADDENDUM: Chat-2's quadratic-form family — the 15/9 table splits by (c|5),
+    and the full l=1 structure (mu4-coset + scalar law) persists iff (c|5)=+1."""
+    import numpy as np
+    sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B465_monodromy_intake"))
+    import c_family as CF
+    for c in CF.CS:
+        U = CF.U_c(c)
+        assert np.max(np.abs(U @ U.conj().T - np.eye(15))) < 1e-12
+        cnt = CF.spec(U)
+        assert len(cnt) == CF.EXPECT[c]
+        assert (c % 5 in CF.QR5) == (len(cnt) == 15)
+        M4 = np.linalg.matrix_power(CF.M_c(c), 4)
+        scal = np.max(np.abs(M4 - M4[0, 0] * np.eye(15))) < 1e-8
+        assert scal == (c % 5 in CF.QR5)
