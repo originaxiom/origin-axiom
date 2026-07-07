@@ -34,11 +34,25 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **HOLD for the owner's "heartbeat" handoff** — then: the Concept Atlas → the Ethogram campaign
-  (plan-mode) → the lens probes (D'Ariano QCA + Verlinde boundary), per the approved 2026-07-07
-  brainstorm order (intake map delivered in-session).
+- **Next: the Ethogram campaign** (plan-mode with full homework + adversarial plan review) → the
+  lens probes (D'Ariano QCA + Verlinde boundary), per the approved 2026-07-07 order. The Concept
+  Atlas is live (`speculations/concept_atlas/`, PR #592; heartbeat card updated by B448).
 - **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
   (x-deg 95×14) detached; bank on landing.
+
+## LAST BANKED (the heartbeat adjudication)
+- **B448 (2026-07-07) — two handoffs adjudicated + the orbit-field tower computed exactly.**
+  Chat-2's three structural NOs + cocycle heartbeat: reproduced bit-for-bit (exact rationals;
+  the 2-cycle +0.010418/−0.074496; mechanism generic by two controls). Chat-1's period-2
+  heartbeat CONFIRMED exactly (monodromy-fixed points on κ=−2 = the discrete-faithful pair,
+  ℚ(√−3) — the trace field re-derived dynamically); Chat-1's √5 field-tower REFUTED (period 5 =
+  an irreducible quintic, disc 7²17²; ℚ(√5) absent at all periods ≤7 — the golden end does not
+  beat on the hyperbolic locus). **The double beat (period 4) = ℚ(√−7), the chirality field's
+  THIRD independent appearance** — object-specific by the silver control (silver beats its own
+  fields: i, √−3, a −15-resolvent), but whitelisted: the warm orbit tower reads back the frozen
+  arithmetic (H0a again). Bonus: κ=−2 IS the Markov surface (classical anchor). Carried
+  corrections re-flagged (trinification = B445-killed; the "mass matrix" cup product = banked
+  ZERO at B352/B370; Kashaev phase vacuous). Locks 3/3.
 
 ## LAST BANKED (Thermodynamic Campaign, probe 2)
 - **B447 (D2, 2026-07-07) — the m-scan harness: LAUNDERS across all observables; no H1.**

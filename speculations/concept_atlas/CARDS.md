@@ -206,15 +206,19 @@
 
 ## the heartbeat
 - physics essence: (owner's name) the object pulses instead of settling.
-- object counterpart: THREE exact pulses on record, each with its own mechanism (not unified):
-  (1) the projective-chirality **period-2 limit cycle** (+0.010418/−0.074496 exact; Chat-2 handoff
-  2026-07-07, reproduced in-session; mechanism GENERIC by control — bank pending as B448);
-  (2) the SFF **Pisano revival** at t = π(N)/2 (B446, exact); (3) the **log-periodic** Schottky
-  structure of C(T) (B447, class-generic). The mechanism-level statement (Chat-2's, verified):
-  *the object beats instead of choosing* — it selects cycles, not values.
+- object counterpart: FOUR exact pulses on record, each with its own mechanism (kept apart):
+  (1) the projective-chirality **period-2 limit cycle** (+0.010418/−0.074496 exact; on the
+  PERIOD-DOUBLING word — mechanism GENERIC by control; B448); (2) the SFF **Pisano revival** at
+  t = π(N)/2 (B446, exact); (3) the **log-periodic** Schottky structure of C(T) (B447,
+  class-generic); (4) **the trace-map orbit tower on the cusp/Markov locus** (B448, exact):
+  beat 1 (monodromy-fixed) = the discrete-faithful pair, **ℚ(√−3)** = the trace field; beat 2
+  (double cover) = **ℚ(√−7)** = the chirality field's THIRD independent appearance; ℚ(√5) absent
+  at all periods ≤ 7 (the golden end does not beat on the hyperbolic locus — Chat-1's √5-tower
+  refuted); silver control carries silver's own labels. The mechanism-level statement (verified):
+  *the object beats instead of choosing* — and what it beats out is its own frozen arithmetic.
 - status: MAPPED-EXACT (each pulse) / RHYME (their unification) [MATH/HOOK]
 - sharpen: none urgent; unification only if a computation ties two pulses (do not assert it).
-- trap: unifying the three pulses by name alone; each has a distinct proven mechanism.
+- trap: unifying the four pulses by name alone; each has a distinct proven mechanism.
 
 ## time
 - physics essence: the parameter of dynamics; thermodynamic arrow; relativistic proper time.

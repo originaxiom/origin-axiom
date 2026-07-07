@@ -1,0 +1,31 @@
+recursion == T1 dynamics: verified numerically (20 random states)
+
+== period 1: eliminant factors on kappa=-2 ==
+   a0   -> Q
+
+== period 2: eliminant factors on kappa=-2 ==
+   a1   -> Q   [seen at lower period]
+   a1**2 - 3*a1 + 3   -> Q(sqrt(-3))  [disc -3]
+
+== period 3: eliminant factors on kappa=-2 ==
+   a2   -> Q   [seen at lower period]
+
+== period 4: eliminant factors on kappa=-2 ==
+   a3 + 1   -> Q
+   a3   -> Q   [seen at lower period]
+   a3**2 - 3*a3 + 3   -> Q(sqrt(-3))  [disc -3]   [seen at lower period]
+   a3**2 - a3 + 2   -> Q(sqrt(-7))  [disc -7]
+
+== period 5: eliminant factors on kappa=-2 ==
+   a4   -> Q   [seen at lower period]
+   a4**5 + a4**4 + a4**2 + 3*a4 + 1   -> deg-5, disc = 14161 = {7: 2, 17: 2}
+
+== period 6: eliminant factors on kappa=-2 ==
+   a5   -> Q   [seen at lower period]
+   a5**2 - 3*a5 + 3   -> Q(sqrt(-3))  [disc -3]   [seen at lower period]
+   a5**2 + 3*a5 + 3   -> Q(sqrt(-3))  [disc -3]
+
+== period 7: eliminant factors on kappa=-2 ==
+   a6   -> Q   [seen at lower period]
+   a6**14 + a6**13 - a6**12 - 4*a6**11 + 2*a6**10 + 7*a6**9 + 7*a6**8 - 8*a6**7 - 6*a6**6 + 2*a6**5 + 14*a6**4 + 8*a6**3 - 16*a6**2 - a6 + 3   -> deg-14, disc = 12345771770077050229587699933 = {3: 2, 13: 7, 23: 3, 367: 3, 6029: 2}
+

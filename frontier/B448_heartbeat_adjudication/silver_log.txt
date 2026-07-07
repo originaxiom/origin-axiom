@@ -1,0 +1,15 @@
+/Users/dri/origin-axiom/frontier/B448_heartbeat_adjudication/silver_control.py:1: SyntaxWarning: invalid escape sequence '\F'
+  """B448 control: the silver monodromy's orbit fields (same computation, m=2).
+twist trace maps verified against 2x2: True
+L o R == T1^2: True
+
+== Fix(S) on kappa=-2 (gate: silver invariant trace field) ==
+   z   deg 1
+   z**4 + 16   deg 4, disc=1048576={2: 20}
+
+== Fix(S^2) on kappa=-2 (the silver period-4 beat) ==
+   z   deg 1
+   z**2 + 3   deg 2, disc=-12={2: 2, 3: 1, -1: 1}
+   z**2 + 4   deg 2, disc=-16={2: 4, -1: 1}
+   z**4 - z**2 + 4   deg 4, disc=14400={2: 6, 3: 2, 5: 2}
+   z**4 + 16   deg 4, disc=1048576={2: 20}
