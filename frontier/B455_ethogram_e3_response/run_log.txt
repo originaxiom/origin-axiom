@@ -1,0 +1,7 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+== E3 engine build ==
+relator: abbbaBAAB
+GATE i: offblock(R0)=1.29e-09 (must ~0); Sym^2 trace match: False
+GATE ii: relator residual at rho0 = 1.40e+39 (relative 2.00e+16)
+ENGINE GATES FAILED - no runs.
