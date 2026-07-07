@@ -340,6 +340,21 @@ oriented: 5₂(5,1) = 4₁(−5,1), verified) — the wall merges everything exc
 (slope only); NZ lit-frame; shared-surgery lit-gate pending. **The three thoughts converge on the
 ℤ/2 orientation bit — real, exact, derivable; names HELD.** `frontier/B467_family_residue_wall/`.
 No H1.**
+
+## B468 — the "ℤ/3 color" handoff adjudicated (2026-07-08, same-day)
+
+Chat-1's claimed refutation of Chat-2's det = −1 + a "color–darkness interaction" + A₄/neutrino
+reading. **Adjudicated exactly: (1) the det contradiction = both-right-different-objects (3rd
+construction-identity of the night): det(D) = ω exact (Chat-1's C(15,3) = 455 right FOR D),
+det(Wr) = ω̄ (dropped factor), det(W₁) = det(W₂) = 1 — word family uniformly −1 (Chat-2 right),
+elementary-twist family −ω^{j+2l} (Chat-1's pattern). (2) The darkness correlation REFUTED in
+exact arithmetic: dark row = (24,24,22), near-uniform (their 34/9/10 + dark=53 = float
+tier-misclassification; exact dark = 70) — the A₄/gauge/confinement chain loses its base;
+A₄→tribimaximal is also experimentally dead (θ₁₃ ≠ 0). (3) Continents: Chat-2's 8×15 CONFIRMED
+exactly. (4) The confinement rule REFUTED (1798/4000 violations). (5) The owner's
+track-the-residue-independently directive ENDORSED: det(Par@N) = (−1)^{(N−1)/2} — the residue's
+tower oscillation is the level mod 4, derivable; the one nonuniform ℤ/2 remains the orientation
+bit (B466/B467).** `frontier/B468_z3_adjudication/`. No H1.**
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
