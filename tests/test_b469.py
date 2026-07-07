@@ -25,3 +25,17 @@ def test_family_gieseking_theorem():
     A = sp.Matrix([[m * m + 1, m], [m, 1]])
     assert sp.simplify(X * X - A) == sp.zeros(2, 2)
     assert sp.simplify(X.det()) == -1
+
+
+def test_sigma_lift_exact():
+    sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B465_monodromy_intake"))
+    from sigma_lift_check import fp_family
+    from exact_engine import find_root_of_unity
+    p = 61
+    z15 = find_root_of_unity(p, 15)
+    Wmc, WR, Dc, Par, mat, matpow = fp_family(p, z15)
+    Wmc_c, _, _, _, _, _ = fp_family(p, pow(z15, 14, p))
+    for m in (1, 2):
+        lhs = Wmc_c(m, 1)
+        rhs = mat(mat(Par, matpow(WR(14), m)), mat(Par, Dc(m, 14)))
+        assert lhs == rhs
