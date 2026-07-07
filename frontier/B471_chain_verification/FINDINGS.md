@@ -31,6 +31,11 @@ has trace 1 — elliptic of order 6 (the orbifold stage; the Eisenstein 6, plain
 
 ## The chain laws — all verified exact (n ≤ 14)
 
+- **CORRECTION (2026-07-08, from B470-RF2)**: the scout's "trace field ℚ(√(9mₙ²−4))" is
+  the monodromy's EIGENVALUE (scale) field — real, hence NOT the 3-manifold trace field
+  (which is complex; RF2 finds the actual trace fields exceed degree 12 by body n=3).
+  The Markov-form-field statement stands for the SCALE fields; the trace-field tower is
+  B470-RF2's open cell.
 - Fricke recursion u_{n+1} = u_n u_{n−1} − u_{n−2} on traces 6, 3, 15, 39, 582, …
 - The Markov cubic x²+y²+z² = xyz conserved on every consecutive triple; /3 = the spine
   walk 1, 2, 5, 13, 194, 7561, … (the drop-oldest branch).
