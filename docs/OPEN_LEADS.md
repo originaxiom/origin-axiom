@@ -356,6 +356,24 @@ track-the-residue-independently directive ENDORSED: det(Par@N) = (−1)^{(N−1)
 tower oscillation is the level mod 4, derivable; the one nonuniform ℤ/2 remains the orientation
 bit (B466/B467).** `frontier/B468_z3_adjudication/`. No H1.**
 
+## B471 — the Chain Scout verified (Chat-2 exploratory 2026-07-08 → CC bank same-day)
+
+All scout claims verified exact; one UPGRADED: **THEOREM — tr[A_m,A_n] = 2 − (mn(n−m))²**
+(closed form; symbolic), so the commutator is parabolic ⟺ (m,n) = (1,2): **the (golden,
+silver) pair is the UNIQUE cusp-closing metallic pair, for all m<n** — the seam's address
+has a one-line mechanism. Cohn identification certified (⟨A₁,A₂⟩ = ⟨g₁,g₂⟩ by Nielsen
+identities; balanced words ∈ commutator subgroup; Cohn 1955 lit-gate). The chain s_{n+1} =
+s_ns_{n−1}: Fricke recursion, Markov cubic conserved, /3 = the spine 1,2,5,13,194,…, EVERY
+renormalized pair parabolic (the infinite tower of stages), mod-60 state period 20 = ord(W₁).
+Half-chain: the breath IS the sign in the twisted Fricke law; breathing words = metallic form
+v²+4, silent = cover form v²−4 (BR-N rides the tower). Constants confirmed + the two seats'
+normalizations reconciled (λ_mine = λ_theirs^φ; temperature 0.62957/syllable). **The aba body
+(prereg-4): vol 7.6417106, torsion 37 ✓, CS = 0 — AMPHICHIRAL: the body-chain breathes
+differently from B470's letter-tower (chiral at n=3) — the two towers are now each other's
+control (B470-RF1 comparison cell fixed).** Heredity conjecture honestly downgraded to the
+observed irregular table (specific instances confirm; general law needs rank-of-apparition).
+`frontier/B471_chain_verification/`. No H1.**
+
 ## B469 Phase 2 — the σ-parity classification (Chat-2's prereg merged; CC bank 2026-07-08)
 
 Chat-2's independently-launched σ-parity campaign merged as B469 Phase 2 (prereg + Phase-2a
