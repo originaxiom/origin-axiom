@@ -39,3 +39,15 @@ def test_sigma_lift_exact():
         lhs = Wmc_c(m, 1)
         rhs = mat(mat(Par, matpow(WR(14), m)), mat(Par, Dc(m, 14)))
         assert lhs == rhs
+
+
+def test_br_n_norm_identity():
+    m = sp.Symbol('m', positive=True, integer=True)
+    x = sp.Symbol('x')
+    X = sp.Matrix([[m, 1], [1, 0]])
+    assert sp.expand(X.charpoly(x).as_expr() - (x**2 - m*x - 1)) == 0
+    assert X.det() == -1 and (X*X).det() == 1
+    phi = (1 + sp.sqrt(5))/2
+    for mm, k in [(1, 1), (4, 3), (11, 5), (29, 7)]:
+        lm = (mm + sp.sqrt(mm*mm + 4))/2
+        assert sp.simplify(lm - phi**k) == 0 and k % 2 == 1

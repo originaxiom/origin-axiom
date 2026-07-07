@@ -89,10 +89,35 @@ is a σ-parity selection rule (odd invariants on conjugation-stable components m
 vanish mod ½). Bin: derivation from banked facts — the load-bearing input is the
 real-form conjugation-stability (banked-anchored, Falbel); no new computation claimed.
 
+## BR-N — the norm identity (the owner's sentence, verified as three exact statements)
+
+*"The smallest residue that can't cancel is the norm of the scale, frozen at −1 across
+the entire family, living on the golden axis alone."* All three clauses are exact
+(`br_n_norm.py`):
+
+1. **The residue IS the norm of the scale**: X_m = [[m,1],[1,0]] is the COMPANION MATRIX
+   of the metallic mean's minimal polynomial x² − mx − 1, so det(X_m) = N(λ_m) = −1 —
+   BR2's orientation bit and the field norm of the scaling unit are literally the same −1.
+2. **Frozen across the family**: symbolically for all m; and it survives the same-field
+   degeneracy — the ℚ(√5) members m = 1, 4, 11, 29 are exactly φ^{1,3,5,7} (the ODD
+   powers; the banked L16 Pell sub-lead), so N = (−1)^odd = −1 even where λ_m is a proper
+   power. The orientable cover A_m = X_m² has det = N(λ_m²) = +1: **norm −1 lives on the
+   half — the Gieseking floor — and the cover pays for orientability with norm +1.**
+3. **On the golden (real/scale) axis alone**: imaginary quadratic norm forms are positive
+   definite — a unit of norm −1 is IMPOSSIBLE there. The geometry end of the two-ended
+   object (√−3, √−7, √−15) structurally cannot carry the residue's norm-realization; only
+   the scale end can. (Coheres with P1b: the real axis is the σ-even one.)
+
+Adjudication: classical algebra throughout — LAUNDERS, banked as the exact exhibit. The
+identity closes a loop across three registers: **norm −1 of the scale ⟺ det −1 of the
+half-monodromy ⟺ the non-orientable quotient exists** — arithmetic, linear algebra, and
+topology giving the same bit.
+
 ## Reproduce
 ```
 python3 br1_br2.py            # BR1 + BR2 symbolic; ALL CHECKS PASS
 python3 sigma_lift_check.py   # Phase 2: the lift exact at two primes + the +j obstruction
+python3 br_n_norm.py          # BR-N: the norm identity, three exact statements
 # BR2 SnapPy gate: NonorientableCuspedCensus[0].orientation_cover() ≅ 4_1 (session log)
 pytest ../../tests/test_b469.py
 ```
