@@ -249,3 +249,19 @@
 - status: MAPPED-EXACT (the three structural NOs; bank pending as B448) [MATH]
 - sharpen: the interacting case (D3) — the one regime where settling could differ.
 - trap: none; this card IS the strongest negative, stated plainly.
+
+
+## Card 26 — the breath (the residue's oscillation)   [added 2026-07-08, owner directive]
+
+**The move**: the program's object is now the RESIDUE — the orientation character, the one
+ℤ/2 that survived every register (the odd σ-permutation, det(Par), the wall's unmerged bit,
+the Gieseking deck action, the CS sign law, the chirality window) — and THE BREATH, its
+oscillation: det(Par@N) = (−1)^((N−1)/2) through the level tower (15 −, 45 +, 75 −, 225 +…),
+verified in two registers at once (B469-BR1). The residue's geometric body exists at every
+family member (BR2: every metallic bundle double-covers a non-orientable bundle — the
+Gieseking family). At the wall the breath breaks: parents exhale mirror-children (BR4).
+**[MATH]** all of the above, exact/banked. **[LEAP]** "breath" as a life-word for a mod-4
+arithmetic character. **[HOOK]** BR3: the breath fields (the σ_m-orbit tower) — does the
+family's breath carry an arithmetic law (orbit fields per m)? **The negative, stated**: the
+residue is uniform at fixed level (it distinguishes nothing pointwise — B468); its life is
+BETWEEN levels, members, and orientations, not within a single frame.
