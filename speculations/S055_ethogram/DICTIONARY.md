@@ -43,7 +43,7 @@ are the deck's armor, not its embarrassment.
 
 ## Tier 2 — DECISIVE cards
 
-### reproduction & heredity
+### reproduction & heredity — **UPDATED (B453): the offspring cannot even be assigned a parent (4₁(5,1) ≅ 5₂(5,1), rigorous)**
 - definition: forced emission of a new object by self-application (the surgery move: 4₁ → the
   forced ±5 filling → the child 4₁(5,1)).
 - computation: banked one round (B434–B443); the open cell = the cover-lineage (E1: the ℤ/5
@@ -56,7 +56,7 @@ are the deck's armor, not its embarrassment.
   anything** — no selection, no adaptation, no evolution in the biological sense. The lineage
   continues only *virtually* (Agol's theorem — a background fact, not an observation).
 
-### homeostasis (restoring response)
+### homeostasis (restoring response) — **RETIRED (B455, by computation, as predicted)**
 - definition: perturbed off its conserved surface (the κ level set), does the dynamics RETURN?
 - computation: E3-adjacent — perturb (x,y,z) off κ=−2, iterate, measure the κ-distance profile.
 - falsifier: built in — if the dynamics does not return (expected: it does NOT; conservative
