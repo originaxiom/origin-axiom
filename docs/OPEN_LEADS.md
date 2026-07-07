@@ -291,6 +291,19 @@ untracked by standing rule — adjudicated, not forgotten.
 | R3 (B462) — the double | φ-scan + 5₂ chirality payload + κ-diagonal | **BANKED**: engine gate = B441 bit-for-bit; TT-zero KM-forced (class-generic); 5₂ H≠B + sesquilinear ST/TS split = chirality re-expressed (mixed control forced-equal, mechanism localized); κ-diagonal exact (parabolic law κ=−2 launders via silver control; fig-8's ζ₇⁺-cubic + ℚ(√5) = derived curve data). No H1 |
 | R5 = D4 (B451) — trace-map Ruelle resonances | the reserved thermo slot; γ=0.51 gate; κ>2 bounds; grammar named as input | queued |
 | RZ (B464) — the verdict | per-probe bins; does ANY relational invariant escape class-laundering? | queued |
+
+## B465 — the 8×4×3 monodromy handoff (2026-07-07, verified same-day)
+
+Incoming (Chat-1 float + Chat-2 exact): the two-generator operator M = Par·W₁·W₂ at level 15
+has 15 modes splitting 8/4/3 by rotation period; SU(3)-octet reading proposed. **Verified
+EXACTLY (3 split primes) and DERIVED: M⁴ = ζ₆₀³²·I (the spectrum is ζ₆₀⁸·μ₄, eigenspace dims
+4,4,3,4 — the "octet" is 4⊕4); the whole l-sweep is the Weil functor reading SL(2,ℤ/15)
+conjugacy data; the one object-input is Fricke's tr(A₁A₂) = 15 (→ H112). SU(4)→SU(3)/Pati–Salam
+readings REFUTED at the eigenspace level. New exact fact: spec(Par·W₁)'s Galois stabilizer =
+ker(c mod 3) — char poly over ℚ(√−3) (the trace field), classes split mod 3, NOT by QR.
+Corrections issued (period 6 not 3; 2 spectral classes not 8). Awaiting constructions: Chat-2's
+c-twist (15/9 claim not reproducible by any Galois twist), Chat-1's loop family + dark-point
+phases. `frontier/B465_monodromy_intake/`. No H1.**
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
