@@ -301,9 +301,16 @@ EXACTLY (3 split primes) and DERIVED: M⁴ = ζ₆₀³²·I (the spectrum is ζ
 conjugacy data; the one object-input is Fricke's tr(A₁A₂) = 15 (→ H112). SU(4)→SU(3)/Pati–Salam
 readings REFUTED at the eigenspace level. New exact fact: spec(Par·W₁)'s Galois stabilizer =
 ker(c mod 3) — char poly over ℚ(√−3) (the trace field), classes split mod 3, NOT by QR.
-Corrections issued (period 6 not 3; 2 spectral classes not 8). Awaiting constructions: Chat-2's
-c-twist (15/9 claim not reproducible by any Galois twist), Chat-1's loop family + dark-point
-phases. `frontier/B465_monodromy_intake/`. No H1.**
+Corrections issued (period 6 not 3; 2 spectral classes not 8). **ADDENDUM (same day):
+Chat-2's shuttle delivered the c-construction — VERIFIED exactly (the 15/9 table splits by
+(c|5); all unitary); their Q4 answered: the full 8-4-3/scalar structure persists iff (c|5)=+1
+(family-class-shared, not a c=1 fingerprint) and fails structurally otherwise (hybrid
+form/kernel family — no Egorov guarantee; the 5-part = the golden ramified prime).
+Complementarity banked as a remark: the deformation family splits by (c|5) (√5 axis), the
+Galois family by (c|3) (√−3 axis) — the two generators of the banked Klein four, now
+classifying FAMILIES. Both corrections owned by Chat-2; record three-seat-consistent.
+Outstanding: Chat-1's loop/dark-phase/max-tr constructions. H112 endorsed by both seats.**
+`frontier/B465_monodromy_intake/`. No H1.**
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
