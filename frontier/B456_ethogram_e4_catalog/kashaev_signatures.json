@@ -1,0 +1,24 @@
+{
+ "kashaev_4_1": {
+  "1": 1.0,
+  "2": 5.0,
+  "3": 13.0,
+  "4": 27.0,
+  "5": 50.472135955,
+  "6": 89.0,
+  "7": 151.279029546,
+  "8": 250.639610307,
+  "9": 407.328854874,
+  "10": 651.898593817,
+  "11": 1030.208579018,
+  "12": 1610.787002031
+ },
+ "integers_at": [
+  1,
+  2,
+  3,
+  4,
+  6
+ ],
+ "note": "small-N integers {1,5,13,27,89} at N in {1,2,3,4,6} are a small-N phenomenon (NOT a 5-divisibility law - corrected in-session); N=5 gives the banked 46+2*sqrt5 (B384); this sequence is Zagier's quantum-modular-form territory (known; lit anchor, no novelty); phase identically 0 (verified, B448 adjudication)"
+}
