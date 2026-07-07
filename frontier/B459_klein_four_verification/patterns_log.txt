@@ -1,0 +1,15 @@
+channel support sizes (cells): {0: 32, 1: 45, 2: 28, 3: 44}
+
+vanishing patterns (1 = channel is ZERO at the point) and counts:
+  (0, 0, 0, 0)  {}                               : 120
+  (1, 1, 1, 1)  {p(rat),q(sqrt5),r(sqrt-3),s(sqrt-15)} : 70
+  (0, 0, 1, 1)  {r(sqrt-3),s(sqrt-15)}           : 20
+  (0, 1, 0, 1)  {q(sqrt5),s(sqrt-15)}            : 20
+  (0, 1, 1, 1)  {q(sqrt5),r(sqrt-3),s(sqrt-15)}  : 10
+
+total patterns occurring: 5 of 16
+Law 1 (no single vanishing): PASS
+Law 2 (s=sqrt-15 dies in every nontrivial pattern): PASS
+patterns == the subfield lattice of Q(sqrt5,sqrt-3): True
+the Q(sqrt-15)-valued pattern (q,r dead, s alive) occurs: False
+counts match the addendum (120/20/20/10/70): True
