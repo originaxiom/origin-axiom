@@ -52,9 +52,47 @@ The σ_m-orbit structure on Fix(σ_m²) per family member (B466's computation at
 the period-2 orbit of each geometric structure and its field (golden: ℚ(√−3), banked).
 Requires the metallic trace-map family (B48/B154 machinery); queued as the next wave.
 
+## Phase 2 — the σ-parity classification (Chat-2's seat; files committed verbatim + CC bank)
+
+Chat-2 independently launched the same campaign as "proposed B469" — merged here as
+**Phase 2** (`PREREG_SIGMA_PARITY.md` + `PHASE2A_RESULTS.md`, committed with the
+falsifier-fired audit trail intact, which is the point). CC's bank:
+
+- **The σ-lift VERIFIED EXACT** (upgraded from their 1e-15): conj(W(m,1)) =
+  Par·WR₁₄^m·Par·D(m,14) at p = 61, 421 for m = 1, 2 (`sigma_lift_check.py`; conj = the
+  ring hom z → z¹⁴, licensed — the construction is polynomial in z over ℚ). σ's operator
+  realization is the c ↦ −c ≡ 14 twist, Par-dressed on the Fourier part: **a twisted
+  two-world correspondence (c=1 ↔ c=14), not an internal mirror.**
+- **The +j obstruction is symbolically exact**: T₋ⱼ − Tⱼ = c·m·j — the quadratic form's
+  non-centeredness is what prevents similarity; verified also spectrally (conj(M₁) and
+  M₁₄ have angle gap 1.26 — not similar).
+- **P1b restated and endorsed** (one-line arithmetic): −1 is a QR mod 5 and ≡ 2 mod 3 —
+  so σ preserves the Legendre-5 classes and exchanges the mod-3 classes: **the √5 axis is
+  σ-even, the √−3 class-pairing is σ-odd** — the B465-addendum two-axis complementarity
+  now carries its parity reading.
+- **Their Phase-2a records the FOURTH naming collision of the arc** (B466's character-
+  variety components vs the Weil operators — same letter, different objects), caught by
+  their own prereg falsifier. The shuttle rule ("name the operator") is now
+  load-bearing in all three seats.
+
+## P2b — the derivation of the pair's emptiness (CC's assignment, delivered)
+
+With banked anchors only: (i) V₁/V₂ are real-form (PU(2,1)/spherical-CR) components
+(B444's Falbel anchor; B458's launder) ⇒ each component is **conjugation-stable as a
+set**; complex conjugation is orientation-reversing, and Vol is odd under it ⇒
+**Vol(Vᵢ) = 0 derived exactly**; CS is odd mod 1 ⇒ **CS(Vᵢ) ∈ {0, ½} derived** — the
+parity mechanism forces the emptiness up to the intrinsic mod-½ ambiguity of parity
+arguments, and the banked B458 computation selects 0. (ii) The σ̂ deck exchange
+(B466: V₁ ↔ V₂) adds the consistency relation CS(V₁) = −CS(V₂). So the year's
+"beautiful, symmetric, empty" verdict at this floor now has a MECHANISM: the emptiness
+is a σ-parity selection rule (odd invariants on conjugation-stable components must
+vanish mod ½). Bin: derivation from banked facts — the load-bearing input is the
+real-form conjugation-stability (banked-anchored, Falbel); no new computation claimed.
+
 ## Reproduce
 ```
-python3 br1_br2.py     # BR1 + BR2 symbolic; ALL CHECKS PASS
+python3 br1_br2.py            # BR1 + BR2 symbolic; ALL CHECKS PASS
+python3 sigma_lift_check.py   # Phase 2: the lift exact at two primes + the +j obstruction
 # BR2 SnapPy gate: NonorientableCuspedCensus[0].orientation_cover() ≅ 4_1 (session log)
 pytest ../../tests/test_b469.py
 ```

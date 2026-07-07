@@ -355,6 +355,20 @@ exactly. (4) The confinement rule REFUTED (1798/4000 violations). (5) The owner'
 track-the-residue-independently directive ENDORSED: det(Par@N) = (−1)^{(N−1)/2} — the residue's
 tower oscillation is the level mod 4, derivable; the one nonuniform ℤ/2 remains the orientation
 bit (B466/B467).** `frontier/B468_z3_adjudication/`. No H1.**
+
+## B469 Phase 2 — the σ-parity classification (Chat-2's prereg merged; CC bank 2026-07-08)
+
+Chat-2's independently-launched σ-parity campaign merged as B469 Phase 2 (prereg + Phase-2a
+committed verbatim, falsifier-fired audit trail intact — their own prereg caught the 4th naming
+collision on its author). **CC bank: the σ-LIFT VERIFIED EXACT (two primes): conj(W(m,1)) =
+Par·WR₁₄^m·Par·D(m,14) — σ = the c ↦ −c twist, Par-dressed: a twisted TWO-WORLD correspondence
+(c=1 ↔ c=14), not an internal mirror; the +j obstruction T₋ⱼ−Tⱼ = cmj exact. P1b endorsed
+(√5 axis σ-even, √−3 pairing σ-odd — the two-axis complementarity's parity reading). P2b
+DELIVERED: Vol(Vᵢ) = 0 derived exactly + CS(Vᵢ) ∈ {0,½} derived from real-form conjugation-
+stability (B444/B458) + parity oddness — the year's emptiness now has a MECHANISM (a σ-parity
+selection rule), with B458's computation selecting 0.** Phase 2b queued (the parity column on
+the ledger; Gieseking descent proper). `docs/ROADMAP_TOE.md` written (owner's meditation ask):
+the position, the three papers, the open registers, the three honest ToE scenarios. No H1.**
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
