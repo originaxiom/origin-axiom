@@ -34,9 +34,21 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **D2 (B447) — the m-scan harness** (Thermodynamic Campaign, decisive probe 2): next up.
+- **HOLD for the owner's "heartbeat" handoff** — then: the Concept Atlas → the Ethogram campaign
+  (plan-mode) → the lens probes (D'Ariano QCA + Verlinde boundary), per the approved 2026-07-07
+  brainstorm order (intake map delivered in-session).
 - **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
   (x-deg 95×14) detached; bank on landing.
+
+## LAST BANKED (Thermodynamic Campaign, probe 2)
+- **B447 (D2, 2026-07-07) — the m-scan harness: LAUNDERS across all observables; no H1.**
+  Three flags resolved with full discipline: γ_on = noise floor; D₀ = estimator non-convergence
+  (band method: golden ≈ silver at V=1); **C_peak_T survived six artifact tests → formal
+  H1-candidate → the burden-inversion session laundered it the earned way** — the parameter-free
+  8-moment Gauss-quadrature surrogate (exact class arithmetic) reproduces the flag statistic
+  itself at all three couplings, out-of-sample. Golden's offset = letter-frequency/moment
+  arithmetic (θ₁ closest to ½ = CF-extremality). Permanent criticality class-wide (B181
+  extended). The harness is the campaign's standing control instrument. Locks 5/5.
 
 ## LAST BANKED (Thermodynamic Campaign)
 - **B446 (D1, 2026-07-07) — the tower moment law: LAUNDERS (demonstrated) + one NEW-MATH lemma.
