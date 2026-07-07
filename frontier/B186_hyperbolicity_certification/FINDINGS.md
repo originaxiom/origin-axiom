@@ -36,6 +36,13 @@ horseshoe is a theorem (Damanik–Gorodetski)** — only then applied off-axis.
   | **κ<2 off-axis** | 2i (κ=−2) | **0.18** | exponential escape — same signature |
   | **κ<2 off-axis #2** | 1.5i | **0.33** | exponential escape — same signature |
 
+  **CORRECTION (2026-07-08, B451):** the quoted γ = 0.51 at λ = 3 is the EARLY-WINDOW value of this estimator
+  (400-point line, fit window 0.001 < f < 0.5, transient-inclusive) — it reproduces exactly with this file's code,
+  but the asymptotic escape rate at λ = 3 is **γ = 0.445 ± 0.006**, established in B451 by three independent
+  methods (dense-line asymptotic windows 0.451(5); 2D-surface direct 0.443(2); cycle expansion 0.445). The
+  CERTIFICATION VERDICT IS UNCHANGED (it needs γ > 0 = exponential escape, which holds in every window); only the
+  quoted value's precision is corrected. See `../B451_thermo_d4_resonances/FINDINGS.md`.
+
   The diagnostic is **correct on ground truth** (γ>0 exactly where the horseshoe is proven, ≈0 on the band) and the
   off-axis case shows the **same horseshoe signature**. Robust: across trapping radius `R∈[12,60]`, sampling
   density, and every κ<2 value tested (`κ` from 1.36 down to 0.56), the band stays exactly `0.000` and the
