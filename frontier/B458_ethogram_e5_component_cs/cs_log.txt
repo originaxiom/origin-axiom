@@ -1,0 +1,17 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+===== m004 =====
+  obs=0: 7 exact solution branches
+    branch 0: zero ptolemy coordinate (invalid branch), skipped
+    branch 1: minpoly=t - 1 disc=None  cvol=8.119532851277231 + i*1.6323747908941755e-15
+    branch 2: minpoly=t - 1 disc=None  cvol=-8.119532851277231 + i*1.6323747908941755e-15
+    branch 3: minpoly=t - 1 disc=None  cvol=0.0 + i*3.0921445959286586e-15
+    branch 4: minpoly=t - 1 disc=None  cvol=0.0 + i*3.0921445959286586e-15
+    branch 5: minpoly=2*t**2 + 3*t + 2 disc=-7  cvol=-1.975416358268589e-16 + i*7.738818266767034e-15
+    branch 6: minpoly=2*t**2 + 3*t + 2 disc=-7  cvol=1.975416358268589e-16 + i*7.738818266767034e-15
+  obs=1: 4 exact solution branches
+    branch 0: zero ptolemy coordinate (invalid branch), skipped
+    branch 1: zero ptolemy coordinate (invalid branch), skipped
+    branch 2: minpoly=t**2 + t + 1 disc=-3  cvol=5.699650820756297e-16 + i*2.0903417885520525e-16
+    branch 3: minpoly=t**2 + t + 1 disc=-3  cvol=-5.699650820756297e-16 + i*2.0903417885520525e-16
+===== m015 =====
