@@ -285,10 +285,10 @@ untracked by standing rule — adjudicated, not forgotten.
 
 | probe | channel | state |
 |---|---|---|
-| R4 (B463) — the principal centralizer | the 4d-commutant cell, scoped; Kostant lit-gate; long-root SU(6) control gate | **prereg committed; running first** |
-| R1 (B460) — the child's own dynamics | length spectrum (table cell, pre-forced, blocking lit-gate) + per-vacuum CS of the 4 vacua (LIVE; ±0.077 engine gate; 4h timebox) | prereg committed; queued |
-| R2 (B461) — the Borromean rings | the first link; feasibility ladder (F_p/CRT → per-class 1h Groebner → LLL fallback); Brunnian two-register test; controls Whitehead + s776 + o9_39906; incoming-claims table | queued |
-| R3 (B462) — the double | φ-scan WRT pairing vs the B174 classical fork table (THE probe); ‖Z‖² = gate; 5₂ mirror-double = the chirality payload (4₁'s cut — equal-by-theorem); self-gluing κ-diagonal | queued |
+| R4 (B463) — the principal centralizer | the 4d-commutant cell, scoped; Kostant lit-gate; long-root SU(6) control gate | **BANKED**: C_e6(principal sl2) = 0 exact; control dim 35 ✓; no continuous 4d gauge group from the principal lift |
+| R1 (B460) — the child's own dynamics | length spectrum (table cell, pre-forced) + per-vacuum CS (LIVE) | **BANKED**: Kirk–Klassen multi-path validated (0.0606170 = SnapPy); child SU(2) vacua CS = −0.4415870, −0.3407670 (new numbers, lit-gate pending); geometric ±0.077 gate ✓ |
+| R2 (B461) — the Borromean rings | the first link; feasibility ladder; Brunnian two-register test; three controls; incoming-claims table | **rung 1 DONE** (vol = 2·v_oct exact; ℚ(i) gate PASS; claims verified); rungs 2–3 (F_p dims + per-class eliminations) running |
+| R3 (B462) — the double | φ-scan + 5₂ chirality payload + κ-diagonal | **BANKED**: engine gate = B441 bit-for-bit; TT-zero KM-forced (class-generic); 5₂ H≠B + sesquilinear ST/TS split = chirality re-expressed (mixed control forced-equal, mechanism localized); κ-diagonal exact (parabolic law κ=−2 launders via silver control; fig-8's ζ₇⁺-cubic + ℚ(√5) = derived curve data). No H1 |
 | R5 = D4 (B451) — trace-map Ruelle resonances | the reserved thermo slot; γ=0.51 gate; κ>2 bounds; grammar named as input | queued |
 | RZ (B464) — the verdict | per-probe bins; does ANY relational invariant escape class-laundering? | queued |
 ## Note on the AI-assisted register's §E guard numbering
