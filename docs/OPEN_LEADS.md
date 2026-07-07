@@ -326,6 +326,20 @@ under another name). E₆ equivariant-Hessian hope closed a fortiori (Hessian = 
 the σ-signature (±1)⁶ on the six H¹ directions = named follow-up. Dictionary essay filed with
 two corrections (B445's universal H¹ = 6; T[M₃,E₆] = NEEDS-SPECIALIST).**
 `frontier/B466_sigma_equivariant/`. No H1.**
+
+## B467 — the owner's three thoughts: family / residue / wall (2026-07-07, prereg'd + computed same-day)
+
+F1 family-ratios vs CKM: **earned negative** (886 prereg'd expressions, 0 hits on all four
+targets, null-calibrated; B428 trap stays killed). H112 fold-in: tr(A_mA_n) = (mn+1)²+m²+n²+1
+holds (Fricke algebra); **the naive "trace = pair conductor" law REFUTED at (1,3)** (27 ≠ 65) —
+the (1,2) "15 twice" is single-pair. F2 residue: exact permutation signs on (ℤ/15)² — everything
+orientation-preserving is even; **the single odd bit is σ (det −1, the Gieseking half-monodromy)**;
+derivable ((det|15) Jacobi character); "chirality" HELD. F3 wall: **Chat-1's premise VERIFIED —
+4₁(5,1) ≅ 5₂(5,1)** (= m003(−2,3)); the merge is **orientation-REVERSING** (CS ±0.0770382;
+oriented: 5₂(5,1) = 4₁(−5,1), verified) — the wall merges everything except F2's bit; H₁ = ℤ/p
+(slope only); NZ lit-frame; shared-surgery lit-gate pending. **The three thoughts converge on the
+ℤ/2 orientation bit — real, exact, derivable; names HELD.** `frontier/B467_family_residue_wall/`.
+No H1.**
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
