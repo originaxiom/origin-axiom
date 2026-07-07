@@ -34,15 +34,19 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **THE ETHOGRAM CAMPAIGN — LAUNCHED (2026-07-07, plan v2 red-teamed + owner-approved).** The
-  object as organism: observation-without-target across four generative channels, then two TYPED
-  comparison gates (the EZ dry run: ALL GATES VALIDATED). E0 (B452) banked — the dictionary
-  (two-tiered cards with falsifiers; ENVIRONMENT + DEATH cards; the no-heredity disanalogy
-  stated), the frozen registry, the null spec. Next: E1 (B453, covers of the child) + E2 (B454,
-  the closure lemma) in parallel → E3 (B455, integrate the five directions) → E4 freeze → EZ.
-  Then the lens probes (D'Ariano QCA + Verlinde boundary).
-- **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
-  (x-deg 95×14) detached; bank on landing.
+- **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
+  Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
+  behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its
+  offspring cannot even be assigned a parent (4₁(5,1) ≅ 5₂(5,1), rigorously); its growth can
+  never leave its birth arithmetic (the closure LEMMA); it beats instead of choosing (four
+  exact pulses); no homeostasis (retired by computation — no dissipation); response flat to 3rd
+  order, finite response priced at the quantified engine boundary; its components carry exactly
+  ZERO (E5 — with the 5₂ control showing nonzero is generic); its selection rules are the
+  subfield lattice of its own field (B459). The handoffs' three tests: all closed. EZ-2:
+  p=0.168, does not fire. Next (approved queue): the lens probes (D'Ariano QCA + Verlinde
+  boundary), owner report first.
+- **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
+- **e₃ exact** (B399) — detached sentinel; bank on landing.
 
 ## LAST BANKED (the heartbeat adjudication)
 - **B448 (2026-07-07) — two handoffs adjudicated + the orbit-field tower computed exactly.**
