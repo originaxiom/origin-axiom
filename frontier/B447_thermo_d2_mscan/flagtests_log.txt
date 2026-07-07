@@ -1,0 +1,21 @@
+== FLAG TEST 1: D0(V=2) at N~2500 for all m (estimator convergence) ==
+  m=1: D0(1500)=0.5257  D0(2500)=0.4533  shift=-0.0724
+  m=2: D0(1500)=0.4593  D0(2500)=0.4593  shift=+0.0000
+  m=3: D0(1500)=0.5116  D0(2500)=0.5010  shift=-0.0106
+  m=4: D0(1500)=0.5480  D0(2500)=0.5341  shift=-0.0139
+  m=5: D0(1500)=0.5159  D0(2500)=0.5159  shift=+0.0000
+  m=6: D0(1500)=0.5438  D0(2500)=0.5353  shift=-0.0085
+  flag at N=1500: True (e1/med=7.93)   at N=2500: True (e1/med=5.11)
+== FLAG TEST 2: C_peak_T fit-form dependence ==
+  fit vs log lam : e1=0.0256  med(others)=0.0040  ratio=6.5
+  fit vs theta   : e1=0.0290  med(others)=0.0058  ratio=5.0
+  fit vs 1/lam   : e1=0.1348  med(others)=0.0146  ratio=9.2
+== FLAG TEST 3: gamma_on finite-size scaling (noise floor?) ==
+  m=1 N=1000: gamma_on=0.00096  (1/N=0.00100)
+  m=1 N=2500: gamma_on=0.00097  (1/N=0.00040)
+  m=1 N=5000: gamma_on=0.00032  (1/N=0.00020)
+  m=1 N=10000: gamma_on=0.00040  (1/N=0.00010)
+  m=6 N=1000: gamma_on=0.00182  (1/N=0.00100)
+  m=6 N=2500: gamma_on=0.00167  (1/N=0.00040)
+  m=6 N=5000: gamma_on=0.00167  (1/N=0.00020)
+  m=6 N=10000: gamma_on=0.00167  (1/N=0.00010)

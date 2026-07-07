@@ -1,0 +1,16 @@
+== FLAG 2 RESOLUTION: C_peak_T on fine grid + parabolic interpolation ==
+  fine-grid peaks: [1.15642, 1.08231, 0.98796, 0.9039, 0.83061, 0.76371]
+  classifier: e1/med=5.53  flag=True  (coarse-grid run had 6.57)
+== FLAG 1 RESOLUTION: exact band-based D0 (transfer-matrix, no diagonalization) ==
+  -- V=1.0 --
+    m=1: level 12(q=377,bands=350,S=0.1054) -> 13(q=610,bands=461,S=0.0956)  D0=0.7380
+    m=2: level 6(q=239,bands=237,S=0.1513) -> 7(q=577,bands=426,S=0.1226)  D0=0.7363
+    m=3: level 4(q=142,bands=142,S=0.2259) -> 5(q=469,bands=369,S=0.1266)  D0=0.6226
+    m=4: level 3(q=89,bands=89,S=0.3501) -> 4(q=377,bands=314,S=0.1665)  D0=0.6291
+    m=5: level 3(q=161,bands=153,S=0.3056) -> 4(q=836,bands=454,S=0.1429)  D0=0.5886
+    m=6: level 2(q=43,bands=43,S=0.6922) -> 3(q=265,bands=221,S=0.2993)  D0=0.6613
+    classifier at V=1.0: e1/med=4.4  flag=True
+  -- V=2.0 --
+    m=1: level 12(q=377,bands=28,S=0.0253) -> 13(q=610,bands=27,S=0.0808)  D0=0.0304
+    m=2: level 6(q=239,bands=47,S=0.0300) -> 7(q=577,bands=28,S=0.0514)  D0=0.4913
+    m=3: level 4(q=142,bands=82,S=0.0191) -> 5(q=469,bands=42,S=0.0679)  D0=0.3456
