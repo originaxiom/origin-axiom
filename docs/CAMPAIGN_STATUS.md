@@ -34,10 +34,22 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **D1 (B446) — the tower moment law + twisted SFF** (Thermodynamic Campaign, decisive probe 1):
-  prereg committed; pipeline build → KR prime gates → tower N=45..1215 → silver control → SFF.
+- **D2 (B447) — the m-scan harness** (Thermodynamic Campaign, decisive probe 2): next up.
 - **m=3 metallic spectral genus** (B87/Cluster A) — symbolic cross-resultant elimination
   (x-deg 95×14) detached; bank on landing.
+
+## LAST BANKED (Thermodynamic Campaign)
+- **B446 (D1, 2026-07-07) — the tower moment law: LAUNDERS (demonstrated) + one NEW-MATH lemma.
+  No H1.** KR prime gates reproduced (N·Var→1.00 = the arithmetic enhancement, kurt→2.00). The
+  fixed-cofactor tower law: `N·Var = S₅(m)·C₃ = 3/8` (golden) at every level N=15·3^k —
+  **out-of-sample exact at N=3645**, silver **5/8 derived a priori** (S₅=5/6, C₃=3/4 shared);
+  the m-dependence is exactly the whitelisted 5-splitting mechanism (ramified vs inert in
+  ℚ(√(m²+4))). Exact twisted-product multiset factorization (the B355 CRT-twist catch at
+  eigenbasis level): kurt(135) predicted=measured to 6 digits (4.904533); kurtosis drifts
+  3.75→9.24 — the tower's limiting law is NOT the KR SU(2) law (NEW-MATH; adversarial lit-gate:
+  APPARENTLY-UNWRITTEN — the tower regime, constants, and drift unpublished; the bare CRT
+  factorization = KR Duke §4.1, scoped out). SFF: untwisted = the P59 Pisano law exactly (full
+  revival at t=π(N)/2); the parity twist annihilates revivals. Locks: `tests/test_b446.py` (7/7).
 - **e₃ exact** (B399) — CRT reconstruction sentinel detached; fires the B403/B405/B406 sentinel
   battery on landing. NOTE: the on-disk `triple_cubic.json` snapshot is UNCONVERGED — not the
   answer (guard-stamped 2026-07-05).
