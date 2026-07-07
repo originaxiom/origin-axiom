@@ -311,6 +311,21 @@ Galois family by (c|3) (√−3 axis) — the two generators of the banked Klein
 classifying FAMILIES. Both corrections owned by Chat-2; record three-seat-consistent.
 Outstanding: Chat-1's loop/dark-phase/max-tr constructions. H112 endorsed by both seats.**
 `frontier/B465_monodromy_intake/`. No H1.**
+
+## B466 — the σ-equivariant locus (Chat-1's proposal, 2026-07-07, adjudicated + computed same-day)
+
+Chat-1: "nobody looked at the σ-fixed representations." Adjudication: σ² is inner (Brown III.8
+— trivial on X(M), H¹); the fiber-level fixed locus IS the banked variety (B67/B71 — Layer 3
+was load-bearing, not unvisited). The live residual — σ itself (det −1, half-monodromy) — is
+the GIESEKING deck symmetry (fig-8 = orientation double cover; lit-gated). **Computed exactly:
+σ preserves V₀ ((p,q)↦(q,p), fixed line p=q) and EXCHANGES the Dehn-filling pair W₁↔W₂; the
+σ-fixed locus = the V₀-line through the all-ones triple point = the characters that descend to
+Gieseking. The geometric rep is NOT σ-fixed: its characters (3±√−3)/2 are σ-swapped — the
+banked B448 period-2 ℚ(√−3) orbit IS the σ-orbit of the geometric structure (Layer 4, banked
+under another name). E₆ equivariant-Hessian hope closed a fortiori (Hessian = 0 on all of H¹);
+the σ-signature (±1)⁶ on the six H¹ directions = named follow-up. Dictionary essay filed with
+two corrections (B445's universal H¹ = 6; T[M₃,E₆] = NEEDS-SPECIALIST).**
+`frontier/B466_sigma_equivariant/`. No H1.**
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
