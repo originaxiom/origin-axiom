@@ -73,6 +73,19 @@ derivation — see the negatives.
 | C4 | the tower's additive volume law = an epoch-additivity | B489/registry already logs vol(wₙ) = n·vol(4₁) and the asymptotic additivity defect →0; read as "epoch action adds" | partially banked |
 | C5 | CCC inter-aeon map = σ | there is no computation here; CCC's conformal rescaling is not σ in any checked sense | **HOOK only** |
 
+## C2 RESULT (computed 2026-07-09): NEGATIVE — E₁₀ does not house the program's E₆↔E₈ duality
+Ran the one live computation. Using the clean T(2,3,r) presentation (E₆=T(2,3,3), E₈=T(2,3,5),
+E₁₀=T(2,3,7); Cartan determinants 3, 1, −1 confirm the identifications, E₁₀ hyperbolic):
+- **E₆ ⊂ E₈ ⊂ E₁₀ are nested** principal submatrices — the nesting grows the LONG arm, whose tip
+  is the over-extension / BKL-billiard "cosmological" region. So E₆ sits maximally FAR from the
+  cosmological nodes (it is the deep finite interior, not the gravity wall).
+- **Rank obstruction:** rank E₆ + rank E₈ = 6 + 8 = 14 > 10 = rank E₁₀, so E₆ and E₈ **cannot be
+  orthogonal (commuting) subalgebras** of E₁₀. They can only be nested (asymmetric).
+- The program's E₆↔E₈ is a **symmetric duality** (ℚ(√−3)↔ℚ(√5), Niven; two regimes of one
+  recursion). E₁₀ offers only asymmetric nesting E₆⊂E₈ (and forbids orthogonality by rank). So the
+  E₁₀/BKL-billiard connection is a **family resemblance** (both use the E-series), NOT a structural
+  home for the program's two-ended structure. **The hook stays a hook; C2 does not upgrade it.**
+
 ## Verdict
 The BKL/E₁₀ connection has a **real mathematical spine** — the metallic family are exactly the
 constant-era periodic orbits of the same Gauss-map/SL(2,ℤ) dynamics that governs BKL era transitions,
