@@ -45,7 +45,8 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 | L-ESC | γ(λ=3) = 0.445(6) three-method; B186's 0.51 = early-window bias (corrected); grammar ≠ full 2-shift | B451 | Bowen–Ruelle classical; the correction is the program's record |
 | L-2STREAM | level-2 arithmetic: trace fields ESCALATE per rung (4/8/12; 14; >32) while scale fields stay Markov-quadratic | B470 RF2 | **NEEDS-LIT**: "trace fields punctured torus bundles word length", Guéritaud–Futer |
 
-| T-KQ | the quantum commutator table tr[W₁ʲ,W₂ˡ] (magnitudes = divisors of 15); **THE CLOSURE THEOREM [W₁²,W₂³] = I** — quantum closure ⟺ CRT centrality (A₁² central mod 3, A₂³ central mod 5); mod-3 image = Q₈, mod-5 image = SL(2,5); κ_q(1,1) = −1 ≠ κ_cl = −2 | B472 | `kq_verify.py` | mechanism classical (cite); the seam-level κ_q framing NEEDS-LIT |
+| T-KQ | the quantum commutator table tr[W₁ʲ,W₂ˡ]; **THE CLOSURE THEOREM [W₁²,W₂³] = I** (CRT centrality); mod-3 image Q₈, mod-5 image SL(2,5); κ_q(1,1) = −1 ≠ κ_cl = −2 | B472 | `kq_verify.py` | mechanism classical (cite); the seam-level κ_q framing NEEDS-LIT |
+| T-MASTER | **the master theorem**: κ_q = ε(jl)·χ₅ (two characters: Q₈-parity × mod-5 closure), and BOTH κ_q and the seam tier factor through the divisor pair (gcd(x,20), gcd(y,12)) — the entire selection architecture = two functions on the 36-cell divisor lattice of the clock orders; B474's laws = finite cell checks | B474 | `cross_table.py` + master table, locks | the co-factorization is the program's own; divisor-lattice selection rules NEEDS-LIT (Paper 1/4 spine) |
 
 ## Constants awaiting identification (the relaunch's inverse-symbolic targets)
 
