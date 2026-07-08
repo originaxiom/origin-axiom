@@ -11,7 +11,7 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 
 | # | statement | bank | reproducer | lit-status / search terms |
 |---|---|---|---|---|
-| T-UNIQ | tr[A_m,A_n] = 2 − (mn(n−m))²; the commutator is parabolic ⟺ (m,n) = (1,2) — the unique cusp-closing metallic pair | B471 | `chain_verify.py` | **NEEDS-LIT (Paper 4)**: "commutator trace parabolic punctured torus generators", "Fricke identity pairs SL(2,Z) trace 2", Cohn 1955, Gilman–Maskit two-generator |
+| T-UNIQ | tr[A_m,A_n] = 2 − (mn(n−m))²; the commutator is parabolic ⟺ (m,n) = (1,2) — the unique cusp-closing metallic pair | B471 | `chain_verify.py` | **NEEDS-LIT (Paper 4)**: line-by-line vs Aigner 2013 (Markov's Theorem & the Uniqueness Conjecture), Reutenauer 2018 (Christoffel Words to Markoff Numbers — Fricke/Cohn bijection ch.), Cusick–Flahive 1989, Cohn 1955. The Fricke commutator identity is classical; the METALLIC parametrization + factored-square form is the candidate novelty (Chat-1 lit-sweep 2026-07-08) |
 | T-MIRROR | every word in metallic letters R^mL^m is reverse+swap-cyclic ⟹ the bundle is amphichiral; the criterion is sufficient NOT necessary (exact witnesses LLLRLLRRRLRR pair, (ℤ/12)² torsion) | B470 (PR #625/#627) | `hierarchy_verify.py` | **NEEDS-LIT**: "amphichiral punctured torus bundles palindromic monodromy", Hilden–Lozano, the flagship recursion's gate |
 | T-GIES-FAM | X_m = [[m,1],[1,0]], X_m² = A_m, det −1 ∀m: every metallic bundle orientation-double-covers a non-orientable bundle (m=1: Gieseking; SnapPy gate m000 ✓) | B469 BR2 | `br1_br2.py` | **NEEDS-LIT**: "non-orientable punctured torus bundle orientation double cover", Gieseking family literature |
 | T-COLLIDE | 4₁(5,1) ≅ −5₂(5,1) = m003(−2,3); in-window census: 3 collision children incl. the TRIPLE 4₁(1,2) = 5₂(−1,1) = 6₁(1,1) (ℤHS); merge orientation classified | B467 (+census) | `f3_wall.py`, `census.py` | **NEEDS-LIT**: Brakes 1980, Livingston, "knots with common Dehn surgery", "cosmetic surgery pairs twist knots", Whitehead-link symmetry |
@@ -47,9 +47,24 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 
 ## Constants awaiting identification (the relaunch's inverse-symbolic targets)
 
-vol/letter of the letter tower **0.9339…** (Guéritaud–Futer gate) · torsion temperature
+vol/letter of the letter tower **0.9339…** (Guéritaud bounds: 2n·v₃ ≥ vol ≥ per-syllable
+floors — c < v₃ because the golden imbalance deforms the tetrahedra; the candidate closed
+form is a Bloch-Wigner average over the golden hull — identification job running) · torsion temperature
 **0.6295727/syllable** (= 1.2591398/letter; λ relation λ_CC = λ_Chat2^φ) · λ_chain
 **2.1775291199** (not a quadratic unit; Zagier gate) · the B451 spectral gap ≥ 0.19.
+
+## Literature anchors received (Chat-1's sweep, 2026-07-08)
+
+Aigner 2013 · Reutenauer 2018 · Cusick–Flahive 1989 (the three books; the Cohn stage and
+the Markov-trace/commutator-subgroup facts are fully classical — T-COHN's core is KNOWN).
+Guéritaud (Annals 2006, punctured-torus-bundle volumes via the Farey triangulation; the
+tower's volume law lives inside it). **Pandey–Wong: the Bonahon–Wong–Yang volume
+conjecture is PROVED for the LR (figure-eight) once-punctured-torus bundle** — directly
+adjacent to RF3's quantum tower; the Pisano residue rhythm should be read against the
+BWY asymptotics (registry pointer for RF3's continuation). New tower observation logged:
+the volumes are asymptotically ADDITIVE (vol(wₙ₊₁) − vol(wₙ) − vol(wₙ₋₁) → 0, already
+≈1e-4 by n = 9) — Guéritaud-anchored geometric convergence; the defect decay rate is a
+tower datum.
 
 ## Cadence (the standing rule, from today)
 
