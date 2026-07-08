@@ -69,3 +69,20 @@ python3 hierarchy_verify.py   # the breath hierarchy certification
 sage rf2_fields.sage; sage rf2_fields2.sage   # the trace-field columns
 pytest ../../tests/test_b470.py
 ```
+
+## Addendum (2026-07-08): the volume additivity law + the constant c pinned
+
+- **The tower's volumes become additive to super-exponential precision**:
+  vol(wₙ₊₁) − vol(wₙ) − vol(wₙ₋₁) = 4.1e-3 (n=5), 6.6e-5 (n=6), … , < 1e-27 (n=13,
+  ManifoldHP dps 30). The defect's log decays geometrically (ratio ≈ φ) — doubly
+  exponential convergence. Mechanism-shaped: the Guéritaud triangulations concatenate
+  and the gluing correction dies with the thin part; **NEEDS-LIT** (Brock coarse
+  additivity is known; this precision is the sharp datum). Consequence: vol(n) obeys the
+  Fibonacci recursion exactly-at-precision from n ≈ 12, giving the closed extrapolation.
+- **c = 0.934102018057787980264187790656 (28 digits)** via the additivity extrapolation
+  (`c_identify.py`). **PSLQ negative** against {Λ(π/5), Λ(2π/5), Λ(π/3), Λ(π/10),
+  Λ(3π/10), Catalan, π log φ, π²/10} singly and in pairs (coeff caps 10⁶/200). The
+  identification is OPEN: the honest closed-form candidate is the μ-average of the
+  Bloch–Wigner dilogarithm over the golden hull's Farey-shape distribution (Guéritaud) —
+  an integral, not necessarily a finite combination. (The first run's "relation" was the
+  classical Lobachevsky duplication identity among basis elements — caught and discarded.)
