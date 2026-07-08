@@ -30,3 +30,27 @@ Groebner elimination of the trace coordinates keeping meridian M and longitude L
 (the reason edge #2/#3 is open) and is launched as a background computation; the genus family
 (does genus grow with m? is m=3 genus 2, per "genus-2 generality"?) is read off when it lands.
 Reproducers: `apoly_sage.py` (Alexander law + genus anchor), `apoly_elim.py` (the elimination).
+
+## Session close — what computed, and the honest boundary (proper-research discipline)
+COMPUTED and BANKED this session:
+1. **The Alexander family law CLOSED**: Δ_m(a) = a² − (m²+2)a + 1, verified m = 1…5 (sage/snappy).
+   = char poly of the monodromy; the family's Alexander invariant is the metallic trace m²+2.
+2. **Geometry characterized**: the metallic bundles have RECTANGULAR cusps (purely imaginary
+   cusp shape: m=1 → 3.464i = 2√3 i, m=2 → 2.000i, m=3 → 1.662i, m=4 → 1.600i → decreasing).
+   A real geometric fact (meridian ⊥ longitude on the cusp torus, consistent with the
+   amphichiral symmetry).
+3. **Genus anchor**: figure-eight (m=1) SL(2,ℂ) A-polynomial curve has geometric genus 3 (sage).
+
+NAMED COMPUTATIONAL BOUNDARY (the genuinely open part of edges #2/#3):
+The full SL(2,ℂ) A-polynomial for m ≥ 2 via direct symbolic elimination is an 11-variable
+lex Gröbner (rep params + conjugator + peripheral eigenvalues) that does NOT converge
+in-session — this is exactly why the edge is open. **Priced next step** (for the continuing
+computation): either (a) resultant-based elimination (eliminate the 4 conjugator params by
+resultants, then the 5 rep params — degree-by-degree, avoiding the full lex GB), or
+(b) numerical A-polynomial by sampling the character variety at many (M,L) and fitting the
+Newton polygon, from which the genus family reads off directly. The genus question
+("m=3 genus, genus-2 generality") is then a Newton-polygon computation per m.
+
+**Net**: one of the four open forcing edges had its abelian half CLOSED (the Alexander law)
+and its geometry characterized (rectangular cusps, genus-3 anchor); the SL(2,ℂ) genus family
+is a well-priced continuing computation, not a mystery. Honest partial close of task #201.
