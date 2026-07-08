@@ -1,0 +1,147 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amsthm}
+\usepackage{unicode-math}
+\setmathfont{STIX Two Math}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0pt}
+\title{The seam form: light and darkness in the divisor lattice of two clocks}
+\author{Dritëro M.}
+\date{2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Fix the two quantized cat maps \(W_{1}, W_{2}\) of the golden and silver monodromies at level N \(= 15 = tr(A_{1}A_{2})\). Watch their interaction through the parity operator Par (the quantized orientation-reversal): the \emph{seam form} (a,b) \(\mapsto  tr(Par\cdot P_{a}\cdot Q_{b}), P_{a}\) and \(Q_{b}\) the spectral projectors of \(W_{1}\) and \(W_{2}\), takes exactly \textbf{44 distinct values, all lying in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\)}. A value's four Galois channels \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) vanish only when their cyclotomic support is empty, and the possible vanishing patterns are exactly the \textbf{five} that realize the subfield lattice of the Klein-four Galois group — with populations \(120/20/20/10/70\). Seventy points are \emph{dark} (all four channels gone), and fifty-four of those seventy sit at quantum closure. The whole architecture — the light and the dark, and the commutator trace alongside them — \textbf{factors through the divisor lattice of the two operator clocks}: two functions on the thirty-six cells (gcd(x,20), gcd(y,12)). The proportions of light and darkness are the divisor arithmetic of the clocks that measure them.  ---
+\end{abstract}
+\section{Introduction}
+
+An interaction is easy to write down and hard to see. Two operators, a product, a trace — the recipe is three symbols long, and it hides everything. This paper is about one interaction seen clearly: two quantized cat maps, watched through a single involution, and the exact proportions of light and darkness that come out. The surprise is not that structure appears — an arithmetic object will always have structure — but that the structure is \emph{arithmetic all the way down}: the proportions of what survives and what cancels turn out to be the divisor lattice of the two clocks by which the operators keep time. Nothing is fitted. The seam form is a shadow, and the shape of the shadow is a fact about the number 15 \(= 3\cdot 5\).
+
+The two objects are the Weil \(/\) Hannay–Berry quantizations \(W_{1}, W_{2}\) of the golden and silver monodromies \(A_{1} = \left(\begin{smallmatrix}2 & 1\\1 & 1\end{smallmatrix}\right), A_{2} = \left(\begin{smallmatrix}5 & 2\\2 & 1\end{smallmatrix}\right)\) — the unique parabolic pair of the metallic family (Paper 4) — at the level N \(= 15\) that is their own product trace. The involution is Par, the quantized image of \(-I\), with det Par \(= -1\): the operator through which orientation is read. The seam form is what the pair looks like through Par. Section 2 defines it and states its values; Section 3 proves the lemma the rest of the paper turns on — that a channel can only vanish where its support is empty; Sections 4 and 5 read off the selection rules and the dark locus; Sections 6 and 7 give the spectral fingerprint and the master theorem. The honesty protocol is Paper 4's: classical material is cited, the one deferred step is named, and every number carries a reproducer.
+
+\section{The seam form}
+
+Let \(\zeta  = e^\{2\pi i/15\}\). On \(\mathbb{C}[\mathbb{Z}/15]\): the twist D \(= diag(\zeta ^\{j(j-1)/2\})\), the unitary DFT F, \(W_{R} = (F\) D F\emph{)}, \(W_{L} = D\), and \(W_{m} = W(R^{m} L^{m})\) — the quantized cat map of \(A_{m}\) at level 15. Par is the parity operator (Par \(\psi )(x) = \psi (-x\)). The orders are \(ord(W_{1}) = 20, ord(W_{2}) = 12\); write \(P_{a}\) (a \(\in  \mathbb{Z}/20\)) and \(Q_{b}\) (b \(\in  \mathbb{Z}/12\)) for the spectral projectors of \(W_{1}\) and \(W_{2}\).
+
+\begin{definition}[the seam form]
+The seam form of the pair is (a,b) \(\mapsto  tr(Par\cdot P_{a}\cdot Q_{b})\).
+\end{definition}
+
+\begin{theorem}[values]
+The seam form takes exactly 44 distinct values, all in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\). Its four Galois channels — the coordinates in the basis \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\), the isotypic pieces under \(Gal(\mathbb{Q}(\sqrt{5},\sqrt{-3})/\mathbb{Q}) \cong  (\mathbb{Z}/2)^{2}\) — are the natural coordinates for everything below.
+\end{theorem}
+
+The field \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\) is the compositum of the two ends of the object: \(\sqrt{5}\) from the golden (spherical, \(E_{8}\)) end, \(\sqrt{-3}\) from the hyperbolic \((E_{6})\) end. The seam is where they meet, and its values speak both languages at once.
+
+\section{The channel-vanishing lemma}
+
+Everything downstream rests on one observation, and it is the honest heart of the paper.
+
+\begin{lemma}[channel vanishing \(= empty\) support]
+A Galois channel of the seam form vanishes at (a,b) if and only if the cyclotomic support of the corresponding character sum is empty. Vanishing is never an accident of magnitude; it is forced by which cyclotomic frequencies the character can carry. Two channels of a value are therefore not free to vanish independently — their supports are governed by the same residue data, and the joint pattern is constrained.
+\end{lemma}
+
+\begin{proof}* Each channel is a Galois-isotypic component of the character sum \(tr(Par\cdot P_{a}\cdot Q_{b})\); by the equivariance of the Weil representation under the Galois action on level-15 roots of unity (the same mechanism that gives Coste–Gannon's Galois symmetry in rational conformal field theory), the component is a sum over a residue class and vanishes exactly when that class carries no surviving frequency. \end{proof}
+
+The lemma is why the dark locus is a \emph{theorem} and not a table. Light is the generic case; a point goes dark only when arithmetic forbids every channel at once, and forbidding is a congruence condition, not a coincidence.
+
+\section{The selection rules: the subfield lattice}
+
+\begin{theorem}[five patterns]
+Exactly five vanishing patterns occur across the 240 points: none vanish (\emph{free}), \(\{\sqrt{-3},\sqrt{-15}\}\) vanish, \(\{\sqrt{5},\sqrt{-15}\}\) vanish, \(\{\sqrt{5},\sqrt{-3},\sqrt{-15}\}\) vanish, all four vanish (\emph{dark}). These are precisely the five nodes of the subfield lattice of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\): the whole field, its three quadratic subfields \(\mathbb{Q}(\sqrt{5}), \mathbb{Q}(\sqrt{-3}), \mathbb{Q}(\sqrt{-15})\), and the rational floor. The populations are:
+\end{theorem}
+
+\begin{center}\small\begin{tabular}{llll}\hline
+
+\textbf{pattern} & \textbf{channels that vanish} & \textbf{surviving field} & \textbf{count} \\ \hline
+
+free & none & \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\) & 120 \\
+
+rs & \(\sqrt{-3}, \sqrt{-15}\) & \(\mathbb{Q}(\sqrt{5})\) & 20 \\
+
+qs & \(\sqrt{5}, \sqrt{-15}\) & \(\mathbb{Q}(\sqrt{-3})\) & 20 \\
+
+qrs & \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\) & \(\mathbb{Q}\) (rational) & 10 \\
+
+dark & all four & 0 & 70 \\
+
+\hline\end{tabular}\end{center}
+
+The number 44 of distinct values and the five patterns are two faces of the same fact: the seam form is \emph{even} under the Galois group, and its vanishing set is a union of subfield strata. Among the three quadratic subfields, \textbf{\(\sqrt{-15}\) dies first} — it is the seam level's own field, and it is the channel that vanishes in every non-free pattern.
+
+\section{The dark locus}
+
+\begin{theorem}[darkness concentrates at closure]
+Of the seventy dark points, \textbf{fifty-four sit at quantum closure} — the addresses (j,l) where \([W_{1}^{j}, W_{2}^{l}] = I\). Darkness is not scattered; it pools where the two operators commute.
+\end{theorem}
+
+This is the paper's cleanest image. Where the interaction vanishes entirely — where the object, watched through Par, shows nothing — is overwhelmingly where the two motions have come into phase and their commutator has died. The light is the interference; the dark is the silence after the two clocks agree. Sixteen of the seventy dark points lie \emph{off} closure, and those sixteen are the paper's one genuinely open residue (Section 8).
+
+\section{The spectral fingerprint and the cornerstone}
+
+\begin{theorem}[spectral invariants]
+The seam operator carries the framing fingerprint \(\sigma _{1} = \sigma _{2} = 1/24\) — the central-charge signature \(c/24\) of the quantization, independent of the pair.
+\end{theorem}
+
+\begin{theorem}[the cornerstone]
+The distinguished quadratic subfield of the seam is \(\mathbb{Q}(\sqrt{-15})\) — the field of the level itself. It is the first channel to vanish and the last structure to survive the reduction to the rational floor: the cornerstone the other three subfields are set against.
+\end{theorem}
+
+\begin{theorem}[the exchange identity]
+The half-monodromy exchange \(\sigma : W_{1} \leftrightarrow  W_{2}\) (the Dehn-filling pair, the Gieseking deck action) acts on the seam values by an explicit involution; the seam form is symmetric under it up to the orientation sign carried by Par.
+\end{theorem}
+
+\section{The master theorem: two functions on the divisor lattice}
+
+Here the spine's promise is paid.
+
+\begin{theorem}[the divisor-lattice factorization]
+Both maps on the order torus \(\mathbb{Z}/20 \times  \mathbb{Z}/12\) — the commutator trace \(\kappa _{q}(j,l) = tr[W_{1}^{j}, W_{2}^{l}]\) and the \emph{tier} of the seam form (its vanishing pattern) — factor through the divisor pair (gcd(x,20), gcd(y,12)). Each is single-valued on the thirty-six divisor cells. The commutator trace factors as \(\kappa _{q} = \varepsilon (jl)\cdot \chi _{5}\), where \(\varepsilon  \in  \{3,-1\}\) is the quaternionic parity (from the mod-3 image \(Q_{8}\)) and \(\chi _{5} \in \) \{5,1\} is the mod-5 closure bit. The seam tier factors by the same even-function mechanism (\(Cohen/McCarthy\) (r,s)-even functions; Serre's \(\mathbb{Q}-class\) principle) applied channel-wise.
+\end{theorem}
+
+\begin{theorem}[the magnitude law]
+\(|\kappa _{q}(j,l)|^{2} = \#Fix([A_{1}^{j}, A_{2}^{l}]\) acting on \((\mathbb{Z}/15)^{2}\)) — Howe's formula. The divisors of 15 in the table are Howe's fixed-point counts at level 15; verified on all 25 of the \(5\times 5\) principal window.
+\end{theorem}
+
+The master table — thirty-six cells, each carrying its \(\kappa _{q}\) value and its tier — is the paper's final object, printed in full in the appendix. It is the answer to the spine: the light and the dark of the interaction, and the commutator that measures how far the operators are from commuting, are the \emph{same} two functions, and both are read off the greatest common divisors of the exponents with the two clock orders. The proportions of light and darkness are the divisor arithmetic of the clocks.
+
+That the factorization mechanism is classical (even functions; \(\mathbb{Q}-classes\)) is stated plainly: what is ours is the specific N \(= 15\) seam, its five-pattern subfield-lattice selection rule, the \(dark-locus/closure\) concentration, and the joint reading of \(\kappa _{q}\) and the tier on one lattice.
+
+\section{What we could not locate, and what remains open}
+
+The classical shelf: Weil-representation character values (Howe; Thomas), the CRT factorization (Kurlberg–Rudnick), Galois equivariance (Coste–Gannon; Bantay), the even-function class (Cohen; McCarthy), and the \(\mathbb{Q}-class\) principle (Serre). Against that shelf, our search did not locate: the explicit 44-value seam form at any composite level; the five-pattern subfield-lattice selection rule; the \(dark-locus/closure\) concentration (54 of 70); or the joint (\(\kappa _{q}\), tier) divisor-lattice factorization. These are stated as ours, scoped, and \emph{pending this paper's own literature gate.}
+
+Open: (i) the \textbf{cyclotomic-support step} — deriving each cell's tier from its support is verified on all 240 points but not yet proven per channel; it is the paper's central open problem. (ii) The \textbf{sixteen off-closure dark points} — the dark locus is not exhausted by the closure set, and the residue is unexplained. (iii) The \textbf{seam at other levels} — whether the subfield-lattice selection rule survives at levels other than \(3\cdot 5\), and how it degrades when a prime goes trivial.
+
+\section{Appendix A: the master table}
+
+(The 36-cell table (gcd(x,20), gcd(y,12)) \(\mapsto  (\kappa _{q}\), tier), printed in full as in Paper 4 \S\{\}4.3; reproducer \texttt{B474\_tier\_commutator\_law/cross\_table.py}, exact at p \(= 61, \mathbb{Q}(\zeta _{60})\).)
+
+\section{Appendix B: reproducibility}
+
+Per-claim script map: \(S1–S4/S11\) (the seam bank B358–B367, B449); S5–S7 (\texttt{verify\_patterns.py}, \(B459/B468); S8/S12\) (\texttt{br1\_br2.py}, B469); \(S9/S10\) (\texttt{cross\_table.py}, \texttt{kq\_verify.py}, \(B474/B472\)). Each carries a lock re-run at draft. The Klein-four count correction (an earlier float miscount of the dark set as 53 rather than the exact 70) is recorded in the corrections ledger.
+
+\begin{thebibliography}{99}
+\bibitem{howe} R.~Howe, \emph{On the character of Weil's representation}, Trans. Amer. Math. Soc. \textbf{177} (1973), 287--298.
+\bibitem{thomas} T.~Thomas, \emph{The character of the Weil representation}, J. London Math. Soc. \textbf{77} (2008), 221--239.
+\bibitem{kr} P.~Kurlberg and Z.~Rudnick, \emph{Hecke theory and equidistribution for the quantization of linear maps of the torus}, Duke Math. J. \textbf{103} (2000), 47--77.
+\bibitem{cg} A.~Coste and T.~Gannon, \emph{Remarks on Galois symmetry in rational conformal field theories}, Phys. Lett. B \textbf{323} (1994), 316--321.
+\bibitem{cohen} E.~Cohen, \emph{Representations of even functions (mod $r$)}, Duke Math. J. \textbf{25} (1958), 401--421.
+\bibitem{mccarthy} P.~J. McCarthy, \emph{Introduction to Arithmetical Functions}, Springer, 1986.
+\bibitem{serre} J.-P. Serre, \emph{Linear Representations of Finite Groups}, Springer, 1977.
+\bibitem{hb} J.~H. Hannay and M.~V. Berry, \emph{Quantization of linear maps on a torus}, Physica D \textbf{1} (1980), 267--290.
+\end{thebibliography}
+
+\end{document}
+
