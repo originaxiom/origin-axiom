@@ -1,0 +1,287 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amsthm}
+\usepackage{unicode-math}
+\setmathfont{STIX Two Math}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0pt}
+\title{The parabolic locus of the metallic family: Cohn's stage, principal breathers, and the commutators of quantized cat maps}
+\author{Dritëro M.}
+\date{2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+For integers m \(\ge \) 1 let \(A_{m} = R^{m} L^{m} = \left(\begin{smallmatrix}m^{2}+1 & m\\m & 1\end{smallmatrix}\right) \in  SL(2,\mathbb{Z})\) — the \emph{metallic matrices}, a family of once-punctured-torus bundle monodromies each admitting an orientation-reversing square root; \(A_{1}\) is the monodromy of the figure-eight knot complement, and \(A_{1}\) is Cohn's matrix \(g_{1}\). For ANY pair of symmetric matrices in \(SL(2,\mathbb{R})\) the commutator trace is 2 \(- (M_{12} - M_{21})^{2}\) with M \(= AB\) — the coordinate form of classical facts (Sarnak's reciprocal-geodesic mechanism; the axes- through-i slice of Gehring–Martin's commutator calculus) — and for the metallic family \(M_{12} - M_{21} = mn(m-n)\): hence \(tr[A_{m}, A_{n}] = 2 - (mn(n-m))^{2}\), and exactly one pair — (1,2), golden and silver — has parabolic commutator. That pair is Reutenauer's Markoff morphism, generator for generator: the family's parabolic locus is precisely Cohn's modular torus, the classical stage of Markov's theory. The Fibonacci substitution applied to the pair walks the Markov spine with the cusp intact at every stage. Assembling the classical square-root criterion (Northshield 2010) with the Latimer–MacDuffee correspondence, we show that the breathable \emph{traces} are exactly the metallic traces \(m^{2} + 2\) with \(A_{m}\) the \emph{principal} breather at its trace — the family exhausts the locus at its traces exactly in the class-number-one case \(h(m^{2}+4) = 1\) — the class-number-one specialization of the \(Latimer–MacDuffee/Sarnak\) count (since \(N(\lambda _{m}) = -1\) forces narrow \(= wide\) class number) — and prove a two-level hierarchy of word and manifold symmetries with exact witnesses. Finally, for the unique pair we study the commutators of the associated quantized cat maps (Weil operators) at level 15 \(= tr(A_{1}A_{2})\) — a construction that sees only the pair's image mod 15, so it is a shadow of the arithmetic 15 \(= 3\cdot 5\) rather than of parabolicity (we exhibit a non-parabolic pair with the identical tables): the commutator trace is a product of two characters — a quaternionic parity (the pair's mod-3 image is \(Q_{8}\)) and a mod-5 closure bit (the mod-5 image is SL(2,5)) — the closure set is characterized by congruence (\([W_{1}^{j}, W_{2}^{l}] = I\) iff \([A_{1}^{j}, A_{2}^{l}] \equiv \) I mod 15, with (2,3) the minimal address with both exponents non-central mod 15), and both the commutator traces and the vanishing tiers of the pair's interaction form factor through the divisor lattice of the two operator orders — a pair of functions on 36 cells, printed in full.  ---
+\end{abstract}
+\section{Introduction}
+
+Some objects in mathematics are constructed; a few seem to have been waiting to be noticed. The pair of matrices at the center of this paper has been in plain sight for seventy years — Harvey Cohn wrote one of them down in 1955 — and what follows is not a new object but a new sentence the old one was always able to say: that it is the first member of a natural family, and that the family knows exactly when it can rebuild the stage it stands on. The answer is one line long, and a single perfect square measures every way a pair of the family falls short of it. Everything after that is the care it takes to be certain — including the several times this paper corrected itself on the way, which we keep in view rather than tidy away, because a result that has survived its own refutations is the kind worth trusting.
+
+In 1955 Harvey Cohn identified the geometric home of Markov's 1879–80 theory of badly-approximable numbers: the commutator subgroup of the modular group — the fundamental group of a once-punctured torus, which we will call, as terminology, \emph{the stage} — with the Markov numbers appearing as one third of the traces of its simple elements. Seventy years of literature stand on that identification (Aigner 2013; Reutenauer 2018; Cusick–Flahive 1989).
+
+Cohn's generator \(g_{1} = \left(\begin{smallmatrix}2 & 1\\1 & 1\end{smallmatrix}\right)\) is the first member of a natural family: the metallic matrices \(A_{m} = R^{m} L^{m}\), the monodromies of the once-punctured-torus bundles attached to the metallic means \(\lambda _{m} = (m + \sqrt{m^{2}+4})/2\). This paper asks the family question the classical literature does not: \emph{for which pairs (m,n) does the two-generator group \(\langle A_{m}, A_{n}\rangle \) form a stage?} Here the relevant condition on a generating pair is the cusp condition for a discrete, faithful, type-preserving representation of the once-punctured-torus group: the commutator must be parabolic with \(tr[A,B] = -2\) (trace +2 forces reducibility; parabolicity alone means trace \(\pm 2\)).
+
+The answer (\S\{\}2) has an elementary mechanism. The metallic matrices are symmetric, and for ANY symmetric pair in \(SL(2,\mathbb{R})\) the commutator trace is 2 \(- (M_{12} - M_{21})^{2}\), M \(= AB\) — a two-line consequence of BA \(= (AB)^{T}\). The family's entire contribution is the integer \(mn(n-m)\): the deviation from parabolicity is the square of that integer, so the failures take perfect-square values, and \(mn(n-m) = 2\) has exactly one solution in positive integers m \(< n\). The unique pair is (1,2), and Theorem B identifies its group with Cohn's — generator for generator. The substitution a \(\to \) ab, iterated on the pair itself, walks the Fibonacci-word branch of the Markov spine — the \(traces/3 = 1\), 2, 5, 13, 194, 7561, … (the branch generated by the Fibonacci word, distinct from the conventional 1, 2, 5, 13, 34, … branch) — with every renormalized pair again parabolic (Theorem C): an infinite tower of stages.
+
+Section 3 studies the family's defining symmetry — the orientation-reversing square root, which we call, as terminology, the \emph{breath} — and re-proves, for completeness, Northshield's square-root criterion for \(SL(2,\mathbb{Z})\) (Theorem D). Here the panel of this paper's own referee process forced a sharpening we are glad to report: the family does NOT exhaust the breathable locus. Odd powers of metallic matrices are breathable composites, and — more interestingly — when the ring \(\mathbb{Z}[\lambda _{m}]\) has nontrivial narrow class group there exist \emph{non-principal breathers} at the same trace, not conjugate to \(A_{m}\) (Theorem \(D\prime \)): the breathable traces are exactly the metallic traces, the metallic matrix is the principal breather, and the family equals the locus precisely when \(h^{+}(m^{2}+4) = 1\). The class group of the scale enters the geometry of the family. Theorem E then organizes the word-level and manifold-level symmetries of words in \{R, L\} into two hierarchies with exact witnesses, including an amphichiral pair with homology torsion \((\mathbb{Z}/12)^{2}\) whose words fail the word-level mirror criterion — the two levels genuinely differ.
+
+Section 4 turns to the pair's quantization — the \emph{level-15 Weil shadow} — with its provenance and its limits stated plainly: the operators \(W_{m}\) are the Weil \(/\) Hannay–Berry quantized cat maps of \(A_{m}\) at level N \(= 15 = tr(A_{1}A_{2})\) (Hannay–Berry 1980; Degli Esposti; Kurlberg–Rudnick). The construction sees only the image mod 15: since \(A_{16} \equiv  A_{1}\) and \(A_{17} \equiv  A_{2}\) (mod 15), the wildly non-parabolic pair \((A_{16}, A_{17}) (tr[\cdot ] = -73982)\) yields every table of \S\{\}4 identically. So \S\{\}4 is a study not of parabolicity but of the finite arithmetic of 15 \(= 3\cdot 5\) — which is the honest content. By Theorem F everything in \S\{\}4 reduces to finite group theory of the pair's residue images — the content is WHICH finite structure the unique parabolic pair selects: the mod-3 image is the quaternion group \(Q_{8}\), the mod-5 image is SL(2,5); the commutator of the quantized maps is governed by two characters (Theorem F); its closure set is exactly the mod-15 commutation locus, with (2,3) the minimal address whose both powers are non-central mod 15; and both the commutator trace and the interaction form's vanishing tiers factor through the divisor lattice of the operator orders — the master table of 36 cells, printed in \S\{\}4.3 (Theorem G).
+
+\textbf{Reading guide and honesty protocol.} Classical material is cited and never re-claimed. \S\{\}5 carries the per-claim verdicts of the two-round literature gate, including its downgrades of this paper's own earlier claims. Every numerical claim carries an exact certificate with a public reproducer (Appendix A); several results were reached through refutations of their own first forms — including by this paper's internal referee panel — and Appendix B records that path as a methodological note.
+
+\section{The parabolic locus of the family}
+
+\subsection{2.1 Metallic matrices, halves, and the norm}
+
+R \(= \left(\begin{smallmatrix}1 & 1\\0 & 1\end{smallmatrix}\right)\), L \(= \left(\begin{smallmatrix}1 & 0\\1 & 1\end{smallmatrix}\right); A_{m} := R^{m} L^{m} = \left(\begin{smallmatrix}m^{2}+1 & m\\m & 1\end{smallmatrix}\right)\), tr \(A_{m} = m^{2}+2\). The bundle \(M(A_{m})\) is fibered, so its Alexander polynomial is the characteristic polynomial of the monodromy: \textbf{\(\Delta _{m}(a) = a^{2} - (m^{2}+2)a + 1\)} (verified m \(=\) 1…5 in SnapPy: \(a^{2}-3a+1, a^{2}-6a+1, a^{2}-11a+1, a^{2}-18a+1, a^{2}-27a+1\)) — the family's Alexander invariant is exactly its metallic trace \(m^{2}+2\). The \emph{half-matrix} \(X_{m} = \left(\begin{smallmatrix}m & 1\\1 & 0\end{smallmatrix}\right)\) satisfies \(X_{m}^{2} = A_{m}\) and det \(X_{m} = -1\); it is the companion matrix of \(x^{2} -\) mx \(-\) 1, so det \(X_{m} = N(\lambda _{m}) = -1\): the orientation character of the half and the field norm of the scale coincide, for every m, and persist through the same-field degeneracies (m \(= 1\), 4, 11, 29, … are \(\varphi , \varphi ^{3}, \varphi ^{5}, \varphi ^{7}\) — odd powers, norm \(-1\) throughout). No imaginary quadratic field carries a unit of norm \(-1\). (One-line proofs; \texttt{br\_n\_norm.py}.) Geometrically, \(M(A_{m})\) is a hyperbolic once-punctured-torus bundle and \(X_{m}\) generates a non-orientable bundle double-covered by it — for m \(= 1\), the Gieseking manifold (census-verified: \(vol(m004)/vol(m000) = 2\) exactly).
+
+\subsection{2.2 Theorem A: the symmetric-pair identity and the unique parabolic pair}
+
+\begin{lemma}[the transpose mechanism]
+Let A, B \(\in  SL(2,\mathbb{R})\) be symmetric and M \(= AB\). Then BA \(= (AB)^{T}\), hence \([A,B] = M\cdot (M^{T})^{-1}\) and
+\end{lemma}
+
+\(tr[A,B] = tr(M (M^{T})^{-1}) = 2 - (M_{12} - M_{21})^{2}\).
+
+\begin{proof}* For M \(= \left(\begin{smallmatrix}p & q\\r & s\end{smallmatrix}\right)\) with det M \(= 1, (M^{T})^{-1} = \left(\begin{smallmatrix}s & -r\\-q & p\end{smallmatrix}\right)\), so \(tr(M(M^{T})^{-1}) = ps -\) qr \(-\) qr + ps \(- (q^{2} + r^{2}) + 2qr = 2 -\) (q \(- r)^{2}\) after using ps \(-\) qr \(= 1\). \end{proof}
+
+\begin{remark}Provenance.* The identity is the coordinate form of classical facts, in three clothings. Symmetric elements of \(SL(2,\mathbb{R})\) are exactly those inverted by conjugation with \(S_{0} = \left(\begin{smallmatrix}0 & -1\\1 & 0\end{smallmatrix}\right)\) (equivalently: hyperbolics whose axes pass through i — Sarnak, Reciprocal geodesics, Clay Proc. 7 (2007)); hence \([A,B] = M(M^{T})^{-1} = -(MS_{0})^{2}\) and \(tr[A,B] = 2 - tr(MS_{0})^{2} = 2 - (M_{12} - M_{21})^{2}\). The same statement is the axes-through-i slice of Gehring–Martin's commutator-parameter calculus (J. Anal. Math. 63 (1994): \(tr[A,B] -\) 2 \(= -4 sinh^{2}(\ell _{A}/2) sinh^{2}(\ell _{B}/2) sin^{2}\theta \); for the metallic family \(sin^{2}\theta  = 4(n-m)^{2}/((m^{2}+4)(n^{2}+4))\) and the product is \((mn(n-m))^{2}\) — verified). And it is a direct substitution into Fricke's \(\kappa \) (Goldman, Handbook of Teichmüller theory II). We found the coordinate form written out nowhere and use it as an elementary lemma — not a new result.\end{remark}
+
+\begin{theorem}
+\(tr[A_{m}, A_{n}] = 2 - (mn(n-m))^{2}\), and the commutator is parabolic with trace \(-2\) iff \(mn(n-m) = 2\), whose unique solution in positive integers m \(< n\) is (1,2).
+\end{theorem}
+
+\begin{proof}* \(A_{m}, A_{n}\) are symmetric; M \(= A_{m}A_{n}\) has \(M_{12} - M_{21} = mn(m-n)\) by direct computation (\(M_{12} = (m^{2}+1)n + m, M_{21} = mn^{2} + m\)... displayed in full in the text). Apply Lemma 2.2. For the uniqueness, \(mn(n-m) = 2\) with 0 \(< m < n\) forces mn \(\le \) 2, so m \(= 1\), n \(= 2\). \end{proof}
+
+Remarks. (i) The square is not a family miracle: EVERY symmetric pair tears by a perfect square — the mechanism is the transpose involution, which on the character variety of the once-punctured torus is induced by the elliptic involution. What is the family's own is the integer \(mn(n-m)\) and everything \S\{\}2.3–2.4 builds on the unique pair. (ii) The failure is quantized and shared: pairs with equal \(mn(n-m)\) tear equally — (1,3) and (2,3) both give \(-34\). The failures are not a smear but a ladder: every symmetric pair tears from the parabolic by a perfect square, and two pairs that carry the same integer tear by exactly the same amount. Distance from the stage is quantized, and the family's one way of standing on it is the single integer solution \(mn(n-m) = 2\). (iii) At (1,2), the trace triple (3, 6, 15) satisfies Markov's equation \(x^{2}+y^{2}+z^{2} = xyz\) — the triple \(3\cdot (1,2,5)\) — and the \emph{product trace} \(tr(A_{1}A_{2}) = 15\) returns as the level of \S\{\}4. We refer to 15 as the pair's \emph{seam trace} (terminology, used only in that sense below). (iv) The unique pair is not new AS a pair: \((A_{1}, A_{2}) = (\mu (x), \mu (y))\) for Reutenauer's Markoff morphism \(\mu (x) = \left(\begin{smallmatrix}2 & 1\\1 & 1\end{smallmatrix}\right), \mu (y) = \left(\begin{smallmatrix}5 & 2\\2 & 1\end{smallmatrix}\right)\), whose parabolic commutator he computes via Fricke's identity (Integers 9 (2009); From Christoffel Words to Markoff Numbers, OUP 2019, Thm 3.1.1). New here is the FAMILY reading: the two-parameter formula and the uniqueness scan. Uniqueness statements at the matrix level should be compared with Schmutz Schaller (Russian Math. 66 (2022)) and with Nielsen's classical theorem (the commutator of any basis of \(F_{2}\) is conjugate to \([a,b]^\{\pm 1\}\)), which Theorem C uses.
+
+\subsection{2.3 Theorem B: the parabolic locus is Cohn's stage}
+
+With \(g_{1} = \left(\begin{smallmatrix}2 & 1\\1 & 1\end{smallmatrix}\right), g_{2} = \left(\begin{smallmatrix}1 & 1\\1 & 2\end{smallmatrix}\right)\) (Cohn 1955): \(A_{1} = g_{1}; A_{1}A_{2}^{-1}A_{1} = g_{2}; A_{2} = g_{1}g_{2}^{-1}g_{1}\). Hence \(\langle A_{1},A_{2}\rangle  = \langle g_{1},g_{2}\rangle \), which by Cohn's theorem is the commutator subgroup of \(PSL(2,\mathbb{Z})\) — free of rank two, the fundamental group of the modular once-punctured torus, on which the Markov correspondence lives (traces of simple closed geodesics \(= 3 \times \) Markov numbers; cited, not re-derived). The identification is implicit in Reutenauer's morphism — the pair IS \((\mu (x), \mu (y))\) — and we record the generator-for-generator dictionary for the family reading. Moreover every balanced word in R, L lies in this subgroup (L \(= ST^{-1}S^{-1}\) in \(PSL(2,\mathbb{Z})\), so the abelianization \(\mathbb{Z}/6\) reads \(t^\{\#R-\#L\}\)). 
+
+So the family's one parabolic pair is not merely close to Cohn's stage; it \emph{is} Cohn's stage, generator for generator. The object this paper begins from and the object number theory has stood on for seventy years turn out to be one object, reached from two directions — and the Markov numbers are its simple closed geodesics, counted in threes.
+
+\subsection{2.4 Theorem C: the chain walks the spine}
+
+\(s_{0} = A_{2}, s_{1} = A_{1}, s_\{k+1\} = s_{k} s_\{k-1\}\). (i) The traces obey \(u_\{k+1\} = u_{k} u_\{k-1\} - u_\{k-2\}\) and every consecutive triple satisfies Markov's equation (the Vieta move (x,y,z) \(\mapsto  (y,z,yz-x)\) preserves \(x^{2}+y^{2}+z^{2}-xyz\); the seed (6,3,15) lies on it). (ii) \(u_{k}/3\) walks the spine 1, 2, 5, 13, 194, 7561, … (iii) Every renormalized pair \((s_{k}, s_\{k+1\})\) has \(tr[s_{k}, s_\{k+1\}] = -2\).
+
+\begin{proof}Proof of (iii).* Each step is a Nielsen transformation of the generating pair of \(\langle A_{1},A_{2}\rangle \), free of rank two by Theorem B. The conjugacy class of the commutator of a generating pair of a rank-two free group is invariant under Nielsen transformations up to inversion (the well-definedness of the boundary of the once-punctured torus). In SL(2), \(tr(M^{-1}) = tr((tr\) M)I \(-\) M) \(= tr\) M, and trace is a class function; hence \(tr([s_{k}, s_\{k+1\}]) = tr([A_{1},A_{2}]^\{\pm 1\}) = -2\). \end{proof}
+
+The cusp survives every application of a \(\to \) ab: the substitution acts on stages and never tears one. The traces climb toward astronomical size and the arithmetic changes beyond recognition, but the boundary stays parabolic at every rung — the stage renews itself indefinitely and never once breaks. What is conserved as the tower grows is not a number but a condition: the object keeps making room for itself.
+
+\section{Breathability: the criterion, the principal breather, and the two hierarchies}
+
+\begin{definition}[breathable, breather, rooted]
+B \(\in  SL(2,\mathbb{Z})\) with tr B \(> 2\) is \emph{breathable} if it has an orientation-reversing integer square root: some X \(\in  GL(2,\mathbb{Z})\) with det X \(= -1\) and \(X^{2} = B\); such an X is a \emph{breather} (the root, not B). A word w \(\in \) \{R,L\}\emph{ is }rooted* if its monodromy matrix is breathable. (These are the same notion; "rooted" is the word-level name used in \S\{\}3.3.)
+\end{definition}
+
+\subsection{3.1 Theorem D: the square-root criterion (classical)}
+
+\begin{theorem}[Northshield]
+B \(\in  SL(2,\mathbb{Z})\) with tr B \(> 2\) admits X \(\in  GL(2,\mathbb{Z})\) with det X \(= -1, X^{2} = B\), iff t \(:= \surd (tr\) B \(-\) 2) \(\in  \mathbb{Z}_\{>0\}\) and t divides B \(-\) I entrywise; then X \(= (B - I)/t\), unique up to sign.
+\end{theorem}
+
+\begin{proof}* \((\Longrightarrow )\) det X \(= -1\) and Cayley–Hamilton give \(X^{2} = (tr\) X)X + I, so B \(= tX + I\), t \(= tr\) X, tr B \(= t^{2} + 2\), and X \(= (B - I)/t. (\Longleftarrow )\) Set X \(= (B - I)/t\). Then det(B \(-\) I) \(= 1 -\) tr B + det B \(= -t^{2}\), so det X \(= -t^{2}/t^{2} = -1\); and by B's own Cayley–Hamilton, \(B^{2} = (t^{2}+2)B -\) I, whence \(X^{2} = (B^{2} -\) 2B + \(I)/t^{2} = t^{2}B/t^{2} = B\). Uniqueness: any root Y satisfies Y \(= (B - I)/tr\) Y with (tr \(Y)^{2} = t^{2}\). \end{proof}
+
+The criterion with the formula X \(= (B - I)/t\) is Northshield's (Square roots of \(2\times 2\) matrices, Contemp. Math. 517 (2010), eq. (7)); O'Sullivan (arXiv:2408.14405, \S\{\}8.3) exhibits the \(determinant--1\) root of the \(R^{t}L^{t}\) word explicitly. We state the proof for completeness and cite rather than claim. Every metallic matrix is breathable, with \(X_{m} = (A_{m} - I)/m\).
+
+\subsection{3.2 Theorem \(D\prime \): traces, principal breathers, and the class group}
+
+\begin{theorem}
+(i) The breathable traces are exactly the metallic traces: \{tr B : B breathable\} \(= \{t^{2} + 2\) : t \(\ge \) 1\}. (ii) The family does not exhaust the breathable locus: \(A_{1}^{3}\) is breathable \(((A_{1}^{3} - I)/4 = X_{1}^{3})\), as is every odd power of a metallic matrix; and at the metallic trace itself there exist breathers not conjugate to \(A_{m}\) whenever the class number \(h(m^{2}+4)\) exceeds 1 — for m \(= 6 (\mathbb{Z}[\sqrt{10}]\), h \(= 2), B\prime  = \left(\begin{smallmatrix}19 & 30\\12 & 19\end{smallmatrix}\right)\) of trace 38 passes the criterion with root \(X\prime  = \left(\begin{smallmatrix}3 & 5\\2 & 3\end{smallmatrix}\right)\), and \(B\prime \) is not \(GL(2,\mathbb{Z})-conjugate\) to \(A_{6}\) (the associated binary forms lie in different genera; a conjugator search is exhausted as a check). (iii) Under the Latimer–MacDuffee correspondence, the \(GL(2,\mathbb{Z})-classes\) of roots of trace t \(= m\) biject with the ideal classes of \(\mathbb{Z}[\lambda _{m}]; A_{m}\) is the breather of the principal class. \textbf{The family equals the breathable locus at its traces iff \(h(m^{2}+4) = 1\)} — the class-number-one specialization of the \(Latimer–MacDuffee/Sarnak\) count.
+\end{theorem}
+
+\begin{proof}Proof sketch and certificates.* (i): both inclusions are Theorem D plus \(X_{m}\). (ii): the displayed matrices verify in one line each (reproducers cited); non-conjugacy by the genus of the associated disc-40 binary quadratic forms — principal \((1,-6,-1)\) vs. non-principal \((2,0,-5)\); equivalently the disc-40 form \(t^{2} + 6st - s^{2}\) does not represent \(\pm 2\) (checked, \(|s,t| \le \) 400 and by residues), so no \(GL(2,\mathbb{Z})\) conjugator exists. (iii) is the Latimer–MacDuffee correspondence applied verbatim to \(x^{2} -\) mx \(-\) 1 (Latimer–MacDuffee 1933; Taussky); Sarnak's reciprocal-geodesic count is the same correspondence in \(negative-Pell/class-number\) form; his \(det--1\) reciprocators ARE our breathers (X, det \(-1, X^{2} = A\)). Which t give \(h(t^{2}+4) = 1\) is the Yokoi problem (Yokoi 1986–88). We do not claim novelty for the equivalence: it is the \(=1\) case of Sarnak's count — "the number of root classes is one \(\Longleftrightarrow \) the class number is one" — and since \(N(\lambda _{m}) = -1\) makes the order's narrow and wide class numbers coincide (\(h^{+} = h\) for every metallic order), even the narrow refinement is inert. What we contribute is only the placement of \(A_{m}\) as the principal breather and the resulting reading of the family. \end{proof}
+
+\begin{remark}Remark (provenance of the correction).* An earlier draft claimed "family \(=\) locus" and was wrong; this paper's own referee panel produced the counterexamples. The correction is more mathematics, not less — the class group of the scale is part of the breath's story.\end{remark}
+
+For the chain of \S\{\}2.4: no composite chain word is breathable for 2 \(\le \) k \(\le \) 200 (mod-p quadratic-non-residue certificates; the traces exceed astronomical size long before k \(= 200\), so modular certificates are the honest method). Beyond rung 200, and for composite metallic words in general, we state it as a conjecture — noting \(A_{1}A_{3}\) (trace 27, defect 25 \(= 5^{2}\)) passes the square test and fails only the divisibility, so the conjecture genuinely requires Theorem D's second condition.
+
+\subsection{3.3 Theorem E: the two hierarchies, with exact witnesses}
+
+For words w in \{R, L\}: \(rev\cdot swap(w) := the\) reversal with R \(\leftrightarrow \) L; \emph{word-mirror} \(:= rev\cdot swap(w)\) is a cyclic rotation of w; \emph{balanced} \(:=\) \#R \(=\) \#L. For bundles: \emph{amphichiral} \(:= M(w)\) admits an orientation-reversing self-isometry; \emph{rooted} \(:= the\) monodromy satisfies Theorem D's criterion.
+
+\begin{lemma}[the bridge: word-mirror \(\Longrightarrow \) amphichiral]
+Let A(w) \(\in  SL(2,\mathbb{Z})\) be the monodromy of the word w. Reading w backwards with R \(\leftrightarrow \) L gives the transpose: \(A(rev\cdot swap(w)) = A(w)^{T}\). Now \(A(w)^{T} = J^{-1}A(w)^{-1}J\) with J \(= \left(\begin{smallmatrix}0 & 1\\-1 & 0\end{smallmatrix}\right)\) (since for any M \(\in \) SL(2), \(M^{T} = J^{-1}M^{-1}J\)). So if w is word-mirror — \(rev\cdot swap(w)\) a cyclic rotation of w, i.e. \(A(rev\cdot swap(w))\) conjugate to A(w) — then A(w) is conjugate to \(A(w)^{-1}\) by an element of \(GL(2,\mathbb{Z})\) of determinant \(-1\) (the composite of the rotation-conjugator with J, det J \(= 1\) but the transpose flips orientation). A \(determinant-(-1)\) conjugacy of the monodromy to its inverse induces an orientation-REVERSING self-homeomorphism of the mapping torus M(w) (it reverses both the fiber, via transpose, and the base \(\mathbb{Z}-direction\), via inverse). Hence M(w) is amphichiral. 
+\end{lemma}
+
+\begin{remark}Provenance.* The criterion is known in substance: the full statement (both mechanisms, with sufficiency-not-necessity) is proved for closed Sol torus bundles by Tian–Wang–Wang (arXiv:2406.13241, Lemma 3.1, Thm 3.5) and transplants to the punctured case; the algebra \("rev\cdot swap =\) conjugate-to-inverse" is Baake–Roberts (J. Phys. A 30 (1997), Props. 3–5); the symmetry group of a punctured-torus bundle is the monodromy's \(GL(2,\mathbb{Z})-normalizer\) (Floyd–Hatcher 1982, p. 268). Morimoto's unoriented classification marks the trap avoided above: plain conjugacy to \(A^\{\pm 1\}\) ignores orientation — the determinant \(-1\) of the conjugator is what makes the self-homeomorphism orientation-reversing. Ours are the punctured word-form statement, the witnesses, and the tables.\end{remark}
+
+\begin{theorem}[word level]
+word-mirror \(\Longrightarrow \) balanced (\(rev\cdot swap\) exchanges the letter counts; rotations preserve them). Strict: RRRLLRLL is balanced, not word-mirror — and its bundle is genuinely chiral (CS \(= -0.0012159…\), its \(rev\cdot swap\) partner +0.0012159…: a chiral mirror pair of balanced words).
+\end{theorem}
+
+\begin{theorem}[manifold level]
+rooted \(\Longrightarrow \) amphichiral (the deck involution of the orientation double cover reverses orientation — the Gieseking-classical mechanism; closed-case statement in Sakuma 1985, Case II). Strict, and the two levels differ: the two cyclic classes LLLRLLRRRLRR and LLLRRLRRRLLR (trace 146, t \(= 12\)) are rooted — hence amphichiral (and verified: CS \(= 0\), an isometric pair) — but NOT word-mirror; their homology torsion is \((\mathbb{Z}/12)^{2}\), the root's square trace surfacing as square homology. Amphichiral-without-root: the chain word aba (M(RLRRLLRL), vol 7.6417106…, torsion 37, CS \(= 0\)).
+\end{theorem}
+
+\begin{proposition}[frozen residue]
+Define the residue of a word as \(det(Par\cdot W(w))\) at level 15 (\S\{\}4.0 for Par, W). Then residue(w) \(= -\omega ^\{\#L-\#R\}\) with \(\omega  = e^\{2\pi i/3\}\): balanced words have residue \(-1\) ("frozen"), and the Fibonacci letter tower (a \(\to \) R, b \(\to \) L), whose imbalance at rung k is \(\pm F_\{k-2\}\), has residue cycling with the Fibonacci sequence mod 3 — period 8, the Pisano period \(\pi (3)\). (Verified exactly; the proof is the determinant computation det \(W_{R} = \omega ̄\), det \(W_{L} = \omega \), det Par \(= -1\).)
+\end{proposition}
+
+\textbf{Scope notes (exact).} Two-block products of metallic letters are word-mirror (\(rev\cdot swap(uv) = vu\), a rotation of uv); the chain words \(s_{k}\) are word-mirror for all k \(\le \) 8 (verified; the general case reduces to the standard-word near-palindrome lemma, left open); the general product of \(\ge \) 3 metallic letters need NOT be word-mirror (\(A_{1}A_{2}A_{3}\) fails — first found by this paper's referee panel). Consequently: the chain's bundles are amphichiral through rung 8 by Lemma 3.3 + verification (CS \(= 0\) exactly at every computed rung), conjecturally for all rungs; the letter tower is chiral at rungs 3–8 (CS \(\neq \) 0, verified) and conjecturally beyond — its imbalance defeats only the word criterion, so chirality beyond rung 8 is open.
+
+\section{The level-15 Weil shadow of the pair}
+
+\subsection{4.0 The operators, defined (and their provenance)}
+
+Let N \(= 15, \zeta  = e^\{2\pi i/N\}\). On \(\mathbb{C}[\mathbb{Z}/15]\): the twist D \(= diag(\zeta ^\{j(j-1)/2\})\); the unitary DFT F; \(W_{R} := (F\) D F\emph{)}, \(W_{L} := D\); for a word w in \{R, L\}, W(w) is the corresponding product, and \(W_{m} := W(R^{m} L^{m})\) — \textbf{the Weil \(/\) Hannay–Berry quantized cat map of \(A_{m}\) at level 15} (Hannay–Berry 1980; the \(metaplectic/Weil\) representation of SL(2, \(\mathbb{Z}/N\)) at odd N: Kloosterman 1946, Nobs–Wolfart 1976, Gérardin; the arithmetic of quantized cat maps: Degli Esposti, Kurlberg–Rudnick Duke 2000). Par is the parity operator (Par \(\psi )(x) = \psi (-x\)) — the Weil image of \(-I\). \textbf{Proposition 4.0}: under the level-15 Weil representation R \(\mapsto  W_{R}\) and L \(\mapsto  W_{L}\) up to projective scalars; at odd level the projective representation linearizes (the Schur multiplier of SL(2, \(\mathbb{Z}/m\)) is trivial for m \(\not\equiv \) 0 mod 4 — Schur, Beyl Math. Z. 191 (1986); a concrete genuine choice of phases is Kurlberg–Rudnick Thm 5), and commutators \([W(u), W(v)]\) are independent of all phase choices (Mezzadri, Nonlinearity 15 (2002), \S\{\}3) — the commutator table below is therefore convention-free by citation as well as by our three-lift verification. \(ord(W_{1}) = 20, ord(W_{2}) = 12\) (computed exactly; these orders define the torus below). The \emph{interaction form} of the pair is (a,b) \(\mapsto  tr(Par\cdot P_{a}\cdot Q_{b})\), where \(P_{a}\) (a \(\in  \mathbb{Z}/20\)) and \(Q_{b}\) (b \(\in  \mathbb{Z}/12\)) are the spectral projectors of \(W_{1}\) and \(W_{2}\); its values lie in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\), and the four \emph{Galois channels} of a value are its coordinates in the basis \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) (the four isotypic pieces under \(Gal(\mathbb{Q}(\sqrt{5},\sqrt{-3})/\mathbb{Q})\) — the Klein four-group). The \emph{tier} of a point (a,b) is the vanishing pattern of its four channels; exactly five patterns occur — none, \(\{\sqrt{-3},\sqrt{-15}\}, \{\sqrt{5},\sqrt{-15}\}, \{\sqrt{5},\sqrt{-3},\sqrt{-15}\}\), all — realizing the subfield lattice, with counts \(120/20/20/10/70\). A point with all four channels zero is \emph{dark}; with none, \emph{fully active}. (These five sentences are the complete dictionary for Theorem G.)
+
+\textbf{The shadow is mod-15.} Every operator in \S\{\}4 is a function of the pair's residue in \(SL(2,\mathbb{Z}/15)\): W(A) depends only on A mod 15. Consequently the whole chapter — the commutator table, the closure set, the tiers, the master table — is an invariant of the mod-15 image, not of the integers (1,2) or of parabolicity. Concretely \(A_{16} \equiv  A_{1}\) and \(A_{17} \equiv  A_{2}\) (mod 15), and the pair \((A_{16}, A_{17})\), whose commutator trace is 2 \(- (16\cdot 17)^{2} = -73982\) (as far from parabolic as one likes), produces \S\{\}4 verbatim. We therefore read \S\{\}4 as the arithmetic of the level 15 \(= 3\cdot 5\) that the pair happens to point to (its product trace), and claim nothing about parabolicity here; open problem 4 records that the analogous construction at other product traces behaves differently.
+
+\subsection{4.1 The commutator table}
+
+\(tr[W_{1}^{j}, W_{2}^{l}]\), 1 \(\le \) j, l \(\le \) 5 (exact in \(\mathbb{Q}(\zeta _{60})\); verified in three independent lifts — the commutators are lift-independent by Proposition 4.0):
+
+\begin{center}\small\begin{tabular}{llllll}\hline
+
+\textbf{} & \textbf{\(l=1\)} & \textbf{\(l=2\)} & \textbf{\(l=3\)} & \textbf{\(l=4\)} & \textbf{\(l=5\)} \\ \hline
+
+\(j=1\) & \(-1\) & 3 & \(-5\) & 3 & \(-1\) \\
+
+\(j=2\) & 3 & 3 & 15 & 3 & 3 \\
+
+\(j=3\) & \(-1\) & 3 & \(-5\) & 3 & \(-1\) \\
+
+\(j=4\) & 3 & 3 & 15 & 3 & 3 \\
+
+\(j=5\) & \(-5\) & 15 & \(-5\) & 15 & \(-5\) \\
+
+\hline\end{tabular}\end{center}
+
+\(\kappa _{q} := tr[W_{1},W_{2}] = -1\), while \(tr[A_{1},A_{2}] = -2\): the level-15 shadow of the commutator is not the shadow of a parabolic — consistent with \S\{\}4.0, the operators do not see parabolicity.
+
+\textbf{The magnitude law (Howe's formula, verified \(25/25\)):} \(|\kappa _{q}(j,l)|^{2} = \#Fix([A_{1}^{j}, A_{2}^{l}]\) acting on \((\mathbb{Z}/15)^{2}\)) — the table's magnitudes are the square roots of the classical commutators' fixed-point counts (Howe; exact character values with signs: Thomas, J. London Math. Soc. 77 (2008)). The divisors of 15 appearing in the table are Howe's formula evaluated at level 15.
+
+\subsection{4.2 Theorem F: closure, and the residue groups (the iff assembled from published}
+
+halves)
+
+\begin{theorem}
+(i) The mod-3 image of \((A_{1}, A_{2})\) is \(Q_{8} (a^{2} = b^{2} = [a,b] = -I)\); the mod-5 image is SL(2,5), order 120. (ii) \([W_{1}^{j}, W_{2}^{l}] = I \Longleftrightarrow  [A_{1}^{j}, A_{2}^{l}] \equiv \) I (mod 15). Both directions are corollaries of published results, though we found the equivalence stated verbatim nowhere: \(\Longleftarrow \) is the classical commutation principle (Kurlberg–Rudnick Cor. 6; in the cleanest form, the multiplicativity U(A)U(B) \(= U(AB\) mod N) at odd N — Kelmer); \(\Longrightarrow \) needs the \emph{genuine} (linear) representation, not merely the projective one: projective injectivity in odd dimension (Appleby, J. Math. Phys. 46 (2005), Bolt–Room–Wall lineage) forces \([A_{1}^{j}, A_{2}^{l}]\) to be a SCALAR mod 15, but the centre of \(SL(2,\mathbb{Z}/15)\) has order four (\{I, 4I, 11I, 14I\}) and non-identity scalars do occur — e.g. \([A_{1}, A_{2}^{3}] \equiv  11\cdot I\) (mod 15), on 28 of the order-torus addresses. What closes the gap is that the genuine Weil rep at odd level is FAITHFUL on that order-four centre: \(W(11\cdot I) = Par_{3} \otimes  I_{5} \neq \) I (Kurlberg–Rudnick Thm 5; Kelmer's genuine multiplicativity), so a scalar image other than I gives \([W] \neq \) I — indeed all 28 non-identity-scalar addresses carry \(\kappa _{q} = -5 \neq \) 15, i.e. \([W] \neq \) I. Hence \([W]=I \Longleftrightarrow  [A]\equiv I\) mod 15. Our exact check on all 240 points confirms this. (iii) In particular \([W_{1}^{2}, W_{2}^{3}] = I\) exactly: \(A_{1}^{2}\) is central mod 3 and \(A_{2}^{3}\) is central mod 5, so the commutator dies at the CRT-central address — and (2,3) is the minimal address with both exponents non-central mod 15 (\(A_{2}^{6} \equiv  11\cdot I\) is central, so e.g. (1,6) also closes — the minimality is among addresses whose BOTH powers are non-central; verified on the order torus). The full closure set is the mod-15 commutation locus.
+\end{theorem}
+
+One structural fact and one convention-note, recorded without weight. (a) The image of the pair in \(SL(2,\mathbb{Z}/15)\) is \(Q_{8} \times \) SL(2,5) of order \(|Q_{8}|\cdot |SL(2,5)| = 8\cdot 120 =\) \textbf{960} (CRT; verified by direct enumeration); its projectivization has order 240 \(= ord(W_{1})\cdot ord(W_{2}) = 20\cdot 12\), the size of the order torus. (b) The single products satisfy \(tr(Par\cdot W_{1}W_{2})/tr(Par\cdot W_{2}W_{1}) = \zeta _{15}\) in the c \(= 1\) lift; the individual phases are lift-dependent (a single product is not a commutator, so Prop 4.0 does not protect it — under \(W_{1} \mapsto  \zeta _{60}W_{1}\) the numerator moves), and only the ratio \(\zeta _{15}\) is invariant.
+
+\subsection{4.3 Theorem G: a worked instance of the divisor-lattice (even-function) factorization}
+
+\begin{theorem}
+(i) \(\kappa _{q}(j,l) := tr[W_{1}^{j}, W_{2}^{l}] = \varepsilon (jl) \cdot  \chi _{5}(j,l)\), where \(\varepsilon  = 3\) for jl even and \(-1\) for jl odd (exactly: \([A_{1}^{j}, A_{2}^{l}] \equiv  (-I)^\{jl\}\) mod 3, since \(Q_{8}\) is class-2 nilpotent with central commutator), and \(\chi _{5} = 5\) or 1 according as \([A_{1}^{j}, A_{2}^{l}] \equiv \) I (mod 5) or not. (ii) Both maps on the order torus \(\mathbb{Z}/20 \times  \mathbb{Z}/12\) — the commutator trace \(\kappa _{q}\) and the tier of the interaction form — factor through the divisor pair (gcd(x,20), gcd(y,12)): each is single-valued on the 36 divisor cells. The master table:
+\end{theorem}
+
+\begin{center}\small\begin{tabular}{lllllll}\hline
+
+\textbf{gx\textbackslash\{\}gy} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{6} & \textbf{12} \\ \hline
+
+\textbf{1} & \(-1\) free & 3 free & \(-5\) qs & 3 free & 15 dark & 15 dark \\
+
+\textbf{2} & 3 free & 3 free & 15 dark & 3 dark & 15 qrs & 15 dark \\
+
+\textbf{4} & 3 free & 3 dark & 15 dark & 3 free & 15 dark & 15 qrs \\
+
+\textbf{5} & \(-5\) free & 15 rs & \(-5\) qs & 15 rs & 15 dark & 15 dark \\
+
+\textbf{10} & 15 rs & 15 rs & 15 dark & 15 dark & 15 qrs & 15 dark \\
+
+\textbf{20} & 15 rs & 15 dark & 15 dark & 15 rs & 15 dark & 15 qrs \\
+
+\hline\end{tabular}\end{center}
+
+(each cell: \(\kappa _{q}\) value, tier. Legend — the four Galois channels are the coordinates in the basis \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\); write q \(= \sqrt{5}\), r \(= \sqrt{-3}\), s \(= \sqrt{-15}\), and \emph{rat} \(= the\) rational (basis-1) coordinate. A tier names which channels VANISH: \emph{free} \(= none\) vanish (fully active, count 120), \emph{qs} \(= \{\sqrt{5},\sqrt{-15}\}\) vanish (20), \emph{rs} \(= \{\sqrt{-3},\sqrt{-15}\}\) vanish (20), \emph{qrs} \(= \{\sqrt{5},\sqrt{-3},\sqrt{-15}\}\) vanish — only the rational channel survives (10), \emph{dark} \(= all\) four vanish (70). Cell sizes are \(\varphi (20/gx)\cdot \varphi (12/gy)\).) \textbf{The two factorizations are classical, and independent.} Factorization-through-gcd is \(Cohen's/McCarthy's\) class of "even functions (mod r)" (Cohen, PNAS 41 (1955); McCarthy 1986 for the two-variable (r,s)-even form f(a,b) \(=\) f(gcd(a,r), gcd(b,s))). \(\kappa _{q}\) factors by Serre's \(\mathbb{Q}-class\) principle (Linear Representations \(§12.4/§13.1\): rational class functions are constant on \(\mathbb{Q}-classes\)) — it is rational-valued and, by the magnitude law, determined by the classical commutator's fixed-point count and sign, computed exactly per cell. The tier factors by the same even-function mechanism applied to the interaction form's Galois channels (\(Coste–Gannon/Bantay\) equivariance). We emphasize these are two functions obeying the SAME classical rule on the SAME lattice — not a coupled "joint" theorem; the tier half is here VERIFIED on all 240 points, not proved, with the per-channel derivation deferred to the companion paper on the interaction form. Consequences read off the table: a fully active cell never sits at quantum closure (no "free" in the \(\kappa _{q} = 15\) cells — full activity requires non-commutation); the partial tiers are commutator-pure (rs and qrs only at closure; qs only at \(\kappa _{q} = -5\)); darkness concentrates at closure (54 of the 70 dark points). Conceptually: a point's divisor cell fixes both the CRT-centrality data governing \(\kappa _{q}\) and the cyclotomic support governing which quadratic channels can vanish; the remaining step — deriving each cell's tier from its cyclotomic support — is stated as the opening problem of the companion paper on the interaction form.  (for (i) and the displayed verification of (ii))
+
+\subsection{4.4 A scoped remark}
+
+\(\kappa  = tr[A,B]\) stratifies the family's pairs, with (1,2) alone parabolic. The richness of the interaction structure at other pairs tracks the prime factorization of the pair's product trace, not \(\kappa \) itself (the (1,3) pair at level 27 \(= 3^{3}\) collapses to two values; (2,3) at level 63 \(= 9\cdot 7\) is rich again despite equal \(\kappa  = -34\)): the architecture of \S\{\}4.3 is level arithmetic. Any finer role of \(\kappa \) is open work, outside this paper.
+
+\section{What is classical, and what we could not locate}
+
+\textbf{Classical, cited.} The \(transpose/elliptic\) involution on the punctured-torus character variety; Fricke trace identities; Cohn's theorem and the Markov correspondence; the tree and spine; Latimer–MacDuffee; the Weil representation at odd level and its CRT factorization; quantized cat maps (Hannay–Berry; Degli Esposti; Kurlberg–Rudnick); Gieseking's manifold; \(Q_{8}\) and SL(2,5).
+
+\textbf{The gate, run in full (two rounds, six hunts; verdicts and references in \(LIT_{G}ATE.md\)).} (a) The symmetric-pair identity: PARTIALLY-KNOWN — classical in three clothings (Sarnak; Gehring–Martin; \(Goldman/Fricke\)), the (1,2) instance verbatim in Reutenauer; ours is the coordinate lemma as stated, the metallic parametrization, and the uniqueness scan. (b) Uniqueness of (1,2): the scan is ours; the pair itself is Reutenauer's, and matrix-level uniqueness claims are positioned against Schmutz Schaller (2022) and Nielsen. (c) The root criterion is Northshield's exactly; the classification is Latimer–MacDuffee verbatim; the \(h^{+}-equivalence\) and the principal-breather framing were found nowhere stated and are claimed as assembly. (d) The amphichirality criterion is known in the closed Sol case (Tian–Wang–Wang) over \(Baake–Roberts/Floyd–Hatcher\); ours are the punctured word-form statement, the strictness witnesses (\((\mathbb{Z}/12)^{2}\) pair; the balanced chiral mirror pair), and the tables. RESIDUAL (stated as the gate found it): no page-level access to the full texts of Aigner 2013 and Reutenauer 2018 was possible — per-item verdicts for the books rest on chapter-level evidence and the 2019–2026 citing sweep; and Cohn's \(1955/1972\) papers could contain the symmetric-commutator identity in entry-level form. References welcome. \textbf{The quantized-cat-map gate, run \((LIT_{G}ATE.md)\):} the commutation principle's \(\Longleftarrow \) direction, the genuine representation at odd level, the CRT factorization, and the character-magnitude machinery are all in print and cited above (Kurlberg–Rudnick; Mezzadri; \(Schur/Beyl/Nobs–Wolfart; Howe/Thomas\)). The \(\Longrightarrow \) direction of Theorem F(ii) is a folklore corollary (Appleby injectivity + genuine-rep faithfulness on the centre — \S\{\}4.2), and the divisor-lattice factorization PATTERN is classical (\(Cohen/McCarthy\) even functions; Serre \(\mathbb{Q}-classes\)) — neither is claimed. What our search of that corpus did not find, and what we state as this paper's contributions: the explicit N \(= 15\) commutator table; the \(Q_{8} \times \) SL(2,5) commutator-image assembly at N \(= 15\); and the \((2,3)/non-central\) closure address. The 36-cell table and its tier readings are ours as a worked instance, not as a new factorization principle.
+
+\section{Open problems}
+
+1. The family quantum column (\(\kappa _{q}\) at each pair's product trace; does closure track CRT centrality uniformly?). 2. The cyclotomic-support step of Theorem G. 3. \textbf{Two constants, from two distinct towers, neither identified in closed form.} The paper has two "towers," and the constants must be kept apart. (a) \emph{The chain} is the Markov-spine walk \(s_{0} = A_{2}, s_{1} = A_{1}, s_\{k+1\} = s_{k} s_\{k-1\}\) (\S\{\}2.4); write \(G_{k}\) for its number of \(R/L\) letters (\(G_{k} = G_\{k-1\} + G_\{k-2\}\), Fibonacci). Its per-letter growth is \textbf{\(\lambda _{c}hain := lim_{k}\) (tr \(s_{k})^\{1/G_{k}\} =\) 1.57705744122666946…} (the growth of the chain's geodesic lengths per letter; recomputed as a genuine limit to 18 digits, n \(\le \) 55). (b) \emph{The Fibonacci letter tower} is the substitution a \(\to \) R, b \(\to \) L applied to a seed (\S\{\}3.3, Prop E'''), giving words \(w_{k}\); \textbf{c \(:= lim_{k} Vol(M(w_{k}))/|w_{k}| =\) 0.934102018057787980264187790656…}, the hyperbolic volume per letter, obtained by the Fibonacci-additivity extrapolation (the additivity defect is \(< 10^{-27}\) by rung 13; a numerical limit, not proved to converge). Both are located to the working precision of the reproducer only; at the reproducer's precision (\(\approx \) 40 digits) PSLQ finds no integer relation of degree \(\le \) 8 with height \(\le  10^{4}\) for either — but these are HEIGHT-BOUNDED exclusions, NOT non-algebraicity certificates, and the truncated digit strings printed here are too short to reproduce them (at 18 digits PSLQ returns spurious relations), so the exclusion lives with the reproducer, not the page. 4. Why 15 twice (the seam trace equals the conductor-type level of \(\mathbb{Q}(\sqrt{-15})\); the naive family law fails at (1,3)). 5. The standard-word lemma (chain words word-mirror for all k). 6. The chain-breathability conjecture beyond rung 200. 7. The heredity of the chain's torsion primes.
+
+\section{Appendix A: reproducibility}
+
+Every displayed result maps to a public reproducer in the repository (paths under \texttt{frontier/}); each carries a lock (\texttt{ALL CHECKS PASS}) re-run at this draft. Symbolic checks are exact (SymPy over \(\mathbb{Q}\) or a cyclotomic field); the quantum layer is exact in \(F_{p}\) at p \(\equiv \) 1 (mod 60), cross-checked at two primes; \(SnapPy/sage-python\) supplies the hyperbolic geometry.
+
+\begin{center}\small\begin{tabular}{lll}\hline
+
+\textbf{result} & \textbf{statement} & \textbf{reproducer} \\ \hline
+
+Lemma 2.2 & symmetric-pair identity \(tr[A,B] = 2 - (M_{12}-M_{21})^{2}\) & \texttt{chain\_verify.py} (symbolic, \(\equiv \) 0 on the SL(2) locus) \\
+
+Theorem A & \(tr[A_{m},A_{n}] = 2 - (mn(n-m))^{2}\); (1,2) unique & \texttt{chain\_verify.py} \\
+
+\S\{\}2.1 Alexander & \(\Delta _{m}(a) = a^{2} - (m^{2}+2)a + 1\), m \(=\) 1…5 & \texttt{B485\_metallic\_apoly\_family/apoly\_sage.py} (SnapPy) \\
+
+Theorem B & \(\langle A_{1},A_{2}\rangle  = \langle g_{1},g_{2}\rangle \) generator-for-generator & \texttt{chain\_verify.py} \\
+
+Theorem C & spine 1,2,5,13,194,7561; Markov triples; Nielsen & \texttt{chain\_verify.py} \\
+
+Theorem D \(/ D\prime \) & root criterion; \(A_{1}^{3}\) and \(\left(\begin{smallmatrix}19 & 30\\12 & 19\end{smallmatrix}\right)\) counterexamples; \(h=1\) iff & \texttt{hierarchy\_verify.py} \\
+
+Prop E''' & residue \(= -\omega ^\{\#L-\#R\}\); Pisano \(\pi (3)=8\) & \texttt{rf3\_quantum.py} \\
+
+Thm \(E/E″\) witnesses & RRRLLRLL chiral (CS \(\neq \) 0); LLLRRLRRRLLR rooted, \((\mathbb{Z}/12)^{2}\); aba & \texttt{hierarchy\_verify.py} \\
+
+\S\{\}4.1 table & \(tr[W_{1}^{j},W_{2}^{l}]\), three-lift exact & \texttt{B472\_quantum\_commutator/kq\_verify.py} \\
+
+magnitude law & \(|\kappa _{q}|^{2} =\) \#Fix \((25/25)\) & \texttt{kq\_verify.py} \\
+
+Theorem F & \(Q_{8}\), SL(2,5); \([W_{1}^{2},W_{2}^{3}]=I\); (2,3) minimal non-central & \texttt{kq\_verify.py} \\
+
+Theorem G & \(\varepsilon (jl)\cdot \chi _{5}\); 36-cell master table; tiers \(120/20/20/10/70\) & \texttt{B474\_tier\_commutator\_law/cross\_table.py} \\
+
+\S\{\}4.0 collision & \((A_{16},A_{17}) \equiv  (A_{1},A_{2})\) mod 15 (level-15 shadow) & exact engine \texttt{B465\_monodromy\_intake/exact\_engine.py} \\
+
+\S\{\}6 constants & \(\lambda _{c}hain\), c as limits + PSLQ height-bounded exclusions & \texttt{c\_identify.py}, \texttt{chain\_verify.py} (working precision in-file) \\
+
+\hline\end{tabular}\end{center}
+
+The two banked errors this draft's own panel caught and fixed (the two-block gap in the first amphichirality theorem; the "family \(=\) locus" over-claim) have regression checks in \texttt{hierarchy\_verify.py}.
+
+\section{Appendix B: the corrections ledger}
+
+This paper was built by an internal adversarial-review process — a panel of independent referees run against each draft, followed by a two-round literature gate — and it corrected itself repeatedly on the way. We record the path plainly, because a result reached by surviving its own refutations is more trustworthy than one asserted once, and because the demotions are as much a part of the mathematics as the promotions.
+
+\textbf{Errors the panel found and fixed (banked corrections).} 1. \emph{The first amphichirality theorem was false in generality.} An early draft's palindromic-alphabet argument covered two-block products only; \(rev\cdot swap\) reverses the block \emph{sequence}. Counterexample \(A_{1}A_{2}A_{3}\). The surviving statement is Theorem \(E/E″\) with its exact witnesses and Lemma 3.3's bridge. 2. \emph{"Family \(= breathability\) locus" was false.} \(A_{1}^{3}\) is a rooted composite, and \(\left(\begin{smallmatrix}19 & 30\\12 & 19\end{smallmatrix}\right)\) is a non-principal breather at trace 38 (\(\mathbb{Z}[\sqrt{10}]\), h \(= 2\)), not conjugate to \(A_{6}\). The corrected — and stronger — statement is Theorem \(D\prime \): breathable traces \(= metallic\) traces, \(A_{m}\) the principal breather, family \(= locus \Longleftrightarrow  h(m^{2}+4) = 1\). 3. \emph{Theorem A is a generic symmetric-pair identity}, not a family miracle (Lemma 2.2); the paper's weight moved to the Cohn identification and the metallic integer \(mn(n-m)\).
+
+\textbf{Literature-gate demotions (accepted in full).} 4. The symmetric-pair identity is the coordinate form of classical facts (Sarnak; Gehring– Martin), with the (1,2) pair verbatim Reutenauer's Markoff morphism. 5. The square-root criterion (Theorem D) is Northshield's (2010) — cited, no longer claimed. 6. The amphichirality criterion is Tian–Wang–Wang's closed case (Lemma 3.3), over Baake– Roberts and Floyd–Hatcher. 7. The converse of Theorem F(ii) is a folklore corollary of Appleby's odd-dimension injectivity — demoted from "ours, verified" to "confirmed"; our 240-point check stands as confirmation.
+
+\textbf{Round-2 structural corrections.} \S\{\}4 was reframed as the \emph{level-15 Weil shadow} once the collision \((A_{16},A_{17}) \equiv  (A_{1},A_{2})\) mod 15 showed \S\{\}4 is blind to parabolicity; the "240" and \(\zeta _{60}\) "curiosities" were corrected (the image is \(Q_{8} \times \) SL(2,5) of order 960; the single-product phases are lift-dependent). The "certifiably non-algebraic" claim for the constants became a height-bounded exclusion.
+
+What survives all of this is stated as ours in \S\{\}5, scoped exactly: the family question, the two-parameter failure integer and its uniqueness scan, the \(principal-breather/class-number\) assembly, the hierarchy witnesses, and the explicit N \(= 15\) quantum tables with their divisor-lattice reading. The method is not the theorem — but it is why the theorems can be trusted.
+
+\begin{thebibliography}{99}
+\bibitem{cohn} H.~Cohn, \emph{Approach to Markoff's minimal forms through modular functions}, Ann. of Math. \textbf{61} (1955), 1--12.
+\bibitem{reutenauer} C.~Reutenauer, \emph{From Christoffel Words to Markoff Numbers}, Oxford Univ. Press, 2019.
+\bibitem{sarnak} P.~Sarnak, \emph{Reciprocal geodesics}, Clay Math. Proc. \textbf{7} (2007), 217--237.
+\bibitem{gehring} F.~W. Gehring and G.~J. Martin, \emph{Commutators, collars and the geometry of M\"obius groups}, J. Anal. Math. \textbf{63} (1994), 175--219.
+\bibitem{northshield} S.~Northshield, \emph{Square roots of $2\times2$ matrices}, Contemp. Math. \textbf{517} (2010), 289--304.
+\bibitem{lm} C.~G. Latimer and C.~C. MacDuffee, \emph{A correspondence between classes of ideals and classes of matrices}, Ann. of Math. \textbf{34} (1933), 313--316.
+\bibitem{tww} Y.~Tian, S.~Wang, and Z.~Wang, \emph{Achirality of Sol 3-manifolds}, arXiv:2406.13241 (2024).
+\bibitem{hb} J.~H. Hannay and M.~V. Berry, \emph{Quantization of linear maps on a torus}, Physica D \textbf{1} (1980), 267--290.
+\bibitem{kr} P.~Kurlberg and Z.~Rudnick, \emph{Hecke theory and equidistribution for the quantization of linear maps of the torus}, Duke Math. J. \textbf{103} (2000), 47--77.
+\bibitem{howe} R.~Howe, \emph{On the character of Weil's representation}, Trans. Amer. Math. Soc. \textbf{177} (1973), 287--298.
+\bibitem{thomas} T.~Thomas, \emph{The character of the Weil representation}, J. London Math. Soc. \textbf{77} (2008), 221--239.
+\bibitem{appleby} D.~M. Appleby, \emph{SIC-POVMs and the extended Clifford group}, J. Math. Phys. \textbf{46} (2005), 052107.
+\bibitem{serre} J.-P. Serre, \emph{Linear Representations of Finite Groups}, Springer, 1977.
+\bibitem{cohen} E.~Cohen, \emph{Representations of even functions (mod $r$)}, Duke Math. J. \textbf{25} (1958).
+\end{thebibliography}
+
+\end{document}
+
