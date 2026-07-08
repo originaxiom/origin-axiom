@@ -38,3 +38,26 @@ anyons interesting is exactly what prevents their braiding from being a specific
 The object's braiding is UNIVERSAL, which is a beautiful real fact and the reason it is NOT
 the Standard Model. No B398 (non-firing). No mass/angle value voiced (HELD honored).
 Reproducer: `braid_verify.py`. Nothing physics-shaped banked.
+
+## Addendum — interaction and multiplicity (owner's follow-up): three symmetry channels, none gauge
+Owner: "even in interaction or multiplicity?" Checked both routes to escape the single-object
+density obstruction.
+- **Multiplicity — ABSENT.** The Fibonacci category is multiplicity-free (τ×τ = 1+τ, all
+  multiplicities 1). The braid representation is IRREDUCIBLE in every anyon number (commutant
+  dim = 1, verified at N=3; density ⟹ irreducible for all N). An irreducible action has scalar
+  commutant (Schur) — so there is NO internal multiplicity symmetry to extract as a gauge
+  group. The SM's multiplicity (3 generations, 3 colors) is structurally not present.
+- **Interaction — gives emergent CFT, not gauge.** The anyonic-chain interaction Hamiltonian
+  flows to a CFT: the golden (AFM) chain → tricritical Ising c = 7/10 [BANKED as the SUSY
+  thread, B221–223/S040]. What emerges is CONFORMAL / superconformal (Virasoro) symmetry from
+  the CLASSIFIED minimal-model list — not a Yang–Mills gauge theory. Interaction gives emergent
+  SUSY, not the SM.
+- **Gauging — nothing to gauge.** A specific finite gauge group emerges only by gauging a
+  categorical symmetry (anyon condensation). Fibonacci has trivial braided auto-equivalence
+  group ⟹ no symmetry to gauge ⟹ no finite gauge group.
+
+**The three symmetry channels of the object:** single-object braiding → DENSE/universal (no
+fixed structure); interaction → CONFORMAL/superconformal (emergent CFT, c=7/10 SUSY, banked);
+multiplicity → ABSENT (multiplicity-free). None of the three is the SM's Yang–Mills gauge
+structure. The owner's instinct — emergence happens in interaction/multiplicity — is CORRECT
+and already banked (c=7/10); what emerges there is conformal/SUSY symmetry, not gauge symmetry.
