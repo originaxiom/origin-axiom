@@ -45,6 +45,8 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 | L-ESC | γ(λ=3) = 0.445(6) three-method; B186's 0.51 = early-window bias (corrected); grammar ≠ full 2-shift | B451 | Bowen–Ruelle classical; the correction is the program's record |
 | L-2STREAM | level-2 arithmetic: trace fields ESCALATE per rung (4/8/12; 14; >32) while scale fields stay Markov-quadratic | B470 RF2 | **NEEDS-LIT**: "trace fields punctured torus bundles word length", Guéritaud–Futer |
 
+| T-KQ | the quantum commutator table tr[W₁ʲ,W₂ˡ] (magnitudes = divisors of 15); **THE CLOSURE THEOREM [W₁²,W₂³] = I** — quantum closure ⟺ CRT centrality (A₁² central mod 3, A₂³ central mod 5); mod-3 image = Q₈, mod-5 image = SL(2,5); κ_q(1,1) = −1 ≠ κ_cl = −2 | B472 | `kq_verify.py` | mechanism classical (cite); the seam-level κ_q framing NEEDS-LIT |
+
 ## Constants awaiting identification (the relaunch's inverse-symbolic targets)
 
 vol/letter of the letter tower **c = 0.934102018057787980264187790656** (28 digits via
@@ -53,8 +55,10 @@ candidate closed form = the Bloch-Wigner hull average over the Farey shapes — 
 companion ADDITIVITY LAW: tower volume defect < 1e-27 by n=13, doubly-exponential decay —
 NEEDS-LIT vs Brock/Guéritaud) · torsion temperature
 **0.6295727/syllable** (= 1.2591398/letter; λ relation λ_CC = λ_Chat2^φ) · λ_chain
-**1.57705744122666946… per R/L letter** (25 digits; certified NON-ALGEBRAIC to degree 8,
-coeff cap 10⁴ — upgraded 2026-07-08 from the quadratic-only scan; Zagier gate) · the B451 resonance spectrum — NOW COMPUTED at certified truncation N = 8: leading 0.4415
+**1.57705744122666946… per R/L letter** (25 digits; certified NON-ALGEBRAIC to degree 8;
+Zagier gate). **CONSTANTS DEFLATION (2026-07-08, seat-2's kill of its own conjecture): the
+torsion temperature IS λ_chain in a different Fibonacci normalization (the φ/2 relation is
+bookkeeping) — the ledger holds exactly TWO genuine constants: λ_chain and c.** · the B451 resonance spectrum — NOW COMPUTED at certified truncation N = 8: leading 0.4415
 (= the escape rate ✓), **second resonance REAL NEGATIVE, rate 0.70(8)**, third a complex
 pair near 0.89; certified primitive table {2,4,5,6,7,8 → 2,1,2,3,4,5} with all periodic
 points proven real and simple; the algebra recovered one orbit numerics missed (|Λ| = 915).
