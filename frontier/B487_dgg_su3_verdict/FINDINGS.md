@@ -44,3 +44,24 @@ used one level too strong (flavor→gauge, 3d→4d, one-symmetry→three-factors
 was indeed opened in 2018, and behind it is a lovely 3d U(1) theory with an SU(3) flavor
 symmetry — not the Standard Model. Firewall holds; nothing physics-shaped banked.
 Sources: arXiv:1803.04009 (Gang–Yonekura), JHEP 07(2018)145.
+
+## Addendum — the "duality product T[4₁] ⊗ T[5₂] = SM" follow-up: also fails (verified)
+Seat-1's follow-up: the SM is the duality/tensor product of the golden and silver DGG theories
+(SU(3) from one knot, SU(2) from another, coupled by tr(A₁A₂)=15); λ·σ(λ)=−1 the "fundamental
+duality." Three checkable facts, verified this session:
+1. **λ·σ(λ) = −1 IS the banked norm identity (T-NORM, the residue), already in P3.** For every
+   metallic member, λ_m·σ(λ_m) = N(λ_m) = det X_m = −1. Correctly spotted by seat-1, but it is
+   the residue the program already banks, not a new duality equation.
+2. **Both 4₁ AND 5₂ are hyperbolic twist knots → both get SU(3) flavor enhancement**
+   (Gang–Yonekura is "ALL hyperbolic twist knots"). So the metallic knots give SU(3)×SU(3),
+   NOT SU(3)×SU(2). The "SU(2) from the silver knot" is false — 5₂ gives SU(3) too.
+3. **The metallic m=2 is m136, NOT the 5₂ knot** (vol 3.664 vs 2.828 — different manifolds;
+   banked correction). Seat-1 conflates the metallic once-punctured-torus BUNDLE with the 5₂
+   KNOT complement. The higher metallic members (m≥2) are bundles, generally not knot complements.
+Plus the B487 verdict stands: tensoring two 3d N=2 theories yields a 3d N=2 theory with FLAVOR
+symmetries; "tensor product = gauge group product" (gauging the flavor symmetries into a 4d SM
+gauge group) is an unjustified assertion with no known realization. So the duality product is
+flavor×flavor in 3d — doubly not the 4d SM gauge theory. Honest positive: the DGG
+flavor-symmetry-enhancement PATTERN across the metallic family (all hyperbolic-twist members →
+SU(3) flavor) is a real, computable mathematical object worth a note, firewalled from the SM.
+Firewall holds.
