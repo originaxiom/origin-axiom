@@ -117,7 +117,9 @@ if __name__=='__main__':
 \bibitem{cohen} E.~Cohen, \emph{Representations of even functions (mod $r$)}, Duke Math. J. \textbf{25} (1958), 401--421.
 \bibitem{mccarthy} P.~J. McCarthy, \emph{Introduction to Arithmetical Functions}, Springer, 1986.
 \bibitem{serre} J.-P. Serre, \emph{Linear Representations of Finite Groups}, Springer, 1977.
-\bibitem{hb} J.~H. Hannay and M.~V. Berry, \emph{Quantization of linear maps on a torus}, Physica D \textbf{1} (1980), 267--290."""
+\bibitem{hb} J.~H. Hannay and M.~V. Berry, \emph{Quantization of linear maps on a torus}, Physica D \textbf{1} (1980), 267--290.
+\bibitem{ladisch} F.~Ladisch, \emph{The character of the Weil representation of a finite abelian group of odd order}, arXiv:2303.09676 (2023).
+\bibitem{dln} C.~Dong, X.~Lin, and S.-H. Ng, \emph{Congruence property in conformal field theory}, Algebra Number Theory \textbf{9} (2015), 2121--2166."""
     BIB_P2=r"""\bibitem{brakes} W.~R. Brakes, \emph{Manifolds with multiple knot-surgery descriptions}, Math. Proc. Cambridge Philos. Soc. \textbf{87} (1980), 443--448.
 \bibitem{nr} W.~D. Neumann and A.~W. Reid, \emph{Arithmetic of hyperbolic manifolds}, in Topology '90, de Gruyter (1992), 273--310.
 \bibitem{thurston} W.~P. Thurston, \emph{The Geometry and Topology of Three-Manifolds}, Princeton lecture notes, 1980.
@@ -127,7 +129,9 @@ if __name__=='__main__':
 \bibitem{goldman} W.~M. Goldman, \emph{The modular group action on real SL(2)-characters of a one-holed torus}, Geom. Topol. \textbf{7} (2003), 443--486.
 \bibitem{cl} S.~Cantat and F.~Loray, \emph{Dynamics on character varieties and Malgrange irreducibility of Painlev\'e VI}, Ann. Inst. Fourier \textbf{59} (2009), 2927--2978.
 \bibitem{dirichlet} P.~G.~L. Dirichlet, \emph{Vorlesungen \"uber Zahlentheorie}, 1863.
-\bibitem{hb} J.~H. Hannay and M.~V. Berry, \emph{Quantization of linear maps on a torus}, Physica D \textbf{1} (1980), 267--290."""
+\bibitem{hb} J.~H. Hannay and M.~V. Berry, \emph{Quantization of linear maps on a torus}, Physica D \textbf{1} (1980), 267--290.
+\bibitem{cantat} S.~Cantat, \emph{Bers and H\'enon, Painlev\'e and Schr\"odinger}, Duke Math. J. \textbf{149} (2009), 411--460.
+\bibitem{bgmw} I.~Biswas, S.~Gupta, M.~Mj, and J.~Whang, \emph{Surface group representations in $SL_2(\mathbb{C})$ with finite mapping class orbits}, Geom. Topol. \textbf{26} (2022), 679--719."""
 
     BIB_P4=r'''\bibitem{cohn} H.~Cohn, \emph{Approach to Markoff's minimal forms through modular functions}, Ann. of Math. \textbf{61} (1955), 1--12.
 \bibitem{reutenauer} C.~Reutenauer, \emph{From Christoffel Words to Markoff Numbers}, Oxford Univ. Press, 2019.

@@ -86,6 +86,25 @@ E₁₀=T(2,3,7); Cartan determinants 3, 1, −1 confirm the identifications, E�
   E₁₀/BKL-billiard connection is a **family resemblance** (both use the E-series), NOT a structural
   home for the program's two-ended structure. **The hook stays a hook; C2 does not upgrade it.**
 
+## Kasner addendum (computed 2026-07-09): the "W(φ)=1/4" claim is mislabeled; the clean fact is p₂=1/2
+Seat-1: "the Weyl curvature invariant of the golden Kasner is exactly 1/4." Checked by exact symbolic
+GR (sympy Kretschmann of the Kasner metric):
+- **The actual Weyl/Kretschmann invariant is NOT 1/4.** Kasner is vacuum (Weyl=Riemann); K = R_{abcd}R^{abcd}
+  = 4(Σp_i²(p_i−1)² + Σ_{i<j}p_i²p_j²)/t⁴. At the golden Kasner the dimensionless coefficient K·t⁴ = **2**
+  exactly — and it is NON-extremal (u=1→2.370, u=2→1.679, u=3→1.049; golden sits in the middle). The "1/4"
+  is |p₁p₃|, a product of Kasner *exponents*, mislabeled as a curvature invariant.
+- **The genuinely clean & characterizing fact:** the golden Kasner is the UNIQUE Kasner with middle
+  exponent **p₂ = 1/2** — because p₂=(1+u)/(1+u+u²)=1/2 ⟺ u²=u+1 ⟺ u=φ. And then p₁p₃=−1/4 is *forced*
+  by the constraints (p₁+p₃=1/2, p₁²+p₃²=3/4 ⇒ p₁p₃=−1/4), not an independent invariant. Exact:
+  p=(−1/(2φ), 1/2, φ/2), verified Σp=1, Σp²=1.
+- **Eigenvalue attribution corrected:** the outer exponents (φ/2, −1/(2φ)) are half the eigenvalues of
+  the HALF-matrix X₁=[[1,1],[1,0]] (φ, −1/φ), NOT "the monodromy eigenvalues (φ,1/φ)" — A₁'s eigenvalues
+  are φ², φ^{−2}.
+- **Agreement with seat-1's own sober framing:** the golden Kasner does NOT satisfy CCC (Weyl ≠ 0),
+  is not conformally smooth, and is not "the Big Bang." The algebra is real (p₂=1/2 characterizes golden);
+  the cosmology is not claimed. Verdict: KEEP "golden = the middle-exponent-½ Kasner" (exact, pretty);
+  DROP "W=1/4 is the Weyl invariant" (false — it is 2, and non-extremal).
+
 ## Verdict
 The BKL/E₁₀ connection has a **real mathematical spine** — the metallic family are exactly the
 constant-era periodic orbits of the same Gauss-map/SL(2,ℤ) dynamics that governs BKL era transitions,
