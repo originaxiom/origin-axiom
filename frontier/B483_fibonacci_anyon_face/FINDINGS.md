@@ -52,3 +52,37 @@ Weinberg angle — all killed):
 **Verdict:** the Fibonacci-anyon face is a real, bankable mathematical unification (banked
 here + the S-room). The SM overlay is the familiar trap and stays behind the firewall.
 Reproducer: `anyon_verify.py`. Nothing physics-shaped to CLAIMS.md.
+
+## Addendum — the real gift: the Weil ↔ Chern-Simons TORSION WALL (banked as insight)
+
+Seat-1's sharpest observation, verified and worth keeping. The object has TWO quantizations,
+and they differ in exactly the arithmetic that matters:
+- **Weil / arithmetic side (level 15):** determinants live in ⟨ζ₃, ζ₄, −1⟩ = ζ₁₂ (B481,
+  proved). **No 5-torsion** — the golden phase ζ₅ is algebraically FORBIDDEN from the
+  determinant. This is precisely why every SM-value search on the Weil side failed at the
+  count level: the golden/5-torsion physics cannot appear there.
+- **Chern-Simons / TQFT side (SU(2)_3):** the conformal weights h_a = a(a+2)/20 and twists
+  θ_a naturally carry golden 5-torsion (θ₂ = ζ₅², the τ anyon has quantum dim φ). The golden
+  structure lives HERE.
+Same object, two sides of a torsion wall: the arithmetic quantization has the clean
+prohibition structure (16 locks, chirality, the torsion law) but no golden physics; the TQFT
+quantization has the golden physics but is a topological (not arithmetic) object. This is a
+genuine, precise structural fact — banked as insight (it explains a year of Weil-side SM nulls).
+
+## The 3:8:15 SM overlay — CLOSED as the trap (ninth instance), stated exactly
+Seat-1: 20h = 3, 8, 15 = dim SU(2), dim SU(3), "seam 15". Verified FORCED:
+**4j(j+1) = (2j+1)² − 1** for j = ½,1,3/2 gives 3, 8, 15 = the ADJOINT dimensions of
+SU(2), SU(3), SU(4) — an algebraic identity about spin-j reps, not a gauge signal. And the
+match is IMPERFECT: the SM is SU(3)×SU(2)×U(1); 3:8:15 gives SU(2),SU(3),**SU(4)** — SU(4)
+is not in the SM and U(1) is missing. The "15 = seam" reading conflates two different 15s
+(here 15 = 4²−1 = dim SU(4) adjoint; the seam 15 = 3·5). Ninth count-matching kill.
+
+## The physics door T[4₁, SU(2)_3] — a REAL but non-SM 3d theory
+The DGG 3d-3d correspondence (Dimofte–Gaiotto–Gukov 2011) maps the figure-eight complement
+to a specific, KNOWN 3d N=2 gauge theory T[4₁] (essentially the tetrahedron/free-chiral
+theory). It is real and computable — but a 3-DIMENSIONAL SUPERSYMMETRIC theory, categorically
+not the 4d Standard Model. The door opens onto a known non-SM theory. Also: V(4₁;ζ₅)=1−√5=−2/φ
+and V(4₁;ζ₁₀)=0 exactly (both verified) — golden-field, on-brand, not SM.
+
+**Net:** the circle closes as MATHEMATICS (the object IS the Fibonacci anyon — banked, real,
+beautiful). The torsion wall is a genuine new insight. The SM overlay is the trap. Firewall holds.
