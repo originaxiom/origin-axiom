@@ -81,3 +81,19 @@ python3 chain_verify.py     # ALL CHECKS PASS — theorem, Cohn, chain laws, con
 # aba body: snappy b++RLRRLLRL (session log; vol/CS/H1 as above)
 pytest ../../tests/test_b471.py
 ```
+
+## CORRECTIONS (2026-07-08, the P4 adversarial panel; each verified exactly before banking)
+
+1. **The palindromic-alphabet argument is two-block only** (see the B470 correction; the
+   chain-rung amphichirality data stands; the general metallic-word claim is retracted).
+2. **"The alphabet is exactly the root locus" is FALSE in two escalating ways**, and the
+   truth is a better theorem: (i) odd powers are rooted composites — A₁³ has tr−2 = 4²
+   with (A₁³−I)/4 integral of det −1 = X₁³ (verified); (ii) at the CLASS level, when
+   h⁺(m²+4) > 1 there are breathable matrices at the metallic trace NOT conjugate to A_m:
+   X′ = [[3,5],[2,3]] (det −1, tr 6; ℤ[√10], class number 2) gives B′ = [[19,30],[12,19]]
+   of trace 38 = 6²+2, passing the full root criterion, with no conjugator to A₆ (small
+   search exhausted; the panel's genus-character obstruction makes it rigorous). **The
+   corrected statements: breathable TRACES are exactly the metallic traces t²+2; A_m is
+   the PRINCIPAL breather at its trace; family = locus if and only if the narrow class
+   number h⁺(m²+4) = 1.** The chain statement stands as certified (no chain composite
+   rooted, rungs 2–200) and is a conjecture beyond.

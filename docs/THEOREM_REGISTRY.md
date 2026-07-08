@@ -11,11 +11,11 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 
 | # | statement | bank | reproducer | lit-status / search terms |
 |---|---|---|---|---|
-| T-UNIQ | tr[A_m,A_n] = 2 − (mn(n−m))²; the commutator is parabolic ⟺ (m,n) = (1,2) — the unique cusp-closing metallic pair | B471 | `chain_verify.py` | **NEEDS-LIT (Paper 4)**: line-by-line vs Aigner 2013 (Markov's Theorem & the Uniqueness Conjecture), Reutenauer 2018 (Christoffel Words to Markoff Numbers — Fricke/Cohn bijection ch.), Cusick–Flahive 1989, Cohn 1955. The Fricke commutator identity is classical; the METALLIC parametrization + factored-square form is the candidate novelty (seat-1 lit-sweep 2026-07-08) |
-| T-MIRROR | every word in metallic letters R^mL^m is reverse+swap-cyclic ⟹ the bundle is amphichiral; the criterion is sufficient NOT necessary (exact witnesses LLLRLLRRRLRR pair, (ℤ/12)² torsion) | B470 (PR #625/#627) | `hierarchy_verify.py` | **NEEDS-LIT**: "amphichiral punctured torus bundles palindromic monodromy", Hilden–Lozano, the flagship recursion's gate |
+| T-UNIQ | tr[A_m,A_n] = 2 − (mn(n−m))²; parabolic ⟺ (m,n) = (1,2). **MECHANISM (P4 panel, verified): for ANY symmetric pair in SL(2), tr[A,B] = 2 − (M₁₂−M₂₁)² with M = AB (since BA = (AB)ᵀ) — the square is the transpose/elliptic involution; the family content is M₁₂−M₂₁ = mn(n−m). Two-line proof; significance weight moves to the Cohn identification** | B471 (+panel) | `chain_verify.py` | NEEDS-LIT, redirected: the SYMMETRIC/palindromic corner of Markov theory + Aigner/Reutenauer/Cusick–Flahive |
+| T-MIRROR | **CORRECTED (P4 panel)**: the palindromic-alphabet argument is TWO-BLOCK only (counterexample A₁A₂A₃ = RLRRLLRRRLLL); chain rungs word-mirror verified ≤ 8 (standard-word lemma = the open proof route); word criterion sufficient-not-necessary (the (ℤ/12)² pair); the word-mirror ⟹ amphichiral bridge lemma must be stated | B470 + correction | `hierarchy_verify.py` | NEEDS-LIT + the bridge lemma standard-shaped (cite) |
 | T-GIES-FAM | X_m = [[m,1],[1,0]], X_m² = A_m, det −1 ∀m: every metallic bundle orientation-double-covers a non-orientable bundle (m=1: Gieseking; SnapPy gate m000 ✓) | B469 BR2 | `br1_br2.py` | **NEEDS-LIT**: "non-orientable punctured torus bundle orientation double cover", Gieseking family literature |
 | T-COLLIDE | 4₁(5,1) ≅ −5₂(5,1) = m003(−2,3); in-window census: 3 collision children incl. the TRIPLE 4₁(1,2) = 5₂(−1,1) = 6₁(1,1) (ℤHS); merge orientation classified | B467 (+census) | `f3_wall.py`, `census.py` | **NEEDS-LIT**: Brakes 1980, Livingston, "knots with common Dehn surgery", "cosmetic surgery pairs twist knots", Whitehead-link symmetry |
-| T-BB | integer det = −1 square root of B ∈ SL(2,ℤ) ⟺ tr(B) − 2 = t² AND t \| (B − I); the metallic family = the root locus; chain composite words rootless (rungs 2–200 certified) | B469/B470/B471 | `hierarchy_verify.py` | **NEEDS-LIT**: "square roots in SL(2,Z)", "GL(2,Z) square root criterion trace" |
+| T-BB | the root criterion (tr − 2 = t² AND t \| B − I) — **CORRECTED SCOPE (P4 panel, verified): breathable TRACES = metallic traces t²+2; A_m = the PRINCIPAL breather; family = locus ⟺ h⁺(m²+4) = 1 (counterexamples: A₁³; [[19,30],[12,19]] non-principal at trace 38, ℤ[√10] h = 2)**; chain composites rootless 2–200 certified, beyond = conjecture | B469/B470/B471 + correction | `hierarchy_verify.py` | NEEDS-LIT + Latimer–MacDuffee/class-group framing |
 
 ## Tier 2 — the structural theorems (proofs banked; lit-status = classical-anchored)
 
@@ -45,7 +45,7 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 | L-ESC | γ(λ=3) = 0.445(6) three-method; B186's 0.51 = early-window bias (corrected); grammar ≠ full 2-shift | B451 | Bowen–Ruelle classical; the correction is the program's record |
 | L-2STREAM | level-2 arithmetic: trace fields ESCALATE per rung (4/8/12; 14; >32) while scale fields stay Markov-quadratic | B470 RF2 | **NEEDS-LIT**: "trace fields punctured torus bundles word length", Guéritaud–Futer |
 
-| T-KQ | the quantum commutator table tr[W₁ʲ,W₂ˡ]; **THE CLOSURE THEOREM [W₁²,W₂³] = I** (CRT centrality); mod-3 image Q₈, mod-5 image SL(2,5); κ_q(1,1) = −1 ≠ κ_cl = −2 | B472 | `kq_verify.py` | mechanism classical (cite); the seam-level κ_q framing NEEDS-LIT |
+| T-KQ | the quantum commutator table; **THE CLOSURE THEOREM [W₁²,W₂³] = I** (CRT centrality); Q₈/SL(2,5) images; κ_q(1,1) = −1 | B472 | `kq_verify.py` | **lit-gate WIDENED (P4 panel): W_m = the Hannay–Berry quantized cat map (Hannay–Berry 1980; Degli Esposti; Kurlberg–Rudnick) — the repo's own B376 anchor; gate items (e),(f) against that corpus before any novelty word** |
 | T-MASTER | **the master theorem**: κ_q = ε(jl)·χ₅ (two characters: Q₈-parity × mod-5 closure), and BOTH κ_q and the seam tier factor through the divisor pair (gcd(x,20), gcd(y,12)) — the entire selection architecture = two functions on the 36-cell divisor lattice of the clock orders; B474's laws = finite cell checks | B474 | `cross_table.py` + master table, locks | the co-factorization is the program's own; divisor-lattice selection rules NEEDS-LIT (Paper 1/4 spine) |
 
 ## Constants awaiting identification (the relaunch's inverse-symbolic targets)
@@ -56,7 +56,7 @@ candidate closed form = the Bloch-Wigner hull average over the Farey shapes — 
 companion ADDITIVITY LAW: tower volume defect < 1e-27 by n=13, doubly-exponential decay —
 NEEDS-LIT vs Brock/Guéritaud) · torsion temperature
 **0.6295727/syllable** (= 1.2591398/letter; λ relation λ_CC = λ_Chat2^φ) · λ_chain
-**1.57705744122666946… per R/L letter** (25 digits; certified NON-ALGEBRAIC to degree 8;
+**1.57705744122666946… per R/L letter** (25 digits; PSLQ excludes integer relations of degree ≤ 8 at coefficient height ≤ 10⁴ — a HEIGHT-BOUNDED exclusion, not a non-algebraicity certificate — P4-panel phrasing correction;
 Zagier gate). **CONSTANTS DEFLATION (2026-07-08, seat-2's kill of its own conjecture): the
 torsion temperature IS λ_chain in a different Fibonacci normalization (the φ/2 relation is
 bookkeeping) — the ledger holds exactly TWO genuine constants: λ_chain and c.** · the B451 resonance spectrum — NOW COMPUTED at certified truncation N = 8: leading 0.4415
