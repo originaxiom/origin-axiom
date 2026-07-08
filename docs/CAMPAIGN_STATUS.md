@@ -50,10 +50,10 @@ audit: `docs/AUDIT_2026-07-05.md`.
 
 ## LAST BANKED (the heartbeat adjudication)
 - **B448 (2026-07-07) — two handoffs adjudicated + the orbit-field tower computed exactly.**
-  Chat-2's three structural NOs + cocycle heartbeat: reproduced bit-for-bit (exact rationals;
-  the 2-cycle +0.010418/−0.074496; mechanism generic by two controls). Chat-1's period-2
+  seat-2's three structural NOs + cocycle heartbeat: reproduced bit-for-bit (exact rationals;
+  the 2-cycle +0.010418/−0.074496; mechanism generic by two controls). seat-1's period-2
   heartbeat CONFIRMED exactly (monodromy-fixed points on κ=−2 = the discrete-faithful pair,
-  ℚ(√−3) — the trace field re-derived dynamically); Chat-1's √5 field-tower REFUTED (period 5 =
+  ℚ(√−3) — the trace field re-derived dynamically); seat-1's √5 field-tower REFUTED (period 5 =
   an irreducible quintic, disc 7²17²; ℚ(√5) absent at all periods ≤7 — the golden end does not
   beat on the hyperbolic locus). **The double beat (period 4) = ℚ(√−7), the chirality field's
   THIRD independent appearance** — object-specific by the silver control (silver beats its own
@@ -126,11 +126,11 @@ audit: `docs/AUDIT_2026-07-05.md`.
   child = Meyerhoff, trace field x⁴−x−1, disc −283). Founding C0–C2 = B435/B436/B437.
 - **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
 - **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
-  B426: Chat-2's scale-lever closed form VERIFIED exact — env₄₅/env₁₅ = (3α²+4α−1)/10 ∈ ℚ(ζ₉)⁺,
+  B426: seat-2's scale-lever closed form VERIFIED exact — env₄₅/env₁₅ = (3α²+4α−1)/10 ∈ ℚ(ζ₉)⁺,
   √5-free (forced by CRT locality) — PLUS the new Galois-orbit contraction theorem: the three
   embeddings are Galois conjugates; every invariant functional < 1 (mean 1/2, RMS √51/10, geo-mean
   (19/1000)^⅓); the B408 "1.217" artifact is now a theorem-level closure of the scale wall.
-  B427: Chat-1's seam-as-twisted-exchange-trace identity TRUE ({57,56,56,56} verified); its
+  B427: seat-1's seam-as-twisted-exchange-trace identity TRUE ({57,56,56,56} verified); its
   projector corollary CORRECTED (C′=σ₁₇(C)≠C) — and the correction is a law: EXCHANGE ACTS BY THE
   GALOIS ELEMENT σ₁₇, which FIXES √−15 (the physical seam channel is exchange-symmetric).
   B428: the two upstairs spin walls, three seats agreeing — E₆ level 1 = ℤ/3 Eisenstein anyons
