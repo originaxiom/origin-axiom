@@ -34,6 +34,7 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 | T-P2B | real-form conjugation-stability + parity oddness ⟹ Vol(Vᵢ) = 0 exactly, CS(Vᵢ) ∈ {0,½}: the emptiness is a σ-parity selection rule | B469 Ph2 | FINDINGS §P2b | DERIVABLE from banked anchors (Falbel real-form) |
 | T-2REG | det(Par@N) = sign(σ on (ℤ/N)²) = (−1)^{(N−1)/2}: the two-register breath law (levels 15/45/75/225) | B469 BR1 | `br1_br2.py` | DERIVABLE (Jacobi) |
 | T-PQB | det(Par·W(w)) = −ω^{#L−#R}; letter tower: Pisano-8 rhythm; body chain: frozen −1, order 60 | B470 RF3 | `rf3_quantum.py` | DERIVABLE (banked det decomposition) |
+| T-NOGO-DGG | for any once-punctured-torus bundle M (metallic RᵐLᵐ or cyclic cover), M ↦ T[M] via 3d–3d never gives the SM: (1) T[M] is 3d, SM is 4d; (2) every nonabelian symmetry is flavor not gauge (Gang–Yonekura); (3) the gauge group is abelian U(1)^{N−c} (DGG). Subsumes kills K9–K12. | B490 | per-kill B-nodes; B488 | KNOWN lemmas (DGG 2011; Gang–Yonekura 1803.04009); the subsumption is the program's |
 
 ## Tier 3 — the banked laws with controls (pre-registry campaign results)
 
