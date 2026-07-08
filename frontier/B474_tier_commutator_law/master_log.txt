@@ -1,0 +1,44 @@
+kappa_q factors through (gx, gy): True
+tier factors through (gx, gy):    True
+
+THE MASTER TABLE (36 divisor cells):
+ gx  gy  #pts  kappa_q   tier
+  1   1    32       -1   free
+  1   2    16        3   free
+  1   3    16       -5     qs
+  1   4    16        3   free
+  1   6     8       15   dark
+  1  12     8       15   dark
+  2   1    16        3   free
+  2   2     8        3   free
+  2   3     8       15   dark
+  2   4     8        3   dark
+  2   6     4       15    qrs
+  2  12     4       15   dark
+  4   1    16        3   free
+  4   2     8        3   dark
+  4   3     8       15   dark
+  4   4     8        3   free
+  4   6     4       15   dark
+  4  12     4       15    qrs
+  5   1     8       -5   free
+  5   2     4       15     rs
+  5   3     4       -5     qs
+  5   4     4       15     rs
+  5   6     2       15   dark
+  5  12     2       15   dark
+ 10   1     4       15     rs
+ 10   2     2       15     rs
+ 10   3     2       15   dark
+ 10   4     2       15   dark
+ 10   6     1       15    qrs
+ 10  12     1       15   dark
+ 20   1     4       15     rs
+ 20   2     2       15   dark
+ 20   3     2       15   dark
+ 20   4     2       15     rs
+ 20   6     1       15   dark
+ 20  12     1       15    qrs
+
+law checks from the master table: [('free => kq != 15', True)]
+DONE

@@ -47,3 +47,28 @@ reads "the seam's full activity lives away from the central locus."
 python3 cross_table.py     # the exact table (F_p commutators x exact tiers)
 pytest ../../tests/test_b474.py
 ```
+
+## THE DERIVATION (2026-07-08): the master theorem — everything lives on the divisor lattice
+
+**Step 1 (proved, all 240 pairs):** [A₁ʲ, A₂ˡ] ≡ (−I)^(jl) mod 3 — Q₈ is class-2
+nilpotent, so the mod-3 commutator is the central element to the power jl, exactly.
+
+**Step 2 (the two-character formula, verified 240/240):**
+κ_q(j,l) = ε(jl) · χ₅(j,l), with ε = 3 (jl even) / −1 (jl odd) — the Q₈/parity
+character — and χ₅ = 5 ([A₁ʲ,A₂ˡ] ≡ I mod 5) / 1 (otherwise) — the mod-5 closure bit.
+The four values {15, 3, −5, −1} are the four products. **The quantum commutator is two
+characters multiplied.**
+
+**Step 3 (THE MASTER THEOREM, verified 240/240 on both maps):** both κ_q AND the tier
+factor through **(gx, gy) = (gcd(x,20), gcd(y,12))** — equivalently, through the ORDERS
+of the point's two coordinates. The full structure is a pair of functions on the 36-cell
+divisor lattice (`master_log.txt` holds the complete table). Every B474 law becomes a
+finite check on 36 cells (law 1 re-verified cell-wise ✓).
+
+**The mechanism now reads end-to-end:** cell (gx, gy) → cyclotomic level of the cell
+(ord_x = 20/gx, ord_y = 12/gy) → which quadratic subfields those roots of unity support
+→ the forced vanishing pattern (the B459 subfield lattice) — while the same cell fixes
+the CRT-centrality of (j,l) → κ_q. The selection rules and the quantum commutator are
+two shadows of the divisor lattice of the seam's two clock orders. The remaining
+sub-derivation (channel-vanishing from the cell's cyclotomic support — closing the loop
+to B459's mechanism symbolically) is Paper 1's opening lemma.

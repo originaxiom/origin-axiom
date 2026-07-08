@@ -1,0 +1,20 @@
+STEP 1 (mod 3): [A1^j,A2^l] = (-I)^(jl) for ALL (j,l): True
+
+STEP 2/3: kappa_q single-valued on the invariant I = (jl mod 2, class5)?
+  I=(0, (1, False, None)) -> kappa_q = [3]
+  I=(0, (2, True, 1)) -> kappa_q = [15]
+  I=(0, (3, False, None)) -> kappa_q = [3]
+  I=(1, (1, False, None)) -> kappa_q = [-1]
+  I=(1, (2, True, 1)) -> kappa_q = [-5]
+  I=(1, (3, False, None)) -> kappa_q = [-1]
+kappa_q factors through I: True
+
+STEP 4: tier single-valued on the same invariant?
+  I=(0, (1, False, None)) -> tiers ['dark', 'free']  MULTI
+  I=(0, (2, True, 1)) -> tiers ['dark', 'qrs', 'rs']  MULTI
+  I=(0, (3, False, None)) -> tiers ['dark', 'free']  MULTI
+  I=(1, (1, False, None)) -> tiers ['free']  SINGLE
+  I=(1, (2, True, 1)) -> tiers ['free', 'qs']  MULTI
+  I=(1, (3, False, None)) -> tiers ['free']  SINGLE
+tier factors through I: False
+DONE

@@ -1,0 +1,3 @@
+minimal sufficient residue bases for the TIER:
+  ('gx', 'gy')  (36 classes)
+DONE
