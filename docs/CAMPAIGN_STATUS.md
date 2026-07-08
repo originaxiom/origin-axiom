@@ -207,3 +207,24 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - Outreach: DORMANT (owner rule) — W6 writes the dossiers but sends nothing.
 - W2c escalation: any surviving forced ratio stops for a DEDICATED adversarial session
   (owner present) before promotion or voicing.
+
+## 2026-07-07/08 — the residue saga (B465–B471) + the standing campaigns
+
+- **B465–B468**: the 8×4×3 arc (verified exactly, derived — one Fricke trace; SU-branching
+  refuted at eigenspace level); the ℤ/3 adjudication (dets both-right-different-objects;
+  darkness correlation refuted; continents 8×15 confirmed); the three-thoughts probe (CKM
+  earned negative; parity residue = the orientation bit; the wall merge VERIFIED
+  orientation-reversing; collision census — p=5 not isolated, one TRIPLE).
+- **B469 Breath Campaign**: BR1 two-register breath law; BR2 family Gieseking theorem;
+  BR-N (the residue = the norm of the scale); Phase 2 σ-lift exact (two-world) + P2b (the
+  emptiness mechanism). OPEN: BR3 wave 2, Phase 2b ledger column.
+- **B470 Reflection Campaign**: first wave banked — both towers, P-QB verified, the breath
+  hierarchy (root/mirror/residue) with exact witnesses, RF2's two-stream arithmetic. OPEN:
+  RF2 continuation, RF4, RF5, RFZ.
+- **B471**: the Chain Scout verified — T-UNIQ (the uniqueness closed form), the Cohn stage,
+  the Markov spine; aba body amphichiral.
+- **Relation campaign**: R1/R3/R4/R5 banked; R2 sweep running (per-class timeouts); RZ
+  pending R2.
+- **Governance**: docs/THEOREM_REGISTRY.md created (the novelty-relaunch map; cadence rules
+  inside); the six-measurements scorecard retired to S056 by its author; ROADMAP_TOE.md
+  standing; Atlas cards 26–28.
