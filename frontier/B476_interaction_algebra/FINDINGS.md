@@ -39,3 +39,14 @@ exponent correlation of the pair — unexamined, recorded without interpretation
 ```
 python3 span_verify.py    # ALL CHECKS PASS
 ```
+
+## Addendum (2026-07-08, the deep dive): locally full, globally locked
+
+The parity-sector analysis (session log): the span's PROJECTION onto each of the four
+parity sectors is the FULL block algebra (36, 16, 9, 4 — sum 65), while the span itself
+is 49-dimensional: **the pair's algebra is full in every sector shadow but carries 16
+exact linear correlations locking the sectors together.** The deficit is not a sterile
+sector — it is inter-sector entanglement of the pair's exponents. Two notes: (i) the
+sectors are not W-invariant in the theta convention because T₋ⱼ = Tⱼ + j — the B469
+two-world (+j) obstruction in a third register; (ii) whether the 16 relations are
+pair-specific or level-forced needs the (1,3)/(2,3) controls — the named follow-up.
