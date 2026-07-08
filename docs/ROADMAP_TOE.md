@@ -24,7 +24,7 @@ rule ("name the operator" — four collisions caught in one arc), burden-inversi
 ledger that corrected two banked numbers and its own drafting seats without external
 input. This is the program's second product, and it is not the lesser one.
 
-## II. The immediate deliverable: the mathematics papers (Chat-1's accounting, endorsed with corrections)
+## II. The immediate deliverable: the mathematics papers (seat-1's accounting, endorsed with corrections)
 
 Content verified and banked for three papers; each writing pass re-verifies at promotion
 time per the dual protocol:
@@ -66,7 +66,7 @@ exhaustion, in order of tractability:
 | H112 (the family trace law's surviving core) | hint recorded, naive form refuted | a theorem attempt |
 | R2 Borromean SL(3) + RZ (Relation campaign close) | sage sweep running | ladder in progress |
 | D3: the INTERACTING/many-body register | prereg'd, power-gated | the one register with no laundering theorem (no interacting gap-labeling exists); Macé lit-gate |
-| the monodromy-group cell | blocked | Chat-1's loop definitions (standing debt) |
+| the monodromy-group cell | blocked | seat-1's loop definitions (standing debt) |
 | multi-cusp / large-N assembly | NEEDS-SPECIALIST | genuinely new mathematics |
 | **the L50/DGG dictionary at E₆** (T[M₃, E₆]) | NEEDS-SPECIALIST | research-frontier QFT; nobody has built it |
 
@@ -101,6 +101,6 @@ deliverable exists at every moment the program might stop.
 1. Close the Relation campaign (R2 → RZ) and the Breath Campaign's Phase 2b + BR3.
 2. Write Papers 1–3 (promotion-time re-verification passes).
 3. D3 (interacting register) — the highest-value unprobed cell.
-4. H112 theorem attempt; the lens probes (#212); Chat-1's loop definitions when delivered.
+4. H112 theorem attempt; the lens probes (#212); seat-1's loop definitions when delivered.
 5. The specialist asks, packaged: T[M₃, E₆]; multi-cusp assembly; the certified orbit
    enumeration (B451's boundary).

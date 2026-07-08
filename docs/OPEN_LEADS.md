@@ -237,7 +237,7 @@ B181 (no intrinsic T_c), Dry Ten Martini + gap-labeling (Wave-A-as-fingerprint t
 |---|---|---|
 | **D1 (B446) — the tower moment law + twisted SFF** | quantized cat map: Hecke-desymmetrized Var/kurtosis along N=15·3^k; the CRT fixed-cofactor product law (lemma candidate); joint-moment stratum; untwisted SFF = pre-registered P59 launder-control; parity-resolved SFF | **DONE (2026-07-07) — LAUNDERS, demonstrated: F = S₅(m)·C₃ passed BOTH out-of-sample gates (N=3645 exact; silver 5/8 derived a priori); + one NEW-MATH lemma (the fixed-cofactor tower law — exact twisted-product factorization to 1.6e-13, kurt(135) predicted=measured to 6 digits, kurtosis drift 3.75→9.24 = non-KR limiting law; lit-gate: APPARENTLY-UNWRITTEN, the KR-Duke-§4.1-corollary part honestly scoped OUT of the claim). SFF: untwisted = P59 exactly (full revival at t=π(N)/2), parity-twist annihilates it (\|tr P\|²/N). The m-dependence = the whitelisted 5-splitting in ℚ(√(m²+4)) (golden ramified {±1/2,0³} vs silver inert generic). No H1. `frontier/B446…`, 7-test lock `tests/test_b446.py`** |
 | D2 (B447) — the m-scan harness | the new standard control: m=1..6, m²+4-stratified; C(T), β(V) (Damanik–Tcheremchantsev gate), f(α)/P(β) (B186 engine), gap-label realization (θ_m module), γ(E); smooth-in-m vs exceptional-at-m=1 classifier (three known mechanisms whitelisted) | **DONE (2026-07-07) — LAUNDERS across all observables. Three flags: γ_on = noise floor (dissolved); D₀ = estimator non-convergence (band method: golden 0.7380 ≈ silver 0.7363 at V=1; V=2 band grid fails honestly — adaptive tracker = named follow-up); C_peak_T survived SIX artifact tests → formal H1-candidate → burden-inversion: the parameter-free 8-moment Gauss-quadrature surrogate REPRODUCES the flag itself (surrogate e1/med 5.53/5.72/5.43 vs measured 5.09/5.53/5.36 at V=0.5/1/2, out-of-sample ×3) — golden's offset = exact letter-frequency/moment class arithmetic (θ₁ closest to ½ = CF-extremality's m=1 face). Permanent criticality class-wide; three-regime gates pass; the harness = the standing control instrument. No H1. `frontier/B447…`, lock `tests/test_b447.py` (5/5)** |
-| **B448 — the heartbeat adjudication** | both 2026-07-07 handoffs verified (Chat-2 cocycle 2-cycle reproduced exact + three structural NOs; Chat-1 period-2 CONFIRMED = the discrete-faithful pair ℚ(√−3)); the exact orbit-field tower on κ=−2 (= the Markov surface): period-4 = **ℚ(√−7), the chirality field's 3rd appearance** (silver control: own fields, no √−7); **√5 absent ≤ period 7 — the field-tower hypothesis refuted**; warm orbit arithmetic = the frozen whitelist (H0a again) | **DONE (2026-07-07)** — `frontier/B448…`, lock 3/3 |
+| **B448 — the heartbeat adjudication** | both 2026-07-07 handoffs verified (seat-2 cocycle 2-cycle reproduced exact + three structural NOs; seat-1 period-2 CONFIRMED = the discrete-faithful pair ℚ(√−3)); the exact orbit-field tower on κ=−2 (= the Markov surface): period-4 = **ℚ(√−7), the chirality field's 3rd appearance** (silver control: own fields, no √−7); **√5 absent ≤ period 7 — the field-tower hypothesis refuted**; warm orbit arithmetic = the frozen whitelist (H0a again) | **DONE (2026-07-07)** — `frontier/B448…`, lock 3/3 |
 | **B449 — the forcing boundary / conductor law** | the disc×disc falsification adjudicated: 5₂ NOT FIBERED (no dynamics end — the "level-161 prediction" is a non-sequitur; retrofit confirmed structurally); the fig-8's ℚ(√−15) RESTORED to forced (B424 two-ended compositum); **the in-family conductor law: seam level = conductor of compositum(geometry, dynamics)** — golden 15 ✓, silver 8 (B448's ζ₈ gate = independent witness), **bronze prediction: level ∈ {39, 52}** (registered falsification); the choice-boundary = the banked L57 | **DONE (2026-07-07)** — `frontier/B449…`, lock 1/1 |
 | D3 (B450) — interacting entanglement | extend B187's ED engine: level statistics, EE scaling, entanglement-spectrum statistics; POWER-GATED (prereg power analysis or specialist boundary); lit-gate Macé–Laflorencie–Alet 2019 | queued (after D1/D2) |
 | D4 (B451) — trace-map transfer-operator resonances | Ruelle resonance spectrum via cycle expansion on the B186-certified horseshoe (beyond the leading pressure); m-scan + κ-scan; the in-sandbox F3 proxy | queued |
@@ -271,12 +271,12 @@ rule bind verbatim. Frame + card deck: `../speculations/S055_ethogram/DICTIONARY
 
 ## The Relation campaign (2026-07-07 — the standing campaign)
 
-Chat-1's five relation paths (child / link / double / 4d-lift / Ruelle), premises corrected by
+seat-1's five relation paths (child / link / double / 4d-lift / Ruelle), premises corrected by
 homework, plan red-teamed (1 sub-cell fatal-cut: 4₁'s mirror-double is equal-by-theorem via
 B144; R3a redesigned to the φ-scan pairing; R2 budget-laddered; R4 scoped to the principal
 lift). MB12 applied to the plan itself: the cells that CAN fire = R5's resonance spectrum, R2's
 SL(3) fields, R3a′'s phases, R1's per-vacuum CS; pre-forced cells labeled as gates/tables.
-Incoming computations verified/folded (v2.1): Chat-2's gap-label retraction CONFIRMS the banked
+Incoming computations verified/folded (v2.1): seat-2's gap-label retraction CONFIRMS the banked
 B447 adjudication (threshold artifact; labels = ℤ universally; the datum is α=θ₁ — known);
 Borromean incoming claims to verify exactly in R2 with two corrections (vol = 2 octahedra;
 trace-field-vs-seam-field comparison fixed). The whitelist + burden-inversion bind verbatim.
@@ -294,7 +294,7 @@ untracked by standing rule — adjudicated, not forgotten.
 
 ## B465 — the 8×4×3 monodromy handoff (2026-07-07, verified same-day)
 
-Incoming (Chat-1 float + Chat-2 exact): the two-generator operator M = Par·W₁·W₂ at level 15
+Incoming (seat-1 float + seat-2 exact): the two-generator operator M = Par·W₁·W₂ at level 15
 has 15 modes splitting 8/4/3 by rotation period; SU(3)-octet reading proposed. **Verified
 EXACTLY (3 split primes) and DERIVED: M⁴ = ζ₆₀³²·I (the spectrum is ζ₆₀⁸·μ₄, eigenspace dims
 4,4,3,4 — the "octet" is 4⊕4); the whole l-sweep is the Weil functor reading SL(2,ℤ/15)
@@ -302,19 +302,19 @@ conjugacy data; the one object-input is Fricke's tr(A₁A₂) = 15 (→ H112). S
 readings REFUTED at the eigenspace level. New exact fact: spec(Par·W₁)'s Galois stabilizer =
 ker(c mod 3) — char poly over ℚ(√−3) (the trace field), classes split mod 3, NOT by QR.
 Corrections issued (period 6 not 3; 2 spectral classes not 8). **ADDENDUM (same day):
-Chat-2's shuttle delivered the c-construction — VERIFIED exactly (the 15/9 table splits by
+seat-2's shuttle delivered the c-construction — VERIFIED exactly (the 15/9 table splits by
 (c|5); all unitary); their Q4 answered: the full 8-4-3/scalar structure persists iff (c|5)=+1
 (family-class-shared, not a c=1 fingerprint) and fails structurally otherwise (hybrid
 form/kernel family — no Egorov guarantee; the 5-part = the golden ramified prime).
 Complementarity banked as a remark: the deformation family splits by (c|5) (√5 axis), the
 Galois family by (c|3) (√−3 axis) — the two generators of the banked Klein four, now
-classifying FAMILIES. Both corrections owned by Chat-2; record three-seat-consistent.
-Outstanding: Chat-1's loop/dark-phase/max-tr constructions. H112 endorsed by both seats.**
+classifying FAMILIES. Both corrections owned by seat-2; record three-seat-consistent.
+Outstanding: seat-1's loop/dark-phase/max-tr constructions. H112 endorsed by both seats.**
 `frontier/B465_monodromy_intake/`. No H1.**
 
-## B466 — the σ-equivariant locus (Chat-1's proposal, 2026-07-07, adjudicated + computed same-day)
+## B466 — the σ-equivariant locus (seat-1's proposal, 2026-07-07, adjudicated + computed same-day)
 
-Chat-1: "nobody looked at the σ-fixed representations." Adjudication: σ² is inner (Brown III.8
+seat-1: "nobody looked at the σ-fixed representations." Adjudication: σ² is inner (Brown III.8
 — trivial on X(M), H¹); the fiber-level fixed locus IS the banked variety (B67/B71 — Layer 3
 was load-bearing, not unvisited). The live residual — σ itself (det −1, half-monodromy) — is
 the GIESEKING deck symmetry (fig-8 = orientation double cover; lit-gated). **Computed exactly:
@@ -334,7 +334,7 @@ targets, null-calibrated; B428 trap stays killed). H112 fold-in: tr(A_mA_n) = (m
 holds (Fricke algebra); **the naive "trace = pair conductor" law REFUTED at (1,3)** (27 ≠ 65) —
 the (1,2) "15 twice" is single-pair. F2 residue: exact permutation signs on (ℤ/15)² — everything
 orientation-preserving is even; **the single odd bit is σ (det −1, the Gieseking half-monodromy)**;
-derivable ((det|15) Jacobi character); "chirality" HELD. F3 wall: **Chat-1's premise VERIFIED —
+derivable ((det|15) Jacobi character); "chirality" HELD. F3 wall: **seat-1's premise VERIFIED —
 4₁(5,1) ≅ 5₂(5,1)** (= m003(−2,3)); the merge is **orientation-REVERSING** (CS ±0.0770382;
 oriented: 5₂(5,1) = 4₁(−5,1), verified) — the wall merges everything except F2's bit; H₁ = ℤ/p
 (slope only); NZ lit-frame; shared-surgery lit-gate pending. **The three thoughts converge on the
@@ -343,20 +343,20 @@ No H1.**
 
 ## B468 — the "ℤ/3 color" handoff adjudicated (2026-07-08, same-day)
 
-Chat-1's claimed refutation of Chat-2's det = −1 + a "color–darkness interaction" + A₄/neutrino
+seat-1's claimed refutation of seat-2's det = −1 + a "color–darkness interaction" + A₄/neutrino
 reading. **Adjudicated exactly: (1) the det contradiction = both-right-different-objects (3rd
-construction-identity of the night): det(D) = ω exact (Chat-1's C(15,3) = 455 right FOR D),
-det(Wr) = ω̄ (dropped factor), det(W₁) = det(W₂) = 1 — word family uniformly −1 (Chat-2 right),
-elementary-twist family −ω^{j+2l} (Chat-1's pattern). (2) The darkness correlation REFUTED in
+construction-identity of the night): det(D) = ω exact (seat-1's C(15,3) = 455 right FOR D),
+det(Wr) = ω̄ (dropped factor), det(W₁) = det(W₂) = 1 — word family uniformly −1 (seat-2 right),
+elementary-twist family −ω^{j+2l} (seat-1's pattern). (2) The darkness correlation REFUTED in
 exact arithmetic: dark row = (24,24,22), near-uniform (their 34/9/10 + dark=53 = float
 tier-misclassification; exact dark = 70) — the A₄/gauge/confinement chain loses its base;
-A₄→tribimaximal is also experimentally dead (θ₁₃ ≠ 0). (3) Continents: Chat-2's 8×15 CONFIRMED
+A₄→tribimaximal is also experimentally dead (θ₁₃ ≠ 0). (3) Continents: seat-2's 8×15 CONFIRMED
 exactly. (4) The confinement rule REFUTED (1798/4000 violations). (5) The owner's
 track-the-residue-independently directive ENDORSED: det(Par@N) = (−1)^{(N−1)/2} — the residue's
 tower oscillation is the level mod 4, derivable; the one nonuniform ℤ/2 remains the orientation
 bit (B466/B467).** `frontier/B468_z3_adjudication/`. No H1.**
 
-## B471 — the Chain Scout verified (Chat-2 exploratory 2026-07-08 → CC bank same-day)
+## B471 — the Chain Scout verified (seat-2 exploratory 2026-07-08 → CC bank same-day)
 
 All scout claims verified exact; one UPGRADED: **THEOREM — tr[A_m,A_n] = 2 − (mn(n−m))²**
 (closed form; symbolic), so the commutator is parabolic ⟺ (m,n) = (1,2): **the (golden,
@@ -384,14 +384,14 @@ chirality theorem: imbalance = chirality = residue oscillation). RF2 first colum
 rung mints its own trace field** (letter: deg 4, 8, 12; body: deg 14 at the PAIR word, > 32
 by aba) — **composition ESCALATES arithmetic** (the level-2 anti-laundering datum); the scale
 fields stay quadratic on the Markov ladder — two arithmetic streams. Breath hierarchy
-(PR #625): root ⟹ mirror ⟹ balanced ⟹ frozen, all strictness witnessed exactly; Chat-2's
+(PR #625): root ⟹ mirror ⟹ balanced ⟹ frozen, all strictness witnessed exactly; seat-2's
 52 witnesses corrected to the genuine 2 (with (ℤ/12)² torsion — square trace as square
 homology); the chain's roots = BOTH letters, composite words rootless to rung 200.
 `frontier/B470_reflection_campaign/`. Remaining: RF2 continuation, RF4 (awaits BR3 w2), RF5, RFZ. No H1.**
 
-## B469 Phase 2 — the σ-parity classification (Chat-2's prereg merged; CC bank 2026-07-08)
+## B469 Phase 2 — the σ-parity classification (seat-2's prereg merged; CC bank 2026-07-08)
 
-Chat-2's independently-launched σ-parity campaign merged as B469 Phase 2 (prereg + Phase-2a
+seat-2's independently-launched σ-parity campaign merged as B469 Phase 2 (prereg + Phase-2a
 committed verbatim, falsifier-fired audit trail intact — their own prereg caught the 4th naming
 collision on its author). **CC bank: the σ-LIFT VERIFIED EXACT (two primes): conj(W(m,1)) =
 Par·WR₁₄^m·Par·D(m,14) — σ = the c ↦ −c twist, Par-dressed: a twisted TWO-WORLD correspondence

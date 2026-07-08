@@ -2774,6 +2774,7 @@
     "B162",
     "B163",
     "B165",
+    "B451",
     "B67",
     "K007",
     "K010",
@@ -9052,6 +9053,165 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B444": {
+   "slug": "sl3 field control",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B147",
+    "B316",
+    "B428",
+    "B71",
+    "V0"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B445": {
+   "slug": "e6 h1 control",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B147",
+    "B316",
+    "B428",
+    "B444",
+    "L50"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B446": {
+   "slug": "thermo d1 tower moments",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B355",
+    "H1",
+    "P59"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B447": {
+   "slug": "thermo d2 mscan",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "torsion",
+    "quasicrystal",
+    "firewall"
+   ],
+   "refs": [
+    "B163",
+    "B181",
+    "B186",
+    "H1"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B448": {
+   "slug": "heartbeat adjudication",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B147",
+    "B181",
+    "B296",
+    "B298",
+    "B300",
+    "B316",
+    "B322",
+    "B352",
+    "B370",
+    "B398",
+    "B413",
+    "B416",
+    "B419",
+    "B420",
+    "B444",
+    "B445",
+    "B447",
+    "H1",
+    "V238"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B449": {
+   "slug": "forcing boundary",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B316",
+    "B322",
+    "B352",
+    "B370",
+    "B419",
+    "B420",
+    "B424",
+    "B444",
+    "B445",
+    "B448",
+    "L57",
+    "P62"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B44": {
    "slug": "topological torsion route",
    "motifs": [
@@ -9065,6 +9225,180 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B451": {
+   "slug": "thermo d4 resonances",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B186",
+    "B355",
+    "H1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B453": {
+   "slug": "ethogram e1 reproduction",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B235",
+    "B435",
+    "B437",
+    "B440",
+    "B443",
+    "B448",
+    "H1",
+    "S055"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B454": {
+   "slug": "ethogram e2 closure",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B448",
+    "B449",
+    "L57"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B455": {
+   "slug": "ethogram e3 response",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "dickson_tower",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B351",
+    "B352",
+    "B370",
+    "H1",
+    "S055"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B456": {
+   "slug": "ethogram e4 catalog",
+   "motifs": [
+    "metallic",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B452",
+    "B457"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B457": {
+   "slug": "ethogram ez verdict",
+   "motifs": [
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B322",
+    "B398",
+    "B448",
+    "B452",
+    "B456",
+    "B458",
+    "B459",
+    "H1",
+    "S055"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B458": {
+   "slug": "ethogram e5 component cs",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B444",
+    "B455",
+    "H1"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B459": {
+   "slug": "klein four verification",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B367",
+    "B431",
+    "B452",
+    "B458",
+    "H1",
+    "K020",
+    "S053"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B45": {
    "slug": "renormalization fixed point route",
    "motifs": [],
@@ -9073,6 +9407,216 @@
    "obstacle_conf": 3,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B460": {
+   "slug": "relation r1 child",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B289",
+    "B434",
+    "B443",
+    "H1"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B462": {
+   "slug": "relation r3 double",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B174",
+    "B441",
+    "B448",
+    "B67",
+    "H1",
+    "K020"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B463": {
+   "slug": "relation r4 centralizer",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B247",
+    "B259",
+    "B278",
+    "B347",
+    "B351",
+    "B445",
+    "L50"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B465": {
+   "slug": "monodromy intake",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B376",
+    "B402",
+    "B452",
+    "B459",
+    "H1",
+    "K020"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B466": {
+   "slug": "sigma equivariant",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "B352",
+    "B370",
+    "B445",
+    "B448",
+    "B455",
+    "B458",
+    "B67",
+    "B71",
+    "H1",
+    "L50"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B467": {
+   "slug": "family residue wall",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B289",
+    "B356",
+    "B428",
+    "B449",
+    "B466",
+    "H1",
+    "H112"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B468": {
+   "slug": "z3 adjudication",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B452",
+    "B459",
+    "B466",
+    "B467",
+    "H1"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B469": {
+   "slug": "breath campaign",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B154",
+    "B289",
+    "B356",
+    "B444",
+    "B458",
+    "B465",
+    "B466",
+    "B467",
+    "B468",
+    "B48",
+    "L16"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B46": {
    "slug": "rank stability controls",
@@ -9085,6 +9629,53 @@
    "obstacle_conf": 1,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B470": {
+   "slug": "reflection campaign",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B471",
+    "H1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B471": {
+   "slug": "chain verification",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B467",
+    "B470",
+    "H1"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B47": {
    "slug": "s1 verdict ledger",

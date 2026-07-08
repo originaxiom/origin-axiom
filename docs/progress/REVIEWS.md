@@ -319,3 +319,26 @@ hidden Bin-1 break. Outcome: **no refutation; both CONFIRMED, and C5 strengthene
    independent exact recompute of its deepest survivor (C5) with a wider sweep designed to break
    it. Two campaign retractions (golden return, golden inversion) + zero surviving-result
    refutations = the review discipline earning its keep across the whole campaign.
+
+# Review 9 — 2026-07-08 (merges #558–#630: the residue saga, the chain, the registry)
+
+1. **Scope:** the residue saga (B465–B471), three campaigns launched/advanced (Breath B469,
+   Reflection B470, chain verification B471), the Relation campaign R1/R3/R4/R5 banked (R2
+   sweep in flight), the theorem registry created (docs/THEOREM_REGISTRY.md — the novelty-
+   relaunch map with per-entry search terms and cadence rules), the ToE roadmap written.
+2. **Mechanical check:** full lock suite 1581 passed / 3 failed / 12 skipped — ALL THREE
+   failures were governance gates, ZERO mathematical locks failed. Fixed in this review PR:
+   a hardcoded sage path (env/which fallback), AI-seat labels scrubbed from four living docs
+   (neutral seat-1/seat-2), the Recurrence Atlas re-mined (423 → current B-dir count).
+3. **Corrections this window, all banked with receipts:** B186's γ (early-window bias →
+   0.445(6) three-method), B459's earlier (1,2)-specific overreach, the seat float-kills
+   (five in one session — dets, darkness correlation, continents, fingerprints, A₄), the
+   trace-field/scale-field mislabel (B471), the 52→2 root-witness contamination (B470), the
+   scorecard retirement to S056 by its author. Two-way corrections: the machinery corrected
+   every seat including this one; no seat's claim survived on authority.
+4. **Theorem-shaped output this window:** T-UNIQ (the uniqueness closed form), T-COHN,
+   T-CHAIN, T-NORM, T-HIER (root/mirror/residue with exact witnesses), T-GIES-FAM, T-MIRROR,
+   T-2REG, T-PQB (verified), T-843, T-LIFT, T-P2B, T-COLLIDE (+ the census), the additivity
+   law + c to 28 digits (identification honestly open). All registry-mapped with lit-status.
+5. **Net:** the discipline scaled to the fastest bank rate in the program's history
+   (19 PRs in ~48h) without a single unretracted overclaim reaching main.
