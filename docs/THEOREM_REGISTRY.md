@@ -47,9 +47,11 @@ future bank that creates a theorem or law adds its line here IN THE SAME PR.**
 
 ## Constants awaiting identification (the relaunch's inverse-symbolic targets)
 
-vol/letter of the letter tower **0.9339…** (Guéritaud bounds: 2n·v₃ ≥ vol ≥ per-syllable
-floors — c < v₃ because the golden imbalance deforms the tetrahedra; the candidate closed
-form is a Bloch-Wigner average over the golden hull — identification job running) · torsion temperature
+vol/letter of the letter tower **c = 0.934102018057787980264187790656** (28 digits via
+the additivity extrapolation; PSLQ NEGATIVE vs golden-sector Lobachevsky basis singly+pairs;
+candidate closed form = the Bloch-Wigner hull average over the Farey shapes — OPEN; the
+companion ADDITIVITY LAW: tower volume defect < 1e-27 by n=13, doubly-exponential decay —
+NEEDS-LIT vs Brock/Guéritaud) · torsion temperature
 **0.6295727/syllable** (= 1.2591398/letter; λ relation λ_CC = λ_Chat2^φ) · λ_chain
 **2.1775291199** (not a quadratic unit; Zagier gate) · the B451 spectral gap ≥ 0.19.
 
