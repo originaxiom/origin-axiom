@@ -374,6 +374,21 @@ control (B470-RF1 comparison cell fixed).** Heredity conjecture honestly downgra
 observed irregular table (specific instances confirm; general law needs rank-of-apparition).
 `frontier/B471_chain_verification/`. No H1.**
 
+## B470 first wave — banked (2026-07-08): RF0–RF3 + the breath hierarchy
+
+RF0 gate ✓ (fig-8 = w₂). RF1: the LETTER tower is chiral from n=3 (mirror-breath only at
+the seed); the BODY chain has mirror-breath at EVERY rung (theorem: palindromic alphabet ⇒
+word-mirror). RF3: **P-QB VERIFIED exactly** — letter-tower residue runs Pisano-8; body-chain
+frozen at −1, order constant 60; classical+quantum registers freeze together (the unified
+chirality theorem: imbalance = chirality = residue oscillation). RF2 first columns: **every
+rung mints its own trace field** (letter: deg 4, 8, 12; body: deg 14 at the PAIR word, > 32
+by aba) — **composition ESCALATES arithmetic** (the level-2 anti-laundering datum); the scale
+fields stay quadratic on the Markov ladder — two arithmetic streams. Breath hierarchy
+(PR #625): root ⟹ mirror ⟹ balanced ⟹ frozen, all strictness witnessed exactly; Chat-2's
+52 witnesses corrected to the genuine 2 (with (ℤ/12)² torsion — square trace as square
+homology); the chain's roots = BOTH letters, composite words rootless to rung 200.
+`frontier/B470_reflection_campaign/`. Remaining: RF2 continuation, RF4 (awaits BR3 w2), RF5, RFZ. No H1.**
+
 ## B469 Phase 2 — the σ-parity classification (Chat-2's prereg merged; CC bank 2026-07-08)
 
 Chat-2's independently-launched σ-parity campaign merged as B469 Phase 2 (prereg + Phase-2a
