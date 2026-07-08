@@ -287,10 +287,10 @@ untracked by standing rule — adjudicated, not forgotten.
 |---|---|---|
 | R4 (B463) — the principal centralizer | the 4d-commutant cell, scoped; Kostant lit-gate; long-root SU(6) control gate | **BANKED**: C_e6(principal sl2) = 0 exact; control dim 35 ✓; no continuous 4d gauge group from the principal lift |
 | R1 (B460) — the child's own dynamics | length spectrum (table cell, pre-forced) + per-vacuum CS (LIVE) | **BANKED**: Kirk–Klassen multi-path validated (0.0606170 = SnapPy); child SU(2) vacua CS = −0.4415870, −0.3407670 (new numbers, lit-gate pending); geometric ±0.077 gate ✓ |
-| R2 (B461) — the Borromean rings | the first link; feasibility ladder; Brunnian two-register test; three controls; incoming-claims table | **rung 1 DONE** (vol = 2·v_oct exact; ℚ(i) gate PASS; claims verified); rungs 2–3 (F_p dims + per-class eliminations) running |
+| R2 (B461) — the Borromean rings | ladder run to floor | **BANKED**: SL(2) fields exact (L6a4/m129 ℚ(i); s776 ℚ(√−7) — the √−7 DEFLATION: the field belongs to a control); s776 SL(3) dims complete (3,0×12,1); L6a4 SL(3) = hardness contrast + named census boundary; no Brunnian manifold-detector |
 | R3 (B462) — the double | φ-scan + 5₂ chirality payload + κ-diagonal | **BANKED**: engine gate = B441 bit-for-bit; TT-zero KM-forced (class-generic); 5₂ H≠B + sesquilinear ST/TS split = chirality re-expressed (mixed control forced-equal, mechanism localized); κ-diagonal exact (parabolic law κ=−2 launders via silver control; fig-8's ζ₇⁺-cubic + ℚ(√5) = derived curve data). No H1 |
 | R5 = D4 (B451) — trace-map Ruelle resonances | cycle expansion on the B186 horseshoe | **BANKED**: the gate CAUGHT a banked-number bias — B186's γ=0.51 was the early-window value; corrected ground truth γ(λ=3) = 0.445(6) by THREE independent methods (cycle/surface/dense-line); leading eigenvalue = escape rate certified (Bowen–Ruelle exhibited); stable orbit table n≤6 (0,2,0,1,2,2 — grammar ≠ full 2-shift, no on-surface fixed points); subleading resonances = named boundary (n≥7 enumeration must be certified; a spectral gap ≥0.19 exists in every enumeration); B186 correction note added |
-| RZ (B464) — the verdict | per-probe bins; does ANY relational invariant escape class-laundering? | queued |
+| RZ (B464) — the verdict | campaign CLOSED | **NO relational invariant escaped class-laundering**; residual live cells = the two named boundaries (L6a4 census; certified resonance enumeration); deepest output = the orientation bit through the wall |
 
 ## B465 — the 8×4×3 monodromy handoff (2026-07-07, verified same-day)
 

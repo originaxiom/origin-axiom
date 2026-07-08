@@ -228,3 +228,11 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **Governance**: docs/THEOREM_REGISTRY.md created (the novelty-relaunch map; cadence rules
   inside); the six-measurements scorecard retired to S056 by its author; ROADMAP_TOE.md
   standing; Atlas cards 26–28.
+
+## 2026-07-08 — the Relation Campaign CLOSED (RZ, B464)
+
+Verdict: no relational invariant escaped class-laundering in any computed cell. Residual
+live cells = two named boundaries (the L6a4 SL(3) census; the certified resonance
+enumeration). The campaign's lasting outputs: two banked-number corrections, the
+Kirk–Klassen per-vacuum machinery, the collision census (→ the wall/orientation-bit
+results), and the √−7 deflation (B461).
