@@ -74,3 +74,16 @@ like-for-like comparison against the certified B358/B367 build; neither claim ba
 python3 kq_verify.py    # table 25/25 at two primes + closure + Q8/SL(2,5); ALL CHECKS PASS
 pytest ../../tests/test_b472.py
 ```
+
+## Addendum (2026-07-08): collision #7 RESOLVED — the faces are ζ₆₀⁸ and ζ₆₀⁴
+
+The like-for-like run (the certified B367 theta build, exact cyclotomic): tr(Par·W₁W₂) =
+**ζ₆₀⁸** and tr(Par·W₂W₁) = **ζ₆₀⁴** — and my B465-engine F_p values were exactly these
+all along (z₆₀⁸ = 12, z₆₀⁴ = 16 at p = 61; 181, 383 at p = 421 ✓✓). THREE LIFTS AGREE.
+The "discrepancy" decomposes into two reading errors: seat-2 reported MAGNITUDES (both
+unit) as values; this bank's "irrational" label was sloppy (they are roots of unity —
+not in ℚ, but perfectly structured). Seat-1's "= 0" remains refuted. The exact statement,
+banked: **the seam's two faces are unit phases whose ratio is ζ₆₀⁴ = ζ₁₅ — the
+non-commutativity of the seam at the fundamental cell is one fifteenth of a turn: the
+level's own phase.** (Reproducer: the session's like-for-like scripts; locks in
+test_b472.)
