@@ -72,3 +72,34 @@ python3 resonances.py 6          # grid-Newton version (the gate chronicle's ste
 python3 survivor_enum2.py 8 3.0  # the stable-count + two-grid stability run
 pytest ../../tests/test_b451.py  # locks: B186 reproduction, corrected gamma, stable counts
 ```
+
+## Addendum (2026-07-08): the named boundary COMPUTED — the certified resonance spectrum at N = 8
+
+The certification hybrid (exact algebraic counts + numeric points): sage Groebner on the
+FULL fixed-point system (all three components + surface — the first attempt with two
+components overcounted with spurious points, caught and corrected in-session) gives the
+EXACT period-n point counts at λ = 3: n = 1..8 → ∅, 4, ∅, 8, 10, 22, 28, 48 — **all real,
+all simple** (complex count = real count = squarefree at every n). The heavy numeric
+enumeration matched everywhere EXCEPT n = 6 (16 of 22): **one primitive 6-orbit was
+missing — recovered exactly from the algebraic variety — with |Λ| = 914.7**, a huge
+multiplier and hence a vanishing Newton basin (why every seeding missed it; its 1/|Λ|
+weight ≈ 0.001 is also why the leading eigenvalue was barely affected). Verify-don't-trust
+at the orbit level: the algebra audited the numerics and found the one hole.
+
+**The certified primitive table (n ≤ 8): {2: 2, 4: 1, 5: 2, 6: 3, 7: 4, 8: 5}** —
+multipliers in `orbits_certified.json`. The certified cycle expansion:
+
+| truncation | leading (escape rate) | 2nd resonance | 3rd (complex pair) |
+|---|---|---|---|
+| N = 7 | 0.4458 | −2.195 → rate 0.786 | rate 0.860 |
+| N = 8 | **0.4415** | −2.024 → rate **0.705** | rate 0.890 |
+
+- The leading zero is CONVERGED against the direct estimator (0.443(2)) ✓ — the gate holds.
+- **The second Ruelle resonance is REAL NEGATIVE with rate 0.70(8)** (the N-drift is the
+  quoted uncertainty) — a period-2-modulated decay channel; spectral gap ≈ 0.26.
+- The third is a complex pair near rate 0.89.
+- The path to more digits is now mechanical: the same certification at n = 9, 10 (the
+  n = 8 Groebner ran inside its cap). Bins: the spectrum values = the campaign's residual
+  NEW-MATH-eligible data (lit-gate: Cvitanović-school cycle expansions for Fibonacci
+  trace maps — pending); no whitelist form suggests itself at this precision — recorded,
+  not scanned (the F1 lesson).
