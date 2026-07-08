@@ -1,0 +1,13 @@
+c= 1 m=1: ||Par D Par - D Z^(cm)|| = 1.14e-15
+c= 1 m=2: ||Par D Par - D Z^(cm)|| = 2.13e-15
+c= 1 m=3: ||Par D Par - D Z^(cm)|| = 3.19e-15
+c=14 m=1: ||Par D Par - D Z^(cm)|| = 1.29e-14
+c=14 m=2: ||Par D Par - D Z^(cm)|| = 1.20e-14
+c=14 m=3: ||Par D Par - D Z^(cm)|| = 1.09e-14
+c= 2 m=1: ||Par D Par - D Z^(cm)|| = 2.13e-15
+c= 2 m=2: ||Par D Par - D Z^(cm)|| = 4.16e-15
+c= 2 m=3: ||Par D Par - D Z^(cm)|| = 5.45e-15
+c= 4 m=1: ||Par D Par - D Z^(cm)|| = 4.16e-15
+c= 4 m=2: ||Par D Par - D Z^(cm)|| = 7.37e-15
+c= 4 m=3: ||Par D Par - D Z^(cm)|| = 1.09e-14
+THE +j DEFECT IS EXACTLY THE CLOCK TRANSLATION Z^(cm): VERIFIED

@@ -121,3 +121,36 @@ python3 br_n_norm.py          # BR-N: the norm identity, three exact statements
 # BR2 SnapPy gate: NonorientableCuspedCensus[0].orientation_cover() ≅ 4_1 (session log)
 pytest ../../tests/test_b469.py
 ```
+
+## BR3 wave 2 (exact, component-level): the geometric character always breathes; the held-breath pair is non-geometric and first appears at m=3
+
+Method upgrade: no solving — T_m's action on Fix(T_m²)+cusp certified at COMPONENT level
+by ideal membership (Groebner reduction), `br3_wave2_exact.py`. (Wave-2's earlier numeric
+"stray points" = double-precision cast artifact; superseded.)
+
+| m | bundle | components (z-eliminant) | σ_m action |
+|---|---|---|---|
+| 1 | m004 (fig-8) | z²−3z+3 (disc −3) | **swapped** (the breath) |
+| 2 | m136 (silver) | z⁴+16 (ℚ(ζ₈)) | **swapped, free involution** (two 2-cycles, exact: Fix(T₂) ∩ component = ∅) |
+| 3 | s464 | z²−z+2 (disc −7) **+** degree-8 (disc 2⁴·3·7⁵·617²·977²) | quadratic: **σ-FIXED pointwise**; octic: **swapped** |
+| 4 | (deg-8 component) | degree-8 | **swapped** |
+| 5 | — | pending (background) | — |
+
+**Geometric ID (the decisive cell):** `b++R^mL^m` identify → m004 / m136 / s464 ✓; shape
+fields ℚ(√−3) / ℚ(i) ✓. For s464 the fiber-basis test: snappy generators (a,c) have
+κ(a,c) = −2 (exact to 8 digits — a fiber basis) and tr(ac) satisfies the OCTIC to 2e-12
+(two independent words ac, aC; tr(a) satisfies neither factor). **The geometric fiber
+character lies on the swapped octic component — the σ-fixed ℚ(√−7) pair is
+NON-GEOMETRIC.** (Numerically certified; exact certification queued.)
+
+**The structural statement:** for every m computed, the geometric character is exchanged
+by the half-monodromy σ_m — the bundle's hyperbolic structure BREATHES with period 2
+under the half-twist; it is never σ-invariant. What CAN be σ-invariant is a
+non-geometric pair — characters fixed by the orientation-reversing half-twist — absent
+at m = 1, 2, 4 and present exactly at m = 3 (so far), in ℚ(√−7). Per the banked B461
+rule: the reappearance of disc −7 gets NO cumulative reading; if it matters it needs its
+own mechanism (open).
+
+Octic structure: irreducible over ℚ(√−7) and over ℚ(i) (the octic field contains
+neither). Scripts: `br3_wave2_exact.py`, `m2_cycletype.py`, `fix_pattern.py`,
+`geom_id.py`, `geom_id2.py`, `octic_test.py` (numeric ID), `fiber_field.py`.
