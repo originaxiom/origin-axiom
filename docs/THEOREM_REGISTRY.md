@@ -1,0 +1,61 @@
+# THE THEOREM REGISTRY — every theorem and law, mapped for the novelty relaunch
+
+**Created 2026-07-08 (the owner's directive: document everything before the literature
+campaign relaunches). Schema per entry: statement / bank / reproducer / lit-status /
+search terms for the novelty sweep. Lit-status values: KNOWN (cited, never claimed) ·
+DERIVABLE (classical mechanics, banked as exhibit) · NEEDS-LIT (novelty unresolved —
+the relaunch targets) · APPEARS-NOVEL (survived a prior sweep). Standing rule: every
+future bank that creates a theorem or law adds its line here IN THE SAME PR.**
+
+## Tier 1 — the paper-leading theorems (NEEDS-LIT, highest priority for the relaunch)
+
+| # | statement | bank | reproducer | lit-status / search terms |
+|---|---|---|---|---|
+| T-UNIQ | tr[A_m,A_n] = 2 − (mn(n−m))²; the commutator is parabolic ⟺ (m,n) = (1,2) — the unique cusp-closing metallic pair | B471 | `chain_verify.py` | **NEEDS-LIT (Paper 4)**: "commutator trace parabolic punctured torus generators", "Fricke identity pairs SL(2,Z) trace 2", Cohn 1955, Gilman–Maskit two-generator |
+| T-MIRROR | every word in metallic letters R^mL^m is reverse+swap-cyclic ⟹ the bundle is amphichiral; the criterion is sufficient NOT necessary (exact witnesses LLLRLLRRRLRR pair, (ℤ/12)² torsion) | B470 (PR #625/#627) | `hierarchy_verify.py` | **NEEDS-LIT**: "amphichiral punctured torus bundles palindromic monodromy", Hilden–Lozano, the flagship recursion's gate |
+| T-GIES-FAM | X_m = [[m,1],[1,0]], X_m² = A_m, det −1 ∀m: every metallic bundle orientation-double-covers a non-orientable bundle (m=1: Gieseking; SnapPy gate m000 ✓) | B469 BR2 | `br1_br2.py` | **NEEDS-LIT**: "non-orientable punctured torus bundle orientation double cover", Gieseking family literature |
+| T-COLLIDE | 4₁(5,1) ≅ −5₂(5,1) = m003(−2,3); in-window census: 3 collision children incl. the TRIPLE 4₁(1,2) = 5₂(−1,1) = 6₁(1,1) (ℤHS); merge orientation classified | B467 (+census) | `f3_wall.py`, `census.py` | **NEEDS-LIT**: Brakes 1980, Livingston, "knots with common Dehn surgery", "cosmetic surgery pairs twist knots", Whitehead-link symmetry |
+| T-BB | integer det = −1 square root of B ∈ SL(2,ℤ) ⟺ tr(B) − 2 = t² AND t \| (B − I); the metallic family = the root locus; chain composite words rootless (rungs 2–200 certified) | B469/B470/B471 | `hierarchy_verify.py` | **NEEDS-LIT**: "square roots in SL(2,Z)", "GL(2,Z) square root criterion trace" |
+
+## Tier 2 — the structural theorems (proofs banked; lit-status = classical-anchored)
+
+| # | statement | bank | reproducer | lit-status |
+|---|---|---|---|---|
+| T-COHN | ⟨A₁,A₂⟩ = ⟨g₁,g₂⟩ = the commutator subgroup of PSL(2,ℤ) (Nielsen identities; balanced words ∈ kernel) | B471 | `chain_verify.py` | KNOWN core (Cohn 1955); the metallic reading NEEDS-LIT |
+| T-CHAIN | s_{n+1} = s_ns_{n−1} conserves the Markov cubic; /3 walks the spine 1,2,5,13,194,…; every renormalized pair parabolic; mod-60 state period 20 = ord(W₁) | B471 | `chain_verify.py` | Fricke/Markov classical; the body-tower framing NEEDS-LIT (Zagier gate for constants) |
+| T-NORM | N(λ_m) = −1 = det(X_m) (companion matrix); frozen through the φ-power degeneracy (m = 1,4,11,29 = φ^{1,3,5,7}); impossible in imaginary quadratic fields | B469 BR-N | `br_n_norm.py` | DERIVABLE (classical units); the three-register identification is the program's |
+| T-HIER | root ⟹ mirror ⟹ balanced ⟹ frozen residue; all strictnesses witnessed exactly; composition: balance always, mirror on palindromic alphabets, root never beyond letters | B470 (PR #625) | `hierarchy_verify.py` | the frame is the program's; components DERIVABLE |
+| T-843 | M(1) = Par·W₁·W₂ has spec = ζ₆₀⁸·μ₄, mults (4,4,3,4), M⁴ = ζ₆₀³²·I; the whole l-sweep = SL(2,ℤ/15) class data; sole object input tr(A₁A₂) = 15 | B465 | `exact_engine.py` | DERIVABLE (Weil/Egorov + Gauss sums); Weil-rep character theory cite |
+| T-SIGMA | σ exchanges the Dehn-filling pair W₁ ↔ W₂ (= the ℚ(√−7)/D(3,3,4) pair, B444); fixed locus = the p=q line ∋ all-ones triple point; the geometric rep's σ-orbit = the B448 heartbeat pair (3±√−3)/2 | B466 | `sigma_action.py` | mechanism = Gieseking deck action; NEEDS-LIT thin |
+| T-LIFT | conj(W(m,1)) = Par·WR₁₄^m·Par·D(m,14): σ's operator lift = the c ↦ −c twist, Par-dressed; two-world, not similarity (+j obstruction T₋ⱼ−Tⱼ = cmj) | B469 Ph2 | `sigma_lift_check.py` | program's own (Weil-rep conjugation standard-shaped) |
+| T-P2B | real-form conjugation-stability + parity oddness ⟹ Vol(Vᵢ) = 0 exactly, CS(Vᵢ) ∈ {0,½}: the emptiness is a σ-parity selection rule | B469 Ph2 | FINDINGS §P2b | DERIVABLE from banked anchors (Falbel real-form) |
+| T-2REG | det(Par@N) = sign(σ on (ℤ/N)²) = (−1)^{(N−1)/2}: the two-register breath law (levels 15/45/75/225) | B469 BR1 | `br1_br2.py` | DERIVABLE (Jacobi) |
+| T-PQB | det(Par·W(w)) = −ω^{#L−#R}; letter tower: Pisano-8 rhythm; body chain: frozen −1, order 60 | B470 RF3 | `rf3_quantum.py` | DERIVABLE (banked det decomposition) |
+
+## Tier 3 — the banked laws with controls (pre-registry campaign results)
+
+| # | law | bank | lit-status |
+|---|---|---|---|
+| L-INV | the Inversion Law (3 tiers, 7 floors; children class-generic; golden absent in 4₁'s child) | B435–B443 | program's own; frame paper 2 |
+| L-SEAM | the seam form (44 values ℚ(√5,√−3); spectral σ₁=σ₂=1/24; cornerstone ℚ(√−15); exchange identity) | B358–B367 | program's own; paper 1 |
+| L-KLEIN | 5 vanishing patterns = the subfield lattice; tier tables are pair/address-class data | B459 (+B468) | equivariance-mechanism DERIVABLE; counts = data |
+| L-COND | seam level = conductor of compositum(geometry, dynamics); Alexander = monodromy charpoly (fibered) | B449 | classical-anchored; the seam framing program's own |
+| L-CENT | C_𝔢₆(principal sl2) = 0 exact; long-root control dim 35 | B463 | Kostant (cited) |
+| L-TOWER | N·Var = S₅(m)·C₃ via character-twisted CRT bases | B446 | APPARENTLY-UNWRITTEN (prior lit-gate) |
+| L-ESC | γ(λ=3) = 0.445(6) three-method; B186's 0.51 = early-window bias (corrected); grammar ≠ full 2-shift | B451 | Bowen–Ruelle classical; the correction is the program's record |
+| L-2STREAM | level-2 arithmetic: trace fields ESCALATE per rung (4/8/12; 14; >32) while scale fields stay Markov-quadratic | B470 RF2 | **NEEDS-LIT**: "trace fields punctured torus bundles word length", Guéritaud–Futer |
+
+## Constants awaiting identification (the relaunch's inverse-symbolic targets)
+
+vol/letter of the letter tower **0.9339…** (Guéritaud–Futer gate) · torsion temperature
+**0.6295727/syllable** (= 1.2591398/letter; λ relation λ_CC = λ_Chat2^φ) · λ_chain
+**2.1775291199** (not a quadratic unit; Zagier gate) · the B451 spectral gap ≥ 0.19.
+
+## Cadence (the standing rule, from today)
+
+1. **Registry-on-bank**: any PR banking a theorem/law adds its registry line in the same PR.
+2. **Atlas + CAMPAIGN_STATUS at every campaign close** (RZ/BRZ/RFZ-type verdicts).
+3. **The decadal audit** at every campaign close OR every ~10 banks, whichever first: the
+   full lock suite (pytest tests/) + a docs-consistency pass + registry completeness check.
+4. **The novelty relaunch** (deep-research fan-out per Tier-1 entry + the constants) runs
+   after Paper 4's draft, from this file — each entry already carries its search terms.

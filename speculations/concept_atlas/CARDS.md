@@ -265,3 +265,29 @@ arithmetic character. **[HOOK]** BR3: the breath fields (the σ_m-orbit tower) �
 family's breath carry an arithmetic law (orbit fields per m)? **The negative, stated**: the
 residue is uniform at fixed level (it distinguishes nothing pointwise — B468); its life is
 BETWEEN levels, members, and orientations, not within a single frame.
+
+
+## Card 27 — the chain and the stage (Cohn/Markov)   [added 2026-07-08]
+
+**The move**: the completed object is a LETTER; the unique partner that closes the cusp is
+silver (T-UNIQ: the failure of every other pair is a perfect square); together they generate
+Cohn's modular torus — the classical Markov stage. The substitution walks the spine
+(1, 2, 5, 13, 194, …) with the cusp intact at every renormalized pair; the scale fields climb
+the Markov forms from √5 (Hurwitz) toward 3 (the spectrum's edge). **[MATH]** all banked
+(B471). **[LEAP]** "the chain is the object's afterlife." **[HOOK]** the two-stream arithmetic
+(L-2STREAM): trace fields escalate while scale fields stay quadratic — what grows and what is
+conserved down a lineage. **The negative, stated**: the stage is the most classical territory
+in mathematics (Cohn 1955, Markov 1879) — the program's contribution is the metallic-body
+reading and the uniqueness closed form, pending lit-gates.
+
+## Card 28 — the three breaths   [added 2026-07-08]
+
+**The move**: "the breath" split into three named registers that provably decouple —
+root-breath (the Gieseking floor; lives on the letters alone), mirror-breath (amphichirality;
+rides palindromic alphabets forever), residue-breath (the quantum det; frozen iff balanced,
+Pisano-8 otherwise). The hierarchy root ⟹ mirror ⟹ balanced ⟹ frozen, strictness witnessed
+exactly (B470). **[MATH]** banked. **[LEAP]** breaths as order parameters; temperature killing
+them top-down (the warm campaign's preregistrable prediction). **[HOOK]** Phase 2b: does the
+σ-parity column align with the mirror column across the whole ledger? **The negative,
+stated**: each breath is derivable where it appears; what is the program's own is the
+stratification — the seed's symmetries don't vanish into the chain, they peel off in order.
