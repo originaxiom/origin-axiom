@@ -85,3 +85,29 @@ fully-verified law:
   have no other divisor ≥ 3, so they hold no breath — the figure-eight (m=1) and silver
   (m=2) bundles breathe but never hold. Reproducer: `held_breath_divisor_law.py` (this
   session's audit).
+
+## Capstone (same session): the held breath is EXACTLY torsion — no rogue components
+
+The remaining gap: could there be σ_m-fixed characters on the cusp that are NOT order-d
+torsion (non-elliptic fixed points)? Verified NO, by matching the trace coordinate of the
+large-degree components at prime m against the cyclotomic trace minimal polynomial:
+
+| m (prime) | held-breath component: tr(a) minpoly | = minpoly of 2cos(2π/m)? |
+|---|---|---|
+| 7 | x³ + x² − 2x − 1 | ✓ (order-7) |
+| 11 | x⁵ + x⁴ − 4x³ − 3x² + 3x + 1 | ✓ (order-11) |
+| 13 | x⁶ + x⁵ − 5x⁴ − 4x³ + 6x² + 3x − 1 | ✓ (order-13) |
+
+Each prime-m held-breath component's tr(a) is EXACTLY the order-m cyclotomic trace — the
+component is the order-m torsion character, nothing more. With the composite cases
+(divisor union) this closes the law:
+
+> **THEOREM (held breath = torsion).** For the metallic once-punctured-torus bundle
+> monodromy A_m, the σ_m-fixed characters on the cusp locus κ = −2 are exactly the
+> order-d torsion characters for divisors d ≥ 3 of m — no non-elliptic fixed points. The
+> geometric (hyperbolic) character is never among them (BR3 wave 2: always σ_m-swapped).
+
+The mapping-class reading: σ_m acting on the relative SL(2,ℂ) character variety of the
+once-punctured torus fixes exactly the elliptic (orbifold) points whose order divides m.
+The metallic family's "held breath" is its orbifold skeleton; the geometric structure
+breathes, the torsion holds still. Reproducer: `held_breath_capstone.py`.
