@@ -72,3 +72,17 @@ warm campaign — recorded, HELD naming.
 ```
 python3 hierarchy_verify.py   # the full certification (words <= 13, chain to 200, witnesses)
 ```
+
+## CORRECTION (2026-07-08, found by the P4 adversarial panel, verified before banking)
+
+The composition claim "mirror composes on palindromic alphabets — ANY word in metallic
+letters is word-mirror via rev·swap(uv) = vu" is **FALSE in that generality**: the
+argument covers TWO-factor products only. For k ≥ 3 blocks, rev·swap reverses the block
+SEQUENCE, which need not be a rotation — explicit counterexample A₁A₂A₃ = RLRRLLRRRLLL
+(rev·swap = RRRLLLRRLLRL, not among its 12 rotations; the panel found 600 counterexamples
+with ≤ 6 blocks). What stands: (i) two-block products uv (the proof as given);
+(ii) THE CHAIN's words are word-mirror (verified rungs ≤ 8, locked in test_b470) — the
+general-rung proof route is the standard-word near-palindrome lemma (s_k = palindrome·xy),
+stated as the open lemma; (iii) all CS = 0 numerics unaffected as data. "Every
+metallic-word bundle is amphichiral" is retracted as a theorem; it stands as: two-block
+words and chain rungs ≤ 8 proven/verified, the rest conjecture.
