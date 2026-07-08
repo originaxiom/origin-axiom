@@ -22,13 +22,15 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Fix the two quantized cat maps \(W_{1}, W_{2}\) of the golden and silver monodromies at level N \(= 15 = tr(A_{1}A_{2})\). Watch their interaction through the parity operator Par (the quantized orientation-reversal): the \emph{seam form} (a,b) \(\mapsto  tr(Par\cdot P_{a}\cdot Q_{b}), P_{a}\) and \(Q_{b}\) the spectral projectors of \(W_{1}\) and \(W_{2}\), takes exactly \textbf{44 distinct values, all lying in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\)}. A value's four Galois channels \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) vanish only when their cyclotomic support is empty, and the possible vanishing patterns are exactly the \textbf{five} that realize the subfield lattice of the Klein-four Galois group — with populations \(120/20/20/10/70\). Seventy points are \emph{dark} (all four channels gone), and fifty-four of those seventy sit at quantum closure. The whole architecture — the light and the dark, and the commutator trace alongside them — \textbf{factors through the divisor lattice of the two operator clocks}: two functions on the thirty-six cells (gcd(x,20), gcd(y,12)). The proportions of light and darkness are the divisor arithmetic of the clocks that measure them.  ---
+Fix the two quantized cat maps \(W_{1}, W_{2}\) of the golden and silver monodromies at level N \(= 15 = tr(A_{1}A_{2})\). Watch their interaction through the parity operator Par (the quantized orientation-reversal): the \emph{seam form} (a,b) \(\mapsto  tr(Par\cdot P_{a}\cdot Q_{b})\), with \(P_{a}, Q_{b}\) the spectral projectors of \(W_{1}\) and \(W_{2}\), is defined on a 49-point support of the (a,b) order grid and takes exactly \textbf{30 distinct values, all lying in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\)}. Fourier-transforming its four Galois channels \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) to the dual torus \(\mathbb{Z}/20 \times  \mathbb{Z}/12\), a channel vanishes only where its cyclotomic support is empty, and the joint vanishing pattern realizes exactly \textbf{four surviving fields plus the zero stratum}: the full field \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\) (120 points), \(\mathbb{Q}(\sqrt{5})\) (20), \(\mathbb{Q}(\sqrt{-3})\) (20), the rational floor \(\mathbb{Q}\) (10), and \textbf{0} — the \emph{dark} locus — at 70 points. The one quadratic subfield that is \textbf{never} realized is \(\mathbb{Q}(\sqrt{-15})\), the field of the level itself: its channel dies in every nontrivial pattern. So the selection rule is not the whole subfield lattice, but the lattice \emph{with the \(\sqrt{-15}\) node deleted and a zero stratum adjoined} — a broken lattice, and the break is the seam-level's own field. Of the 70 dark points, 54 sit at quantum closure \(([W_{1}^{j},W_{2}^{l}]=I)\). The whole architecture — the light, the dark, and the commutator trace beside them — \textbf{factors through the divisor lattice of the two operator clocks}: two functions on the thirty-six cells (gcd(x,20), gcd(y,12)). The proportions of light and darkness are the divisor arithmetic of the clocks that measure them.  ---
 \end{abstract}
 \section{Introduction}
 
 An interaction is easy to write down and hard to see. Two operators, a product, a trace — the recipe is three symbols long, and it hides everything. This paper is about one interaction seen clearly: two quantized cat maps, watched through a single involution, and the exact proportions of light and darkness that come out. The surprise is not that structure appears — an arithmetic object will always have structure — but that the structure is \emph{arithmetic all the way down}: the proportions of what survives and what cancels turn out to be the divisor lattice of the two clocks by which the operators keep time. Nothing is fitted. The seam form is a shadow, and the shape of the shadow is a fact about the number 15 \(= 3\cdot 5\).
 
-The two objects are the Weil \(/\) Hannay–Berry quantizations \(W_{1}, W_{2}\) of the golden and silver monodromies \(A_{1} = \left(\begin{smallmatrix}2 & 1\\1 & 1\end{smallmatrix}\right), A_{2} = \left(\begin{smallmatrix}5 & 2\\2 & 1\end{smallmatrix}\right)\) — the unique parabolic pair of the metallic family (Paper 4) — at the level N \(= 15\) that is their own product trace. The involution is Par, the quantized image of \(-I\), with det Par \(= -1\): the operator through which orientation is read. The seam form is what the pair looks like through Par. Section 2 defines it and states its values; Section 3 proves the lemma the rest of the paper turns on — that a channel can only vanish where its support is empty; Sections 4 and 5 read off the selection rules and the dark locus; Sections 6 and 7 give the spectral fingerprint and the master theorem. The honesty protocol is Paper 4's: classical material is cited, the one deferred step is named, and every number carries a reproducer.
+The two objects are the Weil \(/\) Hannay–Berry quantizations \(W_{1}, W_{2}\) of the golden and silver monodromies \(A_{1} = \left(\begin{smallmatrix}2 & 1\\1 & 1\end{smallmatrix}\right), A_{2} = \left(\begin{smallmatrix}5 & 2\\2 & 1\end{smallmatrix}\right)\) — the first two members of the metallic family (Paper 4) — at the level N \(= 15\) that is their own product trace. The matrices \(A_{1}, A_{2}\) are hyperbolic (Anosov); it is their \emph{commutator} whose trace governs the interaction. The involution is Par, the quantized image of \(-I\), with det Par \(= -1\): the operator through which orientation is read. The seam form is what the pair looks like through Par.
+
+Three domains appear below, and the paper's first job is to keep them apart, because v1 did not. (i) The \emph{value torus}: the (a,b) grid of projector indices, on which the seam form takes its 30 values. (ii) The \emph{dual torus}: the Fourier transform \(\mathbb{Z}/20 \times  \mathbb{Z}/12\) of the four channels, on which the 240 vanishing patterns and the dark locus live. (iii) The \emph{divisor lattice}: the 36 cells (gcd(x,20), gcd(y,12)) through which the commutator trace and the pattern-tier factor. Section 2 defines the form and states its values on (i); Section 3 proves the channel-vanishing lemma; Sections 4 and 5 read the selection rule and the dark locus on (ii); Sections 6 and 7 give the spectral fingerprint and the master theorem on (iii). The honesty protocol is Paper 4's: classical material is cited, the one deferred step is named, and every number carries a reproducer.
 
 \section{The seam form}
 
@@ -39,7 +41,7 @@ The seam form of the pair is (a,b) \(\mapsto  tr(Par\cdot P_{a}\cdot Q_{b})\).
 \end{definition}
 
 \begin{theorem}[values]
-The seam form takes exactly 44 distinct values, all in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\). Its four Galois channels — the coordinates in the basis \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\), the isotypic pieces under \(Gal(\mathbb{Q}(\sqrt{5},\sqrt{-3})/\mathbb{Q}) \cong  (\mathbb{Z}/2)^{2}\) — are the natural coordinates for everything below.
+The seam form is supported on 49 points of the (a,b) grid (a ranges over \{0,1,4,5,6,9,11,14,15,16,19\}, b over \{0,1,2,3,4,5,7,8,9,10,11\}, with 49 of the pairs occurring), and on those 49 points it takes exactly \textbf{30 distinct values, all nonzero, all in \(\mathbb{Q}(\sqrt{5}, \sqrt{-3})\)}. Its four Galois channels — the coordinates in the basis \{1, \(\sqrt{5}, \sqrt{-3}, \sqrt{-15}\}\) of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\), the isotypic pieces under \(Gal(\mathbb{Q}(\sqrt{5},\sqrt{-3})/\mathbb{Q}) \cong  (\mathbb{Z}/2)^{2}\) — are the natural coordinates for everything below. (Their per-channel nonzero supports are 32, 45, 28, and 44 of the 49 points; the last number, 44 — the \(\sqrt{-15}-channel\) support — is \emph{not} the count of distinct values, a conflation corrected from v1.)
 \end{theorem}
 
 The field \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\) is the compositum of the two ends of the object: \(\sqrt{5}\) from the golden (spherical, \(E_{8}\)) end, \(\sqrt{-3}\) from the hyperbolic \((E_{6})\) end. The seam is where they meet, and its values speak both languages at once.
@@ -48,18 +50,18 @@ The field \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\) is the compositum of the two ends o
 
 Everything downstream rests on one observation, and it is the honest heart of the paper.
 
-\begin{lemma}[channel vanishing \(= empty\) support]
-A Galois channel of the seam form vanishes at (a,b) if and only if the cyclotomic support of the corresponding character sum is empty. Vanishing is never an accident of magnitude; it is forced by which cyclotomic frequencies the character can carry. Two channels of a value are therefore not free to vanish independently — their supports are governed by the same residue data, and the joint pattern is constrained.
-\end{lemma}
+\textbf{Observation S5 (channel vanishing \(= empty\) support; verified, not yet proved per channel).} A Galois channel of the (Fourier-transformed) seam form vanishes at a dual-torus point (x,y) if and only if the cyclotomic support of the corresponding character sum is empty. Vanishing is never an accident of magnitude; it is forced by which cyclotomic frequencies the character can carry. Two channels of a value are therefore not free to vanish independently — their supports are governed by the same residue data, and the joint pattern is constrained.
 
-\begin{proof}* Each channel is a Galois-isotypic component of the character sum \(tr(Par\cdot P_{a}\cdot Q_{b})\); by the equivariance of the Weil representation under the Galois action on level-15 roots of unity (the same mechanism that gives Coste–Gannon's Galois symmetry in rational conformal field theory), the component is a sum over a residue class and vanishes exactly when that class carries no surviving frequency. \end{proof}
+\emph{Status.} This is verified exhaustively on all 240 dual-torus points (reproducer below) and is the mechanism behind every selection rule in the paper, but a per-channel derivation from the cyclotomic support — turning the verified statement into a theorem — is \textbf{the paper's central open problem} (Section 8). It is stated here as an Observation, not with a proof mark.
 
-The lemma is why the dark locus is a \emph{theorem} and not a table. Light is the generic case; a point goes dark only when arithmetic forbids every channel at once, and forbidding is a congruence condition, not a coincidence.
+\emph{Why it should hold.} Each channel is a Galois-isotypic component of the character sum \(tr(Par\cdot P_{a}\cdot Q_{b})\); by the equivariance of the Weil representation under the Galois action on level-15 roots of unity (the mechanism behind Coste–Gannon's Galois symmetry in rational conformal field theory), the component is a sum over a residue class and should vanish exactly when that class carries no surviving frequency. Making "should" into "does", uniformly per channel, is what remains.
 
-\section{The selection rules: the subfield lattice}
+The Observation is why the dark locus is a \emph{structural} fact and not a table. Light is the generic case; a point goes dark only when arithmetic forbids every channel at once, and forbidding is a congruence condition, not a coincidence.
 
-\begin{theorem}[five patterns]
-Exactly five vanishing patterns occur across the 240 points: none vanish (\emph{free}), \(\{\sqrt{-3},\sqrt{-15}\}\) vanish, \(\{\sqrt{5},\sqrt{-15}\}\) vanish, \(\{\sqrt{5},\sqrt{-3},\sqrt{-15}\}\) vanish, all four vanish (\emph{dark}). These are precisely the five nodes of the subfield lattice of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\): the whole field, its three quadratic subfields \(\mathbb{Q}(\sqrt{5}), \mathbb{Q}(\sqrt{-3}), \mathbb{Q}(\sqrt{-15})\), and the rational floor. The populations are:
+\section{The selection rule: a broken subfield lattice}
+
+\begin{theorem}[five patterns; four fields and the dark stratum]
+Exactly five vanishing patterns occur across the 240 dual-torus points. Written as the set of channels that vanish, with the surviving field and the count:
 \end{theorem}
 
 \begin{center}\small\begin{tabular}{llll}\hline
@@ -78,7 +80,9 @@ dark & all four & 0 & 70 \\
 
 \hline\end{tabular}\end{center}
 
-The number 44 of distinct values and the five patterns are two faces of the same fact: the seam form is \emph{even} under the Galois group, and its vanishing set is a union of subfield strata. Among the three quadratic subfields, \textbf{\(\sqrt{-15}\) dies first} — it is the seam level's own field, and it is the channel that vanishes in every non-free pattern.
+These realize four of the five nodes of the subfield lattice of \(\mathbb{Q}(\sqrt{5},\sqrt{-3})\) — the whole field, the two quadratic subfields \(\mathbb{Q}(\sqrt{5})\) and \(\mathbb{Q}(\sqrt{-3})\), and the rational floor — \textbf{together with the zero stratum}. The fifth lattice node, \textbf{\(\mathbb{Q}(\sqrt{-15})\), is never realized}: the pattern in which only the \(\sqrt{-15}\) channel survives (\(\sqrt{5}, \sqrt{-3}\) dead, \(\sqrt{-15}\) alive) does not occur at any of the 240 points. The \(\sqrt{-15}\) channel instead \emph{dies in every nontrivial pattern} — it is the first channel to go and the one that never survives alone. So the selection rule is the subfield lattice \textbf{with the \(\mathbb{Q}(\sqrt{-15})\) node deleted and a zero stratum adjoined}: a broken lattice, and the break is exactly the field of the level, \(\mathbb{Q}(\sqrt{-15})\).
+
+\emph{(Correction from v1, recorded for the reader: v1 called the five patterns "precisely the five nodes of the subfield lattice, including \(\mathbb{Q}(\sqrt{-15})."\) That is wrong twice over — \(\mathbb{Q}(\sqrt{-15})\) is never a surviving field, and the zero stratum, present at 70 points, is not a subfield-lattice node. The broken-lattice-plus-zero statement above is the corrected and, we think, more pointed one.)}
 
 \section{The dark locus}
 
@@ -95,7 +99,7 @@ The seam operator carries the framing fingerprint \(\sigma _{1} = \sigma _{2} = 
 \end{theorem}
 
 \begin{theorem}[the cornerstone]
-The distinguished quadratic subfield of the seam is \(\mathbb{Q}(\sqrt{-15})\) — the field of the level itself. It is the first channel to vanish and the last structure to survive the reduction to the rational floor: the cornerstone the other three subfields are set against.
+The distinguished quadratic subfield of the seam is \(\mathbb{Q}(\sqrt{-15})\) — the field of the level itself. It is the first channel to vanish and the node the reduction is set against: the one quadratic subfield that never survives, so that the surviving fields form the lattice \emph{around} it.
 \end{theorem}
 
 \begin{theorem}[the exchange identity]
@@ -111,18 +115,18 @@ Both maps on the order torus \(\mathbb{Z}/20 \times  \mathbb{Z}/12\) — the com
 \end{theorem}
 
 \begin{theorem}[the magnitude law]
-\(|\kappa _{q}(j,l)|^{2} = \#Fix([A_{1}^{j}, A_{2}^{l}]\) acting on \((\mathbb{Z}/15)^{2}\)) — Howe's formula. The divisors of 15 in the table are Howe's fixed-point counts at level 15; verified on all 25 of the \(5\times 5\) principal window.
+\(|\kappa _{q}(j,l)|^{2} = \#Fix([A_{1}^{j}, A_{2}^{l}]\) acting on \((\mathbb{Z}/15)^{2}\)) — Howe's formula. Verified on the \(5\times 5\) principal window (all 25 cells) at level 15; the general 36-cell statement is asserted on that verified window and the even-function factorization, with the full-torus check flagged as remaining.
 \end{theorem}
 
 The master table — thirty-six cells, each carrying its \(\kappa _{q}\) value and its tier — is the paper's final object, printed in full in the appendix. It is the answer to the spine: the light and the dark of the interaction, and the commutator that measures how far the operators are from commuting, are the \emph{same} two functions, and both are read off the greatest common divisors of the exponents with the two clock orders. The proportions of light and darkness are the divisor arithmetic of the clocks.
 
-That the factorization mechanism is classical (even functions; \(\mathbb{Q}-classes\)) is stated plainly: what is ours is the specific N \(= 15\) seam, its five-pattern subfield-lattice selection rule, the \(dark-locus/closure\) concentration, and the joint reading of \(\kappa _{q}\) and the tier on one lattice.
+That the factorization mechanism is classical (even functions; \(\mathbb{Q}-classes\)) is stated plainly: what is ours is the specific N \(= 15\) seam, its broken-lattice selection rule (four fields plus zero, with \(\mathbb{Q}(\sqrt{-15})\) absent), the \(dark-locus/closure\) concentration, and the joint reading of \(\kappa _{q}\) and the tier on one lattice.
 
 \section{What we could not locate, and what remains open}
 
-The classical shelf: Weil-representation character values (Howe; Thomas), the CRT factorization (Kurlberg–Rudnick), Galois equivariance (Coste–Gannon; Bantay), the even-function class (Cohen; McCarthy), and the \(\mathbb{Q}-class\) principle (Serre). Against that shelf, our search did not locate: the explicit 44-value seam form at any composite level; the five-pattern subfield-lattice selection rule; the \(dark-locus/closure\) concentration (54 of 70); or the joint (\(\kappa _{q}\), tier) divisor-lattice factorization. These are stated as ours, scoped, and \emph{pending this paper's own literature gate.}
+The classical shelf: Weil-representation character values (Howe; Thomas), the CRT factorization (Kurlberg–Rudnick), Galois equivariance (Coste–Gannon; Bantay), the even-function class (Cohen; McCarthy), and the \(\mathbb{Q}-class\) principle (Serre). Against that shelf, our search did not locate: the explicit 30-value seam form at any composite level; the broken-lattice selection rule with \(\mathbb{Q}(\sqrt{-15})\) systematically absent; the \(dark-locus/closure\) concentration (54 of 70); or the joint (\(\kappa _{q}\), tier) divisor-lattice factorization. These are stated as ours, scoped, and \emph{pending this paper's own literature gate.}
 
-Open: (i) the \textbf{cyclotomic-support step} — deriving each cell's tier from its support is verified on all 240 points but not yet proven per channel; it is the paper's central open problem. (ii) The \textbf{sixteen off-closure dark points} — the dark locus is not exhausted by the closure set, and the residue is unexplained. (iii) The \textbf{seam at other levels} — whether the subfield-lattice selection rule survives at levels other than \(3\cdot 5\), and how it degrades when a prime goes trivial.
+Open: (i) the \textbf{cyclotomic-support step} (Observation S5) — deriving each cell's tier from its support is verified on all 240 dual-torus points but not yet proved per channel; it is the paper's central open problem. (ii) The \textbf{sixteen off-closure dark points} — the dark locus is not exhausted by the closure set, and the residue is unexplained. (iii) The \textbf{seam at other levels} — whether the broken-lattice selection rule survives at levels other than \(3\cdot 5\), and how it degrades when a prime goes trivial. (iv) The \textbf{full-torus S10 check} — Howe's magnitude law is verified on the \(5\times 5\) principal window; the remaining cells are asserted via the factorization, not yet exhaustively checked.
 
 \section{Appendix A: the master table}
 
@@ -130,7 +134,7 @@ Open: (i) the \textbf{cyclotomic-support step} — deriving each cell's tier fro
 
 \section{Appendix B: reproducibility}
 
-Per-claim script map: \(S1–S4/S11\) (the seam bank B358–B367, B449); S5–S7 (\texttt{verify\_patterns.py}, \(B459/B468); S8/S12\) (\texttt{br1\_br2.py}, B469); \(S9/S10\) (\texttt{cross\_table.py}, \texttt{kq\_verify.py}, \(B474/B472\)). Each carries a lock re-run at draft. The Klein-four count correction (an earlier float miscount of the dark set as 53 rather than the exact 70) is recorded in the corrections ledger.
+Per-claim script map: \(S1–S4/S11\) (the seam bank B358–B367, B449; the \(30-value/49-support\) count and the per-channel supports \{32,45,28,44\} recomputed at revision via \texttt{B358\_seam\_certification} + \texttt{B367\_value\_map}); S5–S7 (\texttt{B459\_klein\_four\_verification/verify\_patterns.py} — the five patterns, counts \(120/20/20/10/70\), the two laws, and the never-realized \(\mathbb{Q}(\sqrt{-15})\) node, all reproduced at revision); \(S8/S12\) (\texttt{br1\_br2.py}, B469); \(S9/S10\) (\texttt{cross\_table.py}, \texttt{kq\_verify.py}, \(B474/B472\)). Each carries a lock re-run at draft. The \(v1\to v2\) corrections (30 distinct values not 44; the broken lattice with \(\mathbb{Q}(\sqrt{-15})\) absent and the zero stratum present; the value-torus \(/\) dual-torus separation; Observation S5 demoted from a proved lemma to the central open problem) are recorded in the corrections ledger. The earlier float miscount of the dark set as 53 rather than the exact 70 is also recorded there.
 
 \begin{thebibliography}{99}
 \bibitem{howe} R.~Howe, \emph{On the character of Weil's representation}, Trans. Amer. Math. Soc. \textbf{177} (1973), 287--298.
