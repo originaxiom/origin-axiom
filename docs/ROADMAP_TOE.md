@@ -44,8 +44,16 @@ time per the dual protocol:
    4⊕4⊕3⊕4, NOT an octet; the Fricke derivation chain; the heartbeat as the σ-orbit;
    the breath laws BR1/BR2; the σ-parity mechanism for the emptiness (B469-P2b)).
 
+4. **The Markov Uniqueness** (tr[A_m,A_n] = 2 − (mn(n−m))²; Cohn's stage; the parabolic
+   uniqueness of (1,2); the breathability locus; the breath hierarchy root ⟹ mirror ⟹
+   balanced ⟹ frozen residue with its exact witnesses). **This paper LEADS** — the
+   crispest self-contained result the program owns — pending the lit-gate ("we could not
+   locate this identity," never "nobody wrote it down").
+
 Plus the standing flagship paper. These are mathematics papers; they say what the object
-IS. That is the honest deliverable available today.
+IS. That is the honest deliverable available today. **The six-measurements scorecard is
+retired to the S-room (S056) with its null numbers attached, by its author, after
+three-seat convergence — the theorems don't need it.**
 
 ## III. The open registers (the map of where a non-laundered channel could still live)
 
