@@ -62,3 +62,20 @@ python3 run_rung2.py            # the F_p dimension sweep (per-class 20-min caps
 python3 rung4_numeric.py        # the numeric fallback (+ the seeded retry pattern)
 pytest ../../tests/test_b461.py
 ```
+
+## Addendum (2026-07-08): the census boundary COMPUTED (numeric, 1000 seeded starts/class)
+
+| class | result |
+|---|---|
+| 0 | 10 solutions, ALL on-family (the positive-dimensional geometric component) |
+| 5 | 31 solutions, ALL on-family (a second large positive-dimensional class) |
+| 3, 6, 7, 8, 9, 10, 11 | **14 isolated points total** (1, 2, 4, 3, 1, 1, 2) |
+| 1, 2, 4, 12, 13 | nothing found (empty or hard basins — UNRESOLVED, honest bin; s776 also had empty classes) |
+
+The structural contrast with s776 sharpens: the control is almost entirely 0-dimensional
+(12 point-classes + one dim-3 + one dim-1); the Borromean shows at least TWO large
+positive-dimensional classes plus scattered isolated points. Field recognition at the
+isolated points FAILED at this precision (1e-12 Newton cannot support degree-10 PSLQ) —
+the residual: high-precision polish (mpmath dps 40 refinement per point) then minpoly
+recognition; machinery in `census_full.py`. The census's structure table is the banked
+deliverable; the fields are the priced remainder.

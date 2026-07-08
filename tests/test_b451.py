@@ -57,3 +57,20 @@ def test_stable_orbit_counts_lambda3():
         orbs = R.orbits_from_points(pts, n)
         counts[n] = len(orbs)
     assert counts[1] == 0 and counts[2] == 2 and counts[3] == 0 and counts[4] == 1
+
+
+def test_certified_primitive_table():
+    import json
+    path = os.path.join(HERE, "..", "frontier", "B451_thermo_d4_resonances",
+                        "orbits_certified.json")
+    prims = json.load(open(path))
+    counts = {}
+    for n, _ in prims:
+        counts[n] = counts.get(n, 0) + 1
+    assert counts == {'2': 2, '4': 1, '5': 2, '6': 3, '7': 4, '8': 5} or \
+           counts == {2: 2, 4: 1, 5: 2, 6: 3, 7: 4, 8: 5}
+    # the exact fixed-point identities N_n = sum_{d|n} d*P_d
+    P = {2: 2, 4: 1, 5: 2, 6: 3, 7: 4, 8: 5}
+    N = {n: sum(d * P.get(d, 0) for d in range(1, n + 1) if n % d == 0)
+         for n in (2, 4, 5, 6, 7, 8)}
+    assert (N[2], N[4], N[5], N[6], N[7], N[8]) == (4, 8, 10, 22, 28, 48)

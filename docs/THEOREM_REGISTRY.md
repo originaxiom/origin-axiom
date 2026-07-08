@@ -53,7 +53,10 @@ candidate closed form = the Bloch-Wigner hull average over the Farey shapes — 
 companion ADDITIVITY LAW: tower volume defect < 1e-27 by n=13, doubly-exponential decay —
 NEEDS-LIT vs Brock/Guéritaud) · torsion temperature
 **0.6295727/syllable** (= 1.2591398/letter; λ relation λ_CC = λ_Chat2^φ) · λ_chain
-**2.1775291199** (not a quadratic unit; Zagier gate) · the B451 spectral gap ≥ 0.19.
+**2.1775291199** (not a quadratic unit; Zagier gate) · the B451 resonance spectrum — NOW COMPUTED at certified truncation N = 8: leading 0.4415
+(= the escape rate ✓), **second resonance REAL NEGATIVE, rate 0.70(8)**, third a complex
+pair near 0.89; certified primitive table {2,4,5,6,7,8 → 2,1,2,3,4,5} with all periodic
+points proven real and simple; the algebra recovered one orbit numerics missed (|Λ| = 915).
 
 ## Literature anchors received (seat-1's sweep, 2026-07-08)
 
