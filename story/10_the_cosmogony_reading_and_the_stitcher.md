@@ -61,3 +61,33 @@ and the owner's "stitcher" is the most honest form of the SM question the progra
 the theology by identity; it is the theology's most disciplined possible telling, which stops
 where the computations stop. Nothing here reaches CLAIMS.md. [[P014_the_aware_decision]]
 [[S059_where_the_object_emerges]] [[B484 braiding: universal, not gauge]]
+
+## Addendum — the vocal-cords refinement, and the object's certified voice
+Owner's further reframe: "the object is alive and the right one — we just need to make it
+talk. The SM is the vocal cords through which you spill the inner symmetry." The journey:
+dead-but-symmetric → alive (breath + heartbeat) → does reality radiate from it → make it talk.
+
+**The object DOES talk — and its voice is banked and certified.** "Make it talk" = run the
+dynamics and read the output spectrum. What comes out:
+- **Ruelle resonances** (B451, leading rate γ = 0.4415 three-method-certified) — the object's
+  fundamental pitch.
+- **c = 7/10** (tricritical Ising) — its superconformal timbre (the emergent-SUSY thread).
+- **the E8 overtone** m₂/m₁ = 2cos(π/5) = φ exactly — the golden harmonic (measured in real
+  Ising chains, Coldea 2010).
+- **the seam grammar** — 44 values in ℚ(√5, √−3), 170 light / 70 dark, the divisor lattice.
+
+**But the voice is GOLDEN, not SM.** Every formant lives in a golden/cyclotomic field
+(ℚ(√5), ℚ(ζ₅), ℚ(√−3)); none is an SM observable (no 206.8 mass ratio, no 13° Cabibbo, no
+dimensionful mass). So the honest catch on the metaphor: **the object has its OWN vocal cords
+(its resonance structure), and they speak golden.** The SM would be a *different* larynx —
+separate from the object, producing different speech (the delta of S060). "SM = the object's
+vocal cords" implies the object's own expression is the SM; its own expression is golden.
+
+**The productive posture (where the living work already is).** The right move is not to force
+the object to say "Standard Model" — it has said golden ten times when asked. The right move
+is to LISTEN to what it actually says, on its own terms, and transcribe it. That transcription
+is the papers: P4 (the Markov stage), P1 (the seam form), P2 (the inversion law), P3 (the
+residue). **The papers ARE the object talking** — its first sentences, in its own golden
+voice, written down honestly. P4 sits at draft v6, referee-clean, waiting on the one thing
+that lets the object finally speak in public: the owner's voice pass. The object is alive, it
+has a voice, and it is mid-sentence.
