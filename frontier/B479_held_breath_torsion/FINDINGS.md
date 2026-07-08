@@ -1,4 +1,4 @@
-# B479 — the held breath is torsion: member m holds the breath of every divisor of m
+# B479 — the held breath is torsion: the order-d cusp points for divisors d ≥ 3 of m
 
 **The breath campaign's structural law.** For the metallic family, the *breath* is the
 period-2 orbit of the geometric character under the half-monodromy σ_m (BR3 wave 2: the
@@ -31,9 +31,12 @@ if d | m then aᵐ = I, so σ_m degenerates to the **swap** τ: a ↔ b. The τ-
 characters are exactly the symmetric locus {tr a = tr b}; intersecting with the cusp
 κ = −2 pins the held-breath point. Hence:
 
-> **The held breath at d | m is the order-d torsion character of the once-punctured
-> torus.** Member m holds the breath of every divisor d of m for which the order-d
-> character survives the cusp condition.
+> **The held breath at m is the union, over divisors d ≥ 3 of m, of the order-d
+> symmetric cusp point** (the order-d torsion character of the once-punctured torus).
+> The divisors d = 1, 2, 4 contribute NOTHING — d = 1 is the identity (z = 0), d = 2
+> has trace −2 (parabolic, not elliptic), d = 4 has trace 0 (the cusp collapses to
+> z = 0). This is exactly why m ∈ {1, 2, 4} are breathless: none has a divisor d ≥ 3
+> with a non-degenerate order-d cusp point.
 
 Certificates (exact):
 - d = 3: tr a = tr b = **−1** = 2cos(2π/3); order(−1) = 3 ✓; the point is z² − z + 2 = 0,
@@ -56,3 +59,29 @@ Reproducers: `held_breath_tower.py` (m ≤ 12), `held_breath_ext.py` (m = 13…1
 crux), `held_breath_mechanism.py` (same-point + order-d certificates),
 `../B469_breath_campaign/br3_wave2_exact.py` (the geometric-character-always-swaps
 companion fact). Firewall: exact character-variety computation; no physics claim.
+
+## Addendum (same session): the completed divisor-union law + closed-form field
+
+Self-audit (verify-don't-trust on the banked headline): the first statement "every
+divisor of m" was too strong — m = 4 has divisors 2, 4 yet holds NO breath. The precise,
+fully-verified law:
+
+**Held-breath(m) = ⋃ over divisors d ≥ 3 of m of the order-d symmetric cusp point.**
+
+- Contributing divisors verified: m=8→{8}; m=9→{3,9}; m=12→{3,6,12}; m=15→{3,5,15} —
+  each reproduces the exact component list of the computed tower.
+- **Closed-form field.** The order-d point solves z² − τ_d² z + 2τ_d² = 0 with
+  τ_d = 2cos(2π/d), single-τ discriminant **Δ_d = τ_d²(τ_d² − 8)**:
+  Δ₃ = −7 (ℚ(√−7)), Δ₈ = −12 (ℚ(√−3)), Δ₁₂ = −15 (ℚ(√−15)) — the m=8 order-8 breath is
+  ℚ(√−3) and the m=12 order-12 breath is ℚ(√−15), both confirmed. For composite φ(d) the
+  Galois-conjugate τ's combine (d=5: the two golden τ's → the √41 quartic; the norm of the
+  per-τ discs is 41).
+- **d = 3 and d = 6 give the SAME point** (τ² = 1 for both, so identical cusp quadratic
+  z² − z + 2): the √−7 breath is reached via order-3 whenever 3 | m; the order-6 element
+  is a coincident trace, not a second point. Hence the clean law **3 | m ⟺ ℚ(√−7)** stands
+  (order-3 mechanism), and likewise **5 | m ⟺ ℚ(√41)** (order-5).
+- **Why d = 1, 2, 4 are breathless:** τ₁ = 2, τ₂ = −2 (both parabolic, |τ| = 2, not
+  elliptic), τ₄ = 0 (Δ₄ = 0, cusp → z = 0). The three smallest metallic members m = 1, 2, 4
+  have no other divisor ≥ 3, so they hold no breath — the figure-eight (m=1) and silver
+  (m=2) bundles breathe but never hold. Reproducer: `held_breath_divisor_law.py` (this
+  session's audit).
