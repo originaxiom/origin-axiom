@@ -100,3 +100,39 @@ Each figure plots only values verified in-script (assertions fail loud on any wr
 - **`mapfig3_broken_lattice`** — the seam form's realized surviving-fields: the subfield lattice of
   ℚ(√5,√−3) with the **ℚ(√−15) node struck out** (never realized) plus a zero (dark) stratum;
   populations 120/20/20/10/70 from B459. *[NOVEL-GATED]*
+
+## Novelty gate (adversarial lit-gate, 2026-07-09) — the honest verdict for the paper
+
+Ran the deep-research prior-art harness (100 agents) against every canonical reference on both sides.
+
+**(a) Every pairwise link is textbook-classical — CITE, don't claim.** With sources to use:
+- R/L-word coding of once-punctured-torus-bundle monodromy in SL(2,ℤ); MCG = SL(2,ℤ); Farey cutting
+  sequences — **Floyd–Hatcher (1982); Series (1985); Cannon–Dicks (2002); Dicks–Sakuma (2010)** (they
+  call it a "well-known fact").
+- **(golden matrix)² = RL = [[2,1],[1,1]] = figure-eight monodromy = Arnold cat map** (confirmed here:
+  RL = X₁²). Stated verbatim in **Cannon–Dicks ("the square of RM is RL")** and **Dehornoy (2024),
+  "The cat-bat map, the figure-eight knot, and the five orbifolds" (arXiv:2409.06543)**.
+- figure-eight = the RL punctured-torus bundle — **Thurston; Guéritaud (2006)**.
+- Markov spectrum ↔ modular torus ↔ continued fractions / cutting sequences — **Cohn (1955); Series
+  (1985)**; Christoffel words ↔ Markoff numbers — **Frobenius (1913); Reutenauer (2019)**.
+- metallic means via the substitution B→A, A→AⁿB with eigenvalue the metallic mean — classical.
+
+**(b) The FULL assembly does NOT exist in one place — APPEARS-NOVEL as an organizing synthesis.** Every
+canonical source contains *only its own facet*: the topology references (Cannon–Dicks, Dicks–Sakuma,
+Lackenby, Guéritaud, Dehornoy) have zero Markov/Fibonacci/metallic/cat-map content; the Markov/Christoffel
+monograph (Reutenauer, Aigner, Series, Cohn) has zero hyperbolic-geometry/torus-bundle/figure-eight
+content. No single source assembles more than the pairwise links under the substitution root.
+
+**(c) The metallic RᵐLᵐ family as the σₘ deformation, tied to BOTH the Markov/modular story AND the
+quantized-cat-map story — APPEARS-NOVEL / NEEDS-SPECIALIST.** No source found. Sanity check on a same-titled
+false lead (arXiv:2602.09769, "Metallic mean quasicrystals"): its matrix is the abelianization [[0,1],[1,n]]
+(trace n), NOT the bundle monodromy (trace m²+2) — a different object, confirming ours is the right one.
+
+**So the paper's honest shape:** a survey whose bricks are all classical (cited), whose *assembly* under
+σ is the organizing contribution, and whose one specialist-gated novel bridge is the metallic-family
+deformation tying the Markov/modular and cat-map layers together — alongside the two already-gated cores
+(seam broken-lattice, held-breath field). **Before writing: read Dehornoy (2024) and Cannon–Dicks (2002)
+in full** — they are the closest front-end prior art (cat-map ↔ figure-eight), and the paper must be built
+*against* them, not over them. Caveat: a few lit-gate sub-agents ran while the safety classifier was down;
+the load-bearing claims (Dehornoy scope, the (golden)²=RL identity, the classical links) were independently
+re-checked here.
