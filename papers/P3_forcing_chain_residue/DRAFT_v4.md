@@ -1,4 +1,10 @@
-# The forcing chain and the residue: a substitution, and the sign that survives everything it builds
+# The forcing chain and the residue — [FROZEN INTERNAL NOTE, NOT PUBLICATION-READY]
+
+**⚠ FROZEN (2026-07-09) as an internal note.** After three adversarial re-panel rounds, this write-up
+still carries framing/labelling defects (documented in `SCRUTINY_P1P3_round3.md`) — e.g. "degenerate
+d = 4, 6" (d=6 is non-degenerate) and residual ⊆-direction prose. Retained as an internal record only.
+**The verified computations live in the cited B-nodes** (T-NORM, T-2REG, T-PQB, B479, with B479's d=5
+field corrected to a degree-4 field over ℚ(√5)). Do not circulate as a paper.
 
 **Complete draft v4 — 2026-07-09. v4 corrects three MAJOR defects the re-panel (round 2) confirmed in
 v3, all CC-verified in Sage: (1) the determinant register is THREE-valued (the coset −μ₃ = {−1,−ω,−ω²}),

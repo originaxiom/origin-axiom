@@ -1,4 +1,10 @@
-# The inversion law: what a surgered manifold forgets, and the orientation that survives only sometimes
+# The inversion law — [FROZEN INTERNAL NOTE, NOT PUBLICATION-READY]
+
+**⚠ FROZEN (2026-07-09) as an internal note.** After three adversarial re-panel rounds, this write-up
+still carries framing/labelling defects (documented in `SCRUTINY_P1P3_round3.md`) — notably that the
+"≤ one bit" law is partly tautological (a collision is *defined* by a shared unoriented child). Retained
+as an internal record only; **the verified computations live in the cited B-nodes** (B435–B443, B467).
+Do not circulate as a paper.
 
 **Complete draft v3 — 2026-07-09. v3 fixes the re-panel (round 2) precision findings: (a) "no
 quadratic subfield" is justified by the **S₄** Galois group (the point-stabilizer S₃ is maximal), not

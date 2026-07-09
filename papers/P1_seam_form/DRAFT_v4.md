@@ -1,4 +1,10 @@
-# The seam form: light and darkness in the divisor lattice of two clocks
+# The seam form — [FROZEN INTERNAL NOTE, NOT PUBLICATION-READY]
+
+**⚠ FROZEN (2026-07-09) as an internal note.** After three adversarial re-panel rounds, this write-up
+still carries framing/labelling defects (documented in `SCRUTINY_P1P3_round3.md`); solo iteration did
+not converge. It is retained as an internal record only. **The verified mathematics lives in the cited
+B-nodes** (the seam bank B358–B367, B459, B474); do not circulate this as a paper. P4 is the only paper
+that cleared the gauntlet.
 
 **Complete draft v4 — 2026-07-09. v4 corrects a MAJOR defect the re-panel (round 2) confirmed: the
 object must be defined as the ℚ(√5,√−3)-isotypic *projection* (Galois average) of the seam trace, not

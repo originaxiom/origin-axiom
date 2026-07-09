@@ -16,7 +16,7 @@
 \newtheorem*{remark}{Remark}
 \setlength{\parskip}{0.35em}
 \setlength{\parindent}{0pt}
-\title{The inversion law: what a surgered manifold forgets, and the orientation that survives only sometimes}
+\title{The inversion law — \([FROZEN\) INTERNAL NOTE, NOT \(PUBLICATION-READY]\)}
 \author{Dritëro M.}
 \date{2026}
 \begin{document}
@@ -24,6 +24,8 @@
 \begin{abstract}
 Dehn surgery on a knot complement produces a closed 3-manifold — the \emph{child} — and forgets its \emph{parent}: distinct knots can be surgered to the same child. We study the child of the figure-eight knot at slope (5,1) and prove, over a year of invariants, that it cannot name its parent: its geometry, its trace field, its Chern–Simons value, its quantum invariants are all class-generic — they see the child's own arithmetic, not the knot it came from. The figure-eight's invariant trace field \(\mathbb{Q}(\sqrt{-3})\) is \emph{absent} from the child: the child's trace field is the quartic \(\mathbb{Q}[x]/(x^{4} -\) x \(-\) 1), a field with Galois group \(S_{4}\) and \textbf{no quadratic subfield at all}, so no quadratic parent-field can survive. What can survive a collision is at most a single bit — the \textbf{orientation} — and even that survives only sometimes. The collision \(4_{1}(5,1) \cong  5_{2}(5,1)\) is orientation-\emph{reversing}: the two children are a mirror pair (conjugate geometric embeddings of the same quartic, Chern–Simons \(\pm 0.07703818\)), so here orientation is the one datum that distinguishes the parents. But the twist-knot \emph{triple} \(4_{1}(1,2) = 5_{2}(-1,1) = 6_{1}(1,1)\) is orientation-\emph{preserving} (one oriented manifold, equal Chern–Simons), so there orientation distinguishes nothing. The surviving parental data is therefore zero or one bit, never more, and which of the two depends on the collision. That is the inversion law: surgery on this family launders the parent's arithmetic completely, and what is left is at most orientation.  ---
 \end{abstract}
+\textbf{⚠ FROZEN (2026-07-09) as an internal note.} After three adversarial re-panel rounds, this write-up still carries \(framing/labelling\) defects (documented in \texttt{SCRUTINY\_P1P3\_round3.md}) — notably that the \("\le \) one bit" law is partly tautological (a collision is \emph{defined} by a shared unoriented child). Retained as an internal record only; \textbf{the verified computations live in the cited B-nodes} (B435–B443, B467). Do not circulate as a paper.
+
 \section{Introduction}
 
 If you glue a solid torus into a knot complement, you get a closed manifold, and you throw a question away: \emph{which knot?} Two different knots, surgered along the right slopes, land on the same closed manifold, and the manifold keeps no record of the difference. This paper is a year of asking one such manifold — the child of the figure-eight at slope (5,1) — to name its parent, and the accumulating proof that it cannot, together with an honest account of the single bit that sometimes, but not always, survives.
