@@ -68,3 +68,46 @@ pytest ../../tests/test_b493_tm_endomorphism.py
 - **novelty gate** (Axel–Peyrière et al.) when the research tool is available.
 - **the spectral lens** (parked, complementary): the symbolic-dynamics/diffraction view — Fibonacci
   (pure-point) × TM (singular-continuous) as a mixed-spectrum construction. See the planned approach.
+
+---
+
+## Q1 — the mixed semigroup ⟨T_golden, T_TM⟩ on κ=−2 (computed 2026-07-10; prereg'd)
+
+**T_golden = (z, x, xz−y)** (σ: A→AB, B→A), verified to PRESERVE κ exactly (it is a unit — the Markov
+spine dynamics). Reproducer: `q1_mixed_semigroup.py`.
+
+### Q1(a) — the interaction is EJECTION, not coupling
+On κ=−2, one T_TM sends **κ → 2 + 4z² ≥ 2 (over ℝ), never −2** — a **one-way door OFF the Markov
+surface** (exact). Example: (3,3,3)→κ′=38; (3,6,15)→κ′=902. Under mixed words the κ-orbit escapes
+**super-exponentially** once any TM fires (κ: −2 → 902 → −1.0×10¹⁰ → 1.2×10¹⁷ …); pure-golden words hold
+κ=−2 (GGGG stays). So the two monoids do **not** combine into a bounded coupled system on the program's
+surface — TM ejects, and golden (κ-preserving) cannot bring a point back. The **shared invariant stage is
+the reducible leaf κ=2** (golden preserves every κ; TM fixes κ=2 and acts there as angle-doubling, T4).
+
+### Q1(b) — the figure-eight point: geometry destroyed, ARITHMETIC preserved
+The figure-eight A-polynomial curve y=z=x/(x−1) meets κ=−2 at exactly:
+- **x = 0** (the reducible/trivial point), and
+- **x = (3 ± √−3)/2** — the two **geometric** points (min poly x²−3x+3, the Eisenstein field **ℚ(√−3)** =
+  the figure-eight's invariant trace field). These ARE the complete hyperbolic structure's traces.
+
+Under ONE Thue–Morse event:
+- the reducible point x=0 → **κ=2** (lands exactly on the TM-fixed reducible leaf), and
+- the geometric point x=(3±√−3)/2 → **κ = 8 ∓ 6√−3** (min poly x²−16x+172, disc −432 = −3·144) —
+  **still in ℚ(√−3)**. The TM event moves the point OFF the Markov surface (geometry / κ-foliation
+  destroyed) but the **Eisenstein field ℚ(√−3) is PRESERVED**.
+
+### Verdict (honest, firewalled)
+This concrete form of "interaction" — composing the two trace maps on the shared character variety — is
+**destructive, not a bounded coupling**: TM ejects the program's surface to infinity (over ℝ) or to a
+generic complex κ (the geometric point), and the monoids share only the reducible κ=2 leaf. So Q1 does
+**not** hand the program a delta ingredient in this form — consistent with the "singular/cancellation
+verb" reading (S062: the mirror destroys the record). The genuine structural gift: **the arithmetic
+signature survives the cancellation** — the figure-eight's Eisenstein field ℚ(√−3) is preserved even as
+its geometry is destroyed (the program's recurring theme — residue/field endures, scale/foliation does
+not — now visible in the interaction itself). 
+
+**What this narrows:** the trace-map-composition interaction ejects. The remaining live candidate for
+"the path" is the COMPLEMENTARY lens (the planned symbolic-dynamics view): Fibonacci (pure-point) × TM
+(singular-continuous) as a mixed-spectrum construction — the more physics-natural notion of interaction,
+still UNRUN (blocking lit-gate: combined Fibonacci–Thue–Morse aperiodic systems). Q2 (the defect
+dictionary) also remains. Firewalled; nothing to CLAIMS.md.
