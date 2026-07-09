@@ -47,3 +47,17 @@ refuted; this is curve geometry only.
 python frontier/B87_m3_genus/probe.py
 python -m pytest tests/test_b87_m3_genus.py -q
 ```
+
+---
+
+## 2026-07-09 — boundary re-confirmed (Magma-gated), abelian half restated
+Attempted the m=3 (s464 = b++RRRLLL, vol 4.81382, 6 tets) SL(2,ℂ) A-polynomial genus via SnapPy's
+Ptolemy variety: `M.ptolemy_variety(2,'all')` constructs, but `retrieve_solutions()` returns
+"No canonical path for manifold" — the exact solve needs **Magma** (or the Ptolemy database), neither
+available in-session. The abelian anchor reproduces: Alexander polynomial = **a² − 11a + 1**, i.e. the
+banked metallic law Δ_m = a² − (m²+2)a + 1 at m=3 (m²+2 = 11). The **SL(2,ℂ) A-polynomial genus for
+m ≥ 2 remains a genuine open edge** (one of K024's four): the priced path is (i) Magma exact
+character-variety elimination, or (ii) a numerical A-polynomial (sample the (M,L)-eigenvalue variety,
+fit, read the Newton-polygon genus) — deliberately NOT attempted as a shaky in-session fit, to avoid a
+mis-computed genus. m=1 anchor: fig-8 SL(2,ℂ) A-poly geometric genus = 3 (B485). Status: OPEN, boundary
+tooling-gated (Magma), not a session-finishable leftover.
