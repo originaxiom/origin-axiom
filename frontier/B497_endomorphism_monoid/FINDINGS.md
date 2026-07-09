@@ -90,3 +90,73 @@ PROGRAM (the six-lens superplan: joint κ=2 toral dynamics gold×TM; product sub
 combined diffraction; combined Schrödinger + metallic m-scan; defect dictionary) with the mandatory
 foreign-control lattice (Fib×Fib, Fib×period-doubling, Fib×random, silver×TM) and the adversarial
 laundering-null. Phase Z the delta scoreboard verdict; any H1 via B398, owner present.
+
+---
+
+## Phases 2–3 + the delta verdict (computed 2026-07-10; reproducer `phase23_run.py`)
+
+### Phase 2 — the geometry of the singular verbs: a DICHOTOMY
+- **Q3 (exact):** the decimation mapping torus G_dec = ⟨A,B,t | tAt⁻¹=A², tBt⁻¹=B²⟩ contains
+  **BS(1,2) = ⟨A,t⟩ exactly** (the edge subgroup embeds — Britton's lemma for ascending HNN; the
+  relation is the witness). Hyperbolic groups contain no Baumslag–Solitar subgroups ⇒ **G_dec is NOT
+  word-hyperbolic** and not a hyperbolic-3-manifold group. Exact.
+- **Q2 (bounded + cite-and-apply):** the atoroidality search for φ_TM (all 117 cyclic classes of length
+  ≤ 6, k ≤ 6, powers ≤ 4) finds **no periodic conjugacy class** — bounded evidence that φ_TM is
+  atoroidal; by **Mutanguha's theorem** (mapping tori of injective endomorphisms: word-hyperbolic ⟺
+  atoroidal — CITED, applied not proved) the TM mapping torus is then word-hyperbolic. Stated as
+  bounded evidence + citation, NOT a proof.
+- **The 3-manifold question:** G_TM has cohomological dimension 2 (mapping torus of a free group) ⇒
+  **not a closed 3-manifold group** (PD(3) needs cd 3) — exact. The with-boundary case: fibered
+  3-manifold monodromies are automorphisms and φ_TM is strictly non-surjective (image has infinite
+  index — abelianization rank 1); expected NO overall, flagged NEEDS-SPECIALIST for the full statement.
+- **The dichotomy (the phase's yield):** the two singular verbs have OPPOSITE geometry — decimation is
+  BS-flavored (flexible, non-hyperbolic), TM is (evidence) hyperbolic but with no 3-manifold body: the
+  **geometry-less sibling** of the figure-eight, built by the same mapping-torus functor.
+
+### Phase 3 — the interaction program (all six lenses, controls, null)
+- **L1 (the joint toral floor — EXACT, the phase's gem):** by U2 the joint gold×TM system on the
+  classical floor is F=[[1,1],[1,0]] (invertible) and M=[[1,1],[1,1]]=eeᵀ (rank 1: collapse onto the
+  diagonal circle, then doubling). The **sandwich law** M·X·M = (eᵀXe)·M holds for every X, and:
+  **M Fᵏ M = F_{k+3}·M** — the TM-sandwich of the golden unit reads out **the Fibonacci numbers** as
+  circle-multiplication degrees. The metallic m-scan: the sandwich sequence obeys the sandwiched unit's
+  own metallic recursion (s′ = m·s + s_prev; verified m=1..5) — m-dependent, non-rescaling. And
+  **M² = 2M**: (M/2) idempotent, the "dim²=2" fusion shape (the Q4 structural first pass; the
+  duality-defect reading FIREWALLED → S063). **Laundering assessment:** the mechanism is elementary
+  (rank-1 mass readout) and the output is the *unit's own growth data* — so no NEW ingredient; the
+  honest content is the exact *measurement algebra*: the singular verb measures the unit and returns
+  the unit's growth law. Banked as exact mathematics.
+- **L2–L4 (the product constructions — adjudicated exactly):** Kronecker incidence Fib⊗TM has
+  eigenvalues {1+√5, 1−√5, 0, 0} — non-Pisot (|1−√5|>1) ⇒ pure-point excluded. The direct product
+  X_Fib×X_TM has U = U_Fib⊗U_TM, so its spectral type is the product of the factors': Bragg peaks on
+  ℤ[φ]+ℤ[1/2] plus TM's singular-continuous part — a genuinely MIXED spectrum, but **entirely
+  determined by the factors** (a tensor product admits no interaction term). **The laundering-null
+  fires BY STRUCTURE.**
+- **L5 (the coupled Schrödinger operator — the non-product cell; bounded numerics, two sizes 2048/4096,
+  stable):** the coupled Fib+TM chain has ≈3× more spectral gaps (56–61) than either factor (20–23) —
+  BUT the foreign-control lattice shows comparable enhancement (silver+TM: 50–57; Fib+PD: 39–42), and
+  the coupled system's gap labels sit in the **combined module ℤ(φ−1)+ℤ(1/2) mod 1** (top-5 IDS values
+  within ≤0.017 of module points at N=4096) — exactly the gap-labeling (laundered) prediction.
+  **LAUNDERED at this resolution.** (Fib+random control behaves as disorder: gaps wash out.)
+- **L6/Q4:** the structural first pass banked (M²=2M above); the full lattice defect-dictionary
+  computation (TCI W on the B221 chain) is the remaining HEAVY cell — queued, not run.
+
+### Phase Z — the delta scoreboard (the honest verdict)
+| ingredient | outcome |
+|---|---|
+| **scale** | the coupled spectrum carries the two module generators (φ−1 and 1/2), but additively — the combined gap-labeling module, i.e. LAUNDERED (each factor contributes its own module; no interaction scale) |
+| **multiplicity** | none found in any lens |
+| **dynamics** | the det-0 arrow is real (B496 ejection; the Phase-2 dichotomy) but produces no un-laundered spectral novelty at this resolution |
+| **un-laundered structure** | NONE survives the control lattice + the structural null |
+
+**Verdict (per the prereg's committed expectation):** at this resolution the interaction program
+supplies **no un-laundered delta ingredient** — the mixed spectrum is generic combined-aperiodic-order,
+the coupled enhancement is control-matched, the module structure is the laundered prediction. The
+campaign's genuine mathematical yield stands elsewhere: **Phase 0's classification** (four strata, two
+universal laws), **Phase 2's dichotomy** (the two singular verbs have opposite geometry — BS-flexible
+vs hyperbolic-geometry-less), and **L1's exact measurement algebra** (the singular verb reads out the
+unit's own growth law; M Fᵏ M = F_{k+3} M). No H1; nothing to escalate; firewall intact.
+
+### Remaining open (the campaign queue)
+Phase 1 novelty gates (research window ~Jul 14). Q4 full defect dictionary (heavy; queued). Q2's full
+proof (unbounded atoroidality / Mutanguha hypothesis verification) — NEEDS-SPECIALIST or a longer
+certified search. The 3-manifold with-boundary statement — NEEDS-SPECIALIST.

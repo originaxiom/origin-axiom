@@ -38,3 +38,30 @@ def test_fibonacci_degree_ledger():
 
 def test_Fp_guard():
     assert V.check_Fp(primes=(101,), n=80)
+
+
+# --- Phases 2-3 locks ---
+import phase23_run as P
+
+
+def test_Q2_bounded_atoroidal():
+    assert P.atoroidality_search(L=5, K=5, MMAX=3) == []
+
+
+def test_L1_sandwich_laws():
+    assert P.sandwich_scalar_law()
+    assert P.sandwich_fibonacci()
+    assert all(P.sandwich_metallic(m) for m in range(2, 5))
+    assert P.fusion_shape()
+
+
+def test_L2_kronecker_spectrum():
+    assert P.kronecker_spectrum()
+
+
+def test_L5_control_lattice_shape():
+    out = P.l5_gap_counts(N=1024)
+    # coupled must exceed both factors (the enhancement is real)...
+    assert out['coupled'] > out['fib'] and out['coupled'] > out['tm']
+    # ...but the control lattice shows comparable enhancement (the laundering verdict):
+    assert out['ctrl_silver_tm'] > out['fib']
