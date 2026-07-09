@@ -86,3 +86,17 @@ that dense prose kept blurring. Next step (if the framing is right): commit each
 citation, and let the two NOVEL-GATED rows stay specialist-gated rather than written up as theorems
 in-house. Reproducers/anchors: T-NORM/T-CHAIN/T-COHN (registry); B469/B479 (residue, held breath);
 B358–B367/B459 (seam); Paper 4 (metallic family).
+
+## Figures (grounded; `papers/map_figures/gen_map_figures.py`)
+
+Each figure plots only values verified in-script (assertions fail loud on any wrong number):
+
+- **`mapfig1_gauss_spine`** — the Gauss map G(x)={1/x} with the metallic means as its constant-CF
+  fixed points (golden [0;1̄], silver [0;2̄], bronze, copper) on the diagonal. The program's spine =
+  the periodic (measure-zero) orbits of the same map that governs BKL era transitions. *[KNOWN]*
+- **`mapfig2_cover_tower`** — the self-interaction (cyclic-cover) tower of the figure-eight (B489):
+  volume = n·vol(4₁) exact (covering), and H₁ torsion = |L(2n)−2| = 1,5,16,45,121,320,841,2205
+  (Fox–Weber), with the n=2 value = det(4₁) = 5. *[KNOWN]*
+- **`mapfig3_broken_lattice`** — the seam form's realized surviving-fields: the subfield lattice of
+  ℚ(√5,√−3) with the **ℚ(√−15) node struck out** (never realized) plus a zero (dark) stratum;
+  populations 120/20/20/10/70 from B459. *[NOVEL-GATED]*
