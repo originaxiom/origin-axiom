@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""B493 — independent re-derivation & verification of the Thue-Morse endomorphism trace map.
+"""B496 — independent re-derivation & verification of the Thue-Morse endomorphism trace map.
 
 NOT a port of the exploration seat's script — derived from scratch (Cayley-Hamilton for T1,
 symbolic (x,y,z) identities for T2/T4, exact degree growth for T5, linear-algebra sweep for T7),

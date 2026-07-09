@@ -122,4 +122,4 @@ N=8 Ruelle spectrum at λ=3: leading 0.4415 (escape rate), 2nd 0.705 (gap ≈0.2
 pair). UNRUN: (a) higher precision n=9,10; (b) the metallic m-scan (is the resonance spectrum m-dependent
 in a structured, non-rescaling way?); (c) the un-laundering test on the ratios; (d) the quantum bridge to
 the D1/D2 spectral form factor. A full prereg was drafted then parked when "TM" resolved to Thue-Morse
-(B493), not trace map. Revisit as its own campaign.
+(B496), not trace map. Revisit as its own campaign.

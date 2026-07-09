@@ -1,4 +1,4 @@
-"""B493 locks — the Thue-Morse endomorphism trace map (independently re-derived).
+"""B496 locks — the Thue-Morse endomorphism trace map (independently re-derived).
 
 Guards the exact results T1-T5, T7 + the F_p cross-check. If any of these break, the
 banked structural reading (singular monoid destroys the kappa-foliation except kappa=2)
@@ -11,7 +11,7 @@ import sympy as sp
 from sympy import symbols, simplify, expand, Poly, cos, trigsimp, Rational, Matrix
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B493_tm_endomorphism"))
+sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B496_tm_endomorphism"))
 import verify_tm as V
 
 x, y, z = symbols('x y z')
@@ -53,7 +53,7 @@ def test_markov_surface_mapped_off():
 
 
 # --- Q1: the mixed semigroup ---
-sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B493_tm_endomorphism"))
+sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B496_tm_endomorphism"))
 import q1_mixed_semigroup as Q1
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""B493 Q1 — the mixed semigroup <T_golden, T_TM> on kappa=-2.
+"""B496 Q1 — the mixed semigroup <T_golden, T_TM> on kappa=-2.
 
 Findings: (a) T_TM is a one-way ejection off the Markov surface (kappa'=2+4z^2 >= 2 over R,
 never -2); mixed orbits escape super-exponentially; the shared invariant stage is kappa=2.

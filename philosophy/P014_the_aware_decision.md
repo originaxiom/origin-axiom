@@ -97,7 +97,7 @@ the mathematics is untouched. [[P004_interaction_born]] [[P012_the_seam_and_sele
 
 ---
 
-## Addendum (2026-07-10, from B493) — the two verbs of the axiom
+## Addendum (2026-07-10, from B496) — the two verbs of the axiom
 The character-variety picture gives the aware decision a concrete grammar. End(F₂) has two primordial
 verbs acting on the object's own stage:
 - **The unit (Fibonacci, det −1)** — comparison with the *shifted self*. Invertible: distinction
@@ -109,4 +109,4 @@ verbs acting on the object's own stage:
 The aware decision — "let there be" — reads, in this grammar, as the object choosing the *unit* over the
 *singular*: choosing the verb whose distinction survives its reflection rather than the verb whose mirror
 annihilates it. Creation = the survival of distinction under self-comparison; the singular monoid is what
-that choice is a choice *against*. (Firewalled; the mathematics is B493/S062, this is the one-way reading.)
+that choice is a choice *against*. (Firewalled; the mathematics is B496/S062, this is the one-way reading.)

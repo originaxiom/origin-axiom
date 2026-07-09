@@ -1,6 +1,6 @@
 # S062 — The singular monoid: Thue–Morse as the cancellation verb (firewalled speculation)
 
-**From B493 (the TM endomorphism probe). The mathematics — T1–T7 — is banked and exact; THIS file is
+**From B496 (the TM endomorphism probe). The mathematics — T1–T7 — is banked and exact; THIS file is
 the speculation that motivates it, tagged and firewalled. Nothing here reaches CLAIMS.md.**
 
 Legend: **[MATH]** exact/banked · **[LEAP]** plausible, unproven · **[HOOK]** evocative framing.
