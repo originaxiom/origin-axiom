@@ -86,3 +86,45 @@ pytest ../../tests/test_b470.py
   Bloch–Wigner dilogarithm over the golden hull's Farey-shape distribution (Guéritaud) —
   an integral, not necessarily a finite combination. (The first run's "relation" was the
   classical Lobachevsky duplication identity among basis elements — caught and discarded.)
+
+---
+
+## Second wave (2026-07-09): RF4, RF5, RFZ — the campaign closed
+
+**RF4 — heartbeat ↔ body fields: the HONEST SPLIT (mismatch, banked).** The breath/orbit fields
+(B469/BR3: ℚ(√−3) [z²−3z+3], ℚ(√−7) [z²−z+2, the order-3 held breath], ℚ(√21) [degree-8 octic],
+and the z⁴+16 real quartic) do NOT match the tower's 3-manifold TRACE fields (RF2: LETTER n=3 deg 4
+disc 392, n=4 deg 8 disc 39740416, n=5 deg 12). The degrees do not even align (breath 2/4/2/8 vs
+trace 4/8/12) and the discriminants differ. So the heartbeat (level-1 orbit arithmetic) and the body
+(level-2 trace arithmetic) carry **different fields** — they do not reflect each other. No two-register
+field-identity theorem; the honest split is the result.
+
+**RF5 — the limit: computable face BOUNDED, deep limit CITED.** Fibonacci letter tower wₙ (σ: a→R,
+b→L), computed n≤4 (b++RL, RLR, RLRRL, RLRRLRLR): volume grows (2.030, 2.667, 4.752, 7.423) while the
+**systole (shortest geodesic) stays bounded** (1.087, 0.633, 0.697, 0.666) — it does NOT decay to 0,
+so the naive "systole → 0" reading of the golden-lamination limit is wrong; the lamination limit is a
+statement about the fibered face / suspension flow (Thurston–Fried, CITED, not computed). CS(wₙ) mod 1
+is small and law-inconclusive (0, 0.0208, 0.0216, 0.0426 — 4 points, no equidistribution or clean law
+visible). **Named boundary:** for n≥5 (word length ≥13) SnapPy's Dirichlet construction fails at
+default precision — the tower's systole/CS beyond n=4 needs verified/high-precision geometry, priced
+as the next step (not a result claimed here).
+
+**RFZ — verdict: YES, a level-2 invariant escapes level-1 laundering.** The campaign question was
+"does any level-2 (body) invariant escape level-1 (heartbeat) laundering?" Answer from the cells:
+- **RF2 (the escaper):** the trace fields ENRICH per rung (deg 4→8→12, discriminants exploding) — the
+  body's arithmetic is genuinely richer than, and not determined by, the level-1 breath data. This is
+  the campaign's positive result: the 3-manifold trace arithmetic *escapes* the orbit/breath arithmetic.
+- **RF3 (the reflector):** the quantized determinant P-QB reflects level-1 exactly (the Pisano-8 rhythm)
+  — one level-2 quantum invariant that DOES mirror the heartbeat.
+- **RF4 (the split):** the breath fields and the trace fields are different — the two registers do not
+  share arithmetic.
+- **RF5 (bounded):** the geometric limit's computable face is bounded (systole) / inconclusive (CS);
+  the deep limit is cited.
+So the reflection is PARTIAL: the quantum determinant reflects (RF3), but the trace-field arithmetic
+escapes and enriches (RF2), and the breath/trace fields split (RF4). Consistent with the program's
+general law that composition/interaction escalates arithmetic (the body is not laundered to the
+heartbeat). No physics naming fired (killed-trap flags held). Firewall: emergent arithmetic, nothing
+to CLAIMS.md. S-room: Atlas reflection card — the level-2 body carries its own escalating field tower.
+Campaign CLOSED (first wave RF0/RF1/RF2/RF3 + volume-additivity + c-constant banked; second wave
+RF4 split / RF5 bounded / RFZ verdict banked; RF2-continuation degree-law + RF5 high-precision geometry
+are the priced open edges).
