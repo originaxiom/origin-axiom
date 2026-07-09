@@ -9,6 +9,16 @@
 > statement is **ℚ(τ_d, √(τ_d²(τ_d²−8)))**, degree 2 over ℚ(τ_d) — which collapses to ℚ(√−7) at d = 3
 > because τ_3 = −1 is rational. See `frontier/B491_novelty_assessment/FINDINGS.md` (R1) and the corrected
 > `papers/SPECIALIST_NOTE_R1_held_breath.md`.
+>
+> **Extension (2026-07-10, B494):** the m = 7, 14 row's "ℚ(√−239)" is the **same conflation**:
+> Norm_{ℚ(τ₇)/ℚ}(τ₇²(τ₇²−8)) = −239 exactly, but the field is the **degree-6** (= φ(7)) extension with
+> minimal polynomial z⁶−5z⁵+16z⁴−25z³+30z²−12z+8 — and ℚ(√−239) is not even a *subfield* (subfield
+> degrees [1,3,6]; √−239 lives in the C₂≀C₃ Galois closure). Root cause pinned: the tower script's
+> degree-2-only "poly-disc → ℚ(√squarefree)" labeling applied out of range — exactly how "ℚ(√41)" arose
+> at d = 5. B494 also **proves the theorem unconditionally for all m** (transfer-matrix lemma:
+> det(Mᵐ−I) = 2−tr Mᵐ forces the fixed locus to be exactly the τ_d-lines plus the two isolated κ=2
+> points), upgrading this file's m ≤ 16 Gröbner verification, and derives the whole field law as a
+> corollary of the swap degeneration + the cusp quadratic (see `frontier/B494_cantat_corollary_duel/`).
 
 **The breath campaign's structural law.** For the metallic family, the *breath* is the
 period-2 orbit of the geometric character under the half-monodromy σ_m (BR3 wave 2: the
