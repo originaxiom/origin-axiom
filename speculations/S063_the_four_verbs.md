@@ -38,3 +38,16 @@ Speculation → calculation: the whole of B497's Phases 2–3 (Mutanguha geometr
 program with controls + adversarial null) IS the calculation table for this file.
 
 Cross-refs: [[S062_the_singular_monoid]] (superseded by this file's wider frame), [[S060_the_delta_and_the_physiology]], P014 (one-way).
+
+---
+
+## Addendum (2026-07-10, from B498) — the drift ledger [the interaction reading]
+The mixed-word campaign gives the verbs their exact drift constants on the compact (SU(2)) locus:
+evolution 0 (conserves κ exactly), **decoherence 0-and-critical** (E[log mult_M] = 0 to 26 digits:
+log|κ−2| is a driftless random walk — classicality approached recurrently, never locked),
+**decimation −2 exactly** (PROVED: the log-sine/Fourier integral; contraction e⁻² per event), and the
+classical boundary universally marginal. The firewalled sentence: **classicality is an attractor of
+the measure dynamics, not of any single map; decoherence alone never suffices (critical); coarse-
+graining is the true classicalizer** — the modern decoherence+coarse-graining consensus, recovered
+from a substitution alphabet. [LEAP; the mathematics is B498, exact/26-digit.] And MFM (decoherence
+sandwiching evolution) is the unique mirror-restoring word — "measurement hides handedness." [HOOK]
