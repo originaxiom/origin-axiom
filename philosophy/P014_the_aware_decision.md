@@ -94,3 +94,19 @@ stops.
 Firewall: nothing here is a claim; none of it reaches CLAIMS.md. The motivation is spoken;
 the mathematics is untouched. [[P004_interaction_born]] [[P012_the_seam_and_selection]]
 [[the SUSY thread / c=7/10]] [[B479 held breath = self-fixed-points]]
+
+---
+
+## Addendum (2026-07-10, from B493) — the two verbs of the axiom
+The character-variety picture gives the aware decision a concrete grammar. End(F₂) has two primordial
+verbs acting on the object's own stage:
+- **The unit (Fibonacci, det −1)** — comparison with the *shifted self*. Invertible: distinction
+  **survives** its own reflection. The record endures. This is the object as it has been studied.
+- **The singular (Thue–Morse, det 0)** — comparison with the *negation* (append the flipped copy, the
+  parity rule). Non-invertible: the mirror **destroys what it copies**; the dynamics is perpetual,
+  frustrated self-cancellation (w′ = u²w), collapsing to the diagonal and doubling angles inside the
+  reducible locus.
+The aware decision — "let there be" — reads, in this grammar, as the object choosing the *unit* over the
+*singular*: choosing the verb whose distinction survives its reflection rather than the verb whose mirror
+annihilates it. Creation = the survival of distinction under self-comparison; the singular monoid is what
+that choice is a choice *against*. (Firewalled; the mathematics is B493/S062, this is the one-way reading.)

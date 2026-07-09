@@ -113,3 +113,13 @@ torsion Galois-orbit seal, the shovel-ready one), + L5/L6 (general-word), B138 (
   the raw computation; the score reflects the computable half.
 - **Provenance.** Merged from a 5-reader sweep (2026-07-04); each cell was verified by reading the
   probe's FINDINGS, not inferred. Revisions belong here, not backfilled elsewhere.
+
+## Parked lead (2026-07-10): the trace-map transfer-operator spectrum as the un-laundered dynamical face
+The trace map T (κ=tr[A,B] dynamics) is the ONE face of the object that is analytic/dynamical, not a
+topological invariant — so no laundering theorem in the program covers its transfer-operator spectrum
+(flagged in the Relation Campaign as the strongest H1 candidate). B451/D4 already computed the certified
+N=8 Ruelle spectrum at λ=3: leading 0.4415 (escape rate), 2nd 0.705 (gap ≈0.26), 3rd ≈0.89 (complex
+pair). UNRUN: (a) higher precision n=9,10; (b) the metallic m-scan (is the resonance spectrum m-dependent
+in a structured, non-rescaling way?); (c) the un-laundering test on the ratios; (d) the quantum bridge to
+the D1/D2 spectral form factor. A full prereg was drafted then parked when "TM" resolved to Thue-Morse
+(B493), not trace map. Revisit as its own campaign.
