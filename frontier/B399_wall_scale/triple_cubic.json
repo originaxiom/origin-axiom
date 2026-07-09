@@ -1,0 +1,14 @@
+{
+ "_status": "UNSTABLE / PREMATURE — do NOT bank this value",
+ "_warning": "Mid-run CRT snapshot of the e3 reconstruction; NOT converged (the denominator equals a listed prime — a classic under-determined-CRT artifact). The e3 collection sentinel (task #200) is still running. Recompute with more primes and require the reconstructed rational to stabilize across two independent prime batches before banking. See docs/AUDIT_2026-07-05.md.",
+ "e1": "0",
+ "e2": "-1/48",
+ "e3_UNCONVERGED": "-13226027302769875722867/6528833151773153178821",
+ "primes": [
+  2,
+  3,
+  2741,
+  1608418740456022829,
+  6528833151773153178821
+ ]
+}
