@@ -46,3 +46,6 @@ legacy/reports/genesis/*.txt
 # --- Local AI coding-session state (scheduled-task locks, etc.) — never commit ---
 .claude/
 .tmpwork/
+
+# --- Cosmogony sweep (firewalled, uncommitted literature workspace) ---
+cosmogony/
