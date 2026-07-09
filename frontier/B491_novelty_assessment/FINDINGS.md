@@ -8,8 +8,11 @@ Firewall: this is a mathematics-novelty record, nothing to CLAIMS.md.**
 
 ## R1 — the held-breath torsion law (= P3 Theorem F7, B479): PARTIALLY-KNOWN / APPEARS-NOVEL / NEEDS-SPECIALIST
 Claim: on the one-holed-torus SL(2,ℂ) character variety, the finite-order mapping class σ_m (a↔b)
-fixes exactly the order-d torsion characters for divisors d≥3 of m (d≠4), with field ℚ(√D_d),
-D_d = Norm(τ_d²(τ_d²−8)) — ℚ(√−7) at d=3, ℚ(√41) at d=5.
+fixes (⊇) the order-d torsion characters for divisors d≥3 of m (d≠4). **[Field CORRECTED, round-2
+re-panel:** d=3 gives ℚ(√−7) (minpoly z²−z+2); **d=5 gives a DEGREE-4 field over ℚ(√5)** (minpoly
+z⁴−3z³+7z²−4z+4, disc 5²·41) — NOT ℚ(√41); the "41" was a discriminant factor. The novelty VERDICT
+below is unchanged — the divisor-indexed fixed-character phenomenon is what is not-found, independent
+of the field's degree.**
 - **Framework classical:** Goldman, *The modular group action on real SL(2)-characters of a one-holed
   torus*, Geom. Topol. 7 (2003) 443–486 (arXiv:math/0305096) — the exact Markoff-cubic κ=x²+y²+z²−xyz−2
   setup and Γ≅PGL(2,ℤ)⋉(ℤ/2)². But Goldman's theorems are the ERGODIC dichotomy; he does NOT compute
@@ -19,7 +22,8 @@ D_d = Norm(τ_d²(τ_d²−8)) — ℚ(√−7) at d=3, ℚ(√41) at d=5.
   monodromy) on the character surface via the fixed curve (x, x/(x−1), x): four points solving
   x⁴−3x³+x²+4x−2=0, factoring over **ℚ(√17)**. This is the SAME fixed-curve→quartic→quadratic-field
   technique — but for the pseudo-Anosov Ψ at commutator-order-4 (ℚ(√17)), NOT the finite-order σ_m
-  at the cusp κ=−2 (ℚ(√−7)/ℚ(√41), divisor-indexed). **This is a gift: it validates the mechanism
+  at the cusp κ=−2 (ℚ(√−7) at d=3, a degree-4 field over ℚ(√5) at d=5, divisor-indexed). **This is a
+  gift: it validates the mechanism
   independently and hands the specialist the exact tool.**
 - **Structural direction known:** Biswas–Gupta–Mj–Whang, Geom. Topol. 26 (2022) (arXiv:1707.00071) —
   finite genus-1 MCG orbits = finite/special-dihedral (once-punctured torus in Appendix A). But they
