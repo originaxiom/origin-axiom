@@ -36,3 +36,9 @@
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.
+
+| **K021** ✓ | [The founding identity: `g = −R·L⁻¹`, the two ends, and where the values are (and are not)](K021_the_founding_identity.md) | the 2026-07-01 arc in one narrative — the founding identity, the golden/Eisenstein ends, the seam `ℚ(√−15)` anatomy of the value wall (texture from finite/abelian class-field data, magnitude transcendental); physics dictionary **postulated**, math exact | the 2026-07-01 arc; `K020` |
+| **K022** ✓ | [The object is the symmetric centre; it forces the *form* of the deviation space](K022_the_symmetric_centre.md) | the B343–B346 reframe — not value-*blind* but the maximally-symmetric **centre**: exact TBM from the deck ℤ/3, deviation space form forced, magnitudes/directions external | B343–B346; `K020` |
+| **K023** ✓ | [The Recurrence Atlas: recurrence as the fingerprint of one object, made usable](K023_the_recurrence_atlas.md) | the re-runnable instrument (`scripts/atlas/`): a tiny object-set resolves most of the ~420 probes; the **unity/hammer split** (only the conserved `κ` *must* recur; the trace-map tool's recurrence is method selection) — a meta-tool, not a physics claim | `scripts/atlas/`; the frontier corpus |
+| **K024** ✓ | [The forcing map: the object's anatomy, and what can escape it](K024_the_forcing_map.md) | the unified node/edge map of the object's facets and their FORCINGS (PROVEN / KNOWN / OPEN edges), built 2026-07-08 — is it doable, can anything escape, do we already have the objects | B-corpus wide; `K020`–`K023` |
+| — | [THE GOLDEN CAT MAP PRINCIPLE](THE_GOLDEN_CAT_MAP_PRINCIPLE.md) · [THE UNIQUENESS ATLAS](THE_UNIQUENESS_ATLAS.md) | the two 2026-07-04 synthesis atlases: the object as the golden cat map in seven languages; every extremal distinction of the figure-eight, split onto the golden/Eisenstein sides meeting at `ℚ(√−15)` | 2026-07-04 synthesis |

@@ -1,5 +1,15 @@
 # B479 — the held breath is torsion: the order-d cusp points for divisors d ≥ 3 of m
 
+> **⚠ Field correction (2026-07-09, B491 round-2 re-panel; banked here so the stale label cannot
+> propagate).** Everywhere this file says the d = 5 held-breath field is **ℚ(√41)**, read: the field is a
+> **degree-4 extension of ℚ containing ℚ(√5)** — the character satisfies the quartic z⁴−3z³+7z²−4z+4
+> (irreducible over ℚ, discriminant 5²·41). The value **41 = Norm_{ℚ(√5)/ℚ}(τ²(τ²−8))** is a
+> norm/discriminant *factor* of that field, not its generator; "ℚ(√41)" conflated the two. The divisor
+> laws (3 | m, 5 | m), the quartic itself, and the mechanism below are unchanged. The general field
+> statement is **ℚ(τ_d, √(τ_d²(τ_d²−8)))**, degree 2 over ℚ(τ_d) — which collapses to ℚ(√−7) at d = 3
+> because τ_3 = −1 is rational. See `frontier/B491_novelty_assessment/FINDINGS.md` (R1) and the corrected
+> `papers/SPECIALIST_NOTE_R1_held_breath.md`.
+
 **The breath campaign's structural law.** For the metallic family, the *breath* is the
 period-2 orbit of the geometric character under the half-monodromy σ_m (BR3 wave 2: the
 geometric fiber character is σ_m-SWAPPED at every m — it never sits still). A character

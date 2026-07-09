@@ -69,6 +69,35 @@ def _jc():
 SL4_SPECTRA = {"principal": [1, 1, _W, _W ** 2], "secondary": [np.exp(1j * np.pi / 4 * j) for j in (1, 3, 5, 7)]}
 SL4_EXPONENT = {"principal": 4, "secondary": 3}
 
+_WITNESS_NPZ = pathlib.Path(__file__).resolve().parent / "secondary_witness.npz"
+
+
+def realize_sl4_component(component, seed=0):
+    """The canonical SL(4) Dehn-filling realization (A, B, t) for a component.
+
+    Audit pin (2026-07-09). The A-spectrum {zeta_8^odd} locus carries reps in MORE THAN ONE
+    scalar class: random-start least_squares realizations land on c = 1 or the banked order-4
+    c = +-i basin depending on the BLAS/environment (the 2026-07-01 audit had already widened
+    acceptance to the conjugate pair after a fresh environment realized c = -i; a 2026-07-09
+    fresh clone then realized c = +1 at seeds 0-1 and c = +i at seed 2). The banked "secondary"
+    (k = 3, c = +-i) is therefore pinned as a stored witness (secondary_witness.npz), verified
+    on load (bundle-rep residual, irreducibility, monodromy residual) -- an environment-portable
+    certificate, per the repo's disclosed regression-guard class. The seed search remains the
+    fallback and the path for the other components.
+    """
+    df = _df()
+    if component == "secondary" and _WITNESS_NPZ.exists():
+        z = np.load(_WITNESS_NPZ)
+        A = np.diag(np.array(SL4_SPECTRA["secondary"], dtype=complex))
+        B, t = z["B"], z["t"]
+        x = np.concatenate([B.real.ravel(), B.imag.ravel()])
+        assert np.max(np.abs(df._resid(x, A))) < 1e-8, "pinned witness fails the bundle-rep equations"
+        assert df._irreducible(A, B), "pinned witness not irreducible"
+        t2, res = df.monodromy(A, B)
+        assert res < 1e-7 and np.max(np.abs(t2 - t)) < 1e-6, "pinned witness monodromy drifted"
+        return A, B, t
+    return df.realize_bundle_rep(np.array(SL4_SPECTRA[component]), seed=seed)
+
 
 # ---------------------------------------------------------------------------
 # D1 -- the trace-map Jacobian at the Dehn-filling fixed points
@@ -225,8 +254,8 @@ def eigenvalue_anatomy(component):
         per = _per(); gen = {"W1": per.W1, "W2": per.W2}[component]; k = 3 if component == "W1" else -3
         A, B = per.realize(gen(2.3, 3.1)); mu, _ = per.meridian(A, B)
     else:
-        df = _df(); k = SL4_EXPONENT[component]
-        A, B, t = df.realize_bundle_rep(np.array(SL4_SPECTRA[component]), seed=0); mu = inv(A) @ t
+        k = SL4_EXPONENT[component]
+        A, B, t = realize_sl4_component(component, seed=0); mu = inv(A) @ t
     comm = A @ B @ inv(A) @ inv(B)
     r = _anatomy(mu, comm, k); r["k"] = k
     return r
@@ -243,8 +272,7 @@ def _scalar_dev(M):
 def census_relations(component):
     """For the SL(4) component: deviations of M^k=L ([A,B] mu^-k scalar) and the conjugate M^k L=1
     ([A,B] mu^k scalar) for k=3,4. Returns a dict of (relation -> (dev, c))."""
-    df = _df()
-    A, B, t = df.realize_bundle_rep(np.array(SL4_SPECTRA[component]), seed=0)
+    A, B, t = realize_sl4_component(component, seed=0)
     mu = inv(A) @ t; comm = A @ B @ inv(A) @ inv(B)
     out = {}
     for k in (3, 4):

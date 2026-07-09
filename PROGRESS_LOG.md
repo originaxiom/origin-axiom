@@ -1588,3 +1588,38 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   −283) is SM-free named mathematics. The one in-sandbox residue = the intrinsic-E₆ torsion (C4's
   named boundary), a specialist gate. Two retractions on the record (golden return, golden
   inversion) — the discipline working. Lock test_b443 (3/3). Firewall absolute — nothing to CLAIMS.
+
+## 2026-07-09 — The external audit, THE CLOSURE CAMPAIGN launch, and Phase 0 (hygiene)
+
+**The external audit (owner-directed).** A fresh-clone, full-scope audit of all six repos ran as a
+36-agent mapping campaign (all 481 frontier bulletins, every room, both paper generations, the
+satellite/legacy lineage) plus a live REPRODUCIBILITY.md exercise: venv + SnapPy clean, full lock suite
+**1591 passed / 3 failed / 12 skipped** on a machine that had never seen the repo. Findings F1–F9
+delivered to the owner; the standing items: the specialist bottleneck (F1), registry staleness against
+the fast frontier (F3), known-corrected errors in already-distributed artifacts (F4), and a genuine
+portability failure in the B106/B108 locks (F9).
+
+**THE CLOSURE CAMPAIGN registered (owner-approved, full sequence).** Pre-registrations committed before
+any compute in `docs/CLOSURE_CAMPAIGN_2026-07.md`: Phase 1 derivability duels (R2 seam-vanishing vs
+CRT/Galois descent; R1 held-breath law vs Cantat's method — each with committed outcome enums and
+controls), Phase 2 Gate-A class-by-class sealing sweep, Phase 3 Gates B/C/D in-sandbox reductions
+(CLOSED deliberately absent from those enums), Phase 4 tower time-box, Phase 5 the owner-present close
+(Origin-Postulate refutation-clause adjudication + THE CLOSURE document + the corrected external-contact
+package). The campaign's own K020 §6a clause: internal computation cannot certify novelty or finality;
+the terminal artifact is the external-contact package, send owner-gated.
+
+**Phase 0 executed (this session).** Gates back to green: the Recurrence Atlas re-mined (449 → 468
+probes), the P4 PANEL_v1 attribution hit reworded, Review 10 written with its anchor-commit (the counter
+had read 130 merges because Review 9 omitted its anchor). The F9 fix: the SL(4) "secondary" realization
+is basin-dependent across BLAS environments (c=+1 / c=+i / c=−i all realized from the same spectrum on
+different machines) — the banked order-4 (k=3, c=±i) witness is now **pinned** as
+`frontier/B106_dehn_filling_anatomy/secondary_witness.npz`, verified on load; B106/B108 route through
+it; the coexisting c=1 class on the same A-spectrum locus is recorded in the probe docstring. Correction
+propagation: the B479/R1 d=5 field (ℚ(√41) → the degree-4 extension of ℚ(√5); the 41 is a norm, not the
+field) corrected in the outbound `papers/SPECIALIST_NOTE_R1_held_breath.md` and bannered in B479
+FINDINGS, independently re-verified (quartic irreducible, disc 5²·41, ℚ(√5) subfield). Registry truth:
+the CLOSURE "zero promotions" sentence scoped to its true form; docs/INDEX ledger counts corrected to
+P1–P68/E1–E17; frontier README's B92 entry now carries its V145 scope correction; knowledge/INDEX
+extended with K021–K024 + the two atlases; CAMPAIGN_STATUS deduped and the Closure Campaign put on the
+board. Locks added for B477–B492 (recompute where cheap; documentation-integrity where FINDINGS-only;
+disclosed per class in each docstring). Nothing promoted; the firewall untouched.

@@ -515,10 +515,13 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
 The motivation (characterize the metallic family by a condition, `m` free) is quarantined in
 `philosophy/METALLIC_FOUNDATIONS.md`; the mathematics below uses none of it.
 
-- **B92** — the **metallic family as a classification** (Layer 1, V76; `proven`, computer-assisted). Among
-  non-negative hyperbolic unimodular 2×2 matrices, the dominant eigenvalue is purely-periodic-period-1
-  **⟺ det=−1** (verified for all 66 with entries ≤5), = the family `{M_m=[[m,1],[1,0]]}` up to `GL(2,ℤ)`
-  conjugacy, `m` free. Three equivalent forms (self-ref / CF / Möbius); **MyCalc-2** (CF-period a conjugacy
+- **B92** — the **metallic family as a classification** (Layer 1, V76; `proven`, computer-assisted;
+  **scope CORRECTED by the V145 self-scrutiny, 2026-06-15** — this index entry originally overstated it).
+  Among non-negative hyperbolic unimodular 2×2 matrices, the dominant eigenvalue is purely-periodic-period-1
+  **⟺ det=−1** (verified for all 66 with entries ≤5). **The "= `{M_m=[[m,1],[1,0]]}` up to `GL(2,ℤ)`
+  conjugacy" reading is FALSE at m ≥ 4** — the companion `M_m` is *one* conjugacy class among `h(m²+4)`
+  (class number); the proved statement is the period-1 ⟺ (tr,det) criterion, scoped per `CLAIMS.md` P27.
+  Three equivalent forms (self-ref / CF / Möbius); **MyCalc-2** (CF-period a conjugacy
   invariant → companion per trace); refinement (a) (the naive premises admit det=+1); **MyCalc-5** (systole:
   `m=1` minimal → the member is contingent on a metric).
 - **B93** — **det=−1 is exactly the tower's parity** (Phase C, V77; `proven`/`computer-assisted`).

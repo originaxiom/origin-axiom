@@ -34,6 +34,20 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
+- **THE CLOSURE CAMPAIGN — LAUNCHED 2026-07-09 (owner-approved, full sequence).** Goal: compute
+  everything computable to its labeled terminal state and end at the honest boundary — repo green,
+  registries truthful, outbound artifacts corrected, and the four-gate + R1/R2 specialist package
+  regenerated. Phases: **0** hygiene (gates green, locks B477–B492, staleness, F9 witness, corrected
+  outreach notes — this session) · **1** R1/R2 derivability duels (assume-derivable-try-to-derive;
+  preregistered, outcome enums committed before compute) · **2** Gate-A class sweep (seal or
+  counterexample per remaining invariant class) · **3** Gates B/C/D in-sandbox reductions (σ-stability
+  register; commensurator ℤ/3 action vs the written refutation condition; non-Hermitian κ numerics) ·
+  **4** one time-boxed ρ_n/μ_d attempt · **5** Origin-Postulate refutation-clause adjudication (owner
+  present) + THE CLOSURE document + outreach package. Prereg: `docs/CLOSURE_CAMPAIGN_2026-07.md`.
+  Per K020 §6a the campaign cannot certify novelty from inside — its terminal artifact is the
+  external-contact package; the send stays owner-gated.
+
+## RECENTLY COMPLETED
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
   Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
   behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its
@@ -124,7 +138,6 @@ audit: `docs/AUDIT_2026-07-05.md`.
   chiral; the forced ±5 output exits ℚ(√−15)), B433 3d-3d DGG calibration (eliminant =
   −A_CL(M,L)·A_CL(M,−L)), B434 slope selection (±5 = boundary of the maximal exceptional set;
   child = Meyerhoff, trace field x⁴−x−1, disc −283). Founding C0–C2 = B435/B436/B437.
-- **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
 - **B426/B427/B428 — the 2026-07-05 handoff adjudication (the Origin-Postulate campaign running).**
   B426: seat-2's scale-lever closed form VERIFIED exact — env₄₅/env₁₅ = (3α²+4α−1)/10 ∈ ℚ(ζ₉)⁺,
   √5-free (forced by CRT locality) — PLUS the new Galois-orbit contraction theorem: the three

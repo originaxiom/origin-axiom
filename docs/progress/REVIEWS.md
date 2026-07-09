@@ -342,3 +342,41 @@ hidden Bin-1 break. Outcome: **no refutation; both CONFIRMED, and C5 strengthene
    law + c to 28 digits (identification honestly open). All registry-mapped with lit-status.
 5. **Net:** the discipline scaled to the fastest bank rate in the program's history
    (19 PRs in ~48h) without a single unretracted overclaim reaching main.
+
+# Review 10 — 2026-07-09 (the external full-repo audit + Phase 0 of the Closure Campaign)
+
+anchor-commit: `d9f870e23d494b67277c4b2b86f4b8a99635769c`
+
+1. **Scope:** a fresh-clone external audit of all six repos (36 mapping agents over 481 frontier
+   bulletins, every room, both paper generations, the satellite/legacy lineage; full report delivered
+   to the owner), followed by owner approval of THE CLOSURE CAMPAIGN (registration + preregs:
+   `docs/CLOSURE_CAMPAIGN_2026-07.md`) and its Phase 0 hygiene pass (this PR).
+2. **Mechanical check (fresh clone, REPRODUCIBILITY.md path):** venv + SnapPy 3.3.2 clean; full lock
+   suite **1591 passed / 3 failed / 12 skipped (22:15)**. The three failures, all resolved in this PR:
+   the gate suite (atlas-fresh 449→468 re-mined; the attribution hit in P4 PANEL_v1 reworded), and
+   test_b106/test_b108 — **a genuine portability failure**: the "secondary" SL(4) realization is
+   basin-dependent (this environment: c=+1 at seeds 0–1, c=+i at seed 2; a prior fresh environment:
+   c=−i). Fix: the banked order-4 witness is now **pinned** (`secondary_witness.npz`, verified on load);
+   B106/B108 route through it. The un-pinned lesson: the A-spectrum {ζ₈^odd} locus carries reps in more
+   than one scalar class — the c=1 class coexists with the banked c=±i class; the component label was
+   under-determined by the search.
+3. **Corrections propagated (no new claims):** the B479/R1 d=5 field (ℚ(√41) → the degree-4 extension of
+   ℚ(√5); norm≠field) corrected in `papers/SPECIALIST_NOTE_R1_held_breath.md` and bannered in B479
+   FINDINGS — the outbound artifact no longer carries a known-corrected error (the F4 rule). Registry
+   truth restored: the CLOSURE "zero promotions" sentence scoped to its true form (the §5.1 audit
+   promoted P17–P55/C6–C12/E1–E15; no *physics-boundary* row ever promoted); INDEX ledger counts
+   P1–P68/E1–E17; frontier README's B92 entry carries its V145 scope correction (conjugacy false at
+   m≥4, class number); knowledge/INDEX extended K021–K024 + the two atlases; CAMPAIGN_STATUS deduped,
+   the completed Ethogram moved out of RUNNING NOW, the Closure Campaign registered.
+4. **Locks:** B477–B492 test locks added (recompute where cheap, documentation-integrity where
+   FINDINGS-only, disclosed per class in each docstring) — the frontier's newest sixteen bulletins are
+   no longer unlocked.
+5. **Audit flags accepted as standing items (not fixed here):** the specialist bottleneck (outreach
+   dormant while named decisive — now the Closure Campaign's terminal deliverable); Review-numbering
+   collisions in this ledger (Reviews 3/4 duplicated — noted, append-only forbids editing them; Review 9
+   lacked its anchor-commit, restored by this review's anchor); the reframe-after-negative watch item
+   (ToE roadmap post-falsification) routed to the Phase 5 Origin-Postulate adjudication.
+6. **Net:** the repo's own bar — "an external expert could clone, run, audit, and trust" — was exercised
+   end-to-end for the first time: 99.8% of locks reproduced on a fresh machine, every failure was
+   explainable and is now fixed, and the two failures that were *not* governance were exactly the
+   disclosed regression-guard class biting — now witness-pinned.

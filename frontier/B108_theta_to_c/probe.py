@@ -93,7 +93,9 @@ def _realize(component, seed):
         mu, _ = _PER.meridian(A, B)
         return A, B, mu, k
     k = _B106.SL4_EXPONENT[component]
-    A, B, t = _DF.realize_bundle_rep(np.array(_B106.SL4_SPECTRA[component]), seed=seed)
+    # 2026-07-09 audit pin: the secondary realization goes through B106's stored witness
+    # (the raw seed search is basin-/environment-dependent; see B106 realize_sl4_component).
+    A, B, t = _B106.realize_sl4_component(component, seed=seed)
     return A, B, inv(A) @ t, k
 
 
@@ -108,7 +110,7 @@ def contragredient_c(component, seed=0):
         mud, _ = _PER.meridian(Ad, Bd)
     else:
         # dual monodromy t* = t^-T solves the dual figure-eight relation; mu* = (A*)^-1 t*
-        _, _, t = _DF.realize_bundle_rep(np.array(_B106.SL4_SPECTRA[component]), seed=seed)
+        _, _, t = _B106.realize_sl4_component(component, seed=seed)
         mud = inv(Ad) @ inv(t).T
     commd = Ad @ Bd @ inv(Ad) @ inv(Bd)
     cd = _c_from(mud, commd, k)

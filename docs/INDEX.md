@@ -12,7 +12,7 @@ credibility model (GOVERNANCE §1/§9); this map says what to read for the curre
 | `docs/CAMPAIGN_STATUS.md` | **the live board** — the running campaign, what's computing now, last banked |
 | `philosophy/THE_ORIGIN_POSTULATE.md` | the north star for the current campaign (D at the interface) |
 | `GOVERNANCE.md` | the constitution: labels, gates, firewall, automated gates (§11) |
-| `CLAIMS.md` | **the ledger** — proven P1–P55 · conditional C1–C12 · certified data E1–E15 · open · dead |
+| `CLAIMS.md` | **the ledger** — proven P1–P68 (67, P14 unused) · conditional C1–C12 · certified data E1–E17 · open O1–O9 · dead D1–D10 |
 | `docs/OPEN_LEADS.md` · `docs/OPEN_PROBLEMS.md` | the live frontier: leads, waves, the four gates |
 | `CHANGELOG.md` | human-facing recent history (releases/arcs) |
 | `PROGRESS_LOG.md` | append-only working log (the scrutiny record lives here; §9 roll-up pending) |
