@@ -1,4 +1,4 @@
-# B493 — The Thue–Morse endomorphism enters the program (the singular monoid on the character variety)
+# B496 — The Thue–Morse endomorphism enters the program (the singular monoid on the character variety)
 
 **The exploration-seat handoff (2026-07-09) independently re-derived and verified by the banking seat
 (`verify_tm.py`, from scratch — Cayley–Hamilton, symbolic (x,y,z) identities, F_p guards at p=101 &
@@ -58,7 +58,7 @@ objects." Whether the interaction supplies a delta ingredient is Q1/Q2 (prereg'd
 ## Reproduce
 ```
 python3 verify_tm.py                    # T1-T5, T7 + F_p guards
-pytest ../../tests/test_b493_tm_endomorphism.py
+pytest ../../tests/test_b496_tm_endomorphism.py
 ```
 
 ## Open (prereg'd)

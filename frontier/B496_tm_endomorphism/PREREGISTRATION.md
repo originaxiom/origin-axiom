@@ -1,4 +1,4 @@
-# B493 — The Thue–Morse endomorphism probe: PREREGISTRATION
+# B496 — The Thue–Morse endomorphism probe: PREREGISTRATION
 ### Committed before the banking-seat computation (owner directive: "TM = Thue–Morse, the other object which by interacting with ours might be the path to physics")
 
 ## The frame
