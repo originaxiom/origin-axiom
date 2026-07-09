@@ -1588,3 +1588,56 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   −283) is SM-free named mathematics. The one in-sandbox residue = the intrinsic-E₆ torsion (C4's
   named boundary), a specialist gate. Two retractions on the record (golden return, golden
   inversion) — the discipline working. Lock test_b443 (3/3). Firewall absolute — nothing to CLAIMS.
+
+## 2026-07-08/10 — papers verdict; the no-go theorem; the monoid opens (B490–B498)
+
+- **The papers arc closed honestly.** P4 = the one gauntlet-cleared paper (arXiv-style PDF). P1–P3:
+  three adversarial re-panel rounds did not converge (each correction round introduced new prose
+  defects while every underlying number reproduced) → **FROZEN as marked internal notes** (owner
+  decision); the three scrutiny records banked (`papers/SCRUTINY_P1P3*.md`). Banked-error correction
+  propagated: **B479's d=5 held-breath field is NOT ℚ(√41)** — degree-4 over ℚ(√5) (registry fixed).
+- **B490 — THE NO-GO THEOREM (T-NOGO-DGG).** The 12+2 SM kills subsumed into one theorem: for any
+  once-punctured-torus bundle, M ↦ T[M] via 3d–3d never yields the SM (3d≠4d; flavor≠gauge
+  (Gang–Yonekura); abelian gauge U(1)^{N−c}). Plus three scoped obstructions + the "one level too
+  strong" firewall (13/14). Registry entry added.
+- **B491 — the positive question.** Adversarial novelty hunt: the held-breath field law (R1) and the
+  seam broken-lattice (R2) both **APPEARS-NOVEL / NEEDS-SPECIALIST** (closest prior art: Cantat 2009
+  fixed-curve → ℚ(√17); Dong–Lin–Ng signed-permutation obstruction). R3 cover-tower torsion classical
+  (Fox). Specialist note written (`papers/SPECIALIST_NOTE_R1_held_breath.md`).
+- **B492 — the Verlinde/boundary-entropy lens** (closes the lens-probes pair): g_τ/g₁ = φ — classical
+  Affleck–Ludwig, firewalled. **B489 — the self-interaction tower** (cyclic covers of 4₁): torsion
+  |L(2n)−2| (Fox–Weber), abelian DGG at every level; the SM reading refuted, 4c dead. **S061 — the
+  BKL reading** (firewalled): the metallic family = the constant-CF fixed points of the Gauss map;
+  the E₁₀ hook killed by rank (6+8>10); the golden-Kasner "W=1/4" corrected (K·t⁴=2; the clean fact
+  is p₂=1/2 uniquely at golden).
+- **THE MAP + the synthesis gate.** `papers/THE_MAP_of_the_object.md` (14 layers, classical/novel per
+  row) + grounded figures (`papers/map_figures/`) + the lit-gate verdict: every pairwise link is
+  textbook-classical (Cannon–Dicks: (golden)²=RL; Dehornoy 2024), **the full assembly appears in no
+  single source** — APPEARS-NOVEL as an organizing synthesis.
+- **B496 — Thue–Morse enters (renumbered from B493 to clear the Closure Campaign's allocations).**
+  The TM endomorphism trace map (z,z,xyz−x²−y²+2); κ′−2=(κ−2)(x²+y²−xyz) exact — the singular verb
+  destroys the κ-foliation except the reducible leaf; exact angle-doubling inside κ=2; Q1: TM is a
+  one-way ejection off κ=−2, but the fig-8 geometric point's **Eisenstein field ℚ(√−3) survives**
+  the cancellation (κ′=8∓6√−3).
+- **B497 — THE MONOID CAMPAIGN (Phase 0 + 2 + 3 + Z).** End(F₂) on X(F₂) = **four Hopfian-det
+  strata** with exact κ-laws; **U1** κ=2 absolutely conserved (folklore lemma, banked use); **U2**
+  the classical floor is toral (M₂(ℤ) on the character torus, all strata); the Fibonacci trace map's
+  degree ledger = **the Fibonacci numbers** 2,3,5,8,13,21,34,55. Phase 2: the singular-verb geometry
+  DICHOTOMY — decimation's mapping torus ⊃ BS(1,2) exactly (not hyperbolic) vs TM atoroidal
+  (bounded; hyperbolic via Mutanguha) with cd 2 (the geometry-less sibling). Phase 3 (the six-lens
+  interaction program): L1 the measurement algebra M Fᵏ M = F_{k+3}·M (the TM-sandwich reads out the
+  unit's own growth; metallic m-scan; M²=2M); L2–L4 launder by structure; L5 coupled Schrödinger
+  launders at resolution (control lattice + combined gap-labeling module). Phase Z: **no un-laundered
+  delta ingredient** — the prereg'd honest verdict. Verbs firewalled to S063.
+- **B498 — THE INTERACTION CAMPAIGN (stage 1).** Mixed words: C1 exact (MFM the unique
+  mirror-restoring word; lemma M∘S=M; the F′ artifact honored); **Q1a PROVED** —
+  E[log mult_D] = −2 exactly (Fourier/log-sine; decimation contracts e⁻² per event); **Q1b zero to
+  26 digits** (new convex-combination u-reduction; TM-criticality conjecture pending hand proof);
+  C2 depth-2 golden monopoly EXACT + two handoff corrections (MD attribution; the DD κ-levels
+  (1±3√5)/8 ∈ ℚ(√5)∖ℤ[φ] — the ring claim dies, the field claim stands); C3 drift table reproduced
+  (2 seeds; units 0% — control clean). **Q2 depth-3 (the decisive monopoly test) computing.**
+- **Coordination:** the parallel Closure Campaign (Fable-5, `closure/phase1-duels`, oaudit clone)
+  read-only reviewed; its B479 correction independently matches ours; B493–B495 left to it (our TM
+  work renumbered to B496+). — Also: B470 Reflection Campaign CLOSED (RF4 split / RF5 bounded / RFZ
+  partial-reflection verdict); B492+B480 close the lens probes; the cosmogony sweep designed
+  (gitignored `cosmogony/`, C1 ANE corpus landed); reproducer backfill (PR #700).

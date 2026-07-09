@@ -6,6 +6,27 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-08/10 — the papers verdict, the no-go theorem, and the monoid opens
+
+- **Papers:** P4 stands (arXiv-style, gauntlet-cleared twice); P1–P3 **frozen as internal notes**
+  after three non-converging adversarial re-panel rounds (the math reproduces; the prose kept
+  overclaiming — the records are `papers/SCRUTINY_P1P3*.md`). Banked correction: B479's d=5
+  held-breath field = degree-4 over ℚ(√5), not ℚ(√41).
+- **B490 T-NOGO-DGG:** the SM kills become ONE theorem (3d≠4d; flavor≠gauge; abelian U(1)^{N−c}).
+- **B491:** the held-breath law + the seam broken-lattice = APPEARS-NOVEL / NEEDS-SPECIALIST.
+- **THE MAP:** the σ-rooted synthesis (14 layers, all bricks classical-cited, the assembly novel);
+  grounded figures; lit-gated.
+- **The monoid arc (B496–B498):** Thue–Morse enters (the singular verb; foliation destroyed except
+  κ=2; the Eisenstein field survives the cancellation). **B497:** End(F₂) = four strata + two
+  universal laws (κ=2 absolutely conserved; the classical floor is toral); the singular-verb
+  geometry dichotomy (BS(1,2) vs hyperbolic-geometry-less); the measurement algebra
+  M Fᵏ M = F_{k+3}·M; the interaction program launders (honest Phase-Z verdict). **B498:** mixed
+  words — MFM the unique mirror-restoring word; E[log mult_D] = −2 PROVED; E[log mult_M] = 0 to 26
+  digits; the golden monopoly exact at depth 2 (depth-3 computing).
+- **Ops:** B470 Reflection Campaign closed; lens probes closed (B480+B492); the Closure Campaign
+  (parallel seat) reviewed read-only, numbering deconflicted (B493–B495 theirs, B496+ ours).
+
+
 ## 2026-07-05 — THE CHILD PROGRAM (C0–C3) + the interface arc + a repo audit
 
 - **The interface arc (B426–B434).** The 2026-07-05 handoff adjudication and the Origin Postulate
