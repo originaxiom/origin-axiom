@@ -50,3 +50,20 @@ def test_markov_surface_mapped_off():
     kp_law = KAPPA**2 - (KAPPA - 2)*z**2 - 2
     on_markov = kp_law.subs(KAPPA, -2) if False else (sp.Integer(4) - (-4)*z**2 - 2)
     assert simplify(on_markov - (2 + 4*z**2)) == 0
+
+
+# --- Q1: the mixed semigroup ---
+sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B493_tm_endomorphism"))
+import q1_mixed_semigroup as Q1
+
+
+def test_Q1_golden_preserves_kappa():
+    assert Q1.golden_preserves_kappa()
+
+
+def test_Q1_tm_ejection():
+    assert Q1.tm_ejection()
+
+
+def test_Q1_eisenstein_field_preserved():
+    assert Q1.eisenstein_preserved()
