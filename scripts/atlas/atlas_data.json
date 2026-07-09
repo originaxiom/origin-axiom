@@ -9826,14 +9826,16 @@
     "metallic",
     "eisenstein",
     "golden",
+    "z3_generation",
     "torsion",
     "firewall"
    ],
    "refs": [
     "B461",
-    "B491"
+    "B491",
+    "B494"
    ],
-   "obstacle": "numerology",
+   "obstacle": "particle_dict",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
@@ -10179,6 +10181,60 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B494": {
+   "slug": "cantat corollary duel",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B479",
+    "B491",
+    "P3"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B495": {
+   "slug": "adjoint torsion galois",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B130",
+    "B314",
+    "B318",
+    "B330",
+    "B348",
+    "B423",
+    "B425",
+    "B98",
+    "B99",
+    "S032",
+    "V0",
+    "V30",
+    "V31"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
    "status": "dead",
    "domain": "arithmetic"
   },

@@ -1,0 +1,217 @@
+{
+ "controls": {
+  "geo_W": "(t - 1)*(t**2 - 5*t + 1)/t**3",
+  "geo_tau": -3,
+  "dyn_charpoly": "(t - 1)*(t**2 - 7*t + 1)",
+  "dyn_zeta1": -5,
+  "psl_collapse": true
+ },
+ "variety": {
+  "riley": "s**2*v - s**2 + v**2 - 3*v + 3 + v/s**2 - 1/s**2",
+  "Phi": "-m**2*z + 2*m**2 + z**2 - z - 1",
+  "disc": "(m - 1)*(m + 1)*(m**2 - 5)",
+  "strata": {
+   "PC1_geometric": {
+    "locus": "m = +-2 (meridian-parabolic)",
+    "quad": "z**2 - 5*z + 7",
+    "field": "Q(sqrt-3)  [disc -3, Eisenstein]"
+   },
+   "PC2_metabelian": {
+    "locus": "m = 0 (traceless meridian)",
+    "quad": "z**2 - z - 1",
+    "field": "Q(sqrt5)  [disc 5, golden; z = phi literally]"
+   },
+   "PC3_bifurcation": {
+    "locus": "m = +-sqrt5, z = 3 (X_red ^ X_irr; Delta(s^2)=0)",
+    "quad": "z = 3 (double)",
+    "field": "Q(sqrt5)  [m = +-sqrt5]"
+   },
+   "PC4_branch_2T": {
+    "locus": "m = +-1, z = 1 (x_mu-critical; image 2T)",
+    "quad": "z = 1 (double)",
+    "field": "Q  [character rational]"
+   }
+  },
+  "reg_cert": {
+   "PC1_geometric": "sqrt(3)*I",
+   "PC2_metabelian": "sqrt(5)",
+   "PC3_bifurcation": "0",
+   "PC4_branch_2T": "0"
+  },
+  "alexander_from_v0": "-(s**2 - s - 1)*(s**2 + s - 1)",
+  "components": 2
+ },
+ "sweep": {
+  "rows": [
+   {
+    "tag": "PC1 rho_geo",
+    "field": "point Q(sqrt-3), value Q",
+    "W": "(t - 1)*(t**2 - 5*t + 1)/t**3",
+    "tau": "-3",
+    "t1_mult": [
+     1,
+     0
+    ],
+    "gauge_unit": "-1",
+    "tau_dr_da": "3",
+    "fox_rank": 2,
+    "x_mu_regular": true,
+    "tier": "exact",
+    "note": ""
+   },
+   {
+    "tag": "PC1 rho_geo_bar",
+    "field": "point Q(sqrt-3), value Q",
+    "W": "(t - 1)*(t**2 - 5*t + 1)/t**3",
+    "tau": "-3",
+    "t1_mult": [
+     1,
+     0
+    ],
+    "gauge_unit": "-1",
+    "tau_dr_da": "3",
+    "fox_rank": 2,
+    "x_mu_regular": true,
+    "tier": "exact",
+    "note": ""
+   },
+   {
+    "tag": "PC2 metabelian+",
+    "field": "point Q(i,sqrt5), value Q",
+    "W": "(t - 1)*(t**2 + 3*t + 1)/t**3",
+    "tau": "5",
+    "t1_mult": [
+     1,
+     0
+    ],
+    "gauge_unit": "-1",
+    "tau_dr_da": "-5",
+    "fox_rank": 2,
+    "x_mu_regular": true,
+    "tier": "exact",
+    "note": ""
+   },
+   {
+    "tag": "PC2 metabelian-",
+    "field": "point Q(i,sqrt5), value Q",
+    "W": "(t - 1)*(t**2 + 3*t + 1)/t**3",
+    "tau": "5",
+    "t1_mult": [
+     1,
+     0
+    ],
+    "gauge_unit": "-1",
+    "tau_dr_da": "-5",
+    "fox_rank": 2,
+    "x_mu_regular": true,
+    "tier": "exact",
+    "note": ""
+   },
+   {
+    "tag": "PC3 bifurcation",
+    "field": "point Q(sqrt5), value Q",
+    "W": "(t - 1)*(t**2 - 7*t + 1)/t**3",
+    "tau": "-5",
+    "t1_mult": [
+     1,
+     0
+    ],
+    "gauge_unit": "-1",
+    "tau_dr_da": "5",
+    "fox_rank": 2,
+    "x_mu_regular": false,
+    "tier": "exact",
+    "note": "reducible non-semisimple rep; W = the DYNAMICAL ZETA polynomial"
+   },
+   {
+    "tag": "PC4 branch/2T",
+    "field": "point Q(sqrt-3), value Q",
+    "W": "(t - 1)*(t**2 + t + 1)/t**3",
+    "tau": "3",
+    "t1_mult": [
+     1,
+     0
+    ],
+    "gauge_unit": "-1",
+    "tau_dr_da": "-3",
+    "fox_rank": 2,
+    "x_mu_regular": false,
+    "tier": "exact",
+    "note": "x_mu-critical; W = (t-1)Phi_3(t)/t^3, the Eisenstein cyclotomic"
+   }
+  ],
+  "tauB": "-(2x^2-3x+3)/(x-1)",
+  "tauB_zero_disc": -15,
+  "kappa_minus2": "x^2 (x^2-3x+3)",
+  "kappa_plus2": "(x-2)^2 (x^2+x-1)",
+  "dic5_order": 20,
+  "twoT_order": 24,
+  "method_agreement": true
+ },
+ "abelian": {
+  "Wab": "(-s**8*t**4 + 3*s**8*t**3 - s**8*t**2 + 3*s**6*t**5 - 9*s**6*t**4 + 6*s**6*t**3 - 9*s**6*t**2 + 3*s**6*t - s**4*t**6 + 3*s**4*t**5 - 10*s**4*t**4 + 27*s**4*t**3 - 10*s**4*t**2 + 3*s**4*t - s**4 + 3*s**2*t**5 - 9*s**2*t**4 + 6*s**2*t**3 - 9*s**2*t**2 + 3*s**2*t - t**4 + 3*t**3 - t**2)/(s**6*t**5 - s**6*t**4 - s**4*t**6 + s**4*t**5 - s**4*t**4 + s**4*t**3 + s**2*t**5 - s**2*t**4)",
+  "Vab": "(s**8 - 6*s**6 + 11*s**4 - 6*s**2 + 1)/(s**6 - 2*s**4 + s**2)",
+  "pole": [
+   0,
+   1
+  ],
+  "zero_locus": "(s**2 - s - 1)*(s**2 + s - 1)"
+ },
+ "seal": {
+  "multiset": [
+   -3,
+   -3,
+   3,
+   3,
+   5,
+   5,
+   -5,
+   -5
+  ],
+  "distinct": [
+   -5,
+   -3,
+   3,
+   5
+  ],
+  "sum": 0,
+  "product": 50625,
+  "product_is_seam4": true,
+  "gauge_invariant": true,
+  "all_rational": true,
+  "verdict": "SEALED"
+ },
+ "ptolemy": {
+  "available": true,
+  "classes": {
+   "0": {
+    "equations": [
+     "-c_0011_0**2 + c_0011_0*c_0101_0 + c_0101_0**2",
+     "-c_0011_0**2 - c_0011_0*c_0101_0 + c_0101_0**2",
+     "c_0011_0 - 1"
+    ],
+    "nonempty": false
+   },
+   "1": {
+    "equations": [
+     "c_0011_0**2 - c_0011_0*c_0101_0 + c_0101_0**2",
+     "-c_0011_0**2 + c_0011_0*c_0101_0 - c_0101_0**2",
+     "c_0011_0 - 1"
+    ],
+    "nonempty": true,
+    "eliminant": "c_0101_0**2 - c_0101_0 + 1"
+   }
+  },
+  "amphicheiral": true
+ },
+ "verdict": {
+  "outcome": "SEALED",
+  "phrasing": "sealed at the computable horizon; the class beyond these components remains open",
+  "out_of_reach": [
+   "SL(n>=3)/Ptolemy N>=3 exact values (B99 numerical; magma/sage or Ptolemy DB for exact enumeration: TOOL-BLOCKED)",
+   "CS/eta (phase 2b)",
+   "extended-Bloch/K3ind (phase 2e)",
+   "universal statement (open)"
+  ]
+ }
+}
