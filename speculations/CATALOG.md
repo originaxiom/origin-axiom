@@ -74,3 +74,4 @@ actual* — and the catalog is that insight in ledger form. The five ranked **ca
 output the exercise licenses) are in `PHYSICS_EXERCISE.md`; the top one, **S012 (`θ=−w₀ → c`)**, feeds the central
 `ρ_n` proof directly.
 - S062 the singular monoid — Thue-Morse as the cancellation verb (det 0); the interaction lens for B496
+- S063 the four verbs — the firewalled physics reading of the B497 monoid strata (evolution/renormalization/decoherence/erasure)
