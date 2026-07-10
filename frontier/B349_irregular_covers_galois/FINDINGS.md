@@ -47,3 +47,12 @@ SnapPy locks). Related: **B330** (mechanism), **B350** (cyclic tower; SNF cross-
 **B348** (self-symmetrization), **B326** (the `n=3` cover), **B323** (commensurator level),
 **OPEN_PROBLEMS.md** gate A. Lit: standard low-index subgroup enumeration; SnapPy census
 methods (Culler–Dunfield–Goerner–Weeks).
+
+---
+> **Scope refinement (2026-07-10, B500).** The index ≤ 6 clause "every within-index invariant
+> multiplicity collapses to a single isometry class" is **index ≤ 7-specific**: at index 8 the
+> ℤ/3⊕ℤ/3⊕ℤ² multiplicity group of 3 splits into isometry classes [2, 1] (exact-tier separation via
+> degree-2 sub-cover censuses; symmetry groups concur). The Gate-A conclusion is unchanged in its
+> sharpened form: the canonical datum is the **isometry-class multiset** — a classification, not a
+> choice; no member of an invariantly-indistinguishable set is ever distinguished. See
+> `frontier/B500_irregular_covers_78/`.

@@ -7079,6 +7079,7 @@
     "B330",
     "B348",
     "B350",
+    "B500",
     "S032"
    ],
    "obstacle": "selector",
@@ -10421,6 +10422,33 @@
    "obstacle_conf": 1,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B500": {
+   "slug": "irregular covers 78",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B128",
+    "B323",
+    "B330",
+    "B348",
+    "B349",
+    "B350",
+    "B495",
+    "P8",
+    "S032"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
   },
   "B50": {
    "slug": "pc12 proof draft assembly",
