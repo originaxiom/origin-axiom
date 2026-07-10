@@ -10450,6 +10450,40 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B502": {
+   "slug": "gateC commensurator",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B131",
+    "B299",
+    "B302",
+    "B305",
+    "B307",
+    "B321",
+    "B326",
+    "B327",
+    "B329",
+    "B335",
+    "B351",
+    "K014",
+    "K020",
+    "L3",
+    "L4",
+    "S045"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B50": {
    "slug": "pc12 proof draft assembly",
    "motifs": [
