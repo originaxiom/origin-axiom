@@ -41,3 +41,34 @@ recursion (B516). Mechanism: φ is the unique metallic number small enough (the 
 - **Phase Z — verdict:** if intertwining is FORCED (A1) ⟹ "3d as two iterations of self-reference,
   golden, canonical" is a real theorem-shaped result → B398 for any physics word. If a choice ⟹ real
   math (canonical within the class) but not forced. Airlocks armed; HELD(value); nothing to CLAIMS.md.
+
+---
+
+## Phase A (2026-07-11): the bootstrap FOLLOWS FROM THE GRAMMAR (owner's question — resolved toward YES)
+1. **Intertwining is forced, not chosen (A1a, verified):** the F-equivariant endomorphisms of F₂×F₂
+   (commuting with the diagonal evolution F⊕F) = **M₂(ℤ[F]) exactly**. Requiring the coupling to be a
+   MORPHISM of Fibonacci-dynamical systems (respect each copy's evolution) FORCES the blocks into ℤ[F]
+   = intertwining. Not an added categorical choice — the natural-morphism condition.
+2. **THE FORCING (verified, scan-bounded):** among ALL F-equivariant two-way bootstraps [[F,C],[D,F]]
+   with C,D ∈ ℤ[F] both nontrivial, the **UNIQUE Pisot (clean-quasicrystal) irreducible quartic is the
+   golden one** — (C,D)=(F,F²), β=φ(1+√φ) — confirmed across entries {0,1,2,3}⁴. **No golden target
+   assumed: grammar (F-equivariance) + two-way + Pisot ⟹ golden 3d, uniquely.** So the golden-3d
+   bootstrap DOES follow from the monoid/self-reference grammar; it is not an added choice.
+3. **Path to the closed theorem:** char(M) for CD=eI+fF is the exact 2-parameter family
+   P(x;e,f) = (x²+1−e)² + (x²+1−e)(1−2x−f) − (1−2x−f)²; the Pisot region in (e,f) + the nontrivial-
+   factorization constraint would upgrade the scan to a theorem (Phase A residual).
+4. **A1b (chirality reading):** the (F,F²) coupling is ASYMMETRIC (1:2, one copy sees the other at one
+   step, the reverse at two) — the object's chirality (det F=−1) appearing at the bootstrap. [reading]
+
+## B1 — √φ is already in the program (the anyon connection, verified shared field)
+β = φ(1+√φ) lives in **ℚ(√5, √φ)**. The **Fibonacci anyon F-matrix** (B484) is
+[[1/φ, 1/√φ],[1/√φ, −1/φ]] — entries in the SAME field ℚ(√5, √φ). **√φ is the shared ingredient of the
+3d inflation (β) AND the anyonic braiding (the F-matrix).** [MATH: same field; HOOK, firewalled: the
+3d spatial structure and the object's Fibonacci-anyon braiding meet at √φ.]
+
+## Status
+The D1 reopening is now strongly grounded: golden 3d is REAL (B515), golden-SPECIFIC (A3), and the
+bootstrap FOLLOWS FROM THE GRAMMAR (Phase A — unique Pisot F-equivariant coupling, no target assumed).
+Remaining: close the forcing theorem (the (e,f) Pisot region); Phase B (β unit structure, Rauzy plot);
+Phase C (the 3d object's signature, B398). The "3 spatial dimensions = the unique golden quasicrystal
+from self-reference" reading is now theorem-shaped, firewalled; no physical value claimed.
