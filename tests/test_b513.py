@@ -16,6 +16,6 @@ def test_signature_not_kappa_controlled():
     # the tombstone: det(Hessian of kappa) factors through x^2+y^2+z^2+xyz-4, NOT kappa
     x, y, z = sp.symbols('x y z')
     kap = x**2 + y**2 + z**2 - x*y*z - 2
-    detH = sp.factor(sp.hessian(kap, (x, y, z)).det())
-    assert detH == -2*(x**2 + x*y*z + y**2 + z**2 - 4)
+    detH = sp.hessian(kap, (x, y, z)).det()
+    assert sp.expand(detH - (-2*(x**2 + x*y*z + y**2 + z**2 - 4))) == 0
     # this surface != kappa-level-set (differs by sign of xyz), so signature cuts across kappa-shells
