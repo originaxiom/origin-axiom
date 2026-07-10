@@ -93,3 +93,19 @@ def test_oneway_coupling_reducible():
     Mtri = sp.Matrix(sp.BlockMatrix([[F, F], [sp.zeros(2), F]]))
     cp = sp.factor(Mtri.charpoly(x).as_expr())
     assert cp == (x**2 - x - 1)**2   # reducible: two separate Fibonacci copies, not a new object
+
+
+def test_reading_double_uniquely_coherent():
+    # among candidate 'self-reference' readings, only the coupled double is new(irreducible)+coherent(Pisot)
+    def new_and_coherent(M):
+        cp = M.charpoly(x).as_expr()
+        irred = sp.Poly(cp, x).is_irreducible
+        mags = sorted(abs(complex(sp.N(r, 15))) for r in sp.Poly(cp, x).all_roots())
+        pis = mags[-1] > 1.0001 and all(m < 0.9999 for m in mags[:-1])
+        return irred and pis
+    tensor = sp.Matrix(sp.kronecker_product(F, F))
+    summ = sp.Matrix(sp.BlockMatrix([[F, sp.zeros(2)], [sp.zeros(2), F]]))
+    double = sp.Matrix(sp.BlockMatrix([[F, F], [F**2, F]]))
+    assert not new_and_coherent(tensor)      # reducible
+    assert not new_and_coherent(summ)        # reducible
+    assert new_and_coherent(double)          # the unique new coherent object
