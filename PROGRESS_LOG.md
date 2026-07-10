@@ -1688,3 +1688,40 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   control gate. D3 (measure) partial: stationary measure → classical floor κ=2 with any decimation;
   the M-walk occupation is one-sided (negative-drift, re-confirms B506); verdict deferred. Depth-5
   child hunt still streaming (no airlock). Lit-gate battery pending next research pass.
+
+## 2026-07-11 — the golden-3d arc (B511–B517), the reading, and the whole-repo synthesis (K025)
+
+- **B511 PHYSICS VERDICT CAMPAIGN (six doors).** D0 gates executable + base rates. D5 generation CLOSED
+  (the forced-3 is generic Chebyshev m+1). D3 measure CLOSED (stationary measure classicalizes; the
+  wild register is dynamically suppressed). D6 signature CLOSED (matches the B513 Hessian tombstone).
+  D2 time-tower CLOSED (Mostow + Riemannian (4,0) + dimension collapse). D4 gauge CLOSED (Sₙ generic ≠
+  gauge). **D1 REOPENED** — see below. Verdict SUSPENDED (D1 open), correctly.
+- **B513 — the boundary-type attractors (verified) + the (3,1)-signature over-read TOMBSTONED.** The
+  three verbs act on κ=tr[A,B] (the object's boundary commutator): evolution→parabolic (cusp),
+  decoherence→order-4 (pointer κ=0), decimation→reducible (classical κ=2). The Hessian-of-κ signature
+  story was killed by the shell-constancy test (governed by x²+y²+z²+xyz=4, not κ) — self-filtered.
+- **B515/B516/B517 — GOLDEN 3d (the D1 reopening).** Coupling two Fibonacci copies F-equivariantly
+  forces the unique Pisot inflation **β=φ(1+√φ)** (x⁴−2x³−5x²−4x−1, unimodular, field ℚ(√φ)⊃ℚ(√5)) →
+  a genuine **3-dimensional golden Rauzy fractal** (constructed, figure banked). Two premature KILLS by
+  this seat were caught by owner pushback ("u sure?", "do the calc") — the "golden⟹1d" claim was WRONG
+  (β is deg-4 golden-derived). Golden-SPECIFIC (only φ, the smallest metallic, gives Pisot; conjugate
+  x(√x−1)<1). The intertwining THEOREM (cross-seat GPT-5.6, re-derived): among F-equivariant couplings
+  the golden target forces CD=F³, both-nontrivial ⟹ (F,F²) canonical; the Pisot bound φ⁻²<u+vφ<φ⁴ makes
+  the search exhaustive ⟹ (F,F²) is the UNIQUE 3d Pisot coupling. Perron nesting v=(φ,1,φ√φ,√φ).
+- **P015/P016 — the reading, done.** The four structural assumptions collapse to ONE principle
+  (coherence-preserving self-reference); the "double" is SELECTED not assumed (tensor/sum reducible;
+  only the coupled double is new+coherent); the one primitive is the axiom itself (existence = ongoing
+  self-reference). Firewall HELD owner-present: the "3" is a Rauzy contracting dimension, NOT physical
+  space (B398 shut).
+- **B517 Phase B/C + novelty.** The 3d Rauzy fractal constructed (bounded=Pisot, four β-scaled
+  sub-tiles). The Lorentzian-signature hunt: the canonical trace form of ℚ(β) is (3,1) — but the control
+  fires (silver, tetranacci, AND the child field −283 all (3,1)); (3,1) is GENERIC to one-complex-place
+  quartics ⟹ T-SIG via the canonical form is laundered. Novelty gate (94-agent sweep): the specific β,
+  the self-coupling construction, the CD=F³ forcing, the minimality framing, and the √φ↔anyon link all
+  **APPEARS-NOVEL** within corpus (dimension count is textbook KNOWN); NEEDS-SPECIALIST for closure.
+- **K025 — the whole-repo synthesis (three-read meta-analysis).** The root generator NAMED (A over ℤ[φ]
+  inside SL(2,ℤ)); the firewall stated as ONE theorem (the two ends' product-slot = the generic seam
+  ℚ(√−15) = the un-paired κ); the two genuinely-already-present ingredients (dynamics; the
+  scale-bridge-by-embedding = the anchor, the object as a scale-free universality class); the
+  absorbing-loop caveat (this synthesis could be the 6th "buried-centre" re-discovery; only an external
+  prediction distinguishes doorway from wall). Registered T-ONE-ROOT/T-HELD-SLOT.

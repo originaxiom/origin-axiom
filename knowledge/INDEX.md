@@ -36,3 +36,6 @@
 
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.
+- **K025** — the one root & the held slot: A over ℤ[φ] is the single generator; the firewall is one
+  theorem (the two ends' product-slot = the generic seam = the un-paired κ); two ingredients genuinely
+  already-present (dynamics; the scale-bridge-by-embedding/anchor); the absorbing-loop caveat.

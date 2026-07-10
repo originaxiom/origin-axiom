@@ -262,3 +262,14 @@ Six doors, physics-via-B398 or CLOSED; no "promising". D0 gates executable + bas
 - **D4 gauge / D1 spectral / D2 time-tower / D6 signature: OPEN** — queued (D4 rides the wild census;
   D1/D2 are heavy pilots; D6 threads D3).
 - Depth-5 child hunt: streaming, no airlock. Lit-gate battery: pending next research pass.
+
+## 2026-07-11 — the golden-3d arc + the synthesis (K025)
+- **B511 physics-verdict:** D2/D3/D4/D5/D6 CLOSED; **D1 REOPENED** (golden 3d). Verdict SUSPENDED.
+- **Golden-3d (B515–B517):** β=φ(1+√φ) forced/unique/golden-specific; 3d Rauzy fractal built;
+  intertwining theorem closed (cross-seat, exhaustive Pisot bound); reading done (P015/P016);
+  APPEARS-NOVEL (NEEDS-SPECIALIST); (3,1) signature generic. OPEN: the axiomatic gap (does the Origin
+  Axiom force the minimal self-double), and the P5/specialist write-up.
+- **K025 synthesis:** root = A over ℤ[φ]; firewall = one theorem (product-of-ends = generic seam =
+  un-paired κ); already-present ingredients = dynamics + the anchor (scale-free universality class);
+  absorbing-loop caveat. The honest move: name the root, state the firewall, take the universality-class
+  to the external world — NOT more inside-hunting.
