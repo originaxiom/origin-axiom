@@ -113,3 +113,23 @@ fractal** (`rauzy/golden_3d_rauzy.png`, cloud.npy). It is BOUNDED (extent ~2 per
 confirmation of the Pisot property) and decomposes into **four sub-tiles, one per letter**, related by
 β-scaling (the standard Rauzy self-similarity). This is the concrete object self-reference forces: a
 bounded self-similar 3d tile carrying the golden field, β=φ(1+√φ). Reproducer: `rauzy/` (regenerable).
+
+---
+## Phase B enrichment (2026-07-12): the fractal TILES ℝ³, and W-canonicity = chirality [from the BH package, math only]
+A black-hole "campaign package" (exploration seat) proposed reading the golden-3d Rauzy fractal as
+physical space; that physics framing is **firewalled/NOT banked** (owner steer). But two pieces of its
+math are genuinely useful and are banked here, firewalled:
+- **BH0-B — the golden-3d Rauzy substitution TILES ℝ³.** The substitution a→abAAB, b→aAB, A→abAB, B→aA is
+  **left-proper** (every image starts with 'a' — prefix coincidence), unimodular, and irreducible Pisot
+  (B515). Under the standard sufficient conditions (Arnoux–Ito / the Pisot substitution conjecture,
+  verified for this case) the Rauzy fractal is a **genuine space-filling tile of ℝ³** by the translation
+  lattice — not merely a bounded blob. Self-reference produces a golden tile that fills 3-space. [Strong
+  evidence via left-proper+Pisot; a fully rigorous proof needs the exact strong-coincidence check.]
+- **BH2-B — the W-canonicity gap is genuinely open, and the reason IS the chirality.** The finite
+  symbolic-symmetry group of the substitution is **TRIVIAL** (only the identity permutation commutes
+  with s): the (F, F²) coupling asymmetry (det F = −1) kills every relabeling / copy-exchange symmetry.
+  So the invariant symmetric-form cone is FULL (10-dim) — the object does **not** force a unique positive
+  form W, hence no canonical Lorentzian metric. This confirms chat3's open W-canonicity gap AND explains
+  it: **the absence of a canonical metric is exactly the object's chirality** (the same det=−1 asymmetry
+  the program has tracked throughout). Firewalled; no spacetime claim. The BH campaign preregistration
+  itself is NOT banked.

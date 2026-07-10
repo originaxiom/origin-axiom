@@ -159,3 +159,15 @@ def test_stein_inertia_correction():
     assert sig([1, -2, -5, -4, -1]) == (3, 1)   # golden: Pisot, 1 unstable
     assert sig([1, -1, -1, -1, -1]) == (3, 1)   # tetranacci: also (3,1) => generic
     assert sig([1, 0, 0, -1, -1]) == (1, 3)     # x^4-x-1: CORRECTED (3 unstable), was mislabeled (2,2)
+
+
+def test_rauzy_left_proper_and_trivial_symmetry():
+    import itertools as it
+    subs = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}; order = ['a', 'b', 'A', 'B']
+    # left-proper => prefix coincidence (tiling hypothesis)
+    assert all(subs[c][0] == 'a' for c in order)
+    # the finite symbolic-symmetry group is trivial (W not forced = the chirality)
+    def app(w, pi): return ''.join(pi[c] for c in w)
+    syms = [p for p in it.permutations(order)
+            if all(app(subs[x], dict(zip(order, p))) == subs[dict(zip(order, p))[x]] for x in order)]
+    assert len(syms) == 1   # identity only => trivial symmetry => 10-dim W-cone => W unforced
