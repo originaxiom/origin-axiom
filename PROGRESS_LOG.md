@@ -1671,3 +1671,9 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   not interpreted): E = 40a3, ISOGENOUS to the program's banked 40a1** (same class/conductor/L-function)
   — convene-before-interpret per protocol. j-sign corrected (+55296/5). δ-function (B508) and δ_geo=4,
   δ_M=2 (B504) banked earlier with locks.
+
+- **B510 (2026-07-11): the 40a1 convening RESOLVED as a theorem.** Verified: 40a3 = the Jacobian of
+  the branch double-cover d²=(c²−1)(c²−5) of 40a1 (y²=x(x−1)(x−5), repo model confirmed) — the
+  square-time question IS the character variety's covering question; the ends are the branch points.
+  CORRECTED the handoff's mechanism wording: not a quadratic twist (j differs) — Jacobian + 2-isogeny.
+  Flag discharged; 283-airlock unaffected. Sixth arc error caught by verification.
