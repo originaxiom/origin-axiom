@@ -103,3 +103,13 @@ coupling, no identity cross-channel" — as the formal meaning of the first self
 If accepted, D1 closes POSITIVELY at the structural level. The gap is now purely a matter of justifying
 those assumptions from the axiom (a firewall/philosophy question), not a computation. Cross-seat
 verified; §7 protocol applied; firewalled; no physical value claimed.
+
+---
+## Phase B (2026-07-11): the 3d golden Rauzy fractal — CONSTRUCTED
+The primitive unimodular substitution a→abAAB, b→aAB, A→abAB, B→aA (incidence M∗) is iterated to a
+fixed-point word; abelianized prefixes projected onto the contracting eigenspace (the real −0.4401
+direction + the complex −0.618±0.486i plane = genuine ℝ³) give the **3-dimensional golden Rauzy
+fractal** (`rauzy/golden_3d_rauzy.png`, cloud.npy). It is BOUNDED (extent ~2 per axis — geometric
+confirmation of the Pisot property) and decomposes into **four sub-tiles, one per letter**, related by
+β-scaling (the standard Rauzy self-similarity). This is the concrete object self-reference forces: a
+bounded self-similar 3d tile carrying the golden field, β=φ(1+√φ). Reproducer: `rauzy/` (regenerable).
