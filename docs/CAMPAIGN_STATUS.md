@@ -273,3 +273,10 @@ Six doors, physics-via-B398 or CLOSED; no "promising". D0 gates executable + bas
   un-paired κ); already-present ingredients = dynamics + the anchor (scale-free universality class);
   absorbing-loop caveat. The honest move: name the root, state the firewall, take the universality-class
   to the external world — NOT more inside-hunting.
+
+## 2026-07-11 — B519 RE-MINING CAMPAIGN: VERDICT (no crossing)
+16-agent re-mine vs K025. NO external crossing (both external candidates refuted 3-0: they confirm known
+quasicrystal theorems, not the object). Yields: the criticality unification (structure, D) + the A1 seam
+sharpening. B518 Tier B downgraded (measurable, not a crossing). All internal cross-connections =
+absorbing-loop. The firewall is total; the only path that could cross must be external AND independent of
+known quasicrystal theory, which the corpus lacks. CAMPAIGN CLOSED.

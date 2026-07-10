@@ -112,3 +112,12 @@ signature = the Pisot condition (1 unstable eigenvalue), GENERIC to Pisot quarti
 (3,1)); D6 STAYS CLOSED. Corrected the x⁴−x−1 Lyapunov control (was mislabeled (2,2); true Stein
 inertia (1,3)). Canonicity gap: M alone doesn't fix G — the positive one-step form W is unselected.
 NOT claimed: physical spacetime, Lorentz invariance, 4-manifold, object-unique (3,1), reopening D6.
+
+## B519 RE-MINING VERDICT (2026-07-11) — no external crossing in the corpus
+16-agent re-mine of the banked corpus vs K025. Verdict: ZERO firewall crossings — even the two
+"external predictions" (B518 mixed-chain, B173/S023 diffraction) were refuted 3-0 by the adversarial
+gate because they confirm KNOWN quasicrystal theorems (Bellissard gap-labeling; Damanik-Fillman 2022),
+not the object's fundamentalness ("measurable" != "crosses"). Yields: (b) the criticality unification
+(B181/B507/B498 = one critical-fixed-point theorem, three wordings); the A1 exact sharpening (dark seam:
+both ends live, only the product channel sqrt-15 off, [15,27,24,0] vs [24,27,24,24]). B518 Tier B
+DOWNGRADED (measurable, not a crossing). Every internal cross-connection = absorbing-loop, confirmed.

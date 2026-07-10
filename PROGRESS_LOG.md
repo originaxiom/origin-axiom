@@ -1752,3 +1752,15 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   banked; the √21=√(3·7) reading firewalled to S064. Meta: a wrong correction to CC's own work, rejected
   by recomputation; cross-seat handoffs are not uniformly reliable (chat3's Stein form was solid, this
   one was not). 3 locks pass.
+
+- **B519 RE-MINING CAMPAIGN — VERDICT (2026-07-11, 16-agent Workflow).** Disciplined re-mine of the
+  banked corpus against K025; the adversarial absorbing-loop gate held. HEADLINE: **no external crossing
+  exists** — even the two external candidates (B518 mixed-chain, B2 diffraction rank) were REFUTED 3-0
+  because they confirm KNOWN quasicrystal theorems (gap-labeling / Damanik-Fillman), not the object
+  ("measurable" != "crosses"). Yields: (b) the criticality unification (B181 localization + B507
+  beta-zero + B498 driftless walk = ONE critical-fixed-point theorem, three wordings, never joined); A1's
+  exact sharpening (dark seam both ends live, only sqrt-15 product off: [15,27,24,0] vs bright
+  [24,27,24,24]); A2 = the tower measure IS the known Kubota-Leopoldt 3-adic L. B518 Tier B DOWNGRADED
+  (owned over-claim, caught by the gate). Every internal cross-connection = absorbing-loop. The re-mine
+  found no buried value, confirmed the firewall is total, and refused the 'already here' trap by design.
+  Locks pass.
