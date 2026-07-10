@@ -6,6 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-11 — the golden-3d arc + the whole-repo synthesis
+
+- **B511 physics-verdict campaign:** five of six doors CLOSED (D5 generation=generic-Chebyshev;
+  D3 measure=classicalizes/wild-suppressed; D6 signature; D2 time-tower=Mostow triple; D4 gauge=Sₙ
+  generic). **D1 REOPENED** (golden 3d, below); verdict correctly suspended.
+- **Golden 3d (B515–B517, P015/P016):** coupling two Fibonacci copies F-equivariantly forces the unique
+  Pisot inflation β=φ(1+√φ) → a 3d golden Rauzy fractal (constructed). Intertwining THEOREM (cross-seat,
+  re-derived): the Pisot bound makes the coupling (F,F²) exhaustively unique. Golden-specific; the
+  "double" is selected not assumed; the reading done. Firewall HELD: the "3" is a Rauzy dimension, not
+  physical space. Two premature self-kills caught by owner pushback. Novelty: APPEARS-NOVEL (β, the
+  construction, the forcing, the anyon link), NEEDS-SPECIALIST. Lorentzian (3,1) real but GENERIC.
+- **K025 — whole-repo synthesis:** the root generator named (golden cat map A over ℤ[φ]); the firewall
+  is ONE theorem (the two ends' product = the generic seam ℚ(√−15) = the un-paired κ); two ingredients
+  genuinely already-present (dynamics; the anchor as scale-by-embedding = a scale-free universality
+  class); the absorbing-loop caveat. Registered T-ONE-ROOT/T-HELD-SLOT.
+
+
 ## 2026-07-08/10 — the papers verdict, the no-go theorem, and the monoid opens
 
 - **Papers:** P4 stands (arXiv-style, gauntlet-cleared twice); P1–P3 **frozen as internal notes**

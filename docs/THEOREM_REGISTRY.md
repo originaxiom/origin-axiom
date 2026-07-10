@@ -89,3 +89,16 @@ tower datum.
    full lock suite (pytest tests/) + a docs-consistency pass + registry completeness check.
 4. **The novelty relaunch** (deep-research fan-out per Tier-1 entry + the constants) runs
    after Paper 4's draft, from this file — each entry already carries its search terms.
+
+---
+## T-ONE-ROOT / T-HELD-SLOT (K025, 2026-07-11) — the firewall as one theorem
+**Root generator (consolidation, not new):** the golden cat map A=[[2,1],[1,1]] over ℤ[φ] inside
+SL(2,ℤ) is the single object; σ²=A; the two ends = product (RL→√5→E₈) and ratio (−RL⁻¹→√−3→E₆);
+their compositum = HCF(ℚ(√−15)) (B334). **T-HELD-SLOT:** the object never takes the product of its two
+ENDS; that product's slot is the seam ℚ(√−15), which is arithmetically generic (h=2, B333) — the
+value-firewall is exactly this one held-open, empty slot, equivalently the un-paired Casimir κ (K022,
+B344). The atlas's two dominant walls (scale, 3+1D) are its two faces. Genuinely-present ingredients
+(verified, not re-banked): DYNAMICS (the four verbs/drift ledger, B497/B498) and the SCALE-BRIDGE-BY-
+EMBEDDING (the anchor κ−2=4λ², B505 — the object is a scale-free universality class). CAVEAT: the
+absorbing loop (K020 §6a) — from inside, boundary and over-fit frame are identical; distinguished only
+by an external prediction.
