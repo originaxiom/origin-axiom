@@ -1,0 +1,307 @@
+{
+ "exact": {
+  "fixed_cusped": [
+   "0",
+   "1/4"
+  ],
+  "fixed_closed": [
+   "0",
+   "1/2"
+  ],
+  "lucas": {
+   "1": 3,
+   "2": 7,
+   "3": 18,
+   "4": 47,
+   "5": 123,
+   "8": 2207
+  },
+  "torsion": {
+   "1": 1,
+   "2": 5,
+   "3": 16,
+   "4": 45,
+   "5": 121,
+   "8": 2205
+  },
+  "child_quartic": "x**4 - x - 1",
+  "child_disc": -283,
+  "child_galois": "S4",
+  "vol_dilog": 2.0298832128193074
+ },
+ "controls": {
+  "seed_cs": -5.624455548099859e-17,
+  "seed_cs_hp": "-3.0787269227404413e-65",
+  "seed_vol": 2.0298832128193047,
+  "gtz_chat": [
+   1.1102230246251565e-15,
+   2.0298832128193047
+  ],
+  "sister_cs": 0.2500000000000001,
+  "sister_cv_imag": 4.934802200544681,
+  "metallic_cs": {
+   "1": -1.237380220581969e-16,
+   "2": 1.1248911096199718e-16,
+   "3": -2.2497822192399436e-16,
+   "4": -2.0248039973159492e-16,
+   "5": 5.624455548099859e-17,
+   "6": 3.59965155078391e-16
+  },
+  "census_mix": {
+   "m003": 0.2500000000000001,
+   "m004": 8.999128876959774e-17,
+   "m006": -0.11413665304027394
+  },
+  "all_pass": true
+ },
+ "cusped": {
+  "rows": [
+   {
+    "stratum": "seed 4_1",
+    "cs_exact": "0",
+    "cs_numeric": -5.624455548099859e-17,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "P9; the D4 amphichiral seed"
+   },
+   {
+    "stratum": "sister m003",
+    "cs_exact": "1/4",
+    "cs_numeric": 0.2500000000000001,
+    "symmetry": "Z/2 + Z/4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "P9; same volume, the OTHER 2-torsion point; mirror-fixed"
+   },
+   {
+    "stratum": "metallic m=1 (b++RL)",
+    "cs_exact": "0",
+    "cs_numeric": -1.237380220581969e-16,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B127 M-2/K-A: R^m L^m palindromic under reverse+swap"
+   },
+   {
+    "stratum": "metallic m=2 (b++RRLL)",
+    "cs_exact": "0",
+    "cs_numeric": 1.1248911096199718e-16,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B127 M-2/K-A: R^m L^m palindromic under reverse+swap"
+   },
+   {
+    "stratum": "metallic m=3 (b++RRRLLL)",
+    "cs_exact": "0",
+    "cs_numeric": -2.2497822192399436e-16,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B127 M-2/K-A: R^m L^m palindromic under reverse+swap"
+   },
+   {
+    "stratum": "metallic m=4 (b++RRRRLLLL)",
+    "cs_exact": "0",
+    "cs_numeric": -2.0248039973159492e-16,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B127 M-2/K-A: R^m L^m palindromic under reverse+swap"
+   },
+   {
+    "stratum": "metallic m=5 (b++RRRRRLLLLL)",
+    "cs_exact": "0",
+    "cs_numeric": 5.624455548099859e-17,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B127 M-2/K-A: R^m L^m palindromic under reverse+swap"
+   },
+   {
+    "stratum": "metallic m=6 (b++RRRRRRLLLLLL)",
+    "cs_exact": "0",
+    "cs_numeric": 3.59965155078391e-16,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B127 M-2/K-A: R^m L^m palindromic under reverse+swap"
+   },
+   {
+    "stratum": "cyclic cover n=1 (b++RL)",
+    "cs_exact": "0",
+    "cs_numeric": -1.237380220581969e-16,
+    "symmetry": "D4",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B489 tower; H1 torsion 1 = |L(2)-2|; vol = 1 Vol"
+   },
+   {
+    "stratum": "cyclic cover n=2 (b++RLRL)",
+    "cs_exact": "0",
+    "cs_numeric": -6.749346657719831e-17,
+    "symmetry": "nonabelian group of order 16",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B489 tower; H1 torsion 5 = |L(4)-2|; vol = 2 Vol"
+   },
+   {
+    "stratum": "cyclic cover n=3 (b++RLRLRL)",
+    "cs_exact": "0",
+    "cs_numeric": -8.099215989263797e-16,
+    "symmetry": "nonabelian group of order 24",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B489 tower; H1 torsion 16 = |L(6)-2|; vol = 3 Vol"
+   },
+   {
+    "stratum": "cyclic cover n=4 (b++RLRLRLRL)",
+    "cs_exact": "0",
+    "cs_numeric": 2.0473018195083488e-15,
+    "symmetry": "nonabelian group of order 32",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B489 tower; H1 torsion 45 = |L(8)-2|; vol = 4 Vol"
+   },
+   {
+    "stratum": "cyclic cover n=5 (b++RLRLRLRLRL)",
+    "cs_exact": "0",
+    "cs_numeric": 1.5860964645641602e-15,
+    "symmetry": "nonabelian group of order 40",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B489 tower; H1 torsion 121 = |L(10)-2|; vol = 5 Vol"
+   },
+   {
+    "stratum": "cyclic cover n=8 (b++RLRLRLRLRLRLRLRL)",
+    "cs_exact": "0",
+    "cs_numeric": 3.4871624398219127e-15,
+    "symmetry": "nonabelian group of order 64",
+    "amphicheiral": true,
+    "tier": "exact (2-torsion elimination)",
+    "note": "B489 tower; H1 torsion 2205 = |L(16)-2|; vol = 8 Vol"
+   }
+  ],
+  "multiset": {
+   "0": 13,
+   "1/4": 1
+  },
+  "presentation_invariance": true,
+  "unique_degree2_cover": true
+ },
+ "interface": {
+  "exceptional": [
+   {
+    "slope": "(0,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "0",
+    "cs_numeric": -1.0408340855860843e-17,
+    "accuracy": 11,
+    "tier": "certified numerical + exact rational recognition"
+   },
+   {
+    "slope": "(1,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "1/84",
+    "cs_numeric": 0.011904761904761876,
+    "accuracy": 13,
+    "tier": "certified numerical + exact rational recognition"
+   },
+   {
+    "slope": "(-1,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "-1/84",
+    "cs_numeric": -0.011904761904762098,
+    "accuracy": 12,
+    "tier": "certified numerical + exact rational recognition"
+   },
+   {
+    "slope": "(2,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "1/40",
+    "cs_numeric": 0.024999999999999755,
+    "accuracy": 11,
+    "tier": "certified numerical + exact rational recognition"
+   },
+   {
+    "slope": "(-2,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "-1/40",
+    "cs_numeric": -0.024999999999999876,
+    "accuracy": 11,
+    "tier": "certified numerical + exact rational recognition"
+   },
+   {
+    "slope": "(3,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "1/24",
+    "cs_numeric": 0.041666666666666644,
+    "accuracy": 12,
+    "tier": "certified numerical + exact rational recognition"
+   },
+   {
+    "slope": "(-3,1)",
+    "type": "contains flat tetrahedra",
+    "cs_exact": "-1/24",
+    "cs_numeric": -0.0416666666666667,
+    "accuracy": 12,
+    "tier": "certified numerical + exact rational recognition"
+   }
+  ],
+  "toroidal_wall": {
+   "slope": "(+-4,1)",
+   "type": "contains degenerate tetrahedra",
+   "cs": "undefined (raises)"
+  },
+  "child": {
+   "cs_hp": "0.07703818026377023",
+   "cs": 0.07703818026377002,
+   "mirror_cs": -0.0770381802637704,
+   "accuracy": 11,
+   "pair_sum_mod1": 4.440892098500626e-16,
+   "meyerhoff_identified": true,
+   "symmetry": "Z/2 + Z/2",
+   "amphicheiral": false,
+   "anti_recognition_q1000": 1.094660701070338e-06,
+   "tier": "certified numerical (HP)"
+  },
+  "eta_api_scan": [],
+  "eta": "TOOL-BLOCKED (no SnapPy API; sage/magma excluded)"
+ },
+ "mirror_law": {
+  "n": 31,
+  "law_pass": 31,
+  "worst_law": 6.661338147750939e-16,
+  "banked_match_worst": 4.91368917776569e-10,
+  "mechanism": "mirror(4_1(p,q)) = 4_1(p,-q)"
+ },
+ "seal": {
+  "forced_set": [
+   "-1/24",
+   "-1/40",
+   "-1/84",
+   "0",
+   "1/84",
+   "1/40",
+   "1/24",
+   "1/4"
+  ],
+  "cusped_multiset_fixed": true,
+  "pairs_sum_zero": true,
+  "input_labeled_pass": true,
+  "multiset_sigma_invariant": true,
+  "verdict": "SEALED"
+ },
+ "verdict": {
+  "outcome": "SEALED",
+  "phrasing": "sealed at the computable horizon; the class beyond these strata remains open",
+  "out_of_reach": [
+   "eta/APS rho (no SnapPy API; sage/specialist: TOOL-BLOCKED)",
+   "exact chiral CS via extended-Ptolemy/GTZ (Ptolemy DB or magma/sage: TOOL-BLOCKED)",
+   "toroidal +-4 graph CS/eta (TOOL-BLOCKED)",
+   "verified-interval CS (sage: named)",
+   "universal statement (open)"
+  ]
+ }
+}

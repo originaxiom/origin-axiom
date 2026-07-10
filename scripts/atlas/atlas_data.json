@@ -10238,6 +10238,37 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B496": {
+   "slug": "cs eta galois",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B127",
+    "B151",
+    "B318",
+    "B330",
+    "B348",
+    "B432",
+    "B434",
+    "B443",
+    "B489",
+    "B495",
+    "K010",
+    "P9",
+    "S032"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B49": {
    "slug": "sl3 certificate proof hardening",
    "motifs": [],
