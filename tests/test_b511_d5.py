@@ -20,3 +20,16 @@ def test_minimal_verb_fixes_curve_kappa2():
     T = (z, x**2 - 2, (x**2 - 1)*z - x*y)
     img = [t.subs({x: z, y: z**2 - 2, z: z}, simultaneous=True) for t in T]
     assert [sp.simplify(img[i] - v) for i, v in enumerate((z, z**2 - 2, z))] == [0, 0, 0]
+
+
+# --- D3.3 lock ---
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..",
+                                  "frontier", "B511_physics_verdict"))
+import d3_wild_access as _D3
+
+
+def test_d3_wild_dynamically_suppressed():
+    # the measure concentrates classical; the wild register has small stationary mass
+    c, w = _D3.accessibility(n=2000, steps=1500)
+    assert c > 0.8 and w < 0.15
