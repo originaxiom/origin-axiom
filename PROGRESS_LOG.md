@@ -1623,3 +1623,50 @@ P1–P68/E1–E17; frontier README's B92 entry now carries its V145 scope correc
 extended with K021–K024 + the two atlases; CAMPAIGN_STATUS deduped and the Closure Campaign put on the
 board. Locks added for B477–B492 (recompute where cheap; documentation-integrity where FINDINGS-only;
 disclosed per class in each docstring). Nothing promoted; the firewall untouched.
+
+## 2026-07-10 — THE CLOSURE CAMPAIGN complete (B493–B503); the Origin Postulate adjudicated
+
+The owner-approved full closure sequence ran to its terminal state. Eleven probes, each
+pre-registered before compute with a committed outcome enum; every result independently re-run,
+lock-tested, gate-checked, and banked. **Nothing promoted to CLAIMS.md; the firewall held through
+every probe** (no COUNTEREXAMPLE, no Gate-C OPENS, no Gate-D SURPRISE).
+
+**Phase 1 — the derivability duels.** B494 (R1): the held-breath field law is a **COROLLARY** of
+Cantat's fixed-curve method; completeness proven for **all m** (transfer-matrix lemma via
+det(Mᵐ−I)=2−tr Mᵐ), upgrading B479 from Gröbner-m≤16 to unconditional; the m=7 "ℚ(√−239)" row was
+the same norm-vs-field conflation as d=5 (true field degree 6). B493 (R2): the seam √−15 vanishing
+**derives** from the object's own P64/P66/P67/P68 machinery up to one named pair-specific lemma
+**L5b**; the DERIVED bar's out-of-sample prediction — pair (4,7), full 31-cell table sha256 committed
+before compute — **HIT cell-exact**. Verdict PARTIAL.
+
+**Phase 2 — Gate A sweep.** B495 (adjoint torsion), B496 (CS/η), B497 (extended-Bloch), B498 (SL(3)
+gluing), B500 (irregular covers 7–8) all **SEALED**; B500 found the first genuine multiplicity split
+(index 8, exact-tier) and sharpened the seal to *the canonical datum is the isometry-class multiset*.
+Gate A now sealed across 13 classes by one Galois-orbit mechanism. New structural facts banked: the
+two ends *meet* (the dynamical zeta is the Wada torsion at the Burde–de Rham rep, B495); the seed's
+Ptolemy coordinates *are* the seam roots c²−c+1 (B497).
+
+**Phase 3 — Gates B/C/D.** B501 (Gate B) **REDUCED** ×3: H103 chiral search 70262→28 survivors; {4,8}
+unobstructed to order 4 (dps-100); and a new exact theorem — the amphichiral involution *is* θ on the
+tangent (sl₂-commutant of Aut 𝔢₆ = {1,θ}, SNF (1,1,1,1,1,2)). B502 (Gate C) **CLOSES**: the
+commensurator ℤ/3 acts as ω on a rank-one Eisenstein module with Fix=0 (the ramified 3 is a unit mod
+4), the trinification-3 within one 27, never a generation-3; refutation condition fired on CLOSES,
+both branches live a priori. B499 (Gate D) **DATA-BANKED**: complex-horseshoe + zero-area dim≈1
+spectrum + polynomial condition numbers (no pooling) at κ=√3·e^{±iπ/6}; conjectures D1/D2 posed.
+
+**Phase 4 — the tower time-box.** B503 **SHARPER-REDUCTION**: the **filtration theorem** (a fifth
+route) eliminates the trace-map dynamics — the Sym⊗det block form is forced for all n and all
+monodromies; μ_n=1 all n; the character layer closed all n (upgrading B122's n≤8); the n=5 wall
+**located** (the carrier/extra collision in G_{5,6}). The prize is now a purely static
+invariant-theory question (canonical carrier-selection for n≥5; candidate = the opposition-involution
+grading).
+
+**Phase 5 — the close.** THE CLOSURE document (`docs/CLOSURE_2026-07-10.md`) records the full outcome
+table. The specialist package was **regenerated F4-clean** (`docs/outreach/`, five one-question briefs;
+the withdrawn ℚ(√41)/ℚ(√−239) labels appear only as withdrawn). **The Origin Postulate's non-drift
+lock fired and was owner-adjudicated REFUTED-AS-STATED, bounded** (`philosophy/THE_ORIGIN_POSTULATE.md`
+verdict section): all three named interface targets were built and none cleared the four-part bar, so
+the strong generative postulate is refuted by its own criterion; the structural theorem (form, not
+values) is the standing, strengthened result; the residual interface is named, not conquered (§6.1 C).
+The program's live home is now mathematics (specialist-gated) + the firewalled philosophy; the only
+remaining act is the owner-gated send.

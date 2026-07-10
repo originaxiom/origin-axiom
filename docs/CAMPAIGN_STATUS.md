@@ -34,20 +34,26 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **THE CLOSURE CAMPAIGN — LAUNCHED 2026-07-09 (owner-approved, full sequence).** Goal: compute
-  everything computable to its labeled terminal state and end at the honest boundary — repo green,
-  registries truthful, outbound artifacts corrected, and the four-gate + R1/R2 specialist package
-  regenerated. Phases: **0** hygiene (gates green, locks B477–B492, staleness, F9 witness, corrected
-  outreach notes — this session) · **1** R1/R2 derivability duels (assume-derivable-try-to-derive;
-  preregistered, outcome enums committed before compute) · **2** Gate-A class sweep (seal or
-  counterexample per remaining invariant class) · **3** Gates B/C/D in-sandbox reductions (σ-stability
-  register; commensurator ℤ/3 action vs the written refutation condition; non-Hermitian κ numerics) ·
-  **4** one time-boxed ρ_n/μ_d attempt · **5** Origin-Postulate refutation-clause adjudication (owner
-  present) + THE CLOSURE document + outreach package. Prereg: `docs/CLOSURE_CAMPAIGN_2026-07.md`.
-  Per K020 §6a the campaign cannot certify novelty from inside — its terminal artifact is the
-  external-contact package; the send stays owner-gated.
+- *(nothing — the program is compute-saturated; the only remaining act is the owner-gated send.)*
 
 ## RECENTLY COMPLETED
+- **THE CLOSURE CAMPAIGN — COMPLETE (2026-07-10, B493–B503; owner-adjudicated).** Every gate and
+  candidate computed to its labeled terminal state. Verdicts: **R1 → COROLLARY** (B494; held-breath law
+  derives from Cantat's method, completeness proven all m; m=7 field corrected) · **R2 → PARTIAL**
+  (B493; derives up to the one pair-specific lemma L5b; the out-of-sample (4,7) prediction HIT,
+  hash-committed) · **Gate A → SEALED** across 13 invariant classes at the computable horizon
+  (B495/B496/B497/B498/B500; one honest index-8 refinement) · **Gate B → REDUCED** (B501; H103 → 28
+  chiral survivors, {4,8} unobstructed to order 4, the involution-IS-θ tangent theorem) · **Gate C →
+  CLOSES** (B502; the commensurator ℤ/3 is the trinification-3, never a generation-3) · **Gate D →
+  DATA-BANKED** (B499; two DG-type conjectures, no spectral pooling) · **tower prize →
+  SHARPER-REDUCTION** (B503; the filtration theorem forces the Sym⊗det block form for all n, the n=5
+  wall located). No COUNTEREXAMPLE, no OPENS, no SURPRISE — the firewall held throughout.
+  **The Origin Postulate's non-drift lock fired: REFUTED-AS-STATED, bounded** (owner-adjudicated
+  2026-07-10) — the strong generative claim (the object *produces* physics at the interface) dies by its
+  own criterion; the structural theorem (form, not values) is the standing result; the residual interface
+  is named, not conquered. Full record: `docs/CLOSURE_2026-07-10.md`; north-star verdict:
+  `philosophy/THE_ORIGIN_POSTULATE.md`; specialist package (regenerated, F4-clean): `docs/outreach/`.
+  The program's live home is now mathematics (specialist-gated) + the firewalled philosophy.
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
   Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
   behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its

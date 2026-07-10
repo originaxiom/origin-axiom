@@ -74,3 +74,51 @@ verify-not-drift, and this is the verify.
 
 *Locked 2026-07-05. Firewalled motivation, per the program's discipline: the motivation is kept and
 made precise, not deleted; the firewall is what lets us hold it without drifting.*
+
+---
+
+## THE VERDICT (2026-07-10) — the non-drift lock fires: REFUTED-AS-STATED, bounded
+
+**The postulate committed, in advance, to a failure criterion. The criterion is met. We say so plainly.**
+
+All three interface targets this document named — the seam √−15, the 3d→4d lift, the peripheral/boundary
+character variety — have been constructed and tested against the four-part bar (FORCED · UNSOUGHT · EXACT
+· CONTROLLED), across the prior arcs and the 2026-07-09/10 Closure Campaign:
+
+- **the seam:** the Child Program (the forced Meyerhoff child 4₁(5,1)) falsified *"physics is what the
+  object produces"* at every computable floor (the three-tier Inversion Law — nothing figure-eight-unique
+  survives the surgery, failing CONTROLLED against the 5₂ neighbour); the Closure Campaign's B493 then
+  showed the seam's own selection law is *internal structure*, derivable from the object's CRT/character
+  machinery — not a physical value;
+- **the 3d→4d lift:** T-NOGO-DGG (B490) closes the entire DGG route by theorem; the value-hunt null test
+  (B322, p≈0.5) showed the Dehn-filling invariants match the SM parameters at chance;
+- **the peripheral character variety:** Gate C (B502) closes the generation-multiplicity route (the
+  intrinsic ℤ/3 is the trinification-3, never a generation-3); Gate B (B501) remains specialist, but even
+  its realization *tests whether structure becomes dynamics — it does not extract SM values from the
+  single seed.*
+
+**No constructed interface entry cleared the four-part bar.** The first disjunct of the non-drift lock is
+satisfied on the targets the postulate itself named. Therefore the **strong generative postulate — that
+the object *produces* physics at the interface — is REFUTED.**
+
+**The bound (both constitutional clauses honored).** The refutation is *precisely scoped*, not total:
+
+- **What survives, strengthened:** the **structural theorem** (`../knowledge/K020`) — *the object forces
+  the form/structure of physics (E₆, the two arithmetic ends, the cascade skeleton, κ, the Kostant
+  exponents) and provably never the values* — is **not** refuted; it is the standing, proven result, and
+  the campaign only reinforced it (every discrete-invariant class it tested sealed the same way).
+- **What is not claimed** (`../GOVERNANCE.md` §6.1 C-guardrail): the interface is **not proven
+  exhausted**; a true boundary and an over-fit absorbing frame are observationally identical from inside
+  (`K020` §6a). The residual interface space is **named, not conquered**. "Refuted-as-stated" means the
+  program's own bar was applied to the entries actually constructed and none cleared it — not "no D can
+  ever exist."
+
+**The honest reading:** the program did not fail to find physics in the object; it *proved* the single
+object cannot supply physical values, only their form — with its falsification discipline fully intact.
+That is a genuine scientific result, and stating it plainly is what this clause was written to make
+possible. The program's live home is now **mathematics** (specialist-gated: the two novelty candidates,
+the tower filtration theorem, the new lemmas — see `../docs/CLOSURE_2026-07-10.md`) and the **firewalled
+philosophy** (`P000` — untouched; it was always motivation, never a claim to produce physics).
+
+*Owner-adjudicated 2026-07-10 (refuted-as-stated, bounded). The postulate text above is preserved
+unedited as the hypothesis that was held and honestly tested; this verdict is its resolution.*

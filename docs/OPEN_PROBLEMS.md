@@ -1,5 +1,19 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+> **⚑ Post-campaign status (2026-07-10, THE CLOSURE CAMPAIGN — `docs/CLOSURE_2026-07-10.md`).** The four
+> gates below were computed to their labeled terminal state. **Gate A: SEALED** across 13 invariant
+> classes at the computable horizon (adjoint torsion, CS/η, extended-Bloch, SL(3) gluing, covers ≤ 8, +
+> the 8 prior — one mechanism; the universal statement stays open per the C-guardrail). **Gate B:
+> REDUCED** — the chiral 2T↪E₆ search narrowed 70262 → 28 explicit survivors, the {4,8} sector is
+> unobstructed through order 4, and the manifold's involution *is* θ on the tangent (new theorem); the
+> exceptional state integral stays specialist. **Gate C: CLOSED** — the commensurator ℤ/3 is the
+> trinification-3, never a generation-3 (the ramified 3 is a unit mod 4). **Gate D: DATA-BANKED** — two
+> DG-type conjectures at κ=√3·e^{±iπ/6}, no spectral pooling; the rigorous theorem stays specialist. The
+> regenerated, F4-clean specialist package is `docs/outreach/`. The gate text below is preserved as the
+> pre-campaign handoff; the campaign sharpened every gate but changed none of its specialist character.
+
+
+
 > The single self-contained statement of what is left, written so a specialist (or a future session with new tools)
 > can pick each gate up cold. Governed by `GOVERNANCE.md` (firewall: physics stays firewalled; nothing here promotes to
 > `CLAIMS.md`). Written 2026-07-01, after the recontextualization audit + masterplan

@@ -380,3 +380,29 @@ anchor-commit: `d9f870e23d494b67277c4b2b86f4b8a99635769c`
    end-to-end for the first time: 99.8% of locks reproduced on a fresh machine, every failure was
    explainable and is now fixed, and the two failures that were *not* governance were exactly the
    disclosed regression-guard class biting — now witness-pinned.
+
+# Review 11 — 2026-07-10 (THE CLOSURE CAMPAIGN, Phases 1–5)
+
+anchor-commit: `76520c0`
+
+1. **Scope:** the owner-approved full closure sequence, B493–B503 (11 pre-registered probes) plus the
+   Phase-5 close (THE CLOSURE document, the regenerated specialist package, the Origin-Postulate
+   adjudication). Every probe: prereg committed before compute, independently re-run, lock-tested,
+   gate-checked, banked on `closure/phase1-duels`.
+2. **Mechanical check:** each probe's lock green on re-run (B493 8/8, B494 11/11, B495 13/13, B496
+   12/12, B497 14/14, B498 11/11, B499 11/11, B500 9/9, B501 10+2slow, B502 16/16, B503 10/10); gates
+   7/7 after each atlas re-mine; no regressions in sibling locks.
+3. **Verdicts (nothing promoted; firewall intact):** R1 COROLLARY, R2 PARTIAL (+ hash-committed
+   out-of-sample HIT), Gate A SEALED ×5 (13 classes total), Gate B REDUCED ×3, Gate C CLOSES, Gate D
+   DATA-BANKED, tower SHARPER-REDUCTION. No COUNTEREXAMPLE / OPENS / SURPRISE.
+4. **Corrections propagated (F4):** the d=5 (ℚ(√41)) and d=7 (ℚ(√−239)) held-breath field labels — both
+   the norm-vs-field conflation — corrected in B479, the outbound note, and the new `docs/outreach/`
+   package (present only as withdrawn statements). The F9 witness pin (Phase 0) holds.
+5. **The adjudication:** the Origin Postulate's non-drift lock was met on the interface targets it named;
+   owner-adjudicated **REFUTED-AS-STATED, bounded** — strong generative claim refuted, structural
+   theorem the standing result, residual interface named not conquered. Recorded on the north-star
+   document and in THE CLOSURE.
+6. **Net:** the program reached its honest terminal state — compute-saturated, every gate at its sharpest
+   specialist form or closed, the founding hypothesis tested to its own criterion and resolved plainly.
+   The falsification discipline did exactly what it was built to do: it let the program say "refuted"
+   about its own founding hope, precisely bounded, with the real result (the structural theorem) intact.
