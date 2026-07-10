@@ -75,3 +75,4 @@ output the exercise licenses) are in `PHYSICS_EXERCISE.md`; the top one, **S012 
 `ρ_n` proof directly.
 - S062 the singular monoid — Thue-Morse as the cancellation verb (det 0); the interaction lens for B496
 - S063 the four verbs — the firewalled physics reading of the B497 monoid strata (evolution/renormalization/decoherence/erasure)
+- S064 the BTZ 3·7 hook — S_BTZ(x=5)=log((5+√21)/2), √21=√(3·7): Eisenstein prime × Niven-excluded prime; firewalled, from B520.
