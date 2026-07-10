@@ -123,3 +123,14 @@ def test_lorentzian_signature_is_generic():
     assert sig(x**4 - x**3 - x**2 - x - 1) == (3, 1)          # tetranacci: ALSO (3,1) => generic
     assert sig(x**4 - 4*x**2 + 1) == (4, 0)                   # totally real => Euclidean (splitting-type dependent)
     assert sig(x**4 + 1) == (2, 2)                            # totally complex => (2,2); so (3,1) is the (2,1)-class, generic
+
+
+def test_lyapunov_signature_also_generic():
+    import numpy as np
+    def sig(M):
+        exps = np.log(np.abs(np.linalg.eigvals(np.array(M, dtype=float))))
+        return (int(np.sum(exps > 1e-9)), int(np.sum(exps < -1e-9)))
+    Mstar = [[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]]
+    tetra = [[1, 1, 1, 1], [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]
+    assert sig(Mstar) == (1, 3)     # golden Lyapunov (3,1)
+    assert sig(tetra) == (1, 3)     # tetranacci: ALSO (3,1) => generic, not golden-forced
