@@ -10335,6 +10335,40 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B499": {
+   "slug": "nonhermitian dg data",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B124",
+    "B163",
+    "B165",
+    "B186",
+    "B285",
+    "B317",
+    "B451",
+    "B67",
+    "K007",
+    "K010",
+    "K020",
+    "L19",
+    "L20"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B49": {
    "slug": "sl3 certificate proof hardening",
    "motifs": [],

@@ -1,0 +1,274 @@
+{
+ "probe": "B499",
+ "prereg": "CL-3D (docs/CLOSURE_CAMPAIGN_2026-07.md)",
+ "params": {
+  "lam_object": "exp(i pi/3)  (kappa = 2 + lam^2 = sqrt(3) e^{i pi/6})",
+  "escape": {
+   "R": 20.0,
+   "Kmax_line": 30,
+   "Kmax_2d": 60,
+   "line_pts": 400,
+   "fit_window": "1e-3 < f < 0.5 (B186 verbatim)"
+  },
+  "eplane_window": [
+   -2.6,
+   3.2,
+   -0.4,
+   1.4
+  ],
+  "eplane_grid": [
+   800,
+   300
+  ],
+  "finegrid": [
+   1920,
+   720
+  ],
+  "slice_window": [
+   -2.0,
+   2.0,
+   -2.0,
+   2.0
+  ],
+  "slice_grid": [
+   500,
+   500
+  ],
+  "depths_golden": {
+   "d11": 233,
+   "d13": 610,
+   "d14": 987,
+   "d15": 1597
+  },
+  "pseudospectra": {
+   "sizes": [
+    233,
+    610
+   ],
+   "grid_233": [
+    96,
+    44
+   ],
+   "grid_610": [
+    64,
+    30
+   ],
+   "invit_iters": 10,
+   "svd_validation_pts": 150,
+   "eps_decades": [
+    -1.0,
+    -1.5,
+    -2.0,
+    -2.5,
+    -3.0,
+    -4.0,
+    -5.0
+   ]
+  },
+  "seed": 0
+ },
+ "exact": {
+  "kappa": "sqrt(3) e^{i pi/6}",
+  "kappa_minus_2": "zeta_3 (primitive cube root of 1)",
+  "coupling": "e^{i pi/3} (primitive 6th root of 1)",
+  "conjugate_pair_is_galois_orbit": true,
+  "void_jacobian": "{phi^2, -1, 1/phi^2}"
+ },
+ "controls": {
+  "gamma_lam3_anchor": 0.5094,
+  "gamma_lam3_banked": 0.51,
+  "gamma_V1": 0.1389,
+  "gamma_band": 0.0,
+  "band_nonescaping_fraction": 0.5714,
+  "band_expected": 0.5714,
+  "mst_V1_d13_d15": [
+   0.1641,
+   0.1641
+  ],
+  "mst_band_d13_d15": [
+   0.0052,
+   0.002
+  ],
+  "boxdim_V1_d13": 1.071,
+  "boxdim_band_d13": 1.103,
+  "kt_median_eigs_vs_generic_V1": [
+   17.0,
+   7.0
+  ]
+ },
+ "escape": {
+  "gamma_2d_object": 0.5138,
+  "survivor_counts_K0_40_step4": [
+   240000,
+   187770,
+   32496,
+   4034,
+   500,
+   64,
+   8,
+   2,
+   0,
+   0,
+   0
+  ],
+  "real_section_survivors": 0,
+  "kt_median_eigs_vs_generic": [
+   16.0,
+   5.0
+  ],
+  "slice_xy": {
+   "z+": {
+    "gamma": 0.607,
+    "survivors_K40": 0
+   },
+   "z-": {
+    "gamma": 0.533,
+    "survivors_K40": 0
+   }
+  },
+  "diagonal_line_survivors": 3538,
+  "diagonal_cap_object_level_escape_times": [
+   8,
+   4,
+   7
+  ],
+  "conjugate_mirror_exact": true
+ },
+ "pseudospectra": {
+  "smin_validation_max_relerr": 0.0356,
+  "amplification_max": {
+   "object_233": 3.16,
+   "object_610": 2.94,
+   "hermitian_control_233": 1.0
+  },
+  "condV": {
+   "89": 6.78,
+   "144": 9.24,
+   "233": 10.77,
+   "377": 14.17,
+   "610": 17.41
+  },
+  "condV_growth_exponent": 0.481,
+  "condV_610": 17.41,
+  "eps_list": [
+   -1.0,
+   -1.5,
+   -2.0,
+   -2.5,
+   -3.0,
+   -4.0,
+   -5.0
+  ],
+  "eps_areas_object_233": [
+   1.3494,
+   0.4319,
+   0.0997,
+   0.0102,
+   0.0026,
+   0.0,
+   0.0
+  ],
+  "eps_areas_object_610": [
+   1.3314,
+   0.4629,
+   0.1829,
+   0.0343,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "eps_areas_control_233": [
+   0.564,
+   0.1974,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "eps_area_slope": 1.132,
+  "d_eff_from_eps_areas": 0.868,
+  "obc_pbc_hausdorff_over_diam": {
+   "object": 0.0385,
+   "control": 0.0305
+  }
+ },
+ "dimension": {
+  "mst_object_d13_d14_d15": [
+   0.1304,
+   0.1307,
+   0.1305
+  ],
+  "boxdim_cloud_object": [
+   0.932,
+   1.009,
+   1.053
+  ],
+  "escape_boxcount": {
+   "10": {
+    "boxes": [
+     16630,
+     4370,
+     1202,
+     364,
+     120,
+     43
+    ],
+    "slope": 1.722
+   },
+   "12": {
+    "boxes": [
+     6271,
+     1775,
+     548,
+     191,
+     79,
+     36
+    ],
+    "slope": 1.492
+   },
+   "14": {
+    "boxes": [
+     2462,
+     826,
+     326,
+     139,
+     61,
+     31
+    ],
+    "slope": 1.259
+   },
+   "16": {
+    "boxes": [
+     1106,
+     479,
+     228,
+     117,
+     58,
+     30
+    ],
+    "slope": 1.032
+   }
+  },
+  "bracket": "box-dim(non-escaping E-plane set) ~ 1.0-1.3 (resolution-limited upper estimates); zero 2D Lebesgue measure (exponential escape)"
+ },
+ "symmetry": {
+  "conjugate_pair_exact": true,
+  "complex_symmetric": true,
+  "pt_reality": false,
+  "pt_asymmetry": 0.3154,
+  "min_Im_spec_233": 0.1998,
+  "max_Im_spec_233": 0.8028
+ },
+ "verdict": {
+  "outcome": "DATA-BANKED",
+  "enum": [
+   "DATA-BANKED",
+   "SURPRISE"
+  ],
+  "no_pooling_no_positive_measure": true,
+  "conjecture_D1": "DATA-SUPPORTED CONJECTURE (not a claim). Non-Hermitian Damanik-Gorodetski at the object's level: for kappa = sqrt(3) e^{+-i pi/6} (kappa-2 = zeta_3, coupling lam = e^{+-i pi/3}), the Fibonacci trace map T(x,y,z) = (2xy-z, x, y) restricted to the complex level surface I = (kappa-2)/4 is uniformly hyperbolic on its non-escaping set (a complex horseshoe in the Bedford-Smillie sense), the Schrodinger line ((E-lam)/2, E/2, 1) meets its stable lamination in a compact, totally disconnected set Sigma of zero Lebesgue area in the E-plane with box dimension ~ 1, and Sigma is the spectrum of the non-self-adjoint metallic operator H = Delta + lam*chi_Fib (Hausdorff limit of the approximant spectra, boundary-condition independent).",
+  "conjecture_D2": "DATA-SUPPORTED CONJECTURE (not a claim). Spectral-pseudospectral correspondence: the non-self-adjoint cocycle at the object's kappa is complex symmetric with only POLYNOMIALLY growing eigenvector condition numbers (cond(V) ~ n^0.5), so the eps-pseudospectra of the approximants converge to the eps-neighborhood of Sigma with amplification bounded polynomially in volume -- no spectral pooling, no Hatano-Nelson-type boundary sensitivity; DG-type spectral data survive non-self-adjointness at this kappa."
+ },
+ "runtime_seconds": 150.8
+}
