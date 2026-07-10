@@ -109,3 +109,16 @@ def test_reading_double_uniquely_coherent():
     assert not new_and_coherent(tensor)      # reducible
     assert not new_and_coherent(summ)        # reducible
     assert new_and_coherent(double)          # the unique new coherent object
+
+
+def test_lorentzian_signature_is_generic():
+    # trace-form signature (r1+r2, r2): golden beta AND controls all give (3,1) => generic, not object-forced
+    def sig(poly):
+        K = sp.Poly(poly, x); n = K.degree()
+        roots = K.all_roots()
+        r1 = sum(1 for r in roots if abs(complex(sp.N(r, 25)).imag) < 1e-12)
+        return (r1 + (n - r1)//2, (n - r1)//2)
+    assert sig(x**4 - 2*x**3 - 5*x**2 - 4*x - 1) == (3, 1)   # golden beta: Lorentzian
+    assert sig(x**4 - x - 1) == (3, 1)                        # child field -283: ALSO (3,1) => generic
+    assert sig(x**4 - x**3 - x**2 - x - 1) == (3, 1)          # tetranacci: ALSO (3,1) => generic
+    assert sig(x**4 - x**3 - 2*x**2 + 1) == (2, 2)            # two-complex-pair: (2,2) => not all quartics
