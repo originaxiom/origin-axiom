@@ -1677,3 +1677,14 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   square-time question IS the character variety's covering question; the ends are the branch points.
   CORRECTED the handoff's mechanism wording: not a quadratic twist (j differs) — Jacobian + 2-isogeny.
   Flag discharged; 283-airlock unaffected. Sixth arc error caught by verification.
+
+- **B511 PHYSICS VERDICT CAMPAIGN launched (2026-07-11).** The terminal exploration: six doors, each
+  physics(via B398)-or-CLOSED, "promising" banned. Phase A: D0_GATES.md (emergence bar as per-cell
+  checklist; T-SIG/T-GAUGE/T-GEN/T-SCALE operationalized structure-only; Bhargava quartic-density base
+  rate committed; 283/40a airlocks). **DOOR D5 (generation) = CLOSED (control-fired):** the only
+  forced-3 candidate is the Chebyshev m+1 of the squaring verb (the m-power verb fixes torsion m±1 for
+  every m; m=2→3 is 2+1, generic); the minimal singular verb fixes a whole κ=2 curve; the program's
+  three 3s (heptagonal C3 / 40a 2-isogenies / D-line) are categorically distinct. T-GEN fails the
+  control gate. D3 (measure) partial: stationary measure → classical floor κ=2 with any decimation;
+  the M-walk occupation is one-sided (negative-drift, re-confirms B506); verdict deferred. Depth-5
+  child hunt still streaming (no airlock). Lit-gate battery pending next research pass.

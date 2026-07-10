@@ -251,3 +251,14 @@ results), and the √−7 deflation (B461).
   handoff corrections; C3 E-data). OPEN: **Q2 depth-3 monopoly verdict (computing)**; Q3–Q5; lit-gates (Cantat–Dujardin, Axel–Peyrière).
 - **Parallel:** the Closure Campaign (Fable-5, `closure/phase1-duels`) runs separately — B493–B495
   reserved to it; merge-with-verification when it closes. The cosmogony sweep (gitignored) at C1/7.
+
+## 2026-07-11 — the PHYSICS VERDICT CAMPAIGN (B511, terminal)
+
+Six doors, physics-via-B398 or CLOSED; no "promising". D0 gates executable + base rates committed.
+- **D5 generation: CLOSED (control-fired)** — the forced-3 candidate is generic Chebyshev m+1; T-GEN
+  fails the control gate.
+- **D3 measure: PARTIAL** — measure → classical floor κ=2; arcsine falsified by negative drift; both
+  re-confirm B506/B507; D3.3/D3.4 + verdict = Session 2.
+- **D4 gauge / D1 spectral / D2 time-tower / D6 signature: OPEN** — queued (D4 rides the wild census;
+  D1/D2 are heavy pilots; D6 threads D3).
+- Depth-5 child hunt: streaming, no airlock. Lit-gate battery: pending next research pass.
