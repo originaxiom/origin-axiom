@@ -86,3 +86,10 @@ def test_perron_nesting():
     Ms = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
     v = sp.Matrix([phi, 1, phi*sq, sq])
     assert sp.simplify(Ms*v - beta*v) == sp.zeros(4, 1)
+
+
+def test_oneway_coupling_reducible():
+    # grounding for assumption (3): an identity cross-channel (one-way) bootstrap is reducible
+    Mtri = sp.Matrix(sp.BlockMatrix([[F, F], [sp.zeros(2), F]]))
+    cp = sp.factor(Mtri.charpoly(x).as_expr())
+    assert cp == (x**2 - x - 1)**2   # reducible: two separate Fibonacci copies, not a new object
