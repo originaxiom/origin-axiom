@@ -46,3 +46,24 @@ def test_b507_beta_gates_and_zero():
     lo = gM[(kap > -0.3) & (kap < -0.1)].mean()
     hi = gM[(kap > 0.1) & (kap < 0.3)].mean()
     assert lo < 0 < hi                                               # the zero sits at ~0
+
+
+def test_delta_geo_parabolic():
+    mp.mp.dps = 25
+    x = mp.mpc(1.5, mp.sqrt(3)/2); y = x/(x - 1); z = y
+    ze = (z + mp.sqrt(z*z - 4))/2
+    A = mp.matrix([[x, -1], [1, 0]]); B = mp.matrix([[0, ze], [-1/ze, y]])
+    Ap = A*B*A; Bp = A*B
+    rows = []
+    for (Mat, N) in [(A, Ap), (B, Bp)]:
+        for i in range(2):
+            for j in range(2):
+                r = [mp.mpc(0)]*4
+                for k in range(2):
+                    r[2*i + k] += Mat[k, j]; r[2*k + j] -= N[i, k]
+                rows.append(r)
+    U, S, V = mp.svd(mp.matrix(rows))
+    t = [V[3, k].conjugate() for k in range(4)]
+    T = mp.matrix([[t[0], t[1]], [t[2], t[3]]])
+    Tn = T/mp.sqrt(T[0, 0]*T[1, 1] - T[0, 1]*T[1, 0])
+    assert abs((Tn[0, 0] + Tn[1, 1])**2 - 4) < mp.mpf('1e-18')
