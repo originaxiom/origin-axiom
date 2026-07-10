@@ -1,0 +1,39 @@
+B500 child hunt: target d_K=-283
+depth-4 all-three-verb words: 36
+FFMD: eliminant deg 16; wild/notable: ['deg9 ord362880 NONAB']
+FFDM: eliminant deg 13; wild/notable: ['deg5 ord120 NONAB']
+FMFD: eliminant deg 24; wild/notable: none
+FMMD: eliminant deg 35; wild/notable: none
+FMDF: eliminant deg 300; wild/notable: ['deg9 ord362880 NONAB']
+FMDM: eliminant deg 22; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+FMDD: eliminant deg 63; wild/notable: none
+FDFM: eliminant deg 21; wild/notable: none
+FDMF: eliminant deg 316; wild/notable: ['deg5 ord120 NONAB']
+FDMM: eliminant deg 22; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+FDMD: eliminant deg 36; wild/notable: none
+FDDM: eliminant deg 404; wild/notable: ['deg10 ord3628800 NONAB']
+MFFD: eliminant deg 16; wild/notable: ['deg5 ord120 NONAB']
+MFMD: eliminant deg 22; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+MFDF: eliminant deg 468; wild/notable: none
+MFDM: eliminant deg 22; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+MFDD: eliminant deg 22; wild/notable: ['deg10 ord3628800 NONAB']
+MMFD: eliminant deg 22; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+MMDF: eliminant deg 952; wild/notable: none
+MDFF: eliminant deg 635; wild/notable: ['deg9 ord362880 NONAB']
+MDFM: eliminant deg 36; wild/notable: none
+MDFD: eliminant deg 36; wild/notable: none
+MDMF: eliminant deg 768; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+MDDF: eliminant deg 1056; wild/notable: none
+DFFM: eliminant deg 16; wild/notable: ['deg9 ord362880 NONAB']
+DFMF: eliminant deg 424; wild/notable: none
+DFMM: eliminant deg 35; wild/notable: none
+DFMD: eliminant deg 63; wild/notable: none
+DFDM: eliminant deg 1040; wild/notable: none
+DMFF: eliminant deg 444; wild/notable: ['deg5 ord120 NONAB']
+DMFM: eliminant deg 22; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+DMFD: eliminant deg 22; wild/notable: ['deg10 ord3628800 NONAB']
+DMMF: eliminant deg 828; wild/notable: ['deg5 ord120 NONAB', 'deg5 ord120 NONAB']
+DMDF: eliminant deg 932; wild/notable: none
+DDFM: eliminant deg 2512; wild/notable: none
+DDMF: eliminant deg 852; wild/notable: ['deg10 ord3628800 NONAB']
+HUNT COMPLETE

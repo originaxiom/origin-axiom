@@ -1659,3 +1659,8 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   golden and heptagonal fields; FDD births escalating real-cyclotomic towers (ζ₁₁⁺, deg-8/9). MFD =
   named gap (resultant vanishes; saturation needed). Interaction creates both torsion towers AND wild
   S₄ arithmetic. Value-question live only via B398.
+
+- **B500 child hunt, depth 4 (2026-07-10): NO AIRLOCK** — the child field not found (36/36 words
+  clean); depth 5 remains. **The wild ladder discovered:** depth 4 births S₅, S₉, S₁₀ (full symmetric
+  groups, escalating with word length) — the interaction grammar is maximally wild; selection (B501
+  measure, B502 parity) is now the question. Five probes preregistered (PR #717); B499 census armed.
