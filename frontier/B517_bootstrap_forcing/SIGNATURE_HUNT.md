@@ -54,7 +54,7 @@ GENERIC.** Running the identical computation on controls:
 |---|---|---|
 | golden M* | (1,3)=(3,1) | yes |
 | **tetranacci** (x⁴−x³−x²−x−1, NON-golden) | **(1,3)=(3,1)** | **yes** |
-| child-type x⁴−x−1 (2 complex pairs) | (2,2) | — |
+| child-type x⁴−x−1 | (1,3) Stein [CORRECTED: 3 unstable+1 stable, NOT (2,2)] | — |
 
 Tetranacci — a completely non-golden quartic Pisot — gives the IDENTICAL (3,1) + (2+1) structure. So
 the Lyapunov form's existence AND its (2+1) anisotropy are generic to the **(2-real,1-complex) splitting
@@ -70,3 +70,37 @@ CLOSED** — chat1's own C1 control, now executed, confirms it. Chat1's dynamica
 of object and its honest framing was correct; the control delivers the verdict it anticipated. (Chat1's
 C3/Malament — does the FULL Level-1 monoid preserve one cone — remains the one un-run distinguisher, but
 it too would need to beat the same splitting-type genericity.)
+
+
+---
+## Addendum 2 (2026-07-12): the EXACT rational Stein form [cross-seat GPT-5.6, re-derived] + a correction
+**Chat3/GPT-5.6 supplied the exact rational Lyapunov/Stein representative of the (1+3) split; verified
+here by independent recomputation (no files ingested).** For the golden Rauzy incidence M∗, the discrete
+Stein equation **MᵀGM − G = −I₄** has the unique symmetric solution
+```
+G = (1/11) [[12,−8,−5,−4],[−8,20,−4,−1],[−5,−4,14,−13],[−4,−1,−13,27]]
+```
+Verified EXACT: symmetric; residual MᵀGM−G+I = 0; det G = −9/11; leading minors 12/11, 16/11, 12/11,
+−9/11; **signature (3,1)**; the Perron vector is TIMELIKE (q<0); positive on the 3d contracting/Rauzy
+space. **Strict cone identity: q(Mx) = q(x) − |x|²** — so M is a *dissipative* Lorentzian map (the
+future cone is strictly preserved, not isometrically). This upgrades the qualitative Lyapunov (1+3)
+split to an exact rational metric.
+
+**CORRECTION (owned): my Lyapunov control listed x⁴−x−1 as "(2 complex pairs) → (2,2)". WRONG** — x⁴−x−1
+has 2 real + 1 complex pair, and its Stein inertia (stable,unstable) is **(1,3)** (3 unstable, 1 stable).
+Corrected. Controls (Stein inertia = the stable/unstable split): golden (3,1), tetranacci (3,1) [both
+Pisot: exactly 1 unstable], silver (2,2) [not Pisot: 2 unstable], x⁴−x−1 (1,3) [not Pisot: 3 unstable].
+So the **(3,1) Stein signature IS the Pisot condition** (1 expanding direction) — generic to Pisot
+quartics; tetranacci shares it. **Genericity verdict UNCHANGED; D6 STAYS CLOSED.**
+
+**The remaining canonicity gap (honest):** M alone does NOT fix a unique metric — for every W≻0,
+MᵀG_W M − G_W = −W has a unique causal form, and W=I (atomic) vs invariant-frequency weighting give
+non-proportional G's. The open question: does the Origin object force a unique positive one-step form W
+(up to scale + substitution equivalences: relabeling, copy-exchange, reordering, state-splitting, strong
+shift equivalence, conjugacy)? Un-run.
+
+**Claim boundary (KNOWN-THEOREM APPLICATION — the discrete Stein/Lyapunov inertia theorem, W≻0):** SAFE
+— the exact rational Stein solution, uniqueness for the chosen W, Lorentzian inertia, strict future-cone
+preservation, positive metric on the Rauzy stable space, the controls. NOT CLAIMED — physical spacetime,
+Lorentz-invariant dynamics, a 4-manifold, GR, object-unique (3,1), or reopening D6. The evolution is
+dissipative (q(Mx)−q(x) = −xᵀWx). Firewalled.

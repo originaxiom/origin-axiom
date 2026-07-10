@@ -1734,3 +1734,10 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   BOTH a dyadic ½-gap (absent in pure Fib) AND a golden 0.618-gap (absent in pure TM); a 2×2
   spectrometer table a lab can check. Per the absorbing-loop caveat, A+C confirm structure; only B can
   confirm a crossing. Locks pass. Open: B's N-scaling rigor, A2 (RG basin), the P5 + experiment write-up.
+
+- **B517 refinement (2026-07-12, cross-seat GPT-5.6): the exact rational Stein metric.** MᵀGM−G=−I₄,
+  G=(1/11)[[12,−8,−5,−4],…], signature (3,1), strict cone identity q(Mx)=q(x)−|x|² (dissipative
+  Lorentzian) — the qualitative Lyapunov (1+3) split upgraded to an exact rational metric, re-derived
+  independently. CORRECTED my x⁴−x−1 Lyapunov control (mislabeled (2,2) → true Stein inertia (1,3));
+  (3,1)=the Pisot condition, generic (tetranacci also (3,1)), D6 stays closed. Canonicity gap: the
+  one-step form W unselected. KNOWN-THEOREM/FIREWALLED; no physical-spacetime claim. Locks pass.

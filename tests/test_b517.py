@@ -134,3 +134,28 @@ def test_lyapunov_signature_also_generic():
     tetra = [[1, 1, 1, 1], [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]
     assert sig(Mstar) == (1, 3)     # golden Lyapunov (3,1)
     assert sig(tetra) == (1, 3)     # tetranacci: ALSO (3,1) => generic, not golden-forced
+
+
+def test_exact_stein_form():
+    # the exact rational Stein metric (cross-seat, re-derived): M^T G M - G = -I, sig (3,1), cone identity
+    M = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
+    G = sp.Rational(1, 11)*sp.Matrix([[12, -8, -5, -4], [-8, 20, -4, -1],
+                                      [-5, -4, 14, -13], [-4, -1, -13, 27]])
+    assert G == G.T
+    assert M.T*G*M - G + sp.eye(4) == sp.zeros(4)        # M^T G M - G = -I exact
+    assert sp.det(G) == sp.Rational(-9, 11)
+    xv = sp.Matrix(sp.symbols('v0:4'))
+    q = lambda z: (z.T*G*z)[0]
+    assert sp.expand(q(M*xv) - q(xv) + (xv.T*xv)[0]) == 0   # cone identity q(Mx)=q(x)-|x|^2
+
+
+def test_stein_inertia_correction():
+    import numpy as np
+    def sig(coeffs):
+        n = len(coeffs) - 1; C = np.zeros((n, n)); C[1:, :-1] = np.eye(n - 1)
+        C[:, -1] = [-coeffs[i]/coeffs[0] for i in range(n, 0, -1)]
+        ev = np.abs(np.linalg.eigvals(C))
+        return (int(sum(ev < 1)), int(sum(ev > 1)))
+    assert sig([1, -2, -5, -4, -1]) == (3, 1)   # golden: Pisot, 1 unstable
+    assert sig([1, -1, -1, -1, -1]) == (3, 1)   # tetranacci: also (3,1) => generic
+    assert sig([1, 0, 0, -1, -1]) == (1, 3)     # x^4-x-1: CORRECTED (3 unstable), was mislabeled (2,2)
