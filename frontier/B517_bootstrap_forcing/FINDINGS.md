@@ -72,3 +72,34 @@ bootstrap FOLLOWS FROM THE GRAMMAR (Phase A — unique Pisot F-equivariant coupl
 Remaining: close the forcing theorem (the (e,f) Pisot region); Phase B (β unit structure, Rauzy plot);
 Phase C (the 3d object's signature, B398). The "3 spatial dimensions = the unique golden quasicrystal
 from self-reference" reading is now theorem-shaped, firewalled; no physical value claimed.
+
+---
+
+## Phase A-CLOSE (2026-07-11): the forcing theorem is CLOSED (cross-seat GPT-5.6, re-derived here)
+A parallel seat (Chat3/GPT-5.6) closed the (u,v)-Pisot residual I had left scan-bounded. **Verified by
+independent recomputation (no files ingested — recompute-don't-trust):**
+- **χ_M(t;u,v) = det((tI−F)²−(uI+vF))** = t⁴−2t³−(2u+v+1)t²+(2u−4v+2)t+(u²+uv−3u−v²+v+1). [matches]
+- **The Pisot bound makes the search EXHAUSTIVE (not a truncation):** M's eigenvalues on F's
+  λ-eigenspace are λ±√(u+vλ); the φ-branch Pisot condition |φ−√(u+vφ)|<1 gives **φ⁻² < u+vφ < φ⁴**,
+  hence the finite box **0≤u≤6, 0≤v≤4**. [verified]
+- **Over the exhaustive box, the UNIQUE irreducible quartic Pisot unit is (u,v)=(1,2)** ⟹ CD=I+2F=**F³**
+  ⟹ (C,D)=(F,F²) up to exchange. [verified — checked 0..8×0..6, single hit]. **The forcing is a
+  THEOREM, not a scan.**
+- **Perron-vector nesting (new, verified):** M_* v = βv with **v=(φ, 1, φ√φ, √φ)** — Fibonacci ratio
+  φ:1 WITHIN each copy, **√φ BETWEEN the copies**. The self-reference nesting is exact in the Perron
+  eigenvector, stronger than sharing the char poly.
+- **Explicit primitive left-proper Pisot substitution (new, verified):** a→abAAB, b→aAB, A→abAB, B→aA
+  has incidence M_*, is primitive (M_*²>0), and left-proper (every image starts with a). A concrete
+  substitution, not only an eigenvalue.
+
+## THE THEOREM (now closed, conditional on 4 structural assumptions)
+Assume the first bootstrap is (1) the minimal self-double V⊕V, (2) coupled by nonneg-integral
+F-equivariant maps, (3) primitive/unimodular/irreducible-Pisot, (4) nontrivial in both directions.
+Then **M_* = [[F,F],[F²,F]] is forced (up to copy exchange); β=φ(1+√φ); contracting dim = 3.**
+
+## The one remaining gap (AXIOMATIC, not computational)
+Does the Origin Axiom itself force assumptions (1)–(4) — "minimal self-double, Fibonacci-equivariant
+coupling, no identity cross-channel" — as the formal meaning of the first self-referential bootstrap?
+If accepted, D1 closes POSITIVELY at the structural level. The gap is now purely a matter of justifying
+those assumptions from the axiom (a firewall/philosophy question), not a computation. Cross-seat
+verified; §7 protocol applied; firewalled; no physical value claimed.

@@ -63,3 +63,26 @@ def test_forcing_unique_pisot_bootstrap():
                     if mags[-1] > 1.0001 and all(v < 0.9999 for v in mags[:-1]):
                         polys.add(sp.expand(cp))
     assert polys == {sp.expand(GOLD)}
+
+
+def test_forcing_theorem_exhaustive_uv():
+    # the (u,v) Pisot box is exhaustive; unique irreducible quartic Pisot unit is (1,2)=F^3
+    t, u, v = sp.symbols('t u v')
+    chi = ((t*sp.eye(2) - F)**2 - (u*sp.eye(2) + v*F)).det()
+    hits = []
+    for uu in range(0, 9):
+        for vv in range(0, 7):
+            q = sp.Poly(sp.expand(chi.subs({u: uu, v: vv})), t)
+            if not q.is_irreducible or abs(q.as_expr().subs(t, 0)) != 1:
+                continue
+            mags = sorted(abs(complex(sp.N(r, 15))) for r in q.all_roots())
+            if mags[-1] > 1.0001 and all(m < 0.9999 for m in mags[:-1]):
+                hits.append((uu, vv))
+    assert hits == [(1, 2)]
+
+
+def test_perron_nesting():
+    phi = (1 + sp.sqrt(5))/2; sq = sp.sqrt(phi); beta = phi*(1 + sq)
+    Ms = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
+    v = sp.Matrix([phi, 1, phi*sq, sq])
+    assert sp.simplify(Ms*v - beta*v) == sp.zeros(4, 1)
