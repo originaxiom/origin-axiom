@@ -1648,3 +1648,8 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   the drift ledger (evolution 0 / decoherence 0-critical / decimation −2 / boundary marginal) is
   fully exact. Q2 depth-3 re-launched robustly (streamed results) after a session restart killed
   the first run.
+
+- **B498 Q2 (2026-07-10): THE GOLDEN MONOPOLY IS REFUTED AT DEPTH 3** — matrix-level verified. Newborn
+  fields: ℚ(√3), ℚ(√−3), and ℚ(ζ₇)⁺ (fixed points = the cyclic Galois orbit of 2cos(2π/7)). All newborn
+  fields so far ABELIAN/torsion-shaped → the cyclotomic-tameness candidate law (refutable; the D-heavy
+  words are the named boundary — high-degree minpolys beyond cheap identification). Census streaming.
