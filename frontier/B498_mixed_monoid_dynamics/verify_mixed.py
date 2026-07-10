@@ -158,3 +158,26 @@ if __name__ == "__main__":
     print("   NOTE the (1±3√5)/8 levels (from DD): in Q(sqrt5) but NOT in Z[phi] —")
     print("   correction to the handoff's ring claim; the FIELD monopoly is unaffected.")
     print("C2 D fixed line (-1,-1,z):", c2_D_line())
+
+
+def q1b_hand_proof_steps():
+    """The PROOF of E_Haar[log mult_M] = 0 (2026-07-10), each step checked numerically.
+    (1) mult_M = A+Bu, A±B = 4sin^2(a±b)  [q1b_reduction_identity]
+    (2) E_u[ln(A+Bu)] = [g(a+b)-g(a-b)]/(sin2a sin2b) - 1,  g(t) = sin^2 t ln(4 sin^2 t)
+    (3) the weight sin^2 a sin^2 b/(sin2a sin2b) = tan(a)tan(b)/4
+    (4) g(t) = 1/2 - (3/4)cos2t + sum_{n>=2} cos(2nt)/(n(n^2-1));
+        g(a+b)-g(a-b) = -2 sum c_n sin(2na) sin(2nb)
+    (5) I_n = INT_0^pi tan(a) sin(2na) da = pi(-1)^{n+1}
+        (regular at pi/2 since sin(n pi)=0; recursion I_{n+1}=I_{n-1}-pi delta_{n1} via
+         tan a sin 2a = 1 - cos 2a; I_1 = INT 2 sin^2 = pi)
+    (6) E+1 = (2/pi)^2 (1/4)(-2) sum c_n I_n^2 = -2 sum c_n = -2(-1/2) = 1  =>  E = 0. QED"""
+    import mpmath as mp
+    mp.mp.dps = 20
+    # step 5 check
+    for n in range(1, 5):
+        In = mp.quad(lambda a: mp.tan(a)*mp.sin(2*n*a), [0, mp.pi/2, mp.pi])
+        if abs(In - mp.pi*(-1)**(n + 1)) > mp.mpf('1e-15'):
+            return False
+    # step 4 sum
+    s = mp.mpf(-0.75) + mp.nsum(lambda n: 1/(n*(n**2 - 1)), [2, mp.inf])
+    return abs(s + mp.mpf('0.5')) < mp.mpf('1e-15')

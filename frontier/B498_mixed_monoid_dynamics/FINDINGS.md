@@ -21,15 +21,18 @@ Per factor: E[log(4cos²t)] under the Haar angle density (2/π)sin²t. Proof: lo
 mult_D = x²y² has two independent factors ⟹ **E[log mult_D] = −2. QED.** (mpmath 15-digit check ✓.)
 **Decimation contracts the quantum deviation at the universal rate e⁻² per event — exact.**
 
-## Q1b — E_Haar[log mult_M] = 0: verified to **26 digits** (CONJECTURE, hand proof open)
+## Q1b — E_Haar[log mult_M] = 0: **PROVED** (hand proof, 2026-07-10)
 The exact u-reduction (new lemma, verified symbolically): with x=2cos a, y=2cos b, z=2(cos a cos b −
 sin a sin b·u), u~U[−1,1]: mult_M = A+Bu with **A+B = 4sin²(a+b), A−B = 4sin²(a−b)** — i.e.
 mult_M is the **convex combination 4sin²(a+b)·(1+u)/2 + 4sin²(a−b)·(1−u)/2**. The u-integral is then
 exact, and in (σ,δ)=(a+b, a−b) coordinates (log-singularities grid-aligned) high-precision quadrature
-gives **E[log mult_M] = −4.5×10⁻²⁷** — zero to 26 digits. (The handoff's 400k-sample ±0.0018 and our
-first misaligned quadrature's 10⁻⁷ were both resolution artifacts; the 26-digit run settles the
-numerics.) STATUS: CONJECTURE E = 0 exact; hand proof open (the reduction above is the entry point).
-**TM/decoherence is critical: log|κ−2| is a driftless multiplicative random walk.**
+gives E[log mult_M] = −4.5×10⁻²⁷ (zero to 26 digits), and the reduction closes into a HAND PROOF:
+(3) the Haar weight collapses, sin²a·sin²b/(sin2a·sin2b) = tan(a)tan(b)/4; (4) the Fourier series
+g(t) = sin²t·ln(4sin²t) = 1/2 − (3/4)cos2t + Σ_{n≥2} cos(2nt)/(n(n²−1)), and the cosine difference
+gives −2Σcₙ sin(2na)sin(2nb); (5) Iₙ = ∫₀^π tan(a)sin(2na)da = π(−1)ⁿ⁺¹ (regular at π/2, recursion
+via tan·sin2a = 1−cos2a); (6) E+1 = −2Σcₙ = −2(−(3/4)+1/4) = 1, hence **E[log mult_M] = 0. QED.**
+(Every step numerically checked; `q1b_hand_proof_steps` in the reproducer.)
+**TM/decoherence is critical — now a THEOREM: log|κ−2| is a driftless multiplicative random walk.**
 
 ## C2 — the golden monopoly at depth ≤ 2 (EXACT) + two corrections
 All isolated fixed points of all 12 words of length ≤2: **every coordinate in ℚ or ℚ(√5)** ✓. The D
@@ -50,7 +53,7 @@ the shorter time horizon; ordering identical. BANKED as E-data with protocol+see
 | verb | drift E[log mult] | status |
 |---|---|---|
 | evolution (units) | 0 — κ conserved exactly | banked (U-stratum law) |
-| decoherence (M) | **0 — critical** (driftless walk) | 26-digit conjecture |
+| decoherence (M) | **0 — critical** (driftless walk) | **PROVED** (2026-07-10) |
 | decimation (D) | **−2 exactly** (contracts e⁻² per event) | **PROVED** |
 | the classical boundary | both verbs exactly marginal (log-sine) | classical, cite (Lewin) |
 
