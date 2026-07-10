@@ -102,3 +102,13 @@ B344). The atlas's two dominant walls (scale, 3+1D) are its two faces. Genuinely
 EMBEDDING (the anchor κ−2=4λ², B505 — the object is a scale-free universality class). CAVEAT: the
 absorbing loop (K020 §6a) — from inside, boundary and over-fit frame are identical; distinguished only
 by an external prediction.
+
+## T-STEIN-GOLDEN (B517 refinement, cross-seat GPT-5.6, 2026-07-12) — exact rational Lyapunov metric
+The golden Rauzy incidence M∗=[[F,F],[F²,F]] admits the exact rational Stein solution MᵀGM−G=−I₄,
+G=(1/11)[[12,−8,−5,−4],[−8,20,−4,−1],[−5,−4,14,−13],[−4,−1,−13,27]]: symmetric, det −9/11, **signature
+(3,1)**, Perron timelike, positive on the 3d Rauzy stable space, **strict cone identity q(Mx)=q(x)−|x|²**
+(dissipative Lorentzian). KNOWN-THEOREM APPLICATION (discrete Stein/Lyapunov inertia, W≻0): the (3,1)
+signature = the Pisot condition (1 unstable eigenvalue), GENERIC to Pisot quartics (tetranacci also
+(3,1)); D6 STAYS CLOSED. Corrected the x⁴−x−1 Lyapunov control (was mislabeled (2,2); true Stein
+inertia (1,3)). Canonicity gap: M alone doesn't fix G — the positive one-step form W is unselected.
+NOT claimed: physical spacetime, Lorentz invariance, 4-manifold, object-unique (3,1), reopening D6.
