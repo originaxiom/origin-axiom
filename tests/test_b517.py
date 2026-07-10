@@ -41,3 +41,25 @@ def test_canonical_coupling_golden_specific():
         mags = sorted(abs(complex(sp.N(r, 18))) for r in sp.Poly(M.charpoly(x).as_expr(), x).all_roots())
         return mags[-1] > 1.0001 and all(v < 0.9999 for v in mags[:-1])
     assert pisot(1) and not pisot(2) and not pisot(3)
+
+
+def test_forcing_unique_pisot_bootstrap():
+    # among F-equivariant two-way bootstraps (entries {0,1,2}), the ONLY Pisot irreducible
+    # quartic is the golden one
+    F2 = sp.Matrix([[1, 1], [1, 0]]); I2 = sp.eye(2)
+    polys = set()
+    for a in range(3):
+        for b in range(3):
+            for c in range(3):
+                for d in range(3):
+                    C = a*I2 + b*F2; D = c*I2 + d*F2
+                    if C in (sp.zeros(2), I2) or D in (sp.zeros(2), I2):
+                        continue
+                    M = sp.Matrix(sp.BlockMatrix([[F2, C], [D, F2]]))
+                    cp = M.charpoly(x).as_expr()
+                    if not sp.Poly(cp, x).is_irreducible:
+                        continue
+                    mags = sorted(abs(complex(sp.N(r, 16))) for r in sp.Poly(cp, x).all_roots())
+                    if mags[-1] > 1.0001 and all(v < 0.9999 for v in mags[:-1]):
+                        polys.add(sp.expand(cp))
+    assert polys == {sp.expand(GOLD)}
