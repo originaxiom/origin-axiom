@@ -10335,6 +10335,50 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B498": {
+   "slug": "sl3 gluing galois",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "dickson_tower",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B106",
+    "B108",
+    "B129",
+    "B130",
+    "B153",
+    "B318",
+    "B330",
+    "B348",
+    "B432",
+    "B444",
+    "B495",
+    "B496",
+    "B67",
+    "B71",
+    "B83",
+    "B98",
+    "B99",
+    "K012",
+    "P24",
+    "S032",
+    "V0",
+    "V46",
+    "V47"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B499": {
    "slug": "nonhermitian dg data",
    "motifs": [
