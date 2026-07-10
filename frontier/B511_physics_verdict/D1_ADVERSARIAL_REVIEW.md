@@ -39,3 +39,10 @@ chosen because 4=2×2 gives the golden coupling — but that coupling is the ref
 The banking seat's own prior "the campaign converges on the kill" was itself a premature closure —
 the §7 error applied to the whole verdict. The owner's pushback was the necessary adversarial check.
 Kills need kill-checks. Lock: tests/test_b514.py.
+
+---
+## CORRECTION (2026-07-11, same session): this review's "golden 3d impossible" was WRONG
+The deeper {0,1,2}⁸ scan (owner: "do the calc") found β=φ(1+√φ), a unimodular quartic Pisot number
+whose field contains ℚ(√5) — golden 3d IS reachable (B515). The degree-dimension law was right; my
+"golden ⟹ 1d" application was the error (Perron φ vs field-golden confusion). **D1 REOPENS.** This
+review's D1-closure is RETRACTED; D2/D4/D6 closures stand.
