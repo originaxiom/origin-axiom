@@ -1664,3 +1664,10 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   clean); depth 5 remains. **The wild ladder discovered:** depth 4 births S₅, S₉, S₁₀ (full symmetric
   groups, escalating with word length) — the interaction grammar is maximally wild; selection (B501
   measure, B502 parity) is now the question. Five probes preregistered (PR #717); B499 census armed.
+
+- **B509 (2026-07-11): the square-time curve — RANK 0 PROVED (Sage descent).** The Rationality Theorem
+  is unconditional: over ℚ, geometry-type time on the evolution family exists only at the Markov origin;
+  the bridge opens over ℚ(√5) at the entropy point and ℚ(√−3) at the geometric point. **FLAG (verified,
+  not interpreted): E = 40a3, ISOGENOUS to the program's banked 40a1** (same class/conductor/L-function)
+  — convene-before-interpret per protocol. j-sign corrected (+55296/5). δ-function (B508) and δ_geo=4,
+  δ_M=2 (B504) banked earlier with locks.
