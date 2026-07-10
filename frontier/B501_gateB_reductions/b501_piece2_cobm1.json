@@ -1,0 +1,76 @@
+{
+ "piece": 2,
+ "dps": 100,
+ "rel": "abbbaBAAB",
+ "directions_requested": [
+  "cob",
+  "m1"
+ ],
+ "gauge_fix": true,
+ "deltas": true,
+ "declared": "order-4 obstruction; z2 gauge-fixed at order 3; verdict modulo the z3-shift span; controls: coboundary + m=1",
+ "rep_checks": {
+  "relator": 9.004101278291036e-54,
+  "automorphism": 5.283734453051603e-71
+ },
+ "directions": [
+  {
+   "label": "coboundary",
+   "order3_class_norm": 6.2099419082481696e-87,
+   "z2_ls_residual": 6.859590771155777e-65,
+   "order3_gauge": null,
+   "z3_ls_residual": 2.471165239087585e-67,
+   "gate_P1": 1.180574019126621e-62,
+   "gate_P2": 3.474504912521313e-64,
+   "gate_P3": 1.2113519474840102e-76,
+   "ad_solve_residual": 2.506676431864182e-56,
+   "q4_norm": 3.2162257040992494e-31,
+   "class_abs": [
+    1.1153163949112598e-94,
+    8.044737719447835e-98,
+    7.3050553189554195e-96,
+    3.9879814636628704e-97,
+    3.2502711895576414e-100,
+    4.023509856658958e-99
+   ],
+   "class_norm": 1.1177135576178633e-94,
+   "indeterminacy_rank": null,
+   "transverse_residual": 1.1177135576178633e-94,
+   "mb12_random_residuals": null,
+   "seconds": 826.1
+  },
+  {
+   "label": "m=1",
+   "order3_class_norm": 9.61730117699856e-62,
+   "z2_ls_residual": 1.365504596292341e-63,
+   "order3_gauge": {
+    "rank": 0,
+    "span_residual": 9.61730117699856e-62,
+    "corrected_class_norm": 9.61730117699856e-62
+   },
+   "z3_ls_residual": 5.855909721094826e-63,
+   "gate_P1": 1.4449270027190865e-52,
+   "gate_P2": 5.265543890914476e-52,
+   "gate_P3": 1.387334661449018e-51,
+   "ad_solve_residual": 4.825971855736831e-53,
+   "q4_norm": 18.91115493685978,
+   "class_abs": [
+    2.611928758862156e-61,
+    5.16257128648717e-66,
+    1.279312393628142e-63,
+    1.494844674133172e-63,
+    1.6655109517633857e-66,
+    1.3980836900878035e-64
+   ],
+   "class_norm": 2.6120032387100598e-61,
+   "indeterminacy_rank": 0,
+   "transverse_residual": 2.6120032387100598e-61,
+   "mb12_random_residuals": [
+    1.5496390441711698,
+    2.4848459909790996,
+    1.5529972905847669
+   ],
+   "seconds": 4757.5
+  }
+ ]
+}

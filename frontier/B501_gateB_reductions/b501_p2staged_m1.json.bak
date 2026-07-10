@@ -1,0 +1,34 @@
+{
+ "piece": 2,
+ "dps": 100,
+ "rel": "abbbaBAAB",
+ "rep_checks": null,
+ "directions": [
+  {
+   "label": "m=1",
+   "dps": 100,
+   "mode": "base: minimal-norm defining system (no gauge sweep / span quotient -- budget-capped; safe for unobstructed verdicts: a quotient can only shrink a class)",
+   "order3_class_norm": 9.61730117699856e-62,
+   "order3_q3_norm": 16.422822427806796,
+   "z2_ls_residual": 1.365504596292341e-63,
+   "order3_ad_residual": 2.574480797950136e-53,
+   "z3_ls_residual": 5.855909721094826e-63,
+   "seconds_solve": 413.6,
+   "gate_P1": 1.4449270027190865e-52,
+   "gate_P2": 5.265543890914476e-52,
+   "gate_P3": 1.387334661449018e-51,
+   "ad_solve_residual": 4.825971855736831e-53,
+   "q4_norm": 18.91115493685978,
+   "class_abs": [
+    2.611928758862156e-61,
+    5.16257128648717e-66,
+    1.279312393628142e-63,
+    1.494844674133172e-63,
+    1.6655109517633857e-66,
+    1.3980836900878035e-64
+   ],
+   "class_norm": 2.6120032387100598e-61,
+   "seconds_jet4": 405.8
+  }
+ ]
+}

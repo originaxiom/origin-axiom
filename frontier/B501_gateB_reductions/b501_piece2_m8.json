@@ -1,0 +1,50 @@
+{
+ "piece": 2,
+ "dps": 100,
+ "rel": "abbbaBAAB",
+ "directions_requested": [
+  "m8"
+ ],
+ "gauge_fix": true,
+ "deltas": true,
+ "declared": "order-4 obstruction; z2 gauge-fixed at order 3; verdict modulo the z3-shift span; controls: coboundary + m=1",
+ "rep_checks": {
+  "relator": 9.004101278291036e-54,
+  "automorphism": 5.283734453051603e-71
+ },
+ "directions": [
+  {
+   "label": "m=8",
+   "order3_class_norm": 3.091415594850993e-54,
+   "z2_ls_residual": 4.537410523775523e-74,
+   "order3_gauge": {
+    "rank": 4,
+    "span_residual": 4.804580435598401e-07,
+    "corrected_class_norm": 1.5233472084095952e-57
+   },
+   "z3_ls_residual": 1.1603537663480494e-75,
+   "gate_P1": 2.493941168886008e-54,
+   "gate_P2": 9.52848534118581e-47,
+   "gate_P3": 2.420370935687709e-43,
+   "ad_solve_residual": 4.838867814812386e-64,
+   "q4_norm": 5.108197044191079e+25,
+   "class_abs": [
+    2.193815527604814e-48,
+    1.1591827944429174e-51,
+    1.6240890625918914e-50,
+    1.374675739709809e-50,
+    8.819645784139125e-54,
+    1.4955913586793913e-51
+   ],
+   "class_norm": 2.1939195266926485e-48,
+   "indeterminacy_rank": 6,
+   "transverse_residual": 1.8334098576160003e-101,
+   "mb12_random_residuals": [
+    8.276427885048074e-100,
+    8.483941047966607e-100,
+    3.512561333153347e-100
+   ],
+   "seconds": 5244.0
+  }
+ ]
+}

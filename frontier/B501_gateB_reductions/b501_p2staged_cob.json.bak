@@ -1,0 +1,37 @@
+{
+ "piece": 2,
+ "dps": 100,
+ "rel": "abbbaBAAB",
+ "rep_checks": {
+  "relator": 9.004101278291036e-54,
+  "automorphism": 5.283734453051603e-71
+ },
+ "directions": [
+  {
+   "label": "coboundary",
+   "dps": 100,
+   "mode": "base: minimal-norm defining system (no gauge sweep / span quotient -- budget-capped; safe for unobstructed verdicts: a quotient can only shrink a class)",
+   "order3_class_norm": 6.2099419082481696e-87,
+   "order3_q3_norm": 2.512843202299269e-20,
+   "z2_ls_residual": 6.859590771155777e-65,
+   "order3_ad_residual": 7.533636928208759e-58,
+   "z3_ls_residual": 2.471165239087585e-67,
+   "seconds_solve": 472.7,
+   "gate_P1": 1.180574019126621e-62,
+   "gate_P2": 3.474504912521313e-64,
+   "gate_P3": 1.2113519474840102e-76,
+   "ad_solve_residual": 2.506676431864182e-56,
+   "q4_norm": 3.2162257040992494e-31,
+   "class_abs": [
+    1.1153163949112598e-94,
+    8.044737719447835e-98,
+    7.3050553189554195e-96,
+    3.9879814636628704e-97,
+    3.2502711895576414e-100,
+    4.023509856658958e-99
+   ],
+   "class_norm": 1.1177135576178633e-94,
+   "seconds_jet4": 441.6
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "piece": 3,
+ "dps": 100,
+ "theta_blockwise_scalar_exact": true,
+ "commutant_lemma": {
+  "n_relations": 46,
+  "invariant_factors": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   2
+  ],
+  "free_rank": 0,
+  "n_solutions": 2,
+  "trivial_is_solution": true,
+  "theta_pattern_is_solution": true,
+  "relations_sample": [
+   [
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    4,
+    4
+   ],
+   [
+    1,
+    5,
+    5
+   ],
+   [
+    1,
+    7,
+    7
+   ],
+   [
+    1,
+    8,
+    8
+   ],
+   [
+    1,
+    11,
+    11
+   ],
+   [
+    4,
+    4,
+    1
+   ],
+   [
+    4,
+    4,
+    5
+   ],
+   [
+    4,
+    4,
+    7
+   ],
+   [
+    4,
+    5,
+    4
+   ],
+   [
+    4,
+    5,
+    8
+   ],
+   [
+    4,
+    7,
+    4
+   ]
+  ]
+ },
+ "sl2_intertwiner_residuals": {
+  "hyperelliptic": 1.3617414224881798e-71,
+  "amphichiral": 1.06693828317138e-71
+ },
+ "lines": {
+  "1": {
+   "eps_expected": 1,
+   "r_theta_match": 6.327413155826569e-71,
+   "r_wrong_sign": 2.0,
+   "z0_noncoboundary": 1.0,
+   "r_J2": 9.402973523385358e-71
+  },
+  "4": {
+   "eps_expected": -1,
+   "r_theta_match": 5.382876464317284e-71,
+   "r_wrong_sign": 2.0,
+   "z0_noncoboundary": 1.0,
+   "r_J2": 3.044578794409884e-68
+  },
+  "5": {
+   "eps_expected": 1,
+   "r_theta_match": 6.742553456943058e-71,
+   "r_wrong_sign": 2.0,
+   "z0_noncoboundary": 1.0,
+   "r_J2": 3.4214831098583505e-67
+  },
+  "7": {
+   "eps_expected": 1,
+   "r_theta_match": 1.4645085036820767e-70,
+   "r_wrong_sign": 2.0,
+   "z0_noncoboundary": 1.0,
+   "r_J2": 4.040667646013863e-65
+  },
+  "8": {
+   "eps_expected": -1,
+   "r_theta_match": 3.664570901729949e-70,
+   "r_wrong_sign": 2.0,
+   "z0_noncoboundary": 1.0,
+   "r_J2": 2.873865385017686e-64
+  },
+  "11": {
+   "eps_expected": 1,
+   "r_theta_match": 7.209257357196813e-64,
+   "r_wrong_sign": 2.0,
+   "z0_noncoboundary": 1.0,
+   "r_J2": 3.581201454364341e-59
+  }
+ },
+ "seconds": 36.6
+}

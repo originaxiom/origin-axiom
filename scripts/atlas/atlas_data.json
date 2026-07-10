@@ -10450,6 +10450,39 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B501": {
+   "slug": "gateB reductions",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B327",
+    "B329",
+    "B335",
+    "B338",
+    "B347",
+    "B351",
+    "B352",
+    "B356",
+    "B370",
+    "H103",
+    "H104"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B502": {
    "slug": "gateC commensurator",
    "motifs": [

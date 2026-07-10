@@ -1,0 +1,43 @@
+{
+ "piece": 2,
+ "dps": 100,
+ "rel": "abbbaBAAB",
+ "rep_checks": null,
+ "directions": [
+  {
+   "label": "m=4+m=8",
+   "dps": 100,
+   "mode": "base: minimal-norm defining system (no gauge sweep / span quotient -- budget-capped; safe for unobstructed verdicts: a quotient can only shrink a class)",
+   "order3_class_norm": 4.2488881341122715e-55,
+   "order3_q3_norm": 4701394132655.025,
+   "z2_ls_residual": 4.673711142779521e-74,
+   "order3_ad_residual": 1.2409244293115256e-57,
+   "z3_ls_residual": 9.032135091325967e-68,
+   "seconds_solve": 439.9,
+   "gate_P1": 1.7290501633889055e-54,
+   "gate_P2": 3.1315583424611056e-49,
+   "gate_P3": 3.370760789182584e-44,
+   "ad_solve_residual": 7.514915943377922e-57,
+   "q4_norm": 1.7537153681836e+17,
+   "class_abs": [
+    1.5368518180211403e-49,
+    7.49159321436352e-60,
+    6.013575451099496e-52,
+    5.8455971143984044e-52,
+    3.4329108168374077e-62,
+    7.075267535154974e-53
+   ],
+   "class_norm": 1.5368748632352346e-49,
+   "seconds_jet4": 386.6,
+   "full_run_log_harvest": {
+    "note": "the FULL-treatment worker (gauge fix + z3-shift span, tag mix48) completed but its JSON was overwritten in a file race by this staged base-mode part; numbers harvested from p2_mix48.log",
+    "gate_P1": 1.7e-54,
+    "gate_P2": 9.1e-47,
+    "gate_P3": 5.9e-44,
+    "class_norm": 1.033e-48,
+    "transverse_residual": 1.479e-100,
+    "seconds": 5187.9
+   }
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "piece": 2,
+ "dps": 100,
+ "rel": "abbbaBAAB",
+ "directions_requested": [
+  "cob",
+  "m1"
+ ],
+ "gauge_fix": true,
+ "deltas": true,
+ "declared": "order-4 obstruction; z2 gauge-fixed at order 3; verdict modulo the z3-shift span; controls: coboundary + m=1",
+ "rep_checks": {
+  "relator": 9.004101278291036e-54,
+  "automorphism": 5.283734453051603e-71
+ },
+ "directions": [
+  {
+   "label": "coboundary",
+   "order3_class_norm": 6.2099419082481696e-87,
+   "z2_ls_residual": 6.859590771155777e-65,
+   "order3_gauge": null,
+   "z3_ls_residual": 2.471165239087585e-67,
+   "gate_P1": 1.180574019126621e-62,
+   "gate_P2": 3.474504912521313e-64,
+   "gate_P3": 1.2113519474840102e-76,
+   "ad_solve_residual": 2.506676431864182e-56,
+   "q4_norm": 3.2162257040992494e-31,
+   "class_abs": [
+    1.1153163949112598e-94,
+    8.044737719447835e-98,
+    7.3050553189554195e-96,
+    3.9879814636628704e-97,
+    3.2502711895576414e-100,
+    4.023509856658958e-99
+   ],
+   "class_norm": 1.1177135576178633e-94,
+   "indeterminacy_rank": null,
+   "transverse_residual": 1.1177135576178633e-94,
+   "mb12_random_residuals": null,
+   "seconds": 826.1
+  },
+  {
+   "label": "m=1",
+   "order3_class_norm": 9.61730117699856e-62,
+   "z2_ls_residual": 1.365504596292341e-63,
+   "order3_gauge": {
+    "rank": 0,
+    "span_residual": 9.61730117699856e-62,
+    "corrected_class_norm": 9.61730117699856e-62
+   },
+   "z3_ls_residual": 5.855909721094826e-63,
+   "gate_P1": 1.4449270027190865e-52,
+   "gate_P2": 5.265543890914476e-52,
+   "gate_P3": 1.387334661449018e-51,
+   "ad_solve_residual": 4.825971855736831e-53,
+   "q4_norm": 18.91115493685978,
+   "class_abs": [
+    2.611928758862156e-61,
+    5.16257128648717e-66,
+    1.279312393628142e-63,
+    1.494844674133172e-63,
+    1.6655109517633857e-66,
+    1.3980836900878035e-64
+   ],
+   "class_norm": 2.6120032387100598e-61,
+   "indeterminacy_rank": 0,
+   "transverse_residual": 2.6120032387100598e-61,
+   "mb12_random_residuals": [
+    1.5496390441711698,
+    2.4848459909790996,
+    1.5529972905847669
+   ],
+   "seconds": 4757.5
+  },
+  {
+   "label": "m=4",
+   "order3_class_norm": 8.500867353253918e-63,
+   "z2_ls_residual": 2.0452377050202454e-71,
+   "order3_gauge": {
+    "rank": 1,
+    "span_residual": 0.9999820776534403,
+    "corrected_class_norm": 8.500742000319602e-63
+   },
+   "z3_ls_residual": 5.8159662871405194e-74,
+   "gate_P1": 2.157645671955318e-55,
+   "gate_P2": 7.005516142997854e-53,
+   "gate_P3": 8.407501632004698e-55,
+   "ad_solve_residual": 2.881514001932106e-67,
+   "q4_norm": 867162919005530.5,
+   "class_abs": [
+    9.772017206327685e-61,
+    1.2128878426365757e-63,
+    2.5506503712711455e-61,
+    1.2628916758984802e-61,
+    2.024585490797648e-64,
+    1.359936776067912e-63
+   ],
+   "class_norm": 1.017808278280961e-60,
+   "indeterminacy_rank": 1,
+   "transverse_residual": 0.27740675093874395,
+   "mb12_random_residuals": [
+    0.9954301371931126,
+    0.9091008845905837,
+    0.8525729965998236
+   ],
+   "seconds": 4982.3
+  },
+  {
+   "label": "m=8",
+   "order3_class_norm": 3.091415594850993e-54,
+   "z2_ls_residual": 4.537410523775523e-74,
+   "order3_gauge": {
+    "rank": 4,
+    "span_residual": 4.804580435598401e-07,
+    "corrected_class_norm": 1.5233472084095952e-57
+   },
+   "z3_ls_residual": 1.1603537663480494e-75,
+   "gate_P1": 2.493941168886008e-54,
+   "gate_P2": 9.52848534118581e-47,
+   "gate_P3": 2.420370935687709e-43,
+   "ad_solve_residual": 4.838867814812386e-64,
+   "q4_norm": 5.108197044191079e+25,
+   "class_abs": [
+    2.193815527604814e-48,
+    1.1591827944429174e-51,
+    1.6240890625918914e-50,
+    1.374675739709809e-50,
+    8.819645784139125e-54,
+    1.4955913586793913e-51
+   ],
+   "class_norm": 2.1939195266926485e-48,
+   "indeterminacy_rank": 6,
+   "transverse_residual": 1.8334098576160003e-101,
+   "mb12_random_residuals": [
+    8.276427885048074e-100,
+    8.483941047966607e-100,
+    3.512561333153347e-100
+   ],
+   "seconds": 5244.0
+  },
+  {
+   "label": "m=4+m=8",
+   "dps": 100,
+   "mode": "base: minimal-norm defining system (no gauge sweep / span quotient -- budget-capped; safe for unobstructed verdicts: a quotient can only shrink a class)",
+   "order3_class_norm": 4.2488881341122715e-55,
+   "order3_q3_norm": 4701394132655.025,
+   "z2_ls_residual": 4.673711142779521e-74,
+   "order3_ad_residual": 1.2409244293115256e-57,
+   "z3_ls_residual": 9.032135091325967e-68,
+   "seconds_solve": 439.9,
+   "gate_P1": 1.7290501633889055e-54,
+   "gate_P2": 3.1315583424611056e-49,
+   "gate_P3": 3.370760789182584e-44,
+   "ad_solve_residual": 7.514915943377922e-57,
+   "q4_norm": 1.7537153681836e+17,
+   "class_abs": [
+    1.5368518180211403e-49,
+    7.49159321436352e-60,
+    6.013575451099496e-52,
+    5.8455971143984044e-52,
+    3.4329108168374077e-62,
+    7.075267535154974e-53
+   ],
+   "class_norm": 1.5368748632352346e-49,
+   "seconds_jet4": 386.6,
+   "full_run_log_harvest": {
+    "note": "the FULL-treatment worker (gauge fix + z3-shift span, tag mix48) completed but its JSON was overwritten in a file race by this staged base-mode part; numbers harvested from p2_mix48.log",
+    "gate_P1": 1.7e-54,
+    "gate_P2": 9.1e-47,
+    "gate_P3": 5.9e-44,
+    "class_norm": 1.033e-48,
+    "transverse_residual": 1.479e-100,
+    "seconds": 5187.9
+   }
+  }
+ ],
+ "merged_from": [
+  "b501_piece2_cobm1.json",
+  "b501_piece2_m4.json",
+  "b501_piece2_m8.json",
+  "b501_piece2_mix48.json"
+ ]
+}
