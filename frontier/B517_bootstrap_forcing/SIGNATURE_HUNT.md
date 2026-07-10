@@ -37,3 +37,36 @@ distinguishing. The trace form only sees the generic splitting type. No canonica
 form is in hand; candidates (coupling-asymmetry form; Rauzy-boundary geometry) must each clear
 "natural, not ad hoc" first — the B513 trap. TERMINAL for this pass: T-SIG via the canonical arithmetic
 form = generic/laundered; the dynamical-form hunt is NEEDS-A-CANONICAL-CANDIDATE, not run.
+
+---
+## Addendum (2026-07-12): the Lyapunov (3,1) [cross-seat, chat1] + control C1 — ALSO generic
+Chat1 built the DYNAMICAL form I flagged as the prep gap: the Lyapunov (expanding/contracting) form of
+the substitution M*, NOT the field trace form. Verified: M* eigen-exponents {+1.302, −0.241, −0.241,
+−0.821} ⟹ signature **(1,3) = Lorentzian (3,1)**, a genuinely DIFFERENT object from the trace form (its
+timelike direction is the Perron eigenvector (φ,1,φ√φ,√φ), orthogonal to the trace-form's imaginary
+direction). Chat1's new content — the phase diagram ((3,1)→(2,2) transition at p(M*)≈0.3–0.5), the
+(2+1) spatial anisotropy (the complex pair gives two equal contracting exponents), the det(M*)=−1
+orientation reversal — all verified.
+
+**Control C1 (run this session — the decisive test chat1 named as needed): the Lyapunov content is
+GENERIC.** Running the identical computation on controls:
+| quartic Pisot | Lyapunov signature | (2+1) anisotropy |
+|---|---|---|
+| golden M* | (1,3)=(3,1) | yes |
+| **tetranacci** (x⁴−x³−x²−x−1, NON-golden) | **(1,3)=(3,1)** | **yes** |
+| child-type x⁴−x−1 (2 complex pairs) | (2,2) | — |
+
+Tetranacci — a completely non-golden quartic Pisot — gives the IDENTICAL (3,1) + (2+1) structure. So
+the Lyapunov form's existence AND its (2+1) anisotropy are generic to the **(2-real,1-complex) splitting
+type** — the SAME genericity that killed the trace form. The signature is determined by the splitting
+type (child-type = 2 complex pairs → (2,2)), not by anything golden. Object-specific remainder: det=−1
+and the φ/√φ Perron nesting — both "golden because golden," not Lorentzian-forced. The phase-transition
+*point* differs between Pisot numbers only trivially (different eigenvalues → different crossings), not
+as meaningful structure.
+
+**Integrated verdict: BOTH (3,1) structures (trace-form + Lyapunov) exist, are different objects, and
+are BOTH GENERIC.** T-SIG fails via both the arithmetic and the dynamical canonical form. **D6 stays
+CLOSED** — chat1's own C1 control, now executed, confirms it. Chat1's dynamical form was the right kind
+of object and its honest framing was correct; the control delivers the verdict it anticipated. (Chat1's
+C3/Malament — does the FULL Level-1 monoid preserve one cone — remains the one un-run distinguisher, but
+it too would need to beat the same splitting-type genericity.)
