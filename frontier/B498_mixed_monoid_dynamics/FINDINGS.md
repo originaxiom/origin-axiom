@@ -72,3 +72,27 @@ python3 verify_mixed.py     # C1 + Q1a + Q1b + C2(depth 2) + corrections
 python3 c3_orbits.py        # the drift table (bounded, 2 seeds)
 pytest ../../tests/test_b498_mixed.py
 ```
+
+---
+
+## Q2 verdict (2026-07-10, census in progress) + the abelian/wild dichotomy
+
+**THE GOLDEN MONOPOLY IS REFUTED AT DEPTH 3** — triple-verified (exact solve; symbolic substitution;
+**matrix-level**: Fricke lift → the word as a substitution on SL(2,ℂ) matrices → trace residuals 0.0
+at 40 digits; inheritance check: fixed by NO shorter word). The newborn fields on the solved census
+(13/30 words at this writing; heptagonal reappears across the M-family):
+- **ℚ(√3)** (FFD-type words; e.g. (1/2−√3/2, −√3−1, 2+√3/2), convention-proof endo φ(a)=a²b²a², φ(b)=a²b²),
+- **ℚ(√−3)** (Eisenstein — the object's own trace field, born at an interaction fixed point),
+- **ℚ(ζ₇)⁺** (the heptagonal cubic x³+x²−2x−1, disc 49): fixed points = **the cyclic arrangements of
+  (2cos 2π/7, 2cos 4π/7, 2cos 6π/7)** — the full Galois orbit, cyclically permuted.
+
+**The dichotomy test (the follow-up verdict question, run 2026-07-10):** every newborn field so far is
+**ABELIAN** (quadratics; the C3 cubic with square discriminant — cyclotomic-contained by
+Kronecker–Weber), and torsion-shaped (orders 3, 7, 12). **The cyclotomic-tameness candidate law:** the
+interaction algebra births only abelian/torsion arithmetic. If it holds, the grammar can NEVER birth
+the object's own non-abelian geometric fields (x³−x−1 disc −23 S₃; x⁴−x−1 disc −283 S₄) — interaction
+fixed points and hyperbolic geometry would be arithmetically disjoint. **Named boundary:** the D-heavy
+timeout words (FDM/FDD/MFD) have hundreds of numerically-genuine fixed points (analytic-Jacobian
+Newton, residual <1e−28) whose minimal polynomials exceed degree-6/height-10⁵ identification — the
+abelian-or-wild question THERE needs exact elimination or deep PSLQ (priced). Any non-abelian find
+refutes tameness and makes the B398 value-question live.
