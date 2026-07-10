@@ -1741,3 +1741,14 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   independently. CORRECTED my x⁴−x−1 Lyapunov control (mislabeled (2,2) → true Stein inertia (1,3));
   (3,1)=the Pisot condition, generic (tetranacci also (3,1)), D6 stays closed. Canonicity gap: the
   one-step form W unselected. KNOWN-THEOREM/FIREWALLED; no physical-spacetime claim. Locks pass.
+
+- **B520 (2026-07-12): handoff verification — β-function correction REJECTED, ceiling corrected, BTZ banked.**
+  Verify-don't-trust on the β-function/bootstrap-ceiling/BTZ handoff. §1/§2: the claimed β-function zero
+  at transcendental κ*≈0.764 (g(0)≈−0.31) DOES NOT REPRODUCE — two independent methods (Goldman-ergodic
+  trace-map orbit + Haar-conditional, 8M samples) both give g(0)≈+0.001, g(0.764)≈+0.27; B507 stands
+  (zero at the pointer κ≈0); the "transcendental first emergent value" collapses. §3: the self-double
+  ladder DOES terminate at Level 1 (0 canonical Pisot 8×8 couplings) but "dim 3 is the max" is FALSE
+  (B516 dim-5 golden Pisot stands). §4: BTZ S=arccosh(x/2), at x=5 = log((5+√21)/2) — formula correct,
+  banked; the √21=√(3·7) reading firewalled to S064. Meta: a wrong correction to CC's own work, rejected
+  by recomputation; cross-seat handoffs are not uniformly reliable (chat3's Stein form was solid, this
+  one was not). 3 locks pass.
