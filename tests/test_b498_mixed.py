@@ -33,3 +33,7 @@ def test_c2_depth2_monopoly():
 
 def test_c2_D_line():
     assert V.c2_D_line()
+
+
+def test_q1b_hand_proof():
+    assert V.q1b_hand_proof_steps()

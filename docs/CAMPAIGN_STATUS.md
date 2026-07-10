@@ -247,8 +247,7 @@ results), and the √−7 deflation (B461).
 - **B497 Monoid Campaign:** Phase 0+2+3+Z banked (four strata; U1/U2; the dichotomy; the measurement
   algebra; the interaction launders). OPEN: Phase 1 novelty gates (research window ~Jul 14); Q4 full
   defect dictionary; specialist flags (full atoroidality; 3-mfld-with-boundary).
-- **B498 Interaction Campaign:** stage 1 banked (Q1a PROVED −2; Q1b 0 to 26 digits; C1/C2 exact + 2
-  handoff corrections; C3 E-data). OPEN: **Q2 depth-3 monopoly verdict (computing)**; Q1b hand
-  proof; Q3–Q5; lit-gates (Cantat–Dujardin, Axel–Peyrière).
+- **B498 Interaction Campaign:** stage 1 banked (Q1a PROVED −2; **Q1b PROVED 0** — both drift constants now theorems; C1/C2 exact + 2
+  handoff corrections; C3 E-data). OPEN: **Q2 depth-3 monopoly verdict (computing)**; Q3–Q5; lit-gates (Cantat–Dujardin, Axel–Peyrière).
 - **Parallel:** the Closure Campaign (Fable-5, `closure/phase1-duels`) runs separately — B493–B495
   reserved to it; merge-with-verification when it closes. The cosmogony sweep (gitignored) at C1/7.

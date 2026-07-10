@@ -1641,3 +1641,10 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   work renumbered to B496+). — Also: B470 Reflection Campaign CLOSED (RF4 split / RF5 bounded / RFZ
   partial-reflection verdict); B492+B480 close the lens probes; the cosmogony sweep designed
   (gitignored `cosmogony/`, C1 ANE corpus landed); reproducer backfill (PR #700).
+
+- **B498 addendum (2026-07-10): Q1b PROVED.** E_Haar[log mult_M] = 0 is now a THEOREM (hand proof:
+  the convex-combination u-reduction; the Fourier series of sin²t·ln(4sin²t) with c₁=−3/4,
+  cₙ=1/(n(n²−1)); Iₙ=∫tan·sin2na=π(−1)ⁿ⁺¹; Σcₙ=−1/2 ⟹ E=0). Both drift constants are now proved:
+  the drift ledger (evolution 0 / decoherence 0-critical / decimation −2 / boundary marginal) is
+  fully exact. Q2 depth-3 re-launched robustly (streamed results) after a session restart killed
+  the first run.

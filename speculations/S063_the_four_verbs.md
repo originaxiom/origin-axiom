@@ -43,7 +43,7 @@ Cross-refs: [[S062_the_singular_monoid]] (superseded by this file's wider frame)
 
 ## Addendum (2026-07-10, from B498) — the drift ledger [the interaction reading]
 The mixed-word campaign gives the verbs their exact drift constants on the compact (SU(2)) locus:
-evolution 0 (conserves κ exactly), **decoherence 0-and-critical** (E[log mult_M] = 0 to 26 digits:
+evolution 0 (conserves κ exactly), **decoherence 0-and-critical** (E[log mult_M] = 0 — PROVED 2026-07-10:
 log|κ−2| is a driftless random walk — classicality approached recurrently, never locked),
 **decimation −2 exactly** (PROVED: the log-sine/Fourier integral; contraction e⁻² per event), and the
 classical boundary universally marginal. The firewalled sentence: **classicality is an attractor of
