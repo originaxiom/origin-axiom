@@ -1,0 +1,98 @@
+{
+ "phase": "verify",
+ "pair": [
+  4,
+  7
+ ],
+ "started_utc": "2026-07-10T00:14:10Z",
+ "prediction_committed_utc": "2026-07-10T00:09:30Z",
+ "global_orders": [
+  20,
+  12
+ ],
+ "G1_tensor_mismatches": 0,
+ "global_table_sha256": "f98532736f97ff5a6dbefc82ea39ae198da6f8129394af3c0b0549f0550cd090",
+ "global_s": {
+  "bright": false,
+  "n_s_cells": 0,
+  "s_value_set": [],
+  "sum_s_squared": "0"
+ },
+ "descent_4_7_global": {
+  "pair": [
+   4,
+   7
+  ],
+  "orders": [
+   20,
+   12
+  ],
+  "periods3": [
+   4,
+   4
+  ],
+  "periods5": [
+   10,
+   6
+  ],
+  "d_divides_4": true,
+  "C3_cells_mu6_or_zero": true,
+  "C5_cell_kinds": {
+   "root_of_unity": 42,
+   "zero": 16,
+   "other": 2
+  },
+  "master_identity_mismatches": 0,
+  "master_identity_checks": 960,
+  "xy_formula_mismatches": 0,
+  "xy_formula_checks": 960,
+  "X0_collapse_violations": 0,
+  "Xbar_conj_violations": 0,
+  "N1_violations": 0,
+  "window_census": {
+   "even,even": 32,
+   "even,zero": 40,
+   "gen,even": 128,
+   "zero,zero": 40
+  },
+  "window_reality_census": {
+   "0,0": 40,
+   "gen,0": 32,
+   "gen,real": 96,
+   "real,0": 8,
+   "real,real": 64
+  },
+  "L5a_odd_violations": 0,
+  "L5b_matching_violations": 128,
+  "zero_stratum_equivalence_failures": 0,
+  "s_law_failures": 0,
+  "classifier_mismatches": 0,
+  "classifier_skips": 0,
+  "QM_equal_branch": 8,
+  "QM_conj_branch": 8,
+  "QM_failures": 0,
+  "gate3_local_domain": 12,
+  "gate3_local_violations": 0,
+  "gate5_local_naive_domain": 42,
+  "gate5_local_naive_violations": 4,
+  "gate15_domain": 116,
+  "gate15_nonroot": 0,
+  "gate15_L2_violations": 0,
+  "gate15_L3_violations": 12,
+  "tier_counts": {
+   "0001": 96,
+   "0011": 24,
+   "0111": 20,
+   "1111": 100
+  },
+  "lattice_only": false,
+  "node_Q_sqrt_minus15_absent": true
+ },
+ "match_table_hash": true,
+ "match_table_cells": true,
+ "match_brightdark": true,
+ "match_s_summary": true,
+ "match_tiers": true,
+ "all_match": true,
+ "elapsed_s": 24.4
+}

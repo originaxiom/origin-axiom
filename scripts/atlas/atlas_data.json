@@ -10184,6 +10184,40 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B493": {
+   "slug": "seam descent duel",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B367",
+    "B390",
+    "B396",
+    "B404",
+    "B459",
+    "B491",
+    "L1",
+    "L2",
+    "L3",
+    "P1",
+    "P4",
+    "P64",
+    "P66",
+    "P67",
+    "P68"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B494": {
    "slug": "cantat corollary duel",
    "motifs": [

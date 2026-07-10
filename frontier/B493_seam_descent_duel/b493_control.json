@@ -1,0 +1,904 @@
+{
+ "phase": "control",
+ "started_utc": "2026-07-10T00:08:47Z",
+ "banked_pairs_cell_exact": {
+  "1,2": true,
+  "1,3": true,
+  "1,4": true,
+  "2,3": true,
+  "2,4": true,
+  "3,4": true
+ },
+ "banked_pairs_all_ok": true,
+ "brightdark_matches": {
+  "1,2": true,
+  "1,3": true,
+  "1,4": true,
+  "1,5": true,
+  "1,7": true,
+  "2,3": true,
+  "2,4": true,
+  "2,5": true,
+  "2,7": true,
+  "3,4": true,
+  "3,5": true,
+  "3,7": true,
+  "4,5": true
+ },
+ "brightdark_tally_banked12": "12/12",
+ "brightdark_tally_with_oos": "13/13",
+ "flagship_banked_route": [
+  "-1/48",
+  "-1/80",
+  "-1/48",
+  "1/48"
+ ],
+ "flagship_local_route": [
+  "-1/48",
+  "-1/80",
+  "-1/48",
+  "1/48"
+ ],
+ "flagship_ok": true,
+ "descent_reports": {
+  "1,2": {
+   "pair": [
+    1,
+    2
+   ],
+   "orders": [
+    20,
+    12
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    10,
+    6
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 42,
+    "zero": 16,
+    "other": 2
+   },
+   "master_identity_mismatches": 0,
+   "master_identity_checks": 960,
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 960,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 32,
+    "even,zero": 40,
+    "gen,gen": 128,
+    "zero,zero": 40
+   },
+   "window_reality_census": {
+    "0,0": 40,
+    "gen,0": 32,
+    "gen,gen": 96,
+    "gen,real": 32,
+    "real,0": 8,
+    "real,real": 32
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 14,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 42,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 142,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0000": 120,
+    "0011": 20,
+    "0101": 20,
+    "0111": 10,
+    "1111": 70
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "1,3": {
+   "pair": [
+    1,
+    3
+   ],
+   "orders": [
+    20,
+    6
+   ],
+   "periods3": [
+    4,
+    1
+   ],
+   "periods5": [
+    10,
+    6
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 42,
+    "zero": 16,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 480,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 16,
+    "even,zero": 20,
+    "gen,even": 64,
+    "zero,zero": 20
+   },
+   "window_reality_census": {
+    "0,0": 20,
+    "gen,0": 16,
+    "gen,real": 48,
+    "real,0": 4,
+    "real,real": 32
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 64,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 2,
+   "QM_conj_branch": 2,
+   "QM_failures": 0,
+   "gate3_local_domain": 3,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 42,
+   "gate5_local_naive_violations": 4,
+   "gate15_domain": 63,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 6,
+   "tier_counts": {
+    "0001": 48,
+    "0011": 12,
+    "0111": 15,
+    "1111": 45
+   },
+   "lattice_only": false,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "1,4": {
+   "pair": [
+    1,
+    4
+   ],
+   "orders": [
+    20,
+    20
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    10,
+    10
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 74,
+    "zero": 24,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 1600,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 256,
+    "even,zero": 72,
+    "zero,zero": 72
+   },
+   "window_reality_census": {
+    "0,0": 72,
+    "gen,0": 64,
+    "gen,gen": 192,
+    "real,0": 8,
+    "real,real": 64
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 12,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 74,
+   "gate5_local_naive_violations": 8,
+   "gate15_domain": 212,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 24,
+   "tier_counts": {
+    "0011": 192,
+    "0111": 36,
+    "1111": 172
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "1,5": {
+   "pair": [
+    1,
+    5
+   ],
+   "orders": [
+    20,
+    4
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    10,
+    1
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 5,
+    "zero": 5
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 320,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,zero": 40,
+    "zero,zero": 40
+   },
+   "window_reality_census": {
+    "0,0": 40,
+    "gen,0": 32,
+    "real,0": 8
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 14,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 5,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 30,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0111": 30,
+    "1111": 50
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "1,7": {
+   "pair": [
+    1,
+    7
+   ],
+   "orders": [
+    20,
+    12
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    10,
+    6
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 42,
+    "zero": 16,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 960,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 32,
+    "even,zero": 40,
+    "gen,gen": 128,
+    "zero,zero": 40
+   },
+   "window_reality_census": {
+    "0,0": 40,
+    "gen,0": 32,
+    "gen,gen": 96,
+    "gen,real": 32,
+    "real,0": 8,
+    "real,real": 32
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 12,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 42,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 116,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0000": 96,
+    "0011": 24,
+    "0111": 20,
+    "1111": 100
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "2,3": {
+   "pair": [
+    2,
+    3
+   ],
+   "orders": [
+    12,
+    6
+   ],
+   "periods3": [
+    4,
+    1
+   ],
+   "periods5": [
+    6,
+    6
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 26,
+    "zero": 8,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 288,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 40,
+    "even,zero": 4,
+    "gen,gen": 16,
+    "zero,zero": 12
+   },
+   "window_reality_census": {
+    "0,0": 16,
+    "real,0": 8,
+    "real,real": 48
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 2,
+   "QM_conj_branch": 2,
+   "QM_failures": 0,
+   "gate3_local_domain": 3,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 26,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 39,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0000": 12,
+    "0011": 30,
+    "0111": 3,
+    "1111": 27
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "2,4": {
+   "pair": [
+    2,
+    4
+   ],
+   "orders": [
+    12,
+    20
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    6,
+    10
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 42,
+    "zero": 16,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 960,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 32,
+    "even,zero": 40,
+    "gen,even": 128,
+    "zero,zero": 40
+   },
+   "window_reality_census": {
+    "0,0": 40,
+    "gen,0": 32,
+    "gen,real": 96,
+    "real,0": 8,
+    "real,real": 64
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 128,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 14,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 42,
+   "gate5_local_naive_violations": 4,
+   "gate15_domain": 142,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 14,
+   "tier_counts": {
+    "0000": 40,
+    "0001": 80,
+    "0011": 20,
+    "0101": 20,
+    "0111": 10,
+    "1111": 70
+   },
+   "lattice_only": false,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "2,7": {
+   "pair": [
+    2,
+    7
+   ],
+   "orders": [
+    12,
+    12
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    6,
+    6
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 30,
+    "zero": 6
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 576,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 96,
+    "even,zero": 24,
+    "zero,zero": 24
+   },
+   "window_reality_census": {
+    "0,0": 24,
+    "real,0": 24,
+    "real,real": 96
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 14,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 30,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 102,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0000": 24,
+    "0011": 60,
+    "0101": 12,
+    "0111": 6,
+    "1111": 42
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "3,4": {
+   "pair": [
+    3,
+    4
+   ],
+   "orders": [
+    6,
+    20
+   ],
+   "periods3": [
+    1,
+    4
+   ],
+   "periods5": [
+    6,
+    10
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 42,
+    "zero": 16,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 480,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 16,
+    "even,zero": 20,
+    "gen,gen": 64,
+    "zero,zero": 20
+   },
+   "window_reality_census": {
+    "0,0": 20,
+    "gen,0": 16,
+    "gen,gen": 48,
+    "gen,real": 16,
+    "real,0": 4,
+    "real,real": 16
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 2,
+   "QM_conj_branch": 2,
+   "QM_failures": 0,
+   "gate3_local_domain": 3,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 42,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 63,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0000": 48,
+    "0011": 12,
+    "0111": 15,
+    "1111": 45
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "3,5": {
+   "pair": [
+    3,
+    5
+   ],
+   "orders": [
+    6,
+    4
+   ],
+   "periods3": [
+    1,
+    4
+   ],
+   "periods5": [
+    6,
+    1
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 5,
+    "zero": 1
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 96,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 16,
+    "even,zero": 4,
+    "zero,zero": 4
+   },
+   "window_reality_census": {
+    "0,0": 4,
+    "real,0": 4,
+    "real,real": 16
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 2,
+   "QM_conj_branch": 2,
+   "QM_failures": 0,
+   "gate3_local_domain": 3,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 5,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 15,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0011": 12,
+    "0111": 3,
+    "1111": 9
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "3,7": {
+   "pair": [
+    3,
+    7
+   ],
+   "orders": [
+    6,
+    12
+   ],
+   "periods3": [
+    1,
+    4
+   ],
+   "periods5": [
+    6,
+    6
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 26,
+    "zero": 8,
+    "other": 2
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 288,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,even": 40,
+    "even,zero": 4,
+    "gen,gen": 16,
+    "zero,zero": 12
+   },
+   "window_reality_census": {
+    "0,0": 16,
+    "real,0": 8,
+    "real,real": 48
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 2,
+   "QM_conj_branch": 2,
+   "QM_failures": 0,
+   "gate3_local_domain": 3,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 26,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 39,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0000": 12,
+    "0011": 30,
+    "0111": 3,
+    "1111": 27
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  },
+  "4,5": {
+   "pair": [
+    4,
+    5
+   ],
+   "orders": [
+    20,
+    4
+   ],
+   "periods3": [
+    4,
+    4
+   ],
+   "periods5": [
+    10,
+    1
+   ],
+   "d_divides_4": true,
+   "C3_cells_mu6_or_zero": true,
+   "C5_cell_kinds": {
+    "root_of_unity": 5,
+    "zero": 5
+   },
+   "xy_formula_mismatches": 0,
+   "xy_formula_checks": 320,
+   "X0_collapse_violations": 0,
+   "Xbar_conj_violations": 0,
+   "N1_violations": 0,
+   "window_census": {
+    "even,zero": 40,
+    "zero,zero": 40
+   },
+   "window_reality_census": {
+    "0,0": 40,
+    "gen,0": 32,
+    "real,0": 8
+   },
+   "L5a_odd_violations": 0,
+   "L5b_matching_violations": 0,
+   "zero_stratum_equivalence_failures": 0,
+   "s_law_failures": 0,
+   "classifier_mismatches": 0,
+   "classifier_skips": 0,
+   "QM_equal_branch": 8,
+   "QM_conj_branch": 8,
+   "QM_failures": 0,
+   "gate3_local_domain": 14,
+   "gate3_local_violations": 0,
+   "gate5_local_naive_domain": 5,
+   "gate5_local_naive_violations": 0,
+   "gate15_domain": 30,
+   "gate15_nonroot": 0,
+   "gate15_L2_violations": 0,
+   "gate15_L3_violations": 0,
+   "tier_counts": {
+    "0111": 30,
+    "1111": 50
+   },
+   "lattice_only": true,
+   "node_Q_sqrt_minus15_absent": true
+  }
+ },
+ "universal_lemmas_clean": true,
+ "L5b_by_pair": {
+  "1,2": 0,
+  "1,3": 64,
+  "1,4": 0,
+  "1,5": 0,
+  "1,7": 0,
+  "2,3": 0,
+  "2,4": 128,
+  "2,7": 0,
+  "3,4": 0,
+  "3,5": 0,
+  "3,7": 0,
+  "4,5": 0
+ },
+ "lattice_only_by_pair": {
+  "1,2": true,
+  "1,3": false,
+  "1,4": true,
+  "1,5": true,
+  "1,7": true,
+  "2,3": true,
+  "2,4": false,
+  "2,7": true,
+  "3,4": true,
+  "3,5": true,
+  "3,7": true,
+  "4,5": true
+ },
+ "node_absent_all_pairs": true,
+ "gate3_local_clean_all_pairs": true,
+ "gate15_L1_L2_clean_all_pairs": true,
+ "gate15_L3_by_pair": {
+  "1,2": 0,
+  "1,3": 6,
+  "1,4": 24,
+  "1,5": 0,
+  "1,7": 0,
+  "2,3": 0,
+  "2,4": 14,
+  "2,7": 0,
+  "3,4": 0,
+  "3,5": 0,
+  "3,7": 0,
+  "4,5": 0
+ },
+ "gate5_local_naive_by_pair": {
+  "1,2": 0,
+  "1,3": 4,
+  "1,4": 8,
+  "1,5": 0,
+  "1,7": 0,
+  "2,3": 0,
+  "2,4": 4,
+  "2,7": 0,
+  "3,4": 0,
+  "3,5": 0,
+  "3,7": 0,
+  "4,5": 0
+ },
+ "p1_law_ok": true,
+ "control_pass": true,
+ "elapsed_s": 30.5
+}

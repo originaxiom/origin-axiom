@@ -1,0 +1,283 @@
+{
+ "phase": "predict",
+ "pair": [
+  4,
+  7
+ ],
+ "committed_utc": "2026-07-10T00:09:30Z",
+ "note": "computed from the q=3 and q=5 local theta models ALONE, before any global (4,7) computation exists in the repo (absence grep-verified: the banked pairs with seed 7 are (1,7),(2,7),(3,7) only).",
+ "descent_4_7_local": {
+  "pair": [
+   4,
+   7
+  ],
+  "orders": [
+   20,
+   12
+  ],
+  "periods3": [
+   4,
+   4
+  ],
+  "periods5": [
+   10,
+   6
+  ],
+  "d_divides_4": true,
+  "C3_cells_mu6_or_zero": true,
+  "C5_cell_kinds": {
+   "root_of_unity": 42,
+   "zero": 16,
+   "other": 2
+  },
+  "xy_formula_mismatches": 0,
+  "xy_formula_checks": 960,
+  "X0_collapse_violations": 0,
+  "Xbar_conj_violations": 0,
+  "N1_violations": 0,
+  "window_census": {
+   "even,even": 32,
+   "even,zero": 40,
+   "gen,even": 128,
+   "zero,zero": 40
+  },
+  "window_reality_census": {
+   "0,0": 40,
+   "gen,0": 32,
+   "gen,real": 96,
+   "real,0": 8,
+   "real,real": 64
+  },
+  "L5a_odd_violations": 0,
+  "L5b_matching_violations": 128,
+  "zero_stratum_equivalence_failures": 0,
+  "s_law_failures": 0,
+  "classifier_mismatches": 0,
+  "classifier_skips": 0,
+  "QM_equal_branch": 8,
+  "QM_conj_branch": 8,
+  "QM_failures": 0,
+  "gate3_local_domain": 12,
+  "gate3_local_violations": 0,
+  "gate5_local_naive_domain": 42,
+  "gate5_local_naive_violations": 4,
+  "gate15_domain": 116,
+  "gate15_nonroot": 0,
+  "gate15_L2_violations": 0,
+  "gate15_L3_violations": 12,
+  "tier_counts": {
+   "0001": 96,
+   "0011": 24,
+   "0111": 20,
+   "1111": 100
+  },
+  "lattice_only": false,
+  "node_Q_sqrt_minus15_absent": true
+ },
+ "prediction": {
+  "channels": {
+   "0,0": [
+    "0",
+    "1/60",
+    "0",
+    "0"
+   ],
+   "0,4": [
+    "0",
+    "-1/120",
+    "-1/24",
+    "0"
+   ],
+   "0,8": [
+    "0",
+    "-1/120",
+    "1/24",
+    "0"
+   ],
+   "1,3": [
+    "1/24",
+    "1/60",
+    "0",
+    "0"
+   ],
+   "1,7": [
+    "5/48",
+    "-1/120",
+    "1/48",
+    "0"
+   ],
+   "1,11": [
+    "5/48",
+    "-1/120",
+    "-1/48",
+    "0"
+   ],
+   "4,0": [
+    "0",
+    "1/30",
+    "0",
+    "0"
+   ],
+   "4,4": [
+    "0",
+    "-1/60",
+    "1/24",
+    "0"
+   ],
+   "4,8": [
+    "0",
+    "-1/60",
+    "-1/24",
+    "0"
+   ],
+   "5,3": [
+    "0",
+    "1/120",
+    "0",
+    "0"
+   ],
+   "5,7": [
+    "0",
+    "-1/240",
+    "-1/48",
+    "0"
+   ],
+   "5,11": [
+    "0",
+    "-1/240",
+    "1/48",
+    "0"
+   ],
+   "6,2": [
+    "1/8",
+    "0",
+    "-1/24",
+    "0"
+   ],
+   "6,10": [
+    "1/8",
+    "0",
+    "1/24",
+    "0"
+   ],
+   "9,3": [
+    "0",
+    "1/60",
+    "0",
+    "0"
+   ],
+   "9,7": [
+    "0",
+    "-1/120",
+    "0",
+    "0"
+   ],
+   "9,11": [
+    "0",
+    "-1/120",
+    "0",
+    "0"
+   ],
+   "11,1": [
+    "5/48",
+    "-1/120",
+    "1/48",
+    "0"
+   ],
+   "11,5": [
+    "5/48",
+    "-1/120",
+    "-1/48",
+    "0"
+   ],
+   "11,9": [
+    "1/24",
+    "1/60",
+    "0",
+    "0"
+   ],
+   "14,2": [
+    "0",
+    "0",
+    "1/24",
+    "0"
+   ],
+   "14,10": [
+    "0",
+    "0",
+    "-1/24",
+    "0"
+   ],
+   "15,1": [
+    "0",
+    "-1/240",
+    "-1/48",
+    "0"
+   ],
+   "15,5": [
+    "0",
+    "-1/240",
+    "1/48",
+    "0"
+   ],
+   "15,9": [
+    "0",
+    "1/120",
+    "0",
+    "0"
+   ],
+   "16,0": [
+    "1/12",
+    "1/30",
+    "0",
+    "0"
+   ],
+   "16,4": [
+    "1/12",
+    "-1/60",
+    "0",
+    "0"
+   ],
+   "16,8": [
+    "1/12",
+    "-1/60",
+    "0",
+    "0"
+   ],
+   "19,1": [
+    "0",
+    "-1/120",
+    "0",
+    "0"
+   ],
+   "19,5": [
+    "0",
+    "-1/120",
+    "0",
+    "0"
+   ],
+   "19,9": [
+    "0",
+    "1/60",
+    "0",
+    "0"
+   ]
+  },
+  "table_sha256": "f98532736f97ff5a6dbefc82ea39ae198da6f8129394af3c0b0549f0550cd090",
+  "s": {
+   "bright": false,
+   "n_s_cells": 0,
+   "s_value_set": [],
+   "sum_s_squared": "0"
+  },
+  "tier_counts": {
+   "0001": 96,
+   "0011": 24,
+   "0111": 20,
+   "1111": 100
+  },
+  "lattice_only": false,
+  "node_absent": true
+ },
+ "elapsed_s": 2.1
+}
