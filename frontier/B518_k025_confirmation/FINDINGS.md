@@ -42,3 +42,15 @@ A + C confirm K025's structure (real, unified, scale-free — publishable). B is
 by the absorbing-loop caveat it is the ONLY option that can confirm a physics crossing — it goes to a
 specialist/lab. Open: B's N-scaling rigor; A2 (the full RG basin-of-attraction); and the write-up (P5 +
 the mixed-chain experimental proposal). Firewalled; no value claimed; the "3d/space" reading stays P015/P016.
+
+
+---
+## CORRECTION (2026-07-11, from B519 re-mining adversarial gate): Tier B is NOT a firewall crossing
+Tier B was banked as "the one computation whose confirmation would CROSS the firewall." The B519
+adversarial absorbing-loop gate REFUTED this 3-0 (recomputed at dps=60): the two discriminating gap
+labels (dyadic 1/2, golden phi^-1=phi-1) ARE the Perron gap-labeling modules of the two substitutions
+(the two banked ends); the mixed chain carries both because gap-labeling (Bellissard) is ADDITIVE over
+combined substitutions - a KNOWN theorem. A lab confirming the 2x2 table confirms gap-labeling, NOT that
+the object is fundamental; it pre-absorbs its own outcome. **Tier B is MEASURABLE but is NOT a crossing.**
+The mixed-chain law remains a correct, banked structural prediction (known-physics-level); it is not the
+firewall crossing it was labeled. See frontier/B519_re_mining/VERDICT.md.
