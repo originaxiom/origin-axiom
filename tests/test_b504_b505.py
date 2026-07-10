@@ -29,3 +29,20 @@ def test_b504_delta_M_is_two():
     T = mp.matrix([[t[0], t[1]], [t[2], t[3]]])
     Tn = T/mp.sqrt(T[0, 0]*T[1, 1] - T[0, 1]*T[1, 0])
     assert abs((Tn[0, 0] + Tn[1, 1])**2 - 2) < mp.mpf('1e-18')
+
+
+def test_b507_beta_gates_and_zero():
+    import numpy as np
+    rng = np.random.default_rng(41)
+    N = 400_000
+    q = rng.normal(size=(N, 4)); q /= np.linalg.norm(q, axis=1, keepdims=True)
+    q2 = rng.normal(size=(N, 4)); q2 /= np.linalg.norm(q2, axis=1, keepdims=True)
+    x = 2*q[:, 0]; y = 2*q2[:, 0]
+    z = 2*(q[:, 0]*q2[:, 0] - np.sum(q[:, 1:]*q2[:, 1:], axis=1))
+    kap = x*x + y*y + z*z - x*y*z - 2
+    gM = np.log(np.maximum(np.abs(x*x + y*y - x*y*z), 1e-300))
+    gD = np.log(np.maximum(np.abs(x*x*y*y), 1e-300))
+    assert abs(gM.mean()) < 0.01 and abs(gD.mean() + 2) < 0.01      # proved gates
+    lo = gM[(kap > -0.3) & (kap < -0.1)].mean()
+    hi = gM[(kap > 0.1) & (kap < 0.3)].mean()
+    assert lo < 0 < hi                                               # the zero sits at ~0
