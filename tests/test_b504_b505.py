@@ -67,3 +67,14 @@ def test_delta_geo_parabolic():
     T = mp.matrix([[t[0], t[1]], [t[2], t[3]]])
     Tn = T/mp.sqrt(T[0, 0]*T[1, 1] - T[0, 1]*T[1, 0])
     assert abs((Tn[0, 0] + Tn[1, 1])**2 - 4) < mp.mpf('1e-18')
+
+
+def test_delta_function():
+    import mpmath as mp2
+    mp2.mp.dps = 20
+    delta = lambda s: (s*s + s - 1)/(s - 1)
+    phi = (1 + mp2.sqrt(5))/2
+    assert abs(delta(1/phi)) < 1e-18 and abs(delta(-phi)) < 1e-18
+    assert abs(delta(mp2.mpc(1.5, mp2.sqrt(3)/2)) - 4) < 1e-18
+    assert delta(mp2.mpf(2)) == 5
+    assert abs(2*mp2.acosh(mp2.sqrt(5)/2) - 2*mp2.log(phi)) < 1e-18
