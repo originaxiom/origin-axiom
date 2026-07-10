@@ -16,10 +16,11 @@ legitimacy test B513's Hessian failed (natural on the spacetime, not the paramet
 | bronze canonical coupling | (2,1) | (3,1) |
 | tetranacci (control) | (2,1) | (3,1) |
 | child field x⁴−x−1, d_K=−283 (control) | (2,1) | (3,1) |
-| Panju χ = x⁴−x³−2x²+1 (control) | (2,2) | (2,2) |
+| totally-real x⁴−4x²+1 (control) | (4,0) | (4,0) Euclidean |
+| totally-complex x⁴+1 (control) | (0,2) | (2,2) |
 
 **(3,1) is GENERIC to any quartic with one complex place** — β, silver, bronze, tetranacci, and the
-child field all give it; only a two-complex-pair quartic gives (2,2). So the Lorentzian signature is
+child field all give it; totally-real quartics give (4,0), two-complex-pair give (2,2). So the Lorentzian signature is
 NOT golden-specific and NOT object-forced — it is the generic arithmetic of "2-real-1-complex" number
 fields. **T-SIG via the canonical form FAILS the control gate.** Verdict: the Lorentzian signature is
 real but laundered (generic); firewalled, not a physics signal.

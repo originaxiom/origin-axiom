@@ -121,4 +121,5 @@ def test_lorentzian_signature_is_generic():
     assert sig(x**4 - 2*x**3 - 5*x**2 - 4*x - 1) == (3, 1)   # golden beta: Lorentzian
     assert sig(x**4 - x - 1) == (3, 1)                        # child field -283: ALSO (3,1) => generic
     assert sig(x**4 - x**3 - x**2 - x - 1) == (3, 1)          # tetranacci: ALSO (3,1) => generic
-    assert sig(x**4 - x**3 - 2*x**2 + 1) == (2, 2)            # two-complex-pair: (2,2) => not all quartics
+    assert sig(x**4 - 4*x**2 + 1) == (4, 0)                   # totally real => Euclidean (splitting-type dependent)
+    assert sig(x**4 + 1) == (2, 2)                            # totally complex => (2,2); so (3,1) is the (2,1)-class, generic
