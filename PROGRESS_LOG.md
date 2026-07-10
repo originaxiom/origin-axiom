@@ -1725,3 +1725,12 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   scale-bridge-by-embedding = the anchor, the object as a scale-free universality class); the
   absorbing-loop caveat (this synthesis could be the 6th "buried-centre" re-discovery; only an external
   prediction distinguishes doorway from wall). Registered T-ONE-ROOT/T-HELD-SLOT.
+
+- **B518 (2026-07-11): confirming K025 by computation — three tiers.** A: κ−2 is coupling²-distance in
+  every 2-letter Fibonacci transfer system (Schrödinger/hopping/spin) with the SAME trace map — the
+  scale-free universality class confirmed (scale substrate-set). C: the four faces derived EXPLICITLY
+  from the root R,L (σ²=A; RL=E₈/√5; −RL⁻¹=E₆/√−3; seam √−15) — dictionary→derivation. B (the prize):
+  the mixed-chain label law sharpened to a BINARY falsifiable prediction — a Fib+TM mixed chain carries
+  BOTH a dyadic ½-gap (absent in pure Fib) AND a golden 0.618-gap (absent in pure TM); a 2×2
+  spectrometer table a lab can check. Per the absorbing-loop caveat, A+C confirm structure; only B can
+  confirm a crossing. Locks pass. Open: B's N-scaling rigor, A2 (RG basin), the P5 + experiment write-up.
