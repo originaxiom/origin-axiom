@@ -10517,6 +10517,38 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B503": {
+   "slug": "tower timebox",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B103",
+    "B104",
+    "B105",
+    "B112",
+    "B117",
+    "B121",
+    "B122",
+    "B61",
+    "B62",
+    "B80",
+    "B84",
+    "B85",
+    "B89",
+    "P1",
+    "P16",
+    "V91"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B50": {
    "slug": "pc12 proof draft assembly",
    "motifs": [
