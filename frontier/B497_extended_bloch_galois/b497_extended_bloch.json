@@ -1,0 +1,285 @@
+{
+ "controls": {
+  "seam_exact": true,
+  "orbit_sum_zero": true,
+  "vol_member": 2.0298832128193074,
+  "d_vanishes_on_fixed_field": true,
+  "seed_rect_exact": true,
+  "seed_rect_conj_exact": true,
+  "seed_rows": [
+   [
+    [
+     2,
+     2
+    ],
+    [
+     -1,
+     -1
+    ],
+    1
+   ],
+   [
+    [
+     -2,
+     -2
+    ],
+    [
+     1,
+     1
+    ],
+    1
+   ],
+   [
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     -1
+    ],
+    -1
+   ],
+   [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     -2
+    ],
+    1
+   ]
+  ],
+  "all_pass": true
+ },
+ "covers": {
+  "rows": [
+   {
+    "n": 2,
+    "ntet": 4,
+    "all_shapes_z0": true,
+    "vol_over_seed": 1.9999999999999996,
+    "cvol_imag": -2.220446049250313e-15,
+    "amphichiral": true,
+    "tier": "numerical shapes (1e-9); the lift itself exact"
+   },
+   {
+    "n": 3,
+    "ntet": 6,
+    "all_shapes_z0": true,
+    "vol_over_seed": 3.0,
+    "cvol_imag": -1.7763568394002505e-15,
+    "amphichiral": true,
+    "tier": "numerical shapes (1e-9); the lift itself exact"
+   },
+   {
+    "n": 4,
+    "ntet": 8,
+    "all_shapes_z0": true,
+    "vol_over_seed": 4.000000000000001,
+    "cvol_imag": 2.220446049250313e-15,
+    "amphichiral": true,
+    "tier": "numerical shapes (1e-9); the lift itself exact"
+   },
+   {
+    "n": 5,
+    "ntet": 10,
+    "all_shapes_z0": true,
+    "vol_over_seed": 4.999999999999999,
+    "cvol_imag": -4.218847493575595e-15,
+    "amphichiral": true,
+    "tier": "numerical shapes (1e-9); the lift itself exact"
+   }
+  ],
+  "class_law": "n.beta (Z-multiple tower)",
+  "field": "Q(sqrt-3) all n"
+ },
+ "metallic": {
+  "1": {
+   "census": "m004",
+   "ntet": 2,
+   "vol": 2.029883212819307,
+   "bw_sum": 2.0298832128193074,
+   "amphichiral": true,
+   "conj_self_pairs_dneg_orbit": true,
+   "field": "Q(sqrt-3) [Eisenstein]",
+   "tier": "exact (section 0)"
+  },
+  "2": {
+   "census": "m136",
+   "ntet": 4,
+   "vol": 3.663862376708876,
+   "bw_sum": 3.663862376708876,
+   "amphichiral": true,
+   "conj_self_pairs_dneg_orbit": true,
+   "field": "Q(i) [Gaussian]",
+   "exact_shapes": [
+    "1 + I",
+    "1/2 + I/2",
+    "1 + I",
+    "I"
+   ],
+   "rect_exact": true,
+   "conj_self_pairing_exact": true,
+   "all_D_equal_catalan": true,
+   "vol_is_4catalan": true,
+   "tier": "exact"
+  },
+  "3": {
+   "census": "s464",
+   "ntet": 6,
+   "vol": 4.813819186103887,
+   "bw_sum": 4.8138191861038875,
+   "amphichiral": true,
+   "conj_self_pairs_dneg_orbit": true,
+   "field": "shape min-poly degrees [8]",
+   "min_polys": [
+    "2*x**8 - 7*x**7 + 5*x**6 + 7*x**5 - 7*x**4 - 5*x**3 + 4*x**2 + 4*x + 1",
+    "2*x**8 - 9*x**7 + 12*x**6 - 2*x**5 - 2*x**4 - 4*x**3 + x**2 - x + 4",
+    "4*x**8 - 15*x**7 + 28*x**6 - 32*x**5 + 31*x**4 - 32*x**3 + 28*x**2 - 15*x + 4",
+    "4*x**8 - 31*x**7 + 106*x**6 - 205*x**5 + 238*x**4 - 159*x**3 + 60*x**2 - 12*x + 1",
+    "4*x**8 - x**7 + x**6 - 4*x**5 - 2*x**4 - 2*x**3 + 12*x**2 - 9*x + 2",
+    "x**8 - 4*x**7 + 15*x**6 - 31*x**5 + 46*x**4 - 45*x**3 + 35*x**2 - 17*x + 4"
+   ],
+   "worst_residual": 1.979620927720541e-288,
+   "tier": "certified-numerical (Newton-polished 290 digits + algdep residual + irreducible)"
+  },
+  "4": {
+   "census": "t03910",
+   "ntet": 8,
+   "vol": 5.573609112831135,
+   "bw_sum": 5.573609112831137,
+   "amphichiral": true,
+   "conj_self_pairs_dneg_orbit": true,
+   "field": "shape min-poly degrees [4]",
+   "min_polys": [
+    "16*x**4 - 36*x**3 + 25*x**2 - 8*x + 1",
+    "4*x**4 - x**2 - 1",
+    "x**4 + x**2 - 4",
+    "x**4 - 8*x**3 + 25*x**2 - 36*x + 16",
+    "x**4 - x**3 - 2*x**2 - x + 1"
+   ],
+   "worst_residual": 8.189188917655677e-290,
+   "tier": "certified-numerical (Newton-polished 290 digits + algdep residual + irreducible)"
+  }
+ },
+ "fillings": {
+  "vol": 0.9813688288922313,
+  "cs_pair": [
+   0.07703818026377002,
+   -0.0770381802637704
+  ],
+  "bw_equals_vol_both": true,
+  "chiral": true,
+  "conj_self_pairing": false,
+  "conj_mirror_pairing": true,
+  "quartic": "x**4 - x - 1",
+  "disc": -283,
+  "galois": "S4",
+  "no_quadratic_subfield": true,
+  "spun_octic_plus": "x**8 - 12*x**7 + 53*x**6 - 100*x**5 + 105*x**4 - 67*x**3 + 27*x**2 - 7*x + 1",
+  "spun_octic_minus": "x**8 - x**6 - x**5 - 4*x**3 + 6*x**2 - x + 1",
+  "spun_octics_isomorphic": true,
+  "spun_exact_gluing_check": true,
+  "octic_contains_trace_quartic": true,
+  "octic_poldisc_has_283_squared": true,
+  "tier": "exact polmod verification; geometric identification certified at 290 digits (Newton-polished)"
+ },
+ "extended_bloch": {
+  "seed_class0": "empty",
+  "seed_class1_eliminant": "c**2 - c + 1",
+  "seed_cvols": {
+   "-": [
+    2.0298832128193074,
+    2.5283594662361963e-16
+   ],
+   "+": [
+    -2.0298832128193074,
+    2.5283594662361963e-16
+   ]
+  },
+  "seed_flattening_pq": {
+   "-": [
+    [
+     0,
+     -1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "+": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "seed_pq_galois_negated": true,
+  "seed_orbit_sum_zero": true,
+  "own_rogers_defect_units_pi2_over_6": 1,
+  "declared_modulus": "i pi^2 / 6 (snappy ptolemy docstring)",
+  "cover_cvols": {
+   "2": [
+    4.059766425638614,
+    -2.220446049250313e-15
+   ],
+   "3": [
+    6.089649638457919,
+    -1.7763568394002505e-15
+   ],
+   "4": [
+    8.119532851277228,
+    2.220446049250313e-15
+   ],
+   "5": [
+    10.149416064096531,
+    -4.218847493575595e-15
+   ]
+  },
+  "m136_classes": {
+   "0": "empty",
+   "1": "empty",
+   "2": "empty",
+   "3": "empty",
+   "4": "empty",
+   "5": "POSITIVE-DIMENSIONAL",
+   "6": {
+    "n_points": 8,
+    "eliminant": "c**4 + 2*c**2 + 2",
+    "cvols": [
+     -3.663862377,
+     -3.663862377,
+     -3.663862377,
+     -3.663862377,
+     3.663862377,
+     3.663862377,
+     3.663862377,
+     3.663862377
+    ]
+   },
+   "7": "empty"
+  },
+  "m136_posdim_classes": [
+   5
+  ],
+  "m136_cv_multiset_sum": 0.0
+ },
+ "verdict": {
+  "outcome": "SEALED",
+  "phrasing": "sealed at the computable horizon; the class beyond these strata/moduli remains open",
+  "snappy_available": true,
+  "tool_blocked": [
+   "sharp modulus tower pi^2 (PSL) / 4 pi^2 (SL2): pipeline declares i pi^2/6; verified Ptolemy machinery sage-gated; magma / Ptolemy DB (network) excluded; from-scratch Neumann normal-path parity: PARTIAL (integer-unit agreement certified)",
+   "K3^ind torsion (Q/Z part): invisible to dilogarithm numerics; etale/motivic tools out of scope",
+   "Ptolemy N>=3 exact enumeration (B495's named block, unchanged)"
+  ]
+ }
+}
