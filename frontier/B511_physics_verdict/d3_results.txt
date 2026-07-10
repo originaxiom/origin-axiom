@@ -1,0 +1,12 @@
+D3.1 stationary measure (mix M10/D10/F80), 2 seeds x 2 sizes:
+  seed11 n=1000 steps=4000: kappa percentiles [5, 25, 50, 75, 95] = [1.772, 2.0, 2.0, 2.0, 2.0]
+  seed11 n=2000 steps=8000: kappa percentiles [5, 25, 50, 75, 95] = [1.8936, 2.0, 2.0, 2.0, 2.0]
+  seed42 n=1000 steps=4000: kappa percentiles [5, 25, 50, 75, 95] = [1.8371, 2.0, 2.0, 2.0, 2.0]
+  seed42 n=2000 steps=8000: kappa percentiles [5, 25, 50, 75, 95] = [1.8761, 2.0, 2.0, 2.0, 2.0]
+GATE: the beta-zero at kappa*=0 must appear as the measure's central concentration.
+
+D3.2 arcsine test (F80/M20 critical walk): occupation fraction of positive log-increments
+  occupation-fraction histogram (10 bins): [996, 351, 113, 28, 10, 2, 0, 0, 0, 0]
+  arcsine prediction: U-shaped (peaks at 0 and 1, minimum at 1/2). Uniform or peaked-center = KILL.
+  ends=996 center=12 => U-SHAPED (arcsine-consistent)
+D3 BACKGROUND CELLS COMPLETE
