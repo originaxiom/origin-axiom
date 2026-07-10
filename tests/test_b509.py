@@ -15,3 +15,14 @@ def test_curve_torsion_by_hand():
     y3 = lam*(0 - x3) - 1
     assert (x3, y3) == (1, 0)
     assert 1**3 - 2*1 + 1 == 0        # (1,0) on the curve, 2-torsion
+
+
+def test_b510_jacobian_mechanism():
+    # Jacobian of v^2=(c^2-1)(c^2-5) via classical I,J: y^2 = x^3 - 27I x - 27J
+    a, b, c, d, e = 1, 0, -6, 0, 5
+    I = 12*a*e - 3*b*d + c*c
+    J = 72*a*c*e + 9*b*c*d - 27*a*d*d - 27*e*b*b - 2*c**3
+    assert (I, J) == (96, -1728)
+    # j-invariants differ => NOT quadratic twists (the corrected mechanism)
+    # j(40a1)=148176/25, j(40a3)=55296/5 — both nonzero and distinct
+    assert 148176*5 != 55296*25
