@@ -96,3 +96,24 @@ timeout words (FDM/FDD/MFD) have hundreds of numerically-genuine fixed points (a
 Newton, residual <1e−28) whose minimal polynomials exceed degree-6/height-10⁵ identification — the
 abelian-or-wild question THERE needs exact elimination or deep PSLQ (priced). Any non-abelian find
 refutes tameness and makes the B398 value-question live.
+
+---
+
+## The wild-hunt verdict (2026-07-10, resultant-chain exact; `wild_hunt_results.txt`)
+
+**CYCLOTOMIC TAMENESS IS REFUTED — the interaction algebra births WILD (non-abelian) arithmetic.**
+Method: resultant-chain eliminants over ℚ (no numerics), factored exactly, Galois via PARI polgalois,
+every factor certified genuine against an independent 30-digit Newton cloud (parasitic factors culled).
+- **FDM (eliminant deg 84):** births the golden x²+x−1, the heptagonal x³+x²−2x−1 AND a **genuine
+  NON-ABELIAN quartic 4x⁴−20x³+37x²−29x+7 with Galois group of order 24 = S₄** — the same Galois type
+  as the object's own geometric child field (x⁴−x−1, S₄). One word births gold, torsion-7, and wildness.
+- **FDD (eliminant deg 31):** all-abelian but ESCALATING cyclotomic-real towers — deg 5 =
+  ℚ(ζ₁₁)⁺ (x⁵+x⁴−4x³−3x²+3x+1 = minpoly 2cos 2π/11), two deg-8 and a deg-9 real-cyclotomic field
+  (orders ~32/27-type) — the D-verb ladder climbs torsion orders.
+- **MFD:** the resultant vanishes identically (a positive-dimensional component meets the projection) —
+  needs saturation first; NAMED GAP, not a verdict.
+**Net verdict:** interaction creates BOTH registers — abelian torsion towers (orders 3,7,11,…) AND
+genuinely wild S₄ arithmetic — at depth 3. The golden monopoly (depth-2) → refuted; cyclotomic
+tameness → refuted; the newborn wild field is S₄-shaped like the object's geometric children. Per the
+standing law this makes the value-question LIVE ONLY through the B398 airlock (owner present); no
+value-matching performed here. Firewalled.

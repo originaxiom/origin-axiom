@@ -1653,3 +1653,9 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   fields: ℚ(√3), ℚ(√−3), and ℚ(ζ₇)⁺ (fixed points = the cyclic Galois orbit of 2cos(2π/7)). All newborn
   fields so far ABELIAN/torsion-shaped → the cyclotomic-tameness candidate law (refutable; the D-heavy
   words are the named boundary — high-degree minpolys beyond cheap identification). Census streaming.
+
+- **B498 wild hunt (2026-07-10): TAMENESS REFUTED.** Resultant-chain exact + Newton-cloud certification:
+  FDM births a genuine NON-ABELIAN S₄ quartic (4x⁴−20x³+37x²−29x+7, polgalois ord 24) alongside the
+  golden and heptagonal fields; FDD births escalating real-cyclotomic towers (ζ₁₁⁺, deg-8/9). MFD =
+  named gap (resultant vanishes; saturation needed). Interaction creates both torsion towers AND wild
+  S₄ arithmetic. Value-question live only via B398.

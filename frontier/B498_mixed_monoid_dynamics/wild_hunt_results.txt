@@ -1,0 +1,28 @@
+============================================================
+FDM
+ eliminant degree: 84
+ newton cloud size: 392
+  deg1   genuine=True  Q   x - 2
+  deg1   genuine=False Q   x
+  deg2   genuine=True  ABELIAN C2   x^2 + x - 1
+  deg3   genuine=True  ABELIAN (ord=deg=3)   x^3 + x^2 - 2*x - 1
+  deg4   genuine=True  NON-ABELIAN (ord 24)   x^4 - 5*x^3 + 37/4*x^2 - 29/4*x + 7/4
+  deg50  genuine=False gal? Error executing code   x^50 - 12*x^49 + 107/2*x^48 - 46*x^47 - 8701/16*x^46
+============================================================
+FDD
+ eliminant degree: 31
+ newton cloud size: 286
+  deg1   genuine=False Q   x - 2
+  deg5   genuine=True  ABELIAN (ord=deg=5)   x^5 + x^4 - 4*x^3 - 3*x^2 + 3*x + 1
+  deg8   genuine=True  ABELIAN (ord=deg=8)   x^8 - x^7 - 7*x^6 + 6*x^5 + 15*x^4 - 10*x^3 - 10*x^2
+  deg8   genuine=True  ABELIAN (ord=deg=8)   x^8 + x^7 - 7*x^6 - 6*x^5 + 15*x^4 + 10*x^3 - 10*x^2
+  deg9   genuine=True  ABELIAN (ord=deg=9)   x^9 + x^8 - 8*x^7 - 7*x^6 + 21*x^5 + 15*x^4 - 20*x^3
+============================================================
+MFD
+ eliminant degree: -1
+ newton cloud size: 39
+Traceback (most recent call last):
+  File "<stdin>", line 53, in <module>
+  File "sage/rings/polynomial/polynomial_element.pyx", line 4979, in sage.rings.polynomial.polynomial_element.Polynomial.factor
+    raise ArithmeticError("factorization of {!r} is not defined".format(self))
+ArithmeticError: factorization of 0 is not defined
