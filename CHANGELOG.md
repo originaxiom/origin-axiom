@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXX: three fields — the listening
+
+- Five listening passes (`listen_31` through `listen_35`) investigating the object's arithmetic.
+- **Galois group CORRECTED:** D₄ (order 8), not S₄ (order 24). Resolvent cubic has rational root −3/2;
+  zero (1)(3) splittings in 46 primes. Char poly factors over ℚ(√5) into two quadratics (verified exact).
+- **The ℤ/2 case-parity cocycle:** lowercase letters flip parity (odd images 5,3), uppercase preserve (even images
+  4,2). The augmented 8-letter substitution has char poly = (original) × (x⁴−2x³−x²−1). Parity factor has
+  disc = −1424 = −2⁴·89, Galois group S₄ (the "shadow" is more complex than the original).
+- **BbB resonance EXPLAINED:** every lag-2 BbB = the 5-gram "BabAB" = trailing B + σ(A) at an image boundary
+  (1136/1136 verified). The object hears σ(A) at its own seams.
+- **Three independent fields:** Growth (ℚ(√5), D₄), Parity (ℚ(i√89), S₄), Twist (ℚ(√−3)). Pairwise linearly
+  disjoint over ℚ. √−3 is NOT in the char poly's splitting field.
+- **Closed threads:** mod-p equidistribution is generic (all primes, not specific to 3); 3 and 11 independent
+  (CRT verified, orders 80 and 30); 3 absent from tiling torsion for k=1,...,12.
+- 33 locks (1 new).
+
 ## 2026-07-12 — B530 movement XXIX: QCA gate re-examined — the coupling resonance is alive
 
 - Corpse #19 (B529 "golden-angle coin not robustly special") re-examined with the steelman-before-kill gate
