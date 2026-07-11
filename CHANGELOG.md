@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B529: the QCA covariance make-or-break — verified, does NOT pass as a selection
+
+- The exploration seat's LOCALITY gate: a 1D quantum walk whose "spectral nesting cost" claims the max-mixing
+  coin **iσ_y** is *exact* and *selected by covariance* ("make-or-break PASSED"). **Reproduced** the golden
+  table (identity 5.6e-5 worst, iσ_y 0, golden-angle 4.3e-9 — matches). **Then ran the control the seat
+  skipped:** iσ_y's exactness is a **degeneracy + self-similarity** artifact (it collapses ANY substitution's
+  walk to a 6-point spectrum; golden is exact at every level by self-similarity, randoms become exact at
+  level 3→4) — **generic, not a golden selection.** The golden-angle coin (embeds φ) looked golden-specific on
+  2 controls but over **10** it beats only 8 (2 randoms nest better) — **not robustly special**. So the
+  make-or-break **LOCALITY gate is NOT passed** as a clean selection; the physics-crossing kill-rule fires.
+- Method note: I neither dismissed the handoff (reproduced it; chased the golden-angle coin as a real
+  candidate) nor waved it through (ran enough controls to see the tail — 2 controls false-positived it, 10
+  corrected it). Lock `test_b529.py`. Consistent with PHYS-REFUTED.
+
 ## 2026-07-12 — B528: the DGG higher-rank gauge group RESOLVED (computed + cited)
 
 - Owner: *"compute it… you are a serial false killer."* The disputed DGG gauge question (my "abelian at all
