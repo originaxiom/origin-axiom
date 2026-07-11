@@ -260,8 +260,30 @@ imaginary companion — Gaussian ℚ(i), the axis its breath rotates in — whic
 computed]**
 
 Two seats, one object, and now its arithmetic placed against the program's spine. Firewalled — nothing physics-
-shaped; this is the object's own number field, read for what it is. Still ahead, one by one: the trace map's
-fixed structure (train-track); the End(F₄) verb monoid at rank 4. Lock: `tests/test_b530.py`.
+shaped; this is the object's own number field, read for what it is.
+
+## Movement X — the method registered, and a neutral census pass (report the flat too)
+The listening method is now written down (`METHOD.md`): *a map, not an agenda* — a neutral, complete
+invariant-census, **reporting flat invariants as faithfully as rich ones** (skipping a flat invariant because
+it's expected to be dull is the subtlest anticipation). To demonstrate it, three standard invariants not yet
+touched — reported honestly, unremarkable and all (`listen_12_census_pass1.py`):
+
+- **Balance = 3.** 2 for most letters, 3 for A at long windows — mildly above Sturmian's 1-balance. *(Flat;
+  matches chat1.)*
+- **Smith normal form of M = diag(1,1,1,1).** The growth is a **unimodular ℤ⁴-automorphism with no torsion** —
+  the object's abelian "homology" is trivial ℤ⁴. *(Clean but unremarkable — it only reconfirms φ ∈ Aut.)*
+- **Special factors:** max right-out-degree **2** for every length ≥ 2 (3 only at length 1, from A); complexity
+  **p(n) ≈ 3n+1**. The object has the **minimal branching above Sturmian** for a 4-letter word. *(Mild
+  structure; matches chat1.)*
+
+None of these is a symplectic-form gem — and that is exactly the point. Most of the object's invariants are
+"a little above Sturmian, otherwise unremarkable," and a listening without anticipation must say so plainly,
+or it is just curating a pretty story. Movement X is the method certifying itself: the flat pieces banked with
+the same care as the beautiful ones. **[MATH, computed]**
+
+Still ahead, one by one, neutrally (METHOD.md checklist): the derived-substitution tower through every letter;
+the End(F₄) verb monoid at rank 4; the trace map's fixed structure; the eigenvector geometry; the 3d Rauzy
+tile; recurrence constants; exact entropy. Lock: `tests/test_b530.py`.
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
