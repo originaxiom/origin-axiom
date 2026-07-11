@@ -553,3 +553,21 @@ def test_movement_XXV_the_prime_11_and_deep_listening():
     # B at i, b at i+2, B at i+4 is ~12x enhanced, always BabAB, straddling a sigma-image boundary
     ratio, all_babab, straddle = mod.bbb_resonance(u)
     assert ratio > 10 and all_babab and straddle > 0.99
+
+
+def test_movement_XXVII_falsekill_corrections():
+    # three of four "did not survive" claims were ALIVE; restored with the right instrument.
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_28_falsekill_corrections.py')
+    spec = importlib.util.spec_from_file_location('l28', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # DIFFRACTION: Bragg peaks at the golden family, huge over random (I killed this with a coarse FFT)
+    golden, gmean, cmean = mod.golden_bragg(N=131072)
+    assert gmean > 50 * max(cmean, 1)                       # golden Bragg >> random
+    assert golden['phi'] > 500                              # the strongest peak, at f*beta = phi
+    # FORWARD-BACKWARD: matrix powers converge (chirality short-range, as the sender stated)
+    fb = mod.forward_backward_decay()
+    assert fb[49] < 1e-3 and fb[1] > 1                      # decays 6.8 -> ~0

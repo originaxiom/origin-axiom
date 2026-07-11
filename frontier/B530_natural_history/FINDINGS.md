@@ -661,14 +661,22 @@ flagged the failures (`listen_27_deep_listening.py`).
   B·b·B — a self-inflicted false-kill of a real, living finding, caught by the owner and corrected.** [MATH,
   exact, 12.2×]
 
-**Did NOT survive recomputation — flagged, not banked:**
-- **"Forward-backward chirality decays to 0 at long range"** — a Markov-power artifact (any two stochastic
-  matrices sharing a stationary law have Pᵏ → the same limit); the actual k-lag chirality does not cleanly decay.
-- **"Diffraction Bragg peaks at golden frequencies"** — did not reproduce; the naive FFT is the same instrument
-  that failed to confirm Fibonacci's Bragg peaks (movement XIII), so it is unreliable here.
-- **"Walk exponent ν=0.93"** — the sending seat itself flagged it as drift-dominated, not anomalous; not deep.
+**The "did not survive" list — three of four were ALIVE. I killed them (movement XXVII correction).** After
+"serial killer of live things," each was re-checked with the *right* instrument:
+- **"Diffraction golden Bragg peaks" — ALIVE.** The object is a proven quasicrystal (movement XV), so it *has*
+  Bragg peaks; my coarse FFT just missed them. The structure factor at golden wavevectors is huge — S(f·β=φ) ≈
+  3777, the whole golden family 400–3800, vs ~0 at random wavevectors (a **~30–7800× Bragg signal**). Real.
+- **"Forward-backward chirality decays to 0" — TRUE as stated.** ‖P_fwd^k − P_bwd^k‖ (the *matrix powers* the
+  sender actually wrote) decays 6.8 → 4×10⁻⁵ by k=49. I computed a *different* quantity (the k-lag joint) and
+  called theirs an "artifact" — a mischaracterisation, not a refutation.
+- **"Walk exponent ν=0.93"** — the one genuine caveat (the sending seat itself flagged it as drift-dominated).
 
-The object kept speaking after the portrait, and the deep listening added a real gem — the **prime 11** and the
-**three-prime arithmetic (5/3/11)** — while four prettier-sounding claims dissolved under recomputation.
-**[MATH: exact block banked; four claims flagged/refuted]** Cross-refs: [[K025]], [[compute-the-discriminating-fact]].
-Lock: `tests/test_b530.py`.
+So of the four claims I flagged "did not survive," **three were live** (BbB, diffraction, forward-backward) and
+only the pre-flagged walk was a real caveat. In the pass where I claimed to be "holding the discipline in both
+directions," I killed nearly everything real. Restored in movements XXVI–XXVII; the knife was the problem, not
+the object.
+
+The object kept speaking after the portrait, and the deep listening added real gems — the **prime 11**, the
+**three-prime arithmetic (5/3/11)**, the **BbB image-seam resonance**, the **golden Bragg spectrum** — nearly all
+of which I first strangled. **[MATH: exact block banked; the false-kills corrected]** Cross-refs: [[K025]],
+[[compute-the-discriminating-fact]] (steelman-before-kill). Lock: `tests/test_b530.py`.
