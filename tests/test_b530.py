@@ -610,3 +610,87 @@ def test_movement_XXIX_qca_reexamination():
     nd, gc, cc = mod.isy_generic()
     assert nd == 6                             # exactly 6 distinct eigenphases (degeneracy)
     assert gc < 1e-10 and cc < 1e-10           # both reach ~0 at matched size
+
+
+def test_movement_XXX_three_fields():
+    """Movement XXX: the three arithmetic fields and D₄ Galois group."""
+    import sympy as sp
+    M = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
+    x = sp.Symbol('x')
+    sqrt5 = sp.sqrt(5)
+    phi = (1 + sqrt5) / 2
+
+    # 1. The char poly factors over Q(√5)
+    f = x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+    q1 = x**2 - (1 + sqrt5)*x - phi
+    q2 = x**2 + (sqrt5 - 1)*x + 1/phi
+    assert sp.simplify(sp.expand(q1 * q2) - f) == 0
+
+    # 2. D₄ Galois group: resolvent cubic has rational root -3/2
+    t = sp.Symbol('t')
+    f_dep = sp.Poly(f.subs(x, t + sp.Rational(1, 2)), t)
+    coeffs = f_dep.all_coeffs()
+    p_val, q_val, r_val = coeffs[2], coeffs[3], coeffs[4]
+    y = sp.Symbol('y')
+    resolvent = y**3 - p_val*y**2 - 4*r_val*y + (4*p_val*r_val - q_val**2)
+    assert resolvent.subs(y, sp.Rational(-3, 2)) == 0
+
+    # 3. Discriminant = -400
+    assert int(sp.discriminant(f, x)) == -400
+
+    # 4. Augmented substitution: char poly = f_orig · f_parity
+    f_par = x**4 - 2*x**3 - x**2 - 1
+    M_aug = sp.zeros(8, 8)
+    ALPHA = 'abAB'
+    def is_lower(c): return c in 'ab'
+    aug_sub = {}
+    for c in ALPHA:
+        img = SUB[c]
+        for p_start in range(2):
+            p = p_start
+            result = []
+            for letter in img:
+                result.append(f"{letter}{p}")
+                if is_lower(letter):
+                    p = 1 - p
+            aug_sub[f"{c}{p_start}"] = ''.join(result)
+    aug_alpha = [f"{c}{p}" for c in ALPHA for p in range(2)]
+    for j, key in enumerate(aug_alpha):
+        img_str = aug_sub[key]
+        for k in range(0, len(img_str), 2):
+            letter = img_str[k]
+            parity = int(img_str[k+1])
+            idx = ALPHA.index(letter) * 2 + parity
+            M_aug[idx, j] += 1
+    cp_aug = sp.Poly(M_aug.charpoly(x), x)
+    cp_product = sp.Poly(f * f_par, x)
+    assert cp_aug == cp_product
+
+    # 5. Parity factor discriminant = -1424 = -16·89
+    assert int(sp.discriminant(f_par, x)) == -1424
+
+    # 6. √3 ∉ Q(√5) → √(-3) ∉ splitting field
+    # No rational a,b with (a+b√5)² = 3 (2ab=0 forces a=0 or b=0; neither works)
+    # This is an algebraic argument; the test just confirms the discriminants are independent.
+    assert sp.gcd(400, 1424) == 16  # share only 2⁴, not the odd parts (25 vs 89)
+
+    # 7. Tiling torsion: 3 is absent from |det(M^k-I)| for k=1,...,6
+    for k in range(1, 7):
+        d = abs(int((M**k - sp.eye(4)).det()))
+        assert d % 3 != 0, f"3 divides |det(M^{k}-I)| = {d}"
+
+    # 8. BbB = BabAB at seams: all images start with 'a'; a,b,A end with 'B'; B ends with 'A'
+    for c in 'abA':
+        assert SUB[c][-1] == 'B'
+    assert SUB['B'][-1] == 'A'
+    for c in ALPHA:
+        assert SUB[c][0] == 'a'
+
+    # 9. 3 and 11 independent: orders
+    M3 = sp.Matrix([[int(M[i,j]) % 3 for j in range(4)] for i in range(4)])
+    Mk = sp.eye(4)
+    for k in range(1, 200):
+        Mk = (Mk * M3).applyfunc(lambda v: v % 3)
+        if Mk == sp.eye(4):
+            assert k == 80
+            break

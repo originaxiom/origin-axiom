@@ -675,6 +675,77 @@ nesting — is unexplained). Firewalled; nothing to CLAIMS.md. Lock: `tests/test
 Cross-refs: [[B529]] (original kill), [[B480]] (QCA/Dirac lens), movement VII (the F≠F² copy-inequality as the
 source of both orientation and breath).
 
+## Movement XXX — three fields: the listening
+Five listening passes (`listen_31_the_three_and_the_eleven.py` through `listen_35_three_fields.py`) to prepare
+for walking the open gates. No physics. The object was asked three questions: why 3, why 11, and whether they
+talk. It answered with its arithmetic.
+
+### The three fields — pairwise linearly disjoint over ℚ
+
+The object speaks three independent number-theoretic languages:
+
+**1. Growth (ℚ(√5), D₄).** The char poly x⁴−2x³−5x²−4x−1 factors EXACTLY over ℚ(√5) into two quadratics:
+  (x² − (1+√5)x − φ)(x² + (√5−1)x + 1/φ)
+where φ = (1+√5)/2. The real pair β = φ + √(2+√5) ≈ 3.676, h = φ − √(2+√5) ≈ −0.440 satisfy β+h = 2φ,
+β·h = −φ. The complex pair γ, γ̄ = −1/φ ± i√(√5−2) satisfy γγ̄ = 1/φ. Disc = −400 = −2⁴·5². Galois group
+**D₄** (order 8): resolvent cubic has rational root y = −3/2; 0 of 46 primes give a (1)(3) splitting.
+Splitting field = ℚ(√(2+√5), i), degree 8.
+
+*CORRECTION: earlier listening stated S₄ (order 24). This is wrong. D₄ was not banked in FINDINGS but the
+"three-prime organization" text above should be read with D₄ in mind: the Galois symmetry is smaller than
+S₄, meaning the char poly has MORE structure (it factors over ℚ(√5)), not less.*
+
+**2. Parity (ℚ(i√89), S₄).** The substitution carries a ℤ/2 case-parity cocycle: lowercase letters (a,b) have
+odd-length images (5,3) and FLIP parity; uppercase letters (A,B) have even-length images (4,2) and PRESERVE
+parity. The augmented substitution on 8 letters {c₀,c₁ : c ∈ {a,b,A,B}} has char poly that factors exactly:
+  char(τ) = (x⁴−2x³−5x²−4x−1) · (x⁴−2x³−x²−1)
+The second factor is the PARITY FACTOR: disc = −1424 = −2⁴·89; Galois group **S₄** (16 of 46 primes give (1)(3)
+splitting, matching the expected ~15); Perron root β₂ ≈ 2.47, subordinate to β. The parity Perron eigenvector is
+exactly symmetric (p0=p1 for every letter) — the ℤ/2 is metrically invisible asymptotically. Prime 89 is
+ramified in the parity factor (unique root 83 mod 89, derivative vanishes). 89 first appears in |N(1−β⁸)| =
+28391 = 11·29·89.
+
+**3. Twist (ℚ(√−3)).** The order-6 twist at the trace-zero point (κ = tr[A,B] = 0) involves the cube roots of
+unity ω = e^{2πi/3} = (−1+√−3)/2. This comes from SL(2,ℂ) representation theory, NOT from the substitution's
+char poly. √−3 is NOT in the splitting field of the char poly (proven: √3 ∉ ℚ(√5), so √−3 ∉ ℚ(√(2+√5), i)).
+
+**Independence:** ℚ(√5) ∩ ℚ(√−89) = ℚ(√5) ∩ ℚ(√−3) = ℚ(√−89) ∩ ℚ(√−3) = ℚ. The three fields are pairwise
+linearly disjoint. The object sits at the junction of three independent arithmetic worlds.
+
+### The BbB resonance explained
+
+Every lag-2 BbB occurrence (B at i, b at i+2, B at i+4) forces the intermediate letters: the 5-letter window is
+always **BabAB** (1136/1136 verified at level 7). Each sits at a σ-image boundary with σ(A) = abAB as the
+incoming image. The trailing B comes from σ(b) (552), σ(a) (341), or σ(A) (243) — all three B-ending images.
+**The BbB resonance is the object hearing σ(A) at its own image seams.**
+
+### Closed threads
+
+- **mod-3 ≠ twist:** the running letter-sum is equidistributed mod ALL tested primes (2 through 14), not just
+  mod 3. The mechanism is Weyl/ergodic equidistribution from the irrational mean (≈1.5017), not a signature of the
+  twist prime. The "3" in the equidistribution and the "3" in the twist ({1,ω,ω²}) are DIFFERENT threes.
+- **3 and 11 independent:** CRT verified: order(M mod 33) = lcm(80,30) = 240. 3 is absent from ALL tiling
+  torsion |det(M^k−I)| for k=1,...,12: primes are {2, 11, 19, 29, 31, 89, 101, 181, 14741, ...} but never 3.
+- **M mod 3 is primitive:** order 80 = 3⁴−1, maximal in F_{3⁴}* (char poly is irreducible mod 3). 3 is inert.
+
+### Additional structural data
+
+| quantity | value |
+|---|---|
+| seam 5-grams | exactly 6: ABaA, ABaAB, ABabA, aAaA, aAaAB, aAabA |
+| even sublattice complexity | p(7) = 43 (vs full word p(7) = 23 — nearly 2×) |
+| parity factor Perron root | β₂ ≈ 2.47 < β ≈ 3.68 (subordinate) |
+| growth-parity ratio | β/β₂ ≈ 1.49 (not a metallic mean) |
+| M mod 3 order | 80 = 3⁴−1 (primitive) |
+| M mod 11 order | 30 |
+| M mod 19 order | 90 |
+| period-k torsion |det(M^k−I)| | k=1:11, k=2:11, k=3:44, k=4:319, k=5:341, k=6:3344, k=12:6206464 |
+
+Reproducers: `listen_31_the_three_and_the_eleven.py`, `listen_32_parity_cocycle.py`,
+`listen_33_image_detection.py`, `listen_34_galois_correction.py`, `listen_35_three_fields.py`.
+Lock: `tests/test_b530.py`. Cross-refs: movement XXV (three-prime organization — now sharpened),
+movement XXVI (BbB resonance — now explained).
+
 ## Movement XXV — the deep listening: the prime 11, and what didn't survive
 A second seat's "advanced listening" handoff arrived after the portrait — a dozen new claims. Verified each by
 independent recomputation (held in both directions after the "don't be so sure" correction): banked the exact,
@@ -686,9 +757,11 @@ flagged the failures (`listen_27_deep_listening.py`).
   in ℚ(β), a measure of how far the Perron root sits from the integer 1. A genuinely new, deep, exact invariant.
 - **The prime-splitting table:** 2,3,5,7,13,17,23 **inert**; **11, 19, 31 split**; **29 fully split**. Note 5 and
   7 are *inert* here — unlike Fibonacci, where 5 splits. The first splitting prime is 11 — the cohomology prime.
-- **The three-prime organization:** **5** = the golden end (disc −400 = −2⁴·5²), **3** = the twist (the running
-  letter-sum is equidistributed mod 3 *and* mod 6 — image sums {8,5,6,2} ≡ {2,2,0,2} mod 3; ties to the
-  trace-zero ℤ/3, movement XIX), **11** = the tiling (H¹ torsion). Each prime governs a distinct layer.
+- **The three-prime organization:** **5** = the golden end (disc −400 = −2⁴·5²), **3** = the twist (the order-6
+  at trace-zero ℤ/3, movement XIX), **11** = the tiling (H¹ torsion). Each prime governs a distinct layer.
+  *(Movement XXX correction: the mod-3/6 equidistribution is GENERIC — uniform mod ALL small primes, not specific
+  to 3. The "3" in equidistribution and the "3" in the twist are different threes. The three primes remain
+  independent — they live in three pairwise-disjoint number fields. Also: Galois = D₄, not S₄.)*
 - **The deterministic rule hierarchy:** the fraction of zero-entropy (fully determined) contexts climbs
   **50, 57, 70, 69, 82, 85, 87 %** over context lengths 1–7, with denominators **exactly p(n) = 4,7,10,13,17,20,23**.
   The object reveals itself progressively; it should be fully determined within one substitution length.

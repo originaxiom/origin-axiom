@@ -292,6 +292,13 @@ before merge. The negative now stands on TWO independent seats.
 
 
 
+## 2026-07-12 — B530 movement XXX: three fields — the listening
+Five passes listening to the object's arithmetic. **Galois group corrected: D₄ not S₄** (resolvent has rational
+root −3/2; char poly factors over ℚ(√5)). The ℤ/2 case-parity cocycle generates a parity factor x⁴−2x³−x²−1
+with disc −2⁴·89 and Galois S₄ — the shadow is more complex. BbB resonance explained: σ(A) detection at image
+seams (1136/1136). Three independent fields: Growth (ℚ(√5), D₄), Parity (ℚ(i√89), S₄), Twist (ℚ(√−3)).
+Closed: mod-p equidistribution generic (not twist-specific); 3 and 11 independent (CRT). 33 locks.
+
 ## 2026-07-12 — B530 movement XXIX: QCA gate re-examined — the coupling resonance is alive
 Corpse #19 re-examined with steelman-before-kill: the iσ_y kill HOLDS (generic degeneracy); the golden-angle
 coin kill was an OVER-CLOSURE — not a selection (beats 18/30 randoms, π/5 not optimal), BUT the F≠F² coupling
