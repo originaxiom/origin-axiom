@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 capstone: PORTRAIT.md (the Level-1 object, fully heard)
+
+- Consolidated the 20-movement natural history into a single canonical `frontier/B530_natural_history/PORTRAIT.md`
+  — identity, spectral type (proven quasicrystal), architecture, geometry, self-similarity, chirality,
+  information, the 9d trace map, the floor variety, the verb interaction, the coarse-graining, what remains.
+- Verified the handoff's stronger form of the §VIII claim before enshrining it: σ* preserves **no bilinear
+  structure of any kind** — invariant *symmetric* forms also have dimension 0 at every generic fixed point
+  (seeds 7/11/19), matching the antisymmetric result. Movement XVII FINDINGS updated. No new lock; 24 pass.
+
 ## 2026-07-12 — B530 movement XX: the old/new coarse-graining (golden ratio kept, simplicity not)
 
 - Neutral checklist item (`listen_22_interleaving_sequence.py`): map each letter to its generation (old {a,b}→0,

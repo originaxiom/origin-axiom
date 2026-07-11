@@ -315,6 +315,12 @@ golden eigenvalue ladder **explained** — it lives at the **trace-zero represen
 twist = primitive 6th root of unity), where Dσ* = {φ,1,−1/φ}⊗{1,ω,ω²} exactly (golden × cube-roots). Movement
 **XX**: the **interleaving** (old/new coarse-graining) carries new:old = √φ exactly but is NOT Sturmian
 (complexity ≈3n) — golden ratio kept, simplicity not.
+**CAPSTONE — `frontier/B530_natural_history/PORTRAIT.md`**: the 20-movement portrait consolidated into one
+canonical document. The object is a *proven* 3-d golden quasicrystal (identity = one quartic; explicit Rauzy
+tile with fractal boundary; golden entropy/branching; totally chiral; self-similar to infinite depth), whose
+Level-1 lift to X(F₄,SL₂) preserves **volume but no bilinear form of any kind** (symmetric checked = dim 0 too,
+verified before enshrining) — φ having left the geometric world — with a distinguished trace-zero point where
+Dσ* = {φ,1,−1/φ}⊗{1,ω,ω²}. **Genuine terminus; remaining items specialist-grade or minor.**
 Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
 (self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
 Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:
