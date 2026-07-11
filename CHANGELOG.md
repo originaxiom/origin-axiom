@@ -6,13 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
-## 2026-07-12 — B530 movement XXXIII: gap-opening curves verified and corrected
+## 2026-07-12 — B530 movement XXXIII: gap-opening curves verified (SELF-CORRECTED)
 
 - Verified the gate handoff's gap-opening slopes and saturation values.
-- **Gap 3 opens LINEARLY (slope ≈ 0.155), NOT quadratically** — handoff wrong; artifact of
-  insufficient system size. Gap 3 and gap 2 open at identical rates (ratio 1.0006).
-- **Gap 1 slope ≈ 0.193** (handoff: 0.184, ~5% off). **Gap 2 slope ≈ 0.155** (handoff: 0.153, matches).
-- **Slope ratio ≈ 1.25** — handoff's √(1/φ²+1)=1.176 identification killed as numerology.
+- **SELF-CORRECTION** after depths 8 (N=44K) and 9 (N=163K): three depth-7 claims retracted.
+  "slope₂≈slope₃" was a finite-size artifact (ratio 1.27 at d8); "numerology killed" was wrong
+  (ratio converges to 1.204 at d9, matching the handoff); "gap 3 slope ≈ 0.155" was unconverged.
+- **Gap 1 slope ≈ 0.184** (handoff correct). **Gap 2 slope ≈ 0.153** (handoff correct).
+- **Gap 3**: oscillates 0.12–0.15 across depths; opens slower than gaps 1-2 but NOT quadratically.
+- **Slope ratio ≈ 1.204** (handoff correct). √(1/φ²+1)=1.176 does NOT match — exact form OPEN.
+- **Slopes are non-topological**: depend on which letters carry the potential (old/new vs
+  decider/courier give different slope patterns). Gap POSITIONS are topological (Bellissard).
 - Saturation values at ε=5 VERIFIED: 1.10, 2.82, 0.71 (all match to <1%).
 - 36 locks (1 new).
 
