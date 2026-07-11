@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXI: the arithmetic of the floor (past-the-gate H6 computed)
+
+- Owner-authorized pass past the physics gate, worked as a calculation (`listen_23_floor_arithmetic.py`). Extends
+  movement IX's growth arithmetic to the floor.
+- **Growth field = ℚ(√5)** (disc −400; √−3, √−15 absent). **Trace-zero floor point: static F₄-character rational
+  (ℚ)** — Eisenstein absent statically too — **but its twist is forced order-6** (τ⁶=1 at every trace-zero point,
+  30-seed check), so the linearised-dynamics spectrum {φ,1,−1/φ}⊗{1,ω,ω²} lives in **ℚ(√5,√−3) ⊇ √−15**.
+- So ℚ(√5) and ℚ(√−3), provably held apart in the growth (IX), **co-occur in the floor's dynamics** at the
+  trace-zero point (φ from growth, ω from the forced ℤ/3). **Verdict (firewalled in S065): a near-crossing, not a
+  crossing** — only in the dynamics, only via the trap-ℤ/3, and the object selects nothing; K025 stands at the
+  growth/character level. S065 H6 updated. Lock test_b530.py (25 pass).
+
 ## 2026-07-12 — B530 capstone: PORTRAIT.md (the Level-1 object, fully heard)
 
 - Consolidated the 20-movement natural history into a single canonical `frontier/B530_natural_history/PORTRAIT.md`
