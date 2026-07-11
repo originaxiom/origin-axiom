@@ -118,3 +118,19 @@ def test_kappa_web_bB_is_the_unspoken_swap_fixed_pair():
     fixed = [p for p in pairs if {swap[x] for x in p} == set(p)]
     assert set(map(frozenset, fixed)) == {frozenset(('a', 'A')), frozenset(('b', 'B'))}  # swap-fixed kappas
     assert frozenset(('b', 'B')) in absent                        # the unspoken pair is swap-fixed (symplectic)
+
+
+def test_four_letters_are_the_bootstrap_and_growth_is_dissipative():
+    # Movement VI: copy-grouping {a,b},{A,B} gives M = [[F,F],[F^2,F]] = the B517 bootstrap; not symplectic.
+    letters = 'abAB'
+    M = sp.Matrix([[SUB[j].count(i) for j in letters] for i in letters])
+    F = sp.Matrix([[1, 1], [1, 0]])
+    assert M[0:2, 0:2] == F and M[0:2, 2:4] == F and M[2:4, 2:4] == F   # three blocks = F
+    assert M[2:4, 0:2] == F * F                                          # bottom-left = F^2
+    # => M = [[F,F],[F^2,F]] = M*
+    assert M == sp.Matrix(sp.BlockMatrix([[F, F], [F * F, F]]))
+    # growth is NOT symplectic w.r.t. its own 2-form D (static orientation, dissipative dynamics)
+    D = sp.Matrix([[0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 0, 0], [0, 1, 0, 0]])
+    MtDM = M.T * D * M
+    assert all(sp.simplify(MtDM - c * D) != sp.zeros(4) for c in (1, -1))   # not +/- D
+    assert M.det() == -1                                                     # unimodular, dissipative
