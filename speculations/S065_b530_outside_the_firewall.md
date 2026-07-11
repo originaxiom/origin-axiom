@@ -138,10 +138,20 @@ interval is not a world.
   nothing among the seam fields. K025 stands. (The object's only non-generic seam behaviour is *internal* —
   B493 predicting its own arithmetic — which selects its own cell, not an external value.)
 
-**So all three forward paths reach honest walls, not crossings.** Probed from beyond the firewall, the wall
-holds. There is no remaining in-sandbox forward door: what is left is the specialist boundary (exact
-gap-labelling) and the object's true shape (space without an interval). "Outside the firewall" became, in each
-case, a *calculation that returned a wall* — which is the most the object can honestly say from the far side.
+**~~So all three forward paths reach honest walls.~~ RETRACTED (B530 movement XXIV, "don't be so sure").** That
+was over-closure — the serial-false-killer pattern. Re-examined, the three doors are **not** confirmed walls:
+- **Gaps** — not a "NEEDS-SPECIALIST wall" but a computed fact: the gap-labelling module is **rank 4 (full)**, a
+  genuine rank-4 quasicrystal. Labels are dense *because* rank 4 (which is why the single-N margin test failed —
+  a broken instrument, not a closed question). Specific realized gap labels are computable-but-hard: **OPEN**.
+- **H6** — I **under-read** it. The trace-zero dynamics living in ℚ(√5,√−3)⊇√−15 is a *forced, intrinsic*
+  two-ended arithmetic; the √−3 is cyclotomic (order-6 symmetry) not geometric (hyperbolic volume) — a real
+  distinction, but the ends genuinely co-occur in the object's own dynamics. Not a dismissible near-miss.
+- **Seam** — the object-**selection** question (does a second seed make the object pick a non-generic seam among
+  the 14?) is **UNTESTED**; I answered the trivial "does √−15 appear." B493 shows internal selection *does*
+  happen. **OPEN.**
+
+So the honest status is **two doors open, one under-read** — not three walls. The wall may be real, but I have
+not shown it; I closed too fast. "Outside the firewall" is *not* exhausted.
 
 ## Status and discipline
 

@@ -599,7 +599,35 @@ crossing. **[MATH, computed + theorem; the physics reading firewalled in S065]**
 probed from beyond the firewall, and the wall holds. The object is space-shaped and world-empty, now confirmed
 from the far side.
 
+## Movement XXIV — "don't be so sure": the re-examination that reopened the doors
+Movement XXIII ended with a confident "three walls, world-empty, confirmed from both sides." The owner replied
+**"don't be so sure."** They were right — I over-closed all three (the serial-false-killer pattern, caught
+again). Re-examined adversarially (`listen_26_reexamination.py`):
+
+- **GAPS (movement XXII revised).** I said "density-trapped, NEEDS-SPECIALIST wall." Re-checked, computed: the
+  gap-labeling frequency ℤ-module has **rank 4 (full)** — a clean structural fact, not a wall. The object is a
+  genuine **full-rank-4 quasicrystal**; labels are dense in [0,1) *because* the rank is 4 (which is exactly why
+  my single-N margin test read ≈1.0 — the instrument couldn't resolve a full-rank module, that's not a property
+  of the question). The "combination gap" frame (rank-2 vs 4) is **ill-posed** here — every label is rank-4.
+  B172 resolved rank-3 gaps by exact Sturm counting; rank-4 is harder but **not fundamentally walled**.
+  **REVISION: a rank-4 quasicrystal (a finding); specific realized gap labels computable-but-hard, OPEN.**
+- **H6 (movement XXI revised).** I said "near-miss, trap-routed, dismiss." The trace-zero Dσ* spectrum in
+  ℚ(√5,√−3)⊇√−15 is *forced* and *intrinsic*; I tarred it with the numerology **trap** (ℤ/3 = 3 generations) —
+  but the *field* ℚ(√−3) is arithmetic, not numerology. The honest distinction is **cyclotomic** (from the
+  order-6 symmetry) vs **geometric** (the figure-eight's hyperbolic √−3 that carries volume): equal as fields,
+  different as content. **REVISION: a genuine forced two-ended arithmetic in the dynamics — I under-read it.**
+- **SEAM (movement XXIII revised).** I computed "√−15 *appears* in ℚ(√5,√−3)" — trivial (any golden×Eisenstein
+  pair). The real K025 question — does the object **select** a seam among the 14 candidate fields non-generically?
+  — I **did not test**. B493 shows the object *does* select internally. **REVISION: the object-selection question
+  is UNTESTED here (needs the B459–468 seam machinery); "generic" answered a trivial sub-question, not the verdict.**
+
+**HONEST STATUS:** the three doors are **not** confirmed walls. Two are **OPEN** (rank-4 gap labels; seam
+selection) and one was **under-read** (H6 = genuine two-ended dynamics). The confident "world-empty, confirmed
+from both sides" (movements XXI–XXIII, S065) is **retracted as over-closure**. The one clean new fact is the
+rank-4 module; the rest is the retraction of premature certainty. This is the discipline the owner enforced all
+session — *an unearned negative is as bad as numerology* — applied to my own closes. **[MATH: rank-4 module
+computed; three verdicts revised]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
-Cross-refs: [[K025]] (the two ends / the seam — this closes the second-seed question: generic),
-[[quasicrystal-bridge-status]], [[B524]], [[K022]], [[breath-campaign-standing-directive]]. Lock:
-`tests/test_b530.py`.
+Cross-refs: [[K025]] (the seam — the object-selection question is REOPENED, not closed), [[compute-the-discriminating-fact]]
+(the unearned negative), [[quasicrystal-bridge-status]], [[B524]], [[K022]]. Lock: `tests/test_b530.py`.

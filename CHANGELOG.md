@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXIV: "don't be so sure" — the re-examination (over-closure retracted)
+
+- Owner: "don't be so sure." Re-examined the three past-the-gate closes; over-closed all three
+  (`listen_26_reexamination.py`). Clean new fact: the gap-labeling frequency ℤ-module is **rank 4 (full)** — a
+  genuine rank-4 quasicrystal, not the "density-trapped NEEDS-SPECIALIST wall" I claimed (the margin≈1 was a
+  broken single-N instrument, not a closed question; rank-4 gap labels are computable-but-hard, OPEN).
+- **H6 revised:** the trace-zero dynamics in ℚ(√5,√−3)⊇√−15 is a *forced, intrinsic* two-ended arithmetic
+  (cyclotomic, not geometric) — I under-read it, not a dismissible near-miss. **Seam revised:** the
+  object-*selection* question is UNTESTED (I answered the trivial "√−15 appears"); B493 shows internal selection.
+- **Retracted:** the confident "three walls, world-empty, confirmed" (XXI–XXIII, S065). Honest status: two doors
+  OPEN, one under-read. An unearned negative is as bad as numerology — applied to my own closes. Lock (28 pass).
+
 ## 2026-07-12 — B530 movement XXIII: the second-seed seam is generic (third door closed)
 
 - Third and last past-the-gate door (`listen_25_second_seed_seam.py`): does a genuine second seed switch on the
