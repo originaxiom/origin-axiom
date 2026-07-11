@@ -501,6 +501,23 @@ is log(ρ)/log(β) with ρ the spectral radius of the boundary/contact substitut
 that certificate is **flagged, not computed here**. The robust, un-caveated fact is the *qualitative* one: the
 boundary dimension is strictly in (2,3), so the tile is fractal, not polyhedral.
 
+## Movement XIX — the golden eigenvalue ladder explained: the trace-zero point
+Movement XVII left a puzzle: at a *generic* fixed point of σ* the linearization Dσ* has a generic spectrum, but
+at one special fixed point it carried the golden ladder |λ| ∈ {1/φ, 1, φ}×3. That point is now identified and
+the ladder derived (`listen_21_golden_ladder_point.py`).
+
+**The special point is the TRACE-ZERO representation** of the mapping-torus group F₄⋊_φℤ:
+- **tr ρ(a) = tr ρ(b) = tr ρ(A) = tr ρ(B) = 0.** By Cayley–Hamilton (trace 0, det 1) this forces **ρ(g)² = −I**:
+  every generator is an **order-4 element** (order 2 in PSL₂). The maximally symmetric irreducible character.
+- **Its twist is τ = e^{iπ/3}, a primitive 6th root of unity** (τ³ = −1).
+
+At this point **Dσ\* has eigenvalues exactly {φ, 1, −1/φ} ⊗ {1, ω, ω²}** (ω = e^{2πi/3}) — verified 9/9. That is
+the **Fibonacci eigenvalues {φ, −1/φ} together with 1**, tensored with the **cube roots of unity**. The golden
+factor is the growth; the ℤ/3 factor is the order-6 twist. So the ladder is not an accident — it is the exact
+signature of the trace-zero representation and its 6th-root-of-unity twist. A single distinguished, maximally
+symmetric point in the Level-1 floor where the whole spectrum factors into *golden × cube-roots*. **[MATH, exact
+9/9]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

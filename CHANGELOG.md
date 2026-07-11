@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XIX: the golden eigenvalue ladder explained (trace-zero point)
+
+- Movement XVII's loose end resolved (`listen_21_golden_ladder_point.py`). The special fixed point where Dσ*
+  carries the golden ladder is the **trace-zero representation**: tr ρ(g)=0 for all generators → (Cayley–Hamilton)
+  ρ(g)²=−I, every generator order 4; its twist τ=e^{iπ/3} is a primitive **6th root of unity**.
+- There **Dσ\* = {φ, 1, −1/φ} ⊗ {1, ω, ω²}** exactly (9/9): Fibonacci eigenvalues ∪ {1}, tensored with the cube
+  roots of unity — golden factor from the growth, ℤ/3 factor from the order-6 twist. The ladder is the exact
+  signature of the maximally symmetric point, not an accident. Lock test_b530.py (23 pass).
+
 ## 2026-07-12 — B530 movement XVIII: the Rauzy tile's boundary is a fractal surface (≈2.35)
 
 - Closing the quasicrystal geometry (`listen_20_rauzy_boundary_dimension.py`). The tile has dimension 3 (tiles ℝ³,
