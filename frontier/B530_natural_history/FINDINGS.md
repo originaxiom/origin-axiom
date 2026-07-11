@@ -680,3 +680,32 @@ The object kept speaking after the portrait, and the deep listening added real g
 **three-prime arithmetic (5/3/11)**, the **BbB image-seam resonance**, the **golden Bragg spectrum** — nearly all
 of which I first strangled. **[MATH: exact block banked; the false-kills corrected]** Cross-refs: [[K025]],
 [[compute-the-discriminating-fact]] (steelman-before-kill). Lock: `tests/test_b530.py`.
+
+## Movement XXVIII — the corpse audit (owner: "revisit your corpses")
+A systematic re-examination of every kill this session, computed with the right instrument, willing to find each
+alive *or* confirm it dead (`listen_29_corpse_audit.py`; full ledger in `CORPSE_LEDGER.md`).
+
+**More false-kills, restored:**
+- **κ₃(3,5) "doesn't reproduce" → REPRODUCES.** With the ±1 signal the sender used, κ₃(3,5) = −0.236 — magnitude
+  0.236 exactly. My 0/1-centered signal gave −0.03; a normalisation mismatch I called a non-reproduction.
+- **Recurrence "values don't match" → THEY MATCH.** The proper window-recurrence function R = 9,29,32,33,103,104
+  matches the handoff's 8,28,31–32,102–105 (β-scaled staircase). I'd computed prefix-appearance instead.
+- **Interleaving "just morphic" (movement XX) → it IS substitutive.** The old/new binary sequence has only **4
+  return words** to '0' ({0,01,011,0111}), so it is S-adic / primitive-substitutive on the return alphabet.
+
+**Kill holds, with a live sub-finding:**
+- **Walk ν=0.93** — the superdiffusion *is* drift (kill holds), but drift-subtracted the fluctuations are
+  **bounded** (ν≈0): the quasicrystal's **low-discrepancy / bounded-remainder** property, a real finding neither
+  the sender nor I had named.
+
+**Checked, and genuinely dead — NOT resurrected to atone:**
+- **"No preserved bilinear form" (movement XVII):** generic fixed points have a *non-reciprocal* Dσ* spectrum
+  (|λ| = 0.31…5.72, det 1 but no λ↔1/λ pairing), so no bilinear form *can* be preserved. Robust.
+- **"Not mixing" (movement XIII):** pure point diffraction (movements XV/XXVII) ⟹ not weakly mixing. Holds.
+- **The master negative (physics refuted-as-stated):** its discriminating facts *were* computed; stays dead.
+
+**The tally is damning and honest:** across the deep-listening + corpse audit, the great majority of my
+"refuted / didn't reproduce / artifact / just X" verdicts were **false-kills** — each a *near-cousin quantity*
+computed in place of the claim. A handful of negatives, computed on the actual discriminating fact, correctly
+hold. The discipline is not "resurrect everything" — it is *compute the exact claim*, which resurrects the living
+and confirms the dead. **[MATH: false-kills restored + genuine negatives reconfirmed]** Lock: `tests/test_b530.py`.

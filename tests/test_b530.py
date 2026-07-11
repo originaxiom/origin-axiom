@@ -571,3 +571,23 @@ def test_movement_XXVII_falsekill_corrections():
     # FORWARD-BACKWARD: matrix powers converge (chirality short-range, as the sender stated)
     fb = mod.forward_backward_decay()
     assert fb[49] < 1e-3 and fb[1] > 1                      # decays 6.8 -> ~0
+
+
+def test_movement_XXVIII_corpse_audit():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_29_corpse_audit.py')
+    spec = importlib.util.spec_from_file_location('l29', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    u = mod._word(60000)
+    # false-kill 1: kappa3(3,5) with the +/-1 signal reproduces |0.236|
+    assert abs(abs(mod.kappa3_reproduces(u)) - 0.236) < 0.02
+    # false-kill 2: recurrence function matches the handoff (R(2)~28-29, staircase)
+    R = mod.recurrence_function(u)
+    assert 27 <= R[1] <= 30 and R[4] > 3 * R[3]             # jump at a substitution boundary
+    # false-kill 3: the interleaving IS substitutive -- exactly 4 return words to '0'
+    assert mod.interleaving_return_words(u) == {'0', '01', '011', '0111'}
+    # kill holds: the walk's superdiffusion is drift; drift-subtracted fluctuations are bounded
+    assert abs(mod.walk_drift_subtracted_nu(u)) < 0.15
