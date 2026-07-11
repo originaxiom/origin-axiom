@@ -72,3 +72,22 @@ def test_the_crack_is_the_symplectic_form():
     J = sp.Matrix([[0, -1], [1, 0]])
     assert Dr == sp.Matrix(sp.BlockDiagMatrix(J, J))
     assert D.det() == 1                                      # nondegenerate symplectic 2-form
+
+
+def test_golden_at_three_levels():
+    # Movement III: growth beta, split phi, inner decider ratio sqrt(phi).
+    phi = (1 + sp.sqrt(5)) / 2
+    sq = sp.sqrt(phi)
+    # (1) decider-content: every letter emits 'aA'; only a emits an extra A
+    proj = lambda s: ''.join(c for c in s if c in 'aA')
+    assert proj(SUB['a']) == 'aAA'
+    assert all(proj(SUB[L]) == 'aA' for L in 'bAB')
+    # (2) inside the decider stream a:A = 1:sqrt(phi), empirically
+    w = _grow(9)
+    dec = proj(w)
+    A, a = dec.count('A'), dec.count('a')
+    assert abs(A / a - float(sq)) < 1e-3
+    # (3) freq(a) = sqrt(phi) - 1 exactly (Perron weight phi / sum)
+    wa, wb, wA, wB = phi, sp.Integer(1), phi * sq, sq
+    S = sp.simplify(wa + wb + wA + wB)
+    assert sp.simplify(wa / S - (sq - 1)) == 0

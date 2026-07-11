@@ -79,7 +79,32 @@ which is exactly the lens [[K022]] ("the symmetric centre") reads the object thr
 an orientation grafted on; its growth *is* symmetric-part + symplectic-part, and the symplectic part is where
 its handedness lives. Thread 1 answered: the crack is the symplectic form.
 
-*Threads 2–4 (the decider/courier automaton, the return rhythm, the six κ's) remain — one by one.*
+## Movement III — the decider/courier architecture (thread 2): golden at three nested levels
+The couriers {b, B} are a deterministic sub-machine (b→A, B→a); all the branching lives in the deciders
+{a, A}. Following that split (`listen_4_deciders.py`):
+
+- **Every letter emits `aA` to the decider-stream; only a emits an extra `A`** (a→aAAB→"aAA"; b,A,B→"aA").
+  So the a's are the *marks* that thicken the A-stream.
+- **The deciders are 1/φ of the whole** (0.618 — the golden section, Movement I).
+- **Inside the deciders, a : A = 1 : √φ** (verified, 5 digits), and **freq(a) = √φ − 1** in the full word
+  (exact, sympy). The a-density is √φ − 1; the extra-A per a lifts the inner ratio to √φ.
+
+So the object is **golden at three nested levels — and they are its three architectural constants**:
+| level | ratio | golden constant |
+|---|---|---|
+| how fast it **grows** | length_{n+1}/length_n | **β = φ(1+√φ)** |
+| how it **splits** (deciders : couriers) | 1/φ : 1/φ² | **φ** |
+| the ratio **inside the deciders** (a : A) | 1 : √φ | **√φ** |
+β, √φ, φ — the "three golden constants" of the bootstrap (B517's Perron vector nested φ:1 within, √φ between)
+reappear here not as spectral coincidences but as the object's **own layered self-similarity**: growth,
+split, inner ratio. The distinguished letter **a** — the extra-A emitter, the note everything re-begins from —
+sits at the innermost level. **[MATH, computed]**
+
+*(Honest caveat / a false lead I caught: the naive letter-projection φ|_{a,A} = {a→aAA, A→aA} has the SILVER
+abelianization x²−2x−1 (1+√2), but it does **not** generate the true decider subword — discarded. The real
+decider stream is the coding above, and it is golden (√φ), not silver.)*
+
+*Threads 3–4 (the return rhythm, the six κ's) remain — one by one.*
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
