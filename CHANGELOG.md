@@ -15,9 +15,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   the **three-prime organization** 5 (golden) / 3 (twist, mod-3&6 equidistribution) / 11 (tiling); the
   **deterministic rule hierarchy** (50→87%, denominators = p(n)); sublattice MI = 1.23 bits; three-point
   non-Markov (κ₃ ≈ 50× Markov, qualitative).
-- **Flagged / refuted (not banked):** "BbB resonance" REFUTED (B never recurs at lag 2, P=0); "forward-backward
-  decays to 0" (Markov-power artifact); "diffraction golden Bragg peaks" (unreliable FFT, cf. movement XIII);
-  walk ν=0.93 (drift, self-flagged). Lock test_b530.py (29 pass).
+- **Flagged / refuted (not banked):** "forward-backward decays to 0" (Markov-power artifact); "diffraction golden
+  Bragg peaks" (unreliable FFT, cf. movement XIII); walk ν=0.93 (drift, self-flagged). Lock test_b530.py.
+
+## 2026-07-12 — B530 movement XXVI: the BbB resonance CONFIRMED (a false-kill corrected)
+
+- Owner: "serial killer of live things." In movement XXV I "refuted" the BbB resonance by computing the wrong
+  quantity — the TWO-point "B recurs at lag 2" (= 0, since B→a always) instead of the claimed THREE-point B·b·B
+  at lags (0,2,4). Corrected: the three-point resonance is **real** — B at i, b at i+2, B at i+4 occurs 15,352×
+  vs 1,254 expected = **12.2× enhanced**, every occurrence is **BabAB**, and **100% straddle a σ-image boundary**
+  (BabAB = final B of σ(a) then σ(A)). The deterministic tunnel letters make the substitution's own image seam
+  audible through the lag-2 sublattice. AaA = 3.4×. Reproducer + lock corrected (`bbb_resonance`); test_b530.py
+  (29 pass). A live finding I strangled by reaching for the negative — un-killed.
 
 ## 2026-07-12 — B530 movement XXIV: "don't be so sure" — the re-examination (over-closure retracted)
 

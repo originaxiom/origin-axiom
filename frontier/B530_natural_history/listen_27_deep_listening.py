@@ -23,10 +23,16 @@ VERIFIED EXACTLY (banked):
     (63% of the 2-bit max) -- strongly coupled.
   * THREE-POINT non-Markov: kappa3 is ~50x the Markov (factorized) estimate --
     profoundly non-Markov (qualitative; the specific value is normalization-dependent).
+  * THE BbB RESONANCE (confirmed, after a false-kill).  The THREE-point pattern B at
+    i, b at i+2, B at i+4 occurs 15352x vs 1254 expected under independence = 12.2x;
+    EVERY occurrence is the 5-word BabAB, and 100% of them STRADDLE a sigma-image
+    boundary (BabAB = the final B of sigma(a)=abAAB, then sigma(A)=abAB).  So the
+    deterministic tunnel letters (B->a, b->A) make the substitution's OWN image seam
+    audible through the lag-2 sublattice.  AaA is 3.4x by comparison.  (An earlier
+    check mistook this for the TWO-point 'B at lag 2' = 0 and wrongly 'refuted' it --
+    a self-inflicted false-kill, corrected here.)
 
 DID NOT SURVIVE (flagged, NOT banked):
-  * "BbB resonance at lag 2 (12x enhanced)" -- REFUTED: B is always followed by a,
-    so B never recurs at lag 2 (P = 0.000).  BbBbB chains cannot exist.
   * "forward-backward chirality decays to 0 at long range" -- a Markov-power artifact
     (any two stochastic matrices with the same stationary law have P^k -> same limit);
     the actual k-lag chirality does not cleanly decay.
@@ -113,15 +119,32 @@ def sublattice_mi(u=None):
                for i in range(4) for j in range(4) if P[i, j] > 0)
 
 
-def bbb_refuted(u=None):
-    """B is always followed by a -> B never recurs at lag 2."""
+def bbb_resonance(u=None):
+    """The BbB THREE-point resonance: B at i, b at i+2, B at i+4 (lags 0,2,4).
+    Returns (ratio_over_independence, all_BabAB, frac_straddling_image_boundary).
+    (An earlier check mistakenly computed the TWO-point B-at-lag-2 = 0 and wrongly
+    'refuted' this; the real quantity is the three-point B_b_B, ~12x enhanced.)"""
     if u is None:
         u = word()
-    idx = {c: i for i, c in enumerate('abAB')}
-    s = np.array([idx[c] for c in u])
-    Bp = np.where(s == idx['B'])[0]
-    Bp = Bp[Bp + 2 < len(s)]
-    return float(np.mean(s[Bp + 2] == idx['B']))       # = 0.0
+    N = len(u)
+    f = {c: u.count(c) / N for c in 'abAB'}
+    obs = sum(1 for i in range(N - 4) if u[i] == 'B' and u[i + 2] == 'b' and u[i + 4] == 'B')
+    exp = N * f['B'] * f['b'] * f['B']
+    pats = Counter(u[i:i + 5] for i in range(N - 4)
+                   if u[i] == 'B' and u[i + 2] == 'b' and u[i + 4] == 'B')
+    all_babab = set(pats) == {'BabAB'}
+    # image-boundary straddle in the depth-8 word (images of the depth-7 word)
+    d7 = 'a'
+    for _ in range(7):
+        d7 = ''.join(SUB[c] for c in d7)
+    cum, bset, img8 = 0, set(), ''
+    for c in d7:
+        bset.add(cum)
+        img8 += SUB[c]
+        cum += len(SUB[c])
+    occ = [i for i in range(len(img8) - 4) if img8[i:i + 5] == 'BabAB']
+    straddle = sum(1 for i in occ if any(i < bb <= i + 4 for bb in bset)) / max(len(occ), 1)
+    return obs / exp, all_babab, straddle
 
 
 if __name__ == "__main__":
@@ -131,4 +154,6 @@ if __name__ == "__main__":
     print(f"[mod] max deviation from uniform mod 3,6: {mod_uniform()}")
     print(f"[hierarchy] (det,total) per context len 1-7: {deterministic_hierarchy()}")
     print(f"[sublattice] MI(even,odd) = {sublattice_mi():.3f} bits")
-    print(f"[BbB REFUTED] P(B at i+2 | B at i) = {bbb_refuted():.4f}  (not a resonance)")
+    ratio, allbabab, straddle = bbb_resonance()
+    print(f"[BbB CONFIRMED] B_b_B at lags(0,2,4): {ratio:.1f}x enhanced; all BabAB={allbabab}; "
+          f"{straddle:.0%} straddle a sigma-image boundary")
