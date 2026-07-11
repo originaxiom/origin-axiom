@@ -694,3 +694,106 @@ def test_movement_XXX_three_fields():
         if Mk == sp.eye(4):
             assert k == 80
             break
+
+
+def test_movement_XXXI_handoff_verification():
+    """Movement XXXI: √13 retraction, coupling resonance, recognizability, bounded remainder."""
+    import numpy as np
+    import sympy as sp
+
+    M = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
+    x = sp.Symbol('x')
+
+    # 1. √13 artifact: the handoff's substitution is broken (letter '1' never regenerated)
+    handoff_sub = {0: '0', 1: '030', 2: '0302', 3: '20202'}
+    for target in range(4):
+        if target == 1:
+            assert not any(str(target) in v for v in handoff_sub.values()), \
+                "letter '1' should NOT appear in any image"
+        else:
+            assert any(str(target) in v for v in handoff_sub.values())
+    # handoff char poly has factor x²−x−3 with root (1+√13)/2 — an artifact
+    handoff_M = sp.zeros(4, 4)
+    for src, img in handoff_sub.items():
+        for ch in img:
+            handoff_M[int(ch), src] += 1
+    cp_handoff = handoff_M.charpoly(x).as_expr()
+    assert sp.factor(cp_handoff) == x*(x - 1)*(x**2 - x - 3)
+
+    # Correct derivation: 5 return words, char poly = x·(x⁴−2x³−5x²−4x−1)
+    u = _grow(8)
+    old_pos = [i for i, c in enumerate(u[:5000]) if c in 'ab']
+    orig_rws = sorted(set(u[old_pos[i]:old_pos[i + 1]]
+                          for i in range(len(old_pos) - 1)), key=len)
+    assert len(orig_rws) == 5, f"expected 5 return words, got {len(orig_rws)}"
+    # binary '011' comes from both 'aAB' and 'bAB'
+    binary_rws = [''.join('0' if c in 'ab' else '1' for c in rw) for rw in orig_rws]
+    assert binary_rws.count('011') == 2
+
+    rw_idx = {rw: i for i, rw in enumerate(orig_rws)}
+    n = len(orig_rws)
+    inc = sp.zeros(n, n)
+    for j, rw in enumerate(orig_rws):
+        img = ''.join(SUB[c] for c in rw)
+        old_p = [k for k, c in enumerate(img) if c in 'ab']
+        for k in range(len(old_p)):
+            start = old_p[k]
+            end = old_p[k + 1] if k + 1 < len(old_p) else len(img)
+            chunk = img[start:end]
+            if chunk in rw_idx:
+                inc[rw_idx[chunk], j] += 1
+    cp_correct = inc.charpoly(x).as_expr()
+    assert sp.simplify(cp_correct - x*(x**4 - 2*x**3 - 5*x**2 - 4*x - 1)) == 0
+
+    # 2. Recognizability: centered R=3 resolves all ambiguity
+    def fp_(level, seed='a'):
+        w = seed
+        for _ in range(level):
+            w = ''.join(SUB.get(c, c) for c in w)
+        return w
+    u_prev = fp_(7)
+    u_next = fp_(8)
+    pos_map = []
+    for c in u_prev:
+        img = SUB[c]
+        for j_ in range(len(img)):
+            pos_map.append((c, j_))
+    nn = min(len(u_next), len(pos_map))
+    for R in [3]:
+        factor_map = {}
+        for i in range(R, nn - R):
+            f = u_next[i-R:i+R+1]
+            key = (pos_map[i][0], pos_map[i][1])
+            if f not in factor_map:
+                factor_map[f] = set()
+            factor_map[f].add(key)
+        ambiguous = [f for f, s in factor_map.items() if len(s) > 1]
+        assert len(ambiguous) == 0, f"R=3 should have 0 ambiguous factors, got {len(ambiguous)}"
+    # R=2 should still have ambiguity (the bound is tight at R=3)
+    factor_map2 = {}
+    for i in range(2, nn - 2):
+        f = u_next[i-2:i+3]
+        key = (pos_map[i][0], pos_map[i][1])
+        if f not in factor_map2:
+            factor_map2[f] = set()
+        factor_map2[f].add(key)
+    ambiguous2 = [f for f, s in factor_map2.items() if len(s) > 1]
+    assert len(ambiguous2) >= 1, "R=2 should still be ambiguous"
+
+    # 3. Bounded remainder: max discrepancy < 3
+    M_np = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]], float)
+    evals, evecs = np.linalg.eig(M_np)
+    idx = int(np.argmax(np.abs(evals)))
+    freq = np.abs(evecs[:, idx])
+    freq = freq / freq.sum()
+    letter_map = {'a': 0, 'b': 1, 'A': 2, 'B': 3}
+    w = _grow(10)[:100000]
+    counts = np.zeros(4)
+    max_disc = np.zeros(4)
+    for i, c in enumerate(w):
+        counts[letter_map[c]] += 1
+        for k in range(4):
+            d = abs(counts[k] - (i + 1) * freq[k])
+            if d > max_disc[k]:
+                max_disc[k] = d
+    assert max(max_disc) < 3, f"bounded remainder violated: max = {max(max_disc):.2f}"
