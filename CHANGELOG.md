@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B527: the complete Stein-compatible metric cone (chat3) — narrows the B526 no-go
+
+- chat3 package classifying the metrics for which M_* is a positive Stein evolution. **Independently
+  recomputed** (own E_s basis + Lyapunov operator): M|E_s stable; the Lyapunov operator 𝓛(S)=S−M̄ᵀSM̄ is
+  invertible → **𝓒 = 𝓛⁻¹(PSD(3)) is a 6-dim cone** of Stein-compatible spatial metrics, non-polyhedral (ℝP²
+  of extreme rays) → **Stein compatibility alone cannot select a metric**. The Lorentzian completion
+  G_{S,α}=S−αℓℓᵀ is (3,1) and Stein-positive (dim 7 w/ time normalization); α is a unit choice
+  (T_cᵀG_{S,1}T_c=G_{S,c²}); the four letters are not equivalent null rays (4 distinct α_i).
+- **The affine tetrahedral metric S_aff is Stein-compatible (interior of 𝓒)** — verified Q_aff PD. So its
+  distinction is affine isotropy, not Stein. **This NARROWS [[B526]]:** B526's no-go was specific to the
+  *Perron-weighted* S_tet (driver signature (2,1), ∉ 𝓒); it is **not** a general isotropy–Stein obstruction,
+  and "M_* = renormalization" is one option, not forced. Metric verdict: **compatibility YES, selection
+  OPEN.** Consistent with PHYS-REFUTED. Next gate = LOCALITY (the Rauzy contact automaton). Lock
+  `test_b527.py` (3 pass).
+
 ## 2026-07-12 — B525: the "Are You Sure" audit cracked 3 of 10 banked negatives (corrections applied)
 
 - Owner-mandated 61-agent adversarial audit of the program's load-bearing NEGATIVES. **4 CONFIRMED, 2 SHAKY,

@@ -26,12 +26,22 @@ det −1, Perron r = (φ,1,φ√φ,√φ), β = φ(1+√φ)):
    the symbolic symmetry group could not provide"). So: canonical *conditional on* an isotropy assumption, not
    object-forced.
 
-2. **The isotropy–Stein no-go** (the genuinely non-trivial result). With ℓ the left Perron covector (ℓᵀr=1),
+> **NARROWED by [[B527]] (chat3 complete-metric-cone package, verified 2026-07-12).** The no-go below is
+> **specific to the Perron-weighted metric S_tet — it is NOT a general isotropy–Stein obstruction.** B527
+> classifies the entire cone 𝓒 = 𝓛⁻¹(PSD(3)) of Stein-compatible spatial metrics (dim 6) and shows the
+> *affine* regular-tetrahedral metric S_aff IS Stein-positive (in the interior of 𝓒), while S_tet's driver on
+> E_s is indefinite (signature (2,1)) so S_tet ∉ 𝓒. So **M_* CAN be a positive-Stein Lorentzian evolution —
+> for a suitable (e.g. affine) metric.** The "M_* = renormalization, not time" reading below is therefore
+> **one option, not forced by a no-go**; the honest metric verdict is B527's: *compatibility yes, selection
+> open.* The S_tet computation below stands as correct — it just does not generalize.
+
+2. **The isotropy–Stein no-go (metric-specific to S_tet).** With ℓ the left Perron covector (ℓᵀr=1),
    G_iso = S_tet − ℓℓᵀ has **signature (3,1)** (r timelike, G_iso(r,r)=−1); and
    **W_iso = G_iso − MᵀG_isoM is NOT positive definite** (signature (3,1)), with the obstruction already on
    the spatial stable space E_s = ker ℓᵀ (W_stable signature (2,1), det < 0). *Verified via eigenvalues,
-   independent of their leading-minor method.* ⟹ **M cannot be both the locally-isotropic propagation law and
-   a positive one-step Stein (dissipative-time) evolution.**
+   independent of their leading-minor method.* ⟹ **for the Perron-weighted metric S_tet**, M cannot be both
+   the isotropic propagation law and a positive one-step Stein evolution. *(For other metrics in 𝓒 — B527 — it
+   can. This is a statement about S_tet, not a universal no-go.)*
    - **Adversarial check — is this just "β>1 restated"? No.** W_iso(r,r) = +12.5 > 0, so the *expanding*
      direction is fine — the negativity is not from β>1. M restricted to E_s is *spectrally contracting* (all
      |eig| = 0.786, 0.786, 0.44 < 1), yet W_stable is indefinite. The obstruction is **non-normality**
