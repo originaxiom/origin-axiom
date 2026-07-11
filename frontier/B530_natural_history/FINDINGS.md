@@ -56,6 +56,31 @@ the two ends √5 ↔ √−3) is born at the word level: a near-perfect mirror,
 - **the conversation as a character variety**: the six pairwise κ(x,y) of the four letters — the object's
   self-interaction, read through traces — *without* asking it for a value.
 
-This is banked as the object's own mathematics (STRUCTURE), the first movement of a patient natural history —
-listening, not forcing. Cross-refs: [[K025]] (the one root), [[B524]] (φ iwip), [[breath-campaign-standing-directive]]
-(the residue ℤ/2). Lock: `tests/test_b530.py`.
+## Movement II — the one crack, followed (thread 1): the object's growth is a mirror + a symplectic form
+Following the single A→A break: we asked whether the swap **s: a↔A, b↔B** is a symmetry of anything deeper.
+It is **not** a symmetry of the growth matrix M, nor of φ (s∘φ ≠ φ∘s, not even up to reversal). But its
+*failure* is exact and canonical (`listen_3_the_crack.py`):
+
+- **M = S + ½D**, where **S = (M + sMs)/2** is swap-**symmetric** (sSs = S) and **D = M − sMs** is
+  **antisymmetric** — supported *only* on the swap-pairs {a↔A, b↔B}, total weight 4.
+- In the basis **(a, A, b, B)** — the swap-orbits made adjacent — **D is exactly two canonical symplectic
+  blocks** J = [[0,−1],[1,0]]: one on the deciders {a, A}, one on the couriers {b, B}. It is **nondegenerate
+  (det D = 1)** — the *standard symplectic 2-form* ω = da∧dA + db∧dB, whose Lagrangian pairs are precisely the
+  swap-orbits.
+
+So the object's growth is **a mirror plus a symplectic twist.** The swap-symmetric part S is the part that
+can be reflected away; the leftover — the irreducible thing the mirror cannot remove — is *exactly* a
+symplectic form pairing each decider with a courier (its own conjugate). The single grammar crack **A→A** is
+the word-level shadow of this 2-form. **[MATH, computed]**
+
+**Reading (firewalled).** This is the program's **ℤ/2 orientation residue at its most primitive**: not imposed
+from outside, but the *antisymmetric part of the object's own growth*, and it is a genuine symplectic form —
+which is exactly the lens [[K022]] ("the symmetric centre") reads the object through. The object doesn't *have*
+an orientation grafted on; its growth *is* symmetric-part + symplectic-part, and the symplectic part is where
+its handedness lives. Thread 1 answered: the crack is the symplectic form.
+
+*Threads 2–4 (the decider/courier automaton, the return rhythm, the six κ's) remain — one by one.*
+
+This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
+Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
+[[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

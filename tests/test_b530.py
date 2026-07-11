@@ -54,3 +54,21 @@ def test_couriers_deterministic_and_always_rebegin_from_a():
         succ.setdefault(x, set()).add(y)
     assert succ['b'] == {'A'} and succ['B'] == {'a'}        # couriers never branch
     assert all(img[0] == 'a' for img in SUB.values())        # every image re-begins from a
+
+
+def test_the_crack_is_the_symplectic_form():
+    # Movement II: the growth M = swap-symmetric S + antisymmetric D; D is the standard symplectic 2-form.
+    letters = 'abAB'
+    M = sp.Matrix([[SUB[j].count(i) for j in letters] for i in letters])
+    P = sp.Matrix([[0, 0, 1, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]])   # swap a<->A, b<->B
+    D = sp.simplify(M - P * M * P)
+    S = sp.simplify((M + P * M * P) / 2)
+    assert D.T == -D                                         # antisymmetric
+    assert sp.simplify(P * S * P) == S                       # S swap-symmetric
+    assert sp.simplify(M - (S + D / 2)) == sp.zeros(4)       # M = S + D/2
+    # in basis (a,A,b,B): D = J (+) J, the standard symplectic form, nondegenerate
+    R = sp.Matrix([[1, 0, 0, 0], [0, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 1]])   # (a,b,A,B)->(a,A,b,B)
+    Dr = R * D * R.T
+    J = sp.Matrix([[0, -1], [1, 0]])
+    assert Dr == sp.Matrix(sp.BlockDiagMatrix(J, J))
+    assert D.det() == 1                                      # nondegenerate symplectic 2-form
