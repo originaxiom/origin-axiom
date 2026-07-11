@@ -509,3 +509,17 @@ def test_movement_XXIII_second_seed_seam_generic():
     tags = mod.object_coupling_produces_seam()
     assert '√5' in tags and '√-3' in tags                    # both ends present in the joint character
     assert mod.seam_is_generic()                             # but √-15 = √5·√-3 is forced (generic, not selected)
+
+
+def test_movement_XXIV_gap_module_is_rank_four():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_26_reexamination.py')
+    spec = importlib.util.spec_from_file_location('l26', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # the re-examination's clean fact: the gap-labeling frequency module is full rank 4
+    # (a genuine rank-4 quasicrystal; this is why numerical single-N gap-labeling is dense) --
+    # it REVISES the "density-trapped NEEDS-SPECIALIST wall" verdict of movement XXII to "OPEN, not walled".
+    assert mod.gap_label_module_rank() == 4
