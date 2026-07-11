@@ -352,3 +352,20 @@ def test_movement_XIV_rauzy_fractal_subtile_volumes_are_golden_tensor():
     w = w / w.sum()                                                        # golden-tensor freqs
     freq = np.array([(lab == i).mean() for i in range(4)])
     assert np.allclose(freq, w, atol=3e-3)                                 # subtile volumes = golden tensor
+
+
+def test_movement_XV_discrete_spectrum_certificate():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_17_discrete_spectrum_certificate.py')
+    spec = importlib.util.spec_from_file_location('l17', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # the balanced pair algorithm must classify all five controls correctly...
+    for name, sub, alph, want in mod.CONTROLS:
+        assert mod.pure_discrete(sub, alph, wordlen=8000, maxlen=40)[0] is want, name
+    # ...before we trust its verdict on the object: pure discrete spectrum, 0 bad pairs
+    r = mod.pure_discrete(mod.SUB, 'abAB', wordlen=30000, maxlen=130)
+    assert r[0] is True and r[2] == 0                                       # discrete, no bad pair
+    assert r[3] < 130                                                       # no truncation (max word << bound)
