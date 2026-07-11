@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XII: the eigenvector geometry of the growth
+
+- Next neutral census item (`listen_14_eigenvector_geometry.py`): the four growth modes read for their
+  geometry. **Expand in 1, contract in 3** — the object grows in the frequency direction and contracts in a
+  3-space. The **breath** γ is **doubly golden**: radius |γ|=1/√φ *and* cos(angle)=−1/√φ (Re γ=−1/φ).
+- **Honest null, banked equally:** the breath's rotation angle **141.83° is NOT the golden angle 137.51°**
+  (+4.32° off). The golden ratio sets the breath's radius and the cosine of its turn, but not the turn itself.
+- The fourth mode is a real orientation-flip −0.44; M is non-normal (‖[M,Mᵀ]‖=6, which the breath requires).
+  Firewalled; lock test_b530.py (16 pass).
+
 ## 2026-07-12 — B530 movement XI: third witness, silver demoted, the Level-1 floor is a variety
 
 - Digest + independent verification of the full cross-seat "reorientation" package. Four new items, each

@@ -329,6 +329,23 @@ monoid** at rank 4; the 3d Rauzy tile; recurrence constants; exact entropy. The 
 is now DONE at the existence level (the floor is a variety); its explicit coordinatisation (the 9d Goldman form,
 its Lagrangians) remains open.
 
+## Movement XII — the geometry of the growth: how it contracts, and the plane the breath turns in
+Next neutral item on the checklist: the eigenvector geometry of the four growth modes
+(`listen_14_eigenvector_geometry.py`). The growth matrix M has one expanding and three contracting modes —
+**the object expands in one dimension (the frequency direction) and contracts in a 3-space:**
+
+- **β = 3.6762** — the Perron/expanding mode; this is the frequencies (movement III).
+- **The breath γ = −1/φ ± 0.48587 i** — a rotation-with-contraction in a 2-plane inside the stable 3-space.
+  It is **doubly golden**: its **radius** |γ| = **1/√φ** *and* the **cosine of its rotation angle**
+  cos θ = **−1/√φ** (with Re γ = −1/φ). The breath turns by θ = arccos(−1/√φ) ≈ **141.83° per inflation step**.
+- **λ = −0.4401** — the fourth mode, a real **orientation-flip + contraction**.
+
+And the anti-anticipation catch, banked with the same care: **the breath angle 141.83° is _not_ the golden
+angle 137.51°** (off by +4.32°). It would have been pretty to hear the sunflower angle here; the object does
+not say it. The golden ratio governs the breath's *radius* and the *cosine* of its turn — but the turn itself
+is its own number. (M is non-normal, ‖[M, Mᵀ]‖ = 6 ≠ 0 — exactly what a genuine rotation-mode requires,
+movement VII.) **[MATH, computed; one rich relation + one honest null]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

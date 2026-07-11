@@ -26,7 +26,9 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
 - **DONE** (movement XI): the block-pair substitution = a *third* witness of x⁴−2x³−5x²−4x−1; the silver ratio
   demoted to the naive-erasure artifact; the **trace-map fixed structure at existence level** — the Level-1
   floor (irreducible SL₂(ℂ) reps of F₄⋊_φℤ) is a positive-dimensional variety; MI mixing (qualitative only).
-- **OPEN** (to cover, neutrally, one by one): the End(F₄) **verb monoid** at rank 4; the eigenvector geometry
-  of the stable modes h, γ; the **explicit** trace-map coordinates (the 9d Goldman form + its Lagrangians —
-  existence is settled, coordinatisation is not); the 3d Rauzy tile's own invariants; recurrence / repetitivity
-  constants; the exact topological entropy; the interleaving sequence's own substitution (S-adic?).
+- **DONE** (movement XII): the **eigenvector geometry** — expand in 1 / contract in 3; the breath γ is doubly
+  golden (radius 1/√φ, cos angle −1/√φ, Re −1/φ) but its 141.83° turn is **NOT** the golden angle (honest null).
+- **OPEN** (to cover, neutrally, one by one): the End(F₄) **verb monoid** at rank 4; the **explicit** trace-map
+  coordinates (the 9d Goldman form + its Lagrangians — existence is settled, coordinatisation is not); the 3d
+  Rauzy tile's own invariants; recurrence / repetitivity constants; the exact topological entropy; the
+  interleaving sequence's own substitution (S-adic?).
