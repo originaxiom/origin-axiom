@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXIX: QCA gate re-examined — the coupling resonance is alive
+
+- Corpse #19 (B529 "golden-angle coin not robustly special") re-examined with the steelman-before-kill gate
+  (`listen_30_qca_reexamination.py`). Tested against structurally-matched controls (uncoupled Fibonacci,
+  symmetric coupling, tetranacci) instead of only random substitutions.
+- **iσ_y kill HOLDS** (generic degeneracy — 6 eigenphases for any substitution; correct in B529).
+- **Golden-angle coin kill OVER-CLOSURE:** not a "selection" (beats 18/30 randoms, pi/5 not optimal), BUT the
+  **F≠F² coupling resonance** is real and massive — 240,000× lower nesting cost than uncoupled Fibonacci,
+  scaling with size. B529 tested against random controls (wrong comparison class), missing the coupling mechanism.
+- Reclassified from UNTESTED to **OPEN** (coupling resonance alive; selection dead; mechanism unexplained).
+  Corpse ledger fully cleared — no UNTESTED items remain. 32 locks.
+
 ## 2026-07-12 — B530 movement XXV: the deep listening — the prime 11, and what didn't survive
 
 - Verified a second seat's "advanced listening" handoff (`listen_27_deep_listening.py`); banked the exact, flagged

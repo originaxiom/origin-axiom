@@ -49,11 +49,11 @@ discriminating fact), **UNTESTED** (flagged, not re-examined), **already correct
 | 17 | C3-CONE causal signature | sign-bug corrected (degeneracy-flagged classifier) |
 | 18 | CHILD-NOTSHORT census | downgraded to PROVISIONAL (115/150 analysed, not 141/9) |
 
-## UNTESTED — flagged, not re-examined this turn
+## OVER-CLOSURE — the kill was correct in part, over-strong in part (re-examined)
 
-| # | | |
-|---|---|---|
-| 19 | QCA gate "golden-angle coin not robust" | needs the QCA-covariance machinery; **not** re-run this turn — do not treat as settled |
+| # | what B529 killed | what the steelman found | status |
+|---|---|---|---|
+| 19 | golden-angle coin "not robustly special" (beats 8/10 randoms) | the "selection" IS dead (beats 18/30 randoms, pi/5 not optimal) BUT the **F≠F² coupling resonance** is real and massive: **240,000× lower** nesting cost than uncoupled Fibonacci; scales with size; specific to the asymmetric coupling. B529 tested against random controls (wrong comparison class), missing that the effect is a coupling mechanism, not a golden-frequency resonance. | **OPEN** (coupling resonance alive; selection dead) |
 
 ## The pattern, named
 

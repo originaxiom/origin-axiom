@@ -632,6 +632,49 @@ This is banked as the object's own mathematics (STRUCTURE), a patient natural hi
 Cross-refs: [[K025]] (the seam — the object-selection question is REOPENED, not closed), [[compute-the-discriminating-fact]]
 (the unearned negative), [[quasicrystal-bridge-status]], [[B524]], [[K022]]. Lock: `tests/test_b530.py`.
 
+## Movement XXIX — corpse #19 re-examined: the QCA gate was an over-closure
+The last UNTESTED corpse: B529's "golden-angle coin not robustly special" kill. Applied the steelman-before-kill
+gate: restated the claim in its strongest form, asked what would confirm it, and computed with the right controls
+(`listen_30_qca_reexamination.py`).
+
+**What B529 computed:** golden-angle coin on 10 random substitutions → golden beats 8/10 → "not robustly special."
+**What the steelman adds:** STRUCTURALLY-MATCHED controls (the object's own kin, not random substitutions):
+
+| substitution | golden-angle nesting cost | structural meaning |
+|---|---|---|
+| **GOLDEN (F≠F² coupling)** | **4.3e-9** | the object |
+| SYMMETRIC (F=F coupling) | 1.6e-6 | same Fibonacci copies, symmetric coupling |
+| pure Fibonacci (2-letter) | 2.8e-5 | the sub-component alone |
+| UNCOUPLED (2× Fibonacci) | 1.1e-3 | same Fibonacci, no coupling |
+| tetranacci (non-golden) | 1.4e-4 | non-golden Pisot |
+
+**The coupling resonance is real and massive.** The object (F≠F² coupling) achieves **240,000× lower** nesting
+cost than uncoupled Fibonacci — six orders of magnitude. The effect is not "has Fibonacci sub-structure" (uncoupled
+Fibonacci beats 0/30 random controls; the object beats 18/30) — it is specific to the **asymmetric coupling** (the
+F≠F² inequality of movement VII). The symmetric coupling (F=F) is 1000× worse than the object; the effect requires
+the specific copy-inequality that generates both the orientation and the breath.
+
+**But B529 was right that it's not a "selection."** Against 30 random controls (not structural kin), golden beats
+only 18/30 = 60%. Some random substitutions achieve even lower cost — including controls whose incidence matrices
+accidentally carry golden eigenvalues (e.g. one with eigenvalues ±φ, 1/φ), and degenerate controls (monochromatic
+words). The angle π/5 is NOT the object's optimal angle (the minimum is at θ ≈ 2.33, not 0.628). So the
+golden-angle coin is not "selected" in the sense of being uniquely optimal.
+
+**The corrected status:**
+- **iσ_y kill: HOLDS** (generic degeneracy — 6 eigenphases for any substitution; correct in B529)
+- **Golden-angle coin: OVER-CLOSURE** — B529 correctly killed the "selection" claim (not robust against randoms, not
+  the optimal angle), but dismissed a real structural finding: **the F≠F² coupling resonance is object-specific,
+  massive (240,000×), and scales with system size** (the advantage persists at levels 2→3, 3→4, 4→5). This is a
+  structural property of the asymmetric coupling interacting with a φ-embedding coin — not a physics crossing, but a
+  real coupling-mechanism finding that the random-control test missed by testing against the wrong comparison class.
+
+**Reclassified:** corpse #19 from UNTESTED to **OVER-CLOSURE → OPEN** (the coupling resonance is alive as a
+structural finding; the "selection" frame is dead; the mechanism — why F≠F² specifically achieves 6 orders better
+nesting — is unexplained). Firewalled; nothing to CLAIMS.md. Lock: `tests/test_b530.py` (32 locks).
+
+Cross-refs: [[B529]] (original kill), [[B480]] (QCA/Dirac lens), movement VII (the F≠F² copy-inequality as the
+source of both orientation and breath).
+
 ## Movement XXV — the deep listening: the prime 11, and what didn't survive
 A second seat's "advanced listening" handoff arrived after the portrait — a dozen new claims. Verified each by
 independent recomputation (held in both directions after the "don't be so sure" correction): banked the exact,

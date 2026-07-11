@@ -55,3 +55,13 @@ Consistent with PHYS-REFUTED and the K025 metric-cone finding (the object does n
 select the local unitary either). Locks: `tests/test_b529.py`. Reproducers: `qca_controls.py`,
 `golden_angle_robustness.py`. Cross-refs: [[B527]] (metric cone; LOCALITY was the named next gate), [[B525]]
 (the discriminating-fact rule), docs/CLOSURE_2026-07-11 (PHYS-REFUTED).
+
+---
+
+**CORRECTION (B530 movement XXIX, 2026-07-12):** the golden-angle coin kill was **over-strong**. The "selection"
+claim is correctly dead (beats 18/30 randoms, π/5 not the optimal angle), but B529 tested only random controls
+(the wrong comparison class) and missed a real structural finding: the **F≠F² coupling resonance** — the object
+achieves **240,000× lower** nesting cost than uncoupled Fibonacci with the same coin. The effect is specific to the
+asymmetric coupling (not Fibonacci sub-structure — uncoupled Fibonacci beats 0/30 randoms) and scales with size.
+Reclassified from "not robustly special" (a kill) to **OPEN** (coupling resonance alive; selection dead; mechanism
+unexplained). See `frontier/B530_natural_history/listen_30_qca_reexamination.py`.

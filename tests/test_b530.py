@@ -591,3 +591,22 @@ def test_movement_XXVIII_corpse_audit():
     assert mod.interleaving_return_words(u) == {'0', '01', '011', '0111'}
     # kill holds: the walk's superdiffusion is drift; drift-subtracted fluctuations are bounded
     assert abs(mod.walk_drift_subtracted_nu(u)) < 0.15
+
+
+def test_movement_XXIX_qca_reexamination():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_30_qca_reexamination.py')
+    spec = importlib.util.spec_from_file_location('l30', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # the coupling resonance: golden >> uncoupled (the F!=F^2 coupling matters)
+    g, u, s = mod.coupling_resonance()
+    assert g < 1e-7                            # golden achieves very low nesting cost
+    assert u / g > 1e4                         # uncoupled is at least 10000x worse
+    assert s / g > 10                          # symmetric coupling also worse
+    # iSy generic: 6 degenerate eigenphases
+    nd, gc, cc = mod.isy_generic()
+    assert nd == 6                             # exactly 6 distinct eigenphases (degeneracy)
+    assert gc < 1e-10 and cc < 1e-10           # both reach ~0 at matched size
