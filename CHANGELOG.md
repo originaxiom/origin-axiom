@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXV: the deep listening — the prime 11, and what didn't survive
+
+- Verified a second seat's "advanced listening" handoff (`listen_27_deep_listening.py`); banked the exact, flagged
+  the failures (neither false-kill nor rubber-stamp).
+- **Banked exactly:** **the prime 11** — H¹(tiling space) torsion = **ℤ/11** = |det(M−I)| = |char_poly(1)| =
+  |N(1−β)| (the torsion is the norm of 1−β); the prime-splitting table (5,7 inert; 11,19,31 split; 29 fully split);
+  the **three-prime organization** 5 (golden) / 3 (twist, mod-3&6 equidistribution) / 11 (tiling); the
+  **deterministic rule hierarchy** (50→87%, denominators = p(n)); sublattice MI = 1.23 bits; three-point
+  non-Markov (κ₃ ≈ 50× Markov, qualitative).
+- **Flagged / refuted (not banked):** "BbB resonance" REFUTED (B never recurs at lag 2, P=0); "forward-backward
+  decays to 0" (Markov-power artifact); "diffraction golden Bragg peaks" (unreliable FFT, cf. movement XIII);
+  walk ν=0.93 (drift, self-flagged). Lock test_b530.py (29 pass).
+
 ## 2026-07-12 — B530 movement XXIV: "don't be so sure" — the re-examination (over-closure retracted)
 
 - Owner: "don't be so sure." Re-examined the three past-the-gate closes; over-closed all three

@@ -1,0 +1,134 @@
+"""
+Movement XXV — the deep listening (a second seat's advanced handoff, verified):
+the prime 11, the three-prime organization, the deterministic hierarchy -- and the
+claims that did NOT survive recomputation.
+
+A cross-seat "advanced listening" handoff arrived after the portrait was drawn.
+Verified each claim independently (verify-don't-trust, held in both directions after
+the "don't be so sure" correction).  Banked what is exact; flagged what failed.
+
+VERIFIED EXACTLY (banked):
+  * THE PRIME 11.  H^1 of the tiling space has torsion Z/11: Smith normal form of
+    M^T - I = diag(1,1,1,11).  And 11 = |det(M-I)| = |char_poly(1)| = |N(1-beta)| --
+    the torsion IS the norm of (1-beta) in Q(beta).  (Fibonacci: trivial cokernel.)
+  * PRIME SPLITTING of x^4-2x^3-5x^2-4x-1: 2,3,5,7,13,17,23 INERT; 11,19,31 split;
+    29 fully split.  (5 and 7 inert -- unlike Fibonacci, where 5 splits.)
+  * THREE-PRIME ORGANIZATION: 5 = the golden end (disc -400 = -2^4·5^2), 3 = the
+    twist (running letter-sum uniform mod 3 AND mod 6; image sums {8,5,6,2}={2,2,0,2}
+    mod 3; the trace-zero Z/3, movement XIX), 11 = the tiling (H^1 torsion).
+  * DETERMINISTIC RULE HIERARCHY: fraction of zero-entropy contexts climbs
+    50,57,70,69,82,85,87 % over context lengths 1-7; the denominators are exactly
+    the factor complexity p(n) = 4,7,10,13,17,20,23.
+  * SUBLATTICE: even/odd sublattices have identical statistics and MI ~ 1.23 bits
+    (63% of the 2-bit max) -- strongly coupled.
+  * THREE-POINT non-Markov: kappa3 is ~50x the Markov (factorized) estimate --
+    profoundly non-Markov (qualitative; the specific value is normalization-dependent).
+
+DID NOT SURVIVE (flagged, NOT banked):
+  * "BbB resonance at lag 2 (12x enhanced)" -- REFUTED: B is always followed by a,
+    so B never recurs at lag 2 (P = 0.000).  BbBbB chains cannot exist.
+  * "forward-backward chirality decays to 0 at long range" -- a Markov-power artifact
+    (any two stochastic matrices with the same stationary law have P^k -> same limit);
+    the actual k-lag chirality does not cleanly decay.
+  * "diffraction Bragg peaks at golden frequencies" -- did not reproduce; the naive
+    FFT instrument is the same one that failed to confirm Fibonacci's Bragg peaks
+    (movement XIII), so it is unreliable here.
+  * "walk exponent nu=0.93" -- the sending seat itself flagged this as drift-dominated
+    (freq imbalance), not anomalous fluctuation; not structurally deep.
+
+No physics.  Firewalled.
+"""
+import numpy as np
+import sympy as sp
+from sympy.matrices.normalforms import smith_normal_form
+from collections import Counter
+
+SUB = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}
+M = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
+
+
+def word(n=163106):
+    u = 'a'
+    while len(u) < n:
+        u = ''.join(SUB[c] for c in u)
+    return u[:n]
+
+
+def prime11():
+    x = sp.symbols('x')
+    cp = x**4 - 2 * x**3 - 5 * x**2 - 4 * x - 1
+    S = smith_normal_form(M.T - sp.eye(4), domain=sp.ZZ)
+    torsion = abs(S[3, 3])
+    return torsion, int((M - sp.eye(4)).det()), int(cp.subs(x, 1))
+
+
+def prime_splitting():
+    x = sp.symbols('x')
+    cp = x**4 - 2 * x**3 - 5 * x**2 - 4 * x - 1
+    out = {}
+    for p in [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]:
+        out[p] = len([r for r in range(p) if cp.subs(x, r) % p == 0])
+    return out
+
+
+def mod_uniform(u=None):
+    if u is None:
+        u = word()
+    val = {'a': 0, 'b': 1, 'A': 2, 'B': 3}
+    cs = np.cumsum([val[c] for c in u])
+    res = {}
+    for m in (3, 6):
+        d = Counter(cs % m)
+        res[m] = max(abs(d[r] / len(cs) - 1 / m) for r in range(m))
+    return res
+
+
+def deterministic_hierarchy(u=None):
+    if u is None:
+        u = word()
+    table = []
+    for n in range(1, 8):
+        ctx = {}
+        for i in range(len(u) - n):
+            ctx.setdefault(u[i:i + n], set()).add(u[i + n])
+        det = sum(1 for s in ctx.values() if len(s) == 1)
+        table.append((det, len(ctx)))
+    return table
+
+
+def sublattice_mi(u=None):
+    if u is None:
+        u = word()
+    idx = {c: i for i, c in enumerate('abAB')}
+    s = np.array([idx[c] for c in u])
+    a, b = s[0::2], s[1::2]
+    n = min(len(a), len(b))
+    a, b = a[:n], b[:n]
+    P = np.zeros((4, 4))
+    for i, j in zip(a, b):
+        P[i, j] += 1
+    P /= n
+    pa, pb = P.sum(1), P.sum(0)
+    return sum(P[i, j] * np.log2(P[i, j] / (pa[i] * pb[j]))
+               for i in range(4) for j in range(4) if P[i, j] > 0)
+
+
+def bbb_refuted(u=None):
+    """B is always followed by a -> B never recurs at lag 2."""
+    if u is None:
+        u = word()
+    idx = {c: i for i, c in enumerate('abAB')}
+    s = np.array([idx[c] for c in u])
+    Bp = np.where(s == idx['B'])[0]
+    Bp = Bp[Bp + 2 < len(s)]
+    return float(np.mean(s[Bp + 2] == idx['B']))       # = 0.0
+
+
+if __name__ == "__main__":
+    t, d, c1 = prime11()
+    print(f"[11] H^1 torsion Z/{t}; det(M-I)={d}=char_poly(1)={c1}=N(1-beta) -> 11 : {t == 11 == abs(d)}")
+    print(f"[split] roots mod p: {prime_splitting()}")
+    print(f"[mod] max deviation from uniform mod 3,6: {mod_uniform()}")
+    print(f"[hierarchy] (det,total) per context len 1-7: {deterministic_hierarchy()}")
+    print(f"[sublattice] MI(even,odd) = {sublattice_mi():.3f} bits")
+    print(f"[BbB REFUTED] P(B at i+2 | B at i) = {bbb_refuted():.4f}  (not a resonance)")

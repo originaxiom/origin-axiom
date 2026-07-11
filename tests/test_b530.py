@@ -523,3 +523,31 @@ def test_movement_XXIV_gap_module_is_rank_four():
     # (a genuine rank-4 quasicrystal; this is why numerical single-N gap-labeling is dense) --
     # it REVISES the "density-trapped NEEDS-SPECIALIST wall" verdict of movement XXII to "OPEN, not walled".
     assert mod.gap_label_module_rank() == 4
+
+
+def test_movement_XXV_the_prime_11_and_deep_listening():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_27_deep_listening.py')
+    spec = importlib.util.spec_from_file_location('l27', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    u = mod.word(60000)
+    # THE PRIME 11: H^1 torsion Z/11 = |det(M-I)| = |char_poly(1)| = |N(1-beta)|
+    torsion, detMI, cp1 = mod.prime11()
+    assert torsion == 11 and abs(detMI) == 11 and abs(cp1) == 11
+    # prime splitting: 5,7 inert; 11 splits (2 roots); 29 fully splits (4 roots)
+    sp_ = mod.prime_splitting()
+    assert sp_[5] == 0 and sp_[7] == 0 and sp_[11] == 2 and sp_[29] == 4
+    # running letter-sum uniform mod 3 and mod 6
+    md = mod.mod_uniform(u)
+    assert md[3] < 0.01 and md[6] < 0.01
+    # deterministic hierarchy: denominators = p(n); fraction climbs 50% -> ~87%
+    h = mod.deterministic_hierarchy(u)
+    assert [t for _, t in h] == [4, 7, 10, 13, 17, 20, 23]
+    assert h[0][0] / h[0][1] == 0.5 and h[-1][0] / h[-1][1] > 0.8
+    # sublattice coupling ~1.23 bits
+    assert abs(mod.sublattice_mi(u) - 1.23) < 0.05
+    # and the handoff's BbB "resonance" is REFUTED (B never recurs at lag 2)
+    assert mod.bbb_refuted(u) == 0.0
