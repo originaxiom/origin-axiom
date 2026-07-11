@@ -26,29 +26,37 @@ The (3,1) signature's *existence* is generic (trace-form control + C1/tetranacci
 *whole* causal automorphism group preserves *one* cone. Computed here (`c3_malament.py`) — the four banked
 verbs (B497), each in the bootstrap coupling `M_v = [[v,v],[v²,v]]`, against M*'s timelike (expanding) cone:
 
-| verb | det(M_v) | own causal type | preserves M*'s cone |
-|---|---|---|---|
-| **evolution** F=[[1,1],[1,0]] | −1 | **(3,1) proper** (1 timelike) | 1.000 |
-| decimation [[2,0],[0,2]] | +16 | **(2,2)** — two time directions | 0.96 |
-| decimation [[1,2],[1,0]] | −8 | **(3,1) inverted** — three time directions | 1.000 |
-| TM/erasure [[1,1],[1,1]] | 0 | **degenerate** — non-invertible, null direction | — |
+> **CORRECTION (B525 'Are You Sure' audit).** The original write-up carried a "preserves M*'s cone"
+> column with percentages (1.000/0.96/1.000/—) computed by a buggy `lyap()` whose sign convention sent
+> genuine ZERO eigenvalues to 'spacelike' (|0|<1 → +1), so the det-0 TM verb printed "(3,1) proper,
+> preserves 1.000" — a *proxy-for-object* error (a magnitude count substituted for the Lorentzian
+> signature). That column is **struck**. The discriminator is the **signature** (# expanding directions,
+> with degeneracy flagged), recomputed correctly below (`c3_malament.py`, fixed). The conclusion is
+> unchanged and rests only on the signatures.
 
-*(M* self-preserves its own cone at 1.000 — convention check.)* The four verbs carry **four different
-causal types**: only the unimodular **evolution** verb (det ±1, measure-preserving) yields a proper
-single-timelike (3,1) Lorentzian cone; decimation (|det|>1, dissipative) gives (2,2) or an inverted (3,1)
-with multiple time directions; TM/erasure (det 0) are non-invertible — not causal automorphisms at all.
+| verb | det(M_v) | causal type (recomputed, degeneracy-flagged) |
+|---|---|---|
+| **evolution** F=[[1,1],[1,0]] | −1 | **(1,3) proper** — one timelike direction |
+| decimation [[2,0],[0,2]] | +16 | **(2,2)** — two timelike directions |
+| decimation [[1,2],[1,0]] | −8 | **(3,1) inverted** — three timelike directions |
+| TM/erasure [[1,1],[1,1]] | 0 | **DEGENERATE** — det 0, non-invertible |
+
+The four verbs carry **four different causal types**: only the unimodular **evolution** verb yields a
+proper single-timelike (1,3) Lorentzian cone; decimation gives (2,2) or an inverted (3,1) with multiple
+timelike directions; TM/erasure (det 0) are non-invertible — not causal automorphisms at all.
 
 **⟹ the Level-1 four-verb monoid does NOT preserve a single causal cone.** Malament does not apply to the
-monoid; there is **no single object-specific conformal/causal structure**. The (3,1) belongs to the
-**evolution sub-dynamics alone**, and there it is generic to any 2-real-1-complex quartic Pisot (C1). **C3
-CONFIRMS the negative — not a wrong leap; a completed control that closes the residual.**
+monoid (its premise needs a causal automorphism preserving one cone); there is **no single object-specific
+causal structure**. The proper single-timelike cone belongs to the **evolution sub-dynamics alone**, and
+there it is generic to any 2-real-1-complex quartic Pisot (C1). **C3 CONFIRMS the negative — on the
+signature grounds, which the audit verified survive the bug.**
 
-### The one structural nugget (banked as STRUCTURE, firewalled — not a crossing)
-**Causal structure ⟺ the evolution verb.** The proper (3,1) Lorentzian cone exists exactly for the
-unimodular / measure-preserving verb (det ±1); it degenerates for the dissipative verbs (decimation:
-extra time directions; TM/erasure: collapse). The "arrow" of causal structure lives on the *reversible*
-sub-dynamics. Clean structural fact — but NOT a physics crossing: the (3,1) is generic, and the
-confinement-to-evolution merely restates det = ±1. Firewalled.
+### Structural note (banked as STRUCTURE, firewalled — not a crossing; audit-narrowed)
+Among the four verbs, a proper single-timelike (1,3) Lorentzian signature arises **only for the unimodular
+evolution verb**; decimation gives extra timelike directions and TM/erasure are degenerate. That is a
+signature fact and is close to a restatement of "det = ±1 / measure-preserving." *(The stronger phrasing
+"causal structure ⟺ the evolution verb", tied to the struck cone-preservation percentages, is retracted —
+the audit showed those percentages did not discriminate.)* Firewalled: the (1,3) is generic, no physics.
 
 ## Bearing on cell 1: the incoming Level-1 free-product / genus-2 "spacetime" handoff (verified, 2026-07-12)
 A cross-seat handoff proposed upgrading Level 1 from the direct product F₂×F₂ to the **free product
