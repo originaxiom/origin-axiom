@@ -104,3 +104,17 @@ def test_pulse_is_the_object():
     inv = {im: L for L, im in SUB.items()}
     derived = ''.join(inv[rw] for rw in retwords)
     assert derived == w[:len(derived)]                            # the pulse IS the object
+
+
+def test_kappa_web_bB_is_the_unspoken_swap_fixed_pair():
+    # Movement V: conversation graph = K4 minus bB; swap-fixed kappas = {aA, bB} = the symplectic pairs.
+    from itertools import combinations
+    w = _grow(8)
+    adj = {frozenset((x, y)) for x, y in zip(w, w[1:]) if x != y}
+    pairs = [frozenset(p) for p in combinations('abAB', 2)]
+    absent = [p for p in pairs if p not in adj]
+    assert absent == [frozenset(('b', 'B'))]                      # only bB never adjacent
+    swap = {'a': 'A', 'A': 'a', 'b': 'B', 'B': 'b'}
+    fixed = [p for p in pairs if {swap[x] for x in p} == set(p)]
+    assert set(map(frozenset, fixed)) == {frozenset(('a', 'A')), frozenset(('b', 'B'))}  # swap-fixed kappas
+    assert frozenset(('b', 'B')) in absent                        # the unspoken pair is swap-fixed (symplectic)
