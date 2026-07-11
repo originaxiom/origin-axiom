@@ -327,3 +327,28 @@ def test_movement_XIII_pisot_with_strong_coincidence():
     assert coincidence({'a': 'ab', 'b': 'a'}, 'ab') is True                # Fibonacci: discrete spectrum
     assert coincidence(SUB, 'abAB') is True                                # OBJECT: strong coincidence
     assert all(SUB[c][0] == 'a' for c in 'abAB')                           # ...trivially (all images start with a)
+
+
+def test_movement_XIV_rauzy_fractal_subtile_volumes_are_golden_tensor():
+    import numpy as np
+    idx = {c: i for i, c in enumerate('abAB')}
+    u = _grow(11)[:120000]
+    steps = np.zeros((len(u), 4))
+    for k, c in enumerate(u):
+        steps[k, idx[c]] = 1
+    P = np.cumsum(steps, axis=0)
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]], float)
+    vals, V = np.linalg.eig(M)
+    W = np.linalg.inv(V)
+    i_perr = int(np.argmax(vals.real))
+    i_real = [i for i in range(4) if abs(vals[i].imag) < 1e-9 and i != i_perr][0]
+    i_cplx = [i for i in range(4) if vals[i].imag > 1e-9][0]
+    z = np.vstack([(W[i_real] @ P.T).real, (W[i_cplx] @ P.T).real, (W[i_cplx] @ P.T).imag]).T
+    assert np.abs(z).max() < 5                                             # bounded compact fractal
+    lab = np.array([idx[c] for c in u])
+    phi = (1 + np.sqrt(5)) / 2
+    sq = np.sqrt(phi)
+    w = np.array([phi, 1, phi * sq, sq])
+    w = w / w.sum()                                                        # golden-tensor freqs
+    freq = np.array([(lab == i).mean() for i in range(4)])
+    assert np.allclose(freq, w, atol=3e-3)                                 # subtile volumes = golden tensor

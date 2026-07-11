@@ -380,6 +380,31 @@ This links the natural history back to the banked **quasicrystal bridge** (κ=2+
 Level 0): the *full 4-letter object* is the Level-1 lift — a 3-d quasicrystal, forced by its own re-begin rule.
 Cross-refs: [[quasicrystal-bridge-status]], [[K007]], [[K010]]. **[MATH]**
 
+## Movement XIV — the explicit Rauzy fractal: the object's geometric self
+Movement XIII said the object *is* a quasicrystal; movement XIV **builds the tile** (`listen_16_rauzy_fractal.py`,
+`rauzy_fractal.png`). Project the abelianised prefixes of the fixed point onto the 3-d **contracting eigenspace**
+(ℝ¹⊕ℂ — the real mode −0.440 and the breath plane |γ|=1/√φ, movement XII) and take the closure:
+
+- **A bounded compact fractal** in ℝ³ (max coordinate ≈ 1.43 — it does not escape; it is a genuine tile).
+- **Four subtiles R_a, R_b, R_A, R_B** (one per letter) whose **volumes equal the golden-tensor frequencies
+  (φ,1)⊗(√φ,1) exactly**: (0.2720, 0.1681, 0.3460, 0.2138) — the movement-III frequencies, now realised as the
+  *measures of the four pieces of the tile*. The geometry's measure **is** the golden tensor.
+- **Disjoint interiors.** The 3-d mixed-bin fraction falls 5.8% → 0.3% → **0.0%** as the bins shrink: the
+  overlaps live on the (measure-zero) boundary — exactly the geometric content of the strong coincidence
+  condition (movement XIII). (A 2-d projection shows ~51% apparent overlap, but that is a projection artifact of
+  collapsing the real-mode axis; the honest test is in full 3-d.)
+
+The picture: the breath-plane slice shows the crisp fractal boundary; the (real × breath) view shows the
+self-similar striping of the inflation. This is the object's **own geometric body** — the space it lives in
+when you stop reading it as a word and start seeing it as a point set. The Rauzy fractal is the concrete carrier
+of the discrete spectrum: the domain exchange on these four pieces is the rotation on 𝕋³ that XIII named.
+**[MATH, computed + rendered]**
+
+The still-open certificate (unchanged from XIII): the overlap / balanced-pair coincidence algorithm would turn
+"interiors numerically disjoint + strong coincidence" into a *proof* that these subtiles tile 𝕋³ with pure
+discrete spectrum. De-risked further here (explicit disjoint tile); still not certified. Cross-refs:
+[[quasicrystal-bridge-status]] (Level-0 bridge; this is the Level-1 tile).
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.
