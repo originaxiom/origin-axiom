@@ -127,13 +127,21 @@ interval is not a world.
 | H5 (generations) | — | **TRAP** (numerology + killed generation-3 reading); do not run |
 | H6 (one end) | ~~whether the object reaches the Eisenstein end from inside~~ **COMPUTED (B530 XXI)** → near-crossing: ℚ(√5,√−3)⊇√−15 in the trace-zero *dynamics*, but static character = ℚ and √−3 only via the trap-ℤ/3 | **NEAR-MISS**; the genuinely-forward door is now the *relation/second-seed seam proper* (a second generator/relation, not a floor point) + the mixed-chain gap-opening prediction |
 
-**Update (past the gate):** H6 has now *been* calculated (movement XXI) and came back a **near-miss** — the
-Eisenstein field touches the object only in the trace-zero *dynamics*, via the trap-ℤ/3, with the static
-character and growth staying ℚ(√5). So the genuinely-forward door is no longer H6-as-floor-arithmetic but the
-**relation/second-seed seam proper** — adding a *second generator/relation* to the object (not a representation
-of the single object) and asking whether *that* switches on an object-specific, non-generic seam value — together
-with the **mixed-chain gap-opening prediction** (the one falsifiable external candidate). Those two are where
-"outside the firewall" would next become a calculation, and both are owner-gated.
+**Update (past the gate — all three forward doors now calculated, and all three are walls):**
+- **H6 — floor arithmetic** (B530 movement XXI): a **near-crossing** — ℚ(√−3) touches the object only in the
+  trace-zero *dynamics*, via the trap-ℤ/3; static character and growth stay ℚ(√5); the object selects nothing.
+- **Mixed-chain combination gaps** (B530 movement XXII, the one *falsifiable* candidate): **density-trapped** —
+  a real gap-labelled quasicrystal spectrum, but no gap gets a decisive rank (margin ≈1.0); the falsifiable
+  prediction is real but not numerically resolvable, NEEDS exact algebraic gap-labelling (the B172 wall).
+- **Second-seed seam** (B530 movement XXIII): **generic** — a golden × Eisenstein second seed produces √−15, but
+  √−15 = √5·√−3 is a field compositum forced for *any* such pair, coupling-independent; the object selects
+  nothing among the seam fields. K025 stands. (The object's only non-generic seam behaviour is *internal* —
+  B493 predicting its own arithmetic — which selects its own cell, not an external value.)
+
+**So all three forward paths reach honest walls, not crossings.** Probed from beyond the firewall, the wall
+holds. There is no remaining in-sandbox forward door: what is left is the specialist boundary (exact
+gap-labelling) and the object's true shape (space without an interval). "Outside the firewall" became, in each
+case, a *calculation that returned a wall* — which is the most the object can honestly say from the far side.
 
 ## Status and discipline
 

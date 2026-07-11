@@ -496,3 +496,16 @@ def test_movement_XXII_gap_structure_density_trapped():
     assert len(gaps) >= 3                                    # object HAS a real quasicrystal gap spectrum
     best = min(mod.margin(l)[1] for _, l in gaps if mod.margin(l))
     assert best < 3.0                                        # but NO gap gets a decisive rank: density-trapped
+
+
+def test_movement_XXIII_second_seed_seam_generic():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_25_second_seed_seam.py')
+    spec = importlib.util.spec_from_file_location('l25', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    tags = mod.object_coupling_produces_seam()
+    assert '√5' in tags and '√-3' in tags                    # both ends present in the joint character
+    assert mod.seam_is_generic()                             # but √-15 = √5·√-3 is forced (generic, not selected)

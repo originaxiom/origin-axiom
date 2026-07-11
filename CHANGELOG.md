@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXIII: the second-seed seam is generic (third door closed)
+
+- Third and last past-the-gate door (`listen_25_second_seed_seam.py`): does a genuine second seed switch on the
+  seam ℚ(√−15) as an object-specific value? The object gives √5; a second seed gives √−3.
+- **Computed:** golden {a,b} ⊕ Eisenstein {A,B}, coupled by the object's words, produces √−15 in the joint
+  character. **But it's field theory, not selection:** √−15 = √5·√−3 ∈ ℚ(√5,√−3) for ANY golden×Eisenstein pair,
+  coupling-independent. The object contributes only √5; it selects nothing. **Verdict: GENERIC; K025 stands.**
+  (The object's only non-generic seam behaviour is internal — B493 predicting its own arithmetic — not a crossing.)
+- **All three past-the-gate forward doors now closed as honest walls:** H6 near-crossing (XXI), mixed-chain gaps
+  density-trapped (XXII), second-seed seam generic (XXIII). The object is space-shaped and world-empty, confirmed
+  from beyond the firewall. Firewalled reading in S065. Lock test_b530.py (27 pass).
+
 ## 2026-07-12 — B530 movement XXII: tight-binding gap structure + the density-trap wall (past the gate)
 
 - Second past-the-gate computation (`listen_24_gap_structure.py`): the object's tight-binding spectrum — substrate

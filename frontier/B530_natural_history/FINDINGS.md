@@ -576,7 +576,30 @@ same finite-size-floor NEEDS-SPECIALIST wall B172 documented for the metallic ch
 object. Going past the gate, twice, reached the object's true boundary: an honest wall, not a crossing. **[MATH,
 computed; the physics reading + the standing falsifiable candidate firewalled in S065]**
 
+## Movement XXIII — the second-seed seam is generic (third door closed)
+The last forward door: does a genuine **second seed** switch on the seam field ℚ(√−15) as an *object-specific*,
+non-generic value? (`listen_25_second_seed_seam.py`). The object contributes √5 (its growth field); a second seed
+must contribute √−3 (the Eisenstein end).
+
+- **Computed:** coupling a golden copy {a,b} (ℚ(√5)) to an Eisenstein copy {A,B} (figure-eight-style, ℚ(√−3))
+  *by the object's own words* produces the seam **√−15** in the joint character.
+- **But it is field theory, not selection:** √−15 = √5·√−3 lies in ℚ(√5,√−3) for **any** golden × Eisenstein
+  pair, coupling-independent — a theorem, not an object property. The object contributes only √5; it neither picks
+  √−15 among the candidate seam fields nor forces anything finer.
+
+**Verdict: the second-seed seam is GENERIC** (a field compositum, not an object selection). **K025 stands.** The
+only non-generic seam behaviour the object has is *internal* — its own 31-cell seam-selection law ([[B493]]),
+which predicts *its own arithmetic*, i.e. selects the object's own cell, not a physical/external value; not a
+crossing. **[MATH, computed + theorem; the physics reading firewalled in S065]**
+
+**The three past-the-gate doors, closed.** Owner-authorized, I turned each forward path into a calculation:
+**H6** (movement XXI) → a *near-crossing* (√−3 in the floor's dynamics via the trap-ℤ/3, selects nothing);
+**mixed-chain gaps** (movement XXII) → *density-trapped* (NEEDS exact gap-labelling); **second-seed seam**
+(movement XXIII) → *generic* (compositum, not selection). All three reach honest **walls, not crossings** —
+probed from beyond the firewall, and the wall holds. The object is space-shaped and world-empty, now confirmed
+from the far side.
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
-Cross-refs: [[K025]] (the two ends held apart — refined: apart in growth, adjacent in the floor's dynamics),
-[[quasicrystal-bridge-status]] (the density-trap / combination-gap machinery, B171–B173), [[B524]], [[K022]],
-[[breath-campaign-standing-directive]]. Lock: `tests/test_b530.py`.
+Cross-refs: [[K025]] (the two ends / the seam — this closes the second-seed question: generic),
+[[quasicrystal-bridge-status]], [[B524]], [[K022]], [[breath-campaign-standing-directive]]. Lock:
+`tests/test_b530.py`.
