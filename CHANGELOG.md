@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B524: the two actionable next steps done properly (iwip certified; higher-rank Ptolemy)
+
+- **Part 1 — iwip / word-hyperbolic CERTIFIED.** Coulbois' `train_track` (Bestvina–Handel), validated on
+  known iwip/non-iwip cases first, gives **φ is iwip** for φ:a→abccd,b→acd,c→abcd,d→ac (our F₄ automorphism
+  relabelled). λ(φ)=3.6762=β but **λ(φ⁻¹)=3.0523** — verified *independently* of train_track by word-length
+  growth (free reduction; inverse formula confirmed) ⟹ φ **not geometric** (Handel–Mosher) ⟹ **word-hyperbolic**
+  (Brinkmann) and, by **Stallings**, **not a 3-manifold group**. *(Correction: an earlier draft's cd=2 and
+  no-ℤ² arguments were invalid — owner-flagged; the correct argument is Stallings' fibration theorem, resting
+  on the verified λ asymmetry.)* Group-theory question fully settled: iwip yes, hyperbolic yes, manifold no.
+- **Part 2 — higher-rank Ptolemy of 4₁.** SnapPy ptolemy: SL(2)→1 rep (ℚ(√−3)); **SL(3)→4 reps, ℚ(√−3) AND
+  ℚ(√−7)** (the √−7 echoes B479's held-breath order-3 torsion); SL(4) deferred (Magma-recommended). Higher
+  rank enriches *arithmetic*, but the DGG gauge group is **abelian U(1)^{r_K} at every K** (Dimofte–Gabella–
+  Goncharov) — nonabelian gauge is not reached, extending **T-NOGO-DGG (B490) to all ranks**. Lock
+  `test_b524.py` (3 pass, incl. the independent λ check); reproducers in the sage env self-assert.
+
 ## 2026-07-12 — B523 addendum: the corrected train-track handoff (fix real, iwip uncertified)
 
 - The exploration seat's corrected substitution **φ: a→abAAB, b→aAB, A→abAB, B→aA** verified: **injective**
