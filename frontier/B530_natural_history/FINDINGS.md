@@ -469,13 +469,15 @@ Level-0→Level-1 transition, told correctly.
   structure, because φ has left the world of surface mapping classes.
 - **σ* preserves VOLUME.** |det Dσ*| = 1 at every irreducible fixed point tested (robust). The trace map is
   unimodular on the 9-d character variety.
-- **σ* preserves NO conserved 2-form.** The space of σ*-invariant antisymmetric forms, computed from Dσ* at
-  four fixed points, has dimension **1, 0, 0, 0** — not stable, no common form. (X(F₄,SL₂) is 9-d = odd, so it
-  carries no symplectic form at all — only a Poisson structure, and *that* is not preserved.) The handoff's
+- **σ* preserves NO conserved bilinear form of any kind.** The space of σ*-invariant *antisymmetric* forms,
+  from Dσ* at four fixed points, has dimension **1, 0, 0, 0** — not stable, no common form; and (checked when
+  the capstone was written) the space of invariant *symmetric* forms is **dimension 0 at every generic fixed
+  point** (seeds 7, 11, 19). No 2-form, no metric, no bilinear structure survives. (X(F₄,SL₂) is 9-d = odd, so
+  it carries no symplectic form at all — only a Poisson structure, and *that* is not preserved.) The handoff's
   "rank-4 form" was a coincidence at one special fixed point where Dσ* happened to carry the golden eigenvalue
-  ladder |λ| ∈ {1/φ, 1, φ}×3; at generic fixed points the spectrum is generic (5.7, 2.3, …) and nothing is
-  preserved. This is exactly the single-point artifact the sending seat warned about. **[MATH, computed at 4
-  points; Path B REFUTED]**
+  ladder |λ| ∈ {1/φ, 1, φ}×3 (the trace-zero point, movement XIX); at generic fixed points the spectrum is
+  generic (5.7, 2.3, …) and nothing is preserved. Exactly the single-point artifact the sending seat warned
+  about. **[MATH, computed at 4 points; Path B REFUTED]**
 
 **The corrected Level-0 → Level-1 story.** Level 0: the trace map conserves κ = tr[A,B] (a Goldman Casimir) →
 *integrable*, foliated into κ-leaves. Level 1: κ is not conserved (banked earlier), φ is non-geometric, and the
