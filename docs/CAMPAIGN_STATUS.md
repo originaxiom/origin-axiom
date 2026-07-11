@@ -49,12 +49,11 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
 ## LAST BANKED (B530 natural history)
-- **B530 movement XXXIII (2026-07-12) — gap-opening curves verified and corrected.** Gap-opening
-  slopes at N=12069 (depth 7): gap 1 slope ≈ 0.193 (handoff 0.184, ~5% off), gap 2 ≈ 0.155
-  (handoff 0.153, matches), **gap 3 ≈ 0.155 — opens LINEARLY, NOT quadratically** (handoff wrong).
-  slope₂ ≈ slope₃ (ratio 1.0006): NEW structural fact. Slope ratio ≈ 1.25; handoff's
-  √(1/φ²+1)=1.176 identification = numerology, killed. Saturation values at ε=5 all correct.
-  1 lock.
+- **B530 movement XXXIII (2026-07-12) — gap-opening curves verified (SELF-CORRECTED).** After
+  depths 8–9: gap 1 slope ≈ 0.184 (handoff correct), gap 2 ≈ 0.153 (correct), gap 3 oscillates
+  0.12–0.15 (unconverged, slower but not quadratic). Slope ratio ≈ 1.204 (handoff correct;
+  √(1/φ²+1)=1.176 does NOT match, exact form OPEN). Three depth-7 claims retracted as
+  finite-size artifacts. Slopes are non-topological (potential-dependent). 1 lock.
 - **B530 movement XXXII (2026-07-12) — wall-crossing inventory verified.** Three gap labels =
   cumulative Perron frequencies (Bellissard), V-independent at 4 potentials. Dynamical zeta
   |det(M^k−I)| for k=1,...,12, all factorizations exact. 1 lock.

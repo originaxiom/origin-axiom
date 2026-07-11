@@ -847,59 +847,71 @@ Two values in the handoff's inventory table repeat errors already corrected in m
 Reproducer: `listen_37_wall_crossing_verification.py`. Lock: `tests/test_b530.py` (35 locks).
 Cross-refs: movement XXV (the prime 11), movement XXX (three fields), movement XXXI (corrections).
 
-## Movement XXXIII — the gap-opening curve, verified and corrected
+## Movement XXXIII — the gap-opening curve, verified (CORRECTED after depth 8–9)
 
 A third handoff ("from listening to the gate") claims specific gap-opening slopes and an
 experimental protocol. Independently verified (`listen_38_gap_opening_verification.py`).
 
-**1. Gap-opening slopes: TWO CORRECTIONS.**
-The gap widths grow with the old/new potential contrast ε. True linear slopes (fitted from
-ε = 0.01–0.05 at N = 12069, depth 7):
+**SELF-CORRECTION:** The initial depth-7 (N=12069) computation led to three premature claims:
+"slope₂ ≈ slope₃" (artifact — ratio 1.27 at depth 8), "slope ratio numerology killed" (wrong
+— ratio converges to 1.204 at depth 9), and "gap 3 slope ≈ 0.155" (unconverged — oscillates
+0.12–0.15 across depths). Depths 8 (N=44368) and 9 (N=163106) corrected all three. The
+handoff's slopes for gaps 1 and 2 are CORRECT; gap 3 is genuinely slower-opening.
 
-| gap | handoff slope | CC slope | verdict |
-|---|---|---|---|
-| 1 | 0.184 | **0.193** | ~5% off (finite-size convergence not complete) |
-| 2 | 0.153 | **0.155** | matches |
-| 3 | "≈ 0, opens quadratically" | **0.155** | **WRONG — opens linearly** |
+**1. Gap-opening slopes (converged at depth 9, N=163106).**
 
-**Gap 3 opens linearly, not quadratically.** The handoff's "nearly zero at ε < 0.3" was an
-artifact of insufficient system size or wrong gap identification. At N = 12069 with windowed
-search, gap 3 opens at essentially the same rate as gap 2.
+| gap | handoff slope | depth 7 | depth 8 | depth 9 | converged? |
+|---|---|---|---|---|---|
+| 1 | 0.184 | 0.188 | 0.185 | **0.183** | YES — handoff correct |
+| 2 | 0.153 | 0.158 | 0.153 | **0.152** | YES — handoff correct |
+| 3 | "≈ 0" | 0.150 | 0.120 | **0.146** | NO — oscillates 0.12–0.15 |
 
-**Structural fact not in handoff:** slope₂ ≈ slope₃ (ratio 1.0006). Gaps 2 and 3 open
-at identical rates; only gap 1 (the strongest) opens faster.
+Gaps 1 and 2 converge monotonically: the handoff's values (0.184, 0.153) are confirmed.
+Gap 3 oscillates between ~0.12 and ~0.15 across system sizes. It opens linearly (not
+quadratically as the handoff claims) but at a rate roughly 20–40% slower than gaps 1 and 2,
+with the exact slope unresolvable at these sizes. The handoff's "opens more slowly" is correct;
+"opens quadratically, slope ≈ 0" overstates it.
 
-**2. Slope ratio: NUMEROLOGY KILLED.**
-The handoff claims slope₁/slope₂ ≈ 1.204 ≈ √(1/φ²+1). Two problems:
-- Actual ratio ≈ 1.25, not 1.204 (3.5% error).
-- √(1/φ²+1) = 1.176, which doesn't match even the handoff's own 1.204 (2.4% error).
-This is a failed numerological identification. The ratio has no confirmed golden-family form.
+**2. Slope ratio: CONFIRMED, identification OPEN.**
+slope₁/slope₂ at depth 9: **1.204** — matches the handoff exactly.
+But √(1/φ²+1) = 1.176, which is 2.4% off. The handoff's approximate identification fails.
+The ratio 1.204 is a structural number with no confirmed exact golden-family expression.
 
 **3. Saturation values: VERIFIED.**
 At ε = 5: gap1 = 1.095 (handoff: 1.10), gap2 = 2.821 (handoff: 2.82), gap3 = 0.712
 (handoff: 0.71). All match to < 1%.
 
-**4. Convergence: VERIFIED with caveats.**
-Gaps 1 and 2 converge tightly across system sizes (< 0.4% spread, depths 5–7). Gap 3 shows
-15–20% fluctuation between approximant levels, as the handoff noted. The windowed search
-methodology is correct but gives the same results as fixed-index search at these sizes (the
-handoff's claim about fixed-index failure may apply at larger N).
+**4. Slopes are NON-TOPOLOGICAL.**
+The gap POSITIONS are topological (Bellissard) — identical at all potential strengths. The gap
+WIDTHS depend on which letters carry the potential. Under the "decider/courier" assignment
+(ε on {a,A}) instead of "old/new" (ε on {A,B}), the slope pattern changes completely. The
+slopes are properties of the substitution+potential combination, not of the substitution alone.
 
 **5. Experimental protocol: FACTUALLY CORRECT.**
 The substitution rule, two-material assignment, three gap positions, and control experiments
 (periodic, Fibonacci, random) are all correctly described. The protocol is sound photonics.
 
-**6. Three fields + prime hierarchy: ALREADY BANKED (XXX, XXXII).**
-No new verification needed. The three fields (ℚ(√5), ℚ(√−89), the twist) and the prime
-hierarchy (11 universal, 89 at k=8, etc.) are already locked.
+**6. What we lack.**
+- **Gap 3 convergence.** The opening rate oscillates between depths and is not resolved. Needs
+  depth 10+ (N ≈ 600K) or the transfer-matrix trace map analysis.
+- **Exact closed-form slopes.** The converged values 0.184 and 0.153 have no identified
+  algebraic expression. Should be derivable from the substitution's trace-map dynamics.
+- **The slope ratio's exact form.** 1.204 is converged but unidentified. Not √(1/φ²+1).
+- **A control substitution.** We tested Fibonacci (no gap at IDS=1/φ in our spectrum, confirming
+  disjoint modules) but not a different 4-letter Pisot to test whether 1.204 is object-specific.
+- **The perturbation-theory derivation.** For Fibonacci, the trace map (a 2D polynomial
+  dynamical system) gives exact gap-opening exponents. Our 4-letter substitution has a
+  higher-dimensional trace map that hasn't been worked out.
 
-**What passes through the gate (corrected):**
+**What passes through the gate:**
 - Three frozen gap labels: 0.272, 0.440, 0.786 in (1/S)·ℤ[φ,√φ] — topological, V-independent.
-- Gap-opening slopes: ≈ 0.193 (gap 1), ≈ 0.155 (gaps 2 and 3, equal).
+  PROVEN (Bellissard). These are the ONLY fully frozen predictions.
+- Gap-opening slopes: ≈ 0.184 (gap 1), ≈ 0.153 (gap 2), ~0.12–0.15 (gap 3, unconverged).
+  Non-topological: depend on the physical realization (which letters carry which material).
 - Saturation widths at ε = 5: 1.10, 2.82, 0.71.
-- Dynamical zeta (full prime factorizations, k = 1..12).
-- The slope ratio has NO confirmed exact expression (numerology killed).
-**[MATH, computed]**
+- Slope ratio slope₁/slope₂ ≈ 1.204 (converged, exact form OPEN).
+- Dynamical zeta (full prime factorizations, k = 1..12, already banked XXXII).
+**[MATH, computed; self-corrected from premature depth-7 claims]**
 
 Reproducer: `listen_38_gap_opening_verification.py`. Lock: `tests/test_b530.py`.
 
