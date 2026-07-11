@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XVI: exact entropy + golden branching (a second seat's Path D, verified)
+
+- Verified + banked Path D of a cross-seat four-path handoff (`listen_18_entropy_and_golden_branching.py`).
+- **h = log β = 1.3019 nats = 1.8782 bits/letter** (primitive ⇒ metric = topological entropy).
+- **Golden branching, exact:** P(b|a)=P(B|A)=1/φ; tunnels deterministic (P(A|b)=P(a|B)=1); after A, B gets 1/φ and
+  the remaining 1/φ² splits a:A in the **breath ratio 1/√φ**. The decider/courier split is an **entropy** split —
+  deciders {a,A} carry 0.96/1.34 bits, couriers {b,B} carry zero.
+- **Path A (verb interaction)** facts verified, framing firewalled (√φ's mechanism is the copy-inequality, not
+  verb-averaging), and a handoff **sign slip caught** (lifted keep eig = φ,φ,−1/φ,−1/φ, not +1/φ). **Path C** =
+  movement XI (floor variety). **Path B (Goldman rank-4 form)** flagged — needs the symbolic 9d trace map.
+  Lock test_b530.py (20 pass).
+
 ## 2026-07-12 — B530 movement XV: pure discrete spectrum PROVEN (the balanced-pair certificate)
 
 - The certificate flagged in XIII/XIV is now run (`listen_17_discrete_spectrum_certificate.py`). The **balanced

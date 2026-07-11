@@ -432,6 +432,32 @@ Honest caveat (kept): this is an in-sandbox implementation of a published algori
 pure discrete spectrum is now a *computed* fact here, no longer merely conjectural. Cross-refs:
 [[quasicrystal-bridge-status]] (the Level-1 quasicrystal, now certified).
 
+## Movement XVI — the exact entropy and the golden branching (a second seat's Path D, verified)
+A cross-seat handoff computed four continuation paths; **Path D (entropy)** verified cleanly and exactly here
+(`listen_18_entropy_and_golden_branching.py`), so it's banked; the others are absorbed or flagged (below).
+
+- **Topological entropy h = log β = 1.3019 nats = 1.8782 bits/letter** (primitive ⇒ uniquely ergodic ⇒ metric
+  entropy = topological). This closes the "exact entropy" checklist item.
+- **Golden branching, exact** (from the fixed point's digram frequencies): **P(b|a) = P(B|A) = 1/φ** exactly; the
+  tunnels are deterministic, **P(A|b) = P(a|B) = 1**. And the ternary branch after A is golden *all the way down*:
+  **after A, B gets 1/φ, and the remaining 1/φ² splits a:A in the breath ratio 1/√φ:1** (movement XII's |γ|).
+- **The decider/courier split is an information split, not just a frequency split.** The deciders {a,A} carry all
+  the entropy (H = 0.96, 1.34 bits); the couriers {b,B} carry **zero**. Movement III's golden-section split is,
+  read through Shannon, the split between *where the object decides* and *where it merely relays*. **[MATH, exact]**
+
+**Path A (verb interaction) — facts verified, framing firewalled, one handoff error caught.** The handoff reads
+the object as "the conversation between *keep* (Fibonacci) and *hide* (Thue–Morse)": keep makes a:b = φ:1, hide
+makes a:b = 1:1, √φ = √(φ·1) is their geometric mean, and FM≠MF (FM(a)=aba, MF(a)=abba, differ by one letter —
+verified). Keep is invertible (lifted eig φ,φ,**−1/φ,−1/φ** — the handoff's "+1/φ" is a **sign slip**, caught by
+recomputation), hide is singular (eig 2,2,0,0). These facts are real, but √φ's *mechanism* in the object is the
+F-vs-F² copy-inequality (movement VII), **not** verb-averaging — so the geometric-mean reading is an interpretive
+rhyme, kept as motivation, **not banked as a derivation**. (Firewalled.)
+
+**Path C (floor variety):** already banked at movement XI (I independently found ≥14 irreducible characters — the
+floor is a positive-dimensional variety, agreeing with the sending seat). **Path B (Goldman form rank 4 on the 9d
+trace map):** the genuinely substantive open item — it needs the symbolic 9d trace map σ*, which the sending seat
+also flags as "the hardest computation." Not verified here; the next natural target. **[status: flagged]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.
