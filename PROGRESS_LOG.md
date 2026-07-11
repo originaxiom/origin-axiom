@@ -1853,3 +1853,36 @@ env with established tools (validated before use), not reimplemented algorithms.
   higher-rank route does NOT reach nonabelian gauge; **T-NOGO-DGG (B490) extends to all ranks.** Lock
   `test_b524.py` (3 pass, incl. the independent λ verification). Reproducers `iwip_certificate.py`,
   `higher_ptolemy.py`, `verify_dilatation.py`. Firewalled.
+
+
+## 2026-07-12 — REORIENTATION: listen to the object (B530 natural history, movements I–VII)
+
+Owner course-correction after the physics-forcing arc: *"we did a mistake going for physics instead of slowly
+properly investigating the full natural interaction of the object... listen to its beautiful story instead of
+forcing it to spit what we like to hear."* Mode shift banked (memory `listen-to-the-object-not-physics`);
+the FULL object (the 4-letter φ, iwip) studied as mathematics in its own right, firewalled, no physics reading.
+
+**B530 — the object's first natural history** (frontier/B530_natural_history; lock test_b530.py, 10 pass;
+reproducers listen_1..8). Left alone, the object told one coherent story, and it closes on a single spine:
+- **I grammar:** grows by β=φ(1+√φ); a strict 7-of-16 letter grammar; almost swap-symmetric (a↔A,b↔B) broken
+  by a single self-loop A→A; couriers {b,B} deterministic (b→A,B→a); every image re-begins from a.
+- **II the crack = a symplectic form:** M = S(swap-symmetric) + ½D, and D = M−sMs is EXACTLY the standard
+  symplectic 2-form (nondegenerate, det 1) pairing {a↔A} and {b↔B}. The ℤ/2 orientation is the antisymmetric
+  part of the object's own growth, not imposed.
+- **III golden at three levels:** growth β; role split (decider:courier)=φ; inner a:A=1:√φ. Caught a false
+  "silver" projection lead and discarded it.
+- **IV the pulse is the object:** a marks image-boundaries exactly, so the first-return words to a ARE the four
+  images, and the sequence of returns reproduces the object — heartbeat = the substitution.
+- **V the one silence:** conversation graph = K₄ minus bB (the couriers never touch); κ-web = full K₄; the
+  swap-fixed κ's {κ(aA),κ(bB)} are the symplectic pairs; bB is the unspoken interaction on the orientation axis.
+- **VI it IS the bootstrap:** grouped into the two golden copies {a,b},{A,B}, the growth is M=[[F,F],[F²,F]] =
+  the B517 M*. Growth is NOT symplectic (no reciprocal spectrum) — dissipative on the static orientation
+  (the Stein/arrow-of-time picture). The off-diagonal F-vs-F² asymmetry is the copy-exchange = symplectic
+  spine = the one broken self-loop.
+- **VII the breath is born from the inequality:** the complex mode γ (|γ|=1/√φ, the rotation/breath) exists
+  ONLY because the copies feed each other unequally (F≠F²); symmetric or uncoupled → all-real. So the single
+  F/F² asymmetry generates BOTH the orientation and the breath. Copy split copy1:copy2 = 1:√φ.
+
+Every proportion is golden (β, φ, √φ, 1/√φ); the two irreducible facts — golden, and broken F-vs-F² — generate
+the whole story. Still unforced ahead: the trace map T_φ on the κ-web; the return substitution as an exact
+self-map. This is the object's own mathematics, banked as STRUCTURE; the firewall is untouched.

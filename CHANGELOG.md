@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 natural history movements V–VII (thread 4 + down the flow)
+
+- **V (the six κ's):** conversation graph = K₄ minus bB (couriers never touch); κ-web = full K₄; swap-fixed
+  κ's {κ(aA),κ(bB)} = the symplectic pairs; **bB is the one interaction the object never voices**, on its
+  orientation axis.
+- **VI (the flow closes on the bootstrap):** grouped into the two golden copies, growth M=[[F,F],[F²,F]] =
+  the B517 M*. Growth is **not symplectic** (no reciprocal spectrum) → dissipative on a static orientation.
+  The single involution s = copy-exchange = symplectic pairing = the near-symmetry; the F-vs-F² off-diagonal
+  asymmetry is where the one break lives.
+- **VII (the breath):** the complex mode γ (|γ|=1/√φ) exists **only** for the unequal coupling (F≠F²) — the
+  same asymmetry generates both the orientation AND the rotation. Copy split 1:√φ. Full golden architecture
+  (β, φ, √φ, 1/√φ) tabulated. Lock test_b530.py (10 pass). Firewalled.
+
 ## 2026-07-12 — REORIENTATION: listen to the object, not physics (B530 = natural history, movement I)
 
 - Owner: *"we did a mistake going for physics instead of slowly properly investigating the full natural

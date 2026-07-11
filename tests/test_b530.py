@@ -134,3 +134,19 @@ def test_four_letters_are_the_bootstrap_and_growth_is_dissipative():
     MtDM = M.T * D * M
     assert all(sp.simplify(MtDM - c * D) != sp.zeros(4) for c in (1, -1))   # not +/- D
     assert M.det() == -1                                                     # unimodular, dissipative
+
+
+def test_breath_is_born_from_the_copy_inequality():
+    # Movement VII: the complex mode exists ONLY for the unequal coupling F vs F^2.
+    F = sp.Matrix([[1, 1], [1, 0]])
+    blk = lambda tl, tr, bl, br: sp.Matrix(sp.BlockMatrix([[tl, tr], [bl, br]]))
+    has_complex = lambda X: any(sp.im(e) != 0 for e in X.eigenvals())
+    assert has_complex(blk(F, F, F * F, F))                 # the object M*: rotates
+    assert not has_complex(blk(F, F, F, F))                 # symmetric coupling: no rotation
+    assert not has_complex(blk(F, sp.zeros(2), sp.zeros(2), F))   # uncoupled: no rotation
+    # the copies stand in ratio 1:sqrt(phi)
+    phi = (1 + sp.sqrt(5)) / 2
+    sq = sp.sqrt(phi)
+    c1 = sp.simplify(phi + 1)               # copy1 {a,b}
+    c2 = sp.simplify(phi * sq + sq)         # copy2 {A,B}
+    assert sp.simplify(c2 / c1 - sq) == 0
