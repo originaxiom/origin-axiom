@@ -397,3 +397,18 @@ def test_movement_XVI_entropy_and_golden_branching():
     # Path A caught correction: lifted keep-verb eigenvalues are phi,phi,-1/phi,-1/phi (NOT +1/phi)
     F = np.kron(np.eye(2), np.array([[1, 1], [1, 0]]))
     assert sorted(np.round(np.linalg.eigvals(F).real, 3).tolist()) == [-0.618, -0.618, 1.618, 1.618]
+
+
+def test_movement_XVII_phi_is_non_geometric():
+    # Path B: sigma* conserves NO genus-2 boundary trace -> phi non-geometric -> Goldman inapplicable.
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_19_no_conserved_symplectic.py')
+    spec = importlib.util.spec_from_file_location('l19', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    diffs = mod.boundary_not_conserved(seed=0)
+    assert len(diffs) == 4
+    for name, d in diffs.items():
+        assert d > 1.0, name          # every candidate boundary changes -> none conserved

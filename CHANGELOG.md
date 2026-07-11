@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XVII: Path B resolved — volume preserved, no symplectic structure
+
+- The handoff's Path B ("σ* preserves a rank-4 form, replacing Level-0's κ") computed at multiple points and
+  **refuted** (`listen_19_no_conserved_symplectic.py`).
+- **φ is non-geometric:** σ* conserves NO genus-2 boundary trace (4 candidates change by 10²–10⁴) → Goldman's
+  theorem inapplicable.
+- **σ* preserves volume** (|det Dσ*|=1 at every fixed point) but **NO conserved 2-form** (preserved-form dim
+  1,0,0,0 across 4 fixed points — not stable). The handoff's rank-4 was a single-point artifact (a special fixed
+  point with the golden eigenvalue ladder |λ|∈{1/φ,1,φ}×3; generic points have generic spectra).
+- **Corrected Level-0→Level-1 story:** integrable (κ conserved, Goldman-foliated) → volume-preserving-but-
+  non-symplectic — the dynamics loses its conserved symplectic structure when φ leaves the surface-mapping-class
+  world. Lock test_b530.py (21 pass).
+
 ## 2026-07-12 — B530 movement XVI: exact entropy + golden branching (a second seat's Path D, verified)
 
 - Verified + banked Path D of a cross-seat four-path handoff (`listen_18_entropy_and_golden_branching.py`).

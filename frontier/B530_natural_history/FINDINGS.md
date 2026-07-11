@@ -458,6 +458,32 @@ floor is a positive-dimensional variety, agreeing with the sending seat). **Path
 trace map):** the genuinely substantive open item — it needs the symbolic 9d trace map σ*, which the sending seat
 also flags as "the hardest computation." Not verified here; the next natural target. **[status: flagged]**
 
+## Movement XVII — Path B resolved: the Level-1 dynamics preserves volume but NO symplectic structure
+The remaining handoff item — Path B, "σ* preserves a rank-4 form, the Level-1 replacement for κ-conservation" —
+is now computed at multiple points and **refuted** (`listen_19_no_conserved_symplectic.py`). This is the
+Level-0→Level-1 transition, told correctly.
+
+- **φ is non-geometric.** As an atoroidal iwip ([[B524]]) it was expected to be; confirmed decisively — σ*
+  conserves **no** genus-2 boundary trace (all four candidates [a,b][A,B], [a,A][b,B], [a,b][B,A], [a,B][A,b]
+  change by 10²–10⁴ under σ*). So **Goldman's theorem does not apply**: nothing forces a preserved Poisson
+  structure, because φ has left the world of surface mapping classes.
+- **σ* preserves VOLUME.** |det Dσ*| = 1 at every irreducible fixed point tested (robust). The trace map is
+  unimodular on the 9-d character variety.
+- **σ* preserves NO conserved 2-form.** The space of σ*-invariant antisymmetric forms, computed from Dσ* at
+  four fixed points, has dimension **1, 0, 0, 0** — not stable, no common form. (X(F₄,SL₂) is 9-d = odd, so it
+  carries no symplectic form at all — only a Poisson structure, and *that* is not preserved.) The handoff's
+  "rank-4 form" was a coincidence at one special fixed point where Dσ* happened to carry the golden eigenvalue
+  ladder |λ| ∈ {1/φ, 1, φ}×3; at generic fixed points the spectrum is generic (5.7, 2.3, …) and nothing is
+  preserved. This is exactly the single-point artifact the sending seat warned about. **[MATH, computed at 4
+  points; Path B REFUTED]**
+
+**The corrected Level-0 → Level-1 story.** Level 0: the trace map conserves κ = tr[A,B] (a Goldman Casimir) →
+*integrable*, foliated into κ-leaves. Level 1: κ is not conserved (banked earlier), φ is non-geometric, and the
+only surviving invariant is the **volume form** — the dynamics is **volume-preserving but non-symplectic**. The
+transition is *integrable → volume-preserving-but-non-integrable*: the object's dynamics loses its conserved
+symplectic structure precisely when it stops being a surface mapping class. (A genuine structural finding, and a
+correction of the handoff's Path B — the discipline of computing at more than one point earning its keep.)
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.
