@@ -289,3 +289,41 @@ def test_movement_XII_eigenvector_geometry_of_the_growth():
     # anti-anticipation: the breath angle is NOT the golden angle
     assert abs(np.degrees(theta) - np.degrees(2 * np.pi / phi**2)) > 3
     assert np.linalg.norm(M @ M.T - M.T @ M) > 1e-6             # non-normal (the breath needs it)
+
+
+def test_movement_XIII_pisot_with_strong_coincidence():
+    import numpy as np
+    # irreducible unimodular primitive Pisot
+    cp = sp.Poly(sp.symbols('x')**4 - 2 * sp.symbols('x')**3 - 5 * sp.symbols('x')**2
+                 - 4 * sp.symbols('x') - 1, sp.symbols('x'))
+    assert cp.is_irreducible
+    roots = np.roots([1, -2, -5, -4, -1])
+    beta = max(roots, key=lambda z: z.real).real
+    assert all(abs(r) < 1 for r in roots if abs(r - beta) > 1e-6)          # Pisot
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]], float)
+    assert abs(round(np.linalg.det(M))) == 1                               # unimodular
+
+    def coincidence(sub, alph, maxn=14):
+        def exp(s, n):
+            for _ in range(n):
+                s = ''.join(sub[c] for c in s)
+            return s
+        for a, i in enumerate(alph):
+            for j in alph[a + 1:]:
+                ok = False
+                for n in range(1, maxn):
+                    wi, wj = exp(i, n), exp(j, n)
+                    for p in range(min(len(wi), len(wj))):
+                        if wi[p] == wj[p] and tuple(wi[:p].count(c) for c in alph) == tuple(wj[:p].count(c) for c in alph):
+                            ok = True
+                            break
+                    if ok:
+                        break
+                if not ok:
+                    return False
+        return True
+    # code validated on controls, then applied to the object
+    assert coincidence({'a': 'ab', 'b': 'ba'}, 'ab') is False              # Thue-Morse: singular spectrum
+    assert coincidence({'a': 'ab', 'b': 'a'}, 'ab') is True                # Fibonacci: discrete spectrum
+    assert coincidence(SUB, 'abAB') is True                                # OBJECT: strong coincidence
+    assert all(SUB[c][0] == 'a' for c in 'abAB')                           # ...trivially (all images start with a)

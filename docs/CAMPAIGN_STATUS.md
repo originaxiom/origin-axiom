@@ -292,9 +292,13 @@ before merge. The negative now stands on TWO independent seats.
 
 
 
-## 2026-07-12 — B530 natural history (movements VIII–XII): method registered + external package digested
+## 2026-07-12 — B530 natural history (movements VIII–XIII): method registered + external package digested
 Movement **XII**: the eigenvector geometry — expand in 1 / contract in 3; the breath is doubly golden
 (radius 1/√φ, cos angle −1/√φ) but its 141.83° turn is NOT the golden angle (honest null banked equally).
+Movement **XIII**: the object is an irreducible unimodular primitive **Pisot substitution with strong
+coincidence** (controls validated) → **quasiperiodic** (pure-discrete class, 3-d quasicrystal), **not mixing** —
+which **corrected movement XI's** finite-window MI over-read. Overlap-coincidence certificate flagged as the
+specialist-grade proof (de-risked, not run).
 Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
 (self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
 Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:
