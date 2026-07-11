@@ -292,6 +292,13 @@ before merge. The negative now stands on TWO independent seats.
 
 
 
+## 2026-07-12 — B530 movement XXIX: QCA gate re-examined — the coupling resonance is alive
+Corpse #19 re-examined with steelman-before-kill: the iσ_y kill HOLDS (generic degeneracy); the golden-angle
+coin kill was an OVER-CLOSURE — not a selection (beats 18/30 randoms, π/5 not optimal), BUT the F≠F² coupling
+resonance is real and massive (240,000× lower cost than uncoupled Fibonacci, scales with size). Reclassified
+from UNTESTED to **OPEN** (coupling resonance alive; selection dead). **Corpse ledger fully cleared — no
+UNTESTED items remain.** 32 locks.
+
 ## 2026-07-12 — B530 natural history (movements VIII–XIII): method registered + external package digested
 Movement **XII**: the eigenvector geometry — expand in 1 / contract in 3; the breath is doubly golden
 (radius 1/√φ, cos angle −1/√φ) but its 141.83° turn is NOT the golden angle (honest null banked equally).
