@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXXI: handoff verification
+
+- Verified four items from a second seat's handoff (`listen_36_handoff_verification.py`):
+- **√13 artifact CONFIRMED BROKEN:** the derived interleaving substitution `0→0, 1→030, 2→0302, 3→20202` has
+  letter '1' never regenerated (singular incidence matrix). The error: collapsing two distinct return words
+  ('aAB' and 'bAB') into binary '011'. Correct 5-return-word derivation has char poly = x·(x⁴−2x³−5x²−4x−1),
+  Perron root = β. √13 was never structural.
+- **Coupling resonance CONFIRMED:** golden pair (π/5, 2π/5) beats same-angle (π/5, π/5) by 293× (handoff
+  said 7×, same direction). F≠F² advantage: 242,036× (matches movement XXIX).
+- **Recognizability REFINED:** centered radius R=3 (diameter 7), not "radius = 9" (which was the Mossé bound).
+- **Bounded remainder CONFIRMED:** max single-letter discrepancy ≈ 1.6, saturates by N=1000 (handoff said ~15).
+- 34 locks (1 new).
+
 ## 2026-07-12 — B530 movement XXX: three fields — the listening
 
 - Five listening passes (`listen_31` through `listen_35`) investigating the object's arithmetic.

@@ -292,6 +292,12 @@ before merge. The negative now stands on TWO independent seats.
 
 
 
+## 2026-07-12 — B530 movement XXXI: handoff verification
+Four items from a second seat verified independently: √13 artifact CONFIRMED BROKEN (4-letter binary derivation
+collapses two return words → singular matrix; correct 5-letter derivation gives β); coupling resonance CONFIRMED
+(golden pair 293× over same-angle, F≠F² 242,036× over uncoupled); recognizability REFINED (centered R=3,
+diameter 7, not Mossé-bound "9"); bounded remainder CONFIRMED (max discrepancy ~1.6, not ~15). 34 locks.
+
 ## 2026-07-12 — B530 movement XXX: three fields — the listening
 Five passes listening to the object's arithmetic. **Galois group corrected: D₄ not S₄** (resolvent has rational
 root −3/2; char poly factors over ℚ(√5)). The ℤ/2 case-parity cocycle generates a parity factor x⁴−2x³−x²−1

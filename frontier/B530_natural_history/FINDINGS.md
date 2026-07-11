@@ -746,6 +746,49 @@ Reproducers: `listen_31_the_three_and_the_eleven.py`, `listen_32_parity_cocycle.
 Lock: `tests/test_b530.py`. Cross-refs: movement XXV (three-prime organization — now sharpened),
 movement XXVI (BbB resonance — now explained).
 
+## Movement XXXI — handoff verification: √13 retracted, three structural data
+A second seat's handoff delivered five items for independent verification (`listen_36_handoff_verification.py`).
+Each was recomputed from scratch; cross-checked against movement XXIX (coupling resonance) and movement XXVIII
+(corpse audit, interleaving). Results:
+
+**1. √13 artifact: CONFIRMED BROKEN, EXPLAINED.**
+The handoff's derived interleaving substitution `0→0, 1→030, 2→0302, 3→20202` has letter '1' never regenerated
+(zero column in the incidence matrix → singular → char poly x(x−1)(x²−x−3), Perron root (1+√13)/2 = artifact).
+**The error**: collapsing two distinct original-alphabet return words ('aAB' and 'bAB', which both project to
+binary '011') into a single binary return word. The correct derivation has **5** return words
+(a, aA, bAB, aAB, bAAB) with incidence matrix char poly = **x·(x⁴−2x³−5x²−4x−1)** — the original char poly
+times x. Perron root = β. √13 was never structural; prime 13 in the splitting table is independently
+correct as 'inert' (a property of x⁴−2x³−5x²−4x−1 mod 13, unrelated to √13).
+**[MATH, exact; ERROR #19 from the handoff verified and explained]**
+
+**2. Coupling resonance: CONFIRMED with correction.**
+The golden pair (π/5, 2π/5) beats same-angle (π/5, π/5) by **293×** (handoff claimed 7× — our number is larger,
+same direction). The F≠F² coupling advantage is **242,036×** over uncoupled Fibonacci, matching movement XXIX's
+240,000×. The same metric also reveals (π/5, 3π/7) is even better than the golden pair — the golden angle is
+NOT the unique optimum among angle pairs, consistent with movement XXIX's finding that π/5 is not the object's
+optimal angle.
+**[MATH, computed; confirms+sharpens movement XXIX]**
+
+**3. Recognizability radius: REFINED.**
+The handoff claimed "recognizability radius = 9" (theoretical: max(|σ(c)|+|σ(d)|−1) = 5+5−1 = 9). This is the
+**Mossé upper bound**, not the actual value. Independent computation with centered windows: the substitution is
+**recognizable at centered radius R=3 (diameter 7)**. At R=2 (diameter 5), one ambiguity remains ('ABabA' could
+start at offset 0 of either σ(a) or σ(A)); at R=3, fully resolved. This means any 7-letter factor in the fixed
+point uniquely determines which letter's image it sits inside and at what offset — the desubstitution is
+unambiguous from 7 characters of context (3 on each side).
+**[MATH, exact]**
+
+**4. Bounded remainder: CONFIRMED, tighter than claimed.**
+Max single-letter discrepancy |#{c in u[1..N]} − N·freq(c)| ≈ **1.6** over N=500,000, saturating by N=1000.
+The handoff claimed "~15 per coordinate" — our number is much tighter. Contracting-direction discrepancy
+(projection onto the Rauzy fractal) is max **1.87**. The object's letter counts track their asymptotic
+frequencies with discrepancy bounded by ~2, consistent with pure discrete spectrum (movement XV).
+**[MATH, computed]**
+
+Reproducer: `listen_36_handoff_verification.py`. Lock: `tests/test_b530.py` (34 locks).
+Cross-refs: movement XXVIII (corpse #6 — interleaving IS substitutive, exactly 4 binary return words),
+movement XXIX (coupling resonance, 240,000×), movement XV (pure discrete spectrum).
+
 ## Movement XXV — the deep listening: the prime 11, and what didn't survive
 A second seat's "advanced listening" handoff arrived after the portrait — a dozen new claims. Verified each by
 independent recomputation (held in both directions after the "don't be so sure" correction): banked the exact,
