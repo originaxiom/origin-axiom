@@ -6,6 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B525: the "Are You Sure" audit cracked 3 of 10 banked negatives (corrections applied)
+
+- Owner-mandated 61-agent adversarial audit of the program's load-bearing NEGATIVES. **4 CONFIRMED, 2 SHAKY,
+  3 CRACKED.** Meta-pattern: every failure = a necessary/cited/proxied condition read as sufficient; the tell
+  = the certificate *asserted/cited/posited/logged-timeout* the discriminating fact instead of computing it
+  (the 4 that recomputed survived). New memory: [[compute-the-discriminating-fact]].
+- **The master negative PHYS-REFUTED CONFIRMED** (recomputed): the object still does not produce physics.
+- **CRACKS corrected this session:** (1) **B519 "no external crossing" RETRACTED** — gap-labeling is
+  necessary≠sufficient; the mixed-chain gap-**opening** pattern (B1) is a genuinely falsifiable external
+  prediction, not a known-theorem corollary (B519 VERDICT + docs/CLOSURE_2026-07-11 corrected). (2)
+  **C3-CONE:** the conclusion survives on the signature grounds, but `c3_malament.py` had a sign-convention
+  bug (zero eigenvalues → "spacelike") — fixed; the "causal ⟺ evolution verb" nugget retracted. (3)
+  **CHILD-NOTSHORT downgraded to PROVISIONAL:** only 115/150 words analyzed (26 bare TIMEOUTs), not 141/9 —
+  the KILL is not complete. Locks `test_b523.py`, `test_b500_kill.py` corrected.
+- **SHAKY follow-ups:** DGG-ABELIAN ("abelian at every K" is a citation, not computed); GATES-SEALED
+  (`verify_gates.py` posits rather than derives the deck action) — conclusions hold, certificates to harden.
+
 ## 2026-07-12 — B526: verified the "UNDENIABLE PHYSICS CROSSING" package — title misleading, no crossing
 
 - An owner-uploaded package with an alarmist name turned out to be the **opposite of a crossing claim**: its own
