@@ -38,7 +38,11 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
 - **DONE** (movement XVI): the **exact entropy** h = log β and the **golden branching** (P(b|a)=P(B|A)=1/φ
   exact; tunnels deterministic; after-A split golden to the breath ratio); decider/courier is an entropy split.
   Path A verb facts verified (framing firewalled, one handoff sign slip caught); Path C = movement XI.
-- **OPEN** (to cover, neutrally, one by one): the **9d Goldman form** (Path B — rank-4 form on the trace map;
-  needs the symbolic σ*, the hardest computation); the Rauzy fractal's **boundary dimension / neighbour graph**;
-  the End(F₄) **verb monoid** full classification; recurrence / repetitivity constants; the interleaving
-  sequence's own substitution (S-adic?).
+- **DONE** (movement XVII): **Path B resolved** — φ is non-geometric (conserves no genus-2 boundary), so σ*
+  preserves **volume** (|det|=1) but **no symplectic/Poisson form** (preserved-form dim 1,0,0,0 across 4 fixed
+  points). The handoff's "rank-4 form" refuted as a single-point artifact. Level-0 κ-integrability → Level-1
+  volume-preserving-but-non-symplectic.
+- **OPEN** (to cover, neutrally, one by one): the Rauzy fractal's **boundary dimension / neighbour graph**; the
+  End(F₄) **verb monoid** full classification; recurrence / repetitivity constants; the interleaving sequence's
+  own substitution (S-adic?); the special-fixed-point golden eigenvalue ladder (why does one fixed point carry
+  |λ|∈{1/φ,1,φ}×3?).

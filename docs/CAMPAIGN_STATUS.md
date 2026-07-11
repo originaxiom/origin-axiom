@@ -305,8 +305,10 @@ certificate** run and validated on 5 controls → **pure discrete spectrum PROVE
 0 bad, robust); the object is a **proven quasicrystal**, XIII upgraded theory-indicated → computed. Movement
 **XVI** (a second seat's Path D, verified): **exact entropy** h=log β + **golden branching** (P(b|a)=P(B|A)=1/φ,
 tunnels deterministic, after-A split golden to the breath ratio); decider/courier is an entropy split; Path A
-verb facts verified (framing firewalled, a handoff sign slip caught); Path B (Goldman rank-4 form) flagged for
-the symbolic 9d trace map.
+verb facts verified (framing firewalled, a handoff sign slip caught). Movement **XVII** (Path B resolved): φ is
+**non-geometric** (conserves no genus-2 boundary), so σ* preserves **volume** (|det|=1) but **no symplectic/
+Poisson form** (preserved-form dim 1,0,0,0 across 4 fixed points) — the handoff's rank-4 form **refuted** as a
+single-point artifact; Level-0 κ-integrability → Level-1 volume-preserving-but-non-symplectic.
 Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
 (self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
 Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:
