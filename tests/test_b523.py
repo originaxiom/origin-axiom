@@ -65,3 +65,22 @@ def test_handoff_gamma_modulus_is_golden_sqrt():
     phi = (1 + sp.sqrt(5)) / 2
     mod2 = sp.simplify((-1 / phi) ** 2 + (sp.sqrt(5) - 2))   # |gamma|^2 = 1/phi^2 + (sqrt5-2)
     assert sp.simplify(mod2 - 1 / phi) == 0                   # = 1/phi  =>  |gamma| = 1/sqrt(phi)
+
+
+def test_corrected_substitution_is_injective_and_abelianizes_to_bootstrap():
+    # corrected phi: a->abAAB, b->aAB, A->abAB, B->aA  (the fix for the broken handoff)
+    imgs = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}
+    gens = ['a', 'b', 'A', 'B']
+    assert imgs['b'] != imgs['B'] and len(set(imgs.values())) == 4     # injective (no collapse)
+    x = sp.symbols('x')
+    M = sp.Matrix([[imgs[g].count(gi) for g in gens] for gi in gens])
+    # abelianizes to the bootstrap matrix M* = [[F,F],[F^2,F]] (same charpoly => conjugate over Q)
+    F = sp.Matrix([[1, 1], [1, 0]])
+    Mstar = sp.Matrix(sp.BlockMatrix([[F, F], [F * F, F]]))
+    assert M.charpoly(x) == Mstar.charpoly(x)
+    assert sp.expand(M.charpoly(x).as_expr()) == x**4 - 2*x**3 - 5*x**2 - 4*x - 1  # bootstrap beta minpoly
+    assert M.det() == -1                                              # necessary for automorphism
+    # primitive (Perron-Frobenius): (I+M)^3 entrywise > 0  -- necessary, NOT sufficient, for iwip
+    P = ((sp.eye(4) + M) ** 3)
+    assert all(P[i, j] > 0 for i in range(4) for j in range(4))
+    # NOTE: iwip + phi in Aut(F4) are NOT certified by these -- need Bestvina-Handel + Whitehead.

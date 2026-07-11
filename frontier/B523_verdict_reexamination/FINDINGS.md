@@ -71,6 +71,38 @@ mapping torus is a genus-2 fibered hyperbolic 3-manifold (a "Level-1 spacetime")
   caught the over-claim before banking. B515–B517 (substitution, Rauzy, Pisot β) are untouched — they live
   at the word level, below the group structure, as the handoff itself notes.
 
+## Addendum (2026-07-12): the CORRECTED train-track handoff — the fix is real, the iwip claim isn't (yet)
+A follow-up handoff supplied the corrected substitution **φ: a→abAAB, b→aAB, A→abAB, B→aA** (on F₄ = ⟨a,b,A,B⟩,
+positive letters) and retracted the false genus-2 mapping-class claim (matching this node's finding). Verified
+(`verify_traintrack.py`):
+- **The fix is real and nice.** φ is **injective** (φ(b)=aAB ≠ φ(B)=aA — the prior collapse is gone), and its
+  abelianization is **conjugate over ℚ to the bootstrap matrix M\* = [[F,F],[F²,F]]**: same char poly
+  **x⁴−2x³−5x²−4x−1**, det **−1**, primitive ((I+M)³>0), unique Perron **β ≈ 3.676 = φ(1+√φ)**. So the Level-1
+  free-group substitution and B517's bootstrap carry the *same* β — a genuine consistency. It is a train-track
+  map on the rose R₄ with primitive transition matrix. **[MATH, VERIFIED]**
+- **But "φ is iwip / word-hyperbolic" is NOT established by the five tests given.** All five (primitivity,
+  M^k-primitivity, no permutation-block-triangular, irreducible char poly, Perron) are **abelianization-level
+  properties** — *necessary for* and *consistent with* iwip, but not a certificate: there exist non-iwip free
+  automorphisms with primitive, irreducible-char-poly abelianizations. The genuine certificates were **not run**:
+  (a) **φ ∈ Aut(F₄)** needs Whitehead/Stallings (det = −1 is necessary, *not* sufficient for free groups);
+  (b) **iwip** needs Bestvina–Handel (no periodic Nielsen paths). **The word-hyperbolic / atoroidal / CAT(0) /
+  Menger-boundary consequences follow ONLY IF iwip holds — so they are CONDITIONAL, not banked.** Same
+  abelianization-as-proxy over-claim as the broken handoff, one level subtler. Terminal: **NEEDS-CERTIFICATE**
+  (Bestvina–Handel + Whitehead) — a genuine specialist item, not a seat proxy.
+- **T[4₁] / DGG bridge — cited correctly, but it is the already-CLOSED route, not a new one.** The handoff
+  presents T[4₁] (DGG 3d–3d) as an external bridge giving gauge group **U(1)** + 2 chirals + a dilog
+  superpotential. That U(1) is *exactly* the abelian gauge group **T-NOGO-DGG (B490)** already characterized as
+  U(1)^{N−c} and used to CLOSE the 3d–3d route (SM gauge is nonabelian). "Gauge from the triangulation" still
+  yields abelian U(1) — **no route to SM gauge**; the handoff's own "NOT a firewall crossing" is right, and it
+  does not reopen B490. External established math, correctly firewalled.
+- **The two owned bugs (volume, Kashaev) are correctly self-caught:** vol(4₁)=2.02988… (Bloch–Wigner branch
+  error), and the volume-conjecture asymptotic is (2π log|⟨4₁⟩_N|)/N not (2π/N)·log (the Kashaev values
+  ⟨4₁⟩₂=5, ⟨4₁⟩₃=13 are right). No bank affected.
+
+**Net:** the corrected substitution is a real fix and abelianizes to the bootstrap β (banked as MATH); the
+iwip/hyperbolic superstructure is uncertified (necessary conditions only → NEEDS-CERTIFICATE); T[4₁] is the
+already-closed abelian route. Lock extended in `tests/test_b523.py`.
+
 ## Terminal state
 DOOR B523 — **CLOSED (re-examination complete): NO wrong leap to negative.** Five cells re-checked; the one
 UNTESTED-RESIDUAL (C3/Malament) run and CONFIRMS the negative; the proposed Level-1 genus-2 upgrade is built

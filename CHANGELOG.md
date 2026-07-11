@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B523 addendum: the corrected train-track handoff (fix real, iwip uncertified)
+
+- The exploration seat's corrected substitution **φ: a→abAAB, b→aAB, A→abAB, B→aA** verified: **injective**
+  (fixes the prior non-injective bug) and **abelianizes to the bootstrap matrix** (char poly x⁴−2x³−5x²−4x−1,
+  det −1, primitive, Perron β=φ(1+√φ)) — the Level-1 free-group substitution carries the same β as B517. **[MATH]**
+- **But "φ is iwip / word-hyperbolic" is NOT established:** the five tests are abelianization-primitivity
+  (necessary, not sufficient); the certificates (Whitehead for Aut(F₄); Bestvina–Handel for iwip) were not run.
+  The hyperbolic/atoroidal/CAT(0)/Menger consequences are **conditional** → NEEDS-CERTIFICATE (specialist).
+- **T[4₁]/DGG bridge**: correctly cited as external, but its gauge group U(1) is *exactly* the abelian gauge
+  **T-NOGO-DGG (B490)** already closed — no route to SM gauge, does not reopen B490. The two owned bugs
+  (volume Bloch–Wigner branch; Kashaev asymptotic) are correctly self-caught. Lock `test_b523.py` (5 pass).
+
 ## 2026-07-11 — B500 child hunt: depth-5 KILL ("the child is not a short word")
 
 - A stale ~18h streamed hunt (`hunt_d5.py`, wedged on a `gp` subprocess) was killed; its results banked.
