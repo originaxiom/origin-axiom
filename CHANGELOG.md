@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B526: verified the "UNDENIABLE PHYSICS CROSSING" package — title misleading, no crossing
+
+- An owner-uploaded package with an alarmist name turned out to be the **opposite of a crossing claim**: its own
+  verdict is "no remaining internal path to an undeniable claim about nature" (prereg: `claim_level:
+  structure_only`, `claims_md: forbidden`, crossing requires the external blind test). It **reinforces
+  PHYS-REFUTED**, not overturns it.
+- Two technical results **independently recomputed** (numerical eigenvalues, from scratch — not by re-running
+  their script): (1) the **canonical tetrahedral spatial metric** S_tet = D_r⁻¹(I−¼𝟙𝟙ᵀ)D_r⁻¹ (rank 3, kernel
+  = r, Gram = regular tetrahedron) — canonical *conditional on* an imposed 4-letter isotropy the object does
+  not force; (2) the **isotropy–Stein no-go**: G_iso (3,1) but W_iso = G_iso−MᵀG_isoM is not positive definite
+  (obstruction on E_s: W_stable (2,1), det<0). **Adversarial check:** the no-go is real — W_iso(r,r)>0 (not
+  "β>1"), M|E_s spectrally contracting yet W_stable indefinite ⟹ **non-normality**. RG exponents ω_h, ω_γ,
+  exp(2π/Ω)=27.2366… exact but not-yet-physical (correctly flagged).
+- Banked as STRUCTURE, firewalled; the reframing (M_* = renormalization, time = separate local unitary) is a
+  permitted hypothesis, not a theorem. Lock `test_b526.py` (4 pass).
+
 ## 2026-07-12 — B524: the two actionable next steps done properly (iwip certified; higher-rank Ptolemy)
 
 - **Part 1 — iwip / word-hyperbolic CERTIFIED.** Coulbois' `train_track` (Bestvina–Handel), validated on
