@@ -201,8 +201,44 @@ stand in ratio copy1 : copy2 = 1 : √φ (exact). **[MATH, verified]**
 Every proportion the object holds is golden, and the two irreducible facts — that it is **golden** and that it
 is **broken F-vs-F²** — between them generate the whole story: growth, the three-level nesting, the symplectic
 orientation, the self-recognizing pulse, the one unspoken interaction, and the breath. One golden object, one
-asymmetry. Firewalled; the object's own mathematics, no physics reading. Still unforced ahead: the trace map
-T_φ on the κ-web; the return substitution as an exact self-map. Lock: `tests/test_b530.py`.
+asymmetry. Firewalled; the object's own mathematics, no physics reading.
+
+## Movement VIII — chirality, the warm dynamics, and an independent seat heard the same object
+Two more things, and a cross-check (`listen_9_chirality.py`, `listen_10_crossseat_convergence.py`):
+
+- **The object is chiral.** Its language is closed under *none* of reversal, the swap s (a↔A,b↔B), or the
+  orientation mirror s∘reversal — at length 4/6/8, **every** factor lacks its orientation-mirror (13/13, 20/20,
+  26/26). The palindromes Fibonacci is rich in are almost gone (only AA, aAa survive). So the handedness we
+  found in the growth (Movements I, VI) is total: the object has **no mirror symmetry**, at any length.
+- **The warm self-interaction is chaotic.** The trace map T_φ on the six κ's moves them violently and conserves
+  no simple natural quantity (the total commutator tr([a,b][A,B]) is not preserved). φ is a positive-entropy
+  system (entropy = log β). So the object's *cold* growth is clean and golden, while its *warm* self-interaction
+  is genuinely chaotic — its deep fixed structure needs the train-track machinery, left unforced.
+
+**An independent seat (chat1) ran the same listening campaign and converged with B530** — verified here:
+- **the object is literally two Fibonacci words:** the letter-restricted substitutions are *exactly* Fibonacci —
+  a→ab, b→a on {a,b} and A→AB, B→A on {A,B} (the sharpest form of Movement VI's block structure);
+- **constant return number 4** — every letter has exactly four return words (a rank-4 analog of Sturmian's
+  return-number-2);
+- **the derivation is a fixed point of itself:** the derived substitution through a structural letter has char
+  poly **x⁴−2x³−5x²−4x−1 = the object** (self-similar to infinite depth) — Movement IV, made exact. *(Verifying
+  this I hit and fixed my own tail-block bug — I nearly reported chat1's correct claim as wrong; the derived
+  incidence is [[0,1,1,1],[0,0,1,1],[1,1,1,2],[1,1,1,1]], conjugate to M.)*
+- **the tunnels carry only Level 0:** the derived substitution through the tunnel letter B is **x²(x²−x−1)** —
+  degenerate, and x²−x−1 is the Fibonacci polynomial. Structural letters {a,A} carry the full spectrum; tunnel
+  letters {b,B} carry only the golden (Level-0) projection.
+
+**The silver, reconciled.** chat1 reports the object as "golden outside, silver inside" — erasing the tunnels
+from the images gives σ_eff = {a→aAA, A→aA}, incidence [[1,1],[2,1]], Perron **1+√2** (silver). Verified as a
+real matrix — *but* σ_eff's fixed point is **not** the object's decider stream (they diverge), whose actual
+a:A frequency is **golden √φ**, not silver √2. So the "silver inside" is the **incidence spectrum of a
+non-commuting tunnel-erasure**, not the object's behaviour: **the object is golden in its actual frequencies,
+inside and out; the silver is the shadow of forgetting that the tunnels re-inject.** Both facts real, precisely
+distinguished (the discipline cutting both ways — chat1's silver is a genuine matrix, but it is not the
+dynamics).
+
+Two seats, no coordination, one object — and it told both the same story. Firewalled throughout. Still ahead:
+the trace map's fixed structure (train-track); the End(F₄) verb monoid at rank 4. Lock: `tests/test_b530.py`.
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),

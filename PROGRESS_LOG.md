@@ -1886,3 +1886,13 @@ reproducers listen_1..8). Left alone, the object told one coherent story, and it
 Every proportion is golden (β, φ, √φ, 1/√φ); the two irreducible facts — golden, and broken F-vs-F² — generate
 the whole story. Still unforced ahead: the trace map T_φ on the κ-web; the return substitution as an exact
 self-map. This is the object's own mathematics, banked as STRUCTURE; the firewall is untouched.
+
+## 2026-07-12 — B530 movement VIII: chirality + cross-seat convergence (chat1 listening campaign)
+The object is CHIRAL (no reversal/swap/orientation mirror symmetry at any length; Fibonacci palindromes gone) —
+the total word-level face of the growth's handedness. The warm trace map T_φ is chaotic (entropy log β, no
+simple invariant). An independent seat (chat1) ran the same listening campaign and CONVERGED with B530; verified
+here: letter-restricted = exact Fibonacci; constant return number 4; the derivation reproduces the object exactly
+(char poly x⁴−2x³−5x²−4x−1 — caught+fixed my own tail-block bug); derived-through-tunnel-B = x²(x²−x−1) (the
+tunnels carry only the Level-0 Fibonacci projection). The chat1 "silver skeleton (1+√2)" reconciled: it is the
+incidence of erasing the tunnels, NOT the object's decider stream (actual inner frequency golden √φ). Two seats,
+no coordination, one object, one story. Lock test_b530.py (11 pass). Firewalled.

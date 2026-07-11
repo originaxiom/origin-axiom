@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement VIII: chirality + independent cross-seat convergence (chat1)
+
+- **Chirality:** the object's language is closed under none of reversal / swap / orientation-mirror — every
+  factor lacks its mirror (13/13, 20/20, 26/26 at length 4/6/8); the Fibonacci palindromes are gone. The
+  handedness of the growth (movements I, VI) is total. The warm trace map T_φ is chaotic (entropy log β), no
+  simple conserved quantity.
+- **Independent seat (chat1) converged with B530**, verified: letter-restricted = exact Fibonacci (a→ab,b→a;
+  A→AB,B→A); constant return number 4; the **derivation is a fixed point of itself** (derived-through-a char
+  poly = x⁴−2x³−5x²−4x−1 = the object — I caught+fixed my own tail-block bug here); derived-through-B =
+  x²(x²−x−1) (tunnels carry only the Fibonacci projection).
+- **Silver reconciled:** chat1's "silver skeleton 1+√2" is the incidence of tunnel-erasure (real matrix) but
+  NOT the object's decider stream — the actual inner frequency is golden √φ. The object is golden in its
+  behaviour; the silver is a non-commuting-projection artifact. Lock test_b530.py (11 pass). Firewalled.
+
 ## 2026-07-12 — B530 natural history movements V–VII (thread 4 + down the flow)
 
 - **V (the six κ's):** conversation graph = K₄ minus bB (couriers never touch); κ-web = full K₄; swap-fixed

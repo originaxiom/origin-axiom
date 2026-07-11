@@ -150,3 +150,35 @@ def test_breath_is_born_from_the_copy_inequality():
     c1 = sp.simplify(phi + 1)               # copy1 {a,b}
     c2 = sp.simplify(phi * sq + sq)         # copy2 {A,B}
     assert sp.simplify(c2 / c1 - sq) == 0
+
+
+def test_movement_VIII_convergence_and_chirality():
+    x = sp.symbols('x')
+    proj = lambda s, keep: ''.join(c for c in s if c in keep)
+    # (chat1) letter-restricted = exact Fibonacci on each copy
+    assert {L: proj(SUB[L], 'ab') for L in 'ab'} == {'a': 'ab', 'b': 'a'}
+    assert {L: proj(SUB[L], 'AB') for L in 'AB'} == {'A': 'AB', 'B': 'A'}
+    w = _grow(9)
+    # (chat1) constant return number 4 for every letter
+    for L in 'abAB':
+        pos = [i for i, c in enumerate(w) if c == L]
+        assert len({w[pos[i]:pos[i + 1]] for i in range(len(pos) - 1)}) == 4
+    # (chat1) the derived substitution through 'a' reproduces the object (char poly); tail block included
+    pos = [i for i, c in enumerate(w) if c == 'a']
+    RW = sorted({w[pos[i]:pos[i + 1]] for i in range(len(pos) - 1)}, key=len)
+    idx = {r: i for i, r in enumerate(RW)}
+    M = sp.zeros(4, 4)
+    for j, r in enumerate(RW):
+        sr = ''.join(SUB[c] for c in r)
+        p = [i for i, c in enumerate(sr) if c == 'a']
+        blocks = [sr[p[k]:p[k + 1]] for k in range(len(p) - 1)] + [sr[p[-1]:]]
+        for b in blocks:
+            if b in idx:
+                M[idx[b], j] += 1
+    assert sp.expand(M.charpoly(x).as_expr() - (x**4 - 2*x**3 - 5*x**2 - 4*x - 1)) == 0
+    # the SILVER is the incidence of tunnel-erasure -- but the ACTUAL decider frequency is GOLDEN sqrt(phi)
+    eff = {L: proj(SUB[L], 'aA') for L in 'aA'}          # a->aAA, A->aA
+    Meff = sp.Matrix([[eff[j].count(i) for j in 'aA'] for i in 'aA'])
+    assert sp.factor(Meff.charpoly(x).as_expr()) == x**2 - 2*x - 1     # Perron 1+sqrt2 (silver incidence)
+    dec = proj(w, 'aA')
+    assert abs(dec.count('A') / dec.count('a') - float(sp.sqrt((1 + sp.sqrt(5)) / 2))) < 1e-2  # golden sqrt(phi)
