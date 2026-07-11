@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B531: Trace-Map Gate Campaign (T1+T2+T3+TZ)
+
+- **T1 — Gap-opening slopes to depth 12** via partial eigendecomposition (N up to 8.1M).
+  Gaps 1–2 converge: **s₁ = 0.1914, s₂ = 0.1524, s₁/s₂ = 1.2565** (corrects handoff's 0.184,
+  0.153, 1.204). **Gap 3 has a period-2 oscillation**: s₃ = 0.1244 (even depths) / 0.1539 (odd),
+  Cesàro = 0.1392. The mechanism: λ₂ ≈ −0.440 (negative contracting eigenvalue).
+- **T2 — Control** (Arnoux-Rauzy 4-letter): even/odd alternation is GENERIC to 4-letter Pisot
+  substitutions with negative contracting eigenvalue. But the CLEAN period-2 (σ ≈ 0) is SPECIFIC
+  to our substitution; the control's oscillation is messier (period-4 effects from complex eigenvalues).
+- **T3 — Fourier projection**: |V̂(α)| at gap frequencies correctly predicts the slope ordering
+  (|V̂₁| > |V̂₂| > |V̂₃|). Slopes ≈ 2.1× Fourier amplitude with a 12% gap-dependent DOS correction.
+  Gap 1 is the strongest Bragg peak in the entire Fourier spectrum.
+- 15 new locks (51 total with B530).
+
 ## 2026-07-12 — B530 movement XXXIII: gap-opening curves verified (SELF-CORRECTED)
 
 - Verified the gate handoff's gap-opening slopes and saturation values.
