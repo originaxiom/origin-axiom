@@ -405,6 +405,33 @@ The still-open certificate (unchanged from XIII): the overlap / balanced-pair co
 discrete spectrum. De-risked further here (explicit disjoint tile); still not certified. Cross-refs:
 [[quasicrystal-bridge-status]] (Level-0 bridge; this is the Level-1 tile).
 
+## Movement XV — the certificate: pure discrete spectrum, PROVEN (XIII upgraded)
+Movement XIII left the quasicrystal reading *theory-indicated* (strong coincidence + the Pisot conjecture) with
+the balanced-pair certificate flagged as the specialist-grade proof. **That certificate is now run and passes**
+(`listen_17_discrete_spectrum_certificate.py`).
+
+The **balanced pair algorithm** (Sirvent–Solomyak; Barge–Diamond) decides pure discrete spectrum for a Pisot
+substitution: seed with the occurring adjacent-block transpositions (σaσb, σbσa), close under σ-and-decompose,
+and check that every reachable non-coincidence balanced pair eventually **produces a coincidence** (that is the
+right criterion — *not* "no cycle": Fibonacci has a persistent non-coincidence cycle yet is discrete, because a
+coincidence is emitted every step). The one implementation subtlety — restricting to balanced pairs whose words
+**occur in the fixed point** — is what keeps the reachable set finite.
+
+**Validated on five controls before trusting it** (the discipline that earns the verdict):
+- Fibonacci, Tribonacci, period-doubling → **discrete** (True);
+- Thue–Morse, Chacon (weakly mixing) → **not discrete** (False).
+
+**The object: pure discrete spectrum = TRUE** — 106 reachable balanced pairs, **0 bad**, and *robust*: identical
+verdict at length bounds 200/400/800, with the longest reachable word only **106** (well under every bound → no
+truncation, the closure is genuinely complete). So the object is a **proven quasicrystal**: measurably a rotation
+on 𝕋³, its Rauzy fractal (movement XIV) the fundamental domain, its diffraction pure Bragg. **Movement XIII is
+upgraded from theory-indicated to computed.** **[MATH, computed + validated on 5 controls]**
+
+Honest caveat (kept): this is an in-sandbox implementation of a published algorithm, validated on five controls
+— not a run of a peer-reviewed library. Independent/library confirmation would fully close it; but the object's
+pure discrete spectrum is now a *computed* fact here, no longer merely conjectural. Cross-refs:
+[[quasicrystal-bridge-status]] (the Level-1 quasicrystal, now certified).
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

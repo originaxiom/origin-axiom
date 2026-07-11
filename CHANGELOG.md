@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XV: pure discrete spectrum PROVEN (the balanced-pair certificate)
+
+- The certificate flagged in XIII/XIV is now run (`listen_17_discrete_spectrum_certificate.py`). The **balanced
+  pair algorithm** (Sirvent–Solomyak / Barge–Diamond), occurrence-restricted to keep the reachable set finite,
+  decides pure discrete spectrum. The right criterion is "every reachable non-coincidence pair eventually emits a
+  coincidence" — *not* "no cycle" (Fibonacci has a persistent non-coincidence cycle yet is discrete).
+- **Validated on 5 controls:** Fibonacci, Tribonacci, period-doubling → discrete; Thue–Morse, Chacon → not.
+- **The object: pure discrete spectrum = TRUE**, 106 balanced pairs, 0 bad, robust to length bound 200/400/800
+  (longest reachable word 106 → no truncation). So the object is a **proven quasicrystal** (measurably a rotation
+  on 𝕋³). **Movement XIII upgraded theory-indicated → computed.** Honest caveat: in-sandbox implementation
+  validated on 5 controls, not a peer-reviewed library run. Lock test_b530.py (19 pass).
+
 ## 2026-07-12 — B530 movement XIV: the explicit 3-d Rauzy fractal
 
 - Movement XIII said quasicrystal; XIV **builds the tile** (`listen_16_rauzy_fractal.py` + `rauzy_fractal.png`).
