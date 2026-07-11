@@ -197,3 +197,21 @@ def test_movement_IX_firewall_in_the_arithmetic():
     assert not reducible_over(-7)     # chirality field ABSENT
     # disc -400 = -(20^2) => Q(sqrt(disc)) = Q(i): the Gaussian imaginary subfield (the breath), not Eisenstein
     assert sp.sqrt(sp.Integer(-400)) == 20 * sp.I
+
+
+def test_movement_X_neutral_census_flat_and_all():
+    # the flat invariants, banked with the same care (the anti-anticipation discipline).
+    from sympy.matrices.normalforms import smith_normal_form
+    M = sp.Matrix([[SUB[j].count(i) for j in 'abAB'] for i in 'abAB'])
+    S = smith_normal_form(M, domain=sp.ZZ)
+    assert [abs(S[i, i]) for i in range(4)] == [1, 1, 1, 1]        # trivial ZZ-module (unimodular, no torsion)
+    assert M.det() == -1
+    # special factors: max out-degree 2 for length >= 2 (minimal branching above Sturmian); p(n) increments 3/4
+    w = _grow(8)
+    p = []
+    for k in (1, 2, 3, 4, 5, 6):
+        facs = {w[i:i + k] for i in range(len(w) - k)}
+        p.append(len(facs))
+        maxdeg = max(len({w[i + k] for i in range(len(w) - k) if w[i:i + k] == f}) for f in facs)
+        assert maxdeg == (3 if k == 1 else 2)
+    assert p == [4, 7, 10, 13, 17, 20]                             # p(n): increments 3,3,3,4,3 ~ 3n+1

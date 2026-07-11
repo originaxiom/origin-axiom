@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement X: the listening method registered + a neutral census (report the flat)
+
+- **METHOD.md registered** (owner-approved posture): proper listening without anticipation = a neutral,
+  complete invariant-census, **reporting flat invariants as faithfully as rich ones** (curating toward the
+  interesting ones is the subtlest anticipation); no target/prereg/verdict; depth led by the object; the
+  discipline (compute the discriminating fact, firewall, cross-seat verify, both currents) throughout.
+- **Neutral census pass 1** (flat and all): balance = 3 (mildly above Sturmian); Smith normal form of M =
+  diag(1,1,1,1) (unimodular ℤ⁴-automorphism, no torsion — reconfirms φ∈Aut); special factors max out-degree 2
+  for n≥2, p(n)≈3n+1 (minimal branching above Sturmian). None a gem — and banking the flat with the same care
+  IS the method certifying itself. Lock test_b530.py (13 pass).
+
 ## 2026-07-12 — B530 movement IX (upstream): the firewall is visible in the object's own arithmetic
 
 - The coupled golden double's growth char poly x⁴−2x³−5x²−4x−1 is a **D₄ quartic, disc −400**. Its splitting
