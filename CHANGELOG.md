@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XX: the old/new coarse-graining (golden ratio kept, simplicity not)
+
+- Neutral checklist item (`listen_22_interleaving_sequence.py`): map each letter to its generation (old {a,b}→0,
+  new {A,B}→1). **new:old = √φ exactly** (freq(new)=√φ/(1+√φ)=0.5599) — the bridge constant survives the
+  coarse-graining. But the interleaving is **NOT Sturmian** (p(2)=4>3, complexity ≈3n, nearly as complex as the
+  object) — a complex morphic word, not the clean golden Sturmian one might have hoped for. Golden *ratio* kept,
+  *simplicity* not; reported flat. Also noted: the deep verb-monoid symmetry (Out(F₄) conjugacy) is NEEDS-
+  train-track, not a matrix check. Lock test_b530.py (24 pass).
+
 ## 2026-07-12 — B530 movement XIX: the golden eigenvalue ladder explained (trace-zero point)
 
 - Movement XVII's loose end resolved (`listen_21_golden_ladder_point.py`). The special fixed point where Dσ*

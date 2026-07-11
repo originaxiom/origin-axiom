@@ -312,7 +312,9 @@ single-point artifact; Level-0 κ-integrability → Level-1 volume-preserving-bu
 the Rauzy tile's **boundary is a fractal surface**, box-dim **≈2.35** (calibrated on Tribonacci), strictly in
 (2,3) → a genuine fractal solid, not a polyhedron (exact contact-matrix value flagged). Movement **XIX**: the
 golden eigenvalue ladder **explained** — it lives at the **trace-zero representation** (every generator order 4,
-twist = primitive 6th root of unity), where Dσ* = {φ,1,−1/φ}⊗{1,ω,ω²} exactly (golden × cube-roots).
+twist = primitive 6th root of unity), where Dσ* = {φ,1,−1/φ}⊗{1,ω,ω²} exactly (golden × cube-roots). Movement
+**XX**: the **interleaving** (old/new coarse-graining) carries new:old = √φ exactly but is NOT Sturmian
+(complexity ≈3n) — golden ratio kept, simplicity not.
 Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
 (self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
 Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:

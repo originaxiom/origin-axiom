@@ -518,6 +518,22 @@ signature of the trace-zero representation and its 6th-root-of-unity twist. A si
 symmetric point in the Level-1 floor where the whole spectrum factors into *golden × cube-roots*. **[MATH, exact
 9/9]**
 
+## Movement XX — the old/new coarse-graining: golden ratio kept, simplicity not
+Neutral checklist item (the interleaving). Map each letter to its *generation* — old {a,b}→0, new {A,B}→1 — and
+ask whether the object simplifies when you watch only which generation each letter belongs to
+(`listen_22_interleaving_sequence.py`).
+
+- **The √φ bridge survives.** new:old = **√φ** exactly (freq(new) = √φ/(1+√φ) = 0.5599): each generation is √φ
+  times the previous. The bridge/breath constant is visible in the coarse-graining.
+- **But it is *not* Sturmian.** p(1)=2 yet p(2)=4 (>3), and p(n) ≈ 3n — nearly as complex as the object itself
+  (~3n+1). So the coarse-graining does **not** reduce the object to a simple 1-D golden (Sturmian) sequence; the
+  interleaving is a genuinely complex aperiodic binary word (morphic — a letter-projection of the primitive
+  substitutive object — but not a fixed point of a simple binary substitution, and not Sturmian).
+
+Honest and a little flat: the golden **ratio** is preserved, the **simplicity** is not. A listening without
+anticipation says so plainly — one might have hoped the coarse-graining would be the clean golden Sturmian word;
+it isn't. **[MATH, computed]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.
