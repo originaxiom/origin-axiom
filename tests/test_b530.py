@@ -549,5 +549,7 @@ def test_movement_XXV_the_prime_11_and_deep_listening():
     assert h[0][0] / h[0][1] == 0.5 and h[-1][0] / h[-1][1] > 0.8
     # sublattice coupling ~1.23 bits
     assert abs(mod.sublattice_mi(u) - 1.23) < 0.05
-    # and the handoff's BbB "resonance" is REFUTED (B never recurs at lag 2)
-    assert mod.bbb_refuted(u) == 0.0
+    # the BbB THREE-point resonance is REAL (I false-killed it first by checking the wrong 2-point quantity):
+    # B at i, b at i+2, B at i+4 is ~12x enhanced, always BabAB, straddling a sigma-image boundary
+    ratio, all_babab, straddle = mod.bbb_resonance(u)
+    assert ratio > 10 and all_babab and straddle > 0.99

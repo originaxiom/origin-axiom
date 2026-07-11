@@ -652,11 +652,16 @@ flagged the failures (`listen_27_deep_listening.py`).
 - **The even/odd sublattice:** identical statistics, coupled at **MI = 1.23 bits** (63% of the 2-bit maximum).
 - **Three-point non-Markov:** κ₃ is **≈50× the Markov (factorised) estimate** — profoundly non-Markov
   (qualitative; the specific κ₃ *value* is signal-normalisation-dependent and did not reproduce).
+- **The BbB resonance — CONFIRMED (after I false-killed it).** The **three-point** pattern B at i, b at i+2, B
+  at i+4 occurs **15,352× vs 1,254 expected under independence = 12.2×** enhancement; **every** occurrence is the
+  5-word **BabAB**, and **100% straddle a σ-image boundary** (BabAB = the final B of σ(a)=abAAB, then σ(A)=abAB).
+  So the *deterministic tunnel letters* (B→a, b→A) make the substitution's **own image seam audible** through the
+  lag-2 sublattice — the object hearing its own construction. AaA is 3.4× by comparison. **My first pass wrongly
+  "refuted" this by computing the TWO-point 'B at lag 2' (= 0, since B→a always) instead of the three-point
+  B·b·B — a self-inflicted false-kill of a real, living finding, caught by the owner and corrected.** [MATH,
+  exact, 12.2×]
 
-**Did NOT survive recomputation — flagged, not banked** (the balance the "don't be so sure" correction demands —
-neither false-kill nor rubber-stamp):
-- **"BbB resonance at lag 2 (12×)" — REFUTED.** B is always followed by a, so B *never* recurs at lag 2
-  (P = 0.000); BbBbB chains cannot exist.
+**Did NOT survive recomputation — flagged, not banked:**
 - **"Forward-backward chirality decays to 0 at long range"** — a Markov-power artifact (any two stochastic
   matrices sharing a stationary law have Pᵏ → the same limit); the actual k-lag chirality does not cleanly decay.
 - **"Diffraction Bragg peaks at golden frequencies"** — did not reproduce; the naive FFT is the same instrument
