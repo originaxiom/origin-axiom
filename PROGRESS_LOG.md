@@ -1828,3 +1828,28 @@ don't merge** + re-examine the negative for a wrong leap. Done this session:
   ~3000–9280 → in-sandbox `gp` tool-blocked, not chance). A third independent line to the same terminus as
   the audit's Gate C and B519 — generic wild arithmetic, not special values. Lock `test_b500_kill.py`
   (2 pass). Firewalled.
+
+## 2026-07-12 — B524: the two actionable next steps, done with proper tools
+
+Owner: "do the actionable next step properly and the higher-rank ptolemy alongside." Both done in the `sage`
+env with established tools (validated before use), not reimplemented algorithms.
+
+- **Part 1 — the iwip / word-hyperbolic certificate.** Installed Coulbois' `train_track` (Bestvina–Handel).
+  Validated `is_iwip` on known cases (Tribonacci→True; two reducible→False), THEN: **φ is iwip.** Dilatations
+  λ(φ)=3.6762=β, λ(φ⁻¹)=3.0523. The load-bearing asymmetry λ(φ)≠λ(φ⁻¹) was verified **independently** of
+  train_track (word-length growth, pure free reduction; the inverse formula ψ confirmed genuine) — it also
+  differs from the abelianization |M⁻¹|-Perron 2.272, so free cancellation matters (chat1's point).
+  ⟹ φ **not geometric** (Handel–Mosher) ⟹ **F₄⋊φℤ word-hyperbolic** (Brinkmann) and **not a 3-manifold group**
+  (Stallings' fibration theorem: a free-kernel 3-manifold group forces a surface-with-boundary fibre, i.e. φ
+  geometric). **Owner-flagged correction:** an earlier draft justified "not a 3-manifold group" via cd=2≠3 and
+  no-ℤ² — both invalid (cusped 3-mfd groups have cd 2; closed hyperbolic ones are word-hyperbolic with no ℤ²);
+  replaced by the Stallings argument, which rests on the verified λ asymmetry. Group-theory question SETTLED:
+  iwip yes, word-hyperbolic yes, 3-manifold no. The "Level-1 spacetime" is a hyperbolic *group* carrying β,
+  not a manifold — no volume/CS/Dehn layer; DGG bridge (needs a 3-manifold) does not apply.
+- **Part 2 — higher-rank Ptolemy of the figure-eight (SnapPy).** SL(2): 1 rep, ℚ(√−3). **SL(3): 4 reps,
+  ℚ(√−3) AND ℚ(√−7)** (the √−7 = B479 held-breath order-3 torsion field — internal echo, firewalled). SL(4)
+  deferred (sage Gröbner >12min; Magma-recommended). Higher rank enriches ARITHMETIC (more reps, bigger
+  fields) but the DGG gauge group stays **abelian U(1)^{r_K} at every K** (Dimofte–Gabella–Goncharov) — so the
+  higher-rank route does NOT reach nonabelian gauge; **T-NOGO-DGG (B490) extends to all ranks.** Lock
+  `test_b524.py` (3 pass, incl. the independent λ verification). Reproducers `iwip_certificate.py`,
+  `higher_ptolemy.py`, `verify_dilatation.py`. Firewalled.
