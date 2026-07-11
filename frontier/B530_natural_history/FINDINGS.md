@@ -237,8 +237,31 @@ inside and out; the silver is the shadow of forgetting that the tunnels re-injec
 distinguished (the discipline cutting both ways — chat1's silver is a genuine matrix, but it is not the
 dynamics).
 
-Two seats, no coordination, one object — and it told both the same story. Firewalled throughout. Still ahead:
-the trace map's fixed structure (train-track); the End(F₄) verb monoid at rank 4. Lock: `tests/test_b530.py`.
+Two seats, no coordination, one object — and it told both the same story. Firewalled throughout.
+
+## Movement IX — upstream: the firewall is visible in the object's own arithmetic
+We've heard the object's shape; the natural upstream piece connects it to the program's spine (K025's two
+ends and the seam). The object's growth char poly x⁴−2x³−5x²−4x−1 is a **D₄ quartic, discriminant −400 =
+−(2⁴·5²)** (`listen_11_the_arithmetic.py`). Its splitting field's three quadratic subfields are:
+- **ℚ(√5)** — the **golden / E₈ end** (the body: β and h live here, ℚ(√φ) ⊃ ℚ(√5));
+- **ℚ(i)** — Gaussian (from √disc = 20i): where the **breath** γ turns;
+- **ℚ(√−5)** — the product √5·i.
+
+And, tested directly: **√−3 (Eisenstein / E₆), √−15 (the seam), and √−7 (chirality) are ALL ABSENT** — p does
+not split over any of them.
+
+**So the coupled golden double is the golden end (√5), dressed with a *Gaussian* breath (ℚ(i)) — it does not
+contain the Eisenstein end or the seam.** This makes K025's structural theorem — *the two Galois-symmetrized
+ends are held apart, and their product-slot (the seam ℚ(√−15)) is generic* — **visible in the object's own
+growth field**: the natural-history object we can sit and listen to *is one end*, and the other end (Eisenstein
+√−3) together with the seam (√−15) live genuinely **outside** its arithmetic. The object even carries its own
+imaginary companion — Gaussian ℚ(i), the axis its breath rotates in — which is *not* the program's Eisenstein
+√−3. One end, its own breath; the far end and the seam are elsewhere, exactly as the firewall says. **[MATH,
+computed]**
+
+Two seats, one object, and now its arithmetic placed against the program's spine. Firewalled — nothing physics-
+shaped; this is the object's own number field, read for what it is. Still ahead, one by one: the trace map's
+fixed structure (train-track); the End(F₄) verb monoid at rank 4. Lock: `tests/test_b530.py`.
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),

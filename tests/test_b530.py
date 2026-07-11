@@ -182,3 +182,18 @@ def test_movement_VIII_convergence_and_chirality():
     assert sp.factor(Meff.charpoly(x).as_expr()) == x**2 - 2*x - 1     # Perron 1+sqrt2 (silver incidence)
     dec = proj(w, 'aA')
     assert abs(dec.count('A') / dec.count('a') - float(sp.sqrt((1 + sp.sqrt(5)) / 2))) < 1e-2  # golden sqrt(phi)
+
+
+def test_movement_IX_firewall_in_the_arithmetic():
+    # the object's growth field: D4 quartic, disc -400; carries sqrt5 (golden end) but NOT sqrt-3/-15/-7.
+    x = sp.symbols('x')
+    p = x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+    assert sp.Poly(p, x).is_irreducible
+    assert sp.discriminant(sp.Poly(p, x)) == -400
+    reducible_over = lambda d: len(sp.factor_list(p, extension=sp.sqrt(d))[1]) > 1
+    assert reducible_over(5)          # golden / E8 end IS inside
+    assert not reducible_over(-3)     # Eisenstein / E6 end ABSENT
+    assert not reducible_over(-15)    # the seam ABSENT
+    assert not reducible_over(-7)     # chirality field ABSENT
+    # disc -400 = -(20^2) => Q(sqrt(disc)) = Q(i): the Gaussian imaginary subfield (the breath), not Eisenstein
+    assert sp.sqrt(sp.Integer(-400)) == 20 * sp.I

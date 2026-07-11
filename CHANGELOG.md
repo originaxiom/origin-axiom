@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement IX (upstream): the firewall is visible in the object's own arithmetic
+
+- The coupled golden double's growth char poly x⁴−2x³−5x²−4x−1 is a **D₄ quartic, disc −400**. Its splitting
+  field's three quadratic subfields are **ℚ(√5)** (golden/E₈ end — the body), **ℚ(i)** (Gaussian — the breath),
+  **ℚ(√−5)**. Tested directly: **√−3 (Eisenstein/E₆), √−15 (seam), √−7 (chirality) are ABSENT**.
+- So the natural-history object *is* the golden end dressed with a Gaussian breath; the Eisenstein end and the
+  seam live OUTSIDE its arithmetic — **K025's "two ends held apart" made visible in the object's own growth
+  field.** Firewalled. Lock test_b530.py (12 pass).
+
 ## 2026-07-12 — B530 movement VIII: chirality + independent cross-seat convergence (chat1)
 
 - **Chirality:** the object's language is closed under none of reversal / swap / orientation-mirror — every

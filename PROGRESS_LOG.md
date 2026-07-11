@@ -1896,3 +1896,10 @@ here: letter-restricted = exact Fibonacci; constant return number 4; the derivat
 tunnels carry only the Level-0 Fibonacci projection). The chat1 "silver skeleton (1+√2)" reconciled: it is the
 incidence of erasing the tunnels, NOT the object's decider stream (actual inner frequency golden √φ). Two seats,
 no coordination, one object, one story. Lock test_b530.py (11 pass). Firewalled.
+
+## 2026-07-12 — B530 movement IX (upstream): the firewall in the object's arithmetic
+The object's growth char poly x⁴−2x³−5x²−4x−1 = a D₄ quartic, disc −400; splitting-field quadratic subfields
+ℚ(√5) [golden/E₈ end, the body], ℚ(i) [Gaussian, the breath], ℚ(√−5). √−3 (Eisenstein/E₆), √−15 (seam), √−7
+(chirality) all ABSENT. So the coupled golden double is ONE end (golden) + a Gaussian breath; the Eisenstein
+end and the seam live OUTSIDE it — K025's "two ends held apart" visible in the object's own field. Lock
+test_b530.py (12 pass). Firewalled.
