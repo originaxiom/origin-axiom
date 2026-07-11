@@ -66,17 +66,22 @@ Tool: **SnapPy's `ptolemy` module** (sage engine), on 4₁ (N=2 tetrahedra, c=1 
 - **The representation/arithmetic content grows with rank:** SL(3) yields 4 reps (vs 1 at SL(2)) and brings in
   **ℚ(√−7)** alongside the figure-eight's ℚ(√−3). (The √−7 is a notable internal echo — it is exactly the
   order-3 torsion field of the held-breath law [[B479]]; arithmetic, firewalled.)
-- **But the gauge group stays abelian at every rank.** The DGG 3d–3d theory has gauge group **U(1)^{N−c}=U(1)**
-  at SL(2); the higher-rank theory T_K[M] (Dimofte–Gabella–Goncharov, *K-decompositions and 3d gauge theories*,
-  2014) is built from tetrahedron theories glued by **abelian** gauging — gauge group **U(1)^{r_K}**, a product
-  of U(1)'s, **abelian at every K**. The K-decomposition quiver grows (coords 2→8→20), but the gauge symmetry
-  does not become nonabelian; SL(K)'s nonabelian structure lives in the *matter/quiver*, not the gauge group.
+- **The gauge-group claim is DISPUTED and uncomputed (B525 flagged SHAKY; a second seat contradicts it).**
+  My reading: the DGG 3d–3d *gauge* group is **U(1)^{N−c}=U(1)** at SL(2) (solid, DGG 2011), and the
+  higher-rank T_K[M] (Dimofte–Gabella–Goncharov 2013) is built from tetrahedron theories glued by *abelian*
+  gauging → U(1)^{r_K}, still abelian. The **ROAD-TO-REALITY handoff (2026-07-12) reads the opposite**:
+  U(N−1) *nonabelian* at rank N (U(2) at SL(3), U(3) at SL(4)) — but **generic to every 1-cusped manifold**,
+  hence not object-selected. **Neither seat has computed the actual gauge group of T_N[4₁]** — both cited.
+  My best reconciliation: the U(N−1)/SL(N) is the **structure group of the flat connection** (the character
+  variety), which is *different* from the 3d QFT **gauge group** (abelian in the DGG construction); the
+  handoff likely conflates the two. But given B525's rule — *compute the discriminating fact, don't cite it* —
+  this stays **OPEN**: the discriminating computation is the explicit gauge group of T_N[4₁] (anchored to
+  DGGon 2013), plus the 5₂ SL(3) control the handoff named. **Do not cite "abelian at all K" as settled.**
 
-**Net Part 2:** the higher-rank route chat1 flagged as "where nonabelian gauge could live" does **not** reach
-it — it enriches the *arithmetic* (more reps, bigger fields) while the gauge stays abelian U(1)^r. This
-**extends T-NOGO-DGG (B490) to all ranks**: no rank of the DGG correspondence produces the SM's nonabelian
-gauge; nonabelian gauge would require symmetry enhancement at special loci or a fundamentally different
-construction, not higher K.
+**Net Part 2 (corrected):** higher-rank Ptolemy demonstrably enriches the *arithmetic* (SL(3): 4 reps,
++ℚ(√−7) — independently verified). Whether it reaches *nonabelian gauge* is **UNRESOLVED between two seats
+and uncomputed** — so it neither confirms nor extends T-NOGO-DGG to all ranks. The one solid statement: the
+object does not *select* anything here (the ladder, whichever it is, is DGG-generic to 1-cusped manifolds).
 
 ## Terminal state
 DOOR B524 — **CLOSED (both actionable steps done).** Part 1: iwip + word-hyperbolic **certified** (tool
