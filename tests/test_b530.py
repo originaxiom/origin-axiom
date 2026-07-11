@@ -797,3 +797,64 @@ def test_movement_XXXI_handoff_verification():
             if d > max_disc[k]:
                 max_disc[k] = d
     assert max(max_disc) < 3, f"bounded remainder violated: max = {max(max_disc):.2f}"
+
+
+def test_movement_XXXII_wall_crossing_inventory():
+    """Movement XXXII: gap labels, dynamical zeta, wall-crossing corrections."""
+    import numpy as np
+    import sympy as sp
+
+    M = sp.Matrix([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]])
+    I4 = sp.eye(4)
+
+    # 1. Gap labels = cumulative Perron frequencies (exact)
+    phi = (1 + np.sqrt(5)) / 2
+    sq = np.sqrt(phi)
+    S = phi + 1 + phi * sq + sq
+    assert abs(phi / S - 0.2720) < 5e-4                      # freq(a)
+    assert abs((phi + 1) / S - 0.4401) < 5e-4                # freq(a) + freq(b)
+    assert abs((S - sq) / S - 0.7862) < 5e-4                 # 1 - freq(B)
+
+    M_np = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]], float)
+    evals, evecs = np.linalg.eig(M_np)
+    idx = int(np.argmax(np.abs(evals)))
+    freq = np.abs(evecs[:, idx])
+    freq = freq / freq.sum()
+    assert abs(freq[0] - phi / S) < 1e-10                    # exact match
+    assert abs(freq[1] - 1 / S) < 1e-10
+    assert abs(freq[2] - phi * sq / S) < 1e-10
+    assert abs(freq[3] - sq / S) < 1e-10
+
+    # 2. Dynamical zeta: |det(M^k-I)| values and prime factorizations
+    expected = {
+        1: 11,
+        2: 11,
+        3: 44,
+        4: 319,
+        5: 341,
+        6: 3344,
+        7: 9251,
+        8: 28391,
+        9: 151316,
+        10: 378851,
+        11: 1783661,
+        12: 6206464,
+    }
+    for k, expected_val in expected.items():
+        actual = abs(int((M**k - I4).det()))
+        assert actual == expected_val, f"k={k}: expected {expected_val}, got {actual}"
+
+    # 11 divides all values
+    for k in range(1, 13):
+        assert abs(int((M**k - I4).det())) % 11 == 0, f"11 does not divide |det(M^{k}-I)|"
+
+    # 89 enters at k=8 (parity discriminant prime)
+    for k in range(1, 8):
+        assert abs(int((M**k - I4).det())) % 89 != 0
+    assert abs(int((M**8 - I4).det())) % 89 == 0
+
+    # 101 = f(-3) enters at k=10
+    x = sp.Symbol('x')
+    f = x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+    assert f.subs(x, -3) == 101
+    assert abs(int((M**10 - I4).det())) % 101 == 0
