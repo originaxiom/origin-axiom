@@ -858,3 +858,59 @@ def test_movement_XXXII_wall_crossing_inventory():
     f = x**4 - 2*x**3 - 5*x**2 - 4*x - 1
     assert f.subs(x, -3) == 101
     assert abs(int((M**10 - I4).det())) % 101 == 0
+
+
+def test_movement_XXXIII_gap_opening_curves():
+    """Movement XXXIII: gap-opening slopes, saturation, and corrections."""
+    import numpy as np
+    from scipy.linalg import eigh_tridiagonal
+
+    phi = (1 + np.sqrt(5)) / 2
+    sq = np.sqrt(phi)
+    S = phi + 1 + phi * sq + sq
+    freq = np.array([phi / S, 1 / S, phi * sq / S, sq / S])
+    target_ids = [freq[0], freq[0] + freq[1], freq[0] + freq[1] + freq[2]]
+
+    sub = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}
+    u = 'a'
+    for _ in range(7):
+        u = ''.join(sub[c] for c in u)
+    N = len(u)
+    assert N == 12069
+
+    def spectrum(word, eps):
+        diag = np.array([eps if c in 'AB' else 0.0 for c in word])
+        off = np.ones(len(word) - 1)
+        return np.sort(eigh_tridiagonal(diag, off, eigvals_only=True))
+
+    def gap_w(eigs, tid, window=30):
+        center = int(round(tid * len(eigs)))
+        lo, hi = max(0, center - window), min(len(eigs) - 1, center + window)
+        return float(np.diff(eigs[lo:hi + 1]).max())
+
+    # 1. Saturation at eps=5 matches handoff (verified)
+    eigs5 = spectrum(u, 5.0)
+    sat = [gap_w(eigs5, t) for t in target_ids]
+    assert abs(sat[0] - 1.10) < 0.02
+    assert abs(sat[1] - 2.82) < 0.02
+    assert abs(sat[2] - 0.71) < 0.02
+
+    # 2. All three gaps open linearly (NOT gap3 quadratically)
+    eps_fit = np.array([0.01, 0.02, 0.03, 0.04, 0.05])
+    slopes = []
+    for g in range(3):
+        widths = np.array([gap_w(spectrum(u, e), target_ids[g]) for e in eps_fit])
+        slope = np.sum(eps_fit * widths) / np.sum(eps_fit ** 2)
+        slopes.append(slope)
+    assert slopes[0] > 0.15, f"gap1 slope should be > 0.15, got {slopes[0]}"
+    assert slopes[1] > 0.12, f"gap2 slope should be > 0.12, got {slopes[1]}"
+    assert slopes[2] > 0.12, f"gap3 slope should be > 0.12 (linear, NOT quadratic), got {slopes[2]}"
+
+    # 3. slopes 2 and 3 are nearly equal
+    assert abs(slopes[1] / slopes[2] - 1.0) < 0.05, "slopes 2 and 3 should be nearly equal"
+
+    # 4. slope ratio 1/2 is about 1.25, NOT the handoff's √(1/φ²+1) = 1.176
+    ratio = slopes[0] / slopes[1]
+    assert abs(ratio - 1.25) < 0.1, f"slope ratio should be ~1.25, got {ratio}"
+    golden_claim = np.sqrt(1 / phi ** 2 + 1)
+    assert abs(ratio - golden_claim) > 0.04, "ratio should NOT match √(1/φ²+1) (numerology)"
