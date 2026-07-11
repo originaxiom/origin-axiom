@@ -49,13 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
 ## LAST BANKED (B530 natural history)
-- **B530 movement XXXII (2026-07-12) — wall-crossing inventory verified.** The handoff's frozen
-  predictions independently recomputed: (1) three gap labels = cumulative Perron frequencies
-  (IDS 0.2720, 0.4401, 0.7862), V-independent at 4 potentials — this IS the Bellissard
-  gap-labeling theorem on a primitive substitution; (2) dynamical zeta |det(M^k−I)| for
-  k=1,...,12, all 8 handoff factorizations reproduced exactly, 11 universal, 89 enters at k=8
-  (parity discriminant), 101=f(−3) at k=10. Corrections: recognizability "9"→diameter 7 (XXXI);
-  bounded remainder "~15"→~1.6 (XXXI); mixed-chain gap-opening slopes flagged UNCOMPUTED. 1 lock.
+- **B530 movement XXXIII (2026-07-12) — gap-opening curves verified and corrected.** Gap-opening
+  slopes at N=12069 (depth 7): gap 1 slope ≈ 0.193 (handoff 0.184, ~5% off), gap 2 ≈ 0.155
+  (handoff 0.153, matches), **gap 3 ≈ 0.155 — opens LINEARLY, NOT quadratically** (handoff wrong).
+  slope₂ ≈ slope₃ (ratio 1.0006): NEW structural fact. Slope ratio ≈ 1.25; handoff's
+  √(1/φ²+1)=1.176 identification = numerology, killed. Saturation values at ε=5 all correct.
+  1 lock.
+- **B530 movement XXXII (2026-07-12) — wall-crossing inventory verified.** Three gap labels =
+  cumulative Perron frequencies (Bellissard), V-independent at 4 potentials. Dynamical zeta
+  |det(M^k−I)| for k=1,...,12, all factorizations exact. 1 lock.
 - **B530 movement XXXI (2026-07-12) — handoff verification (5 items).** √13 artifact CONFIRMED
   broken (binary collapse, 5 return words); coupling 293× (not 7×); centered R=3; max disc ~1.6.
   1 lock.

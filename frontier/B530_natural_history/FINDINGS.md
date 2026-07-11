@@ -847,6 +847,62 @@ Two values in the handoff's inventory table repeat errors already corrected in m
 Reproducer: `listen_37_wall_crossing_verification.py`. Lock: `tests/test_b530.py` (35 locks).
 Cross-refs: movement XXV (the prime 11), movement XXX (three fields), movement XXXI (corrections).
 
+## Movement XXXIII — the gap-opening curve, verified and corrected
+
+A third handoff ("from listening to the gate") claims specific gap-opening slopes and an
+experimental protocol. Independently verified (`listen_38_gap_opening_verification.py`).
+
+**1. Gap-opening slopes: TWO CORRECTIONS.**
+The gap widths grow with the old/new potential contrast ε. True linear slopes (fitted from
+ε = 0.01–0.05 at N = 12069, depth 7):
+
+| gap | handoff slope | CC slope | verdict |
+|---|---|---|---|
+| 1 | 0.184 | **0.193** | ~5% off (finite-size convergence not complete) |
+| 2 | 0.153 | **0.155** | matches |
+| 3 | "≈ 0, opens quadratically" | **0.155** | **WRONG — opens linearly** |
+
+**Gap 3 opens linearly, not quadratically.** The handoff's "nearly zero at ε < 0.3" was an
+artifact of insufficient system size or wrong gap identification. At N = 12069 with windowed
+search, gap 3 opens at essentially the same rate as gap 2.
+
+**Structural fact not in handoff:** slope₂ ≈ slope₃ (ratio 1.0006). Gaps 2 and 3 open
+at identical rates; only gap 1 (the strongest) opens faster.
+
+**2. Slope ratio: NUMEROLOGY KILLED.**
+The handoff claims slope₁/slope₂ ≈ 1.204 ≈ √(1/φ²+1). Two problems:
+- Actual ratio ≈ 1.25, not 1.204 (3.5% error).
+- √(1/φ²+1) = 1.176, which doesn't match even the handoff's own 1.204 (2.4% error).
+This is a failed numerological identification. The ratio has no confirmed golden-family form.
+
+**3. Saturation values: VERIFIED.**
+At ε = 5: gap1 = 1.095 (handoff: 1.10), gap2 = 2.821 (handoff: 2.82), gap3 = 0.712
+(handoff: 0.71). All match to < 1%.
+
+**4. Convergence: VERIFIED with caveats.**
+Gaps 1 and 2 converge tightly across system sizes (< 0.4% spread, depths 5–7). Gap 3 shows
+15–20% fluctuation between approximant levels, as the handoff noted. The windowed search
+methodology is correct but gives the same results as fixed-index search at these sizes (the
+handoff's claim about fixed-index failure may apply at larger N).
+
+**5. Experimental protocol: FACTUALLY CORRECT.**
+The substitution rule, two-material assignment, three gap positions, and control experiments
+(periodic, Fibonacci, random) are all correctly described. The protocol is sound photonics.
+
+**6. Three fields + prime hierarchy: ALREADY BANKED (XXX, XXXII).**
+No new verification needed. The three fields (ℚ(√5), ℚ(√−89), the twist) and the prime
+hierarchy (11 universal, 89 at k=8, etc.) are already locked.
+
+**What passes through the gate (corrected):**
+- Three frozen gap labels: 0.272, 0.440, 0.786 in (1/S)·ℤ[φ,√φ] — topological, V-independent.
+- Gap-opening slopes: ≈ 0.193 (gap 1), ≈ 0.155 (gaps 2 and 3, equal).
+- Saturation widths at ε = 5: 1.10, 2.82, 0.71.
+- Dynamical zeta (full prime factorizations, k = 1..12).
+- The slope ratio has NO confirmed exact expression (numerology killed).
+**[MATH, computed]**
+
+Reproducer: `listen_38_gap_opening_verification.py`. Lock: `tests/test_b530.py`.
+
 ## Movement XXV — the deep listening: the prime 11, and what didn't survive
 A second seat's "advanced listening" handoff arrived after the portrait — a dozen new claims. Verified each by
 independent recomputation (held in both directions after the "don't be so sure" correction): banked the exact,

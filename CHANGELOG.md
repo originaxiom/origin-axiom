@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXXIII: gap-opening curves verified and corrected
+
+- Verified the gate handoff's gap-opening slopes and saturation values.
+- **Gap 3 opens LINEARLY (slope ≈ 0.155), NOT quadratically** — handoff wrong; artifact of
+  insufficient system size. Gap 3 and gap 2 open at identical rates (ratio 1.0006).
+- **Gap 1 slope ≈ 0.193** (handoff: 0.184, ~5% off). **Gap 2 slope ≈ 0.155** (handoff: 0.153, matches).
+- **Slope ratio ≈ 1.25** — handoff's √(1/φ²+1)=1.176 identification killed as numerology.
+- Saturation values at ε=5 VERIFIED: 1.10, 2.82, 0.71 (all match to <1%).
+- 36 locks (1 new).
+
 ## 2026-07-12 — B530 movement XXXII: wall-crossing inventory verified
 
 - Verified the wall-crossing handoff — comprehensive inventory of frozen predictions.
