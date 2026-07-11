@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-11 — B500 child hunt: depth-5 KILL ("the child is not a short word")
+
+- A stale ~18h streamed hunt (`hunt_d5.py`, wedged on a `gp` subprocess) was killed; its results banked.
+  **141/150** depth-5 all-three-verb words solved, **zero hits** (no d_K=−283, no field isomorphism, airlock
+  never fired). Pre-registered **KILL fires**: the object does not generate its own child field by any
+  depth-≤5 verb word. The words produce generic wild symmetric Galois groups (S₅–S₁₁); the 9 unfinished are
+  the double-decimation tail (degree ~9280, `gp` tool-blocked). Corroborates the two-seat closure — generic
+  arithmetic, not special values. Lock `test_b500_kill.py` (2 pass).
+
 ## 2026-07-11 — B523: the wrong-leap re-examination (no leap found) + a broken Level-1 handoff
 
 - **B523 (S2):** treated the program's own negative as the thing to break; 5 cells recomputed + classified.
