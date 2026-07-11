@@ -42,7 +42,9 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
   preserves **volume** (|det|=1) but **no symplectic/Poisson form** (preserved-form dim 1,0,0,0 across 4 fixed
   points). The handoff's "rank-4 form" refuted as a single-point artifact. Level-0 κ-integrability → Level-1
   volume-preserving-but-non-symplectic.
-- **OPEN** (to cover, neutrally, one by one): the Rauzy fractal's **boundary dimension / neighbour graph**; the
-  End(F₄) **verb monoid** full classification; recurrence / repetitivity constants; the interleaving sequence's
-  own substitution (S-adic?); the special-fixed-point golden eigenvalue ladder (why does one fixed point carry
-  |λ|∈{1/φ,1,φ}×3?).
+- **DONE** (movement XVIII): the Rauzy tile's **boundary dimension** ≈ 2.35 (box-count, calibrated on
+  Tribonacci) — strictly in (2,3), a fractal solid. Exact contact-matrix value flagged.
+- **OPEN** (to cover, neutrally, one by one): the exact boundary dimension via the **contact/boundary
+  substitution matrix** (Siegel–Thuswaldner); the End(F₄) **verb monoid** full classification; recurrence /
+  repetitivity constants; the interleaving sequence's own substitution (S-adic?); the special-fixed-point golden
+  eigenvalue ladder (why does one fixed point carry |λ|∈{1/φ,1,φ}×3?).

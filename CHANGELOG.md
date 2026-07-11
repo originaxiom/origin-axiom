@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XVIII: the Rauzy tile's boundary is a fractal surface (≈2.35)
+
+- Closing the quasicrystal geometry (`listen_20_rauzy_boundary_dimension.py`). The tile has dimension 3 (tiles ℝ³,
+  movement XIV); its **boundary** is a self-affine fractal surface. Box-counting calibrated on the Tribonacci
+  Rauzy fractal (recovers the known boundary dim ≈1.0933 as 1.076–1.10) gives the object's boundary
+  **≈2.35** (raw 2.29–2.35, bias-corrected 2.33–2.38) — **strictly between 2 and 3**. So the quasicrystal tile
+  is a **genuine fractal solid, not a polyhedron**.
+- Honest scope: box-counting estimate (3-d sampling-biased low — full-fractal control reads 2.59 vs 3.0); the
+  exact value = log ρ/log β via the boundary/contact substitution matrix (Siegel–Thuswaldner) is flagged, not
+  computed. Robust fact: dimension strictly in (2,3). Lock test_b530.py (22 pass).
+
 ## 2026-07-12 — B530 movement XVII: Path B resolved — volume preserved, no symplectic structure
 
 - The handoff's Path B ("σ* preserves a rank-4 form, replacing Level-0's κ") computed at multiple points and

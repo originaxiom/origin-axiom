@@ -484,6 +484,23 @@ transition is *integrable → volume-preserving-but-non-integrable*: the object'
 symplectic structure precisely when it stops being a surface mapping class. (A genuine structural finding, and a
 correction of the handoff's Path B — the discipline of computing at more than one point earning its keep.)
 
+## Movement XVIII — the Rauzy tile's boundary is a fractal surface (≈ 2.35)
+Closing out the quasicrystal geometry: the *boundary* of the Rauzy fractal
+(`listen_20_rauzy_boundary_dimension.py`). The tile itself has dimension 3 (it tiles ℝ³, movement XIV); its
+boundary is the interesting object — a self-affine fractal **surface**.
+
+Box-counting it (occupied boxes with an empty face-neighbour), with the method **calibrated on the Tribonacci
+Rauzy fractal** (published boundary dimension ≈ 1.0933, recovered here as 1.076–1.10 — ~2% low):
+- **Object boundary box-dimension ≈ 2.35** (raw 2.29–2.35, bias-corrected 2.33–2.38), **strictly between 2
+  and 3**. So the quasicrystal tile is a **genuine fractal solid** — its faces are not flat, it is not a
+  polyhedron. That is the signature of a true Rauzy fractal. **[MATH, calibrated estimate]**
+
+Honest scope: this is a box-counting *estimate* (3-d box-counting is finite-sampling biased — the full-fractal
+control reads ≈ 2.59 vs the true 3.0), calibrated against Tribonacci's boundary. The **exact** boundary dimension
+is log(ρ)/log(β) with ρ the spectral radius of the boundary/contact substitution matrix (Siegel–Thuswaldner) —
+that certificate is **flagged, not computed here**. The robust, un-caveated fact is the *qualitative* one: the
+boundary dimension is strictly in (2,3), so the tile is fractal, not polyhedral.
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

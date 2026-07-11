@@ -308,7 +308,9 @@ tunnels deterministic, after-A split golden to the breath ratio); decider/courie
 verb facts verified (framing firewalled, a handoff sign slip caught). Movement **XVII** (Path B resolved): φ is
 **non-geometric** (conserves no genus-2 boundary), so σ* preserves **volume** (|det|=1) but **no symplectic/
 Poisson form** (preserved-form dim 1,0,0,0 across 4 fixed points) — the handoff's rank-4 form **refuted** as a
-single-point artifact; Level-0 κ-integrability → Level-1 volume-preserving-but-non-symplectic.
+single-point artifact; Level-0 κ-integrability → Level-1 volume-preserving-but-non-symplectic. Movement **XVIII**:
+the Rauzy tile's **boundary is a fractal surface**, box-dim **≈2.35** (calibrated on Tribonacci), strictly in
+(2,3) → a genuine fractal solid, not a polyhedron (exact contact-matrix value flagged).
 Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
 (self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
 Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:

@@ -412,3 +412,21 @@ def test_movement_XVII_phi_is_non_geometric():
     assert len(diffs) == 4
     for name, d in diffs.items():
         assert d > 1.0, name          # every candidate boundary changes -> none conserved
+
+
+def test_movement_XVIII_rauzy_boundary_is_fractal():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_20_rauzy_boundary_dimension.py')
+    spec = importlib.util.spec_from_file_location('l20', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # calibrate: the method recovers Tribonacci's known boundary dimension ~1.0933
+    tri = mod.rauzy(mod.TRIB, 'abc', 400000)
+    tb = mod.boundary_dim(tri, [0.06, 0.045, 0.033, 0.025])
+    assert 0.9 < tb < 1.3, tb
+    # the object's Rauzy tile has a fractal boundary: dimension strictly between 2 and 3
+    obj = mod.rauzy(mod.OBJ, 'abAB', 600000)
+    ob = mod.boundary_dim(obj, [0.11, 0.085, 0.066, 0.051])
+    assert 2.0 < ob < 3.0, ob
