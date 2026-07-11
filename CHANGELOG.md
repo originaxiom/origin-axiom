@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B528: the DGG higher-rank gauge group RESOLVED (computed + cited)
+
+- Owner: *"compute it… you are a serial false killer."* The disputed DGG gauge question (my "abelian at all
+  K" vs the handoff's "U(N−1) nonabelian") is now settled by (1) computing the SL(2) gauge from SnapPy's
+  Neumann–Zagier datum — **U(1)^{N−c}=U(1)**, integer NZ data = abelian CS-matter — and (2) a 99-agent
+  adversarial deep-research on the primary sources.
+- **Generic 3d gauge group is ABELIAN at every K** (my claim, now computed+cited): DGGon (1301.0192)
+  verbatim "*just as for K=2, the theories T_K[M] are abelian Chern–Simons–matter theories*"; DGG: K "does
+  not appear as the rank of a gauge group." The "U(N−1) nonabelian gauge" reading is a gauge-vs-structure-
+  group conflation — FALSE as the generic gauge group. The "N−1" = the cusp Cartan rank K−1 (abelian flavor).
+- **But the handoff's instinct was not baseless** (the half I'd have false-killed): the T[SU(N)] domain-wall
+  quiver **U(1)×U(2)×⋯×U(N−1)** is a *real* nonabelian object — it appears in the **defect sector**
+  (Gang–Kim–Romo–Yamazaki 1510.05011), not as the generic gauge group. Both true: generic gauge abelian,
+  defect quiver nonabelian. B524 updated; T-NOGO-DGG holds (no generic nonabelian gauge). Lock `test_b528.py`.
+
 ## 2026-07-12 — B527: the complete Stein-compatible metric cone (chat3) — narrows the B526 no-go
 
 - chat3 package classifying the metrics for which M_* is a positive Stein evolution. **Independently
