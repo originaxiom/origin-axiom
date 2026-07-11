@@ -47,6 +47,8 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
 - **DONE** (movement XIX): the golden eigenvalue ladder **explained** — it lives at the **trace-zero
   representation** (every generator order 4), whose twist is a primitive 6th root of unity, where
   Dσ* = {φ,1,−1/φ}⊗{1,ω,ω²} exactly (golden × cube-roots).
+- **DONE** (movement XX): the **interleaving** (old/new coarse-graining) — new:old = √φ exactly, but NOT
+  Sturmian (p(2)=4, complexity ≈3n): golden ratio kept, simplicity not.
 - **OPEN** (to cover, neutrally, one by one): the exact boundary dimension via the **contact/boundary
-  substitution matrix** (Siegel–Thuswaldner); the End(F₄) **verb monoid** full classification; recurrence /
-  repetitivity constants; the interleaving sequence's own substitution (S-adic?).
+  substitution matrix** (Siegel–Thuswaldner); the End(F₄) **verb monoid** deep symmetry (Out(F₄) conjugacy —
+  NEEDS train-track machinery, not a matrix check); recurrence / repetitivity constants.

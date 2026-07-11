@@ -449,3 +449,16 @@ def test_movement_XIX_golden_ladder_at_trace_zero_point():
     assert abs(T[0, 0] ** 6 - 1) < 1e-6 and abs(T[0, 0] ** 3 + 1) < 1e-6
     # and Dsigma* is exactly {phi,1,-1/phi} (x) {1,omega,omega^2}
     assert mod.ladder_matches(mod.dsigma_spectrum(T, Ms)) == 9
+
+
+def test_movement_XX_interleaving_golden_ratio_not_simplicity():
+    import numpy as np
+    phi = (1 + np.sqrt(5)) / 2
+    sq = np.sqrt(phi)
+    b = ''.join('0' if c in 'ab' else '1' for c in _grow(11)[:400000])
+    f_new = b.count('1') / len(b)
+    # coarse-graining keeps the golden ratio: new:old = sqrt(phi)
+    assert abs(f_new - sq / (1 + sq)) < 2e-3
+    # but is NOT Sturmian: p(2) = 4 > 3
+    p2 = len({b[i:i + 2] for i in range(len(b) - 2)})
+    assert p2 == 4
