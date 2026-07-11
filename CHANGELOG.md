@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XIV: the explicit 3-d Rauzy fractal
+
+- Movement XIII said quasicrystal; XIV **builds the tile** (`listen_16_rauzy_fractal.py` + `rauzy_fractal.png`).
+  Project the abelianized prefixes of the fixed point onto the 3-d contracting eigenspace (ℝ¹⊕ℂ, movement XII):
+- **Bounded compact fractal** in ℝ³ (max coord ≈ 1.43). **Four subtiles** (one per letter) whose **volumes equal
+  the golden-tensor frequencies (φ,1)⊗(√φ,1) exactly** (0.2720, 0.1681, 0.3460, 0.2138 — movement III realized
+  as the measures of the tile's pieces). **Interiors disjoint**: 3-d mixed-bin fraction 5.8%→0.3%→0.0% as bins
+  shrink (overlaps on the measure-zero boundary — the geometric content of strong coincidence).
+- The domain exchange on these four pieces is the 𝕋³ rotation XIII named. Overlap-coincidence certificate still
+  the open specialist item (de-risked again). Lock test_b530.py (18 pass).
+
 ## 2026-07-12 — B530 movement XIII: a Pisot substitution with strong coincidence (quasiperiodic, not mixing)
 
 - Listening to the spectral character (`listen_15_pisot_quasicrystal.py`); spectral type is decided

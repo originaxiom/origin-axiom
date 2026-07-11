@@ -31,8 +31,10 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
 - **DONE** (movement XIII): the **spectral character** — the object is an irreducible unimodular primitive
   **Pisot substitution with strong coincidence** (controls validated), so it is **quasiperiodic** (pure-discrete
   class, theory-indicated), a 3-d quasicrystal — **NOT mixing**; this *corrected* movement XI's MI over-read.
+- **DONE** (movement XIV): the **explicit 3-d Rauzy fractal** — a bounded compact tile in ℝ¹⊕ℂ; its four
+  subtile volumes = the golden-tensor frequencies exactly; interiors disjoint (3-d mixed-bin → 0). Rendered.
 - **OPEN** (to cover, neutrally, one by one): the **overlap / balanced-pair coincidence certificate** (the
-  specialist-grade proof of pure discrete spectrum — de-risked in XIII, not certified); the **explicit** 3-d
-  Rauzy fractal + its boundary/tiling; the End(F₄) **verb monoid** at rank 4; the explicit trace-map coordinates
-  (9d Goldman form + Lagrangians); recurrence / repetitivity constants; exact topological entropy (= log β);
-  the interleaving sequence's own substitution (S-adic?).
+  specialist-grade proof of pure discrete spectrum — de-risked twice now, not certified); the Rauzy fractal's
+  **boundary dimension / neighbour graph**; the End(F₄) **verb monoid** at rank 4; the explicit trace-map
+  coordinates (9d Goldman form + Lagrangians); recurrence / repetitivity constants; exact topological entropy
+  (= log β); the interleaving sequence's own substitution (S-adic?).

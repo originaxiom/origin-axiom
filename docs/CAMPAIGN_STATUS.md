@@ -298,7 +298,9 @@ Movement **XII**: the eigenvector geometry — expand in 1 / contract in 3; the 
 Movement **XIII**: the object is an irreducible unimodular primitive **Pisot substitution with strong
 coincidence** (controls validated) → **quasiperiodic** (pure-discrete class, 3-d quasicrystal), **not mixing** —
 which **corrected movement XI's** finite-window MI over-read. Overlap-coincidence certificate flagged as the
-specialist-grade proof (de-risked, not run).
+specialist-grade proof (de-risked, not run). Movement **XIV**: the **explicit 3-d Rauzy fractal** built and
+rendered — a bounded compact tile whose four subtile volumes = the golden-tensor frequencies exactly, interiors
+disjoint (the geometric realization of the quasicrystal).
 Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
 (self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
 Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:
