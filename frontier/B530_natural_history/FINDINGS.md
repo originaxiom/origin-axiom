@@ -285,6 +285,50 @@ Still ahead, one by one, neutrally (METHOD.md checklist): the derived-substituti
 the End(F₄) verb monoid at rank 4; the trace map's fixed structure; the eigenvector geometry; the 3d Rauzy
 tile; recurrence constants; exact entropy. Lock: `tests/test_b530.py`.
 
+## Movement XI — the third witness, the silver artifact resolved, and the floor is a variety
+A full cross-seat package arrived (the "reorientation" handoff, 2026-07-12) synthesising both currents. Most of
+it *is* movements I–X, cross-credited. Four items were genuinely new; each verified here by independent
+recomputation, and each reported for exactly what it is (`listen_13_third_witness_and_floor.py`):
+
+- **A third witness of the polynomial.** Beside the return-words (movement VIII) and the object's own incidence,
+  the **old/new block pairs** {a, ab} × {A, AB, AAB} carry a 4-symbol substitution `0→23, 1→230, 2→21330,
+  3→2130` whose characteristic polynomial is **x⁴−2x³−5x²−4x−1** — the object again. Three unrelated
+  decompositions, one polynomial: the object is not its letters, it *is* this quartic (as Fibonacci *is*
+  x²−x−1). **[MATH, computed, exact]**
+
+- **The silver ratio is the artifact, not the skeleton.** Erasing the deterministic tunnels naively gives
+  M_DD = [[1,1],[2,1]], Perron **1+√2** (silver) — this is what an over-eager reading banks. But the *proper*
+  effective decider dynamics is the **derived substitution through a decider letter**, which reproduces the
+  object exactly (golden β). Silver is the naive-erasure shadow; the object is **golden all the way down**.
+  This closes the movement-III silver reconciliation with the exact mechanism (naive erase vs. derived), and
+  matches the sending seat's own error #17 correction. **[MATH, computed]**
+
+- **The Level-1 floor exists — and it is a variety.** Read as the mapping-torus group **F₄ ⋊_φ ℤ** (the
+  word-hyperbolic group, [[B524]]), the object has genuine **irreducible SL₂(ℂ) representations**: I solved
+  for a twist T with `T ρ(g) T⁻¹ = ρ(φ(g))` and found (independent of the sending seat's trace-map search)
+  **many** irreducible solutions at residual ~1e-28, spanning **≥14 distinct characters**. These are exactly
+  the irreducible fixed points of the Level-1 trace map. So the "quantum floor" is real — and **richer** than
+  the handoff's "2 from 2000 starts": it is a positive-dimensional family the under-sampled search only grazed.
+  The object builds a space here too, and this time it is its *own* character variety. **[MATH, computed]**
+
+- **The object is mixing (short-range), not quasiperiodic — qualitatively only.** Letter–letter mutual
+  information **decays exponentially** (confirmed: the sign of the slope is robust across windows). But — flat,
+  per METHOD — the **rate constant is not robust**: I get slope −0.021 (length ~49), not the handoff's −0.04
+  (~25), and **k=13 is not a clean Fibonacci spike** (it sits *between* its neighbours). So: *mixing confirmed;
+  the correlation-length value and the "residual Fibonacci structure in the correlations" claim do not reproduce
+  robustly and are not banked.* This is the report-the-flat rule doing its job — the qualitative fact survives,
+  the pretty constant does not. **[MATH, computed; constants NOT robust]**
+
+Movement XI is the natural history absorbing an external synthesis without inflating it: two real new structural
+facts (third witness, the floor-variety), one artifact correctly demoted (silver), one qualitative-only result
+whose seductive constant is flagged as unreproduced. Still one object, still golden, still firewalled — the
+floor's representations are the object's own arithmetic, given no physics reading.
+
+Still ahead (METHOD.md checklist): the **eigenvector geometry** of the stable modes h, γ; the End(F₄) **verb
+monoid** at rank 4; the 3d Rauzy tile; recurrence constants; exact entropy. The **trace-map fixed structure**
+is now DONE at the existence level (the floor is a variety); its explicit coordinatisation (the 9d Goldman form,
+its Lagrangians) remains open.
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
-Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
-[[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.
+Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
+the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

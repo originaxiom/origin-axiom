@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XI: third witness, silver demoted, the Level-1 floor is a variety
+
+- Digest + independent verification of the full cross-seat "reorientation" package. Four new items, each
+  recomputed in-sandbox (`listen_13_third_witness_and_floor.py`):
+- **Third witness of the polynomial:** the old/new **block-pair** substitution `0→23,1→230,2→21330,3→2130`
+  has char poly **x⁴−2x³−5x²−4x−1** — the object again (beside return-words and the object's own incidence).
+- **Silver ratio demoted:** naive erase-tunnels → [[1,1],[2,1]], Perron 1+√2 — the artifact; the *proper*
+  effective decider dynamics is the derived substitution → the golden object (matches the sending seat's
+  error #17). The object is golden all the way down.
+- **The Level-1 floor EXISTS and is a variety:** solved `T ρ(g) T⁻¹ = ρ(φ(g))` independently → many
+  irreducible SL₂(ℂ) reps of the mapping torus F₄⋊_φℤ, ≥14 distinct characters (richer than the handoff's
+  "2 from 2000 starts"). The trace map's fixed structure is a positive-dimensional character variety.
+- **Mixing (qualitative only):** letter MI decays exponentially (short-range, not quasiperiodic) — sign
+  robust; but the rate constant (−0.04 claimed, −0.021 here) and the "Fibonacci spike" are **not** robust and
+  are NOT banked. Report-the-flat rule applied. Lock test_b530.py (15 pass). Firewalled; no physics reading.
+
 ## 2026-07-12 — B530 movement X: the listening method registered + a neutral census (report the flat)
 
 - **METHOD.md registered** (owner-approved posture): proper listening without anticipation = a neutral,

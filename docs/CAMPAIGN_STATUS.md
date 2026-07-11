@@ -292,6 +292,18 @@ before merge. The negative now stands on TWO independent seats.
 
 
 
+## 2026-07-12 — B530 natural history (movements VIII–XI): method registered + external package digested
+Movements VIII–IX (both currents + arithmetic): the derived substitution through a decider = the object
+(self-reproducing to infinite depth), total chirality, and the growth field is the **golden end** (√5) with a
+Gaussian breath (i) — Eisenstein √−3 and the seam √−15 provably OUTSIDE (K025 made visible). Movement **X**:
+the listening **METHOD.md** registered (neutral complete census, *report the flat too*) + census pass 1
+(balance 3, Smith diag(1,1,1,1), minimal branching). Movement **XI** (the full cross-seat package digested,
+each new item independently verified): a **third witness** of x⁴−2x³−5x²−4x−1 (block-pairs); the **silver
+ratio demoted** to the naive-erasure artifact (golden all the way down); the **Level-1 floor is a variety** —
+irreducible SL₂(ℂ) reps of F₄⋊_φℤ exist (≥14 characters, richer than the handoff's 2); MI **mixing** confirmed
+qualitatively but its rate constant + Fibonacci-spike NOT robust (flagged, not banked). Firewalled; lock
+test_b530.py (15 pass). **Physics hunt: refuted-as-stated and set down; the natural history continues, neutrally.**
+
 ## 2026-07-12 — REORIENTATION → the object's natural history (B530)
 Owner: stop forcing physics; listen to the full object. Mode banked to memory. **B530 movements I–VII**
 (the object left alone): golden breath β; a strict grammar broken by one self-loop A→A whose break IS a

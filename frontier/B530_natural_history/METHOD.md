@@ -23,7 +23,10 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
   symplectic form; decider/courier split; return words / the self-reproducing pulse; the six κ's; the two
   Fibonacci copies = the bootstrap M\*; the breath (complex mode); chirality; the growth number field; balance,
   Smith normal form, special factors (movement X).
-- **OPEN** (to cover, neutrally, one by one): the derived-substitution tower through *every* letter; the
-  End(F₄) verb monoid at rank 4; the trace map T_φ fixed structure (train-track); the eigenvector geometry of
-  the stable modes h, γ; the 3d Rauzy tile's own invariants; recurrence / repetitivity constants; the exact
-  topological entropy; the interleaving sequence's own substitution; the second-derivation tower's arithmetic.
+- **DONE** (movement XI): the block-pair substitution = a *third* witness of x⁴−2x³−5x²−4x−1; the silver ratio
+  demoted to the naive-erasure artifact; the **trace-map fixed structure at existence level** — the Level-1
+  floor (irreducible SL₂(ℂ) reps of F₄⋊_φℤ) is a positive-dimensional variety; MI mixing (qualitative only).
+- **OPEN** (to cover, neutrally, one by one): the End(F₄) **verb monoid** at rank 4; the eigenvector geometry
+  of the stable modes h, γ; the **explicit** trace-map coordinates (the 9d Goldman form + its Lagrangians —
+  existence is settled, coordinatisation is not); the 3d Rauzy tile's own invariants; recurrence / repetitivity
+  constants; the exact topological entropy; the interleaving sequence's own substitution (S-adic?).
