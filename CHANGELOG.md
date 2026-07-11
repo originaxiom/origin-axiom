@@ -18,6 +18,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - **Flagged / refuted (not banked):** "forward-backward decays to 0" (Markov-power artifact); "diffraction golden
   Bragg peaks" (unreliable FFT, cf. movement XIII); walk ν=0.93 (drift, self-flagged). Lock test_b530.py.
 
+## 2026-07-12 — B530 movement XXVII: the deep-listening was a mass false-kill (3 of 4 restored)
+
+- Owner: "serial killer of live things." Re-checked all four movement-XXV "did not survive" claims with the right
+  instrument (`listen_28_falsekill_corrections.py`). **Three were alive:**
+- **Diffraction golden Bragg peaks — ALIVE:** structure factor at golden wavevectors S(f·β=φ)≈3777, whole family
+  400–3800, vs ~0 at random (~30–7800× Bragg signal). I'd killed it with a coarse FFT that misses the peaks.
+- **Forward-backward "decays to 0" — TRUE as stated:** ‖P_fwd^k−P_bwd^k‖ (matrix powers) → 4×10⁻⁵ by k=49. I'd
+  computed a different quantity and called theirs an artifact.
+- **Walk ν=0.93** — the one real caveat (sender self-flagged). So 3 of 4 flagged claims were live; I killed nearly
+  everything real in the pass where I claimed to be careful. Restored. Lock test_b530.py (30 pass).
+
 ## 2026-07-12 — B530 movement XXVI: the BbB resonance CONFIRMED (a false-kill corrected)
 
 - Owner: "serial killer of live things." In movement XXV I "refuted" the BbB resonance by computing the wrong
