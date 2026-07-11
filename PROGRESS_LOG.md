@@ -1764,3 +1764,37 @@ handoffs received (Chat-1 session summary; Chat-2 four-file zip). All adjudicate
   (owned over-claim, caught by the gate). Every internal cross-connection = absorbing-loop. The re-mine
   found no buried value, confirmed the firewall is total, and refused the 'already here' trap by design.
   Locks pass.
+
+## 2026-07-11 — Audit reconciliation (integrate, don't merge): the two-seat closure (B521, B522)
+
+Before merging the parallel closure audit (Fable-5 seat, clone `oaudit/`, branch `closure/phase1-duels`
+@ e42c336, terminal doc `docs/CLOSURE_2026-07-10.md`), a read-only check found it (a) reached the SAME
+negative independently (four gates SEALED/REDUCED/CLOSED, Origin Postulate REFUTED-AS-STATED), (b) carried
+a correction this trunk lacked, and (c) collides on 8 B-numbers (B496–B503). Owner directive: **integrate,
+don't merge** + re-examine the negative for a wrong leap. Done this session:
+
+- **B479 erratum (F4, verified independently).** The held-breath fields at d=5 (m=5,10,15) and d=7 (m=7,14)
+  were mislabelled ℚ(√41), ℚ(√−239) by a degree-2-only "disc→ℚ(√sf)" heuristic. Recomputed from scratch
+  (`verify_m5.py`/`verify_m7.py`): **d=5 = degree-4, subfield ℚ(√5)** (splits over ℚ(√5), irreducible over
+  ℚ(√41)); **d=7 = degree-6, no quadratic subfield** (E₇=z⁶−5z⁵+16z⁴−25z³+30z²−12z+8). In both the
+  squarefree integer is the *norm* of Δ_d=τ_d²(τ_d²−8), not the field. Corrected in B479, `SPECIALIST_NOTE_R1`
+  (outbound), B491. Lock `test_b479_erratum.py` (2 pass).
+- **R1 held-breath DOWNGRADE:** the audit's B494 answered B491's own specialist question — the field law is a
+  **COROLLARY of Cantat's fixed-locus method** (control reproduced independently: `verify_cantat.py` gives
+  ℚ(√17) for Ψ=[[2,1],[1,1]]); completeness now unconditional for all m. B491 R1 APPEARS-NOVEL → COROLLARY.
+- **B521 (audit gate seals + R2 prediction), verified before banking.** Independently recomputed: Gate A
+  seam disc −15; Gate B θ = Out(E₆) = ℤ/2 (Dynkin ℤ/2); **Gate C CLOSES in full** (deck ℤ/3 = ω-mult on one
+  Eisenstein module: det(T−I)=3≠0 ⟹ Fix=0, N(1−ω)=3, 16≠cube, no eigenvalue-1 ⟹ not a 3-copy permutation —
+  trinification within one 27, not generation); **R2 blind prediction HIT verified** (prediction_47.json
+  committed 00:09:30Z precedes verify_47.json 00:14:10Z; sha256-pinned; 0 mismatches — a forced+unsought+
+  controlled prediction of the object's OWN arithmetic, not a physics value). Lock `test_b521.py` (3 pass).
+- **B522 (tower filtration theorem, SHARPER-REDUCTION).** The audit's fifth route: Luna slice + Procesi FFT
+  + BCH ⟹ the Sym⊗det block form is FORCED for all n, dynamics eliminated, only static multiplicities
+  remain, n=5 wall located (doubled Sym²=char(M²)²). Cores recomputed (`verify_filtration.py`): character
+  layer h_a(x,y,1)=Σh_k (closes B122(2)); carrier dims reconstruct the catalog (n=2→3, n=3→9=Lawton,
+  n=4→15=n²−1); μ_d bookkeeping reproduces the n=5 doubled Sym². Lock `test_b522.py` (4 pass).
+- **The unified two-seat closure** `docs/CLOSURE_2026-07-11.md`: folds B519 VERDICT + the audit's
+  CLOSURE_2026-07-10 into one terminal document — two independent seats, same refuted-as-stated verdict, the
+  corrections both made, the yields kept, and the two live residual doors (relation/second-seed; the
+  C3/Malament monoid-cone question, to be run in S2/B523). Firewalled; the audit branch stays historical
+  (never merged). **The wrong-leap re-examination (B523) is S2, next.**

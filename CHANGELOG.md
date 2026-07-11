@@ -6,6 +6,27 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-11 — audit reconciliation: integrate-don't-merge + the two-seat closure
+
+- **Parallel closure audit checked before merging (owner directive).** Fable-5's Closure Campaign
+  (`oaudit/`, `closure/phase1-duels`) finished with an independent negative closure (four gates
+  SEALED/REDUCED/CLOSED; Origin Postulate REFUTED-AS-STATED) that **collides on 8 B-numbers (B496–B503)**.
+  Resolution: **integrate, don't merge** — deliverables recorded on this trunk under new numbers, each
+  verified by independent recomputation; audit branch stays historical.
+- **B479 erratum (F4):** d=5, d=7 held-breath fields were mislabelled ℚ(√41), ℚ(√−239); both integers are
+  the *norm* of the discriminant, not the field (d=5 → degree-4/ℚ(√5); d=7 → degree-6/no quadratic subfield).
+  Verified independently; corrected in B479 + `SPECIALIST_NOTE_R1` + B491.
+- **R1 held-breath → COROLLARY** of Cantat's fixed-locus method (control ℚ(√17) reproduced; completeness now
+  unconditional). B491 downgraded APPEARS-NOVEL → COROLLARY.
+- **B521 — audit gate seals + R2 prediction, integrated.** Gate A disc −15, Gate B θ=Out(E₆)=ℤ/2, **Gate C
+  CLOSES** (ℤ/3 = trinification within one 27, not generation — Fix=0 recomputed in full), Gate D data.
+  **R2 blind prediction HIT** verified (pre-committed, sha256-pinned, 0 mismatches) — the object predictively
+  produces its *own arithmetic*, not physics values.
+- **B522 — tower filtration theorem (SHARPER-REDUCTION):** the Sym⊗det block form is forced for all n
+  (dynamics eliminated); n=5 wall located; cores recomputed (character layer, carrier dims n≤4, μ_d).
+- **`docs/CLOSURE_2026-07-11.md`** — the unified two-seat terminal document (supersedes CLOSURE_2026-07-05/10
+  + B519 VERDICT). Locks: `test_b479_erratum.py`, `test_b521.py`, `test_b522.py` (9 pass). Firewall untouched.
+
 ## 2026-07-11 — the golden-3d arc + the whole-repo synthesis
 
 - **B511 physics-verdict campaign:** five of six doors CLOSED (D5 generation=generic-Chebyshev;

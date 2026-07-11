@@ -14,10 +14,28 @@ Fix(T_m) ∩ {κ = −2} beyond the trivial z = 0 point:
 |---|---|
 | 1, 2, 4 | **none** (only z = 0) |
 | 3, 6, 9, 12, 15 | ℚ(√−7), the SAME point z² − z + 2 = 0 |
-| 5, 10, 15 | ℚ(√41) (real!), the SAME quartic z⁴ − 3z³ + 7z² − 4z + 4 |
+| 5, 10, 15 | **degree-4** field of z⁴ − 3z³ + 7z² − 4z + 4, quadratic subfield **ℚ(√5)** (real; 41 is a norm — see ERRATUM) |
 | 8, 16 | ℚ(√−3) |
-| 7, 14 | ℚ(√−239) |
+| 7, 14 | **degree-6** field ℚ(τ₇, √(τ₇²(τ₇²−8))) ⊃ cyclic cubic ℚ(τ₇); E₇ = z⁶−5z⁵+16z⁴−25z³+30z²−12z+8 (−239 is a norm — see ERRATUM) |
 | others | one growing-degree component (m = 11 → deg 10, m = 13 → deg 12) |
+
+> **ERRATUM (2026-07-11, F4 no-known-error-leaves-the-house).** The d = 5 and d = 7 rows were
+> originally labelled ℚ(√41) and ℚ(√−239) by the degree-2-only "disc → ℚ(√squarefree)" heuristic
+> in `held_breath_tower.py`, applied outside its validity range. In both, the squarefree integer is
+> the **norm of the discriminant Δ_d = τ_d²(τ_d²−8)**, not a field generator:
+> - **d = 5:** the field is the degree-4 field of z⁴−3z³+7z²−4z+4 (Galois D₄), whose *unique* quadratic
+>   subfield is **ℚ(√5)** (it splits into two quadratics over ℚ(√5), stays irreducible over ℚ(√41));
+>   disc = 2⁴·5²·41, so 41 = Norm_{ℚ(√5)/ℚ}(Δ₅), squarefree part of the disc — **not** the field.
+> - **d = 7:** the field is the degree-6 ℚ(τ₇, √Δ₇) containing the cyclic cubic ℚ(τ₇); E₇ is
+>   irreducible over ℚ, stays irreducible over ℚ(√−239) (no quadratic subfield exists; subfield
+>   degrees [1,3,6]); Norm_{ℚ(τ₇)/ℚ}(Δ₇) = −239, the squarefree part of disc(E₇) — **not** the field.
+>
+> Both re-derived and machine-checked independently (2026-07-11, this repo: `verify_m5.py`/`verify_m7.py`)
+> and, cross-seat, by the parallel closure audit's B494 Cantat-corollary duel (which also proved the
+> divisor-union law unconditional for all m). The two-outcome laws **3 | m ⟺ order-3 breath** and
+> **5 | m ⟺ order-5 breath** are unaffected — only the *field labels* of the d = 5, 7 rows are corrected.
+> The lock `tests/test_b479_erratum.py` pins deg = 4 (subfield ℚ(√5)) and deg = 6 (norm −239, no
+> quadratic subfield).
 
 **Two exact divisibility laws, verified m ≤ 16 in both directions:**
 - **3 | m ⟺ the ℚ(√−7) held breath is present** (m = 3,6,9,12,15 yes; 1,2,4,5,7,8,10,11,13,14,16 no).
