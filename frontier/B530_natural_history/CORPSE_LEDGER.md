@@ -4,7 +4,8 @@ Owner, 2026-07-12: *"what else did u falsely kill, can u revisit your corpses?"*
 "don't be so sure" → "serial killer of live things." This is the honest accounting. Each negative/refutation/
 dismissal I made this session, re-examined with the **exact** claimed quantity and the **right** instrument.
 Status is one of: **FALSE-KILL** (restored), **REOPENED**, **HOLDS** (genuine negative, computed on the
-discriminating fact), **UNTESTED** (flagged, not re-examined), **already corrected** earlier.
+discriminating fact), **OVER-CLOSURE** (kill partially correct, partially over-strong), **already corrected**
+earlier. *(All 19 entries have terminal statuses — no UNTESTED items remain as of movement XXIX.)*
 
 ## FALSE-KILLS — live things I strangled, now restored
 
