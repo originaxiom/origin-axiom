@@ -272,3 +272,20 @@ def test_movement_XI_level1_floor_is_a_variety():
             if abs(np.trace(C) - 2) > 1e-4:                          # irreducible
                 sigs.add(tuple(round(np.trace(Ms[g]).real, 1) for g in GENS))
     assert len(sigs) >= 2       # the Level-1 quantum floor exists and is not a single point
+
+
+def test_movement_XII_eigenvector_geometry_of_the_growth():
+    import numpy as np
+    phi = (1 + np.sqrt(5)) / 2
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]], float)
+    vals = np.linalg.eigvals(M)
+    mags = sorted([abs(v) for v in vals], reverse=True)
+    assert mags[0] > 1 and all(m < 1 for m in mags[1:])          # expand in 1, contract in 3
+    gamma = [v for v in vals if abs(v.imag) > 1e-9][0]
+    theta = np.angle(gamma)
+    assert abs(abs(gamma) - 1 / np.sqrt(phi)) < 1e-9             # breath radius = 1/sqrt(phi)
+    assert abs(gamma.real + 1 / phi) < 1e-9                      # Re(gamma) = -1/phi
+    assert abs(np.cos(theta) + 1 / np.sqrt(phi)) < 1e-9          # cos(angle) = -1/sqrt(phi)
+    # anti-anticipation: the breath angle is NOT the golden angle
+    assert abs(np.degrees(theta) - np.degrees(2 * np.pi / phi**2)) > 3
+    assert np.linalg.norm(M @ M.T - M.T @ M) > 1e-6             # non-normal (the breath needs it)
