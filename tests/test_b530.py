@@ -91,3 +91,16 @@ def test_golden_at_three_levels():
     wa, wb, wA, wB = phi, sp.Integer(1), phi * sq, sq
     S = sp.simplify(wa + wb + wA + wB)
     assert sp.simplify(wa / S - (sq - 1)) == 0
+
+
+def test_pulse_is_the_object():
+    # Movement IV: a marks image-boundaries exactly; return-words = images; derived seq = the object.
+    for im in SUB.values():
+        assert [i for i, c in enumerate(im) if c == 'a'] == [0]   # a only at position 0, never interior
+    w = _grow(8)
+    pos = [i for i, c in enumerate(w) if c == 'a']
+    retwords = [w[pos[i]:pos[i + 1]] for i in range(len(pos) - 1)]
+    assert set(retwords) == set(SUB.values())                     # return-words = the four images
+    inv = {im: L for L, im in SUB.items()}
+    derived = ''.join(inv[rw] for rw in retwords)
+    assert derived == w[:len(derived)]                            # the pulse IS the object
