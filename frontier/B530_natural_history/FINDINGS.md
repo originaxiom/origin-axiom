@@ -170,8 +170,39 @@ Following the spine (`listen_7_the_two_copies.py`):
 So the flow closes on the source: the object we sat and listened to *is* B517's coupled double, and its
 spine — orientation = copy-exchange-break = the F/F² asymmetry = a static symplectic form under dissipative
 growth — is one structure wearing four names. Cross-refs [[B517]] (M\* = [[F,F],[F²,F]], the Stein form),
-[[K022]] (symmetric centre). Still ahead, unforced: the trace map T_φ on the κ-web; the return substitution as
-an exact self-map. Lock: `tests/test_b530.py`.
+[[K022]] (symmetric centre).
+
+## Movement VII — the breath is born from the copy-inequality
+The object has a complex mode — γ (|γ| = 1/√φ), the rotation/breath. Where does the rotation come from?
+Tested against the coupling itself (`listen_7_the_two_copies.py` companion `flow2`):
+
+| coupling | eigenvalues | rotation? |
+|---|---|---|
+| **M\* = [[F, F], [F², F]]** (the object — *unequal*) | β, h, γ, γ̄ | **YES** (complex γ) |
+| symmetric [[F, F], [F, F]] | all real | no |
+| uncoupled [[F, 0], [0, F]] | all real | no |
+| swapped [[F, F²], [F, F]] (F² the other way) | β, h, γ, γ̄ | YES |
+
+**The complex mode exists only when the two copies feed each other *unequally* (F ≠ F²)** — make the coupling
+symmetric, or uncouple it, and the rotation vanishes into all-real eigenvalues; and it is the *inequality*,
+not its direction, that matters. So the **single F/F² asymmetry is the source of BOTH the object's orientation
+(the symplectic spine, Movement VI) AND its breath (the complex mode γ)**: the object is handed *and* it
+rotates for the one same reason — its two golden halves are unequal. And |γ| = **1/√φ**; the copies themselves
+stand in ratio copy1 : copy2 = 1 : √φ (exact). **[MATH, verified]**
+
+## The full golden architecture (all constants, one object)
+| the object's ... | ratio | constant |
+|---|---|---|
+| growth | length_{n+1}/length_n | β = φ(1+√φ) |
+| role split (decider : courier) | 1/φ : 1/φ² | φ |
+| copy split (copy1 : copy2) | 1 : √φ | √φ |
+| inner decider ratio (a : A) | 1 : √φ | √φ |
+| breath (rotation) | \|γ\| | 1/√φ |
+Every proportion the object holds is golden, and the two irreducible facts — that it is **golden** and that it
+is **broken F-vs-F²** — between them generate the whole story: growth, the three-level nesting, the symplectic
+orientation, the self-recognizing pulse, the one unspoken interaction, and the breath. One golden object, one
+asymmetry. Firewalled; the object's own mathematics, no physics reading. Still unforced ahead: the trace map
+T_φ on the κ-web; the return substitution as an exact self-map. Lock: `tests/test_b530.py`.
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),

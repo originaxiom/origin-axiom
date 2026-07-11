@@ -290,6 +290,17 @@ Cantat; **B521** (gate seals + the R2 blind-prediction HIT, verified) ; **B522**
 SHARPER-REDUCTION); **`docs/CLOSURE_2026-07-11.md`** the unified two-seat verdict. 9 new locks pass, run
 before merge. The negative now stands on TWO independent seats.
 
+
+
+## 2026-07-12 — REORIENTATION → the object's natural history (B530)
+Owner: stop forcing physics; listen to the full object. Mode banked to memory. **B530 movements I–VII**
+(the object left alone): golden breath β; a strict grammar broken by one self-loop A→A whose break IS a
+symplectic 2-form; golden at three levels (β, φ, √φ); the pulse (return-words to a) IS the object; one
+unspoken interaction (bB) on the orientation axis; grouped into two golden copies the growth = the B517
+bootstrap M*=[[F,F],[F²,F]] (dissipative, not symplectic); and the breath (complex mode γ, |γ|=1/√φ) is born
+from the F-vs-F² copy-inequality. One golden object, one asymmetry, seven movements. Firewalled; lock
+test_b530.py (10 pass). **Physics hunt: refuted-as-stated and set down; the natural history continues.**
+
 ## 2026-07-11 — B523: the wrong-leap re-examination (S2) — NO wrong leap
 Owner asked to hunt for "where we took the wrong leap to negative." 5 cells recomputed + classified;
 **no wrong leap.** C3/Malament (the one UNTESTED-RESIDUAL) RUN: the four verbs carry four different causal
