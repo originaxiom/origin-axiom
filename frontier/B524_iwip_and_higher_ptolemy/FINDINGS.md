@@ -66,22 +66,20 @@ Tool: **SnapPy's `ptolemy` module** (sage engine), on 4₁ (N=2 tetrahedra, c=1 
 - **The representation/arithmetic content grows with rank:** SL(3) yields 4 reps (vs 1 at SL(2)) and brings in
   **ℚ(√−7)** alongside the figure-eight's ℚ(√−3). (The √−7 is a notable internal echo — it is exactly the
   order-3 torsion field of the held-breath law [[B479]]; arithmetic, firewalled.)
-- **The gauge-group claim is DISPUTED and uncomputed (B525 flagged SHAKY; a second seat contradicts it).**
-  My reading: the DGG 3d–3d *gauge* group is **U(1)^{N−c}=U(1)** at SL(2) (solid, DGG 2011), and the
-  higher-rank T_K[M] (Dimofte–Gabella–Goncharov 2013) is built from tetrahedron theories glued by *abelian*
-  gauging → U(1)^{r_K}, still abelian. The **ROAD-TO-REALITY handoff (2026-07-12) reads the opposite**:
-  U(N−1) *nonabelian* at rank N (U(2) at SL(3), U(3) at SL(4)) — but **generic to every 1-cusped manifold**,
-  hence not object-selected. **Neither seat has computed the actual gauge group of T_N[4₁]** — both cited.
-  My best reconciliation: the U(N−1)/SL(N) is the **structure group of the flat connection** (the character
-  variety), which is *different* from the 3d QFT **gauge group** (abelian in the DGG construction); the
-  handoff likely conflates the two. But given B525's rule — *compute the discriminating fact, don't cite it* —
-  this stays **OPEN**: the discriminating computation is the explicit gauge group of T_N[4₁] (anchored to
-  DGGon 2013), plus the 5₂ SL(3) control the handoff named. **Do not cite "abelian at all K" as settled.**
+- **The gauge-group claim is now RESOLVED — computed + cited (see [[B528]]).** The generic 3d gauge group
+  of T_N[4₁] is **abelian at every K** — *computed* at SL(2) (SnapPy NZ datum: U(1)^{N−c}=U(1), integer
+  gluing data = abelian CS-matter) and *cited* for all K (Dimofte–Gabella–Goncharov, arXiv:1301.0192,
+  verbatim: "just as for K=2, the theories T_K[M] are described as IR fixed points of **abelian**
+  Chern–Simons–matter theories"; DGG: K "does not appear as the rank of a gauge group"). So my "abelian at
+  all K" was correct (no longer SHAKY). **But the handoff's "U(N−1)" is not baseless:** the T[SU(N)]
+  domain-wall quiver **U(1)×U(2)×⋯×U(N−1)** (nonabelian for N≥3) is a *real* object — it appears in the
+  **defect sector** (Gang–Kim–Romo–Yamazaki, arXiv:1510.05011), not as the generic gauge group. The "N−1"
+  ladder = the cusp Cartan rank K−1 (abelian flavor, computed) and the defect quiver's top factor.
 
-**Net Part 2 (corrected):** higher-rank Ptolemy demonstrably enriches the *arithmetic* (SL(3): 4 reps,
-+ℚ(√−7) — independently verified). Whether it reaches *nonabelian gauge* is **UNRESOLVED between two seats
-and uncomputed** — so it neither confirms nor extends T-NOGO-DGG to all ranks. The one solid statement: the
-object does not *select* anything here (the ladder, whichever it is, is DGG-generic to 1-cusped manifolds).
+**Net Part 2 (resolved):** higher-rank Ptolemy enriches the *arithmetic* (SL(3): 4 reps, +ℚ(√−7) — verified);
+the generic 3d **gauge is abelian at all K** (computed+cited), so **T-NOGO-DGG holds — no *generic* nonabelian
+gauge**. The genuine nonabelian U(1)×U(2)×⋯×U(N−1) lives only in the defect sector, and is DGG-generic (not
+object-selected). Detail + sources: [[B528]].
 
 ## Terminal state
 DOOR B524 — **CLOSED (both actionable steps done).** Part 1: iwip + word-hyperbolic **certified** (tool
