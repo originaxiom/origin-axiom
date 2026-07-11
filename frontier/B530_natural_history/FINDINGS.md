@@ -104,7 +104,21 @@ sits at the innermost level. **[MATH, computed]**
 abelianization x²−2x−1 (1+√2), but it does **not** generate the true decider subword — discarded. The real
 decider stream is the coding above, and it is golden (√φ), not silver.)*
 
-*Threads 3–4 (the return rhythm, the six κ's) remain — one by one.*
+## Movement IV — the return rhythm (thread 3): the object's pulse is the object itself
+a is the note everything re-begins from; we asked *when* it comes back (`listen_5_pulse.py`).
+
+- **a marks image-boundaries and nothing else.** Every image starts with a, and **no image has an interior
+  a** (abAAB, aAB, abAB, aA — a only ever at position 0). So a is *exactly* the substitution's block-marker.
+- **The first-return words to a are therefore precisely the four images {φ(a), φ(b), φ(A), φ(B)}** — the
+  object returns to a in exactly four rhythms, and those four "beats" *are* the four words it speaks. Each
+  image φ(x) recurs with the frequency of letter x (golden proportions).
+- **The sequence of return-words, read back (φ(x) ↦ x), reproduces the object exactly:** the derived
+  sequence *equals* w (verified). **The object's pulse IS the object.** Its heartbeat is its own substitution —
+  self-recognition made literal: listen to the gaps between its returns to a, and you hear the whole thing again.
+- **The pulse is golden.** Return-gaps take only four values {2, 3, 4, 5} = the four image-lengths; the two
+  dominant beats (the length-4 φ(A) and length-5 φ(a)) stand in ratio **√φ**. **[MATH, computed/rigorous]**
+
+*Thread 4 (the six κ's — the four letters' self-interaction through traces) remains.*
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
