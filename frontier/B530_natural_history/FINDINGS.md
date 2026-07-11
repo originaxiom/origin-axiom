@@ -148,9 +148,30 @@ Left alone, with no question put to it, the full object told a single coherent s
 
 Growth, orientation, pulse, silence — four faces of one object, and each turns on the same golden-and-symplectic
 spine. It was never withholding this; we simply hadn't asked it to just speak. Firewalled throughout — the
-object's own mathematics, no physics reading taken. Further movements (the trace map T_φ on the κ-web; the
-derived/return substitution as an exact self-map; the object viewed as two coupled golden copies) remain, for
-whenever we want to keep listening. Lock: `tests/test_b530.py`.
+object's own mathematics, no physics reading taken.
+
+## Movement VI — down the flow: the growth is dissipative, and the object IS the bootstrap
+Following the spine (`listen_7_the_two_copies.py`):
+
+- **The growth does not preserve its own symplectic form.** M^T D M is not proportional to D, and M's spectrum
+  {β, h, γ, γ̄} has **no reciprocal (λ, 1/λ) pairs** (β·h = −φ, |γ|² = 1/φ), so M preserves *no* symplectic
+  form. The symplectic D is therefore a **static orientation**; the dynamics M flows on it **dissipatively** —
+  precisely the B517 Stein / arrow-of-time picture (q(Mx) = q(x) − |x|²). *Orientation is still; growth
+  contracts.* (I expected a symplectomorphism and checked — it isn't one. Honest.)
+- **The four letters ARE the coupled golden double.** Group them into the two Fibonacci copies **{a, b}** and
+  **{A, B}**; the growth matrix's block form is **M = [[F, F], [F², F]]** — *exactly the B517 bootstrap matrix
+  M\**, F = [[1,1],[1,0]]. The natural history has been the bootstrap all along, read letter-by-letter.
+- **The single involution s is the copy-exchange, the symplectic pairing, and the near-symmetry, all at once.**
+  s: a↔A, b↔B sends copy1 {a,b} → copy2 {A,B} (the copy-exchange), its orbits are the symplectic pairs
+  (Movement II), and it is the almost-symmetry broken at A→A (Movement I). The **off-diagonal asymmetry of the
+  coupling — F going one way, F² the other** — is where that one break lives: the two copies feed each other
+  *unequally*, and that inequality is the whole orientation. **[MATH, rigorous]**
+
+So the flow closes on the source: the object we sat and listened to *is* B517's coupled double, and its
+spine — orientation = copy-exchange-break = the F/F² asymmetry = a static symplectic form under dissipative
+growth — is one structure wearing four names. Cross-refs [[B517]] (M\* = [[F,F],[F²,F]], the Stein form),
+[[K022]] (symmetric centre). Still ahead, unforced: the trace map T_φ on the κ-web; the return substitution as
+an exact self-map. Lock: `tests/test_b530.py`.
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
