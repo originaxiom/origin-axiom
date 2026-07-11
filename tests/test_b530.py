@@ -215,3 +215,60 @@ def test_movement_X_neutral_census_flat_and_all():
         maxdeg = max(len({w[i + k] for i in range(len(w) - k) if w[i:i + k] == f}) for f in facs)
         assert maxdeg == (3 if k == 1 else 2)
     assert p == [4, 7, 10, 13, 17, 20]                             # p(n): increments 3,3,3,4,3 ~ 3n+1
+
+
+def test_movement_XI_third_witness_and_silver_artifact():
+    x = sp.symbols('x')
+    obj = x**4 - 2 * x**3 - 5 * x**2 - 4 * x - 1
+    # (a) the old/new block PAIRS reproduce the object's polynomial -- a THIRD witness
+    pairsub = {0: '23', 1: '230', 2: '21330', 3: '2130'}
+    M = sp.zeros(4, 4)
+    for j, im in pairsub.items():
+        for ch in im:
+            M[int(ch), j] += 1
+    assert sp.expand(M.charpoly(x).as_expr() - obj) == 0
+    # (b) the naive erase-tunnels skeleton is SILVER (1+sqrt2) -- the artifact, not the object
+    MDD = sp.Matrix([[SUB[j].count(i) for j in 'aA'] for i in 'aA'])   # deciders a,A
+    naive_perron = max(MDD.eigenvals(), key=lambda e: sp.re(sp.N(e)))
+    assert sp.simplify(sp.nsimplify(naive_perron) - (1 + sp.sqrt(2))) == 0
+    # the proper effective decider dynamics is the derived substitution -> the object (golden), banked in mvt VIII
+
+
+def test_movement_XI_level1_floor_is_a_variety():
+    # irreducible SL2(C) reps of the mapping torus F4 x|_phi Z = irreducible fixed points of the trace map.
+    import numpy as np
+    from scipy.optimize import least_squares
+    np.random.seed(1)
+    GENS = ['a', 'b', 'A', 'B']
+
+    def unpack(z):
+        z = z[:len(z) // 2] + 1j * z[len(z) // 2:]
+        T = np.diag([z[0], 1 / z[0]])
+        Ms = {g: np.array([[z[1 + 4 * i], z[2 + 4 * i]], [z[3 + 4 * i], z[4 + 4 * i]]], complex)
+              for i, g in enumerate(GENS)}
+        return T, Ms
+
+    def wordmat(w, Ms, inv):
+        P = np.eye(2, dtype=complex)
+        for ch in w:
+            P = P @ (Ms[ch] if ch in Ms else inv[ch.lower()])
+        return P
+
+    def resid(z):
+        T, Ms = unpack(z)
+        Ti = np.linalg.inv(T)
+        inv = {g: np.linalg.inv(Ms[g]) for g in GENS}
+        r = [T @ Ms[g] @ Ti - wordmat(SUB[g], Ms, inv) for g in GENS]
+        d = np.array([np.linalg.det(Ms[g]) - 1 for g in GENS])
+        flat = np.concatenate([m.ravel() for m in r] + [d])
+        return np.concatenate([flat.real, flat.imag])
+
+    sigs = set()
+    for _ in range(60):                                              # small deterministic budget for CI
+        s = least_squares(resid, np.random.randn(34) * 0.9, method='lm', max_nfev=1200)
+        if s.cost < 1e-16:
+            _, Ms = unpack(s.x)
+            C = Ms['a'] @ Ms['b'] @ np.linalg.inv(Ms['a']) @ np.linalg.inv(Ms['b'])
+            if abs(np.trace(C) - 2) > 1e-4:                          # irreducible
+                sigs.add(tuple(round(np.trace(Ms[g]).real, 1) for g in GENS))
+    assert len(sigs) >= 2       # the Level-1 quantum floor exists and is not a single point
