@@ -18,6 +18,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - **Flagged / refuted (not banked):** "forward-backward decays to 0" (Markov-power artifact); "diffraction golden
   Bragg peaks" (unreliable FFT, cf. movement XIII); walk ν=0.93 (drift, self-flagged). Lock test_b530.py.
 
+## 2026-07-12 — B530 movement XXVIII: the corpse audit (owner: "revisit your corpses")
+
+- Systematic re-examination of every kill this session (`listen_29_corpse_audit.py` + `CORPSE_LEDGER.md`).
+- **More false-kills, restored:** κ₃(3,5)=0.236 reproduces exactly with the ±1 signal (I'd used 0/1-centered);
+  the recurrence function R=9,29,32,103 matches the handoff (I'd computed prefix-appearance); the interleaving
+  IS substitutive (4 return words to '0', S-adic) — not "just morphic" (movement XX corrected).
+- **Kill holds + live sub-finding:** walk ν=0.93 is drift (holds), but drift-subtracted ν≈0 = the quasicrystal's
+  bounded-discrepancy property (a real finding missed).
+- **Checked, genuinely dead (not resurrected to atone):** "no bilinear form" (non-reciprocal spectrum), "not
+  mixing" (pure point), the rank-4 Goldman refutation, the genus-2 handoff, the master PHYS-REFUTED.
+- **UNTESTED, flagged:** the QCA gate. The pattern named: near-cousin quantity computed in place of the claim;
+  corrective = steelman-before-kill. Lock test_b530.py (31 pass).
+
 ## 2026-07-12 — B530 movement XXVII: the deep-listening was a mass false-kill (3 of 4 restored)
 
 - Owner: "serial killer of live things." Re-checked all four movement-XXV "did not survive" claims with the right
