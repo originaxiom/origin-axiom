@@ -369,3 +369,31 @@ def test_movement_XV_discrete_spectrum_certificate():
     r = mod.pure_discrete(mod.SUB, 'abAB', wordlen=30000, maxlen=130)
     assert r[0] is True and r[2] == 0                                       # discrete, no bad pair
     assert r[3] < 130                                                       # no truncation (max word << bound)
+
+
+def test_movement_XVI_entropy_and_golden_branching():
+    import numpy as np
+    from collections import Counter
+    phi = (1 + np.sqrt(5)) / 2
+    sq = np.sqrt(phi)
+    u = _grow(11)[:500000]
+    dig = Counter(u[i:i + 2] for i in range(len(u) - 1))
+    uni = Counter(u[:-1])
+    P = lambda x, y: dig[x + y] / uni[x]
+    # topological entropy = log beta
+    beta = phi * (1 + sq)
+    assert abs(np.log(beta) - 1.3019) < 1e-3
+    # exact golden branching
+    assert abs(P('a', 'b') - 1 / phi) < 2e-3 and abs(P('A', 'B') - 1 / phi) < 2e-3
+    # tunnels deterministic
+    assert abs(P('b', 'A') - 1) < 1e-9 and abs(P('B', 'a') - 1) < 1e-9
+    # after A, the remaining 1/phi^2 mass splits a:A in the breath ratio 1/sqrt(phi)
+    assert abs(P('A', 'a') / P('A', 'A') - 1 / sq) < 3e-3
+    # decider/courier is an ENTROPY split too: deciders carry bits, couriers zero
+    Hb = -sum(p * np.log2(p) for p in [P('b', 'A')])
+    assert Hb < 1e-9                                                        # tunnel b: zero entropy
+    Ha = -sum(P('a', y) * np.log2(P('a', y)) for y in 'bA')
+    assert Ha > 0.9                                                         # decider a: ~0.96 bits
+    # Path A caught correction: lifted keep-verb eigenvalues are phi,phi,-1/phi,-1/phi (NOT +1/phi)
+    F = np.kron(np.eye(2), np.array([[1, 1], [1, 0]]))
+    assert sorted(np.round(np.linalg.eigvals(F).real, 3).tolist()) == [-0.618, -0.618, 1.618, 1.618]

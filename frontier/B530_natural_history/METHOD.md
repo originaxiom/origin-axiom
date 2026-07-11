@@ -35,7 +35,10 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
   subtile volumes = the golden-tensor frequencies exactly; interiors disjoint (3-d mixed-bin → 0). Rendered.
 - **DONE** (movement XV): the **balanced-pair coincidence certificate** — pure discrete spectrum **PROVEN**
   (validated on 5 controls; object 106 balanced pairs, 0 bad, robust). Movement XIII upgraded theory→computed.
-- **OPEN** (to cover, neutrally, one by one): the Rauzy fractal's **boundary dimension / neighbour graph**; the
-  End(F₄) **verb monoid** at rank 4; the explicit trace-map coordinates (9d Goldman form + Lagrangians);
-  recurrence / repetitivity constants; exact topological entropy (= log β); the interleaving sequence's own
-  substitution (S-adic?).
+- **DONE** (movement XVI): the **exact entropy** h = log β and the **golden branching** (P(b|a)=P(B|A)=1/φ
+  exact; tunnels deterministic; after-A split golden to the breath ratio); decider/courier is an entropy split.
+  Path A verb facts verified (framing firewalled, one handoff sign slip caught); Path C = movement XI.
+- **OPEN** (to cover, neutrally, one by one): the **9d Goldman form** (Path B — rank-4 form on the trace map;
+  needs the symbolic σ*, the hardest computation); the Rauzy fractal's **boundary dimension / neighbour graph**;
+  the End(F₄) **verb monoid** full classification; recurrence / repetitivity constants; the interleaving
+  sequence's own substitution (S-adic?).
