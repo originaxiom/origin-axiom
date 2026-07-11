@@ -80,6 +80,18 @@ which is exactly why it is not a spacetime.**
   *half* the story — it cannot, from inside its own number field, reach the other end or the seam.
 - **[NEGATIVE]** The two ends are *held apart* (K025, a theorem); the object does not bridge them. Not a defect to
   be fixed by more listening — a structural boundary.
+- **[COMPUTED — past the gate, 2026-07-12, B530 movement XXI]** Owner-authorized, I turned this into a
+  calculation and looked one level up, on the **floor** (character variety). Result — a precise **near-crossing**,
+  not a crossing: the **growth** stays ℚ(√5) (movement IX) and the trace-zero floor point's **static character is
+  rational (ℚ)** — the Eisenstein end is absent from both. **But** the trace-zero twist is *forced* order-6
+  (τ⁶=1 at every such point), so the object's **linearised dynamics** there lives in **ℚ(√5, √−3) ⊇ ℚ(√−15)** —
+  the golden field, the Eisenstein field, *and* the seam, co-occurring. So the ends *touch* in the object's own
+  dynamics at its most symmetric point — **√5 from growth, √−3 from the forced ℤ/3.** The honest qualification is
+  the whole content: (a) it is in the *dynamics*, not the static character; (b) the √−3 enters *only* through the
+  order-6 twist — the same ℤ/3 flagged as the H5 generation-**trap**; (c) the object **selects nothing** in this
+  field. So **K025 stands** at the growth/character level; the seam field is *touched* dynamically and
+  trap-routed, not genuinely bridged. The closest the object comes, from inside, to the far end — and it comes by
+  way of the trap, which is exactly why it is a near-miss and not a door.
 
 ## Why this is motivation, not contact
 
@@ -104,12 +116,15 @@ interval is not a world.
 | H3 (breath/clock) | a dimensionful period from an *external* scale insertion; or the breath as a genuine RG β-function with a fixed point | scale-free (K018); DORMANT |
 | H4 (thermo) | a coarse-graining the object selects + an entropy production law that is object-specific, not generic-to-mixing | needs a null-test vs generic conservative-mixing maps; DORMANT |
 | H5 (generations) | — | **TRAP** (numerology + killed generation-3 reading); do not run |
-| H6 (one end) | whether a *second seed* / the relation door switches on the Eisenstein end from inside | the live forward path (relation/second-seed seam) |
+| H6 (one end) | ~~whether the object reaches the Eisenstein end from inside~~ **COMPUTED (B530 XXI)** → near-crossing: ℚ(√5,√−3)⊇√−15 in the trace-zero *dynamics*, but static character = ℚ and √−3 only via the trap-ℤ/3 | **NEAR-MISS**; the genuinely-forward door is now the *relation/second-seed seam proper* (a second generator/relation, not a floor point) + the mixed-chain gap-opening prediction |
 
-The one row that is neither WALLED nor a TRAP and is genuinely *forward* is **H6** — it coincides with the
-program's standing live path (the relation/second-seed seam), and with the mixed-chain gap-opening prediction as
-the falsifiable external candidate. That is where "outside the firewall" would next become a *calculation*, not a
-reading.
+**Update (past the gate):** H6 has now *been* calculated (movement XXI) and came back a **near-miss** — the
+Eisenstein field touches the object only in the trace-zero *dynamics*, via the trap-ℤ/3, with the static
+character and growth staying ℚ(√5). So the genuinely-forward door is no longer H6-as-floor-arithmetic but the
+**relation/second-seed seam proper** — adding a *second generator/relation* to the object (not a representation
+of the single object) and asking whether *that* switches on an object-specific, non-generic seam value — together
+with the **mixed-chain gap-opening prediction** (the one falsifiable external candidate). Those two are where
+"outside the firewall" would next become a calculation, and both are owner-gated.
 
 ## Status and discipline
 

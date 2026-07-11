@@ -462,3 +462,22 @@ def test_movement_XX_interleaving_golden_ratio_not_simplicity():
     # but is NOT Sturmian: p(2) = 4 > 3
     p2 = len({b[i:i + 2] for i in range(len(b) - 2)})
     assert p2 == 4
+
+
+def test_movement_XXI_floor_arithmetic():
+    import importlib.util
+    import os
+    import sympy as sp
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_23_floor_arithmetic.py')
+    spec = importlib.util.spec_from_file_location('l23', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # growth field: char poly disc = -400 -> Q(√5) (movement IX)
+    assert mod.growth_field() == -400
+    # trace-zero point: rational F4-character, but the twist is forced order-6
+    rational, traces, tau = mod.trace_zero_character_is_rational()
+    assert rational                                          # static character in Q -- ends absent
+    assert abs(tau ** 6 - 1) < 1e-6                          # order-6 twist FORCED (brings in √-3)
+    # so the dynamics spectrum field Q(√5,√-3) contains the seam √-15
+    assert mod.spectrum_field_contains_seam()

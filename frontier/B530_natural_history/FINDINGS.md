@@ -536,6 +536,26 @@ Honest and a little flat: the golden **ratio** is preserved, the **simplicity** 
 anticipation says so plainly — one might have hoped the coarse-graining would be the clean golden Sturmian word;
 it isn't. **[MATH, computed]**
 
+## Movement XXI — the arithmetic of the floor: where ℚ(√5) and ℚ(√−3) co-occur
+Movement IX gave the object's **growth** field (Level-0 abelianisation, disc −400): **ℚ(√5)** — the Eisenstein
+field ℚ(√−3) and the field ℚ(√−15) provably **absent**. This movement asks the same arithmetic question one level
+up, on the **floor** (the character variety), and computes a clean answer (`listen_23_floor_arithmetic.py`):
+
+- **The trace-zero floor point has a RATIONAL F₄-character** — every trace computed is 0 or −2. At the level of
+  the static representation, ℚ(√−3) is *absent*, just as in the growth.
+- **But its twist is forced order-6** (τ⁶=1, verified at every trace-zero fixed point found — movement XIX + a
+  30-seed check), and so the linearised-dynamics spectrum {φ,1,−1/φ}⊗{1,ω,ω²} (movement XIX) lives in
+  **ℚ(√5, √−3)**: φ from the golden growth, ω = e^{2πi/3} from the forced twist. This compositum **contains
+  ℚ(√−15)** (√−15 = √5·√−3).
+
+So the two fields ℚ(√5) and ℚ(√−3) — provably held apart in the growth arithmetic (movement IX) — **co-occur in
+the object's own linearised dynamics at its most symmetric point**, in a field that also contains √−15. A pure
+arithmetic-geometry fact: the object touches the compositum ℚ(√5,√−3,√−15) internally, at the trace-zero point,
+through its forced ℤ/3 — *but only in the dynamics* (the static character stays ℚ) and it selects nothing there.
+The firewalled reading of "the two ends and the seam meeting" (and why this is a near-crossing, not a crossing)
+is logged in `speculations/S065`. **[MATH, computed; the physics reading firewalled]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
-Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
-the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.
+Cross-refs: [[K025]] (the two ends held apart — this refines it: apart in growth, adjacent in the floor's
+dynamics), [[K022]], [[B524]] (φ iwip, the mapping-torus group), [[breath-campaign-standing-directive]] (the
+residue ℤ/2). Lock: `tests/test_b530.py`.
