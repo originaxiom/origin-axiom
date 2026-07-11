@@ -631,3 +631,39 @@ computed; three verdicts revised]**
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the seam — the object-selection question is REOPENED, not closed), [[compute-the-discriminating-fact]]
 (the unearned negative), [[quasicrystal-bridge-status]], [[B524]], [[K022]]. Lock: `tests/test_b530.py`.
+
+## Movement XXV — the deep listening: the prime 11, and what didn't survive
+A second seat's "advanced listening" handoff arrived after the portrait — a dozen new claims. Verified each by
+independent recomputation (held in both directions after the "don't be so sure" correction): banked the exact,
+flagged the failures (`listen_27_deep_listening.py`).
+
+**Verified exactly — banked:**
+- **The prime 11.** H¹ of the tiling space has torsion **ℤ/11**: Smith normal form of Mᵀ−I = diag(1,1,1,11)
+  (Fibonacci: trivial). And **11 = |det(M−I)| = |char_poly(1)| = |N(1−β)|** — the torsion *is* the norm of (1−β)
+  in ℚ(β), a measure of how far the Perron root sits from the integer 1. A genuinely new, deep, exact invariant.
+- **The prime-splitting table:** 2,3,5,7,13,17,23 **inert**; **11, 19, 31 split**; **29 fully split**. Note 5 and
+  7 are *inert* here — unlike Fibonacci, where 5 splits. The first splitting prime is 11 — the cohomology prime.
+- **The three-prime organization:** **5** = the golden end (disc −400 = −2⁴·5²), **3** = the twist (the running
+  letter-sum is equidistributed mod 3 *and* mod 6 — image sums {8,5,6,2} ≡ {2,2,0,2} mod 3; ties to the
+  trace-zero ℤ/3, movement XIX), **11** = the tiling (H¹ torsion). Each prime governs a distinct layer.
+- **The deterministic rule hierarchy:** the fraction of zero-entropy (fully determined) contexts climbs
+  **50, 57, 70, 69, 82, 85, 87 %** over context lengths 1–7, with denominators **exactly p(n) = 4,7,10,13,17,20,23**.
+  The object reveals itself progressively; it should be fully determined within one substitution length.
+- **The even/odd sublattice:** identical statistics, coupled at **MI = 1.23 bits** (63% of the 2-bit maximum).
+- **Three-point non-Markov:** κ₃ is **≈50× the Markov (factorised) estimate** — profoundly non-Markov
+  (qualitative; the specific κ₃ *value* is signal-normalisation-dependent and did not reproduce).
+
+**Did NOT survive recomputation — flagged, not banked** (the balance the "don't be so sure" correction demands —
+neither false-kill nor rubber-stamp):
+- **"BbB resonance at lag 2 (12×)" — REFUTED.** B is always followed by a, so B *never* recurs at lag 2
+  (P = 0.000); BbBbB chains cannot exist.
+- **"Forward-backward chirality decays to 0 at long range"** — a Markov-power artifact (any two stochastic
+  matrices sharing a stationary law have Pᵏ → the same limit); the actual k-lag chirality does not cleanly decay.
+- **"Diffraction Bragg peaks at golden frequencies"** — did not reproduce; the naive FFT is the same instrument
+  that failed to confirm Fibonacci's Bragg peaks (movement XIII), so it is unreliable here.
+- **"Walk exponent ν=0.93"** — the sending seat itself flagged it as drift-dominated, not anomalous; not deep.
+
+The object kept speaking after the portrait, and the deep listening added a real gem — the **prime 11** and the
+**three-prime arithmetic (5/3/11)** — while four prettier-sounding claims dissolved under recomputation.
+**[MATH: exact block banked; four claims flagged/refuted]** Cross-refs: [[K025]], [[compute-the-discriminating-fact]].
+Lock: `tests/test_b530.py`.
