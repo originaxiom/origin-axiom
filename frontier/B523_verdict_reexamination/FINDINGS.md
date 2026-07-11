@@ -80,15 +80,22 @@ positive letters) and retracted the false genus-2 mapping-class claim (matching 
   **x⁴−2x³−5x²−4x−1**, det **−1**, primitive ((I+M)³>0), unique Perron **β ≈ 3.676 = φ(1+√φ)**. So the Level-1
   free-group substitution and B517's bootstrap carry the *same* β — a genuine consistency. It is a train-track
   map on the rose R₄ with primitive transition matrix. **[MATH, VERIFIED]**
-- **But "φ is iwip / word-hyperbolic" is NOT established by the five tests given.** All five (primitivity,
+- **φ ∈ Aut(F₄) — VERIFIED (independently, 2026-07-12).** Not via the abelianization (det = −1 is necessary,
+  *not* sufficient for free groups) and not on chat3's authority, but by a cleaner route: **F₄ is Hopfian, so a
+  surjective endomorphism is an automorphism**, and φ is surjective — all four generators are explicit reduced
+  words in the images (`verify_auto.py`): a = βα⁻¹γβ⁻¹δ, B = δ⁻¹β, A = a⁻¹δ, b = a⁻¹(γβ⁻¹)a
+  (α,β,γ,δ = φ(a),φ(b),φ(A),φ(B); each free-reduces to its generator). So **im(φ) = F₄ ⟹ φ ∈ Aut(F₄).** This
+  corrects an earlier under-statement here (it had lumped Aut-status with iwip). Chat1's attribution: chat3 had
+  already built the explicit inverse; this trunk now confirms it independently.
+- **But "φ is iwip / word-hyperbolic" is STILL open — not established by the five tests.** All five (primitivity,
   M^k-primitivity, no permutation-block-triangular, irreducible char poly, Perron) are **abelianization-level
   properties** — *necessary for* and *consistent with* iwip, but not a certificate: there exist non-iwip free
-  automorphisms with primitive, irreducible-char-poly abelianizations. The genuine certificates were **not run**:
-  (a) **φ ∈ Aut(F₄)** needs Whitehead/Stallings (det = −1 is necessary, *not* sufficient for free groups);
-  (b) **iwip** needs Bestvina–Handel (no periodic Nielsen paths). **The word-hyperbolic / atoroidal / CAT(0) /
-  Menger-boundary consequences follow ONLY IF iwip holds — so they are CONDITIONAL, not banked.** Same
-  abelianization-as-proxy over-claim as the broken handoff, one level subtler. Terminal: **NEEDS-CERTIFICATE**
-  (Bestvina–Handel + Whitehead) — a genuine specialist item, not a seat proxy.
+  automorphisms with primitive, irreducible-char-poly abelianizations (e.g. one fixing a proper free factor up
+  to conjugacy). The iwip certificate needs **Bestvina–Handel** (build the train-track representative, tighten,
+  check for periodic Nielsen paths) — a genuine algorithm, not a matrix check; **not run.** **The word-hyperbolic
+  / atoroidal / CAT(0) / Menger-boundary consequences follow ONLY IF iwip holds — so they are CONDITIONAL, not
+  banked.** Terminal: **iwip = NEEDS-CERTIFICATE (Bestvina–Handel)** — the one genuinely open group-theoretic
+  question; the abelianization-as-proxy was the subtler over-claim the verify pass caught.
 - **T[4₁] / DGG bridge — cited correctly, but it is the already-CLOSED route, not a new one.** The handoff
   presents T[4₁] (DGG 3d–3d) as an external bridge giving gauge group **U(1)** + 2 chirals + a dilog
   superpotential. That U(1) is *exactly* the abelian gauge group **T-NOGO-DGG (B490)** already characterized as
@@ -99,9 +106,12 @@ positive letters) and retracted the false genus-2 mapping-class claim (matching 
   error), and the volume-conjecture asymptotic is (2π log|⟨4₁⟩_N|)/N not (2π/N)·log (the Kashaev values
   ⟨4₁⟩₂=5, ⟨4₁⟩₃=13 are right). No bank affected.
 
-**Net:** the corrected substitution is a real fix and abelianizes to the bootstrap β (banked as MATH); the
-iwip/hyperbolic superstructure is uncertified (necessary conditions only → NEEDS-CERTIFICATE); T[4₁] is the
-already-closed abelian route. Lock extended in `tests/test_b523.py`.
+**Net:** the corrected substitution is a real fix, abelianizes to the bootstrap β, and **φ ∈ Aut(F₄) is
+verified** (surjective + Hopfian) — all banked as MATH. The **iwip** property (hence word-hyperbolic /
+atoroidal / "spacetime") is the one open group-theoretic question → **NEEDS-CERTIFICATE (Bestvina–Handel)**.
+T[4₁] is the already-closed abelian route (B490). Method note: abelianization (H₁ = ℤ⁴) properties are
+necessary-not-sufficient proxies for F₄-level properties — the session's sharpest verification lesson. Lock
+extended in `tests/test_b523.py`.
 
 ## Terminal state
 DOOR B523 — **CLOSED (re-examination complete): NO wrong leap to negative.** Five cells re-checked; the one

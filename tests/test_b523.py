@@ -83,4 +83,30 @@ def test_corrected_substitution_is_injective_and_abelianizes_to_bootstrap():
     # primitive (Perron-Frobenius): (I+M)^3 entrywise > 0  -- necessary, NOT sufficient, for iwip
     P = ((sp.eye(4) + M) ** 3)
     assert all(P[i, j] > 0 for i in range(4) for j in range(4))
-    # NOTE: iwip + phi in Aut(F4) are NOT certified by these -- need Bestvina-Handel + Whitehead.
+    # NOTE: iwip is NOT certified by these (needs Bestvina-Handel). Aut(F4) IS -- see below.
+
+
+def test_corrected_substitution_is_an_automorphism_surjective_hopfian():
+    """phi in Aut(F4) via surjectivity + Hopficity: all 4 generators are words in the images."""
+    def inv(w):
+        return [c[:-1] if c.endswith('~') else c + '~' for c in reversed(w)]
+
+    def red(w):
+        st = []
+        for c in w:
+            if st and ((st[-1].endswith('~') and st[-1][:-1] == c) or
+                       (c.endswith('~') and c[:-1] == st[-1])):
+                st.pop()
+            else:
+                st.append(c)
+        return st
+
+    img = {'a': ['a', 'b', 'A', 'A', 'B'], 'b': ['a', 'A', 'B'],
+           'A': ['a', 'b', 'A', 'B'], 'B': ['a', 'A']}
+    al, be, ga, de = img['a'], img['b'], img['A'], img['B']
+    a = red(be + inv(al) + ga + inv(be) + de)          # a = beta alpha^-1 gamma beta^-1 delta
+    B = red(inv(de) + be)                               # B = delta^-1 beta
+    A = red(inv(a) + de)                               # A = a^-1 delta
+    b = red(inv(a) + red(ga + inv(be)) + a)            # b = a^-1 (gamma beta^-1) a
+    assert a == ['a'] and b == ['b'] and A == ['A'] and B == ['B']  # all gens in im(phi)
+    # => phi surjective => (F4 Hopfian) phi in Aut(F4).  Only iwip stays open (Bestvina-Handel).
