@@ -555,7 +555,28 @@ through its forced ℤ/3 — *but only in the dynamics* (the static character st
 The firewalled reading of "the two ends and the seam meeting" (and why this is a near-crossing, not a crossing)
 is logged in `speculations/S065`. **[MATH, computed; the physics reading firewalled]**
 
+## Movement XXII — the tight-binding gap structure, and the density-trap wall (past the gate)
+Second owner-authorized past-the-gate computation: the object's **spectral gap structure** — the substrate of the
+one *falsifiable* external candidate (the mixed-chain combination-gap prediction, `speculations/S065` H4). Since
+the object is a proven quasicrystal, a tight-binding Hamiltonian on its sequence has a gap-labeled Cantor spectrum
+(`listen_24_gap_structure.py`, Sturm-count IDS at N=200000 — the exact tool B172 used).
+
+- **The object has a real quasicrystal gap spectrum** — many gaps (E-widths 1.4, 1.2, 0.8, 0.5, …), each labelled
+  by the golden-tensor frequency ℤ-module.
+- **But the combination-gap signature is density-trapped.** The falsifiable prediction is whether the object opens
+  genuine *rank-2* combination gaps (labels needing two module generators — which neither Fibonacci copy alone
+  has). A **margin test** (2nd-best module-fit / best-fit) returns **≈1.0 for every gap**: with four generators the
+  module is dense enough that *no* gap can be assigned a rank — even the clean rank-1 gaps (f_a, f_B) are
+  indistinguishable from rank-4 fits at numerical tolerance.
+
+So — carefully, refusing both errors — **not** "the object opens combination gaps" (that is the B171 density-trap
+error), and **not** "it has none" (numerics cannot refute them). The honest verdict: **the falsifiable mixed-chain
+prediction is real but not numerically resolvable in-sandbox — it needs *exact algebraic* gap-labelling**, the
+same finite-size-floor NEEDS-SPECIALIST wall B172 documented for the metallic chains, now confirmed for the
+object. Going past the gate, twice, reached the object's true boundary: an honest wall, not a crossing. **[MATH,
+computed; the physics reading + the standing falsifiable candidate firewalled in S065]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
-Cross-refs: [[K025]] (the two ends held apart — this refines it: apart in growth, adjacent in the floor's
-dynamics), [[K022]], [[B524]] (φ iwip, the mapping-torus group), [[breath-campaign-standing-directive]] (the
-residue ℤ/2). Lock: `tests/test_b530.py`.
+Cross-refs: [[K025]] (the two ends held apart — refined: apart in growth, adjacent in the floor's dynamics),
+[[quasicrystal-bridge-status]] (the density-trap / combination-gap machinery, B171–B173), [[B524]], [[K022]],
+[[breath-campaign-standing-directive]]. Lock: `tests/test_b530.py`.

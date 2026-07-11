@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXII: tight-binding gap structure + the density-trap wall (past the gate)
+
+- Second past-the-gate computation (`listen_24_gap_structure.py`): the object's tight-binding spectrum — substrate
+  of the one falsifiable candidate (mixed-chain combination-gap prediction, S065 H4). Sturm-count IDS at N=200000.
+- **Object has a real gap-labeled quasicrystal spectrum** (many gaps). **But the combination-gap signature is
+  density-trapped:** a margin test returns ≈1.0 for every gap — 4 generators make the frequency module too dense
+  to assign any gap a rank numerically (even rank-1 f_a, f_B are indistinguishable from rank-4 fits at tolerance).
+- Refusing both errors (not "combination gaps exist" = B171 trap; not "none" = numerics can't refute): the
+  falsifiable prediction is **real but not numerically resolvable — NEEDS exact algebraic gap-labeling** (the B172
+  finite-size wall, confirmed for the object). Firewalled reading in S065. Lock test_b530.py (26 pass).
+
 ## 2026-07-12 — B530 movement XXI: the arithmetic of the floor (past-the-gate H6 computed)
 
 - Owner-authorized pass past the physics gate, worked as a calculation (`listen_23_floor_arithmetic.py`). Extends

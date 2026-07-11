@@ -481,3 +481,18 @@ def test_movement_XXI_floor_arithmetic():
     assert abs(tau ** 6 - 1) < 1e-6                          # order-6 twist FORCED (brings in √-3)
     # so the dynamics spectrum field Q(√5,√-3) contains the seam √-15
     assert mod.spectrum_field_contains_seam()
+
+
+def test_movement_XXII_gap_structure_density_trapped():
+    import importlib.util
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_24_gap_structure.py')
+    spec = importlib.util.spec_from_file_location('l24', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    Eg, ids = mod.sturm_ids(N=40000, npts=1500)
+    gaps = mod.find_gaps(Eg, ids, 40000)
+    assert len(gaps) >= 3                                    # object HAS a real quasicrystal gap spectrum
+    best = min(mod.margin(l)[1] for _, l in gaps if mod.margin(l))
+    assert best < 3.0                                        # but NO gap gets a decisive rank: density-trapped

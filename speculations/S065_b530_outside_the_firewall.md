@@ -61,6 +61,15 @@ which is exactly why it is not a spacetime.**
 - **[NEGATIVE]** Still no scale, no temperature, no coarse-graining chosen by the object. The honest arrow of time
   the program has is the Ω-DAG's forward growth ([[S035]]), not this map (which is reversible). This is a
   *substrate-shaped* hook, not a dynamics.
+- **[COMPUTED — past the gate, 2026-07-12, B530 movement XXII]** The *falsifiable* face of this hook is the
+  mixed-chain combination-gap prediction: does the object, as a tight-binding quasicrystal, open genuine **rank-2
+  combination gaps** (a spectral signature neither Fibonacci copy has, measurable in a real chain)? Computed
+  (Sturm-count IDS, N=200000): the object **has** a real gap-labelled quasicrystal spectrum, **but** the
+  combination-gap signature is **density-trapped** — a margin test returns ≈1.0 for every gap (four generators ⇒
+  the frequency module is too dense to assign any gap a rank numerically). Refusing both errors (not "combination
+  gaps exist" = the B171 trap; not "none exist" = numerics can't refute), the verdict is: **real but not
+  numerically resolvable — NEEDS exact algebraic gap-labelling** (the finite-size wall of B172, now confirmed for
+  the object). The falsifiable candidate stands, unresolved, at that wall.
 
 ### H5 — the trace-zero point: golden × cube-roots  **(flagged trap)**
 - **[MATH]** At the trace-zero representation (every generator order 4; twist a primitive 6th root of unity),
