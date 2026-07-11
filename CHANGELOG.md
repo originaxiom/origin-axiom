@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XXXII: wall-crossing inventory verified
+
+- Verified the wall-crossing handoff — comprehensive inventory of frozen predictions.
+- **Three frozen gap labels VERIFIED** (Bellissard gap-labeling theorem): IDS = 0.2720, 0.4401, 0.7862
+  (cumulative Perron frequencies), V-independent across four potential strengths. Gaps follow the
+  letter hierarchy (structural-old / old-new boundary / tunnel-new complement).
+- **Dynamical zeta function VERIFIED**: |det(M^k−I)| for k=1,...,12 with exact prime factorizations.
+  11 divides all values (universal signature prime). 89 enters at k=8 (parity discriminant);
+  101 = f(−3) enters at k=10.
+- **Corrections applied**: recognizability "9" → diameter 7 (XXXI); bounded remainder "~15" → ~1.6 (XXXI);
+  mixed-chain gap-opening slopes flagged as UNCOMPUTED conjecture, not frozen prediction.
+- 35 locks (1 new).
+
 ## 2026-07-12 — B530 movement XXXI: handoff verification
 
 - Verified four items from a second seat's handoff (`listen_36_handoff_verification.py`):
