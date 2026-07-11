@@ -430,3 +430,22 @@ def test_movement_XVIII_rauzy_boundary_is_fractal():
     obj = mod.rauzy(mod.OBJ, 'abAB', 600000)
     ob = mod.boundary_dim(obj, [0.11, 0.085, 0.066, 0.051])
     assert 2.0 < ob < 3.0, ob
+
+
+def test_movement_XIX_golden_ladder_at_trace_zero_point():
+    import importlib.util
+    import os
+    import numpy as np
+    p = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history',
+                     'listen_21_golden_ladder_point.py')
+    spec = importlib.util.spec_from_file_location('l21', p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    T, Ms = mod.trace_zero_point()
+    # the special point is the trace-zero representation (every generator order 4)
+    assert all(abs(np.trace(Ms[g])) < 1e-4 for g in 'abAB')
+    assert all(np.allclose(Ms[g] @ Ms[g], -np.eye(2), atol=1e-4) for g in 'abAB')
+    # its twist is a primitive 6th root of unity
+    assert abs(T[0, 0] ** 6 - 1) < 1e-6 and abs(T[0, 0] ** 3 + 1) < 1e-6
+    # and Dsigma* is exactly {phi,1,-1/phi} (x) {1,omega,omega^2}
+    assert mod.ladder_matches(mod.dsigma_spectrum(T, Ms)) == 9

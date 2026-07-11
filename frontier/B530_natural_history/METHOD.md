@@ -44,7 +44,9 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
   volume-preserving-but-non-symplectic.
 - **DONE** (movement XVIII): the Rauzy tile's **boundary dimension** ≈ 2.35 (box-count, calibrated on
   Tribonacci) — strictly in (2,3), a fractal solid. Exact contact-matrix value flagged.
+- **DONE** (movement XIX): the golden eigenvalue ladder **explained** — it lives at the **trace-zero
+  representation** (every generator order 4), whose twist is a primitive 6th root of unity, where
+  Dσ* = {φ,1,−1/φ}⊗{1,ω,ω²} exactly (golden × cube-roots).
 - **OPEN** (to cover, neutrally, one by one): the exact boundary dimension via the **contact/boundary
   substitution matrix** (Siegel–Thuswaldner); the End(F₄) **verb monoid** full classification; recurrence /
-  repetitivity constants; the interleaving sequence's own substitution (S-adic?); the special-fixed-point golden
-  eigenvalue ladder (why does one fixed point carry |λ|∈{1/φ,1,φ}×3?).
+  repetitivity constants; the interleaving sequence's own substitution (S-adic?).
