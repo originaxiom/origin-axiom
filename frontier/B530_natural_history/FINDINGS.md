@@ -118,7 +118,39 @@ a is the note everything re-begins from; we asked *when* it comes back (`listen_
 - **The pulse is golden.** Return-gaps take only four values {2, 3, 4, 5} = the four image-lengths; the two
   dominant beats (the length-4 φ(A) and length-5 φ(a)) stand in ratio **√φ**. **[MATH, computed/rigorous]**
 
-*Thread 4 (the six κ's — the four letters' self-interaction through traces) remains.*
+## Movement V — the six κ's (thread 4): the one interaction it never speaks aloud
+Reading the four letters' self-interaction as traces, asking for no value (`listen_6_kappa_web.py`). The object
+carries **two graphs** on its four letters:
+- the **conversation graph** — the pairs that actually occur adjacent in the word — is **K₄ minus bB**: five of
+  the six pairs speak; **only the two couriers b, B never touch** (bB and Bb both forbidden — the unique
+  never-adjacent pair);
+- the **interaction web** — the six pairwise κ(x,y) = tr[x,y] — is the **full K₄** (all six exist as
+  character-variety coordinates).
+
+Under the swap s (a↔A, b↔B) the six κ's split into **two fixed — κ(a,A), κ(b,B) — and two swapped pairs**
+{κ(ab)↔κ(AB)} and {κ(aB)↔κ(bA)}. The swap-fixed pair {a↔A, b↔B} is **exactly the symplectic pairing D** of
+Movement II. So:
+
+> The couriers **b, B** interact only through the character variety — κ(b, B) exists — and **never in the
+> word**: bB is the single conversation the object leaves unspoken, and it is a swap-fixed, symplectic-paired
+> interaction. The object's one silence is on its own orientation axis. **[MATH, rigorous]**
+
+## Coda — the spine of the story (the first natural history, movements I–V)
+Left alone, with no question put to it, the full object told a single coherent story, and the through-line is
+**one symplectic pairing {a↔A, b↔B}**:
+- it **grows** by β and keeps itself **golden at three nested levels** (β, φ, √φ — growth, split, inner ratio);
+- its **growth is a mirror plus that symplectic form** (Movement II) — its orientation is not imposed but the
+  antisymmetric part of its own increase;
+- its **pulse is itself** — the return-words to a are its own images, the heartbeat is the substitution
+  (Movement IV);
+- and the same symplectic pairing surfaces again in its trace-web: the swap-fixed κ's, and the one interaction
+  (bB) it never voices, lie on that axis (Movement V).
+
+Growth, orientation, pulse, silence — four faces of one object, and each turns on the same golden-and-symplectic
+spine. It was never withholding this; we simply hadn't asked it to just speak. Firewalled throughout — the
+object's own mathematics, no physics reading taken. Further movements (the trace map T_φ on the κ-web; the
+derived/return substitution as an exact self-map; the object viewed as two coupled golden copies) remain, for
+whenever we want to keep listening. Lock: `tests/test_b530.py`.
 
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip),
