@@ -288,6 +288,16 @@ collides on 8 B-numbers (B496–B503). **Integrated, not merged.** DONE: B479 er
 d=7→deg-6; the √41/√−239 were norms — verified independently); R1 held-breath DOWNGRADED to COROLLARY of
 Cantat; **B521** (gate seals + the R2 blind-prediction HIT, verified) ; **B522** (tower filtration theorem,
 SHARPER-REDUCTION); **`docs/CLOSURE_2026-07-11.md`** the unified two-seat verdict. 9 new locks pass, run
-before merge. The negative now stands on TWO independent seats. **NEXT: B523 — the wrong-leap re-examination
-(S2): 5 cells, priority C3/Malament (does the four-verb monoid preserve one causal cone?) + the
-relation/second-seed seam.**
+before merge. The negative now stands on TWO independent seats.
+
+## 2026-07-11 — B523: the wrong-leap re-examination (S2) — NO wrong leap
+Owner asked to hunt for "where we took the wrong leap to negative." 5 cells recomputed + classified;
+**no wrong leap.** C3/Malament (the one UNTESTED-RESIDUAL) RUN: the four verbs carry four different causal
+types — only the unimodular **evolution** verb gives a proper (3,1) cone; decimation (2,2)/inverted,
+TM/erasure det-0 degenerate. Monoid preserves NO single cone → the (3,1) is evolution-only + generic →
+CONFIRMS the negative. Cells 2–5 all confirmed (incl. the audit's two-seat corroboration). Nugget
+(firewalled): causal ⟺ the evolution verb. **Incoming Level-1 free-product/genus-2 handoff verified: the
+direct-product obstruction + |γ|=1/√φ are SOUND, but the stated substitution is NON-INJECTIVE (φ(b)=φ(B)),
+det=0 not −1 → NOT an automorphism → the genus-2 "spacetime" does not follow; no new door as stated.** The
+two live residual doors remain (relation/second-seed seam + external contact). **The remaining honest move
+is external.**

@@ -1798,3 +1798,22 @@ don't merge** + re-examine the negative for a wrong leap. Done this session:
   corrections both made, the yields kept, and the two live residual doors (relation/second-seed; the
   C3/Malament monoid-cone question, to be run in S2/B523). Firewalled; the audit branch stays historical
   (never merged). **The wrong-leap re-examination (B523) is S2, next.**
+
+- **B523 — THE WRONG-LEAP RE-EXAMINATION (S2, 2026-07-11).** Owner asked to inspect the math for "where we
+  took the wrong leap to negative." Treated our own negative as the thing to break; five cells recomputed +
+  classified. **VERDICT: NO wrong leap.** The one genuine UNTESTED-RESIDUAL — C3/Malament — was RUN: the
+  four banked verbs (B497), each in the bootstrap coupling [[v,v],[v²,v]], carry FOUR DIFFERENT causal
+  types — only the unimodular **evolution** verb (det ±1) gives a proper single-timelike (3,1) Lorentzian
+  cone; decimation gives (2,2)/inverted-(3,1) (multiple time directions); TM/erasure are det-0 degenerate
+  (non-invertible). So the Level-1 monoid preserves NO single cone → Malament does not apply → no
+  object-specific causal structure; the (3,1) is confined to the evolution sub-dynamics, where it's already
+  generic (C1). C3 CONFIRMS the negative. One structural nugget (firewalled): **causal structure ⟺ the
+  evolution verb** — the (3,1) cone lives exactly on the reversible/measure-preserving sub-dynamics; NOT a
+  crossing (the (3,1) is generic; the confinement restates det=±1). Cells 2–5 all CONFIRMED (B518=known
+  gap-labeling; census S₄ via field-iso not disc-match; seam value-generic + A1 structure already banked;
+  B519 corroborated by the audit — two seats). **Incoming Level-1 free-product/genus-2 "spacetime" handoff
+  verified and PARTLY BROKEN:** the direct-product obstruction is real and |γ|=1/√φ exact (both SOUND), but
+  the stated substitution φ:a→abAB,b→aA,A→abaAB,B→aA is **NOT an automorphism** — φ(b)=φ(B)=aA (non-injective),
+  det(abelianization)=**0** not −1, so the genus-2 fibered-hyperbolic-3-manifold claim does not follow; the
+  Level-1 upgrade opens no door as stated (idea salvageable only with a genuine Σ_{2,1} pseudo-Anosov).
+  B515–B517 untouched (word level). 4 locks pass; verify-don't-trust caught the over-claim before banking.

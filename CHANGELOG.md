@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-11 — B523: the wrong-leap re-examination (no leap found) + a broken Level-1 handoff
+
+- **B523 (S2):** treated the program's own negative as the thing to break; 5 cells recomputed + classified.
+  **No wrong leap.** The one UNTESTED-RESIDUAL, **C3/Malament**, was run: the four banked verbs carry four
+  different causal types — only the unimodular **evolution** verb yields a proper (3,1) Lorentzian cone;
+  decimation → (2,2)/inverted, TM/erasure → det-0 degenerate. The Level-1 monoid preserves **no single
+  causal cone** → Malament n/a → the (3,1) is evolution-only and generic. **Confirms the negative.** Nugget
+  (firewalled): causal structure ⟺ the evolution (measure-preserving) verb.
+- **Incoming Level-1 free-product/genus-2 handoff — verified, partly broken.** SOUND: the direct-product
+  obstruction (F₂×F₂ irreps tensor-factor) + |γ|=1/√φ exact. BROKEN: the stated substitution is NOT an
+  automorphism (φ(b)=φ(B)=aA, non-injective, det=0 not −1) → the genus-2 "spacetime" does not follow. No new
+  door as stated; B515–B517 untouched. Lock `test_b523.py` (4 pass).
+
 ## 2026-07-11 — audit reconciliation: integrate-don't-merge + the two-seat closure
 
 - **Parallel closure audit checked before merging (owner directive).** Fable-5's Closure Campaign
