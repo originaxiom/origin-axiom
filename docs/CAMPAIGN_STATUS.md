@@ -48,6 +48,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B531 — Trace-Map Gate Campaign)
+- **B531 T1 (2026-07-12) — slopes to depth 12.** s₁ = 0.1914, s₂ = 0.1524, ratio = 1.2565
+  (corrects XXXIII handoff values). Gap 3 = PERIOD-2 oscillation: 0.1244/0.1539 at even/odd
+  depths; mechanism = negative contracting eigenvalue λ₂ ≈ −0.440. 9 locks.
+- **B531 T2 — control (Arnoux-Rauzy 4-letter).** Even/odd alternation GENERIC; clean period-2
+  SPECIFIC to our substitution. 3 locks.
+- **B531 T3 — Fourier.** |V̂| ordering matches slope ordering; s ≈ 2.1×|V̂| with 12% DOS
+  correction. Gap 1 = strongest Bragg peak. 3 locks.
+
 ## LAST BANKED (B530 natural history)
 - **B530 movement XXXIII (2026-07-12) — gap-opening curves verified (SELF-CORRECTED).** After
   depths 8–9: gap 1 slope ≈ 0.184 (handoff correct), gap 2 ≈ 0.153 (correct), gap 3 oscillates
