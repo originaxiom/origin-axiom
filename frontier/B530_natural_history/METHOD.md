@@ -28,7 +28,11 @@ an agenda*: it fixes how to look, never what to find. Firewalled throughout; not
   floor (irreducible SL₂(ℂ) reps of F₄⋊_φℤ) is a positive-dimensional variety; MI mixing (qualitative only).
 - **DONE** (movement XII): the **eigenvector geometry** — expand in 1 / contract in 3; the breath γ is doubly
   golden (radius 1/√φ, cos angle −1/√φ, Re −1/φ) but its 141.83° turn is **NOT** the golden angle (honest null).
-- **OPEN** (to cover, neutrally, one by one): the End(F₄) **verb monoid** at rank 4; the **explicit** trace-map
-  coordinates (the 9d Goldman form + its Lagrangians — existence is settled, coordinatisation is not); the 3d
-  Rauzy tile's own invariants; recurrence / repetitivity constants; the exact topological entropy; the
-  interleaving sequence's own substitution (S-adic?).
+- **DONE** (movement XIII): the **spectral character** — the object is an irreducible unimodular primitive
+  **Pisot substitution with strong coincidence** (controls validated), so it is **quasiperiodic** (pure-discrete
+  class, theory-indicated), a 3-d quasicrystal — **NOT mixing**; this *corrected* movement XI's MI over-read.
+- **OPEN** (to cover, neutrally, one by one): the **overlap / balanced-pair coincidence certificate** (the
+  specialist-grade proof of pure discrete spectrum — de-risked in XIII, not certified); the **explicit** 3-d
+  Rauzy fractal + its boundary/tiling; the End(F₄) **verb monoid** at rank 4; the explicit trace-map coordinates
+  (9d Goldman form + Lagrangians); recurrence / repetitivity constants; exact topological entropy (= log β);
+  the interleaving sequence's own substitution (S-adic?).

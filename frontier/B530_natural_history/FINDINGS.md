@@ -346,6 +346,40 @@ not say it. The golden ratio governs the breath's *radius* and the *cosine* of i
 is its own number. (M is non-normal, ‖[M, Mᵀ]‖ = 6 ≠ 0 — exactly what a genuine rotation-mode requires,
 movement VII.) **[MATH, computed; one rich relation + one honest null]**
 
+## Movement XIII — the object is a Pisot substitution with strong coincidence: quasiperiodic, not mixing
+Listening to the spectral character — and it forced an honest **self-correction of movement XI**
+(`listen_15_pisot_quasicrystal.py`). Spectral type of a substitution is decided *combinatorially*, not by FFT.
+
+**Computed, rigorously:**
+- The object is a **primitive, irreducible, unimodular, Pisot substitution**: char poly x⁴−2x³−5x²−4x−1 is
+  irreducible over ℚ; β = 3.6762 is a Pisot number (all conjugates inside the unit circle — movement XII);
+  det M = −1; M primitive.
+- It satisfies the **Arnoux–Ito strong coincidence condition**. The test is *validated on controls* —
+  **Thue–Morse → False** (the textbook singular-spectrum case), **Fibonacci & Tribonacci → True**. The object
+  passes, and *trivially so*: **every image begins with `a`** (the movement-I "always re-begin from a" rule),
+  so every letter-pair coincides at the empty prefix. The object's simplest grammar rule is what puts it in
+  the coincidence class.
+
+**Consequence (theory-indicated, not certified here):** this is exactly the hypothesis class for **pure
+discrete spectrum** (Arnoux–Ito; the Pisot substitution conjecture, proven in many cases). So the object is
+expected to be measurably a **rotation on 𝕋³** — a genuine **cut-and-project quasicrystal**, its Rauzy fractal
+tiling the 3-d contracting space ℝ¹⊕ℂ (movement XII). The specialist-grade certificate is the overlap /
+balanced-pair coincidence algorithm — **flagged, not run** (de-risked, not certified). **[MATH, computed +
+theory-indicated]**
+
+**Correction to movement XI (banked equally):** the letter-MI "mixing" reading is **downgraded**. Substitution
+subshifts are *never* strongly mixing (Dekking–Keane), and a Pisot substitution with strong coincidence is
+quasiperiodic. The MI decay over k≤400 is a **finite-window artifact** — unreliable: the *same* numerics can't
+even confirm Fibonacci's known Bragg peaks, and Fibonacci's own MI recurrence only surfaces near k≈377, past
+where the object's degree-4 complex-eigenvalue rotation would recur. Movement XI had already flagged its decay
+*constant* as non-robust and left it unbanked; movement XIII fixes the *interpretation*: **the object is
+quasiperiodic (discrete-spectrum class), not mixing.** The qualitative "short-range correlations" phrase in XI
+should be read as "correlations I could not see recur inside k≤400," not as ergodic mixing.
+
+This links the natural history back to the banked **quasicrystal bridge** (κ=2+λ²→Fibonacci quasicrystal at
+Level 0): the *full 4-letter object* is the Level-1 lift — a 3-d quasicrystal, forced by its own re-begin rule.
+Cross-refs: [[quasicrystal-bridge-status]], [[K007]], [[K010]]. **[MATH]**
+
 This is banked as the object's own mathematics (STRUCTURE), a patient natural history — listening, not forcing.
 Cross-refs: [[K025]] (the one root), [[K022]] (the symmetric centre / symplectic reading), [[B524]] (φ iwip,
 the mapping-torus group), [[breath-campaign-standing-directive]] (the residue ℤ/2). Lock: `tests/test_b530.py`.

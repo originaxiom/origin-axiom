@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B530 movement XIII: a Pisot substitution with strong coincidence (quasiperiodic, not mixing)
+
+- Listening to the spectral character (`listen_15_pisot_quasicrystal.py`); spectral type is decided
+  combinatorially, not by FFT. **Computed:** the object is a primitive, irreducible, unimodular **Pisot**
+  substitution (irreducible char poly, β Pisot, det −1) satisfying the **Arnoux–Ito strong coincidence
+  condition** — code validated on controls (Thue–Morse→False singular; Fibonacci/Tribonacci→True). The object
+  passes *trivially*: every image begins with `a` (the movement-I re-begin rule).
+- **Consequence (theory-indicated, not certified):** the hypothesis class for **pure discrete spectrum** →
+  the object is a **3-d cut-and-project quasicrystal** (Rauzy fractal tiling ℝ¹⊕ℂ). The overlap/balanced-pair
+  coincidence certificate is flagged as the specialist-grade confirmation (de-risked, not run).
+- **Correction to movement XI:** the letter-MI "mixing" reading is **downgraded**. Substitution subshifts are
+  never strongly mixing (Dekking–Keane); the object is quasiperiodic. The MI decay over k≤400 was a
+  finite-window artifact (the same numerics can't confirm Fibonacci's own Bragg peaks). XI's decay *constant*
+  was already unbanked; XIII fixes the *interpretation*. Links to the banked quasicrystal bridge (Level-0
+  κ=2+λ²→Fibonacci; the full 4-letter object is the Level-1 3-d lift). Lock test_b530.py (17 pass).
+
 ## 2026-07-12 — B530 movement XII: the eigenvector geometry of the growth
 
 - Next neutral census item (`listen_14_eigenvector_geometry.py`): the four growth modes read for their
