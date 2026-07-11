@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — REORIENTATION: listen to the object, not physics (B530 = natural history, movement I)
+
+- Owner: *"we did a mistake going for physics instead of slowly properly investigating the full natural
+  interaction of the object... listen to its beautiful story instead of forcing it to spit what we like to
+  hear."* Mode shift banked (memory: listen-to-the-object-not-physics). Study the FULL object (the 4-letter
+  φ, iwip) as mathematics in its own right; no physics forcing.
+- **B530 movement I — the object's own grammar** (computed, firewalled): it breathes by β=φ(1+√φ); splits
+  itself in the **golden section** into *deciders* {a,A} (weight = β exactly) and *couriers* {b,B} (weight
+  β/φ), ratio φ; speaks a strict **7-of-16** grammar; is almost swap-symmetric (a↔A, b↔B) broken by a
+  **single self-loop A→A** (candidate origin of the ℤ/2 orientation residue); the couriers are deterministic
+  (b→A, B→a) and every image re-begins from a. Lock `test_b530.py` (4 pass).
+
 ## 2026-07-12 — B529: the QCA covariance make-or-break — verified, does NOT pass as a selection
 
 - The exploration seat's LOCALITY gate: a 1D quantum walk whose "spectral nesting cost" claims the max-mixing
