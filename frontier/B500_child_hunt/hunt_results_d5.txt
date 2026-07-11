@@ -1,0 +1,143 @@
+B500 child hunt: target d_K=-283
+depth-5 all-three-verb words: 150
+FFFMD: eliminant deg 24; wild/notable: none
+FFFDM: eliminant deg 19; wild/notable: ['deg7 ord5040 NONAB']
+FFMFD: eliminant deg 22; wild/notable: ['deg8 ord40320 NONAB']
+FFMMD: eliminant deg 43; wild/notable: none
+FFMDF: eliminant deg 1326; wild/notable: ['deg4 ord8 NONAB']
+FFMDM: eliminant deg 27; wild/notable: ['deg6 ord720 NONAB', 'deg7 ord5040 NONAB']
+FFMDD: eliminant deg 68; wild/notable: none
+FFDFM: eliminant deg 34; wild/notable: none
+FFDMF: eliminant deg 1256; wild/notable: ['deg7 ord5040 NONAB']
+FFDMM: eliminant deg 29; wild/notable: ['deg5 ord120 NONAB', 'deg7 ord5040 NONAB']
+FFDMD: eliminant deg 42; wild/notable: none
+FFDDM: eliminant deg 27; wild/notable: none
+FMFFD: eliminant deg 40; wild/notable: none
+FMFMD: eliminant deg 64; wild/notable: none
+FMFDF: eliminant deg 1220; wild/notable: ['deg6 ord72 NONAB', 'deg8 ord40320 NONAB']
+FMFDM: eliminant deg 38; wild/notable: none
+FMFDD: eliminant deg 93; wild/notable: none
+FMMFD: eliminant deg 54; wild/notable: none
+FMMMD: TIMEOUT
+FMMDF: eliminant deg 2564; wild/notable: none
+FMMDM: eliminant deg 48; wild/notable: none
+FMMDD: TIMEOUT
+FMDFF: eliminant deg 1657; wild/notable: ['deg4 ord8 NONAB']
+FMDFM: eliminant deg 64; wild/notable: none
+FMDFD: eliminant deg 82; wild/notable: none
+FMDMF: eliminant deg 2272; wild/notable: ['deg6 ord720 NONAB', 'deg7 ord5040 NONAB']
+FMDMM: TIMEOUT
+FMDMD: TIMEOUT
+FMDDF: eliminant deg 2520; wild/notable: none
+FMDDM: eliminant deg 46; wild/notable: ['deg11 ord39916800 NONAB', 'deg11 ord39916800 NONAB']
+FMDDD: TIMEOUT
+FDFFM: eliminant deg 27; wild/notable: ['deg6 ord72 NONAB', 'deg8 ord40320 NONAB']
+FDFMF: eliminant deg 1792; wild/notable: none
+FDFMM: eliminant deg 47; wild/notable: none
+FDFMD: eliminant deg 75; wild/notable: none
+FDFDM: eliminant deg 49; wild/notable: none
+FDMFF: eliminant deg 1236; wild/notable: ['deg7 ord5040 NONAB']
+FDMFM: eliminant deg 38; wild/notable: none
+FDMFD: eliminant deg 56; wild/notable: none
+FDMMF: eliminant deg 2472; wild/notable: ['deg5 ord120 NONAB', 'deg7 ord5040 NONAB']
+FDMMM: TIMEOUT
+FDMMD: TIMEOUT
+FDMDF: eliminant deg 2520; wild/notable: none
+FDMDM: eliminant deg 48; wild/notable: none
+FDMDD: TIMEOUT
+FDDFM: eliminant deg 80; wild/notable: none
+FDDMF: eliminant deg 2604; wild/notable: none
+FDDMM: eliminant deg 46; wild/notable: ['deg9 ord362880 NONAB', 'deg11 ord39916800 NONAB']
+FDDMD: TIMEOUT
+FDDDM: eliminant deg 1764; wild/notable: none
+MFFFD: eliminant deg 23; wild/notable: ['deg7 ord5040 NONAB']
+MFFMD: eliminant deg 33; wild/notable: ['deg6 ord720 NONAB', 'deg7 ord5040 NONAB']
+MFFDF: eliminant deg 1720; wild/notable: none
+MFFDM: eliminant deg 36; wild/notable: ['deg5 ord120 NONAB', 'deg7 ord5040 NONAB']
+MFFDD: eliminant deg 36; wild/notable: none
+MFMFD: eliminant deg 37; wild/notable: none
+MFMMD: TIMEOUT
+MFMDF: eliminant deg 3180; wild/notable: none
+MFMDM: eliminant deg 46; wild/notable: none
+MFMDD: eliminant deg 46; wild/notable: ['deg11 ord39916800 NONAB', 'deg11 ord39916800 NONAB']
+MFDFF: eliminant deg 2448; wild/notable: ['deg6 ord72 NONAB', 'deg8 ord40320 NONAB']
+MFDFM: eliminant deg 54; wild/notable: none
+MFDFD: eliminant deg 56; wild/notable: none
+MFDMF: eliminant deg 2932; wild/notable: none
+MFDMM: eliminant deg 47; wild/notable: none
+MFDMD: eliminant deg 48; wild/notable: none
+MFDDF: eliminant deg 4360; wild/notable: none
+MFDDM: eliminant deg 46; wild/notable: ['deg9 ord362880 NONAB', 'deg11 ord39916800 NONAB']
+MFDDD: eliminant deg 46; wild/notable: none
+MMFFD: eliminant deg 36; wild/notable: ['deg5 ord120 NONAB', 'deg7 ord5040 NONAB']
+MMFMD: TIMEOUT
+MMFDF: eliminant deg 3800; wild/notable: none
+MMFDM: eliminant deg 44; wild/notable: none
+MMFDD: eliminant deg 46; wild/notable: ['deg9 ord362880 NONAB', 'deg11 ord39916800 NONAB']
+MMMFD: eliminant deg 45; wild/notable: none
+MMMDF: eliminant deg 6544; wild/notable: none
+MMDFF: eliminant deg 5456; wild/notable: none
+MMDFM: TIMEOUT
+MMDFD: eliminant deg 75; wild/notable: none
+MMDMF: eliminant deg 6564; wild/notable: none
+MMDDF: eliminant deg 8368; wild/notable: none
+MDFFF: eliminant deg 2200; wild/notable: ['deg4 ord8 NONAB']
+MDFFM: eliminant deg 50; wild/notable: none
+MDFFD: eliminant deg 49; wild/notable: none
+MDFMF: eliminant deg 4912; wild/notable: none
+MDFMM: TIMEOUT
+MDFMD: TIMEOUT
+MDFDF: eliminant deg 6394; wild/notable: none
+MDFDM: TIMEOUT
+MDFDD: eliminant deg 76; wild/notable: none
+MDMFF: eliminant deg 3152; wild/notable: ['deg6 ord720 NONAB', 'deg7 ord5040 NONAB']
+MDMFM: eliminant deg 48; wild/notable: none
+MDMFD: eliminant deg 48; wild/notable: none
+MDMMF: eliminant deg 5928; wild/notable: none
+MDMDF: eliminant deg 6864; wild/notable: none
+MDDFF: TIMEOUT
+MDDFM: TIMEOUT
+MDDFD: eliminant deg 136; wild/notable: none
+MDDMF: eliminant deg 6112; wild/notable: ['deg11 ord39916800 NONAB', 'deg11 ord39916800 NONAB']
+MDDDF: eliminant deg 9280; wild/notable: none
+DFFFM: eliminant deg 24; wild/notable: none
+DFFMF: eliminant deg 1624; wild/notable: ['deg8 ord40320 NONAB']
+DFFMM: eliminant deg 43; wild/notable: none
+DFFMD: eliminant deg 68; wild/notable: none
+DFFDM: eliminant deg 42; wild/notable: none
+DFMFF: eliminant deg 1744; wild/notable: none
+DFMFM: eliminant deg 64; wild/notable: none
+DFMFD: eliminant deg 89; wild/notable: none
+DFMMF: eliminant deg 3488; wild/notable: none
+DFMMM: TIMEOUT
+DFMMD: TIMEOUT
+DFMDF: eliminant deg 3760; wild/notable: none
+DFMDM: eliminant deg 76; wild/notable: none
+DFMDD: TIMEOUT
+DFDFM: eliminant deg 75; wild/notable: none
+DFDMF: eliminant deg 3600; wild/notable: none
+DFDMM: TIMEOUT
+DFDMD: TIMEOUT
+DFDDM: TIMEOUT
+DMFFF: eliminant deg 1692; wild/notable: ['deg7 ord5040 NONAB']
+DMFFM: eliminant deg 33; wild/notable: ['deg6 ord720 NONAB', 'deg7 ord5040 NONAB']
+DMFFD: eliminant deg 35; wild/notable: none
+DMFMF: eliminant deg 3036; wild/notable: none
+DMFMM: eliminant deg 48; wild/notable: none
+DMFMD: TIMEOUT
+DMFDF: eliminant deg 3832; wild/notable: none
+DMFDM: eliminant deg 48; wild/notable: none
+DMFDD: eliminant deg 46; wild/notable: none
+DMMFF: eliminant deg 3456; wild/notable: ['deg5 ord120 NONAB', 'deg7 ord5040 NONAB']
+DMMFM: eliminant deg 46; wild/notable: none
+DMMFD: eliminant deg 44; wild/notable: ['deg9 ord362880 NONAB', 'deg11 ord39916800 NONAB']
+DMMMF: eliminant deg 6450; wild/notable: none
+DMMDF: eliminant deg 7128; wild/notable: none
+DMDFF: eliminant deg 5476; wild/notable: none
+DMDFM: TIMEOUT
+DMDFD: eliminant deg 76; wild/notable: none
+DMDMF: eliminant deg 6592; wild/notable: none
+DMDDF: eliminant deg 7896; wild/notable: none
+DDFFM: eliminant deg 68; wild/notable: none
+DDFMF: eliminant deg 5664; wild/notable: none
+DDFMM: TIMEOUT

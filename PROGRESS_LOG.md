@@ -1817,3 +1817,14 @@ don't merge** + re-examine the negative for a wrong leap. Done this session:
   det(abelianization)=**0** not −1, so the genus-2 fibered-hyperbolic-3-manifold claim does not follow; the
   Level-1 upgrade opens no door as stated (idea salvageable only with a genuine Σ_{2,1} pseudo-Anosov).
   B515–B517 untouched (word level). 4 locks pass; verify-don't-trust caught the over-claim before banking.
+
+- **B500 child hunt — depth-5 KILL banked (2026-07-11).** A streamed ~18h `sage`-env run (`hunt_d5.py`)
+  was found still alive but wedged (a `gp`/PARI subprocess blocked on a detached terminal, 0% CPU); killed.
+  Its results: **141/150** all-three-verb depth-5 words solved, **ZERO hits** — no d_K=−283, no field
+  isomorphism to ℚ[x]/(x⁴−x−1), airlock never fired. The pre-registered **KILL fires: "the child is not a
+  short word"** — the object does not generate its own (figure-eight Meyerhoff) child field by any depth-≤5
+  verb combination. The words instead produce generic wild symmetric Galois groups (S₅ ×5, S₆ ×5, S₇ ×15,
+  S₈ ×5, S₉ ×4, S₁₁ ×10). The 9 unfinished words are the double-decimation tail (DD*, eliminant degree
+  ~3000–9280 → in-sandbox `gp` tool-blocked, not chance). A third independent line to the same terminus as
+  the audit's Gate C and B519 — generic wild arithmetic, not special values. Lock `test_b500_kill.py`
+  (2 pass). Firewalled.
