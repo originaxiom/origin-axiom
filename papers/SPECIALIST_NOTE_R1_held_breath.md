@@ -14,11 +14,21 @@ let σ_m be the finite-order mapping class acting as the involution a ↔ b.
 **Claim.** On the cusp locus κ = −2, the characters fixed by σ_m are exactly the order-d **torsion**
 characters for divisors d ≥ 3 of m with the order-d point non-degenerate (2cos(2π/d) ≠ 0, i.e. d ≠ 4);
 the geometric (hyperbolic) character is never fixed. The number field of the order-d fixed character is
-**ℚ(√D_d)**, with **D_d = Norm(τ_d²(τ_d²−8))**, the norm over the Galois conjugates of τ_d = 2cos(2π/d):
-- d = 3: τ_3 = −1 (rational), D_3 = 1·(1−8) = **−7** → **ℚ(√−7)**.
-- d = 5: τ_5, τ_5′ roots of x²+x−1; D_5 = ∏ τ²(τ²−8) = 1·(τ²τ′²−8(τ²+τ′²)+64) = 1−24+64 = **41** → **ℚ(√41)**.
+the **degree-2 extension ℚ(τ_d, √Δ_d) of ℚ(τ_d)**, with **Δ_d = τ_d²(τ_d²−8)** and τ_d = 2cos(2π/d). It
+equals a single quadratic ℚ(√D_d) *only when τ_d is rational* (d = 3); otherwise D_d = Norm_{ℚ(τ_d)/ℚ}(Δ_d)
+is the *norm* of the discriminant, **not** a field generator. Examples:
+- d = 3: τ_3 = −1 (rational), Δ_3 = 1·(1−8) = **−7** → **ℚ(√−7)** (here D_d = Δ_d, quadratic).
+- d = 5: τ_5, τ_5′ roots of x²+x−1 (so ℚ(τ_5) = ℚ(√5)); the fixed field is the **degree-4** field of
+  z⁴−3z³+7z²−4z+4 with quadratic subfield **ℚ(√5)** — it splits over ℚ(√5) and stays irreducible over
+  ℚ(√41). The number 41 = Norm_{ℚ(√5)/ℚ}(Δ₅) is the squarefree part of the disc, **not** the field.
+- d = 7: ℚ(τ_7) is the cyclic cubic; the fixed field is the **degree-6** ℚ(τ_7, √Δ_7); E₇ =
+  z⁶−5z⁵+16z⁴−25z³+30z²−12z+8 (irreducible, no quadratic subfield). Norm(Δ_7) = **−239** is a norm, not ℚ(√−239).
 
-Verified numerically/symbolically to order 13 (reproducer `B479_held_breath_torsion/held_breath_capstone.py`).
+Verified symbolically for all m (Chebyshev transfer-matrix classification of Fix(T_m); reproducers
+`B479_held_breath_torsion/held_breath_capstone.py`, and `tests/test_b479_erratum.py` pinning the d = 5, 7
+fields). **Erratum (2026-07-11):** an earlier draft labelled the d = 5, 7 fields ℚ(√41), ℚ(√−239) — both
+were the degree-2-only "disc → ℚ(√squarefree)" heuristic misapplied; the norm-vs-field distinction above is
+the correction (cross-checked by the parallel closure audit's B494 Cantat-corollary duel).
 
 ## Closest prior art (from B491)
 1. **Goldman**, *The modular group action on real SL(2)-characters of a one-holed torus*, Geom. Topol. 7

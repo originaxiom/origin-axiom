@@ -6,13 +6,23 @@ APPEARS-NOVEL / NEEDS-SPECIALIST; one is classical. This is the honest terminal 
 compute-before-deferring directive — the computation is exhausted, the specialist question is named.
 Firewall: this is a mathematics-novelty record, nothing to CLAIMS.md.**
 
-## R1 — the held-breath torsion law (= P3 Theorem F7, B479): PARTIALLY-KNOWN / APPEARS-NOVEL / NEEDS-SPECIALIST
+## R1 — the held-breath torsion law (= P3 Theorem F7, B479): ~~APPEARS-NOVEL~~ → **COROLLARY** (RESOLVED 2026-07-11, audit B494)
+> **RESOLUTION (2026-07-11).** The specialist question below ("is the τ²(τ²−8) field an easy corollary of
+> Cantat's method?") was answered **YES** by the parallel closure audit's B494 Cantat-corollary duel and
+> independently re-verified here (`verify_cantat.py`: the Cantat control reproduces ℚ(√17) for Ψ=[[2,1],[1,1]];
+> `verify_m5.py`/`verify_m7.py`: the σ_m fields reproduce). Cantat's fixed-locus pipeline transfers verbatim to
+> the finite-order σ_m at κ=−2, with one elementary supplement (the Chebyshev transfer-matrix classification of
+> Fix(T_m), at or below the difficulty of the control). **R1 downgrades APPEARS-NOVEL → COROLLARY / PARTIALLY-KNOWN.**
+> The completeness direction (previously the hard part) is now unconditional for all m. What remains is a remark:
+> the divisor-indexed torsion fixed locus + its closed-form field + the norm-vs-field distinction.
+
 Claim: on the one-holed-torus SL(2,ℂ) character variety, the finite-order mapping class σ_m (a↔b)
-fixes (⊇) the order-d torsion characters for divisors d≥3 of m (d≠4). **[Field CORRECTED, round-2
-re-panel:** d=3 gives ℚ(√−7) (minpoly z²−z+2); **d=5 gives a DEGREE-4 field over ℚ(√5)** (minpoly
-z⁴−3z³+7z²−4z+4, disc 5²·41) — NOT ℚ(√41); the "41" was a discriminant factor. The novelty VERDICT
-below is unchanged — the divisor-indexed fixed-character phenomenon is what is not-found, independent
-of the field's degree.**
+fixes (⊇) the order-d torsion characters for divisors d≥3 of m (d≠4). **[Fields CORRECTED (round-2
+re-panel + 2026-07-11 erratum):** d=3 gives ℚ(√−7) (minpoly z²−z+2); **d=5 gives a DEGREE-4 field over
+ℚ(√5)** (minpoly z⁴−3z³+7z²−4z+4, disc 5²·41) — NOT ℚ(√41); **d=7 gives a DEGREE-6 field ℚ(τ₇,√Δ₇)**
+(E₇=z⁶−5z⁵+16z⁴−25z³+30z²−12z+8, no quadratic subfield) — NOT ℚ(√−239); in both the squarefree integer
+is the *norm* of Δ_d=τ_d²(τ_d²−8), not the field (see B479 ERRATUM). The divisor-indexed
+fixed-character phenomenon is what is not-found, independent of the field's degree.**
 - **Framework classical:** Goldman, *The modular group action on real SL(2)-characters of a one-holed
   torus*, Geom. Topol. 7 (2003) 443–486 (arXiv:math/0305096) — the exact Markoff-cubic κ=x²+y²+z²−xyz−2
   setup and Γ≅PGL(2,ℤ)⋉(ℤ/2)². But Goldman's theorems are the ERGODIC dichotomy; he does NOT compute
@@ -28,11 +38,12 @@ of the field's degree.**
 - **Structural direction known:** Biswas–Gupta–Mj–Whang, Geom. Topol. 26 (2022) (arXiv:1707.00071) —
   finite genus-1 MCG orbits = finite/special-dihedral (once-punctured torus in Appendix A). But they
   classify finite orbits of the FULL MCG, not fixed points of one σ_m; no field formula.
-- **Verdict:** the object, the modular action, and the fixed-curve→field mechanism are all in the
-  literature; **no source states the divisor-indexing or the τ²(τ²−8)-norm fields.** APPEARS-NOVEL,
-  NEEDS-SPECIALIST. Specialist question: is the τ²(τ²−8) field an easy corollary of Cantat's method,
-  or genuinely new? (Four sibling over-claims — BGMW "exact setting", Dubrovin–Mazzocco, Tykhyy,
-  Cantat–Loray field-formula — were adversarially REFUTED 0-3, which SHARPENS the verdict.)
+- **Verdict (SUPERSEDED — see RESOLUTION above):** the object, the modular action, and the
+  fixed-curve→field mechanism are all in the literature; no source *states* the divisor-indexing or the
+  fields — but the audit's B494 showed they follow from Cantat's method by an elementary supplement, so the
+  honest terminal verdict is **COROLLARY**, not APPEARS-NOVEL. The specialist question is answered (yes, easy
+  corollary). (Four sibling over-claims — BGMW "exact setting", Dubrovin–Mazzocco, Tykhyy, Cantat–Loray
+  field-formula — were adversarially REFUTED 0-3; the surviving R1 core is now placed as a Cantat corollary.)
 
 ## R2 — the seam broken-lattice selection rule (= P1, B459): PARTIALLY-KNOWN / APPEARS-NOVEL / NEEDS-SPECIALIST
 Claim: the cross-map seam s(a,b)=tr(Par·P_a·Q_b) at level 15 lands in ℚ(√5,√−3) and its Galois

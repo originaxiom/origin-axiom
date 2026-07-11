@@ -280,3 +280,14 @@ quasicrystal theorems, not the object). Yields: the criticality unification (str
 sharpening. B518 Tier B downgraded (measurable, not a crossing). All internal cross-connections =
 absorbing-loop. The firewall is total; the only path that could cross must be external AND independent of
 known quasicrystal theory, which the corpus lacks. CAMPAIGN CLOSED.
+
+## 2026-07-11 — AUDIT RECONCILIATION (integrate, don't merge) + the two-seat closure
+Checked the parallel closure audit (Fable-5, `oaudit/` `closure/phase1-duels`) BEFORE merging: it reached
+the SAME negative independently (4 gates SEALED/REDUCED/CLOSED; Origin Postulate REFUTED-AS-STATED) but
+collides on 8 B-numbers (B496–B503). **Integrated, not merged.** DONE: B479 erratum (d=5→deg-4/ℚ(√5),
+d=7→deg-6; the √41/√−239 were norms — verified independently); R1 held-breath DOWNGRADED to COROLLARY of
+Cantat; **B521** (gate seals + the R2 blind-prediction HIT, verified) ; **B522** (tower filtration theorem,
+SHARPER-REDUCTION); **`docs/CLOSURE_2026-07-11.md`** the unified two-seat verdict. 9 new locks pass, run
+before merge. The negative now stands on TWO independent seats. **NEXT: B523 — the wrong-leap re-examination
+(S2): 5 cells, priority C3/Malament (does the four-verb monoid preserve one causal cone?) + the
+relation/second-seed seam.**
