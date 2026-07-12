@@ -10,6 +10,30 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Follow-up batch: un-hideability REFUTED-as-discriminator, E7 pre-loaded, cosmic null
+
+Clearing the recommended-but-unrun queue (owner accountability check).
+
+**B548 un-hideability census (prediction REFUTED):** un-hideability does NOT track Pisot —
+even non-Pisot period-doubling and reducible a→aa,b→ab are un-hideable. Every small
+substitution tested is un-hideable; the property is GENERIC, not discriminating. Honest
+deflation of the Hoffman/Barrett "self-priored" framing: "the object is un-hideable" is true
+(B535) but not special; a HIDEABLE example (needs an external prior) is the thing to hunt and
+did not appear at small alphabet size. σ defers to B535's locked 2 (fast recompute disagreed —
+methodology, not math).
+
+**B549 pre-loaded predictions:** E7 tricritical ladder computed (first ratio 1.2856,
+discriminable from E8's φ) — a STANDING data-limited test that fires when a c=7/10 material is
+measured. Cosmic-ratio null: the two time-INDEPENDENT constants (Ω_dm/Ω_b, η) both NULL
+(p=0.62, 0.26) through the frozen ℤ[τ] machinery; Ω_Λ/Ω_m excluded on principle. The dialed
+bin stays silent, now including cosmology's time-independent constants (S066 confirmed).
+
+Still genuinely deferred (blocked/timed, not forgotten): lit-gate pass 2 (quota timer ~20:23),
+F-P1c K-theory (hard), F-P5 species-lift (blocked on B532 rule), F1 E8 peak extraction (needs
+PDFs). Everything feeds THE species-chain experiment write-up (gated on pass 2). 5 locks.
+
+---
+
 ## 2026-07-12 — B543/B546 lit-gate, pass 1: the module theorem is classical; our lane is the instantiation
 
 Deep-research gate, 12 claims adversarially verified (3-0/2-1): the gap-label module-assignment

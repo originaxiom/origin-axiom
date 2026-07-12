@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-07-12 from 511 frontier probes.
+> Last generated: 2026-07-12 from 513 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,11 +11,11 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 511 frontier probes; status {'banked': 339, 'dead': 108, 'open': 47, 'dormant': 17}
+  corpus: 513 frontier probes; status {'banked': 340, 'dead': 109, 'open': 47, 'dormant': 17}
   the ONE conserved first integral: kappa (recurs 137x, 26%) -- genuine unity, MUST recur
-  top recurring motifs: firewall(373), golden(322), metallic(258), trace_map(257), eisenstein(251), figure_eight(246)
-  recurrence is: structural-invariant 1900 mentions | conserved-integral 137 | TOOL 257
-  the honest split: the trace-map TOOL is in 257 probes (50%) = method/selection-effect, NOT unity; only kappa is a forced first integral
+  top recurring motifs: firewall(373), golden(324), metallic(259), trace_map(258), eisenstein(252), figure_eight(246)
+  recurrence is: structural-invariant 1904 mentions | conserved-integral 137 | TOOL 258
+  the honest split: the trace-map TOOL is in 258 probes (50%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B521, B156, B309, B321, B154
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
 ```
@@ -27,11 +27,11 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
 | firewall | 373 | 72% | structure | structural | meta | the firewall / structural theorem / form-not-values |
-| golden | 322 | 63% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
-| metallic | 258 | 50% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
-| trace_map | 257 | 50% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
-| eisenstein | 251 | 49% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| figure_eight | 246 | 48% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| golden | 324 | 63% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| metallic | 259 | 50% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| trace_map | 258 | 50% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
+| eisenstein | 252 | 49% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
+| figure_eight | 246 | 47% | object | no | topology | the simplest hyperbolic knot; the carrier object |
 | torsion | 180 | 35% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | amphichiral_cp | 156 | 30% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | kappa | 137 | 26% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
@@ -48,8 +48,8 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **137** probes (26%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **1900** mentions — invariants of the object's transforms.
-- **The hammer (selection effect):** the trace-map **tool** appears in **257** probes (50%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **1904** mentions — invariants of the object's transforms.
+- **The hammer (selection effect):** the trace-map **tool** appears in **258** probes (50%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
 
@@ -60,7 +60,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | cancellation | 31 | golden | golden(22), firewall(22), trace_map(20), eisenstein(18) |
 | selector | 15 | firewall | firewall(10), trace_map(9), golden(9), torsion(9) |
 | measure | 28 | firewall | firewall(18), golden(18), trace_map(13), figure_eight(11) |
-| units_scale | 59 | firewall | firewall(50), golden(40), trace_map(34), metallic(33) |
+| units_scale | 60 | firewall | firewall(50), golden(41), trace_map(34), metallic(34) |
 | gauge_dict | 30 | firewall | firewall(26), figure_eight(22), golden(21), eisenstein(17) |
 | particle_dict | 37 | firewall | firewall(33), eisenstein(31), golden(26), z3_generation(26) |
 | spacetime_3p1 | 66 | metallic | figure_eight(44), metallic(42), trace_map(39), dickson_tower(36) |
@@ -115,9 +115,9 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | gauge_dict | 30/51 |
 | spacetime_3p1 | 66/104 |
 | numerology | 16/25 |
-| units_scale | 59/89 |
+| units_scale | 60/90 |
+| measure | 28/42 |
 | cancellation | 31/46 |
-| observable | 15/22 |
 
 ---
 *Generated by `scripts/atlas/` (mine → analyze → detect → render). The instrument is re-runnable; the map stays current by regeneration. See `knowledge/K023` for the vision and the honest tool-bias caveat.*

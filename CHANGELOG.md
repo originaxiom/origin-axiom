@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Follow-up batch (B548/B549)
+
+### Added
+- frontier/B548_unhideable_census (prereg + census + FINDINGS): un-hideability
+  is generic, not Pisot-specific — prediction refuted, honest deflation.
+- frontier/B549_forced_bin_predictions (prereg + FINDINGS): E7 pre-loaded
+  ladder (data-limited) + cosmic-ratio null.
+- tests/test_b548.py, tests/test_b549.py (5 locks).
+
+---
+
 ## 2026-07-12 — B543 lit-gate pass 1 (module theorem classical; citations locked)
 
 ### Added
