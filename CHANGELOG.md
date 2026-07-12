@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B558: three-level negative verified
+
+### Added
+- frontier/B558_three_level_negative/ (FINDINGS): the Level-2 gap-edge test
+  confirmed null and structural; 1/φ² → 1/φ³ correction; p(5)=17 verified but
+  identity-to-B535 unproven; two named Weinberg near-miss landmines.
+- tests/test_b558.py (4 locks).
+
+---
+
 ## 2026-07-12 — Durand gate: reconstruction note downgraded
 
 ### Added
