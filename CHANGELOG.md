@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B532 I2: The Projection Algebra
+
+- **σ is irreducibly 4-letter**: none of 7 binary partitions are substitutive — no
+  projection commutes with σ. The four letters are entangled.
+- **Two projections read golden values**: {aA}|{bB} → ratio **φ** (exact);
+  {ab}|{AB} → ratio **1/√φ** (exact). The cross partition {aB}|{bA} gives
+  √φ/(1−√φ+φ) ≈ 0.945 (not a simple golden form).
+- **5 of 7** projections are Pisot; the two non-Pisot are {aA}|{bB} (|λ₂|≈1.47)
+  and {aB}|{bA} (|λ₂|=1). All 7 are primitive and grammar-compatible.
+- 6 new locks in test_b532.py (13 total).
+
 ## 2026-07-12 — B532 I1: Fixed-Point Dimension + Period-3 Spectral Test
 
 - **Period-3: ABSENT from the spectrum.** Four independent tests (Fourier phases, c₂ quadratic
