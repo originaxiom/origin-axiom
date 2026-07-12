@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — S066: the arithmetic of criticality (speculation room)
+
+### Added
+- **speculations/S066_the_arithmetic_of_criticality.md**: the owner-approved
+  three-layer reading of the B539 negative ([MATH]/[LEAP]/[HOOK] tagged,
+  kill conditions recorded, speculation → calculation table). Firewalled.
+
+---
+
 ## 2026-07-12 — B539: the relations campaign (final door, NO-MATCH)
 
 ### Added
