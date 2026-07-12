@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B555: THE PREDICTION
+
+### Added
+- frontier/B555_the_prediction/THE_PREDICTION.md: the object's one falsifiable
+  forward prediction (the four-coupling species-chain gap-label measurement),
+  assembled as a lab-ready table — exact labels, one-measurement law, degree-4
+  signature, controls, falsifiers, resolution requirement, and the honest
+  "what we still need / cannot predict" boundaries.
+- tests/test_b555.py (3 locks).
+
+---
+
 ## 2026-07-12 — B554 meditation verification
 
 ### Added
