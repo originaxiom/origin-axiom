@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B532 IZ: The Interaction Grammar (campaign deliverable)
+
+- **GRAMMAR.md written**: the campaign's deliverable — the self-contained interaction
+  grammar document. Covers: irreducible kernel (four words), grammar structure,
+  projection algebra, self-description, spectral clock, prediction form, verification
+  ledger.
+- **Campaign verdict**: B532 traced 29 layers to one kernel (σ) with two observer
+  inputs (SL₂C gauge, potential V). Self-description anchored at σ(a) = abAAB.
+
 ## 2026-07-12 — B532 I4: The Derivation DAG
 
 - **29 layers, single source: σ.** The DAG has depth 4. 24 layers derive from

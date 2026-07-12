@@ -48,6 +48,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 IZ — campaign COMPLETE)
+- **B532 THE LAST ECHO — COMPLETE (2026-07-12, I0–I4 + IZ, PRs #808–#813).** Deliverable:
+  GRAMMAR.md — the interaction grammar. 29 layers, single source σ (the four words), two
+  observer inputs (SL₂C gauge, potential V). Self-description anchored at σ(a) = abAAB
+  (self-containing). σ irreducibly 4-letter. Period-3 absent. Two FP components. GL(4,Z)
+  conjugacy confirmed. 26 locks in test_b532.py.
+
 ## LAST BANKED (B532 I4 — derivation DAG)
 - **I4 (2026-07-12) — 29 layers, single source σ.** DAG depth 4. 24 intrinsic, 5
   observer-dependent. Irreducible kernel = the four words. Observer brings gauge (SL₂C)

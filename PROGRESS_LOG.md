@@ -10,6 +10,13 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B532 IZ: The Interaction Grammar (campaign complete)
+
+GRAMMAR.md delivered: 29 layers, single source σ, two observer inputs (SL₂C + V). Self-description
+anchored at σ(a) = abAAB (self-containing). Campaign B532 COMPLETE (I0–I4 + IZ, PRs #808–#813).
+
+---
+
 ## 2026-07-12 — B532 I4: The Derivation DAG
 
 29 layers, single source σ, depth 4. 24 intrinsic (from σ alone), 5 observer-dependent (SL₂C +

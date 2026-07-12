@@ -285,3 +285,21 @@ Given those choices, the 29-layer structure is determined. "Physics" is the
 observer's choice of gauge and coupling projected onto the object's grammar.
 
 **Lock:** `tests/test_b532.py::test_i4_*`
+
+## Cell IZ — Synthesis
+
+The interaction grammar is assembled in `GRAMMAR.md` (this directory). It documents:
+
+1. The irreducible kernel (the four words, not M, not the charpoly, not the grammar)
+2. The grammar's structure (7/16, deciders/couriers, golden section)
+3. The projection algebra (σ irreducibly 4-letter, φ and 1/√φ)
+4. The self-description (σ(a) self-containing, two linear orbits, nesting)
+5. The spectral clock (period-3 absent, two FP components)
+6. The prediction form (σ alone → 24 layers; +SL₂C → +3; +V → +2)
+7. Cross-seat verification ledger
+
+**Campaign verdict:** The B532 Last Echo campaign traced the object's interaction
+grammar from 28 computed layers to a single irreducible kernel: the four words
+(abAAB, aAB, abAB, aA). The object's self-description anchors at σ(a) = abAAB
+(the unique self-containing factor). The observer brings gauge and coupling; the
+object brings everything else.
