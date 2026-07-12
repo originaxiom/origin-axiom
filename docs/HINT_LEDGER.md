@@ -305,3 +305,21 @@ the serious adjacents:
 - **Caution logged:** the video's quantum-biology rehabilitation of Orch-OR leans on the
   FMO coherence story, itself revised (vibronic reinterpretation; fs timescales; the
   Tegmark gap unclosed). Do not import.
+
+## 2026-07-12 — owner pointer: Barrett "brain creates reality" (Big Think) → predictive processing
+
+Serious neuroscience (predictive processing / active inference / Bayesian brain), unlike the
+prior quantum-consciousness pointer. Genuine hooks:
+- **The reverse-inference problem = the induction-inverse problem.** Barrett: brain sees
+  OUTCOMES, infers CAUSE via a prior. B535: observer sees a WINDOW (return words), infers σ
+  via the grammar. Same structure; B535 is the faithful solved instance.
+- **[LEAP, sharpens the un-hideability question]** Faithful reconstruction ⟺ the prior is
+  INTRINSIC to the observed, not the observer. The object supplies its own prior (grammar ⊂ σ)
+  → exact recovery, cannot err. The brain's prior is its own history → constructed, fallible.
+  Upgrades the Hoffman un-hideability census (2026-07-12 entry): un-hideable ⟺ SELF-PRIORED.
+  The small-substitution census now tests "which objects carry their own reconstruction prior."
+- **Barrett's "social reality" = the coupling side / dialed bin, for MEANING.** Functions
+  collectively imposed (money, borders, emotion-categories), not carried by objects — the
+  same structure/value split the reframe proved for numbers, restated for meaning.
+- **Disanalogy to keep honest:** the brain CONSTRUCTS (can be wrong); the object RECONSTRUCTS
+  (cannot). "Observer-dependent" in opposite directions — history-dependence vs gauge-only.
