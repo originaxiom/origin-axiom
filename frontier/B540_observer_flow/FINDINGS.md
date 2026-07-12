@@ -40,3 +40,12 @@ of its double clock.
 Method note: the derived-substitution construction is self-contained in
 flow.py (the B530 engine is σ-specific); validated by S_a → S_a.
 Locks: tests/test_b540.py.
+
+## SCOPING (Durand lit-gate, 2026-07-12)
+
+The observer flow IS Durand/Rauzy derivation dynamics (classical: Rauzy ~1992,
+Durand 1998 Thm 5, Košík–Starosta 'closed under derivation'). σ as a fixed point
+and the finite cycle structure are a KNOWN phenomenon; B540 is a new COMPUTED
+INSTANCE (4-letter, the double-clock 2-cycle), not a new construction. The 'novel
+observer-flow' framing is retired. See LIT_GATE.md. The math (12-node closure,
+σ fixed, ℤ/2 core) stands as a computed instance.

@@ -10,6 +10,25 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Durand derived-sequence gate: reconstruction note DOWNGRADED (B540 known, B535 rigidity-adjacent)
+
+The reconstruction-note lit-gate (cost-tiered, 103/103 agents, 0 errors). Verdict scopes two
+banked results. RESULT 2 (the B540 observer flow) is KNOWN: iterating the return-word derivation
+operator and finding fixed points/cycles is the FOUNDING MOTIVATION of derived-sequence theory
+(Rauzy ~1992 blackboard, Durand 1998 Thm 5 + composition law, Košík–Starosta "closed under
+derivation" with the Tribonacci fixed point and an explicit period-6 cycle). B540's σ-fixed +
+2-cycle is a new COMPUTED INSTANCE, not a construction — the "novel observer-flow" framing is
+retired (the math stands). RESULT 1 (the B535 one-measurement reconstruction) is rigidity-
+adjacent: NOT a recognizability corollary; parent = Durand 2011 Cor 22 / Berthé-Dolce-Durand-
+Leroy-Perrin dendric rigidity (same-fixed-point ⟹ conjugate); B535's finite-matrix-lift + exact
+"2 of 17,280" formulation appears novel-as-stated but must cite the rigidity parents, NEEDS-
+SPECIALIST. The reconstruction note is DOWNGRADED from "strongest untapped candidate" to a narrow
+rigidity-refinement. The math (B540 flow, B535 reconstruction) is unaffected; only the novelty/
+framing is scoped. Also confirms the escalator's E4 closure (σ = a derivation fixed point) is a
+known fact, fine to rely on. B540/LIT_GATE.md.
+
+---
+
 ## 2026-07-12 — B557: the Escalator Campaign launched (prereg + E2 rule-uniqueness crux)
 
 Owner asked whether to craft a full computing campaign for the escalator hypothesis (B556);
