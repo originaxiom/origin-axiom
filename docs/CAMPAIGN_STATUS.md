@@ -48,6 +48,24 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B536-B538 — handoffs verified; reframe test cycle on the board)
+- **B536 (2026-07-12).** Seat-1 Phase 2-3 verified: irreducibility CONFIRMED (commutant 4 → 1,
+  theta twist); entanglement conservation TRIVIAL (U = U₃⊗U₅ exact); darkness-elimination GENERIC;
+  ±iφ commutator eigenvalue CONFIRMED at level 15 (absent at 5); period-6 NOT REPRODUCED
+  (natural lift gives period 20 = ord A₁ in SL(2,ℤ/15); construction unspecified).
+- **B537 (2026-07-12).** THEOREM: (1,1,5) is a phantom of the classical Markov-type surface at
+  c = 22 (handoff said 32 — corrected). Elliptic slots: U²+3V² does not represent 24; hyperbolic
+  slot: mod-3; completeness: h(ℚ(ζ₆)) = h(ℚ(√21)) = 1. Lit-gate pending. (4,4,16)/(4,16,60)
+  remain candidates.
+- **B538 (2026-07-12).** The reframe's first preregistered test cycle banked (hash c81c8f7e…):
+  FORCED BIN — E8 ladder EXTENDED-HIT (full spectrum, 2 materials, 3 techniques; prediction
+  table verified exactly incl. m6/m3 = m7/m4 = m8/m5 = φ; controls discriminate), gap labels
+  CONFIRMED (3rd system); scope: class-level, verbatim. DIALED BIN — chance (B322), as the
+  reframe predicts. STRUCTURAL CHECKLIST vs the SM (consolidated): B1 generations ✗ ·
+  B2 chirality ✗ · B3 CP (J = 3.08×10⁻⁵ ≠ 0 vs forced mirror law) ✗ — 0/3. Standing caution:
+  the dialed-bin excuse dies if anyone derives a dialed constant from structure.
+- **REBASE:** docs/REBASE_2026-07-12.md is the clean baseline for the relations campaign.
+
 ## LAST BANKED (B535 — the coupling space: one measurement suffices)
 - **B535 THE COUPLING SPACE (2026-07-12).** The reframed program's stage 1. The coupling
   census SATURATES: 6 Perron types / 7 canonical systems (finite by Durand; the 6th type is
