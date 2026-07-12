@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — charge-tower arithmetic (closed form + period-3 Z/11)
+
+### Added
+- B556 FINDINGS addendum: eₙ=charpoly_n(1); the resultant recursion; eₙ₊₁=Res(charpoly_n, g);
+  the doubling-orbit prime characterization; 11 | eₙ period 3; primes avoid 3,5,7,13,23.
+- tests/test_b556_charge_arith.py (4 locks).
+
+---
+
 ## 2026-07-12 — B556 proof upgrade (doubling proved + charge tower)
 
 ### Added
