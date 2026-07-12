@@ -48,6 +48,18 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 I6 — Nine Ingredients)
+- **B532-I6 NINE INGREDIENTS, ONE OBJECT (2026-07-12, PR #814).** The systematic determination
+  of which aspects of physical reality the substitution σ forces from its own structure. Nine
+  probes, three phases, one verdict table:
+  - **FORCED (5):** time (σ≠σ̄, D_KL≈12 bits), randomness (P(b|a)=1/φ, not max-entropy),
+    continuity (Cantor/PDS), thermodynamics (T(n)~0.49·0.85ⁿ), matter (4 irreducible species,
+    |Aut(σ)|=1, exact product (old/new)×(str/tun))
+  - **CONDITIONED (3):** forces (gap slopes vary with V), locality (grammar=NN, range from Pisot),
+    gravity (topology forced, metric needs Hamiltonian)
+  - **ABSENT (1):** absolute scale (one free parameter ℓ)
+  - Key: one measurement + σ → all ratios. The object accounts for form; the observer brings scale.
+
 ## LAST BANKED (B532 IZ — campaign COMPLETE)
 - **B532 THE LAST ECHO — COMPLETE (2026-07-12, I0–I4 + IZ, PRs #808–#813).** Deliverable:
   GRAMMAR.md — the interaction grammar. 29 layers, single source σ (the four words), two

@@ -1958,3 +1958,64 @@ The object's growth char poly x⁴−2x³−5x²−4x−1 = a D₄ quartic, disc
 (chirality) all ABSENT. So the coupled golden double is ONE end (golden) + a Gaussian breath; the Eisenstein
 end and the seam live OUTSIDE it — K025's "two ends held apart" visible in the object's own field. Lock
 test_b530.py (12 pass). Firewalled.
+
+## 2026-07-12 — B532-I5: bigram core hierarchy + character census
+
+**Bigram core hierarchy (return-word induction).** The cross-seat claim of 4 distinct core polynomials at
+the bigram level CANNOT BE REPRODUCED. After correcting two bugs (boundary truncation in v1; aggregation
+over-counting in v2), the correct return-word induction using position mapping σ_pos gives the quartic
+x⁴−2x³−5x²−4x−1 UNIVERSALLY for all 7 bigrams. The v1 (truncated) results matched the claims for only
+3/7 bigrams. The 7×7 bigram incidence matrix confirms: charpoly = x³·(quartic). Discriminating fact
+computed, not asserted.
+
+**Character census (σ*-fixed points on X(F₄, SL₂ℂ)).** Three-phase search (500 random, 13 targeted, 200
+σ*-iterated): found exactly 6 solutions, ALL abelian with κ=2, forming ℤ/11ℤ (|det(M−I)| = 11). No
+irreducible σ*-fixed points exist in the F₄ framework — the system is overdetermined (12 equations in 9
+variables after gauge). Cross-seat claims about irreducible fixed points (trace-zero family, golden FP)
+not reproduced. Verified: σ is NOT an F₂ endomorphism (A and B are independent generators).
+
+## 2026-07-12 — B532-I6: Nine Ingredients, One Object (the verdict table)
+
+The systematic determination of which aspects of physical reality σ: a→abAAB, b→aAB, A→abAB, B→aA forces
+from its own structure. Nine probes, three phases:
+
+**Phase 1 (computed depth-9, N=163106):**
+- Probe 2 (Born Rule): **FORCED.** P(b|a) = 1/φ to 6 digits (27421/44368); max-entropy prediction 0.327 vs
+  actual 0.618 (Δ=0.291). Multi-step convergence quasiperiodic, not exponential.
+- Probe 4 (Forces): **CONDITIONED.** Gap positions forced (IDS labels = cumulative Perron frequencies);
+  gap-opening slopes vary with potential (k₂/k₃ ranges from 0.65 to 15.05 across 4 assignments).
+- Probe 7 (Thermodynamics): **FORCED.** T(n) = h(n)/log(β) ~ 0.489·(0.849)ⁿ with plateaus at n=3–4,
+  9–10, 12–14 (recognizability structure). Decay base 0.849 is not a simple algebraic number.
+- Probe 6 (Scale): **ABSENT (base) / FORCED (ratios).** ~7 independent dimensionless constants, all
+  determined by σ. Absolute scale ℓ = one free parameter.
+
+**Phase 2 (computed depth-9):**
+- Probe 1 (Time): **FORCED.** σ̄ not conjugate to σ (exhaustive over 24 permutations); D_KL(ω||ω̄) ≈ 12 bits;
+  4 forbidden bigrams per direction, zero overlap. Arrow bidirectional (R=9 recognizable) but asymmetric.
+- Probe 8 (Matter): **FORCED.** 4 irreducible species: no identification possible, no substitutive coarsening
+  (7/7 binary partitions checked), |Aut(σ)|=1 (no nontrivial symmetry). Species = exact product
+  (old/new)×(structural/tunnel) with zero deviation to 6 digits.
+- Probe 9 (Gravity): **CONDITIONED.** Topology forced (gap positions, Rauzy fractal, Pisot spectral type);
+  metric geometry requires Hamiltonian. Fluctuations bounded (H≈0, pure discrete spectrum). Curvature
+  histogram shows 3 discrete values at scale R=100.
+
+**Phase 3 (synthesis): the 5/3/1 scorecard.**
+- FORCED (5): time, randomness, continuity, thermodynamics, matter
+- CONDITIONED (3): forces, locality, gravity
+- ABSENT (1): absolute scale
+- The prediction form: σ + one measured quantity → all ratios determined.
+
+Key surprises: (1) species product (old/new)×(str/tun) is EXACT (not approximate); (2) |Aut(σ)|=1;
+(3) P(b|a) = 1/φ — algebraic, not statistical. All discriminating facts computed, not asserted.
+Scripts: i6_nine_ingredients.py (Phase 1), i6_phase2_probes.py (Phase 2), i6_phase3_synthesis.py (Phase 3).
+PR #814. Firewalled.
+
+## 2026-07-12 — DOCUMENTATION: decadal review and Codex audit response
+
+Comprehensive documentation sync (the "decadial review"): README updated from B440→B532 with correct counts
+(1800 test functions, 478 files, 517 B-directories, 814 PRs); CAMPAIGN_STATUS updated with Nine Ingredients;
+PROGRESS_LOG brought current; Codex audit response created (docs/CODEX_AUDIT_RESPONSE_2026-07-12.md).
+
+**Codex audit findings evaluated:** 7 findings, 4 ACCEPTED (entropy terminology, gap-labeling direction,
+144 substitutions, "3D" misleading); 2 NOTED (B531 boundary, preregistration); 1 ALREADY ADDRESSED (internal
+Fourier). Governance flags: README stale → FIXED; test count stale → FIXED; atlas gap acknowledged.
