@@ -65,6 +65,18 @@ the paper-for-paper's-sake failure mode the owner named.
   claim survives; a physics paper would be an overclaim by construction.
 - Any repackage of a banked negative as a positive.
 
+## Seat-1 session-3 proposed targets (B553 assessment) — mostly deflated
+
+- **Markoff-P4 unicity extension** → LOW. P4's dynamical cusp-closing on the
+  complex character variety is a DIFFERENT problem type from the Diophantine
+  Markoff Unicity Conjecture (integer triples). Shared Cayley cubic ≠ method
+  bridge. NOT a paper target as stated; claiming it would be an overclaim.
+- **Spectral bridge (char variety = Fibonacci Hamiltonian surface)** → KNOWN
+  (KKT 1983 / Casdagli / Roberts; banked κ=2+λ², K007/K010). Cite, not a paper.
+- **Charge-transport lemma (B552 ℤ/11)** → possibly real but elementary
+  (Smith normal form of I−M); needs a symbolic-dynamics lit check before any
+  novelty claim. Medium-low.
+
 ## The one honest meta-rule
 
 A paper is worth writing iff a *new, checkable* statement survives its

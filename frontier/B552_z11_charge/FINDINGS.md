@@ -28,3 +28,11 @@ unchanged through the observer flow. Pure algebra (Smith normal form over ℤ);
 nothing to CLAIMS as physics. The 11 is disc-adjacent (disc = −400; 11 is the
 first prime where the charpoly x⁴−2x³−5x²−4x−1 has a specific factorization
 type — noted, not interpreted). Locks: tests/test_b552.py.
+
+## Addendum (B553): charge–clock decoupling
+
+The double-clock 2-cycle of the observer flow (B540) has TRIVIAL ℤ/11
+holonomy (= 1 mod 11): the charge space is 1-dimensional at every node, so any
+node-preserving holonomy scales χ by a unit and acts as the identity on the
+charge line. The conserved charge does NOT couple to the clock — two
+independent structures on the same object.
