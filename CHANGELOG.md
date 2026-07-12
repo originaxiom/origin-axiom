@@ -6,6 +6,26 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B535: the coupling space (census 6/7, one-measurement test, dictionary)
+
+### Added
+- **frontier/B535_coupling_space/**: PREREGISTRATION.md (committed before compute),
+  c1_census_saturation.py, c2_one_measurement.py, c3_relations_catalog.py, FINDINGS.md.
+- **tests/test_b535.py**: 12 locks (saturation 6/7 at length ≤ 6, T6 = q=2 window,
+  grammar cut 17,280→8, language cut →2, conjugate identity, dictionary τ = g(x),
+  degree-4 completeness).
+
+### Changed
+- **frontier/B533_coupling_invariance/FINDINGS.md**: census-completion addendum
+  (6 types full-census; "5" was the length-≤4 scope).
+
+### Key findings
+One measurement + the object's grammar determines the object uniquely up to
+conjugation (17,280 lifts → 2 = {σ, a⁻¹σa}). All 17 read-out components are
+complete measurements (degree 4, explicit τ = g(x) dictionary, exact).
+
+---
+
 ## 2026-07-12 — B534: Dark Hyperbola proved + crystallization landed (seat-1 handoff)
 
 ### Added

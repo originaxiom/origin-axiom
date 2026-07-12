@@ -10880,6 +10880,7 @@
    ],
    "refs": [
     "B532",
+    "B535",
     "S1",
     "S10",
     "S11",
@@ -10915,6 +10916,21 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B535": {
+   "slug": "coupling space",
+   "motifs": [
+    "trace_map",
+    "golden"
+   ],
+   "refs": [
+    "B530",
+    "B533"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
   },
