@@ -11224,8 +11224,7 @@
     "golden",
     "torsion",
     "symplectic",
-    "quasicrystal",
-    "firewall"
+    "quasicrystal"
    ],
    "refs": [
     "B534",
@@ -11242,6 +11241,29 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B554": {
+   "slug": "meditation verify",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B532",
+    "B533",
+    "B542",
+    "B545",
+    "B546",
+    "B551",
+    "V2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
    "status": "dead",
    "domain": "arithmetic"
   },

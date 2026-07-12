@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B554 meditation verification
+
+### Added
+- frontier/B554_meditation_verify/ (FINDINGS + verify): the seven-station
+  meditation checked eyes-open. Station 4's species=bit-pair claim REFUTED
+  (61%/16% mismatch; truth is B551 radius-1 both-sided memory); Station 1
+  gap-labels mis-filed (degree-4 τ, not φ); Station 5 "only 2 and 5" scoped
+  (the √−3 end exists); Station 3 "forced h=1" is heuristic. Stations 6,7 ✓.
+- tests/test_b554.py (4 locks).
+
+---
+
 ## 2026-07-12 — CORRECTION: B553 Markoff deflation retracted
 
 ### Changed

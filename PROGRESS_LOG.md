@@ -10,6 +10,29 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B554: the seven-station meditation verified eyes-open (1 refutation, 2 overstatements)
+
+The meditation asked for verification; Station 4 explicitly asked to check its new claim against
+B532. Verdict: 3 stations clean, 1 central claim REFUTED, 2 overstatements scoped, 1 mis-filing
+that refines, 1 sub-claim unverified.
+
+**Station 4 REFUTED (the requested B532 check):** "the four species ARE the four bit-pairs;
+structural/tunnel = the successor's old/new bit; matter = one bit remembering its next moment,
+sutured at one seam." FALSE: struct/tunnel_i = old/new_{i+1} fails at 61% of sites; the forward
+bigram is ambiguous ((0,1)→{a,b}, (1,0)→{A,B}); the meditation's own map has 48,622 defects
+(16%), not one seam. The TRUTH (B551, unchanged): species is a RADIUS-1 coloring — one bit with
+TWO-sided memory, not one-sided. Prevented error, logged.
+
+**Station 1 mis-files gap labels:** they are the degree-4 dictionary (τ), not φ — but the fix
+refines the picture (gap labels are the BUILT-inflation τ-measurement, belonging with Station 6).
+**Station 5 overstated:** disc=−400=2⁴·5² is the INTERIOR field's primes; globally the object is
+two-ended and carries the √−3 (prime 3, Eisenstein/E₆) — "never needed a third" forgets an end.
+**Station 3:** h=1 verified (5,29,−3,−4,√φ) but "minimality FORCES h=1" is heuristic not theorem
+(disc −23 → h=3). **Stations 6,7 VERIFIED** (B551 boundary, B545 elliptic-lock). **Station 2:**
+GL(4,ℤ)+τ-ladders ✓, λ→A pending. 4 locks.
+
+---
+
 ## 2026-07-12 — CORRECTION: the B553 Markoff deflation was wrong (owner caught it)
 
 Two-way correction discipline: my own B553 claim was wrong and is retracted. B553 called the
