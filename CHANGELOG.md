@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — PC22 + paper portfolio
+
+### Added
+- papers/candidates/dark_hyperbola_letter/ABSTRACT_DRAFT.md: seat LMP draft +
+  CC correction header (PROVED power-set; Euler-restatement fix; the lit gate).
+- papers/CANDIDATES.md: PC22 registered.
+- papers/PAPER_PORTFOLIO_2026-07-12.md: the honest tiered read — 4 real
+  candidates, each gated; everything else consolidation.
+
+---
+
 ## 2026-07-12 — B550: Promotion-Sign Conjecture refuted (uniform meridian rule)
 
 ### Added

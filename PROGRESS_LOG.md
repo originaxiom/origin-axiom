@@ -10,6 +10,27 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — PC22 dark-hyperbola letter banked + the honest paper-portfolio read
+
+Banked the seat's LMP draft abstract (parity-twisted Weil trace: dark hyperbola + power-set
+magnitudes + asymptotic darkness) as candidate PC22, seat text preserved with a CC correction
+header: power-set is PROVED (not "outlined", B534 upgrade), and "geometric PROOF of infinitude
+of primes" → "restatement of Euler's argument" (the product→0 is equivalent to Σ1/p diverging,
+not a new proof). THE GATE: an object-specific lit search (Lion–Vergne / Gurevich–Hadani / Bump)
+not yet run — the Weil rep is heavily studied; novelty unknown until it runs. Queued for the
+cost-tiered deep-research script.
+
+Wrote papers/PAPER_PORTFOLIO_2026-07-12.md — the honest read the owner asked for (real
+contribution vs paper-for-paper's-sake): only FOUR clean-new-theorem candidates, each one
+lit-search from a yes/no — PC22 (gate pending), P4 metallic tower (panel patches pending), the
+B535/B540 reconstruction+observer-flow note (undrafted, strongest untapped, Durand lit-gate),
+the B542/B546 degree-4 gap-label EXPERIMENTAL PROPOSAL (module theorem classical per the
+lit-gate; only the instantiation+experiment are ours). Everything else = consolidation
+(assembly-novelty, NEEDS-SPECIALIST) or gated/owned. The rule: a paper is worth writing iff a
+new checkable statement survives its literature gate — the CLAIMS discipline applied to prose.
+
+---
+
 ## 2026-07-12 — B550: chat-1's Promotion-Sign Conjecture REFUTED at n=3 (uniform meridian rule replaces it)
 
 Processed the chat-1 handoff verify-don't-trust against B111's LOCKED exact tower (n=3 Lawton
