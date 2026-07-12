@@ -131,3 +131,106 @@ substitutions, which is a hard combinatorial problem. But the irreducibility res
 that "sits inside" σ. The four letters are entangled: measuring φ requires all four.
 
 **Lock:** `tests/test_b532.py::test_i2_*`
+
+## Cell I3 — Self-Description
+
+σ's image words (abAAB, aAB, abAB, aA) are words in the object's own language.
+The substitution describes itself using its own alphabet.
+
+### The return induction of image words
+
+Each image word σ(g) is a factor of the fixed-point word ω. Computing the return
+induction for each:
+
+| Image word | |w| | Return count | q | Charpoly core |
+|---|---|---|---|---|
+| σ(a) = abAAB | 5 | 4 | 1 | x⁴ − 2x³ − 5x² − 4x − 1 |
+| σ(b) = aAB | 3 | 4 | 1 | x⁴ − 2x³ − 5x² − 4x − 1 |
+| σ(A) = abAB | 4 | 4 | 1 | x⁴ − 2x³ − 5x² − 4x − 1 |
+| σ(B) = aA | 2 | 5 | 1 | x(x⁴ − 2x³ − 5x² − 4x − 1) |
+
+All four image words have q = 1 (even). σ(B) = aA has 5 returns (length 2 = bispecial
+boundary); the other three have 4 returns. Every induced charpoly contains the original
+x⁴ − 2x³ − 5x² − 4x − 1 as a factor.
+
+### Result: σ(a) is SELF-CONTAINING
+
+The canonical induced codes of the factor "abAAB" (= σ(a)) are:
+
+    ((0, 1, 2, 2, 3), (0, 2, 3), (0, 1, 2, 3), (0, 2))
+
+This is **exactly σ itself** — the canonical codes of the original substitution. When
+you study how the fixed point ω returns to its own first image word, the return words
+form a substitution system isomorphic to σ.
+
+This self-containment persists at depth 2: σ²(a) = abAABaABabABabABaA (length 18) also
+has canonical induced codes = σ. But σ(b), σ(A), σ(B) do NOT self-contain — they
+produce different canonical codes. Only the image of the seed letter 'a' is a perfect
+self-description.
+
+### Two linear orbits on F₂⁴
+
+The Parikh mod 2 vectors of σ^d(g) follow the LINEAR map M mod 2 (no affine shift —
+the shift is specific to the bispecial sequence). Under M mod 2 (order 6), the four
+standard basis vectors split into TWO orbits of period 6:
+
+- **Orbit 1 (lowercase)**: e_a → e_b (at d=4), both with period 6
+- **Orbit 2 (uppercase)**: e_A → e_B (at d=4), both with period 6
+
+The phase offset within each pair is 4 (= −2 mod 6): b is exactly 4 M-steps ahead of a,
+and B is exactly 4 M-steps ahead of A. The two orbits are disjoint under M mod 2 — they
+cover 12 of 16 F₂⁴ states (plus the trivial fixed point [0,0,0,0] and a separate 3-cycle).
+
+The bispecial sequence (which follows the AFFINE map p → Mp + s) reaches all 16 states.
+The image word trajectories are constrained to these two 6-cycles. The bispecial boundary
+carries information (the shift s = [1,0,1,1]) that the substitution images do not.
+
+### Return word nesting
+
+Every return word of every image word contains other image words as substrings:
+- σ(a)'s 4 return words each contain at least 2 image words; 2 of 4 contain all four
+- σ(b)'s 4 return words all contain all four image words
+- σ(A)'s return words include one that IS σ(A) itself (the length-4 return "abAB")
+- σ(B)'s 5 return words each contain 2–3 image words
+
+The descriptions nest: the object's words about itself contain further words about itself
+at every level.
+
+### Summary
+
+The self-description has an asymmetry: σ(a) = abAAB is the unique self-reproducing factor.
+The letter 'a' (the seed, the decider with weight φ/S = 0.272) generates a factor whose
+return induction IS σ itself. The other three letters produce different induced systems
+(same charpoly, different combinatorial structure). The self-description is anchored at a
+single point — the seed letter's image — and everything else derives from it.
+
+### Handoff verification: The Observer Gap (cross-seat, UNBANKED)
+
+A cross-seat handoff claimed a "core hierarchy" where different bigrams "see" different
+core polynomials (quartic, cubic, Fibonacci, periodic), and the gap label #1 = the
+Fibonacci-core fraction ("the spectrum and the observer are one structure").
+
+**Independent verification (CC):**
+
+| Claim | Verdict |
+|---|---|
+| M_pair has same charpoly as M_orig | **CONFIRMED** ✓ |
+| GL(4,Z) conjugacy between M_orig and M_pair | **CONFIRMED** ✓ (handoff's P was wrong; correct P=[[0,1,1,-1],[1,-1,1,-1],[0,1,0,1],[1,0,0,1]], det=-1) |
+| Core hierarchy: 5 different polynomials for bigrams | **NOT REPRODUCED** — all 7 bigrams give the quartic under return-word induction |
+| Gap label = Fibonacci-core fraction identity | **NOT REPRODUCED** — depends on the core hierarchy |
+| Anomalous sector (abA) has charpoly x⁴-3x³-8x²-7x-2 | **WRONG** — charpoly = the standard quartic, disc = -400 |
+| Return number = alphabet size (Law 1) | **PARTIALLY WRONG** — aA has 5 return words |
+| Gap labels in ℤ-module of frequencies | **CONFIRMED** ✓ (already known) |
+
+The core hierarchy is NOT produced by the standard S-adic return-word induction. It MAY
+come from LETTER-DELETION restrictions (projecting to sub-alphabets), which give different
+polynomials: {b,A,B} (delete a) → x³-x²-2x-1; {a,A} (delete b,B) → x²-2x-1 (silver
+ratio, NOT Fibonacci). But this is a different operation with different mathematical
+meaning, and the specific polynomials claimed by the handoff don't match either.
+
+The GL(4,Z) conjugacy between the original and pair substitution IS a theorem (same
+charpoly + explicit P with det = -1). The "deep identity" claim is UNVERIFIED — it
+rests on a core hierarchy that is not reproduced by independent computation. Status: OPEN,
+pending clarification of what "derived substitution" means in the handoff.
+
+**Lock:** `tests/test_b532.py::test_i3_*`

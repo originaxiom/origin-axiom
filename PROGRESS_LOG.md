@@ -10,6 +10,16 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B532 I3: Self-Description
+
+σ(a) = abAAB is SELF-CONTAINING — its return induction canonical codes = σ itself. Persists at
+depth 2. The other three image words produce different codes (same charpoly, different combinatorics).
+Two linear orbits on F₂⁴: {a,b} and {A,B} form disjoint 6-cycles, phase offset 4. Cross-seat
+handoff verification: GL(4,Z) conjugacy CONFIRMED (corrected P); core hierarchy NOT REPRODUCED.
+8 locks in test_b532.py (21 total).
+
+---
+
 ## 2026-07-12 — B532 I2: The Projection Algebra
 
 σ is irreducibly 4-letter: none of 7 binary partitions are substitutive (no projection commutes

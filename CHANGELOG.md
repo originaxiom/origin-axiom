@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B532 I3: Self-Description
+
+- **σ(a) = abAAB is SELF-CONTAINING**: its return induction has canonical codes = σ
+  itself. The substitution literally contains itself in the return induction of its
+  own first image word. Self-containment persists at depth 2 (σ²(a)). The other three
+  image words (σ(b), σ(A), σ(B)) do NOT self-contain.
+- **Two linear orbits on F₂⁴**: under M mod 2, {a,b} and {A,B} form two disjoint
+  6-cycles. Phase offset within each pair is 4 (= −2 mod 6). The 12-state image
+  covers 12/16 of F₂⁴; the bispecial shift s = [1,0,1,1] reaches the remaining 4.
+- **Return word nesting**: every return word of every image word contains other image
+  words. σ(A)'s return words include one that IS σ(A) itself (length-4 "abAB").
+- **Cross-seat handoff verification**: GL(4,Z) conjugacy of pair substitution CONFIRMED
+  (corrected P). Core hierarchy claim NOT REPRODUCED (all bigrams give the quartic).
+- 8 new locks in test_b532.py (21 total).
+
 ## 2026-07-12 — B532 I2: The Projection Algebra
 
 - **σ is irreducibly 4-letter**: none of 7 binary partitions are substitutive — no
