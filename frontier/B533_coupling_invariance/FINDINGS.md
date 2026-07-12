@@ -52,27 +52,64 @@ mixing coefficients within ℚ(√5, √(2+√5)).
 
 ## Structural Theorems
 
-### S1: Eigenvalue universality
-All 34 observation points give the SAME eigenvalue spectrum
-{β, λ₂, λ₃, λ₄} = {3.676, −0.440, −0.618, −0.618} (rc=4 types) or
-{β, 0, λ₂, λ₃, λ₄} (rc=5 type). The spectral identity is intrinsic.
+### S1: Eigenvalue universality  [CORRECTED by the Fable-5 audit]
+All 34 observation points give the SAME eigenvalue spectrum. The exact
+spectrum is {β, λ₂, λ₃, λ̄₃} where β = 3.676…, λ₂ = −1/(1+√φ) = −0.440…,
+and λ₃, λ̄₃ = −1/φ ± i/τ³ is a COMPLEX CONJUGATE PAIR with modulus
+|λ₃| = 1/√φ = 0.786… (rc=5 adds one zero eigenvalue). An earlier
+version of this section listed the pair as a repeated real eigenvalue
+−0.618 — that was the real part only; corrected in the audit.
 
-### S2: Q-conjugacy, non-GL(4,ℤ)-conjugacy
-The charpoly x⁴−2x³−5x²−4x−1 is irreducible over ℚ (Galois group D₄).
-All 5 incidence matrices are ℚ-conjugate (same rational canonical form)
-but are NOT GL(4,ℤ)-conjugate (the conjugating matrices have non-integer
-entries, residual ≈ 0.5). They are genuinely different over ℤ.
+### S2: All five matrices are GL(4,ℤ)-conjugate  [REVERSED by the audit]
+The charpoly x⁴−2x³−5x²−4x−1 is irreducible over ℚ (Galois group D₄,
+proven via the classical biquadratic criterion on x⁴−x²−1: r = −1 and
+r(p²−4r) = −5 are both non-squares).
 
-### S3: ℤ-mixing law
-For Types 1–4, every Perron eigenvector component is a ℤ-linear
-combination of the 4 global letter frequencies (f_a, f_b, f_A, f_B),
-with error < 4×10⁻⁷. The transformation between types preserves pair
-sums:
-  T1 → T2: preserves (f_a, f_B), mixes (f_A, f_b) with Δ = f_a+f_b−f_A
-  T1 → T3: preserves (f_B, f_b), mixes (f_A, f_a) with Δ = f_b−f_B
+The original Gate 1 claim — "NOT GL(4,ℤ)-conjugate (residual ≈ 0.5)" —
+is REFUTED. The numeric residual method was broken. The correct
+statement, proven two independent ways:
 
-Type 5 partially breaks this: 3 of 4 components involve irrational
-coefficients within the number field.
+1. **Latimer–MacDuffee**: ℤ[β] is the MAXIMAL order (disc(charpoly) =
+   field disc = −400) and the class number of ℚ(β) = ℚ(√φ) is 1
+   (sage/pari). Therefore there is exactly ONE GL(4,ℤ)-conjugacy class
+   of integer matrices with this charpoly.
+2. **Explicit conjugators** (verified exactly in the canonical pyenv
+   environment): with A₁, A₂, A₃, A₅ the induced matrices of types
+   1, 2, 3, 5,
+     P₂ = [[1,0,0,0],[0,1,0,0],[0,0,1,−1],[0,−1,0,1]]   (det 1)
+     P₃ = [[1,0,0,0],[2,1,−1,−1],[−2,−1,2,1],[−1,0,1,1]] (det 1)
+     P₅ = [[1,0,0,0],[0,0,1,0],[2,1,−1,−1],[−1,0,1,1]]   (det −1)
+   satisfy Pₖ A₁ Pₖ⁻¹ = Aₖ.
+
+CONSEQUENCE (strengthens the campaign's thesis): the abstract
+ℤ-module with its σ-action is UNIQUE across all observation points.
+The 5 types differ ONLY in the marked data — which return word carries
+which Perron coordinate. The coupling difference lives entirely in the
+observation embedding, not in the abstract object. This is the
+observer-coupling picture in its sharpest form: the object is one;
+the five fingerprints are five markings of the same object.
+
+### S3: The mixing law is EXACT and half-integral  [UPGRADED by the audit]
+The audit computed the Perron eigenvectors EXACTLY (adjugate over
+ℚ(τ), symbolic). Results:
+
+- Types 1–4: every component is an EXACT ℤ-linear combination of the
+  letter frequencies (f_a, f_b, f_A, f_B). Zero error — proven, not
+  approximated. (The "error < 4×10⁻⁷" in the original write-up was an
+  artifact of comparing against print-rounded values.)
+- Type 4 is FULLY ℤ-mixing: the two previously "unidentified"
+  components are 0.2464… = −2+2τ−4φ+3τ³ and 0.1937… = 2−2τ+3φ−2τ³
+  (exact, in the τ-power basis).
+- Type 5 is HALF-INTEGER mixing, NOT "irrational mixing" as first
+  written: its components are exactly
+    (1+τ−φ)/2, f_a, (1−2τ+τ³)/2, (2−τ+φ−τ³)/2.
+  All coefficients lie in ½ℤ.
+
+MIXING LAW (final form): every Perron component of every observation
+type is a (½)ℤ-linear combination of {1, τ, τ², τ³}; Types 1–4 are
+integral, Type 5 is properly half-integral. Pair-sum preservation:
+  T1 → T2: preserves (f_a, f_B), mixes (f_A, f_b)
+  T1 → T3: preserves (f_B, f_b), mixes (f_A, f_a)
 
 ### S4: Self-recovery
 7 of 34 observation points reconstruct σ's canonical codes exactly.
@@ -92,7 +129,7 @@ every image starts with 'a').
 | Perron eigenvector | **VARIES** | 5 distinct types |
 | Return-word gap labels | **VARIES** | 5 distinct sets |
 | Canonical codes | **VARIES** | self vs non-self (2 classes) |
-| GL(4,ℤ) class of A_u | **VARIES** | 5 distinct classes |
+| GL(4,ℤ) class of A_u | **UNIVERSAL** | single class (audit-corrected; h=1, explicit conjugators) |
 
 ## Implications for the SM Question
 
@@ -286,3 +323,47 @@ The connection could go through STRUCTURE, not VALUES:
   (d) The orientation (det = −1) → parity/chirality
 
 These are B532's territory, not B533's.
+
+## Fable-5 Audit (independent re-verification)
+
+Full exact re-verification of all banked B533 claims
+(audit_fable5_reverify.py, audit_fable5_part4b.py,
+audit_fable5_part4c.sage.py). Scorecard:
+
+**CONFIRMED (exact/symbolic, upgraded from numerics):**
+- All 18 Gate 2 core identities (β = 1/(√φ−1), f_a = 1/β,
+  β·|λ₂| = φ, modulus identity, det = −1, sin θ = 1/φ,
+  cos θ = −1/√φ, disc = −400, D₄, irreducibility, M·v = βv
+  for the frequency vector, f_A − f_a = f_a²).
+- The census: 34 points, 5 types, counts 14/10/4/3/3, identical
+  per-type factor lists — reproduced with fully independent
+  string-based return-word code (no induction engine).
+- ℤ-mixing for Types 1–3: EXACT (adjugate eigenvectors over ℚ(τ)).
+- Gate 3 verdict: survives a corrected, magnitude-matched
+  false-positive control. Per-target p-values are uniform
+  (median 0.45, 2/16 below 0.05 vs ~0.8 expected) — the SM-ratio
+  matches are exactly what chance predicts. Numerology door stays
+  closed, now with a properly calibrated control.
+
+**CORRECTED:**
+- S1: λ₃, λ₄ are a complex conjugate pair −1/φ ± i/τ³ with
+  |λ₃| = 1/√φ — not a repeated real −0.618.
+- S2: REVERSED. All rc=4 matrices ARE GL(4,ℤ)-conjugate
+  (class number 1 + Latimer–MacDuffee + explicit conjugators).
+  The coupling carries NO abstract ℤ-invariant; the 5 types are
+  5 markings of ONE object.
+- S3: Type 4 is fully ℤ-mixing (both "unidentified" components
+  identified exactly); Type 5 is half-integer mixing, not
+  "irrational mixing".
+- Gate 3's original false-positive control drew from [0, 200]
+  while most SM targets are ≪ 20, where the coefficient-box
+  lattice is denser; the "7 hits vs 1.2 expected" excess was an
+  artifact of that mismatch. The corrected control shows no excess.
+
+**Bookkeeping notes:**
+- probe4's printed output swaps the labels of Types 4 and 5
+  relative to this document (both have 3 census points; the
+  tie-break order differs). This document's numbering is canonical:
+  Type 4 = {aA, BaA, ABaA} (rc=5), Type 5 = {Bab, ABab, BabA}.
+- probe5 Part G's residual errors (~4×10⁻⁷) came from comparing
+  against 6-decimal print-rounded targets, not from the algebra.

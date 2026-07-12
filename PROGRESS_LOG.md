@@ -10,6 +10,31 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B533 Fable-5 audit: full exact re-verification (1 refutation, 3 upgrades)
+
+Independent re-verification of every banked B533 claim with exact symbolic arithmetic,
+an engine-independent census, and number-theoretic machinery.
+
+**CONFIRMED (upgraded to exact):** all 18 Gate 2 identities; the census (34 points, 5 types,
+14/10/4/3/3 — reproduced with plain string code, no engine); ℤ-mixing for Types 1-3 now
+PROVEN exact (adjugate eigenvectors over ℚ(τ)); Gate 3 verdict survives a corrected
+magnitude-matched false-positive control (p-values uniform — matches are pure chance).
+
+**REFUTED:** S2's "NOT GL(4,ℤ)-conjugate". ℤ[β] is the maximal order (disc −400) and
+h(ℚ(√φ)) = 1, so by Latimer–MacDuffee there is exactly ONE conjugacy class. Explicit
+unimodular conjugators found and verified exactly in pyenv. Consequence STRENGTHENS the
+thesis: the abstract object is unique; the 5 types are 5 markings of one object — the
+coupling difference lives entirely in the observation embedding.
+
+**CORRECTED:** S1's λ₃=λ₄=−0.618 (they are the complex pair −1/φ ± i/τ³, |λ₃| = 1/√φ);
+Type 5's "irrational mixing" (it is exact HALF-INTEGER mixing); Type 4 is fully ℤ-mixing
+(the two "unidentified" components identified exactly). Final mixing law: every Perron
+component of every type is a (½)ℤ-combination of {1, τ, φ, τ³}.
+
+25 locks (3 new: GL(4,ℤ) conjugators, T4 full ℤ-mixing, T5 half-integer mixing).
+
+---
+
 ## 2026-07-12 — B533: Coupling Invariance (Gates 1-3 complete)
 
 **Gate 1** (Probes 1-3): 34 factors cluster into 5 STABLE observation types. Eigenvalue spectrum

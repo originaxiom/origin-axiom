@@ -324,6 +324,66 @@ def test_discriminant_minus_400():
     assert d2 == -400
 
 
+# ── S2 (audit-corrected): all rc=4 matrices GL(4,Z)-conjugate ──
+
+CONJUGATORS = {
+    'B':   [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, -1], [0, -1, 0, 1]],
+    'A':   [[1, 0, 0, 0], [2, 1, -1, -1], [-2, -1, 2, 1], [-1, 0, 1, 1]],
+    'Bab': [[1, 0, 0, 0], [0, 0, 1, 0], [2, 1, -1, -1], [-1, 0, 1, 1]],
+}
+
+
+def test_gl4z_conjugacy(host):
+    """Audit correction: the rc=4 induced matrices ARE GL(4,Z)-conjugate.
+
+    Explicit unimodular P with P*A('a')*P^-1 = A(u) for u in B, A, Bab.
+    (Latimer-MacDuffee: Z[beta] maximal, class number 1 => single class.)
+    """
+    import sympy as sp
+    A1 = sp.Matrix(_analyze('a', host)['induced']['matrix'])
+    for factor, P_rows in CONJUGATORS.items():
+        Au = sp.Matrix(_analyze(factor, host)['induced']['matrix'])
+        P = sp.Matrix(P_rows)
+        assert abs(P.det()) == 1, f"P for '{factor}' not unimodular"
+        assert P * A1 * P.inv() == Au, \
+            f"P A(a) P^-1 != A({factor})"
+
+
+# ── S3 (audit-upgraded): exact mixing forms for Types 4 and 5 ──
+
+def test_t4_full_z_mixing(host):
+    """Type 4 (u='aA', rc=5) is FULLY Z-mixing: all 5 components are
+    integer combos of {1, tau, phi, tau^3} (audit-exact; 1e-9 here)."""
+    tau = SQ_PHI
+    r = _analyze('aA', host)
+    assert r['rc'] == 5
+    v = np.sort(r['perron_vec'])[::-1]
+    exact = np.sort([
+        2 - tau + PHI - tau**3,
+        -2 + 2*tau - 4*PHI + 3*tau**3,
+        2 - 2*tau + 3*PHI - 2*tau**3,
+        -2 + tau - 2*PHI + 2*tau**3,
+        1 + 2*PHI - 2*tau**3,
+    ])[::-1]
+    assert np.allclose(v, exact, atol=1e-9), f"{v} != {exact}"
+
+
+def test_t5_half_integer_mixing(host):
+    """Type 5 (u='Bab') is HALF-INTEGER mixing (not 'irrational'):
+    components are exactly (1+tau-phi)/2, f_a, (1-2tau+tau^3)/2,
+    (2-tau+phi-tau^3)/2."""
+    tau = SQ_PHI
+    r = _analyze('Bab', host)
+    v = np.sort(r['perron_vec'])[::-1]
+    exact = np.sort([
+        (1 + tau - PHI) / 2,
+        tau - 1,
+        (1 - 2*tau + tau**3) / 2,
+        (2 - tau + PHI - tau**3) / 2,
+    ])[::-1]
+    assert np.allclose(v, exact, atol=1e-9), f"{v} != {exact}"
+
+
 # ── S11: no SM ratio in ℚ(√φ) ──
 
 def test_no_sm_ratio_exact_in_Q_tau():
