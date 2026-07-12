@@ -10,6 +10,19 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — RAN the charge-tower arithmetic: closed form + resultant recursion + period-3 ℤ/11
+
+Investigated the escalator charge tower eₙ = det(I−Mₙ) to its structure (all verified exact):
+(1) CLOSED FORM eₙ = charpoly_n(1); extended to rung 5 (e₅ = −1.455×10⁶¹). (2) RESULTANT
+RECURSION charpoly_{n+1} = ±Res_μ(charpoly_n, x²−2μx+μ²−μ³), hence eₙ₊₁ = ±Res(charpoly_n, g),
+g = x³−x²+2x−1 (disc −23) — one fixed cubic drives the whole tower. (3) DOUBLING-ORBIT
+characterization: p | eₙ ⟺ 1 ∈ spec(Mₙ) mod p ⟺ the golden pair's doubling orbit reaches 1 at
+rung n. (4) The B552 ℤ/11 recurs with PERIOD 3 (11 | eₙ at n=1,4,7); small primes 3,5,7,13,23
+divide NO eₙ — the charge tower's primes (11,809,1459,597049,…) are a specific orbit-selected set.
+The object's depth has a periodic prime arithmetic, one prime per doubling-orbit return. 4 locks.
+
+---
+
 ## 2026-07-12 — B556 PROOF UPGRADE (chat-2 audit verified): the doubling is a THEOREM + the charge tower
 
 chat-2's audit of B556 (escalator tower) supplied three exact results, all verified here:
