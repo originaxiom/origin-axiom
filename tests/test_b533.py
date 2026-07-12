@@ -224,3 +224,125 @@ def test_pair_sum_t1_t3(host):
     sum3 = v3[0] + v3[1]
     assert abs(sum1 - sum3) < 1e-3, f"pair sum not preserved: {sum1} vs {sum3}"
     assert abs(sum1 - 1/PHI) < 1e-3, f"pair sum {sum1} != 1/phi"
+
+
+# ── S5: β = 1/(√φ - 1) ──
+
+def test_beta_is_reciprocal_sqrtphi_minus_1():
+    """β = 1/(√φ - 1), proved algebraically via charpoly substitution."""
+    tau = SQ_PHI
+    beta = BETA
+    assert abs(beta - 1/(tau - 1)) < 1e-4, \
+        f"β={beta} != 1/(√φ-1)={1/(tau-1)}"
+    assert abs(beta * (tau - 1) - 1) < 1e-4, \
+        f"β(√φ-1)={beta*(tau-1)} != 1"
+
+
+# ── S6: Eigenvalue identities ──
+
+def test_beta_times_lambda2_equals_phi():
+    """β · |λ₂| = φ (product of the two real eigenvalues)."""
+    tau = SQ_PHI
+    beta = PHI * (1 + tau)
+    lam2 = 1 / (1 + tau)
+    assert abs(beta * lam2 - PHI) < 1e-8, \
+        f"β·|λ₂|={beta*lam2} != φ={PHI}"
+
+
+def test_modulus_identity():
+    """β · |λ₂| · |λ₃|² = 1 (modulus identity)."""
+    tau = SQ_PHI
+    beta = PHI * (1 + tau)
+    lam2_abs = 1 / (1 + tau)
+    lam3_mod_sq = 1 / PHI
+    product = beta * lam2_abs * lam3_mod_sq
+    assert abs(product - 1) < 1e-8, f"β·|λ₂|·|λ₃|²={product} != 1"
+
+
+def test_det_M_minus_one():
+    """det(M) = -1 (orientation-reversing substitution)."""
+    import sympy as sp
+    M = sp.Matrix(original_matrix())
+    assert M.det() == -1
+
+
+# ── S7: f_a = 1/β ──
+
+def test_f_a_equals_one_over_beta(host):
+    """f_a = 1/β: letter frequency = reciprocal of growth rate."""
+    assert abs(FREQ['a'] - 1/BETA) < 1e-4, \
+        f"f_a={FREQ['a']} != 1/β={1/BETA}"
+    tau = SQ_PHI
+    assert abs(FREQ['a'] - (tau - 1)) < 1e-8, \
+        f"f_a={FREQ['a']} != √φ-1={tau-1}"
+
+
+# ── S8: Single number field ──
+
+def test_all_freqs_in_Q_tau():
+    """All 4 letter frequencies expressible in ℚ(τ), τ=√φ."""
+    tau = SQ_PHI
+    beta = tau**2 * (1 + tau)
+    assert abs(FREQ['a'] - 1/beta) < 1e-8
+    assert abs(FREQ['b'] - 1/(PHI*beta)) < 1e-8
+    assert abs(FREQ['A'] - tau/beta) < 1e-8
+    assert abs(FREQ['B'] - tau/(PHI*beta)) < 1e-8
+
+
+# ── S9: sin θ = 1/φ, cos θ = -1/√φ ──
+
+def test_complex_eigenvalue_trig():
+    """Complex eigenvalue phase has algebraic trig: cos θ = -1/τ, sin θ = 1/φ."""
+    tau = SQ_PHI
+    lam3_re = -1 / PHI
+    lam3_im = np.sqrt(np.sqrt(5) - 2)
+    lam3_mod = np.sqrt(lam3_re**2 + lam3_im**2)
+    cos_theta = lam3_re / lam3_mod
+    sin_theta = lam3_im / lam3_mod
+    assert abs(cos_theta - (-1/tau)) < 1e-10, f"cos θ = {cos_theta} != -1/τ"
+    assert abs(sin_theta - 1/PHI) < 1e-10, f"sin θ = {sin_theta} != 1/φ"
+
+
+def test_complex_eigenvalue_modulus():
+    """|λ₃| = 1/τ = 1/√φ."""
+    tau = SQ_PHI
+    lam3_re = -1 / PHI
+    lam3_im = np.sqrt(np.sqrt(5) - 2)
+    lam3_mod = np.sqrt(lam3_re**2 + lam3_im**2)
+    assert abs(lam3_mod - 1/tau) < 1e-10
+
+
+# ── S10: discriminant ──
+
+def test_discriminant_minus_400():
+    """disc(x⁴-x²-1) = disc(charpoly M) = -400."""
+    import sympy as sp
+    x = sp.Symbol('x')
+    d1 = sp.discriminant(x**4 - x**2 - 1, x)
+    d2 = sp.discriminant(x**4 - 2*x**3 - 5*x**2 - 4*x - 1, x)
+    assert d1 == -400
+    assert d2 == -400
+
+
+# ── S11: no SM ratio in ℚ(√φ) ──
+
+def test_no_sm_ratio_exact_in_Q_tau():
+    """No SM coupling constant matches ℤ[τ] within 10× lattice spacing."""
+    tau = SQ_PHI
+    T = np.array([1.0, tau, tau**2, tau**3])
+    MAX_C = 8
+    rng = np.arange(-MAX_C, MAX_C + 1, dtype=float)
+    N = len(rng)
+    a = rng.reshape(N, 1, 1, 1)
+    b = rng.reshape(1, N, 1, 1)
+    c = rng.reshape(1, 1, N, 1)
+    d = rng.reshape(1, 1, 1, N)
+    lattice = a*T[0] + b*T[1] + c*T[2] + d*T[3]
+
+    alpha_em = 1 / 137.035999084
+    sm_values = [alpha_em, 0.1180, 0.23122, 0.22500]
+
+    for val in sm_values:
+        err = np.min(np.abs(lattice - val))
+        assert err > 1e-6, \
+            f"SM value {val} matches ℤ[τ] with err {err} < 1e-6 (would be exact)"

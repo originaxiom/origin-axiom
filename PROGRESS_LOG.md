@@ -10,16 +10,27 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
-## 2026-07-12 — B533: Coupling Invariance (Gate 1)
+## 2026-07-12 — B533: Coupling Invariance (Gates 1-3 complete)
 
-Does the object look the same from every observation point? 34 factors (length 1-4) cluster
-into 5 STABLE observation types (identical at depths 8-11). Eigenvalue spectrum {β, λ₂, λ₃, λ₄}
-is UNIVERSAL; Perron eigenvector VARIES (5 distinct fingerprints). Type 1 IS σ itself
-(self-recovery, Perron vec = letter frequencies). Type 2 has |λ₂| as a component
-(f_a + f_b = |λ₂| = 0.440). Types 1-4 are ℤ-mixings of letter frequencies; Type 5 involves
-irrational coefficients. All 5 matrices share the same irreducible charpoly but are NOT
-GL(4,ℤ)-conjugate. Gate 1 verdict: coupling is NOT a gauge choice — it carries 5 discrete
-algebraic fingerprints. 12 locks.
+**Gate 1** (Probes 1-3): 34 factors cluster into 5 STABLE observation types. Eigenvalue spectrum
+UNIVERSAL; Perron eigenvector VARIES (5 fingerprints). Types 1-4 = ℤ-mixings of letter
+frequencies; Type 5 irrational. All matrices share irreducible charpoly but NOT GL(4,ℤ)-conjugate.
+
+**Gate 2** (Probes 4-6): The coupling geometry + number field. KEY IDENTITIES PROVED:
+β = 1/(√φ-1) (growth rate determined by golden ratio). f_a = 1/β (letter freq = reciprocal of
+growth rate). β·|λ₂| = φ (product of real eigenvalues). β·|λ₂|·|λ₃|² = 1 (modulus identity).
+det(M) = -1 (orientation-reversing). sin θ = 1/φ, cos θ = -1/√φ (algebraic trig). disc = -400.
+The object lives in ONE number field ℚ(√φ) = ℚ[x]/(x⁴-x²-1), degree 4 = alphabet size.
+ALL ratios determined by single generator τ = √φ. Scale is external; root already taken.
+
+**Gate 3** (Probe 7): SM ratio test with false-positive control. 21 SM dimensionless ratios tested
+against ℤ[τ] lattice (|coeffs|≤8, 83,521 points). Lattice density: avg spacing ~0.001, any
+number within ~0.0006 of a lattice point. 7 matches below 10× sub-spacing — consistent with
+lattice density (false-positive rate 5.6% at 10⁻⁴). No match at err < 10⁻⁶. Best power-of-τ:
+1/α_em ≈ 6·τ¹³ at 0.06% (10⁷× above measurement precision). VERDICT: no SM ratio is an
+element of ℚ(√φ) with small coefficients. The numerology door is CLOSED with computed evidence.
+
+22 locks total.
 
 ---
 
