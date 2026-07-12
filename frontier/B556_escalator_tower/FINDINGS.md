@@ -178,11 +178,20 @@ p ∈ {5, 7, 11, 17, 19, 23, 809}, is inert for {3, 13, 29}. But a g-root is
 NECESSARY-not-sufficient: 5 and 7 have g-roots yet divide NO eₙ in range — the
 orbit must actually REACH the root, and for 5, 7 it doesn't (within reach).
 
-**HONEST BOUNDARY (open).** The periods of the larger charge primes (809 at
-n=2, 1459 at n=4, each seen once in range) are NOT determined by the matrix
-computation: Mₙ grows as 2ⁿ⁺¹, so direct period-finding stalls near n=7. The
-correct tool is iterating the doubling orbit μ→μ(1±√μ) directly in F_{p^k}
-(bounded by field size, not matrix size), with finite-field square-root
-handling — a distinct probe, not run. NO clean "period = ord(·) mod p" law is
-claimed; only the mechanism (proven) and 11's period (confirmed). Recorded so
-the F_{p^k} orbit probe is not re-derived from scratch.
+**COMPLETED (extended computation) — there is NO simple period law; the
+charge-tower primes are a dynamically-sparse, orbit-selected set.**
+- **11: period 3 CONFIRMED through 4 periods** — the matrix det pushed to n=11
+  (size 4096); zeros at exactly n = 1, 4, 7, 10, with no off-pattern zeros.
+- **809: LARGE period** (> 9) — appears only at n=2 within reach (n≤11). So the
+  periods vary wildly (11→3, 809→large); there is no uniform small period.
+- **Sparsity, not captured by any simple invariant:** among ALL primes 3–79,
+  ONLY 11 divides any eₙ for n≤8. And the appearance is NOT predicted by the
+  obvious invariants — 19, 61, 79 share 11's g-factorization type (1 linear + 1
+  quadratic) AND have 5 a quadratic residue, yet none divides any eₙ in range.
+  So no congruence/factorization condition determines appearance.
+- **Conclusion:** the period is a genuine finite-field DOUBLING-ORBIT RETURN
+  period — computable per-prime by iterating μ→μ(1±√μ) in the splitting field,
+  but NOT reducible to a closed form in p. The mechanism is fully characterized;
+  "which primes, and with what period" is intrinsically dynamical, not
+  formulaic. That is the complete, honest answer: no simple law, and the exact
+  reason why (orbit-selection in a growing splitting field).

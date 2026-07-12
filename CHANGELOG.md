@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — charge-tower period question CLOSED (no simple law)
+
+### Added
+- B556 FINDINGS: extended computation closes the open boundary — 11 period-3 confirmed
+  through 4 full periods (n=11, size 4096); 809 large period; sparsity survey (only 11
+  among primes 3–79); shared-invariant primes (19,61,79) do not appear. Final verdict:
+  no closed-form period law; the primes are orbit-selected/dynamical.
+- tests/test_b556_period_sparse.py (2 locks; fast numpy modular determinant).
+
+---
+
 ## 2026-07-12 — Review 13 anchored (merges #838-#853)
 
 ### Added

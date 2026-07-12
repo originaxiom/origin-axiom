@@ -11293,7 +11293,8 @@
    "motifs": [
     "trace_map",
     "metallic",
-    "golden"
+    "golden",
+    "torsion"
    ],
    "refs": [
     "B517",

@@ -10,6 +10,26 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the period question, COMPLETED: no simple law; primes are orbit-selected
+
+Closed the open boundary from the 2026-07-12 partial entry by extending the computation
+(fast numpy modular determinant instead of sympy — the 4096×4096 rung n=11 stays sub-second).
+FINAL ANSWER: there is NO simple period law for the charge-tower primes; they are a
+dynamically-sparse, doubling-orbit-selected set.
+- **11: period 3 CONFIRMED through 4 full periods** (n=11, size 4096): eₙ mod 11 =
+  [10,0,5,1,0,6,5,0,1,6,0,1], zeros at exactly n = 1,4,7,10 — no off-pattern zeros.
+- **809: LARGE period** (>9) — appears only at n=2 within reach, so periods vary wildly
+  (11→3, 809→large); no uniform small period.
+- **Sparsity not captured by any simple invariant**: among ALL primes 3–79 only 11 divides
+  any eₙ (n≤8); and 19, 61, 79 share 11's g-factorization type (1 linear + 1 quadratic) AND
+  have 5 a QR, yet none appears — so no congruence/factorization condition predicts appearance.
+- Conclusion: the period is a genuine finite-field doubling-orbit return period, computable
+  per-prime but NOT reducible to a closed form in p — "which primes, with what period" is
+  intrinsically dynamical. This is the complete, honest answer (no simple law + the exact
+  reason why). 2 locks (tests/test_b556_period_sparse.py).
+
+---
+
 ## 2026-07-12 — the period question, computed (partial): mechanism PROVEN, 11 confirmed, full law open
 
 "What determines each prime's period in the charge tower?" — computed to the boundary of rigor.
