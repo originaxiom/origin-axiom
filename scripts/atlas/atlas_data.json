@@ -10897,6 +10897,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B534": {
+   "slug": "dark hyperbola",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B476",
+    "B489"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B54": {
    "slug": "general c exchange structure",
    "motifs": [

@@ -10,6 +10,33 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B534: the Dark Hyperbola PROVED (seat-1 crystallization handoff processed)
+
+Seat-1's crystallization (2026-07-09) + cover sheet processed verify-don't-trust. All three
+Priority-1 theorems upgraded from float-verified to PROVED with exact verification:
+
+**Dark Hyperbola (PROVED, all odd p):** tr(Par·W₁ʲ·W₂ˡ) = 0 ⟺ jl ≡ −4 (mod p), (j,l) ≠ (2,p−2).
+Complete Gauss-sum proof: completing the square gives α = j/2+2/l, β = 1−j/2; dark = (α≡0, β≢0);
+survivor = (α≡β≡0) ⟹ j=2, |T| = √p; all other actives |T| = 1. Exact integer-counting
+verification (group ring, zero floats) at ALL 12 primes 3–41. Answers Priority-2: −4 = −2²
+from the Par cross term (Weil-intrinsic, no monodromy input); j=2 = the linear character's zero.
+
+**Power-Set Magnitudes (PROVED, square-free N):** CRT factorization; unit scaling preserves the
+per-prime classification {0,1,√p} ⟹ magnitudes = subset products exactly. Exact at N=15 over
+ℤ[ζ₁₅] ({0,1,3,5,15}, 225 points); float corroboration N=105/165 (38,250 points, 0 off-catalog).
+
+**Asymptotic Darkness (PROVED):** ∏(1−(p−2)/p²) → 0 by Mertens; crossing at p=31 confirmed.
+
+**Tower torsion law (PROVED all n):** det(A₁ⁿ−I) = 2−L(2n) (two lines); odd n → L(n)², even
+n → 5F(n)² via classical identities (symbolic). H₁(b++(RL)⁴) torsion = ℤ/3⊕ℤ/15 by exact Smith
+form — the seam level 15 from the 4th self-interaction, no SnapPy needed.
+
+Convention caveat recorded: the hyperbola lives on the THETA lift (B358), not the B476 pair.
+Crystallization landed at docs/CRYSTALLIZATION_2026-07-09.md with verification preamble +
+framing governance (predates the 07-10 adjudication; §V/§VI read through it). 16 locks.
+
+---
+
 ## 2026-07-12 — Origin Postulate: audit-seat adjudication processed (chat2 handoff, verified)
 
 Chat2's co-sign of the postulate adjudication (REFUTED-AS-STATED, bounded) processed under
