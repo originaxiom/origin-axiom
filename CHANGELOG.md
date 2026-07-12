@@ -6,6 +6,31 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B533 Fable-5 audit (1 refutation, 3 corrections, all else exact)
+
+### Added
+- **frontier/B533_coupling_invariance/audit_fable5_reverify.py**: exact symbolic
+  re-verification (18 identities, adjugate eigenvectors over ℚ(τ),
+  engine-independent census, magnitude-matched Gate 3 control).
+- **audit_fable5_part4b.py / audit_fable5_part4c.sage.py**: GL(4,ℤ) conjugacy
+  decision — saturation check, mod-p obstructions, Latimer–MacDuffee via sage.
+- **tests/test_b533.py**: 3 new locks (25 total) — explicit GL(4,ℤ) conjugators,
+  T4 full ℤ-mixing, T5 half-integer mixing.
+
+### Corrected (in FINDINGS.md)
+- **S2 REVERSED**: all rc=4 induced matrices ARE GL(4,ℤ)-conjugate (class number 1,
+  Latimer–MacDuffee, explicit unimodular conjugators verified in pyenv). The
+  coupling carries no abstract ℤ-invariant — the 5 types are 5 markings of ONE object.
+- **S1**: λ₃, λ₄ are the complex pair −1/φ ± i/τ³ (|λ₃| = 1/√φ), not a repeated
+  real −0.618.
+- **S3**: mixing law now EXACT: Types 1–4 integral, Type 5 half-integral in
+  {1, τ, φ, τ³}; "irrational mixing" retracted.
+- **Gate 3**: original false-positive control was range-mismatched; corrected
+  magnitude-matched control shows the SM matches are exactly chance. Verdict
+  (numerology door closed) unchanged and strengthened.
+
+---
+
 ## 2026-07-12 — B533: Coupling Invariance (Gates 1-3 complete)
 
 ### Added
