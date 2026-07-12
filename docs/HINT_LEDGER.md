@@ -323,3 +323,18 @@ prior quantum-consciousness pointer. Genuine hooks:
   same structure/value split the reframe proved for numbers, restated for meaning.
 - **Disanalogy to keep honest:** the brain CONSTRUCTS (can be wrong); the object RECONSTRUCTS
   (cannot). "Observer-dependent" in opposite directions — history-dependence vs gauge-only.
+
+## 2026-07-12 — the escalator's two towers + the surface/depth prime split
+
+- **One doubling, two towers [MATH]:** the escalator eigenvalue-doubling μ→μ(1±√μ) generates
+  BOTH the analytic Perron/field tower (degrees 2→4→8→16→32) AND the arithmetic charge tower
+  eₙ=det(I−Mₙ), the latter by ONE fixed cubic g(x)=1−2x+x²−x³ over each spectrum (verified,
+  B556). [HOOK: is there a closed form for eₙ / a recursion? the primes 11,809,18845089 — any
+  pattern beyond "g applied to growing spectra"?]
+- **Surface/depth prime split [LEAP]:** the object's SURFACE is golden (ℚ(√φ): primes 2,5) +
+  the Eisenstein end (3), but its DEPTH — the charge tower — generates NEW primes (11, 809,
+  1459, 597049, 2169349081, …). "Everything is 2 and 5" (B554) is only the surface; the coupled
+  tower has an expanding arithmetic of its own. The object is golden outside, prime-generating
+  inside.
+- **disc −23 curio:** the charge-tower's generating cubic has discriminant −23 = the h=3
+  counterexample flagged in B554. The charge cubic lives in a class-number-3 field. Recorded.
