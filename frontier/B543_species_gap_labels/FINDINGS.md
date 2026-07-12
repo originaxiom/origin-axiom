@@ -37,3 +37,12 @@ F-P1c the K-theory gap-labeling computation for the species C*-algebra.
 module in general; our content is the ℚ(√φ)-degree-4 instantiation + the
 B535-dictionary identification + the buildable experiment. Run the lit gate
 before any novelty language.
+
+## Finite-size hardening (chat-2 V3 + B546): falsifier silent at scale
+
+chat-2 independently ran N = 24,001 (both coupling sets, top-30 gaps):
+margins 22–59× (f_b at 6e-7), coupling-invariance now EXACT (the N=3000
+ranking-artifact "no" rows f_b/f_B present in both sets at identical
+distances), preregistered drift-to-φ-lattice falsifier SILENT. Consistent
+with B546's own Sturm-IDS hardening (N=10⁶, 4e-7). The experiment proposal is
+hardened at the point of first external attack.

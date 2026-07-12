@@ -86,3 +86,24 @@ and V(4₁;ζ₁₀)=0 exactly (both verified) — golden-field, on-brand, not S
 
 **Net:** the circle closes as MATHEMATICS (the object IS the Fibonacci anyon — banked, real,
 beautiful). The torsion wall is a genuine new insight. The SM overlay is the trap. Firewall holds.
+
+## λ-family unification (chat-2 V2, 2026-07-12) — REPRODUCTION PENDING + a landmine
+
+chat-2 reports the whole λ-family as ONE master constant under three clocks:
+  A := lim L_k/φ^k = 0.91112146336898682497  (L_k = ln tr s_k on the spine walk
+       s₀=A₂, s₁=A₁, s_{k+1}=s_k s_{k−1}; sanity tr(A₁A₂)=15), with
+  λ_chain = e^{A/2}, λ_spine = e^{A√5/φ²}, u = e^{A√5/φ}, and the exact
+  identities u = λ_spine^φ (B483's golden exponent, now an identity) and
+  λ_spine = λ_chain^{2√5/φ²}. Claims no collision with P4's volume constant
+  c=0.934102 (A ≠ c). **CC status: NOT independently reproduced** — a quick
+  CC attempt used tr(Mᵏ) of the incidence matrix (wrong object; that gives
+  L_k/φ^k → 0) instead of the spine-walk pair matrices; the value stands as
+  chat-2's, reproduction deferred to a proper spine-walk setup.
+
+**★ φ-LOOKALIKE LANDMINE (anti-numerology, on record before anyone steps on
+it):** chat-2 reports the next clock down gives e^{A√5/φ³} ≈ 1.617607589 — a
+φ-lookalike to three digits (φ = 1.6180340) that is PROVABLY NOT φ. Any future
+seat pattern-matching a "≈1.6176" against the golden ratio must find this line
+first. (The specific digit is chat-2's, pending the same spine-walk
+reproduction; the WARNING stands regardless — a near-1.618 in the λ-family is
+a decoy, not φ.)

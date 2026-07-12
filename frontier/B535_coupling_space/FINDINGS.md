@@ -103,3 +103,11 @@ The 17 components are not a list: {f_b, f_B, f_a, f_A, |λ₂|} = τ^a(τ−1)
 (a = −2…2) and the six T4/T6 components = τ^a(τ−1)² (a = 0…5) — two geometric
 strings with ratio τ — plus τ⁻⁵ and a 5-element π-fringe (π = −2τ³+τ²+3τ−1,
 N(π) = 4, the T3 top component). Verified exact; locks in tests/test_b542.py.
+
+## Independent reproduction (chat-2 V1, 2026-07-12)
+
+The one-measurement theorem reproduced END-TO-END with fresh code (own lift
+enumeration, grammar extraction, language fingerprints; zero reuse): 17,280
+lifts, 7 adjacencies {AA,AB,Aa,Ba,aA,ab,bA}, 8 grammar survivors, 2 language
+survivors (σ and a⁻¹σa), 16,848 distinct languages — every count exact. The
+keystone has now been survived by the hostile seat.
