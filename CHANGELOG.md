@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B532 I4: The Derivation DAG
+
+- **29 layers, single source: σ.** The DAG has depth 4. 24 layers derive from
+  σ alone; 5 require observer inputs (SL₂C structure or potential V).
+- **The irreducible kernel is the four words** (abAAB, aAB, abAB, aA) — not the
+  matrix (doesn't determine grammar), not the charpoly (doesn't determine M),
+  not the grammar (doesn't determine image lengths).
+- **Two observer inputs**: SL₂C ("gauge") → character variety, trace map, FPs;
+  potential V ("coupling") → Schrödinger operator, gap widths.
+- 5 new locks in test_b532.py (26 total).
+
 ## 2026-07-12 — B532 I3: Self-Description
 
 - **σ(a) = abAAB is SELF-CONTAINING**: its return induction has canonical codes = σ

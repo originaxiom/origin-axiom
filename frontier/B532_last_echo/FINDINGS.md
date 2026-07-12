@@ -234,3 +234,54 @@ rests on a core hierarchy that is not reproduced by independent computation. Sta
 pending clarification of what "derived substitution" means in the handoff.
 
 **Lock:** `tests/test_b532.py::test_i3_*`
+
+## Cell I4 — The Derivation DAG
+
+### The graph
+
+29 layers organized in a DAG of depth 4. Single source node: σ itself.
+
+**Depth 0 (source):** σ (the four words)
+**Depth 1 (immediate):** M, grammar, swap s, symplectic D, return induction,
+  + character variety [needs SL₂C], Schrödinger [needs V]
+**Depth 2:** charpoly, frequencies, growth rate, M mod 2, Rauzy fractal,
+  GL(4,Z) class, 7 types, self-containment, + trace map [needs SL₂C]
+**Depth 3:** gap labels, decider/courier, entropy, disc/Galois, spectral type,
+  six-phase clock, projection algebra, two linear orbits,
+  + FP variety [needs SL₂C]
+**Depth 4:** gap widths [needs V], golden section, period-3 absence
+
+### The kernel
+
+The irreducible kernel is **σ itself — the four words** (abAAB, aAB, abAB, aA).
+Not the matrix (which doesn't determine the grammar or the Rauzy fractal). Not
+the charpoly (which doesn't determine M). Not the grammar (which doesn't determine
+the image lengths). The four words carry strictly more information than any single
+invariant.
+
+24 of 29 layers derive from σ alone by pure computation. The remaining 5 require
+**observer inputs**:
+
+### Observer inputs
+
+1. **SL₂C structure** ("the observer's gauge"): needed for the character variety,
+   trace map, and fixed-point variety. This is the observer's choice of how to
+   REPRESENT the free group F₄ — it introduces a specific geometry (complex
+   2-dimensional) into a purely combinatorial object.
+
+2. **Potential V** ("the observer's measurement"): needed for the Schrödinger
+   operator and gap widths. This is the observer's choice of how to COUPLE to
+   the word — it turns a sequence of letters into a physical operator.
+
+### The prediction form
+
+Given σ + one observer input, specific layers are forced:
+- σ alone → 24 layers (grammar, frequencies, golden section, spectral type, etc.)
+- σ + SL₂C → +3 layers (character variety, trace map, fixed points)
+- σ + V → +2 layers (Schrödinger operator, gap widths/slopes)
+
+The campaign's thesis: the observer brings the gauge (SL₂C) and the coupling (V).
+Given those choices, the 29-layer structure is determined. "Physics" is the
+observer's choice of gauge and coupling projected onto the object's grammar.
+
+**Lock:** `tests/test_b532.py::test_i4_*`
