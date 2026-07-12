@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Origin Postulate adjudication: trunk import + two nits (chat2 handoff)
+
+### Added
+- **philosophy/THE_ORIGIN_POSTULATE.md**: imported from the audit seat (preserved
+  postulate text + REFUTED-AS-STATED verdict block), with trunk provenance note,
+  adjudication-timeline reconciliation, and the B532/B533 positive-complement
+  paragraph. Fixes CLOSURE_2026-07-11.md's dangling references.
+
+### Changed
+- **docs/CLOSURE_2026-07-11.md §2**: adjudication date + second-seat co-sign recorded;
+  one-paragraph B532/B533 reconciliation (chat2 nit 2).
+
+### Process
+- Chat2 handoff processed verify-don't-trust: kill clause, K020, B322 null,
+  T-NOGO-DGG, Gate C (B521), F4 erratum — all verified against the trunk record.
+  The audit branch stays unmerged (integrate-don't-merge). Nothing sent externally.
+
+---
+
 ## 2026-07-12 — B533 Fable-5 audit (1 refutation, 3 corrections, all else exact)
 
 ### Added

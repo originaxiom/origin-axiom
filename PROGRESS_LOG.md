@@ -10,6 +10,25 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Origin Postulate: audit-seat adjudication processed (chat2 handoff, verified)
+
+Chat2's co-sign of the postulate adjudication (REFUTED-AS-STATED, bounded) processed under
+verify-don't-trust. Every checkable claim verified against the trunk's own record: the kill clause
+and its three named interface targets (postulate §non-drift-lock, verbatim), K020's Galois-orbit
+statement (knowledge/K020, verbatim), B322's p≈0.5 null (verbatim on main), T-NOGO-DGG
+(THEOREM_REGISTRY, B490), Gate C trinification (B521 FINDINGS: INDEPENDENTLY CONFIRMED), the F4
+ℚ(√41)/ℚ(√−239) erratum (banked with locks). Deliverable imported per integrate-don't-merge:
+philosophy/THE_ORIGIN_POSTULATE.md now on trunk (preserved text + verdict block + provenance note),
+fixing CLOSURE_2026-07-11.md's dangling references. Chat2's two nits applied: (1) the
+adjudication-timeline note (the audit-seat closure flagged the disposition owner-present; the owner
+adjudicated the same day; the flag was never updated on the frozen branch); (2) the B532/B533
+reconciliation sentence (Nine-Ingredients FORCED = dimensionless structural analogues; ABSENT scale
+= the value the object cannot supply; the scorecard is the refutation's positive complement). The
+audit branch itself stays unmerged (frozen seat record, standing policy). The send remains the
+owner's decision; nothing sent.
+
+---
+
 ## 2026-07-12 — B533 Fable-5 audit: full exact re-verification (1 refutation, 3 upgrades)
 
 Independent re-verification of every banked B533 claim with exact symbolic arithmetic,
