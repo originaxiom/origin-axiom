@@ -267,3 +267,21 @@ from the negatives.
 | H112 | (B465, 2026-07-07) tr(A₁A₂) = 15 EXACTLY (Fricke: 3·6 − 3) = the seam level/conductor 15 (= 3·5 from disc arithmetic). Two independent derivations of the same 15 from golden×silver data. Is there one identity behind both (Fricke product trace ↔ compositum conductor for the metallic family: tr(A_m A_n) vs cond(ℚ(√(m²+4))·geometry field))? | HINT | 2026-07-07 | OPEN | — | The 8-4-3 collapse (B465) happens exactly at N \| 15 BECAUSE tr ≡ 0 there; a family law tr(A_m A_n) = f(m,n) with f = the corresponding seam level at other (m,n) would be a real theorem-shaped target. Metallic Fricke: tr(A_m A_n) = (m²+2)(n²+2) − tr(A_m A_n⁻¹); compute the family table before believing anything. |
 | H113 | (meditation 2026-07-08) the σ-intertwiner at SL(2): the naive antilinear solve M·conj(ρ(x))·M⁻¹ = ρ(σx) has NO solution (residual ~1) for the standard fiber rep with σ: a→ab, b→a — the correct cell needs the BOUNDARY-COMPATIBLE lift of σ (the free-group automorphism must carry [a,b] to a conjugate of [a,b]^{±1}; the ±1 and the conjugator are part of the unknown). The claimed tr = √5 remains unverified. | QUESTION | 2026-07-08 | OPEN | — | The sharpest open cell of the equivariant register (the "twisted sector" — the meditation's central reframe: at a critical point the surviving structure is the symmetry action; every nonzero found this saga lives in how σ acts, not in what invariants are). Spec: solve for the lift first, then the intertwiner, then tr. |
 | H114 | (both seats, 2026-07-08) THE κ-NAMING PASS: the banked "Fricke invariant" = κ + 2; T-UNIQ is a κ-theorem (κ(m,n) = 2 − (mn(n−m))²); the towers are κ-level-sets (chain κ = −2 critical, letter-tower κ = 3 = tr A₁ off-critical); the "interacting register" was probed all saga under the name "chain". Naming collision #6 — at the door itself. | TASK | 2026-07-08 | OPEN | — | One documentation session: annotate the banked files with the κ-language; convert the negative laundering law to its positive face (C5, the laundering group). Orphans to de-orphan in the same pass: the missing-4 in the operator-order census; the half-chain 3-phase quasi-invariant; the silent-word field shadows (√3, √35). |
+
+## 2026-07-12 — owner pointer: quantum-consciousness video (Aperture) → the serious neighbors
+
+Source: owner-shared video ("Quantum Consciousness Theory", Aperture). The headline
+theories (Orch-OR, consciousness-collapse) run opposite to the banked results (observer
+structure with zero mentalism; B533/B535/B540) and are empirically constrained
+independently (decoherence timescales; Diósi–Penrose parameter squeezes). RECORDED HINTS,
+the serious adjacents:
+- **Einselection (Zurek):** pointer states = observables stable under dynamics. B540's
+  attractor observers are literally this in the substitution world. [HOOK: run a
+  predictability-sieve comparison on the flow's basins — are the attractors the
+  maximal-predictability observers?]
+- **Relational QM (Rovelli):** facts relative to the observing system, no absolute state.
+  The one-GL(4,ℤ)-object + marking-dependent read-outs result is a computable toy of RQM.
+  [HOOK: a philosophy-room note mapping the correspondence honestly, with disanalogies.]
+- **The von Neumann regress:** unresolved in QM; COMPUTED and terminating for the object
+  (B540: 12 nodes, 3 fixed points, one 2-cycle). Possible paper-room angle for the
+  observer-flow write-up: "a toy measurement chain that terminates."
