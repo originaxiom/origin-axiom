@@ -45,8 +45,12 @@ the module theorem is CLASSICAL (BBG 1992, confirmed by the lit-gate). It is
 an EXPERIMENTAL PROPOSAL: the first buildable chain whose measured gap labels
 realize a degree-4 (ℚ(√φ)) module, at 4×10⁻⁷. Different genre (a physics
 letter / proposal), narrower claim (instantiation + experiment, not the
-theorem). **Gate:** lit-gate pass 2 (is there ANY prior degree-4 example?),
-in flight. If none → the novelty is the realization + the proposal.
+theorem). **Gate: CLEARED** (B543 LIT_GATE pass 3, 100/100 agents, 0 errors): no
+quartic-Pisot gap-label instantiation exists in the tiling-K-theory corpus.
+The "first degree-4 gap-label measurement" claim survives; the letter is
+NOVELTY-CLEARED and submittable pending co-author/voice pass. This is now
+arguably the STRONGEST paper candidate — a novel worked theorem-instance +ˇ
+a buildable experiment, all three gates settled.
 
 ## Tier 3 — consolidation / assembly-novelty (the PC01–PC21 bulk)
 

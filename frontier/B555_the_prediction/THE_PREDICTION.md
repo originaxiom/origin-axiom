@@ -51,10 +51,12 @@ built and measured — Tanese 2014, Baboux 2017).
 
 ## What we still need (honest)
 
-1. **The tiling-literature gate** (one search): the substitution-tiling
-   K-theory corpus (Kellendonk–Savinien, Julien, BHZ 2000) was not searched
-   by the lit-gate. It must clear before the paper claims "first degree-4
-   gap-label measurement." Queued on the cost-tiered deep-research script.
+1. ~~The tiling-literature gate~~ **CLEARED (2026-07-12, B543 LIT_GATE pass 3,
+   100/100 agents):** no quartic-Pisot gap-label instantiation exists in the
+   tiling-K-theory corpus; every explicit example is quadratic or rational. Our
+   object is genuinely quartic-Pisot (β=3.676, conjugates <1, ℚ(√φ)); the
+   Kellendonk k=7 near-miss is degree-4 but NOT Pisot. The "first degree-4
+   gap-label measurement" claim SURVIVES. The letter is novelty-cleared.
 2. **An experimental partner / realization.** External — a polariton or
    photonic group with four-coupling patterning. Not ours to compute; the
    prediction table above is what we hand them.

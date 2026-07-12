@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Tiling K-theory gate CLEARED: the species-chain letter is novelty-cleared
+
+The last gate for the degree-4 gap-label paper cleared. Cost-tiered deep-research, 100/100 agents,
+0 errors (the tiering also solved the quota-wall problem). VERDICT: no quartic-Pisot gap-label /
+IDS frequency-module instantiation exists in the tiling-K-theory corpus (Kellendonk, Kellendonk-
+Putnam, BBG 2006, Moustafa, Sadun, Damanik-Fillman) — every explicit example is quadratic
+(Penrose ℚ(√5), octagonal ℚ(√2), Fibonacci) or rational (Thue-Morse, pinwheel). The general
+theorem is always abstract, never instantiated at degree ≥3. Honest near-miss: Kellendonk's
+symbolic k-letter A-type family gives a rank-k FORMULA but no k≥3 instance, and at k=7 the
+eigenvalue is degree-4 but NOT Pisot (conjugate ~1.83). Our object is genuinely quartic-Pisot
+(β=3.676, conjugates {0.44,0.79,0.79}<1, ℚ(√φ)) — verified. So the "first degree-4 gap-label
+measurement" claim SURVIVES; the species-chain letter is novelty-cleared and submittable (pending
+voice pass). All three gates now settled: general theorem cited, instantiation novel, experiment
+novel. This is now arguably the strongest paper candidate.
+
+---
+
 ## 2026-07-12 — B547: the ghost scanner — (4,4,16) is the FIRST ALL-HYPERBOLIC ghost
 
 The prereg'd ghost scanner built (exact realizability via sympy.diophantine + h=1 completeness).

@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Tiling gate cleared (species-chain letter novelty-cleared)
+
+### Changed
+- frontier/B543_species_gap_labels/LIT_GATE.md: pass 3 — the tiling K-theory
+  corner searched (100/100 agents), no quartic-Pisot gap-label instantiation
+  exists; the "first degree-4" claim survives. Our object verified quartic-Pisot.
+- frontier/B555_the_prediction, papers/PAPER_PORTFOLIO: gate CLEARED; the
+  species-chain letter is novelty-cleared and submittable.
+
+---
+
 ## 2026-07-12 — B547: the ghost scanner (all-hyperbolic ghost)
 
 ### Added
