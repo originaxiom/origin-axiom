@@ -25,35 +25,45 @@ banked trace-coordinate count (B66: 24 at SL(5), 35 at SL(6)). The original
 "25 = n²" was the matrix size; the correction "4 = n−1" is the rank; the
 operative dimension is **n²−1 = 24**. One wrong number replaced by another.
 
-## THE MARKOFF-UNICITY FEASIBILITY ASSESSMENT (the deflation)
+## THE MARKOFF-UNICITY FEASIBILITY ASSESSMENT (CORRECTED 2026-07-12)
 
-Seat-1 proposes P4 (metallic Markov uniqueness) as "a special case of the
-Markoff Unicity Conjecture" and a paper target ("Proceedings AMS or higher if
-unicity extends"). **Honest verdict: LOW feasibility — the connection is a
-shared-surface coincidence, not a method bridge.** Steelman then check:
+**Correction to an earlier over-deflation in this file (caught by owner
+challenge).** An earlier draft called the P4/Markoff connection "a shared
+Cayley cubic coincidence, not a method bridge." **That was WRONG.**
 
-- *Steelman:* both live on a Cayley/Markov cubic; P4 proves a uniqueness; the
-  metallic points ARE the Fibonacci-indexed Markoff triples; maybe the
-  cusp-closing argument extends to all integer points.
-- *Check (why it fails):* the two "uniquenesses" are DIFFERENT PROBLEM TYPES.
-  Markoff Unicity (Frobenius 1913) is a DIOPHANTINE statement — every Markoff
-  number is the max of a unique INTEGER triple of x²+y²+z²=3xyz (open; proved
-  for prime-power by Aigner/Button/Zhang, for Fibonacci/Pell by Baragar 1996,
-  by NUMBER-THEORETIC descent). P4 proves a DYNAMICAL/geometric statement —
-  which Dehn filling closes the cusp on the SL(2,ℂ) CHARACTER VARIETY (the
-  Fricke surface x²+y²+z²−xyz−2=κ over ℂ), via trace-map dynamics. P4's method
-  is representation-theoretic (complex reps, cusp geometry); it says nothing
-  about integer-triple uniqueness. The Cayley cubic appearing in both is not a
-  bridge — it is the same normal form hosting two unrelated questions.
-- *Verdict:* claiming P4 → Markoff Unicity would be an overclaim of exactly the
-  kind the firewall exists to catch. Cite the shared-surface connection as a
-  known fact (Fricke; Goldman); do NOT frame P4 as a route to the open problem
-  unless someone exhibits an integer-triple uniqueness OUTPUT from the
-  cusp-closing argument — which it structurally does not produce. NOT a paper
-  target as stated.
+The connection is DEEP and REAL: P4's object — the metallic once-punctured
+torus character variety with its trace map — IS the Markoff cubic. The Fricke
+identity tr[a,b] = x²+y²+z²−xyz−2, evaluated at κ = tr[a,b] = −2, gives exactly
+x²+y²+z²−xyz = 0 (the Markov/Cayley cubic; integer points = Markoff triples),
+and the trace map IS the Markoff (Vieta) mutation (Goldman 2003, Bowditch 1998).
+P4 lives ON the Markoff surface — not near a look-alike of it.
+
+**The correct distinction (statements, not objects):**
+- P4 proves a POINTWISE uniqueness — the (1,2)/metallic critical pair uniquely
+  closes the cusp. One distinguished point of the surface.
+- Markoff Unicity (Frobenius 1913) is GLOBAL TREE RIGIDITY — every Markoff
+  number is the max of a UNIQUE integer triple; a statement about the whole
+  mutation tree. (Proved for prime-power: Aigner/Button/Zhang; Fibonacci/Pell:
+  Baragar 1996; open in general.)
+
+**Corrected verdict: OPEN, worth a real bounded assessment — NOT dismissable
+and NOT claimable.** Seat-1's conditional framing ("uniqueness for metallic
+points; unicity asks for ALL points; IF P4's technique extends → a major open
+problem") was the honest one; the earlier dismissal here was the error. The
+genuine feasibility question — does P4's cusp-closing / trace-map-fixed-point
+argument bear on the GLOBAL tree rigidity, or only ever on distinguished
+points? — is a specific, bounded thing worth actually assessing before either
+claiming or dismissing. What remains true: "P4 IS a special case of Markoff
+Unicity" as a flat statement is still inaccurate (pointwise ≠ global), so no
+unicity claim ships without the extension actually being demonstrated.
 
 ## Seat-1's three proposed paper targets — honest reads
-- **Markoff-P4 extension:** LOW (above). Not viable as "unicity contribution."
+
+## Seat-1's three proposed paper targets — honest reads
+- **Markoff-P4 extension:** OPEN (corrected — see above). The connection is real
+  (P4's object IS the Markoff surface); extension from pointwise to global tree
+  rigidity is an open feasibility question, not dismissable. Do not CLAIM unicity
+  until the extension is demonstrated, but it is a legitimate bounded assessment.
 - **Spectral bridge (character variety = Fibonacci Hamiltonian surface):**
   KNOWN (KKT 1983, Casdagli 1986, Roberts 1992; and banked here as
   κ=2+λ², K007/K010). Seat-1 concedes this. Not a contribution; cite.
