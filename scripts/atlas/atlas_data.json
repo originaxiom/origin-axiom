@@ -11151,6 +11151,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B550": {
+   "slug": "promotion sign",
+   "motifs": [
+    "metallic",
+    "dickson_tower",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B105",
+    "B111",
+    "B113",
+    "B66",
+    "B80",
+    "B83",
+    "B89"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B55": {
    "slug": "c1 fixed line structure",
    "motifs": [
