@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B550: chat-1's Promotion-Sign Conjecture REFUTED at n=3 (uniform meridian rule replaces it)
+
+Processed the chat-1 handoff verify-don't-trust against B111's LOCKED exact tower (n=3 Lawton
+Jacobian, n=4 B80 _Jm_n4_exact). Conjecture: the degree=rank height-1 promotion has sign
+(−1)ⁿ. REFUTED at the anchor: B111's exact n=3 tower keeps char(−M¹) and loses char(+M¹)
+(height-1 surviving (+,−) = (0,1)), i.e. the promotion consumes the POSITIVE meridian, sign +
+— the handoff mis-read it as "lost char(−M¹)". The conjecture predicts (1,0); exact is (0,1).
+The n=4 "ambiguity" also dissolves: exact tower height-1 = (1,1), a genuine loss of one
+char(+M¹). REPLACEMENT — the uniform meridian rule: the promotion ALWAYS consumes char(+M¹)
+(meridian → longitude L=c·Mⁿ), n-independent, reproduces n=3,4 exactly. Discriminating test
+CORRECTED: n=6 does NOT discriminate (both rules give (2,2)) — the handoff's proposed B66 test
+cannot decide it; the discriminating rank is n=5, where the meridian rule predicts height-1 =
+(1,2) (the conjecture would say (2,1)). That sits behind the SL(5) wall as the single
+falsifiable computation that would close the ρ_n catalog's promotion half. 4 locks.
+
+---
+
 ## 2026-07-12 — Follow-up batch: un-hideability REFUTED-as-discriminator, E7 pre-loaded, cosmic null
 
 Clearing the recommended-but-unrun queue (owner accountability check).

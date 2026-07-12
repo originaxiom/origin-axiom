@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B550: Promotion-Sign Conjecture refuted (uniform meridian rule)
+
+### Added
+- frontier/B550_promotion_sign/ (verify.py, FINDINGS): chat-1's (−1)ⁿ
+  conjecture refuted at n=3 against B111's locked data; replaced by the
+  uniform meridian rule (always consume char(+M¹)); n=5 = (1,2) prediction.
+- tests/test_b550.py (4 locks).
+
+---
+
 ## 2026-07-12 — Follow-up batch (B548/B549)
 
 ### Added
