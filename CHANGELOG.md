@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Weil gate: PC22 Prasad-adjacent (all 3 gates settled)
+
+### Changed
+- papers/candidates/dark_hyperbola_letter/ABSTRACT_DRAFT.md: lit-gate verdict —
+  dark hyperbola APPEARS-NOVEL but Prasad-adjacent (Cor 8.7); power-set = known
+  CRT-multiplicativity; asymptotic darkness = Euler. Framing as a Prasad-
+  realization letter with citations; NEEDS-SPECIALIST.
+- papers/PAPER_PORTFOLIO: all three gates settled (species-chain NOVEL, PC22
+  explicit-realization, reconstruction downgraded).
+
+---
+
 ## 2026-07-12 — B558: three-level negative verified
 
 ### Added

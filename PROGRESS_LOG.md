@@ -10,6 +10,26 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Weil-trace gate: PC22 dark hyperbola APPEARS-NOVEL (Prasad-adjacent) — all 3 paper gates settled
+
+The last paper gate (PC22 dark-hyperbola letter). Cost-tiered deep-research, 100/100 agents,
+0 errors. VERDICT: (1) the Dark Hyperbola vanishing locus (jl≡−4, j≠2, exempt (2,p−2)) is
+APPEARS-NOVEL as the explicit congruence — NOT found published — but its abstract PARENT is
+Prasad 2009 (arXiv:0903.1486, Cor 8.7): a n.a.s. vanishing criterion for automorphism-twisted
+Weil traces, with |K^α|∈{1,p} = our {1,√p} magnitudes. Our result is the concrete Diophantine
+realization of Prasad's criterion for the PARITY twist. Independent cross-check reproduced our
+zero set at p=7,11,13. (2) Power-set magnitudes = KNOWN CRT-multiplicativity (Gurevich-Hadani-
+Howe), novel packaging. (3) Asymptotic darkness = Euler restatement (already corrected). The
+untwisted Weil character is classical and never vanishes where g−I is invertible, so the zeros
+FORCE Par to be a genuine twist. PAPER FRAMING: "explicit Diophantine vanishing locus of the
+parity-twisted Weil trace" as a Prasad-realization letter with citations; NEEDS-SPECIALIST; not
+a standalone new theorem. ALL THREE PAPER GATES NOW SETTLED: species-chain NOVEL (submittable),
+PC22 explicit-realization (cite Prasad), reconstruction note mostly KNOWN (downgraded). The
+searches separated a genuinely-novel paper from a cite-the-parent paper from a known result —
+exactly their job.
+
+---
+
 ## 2026-07-12 — B558: the three-level negative VERIFIED (+ 1/φ³ correction + named landmines)
 
 Seat-1's three-level-negative handoff, verify-don't-trust (owner asked to confirm after the

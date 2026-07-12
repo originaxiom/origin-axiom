@@ -82,3 +82,45 @@ Weil representation, metaplectic group, Gauss sums, parity involution, quadratic
 5. If the results ARE known: cite properly and reframe as "a new proof via the Gauss sum analysis" or withdraw.
 
 6. If the results are NOT known: the letter is a clean, short contribution to the theory of the Weil representation, publishable regardless of any broader program.
+
+---
+
+# LIT-GATE VERDICT (2026-07-12, cost-tiered deep-research, 100/100 agents, 0 errors)
+
+**Per-result novelty (adversarial, primary sources):**
+
+1. **Dark Hyperbola — APPEARS-NOVEL as the explicit congruence, but Prasad-
+   adjacent.** The specific "S(j,l)=0 iff jl≡−4 (mod p), j≠2, one exempt point
+   (2,p−2)" was NOT found published. Its abstract PARENT is **Prasad 2009
+   (arXiv:0903.1486, Cor 8.7)**: a necessary-and-sufficient vanishing criterion
+   for automorphism-twisted Weil traces (tr W(σ)=0 iff the twist's conjugacy
+   class is disjoint from Aut(K,e)), with |K^α|∈{1,p} (Thm 8.1) = our
+   {1, √p}·magnitudes. Our dark hyperbola is the concrete Diophantine
+   realization of Prasad's criterion for the PARITY twist — deriving the
+   explicit congruence from the abstract criterion is substantial and
+   unpublished. **Independent cross-check:** the verifier reproduced our zero
+   set numerically at p=7,11,13 (jl≡−4, j≠2, exactly p−2 zeros, magnitudes
+   {1,√p}). Confidence medium (2-1 on the Prasad-shape).
+2. **Power-set magnitudes — KNOWN mechanism, novel packaging.** CRT-
+   multiplicativity of Weil traces is classical (Gurevich–Hadani–Howe
+   arXiv:0808.2447 Prop 3.2; Ladisch "well known"). The 2^k power-set is a
+   corollary; the packaging as a magnitude power-set is the contribution.
+3. **Asymptotic darkness — KNOWN** (Euler-product restatement; already
+   corrected in the CC header above to "restatement of Euler's argument").
+
+**Also settled:** the UNTWISTED finite Weil character is classical and never
+vanishes where g−I is invertible (Thomas math/0610644 Thm 1A; Gurevich–Hadani
+math/0610818 Thm 2.2.1; Howe 1973; Shinoda 1980) — so the zeros FORCE Par to be
+a genuine twist outside the plain-character framework (Neuhauser 2002 gives the
+even/odd splitting but never forms tr(Par·g) or its zero set). This is the
+correct framing for the paper: the dark hyperbola exists BECAUSE the parity
+twist leaves the canonical Weil-character regime.
+
+**PAPER FRAMING (honest, novelty-cleared with citations):** the letter is "the
+explicit Diophantine vanishing locus of the parity-twisted Weil trace" — a
+concrete realization of Prasad's abstract criterion (cite Cor 8.7), with the
+CRT power-set packaging (cite Gurevich–Hadani–Howe) and the Euler restatement.
+NOT a wholly new theorem; a genuine explicit contribution requiring the Prasad
+citation. **NEEDS-SPECIALIST** (a by-hand check that our congruence is Prasad's
+Cor 8.7 for the parity twist). Submittable as an explicit-realization letter
+with that framing; do NOT claim a standalone new vanishing theorem.

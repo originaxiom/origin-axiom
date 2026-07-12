@@ -16,10 +16,15 @@ candidates is SMALL. Below is that small set, plus what each actually needs.
 parity-twisted Weil trace (vanishing locus, power-set magnitudes, asymptotic
 darkness). Self-contained, short (~10 pp), no program dependency, no physics.
 The best-shaped candidate because it is a *computed* result, not a repackage.
-**Blocker:** the object-specific lit search (Lion–Vergne / Gurevich–Hadani /
-Bump / quadratic Gauss sums). If novel → a clean LMP contribution. If known →
-cite + reframe or withdraw. Novelty genuinely unknown; the gate decides.
-Effort to ship: one lit search + one formal write-up + voice pass.
+**Gate RESOLVED (2026-07-12, 100/100 agents):** APPEARS-NOVEL as the explicit
+congruence, but Prasad-adjacent — the abstract parent is Prasad 2009 Cor 8.7
+(n.a.s. vanishing criterion for automorphism-twisted Weil traces); power-set
+magnitudes are known CRT-multiplicativity (novel packaging); asymptotic
+darkness is Euler. FRAMING: "the explicit Diophantine vanishing locus of the
+parity-twisted Weil trace" as a concrete realization of Prasad's criterion,
+with citations. A genuine explicit-realization letter, NOT a standalone new
+theorem. NEEDS-SPECIALIST (verify our congruence = Prasad Cor 8.7 for the
+parity twist). Independent cross-check reproduced our zero set (p=7,11,13).
 
 **P4 — the metallic once-punctured-torus trace-map tower (Markov uniqueness).**
 The most-vetted candidate (cleared an adversarial panel; flagship PDF exists).
@@ -83,6 +88,19 @@ the paper-for-paper's-sake failure mode the owner named.
 - **Charge-transport lemma (B552 ℤ/11)** → possibly real but elementary
   (Smith normal form of I−M); needs a symbolic-dynamics lit check before any
   novelty claim. Medium-low.
+
+## All three paper gates now SETTLED (2026-07-12)
+
+| candidate | gate verdict | status |
+|---|---|---|
+| species-chain degree-4 gap labels (B543/B546/B555) | NOVEL (no quartic-Pisot instance) | **novelty-cleared, submittable** |
+| PC22 dark hyperbola (B534) | APPEARS-NOVEL, Prasad-adjacent (cite Cor 8.7) | explicit-realization letter, NEEDS-SPECIALIST |
+| reconstruction note (B535/B540) | Result 2 KNOWN (Durand), Result 1 rigidity-adjacent | downgraded to narrow rigidity-refinement |
+
+The searches did their job: they separated one genuinely-novel paper (species
+chain), one explicit-realization-with-citation paper (PC22), and one mostly-
+known result (reconstruction). P4 (panel-cleared, patches pending) rounds out
+the submittable set. Quantity was never the goal — surviving the gate was.
 
 ## The one honest meta-rule
 
