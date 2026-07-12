@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B543 lit-gate pass 1 (module theorem classical; citations locked)
+
+### Added
+- frontier/B543_species_gap_labels/LIT_GATE.md: 12 verified claims with
+  sources; binding scope consequence; the Dry-Ten-Martini strengthening
+  find; pass-2 queue.
+
+---
+
 ## 2026-07-12 — Window 12 opens (B540/B546/B547-prereg)
 
 ### Added
