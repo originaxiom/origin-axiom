@@ -10,6 +10,15 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B532 I4: The Derivation DAG
+
+29 layers, single source σ, depth 4. 24 intrinsic (from σ alone), 5 observer-dependent (SL₂C +
+potential V). The irreducible kernel = the four words (abAAB, aAB, abAB, aA). σ is strictly more
+than M (grammar, Rauzy fractal, self-containment not determined by M), and strictly more than the
+charpoly or grammar. Observer brings: gauge (SL₂C) and coupling (V). 5 locks (26 total).
+
+---
+
 ## 2026-07-12 — B532 I3: Self-Description
 
 σ(a) = abAAB is SELF-CONTAINING — its return induction canonical codes = σ itself. Persists at

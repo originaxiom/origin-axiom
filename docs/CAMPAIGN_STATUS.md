@@ -48,6 +48,11 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 I4 — derivation DAG)
+- **I4 (2026-07-12) — 29 layers, single source σ.** DAG depth 4. 24 intrinsic, 5
+  observer-dependent. Irreducible kernel = the four words. Observer brings gauge (SL₂C)
+  and coupling (V). σ > M > charpoly > grammar (strictly). 5 locks (26 total).
+
 ## LAST BANKED (B532 I3 — self-description)
 - **I3 (2026-07-12) — σ(a) is SELF-CONTAINING.** Return induction of "abAAB" has canonical
   codes = σ itself; persists at depth 2. σ(b), σ(A), σ(B) do not self-contain. Two linear

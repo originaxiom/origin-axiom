@@ -479,3 +479,60 @@ def test_i3_all_image_words_q1():
         ind = _image_induction(factor)
         assert ind is not None
         assert ind['power'] == 1, f"{factor}: q = {ind['power']}, expected 1"
+
+
+# ─── I4: The Derivation DAG ───
+
+def test_i4_dag_single_source():
+    """The DAG has exactly one source node: σ."""
+    from frontier.B532_last_echo.i4_derivation_dag import LAYERS
+    sources = [k for k, v in LAYERS.items() if not v['derived_from']]
+    assert sources == ['sigma'], f"expected single source 'sigma', got {sources}"
+
+
+def test_i4_intrinsic_count():
+    """24 of 29 layers derive from σ alone (no extra input)."""
+    from frontier.B532_last_echo.i4_derivation_dag import LAYERS
+    intrinsic = sum(1 for v in LAYERS.values() if v['extra_input'] is None)
+    assert intrinsic == 24, f"expected 24 intrinsic, got {intrinsic}"
+
+
+def test_i4_observer_inputs():
+    """Exactly 2 distinct observer inputs: SL₂C and potential V."""
+    from frontier.B532_last_echo.i4_derivation_dag import LAYERS
+    inputs = set()
+    for v in LAYERS.values():
+        if v['extra_input']:
+            key = 'SL2C' if 'SL' in v['extra_input'] else 'V'
+            inputs.add(key)
+    assert inputs == {'SL2C', 'V'}, f"expected {{SL2C, V}}, got {inputs}"
+
+
+def test_i4_dag_acyclic():
+    """The DAG has no cycles."""
+    from frontier.B532_last_echo.i4_derivation_dag import LAYERS
+    visited = set()
+    path = set()
+
+    def has_cycle(node):
+        if node in path:
+            return True
+        if node in visited:
+            return False
+        path.add(node)
+        visited.add(node)
+        for parent in LAYERS[node]['derived_from']:
+            if has_cycle(parent):
+                return True
+        path.remove(node)
+        return False
+
+    for node in LAYERS:
+        assert not has_cycle(node), f"cycle detected at {node}"
+
+
+def test_i4_max_depth():
+    """The DAG has max depth 4."""
+    from frontier.B532_last_echo.i4_derivation_dag import build_dag
+    depths = build_dag()
+    assert max(depths.values()) == 4, f"max depth = {max(depths.values())}, expected 4"
