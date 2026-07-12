@@ -360,6 +360,13 @@ audit_fable5_part4c.sage.py). Scorecard:
   lattice is denser; the "7 hits vs 1.2 expected" excess was an
   artifact of that mismatch. The corrected control shows no excess.
 
+**Census completion (B535, 2026-07-12):** the "exactly 5 types" of Gate 1
+is the length-≤4 statement. The full census (B535 C1, windows to length 8)
+saturates at **6 Perron types / 7 canonical systems**: a sixth type first
+appears at u='bABab' (length 5, rc=5, the census's first q=2 window —
+Perron eigenvalue β²). B533's locks remain correct as scoped (length ≤ 3).
+See `frontier/B535_coupling_space/FINDINGS.md`.
+
 **Bookkeeping notes:**
 - probe4's printed output swaps the labels of Types 4 and 5
   relative to this document (both have 3 census points; the

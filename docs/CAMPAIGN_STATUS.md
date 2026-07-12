@@ -48,6 +48,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B535 — the coupling space: one measurement suffices)
+- **B535 THE COUPLING SPACE (2026-07-12).** The reframed program's stage 1. The coupling
+  census SATURATES: 6 Perron types / 7 canonical systems (finite by Durand; the 6th type is
+  the first q=2 window; B533's "5" corrected as length-≤4 scope). The one-measurement test:
+  17,280 word-lifts of the measured abelianization → 16,848 languages (matrix alone ~ nothing)
+  → 8 with the grammar → 2 with the language = {σ, a⁻¹σa} (conjugacy proved): ONE measurement
+  + grammar = the object, up to gauge. The read-out dictionary: all 17 components degree-4 =
+  complete measurements; explicit τ = g(x) cubics, exact. Next: SM comparison as RELATIONS
+  (own prereg + null model). 12 locks.
+
 ## LAST BANKED (B534 — Dark Hyperbola proved; crystallization landed)
 - **B534 THE DARK HYPERBOLA (2026-07-12).** Seat-1's crystallization handoff processed
   verify-don't-trust; all three new number-theory theorems upgraded float → PROVED:

@@ -10,6 +10,34 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B535: THE COUPLING SPACE — census complete, one measurement suffices
+
+The reframed ToE program's stage 1 (prereg committed before compute). Three cells:
+
+**C1 (census saturation):** windows |u| = 1..8 (116 points). The coupling space is FINITE and
+fully mapped: SATURATES at 6 Perron types / 7 canonical induced systems (last new at length 5;
+6-8 add nothing; Durand's theorem guarantees finiteness). Honest correction: B533's "5 types"
+was the length-≤4 scope — a SIXTH type at u='bABab' (rc=5, the first q=2 window: Perron β²).
+Canonical count 7 = B530's independent induction census exactly.
+
+**C2 (one-measurement test, word level):** the measured abelianization (unique up to GL(4,ℤ)
+by the B533 audit theorem) lifts to 17,280 substitutions with 16,848 DISTINCT languages — the
+matrix alone fixes ~nothing. Adding the object's 7-bigram grammar: 8 survivors. Adding the
+full language: 2 — σ and exactly a⁻¹σ(·)a (conjugacy PROVED symbolically: every image starts
+with 'a', rotate by one). ONE measurement + the grammar = the object, uniquely up to
+presentation. Residual freedom = conjugation = gauge.
+
+**C3 (the read-out dictionary):** exact Perron eigenvectors for all 6 types (both clock rates
+q=1, q=2). The 17 distinct components are ALL degree-4 over ℚ — every single read-out is a
+COMPLETE measurement (zero degenerate; stronger than prereg predicted). For each x an explicit
+cubic g with τ = g(x), verified exactly: measure any one number, compute every other read-out
+of every coupling type. The falsifiable relations form the reframe promised.
+
+Next (own prereg + null model required): the SM comparison as RELATIONS, not values.
+12 locks.
+
+---
+
 ## 2026-07-12 — B534: the Dark Hyperbola PROVED (seat-1 crystallization handoff processed)
 
 Seat-1's crystallization (2026-07-09) + cover sheet processed verify-don't-trust. All three
