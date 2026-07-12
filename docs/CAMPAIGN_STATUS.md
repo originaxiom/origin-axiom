@@ -48,6 +48,19 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B541-B545 — the chat-2 batch: the degree-4 layer becomes buildable)
+- **B543 THE SPECIES-CHAIN EXPERIMENT (2026-07-12, reproduced).** The 4-letter chain's
+  measured gap labels ARE the B535 dictionary (hits to 1.4e-5), coupling-invariant,
+  unambiguously degree-4 (100-2500× off the golden lattice). A four-coupling polariton chain
+  is buildable today and would be the first measurement of the object's degree-4 layer.
+- **B542:** the dictionary = two τ-geometric ladders + π-fringe (exact) — a self-similar
+  catalog, the degree-4 echo of the E8 ladder.
+- **B541:** stage-2a closed from two independent designs (both null, matched nulls, broken-null
+  methodology lessons recorded).
+- **B544:** the golden carrier self-organizes (FK/circle map; Shenker reproduced).
+- **B545:** c = 1 PROVED the smallest ghost level (elliptic-lock law); census evidence-grade;
+  (4,4,16) discrepancy recorded pending chat-2's witness. 11 locks.
+
 ## LAST BANKED (B539 — the relations campaign: the final door closes)
 - **B539 (2026-07-12).** The object's forced two-variable relations (7-relation catalog,
   frozen, exact witnesses) vs the SM: POSITIVE CONTROL PASSES (E8 forced bin: 108 GOLD hits,

@@ -37,3 +37,12 @@ language until the lit gate runs. The result symmetrizes the twisted-surface
 phantom phenomenon to the classical surface at proof level.
 
 Locks: tests/test_b537.py.
+
+## Status update (2026-07-12, B545): (4,4,16) discrepancy recorded
+
+A chat-2 handoff asserts (4,4,16) is a known "false candidate" (realizable).
+That claim is NOT in this record and is UNVERIFIED here: a direct witness
+search (entries ≤ 20) plus this file's companion scans find no realization.
+Status remains CANDIDATE pending chat-2's witness pair. Meanwhile c = 1 is
+now a PROVED ghost by the same elliptic-lock mechanism (B545), making
+(1,1,5)/c = 22 the second proved instance, not the first.

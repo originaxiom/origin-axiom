@@ -10927,7 +10927,8 @@
    ],
    "refs": [
     "B530",
-    "B533"
+    "B533",
+    "B542"
    ],
    "obstacle": "measure",
    "obstacle_conf": 8,
@@ -10953,7 +10954,9 @@
   "B537": {
    "slug": "classical phantom",
    "motifs": [],
-   "refs": [],
+   "refs": [
+    "B545"
+   ],
    "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "banked",
@@ -10993,6 +10996,78 @@
    "obstacle_conf": 2,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B541": {
+   "slug": "2a closure",
+   "motifs": [
+    "metallic"
+   ],
+   "refs": [
+    "B539",
+    "V1",
+    "V2"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B542": {
+   "slug": "tau ladder",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B543": {
+   "slug": "species gap labels",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B535"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B544": {
+   "slug": "emergent golden",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B532",
+    "B543",
+    "P5"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B545": {
+   "slug": "ghost census",
+   "motifs": [
+    "kappa",
+    "lorentzian"
+   ],
+   "refs": [
+    "B537"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
   },
   "B54": {
    "slug": "general c exchange structure",

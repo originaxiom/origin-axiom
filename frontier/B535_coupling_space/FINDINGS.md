@@ -96,3 +96,10 @@ value-matching door stays closed (B533 Gate 3).
 
 Locks: `tests/test_b535.py`. Nothing here is physics; the dictionary is
 exact algebra in ℚ(√φ).
+
+## Addendum (B542, 2026-07-12): the dictionary is two τ-ladders
+
+The 17 components are not a list: {f_b, f_B, f_a, f_A, |λ₂|} = τ^a(τ−1)
+(a = −2…2) and the six T4/T6 components = τ^a(τ−1)² (a = 0…5) — two geometric
+strings with ratio τ — plus τ⁻⁵ and a 5-element π-fringe (π = −2τ³+τ²+3τ−1,
+N(π) = 4, the T3 top component). Verified exact; locks in tests/test_b542.py.
