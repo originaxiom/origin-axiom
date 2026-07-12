@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B556 PROOF UPGRADE (chat-2 audit verified): the doubling is a THEOREM + the charge tower
+
+chat-2's audit of B556 (escalator tower) supplied three exact results, all verified here:
+**Miss A** — field-doubling at rung 2 is a ONE-LINE THEOREM: N(β) = product of the quartic's
+roots = −1 < 0, but a square in ℚ(τ) has non-negative norm ⟹ √β ∉ ℚ(τ). **Miss B** — the det
+telescope dₙ₊₁ = dₙ²·eₙ (det T(M)=det(M)²det(I−M) for commuting blocks), verified through rung 4;
+every eₙ < 0 (rungs 0–4), so the norm-sign proof fires at EVERY rung: field-doubling PROVED at
+rungs 1→2→3→4→5, the all-n tower now resting on two per-rung-checkable conjectures (irreducibility
+0–4 ✓, negativity of eₙ 0–4 ✓). **Miss C** — the charge tower: e₁ = det(I−M₄) = −11 = the B552
+ℤ/11 base charge; |eₙ| = 1, 11, 809, 18845089, 228654672055316545291 (809, 18845089 prime), and
+coker(I−Mₙ) = ℤ/|eₙ| CYCLIC at every verified rung (SNF single invariant factor). B556's
+"hypothesis" acquired an exact per-rung proof engine; B552's ℤ/11 is the tower's foundation stone.
+chat-2's cover-construction spec (for the closure leg I flagged) logged for B557 E4. (4,4,16)
+cross-credited (chat-2's parked "imprimitive" candidate = B547's first all-hyperbolic ghost). 3 locks.
+
+---
+
 ## 2026-07-12 — Weil-trace gate: PC22 dark hyperbola APPEARS-NOVEL (Prasad-adjacent) — all 3 paper gates settled
 
 The last paper gate (PC22 dark-hyperbola letter). Cost-tiered deep-research, 100/100 agents,

@@ -36,3 +36,10 @@ holonomy (= 1 mod 11): the charge space is 1-dimensional at every node, so any
 node-preserving holonomy scales χ by a unit and acts as the identity on the
 charge line. The conserved charge does NOT couple to the clock — two
 independent structures on the same object.
+
+## The ℤ/11 is the base of the escalator charge tower (B556, 2026-07-12)
+
+e₁ = det(I−M₄) = −11 is the base of a tower eₙ = det(I−Mₙ) along the escalator
+T (B556): the det telescope dₙ₊₁ = dₙ²·eₙ makes |eₙ| = 1, 11, 809, 18845089, …
+the "charge tower," and coker(I−Mₙ) = ℤ/|eₙ| is CYCLIC at every verified rung.
+The isolated ℤ/11 here is the foundation stone of the tower's arithmetic.
