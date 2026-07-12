@@ -10,6 +10,15 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B532 I2: The Projection Algebra
+
+σ is irreducibly 4-letter: none of 7 binary partitions are substitutive (no projection commutes
+with σ). Two projections read golden values: {aA}|{bB} → φ (exact), {ab}|{AB} → 1/√φ (exact).
+5 of 7 are Pisot; the two non-Pisot are {aA}|{bB} (|λ₂|≈1.47) and {aB}|{bA} (|λ₂|=1). All 7
+primitive and grammar-compatible. 6 locks in test_b532.py (13 total).
+
+---
+
 ## 2026-07-12 — B532 I1: Fixed-Point Dimension + Period-3 Spectral Test
 
 Part B: period-3 ABSENT from the spectrum (all four tests: pure period-2; complex eigenvalue

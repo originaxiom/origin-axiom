@@ -48,6 +48,12 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 I2 — projection algebra)
+- **I2 (2026-07-12) — σ is irreducibly 4-letter.** None of 7 binary partitions are substitutive;
+  no projection commutes with σ. Two projections read golden values: {aA}|{bB} → φ (exact),
+  {ab}|{AB} → 1/√φ (exact). 5/7 Pisot, 7/7 primitive, 7/7 grammar-compatible. The four letters
+  are entangled: measuring φ requires all four. 6 locks (13 total).
+
 ## LAST BANKED (B532 I1 — fixed-point dimension + period-3)
 - **I1 Part B (2026-07-12) — Period-3 ABSENT.** Four spectral tests all show pure period-2.
   Complex eigenvalue period ≈ 2.54 (irrational, not 3). Period-2 = spectral (λ₂<0),

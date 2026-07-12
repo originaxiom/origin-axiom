@@ -235,3 +235,131 @@ def test_i1_fp_two_components():
             assert kernel == 2
     assert trace_zero_count >= 2, f"found only {trace_zero_count} trace-zero FPs"
     assert generic_count >= 3, f"found only {generic_count} generic FPs"
+
+
+# ─── I2: The Projection Algebra ───
+
+import sympy as sp
+
+_PHI = (1 + np.sqrt(5)) / 2
+_SQ_PHI = np.sqrt(_PHI)
+_S_NORM = _PHI + 1 + _PHI * _SQ_PHI + _SQ_PHI
+_PERRON_FREQ = np.array([_PHI / _S_NORM, 1 / _S_NORM, _PHI * _SQ_PHI / _S_NORM, _SQ_PHI / _S_NORM])
+_ALPHA = ['a', 'b', 'A', 'B']
+_SUB_MAP = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}
+
+
+def _projected_freq_ratio(class0_indices, class1_indices):
+    f0 = sum(_PERRON_FREQ[i] for i in class0_indices)
+    f1 = sum(_PERRON_FREQ[i] for i in class1_indices)
+    return f0 / f1
+
+
+def _is_substitutive(class0_indices, class1_indices):
+    proj = {}
+    for i in class0_indices:
+        proj[_ALPHA[i]] = 0
+    for i in class1_indices:
+        proj[_ALPHA[i]] = 1
+    images_by_class = {}
+    for g in _ALPHA:
+        target = proj[g]
+        image = ''.join(str(proj[c]) for c in _SUB_MAP[g])
+        if target not in images_by_class:
+            images_by_class[target] = {image}
+        else:
+            images_by_class[target].add(image)
+    return all(len(v) == 1 for v in images_by_class.values())
+
+
+def test_i2_no_projection_is_substitutive():
+    """None of the 7 binary partitions commute with σ."""
+    partitions = [
+        ([0], [1, 2, 3]),      # {a}|{bAB}
+        ([1], [0, 2, 3]),      # {b}|{aAB}
+        ([2], [0, 1, 3]),      # {A}|{abB}
+        ([3], [0, 1, 2]),      # {B}|{abA}
+        ([0, 1], [2, 3]),      # {ab}|{AB}
+        ([0, 2], [1, 3]),      # {aA}|{bB}
+        ([0, 3], [1, 2]),      # {aB}|{bA}
+    ]
+    for c0, c1 in partitions:
+        assert not _is_substitutive(c0, c1), \
+            f"partition {[_ALPHA[i] for i in c0]} is substitutive (should not be)"
+
+
+def test_i2_structural_partition_gives_phi():
+    """{aA}|{bB} projection reads frequency ratio = φ exactly."""
+    ratio = _projected_freq_ratio([0, 2], [1, 3])
+    assert abs(ratio - _PHI) < 1e-10, f"ratio = {ratio}, expected φ = {_PHI}"
+
+
+def test_i2_old_new_partition_gives_inv_sqrt_phi():
+    """{ab}|{AB} projection reads frequency ratio = 1/√φ exactly."""
+    ratio = _projected_freq_ratio([0, 1], [2, 3])
+    assert abs(ratio - 1 / _SQ_PHI) < 1e-10, f"ratio = {ratio}, expected 1/√φ = {1/_SQ_PHI}"
+
+
+def test_i2_cross_partition_not_golden():
+    """{aB}|{bA} ratio ≈ 0.945, not a simple golden expression."""
+    ratio = _projected_freq_ratio([0, 3], [1, 2])
+    assert 0.94 < ratio < 0.95, f"ratio = {ratio}"
+    assert abs(ratio - _PHI) > 0.5, "should not be φ"
+    assert abs(ratio - 1 / _PHI) > 0.3, "should not be 1/φ"
+    assert abs(ratio - 1 / _SQ_PHI) > 0.1, "should not be 1/√φ"
+
+
+def test_i2_all_projections_primitive():
+    """All 7 binary partitions give primitive 2×2 induced matrices."""
+    partitions = [
+        ([0], [1, 2, 3]), ([1], [0, 2, 3]), ([2], [0, 1, 3]), ([3], [0, 1, 2]),
+        ([0, 1], [2, 3]), ([0, 2], [1, 3]), ([0, 3], [1, 2]),
+    ]
+    for c0, c1 in partitions:
+        proj = {}
+        for i in c0:
+            proj[_ALPHA[i]] = 0
+        for i in c1:
+            proj[_ALPHA[i]] = 1
+        M = np.zeros((2, 2), dtype=int)
+        for g in _ALPHA:
+            target = proj[g]
+            for c in _SUB_MAP[g]:
+                M[proj[c], target] += 1
+        Mk = np.eye(2, dtype=int)
+        for k in range(1, 20):
+            Mk = Mk @ M
+            if np.all(Mk > 0):
+                break
+        else:
+            assert False, f"partition {[_ALPHA[i] for i in c0]} not primitive"
+
+
+def test_i2_pisot_count():
+    """Exactly 5 of 7 partitions have Pisot induced matrices (|λ₂| < 1).
+    The two non-Pisot: {aA}|{bB} (|λ₂|≈1.47) and {aB}|{bA} (|λ₂|=1)."""
+    partitions = [
+        ([0], [1, 2, 3]), ([1], [0, 2, 3]), ([2], [0, 1, 3]), ([3], [0, 1, 2]),
+        ([0, 1], [2, 3]), ([0, 2], [1, 3]), ([0, 3], [1, 2]),
+    ]
+    pisot_count = 0
+    non_pisot = []
+    for c0, c1 in partitions:
+        proj = {}
+        for i in c0:
+            proj[_ALPHA[i]] = 0
+        for i in c1:
+            proj[_ALPHA[i]] = 1
+        M = np.zeros((2, 2), dtype=int)
+        for g in _ALPHA:
+            target = proj[g]
+            for c in _SUB_MAP[g]:
+                M[proj[c], target] += 1
+        evals = np.abs(np.linalg.eigvals(M.astype(float)))
+        evals.sort()
+        if evals[0] < 1 - 1e-6:
+            pisot_count += 1
+        else:
+            non_pisot.append((''.join(_ALPHA[i] for i in c0), evals[0]))
+    assert pisot_count == 5, f"expected 5 Pisot, got {pisot_count}"
+    assert len(non_pisot) == 2

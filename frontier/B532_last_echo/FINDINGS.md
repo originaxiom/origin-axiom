@@ -73,3 +73,61 @@ were never hit. Status: **UNVERIFIED** — the golden FP either does not exist f
 or requires a parameterization we haven't tried.
 
 **Lock:** `tests/test_b532.py::test_i1_fp_*`
+
+## Cell I2 — The Projection Algebra
+
+Every binary partition {X}|{Y} of {a,b,A,B} defines a "measurement" — a projection
+from the 4-letter word to a 2-letter sequence. There are 7 non-trivial partitions
+(up to complement): 4 single-letter partitions + {ab}|{AB} + {aA}|{bB} + {aB}|{bA}.
+
+### Result: σ is irreducibly 4-letter
+
+**NONE** of the 7 binary projections are substitutive. Every partition has at least one
+class whose letters map to different projected images under σ. This means: the projection
+does NOT commute with σ — you cannot first project then substitute, nor first substitute
+then project. σ is an **irreducibly 4-letter** substitution; no binary coarsening is
+dynamically compatible.
+
+### The true projected frequency ratios (from Perron eigenvector)
+
+| Partition | True freq ratio | Identified as | Pisot | Primitive |
+|-----------|----------------|---------------|-------|-----------|
+| {aA}\|{bB} | **1.618034** | **φ** (exact) | NO (|λ₂|=1.47) | YES |
+| {ab}\|{AB} | **0.786151** | **1/√φ** (exact) | YES | YES |
+| {aB}\|{bA} | 0.945027 | √φ/(1−√φ+φ) | NO (|λ₂|=1.0) | YES |
+| {A}\|{abB} | 0.529086 | — | YES | YES |
+| {a}\|{bAB} | 0.373663 | — | YES | YES |
+| {B}\|{abA} | 0.272020 | = freq(a) | YES | YES |
+| {b}\|{aAB} | 0.202093 | — | YES | YES |
+
+**Two projections read golden values:**
+1. **{aA}|{bB}** (the "structural" partition pairing each letter with its case-partner):
+   frequency ratio = **φ** exactly. This is the golden ratio from the original Perron
+   eigenvector: freq(a) + freq(A) = (φ + φ√φ)/S, freq(b) + freq(B) = (1 + √φ)/S,
+   ratio = φ(1+√φ)/(1+√φ) = φ. NOT Pisot (contracting eigenvalue = 1.472 > 1).
+
+2. **{ab}|{AB}** (lowercase vs uppercase, "old letters vs new letters"):
+   frequency ratio = **1/√φ** exactly. This is freq(a)+freq(b) = (φ+1)/S = φ²/S,
+   freq(A)+freq(B) = √φ(φ+1)/S = √φ·φ²/S, ratio = 1/√φ. IS Pisot (|λ₂| = 0.873).
+
+3. **{aB}|{bA}** (the "cross" partition): ratio = √φ/(1−√φ+φ) ≈ 0.945. NOT a simple
+   golden expression. NOT Pisot (|λ₂| = 1.0 exactly — the induced matrix [3,4;4,3]
+   has eigenvalues 7 and −1).
+
+### Grammar compatibility
+
+All 7 projections realize their full set of allowed 2-letter transitions (each projected
+word uses all transitions predicted by the grammar). No partition loses transitions under
+projection. But this is a weak condition — the grammar alone doesn't distinguish the
+projections.
+
+### The one-measurement test
+
+If we fix φ as the value of the {aA}|{bB} projection, the question is: how many
+4-letter substitutions with the same 7/16 grammar and the same Pisot property produce
+this frequency ratio? The answer is OPEN — computing this requires enumerating
+substitutions, which is a hard combinatorial problem. But the irreducibility result
+(no projection commutes with σ) means φ is NOT derivable from a 2-letter system
+that "sits inside" σ. The four letters are entangled: measuring φ requires all four.
+
+**Lock:** `tests/test_b532.py::test_i2_*`
