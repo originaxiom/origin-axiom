@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B533: Coupling Invariance (Gate 1 of 3)
+
+### Added
+- **frontier/B533_coupling_invariance/**: 3 probes (census, five types, type algebra),
+  PREREGISTRATION.md, FINDINGS.md.
+- **tests/test_b533.py**: 12 locks — eigenvalue universality, 5 stable types,
+  type counts 9/7/2/2/1, self-recovery count, ℤ-mixing law, pair-sum preservation,
+  depth stability.
+
+### Key finding
+The object has 5 stable observation types. The eigenvalue spectrum is UNIVERSAL
+(intrinsic); the Perron eigenvector VARIES across 5 algebraically related
+fingerprints. Types 1-4 are ℤ-linear mixings of global letter frequencies;
+Type 5 involves irrational coefficients. The coupling is NOT a gauge choice.
+Gate 1 verdict: the object forces 5 discrete observation windows, each with
+its own dimensionless fingerprint.
+
+---
+
 ## 2026-07-12 — Decadal review + Codex audit response
 
 ### Changed
