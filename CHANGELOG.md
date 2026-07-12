@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B539: the relations campaign (final door, NO-MATCH)
+
+### Added
+- **frontier/B539_relations_campaign/**: PREREGISTRATION.md (committed before
+  compute), r0_r1_catalog.py (exact catalog + observer-invariance),
+  r2_sm_relations.py (positive control + SM bin + null), FINDINGS.md.
+- **tests/test_b539.py**: 3 locks (catalog witnesses exact, E8 control,
+  SM zero hits at 1e-3).
+
+### Key finding
+Positive control PASSES (E8 forced bin); SM bin NO-MATCH (0 hits at 1e-3,
+family-wise p = 1.0). The reframe's ledger complete and symmetric.
+List-tautology rule recorded (α/1/α artifact caught by the null).
+
+---
+
 ## 2026-07-12 — Handoffs 3-4 + rebase (B536/B537/B538)
 
 ### Added

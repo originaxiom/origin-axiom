@@ -10,6 +10,29 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B539: THE RELATIONS CAMPAIGN — the final door closes, symmetrically
+
+The reframe's last untested surface: does any pair of SM dimensionless parameters satisfy the
+object's forced two-variable relations? Prereg committed before compute; catalog frozen at R0.
+
+**R0:** 26/136 read-out ratios are pure τ-powers; 7-relation catalog (SQ: y = x² the canonical
+cross²=within law, GOLD, QUART, CUBE, RECIP, PERRON, SHIFT), all witnesses exact.
+**R1:** SQ exposed by 4/6 coupling types (T3, T5 lack a (τ,φ) ratio pair) — prereg predicted
+6/6; falsifier fired, recorded.
+**R2:** POSITIVE CONTROL (E8 forced-bin, 1.5%): PASSES — 108 GOLD hits incl. m2/m1 = φ,
+self-similarity exact. Methodological catch: the first run's only "significant" SM hits were
+RECIP(1/α, α) — a list tautology (α and 1/α both in the list); the null flagged it as
+non-random BECAUSE it is definitional; redundant entries removed, rule recorded.
+SM BIN (19 independent parameters, magnitude-matched null × 500): 1 hit at 1% (p = 0.618),
+ZERO at 10⁻³ and 10⁻⁴, zero surviving tightening. **VERDICT: NO-MATCH.**
+
+The reframe's ledger is now complete and symmetric: values/structure/relations all present in
+the forced bin (E8, gap labels, control), all absent from the SM parameter set (chance, 0/3,
+no-match). The structural theorem in final tested form: the object owns what form determines,
+measurably; it does not own the SM's dialed content. Kill clause standing. 3 locks.
+
+---
+
 ## 2026-07-12 — Handoffs 3-4 processed + REBASE (B536/B537/B538)
 
 **B536 (seat-1 Phase 2-3, verify-don't-trust):** irreducibility of {Par,W₁,W₂} CONFIRMED

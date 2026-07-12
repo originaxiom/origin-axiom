@@ -48,6 +48,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B539 — the relations campaign: the final door closes)
+- **B539 (2026-07-12).** The object's forced two-variable relations (7-relation catalog,
+  frozen, exact witnesses) vs the SM: POSITIVE CONTROL PASSES (E8 forced bin: 108 GOLD hits,
+  self-similarity exact); SM BIN NO-MATCH (19 independent parameters, magnitude-matched null:
+  0 hits at 10⁻³, p = 1.0, nothing survives tightening). R1 honesty: SQ exposed by 4/6
+  observer types, not 6/6 as prereg predicted. Methodology: the α/(1/α) list tautology was
+  caught by the null and excluded; rule recorded. THE REFRAME'S LEDGER IS COMPLETE AND
+  SYMMETRIC: values/structure/relations present in the forced bin, absent from the dialed bin.
+  The kill clause stands. 3 locks.
+
 ## LAST BANKED (B536-B538 — handoffs verified; reframe test cycle on the board)
 - **B536 (2026-07-12).** Seat-1 Phase 2-3 verified: irreducibility CONFIRMED (commutant 4 → 1,
   theta twist); entanglement conservation TRIVIAL (U = U₃⊗U₅ exact); darkness-elimination GENERIC;
