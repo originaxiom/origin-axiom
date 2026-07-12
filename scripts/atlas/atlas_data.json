@@ -11102,6 +11102,37 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B548": {
+   "slug": "unhideable census",
+   "motifs": [
+    "trace_map",
+    "golden"
+   ],
+   "refs": [
+    "B535"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B549": {
+   "slug": "forced bin predictions",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B533",
+    "S040",
+    "S066"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B54": {
    "slug": "general c exchange structure",
    "motifs": [
