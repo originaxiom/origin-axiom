@@ -31,3 +31,13 @@ slot data. B537's candidate line stands unchanged until then.
 ALL-hyperbOLIC classes (every coordinate ≥ 3 in absolute value)? That is where
 ghostliness stops being an elliptic shadow. Gate flag (hard): Fricke/free-
 product trace theory + Whang/BGS pending before any novelty language.
+
+## RESOLVED (B547): a SECOND ghost mechanism + the all-hyperbolic question answered
+
+The ghost scanner (B547) resolves the (4,4,16) discrepancy and the sharpened
+open question. (4,4,16) at c=32 is a PROVED GHOST, and the FIRST ALL-HYPERBOLIC
+one (every coordinate ≥4). Its obstruction is NOT elliptic-lock but an
+INERT-PRIME norm obstruction: the trace-4 slot reduces to u²−3v²=7, unsolvable
+because 7 is inert in ℚ(√3). So ghostliness is not merely an elliptic shadow —
+there are two mechanisms (elliptic-lock for small ghosts, inert-prime for
+all-hyperbolic ones). chat-2's "(4,4,16) realizable" is REFUTED.

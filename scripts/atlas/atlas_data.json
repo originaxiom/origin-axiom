@@ -10958,7 +10958,8 @@
    "slug": "classical phantom",
    "motifs": [],
    "refs": [
-    "B545"
+    "B545",
+    "B547"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 1,
@@ -11085,7 +11086,8 @@
     "lorentzian"
    ],
    "refs": [
-    "B537"
+    "B537",
+    "B547"
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 1,
@@ -11107,6 +11109,21 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B547": {
+   "slug": "ghost scanner",
+   "motifs": [
+    "kappa",
+    "firewall"
+   ],
+   "refs": [
+    "B537",
+    "B545"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B548": {
    "slug": "unhideable census",
