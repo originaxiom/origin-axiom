@@ -10,6 +10,19 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B533: Coupling Invariance (Gate 1)
+
+Does the object look the same from every observation point? 34 factors (length 1-4) cluster
+into 5 STABLE observation types (identical at depths 8-11). Eigenvalue spectrum {β, λ₂, λ₃, λ₄}
+is UNIVERSAL; Perron eigenvector VARIES (5 distinct fingerprints). Type 1 IS σ itself
+(self-recovery, Perron vec = letter frequencies). Type 2 has |λ₂| as a component
+(f_a + f_b = |λ₂| = 0.440). Types 1-4 are ℤ-mixings of letter frequencies; Type 5 involves
+irrational coefficients. All 5 matrices share the same irreducible charpoly but are NOT
+GL(4,ℤ)-conjugate. Gate 1 verdict: coupling is NOT a gauge choice — it carries 5 discrete
+algebraic fingerprints. 12 locks.
+
+---
+
 ## 2026-07-12 — B532 IZ: The Interaction Grammar (campaign complete)
 
 GRAMMAR.md delivered: 29 layers, single source σ, two observer inputs (SL₂C + V). Self-description
