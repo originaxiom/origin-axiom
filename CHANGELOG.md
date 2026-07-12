@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B532 I0: Bank B530 induction campaign handoff (Movements XXXIV–XXXVIII)
+
+- **Canonical return-induction engine** (`listen_39_induction_engine.py`): tail-aware
+  engine computing the exact induced substitution for every factor through length 30.
+- **Corrected charpoly law**: charpoly(A_u) = x^(r−4)·charpoly(M^q), q ∈ {1,2}.
+  Original conjecture FALSIFIED by bABab (q=2). Seven canonical incidence types, 1549/1549 verified.
+- **Two weak-induction orbits**: W_even (q=1) and W_odd (q=2), six-phase schedule (period 2×3).
+  q=2 iff bispecial closure has odd weak generation.
+- **F₂⁴ phase map**: Parikh mod 2 satisfies affine recurrence with fixed point (0,0,0,1).
+  M mod 2 order 6, C=M²+M+I rank 2 nilpotent (C²=0), 12-state orbit in F₂⁴\K.
+- **Parity cocycle audit**: Movement XXX parity labels REFUTED (depth 2, index 5).
+  No nonzero stationary one-bit functional (ker(M^T−I)={0} over F₂).
+- **Flow bridge**: 5 returns iff weak bispecial closure (16,864/16,864 verified).
+  Integral core M^q ⊕ 0; positive shift equivalence proved (lags 3/2).
+- 17 new locks in test_b530.py (53 total with B530+B531).
+
 ## 2026-07-12 — B531: Trace-Map Gate Campaign (T1+T2+T3+TZ)
 
 - **T1 — Gap-opening slopes to depth 12** via partial eigendecomposition (N up to 8.1M).

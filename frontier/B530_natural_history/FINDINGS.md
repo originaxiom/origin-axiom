@@ -994,3 +994,100 @@ alive *or* confirm it dead (`listen_29_corpse_audit.py`; full ledger in `CORPSE_
 computed in place of the claim. A handful of negatives, computed on the actual discriminating fact, correctly
 hold. The discipline is not "resurrect everything" — it is *compute the exact claim*, which resurrects the living
 and confirms the dead. **[MATH: false-kills restored + genuine negatives reconfirmed]** Lock: `tests/test_b530.py`.
+
+## Movement XXXIV — the canonical return-induction engine (cross-seat handoff, verified)
+
+A tail-aware canonical return-substitution engine (`listen_39_induction_engine.py`), computing
+the exact induced substitution for every factor of the fixed point through length 30 (1,549
+factors). The original conjecture charpoly(A_u) = x^k · P(x) (P = char poly of M) was
+**FALSIFIED**: factor `bABab` has return count 5, incidence rank 5, and closing power q=2
+— its charpoly is x · charpoly(M²), not x · charpoly(M).
+
+**Corrected law:**
+charpoly(A_u) = x^(r-4) · charpoly(M^q(u)),  q ∈ {1, 2}.
+
+Seven canonical incidence types found across 1,549 factors. All factors close at q ≤ 2; no
+factor requires q=3. The fifth return state (when present) contributes only zero modes —
+the four-dimensional core M^q is the universal invariant.
+
+**[MATH: charpoly law with q ∈ {1,2}, 7 types, 1549/1549 verified]**
+Lock: `tests/test_b530.py::test_induction_*`.
+
+## Movement XXXV — the two weak-induction orbits and the six-phase clock
+
+The weak bispecial factors W_j split into two exact induction-fixed orbits
+(`listen_39_induction_engine.py`, verified through W_6):
+
+- **Even** (W_0, W_2, W_4, W_6): q=1, canonical five-state substitution
+  0→012321, 1→42323, 2→01, 3→423, 4→0123.
+  Charpoly: x(x⁴−2x³−5x²−4x−1) = x · χ_M(x).
+- **Odd** (W_1, W_3, W_5): q=2, canonical five-state substitution
+  0→0101231012314101231, ..., charpoly: x · χ_{M²}(x).
+
+Return-word transport: R_{j+2,i} = ρ(σ(R_{j,i})) (cyclic conjugation by AB), verified
+for j=0..6 (all 35 individual return-word identities). The closure-invariance lemma
+(bispecial closure determines the induced system) is PROVED.
+
+**The six-phase schedule:** induction closing power has period 2 (j mod 2); binary-ambiguity
+has period 3 (extra lift at j ≡ 2 mod 3). Combined: period 6, with the first generation
+carrying both effects at W_5.
+
+**Exact predicate for the 91 power-two factors:** q(u) = 2 iff BCl(u) = W_j for odd j.
+No exceptions across 1,549 factors.
+
+**[MATH: two fixed orbits, 6-phase schedule, q=2 iff odd]**
+Lock: `tests/test_b530.py::test_induction_phase_*`.
+
+## Movement XXXVI — the F₂⁴ weak phase map
+
+The Parikh vectors p_j = Parikh(W_j) mod 2 satisfy the affine recurrence
+p_{j+2} = M p_j + (1,0,1,1) with fixed point x_* = (0,0,0,1). The linearized orbit
+y_j = p_j + x_* lives in F₂⁴ \ K (12 states), where K = ker(C) = im(C),
+C = M² + M + I mod 2, rank 2, C² = 0.
+
+**Quotients recovering the two clocks:**
+- Quadratic invariant Q(y) recovers j mod 2 (the induction power clock)
+- Nilpotent projection Cy recovers j mod 3 (the binary-ambiguity clock)
+- Combined: exact six-state quotient Π recovering j mod 6
+
+The order-6 behavior consists of an order-3 semisimple component (from (x²+x+1)²)
+and an order-2 nilpotent lift. **Independently verified** by CC: the affine recurrence
+matches the actual computed Parikh vectors of W_0..W_3, and the F₂⁴ module structure
+(rank, kernel, M-preservation, orbits) is confirmed.
+
+**[MATH: F₂⁴ phase map, 12-state orbit, exact 6-phase quotient]**
+Lock: `tests/test_b530.py::test_f2_phase_*`.
+
+## Movement XXXVII — the parity-cocycle audit (movement XXX correction)
+
+Movement XXX's eight-letter parity substitution has correct charpoly factorization:
+χ_{M_aug}(x) = (x⁴−2x³−5x²−4x−1)(x⁴−2x³−x²−1). But the parity-label interpretation
+is **REFUTED**: labels fail at depth 2, index 5 (boundary inconsistency). The structural
+reason: #_{a,b}σ(a) = 2 ≡ 0 ≠ 1 (mod 2). No nonzero stationary one-bit additive functional
+exists (ker(M^T−I) = 0 over F₂).
+
+The correct mod-2 hierarchy: M^6 ≡ I (mod 2), order exactly 6.
+χ_M ≡ (x²+x+1)² (mod 2). The supertile-length parity has period 6, matching the
+induction/binary six-phase schedule algebraically but not yet by explicit semiconjugacy.
+
+**Direct case-parity / q bridge:** REFUTED by counterexample (ε(W_0) = ε(W_3) = 1 but
+q(W_0) = 1, q(W_3) = 2). The six-phase parallelism (same 3×2 algebraic decomposition)
+is observed but the causal identification remains OPEN.
+
+**[MATH: parity labels refuted, M mod 2 order = 6, no stationary functional]**
+Lock: `tests/test_b530.py::test_parity_*`.
+
+## Movement XXXVIII — the bispecial-return bridge and integral core
+
+**Bridge:** for every factor of length 1 ≤ |u| ≤ 100 (16,864 instances):
+#R(u) = 5 iff b(BCl(u)) = −1 (weak bispecial closure). No exceptions.
+The trapezoidal count formula for r₅(n) — the number of factors with 5 return words
+as a function of length — reproduces exhaustive counts for n = 1..250.
+
+**Integral core:** each induced incidence matrix A_u is GL(r,ℤ)-conjugate to M^q ⊕ 0.
+Positive shift equivalence proved (even type: lag 3, odd type: lag 2). Strong shift
+equivalence remains OPEN — requires constructing explicit rectangular matrices
+R,S with A = RS, M = SR through a finite chain.
+
+**[MATH: 5-return iff weak bispecial, 16864/16864; integral core M^q ⊕ 0]**
+Lock: `tests/test_b530.py::test_integral_*`.

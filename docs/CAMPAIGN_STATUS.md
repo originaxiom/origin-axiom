@@ -48,6 +48,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 I0 — induction campaign handoff)
+- **Movements XXXIV–XXXVIII (2026-07-12).** Canonical return-induction engine integrated.
+  Corrected charpoly law (q ∈ {1,2}, 7 types, 1549/1549 verified). Two weak-induction orbits
+  with six-phase schedule. F₂⁴ phase map (M mod 2 order 6, nilpotent C, 12-state orbit).
+  Parity cocycle audit (movement XXX labels REFUTED). Flow bridge (5 returns iff weak bispecial,
+  16864/16864). 17 new locks (53 total).
+
 ## LAST BANKED (B531 — Trace-Map Gate Campaign)
 - **B531 T1 (2026-07-12) — slopes to depth 12.** s₁ = 0.1914, s₂ = 0.1524, ratio = 1.2565
   (corrects XXXIII handoff values). Gap 3 = PERIOD-2 oscillation: 0.1244/0.1539 at even/odd
