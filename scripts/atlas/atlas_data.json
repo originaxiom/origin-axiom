@@ -10488,7 +10488,8 @@
     "B398",
     "B484",
     "B515",
-    "B516"
+    "B516",
+    "B556"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 4,
@@ -11282,6 +11283,27 @@
    "obstacle": "measure",
    "obstacle_conf": 2,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B556": {
+   "slug": "escalator tower",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden"
+   ],
+   "refs": [
+    "B517",
+    "B533",
+    "B535",
+    "B540",
+    "B543",
+    "B546",
+    "B555"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B55": {

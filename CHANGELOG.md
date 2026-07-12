@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B556: the escalator tower (hypothesis + verified core)
+
+### Added
+- frontier/B556_escalator_tower/ (tower.py, FINDINGS): T(F)=M₄ verbatim
+  (= B517 intertwining); the tower 2→4→8→16→32 all irreducible; λ-law; banked
+  as a labeled HYPOTHESIS with verified core + honest boundaries + lit-gate flag.
+- tests/test_b556.py (4 locks).
+
+### Changed
+- frontier/B517_bootstrap_forcing/FINDINGS.md: escalator-generalization pointer.
+
+---
+
 ## 2026-07-12 — Tiling gate cleared (species-chain letter novelty-cleared)
 
 ### Changed

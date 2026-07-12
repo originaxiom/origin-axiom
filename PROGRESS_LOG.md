@@ -10,6 +10,24 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B556: the ESCALATOR TOWER T(M)=[[M,M],[M²,M]] (hypothesis + verified core)
+
+chat-2's escalator handoff, processed verify-don't-trust and banked as a labeled HYPOTHESIS
+(owner: run it to the end, treat seriously, don't lose it). VERIFIED EXACT: T(F)=M₄ VERBATIM
+(F=golden Fibonacci matrix; = B517's intertwining coupling with (C,D)=(F,F²) — grounded, not
+coincidence); rung 2 = T(M₄) is 8×8, charpoly degree-8 IRREDUCIBLE, Perron 10.724751772=β(1+√β),
+field doubles 4→8; the tower degrees 2→4→8→16→32 all irreducible; λ-law λ_{n+1}=λ_n(1+√λ_n)
+reproduces every Perron. Closure: coupling is the only escalator (induction saturates B533/B535,
+return-word flow fixed B540; covers-non-escalating = chat-2's claim, unverified). HYPOTHESIS:
+one rule (couple X via (X,X²)) applied to itself forever — rung 0 golden (relaxation), rung 1
+species (built, B543), rung 2+ buildable coupled layers, each naming its field/Perron/Hamiltonian
+(rung-2 = an 8-coupling chain, degree-8 gap labels). Provenance clean: "traintrack" is a tool,
+not σ₄'s construction. BOUNDARIES: level-1 is FACT; rung≥2 iteration is a CHOSEN canonical rule;
+physics-ladder is hypothesis; LIT-GATE mandatory (coupled/graph-directed substitution towers have
+literature). 4 locks.
+
+---
+
 ## 2026-07-12 — Tiling K-theory gate CLEARED: the species-chain letter is novelty-cleared
 
 The last gate for the degree-4 gap-label paper cleared. Cost-tiered deep-research, 100/100 agents,
