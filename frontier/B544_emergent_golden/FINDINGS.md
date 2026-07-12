@@ -18,3 +18,13 @@ NOT project to a 2-letter substitution by letter identification, so the lift
 is not a sliding-block code — it needs the actual (old/new)×(structural/
 tunnel) construction. If the lift lands, B543 + B544 fuse into: self-organized
 golden systems measurably carry ℚ(√φ).
+
+## SCOPING (B551, 2026-07-12): the emergence carries ℚ(φ) only, NOT the degree-4 layer
+
+chat-2's fusion test (B551) proves the emergent golden words here carry only
+the ℚ(φ) SHADOW, not the object's degree-4 ℚ(√φ) layer: the species word's
+old/new factor is non-Sturmian (complexity 3n), so no rotation/winding
+mechanism (FK, circle map) can emit it. B544's result is the CARRIER (Sturmian
+word) self-organizing — real, but ℚ(φ)-level. The degree-4 layer requires
+INFLATION order (instantiating the substitution itself), per the B551 boundary
+theorem. Do not read B544 as "emergence carries the object's deep layer."

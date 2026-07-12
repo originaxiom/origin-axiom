@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Bravery cycle + lit-gate pass 2 (B551/B552)
+
+### Added
+- frontier/B551_inflation_boundary/ (FINDINGS + verify): the boundary theorem
+  (degree-4 needs inflation, not winding); scopes B544, strengthens B543.
+- frontier/B552_z11_charge/ (FINDINGS + chat-2 artifact): coker(I-M)=Z/11,
+  charge chi=(1,3,6,7) conserved + transported across the observer flow.
+- tests/test_b551.py, tests/test_b552.py (6 locks).
+- Addenda: B544 scoped (ℚ(φ) only), B543 8x hardening, B535 V1 reproduction,
+  B533 h=1 PROVED + convention pin, B483 master-constant note + φ-landmine.
+- B543 LIT_GATE.md pass 2: the degree-4 verdict (MIX) + the tiling-lit gate.
+
+---
+
 ## 2026-07-12 — Review 12 anchored (merges #827-#836)
 
 ### Added

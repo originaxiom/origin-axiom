@@ -9935,7 +9935,9 @@
     "B314",
     "B480",
     "B481",
-    "K007"
+    "K007",
+    "P4",
+    "V2"
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 6,
@@ -10928,10 +10930,11 @@
    "refs": [
     "B530",
     "B533",
-    "B542"
+    "B542",
+    "V1"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -11047,7 +11050,9 @@
     "amphichiral_cp"
    ],
    "refs": [
-    "B535"
+    "B535",
+    "B546",
+    "V3"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
@@ -11065,6 +11070,7 @@
    "refs": [
     "B532",
     "B543",
+    "B551",
     "P5"
    ],
    "obstacle": "observable",
@@ -11171,6 +11177,40 @@
    "obstacle": "observable",
    "obstacle_conf": 4,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B551": {
+   "slug": "inflation boundary",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B532",
+    "B543",
+    "B544"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B552": {
+   "slug": "z11 charge",
+   "motifs": [
+    "trace_map",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B540"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B55": {

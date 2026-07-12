@@ -374,3 +374,14 @@ See `frontier/B535_coupling_space/FINDINGS.md`.
   Type 4 = {aA, BaA, ABaA} (rc=5), Type 5 = {Bab, ABab, BabA}.
 - probe5 Part G's residual errors (~4×10⁻⁷) came from comparing
   against 6-decimal print-rounded targets, not from the algebra.
+
+## h=1 PROVED end-to-end + convention pin (chat-2 floor, verified 2026-07-12)
+
+The GL(4,ℤ) single-class result (S2, audit-corrected) rests on h(ℚ(√φ))=1,
+previously sage-computed. Now machine-PROVED and independently verified here:
+disc(x⁴−x²−1)=−400=−2⁴·5²; Dedekind at p=2 (f≡(x²+x+1)² mod 2) and p=5
+(f≡(x²+2)² mod 5) give 2∤index, 5∤index ⟹ ℤ[τ] maximal, d_K=−400; Minkowski
+bound 2.3873; the only prime above 2 is 𝔭=𝔭² with residue degree 2 so N(𝔭)=4
+⟹ NO ideal of norm 2 ⟹ only (1) within the bound ⟹ **h=1**. **Convention pin:**
+the conjugator identity P·M·P⁻¹=M_pair holds for M (columns=images,
+rows=letters), NOT its transpose — do not "fix" the orientation.

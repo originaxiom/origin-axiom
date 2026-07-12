@@ -10,6 +10,37 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Bravery-cycle handoff + lit-gate pass 2 (B551/B552 + the degree-4 verdict)
+
+**chat-2 bravery cycle** processed verify-don't-trust. Six blocks: V1 (B535 keystone
+reproduced end-to-end, all counts exact — verification line added), V2 (λ-family = one master
+constant A=0.9111 under three clocks — REPRODUCTION PENDING, my quick check used the wrong
+object; the φ-lookalike 1.6176≠φ landmine recorded on B483), V3 (B543 hardened at 8× —
+corroborates B546), and three NEW results banked:
+
+**B551 the inflation-order boundary theorem (fusion death, verified exact):** the seductive
+"self-organized golden systems carry ℚ(√φ)" DIED TWICE — case-fold has 'aaa' (pos 16, not
+Fibonacci); old/new is non-Sturmian (complexity (2,4,7,10,14,17,20,23) exact). THEOREM: the
+degree-4 ℚ(√φ) layer requires INFLATION order, not winding order. SCOPES B544 (emergence
+carries ℚ(φ) only), STRENGTHENS B543 (species chain non-shortcut-able), + the radius-1/
+7-window coloring gem (species = NN-decoration of its old/new shadow, verified).
+
+**B552 the ℤ/11 conserved charge (chat-2 cell, verified):** coker(I−M)=ℤ/11, SNF diag(1,1,1,11),
+χ=(1,3,6,7) mod 11, χM=χ; every image carries its source's charge; transported across the
+12-node observer flow. Pure algebra, firewalled.
+
+**FLOOR:** h(ℚ(√φ))=1 machine-PROVED (Dedekind p=2,5 + Minkowski 2.3873 + no-norm-2-ideal),
+upgrading cited→proved on the B533 audit; conjugator convention pinned (M not Mᵀ).
+
+**Lit-gate pass 2 (species-chain paper):** VERDICT = a MIX. General module theorem KNOWN
+(BBG/Bellissard/Kaminker–Putnam; cite, never claim). Degree-4 instantiation + experiment
+appear NEW (medium-high; three over-claims refuted 0-3, incl. Baake–Grimm degree-4 = diffraction
+not gap-label). Our module verified degree-4 in-sandbox (B533 S8). REMAINING GATE: the
+substitution-TILING K-theory literature (Kellendonk–Savinien, Julien, BHZ 2000) un-searched —
+must clear before any "first" claim. 6 locks.
+
+---
+
 ## 2026-07-12 — Review 12 (merges #827-#836): Window 12 + the handoff harvest
 
 Decadal review, anchored (HEAD after #836). Mechanical check: full suite 1888 passed / 0 failed
