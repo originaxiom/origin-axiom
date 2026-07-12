@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B532 I1: Fixed-Point Dimension + Period-3 Spectral Test
+
+- **Period-3: ABSENT from the spectrum.** Four independent tests (Fourier phases, c₂ quadratic
+  correction, gap-slope ratios, complex eigenvalue argument) all show pure period-2. The
+  complex eigenvalue has arg ≈ −0.79π (period ≈ 2.54, irrational — not 3). The six-phase
+  clock's two factors have different natures: period-2 is spectral (from λ₂ < 0), period-3
+  is purely combinatorial (F₂ algebra, no spectral shadow).
+- **Fixed-point dimension: two components.** Generic irreducible σ*-FPs have Jacobian
+  kernel dim 2 (= diagonal gauge) → **isolated (dim=0)**. Trace-zero FPs (κ = −2) have kernel
+  dim 4 → **1-complex-dimensional family**. Chat1's dim=0 claim partially confirmed (generic
+  component only).
+- **Golden FP: NOT FOUND** after 3100 seeds across 3 strategies. Status: UNVERIFIED.
+- 7 new locks in test_b532.py.
+
 ## 2026-07-12 — B532 I0: Bank B530 induction campaign handoff (Movements XXXIV–XXXVIII)
 
 - **Canonical return-induction engine** (`listen_39_induction_engine.py`): tail-aware

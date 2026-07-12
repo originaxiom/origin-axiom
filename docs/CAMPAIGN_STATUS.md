@@ -48,6 +48,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 I1 — fixed-point dimension + period-3)
+- **I1 Part B (2026-07-12) — Period-3 ABSENT.** Four spectral tests all show pure period-2.
+  Complex eigenvalue period ≈ 2.54 (irrational, not 3). Period-2 = spectral (λ₂<0),
+  period-3 = combinatorial (F₂). The two clocks are physically decoupled. 4 locks.
+- **I1 Part A (2026-07-12) — FP dimension resolved.** Two components: generic isolated
+  (dim=0, kernel=2=gauge), trace-zero family (dim=1, kernel=4, κ=-2). Golden FP NOT FOUND.
+  Chat1 dim=0 partially confirmed. 3 locks.
+
 ## LAST BANKED (B532 I0 — induction campaign handoff)
 - **Movements XXXIV–XXXVIII (2026-07-12).** Canonical return-induction engine integrated.
   Corrected charpoly law (q ∈ {1,2}, 7 types, 1549/1549 verified). Two weak-induction orbits
