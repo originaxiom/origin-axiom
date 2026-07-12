@@ -9634,6 +9634,7 @@
    "motifs": [
     "figure_eight",
     "trace_map",
+    "kappa",
     "metallic",
     "eisenstein",
     "golden",
@@ -9650,6 +9651,7 @@
     "B356",
     "B444",
     "B458",
+    "B461",
     "B465",
     "B466",
     "B467",
@@ -9689,6 +9691,7 @@
     "five_web"
    ],
    "refs": [
+    "B469",
     "B471",
     "H1"
    ],
@@ -9714,10 +9717,124 @@
    "refs": [
     "B467",
     "B470",
-    "H1"
+    "H1",
+    "P4"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B472": {
+   "slug": "quantum commutator",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B171",
+    "B358",
+    "B367",
+    "B465",
+    "B473",
+    "H1",
+    "H114"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B474": {
+   "slug": "tier commutator law",
+   "motifs": [
+    "kappa",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B431",
+    "B459",
+    "B468",
+    "B472",
+    "H1"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 13,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B476": {
+   "slug": "interaction algebra",
+   "motifs": [
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B428",
+    "B469",
+    "B474",
+    "H1"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B477": {
+   "slug": "sterile classes",
+   "motifs": [],
+   "refs": [
+    "B461"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B478": {
+   "slug": "plusj asymmetry",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B466",
+    "B472"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B479": {
+   "slug": "held breath torsion",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B461",
+    "B494"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -9741,6 +9858,217 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B480": {
+   "slug": "qca dirac lens",
+   "motifs": [
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B186",
+    "B289",
+    "B398",
+    "B447",
+    "B451",
+    "B466"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 16,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B481": {
+   "slug": "det zeta5 kill",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B482": {
+   "slug": "seat2 twisted markov intake",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B3",
+    "P4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
+  "B483": {
+   "slug": "fibonacci anyon face",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "quasicrystal",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B148",
+    "B314",
+    "B480",
+    "B481",
+    "K007"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B484": {
+   "slug": "braiding sm verdict",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B221",
+    "B398",
+    "S040"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 26,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B485": {
+   "slug": "metallic apoly family",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "apolynomial"
+   ],
+   "refs": [
+    "K024"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B486": {
+   "slug": "cusp hexagonal verdict",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B356",
+    "B474",
+    "B481",
+    "B483",
+    "B484",
+    "K024",
+    "S060"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B487": {
+   "slug": "dgg su3 verdict",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "P3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 19,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B488": {
+   "slug": "dgg family",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "z3_generation",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B479",
+    "B487"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B489": {
+   "slug": "self interaction tower",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B462",
+    "B487",
+    "B488",
+    "S060"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B48": {
    "slug": "sl3 metallic trace maps",
    "motifs": [
@@ -9758,6 +10086,184 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B490": {
+   "slug": "the no go",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B107",
+    "B476",
+    "B480",
+    "B481",
+    "B483",
+    "B484",
+    "B486",
+    "B487",
+    "B488",
+    "B489",
+    "B96",
+    "K1",
+    "K10",
+    "K11",
+    "K12",
+    "K13",
+    "K14",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "K8",
+    "K9",
+    "P2",
+    "S057",
+    "S058",
+    "S060"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 21,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B491": {
+   "slug": "novelty assessment",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B459",
+    "B479",
+    "B489",
+    "B490",
+    "B494",
+    "P1",
+    "P3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
+  "B492": {
+   "slug": "verlinde boundary lens",
+   "motifs": [
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B221",
+    "B223",
+    "B480",
+    "B483",
+    "B484"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B496": {
+   "slug": "tm endomorphism",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal",
+    "apolynomial",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "P014",
+    "S062"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B497": {
+   "slug": "endomorphism monoid",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "torsion",
+    "quasicrystal",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B221",
+    "B398",
+    "B496",
+    "H1",
+    "L1",
+    "L2",
+    "L4",
+    "L5",
+    "L6",
+    "P3",
+    "S063"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B498": {
+   "slug": "mixed monoid dynamics",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B497",
+    "S063"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B49": {
    "slug": "sl3 certificate proof hardening",
    "motifs": [],
@@ -9766,6 +10272,97 @@
    "obstacle_conf": 1,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B500": {
+   "slug": "child hunt",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B499",
+    "B501",
+    "B502",
+    "B519",
+    "B525"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "meta"
+  },
+  "B504": {
+   "slug": "spacetime functor",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B505": {
+   "slug": "quasicrystal anchor",
+   "motifs": [
+    "kappa",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B398"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B507": {
+   "slug": "beta function",
+   "motifs": [
+    "kappa",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B506"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B508": {
+   "slug": "geometry machine",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B509": {
+   "slug": "square time curve",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B50": {
    "slug": "pc12 proof draft assembly",
@@ -9783,6 +10380,145 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B510": {
+   "slug": "convening resolution",
+   "motifs": [
+    "five_web"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B512": {
+   "slug": "six computation pass",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "lorentzian",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B506",
+    "B507",
+    "B508",
+    "B509",
+    "B510",
+    "B511"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B513": {
+   "slug": "boundary attractors",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "S063"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B515": {
+   "slug": "golden 3d",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B514"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B516": {
+   "slug": "golden 3d ladder",
+   "motifs": [
+    "metallic",
+    "golden",
+    "quasicrystal",
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B515"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B517": {
+   "slug": "bootstrap forcing",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "B398",
+    "B484",
+    "B515",
+    "B516"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B518": {
+   "slug": "k025 confirmation",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "quasicrystal",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B334",
+    "B505",
+    "B519",
+    "K025",
+    "P015",
+    "P016",
+    "P5"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B51": {
    "slug": "sl3 symbolic m factorization",
    "motifs": [],
@@ -9791,6 +10527,261 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B520": {
+   "slug": "handoff verification",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "symplectic",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B506",
+    "B507",
+    "B516",
+    "B517"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B521": {
+   "slug": "audit integration",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "quasicrystal",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B333",
+    "B334",
+    "B479",
+    "B491",
+    "B493",
+    "B495",
+    "B496",
+    "B497",
+    "B498",
+    "B500",
+    "B501",
+    "B503",
+    "B511",
+    "B519",
+    "B522",
+    "B99",
+    "H103",
+    "K020",
+    "K022",
+    "P64",
+    "P66",
+    "P67",
+    "P68",
+    "V0"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B522": {
+   "slug": "tower filtration",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B103",
+    "B104",
+    "B112",
+    "B117",
+    "B122",
+    "B153",
+    "B503",
+    "B61",
+    "B62",
+    "B66",
+    "B89"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B523": {
+   "slug": "verdict reexamination",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B490",
+    "B497",
+    "B515",
+    "B517",
+    "B518",
+    "B519",
+    "B521",
+    "B525",
+    "K025",
+    "P015",
+    "P016"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 16,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B524": {
+   "slug": "iwip and higher ptolemy",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B479",
+    "B490",
+    "B523",
+    "B528",
+    "B71"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 14,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B525": {
+   "slug": "are you sure",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B500",
+    "B518",
+    "B519",
+    "B523",
+    "B524",
+    "B526"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B526": {
+   "slug": "crossing package",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B517",
+    "B523",
+    "B524",
+    "B527",
+    "P0",
+    "P6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 10,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B527": {
+   "slug": "metric cone",
+   "motifs": [
+    "trace_map",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B524",
+    "B526",
+    "K025"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B528": {
+   "slug": "dgg gauge resolved",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "symplectic",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B490",
+    "B524",
+    "B525"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 36,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B529": {
+   "slug": "qca covariance",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B525",
+    "B527",
+    "B530",
+    "K025"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B52": {
    "slug": "multichannel fibonacci bridge control",
@@ -9803,6 +10794,107 @@
    "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B530": {
+   "slug": "natural history",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "quasicrystal",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B171",
+    "B172",
+    "B459",
+    "B480",
+    "B493",
+    "B517",
+    "B524",
+    "B529",
+    "H4",
+    "H6",
+    "K007",
+    "K010",
+    "K022",
+    "K025",
+    "S065"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 32,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B531": {
+   "slug": "trace map gate",
+   "motifs": [
+    "trace_map",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B532": {
+   "slug": "last echo",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B531"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B533": {
+   "slug": "coupling invariance",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B532",
+    "S1",
+    "S10",
+    "S11",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B54": {
@@ -10531,10 +11623,13 @@
     "kappa",
     "metallic",
     "golden",
+    "torsion",
     "apolynomial"
    ],
    "refs": [
+    "B485",
     "B69",
+    "K024",
     "P1",
     "P16",
     "V33",
@@ -10544,7 +11639,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
    "status": "dead",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B88": {
    "slug": "sl4 census",

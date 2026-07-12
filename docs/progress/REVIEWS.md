@@ -342,3 +342,17 @@ hidden Bin-1 break. Outcome: **no refutation; both CONFIRMED, and C5 strengthene
    law + c to 28 digits (identification honestly open). All registry-mapped with lit-status.
 5. **Net:** the discipline scaled to the fastest bank rate in the program's history
    (19 PRs in ~48h) without a single unretracted overclaim reaching main.
+
+# Review 10 — 2026-07-12 (merges #631–#815: the decadal review, owner-invoked)
+
+1. **Scope:** the decadal repo review of 2026-07-12 (PR #815, `docs/CODEX_AUDIT_RESPONSE_2026-07-12.md`
+   + README/CLAIMS/CAMPAIGN_STATUS sync), covering the window from Review 9 through the B532
+   Last Echo campaign. Invoked MANUALLY by the owner — the counter had been due since ~#640
+   because reviews 2026-07-08→07-12 were not being anchored here. Process fix in the same PR
+   as this entry: the anchor discipline is restated below, and the gates hook now surfaces
+   review-due at every push.
+2. **Anchor discipline (restated):** every repo review — decadal or otherwise — MUST append an
+   entry here with its merge `anchor-commit:`; the counter (`scripts/gates/gates.py review-due`)
+   reads the LAST anchor in this file. An unanchored review does not exist to the machinery.
+
+anchor-commit: `1675d39559aafcf23aa4e8a78ac6c7ef19f48432`

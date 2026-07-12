@@ -258,3 +258,23 @@ is `pathlib.Path(__file__).resolve().parents[1]`, and a sibling module is loaded
 `parents[1] / "<sibling>" / "probe.py"` (use `importlib.util.spec_from_file_location` when the module name
 `probe` would collide). This is locked by `tests/test_no_hardcoded_paths.py` (it scans active `*.py` for
 absolute-path prefixes; `legacy/` and vendored virtualenvs are excluded).
+
+## Local governance-gates hook
+
+The governance gates (`scripts/gates/gates.py`) are enforced by the lock suite, but for
+push-time automation install the local pre-push hook once per clone (`.git/hooks/` is not
+tracked):
+
+```sh
+cat > .git/hooks/pre-push <<'HOOK'
+#!/bin/sh
+echo "[pre-push] running governance gates..."
+python3 "$(git rev-parse --show-toplevel)/scripts/gates/gates.py"
+HOOK
+chmod +x .git/hooks/pre-push
+```
+
+The hook blocks a push while any gate fails and prints the decadal-review counter on every
+push. The counter (`python3 scripts/gates/gates.py review-due`) reads the LAST
+`anchor-commit:` in `docs/progress/REVIEWS.md` — every repo review must append an anchored
+entry there, or the counter cannot reset (this is what stranded it at 244 merges in 2026-07).
