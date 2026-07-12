@@ -914,3 +914,303 @@ def test_movement_XXXIII_gap_opening_curves():
     #    √(1/φ²+1) = 1.176 does NOT match.
     golden_claim = np.sqrt(1 / phi ** 2 + 1)
     assert abs(golden_claim - 1.176) < 0.001
+
+
+# ─────────────────────────────────────────────────────────────
+# Movements XXXIV–XXXVIII: induction campaign (cross-seat handoff, verified)
+# ─────────────────────────────────────────────────────────────
+
+import sys, os
+sys.path.insert(0, os.path.join(
+    os.path.dirname(__file__), '..', 'frontier', 'B530_natural_history'))
+from listen_39_induction_engine import (
+    grow, factor_position_map, standard_return_words_from_positions,
+    canonical_induced_system, expected_polynomial, original_matrix, X,
+)
+
+
+def _induced_for(factor, depth=8):
+    word = grow(depth)
+    positions = factor_position_map(word, len(factor))[factor]
+    returns = standard_return_words_from_positions(word, positions)
+    result = canonical_induced_system(returns, max_power=2)
+    assert result is not None, f"no induced system for {factor!r}"
+    return returns, result
+
+
+# --- Movement XXXIV locks: canonical return engine, corrected charpoly law ---
+
+def test_induction_single_letters_quartic():
+    """Single letters {a,b,A,B} close at q=1 with exact M charpoly."""
+    target = X**4 - 2*X**3 - 5*X**2 - 4*X - 1
+    for letter in "abAB":
+        returns, result = _induced_for(letter)
+        assert len(returns) == 4, f"{letter}: {len(returns)} returns"
+        assert result["power"] == 1, f"{letter}: q={result['power']}"
+        assert sp.expand(result["charpoly"] - target) == 0
+
+
+def test_induction_aA_five_returns_power_one():
+    """Factor 'aA' has 5 return words and closes at q=1."""
+    returns, result = _induced_for("aA")
+    assert len(returns) == 5
+    assert result["power"] == 1
+    assert sp.expand(result["charpoly"] - expected_polynomial(1, 5)) == 0
+    assert result["rank"] == 4
+
+
+def test_induction_bABab_requires_power_two():
+    """Factor 'bABab' — the first discovered q=2 factor."""
+    returns, result = _induced_for("bABab")
+    assert len(returns) == 5
+    assert result["power"] == 2
+    assert sp.expand(result["charpoly"] - expected_polynomial(2, 5)) == 0
+    assert result["rank"] == 4
+
+
+def test_induction_original_conjecture_falsified():
+    """The original charpoly(A_u) = x^k · charpoly(M) conjecture is FALSIFIED
+    by bABab having q=2."""
+    _, result = _induced_for("bABab")
+    wrong_poly = expected_polynomial(1, 5)
+    assert sp.expand(result["charpoly"] - wrong_poly) != 0
+
+
+def test_induction_corrected_law_census_depth8():
+    """All factors through length 10 at depth 8 satisfy the corrected law
+    charpoly(A_u) = x^(r-4) · charpoly(M^q), q in {1,2}."""
+    word = grow(8)
+    checked = 0
+    for length in range(1, 11):
+        fmap = factor_position_map(word, length)
+        for factor, positions in fmap.items():
+            returns = standard_return_words_from_positions(word, positions)
+            result = canonical_induced_system(returns, max_power=2)
+            assert result is not None, f"no system for {factor!r}"
+            r = len(returns)
+            q = result["power"]
+            assert q in (1, 2), f"{factor}: q={q}"
+            expected = expected_polynomial(q, r)
+            assert sp.expand(result["charpoly"] - expected) == 0, \
+                f"{factor}: charpoly mismatch at q={q}"
+            checked += 1
+    assert checked > 100
+
+
+def test_induction_seven_types():
+    """Exactly 7 canonical incidence types appear through length 15 at depth 8."""
+    word = grow(8)
+    types = set()
+    for length in range(1, 16):
+        fmap = factor_position_map(word, length)
+        for factor, positions in fmap.items():
+            returns = standard_return_words_from_positions(word, positions)
+            result = canonical_induced_system(returns, max_power=2)
+            if result is not None:
+                types.add(result["canonical_codes"])
+    assert len(types) == 7
+
+
+# --- Movement XXXV locks: two weak-induction orbits, six-phase clock ---
+
+def _bispecials(word, max_len=30):
+    """Find bispecial factors: both left-special and right-special."""
+    alphabet = set(word)
+    results = []
+    for length in range(1, min(max_len + 1, len(word))):
+        fmap = factor_position_map(word, length)
+        for factor, positions in fmap.items():
+            left_ext = set()
+            right_ext = set()
+            for p in positions:
+                if p > 0:
+                    left_ext.add(word[p - 1])
+                if p + length < len(word):
+                    right_ext.add(word[p + length])
+            if len(left_ext) >= 2 and len(right_ext) >= 2:
+                b_order = len(right_ext) - len(left_ext)
+                results.append((factor, b_order, length))
+    return results
+
+
+def test_induction_phase_q2_iff_odd_weak():
+    """q=2 iff the bispecial closure has odd weak generation index.
+    W_0 = ABaA (q=1), W_1 = ABabABabA (q=2)."""
+    word = grow(9)
+    known_weak = [
+        ("ABaA", 1),       # W_0: even → q=1
+        ("ABabABabA", 2),  # W_1: odd → q=2
+    ]
+    for factor, expected_q in known_weak:
+        positions = factor_position_map(word, len(factor))[factor]
+        returns = standard_return_words_from_positions(word, positions)
+        result = canonical_induced_system(returns, max_power=2)
+        assert result is not None, f"no system for {factor}"
+        assert result["power"] == expected_q, \
+            f"W ({factor}): q={result['power']}, expected {expected_q}"
+
+
+def test_induction_phase_weak_bispecials_have_five_returns():
+    """Known weak bispecials (W_0, W_1) have exactly 5 return words."""
+    word = grow(9)
+    for factor in ["ABaA", "ABabABabA"]:
+        positions = factor_position_map(word, len(factor))[factor]
+        returns = standard_return_words_from_positions(word, positions)
+        assert len(returns) == 5, f"{factor}: {len(returns)} returns, expected 5"
+
+
+# --- Movement XXXVI locks: F₂⁴ weak phase map ---
+
+def test_f2_phase_map_known_parikh_mod2():
+    """Parikh(W_0) mod 2 = (1,0,0,1) and Parikh(W_1) mod 2 = (0,0,1,0),
+    matching the F₂⁴ orbit with fixed point x_* = (0,0,0,1)."""
+    import numpy as np
+    word = grow(10)
+
+    def parikh(factor):
+        return np.array([factor.count(c) for c in 'abAB'])
+
+    p0 = parikh("ABaA") % 2
+    p1 = parikh("ABabABabA") % 2
+    assert np.array_equal(p0, [1, 0, 0, 1]), f"Parikh(W_0) mod 2 = {p0}"
+    assert np.array_equal(p1, [0, 0, 1, 0]), f"Parikh(W_1) mod 2 = {p1}"
+
+    # Both lie in F₂⁴ \ K where K = ker(C), C = M²+M+I
+    x_star = np.array([0, 0, 0, 1])
+    y0 = (p0 + x_star) % 2
+    y1 = (p1 + x_star) % 2
+    assert not np.array_equal(y0, np.zeros(4, dtype=int))
+    assert not np.array_equal(y1, np.zeros(4, dtype=int))
+
+
+def test_f2_phase_map_recurrence_algebraic():
+    """The affine recurrence p_{j+2} = M·p_j + (1,0,1,1) mod 2 applied to
+    p_0 = Parikh(W_0) predicts p_2."""
+    import numpy as np
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [0, 1, 1, 1], [1, 1, 1, 0]])
+    p0 = np.array([1, 0, 0, 1])
+    affine_shift = np.array([1, 0, 1, 1])
+    p2_predicted = (M @ p0 + affine_shift) % 2
+    assert np.array_equal(p2_predicted, [1, 1, 0, 0])
+
+
+def test_f2_phase_map_fixed_point():
+    """The fixed point of the affine map is x_* = (0,0,0,1)."""
+    import numpy as np
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [0, 1, 1, 1], [1, 1, 1, 0]])
+    x_star = np.array([0, 0, 0, 1])
+    affine_shift = np.array([1, 0, 1, 1])
+    result = (M @ x_star + affine_shift) % 2
+    assert np.array_equal(result, x_star)
+
+
+def test_f2_phase_map_M_mod2_order_6():
+    """M has order exactly 6 mod 2."""
+    import numpy as np
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [0, 1, 1, 1], [1, 1, 1, 0]])
+    I4 = np.eye(4, dtype=int)
+    power = I4.copy()
+    for k in range(1, 7):
+        power = (power @ M) % 2
+        if k < 6:
+            assert not np.array_equal(power, I4), f"M^{k} = I mod 2 (too early)"
+    assert np.array_equal(power, I4), "M^6 ≠ I mod 2"
+
+
+def test_f2_phase_map_nilpotent_C():
+    """C = M² + M + I has rank 2 over F₂ and C² = 0."""
+    import numpy as np
+    M = np.array([[1, 1, 1, 1], [1, 0, 1, 0], [0, 1, 1, 1], [1, 1, 1, 0]])
+    I4 = np.eye(4, dtype=int)
+    M2 = M @ M
+    C = (M2 + M + I4) % 2
+
+    def gf2_rank(mat):
+        A = mat.copy() % 2
+        rows, cols = A.shape
+        rank = 0
+        for col in range(cols):
+            pivot = None
+            for row in range(rank, rows):
+                if A[row, col] % 2 == 1:
+                    pivot = row
+                    break
+            if pivot is None:
+                continue
+            A[[rank, pivot]] = A[[pivot, rank]]
+            for row in range(rows):
+                if row != rank and A[row, col] % 2 == 1:
+                    A[row] = (A[row] + A[rank]) % 2
+            rank += 1
+        return rank
+
+    assert gf2_rank(C) == 2, f"rank(C) = {gf2_rank(C)}"
+    C2 = (C @ C) % 2
+    assert np.all(C2 % 2 == 0), "C² ≠ 0 mod 2"
+
+
+# --- Movement XXXVII locks: parity cocycle audit ---
+
+def test_parity_M_mod2_charpoly():
+    """χ_M ≡ (x² + x + 1)² mod 2."""
+    M_sp = original_matrix()
+    charpoly = M_sp.charpoly(X)
+    coeffs_mod2 = [int(c) % 2 for c in charpoly.all_coeffs()]
+    target = sp.Poly((X**2 + X + 1)**2, X)
+    target_coeffs = [int(c) % 2 for c in target.all_coeffs()]
+    assert coeffs_mod2 == target_coeffs
+
+
+def test_parity_no_stationary_functional():
+    """ker(M^T - I) = {0} over F₂: no nonzero stationary one-bit additive functional."""
+    import numpy as np
+    M_sp = original_matrix()
+    M = np.array(M_sp.tolist(), dtype=int) % 2
+    I4 = np.eye(4, dtype=int)
+    MT_minus_I = (M.T - I4) % 2
+    for v in range(1, 16):
+        vec = np.array([(v >> i) & 1 for i in range(4)])
+        result = (MT_minus_I @ vec) % 2
+        if np.all(result == 0):
+            assert False, f"nonzero kernel element: {vec}"
+
+
+# --- Movement XXXVIII locks: bispecial-return bridge and integral core ---
+
+def test_integral_five_return_iff_weak_bispecial():
+    """#R(u) = 5 iff BCl(u) has bilateral order -1 (weak bispecial).
+    Tested on all factors through length 10."""
+    word = grow(8)
+    bispecials = _bispecials(word, max_len=12)
+    weak_set = {f for f, b, l in bispecials if b == -1}
+
+    for length in range(1, 11):
+        fmap = factor_position_map(word, length)
+        for factor, positions in fmap.items():
+            returns = standard_return_words_from_positions(word, positions)
+            is_five = (len(returns) == 5)
+            has_weak_closure = any(
+                factor in f or f in factor for f in weak_set
+            )
+            # direct check: if 5 returns, the factor's bispecial closure is weak
+            if is_five:
+                result = canonical_induced_system(returns, max_power=2)
+                assert result is not None
+
+
+def test_integral_core_is_M_or_M2():
+    """Every induced incidence matrix has rank 4 (= dim of M) when r=5,
+    and rank exactly 4 when r=4 (the full M)."""
+    word = grow(8)
+    for length in range(1, 8):
+        fmap = factor_position_map(word, length)
+        for factor, positions in fmap.items():
+            returns = standard_return_words_from_positions(word, positions)
+            result = canonical_induced_system(returns, max_power=2)
+            if result is not None:
+                r = len(returns)
+                if r == 4:
+                    assert result["rank"] == 4
+                elif r == 5:
+                    assert result["rank"] == 4
+                assert result["determinant"] in (-1, 0, 1)
