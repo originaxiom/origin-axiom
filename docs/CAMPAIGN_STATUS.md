@@ -48,6 +48,21 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B533 — Coupling Invariance, Gates 1–3 + Fable-5 audit)
+- **B533 COUPLING INVARIANCE — COMPLETE (2026-07-12, PRs #816–#818).** The three-gate program
+  toward the SM question, then a full fresh-seat audit:
+  - **Gate 1:** 34 observation points → exactly 5 stable observation types; eigenvalue
+    spectrum UNIVERSAL, Perron fingerprint VARIES. The coupling is not a gauge choice.
+  - **Gate 2:** ONE number field ℚ(√φ) = ℚ[x]/(x⁴−x²−1); β = 1/(√φ−1) PROVED; f_a = 1/β;
+    sin θ = 1/φ. All ratios from a single generator τ = √φ. Scale is external (the shape/size
+    split, matching I6's ABSENT ingredient).
+  - **Gate 3:** no SM dimensionless ratio lives in ℚ(√φ) (21 ratios, lattice + matched
+    false-positive control). The numerology door is CLOSED with computed evidence.
+  - **Fable-5 audit (PR #818):** everything re-verified exactly; S2 REVERSED — the 5 induced
+    matrices ARE GL(4,ℤ)-conjugate (h=1, Latimer–MacDuffee, explicit conjugators): the object
+    is ONE; the 5 types are 5 markings of it. Mixing law exact: (½)ℤ-combinations of
+    {1, τ, φ, τ³} (Types 1–4 integral, Type 5 half-integral). 25 locks.
+
 ## LAST BANKED (B532 I6 — Nine Ingredients)
 - **B532-I6 NINE INGREDIENTS, ONE OBJECT (2026-07-12, PR #814).** The systematic determination
   of which aspects of physical reality the substitution σ forces from its own structure. Nine
