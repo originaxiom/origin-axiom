@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Chat-2 batch: B541-B545 (2a closure, ladders, species experiment, ghosts)
+
+### Added
+- frontier/B541_2a_closure, B542_tau_ladder, B543_species_gap_labels,
+  B544_emergent_golden, B545_ghost_census (+ verification scripts).
+- tests/test_b542.py (5 locks, exact), test_b543.py (3 locks, N=3000
+  reproduction), test_b545.py (3 locks, c=1 proof).
+
+### Changed
+- B535 FINDINGS: τ-ladder addendum. B537 FINDINGS: (4,4,16) discrepancy note.
+
+---
+
 ## 2026-07-12 — S066: the arithmetic of criticality (speculation room)
 
 ### Added

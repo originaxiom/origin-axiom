@@ -10,6 +10,40 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Chat-2 batch processed: 2a closure, τ-ladders, THE SPECIES-CHAIN EXPERIMENT, ghosts (B541-B545)
+
+**B541 (2a closure):** chat-2's independent SM run — set-matching WORSE than chance (p = 0.785),
+relation structure null after a broken-null repair (event-count matching + calibrated-domain
+rules extracted, companion to B539's tautology rule). Two independent designs, same verdict:
+2a closed from two sides. Cross-seat packet standard adopted.
+
+**B542 (τ-ladders, VERIFIED EXACT):** the 17 read-outs = τ^a(τ−1) (a=−2..2: the frequencies
++ |λ₂|) and τ^a(τ−1)² (a=0..5: the T4/T6 components) + τ⁻⁵ + a 5-element π-fringe
+(π = −2τ³+τ²+3τ−1 = the T3 component, N(π) = 4). The dictionary is a self-similar object —
+the degree-4 echo of the E8 golden ladder. All 17 decompose in ⟨τ, τ−1⟩·π^{0,±1}.
+
+**B543 (REPRODUCED — the jewel):** the species chain's measured gap labels ARE the dictionary
+values (f_A at 1.4e-5, f_a at 2.0e-5, f_B/f_b/f_a+f_b ≤ 2e-4), coupling-invariant, and
+unambiguously DEGREE-4: 100-2500× further from the golden lattice than from the species
+module (stronger than the handoff's 4-17×). THE EXPERIMENT PROPOSAL attached: a four-coupling
+polariton/photonic chain would be the first measurement carrying the object's degree-4 layer —
+the 2b degree boundary was never nature's refusal; nobody had built the degree-4 system.
+BBG lit-gate mandatory before novelty.
+
+**B544 (spot-verified):** golden order self-organizes (FK Sturmian ground state = classical
+Aubry; circle-map winding = 1/φ to 9 digits, Shenker reproduced here). F-P5 species-lift
+blocked on the B532 rule (the 4-letter σ does not project to 2 letters — real obstruction).
+
+**B545 (c = 1 PROVED):** chat-2's ghost-census prereg REFUTED by its own falsifier (logged);
+replacement elliptic-lock law: slot discriminant leading coefficient x²−4. c = 1, class
+(1,0,0): all three slots negative-definite (maxima −4, −3, −3), h(−3) = h(−4) = 1 ⟹ the
+smallest possible ghost level, verified exact here. DISCREPANCY recorded: chat-2's "(4,4,16)
+false candidate already in CC's record" is neither in the record nor reproducible (no witness
+≤ 20); status stays candidate pending their witness. Scanner build + all-hyperbolic-ghost
+question to the tracker. 11 locks.
+
+---
+
 ## 2026-07-12 — S066: the arithmetic of criticality (the B539 negative, read; owner-approved)
 
 Firewalled interpretive note banked in the speculation room. The three-layer reading of the
