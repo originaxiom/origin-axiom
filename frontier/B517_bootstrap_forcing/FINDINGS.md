@@ -133,3 +133,11 @@ math are genuinely useful and are banked here, firewalled:
   it: **the absence of a canonical metric is exactly the object's chirality** (the same det=−1 asymmetry
   the program has tracked throughout). Firewalled; no spacetime claim. The BH campaign preregistration
   itself is NOT banked.
+
+## Escalator generalization (B556, 2026-07-12)
+
+The intertwining coupling M = [[F,C],[D,F]] with (C,D)=(F,F²) is level 1 of an
+ESCALATOR FUNCTOR T(M)=[[M,M],[M²,M]]: T(F)=M₄ verbatim, and iterating doubles
+the field degree 2→4→8→16→32 (all irreducible), Perrons obeying
+λ_{n+1}=λ_n(1+√λ_n). Banked as a HYPOTHESIS (tower/physics ladder) with verified
+core in B556. Rung ≥2 uses a canonical-but-chosen iteration rule.
