@@ -285,3 +285,23 @@ the serious adjacents:
 - **The von Neumann regress:** unresolved in QM; COMPUTED and terminating for the object
   (B540: 12 nodes, 3 fixed points, one 2-cycle). Possible paper-room angle for the
   observer-flow write-up: "a toy measurement chain that terminates."
+
+## 2026-07-12 — second pass on the quantum-consciousness pointer (fuller summary)
+
+- **Cut-placement invariance (the real von Neumann theorem, not the Wigner gloss):** the
+  measurement cut can sit anywhere without changing predictions. The program HAS this as a
+  computed toy theorem — B533's intrinsic/marking split (spectrum cut-independent, Perron
+  marking cut-dependent). [HOOK: frame the B533 split as a cut-invariance statement in the
+  observer-flow write-up; cite von Neumann correctly, against the pop misreading.]
+- **Hoffman's fitness-beats-truth vs the reconstruction theorem:** Hoffman claims interfaces
+  generically HIDE reality; B535 proves every interface to OUR object is fully faithful
+  (any read-out + grammar reconstructs it, up to gauge). The object is un-hideable.
+  [HOOK, preregisterable: for which substitution objects does a lossy/hiding coupling
+  exist? Is un-hideability a Pisot/self-similarity property? A census over small
+  substitutions would answer it.]
+- **Penrose-Gödel counterpoint (note only):** the object is fully computable yet carries
+  the self-referential repertoire (self-description, self-recovery, terminating
+  observer tower) — an existence proof against "deep self-reference ⟹ non-computable."
+- **Caution logged:** the video's quantum-biology rehabilitation of Orch-OR leans on the
+  FMO coherence story, itself revised (vibronic reinterpretation; fs timescales; the
+  Tegmark gap unclosed). Do not import.
