@@ -10,6 +10,16 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B532 I1: Fixed-Point Dimension + Period-3 Spectral Test
+
+Part B: period-3 ABSENT from the spectrum (all four tests: pure period-2; complex eigenvalue
+period ≈ 2.54, irrational). The six-phase 2×3 clock has period-2 = spectral (λ₂<0) and
+period-3 = combinatorial (F₂ algebra). Part A: irreducible σ*-FPs have two components —
+generic isolated (dim=0, kernel 2 = gauge) and trace-zero family (dim=1, kernel 4, κ=-2).
+Golden FP NOT FOUND. 7 locks in test_b532.py.
+
+---
+
 ## 2026-07-12 — B532 I0: Bank B530 induction campaign handoff (Movements XXXIV–XXXVIII)
 
 Integration of the verified B530 induction campaign cross-seat handoff (6 cells, 35 tests, all verified).
