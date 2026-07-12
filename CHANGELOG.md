@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Durand gate: reconstruction note downgraded
+
+### Added
+- frontier/B540_observer_flow/LIT_GATE.md: Durand derived-sequence verdict —
+  Result 2 (flow) KNOWN (Rauzy/Durand/Košík–Starosta); Result 1 (reconstruction)
+  rigidity-adjacent (Durand 2011 / dendric rigidity), novel-as-stated formulation.
+
+### Changed
+- B540, B535 FINDINGS: scoping notes. papers/PAPER_PORTFOLIO: reconstruction
+  note downgraded from strongest-untapped to narrow rigidity-refinement.
+
+---
+
 ## 2026-07-12 — B557: Escalator Campaign (prereg + E2)
 
 ### Added

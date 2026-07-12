@@ -111,3 +111,14 @@ enumeration, grammar extraction, language fingerprints; zero reuse): 17,280
 lifts, 7 adjacencies {AA,AB,Aa,Ba,aA,ab,bA}, 8 grammar survivors, 2 language
 survivors (σ and a⁻¹σa), 16,848 distinct languages — every count exact. The
 keystone has now been survived by the hostile seat.
+
+## SCOPING (Durand lit-gate, 2026-07-12)
+
+The one-measurement reconstruction (matrix + language ⇒ σ unique up to conjugacy)
+is RIGIDITY-ADJACENT: NOT a recognizability corollary, but a refinement of
+substitution rigidity (Durand 2011 Cor 22; Berthé–Dolce–Durand–Leroy–Perrin
+dendric rigidity Thm 4.1 — same-fixed-point ⟹ conjugate). B535's specific
+finite-matrix-lift formulation + the exact '2 of 17,280' count appear novel-as-
+stated but were not found stated in the corpus; any write-up must cite the
+rigidity parents and claim only the formulation. NEEDS-SPECIALIST. See
+B540/LIT_GATE.md.
