@@ -6,6 +6,26 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Review 13 anchored (merges #838-#853)
+
+### Added
+- docs/progress/REVIEWS.md: Review 13 entry (counter resets). Suite 1921 passed / 0 failed / 12 skipped.
+
+---
+
+## 2026-07-12 — charge-tower period question (partial, honest)
+
+### Added
+- B556 FINDINGS addendum: the period mechanism PROVEN (doubling orbit reaches 1
+  ⟺ shares a root with the fixed cubic g); 11 period-3 confirmed; g-mod-p
+  structure; honest open boundary (full period law needs the F_{p^k} orbit probe).
+- tests/test_b556_period.py (2 locks).
+
+### Fixed
+- CHANGELOG: restored the missing Review-13 entry (insert marker mismatch).
+
+---
+
 ## 2026-07-12 — charge-tower arithmetic (closed form + period-3 Z/11)
 
 ### Added
