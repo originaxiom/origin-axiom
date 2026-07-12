@@ -26,3 +26,18 @@ designs reaching the same verdict. The 2a question is CLOSED from two sides.
 timestamp; (2) object-set closure decision; (3) SM target list; (4) null
 construction + broken-null incidents; (5) p-table + single best pair. Any
 seat's future hit must survive the OTHER seats' nulls.
+
+## Addendum: the third seat's null (chat-1) + the null-calibration flag
+
+Chat-1's preregistered value-matching run: ZERO matches at 1% and 0.1%
+(closest: α_s vs c15 at 1.5%; PMNS sin²θ12 vs c5 at 2.2%). Third independent
+design, same verdict. **Cross-seat packet flag:** chat-1's null expected ~6
+hits at 1% where chat-2's expected 1.58 and B539's 1.9 — the nulls disagree
+by ~4×, so chat-1's "below the null / the SM actively avoids the dictionary"
+over-read is NOT adopted; the verdict stays plain NULL pending null
+reconciliation (this is exactly what the packet standard exists for).
+Chat-1's caveat list (ratio-of-ratios, full cubics, wide-range values) was
+already covered by B539/B541's designs. Chat-1's gap-edge proposal is closed
+by theorem (κ(λ) = 2+λ² ≥ 2 never reaches the forced κ = −2; B532 classifies
+edge data CONDITIONED); the relay went out before their session froze
+mid-computation on it.

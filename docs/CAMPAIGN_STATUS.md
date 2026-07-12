@@ -3,20 +3,21 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**Campaign:** THE THERMODYNAMIC CAMPAIGN — **LAUNCHED 2026-07-06.** The owner's critique ("we're
-deriving reality from frozen matter") made systematic: every prior invariant was T=0/static; this
-campaign computes the object's WARM layer — distributions, spectra, response, quantized integers
-of the object-as-system. Made falsifiable after a three-agent adversarial review of the plan
-itself (v1 had labeled theorem-foreclosed channels "decisive"; inverted in v2): per probe, three
-outcomes — **LAUNDERS** (the launder must be *demonstrated* via an explicit out-of-sample-predicting
-closed-form, never asserted) / **NEW-MATH** (banks as mathematics) / **H1-candidate** (→ B398
-discipline, owner present, before voicing). Decisive core: **D1 (B446) tower moment law + twisted
-SFF → D2 (B447) m-scan harness → D3 (B448) interacting entanglement (power-gated) + D4 (B449)
-trace-map resonances**; then the completion sweep + verdict Z. Registration: `docs/OPEN_LEADS.md`
-§thermodynamic campaign · frame: `speculations/S054` · prereg per probe, committed before compute.
-Expected honest outcome (stated before computing): H0a confirmed with earned demonstrations +
-1–2 NEW-MATH banks; H1 possible only in D3, marginally D1/D2. Autonomous; owner signs off only
-at an H1 escalation.
+**Campaign:** WINDOW 12 — LISTEN, MEASURE, PROVE (launched 2026-07-12, post-Review-11).
+The reframe's ledger is complete (values/structure/relations: forced bin ✓✓✓, dialed bin ∅∅∅);
+the window runs the three lanes it opened, in order:
+1. **THE OBSERVER FLOW (B540, running):** the object's verb applied to its observers — flow
+   graph on the canonical systems; σ fixed, the double-clock 2-cycle found; extend (longer
+   windows, the 12-node closure's own census) and formalize.
+2. **THE DEGREE-4 MEASUREMENT (B543/B546 lane):** exact IDS labels at 4e-7 (done); F-P1b
+   top-30 invariance; F-P1c K-theory; the BBG/Damanik lit-gate (deep-research, in flight);
+   then the experiment write-up for the polariton platform. THE lab-facing deliverable.
+3. **THE GHOST SCANNER (B547, prereg committed):** upgrade the census to theorems; resolve
+   the (4,4,16) discrepancy; the all-hyperbolic-ghost question.
+Standing queue: F1 E8 peak extraction; E7 pre-loaded watch; the S066 fixed-point ledger;
+F-P5 species-lift (needs the B532 rule); chat-1's Probe-5/Probe-2 as relation-campaign cells.
+Discipline: prereg per cell, nulls per the cross-seat packet standard, lit-gates before any
+novelty language.
 
 **Previous campaign:** THE CHILD PROGRAM — **COMPLETE (2026-07-05, C0–C6, B435–B443).** Verdict: no
 emergence bar cleared; nothing figure-eight-unique at any floor; the hypothesis "physics is what
@@ -47,6 +48,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
   boundary), owner report first.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
+
+## LAST BANKED (B540/B546 — the observer flow + the 4e-7 labels)
+- **B540 THE OBSERVER FLOW (2026-07-12).** The object's own question, computed: 12-system
+  closure, THREE fixed points (σ = self-recognition, invariant but isolated) and exactly ONE
+  non-trivial cycle — a 2-CYCLE of the two β²-systems: the ℤ/2 core is the double clock.
+  Census correction recorded (7 → 12; window-length-limited saturation, falsifier fired).
+- **B546 (F-P1a).** Sturm IDS at N = 10⁶: the species chain's gap labels equal the dictionary
+  to 4e-7 (|λ₂| at 3.9e-8), and the extra label is τ⁻¹(τ−1)² — the τ-ladder continues below
+  the dictionary. The measurable module IS the ladder module. Lit-gate in flight.
+- **B541 addendum:** chat-1's third null banked; null-calibration disagreement flagged
+  (verdict stays NULL, not "below null"); gap-edge door closed by theorem in the record.
 
 ## LAST BANKED (B541-B545 — the chat-2 batch: the degree-4 layer becomes buildable)
 - **B543 THE SPECIES-CHAIN EXPERIMENT (2026-07-12, reproduced).** The 4-letter chain's

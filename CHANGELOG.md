@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Window 12 opens (B540/B546/B547-prereg)
+
+### Added
+- frontier/B540_observer_flow/ (prereg, flow.py, FINDINGS): 12-system closure,
+  sigma fixed, the double-clock 2-cycle; tests/test_b540.py (3 locks).
+- frontier/B546_exact_ids/ (F-P1a): labels at 4e-7; tests/test_b546.py.
+- frontier/B547_ghost_scanner/PREREGISTRATION.md (build queued).
+- B541 addendum (chat-1 third null + null-disagreement flag + gap-edge closure).
+- CAMPAIGN_STATUS: the Window-12 plan replaces the stale top block.
+
+---
+
 ## 2026-07-12 — Review 11 anchored (merges #816-#826)
 
 ### Added

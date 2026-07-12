@@ -10,6 +10,30 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — WINDOW 12 opens: B540 observer flow, B546 exact labels, B547 prereg
+
+**B540 THE OBSERVER FLOW (the object's question, answered):** derive each canonical system
+w.r.t. its prefix letter; closure = 12 systems (census 7 + 5 flow-only; all 4-letter).
+Prediction 1 HIT: σ is a fixed point (self-recovery as dynamics). Falsifier 2 FIRED honestly:
+B535's saturation was window-length-limited (7 → 12, same pattern as 5 → 6 types).
+Prediction 3 HIT literally: the flow's ONLY non-trivial cycle is a 2-CYCLE, and both members
+are the β²-systems — the ℤ/2 core IS the double clock. Self-knowledge is invariant but
+isolated; the bulk basin flows to a new β-system. 3 locks.
+
+**B546 (F-P1a):** Sturm-count IDS at N = 10⁶ — the species-chain gap labels equal the
+dictionary values to 4e-7 (f_a+f_b at 3.9e-8); the 12th label = τ⁻¹(τ−1)², the B542 ladder
+extended one rung below the dictionary. B543's 1/N floor removed; the measured module is the
+ladder module. BBG/Damanik lit-gate launched as background deep research. 1 lock.
+
+**B541 addendum:** chat-1's zero-match run = the THIRD independent 2a null; their inflated
+null (expected ~6 vs 1.6-1.9 in the other two designs) flagged per the packet standard —
+"actively avoids" not adopted. Chat-1's gap-edge thread closed by the banked κ = 2+λ² theorem.
+
+**B547:** ghost-scanner prereg committed (build queued; (4,4,16) resolution + all-hyperbolic
+question). Campaign plan for Window 12 written to CAMPAIGN_STATUS (three lanes + queue).
+
+---
+
 ## 2026-07-12 — Review 11 (merges #816-#826): the reframe completed, the seat changed
 
 The decadal review, anchored. Mechanical check: full suite 1863 passed / 1 failed / 12 skipped

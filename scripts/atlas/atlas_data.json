@@ -10997,20 +10997,37 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B540": {
+   "slug": "observer flow",
+   "motifs": [
+    "trace_map",
+    "firewall"
+   ],
+   "refs": [
+    "B530",
+    "B535"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B541": {
    "slug": "2a closure",
    "motifs": [
+    "kappa",
     "metallic"
    ],
    "refs": [
+    "B532",
     "B539",
     "V1",
     "V2"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 1,
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "dynamics"
   },
   "B542": {
    "slug": "tau ladder",
@@ -11068,6 +11085,22 @@
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "dynamics"
+  },
+  "B546": {
+   "slug": "exact ids",
+   "motifs": [
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B542",
+    "B543"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B54": {
    "slug": "general c exchange structure",
