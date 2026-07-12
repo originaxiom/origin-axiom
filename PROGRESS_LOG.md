@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — CORRECTION: the B553 Markoff deflation was wrong (owner caught it)
+
+Two-way correction discipline: my own B553 claim was wrong and is retracted. B553 called the
+P4/Markoff-Unicity connection "a shared Cayley cubic coincidence, not a method bridge." FALSE.
+P4's object — the metallic once-punctured torus character variety with its trace map — IS the
+Markoff cubic (Fricke tr[a,b]=x²+y²+z²−xyz−2 at κ=−2 → the Markov equation; trace map = Vieta
+mutation; Goldman 2003, Bowditch 1998). Deep real connection, not a coincidence. Corrected
+verdict: P4 proves a POINTWISE uniqueness (the metallic cusp-closing point); Markoff Unicity is
+GLOBAL tree rigidity; these are different STATEMENTS on the SAME surface, so extension is OPEN
+and worth a bounded assessment — NOT dismissable (my error) and NOT claimable (no unicity claim
+without the extension demonstrated). Seat-1's conditional framing was the honest one. Portfolio
+target moved LOW→OPEN.
+
+---
+
 ## 2026-07-12 — Seat-1 session-3 harvest (B553): verifications + the Markoff-unicity deflation
 
 Processed Seat-1's session-3 summary verify-don't-trust. Most = corroboration of banked work

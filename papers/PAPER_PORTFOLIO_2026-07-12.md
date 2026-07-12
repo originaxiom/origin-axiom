@@ -67,10 +67,13 @@ the paper-for-paper's-sake failure mode the owner named.
 
 ## Seat-1 session-3 proposed targets (B553 assessment) — mostly deflated
 
-- **Markoff-P4 unicity extension** → LOW. P4's dynamical cusp-closing on the
-  complex character variety is a DIFFERENT problem type from the Diophantine
-  Markoff Unicity Conjecture (integer triples). Shared Cayley cubic ≠ method
-  bridge. NOT a paper target as stated; claiming it would be an overclaim.
+- **Markoff-P4 unicity extension** → OPEN (corrected). P4's object IS the
+  Markoff surface (Goldman/Bowditch: the once-punctured torus character variety
+  = the Markoff cubic; trace map = Vieta mutation) — a real, deep connection,
+  NOT a coincidence (an earlier "LOW/dismiss" read here was wrong). P4 proves a
+  POINTWISE uniqueness; Markoff Unicity is GLOBAL tree rigidity. Whether the
+  cusp-closing technique extends from pointwise to global is a genuine bounded
+  feasibility question worth assessing. Do not CLAIM unicity until demonstrated.
 - **Spectral bridge (char variety = Fibonacci Hamiltonian surface)** → KNOWN
   (KKT 1983 / Casdagli / Roberts; banked κ=2+λ², K007/K010). Cite, not a paper.
 - **Charge-transport lemma (B552 ℤ/11)** → possibly real but elementary

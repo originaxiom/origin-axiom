@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — CORRECTION: B553 Markoff deflation retracted
+
+### Changed
+- frontier/B553_seat1_session3/FINDINGS.md: the "coincidence, not a method
+  bridge" deflation was WRONG — P4's object IS the Markoff surface (Goldman/
+  Bowditch). Corrected to OPEN (pointwise vs global; extension is a real
+  feasibility question). papers/PAPER_PORTFOLIO updated LOW→OPEN.
+
+---
+
 ## 2026-07-12 — B553 Seat-1 session-3 harvest
 
 ### Added
