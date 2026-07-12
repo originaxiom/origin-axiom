@@ -6,22 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
-## 2026-07-12 — B533: Coupling Invariance (Gate 1 of 3)
+## 2026-07-12 — B533: Coupling Invariance (Gates 1-3 complete)
 
 ### Added
-- **frontier/B533_coupling_invariance/**: 3 probes (census, five types, type algebra),
+- **frontier/B533_coupling_invariance/**: 7 probes (census, five types, type algebra,
+  coupling geometry, number field, scale question, SM ratio test),
   PREREGISTRATION.md, FINDINGS.md.
-- **tests/test_b533.py**: 12 locks — eigenvalue universality, 5 stable types,
-  type counts 9/7/2/2/1, self-recovery count, ℤ-mixing law, pair-sum preservation,
-  depth stability.
+- **tests/test_b533.py**: 22 locks — eigenvalue universality, 5 stable types,
+  type counts 9/7/2/2/1, self-recovery, ℤ-mixing, pair-sum, depth stability,
+  β=1/(√φ-1), β·|λ₂|=φ, modulus identity, det=-1, f_a=1/β, ℚ(τ) frequencies,
+  sin θ=1/φ, cos θ=-1/τ, |λ₃|=1/τ, disc=-400, SM-ratio non-membership.
 
-### Key finding
-The object has 5 stable observation types. The eigenvalue spectrum is UNIVERSAL
-(intrinsic); the Perron eigenvector VARIES across 5 algebraically related
-fingerprints. Types 1-4 are ℤ-linear mixings of global letter frequencies;
-Type 5 involves irrational coefficients. The coupling is NOT a gauge choice.
-Gate 1 verdict: the object forces 5 discrete observation windows, each with
-its own dimensionless fingerprint.
+### Key findings
+**Gate 1**: 5 stable observation types; eigenvalues UNIVERSAL, Perron vec VARIES.
+**Gate 2**: β=1/(√φ-1) PROVED; all ratios live in ℚ(√φ)=ℚ[x]/(x⁴-x²-1),
+degree 4 = alphabet size. sin θ=1/φ (maximally algebraic). Scale external.
+**Gate 3**: No SM ratio is an element of ℚ(√φ) with small coefficients.
+The numerology door is CLOSED with computed evidence and false-positive control.
 
 ---
 
