@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — S066: the arithmetic of criticality (the B539 negative, read; owner-approved)
+
+Firewalled interpretive note banked in the speculation room. The three-layer reading of the
+NO-MATCH: (1) [MATH] the SM's 19 parameters are statistically indistinguishable from random
+under low-height two-variable algebra (observed 1%-hits BELOW the null mean) — which the
+reframe PREDICTED for observation-side values; (2) [MATH] not the wrong thing — the positive
+control proves the instrument bites; (3) [LEAP] the wrong SPOT, derivably: the object's single
+ABSENT ingredient is scale (B532/B533), the SM's parameters are mid-RG-flow data (flow
+transcendentalizes low-height algebra away for ANY object), and every confirmed contact (E8,
+gap labels) is at a fixed point. A scale-free object can only speak at scale-free spots: the
+dialed bin's 3-for-3 silence is the ABSENT-scale ingredient made empirical. Economical reading:
+the object is the arithmetic of criticality. Forward arm: fixed-point data (E7 pre-loaded),
+with TWO kill conditions recorded (silence at a reachable critical spot kills the reading;
+mid-flow misses must never become excuse #2). Speculation → calculation table included.
+
+---
+
 ## 2026-07-12 — B539: THE RELATIONS CAMPAIGN — the final door closes, symmetrically
 
 The reframe's last untested surface: does any pair of SM dimensionless parameters satisfy the
