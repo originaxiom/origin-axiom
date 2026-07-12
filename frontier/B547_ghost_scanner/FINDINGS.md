@@ -51,3 +51,10 @@ language until that lit-gate runs. Value even if owned: the (4,4,16) resolution
 closes the recorded discrepancy and answers the sharpened open question.
 
 Locks: tests/test_b547.py.
+
+## Cross-credit (chat-2 self-note): (4,4,16) was the parked "imprimitive" candidate
+
+chat-2's Appendix-B self-note: (4,4,16) is the exact candidate it had parked
+with the label "imprimitive" (deprioritized on a gcd that was irrelevant to the
+all-hyperbolic question). B547 resolved it as the first all-hyperbolic ghost.
+The parked open problem is now closed.

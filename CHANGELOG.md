@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B556 proof upgrade (doubling proved + charge tower)
+
+### Added
+- tests/test_b556_proof.py (3 locks: norm-sign, det telescope + eₙ<0, cyclic charge tower).
+
+### Changed
+- B556 FINDINGS: field-doubling PROVED (norm-sign + det telescope, rungs 1-5);
+  the charge tower |eₙ|=1,11,809,18845089,...; cover spec logged for E4.
+- B552 FINDINGS: ℤ/11 = base of the escalator charge tower.
+- B547 FINDINGS: (4,4,16) cross-credit (chat-2's parked candidate).
+
+---
+
 ## 2026-07-12 — Weil gate: PC22 Prasad-adjacent (all 3 gates settled)
 
 ### Changed

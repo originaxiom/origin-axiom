@@ -70,3 +70,40 @@ species chain — an 8-letter substitution carrier realizing T(M₄).
 3. Verify (or refute) the covers-non-escalating closure claim (needs the lift).
 
 Locks: tests/test_b556.py.
+
+## PROOF UPGRADE (chat-2 audit, verified 2026-07-12): the doubling is a THEOREM
+
+B556 banked the field-doubling from numerics. It is now PROVED exactly (three
+verified misses from the chat-2 audit):
+
+**Miss A — the norm-sign argument (rung 2, one line):** β (the rung-1 Perron)
+has N(β) = product of the quartic's roots = **−1 < 0** (the constant term of
+x⁴−2x³−5x²−4x−1). A square y² ∈ ℚ(τ) has N(y²) = N(y)² ≥ 0. Contradiction ⟹
+√β ∉ ℚ(τ) ⟹ the field DOUBLES at rung 2. (At rung 2 the SIGN does the work;
+higher rungs also fail by magnitude.)
+
+**Miss B — the determinant telescope (all rungs):** for the commuting-block
+escalator, det T(M) = det(M²−M³) = det(M)²·det(I−M), so
+  **dₙ₊₁ = dₙ²·eₙ,  eₙ := det(I−Mₙ)** — verified exactly through rung 4:
+  dₙ = −1, −1, −11, −97889, −1.8×10¹⁷;  eₙ = −1, −11, −809, −18845089, −2.3×10²⁰.
+**Every eₙ is NEGATIVE (verified rungs 0–4)**, so the norm-sign proof of Miss A
+fires at EVERY rung: field-doubling is PROVED at rungs 1→2→3→4→5. The all-n
+tower now rests on exactly TWO clean, per-rung-checkable conjectures:
+irreducibility (CC-verified 0–4) and negativity of eₙ (verified 0–4). The
+"hypothesis" acquired an exact per-rung engine.
+
+**Miss C — the charge tower (the ℤ/11 governs the tower):** e₁ = det(I−M₄) =
+**−11 = the B552 base charge** (coker(I−M₄) = ℤ/11). By the telescope, every
+rung's determinant is built from the eₖ below. The **charge tower**
+|eₙ| = **1, 11, 809, 18845089, 228654672055316545291** (809 and 18845089 prime;
+e₄ = 11²·1459·597049·2169349081), and **coker(I−Mₙ) = ℤ/|eₙ| is CYCLIC at every
+verified rung** (SNF: a single non-trivial invariant factor). B552's isolated
+ℤ/11 is the foundation stone of this second sequence.
+
+## Cover-closure spec logged (for B557 E4)
+chat-2 supplied the cover construction for the closure leg I flagged unverified:
+M-invariant mod-2 plane basis χ₁=(0,1,1,0), χ₂=(1,0,1,1) on (a,b,A,B); cosets =
+F₂²; BFS Schreier transversal; 13 generators (16 (coset,letter) pairs − 3 tree
+edges); abelianized lift column (c,g) = R(c) + scan(φ(g), start c) − R(c+χ(g)),
+R(c)=scan of φ(rep_c) from 0. Expected: charpoly degrees (2)(4)(7), Perron = β
+unchanged (non-escalating). Verification deferred to B557 E4 (closure cell).

@@ -11122,8 +11122,8 @@
     "B537",
     "B545"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "measure",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -11221,12 +11221,14 @@
    "slug": "z11 charge",
    "motifs": [
     "trace_map",
+    "metallic",
     "torsion",
     "firewall"
    ],
    "refs": [
     "B540",
-    "B553"
+    "B553",
+    "B556"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 1,
@@ -11300,7 +11302,9 @@
     "B540",
     "B543",
     "B546",
-    "B555"
+    "B552",
+    "B555",
+    "B557"
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
