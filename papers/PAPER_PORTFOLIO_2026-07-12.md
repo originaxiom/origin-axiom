@@ -93,7 +93,7 @@ the paper-for-paper's-sake failure mode the owner named.
 
 | candidate | gate verdict | status |
 |---|---|---|
-| species-chain degree-4 gap labels (B543/B546/B555) | NOVEL (no quartic-Pisot instance) | **novelty-cleared, submittable** |
+| species-chain degree-4 gap labels (**PC23**, B543/B546/B555) | NOVEL (no quartic-Pisot instance) | **novelty-cleared, submittable** |
 | PC22 dark hyperbola (B534) | APPEARS-NOVEL, Prasad-adjacent (cite Cor 8.7) | explicit-realization letter, NEEDS-SPECIALIST |
 | reconstruction note (B535/B540) | Result 2 KNOWN (Durand), Result 1 rigidity-adjacent | downgraded to narrow rigidity-refinement |
 
