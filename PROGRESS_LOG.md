@@ -10,6 +10,24 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Review 13 (merges #838-#853): the handoff harvest, three paper gates, the escalator tower
+
+Decadal review, anchored. Mechanical check: full suite 1921 passed / 0 failed / 12 skipped (34
+min) — clean; the 4 PRs after the snapshot (#850-853) each gate-green on push. Window: the
+cross-seat handoff harvest (bravery cycle, three Seat-1 handoffs, the meditation), three
+literature gates on the cost-tiered search (species-chain NOVEL, PC22 Prasad-adjacent,
+reconstruction downgraded), the escalator tower B556 (doubling PROVED rungs 1-5, the charge tower
++ its arithmetic), B557 campaign, B547 first all-hyperbolic ghost, B555 THE PREDICTION, B558
+three-level negative. Corrections with receipts: the Markoff over-deflation (owner caught, #840),
+the 1/φ³ mislabel, Station-4 species=bit-pair REFUTED, the reconstruction downgrade, Seat-1's
+SL(5) self-correction. Net: numerical-matching program complete and NEGATIVE at all three levels;
+the mathematical program honestly triaged (PC23 novelty-cleared, PC22 explicit-realization, P4
+ready); the escalator turned a hypothesis into per-rung-provable structure with a periodic prime
+arithmetic. Cross-seat correction ran both ways; no claim survived on authority. Full entry:
+docs/progress/REVIEWS.md.
+
+---
+
 ## 2026-07-12 — RAN the charge-tower arithmetic: closed form + resultant recursion + period-3 ℤ/11
 
 Investigated the escalator charge tower eₙ = det(I−Mₙ) to its structure (all verified exact):

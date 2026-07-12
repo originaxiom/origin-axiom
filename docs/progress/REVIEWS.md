@@ -442,3 +442,45 @@ anchor-commit: `03e9c5645652f8512a8b47dd41fa15348c9f6b02`
 anchor-commit: `0377952e7c7d2313232fdcd3592c303317a71309`
 
 *(anchor = HEAD after #836; window #827–#836.)*
+
+
+# Review 13 — 2026-07-12 (merges #838–#851: the handoff harvest + the three paper gates + the escalator tower)
+
+1. **Scope:** the session's second half — a dense sequence of cross-seat handoffs processed
+   verify-don't-trust, three literature gates run on the new cost-tiered search, and the
+   escalator tower. Cells: B551 (inflation-order boundary theorem, scopes B544), B552 (ℤ/11
+   charge), B553 (Seat-1 harvest + the Markoff deflation-then-correction), B554 (meditation
+   verified — Station-4 species=bit-pair REFUTED), B555 (THE PREDICTION assembled), B547 (the
+   first all-hyperbolic ghost, (4,4,16)), B556 (the escalator tower T(M)=[[M,M],[M²,M]] +
+   proof upgrade: doubling PROVED rungs 1-5, the charge tower), B557 (escalator campaign
+   prereg + E2 rule-uniqueness), B558 (three-level negative verified). Three paper gates:
+   tiling K-theory (species-chain NOVEL), Weil-trace (PC22 Prasad-adjacent), Durand
+   (reconstruction note downgraded). PC23 registered.
+
+2. **Mechanical check:** full suite: 1921 passed / 0 failed / 12 skipped (34 min) — clean; the 4 PRs merged after this snapshot (#850–#853: PC23, the B556 proof upgrade, the charge cubic + charge arithmetic, +9 locks) each passed their own gate checks on push. All failures triaged: none — zero failures; only the review-due warning (which this entry resets).
+
+3. **Corrections this window, all with receipts:** the Markoff deflation (my error — called a
+   deep Goldman/Bowditch identity a "coincidence"; owner caught it; corrected #840); B558's
+   1/φ² → 1/φ³ mislabel (caught in a handoff); B554 Station-4 (species=forward-bit-pair
+   REFUTED, it is radius-1 both-sided); B544 scoped to ℚ(φ) (B551); the reconstruction note
+   downgraded (Durand gate); B553's SL(5) n²-1 vs n-1 (Seat-1's self-correction was itself wrong).
+
+4. **Theorem-shaped output:** the inflation-order boundary theorem; the (4,4,16) all-hyperbolic
+   ghost (inert-prime obstruction, a second ghost mechanism); the escalator field-doubling
+   PROVED (norm-sign + det telescope, rungs 1-5) + the cyclic charge tower; the E2 rule-
+   uniqueness result. Verified-and-banked handoff math: the τ-ladder hardening, h=1 Dedekind,
+   the ℤ/11 charge.
+
+5. **Net:** the numerical-matching program is complete and NEGATIVE at all three levels
+   (0/1/2), and the mathematical program is honestly triaged — the three paper gates
+   separated one genuinely-novel paper (PC23 species chain), one explicit-realization paper
+   (PC22, cite Prasad), and one mostly-known result (reconstruction, cite Durand). The
+   escalator tower turned a beautiful hypothesis into a per-rung-provable structure. The
+   cost-tiered search infrastructure ran three gates at 100% agents / 0 errors — reliable and
+   cheap. Cross-seat correction ran both ways: I corrected seats (Seat-1 SL(5), the promotion
+   sign) and seats corrected me (the Markoff deflation, the three B556 misses); no claim
+   survived on authority.
+
+anchor-commit: `70409cb164ade39848176e3e96a2bce10b3cd0ff`
+
+*(window #838–#853; anchor = HEAD after the charge-tower arithmetic.)*
