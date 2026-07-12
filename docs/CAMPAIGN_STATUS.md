@@ -48,6 +48,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B532 I3 — self-description)
+- **I3 (2026-07-12) — σ(a) is SELF-CONTAINING.** Return induction of "abAAB" has canonical
+  codes = σ itself; persists at depth 2. σ(b), σ(A), σ(B) do not self-contain. Two linear
+  orbits on F₂⁴: {a,b} and {A,B} disjoint 6-cycles, offset 4. Every return word contains
+  other image words (nesting). Cross-seat handoff: GL(4,Z) conjugacy CONFIRMED; core hierarchy
+  NOT REPRODUCED. 8 locks (21 total).
+
 ## LAST BANKED (B532 I2 — projection algebra)
 - **I2 (2026-07-12) — σ is irreducibly 4-letter.** None of 7 binary partitions are substitutive;
   no projection commutes with σ. Two projections read golden values: {aA}|{bB} → φ (exact),

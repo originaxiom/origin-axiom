@@ -363,3 +363,119 @@ def test_i2_pisot_count():
             non_pisot.append((''.join(_ALPHA[i] for i in c0), evals[0]))
     assert pisot_count == 5, f"expected 5 Pisot, got {pisot_count}"
     assert len(non_pisot) == 2
+
+
+# ─── I3: Self-Description ───
+
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__),
+                                '..', 'frontier', 'B530_natural_history'))
+from listen_39_induction_engine import (
+    grow as _engine_grow, factor_position_map, standard_return_words_from_positions,
+    canonical_induced_system, canonical_codes as _canonical_codes,
+)
+
+_SIGMA_CODES = ((0, 1, 2, 2, 3), (0, 2, 3), (0, 1, 2, 3), (0, 2))
+_SIGMA_CANONICAL = _canonical_codes(_SIGMA_CODES)
+
+
+def _image_induction(factor, depth=10):
+    host = _engine_grow(depth)
+    fpm = factor_position_map(host, len(factor))
+    if factor not in fpm:
+        return None
+    positions = fpm[factor]
+    rw = standard_return_words_from_positions(host, positions)
+    return canonical_induced_system(rw, max_power=2)
+
+
+def test_i3_sigma_a_is_self_containing():
+    """The return induction of σ(a) = abAAB has canonical codes = σ itself."""
+    ind = _image_induction('abAAB')
+    assert ind is not None
+    assert ind['canonical_codes'] == _SIGMA_CANONICAL
+
+
+def test_i3_sigma2_a_is_self_containing():
+    """Self-containment persists at depth 2: σ²(a) also induces σ."""
+    ind = _image_induction('abAABaABabABabABaA', depth=11)
+    assert ind is not None
+    assert ind['canonical_codes'] == _SIGMA_CANONICAL
+
+
+def test_i3_other_images_not_self_containing():
+    """σ(b), σ(A), σ(B) do NOT have canonical codes = σ."""
+    for factor in ['aAB', 'abAB', 'aA']:
+        ind = _image_induction(factor)
+        assert ind is not None
+        assert ind['canonical_codes'] != _SIGMA_CANONICAL, \
+            f"factor {factor} unexpectedly self-contains"
+
+
+def test_i3_all_image_words_same_charpoly_core():
+    """All four image words share the same charpoly core x⁴-2x³-5x²-4x-1."""
+    target = sp.Poly(sp.Symbol('x')**4 - 2*sp.Symbol('x')**3
+                     - 5*sp.Symbol('x')**2 - 4*sp.Symbol('x') - 1,
+                     sp.Symbol('x'))
+    for factor in ['abAAB', 'aAB', 'abAB', 'aA']:
+        ind = _image_induction(factor)
+        assert ind is not None
+        poly = sp.Poly(ind['charpoly'], sp.Symbol('x'))
+        _, rem = sp.div(poly, target, sp.Symbol('x'))
+        assert rem == 0, f"{factor}: charpoly {ind['charpoly']} not divisible by core"
+
+
+def test_i3_return_counts():
+    """σ(a), σ(b), σ(A) have 4 return words; σ(B) has 5."""
+    for factor, expected in [('abAAB', 4), ('aAB', 4), ('abAB', 4), ('aA', 5)]:
+        host = _engine_grow(10)
+        fpm = factor_position_map(host, len(factor))
+        rw = standard_return_words_from_positions(host, fpm[factor])
+        assert len(rw) == expected, f"{factor}: got {len(rw)} return words, expected {expected}"
+
+
+def test_i3_two_linear_orbits():
+    """Under M mod 2, {a,b} and {A,B} form two separate 6-cycles.
+    Within each pair, the phase offset is 4."""
+    M2 = np.array([[1,1,1,1],[1,0,1,0],[0,1,1,1],[1,1,1,0]])
+
+    def orbit(start):
+        states = [start.copy()]
+        p = (M2 @ start) % 2
+        while not np.array_equal(p, start):
+            states.append(p.copy())
+            p = (M2 @ p) % 2
+        return states
+
+    orb_a = orbit(np.array([1,0,0,0]))
+    orb_A = orbit(np.array([0,0,1,0]))
+
+    assert len(orb_a) == 6
+    assert len(orb_A) == 6
+
+    orb_a_set = {tuple(s) for s in orb_a}
+    orb_A_set = {tuple(s) for s in orb_A}
+    assert orb_a_set != orb_A_set, "should be different orbits"
+    assert len(orb_a_set & orb_A_set) == 0, "orbits should be disjoint"
+
+    assert np.array_equal(orb_a[4], np.array([0,1,0,0])), "e_b = M^4 · e_a"
+    assert np.array_equal(orb_A[4], np.array([0,0,0,1])), "e_B = M^4 · e_A"
+
+
+def test_i3_return_words_contain_image_words():
+    """Every return word of σ(a) contains at least one image word."""
+    host = _engine_grow(10)
+    fpm = factor_position_map(host, 5)
+    rw = standard_return_words_from_positions(host, fpm['abAAB'])
+    images = ['abAAB', 'aAB', 'abAB', 'aA']
+    for r in rw:
+        contained = [w for w in images if w in r]
+        assert len(contained) >= 1, f"return word {r} contains no image word"
+
+
+def test_i3_all_image_words_q1():
+    """All four image words have induction power q = 1."""
+    for factor in ['abAAB', 'aAB', 'abAB', 'aA']:
+        ind = _image_induction(factor)
+        assert ind is not None
+        assert ind['power'] == 1, f"{factor}: q = {ind['power']}, expected 1"
