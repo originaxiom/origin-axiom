@@ -6,6 +6,27 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B534: Dark Hyperbola proved + crystallization landed (seat-1 handoff)
+
+### Added
+- **frontier/B534_dark_hyperbola/**: exact_verify.py (group-ring exact arithmetic,
+  zero floats), pin_conventions.py, scan_theta.py, FINDINGS.md with complete proofs
+  of the Dark Hyperbola (all odd p), Power-Set Magnitudes (square-free N, CRT),
+  Asymptotic Darkness (Mertens), and the tower torsion law (all n).
+- **tests/test_b534.py**: 16 locks (dark set exact p≤13, survivor √p, active
+  magnitude 1, power-set exact N=15, crossing p=31, det law, Lucas identities,
+  Smith form ℤ/3⊕ℤ/15).
+- **docs/CRYSTALLIZATION_2026-07-09.md**: seat-1's synthesis landed with
+  verification preamble + framing governance (predates the 07-10 adjudication)
+  + the cover sheet as appendix.
+
+### Notes
+- Convention caveat: the hyperbola lives on the THETA lift (B358), not B476's pair.
+- Cover-sheet Priority-2 answered by the proof (−4 Weil-intrinsic; j=2 = linear
+  character zero); Priority-3 tasks 6-7 proved/exact (no SnapPy).
+
+---
+
 ## 2026-07-12 — Origin Postulate adjudication: trunk import + two nits (chat2 handoff)
 
 ### Added

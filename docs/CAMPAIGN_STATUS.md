@@ -48,6 +48,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B534 — Dark Hyperbola proved; crystallization landed)
+- **B534 THE DARK HYPERBOLA (2026-07-12).** Seat-1's crystallization handoff processed
+  verify-don't-trust; all three new number-theory theorems upgraded float → PROVED:
+  dark set = {jl ≡ −4 mod p} \ {(2,p−2)} for ALL odd primes (Gauss-sum proof + exact
+  integer-count verification at 12 primes, zero floats); power-set magnitudes at
+  square-free N (CRT proof, exact at 15); asymptotic darkness (Mertens, crossing 31);
+  tower torsion law all n + H₁(b++(RL)⁴) = ℤ/3⊕ℤ/15 exact. The −4 is Weil-intrinsic
+  (−2², Par cross term); j=2 is the linear character's zero. 16 locks.
+  Crystallization at docs/CRYSTALLIZATION_2026-07-09.md (verification preamble;
+  §V/§VI read through the 07-10 adjudication).
+
 ## LAST BANKED (B533 — Coupling Invariance, Gates 1–3 + Fable-5 audit)
 - **B533 COUPLING INVARIANCE — COMPLETE (2026-07-12, PRs #816–#818).** The three-gate program
   toward the SM question, then a full fresh-seat audit:
