@@ -6,6 +6,47 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Decadal review + Codex audit response
+
+### Changed
+- **README.md synced from B440 → B532**: status, test counts (1800 functions / 478 files),
+  B-directory count (517), PR count (814). The Phase B table cell collapsed from ~10K words
+  to a summary with arc labels.
+- **CLAIMS.md range updated**: B1–B440 → B1–B532 (no new promotions; frontier work stays
+  in frontier/).
+- **CAMPAIGN_STATUS.md**: Nine Ingredients verdict table added.
+
+### Added
+- **docs/CODEX_AUDIT_RESPONSE_2026-07-12.md**: response to the Codex documentation audit.
+  Of 7 findings: 4 ACCEPTED (entropy terminology, gap-labeling direction, 144 substitutions
+  share M, "3D quasicrystal" misleading), 2 NOTED (B531 boundary artifact, preregistration
+  mismatch), 1 ALREADY ADDRESSED (internal Fourier). No finding invalidates a banked
+  mathematical result. Key terminological corrections: log(β) is the inflation exponent,
+  not topological entropy of the subshift; gap labeling constrains labels of open gaps, does
+  not prove gap opening.
+
+## 2026-07-12 — B532-I6: Nine Ingredients, One Object
+
+### Added
+- **The verdict table**: 9 probes testing what σ forces from its own structure.
+  - FORCED (5): time, randomness, continuity, thermodynamics, matter
+  - CONDITIONED (3): forces, locality, gravity
+  - ABSENT (1): absolute scale
+- **Key discriminating facts**: P(b|a) = 1/φ (not max-entropy); |Aut(σ)| = 1;
+  species = exact product (old/new)×(str/tun); σ̄ not conjugate to σ;
+  bounded fluctuations (H≈0, PDS confirmed dynamically).
+- Scripts: i6_nine_ingredients.py, i6_phase2_probes.py, i6_phase3_synthesis.py.
+- PR #814.
+
+## 2026-07-12 — B532-I5: Bigram core hierarchy + character census
+
+### Added
+- **Bigram core hierarchy**: cross-seat claim of 4 distinct core polynomials CANNOT BE
+  REPRODUCED. Corrected return-word induction gives the quartic universally for all 7 bigrams.
+- **Character census**: 6 abelian σ*-fixed points forming ℤ/11ℤ. No irreducible fixed points
+  in F₄ (overdetermined: 12 equations in 9 variables after gauge). Golden FP not found.
+- Verified σ is NOT an F₂ endomorphism (A, B are independent generators).
+
 ## 2026-07-12 — B532 IZ: The Interaction Grammar (campaign deliverable)
 
 - **GRAMMAR.md written**: the campaign's deliverable — the self-contained interaction
