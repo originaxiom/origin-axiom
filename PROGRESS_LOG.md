@@ -10,6 +10,20 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B543/B546 lit-gate, pass 1: the module theorem is classical; our lane is the instantiation
+
+Deep-research gate, 12 claims adversarially verified (3-0/2-1): the gap-label module-assignment
+is BBG 1992 (Rev. Math. Phys. 4, 1-37) + the 2002 full-generality gap-labeling theorem
+(math/0205102 Thm 4.3) + the tight-binding frequency-module identification (2107.00737) —
+any k-letter module statement is a corollary, never ours to claim. STRENGTHENING FIND: even
+quadratic "all labels realized" was only closed in 2024 (Dry Ten Martini, Band-Beckus-Loewy
+2402.16703) — the degree-4 gap-opening question is genuinely open, raising F-P1c and the
+experiment's value. Passes (b)-(e) (prior degree-4 examples, Damanik state of the art,
+experiments beyond quadratic, the novelty verdict) queued for the next pass; located-but-
+unvoted claims held as PLAUSIBLE. frontier/B543_species_gap_labels/LIT_GATE.md.
+
+---
+
 ## 2026-07-12 — WINDOW 12 opens: B540 observer flow, B546 exact labels, B547 prereg
 
 **B540 THE OBSERVER FLOW (the object's question, answered):** derive each canonical system
