@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — the period question, computed (partial): mechanism PROVEN, 11 confirmed, full law open
+
+"What determines each prime's period in the charge tower?" — computed to the boundary of rigor.
+PROVEN mechanism: p | eₙ ⟺ 1 ∈ spec(Mₙ) mod p ⟺ the golden pair's doubling orbit reaches 1 at
+rung n (⟺ charpoly_n shares a root with the fixed cubic g = x³−x²+2x−1 mod p). The period is a
+finite-field doubling-orbit period. CONFIRMED: 11 has period 3. The g-mod-p structure says which
+primes CAN appear (linear root for 5,7,11,17,19,23,809; inert for 3,13,29), but a g-root is
+necessary-not-sufficient (5,7 have roots yet never divide eₙ — the orbit must reach the root).
+HONEST BOUNDARY: the periods of the larger charge primes are NOT determined by the matrix method
+(Mₙ grows 2ⁿ⁺¹, stalls near n=7); the correct tool is the doubling-orbit iteration in F_{p^k}
+(a distinct probe, not run). NO clean "period = ord mod p" law claimed. Also fixed a missing
+Review-13 CHANGELOG entry. 2 locks.
+
+---
+
 ## 2026-07-12 — Review 13 (merges #838-#853): the handoff harvest, three paper gates, the escalator tower
 
 Decadal review, anchored. Mechanical check: full suite 1921 passed / 0 failed / 12 skipped (34
