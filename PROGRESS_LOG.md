@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B555: THE PREDICTION assembled (the object's one falsifiable forward statement)
+
+Everything in the reframe was preparation for this. The object makes exactly ONE concrete
+buildable falsifiable forward prediction: a four-coupling species-chain Hamiltonian has IDS gap
+labels at the degree-4 ℚ(√φ) dictionary values (f_a=τ−1, f_A=τ·f_a, f_a+f_b=τ²·f_a, exact),
+sitting 2–3.6×10⁻² OFF the golden lattice ℤ+ℤ/φ — the degree-4 signature that a generic golden
+chain cannot show. The one-measurement law made physical: measure any one label, all others
+forced. Controls (silver, generic-slope) discriminate; 4 preregistered falsifiers; N≳1500
+resolves it (24001 gives 22–59× margins). WHAT WE STILL NEED: (1) the tiling-literature gate
+(one search) before a "first" claim; (2) an experimental partner (external). Nothing else is
+computationally blocking. WHAT WE CANNOT predict (stated so it isn't over-read): SM values
+(null), scale (absent), anything mid-flow (S066). 3 locks.
+
+---
+
 ## 2026-07-12 — B554: the seven-station meditation verified eyes-open (1 refutation, 2 overstatements)
 
 The meditation asked for verification; Station 4 explicitly asked to check its new claim against
