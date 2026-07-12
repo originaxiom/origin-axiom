@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B557: Escalator Campaign (prereg + E2)
+
+### Added
+- frontier/B557_escalator_campaign/ (PREREGISTRATION + E2_FINDINGS): 6-cell
+  campaign; E2 rule-uniqueness resolved — (M,M²) forced at rung 1, chosen (self-
+  similar) above; "canonical but chosen" boundary confirmed.
+- tests/test_b557_e2.py (2 locks).
+
+---
+
 ## 2026-07-12 — B556: the escalator tower (hypothesis + verified core)
 
 ### Added

@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B557: the Escalator Campaign launched (prereg + E2 rule-uniqueness crux)
+
+Owner asked whether to craft a full computing campaign for the escalator hypothesis (B556);
+answer YES, with two disciplines: the lit-gate (E0) gates all novelty; the physics-ladder cell
+(E5) stays firewalled. 6-cell campaign prereg'd (E0 lit-gate, E2 rule-uniqueness, E1 rung-2
+carrier, E3 arithmetic tower, E4 closure completion, E5 firewalled physics ladder, EZ synthesis).
+
+**E2 (the honesty crux) DONE:** is (C,D)=(M,M²) forced or chosen? By B517 the coupling blocks
+are polynomials in M; field-doubling requires p+q odd. RESULT: (F,F²) uniquely reproduces M₄ at
+rung 1 (B517 uniqueness, up to C↔D swap) — FORCED at rung 1. But (I,M) [p+q=1] also gives an
+irreducible field-doubling Pisot tower with a different λ-law — so (M,M²) is NOT the only doubler;
+at rung ≥2 it is a CHOICE, singled out only as the unique SELF-SIMILAR iteration (the a→a·a²
+gesture every rung). B556's "canonical but chosen" boundary HOLDS; the falsifier did not fire.
+Next: E0 lit-gate (queued behind the running Weil/Durand searches), E1/E3/E4 computable. 2 locks.
+
+---
+
 ## 2026-07-12 — B556: the ESCALATOR TOWER T(M)=[[M,M],[M²,M]] (hypothesis + verified core)
 
 chat-2's escalator handoff, processed verify-don't-trust and banked as a labeled HYPOTHESIS
