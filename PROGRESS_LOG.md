@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Review 11 (merges #816-#826): the reframe completed, the seat changed
+
+The decadal review, anchored. Mechanical check: full suite 1863 passed / 1 failed / 12 skipped
+(33 min) — the single failure a mid-suite atlas race with the in-flight B541-B545 batch,
+self-resolved; ZERO mathematical lock failures. Corrections ledger: 9 items, all with receipts
+(S2 reversed, complex pair, half-integer mixing, 5→6 types, FP-control recalibration, (1,1,5)
+level, period-6 non-reproduction, the Q(phi) field collapse, the anchor discipline itself).
+Theorem-shaped output: the Q(sqrt-phi) suite, the GL(4,Z) single class, the one-measurement
+theorem, the dark hyperbola + power-set + darkness + tower laws, the (1,1,5) phantom, census
+saturation 6/7, the B539 relations verdict. Net: values/structure/relations each tested in
+both bins inside one window; every fired prereg falsifier recorded; cross-seat correction ran
+in both directions — no claim survived on authority. Full entry: docs/progress/REVIEWS.md.
+
+---
+
 ## 2026-07-12 — Chat-2 batch processed: 2a closure, τ-ladders, THE SPECIES-CHAIN EXPERIMENT, ghosts (B541-B545)
 
 **B541 (2a closure):** chat-2's independent SM run — set-matching WORSE than chance (p = 0.785),

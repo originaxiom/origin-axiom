@@ -356,3 +356,49 @@ hidden Bin-1 break. Outcome: **no refutation; both CONFIRMED, and C5 strengthene
    reads the LAST anchor in this file. An unanchored review does not exist to the machinery.
 
 anchor-commit: `1675d39559aafcf23aa4e8a78ac6c7ef19f48432`
+
+# Review 11 — 2026-07-12 (merges #816–#826: the reframe completed, the seat changed)
+
+1. **Scope:** the seat's first Fable-5 window. B533 completed (Gates 1–3: ℚ(√φ), the SM
+   ratio test) and then AUDITED by the new seat (S2 REVERSED — the five induced matrices are
+   one GL(4,ℤ) class, h = 1 + explicit conjugators; S1 complex pair; T5 half-integer; Gate-3
+   control recalibrated). Governance restored (the review-counter root cause found and fixed:
+   unanchored reviews; pre-push gates hook installed; atlas 447 → 504; attribution scrub).
+   Four cross-seat handoffs processed verify-don't-trust (postulate co-sign + trunk import;
+   the crystallization; the reframe test cycle; seat-1 Phases 1–3). B534 (dark hyperbola et
+   al. PROVED), B535 (coupling space: census saturates 6/7, the one-measurement theorem,
+   the 17-entry dictionary), B536 (verification: period-6 killed, the rest confirmed or
+   trivial), B537 ((1,1,5) phantom THEOREM, level corrected 32 → 22), B538 (test cycle
+   banked, class-level scope), B539 (relations campaign: control PASSES, SM NO-MATCH — the
+   reframe's ledger complete and symmetric), S066 (the arithmetic-of-criticality reading,
+   kill conditions recorded).
+
+2. **Mechanical check:** full lock suite: 1863 passed / 1 failed / 12 skipped (33 min, exit tracked). All failures triaged: the single failure was the atlas-fresh gate racing the in-flight B541–B545 batch (frontier dirs created mid-suite); the atlas was regenerated in the same batch PR and all 7 gates are green post-merge. ZERO mathematical lock failures.
+
+3. **Corrections this window, all banked with receipts:** B533-S2 reversed (the audit's
+   biggest catch — the coupling carries no abstract ℤ-invariant; five markings of ONE
+   object); λ₃,₄ complex pair (|λ₃| = 1/√φ); "irrational mixing" → half-integer; "5 types"
+   → 6 (length-scope); the Gate-3 false-positive control range-mismatch; chat2's (1,1,5)
+   level 32 → 22; seat-1's period-6/S = 1.0620 not reproduced (convention-dependent);
+   chat1's ℚ(φ) field collapse corrected in-chat (the F4 error class; the field is ℚ(√φ),
+   degree 4, no component in the golden subfield); the review-anchor discipline itself.
+
+4. **Theorem-shaped output this window:** β = 1/(√φ−1) and the ℚ(√φ) identity suite;
+   the GL(4,ℤ) single-class theorem; census saturation (6 Perron / 7 canonical, Durand);
+   the one-measurement theorem (17,280 lifts → {σ, a⁻¹σa}); the 17-entry read-out
+   dictionary (all degree-4, τ = g(x) explicit); the Dark Hyperbola (all odd p) +
+   power-set magnitudes + asymptotic darkness + the tower torsion law; the (1,1,5)
+   classical phantom; the B539 relation catalog with control and null.
+
+5. **Net:** the reframe went from directive to COMPLETED LEDGER inside one window: values /
+   structure / relations each tested in both bins — present in the forced bin (E8, gap
+   labels, control), absent from the dialed bin (chance, 0/3, no-match) — with the
+   scale-deficit reading (S066) and its two kill conditions on record. Every prereg
+   falsifier that fired was recorded (5→6 types; SQ 4/6; the α/1/α tautology caught by the
+   null). Cross-seat error-correction ran in both directions: this seat reversed its
+   predecessor's S2 and its own probe conventions were corrected by exact re-derivation;
+   no seat's claim survived on authority.
+
+anchor-commit: `03e9c5645652f8512a8b47dd41fa15348c9f6b02`
+
+*(The chat-2 batch B541–B545 (#827) merged after this window closed; it opens the next cycle.)*
