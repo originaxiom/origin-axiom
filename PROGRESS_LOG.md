@@ -10,6 +10,20 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Review 12 (merges #827-#836): Window 12 + the handoff harvest
+
+Decadal review, anchored (HEAD after #836). Mechanical check: full suite 1888 passed / 0 failed
+/ 12 skipped (33 min) — a clean run, zero failures. Window 12 (observer flow, exact IDS, the
+species-chain experiment, ghosts) + the chat-1/chat-2 handoff harvest + four owner-pointer
+hint-ledger entries. Corrections with receipts: census 7→12, un-hideability=Pisot refuted, the
+(−1)ⁿ promotion sign refuted at n=3 (uniform meridian rule), (4,4,16) flagged, the inflated 2a
+null flagged. Theorem output: observer-flow closure, τ-ladder decomposition, c=1 ghost, uniform
+meridian rule, 4e-7 label identification. Net: the reframe's lab-facing deliverable (the
+degree-4 gap-label experiment) reproduced; two conjecture refutations turned into cleaner
+replacements; no claim survived on authority. Full entry: docs/progress/REVIEWS.md.
+
+---
+
 ## 2026-07-12 — PC22 dark-hyperbola letter banked + the honest paper-portfolio read
 
 Banked the seat's LMP draft abstract (parity-twisted Weil trace: dark hyperbola + power-set

@@ -402,3 +402,43 @@ anchor-commit: `1675d39559aafcf23aa4e8a78ac6c7ef19f48432`
 anchor-commit: `03e9c5645652f8512a8b47dd41fa15348c9f6b02`
 
 *(The chat-2 batch B541–B545 (#827) merged after this window closed; it opens the next cycle.)*
+
+
+# Review 12 — 2026-07-12 (merges #827–#835: Window 12, the measurement lane, the handoff harvest)
+
+1. **Scope:** Window 12 (LISTEN / MEASURE / PROVE) plus the chat-1/chat-2 handoff harvest.
+   B540 observer flow (σ a fixed point, the double-clock ℤ/2 2-cycle, census 7→12 corrected);
+   B546 exact IDS (species labels = dictionary to 4e-7); B541–B545 chat-2 batch (2a closed from
+   two designs; the τ-ladder decomposition; THE SPECIES-CHAIN EXPERIMENT reproduced; c=1 ghost
+   proved); B548 (un-hideability REFUTED-as-discriminator); B549 (E7 pre-loaded, cosmic null);
+   B550 (chat-1's Promotion-Sign Conjecture REFUTED at n=3, uniform meridian rule); the B543
+   lit-gate (pass 1: module theorem is BBG-1992-classical; pass 2 resuming); four hint-ledger
+   entries from owner video pointers (einselection/RQM/regress; cut-invariance; Hoffman/Barrett
+   self-priored).
+
+2. **Mechanical check:** full lock suite: 1888 passed / 0 failed / 12 skipped (33 min) — a clean run, no mathematical or gate failures. All failures triaged: none — zero failures (the only warning was the review-due counter itself, which this entry resets).
+
+3. **Corrections this window, all with receipts:** B540 census 7→12 (window-length-limited
+   saturation, falsifier fired); B548 the un-hideability=Pisot prediction refuted (property is
+   generic — honest deflation of the Hoffman/Barrett framing); B550 the (−1)ⁿ promotion sign
+   refuted at n=3 against B111's locked data (the handoff mis-read its anchor; uniform meridian
+   rule replaces it); chat-2's (4,4,16) "already-in-record" claim flagged as not-in-record and
+   not-reproducible (witness requested); chat-1's inflated 2a null (expected ~6 vs 1.6–1.9)
+   flagged per the packet standard ("below null" not adopted); chat-2's (1,1,5) level 32→22.
+
+4. **Theorem-shaped output this window:** the observer-flow closure (12 nodes, 3 fixed points,
+   1 two-cycle); the τ-ladder decomposition of the dictionary (exact); c=1 the smallest ghost
+   level (elliptic-lock proof); the uniform meridian promotion rule with its falsifiable n=5
+   prediction (1,2); the exact-IDS 4e-7 label identification.
+
+5. **Net:** the reframe's ledger, complete since Review 11, got its LAB-FACING deliverable —
+   the species-chain degree-4 gap-label experiment (buildable, reproduced at 4e-7, lit-gate
+   confirming the module theorem is classical so only the instantiation+experiment are ours to
+   claim). Three seat handoffs harvested; every fired falsifier obeyed; two conjecture
+   refutations (un-hideability-as-discriminator, the (−1)ⁿ sign) turned into cleaner
+   replacements. No claim survived on authority — chat-1's conjecture died against the repo's
+   own locked probe.
+
+anchor-commit: `0377952e7c7d2313232fdcd3592c303317a71309`
+
+*(anchor = HEAD after #836; window #827–#836.)*

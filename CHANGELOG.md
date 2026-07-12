@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Review 12 anchored (merges #827-#836)
+
+### Added
+- docs/progress/REVIEWS.md: Review 12 entry, anchor 0377952 (counter resets).
+  Suite 1888 passed / 0 failed / 12 skipped.
+
+---
+
 ## 2026-07-12 — PC22 + paper portfolio
 
 ### Added
