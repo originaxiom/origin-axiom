@@ -96,3 +96,40 @@ verified degree-4 (in-sandbox); "first" claim PENDING the tiling-literature
 gate. That is a genuine, publishable contribution once the last gate clears —
 an honest "worked degree-4 realization + proposed measurement," not a new
 theorem.
+
+# Pass 3 (2026-07-12) — the tiling K-theory corner: NOVELTY CONFIRMED
+
+The remaining gate cleared. Cost-tiered deep-research, **100/100 agents, 0
+errors** (the tiering also solved the quota-wall problem of the earlier runs).
+Corpus searched: Kellendonk (1994/1995), Kellendonk–Putnam (2000),
+Bellissard–Benedetti–Gambaudo (2006), Moustafa/pinwheel (2010), Sadun
+cohomology, Kellendonk Bragg (2021), Damanik–Fillman survey (2022).
+
+**VERDICT: the degree-4 quartic-Pisot gap-label instantiation is GENUINELY
+NOVEL.** No quartic (degree-4) gap-label / IDS frequency-module computation
+for a Schrödinger/tight-binding Hamiltonian exists in this corpus. Every
+explicit worked example is quadratic or lower:
+- Penrose ℤ+τℤ (ℚ(√5)); octagonal/Ammann–Beenker (ℤ+2√2ℤ)/8(2+√2) (ℚ(√2));
+  Fibonacci ℤ[α] (ℚ(√5)); Thue–Morse & period-doubling {k/(3·2ⁿ)} (rational);
+  pinwheel (1/264)ℤ[1/5] (rank-1).
+The general theorem is always stated abstractly (alphabet-agnostic, 1D
+attributed to BBG 1992) and never instantiated at degree ≥ 3.
+
+**The honest near-miss (cite it):** Kellendonk's symbolic k-letter "A-type
+Fibonacci" family gives a general rank-k module FORMULA, but is never
+numerically instantiated for k ≥ 3, and at k=7 the eigenvalue is degree-4 yet
+**NOT Pisot** (a Galois conjugate has modulus ≈ 1.83); "Pisot"/"quartic" never
+appear. Our object is genuinely quartic-PISOT: β = 3.676, conjugates
+{0.44, 0.79, 0.79} all < 1, field ℚ(√φ). So the claim is clean.
+
+## Consequence for the paper (all three gates now settled)
+The species-chain letter's contribution is confirmed:
+- general module theorem: CITED (BBG 1992 / Kaminker–Putnam) — classical;
+- the **first explicit degree-4 quartic-Pisot gap-label frequency-module**
+  (B533/B542/B546): NOVEL (this gate);
+- the four-coupling **experiment** proposal (B555): NOVEL (no measurement
+  beyond quadratic exists);
+- honest caveat: cite Kellendonk's k-letter formula as the general precedent
+  and Baake–Grimm as the degree-4 DIFFRACTION cousin (distinct object).
+The "first degree-4 gap-label measurement" claim SURVIVES. The letter is
+novelty-cleared and submittable (pending the standard co-author/voice pass).
