@@ -6,6 +6,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Review 11 anchored (merges #816-#826)
+
+### Added
+- docs/progress/REVIEWS.md: Review 11 entry, anchor 03e9c56 (counter resets).
+
+---
+
 ## 2026-07-12 — Chat-2 batch: B541-B545 (2a closure, ladders, species experiment, ghosts)
 
 ### Added
