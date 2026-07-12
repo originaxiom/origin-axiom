@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B553 Seat-1 session-3 harvest
+
+### Added
+- frontier/B553_seat1_session3/ (FINDINGS): verified metallic torsion m²,
+  odd-Fibonacci cluster, 2-cycle holonomy decoupling; the SL(5) n²-1 vs n-1
+  correction; the Markoff-unicity feasibility DEFLATION (P4 is not a route).
+- tests/test_b553.py (3 locks).
+
+### Changed
+- papers/PAPER_PORTFOLIO: Seat-1's 3 proposed targets assessed (mostly deflated).
+- frontier/B552: charge-clock decoupling addendum.
+
+---
+
 ## 2026-07-12 — Bravery cycle + lit-gate pass 2 (B551/B552)
 
 ### Added

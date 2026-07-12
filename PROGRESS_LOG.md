@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Seat-1 session-3 harvest (B553): verifications + the Markoff-unicity deflation
+
+Processed Seat-1's session-3 summary verify-don't-trust. Most = corroboration of banked work
+(relations negative, φ-ladder=B542, −4/j=2=B534, promotion refuted=B550, ℤ/11=B552,
+Markov=Fibonacci-Hamiltonian is KNOWN). Verified new: metallic torsion |det(A_m−I)|=m² (level
+m², composite for m≥2); the odd-Fibonacci Markoff cluster F(2n−1); the 2-cycle holonomy = 1
+mod 11 (charge does NOT couple to the clock). CORRECTION to Seat-1's own self-correction: its
+"SL(5) character variety dim = n−1 = 4" is the RANK; the dimension is n²−1 = 24 (B66's banked
+trace-coordinate count) — one wrong number replaced by another. THE DEFLATION (highest-value
+item): P4 is NOT a viable route to the Markoff Unicity Conjecture — P4's dynamical cusp-closing
+on the complex character variety is a different problem type from the Diophantine integer-triple
+unicity; the shared Cayley cubic is a normal-form coincidence, not a method bridge. Claiming it
+would be an overclaim. Portfolio updated: Seat-1's 3 proposed targets mostly deflated
+(Markoff-extension LOW, spectral-bridge KNOWN, charge-lemma needs lit-check). 3 locks.
+
+---
+
 ## 2026-07-12 — Bravery-cycle handoff + lit-gate pass 2 (B551/B552 + the degree-4 verdict)
 
 **chat-2 bravery cycle** processed verify-don't-trust. Six blocks: V1 (B535 keystone

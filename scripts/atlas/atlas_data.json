@@ -11206,11 +11206,43 @@
     "firewall"
    ],
    "refs": [
-    "B540"
+    "B540",
+    "B553"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B553": {
+   "slug": "seat1 session3",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "torsion",
+    "symplectic",
+    "quasicrystal",
+    "firewall"
+   ],
+   "refs": [
+    "B534",
+    "B536",
+    "B539",
+    "B541",
+    "B542",
+    "B550",
+    "B552",
+    "B66",
+    "K007",
+    "K010",
+    "P4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B55": {
