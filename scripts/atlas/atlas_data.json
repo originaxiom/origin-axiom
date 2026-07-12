@@ -10979,6 +10979,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B539": {
+   "slug": "relations campaign",
+   "motifs": [
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B533",
+    "B538"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B54": {
    "slug": "general c exchange structure",
    "motifs": [
