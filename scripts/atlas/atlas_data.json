@@ -10931,11 +10931,12 @@
    "refs": [
     "B530",
     "B533",
+    "B540",
     "B542",
     "V1"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 9,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -11304,6 +11305,25 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B558": {
+   "slug": "three level negative",
+   "motifs": [
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B530",
+    "B533",
+    "B535",
+    "B539",
+    "B541",
+    "S066"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B55": {

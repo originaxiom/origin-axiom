@@ -10,6 +10,22 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B558: the three-level negative VERIFIED (+ 1/φ³ correction + named landmines)
+
+Seat-1's three-level-negative handoff, verify-don't-trust (owner asked to confirm after the
+Markoff slip). Verdict SOUND and HONEST. The Level-2 gap-edge test is null (12 vs 12.4±3.7) and
+STRUCTURALLY so: the Fibonacci gap labels are coupling-INVARIANT (verified V=1 vs V=1/φ identical)
+and Bellissard-topological, so they CANNOT be tuned to SM values. Completes the three-level
+negative (0/1/2 all null) — consistent with B533/B539/B541/B555 and S066. CAUGHT MISLABEL: the
+handoff's "IDS 4th gap = 1/φ² = 0.23607" is wrong — 1/φ² = 0.38197; the number 0.23607 is 1/φ³
+(= 2/φ mod 1), a correct golden label mis-identified. Finding #4 (p(5)=17) VERIFIED but the claimed
+identity to B535's 17 components is UNPROVEN (p(n)=3n+2 affine; 17=3·5+2; 17=17 is coincidence
+until a bijection). Two NAMED anti-numerology landmines recorded: (1) 1/φ³=0.236 vs sin²θ_W=0.231
+is a persistent 2.1% golden near-miss (topological, fixed, non-significant); (2) V=1 gap-edge ratio
+0.2318 ≈ sin²θ_W to 0.26% is a look-elsewhere artifact. 4 locks.
+
+---
+
 ## 2026-07-12 — Durand derived-sequence gate: reconstruction note DOWNGRADED (B540 known, B535 rigidity-adjacent)
 
 The reconstruction-note lit-gate (cost-tiered, 103/103 agents, 0 errors). Verdict scopes two
