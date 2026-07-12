@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — B547: the ghost scanner — (4,4,16) is the FIRST ALL-HYPERBOLIC ghost
+
+The prereg'd ghost scanner built (exact realizability via sympy.diophantine + h=1 completeness).
+HEADLINE: (4,4,16) at c=32 is a PROVED GHOST and the first ALL-HYPERBOLIC one — every coordinate
+≥4, so B545's elliptic-lock does NOT apply. Its trace-4 slot reduces exactly to u²−3v²=7,
+unsolvable because 7 is INERT in ℚ(√3) ((3/7)=−1) — confirmed 3 ways (inert-prime argument,
+sympy.diophantine ∅, brute force). Disc 12, h=1 ⟹ complete ⟹ not realizable. This is a SECOND
+ghost mechanism (inert-prime norm obstruction) distinct from B545's elliptic-lock. ANSWERS the
+sharpened open question: ghostliness is not merely an elliptic shadow; all-hyperbolic ghosts
+exist. RESOLVES the recorded (4,4,16) discrepancy — chat-2's "realizable/false candidate" claim
+REFUTED; (4,16,60) likewise a proved all-hyperbolic ghost. Markov triples realize (sanity ✓).
+Novelty gated (Whang/BGS/Fricke). 4 locks.
+
+---
+
 ## 2026-07-12 — B555: THE PREDICTION assembled (the object's one falsifiable forward statement)
 
 Everything in the reframe was preparation for this. The object makes exactly ONE concrete

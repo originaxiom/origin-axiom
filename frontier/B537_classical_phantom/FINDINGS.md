@@ -46,3 +46,10 @@ search (entries ≤ 20) plus this file's companion scans find no realization.
 Status remains CANDIDATE pending chat-2's witness pair. Meanwhile c = 1 is
 now a PROVED ghost by the same elliptic-lock mechanism (B545), making
 (1,1,5)/c = 22 the second proved instance, not the first.
+
+## (4,4,16) discrepancy CLOSED (B547)
+
+The recorded (4,4,16) discrepancy is resolved: it is a PROVED all-hyperbolic
+ghost (inert-prime obstruction u²−3v²=7, 7 inert in ℚ(√3); trace-4 slot disc
+12, h=1, complete). chat-2's "realizable/false candidate" claim is refuted;
+no witness exists. See B547.

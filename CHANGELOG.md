@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — B547: the ghost scanner (all-hyperbolic ghost)
+
+### Added
+- frontier/B547_ghost_scanner/ (scanner.py, FINDINGS): (4,4,16) PROVED
+  all-hyperbolic ghost via an inert-prime obstruction (u²−3v²=7, 7 inert in
+  ℚ(√3)) — a second ghost mechanism beyond B545's elliptic-lock; answers the
+  all-hyperbolic-ghost open question; refutes chat-2's "(4,4,16) realizable".
+- tests/test_b547.py (4 locks).
+
+### Changed
+- B545, B537 FINDINGS: (4,4,16) discrepancy CLOSED (proved ghost).
+
+---
+
 ## 2026-07-12 — B555: THE PREDICTION
 
 ### Added
