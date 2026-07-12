@@ -10934,6 +10934,51 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B536": {
+   "slug": "measurement verify",
+   "motifs": [
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B358",
+    "B534"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
+  "B537": {
+   "slug": "classical phantom",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B538": {
+   "slug": "reframe test cycle",
+   "motifs": [
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B3",
+    "B322",
+    "B537",
+    "S059"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B54": {
    "slug": "general c exchange structure",
    "motifs": [

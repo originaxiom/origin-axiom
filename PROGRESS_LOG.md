@@ -10,6 +10,34 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-12 — Handoffs 3-4 processed + REBASE (B536/B537/B538)
+
+**B536 (seat-1 Phase 2-3, verify-don't-trust):** irreducibility of {Par,W₁,W₂} CONFIRMED
+(commutant 4 → 1 via the banked theta twist; 224 observables); U = U₃⊗U₅ EXACTLY ⟹
+entanglement conservation trivial (Q1 answered); darkness-elimination GENERIC (Q3: all tested
+states dark-free, incl. basis states); [W₁,W₂] ±iφ CONFIRMED at level 15, ABSENT at level 5
+(level-5 magnitudes are √φ, 1/φ); Par 8/7 = (2+1)⊗(3+2) exact. NOT REPRODUCED: period 6 —
+the natural lift ρ(A₁) = W₁W₂ gives state-period 20 (= ord A₁ in SL(2,ℤ/15)) and S = 0.5623
+(rank 2), not 1.0620 (rank 3); seat-1's construction unspecified ⟹ convention-dependent.
+
+**B537 (chat-2's Q2, upgraded to THEOREM):** (1,1,5) is a PROVED phantom of the classical
+surface at c = 22 (correcting the handoff's 32). Elliptic trace-1 slots: exact reduction to
+U²+3V² = 24, not represented; trace-5 slot: 3‖disc exactly (mod-3), never square; completeness:
+GL2-invariance + Latimer–MacDuffee with h(ℚ(ζ₆)) = h(ℚ(√21)) = 1 (sage). The elliptic-slot
+landmine the handoff flagged is exactly what the proof handles. Lit-gate before novelty.
+
+**B538 (the reframe test cycle, banked):** prereg hash c81c8f7e…; all exact tables verified
+(E8 ladder to 7 decimals + golden self-similarity + controls; Jarlskog 3.077e-5; label sets
+disjoint). Forced bin: E8 EXTENDED-HIT + gap labels CONFIRMED (class-level scope verbatim,
+load-bearing). Dialed bin: chance. Checklist vs SM: 0/3 (generations, chirality, CP).
+The reframe's kill clause recorded.
+
+**REBASE:** docs/REBASE_2026-07-12.md — the one-page consolidated baseline (two threads,
+six theorem-grade results today, the evidence ledger, corrections log, prioritized open list).
+18 new locks (46 today). Next: the relations campaign, gated on its own prereg + null model.
+
+---
+
 ## 2026-07-12 — B535: THE COUPLING SPACE — census complete, one measurement suffices
 
 The reframed ToE program's stage 1 (prereg committed before compute). Three cells:

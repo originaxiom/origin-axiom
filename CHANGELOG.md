@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-12 — Handoffs 3-4 + rebase (B536/B537/B538)
+
+### Added
+- **frontier/B536_measurement_verify/**: seat-1 Phase 2-3 verification (verdict table:
+  3 confirmed, 2 trivial, 1 not-reproduced).
+- **frontier/B537_classical_phantom/**: THEOREM (1,1,5) phantom at c = 22 (level
+  corrected from 32); exact proof, sage class numbers.
+- **frontier/B538_reframe_test_cycle/**: the preregistered test cycle banked with
+  exact-table verification and the class-level scope verbatim.
+- **docs/REBASE_2026-07-12.md**: the consolidated baseline.
+- **tests/test_b536.py / test_b537.py / test_b538.py**: 18 locks.
+
+---
+
 ## 2026-07-12 — B535: the coupling space (census 6/7, one-measurement test, dictionary)
 
 ### Added
