@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — Door 2 sharpened: Ad(C) signature split (verified)
+
+### Added
+- B523 FINDINGS addendum: Ad(C) on sl(2,ℝ) for C=[[1,0],[−1,−1]] has eigenvalues +1,−1,−1;
+  the −1 eigenspace (2-dim) carries an INDEFINITE Killing form (signature (1,1)). So
+  amphichirality allows (3,1) OR (2,2) — Door 2 = a selection principle within a 2-dim
+  subspace, not a topological obstruction. Door 2 stays OPEN, shape now precise.
+- tests/test_b523.py::test_amphichiral_signature_split.
+
+---
+
 ## 2026-07-13 — the 3/2 Law (Session-5 handoff, verified)
 
 ### Added

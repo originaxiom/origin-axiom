@@ -126,3 +126,31 @@ def test_amphichiral_involution():
     C = np.array([[1, 0], [-1, -1]])
     assert round(np.linalg.det(C)) == -1                 # orientation-reversing
     assert np.array_equal(C @ A1 @ np.linalg.inv(C).round().astype(int), A1inv)  # correct involution
+
+
+def test_amphichiral_signature_split():
+    """Door 2 sharpened: Ad(C) on sl(2,R) for C=[[1,0],[-1,-1]] has eigenvalues
+    +1,-1,-1; the -1 eigenspace is 2-dim with an INDEFINITE Killing form
+    (signature (1,1)) -> amphichirality allows (3,1) OR (2,2), not a forced (3,1)."""
+    import sympy as sp
+    H = sp.Matrix([[1, 0], [0, -1]]); E = sp.Matrix([[0, 1], [0, 0]]); Fm = sp.Matrix([[0, 0], [1, 0]])
+    basis = [H, E, Fm]
+    C = sp.Matrix([[1, 0], [-1, -1]])
+    assert C.trace() == 0 and C * C == sp.eye(2)          # C in sl(2,R), involution
+    Cinv = C.inv()
+
+    def coords(X):
+        return [X[0, 0], X[0, 1], X[1, 0]]
+    Ad = sp.Matrix([coords(C * X * Cinv) for X in basis]).T
+    assert Ad.eigenvals() == {sp.Integer(1): 1, sp.Integer(-1): 2}   # +1, -1, -1
+
+    def Bk(X, Y):
+        return 4 * (X * Y).trace()
+    ev = Ad.eigenvects()
+    minus = [v for val, m, vecs in ev if val == -1 for v in vecs]
+    w = [v[0] * H + v[1] * E + v[2] * Fm for v in minus]
+    Gr = sp.Matrix(len(w), len(w), lambda i, j: Bk(w[i], w[j]))
+    assert Gr.det() < 0                                    # indefinite -> signature (1,1)
+    plus = [v for val, m, vecs in ev if val == 1 for v in vecs][0]
+    Xp = plus[0] * H + plus[1] * E + plus[2] * Fm
+    assert Bk(Xp, Xp) > 0                                  # +1 direction (C) is spacelike
