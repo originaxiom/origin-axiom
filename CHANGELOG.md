@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — the L50 CRUX computed-negative (B561)
+
+### Added
+- frontier/B561_l50_crux/FINDINGS.md: seat-1's E6->F4->SU(3)^2 chain resolved. Step 1 forced
+  (theta-even = F4 exponents {1,5,7,11}); group-theory conditional true (order-3 -> A2xA2~); but
+  NO Eisenstein Z/3 acts at the fig-8 point (five checks: (Z/12)*=Klein four; D4 isometry group;
+  Gal Q(sqrt-3)=Z/2; order-3 only at the collapsed Euclidean x=1; triality theta-broken). The
+  E6->F4 chain stops at F4. Firewall-clean; nothing to CLAIMS.md.
+- tests/test_b561_l50_crux.py (3 locks). OPEN_LEADS L50 + OPEN_PROBLEMS Gate B annotated.
+
+---
+
 ## 2026-07-13 — chat-3 frontier campaign verified + integrated (B560)
 
 ### Added

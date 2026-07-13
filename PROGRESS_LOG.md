@@ -10,6 +10,27 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the L50 CRUX computed (B561): no Eisenstein Z/3 selects SU(3)^2 in F4
+
+Ran seat-1's PRIORITY-1 handoff ask (does the figure-eight's Eisenstein Z/3 select
+A2xA2~=SU(3)xSU(3) inside the geometrically-forced F4?). Bounded, decidable. VERDICT: NO.
+- Step 1 (E6->F4 theta-fold) is real and forced (B353 + std Lie theory): theta-even exponents
+  = {1,5,7,11} = F4 exponents, rank 4 = SM rank. VERIFIED.
+- The group-theory CONDITIONAL is true: an order-3 element of F4 (mark-3 node) has centralizer
+  A2xA2~=SU(3)^2 (B4, C3xA1 are order-2). So IF an order-3 acted it would select SU(3)^2.
+- But the PREMISE FAILS five independent ways: (1) the F4 exponents {1,5,7,11}=(Z/12)*=Klein
+  four Z/2xZ/2, NO order-3; (2) the fig-8 isometry group is D4 (order 8) -> no order-3 element;
+  (3) trace field Q(sqrt-3) Galois=Z/2 (omega is a field element, not an automorphism); (4)
+  B257: the order-3 Eisenstein rotation is at the COLLAPSED Euclidean point x=1, not the fig-8;
+  (5) the trinification triality Z/3 is theta-broken. The object is Z/2xZ/2-arithmetic at its
+  geometric point, not Z/3.
+Verdict: the E6->F4 chain TERMINATES at F4; the specific Eisenstein-Z/3 selector does not exist.
+Consistent with B463 (principal centralizer=0); independent of the full T[4_1;E6] (still
+NEEDS-SPECIALIST). Closes the specific L50-CRUX mechanism (memory: the E6->SM dictionary was
+already refuted once, B347). 3 locks.
+
+---
+
 ## 2026-07-13 — chat-3 frontier campaign (cells 1-4) verified + integrated (B560)
 
 Processed a cross-seat (chat-3) certificate-driven campaign of six cells, verify-don't-trust.

@@ -68,6 +68,8 @@ one arguably-still-in-sandbox target. If proven ⇒ single-seed member-contingen
 deepest form); choice enters only via heterogeneity (K014/B131).
 
 ### B — The CRUX: `T[4₁;E₆]` (the realization gate)
+
+**Sub-mechanism CLOSED-NEGATIVE (B561, 2026-07-13):** the specific "Eisenstein ℤ/3 selects SU(3)² inside F₄" path (seat-1's L50 CRUX) fails — the figure-eight provides no order-3 automorphism at its geometric point (five independent checks). The E₆→F₄ θ-fold is forced (B353) but the chain stops at F₄. The full exceptional T[4₁;E₆] state integral remains NEEDS-SPECIALIST.
 **Question.** Does the 3d-3d correspondence (Dimofte–Gaiotto–Gukov) for the figure-eight at gauge type **E₆** realize the
 principal-grading cascade (B305/B306) as *physical gauge dynamics*, with the cusp deformation as the control parameter?
 **Settled.** The E₆ character variety of `4₁` exists (B264/B274/B275); the cascade is generic Lie theory + the object's
