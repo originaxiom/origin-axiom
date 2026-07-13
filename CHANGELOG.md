@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — the self-interaction gap register
+
+### Added
+- HINT_LEDGER H123-H127 + an OPEN_LEADS register: the five unmeasured self-interactions (the
+  charge tower's per-rung Weil/dark-hyperbola faces incl. the 11^2 prime-power question; thermal
+  time/modular flow; the canonical two-ends entanglement; second-order measurement; defects in
+  the object's own geometry).
+
+---
+
 ## 2026-07-14 — the three papers drafted + finalized
 
 ### Added
