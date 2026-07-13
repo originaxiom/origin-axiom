@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — tower-probe campaign: negatives + connections (P-A, c_eff, FL1, BKL)
+
+### Added
+- B556 FINDINGS: no fusion category at rung 1 (λ1 non-cyclotomic via D4 Galois, CMS; exhaustive
+  rank-4 search 0 rings) — the tower exits the fusion world at rung 1 (P-A); no CFT c_eff lock-on
+  to 7/10 (c_eff smooth 0.866→0.549, V=0 control c=1) (c_eff); the FL1 2-cycle is eigenvalue-
+  universal / content-varying (closes FL1).
+- speculations/S061 addendum: "BKL IS the trace map" downgraded to conjugate-on-locus (Vieta↔Farey
+  65/65, Bombieri/Series prior art); golden-Kasner 3/2=1+p2 link kept as new.
+- tests/test_b556_campaign2.py (4 locks). OPEN_LEADS: FL1 marked DONE.
+
+---
+
 ## 2026-07-13 — tower-probe campaign: the rung-2 carriers (E1, T-1)
 
 ### Added

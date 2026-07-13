@@ -10,6 +10,24 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — tower-probe campaign: the negatives + connections (P-A, c_eff, FL1, BKL)
+
+Four more campaign cells, adversarially verified + re-checked (tests/test_b556_campaign2.py):
+- P-A (strongest negative): λ1=φ(1+√φ) has non-abelian D4 Galois closure ⇒ NOT cyclotomic ⇒
+  NO fusion category of any rank (Calegari-Morrison-Snyder); corroborated by exhaustive rank-4
+  search (0 fusion rings). The escalator EXITS the fusion-category world at rung 1; c=7/10 is a
+  rung-0 phenomenon.
+- c_eff (verified negative): c_eff(V) of the Fibonacci chain decreases smoothly (0.866→0.549),
+  NO plateau at 7/10 or golden; V=0 control c=1.000; the near-miss is within oscillation noise.
+- FL1 (closes the channel): the B540 NEW_2↔NEW_10 2-cycle is EIGENVALUE-UNIVERSAL (shared
+  charpoly λ⁴−14λ³+7λ²−6λ+1) but CONTENT-VARYING (matrices not conjugate under 24 relabelings) —
+  the loop conserves growth rate, not symbolic content.
+- BKL (S061, downgrade + link): "BKL IS the trace map" DOWNGRADED to conjugate-on-locus (Vieta↔
+  Farey, 65/65 nodes, classical Bombieri/Series); the golden-Kasner 3/2=1+p2 link survives as new.
+4 locks. Lit-gates UNCLEAR → no novelty claims.
+
+---
+
 ## 2026-07-13 — tower-probe campaign, the rung-2 carriers (E1 σ8 + T-1 gap labels)
 
 Two escalator-campaign cells, adversarially verified + re-checked in-sandbox
