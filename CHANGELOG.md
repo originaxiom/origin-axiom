@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — Probation Campaign RESULTS (B562): 21 verdicts banked
+
+### Added
+- frontier/B562_probation_campaign/RESULTS.md: the 21-probe verdict ledger (6 LIVE / 5 TOMBSTONE
+  / 3 SPECIALIST / 2 DORMANT / 5 NEEDS-RERUN), adversarially verified.
+- frontier/B564_sl3_phi_fixed_reducible/ + tests/test_b564_sl3_reducible.py: the SL(3) phi-fixed
+  locus is ENTIRELY REDUCIBLE (probation P2 LIVE; finite-order pinning; confirms B141 Item-4).
+- speculations/TOMBSTONES.md: 4 verified kills w/ residual hints (literal S032-A; triality
+  generations; causal-set poset; framework search).
+- papers/CANDIDATES.md: PC25 (E6 theta-fold paper, NOVELTY-CLEARED); PC22 gate RESOLVED (KNOWN =
+  Prasad Cor 8.7 -> explicit-realization letter); PC24 E0 lit-gate PASSED (novel).
+- OPEN_PROBLEMS gates A/B/C/D + OPEN_LEADS annotated (W1.5 marked DONE=B372).
+
+---
+
 ## 2026-07-13 — Campaign 2c: the Planck-ratio bin NULLS (B563, chat-2 handoff verified)
 
 ### Added

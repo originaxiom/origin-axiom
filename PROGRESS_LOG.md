@@ -10,6 +10,27 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the Probation Campaign RAN (B562): 21 verdicts, adversarially verified
+
+Ran the probation campaign (multi-agent, 43 agents, 0 errors; frontier/B562_probation_campaign/
+RESULTS.md). Every disposition survived adversarial verify unless flagged NEEDS-RERUN.
+- LIVE (6): P2 the SL(3) phi-fixed locus is ENTIRELY REDUCIBLE -> new cell B564 (confirms B141
+  Item-4, extends B142; finite-order pinning => reducible, lock); P5 L11 cover-field stability
+  (19 covers, 32/32 cusp shapes in Q(sqrt-3)); P9 the E0 escalator lit-gate PASSED (novel ->
+  PC24); P11 the E6 char-variety paper NOVEL -> PC25 draftable; P14 Gate D partial transversality
+  witness; P7 resolved as ALREADY-DONE (W1.5 = B372, a stale-row catch).
+- TOMBSTONE (5, verified, residual hints in TOMBSTONES.md): P1 the LITERAL S032-A (topological
+  invariants escape; sharpened gate survives); P10 PC22 = Prasad Cor 8.7 (KNOWN -> explicit-
+  realization letter); P13 generations-via-triality (27 splits 9+9+9, the wrong 3, grounded in
+  B298/B299); P20 causal-set poset (not manifoldlike); P21 framework search (none survives).
+- SPECIALIST (3): P12 Gate B (no exceptional 3d-3d), P15 L22 (needs F4/FGLM engine), P18 B391.
+- DORMANT (2): P8 L7 (input tombstoned), P17 L20 (no ground truth).
+- NEEDS-RERUN (5, verifier rejected -> kept OPEN): P3 B85 (vacuous), P4 L5/L6 (unverified proxy),
+  P6 Cell-3 count, P16 rho_n, P19 L38 Higgs/scale. The rejections are the discipline working -
+  P4 and P19 were unearned negatives refused at the gate. 5 locks total (B564 + B561/B563 stand).
+
+---
+
 ## 2026-07-13 — Campaign 2c: the Planck-ratio bin retry NULLS (chat-2 handoff, verified, B563)
 
 Verify-don't-trust on chat-2's prereg'd Planck-ratio retry. Independently reproduced the core

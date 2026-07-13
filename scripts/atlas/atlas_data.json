@@ -11443,6 +11443,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B564": {
+   "slug": "sl3 phi fixed reducible",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B141",
+    "B142",
+    "B562",
+    "P2"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B56": {
    "slug": "figure eight invariant surface",
    "motifs": [
