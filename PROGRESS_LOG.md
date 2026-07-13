@@ -3254,3 +3254,83 @@ PROGRESS_LOG brought current; Codex audit response created (docs/CODEX_AUDIT_RES
 **Codex audit findings evaluated:** 7 findings, 4 ACCEPTED (entropy terminology, gap-labeling direction,
 144 substitutions, "3D" misleading); 2 NOTED (B531 boundary, preregistration); 1 ALREADY ADDRESSED (internal
 Fourier). Governance flags: README stale → FIXED; test count stale → FIXED; atlas gap acknowledged.
+
+## 2026-07-14 — B569: the "Complete Chain" handoff adjudicated (the sixteenth chain)
+
+An incoming cross-seat handoff claimed the full σ→SM chain in seven links, with compactness
+(B565-H1) resolved via E₆ Chern–Simons quantization at level 1 (Link 4) and a uniqueness theorem
+(G_SM the only chiral theory on F₄; Link 7). Verify-don't-trust, exact:
+
+**Link 4 CORRECTED:** the handoff's modular data paired the SU(3)₁ conformal weight h(27)=1/3
+with E₆'s c=6 — inconsistent ((ST)³≠S²), so its "ρ(A₁)" is WORD-DEPENDENT: A₁=T²ST gives Z=−1,
+A₁=T·ST⁻¹S⁻¹ (same element) gives Z=+1. The true E₆,₁ weight is h(27)=2/3 (proved from the E₆
+root system, Weyl dim formula at both minuscule nodes). The consistent rep: ρ(A₁) unitary, order
+4 (=ord A₁ in SL(2,ℤ/3)), [θ,ρ]=0, θ-even eigenvalues {±i}, θ-odd eigenvalue +1, **Z=+1 in both
+consistent theories** — the claimed "chirality bit Z=−1" does not exist. Placement: the invariant
+belongs to the CLOSED torus bundle (Sol; the fiber-filled sibling), not M₃; the θ-even ℂ² carries
+no F₄ action (min faithful F₄ rep = 26); unitarity is the measurement face (two-faces theorem,
+#884). **The compactness gap (B565-H1) stands.**
+
+**Link 7 REFUTED, and the refutation is a keeper:** the 26 of F₄ is SELF-DUAL — its 24 nonzero
+weights are exactly the short roots (negation-closed; unique dominant short root; Weyl dim = 26
+exact) — so 27|_F₄ = 1⊕26 restricts self-conjugate to EVERY subgroup of F₄, including G_SM =
+H₁∩H₂. Zero chiral theories on the F₄ stage, not one; the claimed 16⊕10⊕1 is the Spin(10)×U(1)⊂E₆
+branching and Spin(10)⊄F₄. Re-derives the fourth wall (B565-T3 chiral index ≡ 0) from pure Lie
+theory: the stage itself refuses chirality. Links 1,2,3,5,6 stand (all previously banked).
+6 locks (tests/test_b569_complete_chain.py) + reproducer. Firewalled.
+
+## 2026-07-14 — B570 preregistered + Lane C spine + C3 RUN FIRST: the θ-odd sector is ALIVE
+
+THE ALLOWED-PLAYS CAMPAIGN preregistered (frontier/B570_allowed_plays/PREREGISTRATION.md): the
+inversion from killing plays retail (sixteen chains) to proving the selection rules wholesale —
+cells AP1 (cast lattice), AP2 (allowed-theater table), AP3 (Pisano clock), AP4 (chiral-selector
+table + Zariski closure), AP5 (order obstruction), AP6 (THE SELECTION-RULES THEOREM). Lane C
+added from the incoming five-sources/θ-odd handoff, processed verify-don't-trust: its structural
+spine VERIFIED exactly (E₆ exponents {1,4,5,7,8,11} vs F₄ {1,5,7,11}, θ-odd = {4,8}; the
+ω-CONNECTION: the θ-odd Coxeter eigenvalues e^{2πi·4/12}, e^{2πi·8/12} are exactly ω, ω² — the
+Eisenstein chirality window B356 and the θ-odd sector are the same structure; E₆ level 2 = 9
+primaries, θ-split 3+3 pairs; 4 locks, tests/test_b570_theta_odd_spine.py); the five-source
+"convergence" corrected (2 established — both the same ℚ(√−3) fact — 3 conjectured = cells
+C4/C5); B470 row confused (exponent 5 is θ-even).
+
+**C3 RUN FIRST (owner directive) — THE RESULT: the θ-odd sector is dynamically ALIVE at level 2.**
+E₆ level-2 modular data from scratch (all 51,840 Weyl elements; Kac–Peterson S; h(27)=13/21,
+c=78/7); consistency gates BEFORE evaluation: S unitary/symmetric, S² = the θ-flip permutation,
+(ST)³=S², ALL 729 Verlinde fusion numbers non-negative integers, S-column = independent q-Weyl
+dimension formula (9/9). Two monodromy words agree. **ρ(A₁) on the θ-odd 3-space is NON-SCALAR:
+an SU(3) element of order 4, eigenvalues {+1, +i, −i}** — at level 1 the sector was inert (+1,
+B569); at level 2 the monodromy rotates the chiral-difference directions (27−27̄ transported into
+351−351̄, 351′−351̄′). The preregistered falsifier did NOT fire. Z = +1 again; θ-even eigenvalues
+{1,1,−1,−1,±i}. Firewall: C = S² is CENTRAL in every modular rep — no monodromy can prefer 27
+over 27̄; the dynamics lives within the odd sector. The first positive chirality-sector signal in
+seventeen campaigns. Locks: tests/test_b570_c3_level2.py; reproducer c3_e6_level2_monodromy.py;
+independent adversarial re-derivation in flight, appended to C3_RESULT.md on landing. Firewalled.
+
+## 2026-07-14 — B571: the day-0 internalization (116 agents; 14 buried treasures; the two-chiralities dossier)
+
+Owner directive: "complete internalization of progresslog since day0... see whether we buried
+math, concepts, hints, solutions, reasonings, understanding and conclusions." 8 readers over the
+full 8,044-line corpus (live log + Q2 roll + REVIEWS) + a chirality-dossier lane + per-item repo
+verification: 106 candidates → **14 GENUINELY BURIED** / 76 banked-later / 13 superseded / 3 not
+valuable. The ranked list, burial patterns, and revival queue: frontier/B571_day0_internalization/
+REPORT.md. Headliners: the criticality unification (B181 γ=0 + B507 β=0 + B498 driftless = ONE
+unwritten theorem; B507 has NO lock); "tower measure = Kubota–Leopoldt 3-adic L" asserted never
+computed (the exact B525 error class, same campaign, unswept siblings); B54's twin quadratics
+{−3,+5} at c=1 = the earliest sighting of the two-ended split, zero cross-references; e₃ CRT
+reconstruction stalled mid-run (triple_id.json still PENDING) blocking two preregistered
+sentinels; S031 sealing at bronze m=3 never run though the tool exists AND the stated obstacle is
+factually wrong (K₃=ℚ(√13) IS quadratic). THE PATTERNS: the program buries connections, residues,
+and completions — never results ("observation-not-connection" tags = a parking lot with no exit
+ramp; fixes proposed per pattern).
+
+**THE TWO-CHIRALITIES DOSSIER (CHIRALITY_DOSSIER.md) — the precise answer to "are u sure the
+object has no chirality":** there are TWO distinct ℤ/2 involutions. **c = complex conjugation /
+orientation / time**: the object BREAKS it, abundantly (B470 chiral letter-tower, B469 residue =
+norm of the scale, the σ̄≢σ arrow, B565-H1 non-real traces). **θ = Out(E₆) = the fold = 27↔27̄**:
+the object is SYMMETRIC (amphichiral ⟺ θ-symmetric ⟺ vector-like is ONE identity, T-θTANGENT +
+B569). Computed: c ≠ θ on the adjoint (θ fixes tr Ad, c moves it). The object's chirality is
+real and lives in the c-column; the SM slot is the θ-column. The crux questions Q-A (is ρ̄ ≅ ρ,
+≅ θ∘ρ, or distinct?), Q-B (θ vs c on the 27, where they CAN differ), Q-C (which column does the
+orientation residue occupy — cheapest) are folded into B570 Lane C. C3's result sharpens the
+stakes: the θ-column is not inert dynamically — the question is whether any c-chirality can be
+carried into it. Firewalled.

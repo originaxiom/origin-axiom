@@ -49,6 +49,36 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B570-C3 + B571 — THE θ-ODD SECTOR IS ALIVE + THE DAY-0 INTERNALIZATION, 2026-07-14)
+- **C3 (the decisive cell, run first by owner directive): the θ-odd sector of E₆ is dynamically
+  ALIVE at level 2.** Modular data from scratch (51,840 Weyl elements, Kac–Peterson; gates: S²
+  = the θ-flip, (ST)³=S², ALL 729 Verlinde integers, independent q-dim formula 9/9): **ρ(A₁) on
+  the θ-odd 3-space = a non-scalar SU(3) element, order 4, eigenvalues {+1,+i,−i}** — level 1 was
+  inert (+1), level 2 rotates the chiral-difference directions. The preregistered falsifier did
+  not fire: **the first positive chirality-sector signal in seventeen campaigns** (firewalled:
+  C=S² central — no monodromy prefers 27 over 27̄). B570 (the allowed-plays selection-rules
+  campaign, AP1–AP6 + Lane C) is preregistered; remaining cells queued.
+- **B571 (day-0 internalization, 116 agents): 14 genuinely-buried treasures exhumed** from the
+  full 8,044-line corpus (criticality unification unwritten + B507 unlocked; Kubota–Leopoldt
+  asserted-not-computed; B54's {−3,+5} = the earliest two-ended sighting; e₃ stalled; S031 m=3
+  blocked by a wrong deferral reason) + THE TWO-CHIRALITIES DOSSIER: the object breaks **c**
+  (orientation/conjugation/time) abundantly and is symmetric under **θ** (27↔27̄) — amphichiral
+  ⟺ θ-symmetric ⟺ vector-like is one identity; the crux (can c ever be carried into θ?) = Lane
+  C's Q-A/Q-B/Q-C. Revival queue top-5 in REPORT.md §4.
+
+## LAST BANKED (B569 — THE "COMPLETE CHAIN" HANDOFF ADJUDICATED, 2026-07-14)
+- **The sixteenth σ→SM chain, killed exactly at its two new links.** Link 4 ("compactness from E₆
+  CS at level 1"): the handoff's modular data was INCONSISTENT (SU(3)₁'s h=1/3 pasted onto E₆'s
+  c=6; (ST)³≠S²) — its headline Z=−1 flips to +1 on another spelling of the same monodromy word.
+  The consistent E₆,₁ computation (h(27)=2/3, proved from the root system): ρ(A₁) unitary, order
+  4, θ-split {±i | +1}, **Z=+1 — the claimed chirality bit does not exist**; and the invariant
+  lives on the measurement face (two-faces, #884) of the Sol fiber-filling — **the compactness
+  gap (B565-H1) STANDS.** Link 7 ("G_SM the unique chiral theory on F₄"): REFUTED — the 26 of F₄
+  is self-dual (nonzero weights = the 24 short roots), so EVERY subgroup of F₄ inherits a
+  self-conjugate 27; zero chiral theories on the F₄ stage. The fourth wall (chiral index ≡ 0,
+  B565-T3) is now a pure Lie-theory theorem: **the stage itself refuses chirality.** Links
+  1,2,3,5,6 were already ours. 6 locks + reproducer.
+
 ## LAST BANKED (B565 THE GAUGE-BEHAVIOR CAMPAIGN — 2026-07-14, 44 agents, 18 cells + 123-kill exhumation)
 - **The gauge question closed at the BEHAVIOR level.** T1: the ℤ/11 charge does NOT descend to the
   anyon chain (11 divides no IR symmetry order) — non-anomalous UV bookkeeping, not a force. **T3:
