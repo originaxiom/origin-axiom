@@ -295,3 +295,42 @@ reading lives in `speculations/S061`.
 **Paper candidate PC24** (papers/CANDIDATES.md): the 3/2 Law / escalator growth — a
 verified theorem, **novelty pending the lit-gate** (substitution-tower /
 graph-directed IFS / joint-spectral-radius literature).
+
+## Tower-probe campaign — charge arithmetic (multi-agent, adversarially verified 2026-07-13)
+
+Four charge-tower cells from the tower-probe campaign, each re-verified in-sandbox
+(`tests/test_b556_campaign.py`). Lit-gates all returned UNCLEAR → banked as computed
+fact, no novelty claim (novelty of the 3/2-law/tower NEEDS-SPECIALIST).
+
+**P-F — exact factorization; "one prime per rung" REFUTED at n=4.**
+eₙ = det(I−Mₙ), factored exactly:
+- e₄ = −**11² · 1459 · 597049 · 2169349081** (11 with multiplicity **2**),
+- e₅ = −(6433367189401 · 19807876161211 · 114192827433802916537068946505308579),
+  three distinct new primes.
+e₁,e₂,e₃ are prime but e₄,e₅ are **composite** — so seat-1's "one new prime per rung"
+holds only through n=3. The surviving positive law: **11 | eₙ ⟺ n ≡ 1 (mod 3)**,
+verified through n=7 (zeros at n=1,4,7) by an independent modular determinant; at n=4
+the divisibility is 11² (multiplicity 2). No factor of 5 or 7 divides any eₙ (n≤5),
+though both have g-roots — the orbit hasn't reached them in range (consistent with the
+period finding).
+
+**P-C — the magnitude-degeneracy law 2ⁿ−1 (mechanism: complex conjugation).** The
+number of pairs of *distinct* eigenvalues of Mₙ sharing the same |λ| is **exactly
+2ⁿ−1** (0,1,3,7,15 for n=0..4). Mechanism (verified, not asserted): the charpoly is
+irreducible at every rung (degrees 2,4,8,16,32), Mₙ has **exactly 2 real eigenvalues**
+each rung, and all 2ⁿ−1 degenerate pairs are **complex-conjugate** pairs (z, z̄) —
+zero real ± pairs. So (2ⁿ⁺¹−2)/2 = 2ⁿ−1 is the count of conjugate pairs. The
+"√φ→−√φ" framing is one instance of this general conjugation, not a separate effect.
+
+**P-B — the free energy has NO thermodynamic limit.** fₙ = log|eₙ|/2ⁿ⁺¹ is strictly
+increasing and **diverges as (3/2)ⁿ** (fₙ/(3/2)ⁿ → C ≈ 0.29; fₙ₊₁/fₙ → 3/2). Since
+log|eₙ| grows at rate 3 and sites at rate 2, the per-site free energy is intrinsically
+divergent — the tower never thermalizes. The 3/2 reappears in the thermodynamics.
+
+**FL2 — the golden-norm doubling transfer (closes the n≥2 gap).** The transfer
+operator **D(G)(y) = Res_t(t²−2yt+y²−y³, G(t))** propagates the golden-branch charge
+polynomial one doubling level (degrees 3, 9, 27, …). Verified EXACT: g₂ = D(g₁) (deg 9)
+gives N_{ℚ(√5)/ℚ}(g₂(φ)) = −809 = e₂, and g₃ = D(g₂) (deg 27) gives N(g₃(φ)) =
+−18845089 = e₃ — over exact ℚ(√5) arithmetic, cross-checked against det(I−Mₙ). So the
+golden-norm closed form **eₙ = N_{ℚ(√5)/ℚ}(gₙ(φ))** now holds for n≥2 (was exact only
+at n=1); the whole charge tower is one resultant iteration of a fixed cubic on φ.
