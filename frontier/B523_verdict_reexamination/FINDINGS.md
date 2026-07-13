@@ -153,3 +153,29 @@ NOT.** Recorded, with one **corrected mechanism** (verify-don't-trust,
   showed the (3,1) cone is **evolution-verb-only and generic**, so no
   object-specific metric is forced. **STAGE built, SCRIPT not** — Door 2 stays
   the live door, exactly as chat-1 concluded.
+
+## Addendum (Door 2 sharpened, verified 2026-07-13): Ad(C) on sl(2,ℝ) — a signature SPLIT, not a forced (3,1)
+
+A cross-seat computation of Ad(C) on sl(2,ℝ), with the correct amphichiral matrix
+C = [[1,0],[−1,−1]] (the #860 fix), reduces Door 2 to a **selection principle**.
+Independently reproduced (`tests/test_b523.py::test_amphichiral_signature_split`):
+- **C ∈ sl(2,ℝ)** (tr C = 0) and C² = I, so Ad(C) is an involution. In the basis
+  (H,E,F), **Ad(C) = [[1,−1,0],[0,−1,0],[−2,1,−1]]**, eigenvalues **+1, −1, −1**
+  (the −1 eigenspace is **2-dimensional**). The +1 eigenvector is C itself,
+  Killing-**spacelike** (B(C,C) = 8 > 0). Full sl(2,ℝ) is signature (2,1).
+- **The Killing form restricted to the −1 eigenspace is INDEFINITE** — Gram
+  [[2,4],[4,0]], det = −16 < 0, eigenvalues 1±√17 (one +, one −) = **signature
+  (1,1)**: the flipped subspace contains **both a spacelike and a timelike
+  direction**.
+- **Consequence (the honest sharpening).** The amphichiral involution does NOT
+  force Lorentzian (3,1): depending on which direction in the 2D −1 eigenspace the
+  S¹ realizes, the mapping torus signature can be **(3,1) OR (2,2)**. Amphichirality
+  *allows* Lorentzian, it does not *select* it. **Door 2 is therefore a SELECTION
+  PRINCIPLE within a 2-dim subspace of sl(2,ℝ), not a topological obstruction** —
+  the missing ingredient must pick the spacelike direction (candidates: the BKL/
+  Kasner metric, which is (3,1) by construction; B523's evolution-verb cone; the
+  tower's one-directional growth — each a *physical* input, not a topological
+  proof). The specific eigenvector norms a cross-seat quoted (−2.29/+5.58) are
+  basis-dependent (the −1 eigenspace is degenerate); the **invariant is the (1,1)
+  signature**, which is what's confirmed. Door 2 stays OPEN but its shape is now
+  precise.

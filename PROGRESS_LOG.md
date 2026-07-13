@@ -10,6 +10,22 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — Door 2 sharpened (verified): Ad(C) on sl(2,ℝ) is a signature SPLIT, not a forced (3,1)
+
+Verified a cross-seat 3×3 computation with the correct amphichiral matrix C=[[1,0],[−1,−1]]
+(the #860 fix). Ad(C) on sl(2,ℝ) (basis H,E,F) = [[1,−1,0],[0,−1,0],[−2,1,−1]], eigenvalues
++1,−1,−1; the −1 eigenspace is 2-dim; the +1 eigenvector is C itself (spacelike, B=8). The
+KILLING FORM RESTRICTED TO THE −1 EIGENSPACE IS INDEFINITE (Gram [[2,4],[4,0]], det=−16,
+eigenvalues 1±√17) = signature (1,1): the flipped subspace holds BOTH a spacelike and a
+timelike direction. So amphichirality ALLOWS (3,1) or (2,2) — it does not force Lorentzian.
+Door 2 is thereby sharpened to a SELECTION PRINCIPLE within a 2-dim subspace of sl(2,ℝ), NOT
+a topological obstruction; the missing ingredient must pick the spacelike direction (BKL/
+Kasner, the B523 evolution cone, or the tower's one-way growth — physical inputs, not proofs).
+The cross-seat's specific norms (−2.29/+5.58) are basis-dependent; the invariant (1,1)
+signature is what's confirmed. Door 2 stays OPEN, now with a precise shape. 1 lock.
+
+---
+
 ## 2026-07-13 — the 3/2 Law (Session-5 handoff): the escalator's minimal self-coupling rate
 
 Verified seat-1's Session-5 theorem in-sandbox (4 locks, test_b556_three_half_law.py).
