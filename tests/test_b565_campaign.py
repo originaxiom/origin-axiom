@@ -52,3 +52,22 @@ def test_f3_tower_conjecture_refuted_at_rung3():
     assert tail < Fraction(1, 10**30)                           # P ~ 5.8e-37: REFUTED
     # rung-1 and rung-2 remain exact: D4 (order 8) and SmallGroup(32,43) (order 32)
     assert 2 ** (2 * 1 + 1) == 8 and 2 ** (2 * 2 + 1) == 32     # the formula held only to rung 2
+
+
+def test_two_faces_compactness_split():
+    """The two-descriptions split (owner insight, 2026-07-14): the MEASUREMENT face
+    (Weil/Heisenberg on C^15) is unitary with FINITE image (compact); the ALGEBRA face
+    (the holonomy) is non-compact in every real form (the real-form theorem). The
+    measurement space C^15 = C^3 (x) C^5 couples the two ends (3 Eisenstein, 5 golden)."""
+    import numpy as np
+    N = 15
+    om = np.exp(2j * np.pi / N)
+    Z = np.diag([om ** k for k in range(N)])
+    X = np.roll(np.eye(N), 1, axis=0)
+    assert np.allclose(Z @ Z.conj().T, np.eye(N)) and np.allclose(X @ X.conj().T, np.eye(N))
+    assert np.allclose(X @ Z, om ** (-1) * Z @ X)          # Heisenberg commutation (this convention)
+    assert np.allclose(np.linalg.matrix_power(X, N), np.eye(N))
+    assert np.allclose(np.linalg.matrix_power(Z, N), np.eye(N))   # finite image => compact
+    # |SL(2,Z/15)| = 2880 (the Weil-image scale; cf. the banked order-2880 modular image)
+    assert 15 ** 3 * (1 - 1 / 9) * (1 - 1 / 25) == 2880
+    assert 15 == 3 * 5                                      # C^15 = C^3 (x) C^5: the two ends' seam

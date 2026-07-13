@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — the two-descriptions split (B565 addendum)
+
+### Added
+- B565 RESULTS addendum: the algebra face (non-compact, proven) vs the measurement face
+  (unitary/finite/compact, verified; C^15 = C^3 x C^5 = the two ends; |SL(2,Z/15)|=2880);
+  compactness is constitutively observer-side — the TDV gap located at the coupling.
+  Bridge = B258 (Kashaev -> Vol). +1 lock; HINT_LEDGER H122.
+
+---
+
 ## 2026-07-14 — governance: decadal-review cadence raised to every 20 merges
 
 ### Changed

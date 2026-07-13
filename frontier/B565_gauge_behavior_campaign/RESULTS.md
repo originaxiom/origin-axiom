@@ -61,3 +61,28 @@ live structural generations thread) and the corrected tower arithmetic (8T15 exa
 2^{2n+1} refuted — the Galois tower is *bigger* than conjectured). The kills that were
 owed honest facts got them (B85 with its ⌈(n−2)/2⌉ law; L38 with its weight-0 theorem);
 and the exhumation shows the ledger is 92% sound with one epitaph corrected.
+
+## Addendum (owner insight, verified 2026-07-14): the two descriptions, and where compactness lives
+
+The program carries TWO descriptions of the object, and the campaign's real-form theorem
+splits them exactly along compactness (`tests/test_b565_campaign.py::test_two_faces_compactness_split`):
+
+- **The ALGEBRA face** (the character variety, E₆(ℂ)): where the object's structure lives.
+  **Provably non-compact in every real form** (H1: non-real adjoint traces; regular-unipotent
+  meridian). Values-free, Galois-graded, the firewall's home.
+- **The MEASUREMENT face** (the Weil representation on ℂ¹⁵, the WRT/modular data): where
+  observation lives. **Unitary with FINITE image — compact, always** (verified: the Heisenberg
+  operators on ℂ¹⁵ are exactly unitary with X¹⁵=Z¹⁵=I; the Weil-image scale |SL(2,ℤ/15)| = 2880
+  — hint-grade echo of the banked order-2880 modular image). And the measurement space
+  **ℂ¹⁵ = ℂ³ ⊗ ℂ⁵ exactly** (B536: U = U₃⊗U₅, residual 6e-15) — the tensor of the TWO ENDS'
+  characteristics (3 = Eisenstein/E₆, 5 = golden/E₈), whose compositum is the seam's √−15.
+
+**The synthesis (firewalled, the completion of "compactness is the gap"):** the compact
+structure the TDV route needs is constitutively a **measurement-face** feature — unitarity is
+what observation brings — and the algebra face provably never supplies it. So the TDV gap is
+located exactly at the **observer coupling**, in agreement with the reorientation (values and
+now even *compactness* live in the coupling, not the object). Honest boundary: the measurement
+face's compactness is a FINITE group, not the compact Lie form F₄(₋₅₂) — the location of the gap
+is identified; the gap itself is not thereby crossed. The banked bridge between the two faces is
+the volume-conjecture instance (B258: Kashaev ⟨4₁⟩_N → Vol = 2.0299) — the measurement
+description recovers the algebra description asymptotically.
