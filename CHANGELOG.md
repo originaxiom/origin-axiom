@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B568-PQ: why do you persist (answered)
+
+### Added
+- B568 RESULTS Batch PQ: the four-legged persistence mechanism (verified exactly); R(n)
+  exact to n=185 — a self-similar staircase inflating by exactly beta per level; honest
+  nulls on linearity and the limsup constant. tests/test_b568_persistence.py (6 locks).
+
+---
+
 ## 2026-07-14 — B568 RESULTS: sixteen answers, eight jewels
 
 ### Added
