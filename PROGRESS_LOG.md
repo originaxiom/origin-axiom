@@ -3386,3 +3386,30 @@ Jordan-block bug in my own first lock version caught and fixed — sl₂ strings
   minimal play = the monoid's ground state. Honest open list (10 items).
 
 100 new locks green (12 test files). RESULTS.md is the ledger. Firewalled; nothing to CLAIMS.md.
+
+## 2026-07-14 — B572: the eleven-clause chain adjudicated (the seventeenth chain, the right question)
+
+The incoming "SM from σ end-to-end" handoff: eleven clauses, cost "zero". Adjudication: NINE
+clauses stand — because they are the program's own banked results, correctly cited (the Galois
+chirality, the Klein four, TDV, the triality match, the textbook 16). The genuinely new content:
+
+**V1 REFUTED (locked):** "27|principal = V₃⊕V₇⊕V₁₇" is false — the exact height multiset has
+mult 2 at ±1 (theirs: 3) and 2 at ±4 (theirs: 1); the branching is V₁₇⊕V₉⊕V₁ (the fifth wall's
+basis). Corrected tr₂₇(ρ(ab)) = 647707.5 + 876344.0965i (theirs: 3339.5+4258.2i, wrong blocks).
+
+**THE WELD (the load-bearing gap, locked):** χ₂₇(z) = χ₂₇(1/z) exactly — 27 and 27̄ have the
+SAME character on any SL(2)-factored rep; the holonomy cannot distinguish them (fifth wall).
+"σ distinguishes 27 from 27̄" conflates σ moving the POINT (a c-fact, = clause 3) with a
+27-vs-27̄ selection (a θ-fact). Clause 9 then switches selectors silently: gauge from the θ-fold
+(→F₄, vector-like, B569) but chiral matter from Spin(10)×U(1) ⊂ E₆ — which nothing in the object
+selects. The unpaid items — the selector switch and the c→θ transport — are exactly AP6's open
+questions. "Zero structural cost" is false at that one line. Also regressed: "covers are chiral"
+(refuted by C4). PC26 premature; PC25 strengthened.
+
+**THE UPGRADE (their V4, run here, locked):** the M(2,7) HINT is now an EXACT identity —
+**S_odd(E₆ level 2) = −i·(2/√7)[sin(2πst/7)]** (the ℤ/7 sine kernel; identity ordering 27↔1,
+351′↔2, 351↔3; residual 2e-14; S_odd² = −I = conjugation on the odd sector). S-block only:
+the T-phases {13/84, 73/84, 61/84} are E₆-specific, not M(2,7)'s.
+
+V-tasks: V1 answered (refuted); V4 answered (upgraded); V2 (Fox-calculus H¹) + V3 (orbits ↔
+three 16s) + V5 (global duality with descent) genuine and queued. 3 locks. Firewalled.

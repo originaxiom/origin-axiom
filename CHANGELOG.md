@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B572: the eleven-clause chain adjudicated (V1 refuted, the weld named, the sine kernel)
+
+### Added
+- B572: the seventeenth chain ("SM from σ, zero cost"): nine clauses stand (they are the
+  program's own banks), V1 refuted against an existing lock (27|principal = V₁₇⊕V₉⊕V₁, not
+  V₃⊕V₇⊕V₁₇ — corrected tr₂₇ = 647707.5+876344.096i), and THE WELD named and locked:
+  χ₂₇(z)=χ₂₇(1/z) — the holonomy cannot distinguish 27 from 27̄; "σ selects the 27" conflates
+  c with θ; clause 9's Spin(10)×U(1) selector is unforced. "Zero cost" is false at that line —
+  the unpaid items are AP6's open questions. UPGRADE: **S_odd(E₆,₂) = −i·(2/√7)[sin(2πst/7)]
+  exactly** (the ℤ/7 sine kernel; S-block only). PC26 premature; PC25 strengthened.
+  `frontier/B572_eleven_clauses/FINDINGS.md`, 3 locks.
+
+---
+
 ## 2026-07-14 — B570 COMPLETE: the selection-rules theorem, the fifth wall, Q-A decided
 
 ### Added
