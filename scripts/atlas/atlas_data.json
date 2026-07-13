@@ -11402,6 +11402,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B561": {
+   "slug": "l50 crux",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B257",
+    "B258",
+    "B314",
+    "B347",
+    "B353",
+    "B463",
+    "L50"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B56": {
    "slug": "figure eight invariant surface",
    "motifs": [
