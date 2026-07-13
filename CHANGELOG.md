@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — B565: H2 slotted (gauge arc) + Batch E (false-kill exhumation)
+
+### Added
+- B565 PREREGISTRATION: H2 = chat-2's gauge arc (U(1)-ladder, Kirchberg-Phillips, Galois census,
+  the anomaly-incompatibility proof) — pre-verified exact on receipt incl. an EXHAUSTIVITY proof
+  of the three completion vectors; F2/F3/F4 + lit-gates prereg'd; F6 cross-referenced to FL1.
+- B565 Batch E: the false-kill exhumation (inventory + 6 auditors + ledger), per the
+  compute-the-discriminating-fact standard (B525 precedent: 3/10 cracked).
+
+---
+
 ## 2026-07-13 — B565-H1 slotted: the TDV/Krasnov/Boyle bridge
 
 ### Added
