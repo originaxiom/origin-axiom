@@ -3616,3 +3616,13 @@ gap⟺chirality biconditional is UNCONDITIONAL on the object's group.** **D3:** 
 one structure; B181 domain-disjoint (wording repaired); the missing B507 lock delivered. **D2
 Q-C: stays OPEN** — the verifier is right that no transport map was constructed; sharpened.
 **D5/D9: agent stubs — re-launched.** 20 locks adopted (Massey behind OA_SLOW). Firewalled.
+
+## 2026-07-14 — B580: the literature framing dossier adopted (the first fully-disciplined handoff)
+
+The chord-computation framing adopted into frontier/B580_chord_program/LITERATURE_FRAMING.md
+with four adjudication notes (conventions compatible; the honest method gap named — E₆ level-2
+knot invariants are a method to BUILD via the six-block state-integral factorization, extending
+B425; fibered-not-plumbed; the insights = well-labeled hypotheses, targets not premises).
+Literature anchors (DGLZ, DGG, Charles–Marché, GPPV, Murakami quantum modularity) slot under
+traverse step 0. Notable: the handoff carries the full discipline header — the attribution and
+compute-first lessons landed across seats. D5 (Kubota–Leopoldt) and D9 (hygiene) reruns launched.
