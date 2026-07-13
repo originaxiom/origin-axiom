@@ -166,6 +166,15 @@ arithmetic-CS at p=809 (twisted Rédei gap for 11≡3 mod 4); **N7** B565-T1 cro
 SymTFT claim. Collisions to cite in any bank: Kellendonk coinvariants/BBG gap labels
 (torsion-as-charge), textbook CK K-theory, PCF qualitative collapse (Pink/BGJT).
 
+## The self-interaction gap register — COMPUTED (B566, 2026-07-14; frontier/B566_self_interaction/RESULTS.md)
+
+All five gaps computed (5 locks). ★ S5: **the triple identity** — ℤ/11 = N(φ⁵−1) = the 5-fold-cover
+torsion prime (the charge is GEOMETRIC; n=5-specific). S1: **the N=p² recursive dark-hyperbola law**
+(LIVE; spectrum {0,1,√p,p}, exact counts, 7 levels; symbolic proof = the named open step —
+PC22-successor material). S2: KMS weights ≠ frequencies; T-ratio → 2/3. S3: canonical S(5:3)=0.3217,
+λ₊λ₋=15/169 (mode over all doubles = 0). S4: measurement-of-measurement collapses 15→3, fixed at the
+Eisenstein end. Original register below.
+
 ## The self-interaction gap register (owner question, 2026-07-14 — what the object does to itself that we never measured)
 
 After the gauge arc, the accounted self-interactions: self-substitution (fixed point), self-observation

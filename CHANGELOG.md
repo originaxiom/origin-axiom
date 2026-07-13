@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B566: the five self-interactions computed
+
+### Added
+- frontier/B566_self_interaction/RESULTS.md: ★ the TRIPLE IDENTITY (Z/11 = N(phi^5-1) =
+  the 5-fold-cover torsion prime — the charge is geometric, n=5-specific); the N=p^2
+  recursive dark-hyperbola law (LIVE, 7 levels); thermal time (KMS != frequencies, T-ratio
+  2/3); the canonical ends-entanglement (S=0.3217, 15/169; mode 0 correction); the
+  measurement collapse (SL(2,Z/15)^ab = Z/3).
+- tests/test_b566_self_interaction.py (5 locks). H123-H127 -> CHECKED; OPEN_LEADS updated.
+
+---
+
 ## 2026-07-14 — the self-interaction gap register
 
 ### Added
