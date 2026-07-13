@@ -547,3 +547,52 @@ anchor-commit: `a4f799e`
    and the adversarial-verify gate lost 0 verified claims. No claim survived on authority.
 
 *(window #854–#867; anchor = HEAD after the P-E/E4 re-run, before this review PR.)*
+
+---
+
+## Review 15 — 2026-07-14 (merges #869–#882 from Review 14; the gauge arc)
+
+anchor-commit: `ecf29e0`
+
+1. **Suite:** 1980 passed / 12 skipped; one failure = the KNOWN state-dependent SnapPy flaky
+   (`test_b207::test_metallic_volumes_bounded_golden_minimal`), second consecutive review it
+   trips under full-suite load while passing standalone (3/3 re-runs here). Now a NAMED hygiene
+   item: isolate or add a retry to that lock. No regression; nothing in the window touched B207.
+
+2. **Gates:** 7/7 green. **Governance change this window:** the review cadence raised
+   10 → 20 merges (#882, owner directive — merge density doubled); this review anchors the
+   old cadence's last window; the 20-cadence applies from this anchor.
+
+3. **The window = the gauge arc, end to end.** B560 (chat-3 cells verified: the ℤ[τ] frequency
+   module, the certified 253-point local atlas); B561 + addenda (the L50 CRUX, the Klein-four
+   route, and the cusp-reframe — the E₆→F₄ chain terminates at F₄ under every proposed selector);
+   B562 probation results (21 verdicts; B564 SL(3) φ-fixed locus entirely reducible); B563 the
+   Planck-ratio prereg NULL (the dialed bin's 4th level); the two literature maps (the
+   bookkeeping-pole diagnosis; the sharpened sweep with lk₂(11,809)=1 and the arboreal
+   identification, both locked); and **B565 — the gauge-behavior campaign** (18 cells + the
+   123-kill exhumation): the ℤ/11 charge does not descend (T1); **the chiral index ≡ 0 — the
+   fourth mechanism-level wall** (T3); Krasnov verified by computation; **the real-form theorem —
+   the holonomy lands in F₄(ℂ) in no real form; compactness is the TDV gap** (H1); the triality
+   match B299 ≡ Boyle (the one live generations thread, firewalled H120); rung-2 Galois = 8T15
+   exact; **2^{2n+1} refuted at rung 3**; O_{M₁₆} ≅ O₁₈₈₄₅₀₉₀; B71 externally corroborated (HMP);
+   B85 and L38 kills EARNED with their facts (the ⌈(n−2)/2⌉ law; the ℂ*-weight-0 theorem).
+
+4. **The exhumation (owner-directed):** 123 banked negatives audited — **113 sound / 9 suspects
+   / 1 cracked epitaph** (S014's "~60%" clause: never computed in-repo, does not reproduce;
+   corrected — the kill stands on circularity). The post-B525 prereg-era discipline audits clean.
+
+5. **Corrections ran in every direction:** seat errors caught (ω-conflation, the J-matrix,
+   one-prime-per-rung, 2^{2n+1}); my errors caught by the owner (the bit-count) and by verify
+   (the c_eff softening); agent overclaims rejected by the adversarial stage (P4, P19, R4's
+   suppressed null rank data, H2-F4's "uniform" claim at p=11). No claim survived on authority.
+
+6. **Net.** The gauge question is closed at the behavior level with four mechanism-level walls
+   (values ×3-levels + hierarchy-ratios; selection-principle disjointness; chirality; compactness),
+   and the object's own gauge story is complete in outline (abelian ladder, Cuntz algebras,
+   torsion charges, screening flow, confining-like strings, KMS temperatures, arboreal Galois,
+   linked charge primes). Three papers stand ready (PC23 reinforced-first, PC24 scoped vs PCF,
+   PC25 with the compactness-gap headline). Promotion candidates flagged for §5: the T3 index-0
+   wall and the real-form theorem — both theorem-shaped with locks.
+
+*(window #869–#882; anchor = HEAD after the cadence change; next review due at 20 merges.)*
+
