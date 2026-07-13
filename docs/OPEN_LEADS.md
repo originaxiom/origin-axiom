@@ -494,6 +494,9 @@ fix (every named open gets a row or it evaporates).
 | **L68 — the B571 revival queue** | Five buried completions (frontier/B571_day0_internalization/REPORT.md §4): (1) Q-C = L52; (2) the criticality unification theorem + the missing B507 lock; (3) e₃ CRT completion (primes 7–10; two failed passes — Jul 4 + Jul 9 UNSTABLE — now both on record); (4) the Kubota–Leopoldt discriminating computation (gate-c error class); (5) S031 at bronze m=3 — **the B137 deferral reason is WRONG: K₃ = ℚ(√13) IS quadratic** (disc 13 squarefree); run B137's MB7 method with B160's bronze trace map. | MATH | ★★★ | OPEN (queue) |
 | **L69 — shared root-BFS test helper** | The E₆ Weyl/root BFS is copy-pasted across test_b572/b573/b574; factor into one tested helper (hygiene, Review 16 R6). | HYGIENE | ★ | OPEN |
 
+| **L72 — the CS-functional/dynamics program (phase 1: E₆-principal torsion)** | The handoff's dynamics proposal, MB13-swept: Reidemeister torsion is a banked five-thread (B126 — adjoint torsion PROVEN for all once-punctured-torus bundles; B425 — τ₁ = −3 ∈ ℚ(√−3) at the geometric root; B350/B330/B134). The genuinely new step: the E₆-PRINCIPAL torsion = the product of the six Sym^{2m}-block torsions — start from B425's method. Phases 2-3 (E₆ 6j at levels 1-2; the CS functional along the θ-odd deformation) gated on phase 1. | MATH | ★★★ | OPEN (B579) |
+
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the

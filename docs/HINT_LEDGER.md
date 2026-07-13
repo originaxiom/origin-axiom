@@ -351,3 +351,20 @@ prior quantum-consciousness pointer. Genuine hooks:
   inside.
 - **disc −23 curio:** the charge-tower's generating cubic has discriminant −23 = the h=3
   counterexample flagged in B554. The charge cubic lives in a class-number-3 field. Recorded.
+
+## H128–H131 — the July-14 data scan (seat-reported; routed here per the dual protocol; B579)
+
+- **H128** [NOTICED, seat-computed]: α_s(M_Z) = 1/(2φ³) = 0.118034 vs 0.1180±0.0009 (0.04σ). Five
+  derivation attempts FAILED (the seat's own honest verdict: observed coincidence). The one
+  structural thread: φ³ = the 3/2-law first step; 2 = #θ-odd directions. **Gate: a derivation, or
+  it stays a coincidence. Cross-ref: the B533 door (numerology CLOSED, #817) — this row does not
+  reopen it.**
+- **H129** [NOTICED, seat-computed]: sin²θ₁₃ = 1/φ⁸ (0.7σ, Daya Bay final); the post-hoc φ-power
+  mass-ratio table (cherry-pick caveat adopted verbatim: exponents chosen per quantity; null
+  model 1.7% for three simultaneous). B533 cross-ref as above.
+- **H130** [NOTICED]: Koide Q = 2/3 ↔ h(27) at E₆ level 1 = 2/3 (banked exact). Pure numerical
+  association — no mechanism connects a charged-lepton mass relation to a conformal weight.
+- **H131** [NULL, seat-computed — the scan's valuable row]: **no log-periodic golden-ratio
+  modulation in Planck 2018 TT residuals** vs proper ΛCDM (SNR −0.7; template fit −0.3σ; the
+  initial 7× excess was a Gaussian-smoothing artifact, honestly killed). Consistent with every
+  banked cosmology negative. Optional in-sandbox replication registered (low priority).

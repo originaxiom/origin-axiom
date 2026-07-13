@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B579: the session handoff adjudicated (scan → HINT_LEDGER; the duet quartic correction)
+
+### Added
+- B579: θ-odd dims {1,3,8,17} verified + locked; T(F) char poly corrected to the banked rung-1
+  quartic x⁴−2x³−5x²−4x−1 (theirs wrong); attribution corrections (ω=B299 NOT verified — in
+  adjudication, B578-D8); the data scan routed to HINT_LEDGER H128–H131 with the B533-door
+  cross-reference (the CMB null H131 = the valuable row); L72 registered (dynamics program,
+  MB13-swept onto the banked torsion thread). `frontier/B579_session_handoff/FINDINGS.md`, 2 locks.
+
+
 ## 2026-07-14 — B577: the reconciliation (B575/B576 = the banked {4,8} program, confirmed exactly)
 
 ### Added
