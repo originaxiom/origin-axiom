@@ -484,3 +484,66 @@ anchor-commit: `0377952e7c7d2313232fdcd3592c303317a71309`
 anchor-commit: `70409cb164ade39848176e3e96a2bce10b3cd0ff`
 
 *(window #838–#853; anchor = HEAD after the charge-tower arithmetic.)*
+
+---
+
+## Review 14 — 2026-07-13 (merges #854–#867 from Review 13)
+
+anchor-commit: `a4f799e`
+
+1. **Suite:** 1961 passed / 0 failed / 12 skipped (deterministic order). One
+   self-introduced failure was caught and fixed *by* the review: `test_public_surface_scan`
+   flagged an AI-session label ("chat-2") that had entered `docs/OPEN_LEADS.md` during the
+   window — scrubbed to neutral "cross-seat" phrasing in this review commit. One pre-existing
+   SnapPy flaky (`test_b207::test_metallic_volumes_bounded_golden_minimal`, unmodified this
+   window) intermittently fails under random test order but passes standalone and alongside the
+   new `test_b559` snappy tests (no order-dependency introduced) — noted, not a regression.
+
+2. **Gates:** 7/7 green. Counter reset by this anchor.
+
+3. **Atlas:** regenerated and fresh.
+
+4. **The window = the tower-probe campaign + the accumulated handoff harvest.** A model-tiered
+   multi-agent all-nighter (30 agents, 0 errors, adversarial verify per cell) turned the
+   escalator hypothesis into a **per-rung-provable structure**, and closed every physics channel
+   it probed. POSITIVES (all locked): the **3/2 Law** (T_k growth (k+1)/2; golden escalator = 3/2
+   minimal; C=2.4283); the **golden-norm doubling transfer** e_n=N_{ℚ(√5)}(g_n(φ)) now n≥2; the
+   **2ⁿ−1 magnitude-degeneracy law**; the exact **factorization** (e₄=−11²·1459·597049·2169349081;
+   11|e_n⟺n≡1 mod 3 through n=7); the **explicit σ₈ carrier** with lifted seed-invariant; the
+   **rung-2 gap-label module** (degree-8 successor to B555); **B559** black-hole probes
+   (critical-not-area-law chain; figure-eight = finite-volume CS=0 3D-gravity instanton vs BTZ).
+   NEGATIVES (earned by computation): **no fusion category at rung 1** (λ₁ non-cyclotomic, D₄
+   Galois; the escalator exits the fusion world); **no CFT c_eff lock-on** to 7/10; **Galois NOT
+   (ℤ/2)ⁿ⁺¹** (D₄, non-abelian — the mechanism behind the conjugate-pair degeneracy);
+   **covering functors non-escalating** (only (M,M²) escalates); **free energy divergent**
+   ((3/2)ⁿ, no thermo limit); **BKL "IS the trace map" downgraded** to conjugate-on-locus
+   (Bombieri/Series prior art), golden-Kasner 3/2=1+p₂ kept.
+
+5. **Corrections with receipts (verify-don't-trust ran both ways).** Caught in incoming handoffs:
+   seat-1's "one prime per rung" (refuted at n=4, 11 repeats); the amphichiral matrix J (does not
+   commute with A₁; correct C=[[1,0],[−1,−1]]); the "17=17" identity (two different 17s — words
+   vs values); the Galois "(ℤ/2)ⁿ⁺¹" claim (it is D₄); "BKL IS the trace map" (conjugate-on-locus,
+   prior art); the −2.29/+5.58 signature norms (basis-dependent; the invariant is the (1,1)
+   signature). My own, caught by the owner: the e₅ bit-count — I wrongly "corrected" chat-2's
+   correct 203 (⌊log₂⌋) to 204 (owner's "u sure" → self-corrected, #859); and the B559 c_eff
+   over-claim, softened to fit-dependent (reconciling seat-1's tight-binding Probe A). Door 2
+   sharpened: amphichirality allows (3,1) OR (2,2) — a signature-selection principle, not a
+   topological obstruction.
+
+6. **Paper gates / novelty.** All three lit-gates returned UNCLEAR → everything banked as computed
+   fact, no "appears-novel" language; PC24 (the 3/2 law) registered novelty-pending; PC22 (dark
+   hyperbola) and the fusion-category question are NEEDS-SPECIALIST (MathSciNet/primary-source,
+   not web-fetchable).
+
+7. **Stale leads / promotion.** The escalator/feedback threads closed this window: FL1, FL2, FL3,
+   E1, E4 all marked DONE in OPEN_LEADS; only E0 (the functor lit-gate) and the two paper gates
+   remain. No new promotion-candidate crossed the §5 bars (the campaign output is firewalled
+   frontier findings; promotion runs through §5 separately).
+
+8. **Net.** The numerical-matching program stays complete-and-negative; the escalator tower is now
+   a per-rung-provable mathematical object whose every probed physics channel is closed. The
+   object is golden, self-coupling, non-terminating, minimal — **mathematics, not physics.** The
+   multi-agent campaign ran cost-tiered (haiku/sonnet/fable/opus by task) at 30 agents / 0 errors,
+   and the adversarial-verify gate lost 0 verified claims. No claim survived on authority.
+
+*(window #854–#867; anchor = HEAD after the P-E/E4 re-run, before this review PR.)*

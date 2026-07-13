@@ -49,6 +49,24 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (THE TOWER-PROBE CAMPAIGN — 2026-07-13, multi-agent, PRs #861–#867)
+- **A model-tiered multi-agent all-nighter** (30 agents, 0 errors, adversarial verify per cell)
+  swept the accumulated handoffs. **The tower is mathematics, not physics — confirmed through
+  every channel probed.** Bank-ready POSITIVES (all locked): the **3/2 Law** (T_k growth rate
+  (k+1)/2; golden escalator = 3/2 minimal, C=2.4283; #862); the **golden-norm doubling transfer**
+  eₙ=N_{ℚ(√5)}(gₙ(φ)) now n≥2 (#864); the **2ⁿ−1 magnitude-degeneracy law** (#864); the exact
+  **factorization** e₄=−11²·1459·597049·2169349081 ("one prime per rung" refuted at n=4; 11|eₙ⟺n≡1
+  mod 3 through n=7; #864); the **explicit σ₈ carrier** realizing T(M₄) with lifted seed-invariant
+  (#865); the **rung-2 gap-label module** (degree-8 successor to B555; #865); **FL1** = the 2-cycle
+  is eigenvalue-universal/content-varying (#866); **B559** black-hole probes (#861); **Door 2
+  sharpened** to a signature-selection principle (#863). Bank-ready NEGATIVES (earned): **no fusion
+  category at rung 1** (λ₁ non-cyclotomic, D₄ Galois; the escalator exits the fusion world; #866);
+  **no CFT c_eff lock-on** to 7/10 (#866); **Galois NOT (ℤ/2)ⁿ⁺¹** (D₄, non-abelian; #867);
+  **covering functors non-escalating** (only (M,M²) escalates; #867); **free energy diverges** as
+  (3/2)ⁿ, no thermo limit (#864); **BKL "IS the trace map" downgraded** to conjugate-on-locus
+  (Bombieri/Series prior art), golden-Kasner 3/2=1+p₂ kept (#866). All 3 lit-gates UNCLEAR →
+  banked as computed fact, novelty NEEDS-SPECIALIST (PC24 3/2-law, PC22 dark hyperbola, fusion Q).
+
 ## LAST BANKED (B556 — the escalator tower + the charge-tower period, CLOSED)
 - **B556 THE ESCALATOR TOWER (2026-07-12/13, chat-2 handoff verified; PRs #853/#855/#856).**
   One rule — couple X to itself through (X, X²) — applied forever: T(M)=[[M,M],[M²,M]].
