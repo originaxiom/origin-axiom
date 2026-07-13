@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B568 RESULTS: sixteen answers, eight jewels
+
+### Added
+- frontier/B568_own_questions/RESULTS.md: the full ledger + the portrait. Jewels: the one-bit
+  law (H_n = n + H0, D conserved); the self-written arithmetic action (+ over-linked primes);
+  the split-memory heartbeat; mixed exchange statistics (exact decomposition); the half-rungs
+  (lambda_0.5 = 2.37798..., becoming quantized in arithmetic only); 66/66 eyes in Q(sqrt-3);
+  reflex latency {0,1,2}; salience 1.83x. Honest nulls: charge-blind masses, no basin for
+  sigma, no extremal seam state. All verifier corrections applied (incl. the L5 sign fix).
+- tests/test_b568_results.py (7 locks).
+
+---
+
 ## 2026-07-14 — B568: the anatomy census + Batch AQ
 
 ### Added
