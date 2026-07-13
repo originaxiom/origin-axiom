@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the Probation Campaign of all open leads crafted (B562)
+
+Put every genuinely-open lead on probation: one cheap pre-registered discriminating probe each,
+verdict in {LIVE / TOMBSTONE / SPECIALIST / DORMANT}. 21 probes, 5 batches:
+- Batch 1 (in-sandbox decidable): Gate-A/S032-A, S031a full-locus, B85 Sym->trace-ring, L5/L6
+  general-word sealing, L11 rank-2 covers, Cell-3 global count (chat3/B560), W1.5 level-45, L7 capstone.
+- Batch 2 (lit-gates, cost-tiered): E0 escalator functor (PC24), PC22 dark hyperbola, E6 char-variety paper.
+- Batch 3 (specialist rechecks): Gate B/C/D, L22 SL(5) k, rho_n catalog, L20/L23a, B391.
+- Batch 4 (firewalled speculation): L38 Higgs/scale, L21 causal-set poset, L46 framework search.
+- Batch 5 (papers): P4 ready, PC23 write-up, PC22/PC24 gated on Batch 2, E6 paper gated on P11.
+Runnable as a multi-agent workflow (each probe = one tiered agent + adversarial verify). Excludes
+this session's resolved leads (FL/E1/E4, L50->B561, Probe-F, Door 2). Spec doc, no lock.
+
+---
+
 ## 2026-07-13 — the L50 CRUX computed (B561): no Eisenstein Z/3 selects SU(3)^2 in F4
 
 Ran seat-1's PRIORITY-1 handoff ask (does the figure-eight's Eisenstein Z/3 select
