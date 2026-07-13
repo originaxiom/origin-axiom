@@ -10,6 +10,22 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — tower-probe campaign, the rung-2 carriers (E1 σ8 + T-1 gap labels)
+
+Two escalator-campaign cells, adversarially verified + re-checked in-sandbox
+(tests/test_b557_carriers.py):
+- E1 (closes B557-E1/FL3): an EXPLICIT primitive 8-letter substitution σ8 realizes T(M4)
+  (incidence exact, primitive at k=2), and the quine seed-invariant LIFTS (letter 1 once at
+  position 0 in every image, because row 1 of T(M_n) is all-ones — so it lifts at every rung).
+  Rung 2 is BUILT, not just posited.
+- T-1: the rung-2 gap-label module from T(M4) — irreducible octic
+  x^8-4x^7-56x^6-152x^5-205x^4-192x^3-134x^2-56x-11, Perron λ2=10.7248=λ1(1+√λ1), field
+  K=Q(λ2) a golden octic tower Q(√5)⊂Q(√5,√φ)⊂K (deg 2,4,8), signature (2,3), f0=1/λ2. The
+  degree-8 successor to B555's degree-4 rung-1 prediction, from the matrix alone.
+2 locks.
+
+---
+
 ## 2026-07-13 — tower-probe campaign, charge arithmetic (P-F/P-C/P-B/FL2, adversarially verified)
 
 Four charge-tower cells from the multi-agent tower-probe campaign, each re-verified in-sandbox

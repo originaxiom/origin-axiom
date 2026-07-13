@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — tower-probe campaign: the rung-2 carriers (E1, T-1)
+
+### Added
+- frontier/B557_escalator_campaign/CARRIERS_FINDINGS.md: the explicit primitive 8-letter
+  substitution σ8 realizing T(M4) with the lifted quine seed-invariant (E1, closes B557-E1/FL3);
+  the rung-2 gap-label module (irreducible octic, Perron via λ-law, golden octic tower, f0=1/λ2)
+  as the degree-8 successor to B555 (T-1).
+- tests/test_b557_carriers.py (2 locks).
+- OPEN_LEADS: E1/FL3 marked DONE.
+
+---
+
 ## 2026-07-13 — tower-probe campaign: charge arithmetic (P-F/P-C/P-B/FL2)
 
 ### Added
