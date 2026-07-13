@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — literature sweep 2 (sharpened search image)
+
+### Added
+- docs/LITERATURE_SWEEP2_2026-07-13.md: missing machinery (KMS/Exel, arboreal-PCF, arithmetic-CS
+  recipes, Anderson-Putnam border check), borrowable recipes, honest collisions (Kellendonk/BBG,
+  CK textbook, PCF qualitative), N1-N10 targets, verified reading list.
+- tests/test_sweep2_facts.py (2 locks): lk2(11,809)=1 (charge primes linked in Spec Z); the
+  arboreal tower alignment (full at depths 1-2, index-4 collapse at 3).
+- OPEN_LEADS sweep-2 target register; PC23 novelty reinforced; PC24 arboreal scoping note.
+
+---
+
 ## 2026-07-13 — B565: H2 slotted (gauge arc) + Batch E (false-kill exhumation)
 
 ### Added
