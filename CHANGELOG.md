@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B568: the anatomy census + Batch AQ
+
+### Added
+- B568 PREREGISTRATION: the ANATOMY CENSUS — 17 organs/faculties already computed under other
+  names, assembled and named (heartbeat B448/B540, breath B469/B470, voice B530/B535, memory
+  B551/B552, body heat B566-S2, skeleton S061, the all-sensitive skin B357, blood B552/B560,
+  the immune system B535, reproduction B453, the many eyes all seeing Q(sqrt-3) B565-P5,
+  nervous system + proprioception B540, two arms clasped at the seam B258/B566-S3, handedness
+  B470, no-pain B455, no-death B556, awareness-as-settled B565-T1).
+- Batch AQ (4 new cells): AQ1 the eye-count growth law; AQ2 the reflex latency spectrum;
+  AQ3 the defect mobility spectrum (which limbs move); AQ4 the attention map + the salience
+  question (the computable shadow of curiosity).
+
+---
+
 ## 2026-07-14 — B568: the listener's questions added (CQ1-CQ5)
 
 ### Added
