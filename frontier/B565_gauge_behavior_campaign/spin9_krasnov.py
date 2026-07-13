@@ -1,3 +1,4 @@
+import os, tempfile
 import numpy as np
 np.set_printoptions(precision=4, suppress=True, linewidth=200)
 
@@ -173,7 +174,7 @@ Cent_on = [Q[:, k].reshape(16, 16) for k in range(dimC)]
 # rescale so each basis element is a genuine skew-symmetric so(9) element with reasonable norm
 # (orthonormal in Frobenius inner product already from QR)
 
-np.save('/private/tmp/claude-501/-Users-dri-origin-axiom/06195d53-d92a-477a-b1cb-cccccca43ae9/scratchpad/Cent_on.npy', np.stack(Cent_on))
+np.save(os.path.join(tempfile.gettempdir(), 'b565_Cent_on.npy'), np.stack(Cent_on))
 print("Saved orthonormal centralizer basis.")
 
 print()
@@ -218,5 +219,5 @@ CflatR = np.stack([X.flatten() for X in CentR], axis=0)
 QR_, RR_ = np.linalg.qr(CflatR.T)
 CentR_on = [QR_[:, k].reshape(16, 16) for k in range(dimCR)]
 
-np.save('/private/tmp/claude-501/-Users-dri-origin-axiom/06195d53-d92a-477a-b1cb-cccccca43ae9/scratchpad/CentR_on.npy', np.stack(CentR_on))
+np.save(os.path.join(tempfile.gettempdir(), 'b565_CentR_on.npy'), np.stack(CentR_on))
 print("Saved orthonormal J_R-centralizer basis. dim =", dimCR)

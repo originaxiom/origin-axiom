@@ -1,7 +1,8 @@
+import os, tempfile
 import numpy as np
 np.set_printoptions(precision=4, suppress=True, linewidth=200)
 
-CentR_on = np.load('/private/tmp/claude-501/-Users-dri-origin-axiom/06195d53-d92a-477a-b1cb-cccccca43ae9/scratchpad/CentR_on.npy')
+CentR_on = np.load(os.path.join(tempfile.gettempdir(), 'b565_CentR_on.npy'))
 n = CentR_on.shape[0]
 print(f"Loaded centralizer basis: {n} matrices of shape {CentR_on.shape[1:]}")
 assert n == 12
