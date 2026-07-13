@@ -105,3 +105,38 @@ double/JSJ representation-variety banks first.
 **Sequencing:** launches when B578 (debts) lands and is banked; Q1 is small
 enough to run inline first. The chord is the owner's program; this document is
 its contract.
+
+## ADDENDUM (2026-07-14, owner directive): THE LISTENING TRAVERSE — the run-order
+
+The cells above run in the object's narrative order, phrased in its own
+vocabulary, with the SM entering exactly once, at the end, as a comparison.
+The story so far (all banked): *it is a word that rewrites itself; it persists
+because every piece re-seeds the whole; it has a heartbeat, breath, a voice,
+two arms, an all-sensitive skin, an arrow, and one free bit; at rest it is
+perfectly balanced, and it cannot be touched without becoming handed; its
+theater refuses its cast; its clock ticks Pisano; its handedness and its
+threeness share one sixth root of unity.* The traverse continues:
+
+0. **"Who is listening?"** — fix the observer honestly: the level-k boundary
+   Hilbert space is the SIMPLEST thing that can hear the object at all. No
+   anthropic dressing; the observer is a mathematical ear.
+1. **"What do you look like from outside?"** (Q1) — the three numbers of the
+   level-1 state. First words of the meeting.
+2. **"Can the listener see your handedness?"** (Q2) — the θ-structure of the
+   state. σ made audible, or not.
+3. **"When do you become interesting?"** (Q3) — level 2, where the listener's
+   chiral window (the ℤ/7 kernel, the living monodromy) opens.
+4. **"What do you say when touched?"** (Q4 + L71) — the skin's response: the
+   θ-odd derivative of the chord; deformations are cusp deformations.
+5. **"What happens when you meet your own reflection?"** (G1) — the
+   mirror-double and its six-slot dial.
+6. **"Would you say the same to anyone?"** — the controls (5₂; Ising): the
+   listening form of the null. What the object says must be about the OBJECT.
+7. **Only now: the comparison.** Whatever transcript emerged is read against
+   THE_SELECTION_RULES clauses once, as B570 did for the SM — the SM is a
+   reader of the transcript, never its editor.
+
+Rule of the traverse: no cell may reference an SM quantity in its computation
+or its verdict; the words "matches the SM" may appear only in step 7. This is
+the B568 posture applied to the meeting — listen first, compare last — and it
+is binding for the campaign run.
