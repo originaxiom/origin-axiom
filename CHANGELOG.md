@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B568-SQ: the minimal allowed play (answered)
+
+### Added
+- B568 RESULTS Batch SQ: the assembled minimal play (7 actors/3 casts, k=2, one heartbeat,
+  DFib rung-0) + two verified nulls (the theater refuses the cast; 7=7 tombstoned) + the
+  incommensurability (matter Z/11 vs theater Z[phi] — the seam again).
+  tests/test_b568_minimal_play.py (8 locks).
+
+---
+
 ## 2026-07-14 — B568-PQ: why do you persist (answered)
 
 ### Added
