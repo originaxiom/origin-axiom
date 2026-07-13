@@ -21,7 +21,9 @@ tests/test_b556_feedback.py):
 - **VERIFIED — transfer polynomial:** e_{n+1}=det(G(M_{n−1})), G degree 9, EXACT at rungs 1–4
   (reproduces e₂…e₅). A fixed degree-9 kernel drives the charge two rungs at a time.
 - **VERIFIED — growth law:** field degree doubles (2ⁿ⁺¹), log-charge ratio → 3. Per self-coupling
-  the field doubles, the information triples. e₅ = 62 digits / **204 bits** (chat-2's 203 corrected).
+  the field doubles, the information triples. e₅ = 62 digits, in [2²⁰³,2²⁰⁴) — chat-2's "203 bits"
+  (⌊log₂⌋) and bit_length 204 are BOTH correct [self-corrected: an earlier draft here wrongly
+  called chat-2's 203 an error].
 - **VERIFIED — quine seed-invariant:** every σ₄ image holds seed 'a' once, at position 0 — the
   mechanism forcing return-words = images (Durand-classical as a concept; the tower-preservation
   induction PENDING the explicit σ₈ carrier = B557-E1).
