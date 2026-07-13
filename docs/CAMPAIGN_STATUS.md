@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B576 / L59 — THE CHIRALITY IS EXACTLY THE θ-ODD MOTION, 2026-07-14)
+- **The closure question decided: every candidate closure is a block-sum; the θ-even sums close
+  inside F₄ (vector-like forever); ALL SIX forcing channels are nonzero — a θ-odd component
+  forces the closure to full E₆(ℂ), where the 27 IS CHIRAL.** With B575: the geometric point is
+  the achiral point of its own neighborhood; chirality is purchased by first-order motion along
+  σ's imaginary axes — the same θ-odd plane as C3's living monodromy and Q-A's mirror-corrected
+  fold. The seventeen-chain question is answered in its final form: not a selector at the point,
+  but a direction off it. Honest residue: L60 (integrability/Porti companion), L61 (geometric
+  meaning of the deformed reps). PC26 → gated on one independent re-derivation.
+
 ## LAST BANKED (B575 / L51 — THE BRIDGE OBSTRUCTION: Q ≡ 0, 2026-07-14)
 - **The arc's decisive computation, run at owner directive: the quadratic obstruction on the
   E₆ geometric point vanishes IDENTICALLY** — all 6 diagonal and 15 cross components, exact,

@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B576 / L59: the deformed closure — the chirality is exactly the θ-odd motion
+
+### Added
+- B576: the structure theorem — every candidate closure is a block-sum; θ-even sums close in
+  F₄; **all six forcing channels nonzero: θ-odd activation forces full E₆, where the 27 is
+  chiral. θ-even motion stays vector-like. The geometric point is achiral; chirality is
+  purchased by θ-odd motion — σ's imaginary axes, C3's sector.** D₅/A₅ framing corrected
+  (never block-sums). L59 → CLOSED-POSITIVE; L60 (integrability companion) + L61 (geometric
+  meaning of the deformed reps) registered; PC26 → GATED-ON-VERIFICATION.
+  `frontier/B576_deformed_closure/{FINDINGS.md, l59_closure.py}`, 1 lock.
+
+
 ## 2026-07-14 — B575 / L51: the bridge obstruction — Q ≡ 0 (open at second order)
 
 ### Added
