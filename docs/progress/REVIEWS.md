@@ -1,6 +1,6 @@
 # The decadal repo reviews — ledger (GOVERNANCE §11)
 
-Every ~10 merges on `main`, a whole-repo review fires: full suite + all gates +
+Every ~20 merges on `main` (threshold raised from 10 on 2026-07-14; the historical entries below reflect the old cadence), a whole-repo review fires: full suite + all gates +
 atlas regeneration + a claims-vs-frontier promotion-candidacy sweep + a framing sweep +
 a stale-leads check, ending in a dated report appended here. The gates surface DUE
 status automatically (`python3 scripts/gates/gates.py review-due`).

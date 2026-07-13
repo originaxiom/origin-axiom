@@ -204,7 +204,7 @@ def gate_tracked_forbidden():
 
 # --- the decadal review counter ------------------------------------------------------------
 REVIEWS = "docs/progress/REVIEWS.md"
-REVIEW_EVERY = 10
+REVIEW_EVERY = 20  # raised from 10 (owner, 2026-07-14): merge cadence densified; ~10 fired too often
 
 
 def review_status():

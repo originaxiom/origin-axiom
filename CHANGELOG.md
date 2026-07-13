@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — governance: decadal-review cadence raised to every 20 merges
+
+### Changed
+- scripts/gates/gates.py REVIEW_EVERY 10 -> 20 (owner directive: the merge cadence densified —
+  14 merges in one session; ~10 fired too often). GOVERNANCE.md + REVIEWS.md header updated;
+  historical entries untouched. The name "decadal" stays.
+
+---
+
 ## 2026-07-14 — B565 gauge-behavior campaign complete (18 cells + exhumation)
 
 ### Added

@@ -225,7 +225,7 @@ Recurring wording corrections. The left column is **forbidden**; use the right.
   regenerates with the frontier), attribution hygiene, and the forbidden-artifacts list.
   `tests/test_repo_gates.py` runs them with the suite, so **every merge enforces them**.
   Whitelists are frozen constants in the gate file — auditable, versioned amendments only.
-- **The decadal review.** Every ~10 merges on `main`, a whole-repo review fires (ledger and
+- **The decadal review.** Every ~20 merges on `main` (raised from ~10, 2026-07-14 — the merge cadence densified; the name stays), a whole-repo review fires (ledger and
   protocol: `docs/progress/REVIEWS.md`); the gates surface DUE status automatically. The
   review includes the §5.1 promotion-candidacy sweep — this is where "verification attaches
   at promotion" (§6.2) fires on a cadence instead of never.
