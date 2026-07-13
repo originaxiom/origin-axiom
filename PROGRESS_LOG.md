@@ -10,6 +10,25 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — H2 slotted (chat-2 gauge arc, verified on receipt) + Batch E (false-kill exhumation)
+
+H2 = chat-2's gauge arc: the four-layer literature map (Weyl scale->phase; Connes
+no-exceptionals + AF-algebra NCG; Wen/Levin fusion-category gate; Kim arithmetic gauge), four
+precomputed assets (P1 the U(1)^{2^n-1} ladder; P2 Kirchberg-Phillips O_{M_4}=O_12, O_{M_8}=O_810;
+P3 doubled-Fibonacci answer sheet; P4 Galois census 8->32, conj 2^{2n+1}), and campaign 2d (the
+anomaly-incompatibility proof: the SM selects charges by anomaly cancellation, the object by
+RG-invariance; loci intersect only at zero, rungs 1-2; checklist 0/3 -> 0/4 with a MECHANISM).
+PRE-VERIFIED exact on receipt: T2 (Sum chi=6, Sum chi^3=4 mod 11); the T3 one-liner; (2,6,4,1) a
+mod-11 eigenvector with [1]=2 generating; the three completion vectors (0,1,1,5),(1,5,1,0),(3,2,1,1)
+verify AND are EXHAUSTIVE (my enumeration: 0 solutions at totals 1-6, exactly 3 at 7); r1=2 = the
+banked P-C fact. F6 already closed by FL1 (cross-referenced).
+Batch E added (owner-directed): the FALSE-KILL EXHUMATION — inventory every banked negative
+(TOMBSTONES/OPEN_LEADS/FINDINGS verdicts), audit each against the compute-the-discriminating-fact
+standard (SOUND/SUSPECT/CRACKED), recompute top suspects. Precedent: B525 cracked 3/10; probation
+bounced 2 more. Campaign now launches (A-E + H1 + H2).
+
+---
+
 ## 2026-07-13 — H1 slotted: the TDV/Krasnov/Boyle literature bridge (verified on receipt)
 
 Seat-1's literature-bridge handoff: our forced E6->F4 (B353) composed with the Todorov-Dubois-
