@@ -11569,6 +11569,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B573": {
+   "slug": "global bridge",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B347",
+    "B565",
+    "B572",
+    "V2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B57": {
    "slug": "general m splitting",
    "motifs": [

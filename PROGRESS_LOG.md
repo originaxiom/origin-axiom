@@ -3413,3 +3413,30 @@ the T-phases {13/84, 73/84, 61/84} are E₆-specific, not M(2,7)'s.
 
 V-tasks: V1 answered (refuted); V4 answered (upgraded); V2 (Fox-calculus H¹) + V3 (orbits ↔
 three 16s) + V5 (global duality with descent) genuine and queued. 3 locks. Firewalled.
+
+## 2026-07-14 — B573: the "Global Bridge" handoff adjudicated (record corrected; the wall sharpened)
+
+**Record corrected first:** the handoff claims "CC verified tonight by Fox calculus" (H¹=6) — NO
+such verification happened; V2 remains queued (Menal-Ferrer–Porti noted as the citable route).
+Cross-seat "CC verified X" claims are themselves verify-don't-trust.
+
+**Steps 1–7 of the bridge: VERIFIED EXACTLY and banked** — the cleanest proof yet of the banked
+"σ moves the point": P(z) = U₁₆(z/2)+U₈(z/2)+1 (integer coefficients, locked) and
+**P(3/2+(√3/2)i) = 6807/2 + (4965√3/2)i exact** (their 3403.5+4299.8i confirmed). V₀ = the Jordan
+identity: correct, noted.
+
+**Step 8 "paid by convention": REFUTED — and the fifth wall sharpens into a no-common-refinement
+theorem (locked):** the 27 grades as 16⊕10⊕1 under the D₅×U(1) coweight (charges 1/3, −2/3, 4/3
+at node 1) and e_principal carries charge-1 pieces — **the 16 is NOT a principal-sl₂-invariant
+subspace** (a regular nilpotent lies in no proper Levi); the handoff's own verification task
+("tr₁₆ on the holonomy") is ill-posed. The holonomy structure and the Spin(10) grading admit no
+common refinement: there is no invariant subspace for the Galois choice to label. The σ→θ bridge
+is UNPAID — and now proved not payable through the principal transfer.
+
+**"Topologically protected": REFUTED (locked)** — the Riley curve
+s⁴u−s⁴+s²u²−3s²u+3s²+u−1 = 0 has exact REAL points (u = −2±2√2 at s = (3+√5)/2, meridian trace
+3); continuous deformation reaches the achiral locus. The protection of the geometric point is
+MOSTOW rigidity, not topology. Also flagged: "reveals the chiral 16 inside the 26" (no Spin(10)
+object appears from V₀↔V₈⊕V₁₆ mixing); the CG numbers (1/3, 1/√17) left unverified, queued; the
+face-scoping note omits that the fifth wall is itself algebra-face. PC26 remains premature for
+the same one reason. 3 locks. Firewalled.
