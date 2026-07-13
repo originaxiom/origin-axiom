@@ -103,3 +103,43 @@ mis-typed element).** γ does not act on the θ-even H¹:
 conjugation lives on the quantum end, the Eisenstein ℤ/3 at the collapsed Euclidean
 point, and the E₆-deformation grading is non-selecting. F₄ (rank 4) is where the
 gauge-structure chain stops; the object stays the symmetric, achiral, value-free centre.
+
+## Addendum (the cusp-boundary-condition reframe, examined 2026-07-13)
+
+Seat-1's meta-point: the SM gauge group is not a symmetry-selected subalgebra but the
+**holonomy centralizer at a boundary-selected point** — so ask "what is the centralizer
+at the cusp-constrained point?", not "which symmetry selects a subalgebra?". The frame
+is correct physics and distinct from the three kills (ℤ/3, both ℤ/2's, the grading). But
+the boundary-condition computation **is already in the repo**, and it places the reframe
+precisely (`tests/test_b561_klein_four.py::test_cusp_is_uniform_not_the_F4_selector`):
+
+- **The specific mechanism ("the cusp reduces E₆→F₄ by killing the θ-odd directions") is
+  REFUTED by B357.** B357 (the E₆ boundary restriction) found **rank 6/6 — no
+  peripherally-invisible deformations**: all six directions restrict to nonzero boundary
+  classes, each "opens the cusp" (φ_μ ≠ 0 every block). And the **universal-τ identity**:
+  every exponent block sees the *same* cusp shape τ = −2√3·i = −2√(−3), "the leading
+  peripheral datum does **not** split by exponent." So the cusp constraint is **uniform
+  across θ-even and θ-odd** — it kills none of the six and cannot single out the θ-odd
+  pair. There is no 6→4 reduction (universal-τ is a rank-1 identity that holds
+  automatically, not a codim-2 cut). **The E₆→F₄ split is the amphichiral symmetry θ
+  (B353), not the cusp** — the cusp is achiral and does not fold.
+- **The centralizer at the cusp point was computed — B463 = 0.** B357 is explicit that
+  the object is the **principal-composed geometric representation at the complete
+  structure** (parabolic meridian = the cusp condition). That *is* the principal point,
+  and B463 computed its centralizer = **0** (finite group centralizer, irreducible
+  holonomy). So "the centralizer at the cusp-constrained point" is not un-asked — it is
+  B463, and it is trivial.
+- **What genuinely remains is the same SPECIALIST wall.** The one survivor: the
+  centralizer at *non-principal, reducible* points that also satisfy the cusp
+  A-polynomial (larger centralizer). Reaching those needs the **full E₆ A-polynomial /
+  character variety** — uncomputed, the same wall as L50 (SL(2)=P23 known, SL(3)=P24
+  three components, E₆ open). And nothing motivates SU(3)×SU(2)×U(1) there: a reducible
+  degeneration is not the geometric structure, and no computed condition selects that
+  subgroup. So the reframe is valid but its computable core is either done (B357/B463) or
+  behind the E₆-A-polynomial specialist wall.
+
+**Net (the fourth disposition):** the cusp is the object's achiral, *uniform* boundary
+datum (B357); it does not select a subalgebra — it opens equally in all six directions.
+The E₆→F₄ fold is the symmetry θ; F₄ is the terminus; the geometric-cusp centralizer is
+0 (B463); the reducible-cusp-point question is SPECIALIST. The reframe is correctly
+*placed*, not killed — but it does not open a new in-sandbox route to the SM.
