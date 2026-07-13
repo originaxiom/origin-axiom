@@ -81,3 +81,16 @@ becomes holonomy-visible for the first time in the program's history.
 
 Firewalled. Nothing to CLAIMS.md. The bridge opened into mathematics; whether
 physics walks across it is L59's question, not tonight's claim.
+
+---
+
+**ATTRIBUTION ADDENDUM (2026-07-14, B577 — the owner's audit question caught it):** this
+computation had a banked predecessor that neither the prereg nor Review 16 recalled:
+**B352 — "the cup-product obstruction, computed: all six directions unobstructed at second
+order (conditional)"** (dps-100 mpmath, the {4,8}-integrability program: B264→B265→B270→B351→
+B352, with the same control design — coboundary + m=1 — and the θ-parity signature). B575 is
+therefore not a discovery but **the exact, unconditional confirmation of B352 on an independent
+build** (ℚ(√−3) symbolic in gl(27) vs dps-100 in the B351 Chevalley basis): two entirely
+disjoint pipelines, same 21 zeros. B352's "(conditional)" label — computer-assisted numerics —
+is hereby discharged. The non-recall failure mode is documented in
+frontier/B577_reconciliation/FINDINGS.md (guard MB13).

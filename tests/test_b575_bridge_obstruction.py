@@ -16,7 +16,11 @@ import importlib.util
 import os
 import sys
 
+import pytest
 
+
+@pytest.mark.skipif(os.environ.get('OA_SLOW') != '1',
+                    reason='full exact e6 build ~6 min; run with OA_SLOW=1 (the B352 house pattern; reviews run slow-tier on)')
 def test_bridge_obstruction_vanishes_identically():
     path = os.path.join(os.path.dirname(__file__), "..",
                         "frontier", "B575_bridge_obstruction", "l51_obstruction.py")

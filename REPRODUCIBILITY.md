@@ -137,6 +137,7 @@ pip install snappy
   composite). The non-vacuous notions survive (chiral = no orientation-reversing self-homeo; *contingency* vs the
   symmetry being broken). Sibling of `MB10`/`MB11`; the danger here is that it is **not** physics-over-math
   contamination (the usual tell) but formal incoherence that sounds like rigor.
+- **SCAN — MB13: banked ≠ recalled — before preregistering a computation or registering a lead, grep `frontier/` + `docs/OPEN_LEADS.md` for the MATHEMATICAL KEYWORDS of the question (not the campaign's name for it) and run the atlas oracle (`scripts/atlas/query.py`). A banked answer to the same question under another name defeats the prereg. Type case: B575 re-computed B352 ("the bridge obstruction" vs "the cup-product obstruction", 2026-07-14, B577) — four review layers missed it because none searched by keyword.**
 - **SCAN — multi-session probe-ID hygiene (2026-07-02, after the B347 collision).** Probe IDs are permanent and
   unique, and multiple sessions now bank probes in parallel. **Before banking a new `B`-probe: `git fetch origin
   main` and take `max(B) + 1` across BOTH `origin/main` and your working branch.** If a collision is discovered at

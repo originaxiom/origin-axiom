@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B577: the reconciliation (B575/B576 = the banked {4,8} program, confirmed exactly)
+
+### Added
+- B577: the owner's audit question surfaced B352/B265 — B575's Q≡0 and B576's dichotomy were
+  banked weeks ago by the {4,8}-integrability program (B264–B352). The math is STRONGER (two
+  disjoint pipelines agree; B352's conditionality discharged; B265 upgraded to completeness);
+  the narrative corrected (confirmation + completion + σ-synthesis, not discovery); the NEW
+  failure mode named (non-recall of banked results) and guarded (**MB13**: keyword-grep +
+  atlas oracle before any prereg). Lead numbers L51–L61 renumbered L62–L71 (collisions);
+  heavy locks gated behind OA_SLOW=1 (B352 house pattern).
+  `frontier/B577_reconciliation/FINDINGS.md` + addenda in B575/B576.
+
+
 ## 2026-07-14 — B576 / L59: the deformed closure — the chirality is exactly the θ-odd motion
 
 ### Added

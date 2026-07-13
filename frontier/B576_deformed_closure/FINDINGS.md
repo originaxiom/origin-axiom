@@ -81,3 +81,14 @@ PC26 moves from PREMATURE/BLOCKED to GATED-ON-VERIFICATION (one independent
 re-derivation of B575+B576 before drafting).
 
 Firewalled. Nothing to CLAIMS.md.
+
+---
+
+**ATTRIBUTION ADDENDUM (2026-07-14, B577):** the core dichotomy was ALREADY BANKED in
+**B265** ("integrability + Zariski-density"): {4,8} directions generate dim 78 = e₆
+(E₆-Zariski-dense), {5,7,11} generate f₄ (trapped), computed in Sage over ℚ — weeks before
+this bank. B576's genuine additions: the **block-sum lemma** (every sl₂-stable subalgebra is a
+block-sum — so B265's three computed points exhaust the landscape for ALL mixtures), the full
+forcing chains, and the parity-converse zero scan. B270 additionally banked "deformations are
+cusp deformations" — the head start for L71. The σ-story synthesis (θ-odd = σ's imaginary
+axes = C3's sector) remains new to this arc. See frontier/B577_reconciliation/FINDINGS.md.
