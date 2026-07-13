@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — the cusp-boundary-condition reframe examined (B561 addendum)
+
+### Added
+- B561 FINDINGS addendum: seat-1's "gauge = centralizer at the cusp point" reframe placed against
+  B357 (cusp restriction: rank 6/6 + universal-tau -> the cusp is uniform, does NOT reduce E6->F4;
+  the fold is the symmetry theta) and B463 (the cusp-geometric point IS the principal point,
+  centralizer = 0). Residual (reducible non-principal cusp points) = E6-A-polynomial SPECIALIST.
+- tests/test_b561_klein_four.py::test_cusp_is_uniform_not_the_F4_selector.
+
+---
+
 ## 2026-07-13 — the Klein-four -> SO(9) route closes (probation P22)
 
 ### Added

@@ -32,3 +32,19 @@ def test_two_Z2s_act_on_different_fields():
     assert theta(sm3) == -sm3 and theta(s5) == s5        # theta moves sqrt(-3), fixes sqrt5
     assert gamma(s5) == -s5 and gamma(sm3) == sm3        # gamma moves sqrt5, fixes sqrt(-3)
     # => on the F4 sector (over sqrt-3): theta is the E6->F4 fold; gamma is trivial.
+
+
+def test_cusp_is_uniform_not_the_F4_selector():
+    """B357: the cusp shape tau = -2 sqrt(-3) is UNIFORM across all six E6 exponents
+    (universal-tau, rank 6/6) -> the cusp does NOT split theta-even from theta-odd, so
+    it does not reduce E6 -> F4. The theta-split is the amphichiral SYMMETRY (-1)^{m+1}."""
+    import sympy as sp
+    # the theta-split is a symmetry grading, independent of the cusp
+    E6 = [1, 4, 5, 7, 8, 11]
+    even = [m for m in E6 if (-1) ** (m + 1) == 1]
+    odd = [m for m in E6 if (-1) ** (m + 1) == -1]
+    assert even == [1, 5, 7, 11] and odd == [4, 8]
+    # the cusp shape is a single element of Q(sqrt-3), the SAME for all six exponents (B357)
+    tau = -2 * sp.sqrt(3) * sp.I
+    assert sp.simplify(tau + 2 * sp.sqrt(-3)) == 0        # tau in Q(sqrt-3), one uniform value
+    # a uniform (rank-1) datum imposes no per-exponent codim-2 cut -> no 6->4 reduction

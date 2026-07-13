@@ -10,6 +10,27 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the cusp-boundary-condition reframe, examined (B561 addendum)
+
+Seat-1's meta-reframe: gauge group = holonomy CENTRALIZER at a boundary-selected point (the cusp),
+not a symmetry-selected subalgebra. The frame is correct physics and genuinely distinct from the
+three symmetry-selection kills -- but the boundary computation is ALREADY in the repo and places
+it precisely:
+- the specific mechanism ("the cusp reduces E6->F4 by killing the theta-odd directions") is REFUTED
+  by B357: rank 6/6 (all six peripherally VISIBLE, none killed) + the universal-tau identity (all six
+  exponents see the SAME cusp shape tau=-2sqrt(-3); the leading peripheral datum does NOT split by
+  exponent). The cusp is uniform/achiral; the E6->F4 fold is the amphichiral symmetry theta (B353),
+  not the cusp. The "6-2=4=F4" dimension count misreads universal-tau (a rank-1 identity, not a
+  codim-2 cut).
+- the centralizer at the cusp point was computed: B463 = 0 (the principal-composed rep IS the
+  complete-structure/parabolic-meridian geometric rep = the cusp point).
+- the genuine residual (centralizer at non-principal REDUCIBLE cusp points) needs the full E6
+  A-polynomial -- the same SPECIALIST wall as L50, and unmotivated toward SU(3)xSU(2)xU(1).
+The reframe is correctly PLACED, not killed; it opens no new in-sandbox SM route. Fourth clean
+disposition of the E6->SM chain. 1 lock.
+
+---
+
 ## 2026-07-13 — the Klein-four -> SO(9) route closes (probation P22, B561 addendum)
 
 Seat-1's follow-up to B561: after the Z/3 kill, use the second Z/2 (gamma = Gal(Q(sqrt5)/Q),

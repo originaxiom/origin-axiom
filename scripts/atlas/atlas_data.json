@@ -11411,6 +11411,8 @@
     "golden",
     "z3_generation",
     "amphichiral_cp",
+    "symplectic",
+    "apolynomial",
     "wrt_quantum",
     "firewall"
    ],
@@ -11420,16 +11422,19 @@
     "B314",
     "B347",
     "B353",
+    "B357",
     "B370",
     "B463",
     "K022",
     "L50",
-    "P22"
+    "P22",
+    "P23",
+    "P24"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 4,
+   "obstacle_conf": 6,
    "status": "dead",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B563": {
    "slug": "planck ratio null",
