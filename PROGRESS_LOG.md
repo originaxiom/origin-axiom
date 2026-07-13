@@ -3440,3 +3440,26 @@ MOSTOW rigidity, not topology. Also flagged: "reveals the chiral 16 inside the 2
 object appears from V₀↔V₈⊕V₁₆ mixing); the CG numbers (1/3, 1/√17) left unverified, queued; the
 face-scoping note omits that the fifth wall is itself algebra-face. PC26 remains premature for
 the same one reason. 3 locks. Firewalled.
+
+## 2026-07-14 — B574: the off-principal proposal adjudicated (right instinct, false crux, the bridge question in final form)
+
+Incoming: "the principal point is the wrong place to look — the minimal nilpotent of E₆ has
+centralizer D₅ = Spin(10); find the minimal-nilpotent locus ∩ the non-real locus." Adjudication:
+**the crux is false and self-contradictory** — the minimal orbit IS the A₁ orbit, whose
+reductive centralizer is **A₅ = SU(6), dim 35 ≠ 45** (locked: adjoint grading (1,20,30,20,1)
+under θ∨; z(triple) = 35); no nonzero nilpotent orbit of E₆ has centralizer Spin(10) — D₅
+centralizes a SEMISIMPLE element (the node-1 Levi: clause 9's unforced selector, returning
+through another door). **"Nearby minimal-meridian points" impossible** (regularity is
+Zariski-open; the geometric meridian is regular). **And the wall was never about the principal
+orbit:** at the minimal embedding the 27 = 6·V₁ ⊕ 15·V₀ (locked) — all self-dual; ANY rank-1
+composition is vector-like; the obstruction is rank-1-ness itself.
+
+**The sharpened true question (the handoff's instinct, made precise): THE BRIDGE QUESTION,
+FINAL FORM.** The only escape is a rep with Zariski closure of rank ≥ 2 (not factoring through
+any SL(2)). The room exists: H¹ = 6 vs the 1-dim factored locus; the five higher-exponent
+directions (incl. the θ-odd {4,8}) leave the factored locus to first order. Decisive: compute
+the quadratic obstruction (cup product/Goldman H¹×H¹→H², adjoint coefficients). Unobstructed
+direction ⇒ honest rank-≥2 E₆ deformations exist and the chiral-selector question reopens
+there; all obstructed ⇒ the sixth wall (locally, E₆ reps = the factored curve; chirality
+unreachable on the whole local variety). Queued as the first post-Review-16 computation.
+2 locks. Firewalled.

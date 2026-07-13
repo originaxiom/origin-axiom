@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B574: the off-principal proposal adjudicated (the bridge question, final form)
+
+### Added
+- B574: "look at other nilpotent orbits" — right instinct, false crux: the minimal orbit IS
+  the A₁ orbit, centralizer A₅ = SU(6) dim 35 ≠ 45 = D₅ (locked; grading (1,20,30,20,1));
+  no E₆ nilpotent orbit has a Spin(10) centralizer (D₅ centralizes a semisimple element —
+  clause 9's Levi again). Nearby minimal-meridian points impossible (regularity open); at the
+  minimal embedding the 27 = 6·V₁⊕15·V₀, all self-dual (locked) — the wall is rank-1-ness,
+  not the orbit. THE BRIDGE QUESTION, FINAL FORM: compute the quadratic obstruction
+  (H¹×H¹→H²) on the five off-factored directions — unobstructed ⇒ rank-≥2 reps exist and
+  the selector question reopens; all obstructed ⇒ the sixth wall. Queued post-Review-16.
+  `frontier/B574_offprincipal/FINDINGS.md`, 2 locks.
+
+
 ## 2026-07-14 — B573: the "Global Bridge" adjudicated (bridge value exact; the wall sharpened; record corrected)
 
 ### Added

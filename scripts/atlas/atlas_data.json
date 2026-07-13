@@ -11588,6 +11588,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B574": {
+   "slug": "offprincipal",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B572"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B57": {
    "slug": "general m splitting",
    "motifs": [
