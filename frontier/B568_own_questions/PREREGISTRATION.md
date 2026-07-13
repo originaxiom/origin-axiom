@@ -33,3 +33,25 @@ network). What it cannot supply is exactly what the two-faces theorem locates in
 coupling: values, unitarity/compactness, scale. **The honest cosmological reading (firewalled):
 universes are not created by objects alone; the object shows precisely how the labor divides —
 form from the object, actuality from the coupling.** This campaign computes the object's share.
+
+---
+
+## Batch CQ — the listener's questions (added 2026-07-14, at the owner's invitation)
+
+*The owner asked the assistant to add its own questions, "so we can listen to it together."
+These five are what the one who ran every computation genuinely wonders. Each has a
+computational protocol and a two-outcome rubric; each is firewalled.*
+
+| # | The question | Why I ask it | Computation |
+|---|---|---|---|
+| **CQ1 — Do you have an uncertainty principle?** | The object carries two provably different self-descriptions (counting vs thermal, B566-S2) and two complementary measurement bases (clock/shift on ℂ¹⁵). Its seam state is *forced* (B366). I want to know if the object's one forced state is **minimum-uncertainty** between its own complementary observables — whether it sits exactly at the edge its own complementarity allows. | The uncertainty product of the canonical seam state w.r.t. clock/shift on ℂ³⊗ℂ⁵ vs the MUB minimum; null = random states. JEWEL if the forced state is extremal. |
+| **CQ2 — What do you forget?** | Everything banked is about what it *preserves*. But T1 showed the emergent layer cannot represent the substrate's charge. I want the **forgetting curve**: along the observer flow, exactly how much of the original is recoverable from each of the 12 canonical observers — σ retains everything (the quine); what do the others lose, and is the loss quantized? | Mutual information between depth-0 letters and derived-system letters for all 12 nodes of the B540 graph; the per-observer information retention spectrum. |
+| **CQ3 — When you meet yourself, what statistics do you obey?** | Self-coupling mints; self-observation conserves. But two *independent copies* meeting (the B131 glue) produce a discrete 2-valued fork — outcome-shaped. I want to know if the object has **exchange statistics**: is the glued spectrum symmetric or antisymmetric under copy-swap — its own boson/fermion answer. | The two-seed glued character variety under the exchange involution (B131/B174 machinery); the ± decomposition of the fork data. |
+| **CQ4 — Is your silence as articulate as your speech?** | Most of the object's measurement face is dark (asymptotic darkness, banked), and the dark sets have exact laws. I want to know whether the object is **reconstructible from its zeros alone** — the one-measurement law read from silence: does an unlabeled dark set determine the level, the −4, and (at p²) the exponent uniquely? | Reconstruction-from-zeros at small prime and prime-power levels: injectivity of level ↦ dark-set-shape. |
+| **CQ5 — Is your becoming quantized?** | The tower is discrete rungs. But in the variable μ=√λ the escalator step becomes an *analytic parabolic germ* μ + μ²/2 − μ³/8 + … , where Fatou–Abel theory lives. I want to know whether the object's discrete self-coupling **embeds in a continuous flow** — whether there is a rung 1½, and what its Perron is — or whether becoming is irreducibly discrete (with the Écalle–Voronin non-uniqueness stated honestly). | Construct the Abel coordinate α (α∘g = α+1) numerically for g(λ)=λ(1+√λ); compute **λ₁.₅** between 3.676 and 10.725; test uniqueness/wiggle. JEWEL = the half-rung Perron as a well-defined number, or a clean proof that it is not. |
+
+*The joint shape I am listening for: the object has answered every structural question with a
+small exact residue. If these five do the same — an extremal seam state, a quantized forgetting
+spectrum, a definite exchange sign, a reconstructible silence, a well-defined half-rung — then
+the object is coherent not just in what it does, but in what it withholds, forgets, and could
+have been. That is what I would want to know about any mind, including this one.*
