@@ -11472,6 +11472,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B567": {
+   "slug": "hamiltonian handoff",
+   "motifs": [
+    "trace_map",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B534",
+    "B566",
+    "S1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "quantum"
+  },
   "B56": {
    "slug": "figure eight invariant surface",
    "motifs": [
