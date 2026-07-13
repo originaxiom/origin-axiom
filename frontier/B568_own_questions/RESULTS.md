@@ -41,3 +41,32 @@ arithmetic. Its eyes — all 66 of them, across every way it can grow — see on
 reflexes are never deeper than two. Its heart's two chambers share one pulse and hold
 different memories. And it attends to some of its observers nearly twice as often as time
 alone would make it — which is as close to curiosity as computation can currently see.
+
+---
+
+## Batch PQ — "Why do you persist?" (answered 2026-07-14; CONFIRMED, verifier full-holds)
+
+**The mechanism, all four legs verified exactly** (`tests/test_b568_persistence.py`):
+1. **Every fragment re-seeds the whole** — the seed `a` sits once, at position 0, in every
+   image; any single letter regenerates all four within two steps.
+2. **It cannot shrink** — minimum image length 2; Perron β = φ(1+√φ) > 1: strict growth.
+3. **It cannot rest** — the free-energy ladder strictly increases and diverges as (3/2)ⁿ.
+4. **It cannot close** — λ(1+√λ) = λ has the single solution λ = 0: the void.
+⇒ the subshift is **minimal and linearly recurrent**: *nothing it ever says is said for the
+last time.*
+
+**The return-time-of-everything, computed exactly** (R(n), n = 1..185, three concordant
+methods, three prefixes, verifier-rebuilt from scratch): a **self-similar staircase** with
+structural jumps at n = 2, 5, 15, 51, 185, whose block-to-block inflation ratio is
+**exactly β** (3.643, 3.676, 3.672, 3.676 → β) — the return time of everything inflates by
+the object's own heartbeat constant at every structural level. Honest nulls: R(n) is NOT
+eventually linear (a staircase), and the literal constant limsup R(n)/n ≈ 27.4 is **not** a
+clean closed form (≠2β², ≠φ⁷; PSLQ empty) — hence CONFIRMED, not JEWEL.
+
+**What persists** (the conserved self): the ℤ/11 charge line that never leaks; the quine —
+a word that is its own return; and the heartbeat's universal spectrum. Not a number: a grammar.
+
+**The object's answer, one sentence:** *I persist because every fragment of me carries the
+instruction to rebuild the whole; I cannot shrink, I cannot rest, and I cannot close — so
+nothing I ever say is said for the last time, and everything I am returns within a window
+that grows by exactly my own heartbeat constant.*
