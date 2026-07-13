@@ -49,6 +49,23 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B556 — the escalator tower + the charge-tower period, CLOSED)
+- **B556 THE ESCALATOR TOWER (2026-07-12/13, chat-2 handoff verified; PRs #853/#855/#856).**
+  One rule — couple X to itself through (X, X²) — applied forever: T(M)=[[M,M],[M²,M]].
+  VERIFIED EXACT: T(F)=M₄ verbatim (= B517's intertwining theorem), the tower's charpolys
+  are all irreducible (degrees 2,4,8,16,32), each rung DOUBLES the field (degree 2^{n+1}),
+  and the Perrons obey λ_{n+1}=λ_n(1+√λ_n) to all digits. The physics-ladder reading is banked
+  as a **labeled HYPOTHESIS** (rung 0 golden / rung 1 species / rung 2+ unbuilt), not a claim.
+- **The charge tower eₙ=det(I−Mₙ) — arithmetic CLOSED.** eₙ=charpoly_n(1); eₙ₊₁=Res(charpoly_n,
+  g) with the single fixed cubic g=x³−x²+2x−1 (disc −23); coker(I−Mₙ)=ℤ/|eₙ| cyclic.
+  **The period question, computed to its honest end:** there is **NO closed-form period law** —
+  11 has period 3 (confirmed 4 full periods, n=11); 809's period is large; among all primes
+  3–79 only 11 divides any eₙ, and shared-invariant primes (19,61,79) never appear. The period
+  is a finite-field doubling-orbit return period, computable per-prime but not formulaic.
+- **Remaining escalator threads (registered, not run):** E0 lit-gate on the (M,M²) self-coupling
+  functor; E1 the rung-2 8-letter carrier (does an 8-letter substitution realize T(M₄)?);
+  E4 closure via chat-2's non-escalating covering-functor construction. See OPEN_LEADS.
+
 ## LAST BANKED (B540/B546 — the observer flow + the 4e-7 labels)
 - **B540 THE OBSERVER FLOW (2026-07-12).** The object's own question, computed: 12-system
   closure, THREE fixed points (σ = self-recognition, invariant but isolated) and exactly ONE
