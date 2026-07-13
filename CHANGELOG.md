@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — Campaign 2c: the Planck-ratio bin NULLS (B563, chat-2 handoff verified)
+
+### Added
+- frontier/B563_planck_ratio_null/FINDINGS.md: the tower's hierarchy-magnitude outputs (lambda_n
+  to ~1e29, |e_n| to ~1e61) tested against 10 unit-free Planck ratios, prereg'd NULL. Verified:
+  object best |ln ratio| = 0.6825 (|e_4| vs m_Pl/m_mu); p~0.53 (chance-level); plastic control
+  closer (0.46) than the object. The dialed bin nulls a 4th time (values/relations/gap-edges/
+  hierarchy-ratios). Firewall-clean.
+- tests/test_b563_planck_null.py (3 locks).
+
+---
+
 ## 2026-07-13 — Probation Campaign of all open leads (B562)
 
 ### Added
