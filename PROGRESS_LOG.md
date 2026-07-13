@@ -3556,3 +3556,21 @@ renumbered L62–L71 (my "L60" merged into the pre-existing L53, which had alrea
 Massey step WITH machinery); B575/B576 heavy locks converted to the B352 house pattern
 (OA_SLOW=1 gate; the suite returns to ~36 min); B270's "deformations are cusp deformations" =
 the head start for L71; pre-existing L5/L20/L22 duplicates flagged for Review 17. Firewalled.
+
+## 2026-07-14 — B579: the July-14 session handoff adjudicated (data scan routed; two locks; L72)
+
+The handoff predates B577 (its narrative + PC26 gating superseded by the reconciliation).
+**Verified and banked:** the θ-odd dimension sequence {1,3,8,17} at levels 1–4 (locked); T(F)
+det = −1, hyperbolic — **but its char poly corrected: x⁴−2x³−5x²−4x−1 = the BANKED rung-1
+tower quartic** (the D₄ quartic; the "duet" spectrum was in the bank all along — MB13 both
+ways). **Attribution corrections (third instance):** "ω = B299's ℤ/3: VERIFIED" — not verified
+(B578-D8 adjudicating now); the parity-statement bookkeeping. **The data scan routed per the
+dual protocol:** H128–H131 in HINT_LEDGER (α_s = 1/(2φ³) 0.04σ with five FAILED derivations —
+the seat's own honest verdict; θ₁₃; the Koide↔h(27) association; the post-hoc φ-power table
+with its cherry-pick caveat) — all cross-referenced to the CLOSED B533 door, not rebanked.
+**H131 = the scan's valuable row: the Planck CMB NULL** (no golden modulation; the 7× excess
+was a smoothing artifact, honestly killed). sin²θ_W = 3/8 = textbook E₆ GUT (not object
+content); 3/13's derivation self-retracted. Gravity/Klein-four-sectors → speculation firewall.
+"Founding question answered YES" tempered to THE_SELECTION_RULES verdict. **L72 registered**
+(the dynamics program, MB13-swept: torsion = the banked B126/B425 thread; the new step = the
+E₆-principal torsion). 2 locks. Firewalled.

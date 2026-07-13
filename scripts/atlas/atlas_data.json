@@ -11693,6 +11693,43 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B579": {
+   "slug": "session handoff",
+   "motifs": [
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B126",
+    "B134",
+    "B265",
+    "B299",
+    "B330",
+    "B350",
+    "B352",
+    "B425",
+    "B5",
+    "B533",
+    "B571",
+    "B575",
+    "B576",
+    "B577",
+    "B578",
+    "L59",
+    "L60",
+    "L72"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B57": {
    "slug": "general m splitting",
    "motifs": [
