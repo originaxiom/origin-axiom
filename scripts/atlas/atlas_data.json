@@ -11630,6 +11630,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B576": {
+   "slug": "deformed closure",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B575",
+    "L59",
+    "L60",
+    "L61"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B57": {
    "slug": "general m splitting",
    "motifs": [

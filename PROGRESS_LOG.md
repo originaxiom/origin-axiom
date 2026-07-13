@@ -3508,3 +3508,25 @@ the variety continues past it in all six directions. **L59 opened: along the θ-
 deformations, where does the Zariski closure go — and does the 27 turn complex? The exponent
 arithmetic gives the closure exactly two chiral destinations: D₅ and A₅.** 1 lock (the full
 build re-runs as the test; ~6 min, accepted deliberately). Firewalled.
+
+## 2026-07-14 — B576 / L59: THE DEFORMED CLOSURE — the chirality is exactly the θ-odd motion
+
+The successor of B575, run same-session. **THE STRUCTURE THEOREM (computed, exact):** (i) every
+sl₂-stable subspace of e₆ is a SUM OF BLOCKS (multiplicity one per exponent; trivial triple
+centralizer) — so every candidate closure of a deformation is a bracket-closed block-sum;
+(ii) the θ-even world closes inside f₄ = {1,5,7,11} (parity + the converse channels verified
+zero by full scan); (iii) **ALL SIX FORCING CHANNELS NONZERO** ([V₈,V₈]→V₁₀,V₁₄; [V₈,V₁₀]→V₁₆;
+[V₈,V₁₆]→V₂₂; [V₁₆,V₁₆]→V₁₀; [V₁₆,V₁₀]→V₈): any block-sum containing a θ-odd block is forced,
+link by link, to be ALL of e₆ — there is no intermediate chiral subalgebra.
+
+**THE VERDICT:** the 27 under full E₆ is complex (banked). Combined with B575: **along any
+integrable deformation with a nonzero θ-odd component, the Zariski closure is forced to full
+E₆(ℂ) and the 27 IS CHIRAL; θ-even deformations can stay F₄-stable — vector-like. The geometric
+point sits on the achiral stratum; chirality is purchased by motion, first-order, exactly along
+σ's imaginary axes** — the same θ-odd plane as Q-A's (−1)-eigenplane and C3's living monodromy.
+The three θ-odd stories are one sector seen three times. Correction banked: the D₅/A₅ framing
+from the L59 registration was wrong (not block-sums; never on the menu) — the true dichotomy is
+the F₄ stratum vs full E₆. Honest residue: L60 (integrability beyond second order /
+Porti-smoothness for E₆), L61 (the geometric meaning of the θ-odd deformed reps; does σ single
+one out). PC26 → GATED-ON-VERIFICATION (one independent re-derivation of B575+B576 before
+drafting). 1 lock (~6.5 min, transitively re-fires all B575 gates). Firewalled.
