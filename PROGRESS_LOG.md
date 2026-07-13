@@ -3594,3 +3594,25 @@ forced coupling; gluing dial = the 6-dim regular-unipotent centralizer graded by
 MAXIMUM: forced couplings only; the hints H128–H130 are targets the computation must hit BLIND
 or they die; nulls (5₂ + Ising controls) mandatory; B533 stays closed.** Falsifiers per cell
 preregistered (incl. the honest abelian-triviality null at level 1). Launches post-B578.
+
+## 2026-07-14 — B578 COMPLETE: the debts cleared (21 agents; repairs applied; one self-correction)
+
+**D1 THE MASSEY STEP:** MB13 caught L53 was already EXECUTED as B370 (dps-100) — the guard works;
+the exact rerun: **the third-order obstruction vanishes exactly in all six directions**; B370's
+conditionality discharged (the B575↔B352 pattern one order up); smoothness exact to order 3.
+Indeterminacy-zero scoped to {4,8} (verifier repair). **D4 e₃ — A JEWEL: e₃ = 2cos(2π/9)/1728**
+(ℚ(ζ₉)⁺; minpoly x³−3x+1, disc 3⁴; 20/20 primes; the census cubic exact; **sentinels fire CLEAN
+NEGATIVE**; the old failures = a wrong-field ℚ(√5) ansatz). HOOK H132: ζ₉ appears independently
+in B413's tower-measure Gauss sum — one field, two computations. **D6 — THE ERROR WAS OURS:** K₃
+(bronze invariant trace field) is DEGREE 6 — as B125's banked table always said; the B571-item-B2
+/ B577 "correction" confused it with the scale field ℚ(√13); **reverted in place; B137's original
+deferral stands.** Even the excavation needs MB13. **D7 level-3:** all gates (8000 Verlinde
+integers); **Z = +1 third level running (H133: Z ≡ 1 at every level?)**; ρ|odd order exactly 60;
+**the naive prime law FALSE — instead one integer octic = (w²−10w+20)×(two Galois-conjugate
+cubics over ℚ(√5)): the GOLDEN field enters the chiral theater with the prime 5 of k+h∨ = 15.**
+**D8:** V3 adjudicated MOOT (computed); B299's (θ,φ) on the 27 = {1:9, ω:9, ω²:9} exact. **D10
+THE GLOBAL DUALITY:** descent obstruction = Ĥ⁰(Gal, Z(G)) = ℤ/gcd(2,N) — **for E₆ TRIVIAL: the
+gap⟺chirality biconditional is UNCONDITIONAL on the object's group.** **D3:** B498↔B507 proved
+one structure; B181 domain-disjoint (wording repaired); the missing B507 lock delivered. **D2
+Q-C: stays OPEN** — the verifier is right that no transport map was constructed; sharpened.
+**D5/D9: agent stubs — re-launched.** 20 locks adopted (Massey behind OA_SLOW). Firewalled.

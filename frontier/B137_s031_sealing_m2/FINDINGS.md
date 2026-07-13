@@ -41,7 +41,7 @@ A naive search that counts **any** converged fixed point with trace far from `K_
 ## Honest scope
 
 - Computational evidence, 2 seeds each, SL(3), m∈{1,2} (the arithmetic members). Not a proof; the S031
-  theorem-version (all m, all n) remains open. m≥3 was deferred as "non-quadratic `K_m`" — **CORRECTED 2026-07-14 (B571/Review 16): K₃ = ℚ(√13) IS quadratic** (m²+4 = 13 squarefree); the m=3 sealing test is runnable with B160's bronze trace map (OPEN_LEADS L57). SL(n≥4)
+  theorem-version (all m, all n) remains open. m≥3 has a non-quadratic `K_m` — **this original reason is CORRECT. A 2026-07-14 in-place "correction" (B571 item B2 / B577) wrongly claimed K₃ = ℚ(√13); RETRACTED same day (B578-D6): K₃, the bronze invariant trace field (b++RRRLLL, vol 4.8138), is DEGREE 6 (SnapPy+cypari, two precisions, residuals 1.7e-74/1.8e-142), matching B125's banked arithmeticity table exactly. ℚ(√13) is the metallic SCALE field (m²+4), a different object. The confusion of the two fields was the retracted item's error.** SL(n≥4)
   needs SL(4) trace coordinates — both future work.
 - The escape threshold (1e-4) and the irreducibility filter (algdim=9) are the load-bearing discipline; the result is
   robust to seed.

@@ -368,3 +368,11 @@ prior quantum-consciousness pointer. Genuine hooks:
   modulation in Planck 2018 TT residuals** vs proper ΛCDM (SNR −0.7; template fit −0.3σ; the
   initial 7× excess was a Gaussian-smoothing artifact, honestly killed). Consistent with every
   banked cosmology negative. Optional in-sandbox replication registered (low priority).
+
+- **H132** [NOTICED, exact — B578-D4]: the ζ₉ double apparition — e₃ = (ζ₉+ζ₉⁻¹)/1728 (the
+  1215-rung triple's cubic is ℚ(ζ₉)⁺-cyclotomic) AND B413's tower measure is a ℤ[ζ₉] Gauss sum
+  (norm 9). Two independent computations, one field. Possibly the Kubota–Leopoldt thread's true
+  home (the 3-adic tower's natural cyclotomic layer). Gate: connect or separate, in-sandbox.
+- **H133** [NOTICED — B578-D7]: Z = Tr ρ(A₁) = +1 at E₆ levels 1, 2, AND 3 (three independent
+  exact computations). Is Z ≡ 1 at every level (a fixed-point/Lefschetz-type statement for the
+  fig-8 monodromy in every E₆ theater)? Gate: level 4, or a proof.
