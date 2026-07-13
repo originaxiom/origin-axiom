@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — gauge/SM literature map: what behavior to look for in the object
+
+Model-tiered literature campaign (6 web angles, citation-checked, project-aware synthesis) ->
+docs/LITERATURE_GAUGE_SM_2026-07-13.md. Verdict: the gauge GROUP is cheap (3 routes hit
+SU(3)xSU(2)xU(1)); VALUES never resident (corroborates the three-level negative + observer-coupling
+reorientation); the FORCED SM structure is anomaly-consistency (-> hypercharges, Lohitsiri-Tong) +
+centralizer-of-holonomy (Hosotani) -- BOTH in-sandbox, NEVER run. The object was read only at the
+"bookkeeping pole" (Elitzur): no anomaly, beta-function, or loop observable ever computed. 8 new
+computable behavior-targets (T1-T8, each two-outcome), registered in OPEN_LEADS: T8 corroborate B71
+(HMP); T1 't Hooft anomaly of Z/11 (UV substitution vs IR c=7/10); T3 chiral index over Q(sqrt-phi)
+gap labels (predicted 0 -> a 4th mechanism-level wall); T2 centralizer stratification; T6 the NEW
+Baez-Schwahn F4->SM door (arXiv:2606.15235, a fifth route); T4/T5/T7 beta-sign/loop/Diophantine.
+Citation-verify caught a fabricated attribution (2007.09346 = Mkrtchyan, not Aganagic/Shakirov) + 2
+venue corrections. Reference doc + H118/H119 hints. No lock (survey).
+
+---
+
 ## 2026-07-13 — the cusp-boundary-condition reframe, examined (B561 addendum)
 
 Seat-1's meta-reframe: gauge group = holonomy CENTRALIZER at a boundary-selected point (the cusp),
