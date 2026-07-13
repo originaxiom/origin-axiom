@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — the three papers drafted + finalized
+
+### Added
+- papers/drafts/{PC23_degree4_gap_labels, PC24_three_half_law, PC25_e6_theta_fold}/
+  (PAPER.md + ABSTRACT.md each), checker-verified; CANDIDATES rows -> DRAFTED.
+- Theorem-3 reproducibility gap CLOSED: reproducers adopted into frontier/B565* + 3 new lock
+  files tests/test_b565_{krasnov,realform,triality}.py (15 tests).
+
+### Changed
+- Privacy renames: tests/test_b560_chat3.py -> test_b560_cells.py; frontier/
+  B560_chat3_frontier_campaign -> B560_crossseat_campaign (live refs updated).
+
+---
+
 ## 2026-07-14 — the two-descriptions split (B565 addendum)
 
 ### Added

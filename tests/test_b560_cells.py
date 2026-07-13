@@ -1,13 +1,13 @@
-"""B560 — chat-3 frontier campaign (cells 1-4), headline claims re-verified in-sandbox.
+"""B560 — cross-seat frontier campaign (cells 1-4), headline claims re-verified in-sandbox.
 
 Independent locks for the load-bearing, checkable results (the cells' own 26 tests
-live under frontier/B560_chat3_frontier_campaign/ and also pass):
+live under frontier/B560_crossseat_campaign/ and also pass):
   Cell 1  : SNF(I-M4) = diag(1,1,1,11) => coker = Z/11; chi=(1,3,6,7) left-fixed mod 11.
   Cell 1B : every nonzero class of Z/11 has a finite localized carrier (defect pair
             L u R / L v R with equal 3-letter contexts and equal core length).
   Cell 4  : the degree-4 frequency module is EXACTLY Z[tau], tau=sqrt(phi), tau^4-tau^2-1=0
             -- the frequencies are the Perron eigenvector of M4 and generate Z[tau] (det 1).
-See frontier/B560_chat3_frontier_campaign/FINDINGS.md.
+See frontier/B560_crossseat_campaign/FINDINGS.md.
 """
 from collections import defaultdict
 import sympy as sp
@@ -52,7 +52,7 @@ def _word(k):
 def test_cell1b_localized_carriers_first_core_lengths():
     """Every nonzero residue of Z/11 has a finite localized carrier (defect pair with
     equal 3-context and equal core length); the FIRST core length per class matches
-    chat-3's frozen census exactly."""
+    cross-seat's frozen census exactly."""
     w = _word(10)
     q = lambda s: sum(Q[c] for c in s) % 11
     first = {}

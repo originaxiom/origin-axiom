@@ -1,0 +1,17 @@
+# PC25 — Abstract and significance
+
+## Title
+
+**The Amphichiral Fold: E₆ → F₄ on the Figure-Eight Character Variety, and Why It Stops There**
+
+## Abstract
+
+Let ρ₀ be the discrete-faithful holonomy of the figure-eight knot complement and ρ its composition with the principal homomorphism SL(2,ℂ) → E₆(ℂ). The Zariski tangent to the E₆(ℂ)-character variety at ρ decomposes as six lines, one per E₆ exponent m ∈ {1,4,5,7,8,11} — the dimension count is a known consequence of twisted-cohomology theory for cusped hyperbolic 3-manifolds (Menal-Ferrer–Porti, Falbel–Guilloux), and we claim no novelty for it. Our contributions are three. First, the knot's own orientation-preserving (hyperelliptic) involution acts on these six lines by the exponent parity (−1)^{m+1}, and this action is gauge-certifiably *equal* to the E₆ diagram involution θ on the deformation complex: the fixed sector is exactly the F₄ exponents {1,5,7,11}, so the E₆ → F₄ folding is forced by the knot's symmetry. Second, the fold terminates at F₄: five candidate mechanisms for a further symmetry-selected reduction — an Eisenstein ℤ/3 (the F₄ sector's symmetry is (ℤ/12)^× ≅ Klein four, the isometry group D₄ has order 8, and the order-3 rotation lives only at the collapsed Euclidean point), the golden Galois ℤ/2 (it fixes ℚ(√−3) pointwise, hence acts trivially on the F₄ sector), the tangent grading (uniform, non-selecting), the cusp boundary condition (boundary restriction of rank 6/6 with a single universal cusp datum τ = −2√3·i across all exponents, and principal centralizer zero), and the nested-Jordan-algebra route of Baez–Schwahn (|Aut(octavians)| = 12096 = 2⁶·3³·7 admits no order-11 element; Eisenstein and unit axes are disjoint) — are each closed by explicit computation. Third, and structurally deepest, the geometric holonomy lands in F₄(ℂ) ⊂ E₆(ℂ) in *no real form*: its adjoint traces are exactly non-real in ℚ(√−3), and the regular-unipotent meridian (adjoint Jordan type {3,9,11,15,17,23}) independently excludes the compact forms. Consequently the Todorov–Dubois-Violette/Krasnov identification of the Standard-Model algebra inside compact F₄ transfers to this geometry only after complexification: compactness is precisely the structure the hyperbolic geometry does not supply. All results carry explicit status labels (proved / computed-with-precision / cited / conjectural), and the negatives are stated plainly.
+
+## Significance statement (3 sentences)
+
+This letter identifies exactly which part of exceptional Lie structure a hyperbolic knot forces — the E₆ → F₄ fold, realised by the figure-eight's own involution on the deformation space of its character variety — and proves, by closing five independent selector routes, that the forcing stops there. The real-form theorem then locates the precise obstruction between this geometry and the Jordan-algebraic Standard-Model literature: the holonomy lives in no real form of F₄ or E₆, so the compact-group identifications transfer only complexified, making "compactness is the gap" a sharp, falsifiable boundary statement rather than a slogan. The paper thereby converts a speculative geometry-to-gauge-theory bridge into a bounded mathematical question — whether any natural structure on the E₆(ℂ)-character variety of the figure-eight selects a compact real form — while claiming no physics.
+
+## Target journal
+
+**Letters in Mathematical Physics** (letter). Alternative: *Communications in Mathematical Physics* (letter-length submission).

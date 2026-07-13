@@ -3,7 +3,7 @@
 A cross-seat (chat-3) "governed frontier campaign" of six certificate-driven cells,
 processed **verify-don't-trust**. All 26 of chat-3's own cell tests pass in-sandbox,
 and the load-bearing headline claims were **independently re-derived** here
-(`tests/test_b560_chat3.py`, 3 locks). The cells' artifacts (code, certificates,
+(`tests/test_b560_cells.py`, 3 locks). The cells' artifacts (code, certificates,
 data, tests) are preserved under `cells/`. Firewall-clean throughout: the campaign
 states its own open boundaries and claims nothing to CLAIMS.md.
 
