@@ -111,3 +111,14 @@ Trace the dynamical residue (−1)^((N−1)/2) — carried by the orientation do
 - `/Users/dri/origin-axiom/PROGRESS_LOG.md` — PC25 (real-form theorem), B303 (CP sign = CS-clock sign = arrow), Door-2 amphichirality-allows-not-forces
 
 **Tier legend used:** THEOREM = proven/standard Lie theory; COMPUTED = in-sandbox verified + locked; OPEN = the Q-A/Q-B/Q-C next steps; SPECULATIVE = none banked here (the reframe is treated as a *hypothesis to test*, correctly placed, not crossed).
+
+---
+
+**CORRECTION (2026-07-14, post-B570 Q-A/C1; the Review-16 R3/R8 catch):** statements above of
+the form "the amphichiral involution IS θ, canonically" use the pre-correction registry wording
+and conflate two involutions. The corrected record (docs/THEOREM_REGISTRY.md T-θTANGENT): the
+amphichiral involution acts on the tangent ANTILINEARLY, as conj∘θ; the ℂ-linear θ itself is
+realized by the HYPERELLIPTIC involution (B353, gauge-certified). Consequently "amphichiral ⟺
+θ-symmetric ⟺ vector-like" holds at the level of the θ-grading content but the involution
+identifications should be read per the corrected registry entry; the crux identity is
+d(σ∘φ⁻¹) = θ (B570 QA_RESULT.md, Level 3). This note supersedes the affected sentences.

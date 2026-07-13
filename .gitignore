@@ -49,3 +49,5 @@ legacy/reports/genesis/*.txt
 
 # --- Cosmogony sweep (firewalled, uncommitted literature workspace) ---
 cosmogony/
+*.log1
+*.log2

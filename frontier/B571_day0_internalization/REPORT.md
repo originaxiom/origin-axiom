@@ -148,3 +148,14 @@ Meta-pattern: the program almost never buries *results* (the lock discipline wor
 
 ---
 **Honesty notes:** confidence labels are inherited from verification, not inflated; A5, A6, B5 are low-confidence and ranked accordingly; the chirality verdict claims a wall plus open questions, not a positive; nothing here asserts any measured-value correspondence. All 14 verified items are present (A1–A6, B1–B5, C1–C2, D1).
+
+---
+
+**CORRECTION (2026-07-14, post-B570 Q-A/C1; the Review-16 R3/R8 catch):** statements above of
+the form "the amphichiral involution IS θ, canonically" use the pre-correction registry wording
+and conflate two involutions. The corrected record (docs/THEOREM_REGISTRY.md T-θTANGENT): the
+amphichiral involution acts on the tangent ANTILINEARLY, as conj∘θ; the ℂ-linear θ itself is
+realized by the HYPERELLIPTIC involution (B353, gauge-certified). Consequently "amphichiral ⟺
+θ-symmetric ⟺ vector-like" holds at the level of the θ-grading content but the involution
+identifications should be read per the corrected registry entry; the crux identity is
+d(σ∘φ⁻¹) = θ (B570 QA_RESULT.md, Level 3). This note supersedes the affected sentences.

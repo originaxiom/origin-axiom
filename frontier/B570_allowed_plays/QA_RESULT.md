@@ -64,7 +64,7 @@ of the mirror-corrected fold.
 
 - The chirality is **not dead and was never in F₄**: it is the σ-column (Galois /
   orientation / the B469 residue), independent of the θ-fold at the group level.
-- The fold does two jobs only at the tangent level (dφ = θ) — it does not
+- The fold does two jobs only at the tangent level (d(σ∘φ⁻¹) = θ; the amphichiral dφ itself is antilinear conj∘θ) — it does not
   purchase a finite chirality bit, but it aligns the infinitesimal chirality
   axes with the θ-odd sector, which C3 showed is dynamically alive.
 - The gap-chirality duality (B569 reframe, C2's target) gets its precise form:

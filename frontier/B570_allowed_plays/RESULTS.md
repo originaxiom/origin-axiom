@@ -4,7 +4,7 @@
 C3 and Q-A ran first inline by owner directive (C3_RESULT.md, QA_RESULT.md — C3
 independently re-derived and confirmed; Q-A corroborated by the campaign's own QA
 cell). The theorem: `THE_SELECTION_RULES.md`. Every cell adversarially verified;
-verifier repairs applied at banking (noted per cell). Locks: 100 new tests green
+verifier repairs applied at banking (noted per cell). Locks: 105 new tests green
 (`test_b570_{ap1,ap2,ap3,ap4,ap5,c1,c2,c4,qa,c3_level2,qa_trichotomy,theta_odd_spine}.py`).
 
 ## The clause cells

@@ -596,3 +596,162 @@ anchor-commit: `ecf29e0`
 
 *(window #869–#882; anchor = HEAD after the cadence change; next review due at 20 merges.)*
 
+
+---
+
+## Review 16 — 2026-07-14 (merges #884-#903 from Review 15; the chirality arc)
+
+anchor-commit: `8452656`
+
+1. **Suite:** **2143 passed / 12 skipped / 0 failed** (36:05, full run for this review) — the
+   first fully-green full-suite run in three reviews: the named B207 flaky passed IN-SUITE this
+   time. Also re-checked standalone this review:
+   `test_b207::test_metallic_volumes_bounded_golden_minimal` passes 3/3 standalone runs; the
+   standalone-stable / suite-flaky characterization stands (SnapPy retriangulation sensitivity
+   under full-suite load; nothing in this window touched B207).
+
+2. **Gates:** 7/7 green (framing, claims, firewall-oneway, append-only, atlas-fresh, attribution,
+   tracked-forbidden). This is the **first review under the 20-merge cadence** set at #882; it
+   fired at 21 merges. Governance notes: `.github/workflows/core.yml` remains deliberately
+   untracked (disclosed in REPRODUCIBILITY.md, enforced by tracked-forbidden — not a hygiene
+   miss); the review counter resets at this anchor.
+
+3. **The window = the chirality arc, end to end.** The two-descriptions split (#884): the
+   algebra face non-compact (proven) vs the measurement face compact (verified; ℂ¹⁵ = ℂ³×ℂ⁵ =
+   the two ends) — compactness is constitutively observer-side, the TDV gap located at the
+   coupling. The three papers drafted + finalized (#885): PC23/PC24/PC25, checker-verified,
+   CANDIDATES → DRAFTED; Theorem-3 reproducibility gap closed (15 new locks). **B566** the five
+   self-interactions: ★ the TRIPLE IDENTITY (ℤ/11 = N(φ⁵−1) = the 5-fold-cover torsion prime —
+   the charge is geometric, n=5-specific); the N=p² dark-hyperbola law (LIVE, 7 levels); thermal
+   time (KMS ≠ frequencies); ends-entanglement S=0.3217; measurement collapse SL(2,ℤ/15)^ab=ℤ/3.
+   **B567** the Hamiltonian handoff refuted: the claimed six-level π/3 spectrum is impossible
+   (projective order forced to 20; verified at levels 15 and 165). **B568** the object's own
+   questions — prereg (7 cells + anatomy census of 17 named organs + CQ1–CQ5) and sixteen
+   answers, eight jewels: the one-bit law H_n=n+H₀, the self-written arithmetic action, the
+   split-memory heartbeat, mixed exchange statistics, the half-rungs (λ₀.₅=2.37798…), 66/66
+   eyes in ℚ(√−3), reflex latency {0,1,2}, salience 1.83×; plus the assembled minimal play
+   (7 actors/3 casts) and honest nulls. **B569** the sixteenth σ→SM chain adjudicated: Link 4
+   CORRECTED — the handoff's modular data was inconsistent (h=1/3 with c=6 fails (ST)³=S², Z
+   word-dependent −1/+1); the consistent E₆,₁ data (h(27)=2/3, proved from the root system)
+   gives Z=+1, no chirality bit; Link 7 REFUTED — the 26 of F₄ is self-dual, zero chiral
+   theories on the F₄ stage, the fourth wall re-derived from pure Lie theory. **B570** the
+   selection-rules campaign, COMPLETE: C3 run first — E₆ level-2 modular data from scratch
+   (51,840 Weyl elements), ρ(A₁) on the θ-odd 3-space NON-SCALAR, order 4, eigenvalues
+   {1,+i,−i} — **the first positive chirality-sector signal in seventeen campaigns**
+   (firewalled: C=S² central, no monodromy prefers 27 over 27̄); Q-A decided (the F₄-principal
+   nilpotent is regular in E₆, Jordan (17,9,1) exact both sides ⇒ the Galois pair (5±√−3)/2
+   kills both readings; the Klein four ⟨θ,σ⟩; registry T-θTANGENT wording corrected —
+   amphichiral = antilinear conj∘θ, linear θ = hyperelliptic per B353); **AP4 THE FIFTH WALL**
+   (chiral selectors exist in E₆ but none reachable — the holonomy factors through the θ-stable
+   principal SL(2,ℂ); vector-like for ANY rank-1 embedding); AP2 Z=+1 for all 243 abelian
+   theaters (Gauss–Milgram); AP3 the clock theorem ord(A₁ mod N)=π(N)/gcd(π(N),2) (N≤1000);
+   C2 gap⟺chirality biconditional; C4 all cyclic covers amphichiral; C5QC quarantined (Q-C
+   stays OPEN); THE_SELECTION_RULES.md audits the SM once (fails S+Λ+D; ONE live channel:
+   C3's θ-odd dynamics). **B571** the day-0 internalization: 8 readers over the 8,044-line
+   corpus, 106 candidates → 14 genuinely buried (B507 unlocked, Kubota–Leopoldt
+   asserted-never-computed, B54's {−3,+5} twin quadratics = the earliest two-ended sighting,
+   e₃ stalled mid-CRT, S031 m=3 blocked by a factually wrong reason) + the two-chiralities
+   dossier (the object breaks c abundantly, is θ-symmetric). **B572–B574** the three chain
+   adjudications with the corrected map: B572 — V1 refuted against an existing lock
+   (27|principal = V₁₇⊕V₉⊕V₁), THE WELD named and locked (χ₂₇(z)=χ₂₇(1/z) — the holonomy
+   cannot distinguish 27 from 27̄; clause 9's selector unforced), and the upgrade
+   **S_odd(E₆,₂) = −i·(2/√7)[sin(2πst/7)]** exactly (S-block only); B573 — the bridge value
+   exact (P(z₀)=6807/2+(4965√3/2)i, the cleanest proof σ moves the point), step 8 refuted
+   (the 16 of Spin(10) is NOT principal-stable — no common refinement, the sharpest fifth
+   wall), "topological protection" refuted (real Riley points u=−2±2√2), record corrected
+   (no Fox-calculus ran; V2 still queued); B574 — the minimal orbit IS the A₁ orbit,
+   centralizer A₅ = 35 ≠ 45 = D₅, no E₆ nilpotent orbit has a Spin(10) centralizer; the wall
+   is rank-1-ness, not the orbit; THE BRIDGE QUESTION, FINAL FORM: the quadratic obstruction
+   H¹×H¹→H² on the five off-factored directions.
+
+4. **Re-verification (8 fresh-eyes cells, independent code, not the repo's).** R1-B569 CLEAN:
+   h(27)=2/3 rebuilt two independent ways (Weyl dimension formula from the Cartan matrix AND
+   E₆-inside-E₈ in ℝ⁸); the word-kill reproduced exactly in SL(2,ℤ) + 50-digit modular pairs;
+   Gauss–Milgram pairings confirm c≡2/6 mod 8; the 26-of-F₄ self-duality re-proved via an
+   independent ℝ⁴ root realization plus a reflection-orbit argument stronger than the banked
+   one. R2-C3 CLEAN on the math: independent rebuild with a *different* Weyl enumeration and a
+   *third* SL(2,ℤ) word (T·S⁻¹·T⁻¹·S) agrees to 1.4e-13; all three convention-robustness
+   sentences now computationally verified (naive T fails modularity; mirror invariant; hybrid
+   non-modular); the sine kernel cross-checked against the textbook Cardy M(2,7) S-matrix —
+   matches up to a diag(1,−1,1) rephasing gauge. R3-QA: the Galois pair confirmed twice
+   (independent word constructions; matches the classical ℚ(√−3) trace field), Jordan (17,9,1)
+   via three unrelated code paths, B565's adjoint trace cross-confirmed; 25/25 locks green.
+   R4-B570bank CLEAN: all three verifier repairs genuinely applied (AP4 downgraded to
+   CONJECTURE in docs AND code; C4's honest methods breakdown matches the parametrization
+   exactly; C5QC has no adopted test and zero conclusion-leakage anywhere); all 97 tests in the
+   9 adopted files run and pass, no hidden tautologies (C1's is self-disclosed), no side
+   effects; AP1's 35-element Hilbert basis independently re-derived **byte-identical**; AP5's
+   orders 20/20 reproduced. R5-B571: all three spot-checked buried items confirmed exactly
+   (B507 has no lock; e₃ literally PENDING; B54 zero cross-refs to B247–B261). R6-chains
+   CLEAN: 8/8 locks pass; ρ built two ways, the full height spectrum reproduced; P(z₀) rebuilt
+   directly from the weight multiset (exact symbolic match); the A₅ centralizer identified
+   *structurally* (sub-Cartan matrix is a genuine A₅ path) rather than by dimension count.
+   R7-hygiene and R8-firewall: no CLAIMS.md leakage anywhere in the window; the C5QC/Q-C
+   quarantine consistent everywhere; "first positive chirality signal" properly scoped with
+   no-SM-claim hedges at every occurrence; B572's M(2,7) claim correctly limited to the
+   S-block. Every headline number in B569–B574 reproduced under independent recomputation.
+
+5. **Issues found (6 real; none touches banked mathematics).** (i) **The stale-θ contradiction**
+   (R3+R8, the window's one real defect-pattern): B571's dossier still asserts the
+   pre-correction "the amphichiral involution IS θ, canonically" unqualified at THEOREM tier
+   (`CHIRALITY_DOSSIER.md:23,:78`, `REPORT.md:115`) — B571 (#898) merged before the T-θTANGENT
+   correction (#900) and was never patched, and the same wording propagated into CHANGELOG:83
+   and the CAMPAIGN_STATUS B571 bullet *adjacent to the corrected entry*; THE_SELECTION_RULES
+   §5 item 7 itself flags this as "adjudicate before anything leans on T-θTANGENT."
+   (ii) The registry row's Locked-by column cites tests that don't exercise the
+   antilinear/linear distinction; the actual locks are `test_b570_c1` + `test_b353` (R3).
+   (iii) M(2,7) confidence mismatch: C3_RESULT calls it an unbanked HINT; B572 says "IS the
+   M(2,7)-family S-matrix, Locked" — R2's Cardy check shows the identification is defensible
+   up to the rephasing gauge, but the two docs must be reconciled. (iv) CAMPAIGN_STATUS.md was
+   never updated for B572/B573/B574 (#901–#903) — the one-glance board is blind to three
+   banked arcs (R7). (v) OPEN_LEADS.md has **zero** registrations for the arc's entire open
+   frontier — the bridge question, V2/V3/V5, Q-C, the B571 top-5 revival queue, the
+   prime-power hook — and L6 still carries the reasoning B571 proved factually wrong (R5+R7);
+   B571's own queue was heading for burial by exactly the pattern B571 diagnosed. (vi) PC26,
+   discussed as the contingent flagship in three banked docs, has no row in papers/CANDIDATES.md
+   (R7). Nits, compressed: B570 RESULTS says "100 tests," actual 105; the whole window's doc
+   headers read 2026-07-14 against 2026-07-13 commits (convention call for the owner); B399's
+   second failed e₃ attempt (Jul 9, UNSTABLE) never folded back into triple_id.json; a no-op
+   `assert 1 != 0` in test_b573:51; the Weyl-orbit BFS copy-pasted across three lock files;
+   QA_RESULT.md:65 reintroduces the "dφ=θ" shorthand its own Level-3 section just corrected;
+   a stale uncommitted RECURRENCE_ATLAS diff; `.log1`/`.log2` slip the gitignore glob. All
+   fixes are bookkeeping; **ALL APPLIED in this review's closeout commit** (the B571
+   correction notes, the registry lock-column, the M(2,7) gauge-precise reconciliation in both
+   docs, the CAMPAIGN_STATUS board entries + phrasing, OPEN_LEADS L51–L58 incl. the corrected
+   B137 deferral reason, the PC26 registry row, the 105 count, the e₃ second-attempt record,
+   the no-op assert, the gitignore globs; the date convention left as a documented owner call —
+   entries track the owner's working date, one day ahead of commit timestamps).
+
+6. **Corrections ran in every direction.** Seat/handoff errors caught in-window: B569's
+   inconsistent modular data (the word-dependent Z=−1 was an artifact of a non-representation)
+   and its Link-7 chirality claim; B567's six-level π/3 spectrum (order forced to 20); B572's
+   V1 branching (refuted against our own existing lock); B573's step 8, its "topological
+   protection," and its record (the claimed Fox-calculus verification never happened); B574's
+   D₅-centralizer crux (A₅, 35≠45); B568's L5 sign. My errors caught: the **Jordan-block bug in
+   my own first Q-A lock** (sl₂ strings step by 2 — caught and fixed before banking), and the
+   T-θTANGENT wording I banked, corrected by the verifier (**the registry fix**: amphichiral =
+   antilinear conj∘θ; the ℂ-linear θ = the hyperelliptic involution). Verifier catches applied
+   and now independently confirmed applied (R4): AP4's biconditional downgraded to CONJECTURE,
+   C4's methods-count honesty, the C5QC quarantine. This review's cells added the six issues
+   above plus a third independent SL(2,ℤ) word and a gauge-resolved M(2,7) identification.
+   No claim survived on authority.
+
+7. **Net.** The chirality arc is adjudicated end to end: seventeen chains in, the walls stand
+   at five (values, selection-disjointness, chiral index ≡ 0 — re-derived twice this window,
+   compactness, and the reachability wall AP4, sharpened by B573's no-common-refinement and
+   diagnosed by B574 as rank-1-ness, not the orbit) — and the arc's one genuinely live channel
+   is C3's θ-odd dynamics at level 2 (order 4, the ℤ/7 sine kernel), firewalled, no SM claim.
+   Nine of the seventeenth chain's clauses stand because they were already ours. **Promotion
+   candidates for §5:** the AP4 fifth-wall theorem, the AP3 clock theorem, the Q-A trichotomy
+   (Jordan (17,9,1)), and the sine-kernel identity — all theorem-shaped with locks. **The
+   queue, in order:** FIRST the bridge/quadratic-obstruction computation (H¹×H¹→H² on the five
+   off-factored directions — unobstructed ⇒ rank-≥2 reps exist and the selector question
+   reopens; all obstructed ⇒ the sixth wall); the B571 revival queue (Q-C transport, the
+   criticality theorem + B507 lock, e₃ completion, the Kubota–Leopoldt discriminating fact,
+   S031 m=3 under the corrected reason); B572's V2 (Fox H¹=6, the PC25 strengthening), V3
+   (B299 orbits ↔ the three 16s), V5 (global gap⟺chirality with Galois descent); and the
+   level-3 prime-law hook (level 1 inert, level 2 = the ℤ/7 sine kernel, ω₄ enters at level 3 —
+   does the θ-odd kernel follow a prime law up the levels?). All of these enter OPEN_LEADS.md
+   in this review's closeout, per issue (v).
+
+*(window #884–#903; anchor = HEAD after B574, the bridge question in final form; next review due at 20 merges.)*

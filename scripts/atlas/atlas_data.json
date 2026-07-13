@@ -1191,8 +1191,11 @@
     "B127",
     "B129",
     "B136",
+    "B160",
+    "B571",
     "B85",
     "K012",
+    "L57",
     "P1",
     "P16",
     "S031",
@@ -11564,8 +11567,8 @@
     "V4",
     "V5"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 3,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
    "status": "dead",
    "domain": "arithmetic"
   },

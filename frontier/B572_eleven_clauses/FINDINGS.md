@@ -71,7 +71,8 @@ ordering of the pairs 27↔1, 351′↔2, 351↔3):
 
 > **S_odd = −i · (2/√7)·[sin(2πst/7)]_{s,t=1..3}** — the θ-odd S-block of E₆ level 2
 > IS the ℤ/7 sine kernel; S_odd² = −I (= conjugation on the odd sector), and the
-> kernel is the M(2,7)-family S-matrix. **S-block only:** the T-phases
+> kernel matches the M(2,7)-family S-matrix up to a primary rephasing gauge
+> (D = diag(1,−1,1) vs the standard Cardy formula; Review-16 R2 check). **S-block only:** the T-phases
 > {13/84, 73/84, 61/84} are E₆-specific and do not match M(2,7)'s. Locked.
 
 ## Verification tasks: status

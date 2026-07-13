@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — REVIEW 16 (the chirality arc audited; six fixes; the queue set)
+
+### Added
+- Review 16 (docs/progress/REVIEWS.md): suite 2143/0/12 (first fully-green in three reviews);
+  8 independent fresh-eyes cells — every B569–B574 headline reproduced; zero critical issues;
+  six real bookkeeping defects fixed in the closeout (stale-θ propagation, registry lock-column,
+  M(2,7) gauge-precise reconciliation, board entries, OPEN_LEADS L51–L58, PC26 row).
+  Promotion candidates: the fifth wall, the clock theorem, the Q-A trichotomy, the sine kernel.
+  Queue: L51 (the bridge obstruction) first. Anchor 8452656; counter reset.
+
+
 ## 2026-07-14 — B574: the off-principal proposal adjudicated (the bridge question, final form)
 
 ### Added
