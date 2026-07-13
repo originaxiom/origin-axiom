@@ -13,7 +13,11 @@ import importlib.util
 import os
 import sys
 
+import pytest
 
+
+@pytest.mark.skipif(os.environ.get('OA_SLOW') != '1',
+                    reason='full exact e6 build ~6 min; run with OA_SLOW=1 (the B352 house pattern; reviews run slow-tier on)')
 def test_theta_odd_motion_forces_full_e6():
     path = os.path.join(os.path.dirname(__file__), "..",
                         "frontier", "B576_deformed_closure", "l59_closure.py")

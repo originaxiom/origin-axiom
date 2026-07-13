@@ -11618,6 +11618,12 @@
     "firewall"
    ],
    "refs": [
+    "B264",
+    "B265",
+    "B270",
+    "B351",
+    "B352",
+    "B577",
     "L51",
     "L59",
     "V1",
@@ -11625,8 +11631,8 @@
     "V3",
     "V4"
    ],
-   "obstacle": "selector",
-   "obstacle_conf": 2,
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -11640,15 +11646,52 @@
     "firewall"
    ],
    "refs": [
+    "B265",
+    "B270",
     "B575",
+    "B577",
     "L59",
     "L60",
-    "L61"
+    "L61",
+    "L71"
    ],
    "obstacle": "selector",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B577": {
+   "slug": "reconciliation",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B264",
+    "B265",
+    "B270",
+    "B351",
+    "B352",
+    "B571",
+    "B575",
+    "B576",
+    "L20",
+    "L22",
+    "L5",
+    "L51",
+    "L53",
+    "L57",
+    "L60",
+    "L62",
+    "L71"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B57": {
    "slug": "general m splitting",

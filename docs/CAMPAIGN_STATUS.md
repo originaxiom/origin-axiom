@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B577 — THE RECONCILIATION: the {4,8} program got there first, 2026-07-14)
+- **The owner's audit question caught a non-recall:** B575's Q≡0 = the banked **B352** (dps-100,
+  conditional) computed exactly; B576's dichotomy = the banked **B265** (Sage/ℚ) completed. Two
+  disjoint pipelines now agree on all 21 zeros — the conditionality is discharged; the result is
+  epistemically stronger than either alone. The arc's own contributions: exactness, the block-sum
+  completeness, the z₂ certificates, the σ-synthesis. **New failure mode named and guarded
+  (MB13):** banked ≠ recalled — keyword-grep + atlas oracle before every prereg. Lead-number
+  collisions fixed (L62–L71); heavy locks moved to the OA_SLOW house pattern.
+
 ## LAST BANKED (B576 / L59 — THE CHIRALITY IS EXACTLY THE θ-ODD MOTION, 2026-07-14)
 - **The closure question decided: every candidate closure is a block-sum; the θ-even sums close
   inside F₄ (vector-like forever); ALL SIX forcing channels are nonzero — a θ-odd component

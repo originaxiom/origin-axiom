@@ -3530,3 +3530,29 @@ the F₄ stratum vs full E₆. Honest residue: L60 (integrability beyond second 
 Porti-smoothness for E₆), L61 (the geometric meaning of the θ-odd deformed reps; does σ single
 one out). PC26 → GATED-ON-VERIFICATION (one independent re-derivation of B575+B576 before
 drafting). 1 lock (~6.5 min, transitively re-fires all B575 gates). Firewalled.
+
+## 2026-07-14 — B577: the reconciliation — B575/B576 rediscovered the banked {4,8}-integrability program
+
+**Caught by the owner's audit question.** The pre-existing OPEN_LEADS L53 row surfaced **B352**
+("the cup-product obstruction: all six directions unobstructed at second order (conditional)",
+dps-100, same control design), and B352 surfaced the thread: **B264→B265→B270→B351→B352, the
+{4,8}-integrability program** — banked weeks ago. **B265 had already proved B576's dichotomy**
+({4,8} generate e₆ = Zariski-dense; {5,7,11} → f₄; Sage, exact over ℚ); **B352 had already
+computed B575's Q ≡ 0** (numerically, conditional). Neither was cited: NOT B571's burial mode
+but a NEW failure mode — **non-recall of properly-banked results when the question returns
+under a new name** ("bridge obstruction" vs "cup-product obstruction"). Four layers missed it
+(the L51 registration, B571's excavation — scoped to unbanked treasure, Review 16 — window-
+scoped, the B575 prereg); the Recurrence Atlas was never queried. **Guard MB13 banked**
+(REPRODUCIBILITY.md): keyword-grep frontier/ + OPEN_LEADS + the atlas oracle before any prereg.
+
+**The mathematics is STRONGER for it:** two disjoint pipelines (B352 dps-100 Chevalley vs B575
+exact ℚ(√−3) gl(27)) agree on all 21 zeros — B352's "(conditional)" is DISCHARGED; B576 =
+B265's dichotomy upgraded to completeness (the block-sum lemma: those three points exhaust the
+lattice for all mixtures). The arc's genuinely-new content: exactness, completeness, the
+constructive z₂ certificates, and the σ-synthesis (θ-odd = σ's imaginary axes = C3's sector).
+Attribution addenda appended to B575/B576; PC26 credit = the thread + the arc jointly.
+Hygiene in the same pass: the Review-16 lead numbers L51–L61 COLLIDED with pre-existing rows —
+renumbered L62–L71 (my "L60" merged into the pre-existing L53, which had already scoped the
+Massey step WITH machinery); B575/B576 heavy locks converted to the B352 house pattern
+(OA_SLOW=1 gate; the suite returns to ~36 min); B270's "deformations are cusp deformations" =
+the head start for L71; pre-existing L5/L20/L22 duplicates flagged for Review 17. Firewalled.
