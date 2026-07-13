@@ -6,6 +6,28 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B570 COMPLETE: the selection-rules theorem, the fifth wall, Q-A decided
+
+### Added
+- **Q-A decided (the crux):** the F₄-principal nilpotent is regular in E₆ (Jordan (17,9,1)
+  both sides, exact) ⇒ θ fixes a principal embedding ⇒ "ρ̄≅θ∘ρ" ⟺ "ρ̄≅ρ", both killed by the
+  Galois pair (5±√−3)/2 (t²−5t+7, disc −3). The Klein four ⟨θ,σ⟩: chirality is σ, not θ;
+  σ = the object's own mirror on the component; **d(σ∘φ⁻¹) = θ at the tangent** (registry
+  T-θTANGENT wording corrected: amphichiral = antilinear conj∘θ; linear θ = hyperelliptic,
+  B353). `QA_RESULT.md`, `qa_trichotomy.py`, 3 locks; campaign-corroborated.
+- **The campaign (21 agents, verified):** AP1 cast monoid (35-generator Hilbert basis, totals
+  {0,7}∪[10,∞)); AP2 theater table (**Z=+1 for all 243 abelian theaters** — Gauss–Milgram
+  theorem; Z real, values {−1/φ,0,1/φ²,1}); AP3 **the clock theorem ord(A₁ mod N) =
+  π(N)/gcd(π(N),2)** (N≤1000, no exceptions — Fibonacci–Pisano frequencies); **AP4 THE FIFTH
+  WALL** (chiral selectors exist in E₆ but none reachable — the holonomy factors through the
+  θ-stable principal SL(2,ℂ); vector-like for ANY rank-1 E₆-embedding); AP5 order obstruction;
+  C2 gap⟺chirality proved biconditional; C1 cusp-sign NULL; C4 all cyclic covers amphichiral;
+  C5QC quarantined (tautology + object mismatch — Q-C stays OPEN). AP6:
+  `THE_SELECTION_RULES.md` — the SM audited once (fails S+Λ+D, M unevaluable, ONE live channel:
+  C3's θ-odd dynamics). 100 locks across 12 test files; RESULTS.md is the ledger.
+
+---
+
 ## 2026-07-14 — B571: the day-0 internalization (14 buried treasures + the two-chiralities dossier)
 
 ### Added
