@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — the Gauge-Behavior Campaign preregistered (B565)
+
+### Added
+- frontier/B565_gauge_behavior_campaign/PREREGISTRATION.md: T1-T8 behavior-targets with prereg
+  rubrics (anomaly, chiral index, centralizer chain, Baez-Schwahn door, beta-sign, loop
+  observables, Diophantine gaugeability, B71 corroboration) + the five probation second passes
+  (corrected specs) + two reserved handoff slots (H1/H2). Model-tiered; adversarial verify.
+
+---
+
 ## 2026-07-13 — gauge/SM literature map (behavior-targets for the object)
 
 ### Added

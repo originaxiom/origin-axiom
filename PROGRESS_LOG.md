@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the Gauge-Behavior Campaign preregistered (B565)
+
+Crafted the campaign that runs the lit-map's behavior-targets PROPERLY (prereg rubrics committed
+before compute): Batch A = the two sharpest never-asked verdicts (T1 the Z/11 't Hooft anomaly in
+H^3(Z/11,U(1)), UV substitution vs IR c=7/10; T3 the chiral index over the Q(sqrt-phi) gap labels,
+predicted 0 -> the 4th mechanism-level wall); Batch B = the certified dictionaries (T8 B71 vs
+Heusener-Munoz-Porti; T2 the centralizer stratification = the object's intrinsic breaking chain;
+T6 the NEW Baez-Schwahn F4->SM door, fifth route, closed-or-opened by computation); Batch C = the
+dynamical invariants (T4 trace-map beta-sign, T5 Z/11 loop observables/Fredenhagen-Marcu, T7
+Lohitsiri-Tong Diophantine gaugeability); Batch D = the five probation NEEDS-RERUN leads with
+their verifier-corrected specs (B85, L5/L6, Cell-3 Bezout, rho_n, L38 Higgs/scale done honestly);
+Batch H = two reserved slots for incoming cross-seat handoffs (verify-don't-trust on receipt).
+Model-tiered (2 opus, 2 fable, rest sonnet), adversarial verify per cell, agents never commit.
+Launches when the two handoffs are slotted. Spec doc, no lock.
+
+---
+
 ## 2026-07-13 — gauge/SM literature map: what behavior to look for in the object
 
 Model-tiered literature campaign (6 web angles, citation-checked, project-aware synthesis) ->
