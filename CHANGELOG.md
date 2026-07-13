@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — tower-probe campaign: P-E and E4 re-run
+
+### Added
+- B556 FINDINGS: the tower's Galois structure is non-abelian (rung 1 = D4, order 8), refuting
+  the (Z/2)^{n+1} claim; e_n Galois-invariant (P-E). Covering functors non-escalating (2-block
+  cover Perron = phi; only the (M,M^2) coupling escalates), closing the last alternative (E4).
+- tests/test_b556_campaign3.py (2 locks). OPEN_LEADS: E4 marked DONE.
+
+---
+
 ## 2026-07-13 — tower-probe campaign: negatives + connections (P-A, c_eff, FL1, BKL)
 
 ### Added
