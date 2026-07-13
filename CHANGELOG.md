@@ -12,16 +12,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 - B556 FINDINGS: "The feedback ledger" section — the charge as the residue of
   self-reference. VERIFIED: golden-norm closed form e₁=N_ℚ(√5)(g₁(φ))=−11;
   transfer polynomial G (deg 9) with e_{n+1}=det(G(M_{n−1})) exact all rungs;
-  growth law (field ×2, arithmetic ×3, ratio→3); e₅ = 62 digits/204 bits; the
-  quine seed-invariant (σ₄ images hold seed 'a' once at position 0).
+  growth law (field ×2, arithmetic ×3, ratio→3); e₅ = 62 digits (203-bit
+  magnitude / 204-bit storage); the quine seed-invariant (σ₄ images hold seed
+  'a' once at position 0).
 - tests/test_b556_feedback.py (6 locks).
 - HINT_LEDGER H115–H117 (conservation-mint economy; ×2/×3 ↔ ℤ₄∗_{ℤ₂}ℤ₆; the
   physical self-reading loop / "constitutively self-aware") — all NOTICED, firewalled.
 - OPEN_LEADS: the feedback-ledger follow-ups (FL1 the 2-cycle's information channel;
   FL2 the golden-norm doubling-transfer; FL3 the σ₈ carrier for the quine induction).
 
-### Fixed
-- e₅ bit-count: 204 bits (chat-2's "203" corrected); 62 digits confirmed.
+### Note
+- e₅ ∈ [2²⁰³, 2²⁰⁴): chat-2's "203 bits" (= ⌊log₂⌋) and bit_length 204 are BOTH
+  correct — a convention difference, not an error. (Self-correction: the initial
+  bank wrongly framed chat-2's 203 as off-by-one.)
 
 ---
 

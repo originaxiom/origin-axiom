@@ -42,11 +42,14 @@ def test_charge_values_exact():
         assert _e(n) == E[n]
 
 
-def test_e5_is_62_digits_204_bits():
+def test_e5_is_62_digits():
+    """e5 in [2^203, 2^204): floor(log2)=203 (chat-2's 'bits'), bit_length=204.
+    Both conventions are correct; chat-2's 203 is NOT an error."""
     e5 = _e(5)
     assert e5 == E[5]
     assert len(str(abs(e5))) == 62
-    assert abs(e5).bit_length() == 204        # chat-2's "203" corrected
+    assert abs(e5).bit_length() == 204        # bits to store
+    assert (abs(e5).bit_length() - 1) == 203  # floor(log2) magnitude = chat-2's figure
 
 
 def test_golden_norm_closed_form():

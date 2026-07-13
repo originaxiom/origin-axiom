@@ -227,8 +227,11 @@ with the doubling — a fixed degree-9 kernel drives the charge two rungs at a t
 **VERIFIED — the growth law: geometry ×2, arithmetic ×3.** The field degree is
 2ⁿ⁺¹ (doubles per rung). The *arithmetic* size grows faster: the log-charge ratios
 log|e_{n+1}|/log|e_n| run 2.79, 2.50, 2.80, 3.00 → **3** (forced by the degree-
-tripling of g_n). e₅ is a 62-digit integer (**204 bits** — chat-2's "203" was off
-by one). Per act of self-coupling: **the field doubles, the information triples.**
+tripling of g_n). e₅ is a 62-digit integer in [2²⁰³, 2²⁰⁴): chat-2's "203 bits"
+= ⌊log₂ e₅⌋ = 203 (magnitude), and bit_length = 204 (bits to store) — **both
+correct, a convention difference, not an error** (a self-correction: an earlier
+note here wrongly flagged chat-2's 203 as off-by-one). Per act of self-coupling:
+**the field doubles, the information triples.**
 
 **VERIFIED — the quine seed-invariant (the mechanism of self-containment).** Every
 image of σ₄ contains the seed letter 'a' **exactly once, at position 0**
