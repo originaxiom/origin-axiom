@@ -366,3 +366,28 @@ bigrams), and factor complexity at every n. So the loop **conserves the growth r
 not the symbolic content** — the same eigenvalue-universal / eigenvector-varies signature
 as B533's coupling test. That is the information the loop carries: a clock rate shared,
 a combinatorial state exchanged.
+
+## Tower-probe campaign — the two re-run cells (P-E Galois, E4 covering; verified 2026-07-13)
+
+The campaign's P-E and E4 agents returned placeholder stubs; both re-computed
+in-sandbox here (`tests/test_b556_campaign3.py`).
+
+**P-E — the tower's Galois structure is NON-abelian, not (ℤ/2)ⁿ⁺¹ (claim REFUTED).**
+Rung 0 (x²−x−1) has Galois group ℤ/2 (order 2, abelian) — matching (ℤ/2)¹. But rung 1
+(x⁴−2x³−5x²−4x−1) has Galois group **D₄ (order 8, non-abelian)**, NOT (ℤ/2)² (order 4).
+So seat-1's "(ℤ/2)ⁿ⁺¹ abelian, profinite (ℤ/2)^ℕ" is false from rung 1 on. What survives:
+eₙ is a rational integer, hence **Galois-invariant** (the correct part of the claim). And
+the non-abelian D₄ — with its complex embeddings (signature (2,1)) — is exactly the
+mechanism behind P-C's complex-conjugate magnitude-degenerate pairs and P-A's
+non-cyclotomicity. (The rung-2 octic Galois group is beyond sympy's degree-6 solver;
+the claim is already refuted at rung 1.)
+
+**E4 — covering functors are NON-escalating (closes the last "only coupling escalates"
+alternative).** A finite cover / higher-block presentation of a subshift preserves
+topological entropy = log(Perron) (classical). Concretely, the **2-block presentation of
+the golden-mean SFT** (states aa,ab,ba) has Perron **= φ, unchanged**, while the
+escalator T(F) raises it to 3.676. So covering is non-escalating by a general principle
+(chat-2's 13×13 lift is one instance — its exact spec is not needed). Combined with the
+already-closed induction (ℚ(τ) saturation, B533) and return-flow (B540) alternatives,
+this confirms: **among the natural functors, only the (M,M²) escalator coupling raises
+the field/Perron.**

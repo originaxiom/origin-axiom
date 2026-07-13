@@ -10,6 +10,22 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — tower-probe campaign: P-E and E4 re-run (the two dead stubs)
+
+The campaign's P-E/E4 agents returned placeholder stubs; both re-computed in-sandbox
+(tests/test_b556_campaign3.py):
+- P-E (claim REFUTED): the tower's Galois structure is NOT (Z/2)^{n+1}. Rung 0 = Z/2 (order 2),
+  but rung 1 = D4 (order 8, NON-abelian) != (Z/2)^2. e_n stays Galois-invariant (rational). The
+  non-abelian D4 (complex embeddings) is the mechanism behind P-C's conjugate pairs and P-A's
+  non-cyclotomicity. (rung-2 octic beyond sympy; already refuted at rung 1.)
+- E4 (closes the last alternative): covering functors are NON-escalating — a finite cover /
+  higher-block presentation preserves entropy = log(Perron); the 2-block golden-mean cover has
+  Perron = phi (unchanged) while T(F) escalates to 3.676. With induction (B533) and return-flow
+  (B540) closed, ONLY the (M,M^2) coupling escalates.
+2 locks.
+
+---
+
 ## 2026-07-13 — tower-probe campaign: the negatives + connections (P-A, c_eff, FL1, BKL)
 
 Four more campaign cells, adversarially verified + re-checked (tests/test_b556_campaign2.py):
