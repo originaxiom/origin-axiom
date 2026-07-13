@@ -49,6 +49,19 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B565 THE GAUGE-BEHAVIOR CAMPAIGN — 2026-07-14, 44 agents, 18 cells + 123-kill exhumation)
+- **The gauge question closed at the BEHAVIOR level.** T1: the ℤ/11 charge does NOT descend to the
+  anyon chain (11 divides no IR symmetry order) — non-anomalous UV bookkeeping, not a force. **T3:
+  chiral index ≡ 0 — THE FOURTH MECHANISM-LEVEL WALL** (object vector-like; SM matter chiral). T4
+  screening, T5 confining-like strings (letter floor), T2 breaking chain scalar-a.e., T6 the fifth
+  F₄→SM door closed (G₂(2): no order-11). **H1: Krasnov verified by computation (centralizer =
+  u(1)⊕su(2)⊕su(3), dim 12); the real-form theorem — the holonomy lands in F₄(ℂ) in NO real form;
+  COMPACTNESS IS THE GAP in the TDV bridge.** The triality MATCH (B299 ≡ Boyle) = the one live
+  generations thread (H120, firewalled). Tower corrections: rung-2 Galois = 8T15 exact;
+  **2^{2n+1} REFUTED at rung 3** (P~6e-37). Earned kills: B85 (+ the ⌈(n−2)/2⌉ law), L38 (weight-0
+  theorem). **Exhumation: 123 kills audited — 113 sound, 9 suspects, 1 cracked epitaph (S014's
+  '60%' never computed; corrected).** B71 externally corroborated (HMP). 4 locks + RESULTS.md.
+
 ## LAST BANKED (THE TOWER-PROBE CAMPAIGN — 2026-07-13, multi-agent, PRs #861–#867)
 - **A model-tiered multi-agent all-nighter** (30 agents, 0 errors, adversarial verify per cell)
   swept the accumulated handoffs. **The tower is mathematics, not physics — confirmed through

@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B565 gauge-behavior campaign complete (18 cells + exhumation)
+
+### Added
+- frontier/B565_gauge_behavior_campaign/RESULTS.md: the full ledger. Headlines: Z/11 does not
+  descend (T1); chiral index = 0 — the 4th mechanism-level wall (T3); the real-form theorem —
+  holonomy in F4(C) in NO real form, compactness is the TDV gap (H1); triality match B299=Boyle
+  (H120); rung-2 Galois = 8T15 exact + 2^{2n+1} REFUTED at rung 3; O_{M_16}=O_{18845090};
+  B71 corroborated (HMP); screening + confining-like signs; B85/L38 kills EARNED.
+- tests/test_b565_campaign.py (4 locks). TOMBSTONES: B85 (+law), L38, S014 epitaph corrected.
+- Exhumation: 123 audited = 113 sound / 9 suspects / 1 cracked epitaph. Board + leads + PC25
+  + H120/H121 updated.
+
+---
+
 ## 2026-07-13 — literature sweep 2 (sharpened search image)
 
 ### Added

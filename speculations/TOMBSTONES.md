@@ -326,3 +326,24 @@ disposition is `../docs/CROSS_SESSION_2026-06-11_disposition.md`.)
   selecting. *residual-hint:* the Klein four is real but its two generators act on DIFFERENT ends (theta
   on sqrt-3 folds E6->F4; gamma on sqrt5 conjugates the quantum face) -- salvage as the two-ended
   arithmetic (B258/B314), not as a second gauge selector inside F4. F4 is the gauge-structure terminus.
+
+---
+
+## B565 gauge-behavior campaign (2026-07-14) — two earned kills + one epitaph correction
+
+- **B85 / the Sym(W)->trace-ring functor wall (probation R1, EARNED this time).** The functor
+  provably cannot reach the multiplicity-2 char(M^2) sector before n=5: **mult(char(M^h)) at
+  height 2 = ceil((n-2)/2)** (orbit enumeration verified n=3..15; a theta-fixed height-2 index
+  exists iff n odd; n=5 is the first with dimension 2). *residual-hint:* the positive law
+  ceil((n-2)/2) is a new exact formula about the object's rep tower — usable on its own.
+- **L38 / the Higgs-scale do-or-die (probation R5, EARNED this time — the prior kill was
+  unearned and was bounced).** Computed: the PVI time has C* weight 0 (dimensionless modulus,
+  exact symbolic); the only C*-fixed Hitchin-base point is h=0 (nilpotent); base dilation is NOT
+  isomonodromic (drift 3e5 vs invariant 1.7e-10); hbar-compensation exact. **No intrinsic scale
+  on the Hitchin/Higgs side.** *residual-hint:* the weight table (all base coordinates weight 2,
+  PVI time weight 0) is the reusable scale-audit template for any future "scale channel" claim.
+- **S014 epitaph CORRECTED (exhumation, cracked component).** The "~60% of random constants
+  match as well" clause was never computed in-repo and does NOT reproduce (an honest from-scratch
+  null gives ~10.6%, with phi's fit 0.049 dex BETTER than the random-base median 0.34 dex). S014
+  stays DEAD on the sound circularity argument alone (N defined by the answer); the quantitative
+  null clause is struck. (Numerology-grade either way; firewalled.)
