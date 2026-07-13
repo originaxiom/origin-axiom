@@ -10,6 +10,42 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — B565 GAUGE-BEHAVIOR CAMPAIGN COMPLETE: 18 cells + the 123-kill exhumation
+
+44 agents, 0 errors, adversarial verify (2 framing rejections caught + corrected). The gauge
+question closes at the BEHAVIOR level (frontier/B565_gauge_behavior_campaign/RESULTS.md, 4 locks):
+- T1: the Z/11 charge does NOT descend to the anyon chain (11 divides no IR invertible-symmetry
+  order: 1,1,2,2) — UV on-site linear => H^3 class 0; IR vacuous. Not a force; different floor.
+- T3: chiral index IDENTICALLY 0 (exact chiral symmetry ~1e-14; amphichiral label pairing exact
+  for all 6 B546 labels; failed-calibration routine honestly discarded) — THE FOURTH
+  MECHANISM-LEVEL WALL: the object is gauge-vector-like, SM matter is chiral.
+- T4 screening (never AF; p -> ~0.9); T5 first loop observable (open-closed = -0.0545, 7.5 sigma,
+  confining-like on the letter floor); T2 centralizer chain scalar-a.e. (+ the (2,2,2) ideal
+  character is NOT realized by any rep — exact); T8 B71 CORROBORATED vs HMP; T6 fifth door closed
+  WITH TEETH (|Aut(octavians)|=G2(2)=12096=2^6*3^3*7, element orders exclude 11; Eisenstein/unit
+  axes disjoint).
+- H1: Krasnov VERIFIED BY COMPUTATION (Cl(9) built from scratch; centralizer of J = 12 =
+  u(1)+su(2)+su(3)); THE REAL-FORM THEOREM: the geometric holonomy lands in F4(C)/E6(C) as real
+  groups, in NO real form (non-real adjoint traces exact in Q(sqrt-3), two witnesses; regular-
+  unipotent meridian Jordan {3,9,11,15,17,23} kills compact) => TDV transfers only COMPLEXIFIED;
+  COMPACTNESS IS THE GAP. Triality: B299's (theta,phi) IS Boyle's SO(8) triality (100% weight-
+  level match) — the one live structural generations thread (H120, firewalled).
+- Reruns earned their facts: R1/B85 TOMBSTONE + the positive law mult(char(M^h))@h=2 =
+  ceil((n-2)/2) (n=3..15); R5/L38 TOMBSTONE (PVI time C*-weight 0 — no intrinsic scale); R2
+  calibration passed 76 digits + 50/50 K-membership failures (sealing leak evidence; dim question
+  open); R3 Bezout bounds (best 7.1M — not tight); R4 framing rejected by verify (unreported null
+  rank data) -> corrected SPECIALIST.
+- H2: rung-3 K0 cyclic => O_{M_16}=O_{18845090}; rung-2 Galois = 8T15 = SmallGroup(32,43) EXACT;
+  |G_n|=2^{2n+1} REFUTED at rung 3 (1 identity in 11255 primes vs 87.9 expected; P~5.8e-37);
+  rung-4 anomaly criterion NOT uniform (p=11 fixed space 2-dim contains a zero-sum class — the
+  verifier caught the uniformity overclaim); Ibanez-Ross odd-N conventions verified from sources.
+- EXHUMATION (owner-directed): 123 banked negatives audited — 113 SOUND, 9 suspects (hygiene
+  queue), 1 CRACKED epitaph: S014's "~60% null" never computed in-repo and does not reproduce
+  (~10.6%; phi's fit better than random median); S014 stays dead on circularity; epitaph corrected.
+  Post-B525 discipline confirmed: the prereg-era negatives audit clean. 4 locks.
+
+---
+
 ## 2026-07-13 — literature sweep 2 (sharpened image): 3 verdicts, 2 locked facts, 10 targets
 
 Second 6-angle sweep with the post-gauge-arc search image (docs/LITERATURE_SWEEP2_2026-07-13.md).

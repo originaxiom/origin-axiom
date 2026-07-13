@@ -122,6 +122,19 @@ aspiration). It sets the governing roadmap:
   (symmetry) + a confirmed wall (no scale). A POSTULATED structural sharpening of the wall is recorded in
   `STRATEGIC_SYNTHESIS.md` §8a. All firewalled; nothing crosses to physical magnitude.
 
+## Gauge/SM behavior-targets — CAMPAIGN RAN (B565, 2026-07-14; frontier/B565_gauge_behavior_campaign/RESULTS.md)
+
+**All primary targets resolved:** T1 closed-by-decoupling (Z/11 does not descend; UV H^3=0);
+T3 **index ≡ 0 — the 4th mechanism-level wall** (object vector-like, SM matter chiral); T2 the
+breaking chain is scalar-a.e.; T8 B71 corroborated (HMP); T6 the 5th F4->SM door closed (G2(2)
+has no order-11); T4 screening (never AF); T5 first loop observable (confining-like on the letter
+floor); H1: Krasnov verified by computation, the holonomy is in F4(C) in NO real form —
+**compactness is the gap** in the TDV bridge; the triality MATCH (B299 = Boyle, 100% at weight
+level) is the one live structural generations thread. **Tower correction: |G_n|=2^{2n+1} REFUTED
+at rung 3** (P~6e-37); rung 2 = 8T15 = SmallGroup(32,43) exact. Remaining: R2 sealing needs the
+positive-dimensionality question; R3 Bezout far from tight (specialist); R4 corrected-SPECIALIST;
+9 exhumation suspects = low-priority hygiene queue. Original register below.
+
 ## Gauge/SM behavior-targets (2026-07-13 literature map — docs/LITERATURE_GAUGE_SM_2026-07-13.md)
 
 The lit survey found: the gauge GROUP is cheap (3 routes hit SU(3)×SU(2)×U(1)); VALUES never
