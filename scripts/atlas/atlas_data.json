@@ -11426,6 +11426,23 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B563": {
+   "slug": "planck ratio null",
+   "motifs": [
+    "metallic",
+    "firewall"
+   ],
+   "refs": [
+    "B532",
+    "B557",
+    "B558",
+    "K020"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B56": {
    "slug": "figure eight invariant surface",
    "motifs": [

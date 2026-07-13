@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — Campaign 2c: the Planck-ratio bin retry NULLS (chat-2 handoff, verified, B563)
+
+Verify-don't-trust on chat-2's prereg'd Planck-ratio retry. Independently reproduced the core
+statistics (tests/test_b563_planck_null.py): the object's best |ln ratio| = 0.6825 (|e_4| vs
+m_Pl/m_mu, a factor-~2 miss); a null gives p ~ 0.53 (mean 0.79) -- NOT significant; the
+plastic-seed ladder brushes CLOSER (0.46) than the object. VERDICT: NULL at every ladder rung,
+exactly as preregistered. The retry is legitimate (the tower gives dimensionless outputs at
+hierarchy magnitude; unit-free ratios are fair targets; the unit itself stays theorem-absent,
+K020). Banked: the old Planck kill upgrades circumstantial->preregistered; the DIALED bin has now
+nulled at FOUR levels (values/relations/gap-edges/hierarchy-ratios) -- the reframe boundary is
+complete on that face; the tower's magnitudes are the object's internal complexity schedule, not
+physical-scale addresses. 3 locks.
+
+---
+
 ## 2026-07-13 — the Probation Campaign of all open leads crafted (B562)
 
 Put every genuinely-open lead on probation: one cheap pre-registered discriminating probe each,
