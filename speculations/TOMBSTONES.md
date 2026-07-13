@@ -316,3 +316,13 @@ disposition is `../docs/CROSS_SESSION_2026-06-11_disposition.md`.)
   (ℤ/11 charge, θ-fold F₄ with no order-3, quartic-Pisot singular-continuous spectrum, CS=0/no-
   scale, two ends ℚ(√5)/ℚ(√−3)). *residual-hint:* the signatures are a genuine filter; the
   survivor-set is empty — record the filter, drop the "some framework hosts the object" hope.
+
+- **The Klein-four -> SO(9) route (probation P22, 2026-07-13; seat-1 follow-up to B561).** After the
+  Z/3 kill, the proposal to use the second Z/2 (gamma = Gal(Q(sqrt5)/Q), golden conjugation) to select
+  SO(9)=B4 inside F4 (a (3,1) exponent split -> Pati-Salam -> SM). CLOSED: gamma FIXES Q(sqrt-3)
+  pointwise, and the theta-even H^1 (F4 sector) lives over Q(sqrt-3) (B370 tau=-2sqrt(-3), no sqrt5),
+  so gamma acts TRIVIALLY on the four exponents; its real domain is the quantum/WRT face (colored Jones
+  over Q(sqrt5), B314), the OTHER end. B347 independently found the E6 tangent grading uniform/non-
+  selecting. *residual-hint:* the Klein four is real but its two generators act on DIFFERENT ends (theta
+  on sqrt-3 folds E6->F4; gamma on sqrt5 conjugates the quantum face) -- salvage as the two-ended
+  arithmetic (B258/B314), not as a second gauge selector inside F4. F4 is the gauge-structure terminus.

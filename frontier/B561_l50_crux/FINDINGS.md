@@ -69,3 +69,37 @@ and its D₄ isometry group — the object is constitutively **ℤ/2-arithmetic*
 anchor (B257), a different point of the two-/three-ended family. The honest headline
 remains B353: **the E₆→F₄ θ-fold is forced; F₄ is where the gauge-structure chain
 stops.**
+
+## Addendum (probation P22, 2026-07-13): the Klein-four → SO(9) follow-up ALSO closes
+
+Seat-1's follow-up to the L50 kill: since B561 found the F₄ sector is ℤ/2×ℤ/2 (not
+ℤ/3), use the **second** ℤ/2 — γ = Gal(ℚ(√5)/ℚ), the golden conjugation (√5→−√5), a
+*genuine* automorphism (the ω-error correctly fixed) — to select an order-2 subalgebra
+of F₄: a (3,1) exponent split → SO(9)=B₄ → Pati-Salam → SM, vs (2,2) → Sp(6)×SU(2).
+Computed (`tests/test_b561_klein_four.py`). **Verdict: TOMBSTONE — F₄ is the terminus.**
+
+**The premise fails (a subtler cousin of the ω-error — mis-located DOMAIN, not
+mis-typed element).** γ does not act on the θ-even H¹:
+- The **F₄ deformation sector lives over ℚ(√−3), not ℚ(√5).** B370's depth-2 Gram data
+  is **τ = −2√3·i = −2√(−3)** across all six directions (no √5); the E₆ tangent is over
+  ℚ(√−3) (B347). Since γ = (√5→−√5) **fixes ℚ(√−3) pointwise**, it acts **trivially** on
+  all four exponent directions — nothing to flip. By seat-1's own rubric,
+  trivial-action ⇒ TOMBSTONE, F₄ terminus confirmed.
+- γ's real domain is the **quantum/WRT face** (Face IV): the colored-Jones data
+  J_N(4₁;ζ₅) ∈ ℚ(√5), the SU(2)₃ modular data, the Yang–Lee conjugation (B314) — the
+  **E₈/golden end**, a different object from the classical E₆/√−3 deformation space.
+  The Klein four is real, but its two generators act on the **two different ends**: θ
+  (√−3) folds E₆→F₄; γ (√5) conjugates the quantum face. Neither is a second selector
+  *within* the F₄ sector.
+- **Independently, B347 already settled it:** the E₆ tangent grading is **uniform** —
+  one direction per exponent, none privileged, "CP-even everywhere... does not select
+  among exponents — a clean negative" (the symmetric achiral centre, K022). There is no
+  (3,1)/(2,2) split to be had.
+- *Secondary gap (not even needed):* the H¹ exponent directions are cohomology classes,
+  not the Lie algebra f₄, so "count of γ-fixed exponents → symmetric subalgebra" is not
+  an established dictionary regardless.
+
+**So the E₆→F₄ chain terminates at F₄ under BOTH ℤ/2's and the ℤ/3** — the golden
+conjugation lives on the quantum end, the Eisenstein ℤ/3 at the collapsed Euclidean
+point, and the E₆-deformation grading is non-selecting. F₄ (rank 4) is where the
+gauge-structure chain stops; the object stays the symmetric, achiral, value-free centre.
