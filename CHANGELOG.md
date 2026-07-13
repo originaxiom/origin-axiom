@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — Probation Campaign of all open leads (B562)
+
+### Added
+- frontier/B562_probation_campaign/PROBATION.md: 21 pre-registered discriminating probes across
+  5 batches (in-sandbox decidable / lit-gates / specialist rechecks / firewalled speculation /
+  papers), each with a LIVE/TOMBSTONE/SPECIALIST/DORMANT verdict rubric. Runnable as a multi-agent
+  workflow. OPEN_LEADS annotated with the probation pointer.
+
+---
+
 ## 2026-07-13 — the L50 CRUX computed-negative (B561)
 
 ### Added

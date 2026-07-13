@@ -22,6 +22,10 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 
 ## The catalog
 
+> **PROBATION CAMPAIGN (2026-07-13, B562):** all open leads are on probation — each has one
+> pre-registered discriminating probe and a LIVE/TOMBSTONE/SPECIALIST/DORMANT verdict. See
+> `frontier/B562_probation_campaign/PROBATION.md` (21 probes, 5 batches). Rows below feed it.
+
 | tag | lead | tier | value | status / disposition |
 |---|---|---|---|---|
 | **L6** | **Non-metallic sealing** — does the S031 sealing (trace map fixes only the `Sym^{n−1}` image; fixed-point traces stay in the SL(2) trace field) hold for **general once-punctured-torus-bundle words**, not just the metallic `R^mL^m`? The genuine generalization of S031. | MATH | ★★★ | **OPEN** — highest-value continuation of `../speculations/S031`. Needs the same SL(3) trace-coordinate machinery (Lawton); SL(2) sub-case may be reachable now. **(B193, V188: SCOPED — metallic sealing verified at SL(3) (B129/B137), SL(2) near-tautological (Sym¹=id); the general non-metallic SL(3) search = the B137 off-sublocus scipy method + SnapPy-gated trace fields = intricate numerics, flagged NEEDS-SPECIALIST / careful dedicated work rather than rushed, per the B192-refutation caution. L5/L6 stay OPEN.)** |
