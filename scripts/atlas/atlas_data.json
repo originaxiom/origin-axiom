@@ -11335,6 +11335,30 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B559": {
+   "slug": "blackhole probes",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B221",
+    "B258",
+    "B447",
+    "B520",
+    "B555",
+    "L15"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B55": {
    "slug": "c1 fixed line structure",
    "motifs": [

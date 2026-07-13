@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — B559 black-hole probes (holographic entanglement + figure-eight vs BTZ)
+
+### Added
+- frontier/B559_blackhole_probes/ (FINDINGS + fig8_vs_btz.py): Probe 1 — the object's
+  chain is critical (log-law), NOT area-law/volume (black-hole area-law signature absent;
+  c_eff fit-dependent, sharp c=7/10 is the anyon chain — reconciles seat-1 Probe A).
+  Probe 2 — figure-eight as a finite-volume CS=0 3D-gravity instanton vs single-geodesic
+  BTZ; geodesic entropy spectrum via the banked B520 formula; ℚ(√−3) vs ℚ(√5) two ends.
+- tests/test_b559_blackhole.py (4 locks; SnapPy authoritative for the geometry).
+- Firewalled (cites B520/B258/B221/L15); nothing to CLAIMS.md.
+
+---
+
 ## 2026-07-13 — chat-1 Session-4 handoff verified (factor complexity, Door 2)
 
 ### Added

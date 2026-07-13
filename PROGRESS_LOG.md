@@ -10,6 +10,25 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — B559 black-hole probes: holographic entanglement + figure-eight vs BTZ
+
+Two computable black-hole questions (owner "do both"), firewalled STRUCTURE facts.
+- **Probe 1 (holographic entanglement):** the object's Fibonacci tight-binding chain is
+  CRITICAL — log-law entanglement, NOT area-law (random disorder-averaged control flat),
+  NOT volume. So it's a critical CFT-like *boundary*, not a gapped/area-law bulk; the
+  black-hole area-law signature is ABSENT. HONEST CAVEAT (reconciles seat-1's Probe A):
+  the precise c_eff (≈0.7–0.8 by a one-window fit) is fit-dependent because the
+  tight-binding entanglement oscillates with L; the sharp c=7/10 (B221 TCI) lives in the
+  anyon/fusion chain, not tight-binding. Only "critical, not area-law" is locked.
+- **Probe 2 (figure-eight vs BTZ):** Vol=2.0298832, CS=0 (amphichiral → real action).
+  Geodesic "black-hole spectrum," Eisenstein traces ℚ(√−3), entropy Re(λ)/2 via the banked
+  B520 formula S=arccosh(x/2). BTZ = 1 geodesic / infinite volume; the figure-eight =
+  finite-volume 3D-gravity instanton (∞ geodesics), CS=0. Its ℚ(√−3) geodesics vs the
+  object's golden x=5 (ℚ(√5)) are the two ends (B258). One-fact-three-faces (hint): CS=0 =
+  amphichirality = Door-2 involution = dark-energy-killing. 4 locks (SnapPy authoritative).
+
+---
+
 ## 2026-07-13 — chat-1 Session-4 handoff verified: the factor complexity, Door 2, and one matrix bug
 
 Processed chat-1's Session-4 handoff (Door 2 / Big Bang / vertex measurement) verify-don't-trust.
