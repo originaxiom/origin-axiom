@@ -49,6 +49,24 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B570 COMPLETE — THE SELECTION-RULES THEOREM + THE FIFTH WALL + Q-A, 2026-07-14)
+- **THE SELECTION-RULES THEOREM (THE_SELECTION_RULES.md):** a play passes iff M ∈ the cast monoid
+  (35-generator Hilbert basis; totals {0,7}∪[10,∞)) ∧ T sighted (Z=+1 for ALL 243 abelian
+  theaters — a Gauss–Milgram theorem; golden values −1/φ, 1/φ² from the Fibonacci theories) ∧
+  S reachable (**THE FIFTH WALL: chiral selectors exist in E₆ — Spin(10)×U(1), SU(3)³,
+  SU(6)×SU(2), G₂×SU(3) — but NONE is reachable: the holonomy factors through the θ-stable
+  principal SL(2,ℂ); vector-like for ANY rank-1 E₆-embedding**) ∧ D passes the clock (**THEOREM:
+  ord(A₁ mod N) = π(N)/gcd(π(N),2) — Fibonacci–Pisano frequencies**) ∧ Λ relational. The SM
+  audited ONCE: fails S+Λ structurally, D at every level, M unevaluable pending a dictionary now
+  constrained wholesale; ONE live channel — clause T (C3's order-4 θ-odd rotation).
+- **Q-A DECIDED:** ρ̄ is the third thing — σ (Galois), not θ (the fold), not inner. The Klein four
+  ⟨θ,σ⟩ at the group level; σ = the object's own mirror at the component level; **d(σ∘φ⁻¹) = θ at
+  the tangent** (the fold = conjugation modulo the mirror). C2 upgraded the duality to a proved
+  biconditional: the compactness gap ⟺ the c-chirality, both directions. C1 null (sign-free);
+  C4: every cyclic cover amphichiral (the handoff's cover-row refuted); C5QC quarantined —
+  Q-C's transport stays OPEN. Registry T-θTANGENT wording corrected (amphichiral = conj∘θ
+  antilinear; linear θ = hyperelliptic, B353). 100 locks.
+
 ## LAST BANKED (B570-C3 + B571 — THE θ-ODD SECTOR IS ALIVE + THE DAY-0 INTERNALIZATION, 2026-07-14)
 - **C3 (the decisive cell, run first by owner directive): the θ-odd sector of E₆ is dynamically
   ALIVE at level 2.** Modular data from scratch (51,840 Weyl elements, Kac–Peterson; gates: S²

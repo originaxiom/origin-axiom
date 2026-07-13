@@ -3334,3 +3334,55 @@ real and lives in the c-column; the SM slot is the θ-column. The crux questions
 orientation residue occupy — cheapest) are folded into B570 Lane C. C3's result sharpens the
 stakes: the θ-column is not inert dynamically — the question is whether any c-chirality can be
 carried into it. Firewalled.
+
+## 2026-07-14 — B570 COMPLETE: the selection-rules theorem, the fifth wall, Q-A decided
+
+**Q-A (the crux, run inline first, campaign-corroborated): the trichotomy is DECIDED — the third
+branch, with three-level structure.** (1) Group level: the F₄-principal nilpotent is REGULAR in
+E₆ (Jordan (17,9,1) on the 27 from both gradings, exact) ⇒ θ fixes a principal embedding
+pointwise ⇒ "ρ̄≅θ∘ρ" was never distinct from "ρ̄≅ρ" — both killed at once by the non-real
+character (the Galois pair tr ρ(ab) = (5±√−3)/2, min poly t²−5t+7, disc −3). The object carries
+the Klein four ⟨θ, σ⟩: θ = the fold (a symmetry), σ = Galois conjugation (moves the point) — THE
+CHIRALITY IS σ, NOT θ; the fold does not spend it. (2) Component level: σ(χ_ρ) = χ_{ρ∘φ} — the
+Galois twin is the same point transported by the object's own amphichiral mirror φ; the σ-bit =
+the orientation bit = the B469 residue. (3) Tangent level (corrected during banking — the C1
+verifier caught a registry wording conflict, now fixed in THEOREM_REGISTRY: the amphichiral
+involution is ANTILINEAR conj∘θ; the ℂ-linear θ is the HYPERELLIPTIC involution, B353):
+**d(σ∘φ⁻¹) = θ** — conjugation equals the fold modulo the object's mirror, exactly, at the
+tangent; the θ-odd plane is the (−1)-eigenplane. 3 locks + reproducer (qa_trichotomy.py; a
+Jordan-block bug in my own first lock version caught and fixed — sl₂ strings step by 2).
+
+**THE CAMPAIGN (21 agents, 0 errors, all cells adversarially verified):**
+- **AP1:** the cast monoid — 35-element Hilbert basis, totals {0,7}∪[10,∞) (8 forbidden), the
+  B568-SQ casts = the bottom stratum. Verifier full-holds.
+- **AP2:** the theater table — **Tr ρ(A₁) = +1 exactly for ALL 243 consistent abelian theaters**
+  (closed-form Gauss–Milgram theorem); Z always real, value set {−1/φ, 0, 1/φ², 1}; 249/250
+  sighted. Repair: the DFib Gauss–Milgram gate was hardcoded (verifier computed it: G = 2+φ, c=0).
+- **AP3:** THE CLOCK THEOREM — **ord(A₁ mod N) = π(N)/gcd(π(N),2)**, all N ≤ 1000, two methods,
+  zero exceptions: the stage ticks at Fibonacci–Pisano frequencies. The prereg's "c mod 24"
+  clause falsified cleanly (ρ(A₁) is a commutator — phase-independent).
+- **AP4 — THE FIFTH WALL:** chiral rows exist (Spin(10)×U(1), SU(3)³, SU(6)×SU(2), G₂×SU(3)
+  complex; F₄, Sp(8) self-dual) but NONE is reachable: the object's E₆ holonomy factors through
+  the θ-stable principal SL(2,ℂ), and every SL(2) rep is self-dual — **the 27 is vector-like for
+  ANY E₆-embedding of the rank-1 holonomy; the chirality wall holds even complexified.** Repairs:
+  the "iff F₄/Sp(8)" biconditional downgraded to conjecture; Borel-density citation needed.
+- **AP5:** the order obstruction — ord table over 7 program levels; retro-kills B567 computedly.
+- **C2:** the gap-chirality duality PROVED as a biconditional (real traces ⟺ ρ̄≅ρ ⟺ real form);
+  all three fail on the object: **the compactness gap and the c-chirality are formally
+  equivalent — you cannot close the gap without losing the object's chirality.**
+- **C1:** cusp-sign propagation NULL (J²=+1 forced on 1-dim lines — sign-free tautology, banked
+  honestly). Verifier catch: the T-θTANGENT registry conflict (fixed, see Q-A).
+- **C4:** the cover census — every cyclic cover n=2..12, branched and unbranched, is
+  AMPHICHIRAL (orders match the Alexander product exactly); the five-sources handoff's
+  "chiral covers ↔ θ-odd" row refuted outright. Repair: per-row methods stated honestly.
+- **C5+Q-C: QUARANTINED** — the cell's discriminating fact was an algebraic tautology computed
+  on the wrong object (WZW data, not the geometric holonomy); the c-column verdict stands on
+  QA+C2 instead; **Q-C's transport question remains OPEN**. Not banked; test not adopted.
+- **AP6 — THE SELECTION-RULES THEOREM** (THE_SELECTION_RULES.md): a play passes iff M∧T∧S∧D∧Λ.
+  The SM audited ONCE: fails S (fifth wall) + Λ (scale) structurally, fails D at every level,
+  unevaluable at M pending a dictionary constrained to the 35-generator monoid, and has exactly
+  ONE live channel — clause T, where C3's order-4 θ-odd rotation shows the measurement face is
+  chirality-sighted while the algebra face is chirality-blind. Two controls discriminate; the
+  minimal play = the monoid's ground state. Honest open list (10 items).
+
+100 new locks green (12 test files). RESULTS.md is the ledger. Firewalled; nothing to CLAIMS.md.
