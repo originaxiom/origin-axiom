@@ -285,3 +285,34 @@ disposition is `../docs/CROSS_SESSION_2026-06-11_disposition.md`.)
   — resolved by the count. *Revival kill condition:* a class-level invariant separating the seed from the other
   ~13% golden-magnitude classes — the count says there is none. (An earlier aggregate "47/60 words ∈ ℚ(√5)" was
   itself an artifact — `0 ∈ ℚ(√5)` — corrected by the per-element table, then by the class count.)
+
+---
+
+## Probation campaign (B562, 2026-07-13) — four verified kills
+
+- **S032-A, the literal universal form (probation P1).** "No invariant escapes the trace
+  ring's discretely-multivalued-and-unsymmetric behavior" is FALSE. Computed counterexamples
+  on the (1,2) identity-glued fork (κ∈{−4,−2}): the **|H₁|-torsion** = ℤ/m₁⊕ℤ/m₂ (=2 for (1,2),
+  via Mayer–Vietoris) and the **gap-label frequency-module rank** (PSLQ, rank 3) are BOTH
+  single-valued there — they are functions of the seed pair alone, not indexed by the
+  character-variety fork at all. *residual-hint:* the SHARPENED Gate A survives — restrict the
+  claim to **representation-dependent** classes defined pointwise at each fork rep (Reidemeister/
+  adjoint torsion, CS/η, quantum-WRT AT κ=−4 vs κ=−2); topological/dynamical invariants were the
+  wrong test class. (Mayer–Vietoris step hand-derived, medium confidence; SnapPy cross-validate
+  before re-probing the sharpened gate.)
+- **Generations via commensurator-triality-on-27 (probation P13).** CLOSED. At ω the E₆→SU(3)³
+  triality acts on the 27 as **9+9+9** (a single 27-dim irrep split into color/L/R trinification
+  blocks — the "wrong 3"), NOT as 3×27=81 (which "three symmetric generations" would require).
+  Grounded in the banked B298/B299 Sage computation (9 free orbits of size 3). *residual-hint:*
+  the trinification E₆→SU(3)³ is real and forced — salvage it as a **gauge-sector grading**
+  (color×left×right), never as generation multiplicity; a future generation count needs a
+  genuinely different route (cover-tower multiplicities, B368).
+- **The causal-set poset reading (probation P20, firewalled L21).** The Ω strict-full class DAG
+  (B159) has a Myrheim–Meyer dimension that is NOT manifoldlike. *residual-hint:* the DAG's order
+  structure is real combinatorics; salvage only as the strict-full stratification (B159), not as
+  a manifoldlikeness/causal-set-gravity signal.
+- **The framework search (probation P21, firewalled L46).** No external SM/GR framework
+  (heterotic, LQG, asymptotic safety, causal sets, NCG) survives ALL the object's signatures
+  (ℤ/11 charge, θ-fold F₄ with no order-3, quartic-Pisot singular-continuous spectrum, CS=0/no-
+  scale, two ends ℚ(√5)/ℚ(√−3)). *residual-hint:* the signatures are a genuine filter; the
+  survivor-set is empty — record the filter, drop the "some framework hosts the object" hope.

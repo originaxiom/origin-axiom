@@ -39,6 +39,8 @@ figure-eight). Do not read the generic tier as object-specific forcing.
 ## The four gates
 
 ### A — S032-A: the all-invariants no-forced-choice theorem (the one in-sandbox gate)
+
+**Probation P1 (B562, 2026-07-13): the LITERAL universal form is TOMBSTONED** — topological/dynamical invariants (|H₁|-torsion, gap-label module) are single-valued on the (1,2) fork where κ is 2-valued, so "no invariant escapes" is false. The SHARPENED gate (representation-dependent classes at each fork rep — Reidemeister/CS-η/quantum-WRT) SURVIVES and is the live form. See frontier/B562_probation_campaign/RESULTS.md + speculations/TOMBSTONES.md.
 **Question.** Is there *any* invariant of a single seed that is (1) trace-map-invariant, (2) discretely multivalued,
 (3) unsymmetrizable — a genuine forced choice?
 **Settled.** No, for the **trace ring** (B130: `κ` continuous), the **quantum/WRT** class (B314: Galois-symmetrized;
@@ -120,6 +122,8 @@ self-dual-vs-complex embedding of the arithmetic `2T` (the hierarchy sub-atom ab
 extract SM *values* from the object (the structural theorem forbids that from the single seed).
 
 ### C — Multiplicity → the generation count (the sharpened gate, with a refutation condition)
+
+**Probation P13 (B562, 2026-07-13): the triality-on-27 route is TOMBSTONED** — the 27 splits 9+9+9 into trinification color/L/R blocks (the "wrong 3"), not 3×27=81 (grounded in B298/B299). Generation-count needs a different route (cover-tower multiplicities, B368). Gate D: probation P14 found a finite-N trace-map transversality witness (partial in-sandbox). Gate B: probation P12 confirmed no exceptional 3d-3d state integral exists (SPECIALIST). 
 **Question.** The SM has 3 generations; B307 proved a *single* hyperbolic knot cannot carry a symmetric (C₃) three-
 generation trace field. So 3 must come from **multiplicity/relation**. The figure-eight carries an *intrinsic*
 commensurator symmetry — the order-3 Eisenstein units of `ℚ(√−3)` acting in `PGL(2,𝒪₋₃)` (B302; `4₁` is index 12,
