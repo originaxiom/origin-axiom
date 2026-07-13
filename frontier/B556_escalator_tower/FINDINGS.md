@@ -334,3 +334,35 @@ gives N_{ℚ(√5)/ℚ}(g₂(φ)) = −809 = e₂, and g₃ = D(g₂) (deg 27) g
 −18845089 = e₃ — over exact ℚ(√5) arithmetic, cross-checked against det(I−Mₙ). So the
 golden-norm closed form **eₙ = N_{ℚ(√5)/ℚ}(gₙ(φ))** now holds for n≥2 (was exact only
 at n=1); the whole charge tower is one resultant iteration of a fixed cubic on φ.
+
+## Tower-probe campaign — the tower exits the fusion/CFT world at rung 1, and the 2-cycle's information (verified 2026-07-13)
+
+Three more campaign cells, adversarially verified + re-checked (`tests/test_b556_campaign2.py`).
+
+**P-A — NO fusion category at rung 1 (the strongest negative).** λ₁ = φ(1+√φ)
+(minpoly x⁴−2x³−5x²−4x−1) has **non-abelian Galois closure D₄** (order 8, signature
+(2,1)) ⇒ λ₁ is **not a cyclotomic integer** ⇒ by Calegari–Morrison–Snyder (CMP 303,
+2011) **no fusion category of ANY rank** has an object of dimension λ₁. Corroborated by
+an exhaustive rank-4 ring search (92 charpoly-matching candidates, **0 fusion rings** —
+duality/rigidity is the exact killer; 22 give unital ℤ₊-rings without duality). Same for
+the eigenvector dims √φ, φ^{3/2} (0 rings). So rung 0 categorifies (φ ∈ ℚ(ζ₅),
+Fibonacci) but the λ-law injects √λ at every rung, and rung ≥ 1 is non-cyclotomic — **the
+escalator provably leaves the fusion-category world at rung 1**, trading categorifiability
+for √-tower field growth. The c = 7/10 story is a rung-0 phenomenon.
+
+**c_eff — NO CFT central-charge lock-on (verified negative).** The entanglement
+c_eff(V) of the Fibonacci tight-binding chain decreases smoothly (0.866, 0.764, 0.620,
+0.549 at V = 1/φ, 1, φ, 2) with **no plateau at 7/10 or a golden value**; the V=0
+control gives c = 1.000 (method valid). The near-miss c_eff(φ)=0.620 vs 1/φ=0.618 is
+~80× inside the finite-size oscillation band — not a detection. (Consistent with B559's
+"critical, not area-law, c_eff fit-dependent" and seat-1's tight-binding Probe A.)
+
+**FL1 — the 2-cycle's information: eigenvalue-universal, content-varying (closes FL1).**
+B540's double-clock 2-cycle NEW_2 ↔ NEW_10 has **identical characteristic polynomial**
+λ⁴−14λ³+7λ²−6λ+1 (irreducible, Perron 13.5145, det 1, trace 14) for both derived
+matrices — but the two 4×4 incidence matrices are **NOT conjugate by any of the 24
+relabelings**, and the induced words differ in letter frequency, bigram content (8 vs 7
+bigrams), and factor complexity at every n. So the loop **conserves the growth rate but
+not the symbolic content** — the same eigenvalue-universal / eigenvector-varies signature
+as B533's coupling test. That is the information the loop carries: a clock rate shared,
+a combinatorial state exchanged.

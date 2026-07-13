@@ -11314,10 +11314,11 @@
     "B554",
     "B555",
     "B557",
+    "B559",
     "S061"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 3,
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },

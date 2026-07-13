@@ -113,3 +113,26 @@ genuine, pretty resonance and a good *motivation*. The grand identification ("th
 Bang, the SM grows after") is a HOOK: unearned on the manifold side, corrected on the "most chaotic"
 side, and inheriting CCC's contested status. Kept behind the firewall as motivation; the one live,
 non-firewalled computation it suggests is C2 (does the program's E₆ sit at a node of E₁₀?).
+
+## Addendum (tower-probe campaign, verified 2026-07-13): the trace-map claim DOWNGRADED, the golden-Kasner link kept
+
+chat-1's Session-4 C5 claim "BKL dynamics **IS** the trace map on the Markov surface"
+was assessed under Markoff-lesson scrutiny (`tests/test_b556_campaign2.py`).
+
+**Verdict: CONJUGATE-ON-LOCUS, not identity [MATH].** Verified in-sandbox: the
+Vieta/Markov-move descent on the integral locus of x²+y²+z²=3xyz is conjugate, via the
+Farey-slope coding, to the Farey (slow-CF) map — at every Stern–Brocot node p/q to depth
+5 (**65/65 nodes**), tr(Cohn word W_{p/q}) = 3·m_{p/q} (m the Markov number); and the
+Gauss map is the jump transformation G = F^{a₁} of the Farey map. This is the **classical
+Bombieri/Series dictionary**, prior art — NOT ours. But it is **not an identity**: level
+mismatch (Gauss lives on the boundary CF parameter, the trace map on the fiber character
+variety) and type mismatch (Gauss is 1-D non-invertible; a fixed trace map is a 2-D
+invertible polynomial diffeomorphism with positive entropy invisible to Gauss). So "IS the
+trace map" is downgraded to conjugate-on-a-locus-after-a-time-change.
+
+**What survives as genuinely new [MATH, firewalled].** The golden-Kasner lock: the
+exponents (−1/2φ, ½, φ/2) are exactly Kasner(u=φ), u=φ is the fixed point of the era map
+u→1/(u−1) (and metallic λ_m of u→1/(u−m) — the constant-era cycles), and the escalator's
+**3/2 = 1 + p₂** exactly ties the tower's growth rate (B556) to the golden Kasner's
+defining middle exponent. This is the one new bridge between the escalator tower and the
+BKL reading; it remains a firewalled rhyme, not a cosmological claim.
