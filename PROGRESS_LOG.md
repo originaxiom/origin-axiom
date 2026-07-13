@@ -10,6 +10,24 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — the Hamiltonian handoff (seat-1): core REFUTED by an order argument (B567)
+
+Seat-1 proposed H = -i log rho(A1) on C^15 as the object's QFT, claiming six pi/3-spaced levels
+(degeneracies 3,2,2,3,3,2), an exact H3 zero mode, 87.7% interaction, coupling ratio 0.553, and
+28/27 multiplicities at level 165 (read as dim SO(8) / dim h3(O)). REFUTED before computation by
+an order argument: pi/3 spacing forces projective order 6, but ord(A1 in SL(2,Z/15)) = 20
+(A1^2=-I mod 3, A1^5=-I mod 5), and 6 divides neither 20 nor 40 (metaplectic) — impossible for
+any faithful (projective) rep. Confirmed constructively (standard Weil rep): level 15 gives 11
+distinct eigenvalues on the 2pi/20 lattice, projective order 20; level 165 gives 21 distinct,
+order 20 — all downstream claims (massless mode, 87.7%, 0.553, SO(8)/h3(O)) inherit the broken
+spectrum. SALVAGE (honest): (1) the "2 vs 3 primes" transition is confounded with containing
+p=2 (the metaplectic case); odd-level CRT factorization is a theorem with twists; (2) the
+"ask the dynamics" framing is legitimate but its invariant content = the order-20 Gauss-sum
+spectrum (connects to B534/B566-S1), which contains no SM-like level structure. The fifteenth
+SM campaign closes faster than the fourteen before it. 3 locks (test_b567_hamiltonian.py).
+
+---
+
 ## 2026-07-14 — B566: the five self-interactions COMPUTED (11 agents, all held)
 
 ★ S5 THE TRIPLE IDENTITY (the sleeper fired): the chain's Z/11 charge IS geometric — three

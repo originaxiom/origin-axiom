@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — the Hamiltonian handoff refuted (B567)
+
+### Added
+- frontier/B567_hamiltonian_handoff/FINDINGS.md: the claimed six-level pi/3 spectrum is
+  impossible (projective order forced to 20; verified at levels 15 and 165: 11/21 distinct
+  eigenvalues). Salvage: the p=2/metaplectic confounder; the invariant dynamics = the
+  order-20 Gauss-sum spectrum.
+- tests/test_b567_hamiltonian.py (3 locks).
+
+---
+
 ## 2026-07-14 — B566: the five self-interactions computed
 
 ### Added
