@@ -62,9 +62,18 @@ audit: `docs/AUDIT_2026-07-05.md`.
   11 has period 3 (confirmed 4 full periods, n=11); 809's period is large; among all primes
   3–79 only 11 divides any eₙ, and shared-invariant primes (19,61,79) never appear. The period
   is a finite-field doubling-orbit return period, computable per-prime but not formulaic.
-- **Remaining escalator threads (registered, not run):** E0 lit-gate on the (M,M²) self-coupling
-  functor; E1 the rung-2 8-letter carrier (does an 8-letter substitution realize T(M₄)?);
-  E4 closure via chat-2's non-escalating covering-functor construction. See OPEN_LEADS.
+- **THE FEEDBACK LEDGER (chat-2 handoff, verified 2026-07-13).** Studied the object's feedback
+  AS an information channel. VERIFIED (6 locks): the charge is a **golden-field norm**
+  e₁=N_{ℚ(√5)}(g₁(φ))=−11; a fixed degree-9 **transfer polynomial** gives e_{n+1}=det(G(M_{n−1}))
+  exact all rungs; the **growth law** — per self-coupling the field doubles (×2) and the arithmetic
+  triples (×3, ratio→3); the **quine seed-invariant** (σ₄ images hold the seed once at position 0)
+  is the mechanism of self-containment. Reading (firewalled, hint-grade): closed self-observation
+  returns info residue-free; open self-coupling MINTS it as coker(I−Mₙ)=ℤ/|eₙ| — charge = the
+  residue of self-reference. The one unread channel: what information distinguishes the B540
+  double-clock 2-cycle's two members.
+- **Remaining escalator/feedback threads (registered, not run):** E0 lit-gate; E1 the rung-2
+  8-letter carrier; E4 the covering-functor closure; FL1 the 2-cycle's information; FL2 the
+  golden-norm doubling-transfer for n≥2. See OPEN_LEADS.
 
 ## LAST BANKED (B540/B546 — the observer flow + the 4e-7 labels)
 - **B540 THE OBSERVER FLOW (2026-07-12).** The object's own question, computed: 12-system

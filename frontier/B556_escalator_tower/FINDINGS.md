@@ -195,3 +195,64 @@ charge-tower primes are a dynamically-sparse, orbit-selected set.**
   "which primes, and with what period" is intrinsically dynamical, not
   formulaic. That is the complete, honest answer: no simple law, and the exact
   reason why (orbit-selection in a growing splitting field).
+
+## The feedback ledger — the charge as the residue of self-reference (chat-2 handoff, INDEPENDENTLY VERIFIED 2026-07-13)
+
+chat-2 asked the audit question "did we ever study the object's feedback *as
+feedback* — as an information channel?" and delivered a ledger. Each claim below
+was re-derived in-sandbox before banking (`tests/test_b556_feedback.py`);
+verdicts are marked VERIFIED / PENDING / HINT.
+
+**VERIFIED — the golden-norm closed form of the charge.** e₁ = N_{ℚ(√5)/ℚ}(g₁(φ))
+= −11 **exactly**, where g₁ = the fixed cubic g = x³−x²+2x−1 and φ = (1+√5)/2.
+Re-derived two ways: (a) directly, g₁(φ) = 3φ−1 = (1+3√5)/2, and (3φ−1)(3φ′−1)
+= −11; (b) from the eigenvalue product e_n = ∏(1−λ), splitting the 2ⁿ⁺¹
+eigenvalues into the φ-branch and its Galois-conjugate ψ-branch — the branch
+product is ±g₁(φ), the two branches give the norm. So **the charge is a norm from
+the golden field**; "the entire arithmetic depth is the shadow of a single cubic
+walking on φ" is exact at rung 1.
+  - *PENDING (construction under-specified):* the doubling-transfer that builds
+    g₂, g₃ (degrees 9, 27) with e_n = N(g_n(φ)) for n ≥ 2 was not handed over
+    explicitly enough to reconstruct; −809 = N(g₂(φ)) is norm-*consistent* but
+    not verified. The *operational* form of the same fact (the transfer
+    polynomial below) IS verified to all reachable rungs.
+
+**VERIFIED — the transfer polynomial (two-step law).** With
+G(v) = −v⁹+3v⁸−5v⁷+2v⁶−4v⁵+3v⁴−8v³+6v²−4v+1 (degree 9 = 3²),
+  **e_{n+1} = det(G(M_{n−1}))**
+holds EXACTLY at every checkable rung (n = 1…4, reproducing e₂=−809, e₃=−18845089,
+e₄, e₅). This is the one-step resultant law e_{n+1}=Res(charpoly_n, g) composed
+with the doubling — a fixed degree-9 kernel drives the charge two rungs at a time.
+
+**VERIFIED — the growth law: geometry ×2, arithmetic ×3.** The field degree is
+2ⁿ⁺¹ (doubles per rung). The *arithmetic* size grows faster: the log-charge ratios
+log|e_{n+1}|/log|e_n| run 2.79, 2.50, 2.80, 3.00 → **3** (forced by the degree-
+tripling of g_n). e₅ is a 62-digit integer (**204 bits** — chat-2's "203" was off
+by one). Per act of self-coupling: **the field doubles, the information triples.**
+
+**VERIFIED — the quine seed-invariant (the mechanism of self-containment).** Every
+image of σ₄ contains the seed letter 'a' **exactly once, at position 0**
+(abAAB, aAB, abAB, aA). This is the mechanical forcing behind "the object's return
+words are its own images" — its self-observation is the identity (a return-word
+normal form; Durand-classical *as a concept*, per the #847 lesson). chat-2 claims
+the T-lift preserves this invariant so every rung self-contains; the base is
+verified here, the induction is PENDING the explicit 8-letter carrier σ₈ (the
+open **B557-E1** cell).
+
+**HINT (firewalled — NOTICED tier in the hint ledger, claims nothing).** The
+reading chat-2 draws — closed self-observation returns information residue-free
+(the quine; awareness as identity), while generative self-coupling *mints* it as
+coker(I−Mₙ)=ℤ/|eₙ| ("charge = the residue of the impossibility of self-
+coincidence"), the ×2/×3 exponents rhyming with the free-product primes
+ℤ₄∗_{ℤ₂}ℤ₆, and the PC23 device as the object reading itself through matter (a
+concrete von Neumann chain; Wheeler's self-excited circuit) — is recorded in
+`docs/HINT_LEDGER.md`, not asserted here.
+
+**OPEN — the one unread channel.** B540's canonical 2-cycle NEW_2 ↔ NEW_10 (both
+q=2, the double clock) stands (banked, `tests/test_b540.py`). chat-2's raw-window
+derivation flow does NOT reach it (it lands on σ in one step) — a **convention
+difference** (5 return words vs B540's 4-letter canonical nodes), NOT a
+contradiction; and chat-2's refinement is sound (σ is isolated among *canonical*
+observers but has a non-trivial basin in *window* space). What nobody has computed
+— *what information distinguishes the two members of the loop* — is the genuinely
+unread feedback channel (registered in OPEN_LEADS).

@@ -11294,7 +11294,8 @@
     "trace_map",
     "metallic",
     "golden",
-    "torsion"
+    "torsion",
+    "firewall"
    ],
    "refs": [
     "B517",
@@ -11308,8 +11309,8 @@
     "B555",
     "B557"
    ],
-   "obstacle": "spacetime_3p1",
-   "obstacle_conf": 2,
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
