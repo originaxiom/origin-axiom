@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — the 3/2 Law (Session-5 handoff, verified)
+
+### Added
+- B556 FINDINGS: the 3/2 Law — T_k=[[M,M],[Mᵏ,M]] growth exponent (k+1)/2; the golden
+  escalator (k=2) gives 3/2, the minimal non-trivial self-coupling rate; λₙ~φ^{C(3/2)ⁿ},
+  C=2.4283; distinct from the charge rate (3); Kasner note 3/2=1+p₂ (firewalled).
+- tests/test_b556_three_half_law.py (4 locks).
+- papers/CANDIDATES.md: PC24 (verified theorem, novelty pending lit-gate LG-1).
+
+---
+
 ## 2026-07-13 — B559 black-hole probes (holographic entanglement + figure-eight vs BTZ)
 
 ### Added

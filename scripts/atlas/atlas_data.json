@@ -11293,10 +11293,12 @@
   "B556": {
    "slug": "escalator tower",
    "motifs": [
+    "figure_eight",
     "trace_map",
     "metallic",
     "golden",
     "torsion",
+    "lorentzian",
     "firewall"
    ],
    "refs": [
@@ -11309,7 +11311,8 @@
     "B552",
     "B554",
     "B555",
-    "B557"
+    "B557",
+    "S061"
    ],
    "obstacle": "numerology",
    "obstacle_conf": 3,
