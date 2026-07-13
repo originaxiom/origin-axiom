@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — the two-descriptions split verified (owner insight; B565 addendum)
+
+Owner: the program has TWO descriptions — classical (character variety, E6(C), non-compact:
+the ALGEBRA) and quantum (Weil rep on C^15, unitary: the MEASUREMENT). Verified and banked as
+the completion of the real-form theorem: the measurement face is unitary with FINITE image
+(Heisenberg X^15=Z^15=I exact; Weil-image scale |SL(2,Z/15)|=2880 — hint-grade echo of the
+banked 2880); C^15 = C^3 (x) C^5 EXACTLY (B536) = the two ends' tensor (3 Eisenstein, 5 golden;
+compositum = the seam's sqrt(-15)); the algebra face is provably non-compact in every real form
+(H1). SYNTHESIS (firewalled): compactness — what the TDV route needs — is constitutively
+OBSERVER-SIDE; the gap is LOCATED at the coupling, not crossed (finite group != F4(-52), stated).
+Bridge between the faces = the banked volume-conjecture instance (B258 Kashaev -> Vol). 1 lock
+(test_two_faces_compactness_split). H122.
+
+---
+
 ## 2026-07-14 — B565 GAUGE-BEHAVIOR CAMPAIGN COMPLETE: 18 cells + the 123-kill exhumation
 
 44 agents, 0 errors, adversarial verify (2 framing rejections caught + corrected). The gauge
