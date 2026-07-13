@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — B565-H1 slotted: the TDV/Krasnov/Boyle bridge
+
+### Added
+- B565 PREREGISTRATION: H1 cell filled (the F4-canonically-contains-G_SM literature bridge),
+  pre-verified on receipt (Eisenstein = G2 root lattice EXACT; TDV dims; Boyle counts; citations
+  already verified in the lit map). Prereg: Krasnov-explicit in-sandbox, the real-form gap, the
+  object-residue question, triality match, PC25 firewall framing.
+
+---
+
 ## 2026-07-13 — the Gauge-Behavior Campaign preregistered (B565)
 
 ### Added

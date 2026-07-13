@@ -10,6 +10,25 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — H1 slotted: the TDV/Krasnov/Boyle literature bridge (verified on receipt)
+
+Seat-1's literature-bridge handoff: our forced E6->F4 (B353) composed with the Todorov-Dubois-
+Violette theorem (F4 = Aut(h3(O)) canonically contains [SU(3)xSU(2)xU(1)]/Z6 = H1 cap H2, up to
+conjugation; Krasnov 2021 = centralizer of a complex structure on the Spin(9) spinors; Boyle JMP
+2026 = complexification -> E6, left-right extension, three generations via SO(8) triality).
+PRE-VERIFIED in-sandbox on receipt: the Eisenstein lattice Z[omega] = the G2 root lattice EXACTLY
+(6 unit short roots, 6 norm-3 long roots, 30-degree hexagonal; the trace field Q(sqrt-3) IS the G2
+root field); TDV dimension bookkeeping consistent (intersection 12 vs generic 0 = the theorem's
+content); Boyle's 32-per-generation count; Boyle's JMP-2026 publication already citation-verified
+(lit map A3). Slotted as B565-H1 with prereg: (i) Krasnov EXPLICIT in-sandbox (Spin(9) on O^2,
+centralizer dim/type by computation not citation); (ii) the REAL-FORM gap (compact vs our E6(C) --
+the load-bearing verification); (iii) the object-specific residue (all u in S^6 G2-conjugate = no
+selection needed, resolving T6 Krasnov-ward; does the Eisenstein arithmetic distinguish a canonical
+class?); (iv) B299 triality vs Boyle triality; (v) PC25 framing WITH the group-is-cheap firewall
+clause. Campaign launches when H2 lands.
+
+---
+
 ## 2026-07-13 — the Gauge-Behavior Campaign preregistered (B565)
 
 Crafted the campaign that runs the lit-map's behavior-targets PROPERLY (prereg rubrics committed
