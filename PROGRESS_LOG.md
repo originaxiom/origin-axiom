@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — B568 preregistered: the object's own questions (+ a seed jewel found at prereg)
+
+Owner: "what own questions give rewards again — and does the object create our universe?"
+SEED OBSERVATION (verified, locked): the ten Z/11 defect carriers are EXACTLY charge-conjugation
+symmetric — first-core lengths (3,9,3,16,14,14,16,3,9,3) satisfy len(q)=len(11-q) for all q; the
+object's matter comes in particle/antiparticle pairs of identical minimal size, four size-species
+{3,9,14,16} (multiplicities 4,2,2,2). Sitting unnoticed in the banked B560-1B table.
+Preregistered seven own-questions (frontier/B568_own_questions/PREREGISTRATION.md): Q1 the object's
+own mass spectrum (carrier insertion energies vs the C-symmetric size table); Q2 its own history/
+arrow (entropy along the tower); Q3 its own interaction table (fusion selection rules); Q4 its
+arithmetic action (Kim CS at 809 + twisted Redei); Q5 the attractor-of-its-own-moduli measure;
+Q6 the complete syntax law p(n); Q7 the object's CODATA table. The universe question answered
+honestly at prereg: NOT ours (theorem-grade, five walls); but it generates every CATEGORY a
+universe needs — the labor divides: form from the object, actuality from the coupling. 1 lock.
+
+---
+
 ## 2026-07-14 — the Hamiltonian handoff (seat-1): core REFUTED by an order argument (B567)
 
 Seat-1 proposed H = -i log rho(A1) on C^15 as the object's QFT, claiming six pi/3-spaced levels

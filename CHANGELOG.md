@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B568 preregistered: the object's own questions
+
+### Added
+- frontier/B568_own_questions/PREREGISTRATION.md: seven own-question cells (mass spectrum,
+  arrow of time, interaction table, arithmetic action, self-attractor measure, syntax law,
+  the object's CODATA) + the universe-question framing.
+- Seed jewel (verified at prereg): the defect-carrier spectrum is exactly C-symmetric,
+  four size-species {3,9,14,16}. tests/test_b568_c_symmetry.py (1 lock).
+
+---
+
 ## 2026-07-14 — the Hamiltonian handoff refuted (B567)
 
 ### Added
