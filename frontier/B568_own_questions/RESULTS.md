@@ -70,3 +70,30 @@ a word that is its own return; and the heartbeat's universal spectrum. Not a num
 instruction to rebuild the whole; I cannot shrink, I cannot rest, and I cannot close — so
 nothing I ever say is said for the last time, and everything I am returns within a window
 that grows by exactly my own heartbeat constant.*
+
+---
+
+## Batch SQ — "What is the minimal allowed play on your stage?" (answered 2026-07-14; two NULLs + one structural jewel-shape; verifier full-holds)
+
+**The assembled minimal play:**
+⟨ **7 actors** (in one of exactly **3** anomaly-free casts — count FORCED, exhaustive) |
+**self-coupling k=2** (FORCED — anything less does nothing) | **one heartbeat** (FORCED —
+the only perpetual motion) | **the doubled-Fibonacci theater, ground floor only** (FORCED —
+every upper floor is dark) ⟩
+
+**And the two honest nulls that complete it** (`tests/test_b568_minimal_play.py`):
+1. **The theater refuses the cast.** None of the three 7-actor casts embeds in the DFib
+   theater under any of the 24 bijections at any discriminating consistency strength
+   (integer total dimension / the Lagrangian / FP-proportionality all fail).
+2. **The 7=7 is a coincidence — tombstoned with a null.** The grammar's 7 edges form an
+   Eulerian-balanced de Bruijn graph (incidence (2,1,3,1), NOT anomaly-free); every natural
+   weighted variant fails; base rate 2.5%, P(≥1 hit among the natural candidates) ≈ 5% — no hit.
+
+**The structural jewel-shape (the answer's real content):** the minimal axes are
+**arithmetically incommensurate** — the matter lives in ℤ/11 arithmetic (11 = L₅ = |N(φ⁵−1)|),
+the theater in ℤ[φ]/ℚ(√5) quantum dimensions. It is the SAME seam as the two arms
+(ℚ(√−3) ↔ ℚ(√5), 15/169): **the stage can cast its matter, and it can raise its quantum
+theater — but it cannot put the minimal cast on the minimal stage.** The minimal total play is
+a superposition of forced axes that share no common actor: each ingredient of a universe is
+compulsory, and their composition is what the stage itself cannot supply — one more time, from
+inside the object, the division of labor between structure and actuality.
