@@ -72,3 +72,14 @@ carries its own tiny modular world with k+h∨ = 14 → 7 arithmetic.
 Independent re-derivation by an adversarial verifier (separate implementation,
 own Weyl enumeration, own conventions, sensitivity checks vs S ↔ S* and primary
 ordering): see the appended note.
+
+**Verification landed (2026-07-14):** a fully independent re-derivation (own Weyl
+BFS, own conventions, target script read only afterward) **CONFIRMED all five
+sub-claims**: |W| = 51840; gates at 1e-15 (unitarity, S² = the exact conjugation
+swap, (ST)³ = S², Verlinde integrality, two words agree); h-values exact; Z = +1;
+θ-odd block char poly **exactly (λ−1)(λ²+1)** — non-scalar, order 4, det +1.
+Convention-robustness: INVARIANT under the consistent mirror convention (S*, T*)
+and under primary reordering; the result **requires the anomaly-carrying
+T = e^{2πi(h − c/24)}** — the naive T is not a rep ((ST)³ ≠ S²), and the only
+convention that flips the eigenvalues, (S*, T), is likewise non-modular. The
+anomaly c = 78/7 is the substantive content, not a choice. No refutation found.
