@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the Klein-four -> SO(9) route closes (probation P22, B561 addendum)
+
+Seat-1's follow-up to B561: after the Z/3 kill, use the second Z/2 (gamma = Gal(Q(sqrt5)/Q),
+golden conjugation -- a genuine automorphism, the omega-error correctly fixed) to select SO(9)=B4
+inside F4 (a (3,1) exponent split -> Pati-Salam -> SM). Computed. VERDICT: TOMBSTONE, F4 terminus.
+The premise fails on DOMAIN (subtler cousin of the omega-error): gamma FIXES Q(sqrt-3) pointwise,
+and the theta-even H^1 (F4 sector) lives over Q(sqrt-3) (B370 Gram tau=-2sqrt(-3), no sqrt5), so
+gamma acts TRIVIALLY on the four exponents; its real domain is the quantum/WRT face (colored Jones
+over Q(sqrt5), B314), the OTHER end. B347 independently already found the E6 tangent grading
+uniform/non-selecting ("does not select among exponents -- a clean negative", K022). The Klein
+four is real but its two generators act on the two DIFFERENT ends. F4 (rank 4) is the gauge-
+structure terminus under both Z/2's and the Z/3. 2 locks (test_b561_klein_four.py).
+
+---
+
 ## 2026-07-13 — the Probation Campaign RAN (B562): 21 verdicts, adversarially verified
 
 Ran the probation campaign (multi-agent, 43 agents, 0 errors; frontier/B562_probation_campaign/

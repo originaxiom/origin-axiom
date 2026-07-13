@@ -29,6 +29,7 @@ verifier rejected it — kept open, not banked). Firewall-clean; nothing to CLAI
 | P19 | L38 Higgs/scale | NEEDS-RERUN | TOMBSTONE rejected (the "do-or-die" kill was NOT earned in-sandbox) — kept OPEN |
 | P20 | L21 causal-set poset | **TOMBSTONE** | the Ω strict-full DAG's Myrheim–Meyer dimension is not manifoldlike → residual hint |
 | P21 | L46 framework search | **TOMBSTONE** | no external SM/GR framework survives all the object's signatures → residual hint |
+| P22 | Klein-four → SO(9) (seat-1 follow-up to B561) | **TOMBSTONE** | γ=Gal(ℚ(√5)/ℚ) FIXES ℚ(√−3), where the F₄ deformation lives (B370 τ=−2√−3) → acts TRIVIALLY on the four exponents; γ's domain is the quantum/√5 face (colored Jones, B314), the other end; B347 already found the grading uniform/non-selecting. F₄ terminus under both ℤ/2's and the ℤ/3. → B561 addendum |
 
 ## Tally
 

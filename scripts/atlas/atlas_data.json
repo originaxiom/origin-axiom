@@ -11408,8 +11408,10 @@
     "figure_eight",
     "trace_map",
     "eisenstein",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
+    "wrt_quantum",
     "firewall"
    ],
    "refs": [
@@ -11418,13 +11420,16 @@
     "B314",
     "B347",
     "B353",
+    "B370",
     "B463",
-    "L50"
+    "K022",
+    "L50",
+    "P22"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "dead",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B563": {
    "slug": "planck ratio null",

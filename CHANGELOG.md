@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — the Klein-four -> SO(9) route closes (probation P22)
+
+### Added
+- B561 FINDINGS addendum: seat-1's Klein-four follow-up (use gamma=Gal(Q(sqrt5)/Q) to select
+  SO(9) in F4) TOMBSTONED -- gamma fixes Q(sqrt-3) where the F4 sector lives (B370 tau=-2sqrt(-3)),
+  so it acts trivially; its domain is the quantum/sqrt5 face (B314); B347 already found the grading
+  non-selecting. F4 terminus under both Z/2's and the Z/3.
+- tests/test_b561_klein_four.py (2 locks). B562/RESULTS.md P22 + speculations/TOMBSTONES.md entry.
+
+---
+
 ## 2026-07-13 — Probation Campaign RESULTS (B562): 21 verdicts banked
 
 ### Added

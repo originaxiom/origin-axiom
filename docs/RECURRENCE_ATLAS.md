@@ -13,8 +13,8 @@
 THE RECURRENCE ATLAS -- context card
   corpus: 526 frontier probes; status {'banked': 348, 'dead': 114, 'open': 47, 'dormant': 17}
   the ONE conserved first integral: kappa (recurs 140x, 26%) -- genuine unity, MUST recur
-  top recurring motifs: firewall(382), golden(332), metallic(267), trace_map(263), eisenstein(257), figure_eight(250)
-  recurrence is: structural-invariant 1948 mentions | conserved-integral 140 | TOOL 263
+  top recurring motifs: firewall(382), golden(333), metallic(267), trace_map(263), eisenstein(257), figure_eight(250)
+  recurrence is: structural-invariant 1949 mentions | conserved-integral 140 | TOOL 263
   the honest split: the trace-map TOOL is in 263 probes (50%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B521, B156, B309, B321, B154
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -27,7 +27,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
 | firewall | 382 | 72% | structure | structural | meta | the firewall / structural theorem / form-not-values |
-| golden | 332 | 63% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| golden | 333 | 63% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | metallic | 267 | 50% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 263 | 50% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | eisenstein | 257 | 48% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
@@ -35,7 +35,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | torsion | 183 | 34% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | amphichiral_cp | 160 | 30% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | kappa | 140 | 26% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
-| wrt_quantum | 128 | 24% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| wrt_quantum | 129 | 24% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | z3_generation | 103 | 19% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | lorentzian | 97 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | dickson_tower | 89 | 16% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
@@ -48,7 +48,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **140** probes (26%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **1948** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **1949** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **263** probes (50%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
