@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B578: the debt-clearing campaign complete
+
+### Added
+- B578: D1 Massey exact (order-3 smoothness; B370 discharged); **D4 e₃ = 2cos(2π/9)/1728 —
+  JEWEL** (sentinels clean-negative; H132 the ζ₉ double apparition); **D6 self-correction:
+  K₃ is degree 6 (B125 was right; the B571/B577 "correction" reverted)**; D7 level-3 (law
+  false; the golden 2+3+3 octic; Z=+1 third level running, H133); D8 V3 moot ({1:9,ω:9,ω²:9}
+  exact); **D10 the global duality — unconditional at E₆**; D3 two welds (B507 lock
+  delivered); D2 Q-C stays open (no map constructed); D5/D9 stubs re-launched.
+  `frontier/B578_debt_clearing/RESULTS.md`, 20 locks.
+
+
 ## 2026-07-14 — B580: the chord program preregistered
 
 ### Added
