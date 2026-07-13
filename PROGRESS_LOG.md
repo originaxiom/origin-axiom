@@ -3574,3 +3574,23 @@ content); 3/13's derivation self-retracted. Gravity/Klein-four-sectors → specu
 "Founding question answered YES" tempered to THE_SELECTION_RULES verdict. **L72 registered**
 (the dynamics program, MB13-swept: torsion = the banked B126/B425 thread; the new step = the
 E₆-principal torsion). 2 locks. Firewalled.
+
+## 2026-07-14 — B580: THE CHORD PROGRAM preregistered (the owner's coupling thesis, made computable)
+
+The owner's reframe: the SM is not in the object's Taylor expansion (the solo — every wall) and
+not in the observer's modular data alone — it is in the PAIRING. The rigorous name: **the cusped
+complement's state vector Z(M₃) ∈ H_k(T²)** (components = the knot's colored invariants at
+level k); the chord = ⟨ψ_observer | Z(M₃)⟩. The banked Sol-vs-cusped trap (L24 correction,
+B569 placement) is built in: the banked Z_k = Tr ρ_k(A₁) is ONE pairing (the fiber filling);
+the program computes the full vector. MB13 swept: builds on L24 (period law PROVED, Jeffrey
+mechanism), B210 (rep image), C3/B572 (level-2 exact data), C4 (branched-cover orders = the
+abelian inputs), B441, B566-S3; Δ_{4₁}(ω) = −4 exact. Cells: Q1 (the level-1 vector, exact
+abelian ℤ/3, via filling pairings, lens-space control + the banked Z=+1 gate); Q2 (S|ρ₀⟩ +
+the θ-structure of the state — is the object's σ visible in the state?); Q3 (the level-2 state
+meets the ℤ/7 kernel and the living monodromy); Q4 (the θ-odd derivative of the chord —
+honest semiclassical scope); G1 (the geometric chord: the MIRROR-DOUBLE amalgam, the canonical
+forced coupling; gluing dial = the 6-dim regular-unipotent centralizer graded by the exponents
+— preregistered expectation: the θ-odd dial components are the chiral ones). **THE FIREWALL AT
+MAXIMUM: forced couplings only; the hints H128–H130 are targets the computation must hit BLIND
+or they die; nulls (5₂ + Ising controls) mandatory; B533 stays closed.** Falsifiers per cell
+preregistered (incl. the honest abelian-triviality null at level 1). Launches post-B578.

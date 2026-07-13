@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B580: the chord program preregistered
+
+### Added
+- B580 PREREGISTRATION: the coupling thesis made computable — the chord = pairings with the
+  cusped complement's TQFT state Z(M₃) ∈ H_k(T²) (Q1–Q4) + the geometric chord (G1: the
+  mirror-double amalgam with its 6-dim exponent-graded dial). MB13-swept onto L24/B210/C3/C4.
+  Firewall at maximum: forced couplings only; H128–H130 are blind targets, not inputs; nulls
+  mandatory; B533 stays closed. `frontier/B580_chord_program/PREREGISTRATION.md`.
+
+
 ## 2026-07-14 — B579: the session handoff adjudicated (scan → HINT_LEDGER; the duet quartic correction)
 
 ### Added
