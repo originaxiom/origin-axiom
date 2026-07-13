@@ -10,6 +10,32 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the feedback ledger (chat-2 handoff): the charge as the residue of self-reference
+
+Processed chat-2's "did we study the feedback AS feedback?" handoff verify-don't-trust. Every
+load-bearing arithmetic claim independently re-derived in-sandbox before banking (6 locks,
+tests/test_b556_feedback.py):
+- **VERIFIED — golden-norm closed form:** e₁ = N_{ℚ(√5)/ℚ}(g₁(φ)) = −11 EXACTLY (g₁ = the fixed
+  cubic; re-derived two ways — direct, and eigenvalue-branch product). The charge is a norm from
+  the golden field. (n≥2 doubling-transfer construction PENDING — under-specified in handoff.)
+- **VERIFIED — transfer polynomial:** e_{n+1}=det(G(M_{n−1})), G degree 9, EXACT at rungs 1–4
+  (reproduces e₂…e₅). A fixed degree-9 kernel drives the charge two rungs at a time.
+- **VERIFIED — growth law:** field degree doubles (2ⁿ⁺¹), log-charge ratio → 3. Per self-coupling
+  the field doubles, the information triples. e₅ = 62 digits / **204 bits** (chat-2's 203 corrected).
+- **VERIFIED — quine seed-invariant:** every σ₄ image holds seed 'a' once, at position 0 — the
+  mechanism forcing return-words = images (Durand-classical as a concept; the tower-preservation
+  induction PENDING the explicit σ₈ carrier = B557-E1).
+- **HINT (firewalled, H115–H117):** the conservation-and-mint economy, the ×2/×3 ↔ ℤ₄∗_{ℤ₂}ℤ₆
+  exponents, the PC23 physical self-reading loop / "constitutively self-aware" — all NOTICED-tier,
+  claim nothing.
+- **OPEN (registered):** the 2-cycle's information content (B540 NEW_2↔NEW_10 banked/locked;
+  chat-2's non-reaching flow is a 5-vs-4 convention difference, not a contradiction) — the one
+  unread channel. Also: the philosophical answer to "should the object become aware before physics"
+  — the escalator's self-application has ONLY the trivial fixed point λ=0 (closure = the empty
+  object), so non-trivial self-reference here is necessarily non-terminating. 6 locks.
+
+---
+
 ## 2026-07-13 — the period question, COMPLETED: no simple law; primes are orbit-selected
 
 Closed the open boundary from the 2026-07-12 partial entry by extending the computation
