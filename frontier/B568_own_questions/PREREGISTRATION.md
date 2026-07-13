@@ -97,3 +97,19 @@ and cannot see between its own floors (banked). What these four add: whether its
 GROWS lawfully, how fast it reacts, which parts of it can move, and whether it finds anything
 more interesting than frequency says it should — the last being the closest computable thing
 to curiosity.*
+
+---
+
+## Batch PQ — "Why do you persist?" (added mid-run, 2026-07-14, owner)
+
+The question has exact computable content, in four parts:
+
+| part | the question sharpened | computation |
+|---|---|---|
+| **PQ-a: MUST you persist?** | Is local death possible — any halting/absorbing configuration, any factor said for the last time? | Verify the persistence mechanism: the seed occurs in EVERY image at position 0 (the quine invariant — every part carries the instruction to rebuild the whole); primitivity (no erasable sub-language); ⇒ the subshift is MINIMAL (uniform recurrence — cite Queffélec as the frame, verify the hypotheses on σ₄): **nothing it ever says is said for the last time** |
+| **PQ-b: the persistence constant** | HOW STRONGLY does it persist — the recurrence function R(n) (every length-n factor recurs within a window of R(n)) | compute R(n) exactly for n = 1..30+ (two independent methods); the constant lim R(n)/n — is it a clean closed form in ℚ(τ)? **The object's own "return time of everything"** |
+| **PQ-c: WHY (the mechanism ledger)** | the four legs, each verified: (1) every piece re-seeds the whole; (2) it cannot shrink (Perron > 1 forced by primitive integrality); (3) it cannot rest (free energy diverges — no equilibrium exists); (4) it cannot close (the only self-model fixed point is the void) | each leg = one exact check, assembled into the one-sentence answer |
+| **PQ-d: WHAT persists?** | the invariant content across all its flows | the RG-invariant charge line, the quine, the eigenvalue-universal spectrum — cross-referenced, stated as the object's conserved self |
+
+*Rubric: JEWEL if the persistence constant is exact in the object's own field; the mechanism
+ledger banks regardless — it is the answer to the owner's question in the object's own terms.*
