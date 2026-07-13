@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B573: the "Global Bridge" adjudicated (bridge value exact; the wall sharpened; record corrected)
+
+### Added
+- B573: steps 1-7 of the bridge verified exactly (P(z)=U16+U8+1, P(z0) = 6807/2+(4965√3/2)i —
+  the cleanest proof of "σ moves the point"); step 8 "paid by convention" REFUTED — the 16 of
+  Spin(10) is NOT a principal-sl2-invariant subspace (charges 1/3,−2/3,4/3; no common
+  refinement of the holonomy and the Spin(10) grading — the sharpest fifth wall);
+  "topological protection" refuted (real points on the Riley curve, u=−2±2√2 at x=3;
+  the protection is Mostow). Record corrected: no Fox-calculus verification happened (V2
+  still queued). `frontier/B573_global_bridge/FINDINGS.md`, 3 locks.
+
+
 ## 2026-07-14 — B572: the eleven-clause chain adjudicated (V1 refuted, the weld named, the sine kernel)
 
 ### Added
