@@ -11536,6 +11536,39 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B572": {
+   "slug": "eleven clauses",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B299",
+    "B353",
+    "B469",
+    "B470",
+    "B565",
+    "B569",
+    "B570",
+    "H1",
+    "P4",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B57": {
    "slug": "general m splitting",
    "motifs": [
