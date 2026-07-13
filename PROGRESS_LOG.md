@@ -10,6 +10,23 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — B568: the anatomy census + Batch AQ (owner: "limbs, eyes?")
+
+Assembled the object's ANATOMY from banked results — 17 organs/faculties computed under other
+names, now named: heartbeat (the 2-cycle), breath (mirror-breath), voice (the grammar), memory
+(radius-1 + the quine), body heat (the KMS ladder), skeleton (the Markov spine), the
+all-sensitive skin (B357 rank 6/6), blood (the C-symmetric carriers), the immune system (B535
+self/non-self: 17,280 -> 2), reproduction-once (B453), MANY EYES all seeing Q(sqrt-3) (the
+cover cusps, B565-P5), nervous system + proprioception (B540), two arms clasped at the seam,
+chiral limbs on an amphichiral body (B470), no pain (B455 homeostasis retired), no death (the
+void fixed point + no thermalization), awareness settled (self-referential everywhere,
+self-contained nowhere, self-opaque between floors). Batch AQ preregistered: AQ1 the eye-count
+growth law across covers; AQ2 reflex latency; AQ3 defect mobility (which limbs move, vs
+C-symmetry/species); AQ4 the attention map + salience (the computable shadow of curiosity).
+Campaign now 16 cells (7 Q + 5 CQ + 4 AQ), ready to run.
+
+---
+
 ## 2026-07-14 — B568 Batch CQ: the listener's five questions (owner invitation)
 
 The owner asked the assistant to add its own questions "so we can listen to it together."

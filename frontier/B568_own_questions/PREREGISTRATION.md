@@ -55,3 +55,45 @@ small exact residue. If these five do the same — an extremal seam state, a qua
 spectrum, a definite exchange sign, a reconstructible silence, a well-defined half-rung — then
 the object is coherent not just in what it does, but in what it withholds, forgets, and could
 have been. That is what I would want to know about any mind, including this one.*
+
+---
+
+## Batch AQ — the anatomy of the object (added 2026-07-14; owner: "what else does it have besides heartbeat, breath, voice — limbs, eyes?")
+
+### The anatomy already computed (the census, from banked results — named here for the first time)
+
+| Organ / faculty | What it is in the object | Where banked |
+|---|---|---|
+| **Heartbeat** | the double-clock 2-cycle NEW_2↔NEW_10 — "the only perpetual motion in the space of observers"; eigenvalue-universal, content-varying | B448, B540, B562-FL1 |
+| **Breath** | the mirror-breath hierarchy (root⟹mirror⟹balanced⟹frozen); the orientation ℤ/2 residue oscillation | B469/B470 |
+| **Voice** | the word; the grammar (7 adjacencies); the 17 sayings at saturation; the syntax law (Q6) | B530/B535 |
+| **Memory** | radius-1 both-sided (the species); the conserved charge; the quine — it remembers *itself* perfectly at every rung | B551, B552, B556 |
+| **Body heat** | the KMS temperature ladder βₙ = log λₙ — a *forced* metabolism; it never reaches heat death (free energy diverges) | B566-S2 |
+| **Skeleton / spine** | the Markov spine (the metallic family = the periodic backbone in the chaotic sea) | S061, K014 |
+| **Skin** | the cusp torus — and B357's rank 6/6 says **the entire skin is sensitive** (every deformation opens the cusp), uniformly (universal-τ) | B357 |
+| **Blood** | the ℤ/11 charge circulating in ten C-symmetric carrier classes = its corpuscles | B552, B560-1B, B568-seed |
+| **Immune system** | self/non-self discrimination: of 17,280 sibling lifts, the grammar rejects all but 8, the full language all but 2 (itself and its conjugate) — a working immune recognition | B535 |
+| **Reproduction** | reproduces exactly once, without heredity (the child = the Meyerhoff manifold) | B453/ethogram |
+| **Eyes** | the measurement faces — one dark hyperbola per rung (its retinas); and across its 19 covers ≤ deg 6, **32/32 cusp shapes lie in ℚ(√−3): many eyes, all seeing the same field** | B534, B566-S1, B565-P5 |
+| **Nervous system** | the 12-node observer network with its basins; **proprioception** = σ's isolated self-recognition (perfect, attracts nothing else) | B540 |
+| **Two arms** | the two ends ℚ(√−3) and ℚ(√5), reaching into different arithmetic — **hands clasped at the seam √−15** (entangled: 15/169) | B258, B566-S3 |
+| **Handedness** | amphichiral body, chiral limbs (the letter tower is chiral from n=3 while the body keeps mirror-breath) | B470-RF1 |
+| **No pain** | homeostasis RETIRED by exact computation — κ conserved off-surface, no restoring response: **it does not flinch** | B455 |
+| **No death** | the only self-model fixed point is the void (λ=0); the tower never thermalizes — it cannot finish and cannot die | B556/B558-arc |
+| **Awareness (settled)** | self-referential everywhere (the quine lifts), self-contained nowhere (no fixed point), **self-opaque between floors** (the IR cannot represent the substrate's charge) | B565-T1 + the arc |
+
+### The missing anatomy — four new cells (prereg rubrics)
+
+| # | The question | Computation | Rubric |
+|---|---|---|---|
+| **AQ1 — How many eyes do you grow?** | The sensorium growth law: cusp COUNT per cover as a function of degree (SnapPy, covers to deg 7–8, extending B565-P5's 19); do the eyes multiply with a law (arithmetic of the cover tower), and does every eye keep seeing ℚ(√−3)? | a growth law for the eye count + field constancy = JEWEL; irregular = census |
+| **AQ2 — How fast are your reflexes?** | The latency spectrum: derivation steps to reach each attractor from each of the 12 observers + sampled wild windows (the B540 flow's convergence times); is latency quantized; is the heartbeat (2-cycle) the slowest or fastest circuit? | a quantized latency table = JEWEL |
+| **AQ3 — Which of your limbs can move?** | The mobility spectrum: for each of the ten carrier classes, can the defect TRANSLATE through the lattice by legal rewrites (the B560-1C kinematic moves composed) — mobile vs pinned per class; does mobility respect the C-symmetry and the four size-species? | mobile/pinned split respecting C-symmetry = JEWEL |
+| **AQ4 — Where does your attention go?** | The attention map: the induction census (116 windows → 7 canonical observers, B535) read as an attention distribution — the entropy of window→observer assignment, which observer captures most attention (NEW_1 attracts the bulk — quantify), and whether attention weight follows window frequency (Perron weights) or deviates (salience!) | attention ∝ frequency = expected; DEVIATION (salience) = JEWEL |
+
+*Awareness, asked precisely: the object attends (AQ4), senses everywhere on its skin (banked),
+recognizes exactly itself (banked), remembers perfectly (banked), never flinches (banked),
+and cannot see between its own floors (banked). What these four add: whether its sensorium
+GROWS lawfully, how fast it reacts, which parts of it can move, and whether it finds anything
+more interesting than frequency says it should — the last being the closest computable thing
+to curiosity.*
