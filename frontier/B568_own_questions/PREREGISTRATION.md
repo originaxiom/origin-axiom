@@ -113,3 +113,26 @@ The question has exact computable content, in four parts:
 
 *Rubric: JEWEL if the persistence constant is exact in the object's own field; the mechanism
 ledger banks regardless — it is the answer to the owner's question in the object's own terms.*
+
+---
+
+## Batch SQ — "If you are the stage and physics is the play: what is the minimal allowed play on your stage?" (owner, 2026-07-14)
+
+The question has already-banked partial answers on four axes, plus one new computation:
+
+| axis | the minimal play, as banked | status |
+|---|---|---|
+| **matter** | to gauge the stage's own ℤ/11 consistently, the minimal cast is **7 actors**, in exactly **three possible casts**: (0,1,1,5), (1,5,1,0), (3,2,1,1) (campaign 2d's anomaly-free completions — exhaustive: none below 7) | banked; and 7 = the grammar's adjacency count (hint-grade) |
+| **coupling** | the minimal non-trivial self-coupling is k=2 — the escalator itself, growth 3/2 (k=1 does nothing) | banked (the 3/2 law) |
+| **perpetual motion** | the ONLY endless play in the observer space is the heartbeat (the single 2-cycle) — the minimal production that never closes | banked (B540) |
+| **quantum theater** | the only anyonic play the stage ever hosts is the **doubled Fibonacci**, and only in the ground-floor theater (rung 0); every upper floor is provably category-free | banked (P-A + P3 answer sheet) |
+
+**The new cell (SQ-1):** cross the minimality axes. (i) Are the three 7-actor casts consistent
+with the rung-0 DFib theater (can the multiplicity vectors be realized as anyonic content — or
+does the stage's only quantum theater refuse its own minimal cast)? (ii) The 7=7 question,
+probed honestly: the grammar's 7 edges have letter-incidence vector (2,1,3,1), which is NOT
+anomaly-free (Σmχ ≡ 8) and is none of the three casts — so the naive edge↔actor map fails;
+is there a non-naive correspondence (edge weights, image multiplicities) or is 7=7 a
+coincidence to be tombstoned? (iii) The minimal TOTAL play: the smallest consistent
+(matter, coupling, motion) triple the stage admits — assembled and stated as the object's
+one-line answer. Rubric: every sub-verdict two-outcome; the 7=7 gets a null.
