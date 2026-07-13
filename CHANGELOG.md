@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B575 / L51: the bridge obstruction — Q ≡ 0 (open at second order)
+
+### Added
+- B575: the arc's decisive computation. e₆ built exactly in gl(27) (closure 78; relator →
+  exact identity — end-to-end gate); Fox cohomology per block (H¹=H²=1 ×6); the cup product
+  with the true e₆ bracket: **Q vanishes identically — 6 diagonal + 15 cross components, all
+  zero in exact ℚ(√−3) arithmetic. Every direction (incl. θ-odd {4,8}) unobstructed at second
+  order; the sixth wall does not exist at this order; rank-≥2 E₆ deformations exist.**
+  Adversarially verified (raw cocycles nonzero; coboundary-invariant; constructive correction
+  certificates matching the transvectant channels). L51 → CLOSED-POSITIVE; **L59 opened**
+  (the deformed closure: D₅ or A₅ — does the 27 turn complex?).
+  `frontier/B575_bridge_obstruction/{PREREGISTRATION,FINDINGS,l51_obstruction.py}`, 1 lock.
+
+
 ## 2026-07-14 — REVIEW 16 (the chirality arc audited; six fixes; the queue set)
 
 ### Added

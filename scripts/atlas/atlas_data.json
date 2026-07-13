@@ -11608,6 +11608,28 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B575": {
+   "slug": "bridge obstruction",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "L51",
+    "L59",
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B57": {
    "slug": "general m splitting",
    "motifs": [

@@ -3480,3 +3480,31 @@ B571 revival queue with the B137 "non-quadratic" deferral reason corrected — i
 wrong); the PC26 PREMATURE/BLOCKED registry row. Promotion candidates flagged: the fifth-wall
 theorem, the clock theorem, the Q-A trichotomy, the sine-kernel identity. The queue: L51 first.
 Full entry: docs/progress/REVIEWS.md. Counter resets at anchor 8452656.
+
+## 2026-07-14 — B575 / L51: THE BRIDGE OBSTRUCTION — Q ≡ 0. The bridge is open at second order.
+
+The queue's first item, run immediately (owner: "take that seriously"). THE COMPUTATION: e₆
+built explicitly inside gl(27) from the minuscule weight model (GF(2) sign-solve; G1: [eᵢ,fⱼ]
+= δᵢⱼhᵢ, closure dim = 78 exactly); the principal sl₂ (G2: relations exact; adjoint blocks
+(23,17,15,11,9,3)); the figure-eight holonomy as exact nilpotent exponentials over ℚ(√−3)
+(G3: the relator maps to the EXACT IDENTITY in E₆ — end-to-end build check); Fox-calculus
+cohomology per block (G4: dim H¹ = dim H² = 1 at every exponent); the cup product on the
+relator 2-cell with the TRUE e₆ bracket (G5 control: Q(u₁) = 0, the existing SL(2) curve).
+
+**THE RESULT: the quadratic obstruction vanishes IDENTICALLY — all 6 diagonal components AND
+all 15 cross-pairings, in exact arithmetic. Every direction, including both θ-odd directions
+{4,8}, is unobstructed at second order. THE SIXTH WALL DOES NOT EXIST AT THIS ORDER: honest
+rank-≥2 E₆ deformations of the geometric representation exist to second order in every
+direction — the local variety is a smooth 6-fold at quadratic order, not the factored curve.**
+
+Verified adversarially (the zero is real, not a broken pipeline's zero): raw cup cocycles
+NONZERO before projection (396/456/456/219 of 729 entries — genuine coboundaries);
+coboundary-invariance; φ functionals nonzero; CONSTRUCTIVE second-order corrections solved
+explicitly along u₄ (target blocks {1,5,7}) and u₈ ({1,5,7,11}) — matching the
+Λ²-transvectant channel predictions exactly (independent structural cross-check). Honesty
+bar: second order ≠ full integrability (Massey obstructions open; Porti-style smoothness =
+the literature companion, cited-not-assumed). The fifth wall was a statement about the POINT;
+the variety continues past it in all six directions. **L59 opened: along the θ-odd
+deformations, where does the Zariski closure go — and does the 27 turn complex? The exponent
+arithmetic gives the closure exactly two chiral destinations: D₅ and A₅.** 1 lock (the full
+build re-runs as the test; ~6 min, accepted deliberately). Firewalled.
