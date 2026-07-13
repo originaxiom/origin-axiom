@@ -1,0 +1,11 @@
+delta_charge,core_length,left_context,source_core,target_core,right_context,source_position,target_position
+1,3,BaA,abA,Bab,ABa,18,7
+2,9,abA,BaAabAABa,ABabABabA,ABa,26,60
+3,3,abA,Bab,ABa,ABa,11,3
+4,16,ABa,bABaAabAABabABaA,ABabABaAabAABaAB,abA,13,35
+5,14,abA,ABabABabAABaAB,BaAabAABabABaA,abA,60,15
+6,14,abA,BaAabAABabABaA,ABabABabAABaAB,abA,15,60
+7,16,ABa,ABabABaAabAABaAB,bABaAabAABabABaA,abA,35,13
+8,3,abA,ABa,Bab,ABa,3,11
+9,9,abA,ABabABabA,BaAabAABa,ABa,60,26
+10,3,BaA,Bab,abA,ABa,7,18

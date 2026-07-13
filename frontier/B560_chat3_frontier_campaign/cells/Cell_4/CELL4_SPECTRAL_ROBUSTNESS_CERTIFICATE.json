@@ -1,0 +1,321 @@
+{
+  "exact_frequency_module": {
+    "tau_minimal_polynomial": "t^4 - t^2 - 1",
+    "frequency_expressions_in_Z_tau": {
+      "f_b": "t**3 - t**2 - t + 1",
+      "f_B": "-t**3 + t + 1",
+      "f_a": "t - 1",
+      "f_A": "t**2 - t",
+      "f_a+f_b": "t**3 - t**2"
+    },
+    "basis_coefficient_matrix_columns_fa_fb_fA_fB": [
+      [
+        -1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1
+      ]
+    ],
+    "basis_change_determinant": 1,
+    "frequency_module": "Z[f_a,f_b,f_A,f_B] = Z[tau]",
+    "all_five_target_labels_have_degree": 4,
+    "target_minimal_polynomials": {
+      "f_b": "y**4 - 2*y**3 + 6*y - 1",
+      "f_B": "y**4 - 4*y**3 + 7*y**2 - 6*y + 1",
+      "f_a": "y**4 + 4*y**3 + 5*y**2 + 2*y - 1",
+      "f_A": "y**4 - 2*y**3 - 2*y**2 - 2*y + 1",
+      "f_a+f_b": "y**4 + 2*y**3 - 5*y**2 + 4*y - 1"
+    },
+    "sum_of_letter_frequencies": "1 exactly"
+  },
+  "sampled_coupling_chambers": {
+    "C1_BOX": {
+      "bounds": {
+        "a": [
+          1.0,
+          1.0
+        ],
+        "b": [
+          0.72,
+          0.88
+        ],
+        "A": [
+          0.52,
+          0.68
+        ],
+        "B": [
+          0.32,
+          0.48
+        ]
+      },
+      "grid_shape": [
+        4,
+        4,
+        4
+      ],
+      "point_count": 64,
+      "summary": {
+        "f_A": {
+          "sampled_points": 64,
+          "minimum_gap_width": 0.037485441232288697,
+          "maximum_gap_rank": 14,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 1.4339235825944208e-05
+        },
+        "f_B": {
+          "sampled_points": 64,
+          "minimum_gap_width": 0.077917832140312,
+          "maximum_gap_rank": 10,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 0.0001513777574233821
+        },
+        "f_a": {
+          "sampled_points": 64,
+          "minimum_gap_width": 0.18511046068199877,
+          "maximum_gap_rank": 4,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 1.9649514068964535e-05
+        },
+        "f_a+f_b": {
+          "sampled_points": 64,
+          "minimum_gap_width": 0.14446713158364788,
+          "maximum_gap_rank": 6,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 0.00013703852159746566
+        },
+        "f_b": {
+          "sampled_points": 64,
+          "minimum_gap_width": 0.029260461849900166,
+          "maximum_gap_rank": 20,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 0.000215944325804851
+        }
+      }
+    },
+    "C2_BOX": {
+      "bounds": {
+        "a": [
+          1.0,
+          1.0
+        ],
+        "b": [
+          0.52,
+          0.58
+        ],
+        "A": [
+          0.72,
+          0.78
+        ],
+        "B": [
+          0.32,
+          0.38
+        ]
+      },
+      "grid_shape": [
+        5,
+        5,
+        5
+      ],
+      "point_count": 125,
+      "summary": {
+        "f_A": {
+          "sampled_points": 125,
+          "minimum_gap_width": 0.09430286429680423,
+          "maximum_gap_rank": 10,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 1.4339235825944208e-05
+        },
+        "f_B": {
+          "sampled_points": 125,
+          "minimum_gap_width": 0.02415652065505758,
+          "maximum_gap_rank": 24,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 0.0001513777574233821
+        },
+        "f_a": {
+          "sampled_points": 125,
+          "minimum_gap_width": 0.1211864393220895,
+          "maximum_gap_rank": 6,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 1.9649514068964535e-05
+        },
+        "f_a+f_b": {
+          "sampled_points": 125,
+          "minimum_gap_width": 0.3199448462874802,
+          "maximum_gap_rank": 2,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 0.00013703852159746566
+        },
+        "f_b": {
+          "sampled_points": 125,
+          "minimum_gap_width": 0.021431443462706534,
+          "maximum_gap_rank": 30,
+          "top_30_fraction": 1.0,
+          "maximum_label_error": 0.000215944325804851
+        }
+      }
+    },
+    "classification": "COMPUTED_FINITE_N_GRID_NOT_CONTINUUM_THEOREM"
+  },
+  "finite_size": {
+    "substitution_prefix_lengths": [
+      893,
+      3283,
+      12069,
+      44368
+    ],
+    "record_count": 40,
+    "maximum_N_times_label_error": 0.12882838372292696,
+    "minimum_gap_width_by_coupling": {
+      "C1": 0.08631180149987183,
+      "C2": 0.018978554529369696
+    }
+  },
+  "golden_control_correction": {
+    "full_golden_module_mod_1_is_dense": true,
+    "single_label_absolute_field_separation": false,
+    "corrected_control": "Exclude low-index Fibonacci labels, not the entire dense golden module.",
+    "golden_index_cutoff": 30,
+    "minimum_distance_to_index_le_30": 0.0009331190050043681,
+    "required_total_IDS_uncertainty_below": 0.00046655950250218403,
+    "counting_only_minimum_N": 2144,
+    "conservative_recommended_N": 5000
+  },
+  "finite_N_local_robustness": {
+    "C1": {
+      "coupling": {
+        "a": 1.0,
+        "b": 0.8,
+        "A": 0.6,
+        "B": 0.4
+      },
+      "N": 3000,
+      "target_gaps": {
+        "f_b": {
+          "gap_index": 504,
+          "measured_label": 0.168,
+          "label_error": 0.00011738900752847337,
+          "gap_width": 0.10099870269636457,
+          "gap_rank": 8
+        },
+        "f_B": {
+          "gap_index": 642,
+          "measured_label": 0.214,
+          "label_error": 0.0001513777574233821,
+          "gap_width": 0.10315395579973385,
+          "gap_rank": 5
+        },
+        "f_a": {
+          "gap_index": 816,
+          "measured_label": 0.272,
+          "label_error": 1.9649514068964535e-05,
+          "gap_width": 0.27934820299806573,
+          "gap_rank": 1
+        },
+        "f_A": {
+          "gap_index": 1038,
+          "measured_label": 0.346,
+          "label_error": 1.4339235825944208e-05,
+          "gap_width": 0.08631180150078765,
+          "gap_rank": 10
+        },
+        "f_a+f_b": {
+          "gap_index": 1320,
+          "measured_label": 0.44,
+          "label_error": 0.00013703852159746566,
+          "gap_width": 0.21777334619817532,
+          "gap_rank": 4
+        }
+      },
+      "minimum_target_gap_width": 0.08631180150078765,
+      "finite_N_Weyl_open_ball_radius_linf": 0.021577950375196914,
+      "half_margin_disorder_radius": 0.010788975187598457,
+      "combined_budget_inequality": "4*delta_hopping + 2*linewidth < minimum_gap_width"
+    },
+    "C2": {
+      "coupling": {
+        "a": 1.0,
+        "b": 0.55,
+        "A": 0.75,
+        "B": 0.35
+      },
+      "N": 3000,
+      "target_gaps": {
+        "f_b": {
+          "gap_index": 505,
+          "measured_label": 0.16833333333333333,
+          "label_error": 0.000215944325804851,
+          "gap_width": 0.025135612431388177,
+          "gap_rank": 25
+        },
+        "f_B": {
+          "gap_index": 642,
+          "measured_label": 0.214,
+          "label_error": 0.0001513777574233821,
+          "gap_width": 0.051651232443845396,
+          "gap_rank": 12
+        },
+        "f_a": {
+          "gap_index": 816,
+          "measured_label": 0.272,
+          "label_error": 1.9649514068964535e-05,
+          "gap_width": 0.1430536197839346,
+          "gap_rank": 4
+        },
+        "f_A": {
+          "gap_index": 1038,
+          "measured_label": 0.346,
+          "label_error": 1.4339235825944208e-05,
+          "gap_width": 0.10414793569218217,
+          "gap_rank": 9
+        },
+        "f_a+f_b": {
+          "gap_index": 1320,
+          "measured_label": 0.44,
+          "label_error": 0.00013703852159746566,
+          "gap_width": 0.3581035644989953,
+          "gap_rank": 2
+        }
+      },
+      "minimum_target_gap_width": 0.025135612431388177,
+      "finite_N_Weyl_open_ball_radius_linf": 0.006283903107847044,
+      "half_margin_disorder_radius": 0.003141951553923522,
+      "combined_budget_inequality": "4*delta_hopping + 2*linewidth < minimum_gap_width"
+    }
+  },
+  "gap_opening_status": {
+    "allowed_label_group": "PROVED_EXACTLY",
+    "five_open_target_gaps_at_two_centers": "COMPUTED_AND_FINITE_N_PERTURBATION_MARGINS_GIVEN",
+    "top_30_on_two_sampled_boxes": "COMPUTED_AT_ALL_189_GRID_POINTS",
+    "infinite_volume_open_chamber": "NOT_PROVED",
+    "all_module_labels_open": "OPEN_DRY_TEN_MARTINI_TYPE_PROBLEM"
+  },
+  "classification": {
+    "degree_4_module": "PROVED_EXACTLY",
+    "five_target_labels_are_degree_4": "PROVED_EXACTLY",
+    "coupling_invariance_when_gap_remains_open": "CLASSICAL_GAP_LABEL_THEOREM_CONDITION",
+    "finite_N_robustness": "COMPUTED_WITH_WEYL_LOCAL_BALLS",
+    "distance_from_full_golden_module": "REFUTED_AS_AN_ABSOLUTE_DISCRIMINATOR",
+    "bounded_index_golden_control": "QUANTIFIED",
+    "experiment_status": "DIMENSIONLESS_SPECIFICATION_READY",
+    "cell_status": "EXPERIMENT_READY_WITH_INFINITE_VOLUME_GAP_OPENING_OPEN"
+  }
+}

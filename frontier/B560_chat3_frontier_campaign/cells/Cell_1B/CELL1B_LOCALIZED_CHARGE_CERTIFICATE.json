@@ -1,0 +1,557 @@
+{
+  "substitution_depth": 10,
+  "word_length": 599611,
+  "recognizability_context_radius": 3,
+  "maximum_core_length_searched": 16,
+  "base_charge": {
+    "a": 1,
+    "b": 3,
+    "A": 6,
+    "B": 7
+  },
+  "witnesses": {
+    "1": {
+      "core_length": 3,
+      "left_context": "BaA",
+      "source_core": "abA",
+      "target_core": "Bab",
+      "right_context": "ABa",
+      "delta_charge": 1,
+      "source_position": 18,
+      "target_position": 7
+    },
+    "2": {
+      "core_length": 9,
+      "left_context": "abA",
+      "source_core": "BaAabAABa",
+      "target_core": "ABabABabA",
+      "right_context": "ABa",
+      "delta_charge": 2,
+      "source_position": 26,
+      "target_position": 60
+    },
+    "3": {
+      "core_length": 3,
+      "left_context": "abA",
+      "source_core": "Bab",
+      "target_core": "ABa",
+      "right_context": "ABa",
+      "delta_charge": 3,
+      "source_position": 11,
+      "target_position": 3
+    },
+    "4": {
+      "core_length": 16,
+      "left_context": "ABa",
+      "source_core": "bABaAabAABabABaA",
+      "target_core": "ABabABaAabAABaAB",
+      "right_context": "abA",
+      "delta_charge": 4,
+      "source_position": 13,
+      "target_position": 35
+    },
+    "5": {
+      "core_length": 14,
+      "left_context": "abA",
+      "source_core": "ABabABabAABaAB",
+      "target_core": "BaAabAABabABaA",
+      "right_context": "abA",
+      "delta_charge": 5,
+      "source_position": 60,
+      "target_position": 15
+    },
+    "6": {
+      "core_length": 14,
+      "left_context": "abA",
+      "source_core": "BaAabAABabABaA",
+      "target_core": "ABabABabAABaAB",
+      "right_context": "abA",
+      "delta_charge": 6,
+      "source_position": 15,
+      "target_position": 60
+    },
+    "7": {
+      "core_length": 16,
+      "left_context": "ABa",
+      "source_core": "ABabABaAabAABaAB",
+      "target_core": "bABaAabAABabABaA",
+      "right_context": "abA",
+      "delta_charge": 7,
+      "source_position": 35,
+      "target_position": 13
+    },
+    "8": {
+      "core_length": 3,
+      "left_context": "abA",
+      "source_core": "ABa",
+      "target_core": "Bab",
+      "right_context": "ABa",
+      "delta_charge": 8,
+      "source_position": 3,
+      "target_position": 11
+    },
+    "9": {
+      "core_length": 9,
+      "left_context": "abA",
+      "source_core": "ABabABabA",
+      "target_core": "BaAabAABa",
+      "right_context": "ABa",
+      "delta_charge": 9,
+      "source_position": 60,
+      "target_position": 26
+    },
+    "10": {
+      "core_length": 3,
+      "left_context": "BaA",
+      "source_core": "Bab",
+      "target_core": "abA",
+      "right_context": "ABa",
+      "delta_charge": 10,
+      "source_position": 7,
+      "target_position": 18
+    }
+  },
+  "minimal_core_lengths": {
+    "1": 3,
+    "2": 9,
+    "3": 3,
+    "4": 16,
+    "5": 14,
+    "6": 14,
+    "7": 16,
+    "8": 3,
+    "9": 9,
+    "10": 3
+  },
+  "scale_transport": {
+    "1": [
+      {
+        "generation": 0,
+        "source_length": 3,
+        "target_length": 3,
+        "delta_charge": 1
+      },
+      {
+        "generation": 1,
+        "source_length": 12,
+        "target_length": 10,
+        "delta_charge": 1
+      },
+      {
+        "generation": 2,
+        "source_length": 43,
+        "target_length": 38,
+        "delta_charge": 1
+      },
+      {
+        "generation": 3,
+        "source_length": 159,
+        "target_length": 139,
+        "delta_charge": 1
+      },
+      {
+        "generation": 4,
+        "source_length": 584,
+        "target_length": 511,
+        "delta_charge": 1
+      }
+    ],
+    "2": [
+      {
+        "generation": 0,
+        "source_length": 9,
+        "target_length": 9,
+        "delta_charge": 2
+      },
+      {
+        "generation": 1,
+        "source_length": 34,
+        "target_length": 32,
+        "delta_charge": 2
+      },
+      {
+        "generation": 2,
+        "source_length": 125,
+        "target_length": 118,
+        "delta_charge": 2
+      },
+      {
+        "generation": 3,
+        "source_length": 459,
+        "target_length": 434,
+        "delta_charge": 2
+      },
+      {
+        "generation": 4,
+        "source_length": 1688,
+        "target_length": 1595,
+        "delta_charge": 2
+      }
+    ],
+    "3": [
+      {
+        "generation": 0,
+        "source_length": 3,
+        "target_length": 3,
+        "delta_charge": 3
+      },
+      {
+        "generation": 1,
+        "source_length": 10,
+        "target_length": 11,
+        "delta_charge": 3
+      },
+      {
+        "generation": 2,
+        "source_length": 38,
+        "target_length": 41,
+        "delta_charge": 3
+      },
+      {
+        "generation": 3,
+        "source_length": 139,
+        "target_length": 150,
+        "delta_charge": 3
+      },
+      {
+        "generation": 4,
+        "source_length": 511,
+        "target_length": 552,
+        "delta_charge": 3
+      }
+    ],
+    "4": [
+      {
+        "generation": 0,
+        "source_length": 16,
+        "target_length": 16,
+        "delta_charge": 4
+      },
+      {
+        "generation": 1,
+        "source_length": 59,
+        "target_length": 58,
+        "delta_charge": 4
+      },
+      {
+        "generation": 2,
+        "source_length": 216,
+        "target_length": 214,
+        "delta_charge": 4
+      },
+      {
+        "generation": 3,
+        "source_length": 795,
+        "target_length": 786,
+        "delta_charge": 4
+      },
+      {
+        "generation": 4,
+        "source_length": 2922,
+        "target_length": 2890,
+        "delta_charge": 4
+      }
+    ],
+    "5": [
+      {
+        "generation": 0,
+        "source_length": 14,
+        "target_length": 14,
+        "delta_charge": 5
+      },
+      {
+        "generation": 1,
+        "source_length": 49,
+        "target_length": 52,
+        "delta_charge": 5
+      },
+      {
+        "generation": 2,
+        "source_length": 182,
+        "target_length": 191,
+        "delta_charge": 5
+      },
+      {
+        "generation": 3,
+        "source_length": 668,
+        "target_length": 702,
+        "delta_charge": 5
+      },
+      {
+        "generation": 4,
+        "source_length": 2456,
+        "target_length": 2581,
+        "delta_charge": 5
+      }
+    ],
+    "6": [
+      {
+        "generation": 0,
+        "source_length": 14,
+        "target_length": 14,
+        "delta_charge": 6
+      },
+      {
+        "generation": 1,
+        "source_length": 52,
+        "target_length": 49,
+        "delta_charge": 6
+      },
+      {
+        "generation": 2,
+        "source_length": 191,
+        "target_length": 182,
+        "delta_charge": 6
+      },
+      {
+        "generation": 3,
+        "source_length": 702,
+        "target_length": 668,
+        "delta_charge": 6
+      },
+      {
+        "generation": 4,
+        "source_length": 2581,
+        "target_length": 2456,
+        "delta_charge": 6
+      }
+    ],
+    "7": [
+      {
+        "generation": 0,
+        "source_length": 16,
+        "target_length": 16,
+        "delta_charge": 7
+      },
+      {
+        "generation": 1,
+        "source_length": 58,
+        "target_length": 59,
+        "delta_charge": 7
+      },
+      {
+        "generation": 2,
+        "source_length": 214,
+        "target_length": 216,
+        "delta_charge": 7
+      },
+      {
+        "generation": 3,
+        "source_length": 786,
+        "target_length": 795,
+        "delta_charge": 7
+      },
+      {
+        "generation": 4,
+        "source_length": 2890,
+        "target_length": 2922,
+        "delta_charge": 7
+      }
+    ],
+    "8": [
+      {
+        "generation": 0,
+        "source_length": 3,
+        "target_length": 3,
+        "delta_charge": 8
+      },
+      {
+        "generation": 1,
+        "source_length": 11,
+        "target_length": 10,
+        "delta_charge": 8
+      },
+      {
+        "generation": 2,
+        "source_length": 41,
+        "target_length": 38,
+        "delta_charge": 8
+      },
+      {
+        "generation": 3,
+        "source_length": 150,
+        "target_length": 139,
+        "delta_charge": 8
+      },
+      {
+        "generation": 4,
+        "source_length": 552,
+        "target_length": 511,
+        "delta_charge": 8
+      }
+    ],
+    "9": [
+      {
+        "generation": 0,
+        "source_length": 9,
+        "target_length": 9,
+        "delta_charge": 9
+      },
+      {
+        "generation": 1,
+        "source_length": 32,
+        "target_length": 34,
+        "delta_charge": 9
+      },
+      {
+        "generation": 2,
+        "source_length": 118,
+        "target_length": 125,
+        "delta_charge": 9
+      },
+      {
+        "generation": 3,
+        "source_length": 434,
+        "target_length": 459,
+        "delta_charge": 9
+      },
+      {
+        "generation": 4,
+        "source_length": 1595,
+        "target_length": 1688,
+        "delta_charge": 9
+      }
+    ],
+    "10": [
+      {
+        "generation": 0,
+        "source_length": 3,
+        "target_length": 3,
+        "delta_charge": 10
+      },
+      {
+        "generation": 1,
+        "source_length": 10,
+        "target_length": 12,
+        "delta_charge": 10
+      },
+      {
+        "generation": 2,
+        "source_length": 38,
+        "target_length": 43,
+        "delta_charge": 10
+      },
+      {
+        "generation": 3,
+        "source_length": 139,
+        "target_length": 159,
+        "delta_charge": 10
+      },
+      {
+        "generation": 4,
+        "source_length": 511,
+        "target_length": 584,
+        "delta_charge": 10
+      }
+    ]
+  },
+  "spectral_moment_records": [
+    {
+      "delta_charge": 8,
+      "core_length": 3,
+      "source_core": "ABa",
+      "target_core": "Bab",
+      "delta_trace_H": "1/5",
+      "delta_trace_H2": "7/25"
+    },
+    {
+      "delta_charge": 3,
+      "core_length": 3,
+      "source_core": "Bab",
+      "target_core": "ABa",
+      "delta_trace_H": "-1/5",
+      "delta_trace_H2": "-7/25"
+    },
+    {
+      "delta_charge": 10,
+      "core_length": 3,
+      "source_core": "Bab",
+      "target_core": "abA",
+      "delta_trace_H": "1/5",
+      "delta_trace_H2": "1/5"
+    },
+    {
+      "delta_charge": 1,
+      "core_length": 3,
+      "source_core": "abA",
+      "target_core": "Bab",
+      "delta_trace_H": "-1/5",
+      "delta_trace_H2": "-1/5"
+    },
+    {
+      "delta_charge": 9,
+      "core_length": 9,
+      "source_core": "ABabABabA",
+      "target_core": "BaAabAABa",
+      "delta_trace_H": "1/5",
+      "delta_trace_H2": "9/25"
+    },
+    {
+      "delta_charge": 2,
+      "core_length": 9,
+      "source_core": "BaAabAABa",
+      "target_core": "ABabABabA",
+      "delta_trace_H": "-1/5",
+      "delta_trace_H2": "-9/25"
+    },
+    {
+      "delta_charge": 5,
+      "core_length": 14,
+      "source_core": "ABabABabAABaAB",
+      "target_core": "BaAabAABabABaA",
+      "delta_trace_H": "3/5",
+      "delta_trace_H2": "21/25"
+    },
+    {
+      "delta_charge": 6,
+      "core_length": 14,
+      "source_core": "BaAabAABabABaA",
+      "target_core": "ABabABabAABaAB",
+      "delta_trace_H": "-3/5",
+      "delta_trace_H2": "-21/25"
+    },
+    {
+      "delta_charge": 3,
+      "core_length": 15,
+      "source_core": "AabAABaABabABaA",
+      "target_core": "bABabAABaABabAB",
+      "delta_trace_H": "-2/5",
+      "delta_trace_H2": "-14/25"
+    },
+    {
+      "delta_charge": 8,
+      "core_length": 15,
+      "source_core": "bABabAABaABabAB",
+      "target_core": "AabAABaABabABaA",
+      "delta_trace_H": "2/5",
+      "delta_trace_H2": "14/25"
+    },
+    {
+      "delta_charge": 7,
+      "core_length": 16,
+      "source_core": "ABabABaAabAABaAB",
+      "target_core": "bABaAabAABabABaA",
+      "delta_trace_H": "2/5",
+      "delta_trace_H2": "12/25"
+    },
+    {
+      "delta_charge": 4,
+      "core_length": 16,
+      "source_core": "bABaAabAABabABaA",
+      "target_core": "ABabABaAabAABaAB",
+      "delta_trace_H": "-2/5",
+      "delta_trace_H2": "-12/25"
+    }
+  ],
+  "residues_with_multiple_spectral_moment_pairs": [
+    3,
+    8
+  ],
+  "classification": {
+    "all_nonzero_z11_residues_localizable": "PROVED_BY_EXPLICIT_EXACT_WITNESSES",
+    "charge_preserved_under_substitution": "PROVED_EXACTLY",
+    "charge_alone_determines_spectral_response": "REFUTED_IN_THE_FIXED_ONSITE_MODEL"
+  },
+  "repo_baseline": "0377952e7c7d2313232fdcd3592c303317a71309",
+  "cell": "Cell 1B \u2014 Localized charge carriers"
+}

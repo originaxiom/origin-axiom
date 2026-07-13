@@ -1,0 +1,9 @@
+charge,inverse_charge,factor_length,background,pair_configuration,first_start,first_end,first_charge,second_start,second_end,second_charge
+1,10,14,ABaAabAABabABa,ABabABaAabAABa,3,6,1,8,10,10
+2,9,37,ABaABabABaAabAABaABabABaAabAABabABabA,ABabAABaABabABabABaAabAABaABabABaAabA,3,24,2,26,33,9
+3,8,13,abABabAABaABa,abAABaABabABa,3,5,3,7,9,8
+4,7,24,abABaAabAABabABabAABaABa,abAABaABabABabABaAabAABa,3,16,4,18,20,7
+7,4,24,abAABaABabABabABaAabAABa,abABaAabAABabABabAABaABa,3,16,7,18,20,4
+8,3,13,abAABaABabABa,abABabAABaABa,3,5,8,7,9,3
+9,2,37,ABabAABaABabABabABaAabAABaABabABaAabA,ABaABabABaAabAABaABabABaAabAABabABabA,3,24,9,26,33,2
+10,1,14,ABabABaAabAABa,ABaAabAABabABa,3,6,10,8,10,1
