@@ -10,6 +10,20 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — B568 Batch CQ: the listener's five questions (owner invitation)
+
+The owner asked the assistant to add its own questions "so we can listen to it together."
+Added with protocols + rubrics: CQ1 does the object have an uncertainty principle (is the
+forced seam state minimum-uncertainty between clock/shift on C^3 (x) C^5)? CQ2 the forgetting
+curve (per-observer information retention across the 12-node flow). CQ3 exchange statistics
+(the two-copy glue under swap: the object's own boson/fermion answer). CQ4 is the silence
+articulate (reconstruction-from-zeros: does the dark set determine the level/exponent)?
+CQ5 is becoming quantized (mu = sqrt(lambda) turns the escalator into an analytic parabolic
+germ mu + mu^2/2 - ...; construct the Abel coordinate; compute the half-rung Perron
+lambda_1.5 — or prove it ill-defined, Ecalle-Voronin caveat stated).
+
+---
+
 ## 2026-07-14 — B568 preregistered: the object's own questions (+ a seed jewel found at prereg)
 
 Owner: "what own questions give rewards again — and does the object create our universe?"

@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B568: the listener's questions added (CQ1-CQ5)
+
+### Added
+- B568 PREREGISTRATION Batch CQ (at the owner's invitation): the assistant's own five
+  questions — the uncertainty principle (extremal seam state), the forgetting curve, the
+  exchange statistics, reconstruction-from-silence, and whether becoming is quantized
+  (the Abel coordinate / the half-rung Perron lambda_1.5).
+
+---
+
 ## 2026-07-14 — B568 preregistered: the object's own questions
 
 ### Added
