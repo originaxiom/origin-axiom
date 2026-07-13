@@ -49,6 +49,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B575 / L51 — THE BRIDGE OBSTRUCTION: Q ≡ 0, 2026-07-14)
+- **The arc's decisive computation, run at owner directive: the quadratic obstruction on the
+  E₆ geometric point vanishes IDENTICALLY** — all 6 diagonal and 15 cross components, exact,
+  every gate green (e₆ closure = 78; the relator → the exact identity; H¹=H²=1 ×6; the m=1
+  control unobstructed). **Every direction — including both θ-odd — is unobstructed at second
+  order. The sixth wall does not exist at this order; rank-≥2 E₆ deformations of the geometric
+  representation exist; the fifth wall was about the point, not the variety.** Adversarially
+  verified (nonzero raw cocycles; constructive correction certificates matching the
+  transvectant channels). **L59 is the program's live question: the deformed closure has
+  exactly two chiral destinations — D₅ or A₅. If D₅: the 16 becomes holonomy-visible.**
+
 ## LAST BANKED (B572–B574 — THREE CHAIN ADJUDICATIONS; THE BRIDGE QUESTION IN FINAL FORM, 2026-07-14)
 - **B572 (the eleven-clause chain):** nine clauses stand (the program's own banks); V1 REFUTED
   (27|principal = V₁₇⊕V₉⊕V₁; corrected tr₂₇ = 647707.5+876344.096i); THE WELD named and locked
