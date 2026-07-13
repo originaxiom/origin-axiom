@@ -166,6 +166,18 @@ arithmetic-CS at p=809 (twisted Rédei gap for 11≡3 mod 4); **N7** B565-T1 cro
 SymTFT claim. Collisions to cite in any bank: Kellendonk coinvariants/BBG gap labels
 (torsion-as-charge), textbook CK K-theory, PCF qualitative collapse (Pink/BGJT).
 
+## The self-interaction gap register (owner question, 2026-07-14 — what the object does to itself that we never measured)
+
+After the gauge arc, the accounted self-interactions: self-substitution (fixed point), self-observation
+(the quine; conserves), self-coupling (the escalator; mints), self-recognition (BbB), the eigenvalue
+self-application (only fixed point = 0), the feedback economy, the 2-cycle's information. UNACCOUNTED
+(H123–H127, each with a computable core): **(1)** the charge tower's own per-rung measurement faces —
+dark hyperbolas at 11/809/18845089, the prime-power (11²) Weil question at rung 4; **(2)** thermal time —
+the Tomita/modular flow of the KMS ladder vs the substitution clock; **(3)** the canonical two-ends
+entanglement (fix B536's convention by the forced seam form); **(4)** second-order measurement (the Weil
+face applied to its own image — the measurement-side conserve-vs-mint); **(5)** defects propagating in the
+object's own 3-manifold geometry (does a defect worldline's homotopy class see ℤ/11?).
+
 ## Standing open threads (B142 inventory — lose nothing)
 
 The bigger open *prizes/threads* (distinct from the per-lead catalog above), with status and cleanest next step:

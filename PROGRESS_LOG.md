@@ -10,6 +10,22 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — the self-interaction gap register (owner question: what's unmeasured?)
+
+Inventoried the object's self-interactions after the gauge arc. Accounted: self-substitution,
+self-observation (quine/conserves), self-coupling (escalator/mints), self-recognition, eigenvalue
+self-application (fixed point only at 0), the feedback economy, the 2-cycle information. NEW
+observation (verified): the charge tower carries its OWN tower of measurement faces — every prime
+rung e_n has a Weil rep on C^{e_n} with its own DARK HYPERBOLA (B534 applies verbatim at 11, 809,
+18845089), and e_4's 11^2 breaks square-freeness exactly where the period-3 return has
+multiplicity 2 — the first prime-power Weil question. Registered as H123 with four more unmeasured
+self-interactions: H124 thermal time (Tomita/modular flow of the KMS ladder — Connes-Rovelli,
+firewalled), H125 the canonical two-ends entanglement (fix B536's convention via the forced seam
+form), H126 second-order measurement (the Weil face on its own image), H127 defects in the object's
+own geometry (does a defect worldline's homotopy class see Z/11?). OPEN_LEADS register added.
+
+---
+
 ## 2026-07-14 — the three papers DRAFTED + finalized (PC23/PC24/PC25 banked)
 
 Three writer agents (repo FINDINGS = source of truth, status labels mandatory) + three checker
