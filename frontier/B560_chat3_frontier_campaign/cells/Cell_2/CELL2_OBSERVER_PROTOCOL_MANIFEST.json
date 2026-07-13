@@ -1,0 +1,41 @@
+{
+  "scope": "Frontier campaign Cell 2",
+  "file_count": 7,
+  "files": [
+    {
+      "path": "CELL2_OBSERVER_PROTOCOL_FINDINGS.md",
+      "size_bytes": 5513,
+      "sha256": "94f4caa7aa5010d9b9a8d4d37ca601c0900f8aacb42ac17aa7309455e697aba7"
+    },
+    {
+      "path": "CELL2_OBSERVER_PROTOCOL_CERTIFICATE.json",
+      "size_bytes": 589334,
+      "sha256": "b41fa51a82862cc6168cd8d0cada622aada8d4086d4fc8b70dcde78dc1ff7fa8"
+    },
+    {
+      "path": "cell2_observer_protocols.py",
+      "size_bytes": 15100,
+      "sha256": "cd40859dd1e3f11f849c3ff8896675a1b291098f041692850b87047d9d2d44eb"
+    },
+    {
+      "path": "test_cell2_observer_protocols.py",
+      "size_bytes": 2005,
+      "sha256": "3b875f4da2ec7cd40bf34ff176fcffd11299e8125a0ac4eaa183b8ef6e75a308"
+    },
+    {
+      "path": "cell2_protocol_summary.csv",
+      "size_bytes": 691,
+      "sha256": "aaebaa5f5b962bec4671832faaf46d0bae313c465020533226295abb666d6512"
+    },
+    {
+      "path": "cell2_protocol_edges_k1_k3.csv",
+      "size_bytes": 676,
+      "sha256": "31362fa81c3d93068ce641903e0501ee05dd236adbc4c48c2e65dc8cb89336f6"
+    },
+    {
+      "path": "FRONTIER_CAMPAIGN_PROGRESS.json",
+      "size_bytes": 713,
+      "sha256": "84d749daa2c8fae4a0c97aecc3db8ad00d2815476e39bde8b0a29c32ea296ba1"
+    }
+  ]
+}

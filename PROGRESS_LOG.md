@@ -10,6 +10,30 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — chat-3 frontier campaign (cells 1-4) verified + integrated (B560)
+
+Processed a cross-seat (chat-3) certificate-driven campaign of six cells, verify-don't-trust.
+All 26 of chat-3's cell tests pass in-sandbox; the headline claims independently re-derived
+(tests/test_b560_chat3.py, 3 locks). Integrated under B560 (cherry-pick + re-verify, not merge).
+- Cell 1: SNF(I-M4)=diag(1,1,1,11), chi=(1,3,6,7) left-fixed mod 11 — re-confirms B552.
+- Cell 1B (NEW): every nonzero Z/11 class has a finite localized carrier (defect pair, equal
+  3-context + core length); first-core map reproduced EXACTLY {1:3,2:9,3:3,4:16,5:14,6:14,7:16,
+  8:3,9:9,10:3}.
+- Cell 1C (NEW): exact defect kinematics — depth-stabilized factor census of sigma^10(a).
+- Cell 2: prefix-independent EXACT edge certification — the B540 derived-graph is intrinsic
+  (rigor upgrade to B540).
+- Cell 3 (NEW): certified fixed-character LOCAL atlas — 253 points (247 irred + 6 red), 246
+  Krawczyk boxes + 1 trace-zero double point (O-hat = C[[e]]/(e^2)), length >= 248; GLOBAL
+  completeness OPEN. Connects to B532/S031a.
+- Cell 4 (NEW/strengthening): the degree-4 frequency module is EXACTLY Z[tau] (tau=sqrt phi,
+  tau^4-tau^2-1=0): f_a=tau-1, f_b=tau^3-tau^2-tau+1, f_A=tau^2-tau, f_B=-tau^3+tau+1 —
+  Perron eigenvector, generates Z[tau] (det 1). Strengthens B535/B546. Plus two self-corrections
+  (distance-from-golden-module not a discriminator since Z+Z/phi dense; infinite-volume gap-
+  opening not proved) — both ALIGN with the repo's existing PC23/B555 honest framing.
+Open (carried, not claimed): Cell 3 global count; Cell 4 infinite-volume gap-opening theorem. 3 locks.
+
+---
+
 ## 2026-07-13 — tower-probe campaign: P-E and E4 re-run (the two dead stubs)
 
 The campaign's P-E/E4 agents returned placeholder stubs; both re-computed in-sandbox

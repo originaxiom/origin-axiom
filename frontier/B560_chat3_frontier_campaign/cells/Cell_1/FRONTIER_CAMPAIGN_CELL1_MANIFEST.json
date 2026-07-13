@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-07-12T19:02:01.872065+00:00",
+  "scope": "Frontier campaign master plan and all Cell 1 charge-transport artifacts",
+  "file_count": 7,
+  "files": [
+    {
+      "path": "FRONTIER_CAMPAIGN_MASTER_PLAN.md",
+      "size_bytes": 5961,
+      "sha256": "e032d4b818b4c4213a6c8a0db6ab092f4b63be91343303b69e44c048c0c560fd"
+    },
+    {
+      "path": "CELL1_CHARGE_TRANSPORT_FINDINGS.md",
+      "size_bytes": 4963,
+      "sha256": "a73526642f8d52d692e0a8fc988372bbeb13c8b6f9d039a9c8f9007a8110f32e"
+    },
+    {
+      "path": "CELL1_CHARGE_TRANSPORT_CERTIFICATE.json",
+      "size_bytes": 8721,
+      "sha256": "0aedc326431b816edfb5d6064e3650d6e1353279eeda6e3ab946a8ccaa544bb0"
+    },
+    {
+      "path": "cell1_charge_transport.py",
+      "size_bytes": 10599,
+      "sha256": "8d7b7a7e6bcd8b285b0528634c1f38f9bda982b108c7aac653004c105fb5cf99"
+    },
+    {
+      "path": "test_cell1_charge_transport.py",
+      "size_bytes": 1224,
+      "sha256": "c6f6d80a26b87f1b8f7f2480e3ee8c8d5dcbde70b6644179a8753e38a3a3b008"
+    },
+    {
+      "path": "cell1_charge_nodes.csv",
+      "size_bytes": 654,
+      "sha256": "a62b9ed31f807ed8bb132aa10262f2b546d8573de931016be1dc103bed73af08"
+    },
+    {
+      "path": "cell1_charge_edges.csv",
+      "size_bytes": 908,
+      "sha256": "20930b41191c144bdd4f44ad4f0933ced8fba697c329884dafc03d29bbc19dcf"
+    }
+  ]
+}

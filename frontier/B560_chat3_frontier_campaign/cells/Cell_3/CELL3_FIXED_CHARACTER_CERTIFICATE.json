@@ -1,0 +1,58 @@
+{
+  "cell": "Cell 3 \u2014 Fixed-character local atlas and completeness gate",
+  "repo_head_at_start": "383d20f97f83c1453103e38797a2b2690d9b1135",
+  "numerical_discovery": {
+    "standard_random_starts": 6000,
+    "wide_random_starts": 3600,
+    "total_random_starts": 9600,
+    "successful_standard_solves": 3474,
+    "successful_wide_solves": 1469,
+    "total_successful_solves": 4943,
+    "last_new_support_point_at_start": 7800,
+    "final_no_new_point_window": 1800,
+    "recovered_support_points": 253,
+    "recovered_irreducible_support_points": 247,
+    "exact_reducible_support_points": 6,
+    "tracezero_cloud_collapsed_to_exact_double_point": true
+  },
+  "local_certification": {
+    "interval_krawczyk_reduced_irreducible_points": 246,
+    "exact_tracezero_nonreduced_double_points": 1,
+    "irreducible_support_points_certified": 247,
+    "irreducible_scheme_length_lower_bound": 248,
+    "maximum_krawczyk_ratio": "9.71533982935817620581351651463E-13",
+    "krawczyk_radii": [
+      "1.0e-18",
+      "1.0e-22"
+    ],
+    "all_interval_points_irreducible": true
+  },
+  "reducible_exact_classification": {
+    "eigencharacter_group": "mu_11",
+    "weyl_quotient": "mu_11/{m ~ -m}",
+    "semisimple_character_count": 6,
+    "exact_support_classification": "PROVED",
+    "transverse_local_fixed_scheme": "NOT_FULLY_CERTIFIED"
+  },
+  "observable_separation": {
+    "kappa_ab_rectangles_pairwise_disjoint": true,
+    "minimum_numerical_kappa_ab_center_gap": 0.007628205499035978,
+    "kappa_ab_set_theoretically_separates_all_247_recovered_irducibles": true,
+    "tracezero_d_kappa_all_pairs": "0",
+    "tracezero_d_trace_a": "-3*sqrt(3)*I/2",
+    "pair_kappa_ab_trace_a_separates_all_253_recovered_support_points": true,
+    "pair_detects_tracezero_nilpotent_tangent": true
+  },
+  "global_completeness": {
+    "status": "OPEN_BLOCKED",
+    "reason": "No exact elimination degree, mixed-volume path count, or Lefschetz/intersection upper bound of 253 has been obtained.",
+    "what_is_proved": "At least 247 irreducible support points exist: 246 reduced simple points and one isolated nonreduced double point. Six semisimple reducible support characters are exact.",
+    "what_is_not_proved": "There are no additional fixed characters outside the certified boxes."
+  },
+  "classification": {
+    "complete_fixed_character_scheme": "BLOCKED_BY_GLOBAL_DEGREE_CERTIFICATE",
+    "certified_local_atlas": "COMPLETE_FOR_ALL_253_RECOVERED_SUPPORT_POINTS_AT_STATED_LEVELS",
+    "single_observable_irreducible_identification": "KAPPA_AB",
+    "scheme_sensitive_observable_pair": "(KAPPA_AB, TRACE_A)"
+  }
+}

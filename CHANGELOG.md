@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — chat-3 frontier campaign verified + integrated (B560)
+
+### Added
+- frontier/B560_chat3_frontier_campaign/: six certificate-driven cells (1,1B,1C,2,3,4), all
+  26 cell tests passing; headline claims independently re-verified. NEW: localized Z/11 carriers
+  (Cell 1B, exact first-core map), defect kinematics (1C), prefix-independent edge certification
+  of the B540 graph (Cell 2), the certified fixed-character local atlas of 253 points (Cell 3,
+  global count open), and the exact Z[tau] frequency module (Cell 4, strengthens B535/B546).
+  Cell 1 re-confirms B552. Firewall-clean; nothing to CLAIMS.md.
+- tests/test_b560_chat3.py (3 independent locks: Z/11 charge, Z[tau] module, localized carriers).
+
+---
+
 ## 2026-07-13 — tower-probe campaign: P-E and E4 re-run
 
 ### Added

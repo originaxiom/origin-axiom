@@ -1,0 +1,87 @@
+{
+  "scope": "Frontier campaign Cell 3",
+  "repo_head": "383d20f97f83c1453103e38797a2b2690d9b1135",
+  "file_count": 16,
+  "files": [
+    {
+      "path": "CELL3_FIXED_CHARACTER_ATLAS_FINDINGS.md",
+      "size_bytes": 4836,
+      "sha256": "5d5d1daf4fbe0f6650a7687ae3f7f0ef37e1fc472c6da806b995571cdbe64b05"
+    },
+    {
+      "path": "CELL3_FIXED_CHARACTER_CERTIFICATE.json",
+      "size_bytes": 2605,
+      "sha256": "300cec2931e7581b41ef494ab3252546b02e01e5ee29f73578948874dfdc738a"
+    },
+    {
+      "path": "CELL3_RECOVERED_ROOTS.json",
+      "size_bytes": 908140,
+      "sha256": "3375cf8aed8a21a343fe4bb4800c34b23d940bbcf473897a9aa9c38912c4a60f"
+    },
+    {
+      "path": "CELL3_INTERVAL_CERTIFICATES.json",
+      "size_bytes": 1675626,
+      "sha256": "9f204282fed0521e0fa50d83140891ffe4131695b50719411329093e9ea3b15e"
+    },
+    {
+      "path": "cell3_fixed_character_atlas.csv",
+      "size_bytes": 128334,
+      "sha256": "67a60d661bfb793e53c6b9ae6c3def576654b77f5000abd99368c97db7139af8"
+    },
+    {
+      "path": "cell3_kappa_ab_intervals.csv",
+      "size_bytes": 94781,
+      "sha256": "77d2074117e515008e0bc5e8bc78f9350518ae85ae680e4a5ea5c0bf32fef2fe"
+    },
+    {
+      "path": "cell3_reducible_characters.csv",
+      "size_bytes": 835,
+      "sha256": "03094229ba89d6eea07bec21073547244e34d38044ed8d6ddeaf133418afb1d7"
+    },
+    {
+      "path": "cell3_discovery_progress.csv",
+      "size_bytes": 806,
+      "sha256": "09955ee57375d5e2b335632891f34c203e21fd74dcab5d544607580ed19a4a99"
+    },
+    {
+      "path": "cell3_special_points_exact.py",
+      "size_bytes": 1065,
+      "sha256": "cb738ae6274bed5d6ce1f78fd3bb36945c895b90521c32110b89d566e13f3f10"
+    },
+    {
+      "path": "cell3_interval_certificate.py",
+      "size_bytes": 3893,
+      "sha256": "d38d4fefc7ba9be7ba92091edf684cd9b62726057af2490f61574010559e3772"
+    },
+    {
+      "path": "generic_observer_fixed_point_certificate.py",
+      "size_bytes": 12984,
+      "sha256": "8e33e61436905d32134b06ad3be36f354b74cc727f1d6492acf6ee501e4ec899"
+    },
+    {
+      "path": "observer_fixed_point_exact.py",
+      "size_bytes": 10031,
+      "sha256": "5d87cd9efcfbc7720c2389fd39c84a2ea5d37a3f3085c0d3a5f9af271957dfa0"
+    },
+    {
+      "path": "OBSERVER_FIXED_POINT_CERTIFICATE.md",
+      "size_bytes": 7278,
+      "sha256": "0ea1294e588452b5066fd7863ce6078122c1a5d6a4390325bcb2a711dc1f082e"
+    },
+    {
+      "path": "OBSERVER_FIXED_POINT_CERTIFICATE_PACKAGE.zip",
+      "size_bytes": 10187,
+      "sha256": "834e24e349646d96257121033df7fecefe82147f9c9e6879d255fcb64d743166"
+    },
+    {
+      "path": "test_cell3_fixed_character_atlas.py",
+      "size_bytes": 2021,
+      "sha256": "eb826e13d5df8a4759b7423f3aa3bf82d83f01be6ba80c8c55f4a36bf026b011"
+    },
+    {
+      "path": "FRONTIER_CAMPAIGN_PROGRESS.json",
+      "size_bytes": 1030,
+      "sha256": "fadfe9bb257e7884d6a893e12cbf9b47587b69c2d7623d587138459e91632497"
+    }
+  ]
+}

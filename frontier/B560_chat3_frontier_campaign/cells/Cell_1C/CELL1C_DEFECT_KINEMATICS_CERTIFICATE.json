@@ -1,0 +1,206 @@
+{
+  "cell": "Cell 1C \u2014 Defect kinematics",
+  "repo_head_at_start": "22f7ee4ab59299970ee6db454f93816982e50fce",
+  "definition": {
+    "context_radius": 3,
+    "motion": "For one legal background with fixed three-letter outer contexts, two legal alternatives each have one contiguous difference component of the same charge at different positions.",
+    "annihilation": "A legal alternative differs from a legal background in two separated components with charges q and -q.",
+    "fusion": "Relative to one legal background, one legal alternative has two separated components q1,q2 and another has one component q1+q2."
+  },
+  "finite_census": {
+    "maximum_factor_length": 500,
+    "depth_9_to_10_stable_length_count": 494,
+    "factor_count_at_length_500": 1699,
+    "motion_witness_count": 0,
+    "annihilation_oriented_charge_count": 8,
+    "fusion_channel_count": 2
+  },
+  "motion_witnesses": [],
+  "annihilation_witnesses": [
+    {
+      "charge": 1,
+      "factor_length": 14,
+      "background": "ABaAabAABabABa",
+      "pair_configuration": "ABabABaAabAABa",
+      "first_component": {
+        "start": 3,
+        "end": 6,
+        "charge": 1
+      },
+      "second_component": {
+        "start": 8,
+        "end": 10,
+        "charge": 10
+      }
+    },
+    {
+      "charge": 2,
+      "factor_length": 37,
+      "background": "ABaABabABaAabAABaABabABaAabAABabABabA",
+      "pair_configuration": "ABabAABaABabABabABaAabAABaABabABaAabA",
+      "first_component": {
+        "start": 3,
+        "end": 24,
+        "charge": 2
+      },
+      "second_component": {
+        "start": 26,
+        "end": 33,
+        "charge": 9
+      }
+    },
+    {
+      "charge": 3,
+      "factor_length": 13,
+      "background": "abABabAABaABa",
+      "pair_configuration": "abAABaABabABa",
+      "first_component": {
+        "start": 3,
+        "end": 5,
+        "charge": 3
+      },
+      "second_component": {
+        "start": 7,
+        "end": 9,
+        "charge": 8
+      }
+    },
+    {
+      "charge": 4,
+      "factor_length": 24,
+      "background": "abABaAabAABabABabAABaABa",
+      "pair_configuration": "abAABaABabABabABaAabAABa",
+      "first_component": {
+        "start": 3,
+        "end": 16,
+        "charge": 4
+      },
+      "second_component": {
+        "start": 18,
+        "end": 20,
+        "charge": 7
+      }
+    },
+    {
+      "charge": 7,
+      "factor_length": 24,
+      "background": "abAABaABabABabABaAabAABa",
+      "pair_configuration": "abABaAabAABabABabAABaABa",
+      "first_component": {
+        "start": 3,
+        "end": 16,
+        "charge": 7
+      },
+      "second_component": {
+        "start": 18,
+        "end": 20,
+        "charge": 4
+      }
+    },
+    {
+      "charge": 8,
+      "factor_length": 13,
+      "background": "abAABaABabABa",
+      "pair_configuration": "abABabAABaABa",
+      "first_component": {
+        "start": 3,
+        "end": 5,
+        "charge": 8
+      },
+      "second_component": {
+        "start": 7,
+        "end": 9,
+        "charge": 3
+      }
+    },
+    {
+      "charge": 9,
+      "factor_length": 37,
+      "background": "ABabAABaABabABabABaAabAABaABabABaAabA",
+      "pair_configuration": "ABaABabABaAabAABaABabABaAabAABabABabA",
+      "first_component": {
+        "start": 3,
+        "end": 24,
+        "charge": 9
+      },
+      "second_component": {
+        "start": 26,
+        "end": 33,
+        "charge": 2
+      }
+    },
+    {
+      "charge": 10,
+      "factor_length": 14,
+      "background": "ABabABaAabAABa",
+      "pair_configuration": "ABaAabAABabABa",
+      "first_component": {
+        "start": 3,
+        "end": 6,
+        "charge": 10
+      },
+      "second_component": {
+        "start": 8,
+        "end": 10,
+        "charge": 1
+      }
+    }
+  ],
+  "fusion_witnesses": [
+    {
+      "first_charge": 3,
+      "second_charge": 9,
+      "total_charge": 1,
+      "factor_length": 41,
+      "background": "ABaAabAABabABaAabAABaABabABaAabAABabABabA",
+      "split_configuration": "ABabABabAABaABabABabABaAabAABaABabABaAabA",
+      "fused_configuration": "ABaABabABabABaAabAABaABabABaAabAABabABabA",
+      "first_split_component": {
+        "start": 3,
+        "end": 28,
+        "charge": 3
+      },
+      "second_split_component": {
+        "start": 30,
+        "end": 37,
+        "charge": 9
+      },
+      "fused_component": {
+        "start": 4,
+        "end": 6,
+        "charge": 1
+      }
+    },
+    {
+      "first_charge": 10,
+      "second_charge": 3,
+      "total_charge": 2,
+      "factor_length": 28,
+      "background": "ABaABabABaAabAABaABabABaAabA",
+      "split_configuration": "ABaAabAABabABabAABaABabABabA",
+      "fused_configuration": "ABabAABaABabABabABaAabAABabA",
+      "first_split_component": {
+        "start": 4,
+        "end": 6,
+        "charge": 10
+      },
+      "second_split_component": {
+        "start": 10,
+        "end": 24,
+        "charge": 3
+      },
+      "fused_component": {
+        "start": 3,
+        "end": 24,
+        "charge": 2
+      }
+    }
+  ],
+  "classification": {
+    "strict_translation_channel_through_length_500": "NOT_OBSERVED_IN_EXHAUSTIVE_STABILIZED_FINITE_CENSUS",
+    "neutral_pair_creation_annihilation": "EXPLICIT_EXACT_WITNESSES_FOR_4_OF_5_INVERSE_PAIRS",
+    "missing_inverse_pair": "5_PLUS_6_NOT_OBSERVED_THROUGH_LENGTH_500",
+    "fusion_splitting": "TWO_EXPLICIT_EXACT_ORDERED_CHANNELS",
+    "canonical_time_dynamics_from_sigma": "ABSENT_FROM_THIS_STATIC_LANGUAGE_CONSTRUCTION"
+  }
+}

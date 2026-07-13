@@ -1,0 +1,41 @@
+{
+  "repo_head_at_latest_sync": "383d20f97f83c1453103e38797a2b2690d9b1135",
+  "campaign": "Charge, Observer, Measurement",
+  "completed": [
+    {
+      "cell": "1",
+      "status": "COMPLETE",
+      "title": "Universal Z/11 charge transport"
+    },
+    {
+      "cell": "1B",
+      "status": "COMPLETE",
+      "title": "Localized charge carriers"
+    },
+    {
+      "cell": "1C",
+      "status": "COMPLETE",
+      "title": "Defect kinematics"
+    },
+    {
+      "cell": "2",
+      "status": "COMPLETE",
+      "title": "Observer-flow protocol dependence"
+    },
+    {
+      "cell": "3",
+      "status": "BLOCKED_WITH_CERTIFIED_LOCAL_ATLAS",
+      "title": "Fixed-character scheme"
+    },
+    {
+      "cell": "4",
+      "status": "EXPERIMENT_READY_WITH_OPEN_THEOREM_GATE",
+      "title": "Degree-4 spectral robustness",
+      "verdict": "EXACT_MODULE_PLUS_FINITE_N_ROBUSTNESS"
+    }
+  ],
+  "next": {
+    "cell": "5",
+    "title": "Ghost scanner completion"
+  }
+}

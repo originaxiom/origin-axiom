@@ -1,0 +1,52 @@
+{
+  "scope": "Frontier campaign Cell 4",
+  "repo_head_at_start": "383d20f97f83c1453103e38797a2b2690d9b1135",
+  "file_count": 9,
+  "files": [
+    {
+      "path": "CELL4_SPECTRAL_ROBUSTNESS_FINDINGS.md",
+      "size_bytes": 7182,
+      "sha256": "7463b021407d48c51400c6190f3ce896043e689ae58dc12e4eab467ee508277b"
+    },
+    {
+      "path": "CELL4_SPECTRAL_ROBUSTNESS_CERTIFICATE.json",
+      "size_bytes": 8990,
+      "sha256": "29dc12806eb291b640210ce52d9ee01a1e24d3b962f46a47d9b6fb91a79d1340"
+    },
+    {
+      "path": "cell4_spectral_robustness.py",
+      "size_bytes": 17713,
+      "sha256": "95ce9c35944a8f8edcca50b1f57317de6c9485121959406e9464d279feeb75d3"
+    },
+    {
+      "path": "test_cell4_spectral_robustness.py",
+      "size_bytes": 2198,
+      "sha256": "bf21e362bed487cbe584af270e6ba044881c3220163a494e99b1f18ba922d7a0"
+    },
+    {
+      "path": "cell4_coupling_chamber.csv",
+      "size_bytes": 114350,
+      "sha256": "709e038e7661f363cd26b521838cf0006d306123552706734c06986a8c636128"
+    },
+    {
+      "path": "cell4_finite_size.csv",
+      "size_bytes": 4888,
+      "sha256": "d08000576bd07cd675d154d12a201fe145d067e4552c9cc1d4f74d792e748484"
+    },
+    {
+      "path": "cell4_golden_control.csv",
+      "size_bytes": 1731,
+      "sha256": "93c6398bf68aa80dd6f70235b3eb9a8e82c3236a01e05bcd0f5520dc29cf6455"
+    },
+    {
+      "path": "cell4_center_gap_margins.csv",
+      "size_bytes": 230,
+      "sha256": "59f148578ed4282b2f67e0aa981716e99934ba4599fca2fb72330166427d3355"
+    },
+    {
+      "path": "FRONTIER_CAMPAIGN_PROGRESS_CELL4.json",
+      "size_bytes": 959,
+      "sha256": "07ab5cb9facf6359817793cb0ff2e2a5839d2b631732afd86992eac696819e79"
+    }
+  ]
+}

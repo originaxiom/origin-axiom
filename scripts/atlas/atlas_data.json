@@ -11382,6 +11382,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B560": {
+   "slug": "chat3 frontier campaign",
+   "motifs": [
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B532",
+    "B535",
+    "B540",
+    "B546",
+    "B552",
+    "B555"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B56": {
    "slug": "figure eight invariant surface",
    "motifs": [
