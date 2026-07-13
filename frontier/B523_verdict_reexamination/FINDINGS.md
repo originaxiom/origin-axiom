@@ -127,3 +127,29 @@ UNTESTED-RESIDUAL (C3/Malament) run and CONFIRMS the negative; the proposed Leve
 on a non-automorphism and opens no door as stated. One structural nugget banked (causal ⟺ evolution verb),
 firewalled. Lock: `tests/test_b523.py`. Cross-refs: [[B517]] (SIGNATURE_HUNT / C1), [[B497]] (the four
 verbs), [[B521]] (audit corroboration), [[K025]] (the value-free theorem), P015/P016 (the reading).
+
+## Addendum (chat-1 Session-4 Door 2, verified 2026-07-13): the amphichiral mapping-torus argument
+
+chat-1 re-approached the (3,1) question via the amphichiral mapping torus
+M₃ ⋊_τ S¹ and reached the SAME verdict as B523 from a different angle: **the
+4-manifold and the 3+1 topological split are forced; the Lorentzian metric is
+NOT.** Recorded, with one **corrected mechanism** (verify-don't-trust,
+`tests/test_b523.py::test_amphichiral_involution`):
+
+- **chat-1's C2 is wrong as stated.** A₁ = [[2,1],[1,1]] is symmetric ✓, but
+  **J = [[0,1],[1,0]] does NOT commute with A₁** (JA₁=[[1,1],[2,1]] ≠
+  A₁J=[[1,2],[1,1]]), and J does not conjugate A₁ to A₁⁻¹ either. The involution
+  (x,t)→(Jx,−t) it was meant to define is therefore not well-defined on the
+  mapping torus (that needs C·A₁·C⁻¹ = A₁⁻¹).
+- **The amphichirality is real; the correct matrix is C = [[1,0],[−1,−1]]**
+  (det = −1, orientation-reversing): C·A₁·C⁻¹ = A₁⁻¹ exactly. A₁ ~ A₁⁻¹ (same
+  char poly, tr 3 det 1) — the figure-eight's amphichirality holds independent
+  of chat-1's slip.
+- **Metric assessment (CC task, bounded).** χ = σ = 0 is **automatic** for any
+  4-dim mapping torus (χ = χ(fiber)·χ(S¹) = 0; σ = 0 by Novikov) — it is
+  *consistent with* Lorentzian, not *evidence for* it. The open reduction: does
+  M₃ ⋊_τ S¹ admit a natural Lorentzian/Einstein metric? — genuinely
+  NEEDS-SPECIALIST (Lorentzian mapping tori / Thurston geometry). B523 already
+  showed the (3,1) cone is **evolution-verb-only and generic**, so no
+  object-specific metric is forced. **STAGE built, SCRIPT not** — Door 2 stays
+  the live door, exactly as chat-1 concluded.

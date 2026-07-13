@@ -10,6 +10,30 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — chat-1 Session-4 handoff verified: the factor complexity, Door 2, and one matrix bug
+
+Processed chat-1's Session-4 handoff (Door 2 / Big Bang / vertex measurement) verify-don't-trust.
+Independently re-derived every checkable claim (9 locks: test_b535_factor_complexity.py + a new
+test_b523.py::test_amphichiral_involution):
+- **B1/B2/B3/D re-confirmed:** charge conservation Q(σx)≡Q(x) mod 11 (q=(1,3,6,7) is a left-
+  eigenvector mod 11); rational vertex frequencies f_a=1/|image| (= the quine seed-invariant);
+  the four images use 5 of 7 adjacencies with {Aa,Ba} emergent at composition; the charge cubic
+  det(g(Mₙ))=e_{n+1}.
+- **B4 VERIFIED + clarified:** the factor complexity is p(1..7)=4,7,10,13,**17**,20,23 (a +4 jump at
+  n=5). p(5)=17 is exactly B535's C1 "analyzed" column, and the census saturates precisely at the
+  length where p jumps. BUT the "17 length-5 factors = 17 coupling components" identity is FALSE:
+  two different 17s — 17 factor-WORDS vs 17 algebraic component-VALUES (B542: 5+6+1+5). A count
+  coincidence at the saturation length, NOT a bijection. (Answers chat-1's own "if not, explain.")
+- **C2 CORRECTED (verify-don't-trust):** chat-1's "J=[[0,1],[1,0]] commutes with A₁" is FALSE
+  (JA₁≠A₁J; J also doesn't conjugate A₁→A₁⁻¹). Amphichirality is real (A₁~A₁⁻¹); the correct
+  orientation-reversing involution is C=[[1,0],[−1,−1]] (C·A₁·C⁻¹=A₁⁻¹, det −1). Door 2 verdict
+  unaffected.
+- **Door 2 assessment (CC task):** OPEN/NEEDS-SPECIALIST. χ=σ=0 is automatic for any 4-mfld mapping
+  torus (not evidence for Lorentzian); B523 already found the (3,1) cone evolution-verb-only and
+  generic. STAGE built, SCRIPT not — Door 2 stays the live door, as chat-1 concluded. 9 locks.
+
+---
+
 ## 2026-07-13 — the feedback ledger (chat-2 handoff): the charge as the residue of self-reference
 
 Processed chat-2's "did we study the feedback AS feedback?" handoff verify-don't-trust. Every

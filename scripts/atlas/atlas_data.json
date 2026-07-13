@@ -10636,6 +10636,7 @@
     "trace_map",
     "kappa",
     "golden",
+    "amphichiral_cp",
     "torsion",
     "wrt_quantum",
     "lorentzian",
@@ -10655,9 +10656,9 @@
     "P016"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 16,
+   "obstacle_conf": 21,
    "status": "dead",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B524": {
    "slug": "iwip and higher ptolemy",
@@ -10929,6 +10930,7 @@
     "golden"
    ],
    "refs": [
+    "B4",
     "B530",
     "B533",
     "B540",

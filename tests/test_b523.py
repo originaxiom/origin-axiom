@@ -110,3 +110,19 @@ def test_corrected_substitution_is_an_automorphism_surjective_hopfian():
     b = red(inv(a) + red(ga + inv(be)) + a)            # b = a^-1 (gamma beta^-1) a
     assert a == ['a'] and b == ['b'] and A == ['A'] and B == ['B']  # all gens in im(phi)
     # => phi surjective => (F4 Hopfian) phi in Aut(F4).  Only iwip stays open (Bestvina-Handel).
+
+
+def test_amphichiral_involution():
+    """Door 2 / chat-1 C2 correction: J=[[0,1],[1,0]] does NOT commute with
+    A1=[[2,1],[1,1]] (nor conjugate it to A1^-1); the correct orientation-
+    reversing involution is C=[[1,0],[-1,-1]] with C A1 C^-1 = A1^-1."""
+    A1 = np.array([[2, 1], [1, 1]])
+    assert np.array_equal(A1, A1.T)                      # A1 symmetric (chat-1 right)
+    J = np.array([[0, 1], [1, 0]])
+    assert not np.array_equal(J @ A1, A1 @ J)            # J does NOT commute (chat-1 wrong)
+    A1inv = np.array([[1, -1], [-1, 2]])                 # det A1 = 1
+    assert np.array_equal(A1 @ A1inv, np.eye(2, dtype=int))
+    assert not np.array_equal(J @ A1 @ J, A1inv)         # J does not give A1^-1 either
+    C = np.array([[1, 0], [-1, -1]])
+    assert round(np.linalg.det(C)) == -1                 # orientation-reversing
+    assert np.array_equal(C @ A1 @ np.linalg.inv(C).round().astype(int), A1inv)  # correct involution
