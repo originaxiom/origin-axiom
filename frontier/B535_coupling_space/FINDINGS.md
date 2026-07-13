@@ -122,3 +122,31 @@ finite-matrix-lift formulation + the exact '2 of 17,280' count appear novel-as-
 stated but were not found stated in the corpus; any write-up must cite the
 rigidity parents and claim only the formulation. NEEDS-SPECIALIST. See
 B540/LIT_GATE.md.
+
+## Addendum (chat-1 Session-4 B4, verified 2026-07-13): the factor complexity, and the "two 17s"
+
+chat-1 asked whether the "17 length-5 factors ARE the 17 coupling components."
+Computed the factor complexity of the 4-letter Fibonacci word directly (σ⁸
+prefix, 44,368 letters; `tests/test_b535_factor_complexity.py`):
+
+  p(1..7) = 4, 7, 10, 13, **17**, 20, 23   (first differences 3,3,3,**4**,3,3)
+
+**VERIFIED — p(5) = 17.** This is exactly the "analyzed" column of the C1 census
+table above: the 17 is the number of length-5 factor windows, and the +4 jump at
+n=5 (one extra bispecial factor) is what first admits the 6th Perron type (the
+q=2 window 'bABab', length 5) — i.e. **the coupling census saturates precisely at
+the length where p(n) jumps.** That much is a clean, real combinatorial fact.
+
+**NOT a bijection — the identity does NOT hold (answers chat-1's "if not").**
+There are **two different 17s**:
+- the 17 length-5 **factor-words** (abAAB, aABab, …) — combinatorial objects;
+- the 17 dictionary **components** (B542) — distinct *algebraic values* in ℚ(τ):
+  5 (τ^a(τ−1), a=−2…2) + 6 (τ^a(τ−1)², a=0…5) + 1 (τ⁻⁵) + 5 (π-fringe) = 17.
+
+The 17 factor-words saturate to 6 Perron types / 7 canonical systems; the 17
+component-values are the values those systems carry. No natural map sends a
+length-5 word to a single component-value (17 words → 7 systems, not 17). So
+**the "17 = 17" is a count coincidence at the saturation length, not a structural
+identity** — the dictionary's combinatorial origin is the *saturation length*
+(5), not a factor-to-component bijection. Recorded so the coincidence is not
+re-promoted to "clean combinatorial origin."

@@ -6,6 +6,24 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — chat-1 Session-4 handoff verified (factor complexity, Door 2)
+
+### Added
+- B535 FINDINGS addendum: the factor complexity p(1..7)=4,7,10,13,17,20,23; p(5)=17
+  verified (= the C1 census "analyzed" count at the saturation length), and the
+  "two 17s" clarification — 17 factor-WORDS ≠ 17 component-VALUES (count coincidence,
+  not a bijection).
+- B523 FINDINGS addendum: the amphichiral mapping-torus argument reaches B523's verdict
+  (STAGE built, metric OPEN) from another angle; Door 2 metric = NEEDS-SPECIALIST.
+- tests/test_b535_factor_complexity.py (2 locks); tests/test_b523.py::test_amphichiral_involution.
+
+### Fixed
+- chat-1's C2 matrix claim: J=[[0,1],[1,0]] does NOT commute with A₁=[[2,1],[1,1]]
+  (nor conjugate it to A₁⁻¹). Correct orientation-reversing involution: C=[[1,0],[−1,−1]],
+  C·A₁·C⁻¹=A₁⁻¹, det −1. (Handoff-only claim; not previously in the repo.)
+
+---
+
 ## 2026-07-13 — the feedback ledger (chat-2 handoff, verified)
 
 ### Added
