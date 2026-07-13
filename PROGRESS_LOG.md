@@ -10,6 +10,30 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — the three papers DRAFTED + finalized (PC23/PC24/PC25 banked)
+
+Three writer agents (repo FINDINGS = source of truth, status labels mandatory) + three checker
+agents. All drafts banked under papers/drafts/:
+- PC23 (degree-4 gap labels + the four-coupling photonic test): checker VERIFIED all 7 PROVED
+  claims by independent recomputation; experiment in the Baboux winding form with prereg'd
+  falsifiers/controls; novelty scoped exactly to the lit-gate verdict. Target SciPost/PRB.
+- PC24 (the 3/2 law + tower arithmetic): checker clean (6 load-bearing numbers re-derived);
+  includes our own 2^{2n+1} refutation stated honestly; PCF literature cited for the qualitative
+  side. Target Experimental Mathematics.
+- PC25 (the amphichiral fold E6->F4 + the five closures + THE REAL-FORM THEOREM): the checker
+  caught a REAL reproducibility gap — Theorem 3's numbers (adjoint traces, Jordan type, the
+  Cl(9) Krasnov computation) lived only in campaign prose. CLOSED: the campaign agents' own
+  reproducers adopted into the repo (frontier/B565_gauge_behavior_campaign/{spin9_krasnov,
+  realform_adjoint_traces,verify_h1_triality}.py) + three new locks (tests/test_b565_
+  {krasnov,realform,triality}.py — 15 tests, all pass). The two-descriptions note added to the
+  discussion. Target LMP/CMP.
+Privacy: the "chat3" session codename purged from externally-facing paths — tests/
+test_b560_chat3.py -> test_b560_cells.py, frontier/B560_chat3_frontier_campaign ->
+B560_crossseat_campaign (live references updated; append-only logs left as history).
+CANDIDATES rows -> DRAFTED. All three ready for voice pass + LaTeX at submission time.
+
+---
+
 ## 2026-07-14 — the two-descriptions split verified (owner insight; B565 addendum)
 
 Owner: the program has TWO descriptions — classical (character variety, E6(C), non-compact:
