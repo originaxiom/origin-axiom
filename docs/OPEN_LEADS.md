@@ -122,6 +122,22 @@ aspiration). It sets the governing roadmap:
   (symmetry) + a confirmed wall (no scale). A POSTULATED structural sharpening of the wall is recorded in
   `STRATEGIC_SYNTHESIS.md` §8a. All firewalled; nothing crosses to physical magnitude.
 
+## Gauge/SM behavior-targets (2026-07-13 literature map — docs/LITERATURE_GAUGE_SM_2026-07-13.md)
+
+The lit survey found: the gauge GROUP is cheap (3 routes hit SU(3)×SU(2)×U(1)); VALUES never
+resident (corroborates the three-level negative); the FORCED things are anomaly-consistency +
+centralizer-of-holonomy — both in-sandbox, never run. The object was read only at the "bookkeeping
+pole." Priority computable targets (each two-outcome, firewall-clean):
+
+| target | probe | verdict |
+|---|---|---|
+| **T8** (do first) | corroborate B71 vs Heusener–Muñoz–Porti's published SL(3) eqns (arXiv:1505.04451) | matches → externally corroborated |
+| **T1** | 't Hooft anomaly of ℤ/11: H³(ℤ/11,U(1)) cocycle, UV (substitution) vs IR (c=7/10 fusion) | MATCH → ℤ/11 dynamically load-bearing (1st non-bookkeeping fact) |
+| **T3** | chiral index over the ℚ(√φ) gap labels (Kellendonk pairing) | index ≡ 0 → 4th mechanism-level wall (object vector-like, SM chiral) |
+| **T2** | holonomy-centralizer stratification of the SL(n) char varieties (F_p toolkit) | the object's own breaking grammar |
+| **T6** | **the Baez–Schwahn F₄→SM door (arXiv:2606.15235, 2026) — a FIFTH route** (nested Jordan h₂(ℂ)⊂h₃(ℂ)⊂h₃(𝕆) stabilizers = SM group): does any object structure canonically select the qubit-qutrit nested pair? | canonical → LIVE; none (expected) → close by computation |
+| **T4/T5/T7** | trace-map β-sign; ℤ/11 Wilson/Fredenhagen–Marcu strings; Lohitsiri–Tong Diophantine gaugeability | new dynamical invariants |
+
 ## Standing open threads (B142 inventory — lose nothing)
 
 The bigger open *prizes/threads* (distinct from the per-lead catalog above), with status and cleanest next step:

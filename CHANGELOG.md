@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — gauge/SM literature map (behavior-targets for the object)
+
+### Added
+- docs/LITERATURE_GAUGE_SM_2026-07-13.md: what fixes the SM (anomaly + centralizer FORCED; group
+  cheap; values never resident), the gauge-vs-bookkeeping diagnostic checklist, 8 computable
+  behavior-targets (T1-T8), and a verifier-corrected 12-paper reading list.
+- OPEN_LEADS: the gauge/SM behavior-targets thread (T1/T3/T6/T8 priority). HINT_LEDGER H118 (the
+  Baez-Schwahn fifth F4->SM door, arXiv:2606.15235) + H119 (the bookkeeping-pole diagnosis).
+
+---
+
 ## 2026-07-13 — the cusp-boundary-condition reframe examined (B561 addendum)
 
 ### Added
