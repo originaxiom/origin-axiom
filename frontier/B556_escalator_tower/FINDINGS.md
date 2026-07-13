@@ -259,3 +259,39 @@ contradiction; and chat-2's refinement is sound (σ is isolated among *canonical
 observers but has a non-trivial basin in *window* space). What nobody has computed
 — *what information distinguishes the two members of the loop* — is the genuinely
 unread feedback channel (registered in OPEN_LEADS).
+
+## THE 3/2 LAW (Session-5 handoff, INDEPENDENTLY VERIFIED 2026-07-13)
+
+The escalator's growth rate is a universal constant, **3/2**, forced by minimality
+— what φ is to the word, 3/2 is to the tower. All re-derived in-sandbox
+(`tests/test_b556_three_half_law.py`).
+
+**THEOREM (verified).** For T(M)=[[M,M],[M²,M]] and λₙ = Perron(Tⁿ(F)):
+1. **λ-law:** λₙ₊₁ = λₙ(1+√λₙ) (banked).
+2. **Growth rate:** log λₙ₊₁ / log λₙ → **3/2**. Numerically 2.705, 1.822, 1.612,
+   1.536, 1.509, 1.501, **1.500** through rung 7.
+3. **Asymptotic:** λₙ ~ φ^{C·(3/2)ⁿ} with **C = 2.4283** (verified: the estimates
+   1.80, 2.19, 2.36, 2.41, 2.426, 2.4282, **2.4283** converge).
+
+**WHY 3/2 — minimality.** The generalized functor T_k(M)=[[M,M],[Mᵏ,M]] has Perron
+eigenvector [v, λ^{(k-1)/2}v] ⇒ μ = λ(1+λ^{(k-1)/2}) ⇒ growth exponent **(k+1)/2**.
+Verified k=1→1 (no super-growth), k=2→3/2, k=3→2. So **k=2 (coupling to M²) is the
+minimal non-trivial self-coupling, and 3/2 is its rate** — the escalator chooses
+minimal self-coupling exactly as the golden substitution chooses minimal
+self-substitution (eigenvalue φ).
+
+**Distinct from the charge rate.** The Perron grows at 3/2; the *charge* eₙ grows at
+3 (log|eₙ₊₁|/log|eₙ| → 3, §feedback ledger). Two different exponents (field ×2,
+Perron-log ×3/2, charge-log ×3) — consistent, not contradictory. (This corrects a
+handoff conflation; the free-energy fₙ=log|eₙ|/2ⁿ⁺¹ diverges as (3/2)ⁿ — the 3/2
+reappears in the thermodynamics.)
+
+**Kasner note (firewalled — hint-grade, cf. S061).** 3/2 = 1 + p₂ where p₂ = ½ is
+the *unique* middle exponent characterizing the golden Kasner (exponents
+(−1/2φ, ½, φ/2), Σp = Σp² = 1, verified exact). The escalator rate = 1 + the golden
+Kasner middle exponent. Recorded as a rhyme, not a claim; the fuller Big-Bang
+reading lives in `speculations/S061`.
+
+**Paper candidate PC24** (papers/CANDIDATES.md): the 3/2 Law / escalator growth — a
+verified theorem, **novelty pending the lit-gate** (substitution-tower /
+graph-directed IFS / joint-spectral-radius literature).

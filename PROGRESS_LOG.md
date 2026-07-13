@@ -10,6 +10,21 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — the 3/2 Law (Session-5 handoff): the escalator's minimal self-coupling rate
+
+Verified seat-1's Session-5 theorem in-sandbox (4 locks, test_b556_three_half_law.py).
+For T(M)=[[M,M],[Mᵏ,M]] from the Fibonacci matrix: λₙ₊₁=λₙ(1+λₙ^{(k-1)/2}); growth rate
+log λₙ₊₁/log λₙ → (k+1)/2; at k=2 (the golden escalator) = **3/2** (numerically 2.705→
+1.500 through rung 7), the MINIMAL non-trivial self-coupling rate (k=1→1, k=2→3/2, k=3→2);
+asymptotic λₙ ~ φ^{C·(3/2)ⁿ}, C=2.4283. "3/2 is to the tower what φ is to the word — both
+forced by minimality." Distinct from the charge rate (Perron-log ×3/2 vs charge-log ×3 vs
+field ×2 — consistent, corrects a handoff conflation; free energy fₙ=log|eₙ|/2ⁿ⁺¹ diverges
+as (3/2)ⁿ). Kasner note (firewalled, S061): 3/2 = 1 + p₂, p₂=½ the golden Kasner middle
+exponent (exponents (−1/2φ,½,φ/2), Σp=Σp²=1 verified). Registered PC24 (novelty pending
+lit-gate LG-1, running in the tower-probe campaign). 4 locks.
+
+---
+
 ## 2026-07-13 — B559 black-hole probes: holographic entanglement + figure-eight vs BTZ
 
 Two computable black-hole questions (owner "do both"), firewalled STRUCTURE facts.
