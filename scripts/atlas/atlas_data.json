@@ -11488,6 +11488,35 @@
    "status": "dead",
    "domain": "quantum"
   },
+  "B569": {
+   "slug": "complete chain",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B299",
+    "B347",
+    "B353",
+    "B552",
+    "B556",
+    "B565",
+    "B566",
+    "B568",
+    "H1",
+    "S5"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B56": {
    "slug": "figure eight invariant surface",
    "motifs": [

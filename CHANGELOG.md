@@ -6,6 +6,55 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B571: the day-0 internalization (14 buried treasures + the two-chiralities dossier)
+
+### Added
+- B571: 8 readers over the full 8,044-line progress corpus + per-item repo verification:
+  106 candidates → 14 genuinely buried / 76 banked-later / 13 superseded / 3 not valuable.
+  `frontier/B571_day0_internalization/{REPORT.md, CHIRALITY_DOSSIER.md, BURIED_ITEMS.json}`.
+  Headliners: the criticality unification (three banked results, one unwritten theorem, B507
+  unlocked); Kubota–Leopoldt identification asserted-never-computed; B54's {−3,+5} twin
+  quadratics = the earliest two-ended sighting; e₃ stalled mid-CRT; S031 m=3 blocked by a
+  factually wrong deferral reason. Burial patterns + fixes in the report.
+- THE TWO-CHIRALITIES DOSSIER: the object breaks **c** (conjugation/orientation/time —
+  abundantly, computedly) and is symmetric under **θ** (27↔27̄; amphichiral ⟺ θ-symmetric ⟺
+  vector-like is one identity). c ≠ θ on the adjoint. Crux questions Q-A/Q-B/Q-C → B570 Lane C.
+
+---
+
+## 2026-07-14 — B570: the allowed-plays campaign preregistered; C3 run first — the θ-odd sector is ALIVE
+
+### Added
+- B570 PREREGISTRATION: the selection-rules inversion (AP1–AP6) + Lane C (the seventeenth
+  question) from the five-sources/θ-odd handoff — spine verified exactly (θ-odd exponents
+  {4,8}; the ω-connection: θ-odd Coxeter eigenvalues = ω, ω²; level-2 counts 9 = 3+3 pairs);
+  `tests/test_b570_theta_odd_spine.py` (4 locks).
+- **C3 (run first, owner directive): E₆ level-2 modular data from scratch (51,840 Weyl
+  elements, Kac–Peterson, Verlinde-integrality + q-dim gates all green) — ρ(A₁) on the
+  θ-odd 3-space is NON-SCALAR: SU(3), order 4, eigenvalues {+1, +i, −i}. Level 1 was inert;
+  level 2 is dynamically alive. The first positive chirality-sector signal in seventeen
+  campaigns** (firewalled: C = S² is central — no monodromy prefers 27 over 27̄; the dynamics
+  lives within the odd sector). `c3_e6_level2_monodromy.py`, `tests/test_b570_c3_level2.py`.
+
+---
+
+## 2026-07-14 — B569: the "Complete Chain" handoff adjudicated
+
+### Added
+- B569: the sixteenth σ→SM chain, verified exactly and adjudicated. Link 4 (compactness
+  via E₆ CS at level 1) CORRECTED: the handoff's modular data was inconsistent (SU(3)₁
+  weight h=1/3 with E₆'s c=6; (ST)³≠S², Z word-dependent −1/+1); the consistent E₆,₁ rep
+  (h(27)=2/3 proved from the root system) gives Z=+1, θ-split {±i | +1} — no chirality
+  bit; the invariant belongs to the Sol fiber-filling, on the measurement face (#884);
+  the compactness gap (B565-H1) STANDS. Link 7 (G_SM unique chiral theory on F₄) REFUTED:
+  the 26 of F₄ is self-dual (nonzero weights = the 24 short roots), so every subgroup of
+  F₄ inherits a self-conjugate 27 — zero chiral theories on the F₄ stage; the fourth wall
+  (chiral index ≡ 0) re-derived from pure Lie theory.
+  `frontier/B569_complete_chain/{FINDINGS.md, e6_level1_modular.py}`,
+  `tests/test_b569_complete_chain.py` (6 locks).
+
+---
+
 ## 2026-07-14 — B568-SQ: the minimal allowed play (answered)
 
 ### Added
