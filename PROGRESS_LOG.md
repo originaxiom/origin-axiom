@@ -10,6 +10,31 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-14 — B566: the five self-interactions COMPUTED (11 agents, all held)
+
+★ S5 THE TRIPLE IDENTITY (the sleeper fired): the chain's Z/11 charge IS geometric — three
+guises of one exact fact: det(I-M4) = -11 = N(phi^5 - 1) (associates via unit -phi^2, reduction
+det(I-3F) via B517), and the 5-fold cyclic cover of 4_1 has H_1 torsion (Z/11)^2 with
+121 = Res(Delta, Phi_5) = L_5^2, L_5 = 11 (verified SnapPy + exact resultant). Downstairs
+H_1 = Z sees nothing; the golden-conductor cover carries the charge squared. n=5-specific
+(809, 18845089 not Lucas — honest scope).
+S1: p=809 dark hyperbola instantiated; THE N=p^2 RECURSIVE LAW found (9/10 classes wholesale
+dark; the a=2 class recapitulates j=2 one level deeper; spectrum {0,1,sqrt p,p}, exact counts,
+verified 7 levels + float-free at 2; B534's exact_verify zero-test caught as prime-only) — LIVE
+law, proof = named open step; the exponent-echo (11^2|e_4) stays a 1-point HOOK.
+S2: KMS weights (5±sqrt5)/20 != letter frequencies — the thermal self-clock is a DIFFERENT
+observable from counting; rung-2 weights = rung-1 halved; T_n ratio -> 2/3; gauge.phi commutes
+exactly (c=1 only). Connes-Rovelli stays HOOK.
+S3: the canonical ends-entanglement — S(5:3) = 0.321663311889, Schmidt rank 2, lambda+- =
+1/2 ± sqrt(109)/26, product 15/169 (seam level over 13^2), Galois-invariant; CORRECTED per
+verify: the mode over all 44 doubles is S=0 (the flagship is modal among entangled only).
+S4: second-order measurement COLLAPSES: SL(2,Z/15)^ab = Z/3 (one genuine step), then fixed —
+the economy's third mode (observe conserves / couple mints / measure-measurement collapses).
+5 locks (test_b566_self_interaction.py; two sympy-form bugs fixed in the associate/resultant
+asserts). H123-H127 dispositions updated.
+
+---
+
 ## 2026-07-14 — the self-interaction gap register (owner question: what's unmeasured?)
 
 Inventoried the object's self-interactions after the gauge arc. Accounted: self-substitution,
