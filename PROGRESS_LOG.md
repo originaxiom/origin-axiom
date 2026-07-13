@@ -3463,3 +3463,20 @@ direction ⇒ honest rank-≥2 E₆ deformations exist and the chiral-selector q
 there; all obstructed ⇒ the sixth wall (locally, E₆ reps = the factored curve; chirality
 unreachable on the whole local variety). Queued as the first post-Review-16 computation.
 2 locks. Firewalled.
+
+## 2026-07-14 — REVIEW 16 (merges #884–#903: the chirality arc; anchor 8452656)
+
+The first review under the 20-cadence, fired at 21. **Suite: 2143/0/12 — first fully-green full
+run in three reviews** (b207 passed in-suite). **Mathematics: CLEAN — 8 fresh-eyes cells with
+independent code reproduced every headline number in B569–B574** (third SL(2,ℤ) word; h(27)=2/3
+via E₆⊂E₈; the 35-generator Hilbert basis byte-identical; A₅ identified structurally; the sine
+kernel matched to the Cardy M(2,7) S up to diag(1,−1,1) rephasing — the identification is now
+gauge-precise). Zero critical issues. Six real bookkeeping defects found and ALL FIXED in the
+closeout: the stale-θ contradiction (B571 dossier/report pre-correction wording + its CHANGELOG/
+CAMPAIGN_STATUS propagation — dated correction notes appended); the registry lock-column; the
+M(2,7) confidence reconciliation; the missing B572–B574 board entries; **OPEN_LEADS L51–L58
+registered** (the bridge obstruction QUEUED-FIRST; Q-C; V2/V3/V5; the level-k prime law; the
+B571 revival queue with the B137 "non-quadratic" deferral reason corrected — it was factually
+wrong); the PC26 PREMATURE/BLOCKED registry row. Promotion candidates flagged: the fifth-wall
+theorem, the clock theorem, the Q-A trichotomy, the sine-kernel identity. The queue: L51 first.
+Full entry: docs/progress/REVIEWS.md. Counter resets at anchor 8452656.

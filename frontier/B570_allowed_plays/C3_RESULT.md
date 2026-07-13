@@ -62,10 +62,12 @@ S_odd = −i · [[ 0.591009,  0.736976,  0.327985],
 ```
 
 The moduli are exactly (2/√7)·sin(kπ/7), k = 1, 2, 3 (verified to 6 digits) — a
-7th-root sine pattern of M(2,7)-minimal-model type. **Flagged as an observation
-(HINT), not banked as an identification** — the sign/phase pattern has not been
-matched against the exact M(2,7) data. If real, the θ-odd sector of E₆ level 2
-carries its own tiny modular world with k+h∨ = 14 → 7 arithmetic.
+7th-root sine pattern of M(2,7)-minimal-model type. **Status upgraded (B572 + Review 16 R2):** the
+identity S_odd = −i·(2/√7)[sin(2πst/7)] is exact (locked, B572), and the kernel
+matches the M(2,7)-family S-matrix **up to a primary rephasing gauge
+(D = diag(1,−1,1) relative to the standard Cardy formula; Review-16 independent
+check)**. S-block only — the T-phases remain E₆-specific. The θ-odd sector of E₆
+level 2 carries its own tiny modular arithmetic with k+h∨ = 14 → 7.
 
 ## Verification
 

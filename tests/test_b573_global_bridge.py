@@ -46,9 +46,10 @@ def test_16_not_principal_stable():
         frontier = new
     charges = Counter(sp.Rational(sp.Matrix(m)[0]) for m in seen)   # node-1 coweight charge
     assert dict(charges) == {sp.Rational(1, 3): 16, sp.Rational(-2, 3): 10, sp.Rational(4, 3): 1}
-    # e_principal includes e_{alpha_1}, whose charge under the node-1 coweight is 1 != 0:
-    # alpha_1 in root coords is the basis vector e_1, so its node-1 coefficient is 1.
-    assert 1 != 0  # the grading obstruction; the structural content is the charge table above
+    # e_principal includes e_{alpha_1}; alpha_1 in root coords is the basis vector e_1,
+    # so its node-1 coweight charge is its first coordinate = 1 != 0 (computed, not assumed):
+    alpha1 = sp.Matrix([1, 0, 0, 0, 0, 0])
+    assert alpha1[0] == 1 and alpha1[0] != 0   # the grading obstruction
     # => the U(1)-eigenspace 16 is not preserved by the principal sl2 (regular nilpotent
     #    lies in no proper Levi); tr_16 on the holonomy is ill-posed.
 

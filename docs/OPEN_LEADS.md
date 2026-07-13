@@ -475,6 +475,22 @@ stability (B444/B458) + parity oddness — the year's emptiness now has a MECHAN
 selection rule), with B458's computation selecting 0.** Phase 2b queued (the parity column on
 the ledger; Gieseking descent proper). `docs/ROADMAP_TOE.md` written (owner's meditation ask):
 the position, the three papers, the open registers, the three honest ToE scenarios. No H1.**
+## The B569–B574 arc registrations (Review 16, 2026-07-14)
+
+The chirality-arc window left these live opens; registered here per the B571 burial-pattern
+fix (every named open gets a row or it evaporates).
+
+| Lead | What | Tier | Value | Status |
+|---|---|---|---|---|
+| **L51 — THE BRIDGE OBSTRUCTION** | The quadratic obstruction (cup product / Goldman bracket H¹×H¹→H², adjoint coefficients) on the five off-factored directions of the E₆ geometric point. Unobstructed ⇒ rank-≥2 E₆ deformations exist and the chiral-selector question reopens; all obstructed ⇒ **the sixth wall**. THE first post-Review-16 computation (B574, final form). | MATH | ★★★★ | **QUEUED-FIRST** |
+| **L52 — Q-C transport** | Does the B469/B303 orientation residue transport through the GEOMETRIC holonomy as c or as θ? (C5QC quarantined: tautology on the wrong object; the honest computation is open.) | MATH | ★★★ | OPEN (B570/B571) |
+| **L53 — V2 Fox-calculus H¹** | Independent second method for H¹ = 6 + the θ-grading (Fox calculus / Menal-Ferrer–Porti route) — the PC25 strengthener. | MATH | ★★ | OPEN (B572/B573) |
+| **L54 — V3 orbits ↔ three 16s** | Do B299's triality orbits correspond to three 16s of Spin(10) under G_SM (not just abstract ℤ₃ orbits)? Note: lives on the Spin(10) side of the unpaid weld. | MATH | ★★ | OPEN (B572) |
+| **L55 — V5 global duality** | The global gap⟺chirality theorem with the Galois-descent fine print (C2 banked the SL(2,ℂ) biconditional; the global version open). | MATH | ★★ | OPEN (B570-C2) |
+| **L56 — the level-k prime law** | The θ-odd S-block ran ℤ/3 at level 1 and the ℤ/7 sine kernel at level 2 (k+h∨ = 14 = 2·7). Level 3 (k+h∨ = 15): is the θ-odd block a ℤ/5- or ℤ/15-sine kernel? A law "the chiral sector mints a new modulus per level" — falsifiable with the C3 machinery. | MATH | ★★ | OPEN (hook, 2026-07-14) |
+| **L57 — the B571 revival queue** | Five buried completions (frontier/B571_day0_internalization/REPORT.md §4): (1) Q-C = L52; (2) the criticality unification theorem + the missing B507 lock; (3) e₃ CRT completion (primes 7–10; two failed passes — Jul 4 + Jul 9 UNSTABLE — now both on record); (4) the Kubota–Leopoldt discriminating computation (gate-c error class); (5) S031 at bronze m=3 — **the B137 deferral reason is WRONG: K₃ = ℚ(√13) IS quadratic** (disc 13 squarefree); run B137's MB7 method with B160's bronze trace map. | MATH | ★★★ | OPEN (queue) |
+| **L58 — shared root-BFS test helper** | The E₆ Weyl/root BFS is copy-pasted across test_b572/b573/b574; factor into one tested helper (hygiene, Review 16 R6). | HYGIENE | ★ | OPEN |
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the

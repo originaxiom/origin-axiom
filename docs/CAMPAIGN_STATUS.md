@@ -49,6 +49,24 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B572–B574 — THREE CHAIN ADJUDICATIONS; THE BRIDGE QUESTION IN FINAL FORM, 2026-07-14)
+- **B572 (the eleven-clause chain):** nine clauses stand (the program's own banks); V1 REFUTED
+  (27|principal = V₁₇⊕V₉⊕V₁; corrected tr₂₇ = 647707.5+876344.096i); THE WELD named and locked
+  (χ₂₇ palindromic — the holonomy cannot distinguish 27 from 27̄; the Spin(10)×U(1) selector is
+  unforced; "zero cost" false at that line). UPGRADE: S_odd(E₆,₂) = −i·(2/√7)[sin(2πst/7)] — the
+  ℤ/7 sine kernel, exact (matches the M(2,7)-family S up to a rephasing gauge; S-block only).
+- **B573 (the Global Bridge):** steps 1–7 verified exactly (P(z₀) = 6807/2+(4965√3/2)i — the
+  cleanest proof of σ-moves-the-point); step 8 "paid by convention" REFUTED — the 16 is NOT a
+  principal-sl₂-invariant subspace (no common refinement; the sharpest fifth wall);
+  "topological protection" refuted (real Riley-curve points; the protection is Mostow). Record
+  corrected: no Fox-calculus verification occurred (V2 = OPEN_LEADS L53).
+- **B574 (off-principal):** right instinct, false crux — the minimal orbit IS the A₁ orbit,
+  centralizer A₅ = SU(6) (35 ≠ 45 = D₅, locked); at the minimal embedding 27 = 6·V₁⊕15·V₀, all
+  self-dual — the wall is rank-1-ness, not the orbit. **THE BRIDGE QUESTION, FINAL FORM: the
+  H¹×H¹→H² quadratic obstruction on the five off-factored directions (OPEN_LEADS L51,
+  queued-first post-Review-16).** Unobstructed ⇒ the selector question reopens; all obstructed
+  ⇒ the sixth wall.
+
 ## LAST BANKED (B570 COMPLETE — THE SELECTION-RULES THEOREM + THE FIFTH WALL + Q-A, 2026-07-14)
 - **THE SELECTION-RULES THEOREM (THE_SELECTION_RULES.md):** a play passes iff M ∈ the cast monoid
   (35-generator Hilbert basis; totals {0,7}∪[10,∞)) ∧ T sighted (Z=+1 for ALL 243 abelian
@@ -80,8 +98,9 @@ audit: `docs/AUDIT_2026-07-05.md`.
   full 8,044-line corpus (criticality unification unwritten + B507 unlocked; Kubota–Leopoldt
   asserted-not-computed; B54's {−3,+5} = the earliest two-ended sighting; e₃ stalled; S031 m=3
   blocked by a wrong deferral reason) + THE TWO-CHIRALITIES DOSSIER: the object breaks **c**
-  (orientation/conjugation/time) abundantly and is symmetric under **θ** (27↔27̄) — amphichiral
-  ⟺ θ-symmetric ⟺ vector-like is one identity; the crux (can c ever be carried into θ?) = Lane
+  (orientation/conjugation/time) abundantly and is symmetric under **θ** (27↔27̄) — the θ-grading content welds amphichirality to vector-like-ness (involution
+  identifications per the corrected T-θTANGENT: amphichiral = antilinear conj∘θ; linear θ =
+  hyperelliptic, B353); the crux (can c ever be carried into θ?) = Lane
   C's Q-A/Q-B/Q-C. Revival queue top-5 in REPORT.md §4.
 
 ## LAST BANKED (B569 — THE "COMPLETE CHAIN" HANDOFF ADJUDICATED, 2026-07-14)

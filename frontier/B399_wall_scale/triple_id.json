@@ -1,3 +1,8 @@
-{"e1": "0", "e2": "-1/48", "e3": "PENDING (needs primes 7-10; sentinel test waits on e3)",
- "cubic": "t^3 - (1/48) t - e3", "line_value": "1/12 (12 cells)",
- "field_note": "triple is a Z/3 orbit at the zeta27 level (one class mod 135, splits mod 405)"}
+{
+ "e1": "0",
+ "e2": "-1/48",
+ "e3": "PENDING (needs primes 7-10; sentinel test waits on e3) [2026-07-14 note: a second CRT attempt (2026-07-09, triple_cubic.json) also failed \u2014 UNSTABLE/denominator-collision; two failed passes on record, not silence. See OPEN_LEADS L57.]",
+ "cubic": "t^3 - (1/48) t - e3",
+ "line_value": "1/12 (12 cells)",
+ "field_note": "triple is a Z/3 orbit at the zeta27 level (one class mod 135, splits mod 405)"
+}
