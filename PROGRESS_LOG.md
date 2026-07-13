@@ -10,6 +10,24 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — tower-probe campaign, charge arithmetic (P-F/P-C/P-B/FL2, adversarially verified)
+
+Four charge-tower cells from the multi-agent tower-probe campaign, each re-verified in-sandbox
+(tests/test_b556_campaign.py). Lit-gates UNCLEAR → banked as computed fact, no novelty claim.
+- P-F: e_4 = -11^2*1459*597049*2169349081, e_5 = three new primes; e1,e2,e3 prime but e4,e5
+  COMPOSITE — seat-1's "one new prime per rung" REFUTED at n=4 (11 repeats, mult 2). Surviving
+  law: 11|e_n <=> n=1 mod 3, verified through n=7. No 5/7 factors (n<=5).
+- P-C: magnitude-degenerate eigenvalue pairs = 2^n-1 exactly (0,1,3,7,15), all complex-conjugate;
+  exactly 2 real eigenvalues per rung; charpoly irreducible each rung. Mechanism = complex
+  conjugation on an irreducible spectrum (the "sqrt(phi)->-sqrt(phi)" is one instance).
+- P-B: free energy f_n=log|e_n|/2^{n+1} diverges as (3/2)^n (no thermodynamic limit); the 3/2
+  reappears in the thermodynamics.
+- FL2: golden-norm doubling transfer D(G)=Res_t(t^2-2yt+y^2-y^3, G) — verified N(g_2(phi))=-809,
+  N(g_3(phi))=-18845089 exact; e_n=N_{Q(sqrt5)}(g_n(phi)) now holds n>=2 (closes the FL2 gap).
+5 locks.
+
+---
+
 ## 2026-07-13 — Door 2 sharpened (verified): Ad(C) on sl(2,ℝ) is a signature SPLIT, not a forced (3,1)
 
 Verified a cross-seat 3×3 computation with the correct amphichiral matrix C=[[1,0],[−1,−1]]

@@ -11299,6 +11299,7 @@
     "metallic",
     "golden",
     "torsion",
+    "wrt_quantum",
     "lorentzian",
     "firewall"
    ],
@@ -11315,7 +11316,7 @@
     "B557",
     "S061"
    ],
-   "obstacle": "numerology",
+   "obstacle": "units_scale",
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"

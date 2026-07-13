@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-13 — tower-probe campaign: charge arithmetic (P-F/P-C/P-B/FL2)
+
+### Added
+- B556 FINDINGS: exact factorization of e_4 (=11^2*1459*597049*2169349081) and e_5;
+  "one prime per rung" refuted at n=4; 11|e_n <=> n=1 mod 3 through n=7 (P-F). The 2^n-1
+  magnitude-degeneracy law, all complex-conjugate, irreducible charpolys (P-C). Free-energy
+  divergence f_n ~ (3/2)^n, no thermodynamic limit (P-B). The golden-norm doubling transfer
+  D(G)=Res_t(...) verifying e_n=N_{Q(sqrt5)}(g_n(phi)) for n=2,3 (FL2, closes the n>=2 gap).
+- tests/test_b556_campaign.py (5 locks). Lit-gates UNCLEAR -> no novelty claims.
+
+---
+
 ## 2026-07-13 — Door 2 sharpened: Ad(C) signature split (verified)
 
 ### Added
