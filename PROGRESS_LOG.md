@@ -10,6 +10,25 @@ Governed by `GOVERNANCE.md` §9.
 
 ---
 
+## 2026-07-13 — literature sweep 2 (sharpened image): 3 verdicts, 2 locked facts, 10 targets
+
+Second 6-angle sweep with the post-gauge-arc search image (docs/LITERATURE_SWEEP2_2026-07-13.md).
+VERDICTS: (1) NOT scooped where it matters — no H^3 class for any order-11 golden-chain symmetry;
+NO gap-label work above quadratic fields anywhere (PC23 reinforced — a degree-4 measurement is a
+first); the exact 2^{2n+1} formula appears nowhere. (2) Two framings predate and must be cited:
+torsion-as-charge = Kellendonk coinvariants + BBG gap labels; CK K-theory textbook; the tower's
+QUALITATIVE Galois collapse = PCF theorems (Pink/BGJT) — only the exact formula is ours. (3) Five
+nearly-free computations; two VERIFIED IN-SESSION and locked (tests/test_sweep2_facts.py):
+lk2(11,809)=1 — the charge primes NONTRIVIALLY LINKED in Spec Z (Morishita; first arithmetic-
+topology fact about the tower); the arboreal alignment — full Aut(T) at depths 1-2, index-4
+collapse at depth 3 (the PCF signature; the 2^{2n+1} conjecture = full-then-x4). CAVEAT CAUGHT:
+the sweep's Ward/Lucas protocol for the 5/7 exclusion assumes eventual periodicity of e_n mod p —
+automatic only for LINEAR recurrences; needs a lemma (registered honestly as N1). N1-N10
+registered; citation fixes applied (BGJT authorship; Bellissard-Bovier-Ghez). KMS ladder
+beta_n = log(Perron) (Exel) = the growth law as a forced temperature — registered N2. 2 locks.
+
+---
+
 ## 2026-07-13 — H2 slotted (chat-2 gauge arc, verified on receipt) + Batch E (false-kill exhumation)
 
 H2 = chat-2's gauge arc: the four-layer literature map (Weyl scale->phase; Connes

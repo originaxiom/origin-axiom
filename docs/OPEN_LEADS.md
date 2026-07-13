@@ -138,6 +138,21 @@ pole." Priority computable targets (each two-outcome, firewall-clean):
 | **T6** | **the Baez–Schwahn F₄→SM door (arXiv:2606.15235, 2026) — a FIFTH route** (nested Jordan h₂(ℂ)⊂h₃(ℂ)⊂h₃(𝕆) stabilizers = SM group): does any object structure canonically select the qubit-qutrit nested pair? | canonical → LIVE; none (expected) → close by computation |
 | **T4/T5/T7** | trace-map β-sign; ℤ/11 Wilson/Fredenhagen–Marcu strings; Lohitsiri–Tong Diophantine gaugeability | new dynamical invariants |
 
+## Sweep-2 targets (2026-07-13 — docs/LITERATURE_SWEEP2_2026-07-13.md; two verified facts locked)
+
+Verified + locked: **lk₂(11,809)=1** (the charge primes nontrivially linked in Spec ℤ) and the
+**arboreal alignment** (tower = full Aut(T) at depths 1–2, index-4 collapse at depth 3 = PCF
+signature). New targets: **N1** eₙ mod 5/7 exclusion (needs an eventual-periodicity lemma —
+NOT automatic, the sweep's Lucas analogy is linear-only); **N2** the KMS temperature ladder
+βₙ=log λ_PF (Exel's theorem — free thermodynamics of the gauge algebras); **N3** BGJT criterion
+→ rung-1 D₄ census becomes a theorem; **N4** Pink's closed-form |M_{1,n}| vs 2^{2n+1} at rung 3
+(THE tower-conjecture discriminator); **N5** Pink universality vs the multi-seed census; **N6**
+arithmetic-CS at p=809 (twisted Rédei gap for 11≡3 mod 4); **N7** B565-T1 cross-check
+(Cheng–Williamson + regime check + Liang benchmarks); **N8** Anderson–Putnam border-forcing on
+σ₄ (K-theory correctness check); **N9** PC23 in Baboux winding form; **N10** the quarantined
+SymTFT claim. Collisions to cite in any bank: Kellendonk coinvariants/BBG gap labels
+(torsion-as-charge), textbook CK K-theory, PCF qualitative collapse (Pink/BGJT).
+
 ## Standing open threads (B142 inventory — lose nothing)
 
 The bigger open *prizes/threads* (distinct from the per-lead catalog above), with status and cleanest next step:
