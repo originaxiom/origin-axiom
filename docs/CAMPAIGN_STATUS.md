@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B598 — the L85 campaign opened; P0 computed, 2026-07-14)
+- **The decisive-gap campaign is open** (CAMPAIGN.md: P0–P3, the five-item constraint sheet,
+  A/B/D outcomes locked). **P0 done: the SL(2) baseline is now computed, not cited** — the
+  Kashaev 1-loop constant of 4₁ is 3^{−1/4} (8e-12; growth rate = Vol/2π at 1e-41), the
+  τ₁ = −3 content exactly at the semiclassical slot, width² = |τ₁| consonant with the
+  quadratic hearing law. **Review 18 pre-committed:** the provenance sweep (all verification
+  is internal — owner + AI seats; no peer-review pretense; PROVENANCE.md) and the
+  inner-terminology legibility sweep.
+
+
 ## LAST BANKED (B597 — D1 processed: C excluded conditionally; narrowed to existence, 2026-07-14)
 - **Chat-1's dictionary prereg adopted (with four binding corrections) and its tractable cells
   run.** Both θ-odd planes carry canonical line-splittings (τ-widths differ by 10¹⁴; quantum

@@ -12180,6 +12180,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B598": {
+   "slug": "l85 campaign",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B425",
+    "B575",
+    "B581",
+    "B587",
+    "B595",
+    "B596",
+    "B597",
+    "B67",
+    "L85",
+    "P0",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [

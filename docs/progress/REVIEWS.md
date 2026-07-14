@@ -883,3 +883,29 @@ anchor-commit: `3c0fa84` (pre-closeout HEAD; the closeout commit resets the coun
    remainders (S031 m=3; V2/V3/V5).
 
 *(window #904–#923; anchor = the Review-17 closeout commit; next review due at 20 merges.)*
+
+## Review 18 — PRE-COMMITTED SCOPE ADDITIONS (registered 2026-07-14, owner directive)
+
+Beyond the standard cadence, Review 18 MUST include:
+
+1. **The provenance sweep (external-verification pretense).** From day 0 to
+   date, all work on this project has been the owner plus AI seats. No
+   external human collaborator, no peer review, no third-party verification
+   has occurred. The sweep: scan every public-facing document (README, docs/,
+   papers/, frontier FINDINGS, CHANGELOG) for language that could be read as
+   claiming external verification — "verified", "independently confirmed",
+   "checker-verified", "the verifier", "adversarially verified", "audited",
+   "specialist" — and either (a) rephrase, or (b) ground it in a single
+   PROVENANCE.md stating explicitly: *all verification in this repository is
+   internal — independent re-computation within the project's own toolchain
+   by the owner and AI-assisted sessions; none of it constitutes external
+   peer review.* Every "verified" then reads against that definition.
+2. **The inner-terminology legibility sweep.** Session-internal vocabulary
+   (seats, chats, handoffs, banking, locks, gates, theaters, the firewall,
+   arcs, B-numbers) that is load-bearing in public documents must be defined
+   once (a TERMINOLOGY.md or a README section) or rephrased where it would
+   confuse an outside reader; nothing may rely on inner shorthand to carry a
+   scientific claim.
+3. Nothing banked may pretend to a review status it does not have; papers/
+   drafts must carry their true status (internally verified drafts, not
+   refereed results).

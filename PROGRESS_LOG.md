@@ -4002,3 +4002,19 @@ outcome C is structurally excluded conditional on existence + width-respect; D1 
 existence question (A/B vs D).** The existence route (boundary restriction → Weil quantization)
 registered as L85 — the D1 arc proper, sized as its own campaign. The downstream sequence (PDG/JUNO/
 PC26 §9) stays gated per the prereg's own gating and the repo firewall. 2 locks. Firewalled.
+
+## 2026-07-14 — B598: THE L85 CAMPAIGN OPENED (owner: "do it properly; precompute everything") + the Review-18 mandate registered
+Governance first (owner directive): **Review 18's pre-committed scope now includes the PROVENANCE
+sweep** — from day 0 the project has been owner + AI seats only; no banked language may read as
+external verification/peer review ("verified" = independently re-computed within the project's own
+toolchain; PROVENANCE.md at review) — **and the inner-terminology legibility sweep** (TERMINOLOGY.md
+or rephrasing; papers carry true status). Registered in docs/progress/REVIEWS.md + standing memory.
+THE CAMPAIGN (frontier/B598_l85_campaign/CAMPAIGN.md): the D1 existence construction, cells P0–P3,
+the five-item constraint sheet (B595 bridge, B596 order-failure, the dimension caveat, width-respect,
+state-independence), outcomes locked per the adopted D1 prereg. **P0 (the C1 baseline) COMPUTED:**
+the Kashaev sum ⟨4₁⟩_N at N = 100..1600 (40 digits): the corrected growth rate = Vol/2π to 1.15e-41;
+the 1-loop constant Richardson-extrapolates to **3^{−1/4} at 8e-12** (nearest competitor 24% away) —
+⟨4₁⟩_N ~ N^{3/2}·3^{−1/4}·e^{NV/2π}; normalization bridge recorded (T² = |τ₁| = 3 — the width enters
+squared, consonant with the quadratic hearing law). The D1 B425-row upgraded [CITED] → [COMPUTED].
+P1 (the cusp table) and P2 (the quantization arrow) are specified with their machinery inventory.
+2 locks. Firewalled.
