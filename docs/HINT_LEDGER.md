@@ -371,8 +371,8 @@ prior quantum-consciousness pointer. Genuine hooks:
 
 - **H132** [NOTICED, exact — B578-D4]: the ζ₉ double apparition — e₃ = (ζ₉+ζ₉⁻¹)/1728 (the
   1215-rung triple's cubic is ℚ(ζ₉)⁺-cyclotomic) AND B413's tower measure is a ℤ[ζ₉] Gauss sum
-  (norm 9). Two independent computations, one field. Possibly the Kubota–Leopoldt thread's true
-  home (the 3-adic tower's natural cyclotomic layer). Gate: connect or separate, in-sandbox.
+  (norm 9). Two independent computations, one field. **ANSWERED (B578-D5, same day): CONNECTED, mundanely and exactly — L(χ₁,μ)+L(χ₂,μ) = 432·e₃**
+  (elementary cyclotomic trace algebra, NOT Iwasawa; the KL identification itself RETRACTED).
 - **H133** [NOTICED — B578-D7]: Z = Tr ρ(A₁) = +1 at E₆ levels 1, 2, AND 3 (three independent
   exact computations). Is Z ≡ 1 at every level (a fixed-point/Lefschetz-type statement for the
   fig-8 monodromy in every E₆ theater)? Gate: level 4, or a proof.

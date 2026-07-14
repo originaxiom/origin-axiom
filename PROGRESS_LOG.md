@@ -3626,3 +3626,19 @@ B425; fibered-not-plumbed; the insights = well-labeled hypotheses, targets not p
 Literature anchors (DGLZ, DGG, Charles–Marché, GPPV, Murakami quantum modularity) slot under
 traverse step 0. Notable: the handoff carries the full discipline header — the attribution and
 compute-first lessons landed across seats. D5 (Kubota–Leopoldt) and D9 (hygiene) reruns launched.
+
+## 2026-07-14 — B578 CLOSED: D5 retraction fired + the 432·e₃ identity; D9 hygiene applied
+
+**D5 (rerun): RETRACTION FIRED** — "the tower measure IS Kubota–Leopoldt" refuted by exact
+computation (two methods): B413's values = the classical Gauss sums τ(χ), τ̄(χ) exactly
+(12·L(χ₁,μ) = 3ζ₉); the genuine L₃(−1,χ) = −(2/3)ζ₃−4/3 lives in ℚ(ζ₃), ℚ-independent (rank 4;
+norms 9 vs 16/3; coprime Galois subgroups make the mismatch structural); B519's √−15 citation
+belonged to cell A1. B519 VERDICT corrected in place. **THE GIFT — H132 ANSWERED:
+L(χ₁,μ) + L(χ₂,μ) = 432·e₃ EXACTLY** — the tower measure's Fourier coefficients sum to 432×
+the D4 jewel, via cyclotomic trace algebra (not Iwasawa). Two banks welded by one exact line.
+**D9 (rerun) applied:** tests/helpers_e6.py (the shared root/orbit BFS; b572/b573/b574
+refactored, 8/8 green, no behavior change); the L5/L20/L22 "duplicates" adjudicated as a
+DELIBERATE cross-reference register (do-not-renumber note added — the naive fix would have
+broken citations); the log-date convention documented in REPRODUCIBILITY. The B578 campaign
+is now fully closed: ten debts — seven cleared, one retraction fired, Q-C honestly reopened,
+one item self-corrected. Locks: +9 (kubota 1, refactored 8). Firewalled.

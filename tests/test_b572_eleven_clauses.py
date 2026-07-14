@@ -12,10 +12,11 @@ See frontier/B572_eleven_clauses/FINDINGS.md.
 """
 import importlib.util
 import os
-from collections import Counter
 
 import numpy as np
 import sympy as sp
+
+from helpers_e6 import fundamental_coweight_orbit, height_grading, weyl_vector
 
 _spec = importlib.util.spec_from_file_location(
     "c3mod", os.path.join(os.path.dirname(__file__), "..",
@@ -23,28 +24,11 @@ _spec = importlib.util.spec_from_file_location(
 c3 = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(c3)
 
-C6 = sp.Matrix([[2, 0, -1, 0, 0, 0], [0, 2, 0, -1, 0, 0], [-1, 0, 2, -1, 0, 0],
-                [0, -1, -1, 2, -1, 0], [0, 0, 0, -1, 2, -1], [0, 0, 0, 0, -1, 2]])
-
 
 def test_v1_branching_refuted():
-    G6 = C6.inv()
-    seen = {tuple(G6[:, 0])}
-    frontier = [G6[:, 0]]
-    while frontier:
-        new = []
-        for v in frontier:
-            for j in range(6):
-                pj = sum(C6[i, j] * v[i] for i in range(6))
-                u = sp.Matrix(v)
-                u[j] = v[j] - pj
-                tu = tuple(u)
-                if tu not in seen:
-                    seen.add(tu)
-                    new.append(u)
-        frontier = new
-    rho6 = sum([G6[:, j] for j in range(6)], sp.zeros(6, 1))
-    hc = Counter(sp.Rational((sp.Matrix(m).T * C6 * rho6)[0, 0]) for m in seen)
+    orbit = fundamental_coweight_orbit()          # the 27-weight orbit (shared BFS)
+    rho6 = weyl_vector()
+    hc = height_grading(orbit, rho6)
     assert hc[1] == hc[-1] == 2          # V3+V7+V17 would give 3
     assert hc[4] == hc[-4] == 2          # V3+V7+V17 would give 1
     assert hc[8] == hc[-8] == 1 and hc[0] == 3

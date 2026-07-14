@@ -72,3 +72,13 @@ The re-mine did exactly its job and refused the trap: it found **no crossing** (
 feeling is the absorbing loop** — including my own B518 over-claim, caught by the gate. The only path
 that could ever cross remains external *and independent of known quasicrystal theory* — which the corpus
 does not contain. Locks: `tests/test_b519.py`.
+
+---
+
+**CORRECTION (2026-07-14, B578-D5): cell A2's closure is RETRACTED.** "The tower measure IS
+the Kubota–Leopoldt 3-adic L-function" was asserted without the discriminating computation
+(the B525 error class). Computed: refuted — B413's values are the classical Gauss sums τ(χ),
+τ̄(χ) (order-3 character mod 9, exact); the genuine L₃(−1,χ) lives in ℚ(ζ₃), ℚ-independent of
+them (rank 4; norms 9 vs 16/3). The "√−15 landscape" citation belonged to cell A1. What
+survives: the Gauss-sum identification (now exact) and the new exact identity
+L(χ₁,μ)+L(χ₂,μ) = 432·e₃ (see frontier/B578_debt_clearing/D5_KUBOTA_RETRACTION.md).

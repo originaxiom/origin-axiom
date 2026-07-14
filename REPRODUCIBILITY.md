@@ -226,6 +226,10 @@ python -m pytest tests/ -v
 
 ---
 
+## Log-date convention
+
+`PROGRESS_LOG` entries are dated to the owner's working day, not the commit's UTC timestamp — an entry dated one calendar day ahead of the actual `git log` commit date is the working convention, not a data-entry error.
+
 ## Determinism
 
 All computations in the `proven` core are exact (integer/symbolic) or deterministic

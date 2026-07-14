@@ -10,12 +10,9 @@
       (u = -2 +- 2 sqrt2 at s = (3+sqrt5)/2).
 See frontier/B573_global_bridge/FINDINGS.md.
 """
-from collections import Counter
-
 import sympy as sp
 
-C6 = sp.Matrix([[2, 0, -1, 0, 0, 0], [0, 2, 0, -1, 0, 0], [-1, 0, 2, -1, 0, 0],
-                [0, -1, -1, 2, -1, 0], [0, 0, 0, -1, 2, -1], [0, 0, 0, 0, -1, 2]])
+from helpers_e6 import coordinate_charge, fundamental_coweight_orbit
 
 
 def test_bridge_value_exact():
@@ -29,22 +26,8 @@ def test_bridge_value_exact():
 
 
 def test_16_not_principal_stable():
-    G6 = C6.inv()
-    seen = {tuple(G6[:, 0])}
-    frontier = [G6[:, 0]]
-    while frontier:
-        new = []
-        for v in frontier:
-            for j in range(6):
-                pj = sum(C6[i, j] * v[i] for i in range(6))
-                u = sp.Matrix(v)
-                u[j] = v[j] - pj
-                tu = tuple(u)
-                if tu not in seen:
-                    seen.add(tu)
-                    new.append(u)
-        frontier = new
-    charges = Counter(sp.Rational(sp.Matrix(m)[0]) for m in seen)   # node-1 coweight charge
+    orbit = fundamental_coweight_orbit()          # the 27-weight orbit (shared BFS)
+    charges = coordinate_charge(orbit, index=0)   # node-1 coweight charge
     assert dict(charges) == {sp.Rational(1, 3): 16, sp.Rational(-2, 3): 10, sp.Rational(4, 3): 1}
     # e_principal includes e_{alpha_1}; alpha_1 in root coords is the basis vector e_1,
     # so its node-1 coweight charge is its first coordinate = 1 != 0 (computed, not assumed):
