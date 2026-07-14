@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B594: the E₆₂ hearing law — the sine kernel is the ear's coefficient
+
+### Added
+- B594 (the arc handoff's item 1): the hearing law is state-independent (the R3-C method gap
+  does not block it; verified on random C-symmetric states); the E₆₂ hearing coefficients =
+  minus B589's sine-kernel amplitudes (confirmed 1e-9, Im ≠ 0); the full 3×3 odd form banked;
+  the two-stage picture complete. Adjudication: the handoff's "three generations MATCHED" row
+  corrected against the unbanked B590-V3 tables. Locks: tests/test_b594_e6_hearing.py (3).
+
+
 ## 2026-07-14 — B593-V: the hearing law verified (exact symbolic + strengthened gates)
 
 ### Added
