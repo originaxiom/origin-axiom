@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B593-V: the hearing law verified (exact symbolic + strengthened gates)
+
+### Added
+- B593-V: V1 the amplitude coefficient exact over ℚ(ζ₂₀) (symbolic zero; independent
+  S-construction); V2 the 8₁₇ braid pinned by the full Jones polynomial; V3 the
+  negative-amphichirality triangle; the reversal-lemma caveat made explicit. 3 new locks.
+
+
 ## 2026-07-14 — B593: Round 4 — the second-order hearing law
 
 ### Added

@@ -3942,3 +3942,13 @@ displaced**; the quadrature theorem was this law's shadow. **R4-B (the third ent
 J₃(8₁₇) = J₃(reverse) to 1e-15 (det gate 37.0000; pipeline re-validated on 4₁): the C-symmetry wall
 extends past invertibility at this color/root (folklore-consistent); the dial route needs no third
 entity. 3 locks. Firewalled.
+
+## 2026-07-14 — B593-V: the hearing law adversarially verified (owner: "u sure? verify first")
+V1 (the headline, EXACT): the closed chiral amplitude coefficient re-derived in exact symbolic
+ℚ(ζ₂₀) arithmetic (an INDEPENDENT Kac–Peterson S-construction in sympy; unitarity trace = 6 exact):
+u₃†(Cρ(RL))u₃ − [1/(2φ) + i·sin(2π/5)/√5] = 0, symbolic zero — two independent S-matrix pipelines
+agree. V2: the 8₁₇ braid pinned by the FULL Jones polynomial at two generic q (upgrades the
+determinant-only gate). V3: the negative-amphichirality triangle closes (J₃ real; mirror = forward)
+— consistent with reverse-blindness. Caveat made explicit in FINDINGS: the R4-B null's wording
+rests on the standard reversed-word = reverse-knot anti-involution lemma (cited). 3 new locks
+(V1 OA_SLOW-gated, 11.6 s). All green.
