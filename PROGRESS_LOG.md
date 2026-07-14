@@ -4018,3 +4018,18 @@ the 1-loop constant Richardson-extrapolates to **3^{−1/4} at 8e-12** (nearest 
 squared, consonant with the quadratic hearing law). The D1 B425-row upgraded [CITED] → [COMPUTED].
 P1 (the cusp table) and P2 (the quantization arrow) are specified with their machinery inventory.
 2 locks. Firewalled.
+
+## 2026-07-14 — B599: THE θ-PARITY SELECTION RULE (chat-2, relayed in-chat during their outage) — the stage face banked
+The unification theorem: a Θ-invariant contraction of Θ-homogeneous factors vanishes unless the
+number of θ-odd factors is EVEN (proof: C central + C² = 1 — insert C through the contraction;
+verified additionally on 300 random Θ-homogeneous configurations, every odd-total pairing exactly
+zero). ONE GRADING, SEVEN BANKED RESULTS SUBSUMED: X3, the third and fourth unhearabilities,
+B592-OPEN's parity conservation, B593's ε² law (n = 2 = lean·lean), B594's state-independence, and
+the C-absorption identity (= the n = 0 statement; the dial IS insertions; the first surviving
+configuration is n = 2). The rule forces zeros, not values — the n = 2 coefficients stay
+stage-specific. THE ALGEBRAIC FACE: RELAYED-PENDING (chat-2's witnesses — route_exact.json,
+r4b_extraction.py, ord v₄ = 5/ord v₈ = 3, the −536481792000 t²-coefficient — were produced during
+their sandbox outage and never reached this repo; registered for artifact delivery or in-repo
+recomputation inside the L85 campaign's P2/P3, which this rule structures). Chat-2's longitude
+question answered: λ = [b,a] = "baBA" in ⟨a,b | abABaBAbaB⟩ (B67's fiber-boundary convention;
+P1's normalization ξ(μ) leading coordinate 1). 2 locks. Firewalled.

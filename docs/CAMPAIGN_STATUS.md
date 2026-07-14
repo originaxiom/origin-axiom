@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B599 — the θ-parity selection rule: one grading, seven results, 2026-07-14)
+- **Chat-2's unification theorem (relayed in-chat during their sandbox outage), stage face
+  proven and locked here:** a Θ-invariant contraction of Θ-homogeneous factors vanishes unless
+  the number of θ-odd factors is even — subsuming X3, the third and fourth unhearabilities,
+  parity conservation, the ε² hearing law, state-independence, and C-absorption as one
+  parity argument. Zeros forced, values stage-specific. The algebraic face awaits chat-2's
+  artifacts (relayed-pending, listed); their longitude question answered (λ = [b,a] = "baBA").
+
+
 ## LAST BANKED (B598 — the L85 campaign opened; P0 computed, 2026-07-14)
 - **The decisive-gap campaign is open** (CAMPAIGN.md: P0–P3, the five-item constraint sheet,
   A/B/D outcomes locked). **P0 done: the SL(2) baseline is now computed, not cited** — the

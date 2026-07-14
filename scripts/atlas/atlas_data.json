@@ -12185,11 +12185,13 @@
    "motifs": [
     "figure_eight",
     "kappa",
+    "eisenstein",
     "symplectic",
     "wrt_quantum"
    ],
    "refs": [
     "B425",
+    "B572",
     "B575",
     "B581",
     "B587",
@@ -12201,12 +12203,41 @@
     "P0",
     "P1",
     "P2",
-    "P3"
+    "P3",
+    "V2"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B599": {
+   "slug": "selection rule",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B576",
+    "B584",
+    "B585",
+    "B591",
+    "B592",
+    "B593",
+    "B594",
+    "B598",
+    "B67",
+    "L1",
+    "L85",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B59": {
    "slug": "sl4 factorization",
