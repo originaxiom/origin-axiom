@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B598-P1 — THE CUSP TABLE: the dial's cusp shadow, exact, 2026-07-14)
+- **The campaign's classical domain data exists.** Six blocks, exact ℚ(√−3) arithmetic:
+  dim H¹ = 1 per block (fresh-pipeline re-derivation), regular unipotency gates, and the
+  peripheral values ξ(μ), ξ(λ = [b,a]) in closed form. Plus: the L85 handoff adjudicated
+  (shifted-saddle ansatz adopted; the field claim corrected to the role-separation law —
+  structure from the object's field, values from the stage's field); item 6 adjudicated
+  (the banked chain safe; scope note on B576's lemma); Review 18 fires on L85 resolution
+  (owner override). Next: P2, the quantization arrow.
+
+
 ## LAST BANKED (B599 — the θ-parity selection rule: one grading, seven results, 2026-07-14)
 - **Chat-2's unification theorem (relayed in-chat during their sandbox outage), stage face
   proven and locked here:** a Θ-invariant contraction of Θ-homogeneous factors vanishes unless

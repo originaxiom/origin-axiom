@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B598-P1: the cusp table (exact) + adjudications + the review override
+
+### Added
+- B598-P1: the six-block cusp table, exact over ℚ(√−3) (fresh Fox pipeline; dim H¹ = 1 ×6
+  independently re-derived; ξ(μ), ξ(λ = [b,a]) per block; OA_SLOW lock green 14:31). The
+  handoff adjudication (ansatz adopted; field claim corrected; the role-separation law).
+  Item-6 adjudicated (banked chain safe via B582's direct certificate; scope note on B576's
+  lemma). Review-18 timing override (fires on L85 resolution). Locks: tests/test_b598_p1.py.
+
+
 ## 2026-07-14 — B599: the θ-parity selection rule (stage face banked)
 
 ### Added
