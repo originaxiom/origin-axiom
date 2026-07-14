@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B597: D1 processed — outcome C conditionally excluded
+
+### Added
+- B597: chat-1's dictionary prereg adopted with binding corrections; T1/T2 run (both planes
+  carry canonical line-splittings — τ-widths and eigenlines non-degenerate); outcome C
+  (free rotation) structurally excluded conditional on existence; D1 narrowed to existence
+  (A/B vs D); the construction route registered as L85; downstream stays gated. Locks:
+  tests/test_b597_d1.py (2).
+
+
 ## 2026-07-14 — B596: the clock is not the naive cat-map period (null-with-structure)
 
 ### Added

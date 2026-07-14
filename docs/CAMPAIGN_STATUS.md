@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B597 — D1 processed: C excluded conditionally; narrowed to existence, 2026-07-14)
+- **Chat-1's dictionary prereg adopted (with four binding corrections) and its tractable cells
+  run.** Both θ-odd planes carry canonical line-splittings (τ-widths differ by 10¹⁴; quantum
+  eigenlines distinct) — the free-rotation outcome C is structurally excluded conditional on
+  existence + width-respect. **D1 = the existence question now (A/B vs D)**; the construction
+  route (boundary restriction → Weil quantization) is L85, the next campaign. Everything
+  SM-facing stays gated behind A/B.
+
+
 ## LAST BANKED (B596 — the clock is NOT the naive cat-map period, 2026-07-14)
 - **An honest kill, banked as registered.** The blind sweep refutes "the θ-odd clock = the
   quantum cat-map period" in every simple form (the prereg's hand-checks were lucky rows;
