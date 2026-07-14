@@ -3840,3 +3840,13 @@ banked sign law forces the phase dichotomy (θ-odd {4,8} REAL, θ-even {1,5,7,11
 **|Σ c_m/√τ_m|² = |chiral|² + |gauge|² exactly — the chiral channels never interfere linearly with
 the gauge channels; chirality enters the modulus only in quadrature.** Another face of the
 unhearability chain. 2 locks. Firewalled; no SM quantities.
+
+## 2026-07-14 — B589: the three E₆₂ pair amplitudes IDENTIFIED — the sine kernel carries the moduli (L83(a))
+The review queue's item 4. The Weyl sums collected EXACTLY (Counter over rational exponents, denom|42),
+evaluated at 50 digits: **p(27) = (2/√7)sin(2π/7)·ζ₁₄⁺³, p(351′) = (2/√7)sin(6π/7)·ζ₁₄⁻²,
+p(351) = (2/√7)sin(4π/7)·ζ₁₄⁻¹** (args exact; moduli certified 40+ digits; r₂ satisfies
+7r³+7r²−1 = 0, the ℚ(cos π/7) cubic). **The moduli are EXACTLY the banked ℤ/7 sine kernel** (B572's
+S_odd row) — the monodromy's odd diagonal carries the odd S-matrix's own moduli and adds only three
+14th-root phases {+3,−2,−1}. The θ-odd dynamics at E₆₂ is completely arithmetic: sine kernel
+(magnitudes) + ζ₁₄ (phases) + order 4 (the block). Post-hoc: the phases do NOT match the conformal
+weights (h−c/24 mod 1) — the phase grading stays open (→ L83(b)). 4 locks. Firewalled.
