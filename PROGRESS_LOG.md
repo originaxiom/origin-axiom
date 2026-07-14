@@ -3756,3 +3756,19 @@ conjugate pairs cancelling exactly). Level-rank re-read: SU(2)₃ has C = 1 (all
 ONE number in two OPPOSITE parity sectors (B242's =conjugation at the sector level). E₆₂ contrast (C3):
 listener amplitude 1, order 4 — the listener's clock is stage-dependent (10 golden vs 4 E₆). 5 locks.
 Firewalled; no SM quantities.
+
+## 2026-07-14 — B585: the listener's law — two lifts, two tones, one refuted mechanism
+"What's next" answered constructively: turn B584's single data point into a law. N1 (THE NAMING
+THEOREM, verified matrix-level on 4 words): S² = −C on the stage, S² = −I in SL(2,ℤ), so the
+mirror-twisted play IS (up to the central sign) the play of the OTHER SL(2,ℤ) lift −M — the
+(−A₁)-bundle, trace −3; hence **tr_odd = ½(Z(W) + Z(S²W)): chirality is what the two lifts agree
+on**; the even channel is the lift-dependence (B279's complement spin bit cited as adjacent).
+K1 (blind table k=1..12, hold-outs k=13..17 ALL HIT incl. the κ=20 collision = 1/φ² additive):
+**LAW-O: tr_odd(RL; SU(3)_k) = [4|κ] − [5|κ]/φ** — the chiral voice is a two-tone chord (unit
+4-tone + golden 5-tone); κ=5 is B584's pure-golden case. LAW-E (even channel) FAILED hold-out —
+banked as a dead guess. Clock table: 60 ticks at the golden-voiced κ=10,15 (L77's number); no
+κ-law claimed. M1 (mechanism, preregistered): field containment (√5∈ℚ(ζ_κ)) predicts silver→8|κ,
+bronze→13|κ — **REFUTED** (silver fires on multiples of {4,5,7}; bronze silent at κ=10 while
+firing at 5,15,25 = destructive interference; non-constant tones). Only the figure-eight has the
+clean constant additive law — golden/minimal special again. New lead L82 (signed fixed-point
+mechanism). 9 locks. Firewalled; no SM quantities.

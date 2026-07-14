@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B585: the listener's law — two lifts, two tones, one refuted mechanism
+
+### Added
+- B585: N1 the naming theorem — tr(Cρ(W)) = −tr ρ(S²W): the mirror-twisted play is the play of
+  the other SL(2,ℤ) lift (−A₁ bundle, trace −3); chirality = the lift-symmetrization channel.
+  LAW-O verified on held-out levels incl. the κ=20 collision (additive, = 1/φ²):
+  tr_odd(RL; SU(3)_k) = [4|κ] − [5|κ]/φ — a two-tone chord; κ=5 = B584's pure-golden point.
+  Clock table recorded (60 at the golden-voiced κ=10,15 — L77's number); LAW-E failed hold-out
+  (banked dead); M1 field-containment mechanism preregistered and REFUTED (silver/bronze loci
+  move wrong; interference at κ=10) — only the figure-eight carries the clean constant law.
+  New lead L82 (fixed-point mechanism). Locks: tests/test_b585_listener_law.py (9).
+
+
 ## 2026-07-14 — B584: Round 3, the listener — the golden amplitude is entirely θ-odd
 
 ### Added
