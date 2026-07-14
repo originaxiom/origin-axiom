@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B578 closed: the Kubota retraction + 432·e₃; the hygiene batch applied
+
+### Added
+- D5 rerun: **RETRACTION FIRED** (tower measure ≠ Kubota–Leopoldt — exact, two methods; B519
+  VERDICT corrected) + **the exact identity L(χ₁,μ)+L(χ₂,μ) = 432·e₃** (H132 answered:
+  connected via cyclotomic algebra, not Iwasawa). `D5_KUBOTA_RETRACTION.md`, 1 lock.
+- D9 rerun: `tests/helpers_e6.py` + b572/b573/b574 refactor (8/8, no behavior change); the
+  L5/L20/L22 do-not-renumber adjudication; the log-date convention (REPRODUCIBILITY.md).
+
+
 ## 2026-07-14 — B578: the debt-clearing campaign complete
 
 ### Added
