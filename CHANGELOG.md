@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B207 lock de-flaked (deterministic triangulation)
+
+### Fixed
+- frontier/B207.../scale_volume.py: metallic_volume uses the canonical 'b++R^m L^m' bundle
+  triangulation (no canonize/randomize RNG); banked volumes reproduce exactly; the suite's
+  only flaky lock now passes 5/5 at ~1 s. Assertions unchanged. (Review-17 queue item 8.)
+
+
 ## 2026-07-14 — PC26 draft v1 (the flagship drafting started; gate satisfied)
 
 ### Added

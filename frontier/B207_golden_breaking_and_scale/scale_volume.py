@@ -22,6 +22,17 @@ V_OCT = 3.6638623766952       # regular ideal octahedron
 
 
 def metallic_volume(m, randomize_tries=60):
+    # Deterministic construction (Review-17 queue item 8): the canonical
+    # punctured-torus-bundle triangulation 'b++R^m L^m' is positively oriented
+    # directly -- no canonize/randomize RNG, so the lock cannot flake. The old
+    # twister + randomize path is kept as a fallback for older SnapPy builds.
+    import snappy
+    try:
+        M = snappy.Manifold('b++' + 'R' * m + 'L' * m)
+        if 'positively' in M.solution_type():
+            return float(M.volume()), M.solution_type()
+    except Exception:
+        pass
     from snappy import twister
     M = twister.Surface('S_1_1').bundle('a' * m + 'B' * m)
     M.canonize()

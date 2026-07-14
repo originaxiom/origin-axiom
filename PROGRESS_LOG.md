@@ -3871,3 +3871,10 @@ non-claims; scope includes the full Round-3 suite (unhearability ×3, the antiph
 two-lifts naming theorem, quadrature, LAW-O + the twelve-Gauss-sum mechanism, sector exchange, the
 sine-kernel amplitudes). Pre-submission residual: the SU(3) per-term reciprocity proof (L82 Wave 2)
 would upgrade Thm 7.2 to [PROVED]. CANDIDATES row updated.
+
+## 2026-07-14 — B207 lock de-flaked: the deterministic bundle triangulation (Review-17 queue item 8)
+The suite's only flaky (SnapPy canonize+randomize RNG under load; degraded to standalone-flaky per
+Review 17) is re-derived deterministically: metallic_volume now uses the canonical punctured-torus-
+bundle triangulation 'b++RᵐLᵐ' (positively oriented directly, no RNG; twister path kept as fallback).
+The banked volumes reproduce exactly (m=1: 2·V_TET; m=2: V_OCT to 1e-15); the lock passes 5/5
+consecutive runs at ~1 s (was minutes). No assertion changed — only the construction path.
