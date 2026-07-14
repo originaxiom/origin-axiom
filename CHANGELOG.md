@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B589: the E₆₂ pair amplitudes identified — the sine kernel carries the moduli
+
+### Added
+- B589 (L83(a) resolved): exact closed forms p_j = (2/√7)sin(2πj′/7)·ζ₁₄^{k_j} with
+  (j′,k) = (1,+3),(3,−2),(2,−1); certified 40+ digits (exact-basis Weyl sums); the moduli =
+  B572's banked ℤ/7 sine kernel row — the monodromy's odd diagonal carries the odd S-matrix's
+  own moduli; r₂ root of 7r³+7r²−1. Phases ≠ conformal weights (post-hoc, registered; grading
+  → L83(b)). Locks: tests/test_b589_pair_amplitudes.py (4).
+
+
 ## 2026-07-14 — B583-X2R: the quadrature theorem (the corrected X2 closed)
 
 ### Added

@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B589 — THE PAIR AMPLITUDES IDENTIFIED: the sine kernel again, 2026-07-14)
+- **L83(a) resolved.** The three E₆₂ per-pair chirality amplitudes in closed form:
+  (2/√7)sin(2πj′/7)·ζ₁₄^k, (j′,k) = (1,+3),(3,−2),(2,−1) — certified 40+ digits from
+  exact-basis Weyl sums. **The moduli are exactly B572's banked ℤ/7 sine kernel** — the
+  monodromy's odd diagonal carries the odd S-matrix's own moduli, adding only three 14th-root
+  phases. The θ-odd dynamics at E₆₂ is completely arithmetic. The phase grading (≠ conformal
+  weights, checked) stays in L83(b).
+
+
 ## LAST BANKED (B583-X2R — THE QUADRATURE THEOREM, 2026-07-14)
 - **The corrected X2 closed (the review queue's item 3).** CS = 0 kills the phase; the sign law
   sign(τ_m) = (−1)^m IS the interference structure, and it decrees quadrature: the chiral

@@ -11963,6 +11963,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B589": {
+   "slug": "pair amplitudes",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B570",
+    "B572",
+    "B578",
+    "B586",
+    "L83"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [
