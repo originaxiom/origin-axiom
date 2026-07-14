@@ -3742,3 +3742,17 @@ SYNTHESIS: the meeting's chirality is real, invisible to every trivial probe, ca
 forced compact structure, and its interference signature is the torsion sign law. **The
 chord's law: chirality is heard only by an observer who is themselves in a nontrivial state.**
 2 locks. Firewalled.
+
+## 2026-07-14 — B584: Round 3, THE LISTENER — the golden amplitude is entirely θ-odd
+The owner asked what the nontrivial listener could be ("its mirror?"). Preregistered (MB13 sweep:
+B238/B242/B243/B245/C3/X3 reused, no rediscovery), computed blind on the golden stage SU(3)₂ (κ=5).
+THE ANSWER: the mirror ALONE is deaf — bare knot states have zero θ-odd component (J_3 = J_3̄ computed,
+the third unhearability); the nontrivial listener is the ANTIPHASE mirror channel u = (e_λ − e_λ̄)/√2,
+operationally tr_odd ρ = ½(Z − Z_C) — half the difference between the plain play and the mirror-twisted
+play (B582's double made operational). THE BLIND RESULT: **tr_even = 0 exactly; tr_odd = −1/φ — the
+ENTIRE banked golden value Z = −1/φ (B238) is θ-odd.** The odd block = the order-10 golden rotation
+(eigenvalues e^(±3πi/5), trace 2cos(3π/5) = −1/φ); the even block = a silent order-20 clock (two
+conjugate pairs cancelling exactly). Level-rank re-read: SU(2)₃ has C = 1 (all-even) — the pair realizes
+ONE number in two OPPOSITE parity sectors (B242's =conjugation at the sector level). E₆₂ contrast (C3):
+listener amplitude 1, order 4 — the listener's clock is stage-dependent (10 golden vs 4 E₆). 5 locks.
+Firewalled; no SM quantities.
