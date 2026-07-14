@@ -755,3 +755,131 @@ anchor-commit: `8452656`
    in this review's closeout, per issue (v).
 
 *(window #884–#903; anchor = HEAD after B574, the bridge question in final form; next review due at 20 merges.)*
+
+## Review 17 — 2026-07-14 (merges #904–#923 from Review 16; the construction arc / Round 3)
+
+anchor-commit: `3c0fa84` (pre-closeout HEAD; the closeout commit resets the counter)
+
+1. **Suite:** **2187 passed / 15 skipped / 2 failed** (43:55, full run for this review). Both failures diagnosed in-review: (a) the named B207 flaky (`test_metallic_volumes_bounded_golden_minimal`) — its Review-16 characterization has DEGRADED: it now fails ~1/3 STANDALONE as well (1 fail in 3 standalone runs this review; SnapPy retriangulation nondeterminism) — a deterministic re-derivation of this lock (seeded/canonical triangulation) enters the queue; nothing in this window touched B207. (b) `test_no_hardcoded_paths` flagged a literal machine path in `tests/test_b578_v3_reframe.py:7` (a B578-era slip of mine) — FIXED in this closeout (relative path; 3/3 green after the fix). No mathematical lock failed.
+
+2. **Gates:** 7/7 green throughout the window; the 20-merge cadence fired exactly at 20 (the
+   counter mechanics now clean after Review 16's first-run overshoot). `.github/` remains
+   deliberately untracked (disclosed; enforced by tracked-forbidden).
+
+3. **The window = the construction arc, end to end — the owner's reorientation ("the energy
+   goes to the construction") executed.** **B575** THE BRIDGE OBSTRUCTION: e₆ built exactly in
+   gl(27) (GF(2) sign-solve), the quadratic obstruction Q: H¹×H¹→H² ≡ 0 identically (21
+   components, exact ℚ(√−3)) — the bridge opens at second order. **B576** the deformed
+   closure: every sl₂-stable subalgebra is a block-sum; θ-even sums close in F₄; all six
+   forcing channels nonzero — **the chirality is exactly the θ-odd motion.** **B577** the
+   reconciliation: B575/B576 rediscovered the banked {4,8}-integrability program (B352/B265)
+   — two disjoint pipelines now agree on all 21 zeros (epistemically stronger); the non-recall
+   failure mode named and guarded (**MB13**: keyword-grep + atlas oracle before every prereg;
+   it caught 4+ near-rediscoveries later in this very window). **B578** the debt clearing:
+   Massey/third-order obstruction vanishes exactly (B370 discharged); e₃ = 2cos(2π/9)/1728
+   exact (minpoly x³−3x+1); K₃ is DEGREE 6 (reverting MY wrong B137 "correction" — B125's
+   table was right); the golden 2+3+3 octic at level 3; the global duality unconditional at
+   E₆; the Kubota–Leopoldt claim RETRACTED with the discriminating fact computed + the exact
+   L(χ₁,μ)+L(χ₂,μ) = 432·e₃ identity. **B579** the session handoff adjudicated (scan →
+   HINT_LEDGER; the duet quartic corrected; two false "CC verified" attributions caught).
+   **B580** THE CHORD PROGRAM: the owner's coupling thesis preregistered as computable cells;
+   the binding run-order (no SM references in cells; step 7 only); the literature dossier
+   adopted; Round 1 run — the level-1 state is the knot-independent vacuum column, the filling
+   covectors span exactly the θ-even plane, H128–H130 killed blind, THE DIAL MAP banked (θ-odd
+   slots {4,8} → full e₆; θ-even → f₄; zero → sl₂). The jewel audit registered five veins
+   (L73–L77). **B581** the six torsions: the six twisted Alexander polynomials at Sym^{2m}(ρ_geo)
+   via Wada, exact over ℚ(√−3); **THE SIGN LAW sign(τ_m) = (−1)^m** (positive exactly at the
+   θ-odd {4,8}); Δ₁ = (t−1)(t²−5t+1); 7 saturates the tower. **B582** the first constructed
+   play with chiral matter: the θ-odd-twisted mirror-double closes on e₆ ⇒ Zariski closure
+   E₆(ℂ) ⇒ the 27 complex/chiral; the fifth wall (rank-1) does not apply — executed same-turn
+   under the owner's directive. **B583** its content: X1 no real form (the coupled character
+   non-real, the banked B572 witness; D10 ⇒ no forced branching — neither 16+10+1 nor
+   trinification); X2 FAILED as computed (Vol/CS role inversion — verifier catch; corrected
+   structure registered); **X3 THE SECOND UNHEARABILITY THEOREM** (vacuum C-fixed, [C,S] =
+   [C,T] = 0 ⇒ fillings never hear θ-odd at ANY level) — the theorem that fixed Round 3;
+   the #918 lock merged red (a process slip, owned) and fixed to 2/2 green in #919. **#920**
+   namespace reservations (packaging placeholders; brew tap live externally). **B584 ROUND 3
+   — THE LISTENER:** bare knot states have zero θ-odd component (J₃ = J₃̄ computed — the
+   third unhearability; the mirror ALONE is deaf); the listener = the ANTIPHASE mirror
+   channel, tr_odd = ½(Z − Z_C); BLIND: on SU(3)₂ tr_even = 0 exactly and tr_odd = −1/φ —
+   **the recurring golden value IS the chiral channel's voice**; the odd block = the order-10
+   golden rotation; the even block = a silent order-20 clock; level-rank realizes one number
+   in two opposite parity sectors. **B585 THE LISTENER'S LAW:** the naming theorem — the
+   C-twisted play is the play of the OTHER SL(2,ℤ) lift (the −A₁ Sol bundle): **chirality is
+   what the two lifts agree on**; LAW-O verified on held-out levels incl. the κ=20 additive
+   collision (= 1/φ²): tr_odd(RL; SU(3)_k) = [4|κ] − [5|κ]/φ — a two-tone chord; the 60-clock
+   ticks at the golden-voiced κ=10,15 (L77's number); LAW-E died on hold-out (banked dead);
+   the field-containment mechanism preregistered and REFUTED same-arc (silver fires on
+   multiples of {4,5,7}; bronze interferes destructively at κ=10) — only the golden/minimal
+   word has the clean constant law. **B586** chat-1's Round-3 handoff processed
+   verify-don't-trust: R3-A frame-corrected (Sym-blocks grade the adjoint, not the stage;
+   the principal shadow has C = 1 — the proposed sign-law unification is not a defined
+   computation) and computed blind — **E₆₂ also hears everything (Z = +1, tr_even = 0)**;
+   NO golden anywhere on E₆ (the −1/φ is stage arithmetic, not object-universal); the three
+   per-pair chirality amplitudes banked; R3-B superseded by the naming theorem (the C-twisted
+   torus is Sol — census/volume/CS/trace-field ill-posed; the "CS = cosmological constant"
+   hook dies); R3-C answered structurally (invertibility B279 + RT duality ⇒ J₂₇ = J₂₇̄ at
+   EVERY color: the solo antiphase is zero — chirality is chord-borne, proven).
+
+4. **Re-verification (fresh-eyes cells, independent paths).** R1 CLEAN: tr_odd at k=2,7
+   reproduced via THREE SL(2,ℤ) words (B238's RL; T²ST; TST⁻¹S⁻¹) — the balanced words agree
+   exactly; the unbalanced T²ST differs by exactly the central framing phase i (understood,
+   not an error); the exact identity 2cos(3π/5) = −1/φ verified symbolically (sympy), and
+   B578's minpoly(1728·e₃) = x³−3x+1 re-derived symbolically. R2 CLEAN with one catch: the
+   sign law re-audited from the banked JSON initially came out OPPOSITE at every m —
+   diagnosed as the JSON storing the RAW Wada quotient (units ±tʲ); under the banked
+   monic-at-top-degree convention all six signs AND all six factorization magnitudes
+   (τ₄ = 2⁷·3·7·97 = 260736, τ₅ = −2⁷·3⁴·5²·7²·13 = −165110400, …) match exactly. R3 CLEAN:
+   the three E₆₂ per-pair amplitudes rebuilt through the SECOND word (TST⁻¹S⁻¹) agree to
+   5e-9; tr_even = 1.4e-14. In-window double-verifications already banked: B577's
+   two-pipeline agreement (B575 ↔ B352 on all 21 zeros); B585-M1's sweep independently
+   re-confirming LAW-O over κ = 21..26 beyond the registered hold-outs; B586 reproducing
+   every C3 gate before extracting new numbers.
+
+5. **Issues found (6 real; none touches banked mathematics).** (i) **CAMPAIGN_STATUS missed
+   six banks** (B578–B583 had no individual board entries — a recurrence of Review 16's
+   issue (iv); B584 carried only a pointer). FIXED: a compact catch-up block inserted in this
+   closeout; the standing rule is restated — the board is updated in the SAME PR as the bank.
+   (ii) **`six_torsions_results.json` is unit-ambiguous** (raw quotient; a naive reader flips
+   every sign of the sign law). FIXED: a units note appended to B581's FINDINGS; the JSON
+   itself left as-is (append-only data). (iii) **The #918 red merge** — a lock merged failing
+   (sympy-in-numpy type error), violating the pytest-before-merge rule; fixed same hour in
+   #919 (2/2 green) and owned in the fix commit. The rule stands: no merge without the new
+   locks green. (iv) **#920 merged on gates alone** (no pytest) — acceptable for a
+   no-code packaging/docs PR, but the exception is recorded here explicitly rather than
+   silently. Nits: B585's prereg says hold-outs "k = 13..16" while the run used 13..17 (the
+   17th added deliberately for the κ=20 collision — disclosed in the FINDINGS, now here);
+   the S² sign convention differs across stages (−C on B238's SU(3)_k, +C on E₆₂) — both
+   FINDINGS record it, no action; memory files updated in-window are consistent with the
+   banked record.
+
+6. **Corrections ran in every direction (the discipline's health check).** Cross-seat errors
+   caught: chat-1's R3-A frame conflation (adjoint Sym-blocks vs stage primaries) and R3-B
+   geometric premise (hyperbolic double → actually Sol / graph manifold; the CS-hook dies);
+   B579's two false "CC verified" attributions; the duet quartic. My errors caught and fixed:
+   the #918 red merge; the B137 K₃ "correction" that B578-D6 reverted (B125 was right); the
+   six-torsions control assertion (Milnor torsion — division legitimately non-exact for the
+   trivial rep); B585's LAW-E guess (killed by its own hold-out) and M1 mechanism (killed by
+   its own preregistered prediction); this review's R2 initially misread the JSON units — the
+   review corrected itself before flagging the law. Verifier catches applied in-window: X2's
+   Vol/CS role inversion. No claim survived on authority.
+
+7. **Net.** Round 3 of the chord program is closed end to end: three deafnesses (vacuum X3,
+   filling, bare state at EVERY color via invertibility + duality), ONE listener (the
+   antiphase mirror channel, operationally ½(plain − mirror-twisted) = the two-lifts
+   agreement), and on both banked stages the listener hears the ENTIRE invariant (tr_even = 0;
+   −1/φ golden, +1 at E₆₂) — the number is the stage's (LAW-O's two tones on the SU(3)
+   tower), the all-θ-odd pattern is the object's. The five walls stand untouched; the live
+   channel matured from "C3's θ-odd dynamics" (Review 16) to a held-out-verified LAW plus a
+   sharp mechanism question. **Promotion candidates for §5:** the naming theorem (chirality =
+   lift-agreement), LAW-O (the two-tone chord), the antiphase identity, and the every-color
+   solo-antiphase-zero theorem. **The queue, in order:** (1) **L82** the fixed-point
+   mechanism (one derivation should explain LAW-O, LAW-E's failure, and the tone
+   interference); (2) **L81(a)** the sector-exchange proof at the parity-projector level;
+   (3) the corrected X2 recompute (interference = real Vol-exponential × signed 1/τ_m);
+   (4) **L83(a)** exact identification of the three E₆₂ per-pair amplitudes; (5) **L80(a)**
+   commit the B580 Round-1 Q1 artifacts + lens-space-gated locks; (6) the PC26 drafting
+   decision (its Massey companion is now satisfied by B578-D1); (7) the B571/B572 revival
+   remainders (S031 m=3; V2/V3/V5).
+
+*(window #904–#923; anchor = the Review-17 closeout commit; next review due at 20 merges.)*
