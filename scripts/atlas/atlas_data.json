@@ -11767,8 +11767,8 @@
     "L72",
     "L74"
    ],
-   "obstacle": "spacetime_3p1",
-   "obstacle_conf": 1,
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -11907,6 +11907,33 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B587": {
+   "slug": "weil mechanism",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B204",
+    "B238",
+    "B585",
+    "B586",
+    "L24",
+    "L33",
+    "L82",
+    "V198"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },

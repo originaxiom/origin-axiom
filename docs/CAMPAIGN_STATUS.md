@@ -49,6 +49,18 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B587 — THE TONE MECHANISM SOLVED: twelve Gauss sums, 2026-07-14)
+- **L82 answered (the review queue's first item).** The stage hears the object through exactly
+  twelve Gauss sums — the object's eigenvalue pair twisted by every element of the stage's own
+  point group ±W(A₂): Z = (1/6)Σ sign(w) tr(ρ_Weil∘P_w), EXACT at every κ tested; each term
+  gated by the conductor det(A⊗(±w)−I₄). LAW-O re-derived at every κ; **the golden voice in
+  closed form: (1/12)[(1+5) − 6√5] = −1/φ**; silver's mystery 7 = N(α·ω−1) = 49 (the object's
+  unit through the stage's ℤ₃ rotation — the registered prediction confirmed); bronze's κ=10
+  silence = the exact cancellation (4−12+8)/12 = 0; LAW-E's lawlessness explained; "golden is
+  special" mechanized (unit dets ⇒ exact generic cancellation). Framework known (Jeffrey
+  1992/B204, cited). Residual: the per-term reciprocity proof (Wave 2).
+
+
 ## LAST BANKED (B586 — ROUND 3 CLOSES: E₆ hears everything too; the golden voice stays home, 2026-07-14)
 - **Chat-1's Round-3 handoff processed verify-don't-trust.** The blind headline: **E₆₂'s whole
   amplitude is also θ-odd (Z = +1, tr_even = 0)** — two stages now show the object's invariant
