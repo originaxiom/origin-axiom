@@ -3860,3 +3860,14 @@ projection < 1e-10), the lens-space control gate (|Z(L(p,1))| via the surgery sa
 = the direct ℤ₃ Gauss sum, p = 1..12), and the knot-blindness control. Q2's banked-null condition
 is now satisfied. L80: (a) DONE; (c) moot (q1_part2.py was never committed — nothing to mark);
 (b) R-matrix at level 1 and (d) Meyerhoff ±5 stay open. 4 locks. Firewalled.
+
+## 2026-07-14 — PC26 drafting started (the gate is satisfied): papers/drafts/PC26_full_chain/ v1
+The review queue's item 6, decided constructively per the owner's "both". The registry gate (L51
+unobstructed + the Massey companion) is satisfied by B575 + B578-D1, so PC26 revives as the flagship.
+Draft v1 written (ABSTRACT.md + PAPER.md): honest retitle "Chirality from the Figure-Eight Knot: the
+θ-Odd Sector of the E₆ Character Variety and Its Listeners" (the registry alias = the firewalled
+motivation, §9); ten sections; every theorem status-labeled and lock-named; the five walls restated as
+non-claims; scope includes the full Round-3 suite (unhearability ×3, the antiphase listener, the
+two-lifts naming theorem, quadrature, LAW-O + the twelve-Gauss-sum mechanism, sector exchange, the
+sine-kernel amplitudes). Pre-submission residual: the SU(3) per-term reciprocity proof (L82 Wave 2)
+would upgrade Thm 7.2 to [PROVED]. CANDIDATES row updated.
