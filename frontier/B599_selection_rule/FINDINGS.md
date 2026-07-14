@@ -56,3 +56,23 @@ coordinate 1.
 X3/B584/B592/B592-OPEN/B593/B594 (the subsumed results), B576 (the ℤ₂
 grading), B585/B591 (the two lifts as the geometric carrier), chat-2's
 handoff (the theorem's source — relayed in-chat during their outage).
+
+## B599-ALG — the algebraic face: UPGRADED from relayed-pending to in-repo recomputed
+
+Chat-2's extraction script (delivered verbatim in-chat during their outage;
+`r4b_extraction.py`, path-fixed; full output `r4b_extraction_output.txt`) ran
+green in this repository. Every expected lock matched:
+- **L0:** the pairing form Ω is NOT dot-symmetric — the blocks are not
+  dot-orthogonal, so the L1 zeros are parity, not orthogonality;
+- **nilpotency:** ord(v₄) = 5, ord(v₈) = 3 on the 27 (exact);
+- **L1 (the k = 1 parity lemma):** (v_m v₀)ᵀv₀ = 0 exactly at m = 4 and 8;
+- **the algebraic quadratic law:** the Im-part of every tested word/slot
+  starts at t² (five words × two slots) — the n = 2 selection-rule statement
+  on the algebraic face, exact;
+- **the witnesses:** m = 4/b2 → +2096640; m = 8/b2 → −536481792000;
+- **the weld-only twist-twist identity:** the m = 8 weld value's
+  √−3-coefficient = −536481792000 = the t² coefficient, exactly.
+The general-k graded-trace bookkeeping remains flagged (chat-2's own caveat);
+k = 1, 2 are exact computations. Item 4 (the frozen 20-word tables) is one
+TESTW extension away — queued (chat-2's sandbox or a later slot here).
+Locks: `tests/test_b599_alg.py` (OA_SLOW).

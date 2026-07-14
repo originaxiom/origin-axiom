@@ -49,6 +49,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B599-ALG — the selection rule complete on both faces, 2026-07-15)
+- **Chat-2's algebraic face recomputed in this repository, every witness exact:** the L1
+  parity zeros (not orthogonality — L0 locked), nilpotency orders 5/3, the algebraic
+  quadratic law (Im starts at t² for every word/slot), the ±witnesses (+2096640,
+  −536481792000), and the weld-only twist-twist identity. One parity grading now carries the
+  whole hearing theory on both the stage and the algebra, all in-repo.
+
+
 ## LAST BANKED (B598-P1 — THE CUSP TABLE: the dial's cusp shadow, exact, 2026-07-14)
 - **The campaign's classical domain data exists.** Six blocks, exact ℚ(√−3) arithmetic:
   dim H¹ = 1 per block (fresh-pipeline re-derivation), regular unipotency gates, and the

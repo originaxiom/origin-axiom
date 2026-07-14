@@ -4050,3 +4050,14 @@ the banked chain is SAFE (B582's certificate is a direct finite-t generation com
 lands as a scope note on B576's lemma; the closed-condition patch queued optional in P3.
 REVIEW-18 TIMING OVERRIDE registered (owner): fires on L85 resolution, not at 20 merges. 1 OA_SLOW
 lock. Firewalled.
+
+## 2026-07-15 — B599-ALG: the selection rule's algebraic face — UPGRADED to in-repo recomputed
+Chat-2's extraction script (delivered verbatim in-chat during their outage) ran green here, every
+expected value exact: **L0** Ω not dot-symmetric (the L1 zeros are parity, not orthogonality);
+**ord(v₄) = 5, ord(v₈) = 3**; **L1** (v_m v₀)ᵀv₀ = 0 at both slots; **the algebraic quadratic law**
+— every tested word/slot's Im starts at t² (5 words × 2 slots); **the witnesses** +2096640 (m=4/b2)
+and −536481792000 (m=8/b2); **the weld-only twist-twist identity** (the m=8 weld's √−3-coefficient
+= the t² coefficient, exactly). The selection rule now stands complete in-repo on BOTH faces (stage
+#942 + algebraic here). Flagged remainders: the general-k graded-trace bookkeeping (chat-2's own
+caveat) and item 4 (the frozen 20-word tables — one TESTW extension). 4 OA_SLOW locks (7:35 green).
+Firewalled.
