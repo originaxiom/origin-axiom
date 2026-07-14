@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (the seat-4 audit adopted: the readiness chain, 2026-07-15)
+- **The campaign now runs under the audited gating** (9-step readiness chain; P3 sealed until
+  green). My item-6 overclaim corrected on the record: B582's finite-t certificate is not
+  in-repo (uncommitted G1 code — the provenance hole); existence claims are jet-level until
+  the mandatory G1 recomputation. Hardening banked: erratum + amendment, peripheral
+  certificate (seat 4's longitude table verified row-by-row), preserved + hashed original
+  Gate-A failure, six-block word-independence GREEN, P0 → calibration, gauge-dependence
+  labeled. Slower, and right.
+
+
 ## LAST BANKED (B598-P2 — the arrow is quadratic; the longitude corrected, 2026-07-15)
 - **Gate A did its job:** P1's λ-column had the fiber-frame commutator; the ℤ²-compatibility
   gate failed everywhere and caught it; the true longitude ("abABaaBAbA", image = the banked

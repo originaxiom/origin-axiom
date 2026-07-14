@@ -4082,3 +4082,24 @@ higher coefficient identically zero); "purely quadratic, no tower" is contradict
 algebraic face (Im orders [2,3,4,5,6,8] at m=4); the tower is exactly DETERMINED by the single
 generator v_m (not zero, not independent); chat-1's focus on M_odd's internal structure endorsed.
 Firewalled.
+
+## 2026-07-15 — THE SEAT-4 AUDIT ADOPTED: the P3 readiness chain gates the campaign; my item-6 adjudication corrected
+The owner directed full seriousness on seat 4's audit; adopted into the campaign as GATING (the
+readiness chain in CAMPAIGN.md): peripheral certificate → all-six P1 → gauge-invariant classes →
+the explicit typed P2 map → the exact 27–27̄ intertwiner J (+ the restated symmetry lemma) →
+exactified stage data → the G1 recomputation → sealed P3 prereg → independent reproduction. NO
+comparison/verdict/banking of P3 before green. **SELF-CORRECTION (owned):** my item-6 adjudication
+("B582's finite-t certificate is locked") was WRONG — the lock contains the 27-complexity fact and
+dim e₆ = 78 arithmetic, deferring the closure to the G1 dial map whose code was NEVER COMMITTED;
+the finite-t existence of the chiral play is NOT independently certified in-repo (consistent with
+L79's open t-sweep); all such statements are formal/jet-level until the in-repo G1 recomputation
+(now a mandatory cell). HARDENING BANKED: the P1 erratum + amendment; the peripheral certificate
+(commutation, zero framing, group-equality, cusp-shape self-certification — seat 4's longitude
+table verified row-by-row at the geometric rep); the ORIGINAL all-block Gate-A failure preserved
+and SHA-256-hashed with all campaign artifacts; **the six-block verification GREEN (ξ(canonical) =
+ξ(used word) and Gate A at every block)**; P0 relabeled a CALIBRATION; X2R's arbitrary-weight sum
+barred from P3 channel combination; B593/B594 demoted to controls pending the J-pairing re-proof;
+the gauge-dependence of P1's representatives labeled explicitly. Quarantine acknowledged (the
+B517→B530→B531→B532 chain, P43/P46/P51 per /Users/dri/oaudit/oaudit2/ reports; B591's
+"graph manifold" → mixed/Haken terminology fix) — mandatory pre-synthesis, outside the cone.
+Firewalled.

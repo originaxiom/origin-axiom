@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — the seat-4 audit adopted; the readiness chain gates P3; item-6 corrected
+
+### Added / Fixed
+- The P3 readiness chain adopted as gating (9 steps; no P3 comparison/verdict before green).
+- Self-correction: the item-6 adjudication overclaimed — B582's finite-t certificate is NOT
+  in-repo (the G1 dial-map code was never committed); mirror-double existence claims are
+  formal/jet-level pending the mandatory in-repo G1 recomputation.
+- Hardening: the P1 erratum + amendment; the peripheral certificate; the original Gate-A
+  failure preserved + hashed; the six-block word-independence verification GREEN; P0
+  relabeled a calibration; gauge-dependence labeled; X2R/B593/B594 scoped per the audit.
+
+
 ## 2026-07-15 — B598-P2 + the longitude correction + two adjudications
 
 ### Added / Fixed
