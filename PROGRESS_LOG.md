@@ -3911,3 +3911,20 @@ THE CONSEQUENCE: the mirror listener cannot be built from {mirror state, C, mapp
 chiral twist is the Lie-algebra DIAL, not a mapping class — **Round 4 must deform the STATE, not the
 gluing.** Method gaps disclosed (the 8-channel; J₆(5₂) — both pure even, verdict-irrelevant). 4 locks.
 Firewalled.
+
+## 2026-07-14 — B592-OPEN: R3-M rerun EXACTLY per the self-contained handoff — the open matrix; THE SIGN-FLIP THEOREM
+The owner re-delivered chat-1's R3-M handoff; the first run had contracted the channels (Step 2
+forbids summing). The faithful open-matrix run: **C1 FIRST: PASS** (the untwisted plain double real
+in every channel — the foundation holds). The verdict lands OUTSIDE the locked table; per the
+handoff's own rule the new row is banked: **OPEN-HEARD / CLOSED-DEAF.** (i) bare twisted weld: all
+real (DEAF row); (ii) dressed welds: Im in BOTH parities (MIXED row) — but the Im is parity-symmetric
+inversion phase; (iii) **THE SIGN-FLIP THEOREM: the twist's entire imprint is M_odd → −M_odd,
+M_even unchanged, exactly (P_odd C = −P_odd)** — chat-1's "flips sign rather than vanishing," made
+precise: the flip lives on the OPEN matrix, with the parity pattern (−1)^parity = the B581 sign law's
+shape at the operator level; (iv) parity conservation (cross ≡ 0 — the open-matrix face of
+quadrature); (v) every closed contraction of the odd block dies (B592). **The mirror hears the twist
+as a sign it can never sum: the first chiral amplitude from geometry exists at the open-channel
+level, and self-deafness is exactly the statement that no closed pairing reads it.** C4 in matrix
+form (5₂: same universal structure, knot-specific entries; the handoff's ℚ(√−7) slip noted — 5₂'s
+trace field is the disc-−23 cubic). Consequence unchanged: Round 4 = a listener state that is NOT
+C-symmetric (the dial), or the handoff's third entity. 3 new locks (7 total). Firewalled.

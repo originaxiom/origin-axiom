@@ -139,3 +139,57 @@ def test_rmatrix_pipeline_and_52():
     # J_3(5_2) at the root is non-real (the amphichirality contrast)
     j52 = _inv(3, [1, 1, 1, 2, -1, 2], 3, Q)
     assert abs(j52.imag) > 0.5
+
+
+# ---------------- B592-OPEN: the faithful open-matrix locks ----------------
+def _open_matrix(word, twisted, psi_vec):
+    w, S, T, C = _stage()
+    n = len(w)
+    conj_idx = [w.index((wt[1], wt[0])) for wt in w]
+    M2 = _rho(S, T, word)
+    W = (C @ M2) if twisted else M2
+    return np.diag(np.conj(psi_vec[conj_idx])) @ W @ np.diag(psi_vec), w
+
+
+def _bases(w):
+    n = len(w)
+    pairs = [(w.index((1, 0)), w.index((0, 1))), (w.index((2, 0)), w.index((0, 2)))]
+    sing = [w.index((0, 0)), w.index((1, 1))]
+    odd = np.zeros((n, 2))
+    even = np.zeros((n, 4))
+    for j, (a, b) in enumerate(pairs):
+        odd[a, j], odd[b, j] = 1 / np.sqrt(2), -1 / np.sqrt(2)
+        even[a, j], even[b, j] = 1 / np.sqrt(2), 1 / np.sqrt(2)
+    for j, i in enumerate(sing):
+        even[i, 2 + j] = 1.0
+    return odd, even
+
+
+def test_open_c1_foundation_real():
+    w, S, T, C = _stage()
+    M, _ = _open_matrix("", False, _psi(w))
+    assert np.abs(M.imag).max() < 1e-12
+
+
+def test_open_sign_flip_theorem():
+    w, S, T, C = _stage()
+    psi = _psi(w)
+    odd, even = _bases(w)
+    for word in ("", "RL", "RRLL"):
+        Mt, _ = _open_matrix(word, True, psi)
+        Mu, _ = _open_matrix(word, False, psi)
+        assert np.abs(odd.T @ Mt @ odd + odd.T @ Mu @ odd).max() < 1e-12
+        assert np.abs(even.T @ Mt @ even - even.T @ Mu @ even).max() < 1e-12
+
+
+def test_open_parity_conservation_and_mixed_im():
+    w, S, T, C = _stage()
+    psi = _psi(w)
+    odd, even = _bases(w)
+    M, _ = _open_matrix("RL", True, psi)
+    assert np.abs(odd.T @ M @ even).max() < 1e-12
+    assert np.abs(even.T @ M @ odd).max() < 1e-12
+    assert np.abs((odd.T @ M @ odd).imag).max() > 0.5       # Im in odd (open)
+    assert np.abs((even.T @ M @ even).imag).max() > 0.5     # and in even
+    M0, _ = _open_matrix("", True, psi)
+    assert np.abs(M0.imag).max() < 1e-12                    # bare twisted weld real

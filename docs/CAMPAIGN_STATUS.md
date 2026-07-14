@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B592-OPEN — THE SIGN-FLIP THEOREM: open-heard, closed-deaf, 2026-07-14)
+- **R3-M rerun exactly per the self-contained handoff (no contraction).** C1 passes; the
+  verdict extends the locked table: **the twist's entire imprint on the open matrix is the
+  sign of the θ-odd block (M_odd → −M_odd, exact; parity pattern (−1)^parity = the sign law's
+  shape), the imaginary parts are parity-symmetric inversion phases, the cross-blocks vanish,
+  and every closed contraction dies.** The first chiral amplitude from geometry exists at the
+  open-channel level — the mirror hears the twist as a sign it can never sum. Round 4 needs a
+  non-C-symmetric listener state (the dial) or a third entity.
+
+
 ## LAST BANKED (B592 — R3-M THE MIRROR LISTENER: DEAF, proven, 2026-07-14)
 - **The owner's measurement, run as preregistered (the reconstruction frozen; the original
   prereg file never reached this seat).** The cut-open pairing's θ-odd channels are
