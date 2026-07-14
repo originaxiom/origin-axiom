@@ -49,6 +49,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B596 — the clock is NOT the naive cat-map period, 2026-07-14)
+- **An honest kill, banked as registered.** The blind sweep refutes "the θ-odd clock = the
+  quantum cat-map period" in every simple form (the prereg's hand-checks were lucky rows;
+  at κ = 4 the antisymmetrization DESTROYS order). The clocks are Pisano-anchored with
+  non-uniform multipliers (data banked). The dictionary holds at trace/determinant level
+  (B587, B595) and fails at order level — L84 sharpened accordingly.
+
+
 ## LAST BANKED (B595 — THE DICTIONARY: one bridge, the gap stated, 2026-07-14)
 - **The stage↔classical dictionary consolidated (DICTIONARY.md, seven lock-cited rows).** New:
   THE SPECTRAL BRIDGE — det(I − B_odd) = φ² = the classical monodromy eigenvalue, exactly at

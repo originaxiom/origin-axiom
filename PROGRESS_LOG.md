@@ -3979,3 +3979,14 @@ citing its lock (θ↔C; conductors↔torsions on the ±1 sector; the same 5; th
 new bridge; the edge; the gap). D4 → **L84 registered**: construct a functorial monodromy-equivariant
 map H¹_θ-odd → H_k(T²)_odd or prove none exists — until then the hearing law's classical reading is a
 correspondence (B593's caveat verbatim) and the handoff's item 6 stays gated. 4 locks. Firewalled.
+
+## 2026-07-14 — B596: the clock is NOT the naive cat-map period — null-with-structure (L84's golden case, operator level)
+The prereg's hand-checks (κ=5,6,7: clock = ord(A₁ mod κ)) were lucky rows: the BLIND sweep κ=4..15
+kills every registered candidate (clock = ord(κ): 5/12; = ord(2κ): 5/12; divisibility fails both ways
+— at κ=4 the clock (1) is SHORTER than the classical order (3): the θ-antisymmetrization can destroy
+order). Post-hoc data: the clocks are PISANO-ANCHORED (clock/π(κ) ∈ {½,1,3/2,2}: 60 = π(10),
+28 = π(13), 10 = π(5)/2, 20 = 2π(11), 36 = 3π(9)/2) but the multiplier is not uniform; silver likewise.
+What stands: B587's factorization (the full trace IS the Weyl-twisted cat-map character) and B595's
+trace/determinant bridge — the operator dictionary holds at trace/det level, NOT at order level. L84
+sharpened (any functorial map must explain the clock multipliers); L77/L81(b) stay open with this
+table as their data. The failed prediction banked as failed, per the discipline. 2 locks. Firewalled.
