@@ -3965,3 +3965,17 @@ quadratic hearing law, stage-specific numbers (golden: 1/(2φ) + i·sin(2π/5)/�
 MATCHED at weight level" is an OVERCLAIM vs the (paused, unbanked) B590-V3 blind tables (five
 heterogeneous orbit profiles; no clean orbit↔16s correspondence); the field remark's ℚ(√5,ζ₅) = ℚ(ζ₅).
 3 locks. Firewalled.
+
+## 2026-07-14 — B595: THE DICTIONARY — consolidated, one new bridge, the gap stated (the arc handoff's item 2)
+D1 (the dimension constraint): stage θ-odd dims 0/2/3 vs the classical dial's 2 — **a bijective
+dictionary is possible only on the golden stage** (why golden kept being "the most understood").
+D2a (THE SPECTRAL BRIDGE, blind-confirmed): **det(I − B_odd) = φ² at κ = 5 — the quantum odd
+determinant returns the CLASSICAL monodromy eigenvalue λ(A₁) exactly**; post-hoc data: golden powers
+φ⁴ at κ = 10, 15; zeros (odd fixed vectors) at several κ; 4 and 16 at κ = 7, 13. D2b (confirmed):
+E₆₂'s monodromy FIXES a θ-odd direction (eigenvalue +1, C3) — the fixed ear computed, and its hearing
+coefficient is EXACTLY −1 (real): **the monodromy-stable chiral ear is achiral; chirality requires
+precession — motion, not orientation alone, is what hears.** D3: DICTIONARY.md — seven rows, each
+citing its lock (θ↔C; conductors↔torsions on the ±1 sector; the same 5; the (−1)^parity shape; the
+new bridge; the edge; the gap). D4 → **L84 registered**: construct a functorial monodromy-equivariant
+map H¹_θ-odd → H_k(T²)_odd or prove none exists — until then the hearing law's classical reading is a
+correspondence (B593's caveat verbatim) and the handoff's item 6 stays gated. 4 locks. Firewalled.

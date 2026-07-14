@@ -12106,6 +12106,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B595": {
+   "slug": "dictionary",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B575",
+    "B581",
+    "B584",
+    "B586",
+    "B587",
+    "B588",
+    "B591",
+    "B592",
+    "B593",
+    "L84"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [
