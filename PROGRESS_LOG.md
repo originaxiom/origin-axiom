@@ -3704,3 +3704,18 @@ mapped (rank 1, single copy) → L79.** THE BLIND TARGETS: **H128 KILLED in-chan
 quantity anywhere), H129 KILLED in-channel, H130 KILLED as mechanism (its carrier sector proven
 information-free).** The numerology door stays closed by the object's own voice. L78–L80
 registered; ROUND1_TRANSCRIPT.md banked. Firewalled.
+
+## 2026-07-14 — B582: THE FIRST CONSTRUCTED PLAY WITH CHIRAL MATTER (the L79 core, same-turn)
+
+The corollary completing G1, executed immediately (the constructive core, not queued): the
+θ-odd-twisted mirror-double's bracket closure = e₆ (G1, #916) ⇒ the amalgam image's Zariski
+closure = FULL E₆(ℂ) (connected subgroup determined by its Lie algebra) ⇒ **the coupled
+system's 27 is the 27 of E₆ — COMPLEX, CHIRAL** (−orbit(ω₁) = orbit(ω₆) ≠ orbit(ω₁), locked).
+The fifth wall does not apply — it is a rank-1 theorem and the double is rank ≥ 2 by
+construction; the wall's hypothesis boundary (mapped at Round 1) is exactly the line crossed.
+The coupling is FORCED (canonical amphichiral gluing; the dial = the peripheral centralizer;
+the θ-odd twist = one of 6 canonical slots — the same {4,8} selected independently by C3,
+Q4's signed touch, and B581's sign law). NOT an SM identification: the matter-content TYPE
+(chiral) is proved; spectra/values untouched (clauses M, D, Λ stand). Open and sharp: the
+geometric realization of the twisted double, the G_SM-level branching of the coupled 27, the
+interference cross-term — Round 2, now with the existence theorem under it. 2 locks. Firewalled.

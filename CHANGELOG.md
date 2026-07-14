@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B582: the first constructed play with chiral matter (the L79 core)
+
+### Added
+- B582: G1's closure + the connected-subgroup corollary ⇒ **the θ-odd-twisted mirror-double
+  carries a chiral 27** — the first constructed play with chiral matter content; the fifth
+  wall (rank-1) does not apply; the coupling forced, the twist canonical, the slots {4,8}
+  triple-selected. `frontier/B582_chiral_play/FINDINGS.md`, 2 locks.
+
+
 ## 2026-07-14 — B580 Round 1: the traverse transcript (one silence, two voices, three hints killed)
 
 ### Added

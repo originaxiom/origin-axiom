@@ -11772,6 +11772,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B582": {
+   "slug": "chiral play",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B569",
+    "B575",
+    "B576",
+    "B581",
+    "L79"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [
