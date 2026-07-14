@@ -1,0 +1,10 @@
+  direction m= 8 (theta-ODD): UNOBSTRUCTED
+  direction m=11: UNOBSTRUCTED
+======================================================================
+block m= 1: xi(canonical) == xi(used word): True;  Gate A (canonical): True
+block m= 4: xi(canonical) == xi(used word): True;  Gate A (canonical): True
+block m= 5: xi(canonical) == xi(used word): True;  Gate A (canonical): True
+block m= 7: xi(canonical) == xi(used word): True;  Gate A (canonical): True
+block m= 8: xi(canonical) == xi(used word): True;  Gate A (canonical): True
+block m=11: xi(canonical) == xi(used word): True;  Gate A (canonical): True
+ALL SIX BLOCKS: PASS

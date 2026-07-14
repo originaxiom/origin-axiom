@@ -1,0 +1,35 @@
+======================================================================
+P2 — gates + the first-order boundary character table
+
+  block m= 1 (even): gate A (Z^2-compat): False;  gate B (embedding): True
+    delta tr27(mu)      = (-702+234w)
+    delta tr27(lambda)  = (-27102+51694w)
+    delta tr27(mu.lam)  = (-702+234w)
+
+  block m= 4 (ODD ): gate A (Z^2-compat): False;  gate B (embedding): True
+    delta tr27(mu)      = (-201600-403200w)
+    delta tr27(lambda)  = 0
+    delta tr27(mu.lam)  = (-201600-403200w)
+
+  block m= 5 (even): gate A (Z^2-compat): False;  gate B (embedding): True
+    delta tr27(mu)      = (-13822326000/3667+2679642000/3667w)
+    delta tr27(lambda)  = (5186689200/3667-11772054000/3667w)
+    delta tr27(mu.lam)  = (-13822326000/3667+2679642000/3667w)
+
+  block m= 7 (even): gate A (Z^2-compat): False;  gate B (embedding): True
+    delta tr27(mu)      = (31716122379480000/2916577933+9421745339160000/2916577933w)
+    delta tr27(lambda)  = (5918951210356800/2916577933+9716411476094400/2916577933w)
+    delta tr27(mu.lam)  = (31716122379480000/2916577933+9421745339160000/2916577933w)
+
+  block m= 8 (ODD ): gate A (Z^2-compat): False;  gate B (embedding): True
+    delta tr27(mu)      = (45108059673600/6009943-15171258009600/6009943w)
+    delta tr27(lambda)  = 0
+    delta tr27(mu.lam)  = (45108059673600/6009943-15171258009600/6009943w)
+
+  block m=11 (even): gate A (Z^2-compat): False;  gate B (embedding): True
+    delta tr27(mu)      = (-6286838353519995976320000/16411895952318333259+2095591503368734842240000/16411895952318333259w)
+    delta tr27(lambda)  = (601407949416136410240000/16411895952318333259+688576053126721415040000/16411895952318333259w)
+    delta tr27(mu.lam)  = (-6286838353519995976320000/16411895952318333259+2095591503368734842240000/16411895952318333259w)
+
+(prediction registered in the docstring: ODD rows all-zero, even rows generic)
+DONE

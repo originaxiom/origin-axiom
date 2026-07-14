@@ -65,3 +65,45 @@ decides existence (A/B vs D).
 Each cell preregisters its own falsifiers before running; every number
 banked blind before comparison; the campaign's outcome statement uses only
 the A/B/D table. All verification internal (see provenance note above).
+
+
+## THE READINESS CHAIN (seat-4 audit, adopted 2026-07-15 — GATING)
+
+No target comparison, verdict, or banking of P3 until this chain is green,
+in order:
+
+1. peripheral certificate ✓ (banked: `peripheral_certificate.py`)
+2. corrected all-six P1 ✓-pending (the six-block word-independence
+   verification; the erratum banked)
+3. gauge-invariant boundary classes (report restrictions as classes in
+   H¹(T²; V_m), or prove the gauge canonical — currently the table is
+   labeled gauge-dependent representatives)
+4. the explicit P2 map (domain, codomain, formula, equivariance, rank,
+   kernel, polarization, normalization — Gates A/B alone are insufficient;
+   the banked P2 is gates + data + a structural verdict, NOT the map)
+5. the exact 27–27̄ intertwiner J (ρ(X)ᵀJ + Jρ(θX) = 0; chat-2's
+   Casimir/raw-dot cannot be used; then restate the selection-rule lemma
+   for the J-pairing — the linear-C vs antiunitary-Θ distinction made
+   precise)
+6. exact stage data (exactify the B587/B589 matrices, phases, framing and
+   target coefficients used by P3 — cyclotomic, not float)
+7. the G1 recomputation in-repo (the dial-map closure with committed code
+   and the certified longitude — closes the B582 finite-t provenance hole;
+   until then all mirror-double existence claims are formal/jet-level)
+8. sealed P3 preregistration (written and hashed BEFORE any outcome-bearing
+   comparison; the failed meridian prediction recorded permanently ✓ done
+   in P2's FINDINGS)
+9. independent reproduction (the corrected P1 table reproduced by a second
+   pipeline that does not import expected values)
+
+Additional adopted labels: B598-P0 is relabeled a CALIBRATION against the
+externally known asymptotics (the extraction is self-consistent, not
+independent — the growth-rate gate uses the measured prefactor);
+B583-X2R's arbitrary-weight demonstration cannot be inherited by P3's
+channel combination (direct-sum torsion is multiplicative); B593/B594's
+identities serve as controls only until re-proved for the J-pairing;
+B597's line-distinctness does not fix relative scales (P2's normalization
+must). Quarantined (outside the cone, queued pre-synthesis): the
+B517→B530→B531→B532 chain findings, P43/P46/P51 (the 07-11/07-12 audit
+reports at /Users/dri/oaudit/oaudit2/), and B591's terminology fix
+("graph manifold" → mixed/Haken with two hyperbolic JSJ pieces).

@@ -7,7 +7,11 @@ Provenance: all verification internal (owner + AI seats) — see the
 pre-committed Review-18 scope in docs/progress/REVIEWS.md.**
 Run: `python3 p0_c1_baseline.py` (mpmath, ~2 min).
 
-## P0 — the C1 baseline, computed in-sandbox
+## P0 — the C1 baseline: a CALIBRATION (relabeled per the seat-4 audit, 2026-07-15)
+
+(The extraction is self-consistent rather than independent — the growth-rate
+gate uses the measured prefactor; the identified constants agree with the
+externally known asymptotics, which is what a calibration establishes.)
 
 The Kashaev invariant ⟨4₁⟩_N (the Habiro sum), N = 100..1600 at 40 digits:
 - **The growth gate:** the corrected rate equals Vol(4₁)/2π to 1.15×10⁻⁴¹.
