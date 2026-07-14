@@ -12027,6 +12027,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B592": {
+   "slug": "mirror listener",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B240",
+    "B245",
+    "B279",
+    "B580",
+    "B582",
+    "B583",
+    "B584",
+    "B585",
+    "B586",
+    "L79"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [

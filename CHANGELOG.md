@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B592: R3-M, the mirror listener — DEAF, sharpened to a theorem
+
+### Added
+- B592 (owner directive: run R3-M — the cut-open trace): the verdict is DEAF with proofs —
+  the FOURTH unhearability (θ-odd channels identically zero for every mapping-class gluing:
+  Cψ = ψ + C central), the C-absorption identity (mirror covector cancels the C-twist:
+  twisted = untwisted), the Θ-reality identity (conj A(g) = A(g⁻¹); even-channel Im =
+  inversion phase). All four controls pass (C4 via an independent R-matrix pipeline,
+  validated on 4₁ and Jones-verified on the 5₂ braid; 5₂'s odd channels also dead —
+  invertibility-universal deafness). Consequence: Round 4 must deform the STATE (the dial),
+  not the gluing. Locks: tests/test_b592_mirror_listener.py (4).
+
+
 ## 2026-07-14 — B591: the chord's manifold computed — the tone is the torsion
 
 ### Added
