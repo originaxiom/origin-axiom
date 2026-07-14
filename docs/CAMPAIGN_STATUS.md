@@ -49,6 +49,18 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B598-P2 — the arrow is quadratic; the longitude corrected, 2026-07-15)
+- **Gate A did its job:** P1's λ-column had the fiber-frame commutator; the ℤ²-compatibility
+  gate failed everywhere and caught it; the true longitude ("abABaaBAbA", image = the banked
+  cusp shape) found by direct search; table and lock regenerated green; chat-2's item-5 input
+  corrected. **P2 complete:** both gates green at every block; the first-order boundary table
+  exact (data); the arrow's Θ-graded content is QUADRATIC — P3 matches the banked classical
+  t²-family against the stage ε²-family at order 2, with the exponential tower as a
+  consistency gate. Chat-1's c₄ = 0 adjudicated: a correct construction-level identity, not a
+  new law; the tower is real on the algebraic face and determined by one generator per
+  direction.
+
+
 ## LAST BANKED (B599-ALG — the selection rule complete on both faces, 2026-07-15)
 - **Chat-2's algebraic face recomputed in this repository, every witness exact:** the L1
   parity zeros (not orthogonality — L0 locked), nilpotency orders 5/3, the algebraic

@@ -123,10 +123,11 @@ def test_m1_cusp_row():
     sc = xa[piv].inv()
     xa = [sc * v for v in xa]
     xb = [sc * v for v in xb]
-    lam = _cocycle_eval(acts, xa, xb, "baBA")
-    # banked m=1 row: xi(mu) = [1, 0, 3/8 - w/8]; xi(lam) = [3/4+3w/4, 1/4+w/4, -w/2]
+    lam = _cocycle_eval(acts, xa, xb, "abABaaBAbA")   # the TRUE longitude (corrected 2026-07-15)
+    # banked m=1 row (corrected): xi(mu) = [1, 0, 3/8 - w/8];
+    # xi(lam) = [49/4 + 17w/4, -15/4 + 9w/4, -3/4 - 3w/4]
     assert xa[0].a == 1 and xa[0].b == 0 and xa[1].is_zero()
     assert xa[2].a == Fr(3, 8) and xa[2].b == Fr(-1, 8)
-    assert lam[0].a == Fr(3, 4) and lam[0].b == Fr(3, 4)
-    assert lam[1].a == Fr(1, 4) and lam[1].b == Fr(1, 4)
-    assert lam[2].a == 0 and lam[2].b == Fr(-1, 2)
+    assert lam[0].a == Fr(49, 4) and lam[0].b == Fr(17, 4)
+    assert lam[1].a == Fr(-15, 4) and lam[1].b == Fr(9, 4)
+    assert lam[2].a == Fr(-3, 4) and lam[2].b == Fr(-3, 4)

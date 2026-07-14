@@ -12184,6 +12184,7 @@
    "slug": "l85 campaign",
    "motifs": [
     "figure_eight",
+    "trace_map",
     "kappa",
     "eisenstein",
     "symplectic",
@@ -12198,7 +12199,9 @@
     "B595",
     "B596",
     "B597",
+    "B599",
     "B67",
+    "L1",
     "L85",
     "P0",
     "P1",
@@ -12206,8 +12209,8 @@
     "P3",
     "V2"
    ],
-   "obstacle": "gauge_dict",
-   "obstacle_conf": 1,
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
   },
@@ -12235,8 +12238,8 @@
     "P2",
     "P3"
    ],
-   "obstacle": "selector",
-   "obstacle_conf": 1,
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },

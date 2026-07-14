@@ -69,3 +69,38 @@ amplitude lives in ℚ(ζ₅)) and replaced by the cleaner role-separation law;
 the width bridge's θ-odd extension registered as P3's check; the anisotropy
 remark held as a [HOOK]. Review-18 timing override registered (fires on L85
 resolution, owner directive).
+
+
+## CORRECTION (2026-07-15) — the longitude word; Gate A's catch
+
+P1's first run evaluated ξ on "baBA" = [b,a] — the FIBER-frame boundary
+commutator (B67's convention belongs to the trace-map/fiber presentation) —
+which is NOT the longitude of B575's meridian presentation
+⟨a, b | aWb⁻¹W⁻¹⟩, W = bABa. **P2's Gate A (the ℤ²-cocycle compatibility)
+failed at every block and caught it.** The true longitude was then found by
+direct search in the geometric SL(2) rep (c = (1+√−3)/2 solved from the
+relator): **λ = "abABaaBAbA"**, self-certified by its image
+−[[1, 2√3·i],[0,1]] — the off-diagonal is exactly the banked cusp shape
+τ = 2√3·i, and it commutes with the meridian. With the true λ, **Gate A
+passes at every block** (P1's table is a genuine ℤ²-cocycle restriction) and
+the λ-column is regenerated (p1_cusp_table_output.txt superseded in place;
+the ξ(μ) column, the H¹ = 1 gates, and the unipotency gates were never
+affected). The same correction goes to chat-2: their item-5 input is
+λ = "abABaaBAbA", not "baBA" as I first answered (B599's FINDINGS note
+corrected below).
+
+## P2 — the quantization arrow: gates green; the first-order table is DATA; the arrow is quadratic
+
+`p2_quantization_arrow.py` (OA_SLOW; output `p2_output.txt`). With the true
+longitude: **Gate A (ℤ²-compatibility) and Gate B (the coordinate ↔ gl(27)
+embedding intertwines Ad) both pass at every block.** The first-order
+boundary character shifts δtr₂₇(μ), δtr₂₇(λ), δtr₂₇(μλ) are banked exactly
+per block — all six blocks generically NONZERO. **The registered parity
+prediction (odd rows zero) was WRONG and is retired with its diagnosis:**
+tr₂₇ is not a Θ-invariant contraction (θ maps the 27 to the 27̄), so the
+selection rule never applied to it; the Θ-structured pairing for the
+campaign's matching is the Ω-form pairing (chat-2's algebraic face), where
+the k = 1 vanishing IS proven (L1, B599-ALG). Consequence for P3 (the
+structural verdict): the arrow's Θ-graded content is quadratic — the
+classical side of the matching is the banked B599-ALG t²-family; the
+first-order δtr table is the even-channel (gauge) boundary data.

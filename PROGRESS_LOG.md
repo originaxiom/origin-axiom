@@ -4061,3 +4061,24 @@ and −536481792000 (m=8/b2); **the weld-only twist-twist identity** (the m=8 we
 #942 + algebraic here). Flagged remainders: the general-k graded-trace bookkeeping (chat-2's own
 caveat) and item 4 (the frozen 20-word tables — one TESTW extension). 4 OA_SLOW locks (7:35 green).
 Firewalled.
+
+## 2026-07-15 — B598-P2 + THE LONGITUDE CORRECTION + two adjudications: the arrow is quadratic; the gates did their job
+**THE CORRECTION (caught by P2's Gate A):** P1's first λ-column used "baBA" = the FIBER-frame
+commutator — not the longitude of B575's meridian presentation ⟨a,b | aWb⁻¹W⁻¹⟩, W = bABa. Gate A
+(ℤ²-cocycle compatibility) failed at every block and caught it. The true longitude found by direct
+search in the geometric rep (c = (1+√−3)/2 solved from the relator): **λ = "abABaaBAbA"**,
+self-certified by its image −[[1, 2√3·i],[0,1]] = THE BANKED CUSP SHAPE. P1's λ-column regenerated
+exactly (m=1: ξ(λ) = [49/4+17w/4, −15/4+9w/4, −3/4−3w/4]); lock updated and green (7:52); ξ(μ),
+H¹ = 1, and unipotency gates were never affected. The chat-2 item-5 answer CORRECTED on the record.
+**P2 BANKED:** with the true λ, Gate A AND Gate B pass at every block; the exact first-order boundary
+character table (δtr₂₇(μ), δtr₂₇(λ), δtr₂₇(μλ) per block) banked as DATA; my registered parity
+prediction RETIRED with its diagnosis (tr₂₇ is not Θ-invariant — θ maps 27→27̄; the selection rule
+governs the Ω-form pairing, where the k=1 vanishing IS proven, B599-ALG). **THE P2 VERDICT: the
+arrow's Θ-graded content is quadratic; P3's matching = the banked B599-ALG t²-family (classical) vs
+the stage ε²-family, at order 2, with the exponential tower as a consistency gate.**
+**THE c₄ = 0 ADJUDICATION (chat-1's computation):** the zero is CORRECT and is a construction-level
+identity (the linear-displacement stage pairing is degree-2 in ε, verified symbolically — every
+higher coefficient identically zero); "purely quadratic, no tower" is contradicted by the banked
+algebraic face (Im orders [2,3,4,5,6,8] at m=4); the tower is exactly DETERMINED by the single
+generator v_m (not zero, not independent); chat-1's focus on M_odd's internal structure endorsed.
+Firewalled.
