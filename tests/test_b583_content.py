@@ -23,8 +23,7 @@ def test_x1_witness_is_banked_b572_value():
 def test_x3_mechanism_level1():
     w = np.exp(2j * np.pi / 3)
     S = np.array([[w**(-a * b) for b in range(3)] for a in range(3)]) / np.sqrt(3)
-    T = np.diag([np.exp(2j * np.pi * (h - sp.Rational(6, 24))) for h in
-                 (0, sp.Rational(2, 3), sp.Rational(2, 3))]).astype(complex)
+    T = np.diag([np.exp(2j * np.pi * (h - 0.25)) for h in (0.0, 2 / 3, 2 / 3)])
     C = S @ S
     assert np.linalg.norm(C @ S - S @ C) < 1e-12          # [C, S] = 0
     assert np.linalg.norm(C @ T - T @ C) < 1e-12          # [C, T] = 0
