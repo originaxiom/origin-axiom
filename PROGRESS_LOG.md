@@ -3677,3 +3677,30 @@ torsion echo); the charge 11 enters at m = 7 (11² at m = 11); 13 at m = 5; τ�
 {2,3,5,7,13}-smooth. HONEST NEGATIVES: 2/3, 15/169, the golden/D₄/ζ₉ polynomials do NOT
 appear — the "jewels = torsion ratios" guess died cleanly. The middle reciprocal-quadratic
 ladder {5, 26, …} = a new unregistered object. 3 locks + data + reproducer. Firewalled.
+
+## 2026-07-14 — B580 ROUND 1 COMPLETE: the listening traverse's transcript (one silence, two voices, one open amplitude; three hints killed blind)
+
+The traverse ran in the object's order with the binding rule enforced (SM named only at step 7);
+all six cells + verifiers + the reading completed; the audits BIND over the cells' headlines.
+**THE PROVEN SILENCE (level 1, four ways):** the state = (1,1,1)/√3 = the vacuum column —
+knot-independent (5₂ identical; every knot sounds like the unknot); S|ρ₀⟩ = pure vacuum exactly;
+the touch derivative ≡ 0 (two methods); and the sharpest form: **the Dehn-filling covectors span
+EXACTLY the θ-even 2-plane — the handedness direction is structurally UNHEARABLE by any filling**
+(rank 2 exact, reproduced independently at 576 slopes). L73's prediction, confirmed as banked.
+Verifier scopings applied: Q1's "θ-odd = 0 exactly" rests on cited abelian-blindness (R-matrix
+completion = L80b); Q2 banks as THE PREREGISTERED NULL; the fiber pairing Z=+1 is
+fiberedness-contingent (no 5₂ construction — not knot content). **THE TWO VOICES (survived
+whole):** Q4 — the touch response at level 2 is nonzero and SIGNED, the sign carried by the
+torsion (τ₄ two routes), landing in B575's blocks {1,5,7} verbatim; G1 — **THE DIAL MAP: the
+mirror-double's 6-slot gluing dial has EXACTLY the two θ-odd slots {4,8} as chirality switches**
+(closure dims 3/52/78 computed — zero-dial → sl₂, θ-even → f₄, θ-odd → full e₆; φ = (μ↦μ,
+λ↦λ⁻¹) from SnapPy, computed not assumed). **THE OPEN AMPLITUDE:** Q3's arithmetic all exact
+(Vol = 2·Cl₂(π/3), CS = 0, the six torsions, the sign law making θ-odd prefactors REAL and
+θ-even imaginary at relative phase i) but the state's θ-odd amplitude = the uncomputed
+discriminating fact → OPEN; Route A chosen (L78). **STEP 7 (the single comparison):** zero
+clause verdicts changed; clause T's abelian floor PROVEN EMPTY; **B570-§5 item 10 MOVED — G1 is
+the first computed play coupling to the live channel; clause S's exact hypothesis boundary
+mapped (rank 1, single copy) → L79.** THE BLIND TARGETS: **H128 KILLED in-channel (no golden
+quantity anywhere), H129 KILLED in-channel, H130 KILLED as mechanism (its carrier sector proven
+information-free).** The numerology door stays closed by the object's own voice. L78–L80
+registered; ROUND1_TRANSCRIPT.md banked. Firewalled.

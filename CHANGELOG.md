@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B580 Round 1: the traverse transcript (one silence, two voices, three hints killed)
+
+### Added
+- ROUND1_TRANSCRIPT.md: the proven level-1 silence (four ways; θ-odd structurally unhearable
+  by fillings — rank-2 exact); the touch's signed response (torsion-carried); **THE DIAL MAP:
+  the mirror-double's chirality switches are exactly the θ-odd slots {4,8}** (closure dims
+  3/52/78, computed); Q3's state amplitude honestly OPEN (Route A = L78); step-7: clause T's
+  abelian floor proven empty, item 10 MOVED (the first coupled play), clause-S boundary mapped
+  (→ L79); **H128/H129 killed in-channel, H130 killed as mechanism — blind.** L78–L80.
+
+
 ## 2026-07-14 — B581: the six torsions — the jewel spectrum + THE SIGN LAW
 
 ### Added
