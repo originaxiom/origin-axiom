@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B599: the θ-parity selection rule (stage face banked)
+
+### Added
+- B599 (chat-2's unification theorem, relayed in-chat): Θ-invariant contractions of
+  Θ-homogeneous factors vanish unless the odd-factor count is even (C central + C² = 1;
+  +300-configuration verification). Subsumes seven banked results under one grading; the
+  algebraic face registered as relayed-pending (chat-2's compute-blocked witnesses); the
+  longitude convention answered (λ = [b,a] = "baBA"). Locks: tests/test_b599_selection_rule.py (2).
+
+
 ## 2026-07-14 — B598: the L85 campaign opened; P0 computed; the Review-18 mandate registered
 
 ### Added
