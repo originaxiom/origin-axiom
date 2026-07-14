@@ -132,3 +132,63 @@ def test_r4b_null_8_17():
     jf = _inv(3, B, 3, Q)
     jr = _inv(3, list(reversed(B)), 3, Q)
     assert abs(jf - jr) < 1e-12                              # reverse-blind (null)
+
+
+def test_v2_braid_is_8_17_full_jones():
+    def jones817(t):
+        return (t**-4 - 3*t**-3 + 5*t**-2 - 6*t**-1 + 7 - 6*t + 5*t**2
+                - 3*t**3 + t**4)
+    B = [1, 1, -2, 1, -2, 1, -2, -2]
+    for qv in (1.23 * cmath.exp(0.37j), 0.81 * cmath.exp(1.13j)):
+        assert abs(_inv(2, B, 3, qv) - jones817(qv ** 2)) < 1e-8
+
+
+def test_v3_negative_amphichiral_triangle():
+    B = [1, 1, -2, 1, -2, 1, -2, -2]
+    jf = _inv(3, B, 3, Q)
+    jm = _inv(3, [-g for g in B], 3, Q)
+    assert abs(jf.imag) < 1e-9                      # real (mirror = reverse + blindness)
+    assert abs(jm - np.conj(jf)) < 1e-9
+
+
+def test_v1_exact_symbolic_amplitude():
+    import os as _os
+    import pytest as _pytest
+    if not _os.environ.get("OA_SLOW"):
+        _pytest.skip("exact symbolic verification: set OA_SLOW=1")
+    import sympy as sp
+    import itertools
+    weights = [(a, b) for a in range(3) for b in range(3 - a)]
+    kap = 5
+    Lvec = lambda w: sp.Matrix([w[0] + w[1] + 2, w[1] + 1, 0])
+    ip = lambda u, v: (u.T * v)[0] - (sum(u) * sum(v)) / sp.Integer(3)
+    perms = list(itertools.permutations(range(3)))
+    sgn = lambda p: sp.Integer((-1) ** sum(p[i] > p[j] for i in range(3)
+                                           for j in range(i + 1, 3)))
+    n = len(weights)
+    S = sp.zeros(n, n)
+    for i, wl in enumerate(weights):
+        Ll = Lvec(wl)
+        for j, wm in enumerate(weights):
+            Lm = Lvec(wm)
+            S[i, j] = sum(sgn(p) * sp.exp(-2 * sp.pi * sp.I *
+                          ip(sp.Matrix([Ll[p[0]], Ll[p[1]], Ll[p[2]]]), Lm) / kap)
+                          for p in perms)
+    S = S / sp.sqrt(sp.simplify(sum(S[0, j] * sp.conjugate(S[0, j])
+                                    for j in range(n))))
+    h = lambda wt: (sp.Rational(2, 3) * (wt[0]**2 + wt[0]*wt[1] + wt[1]**2)
+                    / (2 * kap) + (wt[0] + wt[1]) / sp.Integer(kap))
+    T = sp.diag(*[sp.exp(2 * sp.pi * sp.I * (h(wt) - sp.Rational(16, 5) / 24))
+                  for wt in weights])
+    rho = T * S.H * T.H * S
+    idx = {wt: i for i, wt in enumerate(weights)}
+    Cm = sp.zeros(n, n)
+    for wt in weights:
+        Cm[idx[(wt[1], wt[0])], idx[wt]] = 1
+    u3 = sp.zeros(n, 1)
+    u3[idx[(1, 0)], 0] = 1 / sp.sqrt(2)
+    u3[idx[(0, 1)], 0] = -1 / sp.sqrt(2)
+    quad = sp.simplify(sp.expand_complex((u3.H * Cm * rho * u3)[0]))
+    phi = (1 + sp.sqrt(5)) / 2
+    target = 1 / (2 * phi) + sp.I * sp.sin(2 * sp.pi / 5) / sp.sqrt(5)
+    assert sp.simplify(sp.expand_complex(quad - target)) == 0

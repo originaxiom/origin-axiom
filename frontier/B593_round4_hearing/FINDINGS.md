@@ -65,3 +65,23 @@ statement is made or implied.)
 B592/B592-OPEN (the sign and the blocks), B575 (the dial directions are
 honest moduli), X2R (the quadratic shadow), B584 (the antiphase channel),
 B581 (the sign law's operator shape), the R-matrix pipeline (B592-C4).
+
+## Verification addendum (owner: "u sure? verify first" — the adversarial pass)
+
+- **V1 (the headline, EXACT):** the closed chiral amplitude coefficient was
+  re-derived in exact symbolic arithmetic over ℚ(ζ₂₀) (sympy: the Kac–Peterson
+  S-matrix built independently in exact cyclotomics, unitarity trace = 6
+  exact):
+  > u₃†(Cρ(RL))u₃ − [1/(2φ) + i·sin(2π/5)/√5] = **0** (symbolic zero).
+  Two independent S-constructions (b238's numeric, the exact sympy one) agree.
+- **V2 (the 8₁₇ identity, strengthened):** the braid closure pinned by the
+  FULL Jones polynomial of 8₁₇ at two generic q (previously only the
+  determinant 37) — exact coefficient-level match.
+- **V3 (semantic self-consistency):** 8₁₇ is negative-amphichiral (mirror =
+  reverse); the pipeline gives J₃ REAL and J₃(mirror word) = J₃(forward) —
+  the triangle (mirror = reverse = forward at the invariant level) closes,
+  consistent with reverse-blindness.
+- **Caveat made explicit:** "reverse = the reversed-word closure" is the
+  standard braid anti-involution lemma (cited, not re-proven here); V3's
+  triangle supports it circumstantially. The R4-B null's wording depends on
+  this lemma.
