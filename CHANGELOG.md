@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B592-OPEN: the faithful open-matrix R3-M — the sign-flip theorem
+
+### Added
+- B592-OPEN (the handoff rerun without contraction): C1 passes (plain double real everywhere);
+  the verdict extends the locked table — OPEN-HEARD / CLOSED-DEAF: the twist's entire imprint
+  is the sign flip M_odd → −M_odd (P_odd C = −P_odd; exact), Im is parity-symmetric inversion
+  phase, cross-blocks vanish (open-face of quadrature), and closed contractions die (B592).
+  The mirror hears the twist as a sign it can never sum. 3 new locks.
+
+
 ## 2026-07-14 — B592: R3-M, the mirror listener — DEAF, sharpened to a theorem
 
 ### Added

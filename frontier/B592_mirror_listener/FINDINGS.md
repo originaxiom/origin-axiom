@@ -81,3 +81,58 @@ B584 (third unhearability; C), B585/B586 (the closed-trace face), B582 (the
 dial twist — the object R3-M was probing), B245/B240 (colored inputs), B279
 (invertibility), B580-Q1R (the level-1 rank control), X3/B583 (the second
 unhearability — this is its cut-open sibling).
+
+## B592-OPEN — the run repeated EXACTLY per the self-contained handoff (the open matrix)
+
+The owner re-delivered chat-1's self-contained R3-M handoff; the first run had
+contracted the channels (row sums), which the handoff's Step 2 forbids ("do
+NOT sum"). The faithful open-matrix run (`r3m_open_matrix.py`, locks extended):
+
+**C1 first (the foundation): PASS.** The untwisted plain double is real in
+every channel (max|Im| < 1e-12) — the Θ-reality baseline holds; the
+computation is valid per the handoff's own criterion.
+
+**The verdict lands outside the locked table, and per the handoff's rule
+("if the result is not in the outcomes table: bank it as-is and extend the
+table") the NEW ROW is:**
+
+> **OPEN-HEARD / CLOSED-DEAF.**
+> (i) At the bare twisted weld (g = I): Im = 0 everywhere (the table's DEAF).
+> (ii) At monodromy-dressed welds: Im(M_odd) ≠ 0 AND Im(M_even) ≠ 0 (the
+> table's MIXED row) — but the imaginary parts are parity-symmetric inversion
+> phases (conj A(g) = A(g⁻¹)), not chirality.
+> (iii) **THE SIGN-FLIP THEOREM — what the twist actually does:** the twist's
+> entire imprint on the open matrix is the SIGN of the θ-odd block:
+> M_odd(twisted) = −M_odd(untwisted), M_even unchanged, exactly, for every
+> weld (proof: P_odd C = −P_odd, P_even C = +P_even; verified 1e-15). This is
+> chat-1's "the θ-odd component flips sign rather than vanishing," made
+> precise — the flip lives on the OPEN matrix.
+> (iv) **Parity conservation:** the odd↔even cross-blocks vanish identically
+> (the states are real and C-symmetric; Cρ(g) is parity-preserving) — the
+> open-matrix face of the quadrature theorem.
+> (v) And every CLOSED contraction of the odd block against the (C-symmetric)
+> states vanishes (the B592 theorem above). **The mirror hears the twist as a
+> sign it can never sum.** The first chiral amplitude from geometry exists at
+> the open-channel level — it is the odd block with its twist-flipped sign —
+> and self-deafness is exactly the statement that no closed pairing reads it.
+
+**C4 in matrix form:** 5₂'s open matrix has the same universal structure
+(parity conserved; twist = odd sign flip — the theorem is knot-independent
+for invertible knots) with knot-specific entries (non-real already at plain
+welds, from the non-real J₃(5₂)). Note: the handoff's "5₂ has trace field
+ℚ(√−7)" is a slip — 5₂'s trace field is the cubic of discriminant −23; the
+control's purpose (knot-specificity) is unaffected and satisfied.
+
+**Prediction check (the handoff's HEARD list):** prediction 1 (Im supported
+exactly in θ-odd channels) FAILS as stated — the Im is parity-symmetric; the
+twist's signature is the sign, not the imaginary part. The sign-law
+comparison transfers to the sign flip: the θ-odd block flips (−), the θ-even
+does not (+) — the parity pattern (−1)^{parity} — which IS the B581 sign law's
+shape at the operator level. Magnitudes vs |τ_m|: not testable on this stage
+(the stage channels are the primary pairs, not the six exponents — the frame
+distinction banked in B586).
+
+**Consequence, unchanged and sharpened:** hearing the twist in a closed
+amplitude requires a listener whose state is NOT C-symmetric — deform the
+state along the dial (Round 4), or find a third entity (the handoff's own
+DEAF-branch prediction 3).
