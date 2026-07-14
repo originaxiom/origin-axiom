@@ -3804,3 +3804,19 @@ added; the JSON units note; #918 red merge and #920 no-pytest exceptions recorde
 B207). Promotion candidates: the naming theorem, LAW-O, the antiphase identity, the every-color
 solo-antiphase-zero theorem. Queue: L82 mechanism first, then L81(a), the corrected X2, L83(a),
 L80(a), PC26 decision, revival remainders, B207. Full text in docs/progress/REVIEWS.md.
+
+## 2026-07-14 — B587: THE TONE MECHANISM SOLVED — the Weyl-twisted Weil factorization (L82 answered)
+The review queue's item 1, executed. MB13 found the mechanism BANKED AT SU(2) (B204 PROOF/V198;
+Jeffrey 1992 — known framework, cited, no novelty claim); B587 computes the open SU(3) reach (L24(c)).
+**(D) THE DECOMPOSITION IDENTITY, exact at every κ=4..20 for golden/silver/bronze:** Z(W; SU(3)_k) =
+(1/6)Σ_w sign(w)·tr(ρ_Weil(W)∘P_w) on ℂ[P/κQ]; the C-insertion = sign(w₀)·(−W)-coset ⇒ tr_odd = the
+±-symmetrized twelve-term assembly. **(M) THE CONDUCTOR MENU:** each term fires on κ | det(A⊗(±w)−I₄)
+— the object's eigenvalues twisted by the stage's point group. **LAW-O RE-DERIVED at every κ** (gate);
+the golden voice in closed form: tr_odd(5|κ) = (1/12)[(1+5) − 6√5] = (1−√5)/2 = −1/φ. **Silver's
+mystery tones SOLVED:** 7 = the d=49 rotation terms N(α·ω−1) firing +7 at 7|κ (registered prediction
+CONFIRMED); 5 = the d=25 (−rot) terms. **Bronze's κ=10 silence exhibited as exact cancellation:**
+(4 − 12 + 8)/12 = 0. **LAW-E explained:** the even channel is the ±-difference assembly mixing
+Legendre-oscillating unit terms — no divisibility law can exist (why the B585 guess had to die).
+**"Golden is special" now a mechanism:** the figure-eight's det(A∓I) = ∓1·5 unit structure makes the
+generic terms cancel exactly; heavier words (det 16, 81) interfere. Residual: the per-term reciprocity
+PROOF (B204-style) = Wave 2. 16 locks. Firewalled; no SM quantities.

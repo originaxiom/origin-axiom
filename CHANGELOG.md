@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B587: the tone mechanism solved — the Weyl-twisted Weil factorization
+
+### Added
+- B587 (L82 answered; L24(c) SU(3) reach computed; framework Jeffrey 1992/B204, cited): the
+  decomposition identity Z = (1/6)Σ sign(w) tr(ρ_Weil∘P_w) exact at every κ=4..20 for three
+  words; tr_odd = the ±-symmetrized twelve-Gauss-term assembly; each term gated by the
+  conductor det(A⊗(±w)−I₄); LAW-O re-derived at every κ with the golden voice in closed form
+  ((1/12)[(1+5)−6√5] = −1/φ); silver's 7-tone = the d=49 Weyl-rotation terms (registered
+  prediction confirmed); bronze's κ=10 silence = exact cancellation (4−12+8)/12; LAW-E's
+  lawlessness explained (Legendre-oscillating unit terms in the ±-difference); "golden is
+  special" mechanized (det(A∓I) = ∓1·5 units ⇒ exact generic cancellation). Residual: the
+  per-term reciprocity proof (Wave 2). Locks: tests/test_b587_weil_mechanism.py (16).
+
+
 ## 2026-07-14 — B586: the Round-3 handoff processed — E₆ hears everything too
 
 ### Added
