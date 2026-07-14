@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B580-Q1R: the Q1 artifacts reconstructed (L80(a))
+
+### Added
+- B580-Q1R: tests/test_b580_q1.py — the level-1 listener reconstructed with the lens-space
+  control gate (the Q2-verifier condition): modular gate, Z = +1, filling covectors rank
+  exactly 2 (θ-odd projection < 1e-10, 147 slopes), |Z(L(p,1))| two ways, knot-blindness
+  control. L80(a) done; (c) moot; (b)/(d) open. (4 locks.)
+
+
 ## 2026-07-14 — B589: the E₆₂ pair amplitudes identified — the sine kernel carries the moduli
 
 ### Added
