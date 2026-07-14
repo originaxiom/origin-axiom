@@ -49,6 +49,18 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B584 — ROUND 3: THE LISTENER — the golden amplitude is entirely θ-odd, 2026-07-14)
+- **The owner asked what the nontrivial listener is ("its mirror?").** Answer, preregistered and
+  computed blind on the golden stage SU(3)₂: the mirror ALONE is deaf (bare knot states have zero
+  θ-odd component — J_3 = J_3̄, the third unhearability); the listener is the **antiphase mirror
+  channel** — tr_odd ρ = ½(plain play − mirror-twisted play). And on the golden stage that listener
+  hears EVERYTHING: **tr_even = 0, tr_odd = −1/φ — the recurring golden value was always the chiral
+  channel's voice.** Odd block = the order-10 golden rotation; even block = a silent order-20 clock;
+  level-rank realizes the same number in opposite parity sectors (SU(2)₃ all-even ↔ SU(3)₂ all-odd).
+  (B578–B583 banked same-day: see PROGRESS_LOG/CHANGELOG — the debt clearing, the six torsions, the
+  chiral play + its content, the two unhearability theorems.)
+
+
 ## LAST BANKED (B577 — THE RECONCILIATION: the {4,8} program got there first, 2026-07-14)
 - **The owner's audit question caught a non-recall:** B575's Q≡0 = the banked **B352** (dps-100,
   conditional) computed exactly; B576's dichotomy = the banked **B265** (Sage/ℚ) completed. Two

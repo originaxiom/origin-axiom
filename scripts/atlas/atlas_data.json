@@ -11818,6 +11818,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B584": {
+   "slug": "theta listener",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B204",
+    "B238",
+    "B242",
+    "B243",
+    "B245",
+    "B570",
+    "B580",
+    "B582",
+    "B583",
+    "L77"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [

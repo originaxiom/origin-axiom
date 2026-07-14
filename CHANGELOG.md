@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B584: Round 3, the listener — the golden amplitude is entirely θ-odd
+
+### Added
+- B584: the nontrivial listener answered (preregistered, blind). Bare knot states have zero
+  θ-odd component (J_3 = J_3̄ computed via B245 — the third unhearability: the mirror ALONE is
+  deaf); the nontrivial listener = the ANTIPHASE mirror channel, operationally
+  tr_odd ρ = ½(Z − Z_C) (B582's mirror-double made operational). BLIND result on the golden
+  stage SU(3)₂: tr_even = 0 exactly, tr_odd = −1/φ — the entire banked Z = −1/φ (B238) is
+  θ-odd; the odd block is the order-10 golden rotation e^(±3πi/5), the even block a silent
+  order-20 clock. Level-rank re-read: SU(2)₃ (C=1) realizes the same number all-even — one
+  number, two opposite parity sectors. E₆₂ (C3): amplitude 1, order 4 — the listener's clock
+  is stage-dependent. Locks: tests/test_b584_theta_listener.py (5).
+
+
 ## 2026-07-14 — B583: the content — no real form; the second unhearability theorem
 
 ### Added
