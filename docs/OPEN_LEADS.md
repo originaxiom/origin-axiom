@@ -503,6 +503,20 @@ fix (every named open gets a row or it evaporates).
 | **L72 — the CS-functional/dynamics program (phase 1: E₆-principal torsion)** | The handoff's dynamics proposal, MB13-swept: Reidemeister torsion is a banked five-thread (B126 — adjoint torsion PROVEN for all once-punctured-torus bundles; B425 — τ₁ = −3 ∈ ℚ(√−3) at the geometric root; B350/B330/B134). The genuinely new step: the E₆-PRINCIPAL torsion = the product of the six Sym^{2m}-block torsions — start from B425's method. Phases 2-3 (E₆ 6j at levels 1-2; the CS functional along the θ-odd deformation) gated on phase 1. | MATH | ★★★ | OPEN (B579) |
 
 
+## The jewel veins (the doors behind the stones — owner directive, 2026-07-14)
+
+Audit finding: the program banks jewels as endpoints; the underlying structures they jointly
+point at were never studied as objects. Five veins registered, each with its verified anchor
+and its first computation.
+
+| Lead | The vein | Anchor (verified) | First computation |
+|---|---|---|---|
+| **L73 — ABELIAN INVISIBILITY** | det(A₁−I) = −1 is a unit mod every N ⇒ one fixed point on every torsion lattice ⇒ Z ≡ 1 in every abelian theater — the object is structurally invisible to abelian observation; the chord's content is FORCED nonabelian. Explains AP2's 243-theater theorem and PREDICTS the Q1 abelian null before it runs. | det(A₁−I) = −1 exact | Write the one-page fixed-point proof; extend to the nonabelian Z=1 (levels 2,3 — H133) or find where it first fails |
+| **L74 — THE NORM-7 / SPLITTING LAW** | N(tr ρ(ab)) = 7 exactly = the ℤ/7 sine-kernel modulus; 7 = the smallest split prime of ℚ(√−3); the level ladder k+12 = 13 (split), 14 = 2·7 (split), 15 = 3·5 (5 INERT → ℚ(√5) imported). Hypothesis: the chiral theater's per-level arithmetic reads the splitting of k+12 in the object's own field. | norms + splittings exact | Level 4 (k+12 = 16 = 2⁴, pure ramified-2): predict and compute the θ-odd block's arithmetic — dyadic? |
+| **L75 — THE TWO ENDS MEET IN THE OBSERVER** | ℚ(√5) (the E₈/spherical end's field, B247–B261) enters the E₆/hyperbolic end's chiral theater at level 3 (the golden octic, D7). The level ladder as a bridge between the object's two ends. | D7's octic factors over ℚ(√5), exact | Does the E₈-end structure (L-values, the spherical side's invariants) appear in the level-3 blocks quantitatively? |
+| **L76 — COVER TORSION = CHARGE?** | \|Res(Δ, tⁿ−1)\| = 5,16,45,121,320,841 (= C4's cover orders) and at n = 5: 121 = 11² = e₁²  — the triple identity's unopened door. Is there a LAW relating the cover-torsion tower to the charge tower eₙ across all n? | resultant table exact | Compute both towers side by side to n = 12; test divisibility/norm relations (11-pattern at n ≡ 0 mod 5?) |
+| **L77 — THE θ-ODD CLOCK** | odd-block monodromy orders: level 2 → 4 = ord(A₁ mod 3); level 3 → 60 = ord(A₁ mod 30). The chiral monodromy's order sits in the Pisano clock table at moduli {3, 30}. | AP5 table + D7, exact | Level-4 odd order; find the modulus map k ↦ N(k); connect to L74 |
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
