@@ -11746,6 +11746,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B581": {
+   "slug": "six torsions",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B353",
+    "B425",
+    "B520",
+    "B580",
+    "L72",
+    "L74"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [

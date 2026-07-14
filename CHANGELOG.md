@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B581: the six torsions — the jewel spectrum + THE SIGN LAW
+
+### Added
+- B581: the six twisted Alexander polynomials (exact, blind protocol, control-gated);
+  τ₁ = −3 = the banked B425 value (analytic gate); **THE SIGN LAW: sign(τ_m) = (−1)^m —
+  the θ-grading readable in six scalar signs**; m=1's factor = the BTZ quadratic
+  (unforced); 7 saturates the tower; the charge 11 enters at m=7; honest negatives on
+  the ratio guess. `frontier/B581_six_torsions/{FINDINGS.md, six_torsions.py,
+  six_torsions_results.json}`, 3 locks.
+
+
 ## 2026-07-14 — B578 closed: the Kubota retraction + 432·e₃; the hygiene batch applied
 
 ### Added

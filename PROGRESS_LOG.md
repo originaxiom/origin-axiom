@@ -3657,3 +3657,23 @@ the two-ended object); **L76 COVER TORSION = CHARGE?** (the resultant tower = C4
 n=5: 121 = 11² = e₁² — the triple identity's unopened door); **L77 THE θ-ODD CLOCK** (odd orders
 4, 60 = ord(A₁ mod 3), ord(A₁ mod 30) — the chiral monodromy sits in the Pisano table).
 Each vein has its first computation named. Firewalled.
+
+## 2026-07-14 — B581: THE SIX TORSIONS — the jewel spectrum computed; THE SIGN LAW
+
+L72 phase 1 / the cross-seat unifier, run blind (polynomials dumped before any comparison).
+The six twisted Alexander polynomials Δ_m(t) at Sym^{2m}(ρ_geo), one per E₆ exponent, exact
+over ℚ(√−3) via the Wada formula on the B575 machinery (control: the trivial rep reproduces
+the classical Alexander t²−3t+1 + the (t−1) denominator). ALL SIX: integer coefficients,
+skew-palindromic, Δ(1) = 0 (the deformation directions). The torsions τ_m = Δ′_m(1):
+−3 (= THE BANKED B425 VALUE, analytic gate), +2⁷·3·7·97, −2⁷·3⁴·5²·7²·13, −2¹²·3⁴·5·7⁵·11·13·19·43,
++2¹⁴·3³·5·7³·11·13·31·607·49297, −2²¹·3⁷·5·7⁶·11²·13²·17·19·73·149·151·1471·160453.
+
+**THE SIGN LAW: sign(τ_m) = (−1)^m = −θ(m) — positive EXACTLY at the θ-odd exponents {4,8}.
+B353's grading formula is readable in six scalar signs: the chirality fold has a scalar
+signature.** (Null 1/64; likely provable — dim ≡ 1 vs 3 mod 4 tracks exponent parity; proof
+target registered.) Comparison phase: m=1 factors as (t−1)(t²−5t+1) — THE BTZ QUADRATIC
+(B520's entropy value, unforced); 7 SATURATES the tower (every m ≥ 4 — the L74 vein's
+torsion echo); the charge 11 enters at m = 7 (11² at m = 11); 13 at m = 5; τ₅ is
+{2,3,5,7,13}-smooth. HONEST NEGATIVES: 2/3, 15/169, the golden/D₄/ζ₉ polynomials do NOT
+appear — the "jewels = torsion ratios" guess died cleanly. The middle reciprocal-quadratic
+ladder {5, 26, …} = a new unregistered object. 3 locks + data + reproducer. Firewalled.
