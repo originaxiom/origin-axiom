@@ -49,6 +49,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B585 — THE LISTENER'S LAW: two lifts, two tones, 2026-07-14)
+- **The naming theorem:** the mirror-twisted play = the play of the other SL(2,ℤ) lift of the
+  object's monodromy (the −A₁ bundle) — **chirality is what the two lifts agree on.** **LAW-O
+  (held-out-verified, additive at the κ=20 collision):** the figure-eight's chiral voice on the
+  SU(3) tower = a two-tone chord, tr_odd = [4|κ]·1 − [5|κ]·(1/φ); κ=5 is B584's pure-golden
+  point; the 60-clock ticks exactly at the golden-voiced κ=10,15 (L77's number). The
+  field-containment mechanism was preregistered and REFUTED same-arc (silver/bronze tones
+  interfere, non-constant) — only the golden/minimal word has the clean law. LAW-E died on
+  hold-out (banked). New lead L82: the signed fixed-point mechanism.
+
+
 ## LAST BANKED (B584 — ROUND 3: THE LISTENER — the golden amplitude is entirely θ-odd, 2026-07-14)
 - **The owner asked what the nontrivial listener is ("its mirror?").** Answer, preregistered and
   computed blind on the golden stage SU(3)₂: the mirror ALONE is deaf (bare knot states have zero

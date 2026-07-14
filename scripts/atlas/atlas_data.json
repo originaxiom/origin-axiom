@@ -11846,6 +11846,38 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B585": {
+   "slug": "listener law",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B233",
+    "B234",
+    "B238",
+    "B279",
+    "B569",
+    "B570",
+    "B580",
+    "B584",
+    "K1",
+    "L77",
+    "L81",
+    "L82"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [
