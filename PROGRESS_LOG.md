@@ -3642,3 +3642,18 @@ DELIBERATE cross-reference register (do-not-renumber note added — the naive fi
 broken citations); the log-date convention documented in REPRODUCIBILITY. The B578 campaign
 is now fully closed: ten debts — seven cleared, one retraction fired, Q-C honestly reopened,
 one item self-corrected. Locks: +9 (kubota 1, refactored 8). Firewalled.
+
+## 2026-07-14 — THE JEWEL AUDIT: five veins registered (L73–L77; owner directive)
+
+"Every jewel should be a door." Audit verdict: the program banked stones and lost veins — the
+burial pattern applied to our best results. Five underlying structures, each anchored on facts
+verified today: **L73 ABELIAN INVISIBILITY** (det(A₁−I) = −1 a universal unit ⇒ Z ≡ 1 in every
+abelian theater — the object hides from abelian observation; the chord is forced nonabelian;
+predicts the Q1 null structurally); **L74 THE NORM-7/SPLITTING LAW** (N(tr ρ(ab)) = 7 = the sine
+kernel's modulus = the smallest split prime of ℚ(√−3); hypothesis: the chiral theater reads the
+splitting of k+12 in the object's field — level-4 prediction: dyadic); **L75 THE TWO ENDS MEET**
+(ℚ(√5) = the E₈ end's field enters the E₆ end's theater at level 3 — the level ladder bridges
+the two-ended object); **L76 COVER TORSION = CHARGE?** (the resultant tower = C4's orders; at
+n=5: 121 = 11² = e₁² — the triple identity's unopened door); **L77 THE θ-ODD CLOCK** (odd orders
+4, 60 = ord(A₁ mod 3), ord(A₁ mod 30) — the chiral monodromy sits in the Pisano table).
+Each vein has its first computation named. Firewalled.
