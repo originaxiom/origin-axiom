@@ -12157,6 +12157,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B597": {
+   "slug": "d1 dictionary",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B425",
+    "B581",
+    "B584",
+    "B587",
+    "B595",
+    "B596",
+    "L85"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [

@@ -3990,3 +3990,15 @@ What stands: B587's factorization (the full trace IS the Weyl-twisted cat-map ch
 trace/determinant bridge — the operator dictionary holds at trace/det level, NOT at order level. L84
 sharpened (any functorial map must explain the clock multipliers); L77/L81(b) stay open with this
 table as their data. The failed prediction banked as failed, per the discipline. 2 locks. Firewalled.
+
+## 2026-07-14 — B597: chat-1's D1 prereg processed — outcome C excluded (conditionally); D1 narrowed to existence
+The dictionary prereg ADOPTED with four binding adjudication corrections ("smooth" → unobstructed-to-
+order-3; the E₆₂ 3≠2 dimension caveat — the map is well-posed as stated only at golden; the B596
+order-level constraint any candidate must reproduce; B425's S₁-identification = [CITED]-tier). The
+tractable cells RUN: T1 — |τ₄| = 260736 vs |τ₈| ≈ 1.006×10²⁰ (ratio 3.9×10¹⁴) and the quantum
+eigenlines e^{±3πi/5} distinct: BOTH planes carry canonical line-splittings; T2 — the θ-even torsions
+pairwise distinct (the control's forcing structure present). **VERDICT (as locked): the free-rotation
+outcome C is structurally excluded conditional on existence + width-respect; D1 is narrowed to the
+existence question (A/B vs D).** The existence route (boundary restriction → Weil quantization)
+registered as L85 — the D1 arc proper, sized as its own campaign. The downstream sequence (PDG/JUNO/
+PC26 §9) stays gated per the prereg's own gating and the repo firewall. 2 locks. Firewalled.
