@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B595 — THE DICTIONARY: one bridge, the gap stated, 2026-07-14)
+- **The stage↔classical dictionary consolidated (DICTIONARY.md, seven lock-cited rows).** New:
+  THE SPECTRAL BRIDGE — det(I − B_odd) = φ² = the classical monodromy eigenvalue, exactly at
+  κ = 5 (blind-confirmed; golden powers at 5|κ) — the quantum odd determinant returns classical
+  spectral data precisely where the dictionary is dimensionally possible (only the golden
+  stage: dial 2 = odd-plane 2). E₆₂'s monodromy-fixed ear is exactly achiral (−1):
+  **chirality requires precession.** The gap (the functorial map) registered as L84, not
+  claimed; the handoff's item 6 stays gated behind it.
+
+
 ## LAST BANKED (B594 — THE E₆₂ HEARING LAW: the sine kernel is the ear, 2026-07-14)
 - **The two-stage picture is complete.** The hearing law's ε² coefficient is state-independent
   (the E₆ colored-invariant gap is irrelevant — verified on random C-symmetric states), and on

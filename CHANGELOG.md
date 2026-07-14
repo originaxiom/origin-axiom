@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B595: the dictionary — consolidated, one bridge, the gap stated
+
+### Added
+- B595 (the arc handoff's item 2, scoped honestly): D1 the dimension constraint (bijective
+  dictionary only on the golden stage); D2a the spectral bridge (det(I−B_odd) = φ² = λ(A₁) at
+  κ=5, blind-confirmed; golden powers at 5|κ); D2b the E₆₂ fixed ear is achiral (coefficient
+  exactly −1 — chirality requires precession); D3 DICTIONARY.md (seven rows, lock-cited);
+  D4 → L84 (the functorial map: the gap, registered not claimed). Locks:
+  tests/test_b595_dictionary.py (4).
+
+
 ## 2026-07-14 — B594: the E₆₂ hearing law — the sine kernel is the ear's coefficient
 
 ### Added
