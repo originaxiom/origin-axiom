@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B586: the Round-3 handoff processed — E₆ hears everything too
+
+### Added
+- B586: chat-1's Round-3 cells verify-don't-trust. R3-A (frame-corrected, blind): E₆₂'s entire
+  amplitude is θ-odd (Z = +1, tr_even = 0) — B584's pattern on a second stage; the −1/φ check is
+  empty (the golden voice is stage arithmetic, not object-universal); three per-pair chirality
+  amplitudes banked (complex, sum 1, order 4). R3-B superseded by B585's naming theorem: the
+  C-twisted torus = the (−A₁)-bundle, Sol — census/volume/CS/trace-field questions ill-posed;
+  ℚ(√−15) does not arise. R3-C answered structurally: invertibility (B279) + RT duality ⇒
+  J₂₇ = J₂₇̄ at every color — the solo antiphase is zero; chirality is chord-borne. L83
+  registered. Locks: tests/test_b586_round3_handoff.py (3).
+
+
 ## 2026-07-14 — B585: the listener's law — two lifts, two tones, one refuted mechanism
 
 ### Added

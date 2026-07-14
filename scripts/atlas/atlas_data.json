@@ -11878,6 +11878,38 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B586": {
+   "slug": "round3 handoff",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B238",
+    "B279",
+    "B570",
+    "B575",
+    "B580",
+    "B581",
+    "B584",
+    "B585",
+    "L82",
+    "L83"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [
