@@ -49,6 +49,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B583-X2R — THE QUADRATURE THEOREM, 2026-07-14)
+- **The corrected X2 closed (the review queue's item 3).** CS = 0 kills the phase; the sign law
+  sign(τ_m) = (−1)^m IS the interference structure, and it decrees quadrature: the chiral
+  channels {4,8} (real one-loop factors) never interfere linearly with the gauge channels
+  {1,5,7,11} (imaginary) — |total|² = |chiral|² + |gauge|² exactly. Chirality enters the
+  modulus only quadratically: one more face of the unhearability chain.
+
+
 ## LAST BANKED (B588 — THE SECTOR-EXCHANGE THEOREM, 2026-07-14)
 - **L81(a) resolved.** The rank-1 Weil decomposition (exact, 18 levels × 3 words) + the
   membership fact (−1 ∈ W(A₁), ∉ W(A₂)) + the ingredient identity at κ=5 prove B584's

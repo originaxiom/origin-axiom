@@ -3832,3 +3832,11 @@ exchange = the migration of −1 across the Weyl-group boundary under level-rank
 "level-rank = conjugation" at the parity-projector level. B584's observation is now a theorem-shaped
 mechanism. Whether the object's √5 voice is "gauge" or "chirality" is decided by whether the theater's
 symmetry group contains the central mirror. 8 locks. Firewalled; no SM quantities.
+
+## 2026-07-14 — B583-X2R: the corrected X2 recomputed — THE QUADRATURE THEOREM
+The review queue's item 3, closing the registered X2 correction. CS(4₁) = 0 makes the exponential
+real and channel-independent; the entire interference structure = the one-loop factors 1/√τ_m; the
+banked sign law forces the phase dichotomy (θ-odd {4,8} REAL, θ-even {1,5,7,11} IMAGINARY); hence
+**|Σ c_m/√τ_m|² = |chiral|² + |gauge|² exactly — the chiral channels never interfere linearly with
+the gauge channels; chirality enters the modulus only in quadrature.** Another face of the
+unhearability chain. 2 locks. Firewalled; no SM quantities.

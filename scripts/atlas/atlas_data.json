@@ -11797,6 +11797,7 @@
   "B583": {
    "slug": "chiral content",
    "motifs": [
+    "figure_eight",
     "trace_map",
     "eisenstein",
     "z3_generation",
@@ -11813,8 +11814,8 @@
     "B582",
     "L78"
    ],
-   "obstacle": "spacetime_3p1",
-   "obstacle_conf": 3,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },
