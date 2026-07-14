@@ -3952,3 +3952,16 @@ determinant-only gate). V3: the negative-amphichirality triangle closes (J₃ re
 — consistent with reverse-blindness. Caveat made explicit in FINDINGS: the R4-B null's wording
 rests on the standard reversed-word = reverse-knot anti-involution lemma (cited). 3 new locks
 (V1 OA_SLOW-gated, 11.6 s). All green.
+
+## 2026-07-14 — B594: THE E₆₂ HEARING LAW — the sine kernel is the ear's coefficient (the arc handoff's item 1)
+The structural unlock (H1): the hearing law's ε² coefficient is STATE-INDEPENDENT — ψ enters only the
+baseline and the O(ε)-cancellation (Cψ = ψ, structural for bare knots) — so the E₆ colored-invariant
+method gap (which blocked R3-C) does NOT block the law; verified exactly for random C-symmetric
+states. H2 (the handoff's prediction CONFIRMED): the three E₆₂ hearing coefficients =
+**−(2/√7)·sin(2πj′/7)·ζ₁₄^k = minus B589's banked sine-kernel amplitudes** (1e-9; Im ≠ 0 each). H3:
+the full 3×3 odd form banked (trace −1 = −C3; order 4 ✓). THE TWO-STAGE PICTURE IS COMPLETE: same
+quadratic hearing law, stage-specific numbers (golden: 1/(2φ) + i·sin(2π/5)/√5 ∈ ℚ(ζ₅); E₆₂: the
+ℤ/7 sine kernel × ζ₁₄ ∈ ℚ(ζ₁₄·…)). Adjudication of the arc handoff banked: "three generations
+MATCHED at weight level" is an OVERCLAIM vs the (paused, unbanked) B590-V3 blind tables (five
+heterogeneous orbit profiles; no clean orbit↔16s correspondence); the field remark's ℚ(√5,ζ₅) = ℚ(ζ₅).
+3 locks. Firewalled.

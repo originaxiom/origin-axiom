@@ -12062,6 +12062,7 @@
     "trace_map",
     "golden",
     "amphichiral_cp",
+    "wrt_quantum",
     "firewall"
    ],
    "refs": [
@@ -12070,12 +12071,40 @@
     "B581",
     "B582",
     "B584",
-    "B592"
+    "B592",
+    "V1",
+    "V2",
+    "V3"
    ],
    "obstacle": "measure",
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B594": {
+   "slug": "e6 hearing",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B586",
+    "B589",
+    "B590",
+    "B592",
+    "B593",
+    "H1",
+    "H2",
+    "H3",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B59": {
    "slug": "sl4 factorization",

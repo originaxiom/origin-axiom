@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B594 — THE E₆₂ HEARING LAW: the sine kernel is the ear, 2026-07-14)
+- **The two-stage picture is complete.** The hearing law's ε² coefficient is state-independent
+  (the E₆ colored-invariant gap is irrelevant — verified on random C-symmetric states), and on
+  E₆ level 2 the three hearing coefficients are exactly **minus B589's sine-kernel amplitudes**
+  −(2/√7)sin(2πj′/7)·ζ₁₄^k, each with Im ≠ 0. Same quadratic law on both stages; the numbers
+  are the stage's. Handoff adjudication: "three generations MATCHED" corrected (the unbanked
+  V3 tables show five heterogeneous orbit profiles — no clean correspondence).
+
+
 ## LAST BANKED (B593 — ROUND 4, THE HEARING LAW: a chiral ear hears at second order, 2026-07-14)
 - **The brave move, landed exactly.** A listener displaced by ε along the object's own chiral
   moduli hears the twist at second order: A^tw − A^plain = −2ε²(u†M_odd u), the FIRST CLOSED
