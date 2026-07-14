@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — PC26 draft v1 (the flagship drafting started; gate satisfied)
+
+### Added
+- papers/drafts/PC26_full_chain/ (ABSTRACT + PAPER v1): "Chirality from the Figure-Eight
+  Knot: the θ-Odd Sector of the E₆ Character Variety and Its Listeners" — the full-chain
+  flagship, gate satisfied by B575 (Q ≡ 0) + B578-D1 (Massey); ten sections, status-labeled,
+  lock-named; the five walls as non-claims; Round-3 scope included. CANDIDATES row updated.
+
+
 ## 2026-07-14 — B580-Q1R: the Q1 artifacts reconstructed (L80(a))
 
 ### Added
