@@ -517,6 +517,14 @@ and its first computation.
 | **L76 — COVER TORSION = CHARGE?** | \|Res(Δ, tⁿ−1)\| = 5,16,45,121,320,841 (= C4's cover orders) and at n = 5: 121 = 11² = e₁²  — the triple identity's unopened door. Is there a LAW relating the cover-torsion tower to the charge tower eₙ across all n? | resultant table exact | Compute both towers side by side to n = 12; test divisibility/norm relations (11-pattern at n ≡ 0 mod 5?) |
 | **L77 — THE θ-ODD CLOCK** | odd-block monodromy orders: level 2 → 4 = ord(A₁ mod 3); level 3 → 60 = ord(A₁ mod 30). The chiral monodromy's order sits in the Pisano clock table at moduli {3, 30}. | AP5 table + D7, exact | Level-4 odd order; find the modulus map k ↦ N(k); connect to L74 |
 
+## B580 Round 2 (the traverse's continuation map, 2026-07-14)
+
+| Lead | What | Tier | Value | Status |
+|---|---|---|---|---|
+| **L78 — the level-2 filling span (Route A)** | Row-0 covectors of ρ_level-2(g_{p,q}) over the slope sweep; SVD against the θ-even/θ-odd split. Rank > θ-even dim ⇒ the θ-odd state amplitude (Q3's missing fact) becomes computable; rank pinned ⇒ a SECOND structural-unhearability theorem. Either banks. Route B (state-integral vs the six torsions) = the cross-check. Controls mandatory (5₂ + one non-E₆ theater). | MATH | ★★★★ | OPEN — Round 2 first |
+| **L79 — the clause-S test on the double** | The group-level Zariski closure of the dial-{4,8} mirror-double representation and its 27-branching: complex/chiral or not. The fifth wall's newly-mapped hypothesis boundary (rank 1, single copy) poses exactly this; either answer banks. Sub-items: the t∈{2,ω} genericity sweep completion; the geometric realization of the twisted doubles; the torsion-sign-law ↔ dial-switch-law one-loop identity. | MATH | ★★★★ | OPEN |
+| **L80 — level-1 completion hygiene** | (a) commit the Q1 artifacts + lens-space-gated locks (Q2 stays a banked null until then); (b) the in-sandbox R-matrix/braid computation of the colored 4₁ invariant at level 1 (converts the cited abelian-blindness into a computed fact); (c) mark the superseded naive reconstruction in-file; (d) resolve the ±5 Meyerhoff mirror-pair question (same census tag for both fillings — oriented mirror pair or amphichiral filling?). | MATH/HYGIENE | ★★ | OPEN |
+
 ## Note on the AI-assisted register's §E guard numbering
 
 The AI-assisted register's §E proposed "MB7" for the *"a generic/necessary feature is not discriminating — check the
