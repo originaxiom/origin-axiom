@@ -3892,3 +3892,22 @@ the monodromy-twisted double is an integral homology 3-sphere** (graph manifold,
 Geometry verdicts stand (Sol / graph; no hyperbolic invariants — what exists instead is the torsion).
 One integer, three hats: the LAW-O tone, the Alexander determinant, the mirror-double-cover homology.
 5 locks. Firewalled.
+
+## 2026-07-14 — B592: R3-M, THE MIRROR LISTENER — the verdict is DEAF, sharpened to a theorem (owner directive)
+The relayed R3-M prereg (the cut-open trace; the original file never reached this seat — reconstruction
+frozen in the prereg) run on the golden stage. **THE VERDICT: DEAF, the relay's second branch, with
+proofs.** (i) THE FOURTH UNHEARABILITY: the θ-odd channels of A(g) = ⟨ψ_mirror|Cρ(g)|ψ⟩ are
+IDENTICALLY ZERO for every mapping-class gluing — Cψ = ψ (invertibility) + C central ⇒ ρ(g)ψ stays
+C-symmetric; verified 1e-15 across the sweep, theorem not numerics. (ii) THE C-ABSORPTION IDENTITY:
+the mirror covector's label conjugation cancels the C-twist exactly — twisted = untwisted for every g:
+"mirror + C-twist" IS "plain + no twist" at the state×gluing level. (iii) THE Θ-REALITY IDENTITY:
+conj A(g) = A(g⁻¹); the even-channel Im is inversion phase, killed by g↔g⁻¹ symmetrization — the kill
+condition realized. Controls: C1/C2 recast in-diagnosis to the discovered identities (PASS); C3
+level-1 deaf (PASS); C4 5₂ via an independent U_q(sl₃) R-matrix pipeline (validated on 4₁ vs B245 to
+4.5e-16; the braid word verified to close to 5₂ by the Jones layer, unique among 7 candidates;
+J₃(5₂) non-real = the amphichirality contrast; one misaligned-vector bug caught by the prereg's MIXED
+rule, fixed and disclosed) — **5₂'s odd channels also dead: the deafness is invertibility-universal.**
+THE CONSEQUENCE: the mirror listener cannot be built from {mirror state, C, mapping classes}; B582's
+chiral twist is the Lie-algebra DIAL, not a mapping class — **Round 4 must deform the STATE, not the
+gluing.** Method gaps disclosed (the 8-channel; J₆(5₂) — both pure even, verdict-irrelevant). 4 locks.
+Firewalled.

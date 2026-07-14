@@ -49,6 +49,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B592 — R3-M THE MIRROR LISTENER: DEAF, proven, 2026-07-14)
+- **The owner's measurement, run as preregistered (the reconstruction frozen; the original
+  prereg file never reached this seat).** The cut-open pairing's θ-odd channels are
+  IDENTICALLY ZERO for every mapping-class gluing — the FOURTH unhearability, a theorem
+  (Cψ = ψ + C central); the C-twist is ABSORBED by the mirror covector (twisted ≡ untwisted);
+  the residual Im is inversion phase (conj A(g) = A(g⁻¹)). All controls pass incl. the 5₂
+  R-matrix contrast — the deafness is invertibility-universal. **The mirror listener cannot
+  be built from {mirror state, C, mapping classes}: the chiral twist is the Lie-algebra dial.
+  Round 4 = deform the state, not the gluing.**
+
+
 ## LAST BANKED (B591 — THE CHORD'S MANIFOLD: the tone is the torsion, 2026-07-14)
 - **Owner directive executed: the Round-3 manifold cell run as a computation.** The mirror-
   twisted carrier (−A₁ bundle) has **H₁ = ℤ ⊕ ℤ/5 — the golden tone's conductor is literally
