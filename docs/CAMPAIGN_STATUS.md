@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B588 — THE SECTOR-EXCHANGE THEOREM, 2026-07-14)
+- **L81(a) resolved.** The rank-1 Weil decomposition (exact, 18 levels × 3 words) + the
+  membership fact (−1 ∈ W(A₁), ∉ W(A₂)) + the ingredient identity at κ=5 prove B584's
+  observation: **the same √5 Gauss data is all-even on SU(2)₃ and all-odd on SU(3)₂ because
+  the central mirror −1 sits inside one stage's Weyl group and outside the other's.** Whether
+  the object's golden voice is "gauge" or "chirality" is a property of the theater's symmetry
+  group, not of the voice — level-rank = conjugation at the parity-projector level.
+
+
 ## LAST BANKED (B587 — THE TONE MECHANISM SOLVED: twelve Gauss sums, 2026-07-14)
 - **L82 answered (the review queue's first item).** The stage hears the object through exactly
   twelve Gauss sums — the object's eigenvalue pair twisted by every element of the stage's own
