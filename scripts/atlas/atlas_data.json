@@ -12001,6 +12001,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B591": {
+   "slug": "chord manifold",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B204",
+    "B584",
+    "B585",
+    "B586",
+    "B588",
+    "L24",
+    "L76"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [

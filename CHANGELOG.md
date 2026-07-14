@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B591: the chord's manifold computed — the tone is the torsion
+
+### Added
+- B591 (owner directive — the Round-3 manifold cell run as computation): H₁(−A₁ bundle) =
+  ℤ ⊕ ℤ/5 (the golden tone's conductor as first homology; plain bundle torsion-free); the
+  two lifts' torsions = det(A∓I) = B588's two conductors (m²+4 across the metallic family);
+  Δ(−1) = det(A+I) = |H₁(Σ₂)| = 5 with Σ₂(4₁) = L(5,2) SnapPy-verified; the ±A₁-twisted
+  complement-double is an integral homology sphere. Locks: tests/test_b591_chord_manifold.py (5).
+
+
 ## 2026-07-14 — B207 lock de-flaked (deterministic triangulation)
 
 ### Fixed
