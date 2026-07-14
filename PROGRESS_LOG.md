@@ -3850,3 +3850,13 @@ S_odd row) — the monodromy's odd diagonal carries the odd S-matrix's own modul
 14th-root phases {+3,−2,−1}. The θ-odd dynamics at E₆₂ is completely arithmetic: sine kernel
 (magnitudes) + ζ₁₄ (phases) + order 4 (the block). Post-hoc: the phases do NOT match the conformal
 weights (h−c/24 mod 1) — the phase grading stays open (→ L83(b)). 4 locks. Firewalled.
+
+## 2026-07-14 — B580-Q1R: the Q1 artifacts reconstructed in-repo with the lens gate (L80(a))
+The review queue's item 5. The Round-1 Q1 artifacts (agent-worktree files, never committed) are
+reconstructed as a locked test: the E₆₁ theater with the Kac–Peterson sign convention (the conjugate
+ℤ₃ DFT — the plain DFT fails (ST)³ ∝ S², caught by the gate), B569's Z = +1 reproduced, the
+structural unhearability re-established (147 coprime-slope covectors: SVD rank exactly 2, θ-odd
+projection < 1e-10), the lens-space control gate (|Z(L(p,1))| via the surgery sandwich ⟨0|S TᵖS|0⟩
+= the direct ℤ₃ Gauss sum, p = 1..12), and the knot-blindness control. Q2's banked-null condition
+is now satisfied. L80: (a) DONE; (c) moot (q1_part2.py was never committed — nothing to mark);
+(b) R-matrix at level 1 and (d) Meyerhoff ±5 stay open. 4 locks. Firewalled.
