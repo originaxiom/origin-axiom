@@ -3719,3 +3719,26 @@ Q4's signed touch, and B581's sign law). NOT an SM identification: the matter-co
 (chiral) is proved; spectra/values untouched (clauses M, D, Λ stand). Open and sharp: the
 geometric realization of the twisted double, the G_SM-level branching of the coupled 27, the
 interference cross-term — Round 2, now with the existence theorem under it. 2 locks. Firewalled.
+
+## 2026-07-14 — B583: the content of the chiral 27 — no real form; the second unhearability theorem; X2 corrected
+
+**X1 (the forced branching question): NO REAL FORM.** The coupled character is non-real —
+witness tr₂₇(a₁b₁) = (1295415+1011915√−3)/2 = EXACTLY the banked B572 value (cross-bank
+corroboration; dial-independent; adjoint confirms). By D10 (unconditional at E₆): the twisted
+double stays FULL E₆(ℂ); the 27 stays complex-chiral; **no maximal-compact branching is forced
+— neither 16+10+1 nor trinification is selected.** The swap-conjugate involution stabilizes
+without fixing (swap-symmetric words real, 10/20); the dial reality locus is EMPTY. **The
+compactness⟺chirality exclusive-or survives into this chord.** **X2: FAILED AS COMPUTED**
+(verifier catch: Vol/CS role inversion — Vol is the real growth rate, CS the phase; CS = 0 ⇒
+trivial phase; the "transcendental phase" headline invalid + a PSLQ-null transcendence
+overclaim). Survives: the corrected structure — cross-term = (real Vol-exponential)×(1/τ_m):
+**the B581 sign law = the interference SIGN directly** (positive exactly in {4,8}); corrected
+recompute registered. **X3: THE SECOND UNHEARABILITY THEOREM, WITH MECHANISM (holds):** the
+vacuum is C-fixed and C commutes with S,T ⇒ every filling covector is θ-even AT EVERY LEVEL
+(level-2 rank exactly 6/9 over 719 slopes; level-1 control = Q1's rank 2 exact). **The
+fillings can never hear chirality; L78 resolves negative-and-final; the θ-odd content requires
+NON-VACUUM observer states** — the next round's cell is fixed by theorem, not choice.
+SYNTHESIS: the meeting's chirality is real, invisible to every trivial probe, carries no
+forced compact structure, and its interference signature is the torsion sign law. **The
+chord's law: chirality is heard only by an observer who is themselves in a nontrivial state.**
+2 locks. Firewalled.
