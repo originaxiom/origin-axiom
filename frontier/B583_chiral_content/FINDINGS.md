@@ -58,3 +58,19 @@ theorem, not choice: pairings against structured (non-vacuum) observer states,
 starting with the θ-odd states themselves.
 
 Firewalled. Nothing to CLAIMS.md.
+
+## X2R — the corrected X2, recomputed (closes the registered correction)
+
+X2 as first computed inverted the Vol/CS roles (verifier catch, above). The
+recompute (`x2r_recompute.py`, locks `tests/test_b583_x2r.py`): CS(4₁) = 0
+makes the exponential factor real and channel-independent, so the ENTIRE
+interference structure is the one-loop factors 1/√τ_m — and the banked sign
+law sign(τ_m) = (−1)^m (B581) forces two rigid phase classes: the θ-odd
+(chiral) blocks {4,8} contribute REAL amplitudes, the θ-even (gauge) blocks
+{1,5,7,11} purely IMAGINARY ones. **THE QUADRATURE THEOREM:** for any real
+channel weights, |Σ c_m/√τ_m|² = |chiral|² + |gauge|² exactly — the chiral
+channels never interfere linearly with the gauge channels; chirality enters
+the modulus only in quadrature. Another face of the unhearability chain: the
+first-order cross-term against the gauge sector vanishes identically. The
+"interference sign = the sign law" registration is thereby made precise: the
+sign law IS the phase dichotomy, and the dichotomy decrees quadrature.

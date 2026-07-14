@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B583-X2R: the quadrature theorem (the corrected X2 closed)
+
+### Added
+- B583-X2R: CS = 0 ⇒ real channel-independent exponential; the sign law ⇒ the phase
+  dichotomy (chiral {4,8} real, gauge {1,5,7,11} imaginary) ⇒ THE QUADRATURE THEOREM:
+  |total|² = |chiral|² + |gauge|² exactly — no linear chiral/gauge interference. Closes the
+  registered X2 correction. Locks: tests/test_b583_x2r.py (2).
+
+
 ## 2026-07-14 — B588: the sector-exchange theorem (L81(a) resolved)
 
 ### Added
