@@ -12134,6 +12134,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B596": {
+   "slug": "cat map",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden",
+    "wrt_quantum",
+    "five_web"
+   ],
+   "refs": [
+    "B211",
+    "B585",
+    "B587",
+    "B595",
+    "L77",
+    "L81",
+    "L84"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [

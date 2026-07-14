@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B596: the clock is not the naive cat-map period (null-with-structure)
+
+### Added
+- B596 (L84's golden case, operator level): the blind sweep kills the registered cat-map-period
+  law (lucky hand-checks disclosed; κ=4 counterexample — the antisymmetrization can destroy
+  order); the clocks are Pisano-anchored with non-uniform multipliers (data banked). B587's
+  factorization and B595's bridge stand (trace/det level); the order-level dictionary fails.
+  L84 sharpened. Locks: tests/test_b596_cat_map.py (2).
+
+
 ## 2026-07-14 — B595: the dictionary — consolidated, one bridge, the gap stated
 
 ### Added
