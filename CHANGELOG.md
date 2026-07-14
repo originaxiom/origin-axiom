@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B593: Round 4 — the second-order hearing law
+
+### Added
+- B593: THE HEARING LAW (exact): A_ε = A₀ − ε²(u†Wu), no O(ε); twisted-minus-plain =
+  −2ε²(u†M_odd u) — the first closed chiral amplitude from the geometry, with the exact value
+  1/(2φ) + i·sin(2π/5)/√5 at the monodromy weld (conjugate for the other odd direction). The
+  quadrature theorem was its shadow. R4-B null: 8₁₇'s fundamental state is reverse-blind
+  (det gate 37; folklore-consistent). Locks: tests/test_b593_round4_hearing.py (3).
+
+
 ## 2026-07-14 — B592-OPEN: the faithful open-matrix R3-M — the sign-flip theorem
 
 ### Added
