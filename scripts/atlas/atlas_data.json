@@ -11937,6 +11937,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B588": {
+   "slug": "sector exchange",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B204",
+    "B238",
+    "B242",
+    "B243",
+    "B584",
+    "B587",
+    "L81"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B58": {
    "slug": "stage1",
    "motifs": [

@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B588: the sector-exchange theorem (L81(a) resolved)
+
+### Added
+- B588: (D_A₁) Z(W; SU(2)_k) = ½[t₊ − t₋] on the A₁ Weil rep — exact, 3 words × 18 levels;
+  t₊ ≡ 1, t₋ = the √5 family (Legendre off-locus); −1 ∈ W(A₁) but ∉ W(A₂) (exact); the
+  ingredient identity ½(1−√5) = (1/12)[(1+5)−6√5] = −1/φ. Sector exchange = −1's migration
+  across the Weyl-group boundary under level-rank; the same Gauss sum is gauge on one stage
+  and chirality on the other. Locks: tests/test_b588_sector_exchange.py (8).
+
+
 ## 2026-07-14 — B587: the tone mechanism solved — the Weyl-twisted Weil factorization
 
 ### Added

@@ -3820,3 +3820,15 @@ Legendre-oscillating unit terms — no divisibility law can exist (why the B585 
 **"Golden is special" now a mechanism:** the figure-eight's det(A∓I) = ∓1·5 unit structure makes the
 generic terms cancel exactly; heavier words (det 16, 81) interfere. Residual: the per-term reciprocity
 PROOF (B204-style) = Wave 2. 16 locks. Firewalled; no SM quantities.
+
+## 2026-07-14 — B588: THE SECTOR-EXCHANGE THEOREM — −1 migrates across the Weyl-group boundary (L81(a))
+The review queue's item 2. (D_A₁) the rank-1 decomposition Z(W; SU(2)_k) = ½[t₊ − t₋] on ℂ[ℤ_{2κ′}]
+— exact vs banked su2 values, 3 words × κ′=3..20; for the figure-eight t₊ ≡ 1 identically (unit
+conductor det(A−I) = −1) and t₋ = √5 at 5|κ′ (Legendre (κ′/5) otherwise — the SAME √5 Gauss family
+as the A₂ reflections). The membership fact: −1 = w₀ ∈ W(A₁) but −1 ∉ W(A₂) (exact checks). The
+ingredient identity at κ = κ′ = 5: ½(1 − √5) = (1/12)[(1+5) − 6√5] = −1/φ — the SAME Gauss data,
+all-even on A₁ (−1 inside the Weyl sum, C trivial), all-odd on A₂ (−1 = the C-coset). **Sector
+exchange = the migration of −1 across the Weyl-group boundary under level-rank** — B242/B243's
+"level-rank = conjugation" at the parity-projector level. B584's observation is now a theorem-shaped
+mechanism. Whether the object's √5 voice is "gauge" or "chirality" is decided by whether the theater's
+symmetry group contains the central mirror. 8 locks. Firewalled; no SM quantities.
