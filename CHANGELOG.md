@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B598: the L85 campaign opened; P0 computed; the Review-18 mandate registered
+
+### Added
+- B598: the D1-existence campaign document (P0–P3, the constraint sheet, locked outcomes);
+  P0 the C1 baseline computed in-sandbox (Kashaev 1-loop constant = 3^{−1/4} at 8e-12; growth
+  rate = Vol/2π at 1e-41; the B425-row upgraded to [COMPUTED]). Review 18's pre-committed
+  scope: the provenance sweep (no external-verification pretense; PROVENANCE.md) + the
+  terminology legibility sweep. Locks: tests/test_b598_p0.py (2).
+
+
 ## 2026-07-14 — B597: D1 processed — outcome C conditionally excluded
 
 ### Added
