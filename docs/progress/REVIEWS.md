@@ -909,3 +909,9 @@ Beyond the standard cadence, Review 18 MUST include:
 3. Nothing banked may pretend to a review status it does not have; papers/
    drafts must carry their true status (internally verified drafts, not
    refereed results).
+
+**Timing override (owner directive, 2026-07-14):** Review 18 fires when the
+L85 campaign RESOLVES (outcome A/B/D banked), not mechanically at 20 merges.
+The counter may exceed 20 in the meantime; the pre-committed scope above
+(provenance + terminology sweeps) is unchanged. The campaign is the priority;
+everything else waits.

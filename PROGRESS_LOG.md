@@ -4033,3 +4033,20 @@ their sandbox outage and never reached this repo; registered for artifact delive
 recomputation inside the L85 campaign's P2/P3, which this rule structures). Chat-2's longitude
 question answered: λ = [b,a] = "baBA" in ⟨a,b | abABaBAbaB⟩ (B67's fiber-boundary convention;
 P1's normalization ξ(μ) leading coordinate 1). 2 locks. Firewalled.
+
+## 2026-07-14 — B598-P1: THE CUSP TABLE banked (exact) + the handoff adjudication + the review-timing override
+**P1 computed and locked (OA_SLOW, 14:31 green):** for every block m ∈ {1,4,5,7,8,11}, a fresh Fox
+cocycle solve over the exact B575 model — dim H¹ = 1 per block (an INDEPENDENT re-derivation of
+B575-G4; second-route discharge of B572-V2), regular unipotency rank(ρ(a)−1) = d−1, and the exact
+peripheral values ξ(μ = a), ξ(λ = [b,a] = "baBA", B67 convention), all ℚ(√−3)-arithmetic
+(p1_cusp_table_output.txt: the full exact table; the m=1 row: ξ(μ) = [1, 0, 3/8 − w/8],
+ξ(λ) = [3/4+3w/4, 1/4+w/4, −w/2]). The campaign's 6×2 boundary data — the dial's cusp shadow —
+exists, exact. THE HANDOFF ADJUDICATION banked (HANDOFF_ADJUDICATION.md): the shifted-saddle ansatz
+adopted; the S₁-factorization → P3 gate; the number-field claim corrected in-sandbox (√−3 ∉ ℚ(ζ₂₀);
+the amplitude ∈ ℚ(ζ₅)) and replaced by THE ROLE-SEPARATION LAW (structure from the object's field,
+values from the stage's field — chat-1's corrected reading, generalized); the width-bridge θ-odd
+extension → P3 check; the anisotropy [HOOK] held. Item-6 adjudication (chat-2's finite-t memo):
+the banked chain is SAFE (B582's certificate is a direct finite-t generation computation); the memo
+lands as a scope note on B576's lemma; the closed-condition patch queued optional in P3.
+REVIEW-18 TIMING OVERRIDE registered (owner): fires on L85 resolution, not at 20 merges. 1 OA_SLOW
+lock. Firewalled.

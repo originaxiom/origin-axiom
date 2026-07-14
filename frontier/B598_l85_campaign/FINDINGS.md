@@ -46,3 +46,26 @@ in the standing memory.
 Chat-1's D1 prereg via B597 (adopted, corrected), B595/B596/B597 (the
 constraint sheet), B581 (τ₁ = −3), B587 (the Weil machinery for P2), B575
 (the H¹ model for P1), B67 (the longitude convention to pin in P1).
+
+## P1 — THE CUSP TABLE, computed (exact; the classical domain data for P2)
+
+`p1_cusp_table.py` (OA_SLOW; full output with all exact values:
+`p1_cusp_table_output.txt`). For every block m ∈ {1,4,5,7,8,11}: a fresh Fox
+cocycle solve over the exact B575 model gives **dim H¹ = 1** (an independent
+re-derivation of B575-G4 — and a second, more direct discharge of B572-V2),
+the regular-unipotency gate rank(ρ(a)−1) = d−1, and the exact peripheral
+values **ξ(μ = a)** and **ξ(λ = [b,a])** (the fiber-boundary longitude, B67's
+convention), normalized to leading coordinate 1. The m = 1 row, in full:
+ξ(μ) = [1, 0, 3/8 − w/8], ξ(λ) = [3/4 + 3w/4, 1/4 + w/4, −w/2] (w = √−3).
+The six (ξ(μ), ξ(λ)) pairs are the campaign's 6×2 boundary data — the dial's
+cusp shadow, now explicit, exact, and entirely ℚ(√−3)-arithmetic (the
+role-separation law's structural side, on display).
+
+## The handoff adjudication (HANDOFF_ADJUDICATION.md)
+
+The shifted-saddle ansatz adopted; the S₁-factorization registered as a P3
+gate; the number-field claim CORRECTED in-sandbox (√−3 ∉ ℚ(ζ₂₀); the
+amplitude lives in ℚ(ζ₅)) and replaced by the cleaner role-separation law;
+the width bridge's θ-odd extension registered as P3's check; the anisotropy
+remark held as a [HOOK]. Review-18 timing override registered (fires on L85
+resolution, owner directive).
