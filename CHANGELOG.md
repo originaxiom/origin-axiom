@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-14 — B583: the content — no real form; the second unhearability theorem
+
+### Added
+- B583: X1 — the coupled character is NON-real (witness = the banked B572 value; D10 ⇒ no
+  real form; no forced branching; the exclusive-or survives into this chord); X2 — failed as
+  computed (Vol/CS role inversion, verifier catch; corrected structure: the sign law = the
+  interference sign; recompute registered); X3 — **THE SECOND UNHEARABILITY THEOREM with
+  mechanism: the vacuum is C-fixed ⇒ fillings can never hear chirality at any level; the
+  θ-odd content requires non-vacuum observers.** `frontier/B583_chiral_content/`, 2 locks.
+
+
 ## 2026-07-14 — B582: the first constructed play with chiral matter (the L79 core)
 
 ### Added
