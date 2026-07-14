@@ -12055,6 +12055,28 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B593": {
+   "slug": "round4 hearing",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B575",
+    "B576",
+    "B581",
+    "B582",
+    "B584",
+    "B592"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B59": {
    "slug": "sl4 factorization",
    "motifs": [

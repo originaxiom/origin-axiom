@@ -3928,3 +3928,17 @@ level, and self-deafness is exactly the statement that no closed pairing reads i
 form (5₂: same universal structure, knot-specific entries; the handoff's ℚ(√−7) slip noted — 5₂'s
 trace field is the disc-−23 cubic). Consequence unchanged: Round 4 = a listener state that is NOT
 C-symmetric (the dial), or the handoff's third entity. 3 new locks (7 total). Firewalled.
+
+## 2026-07-14 — B593: ROUND 4 — THE HEARING LAW: a chiral ear hears at second order (owner mandate: "be brave")
+**R4-A, THE SECOND-ORDER HEARING LAW, exact:** deform the listener along the dial (ψ_ε = ψ + εu,
+u θ-odd; the mirror flips the odd part): A_ε(g) = A₀(g) − ε²(u†W(g)u) with NO O(ε) term (parity
+conservation), and **A^twisted − A^untwisted = −2ε²(u†M_odd u) — THE FIRST CLOSED CHIRAL AMPLITUDE
+FROM THE GEOMETRY**, verified 1e-15 over all welds × directions × ε. At the object's own monodromy
+weld: u₃†M_odd u₃ = **1/(2φ) + i·sin(2π/5)/√5** (u₆ = the conjugate) — nonzero Im, exact
+golden-pentagonal values; at the bare weld the form is −1 (the odd metric — a real norm cost, no
+chirality until a monodromy plays). The arc closes: vacuum deaf → bare states deaf → closed
+contractions deaf/sign unsummable → **hearable at ε² by a listener who is themselves chirally
+displaced**; the quadrature theorem was this law's shadow. **R4-B (the third entity): NULL** —
+J₃(8₁₇) = J₃(reverse) to 1e-15 (det gate 37.0000; pipeline re-validated on 4₁): the C-symmetry wall
+extends past invertibility at this color/root (folklore-consistent); the dial route needs no third
+entity. 3 locks. Firewalled.

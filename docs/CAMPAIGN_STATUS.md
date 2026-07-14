@@ -49,6 +49,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B593 — ROUND 4, THE HEARING LAW: a chiral ear hears at second order, 2026-07-14)
+- **The brave move, landed exactly.** A listener displaced by ε along the object's own chiral
+  moduli hears the twist at second order: A^tw − A^plain = −2ε²(u†M_odd u), the FIRST CLOSED
+  CHIRAL AMPLITUDE from the geometry — at the monodromy weld its exact value is
+  **1/(2φ) + i·sin(2π/5)/√5** (the two odd directions hear conjugate phases). No O(ε) term
+  exists (parity conservation) — the quadrature theorem was this law's shadow. Measurement of
+  chirality is not passive: the observer leans into the chiral direction and hears as the
+  square of the lean. The third-entity route stays closed (8₁₇ null, folklore-consistent).
+
+
 ## LAST BANKED (B592-OPEN — THE SIGN-FLIP THEOREM: open-heard, closed-deaf, 2026-07-14)
 - **R3-M rerun exactly per the self-contained handoff (no contraction).** C1 passes; the
   verdict extends the locked table: **the twist's entire imprint on the open matrix is the
