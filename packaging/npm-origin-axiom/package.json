@@ -1,0 +1,8 @@
+{
+  "name": "origin-axiom",
+  "version": "0.0.1",
+  "description": "Origin Axiom — mathematics of the figure-eight substitution object. Namespace reservation; real releases will follow.",
+  "repository": { "type": "git", "url": "https://github.com/originaxiom/origin-axiom" },
+  "license": "MIT",
+  "main": "index.js"
+}
