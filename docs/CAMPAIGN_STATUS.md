@@ -49,6 +49,17 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B586 — ROUND 3 CLOSES: E₆ hears everything too; the golden voice stays home, 2026-07-14)
+- **Chat-1's Round-3 handoff processed verify-don't-trust.** The blind headline: **E₆₂'s whole
+  amplitude is also θ-odd (Z = +1, tr_even = 0)** — two stages now show the object's invariant
+  pattern (total silence of the symmetric channel), while the NUMBER differs per stage (−1/φ
+  golden, +1 E₆₂; no golden anywhere on E₆ — the −1/φ is B585's 5|κ stage tone). Frame
+  corrections banked: the Sym-block/primary-pair conflation (sign-law comparison undefined; the
+  unifier is L82), the C-twisted torus is Sol (−A₁ bundle; no census/CS/trace-field — the "CS =
+  cosmological constant" hook dies), and J₂₇ = J₂₇̄ identically (invertibility + RT duality):
+  the solo antiphase is zero at EVERY color — chirality is chord-borne, proven not conjectured.
+
+
 ## LAST BANKED (B585 — THE LISTENER'S LAW: two lifts, two tones, 2026-07-14)
 - **The naming theorem:** the mirror-twisted play = the play of the other SL(2,ℤ) lift of the
   object's monodromy (the −A₁ bundle) — **chirality is what the two lifts agree on.** **LAW-O

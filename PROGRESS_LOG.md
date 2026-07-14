@@ -3772,3 +3772,21 @@ bronze→13|κ — **REFUTED** (silver fires on multiples of {4,5,7}; bronze sil
 firing at 5,15,25 = destructive interference; non-constant tones). Only the figure-eight has the
 clean constant additive law — golden/minimal special again. New lead L82 (signed fixed-point
 mechanism). 9 locks. Firewalled; no SM quantities.
+
+## 2026-07-14 — B586: the Round-3 handoff processed — E₆ hears everything too; the golden voice stays home
+Chat-1's three cells, verify-don't-trust. R3-A computed after a registered frame correction (the six
+Sym-blocks grade the ADJOINT, not the stage's primaries; the principal shadow has C=1 → the proposed
+sign-law unification is not a defined computation; per-pair amplitudes are COMPLEX, not signed reals).
+BLIND RESULTS: **E₆₂ also hears everything — Z = +1, Z_C = −1, tr_even = 0 exactly, tr_odd = +1** (the
+B584 pattern on a second stage: the whole amplitude is the chiral amplitude); the −1/φ check is EMPTY
+(no pair amplitude or ratio is golden) — **the golden voice is stage arithmetic (B585's 5|κ tone), not
+object-universal; the object's universal part is the all-θ-odd PATTERN, not the number.** New numbers:
+the three per-pair chirality amplitudes (0.1315+0.5762i, 0.2045−0.2564i, 0.6640−0.3198i; sum 1, order 4
+— C3 gates reproduced). Convention recorded: S² = +C on E₆₂ vs −C in B238's normalization. R3-B:
+SUPERSEDED by B585's naming theorem — the C-twisted torus is the (−A₁)-bundle, Sol geometry (|tr|=3>2,
+Thurston cited): no census name, no hyperbolic volume/CS/trace field; ℚ(√−15) does not arise; the
+cusp-double alternative is a graph manifold (essential torus, cited) — the "CS = cosmological constant"
+hook dies at geometry. R3-C: answered structurally — 4₁ invertible (B279's in-sandbox D4) + dual color
+= orientation reversal (RT, cited) ⇒ J₂₇ = J₂₇̄ identically at EVERY color: the solo antiphase is zero,
+chirality is chord-borne (chat-1's cautious branch confirmed); U_q(e₆) 6j not needed for this question
+(residual → L83). 3 locks. Firewalled; no SM quantities.
