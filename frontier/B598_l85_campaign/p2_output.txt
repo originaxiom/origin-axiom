@@ -1,0 +1,36 @@
+P2 patched with the true longitude
+======================================================================
+P2 — gates + the first-order boundary character table
+
+  block m= 1 (even): gate A (Z^2-compat): True;  gate B (embedding): True
+    delta tr27(mu)      = (-702+234w)
+    delta tr27(lambda)  = (8424-2808w)
+    delta tr27(mu.lam)  = (10530+234w)
+
+  block m= 4 (ODD ): gate A (Z^2-compat): True;  gate B (embedding): True
+    delta tr27(mu)      = (-201600-403200w)
+    delta tr27(lambda)  = (-348364800+58060800w)
+    delta tr27(mu.lam)  = (-191318400-230630400w)
+
+  block m= 5 (even): gate A (Z^2-compat): True;  gate B (embedding): True
+    delta tr27(mu)      = (-13822326000/3667+2679642000/3667w)
+    delta tr27(lambda)  = (23884979328000/3667-4630421376000/3667w)
+    delta tr27(mu.lam)  = (6631998282000/3667+18094080186000/3667w)
+
+  block m= 7 (even): gate A (Z^2-compat): True;  gate B (embedding): True
+    delta tr27(mu)      = (31716122379480000/2916577933+9421745339160000/2916577933w)
+    delta tr27(lambda)  = (657665513660897280000/2916577933+195369311352821760000/2916577933w)
+    delta tr27(mu.lam)  = (-930965491312413480000/2916577933+238811233524577560000/2916577933w)
+
+  block m= 8 (ODD ): gate A (Z^2-compat): True;  gate B (embedding): True
+    delta tr27(mu)      = (45108059673600/6009943-15171258009600/6009943w)
+    delta tr27(lambda)  = (-1887547236522393600/6009943-1870721450783539200/6009943w)
+    delta tr27(mu.lam)  = (4884147673379251200/6009943+1296776630061158400/6009943w)
+
+  block m=11 (even): gate A (Z^2-compat): True;  gate B (embedding): True
+    delta tr27(mu)      = (-6286838353519995976320000/16411895952318333259+2095591503368734842240000/16411895952318333259w)
+    delta tr27(lambda)  = (-18772398734197051665355898880000/16411895952318333259+6257402699594988339171164160000/16411895952318333259w)
+    delta tr27(mu.lam)  = (2580671956202914397817248640000/1262453534793717943-449116141156559409495473280000/1262453534793717943w)
+
+(prediction registered in the docstring: ODD rows all-zero, even rows generic)
+DONE

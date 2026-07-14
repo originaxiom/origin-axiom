@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — B598-P2 + the longitude correction + two adjudications
+
+### Added / Fixed
+- THE CORRECTION: P1's λ was the fiber-frame commutator; the true longitude
+  λ = "abABaaBAbA" found by direct search (image = the banked cusp shape −[[1, 2√3i],[0,1]]);
+  Gate A caught it; table + lock regenerated and green; the chat-2 answer corrected.
+- B598-P2: both gates pass at every block; the exact first-order boundary table banked as
+  data; the wrong parity prediction retired with diagnosis (tr₂₇ not Θ-invariant); verdict —
+  the arrow is quadratic; P3 matches at order 2 with the tower as a consistency gate.
+- The c₄ = 0 adjudication: correct zero, construction-level identity (degree-2 pairing);
+  the algebraic tower is real and determined by one generator; no "purely quadratic" law banked.
+
+
 ## 2026-07-15 — B599-ALG: the algebraic face recomputed in-repo
 
 ### Added

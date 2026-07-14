@@ -76,3 +76,13 @@ The general-k graded-trace bookkeeping remains flagged (chat-2's own caveat);
 k = 1, 2 are exact computations. Item 4 (the frozen 20-word tables) is one
 TESTW extension away — queued (chat-2's sandbox or a later slot here).
 Locks: `tests/test_b599_alg.py` (OA_SLOW).
+
+
+## Correction to the chat-2 answer (2026-07-15)
+
+The longitude answer given above ("baBA") was WRONG — it is the fiber-frame
+commutator, not the longitude of the meridian presentation. The correct
+input for item 5: **λ = "abABaaBAbA"** (image −[[1, 2√3·i],[0,1]] in the
+geometric rep — the banked cusp shape; commutes with the meridian; found by
+direct search after P2's Gate A caught the mislabel). ξ(μ) conventions
+unchanged.

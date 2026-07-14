@@ -4,7 +4,7 @@ peripheral subgroup (see CAMPAIGN.md).
 Per block m in {1,4,5,7,8,11}: solve the Fox cocycle condition
     (dr/da) xi_a + (dr/db) xi_b = 0   in V_m  (exact, over the B575 model),
 mod coboundaries (H0 = 0 gate; dim H1 = 1 gate = B575-G4), then evaluate
-  xi(meridian = a)  and  xi(lambda = [b,a] = the fiber boundary, B67 convention)
+  xi(meridian = a)  and  xi(lambda = abABaaBAbA, the true longitude of THIS meridian presentation (image = -[[1, 2*sqrt3*i],[0,1]] = the banked cusp shape); CORRECTED 2026-07-15 -- the first run used the fiber-frame commutator [b,a], caught by P2's Gate A)
 exactly. Also the meridian's nilpotent Jordan gate (regular unipotent: one
 block of size 2m+1). The table is the classical domain data for P2.
 
@@ -119,7 +119,7 @@ def fmt(x):
     return f"({x.a}{'+' if x.b > 0 else ''}{x.b}w)"      # w = sqrt(-3)
 
 
-print("\nTHE CUSP TABLE (exact over Q(sqrt-3); w = sqrt(-3)); lambda = [b,a] = 'baBA':")
+print("\nTHE CUSP TABLE (exact over Q(sqrt-3); w = sqrt(-3)); lambda = 'abABaaBAbA' (the true longitude):")
 for mexp in sorted(m5.BLOCK_DATA.keys()):
     D = m5.BLOCK_DATA[mexp]
     d, acts = D['d'], D['acts']
@@ -161,7 +161,7 @@ for mexp in sorted(m5.BLOCK_DATA.keys()):
     xa = [scale * v for v in xa]
     xb = [scale * v for v in xb]
     xi_mu = xa
-    xi_lam = cocycle_eval(acts, xa, xb, "baBA")
+    xi_lam = cocycle_eval(acts, xa, xb, "abABaaBAbA")   # the TRUE longitude (corrected 2026-07-15; "baBA" was the fiber-frame commutator)
     # the meridian nilpotent gate: (rho(a) - 1)^(2m) != 0, ^(2m+1) = 0 handled by
     # regular-unipotency (banked adjoint Jordan type); here: rank(rho(a)-1) = d-1
     Am1 = [[acts['a'][i][j] - (K1 if i == j else K0) for j in range(d)] for i in range(d)]
