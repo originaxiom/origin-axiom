@@ -67,3 +67,11 @@ arithmetic fingerprint, with the chirality grading stamped on the sign. The chor
 (B580 L72 phase 1) now has its S₁-layer computed exactly; the DGLZ S₂-ladder sits above it.
 
 Firewalled. Nothing to CLAIMS.md.
+
+## Units note (added by Review 17)
+
+`six_torsions_results.json` stores the RAW Wada quotient, up to units ±tʲ. The
+banked τ_m values and THE SIGN LAW use the monic-at-top-degree normalization
+(the printed convention). A naive JSON read without normalizing flips every
+sign — monic-normalize the quotient before reading signs (Review-17 R2 verified
+the law and all six banked factorizations exactly under this convention).

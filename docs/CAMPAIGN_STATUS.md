@@ -83,6 +83,19 @@ audit: `docs/AUDIT_2026-07-05.md`.
   chiral play + its content, the two unhearability theorems.)
 
 
+## BANKED IN THE ROUND-3 WINDOW (B578–B583 catch-up, 2026-07-14 — Review 17 fix)
+- **B578** the debt-clearing campaign (Massey exact to order 3 — B370 discharged; e₃ =
+  2cos(2π/9)/1728 exact; the K₃-degree-6 self-correction; the golden octic at level 3; the E₆
+  duality unconditional; the Kubota–Leopoldt retraction + the exact 432·e₃ identity). **B579**
+  the July-14 session handoff adjudicated. **B580** THE CHORD PROGRAM (prereg, binding
+  run-order, the literature dossier, Round 1: one proven silence, two verified voices, three
+  hints killed blind). **B581** the six torsions + THE SIGN LAW sign(τ_m) = (−1)^m. **B582**
+  the first constructed play with chiral matter (the θ-odd-twisted mirror-double; Zariski
+  closure E₆(ℂ); the 27 complex/chiral). **B583** its content: no real form (X1), X2's
+  role-inversion caught and corrected, X3 = the second unhearability theorem (vacuum probes
+  never hear θ-odd at any level) — the theorem that forced Round 3.
+
+
 ## LAST BANKED (B577 — THE RECONCILIATION: the {4,8} program got there first, 2026-07-14)
 - **The owner's audit question caught a non-recall:** B575's Q≡0 = the banked **B352** (dps-100,
   conditional) computed exactly; B576's dichotomy = the banked **B265** (Sage/ℚ) completed. Two

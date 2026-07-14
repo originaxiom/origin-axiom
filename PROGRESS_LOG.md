@@ -3790,3 +3790,17 @@ hook dies at geometry. R3-C: answered structurally — 4₁ invertible (B279's i
 = orientation reversal (RT, cited) ⇒ J₂₇ = J₂₇̄ identically at EVERY color: the solo antiphase is zero,
 chirality is chord-borne (chat-1's cautious branch confirmed); U_q(e₆) 6j not needed for this question
 (residual → L83). 3 locks. Firewalled; no SM quantities.
+
+## 2026-07-14 — Review 17 (merges #904–#923): the construction arc audited end to end
+Full suite 2187/15/2 (43:55) — both failures diagnosed: the named B207 flaky (characterization
+DEGRADED to standalone-flaky; deterministic re-derivation queued) and a hardcoded-path slip in the
+B578 lock (fixed in closeout; no mathematical lock failed). Fresh-eyes cells ALL CLEAN: R1 three
+SL(2,ℤ) words agree (the unbalanced word's offset = exactly the central framing phase i) + the exact
+identities 2cos(3π/5) = −1/φ and minpoly(1728·e₃) = x³−3x+1 re-derived symbolically; R2 the sign law
++ all six τ_m factorizations re-confirmed from the banked JSON (one catch: the JSON stores raw
+units — note added to B581 FINDINGS); R3 the E₆₂ per-pair amplitudes reproduced via the second word
+to 5e-9. Six real issues, all fixed or queued (the board's six missing entries — catch-up block
+added; the JSON units note; #918 red merge and #920 no-pytest exceptions recorded; the path slip;
+B207). Promotion candidates: the naming theorem, LAW-O, the antiphase identity, the every-color
+solo-antiphase-zero theorem. Queue: L82 mechanism first, then L81(a), the corrected X2, L83(a),
+L80(a), PC26 decision, revival remainders, B207. Full text in docs/progress/REVIEWS.md.

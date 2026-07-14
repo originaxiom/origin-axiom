@@ -4,7 +4,8 @@ group-theoretically DISTINCT from B576's theta-odd adjoint blocks (dims 9,17
 inside the 78-dim adjoint, a Z/2 parity label, not a Z/3 action).
 """
 import sys, os
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B299_trinification_triality")
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..",
+                                "frontier", "B299_trinification_triality"))
 import sympy as sp
 from trinification_triality import THETA, PHI, _weights_27, _action_on_dynkin
 
