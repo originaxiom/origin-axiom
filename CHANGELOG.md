@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — B599-ALG: the algebraic face recomputed in-repo
+
+### Added
+- B599-ALG: chat-2's extraction ran green here — L0, the nilpotency orders (5, 3), the L1
+  parity zeros, Im starting at t² everywhere, the ±witnesses, and the weld twist-twist
+  identity, all exact. The selection rule complete on both faces in-repo. Locks:
+  tests/test_b599_alg.py (4, OA_SLOW).
+
+
 ## 2026-07-14 — B598-P1: the cusp table (exact) + adjudications + the review override
 
 ### Added

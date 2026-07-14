@@ -1,0 +1,25 @@
+  direction m= 4 (theta-ODD): UNOBSTRUCTED
+  direction m= 5: UNOBSTRUCTED
+  direction m= 7: UNOBSTRUCTED
+  direction m= 8 (theta-ODD): UNOBSTRUCTED
+  direction m=11: UNOBSTRUCTED
+======================================================================
+L0 Omega dot-symmetric: False
+ord(v_4) on 27: 5
+ord(v_8) on 27: 3
+L1 m=4: (v_m v0)^T v0 = 0
+L1 m=8: (v_m v0)^T v0 = 0
+--- slot m=4 ---
+  b2: Im orders [2, 3, 4, 5, 6, 8], leading t^2 coeff 2096640
+  a1b2: Im orders [2, 3, 4, 5, 6, 8], leading t^2 coeff 2096316
+  a2b2: Im orders [2, 3, 4, 5, 6, 8], leading t^2 coeff 2096316
+  a1b1a2b2: Im orders [2, 3, 4, 5, 6, 8], leading t^2 coeff 2219320
+  a1b2A1B2: Im orders [2, 3, 4, 5, 6, 8], leading t^2 coeff -2095616
+--- slot m=8 ---
+  b2: Im orders [2, 3, 4], leading t^2 coeff -536481792000
+  a1b2: Im orders [2, 4], leading t^2 coeff -536481778878
+  a2b2: Im orders [2, 4], leading t^2 coeff -536481778878
+  a1b1a2b2: Im orders [2, 3, 4], leading t^2 coeff -537751241660
+  a1b2A1B2: Im orders [2, 4], leading t^2 coeff 536481660928
+weld-only m=4 b2: -536479695357 + (536483888640)·sqrt(-3)
+weld-only m=8 b2: 536481792003 + (-536481792000)·sqrt(-3)
