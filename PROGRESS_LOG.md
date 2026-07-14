@@ -3878,3 +3878,17 @@ Review 17) is re-derived deterministically: metallic_volume now uses the canonic
 bundle triangulation 'b++RᵐLᵐ' (positively oriented directly, no RNG; twister path kept as fallback).
 The banked volumes reproduce exactly (m=1: 2·V_TET; m=2: V_OCT to 1e-15); the lock passes 5/5
 consecutive runs at ~1 s (was minutes). No assertion changed — only the construction path.
+
+## 2026-07-14 — B591: THE CHORD'S MANIFOLD COMPUTED — the tone is the torsion (owner directive: run the Round-3 manifold cell)
+The owner paused the queue and ordered the manifold cell run as a computation. THE HEADLINE (exact
+SNF): **H₁(the mirror-twisted −A₁ bundle) = ℤ ⊕ ℤ/5 — the golden 5-tone's conductor IS the chord
+carrier's first homology** (plain A₁ bundle: torsion-free, det(A−I) = −1 the unit). The full law:
+plain-lift torsion = det(A−I), twisted-lift torsion = det(A+I) — **B588's two Gauss conductors are
+the two lifts' torsion homologies** (silver ℤ/2⊕ℤ/2 vs ℤ/2⊕ℤ/4; bronze ℤ/3⊕ℤ/3 vs ℤ/13; m²+4
+throughout = Path A's period moduli). The identity of the 5 (exact): Δ₄₁(−1) = det(A₁+I) =
+|H₁(Σ₂(4₁))| = 5; Σ₂(4₁) = L(5,2) (2-bridge, cited) VERIFIED in SnapPy (filled cyclic double cover:
+H₁ = ℤ/5, rank-1 π₁). The complement-double frame (exact M-V): g = ±I → H₁ = ℤ; **g = ±A₁ → H₁ = 0 —
+the monodromy-twisted double is an integral homology 3-sphere** (graph manifold, two 4₁ pieces).
+Geometry verdicts stand (Sol / graph; no hyperbolic invariants — what exists instead is the torsion).
+One integer, three hats: the LAW-O tone, the Alexander determinant, the mirror-double-cover homology.
+5 locks. Firewalled.

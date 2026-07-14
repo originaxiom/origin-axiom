@@ -49,6 +49,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B591 — THE CHORD'S MANIFOLD: the tone is the torsion, 2026-07-14)
+- **Owner directive executed: the Round-3 manifold cell run as a computation.** The mirror-
+  twisted carrier (−A₁ bundle) has **H₁ = ℤ ⊕ ℤ/5 — the golden tone's conductor is literally
+  the manifold's torsion**; the plain lift is torsion-free (unit det(A−I)): the two lifts whose
+  agreement defines chirality are homologically distinguished by exactly B588's two Gauss
+  conductors (m²+4 family-wide). The same 5 = Δ(−1) = |H₁(L(5,2))| (the branched mirror-double,
+  SnapPy-verified); the ±A₁-twisted complement-double is an integral homology sphere.
+
+
 ## LAST BANKED (B589 — THE PAIR AMPLITUDES IDENTIFIED: the sine kernel again, 2026-07-14)
 - **L83(a) resolved.** The three E₆₂ per-pair chirality amplitudes in closed form:
   (2/√7)sin(2πj′/7)·ζ₁₄^k, (j′,k) = (1,+3),(3,−2),(2,−1) — certified 40+ digits from
