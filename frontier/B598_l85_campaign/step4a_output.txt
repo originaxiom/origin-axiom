@@ -1,0 +1,9 @@
+STEP 4a: the typed domain (six blocks; the certified longitude)
+  block m= 1 (dim  3): dim H1(pi_K)=1 [True];  T^2: h0=1 z1=4 b1=2 h1=2 h2=1 duality(h0=h2): True  [mu,lam]=1[True];  res in Z1[True] nonzero mod B1[True];  mu-leg detects: True
+  block m= 4 (dim  9): dim H1(pi_K)=1 [True];  T^2: h0=1 z1=10 b1=8 h1=2 h2=1 duality(h0=h2): True  [mu,lam]=1[True];  res in Z1[True] nonzero mod B1[True];  mu-leg detects: True
+  block m= 5 (dim 11): dim H1(pi_K)=1 [True];  T^2: h0=1 z1=12 b1=10 h1=2 h2=1 duality(h0=h2): True  [mu,lam]=1[True];  res in Z1[True] nonzero mod B1[True];  mu-leg detects: True
+  block m= 7 (dim 15): dim H1(pi_K)=1 [True];  T^2: h0=1 z1=16 b1=14 h1=2 h2=1 duality(h0=h2): True  [mu,lam]=1[True];  res in Z1[True] nonzero mod B1[True];  mu-leg detects: True
+  block m= 8 (dim 17): dim H1(pi_K)=1 [True];  T^2: h0=1 z1=18 b1=16 h1=2 h2=1 duality(h0=h2): True  [mu,lam]=1[True];  res in Z1[True] nonzero mod B1[True];  mu-leg detects: True
+  block m=11 (dim 23): dim H1(pi_K)=1 [True];  T^2: h0=1 z1=24 b1=22 h1=2 h2=1 duality(h0=h2): True  [mu,lam]=1[True];  res in Z1[True] nonzero mod B1[True];  mu-leg detects: True
+
+STEP 4a: the domain is TYPED — six lines, res injective at every block. DONE
