@@ -4563,3 +4563,15 @@ for amphichiral words (the pairing-chirality law's 4th appearance, classical sid
 refuted on 8 words; fields per object banked; the discrete-branch identification per word is the
 follow-on. Cell F (the six-exponent held-out family) still computing — the hash-first protocol
 stands armed. Firewalled.
+
+## 2026-07-15 — B627: THE HELD-OUT VALUES SEALED (the director's hash-first order executed)
+Cell F delivered the silver six-exponent exterior family: calibration 6/6 EXACT against B581's
+banked fig-8 values via an INDEPENDENT presentation and code (doubling as B581's cross-check); a
+real mid-run bug found+fixed honestly (the skew-palindromic trim hazard → the asymptotic degree
+probe); m=1 cross-method-matches B622's −16. THE SEALED VALUES (sha 6275fc85… in the ledger, banked
+BEFORE any comparison exists anywhere): −16, +2¹⁰·3³·5·7·12073, −2²¹·3²·5⁵·7·19·173 (exact
+integers), and three genuinely COMPLEX values at m = 7, 8, 11 (50+ digits, exact forms
+unidentified). Property-level: THE EXTERIOR SIGN LAW EXTENDS — sign(Re τ_m) = (−1)^m at all six
+exponents on the second object; the silver family is not all-real (a new structural split between
+the two amphichiral objects); qdeg = 2m+3. The comparison gets its own fresh sealed design in a
+LATER arc, per the order. Firewalled.
