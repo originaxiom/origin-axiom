@@ -927,3 +927,17 @@ direct-product obstruction + |γ|=1/√φ are SOUND, but the stated substitution
 det=0 not −1 → NOT an automorphism → the genus-2 "spacetime" does not follow; no new door as stated.** The
 two live residual doors remain (relation/second-seed seam + external contact). **The remaining honest move
 is external.**
+
+## 2026-07-15 — THE L85 CAMPAIGN (B598): the readiness chain is the whole game
+L85 (the D1 existence question) runs under the seat-4 audited 9-step readiness chain with P3 SEALED
+until green. Scoreboard: 1 provisional (numerical certificate; exact upgrade queued) · 2 ✓ (all-six
+word-independence, certified longitude "abABaaBAbA" after Gate A caught the fiber-frame commutator) ·
+3 ✓ (the universal boundary ratio −2√−3 at all six blocks; classical per-block content lives ONLY in
+cross-domain normalization) · 5 ✓ (the exact 27–27̄ intertwiner J + the forced-zero criterion splitting
+structural from genuine silences) · 6 ✓ (the three E₆₂ amplitudes = symbolic identities in ℚ(ζ₈₄)) ·
+4 in flight (P2_MAP.md typed; 4a domain done — h⁰=1 uniform, res injective; 4b bending responses
+computing) · 7 in flight (G1-FINITE dial-map reconstruction, certified longitude, mod-p certificates) ·
+8, 9 queued (sealed prereg; independent P1). Alongside: the hearing law (B593/B594, exact), the
+dictionary + spectral bridge (B595), the cat-map clock null (B596), the θ-parity selection rule (B599),
+the level ladder Z = +1,+1,+1,0 with the cc2 packet verified in-sandbox (B600). Review 18 fires on L85
+resolution (owner override; counter holds at 19) with the provenance + terminology sweeps pre-committed.

@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — the cc2 packet; step 6 exact; step 4a: the P2 domain typed
+
+### Added / Fixed
+- The level-ladder packet integrated (hashes verified on arrival; cc2's own lock suite
+  executed green in this environment — the EXACT Φ₁₉₂ integer certificates for Z₄ = 0 and
+  Tr(Θρ₄) = 0; the ℚ(√2) import; the quartics; L73; the P4 wide scan: only 11 divides any
+  e_n, primes 3..79). B600 upgraded; lock tests/test_b600_cc2_locks.py (ungated, ~5 s).
+- Step 6 GREEN: the three E₆₂ pair amplitudes are SYMBOLIC IDENTITIES in ℚ(ζ₈₄)
+  (squared identity exact mod Φ₈₄; sign branch ~1e-41 vs the 1e-30 gate); v1's
+  simplify-denesting failure preserved. Lock tests/test_b598_step6.py (OA_SLOW).
+- Step 4a: P2_MAP.md opened (the eight typed slots; the bending frame declared;
+  normalization sealed for the step-8 prereg). The domain computed exactly at all six
+  blocks: h⁰=1, h¹=2, h²=1, duality holds, res injective (half-lives-half-dies), the
+  bending family = one canonical parameter per block. Lock tests/test_b598_step4a.py.
+
 ## 2026-07-15 — readiness steps 3 + 5: the universal ratio; the J intertwiner; D-fixes
 
 ### Added / Fixed

@@ -12188,10 +12188,13 @@
     "kappa",
     "eisenstein",
     "golden",
+    "amphichiral_cp",
     "symplectic",
-    "wrt_quantum"
+    "wrt_quantum",
+    "lorentzian"
    ],
    "refs": [
+    "B2",
     "B425",
     "B572",
     "B575",
@@ -12214,7 +12217,7 @@
    "obstacle": "units_scale",
    "obstacle_conf": 6,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B599": {
    "slug": "selection rule",
