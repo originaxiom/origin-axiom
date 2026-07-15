@@ -985,3 +985,18 @@ coarse tier (none at the tight tier; two on the same target), everything else em
 p = 0.078 — the locked table's suggestive-only band. No escalation. The m136 classical side — until
 now a deferred port — is promoted to THE decisive computation: a fresh sealed design on genuinely
 held-out quantities settles whether the angle-family suggestion is real or dies.
+
+## 2026-07-15 — THE INTERACTION ROUND opened (constrained): B629 values sealed; one comparison authorized
+The Branch-3 held-out record closed (B627/B628: exterior families SM-silent on both objects; the
+p = 0.078 suggestion stands alone). The interaction-round directive (chat-1 + the owner) is
+binding: the nulls tested single-layer invariants; the three-layer results locate value content in
+the INTERACTION layer; exactly ONE new comparison is authorized — the E₆₂ 3×3 odd hearing form's
+|B_ij|² vs the measured neutrino-mixing moduli table, on held-out MATRIX STRUCTURE (the closed form
+found at sealing: B exactly unitary, entries A_k·ζ₁₄^m on a Latin square, |B_ij|² the
+doubly-stochastic circulant of B615's three amplitude moduli — the arrangement is the held-out
+content, disclosed in the seal). Deferred, each needing its own principled preregistration: the
+object-scale coupling re-test (point 2) and the composite inventory (point 3) — their values are
+frozen NOW (B629, sha 0ec9ac39…) so no future design can tune them. The chain: B629 seal (done) →
+B630 comparison design (separately sealed) → B631 one mechanical run → seat 4. If null: the SM
+comparison capability at this level is EXHAUSTED (no "next layer" escape — the directive's
+anti-unfalsifiability clause).

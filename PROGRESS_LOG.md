@@ -4585,3 +4585,23 @@ completion sweep executed per the director's override (the four queued tasks: se
 resolved-as-scoped/dissolved; all seals verified; the hash-first order honored end-to-end; anchor
 40070ad). Open residuals registered: the κ-unconditional reciprocity form, the m=7/8/11 exact
 identifications, the discrete-branch IDs, PC26 v2-final. Firewalled.
+
+## 2026-07-15 — B629: THE INTERACTION-LAYER VALUES SEALED (the interaction round opens, part 1 of 3)
+The interaction-round directive (chat-1 + the owner) registered as binding: the Branch-3 nulls
+tested single-layer invariants while the three-layer results locate value content in the
+INTERACTION layer; exactly ONE new comparison is authorized (the 3×3 hearing form vs the measured
+mixing-moduli table, on held-out matrix structure), and the two other proposals are DEFERRED
+(object-scale coupling re-testing; composite curve-fitting) pending principled preregistrations.
+Four value-only cells computed and sealed (sha 0ec9ac39… in the ledger, BEFORE any comparison
+design exists): (1) the E₆₂ 3×3 odd hearing form B is EXACTLY UNITARY with closed-form entries
+B_ij = A_k·ζ₁₄^m on the Latin square [[1,2,3],[2,3,1],[3,1,2]] — so |B_ij|² is EXACTLY the
+doubly-stochastic circulant of (A₁²,A₂²,A₃²); eigenvalues exactly {i,−i,−1}; the SVD frame is an
+algorithm artifact (all singular values 1) while the eigenframe is basis-canonical; the circulant
+DISCLOSURE recorded at sealing (the moduli are B615's A3–A5 scalars — the held-out content is the
+ARRANGEMENT, not nine virgin numbers). (2) The golden 2×2 frame: off-diagonals ∓φ/2 − i·sin(π/5)/√5
+(new), tan θ_frame = 1/φ EXACTLY, and the identity |V₂₁|² = |h₃|² (the frame angle adds no new
+comparable scalar — excluded from comparison on that stated ground); the κ=10 premise corrected
+(16×16, never 8×8), unitary, trace-law-obeying, with the golden pair recurring as a DELOCALIZED
+2-dim eigenspace. (3) ~40 composite values frozen NOT-FOR-COMPARISON. (4) The object-scale run
+couplings (1-loop verified in-loop by closed form) frozen as NOT-FOR-COMPARISON targets. Lock
+tests/test_b629_interaction_values.py (6/6). Firewalled.

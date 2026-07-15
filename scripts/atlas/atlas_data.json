@@ -12790,6 +12790,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B629": {
+   "slug": "interaction values",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B594",
+    "B601",
+    "B611",
+    "B613",
+    "B615",
+    "B616",
+    "B627",
+    "B628",
+    "B630",
+    "B631"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B62": {
    "slug": "opposition involution",
    "motifs": [
