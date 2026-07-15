@@ -54,3 +54,21 @@ def test_part2b_honest_partial():
     assert "CLASS-LEVEL GATES FAILED" in out2
     fnd = open(os.path.join(B637, "FINDINGS.md")).read()
     assert "QUARANTINED" in fnd
+
+
+def test_part2b_resolved():
+    out = open(os.path.join(B637, "part2b_stage2_fixed_output.txt")).read()
+    for g in ("G-A coboundary invariance, slot 0: True",
+              "G-A coboundary invariance, slot 1: True",
+              "G-A coboundary invariance, slot 2: True",
+              "G-B antisymmetry (01 swap -> -Y): True",
+              "G-B antisymmetry (12 swap -> -Y): True",
+              "G-C section independence (sig(mu lam) = LONG+a): True",
+              "ALL CLASS-LEVEL GATES PASS"):
+        assert g in out, g
+    assert "Y[(0, 2, 3)] = (-7983360/13+2661120/13r)" in out
+    assert "Y[(1, 2, 3)] = (0+221760/13r)" in out
+    assert out.count("nonzero: 6/10") >= 3
+    assert "nonzero: 7/10" in out
+    src = open(os.path.join(B637, "b637_threeform.py")).read()
+    assert "cells.append((pre, ch, ch.lower(), -1))" in src

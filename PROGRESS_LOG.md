@@ -4788,3 +4788,23 @@ forced: H²(side;ℂ) = 0, ∂z_T ⊗ ℤ = 0). The minimal failing case is bank
 test. The 3-form question stays OPEN per the prereg's branches. The discipline note: this is the
 second time today a sealed control caught a wrong number before banking — the gates pay for
 themselves. Firewalled.
+
+## 2026-07-15 — B637 part 2b RESOLVED: THE ALTERNATING CUBIC 3-FORM IS NONZERO (the discovery branch, class-level-gated)
+The repair found TWO real bugs by formal machinery (the literal ℤΓ-chain machine,
+b637_chainmachine.py, whose gates verify ∂₃H₂ = id − Φ₂Ψ₂ − H₁∂₂ EXACTLY): (1) the Φ₂
+correction-cell prefix — the corrected relator chain needs −p_{i−1}[ℓ⁻¹|ℓ], the prefix BEFORE the
+inverse letter; my transcription used p_i (B632's cell-2 had it right — the audit's 162 checks
+passed there; the error re-entered in this arc's re-transcription); (2) the verification machine's
+own H₁ equivariant extension (early folding). AFTER THE ONE-WORD FIX, ALL CLASS-LEVEL GATES PASS
+(coboundary invariance ×3, antisymmetry ×2, section independence) — stage-1's quarantined table
+confirmed as artifact. **THE RESULT (exact, ℚ(√−3), class-level): the alternating cubic 3-form is
+NONZERO on every computed mirror-coupled double — 6/10 components (unbent, m=5/7/11), 7/10 at m=1.
+STRUCTURE: a bend-INDEPENDENT core (Y[023] = −7983360/13 + 2661120/13·√−3-part and Y[123] =
+221760/13·√−3-part identical across none/5/7/11); ONE bend-sensitive slot (Y[234], ~20 orders of
+variation — the component that hears the dial); the zero law Y[01k] ≡ 0 except under the m=1 bend
+(the coker-δ⁰ pair couples only through the identity-exponent dial).** The solo object carries no
+cubic scalar at all (B632's obstruction); the COUPLED object carries this one — the program's
+first nonzero cubic invariant of the chord, the mirror-axiom route's mathematical payoff.
+Normalization caveat declared (zero pattern/identities/nonvanishing = the invariant content).
+NO SM number; Gate 5 stands; physics readings wait on L91. Queued: the four D_φ tables; cc2's 3a
+cross-adjudication. Locks 6/6 + OA_SLOW. Firewalled.
