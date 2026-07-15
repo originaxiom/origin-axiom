@@ -4274,3 +4274,15 @@ MB12 triple-check recorded per cell (including the honest EXPECTED-FAIL annotati
 cells from already-banked magnitudes — no pretense of blindness), outcome table A/B/D-norm locked,
 run order N0 → N1 → N2 with blind banking. Hashed into ARTIFACT_HASHES.txt before any comparison.
 Firewalled; a positive outcome only enables the next separately-preregistered arc.
+
+## 2026-07-15 — B602 RESOLVED: D-norm — the naive value bridge does not exist; the residuals are the finding
+The sealed run (N0 → N1 → N2, each banked blind): N0 — the bent states are J-ISOTROPIC (g₄ = g₈ = 0
+exactly; J-norm cells invalid-degenerate per the seal) and the stage hearing lines are anyonically
+distinct (d = φ vs 1); N1 — both live phase cells fail with residual EXACTLY −π/15 (the ζ₃₀
+compositum quantum; the registered pre-run field-degree realization predicted it); N2 — the
+magnitude cells fail as sealed-expected, exact residual (3·5·97)/(2·7·13²·31·607·49297): the
+torsions' large primes survive — N-integers ≠ rescaled τ-integers. OUTCOME D-norm per the locked
+table. The negative's content: the value bridge must be built from field-compatible invariants
+(norm-forms, traces — where B601's trace law and B595's det = φ² already live), not naive ratios;
+the phase lattice gap is one unit of 2π/30. Next candidate generation = a NEW prereg (norm-form
+cells). Firewalled.
