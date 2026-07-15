@@ -46,3 +46,9 @@ heavy field port — the true held-out analog of the fig-8's τ-family),
 (ii) a third object, (iii) tighter targets (the PMNS uncertainties
 currently dominate the windows). All under fresh seals. The mathematics
 (B575–B613, PC26 v2) is untouched by any of this.
+
+**NAMING CORRECTION (2026-07-15, B621):** the object called "m136" in
+this arc is the R²L (trace-4, vol 2.6667) bundle — census m136 is
+actually the RRLL silver bundle (SnapPy-verified, B622). All
+computations here concern the R²L bundle itself and stand unchanged;
+read "m136" as "the R²L bundle" throughout.

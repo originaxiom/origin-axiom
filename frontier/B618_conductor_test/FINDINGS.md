@@ -34,3 +34,9 @@ level coprime to 21. **PASS.**
 The tr-5 window is the 7-part of 21 (levels 14, 35 are mod-7-not-mod-3);
 mod-3-only levels carry none. Recorded as data for the mechanism cell
 (21 = 3·7; the content follows the 7).
+
+**NAMING CORRECTION (2026-07-15, B621):** the object called "m136" in
+this arc is the R²L (trace-4, vol 2.6667) bundle — census m136 is
+actually the RRLL silver bundle (SnapPy-verified, B622). All
+computations here concern the R²L bundle itself and stand unchanged;
+read "m136" as "the R²L bundle" throughout.

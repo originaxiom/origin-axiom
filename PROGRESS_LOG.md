@@ -4527,3 +4527,17 @@ reflections and only there, exactly when the level bears). The conductor arc com
 (theorem) + B618 (confirmed prediction) + B620 (mechanism) — one number, tr²−4, runs the torsion
 engine and the quantum field-door. One iteration recorded (the reflection-index set corrected
 before final reads). Lock test_b620_conductor_mechanism.py. Firewalled.
+
+## 2026-07-15 — the conductor-endgame campaign round 1 (5 cells, workflow): B621 + B622 banked; naming corrected
+THE κ-GATING LAW (B621, cell A, verified zero-exceptions κ=4..27): base = 3^v·m ⇒ the reflection
+coset bears the field iff m | κ; the 3-part is absorbed by the A₂ lattice's own discriminant (and
+v = [3∤t] by elementary arithmetic). The exclusivity control is mandatory when 3 | base. Registered
+residual: reconciling the Weil-coset gate (4|κ for the trace-4 object) with B618's odd-trace
+observable ({12,24}). THE NAMING CORRECTION (binding): census m136 = the RRLL SILVER bundle;
+the R²L trace-4 object of B610/B616/B618/B619 was misnamed — all math stands, labels corrected in
+place. B622 (cell C, verified exactly in-loop): the TRUE m136's exterior adjoint torsion = −16
+EXACTLY ((1−φ⁶)(1−φ⁻⁶); pipeline calibrated on fig-8 → −3 ✓) — the exterior sign law's second
+NEGATIVE data point at m=1; plus THE FIELD CROSSOVER (fig-8's adjoint Jacobian in ℚ(√21), silver's
+in ℚ(√5) — the objects swap fields; data, mechanism open). Cell B: the three torsion conventions
+reconciled (B423 bundle ≠ B581 exterior = category difference; B581 −3 ↔ Dubois 1/5 = basis
+conventions; one OCR-garbled link flagged). Firewalled.

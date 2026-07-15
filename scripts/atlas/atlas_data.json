@@ -12482,6 +12482,8 @@
    "refs": [
     "B601",
     "B609",
+    "B621",
+    "B622",
     "K4"
    ],
    "obstacle": "units_scale",
@@ -12566,6 +12568,7 @@
    "slug": "heldout",
    "motifs": [
     "figure_eight",
+    "metallic",
     "dickson_tower",
     "torsion",
     "symplectic"
@@ -12573,12 +12576,14 @@
    "refs": [
     "B575",
     "B581",
-    "B613"
+    "B613",
+    "B621",
+    "B622"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B617": {
    "slug": "sign law theorem",
@@ -12606,6 +12611,7 @@
    "motifs": [
     "figure_eight",
     "kappa",
+    "metallic",
     "golden",
     "torsion",
     "wrt_quantum"
@@ -12614,7 +12620,9 @@
     "B587",
     "B601",
     "B610",
-    "B617"
+    "B617",
+    "B621",
+    "B622"
    ],
    "obstacle": "observable",
    "obstacle_conf": 3,
@@ -12626,12 +12634,15 @@
    "motifs": [
     "trace_map",
     "kappa",
+    "metallic",
     "golden",
     "torsion",
     "firewall"
    ],
    "refs": [
-    "B615"
+    "B615",
+    "B621",
+    "B622"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 1,
@@ -12672,6 +12683,48 @@
    ],
    "obstacle": "observable",
    "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B621": {
+   "slug": "kappa gating",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "torsion"
+   ],
+   "refs": [
+    "B610",
+    "B611",
+    "B612",
+    "B616",
+    "B618",
+    "B619",
+    "B620"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B622": {
+   "slug": "silver exterior",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B423",
+    "B581",
+    "B617",
+    "B621"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
    "status": "banked",
    "domain": "arithmetic"
   },

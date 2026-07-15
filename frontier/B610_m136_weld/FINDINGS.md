@@ -41,3 +41,9 @@ script docstring. Lock `tests/test_b610_m136_weld.py` (fast, ~15 s).**
 | spectrum conj-closed | every level | no level |
 | unit-modulus | leaves the circle exactly at golden multiples | never (κ ≤ 24) |
 | the unit tone κ=4 | −1 (real, deaf) | −i (complex) |
+
+**NAMING CORRECTION (2026-07-15, B621):** the object called "m136" in
+this arc is the R²L (trace-4, vol 2.6667) bundle — census m136 is
+actually the RRLL silver bundle (SnapPy-verified, B622). All
+computations here concern the R²L bundle itself and stand unchanged;
+read "m136" as "the R²L bundle" throughout.
