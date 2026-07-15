@@ -1,0 +1,2 @@
+2c9dea54d01e046fdc519ed06af7743cef50d2939980ddf1c6a528bfff839a4e  frontier/B600_level_ladder/packet/CAMPAIGN.md
+95a0e8612cacacb20561eed18472a0065369415061b5c00f5b06092225300ff4  frontier/B600_level_ladder/packet/outputs/level4_readouts.json
