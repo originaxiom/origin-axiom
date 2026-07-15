@@ -12655,6 +12655,26 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B620": {
+   "slug": "conductor mechanism",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B587",
+    "B613",
+    "B617",
+    "B618"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B62": {
    "slug": "opposition involution",
    "motifs": [
