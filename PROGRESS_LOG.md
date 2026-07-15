@@ -4465,3 +4465,14 @@ seed): expected G2 pair counts 0.51–0.59 bracket the primary null's 0.57; raw 
 the primary 0.020 — ensemble-insensitive; the verdict unchanged. ~1.1% of matched-complexity random
 algebraics hit the sin²θ₂₃ window at the coarse tier. The seat-4 packet is complete (design + raw
 table + both-ensemble statistics + disclosures). The held-out m136 arc remains the decisive test.
+
+## 2026-07-15 — B616 (the held-out control): STILL-AMBIGUOUS — m136 behaves as noise; the sign law is object-universal
+The sealed control ran once (hash verified): m136's 63-value κ=12 amplitude family matched at exactly
+its null expectation (2/378 vs 1.44 expected; both the same duplicated value on sin²θ₁₃ — one under
+the SET clause; dedup noted honestly, verdict unchanged), landing strictly between the locked table's
+"dies" and "specificity" bands. The fig-8's threefold angle excess stays uncorroborated and
+unexplained; the SM-values question remains OPEN pending the heavy ports; no escalation. SURPRISE
+(registered): the m136 bundle torsions obey the SAME (−1)^m sign law — θ-odd-positivity looks
+object-universal at the bundle level; a one-line mechanism lemma is registered (if proved, the sign
+law is a family theorem and the fig-8-specific content moves to the exterior torsions). Lock
+test_b616_heldout.py. Firewalled.
