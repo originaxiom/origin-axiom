@@ -12365,6 +12365,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B605": {
+   "slug": "door2 involution",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "P12"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [

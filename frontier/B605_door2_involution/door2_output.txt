@@ -1,0 +1,26 @@
+gate: both branches satisfy the relator exactly
+target pool (deduped conjugates): 32
+numeric intertwiner hits (phi: a->wa, b->wb): [('a', 'baB', 1, 1), ('a', 'Bab', 1, 1), ('a', 'abaBA', 1, 1), ('a', 'aBabA', 1, 1), ('a', 'bAbaB', 1, 1), ('a', 'ABaba', 1, 1), ('A', 'bAB', 1, 1), ('A', 'BAb', 1, 1), ('A', 'abABA', 1, 1), ('A', 'aBAbA', 1, 1), ('A', 'bABaB', 1, 1), ('A', 'ABAba', 1, 1), ('b', 'abA', 1, 1), ('b', 'Aba', 1, 1), ('b', 'aBabA', 1, 1), ('b', 'babAB', 1, 1), ('b', 'bAbaB', 1, 1), ('b', 'BAbab', 1, 1), ('B', 'aBA', 1, 1), ('B', 'ABa', 1, 1), ('B', 'aBAbA', 1, 1), ('B', 'baBAB', 1, 1), ('B', 'bABaB', 1, 1), ('B', 'BABab', 1, 1), ('abA', 'b', 1, 1), ('abA', 'baB', 1, 1), ('abA', 'aabAA', 1, 1), ('aBA', 'B', 1, 1), ('aBA', 'bAB', 1, 1), ('aBA', 'aaBAA', 1, 1), ('baB', 'a', 1, 1), ('baB', 'abA', 1, 1), ('baB', 'bbaBB', 1, 1), ('bAB', 'A', 1, 1), ('bAB', 'aBA', 1, 1), ('bAB', 'bbABB', 1, 1), ('Aba', 'b', 1, 1), ('Aba', 'Bab', 1, 1), ('Aba', 'AAbaa', 1, 1), ('ABa', 'B', 1, 1), ('ABa', 'BAb', 1, 1), ('ABa', 'AABaa', 1, 1), ('Bab', 'a', 1, 1), ('Bab', 'Aba', 1, 1), ('Bab', 'BBabb', 1, 1), ('BAb', 'A', 1, 1), ('BAb', 'ABa', 1, 1), ('BAb', 'BBAbb', 1, 1), ('aabAA', 'abA', 1, 1), ('aabAA', 'abaBA', 1, 1), ('aaBAA', 'aBA', 1, 1), ('aaBAA', 'abABA', 1, 1), ('abaBA', 'a', 1, 1), ('abaBA', 'aabAA', 1, 1), ('abABA', 'A', 1, 1), ('abABA', 'aaBAA', 1, 1), ('aBabA', 'a', 1, 1), ('aBabA', 'b', 1, 1), ('aBAbA', 'A', 1, 1), ('aBAbA', 'B', 1, 1), ('babAB', 'b', 1, 1), ('babAB', 'bbaBB', 1, 1), ('baBAB', 'B', 1, 1), ('baBAB', 'bbABB', 1, 1), ('bbaBB', 'baB', 1, 1), ('bbaBB', 'babAB', 1, 1), ('bbABB', 'bAB', 1, 1), ('bbABB', 'baBAB', 1, 1), ('bAbaB', 'a', 1, 1), ('bAbaB', 'b', 1, 1), ('bABaB', 'A', 1, 1), ('bABaB', 'B', 1, 1), ('AAbaa', 'Aba', 1, 1), ('AAbaa', 'ABaba', 1, 1), ('AABaa', 'ABa', 1, 1), ('AABaa', 'ABAba', 1, 1), ('ABaba', 'a', 1, 1), ('ABaba', 'AAbaa', 1, 1), ('ABAba', 'A', 1, 1), ('ABAba', 'AABaa', 1, 1), ('BAbab', 'b', 1, 1), ('BAbab', 'BBabb', 1, 1), ('BABab', 'B', 1, 1), ('BABab', 'BBAbb', 1, 1), ('BBabb', 'Bab', 1, 1), ('BBabb', 'BAbab', 1, 1), ('BBAbb', 'BAb', 1, 1), ('BBAbb', 'BABab', 1, 1)]
+family phi(a)=a, phi(b)=baB:  U = [[1, 1/2 - sqrt(3)*I/2], [0, 1]]  ->  GLIDE (tau^2 ~ a in Gamma): no fixed point of this lift
+family phi(a)=A, phi(b)=bAB:  U = [[-1, 1/2 - sqrt(3)*I/2], [0, 1]]  ->  OTHER: S = [[1, -sqrt(3)*I], [0, 1]]
+family phi(a)=b, phi(b)=abA:  U = [[0, 1], [1/2 + sqrt(3)*I/2, 1]]  ->  GLIDE (tau^2 ~ baB in Gamma): no fixed point of this lift
+family phi(a)=B, phi(b)=aBA:  U = [[0, 1], [-1/2 - sqrt(3)*I/2, 1]]  ->  OTHER: S = [[-1/2 + sqrt(3)*I/2, 1], [-1/2 + sqrt(3)*I/2, 1/2 - sqrt(3)*I/2]]
+
+the Gamma-lift census (numeric length <= 6; hits exact-certified):
+  family phi(a)=a: reflection-type lifts (len<=6): 0
+  family phi(a)=a: antipodal-type lifts (len<=6): 0
+  family phi(a)=A: reflection-type lifts (len<=6): 0
+  family phi(a)=A: antipodal-type lifts (len<=6): 0
+  family phi(a)=b: reflection-type lifts (len<=6): 0
+  family phi(a)=b: antipodal-type lifts (len<=6): 0
+  family phi(a)=B: reflection-type lifts (len<=6): 0
+  family phi(a)=B: antipodal-type lifts (len<=6): 0
+
+SnapPy cross-checks:
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+SnapPy: |Isom| = 8; amphichiral: True; group: D4
+Gieseking candidate m000: vol = 1.014941606 (vol(4_1)/2 = 1.014941606); orientable: False; tetrahedra: 1
+4_1 among the degree-2 covers of m000: True (1 covers)
+
+B605 DONE

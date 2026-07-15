@@ -4307,3 +4307,15 @@ STRENGTHENED: every odd-block line mixes D₅-subsystem and coset-16 content (so
 V₁₆'s h=8 line). Ask 3's premise (torsion ↔ SM coupling alignment) is structurally refuted; the
 math-tier branching of the MIXED lines is registered as a lead. θ from the banked J (convention-free);
 diagram computed from the Cartan matrix. Lock test_b604_rosetta.py (OA_SLOW). Firewalled.
+
+## 2026-07-15 — B605 (Door 2): the amphichiral involutions are FREE — Gieseking deck maps, not reflections
+The incoming handoff's reflection claim tested mechanically: exact intertwiners over ℚ(√−3) for all
+four orientation-reversing families of Isom(4₁) = D₄ (two involutions with τ² = meridian-conjugate
+glides; two order-4 elements squaring to the half-longitude — exactly D₄'s coset structure); the
+Γ-lift census to reduced length 6 finds ZERO reflection-type and ZERO antipodal-type lifts in all
+four families; and the identification is COMPUTED: m000 (Gieseking) is non-orientable, 1 tetrahedron,
+half the volume, with 4₁ its unique degree-2 cover — the free involution is the Gieseking deck
+transformation, so the free answer is exact for that class. The handoff's 2-tetrahedra facts
+CONFIRMED; its point-group exclusion REFUTED-AS-INCOMPLETE (the swap gap); its conclusion REFUTED:
+Fix(τ) = ∅, M₃⋊_τS¹ is a SMOOTH 4-manifold, and the "orbifold Lorentzian question" dissolves back to
+the smooth setting. Lock test_b605_door2.py (OA_SLOW). Firewalled.
