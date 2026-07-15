@@ -1011,3 +1011,17 @@ null): THE SM-VALUES QUESTION IS CLOSED AT EVERY TESTED LEVEL. The walls stand; 
 pairing-chirality law, the exact hearing closed forms) publishes as mathematics. Deferred points 2
 (object-scale couplings) and 3 (composites) remain frozen (B629) and CANNOT run without a new
 owner-level directive + principled preregistration. Seat 4 reviews the full packet.
+
+## 2026-07-15 — THE CUBIC ROUTE opened and ran (B632, cells 1–2): three slots, the explicit cubic, the antisymmetric half
+Chat-1's "the missing step is the cubic" reframe, adjudicated (the MB13 sweep caught B308's prior
+art: the coupling was always forced; the TEXTURE was the queued gate): the genuinely new object is
+the 27 AS A LOCAL SYSTEM. Cell 1: **h¹(M; 27) = 3** — the generation count exists as cohomological
+multiplicity (the abelian class + the two θ-odd chiral classes; not blocked by B307's theorem);
+the forced vev v₀ exists. Cell 2 (corrected after the audit seat's catch, controls green): the
+Jordan cubic explicit (45/45), every slot couples to the vev, and the solo object carries exactly
+the ANTISYMMETRIC half of the cubic structure — full on all three pairs — while the symmetric
+(mass-shaped) half is obstructed on the solo complement and becomes well-defined precisely on the
+mirror-double = the banked forced coupling. **The coupling thesis now appears in the cohomology
+itself: masses need the pair; the solo object cannot carry them.** Next (L89, own prereg, gated on
+the gluing-existence analysis): the symmetric texture on the double. No SM number anywhere; any
+future comparison stays behind the stopping rule's owner-directive gate.

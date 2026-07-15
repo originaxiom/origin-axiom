@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — B632: the cubic route — h¹(27) = 3; the cubic explicit; the solo texture is antisymmetric
+
+### Added
+- Cell 1 (prereg dab6948b…): the principal decomposition **27 = V(16) ⊕ V(8) ⊕ V(0)** (spins
+  {8,4,0} = the θ-odd exponents + trivial); exact Fox calculus gives **h¹(M; 27_ρ) = 3** —
+  a three-slot cohomological generation structure (abelian + two θ-odd chiral classes), a
+  multiplicity mechanism not blocked by B307; the forced vev v₀ exists (h⁰ = 1).
+- Cell 2 (prereg dc2be090…, corrected after the audit seat's catch): the Jordan cubic
+  constructive in the local-system basis (45/45 monomials, uniqueness 1-dim); B_C exactly
+  block-diagonal with **c₀, c₄, c₈ all nonzero** (every slot couples to the forced vev);
+  component census = the triangle rules exactly; the O1/O2 obstruction gates verified —
+  the symmetric texture CANNOT exist on the solo complement; **Ω: Λ²H¹(27) → H²(M;27*)
+  nonzero on all three generation pairs** (the full antisymmetric half).
+- The structural theorem: the mass-shaped (symmetric) texture exists only on a closed
+  3-cycle — canonically the mirror-double, the banked forced coupling — **the coupling
+  thesis in cohomological form**. Cell 3 (the double) = L89; B575 cup hygiene = L90.
+- An instrument fix disclosed (inverse-letter correction chains in the 2-cell evaluation),
+  caught by the sealed coboundary-invariance gate itself.
+
 ## 2026-07-15 — B630/B631: the matrix comparison — STRUCTURED-NULL (p = 0.700); the interaction round closed
 
 ### Added
