@@ -33,3 +33,9 @@ significance claims. The "angles-not-magnitudes" observation stands as a
 DESCRIPTION of B615's raw outcome (couplings silent, angles carried the
 excess) with the three-layer theorem as its structural echo —
 interpretation, firewalled.
+
+**NAMING CORRECTION (2026-07-15, B621):** the object called "m136" in
+this arc is the R²L (trace-4, vol 2.6667) bundle — census m136 is
+actually the RRLL silver bundle (SnapPy-verified, B622). All
+computations here concern the R²L bundle itself and stand unchanged;
+read "m136" as "the R²L bundle" throughout.
