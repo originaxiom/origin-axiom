@@ -326,13 +326,61 @@ the color roots). **[PROVED**, `test_b604_rosetta`,
 `test_b607_charge_table`, `test_b608_rosetta_gsm`,
 `test_b609_sealed_values`**]**
 
+**Record 9.7 (the sealed comparison record: closed and hardened).
+[PROVED as negatives, under sealed protocols]**
+The stage-value question was subsequently pushed through four further
+sealed rounds and closed at every level: (i) the full 271-pair grid
+against measured targets (uniform and algebraic-mimic nulls,
+look-elsewhere corrected) — ambiguous at p = 0.078; (ii) the held-out
+controls — the second object's amplitude family at its null expectation,
+and both objects' exterior torsion families silent; (iii) the matrix
+layer — the E6-level-2 hearing table against the measured mixing-moduli
+table under a Haar null with a POWER-DEMONSTRATED instrument (a
+genuinely close unitary fires the match verdict at p = 0.0003; the
+observed p = 0.700); (iv) the re-analysis on scheme-stated,
+scale-stated, uncertainty-correct inputs — the p = 0.078 residual
+dissolves (p = 0.145–0.62 in every variant). One forward row remains
+with the experiments (the sin^2 theta_12 window), requiring no action.
+
+**Theorem 9.8 (the chord's cubic dichotomy). [PROVED / EXACT]**
+(a) The solo complement admits NO cubic scalar on its 27-cohomology:
+every triple product vanishes identically (cohomological dimension 2),
+and the invariant-contracted pairing is alternating with zero diagonal —
+a mass-matrix-shaped object cannot exist on the object alone. The solo's
+sole cubic-family invariant is the alternating operation
+Omega: Lambda^2 H^1(M;27) -> H^2(M;27*), surjective of rank 2 with
+1-dimensional kernel [exhaustively verified: 162/162 coboundary
+descents]. (b) On the closed mirror-double (the chord), the alternating
+cubic 3-form Y: Lambda^3 H^1(D;27) -> C through the unique E6 cubic
+invariant is WELL-DEFINED and NONZERO — exact values in Q(sqrt(-3)) —
+with: a coupling-independent CORE obeying the exact unit identity
+Y[023] = 24*zeta_6*Y[123] (the relator's Eisenstein unit); a zero law
+(the two boundary-born classes never couple jointly, except under the
+identity-exponent dial); exactly one dial-sensitive component; and the
+EXCLUSION LAW: at the full-E6 chiral bends the double's cohomology
+collapses (h^1 = 2) and no 3-form exists — chirality and the cubic
+exclude each other on the same coupling. Typing consequence: an
+alternating family tensor contracted with the SYMMETRIC E6 cubic
+vanishes for identical families; Y is therefore a flux-type invariant
+across INEQUIVALENT modes, not a Yukawa-type family tensor.
+*Locks:* the `test_b632_*`, `test_b637_*` families; three independent
+pipelines agree on the underlying cohomology tables.
+
 ---
 
 ## 10. What is not claimed: the walls, updated
 
 1. **Values.** No SM value is derived. The exact numbers of §7 and §9 are
    stage arithmetic; the value question was pushed through two sealed
-   candidate generations and closed negative both times (9.4).
+   candidate generations (9.4) and then through four further sealed
+   rounds on corrected inputs (9.7) — closed negative every time, at
+   every tested level including the matrix layer.
+1'. **Masses (the typing wall).** A symmetric mass-matrix-shaped object
+   cannot exist on the solo object (9.8a); the coupled object carries
+   only the ALTERNATING cubic (9.8b), which vanishes for identical
+   families against the symmetric invariant — no Yukawa-type family
+   tensor arises at this level, for typed reasons, independent of any
+   comparison.
 2. **Selection.** No mechanism selects the SM gauge algebra; moreover the
    blocks do not align with any G_SM sector decomposition (9.5) — a
    would-be selector has nothing sectorally pure to select except the

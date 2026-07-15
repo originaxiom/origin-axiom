@@ -4839,3 +4839,17 @@ menu behind gates (C1 the swap decomposition — the canonical ℤ/2 the chord O
 PROVE the core identities via Y(σ·,σ·,σ·) = −Y; C2 the one-number cubic on D_conjθ(M); C3 the
 dial law; C4 the silver chord; C5 the normalization cell). NOTHING launched; stage 3 (the D_φ
 3-form tables) still computing. Firewalled.
+
+## 2026-07-16 — PC26 v2-final pass: §9.7 (the hardened sealed record) + §9.8 (the chord's cubic dichotomy) + the typing wall
+The full-chain paper absorbs the corrected record: §9.7 = the four further sealed rounds closing
+the value question at every level on corrected inputs (the 271-grid; the held-out controls; the
+POWER-DEMONSTRATED matrix null; the scheme/uncertainty re-analysis dissolving the last residual;
+the one experiment-side forward row); §9.8 = THE CHORD'S CUBIC DICHOTOMY as a labeled theorem
+(the solo obstruction + the rank-2 alternating Ω [162/162 externally verified]; the nonzero
+alternating chord 3-form with the exact 24ζ₆ core identity, the zero law, the single
+dial-sensitive slot, and the CHIRALITY-EXCLUSION law; the typing consequence — alternating family
+⊗ symmetric cubic = zero for identical families ⇒ flux-type across inequivalent modes); the walls
+gain 1' (THE TYPING WALL: no Yukawa-type family tensor at this level, for typed reasons,
+comparison-independent). CANDIDATES row updated; remaining before submission: the D_φ completion
+note (stage 3 in flight — the core values already CONFIRMED IDENTICAL on the first two involution
+doubles: the core is GLUING-INDEPENDENT), references, voice pass. Firewalled.
