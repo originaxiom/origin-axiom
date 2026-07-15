@@ -35,3 +35,14 @@ that is what it is — the mathematics is in the definition column.
 
 For how verification works and what it does NOT imply, read `PROVENANCE.md`
 §0. For how to run the checks yourself, read `REPRODUCIBILITY.md`.
+
+## The four mirror manifolds (permanent names; audit Gate 2, 2026-07-15)
+
+No invariant may be transferred between these without an explicit map.
+
+| name | construction | H₁ | notes |
+|---|---|---|---|
+| **M_Sol(−A₁)** | the closed torus bundle of the mirror-twisted lift −A₁ | ℤ ⊕ ℤ/5 | SOL geometry (B591-M5); the conductor carrier; the C-twisted quantum play (Z_C = +1/φ) |
+| **L(5,2)** | the branched double cover Σ₂(4₁) | ℤ/5 | the classical mirror-pairing manifold (B591-M3) |
+| **D_g(M)** | the cusp-complement double M ∪_g M̄ per explicit gluing g | g = ±I → ℤ; g = ±A₁ → 0 (homology sphere) | ±A₁ is peripherally INCOMPATIBLE with the banked 27 local system; the B605 D₄-intertwiner gluings are named D_g(M) with g stated |
+| **D_bent(M; m)** | the representation-bent B582/B598 amalgam at bend m | — (local-system object) | h¹(D;27) = 2 at m = 4, 8; 5 at none/1/5/7/11 (B635-reproduced) |

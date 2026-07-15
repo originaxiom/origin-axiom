@@ -4712,3 +4712,27 @@ YUKAWA TABLE (the symmetric triple cup through the explicit 45-monomial cubic, c
 G5 the conductor read (structural, NO SM number). Every gate two-outcome; a zero tensor at G4 =
 the honest kill of the mirror-axiom's value route. Comparison, if ever: owner directive + the full
 checklist. Firewalled.
+
+## 2026-07-15 — B635: THE EXTERNAL AUDIT INTEGRATED (verified, not trusted); B632 repaired-in-trail; B634 errata'd; cc2's ladder verified
+The read-only audit's stop/go landed and EVERY load-bearing claim was verified in-sandbox before
+banking: (1) its exhaustive cell-2 verifier reproduces (162/162 coboundary descents; **Ω rank 2,
+kernel 1** — our "full" wording corrected in place); (2) its twisted-M–V table reproduces exactly —
+**h¹(D;27) = 2 at the full-E₆ bends m = 4,8 ⇒ Λ³H¹ = 0: the proposed closed triple is identically
+ZERO on the actual chiral weld**; the −A₁ weld FAILS peripheral compatibility (not a repair — a
+different problem); (3) the Koszul point stands — on ANY closed 3-manifold the symmetric-cubic
+triple is FULLY ALTERNATING: "the double restores a symmetric mass matrix" was FALSE AS TYPED (the
+owner's directive's reading and this seat's B634-G4 both corrected); (4) B591's four mirror
+manifolds now have permanent names + the no-transfer rule (TERMINOLOGY.md): M_Sol(−A₁) ℤ⊕ℤ/5 (SOL,
+not cusped-hyperbolic — B634 ERRATUM_1 sealed ae5da99d…), L(5,2), D_g(M) (±A₁ → homology sphere),
+D_bent(M;m); (5) the conductor law is **5 | κ — κ = 5 is the minimal bearing CHOICE**; the four
+proof obligations that would upgrade choice→theorem registered (L91); (6) B575's Q ≡ 0 protected by
+bracket antisymmetry (L90 annotated). GATE-0 REPAIR EXECUTED: the two failed cell-2 transcripts
+restored BYTE-FAITHFULLY (sha-verified); REPAIR_ADJUDICATION.md banked; corrected code hashed
+post-hoc WITH the label; the transcript-grep lock replaced by the exhaustive mathematical gates;
+v₀ → the invariant-section generator; the three H¹ summands → three inequivalent local-system
+modes. CC2's PACKETS VERIFIED ON RECEIPT: ord(A₁ mod 204) = 36 independently reproduced; the L5 log
+shows the ℚ(√17) import + Z₅ = +1 (the Z-ladder {+1,+1,+1,0,+1}, silence isolated at κ = 2⁴); the
+Jeffrey pipeline agrees on all five rungs at 1e-15 — the B577 two-derivation standard met. L89
+superseded-as-posed; the corrected mathematics target = B637 (the h¹ jump locus over the named
+gluing menu + the alternating cubic where h¹ ≥ 3; three coordinated disjoint pipelines). NO SM
+number anywhere; Gate 5 standing. Firewalled.

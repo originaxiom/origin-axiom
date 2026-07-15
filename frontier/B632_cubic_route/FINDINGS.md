@@ -145,3 +145,34 @@ G1, the chord). **The Yukawa-shaped object structurally requires the
 coupling; the solo object carries the antisymmetric half.** Cell 3
 (registered, own prereg, not run): the symmetric texture on the double
 via Mayer–Vietoris from banked pieces.
+
+---
+
+## CORRECTIONS (2026-07-15, the external audit integrated; REPAIR_ADJUDICATION.md)
+
+The read-only external audit verified cell 2's corrected mathematics
+exhaustively (162/162 coboundary descents, all diagonals/exchanges,
+exact rank — verifier adopted as `verify_cell2_exhaustive.py`, now the
+lock) and corrected this arc's LANGUAGE, binding henceforth:
+
+- **Ω is rank 2 with 1-dim kernel** — a surjective alternating
+  cohomology operation; the earlier "full antisymmetric form / maximal
+  structure" wording OVERSTATED (the target is 2-dim; one pair-direction
+  is killed). Block-adapted H² coordinates = registered residual.
+- **v₀ = the invariant-section generator**, not a "forced vev" (an
+  invariant line exists; nothing selects it dynamically).
+- **The three H¹ summands = three inequivalent local-system modes**
+  (one class in each of three INEQUIVALENT principal-SL(2) blocks), not
+  "generation slots": three copies of one representation is exactly
+  what this is NOT — the physics-type check is open, not implied.
+- The failed runs are restored verbatim (FAILED_RUN_1/2.txt); the
+  corrected code is hashed post-hoc with that label; the repair trail
+  is adjudicated in REPAIR_ADJUDICATION.md.
+- **The cell-3 sketch in the cell-2 section is SUPERSEDED:** on ANY
+  closed oriented 3-manifold the triple through a symmetric coefficient
+  cubic is FULLY ALTERNATING (Koszul); "the double restores a symmetric
+  mass matrix" was false as typed. The corrected cell-3 statement and
+  the twisted-M–V dimension facts live in the B637 prereg (the audit's
+  own exact table — h¹(D;27) = 2 at the full-E₆ bends m = 4, 8, so
+  Λ³H¹ = 0 there — is reproduced in-repo and registered as the
+  prediction to confirm independently).

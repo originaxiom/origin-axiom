@@ -1025,3 +1025,15 @@ mirror-double = the banked forced coupling. **The coupling thesis now appears in
 itself: masses need the pair; the solo object cannot carry them.** Next (L89, own prereg, gated on
 the gluing-existence analysis): the symmetric texture on the double. No SM number anywhere; any
 future comparison stays behind the stopping rule's owner-directive gate.
+
+## 2026-07-15 — THE RECOVERY: the external audit integrated; the mirror-axiom chain re-stated honestly
+The audit's stop was RIGHT and is banked verified: the symmetric "Yukawa on the double" was false
+as typed (alternating by Koszul on any closed 3-manifold) AND dimensionally dead on the actual
+chiral weld (h¹(D;27) = 2 at m = 4,8 ⇒ zero triple — reproduced in-repo). The four mirror
+manifolds now have permanent names (no invariant transfers without a map); the conductor law reads
+5 | κ with κ = 5 the minimal bearing CHOICE (upgrade obligations = L91); B632's repair trail is
+adjudicated (failed transcripts restored, exhaustive mathematical locks). What SURVIVES is strong:
+Ω exact/alternating/rank-2 on the solo; h¹(27) = 3 as three inequivalent modes; the conductor
+identities; the closure theorem; cc2's two-pipeline Z-ladder {+1,+1,+1,0,+1} with the κ=17 return
+(verified on receipt). NEXT: B637 — the corrected mathematics target (the h¹ jump locus over the
+named gluing menu; the alternating cubic where h¹ ≥ 3; three coordinated disjoint pipelines).
