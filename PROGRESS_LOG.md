@@ -4150,3 +4150,10 @@ recompute-under-J sub-item resolves as exact agreement. P3 consequence: the clas
 content is provably concentrated in the cross-domain normalization (step 4) + the non-forced θ-odd
 quadratic data. Artifacts hashed; the assert-hardened re-verification in flight; the OA_SLOW lock
 lands on its green. Firewalled.
+
+## 2026-07-15 — the lemma cell's assert-hardened re-verification GREEN; the lock banked
+The re-run reproduced every value with all D8 asserts live (exit 0): J symmetric; the 4/2
+forced/genuine split; the exact J-weld integers. Lock: tests/test_b598_lemma.py (OA_SLOW
+subprocess-manifest). D5 is now fully closed (the pairing, the convention, the restated lemma, the
+locks). Chain: 1 provisional / 2 ✓ / 3 ✓ / 5 ✓ COMPLETE; next: 4 (the typed map + cross-domain
+normalization), 6 (exact E₆₂ stage data), 7 (G1-FINITE), 8 (sealed prereg), 9 (independent P1).
