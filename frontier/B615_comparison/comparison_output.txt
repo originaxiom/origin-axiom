@@ -1,0 +1,241 @@
+design hash: 9a189f496b7cd33ec141cabf29a7cca252da0312f79896133bb952851bcb2c2c
+
+==== EVERY PAIR (v, t, rel-dev | matches at 1e-2, 1e-3) ====
+
+-- G1 amplitudes x couplings (24 pairs) --
+        A1 |h3|^2 (5-sqrt5)/10 vs alpha_em(MZ) = 1/127.951     v=0.276393 t=0.00781549 dev=34.3648
+        A1 |h3|^2 (5-sqrt5)/10 vs alpha_s(MZ) = 0.1180         v=0.276393 t=0.118 dev=1.3423
+        A1 |h3|^2 (5-sqrt5)/10 vs sin^2thetaW(MZ) = 0.23122    v=0.276393 t=0.23122 dev=0.1954
+                  A2 N(h3) 1/5 vs alpha_em(MZ) = 1/127.951     v=0.2 t=0.00781549 dev=24.5902
+                  A2 N(h3) 1/5 vs alpha_s(MZ) = 0.1180         v=0.2 t=0.118 dev=0.6949
+                  A2 N(h3) 1/5 vs sin^2thetaW(MZ) = 0.23122    v=0.2 t=0.23122 dev=0.1350
+          A3 (4/7)sin^2(2pi/7) vs alpha_em(MZ) = 1/127.951     v=0.349292 t=0.00781549 dev=43.6922
+          A3 (4/7)sin^2(2pi/7) vs alpha_s(MZ) = 0.1180         v=0.349292 t=0.118 dev=1.9601
+          A3 (4/7)sin^2(2pi/7) vs sin^2thetaW(MZ) = 0.23122    v=0.349292 t=0.23122 dev=0.5106
+          A4 (4/7)sin^2(6pi/7) vs alpha_em(MZ) = 1/127.951     v=0.107574 t=0.00781549 dev=12.7642
+          A4 (4/7)sin^2(6pi/7) vs alpha_s(MZ) = 0.1180         v=0.107574 t=0.118 dev=0.0884
+          A4 (4/7)sin^2(6pi/7) vs sin^2thetaW(MZ) = 0.23122    v=0.107574 t=0.23122 dev=0.5348
+          A5 (4/7)sin^2(4pi/7) vs alpha_em(MZ) = 1/127.951     v=0.543134 t=0.00781549 dev=68.4945
+          A5 (4/7)sin^2(4pi/7) vs alpha_s(MZ) = 0.1180         v=0.543134 t=0.118 dev=3.6028
+          A5 (4/7)sin^2(4pi/7) vs sin^2thetaW(MZ) = 0.23122    v=0.543134 t=0.23122 dev=1.3490
+              A6 normprod 1/49 vs alpha_em(MZ) = 1/127.951     v=0.0204082 t=0.00781549 dev=1.6112
+              A6 normprod 1/49 vs alpha_s(MZ) = 0.1180         v=0.0204082 t=0.118 dev=0.8270
+              A6 normprod 1/49 vs sin^2thetaW(MZ) = 0.23122    v=0.0204082 t=0.23122 dev=0.9117
+           A7 Re h3 = 1/(2phi) vs alpha_em(MZ) = 1/127.951     v=0.309017 t=0.00781549 dev=38.5390
+           A7 Re h3 = 1/(2phi) vs alpha_s(MZ) = 0.1180         v=0.309017 t=0.118 dev=1.6188
+           A7 Re h3 = 1/(2phi) vs sin^2thetaW(MZ) = 0.23122    v=0.309017 t=0.23122 dev=0.3365
+          A8 arg(h3)/pi = 3/10 vs alpha_em(MZ) = 1/127.951     v=0.3 t=0.00781549 dev=37.3853
+          A8 arg(h3)/pi = 3/10 vs alpha_s(MZ) = 0.1180         v=0.3 t=0.118 dev=1.5424
+          A8 arg(h3)/pi = 3/10 vs sin^2thetaW(MZ) = 0.23122    v=0.3 t=0.23122 dev=0.2975
+
+-- G2 amplitudes+fractions x angles (150 pairs) --
+        A1 |h3|^2 (5-sqrt5)/10 vs sin^2th12(PMNS) = 0.307      v=0.276393 t=0.307 dev=0.0997
+        A1 |h3|^2 (5-sqrt5)/10 vs sin^2th23(PMNS) = 0.546      v=0.276393 t=0.546 dev=0.4938
+        A1 |h3|^2 (5-sqrt5)/10 vs sin^2th13(PMNS) = 0.0220     v=0.276393 t=0.022 dev=11.5633
+        A1 |h3|^2 (5-sqrt5)/10 vs lambda_Cabibbo = 0.22501     v=0.276393 t=0.22501 dev=0.2284
+        A1 |h3|^2 (5-sqrt5)/10 vs |Vcb| = 0.0408               v=0.276393 t=0.0408 dev=5.7743
+        A1 |h3|^2 (5-sqrt5)/10 vs |Vub| = 0.00382              v=0.276393 t=0.00382 dev=71.3542
+                  A2 N(h3) 1/5 vs sin^2th12(PMNS) = 0.307      v=0.2 t=0.307 dev=0.3485
+                  A2 N(h3) 1/5 vs sin^2th23(PMNS) = 0.546      v=0.2 t=0.546 dev=0.6337
+                  A2 N(h3) 1/5 vs sin^2th13(PMNS) = 0.0220     v=0.2 t=0.022 dev=8.0909
+                  A2 N(h3) 1/5 vs lambda_Cabibbo = 0.22501     v=0.2 t=0.22501 dev=0.1112
+                  A2 N(h3) 1/5 vs |Vcb| = 0.0408               v=0.2 t=0.0408 dev=3.9020
+                  A2 N(h3) 1/5 vs |Vub| = 0.00382              v=0.2 t=0.00382 dev=51.3560
+          A3 (4/7)sin^2(2pi/7) vs sin^2th12(PMNS) = 0.307      v=0.349292 t=0.307 dev=0.1378
+          A3 (4/7)sin^2(2pi/7) vs sin^2th23(PMNS) = 0.546      v=0.349292 t=0.546 dev=0.3603
+          A3 (4/7)sin^2(2pi/7) vs sin^2th13(PMNS) = 0.0220     v=0.349292 t=0.022 dev=14.8769
+          A3 (4/7)sin^2(2pi/7) vs lambda_Cabibbo = 0.22501     v=0.349292 t=0.22501 dev=0.5523
+          A3 (4/7)sin^2(2pi/7) vs |Vcb| = 0.0408               v=0.349292 t=0.0408 dev=7.5611
+          A3 (4/7)sin^2(2pi/7) vs |Vub| = 0.00382              v=0.349292 t=0.00382 dev=90.4376
+          A4 (4/7)sin^2(6pi/7) vs sin^2th12(PMNS) = 0.307      v=0.107574 t=0.307 dev=0.6496
+          A4 (4/7)sin^2(6pi/7) vs sin^2th23(PMNS) = 0.546      v=0.107574 t=0.546 dev=0.8030
+          A4 (4/7)sin^2(6pi/7) vs sin^2th13(PMNS) = 0.0220     v=0.107574 t=0.022 dev=3.8897
+          A4 (4/7)sin^2(6pi/7) vs lambda_Cabibbo = 0.22501     v=0.107574 t=0.22501 dev=0.5219
+          A4 (4/7)sin^2(6pi/7) vs |Vcb| = 0.0408               v=0.107574 t=0.0408 dev=1.6366
+          A4 (4/7)sin^2(6pi/7) vs |Vub| = 0.00382              v=0.107574 t=0.00382 dev=27.1608
+          A5 (4/7)sin^2(4pi/7) vs sin^2th12(PMNS) = 0.307      v=0.543134 t=0.307 dev=0.7692
+          A5 (4/7)sin^2(4pi/7) vs sin^2th23(PMNS) = 0.546      v=0.543134 t=0.546 dev=0.0052  <-- MATCH@1e-2
+          A5 (4/7)sin^2(4pi/7) vs sin^2th13(PMNS) = 0.0220     v=0.543134 t=0.022 dev=23.6879
+          A5 (4/7)sin^2(4pi/7) vs lambda_Cabibbo = 0.22501     v=0.543134 t=0.22501 dev=1.4138
+          A5 (4/7)sin^2(4pi/7) vs |Vcb| = 0.0408               v=0.543134 t=0.0408 dev=12.3121
+          A5 (4/7)sin^2(4pi/7) vs |Vub| = 0.00382              v=0.543134 t=0.00382 dev=141.1817
+              A6 normprod 1/49 vs sin^2th12(PMNS) = 0.307      v=0.0204082 t=0.307 dev=0.9335
+              A6 normprod 1/49 vs sin^2th23(PMNS) = 0.546      v=0.0204082 t=0.546 dev=0.9626
+              A6 normprod 1/49 vs sin^2th13(PMNS) = 0.0220     v=0.0204082 t=0.022 dev=0.0724
+              A6 normprod 1/49 vs lambda_Cabibbo = 0.22501     v=0.0204082 t=0.22501 dev=0.9093
+              A6 normprod 1/49 vs |Vcb| = 0.0408               v=0.0204082 t=0.0408 dev=0.4998
+              A6 normprod 1/49 vs |Vub| = 0.00382              v=0.0204082 t=0.00382 dev=4.3425
+           A7 Re h3 = 1/(2phi) vs sin^2th12(PMNS) = 0.307      v=0.309017 t=0.307 dev=0.0066  <-- MATCH@1e-2
+           A7 Re h3 = 1/(2phi) vs sin^2th23(PMNS) = 0.546      v=0.309017 t=0.546 dev=0.4340
+           A7 Re h3 = 1/(2phi) vs sin^2th13(PMNS) = 0.0220     v=0.309017 t=0.022 dev=13.0462
+           A7 Re h3 = 1/(2phi) vs lambda_Cabibbo = 0.22501     v=0.309017 t=0.22501 dev=0.3733
+           A7 Re h3 = 1/(2phi) vs |Vcb| = 0.0408               v=0.309017 t=0.0408 dev=6.5739
+           A7 Re h3 = 1/(2phi) vs |Vub| = 0.00382              v=0.309017 t=0.00382 dev=79.8945
+          A8 arg(h3)/pi = 3/10 vs sin^2th12(PMNS) = 0.307      v=0.3 t=0.307 dev=0.0228
+          A8 arg(h3)/pi = 3/10 vs sin^2th23(PMNS) = 0.546      v=0.3 t=0.546 dev=0.4505
+          A8 arg(h3)/pi = 3/10 vs sin^2th13(PMNS) = 0.0220     v=0.3 t=0.022 dev=12.6364
+          A8 arg(h3)/pi = 3/10 vs lambda_Cabibbo = 0.22501     v=0.3 t=0.22501 dev=0.3333
+          A8 arg(h3)/pi = 3/10 vs |Vcb| = 0.0408               v=0.3 t=0.0408 dev=6.3529
+          A8 arg(h3)/pi = 3/10 vs |Vub| = 0.00382              v=0.3 t=0.00382 dev=77.5340
+                         F 1/1 vs sin^2th12(PMNS) = 0.307      v=1 t=0.307 dev=2.2573
+                         F 1/1 vs sin^2th23(PMNS) = 0.546      v=1 t=0.546 dev=0.8315
+                         F 1/1 vs sin^2th13(PMNS) = 0.0220     v=1 t=0.022 dev=44.4545
+                         F 1/1 vs lambda_Cabibbo = 0.22501     v=1 t=0.22501 dev=3.4442
+                         F 1/1 vs |Vcb| = 0.0408               v=1 t=0.0408 dev=23.5098
+                         F 1/1 vs |Vub| = 0.00382              v=1 t=0.00382 dev=260.7801
+                         F 1/2 vs sin^2th12(PMNS) = 0.307      v=0.5 t=0.307 dev=0.6287
+                         F 1/2 vs sin^2th23(PMNS) = 0.546      v=0.5 t=0.546 dev=0.0842
+                         F 1/2 vs sin^2th13(PMNS) = 0.0220     v=0.5 t=0.022 dev=21.7273
+                         F 1/2 vs lambda_Cabibbo = 0.22501     v=0.5 t=0.22501 dev=1.2221
+                         F 1/2 vs |Vcb| = 0.0408               v=0.5 t=0.0408 dev=11.2549
+                         F 1/2 vs |Vub| = 0.00382              v=0.5 t=0.00382 dev=129.8901
+                         F 1/4 vs sin^2th12(PMNS) = 0.307      v=0.25 t=0.307 dev=0.1857
+                         F 1/4 vs sin^2th23(PMNS) = 0.546      v=0.25 t=0.546 dev=0.5421
+                         F 1/4 vs sin^2th13(PMNS) = 0.0220     v=0.25 t=0.022 dev=10.3636
+                         F 1/4 vs lambda_Cabibbo = 0.22501     v=0.25 t=0.22501 dev=0.1111
+                         F 1/4 vs |Vcb| = 0.0408               v=0.25 t=0.0408 dev=5.1275
+                         F 1/4 vs |Vub| = 0.00382              v=0.25 t=0.00382 dev=64.4450
+                        F 1/10 vs sin^2th12(PMNS) = 0.307      v=0.1 t=0.307 dev=0.6743
+                        F 1/10 vs sin^2th23(PMNS) = 0.546      v=0.1 t=0.546 dev=0.8168
+                        F 1/10 vs sin^2th13(PMNS) = 0.0220     v=0.1 t=0.022 dev=3.5455
+                        F 1/10 vs lambda_Cabibbo = 0.22501     v=0.1 t=0.22501 dev=0.5556
+                        F 1/10 vs |Vcb| = 0.0408               v=0.1 t=0.0408 dev=1.4510
+                        F 1/10 vs |Vub| = 0.00382              v=0.1 t=0.00382 dev=25.1780
+                        F 2/29 vs sin^2th12(PMNS) = 0.307      v=0.0689655 t=0.307 dev=0.7754
+                        F 2/29 vs sin^2th23(PMNS) = 0.546      v=0.0689655 t=0.546 dev=0.8737
+                        F 2/29 vs sin^2th13(PMNS) = 0.0220     v=0.0689655 t=0.022 dev=2.1348
+                        F 2/29 vs lambda_Cabibbo = 0.22501     v=0.0689655 t=0.22501 dev=0.6935
+                        F 2/29 vs |Vcb| = 0.0408               v=0.0689655 t=0.0408 dev=0.6903
+                        F 2/29 vs |Vub| = 0.00382              v=0.0689655 t=0.00382 dev=17.0538
+                         F 4/5 vs sin^2th12(PMNS) = 0.307      v=0.8 t=0.307 dev=1.6059
+                         F 4/5 vs sin^2th23(PMNS) = 0.546      v=0.8 t=0.546 dev=0.4652
+                         F 4/5 vs sin^2th13(PMNS) = 0.0220     v=0.8 t=0.022 dev=35.3636
+                         F 4/5 vs lambda_Cabibbo = 0.22501     v=0.8 t=0.22501 dev=2.5554
+                         F 4/5 vs |Vcb| = 0.0408               v=0.8 t=0.0408 dev=18.6078
+                         F 4/5 vs |Vub| = 0.00382              v=0.8 t=0.00382 dev=208.4241
+                        F 4/13 vs sin^2th12(PMNS) = 0.307      v=0.307692 t=0.307 dev=0.0023  <-- MATCH@1e-2
+                        F 4/13 vs sin^2th23(PMNS) = 0.546      v=0.307692 t=0.546 dev=0.4365
+                        F 4/13 vs sin^2th13(PMNS) = 0.0220     v=0.307692 t=0.022 dev=12.9860
+                        F 4/13 vs lambda_Cabibbo = 0.22501     v=0.307692 t=0.22501 dev=0.3675
+                        F 4/13 vs |Vcb| = 0.0408               v=0.307692 t=0.0408 dev=6.5415
+                        F 4/13 vs |Vub| = 0.00382              v=0.307692 t=0.00382 dev=79.5477
+                        F 8/25 vs sin^2th12(PMNS) = 0.307      v=0.32 t=0.307 dev=0.0423
+                        F 8/25 vs sin^2th23(PMNS) = 0.546      v=0.32 t=0.546 dev=0.4139
+                        F 8/25 vs sin^2th13(PMNS) = 0.0220     v=0.32 t=0.022 dev=13.5455
+                        F 8/25 vs lambda_Cabibbo = 0.22501     v=0.32 t=0.22501 dev=0.4222
+                        F 8/25 vs |Vcb| = 0.0408               v=0.32 t=0.0408 dev=6.8431
+                        F 8/25 vs |Vub| = 0.00382              v=0.32 t=0.00382 dev=82.7696
+                        F 9/26 vs sin^2th12(PMNS) = 0.307      v=0.346154 t=0.307 dev=0.1275
+                        F 9/26 vs sin^2th23(PMNS) = 0.546      v=0.346154 t=0.546 dev=0.3660
+                        F 9/26 vs sin^2th13(PMNS) = 0.0220     v=0.346154 t=0.022 dev=14.7343
+                        F 9/26 vs lambda_Cabibbo = 0.22501     v=0.346154 t=0.22501 dev=0.5384
+                        F 9/26 vs |Vcb| = 0.0408               v=0.346154 t=0.0408 dev=7.4842
+                        F 9/26 vs |Vub| = 0.00382              v=0.346154 t=0.00382 dev=89.6162
+                        F 9/50 vs sin^2th12(PMNS) = 0.307      v=0.18 t=0.307 dev=0.4137
+                        F 9/50 vs sin^2th23(PMNS) = 0.546      v=0.18 t=0.546 dev=0.6703
+                        F 9/50 vs sin^2th13(PMNS) = 0.0220     v=0.18 t=0.022 dev=7.1818
+                        F 9/50 vs lambda_Cabibbo = 0.22501     v=0.18 t=0.22501 dev=0.2000
+                        F 9/50 vs |Vcb| = 0.0408               v=0.18 t=0.0408 dev=3.4118
+                        F 9/50 vs |Vub| = 0.00382              v=0.18 t=0.00382 dev=46.1204
+                       F 16/65 vs sin^2th12(PMNS) = 0.307      v=0.246154 t=0.307 dev=0.1982
+                       F 16/65 vs sin^2th23(PMNS) = 0.546      v=0.246154 t=0.546 dev=0.5492
+                       F 16/65 vs sin^2th13(PMNS) = 0.0220     v=0.246154 t=0.022 dev=10.1888
+                       F 16/65 vs lambda_Cabibbo = 0.22501     v=0.246154 t=0.22501 dev=0.0940
+                       F 16/65 vs |Vcb| = 0.0408               v=0.246154 t=0.0408 dev=5.0332
+                       F 16/65 vs |Vub| = 0.00382              v=0.246154 t=0.00382 dev=63.4382
+                      F 16/137 vs sin^2th12(PMNS) = 0.307      v=0.116788 t=0.307 dev=0.6196
+                      F 16/137 vs sin^2th23(PMNS) = 0.546      v=0.116788 t=0.546 dev=0.7861
+                      F 16/137 vs sin^2th13(PMNS) = 0.0220     v=0.116788 t=0.022 dev=4.3086
+                      F 16/137 vs lambda_Cabibbo = 0.22501     v=0.116788 t=0.22501 dev=0.4810
+                      F 16/137 vs |Vcb| = 0.0408               v=0.116788 t=0.0408 dev=1.8625
+                      F 16/137 vs |Vub| = 0.00382              v=0.116788 t=0.00382 dev=29.5729
+                       F 25/58 vs sin^2th12(PMNS) = 0.307      v=0.431034 t=0.307 dev=0.4040
+                       F 25/58 vs sin^2th23(PMNS) = 0.546      v=0.431034 t=0.546 dev=0.2106
+                       F 25/58 vs sin^2th13(PMNS) = 0.0220     v=0.431034 t=0.022 dev=18.5925
+                       F 25/58 vs lambda_Cabibbo = 0.22501     v=0.431034 t=0.22501 dev=0.9156
+                       F 25/58 vs |Vcb| = 0.0408               v=0.431034 t=0.0408 dev=9.5646
+                       F 25/58 vs |Vub| = 0.00382              v=0.431034 t=0.00382 dev=111.8363
+                      F 49/130 vs sin^2th12(PMNS) = 0.307      v=0.376923 t=0.307 dev=0.2278
+                      F 49/130 vs sin^2th23(PMNS) = 0.546      v=0.376923 t=0.546 dev=0.3097
+                      F 49/130 vs sin^2th13(PMNS) = 0.0220     v=0.376923 t=0.022 dev=16.1329
+                      F 49/130 vs lambda_Cabibbo = 0.22501     v=0.376923 t=0.22501 dev=0.6751
+                      F 49/130 vs |Vcb| = 0.0408               v=0.376923 t=0.0408 dev=8.2383
+                      F 49/130 vs |Vub| = 0.00382              v=0.376923 t=0.00382 dev=97.6710
+                     F 121/274 vs sin^2th12(PMNS) = 0.307      v=0.441606 t=0.307 dev=0.4385
+                     F 121/274 vs sin^2th23(PMNS) = 0.546      v=0.441606 t=0.546 dev=0.1912
+                     F 121/274 vs sin^2th13(PMNS) = 0.0220     v=0.441606 t=0.022 dev=19.0730
+                     F 121/274 vs lambda_Cabibbo = 0.22501     v=0.441606 t=0.22501 dev=0.9626
+                     F 121/274 vs |Vcb| = 0.0408               v=0.441606 t=0.0408 dev=9.8237
+                     F 121/274 vs |Vub| = 0.00382              v=0.441606 t=0.00382 dev=114.6036
+                     F 121/692 vs sin^2th12(PMNS) = 0.307      v=0.174855 t=0.307 dev=0.4304
+                     F 121/692 vs sin^2th23(PMNS) = 0.546      v=0.174855 t=0.546 dev=0.6798
+                     F 121/692 vs sin^2th13(PMNS) = 0.0220     v=0.174855 t=0.022 dev=6.9480
+                     F 121/692 vs lambda_Cabibbo = 0.22501     v=0.174855 t=0.22501 dev=0.2229
+                     F 121/692 vs |Vcb| = 0.0408               v=0.174855 t=0.0408 dev=3.2857
+                     F 121/692 vs |Vub| = 0.00382              v=0.174855 t=0.00382 dev=44.7737
+                     F 225/692 vs sin^2th12(PMNS) = 0.307      v=0.325145 t=0.307 dev=0.0591
+                     F 225/692 vs sin^2th23(PMNS) = 0.546      v=0.325145 t=0.546 dev=0.4045
+                     F 225/692 vs sin^2th13(PMNS) = 0.0220     v=0.325145 t=0.022 dev=13.7793
+                     F 225/692 vs lambda_Cabibbo = 0.22501     v=0.325145 t=0.22501 dev=0.4450
+                     F 225/692 vs |Vcb| = 0.0408               v=0.325145 t=0.0408 dev=6.9692
+                     F 225/692 vs |Vub| = 0.00382              v=0.325145 t=0.00382 dev=84.1164
+
+-- G3 ratios x mass-ratios (24 pairs) --
+                  R1 tau8/tau4 vs m_mu/m_e = 206.7683          v=3.8597e+14 t=206.768 dev=1866679617026.3623
+                  R1 tau8/tau4 vs m_tau/m_mu = 16.817          v=3.8597e+14 t=16.817 dev=22951190524908.2422
+                  R1 tau8/tau4 vs m_tau/m_e = 3477.23          v=3.8597e+14 t=3477.23 dev=110999321601.9422
+                  R1 tau8/tau4 vs m_t/m_b = 41.26              v=3.8597e+14 t=41.2551 dev=9355700443489.1719
+                  R1 tau8/tau4 vs m_b/m_s = 44.75              v=3.8597e+14 t=44.738 dev=8627351420956.8730
+                  R1 tau8/tau4 vs m_t/m_e = 337710             v=3.8597e+14 t=337711 dev=1142900573.5011
+                      R2 N8/N4 vs m_mu/m_e = 206.7683          v=255877 t=206.768 dev=1236.5056
+                      R2 N8/N4 vs m_tau/m_mu = 16.817          v=255877 t=16.817 dev=15214.3727
+                      R2 N8/N4 vs m_tau/m_e = 3477.23          v=255877 t=3477.23 dev=72.5864
+                      R2 N8/N4 vs m_t/m_b = 41.26              v=255877 t=41.2551 dev=6201.3131
+                      R2 N8/N4 vs m_b/m_s = 44.75              v=255877 t=44.738 dev=5718.4579
+                      R2 N8/N4 vs m_t/m_e = 337710             v=255877 t=337711 dev=0.2423
+            R3 N8tau4/(N4tau8) vs m_mu/m_e = 206.7683          v=6.62945e-10 t=206.768 dev=1.0000
+            R3 N8tau4/(N4tau8) vs m_tau/m_mu = 16.817          v=6.62945e-10 t=16.817 dev=1.0000
+            R3 N8tau4/(N4tau8) vs m_tau/m_e = 3477.23          v=6.62945e-10 t=3477.23 dev=1.0000
+            R3 N8tau4/(N4tau8) vs m_t/m_b = 41.26              v=6.62945e-10 t=41.2551 dev=1.0000
+            R3 N8tau4/(N4tau8) vs m_b/m_s = 44.75              v=6.62945e-10 t=44.738 dev=1.0000
+            R3 N8tau4/(N4tau8) vs m_t/m_e = 337710             v=6.62945e-10 t=337711 dev=1.0000
+                 R4 tau11/tau1 vs m_mu/m_e = 206.7683          v=2.3027e+36 t=206.768 dev=11136607457349954192543466360143872.0000
+                 R4 tau11/tau1 vs m_tau/m_mu = 16.817          v=2.3027e+36 t=16.817 dev=136926764091310738399236639537758208.0000
+                 R4 tau11/tau1 vs m_tau/m_e = 3477.23          v=2.3027e+36 t=3477.23 dev=662221766096453978524150489153536.0000
+                 R4 tau11/tau1 vs m_t/m_b = 41.26              v=2.3027e+36 t=41.2551 dev=55816093119196296262038221983055872.0000
+                 R4 tau11/tau1 vs m_b/m_s = 44.75              v=2.3027e+36 t=44.738 dev=51470764075102577658169631656902656.0000
+                 R4 tau11/tau1 vs m_t/m_e = 337710             v=2.3027e+36 t=337711 dev=6818542906290110009440391397376.0000
+
+-- G4 log-scale x hierarchy (17 pairs) --
+                  R1 tau8/tau4 vs M_GUT/M_Z = 2.19e14          v=3.8597e+14 t=2.19328e+14 dev=0.2455  <-- MATCH@1e-2  <== MATCH@1e-3
+                      R2 N8/N4 vs M_GUT/M_Z = 2.19e14          v=255877 t=2.19328e+14 dev=8.9331
+            R3 N8tau4/(N4tau8) vs M_GUT/M_Z = 2.19e14          v=6.62945e-10 t=2.19328e+14 dev=23.5196
+                 R4 tau11/tau1 vs M_GUT/M_Z = 2.19e14          v=2.3027e+36 t=2.19328e+14 dev=22.0211
+                 |tau4|/|tau1| vs M_GUT/M_Z = 2.19e14          v=86912 t=2.19328e+14 dev=9.4020
+                 |tau5|/|tau1| vs M_GUT/M_Z = 2.19e14          v=5.50368e+07 t=2.19328e+14 dev=6.6004
+                 |tau7|/|tau1| vs M_GUT/M_Z = 2.19e14          v=1.08578e+15 t=2.19328e+14 dev=0.6946
+                 |tau8|/|tau1| vs M_GUT/M_Z = 2.19e14          v=3.35454e+19 t=2.19328e+14 dev=5.1845
+                 |tau5|/|tau4| vs M_GUT/M_Z = 2.19e14          v=633.247 t=2.19328e+14 dev=11.5395
+                 |tau7|/|tau4| vs M_GUT/M_Z = 2.19e14          v=1.24929e+10 t=2.19328e+14 dev=4.2444
+                |tau11|/|tau4| vs M_GUT/M_Z = 2.19e14          v=2.64946e+31 t=2.19328e+14 dev=17.0821
+                 |tau7|/|tau5| vs M_GUT/M_Z = 2.19e14          v=1.97283e+07 t=2.19328e+14 dev=7.0460
+                 |tau8|/|tau5| vs M_GUT/M_Z = 2.19e14          v=6.09509e+11 t=2.19328e+14 dev=2.5561
+                |tau11|/|tau5| vs M_GUT/M_Z = 2.19e14          v=4.18392e+28 t=2.19328e+14 dev=14.2805
+                 |tau8|/|tau7| vs M_GUT/M_Z = 2.19e14          v=30895.2 t=2.19328e+14 dev=9.8512
+                |tau11|/|tau7| vs M_GUT/M_Z = 2.19e14          v=2.12078e+21 t=2.19328e+14 dev=6.9854
+                |tau11|/|tau8| vs M_GUT/M_Z = 2.19e14          v=6.86441e+16 t=2.19328e+14 dev=2.4955
+
+==== THE NULL STATISTICS ====
+             G1 amplitudes x couplings tier   0.01: observed 0, expected 0.06, P(X>=k) = 1.0000
+             G1 amplitudes x couplings tier  0.001: observed 0, expected 0.01, P(X>=k) = 1.0000
+      G2 amplitudes+fractions x angles tier   0.01: observed 3, expected 0.57, P(X>=k) = 0.0200
+      G2 amplitudes+fractions x angles tier  0.001: observed 0, expected 0.06, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier   0.01: observed 0, expected 0.01, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier  0.001: observed 0, expected 0.00, P(X>=k) = 1.0000
+              G4 log-scale x hierarchy tier log0.5: observed 1, expected 0.68, P(X>=k) = 0.5004
+              G4 log-scale x hierarchy tier log0.5: observed 1, expected 0.68, P(X>=k) = 0.5004
+  Sidak-corrected best-grid p, tier 0.01: 0.0775 (best raw 0.0200 over 4 grids)
+  Sidak-corrected best-grid p, tier 0.001: 0.9377 (best raw 0.5004 over 4 grids)
+
+==== VERDICT (per the locked table): AMBIGUOUS (suggestive-only; new sealed design on held-out quantities required) (combined corrected p = 0.0775) ====
+B615 DONE — seat 4 reviews this raw output before any narrative.

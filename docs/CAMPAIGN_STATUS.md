@@ -978,3 +978,10 @@ E1–E4 extracted under the pre-hashed prereg; the table hashed in the same bank
 rational mixing fractions (uniform top; half-su(3) shallow lines); the new spectra are roots of
 unity off golden and leave the unit circle exactly at the golden multiples (exploratory law-candidate,
 future prereg). CC's lane next: B610 (m136). Branch 3 gated on the comparison-map seal + seat 4.
+
+## 2026-07-15 — BRANCH 3 EXECUTED: AMBIGUOUS (p = 0.078); the m136 held-out test is now the decisive arc
+The moment of truth returned neither a match nor a clean null: three angle-family matches at the
+coarse tier (none at the tight tier; two on the same target), everything else empty, corrected
+p = 0.078 — the locked table's suggestive-only band. No escalation. The m136 classical side — until
+now a deferred port — is promoted to THE decisive computation: a fresh sealed design on genuinely
+held-out quantities settles whether the angle-family suggestion is real or dies.
