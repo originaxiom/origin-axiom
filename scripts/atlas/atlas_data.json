@@ -12874,10 +12874,11 @@
     "B352",
     "B575",
     "B580",
+    "B637",
     "L85"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 16,
+   "obstacle_conf": 18,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -12898,6 +12899,37 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B635": {
+   "slug": "audit integration",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "B575",
+    "B577",
+    "B582",
+    "B591",
+    "B613",
+    "B620",
+    "B621",
+    "B631",
+    "B632",
+    "B634",
+    "B637",
+    "L5",
+    "L90",
+    "L91"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },

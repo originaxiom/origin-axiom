@@ -1,0 +1,59 @@
+syntax ok
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   83.5s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  103.1s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  103.3s] G2a PASS: principal sl2 relations exact
+[  107.6s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  109.4s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 109.4s
+
+(1) the unique cubic invariant:
+  zero-weight-sum sorted triples: 45
+  invariance equations: 180
+  GATE PASS: the invariant space is EXACTLY 1-dim (B308's multiplicity, this basis)
+  nonzero sorted coefficients: 45/45
+  spot gate PASS: C(A.u, A.v, A.w) = C(u,v,w) exactly
+
+(2) the forced vev and B_C:
+  v0 exact (1-dim, sl2-invariant) — the forced vev
+  diag: dim ker(h_pr - 16) = 1
+  diag: dim (ker(h-16) ∩ ker e) = 1
+  diag: dim ker(h_pr - 8) = 2
+  diag: dim (ker(h-8) ∩ ker e) = 1
+  B_C off-block entries all zero: True (sl2 prediction)
+    c_8 (V(16) block of B_C): NONZERO
+    c_4 (V(8) block of B_C): NONZERO
+    c_0 (V(0) block of B_C): NONZERO
+  C component census (spin triples, witness search):
+    spins (8, 8, 8): PRESENT
+    spins (8, 8, 4): PRESENT
+    spins (8, 8, 0): PRESENT
+    spins (8, 4, 4): PRESENT
+    spins (8, 4, 0): absent
+    spins (8, 0, 0): absent
+    spins (4, 4, 4): PRESENT
+    spins (4, 4, 0): PRESENT
+    spins (4, 0, 0): absent
+    spins (0, 0, 0): PRESENT
+
+(3) block cocycles and the obstruction gates:
+    V(0): cocycles 1, coboundaries 1, non-coboundary representative chosen
+    V(8): cocycles 10, coboundaries 9, non-coboundary representative chosen
+    V(16): cocycles 18, coboundaries 17, non-coboundary representative chosen
+  h^2(27*) = 2 (expected 2)
+
+  O2 gates:
+    diagonal class [z4 cup z4] = ((21952/5+90944/15r), (2408/5+1352/45r)) (O2 predicts zero)
+    diagonal class [z8 cup z8] zero: False
+    class-level antisymmetry on the three pairs: [True, True, False]
+    coboundary control: class invariant False, raw cochain changed True
+
+(4) Omega: Lambda^2 H^1(27) -> H^2(M; 27*) (classes per pair):
+    Omega(z0, z4) = NONZERO ((26/5+26/15r), (13/60+-13/180r))
+    Omega(z0, z8) = NONZERO (0, (3+-1r))
+    Omega(z4, z8) = NONZERO ((-34997760+14899584r), (-5117616/11+5151776/11r))
+
+B632 cell 2 DONE
