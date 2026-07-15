@@ -4433,3 +4433,16 @@ generations with the surviving 1/5 and 1/49 veins, and the mixing structure. Wal
 mixing sharpens wall 2; Gieseking sharpens wall 3); the provenance statement embedded per Review 18;
 §4 gains the computed dial map and the exact peripheral certificate. Residuals to submission
 registered in CANDIDATES.md. Firewalled.
+
+## 2026-07-15 — B614: the null model + comparison map DESIGNED — handed to seat 4 (the director's priority change)
+The order changed at the director's word: Branch 3 before further mathematics. The design (hashed):
+the value inventory with the PRINCIPLED three-layer exclusions (spectra = universal clockwork,
+traces = golden field indicators — both excluded per B611/B613; only listener-coupling amplitudes,
+mixing fractions, and big ratios enter); the target inventory (16 SM quantities, values frozen at
+comparison time from PDG 2024, not copied into the design); the map = FULL GRIDS within typed
+families (271 pairs, choice-free — no hand-picked comparisons); the null = uniform + log-uniform
+primary ensembles with an algebraic-mimic robustness ensemble; two declared tolerance tiers; the
+look-elsewhere correction via per-grid Binomial tails, Šidák-combined; G3's p < 0.01 gate; the
+verdict protocol (MATCH / STRUCTURED-NULL / AMBIGUOUS) with one mechanical run, every pair banked,
+seat 4 reviewing raw output before narrative. CC computed NO distances in drafting. AWAITING SEAT-4
+APPROVAL; on approval B615 runs the moment of truth. Firewalled until then.
