@@ -136,3 +136,35 @@ the legitimate pairing. The restated selection-rule lemma for the J-pairing
 well-posed and queued as the next document, with these zeros as its first
 data. Locks: `tests/test_b598_steps35.py` (OA_SLOW, subprocess-manifest,
 D8-compliant).
+
+## The restated symmetry lemma (D5 complete) + the forced-zero map — banked (2026-07-15)
+
+`lemma_cell.py` (assert-hardened; first-run output `lemma_cell_output.txt`,
+hashed; re-verification in flight at bank time — the asserts encode the
+observed values and the OA_SLOW lock follows its green):
+
+- **(i) J is SYMMETRIC** (Jᵀ = J, Schur-forced).
+- **(ii) THE MOVE-ACROSS LEMMA** ⟨Xu, v⟩_J = −ε_X ⟨u, Xv⟩_J — exact on all
+  six block generators × random vectors. This is the selection rule restated
+  for the legitimate pairing (replacing the retracted linear-C reasoning).
+- **(iii) THE FORCED-ZERO MAP:** ⟨v_m v₀, v₀⟩_J = 0 is FORCED by (i)+(ii)
+  exactly when ε_m = +1 — so the even-block first-order silences
+  (m ∈ {1,5,7,11}) are structural, while **the θ-odd zeros (m = 4, 8) are
+  NOT forced and yet hold: genuine facts about the object.** Chat-2's parity
+  lemma survives the D5 correction with its content sharpened. P3's
+  structural-zero map: no comparison may count a forced zero as agreement.
+- **(iv) THE J-PAIRED WELD VALUES equal the raw-dot values EXACTLY**
+  (m=4: −536479695357 + 536483888640·w; m=8: 536481792003 − 536481792000·w —
+  identical integers to B599-ALG's output, including scale). The
+  "recompute the classical family under J" sub-item resolves as exact
+  agreement; recorded observation: J restricts to the raw dot on the
+  weight-pairs these contractions involve, in this basis (the solver-scale
+  caveat noted — the agreement including scale is the empirical fact).
+
+**Consequence for P3 (the owner's standing question):** with the universal
+boundary ratio (step 3) and this lemma, the classical side's per-block
+discriminating content is now provably concentrated in (a) the cross-domain
+normalization (step 4) and (b) the non-forced θ-odd quadratic data — the
+even-block channels are structurally silent at first order and the boundary
+classes are block-independent. P3's verdict will ride on exactly those two
+ingredients.
