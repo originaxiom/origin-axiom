@@ -12489,6 +12489,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B611": {
+   "slug": "two laws",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B134",
+    "B601",
+    "B609",
+    "B610",
+    "P1",
+    "P2"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [

@@ -4389,3 +4389,15 @@ everywhere ≤ 24, including the disc-12 conductor levels) — the fig-8's golde
 doubly special; chat-1's "silver conductor 7" matches nothing computed. The universality table's
 computed rows banked; interpretation stays in chat-1's lane. Classical-side m136 (torsions over the
 new field) = the registered heavy follow-on. Lock test_b610_m136_weld.py (fast). Firewalled.
+
+## 2026-07-15 — B611: both registered predictions FAILED honestly — and resolved into three layers
+The two-law test on four objects (RRLL amphichiral by the banked B134 palindrome theorem; RRRL
+chiral): P1 FAILED as sealed on the degenerate dim-1 edge (RRRL "closed" only at κ=4 where a single
+real eigenvalue is no pairing; the four-object pattern above dim 1 is perfect; refined candidate
+registered unsealed). P2 FAILED and dissolved its own premise: B_odd is UNITARY BY CONSTRUCTION
+([C,W]=0 ⇒ the odd compression of a unitary), so no spectrum ever leaves the circle — B609's
+exploratory note conflated the listener's matrix element with the spectrum (superseded; sealed
+values untouched). The replacement, verified: the golden eigenvalues are EXACTLY e^{±2πi/5} — the
+hearing operator is a CLOCK at every level; THREE SEPARABLE LAYERS now on record: spectrum PAIRING =
+the object's chirality; TRACE = its field; MATRIX ELEMENTS = the listener's coupling (the
+observer-coupling thesis landing precisely). Lock test_b611_two_laws.py (fast). Firewalled.

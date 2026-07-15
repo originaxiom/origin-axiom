@@ -1,0 +1,15 @@
+RL (fig-8, amphichiral): conj-closed at kappa = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24]
+                         departs the unit circle at kappa = []
+RRLL (silver, amphichiral): conj-closed at kappa = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24]
+                            departs the unit circle at kappa = []
+RRL (m136, chiral): conj-closed at kappa = []
+                    departs the unit circle at kappa = []
+RRRL (chiral): conj-closed at kappa = [4]
+               departs the unit circle at kappa = []
+
+P1 (amphichirality <=> closure): RRLL all-closed: True; RRRL never-closed: False; controls (RL all / RRL never): True
+P1 VERDICT: FAIL
+P2 (fig-8 golden-exclusivity in-scan): departures = [] (golden multiples in scan: 5, 10, 15, 20): FAIL
+P2-measurement: RRLL departure window = []
+
+B611 DONE
