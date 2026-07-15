@@ -12621,6 +12621,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B619": {
+   "slug": "a5 bridge",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B615"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [

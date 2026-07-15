@@ -1,0 +1,8 @@
+C1 — the clock orders at kappa = 5:
+  ord rho(A1) (projective/exact): 20 (exact)
+  ord rho_odd(A1): 5
+  chat-1's 'clock order 60' vs the computed orders: REFUTED as stated
+
+C2 — the projective image of <S, T> at kappa = 5:
+  projective image order: 530 (cap hit - larger than 400)
+B619 DONE
