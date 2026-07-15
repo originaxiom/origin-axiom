@@ -12511,6 +12511,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B612": {
+   "slug": "pairing chirality",
+   "motifs": [
+    "kappa",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B134",
+    "B611",
+    "V123"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [

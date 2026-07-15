@@ -4401,3 +4401,12 @@ values untouched). The replacement, verified: the golden eigenvalues are EXACTLY
 hearing operator is a CLOCK at every level; THREE SEPARABLE LAYERS now on record: spectrum PAIRING =
 the object's chirality; TRACE = its field; MATRIX ELEMENTS = the listener's coupling (the
 observer-coupling thesis landing precisely). Lock test_b611_two_laws.py (fast). Firewalled.
+
+## 2026-07-15 — B612: the per-level pairing law FAILED (RRLLL at κ=6); the quantifier-corrected law survives 56/56
+The sealed per-level biconditional died on one accidental closure (chiral RRLLL closed at κ=6,
+dim 4 — non-degenerate). The surviving form is quantified: LEVEL-UNIFORM closure ⟺ amphichirality —
+4/4 amphichiral welds closed at all 14 levels (56/56 rows), 3/3 chiral welds fail somewhere. Two
+refinement deaths in a row ⇒ the next step is the PROOF cell (GHH anti-palindromicity ⇒ W|odd
+unitarily equivalent to its conjugate), registered unrun. Chirality classifications verified by the
+cyclic-rotation test at registration. Lock test_b612_pairing_chirality.py (fast; pins the data and
+the honest FAIL). Firewalled.
