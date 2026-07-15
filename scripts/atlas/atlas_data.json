@@ -12743,6 +12743,53 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B624": {
+   "slug": "observable bridge",
+   "motifs": [
+    "kappa",
+    "eisenstein"
+   ],
+   "refs": [
+    "B601",
+    "B610",
+    "B618",
+    "B620",
+    "B621"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B625": {
+   "slug": "reciprocity 3k",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [
+    "B623"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B626": {
+   "slug": "jacobian reality",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B62": {
    "slug": "opposition involution",
    "motifs": [
