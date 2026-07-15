@@ -952,3 +952,10 @@ conjugate-pairing is level-special (the law survives κ = 10; the pairing does n
 errors caught and amended with hashed errata (a vacuous operation; an unsatisfiable criterion) —
 both justified on pre-seal facts only. No value claims; the downstream stays gated. Review 18 fires
 now per the owner override (provenance + terminology sweeps pre-committed).
+
+## 2026-07-15 — B601 (post-L85 refinement): the defect is basis-level; LAW-O is stage-universal
+The V2 defect refined: the conjugate-paired hearing structure persists at ALL levels as a spectral
+fact (char poly real everywhere); only the naive weight-label basis is golden-special. The trace law
+trace(B_odd) = [5|κ]/φ − [4|κ] (two registered discriminating confirmations) identifies with
+B587's LAW-O — the odd RL-trace law holds in BOTH quantum stages. Next: the normalization prereg
+(the value arc), drafted under the MB12 triple-check discipline.

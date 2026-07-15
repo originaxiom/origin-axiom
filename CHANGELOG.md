@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — B601: the V2 defect is basis-level; the trace law; LAW-O stage-universal
+
+### Added / Fixed
+- The full odd hearing form scanned across levels: the spectrum is conjugation-closed at
+  EVERY level; the naive diagonal closes only at κ = 5 — outcome B's defect is located at the
+  basis level, not the structure level (no naive level transport, as with B596).
+- THE TRACE LAW: trace(B_odd) = [5|κ]/φ − [4|κ] on a 14-point grid; the mod-4 clause was
+  registered as a conjecture and confirmed on the discriminating κ = 16 and κ = 40 before
+  the final form was written. Its hearing minus is EXACTLY B587/B585's LAW-O from the finite
+  Weil model — the odd RL-trace law is STAGE-UNIVERSAL (the second cross-model bridge after
+  B595). Lock tests/test_b601_pairing_law.py (ungated).
+
 ## 2026-07-15 — THE L85 RESOLUTION: the chain green (1–9), P3 run sealed, OUTCOME B
 
 ### Added / Fixed
