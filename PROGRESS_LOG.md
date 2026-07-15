@@ -4651,3 +4651,21 @@ OPEN_LEADS; the stale L85 row closed as resolved-by-outcome-B; the PC26 CANDIDAT
 (§7 closed forms in; §9 closes as the honest boundary). Standing repair: the MB13 sweep result
 (hits AND clean-greps) goes INTO every future sealed design. Lock extended (controls fast-tier).
 Firewalled.
+
+## 2026-07-15 — B632 cell 1: h¹(M; 27) = 3 — THE GENERATION COUNT EXISTS AS COHOMOLOGICAL MULTIPLICITY
+Chat-1's "the missing step is the cubic" reframe adjudicated under the new sealing checklist: the
+MB13 sweep (recorded IN the prereg) found B308 already computed the cubic-invariant structure (the
+E₆ Yukawa = the UNIQUE 27³ invariant; coupling forced, TEXTURE not) and had queued the exact gate
+("can the multiplicity route produce three generations with the right texture?") behind B307's
+trace-field theorem. The genuinely-new computable object: the 27 AS A LOCAL SYSTEM via B575's exact
+gl(27) build. CELL 1 (prereg dab6948b… sealed first; locked verdict table): THE PRINCIPAL
+DECOMPOSITION 27 = V(16) ⊕ V(8) ⊕ V(0) — the 27's spins are {8,4,0} = THE TWO θ-ODD EXPONENTS plus
+the trivial; direct exact Fox calculus gives h⁰ = 1, h¹ = 3, h² = 2 (Euler gate 0; block
+cross-check AGREES). **THREE generation-slots: the abelian class + the two θ-odd chiral classes —
+a multiplicity mechanism B307 does NOT block (cohomological, not trace-field), the heterotic-style
+count, never computed anywhere.** Honesty: the slots are GRADED (0,4,8), not three interchangeable
+copies. The forced vev exists: h⁰ = 1 gives the canonical ρ-invariant v₀ ∈ 27; C(v₀,·,·) is
+block-diagonal by sl₂-invariance ⇒ REGISTERED PREDICTION for cell 2: the texture is diagonal in the
+block basis (falsifiable by the run). Cell 2 (own prereg): build C exactly, verify diagonality,
+compute the three values under the banked boundary normalization. No SM number anywhere. Locks
+fast + OA_SLOW rerun. Firewalled.

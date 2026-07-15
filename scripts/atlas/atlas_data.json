@@ -12859,6 +12859,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B632": {
+   "slug": "cubic route",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B302",
+    "B307",
+    "B308",
+    "B575",
+    "L85"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B63": {
    "slug": "sl4 symbolic m",
    "motifs": [
