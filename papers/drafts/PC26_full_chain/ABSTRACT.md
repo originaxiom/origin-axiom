@@ -1,4 +1,20 @@
-# PC26 — Abstract and significance
+# PC26 — Abstract and significance (v2)
+
+**v2 additions to the abstract's final paragraph (to be merged at
+submission):** Beyond the amplitude laws, v2 proves THE CLOSURE THEOREM —
+for any modular stage and any once-punctured-torus-bundle object, an
+amphichiral monodromy word forces the odd hearing spectrum to be
+conjugation-closed at every level (conj(W) = Q⁻¹WᵀQ, Q = PSC) — and
+establishes the three-layer separation of the heard structure: the
+spectrum's pairing is the object's chirality (theorem), the trace its
+arithmetic (the golden two-indicator law, stage-universal), the matrix
+elements the listener's coupling, where the first closed chiral amplitude
+1/(2φ) + i·sin(2π/5)/√5 (norm exactly 1/5) lives. The semiclassical
+correspondence between the classical dial and the golden stage is proved
+to exist as a structural, mirror-equivariant, rank-producing map under a
+sealed protocol — and proved level-special; two sealed generations of
+naive value bridges fail exactly, with the surviving arithmetic being
+each stage's defining prime as a field norm (1/5 and 1/49).
 
 ## Title
 

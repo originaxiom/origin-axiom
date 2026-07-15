@@ -4421,3 +4421,15 @@ exactly at four levels; the assembled identity 16/16 on the amphichiral witnesse
 fail 12/12. One iteration recorded (S² = C corrected to S² = ζC — the phase cancels in conjugation).
 The converse stays empirical (B612). Promotion candidate at the next review. Lock
 test_b613_closure_theorem.py (fast). Firewalled.
+
+## 2026-07-15 — PC26 v2 drafted: the closure theorem is the paper's new spine
+The full-chain draft revised end-to-end: §7 gains the hearing law (7.5, with the exact ℚ(ζ₅)
+amplitude, its minpoly 5x⁴+5x³+1 and 1/5-norm) and state-independence + the E₆₂ ear (7.6); the E₆₂
+amplitudes upgrade to PROVED (ℚ(ζ₈₄) identities); 7.1 gains the trace form + stage-universality. NEW
+§8: THE CLOSURE THEOREM (amphichiral ⇒ level-uniform conjugation-closure, any modular stage) + the
+empirical converse + the three-layer corollary. NEW §9: the spectral bridge, the clock null, the
+outcome-B correspondence (structural, level-special, sealed protocol), the two exhausted value-bridge
+generations with the surviving 1/5 and 1/49 veins, and the mixing structure. Walls updated (the
+mixing sharpens wall 2; Gieseking sharpens wall 3); the provenance statement embedded per Review 18;
+§4 gains the computed dial map and the exact peripheral certificate. Residuals to submission
+registered in CANDIDATES.md. Firewalled.

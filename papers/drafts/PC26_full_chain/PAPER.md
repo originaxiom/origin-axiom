@@ -2,15 +2,28 @@
 
 **Author:** originaxiom
 
-**Status:** draft v1 (PC26). Target: *Communications in Mathematical Physics*;
+**Status:** draft v2 (PC26). Target: *Communications in Mathematical Physics*;
 alternative: *Quantum Topology*. Companion: PC25 (the amphichiral fold), PC23,
-PC24.
+PC24. v2 absorbs the hearing law, the closure theorem, the semiclassical
+correspondence (outcome B) with its negatives, and the provenance statement.
+
+**Provenance.** All verification behind this draft is internal to the
+project (the author plus AI-assistant computational seats cross-checking one
+another); nothing here has been externally refereed. "Verified" always means
+"recomputed by a second internal pipeline". Every theorem is backed by a
+repository lock (a pytest test executing the discriminating computation);
+the checkable artifacts are the locks and the hashed preregistrations.
 
 ---
 
 ## Abstract
 
-(As in ABSTRACT.md; final text to be synchronized at v2.)
+(Synchronized in ABSTRACT.md at v2-final; the v1 abstract remains accurate
+for §§3–7 and is extended by §§8–9: the closure theorem — an amphichiral
+object's odd hearing spectrum is conjugation-closed at every level, as an
+algebraic identity of modular data — and the golden-stage semiclassical
+correspondence, which exists as structure, is level-special, and localizes
+every golden value in the listener's matrix elements.)
 
 ---
 
@@ -20,72 +33,23 @@ The companion letter [PC25] proves that the figure-eight knot's own
 hyperelliptic involution, acting on the deformation complex of the principal
 E₆(ℂ)-character variety at the geometric representation, *is* the diagram
 involution θ, so the E₆ → F₄ fold is forced by the knot; and that the forcing
-stops there (five further-selector routes closed; the holonomy lies in no real
-form). This paper asks and answers the next question:
+stops there. This paper asks and answers the next questions:
 
-> *What are the θ-odd directions — physically speaking, are they a chirality —
-> and who can hear them?*
+> *What are the θ-odd directions — physically speaking, are they a
+> chirality — who can hear them, and what exactly does a listener receive?*
 
-The answers, in the order proved:
-
-**The θ-odd sector exists as honest moduli** (§3). The obstruction theory at
-the principal representation vanishes through third order: the quadratic form
-H¹ × H¹ → H² is identically zero — all 21 components, exactly, over ℚ(√−3) —
-and the Massey triple products vanish exactly. Two disjoint computational
-pipelines (a dps-100 numerical one and an exact minuscule-model one built five
-months apart) agree on every component.
-
-**The θ-grading is a chirality grading** (§4). Every sl₂-stable subalgebra of
-e₆ is a sum of isotypic blocks; the θ-even block-sums close inside f₄; and
-activating any θ-odd block forces the full e₆. The twisted mirror-double
-representation built along a θ-odd direction has Zariski closure all of
-E₆(ℂ), so its 27-dimensional constituent is genuinely complex: the θ-odd
-motion carries chiral matter in the precise, group-theoretic sense, while the
-θ-even stratum is chirality-blind.
-
-**No single-object probe hears it** (§5). Three unhearability theorems. (i)
-The vacuum is fixed by the charge conjugation C, and C is central in the
-modular representation, so vacuum expectation values never see the θ-odd
-sector at any level. (ii) The Dehn-filling covectors span exactly the θ-even
-subspace (proved at level 1 by an overdetermined slope sweep; the level-2
-extension is a structural corollary of (i)). (iii) For every color V of every
-stage, a bare knot state satisfies J_V = J_{V̄} — the figure-eight is
-invertible and dual color is orientation reversal — so single-object states
-are θ-even identically, at every level of every theater.
-
-**The listener is the antiphase mirror channel** (§6). The θ-odd states are
-u_λ = (e_λ − e_λ̄)/√2, and the operational identity
-tr_odd ρ = ½(Z − Z_C) holds: the chiral amplitude is half the difference
-between the plain play of the object's mapping torus and the play with the
-charge-conjugation twist inserted. The twist has a name: since S² is the
-central element, the C-twisted mapping torus is the torus bundle of the
-*other* SL(2,ℤ) lift −A of the object's PSL(2,ℤ) monodromy — a genuinely
-different Sol manifold — so **chirality is what the two lifts agree on**.
-Moreover the chiral and achiral channels never interfere linearly: the six
-twisted torsions obey the sign law sign(τ_m) = (−1)^m, which makes the
-one-loop factors of the θ-odd blocks real and of the θ-even blocks imaginary,
-whence |total|² = |chiral|² + |achiral|² exactly.
-
-**The amplitude laws are exact arithmetic** (§7). On the SU(3)_k tower the
-figure-eight's chiral amplitude obeys the two-tone law
-tr_odd = [4|κ] − [5|κ]·φ⁻¹ (κ = k+3), verified blind on twelve levels and on
-five held-out levels including the additive collision at κ = 20 (value φ⁻²).
-The mechanism is a Weyl-twisted finite Weil factorization — the stage trace
-splits into twelve Gauss sums indexed by ±W(A₂), with conductors
-det(A ⊗ (±w) − I₄) — from which the law, the golden closed form
-−φ⁻¹ = (1/12)[(1+5) − 6√5], the heavier words' interference (silver's tones
-{4,5,7}; bronze's exact cancellation at κ = 10), and the *absence* of any
-divisibility law for the achiral channel are all derived. On the golden stage
-(κ = 5) and on E₆ level 2 the even channel vanishes identically — the entire
-invariant is the chiral amplitude — and the three E₆₂ per-pair amplitudes are
-exactly (2/√7)·sin(2πj/7)·ζ₁₄^k, the ℤ/7 sine kernel times 14th roots.
-Finally, the sector-exchange theorem: the same √5 Gauss data is θ-even on
-SU(2)₃ and θ-odd on SU(3)₂ because −1 belongs to W(A₁) and not to W(A₂) —
-parity of content is a property of the theater's symmetry group.
-
-**What is not claimed** (§8). The five walls — values, selection-
-disjointness, chiral index, compactness, reachability — are restated as
-theorems of absence, updated where this paper's results sharpen them.
+The answers, in the order proved: the θ-odd sector exists as honest moduli
+(§3); the θ-grading is a chirality grading, with the mirror-double dial map
+computed in full (§4); no single-object probe hears it (§5); the listener is
+the antiphase mirror channel, and bent listener states are null for the
+intertwining form (§6); the amplitude laws are exact arithmetic, now
+including the second-order hearing law with its first closed chiral
+amplitude (§7); **the pairing structure of the heard spectrum is the
+object's amphichirality — a theorem for arbitrary objects and stages**
+(§8); and the semiclassical correspondence between the classical dial and
+the golden stage exists as structure, is level-special, and fails every
+naive value bridge — with the failures themselves exact and informative
+(§9). What is not claimed is collected as the updated walls (§10).
 
 ### 1.1 Status conventions
 
@@ -96,64 +60,52 @@ theorems of absence, updated where this paper's results sharpen them.
 - **[CITED]** — literature, not re-derived.
 - **[CONJECTURE]** — open, flagged.
 
-Every theorem below is backed by a repository lock (a pytest test executing
-the discriminating computation); the lock names appear with each statement.
-
 ---
 
 ## 2. The object, the stage, the fold
 
 **The object.** The figure-eight knot complement M = S³ ∖ 4₁: the simplest
 hyperbolic knot; amphichiral, invertible (symmetry group D₄ **[PROVED**,
-`test_b279`**]**); fibered with once-punctured-torus fiber and monodromy
-A₁ = [[2,1],[1,1]] ∈ SL(2,ℤ) (trace 3, golden eigenvalues φ^{±2}); trace
-field ℚ(√−3). The 2-generator presentation ⟨a, b | a W b⁻¹W⁻¹⟩,
-W = ba⁻¹b⁻¹a, carries the geometric representation ρ₀ with
-tr ρ₀(ab) = (5 ± √−3)/2.
+`test_b279`**]**; the two orientation-reversing involutions act *freely* —
+they are Gieseking deck transformations, 4₁ being the unique double cover of
+the Gieseking manifold **[PROVED**, `test_b605_door2`**]**); fibered with
+once-punctured-torus fiber and monodromy A₁ = [[2,1],[1,1]] ∈ SL(2,ℤ)
+(trace 3, golden eigenvalues φ^{±2}); trace field ℚ(√−3). The 2-generator
+presentation ⟨a, b | a W b⁻¹W⁻¹⟩, W = ba⁻¹b⁻¹a, carries the geometric
+representation ρ₀; the relator forces c² − c + 1 = 0 for the parabolic
+parameter, c = ζ₆ a unit, and the certified longitude is
+λ = a(bABaaBAb)a⁻¹ with cusp shape −[[1, ±2√−3],[0,1]] **[PROVED**,
+`test_b598_step1_exact`**]**.
 
-**The stage(s).** Three families of theaters appear. (i) The *classical*
-deformation stage: the E₆(ℂ)-character variety at ρ = φ_prin ∘ ρ₀, whose
-tangent decomposes into six lines indexed by the E₆ exponents
-m ∈ {1,4,5,7,8,11} **[CITED** Menal-Ferrer–Porti, Falbel–Guilloux; PC25**]**.
-(ii) The *quantum* stages: the modular representations H_k(T²) of the WZW
-theories (SU(2)_k, SU(3)_k, (E₆)_k), where the closed mapping torus of a word
-in R, L has invariant Z = tr ρ_k(word) **[CITED** standard; Jeffrey**]**.
-(iii) The finite Weil representations on ℂ[P/κQ], through which (ii) factors
-(§7).
+**The stage(s).** (i) The *classical* deformation stage: the
+E₆(ℂ)-character variety at ρ = φ_prin ∘ ρ₀, tangent = six lines indexed by
+the E₆ exponents m ∈ {1,4,5,7,8,11} **[CITED** Menal-Ferrer–Porti,
+Falbel–Guilloux; PC25**]**. (ii) The *quantum* stages: modular
+representations of WZW theories (SU(2)_k, SU(3)_k, (E₆)_k); the mapping
+torus of a word in R, L has invariant Z = tr ρ_k(word) **[CITED**
+Jeffrey**]**. (iii) The finite Weil representations on ℂ[P/κQ], through
+which (ii) factors (§7).
 
-**The fold.** θ = the E₆ diagram involution = Out(E₆): fixes f₄, exchanges
-27 ↔ 27̄, acts on the six tangent lines by exponent parity — the θ-even
-(F₄) exponents are {1,5,7,11}, the θ-odd pair is {4,8}. The identification of
-θ with the knot's hyperelliptic involution on the deformation complex is
-PC25's Theorem 1 **[CITED here]**. The amphichiral involution is the
-*antilinear* conj∘θ; the ℂ-linear involution on the complex is θ itself
-**[PROVED**, `test_b570_c1`, `test_b353`**]**.
+**The fold.** θ = the E₆ diagram involution: fixes f₄, exchanges 27 ↔ 27̄,
+acts on the six tangent lines by exponent parity — θ-even {1,5,7,11},
+θ-odd {4,8}. The identification of θ with the knot's hyperelliptic
+involution is PC25's Theorem 1 **[CITED here]**.
 
 ---
 
 ## 3. The θ-odd moduli exist: unobstructedness to third order
 
 **Theorem 3.1 (the quadratic obstruction vanishes). [PROVED]**
-Let (H¹, H²) be the twisted cohomology of the deformation complex at ρ, with
-dim H¹ = dim H² = 6 (one line per exponent). The cup-product quadratic form
-Q: H¹ × H¹ → H² vanishes identically: all 21 components Q(u_i, u_j) = 0,
-i ≤ j ∈ {1,4,5,7,8,11}, exactly, over ℚ(√−3).
-*Locks:* `test_b575_bridge_obstruction` (the exact minuscule-model pipeline:
-e₆ realized in gl(27) with GF(2)-solved structure signs, Fox calculus on the
-relator, per-block cup products); agreement with the independent dps-100
-pipeline of the {4,8}-integrability program **[PROVED**, reconciliation
-banked**]**.
+The cup-product quadratic form Q: H¹ × H¹ → H² vanishes identically: all 21
+components exactly, over ℚ(√−3) — the complete polarized set (six pure
+directions and fifteen cross-pairs). *Locks:*
+`test_b575_bridge_obstruction`; two-pipeline agreement (a dps-100 numerical
+pipeline and the exact minuscule-model pipeline built five months apart).
 
 **Theorem 3.2 (Massey vanishing). [PROVED]**
-The triple Massey products on H¹ vanish exactly; with 3.1, the deformation
-theory is unobstructed through third order, and each θ-odd line integrates to
-a formal arc that is honestly chiral at second order.
-*Locks:* `test_b578_massey` (OA_SLOW-gated).
-
-*Remarks.* (a) The two-pipeline agreement (numerical 2026-02; exact 2026-07)
-is the paper's reproducibility anchor. (b) We do not claim analytic
-integrability beyond third order; the statement proved is exactly the order
-computed. **[CONJECTURE**: full formal integrability.**]**
+The triple Massey products vanish exactly; the deformation theory is
+unobstructed through third order. Beyond order 3 is **[CONJECTURE]**.
+*Locks:* `test_b578_massey` (OA_SLOW).
 
 ---
 
@@ -161,168 +113,249 @@ computed. **[CONJECTURE**: full formal integrability.**]**
 
 **Theorem 4.1 (block-sum rigidity). [PROVED]**
 Every sl₂-stable subalgebra of e₆ containing the principal sl₂ is a direct
-sum of the six isotypic blocks. The θ-even sums close inside f₄. Every subset
-containing a θ-odd block generates the full e₆: all six forcing channels are
-nonzero. *Locks:* `test_b576_deformed_closure` (OA_SLOW-gated).
+sum of the six isotypic blocks; θ-even sums close inside f₄; every subset
+containing a θ-odd block generates e₆. *Locks:*
+`test_b576_deformed_closure` (OA_SLOW).
 
-**Theorem 4.2 (the chiral play). [PROVED]**
-The θ-odd-twisted mirror-double representation — the object coupled to its
-mirror along a θ-odd dial direction — has Lie closure e₆ and Zariski closure
-E₆(ℂ); its 27 is a complex (chiral) representation, and no real form
-intervenes: the coupled character is non-real (witness the exact value
-tr₂₇ = (1295415 + 1011915√−3)/2). Consequently there is no forced branching
-to any real form's subalgebra chain. *Locks:* `test_b582_chiral_play`,
-`test_b583_content`.
-
-Together: *the chirality of the object is exactly the θ-odd motion* — the
-θ-even stratum cannot tell left from right (it closes in the fold), and every
-θ-odd deformation can.
+**Theorem 4.2 (the chiral play; the dial map). [PROVED]**
+The mirror-double of the object — the complement glued to its mirror along
+the cusp torus, with a twist by a peripherally-fixed dial element v_m at
+finite twist parameter — has bracket-closure dimension given by the DIAL
+MAP: no twist → 3 (the diagonal sl₂); the m = 1 slot → 3; the θ-even slots
+{5,7,11} → 52 = f₄; the θ-odd slots {4,8} → 78 = e₆ — the subset face exact
+over ℚ(√−3), the rank face by mod-p certificates at two primes; all six
+dial slots verified peripherally fixed under the certified longitude.
+The θ-odd-twisted double has Zariski closure E₆(ℂ) and its 27 is complex.
+**Even bends stay under the fold; only the odd bends open the whole
+stage.** *Locks:* `test_b582_chiral_play`, `test_b598_step7`.
 
 ---
 
 ## 5. Three unhearability theorems
 
-**Theorem 5.1 (vacuum deafness). [PROVED]**
-On every stage, C is central in the modular representation ([C,S] = [C,T] = 0)
-and the vacuum is C-fixed; hence every vacuum amplitude is θ-even at every
-level. *Locks:* `test_b583_content` (X3), re-verified per-stage in
-`test_b584`/`test_b586`.
+(As v1: vacuum deafness; filling deafness; bare states are deaf sources at
+every color of every stage. *Locks:* `test_b583_content`, `test_b580_q1`,
+`test_b584`.) One addition:
 
-**Theorem 5.2 (filling deafness). [PROVED at level 1; structural at all levels]**
-The Dehn-filling covectors span exactly the θ-even subspace: at level 1, an
-overdetermined coprime-slope sweep gives span rank exactly 2 with θ-odd
-projection < 10⁻¹⁰, with the lens-space control gate passed.
-*Locks:* `test_b580_q1`.
-
-**Theorem 5.3 (bare states are deaf sources — every color, every stage). [PROVED]**
-For any stage and any color V: J_V(4₁) = J_{V̄}(4₁). (4₁ is invertible
-**[PROVED**, D₄ symmetry group, `test_b279`**]**, and coloring by the dual is
-orientation reversal **[CITED** Reshetikhin–Turaev functoriality**]**;
-verified computationally for su(3) fundamental vs anti-fundamental at eight
-generic points, `test_b584`.) Hence every bare knot state has zero θ-odd
-component: the object alone — and its mirror alone — is mute in the chiral
-channel.
+**Theorem 5.4 (the unit tone is chirality-deaf). [PROVED]**
+At κ = 4 the odd hearing space is one-dimensional and the amplitude is
+exactly −1: real, carrying no chirality. *Lock:*
+`test_b609_sealed_values`.
 
 ---
 
 ## 6. The listener
 
-**Theorem 6.1 (the antiphase channel and the operational identity). [PROVED]**
-The θ-odd states are u_λ = (e_λ − e_λ̄)/√2, and
-> tr_odd ρ = ½ ( Z − Z_C ),
-where Z_C is the amplitude with the C-twist inserted. Chirality is heard only
-by an observer holding the object and its mirror in coherent antiphase.
-*Locks:* `test_b584_theta_listener`.
+Theorems 6.1–6.3 as v1 (the antiphase channel and tr_odd ρ = ½(Z − Z_C);
+the two-lifts naming theorem; quadrature via the torsion sign law
+sign(τ_m) = (−1)^m). *Geometric remark updated:* the double of the
+complement along the cusp is a Haken manifold whose JSJ decomposition has
+two hyperbolic pieces (not a graph manifold). Two additions:
 
-**Theorem 6.2 (the naming theorem: the two lifts). [PROVED]**
-On the stage S² is the central element; in SL(2,ℤ), S² = −I. Hence
-tr(Cρ(W)) = ±tr ρ(S²W) (sign = the stage's S²-vs-C convention), and the
-C-twisted mapping torus is the torus bundle of the other SL(2,ℤ) lift −A of
-the object's PSL(2,ℤ) monodromy — trace −3, a distinct Sol manifold. The
-channel identities give: **the θ-odd amplitude is the lift-symmetrization,
-the θ-even amplitude the lift-difference — chirality is what the two lifts
-agree on.** *Locks:* `test_b585_listener_law` (N1).
+**Theorem 6.4 (the intertwiner and the forced-zero criterion). [PROVED]**
+There is a Schur-unique symmetric invertible J with
+ρ(X)ᵀJ + Jρ(θX) = 0; no untwisted invariant form exists (solution space
+dimension 0); the move-across lemma ⟨Xu, v⟩_J = −ε_X⟨u, Xv⟩_J holds; and
+the single-generator contractions ⟨v_m v0, v0⟩_J vanish — even blocks
+forced by parity, all blocks forced by weight. *Locks:*
+`test_b598_steps35`, `test_b598_lemma`.
 
-**Theorem 6.3 (quadrature; no linear interference). [PROVED]**
-The six Sym^{2m}-twisted torsions of 4₁ obey the sign law
-sign(τ_m) = (−1)^m, positive exactly at the θ-odd exponents {4,8}
-(*locks:* `test_b581_six_torsions`). Since CS(4₁) = 0, the semiclassical
-one-loop factors 1/√τ_m are real for the chiral blocks and imaginary for the
-achiral ones; hence for any real weights, |total|² = |chiral|² + |achiral|²
-exactly. *Locks:* `test_b583_x2r`.
-
-*Geometric non-realization remark.* The C-twisted torus is Sol, not
-hyperbolic; the double of the complement along the cusp is a graph manifold.
-No hyperbolic "chord manifold" with new volume/CS/trace-field invariants
-exists in this construction **[PROVED/CITED**, B586**]**.
+**Theorem 6.5 (bent listeners are null). [PROVED]**
+The distinguished stage vector v0 is weight-pure at weight 0; hence every
+bent state v_m·v0 is weight-homogeneous of nonzero weight and is
+J-isotropic: ⟨v_m v0, v_m v0⟩_J = 0 at all six blocks. The listener's
+displacement carries no J-scale. *Lock:* `test_b603_isotropy`.
 
 ---
 
 ## 7. The amplitude laws
 
-**Theorem 7.1 (the two-tone law). [PROVED numerically-exactly across the range; law verified on held-out levels]**
-On SU(3)_k (κ = k+3, κ = 4..26):
-> tr_odd(4₁-bundle) = [4|κ]·1 − [5|κ]·φ⁻¹, additively
-(the κ = 20 collision gives 1 − φ⁻¹ = φ⁻²). At κ = 5 the even channel
-vanishes identically and the entire banked invariant −φ⁻¹ is the chiral
-amplitude; the θ-odd block is the order-10 golden rotation e^{±3πi/5}, the
-θ-even block a silent order-20 clock. *Locks:* `test_b584`, `test_b585`.
+**Theorem 7.1 (the two-tone law; the trace form; stage-universality).
+[PROVED numerically-exactly across the range; the trace form exact]**
+On SU(3)_k (κ = k+3): tr_odd(4₁-bundle) = [4|κ] − [5|κ]·φ⁻¹. Equivalently:
+the odd hearing form B_odd = −(the odd compression of ρ(RL)) satisfies
+trace B_odd(κ) = [5|κ]·φ⁻¹ − [4|κ] on a fourteen-point grid including the
+registered discriminating confirmations κ = 16 → −1 and κ = 40 → −φ⁻².
+The same two-indicator law was derived independently in the finite Weil
+model (Theorem 7.2's ±-symmetrized assembly): **the odd trace law is
+stage-universal across the two quantum models.** *Locks:* `test_b584`,
+`test_b585`, `test_b601_pairing_law`.
 
-**Theorem 7.2 (the Weyl-twisted Weil factorization). [PROVED numerically-exactly; framework CITED]**
-For balanced words W,
-> Z(W; SU(3)_k) = (1/6) Σ_{w∈W(A₂)} sign(w) · tr(ρ_Weil(W) ∘ P_w)
-on ℂ[P/κQ], with the C-twist moving the sum to the −W coset; each of the
-twelve terms is a Gauss sum gated by the conductor det(A ⊗ (±w) − I₄) — the
-object's eigenvalues twisted by the stage's point group. The identity is
-exact at every κ = 4..20 for the golden, silver, and bronze words. From it:
-the golden closed form −φ⁻¹ = (1/12)[(1+5) − 6√5]; silver's tone menu
-{4,5,7} with 7 = N(α·ω − 1) = 49 (a *registered prediction*, confirmed);
-bronze's exact cancellation (4 − 12 + 8)/12 = 0 at κ = 10; and the
-*derived absence* of any divisibility law for the achiral channel (its
-unit-conductor terms oscillate as quadratic characters). The framework — WRT
-invariants of torus bundles as Gauss sums — is Jeffrey's **[CITED**, and the
-SU(2) case is the companion program's banked proof**]**; the SU(3)/Weyl-
-twisted tone menu is the new content. The per-term reciprocity proof at
-SU(3) is **[CONJECTURE**/in progress**]**. *Locks:*
-`test_b587_weil_mechanism`.
+**Theorem 7.2 (the Weyl-twisted Weil factorization).** As v1 **[PROVED
+numerically-exactly; framework CITED** Jeffrey**]**; the per-term SU(3)
+reciprocity proof remains **[CONJECTURE]**.
 
-**Theorem 7.3 (sector exchange). [PROVED]**
-The same √5 Gauss data is θ-even on SU(2)₃ and θ-odd on SU(3)₂: on the
-rank-1 stage −1 = w₀ ∈ W(A₁) (the parity term sits inside the Weyl sum;
-C = 1), on the rank-2 stage −1 ∉ W(A₂) (the parity terms constitute the
-C-coset). The ingredient identity ½(1 − √5) = (1/12)[(1+5) − 6√5] = −φ⁻¹
-holds exactly. **Whether the object's voice is symmetric or chiral is a
-property of the theater's symmetry group.** *Locks:*
+**Theorem 7.3 (sector exchange). [PROVED]** As v1: parity of the heard
+content is a property of the theater's symmetry group. *Lock:*
 `test_b588_sector_exchange`.
 
-**Theorem 7.4 (the E₆₂ amplitudes; the sine kernel). [PROVED numerically-exactly, 40+ digits from exact-basis sums]**
-On E₆ level 2 the even channel vanishes identically (Z = +1 all-chiral) and
-the three per-pair amplitudes are exactly
-> p_j = (2/√7)·sin(2πj′/7) · ζ₁₄^{k_j}, (j′, k) = (1,+3), (3,−2), (2,−1):
-the moduli are the ℤ/7 sine kernel — the θ-odd S-block's own row — and the
-monodromy adds three 14th-root phases. *Locks:* `test_b586`, `test_b589`.
+**Theorem 7.4 (the E₆₂ amplitudes are symbolic identities). [PROVED]**
+On E₆ level 2 the three per-pair amplitudes are exactly
+p_j = (2/√7)·sin(2πj′/7)·ζ₁₄^{k_j}, (j′,k) = (1,+3), (3,−2), (2,−1):
+proved as identities in ℚ(ζ₈₄) — the squared identity reduced to zero mod
+Φ₈₄ over ℚ, the sign branch fixed at full precision (deviations ~10⁻⁴¹).
+*Locks:* `test_b589`, `test_b598_step6` (OA_SLOW).
+
+**Theorem 7.5 (the hearing law). [PROVED]**
+Deform the listener along a θ-odd dial direction, ψ_ε = ψ + εu. Then
+exactly, with no first-order term (parity conservation):
+> A_ε(g) = A₀(g) − ε²·(u†W(g)u), and A^tw_ε − A^plain_ε = −2ε²·(u†M_odd u).
+At the object's own monodromy weld the first closed chiral amplitude is
+> u₃† M_odd u₃ = 1/(2φ) + i·sin(2π/5)/√5 ∈ ℚ(ζ₅), u₆† M_odd u₆ its
+> conjugate,
+proved symbolically over ℚ(ζ₂₀) (values in ℚ(ζ₅); minimal polynomial
+5x⁴ + 5x³ + 1; field norm exactly 1/5). The mechanism is the sign-flip
+theorem: P_odd·C = −P_odd, so the twist flips M_odd exactly.
+*Locks:* `test_b592_mirror_listener`, `test_b593_round4_hearing` (+ the
+exact V1 lock), `test_b606_norm_bridge`.
+
+**Theorem 7.6 (state-independence; the E₆₂ ear). [PROVED]**
+The hearing coefficients are independent of the listener's state (only
+Cψ = ψ is used); on E₆ level 2 the three diagonal hearing coefficients
+equal minus Theorem 7.4's amplitudes: the ℤ/7 sine kernel is the E₆ ear's
+coefficient, and the norm-product of the three amplitudes is exactly 1/49.
+*Locks:* `test_b594_e6_hearing`, `test_b606_norm_bridge`.
 
 ---
 
-## 8. What is not claimed: the five walls, updated
+## 8. The closure theorem: the heard spectrum's pairing is the object's chirality
 
-1. **Values.** No dimensionful or dimensionless SM value is derived. The
-   numbers in §7 are stage arithmetic (conductors, Gauss sums, sine kernels).
-2. **Selection.** No mechanism selects the SM gauge algebra among the stage's
-   options; the one live channel is the θ-odd dynamics itself.
+**Theorem 8.1 (the closure theorem). [PROVED]**
+Let (S, T) be modular data with S symmetric unitary, T diagonal unitary,
+S² = ζC for the charge conjugation C and a scalar phase ζ (hence
+[S, C] = 0), and [C, T] = 0. Put R = T, L = S⁻¹T⁻¹S. If the weld word w is
+GHH-anti-palindromic — equivalently, by the block-palindrome theorem
+**[PROVED**, the companion program's B134, mechanism **[CITED**
+Goodman–Heard–Hodgson**]]**, the once-punctured-torus bundle is
+AMPHICHIRAL — then
+> conj(W) = Q⁻¹ Wᵀ Q, Q = P·S·C,
+with P the cyclic-rotation prefix; Q commutes with C, so the odd hearing
+spectrum is **conjugation-closed at every level**. The three ingredients
+(conj(X) = CX⁻¹C; ρ(swap x) = Sρ(x)⁻¹S⁻¹; R, L symmetric, hence
+ρ(rev u) = ρ(u)ᵀ) are derived from the axioms and verified exactly at four
+levels; the assembled identity holds for four amphichiral welds (16/16)
+and fails for three chiral controls (12/12). *Lock:*
+`test_b613_closure_theorem`.
+
+**Empirical converse (7 objects × 14 levels). [COMPUTED]**
+Every chiral weld scanned fails closure at some level (indeed at almost
+all; isolated accidental closures exist — one at a degenerate
+one-dimensional level, one at a single non-degenerate level). Level-uniform
+closure ⟺ amphichirality on all data; the converse direction is open.
+*Locks:* `test_b610_m136_weld`, `test_b611_two_laws`,
+`test_b612_pairing_chirality`.
+
+**Corollary 8.2 (the three layers).**
+The heard structure separates: the SPECTRUM'S PAIRING carries the object's
+chirality (Theorem 8.1); the TRACE carries its arithmetic — the fig-8's
+golden two-indicator law (7.1) versus the second object's ζ₆-phased ℚ(√3)
+values **[COMPUTED**, `test_b610`**]**; and the MATRIX ELEMENTS carry the
+listener's coupling — the hearing spectrum itself is unitary clockwork
+(B_odd is unitary by construction; its eigenvalues at the levels computed
+are roots of unity: e^{±2πi/5} at κ = 5, the 8th roots minus ±1 at κ = 7,
+28th-root angles at κ = 13), while every golden VALUE (Theorem 7.5's
+amplitude, its 1/5-norm) lives in the matrix elements of a golden-basis
+listener. *Locks:* `test_b609_sealed_values`, `test_b611_two_laws`.
+
+---
+
+## 9. The correspondence, and the honest negatives
+
+**Theorem 9.1 (the spectral bridge). [PROVED]**
+det(I − B_odd) = φ² = λ(A₁) at κ = 5: the golden stage's odd hearing form
+knows the object's dilatation. *Lock:* `test_b595_dictionary`.
+
+**Null 9.2 (the clock is not the naive period). [PROVED as a null]**
+The registered prediction that the stage clock equals the cat-map period
+FAILED; level structure does not transport through naive labels. *Lock:*
+`test_b596_cat_map`.
+
+**Theorem 9.3 (the correspondence exists as structure; outcome B).
+[PROVED at the structural level, under a sealed protocol]**
+Under a nine-step audited readiness protocol with a hashed
+preregistration, the semiclassical map from the golden stage's θ-odd plane
+to the classical dial {u₄, u₈} exists as a structural correspondence:
+mirror-equivariant (the copy-exchange mirror maps every classical bending
+response to the conjugate phase class with the same integers, 40/40 rows),
+width-respecting, and rank-producing at E₆₂ (the odd form's spectrum is
+exactly {−1, +i, −i}, giving the canonical conjugation-equivariant 2+1
+splitting). It is LEVEL-SPECIAL: the hearing law survives at κ = 10 but
+the golden conjugate-pairing of the naive directions does not — the
+invariant pairing persists spectrally at every level while the weight-label
+basis pairs only at κ = 5. Per-line magnitudes are gauge; no value claim
+is made. *Locks:* the `test_b598_*` family; the classical side's exact
+content is two integers on conjugate phases, N₄(1+√−3) and N₈(1−√−3),
+N₄ = 2⁹·3²·5·7·13, N₈ = 2¹⁵·3⁵·5³·7²·11 (`test_b598_step4b`).
+
+**Negatives 9.4 (no naive value bridge). [PROVED as negatives]**
+Two sealed candidate tables were exhausted: (i) no structural
+normalization (torsion widths, J-Grams, quantum dimensions) closes the
+phase or magnitude gauge — the phase gap is exactly π/15 (the two phase
+lattices meet only in ℚ(ζ₃₀)), and the J-Grams vanish identically
+(Theorem 6.5); (ii) no torsion-power identity links the hearing integers
+to the torsions — their prime supports are disjoint beyond small primes
+(97 divides τ₄ only; 31·607·49297 divide τ₈ only). The surviving
+field-compatible arithmetic: the golden hearing norm 1/5 and the E₆₂
+norm-product 1/49 — each stage's hearing sector carries its defining
+prime as a field norm. *Locks:* `test_b606_norm_bridge`; the B602 cell
+records.
+
+**Structure 9.5 (the mixing).** The principal blocks admit no G_SM-sector
+alignment: the fold welds roots of different charge classes into single
+θ-odd directions (9 of 12 pairs class-mixed); the principal strings mix
+the pairs; the block lines mix the charges — the only class-pure lines are
+the deepest pair (charge class (1,1,2)). Exact mixing fractions are
+banked (the top line exactly uniform; the shallowest lines exactly half on
+the color roots). **[PROVED**, `test_b604_rosetta`,
+`test_b607_charge_table`, `test_b608_rosetta_gsm`,
+`test_b609_sealed_values`**]**
+
+---
+
+## 10. What is not claimed: the walls, updated
+
+1. **Values.** No SM value is derived. The exact numbers of §7 and §9 are
+   stage arithmetic; the value question was pushed through two sealed
+   candidate generations and closed negative both times (9.4).
+2. **Selection.** No mechanism selects the SM gauge algebra; moreover the
+   blocks do not align with any G_SM sector decomposition (9.5) — a
+   would-be selector has nothing sectorally pure to select except the
+   double-spinor tips.
 3. **Index.** The chiral index of every single-object construction is 0
-   (Theorems 5.1–5.3 are the operational restatement).
-4. **Compactness.** The holonomy lies in no real form (PC25 Theorem 3); the
-   chiral 27 of Theorem 4.2 is complex over ℂ with no compact-form transfer.
-5. **Reachability.** The rank-1 wall (no chiral selector is reachable through
-   the θ-stable principal SL(2,ℂ)) stands; the mirror-double of Theorem 4.2
-   evades its *hypothesis* (it is not a rank-1 embedding), not the wall.
+   (§5); the two amphichiral involutions of the object act freely
+   (Gieseking), so no fixed-surface construction is available either.
+4. **Compactness.** As v1 (no real form intervenes).
+5. **Reachability.** As v1; the mirror-double evades the rank-1 wall's
+   hypothesis, not the wall.
 
-## 9. Firewalled motivation (one paragraph)
+## 11. Firewalled motivation (one paragraph)
 
 The program's motivating conjecture — that measured values live in the
 observer–object coupling rather than in the object — is not a theorem of
-this paper. What this paper contributes to it is structural: chirality is
-real (§3–4), invisible to every single-object probe (§5), audible precisely
-to a mirror-bearing listener (§6), with amplitude laws that are exact
-arithmetic of the listening stage (§7), and with the parity of the heard
-content decided by the stage's symmetry group (Theorem 7.3). Any future
-physics claim would have to pass the five walls of §8, which this paper
-leaves standing.
+this paper. What this paper contributes is now three-layered (Corollary
+8.2): the stage's spectrum is universal clockwork; the spectrum's pairing
+is the object's chirality, as a theorem; the trace is the object's
+arithmetic; and everything golden that a listener actually receives —
+the hearing amplitude, its field norm — lives in the listener's matrix
+elements. The correspondence between the classical dial and the golden
+stage exists as structure and is level-special (9.3); every naive value
+bridge fails exactly (9.4). Any future physics claim must pass the walls
+of §10, which this paper leaves standing.
 
-## 10. Reproducibility
+## 12. Reproducibility and provenance
 
-Every theorem's lock is a pytest test in the public repository; the heavy
-exact pipelines are gated behind OA_SLOW=1. The locks named in this draft
-run green as of the draft commit; the full suite (2187 tests) runs green
-except one known SnapPy-flaky test unrelated to this material.
+Every theorem's lock is a pytest test in the public repository (heavy
+exact pipelines behind OA_SLOW=1); the sealed preregistrations and value
+tables are SHA-256-hashed in the repository's hash ledger before their
+outcome-bearing computations run. All verification is internal (author +
+AI seats); see the repository's PROVENANCE.md §0 and TERMINOLOGY.md.
 
 ## References
 
-[PC25] originaxiom, *The Amphichiral Fold: E₆ → F₄ on the Figure-Eight
-Character Variety, and Why It Stops There* (companion draft).
-[MFP] Menal-Ferrer, Porti — twisted cohomology of cusped hyperbolic
-3-manifolds. [FG] Falbel, Guilloux. [J] L. Jeffrey, *Chern–Simons–Witten
-invariants of lens spaces and torus bundles* (CMP 147, 1992). [RT]
-Reshetikhin, Turaev. [KP] Kac, Peterson. [TDV] Todorov, Dubois-Violette.
-[K] Krasnov. (Full list at v2.)
+[PC25] originaxiom, *The Amphichiral Fold* (companion draft). [MFP]
+Menal-Ferrer, Porti. [FG] Falbel, Guilloux. [J] L. Jeffrey, CMP 147
+(1992). [RT] Reshetikhin, Turaev. [KP] Kac, Peterson. [GHH] Goodman,
+Heard, Hodgson, *Commensurators of cusped hyperbolic manifolds* /
+the anti-palindromic amphichirality criterion (Exp. Math. 2008).
+[G] Gieseking (via standard references on the Gieseking manifold).
+(Full list at submission.)
