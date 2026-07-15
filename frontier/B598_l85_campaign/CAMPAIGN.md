@@ -73,20 +73,22 @@ No target comparison, verdict, or banking of P3 until this chain is green,
 in order:
 
 1. peripheral certificate ✓ (banked: `peripheral_certificate.py`)
-2. corrected all-six P1 ✓-pending (the six-block word-independence
-   verification; the erratum banked)
-3. gauge-invariant boundary classes (report restrictions as classes in
-   H¹(T²; V_m), or prove the gauge canonical — currently the table is
-   labeled gauge-dependent representatives)
+2. corrected all-six P1 ✓ (the six-block word-independence verification
+   banked: `verify_word_independence.py`, ξ(canonical) = ξ(used) at all six)
+3. gauge-invariant boundary classes ✓ (banked: `steps3and5.py` — the
+   universal boundary ratio I_λ/I_μ = −2√−3 at ALL six blocks; the classical
+   per-block information lives only in cross-domain normalization)
 4. the explicit P2 map (domain, codomain, formula, equivariance, rank,
    kernel, polarization, normalization — Gates A/B alone are insufficient;
    the banked P2 is gates + data + a structural verdict, NOT the map)
-5. the exact 27–27̄ intertwiner J (ρ(X)ᵀJ + Jρ(θX) = 0; chat-2's
-   Casimir/raw-dot cannot be used; then restate the selection-rule lemma
-   for the J-pairing — the linear-C vs antiunitary-Θ distinction made
-   precise)
-6. exact stage data (exactify the B587/B589 matrices, phases, framing and
-   target coefficients used by P3 — cyclotomic, not float)
+5. the exact 27–27̄ intertwiner J ✓ (banked: `steps3and5.py` +
+   `lemma_cell.py` — J symmetric, Schur-unique, invertible; NO untwisted
+   form (dim 0); the move-across lemma; the forced-zero criterion splitting
+   structural from genuine zeros; J-weld = raw-dot exactly)
+6. exact stage data ✓ (banked: `step6_exact_stage_v2.py` — the three E₆₂
+   pair amplitudes −(2/√7)sin(2πj′/7)ζ₁₄ᵏ are SYMBOLIC IDENTITIES in
+   ℚ(ζ₈₄): squared identity exact mod Φ₈₄, sign branch at 1e-30, dev
+   ~1e-41; v1's simplify-failure preserved as the honest first attempt)
 7. the G1 recomputation in-repo (the dial-map closure with committed code
    and the certified longitude — closes the B582 finite-t provenance hole;
    until then all mirror-double existence claims are formal/jet-level)

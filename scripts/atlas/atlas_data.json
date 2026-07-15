@@ -12187,6 +12187,7 @@
     "trace_map",
     "kappa",
     "eisenstein",
+    "golden",
     "symplectic",
     "wrt_quantum"
    ],
@@ -12196,6 +12197,7 @@
     "B575",
     "B581",
     "B587",
+    "B589",
     "B595",
     "B596",
     "B597",
@@ -12212,7 +12214,7 @@
    "obstacle": "units_scale",
    "obstacle_conf": 5,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B599": {
    "slug": "selection rule",

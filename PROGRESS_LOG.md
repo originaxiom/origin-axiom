@@ -4181,3 +4181,12 @@ The P4 wide scan (in-packet): only 11 divides any e_n (primes 3..79, n ≤ 10) �
 uniqueness retested; exact e_n to n = 6 with banked anchors. B600's pending items upgraded
 accordingly. Two independent pipelines (mine + theirs) now agree on the headline in this sandbox.
 Firewalled.
+
+## 2026-07-15 — B598 step 6 GREEN: the stage data exact; the three E₆₂ amplitudes are symbolic identities
+The v2 certification (exact group-ring arithmetic in ℤ[x]/(x⁸⁴−1); squared identity p² = target²·N²
+reduced identically to zero mod Φ₈₄ over ℚ; sign branch at full mpmath precision, gate 1e-30, achieved
+~1e-41) proves all three E₆₂ pair amplitudes −(2/√7)sin(2πj′/7)ζ₁₄ᵏ are SYMBOLIC IDENTITIES in ℚ(ζ₈₄).
+v1's simplify-denesting failure preserved as the honest first attempt. Lock tests/test_b598_step6.py
+(OA_SLOW). The readiness chain reads 1 provisional · 2 ✓ · 3 ✓ · 5 ✓ · 6 ✓; the P3-bearing unknowns
+are now exactly steps 4 (the typed map + normalization), 7 (G1-FINITE), 8 (sealed prereg), 9
+(independent P1). Firewalled.

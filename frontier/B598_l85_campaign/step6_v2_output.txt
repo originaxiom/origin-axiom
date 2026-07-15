@@ -1,0 +1,6 @@
+proving the squared identities mod Phi_84:
+  pair j'=1, k=3: squared identity mod Phi_84: True;  sign branch = +1: True (ratio dev 2.3e-41)
+  pair j'=3, k=-2: squared identity mod Phi_84: True;  sign branch = +1: True (ratio dev 4.62e-41)
+  pair j'=2, k=-1: squared identity mod Phi_84: True;  sign branch = +1: True (ratio dev 1.79e-41)
+STEP 6 (v2): the three E6_2 amplitudes are SYMBOLIC IDENTITIES
+(squared identity exact in Q(zeta_84); sign branch fixed at 1e-25). DONE

@@ -168,3 +168,39 @@ normalization (step 4) and (b) the non-forced θ-odd quadratic data — the
 even-block channels are structurally silent at first order and the boundary
 classes are block-independent. P3's verdict will ride on exactly those two
 ingredients.
+
+## STEP 6 COMPLETE (2026-07-15): the stage data is exact — the three E₆₂ amplitudes are symbolic identities
+
+**The verdict.** The three E₆₂ pair-amplitude coefficients used by P3,
+−(2/√7)·sin(2πj′/7)·ζ₁₄ᵏ for (j′,k) = (1,3), (3,−2), (2,−1), are now
+SYMBOLIC IDENTITIES in ℚ(ζ₈₄) — cyclotomic-exact, not float. The chain's
+step-6 requirement (exactify the B587/B589 stage data) is met.
+
+**The method (v2, `step6_exact_stage_v2.py`).** Exact group-ring arithmetic
+in ℤ[x]/(x⁸⁴−1): the Weyl-collected amplitude p and the normalizer N² are
+assembled as exact cyclotomic elements; the squared identity
+p² = target²·N² is proved by polynomial reduction mod Φ₈₄ over ℚ (remainder
+identically zero, all three pairs); the remaining ± branch is fixed
+numerically at full mpmath precision with a 1e-30 gate — achieved deviations
+2.3e-41, 4.6e-41, 1.8e-41. Output: `step6_v2_output.txt`. Lock:
+`tests/test_b598_step6.py` (OA_SLOW, subprocess, failure-enforcing).
+
+**The honest first attempt (v1, preserved).** `step6_exact_stage.py` proved
+the same Weyl collection but asked sympy's `simplify` to denest
+√N² for a genuine cyclotomic real N² — it could not, and returned three
+false NONZEROs (the printed residuals are exactly the denesting gap).
+v1 is kept on disk as the failure record; the squared-identity route
+exists because of it. Two float-precision iterations of v2's sign branch
+(complex() casts flooring at 1e-16 against a 1e-25 gate; an mpf format
+string) are visible in the git history of the script.
+
+**What this does for P3.** Every stage-side number P3 will consume —
+the amplitudes, their field (ℚ(ζ₅) golden / ℚ(ζ₁₄)-component E₆₂), the
+sine-kernel coefficients — is now certified exact. Combined with step 5's
+forced-zero map (which silences are structural) and step 3's universal
+boundary ratio (all classical discriminating content lives in cross-domain
+normalization), the remaining P3-bearing unknowns are exactly: the typed
+P2 map + normalization (step 4), G1-FINITE (step 7), the sealed prereg
+(step 8), and the independent P1 pipeline (step 9).
+
+**Chain state: 1 provisional · 2 ✓ · 3 ✓ · 5 ✓ · 6 ✓ · 4/7/8/9 open.**
