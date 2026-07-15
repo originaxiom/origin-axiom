@@ -12933,6 +12933,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B637": {
+   "slug": "corrected cell3",
+   "motifs": [
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [
+    "B591"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B63": {
    "slug": "sl4 symbolic m",
    "motifs": [
