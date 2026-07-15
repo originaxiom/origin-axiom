@@ -4669,3 +4669,22 @@ block-diagonal by sl₂-invariance ⇒ REGISTERED PREDICTION for cell 2: the tex
 block basis (falsifiable by the run). Cell 2 (own prereg): build C exactly, verify diagonality,
 compute the three values under the banked boundary normalization. No SM number anywhere. Locks
 fast + OA_SLOW rerun. Firewalled.
+
+## 2026-07-15 — B632 cell 2: the cubic explicit; the vev couples to all three slots; the SOLO TEXTURE IS ANTISYMMETRIC AND FULL
+The corrected design (sealed dc2be090… BEFORE running; the parallel audit seat's catch credited:
+the original "three diagonal values" object cannot exist on the solo complement — O1 cd=2 kills
+scalar triples, O2 H²(M;ℂ)=0 + graded-commutativity force antisymmetry; the cell-1 registered
+prediction resolved DISSOLVED-BY-OBSTRUCTION). RESULTS (exact, ℚ(ω)): (1) THE CUBIC IS EXPLICIT
+AND UNIQUE — 45 zero-weight-sum triples, 1-dim invariance solution, ALL 45 coefficients nonzero
+(the Jordan determinant in the local system's basis; B308's multiplicity-1 made constructive).
+(2) B_C = C(v₀,·,·) exactly block-diagonal with c₀, c₄, c₈ ALL NONZERO — every generation slot
+couples to the forced vev. (3) The component census = exactly the triangle rules (seven present,
+three forbidden absent). (4) The O1/O2 gates GREEN after an honest instrument fix the gates
+themselves caught (the naive bar-cocycle 2-cell evaluation omits inverse-letter correction chains;
+corrected; B575's cup uses the naive form — its Q≡0 is safe via B352's independent corroboration;
+hygiene registered L90). (5) **Ω: Λ²H¹(27) → H²(M;27*) NONZERO ON ALL THREE GENERATION PAIRS —
+the solo object carries the FULL antisymmetric half of the cubic structure; the symmetric
+(mass-shaped) half exists only on a closed 3-cycle, canonically the mirror-double = the banked
+forced coupling (B580 G1). THE YUKAWA STRUCTURALLY REQUIRES THE COUPLING — the coupling thesis in
+cohomological form.** Cell 3 (the texture on the double) registered L89, own prereg. No SM number
+anywhere. Locks fast + OA_SLOW for both cells. Firewalled.

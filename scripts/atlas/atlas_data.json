@@ -12863,17 +12863,21 @@
    "slug": "cubic route",
    "motifs": [
     "eisenstein",
-    "z3_generation"
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
    ],
    "refs": [
     "B302",
     "B307",
     "B308",
+    "B352",
     "B575",
+    "B580",
     "L85"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 12,
+   "obstacle_conf": 16,
    "status": "dead",
    "domain": "arithmetic"
   },
