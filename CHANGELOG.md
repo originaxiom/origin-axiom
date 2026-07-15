@@ -6,6 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — B629: the interaction-layer values sealed (the interaction round, part 1 of 3)
+
+### Added
+- The interaction-round directive registered as binding: ONE authorized comparison (the E₆₂
+  3×3 odd hearing form's |B_ij|² vs the measured mixing-moduli table, under a separately
+  sealed design); the object-scale coupling re-test and the composite inventory DEFERRED
+  pending their own principled preregistrations.
+- THE CLOSED FORM of the hearing matrix: B is exactly unitary, B_ij = A_k·ζ₁₄^m on a 3×3
+  Latin square, |B_ij|² exactly the doubly-stochastic circulant of (A₁², A₂², A₃²);
+  eigenvalues exactly {i, −i, −1}; the eigenframe is basis-canonical, the SVD frame an
+  algorithm artifact. Sealed with the circulant/held-out disclosure (sha 0ec9ac39… in the
+  hash ledger) BEFORE any comparison design exists.
+- The golden frame: tan θ_frame = 1/φ exactly; the identity |V₂₁|² = |h₃|²; the κ=10 odd
+  form corrected to 16×16 (unitary, trace law, golden pair delocalized over 10/16 directions).
+- Composites (~40 exact values) and object-scale run couplings frozen NOT-FOR-COMPARISON.
+- Lock `tests/test_b629_interaction_values.py` (6/6, in-loop closed-form verification).
+
 ## 2026-07-15 — B601: the V2 defect is basis-level; the trace law; LAW-O stage-universal
 
 ### Added / Fixed
