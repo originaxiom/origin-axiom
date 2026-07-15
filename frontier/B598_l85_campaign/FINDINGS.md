@@ -311,3 +311,18 @@ open the whole stage.
 
 **Chain state: 1 ✓ (exact) · 2 ✓ · 3 ✓ · 4 ✓ · 5 ✓ · 6 ✓ · 7 ✓ —
 remaining: 8 (the sealed prereg) and 9 (the clean-room P1, computing).**
+
+## STEP 8 SEALED (2026-07-15): the P3 preregistration is hashed
+
+`STEP8_P3_PREREG.md` written and hashed into `ARTIFACT_HASHES.txt` BEFORE
+any outcome-bearing comparison. The declared bijection: m=4 ↔ u₃,
+m=8 ↔ u₆ by Im-sign orientation under the frozen embedding. Three blind
+verdict cells, none computed anywhere at sealing: V1 the mirror-swap kill
+cell (mirrored twists must swap the classical phase classes), V2
+level-independence at κ = 10, V3 the E₆₂ conjugation-equivariant rank-2+1
+splitting of the banked 3×3 odd form. The locked table: A = all three;
+B = V1 + a recorded defect; D = V1 fails. Width-respect makes per-line
+magnitudes gauge — NO value-matching claim is in scope; the normalization
+arc stays gated and will be separately preregistered. K1/K2 consistency
+cells recorded honestly as computed-pre-seal (no verdict weight).
+Run order after full chain green: V1 → V2 → V3, each banked blind.
