@@ -65,3 +65,22 @@ AMBIGUOUS clause: the m136 classical port (B616+) — the held-out set —
 under a fresh sealed design. If the held-out set reproduces angle-family
 matches at matched precision, that is a signal; if not, the suggestion
 dies and the stopping rule closes the SM-values question at this level.
+
+## Addendum — the robustness (algebraic-mimic) ensemble (design §4, completed)
+
+Run mechanically as part of the same record (`b615_robustness.py`,
+`robustness_output.txt`; 10⁶ draws per declared mimic family, fixed seed
+in-script): the expected G2 pair-match counts under the mimic families
+are 0.55 ((a+b√5)/c), 0.59 ((a+b√2)/c), 0.51 (p/q) — bracketing the
+primary uniform null's 0.57 — with raw tails P(X ≥ 3) ≈ 0.019, 0.023,
+0.015 versus the primary's 0.020. **The analysis is
+ensemble-insensitive; the AMBIGUOUS verdict stands under both ensembles.**
+Notably, ~1.1% of random matched-complexity algebraic numbers in (0,1]
+land in the sin²θ₂₃ window and ~0.6% in the sin²θ₁₂ window at the coarse
+tier — the angle windows are not hard to hit by chance, which is exactly
+what the corrected p already said.
+
+**The seat-4 packet is complete:** the hashed design (B614), the full
+pair table, the null statistics under BOTH ensembles, the disclosures,
+and this addendum. The hash was the gatekeeper; the review is
+retrospective, per the director's order.
