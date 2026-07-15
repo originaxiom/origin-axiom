@@ -4619,3 +4619,17 @@ including the pre-banked structural limitation: the measured s₁₃² = 0.022 e
 smallest modulus² 0.1076 (a B615-banked pair) puts an a-priori floor D ≥ 0.0285 — whether that
 region is null-rare is exactly what the Monte Carlo decides. Robustness rows (NuFIT-proxy table;
 δ-scan) declared now, no verdict weight. Firewalled.
+
+## 2026-07-15 — B631: THE MATRIX COMPARISON — STRUCTURED-NULL (p = 0.700); the stopping rule fires
+The interaction round's one authorized comparison ran once, mechanically, under both verified
+seals: D_obs = 0.13407 (min over the 72 declared alignments), Haar-U(3) null (10⁶ samples, seed
+20260715) median 0.10218 — the object's circulant is FARTHER from the measured mixing table than a
+typical random unitary's moduli table; p_D = 0.700; 0/9 entries within 0.01 (null expects 0.77);
+robust across the NuFIT-proxy table (D = 0.136) and the δ_CP scan (best 0.097 at δ=0). THE
+DELIVERABLE SENTENCE: "The 3×3 odd hearing form at E₆ level 2 does not match the PMNS matrix at
+the 1% tier, with null-model p-value 0.7000." Per the directive's locked table and binding
+anti-unfalsifiability clause: the program's SM-comparison capability at this level is EXHAUSTED —
+no "next layer" continuation; the mathematics publishes as mathematics; any future SM-facing
+comparison requires a new owner-level directive with its own principled preregistration. Locks:
+fast (seals + D_obs + 0/9) and OA_SLOW (the seeded null reproduced exactly, count 700004). Seat 4
+reviews the raw output alongside the seals. Firewalled.
