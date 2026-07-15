@@ -1,0 +1,83 @@
+GATE kappa=4: dim_odd = 1 (expect 1); amplitude = -1.000000000+0.000000000j (expect -1, REAL — the unit tone is chirality-deaf): True
+GATE kappa=5: trace = +0.618033989 (1/phi); spectrum conj-closed: True
+GATE kappa=10: trace = +0.618033989 (1/phi); conj-closed: True
+
+kappa=7: dim_odd = 6 (formula 6: True); trace = +1.47e-15+8.05e-16j (law 0: True); conj-closed: True
+  char poly coeffs (real parts): +1.000000000  -0.000000000  +1.000000000  -0.000000000  +1.000000000  -0.000000000  +1.000000000
+    lambda = -0.707106781-0.707106781j   |lambda|^2 = 1.000000000
+    lambda = -0.707106781+0.707106781j   |lambda|^2 = 1.000000000
+    lambda = -0.000000000-1.000000000j   |lambda|^2 = 1.000000000
+    lambda = -0.000000000+1.000000000j   |lambda|^2 = 1.000000000
+    lambda = +0.707106781-0.707106781j   |lambda|^2 = 1.000000000
+    lambda = +0.707106781+0.707106781j   |lambda|^2 = 1.000000000
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+
+kappa=13: dim_odd = 30 (formula 30: True); trace = -1.65e-15+1.60e-15j (law 0: True); conj-closed: True
+  char poly coeffs (real parts): +1.000000000  +0.000000000  +1.000000000  +0.000000000  -0.000000000  -0.000000000  -0.000000000  -2.000000000  +0.000000000  -2.000000000  -0.000000000  -0.000000000  +0.000000000  -0.000000000  +2.000000000  +0.000000000  +2.000000000  -0.000000000  -0.000000000  -0.000000000  +0.000000000  -2.000000000  +0.000000000  -2.000000000  -0.000000000  -0.000000000  -0.000000000  +0.000000000  +1.000000000  -0.000000000  +1.000000000
+    lambda = -0.974927912-0.222520934j   |lambda|^2 = 1.000000000
+    lambda = -0.974927912+0.222520934j   |lambda|^2 = 1.000000000
+    lambda = -0.900968868-0.433883739j   |lambda|^2 = 1.000000000
+    lambda = -0.900968868-0.433883739j   |lambda|^2 = 1.000000000
+    lambda = -0.900968868+0.433883739j   |lambda|^2 = 1.000000000
+    lambda = -0.900968868+0.433883739j   |lambda|^2 = 1.000000000
+    lambda = -0.781831482-0.623489802j   |lambda|^2 = 1.000000000
+    lambda = -0.781831482+0.623489802j   |lambda|^2 = 1.000000000
+    lambda = -0.433883739-0.900968868j   |lambda|^2 = 1.000000000
+    lambda = -0.433883739+0.900968868j   |lambda|^2 = 1.000000000
+    lambda = -0.222520934-0.974927912j   |lambda|^2 = 1.000000000
+    lambda = -0.222520934-0.974927912j   |lambda|^2 = 1.000000000
+    lambda = -0.222520934+0.974927912j   |lambda|^2 = 1.000000000
+    lambda = -0.222520934+0.974927912j   |lambda|^2 = 1.000000000
+    lambda = -0.000000000-1.000000000j   |lambda|^2 = 1.000000000
+    lambda = +0.000000000-1.000000000j   |lambda|^2 = 1.000000000
+    lambda = -0.000000000+1.000000000j   |lambda|^2 = 1.000000000
+    lambda = +0.000000000+1.000000000j   |lambda|^2 = 1.000000000
+    lambda = +0.433883739-0.900968868j   |lambda|^2 = 1.000000000
+    lambda = +0.433883739+0.900968868j   |lambda|^2 = 1.000000000
+    lambda = +0.623489802-0.781831482j   |lambda|^2 = 1.000000000
+    lambda = +0.623489802-0.781831482j   |lambda|^2 = 1.000000000
+    lambda = +0.623489802+0.781831482j   |lambda|^2 = 1.000000000
+    lambda = +0.623489802+0.781831482j   |lambda|^2 = 1.000000000
+    lambda = +0.781831482-0.623489802j   |lambda|^2 = 1.000000000
+    lambda = +0.781831482+0.623489802j   |lambda|^2 = 1.000000000
+    lambda = +0.974927912-0.222520934j   |lambda|^2 = 1.000000000
+    lambda = +0.974927912+0.222520934j   |lambda|^2 = 1.000000000
+    lambda = +1.000000000+0.000000000j   |lambda|^2 = 1.000000000
+    lambda = +1.000000000-0.000000000j   |lambda|^2 = 1.000000000
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+    |lambda|^2 = 1.000000000 ~ 1 (best-effort)
+
+E3 DONE

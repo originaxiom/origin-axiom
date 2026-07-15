@@ -4367,3 +4367,14 @@ through the computed chain — C2 the 36-root census (classes product-consistent
 expansion gate; THE ROSETTA TABLE banked in mixed form — V₈'s tips class-PURE in q=(1,1,2) (the only
 gradable lines), the shallowest lines touch color and weak welds directly. GATE G1 OPENS; Phase 2 =
 B609 (the sealed value extraction) next. Lock test_b608_rosetta_gsm.py (OA_SLOW). Firewalled.
+
+## 2026-07-15 — B609 (Phase 2): THE SEALED VALUE TABLE banked — gate G2 open
+Under the pre-hashed prereg (#979): E1 the exact Killing-class mixing fractions (V₄'s top EXACTLY
+uniform 1/4×4; both wt+2 lines EXACTLY half su(3)-root; V₈'s deep lines exact 1/2:1/2; the tip pure
+(1,1,2)); E2 the declared amplitude bookkeeping; E3 the new spectra — κ=7 = the 8th roots of unity
+minus ±1 (char poly (λ²+1)(λ⁴+1)), κ=13 = 30 eigenvalues on 28th-root angles (integer palindromic
+char poly), with all gates (κ=4 deaf at exactly −1; traces per the B601 law) green; E4 all new
+eigenvalues unit-modulus. The table's sha256 (4c17d4d8…) committed with this bank — G2 OPEN: no
+comparison exists anywhere. Exploratory (no Phase-2 status): the hearing form is finite-order OFF
+the golden multiples and leaves the unit circle exactly ON them — chirality-with-magnitude is
+golden-exclusive; registered as a future prereg'd scan. Locks test_b609_sealed_values.py. Firewalled.
