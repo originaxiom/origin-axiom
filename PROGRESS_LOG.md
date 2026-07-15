@@ -4736,3 +4736,15 @@ Jeffrey pipeline agrees on all five rungs at 1e-15 — the B577 two-derivation s
 superseded-as-posed; the corrected mathematics target = B637 (the h¹ jump locus over the named
 gluing menu + the alternating cubic where h¹ ≥ 3; three coordinated disjoint pipelines). NO SM
 number anywhere; Gate 5 standing. Firewalled.
+
+## 2026-07-15 — B637 prereg sealed: the corrected cell 3 (the h¹ jump locus + the alternating cubic)
+The audit-corrected successor of L89 sealed (99815a48…) before any computation: the amalgam-Fox
+pipeline (method-disjoint from the audit's M–V and cc2's matched-pair route — the three must meet
+at the dimension table before any value); the registered predictions (h¹ = 2 at the chiral bends
+m = 4,8 ⇒ no 3-form exists there; h¹ = 5 at none/1/5/7/11 ⇒ the 10-component alternating 3-form is
+the genuinely-new object nobody has computed); the four B605 D₄-intertwiner gluings enter through
+exact GL(27) peripheral gates with INCOMPATIBLE as an honest verdict (the −A₁ precedent); controls
+before values (trivial-coefficient b₁ per B591-M4, corrected cup chains, coboundary invariance as
+assertions). Locked outcomes include the honest kill (3-form ≡ 0 ⇒ the mirror-axiom value route
+closed at the classical-cohomology level) and the discovery branch (a nonzero exact invariant of
+the coupled object — mathematics; physics readings wait on L91's typed functor). Firewalled.
