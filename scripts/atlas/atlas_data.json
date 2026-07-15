@@ -12562,6 +12562,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B616": {
+   "slug": "heldout",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B575",
+    "B581",
+    "B613"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [
