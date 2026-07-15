@@ -12469,6 +12469,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B610": {
+   "slug": "m136 weld",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B601",
+    "B609",
+    "K4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [
