@@ -326,3 +326,24 @@ magnitudes gauge — NO value-matching claim is in scope; the normalization
 arc stays gated and will be separately preregistered. K1/K2 consistency
 cells recorded honestly as computed-pre-seal (no verdict weight).
 Run order after full chain green: V1 → V2 → V3, each banked blind.
+
+## STEP 9 COMPLETE (2026-07-15): the clean-room pipeline reproduces the table — THE CHAIN IS FULLY GREEN
+
+**The verdict (`step9_independent_p1.py`, output `step9_output.txt`, lock
+`tests/test_b598_step9.py`).** A second pipeline sharing NO code and NO
+imported values with the l51/P1 stack — the 27 rebuilt from the E6 Cartan
+matrix (minuscule weight BFS, Frenkel–Kac cocycle signs, e_i = f_iᵀ), its
+own ℚ(√−3) arithmetic/rref/nullspace, the principal sl₂ from
+r = C⁻¹(2,…,2) = (16,22,30,42,30,16), the adjoint 78 from bracket BFS —
+passes every construction gate: 27 weights + Chevalley exact (G-A); the
+principal gates, e nilpotent of order 17 (G-B); **the relator is the exact
+identity precisely on the ζ₆ branch** (G-C — independently confirming the
+step-1 certificate's c = ζ₆); adjoint dim 78, exponents {1,4,5,7,8,11},
+block dims (3,9,11,15,17,23) (G-D). THE TABLE: dim H¹(π_K; V_m) = 1 and
+I_λ/I_μ = −2√−3 at ALL six blocks — the banked invariant content of P1,
+reproduced from scratch.
+
+**THE READINESS CHAIN IS FULLY GREEN:
+1 ✓(exact) · 2 ✓ · 3 ✓ · 4 ✓ · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓(sealed) · 9 ✓.
+P3's blind cells (V1 → V2 → V3) are now authorized under the sealed
+prereg's run order, each banked blind.**

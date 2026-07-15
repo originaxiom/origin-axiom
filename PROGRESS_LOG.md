@@ -4228,3 +4228,12 @@ level-independence, V3 the E₆₂ rank-2+1 conjugation splitting; A/B/D locked;
 gauge under width-respect so no value claim is in scope (the normalization arc stays gated). K1/K2
 recorded as computed-pre-seal consistency, no verdict weight. Runs open only when step 9 lands green.
 Firewalled.
+
+## 2026-07-15 — B598 step 9 GREEN: the clean-room P1 reproduces the table — THE CHAIN IS FULLY GREEN
+The independent pipeline (fresh 27 from the Cartan matrix with Frenkel–Kac signs; own ℚ(√−3)
+arithmetic; principal sl₂ r = (16,22,30,42,30,16); adjoint 78 by bracket BFS; no shared code, no
+imported values) passes all construction gates — the relator pins the ζ₆ branch, independently
+confirming step 1's exact certificate — and reproduces the invariant table: dim H¹ = 1 and
+I_λ/I_μ = −2√−3 at all six blocks. Lock test_b598_step9.py (OA_SLOW). THE READINESS CHAIN:
+1–9 ALL GREEN (8 sealed). P3's blind cells V1 → V2 → V3 now authorized, each banked blind, outcomes
+only via the locked A/B/D table. Firewalled.

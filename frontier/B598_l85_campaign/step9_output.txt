@@ -1,0 +1,12 @@
+G-A PASS: 27 weights; Chevalley gates exact
+G-B PASS: principal sl2 exact; r = [Fraction(16, 1), Fraction(22, 1), Fraction(30, 1), Fraction(42, 1), Fraction(30, 1), Fraction(16, 1)]; e nilpotent order 17
+G-C PASS: the relator is the exact identity (fresh model, branch zeta6)
+G-D PASS: adjoint 78; exponents [1, 4, 5, 7, 8, 11]; block dims [3, 9, 11, 15, 17, 23]
+THE INDEPENDENT TABLE:
+  m= 1 (dim  3): dimH1=1[True] G-unique[True] w-line[True] gauge[True] ratio I_lam/I_mu = (0-2w) [-2w: True]
+  m= 4 (dim  9): dimH1=1[True] G-unique[True] w-line[True] gauge[True] ratio I_lam/I_mu = (0-2w) [-2w: True]
+  m= 5 (dim 11): dimH1=1[True] G-unique[True] w-line[True] gauge[True] ratio I_lam/I_mu = (0-2w) [-2w: True]
+  m= 7 (dim 15): dimH1=1[True] G-unique[True] w-line[True] gauge[True] ratio I_lam/I_mu = (0-2w) [-2w: True]
+  m= 8 (dim 17): dimH1=1[True] G-unique[True] w-line[True] gauge[True] ratio I_lam/I_mu = (0-2w) [-2w: True]
+  m=11 (dim 23): dimH1=1[True] G-unique[True] w-line[True] gauge[True] ratio I_lam/I_mu = (0-2w) [-2w: True]
+STEP 9 DONE: the invariant table reproduced by the clean-room pipeline — dim H1 = 1 and I_lam/I_mu = -2*sqrt(-3) at all six blocks.
