@@ -1,0 +1,22 @@
+THE m136 WELD SCAN (word RRL) with fig-8 (RL) controls:
+ kappa   tr(RRL) real   tr(RRL) imag   cc  unit   tr(RL) (control)
+     4   -0.000000000   -1.000000000 False  True -1.000000000+1.2e-16j
+     5   -0.500000000   +0.866025404 False  True +0.618033989+4.4e-16j
+     6   +0.500000000   +0.866025404 False  True -0.000000000+1.7e-16j
+     7   +0.500000000   -0.866025404 False  True +0.000000000+8.0e-16j
+     8   -0.866025404   -0.500000000 False  True -1.000000000+1.4e-15j
+     9   +0.000000000   -0.000000000 False  True -0.000000000+3.9e-16j
+    10   +0.500000000   +0.866025404 False  True +0.618033989+2.2e-16j
+    11   -0.000000000   -0.000000000 False  True +0.000000000-2.8e-16j
+    12   -0.366025404   -0.633974596 False  True -1.000000000-1.3e-15j
+    13   -0.000000000   -0.000000000 False  True -0.000000000+1.6e-15j
+    14   +0.000000000   +0.000000000 False  True +0.000000000+3.3e-16j
+    15   +0.500000000   +0.866025404 False  True +0.618033989-1.3e-16j
+    16   -0.000000000   -1.000000000 False  True -1.000000000-2.1e-15j
+    20   -0.366025404   +0.366025404 False  True -0.381966011-6.7e-16j
+    24   -0.366025404   -0.633974596 False  True -1.000000000-3.2e-15j
+
+non-real m136 odd traces at kappa = [4, 5, 6, 7, 8, 10, 12, 15, 16, 20, 24]
+chat-1's 'silver tr_odd is COMPLEX' verdict: CONFIRMED at the listed kappa
+
+B610 SLICE-1 DONE

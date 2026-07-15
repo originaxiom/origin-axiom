@@ -4378,3 +4378,14 @@ eigenvalues unit-modulus. The table's sha256 (4c17d4d8…) committed with this b
 comparison exists anywhere. Exploratory (no Phase-2 status): the hearing form is finite-order OFF
 the golden multiples and leaves the unit circle exactly ON them — chirality-with-magnitude is
 golden-exclusive; registered as a future prereg'd scan. Locks test_b609_sealed_values.py. Firewalled.
+
+## 2026-07-15 — B610 slice 1 (Phase 4): the m136 weld scan — three universality splits
+The second object's stage side (the weld word R²L = m136, chat-1's "5₂" corrected): (1) chat-1's
+complex-trace claim CONFIRMED with exact-looking values (ω at κ=5; ζ₆ at 6/10/15; (1−√3)e^{iπ/3} at
+12/24 — ℚ(√3) through ζ₆-phases); (2) the conjugation-closure law is OBJECT-SPECIFIC — closed at
+every level for RL, at NO level for R²L; mechanism candidate: conjugation-closed hearing ⟺
+amphichirality [EXPLORATORY, registered]; (3) NO magnitude-chirality window for m136 (unit-modulus
+everywhere ≤ 24, including the disc-12 conductor levels) — the fig-8's golden-multiple departure is
+doubly special; chat-1's "silver conductor 7" matches nothing computed. The universality table's
+computed rows banked; interpretation stays in chat-1's lane. Classical-side m136 (torsions over the
+new field) = the registered heavy follow-on. Lock test_b610_m136_weld.py (fast). Firewalled.
