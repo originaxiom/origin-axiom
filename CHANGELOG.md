@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — B630/B631: the matrix comparison — STRUCTURED-NULL (p = 0.700); the interaction round closed
+
+### Added
+- B630: the sealed comparison design (PDG 2024 frozen source with B615's byte-identical sin²
+  values; min-over-72-alignments RMS statistic; 10⁶-sample Haar-U(3) null, seed 20260715;
+  locked verdict table; MB12 computed at sealing incl. the pre-banked D ≥ 0.0285 floor).
+- B631: the one mechanical run under both verified seals. D_obs = 0.13407 vs null median
+  0.10218 → **p_D = 0.700, STRUCTURED-NULL**; 0/9 entries at the 0.01 tier (null expects
+  0.77); robust to the NuFIT-proxy table and the δ_CP scan. The deliverable sentence: "The
+  3×3 odd hearing form at E₆ level 2 does not match the PMNS matrix at the 1% tier, with
+  null-model p-value 0.7000."
+- The stopping rule fires per the directive's binding clause: the SM-comparison capability
+  at this level is EXHAUSTED; the mathematics publishes as mathematics; deferred points 2/3
+  stay frozen behind new-directive + principled-prereg gates.
+- Locks `tests/test_b631_matrix_comparison.py` (fast + OA_SLOW exact seeded reproduction).
+
 ## 2026-07-15 — B629: the interaction-layer values sealed (the interaction round, part 1 of 3)
 
 ### Added

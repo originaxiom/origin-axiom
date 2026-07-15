@@ -12831,6 +12831,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B631": {
+   "slug": "matrix comparison",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "B615",
+    "B629",
+    "B630"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B63": {
    "slug": "sl4 symbolic m",
    "motifs": [

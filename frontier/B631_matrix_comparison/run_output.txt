@@ -1,0 +1,38 @@
+seal verified: B629_interaction_values/SEALED_INTERACTION_VALUES.md sha256=0ec9ac39488fff4b...
+seal verified: B630_matrix_comparison_design/COMPARISON_DESIGN.md sha256=e217e623c8be9535...
+
+frozen |U_PMNS|^2 (PDG 2024 central, delta=1.19pi):
+   0.677754  0.300246  0.022000
+   0.091358  0.374654  0.533988
+   0.230888  0.325100  0.444012
+
+D_obs = 0.13407059  (optimal alignment #2; 12 distinct framework variants of 72 — circulant degeneracy)
+
+aligned |B|^2 (framework, at the D-optimal alignment):
+   0.543134  0.349292  0.107574
+   0.107574  0.543134  0.349292
+   0.349292  0.107574  0.543134
+per-entry |aligned - measured| (ALL NINE, no selection):
+   0.134620  0.049046  0.085574
+   0.016216  0.168480  0.184696
+   0.118404  0.217526  0.099122
+  matches at |Delta| <= 0.01: 0/9
+  matches at |Delta| <= 0.001: 0/9
+
+Haar null: N=1000000, seed=20260715
+  null D: median=0.102176, 1%=0.024559, 10%=0.050218, min=0.001974
+  p_D = P(D_rand <= D_obs) = (700004+1)/(1000000+1) = 0.700004
+  null expected matches (of 9) at |Delta| <= 0.01: 0.7748
+  null expected matches (of 9) at |Delta| <= 0.001: 0.0775
+
+R-a (handoff NuFIT-proxy table): D = 0.13586323
+R-b delta_CP =     0: D = 0.09650176
+R-b delta_CP =  pi/2: D = 0.13020611
+R-b delta_CP =    pi: D = 0.12945508
+R-b delta_CP = 3pi/2: D = 0.13020611
+
+==== VERDICT (locked table): STRUCTURED-NULL (the stopping rule fires: the SM-comparison capability at this level is exhausted) ====
+
+"The 3x3 odd hearing form at E6 level 2 does not match the PMNS matrix at the 1% tier, with null-model p-value 0.7000."
+
+B631 DONE — raw output banked; seat 4 reviews before any narrative.

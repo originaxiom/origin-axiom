@@ -1000,3 +1000,14 @@ frozen NOW (B629, sha 0ec9ac39…) so no future design can tune them. The chain:
 B630 comparison design (separately sealed) → B631 one mechanical run → seat 4. If null: the SM
 comparison capability at this level is EXHAUSTED (no "next layer" escape — the directive's
 anti-unfalsifiability clause).
+
+## 2026-07-15 — THE INTERACTION ROUND CLOSED: STRUCTURED-NULL (p = 0.700); the stopping rule fires
+The one authorized comparison (B629 seal → B630 design → B631 run, every hash verified in-run)
+returned the cleanest outcome of the campaign: the hearing form's circulant is at the 70th
+percentile of Haar-random tables — no signal, no ambiguity, robust to source and CP-phase. Combined
+with Branch 3 (B615 ambiguous p=0.078; B616/B627/B628 controls and held-out families uniformly
+null): THE SM-VALUES QUESTION IS CLOSED AT EVERY TESTED LEVEL. The walls stand; the mathematics
+(the closure theorem, the sign-law family theorem, the conductor mechanism, the trace law, the
+pairing-chirality law, the exact hearing closed forms) publishes as mathematics. Deferred points 2
+(object-scale couplings) and 3 (composites) remain frozen (B629) and CANNOT run without a new
+owner-level directive + principled preregistration. Seat 4 reviews the full packet.
