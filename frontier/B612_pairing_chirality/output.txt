@@ -1,0 +1,13 @@
+      RL (amphichiral): closed at [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24]  [as the law demands]
+    RRLL (amphichiral): closed at [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24]  [as the law demands]
+    RLRL (amphichiral): closed at [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24]  [as the law demands]
+  RRRLLL (amphichiral): closed at [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24]  [as the law demands]
+     RRL (     chiral): closed at NONE  [as the law demands]
+    RRRL (     chiral): closed at NONE  [as the law demands]
+   RRLLL (     chiral): closed at [6]  [LAW VIOLATED]
+
+THE PAIRING-CHIRALITY LAW (dim_odd >= 2): FAIL
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B612_pairing_chirality/pairing_chirality.py", line 91, in <module>
+    assert ok, "law violated"
+AssertionError: law violated
