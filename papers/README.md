@@ -12,6 +12,9 @@ paper candidate != publication-ready result
 paper candidate = a coherent evidence cluster worth auditing
 ```
 
+All review and verification of these materials is INTERNAL (owner + AI
+seats; see `PROVENANCE.md` §0) — no paper here has been externally reviewed.
+
 The governed source of truth remains `CLAIMS.md`. A paper card may organize a
 result cluster, but it cannot upgrade the status of that result.
 

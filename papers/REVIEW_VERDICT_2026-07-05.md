@@ -1,6 +1,6 @@
 # Adversarial review verdict — Papers 1 & 2 (2026-07-05)
 
-*Four independent reviewers, each instructed to break the papers, not approve them: (1) a
+*Four independent INTERNAL reviewers (AI assistant seats; no external referee — see PROVENANCE.md §0), each instructed to break the papers, not approve them: (1) a
 from-scratch correctness recompute, (2) a journal-readiness referee, (3) a reproducibility /
 claims-integrity audit, (4) a hostile novelty / prior-art referee. This document records their
 verdict honestly and in full. It is not encouraging; it is accurate.*

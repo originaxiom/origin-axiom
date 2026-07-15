@@ -9,6 +9,13 @@ earlier repositories (see `legacy/github-repos.md`) and a long series of explora
 sessions. It was created on 2026-05-22 after a full audit of all prior work
 (`AUDIT_REPORT.md`, `PROVENANCE.md`).
 
+> **Verification provenance.** All verification in this repository is
+> INTERNAL — the owner plus AI assistant seats cross-checking one another.
+> Nothing here is externally verified or peer-reviewed. "Verified" always
+> means "recomputed by a second internal pipeline"; the checkable artifacts
+> are the locks and gates (see `PROVENANCE.md` §0, `REPRODUCIBILITY.md`).
+> The project's inner vocabulary is glossed in `TERMINOLOGY.md`.
+
 ---
 
 ## What this is — and what it is not
