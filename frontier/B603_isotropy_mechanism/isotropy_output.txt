@@ -1,0 +1,35 @@
+  direction m= 5: UNOBSTRUCTED
+  direction m= 7: UNOBSTRUCTED
+  direction m= 8 (theta-ODD): UNOBSTRUCTED
+  direction m=11: UNOBSTRUCTED
+======================================================================
+J rebuilt (Schur-unique)
+v0 weight support: [0]
+
+P-A/P-B — the isotropy law and its mechanism:
+  m= 1: g_m = 0;  move-across identity [True];  weight-FORCED zero: True
+  m= 4: g_m = 0;  move-across identity [True];  weight-FORCED zero: True
+  m= 5: g_m = 0;  move-across identity [True];  weight-FORCED zero: True
+  m= 7: g_m = 0;  move-across identity [True];  weight-FORCED zero: True
+  m= 8: g_m = 0;  move-across identity [True];  weight-FORCED zero: True
+  m=11: g_m = 0;  move-across identity [True];  weight-FORCED zero: True
+
+P-C — quantum dimensions (vacuum = primary 0):
+  primary 0: (0, 0, 0, 0, 0, 0)  d = +1.000000
+  primary 1: (1, 0, 0, 0, 0, 0)  d = +2.246980
+  primary 2: (0, 0, 0, 0, 0, 1)  d = +2.246980
+  primary 3: (2, 0, 0, 0, 0, 0)  d = +1.000000
+  primary 4: (0, 0, 0, 0, 0, 2)  d = +1.000000
+  primary 5: (1, 0, 0, 0, 0, 1)  d = +2.246980
+  primary 6: (0, 1, 0, 0, 0, 0)  d = +1.801938
+  primary 7: (0, 0, 1, 0, 0, 0)  d = +1.801938
+  primary 8: (0, 0, 0, 0, 1, 0)  d = +1.801938
+simple currents (d = 1, non-vacuum): [3, 4]
+Z3 charges Q(p) (from sigma = 3): [0, 2, 1, 1, 2, 0, 0, 1, 2]
+  odd pair   27 = (1,2): charges (2, 1)
+  odd pair 351' = (3,4): charges (1, 2)
+  odd pair  351 = (7,8): charges (1, 2)
+odd-form eigenvalues: -0.000000-1.000000j  +0.000000+1.000000j  -1.000000+0.000000j
+the V3 real channel (lambda = -1.000000+0.000000j) eigenvector |components| in (27, 351', 351): 0.362646  0.452212  0.814857
+
+B603 DONE

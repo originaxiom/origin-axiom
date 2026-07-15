@@ -4286,3 +4286,13 @@ table. The negative's content: the value bridge must be built from field-compati
 (norm-forms, traces — where B601's trace law and B595's det = φ² already live), not naive ratios;
 the phase lattice gap is one unit of 2π/30. Next candidate generation = a NEW prereg (norm-form
 cells). Firewalled.
+
+## 2026-07-15 — B603: the isotropy law is a one-line theorem (v0 is weight-pure); the L1 label corrected; the E₆₂ center measured
+g_m = 0 at ALL six blocks, and the mechanism is total: v0's weight support = {0}, so every bent state
+is weight-homogeneous of weight 2m ≠ 0 and J (weight-opposite-supported) makes it isotropic — theorem,
+one line. The banked "GENUINE (not forced)" label on the odd L1 zeros is sharpened: parity does not
+force them, WEIGHT does; all single-generator L1 contractions are weight-forced (step 4b's word-level
+R1 silence keeps its not-forced-yet-true status — letters mix weights). E₆₂ center: the simple
+currents are the (2,0)-pair (echoing SU(3)₂); the θ-odd sector is ENTIRELY center-charged (conjugate
+ℤ₃ charges (1,2) on all three pairs); the V3 real channel is a 351-dominated three-way mixture (data).
+Lock test_b603_isotropy.py (OA_SLOW). Firewalled.
