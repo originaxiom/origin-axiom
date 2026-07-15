@@ -109,3 +109,60 @@ of the alternating cubic on the nine h¹ = 5 doubles awaits the repaired
 evaluator (or an independent second route). Nothing about the 3-form's
 values is claimed. Per the sealed prereg, the outcome branches remain:
 ≡ 0 (the honest kill) / nonzero (a new invariant) — undecided.
+
+---
+
+## Part 2b RESOLVED (2026-07-15, the repair iteration): THE ALTERNATING CUBIC 3-FORM IS NONZERO — the discovery branch fires
+
+**The repair (two real bugs, both found by formal machinery):**
+
+1. **The Φ₂ correction-cell prefix** (`rel_chain`/`Phi2_fr`): the
+   corrected relator chain's correction is −p_{i−1}·[ℓ⁻¹|ℓ] — the
+   prefix BEFORE the inverse letter. My part-2b transcription used p_i
+   (the prefix including it). Provable one-word bug:
+   ∂([p|ℓ⁻¹] − p[ℓ⁻¹|ℓ]) = −pℓ⁻¹[ℓ] + telescope = exactly the Fox
+   pattern. (B632's cell-2 cup implementation had it RIGHT — which is
+   why the audit's 162-check verification passed there; the error was
+   re-introduced in this arc's re-transcription.)
+2. **The H₁ equivariant extension** in the literal verification machine
+   (early coefficient folding vs H₁(k[w]) = k·H₁([w])).
+
+Both were exposed by `b637_chainmachine.py` — the literal ℤΓ-chain
+machine (normalized bar complex; s, ∂, Φ, Ψ as chain operations; a
+GLOBAL fp-keyed section) whose formal gates now verify
+**∂₃H₂ = id − Φ₂Ψ₂ − H₁∂₂ exactly on all tested cells** and full
+formal δS−ω cancellation on trivial-certificate cells. (The formal
+residual on certificate-bearing cells is expected — δS = ω is a
+functional identity on cocycle inputs there, verified in 27-dim.)
+
+**After the one-word fix, ALL CLASS-LEVEL GATES PASS**
+(`part2b_stage2_fixed_output.txt`): coboundary invariance in all three
+slots, antisymmetry under both transpositions, section independence.
+Stage-1's quarantined table is confirmed as bug artifact (the old
+nonzero Y[012] is truly 0).
+
+**THE RESULT (exact, ℚ(√−3) = ℚ(ω), class-level):** the alternating
+cubic 3-form Λ³H¹(D;27) → ℂ is **NONZERO on every computed
+mirror-coupled double** — the sealed prereg's DISCOVERY branch:
+
+- unbent weld: 6/10 components nonzero; m = 5, 7, 11: 6/10;
+  **m = 1: 7/10** (the m=1 bend switches on Y[024]).
+- **The bend-independent core:** Y[023] = −7983360/13 + 2661120/13·ω′
+  and Y[123] = (221760/13)·ω′ are IDENTICAL across none/5/7/11 (ω′ the
+  √−3-part unit); Y[034], Y[124] = (2/3)·ω′ at 5/7/11.
+- **The bend-sensitive component:** Y[234] varies over ~20 orders of
+  magnitude with the bend — the one slot that hears the dial.
+- **The zero pattern:** Y[01k] = 0 for all k at none/5/7/11 — classes
+  0 and 1 (the coker-δ⁰ pair) never couple jointly except under the
+  m = 1 bend.
+
+Normalization caveat (declared in the prereg): individual magnitudes
+depend on the basis representatives; the invariant content is the
+zero pattern, the identities across bends, and nonvanishing itself.
+NO SM number appears anywhere; any physics reading of this invariant
+requires L91's typed functor first (Gate 5 stands).
+
+**Remaining for the complete Lane-3 close (queued):** the same
+10-component table on the four D_φ involution doubles (their peripheral
+pairs = the φ-words; fresh certificates), and cc2's cell-3a
+cross-adjudication when it lands.

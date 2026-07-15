@@ -12938,14 +12938,17 @@
    "motifs": [
     "eisenstein",
     "golden",
+    "amphichiral_cp",
     "symplectic"
    ],
    "refs": [
     "B591",
     "B605",
-    "B635"
+    "B632",
+    "B635",
+    "L91"
    ],
-   "obstacle": "observable",
+   "obstacle": "cancellation",
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"

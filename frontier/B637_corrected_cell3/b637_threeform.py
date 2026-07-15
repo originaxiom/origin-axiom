@@ -170,8 +170,10 @@ def rel_chain():
     for ch in REL:
         cells.append(("", pre, ch, +1))          # 1 * [p_{i-1} | x_i]
         if ch in 'AB':
-            nxt = freduce(pre + ch)
-            cells.append((nxt, ch, ch.lower(), -1))   # - p_i [l^-1 | l]
+            # correction: - p_{i-1} [l^-1 | l] (prefix BEFORE the letter;
+            # the p_i transcription was THE class-level-gate bug, found by
+            # the literal chain machine's formal boundary check)
+            cells.append((pre, ch, ch.lower(), -1))
         pre = freduce(pre + ch)
     return cells
 

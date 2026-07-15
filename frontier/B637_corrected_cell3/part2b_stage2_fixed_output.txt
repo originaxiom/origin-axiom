@@ -1,0 +1,80 @@
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.6s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   94.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  116.2s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  116.4s] G2a PASS: principal sl2 relations exact
+[  121.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  123.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 123.3s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+
+==== stage 2: the class-level gates (unbent double) ====
+reference Y[012] = (0)
+  G-A coboundary invariance, slot 0: True
+  G-A coboundary invariance, slot 1: True
+  G-A coboundary invariance, slot 2: True
+  G-B antisymmetry (01 swap -> -Y): True
+  G-B antisymmetry (12 swap -> -Y): True
+  G-C section independence (sig(mu lam) = LONG+a): True
+ALL CLASS-LEVEL GATES PASS — the 3-form values are class-level.
+
+==== the bent-weld doubles ====
+  D_bent(M; m=1):
+    Y[(0, 1, 2)] = 0
+    Y[(0, 1, 3)] = 0
+    Y[(0, 1, 4)] = 0
+    Y[(0, 2, 3)] = (-7983360/13+2661120/13r)
+    Y[(0, 2, 4)] = (-88704/13+29568/13r)
+    Y[(0, 3, 4)] = (-3300/13+3326/39r)
+    Y[(1, 2, 3)] = (0+221760/13r)
+    Y[(1, 2, 4)] = (0+7418/39r)
+    Y[(1, 3, 4)] = (1/24+2213/312r)
+    Y[(2, 3, 4)] = (42762038467677379200/143+17828643214581897600/143r)
+    nonzero: 7/10
+  D_bent(M; m=5):
+    Y[(0, 1, 2)] = 0
+    Y[(0, 1, 3)] = 0
+    Y[(0, 1, 4)] = 0
+    Y[(0, 2, 3)] = (-7983360/13+2661120/13r)
+    Y[(0, 2, 4)] = 0
+    Y[(0, 3, 4)] = (0+2/3r)
+    Y[(1, 2, 3)] = (0+221760/13r)
+    Y[(1, 2, 4)] = (0+2/3r)
+    Y[(1, 3, 4)] = (1/24+1/72r)
+    Y[(2, 3, 4)] = (-12168739087799033235686400/143+-8259548583313862132659200/143r)
+    nonzero: 6/10
+  D_bent(M; m=7):
+    Y[(0, 1, 2)] = 0
+    Y[(0, 1, 3)] = 0
+    Y[(0, 1, 4)] = 0
+    Y[(0, 2, 3)] = (-7983360/13+2661120/13r)
+    Y[(0, 2, 4)] = 0
+    Y[(0, 3, 4)] = (0+2/3r)
+    Y[(1, 2, 3)] = (0+221760/13r)
+    Y[(1, 2, 4)] = (0+2/3r)
+    Y[(1, 3, 4)] = (1/24+1/72r)
+    Y[(2, 3, 4)] = (1065906920626402042137600/13+143264198508388781644800/13r)
+    nonzero: 6/10
+  D_bent(M; m=11):
+    Y[(0, 1, 2)] = 0
+    Y[(0, 1, 3)] = 0
+    Y[(0, 1, 4)] = 0
+    Y[(0, 2, 3)] = (-7983360/13+2661120/13r)
+    Y[(0, 2, 4)] = 0
+    Y[(0, 3, 4)] = (0+2/3r)
+    Y[(1, 2, 3)] = (0+221760/13r)
+    Y[(1, 2, 4)] = (0+2/3r)
+    Y[(1, 3, 4)] = (1/24+1/72r)
+    Y[(2, 3, 4)] = (664265735496755481600/13+342781438582132300800/13r)
+    nonzero: 6/10
+
+summary (nonzero counts):
+  none: 6/10
+  m=1: 7/10
+  m=5: 6/10
+  m=7: 6/10
+  m=11: 6/10
+B637 part 2b stage-2 DONE
