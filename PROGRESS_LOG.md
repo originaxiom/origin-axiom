@@ -4748,3 +4748,16 @@ before values (trivial-coefficient b₁ per B591-M4, corrected cup chains, cobou
 assertions). Locked outcomes include the honest kill (3-form ≡ 0 ⇒ the mirror-axiom value route
 closed at the classical-cohomology level) and the discovery branch (a nonzero exact invariant of
 the coupled object — mathematics; physics readings wait on L91's typed functor). Firewalled.
+
+## 2026-07-15 — B637 part 1: THE DIMENSION TABLE CONFIRMED (two disjoint pipelines agree everywhere)
+The amalgam-Fox route (this seat's method-disjoint pipeline: the weld intertwiner solved at SL(2)
+level — 2-dim solution space, invertible det-1 representative — lifted through the principal
+embedding with both peripheral gates exact in GL(27); the 4-generator presentation; the
+trivial-coefficient control b₁(D) = 1 passed FIRST) reproduces the audit's twisted-M–V table at
+every point: **h¹(D;27) = 5 at none/1/5/7/11 and 2 at the full-E₆ chiral bends m = 4, 8; h⁰ = 0 at
+the chiral bends.** The registered predictions 7/7 CONFIRMED; the bends' peripherality verified
+in-run (step7's dial-slot facts). Consequences on two independent derivations: Λ³H¹ = 0 at the
+chiral bends (no 3-form exists there) and no global invariant section. cc2's matched-pair route =
+the third pipeline (adjudication row open until it lands). PART 2 QUEUED: the alternating cubic
+3-form at the five h¹ = 5 doubles (10 components each) behind the degree-3 evaluation derivation
+gate. Locks fast + OA_SLOW. Firewalled.
