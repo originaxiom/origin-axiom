@@ -25,3 +25,33 @@ CLAIM — compute the discriminating fact (here: prime supports) before
 sealing, not after.
 
 Run log follows; each cell banked blind per the sealed order.
+
+## THE RUN (sealed order) AND THE OUTCOME
+
+- **NF-0 GREEN (the stage constants, exact):**
+  (i) minpoly(h₃) = **5x⁴ + 5x³ + 1**; N_{ℚ(ζ₅)/ℚ}(h₃) = **1/5** exactly —
+  the golden stage's hearing amplitude is a norm-1/5 algebraic number
+  (the 5-vein). (ii) the E₆₂ amplitude norm-product = **1/49** (60-digit
+  certificate; exactly (4/7)³(√7/8)² by the classical sine-product
+  identity) — the 7-vein. The two stages' hearing data carry the clean
+  arithmetic norms 1/5 and 1/49 = 1/7².
+- **NF-1: all-fail (as the registered pre-run realization predicted).**
+  No (k₄, k₈) with |k| ≤ 3 satisfies the exact identity; residual at
+  k = (0,0): N(c₈)/N(c₄) = 11064936960000/169.
+
+## OUTCOME (per the locked table): D-nf
+
+> The torsion-normalized norm route closes negative. The diagnosis
+> (registered pre-run): **the torsions and the hearing integers are
+> arithmetically independent beyond the small primes** — τ₄'s 97 and
+> τ₈'s 31·607·49297 have no partners in N₄, N₈; no pure torsion-power
+> normalization can close the value gauge. Per the D-nf clause, the
+> value question now requires richer data: word-response norms or the
+> E₆₂ off-diagonal data (the next candidate generation, new prereg).
+
+## What survives as positive structure
+
+The NF-0 constants are keepers: N(h₃) = 1/5 and ∏|amp|² = 1/49 pair the
+two stages' hearing sectors with their defining primes (5 = the golden
+level's prime, 7 = the sine-kernel modulus / the banked L74 norm-7
+vein) — field-compatible anchors for whatever bridge comes next.
