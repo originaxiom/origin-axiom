@@ -1,0 +1,19 @@
+======================================================================
+diagram: branch=3, short end=1, long ends=0,5, mids=2,4
+V1 PASS: 36 roots; 12 theta-fixed + 12 pairs; pair heights [2, 2, 2, 2, 1, 1, 1, 1]
+theta gates PASS (e_pr, f_pr fixed; Cartan permuted per the fold)
+
+D5/16 labels via end node 0 (theta maps them to the end-5 labeling):
+
+R1 — the block resolution (exact):
+  h=1: pairs {D5,16} {D5,D5};  V8-line = 10080*o1 + 4032*o2 [MIXED];  V16-line = 33530112000*o1 + -44706816000*o2 [MIXED]
+  h=2: pairs {D5,16} {D5,D5};  V8-line = -336*o1 + -224*o2 [MIXED];  V16-line = -1117670400*o1 + 638668800*o2 [MIXED]
+  h=3: pairs {D5,16} {D5,D5};  V8-line = 8*o1 + 16*o2 [MIXED];  V16-line = 26611200*o1 + -9676800*o2 [MIXED]
+  h=4: pairs {D5,16} {D5,16};  V8-line = -1*o1 + 1*o2 [MIXED];  V16-line = -443520*o1 + -604800*o2 [MIXED]
+  h=5: pair {D5,16};  V16-line = -20160*o1
+  h=6: pair {D5,16};  V16-line = -480*o1
+  h=7: pair {D5,16};  V16-line = -16*o1
+  h=8: pair {16,16};  V16-line = 1*o1
+  h=0 (Cartan): V8-zero = 161280*(hP-hQ) + 120960*(hmP-hmQ);  V16-zero = 536481792000*(hP-hQ) + -1341204480000*(hmP-hmQ)
+
+B604 DONE

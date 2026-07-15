@@ -12353,6 +12353,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B604": {
+   "slug": "rosetta blocks",
+   "motifs": [
+    "torsion",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [
