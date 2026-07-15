@@ -4266,3 +4266,11 @@ predictions κ=16 → −1 and κ=40 → −1/φ² before the final form was wri
 is EXACTLY B587/B585's LAW-O from the finite Weil model — the odd RL-trace law is STAGE-UNIVERSAL,
 the second cross-model bridge after B595's det(I−B_odd) = φ². Lock test_b601_pairing_law.py (ungated,
 ~15 s). Firewalled.
+
+## 2026-07-15 — B602 opened: the value-bridge prereg SEALED (the arc outcome B opens)
+The cross-domain normalization made testable: four declared normalization cells (W-norm/J-norm ×
+identity-D/D-norm), comparanda X1 (phase) and X2 (magnitude) on the scale-free cross-ratios, the
+MB12 triple-check recorded per cell (including the honest EXPECTED-FAIL annotation on the W-norm X2
+cells from already-banked magnitudes — no pretense of blindness), outcome table A/B/D-norm locked,
+run order N0 → N1 → N2 with blind banking. Hashed into ARTIFACT_HASHES.txt before any comparison.
+Firewalled; a positive outcome only enables the next separately-preregistered arc.
