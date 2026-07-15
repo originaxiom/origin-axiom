@@ -4446,3 +4446,15 @@ look-elsewhere correction via per-grid Binomial tails, Šidák-combined; G3's p 
 verdict protocol (MATCH / STRUCTURED-NULL / AMBIGUOUS) with one mechanical run, every pair banked,
 seat 4 reviewing raw output before narrative. CC computed NO distances in drafting. AWAITING SEAT-4
 APPROVAL; on approval B615 runs the moment of truth. Firewalled until then.
+
+## 2026-07-15 — B615 (BRANCH 3, THE MOMENT OF TRUTH): AMBIGUOUS — corrected p = 0.078; the held-out test is now decisive
+The comparison ran once, mechanically, under the director-approved sealed design (hash verified
+in-run; 217 pairs, every one banked): G1 couplings ZERO; G2 angles THREE matches at the 1e-2 tier
+(0.5431 vs sin²θ₂₃; 1/(2φ) vs sin²θ₁₂; 4/13 vs sin²θ₁₂ — two of three on the same target), ZERO at
+1e-3; G3 mass-ratios ZERO; G4 hierarchy one null-compatible match (τ₈/τ₄ ~ M_GUT/M_Z within the
+half-decade, tail 0.50). Šidák-corrected best p = 0.0775 → the locked table's AMBIGUOUS band:
+suggestive-only, NO escalation; a new sealed design on the HELD-OUT set (the m136 classical
+torsions/integers) is now the decisive arc. Disclosures banked for seat 4 (two null-arithmetic
+implementation fixes after the first printout — match rows unchanged; PDG values from seat
+knowledge; the PMNS target-uncertainty caveat that can only weaken significance). Seat 4 reviews the
+raw record before any narrative; interpretation is chat-1's lane. Lock test_b615_comparison.py.

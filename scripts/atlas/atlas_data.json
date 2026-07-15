@@ -12547,6 +12547,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B615": {
+   "slug": "comparison",
+   "motifs": [
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B614",
+    "B616"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [
