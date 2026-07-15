@@ -1,0 +1,33 @@
+machinery gate k=2: diagonal = banked golden pair: True
+
+THE PAIRING LAW SCAN (kappa = k + 3; golden multiples marked *):
+  k  kappa  dim_odd  trace real  diag conj-closed  charpoly real  spec conj-closed
+  2     5*        2        True              True           True              True
+      trace = +0.618033989+0.000000000j
+      diag  = +0.309017+0.425325j  +0.309017-0.425325j
+  3     6         4        True             False           True              True
+  4     7         6        True             False           True              True
+  5     8         9        True             False           True              True
+  6     9        12        True             False           True              True
+  7    10*       16        True             False           True              True
+      trace = +0.618033989+0.000000000j
+      diag  = -0.010977+0.003567j  +0.234584+0.076221j  +0.151765-0.208887j  -0.256784+0.353433j  +0.234584+0.076221j  +0.245562-0.079788j  +0.042705+0.013876j  -0.105019-0.144546j  +0.404508+0.131433j  -0.151765-0.208887j  +0.404508-0.131433j  -0.010977+0.003567j  +0.042705-0.013876j  -0.105019-0.144546j  -0.245562-0.079788j  -0.256784+0.353433j
+ 12    15*       42        True             False           True              True
+
+THE TRACE LAW: trace(B_odd) = [5|k]/phi - [4|k]  (= -LAW-O, B587):
+  kappa= 5: trace = +0.618033989  predicted +0.618033989  [True]
+  kappa= 6: trace = -0.000000000  predicted +0.000000000  [True]
+  kappa= 7: trace = +0.000000000  predicted +0.000000000  [True]
+  kappa= 8: trace = -1.000000000  predicted -1.000000000  [True]
+  kappa= 9: trace = -0.000000000  predicted +0.000000000  [True]
+  kappa=10: trace = +0.618033989  predicted +0.618033989  [True]
+  kappa=11: trace = +0.000000000  predicted +0.000000000  [True]
+  kappa=12: trace = -1.000000000  predicted -1.000000000  [True]
+  kappa=15: trace = +0.618033989  predicted +0.618033989  [True]
+  kappa=16: trace = -1.000000000  predicted -1.000000000  [True]
+  kappa=18: trace = -0.000000000  predicted +0.000000000  [True]
+  kappa=20: trace = -0.381966011  predicted -0.381966011  [True]
+  kappa=24: trace = -1.000000000  predicted -1.000000000  [True]
+  kappa=25: trace = +0.618033989  predicted +0.618033989  [True]
+
+DONE (structure scan + the trace law; refines the V2 defect on record)

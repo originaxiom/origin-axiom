@@ -12290,6 +12290,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B601": {
+   "slug": "pairing law",
+   "motifs": [
+    "kappa",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B585",
+    "B587",
+    "B593",
+    "B595",
+    "B596",
+    "P3",
+    "V2"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [

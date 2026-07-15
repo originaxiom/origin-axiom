@@ -4255,3 +4255,14 @@ amendment 2 struck the magnitude clause as provably unsatisfiable from the banke
 V3′ PASS — the canonical conjugation rank-2+1 splitting produces the 2↔2 restoration. By the locked
 table: OUTCOME B. No value claims; the downstream stays gated. L85 RESOLVES → Review 18 fires (owner
 override; counter held at 19). Firewalled.
+
+## 2026-07-15 — B601: the V2 defect refined — the pairing is spectral at all levels; THE TRACE LAW; LAW-O is stage-universal
+The full odd hearing form B_odd = −UᵀW_RL U scanned at κ = 5..10, 15: the SPECTRUM is
+conjugation-closed at EVERY level (char poly real); the naive diagonal multiset closes ONLY at κ = 5.
+Outcome B stands as sealed, but the defect is located: BASIS-level, not structure-level (the same
+shape as B596's null — no naive level transport). THE TRACE LAW: trace(B_odd) = [5|κ]/φ − [4|κ] on a
+14-point grid, with the mod-4 clause registered as a conjecture and CONFIRMED on the discriminating
+predictions κ=16 → −1 and κ=40 → −1/φ² before the final form was written. The hearing minus of this
+is EXACTLY B587/B585's LAW-O from the finite Weil model — the odd RL-trace law is STAGE-UNIVERSAL,
+the second cross-model bridge after B595's det(I−B_odd) = φ². Lock test_b601_pairing_law.py (ungated,
+~15 s). Firewalled.
