@@ -12937,10 +12937,13 @@
    "slug": "corrected cell3",
    "motifs": [
     "eisenstein",
+    "golden",
     "symplectic"
    ],
    "refs": [
-    "B591"
+    "B591",
+    "B605",
+    "B635"
    ],
    "obstacle": "observable",
    "obstacle_conf": 2,
