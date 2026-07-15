@@ -1,0 +1,9 @@
+kappa=5 gate: u3 = +0.309016994+0.425325404j (banked +0.309016994+0.425325404j): True
+kappa=10: u3' = -0.010977469+0.003566796j
+kappa=10: u6' = +0.234584267+0.076221049j
+(a) conjugate pair: False
+(b) Im != 0 both:   True
+(c) Im-sign of the u3-analog stable (+): True
+
+V2 VERDICT (level-independence): FAIL
+banked blind; V3 runs only after this output is committed.
