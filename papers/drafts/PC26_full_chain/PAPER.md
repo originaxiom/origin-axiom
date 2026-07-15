@@ -181,9 +181,20 @@ model (Theorem 7.2's ±-symmetrized assembly): **the odd trace law is
 stage-universal across the two quantum models.** *Locks:* `test_b584`,
 `test_b585`, `test_b601_pairing_law`.
 
-**Theorem 7.2 (the Weyl-twisted Weil factorization).** As v1 **[PROVED
-numerically-exactly; framework CITED** Jeffrey**]**; the per-term SU(3)
-reciprocity proof remains **[CONJECTURE]**.
+**Theorem 7.2 (the Weyl-twisted Weil factorization).** As v1, with the
+novelty scope CORRECTED (2026-07-15 literature round): Andersen–Jørgensen
+(arXiv:1206.2552, Thm 4.1.1 and Props 4.1.2–4.1.3) already compute
+SU(3)/SU(N) torus-bundle invariants as Weyl-symmetrized Gauss sums for
+TRACE-±2 monodromies — the framework extension to higher rank is theirs
+**[CITED]**; this paper's content narrows to: general hyperbolic
+monodromies, the conductor menu det(A⊗(±w) − I₄) with its closed forms
+in the trace (now DERIVED: the discriminant identity det(h_w) =
+sign(w)·det(A⊗w − I₄) is proved exactly, 12/12 — the campaign's cell D),
+the C-coset/parity channel structure, and the tone/gating analysis
+(§§7.1, 8–9). The reduction of each term to a quadratic Gauss sum on
+(P/κQ)² with an explicit self-adjoint h_w is PROVED (96/96 exact); the
+final Deloup–Turaev reciprocity step is verified on the even-κ sub-case
+and remains **[CONJECTURE]** for odd κ.
 
 **Theorem 7.3 (sector exchange). [PROVED]** As v1: parity of the heard
 content is a property of the theater's symmetry group. *Lock:*
@@ -219,6 +230,11 @@ coefficient, and the norm-product of the three amplitudes is exactly 1/49.
 ---
 
 ## 8. The closure theorem: the heard spectrum's pairing is the object's chirality
+
+*(Novelty note, 2026-07-15: a direct read of Jeffrey 1992 found no
+spectral-conjugation statement and no C-twist/(−A)-lift identification —
+the boundary for Theorems 6.2 and 8.1 is hardened; Andersen–Jørgensen
+state only a one-sentence orientation-reversal remark.)*
 
 **Theorem 8.1 (the closure theorem). [PROVED]**
 Let (S, T) be modular data with S symmetric unitary, T diagonal unitary,

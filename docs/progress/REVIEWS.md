@@ -948,3 +948,24 @@ Counter: Review 18 done; the counter resumes normal cadence.
 
 anchor-commit: `0f90167` (Review 18, merged as #964 — the anchor line was omitted at banking;
 added here so the decadal counter registers the executed review.)
+
+## REVIEW 19 — EXECUTED 2026-07-15 (the post-campaign sweep, B601–B623)
+
+The ~32-merge stretch reviewed: (i) all in-flight corrections verified
+present (the V1/V3 sealing errata with hashed amendments; B609's
+exploratory unit-modulus note superseded by B611; the object-NAMING
+correction propagated to B610/B616/B618/B619 — census m136 = the silver
+RRLL bundle; the R²L trace-4 object relabeled); (ii) the sealed-protocol
+record is complete (B614 design → B615 comparison → B616 held-out → the
+literature target-source caveat routed to seat 4); (iii) promotion
+candidates confirmed: B613 (closure theorem), B617 (sign-law family
+theorem), B620+B623 (the conductor mechanism with the derived
+discriminant identity) — novelty boundaries mapped by the 2026-07-15
+literature round (Jeffrey-absence confirmed by direct read;
+Andersen–Jørgensen prior art APPLIED to PC26 Thm 7.2's scope, which was
+the review's one required correction); (iv) no external-verification
+pretense found in the stretch; provenance statements intact. The B618↔
+B621 observable reconciliation and the odd-κ reciprocity lemma are the
+stretch's registered residuals.
+
+anchor-commit: `1db9228` (Review 19; #996)
