@@ -1,0 +1,14 @@
+the conductor table det(A (x) w - I4), tr A = t — the claimed closed forms:
+  reflections: 4 - t^2  [PROVED symbolically]
+  all five closed forms verified at traces 3,4,5,6 (4 points, degree <= 2): PROVED by interpolation
+PROVED: the six signed-reflection terms carry conductor 4 - t^2 = MINUS THE TORSION BASE (B617); identity/rotation classes carry perfect squares.
+
+the field-carrier test (which coset carries sqrt(base)):
+     RL kap= 5 (BEARING): sqrt(5) in reflections: True; in identity/rotations: False
+     RL kap=10 (BEARING): sqrt(5) in reflections: True; in identity/rotations: False
+     RL kap= 6 ( silent): sqrt(5) in reflections: False; in identity/rotations: False
+   RRRL kap=14 (BEARING): sqrt(21) in reflections: True; in identity/rotations: False
+   RRRL kap=21 (BEARING): sqrt(21) in reflections: True; in identity/rotations: False
+   RRRL kap= 9 ( silent): sqrt(21) in reflections: False; in identity/rotations: False
+
+B620 DONE — the mechanism: the torsion base 4 - t^2 is the reflection-coset conductor; the field enters the hearing trace through exactly those Gauss terms.

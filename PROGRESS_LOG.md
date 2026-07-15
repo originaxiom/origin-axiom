@@ -4516,3 +4516,14 @@ shared 5-fold arithmetic; 1/(2φ) unrecorded in the flavor literature; all recor
 under the sealed B615 verdict with the source-sensitivity caveat — data points, never significance.
 The "angles-not-magnitudes" reading = a description of B615's raw outcome + the three-layer echo,
 firewalled. Lock test_b619_a5_bridge.py. Firewalled.
+
+## 2026-07-15 — B620: THE CONDUCTOR MECHANISM — the field has exactly one door
+The twelve Weyl-Weil conductors PROVED as closed forms in the trace (reflections symbolically; all
+five classes by 4-point integer interpolation): identity (t−2)², −identity (t+2)², rotations (t±1)²
+— ALL PERFECT SQUARES, hence field-blind — and the six signed reflections carry the unique
+non-square 4−t² = minus the torsion base. The object's field can enter the stage trace ONLY through
+the reflection coset; verified on two objects at bearing and silent levels (√5 and √21 sit in the
+reflections and only there, exactly when the level bears). The conductor arc completes: B617
+(theorem) + B618 (confirmed prediction) + B620 (mechanism) — one number, tr²−4, runs the torsion
+engine and the quantum field-door. One iteration recorded (the reflection-index set corrected
+before final reads). Lock test_b620_conductor_mechanism.py. Firewalled.
