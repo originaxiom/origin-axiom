@@ -5,8 +5,9 @@ terms, to strip the ambient/generic sqrt(3) leakage (from the A2 lattice's
 own e^{2pi i/3} content) that contaminates a non-squarefree base like 12.
 Also compute the identity+rotation ('other') coset sum as a control.
 """
+import os
 import sys
-sys.path.insert(0, "/private/tmp/claude-501/-Users-dri-origin-axiom/06195d53-d92a-477a-b1cb-cccccca43ae9/scratchpad/cellA")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import time
 import numpy as np
 from scan import weil_ops, rho_weil, WEYL, REFL, fit_sqrt

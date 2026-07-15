@@ -3,8 +3,9 @@ plus fit against sqrt(3) (the possibly-ambient A2 content) vs sqrt(12)
 (=2 sqrt(3), same test) to understand contamination, and compare against
 identity/rotation ('other') terms as a control.
 """
+import os
 import sys
-sys.path.insert(0, "/private/tmp/claude-501/-Users-dri-origin-axiom/06195d53-d92a-477a-b1cb-cccccca43ae9/scratchpad/cellA")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scan import weil_ops, rho_weil, WEYL, REFL, fit_sqrt
 
 for kap in [3, 4, 6, 7, 8, 9, 10, 11, 12, 16, 20, 24]:
