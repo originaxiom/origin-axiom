@@ -4494,3 +4494,16 @@ the bundle-torsion base tr²−4 (5, 12, 21) gates the hearing-trace field windo
 mod-7/21) — one number plays the semiclassical and quantum roles. Predictive-tier; the mechanism
 cell (through B587's Weil conductors) registered. Refinement: the tr-5 content follows the 7-part
 of 21. Lock test_b618_conductor.py. Firewalled.
+
+## 2026-07-15 — the literature synthesis: the picture clarified on all three fronts
+Three search seats synthesized (docs/LITERATURE_CONTEXT_2026-07-15.md): (1) PMNS — our |h₃|² IS the
+known GR1 golden ansatz exactly (A₅, several σ low); 1/(2φ) is unrecorded; AND the decisive honesty
+datum: the B615 angle matches are NOT robust to the target source (NuFIT 5.2 centrals 0.303/0.572
+put both outside the coarse tier) — the sealed verdict stands but the honest reading moves toward
+null (seat-4 input). (2) Torsion — B617's sign law + closed form are unrecorded (Menal-Ferrer–Porti
+work "up to sign"); Dubois's fig-8 adjoint 1/5 registered for convention reconciliation;
+Tran–Yamaguchi 2109.07058 = the tool for the m136 exterior port; the E₆-exponent family is
+untouched territory. (3) WRT — trace-level reality standard; the operator-level closure theorem
+(B613) and the higher-rank torus-bundle Gauss sums (B587) appear genuinely unrecorded (scanned-PDF
+caveats; manual reads of Jeffrey §4–5 and Andersen–Jørgensen before novelty claims). PC26
+citation/caveat updates registered. Firewalled.
