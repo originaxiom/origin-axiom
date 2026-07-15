@@ -166,3 +166,31 @@ requires L91's typed functor first (Gate 5 stands).
 10-component table on the four D_φ involution doubles (their peripheral
 pairs = the φ-words; fresh certificates), and cc2's cell-3a
 cross-adjudication when it lands.
+
+---
+
+## Cross-adjudication: cc2's cell-3 packet (verified on receipt, 2026-07-15)
+
+- **The three-pipeline agreement is complete on the plain weld double:**
+  cc2's independent amalgam-Fox run (their stage 1, all gates green)
+  gives h⁰(D;27) = 1, h¹(D;27) = 5 — identical to this arc's part-1
+  table and the audit's reproducer. Their kernel structure (Z¹ dim 31,
+  coboundary rank 26) matches ours exactly.
+- **Their "h¹ = 3" belongs to a FIFTH manifold**, not a discrepancy:
+  the conj∘θ-TWISTED double (glued through the amphichiral involution
+  composed with the diagram involution on the representation side) —
+  parity-clean structure: θ-even blocks double (h¹ = 2 each), θ-odd
+  do not (1 each); h¹(D;e₆) = 10; h¹(D;27) = 3. Added to the
+  TERMINOLOGY table as **D_conjθ(M)**. Their prereg self-correction
+  (the two gluings had been conflated) is the same lesson as audit
+  Gate 2, honestly recorded on their side.
+- **The bonus identification:** every H¹ direction of the twisted
+  double bends the cusp by ONE universal slope = −2√−3 = the cusp
+  modulus itself — B357/B598's universal boundary ratio now has a
+  geometric name (the cusp shape).
+- **Their stage 2 delivers the complementary invariant on the plain
+  double:** the vev-paired 5×5 class-level form — ANTISYMMETRIC (as
+  the corrected typing demands), rank 4, one kernel class, exact
+  ℚ(√−3) values (their blind bank). Their 2-form and this arc's
+  3-form are the chord's two class-level cubic-family invariants,
+  produced by independent machinery.

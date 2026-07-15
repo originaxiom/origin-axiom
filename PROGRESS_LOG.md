@@ -4808,3 +4808,16 @@ first nonzero cubic invariant of the chord, the mirror-axiom route's mathematica
 Normalization caveat declared (zero pattern/identities/nonvanishing = the invariant content).
 NO SM number; Gate 5 stands; physics readings wait on L91. Queued: the four D_φ tables; cc2's 3a
 cross-adjudication. Locks 6/6 + OA_SLOW. Firewalled.
+
+## 2026-07-15 — cc2's cell-3 packet verified on receipt: THREE PIPELINES AGREE; the fifth mirror manifold named
+cc2's independent amalgam-Fox stage 1 reproduces the plain weld double's h⁰ = 1, h¹(D;27) = 5
+(kernel 31/26 identical) — with the audit's reproducer and this seat's part-1 route, the dimension
+table now stands on three fully independent pipelines. Their "h¹ = 3" is a FIFTH manifold, not a
+discrepancy: **D_conjθ(M)** (the conj∘θ-twisted double; parity-clean: θ-even blocks double, θ-odd
+don't; h¹(D;e₆) = 10) — named in TERMINOLOGY per Gate 2; their own prereg self-correction recorded
+the earlier conflation honestly. BONUS: the twisted double's universal H¹ slope = −2√−3 = THE CUSP
+MODULUS — B357/B598's universal boundary ratio now has a geometric identification. Their stage 2
+banks the complementary invariant on the plain double: the vev-paired 5×5 form, ANTISYMMETRIC
+(typing ✓), rank 4, exact ℚ(√−3) — their 2-form + our 3-form = the chord's two class-level
+invariants from independent machinery. Stage 3 (the four D_φ tables + the unbent regeneration) is
+running. Firewalled.

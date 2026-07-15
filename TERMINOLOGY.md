@@ -46,3 +46,4 @@ No invariant may be transferred between these without an explicit map.
 | **L(5,2)** | the branched double cover Σ₂(4₁) | ℤ/5 | the classical mirror-pairing manifold (B591-M3) |
 | **D_g(M)** | the cusp-complement double M ∪_g M̄ per explicit gluing g | g = ±I → ℤ; g = ±A₁ → 0 (homology sphere) | ±A₁ is peripherally INCOMPATIBLE with the banked 27 local system; the B605 D₄-intertwiner gluings are named D_g(M) with g stated |
 | **D_bent(M; m)** | the representation-bent B582/B598 amalgam at bend m | — (local-system object) | h¹(D;27) = 2 at m = 4, 8; 5 at none/1/5/7/11 (B635-reproduced) |
+| **D_conjθ(M)** | the conj∘θ-twisted double (amphichiral involution composed with the diagram involution on the rep side) | — | h¹(D;27) = 3, h¹(D;e₆) = 10, parity-clean (θ-even doubles, θ-odd not); universal slope = the cusp modulus −2√−3 (cc2 cell-3a, verified on receipt at B637) |
