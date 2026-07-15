@@ -1,0 +1,8 @@
+======================================================================
+J rebuilt (Schur-unique)
+g_4 = (0+0w)   [ZERO (J-norm cells INVALID-DEGENERATE per the seal)]
+g_8 = (0+0w)   [ZERO (J-norm cells INVALID-DEGENERATE per the seal)]
+d_(1, 0) = +1.618033988750-6.83e-17j
+d_(2, 0) = +1.000000000000-4.22e-17j
+(reference: phi = 1.618033988750)
+N0 DONE (pre-comparison constants; banked blind before N1)
