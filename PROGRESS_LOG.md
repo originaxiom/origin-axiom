@@ -4319,3 +4319,14 @@ transformation, so the free answer is exact for that class. The handoff's 2-tetr
 CONFIRMED; its point-group exclusion REFUTED-AS-INCOMPLETE (the swap gap); its conclusion REFUTED:
 Fix(τ) = ∅, M₃⋊_τS¹ is a SMOOTH 4-manifold, and the "orbifold Lorentzian question" dissolves back to
 the smooth setting. Lock test_b605_door2.py (OA_SLOW). Firewalled.
+
+## 2026-07-15 — B606 RESOLVED: D-nf — no torsion-power normalization; the veins 1/5 and 1/49 banked
+The sealed run: NF-0 green — minpoly(h₃) = 5x⁴+5x³+1 with N(h₃) = 1/5 EXACT (the 5-vein), and the
+E₆₂ amplitude norm-product = 1/49 (the 7-vein; 60-digit certificate of the classical identity);
+NF-1 all-fail as the PRE-RUN-registered realization predicted (the prime supports decide it: τ₄'s 97
+and τ₈'s 31·607·49297 have no partners in the hearing integers). OUTCOME D-nf: the torsions and the
+hearing integers are arithmetically independent beyond small primes; the value question needs richer
+data (word-response norms; E₆₂ off-diagonals). Third sealing lapse of the day's class caught and
+registered pre-run ("both outcomes live" is a CLAIM — compute the discriminating fact before
+sealing); lesson appended to the MB12 memory. Lock test_b606_norm_bridge.py (ungated, seconds).
+Firewalled.

@@ -1,0 +1,7 @@
+NF-0(i): minpoly(h3) = 5*x**4 + 5*x**3 + 1 (degree 4); N(h3) = 1/5  [expected 1/5: True]
+NF-0(ii): E6_2 amplitude norm-product = 1/49 to 60 digits (dev 0.0e+00; exact value = (4/7)^3 (sqrt7/8)^2 by the classical product identity)
+NF-1: exact hits over |k| <= 3: NONE
+NF-1 residual at k = (0,0): N(c8)/N(c4) = 11064936960000/169 = (N8/N4)^2
+
+B606 VERDICT INPUT: D-nf (all-fail, as the registered pre-run realization predicted)
+B606 CELLS DONE
