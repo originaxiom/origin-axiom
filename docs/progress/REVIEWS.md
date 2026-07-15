@@ -922,3 +922,26 @@ everything else waits.
   labeled), papers carry true status. This window's corrections to consolidate: the V1/V3 sealing
   errata pattern (MB12 applies to operations AND criteria), the D2-retraction supersessions, the
   B591 terminology fix, the quarantined pre-synthesis chain (B517→B530→B531→B532, P43/P46/P51).
+
+## REVIEW 18 — EXECUTED 2026-07-15 (fired on the L85 resolution, per the owner override)
+
+Scope as pre-committed: **the provenance sweep** — `PROVENANCE.md` §0 added
+(all verification INTERNAL from day 0: owner + AI seats; "verified" =
+recomputed by a second internal pipeline, never an external referee;
+literature citations compare against published mathematics, they do not
+imply external checking of this work); `README.md` carries the same
+statement up front; `papers/README.md` and `papers/REVIEW_VERDICT_2026-07-05.md`
+qualified ("four independent reviewers" → internal AI-seat reviewers).
+**The terminology sweep** — `TERMINOLOGY.md` created at the root: the full
+inner vocabulary (bank/seat/lock/gate/prereg/firewall/stage/fold/dial/weld/
+hearing/clock/width/chain/outcome-table/MB12/verify-don't-trust) glossed
+into plain mathematics with pointers to the banked definitions; stated
+plainly that these are internal working names, not established terminology.
+**Papers true status** — the papers directory rule re-affirmed (candidate ≠
+proven ≠ publication-ready; all review internal). Consolidated from this
+window: the V1/V3 sealing-errata pattern is now a standing memory rule
+(MB12 covers operations AND criteria). The quarantined pre-synthesis items
+(B517→B530→B531→B532 chain, P43/P46/P51, B591 terminology) remain queued
+for the synthesis pass — they are corrections to specific banked findings,
+not provenance/terminology items, and stay tracked in REVIEWS/OPEN_LEADS.
+Counter: Review 18 done; the counter resumes normal cadence.

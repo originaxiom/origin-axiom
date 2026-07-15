@@ -1,5 +1,25 @@
 # Origin Axiom — Provenance Map
 
+## §0 — VERIFICATION PROVENANCE (read this first; Review 18, 2026-07-15)
+
+**From day 0 to the present, every verification in this repository has been
+INTERNAL: the owner plus AI assistant seats (multiple parallel chat/CLI
+sessions cross-checking one another). Nothing here has been externally
+verified, peer-reviewed, or endorsed by any third party.** Wherever this
+repository says "verified", "independently verified", "adversarially
+verified", "audited", "reviewed", or "confirmed", it means: recomputed or
+attacked by a SECOND INTERNAL PIPELINE (a different in-repo implementation,
+a different AI seat, a mod-p certificate, an exact-arithmetic lock) — never
+an external referee. References to published literature (e.g. "confirmed by
+Humbert", "per Goodman–Heard–Hodgson") cite prior published mathematics for
+comparison; they do not imply anyone outside the project has checked this
+work. The repository's own checkable artifacts are the locks (`tests/`,
+`OA_SLOW=1`), the gates (`scripts/gates/`), and the hashed preregistrations
+— run them yourself; that is the intended verification path
+(`REPRODUCIBILITY.md`). Inner terminology used throughout is glossed in
+`TERMINOLOGY.md`.
+
+
 **Compiled:** 2026-05-22 · **Compiled by:** repository consolidation audit
 **Purpose:** Map every surviving artifact of the Origin Axiom project to its date, origin,
 and contents, so that prior history is preserved and traceable from the new canonical repo.
