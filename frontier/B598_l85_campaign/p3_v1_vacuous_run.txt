@@ -1,0 +1,51 @@
+syntax ok
+  direction m=11: UNOBSTRUCTED
+======================================================================
+J rebuilt (Schur-unique)
+mirrored block m=4 (require class 1-w, mixed 1+w):
+    a1                                                0  class zero  expect zero   [True]
+    b1                                                0  class zero  expect zero   [True]
+    a2                                                0  class zero  expect zero   [True]
+    b2                               (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a1b1                                              0  class zero  expect zero   [True]
+    a2b2                             (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a1b2                             (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a2b1                                              0  class zero  expect zero   [True]
+    a1a2                                              0  class zero  expect zero   [True]
+    b1b2                             (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a1b1a2b2                         (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a2b2a1b1                         (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a1b2a2b1                         (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a1b1A1B1                                          0  class zero  expect zero   [True]
+    a1b2A1B2                         (2096640-2096640w)  class 1-w   expect 1+w    [False]
+    a1a2b1b2                         (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    b1a2b2a1                         (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a1b1a1                                            0  class zero  expect zero   [True]
+    a1b1b2                           (2096640+2096640w)  class 1+w   expect 1-w    [False]
+    a2b1b2                           (2096640+2096640w)  class 1+w   expect 1-w    [False]
+  mirrored m=4: swap verdict False
+mirrored block m=8 (require class 1+w, mixed 1-w):
+    a1                                                0  class zero  expect zero   [True]
+    b1                                                0  class zero  expect zero   [True]
+    a2                                                0  class zero  expect zero   [True]
+    b2                     (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a1b1                                              0  class zero  expect zero   [True]
+    a2b2                   (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a1b2                   (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a2b1                                              0  class zero  expect zero   [True]
+    a1a2                                              0  class zero  expect zero   [True]
+    b1b2                   (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a1b1a2b2               (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a2b2a1b1               (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a1b2a2b1               (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a1b1A1B1                                          0  class zero  expect zero   [True]
+    a1b2A1B2               (536481792000+536481792000w)  class 1+w   expect 1-w    [False]
+    a1a2b1b2               (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    b1a2b2a1               (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a1b1a1                                            0  class zero  expect zero   [True]
+    a1b1b2                 (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+    a2b1b2                 (536481792000-536481792000w)  class 1-w   expect 1+w    [False]
+  mirrored m=8: swap verdict False
+
+V1 VERDICT (the mirror-swap kill cell): FAIL
+banked blind; V2 runs only after this output is committed.

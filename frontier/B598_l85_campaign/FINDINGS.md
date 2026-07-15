@@ -347,3 +347,20 @@ reproduced from scratch.
 1 ✓(exact) · 2 ✓ · 3 ✓ · 4 ✓ · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓(sealed) · 9 ✓.
 P3's blind cells (V1 → V2 → V3) are now authorized under the sealed
 prereg's run order, each banked blind.**
+
+## P3 CELL V1: INVALID-VACUOUS at execution; AMENDMENT 1 sealed (2026-07-15)
+
+The sealed V1 operation v_m → mconj(v_m) executed as the IDENTITY: v₄ and
+v₈ are REAL matrices (the discriminating fact, checked in-sandbox), so the
+run necessarily reproduced the unmirrored 4b values bit-for-bit and could
+not meet the swapped-class expectations. Per MB12 this invalidates the
+CELL AS OPERATIONALIZED — verdict INVALID-VACUOUS, no outcome weight; the
+run is preserved (`p3_v1_vacuous_run.txt`). The sealing error is mine and
+is recorded: the vacuity check was applied to the criterion but not to the
+operation. The sealed intent (mirror ↔ conjugation equivariance) stands;
+AMENDMENT 1 (`STEP8_P3_PREREG_AMENDMENT1.md`, sha256 ec08f67f…, hashed
+into ARTIFACT_HASHES.txt BEFORE the amended run) re-operationalizes V1 as
+the COPY-EXCHANGE mirror: the twist moves to copy 1 (b1 → c·B27·c⁻¹,
+b2 → the untwisted mirror letter), words mapped by σ (1↔2), prediction
+r^{V1′}(σw) ∈ the γ-conjugate class of the banked r^{4b}(w) — structurally
+a different computation that can genuinely fail. V1′ = the kill cell.

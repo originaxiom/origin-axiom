@@ -4237,3 +4237,11 @@ confirming step 1's exact certificate — and reproduces the invariant table: di
 I_λ/I_μ = −2√−3 at all six blocks. Lock test_b598_step9.py (OA_SLOW). THE READINESS CHAIN:
 1–9 ALL GREEN (8 sealed). P3's blind cells V1 → V2 → V3 now authorized, each banked blind, outcomes
 only via the locked A/B/D table. Firewalled.
+
+## 2026-07-15 — P3 V1 executed VACUOUS (v_m real ⇒ mconj = identity); amendment 1 sealed; V1′ queued
+The sealed V1 mirror operation was the identity in disguise — v₄, v₈ are real, so mconj(v_m) = v_m
+(discriminating fact in-sandbox; run preserved). Verdict INVALID-VACUOUS, no outcome weight; the
+sealing error recorded (MB12 applied to the criterion but not the operation). Amendment 1 hashed
+before the amended run: V1′ = the copy-exchange mirror (twist on copy 1, words σ-mapped, prediction =
+γ-conjugate classes of the banked 4b responses) — non-vacuous, faithful to the sealed intent.
+Firewalled.
