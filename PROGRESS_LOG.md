@@ -4138,3 +4138,15 @@ failure-enforcing scripts; the internal-consistency relabel; supersession notes)
 tests/test_b598_steps35.py (OA_SLOW subprocess-manifest). Chain state: 1 provisional, 2 ✓, 3 ✓,
 5-core ✓; next: the restated lemma, step 4 (the typed map + cross-domain normalization), 6, 7 (G1-
 FINITE), 8, 9. Firewalled.
+
+## 2026-07-15 — the restated symmetry lemma BANKED (artifacts; lock follows the in-flight green)
+J is SYMMETRIC (Schur-forced). THE MOVE-ACROSS LEMMA ⟨Xu,v⟩_J = −ε_X⟨u,Xv⟩_J exact on all six block
+generators — the selection rule restated for the legitimate 27–27̄ pairing (D5 complete). THE
+FORCED-ZERO MAP: the even-block first-order silences are STRUCTURAL (forced by J-symmetry); **the
+θ-odd zeros (m = 4, 8) are NOT forced and hold — genuine facts about the object** (chat-2's parity
+lemma sharpened, not just saved). THE J-PAIRED WELD VALUES = the raw-dot values EXACTLY (identical
+integers incl. scale) — the classical family survives the pairing correction verbatim; the
+recompute-under-J sub-item resolves as exact agreement. P3 consequence: the classical discriminating
+content is provably concentrated in the cross-domain normalization (step 4) + the non-forced θ-odd
+quadratic data. Artifacts hashed; the assert-hardened re-verification in flight; the OA_SLOW lock
+lands on its green. Firewalled.

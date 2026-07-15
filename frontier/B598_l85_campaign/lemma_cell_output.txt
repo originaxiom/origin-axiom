@@ -1,0 +1,25 @@
+[  381.3s]   B(u_8, u_11) components: ALL ZERO
+
+======================================================================
+THE VERDICT (second-order obstruction along pure directions):
+  direction m= 1: UNOBSTRUCTED
+  direction m= 4 (theta-ODD): UNOBSTRUCTED
+  direction m= 5: UNOBSTRUCTED
+  direction m= 7: UNOBSTRUCTED
+  direction m= 8 (theta-ODD): UNOBSTRUCTED
+  direction m=11: UNOBSTRUCTED
+======================================================================
+(i) J^T = c J with c = 1,0  (Schur-forced)
+(ii) THE MOVE-ACROSS LEMMA <Xu,v>_J = -eps_X <u,Xv>_J: verified on all
+     six block generators x random vectors (exact)
+(iii) the forced-zero criterion: <v_m v0, v0>_J forced 0 iff eps_m*c != -1
+    m= 1 (eps=+1): value = 0   criterion: FORCED
+    m= 4 (eps=-1): value = 0   criterion: not forced
+    m= 5 (eps=+1): value = 0   criterion: FORCED
+    m= 7 (eps=+1): value = 0   criterion: FORCED
+    m= 8 (eps=-1): value = 0   criterion: not forced
+    m=11 (eps=+1): value = 0   criterion: FORCED
+(iv) the J-paired weld values (t = 1, word b2) — the corrected classical entries:
+    m=4: <v0, b2 v0>_J = (-536479695357+536483888640w)
+    m=8: <v0, b2 v0>_J = (536481792003-536481792000w)
+DONE
