@@ -72,3 +72,40 @@ element; signs die on the 27 — all principal weights even):
   2b, behind the degree-3 derivation gate).
 
 `b637_d4_gluings.py`, `part2a_output.txt`; lock extended.
+
+---
+
+## Part 2b (2026-07-15, HONEST PARTIAL — the machinery banked, the values QUARANTINED)
+
+**The derivation gate OPENED:** the T∘H evaluation formula for the
+alternating 3-form on the amalgam is derived and implemented
+(`b637_threeform.py`): H³(π) ≅ coker(H²(sides) → H²(T²)) by the
+graph-of-groups sequence; Y = S₁(z_T) − S₂(z_T′) with S = ω∘H₂, H the
+recursive equivariant bar-vs-Fox homotopy; Ψ₂ from van Kampen
+certificates (beam search + exact free-group replay verification — the
+peripheral commutator has AREA 2: [λ,μ] = (u₁ r u₁⁻¹)(u₂ r⁻¹ u₂⁻¹),
+`certificate.json`).
+
+**What is VERIFIED:** δS = ω exactly on six cells including certificate
+paths and peripheral cells (`part2b_stage1_output.txt`, D3); cocycle
+consistency across the peripheral identification (D1); res-ω equality
+across sides (D2); section independence of the assembled value (G-C).
+
+**What FAILED — the sealed gates working as designed:** the class-level
+gates (coboundary invariance in every slot, antisymmetry under
+transpositions) FAIL (`part2b_stage2_output.txt`), so stage-1's
+"10/10 nonzero" table is NOT class-level data and is QUARANTINED —
+banked only as machinery output, carrying no mathematical claim. The
+diagnostics (`b637_diag.py`, `b637_diag2.py`) localize the defect:
+**δS′ = ω′ fails for coboundary-shifted cocycle inputs on the same cell
+where the unshifted identity holds (E2), and the shift moves only
+side-1 cells (E1)** — an input-dependent implementation defect in the
+S-evaluator, not a gap in the derivation (the invariance is forced
+mathematically: H²(side; ℂ) = 0 and ∂z_T ⊗ ℤ = 0). The minimal failing
+case is recorded; the repair continues with it as the unit test.
+
+**The honest state of the 3-form question:** OPEN. Existence/vanishing
+of the alternating cubic on the nine h¹ = 5 doubles awaits the repaired
+evaluator (or an independent second route). Nothing about the 3-form's
+values is claimed. Per the sealed prereg, the outcome branches remain:
+≡ 0 (the honest kill) / nonzero (a new invariant) — undecided.

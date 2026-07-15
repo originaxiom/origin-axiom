@@ -4773,3 +4773,18 @@ compatible doubles — h¹ = 5 everywhere EXCEPT exactly the full-E₆ chiral be
 3-form's exact values) queued behind the degree-3 derivation gate (the T∘H homotopy formula on the
 amalgam or the M–V localization — validated on the trivial-coefficient control first, per the
 sealed prereg). Firewalled.
+
+## 2026-07-15 — B637 part 2b: THE DERIVATION GATE OPENED; the first values QUARANTINED by their own sealed gates
+The T∘H evaluation formula for the alternating 3-form derived and implemented (H³(amalgam) ≅
+coker(H²(sides) → H²(T²)); Y = S₁(z_T) − S₂(z_T′), S = ω∘H₂, the recursive equivariant bar-vs-Fox
+homotopy; Ψ₂ from van-Kampen certificates — **the peripheral commutator has AREA 2**, found by beam
+search and replay-verified exactly). VERIFIED: δS = ω on six cells incl. certificate/peripheral
+paths; cross-side cocycle and res-ω consistency; section independence. **THE SEALED CLASS-LEVEL
+GATES FIRED: coboundary invariance and antisymmetry FAIL — stage-1's 10/10-nonzero table is NOT
+class-level and is QUARANTINED (no mathematical claim).** Diagnostics localize the defect to an
+input-dependent failure of δS′ = ω′ under coboundary-shifted inputs (E2; the E1 side-asymmetry as
+the second clue) — an implementation defect, not a derivation gap (invariance is mathematically
+forced: H²(side;ℂ) = 0, ∂z_T ⊗ ℤ = 0). The minimal failing case is banked as the repair's unit
+test. The 3-form question stays OPEN per the prereg's branches. The discipline note: this is the
+second time today a sealed control caught a wrong number before banking — the gates pay for
+themselves. Firewalled.
