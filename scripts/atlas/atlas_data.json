@@ -12728,6 +12728,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B623": {
+   "slug": "reciprocity progress",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [
+    "B587",
+    "B620",
+    "L82"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B62": {
    "slug": "opposition involution",
    "motifs": [

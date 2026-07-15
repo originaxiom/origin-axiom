@@ -4541,3 +4541,12 @@ NEGATIVE data point at m=1; plus THE FIELD CROSSOVER (fig-8's adjoint Jacobian i
 in ℚ(√5) — the objects swap fields; data, mechanism open). Cell B: the three torsion conventions
 reconciled (B423 bundle ≠ B581 exterior = category difference; B581 −3 ↔ Dubois 1/5 = basis
 conventions; one OCR-garbled link flagged). Firewalled.
+
+## 2026-07-15 — B623 banked (reduction PROVED; conductor identity DERIVED); PC26 scope corrected; REVIEW 19 executed
+Cell D: each Weyl-Weil term = a quadratic Gauss sum on (P/κQ)² (96/96 exact) and det(h_w) =
+sign(w)·det(A⊗w−I₄) (12/12 exact) — B587's conductor menu is now DERIVED; the odd-κ Deloup–Turaev
+step is the sharply-scoped residual. Cell E applied: PC26 Thm 7.2's novelty scope corrected
+(Andersen–Jørgensen Thm 4.1.1 = the higher-rank Gauss-sum prior art for trace-±2 bundles; the
+Jeffrey-absence hardens Thms 6.2/8.1). REVIEW 19 executed (the B601–B623 sweep: corrections present,
+sealed record complete, promotion candidates confirmed, no provenance violations; anchor 1db9228).
+Firewalled.
