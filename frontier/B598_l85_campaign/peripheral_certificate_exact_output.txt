@@ -1,0 +1,4 @@
+exact: the relator forces c^2 - c + 1 = 0 (both geometric branches)
+branch c = 1/2 - sqrt(3)*I/2: commute True; exp-sum True; group-equal True; cusp shape -[[1, +-2sqrt(-3)],[0,1]] True; unit True
+branch c = 1/2 + sqrt(3)*I/2: commute True; exp-sum True; group-equal True; cusp shape -[[1, +-2sqrt(-3)],[0,1]] True; unit True
+STEP 1 UPGRADED: the peripheral certificate is exact over Q(sqrt-3). DONE

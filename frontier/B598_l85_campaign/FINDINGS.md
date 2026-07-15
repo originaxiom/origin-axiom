@@ -263,3 +263,17 @@ integers (N₄, N₈) + one universal word-pattern + the conjugate-phase
 assignment; everything else is forced by structure (steps 3, 4a, 5). The
 stage side is the exact hearing-law amplitudes (step 6). The comparison
 itself remains SEALED behind steps 7–8–9.
+
+## STEP 1 UPGRADED (2026-07-15): the peripheral certificate is exact
+
+The provisional numerical certificate (least_squares; kept on disk) is
+superseded by `peripheral_certificate_exact.py`: over ℚ(√−3) symbolically,
+the relator FORCES c² − c + 1 = 0 (so c = (1±√−3)/2 = ζ₆ or ζ̄₆ — the same
+ζ₆ that is the stage parameter of the 27-model's B = exp(ζ₆ f)); at both
+branches the certified longitude "abABaaBAbA" commutes with the meridian,
+is null-homologous, is group-equal to a(bABaaBAb)a⁻¹, has the banked cusp
+shape −[[1, ±2√−3],[0,1]] with trace −2, and c is a UNIT (c·c̄ = 1): the
+geometric rep lives over the ring of integers of ℚ(√−3). Output
+`peripheral_certificate_exact_output.txt`; lock
+`tests/test_b598_step1_exact.py` (ungated, ~1 s). Chain step 1:
+provisional → EXACT.
