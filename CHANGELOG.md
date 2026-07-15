@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — readiness steps 3 + 5: the universal ratio; the J intertwiner; D-fixes
+
+### Added / Fixed
+- Step 3: the gauge-invariant boundary table collapses to ONE number — I_λ/I_μ = −2√−3 at
+  all six blocks = the banked universal cusp datum, re-derived. Step 5: the exact 27–27̄
+  intertwiner J (Schur-unique, invertible, group-gate green; the no-untwisted-form check = 0;
+  the J-corrected L1 zeros hold). The D1–D10 fixes banked (the D2 retraction, P2-preflight
+  rename, retrospective labels, provisional certificate, failure-enforcing gates,
+  supersession notes). Locks: tests/test_b598_steps35.py (OA_SLOW).
+
+
 ## 2026-07-15 — the seat-4 audit adopted; the readiness chain gates P3; item-6 corrected
 
 ### Added / Fixed

@@ -48,3 +48,36 @@ mandatory before any claim that the mirror-double exists at finite
 deformation; until then all such statements are FORMAL/JET-LEVEL. The
 G1-recomputation (in-repo, committed code, with the certified longitude) is
 registered as a mandatory campaign cell.
+
+## SECOND AMENDMENT (2026-07-15, the freshness addendum D1–D10 adopted)
+
+- **D2 RETRACTION:** the "quadratic-arrow verdict" ("the arrow is quadratic;
+  P3 matches at order two; B599 is the classical side of P3") is RETRACTED
+  as a banked claim — no map was constructed to have an order; it survives
+  only as a heuristic expectation. Every ledger surface carrying it is
+  superseded by this note (PROGRESS_LOG is append-only; the supersession
+  entry is authoritative).
+- **D1:** the banked "P2" is renamed **P2-preflight** (gates + data; the
+  quantization map does not yet exist).
+- **D3:** the P2 script's "PREREGISTERED" docstring label was not a
+  pre-result timestamp (source + output + verdict shipped together in #945);
+  relabeled RETROSPECTIVELY REGISTERED; the failed odd-trace prediction
+  stands permanently as an exploratory failure.
+- **D6:** the peripheral certificate is NUMERICAL evidence in one
+  representation; group equality requires the faithfulness of the geometric
+  rep (Thurston — cited, not re-proven here), and primitivity, preferred
+  framing, and cusp ORIENTATION (the certificate checked |Im| only) are not
+  yet certified. **Readiness step 1 is PROVISIONAL** pending the exact
+  algebraic peripheral derivation (seat 4's adjudication §3–4 is the
+  blueprint to port in-repo).
+- **D7:** Gate B covers one vector per block and the letter 'a' only — an
+  implementation spot-check, not the full intertwining claim; full-basis ×
+  both-generators coverage is a chain sub-item.
+- **D8:** the P2 and word-independence scripts were print-only; both are now
+  failure-enforcing (asserts added).
+- **D9:** the six-block word-independence run is an exact INTERNAL
+  consistency check (same pipeline), relabeled as such.
+- **D4 (refinement):** the invariant ratio (I_λ : I_μ) of step 3 removes
+  gauge AND scale within a block; what it does not supply is the
+  CROSS-DOMAIN normalization (classical scale ↔ stage scale) — that is
+  step-4's explicit obligation.

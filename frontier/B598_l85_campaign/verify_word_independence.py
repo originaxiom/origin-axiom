@@ -1,4 +1,6 @@
-"""Verification (seat 4's step 3 + the erratum's claim): at ALL SIX blocks,
+"""INTERNAL CONSISTENCY CHECK (D9: same-pipeline — it reuses the B575 source and
+the same Fox/cocycle logic; NOT the independent reproduction of readiness step 9,
+which remains absent): at ALL SIX blocks,
 the cocycle evaluated on the canonical longitude word bABaaBAb equals its
 evaluation on the group-equal word abABaaBAbA (word-independence of cocycle
 values), and Gate A holds with the canonical word too.
@@ -129,3 +131,4 @@ for mexp in sorted(BLOCK_DATA.keys()):
     ALL_OK &= eq and gA
     print(f"block m={mexp:2d}: xi(canonical) == xi(used word): {eq};  Gate A (canonical): {gA}")
 print("ALL SIX BLOCKS:", "PASS" if ALL_OK else "FAIL")
+assert ALL_OK, "word-independence/Gate-A failed"  # failure-enforcing (D8)

@@ -1,0 +1,30 @@
+[  580.6s]   B(u_7, u_11) components: ALL ZERO
+[  608.7s]   B(u_8, u_11) components: ALL ZERO
+
+======================================================================
+THE VERDICT (second-order obstruction along pure directions):
+  direction m= 1: UNOBSTRUCTED
+  direction m= 4 (theta-ODD): UNOBSTRUCTED
+  direction m= 5: UNOBSTRUCTED
+  direction m= 7: UNOBSTRUCTED
+  direction m= 8 (theta-ODD): UNOBSTRUCTED
+  direction m=11: UNOBSTRUCTED
+======================================================================
+STEP 3 — the gauge-invariant boundary table:
+  m= 1: gauge-gate True; nonvanishing True; (I_mu : I_lam) ratio I_lam/I_mu = (0-2w)
+  m= 4: gauge-gate True; nonvanishing True; (I_mu : I_lam) ratio I_lam/I_mu = (0-2w)
+  m= 5: gauge-gate True; nonvanishing True; (I_mu : I_lam) ratio I_lam/I_mu = (0-2w)
+  m= 7: gauge-gate True; nonvanishing True; (I_mu : I_lam) ratio I_lam/I_mu = (0-2w)
+  m= 8: gauge-gate True; nonvanishing True; (I_mu : I_lam) ratio I_lam/I_mu = (0-2w)
+  m=11: gauge-gate True; nonvanishing True; (I_mu : I_lam) ratio I_lam/I_mu = (0-2w)
+
+STEP 5 — the exact 27-27bar intertwiner J:
+  h_pr diagonal in the model: True
+  weight-opposite support size: 49 (of 729)
+  solution space dim (Schur gate, expect 1): 1
+  rank(J) = 27 (invertible: True)
+  group gate: A27^T J A27 = J: True
+  untwisted-form solution dim (seat 4's claim, expect 0): 0
+  J-L1 m=4: (v_m v0)^T J v0 = 0
+  J-L1 m=8: (v_m v0)^T J v0 = 0
+DONE

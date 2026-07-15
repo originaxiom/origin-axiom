@@ -12209,8 +12209,8 @@
     "P3",
     "V2"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 2,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },

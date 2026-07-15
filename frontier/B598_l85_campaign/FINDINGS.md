@@ -108,3 +108,31 @@ the k = 1 vanishing IS proven (L1, B599-ALG). Consequence for P3 (the
 structural verdict): the arrow's Θ-graded content is quadratic — the
 classical side of the matching is the banked B599-ALG t²-family; the
 first-order δtr table is the even-channel (gauge) boundary data.
+
+## Readiness steps 3 + 5 — banked (2026-07-15)
+
+**Step 3 — THE UNIVERSAL BOUNDARY RATIO.** The gauge-invariant content of the
+cusp table, per block: the invariant form G (unique up to scale, solved
+exactly), the peripheral-invariant line w, and the invariant ratio. The
+result: **I_λ/I_μ = −2√−3 at every one of the six blocks** — the gauge- and
+scale-invariant content of the entire table is ONE number, and it is the
+banked universal cusp datum τ (PC25's "single universal cusp datum across all
+exponents"), now re-derived from the Fox pipeline through canonical
+functionals. Gauge gates and rank-6/6 nonvanishing asserted (failure-
+enforcing). What this does NOT supply (D4): the cross-domain normalization —
+step 4's obligation, unchanged.
+
+**Step 5 — THE EXACT 27–27̄ INTERTWINER J.** Solved on the generators
+{e_pr, f_pr, v₄} with θ = ±1 by block parity, weight-reduced (support 49 of
+729): **Schur-unique (solution dim 1), invertible (rank 27), group-gate
+green (A27ᵀJA27 = J)** — and the control seat 4 demanded: **the untwisted
+solve (no θ) returns dimension 0** — there is no E₆-invariant bilinear form
+on 27×27, verified as a computation. Convention fixed: J intertwines ρ₂₇
+with the θ-twisted contragredient on the SAME explicit 27 basis
+(ρ(X)ᵀJ + Jρ(θX) = 0). **The J-corrected L1 zeros hold:**
+(v_m v₀)ᵀJv₀ = 0 exactly at m = 4 and 8 — chat-2's parity lemma survives on
+the legitimate pairing. The restated selection-rule lemma for the J-pairing
+(the linear-C vs antiunitary-Θ distinction, D5's full demand) is now
+well-posed and queued as the next document, with these zeros as its first
+data. Locks: `tests/test_b598_steps35.py` (OA_SLOW, subprocess-manifest,
+D8-compliant).
