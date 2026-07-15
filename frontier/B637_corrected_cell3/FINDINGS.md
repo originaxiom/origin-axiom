@@ -48,3 +48,27 @@ branches are locked in the prereg.
 
 tests/test_b637_part1.py: fast (prereg hash; the banked table lines;
 the prediction arithmetic), OA_SLOW (the full rerun).
+
+---
+
+## Part 2a (2026-07-15, same arc): ALL FOUR D₄ GLUINGS ARE COMPATIBLE — four more h¹ = 5 doubles
+
+The four B605 orientation-reversing families (two glides, two order-4),
+each with its banked exact SL(2,K) intertwiner, lifted through the
+principal embedding (the p = 0 Bruhat corner handled via the Weyl
+element; signs die on the 27 — all principal weights even):
+
+- **Every family passes BOTH peripheral gates exactly in GL(27)**
+  (μ-gate and λ-gate: ρ(x) = side₂(φ(x)) for x = a and the certified
+  longitude) — the banked 27 local system GLUES through all four
+  involutions (contrast: the −A₁ weld is incompatible, B635).
+- **All four doubles D_φ(M): h⁰(D;27) = 1, h¹(D;27) = 5** (trivial
+  controls b₁(D_φ) = 1 each). With part 1's weld doubles, the h¹
+  jump locus now reads: h¹ = 5 on the conjugation weld (unbent and
+  odd-bent m ∈ {1,5,7,11}) AND on all four involution gluings;
+  h¹ = 2 exactly at the full-E₆ chiral bends m = 4, 8.
+- NINE compatible doubles total; all nine with h¹ ≥ 3 carry a
+  10-dimensional Λ³H¹ — the alternating cubic 3-form's domain (part
+  2b, behind the degree-3 derivation gate).
+
+`b637_d4_gluings.py`, `part2a_output.txt`; lock extended.

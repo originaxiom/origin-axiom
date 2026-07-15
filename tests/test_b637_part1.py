@@ -36,3 +36,11 @@ def test_full_rerun():
                        capture_output=True, text=True, timeout=3600)
     assert r.returncode == 0, r.stdout[-2000:] + r.stderr[-2000:]
     assert "ALL PREDICTIONS CONFIRMED" in r.stdout
+
+
+def test_banked_part2a():
+    out = open(os.path.join(B637, "part2a_output.txt")).read()
+    assert out.count("mu-gate True, lambda-gate True") == 4
+    assert out.count("VERDICT: COMPATIBLE") == 4
+    assert out.count("h1(D;27) = 5") == 4
+    assert out.count("trivial control: h0 = 1, b1(D_phi) = 1") == 4

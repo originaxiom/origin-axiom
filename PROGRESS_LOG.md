@@ -4761,3 +4761,15 @@ chiral bends (no 3-form exists there) and no global invariant section. cc2's mat
 the third pipeline (adjudication row open until it lands). PART 2 QUEUED: the alternating cubic
 3-form at the five h¹ = 5 doubles (10 components each) behind the degree-3 evaluation derivation
 gate. Locks fast + OA_SLOW. Firewalled.
+
+## 2026-07-15 — B637 part 2a: ALL FOUR D₄ INVOLUTION GLUINGS COMPATIBLE — nine doubles, the jump locus complete
+The four B605 orientation-reversing families (glides AND order-4; exact banked intertwiners lifted
+through the principal embedding, the p=0 Bruhat corner via the Weyl element, signs dying on the
+27's even weights): **every family passes both peripheral gates EXACTLY in GL(27)** — the banked 27
+local system glues through all four involutions (the −A₁ weld remains the lone incompatible). All
+four D_φ(M): h⁰ = 1, h¹(D;27) = 5 (trivial controls b₁ = 1). THE h¹ JUMP LOCUS IS COMPLETE: nine
+compatible doubles — h¹ = 5 everywhere EXCEPT exactly the full-E₆ chiral bends m = 4,8 (h¹ = 2, no
+3-form possible); every h¹ = 5 double carries a 10-dim Λ³H¹. PART 2b (the alternating cubic
+3-form's exact values) queued behind the degree-3 derivation gate (the T∘H homotopy formula on the
+amalgam or the M–V localization — validated on the trivial-coefficient control first, per the
+sealed prereg). Firewalled.
