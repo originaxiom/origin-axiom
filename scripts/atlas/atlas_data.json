@@ -12434,6 +12434,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B609": {
+   "slug": "sealed values",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B601",
+    "B608",
+    "B610"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [

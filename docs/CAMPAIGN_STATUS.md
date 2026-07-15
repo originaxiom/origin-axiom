@@ -972,3 +972,9 @@ adjudications; Phase 1 complete: the Rosetta Stone exists only in MIXED form at 
 welds 9/12 class-mixed; strings mix pairs; lines mix bicharges); the (1,1,2) tips are the unique
 pure anchors. Next: B609 (Phase 2, sealed extraction), B610 (m136, parallel); Branch 3 stays outside
 CC's lane behind the seat-4-approved null model.
+
+## 2026-07-15 — Phase 2 complete: the Sealed Value Table banked; G2 open
+E1–E4 extracted under the pre-hashed prereg; the table hashed in the same bank. Standouts: exact
+rational mixing fractions (uniform top; half-su(3) shallow lines); the new spectra are roots of
+unity off golden and leave the unit circle exactly at the golden multiples (exploratory law-candidate,
+future prereg). CC's lane next: B610 (m136). Branch 3 gated on the comparison-map seal + seat 4.

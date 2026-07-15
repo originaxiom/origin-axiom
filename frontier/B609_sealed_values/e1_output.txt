@@ -1,0 +1,27 @@
+E1 assembled
+syntax ok
+  direction m= 5: UNOBSTRUCTED
+  direction m= 7: UNOBSTRUCTED
+  direction m= 8 (theta-ODD): UNOBSTRUCTED
+  direction m=11: UNOBSTRUCTED
+======================================================================
+diagram: branch=3, short end=1, long ends=0,5, mids=2,4
+V1 PASS: 36 roots; 12 theta-fixed + 12 pairs; pair heights [2, 2, 2, 2, 1, 1, 1, 1]
+theta gates PASS (e_pr, f_pr fixed; Cartan permuted per the fold)
+E1 — the Killing-class fractions per odd line:
+block V(m=4):
+  wt  +8: multiplet(0, 0, 1):1/4  multiplet(0, 1, 1):1/4  multiplet(1, 0, 1):1/4  multiplet(1, 1, 1):1/4
+  wt  +6: multiplet(0, 0, 1):1/10  multiplet(0, 1, 1):4/5  multiplet(1, 0, 1):1/10
+  wt  +4: multiplet(0, 0, 1):4/13  multiplet(1, 0, 0):9/26  su3-root(0, 0, 0):9/26
+  wt  +2: multiplet(1, 0, 0):25/58  su2-root(0, 0, 0):2/29  su3-root(0, 0, 0):1/2
+block V(m=8):
+  wt +16: multiplet(1, 1, 2):1
+  wt +14: multiplet(0, 1, 2):1/2  multiplet(1, 1, 2):1/2
+  wt +12: multiplet(0, 1, 2):1/2  multiplet(1, 1, 2):1/2
+  wt +10: multiplet(0, 1, 1):1/2  multiplet(1, 1, 1):1/2
+  wt  +8: multiplet(0, 0, 1):121/692  multiplet(0, 1, 1):225/692  multiplet(1, 0, 1):121/692  multiplet(1, 1, 1):225/692
+  wt  +6: multiplet(0, 0, 1):121/274  multiplet(0, 1, 1):16/137  multiplet(1, 0, 1):121/274
+  wt  +4: multiplet(0, 0, 1):16/65  multiplet(1, 0, 0):49/130  su3-root(0, 0, 0):49/130
+  wt  +2: multiplet(1, 0, 0):9/50  su2-root(0, 0, 0):8/25  su3-root(0, 0, 0):1/2
+E1-a PASS (all lines sum to 1); E1-b PASS (the tip is pure (1,1,2))
+E1 DONE
