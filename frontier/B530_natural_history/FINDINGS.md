@@ -283,7 +283,7 @@ the same care as the beautiful ones. **[MATH, computed]**
 
 Still ahead, one by one, neutrally (METHOD.md checklist): the derived-substitution tower through every letter;
 the End(F₄) verb monoid at rank 4; the trace map's fixed structure; the eigenvector geometry; the 3d Rauzy
-tile; recurrence constants; exact entropy. Lock: `tests/test_b530.py`.
+tile; recurrence constants; the exact inflation rate (formerly mislabeled "entropy"; corrected 2026-07-15). Lock: `tests/test_b530.py`.
 
 ## Movement XI — the third witness, the silver artifact resolved, and the floor is a variety
 A full cross-seat package arrived (the "reorientation" handoff, 2026-07-12) synthesising both currents. Most of
@@ -325,7 +325,7 @@ whose seductive constant is flagged as unreproduced. Still one object, still gol
 floor's representations are the object's own arithmetic, given no physics reading.
 
 Still ahead (METHOD.md checklist): the **eigenvector geometry** of the stable modes h, γ; the End(F₄) **verb
-monoid** at rank 4; the 3d Rauzy tile; recurrence constants; exact entropy. The **trace-map fixed structure**
+monoid** at rank 4; the 3d Rauzy tile; recurrence constants; the exact inflation rate (formerly mislabeled "entropy"). The **trace-map fixed structure**
 is now DONE at the existence level (the floor is a variety); its explicit coordinatisation (the 9d Goldman form,
 its Lagrangians) remains open.
 
@@ -432,7 +432,7 @@ Honest caveat (kept): this is an in-sandbox implementation of a published algori
 pure discrete spectrum is now a *computed* fact here, no longer merely conjectural. Cross-refs:
 [[quasicrystal-bridge-status]] (the Level-1 quasicrystal, now certified).
 
-## Movement XVI — the exact entropy and the golden branching (a second seat's Path D, verified)
+## Movement XVI — the exact inflation rate and the golden branching (a second seat's Path D, verified; "entropy" label corrected 2026-07-15, audit 5.3)
 A cross-seat handoff computed four continuation paths; **Path D (entropy)** verified cleanly and exactly here
 (`listen_18_entropy_and_golden_branching.py`), so it's banked; the others are absorbed or flagged (below).
 
