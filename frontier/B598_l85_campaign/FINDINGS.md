@@ -277,3 +277,37 @@ geometric rep lives over the ring of integers of ℚ(√−3). Output
 `peripheral_certificate_exact_output.txt`; lock
 `tests/test_b598_step1_exact.py` (ungated, ~1 s). Chain step 1:
 provisional → EXACT.
+
+## STEP 7 COMPLETE (2026-07-15): G1-FINITE — the dial map re-derived in-repo; the B582 hole closed
+
+**The verdict (`step7_g1_finite.py`, output `step7_output.txt`, lock
+`tests/test_b598_step7.py`).** The mirror-double amalgam at FINITE t = 1
+(the banked weld frame; copy-2 log = Ad(exp(v_m))(ζ̄₆·f̄)), with committed
+code and the certified longitude:
+- Gate (i): all six dial slots v_m peripherally fixed (exact).
+- Gate (ii), the SUBSET face: every generator of every dial lies in the
+  exact K-span of the 78-dim e₆ basis — no closure can leave e₆.
+- Gates (iii)+(iv), the RANK face (mod-p certificates at p = 10009, 10039,
+  both ≡ 1 mod 3, agreeing everywhere):
+
+    THE DIAL MAP:  no-twist → 3;  slot 1 → 3;  slots {5,7,11} → 52;
+                   slots {4,8} → 78.
+
+  rank mod p ≤ rank over the field ≤ 78, so 78 mod p certifies EQUALITY:
+  **the θ-odd-twisted amalgam's algebra IS e₆(ℂ), dim 78, at finite t.**
+  B582's existence chain (mirror-double with θ-odd dial ⇒ full E₆ ⇒
+  complex, chiral 27) is now re-derived end-to-end in-repo. The
+  provenance hole (the never-committed G1 code, caught in the item-6
+  adjudication) is CLOSED.
+
+**The refinement over the banked "3/52/78".** The dial is organized by the
+fold: slot 1 gives 3, not 52 — its top vector IS the principal e (V₁ = the
+sl₂ block itself), so it twists inside the wall; the three θ-EVEN slots
+land exactly on f₄ = the θ-FIXED subalgebra (the deaf sector); only the
+two θ-ODD slots breach the fold to full e₆. The same parity that carries
+the hearing lines (step 4b), the genuine zeros (step 5), and the sign-flip
+theorem organizes the dial map. Even bends stay under the fold; odd bends
+open the whole stage.
+
+**Chain state: 1 ✓ (exact) · 2 ✓ · 3 ✓ · 4 ✓ · 5 ✓ · 6 ✓ · 7 ✓ —
+remaining: 8 (the sealed prereg) and 9 (the clean-room P1, computing).**

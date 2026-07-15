@@ -1,0 +1,23 @@
+fixed
+  slot m= 5: fixed by (mu, lambda): True
+  slot m= 7: fixed by (mu, lambda): True
+  slot m= 8: fixed by (mu, lambda): True
+  slot m=11: fixed by (mu, lambda): True
+gate (ii): generator membership in the exact e6 span:
+  no-twist: membership [True, True, True]
+  slot 1: membership [True, True, True]
+  slot 4: membership [True, True, True]
+  slot 5: membership [True, True, True]
+  slot 7: membership [True, True, True]
+  slot 8: membership [True, True, True]
+  slot 11: membership [True, True, True]
+gates (iii)+(iv): the dial map (mod-p closure dims):
+  no-twist: closure dim = 3 / 3 (primes agree: True)
+  slot 1: closure dim = 3 / 3 (primes agree: True)
+  slot 4: closure dim = 78 / 78 (primes agree: True)
+  slot 5: closure dim = 52 / 52 (primes agree: True)
+  slot 7: closure dim = 52 / 52 (primes agree: True)
+  slot 8: closure dim = 78 / 78 (primes agree: True)
+  slot 11: closure dim = 52 / 52 (primes agree: True)
+theta-odd dials reach 78 (= e6): True
+STEP 7 (G1-FINITE) DONE: the theta-odd-twisted amalgam's algebra is e6(C) at finite t, certified longitude, committed code.

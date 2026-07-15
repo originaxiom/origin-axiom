@@ -12199,6 +12199,7 @@
     "B572",
     "B575",
     "B581",
+    "B582",
     "B587",
     "B589",
     "B595",
@@ -12214,8 +12215,8 @@
     "P3",
     "V2"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 6,
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "topology"
   },
