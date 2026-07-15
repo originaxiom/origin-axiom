@@ -4296,3 +4296,14 @@ R1 silence keeps its not-forced-yet-true status — letters mix weights). E₆�
 currents are the (2,0)-pair (echoing SU(3)₂); the θ-odd sector is ENTIRELY center-charged (conjugate
 ℤ₃ charges (1,2) on all three pairs); the V3 real channel is a 351-dominated three-way mixture (data).
 Lock test_b603_isotropy.py (OA_SLOW). Firewalled.
+
+## 2026-07-15 — B604 (the Rosetta cell): the pair-to-block assignment DOES NOT EXIST; chat-1's table corrected
+Chat-1's Rosetta handoff processed: root data CONFIRMED (36/12+12/heights); their D₅/16 table REFUTED
+at h = 2, 3 (three (D₅,D₅) pairs — at h = 1, 2, 3 — not one; end-choice-invariant, so no convention
+escape). THE RESOLUTION: at every ambiguous height both principal-block lines are exact MIXTURES of
+both θ-odd pairs (integer coefficients banked) — the principal grading and the θ-pair decomposition
+are incompatible; the "which pair goes to which block" question dissolves. The surviving finding is
+STRENGTHENED: every odd-block line mixes D₅-subsystem and coset-16 content (sole label exception:
+V₁₆'s h=8 line). Ask 3's premise (torsion ↔ SM coupling alignment) is structurally refuted; the
+math-tier branching of the MIXED lines is registered as a lead. θ from the banked J (convention-free);
+diagram computed from the Cartan matrix. Lock test_b604_rosetta.py (OA_SLOW). Firewalled.
