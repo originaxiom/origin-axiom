@@ -1,0 +1,8 @@
+classical W-norm phase: arg((1-w)/(1+w)) = -2*pi/3 (exact)
+stage phase (identity-D and D-norm alike): -3*pi/5 (exact)
+residual: -pi/15 = -pi/15 (numeric -0.209439510)
+X1 [W x identity-D] (d = (1,1)): phase match: False  (|residual| = 0.209440 rad vs 1e-9)
+X1 [W x D] (d = (phi,1)): phase match: False  (|residual| = 0.209440 rad vs 1e-9)
+X1 [J x identity-D]: INVALID-DEGENERATE (g = 0, per the seal)
+X1 [J x D]:          INVALID-DEGENERATE (g = 0, per the seal)
+N1 DONE (banked blind before N2)
