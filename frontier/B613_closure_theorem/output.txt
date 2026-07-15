@@ -1,0 +1,35 @@
+kappa=5: axioms+ingredients ALL PASS
+         RL: conj(W) = Q^-1 W^T Q  [True]
+       RRLL: conj(W) = Q^-1 W^T Q  [True]
+       RLRL: conj(W) = Q^-1 W^T Q  [True]
+     RRRLLL: conj(W) = Q^-1 W^T Q  [True]
+        RRL (chiral control): identity fails with this Q [True]
+       RRRL (chiral control): identity fails with this Q [True]
+      RRLLL (chiral control): identity fails with this Q [True]
+kappa=7: axioms+ingredients ALL PASS
+         RL: conj(W) = Q^-1 W^T Q  [True]
+       RRLL: conj(W) = Q^-1 W^T Q  [True]
+       RLRL: conj(W) = Q^-1 W^T Q  [True]
+     RRRLLL: conj(W) = Q^-1 W^T Q  [True]
+        RRL (chiral control): identity fails with this Q [True]
+       RRRL (chiral control): identity fails with this Q [True]
+      RRLLL (chiral control): identity fails with this Q [True]
+kappa=10: axioms+ingredients ALL PASS
+         RL: conj(W) = Q^-1 W^T Q  [True]
+       RRLL: conj(W) = Q^-1 W^T Q  [True]
+       RLRL: conj(W) = Q^-1 W^T Q  [True]
+     RRRLLL: conj(W) = Q^-1 W^T Q  [True]
+        RRL (chiral control): identity fails with this Q [True]
+       RRRL (chiral control): identity fails with this Q [True]
+      RRLLL (chiral control): identity fails with this Q [True]
+kappa=12: axioms+ingredients ALL PASS
+         RL: conj(W) = Q^-1 W^T Q  [True]
+       RRLL: conj(W) = Q^-1 W^T Q  [True]
+       RLRL: conj(W) = Q^-1 W^T Q  [True]
+     RRRLLL: conj(W) = Q^-1 W^T Q  [True]
+        RRL (chiral control): identity fails with this Q [True]
+       RRRL (chiral control): identity fails with this Q [True]
+      RRLLL (chiral control): identity fails with this Q [True]
+
+THE CLOSURE THEOREM VERIFIED: amphichiral weld => conj(W) ~ W^T via Q = P S C (C-commuting) => the odd hearing spectrum is conjugation-closed at every level.
+B613 DONE

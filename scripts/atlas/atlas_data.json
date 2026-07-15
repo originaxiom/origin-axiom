@@ -12527,6 +12527,26 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B613": {
+   "slug": "closure theorem",
+   "motifs": [
+    "kappa",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B134",
+    "B601",
+    "B610",
+    "B611",
+    "B612",
+    "V123"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [
