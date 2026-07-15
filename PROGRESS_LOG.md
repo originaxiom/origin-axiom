@@ -4821,3 +4821,21 @@ banks the complementary invariant on the plain double: the vev-paired 5×5 form,
 (typing ✓), rank 4, exact ℚ(√−3) — their 2-form + our 3-form = the chord's two class-level
 invariants from independent machinery. Stage 3 (the four D_φ tables + the unbent regeneration) is
 running. Firewalled.
+
+## 2026-07-16 — L90 CLOSED in-repo; THE REBASE banked (before any campaign launch, per the owner)
+L90: the per-term identity P_{i−1}·u(ℓ⁻¹) = −P_i·u(ℓ) verified EXACTLY at every inverse-letter
+position of the relator, all six adjoint blocks (l90_check.py) — the corrected cup chain's
+correction terms vanish per-term for adjoint/bracket pairings; **B575's Q ≡ 0 stands untouched**;
+the audit's protection argument is now an in-repo fact. THE REBASE (docs/REBASE_2026-07-16.md):
+the consolidated post-marathon state — what stands (the hardened closure; the solo/chord
+dichotomy; the chord's two exact invariants with the 24ζ₆ core identity and the
+chirality-excludes-the-cubic law; three agreeing pipelines; the five named manifolds; 5|κ; L90),
+what died and stays dead (the symmetric-Yukawa typing — SHARPENED: alternating family tensor ×
+symmetric E₆ cubic = zero coupling for identical families, so Y is flux/volume-type across
+INEQUIVALENT modes; the Sol-bundle homology conflation; κ=5-as-theorem; the NAIVE TRIALITY GATE —
+dead by two standard facts: the center acts as the scalar ω on the 27, non-central order-3
+elements Coxeter-scale the holonomy — chat-1's 3+2 split as posed does not run), and the campaign
+menu behind gates (C1 the swap decomposition — the canonical ℤ/2 the chord OWNS, predicted to
+PROVE the core identities via Y(σ·,σ·,σ·) = −Y; C2 the one-number cubic on D_conjθ(M); C3 the
+dial law; C4 the silver chord; C5 the normalization cell). NOTHING launched; stage 3 (the D_φ
+3-form tables) still computing. Firewalled.

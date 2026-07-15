@@ -1,0 +1,24 @@
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   72.9s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   91.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   91.1s] G2a PASS: principal sl2 relations exact
+[   95.1s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   96.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   97.5s] stage 4: block m=1 (dim 3) letter actions built
+[  100.4s] stage 4: block m=4 (dim 9) letter actions built
+[  104.3s] stage 4: block m=5 (dim 11) letter actions built
+[  110.7s] stage 4: block m=7 (dim 15) letter actions built
+[  117.7s] stage 4: block m=8 (dim 17) letter actions built
+[  129.5s] stage 4: block m=11 (dim 23) letter actions built
+[  129.5s] G4 PASS m=1: dim H1 = dim H2 = 1; representative fixed
+[  129.6s] G4 PASS m=4: dim H1 = dim H2 = 1; representative fixed
+[  129.8s] G4 PASS m=5: dim H1 = dim H2 = 1; representative fixed
+[  130.2s] G4 PASS m=7: dim H1 = dim H2 = 1; representative fixed
+[  131.0s] G4 PASS m=8: dim H1 = dim H2 = 1; representative fixed
+[  132.8s] G4 PASS m=11: dim H1 = dim H2 = 1; representative fixed
+[  132.8s] stage 4 complete: all six H1/H2 gates green
+l51 prefix+stage4 loaded in 134s
+per-term identity x = -y for all inverse letters, all 6 blocks: True
+L90 CLOSED: the corrections vanish per-term; B575's Q == 0 is untouched by the corrected chain.

@@ -72,3 +72,9 @@ def test_part2b_resolved():
     assert "nonzero: 7/10" in out
     src = open(os.path.join(B637, "b637_threeform.py")).read()
     assert "cells.append((pre, ch, ch.lower(), -1))" in src
+
+
+def test_l90_closed():
+    out = open(os.path.join(B637, "l90_output.txt")).read()
+    assert "all inverse letters, all 6 blocks: True" in out
+    assert "L90 CLOSED" in out
