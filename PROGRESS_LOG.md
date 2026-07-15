@@ -4103,3 +4103,38 @@ the gauge-dependence of P1's representatives labeled explicitly. Quarantine ackn
 B517→B530→B531→B532 chain, P43/P46/P51 per /Users/dri/oaudit/oaudit2/ reports; B591's
 "graph manifold" → mixed/Haken terminology fix) — mandatory pre-synthesis, outside the cone.
 Firewalled.
+
+## 2026-07-15 — THE FRESHNESS ADDENDUM (D1–D10) ADOPTED; the quadratic-arrow verdict RETRACTED
+Seat 4's post-audit addendum (pinned to aa43da4; /Users/dri/oaudit/oaudit2/) adopted in full. THE
+RETRACTION (D2): "the arrow is quadratic / P3 matches at order two / B599 is the classical side of
+P3" — retracted as banked claims (no map was constructed to have an order); heuristic expectations
+only; all prior ledger surfaces carrying them are SUPERSEDED by this entry (append-only discipline:
+this entry is authoritative). D1: "P2" renamed P2-PREFLIGHT. D3: the P2 "PREREGISTERED" label was
+not a pre-result timestamp — relabeled RETROSPECTIVELY REGISTERED; the failed odd-trace prediction
+stands permanently as an exploratory failure. D6: the peripheral certificate is numerical evidence
+(faithfulness cited not re-proven; primitivity/framing/orientation uncertified — the |Im|-only cusp
+check noted) — readiness step 1 PROVISIONAL pending the exact algebraic derivation. D7: Gate B =
+spot-check (one vector, letter 'a'); full coverage queued. D8: the P2 and word-independence scripts
+made FAILURE-ENFORCING (asserts added; they were print-only). D9: the six-block run relabeled an
+exact INTERNAL consistency check (same pipeline); the independent reproduction (step 9) remains
+absent. D4 refinement: step 3's invariant ratio removes gauge and scale within a block; the
+CROSS-DOMAIN normalization is step 4's explicit obligation. Steps 3+5 (the invariant boundary table;
+the exact J intertwiner with the no-untwisted-form check) are in flight. Firewalled.
+
+## 2026-07-15 — readiness steps 3 + 5 BANKED: the universal boundary ratio; the exact J intertwiner
+**STEP 3 — THE UNIVERSAL BOUNDARY RATIO (a jewel):** the gauge/scale-invariant content of the entire
+six-block cusp table is ONE number — **I_λ/I_μ = −2√−3 at every block** — the banked universal cusp
+datum τ (PC25), re-derived from the Fox pipeline via canonical functionals (the block's unique
+invariant form G + the peripheral-invariant line w). Gauge gates + rank-6/6 asserted (failure-
+enforcing, D8). The cross-domain normalization remains step 4's obligation (D4). **STEP 5 — THE
+EXACT 27–27̄ INTERTWINER:** J solved on {e_pr, f_pr, v₄} with θ = ±1 by block parity (weight-reduced,
+support 49/729): Schur-unique, invertible (rank 27), group-gate green, and **seat 4's claim verified
+as a computation — the untwisted solve returns dimension 0** (no E₆-invariant bilinear on 27×27).
+Convention fixed (ρ(X)ᵀJ + Jρ(θX) = 0 on the explicit 27 basis). **The J-corrected L1 zeros hold
+exactly at m = 4, 8** — chat-2's parity lemma survives on the legitimate pairing; the restated
+selection-rule lemma (D5's full demand) is now well-posed, queued next. D-findings fixes banked in
+the same PR (the D2 retraction; P2 → preflight; retrospective labels; the provisional certificate;
+failure-enforcing scripts; the internal-consistency relabel; supersession notes). Locks:
+tests/test_b598_steps35.py (OA_SLOW subprocess-manifest). Chain state: 1 provisional, 2 ✓, 3 ✓,
+5-core ✓; next: the restated lemma, step 4 (the typed map + cross-domain normalization), 6, 7 (G1-
+FINITE), 8, 9. Firewalled.

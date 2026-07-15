@@ -49,6 +49,24 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (readiness 3+5 — the universal ratio; J exists, 2026-07-15)
+- **The cusp table's invariant content is one number:** I_λ/I_μ = −2√−3 at every block — the
+  banked universal cusp datum, re-derived gauge-invariantly. **The exact 27–27̄ intertwiner
+  exists:** Schur-unique, invertible, group-gate green; no untwisted form exists (computed,
+  dim 0); the J-corrected L1 parity zeros hold. The D1–D10 fixes banked alongside (the
+  quadratic-arrow retraction, P2-preflight, provisional certificate, failure-enforcing
+  gates). Chain: 1 prov / 2 ✓ / 3 ✓ / 5-core ✓; next: the restated lemma, the typed map (4),
+  exact stage data (6), G1-FINITE (7), sealed P3 prereg (8), independent P1 (9).
+
+
+## SUPERSESSION NOTE (2026-07-15, the freshness addendum adopted)
+The entries below/above referring to "P2 complete," "the arrow is quadratic," "P3 matches at
+order 2," or "B599 = the classical side of P3" are SUPERSEDED: P2 is P2-preflight (no
+quantization map exists yet); the quadratic-arrow verdict is retracted to heuristic status
+(addendum finding D2); the readiness chain (CAMPAIGN.md) is the sole authority on campaign
+state. Full details: P1_ERRATUM.md (second amendment).
+
+
 ## LAST BANKED (the seat-4 audit adopted: the readiness chain, 2026-07-15)
 - **The campaign now runs under the audited gating** (9-step readiness chain; P3 sealed until
   green). My item-6 overclaim corrected on the record: B582's finite-t certificate is not

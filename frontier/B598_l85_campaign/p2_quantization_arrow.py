@@ -1,6 +1,8 @@
 """B598-P2 — the quantization arrow: gates + the first-order boundary table.
 
-PREREGISTERED before the run (see CAMPAIGN.md + this docstring):
+RETROSPECTIVELY REGISTERED (D3: source+output+verdict shipped together in #945;
+not a pre-result timestamp — the odd-trace prediction is recorded as a FAILED
+exploratory prediction, permanently):
   GATE A (compatibility): P1's table restricts a knot-group cocycle, so per
     block the Z^2-cocycle condition (W_mu - 1) xi(lambda) = (W_lambda - 1) xi(mu)
     must hold exactly in coordinates.
@@ -184,6 +186,8 @@ for mexp in sorted(BLOCK_DATA.keys()):
     xi_mulam = cocycle_eval(acts, xa, xb, "a" + LAM)
     d_mulam = tr27(mmul(embed(mexp, xi_mulam), word27("a" + LAM)))
     parity = "ODD " if mexp in (4, 8) else "even"
+    assert gateA, f"GATE A FAILED at m={mexp}"           # failure-enforcing (D8)
+    assert gateB, f"GATE B FAILED at m={mexp}"
     print(f"\n  block m={mexp:2d} ({parity}): gate A (Z^2-compat): {gateA};  "
           f"gate B (embedding): {gateB}")
     print(f"    delta tr27(mu)      = {fmt(d_mu)}")
