@@ -4476,3 +4476,13 @@ unexplained; the SM-values question remains OPEN pending the heavy ports; no esc
 object-universal at the bundle level; a one-line mechanism lemma is registered (if proved, the sign
 law is a family theorem and the fig-8-specific content moves to the exterior torsions). Lock
 test_b616_heldout.py. Firewalled.
+
+## 2026-07-15 — B617: THE SIGN-LAW FAMILY THEOREM — one line; the base is the conductor
+The bundle sign law is PROVED for every hyperbolic monodromy: pairing k ↔ 2m−k gives strictly
+negative pairs, so sign τ_m = (−1)^m always, with the closed form τ_m = (−1)^m(tr²−4)^m ∏U²
+(fig-8: (−1)^m 5^m (∏F_{2j})² — B423's values exact; m136: base 12 — B616's values exact; tr-5
+control ✓). The bundle sign law therefore carries NO object information; the informative question
+moves to B581's EXTERIOR sign law (m136 port decides). EXPLORATORY registered: the torsion base
+tr²−4 (5, 12) = the objects' hearing-trace conductors — the conductor-unification candidate, with
+the tr-5 prediction (base 21) as the third-object test. Promotion candidate with B613. Lock
+test_b617_sign_law.py (fast). Firewalled.

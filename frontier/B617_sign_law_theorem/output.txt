@@ -1,0 +1,7 @@
+pairing identity (1-x)(1-1/x) = -(sqrt x - 1/sqrt x)^2: PROVED (symbolic)
+fig-8 (tr 3): closed form = direct, sign law (-1)^m, banked-value checks: True
+m136 (tr 4): closed form = direct, sign law (-1)^m, banked-value checks: True
+control (tr 5): closed form = direct, sign law (-1)^m, banked-value checks: True
+fig-8 Fibonacci face tau_m = (-1)^m 5^m (prod F_2j)^2: verified (m = 1, 4)
+
+B617 DONE — the bundle sign law is a family THEOREM
