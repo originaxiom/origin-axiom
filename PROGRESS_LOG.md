@@ -4157,3 +4157,16 @@ forced/genuine split; the exact J-weld integers. Lock: tests/test_b598_lemma.py 
 subprocess-manifest). D5 is now fully closed (the pairing, the convention, the restated lemma, the
 locks). Chain: 1 provisional / 2 ✓ / 3 ✓ / 5 ✓ COMPLETE; next: 4 (the typed map + cross-domain
 normalization), 6 (exact E₆₂ stage data), 7 (G1-FINITE), 8 (sealed prereg), 9 (independent P1).
+
+## 2026-07-15 — B600: the level-ladder campaign (cc2) adjudicated — H133 TESTED-NEGATIVE, verified
+**THE HEADLINE VERIFIED INDEPENDENTLY IN-REPO** (my own level-N pipeline, gates on all banked rungs):
+Z at E₆ levels 1..4 = +1, +1, +1, **0** (1e-10; cc2 holds the exact mod-Φ₁₉₂ certificate in their
+packet); Tr(Θρ₄) = 0 (both sectors); N = 3/9/20/42; odd dims 1/3/8/17; the parity-hop ladder
+(+1,0),(+1,0),(0,+1),(0,0) reproduced. **H133 dies at its own registered gate.** The P4 t-tower
+11-locus {5,10,15,20} verified exactly (both matrix conventions — the drift suspicion checked and
+dismissed). The zero is NOT forced by the selection rule (correct scope reading by cc2) — a genuine
+structured zero, mechanism open; the Z-ladder hint + cc2's decisive level-5/κ=17 ℚ(√17) prediction
+REGISTERED. Relayed-pending (packet): the level-4 field data, the clocks, the e-tower + the
+n ≡ 10 (mod 15) interlock (e₄ consistent with the banked 11²-echo), L73's one-pager. cc2's prereg
+discipline (frozen hashes, blind readouts, recorded self-corrections) meets the Review-18 standard.
+1 OA_SLOW lock. Firewalled.

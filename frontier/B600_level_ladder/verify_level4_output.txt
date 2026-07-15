@@ -1,0 +1,5 @@
+k=1: N=  3  words-agree=4.1e-14  Z=+1.0000000000-0.0000000000j  Tr(Theta rho)=-1.0000000000+0.0000000000j  odd-pairs=1
+k=2: N=  9  words-agree=1.1e-13  Z=+1.0000000000-0.0000000000j  Tr(Theta rho)=-1.0000000000+0.0000000000j  odd-pairs=3
+k=3: N= 20  words-agree=2.0e-13  Z=+1.0000000000-0.0000000000j  Tr(Theta rho)=+1.0000000000-0.0000000000j  odd-pairs=8
+k=4: N= 42  words-agree=3.5e-13  Z=-0.0000000000-0.0000000000j  Tr(Theta rho)=-0.0000000000-0.0000000000j  odd-pairs=17
+expected: N = 3, 9, 20, 42; Z = +1, +1, +1, 0; Tr(Theta rho_4) = 0
