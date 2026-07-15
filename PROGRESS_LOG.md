@@ -4605,3 +4605,17 @@ comparable scalar — excluded from comparison on that stated ground); the κ=10
 2-dim eigenspace. (3) ~40 composite values frozen NOT-FOR-COMPARISON. (4) The object-scale run
 couplings (1-loop verified in-loop by closed form) frozen as NOT-FOR-COMPARISON targets. Lock
 tests/test_b629_interaction_values.py (6/6). Firewalled.
+
+## 2026-07-15 — B630: the matrix comparison design sealed (the interaction round, part 2 of 3)
+The one authorized comparison's design, sealed AFTER the values (B629) and BEFORE any distance
+exists anywhere: source frozen = PDG 2024 (B615's three sin² values reused byte-for-byte + δ_CP =
+1.19π newly frozen); the alignment rule = min over 72 configurations (no canonical
+channel↔generation map — the null minimizes identically, so the freedom is corrected by
+construction); verdict statistic = min-alignment RMS with a 10⁶-sample Haar-U(3) null (seed
+20260715); all nine deviations reported at the optimal alignment with two declared absolute tiers
+carrying NO verdict weight; locked verdict table (p<0.01 MATCH-CANDIDATE→seat 4 / 0.01–0.1
+AMBIGUOUS no-escalation / ≥0.1 STRUCTURED-NULL capability-exhausted). MB12 computed at sealing,
+including the pre-banked structural limitation: the measured s₁₃² = 0.022 entry vs the circulant's
+smallest modulus² 0.1076 (a B615-banked pair) puts an a-priori floor D ≥ 0.0285 — whether that
+region is null-rare is exactly what the Monte Carlo decides. Robustness rows (NuFIT-proxy table;
+δ-scan) declared now, no verdict weight. Firewalled.
