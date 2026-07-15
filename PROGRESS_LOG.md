@@ -4633,3 +4633,21 @@ no "next layer" continuation; the mathematics publishes as mathematics; any futu
 comparison requires a new owner-level directive with its own principled preregistration. Locks:
 fast (seals + D_obs + 0/9) and OA_SLOW (the seeded null reproduced exactly, count 700004). Seat 4
 reviews the raw output alongside the seals. Firewalled.
+
+## 2026-07-15 — B631 addendum: the process repairs (the owner's catch — "read the progress log")
+The owner directed a read-back of the log against the interaction round; the B577-era standard
+exposed three lapses, all repaired same-day WITHOUT touching the sealed run: (1) THE PIPELINE
+CONTROLS the house demands ("the null is real, not a broken pipeline's zero"): C1 self-match
+D = 0, p = 1/(N+1) exact; **C2 POWER DEMONSTRATED — a unitary genuinely near PMNS fires
+MATCH-CANDIDATE (ε = 0.02 → p = 0.00027)** so the sealed 0.700 is discriminating, not vacuous;
+C3 the Haar sampler reproduces the exact Beta(1,2) law; C4 seed-robust (0.7008/0.6995); C5 paths
+identical. (2) THE MB13 RETRO-SWEEP (the guard skipped at sealing — the lapse recorded in
+MB13_RETRO_SWEEP.md): the held-out claim SURVIVES (no prior matrix-level comparison), but B322
+(PMNS angles already chance-level) and B342 (the ℤ/3-DFT circulant's TM2 already data-disfavored)
+were contextual prior art missing from B630's MB12 — the same lesson one layer up. (3) THE DUAL
+PROTOCOL ROUTING: H134 (golden-rational delocalization weights) + H135 (the ℚ(ζ₂₈) one-field form)
+to HINT_LEDGER; L86/L87 (deferred points 2/3, GATED) + L88 (the symbolic Latin-square proof) to
+OPEN_LEADS; the stale L85 row closed as resolved-by-outcome-B; the PC26 CANDIDATES row updated
+(§7 closed forms in; §9 closes as the honest boundary). Standing repair: the MB13 sweep result
+(hits AND clean-greps) goes INTO every future sealed design. Lock extended (controls fast-tier).
+Firewalled.

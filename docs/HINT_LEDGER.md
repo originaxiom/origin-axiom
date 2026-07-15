@@ -380,3 +380,19 @@ reproduced in-repo at 1e-10 (B600); both parity sectors vanish. Residual hint (m
 gate's wording): the Z-ladder {+1, +1, +1, 0, ?} — does Z return at the prime conductor κ = 17
 (level 5)? cc2's splitting-law prediction (ℚ(√17) odd-block import) registered as the decisive
 level-5 test. The zero is NOT forced by B599's selection rule — mechanism open.
+
+## H134–H135 — the interaction round (routed per the dual protocol; B629, 2026-07-15)
+
+- **H134** [NOTICED, exact — B629 cell K]: the κ=10 golden eigenspace's DELOCALIZATION WEIGHTS
+  are golden rationals — the e^{±2πi/5} eigenvector spreads over 10 of 16 pair-directions with
+  |component|² ∈ {(5+√5)/100, (5−√5)/100, ≈0.189443, ≈0.110557, ≈0.289443, ≈0.010557} (the first
+  two exact; the rest numerically golden-adjacent, unidentified). The κ=5 weights (5±√5)/10
+  reappear divided by 10 at κ=10. **Gate: closed-form the full 16-component eigenvector (or the
+  weight law across κ ∈ {5,10,15}); a law would say HOW the golden ear persists inside larger
+  clockwork.**
+- **H135** [NOTICED, exact-at-100-digits — B629 cell J]: the whole E₆₂ hearing matrix lives in
+  ONE field — B_ij = A_k·ζ₁₄^m ∈ ℚ(ζ₁₄, √7) ⊂ ℚ(ζ₂₈): the moduli field (the ℤ/7 sine kernel)
+  and the phase field share the conductor 28 = 4·7. The Latin-square index pattern
+  [[1,2,3],[2,3,1],[3,1,2]] is verified numerically at 1e-100 but NOT yet derived symbolically
+  from the Kac–Peterson data. **Gate: the symbolic end-to-end proof (= L88); if proved, the
+  circulant structure of |B|² becomes a theorem about the E₆ level-2 fusion geometry.**
