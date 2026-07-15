@@ -959,3 +959,9 @@ fact (char poly real everywhere); only the naive weight-label basis is golden-sp
 trace(B_odd) = [5|κ]/φ − [4|κ] (two registered discriminating confirmations) identifies with
 B587's LAW-O — the odd RL-trace law holds in BOTH quantum stages. Next: the normalization prereg
 (the value arc), drafted under the MB12 triple-check discipline.
+
+## 2026-07-15 — B602: D-norm (the naive value bridge refuted; the residuals point at norm-forms)
+The value arc's first table is exhausted honestly: J-Grams vanish (the hearing lines are
+J-isotropic), the phase gap is exactly π/15 (the ζ₃₀ compositum quantum — the role-separation law
+quantified), the magnitude residual carries the torsions' large primes uncancelled, and the stage
+lines are anyonically distinct (φ vs 1). Next: the norm-form prereg (field-compatible invariants).

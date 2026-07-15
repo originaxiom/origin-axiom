@@ -12316,15 +12316,21 @@
    "motifs": [
     "eisenstein",
     "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
     "firewall"
    ],
    "refs": [
     "B584",
+    "B595",
     "B598",
-    "B601"
+    "B601",
+    "L1"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 1,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
