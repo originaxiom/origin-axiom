@@ -4410,3 +4410,14 @@ refinement deaths in a row ⇒ the next step is the PROOF cell (GHH anti-palindr
 unitarily equivalent to its conjugate), registered unrun. Chirality classifications verified by the
 cyclic-rotation test at registration. Lock test_b612_pairing_chirality.py (fast; pins the data and
 the honest FAIL). Firewalled.
+
+## 2026-07-15 — B613: THE CLOSURE THEOREM — the pairing layer is proved
+The B610–B612 arc resolves into a theorem: for modular data (S symmetric unitary, T diagonal,
+S² = ζC, [C,T] = 0), a GHH-anti-palindromic weld word (⟺ amphichiral bundle, B134) satisfies
+conj(W) = Q⁻¹WᵀQ with Q = P·S·C commuting with C — hence the odd hearing spectrum is
+conjugation-closed AT EVERY LEVEL. Three ingredients (conj(X) = CX⁻¹C; the S-swap
+ρ(swap x) = Sρ(x)⁻¹S⁻¹; letter symmetry ⇒ ρ(rev w) = Wᵀ), each derived from the axioms and verified
+exactly at four levels; the assembled identity 16/16 on the amphichiral witnesses; chiral controls
+fail 12/12. One iteration recorded (S² = C corrected to S² = ζC — the phase cancels in conjugation).
+The converse stays empirical (B612). Promotion candidate at the next review. Lock
+test_b613_closure_theorem.py (fast). Firewalled.
