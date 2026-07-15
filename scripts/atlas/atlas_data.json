@@ -12580,6 +12580,27 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B617": {
+   "slug": "sign law theorem",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B423",
+    "B581",
+    "B613",
+    "B616"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B61": {
    "slug": "sl5 high precision",
    "motifs": [
