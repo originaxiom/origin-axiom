@@ -364,3 +364,19 @@ the COPY-EXCHANGE mirror: the twist moves to copy 1 (b1 → c·B27·c⁻¹,
 b2 → the untwisted mirror letter), words mapped by σ (1↔2), prediction
 r^{V1′}(σw) ∈ the γ-conjugate class of the banked r^{4b}(w) — structurally
 a different computation that can genuinely fail. V1′ = the kill cell.
+
+## P3 RESOLVED (2026-07-15): OUTCOME B — the map exists at golden, level-specially
+
+The sealed cells: V1′ PASS (exact mirror equivariance, 40/40, same
+integers, conjugate phases), V2 FAIL (the hearing law survives at κ = 10;
+the golden conjugate-pairing does not — the genuine, decisive defect),
+V3′ PASS (E₆₂ spectrum exactly {−1, ±i}; the canonical rank-2+1
+conjugation splitting — 2↔2 restored by construction). Two sealing errors
+amended with hashed errata justified on pre-seal facts only (V1's vacuous
+operation; V3's unsatisfiable magnitude clause — B⁴ = I banked ⇒ unit
+modulus). By the locked table: **OUTCOME B** — the semiclassical map
+exists at golden κ = 5 as a structural correspondence (choice-free under
+the declared conventions, width-respecting, mirror-equivariant,
+rank-producing at E₆₂), with the recorded defect that the pairing is
+golden-special. Full statement: `P3_OUTCOME.md` (hashed). The downstream
+stays gated. **L85 resolves; Review 18 fires per the owner override.**

@@ -941,3 +941,14 @@ computing) · 7 in flight (G1-FINITE dial-map reconstruction, certified longitud
 dictionary + spectral bridge (B595), the cat-map clock null (B596), the θ-parity selection rule (B599),
 the level ladder Z = +1,+1,+1,0 with the cc2 packet verified in-sandbox (B600). Review 18 fires on L85
 resolution (owner override; counter holds at 19) with the provenance + terminology sweeps pre-committed.
+
+## 2026-07-15 — L85 RESOLVED: OUTCOME B (the map exists at golden, level-specially)
+The chain went fully green (steps 1–9; step 1 exact, step 4 complete with the two-integer hearing
+columns, step 7's fold-organized dial map closing the B582 hole, step 9's clean-room reproduction),
+the sealed P3 ran in order with every cell banked blind, and the locked table returned OUTCOME B:
+the D1 semiclassical map EXISTS at golden κ = 5 — mirror-equivariant (exact), width-respecting,
+rank-producing at E₆₂ (spectrum exactly {−1, ±i}) — with the recorded defect that the golden
+conjugate-pairing is level-special (the law survives κ = 10; the pairing does not). Two sealing
+errors caught and amended with hashed errata (a vacuous operation; an unsatisfiable criterion) —
+both justified on pre-seal facts only. No value claims; the downstream stays gated. Review 18 fires
+now per the owner override (provenance + terminology sweeps pre-committed).
