@@ -12834,15 +12834,28 @@
   "B631": {
    "slug": "matrix comparison",
    "motifs": [
-    "eisenstein"
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
    ],
    "refs": [
+    "B322",
+    "B342",
+    "B575",
     "B615",
     "B629",
-    "B630"
+    "B630",
+    "H134",
+    "H135",
+    "L85",
+    "L86",
+    "L87",
+    "L88"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 2,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

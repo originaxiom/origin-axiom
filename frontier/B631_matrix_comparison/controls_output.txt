@@ -1,0 +1,17 @@
+== C1 positive control: framework = |U_PMNS|^2 itself ==
+  D = 0.000e+00 (expect 0), p = 0.000010 (expect 0.000010)
+== C2 near-match control: U' = U_PMNS.exp(i eps K), eps = 0.02 ==
+  eps = 0.02: D = 0.008502, p = 0.000270
+  eps = 0.05: D = 0.021315, p = 0.006110
+== C3 sampler calibration: |U_ij|^2 ~ Beta(1,2) ==
+  entry (0,0): mean = 0.3337 (expect 0.3333), P(x<=0.5) = 0.7496 (expect 0.7500)
+  entry (1,2): mean = 0.3338 (expect 0.3333), P(x<=0.5) = 0.7486 (expect 0.7500)
+  entry (2,1): mean = 0.3333 (expect 0.3333), P(x<=0.5) = 0.7499 (expect 0.7500)
+  row sums = 1 exactly (unitarity)
+== C4 seed robustness of the sealed p ==
+  seed 101: p = 0.7008
+  seed 202: p = 0.6995
+== C5 path consistency ==
+  loop path D = 0.13407059 == vectorized D = 0.13407059
+
+ALL CONTROLS PASS — the sealed p = 0.700 is the instrument's true reading, not an artifact.

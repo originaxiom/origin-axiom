@@ -87,3 +87,38 @@ def test_seeded_null_reproduces_exactly():
         count += int((dm <= D_obs).sum())
         done += n
     assert count == 700004, count
+
+
+def test_pipeline_controls_fast():
+    """Trimmed C1/C2/C5 from b631_controls.py (the full run is banked in
+    controls_output.txt): self-match gives D=0 and the minimum p; a
+    near-PMNS unitary scores far below the sealed D; paths agree."""
+    B2, PM, idx = _setup()
+    pm_flat = PM.ravel()
+
+    def stat(flat9):
+        return float(np.sqrt(((flat9[idx] - pm_flat) ** 2).mean(axis=1)).min())
+
+    assert stat(pm_flat) < 1e-12                      # C1: self-match D = 0
+    rng = np.random.default_rng(7)
+    K = rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3))
+    K = (K + K.conj().T) / 2
+    w, V = np.linalg.eigh(K)
+    s12, s23, s13 = map(math.sqrt, (0.307, 0.546, 0.0220))
+    c12, c23, c13 = (math.sqrt(1 - v * v) for v in (s12, s23, s13))
+    e = complex(math.cos(1.19 * math.pi), math.sin(1.19 * math.pi))
+    U = np.array([
+        [c12 * c13, s12 * c13, s13 * e.conjugate()],
+        [-s12 * c23 - c12 * s23 * s13 * e,
+         c12 * c23 - s12 * s23 * s13 * e, s23 * c13],
+        [s12 * s23 - c12 * c23 * s13 * e,
+         -c12 * s23 - s12 * c23 * s13 * e, c23 * c13]])
+    Ue = U @ (V @ np.diag(np.exp(1j * 0.02 * w)) @ V.conj().T)
+    D_near = stat((np.abs(Ue) ** 2).ravel())
+    D_obs = stat(B2.ravel())
+    assert D_near < 0.02 < D_obs                      # C2: power ordering
+    flat = B2.ravel()
+    d_loop = min(math.sqrt(sum((flat[i] - pm_flat[k]) ** 2
+                               for k, i in enumerate(row)) / 9)
+                 for row in idx)
+    assert abs(d_loop - D_obs) < 1e-15                # C5: path consistency

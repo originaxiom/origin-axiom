@@ -68,3 +68,40 @@ the observed D = 0.134 is 4.7× the floor, and the null decided the
 region is typical, not rare. Lock:
 tests/test_b631_matrix_comparison.py (fast: seals + D_obs + 0/9;
 OA_SLOW=1: the seeded null reproduced exactly).
+
+---
+
+## ADDENDUM (2026-07-15, same day — the process repairs; the owner's catch)
+
+The owner directed a read-back of PROGRESS_LOG against this arc; three
+process elements of the house standard were missing and are now supplied.
+The sealed run is UNTOUCHED; nothing below alters the verdict.
+
+**1. Pipeline controls (`b631_controls.py`, `controls_output.txt`) — the
+"the null is real, not a broken pipeline's" standard (B575):** C1
+positive control: framework := |U_PMNS|² itself gives D = 0 and
+p = 1/(N+1) exactly. **C2 power demonstration: a unitary genuinely near
+PMNS (U·e^{iεK}) fires MATCH-CANDIDATE — ε = 0.02 → p = 0.00027,
+ε = 0.05 → p = 0.0061** — the instrument COULD have detected a real
+match; the 0.700 is discriminating, not vacuous. C3 sampler calibration:
+Haar |U_ij|² reproduces the exact Beta(1,2) law (mean 1/3,
+P(x ≤ 1/2) = 3/4) at 200k samples. C4 seed robustness: p = 0.7008 /
+0.6995 under fresh seeds. C5 path consistency: loop-vs-vectorized D
+identical to 1e-15.
+
+**2. The MB13 retro-sweep (`MB13_RETRO_SWEEP.md`):** run AFTER sealing —
+a lapse, recorded. Findings: the held-out claim SURVIVES (no prior
+matrix-level comparison anywhere); contextual prior art that belonged in
+B630's MB12: B322 (PMNS angles already chance-level in the 6241-number
+value hunt) and B342 (the object's ℤ/3 = trimaximal symmetry; the
+uniform DFT circulant's TM2 pattern already DISFAVORED by data — B631's
+non-uniform circulant losing at the moduli level is the same lesson one
+layer up).
+
+**3. The dual-protocol routing:** hints H134 (the κ=10 golden
+eigenspace's golden-rational delocalization weights) and H135 (the
+one-field ℚ(ζ₂₈) closed form; symbolic proof gate) registered in
+HINT_LEDGER; leads L86/L87 (the deferred points 2/3, GATED) and L88 (the
+symbolic Latin-square proof) registered in OPEN_LEADS; the stale L85 row
+closed as resolved-by-outcome-B. CANDIDATES.md PC26 row updated with the
+round's §9 content.
