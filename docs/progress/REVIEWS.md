@@ -969,3 +969,9 @@ B621 observable reconciliation and the odd-κ reciprocity lemma are the
 stretch's registered residuals.
 
 anchor-commit: `1db9228` (Review 19; #996)
+
+- 2026-07-15 (the director's timing override, after #997): REVIEW 19 is marked INTERIM — it ran
+  before the campaign's task queue completed. The next review (the completion sweep) fires ONLY
+  after the queue drains: (1) the six-exponent silver exterior family, (2) the B618↔B621 observable
+  reconciliation, (3) the odd-κ reciprocity lemma, (4) the field-crossover mechanism. The review-due
+  counter is advisory until then per the director.
