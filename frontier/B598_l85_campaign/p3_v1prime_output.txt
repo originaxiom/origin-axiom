@@ -1,0 +1,50 @@
+  direction m=11: UNOBSTRUCTED
+======================================================================
+J rebuilt (Schur-unique)
+V1' mirrored configuration, block m=4:
+    sigma(a1        ) = a2                                                0  class zero  expect zero   [True]
+    sigma(b1        ) = b2                                                0  class zero  expect zero   [True]
+    sigma(a2        ) = a1                                                0  class zero  expect zero   [True]
+    sigma(b2        ) = b1                               (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a1b1      ) = a2b2                                              0  class zero  expect zero   [True]
+    sigma(a2b2      ) = a1b1                             (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a1b2      ) = a2b1                             (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a2b1      ) = a1b2                                              0  class zero  expect zero   [True]
+    sigma(a1a2      ) = a2a1                                              0  class zero  expect zero   [True]
+    sigma(b1b2      ) = b2b1                             (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a1b1a2b2  ) = a2b2a1b1                         (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a2b2a1b1  ) = a1b1a2b2                         (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a1b2a2b1  ) = a2b1a1b2                         (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a1b1A1B1  ) = a2b2A2B2                                          0  class zero  expect zero   [True]
+    sigma(a1b2A1B2  ) = a2b1A2B1                         (2096640+2096640w)  class 1+w   expect 1+w    [True]
+    sigma(a1a2b1b2  ) = a2a1b2b1                         (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(b1a2b2a1  ) = b2a1b1a2                         (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a1b1a1    ) = a2b2a2                                            0  class zero  expect zero   [True]
+    sigma(a1b1b2    ) = a2b2b1                           (2096640-2096640w)  class 1-w   expect 1-w    [True]
+    sigma(a2b1b2    ) = a1b2b1                           (2096640-2096640w)  class 1-w   expect 1-w    [True]
+  m=4: V1' verdict True
+V1' mirrored configuration, block m=8:
+    sigma(a1        ) = a2                                                0  class zero  expect zero   [True]
+    sigma(b1        ) = b2                                                0  class zero  expect zero   [True]
+    sigma(a2        ) = a1                                                0  class zero  expect zero   [True]
+    sigma(b2        ) = b1                     (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a1b1      ) = a2b2                                              0  class zero  expect zero   [True]
+    sigma(a2b2      ) = a1b1                   (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a1b2      ) = a2b1                   (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a2b1      ) = a1b2                                              0  class zero  expect zero   [True]
+    sigma(a1a2      ) = a2a1                                              0  class zero  expect zero   [True]
+    sigma(b1b2      ) = b2b1                   (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a1b1a2b2  ) = a2b2a1b1               (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a2b2a1b1  ) = a1b1a2b2               (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a1b2a2b1  ) = a2b1a1b2               (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a1b1A1B1  ) = a2b2A2B2                                          0  class zero  expect zero   [True]
+    sigma(a1b2A1B2  ) = a2b1A2B1               (536481792000-536481792000w)  class 1-w   expect 1-w    [True]
+    sigma(a1a2b1b2  ) = a2a1b2b1               (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(b1a2b2a1  ) = b2a1b1a2               (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a1b1a1    ) = a2b2a2                                            0  class zero  expect zero   [True]
+    sigma(a1b1b2    ) = a2b2b1                 (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+    sigma(a2b1b2    ) = a1b2b1                 (536481792000+536481792000w)  class 1+w   expect 1+w    [True]
+  m=8: V1' verdict True
+
+V1' VERDICT (the copy-exchange mirror kill cell): PASS — mirror-equivariant
+banked blind; V2 runs only after this output is committed.
