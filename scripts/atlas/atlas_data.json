@@ -12212,7 +12212,7 @@
     "V2"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },

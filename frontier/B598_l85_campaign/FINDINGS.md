@@ -204,3 +204,24 @@ P2 map + normalization (step 4), G1-FINITE (step 7), the sealed prereg
 (step 8), and the independent P1 pipeline (step 9).
 
 **Chain state: 1 provisional · 2 ✓ · 3 ✓ · 5 ✓ · 6 ✓ · 4/7/8/9 open.**
+
+## STEP 4a COMPLETE (2026-07-15): the domain is typed — six lines, uniformly
+
+**The verdict.** The P2 map's domain is typed (P2_MAP.md slot 1). At EVERY
+one of the six blocks V_m, exactly and uniformly:
+dim H¹(π_K; V_m) = 1 (re-certified); the peripheral T² module has
+h⁰ = 1, h¹ = 2, h² = 1 with duality h⁰ = h² holding; [W_μ, W_λ] = 1; and
+res: H¹(π_K; V_m) → H¹(T²; V_m) is INJECTIVE (the restriction class is
+nonzero mod coboundaries) — the half-lives-half-dies face: each cusp line
+is half of a 2-dimensional H¹(T²). The μ-leg alone detects the class at
+every block. Script `step4a_domain.py` (failure-enforcing), output
+`step4a_output.txt`, lock `tests/test_b598_step4a.py` (OA_SLOW).
+
+**The frame consequence.** h⁰(T²; V_m) = 1 at every block: the bending
+(Johnson–Millson) family at the weld torus has exactly ONE canonical
+parameter per block — so the declared bending domain (P2_MAP.md) is six
+lines with no choice beyond scale, and the banked B599-ALG twist family is
+that domain's realization (4b gate (i) certifies its direction is the
+peripherally-fixed vector). An honest vacuity note: the Euler identity
+h¹ = h⁰ + h² is automatic by rank-nullity (MB12) and is reported, not
+gated; the duality h⁰ = h² is a genuine check and holds.
