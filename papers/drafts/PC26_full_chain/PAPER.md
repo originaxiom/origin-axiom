@@ -328,6 +328,23 @@ the color roots). **[PROVED**, `test_b604_rosetta`,
 5. **Reachability.** As v1; the mirror-double evades the rank-1 wall's
    hypothesis, not the wall.
 
+### 9.6 Literature context for the golden values (recorded, not claimed)
+
+The flavor-symmetry literature contains named golden-ratio solar-mixing
+ansätze: GR1 with sin²θ₁₂ = 1/(1+φ²) = (5−√5)/10 ≈ 0.276
+(Kajiyama–Raidal–Strumia 2007; A₅-realized by Everett–Stuart 2009) and
+GR2 with sin²θ₁₂ = (3−φ)/4 ≈ 0.345 — **our banked |h₃|² equals GR1's
+value exactly**, a shared-5-fold-arithmetic fact (both constructions are
+golden arithmetic), not a group identity: the golden stage's clocks have
+orders 10/20 and its projective modular image exceeds |A₅| (computed).
+The quantity 1/(2φ) ≈ 0.309 is unrecorded in that literature and is
+numerically nearest the current fitted solar angle among such algebraic
+values — recorded here as literature context under a sealed comparison
+protocol whose corrected significance is p ≈ 0.08 (AMBIGUOUS) and whose
+angle matches are not robust to the choice of global-fit source; no
+claim is made. [CITED: the 2026-07-15 literature synthesis in the
+repository.]
+
 ## 11. Firewalled motivation (one paragraph)
 
 The program's motivating conjecture — that measured values live in the

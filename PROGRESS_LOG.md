@@ -4507,3 +4507,12 @@ untouched territory. (3) WRT — trace-level reality standard; the operator-leve
 (B613) and the higher-rank torus-bundle Gauss sums (B587) appear genuinely unrecorded (scanned-PDF
 caveats; manual reads of Jeffrey §4–5 and Andersen–Jørgensen before novelty claims). PC26
 citation/caveat updates registered. Firewalled.
+
+## 2026-07-15 — B619: the A₅ bridge adjudicated — both readings refuted; the shared-arithmetic remark banked as context
+Chat-1's "θ-odd clock order = 60 = |A₅|" REFUTED (ord ρ(A₁) = 20 exact; odd projective order 5;
+cyclic, never A₅); CC's sharpened candidate (projective stage image = PSL(2,5) ≅ A₅) ALSO refuted
+(image > 400; congruence level ~30). Surviving, context-tier: |h₃|² = GR1's ansatz value exactly as
+shared 5-fold arithmetic; 1/(2φ) unrecorded in the flavor literature; all recorded in PC26 §9.6
+under the sealed B615 verdict with the source-sensitivity caveat — data points, never significance.
+The "angles-not-magnitudes" reading = a description of B615's raw outcome + the three-layer echo,
+firewalled. Lock test_b619_a5_bridge.py. Firewalled.
