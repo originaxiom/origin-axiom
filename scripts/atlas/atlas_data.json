@@ -12311,6 +12311,23 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B602": {
+   "slug": "value bridge",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B584",
+    "B598",
+    "B601"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [
