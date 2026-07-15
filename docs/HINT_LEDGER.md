@@ -373,3 +373,10 @@ prior quantum-consciousness pointer. Genuine hooks:
 - **H133** [NOTICED — B578-D7]: Z = Tr ρ(A₁) = +1 at E₆ levels 1, 2, AND 3 (three independent
   exact computations). Is Z ≡ 1 at every level (a fixed-point/Lefschetz-type statement for the
   fig-8 monodromy in every E₆ theater)? Gate: level 4, or a proof.
+
+## H133 — UPDATE (2026-07-15): TESTED-NEGATIVE at its registered gate
+Z ≡ 1 died at level 4: Z₄ = 0 exactly (cc2's exact certificate, packet) and independently
+reproduced in-repo at 1e-10 (B600); both parity sectors vanish. Residual hint (mandatory per the
+gate's wording): the Z-ladder {+1, +1, +1, 0, ?} — does Z return at the prime conductor κ = 17
+(level 5)? cc2's splitting-law prediction (ℚ(√17) odd-block import) registered as the decisive
+level-5 test. The zero is NOT forced by B599's selection rule — mechanism open.

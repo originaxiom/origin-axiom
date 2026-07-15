@@ -12209,7 +12209,7 @@
     "P3",
     "V2"
    ],
-   "obstacle": "gauge_dict",
+   "obstacle": "units_scale",
    "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
@@ -12256,6 +12256,27 @@
    "obstacle": "observable",
    "obstacle_conf": 3,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B600": {
+   "slug": "level ladder",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B599",
+    "H133",
+    "L73",
+    "L74",
+    "P4"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B60": {
