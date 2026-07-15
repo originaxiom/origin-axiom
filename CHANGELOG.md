@@ -6,6 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-15 — THE L85 RESOLUTION: the chain green (1–9), P3 run sealed, OUTCOME B
+
+### Added / Fixed
+- The readiness chain completed: step 1 upgraded to the EXACT peripheral certificate
+  (c² − c + 1 = 0 forced; c = ζ₆ a unit); step 4 complete (the domain typed h⁰=1/h¹=2/h²=1
+  uniform + the bending responses: rank R2 = 2 on the θ-odd lines, the column law
+  N₄(1+√−3)/N₈(1−√−3)); step 7 G1-FINITE (the dial map 3/3/52/52/52/78/78 — even bends stay
+  under the fold (f₄), odd bends open e₆; the B582 provenance hole closed); step 8 the sealed
+  prereg (hashed); step 9 the clean-room P1 (fresh Cartan-matrix pipeline reproduces
+  dim H¹ = 1 and −2√−3 at all six blocks).
+- P3 run in the sealed order, every cell banked blind: V1 vacuous (amendment 1, hashed) →
+  V1′ PASS (exact mirror equivariance); V2 FAIL (the law survives κ=10, the golden pairing
+  does not — the recorded defect); V3 as-sealed + amendment 2 (the magnitude clause provably
+  unsatisfiable from banked order-4) → V3′ PASS (spectrum exactly {−1, ±i}; canonical 2+1
+  splitting). **OUTCOME B: the semiclassical map exists at golden κ = 5 as a structural
+  correspondence, level-specially.** Downstream stays gated. L85 resolves; Review 18 fires.
+
 ## 2026-07-15 — the cc2 packet; step 6 exact; step 4a: the P2 domain typed
 
 ### Added / Fixed

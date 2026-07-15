@@ -915,3 +915,10 @@ L85 campaign RESOLVES (outcome A/B/D banked), not mechanically at 20 merges.
 The counter may exceed 20 in the meantime; the pre-committed scope above
 (provenance + terminology sweeps) is unchanged. The campaign is the priority;
 everything else waits.
+
+- 2026-07-15: L85 RESOLVED (outcome B, PR chain #951–#962+). Per the owner override, REVIEW 18
+  FIRES NOW: the provenance sweep (PROVENANCE.md; no external-verification pretense — all
+  verification internal, owner + AI seats), the terminology sweep (TERMINOLOGY.md; inner terms
+  labeled), papers carry true status. This window's corrections to consolidate: the V1/V3 sealing
+  errata pattern (MB12 applies to operations AND criteria), the D2-retraction supersessions, the
+  B591 terminology fix, the quarantined pre-synthesis chain (B517→B530→B531→B532, P43/P46/P51).

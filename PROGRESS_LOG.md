@@ -4245,3 +4245,13 @@ sealing error recorded (MB12 applied to the criterion but not the operation). Am
 before the amended run: V1′ = the copy-exchange mirror (twist on copy 1, words σ-mapped, prediction =
 γ-conjugate classes of the banked 4b responses) — non-vacuous, faithful to the sealed intent.
 Firewalled.
+
+## 2026-07-15 — P3 RESOLVED: OUTCOME B — the semiclassical map exists at golden κ=5, level-specially
+The sealed run: V1 executed vacuous (v_m real; amendment 1 hashed; V1′ = copy-exchange mirror) →
+V1′ PASS exactly (40/40 rows, same integers, conjugate phases, zero set σ-mapped). V2 FAIL genuinely
+(the hearing law holds at κ=10 — law gates green — but the golden conjugate-pairing does not persist;
+the defect of record). V3 banked as-sealed (spectrum exactly {−1, +i, −i}; (λ+1)(λ²+1)), then
+amendment 2 struck the magnitude clause as provably unsatisfiable from the banked order-4 fact alone;
+V3′ PASS — the canonical conjugation rank-2+1 splitting produces the 2↔2 restoration. By the locked
+table: OUTCOME B. No value claims; the downstream stays gated. L85 RESOLVES → Review 18 fires (owner
+override; counter held at 19). Firewalled.
