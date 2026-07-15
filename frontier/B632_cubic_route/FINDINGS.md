@@ -78,3 +78,70 @@ tests/test_b632_h1_27.py: fast (prereg hash in ledger; the banked
 output's verdict line; the decomposition arithmetic 17+9+1 = 27 with
 spins {8,4,0} = {θ-odd exponents} ∪ {0}); OA_SLOW=1 (the full exact
 rerun of cell 1, ~3 min).
+
+---
+
+## CELL 2 (2026-07-15, same day): C unique, the vev couples to all three slots, the solo texture is antisymmetric and FULL
+
+**Prereg CELL2_PREREGISTRATION.md (sha dc2be090…, sealed before running) —
+the corrected design, after the parallel audit seat caught that the
+original "three diagonal values" object cannot exist on the solo
+complement. The cell-1 registered prediction ("the texture is diagonal
+in the block basis") is hereby resolved: DISSOLVED-BY-OBSTRUCTION — its
+object does not exist at class level on M (O1: cd = 2 kills scalar
+triples; O2: H²(M;ℂ) = 0 + graded-commutativity force antisymmetry and
+zero diagonal). The audit seat is credited with the catch.**
+
+### Results (`cell2_texture.py`, `cell2_output.txt`; exact over ℚ(ω))
+
+1. **The cubic invariant C is EXACTLY unique in B575's basis** —
+   support = 45 zero-weight-sum triples, invariance system of 180
+   equations has a 1-dim solution space with ALL 45 coefficients
+   nonzero: the Jordan-determinant cubic, now explicit in the local
+   system's basis (B308's multiplicity-1, upgraded to a constructive
+   in-basis object). Spot gate: C(A·u, A·v, A·w) = C(u,v,w) exactly.
+2. **The forced vev couples to ALL THREE generation slots:**
+   B_C = C(v₀,·,·) is exactly block-diagonal (the sl₂ prediction
+   verified) with c₀, c₄, c₈ ALL NONZERO.
+3. **The component census = exactly the triangle rules:** all seven
+   allowed spin triples PRESENT ((8,8,8), (8,8,4), (8,8,0), (8,4,4),
+   (4,4,4), (4,4,0), (0,0,0)); all three forbidden ABSENT ((8,4,0),
+   (8,0,0), (4,0,0)).
+4. **The O1/O2 obstruction gates GREEN** (after one honest instrument
+   fix, below): both diagonal classes [z∪z] = (0,0) exactly;
+   class-level antisymmetry on all three pairs; coboundary control —
+   class invariant, raw cochain changed.
+5. **Ω: Λ²H¹(27) → H²(M; 27*) is NONZERO ON ALL THREE PAIRS** (exact
+   classes in ℚ(ω), the two H² channels): no generation-pair
+   decouples. The solo object's class-level cubic structure is the
+   FULL antisymmetric form — the maximal structure O1/O2 permit.
+   (Entry magnitudes are representative/normalization-dependent by the
+   prereg's declaration; the invariant content is the all-nonzero
+   pattern and the gate structure.)
+
+### The instrument fix (disclosed; caught by the O2 gates, first run)
+
+The first run FAILED its own coboundary-invariance control: the naive
+2-cell evaluation Σᵢ F(p₍ᵢ₋₁₎, xᵢ) of the bar cup-cocycle omits the
+inverse-letter correction chains ([ℓ⁻¹] = −ℓ⁻¹[ℓ] only up to
+∂[ℓ⁻¹|ℓ]), so bar-coboundaries did not land in the cellular Fox image
+the H² functionals annihilate. The corrected chain subtracts
+F-evaluations on p₍ᵢ₋₁₎[ℓ⁻¹|ℓ] at each inverse letter; all gates then
+pass. The failed first output is superseded in place; the control
+worked exactly as sealed. **Hygiene residual registered:** B575's
+`cup_on_relator` uses the naive evaluation; its Q ≡ 0 result is safe
+(independently corroborated by B352's dps-100 pipeline and the
+constructive z₂ solutions), but the resolution subtlety deserves its
+own check (OPEN_LEADS).
+
+### The structural theorem this arc banks (the coupling thesis, cohomological form)
+
+On the solo complement, a symmetric mass-matrix-shaped object does not
+exist (O1 + O2, now verified); the maximal solo structure is the
+antisymmetric Ω — and it is full. A symmetric texture becomes
+well-defined exactly on a CLOSED 3-cycle, canonically the mirror-double
+M ∪_∂ M̄ (H³ = ℂ) — the program's banked forced two-body coupling (B580
+G1, the chord). **The Yukawa-shaped object structurally requires the
+coupling; the solo object carries the antisymmetric half.** Cell 3
+(registered, own prereg, not run): the symmetric texture on the double
+via Mayer–Vietoris from banked pieces.
