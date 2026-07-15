@@ -1,0 +1,19 @@
+syntax ok
+  kappa=33: tr = +0.000000000+0.000000000j
+  kappa=34: tr = -0.000000000-0.000000000j
+  kappa=35: tr = -0.395643924+0.228425126j  <-- sqrt(21)-BEARING: Re = 3/4 + -1/4*sqrt21
+  kappa=36: tr = +1.000000000-1.732050808j
+  kappa=37: tr = +0.000000000-0.000000000j
+  kappa=38: tr = -1.000000000-0.000000000j
+  kappa=39: tr = +0.000000000-0.000000000j
+  kappa=40: tr = +0.500000000-0.866025404j
+  kappa=41: tr = -0.000000000+0.000000000j
+  kappa=42: tr = -0.395643924+0.685275378j  <-- sqrt(21)-BEARING: Re = 3/4 + -1/4*sqrt21
+  kappa=43: tr = -0.000000000-0.000000000j
+  kappa=44: tr = +0.500000000-0.866025404j
+  kappa=45: tr = +0.000000000+0.000000000j
+
+sqrt(21)-bearing levels: [14, 21, 35, 42]
+of these: mod-21 [21, 42], mod-7 [14, 21, 35, 42], mod-3 [21, 42]
+PREDICTION VERDICT (content at d|21 levels only, d>1): PASS
+B618 DONE
