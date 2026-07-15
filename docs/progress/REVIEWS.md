@@ -945,3 +945,6 @@ window: the V1/V3 sealing-errata pattern is now a standing memory rule
 for the synthesis pass — they are corrections to specific banked findings,
 not provenance/terminology items, and stay tracked in REVIEWS/OPEN_LEADS.
 Counter: Review 18 done; the counter resumes normal cadence.
+
+anchor-commit: `0f90167` (Review 18, merged as #964 — the anchor line was omitted at banking;
+added here so the decadal counter registers the executed review.)
