@@ -12881,6 +12881,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B633": {
+   "slug": "b615r integration",
+   "motifs": [
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B614",
+    "B615",
+    "B616",
+    "B627",
+    "B628",
+    "B629",
+    "B631"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B63": {
    "slug": "sl4 symbolic m",
    "motifs": [
