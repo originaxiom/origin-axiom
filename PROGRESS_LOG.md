@@ -4688,3 +4688,27 @@ the solo object carries the FULL antisymmetric half of the cubic structure; the 
 forced coupling (B580 G1). THE YUKAWA STRUCTURALLY REQUIRES THE COUPLING — the coupling thesis in
 cohomological form.** Cell 3 (the texture on the double) registered L89, own prereg. No SM number
 anywhere. Locks fast + OA_SLOW for both cells. Firewalled.
+
+## 2026-07-15 — B633: B615-R integrated (VERDICT A — the last SM residual DISSOLVES) + B634: the conductor-chord arc opened
+TWO SEATS CONVERGED FROM OPPOSITE DIRECTIONS. Seat 4's Level-1 defect (real, fixed): B615's targets
+mixed schemes/scales (m_t/m_b spans 36–61 across conventions) and carried no uncertainties — the
+firewall theorem inside our own methodology (the object supplies no scale, so single-μ comparisons
+are human conventions). B615-R (seal-verified on receipt; headline INDEPENDENTLY REPRODUCED
+in-loop): with uncertainty-aware windows + NuFIT 6.1/PDG-2026 centrals + scheme columns, **the
+p = 0.078 residual dissolves in EVERY variant (a 0.62 / b 0.35 / c 0.145 / c2 0.315 / c3 0.145) —
+VERDICT A, Branch 3's SM-silent closure HARDENED**; NuFIT 6.1's octant flip kills the 0.546 match;
+1/(2φ) sits 0.03σ from sin²θ₁₂ but the ±1σ window holds four other inventory members — no extra
+evidence; **the JUNO forward row registered (nature adjudicates the golden question; no seat acts)**.
+The Input-Completeness Ledger ADOPTED (docs/INPUT_COMPLETENESS_LEDGER.md) into the sealing
+checklist. Seat 4's Level-2 ("the missing arc is a stage-selection principle") is answered by the
+owner's synthesis, adjudicated and registered in B634's prereg: **THE MIRROR IS THE SECOND AXIOM —
+supplied by the object itself (amphichirality); the mirror-twist's torsion conductor selects the
+stage: det(A₁+I) = 5 = tr²−4, H₁(−A₁ bundle) = ℤ⊕ℤ/5 (G1 computed exact), κ = 5 forced.** The
+precision correction recorded: the TWIST (cusped, conductor-carrier, chord +1/φ) and the
+BOUNDARY-DOUBLE (closed, H³ = ℂ, the symmetric-texture carrier) are two different mirror-couplings
+with split roles — both obstructed/enabled exactly as B632 proved. B634 gates locked: G2 the
+gluing existence from B605's banked exact intertwiners; G3 H¹(D(M); 27) by Mayer–Vietoris; G4 THE
+YUKAWA TABLE (the symmetric triple cup through the explicit 45-monomial cubic, controls included);
+G5 the conductor read (structural, NO SM number). Every gate two-outcome; a zero tensor at G4 =
+the honest kill of the mirror-axiom's value route. Comparison, if ever: owner directive + the full
+checklist. Firewalled.

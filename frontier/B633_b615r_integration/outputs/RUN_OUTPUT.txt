@@ -1,0 +1,95 @@
+
+########## VARIANT (a: old centrals + width correction) ##########
+             G1 amplitudes x couplings tier   0.01: observed 0, expected 0.09, P(X>=k) = 1.0000
+             G1 amplitudes x couplings tier  0.001: observed 0, expected 0.04, P(X>=k) = 1.0000
+      G2 amplitudes+fractions x angles tier   0.01: observed 5, expected 3.21, P(X>=k) = 0.2174
+      MATCH A5 (4/7)sin^2(4pi/7) vs sin^2th23(PMNS): v=0.543134 t=0.546 absdev=0.00287
+      MATCH A7 Re h3 = 1/(2phi) vs sin^2th12(PMNS): v=0.309017 t=0.307 absdev=0.00202
+      MATCH A8 arg(h3)/pi = 3/10 vs sin^2th12(PMNS): v=0.3 t=0.307 absdev=0.007
+      MATCH F 4/13 vs sin^2th12(PMNS): v=0.307692 t=0.307 absdev=0.000692
+      MATCH F 8/25 vs sin^2th12(PMNS): v=0.32 t=0.307 absdev=0.013
+      G2 amplitudes+fractions x angles tier  0.001: observed 5, expected 2.70, P(X>=k) = 0.1316
+               G3 ratios x mass-ratios tier   0.01: observed 0, expected 0.01, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier  0.001: observed 0, expected 0.01, P(X>=k) = 1.0000
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+      MATCH R1 tau8/tau4 vs M_GUT/M_Z [CONVENTION]: v=3.8597e+14 t=2.19328e+14 absdev=0.245
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+  Sidak-corrected best-grid p, tier 0.01: 0.6249
+  Sidak-corrected best-grid p, tier 0.001: 0.4313
+
+########## VARIANT (b: new centrals, point windows) ##########
+             G1 amplitudes x couplings tier   0.01: observed 0, expected 0.06, P(X>=k) = 1.0000
+             G1 amplitudes x couplings tier  0.001: observed 0, expected 0.01, P(X>=k) = 1.0000
+      G2 amplitudes+fractions x angles tier   0.01: observed 2, expected 0.54, P(X>=k) = 0.1007
+      MATCH A7 Re h3 = 1/(2phi) vs sin^2th12(PMNS): v=0.309017 t=0.3088 absdev=0.000217
+      MATCH F 4/13 vs sin^2th12(PMNS): v=0.307692 t=0.3088 absdev=0.00111
+      G2 amplitudes+fractions x angles tier  0.001: observed 1, expected 0.05, P(X>=k) = 0.0522
+               G3 ratios x mass-ratios tier   0.01: observed 0, expected 0.01, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier  0.001: observed 0, expected 0.00, P(X>=k) = 1.0000
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+      MATCH R1 tau8/tau4 vs M_GUT/M_Z [CONVENTION]: v=3.8597e+14 t=2.19328e+14 absdev=0.245
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+  Sidak-corrected best-grid p, tier 0.01: 0.3458
+  Sidak-corrected best-grid p, tier 0.001: 0.1929
+
+########## VARIANT (c: new centrals + width correction [HEADLINE]) ##########
+             G1 amplitudes x couplings tier   0.01: observed 0, expected 0.09, P(X>=k) = 1.0000
+             G1 amplitudes x couplings tier  0.001: observed 0, expected 0.04, P(X>=k) = 1.0000
+      G2 amplitudes+fractions x angles tier   0.01: observed 7, expected 3.18, P(X>=k) = 0.0384
+      MATCH A7 Re h3 = 1/(2phi) vs sin^2th12(PMNS): v=0.309017 t=0.3088 absdev=0.000217
+      MATCH A8 arg(h3)/pi = 3/10 vs sin^2th12(PMNS): v=0.3 t=0.3088 absdev=0.0088
+      MATCH F 1/2 vs sin^2th23(PMNS): v=0.5 t=0.47 absdev=0.03
+      MATCH F 4/13 vs sin^2th12(PMNS): v=0.307692 t=0.3088 absdev=0.00111
+      MATCH F 8/25 vs sin^2th12(PMNS): v=0.32 t=0.3088 absdev=0.0112
+      MATCH F 121/274 vs sin^2th23(PMNS): v=0.441606 t=0.47 absdev=0.0284
+      MATCH F 225/692 vs sin^2th12(PMNS): v=0.325145 t=0.3088 absdev=0.0163
+      G2 amplitudes+fractions x angles tier  0.001: observed 6, expected 2.69, P(X>=k) = 0.0514
+               G3 ratios x mass-ratios tier   0.01: observed 0, expected 0.01, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier  0.001: observed 0, expected 0.01, P(X>=k) = 1.0000
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+      MATCH R1 tau8/tau4 vs M_GUT/M_Z [CONVENTION]: v=3.8597e+14 t=2.19328e+14 absdev=0.245
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+  Sidak-corrected best-grid p, tier 0.01: 0.1450
+  Sidak-corrected best-grid p, tier 0.001: 0.1904
+
+########## VARIANT (c2: other-octant th23 sensitivity) ##########
+             G1 amplitudes x couplings tier   0.01: observed 0, expected 0.09, P(X>=k) = 1.0000
+             G1 amplitudes x couplings tier  0.001: observed 0, expected 0.04, P(X>=k) = 1.0000
+      G2 amplitudes+fractions x angles tier   0.01: observed 6, expected 3.12, P(X>=k) = 0.0903
+      MATCH A5 (4/7)sin^2(4pi/7) vs sin^2th23(PMNS): v=0.543134 t=0.55 absdev=0.00687
+      MATCH A7 Re h3 = 1/(2phi) vs sin^2th12(PMNS): v=0.309017 t=0.3088 absdev=0.000217
+      MATCH A8 arg(h3)/pi = 3/10 vs sin^2th12(PMNS): v=0.3 t=0.3088 absdev=0.0088
+      MATCH F 4/13 vs sin^2th12(PMNS): v=0.307692 t=0.3088 absdev=0.00111
+      MATCH F 8/25 vs sin^2th12(PMNS): v=0.32 t=0.3088 absdev=0.0112
+      MATCH F 225/692 vs sin^2th12(PMNS): v=0.325145 t=0.3088 absdev=0.0163
+      G2 amplitudes+fractions x angles tier  0.001: observed 5, expected 2.60, P(X>=k) = 0.1174
+               G3 ratios x mass-ratios tier   0.01: observed 0, expected 0.01, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier  0.001: observed 0, expected 0.01, P(X>=k) = 1.0000
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+      MATCH R1 tau8/tau4 vs M_GUT/M_Z [CONVENTION]: v=3.8597e+14 t=2.19328e+14 absdev=0.245
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+  Sidak-corrected best-grid p, tier 0.01: 0.3152
+  Sidak-corrected best-grid p, tier 0.001: 0.3931
+
+########## VARIANT (c3: scheme-consistent G3 (correction iii)) ##########
+             G1 amplitudes x couplings tier   0.01: observed 0, expected 0.09, P(X>=k) = 1.0000
+             G1 amplitudes x couplings tier  0.001: observed 0, expected 0.04, P(X>=k) = 1.0000
+      G2 amplitudes+fractions x angles tier   0.01: observed 7, expected 3.18, P(X>=k) = 0.0384
+      MATCH A7 Re h3 = 1/(2phi) vs sin^2th12(PMNS): v=0.309017 t=0.3088 absdev=0.000217
+      MATCH A8 arg(h3)/pi = 3/10 vs sin^2th12(PMNS): v=0.3 t=0.3088 absdev=0.0088
+      MATCH F 1/2 vs sin^2th23(PMNS): v=0.5 t=0.47 absdev=0.03
+      MATCH F 4/13 vs sin^2th12(PMNS): v=0.307692 t=0.3088 absdev=0.00111
+      MATCH F 8/25 vs sin^2th12(PMNS): v=0.32 t=0.3088 absdev=0.0112
+      MATCH F 121/274 vs sin^2th23(PMNS): v=0.441606 t=0.47 absdev=0.0284
+      MATCH F 225/692 vs sin^2th12(PMNS): v=0.325145 t=0.3088 absdev=0.0163
+      G2 amplitudes+fractions x angles tier  0.001: observed 6, expected 2.69, P(X>=k) = 0.0514
+               G3 ratios x mass-ratios tier   0.01: observed 0, expected 0.02, P(X>=k) = 1.0000
+               G3 ratios x mass-ratios tier  0.001: observed 0, expected 0.01, P(X>=k) = 1.0000
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+      MATCH R1 tau8/tau4 vs M_GUT/M_Z [CONVENTION]: v=3.8597e+14 t=2.19328e+14 absdev=0.245
+              G4 log-scale x hierarchy tier    log: observed 1, expected 0.68, P(X>=k) = 0.5004
+  Sidak-corrected best-grid p, tier 0.01: 0.1450
+  Sidak-corrected best-grid p, tier 0.001: 0.1904
+
+==== HEADLINE (variant c): p_final = 0.1450 -> VERDICT A (dissolves; closure hardened)
+==== sensitivities: c2 (octant) p = 0.3152; c3 (scheme) p = 0.1450
