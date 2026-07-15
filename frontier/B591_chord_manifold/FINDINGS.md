@@ -43,7 +43,7 @@ construction (the 2-fold cover) carries exactly the golden tone's arithmetic.
 H₁ of the closed double as a function of the cusp gluing g = [[a,b],[c,d]]:
 H₁ = ℤ²/⟨μ₁ − aμ₂, bμ₂⟩. Computed: g = ±I → H₁ = ℤ; **g = ±A₁ → H₁ = 0 — the
 monodromy-twisted double of the figure-eight complement is an integral
-homology 3-sphere** (a graph manifold with two hyperbolic 4₁ pieces).
+homology 3-sphere** (a Haken manifold whose JSJ decomposition has two hyperbolic 4₁ pieces — NOT a graph manifold; terminology corrected 2026-07-15: graph manifolds have only Seifert pieces).
 
 ## M5 — the geometry verdicts (computed where computable)
 
@@ -51,7 +51,7 @@ homology 3-sphere** (a graph manifold with two hyperbolic 4₁ pieces).
 trichotomy, cited); it is not conjugate to the A₁ bundle (traces ±3) and not
 hyperbolic — the census-name/volume/CS/trace-field questions have no
 hyperbolic answers, as B586 stated; what they have instead is M1's torsion.
-The complement-double contains an essential torus ⇒ a graph manifold, two
+The complement-double contains an essential torus ⇒ a nontrivial JSJ decomposition (Haken; corrected 2026-07-15 — formerly mislabeled "graph manifold"), two
 hyperbolic JSJ pieces, Gromov-norm volume 2 × 2.029883… (cited additivity).
 
 ## Reading (firewalled)

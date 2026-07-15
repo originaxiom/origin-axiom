@@ -45,7 +45,7 @@ not mixing.)
 | branching | P(b\|a) = P(B\|A) | 1/φ |
 
 The **structural** letters {a, A} branch; the **tunnel** letters {b, B} are deterministic (b→A always, B→a
-always). The decider/courier split is a golden section, and it is *simultaneously* a frequency split, an entropy
+always). The decider/courier split is a golden section, and it is *simultaneously* a frequency split, a frequency-weighted
 split, and a branching split. **Honest null (XII):** the breath turns 141.83° per step — **not** the golden
 angle 137.51°; only its cosine is golden.
 
@@ -75,7 +75,7 @@ the inequality.
 
 ## VII. Information (XVI)
 
-**Topological entropy h = log β = 1.302 nats/letter** (primitive ⇒ uniquely ergodic ⇒ metric = topological).
+**Inflation growth rate log β = 1.302 nats/substitution-step.** [CORRECTED 2026-07-15, audit 5.3: this is NOT topological entropy — a primitive substitution subshift has ZERO topological entropy (linear factor complexity, as the repo's own lock observes); log β is the inflation/word-length growth per substitution step.]
 Conditional branching is **exact golden**: P(b|a) = P(B|A) = 1/φ; tunnels deterministic (0 bits). The ternary
 branch after A is golden all the way down — B takes 1/φ, and the remaining 1/φ² splits a:A in the **breath ratio
 1/√φ**. All information is generated at the structural letters; all transmission is through the tunnels.
@@ -131,7 +131,7 @@ does not.
 
 > *I am the quartic x⁴−2x³−5x²−4x−1, seen through every lens. I am a proven three-dimensional golden
 > quasicrystal — here is my Rauzy tile, its subtile volumes the golden tensor, its boundary a fractal surface. My
-> information is golden: entropy log β, branching 1/φ, deciding where I decide and relaying where I relay. Lifted
+> information is golden: inflation rate log β, branching 1/φ, deciding where I decide and relaying where I relay. Lifted
 > to the character variety I preserve volume but no bilinear form, because my automorphism has left the geometric
 > world — and at my most symmetric point my whole spectrum is golden times the cube roots of unity.*
 

@@ -1,51 +1,74 @@
-"""B423 -- GATE B: compute the E6 adjoint Reidemeister torsion of the figure-eight, blind."""
-import json, os
-from fractions import Fraction as Fr
+"""B423 -- GATE B: the E6 adjoint Reidemeister torsion of the figure-eight.
+
+CORRECTED 2026-07-15 (the 07-11 audit, item 5.2): the original producer's
+product ran over k = 0..2m INCLUDING k = m, whose factor is 1 - phi^0 = 0,
+so it returned zero identically while the committed artifact held nonzero
+values (produced by an earlier version with a different schema). THE
+DEFINITION, now stated: the REDUCED (adjusted) determinant with the
+invariant eigenline omitted --
+
+    tau_m := det'(I - Sym^{2m}(A)) = prod_{k != m} (1 - phi^{4(m-k)}),
+
+the standard torsion convention when the twisted complex has the
+one-dimensional invariant line (Sym^{2m} of the monodromy A = [[2,1],[1,1]]
+has eigenvalues phi^{4(m-k)}, k = 0..2m; k = m is the eigenvalue 1). The
+silver control uses the same reduced product with delta = 1 + sqrt(2)
+(identified against the committed control value, exact match).
+Regenerating with this definition REPRODUCES the committed artifact
+exactly. The schema is versioned; the artifact is written next to the
+script.
+"""
+import json
+import os
+
 import sympy as sp
 
-phi = (1+sp.sqrt(5))/2
-A = sp.Matrix([[2,1],[1,1]])            # figure-eight monodromy, eigenvalues phi^2, phi^-2
-# Sym^{2m}(A) eigenvalues: (phi^2)^(2m-k) (phi^-2)^k = phi^{2(2m-2k)} = phi^{4(m-k)}, k=0..2m
-def tau_m(m):
-    # det(I - Sym^{2m}(A)) = prod_{k=0}^{2m} (1 - phi^{4(m-k)})
+HERE = os.path.dirname(os.path.abspath(__file__))
+phi = (1 + sp.sqrt(5)) / 2
+delta = 1 + sp.sqrt(2)                  # the silver control
+EXPS = [1, 4, 5, 7, 8, 11]              # E6 exponents
+
+
+def tau_m(m, lam=phi):
+    """the reduced determinant: the k = m (eigenvalue-1) factor omitted."""
     p = sp.Integer(1)
-    for k in range(0, 2*m+1):
-        p *= (1 - phi**(4*(m-k)))
-    return sp.simplify(sp.expand(sp.nsimplify(p, [sp.sqrt(5)])))
-exps = [1,4,5,7,8,11]                   # E6 exponents
-taus = {}
-for m in exps:
-    t = tau_m(m)
-    taus[m] = t
-    print(f"tau_{m} = {t}")
-tauE6 = sp.simplify(sp.prod([taus[m] for m in exps]))
-print("\ntau_E6 (adjoint torsion) =", tauE6)
-# characterize: is it a pure power-of-phi / integer with only prime 5? factor it.
-val = sp.nsimplify(tauE6, [sp.sqrt(5)])
-# rational part and sqrt5 part
-a = sp.simplify((val + val.subs(sp.sqrt(5), -sp.sqrt(5)))/2)   # rational part
-b = sp.simplify((val - val.subs(sp.sqrt(5), -sp.sqrt(5)))/(2*sp.sqrt(5)))  # sqrt5 coeff
-print("rational part a =", a, "  sqrt5 coeff b =", b)
+    for k in range(0, 2 * m + 1):
+        if k == m:
+            continue
+        p *= (1 - lam ** (4 * (m - k)))
+    return sp.expand(sp.simplify(p))
+
+
 def prime_content(x):
-    x = sp.Rational(x)
+    x = sp.Rational(sp.nsimplify(x))
     prs = set()
-    for n in (sp.Integer(x.p).__abs__(), sp.Integer(x.q)):
-        for pr in sp.factorint(int(n)): prs.add(int(pr))
+    for n in (abs(int(x.p)), int(x.q)):
+        for pr in sp.factorint(n):
+            prs.add(int(pr))
     return sorted(prs)
-try:
-    pc_a = prime_content(a) if a.is_rational else "non-rational"
-    pc_b = prime_content(b) if b.is_rational else "non-rational"
-except Exception as e:
-    pc_a = pc_b = str(e)
-print("prime content of a:", pc_a, "  of b:", pc_b)
-non_golden = any(p not in (2,5) for p in (pc_a if isinstance(pc_a,list) else []) + (pc_b if isinstance(pc_b,list) else []))
-res = dict(taus={str(m): str(taus[m]) for m in exps}, tauE6=str(tauE6),
-           rational_part=str(a), sqrt5_coeff=str(b),
-           prime_content_a=pc_a, prime_content_b=pc_b,
-           non_golden_primes=bool(non_golden),
-           verdict=("STRUCTURE: non-golden primes present -- computation produces what symmetry hid"
-                    if non_golden else
-                    "GOLDEN/FLAT: pure phi/Fibonacci-Lucas -- computation confirms the symmetry verdict"))
-print("\nVERDICT:", res["verdict"])
-json.dump(res, open("gateB.json","w"), indent=1)
-print("DONE")
+
+
+def compute():
+    taus = {m: tau_m(m) for m in EXPS}
+    tauE6 = sp.simplify(sp.prod([taus[m] for m in EXPS]))
+    pc = prime_content(tauE6)
+    ctrl = sp.simplify(sp.prod([tau_m(m, delta) for m in EXPS]))
+    return dict(schema_version=2,
+                taus={str(m): str(taus[m]) for m in EXPS},
+                tauE6=str(tauE6),
+                prime_content=pc,
+                golden_only=bool(set(pc) <= {2, 5}),
+                control_tauE6=str(ctrl),
+                control_primes=prime_content(ctrl))
+
+
+if __name__ == "__main__":
+    res = compute()
+    for m in EXPS:
+        print(f"tau_{m} = {res['taus'][str(m)]}")
+    print("tau_E6 =", res["tauE6"])
+    print("prime content:", res["prime_content"],
+          " golden_only:", res["golden_only"])
+    out = os.path.join(HERE, "gateB.json")
+    json.dump(res, open(out, "w"), indent=1)
+    print("DONE ->", out)

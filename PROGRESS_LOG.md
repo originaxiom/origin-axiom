@@ -4330,3 +4330,27 @@ data (word-response norms; E₆₂ off-diagonals). Third sealing lapse of the da
 registered pre-run ("both outcomes live" is a CLAIM — compute the discriminating fact before
 sealing); lesson appended to the MB12 memory. Lock test_b606_norm_bridge.py (ungated, seconds).
 Firewalled.
+
+## 2026-07-15 — B607 (the charge table): the odd sector is charge-mixed except the two spinor tips
+The exact bicharge census of all 26 odd lines (B604's machinery + charge functionals = simple-root
+coefficients): 22 of 24 non-Cartan lines are MIXED (both coset classes everywhere; the D₅-core class
+joins at |wt| ≤ 6); the ONLY pure lines are V(m=8)'s extremal tips wt = ±16 with bicharge (1,1) —
+the double-spinor pair, the unique G_SM-gradable lines in the hearing sector. B604's h=4 coefficients
+reproduced (cross-check). Math-tier; the gauge/matter reading stays firewalled. Lock
+test_b607_charge_table.py (OA_SLOW). Firewalled.
+
+## 2026-07-15 — the quarantined corrections sweep applied (audit 07-11 items 5.1–5.5 + B591)
+Each criticism VERIFIED in-sandbox, then corrected: P43 demoted (d < 2 is not an anyon-realizability
+criterion — unitary categories admit d ≥ 2; the supportable statement is Ostrik-conditional on the
+rank-2 fusion rule; the exact inequality stands); P46 split into literature/exact/conditional tiers
+(the m → m²+2 dictionary is chosen, not derived); P51 demoted (the mod-p Schwartz–Zippel sample
+cannot prove the ℚ-identity; UPGRADED where possible: B575's exact full polarized quadratic set —
+all 6 directions + 15 cross-pairs, recomputed at every l51 load — replaces the sampled quadratic
+route; order ≤ 3 exact, beyond = CONJECTURE); B423 FIXED (the producer's k = m zero-factor bug;
+the reduced determinant det′ now stated and implemented; the regenerated artifact REPRODUCES the
+committed values exactly incl. the silver control — identified as the same reduced product at
+δ = 1+√2; schema versioned; the lock now runs the producer fresh, 4 passed); B530's "topological
+entropy log β" RETRACTED → inflation growth rate (primitive subshifts have zero entropy; the repo's
+own lock shows linear complexity; all entropy-language uses corrected); B591 "graph manifold" →
+Haken with two hyperbolic JSJ pieces (graph manifolds have only Seifert pieces). B530's 53 locks
+green post-edit. Firewalled.

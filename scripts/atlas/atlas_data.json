@@ -12011,7 +12011,8 @@
     "z3_generation",
     "amphichiral_cp",
     "torsion",
-    "firewall"
+    "firewall",
+    "hyperbolicity_split"
    ],
    "refs": [
     "B204",
@@ -12399,6 +12400,22 @@
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B607": {
+   "slug": "charge table",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B604"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
