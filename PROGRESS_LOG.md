@@ -4486,3 +4486,11 @@ moves to B581's EXTERIOR sign law (m136 port decides). EXPLORATORY registered: t
 tr²−4 (5, 12) = the objects' hearing-trace conductors — the conductor-unification candidate, with
 the tr-5 prediction (base 21) as the third-object test. Promotion candidate with B613. Lock
 test_b617_sign_law.py (fast). Firewalled.
+
+## 2026-07-15 — B618: the conductor unification CONFIRMED on the third object (registered prediction)
+The tr-5 bundle's √21-content appears at κ = {14, 21, 35, 42} — exactly the d|21 window (all mod-7;
+mod-21 included; nothing coprime to 21), as registered in B617 BEFORE the run. The three-object law:
+the bundle-torsion base tr²−4 (5, 12, 21) gates the hearing-trace field window (mod-5, mod-12,
+mod-7/21) — one number plays the semiclassical and quantum roles. Predictive-tier; the mechanism
+cell (through B587's Weil conductors) registered. Refinement: the tr-5 content follows the 7-part
+of 21. Lock test_b618_conductor.py. Firewalled.
