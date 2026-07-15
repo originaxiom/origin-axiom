@@ -4550,3 +4550,16 @@ step is the sharply-scoped residual. Cell E applied: PC26 Thm 7.2's novelty scop
 Jeffrey-absence hardens Thms 6.2/8.1). REVIEW 19 executed (the B601–B623 sweep: corrections present,
 sealed record complete, promotion candidates confirmed, no provenance violations; anchor 1db9228).
 Firewalled.
+
+## 2026-07-15 — campaign round 2, cells G/H/I banked (B624–B626); queue items 2–4 resolved or sharpened
+B624 (the observable bridge, CLOSED): the odd hearing trace = the Weil twelve-term assembly with
+Cm itself one of the twelve elements (the signed reflection); two reflection copies (√3-locked at
+4|κ and at 3|κ respectively) align exactly at 12|κ — B618↔B621 reconciled with a constant framing
+phase ω⁻¹ (6/6; in-loop spot check κ=4). B625 (SHARPENED): the reciprocity criterion is 3|κ, not
+parity (48/48 in, 0/96 out; the (2/3)ℤ denominator obstruction traced to Deloup–Turaev hyp (1));
+a float-label bug in B623's coset enumeration found and FIXED; the κ-unconditional form remains the
+scoped residual. B626 (ANSWERED-AS-STRUCTURE): the crossover dissolves — J = μ+1/μ is REAL exactly
+for amphichiral words (the pairing-chirality law's 4th appearance, classical side); naive t-laws
+refuted on 8 words; fields per object banked; the discrete-branch identification per word is the
+follow-on. Cell F (the six-exponent held-out family) still computing — the hash-first protocol
+stands armed. Firewalled.
