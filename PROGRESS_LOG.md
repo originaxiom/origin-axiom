@@ -4220,3 +4220,11 @@ chain re-derived end-to-end in-repo; the provenance hole closed. The dial map re
 3/52/78: the fold's parity organizes it — even bends stay under the fold (f₄), odd bends open the
 whole stage (e₆). Lock test_b598_step7.py (OA_SLOW). Chain: 1–7 green; 8 (sealed prereg) + 9
 (clean-room P1, computing) remain. Firewalled.
+
+## 2026-07-15 — B598 step 8: the P3 prereg SEALED (hashed; three blind verdict cells)
+The D1 existence verdict is preregistered and hashed before any comparison: the declared bijection
+(m=4 ↔ u₃, m=8 ↔ u₆ by Im-sign under the frozen embedding); V1 mirror-swap (kill cell), V2 κ=10
+level-independence, V3 the E₆₂ rank-2+1 conjugation splitting; A/B/D locked; per-line magnitudes are
+gauge under width-respect so no value claim is in scope (the normalization arc stays gated). K1/K2
+recorded as computed-pre-seal consistency, no verdict weight. Runs open only when step 9 lands green.
+Firewalled.

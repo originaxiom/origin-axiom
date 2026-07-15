@@ -12207,16 +12207,20 @@
     "B597",
     "B599",
     "B67",
+    "K1",
+    "K2",
     "L1",
     "L85",
     "P0",
     "P1",
     "P2",
     "P3",
-    "V2"
+    "V1",
+    "V2",
+    "V3"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 9,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "topology"
   },
