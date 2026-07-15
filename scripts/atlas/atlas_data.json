@@ -12419,6 +12419,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B608": {
+   "slug": "rosetta gsm",
+   "motifs": [
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B604",
+    "B607"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [

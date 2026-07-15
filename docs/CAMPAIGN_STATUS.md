@@ -965,3 +965,10 @@ The value arc's first table is exhausted honestly: J-Grams vanish (the hearing l
 J-isotropic), the phase gap is exactly π/15 (the ζ₃₀ compositum quantum — the role-separation law
 quantified), the magnitude residual carries the torsions' large primes uncancelled, and the stage
 lines are anyonically distinct (φ vs 1). Next: the norm-form prereg (field-compatible invariants).
+
+## 2026-07-15 — THE LISTENING CAMPAIGN opened (adjudicated); B608 banks the Rosetta Table; G1 OPEN
+The SM-facing extraction campaign registered under the sealed-value protocol with CC's six binding
+adjudications; Phase 1 complete: the Rosetta Stone exists only in MIXED form at three levels (fold
+welds 9/12 class-mixed; strings mix pairs; lines mix bicharges); the (1,1,2) tips are the unique
+pure anchors. Next: B609 (Phase 2, sealed extraction), B610 (m136, parallel); Branch 3 stays outside
+CC's lane behind the seat-4-approved null model.

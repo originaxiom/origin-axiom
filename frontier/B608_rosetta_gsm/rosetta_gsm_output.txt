@@ -1,0 +1,55 @@
+======================================================================
+diagram: branch=3, short end=1, long ends=0,5, mids=2,4
+V1 PASS: 36 roots; 12 theta-fixed + 12 pairs; pair heights [2, 2, 2, 2, 1, 1, 1, 1]
+theta gates PASS (e_pr, f_pr fixed; Cartan permuted per the fold)
+
+C2 — the FULL root census by G_SM class (positive roots shown; negatives mirror with -q):
+  multiplet    q=(0, 0, 1): 6 roots
+  multiplet    q=(0, 1, 0): 1 roots
+  multiplet    q=(0, 1, 1): 6 roots
+  multiplet    q=(0, 1, 2): 3 roots
+  multiplet    q=(1, 0, 0): 2 roots
+  multiplet    q=(1, 0, 1): 3 roots
+  multiplet    q=(1, 1, 1): 3 roots
+  multiplet    q=(1, 1, 2): 6 roots
+  multiplet    q=(1, 1, 3): 1 roots
+  multiplet    q=(1, 2, 3): 1 roots
+  su2-root     q=(0, 0, 0): 1 roots
+  su3-root     q=(0, 0, 0): 3 roots
+  total positive roots: 36 (expect 36)
+C2 PASS: 36 positive roots; su(3) = 3+, su(2) = 1+; every charged class has size in {1,2,3,6}
+
+C3 — the theta-odd census by G_SM CLASS-PAIR (one odd combination per root pair; a two-class pair IS root-level mixing):
+  multiplet q=(0, 0, 1)  |  multiplet q=(0, 0, 1): 1 pair(s)   [class-pure combo]
+  multiplet q=(0, 0, 1)  |  multiplet q=(1, 0, 1): 2 pair(s)   [CLASS-MIXED combo]
+  multiplet q=(0, 1, 1)  |  multiplet q=(0, 1, 1): 1 pair(s)   [class-pure combo]
+  multiplet q=(0, 1, 1)  |  multiplet q=(1, 1, 1): 2 pair(s)   [CLASS-MIXED combo]
+  multiplet q=(0, 1, 2)  |  multiplet q=(1, 1, 2): 2 pair(s)   [CLASS-MIXED combo]
+  multiplet q=(1, 0, 0)  |  su3-root  q=(0, 0, 0): 2 pair(s)   [CLASS-MIXED combo]
+  multiplet q=(1, 1, 2)  |  multiplet q=(1, 1, 2): 1 pair(s)   [class-pure combo]
+  su2-root  q=(0, 0, 0)  |  su3-root  q=(0, 0, 0): 1 pair(s)   [CLASS-MIXED combo]
+  pairs: 12 (x2 signs = 24; + 2 Cartan = 26; expect 26);  class-mixed pairs: 9
+C3 PASS: the odd 26 accounted (one combo per pair)
+
+C1 — the theta-even blocks expand exactly in theta-even root combos (gate) + census:
+C1 PASS: every positive-weight even-block line lies in the theta-even span at its height
+
+THE ROSETTA TABLE (mixed form) — per odd line, the exact contributions with G_SM classes:
+
+block V(m=4):
+  wt  +8: -1*[multiplet q=(0, 0, 1) | multiplet q=(1, 0, 1)]  +  1*[multiplet q=(0, 1, 1) | multiplet q=(1, 1, 1)]
+  wt  +6: 8*[multiplet q=(0, 0, 1) | multiplet q=(1, 0, 1)]  +  16*[multiplet q=(0, 1, 1) | multiplet q=(0, 1, 1)]
+  wt  +4: -336*[su3-root q=(0, 0, 0) | multiplet q=(1, 0, 0)]  +  -224*[multiplet q=(0, 0, 1) | multiplet q=(0, 0, 1)]
+  wt  +2: 10080*[su3-root q=(0, 0, 0) | multiplet q=(1, 0, 0)]  +  4032*[su3-root q=(0, 0, 0) | su2-root q=(0, 0, 0)]
+
+block V(m=8):
+  wt +16: 1*[multiplet q=(1, 1, 2) | multiplet q=(1, 1, 2)]
+  wt +14: -16*[multiplet q=(0, 1, 2) | multiplet q=(1, 1, 2)]
+  wt +12: -480*[multiplet q=(0, 1, 2) | multiplet q=(1, 1, 2)]
+  wt +10: -20160*[multiplet q=(0, 1, 1) | multiplet q=(1, 1, 1)]
+  wt  +8: -443520*[multiplet q=(0, 0, 1) | multiplet q=(1, 0, 1)]  +  -604800*[multiplet q=(0, 1, 1) | multiplet q=(1, 1, 1)]
+  wt  +6: 26611200*[multiplet q=(0, 0, 1) | multiplet q=(1, 0, 1)]  +  -9676800*[multiplet q=(0, 1, 1) | multiplet q=(0, 1, 1)]
+  wt  +4: -1117670400*[su3-root q=(0, 0, 0) | multiplet q=(1, 0, 0)]  +  638668800*[multiplet q=(0, 0, 1) | multiplet q=(0, 0, 1)]
+  wt  +2: 33530112000*[su3-root q=(0, 0, 0) | multiplet q=(1, 0, 0)]  +  -44706816000*[su3-root q=(0, 0, 0) | su2-root q=(0, 0, 0)]
+
+B608 DONE

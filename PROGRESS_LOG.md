@@ -4354,3 +4354,16 @@ entropy log β" RETRACTED → inflation growth rate (primitive subshifts have ze
 own lock shows linear complexity; all entropy-language uses corrected); B591 "graph manifold" →
 Haken with two hyperbolic JSJ pieces (graph manifolds have only Seifert pieces). B530's 53 locks
 green post-edit. Firewalled.
+
+## 2026-07-15 — THE LISTENING CAMPAIGN registered (adjudicated); B608: the Rosetta Table banked — GATE G1 OPEN
+The campaign (chat-1 + owner: sealed SM-value extraction with null models and stopping rules) is
+registered with six binding adjudications (frontier/B608_rosetta_gsm/LISTENING_CAMPAIGN_ADJUDICATED.md):
+R1.1/R1.2 already answered (the assignment doesn't exist — the first stopping rule already fired);
+R1.4 reframed to the mixing matrix; V2.4 in the spectral basis under the trace law; the seal
+contamination policy (banked numbers → sealed comparison MAPS); Branch 4's object corrected (R²L =
+m136, not 5₂ — m136 first); PC26 v2 after Phase 1. B608 (all controls green): the G_SM refinement
+through the computed chain — C2 the 36-root census (classes product-consistent), C3 NINE of twelve
+θ-odd pair-combos are CLASS-MIXED at the root level (incl. an su3-root|su2-root weld), C1 the even
+expansion gate; THE ROSETTA TABLE banked in mixed form — V₈'s tips class-PURE in q=(1,1,2) (the only
+gradable lines), the shallowest lines touch color and weak welds directly. GATE G1 OPENS; Phase 2 =
+B609 (the sealed value extraction) next. Lock test_b608_rosetta_gsm.py (OA_SLOW). Firewalled.
