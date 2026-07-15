@@ -4170,3 +4170,14 @@ REGISTERED. Relayed-pending (packet): the level-4 field data, the clocks, the e-
 n ≡ 10 (mod 15) interlock (e₄ consistent with the banked 11²-echo), L73's one-pager. cc2's prereg
 discipline (frozen hashes, blind readouts, recorded self-corrections) meets the Review-18 standard.
 1 OA_SLOW lock. Firewalled.
+
+## 2026-07-15 — the cc2 packet integrated: hashes verified, their locks GREEN here, B600 upgraded
+The level-ladder packet arrived; the declared prereg/readout hashes VERIFIED exact on arrival. cc2's
+own lock suite EXECUTED GREEN in this environment (7/7, 4.8 s; adopted as tests/test_b600_cc2_locks.py,
+ungated): the EXACT Φ₁₉₂ integer certificates for Z₄ = 0 and Tr(Θρ₄) = 0 (my 1e-10 cross-check
+upgraded to exact), the dimension ledger 42/8/17, orders 12/12, the ℚ(√2) import + quartics
+(even-exponent disc primes), the k ≤ 3 context, L73's lemma; the L73 one-pager locks green (662/662).
+The P4 wide scan (in-packet): only 11 divides any e_n (primes 3..79, n ≤ 10) — the charge-prime
+uniqueness retested; exact e_n to n = 6 with banked anchors. B600's pending items upgraded
+accordingly. Two independent pipelines (mine + theirs) now agree on the headline in this sandbox.
+Firewalled.

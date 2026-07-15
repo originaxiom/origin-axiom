@@ -52,3 +52,24 @@ These bank when the packet lands in-repo or on independent reproduction.
 cc2's campaign discipline (frozen prereg hashes, blind readouts, the PRED-2
 demotion recorded as a self-correction) meets the Review-18 provenance
 standard; all verification remains internal to the project's seats.
+
+## PACKET INTEGRATED (2026-07-15) — the pending items upgraded
+
+cc2's packet delivered and integrated in-repo (`packet/`; the declared prereg
+and readout hashes VERIFIED on arrival — 2c9dea54… and 95a0e861… exact;
+re-hashed at integration in `packet/INTEGRATION_HASHES.txt`). Their own lock
+suite EXECUTED GREEN in this environment (7/7, 4.8 s — adopted into the repo
+suite as `tests/test_b600_cc2_locks.py`, ungated): the EXACT mod-Φ₁₉₂ integer
+certificates for Z₄ = 0 and Tr(Θρ₄) = 0 (upgrading my 1e-10 cross-check to
+exact), the 42/8/17 dimension ledger, the orders 12/12, the ℚ(√2) odd-block
+import with the rationals {4/3, 8/3, 4, 16/3}, the two odd quartics with
+even-exponent disc primes, the k = 1..3 ladder context, and the L73 lemma.
+The L73 one-pager locks also green here (662/662 cyclic theaters). The P4
+wide scan (in-packet log): **only 11 divides any e_n across primes 3..79,
+n ≤ 10** — the banked charge-prime uniqueness retested; exact e_n to n = 6 in
+the log with the banked cross-checks (e₁ = −11; the e₄ factorization with the
+11²-echo). Status upgrades: the level-4 field arithmetic, the clock row, and
+L73 move from relayed-pending to VERIFIED-IN-SANDBOX; the e-tower/interlock
+values stand at packet+cross-check tier (their exact logs + the banked
+anchors + my independent t-locus verification; a full in-repo e-tower
+recompute remains available via packet/scripts/p4_towers.py).
