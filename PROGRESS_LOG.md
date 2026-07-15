@@ -4210,3 +4210,13 @@ null-homologous, group-equal, the banked cusp shape, trace −2, c a unit — th
 of integers of ℚ(√−3)); c = ζ₆ = the stage parameter of the 27-model. Chain step 1 provisional → EXACT.
 Lock test_b598_step1_exact.py (ungated, seconds). The chain now reads 1 ✓ · 2 ✓ · 3 ✓ · 4 ✓ · 5 ✓ · 6 ✓
 with 7 (G1-FINITE) and 9 (the clean-room P1) computing and 8 (the sealed prereg) next. Firewalled.
+
+## 2026-07-15 — B598 step 7 GREEN: G1-FINITE — the dial map is fold-organized; the B582 hole closed
+The mirror-double amalgam at finite t = 1, committed code, certified longitude: all six dial slots
+peripherally fixed; every generator exactly inside e₆ (the subset face); mod-p closure dims at two
+agreeing primes — no-twist 3, slot 1 → 3 (its top IS the principal e), θ-even {5,7,11} → 52 = f₄ (the
+θ-fixed/deaf subalgebra), θ-odd {4,8} → 78 = e₆ EXACTLY (rank-face certificate). B582's existence
+chain re-derived end-to-end in-repo; the provenance hole closed. The dial map refines the banked
+3/52/78: the fold's parity organizes it — even bends stay under the fold (f₄), odd bends open the
+whole stage (e₆). Lock test_b598_step7.py (OA_SLOW). Chain: 1–7 green; 8 (sealed prereg) + 9
+(clean-room P1, computing) remain. Firewalled.
