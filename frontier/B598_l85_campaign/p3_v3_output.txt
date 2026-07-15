@@ -1,0 +1,13 @@
+the 3x3 odd form B (B594-H3, rebuilt):
+   [-0.131511885-0.576191218j  -0.663992639+0.319762002j  -0.072983590+0.319762002j]
+   [+0.459497163+0.576191218j  -0.204495476+0.256429216j  +0.131511885+0.576191218j]
+   [+0.204495476-0.256429216j  +0.532480753+0.256429216j  -0.663992639+0.319762002j]
+machinery gate: trace = -1.000000000+0.000000000j (banked -1): True
+sigma_2 = +1.000000000-0.000000000j   det = -1.000000000+0.000000000j
+(i) char poly real (spectrum conjugation-closed): True
+eigenvalues: -0.000000000-1.000000000j  -1.000000000+0.000000000j  +0.000000000+1.000000000j
+(ii) exactly one non-real conjugate pair + one real: True
+(iii) mu != 0: True;  |mu| != |lambda| (width separation): False
+
+V3 VERDICT (the E6_2 rank-2+1 conjugation splitting): FAIL
+banked blind; the outcome statement follows the locked A/B/D table.
