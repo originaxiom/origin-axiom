@@ -1,0 +1,25 @@
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   85.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  106.8s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  107.0s] G2a PASS: principal sl2 relations exact
+[  111.6s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  113.5s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 113.5s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+
+==== stage 2: the class-level gates (unbent double) ====
+reference Y[012] = (130593407/59400+1081413503/59400r)
+  G-A coboundary invariance, slot 0: False
+  G-A coboundary invariance, slot 1: False
+  G-A coboundary invariance, slot 2: False
+  G-B antisymmetry (01 swap -> -Y): False
+  G-B antisymmetry (12 swap -> -Y): False
+  G-C section independence (sig(mu lam) = LONG+a): True
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B637_corrected_cell3/b637_stage2.py", line 89, in <module>
+    assert ok_all, "CLASS-LEVEL GATES FAILED — values are not banked"
+AssertionError: CLASS-LEVEL GATES FAILED — values are not banked

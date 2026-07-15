@@ -1,0 +1,33 @@
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   80.3s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  106.1s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  106.2s] G2a PASS: principal sl2 relations exact
+[  110.6s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  112.6s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 112.6s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+
+(validation)
+    deltaS=omega on [a|b|ab]: True
+    deltaS=omega on [b|A|bA]: True
+    deltaS=omega on [ab|AB|abAB]: True
+    deltaS=omega on [lam|mu|b] (certificate path): True
+
+(the 3-form, unbent weld double)
+  Y[(0, 1, 2)] = (130593407/59400+1081413503/59400r)
+  Y[(0, 1, 3)] = (15490003/368550+-6145253/544320r)
+  Y[(0, 1, 4)] = (-304973/18144000+-56341/40824000r)
+  Y[(0, 2, 3)] = (235157769845452944/143+7340606966744464/143r)
+  Y[(0, 2, 4)] = (-80361465715667/165+-2258902852113/11r)
+  Y[(0, 3, 4)] = (-233399076425/1008+96870939448411/196560r)
+  Y[(1, 2, 3)] = (6530576935133692/13+-219077032904070404/429r)
+  Y[(1, 2, 4)] = (-65273457137771/198+49140950004521/495r)
+  Y[(1, 3, 4)] = (17832863776733/43680+24616987290047/117936r)
+  Y[(2, 3, 4)] = (147758071812354618647533182360+-9014786081863017434127016982520/143r)
+
+nonzero components (none): 10/10
+B637 part 2b stage-1 DONE

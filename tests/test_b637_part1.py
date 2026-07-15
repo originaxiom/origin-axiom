@@ -44,3 +44,13 @@ def test_banked_part2a():
     assert out.count("VERDICT: COMPATIBLE") == 4
     assert out.count("h1(D;27) = 5") == 4
     assert out.count("trivial control: h0 = 1, b1(D_phi) = 1") == 4
+
+
+def test_part2b_honest_partial():
+    out1 = open(os.path.join(B637, "part2b_stage1_output.txt")).read()
+    assert "deltaS=omega on [lam|mu|b] (certificate path): True" in out1
+    out2 = open(os.path.join(B637, "part2b_stage2_output.txt")).read()
+    assert "G-A coboundary invariance, slot 0: False" in out2
+    assert "CLASS-LEVEL GATES FAILED" in out2
+    fnd = open(os.path.join(B637, "FINDINGS.md")).read()
+    assert "QUARANTINED" in fnd
