@@ -4190,3 +4190,16 @@ v1's simplify-denesting failure preserved as the honest first attempt. Lock test
 (OA_SLOW). The readiness chain reads 1 provisional · 2 ✓ · 3 ✓ · 5 ✓ · 6 ✓; the P3-bearing unknowns
 are now exactly steps 4 (the typed map + normalization), 7 (G1-FINITE), 8 (sealed prereg), 9
 (independent P1). Firewalled.
+
+## 2026-07-15 — B598 steps 4a + 4b: the P2 map typed and computed — the hearing lines carry one number each
+P2_MAP.md opened (eight typed slots; bending frame; declared normalization sealed for the prereg).
+4a (all gates green): dim H¹(π_K;V_m)=1 recertified; T² has h⁰=1, h¹=2, h²=1 with duality at every
+block; res injective everywhere (half-lives-half-dies); the bending family = ONE canonical parameter
+per block. 4b (all gates green; the registered parity prediction FAILED honestly — even-block t¹
+noise predicted, but the J-functional FORCES even silence; diagnosis: the functional matters; failure
+preserved in the script header): the degree-2 truncation reproduces the banked witnesses exactly;
+t¹ J-responses vanish at ALL six blocks; rank R2 = 2 supported EXACTLY on the θ-odd lines {4,8};
+the column law — every b2-word responds N_m(1±√−3), m=4 on 2ζ₆ with N₄=2⁹·3²·5·7·13, m=8 on the
+conjugate with N₈=2¹⁵·3⁵·5³·7²·11, the mixed word conjugated — the two hearing lines are
+phase-conjugates. The classical side of P3 = two integers + one universal word-pattern. Locks
+test_b598_step4a/4b.py (OA_SLOW). P3 stays sealed behind 7–8–9. Firewalled.

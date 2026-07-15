@@ -83,7 +83,14 @@ field ℚ(√−3); values from the stage's field).
 
 ## Status
 
-- 4a (domain typing): computed — see `step4a_domain.py` + output.
-- 4b (responses, equivariance, rank, kernel, polarization): computed —
-  see `step4b_responses.py` + output.
+- 4a (domain typing): COMPUTED GREEN — `step4a_domain.py` + output; h⁰=1,
+  h¹=2, h²=1 uniformly; res injective at all six blocks.
+- 4b (responses, equivariance, rank, kernel, polarization): COMPUTED
+  GREEN — `step4b_responses.py` + output. R1 = 0 (even forced, odd
+  genuine); rank R2 = 2, supported exactly on the θ-odd lines; the column
+  law N₄(1+√−3) / N₈(1−√−3) with the mixed word conjugated; polarization
+  quotient trivial. The registered parity prediction failed honestly and
+  is preserved in the script header.
 - Slots 7/8 declarations: frozen here, to be hashed into the step-8 prereg.
+- STEP 4 IS COMPLETE. The map's classical content = (N₄, N₈, the universal
+  word-pattern, the conjugate-phase assignment).

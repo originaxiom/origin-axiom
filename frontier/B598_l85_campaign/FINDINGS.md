@@ -225,3 +225,41 @@ that domain's realization (4b gate (i) certifies its direction is the
 peripherally-fixed vector). An honest vacuity note: the Euler identity
 h¹ = h⁰ + h² is automatic by rank-nullity (MB12) and is reported, not
 gated; the duality h⁰ = h² is a genuine check and holds.
+
+## STEP 4b COMPLETE (2026-07-15): the bending responses — the hearing lines carry ONE number each, on conjugate phases
+
+**The honest first pass.** The originally registered parity prediction
+FAILED and is preserved permanently in the script header: it predicted
+θ-odd t¹ silence AND θ-even t¹ noise; the even half was wrong — a careless
+transfer from the P2-preflight TRACE functional. For the J-v0 functional
+the step-5 forced-zero criterion FORCES the even zeros. Diagnosis recorded:
+the functional matters.
+
+**The verdict (all gates green, `step4b_responses.py`, output
+`step4b_output.txt`, lock `tests/test_b598_step4b.py`).**
+- Gate (i): all six bending directions v_m are peripherally fixed
+  (certified longitude) — the bending lines of 4a are realized.
+- Gate (ii): the degree-2 truncation reproduces B599-ALG's banked Lagrange
+  witnesses EXACTLY (+2096640 at m=4/b2; −536481792000 at m=8/b2).
+- Gate (iii, corrected): the t¹ J-responses vanish at ALL six blocks ×
+  all 20 frozen words — FORCED at the even blocks, GENUINE at {4, 8}.
+- **R1 = 0; rank R2 = 2; ker R2 = the four θ-even lines exactly.** The
+  entire second-order classical content of the P2 map lives on the two
+  θ-odd (hearing) lines. The deaf sector receives ZERO — the equivariance
+  slot realized in the strongest form.
+- **The column law:** every b2-containing word responds N_m·(1 ± √−3):
+  m=4 rides (1+√−3) = 2ζ₆ with N₄ = 2096640 = 2⁹·3²·5·7·13; m=8 rides the
+  CONJUGATE (1−√−3) with N₈ = 536481792000 = 2¹⁵·3⁵·5³·7²·11; the single
+  mixed word a1b2A1B2 (one b2, one B2) carries the conjugated phase in
+  both columns; words without letter-2-b content are silent. The two
+  hearing lines are phase-conjugates — the chirality signature at the
+  classical level. N₈/N₄ = 2⁶·3³·5²·7·11/13 (recorded as data; no reading
+  assigned).
+- Polarization quotient trivial (R1 = 0): the t² responses are
+  well-defined outright.
+
+**What P3 inherits.** The classical side of the comparison is now TWO
+integers (N₄, N₈) + one universal word-pattern + the conjugate-phase
+assignment; everything else is forced by structure (steps 3, 4a, 5). The
+stage side is the exact hearing-law amplitudes (step 6). The comparison
+itself remains SEALED behind steps 7–8–9.
