@@ -1,0 +1,11 @@
+design hash: 7c9ca77e0d603f97f7a85e8e949f8fefc5d65f8cdacd3afbf8a2d75f09057880
+
+XG3 (15 ratios x 6 mass targets, linear tiers):
+XG3: matches (1e-2, 1e-3) = [0, 0]; expected@1e-2 ~ 0.031
+
+XG4 (15 ratios x hierarchy, half-decade log window):
+  |t5|/|t1|: v=8.482e+13 log-dev=0.413 WITHIN
+XG4: matches = 1; expected ~ 0.60
+
+READING (per the locked table): both grids null-compatible — the exterior families are SM-silent on both objects
+B628 RUN DONE

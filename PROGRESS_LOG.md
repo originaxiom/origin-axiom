@@ -4575,3 +4575,13 @@ unidentified). Property-level: THE EXTERIOR SIGN LAW EXTENDS — sign(Re τ_m) =
 exponents on the second object; the silver family is not all-real (a new structural split between
 the two amphichiral objects); qdeg = 2m+3. The comparison gets its own fresh sealed design in a
 LATER arc, per the order. Firewalled.
+
+## 2026-07-15 — B628 run: the exterior families are SM-SILENT on both objects; REVIEW 19 COMPLETED — the queue is drained
+The sealed exterior comparison (design #1002, hash-verified in-run): XG3 zero matches both tiers;
+XG4 one chance-compatible hit (expected 0.60) — mirroring the fig-8 exactly. BRANCH 3's held-out
+record is complete: the source-sensitive amplitude suggestion (p = 0.078) stands alone against
+uniformly null controls; the stopping rule's closing conditions are met pending seat 4. REVIEW 19's
+completion sweep executed per the director's override (the four queued tasks: sealed/closed/
+resolved-as-scoped/dissolved; all seals verified; the hash-first order honored end-to-end; anchor
+40070ad). Open residuals registered: the κ-unconditional reciprocity form, the m=7/8/11 exact
+identifications, the discrete-branch IDs, PC26 v2-final. Firewalled.

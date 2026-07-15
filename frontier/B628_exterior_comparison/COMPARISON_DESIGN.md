@@ -36,3 +36,15 @@ families (B615/B616) as the only suggestion-carriers.
   met pending seat-4's review.
 - Any grid shows an excess (P(X ≥ k) < 0.05 raw) → banked as a
   registered anomaly; a fresh sealed design on a THIRD object decides.
+
+## THE RUN (one mechanical pass; `b628_run.py`, `run_output.txt`)
+
+XG3: 0 matches at both tiers (expected 0.03). XG4: one hit (|τ₅|/|τ₁|
+within the half-decade, expected 0.60 — chance-compatible, mirroring the
+fig-8's single G4 hit). **Both grids null-compatible: the exterior
+families are SM-silent on both objects.** Branch 3's held-out record
+completes: the fig-8 amplitude suggestion (corrected p = 0.078,
+target-source-sensitive per the literature round) stands alone against
+uniformly null controls — the stopping rule's conditions for closing the
+SM-values question at this level are met, pending seat 4's review of the
+full packet (B614–B616, B627–B628, the literature caveats).

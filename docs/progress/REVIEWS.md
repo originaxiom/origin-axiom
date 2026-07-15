@@ -975,3 +975,27 @@ anchor-commit: `1db9228` (Review 19; #996)
   after the queue drains: (1) the six-exponent silver exterior family, (2) the B618↔B621 observable
   reconciliation, (3) the odd-κ reciprocity lemma, (4) the field-crossover mechanism. The review-due
   counter is advisory until then per the director.
+
+## REVIEW 19 — COMPLETION SWEEP, 2026-07-15 (the queue drained per the director's override)
+
+The four queued tasks: (1) the silver six-exponent exterior family —
+COMPUTED, calibrated 6/6, SEALED hash-first (B627), compared under its
+own later seal (B628: SM-silent, null-compatible); (2) the B618↔B621
+observable reconciliation — CLOSED (B624: Cm is the twelfth group
+element; the two reflection copies align at 12|κ); (3) the reciprocity
+lemma — RESOLVED-AS-SCOPED (B625: the criterion is 3|κ, the A₂
+discriminant; a B623 bug fixed; the κ-unconditional form is a registered
+open lemma, not a campaign blocker); (4) the field-crossover mechanism —
+DISSOLVED into the Jacobian reality law (B626: J real ⟺ amphichiral, the
+pairing-chirality law's fourth appearance). Sweep verdicts: all seals
+hash-verified in-run; the hash-first order honored (values #1001 before
+design #1002 before distances); no external-verification pretense in the
+stretch; the naming correction (m136 = silver RRLL) propagated
+everywhere including the new arcs. BRANCH 3's consolidated state: one
+source-sensitive amplitude suggestion (p = 0.078) vs uniformly null
+controls and held-out families — the stopping-rule conditions for
+closing SM-values at this level are met pending seat 4. Registered open
+residuals: the κ-unconditional reciprocity form; the m = 7, 8, 11 exact
+identifications; the discrete-branch IDs per word; PC26 v2-final.
+
+anchor-commit: `40070ad` (Review 19 completed; #1002)
