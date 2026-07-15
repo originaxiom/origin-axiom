@@ -12334,6 +12334,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B603": {
+   "slug": "isotropy mechanism",
+   "motifs": [
+    "eisenstein",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B602",
+    "L1",
+    "P3",
+    "V3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B60": {
    "slug": "sln tower",
    "motifs": [
