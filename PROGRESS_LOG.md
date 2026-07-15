@@ -4458,3 +4458,10 @@ torsions/integers) is now the decisive arc. Disclosures banked for seat 4 (two n
 implementation fixes after the first printout — match rows unchanged; PDG values from seat
 knowledge; the PMNS target-uncertainty caveat that can only weaken significance). Seat 4 reviews the
 raw record before any narrative; interpretation is chat-1's lane. Lock test_b615_comparison.py.
+
+## 2026-07-15 — B615 addendum: the robustness ensemble completed — AMBIGUOUS stands under both ensembles
+The design-§4 algebraic-mimic ensemble run mechanically (10⁶ draws × three declared families, fixed
+seed): expected G2 pair counts 0.51–0.59 bracket the primary null's 0.57; raw tails 0.015–0.023 vs
+the primary 0.020 — ensemble-insensitive; the verdict unchanged. ~1.1% of matched-complexity random
+algebraics hit the sin²θ₂₃ window at the coarse tier. The seat-4 packet is complete (design + raw
+table + both-ensemble statistics + disclosures). The held-out m136 arc remains the decisive test.

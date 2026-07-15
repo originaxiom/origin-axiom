@@ -1,0 +1,12 @@
+the mimic ensemble (per family): P(a mimic value in (0,1] lands in a target window, tier 0.01):
+    (a+b*sqrt5)/c: kept 113384 of 1000000; sin^2th12:0.00600  sin^2th23:0.01072  sin^2th13:0.00034  lambda_C:0.00421  |Vcb|:0.00076  |Vub|:0.00007  | expected pairs per value: 0.02209
+    (a+b*sqrt2)/c: kept 172614 of 1000000; sin^2th12:0.00645  sin^2th23:0.01136  sin^2th13:0.00044  lambda_C:0.00462  |Vcb|:0.00086  |Vub|:0.00007  | expected pairs per value: 0.02380
+              p/q: kept 252474 of 1000000; sin^2th12:0.00619  sin^2th23:0.01122  sin^2th13:0.00000  lambda_C:0.00229  |Vcb|:0.00080  |Vub|:0.00000  | expected pairs per value: 0.02049
+
+the G2 comparison under the mimic null (25 object values):
+  mimic family   (a+b*sqrt5)/c: expected pairs = 0.55; P(X >= 3) ~ 0.0187 (Poisson)
+  mimic family   (a+b*sqrt2)/c: expected pairs = 0.59; P(X >= 3) ~ 0.0226 (Poisson)
+  mimic family             p/q: expected pairs = 0.51; P(X >= 3) ~ 0.0153 (Poisson)
+
+ROBUSTNESS READING (mechanical): the observed 3 coarse-tier angle matches sit at the quoted tail probabilities under each mimic family; algebraic numbers of matched complexity land in angle windows at the printed rates. No verdict change (AMBIGUOUS stands; the design's gate applies to MATCH claims only).
+B615 ROBUSTNESS DONE
