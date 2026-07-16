@@ -45,9 +45,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
   equivariance wall + congruence functor (B650/B644), the silver control
   (B649), the melody theorem's finite-content bound, the anomaly
   characterization (B647), and one live forward number.
+- **THE LISTENING SYNTHESIS (B654, live):** the campaign's laws digested
+  in the object's language — Q-FIELD: the shape-field law candidate (the
+  chord speaks the geometry's field; two objects exact); Q-PERIOD:
+  N₀ = 75·lcm{d²} = 3·disc²·lcm{d²} exact; Q-AREA computing (defect
+  factor = area?); Q-BLOCK queued (adjoint 78 → h¹ = 6?).
 - Standing: tracks L (cc2 ladder) and W (L95) event-driven; R20 items
-  4/7/8/9 open for post-campaign work; the constitutional pilot review
-  fires on cadence.
+  4/7/8/9 open; the constitutional pilot review fires on cadence.
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2

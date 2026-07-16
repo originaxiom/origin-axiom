@@ -5420,3 +5420,18 @@ weight would mirror the adrenaline failure the design guards against);
 the successor forward row is registered: the SAME sealed hash 4392e271
 vs JUNO's next publication — a fresh owner directive when chosen.
 cc2's ADDENDUM_PROVENANCE (4109b0d0) acknowledged, archived on arrival.
+
+## 2026-07-17 — B654: THE LISTENING SYNTHESIS opened — first harvest (Q-FIELD, Q-PERIOD)
+
+The owner's directive: digest the campaign's laws in the object's own
+language. Four questions sealed (299c7a4c). FIRST HARVEST: **Q-FIELD —
+THE SHAPE-FIELD LAW candidate: the chord's field of definition = the
+tetrahedral shape field** (fig-8: zeta_6 shapes -> Q(sqrt-3) matches;
+silver: shapes {1/2+i/2, 1+i} EXACT at 45+ digits -> Q(i) matches — a
+degree-8 -> 2 collapse; the pre-stated roots-of-unity candidate REFUTED
+as sealed). The coupling speaks the geometry's field, not the
+holonomy's. **Q-PERIOD: N0 = 75 * lcm{d^2} exactly** over the Weyl
+elementary divisors, 75 = 3 * (disc A1)^2 — the residue carries the
+twist and the discriminant (hint-grade read; identity banked; routed to
+L97). Q-AREA computing (is the silver's defect factor its area 4?);
+Q-BLOCK next (adjoint 78: six blocks -> h1 = 6?). Locks 2/2.

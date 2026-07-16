@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B654_listening_synthesis/q_area_silver.py", line 17, in <module>
+    head = src[:src.index('print("== G2: the 10-triple Y table ==')]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: substring not found
