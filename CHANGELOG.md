@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B649 stage 3a: the 3/5/1 dimension grammar reproduces (track S wave 4)
+
+### Added
+- The silver double exists over L (weld found; mirror relators exact); exact
+  dimensions with no sealed prediction: solo 1/3, double 1/5 — IDENTICAL to
+  the fig-8 across different field/disc/presentation. The dimension grammar
+  = LAW (two objects). h¹ = 5 opens stage 3b (the silver Y-tensor).
+
 ## 2026-07-16 — B649 stage 2b: the silver 27-letters exact over L (track S wave 3)
 
 ### Added

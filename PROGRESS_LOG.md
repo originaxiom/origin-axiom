@@ -5220,3 +5220,17 @@ per lift, ~5s per relator (sparse-skip multiplication). Letters persist
 in letters27_L.json. STAGE 3 = the silver double (6-generator
 amalgam-Fox, h1, the Y-tensor, the form-level law checks) — GATE B's
 blocker is now one computation away. Locks 3/3 (snappy-free).
+
+## 2026-07-16 — B649 stage 3a BANKED: THE 3/5/1 DIMENSION GRAMMAR REPRODUCES ON THE SILVER (track S wave 4)
+
+The silver double exists over L (weld intertwiner found in a 16-dim
+rational solution space; the mirror side's relators = I27 exactly) and
+its EXACT dimensions land precisely on the fig-8 pattern with NO sealed
+prediction: solo h0/h1 = 1/3, double h0/h1 = 1/5 — on a different trace
+field (deg 8 vs 2), different discriminant (32 vs 5), different
+presentation rank (3 vs 2). THE DIMENSION GRAMMAR IS OBJECT-INDEPENDENT
+across the two computed objects (LAW row added; mechanism candidate =
+the principal-sl2 block structure). h1 = 5 >= 3 => stage 3b opens (the
+silver Y-tensor: certificates over L; the core-law SHAPE, cross-ratio,
+swap structure at form level). Campaign SB2's first form-level
+reproduction row. Locks 3/3.

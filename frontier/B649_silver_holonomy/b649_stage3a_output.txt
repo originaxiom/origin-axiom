@@ -1,0 +1,18 @@
+== S3a-G1: the weld solve at SL2(L) ==
+  weld solution space dim (rational) = 16
+  invertible weld intertwiner FOUND (det != 0)
+  U27 lifted (3.9s)
+
+== S3a-G2: side-2 relators ==
+  dEDeff: = I27 exactly: True
+  ddFefE: = I27 exactly: True
+
+== S3a-G3: Fox rows and dimensions ==
+  162 rows built (46.5s)
+  dim Z1 = 31   (200.6s)
+  rank B1 = 26; h0(D) = 1; h1(D) = 5
+
+== solo dimensions (M_silver, 3 generators) ==
+  solo: dim Z1 = 29; rank B1 = 26; h0 = 1; h1 = 3
+
+B649 stage 3a DONE

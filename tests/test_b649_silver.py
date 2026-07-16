@@ -141,3 +141,14 @@ def test_silver_27_letters_exact():
     for i in range(27):
         tr = tr + MU[i][i]
     assert (tr - L([Fr(27), Fr(0), Fr(0), Fr(0)], None)).is_zero()
+
+
+def test_stage3a_dimensions_banked():
+    out = open(os.path.join(B649, "b649_stage3a_output.txt")).read()
+    assert "invertible weld intertwiner FOUND" in out
+    assert "dEDeff: = I27 exactly: True" in out
+    assert "ddFefE: = I27 exactly: True" in out
+    assert "rank B1 = 26; h0(D) = 1; h1(D) = 5" in out
+    assert "h0 = 1; h1 = 3" in out
+    fnd = open(os.path.join(B649, "FINDINGS.md")).read()
+    assert "OBJECT-INDEPENDENT" in fnd

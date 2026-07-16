@@ -106,3 +106,39 @@ amalgam-Fox (SIX generators: the silver presentation has three), and
 the Y-tensor with the FORM-level law checks (the campaign §B2's
 form-level reproduction: the core-law shape, the cross-ratio, the
 silence character with disc 32).
+
+---
+
+## Stage 3a (prereg 9db17956) — THE SILVER DOUBLE'S DIMENSIONS: THE 3/5/1 GRAMMAR REPRODUCES
+
+**All three gates PASS, and the discovery is the pattern:**
+
+- **S3a-G1** — the weld intertwiner EXISTS over L (16-dim rational
+  solution space; invertible element found; U₂₇ lifted).
+- **S3a-G2** — the mirror side's relators = I₂₇ exactly (the
+  conjugate-conjugated construction is consistent over L).
+- **S3a-G3** — exact dimensions by pure-L elimination (162-dim system,
+  ~200 s):
+
+| quantity | silver (m136, disc 32) | fig-8 (disc 5, banked) |
+|---|---|---|
+| solo h⁰(M; 27) | **1** | 1 |
+| solo h¹(M; 27) | **3** | 3 |
+| double h⁰(D; 27) | **1** | 1 |
+| double h¹(D; 27) | **5** | 5 |
+
+**THE DIMENSION GRAMMAR (3 solo modes / 5 double modes / 1 invariant
+section) IS OBJECT-INDEPENDENT across the two computed objects** — the
+prereg sealed NO prediction (the values were the discovery), and the
+silver, with different trace field, different discriminant, different
+presentation rank, lands exactly on the fig-8's numbers. The natural
+mechanism candidate: the principal-sl₂ block structure
+27 = V(16)⊕V(8)⊕V(0) drives the count (the same blocks on both
+objects); registered for the mechanism queue, not asserted.
+
+**Campaign §B2 routing:** this is the first FORM-level reproduction row
+for the grammar table — the dimension grammar moves to
+witnessed-on-two-objects. h¹ = 5 ≥ 3 ⇒ **stage 3b opens: the silver
+Y-tensor** (the certificate machinery over L; the core-law SHAPE, the
+cross-ratio, the swap structure — each checked at form level with the
+silver's own arithmetic).
