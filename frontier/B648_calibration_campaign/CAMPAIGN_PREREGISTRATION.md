@@ -61,6 +61,14 @@ TYPES document is hashed BEFORE any recorded Phase-C channel
 discussion exists anywhere in the program's records; C1's minutes must
 cite the A1 hash they postdate.
 
+**The functor's own held-out battery (cc2 round 2 — the functor's
+look-elsewhere):** the typing rules are FROZEN (hashed) against a
+declared subset of the gate instances (B584, B611/B613); the remaining
+instances (B593, B626, B632/B637) are HELD OUT and checked only after
+the freeze. A held-out failure permits ONE disclosed revision cycle;
+a second failure is K1. A functor drafted while looking at all five
+instances would pass a soft gate; this makes GATE A hard.
+
 **A2: the chord mechanisms (R20-5/R20-6; B647 continues).** Cell 1
 banked: swap+zero leave 6 real dims; the spectator law ⟺ one phase
 condition (arg Y[134] = π/6). Cell 2: the chain-level swap action —
@@ -127,8 +135,12 @@ reviews):** Phase C as designed is well-posed only if N_eff(channel) ≤
 the dimension of the calibration observable — one measurement fixes at
 most one continuous constant; if N exceeds it, the design escalates to
 N declared calibration channels plus one held-out, RE-SEALED — never
-silently. **KILL K2:** a non-enumerable dial → ill-posed; bank and
-stop. **BRANCH (not a kill): N = 0** → Phase C upgrades to the
+silently. **MECHANISM-OPEN accounting (cc2 round 2):** MECHANISM-OPEN rows
+either resolve before GATE B or enter N at their WORST-CASE enumerated
+orbit; a row with no enumerable worst case BLOCKS the gate — an
+open-mechanism row hiding a freedom must not let the arity condition
+pass spuriously. **KILL K2:** a non-enumerable dial → ill-posed; bank
+and stop. **BRANCH (not a kill): N = 0** → Phase C upgrades to the
 direct-prediction variant C′ (strictly more falsifiable).
 
 **GATE B:** the table sealed with N; every FORCED row theorem-backed;
@@ -172,9 +184,14 @@ pre-committed false-positive rate printed next to it; the result banks
 as conditional-on-functor.** The seal carries a per-seat EXPOSURE line
 (with three-to-four seats true blinding is impossible — cc2 built half
 the ladder grammar; adjudication weighs exposure rather than
-pretending it away). **KILL K5:** if the null/power gates fail, no
-comparison runs (the B631 lesson: an underpowered comparison banks as
-no-test, not as a null).
+pretending it away). **The experimental
+dataset is PINNED in the seal (cc2 round 2; the B615-R/NuFIT lesson):
+the reference dataset and release version for both the calibration
+input and the held-out target are named in the seal; the prediction
+interval propagates the calibration input's experimental uncertainty
+alongside the grammar's.** **KILL K5:** if the null/power gates fail,
+no comparison runs (the B631 lesson: an underpowered comparison banks
+as no-test, not as a null).
 
 **C3: cross-seat execution.** Design sealed by seat X; the N-constant
 calibration and the second-observable prediction computed by seat Y
@@ -191,7 +208,10 @@ construction, decided here and not under an adrenaline spike.**
 Outcome B: a clean miss — the falsification of the coupling thesis in
 its value form at this level, the program's most important negative,
 banked with equal prominence. Either way the campaign succeeds as an
-experiment.
+experiment. **ONE-SHOT CLOSURE (cc2 round 2): either outcome CLOSES
+the campaign — no further comparison runs under this license; probing
+the next channel in the prior order after a miss requires a FRESH
+owner directive under the stopping rule.**
 
 ## 5. The loop schedule and seat assignments
 
@@ -246,7 +266,12 @@ track L (the L97 proof queue) and the A3 pairing-glued machine as its
 own lanes — both are cc2's per this document's §5 and the banked
 record. Either the relay label was wrong (the message is cc2's) or two
 seats claim one lane; **the owner confirms the §5 lane table at
-sign-off.** Also at sign-off the owner confirms the §0 thesis wording
+sign-off.** NARROWED (cc2 round 2, direct statement): track L and
+S-verify are cc2's, accepted; cc2 makes NO claim on A3 — so the
+remaining question is only whether the inline reviewer's running
+pairing-glued machine slots as A3's external contribution
+(verify-on-receipt when its packet lands), with in-repo A3
+adjudication staying on the main seat either way.** Also at sign-off the owner confirms the §0 thesis wording
 is theirs (the license leans on it). The label "Quiddity No-Go" used
 in the inline review is NOT a banked name (nothing in-repo); the
 concept it points at (the coupling thesis + the no-value walls) is
