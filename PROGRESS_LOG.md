@@ -5162,3 +5162,16 @@ is the next action. An E11 near-miss at sealing (a 64-hex hash
 transcribed from an 8-hex verified prefix) caught and corrected from
 the recomputed digest pre-commit — twice now; the class is real and
 the discipline works.
+
+## 2026-07-16 — B647 cell 2 BANKED: THE ANOMALY CHARACTERIZATION (track M wave 1)
+
+The chain-level swap (prereg d3e4faad): on the lawful triples the deck
+swap is chain-exact in 7/8 evaluation slots; the ENTIRE cubic
+concentrates as the single side-2 (λ,μ) certificate's defect —
+**defect = 2·conj(Y) exactly (3/3), i.e. Y = ½·conj(the swap's chain
+anomaly)**. Fwd-exactness + the defect law DERIVE the banked
+cohomological law (three lines); the dial triple's four defects satisfy
+exactly the forced combination 2·conj(Y[234]) (verified exact). The
+phase hunt (π/6, cell 1) now targets one certificate's H₂ content
+(cell 3 registered). Locks 4/4. Tooling note: sympy normalizes √−3 to
+I√3 — subs-based conjugation silently no-ops; use sp.conjugate.

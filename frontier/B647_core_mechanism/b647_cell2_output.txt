@@ -1,0 +1,34 @@
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   68.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   85.5s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   86.1s] G2a PASS: principal sl2 relations exact
+[   89.6s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   91.1s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 91.1s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+== triple (1, 3, 4) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): True
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): True
+  fwd (lam,mu): S1(J z2) == conj S2(z2): True
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (1/12+-1/36r)
+== triple (0, 2, 3) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): True
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): True
+  fwd (lam,mu): S1(J z2) == conj S2(z2): True
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (-15966720/13+-5322240/13r)
+== triple (1, 2, 3) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): True
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): True
+  fwd (lam,mu): S1(J z2) == conj S2(z2): True
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (0+-443520/13r)
+== triple (2, 3, 4) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): False  defect (54751534973459448941880/143+157785113012405615999640/143r)
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): False  defect (-33271486886548807460343360/143+26885920774904351336356320/143r)
+  fwd (lam,mu): S1(J z2) == conj S2(z2): False  defect (65097087899636757184920/143+132218658267899124471480/143r)
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (-33261141333505306799985120/143+2441850392725591691880960/13r)
+
+B647 cell 2 DONE
