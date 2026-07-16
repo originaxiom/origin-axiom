@@ -5380,3 +5380,26 @@ reopen clause armed; Gate 5 intact (nothing to CLAIMS). Seal hash
 864909ce. The predictor (cc2) and comparator (web seat) lanes now
 execute per their handoffs; the campaign goes SEALED-PENDING-NATURE on
 extraction+prediction seals. Locks 3/3.
+
+## 2026-07-17 — B653 ADJUDICATED: OUTCOME A AT LOW WEIGHT; THE CALIBRATION CAMPAIGN CLOSES
+
+Phase C executed one-shot per the three-way separation: the predictor
+(cc2) sealed the parameter-free prediction hash-first (4392e271; the
+derivation all theorem rows; STRUCTURALLY untunable — 1/(2 phi) is
+B641's banked second tone); the comparator (web seat) sealed the
+extraction (4152dd9e) then computed z per the design. THE TARGET: the
+JUNO collaboration's first refereed measurement (arXiv 2511.14593 /
+Nature 654 (2026), 59.1 days): sin^2 theta_12 = 0.3092 +- 0.0087 —
+VERIFIED INDEPENDENTLY here by web search. z = 0.021 -> OUTCOME A
+(consistency). THE HONEST WEIGHT: the design's printed FP (~5-6%) was
+for projected precision; at the achieved sigma = 0.0087 the FP is ~32%
+and no neighbor is separated (4/13 at 0.17 sigma) — CONSISTENCY AT LOW
+EVIDENTIAL WEIGHT; the falsification band did not fire. PROVENANCE
+ERRATUM owned: the seal's "unpublished by causality" was WRONG (the
+paper predated it 8 months; E4 instance filed); the gate's LETTER
+verified directly (the value appears nowhere in the banked inputs;
+grep-verified; near-hits = unrelated roots). One-shot SPENT; A4
+qualifier attached; Gate 5 intact (a value-free conditional pointer row
+in CLAIMS). THE CAMPAIGN (B648) CLOSES: A+B complete (N = 1 -> C' = 0),
+C executed, outcome banked. The parameter-free number survives its
+first contact with a dedicated measurement — and may yet be killed.

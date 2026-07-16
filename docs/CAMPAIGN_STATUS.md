@@ -34,19 +34,20 @@ audit: `docs/AUDIT_2026-07-05.md`.
 
 ---
 
-## RUNNING NOW — THE CALIBRATION CAMPAIGN: GATE B PASSED (B652)
-- **Phases A + B COMPLETE.** The grammar table sealed; **N = 1 (discrete,
-  binary: the Galois branch of the golden character)**; arity satisfied;
-  residues named (A3 bounded; A4 stage-choice qualifier binding). The thesis
-  verdict: after ONE binary calibration, every further same-type
-  dimensionless observable is a zero-parameter prediction.
-- **PHASE C OPEN — THE C2 DESIGN SEALED (B653, hash 864909ce):** the
-  channel = the pre-campaign JUNO forward row; THE C′ EVENT fired (range
-  physicality fixes the branch — zero calibration); the parameter-free
-  prediction sin²θ₁₂ = 1/(2φ) exact; one-shot verdict bands sealed with
-  the honest FP printed. The predictor (cc2) and comparator (web seat)
-  execute their handoffs; then SEALED-PENDING-NATURE until JUNO's first
-  publication. Tracks L and W remain event-driven.
+## RUNNING NOW
+- **THE CALIBRATION CAMPAIGN (B648) — CLOSED 2026-07-17.** Phases A+B: the
+  grammar table, N = 1 → C′ = 0. Phase C executed one-shot (three-way seat
+  separation honored): the parameter-free prediction was CONSISTENT with
+  JUNO's first refereed measurement at |z| = 0.02 — at LOW evidential weight
+  (achieved-precision FP ≈ 32%; neighbors unseparated); the falsification
+  band did not fire. License spent; any further comparison needs a fresh
+  owner directive. Permanent deliverables: the grammar table (B652), the
+  equivariance wall + congruence functor (B650/B644), the silver control
+  (B649), the melody theorem's finite-content bound, the anomaly
+  characterization (B647), and one live forward number.
+- Standing: tracks L (cc2 ladder) and W (L95) event-driven; R20 items
+  4/7/8/9 open for post-campaign work; the constitutional pilot review
+  fires on cadence.
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2
