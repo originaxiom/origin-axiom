@@ -45,6 +45,7 @@ upgrades' lead rows).*
 
 | law | statement | status | witnesses | upgrade path |
 |---|---|---|---|---|
+| **The subfield law (the chord's field of definition)** | the chord data — the σ*-matrix AND the full Y-tensor — lives in the object's IMAGINARY QUADRATIC subfield (fig-8: ℚ(√−3); silver: ℚ(i)), inside trace fields of degree 2 and 8 respectively | **LAW** (two structures × two objects, exact) | B638/B637; B649 3b-i/3b-ii | mechanism (why the imaginary quadratic subfield); third object |
 | **The dimension grammar (3/5/1)** | h¹(M; 27) = 3, h¹(D_weld; 27) = 5, h⁰ = 1 on BOTH computed objects — the fig-8 (disc 5, ℚ(√−3)) and the silver m136 (disc 32, L = ℚ(s,i) deg 8, 3-generator presentation); no prediction was sealed (the silver's values were the discovery) | **LAW** (exact, two objects) | B632/B637; **B649 stage 3a** | mechanism candidate: the principal-sl₂ blocks 27 = V(16)⊕V(8)⊕V(0) drive the count; third object |
 | **The cubic dichotomy** | the solo carries NO cubic scalar (cd 2 + Koszul); the solo's only cubic-family invariant is the alternating Ω (rank 2, kernel 1); the CLOSED chord carries the nonzero alternating 3-form | **THEOREM** | B632 (+ audit 162/162), B637 | — |
 | **The chirality-exclusion law** | at the full-E₆ chiral bends the double's h¹ collapses 5→2: chirality and the cubic exclude each other on the same coupling | **LAW** (exact, 2 bends × 3 pipelines) | B637 parts 1–3 | mechanism |

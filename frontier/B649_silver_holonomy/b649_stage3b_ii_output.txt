@@ -1,0 +1,38 @@
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (48s)
+dim Z1 = 31 (199s)
+independent coboundaries: 26
+H1 representatives: 5
+pipeline reloaded: 5 reps
+== G1: certificates + validation ==
+  peripheral commutator |word| = 14; AREA = 4 (1s)
+    [side1] deltaS=omega on [a|b|ab]: True
+    [side1] deltaS=omega on [b|C|bC]: True
+    [side1] deltaS=omega on [ca|AC|caAC]: True
+    [side1] deltaS=omega on [lam|mu|b] (certificate): True
+    [side2] deltaS=omega on [a|b|ab]: True
+    [side2] deltaS=omega on [b|C|bC]: True
+    [side2] deltaS=omega on [ca|AC|caAC]: True
+    [side2] deltaS=omega on [lam|mu|b] (certificate): True
+  G1 machinery: True
+
+== G2: the 10-triple Y table ==
+  Y[012] = re['0', '0', '0', '0'] im['0', '0', '0', '0']  (589s)
+  Y[013] = re['0', '0', '0', '0'] im['0', '0', '0', '0']  (437s)
+  Y[014] = re['0', '0', '0', '0'] im['0', '0', '0', '0']  (440s)
+  Y[023] = re['-1/802575000', '0', '0', '0'] im['-523/269665200000', '0', '0', '0']  (429s)
+  Y[024] = re['-4913777/35592866050560000', '0', '0', '0'] im['97817963/2883022150095360000', '0', '0', '0']  (439s)
+  Y[034] = re['422720966141/799173740006433792000000', '0', '0', '0'] im['695578888601/1598347480012867584000000', '0', '0', '0']  (454s)
+  Y[123] = re['21205355543/3657441930741144000000', '0', '0', '0'] im['6919576159/1371540724027929000000', '0', '0', '0']  (482s)
+  Y[124] = re['557790255663521/1359716104041565516646400000', '0', '0', '0'] im['-2582595894415921/10877728832332524133171200000', '0', '0', '0']  (479s)
+  Y[134] = re['-182020734169560425939/86712903159821949379987537920000000', '0', '0', '0'] im['-233965040169927275431/260138709479465848139962613760000000', '0', '0', '0']  (474s)
+  Y[234] = re['-48019103065513105104757/31762968190410970468859904000000', '0', '0', '0'] im['-11955551246855397959521/5293828031735161744809984000000', '0', '0', '0']  (455s)
+silver_Y_L.json written
+
+== G3: form-level checks ==
+  (a) nonzero slots: 7/10: ['023', '024', '034', '123', '124', '134', '234']
+
+B649 stage 3b-ii DONE (G3 b-d analysis on the banked table next)
