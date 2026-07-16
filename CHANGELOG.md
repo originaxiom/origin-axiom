@@ -6,6 +6,29 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B644 the congruence-shadow theorem; B639 closed; B643 step 1
+
+### Added
+- **B644 (L94 CLOSED)**: on ker(det), ρ_hear = χ_golden ∘ (mod-5 reduction) —
+  **the conductor is the ear's modulus** (elementwise on all 120 classes;
+  kernel match 0/560; the pentagon = the cat map's order-10 class mod 5; the
+  mirror twist = −I mod 5; the Galois pair = the two irreps of the same
+  shadow). B210's SU(2)₃ negative reconciled (different operator). M3's
+  sealed reference-table transcription error disclosed per MB12.
+- **B643 step 1**: φ(LONG) = LONG⁻¹ exactly (empty conjugator), φ(μ) = μ;
+  the side-exchanging flip is the live candidate.
+
+### Resolved-negative
+- **B639 stage 3**: the form-adjoint contragredient is exact (ρᵀB_θρ = B_θ)
+  but does not glue (4/4 cells fail): D_conjθ's 27-object admits no
+  representation-twisted amalgam realization — the θ-twist is irreducibly a
+  fiber pairing; the dimension question moves to a fiber-paired complex arc.
+
+### Changed
+- LAW_MAP: new congruence-shadow THEOREM row; dual-McKay ear PLACEMENT →
+  DERIVED; the passage-through-the-finite principle gains its second exact
+  instance. PC26 §7.7 upgraded with the derivation.
+
 ## 2026-07-16 — B637–B642: the chord's invariants, the swap mechanism, the hearing group, the pentagon voice
 
 ### Added

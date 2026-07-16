@@ -35,6 +35,10 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
+- **B643 step 2 (L93 refined)** — the SIDE-EXCHANGING flip on the weld double
+  (φ(LONG) = LONG⁻¹ exact, empty conjugator ⇒ flip∘deck-swap with LINEAR
+  companion); gates F1–F3 computing; if it acts, F4 = the combined σ*+τ*
+  system → the 24ζ₆ THEOREM attempt. Bank on landing.
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
   Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
   behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its
@@ -48,6 +52,18 @@ audit: `docs/AUDIT_2026-07-05.md`.
   boundary), owner report first.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
+
+## LAST BANKED (B644 — the congruence-shadow theorem; L94 closed; B639 resolved, 2026-07-16)
+- **B644**: ρ_hear|ker(det) = χ_golden ∘ (mod-5 reduction) — **the conductor is
+  the ear's modulus** (120 classes elementwise, kernel 0/560, cat map = the
+  order-10 class mod 5, Galois pair = the two irreps of one shadow); B210
+  reconciled; M3 table sealing error disclosed (MB12). LAW_MAP: dual-McKay ear
+  DERIVED; new THEOREM row.
+- **B639 stage 3**: form-adjoint exact but does not glue (4/4) — D_conjθ is
+  irreducibly a fiber pairing; realization resolved-negative; dimension open
+  (fiber-paired complex = a new arc).
+- Queue: PC26 final absorption DONE (§7.7 + §8′); C3 dial-law next; C4
+  deferred (needs the m136 exact E₆ holonomy build).
 
 ## LAST BANKED (readiness 3+5 — the universal ratio; J exists, 2026-07-15)
 - **The cusp table's invariant content is one number:** I_λ/I_μ = −2√−3 at every block — the

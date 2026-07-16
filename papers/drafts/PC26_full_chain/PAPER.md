@@ -229,6 +229,50 @@ coefficient, and the norm-product of the three amplitudes is exactly 1/49.
 
 ---
 
+### 7.7 The hearing group and the pentagon voice [PROVED]
+
+The hearing factors through a FINITE group: the image of the untwisted
+weld representation on the theta-odd plane is **2I x Z/3** (order 360;
+the binary icosahedral group times the twist), verified at
+class-table strength (the SL(2,5) class equation; the golden
+2-dimensional character with zero unidentified traces), at congruence
+level ord(T) = 15 — the Ng–Schauenburg congruence-subgroup theorem
+instantiated, with the image realizing SL(2,Z/15) = SL(2,3) x SL(2,5)
+as (the twist's abelianization) x (2I faithful). The infinite Anosov
+monodromy is heard as an order-10 rotation with character
+tr rho(RL) = -1/phi. THE TWIST-FRAME TONE LAW: Re(zeta^{-1} u* M_odd u)
+with zeta^2 = det is listener-independent on all 360 elements; the
+universal voice takes exactly FIVE absolute values {0, 1/(2phi), 1/2,
+phi/2, 1}, with a quarter of the group structurally silent (a sealed
+prediction class with verified witnesses). Plancherel: the universal
+tone and the listener overtone carry exactly 1/4 of the mean-square
+loudness each. THE GALOIS EAR (sealed predictions, 3/3): at the
+Galois-conjugate stage the same group and tone set appear with
+tr rho(RL) = +phi — the form is forced, the value is Galois-chosen,
+inside the ear itself. DERIVATION (the congruence-shadow theorem): on
+ker(det) the hearing representation factors LITERALLY through
+reduction mod 5 — rho_hear = chi_golden o (mod-5), elementwise on all
+120 classes with kernel match 0/560 — so the conductor kappa = 5 is
+the MODULUS of the ear: the pentagon is the cat map's order-10 class
+mod 5, the mirror twist is -I mod 5, and the Galois pair is the two
+2-dimensional irreducible characters of the SAME shadow. The ear's
+2I is thereby derived from the monodromy arithmetic (the E8 end),
+not merely observed.
+
+### 8'. The chord's real structure [PROVED] and the core law [EXACT]
+
+The mirror-double's deck involution acts on the five 27-cohomology
+modes as an antilinear involution with Eisenstein-unit spectrum
+(zeta_6, conj, -zeta_6, -conj, 1), and the cubic 3-form obeys
+Y(sigma* a, sigma* b, sigma* c) = conj(Y(a,b,c)) — proving the phase
+geometry of every component. The core identity Y[023] =
+24 zeta_6 Y[123] holds exactly on all nine computed doubles (every
+gluing; representative-rescaled families included); the swap law is
+satisfied by the banked table with zero violations but does not force
+the magnitude (a 10-dimensional residual) — the forcing symmetry is
+open (the naive amphichiral flip provably does NOT act on the double:
+the chord selects its symmetries).
+
 ## 8. The closure theorem: the heard spectrum's pairing is the object's chirality
 
 *(Novelty note, 2026-07-15: a direct read of Jeffrey 1992 found no
