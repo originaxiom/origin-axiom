@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B651: cc2 wave-3 — receipts, theorem upgrades, kills
+
+### Added
+- B649 waves 1–5 ALL independently verified (S-verify column filled; m136 =
+  b++RRLL isometry-grade). My five flagged deviations filed as dated errata
+  (+ the E13 stale-artifact-text class).
+- Upgrades: jump law → THEOREM (325/325); generic-silence → CERTIFIED;
+  THE MELODY THEOREM (the ladder is periodic — Loop A closed, finite
+  information content); the PSL-factoring theorem.
+- Kills: the inert⟺even correlate (r=23, prediction-first); triality and
+  twisted triality on H¹(D;27) — the double's symmetry inventory complete.
+
 ## 2026-07-16 — B650 wave 2: THE EQUIVARIANCE WALL; L84 resolved (track F complete)
 
 ### Added

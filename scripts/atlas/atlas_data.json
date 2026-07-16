@@ -13137,29 +13137,34 @@
     "B643",
     "B644",
     "B645",
+    "B651",
     "L2",
     "L3",
     "L77",
-    "L81"
+    "L81",
+    "P4"
    ],
    "obstacle": "observable",
-   "obstacle_conf": 7,
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
   },
   "B647": {
    "slug": "core mechanism",
    "motifs": [
+    "metallic",
     "eisenstein",
     "amphichiral_cp"
    ],
    "refs": [
+    "B637",
     "B638",
     "B643",
-    "B645"
+    "B645",
+    "B649"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -13167,6 +13172,7 @@
    "slug": "silver holonomy",
    "motifs": [
     "figure_eight",
+    "trace_map",
     "kappa",
     "metallic",
     "eisenstein",
@@ -13181,6 +13187,7 @@
     "B648",
     "K020",
     "K3",
+    "P0",
     "S1"
    ],
    "obstacle": "units_scale",
@@ -13215,7 +13222,8 @@
    "motifs": [
     "trace_map",
     "kappa",
-    "golden"
+    "golden",
+    "torsion"
    ],
    "refs": [
     "B584",
@@ -13227,14 +13235,40 @@
     "B613",
     "B626",
     "B632",
+    "B644",
     "B646",
     "K1",
-    "L84"
+    "L84",
+    "L91"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "arithmetic"
+  },
+  "B651": {
+   "slug": "wave3 integration",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [
+    "B1",
+    "B585",
+    "B643",
+    "B646",
+    "B649",
+    "P0",
+    "P1",
+    "P2",
+    "P4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B65": {
    "slug": "sl4 symbolic jacobian",

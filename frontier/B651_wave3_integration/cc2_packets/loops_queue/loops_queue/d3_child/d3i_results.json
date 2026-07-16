@@ -1,0 +1,397 @@
+{
+  "parent": {
+    "manifold": "4_1",
+    "volume": 2.029883212819307,
+    "volume_high_precision": "2.029883212819307250042405108549040571883378615060599584034978214",
+    "expected_volume": 2.029883212819307,
+    "sanity_gate_pass": true
+  },
+  "exceptional_p_le_4_confirmation": {
+    "1": {
+      "slope": "(1,1)",
+      "solution_type": "contains flat tetrahedra",
+      "is_hyperbolic_solution": false
+    },
+    "2": {
+      "slope": "(2,1)",
+      "solution_type": "contains flat tetrahedra",
+      "is_hyperbolic_solution": false
+    },
+    "3": {
+      "slope": "(3,1)",
+      "solution_type": "contains flat tetrahedra",
+      "is_hyperbolic_solution": false
+    },
+    "4": {
+      "slope": "(4,1)",
+      "solution_type": "contains degenerate tetrahedra",
+      "is_hyperbolic_solution": false
+    }
+  },
+  "fillings": {
+    "5": {
+      "slope": "(5,1)",
+      "solution_type": "all tetrahedra positively oriented",
+      "volume": 0.9813688288922313,
+      "volume_hp": "0.981368828892232088091452189794427068238164321906312438642604200",
+      "chern_simons": 0.07703818026377002,
+      "chern_simons_hp": "0.077038180263770222544395901810932442533126134856970197170502",
+      "homology": "Z/5",
+      "homology_matches_Zp": true,
+      "geodesics_within_0.8": [
+        {
+          "multiplicity": 1,
+          "topology": "circle",
+          "parity": "orientation-preserving",
+          "length_real": 0.5780824355318552,
+          "length_imag": 2.132430636154177,
+          "length_real_hp": "0.578082435531855554338718528519688880282042543874213979170621408",
+          "length_imag_hp": "2.132430636154178246745816305067133684121469552796815698915823094"
+        },
+        {
+          "multiplicity": 1,
+          "topology": "circle",
+          "parity": "orientation-preserving",
+          "length_real": 0.7215683663144469,
+          "length_imag": -1.1512129898755388,
+          "length_real_hp": "0.721568366314446686169399571756866952453811559928364977251753054",
+          "length_imag_hp": "-1.151212989875538092272950661471868383788690382068317521661938568"
+        }
+      ],
+      "shortest_geodesic": {
+        "multiplicity": 1,
+        "topology": "circle",
+        "parity": "orientation-preserving",
+        "length_real": 0.5780824355318552,
+        "length_imag": 2.132430636154177,
+        "length_real_hp": "0.578082435531855554338718528519688880282042543874213979170621408",
+        "length_imag_hp": "2.132430636154178246745816305067133684121469552796815698915823094"
+      },
+      "volume_ratio_to_parent": 0.48346073443762666
+    },
+    "6": {
+      "slope": "(6,1)",
+      "solution_type": "all tetrahedra positively oriented",
+      "volume": 1.2844853004683539,
+      "volume_hp": "1.284485300468354442460337084868711258912418773183928092149437015",
+      "chern_simons": 0.06793167347986293,
+      "chern_simons_hp": "0.067931673479863079279831916336121920011076020416271242370989",
+      "homology": "Z/6",
+      "homology_matches_Zp": true,
+      "geodesics_within_0.8": [
+        {
+          "multiplicity": 1,
+          "topology": "circle",
+          "parity": "orientation-preserving",
+          "length_real": 0.4803118033850768,
+          "length_imag": -0.9337766566662502,
+          "length_real_hp": "0.480311803385077567161724900202215651476654220842823109080454990",
+          "length_imag_hp": "-0.933776656666248853586053725459119572194235338851793859397380806"
+        },
+        {
+          "multiplicity": 1,
+          "topology": "circle",
+          "parity": "orientation-preserving",
+          "length_real": 0.7575722478871625,
+          "length_imag": 2.0617461176175746,
+          "length_real_hp": "0.757572247887162191300649458991063386167475682684336610458714087",
+          "length_imag_hp": "2.061746117617574420875828148406459757473445502780711105797422203"
+        }
+      ],
+      "shortest_geodesic": {
+        "multiplicity": 1,
+        "topology": "circle",
+        "parity": "orientation-preserving",
+        "length_real": 0.4803118033850768,
+        "length_imag": -0.9337766566662502,
+        "length_real_hp": "0.480311803385077567161724900202215651476654220842823109080454990",
+        "length_imag_hp": "-0.933776656666248853586053725459119572194235338851793859397380806"
+      },
+      "volume_ratio_to_parent": 0.6327877842215025
+    },
+    "7": {
+      "slope": "(7,1)",
+      "solution_type": "all tetrahedra positively oriented",
+      "volume": 1.463776644927238,
+      "volume_hp": "1.463776644927238773375694091134310180141450256135482311370797312",
+      "chern_simons": 0.060616866347137664,
+      "chern_simons_hp": "0.060616866347137818147423058294028439675813403720637878365575",
+      "homology": "Z/7",
+      "homology_matches_Zp": true,
+      "geodesics_within_0.8": [
+        {
+          "multiplicity": 1,
+          "topology": "circle",
+          "parity": "orientation-preserving",
+          "length_real": 0.35664503363835504,
+          "length_imag": -0.8043808778971873,
+          "length_real_hp": "0.356645033638354450051450333061607100555587877255964630941616687",
+          "length_imag_hp": "-0.804380877897185069801274131832860897037693811417865427224353116"
+        }
+      ],
+      "shortest_geodesic": {
+        "multiplicity": 1,
+        "topology": "circle",
+        "parity": "orientation-preserving",
+        "length_real": 0.35664503363835504,
+        "length_imag": -0.8043808778971873,
+        "length_real_hp": "0.356645033638354450051450333061607100555587877255964630941616687",
+        "length_imag_hp": "-0.804380877897185069801274131832860897037693811417865427224353116"
+      },
+      "volume_ratio_to_parent": 0.7211137250079511
+    }
+  },
+  "comparisons": {
+    "a_cs_arithmetic": {
+      "individual": {
+        "5": {
+          "cs": 0.07703818026377002,
+          "closest_fraction": "1/13",
+          "error": 0.0001151033406932983,
+          "hit_at_1e-6": false
+        },
+        "6": {
+          "cs": 0.06793167347986293,
+          "closest_fraction": "1/15",
+          "error": 0.001265006813196412,
+          "hit_at_1e-6": false
+        },
+        "7": {
+          "cs": 0.060616866347137664,
+          "closest_fraction": "1/17",
+          "error": 0.0017933369353731118,
+          "hit_at_1e-6": false
+        }
+      },
+      "pairwise": {
+        "5-6": {
+          "diff": 0.009106506783907092,
+          "closest_fraction": "0/1",
+          "error": 0.009106506783907092,
+          "hit_at_1e-6": false
+        },
+        "5-7": {
+          "diff": 0.016421313916632353,
+          "closest_fraction": "0/1",
+          "error": 0.016421313916632353,
+          "hit_at_1e-6": false
+        },
+        "6-7": {
+          "diff": 0.007314807132725261,
+          "closest_fraction": "0/1",
+          "error": 0.007314807132725261,
+          "hit_at_1e-6": false
+        }
+      },
+      "method": "closest fraction a/b with b<=24 (covers 1/24, 1/12, 1/6, 1/4, 1/3, 1/2 and combinations); tolerance 1e-6 (reused from the prereg's (b)/(c) tolerance for consistency)",
+      "any_hit": false
+    },
+    "b_volume_ratio_golden": {
+      "results": {
+        "5": {
+          "ratio": 0.48346073443762666,
+          "comparisons": {
+            "log(phi)": {
+              "target": 0.48121182505960347,
+              "error": 0.0022489093780231895,
+              "hit_at_1e-6": false
+            },
+            "1/phi": {
+              "target": 0.6180339887498949,
+              "error": 0.13457325431226824,
+              "hit_at_1e-6": false
+            },
+            "phi^-2": {
+              "target": 0.38196601125010515,
+              "error": 0.10149472318752151,
+              "hit_at_1e-6": false
+            }
+          }
+        },
+        "6": {
+          "ratio": 0.6327877842215025,
+          "comparisons": {
+            "log(phi)": {
+              "target": 0.48121182505960347,
+              "error": 0.15157595916189903,
+              "hit_at_1e-6": false
+            },
+            "1/phi": {
+              "target": 0.6180339887498949,
+              "error": 0.0147537954716076,
+              "hit_at_1e-6": false
+            },
+            "phi^-2": {
+              "target": 0.38196601125010515,
+              "error": 0.25082177297139735,
+              "hit_at_1e-6": false
+            }
+          }
+        },
+        "7": {
+          "ratio": 0.7211137250079511,
+          "comparisons": {
+            "log(phi)": {
+              "target": 0.48121182505960347,
+              "error": 0.23990189994834765,
+              "hit_at_1e-6": false
+            },
+            "1/phi": {
+              "target": 0.6180339887498949,
+              "error": 0.10307973625805622,
+              "hit_at_1e-6": false
+            },
+            "phi^-2": {
+              "target": 0.38196601125010515,
+              "error": 0.33914771375784597,
+              "hit_at_1e-6": false
+            }
+          }
+        }
+      },
+      "any_hit": false
+    },
+    "c_geodesic_vs_2logphi": {
+      "results": {
+        "5": {
+          "shortest_length_real": 0.5780824355318552,
+          "target": 0.9624236501192069,
+          "error": 0.3843412145873517,
+          "hit_at_1e-6": false
+        },
+        "6": {
+          "shortest_length_real": 0.4803118033850768,
+          "target": 0.9624236501192069,
+          "error": 0.48211184673413016,
+          "hit_at_1e-6": false
+        },
+        "7": {
+          "shortest_length_real": 0.35664503363835504,
+          "target": 0.9624236501192069,
+          "error": 0.6057786164808519,
+          "hit_at_1e-6": false
+        }
+      },
+      "any_hit": false,
+      "note": "primary child is p=5 (first hyperbolic slope); p=6,7 checked for completeness"
+    },
+    "d_pslq_integer_relations": {
+      "maxcoeff": 10000,
+      "working_precision_dps": 50,
+      "attempts": [
+        {
+          "label": "CS(5) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "CS(6) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "CS(7) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "CS(5),CS(6),CS(7) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "vol(5),vol(6),vol(7) vs vol(parent)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "vol(5),vol(6),vol(7),vol(parent) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "len(5),len(6),len(7) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "len(5) vs 2log(phi)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "len(6) vs 2log(phi)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "len(7) vs 2log(phi)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "vol(5)/volP vs log(phi)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "vol(6)/volP vs log(phi)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "vol(7)/volP vs log(phi)",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "CS(5),vol(5) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "CS(6),vol(6) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "CS(7),vol(7) vs {1}",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "vol(5),vol(6),vol(7) vs sqrt5,1",
+          "relation": null,
+          "genuine": false
+        },
+        {
+          "label": "len(5),len(6),len(7) vs sqrt5,1",
+          "relation": null,
+          "genuine": false
+        }
+      ],
+      "any_genuine_hit": false
+    }
+  },
+  "verdict": {
+    "hit_flags": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": false
+    },
+    "n_hits": 0,
+    "n_fillings": 3,
+    "look_elsewhere_denominator": 4,
+    "label": "NO-DISTINCTION",
+    "text": "No sub-comparison (a)-(d) produced a hit at tolerance 1e-6 / small-coefficient pslq relation. This is a fine, honest outcome per the prereg. The known facts (p=5 is the first hyperbolic integer slope; H_1(4_1(5,1))=Z/5) remain context, not findings. NO PROMOTION (n=3 fillings, regardless of outcome)."
+  },
+  "meta": {
+    "prereg": "d3_child/PREREG_D3.md",
+    "prereg_sha_stated": "75d69af3",
+    "run_utc": "2026-07-16T12:22:45.808093+00:00",
+    "snappy_version": "3.3.2",
+    "mpmath_dps": 50,
+    "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]"
+  }
+}
