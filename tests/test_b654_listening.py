@@ -59,3 +59,30 @@ def test_refutations_exact():
         assert ((m in odd) == ((12 - m) in odd))   # SAME parity: refutes
     As = sp.Matrix([[5, 2], [2, 1]])
     assert (As + sp.eye(2)).det() == 8             # silver: 8, not 7
+
+
+def test_q_area_universal_factor_2():
+    """Q-AREA verdict lock: the silver chain defect = 2*conj(Y), NOT
+    4*conj(Y) (the area law is refuted; the factor 2 is universal).
+    Fraction-level: binds silver_Y_L.json to q_area_output.txt, and the
+    defect is s-free (lives in Q(i) — the subfield law)."""
+    import json
+    import os
+    from fractions import Fraction as Fr
+    p = os.path.join(os.path.dirname(__file__), "..", "frontier",
+                     "B649_silver_holonomy", "silver_Y_L.json")
+    dY = json.load(open(p))
+    out = {  # (re0, im0) of the defect, from q_area_output.txt
+        "023": (Fr(-1, 401287500), Fr(523, 134832600000)),
+        "134": (Fr("-182020734169560425939/"
+                   "43356451579910974689993768960000000"),
+                Fr("233965040169927275431/"
+                   "130069354739732924069981306880000000")),
+    }
+    for key, (dre, dim_) in out.items():
+        Y = [Fr(x) for x in dY[key]]
+        # defect = 2*conj(Y): re = 2*Y_re, im = -2*Y_im, coordinatewise
+        assert dre == 2 * Y[0] and dim_ == -2 * Y[4]
+        assert dre != 4 * Y[0]                     # the area law fails
+        assert Y[1] == Y[2] == Y[3] == 0           # s-free: Q(i)
+        assert Y[5] == Y[6] == Y[7] == 0

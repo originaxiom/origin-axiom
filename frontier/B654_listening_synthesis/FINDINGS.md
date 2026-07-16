@@ -36,13 +36,29 @@ object's discriminant squared. HINT-grade structural read (the exact
 arithmetic identity is banked; the interpretation is recorded, not
 claimed); routes to the ladder-proof queue (L97).
 
-## Q-AREA and Q-BLOCK — launched
+## Q-AREA — VERDICT: the factor 2 is UNIVERSAL (the area law is refuted)
 
-- Q-AREA: is the silver's swap chain-defect factor = its commutator
-  AREA (4), where the fig-8's factor 2 = its area 2? (Computing.)
-- Q-BLOCK: does the adjoint module (six blocks, none trivial) give
-  h¹(M; 78) = 6, h⁰ = 0 on the fig-8 — the block-count mechanism's
-  third-module test? (Next wave.)
+Both lawful silver triples (134 and 023), exact over L
+(q_area_silver.py → q_area_output.txt):
+
+> **defect = 2·conj(Y) — TRUE; defect = 4·conj(Y) — FALSE.**
+
+The fig-8's chain-defect factor 2 (B647 cell 2) is NOT the van Kampen
+area of the peripheral commutator (fig-8 area 2, silver area 4 — the
+factor stays 2). The defect law **defect = 2·conj(Y)** is
+object-independent: a universal cocycle factor. Bonus fact: the silver
+defect is nonzero ONLY in the s-free coordinates — it lives in ℚ(i),
+the silver's imaginary quadratic subfield — the subfield law holds at
+the defect level too. Fraction-level lock in
+tests/test_b654_listening.py (binds silver_Y_L.json to the output).
+
+## Q-BLOCK — reframed by G5's reduction (B656), still queued
+
+- Original form: does the adjoint module (six blocks, none trivial)
+  give h¹(M; 78) = 6, h⁰ = 0 on the fig-8?
+- After B656/G5: the dimension grammar of ANY module is determined by
+  (i₁, i₂) = (dim V^holonomy, dim V^{peripheral ℤ²}) — so Q-BLOCK
+  reduces to computing the 78's two local inputs.
 
 ---
 

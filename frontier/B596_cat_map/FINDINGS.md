@@ -45,3 +45,17 @@ tested on every row and reported with their miss counts.
 B587 (the factorization — unchanged), B585 (the clock table, now extended
 and still lawless), B595 (the bridge — trace/determinant level), AP3/B211
 (the classical orders/Pisano), L84 (sharpened), L77/L81(b) (the open clock).
+
+## ADDENDUM (2026-07-17, B656): the table is DERIVED — the conductor-clock law
+
+The digest queue's G4 cell (cc2; independently verified in
+frontier/B656_digest_integration/, fresh order code, all rows):
+**clock(κ) = ord(A₁ mod 3κ) EXACTLY for κ = 6..15 (10/10)** — the
+"non-uniform multipliers" were the arithmetic of the conductor
+(ord T = 3κ) against the naive modulus κ. The two remaining rows are
+the law's own anomaly-zone clauses: κ = 4 (the dim-1 θ-odd block is
+character-blind; clock 1 vs ord 12) and κ = 5 (exactly the
+half-period; clock 10 vs ord 20). This table's status upgrades
+DATA → DERIVED; L84's sharpened multiplier clause is discharged; the
+operator-level dictionary now holds at the ORDER level as well
+(traces/determinants: B587/B595; orders: the conductor-clock law).

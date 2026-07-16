@@ -1,0 +1,27 @@
+# ORIGINALS_MANIFEST — cc2's digest-queue packet (OA_CC2_digest_queue_20260717.zip)
+# sha256 of every file AS RECEIVED (before the disclosed privacy patches below):
+deb34a9a7baf04604932eea2bc9a69bef23d353fb98a36ec1d8d2f15cd63d220  ./PACKET_README.md
+5848c32db3cdfee776eaaeba0a8e3e6408d67cb9cb8d79fbe7da3aa3283f1444  ./PREREG_DIGEST.md
+efd2eb8d1004123feed421df2fe34baec3744cb6596a07539c5b902a151e136a  ./SEALS.txt
+9c6c1c3a22b28d3f2846692f3fe65ad18d376c96df716926578aa33645bfaab6  ./STATUS.md
+79decfd8a9cea25066cb46672b068ce2659d88a9e401842a5838dcd42d7f7634  ./g1_sign/FINDINGS_CC2.md
+ec7bcff72b237a870b6465979adb6a8fe4cd52f4cbf8c91461618b4ce45447dd  ./g1_sign/g1_run.log
+74048985f66c9e534c3a04987fe696a180f7efb14203bd220f49fcbe1e0c9422  ./g1_sign/g1_run2.log
+40838d3b416af633b0ead50448e9efe294aceacc190361a9730e953d8c694cea  ./g1_sign/g1_sign.py
+760d270be3d0c89cebcdb85099b04c548366fe010a28a8c8d3e6d2c6cbeb0b2f  ./g2_period/FINDINGS_CC2.md
+bf683cde592334f781896804e8ec47f86809634cd980e9b5851ef1f5ea6d5eb4  ./g3_mirror/FINDINGS_CC2.md
+f1052f55544cf5ba2a0ffb36ca5268f45b363b00a165b0879105f5effd7a5853  ./g3_mirror/g3_certificates.json
+8a793438f4c84713b12bbb4b6f5772e4f6bcc7be23c73d85a4f2cec9883f04d1  ./g3_mirror/g3_mirror.py
+b1fddb7983f649bed1b798721e2bc2eb7ea7cbf9dd962a44eed6ec0bb2898707  ./g3_mirror/g3_run.log
+6e312b72acc28ce663aeeb3d1c97de9686634cfa393c106b3ea6fc596854b536  ./g4_multipliers/FINDINGS_CC2.md
+3d5a00105fe30384a7c331125f31f1b8b82d66e9c28ede2c23bafe9e902945af  ./g4_multipliers/g4_run.log
+66eee7d8cdce25ae63c18b738c7142544b9e9cd70fc29f106472dfc5d897db5c  ./g5_dims/FINDINGS_CC2.md
+
+# DISCLOSED PRIVACY PATCHES (house rule: no model names / no seat paths in committed files):
+#   g3_mirror/g3_run.log, g3_mirror/g3_mirror.py, g1_sign/g1_sign.py:
+#     '/Users/dri/oa-seat-cc2/seat-work' -> '<seat-workdir>'
+#   g3_mirror/FINDINGS_CC2.md: 'cc2 + sonnet agent' -> 'cc2 + subagent'
+# No other byte changed. SEALS.txt inside the packet verified 7/7 on receipt
+# (two bare-filename rows resolve to g1_sign/ and g4_multipliers/ FINDINGS_CC2.md).
+# Committed-form note: the run logs were renamed *.log -> *_log.txt (the repo
+# ignores *.log); content unchanged except the disclosed patches above.

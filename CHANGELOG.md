@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B656: the digest-queue integration (G1–G5 verified; Q-AREA: the factor 2 is universal)
+
+### Added
+- **THE SIGN-HEARS-THE-DISCRIMINANT THEOREM** (cc2 G1; independently
+  confirmed on W(D4) + fresh words): det(w) = (−1)^{v_p(det B_w)} iff
+  v_p(disc A) odd; even cases exactly half. New LAW_MAP row.
+- **THE CONDUCTOR-CLOCK LAW** (cc2 G4; independently confirmed 12/12):
+  clock(κ) = ord(A₁ mod 3κ) on κ = 6..15; B596's table DATA → DERIVED;
+  L84's multiplier clause discharged.
+- The mirror generic law + the sector-carry law (cc2 G3); the generic
+  ladder period = 5 = disc(A₁) (cc2 G2; L100 opened); the dimension-
+  grammar reduction theorem — 3/5/1 from (i₁, i₂) (cc2 G5; L101 opened,
+  Q-BLOCK reframed).
+- **Q-AREA verdict (B654):** the chain-defect factor 2 is UNIVERSAL —
+  silver defect = 2·conj(Y) exactly on both lawful triples; the area
+  law refuted; the defect lives in ℚ(i) (the subfield law).
+- Locks: tests/test_b656_digest.py; the Q-AREA fraction lock in
+  tests/test_b654_listening.py.
+
 ## 2026-07-17 — B655: the beta-numerology adjudication (three kills; nothing banks)
 
 ### Resolved

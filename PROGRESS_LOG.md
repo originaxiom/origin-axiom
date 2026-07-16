@@ -5470,3 +5470,29 @@ exponents, |W|). C4: base rate 45% (27/60) — BELOW the sealed 50% bar
 pricing ~1.2 bits/match stands). VERDICT: nothing banks — no LAW row,
 no HINT row, no physics reading; Gate 5 untouched; the relay-back note
 carries the corrections. Locks 3/3.
+
+## 2026-07-17 — B656: THE DIGEST-QUEUE INTEGRATION (cc2's G1-G5 verified; Q-AREA lands)
+
+cc2's coordinated digest packet (prereg 5848c32d; seals 7/7 on receipt)
+verified and banked. G4 CONFIRMED INDEPENDENTLY 12/12: B596's "lawless"
+clock table is EXACTLY clock = ord(A1 mod 3*kappa) on kappa 6..15
+(fresh order code vs the banked machinery); kappa 4/5 are the law's own
+anomaly clauses (order destroyed / the half-period). B596 DATA ->
+DERIVED; L84's multiplier clause discharged — the dictionary holds at
+the ORDER level. G1 CONFIRMED INDEPENDENTLY on a FRESH Weyl group +
+FRESH words (W(D4), t=4/t=8): the sign-hears-the-discriminant theorem —
+det(w) = (-1)^(v_p det B_w) iff v_p(disc) odd; odd primes 192/192, even
+cases exactly 96/192. New LAW row (unifies the identity card with the
+Weyl-sign structure). G3 accepted (mirror generic law + the sector-carry
+law; P4's dead correlate retro-explained — arithmetic re-checked). G2
+accepted as reduction: the generic ladder period = 5 = disc(A1), the
+SAME period B204 proved at SU(2) (L100 = the resonant-phase cell). G5
+accepted as reduction theorem: the whole 3/5/1 grammar from two local
+inputs (i1, i2) = (1, 3) (L101 = metallic-uniformity; Q-BLOCK reframed
+to (i1, i2) of the 78). Q-AREA VERDICT (this seat, both lawful silver
+triples, exact over L): defect = 2*conj(Y), NOT 4*conj(Y) — THE FACTOR
+2 IS UNIVERSAL (the van Kampen area law refuted); the silver defect is
+s-free (Q(i) — the subfield law at the defect level). Locks:
+tests/test_b656_digest.py (4) + the Q-AREA fraction lock in
+test_b654_listening.py. Disclosed privacy patches in the packet
+manifest.

@@ -1,0 +1,99 @@
+==============================================================================
+G3 -- MIRROR-WORD (P_WORD=-3) EXACT MILGRAM CERTIFICATION
+prereg sha256 5848c32db3cdfee776eaaeba0a8e3e6408d67cb9cb8d79fbe7da3aa3283f1444
+==============================================================================
+
+---- STEP 0: build P_WORD=-3 buckets locally + SNF elementary-divisor scan ----
+|W(E6)| = 51840
+25 Weyl classes built, |W| conserved = True
+primes seen in ANY elementary divisor across all 25 classes: [2, 3, 5, 7, 17]
+det(B) multiset matches prereg/P4 spec: True
+odd-exponent primes actually occurring (per-class sqrt-part primes): [5]
+identity class: det=15625 (= 5^6), sqfree=1 (B_id = -5I, confirms NO det-1 class in this channel)
+
+---- STEP 1: GATE -- numeric Z_{-3}(r), r=13..25, vs P4's banked Zm (< 1e-7) ----
+  r=13: computed Zm=-1.000000000000-2.93e-16i  banked=-1.000000000000-2.93e-16i  |dev|=0.000e+00  PASS
+  r=14: computed Zm=-1.000000000000+1.31e-17i  banked=-1.000000000000+1.31e-17i  |dev|=0.000e+00  PASS
+  r=15: computed Zm=+1.000000000000-2.60e-17i  banked=+1.000000000000-2.60e-17i  |dev|=0.000e+00  PASS
+  r=16: computed Zm=+0.000000000000-5.35e-17i  banked=+0.000000000000-5.35e-17i  |dev|=0.000e+00  PASS
+  r=17: computed Zm=+1.000000000000-5.50e-17i  banked=+1.000000000000-5.50e-17i  |dev|=0.000e+00  PASS
+  r=18: computed Zm=-1.000000000000-3.25e-16i  banked=-1.000000000000-3.25e-16i  |dev|=0.000e+00  PASS
+  r=19: computed Zm=-0.000000000000+2.02e-16i  banked=-0.000000000000+2.02e-16i  |dev|=0.000e+00  PASS
+  r=20: computed Zm=+1.000000000000-1.08e-16i  banked=+1.000000000000-1.08e-16i  |dev|=0.000e+00  PASS
+  r=21: computed Zm=-1.000000000000-4.16e-16i  banked=-1.000000000000-4.16e-16i  |dev|=0.000e+00  PASS
+  r=22: computed Zm=-0.000000000000-7.14e-17i  banked=-0.000000000000-7.14e-17i  |dev|=0.000e+00  PASS
+  r=23: computed Zm=-1.000000000000-2.15e-16i  banked=-1.000000000000-2.15e-16i  |dev|=0.000e+00  PASS
+  r=24: computed Zm=+0.000000000000-4.50e-16i  banked=+0.000000000000-4.50e-16i  |dev|=0.000e+00  PASS
+  r=25: computed Zm=+2.000000000000-3.60e-16i  banked=+2.000000000000-3.60e-16i  |dev|=0.000e+00  PASS
+
+GATE PASS: 13/13 rungs reproduce P4's banked Z_-(r) to < 1e-7
+
+---- STEP 2: exact gamma_w identification at generic rungs r=13,29,31,37 ----
+(13,29,31,37 all coprime to 2*3*5*7*17 -- every prime in any elementary divisor of the 25 classes; (r|5) = -1,+1,+1,-1 respectively)
+  b 0 sz 6480 sgn-1 det   245 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b 1 sz 5760 sgn+1 det   289 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b 2 sz 5184 sgn+1 det   625 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b 3 sz 5184 sgn-1 det   125 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b 4 sz 4320 sgn-1 det   320 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b 5 sz 4320 sgn+1 det   144 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b 6 sz 4320 sgn-1 det   720 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b 7 sz 3240 sgn+1 det   225 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b 8 sz 2160 sgn+1 det   100 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b 9 sz 1620 sgn-1 det  1125 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b10 sz 1440 sgn-1 det   500 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b11 sz 1440 sgn+1 det   400 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b12 sz 1440 sgn-1 det    80 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b13 sz 1440 sgn+1 det    64 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b14 sz  720 sgn+1 det  1024 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b15 sz  540 sgn-1 det   125 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b16 sz  540 sgn+1 det  2025 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b17 sz  540 sgn-1 det    45 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b18 sz  480 sgn+1 det   400 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b19 sz  270 sgn+1 det   625 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b20 sz  240 sgn+1 det  2500 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b21 sz   80 sgn+1 det    64 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b22 sz   45 sgn+1 det    25 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+  b23 sz   36 sgn-1 det  3125 sqfree=  5 j13=0 j29=4 j31=4 j37=0
+  b24 sz    1 sgn+1 det 15625 sqfree=  1 j13=4 j29=4 j31=4 j37=4
+
+EXACT Z_{-3}(r) in Q(zeta_8) coords (1, z, z^2, z^3):
+  r=13: ['-1', '0', '0', '0']  ((r|5)=-1)
+  r=29: ['0', '0', '0', '0']  ((r|5)=+1)
+  r=31: ['0', '0', '0', '0']  ((r|5)=+1)
+  r=37: ['-1', '0', '0', '0']  ((r|5)=-1)
+
+cross-check: exact total(r=13) real part = -1.000000 vs numeric gate Zm(13) = -1.000000000000  |dev|=6.661e-16  OK
+
+---- STEP 3: THE MIRROR GENERIC LAW ----
+THE MIRROR GENERIC LAW:  Z_{-3}(r) = ((r|5) - 1) / 2   for gcd(r, 2*3*5*7*17) = 1
+(equivalently: -(1-(r|5))/2, i.e. Z_{-3}(generic r) = -Z_{+3}(generic r) exactly, consistent with the P4 eps=+1 gate)
+  r=13 (exact  ): observed=-1  predicted=-1  OK
+  r=29 (exact  ): observed=0  predicted=0  OK
+  r=31 (exact  ): observed=0  predicted=0  OK
+  r=37 (exact  ): observed=-1  predicted=-1  OK
+  r=13 (numeric): observed=-1.0000000000000007  predicted=-1.0  OK
+  r=19 (numeric): observed=-2.0151490215871814e-16  predicted=0.0  OK
+  r=23 (numeric): observed=-0.9999999999999997  predicted=-1.0  OK
+LAW VERIFIED on all generic rungs in the data: True
+
+---- STEP 4: mirror silence characterization, r=13..25 (+ identification rungs) ----
+  r=16: Z_-(r)=0  generic=False  Z_+(r) also 0=True  non-generic silent
+  r=19: Z_-(r)=0  generic=True  Z_+(r) also 0=False  generic-silent (law: (r|5)=+1)
+  r=22: Z_-(r)=0  generic=False  Z_+(r) also 0=False  non-generic silent
+  r=24: Z_-(r)=0  generic=False  Z_+(r) also 0=False  non-generic silent
+
+summary: Z_-(r)=0 at r=[16, 19, 22, 24] within 13..25
+  generic silences (explained by the law, (r|5)=+1): [19]
+  non-generic silences (finer per-class cancellation, not from the generic law alone): [16, 22, 24]
+  shared with the direct (+3) channel's own silence (Z_+ also 0): [16]
+
+---- STEP 5: NOTICED -- mirror odd primes vs direct channel's import set ----
+mirror spectrum's odd primes (structural, from the 25 classes' elementary divisors): [3, 5, 7, 17]
+direct channel's banked inert-import set (per-rung sqrt-p imports, banked in level_ladder_campaign/PREREG_L5.md, L5_RUN.log, PREREG_Q1.md): {15: 5, 16: 2, 17: 17, 20: 5} (i.e. primes {2,5,17})
+OVERLAP: [5, 17]  (5 and 17 appear on both sides)
+MIRROR-ONLY (never seen as a direct-channel import): [3, 7]  (3 and 7)
+DIRECT-ONLY: [2]  (2 is a dyadic import at kappa=16 in the direct channel; in the mirror's own structural det multiset, 2 occurs in 10/25 classes but ALWAYS with even exponent -- it never contributes a sqrt-2 factor, only the fixed zeta_8 dyadic modulus)
+STATEMENT (factual, NOTICED-level, no promotion): the two odd-prime sets share {5, 17} and disagree on {2} (direct-only, dyadic) vs {3, 7} (mirror-only). No law is asserted from this; it is recorded as data per the G3 falsifier clause.
+
+WROTE <seat-workdir>/digest_queue/g3_mirror/g3_certificates.json
+DONE

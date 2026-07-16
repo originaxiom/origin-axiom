@@ -1,3 +1,4 @@
+marker fixed
 == S3a-G1: the weld solve at SL2(L) ==
 weld reconstructed
 == G1: J^2 ==
@@ -12,3 +13,18 @@ pipeline reloaded: 5 reps
     [side1] deltaS=omega on [a|b|ab]: True
     [side1] deltaS=omega on [b|C|bC]: True
     [side1] deltaS=omega on [ca|AC|caAC]: True
+    [side1] deltaS=omega on [lam|mu|b] (certificate): True
+    [side2] deltaS=omega on [a|b|ab]: True
+    [side2] deltaS=omega on [b|C|bC]: True
+    [side2] deltaS=omega on [ca|AC|caAC]: True
+    [side2] deltaS=omega on [lam|mu|b] (certificate): True
+  G1 machinery: True
+== Q-AREA: the silver chain-defect factor ==
+  triple 134: defect == 2*conj(Y): True
+  triple 134: defect == 4*conj(Y): False
+    defect = re['-182020734169560425939/43356451579910974689993768960000000', '0', '0', '0'] im['233965040169927275431/130069354739732924069981306880000000', '0', '0', '0']
+  triple 023: defect == 2*conj(Y): True
+  triple 023: defect == 4*conj(Y): False
+    defect = re['-1/401287500', '0', '0', '0'] im['523/134832600000', '0', '0', '0']
+
+Q-AREA DONE

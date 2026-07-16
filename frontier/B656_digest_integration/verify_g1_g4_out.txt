@@ -1,0 +1,41 @@
+== G4: clock(kappa) vs ord(A1 mod 3*kappa), kappa = 4..15 ==
+  kappa= 4: clock=  1  ord(A1 mod 12)= 12  ANOMALY-ZONE
+  kappa= 5: clock= 10  ord(A1 mod 15)= 20  ANOMALY-ZONE
+  kappa= 6: clock= 12  ord(A1 mod 18)= 12  EXACT
+  kappa= 7: clock=  8  ord(A1 mod 21)=  8  EXACT
+  kappa= 8: clock= 12  ord(A1 mod 24)= 12  EXACT
+  kappa= 9: clock= 36  ord(A1 mod 27)= 36  EXACT
+  kappa=10: clock= 60  ord(A1 mod 30)= 60  EXACT
+  kappa=11: clock= 20  ord(A1 mod 33)= 20  EXACT
+  kappa=12: clock= 12  ord(A1 mod 36)= 12  EXACT
+  kappa=13: clock= 28  ord(A1 mod 39)= 28  EXACT
+  kappa=14: clock= 24  ord(A1 mod 42)= 24  EXACT
+  kappa=15: clock= 60  ord(A1 mod 45)= 60  EXACT
+  G4 law rows (kappa 6..15): 10/10 exact
+
+== G1: W(D4) x fresh words ==
+  t=3 (disc 5 = {5: 1}):
+    p= 5 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p=13 v_p(disc)=0: agree 96/192  expected half  OK
+  t=6 (disc 32 = {2: 5}):
+    p= 2 v_p(disc)=5: agree 192/192  expected TRACK(192)  OK
+    p=13 v_p(disc)=0: agree 96/192  expected half  OK
+  t=5 (disc 21 = {3: 1, 7: 1}):
+    p= 3 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p= 7 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p=13 v_p(disc)=0: agree 96/192  expected half  OK
+  t=7 (disc 45 = {3: 2, 5: 1}):
+    p= 3 v_p(disc)=2: agree 96/192  expected half  OK
+    p= 5 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p=13 v_p(disc)=0: agree 96/192  expected half  OK
+  t=4 (disc 12 = {2: 2, 3: 1}):
+    p= 2 v_p(disc)=2: agree 96/192  expected half  OK
+    p= 3 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p=13 v_p(disc)=0: agree 96/192  expected half  OK
+  t=8 (disc 60 = {2: 2, 3: 1, 5: 1}):
+    p= 2 v_p(disc)=2: agree 96/192  expected half  OK
+    p= 3 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p= 5 v_p(disc)=1: agree 192/192  expected TRACK(192)  OK
+    p=13 v_p(disc)=0: agree 96/192  expected half  OK
+
+DONE
