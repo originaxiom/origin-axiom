@@ -4982,3 +4982,26 @@ identification twists by the conjugator ⇒ the true candidate = the flip ∘ th
 The 24ζ₆ row stays LAW (map maintained); L93 refined. The negative's lesson: THE CHORD SELECTS
 ITS SYMMETRIES — the swap survives the coupling, the naive flip does not; that selectivity is
 structure. Locks 2/2. Firewalled.
+
+## 2026-07-16 — B644: the ear is the mod-5 congruence shadow (L94 CLOSED)
+
+The L94 comparison cell became a theorem (verification strength): on
+ker(det) ≅ 2I the θ-odd hearing representation factors literally
+through reduction mod 5 — ρ_hear = χ_golden ∘ (mod-5), elementwise on
+all 120 classes (class function well-defined; the observed table IS the
+golden 2-dim irreducible character: χ(−g) = −χ(g) exact, ⟨χ,χ⟩ = 1,
+values 2cos(kπ/5)), kernel match 0/560 (360 canonical + 200 seeded).
+The conductor κ = 5 is the modulus of the ear: the pentagon is the cat
+map's order-10 class mod 5; the mirror twist is −I mod 5; B642's
+Galois pair = the two irreps of the SAME shadow (K020 derived, not
+observed). B210's banked negative reconciled: its operator was the
+SU(2)₃ FULL modular image (order 2880, level 20), not the SU(3)₂ θ-odd
+plane. M3's sealed reference tables had a transcription error
+(violated χ(−g) = −χ(g)) — disclosed per MB12; the factorization
+content passed as sealed. Locks 3/3. Novelty NEEDS-SPECIALIST.
+Also banked this window: B639 stage 3 (the form-adjoint realization
+OBSTRUCTED — B_θ invariance exact but no gluing in any of 4 cells;
+D_conjθ's 27-object admits NO rep-twisted amalgam realization in the
+tested class; the fiber-paired complex is a new arc), and B643 step 1
+(φ(LONG) = LONG⁻¹ exactly, empty conjugator; the side-exchanging flip
+is the live candidate, computation running).

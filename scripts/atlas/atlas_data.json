@@ -12976,7 +12976,8 @@
     "symplectic"
    ],
    "refs": [
-    "B575"
+    "B575",
+    "L92"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
@@ -13071,6 +13072,33 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B644": {
+   "slug": "mckay comparison",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B206",
+    "B210",
+    "B620",
+    "B621",
+    "B640",
+    "B642",
+    "K020",
+    "L91",
+    "L94"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },
