@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — THE CALIBRATION CAMPAIGN SEALED AND LAUNCHED (B648/B649)
+
+### Added
+- **B648 SEALED (a463c6aa, owner-approved v3):** the calibrated-pair probe —
+  three phases, five kills, one-shot closure; 13 amendments from three review
+  passes (both seat reviews archived in-arc).
+- **B649 stage 1 (track S wave 1):** m136 silver holonomy — five exact trace
+  relations (ℚ(ζ₈) ⊆ trace field; s⁴−8s²−16 = 0; relators 8.5e-64); the
+  2-adic hazard concrete from day one; stage 2 = exact field + 27-lift.
+- **B647 cell 2 prereg sealed (track M wave 1, d3e4faad):** chain-level swap
+  equivariance; compute next.
+
 ## 2026-07-16 — B647 cell 1: the mechanism reduction (R20-5)
 
 ### Added

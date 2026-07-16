@@ -13163,6 +13163,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B649": {
+   "slug": "silver holonomy",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [
+    "B2",
+    "B648",
+    "S1"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B64": {
    "slug": "parity mechanism",
    "motifs": [

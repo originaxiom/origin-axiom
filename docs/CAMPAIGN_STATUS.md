@@ -34,11 +34,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 
 ---
 
-## RUNNING NOW
-- (idle at the queue boundary) The do-them-all queue is COMPLETE through C3:
-  B643 flip-breaking (L93 closed), B644 congruence-shadow (L94 closed), B645
-  unit cross-ratio + 13-dial, B639 resolved, PC26 absorbed. C4 (silver chord)
-  stays deferred on its named blocker (the m136 exact E₆ holonomy build).
+## RUNNING NOW — THE CALIBRATION CAMPAIGN (B648, SEALED a463c6aa, owner-approved 2026-07-16)
+- **The standing campaign**: the calibrated-pair probe (grammar → one
+  calibration → one prediction), three phases, five kills, one-shot closure;
+  three review passes applied (13 amendments). Tracks: F = the typed functor
+  (next wave); M = mechanisms (B647; cell 2 prereg d3e4faad sealed, compute
+  next); S = the silver control (B649 stage 1 BANKED: m136 holonomy exact
+  relations — the trace field contains ℚ(ζ₈); stage 2 = the exact field
+  build + 27-lift); L = cc2's ladder (their seat); W = L95 on arrival.
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
   Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
   behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its
@@ -52,6 +55,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
   boundary), owner report first.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
+
+## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
+- THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2
+  addenda (all adopted). B649 stage 1: the silver holonomy exact relations
+  (tr(ac) = −√2−√2i, tr(abc) = −2√2i ⇒ ℚ(ζ₈) ⊆ trace field; s⁴−8s²−16 = 0);
+  the 2-adic hazard concrete from the first computation. B647 cell 1: the
+  spectator law ⟺ arg Y[134] = π/6 given swap+zero.
 
 ## LAST BANKED (B646 — the cc2 wave-2 integration, 2026-07-16)
 - Three sealed packets verified (11/11 seals; deciders + lemma battery rerun

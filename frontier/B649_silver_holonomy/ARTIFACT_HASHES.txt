@@ -1,0 +1,3 @@
+429a344c115aa4aabc232e0e39f85b85cc3a2199caeee25ba65b13b5d286be16  PREREGISTRATION.md
+9d1a2abf0af4eb02c1a80df95b0211470a47e6f91ce306e905e1077a9a38a260  b649_stage1.py (post-hoc, labeled: the method-deviation patches are in-trail)
+f902deaa2fd2714e4632680e98ff0eb8b3373d15300017cbc152cfbb7af11337  b649_stage1_output.txt (post-hoc, labeled: the method-deviation patches are in-trail)
