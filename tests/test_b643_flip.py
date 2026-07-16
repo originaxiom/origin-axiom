@@ -28,3 +28,24 @@ def test_both_families_singular_on_sym0():
     assert "det(normalized U_phib) = (1)" in out
     fnd = open(os.path.join(B643, "FINDINGS.md")).read()
     assert "The chord breaks both amphichiral flip classes" in fnd
+
+
+def test_f1_naive_obstruction_line():
+    """The prereg's F1 verdict (the naive flip fails BOTH J-conventions)
+    is asserted from the banked output, per the /loop banking directive."""
+    out = open(os.path.join(B643, "b643_output.txt")).read()
+    assert "F1 FAIL: the flip does not act on the double in either" in out
+    assert "tau*(rep0) cocycle (J-choice A): False" in out
+    assert "tau*(rep0) cocycle (J-choice B): False" in out
+
+
+def test_artifact_hashes_sealed_line():
+    hh = open(os.path.join(B643, "ARTIFACT_HASHES.txt")).read()
+    assert hh.splitlines()
+    assert ("76d64ba0f0f506960d4e90b893813f3e9cc0b5d587173815b0294e2b69f68db3"
+            "  PREREGISTRATION.md") in hh
+    import hashlib
+    got = hashlib.sha256(
+        open(os.path.join(B643, "PREREGISTRATION.md"), "rb").read()
+    ).hexdigest()
+    assert got == "76d64ba0f0f506960d4e90b893813f3e9cc0b5d587173815b0294e2b69f68db3"
