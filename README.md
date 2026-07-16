@@ -16,6 +16,24 @@ sessions. It was created on 2026-05-22 after a full audit of all prior work
 > are the locks and gates (see `PROVENANCE.md` §0, `REPRODUCIBILITY.md`).
 > The project's inner vocabulary is glossed in `TERMINOLOGY.md`.
 
+## Where to start (three doors)
+
+- **Reading** — what is claimed and how strongly: `CLAIMS.md` (the
+  labeled ledger; per-claim files growing under `core/claims/`), then
+  `docs/LAW_MAP.md` (every law with its exact status), with
+  `TERMINOLOGY.md` beside you. Corrections of the record live in
+  `docs/RETRACTIONS.md`; dead ideas in `docs/ARCHIVE.md`.
+- **Verifying** — run it yourself: `REPRODUCIBILITY.md` (pinned
+  environment, what the suite covers and what it does not), the locks
+  (`pytest tests/`, heavy ones behind `OA_SLOW=1`), the gates
+  (`python3 scripts/gates/gates.py`), and the seal provenance
+  (`docs/SEAL_LEDGER.md`, regenerable).
+- **Contributing / working** — the binding one-page rules:
+  `WORKING_RULES.md`, then the constitution `GOVERNANCE.md` (§12–§15:
+  the layers, the metadata, the review loop) and `METHOD.md`. The
+  research narrative: `PROGRESS_LOG.md` (append-only) and
+  `docs/CAMPAIGN_STATUS.md`.
+
 ---
 
 ## What this is — and what it is not
