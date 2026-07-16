@@ -1,8 +1,4 @@
-executing B575 stages 0-3...
-[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
-[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
-[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
-[   82.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+syntax ok
 [  101.7s] stage 1 complete: e6 in gl(27), coordinate solver ready
 [  101.8s] G2a PASS: principal sl2 relations exact
 [  106.0s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)

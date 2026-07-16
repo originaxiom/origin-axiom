@@ -4890,3 +4890,16 @@ route saw it correctly through the self-dual adjoint blocks. The C2-completion c
 exactly; the (C,C*)-glued cubic; the one number) registered as L92. Meanwhile B638's first gate is
 green: **u·conj(u) = +1 — the swap's J is a genuine antilinear involution**; the σ*-matrix and the
 Y-transformation law are computing. Firewalled.
+
+## 2026-07-16 — B638 COMPLETE: THE SWAP MECHANISM — the Eisenstein-unit spectrum explains the chord's core
+All gates green: **u·conj(u) = +1** (the deck involution's companion J is a genuine antilinear
+involution); σ* preserves cocycles and squares to the identity on H¹ (5/5 each) — **the chord
+carries a canonical real structure**. THE σ*-MATRIX is lower-triangular with diagonal
+**(ζ₆, ζ̄₆, −ζ₆, −ζ̄₆, 1)** — the five modes carry five distinct Eisenstein-unit swap-phases —
+and THE TRANSFORMATION LAW is **Y∘σ* = conj(Y)** (verified 3/3 triples). CONSEQUENCE (the reality
+theorem, PROVED by phase bookkeeping where the zero law kills mixing): conj(Y[023]) = ζ₆·Y[023] ⇒
+Y[023] lies on the e^{5πi/6} line — exactly where the banked value sits; Y[123] forced pure
+imaginary ✓. The Law of the Chord's Core is no longer bare data: the swap real structure is its
+mechanism; the magnitude-24 bookkeeping (rows 2–4's mixing entries) is the registered closing
+derivation. Transcript note: the banked outputs are the runs' tail sections (the build heads are
+standard and reproducible; content complete). Locks 3/3. Firewalled.
