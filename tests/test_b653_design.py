@@ -31,3 +31,21 @@ def test_design_pins_the_essentials():
                 "FIRST published", "one-shot", "FAILS the held-out-provenance",
                 "5–6%", "4/13"):
         assert req in d, req
+
+
+def test_adjudication_banked():
+    a = open(os.path.join(B653, "ADJUDICATION.md")).read()
+    assert "OUTCOME A — CONSISTENCY" in a
+    assert "≈ 32%" in a and "LOW EVIDENTIAL WEIGHT" in a
+    assert "license is SPENT" in a
+    assert "FACTUALLY WRONG" in a  # the provenance erratum, owned
+    # z re-verified exactly
+    import sympy as sp
+    z = (sp.Rational("0.3092") - (sp.sqrt(5) - 1) / 4) / sp.Rational("0.0087")
+    assert abs(float(sp.N(z)) - 0.021035) < 1e-5
+    # the archived prediction hash matches the sealed one
+    import hashlib
+    h = hashlib.sha256(open(os.path.join(
+        B653, "packets", "PREDICTION.md"), "rb").read()).hexdigest()
+    assert h == ("4392e2718af05bb78975c5d8c224a9280167e4bc"
+                 "144416080cea4ac66c35e6b3")

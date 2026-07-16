@@ -142,6 +142,7 @@ independent + 1 via-discriminant).
 
 | ID | Claim | Named assumption |
 |---|---|---|
+| C-cal | The calibration campaign (B648, sealed a463c6aa) executed its one-shot forward comparison in the neutrino sector: a parameter-free stage-grammar prediction (sealed hash-first, derivation through theorem rows only) was consistent with the pinned first dedicated measurement at |z| = 0.02, at LOW evidential weight (achieved-precision false-positive rate ≈ 32%; no near neighbor separated). Conditional on the typed-functor reading (B650/B644); the stage κ = 5 is a declared minimal-bearing choice. No SM value is claimed; the full record: frontier/B653_phase_c_probe/. | `tests/test_b653_design.py` ✓ |
 | C1 | `L` and `R` are *forced* as the primitive record moves; extended: the first mixed closure is forced to `A = LR` *up to order* (trace 3, φ-spectrum), 144→1 under the torsion-free filter. | Depends on the minimal record axioms A1–A6 (see V4 paper §2). Formalized + machine-checked: `docs/UNIQUENESS_THEOREM.md`, `tests/test_uniqueness_theorem.py` ✓. Stays `conditional` (axioms motivated, not forced). |
 | C2 | The Fibonacci `|F|²` probability matrix is reconstructed from `A`'s Perron eigenvector. | Requires an additional "Perron-switch / degeneracy" rule; plain MaxEnt gives ½,½. |
 | C3 | Trace 3 is the unique torsion-free hyperbolic trace. | Holds only within once-punctured torus bundles with `SL(2,ℤ)` monodromy. |

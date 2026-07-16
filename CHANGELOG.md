@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B653 ADJUDICATED: OUTCOME A at low weight; THE CAMPAIGN CLOSES
+
+### Added
+- Phase C executed one-shot: the sealed parameter-free prediction vs JUNO's
+  first refereed measurement (independently verified): z = 0.021 → OUTCOME A,
+  honestly weighted (achieved-precision FP ≈ 32%; no neighbor separated).
+  Provenance erratum owned (E4 instance); the gate's letter verified by grep.
+  License SPENT; CLAIMS gains a value-free conditional pointer; the
+  calibration campaign closes with its deliverables banked.
+
 ## 2026-07-16 — B653: THE C2 DESIGN SEALED — the C′ event (zero calibration)
 
 ### Added
