@@ -1,0 +1,36 @@
+== [chat1-b] THE TONES = |golden character|/2, WITH MULTIPLICITIES ==
+  tone multiset from |chi|/2 x (Z/3): {'1': 6, '0': 90, '1/2': 120, '-1/4 + sqrt(5)/4': 72, '1/4 + sqrt(5)/4': 72}
+  MATCHES the banked tone census exactly: True
+
+== [chat1-c] Plancherel: the correct Schur route ==
+  <chi,chi> = 1 (Schur = 1, NOT dim = 2 as relayed)
+  mean tone^2 = <chi,chi>/4 = 1/4 = the banked value ✓
+
+== [chat1-f] the exponent-pairing claim ==
+  pair (1,11): theta-odd? (False,False) -> SAME
+  pair (4,8): theta-odd? (True,True) -> SAME
+  pair (5,7): theta-odd? (False,False) -> SAME
+  claim 'every h-pair has opposite theta-parity': REFUTED (all SAME)
+
+== [cc2-lemma] the identity card ==
+  det(A-I) = -1  (abelian blindness: -1)
+  disc = tr^2-4 = 5
+  det(A+I) = 5 = tr A + 2 = 5 (identity det(A+I) = 1 + tr + det for det=1: True)
+  SILVER: det(A+I) = 8, disc = 32 -> the silver's 'conductor' integers are 8/32 (2-adic), NOT 7: chat1's SL(2,7)-silver prediction REFUTED as stated
+
+== [both] the separation table at sigma = 0.0015, corrected ==
+  |1/(2phi) - 4/13| / 0.0015 = 0.88 sigma
+  |1/(2phi) - 3/10| / 0.0015 = 6.01 sigma
+  |1/(2phi) - 8/25| / 0.0015 = 7.32 sigma
+  cc2's '~9 sigma' and chat1's '9/6/2.7' tables: corrected above
+
+== [cc2-DLR] the published golden ansaetze vs JUNO ==
+  tan th=1/phi: sin^2 = 0.2764, |z| = 3.77 sigma (cc2's ~4 sigma: ok)
+  cos th=phi/2: sin^2 = 0.3455, |z| = 4.17 sigma (cc2's ~4 sigma: ok)
+
+== [chat1-a] the 24-as-|2T| reading vs the gauge adjudication ==
+  |SL(2,3)| = 24: true. BUT B647 cell 3 proved the 24 zeta_6 ratio is
+  basis-GAUGE (any unit achievable by rescaling) — the 'being group's
+  order stamped on the chord' READING attaches invariant meaning to a
+  gauge quantity: REFUTED at the invariant level; the numerology is
+  recorded as a HINT against the pipeline-gauge constancy regularity.
