@@ -1,0 +1,8 @@
+# B648 artifact hashes (sha256)
+
+## THE CAMPAIGN SEAL (hashed at owner approval, 2026-07-16, hash-first
+## relative to all campaign execution; v3 = the approved text)
+a463c6aa79567d2bdeeb7d46f5ff31baa23581c783a5b41d96fd47ff941ab36d  CAMPAIGN_PREREGISTRATION.md
+
+## The review record (archived pre-seal)
+d384d1388941afa79a8ca740ddb55dc27bacbe552202d583ddeb373d5c7363aa  REVIEW_CC2.md (as received; prefix-verified by the sending seat)
