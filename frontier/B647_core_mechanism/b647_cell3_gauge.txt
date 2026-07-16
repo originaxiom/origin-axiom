@@ -1,0 +1,5 @@
+== the gauge action Y[ijk] -> c_i c_j c_k Y[ijk] ==
+  core ratio transforms by c0/c1: True
+  => '24 zeta_6' is GAUGE: choosing c0/c1 = u/(24 z6) makes the ratio ANY u in Q(sqrt-3)*: verified symbolically: True
+  cross-ratio is INVARIANT (all c's cancel): True ; value = 1
+  arg Y[134] transforms by arg(c1 c3 c4) — gauge-variant: the pi/6 condition is the pipeline-gauge form of the invariant cross-ratio = 1 (cell 1's reduction, restated invariantly)

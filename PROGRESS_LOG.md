@@ -5271,3 +5271,16 @@ swap, zero shape, sigma*-law, subfield) = candidate FORCED; value rows
 (units, class, dial primes) = object-chosen — K020 at the chord level
 on two objects end-to-end. HINTs: area 2->4; 13 split vs 211 inert (the
 split-prime reading does not generalize naively). Locks 5/5.
+
+## 2026-07-16 — B647 CLOSED: cell 3 the gauge adjudication (R20-5 resolved by dissolution)
+
+Exact: under the H1-representative rescaling gauge, the core ratio is
+c0/c1-covariant — "24 zeta_6" is GAUGE (any unit achievable); the
+cross-ratio is invariant (= 1); arg Y[134]'s pi/6 is the gauge form of
+cross-ratio = 1. R20-5 RESOLVES: the invariant content (cross-ratio
+law) is mechanized (cell 1's reduction + cell 2's anomaly
+characterization = the sigma*-law's exact chain mechanism); the gauge
+part needs no mechanism; the pipeline-gauge cross-double constancy is
+recorded as convention-relative. R20-6 (dial primes) stays open,
+enriched with the silver's 13*211 data. The chord's mechanism ledger
+closes coherently with the silver's form-level verdicts. Locks 5/5.

@@ -54,3 +54,18 @@ def test_cell2_output_verdicts():
     assert out.count("True") == 10
     assert out.count("False") == 7
     assert "defect (1/12+-1/36r)" in out
+
+
+def test_cell3_gauge_adjudication():
+    import sympy as sp
+    r = sp.I * sp.sqrt(3)
+    Y023 = sp.Rational(-7983360, 13) + sp.Rational(2661120, 13) * r
+    Y123 = sp.Rational(221760, 13) * r
+    Y034 = sp.Rational(2, 3) * r
+    Y134 = sp.Rational(1, 24) + sp.Rational(1, 72) * r
+    c0, c1, c2, c3, c4 = sp.symbols("c0:5", nonzero=True)
+    ratio = (c0 * c2 * c3 * Y023) / (c1 * c2 * c3 * Y123)
+    assert sp.simplify(ratio / (Y023 / Y123)) == c0 / c1   # gauge-covariant
+    cr = ((c0 * c2 * c3 * Y023) * (c1 * c3 * c4 * Y134)) / \
+         ((c0 * c3 * c4 * Y034) * (c1 * c2 * c3 * Y123))
+    assert sp.simplify(cr) == 1                            # invariant, = 1

@@ -68,3 +68,41 @@ Two in-run notes: the first launch hit the sides_of pair structure
 (fixed, trail in-place); the first lock draft hit sympy's √−3
 normalization (I·√3 internally — subs-based conjugation silently
 no-ops; use sp.conjugate; an E-class candidate for tooling notes).
+
+---
+
+## Cell 3 — THE GAUGE ADJUDICATION: R20-5 resolves by dissolution (arc closure)
+
+`b647_cell3_gauge.txt` (exact sympy): under the basis-rescaling gauge
+Y[ijk] ↦ cᵢcⱼcₖ·Y[ijk] (cᵢ ∈ K^×, the H¹-representative freedom):
+
+- **the core ratio Y[023]/Y[123] transforms by c₀/c₁ — "24ζ₆" is
+  GAUGE**: any unit is achievable by rescaling (verified symbolically);
+  its banked value is the PIPELINE-GAUGE form (deterministic pivoting —
+  a declared convention, not object content);
+- **the cross-ratio is INVARIANT** (all cᵢ cancel; = 1 exactly on the
+  banked table) — B645's law is the invariant carrier;
+- **arg Y[134] is gauge-variant** — cell 1's π/6 condition is the
+  pipeline-gauge form of the invariant statement "cross-ratio = 1".
+
+**The resolution of R20-5 (the 24ζ₆ mechanism):** the question
+dissolves into (i) the INVARIANT part — the unit cross-ratio law, whose
+mechanism is cell 1's reduction (swap + zero ⇒ one condition) plus
+cell 2's chain-level anomaly characterization (Y = ½·conj of the
+swap's single-certificate defect — the σ*-law's mechanism, exact); and
+(ii) the GAUGE part — no mechanism exists or is needed for a
+convention. The residual genuine regularity: the pipeline-gauge ratio
+was CONSTANT across nine same-object doubles (B637/B638) — recorded as
+a convention-relative regularity of the fixed pipeline, not a law of
+the object. The silver (B649 3b-ii) confirms the adjudication from the
+other side: the invariants reproduced; the gauge quantities did not.
+
+**R20-6 (the 13-dial mechanism) stays open**, now enriched: the silver's
+lit-class deviations are 13·211-adic (all four numerators share 211;
+13 appears in the first cross-ratio) — the dial-prime structure is
+object-dependent data for the mechanism hunt.
+
+**B647 closes.** The chord's mechanism ledger: σ*-law = MECHANIZED
+(the anomaly characterization); the cross-ratio law = reduced (cell 1)
+with its last condition gauge-adjudicated; the dial primes =
+MECHANISM-OPEN (R20-6, with two-object data).

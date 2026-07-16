@@ -1102,8 +1102,8 @@ untouched, carried below.
 - [ ] R20-2: the m = 7/8/11 exact identifications (carried from R19; source: B598/B624)
 - [ ] R20-3: the discrete-branch IDs per word (carried from R19; source: B626)
 - [ ] R20-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (source: B639)
-- [ ] R20-5: the cochain-level mechanism of the 24ζ₆ magnitude (source: B638/B643)
-- [ ] R20-6: the 13-dial mechanism + the meaning of the split prime (source: B645; HINT rows)
+- [x] R20-5: RESOLVED BY DISSOLUTION (B647 cells 1–3, 2026-07-16) — the 24ζ₆ magnitude is basis-GAUGE (c₀/c₁-covariant; any unit achievable); the invariant content = the unit cross-ratio law (mechanized: cell 1's reduction + cell 2's anomaly characterization Y = ½·conj(chain defect), the σ*-law's exact mechanism); the pipeline-gauge cross-double constancy recorded as convention-relative; silver (B649) confirms invariants-reproduce/gauge-doesn't
+- [ ] R20-6: the 13-dial mechanism — ENRICHED (B649 3b-ii): the silver's lit deviations are 13·211-adic; 13 split in ℚ(√−3) but 211 inert in ℚ(i) — the naive split-prime reading fails; two-object data in hand (source: B645/B649)
 - [ ] R20-7: C4 the silver chord — blocked on the m136 exact E₆ holonomy build (source: B637 queue)
 - [ ] R20-8: the order-4 orientation-reversing families through the flip pipeline, if wanted (source: B643 residual)
 - [ ] R20-9: prior-art/novelty pass over the window's eight THEOREM/LAW candidates (NEEDS-SPECIALIST; gate for §5.1 promotion)

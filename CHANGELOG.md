@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B647 closed: the gauge adjudication (R20-5 resolved)
+
+### Resolved
+- "24ζ₆" is basis-gauge; the invariant carrier is the cross-ratio law
+  (mechanized: cell-1 reduction + the cell-2 anomaly characterization).
+  R20-5 closed by dissolution; R20-6 enriched with the silver's 13·211
+  data. Locks 5/5.
+
 ## 2026-07-16 — B649 stage 3b-ii: THE SILVER Y-TENSOR (track S wave 6; §B2 complete)
 
 ### Added
