@@ -13147,6 +13147,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B647": {
+   "slug": "core mechanism",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B638",
+    "B643",
+    "B645"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B64": {
    "slug": "parity mechanism",
    "motifs": [
