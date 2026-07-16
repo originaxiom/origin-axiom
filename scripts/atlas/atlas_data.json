@@ -13166,6 +13166,7 @@
   "B649": {
    "slug": "silver holonomy",
    "motifs": [
+    "figure_eight",
     "kappa",
     "metallic",
     "eisenstein",
@@ -13174,6 +13175,7 @@
    ],
    "refs": [
     "B2",
+    "B575",
     "B648",
     "S1"
    ],

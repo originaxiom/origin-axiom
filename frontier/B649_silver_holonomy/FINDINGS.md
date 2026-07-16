@@ -76,3 +76,33 @@ to BE the SL₂ lift.
 **Stage 2b opens:** the 27-lift Sym¹⁶⊕Sym⁸⊕Sym⁰ over L (even Sym
 powers — works for any det-1 source directly) and the E₆ exec-prefix
 over L; then the silver chord (campaign §B2).
+
+---
+
+## Stage 2b (prereg 34f851b1) — THE SILVER 27-LETTERS EXACT OVER L
+
+**Foundation fact (sealed in the prereg): B575's E₆ apparatus is
+RATIONAL** — the cubic's 270 entries are ±1, the principal sl₂ has
+rational entries — dumped once to `e6_principal_rational.json` /
+`cubic_rational.json` (the silver track is now decoupled from the
+fig-8 prefix build). Consequence: the silver chord runs over
+L = ℚ(s, i) alone.
+
+**All three gates PASS (exact):**
+- **S2b-G1** — both silver relators evaluate to I₂₇ EXACTLY in
+  GL₂₇(L) on the Bruhat-lifted letters (6 lifts, ~1.5 s each; the
+  relator products ~5 s — the sparse-skip multiplication made the
+  degree-8 arithmetic cheap).
+- **S2b-G2** — cubic preservation C(gx,gy,gz) = C(x,y,z) exactly on
+  all 25 declared sample triples (seed 649): the lift lands in E₆.
+- **S2b-G3** — tr₂₇(μ) = tr₂₇(λ) = 27 exactly (parabolic sources ⇒
+  unipotent 27-images; the sign dies in even Sym powers).
+
+The lifted letters persist in `letters27_L.json` (the stage-3 input).
+
+**Stage 3 opens (the campaign GATE B's blocker, now in reach):** the
+silver double — the gluing/weld solve over L, h¹(D_silver; 27) by
+amalgam-Fox (SIX generators: the silver presentation has three), and
+the Y-tensor with the FORM-level law checks (the campaign §B2's
+form-level reproduction: the core-law shape, the cross-ratio, the
+silence character with disc 32).

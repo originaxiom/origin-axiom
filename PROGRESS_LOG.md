@@ -5207,3 +5207,16 @@ polished matrices ARE the SL2 lift. Lock: snappy-free pure-Fraction
 verification from entries_L.json (milliseconds). STAGE 2B OPENS: the
 27-lift (even Syms, direct over L) + the E6 prefix over L → the
 silver chord (campaign GATE B's blocker retiring on schedule).
+
+## 2026-07-16 — B649 stage 2b BANKED: THE SILVER 27-LETTERS EXACT OVER L (track S wave 3)
+
+Foundation fact sealed in the prereg: B575's E6 apparatus is RATIONAL
+(cubic entries +-1; principal sl2 rational) — dumped once, the silver
+track decoupled from the fig-8 prefix forever; the silver chord runs
+over L = Q(s,i) alone. All gates EXACT: both relators = I27 on the
+Bruhat-lifted letters; cubic preserved on 25/25 declared trials (the
+lift lands in E6); peripheral 27-traces = 27 (unipotent). Fast: ~1.5s
+per lift, ~5s per relator (sparse-skip multiplication). Letters persist
+in letters27_L.json. STAGE 3 = the silver double (6-generator
+amalgam-Fox, h1, the Y-tensor, the form-level law checks) — GATE B's
+blocker is now one computation away. Locks 3/3 (snappy-free).

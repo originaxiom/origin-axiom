@@ -96,3 +96,48 @@ def test_silver_holonomy_exact():
     assert ((W[0][0] + W[1][1]) + s2 + s2 * iL).is_zero()
     W = word("abc")
     assert ((W[0][0] + W[1][1]) + _lc(2) * s2 * iL).is_zero()
+
+
+def test_silver_27_letters_exact():
+    """Stage 2b lock: reload the lifted letters and re-verify one
+    relator + the mu trace exactly over L (pure Fractions)."""
+    import json
+    d = json.load(open(os.path.join(B649, "letters27_L.json")))
+
+    def mat(nm):
+        return [[L([Fr(x) for x in d[nm][i][j][:4]],
+                   [Fr(x) for x in d[nm][i][j][4:]])
+                 for j in range(27)] for i in range(27)]
+
+    lets = {nm: mat(nm) for nm in "abcABC"}
+
+    def mm27(A, B):
+        n = 27
+        Bt = list(zip(*B))
+        out = [[None] * n for _ in range(n)]
+        for i in range(n):
+            nz = [(k, A[i][k]) for k in range(n) if not A[i][k].is_zero()]
+            for j in range(n):
+                acc = L()
+                for k, a in nz:
+                    b = Bt[j][k]
+                    if not b.is_zero():
+                        acc = acc + a * b
+                out[i][j] = acc
+        return out
+
+    W = None
+    for ch in "aBAbcc":
+        W = lets[ch] if W is None else mm27(W, lets[ch])
+    one = L([Fr(1), Fr(0), Fr(0), Fr(0)], None)
+    for i in range(27):
+        for j in range(27):
+            tgt = one if i == j else L()
+            assert (W[i][j] - tgt).is_zero(), (i, j)
+    MU = None
+    for ch in "CCB":
+        MU = lets[ch] if MU is None else mm27(MU, lets[ch])
+    tr = L()
+    for i in range(27):
+        tr = tr + MU[i][i]
+    assert (tr - L([Fr(27), Fr(0), Fr(0), Fr(0)], None)).is_zero()
