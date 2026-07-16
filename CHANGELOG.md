@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B655: the beta-numerology adjudication (three kills; nothing banks)
+
+### Resolved
+- The incoming SM-beta claim: arithmetic correct, anchors REFUTED (silver =
+  8/32 not 7/23; |A₄| = 12; no metallic disc 23); the h=12 overlap is
+  forced-trivial; the 19↔19 has no common source; base rate 45% (below the
+  sealed bar — stated exactly). Nothing banks; Gate 5 untouched; the
+  corrections relayed. The first live L99 application. Locks 3/3.
+
 ## 2026-07-17 — B654: the resonance adjudication (the seats' syntheses verified)
 
 ### Added

@@ -1,0 +1,30 @@
+== C1: the arithmetic ==
+  b3 = -7 (claim -7): True
+  b2 = -19/6 (claim -19/6): True
+  b2 - b3 = 23/6 (claim 23/6): True
+  b_E6 = -38 (claim -38 = -2*19): True
+
+== C2: the anchors ==
+  'silver conductor 7': banked det(A_s+I) = 8 -> KILLED
+  'silver discriminant 23': banked disc = 32; and t^2-4 = 23 has integer solutions: False -> KILLED
+  '|T| = 6': |A4| = 12 (h/2 = 6 is a different quantity) -> KILLED
+  the correction: det(A+I) = t+2 = 7 belongs to the TRACE-5 metallic member, not the banked silver (trace 6)
+
+== C3: the tautology partition ==
+  FORCED (trivial): h_dual(E6) = 12 enters b_E6 as -(11/3)*C2 — the
+  E6 beta function knows E6's Coxeter number by definition.
+  FREE (no framework derivation): the SM numerators 7 = 11-4,
+  19 = 44-24-1 over 6, 23 = 19+... arise from gauge-group Casimirs
+  and matter indices; none traces to a banked object quantity.
+  THE 19<->19 QUESTION: N0's 19 = a Weyl-class char-poly evaluation
+  (the Phi_9 class at the kappa=19 rung); b_E6's 19 = (44-6)/2 from
+  C2 and T(27). Common origin candidates checked: 19 is NOT an E6
+  degree {2,5,6,8,9,12}, NOT an exponent {1,4,5,7,8,11}, NOT a
+  divisor of |W(E6)| = 51840 = {2: 7, 3: 4, 5: 1} -> the two
+  19s share no identified representation-theoretic source: NONE.
+
+== C4: the base rate ==
+  integers 1..60 matching the anchor set under the relay's rules: 27/60 = 45%
+  verdict: below the bar
+
+B655 DONE
