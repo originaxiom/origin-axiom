@@ -4973,3 +4973,12 @@ dimension is genuinely open). (3) Their 2-form is convention-consistent with the
 their stage-3 symmetric construction withdrawn as moot (Koszul). RUN_ORDER: cc2's 13-vein campaign
 proceeds on their side, no collisions; packets verify-on-receipt per wave. Meanwhile B643 (the
 flip-symmetry cell, prereg 76d64ba0) is computing. Firewalled.
+
+## 2026-07-16 — B643: the naive flip does NOT act on the chord (honest obstruction; L93 refined)
+The flip-symmetry cell's F1 gate fired: the amphichiral flip with either antilinear J-convention
+fails to preserve the double's cocycle space — the naive flip is not a symmetry of the coupled
+local system. Diagnosis (registered): φ(λ) is only a conjugate of the λ-word; the weld
+identification twists by the conjugator ⇒ the true candidate = the flip ∘ the inner correction.
+The 24ζ₆ row stays LAW (map maintained); L93 refined. The negative's lesson: THE CHORD SELECTS
+ITS SYMMETRIES — the swap survives the coupling, the naive flip does not; that selectivity is
+structure. Locks 2/2. Firewalled.

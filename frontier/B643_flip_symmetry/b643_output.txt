@@ -1,0 +1,20 @@
+ok
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   71.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   89.3s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   89.4s] G2a PASS: principal sl2 relations exact
+[   93.3s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   94.8s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 94.8s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+== F1: does tau* act? ==
+  tau*(rep0) cocycle (J-choice A): False
+  trying the -J variant...
+  tau*(rep0) cocycle (J-choice B): False
+F1 FAIL: the flip does not act on the double in either convention — BANKED OBSTRUCTION; stopping per the prereg.
+
+B643 gates DONE (F4 = the combined-system solve, next stage)
