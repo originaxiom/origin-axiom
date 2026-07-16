@@ -12149,6 +12149,7 @@
     "B585",
     "B587",
     "B595",
+    "B656",
     "L77",
     "L81",
     "L84"
@@ -13282,6 +13283,7 @@
     "z3_generation",
     "amphichiral_cp",
     "torsion",
+    "symplectic",
     "firewall"
    ],
    "refs": [
@@ -13291,6 +13293,7 @@
     "B641",
     "B642",
     "B647",
+    "B656",
     "L97",
     "P12"
    ],
@@ -13312,6 +13315,37 @@
    "obstacle": "numerology",
    "obstacle_conf": 1,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B656": {
+   "slug": "digest integration",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "symplectic",
+    "five_web"
+   ],
+   "refs": [
+    "B204",
+    "B596",
+    "B647",
+    "B650",
+    "B654",
+    "L100",
+    "L101",
+    "L24",
+    "L84",
+    "P1",
+    "P4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B65": {
