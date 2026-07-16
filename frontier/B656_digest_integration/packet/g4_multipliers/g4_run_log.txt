@@ -1,0 +1,80 @@
+=== PREDICTIONS (printed before any banked comparison) ===
+E6 k= 1: ord(T)=  12 = [3, 4]  killed=-  ord(A1 mod n)=  12  ->  clock_pred=12
+E6 k= 2: ord(T)=  84 = [3, 4, 7]  killed=[7]  ord(A1 mod n)=  24  ->  clock_pred=12
+E6 k= 3: ord(T)= 180 = [4, 5, 9]  killed=-  ord(A1 mod n)=  60  ->  clock_pred=60
+E6 k= 4: ord(T)=  48 = [3, 16]  killed=-  ord(A1 mod n)=  12  ->  clock_pred=12
+E6 k= 5: ord(T)= 204 = [3, 4, 17]  killed=-  ord(A1 mod n)=  36  ->  clock_pred=36
+E6 k= 6: ord(T)= 108 = [4, 27]  killed=[27]  ord(A1 mod n)=  36  ->  clock_pred=18
+E6 k= 7: ord(T)= 228 = [3, 4, 19]  killed=[19]  ord(A1 mod n)=  36  ->  clock_pred=36
+SU3 k= 1: ord(T)=  12 = [3, 4]  killed=-  ord(A1 mod n)=  12  ->  clock_pred=12
+SU3 k= 2: ord(T)=  15 = [3, 5]  killed=-  ord(A1 mod n)=  20  ->  clock_pred=20
+SU3 k= 3: ord(T)=  18 = [2, 9]  killed=-  ord(A1 mod n)=  12  ->  clock_pred=12
+SU3 k= 4: ord(T)=  21 = [3, 7]  killed=[7]  ord(A1 mod n)=   8  ->  clock_pred=4
+SU3 k= 5: ord(T)=  24 = [3, 8]  killed=-  ord(A1 mod n)=  12  ->  clock_pred=12
+SU3 k= 6: ord(T)=  27 = [27]  killed=[27]  ord(A1 mod n)=  36  ->  clock_pred=18
+SU3 k= 7: ord(T)=  30 = [2, 3, 5]  killed=-  ord(A1 mod n)=  60  ->  clock_pred=60
+SU3 k= 8: ord(T)=  33 = [3, 11]  killed=-  ord(A1 mod n)=  20  ->  clock_pred=20
+SU3 k= 9: ord(T)=  36 = [4, 9]  killed=-  ord(A1 mod n)=  12  ->  clock_pred=12
+SU3 k=10: ord(T)=  39 = [3, 13]  killed=[13]  ord(A1 mod n)=  28  ->  clock_pred=28
+SU3 k=11: ord(T)=  42 = [2, 3, 7]  killed=[7]  ord(A1 mod n)=  24  ->  clock_pred=12
+SU3 k=12: ord(T)=  45 = [5, 9]  killed=-  ord(A1 mod n)=  60  ->  clock_pred=60
+
+=== COMPARISON WITH BANKED ===
+E6 k= 1: pred=  12 banked=   1  ** MISMATCH (banked 1) **
+    diagnostics: A1^1 mod components:
+      mod 3: [[2, 1], [1, 1]]
+      mod 4: [[2, 1], [1, 1]]
+E6 k= 2: pred=  12 banked=   4  ** MISMATCH (banked 4) **
+    diagnostics: A1^4 mod components:
+      mod 3: I
+      mod 4: [[2, 1], [1, 1]]
+      mod 7: -I
+E6 k= 3: pred=  60 banked=  60  MATCH
+E6 k= 4: pred=  12 banked=  12  MATCH
+E6 k= 5: pred=  36 banked=  36  MATCH
+E6 k= 6: pred=  18 banked=  18  MATCH
+E6 k= 7: pred=  36 banked=  36  MATCH
+SU3 k= 1: pred=  12 banked=   1  ** MISMATCH (banked 1) **
+    diagnostics: A1^1 mod components:
+      mod 3: [[2, 1], [1, 1]]
+      mod 4: [[2, 1], [1, 1]]
+SU3 k= 2: pred=  20 banked=  10  ** MISMATCH (banked 10) **
+    diagnostics: A1^10 mod components:
+      mod 3: -I
+      mod 5: I
+SU3 k= 3: pred=  12 banked=  12  MATCH
+SU3 k= 4: pred=   4 banked=   8  ** MISMATCH (banked 8) **
+    diagnostics: A1^8 mod components:
+      mod 3: I
+      mod 7: I
+SU3 k= 5: pred=  12 banked=  12  MATCH
+SU3 k= 6: pred=  18 banked=  36  ** MISMATCH (banked 36) **
+    diagnostics: A1^36 mod components:
+      mod 27: I
+SU3 k= 7: pred=  60 banked=  60  MATCH
+SU3 k= 8: pred=  20 banked=  20  MATCH
+SU3 k= 9: pred=  12 banked=  12  MATCH
+SU3 k=10: pred=  28 banked=  28  MATCH
+SU3 k=11: pred=  12 banked=  24  ** MISMATCH (banked 24) **
+    diagnostics: A1^24 mod components:
+      mod 2: I
+      mod 3: I
+      mod 7: I
+SU3 k=12: pred=  60 banked=  60  MATCH
+
+TOTAL: 12/19 rule-derived (E6 ord(T) gates all passed)
+kappa | pisano pi(k) | B596 mult (banked clock/pi) | clock law ord(A1 mod 3k) | verdict
+  4 | pi=   6 | mult=1/6 | law=  12 vs clock=   1 | ANOMALY-ZONE (k=1: dim-1 blindness) — law clause 1/2
+  5 | pi=  20 | mult=1/2 | law=  20 vs clock=  10 | ANOMALY-ZONE (k=2: Fib-core/chi-blind, clock 10) — law clause 1/2
+  6 | pi=  24 | mult=1/2 | law=  12 vs clock=  12 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+  7 | pi=  16 | mult=1/2 | law=   8 vs clock=   8 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+  8 | pi=  12 | mult=1 | law=  12 vs clock=  12 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+  9 | pi=  24 | mult=3/2 | law=  36 vs clock=  36 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+ 10 | pi=  60 | mult=1 | law=  60 vs clock=  60 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+ 11 | pi=  10 | mult=2 | law=  20 vs clock=  20 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+ 12 | pi=  24 | mult=1/2 | law=  12 vs clock=  12 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+ 13 | pi=  28 | mult=1 | law=  28 vs clock=  28 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+ 14 | pi=  48 | mult=1/2 | law=  24 vs clock=  24 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+ 15 | pi=  40 | mult=3/2 | law=  60 vs clock=  60 | RETRO-DERIVED (clock = ord(A1 mod 3k))
+
+12/12 rows explained by the clock law (incl. the anomaly-zone clauses)

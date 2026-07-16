@@ -45,13 +45,22 @@ audit: `docs/AUDIT_2026-07-05.md`.
   equivariance wall + congruence functor (B650/B644), the silver control
   (B649), the melody theorem's finite-content bound, the anomaly
   characterization (B647), and one live forward number.
-- **THE LISTENING SYNTHESIS (B654, live):** the campaign's laws digested
-  in the object's language — Q-FIELD: the shape-field law candidate (the
-  chord speaks the geometry's field; two objects exact); Q-PERIOD:
-  N₀ = 75·lcm{d²} = 3·disc²·lcm{d²} exact; Q-AREA computing (defect
-  factor = area?); Q-BLOCK queued (adjoint 78 → h¹ = 6?).
+- **THE LISTENING SYNTHESIS (B654 + B656, live):** the campaign's laws
+  digested in the object's language — Q-FIELD: the shape-field law
+  candidate (the chord speaks the geometry's field; two objects exact);
+  Q-PERIOD: N₀ = 75·lcm{d²} = 3·disc²·lcm{d²} exact; **Q-AREA landed:
+  the defect factor 2 is UNIVERSAL (not the area; both silver triples
+  exact, and the defect lives in ℚ(i))**; Q-BLOCK reframed to (i₁, i₂)
+  of the 78 (G5's reduction).
+- **THE DIGEST QUEUE (B656, banked 2026-07-17):** cc2's G1–G5 verified —
+  the sign-hears-the-discriminant THEOREM (independently confirmed on a
+  fresh Weyl group); the conductor-clock law (B596's "lawless" table
+  DERIVED: clock = ord(A₁ mod 3κ), 12/12; L84's clause discharged); the
+  mirror generic + sector-carry laws; generic ladder period = 5 =
+  disc(A₁) (= B204's SU(2) period); the 3/5/1 reduction theorem. New
+  leads L100 (resonant-phase) + L101 ((i₁,i₂) uniformity).
 - Standing: tracks L (cc2 ladder) and W (L95) event-driven; R20 items
-  4/7/8/9 open; the constitutional pilot review fires on cadence.
+  4/7/8/9 open; the constitutional pilot review fires on cadence (DUE).
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2
