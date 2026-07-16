@@ -1,4 +1,4 @@
-# B634 — ERRATUM 1 (2026-07-15; hashed; the external audit integrated)
+# B634 — ERRATUM 1 (2026-07-15; hashed; the audit seat's findings integrated (internal; PROVENANCE.md §0))
 
 Corrections to PREREGISTRATION.md (sealed dc2be090-era chain), on
 pre-existing banked facts only:

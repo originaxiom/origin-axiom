@@ -83,7 +83,9 @@ def test_no_raw_transcript_markers_in_public_docs():
 # Scoped to the cleaned set; the historical backlog (append-only PROGRESS_LOG/CHANGELOG, papers ledger, older
 # FINDINGS) carries legacy attributions and is a separate scheduled scrub — when done, widen this list.
 LIVING_DOC_FILES = [ROOT / "REPRODUCIBILITY.md", ROOT / "docs" / "STRATEGIC_SYNTHESIS.md",
-                    ROOT / "docs" / "OPEN_LEADS.md"]
+                    ROOT / "docs" / "OPEN_LEADS.md", ROOT / "docs" / "LAW_MAP.md",
+                    ROOT / "docs" / "ERROR_LEDGER.md", ROOT / "WORKING_RULES.md",
+                    ROOT / "GOVERNANCE.md"]
 LIVING_DOC_DIRS = [ROOT / "knowledge",
                    ROOT / "frontier" / "B143_interaction_feasibility",
                    ROOT / "frontier" / "B144_interaction_chirality",

@@ -19,6 +19,16 @@ work. The repository's own checkable artifacts are the locks (`tests/`,
 (`REPRODUCIBILITY.md`). Inner terminology used throughout is glossed in
 `TERMINOLOGY.md`.
 
+**"The external audit" (Review 20 grounding, 2026-07-16):** records from
+2026-07-01 and 2026-07-15/16 (B632/B634/B635, REBASE, ledger entries) use
+the phrase "the external audit" for a read-only AI seat operating in a
+separate clone (`oaudit`). "External" there means external to the working
+session — NOT external to the project. That audit seat is the same
+internal verification model as every other seat (owner + AI); no
+third-party human audit has occurred. Live documents have been rephrased
+to "the audit seat"; append-only ledgers retain the historical phrase and
+read against this definition.
+
 
 **Compiled:** 2026-05-22 · **Compiled by:** repository consolidation audit
 **Purpose:** Map every surviving artifact of the Origin Axiom project to its date, origin,

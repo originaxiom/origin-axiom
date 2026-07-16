@@ -1,0 +1,8 @@
+# B634 artifact hashes (sha256)
+
+## Recorded at Review 20 (2026-07-16) — the sealing omitted the hash line
+## (the same class as B643's, repaired #1034). Provenance: the prereg file
+## has a single commit (#1011, its banking) and was never amended in place
+## (ERRATUM_1.md is a separate file, #1012) — so this hash IS the banked
+## content's hash, recorded post-hoc with that label.
+77774a61ac7167bd9b6a708cbf56f12d7c4d836aeb4070002f735de32baaa290  PREREGISTRATION.md

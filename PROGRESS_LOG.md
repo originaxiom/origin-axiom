@@ -5033,3 +5033,30 @@ N(1+2√−3)). Also: the Door-2 incoming packet (reflection claim)
 adjudicated — refuted by banked B605 (free/Gieseking; their sync
 da84b00 predates #973 by three PRs). Codeberg mirror remote configured
 (repo creation pending on the owner side).
+
+## 2026-07-16 — REVIEW 20 EXECUTED (the standard cadence; window #1003–#1034)
+
+The overdue decadal review (the owner's ordinals "18/19" referred to this
+one by content — both prior reviews executed 2026-07-15; the anchor was
+40070ad/#1002). Full entry: docs/progress/REVIEWS.md. Highlights: all
+in-flight corrections verified present; four sealed hashes re-computed
+against their banked lines ✓ (0ec9ac39, e217e623, 76d64ba0, b77e5bdf);
+B634's prereg hash was found NEVER RECORDED at sealing — single-commit
+provenance verified (#1011, unamended) and the hash recorded post-hoc
+with that label (77774a61…, ARTIFACT_HASHES.txt; R20-11 registers the
+sweep for further instances); hash-first order honored; the other
+required correction = the
+external-verification-pretense class on "the external audit" (live docs
+rephrased to "the audit seat", historical ledger occurrences grounded in
+a new PROVENANCE.md §0 paragraph); TERMINOLOGY.md extended with the
+window's terms; eight THEOREM/LAW promotion candidates held at frontier
+on the novelty gate (no prior-art pass ran — R20-9); PC26 v2-final closed;
+ten action items registered in the first parseable block (the loop the
+constitutional pilot will close). The review declared its modulus
+explicitly (fast locks re-run; OA_SLOW trusted green; pre-window arcs
+not re-read). The full re-run earned its cost: three findings, three
+structural repairs (the mpmath dps-leak class — suite-wide conftest
+restore, the exact leaker identified; eight hardcoded-path scripts made
+__file__-relative; per-seat AI labels in living docs seat-neutralized
+with the surface scan extended to the new governing docs); final tally
+2324 locks green.
