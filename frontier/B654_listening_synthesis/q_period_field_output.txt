@@ -1,0 +1,28 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+== Q-PERIOD: N0 vs the A_w elementary divisors ==
+  elementary divisors found: [2, 3, 4, 5, 6, 7, 8, 10, 11, 15, 19, 20, 24, 30, 35, 40, 55]
+  N0 = 2311598520000 = {2: 6, 3: 3, 5: 4, 7: 2, 11: 2, 19: 2}
+  lcm(d^2) = 30821313600 = {2: 6, 3: 2, 5: 2, 7: 2, 11: 2, 19: 2}
+  equals N0: False
+  N0 / lcm(d^2) = 75
+
+== Q-FIELD: the weld intertwiners' fields ==
+  roots-of-unity-subfield candidate: fig-8 predicts Q(zeta6)=Q(sqrt-3) MATCH;
+  silver predicts Q(zeta8) but OBSERVED Q(i) -> CANDIDATE REFUTED (as pre-stated).
+  silver shape 0: 0.50000000000000000000000000000000000000
+  silver shape 1: 1.00000000000000000000000000000000000000
+  silver shape 2: 1.00000000000000000000000000000000000000
+  silver shape 3: 0.50000000000000000000000000000000000000
+== Q-FIELD continued: full silver shapes ==
+  shape 0: re = 0.5000000000000000000000000000  im = 0.5000000000000000000000000000
+  shape 1: re = 1.0000000000000000000000000000  im = 1.0000000000000000000000000000
+  shape 2: re = 1.0000000000000000000000000000  im = 1.0000000000000000000000000000
+  shape 3: re = 0.5000000000000000000000000000  im = 0.5000000000000000000000000000
+  shape 0 exact: 1/2 + i/2
+  shape 1 exact: 1 + i
+  shape 2 exact: 1 + i
+  shape 3 exact: 1/2 + i/2
+
+  fig-8 shapes (banked P12): both = zeta_6 = 1/2 + (sqrt3/2) i — field Q(sqrt-3)
+  THE SHAPE-FIELD CANDIDATE: chord field = the tetrahedral shape field

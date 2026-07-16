@@ -13270,6 +13270,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B654": {
+   "slug": "listening synthesis",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B640",
+    "L97",
+    "P12"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B65": {
    "slug": "sl4 symbolic jacobian",
    "motifs": [

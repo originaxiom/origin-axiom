@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B654: the listening synthesis — the shape-field law candidate
+
+### Added
+- Q-FIELD: THE SHAPE-FIELD LAW candidate — the chord's field = the
+  tetrahedral shape field (both objects exact; silver = a deg-8→2 collapse;
+  the roots-of-unity candidate refuted as pre-stated).
+- Q-PERIOD: N₀ = 75·lcm{d²} exactly; 75 = 3·(disc A₁)². Q-AREA computing;
+  Q-BLOCK queued. Locks 2/2.
+
 ## 2026-07-17 — B653 addendum: the reconciliation (void-as-held-out; license stays spent)
 
 ### Changed
