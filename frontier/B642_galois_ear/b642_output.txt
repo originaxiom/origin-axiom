@@ -1,0 +1,9 @@
+ok
+odd-plane invariance residual (R): 1.6e-61
+P1: |im rho| = 360 (sealed: 360)
+P1: |ker det| = 120; class sizes [1, 1, 12, 12, 12, 12, 20, 20, 30] (sealed: SL(2,5)'s [1,1,12,12,12,12,20,20,30])
+P3: tr rho(RL) = (1.61803398874989484820458683437 - 1.43907228300538901977706481244e-60j)
+P3: = +phi: True   (phi = 1.618033988749894848204587)
+P2: |tone| census = {'1': 6, 'phi/2': 72, '1/(2phi)': 72, '1/2': 120, '0': 90}
+P2 sealed prediction: phi/2 and 1/(2phi) multiplicities SWAP vs the base stage's {1:6, phi/2:72, 1/2:120, 1/(2phi):72, 0:90}
+B642 DONE
