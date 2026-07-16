@@ -1,10 +1,5 @@
-executing B575 stages 0-3...
-[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
-[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
-[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
-[   83.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
-[  103.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
-[  103.1s] G2a PASS: principal sl2 relations exact
+offset fixed
+syntax ok
 [  107.5s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
 [  109.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
 prefix done in 109.2s
@@ -13,3 +8,20 @@ weld side-2 letters built
 == G1: the involution property ==
   u*conj(u) = [[(1), (0)], [(0), (1)]]
   = +1: True;  = -1: False
+  sigma*(rep_i) are cocycles, all 5: True
+  sigma*^2 = id mod coboundaries, all 5: True
+
+== G2: the matrix of sigma* on H^1 (antilinear) ==
+  sigma*[0] = (1/2+1/2r) 0 0 0 0
+  sigma*[1] = (0+1/24r) (1/2+-1/2r) 0 0 0
+  sigma*[2] = (1256617152000+1267793856000r) (268240896000) (-1/2+-1/2r) 0 0
+  sigma*[3] = (-46189483200/13+465696000r) (11176704000+-11176704000r) 0 (-1/2+1/2r) 0
+  sigma*[4] = (1068480+-514080r) (-6652800+-6652800r) 0 0 (1)
+
+== G3: the transformation law of Y ==
+  triple (0, 1, 2): Y = (0); Y(sigma*) = (0); laws: ['minus_conj', 'plus_conj', 'minus_id', 'plus_id']
+  triple (0, 2, 3): Y = (-7983360/13+2661120/13r); Y(sigma*) = (-7983360/13+-2661120/13r); laws: ['plus_conj']
+  triple (1, 2, 3): Y = (0+221760/13r); Y(sigma*) = (0+-221760/13r); laws: ['plus_conj', 'minus_id']
+  law tally over 3 triples: {'minus_conj': 1, 'plus_conj': 3, 'minus_id': 2, 'plus_id': 1}
+
+B638 gates G1-G3 DONE (G4/G5 analysis follows from the banked matrix + law)

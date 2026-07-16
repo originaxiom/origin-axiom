@@ -12956,6 +12956,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B638": {
+   "slug": "swap decomposition",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B639": {
    "slug": "conjtheta cubic",
    "motifs": [
