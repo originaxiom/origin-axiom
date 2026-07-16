@@ -1,0 +1,33 @@
+== S1-G1: identity ==
+  name: m136; volume: 3.6638623767
+  homology: Z/2 + Z/2 + Z
+  generators: ['a', 'b', 'c']
+  relators: ['aBAbcc', 'aaCbcB']
+  peripheral words: [('CCB', 'caCA')]
+
+== S1-G2: the trace field (METHOD DEVIATION, disclosed: the
+   prereg named snappy's Sage-gated find_field; conventions say
+   pyenv-only — substituted with mpmath.pslq minimal polynomials
+   at TWO precisions; the gate criterion — exact field found —
+   is unchanged) ==
+  tr(b) = 2: residual 2.85e-65; < 1e-40 and < 1e-55: True
+  tr(ac) = -sqrt2 - sqrt2 i: residual 1.01e-63; < 1e-40 and < 1e-55: True
+  tr(abc) = -2 sqrt2 i: residual 1.03e-63; < 1e-40 and < 1e-55: True
+  s = 2Re tr(a): s^4 - 8 s^2 - 16 = 0: residual 4.69e-62; < 1e-40 and < 1e-55: True
+  |tr(a)|^2 = 2 sqrt2: residual 8.43e-63; < 1e-40 and < 1e-55: True
+  G2 PARTIAL-EXACT: relations verified = True; the field
+  CONTAINS Q(zeta_8) = Q(i, sqrt2) (tr(ac), tr(abc) exact) and
+  2Re tr(a) of degree 4 (s^4-8s^2-16) => tr field degree >= 8;
+  the primitive-element minimal polynomial = stage-2 refinement
+  (the G4 deferral clause, obstruction: complex-pslq tooling).
+  The disc-32 -> sqrt2 expectation of the prereg: CONFIRMED.
+
+== S1-G3: high-precision holonomy ==
+  a: tr = -1.553773974030037307344158953063146948164583499410307836332671148 - 0.643594252905582624735443437418209808924202742444007651156152009*I
+  b: tr = 2.000000000000000000000000000000000000000000000000000000000000000 - 2.84867032372793962424197268086858714626628975008598348988393400 E-65*I
+  c: tr = 1.553773974030037307344158953063146948164583499410307836332671148 - 0.643594252905582624735443437418209808924202742444007651156152009*I
+  max relator residual (up to +-I): 8.517e-64
+  peripheral traces: mu 2.000000000000000000000000000000-0.000000000000000000000000000000j
+                     lam -2.000000000000000000000000000000+0.000000000000000000000000000000j
+
+B649 stage 1 DONE (G4 exact identification = stage 2 handoff)

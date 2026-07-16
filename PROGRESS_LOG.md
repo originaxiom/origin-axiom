@@ -5141,3 +5141,24 @@ B645 spectator extension ⟺ arg Y[134] = π/6 — and the banked value
 question reduces to two phase/linear conditions; cell 2 (registered)
 tests whether the swap's CHAIN-level action pins the π/6 phase. Locks
 2/2.
+
+## 2026-07-16 — THE CALIBRATION CAMPAIGN SEALED (a463c6aa) AND LAUNCHED
+
+Owner approval granted on v3 (three review passes: cc2's seven fixes,
+the second seat's four amendments, cc2's four round-2 addenda — ALL
+adopted; the reviews archived in-arc; the lane flags resolved at
+sign-off). The seal hash recorded hash-first relative to all campaign
+execution. TRACK S WAVE 1 EXECUTED AND BANKED (B649 stage 1, prereg
+429a344c): m136's holonomy — relators to 8.5e-64; FIVE exact trace
+relations at two thresholds; tr(ac) = −√2−√2i and tr(abc) = −2√2i put
+ℚ(ζ₈) inside the trace field (the campaign's pre-labeled 2-adic hazard
+made concrete on day one); s⁴−8s²−16 = 0 gives degree ≥ 8; G4 exact
+identification deferred-as-allowed (complex-pslq tooling named). One
+disclosed method deviation (Sage-gated find_field → pyenv pslq
+relations; criterion unchanged); one E5-class precision bug caught by
+the two-threshold gate itself. TRACK M WAVE 1 SEALED (B647 cell 2,
+prereg d3e4faad): the chain-level swap equivariance question; compute
+is the next action. An E11 near-miss at sealing (a 64-hex hash
+transcribed from an 8-hex verified prefix) caught and corrected from
+the recomputed digest pre-commit — twice now; the class is real and
+the discipline works.
