@@ -13169,6 +13169,7 @@
     "kappa",
     "metallic",
     "eisenstein",
+    "torsion",
     "symplectic"
    ],
    "refs": [
@@ -13176,8 +13177,8 @@
     "B648",
     "S1"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },

@@ -1,0 +1,20 @@
+== S2a-G1 direct attempt ==
+  [direct] all 12 entries identified: True
+
+== S2a-G2/G3: exact verification in L ==
+  det(a) = L([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)],[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])
+  det(b) = L([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)],[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])
+  det(c) = L([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)],[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])
+
+== S2a-G2' (projective-exact): relators = scalar * I ==
+  relator aBAbcc: scalar matrix exactly: True (lambda = L([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)],[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]))
+  relator aaCbcB: scalar matrix exactly: True (lambda = L([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)],[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]))
+
+== S2a-G3' (projective-exact): tr^2/det identities ==
+  tr(CCB)^2 = target^2 * det: True
+  tr(caCA)^2 = target^2 * det: True
+  tr(b)^2 = target^2 * det: True
+  tr(ac)^2 = target^2 * det: True
+  tr(abc)^2 = target^2 * det: True
+
+B649 stage 2a DONE
