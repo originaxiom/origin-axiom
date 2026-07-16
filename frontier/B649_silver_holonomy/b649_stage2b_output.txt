@@ -1,0 +1,21 @@
+lifting the six letters (27x27 over L)...
+  a: lifted in 1.5s
+  b: lifted in 0.7s
+  c: lifted in 1.6s
+  A: lifted in 1.5s
+  B: lifted in 0.7s
+  C: lifted in 1.6s
+
+== S2b-G1: relators = I27 exactly ==
+  aBAbcc: = I27 exactly: True   (5.5s)
+  aaCbcB: = I27 exactly: True   (3.9s)
+
+== S2b-G2: cubic preservation (25 sampled exact triples) ==
+  cubic preserved on all 25 trials: True
+
+== S2b-G3: peripheral 27-traces ==
+  tr27(mu=CCB) = 27 exactly: True
+  tr27(lam=caCA) = 27 exactly: True
+
+letters27_L.json written
+B649 stage 2b DONE

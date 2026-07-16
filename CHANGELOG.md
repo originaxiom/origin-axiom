@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B649 stage 2b: the silver 27-letters exact over L (track S wave 3)
+
+### Added
+- B575's E₆ apparatus proven RATIONAL (cubic ±1; principal sl₂) and dumped
+  once — the silver track decoupled; the 27-lift over L: relators = I₂₇
+  exactly, cubic preserved 25/25, peripheral traces = 27. letters27_L.json =
+  the stage-3 input. GATE B's blocker one computation away.
+
 ## 2026-07-16 — B649 stage 2a: the exact silver holonomy over L (track S wave 2)
 
 ### Added
