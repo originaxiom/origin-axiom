@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B647 cell 2: THE ANOMALY CHARACTERIZATION (track M)
+
+### Added
+- The chord's cubic IS the swap's chain-level anomaly: Y = ½·conj(defect) of
+  the single side-2 (λ,μ) certificate; 7/8 slots chain-exact on lawful
+  triples (defect law 3/3 exact); dial slot satisfies the forced combination;
+  the cohomological law derived from the chain identities. Cell 3 targets the
+  certificate's H₂ content for the π/6 phase. Locks 4/4.
+
 ## 2026-07-16 — THE CALIBRATION CAMPAIGN SEALED AND LAUNCHED (B648/B649)
 
 ### Added
