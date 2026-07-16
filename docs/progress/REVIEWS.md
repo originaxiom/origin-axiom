@@ -1112,3 +1112,5 @@ untouched, carried below.
 
 *(The next review is the first under GOVERNANCE §15 — the constitutional
 pilot: it must open by closing or carrying every item above.)*
+
+anchor-commit: `0c2c6d0` (Review 20; #1035)
