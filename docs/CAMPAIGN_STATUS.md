@@ -45,7 +45,8 @@ audit: `docs/AUDIT_2026-07-05.md`.
   S = the silver control **COMPLETE for §B2** (3b-ii: the Y-tensor —
   zero law ✓, σ*-law ✓, THE SUBFIELD LAW new, lit-class with 13·211-adic
   deviations; form rows candidate-FORCED, value rows object-chosen);
-  NEXT: M cell 3, F2, then GATE B assembly (B1 table + B3 count);
+  M-track COMPLETE (cell 3: R20-5 dissolved to invariants; the σ*-law
+  mechanized); NEXT: F2 (the functorial map), then GATE B assembly;
   L = cc2's ladder; W = L95 on arrival.
   CONTINUOUS MODE (owner, 2026-07-16): waves proceed without per-wave
   approval until the campaign closes or a kill fires.
