@@ -396,3 +396,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   [[1,2,3],[2,3,1],[3,1,2]] is verified numerically at 1e-100 but NOT yet derived symbolically
   from the Kac–Peterson data. **Gate: the symbolic end-to-end proof (= L88); if proved, the
   circulant structure of |B|² becomes a theorem about the E₆ level-2 fusion geometry.**
+
+## 2026-07-16 — B645 hints (recorded, not judged)
+
+- The lit-double invariant normal form (3⁸ + 13√−3)/(3⁸ + 13): the 8 in
+  3⁸ vs the Sym⁸ block's highest weight; unexplained.
+- 13 = (27 − 1)/2; also N(1 + 2√−3) = 13 (split in ℚ(√−3)); the
+  deviation units observed: {1, ζ₃, √−3}.
+- The lit class {m=1, φ(a)=a, φ(a)=A} coincides with the banked m = 1
+  dial class (Y[01k] zero law) — two classifications, one partition.

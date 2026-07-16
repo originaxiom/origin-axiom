@@ -13062,16 +13062,19 @@
    "slug": "flip symmetry",
    "motifs": [
     "trace_map",
+    "eisenstein",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
     "symplectic"
    ],
    "refs": [
+    "B605",
     "B638",
     "L93"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -13099,6 +13102,20 @@
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B645": {
+   "slug": "dial law",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B637"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },

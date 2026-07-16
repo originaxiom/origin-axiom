@@ -5005,3 +5005,31 @@ D_conjθ's 27-object admits NO rep-twisted amalgam realization in the
 tested class; the fiber-paired complex is a new arc), and B643 step 1
 (φ(LONG) = LONG⁻¹ exactly, empty conjugator; the side-exchanging flip
 is the live candidate, computation running).
+
+## 2026-07-16 — B643 final: THE FLIP-BREAKING VERDICT; B645: the unit cross-ratio law + the 13-dial (L93 closed)
+
+B643 completed in four steps: (1) φ(LONG) = LONG⁻¹ exact, empty
+conjugator; (2) the side-exchanging flip's derived pullback acts on
+rep0 only; SL(2) diagnostic Q = [[1,√−3],[0,1]] ≠ ±I — no global
+companion; (3) the 27-level block-scalar system (172 conditions, 3
+unknowns): solution dim 1, SINGULAR, d = (0,0,1) — supported on Sym⁰
+alone; (4) the φ(a)=b family (conjugator aBAb found; U_φb normalized
+by ζ₃⁻¹): IDENTICAL verdict. Inner freedom cannot repair invertibility
+(multiplies the intertwiner space by ρ(w)). THE THEOREM-SHAPED RESULT:
+the chord breaks both amphichiral flip classes; the flip survives only
+on the invariant line; the deck swap σ* is the double's ONLY surviving
+27-cohomology symmetry. L93 closed resolved-negative; the 24ζ₆
+magnitude is not symmetry-forced (mechanism → cochain level).
+B645 (C3): normalization-free invariants across the nine banked Y
+tables (independent re-parse; core law re-verified 9/9). THE UNIT
+CROSS-RATIO LAW: (Y[023]·Y[134])/(Y[034]·Y[123]) = 1 exactly on all
+six 024-silent doubles (the 24ζ₆ ratio extends to the (3,4) spectator
+pair). THE 13-DIAL: on the three 024-lit doubles (m=1, φ(a)=a,
+φ(a)=A) every invariant deviates from 1 by an exact 13-divisible
+quantity — v₁₃(cross-ratio − 1) ≥ 1 always; cleanest normal form
+(3⁸ + 13√−3)/(3⁸ + 13). The lit class = the banked m=1 dial class.
+Locks: B643 3/3, B645 3/3. HINT rows recorded (3⁸ shape; 13 =
+N(1+2√−3)). Also: the Door-2 incoming packet (reflection claim)
+adjudicated — refuted by banked B605 (free/Gieseking; their sync
+da84b00 predates #973 by three PRs). Codeberg mirror remote configured
+(repo creation pending on the owner side).
