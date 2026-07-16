@@ -5284,3 +5284,15 @@ part needs no mechanism; the pipeline-gauge cross-double constancy is
 recorded as convention-relative. R20-6 (dial primes) stays open,
 enriched with the silver's 13*211 data. The chord's mechanism ledger
 closes coherently with the silver's form-level verdicts. Locks 5/5.
+
+## 2026-07-16 — B650 wave 2 BANKED: THE EQUIVARIANCE WALL; the functor identified (track F complete)
+
+Exact Sylvester: T A1 = rho_hear(RL) T has ONLY T = 0 (hyperbolic
+phi^{+-2} vs the order-10 congruence shadow — disjoint spectra; the
+passage-through-the-finite principle as a linear-algebra wall). THE
+POSITIVE IDENTIFICATION: the L84/L91-4 functor exists GROUP-level =
+(mod-conductor) . (golden character) = B644's congruence-shadow
+theorem, + B650's types on quantities; the banked bridges
+(det(I-B_odd) = phi^2, trace/det dictionary) are its invariant-level
+shadows. L84 RESOLVED; L91-4 discharged; walls list gains #9. Phase
+A's F-track COMPLETE. Locks 3/3. NEXT: GATE B assembly.

@@ -1,0 +1,7 @@
+source eigenvalues: [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+  = {phi^2, phi^-2}: True
+target: tr = 1/2 - sqrt(5)/2  det = 1
+target order 10: True
+target eigenvalues on the unit circle (|e| = 1): True
+Sylvester solution: [{t0: 0, t1: 0, t2: 0, t3: 0}]
+THE EQUIVARIANCE WALL: the only equivariant linear map is T = 0: True
