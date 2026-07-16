@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B653 addendum: the reconciliation (void-as-held-out; license stays spent)
+
+### Changed
+- The executed comparison reclassified VALID-AS-LETTER, VOID-AS-HELD-OUT-
+  CONFIRMATION (cc2's sharpening accepted); their ~9σ claim corrected to
+  0.88σ; the one-shot stays spent; the successor forward row registered
+  (the same sealed hash vs JUNO's next publication, owner-gated).
+
 ## 2026-07-17 — B653 ADJUDICATED: OUTCOME A at low weight; THE CAMPAIGN CLOSES
 
 ### Added

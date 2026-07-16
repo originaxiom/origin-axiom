@@ -5403,3 +5403,20 @@ qualifier attached; Gate 5 intact (a value-free conditional pointer row
 in CLAIMS). THE CAMPAIGN (B648) CLOSES: A+B complete (N = 1 -> C' = 0),
 C executed, outcome banked. The parameter-free number survives its
 first contact with a dedicated measurement — and may yet be killed.
+
+## 2026-07-17 — B653 ADDENDUM: the reconciliation with cc2's post-execution analysis
+
+cc2's relay crossed with the banking; the reconciliation SHARPENS the
+ruling: the executed comparison is reclassified VALID-AS-LETTER,
+VOID-AS-HELD-OUT-CONFIRMATION (by the design's own articulated
+standard, NO channel passed at seal time — both targets were public;
+correctly informed, the design would have sealed the same hash against
+the NEXT unpublished measurement). Their ~9-sigma separation claim is
+corrected (factor-of-ten slip: 0.88 sigma at sigma = 0.0015; ~1.4 at
+6-yr precision — the neighbor problem is intrinsic; future value =
+the falsification band + honest consistency, never neighbor-decisive).
+THE ONE-SHOT STAYS SPENT (un-spending after seeing the outcome's
+weight would mirror the adrenaline failure the design guards against);
+the successor forward row is registered: the SAME sealed hash 4392e271
+vs JUNO's next publication — a fresh owner directive when chosen.
+cc2's ADDENDUM_PROVENANCE (4109b0d0) acknowledged, archived on arrival.

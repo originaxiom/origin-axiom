@@ -49,3 +49,13 @@ def test_adjudication_banked():
         B653, "packets", "PREDICTION.md"), "rb").read()).hexdigest()
     assert h == ("4392e2718af05bb78975c5d8c224a9280167e4bc"
                  "144416080cea4ac66c35e6b3")
+
+
+def test_addendum_reconciliation():
+    a = open(os.path.join(B653, "ADJUDICATION_ADDENDUM.md")).read()
+    assert "VOID-AS-HELD-OUT-CONFIRMATION" in a
+    assert "SPENT as banked" in a
+    assert "0.88σ" in a  # cc2's ~9σ corrected
+    import sympy as sp
+    gap = (sp.sqrt(5) - 1) / 4 - sp.Rational(4, 13)
+    assert abs(float(sp.N(gap)) / 0.0015 - 0.88) < 0.01
