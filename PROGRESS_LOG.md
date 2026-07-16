@@ -5060,3 +5060,28 @@ restore, the exact leaker identified; eight hardcoded-path scripts made
 __file__-relative; per-seat AI labels in living docs seat-neutralized
 with the surface scan extended to the new governing docs); final tally
 2324 locks green.
+## 2026-07-16 — THE GOVERNANCE AMENDMENT (§12–§15): the infrastructure catches up to the mathematics
+
+Owner-directed (the brainstorm → "go"). GOVERNANCE.md gains four additive
+articles, per §10 (legibility/discipline only; no rule weakened):
+§12 the five jobs + the prime rule (freeze the substrate, generate the
+views, govern by metadata; zero file moves; the literal-transfer boundary
+fixed in writing); §13 the three layers (invariant / structured /
+coupling) with forward metadata requirements (lifecycle, uses:, the
+conventions block — targeting E1, the program's most recurrent error
+class); §14 claims-as-units (forward rule, lazy backfill, file creation
+never movement); §15 the review loop (REVIEW_TEMPLATE.md: small required
+core + optional enrichments; the declared modulus; the parseable
+action-items block enforced by the new `review-actions` gate).
+Companions: WORKING_RULES.md (root; one page, binding, the seat entry
+point — each clone adds a gitignored local pointer); docs/ERROR_LEDGER.md
+(eleven error classes seeded from the banked record, E1–E11);
+REPRODUCIBILITY.md pinned-environment table (python 3.12.1, sympy 1.14.0,
+mpmath 1.3.0, numpy 2.4.0, snappy 3.3.2; pyenv-not-sage stated);
+the `review-actions` gate live in gates.py (8th gate; self-tested on the
+planned format; passes on the current tree with Review 20's block as the
+latest). The next review is the constitutional pilot: it must open by
+closing or carrying R20-1…R20-11. Rationale: five repo functions with
+contradictory optimal layouts ⇒ substrate/views separation; the review
+becomes a control loop (closed by the gate) instead of an audit; the
+object-principle transfer licensed at problem-shape level only.
