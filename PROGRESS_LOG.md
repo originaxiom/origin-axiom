@@ -5100,3 +5100,32 @@ contributing) pointing at the now-complete entry set (CLAIMS, LAW_MAP,
 RETRACTIONS, REPRODUCIBILITY, SEAL_LEDGER, WORKING_RULES, GOVERNANCE).
 Also this window: R20-11 closed (#1038, the seal ledger: 120 seals, zero
 silent tampering); the seat-pointer pattern gitignored.
+
+## 2026-07-16 — B646: THE CC2 WAVE-2 INTEGRATION (three packets, R20-10 first tranche)
+
+Three sealed packets received + a triage index; processed in the mandated
+order (ERRATUM first). Verification on this seat: 11/11 seals re-hashed
+exact; the erratum's decisive rungs RERUN (Z(29)=0, Z(31)=0, Z(37)=+1)
++ the Legendre retro-check against OUR banked ladder consistent on every
+rung; Q3's L3 300/300 rerun; R5's 20 locks rerun + ADOPTED
+(tests/test_cc2_r5_adopted.py); Q1's level-8 readouts spot-checked
+(Z₈=+1, clock 60 — 3/3 prediction-first); Q2's arithmetic verified (A₁
+mod 7 order 8/4; the PSL(2,7) 3-dim table) and the COLLISION CHECK with
+banked B640 resolved (no collision: letter-subgroup image vs block
+tensor factorization; their Fibonacci-core clock 10 = our ρ(RL) order
+10). BANKED: the corrected GENERIC-SILENCE LAW Z = (1−(κ|5))/2 (the
+silence is the quadratic character of disc(A₁) = 5); the UNIFORM JUMP
+LAW (300/300); the STAGE-SPLIT CLOCK LAW with the anomaly zone
+dissolved (Fibonacci core at κ=5, PSL(2,7) at κ=14); the splitting
+law's split rung; Z₇ = 2 (first ladder value ∉{0,1}; both sectors
+unit); the ladder → {+1,+1,+1,0,+1,+1,2} + the prediction bank
+Z₈..Z₁₃ = 1,1,2,1,2,0 (Z₈ confirmed). THE DISC(A₁)=5 TRIPLE SHADOW
+noticed as one structural note (the ear mod 5 + the Fibonacci core +
+the (κ|5) silence) — leading input for the calibration campaign's
+grammar table. cc2's N4 receipt: OUR B643/B644/B645 all independently
+verified (their engine, different code paths; our M3 adjudication
+corroborated 96/120–72/120); their two fair flags FIXED (B644/B645
+ARTIFACT_HASHES + live hash locks; B645's no-prereg stated). Four new
+LAW_MAP rows; L96–L98 opened; V2b killed (their lead); locks 3/3 +
+adopted 20; archive under cc2_packets/ with ORIGINALS_MANIFEST (two
+disclosed privacy patches).

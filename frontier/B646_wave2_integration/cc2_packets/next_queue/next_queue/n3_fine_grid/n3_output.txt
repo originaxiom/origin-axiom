@@ -1,0 +1,83 @@
+====================================================================================================
+N3 -- ONE ORGAN OR TWO (fine-grid box_dim(kappa) peak-shape resolution)
+PREREG_N3.md sha256 = 09246f08284a0bcf08ac32b3c0cbcc68b9257f8c08ff3fba7ce3e7153ecf7686
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+ANCHOR GATE (HARD STOP before any target grid point is computed)
+----------------------------------------------------------------------------------------------------
+word13 length = 610   word14 length = 987
+(1) kappa=1.0 depth13: fresh=0.9806266343819846 banked=0.9806266343819846 diff=0.000e+00 pass(<1e-9)=True  [2.30s]
+(2) kappa=1.0 depth14: fresh=1.0747651555463955 banked=1.0747651555463955 diff=0.000e+00 pass(<1e-9)=True  [5.13s]
+(3) kappa=1.1 depth14: fresh=1.0804255006420715 banked=1.0804255006420715 diff=0.000e+00 pass(<1e-9)=True  [5.55s]
+(4) box_dim_offset(zero-offset) self-consistency: mine=1.0747651555463955 L.box_dim=1.0747651555463955 diff=0.000e+00 pass(<1e-12)=True
+
+ALL GATES PASS: True
+GATE PASSED -- proceeding to the sealed fine grid.
+
+----------------------------------------------------------------------------------------------------
+FINE GRID: depth-14 box_dim, kappa in {0.80,...,1.55} step 0.05 (16 points), 10 seeded jitter replicates per point
+----------------------------------------------------------------------------------------------------
+FINE_GRID = [0.8, 0.85, 0.9, 0.95, 1.0, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.55]
+  i= 0 kappa=0.80  mu=1.0954  box_dim=1.069059  jitter(mean/std over 10)=1.031470/0.011670  [t_spectrum=5.14s]  (elapsed=23s)
+  i= 1 kappa=0.85  mu=1.0724  box_dim=1.064952  jitter(mean/std over 10)=1.031599/0.014505  [t_spectrum=5.29s]  (elapsed=29s)
+  i= 2 kappa=0.90  mu=1.0488  box_dim=1.072667  jitter(mean/std over 10)=1.033767/0.010894  [t_spectrum=5.20s]  (elapsed=34s)
+  i= 3 kappa=0.95  mu=1.0247  box_dim=1.078964  jitter(mean/std over 10)=1.037839/0.014083  [t_spectrum=4.91s]  (elapsed=39s)
+  i= 4 kappa=1.00  mu=1.0000  box_dim=1.074765  jitter(mean/std over 10)=1.025056/0.007021  [t_spectrum=4.99s]  (elapsed=44s)
+  i= 5 kappa=1.05  mu=0.9747  box_dim=1.067865  jitter(mean/std over 10)=1.028215/0.013709  [t_spectrum=5.24s]  (elapsed=49s)
+  i= 6 kappa=1.10  mu=0.9487  box_dim=1.080426  jitter(mean/std over 10)=1.034061/0.013750  [t_spectrum=5.49s]  (elapsed=55s)
+  i= 7 kappa=1.15  mu=0.9220  box_dim=1.072813  jitter(mean/std over 10)=1.036075/0.017777  [t_spectrum=5.32s]  (elapsed=60s)
+  i= 8 kappa=1.20  mu=0.8944  box_dim=1.069359  jitter(mean/std over 10)=1.039207/0.012661  [t_spectrum=5.79s]  (elapsed=66s)
+  i= 9 kappa=1.25  mu=0.8660  box_dim=1.073742  jitter(mean/std over 10)=1.032488/0.016505  [t_spectrum=4.76s]  (elapsed=70s)
+  i=10 kappa=1.30  mu=0.8367  box_dim=1.064406  jitter(mean/std over 10)=1.034394/0.020934  [t_spectrum=4.97s]  (elapsed=75s)
+  i=11 kappa=1.35  mu=0.8062  box_dim=1.062220  jitter(mean/std over 10)=1.020535/0.015472  [t_spectrum=4.94s]  (elapsed=80s)
+  i=12 kappa=1.40  mu=0.7746  box_dim=1.074929  jitter(mean/std over 10)=1.022025/0.017729  [t_spectrum=5.10s]  (elapsed=86s)
+  i=13 kappa=1.45  mu=0.7416  box_dim=1.075711  jitter(mean/std over 10)=1.019974/0.011110  [t_spectrum=5.56s]  (elapsed=91s)
+  i=14 kappa=1.50  mu=0.7071  box_dim=1.071708  jitter(mean/std over 10)=1.025534/0.012682  [t_spectrum=5.40s]  (elapsed=97s)
+  i=15 kappa=1.55  mu=0.6708  box_dim=1.065758  jitter(mean/std over 10)=1.013677/0.013180  [t_spectrum=5.61s]  (elapsed=102s)
+
+fine grid complete: 16 points, total elapsed 102.2s
+
+per-point jitter std (10 reps each): [np.float64(0.01167), np.float64(0.01451), np.float64(0.01089), np.float64(0.01408), np.float64(0.00702), np.float64(0.01371), np.float64(0.01375), np.float64(0.01778), np.float64(0.01266), np.float64(0.01651), np.float64(0.02093), np.float64(0.01547), np.float64(0.01773), np.float64(0.01111), np.float64(0.01268), np.float64(0.01318)]
+POOLED JITTER SIGMA (depth14) = sqrt(mean(s_i^2)) = 0.014337
+2 * pooled_sigma = 0.028673
+
+----------------------------------------------------------------------------------------------------
+DECISION CRITERION
+----------------------------------------------------------------------------------------------------
+raw local-maxima indices (grid-sense, see PREREG def): [0, 3, 6, 9, 13]  (kappas: [0.8, 0.95, 1.1, 1.25, 1.45])
+peak regions (contiguous local-max runs): [[0], [3], [6], [9], [13]]
+region representative indices: [0, 3, 6, 9, 13]  (kappas: [0.8, 0.95, 1.1, 1.25, 1.45], values: [1.069059, 1.078964, 1.080426, 1.073742, 1.075711])
+
+5 peak regions found -- testing all index-gap>=2 pairs against 2*pooled_sigma=0.028673:
+  pair (kappa=0.8=1.069059, kappa=0.95=1.078964): index-gap=3  valley=kappa=0.85(1.064952)  marginA=0.004107  marginB=0.014013  qualifies(TWO-ORGANS)=False
+  pair (kappa=0.8=1.069059, kappa=1.1=1.080426): index-gap=6  valley=kappa=0.85(1.064952)  marginA=0.004107  marginB=0.015474  qualifies(TWO-ORGANS)=False
+  pair (kappa=0.8=1.069059, kappa=1.25=1.073742): index-gap=9  valley=kappa=0.85(1.064952)  marginA=0.004107  marginB=0.008790  qualifies(TWO-ORGANS)=False
+  pair (kappa=0.8=1.069059, kappa=1.45=1.075711): index-gap=13  valley=kappa=1.35(1.062220)  marginA=0.006839  marginB=0.013492  qualifies(TWO-ORGANS)=False
+  pair (kappa=0.95=1.078964, kappa=1.1=1.080426): index-gap=3  valley=kappa=1.05(1.067865)  marginA=0.011099  marginB=0.012560  qualifies(TWO-ORGANS)=False
+  pair (kappa=0.95=1.078964, kappa=1.25=1.073742): index-gap=6  valley=kappa=1.05(1.067865)  marginA=0.011099  marginB=0.005877  qualifies(TWO-ORGANS)=False
+  pair (kappa=0.95=1.078964, kappa=1.45=1.075711): index-gap=10  valley=kappa=1.35(1.062220)  marginA=0.016745  marginB=0.013492  qualifies(TWO-ORGANS)=False
+  pair (kappa=1.1=1.080426, kappa=1.25=1.073742): index-gap=3  valley=kappa=1.2(1.069359)  marginA=0.011066  marginB=0.004382  qualifies(TWO-ORGANS)=False
+  pair (kappa=1.1=1.080426, kappa=1.45=1.075711): index-gap=7  valley=kappa=1.35(1.062220)  marginA=0.018206  marginB=0.013492  qualifies(TWO-ORGANS)=False
+  pair (kappa=1.25=1.073742, kappa=1.45=1.075711): index-gap=4  valley=kappa=1.35(1.062220)  marginA=0.011522  marginB=0.013492  qualifies(TWO-ORGANS)=False
+
+>>> DEPTH-14 VERDICT: UNRESOLVED
+(UNRESOLVED) transparency pair for depth-15 run: kappa=0.95 / kappa=1.1  valley=kappa=1.05
+
+total elapsed after depth-14 stage: 102.2s
+
+----------------------------------------------------------------------------------------------------
+DEPTH-15 CONFIRMATION
+----------------------------------------------------------------------------------------------------
+word15 length = 1597
+UNRESOLVED transparency confirmation set (2 globally-highest peak regions): kappa=0.95 / kappa=1.1  valley=kappa=1.05
+  peakA kappa=0.95: d15=1.149444  jitter_std=0.013841  [17.5s]
+  peakB kappa=1.1: d15=1.150585  jitter_std=0.015554  [17.1s]
+  valley kappa=1.05: d15=1.143822  jitter_std=0.010669  [16.6s]
+  [transparency only] sepA=0.005622  sepB=0.006763  (2*pooled_sigma_d14=0.028673) -- NOT used to set the verdict per PREREG (UNRESOLVED-at-depth14 cannot be upgraded by depth15)
+
+>>> FINAL VERDICT (depth15-adjudicated per PREREG's asymmetric rule): UNRESOLVED
+total elapsed: 153.3s (2.56 min)
+
+wrote /Users/dri/oa-seat-cc2/seat-work/next_queue/n3_fine_grid/n3_results.json
+wrote /Users/dri/oa-seat-cc2/seat-work/next_queue/n3_fine_grid/grid_table.txt

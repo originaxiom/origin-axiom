@@ -11,7 +11,8 @@ _FORBIDDEN = ("/Us" + "ers/", "/ho" + "me/")
 # audit/ and .tmpwork/ are gitignored scratch workspaces (never committed) -- out of scope for a guard
 # that, per its docstring, governs *committed* .py files; they hold one-off probes with absolute paths.
 _SKIP_DIRS = {".git", "__pycache__", ".venv", "venv", "node_modules", ".mypy_cache", ".pytest_cache",
-              "legacy", "site-packages", "phi_env", "dist-packages", "audit", ".tmpwork"}
+              "legacy", "site-packages", "phi_env", "dist-packages", "audit", ".tmpwork",
+              "cc2_packets"}  # archived cross-seat packet records (B646+): history, not live code
 
 
 def test_no_absolute_machine_paths_in_py():

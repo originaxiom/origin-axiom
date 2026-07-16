@@ -1,0 +1,58 @@
+
+=== p=61 ===
+  p=61: det(W1) = 1  [matches]
+  p=61: det(W2) = 1  [matches]
+  p=61: det(W1*W2) = 1  [matches]
+  p=61: det([W1,W2]) = 1  [matches]
+  p=61: det(Par) = -1  [matches]
+  p=61: det(Par*W1) = -1  [matches]
+  p=61: det(Par*W2) = -1  [matches]
+  p=61: det(Par*W1*W2) = -1  [matches]
+  p=61: det(D (twist)) = zeta3  [matches]
+  p=61: det(F (DFT) [other sqrt15 branch, i.e. -det(F)]) = zeta4^3=-i  [matches]
+  p=61: det(W_R) = zeta3^2  [matches]
+  any det in seen set hits a primitive zeta5 power? False  (expect False)
+
+=== p=421 ===
+  p=421: det(W1) = 1  [matches]
+  p=421: det(W2) = 1  [matches]
+  p=421: det(W1*W2) = 1  [matches]
+  p=421: det([W1,W2]) = 1  [matches]
+  p=421: det(Par) = -1  [matches]
+  p=421: det(Par*W1) = -1  [matches]
+  p=421: det(Par*W2) = -1  [matches]
+  p=421: det(Par*W1*W2) = -1  [matches]
+  p=421: det(D (twist)) = zeta3  [matches]
+  p=421: det(F (DFT) [other sqrt15 branch, i.e. -det(F)]) = zeta4^3=-i  [matches]
+  p=421: det(W_R) = zeta3^2  [matches]
+  any det in seen set hits a primitive zeta5 power? False  (expect False)
+
+=== p=541 ===
+  p=541: det(W1) = 1  [matches]
+  p=541: det(W2) = 1  [matches]
+  p=541: det(W1*W2) = 1  [matches]
+  p=541: det([W1,W2]) = 1  [matches]
+  p=541: det(Par) = -1  [matches]
+  p=541: det(Par*W1) = -1  [matches]
+  p=541: det(Par*W2) = -1  [matches]
+  p=541: det(Par*W1*W2) = -1  [matches]
+  p=541: det(D (twist)) = zeta3  [matches]
+  p=541: det(F (DFT) [other sqrt15 branch, i.e. -det(F)]) = zeta4^3=-i  [matches]
+  p=541: det(W_R) = zeta3^2  [matches]
+  any det in seen set hits a primitive zeta5 power? False  (expect False)
+
+=== p=1201 ===
+  p=1201: det(W1) = 1  [matches]
+  p=1201: det(W2) = 1  [matches]
+  p=1201: det(W1*W2) = 1  [matches]
+  p=1201: det([W1,W2]) = 1  [matches]
+  p=1201: det(Par) = -1  [matches]
+  p=1201: det(Par*W1) = -1  [matches]
+  p=1201: det(Par*W2) = -1  [matches]
+  p=1201: det(Par*W1*W2) = -1  [matches]
+  p=1201: det(D (twist)) = zeta3  [matches]
+  p=1201: det(F (DFT) [other sqrt15 branch, i.e. -det(F)]) = zeta4^3=-i  [matches]
+  p=1201: det(W_R) = zeta3^2  [matches]
+  any det in seen set hits a primitive zeta5 power? False  (expect False)
+
+DONE (cross-prime agreement expected across all four p in (61, 421, 541, 1201) )

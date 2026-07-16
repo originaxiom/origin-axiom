@@ -1107,7 +1107,7 @@ untouched, carried below.
 - [ ] R20-7: C4 the silver chord — blocked on the m136 exact E₆ holonomy build (source: B637 queue)
 - [ ] R20-8: the order-4 orientation-reversing families through the flip pipeline, if wanted (source: B643 residual)
 - [ ] R20-9: prior-art/novelty pass over the window's eight THEOREM/LAW candidates (NEEDS-SPECIALIST; gate for §5.1 promotion)
-- [ ] R20-10: cc2 wave packets + chat-2's L95 prereg — verify-on-receipt when they land
+- [ ] R20-10: cc2 wave packets + the web seat's L95 prereg — verify-on-receipt when they land (FIRST TRANCHE DONE 2026-07-16: three cc2 packets verified + integrated as B646 — 11/11 seals, deciders rerun, locks adopted; L95 still pending)
 - [x] R20-11: DONE (2026-07-16, #1038) — `docs/SEAL_LEDGER.md` generated (`scripts/seal_ledger.py`, regenerable): 120 sealed docs; 95 unrecorded-but-single-commit (pre-ritual arcs; content verifiably = banked content via git provenance); 8 amended-after-banking → 7 pure appends (the results-in-doc pattern, benign) + 1 designed slot-fill (B565's declared "pending" handoff rows, commits titled "slotted", trail-visible; today's rules would append). ZERO silent tampering. Gate decision: no new gate — the regenerable ledger + the template's §7 protocol-integrity item cover detection; forward rule (per-arc ARTIFACT_HASHES) already standing.
 
 *(The next review is the first under GOVERNANCE §15 — the constitutional

@@ -1,0 +1,12 @@
+# B644 artifact hashes (sha256) — added at B646 per the cc2 N4 receipt's
+# fair flag ("hashes prose-only, not test-locked"); the prereg hash below
+# was sealed FIRST (recorded in FINDINGS at banking); the rest recorded
+# post-hoc with that label. The lock re-computes the prereg hash live.
+
+## Sealed BEFORE the run
+b77e5bdf2d9957ab16931cff85d46fac0b5e26d72bc847ce29553beda329a784  PREREGISTRATION.md
+
+## Recorded post-hoc (labeled; b644_mckay.py's hash was printed in-run)
+4b7e48813d5deb580bb3afc8cd89824a0310e4846f1fb6b3066c621366826bac  b644_mckay.py
+704498213aae5cb83f1bd0aecc0c36380811dcd64c3af99ec2b1983d5c9f8c06  b644_character_check.py
+cf2effda49e9198bea0d5be1595766b39eeac0d0037b5132e6fcbb9ff0246f42  b644_output.txt

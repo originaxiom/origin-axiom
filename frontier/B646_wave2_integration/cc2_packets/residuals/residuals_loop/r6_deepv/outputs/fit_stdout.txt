@@ -1,0 +1,138 @@
+================================================================================================
+V = 4   (window picked on main N=1597; V6 rule: pooled exp R^2 >= 0.995)
+  window scan lo=  8: R^2=0.99999  rate=-0.22455
+  window scan lo= 12: R^2=0.99999  rate=-0.22447
+  window scan lo= 16: R^2=0.99999  rate=-0.22442
+  window scan lo= 20: R^2=0.99999  rate=-0.22439
+  window scan lo= 28: R^2=0.99999  rate=-0.22431
+  window scan lo= 40: R^2=0.99999  rate=-0.22414
+  window scan lo= 60: R^2=0.99999  rate=-0.22416
+  window scan lo= 80: R^2=0.99999  rate=-0.22416
+  CHOSEN WINDOW ell in [8,160]  (rule met: True)
+
+  model         N  R        a_C      +-        a_O      +-      Delta      +-       t         p    R2exp/pow C   R2exp/pow O  sl.ratio C/O plate
+  main        610 20   -0.22440 0.00022   -0.22372 0.00075   +0.00068 0.00077   +0.88  3.90e-01  1.0000/0.8866 0.9999/0.8852  0.987/0.981 C-O-
+  random      610 20   -0.17818 0.00255   -0.17275 0.00345   +0.00543 0.00335   +1.62  1.22e-01  1.0000/0.8861 0.9996/0.8900  0.990/0.933 C-O-
+  periodic    610  4   -0.24831 0.00000   -0.24831 0.00000   -0.00000 0.00000   -0.15  8.89e-01  1.0000/0.8854 1.0000/0.8854  1.000/1.000 C-O-
+  main       1597 20   -0.22455 0.00014   -0.22437 0.00056   +0.00018 0.00053   +0.34  7.40e-01  1.0000/0.8866 1.0000/0.8845  0.989/1.014 C-O-
+  random     1597 20   -0.17815 0.00124   -0.17403 0.00451   +0.00412 0.00497   +0.83  4.17e-01  1.0000/0.8852 0.9993/0.8900  0.993/1.028 C-O-
+  periodic   1597  4   -0.24831 0.00000   -0.24752 0.00079   +0.00079 0.00079   +1.00  3.90e-01  1.0000/0.8854 1.0000/0.8836  1.000/1.021 C-O-
+
+  DELTA WINDOW-SENSITIVITY (V=4; hi=160 fixed; sign-stability check):
+    main      N=  610: lo= 8:+0.0007  lo=12:+0.0007  lo=16:+0.0006  lo=20:+0.0005  lo=28:+0.0003  lo=40:-0.0001  lo=60:+0.0004  lo=80:+0.0000   sign-stable=False
+    random    N=  610: lo= 8:+0.0054  lo=12:+0.0055  lo=16:+0.0055  lo=20:+0.0059  lo=28:+0.0064  lo=40:+0.0066  lo=60:+0.0060  lo=80:+0.0085   sign-stable=True
+    periodic  N=  610: lo= 8:-0.0000  lo=12:-0.0000  lo=16:-0.0000  lo=20:-0.0000  lo=28:-0.0000  lo=40:-0.0000  lo=60:-0.0000  lo=80:-0.0000   sign-stable=True
+    main      N= 1597: lo= 8:+0.0002  lo=12:+0.0001  lo=16:-0.0000  lo=20:-0.0001  lo=28:-0.0002  lo=40:-0.0005  lo=60:-0.0005  lo=80:-0.0014   sign-stable=False
+    random    N= 1597: lo= 8:+0.0041  lo=12:+0.0041  lo=16:+0.0043  lo=20:+0.0042  lo=28:+0.0042  lo=40:+0.0056  lo=60:+0.0094  lo=80:+0.0107   sign-stable=True
+    periodic  N= 1597: lo= 8:+0.0008  lo=12:+0.0007  lo=16:+0.0006  lo=20:+0.0005  lo=28:+0.0003  lo=40:+0.0002  lo=60:+0.0001  lo=80:+0.0000   sign-stable=True
+
+  CONTROL COMPARISON (Welch t on per-realization Delta, V=4):
+    N=  610 main vs random   : Delta_main=+0.00068 Delta_ctrl=+0.00543  Welch t=-1.38 p=1.83e-01
+    N=  610 main vs periodic : Delta_main=+0.00068 Delta_ctrl=-0.00000  Welch t=+0.88 p=3.89e-01
+    N= 1597 main vs random   : Delta_main=+0.00018 Delta_ctrl=+0.00412  Welch t=-0.79 p=4.40e-01
+    N= 1597 main vs periodic : Delta_main=+0.00018 Delta_ctrl=+0.00079  Welch t=-0.64 p=5.44e-01
+
+  FREDENHAGEN-MARCU R(ell)=|open(2l)|/sqrt|closed(2l)| (pooled, V=4):
+    main      N=  610: R(4)=0.5052 R(42)=0.0001 R(80)=0.0000  trend slope=-2.33e-03 (R^2=0.293)
+    random    N=  610: R(4)=0.5098 R(42)=0.0008 R(80)=0.0000  trend slope=-2.82e-03 (R^2=0.371)
+    periodic  N=  610: R(4)=0.5127 R(42)=0.0000 R(80)=0.0000  trend slope=-2.31e-03 (R^2=0.283)
+    main      N= 1597: R(4)=0.4951 R(42)=0.0001 R(80)=0.0000  trend slope=-2.42e-03 (R^2=0.316)
+    random    N= 1597: R(4)=0.5548 R(42)=0.0005 R(80)=0.0000  trend slope=-3.09e-03 (R^2=0.370)
+    periodic  N= 1597: R(4)=0.3708 R(42)=0.0000 R(80)=0.0000  trend slope=-1.73e-03 (R^2=0.297)
+
+================================================================================================
+V = 8   (window picked on main N=1597; V6 rule: pooled exp R^2 >= 0.995)
+  window scan lo=  8: R^2=0.99986  rate=-0.08337
+  window scan lo= 12: R^2=0.99989  rate=-0.08323
+  window scan lo= 16: R^2=0.99991  rate=-0.08311
+  window scan lo= 20: R^2=0.99992  rate=-0.08301
+  window scan lo= 28: R^2=0.99993  rate=-0.08284
+  window scan lo= 40: R^2=0.99994  rate=-0.08262
+  window scan lo= 60: R^2=0.99990  rate=-0.08271
+  window scan lo= 80: R^2=0.99983  rate=-0.08282
+  CHOSEN WINDOW ell in [8,160]  (rule met: True)
+
+  model         N  R        a_C      +-        a_O      +-      Delta      +-       t         p    R2exp/pow C   R2exp/pow O  sl.ratio C/O plate
+  main        610 20   -0.08305 0.00049   -0.08287 0.00098   +0.00018 0.00118   +0.16  8.78e-01  0.9998/0.8935 0.9995/0.8913  0.918/0.928 C-O-
+  random      610 20   -0.06962 0.00083   -0.06960 0.00108   +0.00002 0.00110   +0.02  9.83e-01  1.0000/0.8857 0.9990/0.8823  0.999/1.027 C-O-
+  periodic    610  4   -0.09754 0.00000   -0.09754 0.00000   +0.00000 0.00000   +1.00  3.91e-01  1.0000/0.8854 1.0000/0.8854  1.000/1.000 C-O-
+  main       1597 20   -0.08337 0.00029   -0.08208 0.00086   +0.00130 0.00087   +1.49  1.52e-01  0.9999/0.8916 0.9996/0.8865  0.934/0.958 C-O-
+  random     1597 20   -0.06975 0.00045   -0.06893 0.00140   +0.00082 0.00149   +0.55  5.90e-01  1.0000/0.8857 0.9993/0.8833  0.995/1.068 C-O-
+  periodic   1597  4   -0.09754 0.00000   -0.09736 0.00018   +0.00018 0.00018   +1.00  3.91e-01  1.0000/0.8854 1.0000/0.8837  1.000/1.024 C-O-
+
+  DELTA WINDOW-SENSITIVITY (V=8; hi=160 fixed; sign-stability check):
+    main      N=  610: lo= 8:+0.0002  lo=12:+0.0001  lo=16:+0.0000  lo=20:-0.0000  lo=28:+0.0001  lo=40:+0.0001  lo=60:+0.0001  lo=80:-0.0004   sign-stable=False
+    random    N=  610: lo= 8:+0.0000  lo=12:-0.0000  lo=16:-0.0002  lo=20:-0.0002  lo=28:-0.0000  lo=40:-0.0001  lo=60:-0.0005  lo=80:+0.0004   sign-stable=False
+    periodic  N=  610: lo= 8:+0.0000  lo=12:+0.0000  lo=16:+0.0000  lo=20:+0.0000  lo=28:+0.0000  lo=40:-0.0000  lo=60:+0.0000  lo=80:+0.0000   sign-stable=False
+    main      N= 1597: lo= 8:+0.0013  lo=12:+0.0012  lo=16:+0.0012  lo=20:+0.0012  lo=28:+0.0012  lo=40:+0.0007  lo=60:+0.0000  lo=80:-0.0010   sign-stable=False
+    random    N= 1597: lo= 8:+0.0008  lo=12:+0.0008  lo=16:+0.0008  lo=20:+0.0006  lo=28:+0.0006  lo=40:+0.0006  lo=60:+0.0010  lo=80:+0.0018   sign-stable=True
+    periodic  N= 1597: lo= 8:+0.0002  lo=12:+0.0001  lo=16:+0.0001  lo=20:+0.0000  lo=28:+0.0000  lo=40:+0.0000  lo=60:+0.0000  lo=80:+0.0000   sign-stable=True
+
+  CONTROL COMPARISON (Welch t on per-realization Delta, V=8):
+    N=  610 main vs random   : Delta_main=+0.00018 Delta_ctrl=+0.00002  Welch t=+0.10 p=9.22e-01
+    N=  610 main vs periodic : Delta_main=+0.00018 Delta_ctrl=+0.00000  Welch t=+0.16 p=8.78e-01
+    N= 1597 main vs random   : Delta_main=+0.00130 Delta_ctrl=+0.00082  Welch t=+0.28 p=7.84e-01
+    N= 1597 main vs periodic : Delta_main=+0.00130 Delta_ctrl=+0.00018  Welch t=+1.26 p=2.23e-01
+
+  FREDENHAGEN-MARCU R(ell)=|open(2l)|/sqrt|closed(2l)| (pooled, V=8):
+    main      N=  610: R(4)=0.8159 R(42)=0.0366 R(80)=0.0016  trend slope=-7.39e-03 (R^2=0.637)
+    random    N=  610: R(4)=0.7285 R(42)=0.0616 R(80)=0.0041  trend slope=-7.28e-03 (R^2=0.716)
+    periodic  N=  610: R(4)=0.7453 R(42)=0.0183 R(80)=0.0004  trend slope=-6.12e-03 (R^2=0.584)
+    main      N= 1597: R(4)=0.7797 R(42)=0.0378 R(80)=0.0016  trend slope=-7.29e-03 (R^2=0.644)
+    random    N= 1597: R(4)=0.7812 R(42)=0.0531 R(80)=0.0051  trend slope=-7.62e-03 (R^2=0.727)
+    periodic  N= 1597: R(4)=0.6769 R(42)=0.0183 R(80)=0.0005  trend slope=-5.86e-03 (R^2=0.603)
+
+================================================================================================
+V = 16   (window picked on main N=1597; V6 rule: pooled exp R^2 >= 0.995)
+  window scan lo=  8: R^2=0.99987  rate=-0.02356
+  window scan lo= 12: R^2=0.99988  rate=-0.02353
+  window scan lo= 16: R^2=0.99989  rate=-0.02351
+  window scan lo= 20: R^2=0.99988  rate=-0.02351
+  window scan lo= 28: R^2=0.99986  rate=-0.02351
+  window scan lo= 40: R^2=0.99981  rate=-0.02351
+  window scan lo= 60: R^2=0.99971  rate=-0.02356
+  window scan lo= 80: R^2=0.99963  rate=-0.02341
+  CHOSEN WINDOW ell in [8,160]  (rule met: True)
+
+  model         N  R        a_C      +-        a_O      +-      Delta      +-       t         p    R2exp/pow C   R2exp/pow O  sl.ratio C/O plate
+  main        610 20   -0.02199 0.00034   -0.02180 0.00114   +0.00020 0.00107   +0.19  8.55e-01  0.9984/0.9065 0.9897/0.9134  0.797/0.773 C-O-
+  random      610 20   -0.01926 0.00021   -0.01918 0.00042   +0.00008 0.00042   +0.18  8.60e-01  0.9996/0.8844 0.9923/0.8763  1.013/1.025 C-O-
+  periodic    610  4   -0.02283 0.00000   -0.02283 0.00000   +0.00000 0.00000   +1.00  3.91e-01  1.0000/0.8854 1.0000/0.8854  1.000/1.000 C-O-
+  main       1597 20   -0.02356 0.00028   -0.02262 0.00122   +0.00094 0.00135   +0.70  4.94e-01  0.9999/0.8880 0.9952/0.8644  0.962/1.024 C-O-
+  random     1597 20   -0.01918 0.00012   -0.01914 0.00038   +0.00004 0.00043   +0.09  9.33e-01  0.9997/0.8867 0.9917/0.8643  0.972/1.211 C-O-
+  periodic   1597  4   -0.02283 0.00000   -0.02274 0.00009   +0.00009 0.00009   +1.00  3.91e-01  1.0000/0.8854 0.9999/0.8809  1.000/1.065 C-O-
+
+  DELTA WINDOW-SENSITIVITY (V=16; hi=160 fixed; sign-stability check):
+    main      N=  610: lo= 8:+0.0002  lo=12:+0.0002  lo=16:+0.0003  lo=20:+0.0003  lo=28:+0.0005  lo=40:+0.0009  lo=60:+0.0013  lo=80:+0.0001   sign-stable=True
+    random    N=  610: lo= 8:+0.0001  lo=12:+0.0001  lo=16:-0.0000  lo=20:-0.0000  lo=28:+0.0001  lo=40:+0.0001  lo=60:-0.0001  lo=80:+0.0002   sign-stable=False
+    periodic  N=  610: lo= 8:+0.0000  lo=12:+0.0000  lo=16:+0.0000  lo=20:+0.0000  lo=28:-0.0000  lo=40:-0.0000  lo=60:-0.0000  lo=80:-0.0000   sign-stable=False
+    main      N= 1597: lo= 8:+0.0009  lo=12:+0.0009  lo=16:+0.0009  lo=20:+0.0008  lo=28:+0.0007  lo=40:+0.0002  lo=60:-0.0006  lo=80:-0.0014   sign-stable=False
+    random    N= 1597: lo= 8:+0.0000  lo=12:-0.0000  lo=16:-0.0001  lo=20:-0.0002  lo=28:-0.0003  lo=40:-0.0004  lo=60:-0.0004  lo=80:+0.0001   sign-stable=False
+    periodic  N= 1597: lo= 8:+0.0001  lo=12:+0.0000  lo=16:+0.0000  lo=20:+0.0000  lo=28:+0.0000  lo=40:+0.0000  lo=60:+0.0000  lo=80:+0.0000   sign-stable=True
+
+  CONTROL COMPARISON (Welch t on per-realization Delta, V=16):
+    N=  610 main vs random   : Delta_main=+0.00020 Delta_ctrl=+0.00008  Welch t=+0.11 p=9.16e-01
+    N=  610 main vs periodic : Delta_main=+0.00020 Delta_ctrl=+0.00000  Welch t=+0.19 p=8.55e-01
+    N= 1597 main vs random   : Delta_main=+0.00094 Delta_ctrl=+0.00004  Welch t=+0.64 p=5.31e-01
+    N= 1597 main vs periodic : Delta_main=+0.00094 Delta_ctrl=+0.00009  Welch t=+0.63 p=5.39e-01
+
+  FREDENHAGEN-MARCU R(ell)=|open(2l)|/sqrt|closed(2l)| (pooled, V=16):
+    main      N=  610: R(4)=0.9688 R(42)=0.4024 R(80)=0.1790  trend slope=-9.72e-03 (R^2=0.888)
+    random    N=  610: R(4)=0.9389 R(42)=0.5087 R(80)=0.2193  trend slope=-9.24e-03 (R^2=0.941)
+    periodic  N=  610: R(4)=0.9242 R(42)=0.3882 R(80)=0.1630  trend slope=-9.58e-03 (R^2=0.951)
+    main      N= 1597: R(4)=0.8955 R(42)=0.4393 R(80)=0.1646  trend slope=-9.62e-03 (R^2=0.965)
+    random    N= 1597: R(4)=0.9338 R(42)=0.4627 R(80)=0.2456  trend slope=-8.66e-03 (R^2=0.936)
+    periodic  N= 1597: R(4)=0.8687 R(42)=0.3899 R(80)=0.1637  trend slope=-9.41e-03 (R^2=0.959)
+
+================================================================================================
+PER-(V,N) VERDICT TABLE (locked criteria):
+    V     N |Delta|/SEM sign-stable  p_vs_rand   p_vs_per well-posed LOC-DIFF  REGIME
+    4   610        0.88       False   1.83e-01   3.89e-01       True    False   False
+    4  1597        0.34       False   4.40e-01   5.44e-01       True    False   False
+    8   610        0.16       False   9.22e-01   8.78e-01       True    False   False
+    8  1597        1.49       False   7.84e-01   2.23e-01       True    False   False
+   16   610        0.19        True   9.16e-01   8.55e-01       True    False   False
+   16  1597        0.70       False   5.31e-01   5.39e-01       True    False   False
+
+OVERALL LOCKED VERDICT: NULL-EXTENDS
+wrote outputs/fit_summary.json

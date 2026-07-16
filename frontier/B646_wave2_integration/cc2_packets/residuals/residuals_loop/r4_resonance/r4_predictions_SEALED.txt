@@ -1,0 +1,83 @@
+R4 -- SEALED PREREGISTERED PREDICTIONS
+Written BEFORE any density-normalized nesting cost is computed for these substitutions.
+This file contains ONLY: construction, primitivity, Perron root, rotating-pair length
+sum, and the two predicted cost orderings. No cost values appear anywhere below.
+
+Timestamp (local, at write time): 2026-07-16 08:26:53
+
+--- The 8 fresh substitutions (alphabet a,b,A,B; coins Cga: a,A rotate, b,B identity) ---
+R4_1: params={'ia': 1, 'ja': 0, 'iA': 1, 'jA': 1, 'bimg': 'A', 'Bimg': 'a'}
+    sub = {'a': 'ab', 'A': 'AaB', 'b': 'A', 'B': 'a'}
+    primitive = True  (k=4)
+R4_2: params={'ia': 1, 'ja': 0, 'iA': 0, 'jA': 1, 'bimg': 'ABB', 'Bimg': 'aB'}
+    sub = {'a': 'ab', 'A': 'aB', 'b': 'ABB', 'B': 'aB'}
+    primitive = True  (k=4)
+R4_3: params={'ia': 0, 'ja': 1, 'iA': 0, 'jA': 1, 'bimg': 'AbB', 'Bimg': 'aaB'}
+    sub = {'a': 'Ab', 'A': 'aB', 'b': 'AbB', 'B': 'aaB'}
+    primitive = True  (k=2)
+R4_4: params={'ia': 2, 'ja': 3, 'iA': 1, 'jA': 0, 'bimg': 'AAB', 'Bimg': 'a'}
+    sub = {'a': 'aaAAAb', 'A': 'AB', 'b': 'AAB', 'B': 'a'}
+    primitive = True  (k=3)
+R4_5: params={'ia': 2, 'ja': 2, 'iA': 2, 'jA': 0, 'bimg': 'AbB', 'Bimg': 'aB'}
+    sub = {'a': 'aaAAb', 'A': 'AAB', 'b': 'AbB', 'B': 'aB'}
+    primitive = True  (k=3)
+R4_6: params={'ia': 3, 'ja': 0, 'iA': 2, 'jA': 1, 'bimg': 'ABB', 'Bimg': 'ab'}
+    sub = {'a': 'aaab', 'A': 'AAaB', 'b': 'ABB', 'B': 'ab'}
+    primitive = True  (k=2)
+R4_7: params={'ia': 3, 'ja': 1, 'iA': 0, 'jA': 1, 'bimg': 'AAB', 'Bimg': 'aaB'}
+    sub = {'a': 'aaaAb', 'A': 'aB', 'b': 'AAB', 'B': 'aaB'}
+    primitive = True  (k=3)
+R4_8: params={'ia': 4, 'ja': 0, 'iA': 0, 'jA': 1, 'bimg': 'AbB', 'Bimg': 'abb'}
+    sub = {'a': 'aaaab', 'A': 'aB', 'b': 'AbB', 'B': 'abb'}
+    primitive = True  (k=3)
+
+--- Distinctness from GOLD/GOLDMIRROR/SYMMETRIC/UNCOUPLED/ASSIGN2b/V2-randoms ---
+All distinct (pairwise dict equality checked): True
+    GOLD       = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}
+    GOLDMIRROR = {'a': 'aAB', 'b': 'abAAB', 'A': 'aA', 'B': 'abAB'}
+    SYMMETRIC  = {'a': 'abAB', 'b': 'aA', 'A': 'abAB', 'B': 'aA'}
+    UNCOUPLED  = {'a': 'ab', 'b': 'a', 'A': 'AB', 'B': 'A'}
+    ASSIGN2b   = {'a': 'abAB', 'A': 'aA', 'b': 'abAAB', 'B': 'aAB'}
+    RAND1      = {'a': 'aBaBA', 'b': 'BAb', 'A': 'Babb', 'B': 'bb'}
+    RAND2      = {'a': 'baAaB', 'b': 'Abb', 'A': 'baAA', 'B': 'ba'}
+    RAND3      = {'a': 'aAaAB', 'b': 'AbB', 'A': 'Abba', 'B': 'Ba'}
+
+--- Perron root and rotating-pair image-length sum (EXACT) ---
+    R4_1: Perron=1.897179   rotating_sum=5
+    R4_2: Perron=2.174559   rotating_sum=4
+    R4_3: Perron=2.485584   rotating_sum=4
+    R4_4: Perron=2.835961   rotating_sum=8
+    R4_5: Perron=3.174559   rotating_sum=8
+    R4_6: Perron=3.514137   rotating_sum=8
+    R4_7: Perron=3.852708   rotating_sum=7
+    R4_8: Perron=4.203612   rotating_sum=7
+    (diagnostic) within-set Spearman(Perron,rotating_sum) = 0.5189 (p=0.1876)
+
+--- Predicted direction (inherited from banked V2b sign, NOT re-derived here) ---
+V2b banked (n=6, post-hoc): rho(rotating_sum,cost)=+0.9276 p=0.0077; rho(Perron,cost)=+0.8857 p=0.0188.
+Direction adopted: LARGER predictor value -> predicted LARGER (worse) normalized nesting cost.
+
+--- PREDICTED COST ORDER #1 (from Perron root, ascending = best/lowest cost first) ---
+    R4_1  <  R4_2  <  R4_3  <  R4_4  <  R4_5  <  R4_6  <  R4_7  <  R4_8
+
+--- PREDICTED COST ORDER #2 (from rotating-pair length sum, ascending = best/lowest cost first) ---
+    R4_2  <  R4_3  <  R4_1  <  R4_7  <  R4_8  <  R4_4  <  R4_5  <  R4_6
+
+The two predicted orders identical? False
+
+--- SEALED PROMOTION THRESHOLD (decided now, applied later without modification) ---
+For each predictor independently: PROMOTE to registered law-candidate iff
+    |Spearman rho (predictor, measured normalized cost across these 8 points)| >= 0.8
+    AND p < 0.05
+Otherwise: that predictor's V2b lead DIES (banked kill). Both rho's reported regardless
+of outcome; any sign or significance disagreement between the two predictors will be
+stated plainly.
+
+--- Cost computation plan (to be executed AFTER this file is written and hashed) ---
+Matched level pair per substitution: consecutive levels (lo,hi) whose hi word length is
+nearest (log-ratio) to 243, via lib.best_matched_consecutive_level -- same convention as
+GOLD(3,4)'s own hi length in V2/V2b. Null: uniform-phase, 500 trials (lib.null_stats_uniform).
+Normalized cost = raw_cost / mean(null). No Haar null this time (not part of this cell's
+sealed design, unlike V2/V2b).
+
+NO COST VALUE OF ANY KIND APPEARS ABOVE THIS LINE. End of sealed predictions.

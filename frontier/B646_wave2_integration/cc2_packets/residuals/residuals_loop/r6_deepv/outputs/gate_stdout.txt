@@ -1,0 +1,10 @@
+==============================================================================
+R6 GATE: rerun of V6 calibration check -- V=0 bulk ln-variance slope vs 1/pi^2
+Purpose: confirm lib_chain / lib_observables / lib_fit import cleanly and
+reproduce the banked V6 analytic result before trusting the deep-V sweep.
+==============================================================================
+[GATE] N=4181 npart=2090  bulk Var(Q_A)=a*ln(ell)+b fit:
+       a=0.101049  target=1/pi^2=0.101321  rel_err=0.269%  R^2=0.999997  tol=5%
+GATE PASS = True
+==============================================================================
+wrote outputs/gate.json

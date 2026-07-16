@@ -1,0 +1,30 @@
+[cc2-independent] executing b637_threeform.py (shared 27-dim local system build -- given input, not the claim under test)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   97.1s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  121.3s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  121.4s] G2a PASS: principal sl2 relations exact
+[  125.8s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  127.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 127.7s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[cc2-independent] shared build done.
+
+[cc2-independent] off-diagonal nontrivial rows: 172 (their receipt: 172)
+
+[cc2-independent-SYMPY] matrix shape (172, 3); rank = 2 (expect 2, i.e. nullity 1 of 3 unknowns)
+[cc2-independent-SYMPY] nullspace dimension = 1 (expect 1)
+[cc2-independent-SYMPY] null vector (unnormalized) = [0, 0, 1]
+[cc2-independent-SYMPY] nonzero components at index(es): [2] (expect only index 2 -- the Sym0 block -- i.e. d=(0,0,*))
+
+[cc2-independent-NUMPY] singular values = [1.86060643e+17 4.40634185e+06 0.00000000e+00]
+[cc2-independent-NUMPY] numerical rank (SVD, tol 1e-8*sigma_max) = 1 (expect 2)
+[cc2-independent-NUMPY] null vector(s) from SVD: [array([-0.+0.j, -1.+0.j, -0.+0.j]), array([0.+0.j, 0.+0.j, 1.+0.j])]
+[cc2-independent-NUMPY] |components| = [0. 1. 0.] (expect ~0, ~0, nonzero -- d=(0,0,*))
+
+[cc2-independent] CONCLUSION: rank=2/nullity=1 CONFIRMED (sympy); d=(0,0,nonzero) singular solution CONFIRMED: True
+
+B643 INDEPENDENT RANK/NULLSPACE CHECK DONE

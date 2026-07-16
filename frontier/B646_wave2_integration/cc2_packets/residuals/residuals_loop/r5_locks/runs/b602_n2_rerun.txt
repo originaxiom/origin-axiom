@@ -1,0 +1,7 @@
+|r_cl| (W-norm) = (N8 tau4)/(N4 tau8) = 1455/2194752821534 = {3: 1, 5: 1, 97: 1} / {2: 1, 7: 1, 13: 2, 31: 1, 607: 1, 49297: 1}
+                approx 6.629448e-10
+X2 [W x identity-D]: |r_cl| = 1? False   residual factor r/target approx 6.629448e-10
+X2 [W x D]: |r_cl| = 1/2 + sqrt(5)/2? False   residual factor r/target approx 4.097224e-10
+X2 [J x identity-D]: INVALID-DEGENERATE (g = 0, per the seal)
+X2 [J x D]:          INVALID-DEGENERATE (g = 0, per the seal)
+N2 DONE
