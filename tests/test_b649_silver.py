@@ -152,3 +152,27 @@ def test_stage3a_dimensions_banked():
     assert "h0 = 1; h1 = 3" in out
     fnd = open(os.path.join(B649, "FINDINGS.md")).read()
     assert "OBJECT-INDEPENDENT" in fnd
+
+
+def test_stage3bi_sigma_matrix():
+    """The silver sigma*-matrix: C conj(C) = I exactly and s-free (pure
+    fractions from the banked JSON)."""
+    import json
+    rows = json.load(open(os.path.join(B649, "sigma_matrix_L.json")))
+    C = [[L([Fr(x) for x in ent[:4]], [Fr(x) for x in ent[4:]])
+          for ent in row] for row in rows]
+    one = L([Fr(1), Fr(0), Fr(0), Fr(0)], None)
+    for i in range(5):
+        for j in range(5):
+            acc = L()
+            for k in range(5):
+                ck = C[k][j]
+                acc = acc + C[i][k] * L(ck.re[:], [-x for x in ck.im])
+            tgt = one if i == j else L()
+            assert (acc - tgt).is_zero(), (i, j)
+    for row in C:
+        for x in row:
+            assert all(x.re[k] == 0 and x.im[k] == 0 for k in (1, 2, 3))
+    out = open(os.path.join(B649, "b649_stage3b_swap_output.txt")).read()
+    assert "c^2 = 1: True" in out
+    assert "cocycle: [True, True, True, True, True]" in out

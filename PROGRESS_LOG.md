@@ -5234,3 +5234,18 @@ the principal-sl2 block structure). h1 = 5 >= 3 => stage 3b opens (the
 silver Y-tensor: certificates over L; the core-law SHAPE, cross-ratio,
 swap structure at form level). Campaign SB2's first form-level
 reproduction row. Locks 3/3.
+
+## 2026-07-16 — B649 stage 3b-i BANKED: THE SILVER SWAP REPRODUCES; the invariant sharpened (track S wave 5)
+
+G1-G3 exact: J^2 = +1 on the silver (not assumed); sigma* maps all 5
+classes to cocycles; sigma*^2 = id — the real structure on H1(D;27) is
+OBJECT-INDEPENDENT (two objects). G4 (run 2 after a frame-mangled
+extraction, caught by its own |d|=1 constraint): C conj(C) = I exactly;
+the matrix is lower-triangular, diagonal (d0, d1, 1, -1, 1), and
+S-FREE: DEFINED OVER Q(i) — the silver's imaginary quadratic subfield,
+as the fig-8's was over Q(sqrt-3). THE SHARPENED INVARIANT (applies to
+B638's phrasing too, dated precision note in LAW_MAP): Hilbert 90 makes
+norm-1 diagonals gauge-variant; the invariants are the real structure +
+the field of definition (K020 at form level: structure forced,
+imaginary quadratic field object-chosen). SB2 scorecard: dimensions ok,
+swap ok; remaining = the Y-tensor (3b-ii). Locks 4/4.

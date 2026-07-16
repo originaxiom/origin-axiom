@@ -42,10 +42,10 @@ audit: `docs/AUDIT_2026-07-05.md`.
   one permitted revision — K1 did not fire; wave 2 = the functorial map);
   M = mechanisms (WAVE 1 BANKED, B647 cell 2: THE ANOMALY CHARACTERIZATION
   Y = ½·conj(chain anomaly); cell 3 = the certificate's H₂ content);
-  S = the silver control (stage 3a BANKED: THE 3/5/1 DIMENSION GRAMMAR
-  REPRODUCES — solo 1/3, double 1/5, exactly the fig-8 pattern, no
-  prediction sealed; stage 3b = the silver Y-tensor, the last GATE-B
-  input); L = cc2's ladder; W = L95 on arrival.
+  S = the silver control (3b-i BANKED: the swap real structure
+  REPRODUCES — J² = +1, C·conj(C) = I, matrix over ℚ(i); invariant
+  sharpened via Hilbert 90; remaining §B2 input = the Y-tensor, 3b-ii);
+  L = cc2's ladder; W = L95 on arrival.
   CONTINUOUS MODE (owner, 2026-07-16): waves proceed without per-wave
   approval until the campaign closes or a kill fires.
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**

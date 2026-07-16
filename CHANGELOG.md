@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B649 stage 3b-i: the silver swap reproduces; the invariant sharpened (track S wave 5)
+
+### Added
+- J² = +1, σ*² = id, C·conj(C) = I — all exact on the silver; the σ*-matrix
+  is DEFINED OVER ℚ(i) (the object's imaginary quadratic subfield; fig-8's
+  was ℚ(√−3)). Precision note (Hilbert 90): unit diagonals are gauge-variant;
+  the invariant = real structure + field of definition — B638's row updated,
+  theorem content untouched. Locks 4/4.
+
 ## 2026-07-16 — B649 stage 3a: the 3/5/1 dimension grammar reproduces (track S wave 4)
 
 ### Added
