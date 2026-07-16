@@ -1,0 +1,4 @@
+solution space over R: dim = 6; free = [a_134, a_234, b_123, b_124, b_134, b_234]
+Y[023] - 24 z6 Y[123] on the constrained space: sqrt(3)*I*(10052937216000*a_134 - 12337920*b_123 - 11176704000*b_124 + 30427052544000*b_134 - b_234)/534240
+Y[034] - 24 z6 Y[134] on the constrained space: -12*a_134 - 4*sqrt(3)*I*a_134 + 36*b_134 + 12*sqrt(3)*I*b_134
+=> not forced; residual expression above

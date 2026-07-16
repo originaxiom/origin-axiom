@@ -5129,3 +5129,15 @@ ARTIFACT_HASHES + live hash locks; B645's no-prereg stated). Four new
 LAW_MAP rows; L96–L98 opened; V2b killed (their lead); locks 3/3 +
 adopted 20; archive under cc2_packets/ with ORIGINALS_MANIFEST (two
 disclosed privacy patches).
+
+## 2026-07-16 — B647 cell 1: the mechanism reduction (R20-5 opened)
+
+Is the 24ζ₆ core ratio forced by the swap law + the zero law? NO — but
+the reduction is sharp: the constrained space is 6-real-dimensional
+(from 10); the core residual is ONE linear condition; and the SPECTATOR
+law's residual factors as 4(3+√3i)(3b₁₃₄ − a₁₃₄), so given swap+zero the
+B645 spectator extension ⟺ arg Y[134] = π/6 — and the banked value
+(1/24 + √−3/72) sits exactly on that locus (a = 3b). The mechanism
+question reduces to two phase/linear conditions; cell 2 (registered)
+tests whether the swap's CHAIN-level action pins the π/6 phase. Locks
+2/2.

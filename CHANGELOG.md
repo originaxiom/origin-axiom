@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B647 cell 1: the mechanism reduction (R20-5)
+
+### Added
+- Swap law + zero law leave 6 real dims (not forcing 24ζ₆); the spectator
+  law reduces to ONE phase condition (arg Y[134] = π/6 — banked value exactly
+  on the locus). Mechanism hunt continues at the chain level (cell 2
+  registered). Locks 2/2.
+
 ## 2026-07-16 — B646 the cc2 wave-2 integration (three packets verified)
 
 ### Added
