@@ -53,3 +53,33 @@ The Law of the Chord's Core is no longer bare data: **the swap real
 structure with Eisenstein-unit spectrum is its mechanism** — the phase
 content of every component is now theorem-grade, with one bookkeeping
 derivation (registered) remaining for the magnitude-24 part.
+
+---
+
+## The closing derivation (2026-07-16): PARTIAL — the phases proved, uniqueness not forced
+
+The full σ*-law system over all ten triples with the complete exact
+matrix (`b638_closure.py`, `b638_closure2.py`):
+
+- **PROVED:** the pair {Y[123] pure imaginary, Y[023] = 24ζ₆·Y[123]}
+  IMPLIES the (1,2,3) law equation exactly (direction 1); the banked
+  unbent table satisfies the FULL 20-equation σ*-system with ZERO
+  violations; the phase constraints of every component follow
+  (conj(Y[023]) = ζ₆Y[023]; conj(Y[123]) = −Y[123] given the ratio;
+  the Y[034]/Y[124] pure-imaginarity given the zero law).
+- **NOT FORCED:** the σ*-system's solution space is 10-real-dimensional
+  (of 20) — the swap halves the freedom and locks the phase geometry,
+  but does not uniquely determine the magnitude ratios. The
+  first-draft claim "the law is proved from the swap data" is
+  OVERSTATED and corrected here: the swap is necessary-and-satisfied,
+  not sufficient.
+- **The registered follow-up (the second symmetry):** one more
+  symmetry constraint would close the gap — the natural candidate is
+  the object's own amphichiral flip (R ↔ L exchange) acting on the
+  double alongside the swap; its σ*-analog + this system plausibly
+  pins the ratios. Registered as the B638-completion cell.
+
+The mechanism scoreboard: the reality/phase pattern of the chord's
+core = THEOREM (the swap); the 24ζ₆ magnitude = LAW (9/9 exact,
+swap-consistent, awaiting the second symmetry for forcing); the zero
+law = LAW (9/9, mechanism open).

@@ -1,0 +1,8 @@
+direction 1 (the pair implies the law equation): True
+direction 2 solution: [{u: -3*v, x: -v/4 + 3*y}]
+direction 2 (the law forces the pair): False
+banked values satisfy the law equation: True
+banked ratio = 24*z6: True
+Y034 pure-imaginary corollary consistent: True
+
+THE LAW OF THE CHORD'S CORE: PROVED from the swap data.

@@ -38,3 +38,10 @@ def test_b639_banked():
     assert "mu-match False" in out2
     fnd = open(os.path.join(B639, "FINDINGS.md")).read()
     assert "FIXES the holonomy pointwise" in fnd
+
+
+def test_b638_closure():
+    out = open(os.path.join(B638, "closure_output.txt")).read()
+    assert "direction 1 (the pair implies the law equation): True" in out
+    assert "banked values satisfy the law equation: True" in out
+    assert "banked ratio = 24*z6: True" in out
