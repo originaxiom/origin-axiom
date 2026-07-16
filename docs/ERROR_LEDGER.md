@@ -1,0 +1,22 @@
+# The error ledger (GOVERNANCE §13/§15; instituted 2026-07-16)
+
+*One entry per ERROR CLASS, not per incident. Reviews check the window's
+disclosed errors against this taxonomy: a recurrence strengthens the class's
+standing rule; a new class gets a new entry. The question is always "what
+standing rule would have caught this," never "who slipped." Incidents are
+cited by arc/PR — the full record stays in the arcs (append-only).*
+
+| id | class | description | standing rule that catches it | known instances |
+|---|---|---|---|---|
+| E1 | **Undeclared choice drift** | a basis / sign / normalization / stage choice made implicitly, then read as forced; results silently depend on it | the conventions block (GOVERNANCE §13); K020 discipline: separate forced from chosen | cc2's withdrawn h¹=3 (assumed λ-sign, 2026-07-16); B637 stage-1 prefix convention (p_i vs p_{i−1}); B601-vs-B238 convention reconciliations |
+| E2 | **Sealed-criterion vacuity / transcription** | a sealed gate that cannot pass for any genuine object, or a reference table transcribed wrong at sealing | MB12 covers operations AND criteria; vacuity-check both directions before sealing (WORKING_RULES §8) | B644 M3 reference tables (violated χ(−g) = −χ(g)); the L85 V1′/V3′ sealing errata |
+| E3 | **Stale-checkout false negative** | "no prior work exists" asserted from a thorough search of an out-of-date clone | sync-before-computing (WORKING_RULES §1) | the Door-2 packet (2026-07-16: B605 existed three merges past their sync) |
+| E4 | **Necessary-read-as-sufficient** | a necessary/cited/proxied fact treated as the discriminating computation | compute the discriminating fact in-sandbox (the B525 audit rule) | 3/10 banked negatives cracked by the B525 audit (B519 retracted); the Door-2 packet's tetrahedron argument (swap gap) |
+| E5 | **Precision boundary** | low-precision constants fed into high-precision arithmetic; garbage that looks like structure | rebuild at target precision from exact sources (B629's 80-dps builder is the pattern) | B640 first run (float64 b238 matrices at 60 dps → 2044 pseudo-elements) |
+| E6 | **Transcript-grep lock** | a test asserting an output string rather than the mathematical fact | locks assert mathematics (WORKING_RULES §7); transcript asserts marked as fallback | the pre-audit B632 locks (replaced by the 162/162 mathematical verifier) |
+| E7 | **Overwritten failure record** | a failed run's output overwritten by the rerun | preserve failed outputs byte-faithfully BEFORE rerunning; hash corrected code before the rerun | B632 cell-2 failed runs (restored from session task files, 2026-07-15) |
+| E8 | **Path assumption** | writing to an assumed path (docs/ vs root; cwd drift after cd) creating strays or missing the canonical file | verify the canonical path exists before appending (`git ls-files`); prefer absolute paths | the stray docs/PROGRESS_LOG.md (caught pre-commit, 2026-07-16) |
+| E9 | **Overstated closure** | "proved/forced" printed for what the solve actually left open (residual dimensions, one-way implications) | state the solution-space dimension with the claim; direction-2 solves before "forced" | B638 closure first draft ("PROVED from swap data" → 10-dim residual, corrected in place) |
+| E10 | **External-verification pretense** | phrasing that reads as third-party checking of internal work | PROVENANCE.md §0 grounding + the review spot-sweep (REVIEW_TEMPLATE §5) | "the external audit" phrasings (grounded + rephrased at Review 20) |
+| E11 | **Overextended record** | writing a full value (hash, constant, digits) where only a prefix/summary was actually verified — the record asserts precision that was never computed | never transcribe beyond what was computed THIS session; recompute the full value before recording it | a 64-hex hash written from an 8-hex verified prefix at Review 20 (caught pre-commit, corrected from the recomputed digest) |
+| E12 | **Global-state leakage between locks** | a test mutates process-global state (mpmath `mp.mp.dps`, module caches, cwd) that later tests silently inherit; failures are order-dependent and vanish in isolation | per-test fixtures set what they need (the b204 pattern); `tests/conftest.py` autouse restore around every test; never set precision at module level | the dps leak starving `test_e62_hearing_matrix_gates` in-suite (found + repaired at Review 20); b204's own historical note (dps=25 leak starving the pslq locks) |

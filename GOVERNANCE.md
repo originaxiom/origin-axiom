@@ -232,8 +232,68 @@ Recurring wording corrections. The left column is **forbidden**; use the right.
 
 ---
 
+## 12. The five jobs and the prime organizational rule (amendment, 2026-07-16)
+
+This repository serves five functions with contradictory optimal layouts: the **lab bench**
+(arcs; append-only, stable paths), the **bank** (verified claims; immutable, lock-backed),
+**navigation** (current state), **communication** (external readers), and **history**
+(including failures and retractions — itself a research product). No single tree serves all
+five. Therefore the prime rule:
+
+> **Freeze the substrate; generate the views; govern by metadata.** The physical tree is an
+> append-only archive. Files are never moved or renamed to "reorganize" — locks, hashes, and
+> the atlas depend on path stability. Everything a reader or reviewer navigates by is a
+> *view*: generated or curated from metadata, cheap to rebuild, free to evolve at every
+> review. A physical move is allowed only when a wall forces it, and then: batched, scripted
+> (locks migrated in the same commit), and logged in a `REORGANIZATIONS.md` entry.
+
+The boundary of the "object teaches us" transfer is fixed here: the transfer is licensed at
+the level of *problem shape* (finite observers extracting invariant content stratifies into
+observer-independent / structured / coupling-dependent tiers), never at the level of the
+specific mathematics. No directory mimics the 27; no cadence follows a conductor.
+
+## 13. The three layers (amendment, 2026-07-16)
+
+Every artifact belongs to exactly one layer, and content moves UP only through the §5 gates:
+
+| Layer | Content | Home | Rule |
+|---|---|---|---|
+| **1 — invariant** | proven claims, certified data, locks, walls | `CLAIMS.md` (+ per-claim files as they convert), `tests/`, THEOREM_REGISTRY | observer-independent; every statement lock-backed |
+| **2 — structured** | exact-on-instances laws, mechanisms-in-progress, strength classes | `docs/LAW_MAP.md`, banked FINDINGS | exact but mechanism-open; strength class explicit per row |
+| **3 — coupling** | adjudications, seat handoffs, hints, speculations, reviews | `docs/HINT_LEDGER.md`, the governed rooms, `docs/progress/REVIEWS.md` | observer-dependent; NEVER citable as solo evidence for a layer-1/2 statement (the firewall, restated) |
+
+Forward metadata requirements (new arcs from this amendment on; backfill lazy, never
+big-bang): every arc FINDINGS carries a **lifecycle** field
+(`anomaly | sweep | law | mechanism | named | unified | negated`) and a **uses:** field
+(the banked arcs/toolkits it depends on). Every PREREGISTRATION carries a **conventions
+block**: every basis, sign, normalization, orientation, and stage choice, declared before
+the run. Rationale: the program's single most recurrent error class is undeclared choice
+drift (`docs/ERROR_LEDGER.md`).
+
+## 14. Claims as units (amendment, 2026-07-16; forward rule)
+
+New promotions to layer 1 create one file per claim under `core/claims/` with frontmatter
+(`id`, `label` per §3, `strength`, `layer`, `locks`, `uses`, `provenance`, `superseded_by`),
+alongside the `CLAIMS.md` row (which becomes a generated index once conversion is complete).
+Existing claims convert opportunistically. This is file *creation*, never movement (§12).
+
+## 15. Reviews: the template, the loop, the declared modulus (amendment, 2026-07-16)
+
+Reviews follow `docs/progress/REVIEW_TEMPLATE.md`: a small REQUIRED core (close or carry
+the previous review's action items; advancement measured against LAW_MAP strength classes;
+error-class recurrence check against `docs/ERROR_LEDGER.md`; provenance spot-sweep; the §5.1
+promotion sweep) and OPTIONAL enrichments. Schema/governance changes are proposed as
+separate arcs — never review-blocking. Every review DECLARES ITS MODULUS: what it sampled,
+what it can and cannot certify — silent truncation reads as full coverage and is forbidden.
+Action items are recorded in a parseable block (`### Action items (Review N)`; `- [ ]` open,
+`- [x]` resolved, `- [>]` carried) enforced by the `review-actions` gate: a non-final block
+containing unresolved `- [ ]` items fails the suite.
+
 ## 10. Amending this constitution
 
 Phase 0 is locked. Amendments are allowed only when they improve *legibility or discipline*
 without weakening any rule, and must be recorded in `PROGRESS_LOG.md` with a rationale.
 Loosening a rule to admit a claim that would otherwise fail is explicitly forbidden.
+Amendment record: §12–§15 added 2026-07-16 (organizational stratification, metadata
+requirements, claims-as-units forward rule, the review loop) — all additive; no rule
+weakened; rationale in `PROGRESS_LOG.md` (2026-07-16, the governance amendment).

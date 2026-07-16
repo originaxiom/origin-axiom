@@ -220,6 +220,28 @@ def review_status():
     return n, n >= REVIEW_EVERY
 
 
+def gate_review_actions():
+    """GOVERNANCE §15: action-item blocks in REVIEWS.md. Any block that is
+    NOT the latest must contain zero open `- [ ]` items (resolved `[x]` or
+    carried `[>]` only). The latest block's open count is advisory."""
+    path = os.path.join(ROOT, REVIEWS)
+    if not os.path.exists(path):
+        return True, "no REVIEWS.md"
+    text = _read(REVIEWS)
+    blocks = re.findall(r"### Action items \(Review [^)]+\)\n((?:- \[.\][^\n]*\n?)+)",
+                        text)
+    if not blocks:
+        return True, "no action-item blocks yet (pre-§15 reviews)"
+    stale_open = 0
+    for b in blocks[:-1]:
+        stale_open += len(re.findall(r"^- \[ \]", b, re.M))
+    if stale_open:
+        return False, (f"{stale_open} open item(s) in a superseded review's "
+                       "block — resolve [x] or carry [>] them")
+    latest_open = len(re.findall(r"^- \[ \]", blocks[-1], re.M))
+    return True, f"ok ({latest_open} open in the latest block, advisory)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -228,6 +250,7 @@ GATES = {
     "atlas-fresh": gate_atlas_fresh,
     "attribution": gate_attribution,
     "tracked-forbidden": gate_tracked_forbidden,
+    "review-actions": gate_review_actions,
 }
 
 

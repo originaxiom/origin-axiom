@@ -1,5 +1,24 @@
 # Reproducibility
 
+## The pinned environment (added 2026-07-16, the governance amendment)
+
+The canonical test environment is **pyenv, not Sage** (the Sage environment
+flips two B106 locks). The environment the locks are maintained against:
+
+| component | version |
+|---|---|
+| python (pyenv) | 3.12.1 |
+| sympy | 1.14.0 |
+| mpmath | 1.3.0 |
+| numpy | 2.4.0 |
+| snappy | 3.3.2 |
+
+Sage-gated scripts (`sage-python …`) are marked as such per arc. Locks that
+freeze recorded Sage/SnapPy constants (regression guards) are listed in the
+CI-scope disclosure below. Version drift that flips a lock is an E5/E1-class
+event for `docs/ERROR_LEDGER.md` — record it, don't silently re-pin.
+
+
 Every `proven` claim in `CLAIMS.md` must be reproducible from this repository by a third
 party. This file is the entry point. Governed by `GOVERNANCE.md` §9.
 

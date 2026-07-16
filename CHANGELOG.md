@@ -6,6 +6,24 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — THE GOVERNANCE AMENDMENT (§12–§15; the pilot machinery)
+
+### Added
+- GOVERNANCE.md §12–§15 (additive per §10): the five jobs + the prime rule
+  (freeze the substrate, generate the views, zero file moves); the three
+  layers with forward metadata (lifecycle, uses:, the conventions block);
+  claims-as-units (forward rule, lazy backfill); the review loop (template,
+  declared modulus, parseable action items).
+- WORKING_RULES.md (root; one page, binding — the seat entry point).
+- docs/ERROR_LEDGER.md (twelve classes, E1–E12, seeded from the banked record).
+- docs/progress/REVIEW_TEMPLATE.md (required core + optional enrichments).
+- The `review-actions` gate (8th gate) enforcing the action-item loop.
+- REPRODUCIBILITY.md pinned-environment table (pyenv 3.12.1 / sympy 1.14.0 /
+  mpmath 1.3.0 / numpy 2.4.0 / snappy 3.3.2).
+
+The next review is the constitutional pilot: it opens by closing or carrying
+R20-1…R20-11.
+
 ## 2026-07-16 — REVIEW 20 (the standard cadence, window #1003–#1034)
 
 ### Review
