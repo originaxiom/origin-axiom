@@ -1,0 +1,15 @@
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   83.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  103.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  103.1s] G2a PASS: principal sl2 relations exact
+[  107.5s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  109.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 109.2s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+== G1: the involution property ==
+  u*conj(u) = [[(1), (0)], [(0), (1)]]
+  = +1: True;  = -1: False

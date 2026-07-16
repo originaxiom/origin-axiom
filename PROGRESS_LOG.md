@@ -4867,3 +4867,14 @@ RECOVERY PLAN IS FULLY EXECUTED (Lanes 0–5): the audit integrated, the repairs
 manifolds named, three pipelines agreeing, the chord's two invariants banked with a
 gluing-independent law, L90 closed, the rebase and PC26 v2-final banked. STOPPED per the plan: no
 campaign launch without the owner's pick (C1 + C2 recommended). Firewalled.
+
+## 2026-07-16 — THE C1+C2 CAMPAIGN LAUNCHED (the owner's pick): B638 the swap decomposition; B639 the D_conjθ cubic
+Both preregs sealed BEFORE computing (a645834a…, 7075dd63…): B638 = the swap σ:(a,b)↔(c,d) with
+the antilinear companion J = Ad(U₂₇)∘conj — gates: the involution property, the real structure's
+matrix on the five modes, the transformation law Y(σ*,σ*,σ*) ≟ −conj(Y), the reality theorem for
+the observed pure-imaginary pattern, and the 24ζ₆ mechanism (does σ*'s mixing of the boundary-born
+pair force the law of the chord's core?). B639 = the twisted double via the λ↦+λ identification
+(cc2's construction adopted; the intertwiner solved in-run; h¹ = 3 as their fourth-pipeline check)
+— then THE ONE NUMBER Y_θ ∈ ℚ(√−3) on the 1-dim Λ³ (zero = the twisted chord carries no cubic;
+nonzero = the parity-clean three-mode invariant). Both mathematics-only; Gate 5 stands. Runs in
+flight. Firewalled.
