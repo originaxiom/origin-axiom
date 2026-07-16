@@ -13274,18 +13274,44 @@
    "slug": "listening synthesis",
    "motifs": [
     "figure_eight",
+    "trace_map",
+    "kappa",
     "metallic",
     "eisenstein",
-    "z3_generation"
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
    ],
    "refs": [
+    "B204",
+    "B638",
     "B640",
+    "B641",
+    "B642",
+    "B647",
     "L97",
     "P12"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 1,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B655": {
+   "slug": "beta adjudication",
+   "motifs": [
+    "metallic",
+    "eisenstein"
+   ],
+   "refs": [
+    "B654",
+    "L99"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B65": {

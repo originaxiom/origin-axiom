@@ -5455,3 +5455,18 @@ to the fig-8 tower's kappa=14); the 24-as-|2T| invariant reading
 0.88/6.0/7.3 sigma). Queue coordination locked (cc2: G1-G4 + the
 homological G5; this seat: Q-AREA in flight, Q-BLOCK next). cc2's
 governance patch REGISTERED as L99 for the owner. Locks 4/4.
+
+## 2026-07-17 — B655: THE BETA-NUMEROLOGY ADJUDICATION (the claim dies by refutation)
+
+The incoming SM-beta claim adjudicated per the sealed four-cell design
+(the first live L99 application). C1: the relay's arithmetic is exactly
+right (all four coefficients verify). C2: THREE KILLS — the anchors
+contradict the banked identity cards (silver = 8/32, not 7/23; no
+metallic member has disc 23; |A4| = 12). C3: the h=12 overlap is
+FORCED-TRIVIAL (the E6 beta function knows E6's Coxeter number); the
+19<->19 question: NO common rep-theoretic source (checked vs degrees,
+exponents, |W|). C4: base rate 45% (27/60) — BELOW the sealed 50% bar
+(the information-free declaration does not fire by criterion; honest
+pricing ~1.2 bits/match stands). VERDICT: nothing banks — no LAW row,
+no HINT row, no physics reading; Gate 5 untouched; the relay-back note
+carries the corrections. Locks 3/3.
