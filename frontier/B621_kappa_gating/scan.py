@@ -11,7 +11,8 @@ from fractions import Fraction
 
 import numpy as np
 
-HERE = "/Users/dri/origin-axiom/frontier/B620_conductor_mechanism"
+HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    "..", "B620_conductor_mechanism")
 spec = importlib.util.spec_from_file_location(
     "b238", os.path.join(HERE, "..", "B238_su32_levelrank", "su32_wrt.py"))
 b238 = importlib.util.module_from_spec(spec)

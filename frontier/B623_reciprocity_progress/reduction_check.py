@@ -5,10 +5,12 @@ Step 1: verify the algebraic reduction
    Q(mu,alpha) = |mu|^2 - |alpha|^2 + 2*ip(alpha, (I-w) mu)
 against the ground truth computed directly from weil_mechanism.py's operators.
 """
+import os
 import importlib.util, os, sys
 import numpy as np
 
-HERE = "/Users/dri/origin-axiom/frontier/B587_weil_mechanism"
+HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    "..", "B587_weil_mechanism")
 spec = importlib.util.spec_from_file_location("wm", os.path.join(HERE, "weil_mechanism.py"))
 wm = importlib.util.module_from_spec(spec)
 # prevent the module's __main__ print-block from running by wrapping exec in a guarded namespace

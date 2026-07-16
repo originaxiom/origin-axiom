@@ -18,7 +18,7 @@ def main() -> None:
     parser.add_argument(
         "--repo",
         type=Path,
-        default=Path("/Users/dri/origin-axiom"),
+        default=Path(__file__).resolve().parents[2],
         help="read-only Origin Axiom checkout to inspect",
     )
     args = parser.parse_args()

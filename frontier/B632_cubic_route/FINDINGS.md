@@ -148,9 +148,9 @@ via Mayer–Vietoris from banked pieces.
 
 ---
 
-## CORRECTIONS (2026-07-15, the external audit integrated; REPAIR_ADJUDICATION.md)
+## CORRECTIONS (2026-07-15, the audit seat's findings integrated (internal; PROVENANCE.md §0); REPAIR_ADJUDICATION.md)
 
-The read-only external audit verified cell 2's corrected mathematics
+The read-only audit seat (internal; PROVENANCE.md §0) verified cell 2's corrected mathematics
 exhaustively (162/162 coboundary descents, all diagonals/exchanges,
 exact rank — verifier adopted as `verify_cell2_exhaustive.py`, now the
 lock) and corrected this arc's LANGUAGE, binding henceforth:

@@ -13,7 +13,17 @@ import sympy as sp
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 B629 = os.path.join(HERE, "..", "frontier", "B629_interaction_values")
-mp.mp.dps = 60
+import pytest
+
+
+@pytest.fixture(autouse=True)
+def _mp_dps():
+    """set precision per-test (the b204 pattern): a module-level set runs
+    at collection and is order-dependent — any later-imported setter or
+    runtime leaker starves the 1e-55 tolerances here (observed in-suite,
+    Review 20). Per-test setting is order-independent; tests/conftest.py
+    additionally restores the entry value after every test suite-wide."""
+    mp.mp.dps = 60
 
 
 def test_sealed_hash_in_ledger():

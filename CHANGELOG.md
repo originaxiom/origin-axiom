@@ -6,6 +6,26 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — REVIEW 20 (the standard cadence, window #1003–#1034)
+
+### Review
+- The window's protocol integrity certified: four sealed hashes re-computed
+  against banked lines; B634's unrecorded seal hash found and banked post-hoc
+  with honest labeling; hash-first order honored; corrections verified
+  in-trail.
+- The lock suite re-run IN FULL: three findings, three structural repairs
+  (the mpmath dps leak class → suite-wide conftest restore + E12; eight
+  hardcoded-path scripts → __file__-relative; per-seat AI labels in living
+  docs → seat-neutral + the surface scan extended to LAW_MAP/GOVERNANCE/
+  WORKING_RULES/ERROR_LEDGER). 2324 locks green.
+- Required correction: "the external audit" → "the audit seat" in live docs;
+  historical occurrences grounded in PROVENANCE.md §0 (the oaudit seat is
+  internal to the project — no third-party verification has occurred).
+- TERMINOLOGY.md extended (the chord, the core law, σ*, τ*, the congruence
+  shadow, the 13-dial, the audit seat).
+- Eight promotion candidates held at frontier pending the novelty pass
+  (R20-9); ten action items registered — the first parseable block.
+
 ## 2026-07-16 — B643 the flip-breaking verdict (L93 closed); B645 the unit cross-ratio law + the 13-dial
 
 ### Added

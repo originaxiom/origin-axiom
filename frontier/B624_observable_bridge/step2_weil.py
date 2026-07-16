@@ -5,7 +5,8 @@ import importlib.util
 import os
 import numpy as np
 
-HERE = "/Users/dri/origin-axiom/frontier/B238_su32_levelrank"
+HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    "..", "B238_su32_levelrank")
 spec = importlib.util.spec_from_file_location("b238", os.path.join(HERE, "su32_wrt.py"))
 b238 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(b238)

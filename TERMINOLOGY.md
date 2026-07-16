@@ -47,3 +47,27 @@ No invariant may be transferred between these without an explicit map.
 | **D_g(M)** | the cusp-complement double M ∪_g M̄ per explicit gluing g | g = ±I → ℤ; g = ±A₁ → 0 (homology sphere) | ±A₁ is peripherally INCOMPATIBLE with the banked 27 local system; the B605 D₄-intertwiner gluings are named D_g(M) with g stated |
 | **D_bent(M; m)** | the representation-bent B582/B598 amalgam at bend m | — (local-system object) | h¹(D;27) = 2 at m = 4, 8; 5 at none/1/5/7/11 (B635-reproduced) |
 | **D_conjθ(M)** | the conj∘θ-twisted double — **RE-SCOPED (cc2's 2026-07-16 withdrawal):** the h¹ = 3 count used an assumed λ-sign, superseded by B637 part 2a's exact D_φ computations (all four involution gluings: h¹ = 5); the "3" stands only for cc2's specific non-geometric line-identification, NOT for any manifold in the named gluing menu. B639 proved the honest realization is a FIBER-PAIRING (θ₂₇∘conj), still unconstructed (L92). | — | SURVIVING: the parity-typed slope criterion and the universal slope = the cusp modulus −2√−3 (all six blocks) |
+
+## Added at Review 20 (2026-07-16) — the B629–B645 stretch's terms
+
+- **the chord / the mirror-coupled double**: the closed 3-manifold obtained
+  by gluing the figure-eight complement to its mirror along the cusp torus
+  (a "weld"); "the chord's invariants" = cohomological invariants of that
+  closed object (B637–B638). Internal name; the mathematics is an amalgam
+  / Mayer–Vietoris computation over an explicit gluing.
+- **the core law / 24ζ₆**: the banked exact identity Y[023] = 24ζ₆·Y[123]
+  between components of the alternating cubic form on the double's twisted
+  H¹ (B637; ζ₆ = e^{iπ/3}).
+- **the swap σ***: the pullback action of the double's deck involution on
+  twisted cocycles (antilinear; B638).
+- **the flip τ***: the (attempted) action of the object's amphichiral
+  symmetry on the double — proved NOT to act (B643).
+- **the congruence shadow / "the conductor is the ear's modulus"**: the
+  theorem that the θ-odd hearing representation factors through reduction
+  mod 5 (B644); "shadow" = the image in SL(2,𝔽₅).
+- **the 13-dial / the unit cross-ratio law**: exact identities of the
+  normalization-free invariants of the Y-tensor across the nine computed
+  doubles (B645).
+- **the audit seat**: a read-only AI seat operating in a separate clone
+  (historically phrased "the external audit" — see PROVENANCE.md §0;
+  internal to the project like every seat).

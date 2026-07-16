@@ -1,4 +1,4 @@
-# B635 — the external audit integrated + the cross-seat packets verified (Lane 0–1 of the recovery plan)
+# B635 — the audit seat's findings integrated + the cross-seat packets verified (all seats internal; PROVENANCE.md §0) (Lane 0–1 of the recovery plan)
 
 **Date: 2026-07-15. Status: BANKED. Everything below was verified
 in-sandbox before banking (verify-don't-trust applied to the audit
@@ -57,7 +57,7 @@ inequivalent local-system modes). B634 ERRATUM_1 sealed (ae5da99d…).
   ladder now stands on two disjoint derivations (the B577 standard).
 - cc2's cell 3a (the M–V matched-pair route) is COORDINATED as the
   second in-repo pipeline for B637's dimension table (our amalgam-Fox
-  route = the first; the audit's reproducer = the external third).
+  route = the first; the audit seat's reproducer = the third, method-disjoint pipeline).
 
 ## What remains true and publishable (the audit's list = our banked set)
 

@@ -2,6 +2,7 @@
 each at pm=+1 and pm=-1) for word RRL at kappa=4,8,12,16,20,24, plus the
 final assembled trace(B_odd) via the bridge formula, printed as a clean
 verification table."""
+import os
 import math
 from fractions import Fraction
 import numpy as np
@@ -67,7 +68,8 @@ omega = complex(math.cos(2*math.pi/3), math.sin(2*math.pi/3))
 phi_word = omega ** -1
 
 import importlib.util, os
-HERE = "/Users/dri/origin-axiom/frontier/B238_su32_levelrank"
+HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    "..", "B238_su32_levelrank")
 spec = importlib.util.spec_from_file_location("b238", os.path.join(HERE, "su32_wrt.py"))
 b238 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(b238)

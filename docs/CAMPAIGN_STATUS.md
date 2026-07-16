@@ -53,6 +53,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (REVIEW 20 executed, 2026-07-16)
+- The standard-cadence review of #1003–#1034: protocol integrity certified;
+  the audit-seat provenance correction; TERMINOLOGY extended; eight promotion
+  candidates gated on novelty (R20-9); ten action items registered. The next
+  review = the constitutional pilot (GOVERNANCE §15, PR pending owner
+  approval).
+
 ## LAST BANKED (B643 flip-breaking + B645 the 13-dial, 2026-07-16)
 - **B643 (L93 CLOSED)**: the chord breaks BOTH amphichiral flip classes — the
   unique partial intertwiner per class is supported on Sym⁰ (d = (0,0,1));

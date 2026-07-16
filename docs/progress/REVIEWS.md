@@ -999,3 +999,116 @@ residuals: the κ-unconditional reciprocity form; the m = 7, 8, 11 exact
 identifications; the discrete-branch IDs per word; PC26 v2-final.
 
 anchor-commit: `40070ad` (Review 19 completed; #1002)
+
+## REVIEW 20 — EXECUTED 2026-07-16 (the standard cadence; window #1003–#1034, B629–B645)
+
+**The declared modulus (what this review is and is not):** the window's 32
+first-parent merges reviewed via their FINDINGS + ledger entries + locks;
+the sealed hashes spot-re-computed (not trusted from banked lines); the
+fast lock suite re-run in full; OA_SLOW heavy locks NOT re-run (trusted
+green from their banking runs); arcs before #1003 not re-read. This review
+certifies protocol integrity and record honesty for the window — it does
+not re-derive the mathematics (the locks do that).
+
+**(i) In-flight corrections verified present:** the B637 stage-1
+quarantine with both bug fixes documented in-trail (the Φ₂ prefix
+transcription; the chain machine's H₁ equivariance) and the corrected
+gates green; B638's closure overstatement corrected in place (the 10-dim
+residual stated); cc2's h¹ = 3 withdrawal propagated (TERMINOLOGY, L92
+re-scope); B640's float64 first run discarded and rebuilt on the banked
+80-dps builder; B632's failed transcripts preserved byte-faithfully.
+
+**(ii) Protocol integrity (hashes re-computed this review):** B629 sealed
+values 0ec9ac39 ✓ (matches the banked line); B630 design e217e623 ✓
+(matches); B643 prereg 76d64ba0 ✓ (its lock re-computes the hash live);
+B644 prereg b77e5bdf ✓ (matches). **B634: the prereg hash was NEVER
+recorded at sealing** — the review verified single-commit provenance
+(#1011, unamended; the erratum is a separate file) and recorded the hash
+post-hoc with that label (frontier/B634_conductor_chord/
+ARTIFACT_HASHES.txt, 77774a61) — the second instance of the omission
+class B643's #1034 repaired; standing-rule candidate registered (R20-11).
+Hash-first order honored across the window (values → design → run;
+B631's MB13 retro sweep in-doc). The B644 M3 reference-table sealing error was disclosed in-doc
+per MB12 — the E2 pattern; the factorization gate passed as sealed.
+
+**(iii) Advancement (against LAW_MAP strength classes):** new THEOREMs —
+the cubic dichotomy (B632/B637), the swap real structure (B638), the
+hearing-group theorem (B640), the twist-frame tone law + Plancherel
+(B641), the Galois ear (B642), the congruence-shadow theorem (B644,
+closing L94: the ear derived from the monodromy arithmetic); new WALLs —
+the typing wall 1′, the flip wall (B643, closing L93); new LAWs — THE LAW
+OF THE CHORD'S CORE (24ζ₆, 9/9), the chirality-exclusion law, the unit
+cross-ratio law + the 13-dial (B645). Resolved-negatives: B631 (the
+matrix comparison, structured-null, power-validated), B639 (the θ-twist
+realization; the fiber-pairing theorem stands). Longest-stuck: LAW-O's
+per-term proof (L82 W2) and the exterior sign law's proof — both
+pre-window, both still open. No LAW_MAP row found overstated against its
+banked evidence (rows spot-checked at B637/B638/B644/B645).
+
+**(iv) Promotion sweep (§5.1):** the eight candidates above meet the §5
+mathematical bars in their arcs (exact + locked + scrutinized in-trail);
+ALL held at frontier pending the novelty boundary — no prior-art pass ran
+this window (NEEDS-SPECIALIST per the standing rule); none promoted by
+fiat. The one candidate with a mapped novelty boundary from the 2026-07-15
+literature round (PC26's theorem set) keeps its Andersen–Jørgensen scope
+note.
+
+**(v) Provenance + terminology (the required correction):** the window's
+records used "the external audit" for the oaudit seat — an AI seat in a
+read-only clone: external to the session, INTERNAL to the project. This
+could read as third-party verification (the E10 class). Fixed this
+review: live documents rephrased (B632/B634/B635 FINDINGS, the REBASE
+doc); historical occurrences in append-only ledgers grounded by a new
+PROVENANCE.md §0 paragraph defining the term. TERMINOLOGY.md extended
+with the window's load-bearing terms (the chord, the core law, σ*, τ*,
+the congruence shadow, the 13-dial, the audit seat). Papers carry true
+status (PAPER.md's internal-verification statement intact).
+
+**(vi) Lock suite (re-run in full by this review):** 2011 passed, 31
+skipped, then ONE in-suite failure — `test_e62_hearing_matrix_gates`
+(B629), which PASSES in isolation: an order-dependent global-state leak.
+Diagnosis: the mpmath precision (`mp.mp.dps`) is process-global; a
+module-level setter runs at collection and any later-imported setter or
+unrestored runtime change starves later high-precision locks (the class
+was already documented inside test_b204 with the house repair: per-test
+setting). Repair (this review, structural): `tests/conftest.py` autouse
+fixture restores the entry precision after EVERY test (kills the class
+suite-wide), and the b629 lock converted to the b204 per-test pattern;
+verified passing in both file orders. The `-x` halt left the
+alphabetical tail after b629 unexercised in the first pass — re-run
+separately: 313 passed, 4 skipped, TWO further failures, both
+pre-existing committed hygiene debt caught by the full re-run:
+(a) `test_no_hardcoded_paths` — eight frontier scripts (B621, B623,
+B624 ×4, B632's adopted verifier) carried absolute machine paths;
+all converted to `__file__`-relative; (b) `test_public_surface_scan` —
+per-seat AI labels ("chat-1"/"chat-2") in OPEN_LEADS rows and the new
+LAW_MAP witness columns; rephrased seat-neutrally, and the scan's
+living-docs list EXTENDED to guard LAW_MAP, ERROR_LEDGER,
+WORKING_RULES, and GOVERNANCE. All repaired locks re-verified green.
+The runtime leaker behind the b629 failure was identified exactly
+(test_b61_sl5 sets dps 50/40 in test bodies without restore; sorts
+immediately before b629) — the conftest restore neutralizes it. New
+error-ledger class registered (E12, global-state leakage between
+locks). Final tally: 2324 passing locks + 35 skips across the two
+passes; three findings, three structural repairs, zero deferred.
+
+**(vii) Residuals from Review 19:** PC26 v2-final — CLOSED this window
+(the full absorption: §7.7, §8′, §9.7–9.8, wall 1′); the κ-unconditional
+reciprocity, the m = 7/8/11 identifications, the discrete-branch IDs —
+untouched, carried below.
+
+### Action items (Review 20)
+- [ ] R20-1: the κ-unconditional reciprocity form (carried from R19; owner: any seat; source: B625)
+- [ ] R20-2: the m = 7/8/11 exact identifications (carried from R19; source: B598/B624)
+- [ ] R20-3: the discrete-branch IDs per word (carried from R19; source: B626)
+- [ ] R20-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (source: B639)
+- [ ] R20-5: the cochain-level mechanism of the 24ζ₆ magnitude (source: B638/B643)
+- [ ] R20-6: the 13-dial mechanism + the meaning of the split prime (source: B645; HINT rows)
+- [ ] R20-7: C4 the silver chord — blocked on the m136 exact E₆ holonomy build (source: B637 queue)
+- [ ] R20-8: the order-4 orientation-reversing families through the flip pipeline, if wanted (source: B643 residual)
+- [ ] R20-9: prior-art/novelty pass over the window's eight THEOREM/LAW candidates (NEEDS-SPECIALIST; gate for §5.1 promotion)
+- [ ] R20-10: cc2 wave packets + chat-2's L95 prereg — verify-on-receipt when they land
+- [ ] R20-11: sweep all sealed arcs for missing ARTIFACT_HASHES lines (two instances found: B643 #1034, B634 this review); consider a gate (source: Review 20 §ii)
+
+*(The next review is the first under GOVERNANCE §15 — the constitutional
+pilot: it must open by closing or carrying every item above.)*
