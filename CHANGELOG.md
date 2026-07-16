@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B649 stage 2a: the exact silver holonomy over L (track S wave 2)
+
+### Added
+- m136's holonomy exact over L = ℚ(s,i) (degree 8, ζ₈ ∈ L): 12/12 entries at
+  1e-250; det ≡ 1 (honest SL₂(L)); relators = +I exactly; peripheral traces
+  ±2 symbolic. Three-run trail (spurious pslq at 64 digits; a reduction sign
+  error — both caught by the exact det gate). Snappy-free mathematical lock.
+  Stage 2b (27-lift + E₆ prefix over L) opens.
+
 ## 2026-07-16 — B650: the type system (track F wave 1; the battery worked)
 
 ### Added

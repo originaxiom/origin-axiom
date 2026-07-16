@@ -41,3 +41,38 @@ sector is load-bearing for the control, as pre-labeled.
 One in-run precision-path bug (double-precision collapse through
 python complex) was caught by the two-threshold gate itself and fixed
 — the E5 class, caught by design.
+
+---
+
+## Stage 2a (prereg 4dc3eacd) — THE EXACT SILVER HOLONOMY OVER L (G4 closed)
+
+**Result: the m136 holonomy generators are EXACT elements of
+SL₂(L), L = ℚ(s, i) with s⁴ = 8s² + 16 ([L:ℚ] = 8, ζ₈ ∈ L):**
+
+- **S2a-G1 PASS** — all 12 entries identified DIRECTLY (no
+  normalization needed) from the polished representation at 1200 bits;
+  acceptance residual 1e-250 (fitting freedom ~50 digits — spurious
+  relations excluded by two orders of magnitude); exact table in
+  `entries_L.json`.
+- **S2a-G2 PASS (better than the gate)** — both relators evaluate to
+  **+I exactly** in L (the gate allowed ±I); det(a) = det(b) =
+  det(c) = 1 exactly: an honest SL₂(L) representation, not merely
+  projective.
+- **S2a-G3 PASS** — all five stage-1 trace relations now SYMBOLIC
+  (tr(μ)² = 4, tr(λ)² = 4, tr(b)² = 4, tr(ac)² and tr(abc)² against
+  the exact ζ₈-targets, all via the scale-free tr²/det form).
+
+The in-trail record (three runs, each failure caught by an exact
+gate): run 1 — 64-digit source left ~40 digits of pslq fitting freedom
+and the EXACT det gate caught spurious identifications (preserved as
+`b649_stage2a_run1_FAILED.txt`); run 2 — the quotient-ring reduction
+carried a sign error (s⁴ = −8s²−16 instead of +8s²+16), caught by the
+same det gate (generator b, untouched by s², passed — the E2-adjacent
+tell); run 3 — all gates pass. Upstream note: snappy's
+`lift_to_SL2C` crashes on multi-torsion H₁ (ℤ/2+ℤ/2+ℤ) — worked
+around via `lift_to_SL2=False`; the polished PSL matrices turned out
+to BE the SL₂ lift.
+
+**Stage 2b opens:** the 27-lift Sym¹⁶⊕Sym⁸⊕Sym⁰ over L (even Sym
+powers — works for any det-1 source directly) and the E₆ exec-prefix
+over L; then the silver chord (campaign §B2).

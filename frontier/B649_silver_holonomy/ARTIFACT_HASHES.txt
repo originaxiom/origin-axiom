@@ -1,3 +1,7 @@
 429a344c115aa4aabc232e0e39f85b85cc3a2199caeee25ba65b13b5d286be16  PREREGISTRATION.md
 9d1a2abf0af4eb02c1a80df95b0211470a47e6f91ce306e905e1077a9a38a260  b649_stage1.py (post-hoc, labeled: the method-deviation patches are in-trail)
 f902deaa2fd2714e4632680e98ff0eb8b3373d15300017cbc152cfbb7af11337  b649_stage1_output.txt (post-hoc, labeled: the method-deviation patches are in-trail)
+4dc3eacdd6274278b93585b2ed5cfb78287971fffb62cc41ea0ea6cfbb3a6457  PREREG_STAGE2A.md
+b81488d2e9578347e574f2a00c3fb4997328973c049db53edafbf7e6343da3ee  b649_stage2a.py
+75d8dc5b1500e7cd8a7e6e6d959e072558dde96f9ad270fbc18b14c4e27f8697  b649_stage2a_output.txt
+54aa472e5af5bebcb765c11e8fe6a61f4c498f254f6190014be6e4e577de80f9  entries_L.json

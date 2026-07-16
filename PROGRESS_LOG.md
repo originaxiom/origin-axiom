@@ -5189,3 +5189,21 @@ core-coupled, type judgment named in the seal) is binding for Phase C
 now. Wave F2 registered: the functorial monodromy-equivariant map (L84)
 against the banked constraints. CONTINUOUS CAMPAIGN MODE engaged per
 the owner (waves proceed without per-wave approval until close/kill).
+
+## 2026-07-16 — B649 stage 2a BANKED: THE EXACT SILVER HOLONOMY (track S wave 2)
+
+The m136 holonomy is EXACT over L = Q(s,i), s^4 = 8s^2+16, [L:Q] = 8,
+zeta_8 in L: all 12 entries identified at 1e-250 acceptance from the
+1200-bit polished rep (direct — no normalization needed); det = 1
+exactly on all three generators (honest SL2(L)); BOTH RELATORS = +I
+EXACTLY; all five stage-1 trace relations now symbolic (peripheral
+traces exactly +-2 in L). Three-run in-trail record, each failure
+caught by an exact gate: run 1 spurious pslq identifications (64-digit
+source, caught by the det gate); run 2 a quotient-ring sign error
+(s^4 = -8s^2-16; caught by the same gate — generator b, untouched by
+s^2, passed: the diagnostic tell); run 3 clean. Upstream: snappy's
+lift_to_SL2C crashes on multi-torsion H1 — worked around; the PSL
+polished matrices ARE the SL2 lift. Lock: snappy-free pure-Fraction
+verification from entries_L.json (milliseconds). STAGE 2B OPENS: the
+27-lift (even Syms, direct over L) + the E6 prefix over L → the
+silver chord (campaign GATE B's blocker retiring on schedule).
