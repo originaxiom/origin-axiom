@@ -48,7 +48,9 @@ audit: `docs/AUDIT_2026-07-05.md`.
   M-track COMPLETE; F-track COMPLETE (wave 2: THE EQUIVARIANCE WALL —
   the linear map is zero-only; the functor is B644's congruence shadow +
   B650's types; L84 resolved, L91-4 discharged); NEXT: GATE B ASSEMBLY
-  (B1 grammar table + B3 freedom count + arity);
+  (B1 grammar table + B3 freedom count + arity) — with B651's upgrades:
+  ladder rows THEOREM/CERTIFIED grade, the ladder organ FINITE (melody
+  theorem), the double's symmetry inventory complete, S-verify filled;
   L = cc2's ladder; W = L95 on arrival.
   CONTINUOUS MODE (owner, 2026-07-16): waves proceed without per-wave
   approval until the campaign closes or a kill fires.

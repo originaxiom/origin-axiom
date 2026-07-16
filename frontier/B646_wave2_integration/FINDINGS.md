@@ -108,6 +108,13 @@ for the calibration campaign's grammar table (which slots are
 disc-forced). Second NOTICED: κ = 5 and κ = 14 hear their own
 conductor's simple groups (2I and PSL(2,7) = GL(3,2)).
 
+**DATED CORRECTION (2026-07-16, B651):** the first NOTICED row (the
+inert⟺even-sector correlate, 3/3) **DIED at r = 23** — cc2's P4,
+prediction-first kill under its own sealed prereg (baed2eed): 23 inert
+predicted even-carried, observed (1, 0); r = 24 violates the converse.
+The 3/3 was small-sample. The second-silence anatomy replaces it
+(a cancellation, not a sector rule).
+
 ## Honest status
 
 The heavy enumerations rest on the sending seat's sealed two-pipeline

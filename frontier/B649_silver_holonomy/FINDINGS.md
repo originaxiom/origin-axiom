@@ -216,3 +216,33 @@ HINT rows (recorded, not judged): area 2 → 4 (fig-8 → silver, the
 commutator's van Kampen area doubles with disc 5 → 32?); 211 (silver)
 vs 13 (fig-8) as dial primes — 13 split in ℚ(√−3), 211 ≡ 3 mod 4 inert
 in ℚ(i): the split-prime reading does NOT generalize naively; recorded.
+
+
+---
+
+## ERRATA (2026-07-16, from the cc2 receipts P0/F4 — verify-don't-trust reciprocal; all verified here before filing)
+
+1. **Stage 1, false witness sentence:** "the ratio of the two exact
+   traces gives i" is WRONG — tr(abc)/tr(ac) = 1 + i (verified from
+   entries_L.json exactly). The correct clean witness (cc2's, verified
+   here): **tr(a²)/tr(b) = i**. The conclusion ℚ(ζ₈) ⊆ trace field is
+   UNAFFECTED (1 + i = √2·ζ₈ also generates it with √2 present).
+2. **Stage 1, residual summary:** "residuals ≤ 8e-63" understated the
+   quartic relation's residual (4.69e-62; still under both sealed
+   thresholds — verdict unaffected, summary corrected).
+3. **Stage 1, stale prose in a sealed artifact:** the sealed output's
+   printed header says "mpmath.pslq minimal polynomials" but the final
+   script uses direct relation checks (the pslq text is a stale draft
+   line baked into the seal). The artifact's mathematics stands; the
+   prose is flagged, not silently rewritten.
+4. **Stage 2a, stale comment block:** the script's run-2 comment still
+   describes the (superseded) "projective/det-nontrivial" diagnosis
+   while its own output shows det ≡ 1 — same stale-prose class.
+5. **Stage 2a, rescoping note:** stage 1's deferred "primitive-element
+   minimal polynomial" was discharged in stage 2a as product-basis
+   ℚ(s, i) identification — mathematically equivalent for every use
+   made of it; the substitution is hereby reconciled explicitly.
+
+Practice adopted (routed to the error ledger as the STALE-ARTIFACT-TEXT
+class): pre-seal grep of prints/comments against the method actually
+executed.

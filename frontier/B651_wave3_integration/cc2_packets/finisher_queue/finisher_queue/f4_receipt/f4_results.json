@@ -1,0 +1,67 @@
+{
+  "hash_audit": {
+    "matches": 20,
+    "total": 20,
+    "detail": "all ARTIFACT_HASHES.txt entries recomputed sha256, all match"
+  },
+  "lock_tests": {
+    "passed": 6,
+    "total": 6,
+    "files": [
+      "tests/test_b649_silver.py (4)",
+      "tests/test_b650_types.py (2, unrelated to b649)"
+    ]
+  },
+  "stage2_independent_recompute": {
+    "cross_precision_residual_a": "6.5395784658507838130712448359290233872959574638700676379799891211385286397669344810563070346892163328760127497547246460561664327749517513677848286763435259256089496154113031828996458394232505149931030343446767094969176045214584649830350668300620193056326287108e-121",
+    "a00_identification": {
+      "tight_240dps_220digit": "(((Fraction(0, 1), Fraction(-3, 4), Fraction(0, 1), Fraction(1, 16)), mpf('5.3122220375649169908415409982798026352739435049622454399253367551116823432648493338075106341807491336596422664219571327053418706182016191065464762425232660963607286499315087541055598855480182907599735221152762544958581281971924051252345001627541820404689015826655e-241')), ((Fraction(0, 1), Fraction(1, 4), Fraction(0, 1), Fraction(-1, 16)), mpf('3.1803855966483428153198673915339721275116752838693020084447405498682770125141489696684645260019772319415313161750548916757703322035390670139227858310664539142707159450224398383939355864969270765448252310243185809032301141703984690056097870688189297424869052328033e-241')))",
+      "loose_130dps_110digit": "(((Fraction(0, 1), Fraction(-3, 4), Fraction(0, 1), Fraction(1, 16)), mpf('4.6809775030930566396270271346255668332309488225165780553916393313860283041808085103740006870498558795961067831091352439285120858575713941804604640423586677947938681059740923094492997547658042237720744209159614846472303984712294477225801847492017527509859141744764e-132')), ((Fraction(0, 1), Fraction(1, 4), Fraction(0, 1), Fraction(-1, 16)), mpf('1.5208259250642224743953468798932274372620496813724542834934760532349838146268638142302423677040214557057224358938491668378767193447862798580286176395643969586118321335439485220654551618662470670064655758635811469204742449503581101384603343221298696936832152348302e-131')))"
+    },
+    "identification_stable_across_thresholds": true,
+    "a00_matches_banked_entries_L": true,
+    "sympy_det_a_eq_1": true,
+    "sympy_det_b_eq_1": true,
+    "sympy_det_c_eq_1": true,
+    "sympy_relator_aBAbcc_eq_I": true,
+    "sympy_relator_aaCbcB_eq_I": true,
+    "sympy_tr_mu_eq_2": true,
+    "sympy_tr_lam_eq_m2": true,
+    "sympy_tr_b_eq_2": true,
+    "sympy_tr_ac_matches": true,
+    "sympy_tr_abc_matches": true
+  },
+  "stage3_solo_exact_independent_recompute": {
+    "rank_fox_rows": 52,
+    "z1": 29,
+    "rank_coboundary": 26,
+    "h0": 1,
+    "h1": 3,
+    "match_claimed": true
+  },
+  "stage3_numeric_crosscheck_partial": {
+    "weld_singular_values": [
+      12.839502083117784,
+      12.839502083117779,
+      4.64322582191016e-15,
+      2.0817523557817615e-15
+    ],
+    "weld_det_u": "(0.0340659875280872-0.05513696837402495j)",
+    "weld_residual": 1.6653345369377348e-15
+  },
+  "stage3_double_and_stage3b_verbatim_rerun": "byte-identical to sealed outputs (see stage3a_verbatim_rerun.log, stage3b_verbatim_rerun.log)",
+  "verdicts_per_stage": {
+    "stage1": "VERIFIED (prior receipt, FINDINGS_CC2.md, bundle ID upgraded to strong)",
+    "stage2a_2b": "VERIFIED - independent snappy recompute (800/400-bit) + own pslq matches entries_L.json exactly at both thresholds; sympy algebraic-field (independent backend) confirms det=1, relators=I, all 5 trace relations exact; own Fraction-vector class confirms 27x27 relators=I27 exactly from letters27_L.json",
+    "stage3a": "VERIFIED - solo h0=1,h1=3 independently recomputed exact match (own class+own elimination+own Fox rows); double h0=1,h1=5 reproduced via byte-identical verbatim rerun from hash-verified copy",
+    "stage3b_i": "VERIFIED - byte-identical verbatim rerun (G1 c^2=1, dim Z1=31, 26 coboundaries, 5 H1 reps, G2/G3 all True, C matrix + C.conj(C)=I + s-free) matches sealed b649_stage3b_swap_output.txt exactly modulo timing lines (diff confirmed)"
+  },
+  "deviation_audit": [
+    "b649_stage2a.py in-script comment ('det(g) is a nontrivial element of L...PROJECTIVE-EXACT') is stale, contradicted by this run's own printed det=1 output; same stale-artifact-text class as stage-1's flagged pslq issue, not fixed as house practice; FINDINGS.md text itself is accurate.",
+    "Stage 1's promised 'primitive-element minimal polynomial' quietly rescoped in PREREG_STAGE2A.md to product-basis Q(s,i) identification, no explicit reconciling note (mathematically fine, undisclosed as a scope change).",
+    "No new instance of stage-1's 'sealed output claims an unexecuted method' issue found in stages 2-3.",
+    "Preserved run1/run2 failure artifacts (b649_stage2a_run1_FAILED.txt, b649_stage3b_swap_run1_output.txt) checked and consistent with FINDINGS.md's narrative."
+  ],
+  "overall_verdict": "VERIFIED - B649 stages 2 through 3b-i (waves 2-5, commits #1046-#1049) all reproduce",
+  "git_status_porcelain_empty": true
+}

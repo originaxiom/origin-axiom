@@ -1,0 +1,22 @@
+{
+  "numeric_relator_aBAbcc_resid": 2.3173505041546766e+22,
+  "numeric_relator_aaCbcB_resid": 301002535820.44574,
+  "weld_singular_values": [
+    12.839502083117784,
+    12.839502083117779,
+    4.64322582191016e-15,
+    2.0817523557817615e-15
+  ],
+  "weld_det_u": "(0.0340659875280872-0.05513696837402495j)",
+  "weld_residual": 1.6653345369377348e-15,
+  "numeric_side2_relator_dEDeff_resid": 5.112660768022314e+54,
+  "numeric_side2_relator_ddFefE_resid": 9.313133461270927e+52,
+  "double_z1": 157,
+  "double_rankB1": 6,
+  "double_h0": 21,
+  "double_h1": 151,
+  "solo_z1": 77,
+  "solo_rankB1": 5,
+  "solo_h0": 22,
+  "solo_h1": 72
+}

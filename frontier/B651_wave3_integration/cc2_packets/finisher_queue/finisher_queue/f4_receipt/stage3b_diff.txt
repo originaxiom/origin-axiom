@@ -1,0 +1,6 @@
+5,6c5,6
+< rows built (52s)
+< dim Z1 = 31 (215s)
+---
+> rows built (47s)
+> dim Z1 = 31 (200s)

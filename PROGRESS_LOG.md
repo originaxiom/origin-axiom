@@ -5296,3 +5296,25 @@ theorem, + B650's types on quantities; the banked bridges
 (det(I-B_odd) = phi^2, trace/det dictionary) are its invariant-level
 shadows. L84 RESOLVED; L91-4 discharged; walls list gains #9. Phase
 A's F-track COMPLETE. Locks 3/3. NEXT: GATE B assembly.
+
+## 2026-07-16 — B651: THE CC2 WAVE-3 INTEGRATION (receipts + theorem upgrades + kills)
+
+The ALL bundle deduped (packets 1-3 = B646's, byte-identical); packets
+4-6 processed: 21/21 seals exact. THE RECEIPTS: B649 stages 1-3b-i ALL
+independently verified (P0/F4; m136 = b++RRLL at ISOMETRY grade —
+upgrading my weak anchor; independent backends throughout) — the
+campaign's S-verify column is FILLED through 3b-i. Their five deviation
+flags on my artifacts: all fair, all verified here, filed as dated
+ERRATA in B649 (the false trace-ratio witness -> tr(a^2)/tr(b) = i;
+residual summary; two stale-prose instances -> NEW E13 class with the
+pre-seal-grep practice; the rescoping note). UPGRADES: the uniform jump
+law -> THEOREM (325/325 exact + local proof); the generic-silence law
+-> CERTIFIED (exact cyclotomic, Milgram shape); THE MELODY THEOREM: the
+ladder is PERIODIC (N0 = 2^6 3^3 5^4 7^2 11^2 19^2; 6/6 exact) — Loop A
+closed, the ladder organ's information content is ONE FINITE PERIOD; the
+PSL-factoring theorem (the kill rule mechanized). KILLS: the
+inert<=>even correlate DIED at r=23 (prediction-first; B646's NOTICED
+corrected in place); no triality AND no swap-twisted triality on
+H1(D;27) — the double's symmetry inventory is COMPLETE: sigma* alone.
+Loop C closed at the computable level. GATE B proceeds with materially
+stronger inputs. Locks 3/3.

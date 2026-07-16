@@ -1,0 +1,191 @@
+{
+  "hash_audit": {
+    "PREREGISTRATION.md": {
+      "manifest_sha256": "429a344c115aa4aabc232e0e39f85b85cc3a2199caeee25ba65b13b5d286be16",
+      "actual_sha256": "429a344c115aa4aabc232e0e39f85b85cc3a2199caeee25ba65b13b5d286be16",
+      "match": true,
+      "note": ""
+    },
+    "b649_stage1.py": {
+      "manifest_sha256": "9d1a2abf0af4eb02c1a80df95b0211470a47e6f91ce306e905e1077a9a38a260",
+      "actual_sha256": "9d1a2abf0af4eb02c1a80df95b0211470a47e6f91ce306e905e1077a9a38a260",
+      "match": true,
+      "note": "(post-hoc, labeled: the method-deviation patches are in-trail)"
+    },
+    "b649_stage1_output.txt": {
+      "manifest_sha256": "f902deaa2fd2714e4632680e98ff0eb8b3373d15300017cbc152cfbb7af11337",
+      "actual_sha256": "f902deaa2fd2714e4632680e98ff0eb8b3373d15300017cbc152cfbb7af11337",
+      "match": true,
+      "note": "(post-hoc, labeled: the method-deviation patches are in-trail)"
+    },
+    "FINDINGS.md": {
+      "manifest_sha256": null,
+      "actual_sha256": "e26a0265ec45646d71df7c7d63a843e53fb152f638e59f6be98740ad5c4e1588",
+      "match": null,
+      "note": "NOT IN MANIFEST"
+    }
+  },
+  "hash_audit_all_match": true,
+  "volume": {
+    "double": "3.6638623767",
+    "high_precision_212bit": "3.663862376708876060218414059729536443096597497126688537065992479",
+    "to_12_digits": "3.66386237671",
+    "claimed_12_digits": "3.6638623767",
+    "match": true
+  },
+  "homology": {
+    "computed": "Z/2 + Z/2 + Z",
+    "claimed": "Z + Z/2 + Z/2",
+    "match": true
+  },
+  "bundle": {
+    "A_matches_claim": true,
+    "trace_A": 6,
+    "det_A_minus_I": -4,
+    "SNF_A_minus_I_diag": [
+      "2",
+      "2"
+    ],
+    "matches_homology_torsion_exactly": true,
+    "census_name_construction": {
+      "b++RRLL": {
+        "constructed": true,
+        "is_isometric_to_m136": true
+      },
+      "b++rrll": {
+        "constructed": true,
+        "is_isometric_to_m136": true
+      }
+    },
+    "twister_available": true,
+    "identification_strength": "STRONG (direct is_isometric_to hit)"
+  },
+  "presentation": {
+    "generators": [
+      "a",
+      "b",
+      "c"
+    ],
+    "relators": [
+      "aBAbcc",
+      "aaCbcB"
+    ],
+    "peripheral": [
+      "CCB",
+      "caCA"
+    ],
+    "matches_theirs_exactly": true
+  },
+  "holonomy_setup": {
+    "bits_prec": 350,
+    "lift_method": "lift_to_SL2=False (worked around library bug; validated below)",
+    "library_bug_confirmed": "lift_to_SL2=True raises TypeError on tuple %% int in polished_reps.py",
+    "max_det_residual": "7.143671195514218638848647176908380996574437467642491632594536520172703974417113722971550136626075185e-102",
+    "relator_residuals": {
+      "aBAbcc": "1.907343918927171585116036495746475069255969388159475168909116628026807212701243319530016303091065123e-114",
+      "aaCbcB": "9.607375389164666147504185867361541591472741358674157065971664503174779931417945059114090808801127938e-115"
+    },
+    "genuine_SL2_lift_confirmed": true
+  },
+  "cross_validation": {
+    "route_A": "M.high_precision().fundamental_group().SL2C (212-bit)",
+    "route_B": "M.polished_holonomy(bits_prec=350, lift_to_SL2=False).SL2C (350-bit)",
+    "tr_a_residual_between_routes": "7.287977610959692885567114251325454394504323690620301405167396681125015399496149762887919902457009749e-64",
+    "tr_b_residual_between_routes": "2.848670323727939624241972680868587146266289750085983489883934e-65",
+    "consistent": true
+  },
+  "peripheral": {
+    "meridian_word": "CCB",
+    "longitude_word": "caCA",
+    "trace_meridian": "(2.0 + 0.0j)",
+    "trace_longitude": "(-2.0 + 2.537941837315649223274024555830543546823618849701095581606060321239476697889299473932407429055784286e-115j)",
+    "commutator_residual": "2.857468478205687455539458870763352398629774987056996653037814608069081589766845489188620054650430074e-101",
+    "matches_claim": true
+  },
+  "five_relations_direct": {
+    "tr(b) = 2": {
+      "computed": "(2.0 + 0.0j)",
+      "residual": "0.0",
+      "pass_1e-40": true,
+      "pass_1e-55": true
+    },
+    "tr(ac) = -sqrt2 - sqrt2*i": {
+      "computed": "(-1.414213562373095048801688724209698078569671875376948073176679737990732478462107038850387534327641573 - 1.414213562373095048801688724209698078569671875376948073176679737990732478462107038850387534327641573j)",
+      "residual": "0.0",
+      "pass_1e-40": true,
+      "pass_1e-55": true
+    },
+    "tr(abc) = -2*sqrt2*i": {
+      "computed": "(0.0 - 2.828427124746190097603377448419396157139343750753896146353359475981464956924214077700775068655283145j)",
+      "residual": "0.0",
+      "pass_1e-40": true,
+      "pass_1e-55": true
+    },
+    "s^4 - 8s^2 - 16 = 0": {
+      "s_value": "-3.107547948060074614688317906126293896329166998820615672665342296667350513577466205455875772234873549",
+      "residual": "9.143899130258199857726268386442727675615279958582389289721006745821061087253905565403584174881376237e-100",
+      "pass_1e-40": true,
+      "pass_1e-55": true
+    },
+    "|tr(a)|^2 = 2*sqrt2": {
+      "computed": "2.828427124746190097603377448419396157139343750753896146353359475981464956924214077700775068655283145",
+      "residual": "0.0",
+      "pass_1e-40": true,
+      "pass_1e-55": true
+    },
+    "all_pass_1e-55": true
+  },
+  "brute_force_word_search": {
+    "num_words": 186,
+    "set_membership": {
+      "2": {
+        "best_word": "AAb",
+        "residual_up_to_conj_sign": "0.0"
+      },
+      "-sqrt2-sqrt2*i": {
+        "best_word": "CA",
+        "residual_up_to_conj_sign": "0.0"
+      },
+      "-2*sqrt2*i": {
+        "best_word": "ABc",
+        "residual_up_to_conj_sign": "0.0"
+      }
+    },
+    "all_pass_1e-55": true
+  },
+  "trace_field": {
+    "ratio_i_witness": {
+      "numerator_word": "aa",
+      "denominator_word": "b",
+      "ratio": "(0.0 + 1.0j)",
+      "residual_vs_i": "0.0"
+    },
+    "sqrt2_as_combination": {
+      "expression": "-Re(tr(ac))",
+      "value": "1.414213562373095048801688724209698078569671875376948073176679737990732478462107038850387534327641573",
+      "residual": "0.0"
+    },
+    "bonus_s_in_trace_field": {
+      "tr_c_eq_neg_conj_tr_a_residual": "1.428734239102843727769729435381676199314887493528498326518907304034540794883422744594310027325215037e-101",
+      "s_from_traces_residual": "2.857468478205687455539458870763352398629774987056996653037814608069081589766845489188620054650430074e-101"
+    },
+    "quartic_irreducible_over_Q": true,
+    "degree_lower_bound_argument": "s is REAL (s = 2*Re(tr(a)), and independently s = tr(a) - tr(c) with tr(c) = -conj(tr(a)) verified above, so s is manifestly an honest Q-linear combination of two group-element traces). The quartic s^4-8s^2-16 is irreducible over Q (sympy-confirmed) => [Q(s):Q] = 4. Because s is real, Q(s) subset R, so i is NOT in Q(s) (i is not real) => minimal polynomial of i over Q(s) is still x^2+1, degree 2 => [Q(s,i):Q(s)] = 2. Multiplicativity of tower degrees gives [Q(s,i):Q] = 4*2 = 8. Since s and i are both in the trace field (s via tr(a)-tr(c); i via tr(aa)/2, both literal traces/rational combinations), the trace field contains Q(s,i), hence [trace field : Q] >= 8.",
+    "Qzeta8_containment_residual": "0.0",
+    "degree_ge_8_confirmed": true
+  },
+  "summary": {
+    "hash_audit_all_match": true,
+    "cross_route_precision_consistent": true,
+    "volume_match": true,
+    "homology_match": true,
+    "bundle_A_matches": true,
+    "bundle_SNF_matches_homology_torsion": true,
+    "bundle_isometry_confirmed": true,
+    "genuine_SL2_lift": true,
+    "peripheral_matches": true,
+    "five_relations_all_pass_1e-55": true,
+    "brute_force_set_membership_all_pass": true,
+    "trace_field_degree_ge_8_confirmed": true
+  }
+}
