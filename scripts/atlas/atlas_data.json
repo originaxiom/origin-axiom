@@ -13177,11 +13177,13 @@
    "refs": [
     "B2",
     "B575",
+    "B638",
     "B648",
+    "K020",
     "S1"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 2,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },

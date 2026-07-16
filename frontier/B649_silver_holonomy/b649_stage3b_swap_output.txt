@@ -1,0 +1,28 @@
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (47s)
+dim Z1 = 31 (200s)
+independent coboundaries: 26
+H1 representatives: 5
+
+== G2: sigma* maps the representatives to cocycles ==
+  cocycle: [True, True, True, True, True]
+
+== G3: sigma*^2 = id mod B1 ==
+  [True, True, True, True, True]
+
+== G4: the sigma*-matrix (run 2: honest coordinate solve —
+   run 1's echelon-coefficient shortcut was frame-mangled; its
+   diagonal violated the G3-proven constraint |d|=1, the tell) ==
+  C[0] = ([Fraction(160633, 386425), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(351456, 386425), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  0  ;  0  ;  0  ;  0
+  C[1] = ([Fraction(1133810259444, 1310260832772125), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(-8318520416192, 1310260832772125), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  ([Fraction(10917036583, 16953624025), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(-12970878144, 16953624025), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  0  ;  0  ;  0
+  C[2] = 0  ;  0  ;  ([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  0  ;  0
+  C[3] = ([Fraction(33410809, 3091400), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(2683086, 386425), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  0  ;  ([Fraction(-17, 2520), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  ([Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  0
+  C[4] = ([Fraction(-356021007610706010575647, 237061027104542488848000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(26931537756581745410548591, 22757858602036078929408000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  ([Fraction(-118468546209615123, 1021432373257600), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(-7954831121193873, 31919761664300), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  ([Fraction(-1180628699, 8756024659200), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(-10188096091, 48158135625600), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  ([Fraction(-69448747, 1737306480), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])  ;  ([Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]|[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)])
+  C . conj(C) = I exactly: True
+  C is s-free (lives in Q(i)): True
+sigma_matrix_L.json written (honest coordinates)
+
+B649 stage 3b-i DONE

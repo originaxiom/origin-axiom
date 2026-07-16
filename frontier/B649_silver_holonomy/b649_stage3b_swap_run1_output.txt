@@ -1,0 +1,24 @@
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (49s)
+dim Z1 = 31 (202s)
+independent coboundaries: 26
+H1 representatives: 5
+
+== G2: sigma* maps the representatives to cocycles ==
+  cocycle: [True, True, True, True, True]
+
+== G3: sigma*^2 = id mod B1 ==
+  [True, True, True, True, True]
+
+== G4: the sigma*-matrix ==
+  sigma*[0] coeffs: [Fraction(-523, 186967872000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-1, 556452000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | 0 | 0 | 0 | 0
+  sigma*[1] coeffs: [Fraction(6919576159, 950934901992697440000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(21205355543, 2535826405313859840000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | [Fraction(-18313, 4850832318840668160000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-527, 64966504270187520000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | 0 | 0 | 0
+  sigma*[2] coeffs: 0 | 0 | [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | 0 | 0
+  sigma*[3] coeffs: [Fraction(258659, 5982971904000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-5780771, 17948915712000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | 0 | [Fraction(-227, 75600), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-89, 8400), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | [Fraction(1, 2419200), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | 0
+  sigma*[4] coeffs: [Fraction(2271732863845505212853, 131085265547727814633390080000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-187552726104279011494867, 22022324612018272858409533440000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | [Fraction(-9417517197713, 1169023722692373601320960000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-2168708154353113, 15197308395000856817172480000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | [Fraction(2429910362987, 2889488137536000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(-95093402251, 321054237504000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | [Fraction(1486981, 175120493184000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(2362291, 100068853248000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec | [Fraction(1, 4291854336000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]+[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]i-vec
+sigma_matrix_L.json written
+
+B649 stage 3b-i DONE

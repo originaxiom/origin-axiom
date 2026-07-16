@@ -142,3 +142,44 @@ witnessed-on-two-objects. h¹ = 5 ≥ 3 ⇒ **stage 3b opens: the silver
 Y-tensor** (the certificate machinery over L; the core-law SHAPE, the
 cross-ratio, the swap structure — each checked at form level with the
 silver's own arithmetic).
+
+---
+
+## Stage 3b-i (prereg 3d0d45f7) — THE SILVER SWAP STRUCTURE REPRODUCES; the invariant sharpened
+
+**Gates: G1–G3 all PASS exactly; G4 delivered with a run-2 correction.**
+
+- **G1** — U₂₇·conj(U₂₇) = +1·I exactly: **J² = +1 reproduces** on the
+  silver (the fig-8's sign, not assumed).
+- **G2/G3** — σ* maps all five H¹ classes to cocycles; σ*² = id mod
+  B¹ (5/5): the antilinear involution (real structure) on H¹(D; 27)
+  is OBJECT-INDEPENDENT across the two computed objects.
+- **G4 (run 2 — the honest coordinate solve; run 1's
+  echelon-coefficient shortcut was frame-mangled and its own G3-proven
+  constraint |d| = 1 was the tell, preserved in
+  `b649_stage3b_swap_run1_output.txt`)**: the exact 5×5 matrix C with
+  **C·conj(C) = I exactly**, lower-triangular in the computed basis,
+  diagonal (d₀, d₁, 1, −1, 1) with d₀, d₁ norm-1 elements of ℚ(i) —
+  and the headline structural fact: **C is entirely s-free — the
+  σ*-matrix is defined over ℚ(i)**, the silver's imaginary quadratic
+  subfield (the fig-8's matrix was defined over ℚ(√−3), ITS imaginary
+  quadratic field).
+
+**The invariant, sharpened (a precision note that applies to the
+fig-8's banked phrasing too):** by Hilbert 90, every norm-1 element of
+an imaginary quadratic field is conj(c)/c — so the DIAGONAL entries of
+an antilinear involution's matrix are basis-gauge-variant, and
+"unit-diagonal" statements (including B638's banked "Eisenstein-unit
+spectrum" wording) carry gauge slack. The gauge-INVARIANT content is:
+(i) the real structure itself (J² = +1, C·conj(C) = I), and (ii) the
+FIELD OF DEFINITION of the matrix — ℚ(ζ₆)-side ℚ(√−3) for the fig-8,
+ℚ(ζ₄) = ℚ(i) for the silver. The K020 reading at form level: the real
+structure is forced; the imaginary quadratic field is object-chosen.
+Routed: a dated precision note for the B638 row (grammar-table
+accuracy), NOT a retraction — B638's theorem content (J² = +1, the
+law Y∘σ* = conj Y, the phase geometry via the law) is basis-free and
+untouched.
+
+**§B2 scorecard so far:** dimension grammar 3/5/1 ✓ reproduced; swap
+real structure ✓ reproduced (with the field-of-definition refinement).
+Remaining silver input: the Y-tensor (stage 3b-ii, certificates).
