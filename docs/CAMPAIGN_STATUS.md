@@ -40,10 +40,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
   residues named (A3 bounded; A4 stage-choice qualifier binding). The thesis
   verdict: after ONE binary calibration, every further same-type
   dimensionless observable is a zero-parameter prediction.
-- **PAUSED FOR THE OWNER:** Phase C requires the sealed three-way seat
-  separation (sealer ≠ predictor ≠ comparator) — cross-seat relay needed;
-  C1 then runs by the frozen channel rule (JUNO sector first, PMNS-typed
-  second). Tracks L (cc2 ladder) and W (L95) remain event-driven.
+- **PHASE C OPEN — THE C2 DESIGN SEALED (B653, hash 864909ce):** the
+  channel = the pre-campaign JUNO forward row; THE C′ EVENT fired (range
+  physicality fixes the branch — zero calibration); the parameter-free
+  prediction sin²θ₁₂ = 1/(2φ) exact; one-shot verdict bands sealed with
+  the honest FP printed. The predictor (cc2) and comparator (web seat)
+  execute their handoffs; then SEALED-PENDING-NATURE until JUNO's first
+  publication. Tracks L and W remain event-driven.
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2

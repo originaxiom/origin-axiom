@@ -5358,3 +5358,25 @@ extraction-seal -> reveal -> statistic), with exposure lines recorded,
 not on pretended ignorance. Handoffs hashed into the campaign arc.
 NEXT (main seat, after the owner relays): seal the C2 design (the
 frozen channel rule evaluates JUNO-sector first, PMNS-typed second).
+
+## 2026-07-16 — B653: THE C2 DESIGN SEALED (Phase C open; the C-prime event)
+
+The frozen channel rule ran: (1) THE JUNO FORWARD ROW PASSES — the
+pairing (sin^2 theta_12 <-> the second tone 1/(2 phi)) was banked
+2026-07-15, PRE-CAMPAIGN (unarguable pre-registration); the held-out
+target = JUNO's FIRST published measurement (absent from all inputs BY
+CAUSALITY — the only clean provenance grade; every current-data channel
+fails provenance because its values are in our banked inputs, so (2)
+PMNS-current was evaluated-and-failed). THE C-PRIME EVENT: the Galois
+image of tone_2 is -phi/2, outside [0,1] — RANGE PHYSICALITY FIXES THE
+BRANCH WITH ZERO MEASUREMENTS; N_eff = 0; the campaign upgrades to
+direct prediction: **sin^2 theta_12 = 1/(2 phi) = (sqrt5-1)/4 =
+0.30901699437494742410..., exact, zero parameters.** Criterion sealed:
+|z| <= 2 outcome A at the PRINTED FP ~5-6% (suggestive, not decisive;
+does NOT separate from 4/13 at 0.9 sigma_JUNO — stated); |z| > 4
+outcome B = the falsification, banked with equal prominence; gray =
+inconclusive; ONE SHOT either way. A4 qualifier attaches verbatim; A3
+reopen clause armed; Gate 5 intact (nothing to CLAIMS). Seal hash
+864909ce. The predictor (cc2) and comparator (web seat) lanes now
+execute per their handoffs; the campaign goes SEALED-PENDING-NATURE on
+extraction+prediction seals. Locks 3/3.
