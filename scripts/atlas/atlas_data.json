@@ -13203,6 +13203,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B650": {
+   "slug": "typed functor",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B584",
+    "B586",
+    "B593",
+    "B595",
+    "B596",
+    "B611",
+    "B613",
+    "B626",
+    "B632",
+    "B646",
+    "K1",
+    "L84"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B65": {
    "slug": "sl4 symbolic jacobian",
    "motifs": [

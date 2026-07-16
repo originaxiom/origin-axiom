@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B650: the type system (track F wave 1; the battery worked)
+
+### Added
+- TYPES.md v1 (frozen 306d6cde pre-held-out) + the mechanical checker: three
+  base types, three flags, rules R0–R6. Held-out battery: 3/4 clean, one
+  designed failure (v₀: element vs quantity) → the one permitted revision
+  (R0) → 4/4. K1 not fired. R5 binds Phase C. Wave F2 = the functorial map.
+
 ## 2026-07-16 — B647 cell 2: THE ANOMALY CHARACTERIZATION (track M)
 
 ### Added
