@@ -364,7 +364,10 @@ alternating family tensor contracted with the SYMMETRIC E6 cubic
 vanishes for identical families; Y is therefore a flux-type invariant
 across INEQUIVALENT modes, not a Yukawa-type family tensor.
 *Locks:* the `test_b632_*`, `test_b637_*` families; three independent
-pipelines agree on the underlying cohomology tables.
+pipelines agree on the underlying cohomology tables. The core identity
+holds on all NINE computed doubles (five weld-family and four
+involution gluings), including representative-rescaled families —
+the 24*zeta_6 relation is a gluing-independent law of the chord's core.
 
 ---
 
