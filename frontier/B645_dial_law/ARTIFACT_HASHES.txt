@@ -1,0 +1,8 @@
+# B645 artifact hashes (sha256) — added at B646 per the cc2 N4 receipt's
+# fair flag. HONEST STATUS: B645 had NO PREREGISTRATION — it was an
+# exploratory-exact computation on already-banked B637 tables (zero new
+# runs, zero fitted parameters; every statement an exact identity,
+# re-verifiable by rerun). The forward rule (GOVERNANCE §13) applies to
+# all future arcs; these hashes are recorded post-hoc with that label.
+b7bb3b3bfc3e3430da8f9c6dc8065bfdfa3910fdb1fbdd2dae039ba911d7bb0f  b645_invariants.py
+90bd28efd3bce6047088f413791cc3a65f0dc6fd2514d1aeea39515e25615e79  b645_output.txt

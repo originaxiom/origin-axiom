@@ -85,3 +85,15 @@ def test_thirteen_dial_on_lit_three():
                     num, den = sp.fraction(sp.Rational(comp))
                     assert num % 13 == 0, (k, comp)
                     assert den % 13 != 0, (k, comp)
+
+
+def test_b645_artifact_hashes_live():
+    import hashlib
+    d = os.path.join(HERE, "..", "frontier", "B645_dial_law")
+    for line in open(os.path.join(d, "ARTIFACT_HASHES.txt")):
+        parts = line.split()
+        if len(parts) == 2 and len(parts[0]) == 64:
+            h, fn = parts
+            got = hashlib.sha256(
+                open(os.path.join(d, fn), "rb").read()).hexdigest()
+            assert got == h, fn

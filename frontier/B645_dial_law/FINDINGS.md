@@ -60,6 +60,11 @@ computed double, with equality-to-∞ (i.e. exactly 1) precisely on the
 
 ## Status and routing
 
+- **No preregistration existed for this arc** (stated explicitly per the
+  cc2 N4 receipt's flag): exploratory-exact on banked tables — no new
+  runs, no held-out values, no fitted parameters; every claim is an
+  exact identity re-verifiable by `b645_invariants.py`. ARTIFACT_HASHES
+  added post-hoc, labeled.
 - Strength: **LAW** (exact on every computed instance; mechanism open).
   This replaces C3's sketched "regression against τ_m" with something
   strictly stronger: exact identities, zero fitted parameters.

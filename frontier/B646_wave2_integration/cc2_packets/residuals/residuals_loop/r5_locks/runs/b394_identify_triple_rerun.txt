@@ -1,0 +1,2 @@
+triple = x + y*c1 + z*c2 with (x,y,z) = ['1/12', '-1/12', '-1/12']
+DONE

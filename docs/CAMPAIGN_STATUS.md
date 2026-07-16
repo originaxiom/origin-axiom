@@ -53,6 +53,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
 
+## LAST BANKED (B646 — the cc2 wave-2 integration, 2026-07-16)
+- Three sealed packets verified (11/11 seals; deciders + lemma battery rerun
+  here) and banked: the generic-silence law (1−(κ|5))/2, the uniform jump
+  law, the stage-split clock law (anomaly zone dissolved), Z₇=2, the ladder
+  + prediction bank; the disc(A₁)=5 triple shadow noticed. Mutual
+  verification: cc2 independently verified B643/B644/B645; their flags fixed.
+  R20-10 first tranche done; L95 pending.
+
 ## LAST BANKED (REVIEW 20 executed, 2026-07-16)
 - The standard-cadence review of #1003–#1034: protocol integrity certified;
   the audit-seat provenance correction; TERMINOLOGY extended; eight promotion

@@ -59,3 +59,15 @@ def test_b644_banked_run():
     fnd = open(os.path.join(B644, "FINDINGS.md")).read()
     assert "sealing error, disclosed" in fnd  # the M3 adjudication is in
     assert "NEEDS-SPECIALIST" in fnd
+
+
+def test_b644_artifact_hashes_live():
+    import hashlib
+    d = B644
+    for line in open(os.path.join(d, "ARTIFACT_HASHES.txt")):
+        parts = line.split()
+        if len(parts) == 2 and len(parts[0]) == 64:
+            h, fn = parts
+            got = hashlib.sha256(
+                open(os.path.join(d, fn), "rb").read()).hexdigest()
+            assert got == h, fn

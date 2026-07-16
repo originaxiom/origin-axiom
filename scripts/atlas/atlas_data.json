@@ -13119,6 +13119,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B646": {
+   "slug": "wave2 integration",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B480",
+    "B544",
+    "B600",
+    "B640",
+    "B643",
+    "B644",
+    "B645",
+    "L2",
+    "L3",
+    "L77",
+    "L81"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B64": {
    "slug": "parity mechanism",
    "motifs": [

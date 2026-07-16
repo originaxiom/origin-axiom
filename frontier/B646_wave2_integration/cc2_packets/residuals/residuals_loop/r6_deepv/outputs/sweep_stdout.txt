@@ -1,0 +1,53 @@
+==============================================================================
+R6 SWEEP: deep-V localized regime, V in {4,8,16}, N in {610,1597}
+ell grid: 4..160 step 2 (79 pts); n_pos=20; R_main=20; R_periodic=4; seed_random=1
+engine: veins/v6_tension step2_run_sweep.run_main_like (imported, not rewritten)
+==============================================================================
+
+BAND-FILLING CONTEXT (main word r=0): charges a=1, b=3, A=6, B=7; bands fill
+in charge order at deep V; cumulative letter frequency vs half filling 0.5:
+  N=610: f_a=0.2721 f_b=0.1689 f_A=0.3459 f_B=0.2131 | cumulative (a,b,A,B charge order): 0.2721, 0.4410, 0.7869, 1.0000  [half filling 0.5 falls in the A-band]
+  N=1597: f_a=0.2724 f_b=0.1684 f_A=0.3456 f_B=0.2135 | cumulative (a,b,A,B charge order): 0.2724, 0.4408, 0.7865, 1.0000  [half filling 0.5 falls in the A-band]
+
+LOCALIZATION SANITY (main word r=0; 20 mid-spectrum states at the Fermi index):
+     N      V    PR_mean     PR_sd    PR_min    PR_max   fermi_gap  gap/spacing
+   610    0.0     407.33      0.00    407.33    407.33     0.01028         1.57
+   610    1.0     209.62     84.75     63.51    366.32     0.00964         1.44
+   610    4.0      15.56      7.60      5.01     35.38     0.00002         0.00
+   610    8.0       5.70      2.75      2.86     11.74     0.00000         0.00
+   610   16.0       3.91      1.60      2.27      8.88     0.00000         0.00
+  1597    0.0    1052.02     59.55    799.00   1065.33     0.00393         1.57
+  1597    1.0     668.60    163.62    396.32    953.68     0.00262         1.03
+  1597    4.0      15.33      9.47      6.05     36.83     0.00000         0.00
+  1597    8.0       6.58      3.57      2.89     13.86     0.00000         0.00
+  1597   16.0       8.60      4.35      2.27     16.44     0.00000         0.00
+
+LOCALIZATION of CONTROLS (r=0 word, V=8 shown; random should localize too, periodic stays Bloch-extended within its bands):
+  random    N=1597 V= 4.0: PR_mean=   14.36  fermi_gap=0.00164  gap/spacing=0.46
+  random    N=1597 V= 8.0: PR_mean=    4.85  fermi_gap=0.00560  gap/spacing=1.14
+  random    N=1597 V=16.0: PR_mean=    2.86  fermi_gap=0.00621  gap/spacing=0.82
+  periodic  N=1597 V= 4.0: PR_mean=  738.97  fermi_gap=0.00378  gap/spacing=1.30
+  periodic  N=1597 V= 8.0: PR_mean=  574.25  fermi_gap=0.00418  gap/spacing=1.09
+  periodic  N=1597 V=16.0: PR_mean=  377.02  fermi_gap=0.00143  gap/spacing=0.23
+
+STRING SWEEP (closed: 20 bulk positions; open: edge-anchored; per realization):
+[main      V= 4.0 N=  610] R=20  wrote outputs/raw_main_V4_610.npz  (69.9s, nonfinite=0)
+[random    V= 4.0 N=  610] R=20  wrote outputs/raw_random_V4_610.npz  (78.1s, nonfinite=0)
+[periodic  V= 4.0 N=  610] R= 4  wrote outputs/raw_periodic_V4_610.npz  (26.8s, nonfinite=0)
+[main      V= 4.0 N= 1597] R=20  wrote outputs/raw_main_V4_1597.npz  (177.0s, nonfinite=0)
+[random    V= 4.0 N= 1597] R=20  wrote outputs/raw_random_V4_1597.npz  (97.0s, nonfinite=0)
+[periodic  V= 4.0 N= 1597] R= 4  wrote outputs/raw_periodic_V4_1597.npz  (16.1s, nonfinite=0)
+[main      V= 8.0 N=  610] R=20  wrote outputs/raw_main_V8_610.npz  (57.9s, nonfinite=0)
+[random    V= 8.0 N=  610] R=20  wrote outputs/raw_random_V8_610.npz  (56.3s, nonfinite=0)
+[periodic  V= 8.0 N=  610] R= 4  wrote outputs/raw_periodic_V8_610.npz  (9.5s, nonfinite=0)
+[main      V= 8.0 N= 1597] R=20  wrote outputs/raw_main_V8_1597.npz  (52.9s, nonfinite=0)
+[random    V= 8.0 N= 1597] R=20  wrote outputs/raw_random_V8_1597.npz  (52.6s, nonfinite=0)
+[periodic  V= 8.0 N= 1597] R= 4  wrote outputs/raw_periodic_V8_1597.npz  (11.3s, nonfinite=0)
+[main      V=16.0 N=  610] R=20  wrote outputs/raw_main_V16_610.npz  (36.1s, nonfinite=0)
+[random    V=16.0 N=  610] R=20  wrote outputs/raw_random_V16_610.npz  (38.5s, nonfinite=0)
+[periodic  V=16.0 N=  610] R= 4  wrote outputs/raw_periodic_V16_610.npz  (7.0s, nonfinite=0)
+[main      V=16.0 N= 1597] R=20  wrote outputs/raw_main_V16_1597.npz  (45.4s, nonfinite=0)
+[random    V=16.0 N= 1597] R=20  wrote outputs/raw_random_V16_1597.npz  (56.2s, nonfinite=0)
+[periodic  V=16.0 N= 1597] R= 4  wrote outputs/raw_periodic_V16_1597.npz  (11.7s, nonfinite=0)
+
+DONE. total 901.9s. wrote outputs/sweep_manifest.json

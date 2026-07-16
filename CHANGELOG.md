@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B646 the cc2 wave-2 integration (three packets verified)
+
+### Added
+- **The generic-silence law** Z(κ) = (1−(κ|5))/2 — silence = the quadratic
+  character of disc(A₁) = 5 (erratum-corrected; deciders rerun here).
+- **The uniform jump law** (300/300, rerun), **the stage-split clock law**
+  (anomaly zone dissolved: Fibonacci core at κ=5, PSL(2,7) at κ=14), the
+  splitting law's split rung; Z₇ = 2; the ladder {+1,+1,+1,0,+1,+1,2} +
+  prediction bank (Z₈ confirmed prediction-first).
+- **The disc(A₁) = 5 triple shadow** (one discriminant, three organs) — the
+  calibration campaign's leading grammar input.
+- cc2's independent receipt of B643/B644/B645 (all verified; M3 adjudication
+  corroborated); their flags fixed (ARTIFACT_HASHES + live hash locks).
+- 20 adopted locks (test_cc2_r5_adopted); L96–L98; 11/11 seals verified.
+
 ## 2026-07-16 — Phase 2 starters (the reader-facing layer)
 
 ### Added

@@ -1,0 +1,229 @@
+
+====================================================================================================
+PART A -- CONSTRUCTION (no cost computation anywhere in this Part)
+====================================================================================================
+
+------------------------------------------------------------------------------------------
+A0. The generative family, stated exactly
+------------------------------------------------------------------------------------------
+
+FAMILY ("R4 coupled-Fibonacci-type"): four integer parameters (i_a, j_a, i_A, j_A) >= 0,
+with i_a+j_a >= 1 and i_A+j_A >= 1 (so a's and A's images have content beyond the bare
+coupling suffix), plus two short fixed coupling strings bimg (must contain >=1 'A') and
+Bimg (must contain >=1 'a'):
+    image(a) = 'a'*i_a + 'A'*j_a + 'b'
+    image(A) = 'A'*i_A + 'a'*j_A + 'B'
+    image(b) = bimg
+    image(B) = Bimg
+Why this is primitive for ANY valid parameter choice: the fixed trailing 'b'/'B' suffixes
+plus bimg containing 'A' and Bimg containing 'a' give the backbone 4-cycle
+    a -> b -> A -> B -> a
+so the incidence matrix is irreducible regardless of (i_a,j_a,i_A,j_A). Self-loops at a
+(if i_a>=1) or A (if i_A>=1), or the 3-cycles created by j_a>=1 (a->A->B->a) or j_A>=1
+(A->a->b->A), break the pure period-4 case -- so the matrix is primitive (checked below,
+not just argued) for every parameter combination used here.
+
+Parameter selection (design-stage tooling, NOT itself sealed/scientific content -- only the
+final 8 image strings below are): searched (scratch scripts explore_family.py/2/3.py in
+this directory, fixed search seed 44) for 8 tuples whose Perron roots land close to 8
+targets evenly spaced across [1.8, 4.2], while also reducing the incidental collinearity
+between Perron root and rotating-pair length sum that a naive single-knob sweep of this
+family produces (an unconstrained search gave within-set rho=0.96 between the two
+predictors -- nearly degenerate as a two-predictor test; varying bimg/Bimg content, which
+moves Perron root without moving len(a)+len(A) at all, brought this down to rho=0.52,
+p=0.19, i.e. the two predictors are NOT forced to agree in this design, so the 8-point test
+below can actually distinguish them.
+
+The 8 fresh substitutions (exact image strings):
+  R4_1: params={'ia': 1, 'ja': 0, 'iA': 1, 'jA': 1, 'bimg': 'A', 'Bimg': 'a'}  sub={'a': 'ab', 'A': 'AaB', 'b': 'A', 'B': 'a'}
+  R4_2: params={'ia': 1, 'ja': 0, 'iA': 0, 'jA': 1, 'bimg': 'ABB', 'Bimg': 'aB'}  sub={'a': 'ab', 'A': 'aB', 'b': 'ABB', 'B': 'aB'}
+  R4_3: params={'ia': 0, 'ja': 1, 'iA': 0, 'jA': 1, 'bimg': 'AbB', 'Bimg': 'aaB'}  sub={'a': 'Ab', 'A': 'aB', 'b': 'AbB', 'B': 'aaB'}
+  R4_4: params={'ia': 2, 'ja': 3, 'iA': 1, 'jA': 0, 'bimg': 'AAB', 'Bimg': 'a'}  sub={'a': 'aaAAAb', 'A': 'AB', 'b': 'AAB', 'B': 'a'}
+  R4_5: params={'ia': 2, 'ja': 2, 'iA': 2, 'jA': 0, 'bimg': 'AbB', 'Bimg': 'aB'}  sub={'a': 'aaAAb', 'A': 'AAB', 'b': 'AbB', 'B': 'aB'}
+  R4_6: params={'ia': 3, 'ja': 0, 'iA': 2, 'jA': 1, 'bimg': 'ABB', 'Bimg': 'ab'}  sub={'a': 'aaab', 'A': 'AAaB', 'b': 'ABB', 'B': 'ab'}
+  R4_7: params={'ia': 3, 'ja': 1, 'iA': 0, 'jA': 1, 'bimg': 'AAB', 'Bimg': 'aaB'}  sub={'a': 'aaaAb', 'A': 'aB', 'b': 'AAB', 'B': 'aaB'}
+  R4_8: params={'ia': 4, 'ja': 0, 'iA': 0, 'jA': 1, 'bimg': 'AbB', 'Bimg': 'abb'}  sub={'a': 'aaaab', 'A': 'aB', 'b': 'AbB', 'B': 'abb'}
+
+------------------------------------------------------------------------------------------
+A1. Primitivity check (Perron-Frobenius; some matrix power strictly positive)
+------------------------------------------------------------------------------------------
+  R4_1: incidence=
+[[1 1 0 0]
+ [0 0 1 0]
+ [1 0 1 1]
+ [1 0 0 0]]
+    primitive=True (k=4)
+  R4_2: incidence=
+[[1 1 0 0]
+ [0 0 1 2]
+ [1 0 0 1]
+ [1 0 0 1]]
+    primitive=True (k=4)
+  R4_3: incidence=
+[[0 1 1 0]
+ [0 1 1 1]
+ [1 0 0 1]
+ [2 0 0 1]]
+    primitive=True (k=2)
+  R4_4: incidence=
+[[2 1 3 0]
+ [0 0 2 1]
+ [0 0 1 1]
+ [1 0 0 0]]
+    primitive=True (k=3)
+  R4_5: incidence=
+[[2 1 2 0]
+ [0 1 1 1]
+ [0 0 2 1]
+ [1 0 0 1]]
+    primitive=True (k=3)
+  R4_6: incidence=
+[[3 1 0 0]
+ [0 0 1 2]
+ [1 0 2 1]
+ [1 1 0 0]]
+    primitive=True (k=2)
+  R4_7: incidence=
+[[3 1 1 0]
+ [0 0 2 1]
+ [1 0 0 1]
+ [2 0 0 1]]
+    primitive=True (k=3)
+  R4_8: incidence=
+[[4 1 0 0]
+ [0 1 1 1]
+ [1 0 0 1]
+ [1 2 0 0]]
+    primitive=True (k=3)
+All 8 confirmed primitive.
+
+------------------------------------------------------------------------------------------
+A2. Distinctness from every named prior substitution
+------------------------------------------------------------------------------------------
+Named prior substitutions (regenerated/reused exactly, for byte-level comparison):
+  GOLD       = {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}
+  GOLDMIRROR = {'a': 'aAB', 'b': 'abAAB', 'A': 'aA', 'B': 'abAB'}
+  SYMMETRIC  = {'a': 'abAB', 'b': 'aA', 'A': 'abAB', 'B': 'aA'}
+  UNCOUPLED  = {'a': 'ab', 'b': 'a', 'A': 'AB', 'B': 'A'}
+  ASSIGN2b   = {'a': 'abAB', 'A': 'aA', 'b': 'abAAB', 'B': 'aAB'}
+  RAND1      = {'a': 'aBaBA', 'b': 'BAb', 'A': 'Babb', 'B': 'bb'}
+  RAND2      = {'a': 'baAaB', 'b': 'Abb', 'A': 'baAA', 'B': 'ba'}
+  RAND3      = {'a': 'aAaAB', 'b': 'AbB', 'A': 'Abba', 'B': 'Ba'}
+
+All 8 x (5 named + 3 random) + all pairwise-within-8 comparisons distinct? True
+
+------------------------------------------------------------------------------------------
+A3. Perron root and rotating-pair image-length sum (EXACT, per substitution)
+------------------------------------------------------------------------------------------
+  R4_1: Perron=1.897179   rotating-pair length sum (len(a)+len(A))=5
+  R4_2: Perron=2.174559   rotating-pair length sum (len(a)+len(A))=4
+  R4_3: Perron=2.485584   rotating-pair length sum (len(a)+len(A))=4
+  R4_4: Perron=2.835961   rotating-pair length sum (len(a)+len(A))=8
+  R4_5: Perron=3.174559   rotating-pair length sum (len(a)+len(A))=8
+  R4_6: Perron=3.514137   rotating-pair length sum (len(a)+len(A))=8
+  R4_7: Perron=3.852708   rotating-pair length sum (len(a)+len(A))=7
+  R4_8: Perron=4.203612   rotating-pair length sum (len(a)+len(A))=7
+
+(Diagnostic) Spearman(Perron, rotating-sum) WITHIN this 8-point design: rho=0.5189 p=0.1876 -- the two predictors are NOT forced to agree by construction.
+
+------------------------------------------------------------------------------------------
+A4. THE PREREGISTERED PREDICTIONS (direction fixed from the banked V2b sign, not re-derived)
+------------------------------------------------------------------------------------------
+V2b (banked, mechanism.py B7, n=6, post-hoc): both correlations were POSITIVE --
+  Spearman(rotating-pair length sum, headline cost): rho=+0.9276  p=0.0077
+  Spearman(Perron root,             headline cost): rho=+0.8857  p=0.0188
+i.e. LARGER predictor value -> LARGER (worse) normalized nesting cost. This cell
+adopts that direction as the prediction to be tested -- it is not re-derived here,
+exactly as instructed (the direction is banked; only the fit on FRESH data is new).
+
+PREDICTED cost order from Perron root (ascending Perron = ascending/best-first predicted cost):
+    R4_1  <  R4_2  <  R4_3  <  R4_4  <  R4_5  <  R4_6  <  R4_7  <  R4_8
+
+PREDICTED cost order from rotating-pair length sum (ascending sum = ascending/best-first predicted cost):
+    R4_2  <  R4_3  <  R4_1  <  R4_7  <  R4_8  <  R4_4  <  R4_5  <  R4_6
+
+The two predicted orders identical? False
+
+------------------------------------------------------------------------------------------
+A5. WRITING THE SEALED PREDICTIONS FILE (before any nesting-cost computation)
+------------------------------------------------------------------------------------------
+Wrote /Users/dri/oa-seat-cc2/seat-work/residuals_loop/r4_resonance/r4_predictions_SEALED.txt  (4583 bytes)
+SHA256(r4_predictions_SEALED.txt) = 96c005cc008cfcd2c7834241e9f6894803a5f8eca0f7757654d548f332b368a6
+
+####################################################################################################
+### SEAL BARRIER -- everything above this line was computed/written with ZERO nesting-cost
+### values in scope. Everything below now proceeds to compute actual costs.
+####################################################################################################
+
+====================================================================================================
+PART B -- COST COMPUTATION (only now; predictions above are frozen)
+====================================================================================================
+
+------------------------------------------------------------------------------------------
+B0. Growth scan + matched levels (target hi word length = 243, consecutive levels)
+------------------------------------------------------------------------------------------
+  R4_1: growth=[(1, 2), (2, 3), (3, 6), (4, 12), (5, 23), (6, 43), (7, 81), (8, 154), (9, 293), (10, 556), (11, 1054)]
+          matched levels (8,9)  lengths 154->293  dims 308->586
+  R4_2: growth=[(1, 2), (2, 5), (3, 11), (4, 23), (5, 50), (6, 110), (7, 239), (8, 518), (9, 1127)]
+          matched levels (6,7)  lengths 110->239  dims 220->478
+  R4_3: growth=[(1, 2), (2, 5), (3, 13), (4, 32), (5, 79), (6, 197), (7, 490), (8, 1217)]
+          matched levels (5,6)  lengths 79->197  dims 158->394
+  R4_4: growth=[(1, 6), (2, 21), (3, 56), (4, 151), (5, 431), (6, 1236)]
+          matched levels (3,4)  lengths 56->151  dims 112->302
+  R4_5: growth=[(1, 5), (2, 19), (3, 62), (4, 193), (5, 602), (6, 1900)]
+          matched levels (3,4)  lengths 62->193  dims 124->386
+  R4_6: growth=[(1, 4), (2, 15), (3, 53), (4, 187), (5, 657), (6, 2309)]
+          matched levels (3,4)  lengths 53->187  dims 106->374
+  R4_7: growth=[(1, 5), (2, 20), (3, 75), (4, 287), (5, 1108)]
+          matched levels (3,4)  lengths 75->287  dims 150->574
+  R4_8: growth=[(1, 5), (2, 23), (3, 100), (4, 427), (5, 1808)]
+          matched levels (3,4)  lengths 100->427  dims 200->854
+
+Max hi-dimension across all 8: 854  (runtime guard: dims <= 1000)
+
+------------------------------------------------------------------------------------------
+B1. Raw nesting cost + uniform-phase null (500 trials) + normalized cost
+------------------------------------------------------------------------------------------
+  [R4_1] word 154->293  dim 308->586  raw=4.460552e-09  null_mean=5.721015e-05(+/-1.04e-05,n=500)  normalized=7.796785e-05  [5.23s]
+  [R4_2] word 110->239  dim 220->478  raw=2.609517e-07  null_mean=8.643173e-05(+/-1.79e-05,n=500)  normalized=3.019165e-03  [2.44s]
+  [R4_3] word 79->197  dim 158->394  raw=7.028706e-09  null_mean=1.256696e-04(+/-3.03e-05,n=500)  normalized=5.593004e-05  [2.47s]
+  [R4_4] word 56->151  dim 112->302  raw=4.724262e-14  null_mean=2.120819e-04(+/-5.79e-05,n=500)  normalized=2.227565e-10  [1.41s]
+  [R4_5] word 62->193  dim 124->386  raw=5.762040e-09  null_mean=1.312875e-04(+/-3.22e-05,n=500)  normalized=4.388872e-05  [1.37s]
+  [R4_6] word 53->187  dim 106->374  raw=8.676602e-09  null_mean=1.389652e-04(+/-3.76e-05,n=500)  normalized=6.243721e-05  [1.37s]
+  [R4_7] word 75->287  dim 150->574  raw=2.394737e-09  null_mean=5.999927e-05(+/-1.27e-05,n=500)  normalized=3.991277e-05  [4.23s]
+  [R4_8] word 100->427  dim 200->854  raw=4.424709e-09  null_mean=2.721680e-05(+/-5.27e-06,n=500)  normalized=1.625727e-04  [8.50s]
+
+Total elapsed so far: 27.0s (guard: ~20 min = 1200s)
+
+====================================================================================================
+PART C -- SPEARMAN ANALYSIS + SEALED PROMOTION VERDICT
+====================================================================================================
+MEASURED order (ascending normalized cost, i.e. best/lowest cost first):
+    R4_4  <  R4_7  <  R4_5  <  R4_3  <  R4_6  <  R4_1  <  R4_8  <  R4_2
+
+PREDICTED order (Perron root, from the sealed file):
+    R4_1  <  R4_2  <  R4_3  <  R4_4  <  R4_5  <  R4_6  <  R4_7  <  R4_8
+
+PREDICTED order (rotating-pair length sum, from the sealed file):
+    R4_2  <  R4_3  <  R4_1  <  R4_7  <  R4_8  <  R4_4  <  R4_5  <  R4_6
+
+Spearman(Perron root, measured normalized cost)          across these 8 fresh points: rho=-0.2143  p=0.6103   PROMOTED=False
+Spearman(rotating-pair length sum, measured normalized cost) across these 8 fresh points: rho=-0.5559  p=0.1525   PROMOTED=False
+
+Sealed threshold: |rho| >= 0.8 AND p < 0.05
+
+------------------------------------------------------------------------------------------
+C1. Do the two predictors agree?
+------------------------------------------------------------------------------------------
+Same sign? True  (rho_perron=-0.2143, rho_rotsum=-0.5559)
+Same significance-at-0.05 status? True  (p_perron=0.6103, p_rotsum=0.1525)
+The two predictors agree in both sign and significance status on this fresh set.
+
+------------------------------------------------------------------------------------------
+C2. FINAL VERDICT
+------------------------------------------------------------------------------------------
+NEITHER predictor reaches the sealed threshold on fresh data -- V2b's post-hoc lead DIES (banked kill).
+
+Wrote /Users/dri/oa-seat-cc2/seat-work/residuals_loop/r4_resonance/outputs/r4_results.json
+
+TOTAL ELAPSED: 27.0s

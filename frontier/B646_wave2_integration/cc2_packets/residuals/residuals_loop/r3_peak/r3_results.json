@@ -1,0 +1,339 @@
+{
+  "gate": {
+    "kappa": 1.0,
+    "fresh": 0.9806266343819846,
+    "banked": 0.9806266343819846,
+    "diff": 0.0,
+    "pass": true
+  },
+  "fine_grid_kappas": [
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.8
+  ],
+  "fine_rows": {
+    "0.8": {
+      "kappa": 0.8,
+      "mu": 1.0954451150103321,
+      "box_dim_depth14": 1.069058608949412,
+      "t_s": 7.116
+    },
+    "0.9": {
+      "kappa": 0.9,
+      "mu": 1.0488088481701516,
+      "box_dim_depth14": 1.0726665948999647,
+      "t_s": 7.527
+    },
+    "1.0": {
+      "kappa": 1.0,
+      "mu": 1.0,
+      "box_dim_depth14": 1.0747651555463955,
+      "t_s": 7.407
+    },
+    "1.1": {
+      "kappa": 1.1,
+      "mu": 0.9486832980505138,
+      "box_dim_depth14": 1.0804255006420715,
+      "t_s": 8.677
+    },
+    "1.2": {
+      "kappa": 1.2,
+      "mu": 0.8944271909999159,
+      "box_dim_depth14": 1.0693593824420362,
+      "t_s": 9.606
+    },
+    "1.3": {
+      "kappa": 1.3,
+      "mu": 0.8366600265340756,
+      "box_dim_depth14": 1.0644063549423342,
+      "t_s": 9.652
+    },
+    "1.4": {
+      "kappa": 1.4,
+      "mu": 0.7745966692414834,
+      "box_dim_depth14": 1.074928715756106,
+      "t_s": 10.133
+    },
+    "1.5": {
+      "kappa": 1.5,
+      "mu": 0.7071067811865476,
+      "box_dim_depth14": 1.071707987732381,
+      "t_s": 10.373
+    },
+    "1.6": {
+      "kappa": 1.6,
+      "mu": 0.6324555320336758,
+      "box_dim_depth14": 1.0579900114724752,
+      "t_s": 10.259
+    },
+    "1.8": {
+      "kappa": 1.8,
+      "mu": 0.44721359549995787,
+      "box_dim_depth14": 1.0010575406367563,
+      "t_s": 10.459
+    }
+  },
+  "kstar": 1.1,
+  "second_highest_kappa": 1.4,
+  "gap_top2": 0.0054967848859655,
+  "adjacent_top2": false,
+  "local_maxima_kappas": [
+    1.1,
+    1.4
+  ],
+  "peak_shape": "plateau (8 adjacent grid points [0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5] within V11b's baseline_std of the top)",
+  "mech_rows": {
+    "1.2": {
+      "kappa": 1.2,
+      "gamma_banked_window": 0.35426380923104706,
+      "mst_gap_over_diam_F1597": 0.06299078599860113,
+      "liftoff_ratio_vs_mu": 0.9131918342543643
+    },
+    "1.3": {
+      "kappa": 1.3,
+      "gamma_banked_window": 0.36590885925758093,
+      "mst_gap_over_diam_F1597": 0.05658234070852087,
+      "liftoff_ratio_vs_mu": 0.9133839554605008
+    },
+    "1.1": {
+      "kappa": 1.1,
+      "gamma_banked_window": 0.34516245917813027,
+      "mst_gap_over_diam_F1597": 0.06251722248873492,
+      "liftoff_ratio_vs_mu": 0.9129991678170735
+    },
+    "1.4": {
+      "kappa": 1.4,
+      "gamma_banked_window": 0.38013458475970335,
+      "mst_gap_over_diam_F1597": 0.050301406370445896,
+      "liftoff_ratio_vs_mu": 0.9135754576427961
+    },
+    "1.0": {
+      "kappa": 1.0,
+      "gamma_banked_window": 0.3300595599617293,
+      "mst_gap_over_diam_F1597": 0.05756786547448409,
+      "liftoff_ratio_vs_mu": 0.912805994258004
+    },
+    "1.5": {
+      "kappa": 1.5,
+      "gamma_banked_window": 0.39151207965042417,
+      "mst_gap_over_diam_F1597": 0.032953080418582636,
+      "liftoff_ratio_vs_mu": 0.9137663281003678
+    },
+    "0.9": {
+      "kappa": 0.9,
+      "gamma_banked_window": 0.3172296677444681,
+      "mst_gap_over_diam_F1597": 0.05256914618660346,
+      "liftoff_ratio_vs_mu": 0.9126123456084609
+    },
+    "1.6": {
+      "kappa": 1.6,
+      "gamma_banked_window": 0.40527364861913556,
+      "mst_gap_over_diam_F1597": 0.029515231215736158,
+      "liftoff_ratio_vs_mu": 0.9139565249724674
+    },
+    "0.8": {
+      "kappa": 0.8,
+      "gamma_banked_window": 0.30508627562500995,
+      "mst_gap_over_diam_F1597": 0.04127116880671774,
+      "liftoff_ratio_vs_mu": 0.9124183400489255
+    },
+    "1.8": {
+      "kappa": 1.8,
+      "gamma_banked_window": 0.42511094837805713,
+      "mst_gap_over_diam_F1597": 0.014614289838915717,
+      "liftoff_ratio_vs_mu": 0.9143347571776522
+    }
+  },
+  "dropped_from_b": [],
+  "scan_gamma": {
+    "field": "gamma_banked_window",
+    "values": [
+      0.30508627562500995,
+      0.3172296677444681,
+      0.3300595599617293,
+      0.34516245917813027,
+      0.35426380923104706,
+      0.36590885925758093,
+      0.38013458475970335,
+      0.39151207965042417,
+      0.40527364861913556,
+      0.42511094837805713
+    ],
+    "monotonic": true,
+    "local_extrema": [],
+    "d2": [
+      0.0006865000978030777,
+      0.0022730069991397372,
+      -0.0060015491634841656,
+      0.0025436999736170862,
+      0.0025806754755885453,
+      -0.002848230611401603,
+      0.0023840740779905722,
+      0.0060757307902101765
+    ],
+    "d2_median_floor": 0.0025621877246028157,
+    "inflections_significant": [
+      1.4
+    ],
+    "inflections_raw": [
+      1.1,
+      1.2,
+      1.4,
+      1.5
+    ],
+    "aligned_with_kstar": false,
+    "aligned_how": []
+  },
+  "scan_mst_gap_F1597": {
+    "field": "mst_gap_over_diam_F1597",
+    "values": [
+      0.04127116880671774,
+      0.05256914618660346,
+      0.05756786547448409,
+      0.06251722248873492,
+      0.06299078599860113,
+      0.05658234070852087,
+      0.050301406370445896,
+      0.032953080418582636,
+      0.029515231215736158,
+      0.014614289838915717
+    ],
+    "monotonic": false,
+    "local_extrema": [
+      1.2
+    ],
+    "d2": [
+      -0.006299258092005093,
+      -4.936227362978968e-05,
+      -0.004475793504384637,
+      -0.006882008799946458,
+      0.00012751095200528445,
+      -0.011067391613788287,
+      0.01391047674901678,
+      -0.011463092173973961
+    ],
+    "d2_median_floor": 0.006590633445975776,
+    "inflections_significant": [
+      1.5,
+      1.6
+    ],
+    "inflections_raw": [
+      1.3,
+      1.4,
+      1.5,
+      1.6
+    ],
+    "aligned_with_kstar": true,
+    "aligned_how": [
+      "extremum@1.2"
+    ]
+  },
+  "scan_liftoff": {
+    "field": "liftoff_ratio_vs_mu",
+    "values": [
+      0.9124183400489255,
+      0.9126123456084609,
+      0.912805994258004,
+      0.9129991678170735,
+      0.9131918342543643,
+      0.9133839554605008,
+      0.9135754576427961,
+      0.9137663281003678,
+      0.9139565249724674,
+      0.9143347571776522
+    ],
+    "monotonic": true,
+    "local_extrema": [],
+    "d2": [
+      -3.569099923383945e-07,
+      -4.750904736283701e-07,
+      -5.071217785701521e-07,
+      -5.452311544473787e-07,
+      -6.190238410752613e-07,
+      -6.317247236431456e-07,
+      -6.735854721773293e-07,
+      0.0001880353330853124
+    ],
+    "d2_median_floor": 5.8212749776132e-07,
+    "inflections_significant": [
+      1.6
+    ],
+    "inflections_raw": [
+      1.6
+    ],
+    "aligned_with_kstar": false,
+    "aligned_how": []
+  },
+  "any_mechanism_aligned": true,
+  "aligned_names": [
+    "MST-gap/diam@F1597"
+  ],
+  "spot_kappas": [
+    0.0,
+    1.0,
+    1.1,
+    1.5,
+    1.9
+  ],
+  "spot_rows": {
+    "0.0": {
+      "kappa": 0.0,
+      "box_dim_depth13": 0.9284928618633441,
+      "box_dim_depth14": 1.0223863743664738,
+      "depth14_source": "fresh (not in fine grid)",
+      "box_dim_depth15": 1.0899627898539774,
+      "t15_s": 22.997
+    },
+    "1.0": {
+      "kappa": 1.0,
+      "box_dim_depth13": 0.9806266343819846,
+      "box_dim_depth14": 1.0747651555463955,
+      "depth14_source": "fine-grid (this run, part a)",
+      "box_dim_depth15": 1.1494276212105816,
+      "t15_s": 20.079
+    },
+    "1.1": {
+      "kappa": 1.1,
+      "box_dim_depth13": 0.9841697598610544,
+      "box_dim_depth14": 1.0804255006420715,
+      "depth14_source": "fine-grid (this run, part a)",
+      "box_dim_depth15": 1.1505847234657467,
+      "t15_s": 21.489
+    },
+    "1.5": {
+      "kappa": 1.5,
+      "box_dim_depth13": 0.981479648745101,
+      "box_dim_depth14": 1.071707987732381,
+      "depth14_source": "fine-grid (this run, part a)",
+      "box_dim_depth15": 1.1460439706910965,
+      "t15_s": 18.076
+    },
+    "1.9": {
+      "kappa": 1.9,
+      "box_dim_depth13": 0.9094606549403669,
+      "box_dim_depth14": 0.9677982214619704,
+      "depth14_source": "fresh (not in fine grid)",
+      "box_dim_depth15": 1.0202503768389086,
+      "t15_s": 16.3
+    }
+  },
+  "deviation_note_c": "kappa*=1.1 is NOT one of the banked V11b pair {1.0,1.5} -- preregistration anticipated kappa* in that pair. Deviation handled by keeping BOTH 1.0 and 1.5 (the original pair) in addition to kappa*, giving 5 spot-check points instead of 4. Stated plainly per the honesty rules; not a post-hoc correlation, just an adapted point list since kappa* was unknown until part (a) ran.",
+  "noise_scale_a_std": 0.022865715232279937,
+  "sep14": 0.0853332027278495,
+  "sep15": 0.09547814011930367,
+  "top2_stable": true,
+  "sep15_within_noise": false,
+  "sep_shrunk_a_lot": false,
+  "sep_grew_or_held": true,
+  "depth15_verdict": "PEAK-ROBUST",
+  "final_verdict": "MECHANISM-CANDIDATE",
+  "final_reason": "peak survives depth-15 AND aligns with: ['MST-gap/diam@F1597'].",
+  "total_compute_time_s": 694.8137059211731
+}
