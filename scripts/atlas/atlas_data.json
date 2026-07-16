@@ -12960,11 +12960,12 @@
    "slug": "swap decomposition",
    "motifs": [
     "eisenstein",
-    "z3_generation"
+    "z3_generation",
+    "amphichiral_cp"
    ],
    "refs": [],
-   "obstacle": "particle_dict",
-   "obstacle_conf": 4,
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

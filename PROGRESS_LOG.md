@@ -4920,3 +4920,13 @@ witnesses verify 3/3 (purely-imaginary real-ear amplitudes) — the prediction c
 McKay/E₈ placement REGISTERED against the banked two-ended theorem (holonomy = the E₆ end; the
 hearing group = the finite shadow of the E₈/ℚ(√5) end). Instrument note: the first run's float64
 garbage was caught by the gates instantly. Locks 2/2. Firewalled.
+
+## 2026-07-16 — B638 closure: the phases are a THEOREM; uniqueness honestly not forced (dim 10 residual)
+The full σ*-law system (all ten triples, the complete exact matrix): the banked table satisfies
+all 20 equations with ZERO violations; the pair {Y[123] pure imaginary, Y[023] = 24ζ₆Y[123]} is
+exactly consistent with the law (direction 1 proved); BUT the solution space is 10-real-dim of 20
+— **the swap halves the freedom and locks the phase geometry; it does not force the magnitude
+ratios.** The first-draft "proved from the swap data" print corrected in place. The mechanism
+scoreboard: phases = theorem; the 24ζ₆ magnitude = 9/9 law, swap-consistent, awaiting the second
+symmetry (the amphichiral R↔L flip's action on the double = the registered completion cell); the
+zero law = 9/9, mechanism open. Firewalled.
