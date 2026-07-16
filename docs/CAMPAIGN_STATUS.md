@@ -35,10 +35,10 @@ audit: `docs/AUDIT_2026-07-05.md`.
 ---
 
 ## RUNNING NOW
-- **B643 step 2 (L93 refined)** — the SIDE-EXCHANGING flip on the weld double
-  (φ(LONG) = LONG⁻¹ exact, empty conjugator ⇒ flip∘deck-swap with LINEAR
-  companion); gates F1–F3 computing; if it acts, F4 = the combined σ*+τ*
-  system → the 24ζ₆ THEOREM attempt. Bank on landing.
+- (idle at the queue boundary) The do-them-all queue is COMPLETE through C3:
+  B643 flip-breaking (L93 closed), B644 congruence-shadow (L94 closed), B645
+  unit cross-ratio + 13-dial, B639 resolved, PC26 absorbed. C4 (silver chord)
+  stays deferred on its named blocker (the m136 exact E₆ holonomy build).
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
   Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
   behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its
@@ -52,6 +52,15 @@ audit: `docs/AUDIT_2026-07-05.md`.
   boundary), owner report first.
 - **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
 - **e₃ exact** (B399) — detached sentinel; bank on landing.
+
+## LAST BANKED (B643 flip-breaking + B645 the 13-dial, 2026-07-16)
+- **B643 (L93 CLOSED)**: the chord breaks BOTH amphichiral flip classes — the
+  unique partial intertwiner per class is supported on Sym⁰ (d = (0,0,1));
+  only σ* survives; 24ζ₆ not symmetry-forced (mechanism → cochain level).
+- **B645 (C3)**: the unit cross-ratio law (6/6 exact on the 024-silent class)
+  + the 13-dial (3/3 lit doubles, exact 13-divisible deviations).
+- Door-2 incoming packet adjudicated: refuted by banked B605 (their sync
+  predates #973). Codeberg mirror remote configured; repo creation pending.
 
 ## LAST BANKED (B644 — the congruence-shadow theorem; L94 closed; B639 resolved, 2026-07-16)
 - **B644**: ρ_hear|ker(det) = χ_golden ∘ (mod-5 reduction) — **the conductor is

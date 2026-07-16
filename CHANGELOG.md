@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B643 the flip-breaking verdict (L93 closed); B645 the unit cross-ratio law + the 13-dial
+
+### Added
+- **B645 (C3)**: THE UNIT CROSS-RATIO LAW — the unique normalization-free
+  Y-invariant = 1 exactly on all six 024-silent doubles; THE 13-DIAL — on the
+  three 024-lit doubles every invariant deviates by an exact 13-divisible
+  quantity ((3⁸+13√−3)/(3⁸+13) the cleanest); core law re-verified 9/9 from an
+  independent parse; locks 3/3.
+
+### Resolved-negative
+- **B643 (L93 CLOSED)**: both amphichiral flip classes are broken on the
+  double's 27 local system — each admits exactly ONE partial intertwiner,
+  supported on Sym⁰ alone (d = (0,0,1); both families; inner-freedom immune);
+  only the deck swap σ* survives. The 24ζ₆ magnitude is not symmetry-forced.
+
+### Changed
+- LAW_MAP: core-law row upgrade path re-pointed; wall 8 (the flip wall); the
+  B645 LAW row. PC26 §8′ upgraded. HINT_LEDGER: the 3⁸/13 shapes.
+
 ## 2026-07-16 — B644 the congruence-shadow theorem; B639 closed; B643 step 1
 
 ### Added

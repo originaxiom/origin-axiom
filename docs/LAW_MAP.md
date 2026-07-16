@@ -43,7 +43,8 @@ upgrades' lead rows).*
 |---|---|---|---|---|
 | **The cubic dichotomy** | the solo carries NO cubic scalar (cd 2 + Koszul); the solo's only cubic-family invariant is the alternating Ω (rank 2, kernel 1); the CLOSED chord carries the nonzero alternating 3-form | **THEOREM** | B632 (+ audit 162/162), B637 | — |
 | **The chirality-exclusion law** | at the full-E₆ chiral bends the double's h¹ collapses 5→2: chirality and the cubic exclude each other on the same coupling | **LAW** (exact, 2 bends × 3 pipelines) | B637 parts 1–3 | mechanism |
-| **THE LAW OF THE CHORD'S CORE** | Y[023] = **24ζ₆**·Y[123] on all NINE computed doubles, every gluing; the zero law Y[01k] ≡ 0 off the m=1 dial | **LAW** + **MECHANISM (partial)** | B637 stage 3; B638 | L93 refined (B643: the naive flip does NOT act — the inner-corrected flip is the candidate); forcing the magnitude ⇒ THEOREM |
+| **THE LAW OF THE CHORD'S CORE** | Y[023] = **24ζ₆**·Y[123] on all NINE computed doubles, every gluing; the zero law Y[01k] ≡ 0 off the m=1 dial | **LAW** + **MECHANISM (partial)** | B637 stage 3; B638; B645 (the spectator extension) | L93 CLOSED resolved-negative (B643: BOTH flip classes broken; only σ* survives) — the magnitude's mechanism must be non-symmetry (cochain-level); open |
+| **The unit cross-ratio law + the 13-dial** | the unique normalization-free invariant of the Y-tensor (Y[023]·Y[134])/(Y[034]·Y[123]) = **1 exactly** on every 024-silent double (6/6) — the 24ζ₆ ratio extends to the (3,4) spectator pair; on the three 024-lit doubles (m=1, φ(a)=a, φ(a)=A) every invariant deviates from 1 by an exact 13-divisible quantity (e.g. (3⁸+13√−3)/(3⁸+13)); v₁₃(cross-ratio − 1) ≥ 1 always | **LAW** (exact, 9/9; mechanism open) | B645; B637's tables re-parsed independently | mechanism; the meaning of 13 (split prime, N(1+2√−3)); more doubles |
 | **The swap real structure** | the deck involution acts antilinearly (J² = +1) with the Eisenstein-unit spectrum (ζ₆, ζ̄₆, −ζ₆, −ζ̄₆, 1); Y∘σ* = conj(Y); the PHASE geometry of every component follows | **THEOREM** | B638 | — |
 | **The typing wall (1′)** | an alternating family tensor ⊗ the symmetric E₆ cubic = zero coupling for identical families: no Yukawa-type family tensor at this level, comparison-independently | **WALL** | B632/B637 + the audit's Koszul point; PC26 wall 1′ | — |
 | **The θ-fiber-pairing law** | θ fixes the principal holonomy pointwise ⇒ the conjθ-twist lives in the fiber identification (θ₂₇∘conj into the dual), not the representation | **THEOREM** (3 exact probes) | B639 | L92 realizes the twisted cubic |
@@ -75,6 +76,10 @@ upgrades' lead rows).*
 7. The naive ℤ/3 triality does not act on H¹(D;27) (center = scalar;
    Coxeter scales the holonomy) — the 3+2 split as proposed is dead
    (the rebase).
+8. The chord breaks both amphichiral flip classes: each flip's only
+   partial intertwiner on the double's 27 local system is supported on
+   Sym⁰ alone (d = (0,0,1), both involution families, inner-freedom
+   immune) — coupling breaks the mirror down to the deck swap (B643).
 
 ---
 

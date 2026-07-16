@@ -18,3 +18,93 @@ weld side-2 letters built
 F1 FAIL: the flip does not act on the double in either convention — BANKED OBSTRUCTION; stopping per the prereg.
 
 B643 gates DONE (F4 = the combined-system solve, next stage)
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   72.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   90.5s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   90.6s] G2a PASS: principal sl2 relations exact
+[   94.5s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   96.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 96.2s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+conjugator search: ('', 'lam_inv')
+phi(mu) = mu: True
+B643-refined step 1 DONE
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   72.2s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   90.6s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   90.8s] G2a PASS: principal sl2 relations exact
+[   94.7s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   96.1s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 96.1s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+  SL2 global-companion Q = U_phi^-1 u conj(u_phi) u = [['(1)', '(0+1r)'], ['(0)', '(1)']]
+== F1: which convention acts? ==
+  A(derived: W=V^-1): tau*(rep0) cocycle = True
+  B(no-inverse: W=V): tau*(rep0) cocycle = False
+  C(cross: W1=V2^-1,W2=V1^-1): tau*(rep0) cocycle = False
+
+  winner: A(derived: W=V^-1)
+  all 5 reps: False
+
+== F2: the tau*-matrix (mod coboundaries) ==
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B643_flip_symmetry/b643_swapflip.py", line 177, in <module>
+    co = S.coords(list(tau_swap(r, W1, W2)))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B637_corrected_cell3/../B575_bridge_obstruction/l51_obstruction.py", line 140, in coords
+    raise ValueError("vector not in span")
+ValueError: vector not in span
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   99.8s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  125.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  125.2s] G2a PASS: principal sl2 relations exact
+[  129.9s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  131.9s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 132.0s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+== the block-scalar system ==
+  off-diagonal system: 172 nontrivial rows; solution space dim = 1
+  invertible solution d = None
+NO block-scalar companion: the side-exchanging flip does not act on the 27 local system — bank the strengthened obstruction (inner-freedom probes pending).
+
+B643 step 3 DONE
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.6s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   96.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  127.1s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  127.3s] G2a PASS: principal sl2 relations exact
+[  135.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  138.8s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 138.8s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+== (i) a-family singular-d diagnostic ==
+  [phi(a)=a, w = e] off-diag rows 172; solution dim 1
+    d = ((0), (0), (1))   [blocks Sym16, Sym8, Sym0]
+    invertible member: False
+
+== (ii) phi(a)=b: the peripheral conjugator search ==
+  conjugator: ('aBAb', 1, -1)
+  det(normalized U_phib) = (1)
+
+== (ii) b-family block-scalar system ==
+  [phi(a)=b, w = 'aBAb'] off-diag rows 172; solution dim 1
+    d = ((0), (0), (1))   [blocks Sym16, Sym8, Sym0]
+    invertible member: False
+  NO invertible companion for the b-family either: the chord breaks BOTH flip classes; only the deck swap sigma* survives.
+
+B643 step 4 DONE

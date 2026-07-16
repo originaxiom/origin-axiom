@@ -269,9 +269,20 @@ geometry of every component. The core identity Y[023] =
 24 zeta_6 Y[123] holds exactly on all nine computed doubles (every
 gluing; representative-rescaled families included); the swap law is
 satisfied by the banked table with zero violations but does not force
-the magnitude (a 10-dimensional residual) — the forcing symmetry is
-open (the naive amphichiral flip provably does NOT act on the double:
-the chord selects its symmetries).
+the magnitude (a 10-dimensional residual) — the forcing symmetry is now
+CLOSED OFF: both amphichiral flip classes of the object are provably
+broken on the double's 27 local system (each admits exactly one
+partial intertwiner, supported on the invariant Sym0 line alone —
+where nothing dynamical lives — and inner corrections cannot repair
+invertibility). Coupling breaks the mirror down to the deck swap: the
+object is amphichiral, its chord is not. The magnitude 24 zeta_6 is
+therefore not symmetry-forced; its mechanism is a cochain-level
+question. A second exact identity accompanies it: on every double
+whose 024-slot is silent (six of nine), the unique normalization-free
+cross-ratio of the Y-tensor equals 1 exactly (the core ratio extends
+to the (3,4) spectator pair); on the three 024-lit doubles every
+invariant deviates from 1 by an exact 13-divisible quantity (e.g.
+(3^8 + 13 sqrt(-3))/(3^8 + 13)) — the 13-dial.
 
 ## 8. The closure theorem: the heard spectrum's pairing is the object's chirality
 
