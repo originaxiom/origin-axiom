@@ -86,6 +86,11 @@ upgrades' lead rows).*
    partial intertwiner on the double's 27 local system is supported on
    Sym⁰ alone (d = (0,0,1), both involution families, inner-freedom
    immune) — coupling breaks the mirror down to the deck swap (B643).
+9. THE EQUIVARIANCE WALL: no nonzero linear monodromy-equivariant map
+   classical → stage exists (hyperbolic φ^{±2} vs the order-10
+   congruence shadow; Sylvester T = 0 exact) — the correspondence is
+   GROUP-functorial (mod-conductor ∘ golden character = B644) + typed
+   (B650), never module-linear (B650 wave 2).
 
 ---
 

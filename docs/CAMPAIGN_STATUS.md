@@ -45,8 +45,10 @@ audit: `docs/AUDIT_2026-07-05.md`.
   S = the silver control **COMPLETE for §B2** (3b-ii: the Y-tensor —
   zero law ✓, σ*-law ✓, THE SUBFIELD LAW new, lit-class with 13·211-adic
   deviations; form rows candidate-FORCED, value rows object-chosen);
-  M-track COMPLETE (cell 3: R20-5 dissolved to invariants; the σ*-law
-  mechanized); NEXT: F2 (the functorial map), then GATE B assembly;
+  M-track COMPLETE; F-track COMPLETE (wave 2: THE EQUIVARIANCE WALL —
+  the linear map is zero-only; the functor is B644's congruence shadow +
+  B650's types; L84 resolved, L91-4 discharged); NEXT: GATE B ASSEMBLY
+  (B1 grammar table + B3 freedom count + arity);
   L = cc2's ladder; W = L95 on arrival.
   CONTINUOUS MODE (owner, 2026-07-16): waves proceed without per-wave
   approval until the campaign closes or a kill fires.

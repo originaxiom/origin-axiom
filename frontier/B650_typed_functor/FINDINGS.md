@@ -38,3 +38,38 @@ banked constraints (B595-D1 dimensions golden-only; the spectral
 bridge det(I−B_odd) = φ² at κ=5; B586 grading mismatch; B596 clock
 multipliers). The R5 physics rule is already binding for Phase C's
 design regardless of F2's outcome.
+
+---
+
+## Wave 2 (prereg in ARTIFACT_HASHES) — THE EQUIVARIANCE WALL + the functor identified
+
+**W2-G1 (exact):** the Sylvester solve T·A₁ = ρ_hear(RL)·T over the
+exact matrices (A₁ hyperbolic, eigenvalues φ^{±2}; the target with the
+banked invariants tr = −1/φ, det = 1, order 10 — verified exactly)
+returns **T = 0 as the unique solution**. THE EQUIVARIANCE WALL:
+
+> No nonzero ℂ-linear monodromy-equivariant map exists from any
+> classical A₁-module with the banked hyperbolic action to the θ-odd
+> hearing plane — the classical side acts with infinite-order
+> hyperbolic spectrum, the stage hears through the finite congruence
+> shadow (B644), and disjoint spectra kill every intertwiner. The
+> obstruction IS the passage-through-the-finite principle, seen from
+> the linear-algebra side.
+
+**W2-G2 (the positive identification):** the functor L84/L91-4 sought
+EXISTS — one level up: it is GROUP-functorial, not module-linear.
+The classical→stage functor = (reduction mod the conductor) composed
+with the stage's golden character — precisely B644's congruence-shadow
+theorem — together with B650's type system on quantities. The banked
+"bridges" (det(I−B_odd) = φ² = λ(A₁), the trace/det dictionary of
+B595) are INVARIANT-level shadows of this group functor, exactly as a
+correspondence "at trace/det level, not order level" (B596) predicted.
+
+**W2-G3 (routing):** L84 RESOLVED (the linear map = zero-only, proved;
+the correspondence is the congruence functor + types); L91-4's "typed
+functor" obligation is discharged by (B650 types + B644 group functor
++ this wall) — the stopping rule's condition (ii) reads on exactly
+this artifact set. The B596 clock multipliers remain annotated data of
+the group functor's per-level structure (no claim).
+
+**Phase A's F-track is COMPLETE.**

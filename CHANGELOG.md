@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B650 wave 2: THE EQUIVARIANCE WALL; L84 resolved (track F complete)
+
+### Added
+- The zero-only theorem (exact Sylvester): no linear monodromy-equivariant
+  classical→stage map exists — disjoint spectra (φ^{±2} vs order 10). The
+  functor is GROUP-functorial: B644's congruence shadow + B650's types; the
+  bridges are its invariant shadows. L84 resolved; L91-4 discharged; wall 9.
+
 ## 2026-07-16 — B647 closed: the gauge adjudication (R20-5 resolved)
 
 ### Resolved
