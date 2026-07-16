@@ -14,7 +14,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 B649 = os.path.join(HERE, "..", "B649_silver_holonomy")
 
 src = open(os.path.join(B649, "b649_stage3b_ii.py")).read()
-head = src[:src.index('print("== G2: the 10-triple Y table ==')]
+head = src[:src.index('== G2: the 10-triple Y table ==')]
+head = head[:head.rfind('print(')]
 ns = {"__name__": "b654_shared", "__file__": os.path.join(B649, "b649_stage3b_ii.py")}
 exec(compile(head, "b649_3bii_head.py", "exec"), ns)
 

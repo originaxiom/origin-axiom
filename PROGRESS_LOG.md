@@ -5435,3 +5435,23 @@ elementary divisors, 75 = 3 * (disc A1)^2 — the residue carries the
 twist and the discriminant (hint-grade read; identity banked; routed to
 L97). Q-AREA computing (is the silver's defect factor its area 4?);
 Q-BLOCK next (adjoint 78: six blocks -> h1 = 6?). Locks 2/2.
+
+## 2026-07-17 — B654: THE RESONANCE ADJUDICATION (both seats verified item by item)
+
+VERIFIED theorem-grade: THE TONE-CHARACTER IDENTIFICATION (the five
+tones = |chi_golden|/2 with EXACT multiplicities — census 90/72/120/
+72/6 = class sizes x3; the pentagon voice IS the character table;
+B641's mechanism slot MECHANIZED); Plancherel = Schur <chi,chi>/4
+(chat1's dim-2 step corrected); cc2's identity-card lemma (-1/5/5 =
+det(A-I)/disc/det(A+I); det(A+I) = 1+tr+det one-liner; silver card
+8/32 — 2-adic); cc2's DLR fact (both published golden ansaetze ~4
+sigma dead; first-pass lit search finds NO prior 1/(2phi) — full
+lit-gate NEEDS-SPECIALIST); chat1's N=1 MECHANISM-CANDIDATE banked
+(geometric vs arithmetic automorphism — LAW_MAP row). REFUTED exactly:
+the exponent-pairing claim (all h-pairs SAME theta-parity); the
+silver-SL(2,7) prediction (silver integers are 8/32, 2-adic; 7 belongs
+to the fig-8 tower's kappa=14); the 24-as-|2T| invariant reading
+(gauge; HINT recorded); both seats' separation tables (corrected:
+0.88/6.0/7.3 sigma). Queue coordination locked (cc2: G1-G4 + the
+homological G5; this seat: Q-AREA in flight, Q-BLOCK next). cc2's
+governance patch REGISTERED as L99 for the owner. Locks 4/4.

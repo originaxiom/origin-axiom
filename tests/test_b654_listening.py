@@ -31,3 +31,31 @@ def test_q_field_shapes_exact():
         zr = mp.mpf(str(z.real()).replace(" E", "e"))
         zi = mp.mpf(str(z.imag()).replace(" E", "e"))
         assert abs(zr - a) < 1e-45 and abs(zi - b) < 1e-45
+
+
+def test_tone_character_identification():
+    """The pentagon voice IS the golden character table (exact, with
+    multiplicities)."""
+    import sympy as sp
+    from collections import Counter
+    phi = (1 + sp.sqrt(5)) / 2
+    cls = [(1, 2), (1, -2), (30, 0), (20, -1), (20, 1),
+           (12, 1 / phi), (12, -phi), (12, -1 / phi), (12, phi)]
+    tone_mult = Counter()
+    for sz, ch in cls:
+        tone_mult[sp.nsimplify(sp.Abs(ch) / 2)] += sz * 3
+    banked = {0: 90, sp.nsimplify(1 / (2 * phi)): 72,
+              sp.Rational(1, 2): 120, sp.nsimplify(phi / 2): 72, 1: 6}
+    assert len(tone_mult) == 5
+    for k, v in banked.items():
+        assert tone_mult[k] == v
+    assert sp.simplify(sum(sz * ch**2 for sz, ch in cls) / 120) == 1
+
+
+def test_refutations_exact():
+    import sympy as sp
+    odd = {4, 8}
+    for m in (1, 4, 5):
+        assert ((m in odd) == ((12 - m) in odd))   # SAME parity: refutes
+    As = sp.Matrix([[5, 2], [2, 1]])
+    assert (As + sp.eye(2)).det() == 8             # silver: 8, not 7

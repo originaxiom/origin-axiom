@@ -1,5 +1,14 @@
-Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B654_listening_synthesis/q_area_silver.py", line 17, in <module>
-    head = src[:src.index('print("== G2: the 10-triple Y table ==')]
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: substring not found
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (52s)
+dim Z1 = 31 (206s)
+independent coboundaries: 26
+H1 representatives: 5
+pipeline reloaded: 5 reps
+== G1: certificates + validation ==
+  peripheral commutator |word| = 14; AREA = 4 (1s)
+    [side1] deltaS=omega on [a|b|ab]: True
+    [side1] deltaS=omega on [b|C|bC]: True
+    [side1] deltaS=omega on [ca|AC|caAC]: True

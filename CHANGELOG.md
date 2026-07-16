@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B654: the resonance adjudication (the seats' syntheses verified)
+
+### Added
+- THE TONE–CHARACTER IDENTIFICATION verified exactly (the pentagon voice =
+  the golden character table; B641 mechanized). The N=1 mechanism candidate
+  banked. cc2's identity-card lemma verified; DLR fact verified (+ first-pass
+  lit search: no prior 1/(2φ)). Refuted: exponent-pairing, silver-SL(2,7),
+  the 24-as-invariant reading; separation tables corrected. L99 (the
+  factual-review governance delta) registered for the owner. Locks 4/4.
+
 ## 2026-07-17 — B654: the listening synthesis — the shape-field law candidate
 
 ### Added
