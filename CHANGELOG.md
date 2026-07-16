@@ -6,6 +6,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — Phase C handoffs (the three-way separation staffed)
+
+### Added
+- HANDOFF_PREDICTOR_CC2.md + HANDOFF_COMPARATOR_WEBSEAT.md (campaign arc;
+  hashed): the order-of-seals blinding protocol, lane rules, exposure lines.
+  Main seat = design sealer + adjudicator.
+
 ## 2026-07-16 — B652: GATE B PASSED — N = 1 (discrete, binary)
 
 ### Added

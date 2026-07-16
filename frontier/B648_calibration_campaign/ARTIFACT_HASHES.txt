@@ -6,3 +6,5 @@ a463c6aa79567d2bdeeb7d46f5ff31baa23581c783a5b41d96fd47ff941ab36d  CAMPAIGN_PRERE
 
 ## The review record (archived pre-seal)
 d384d1388941afa79a8ca740ddb55dc27bacbe552202d583ddeb373d5c7363aa  REVIEW_CC2.md (as received; prefix-verified by the sending seat)
+a1bb31fc85f069c8c665ee82fef080e8244cd18a4b62138d5434ef9f61fe2c56  HANDOFF_PREDICTOR_CC2.md
+bae6216579052d3cd8eaf7c5eefcc183e0d264f3d259b5926213851f4198214a  HANDOFF_COMPARATOR_WEBSEAT.md

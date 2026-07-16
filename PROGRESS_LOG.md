@@ -5341,3 +5341,20 @@ calibration, every further same-type dimensionless observable is a
 zero-parameter prediction. Phase C licensed; the campaign PAUSES for
 the owner: the three-way seat separation requires cross-seat execution
 (sealer != predictor != comparator) — owner relay needed. Locks 2/2.
+
+## 2026-07-16 — Phase C handoffs written (the three-way separation staffed)
+
+Roles per the sealed design: main seat = C2 design sealer +
+adjudicator; cc2 = THE PREDICTOR (calibrates the one bit from the
+C2-named calibration input; seals the zero-parameter prediction
+hash-first; never sees the target) — chosen for exact-compute strength
+AND lower SM-value exposure; the web seat = THE COMPARATOR (extracts
+the held-out target from the pinned dataset version, seals the
+extraction BEFORE receiving the prediction; computes the sealed
+statistic; reports outcome-blind-format) — their lane is deliberately
+arithmetic-light and they grade under rules their own review wrote.
+Blinding rests on the ORDER OF SEALS (design -> prediction-hash ->
+extraction-seal -> reveal -> statistic), with exposure lines recorded,
+not on pretended ignorance. Handoffs hashed into the campaign arc.
+NEXT (main seat, after the owner relays): seal the C2 design (the
+frozen channel rule evaluates JUNO-sector first, PMNS-typed second).
