@@ -1,8 +1,12 @@
 # THE CALIBRATION CAMPAIGN — the calibrated-pair probe (B648)
 
-**STATUS: DRAFT — awaiting the owner's sign-off. On approval this
-document is hashed (sha256 into ARTIFACT_HASHES.txt) and becomes the
-campaign's standing preregistration; no wave runs before the seal.**
+**STATUS: SEALED — owner approved 2026-07-16 after three review
+passes (two seats + the main seat's adjudication; v3). The sha256 of
+this file as sealed is recorded in ARTIFACT_HASHES.txt. The approval
+resolves the §8 flags as narrowed: the thesis wording confirmed as the
+owner's; lane table — track L + S-verify = cc2 (their direct
+statement); A3's external machine slots as verify-on-receipt when its
+packet lands, in-repo adjudication on the main seat.**
 
 ## 0. The thesis and the license
 
@@ -277,6 +281,6 @@ in the inline review is NOT a banked name (nothing in-repo); the
 concept it points at (the coupling thesis + the no-value walls) is
 banked; the label is not imported.
 
-- Owner approval: ________ (on approval: hash this file, open the
-  campaign row in CAMPAIGN_STATUS/OPEN_LEADS, launch tracks S and M
-  immediately, F next wave).
+- Owner approval: **GRANTED 2026-07-16** (v3, after both seat reviews
+  and the round-2 addenda). On this approval: the file is hashed, the
+  campaign rows open, tracks S and M launch immediately, F next wave.
