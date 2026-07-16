@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B653: THE C2 DESIGN SEALED — the C′ event (zero calibration)
+
+### Added
+- The channel: the pre-campaign-registered JUNO forward row (every
+  current-data channel fails held-out provenance by construction). THE C′
+  EVENT: range physicality fixes the Galois branch — zero measurements;
+  the prediction is parameter-free: sin²θ₁₂ = 1/(2φ) = (√5−1)/4, exact.
+  Verdict bands and the honest FP (~5–6%; 4/13 not separated) sealed;
+  one-shot; falsification sharp at |z| > 4. Seal 864909ce. Locks 3/3.
+
 ## 2026-07-16 — Phase C handoffs (the three-way separation staffed)
 
 ### Added

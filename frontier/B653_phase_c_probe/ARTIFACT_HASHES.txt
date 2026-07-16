@@ -1,0 +1,1 @@
+864909ce057c6173b14f4b38172861562b2bc587ba6c3f59ac4a8da8469b3c64  COMPARISON_DESIGN_C2.md (THE C2 SEAL — sealed before the predictor/comparator lanes ran)
