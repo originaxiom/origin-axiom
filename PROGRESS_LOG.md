@@ -4946,3 +4946,18 @@ two-ended (E₆-end, E₈-shadow) pairing has its second witness; the McKay plac
 (still placement). ALSO RECEIVED: cc2's 25MB master handoff (RUN_ORDER + level-ladder L6 prereg +
 cell3 adjudication note + the jewel-hunt/veins campaigns) — inventoried; full triage = the next
 session's opening item (registered). Locks 3/3. Firewalled.
+
+## 2026-07-16 — THE LAW MAP banked (docs/LAW_MAP.md) + the last idea-rows registered
+The owner's direction: consolidate every law with its exact status. The map: five sections — the
+object's arithmetic (the sign-law theorem, the one-door, the conductor identities, the gating and
+reality laws), the stage and the ear (closure, trace/LAW-O, the three layers, the hearing group,
+THE PENTAGON VOICE, Plancherel 1/4–1/4, K020-in-the-ear, the silent class, the universal slope),
+the chord (the cubic dichotomy, chirality-exclusion, THE LAW OF THE CHORD'S CORE with its partial
+mechanism, the swap real structure, the typing wall, θ-fiber-pairing, λ-rigidity), the meta-laws
+(the coupling thesis's FIVE exact instances, K020, two-ends + dual McKay with the ear as the 2I
+side, measurement-through-the-finite, the closed negative record, the stage-selection hypothesis
+with its four obligations), and the walls (seven, kept dead). Strength classes: THEOREM / LAW /
+MECHANISM / PLACEMENT / WALL — every row carries witnesses and its upgrade path (L82, L91–L95).
+Maintenance rule embedded (a row per new law, same-PR). L95 registered (chat-2's standing cubic
+prereg, verify-on-receipt). The sweep confirms: every realization and idea of the era now has a
+findable banked home. Firewalled.
