@@ -4903,3 +4903,20 @@ imaginary ✓. The Law of the Chord's Core is no longer bare data: the swap real
 mechanism; the magnitude-24 bookkeeping (rows 2–4's mixing entries) is the registered closing
 derivation. Transcript note: the banked outputs are the runs' tail sections (the build heads are
 standard and reproducible; content complete). Locks 3/3. Firewalled.
+
+## 2026-07-16 — B640: THE HEARING-GROUP THEOREM VERIFIED at class-table strength (+ two scope corrections)
+Chat-2's handoff verified on the banked 80-dps stage (residuals 1e-61): **the hearing of the fig-8
+factors through 2I × ℤ/3 (order 360)** — the exact SL(2,5) class equation [1,1,12,12,12,12,20,20,
+30], the full golden character histogram (zero unidentified), det = the ℤ/3 twist, M_odd = −ρ,
+**tr ρ(RL) = −1/φ** (= B584/B587 banked), ord(T) = 15 with the SL(2,ℤ/15) ≅ SL(2,3)×SL(2,5)
+factorization structure (2I faithful, SL(2,3) → its ℤ/3 abelianization; Ng–Schauenburg
+[CITED-KNOWN]). **THE ORDER RECONCILIATION retires the B619 conflict: 15/10/5/20 are four distinct
+operators** (letters and T / ρ(RL) = B584's rotation / M_odd = B601's B_odd / the FULL-space W(RL)
+= B619's banked 20) — all correct simultaneously. The hyperbolic-heard-as-elliptic principle
+stands: the Anosov monodromy's hearing is the pentagon. CORRECTED: the scalar-symmetric-part tone
+law is det=1-sector-only (fails 232/360); under the strict law: 9 golden tones, 34 silences — not
+16/90; the twisted-sector tone statement = a registered refinement for chat-2. The silent-weld
+witnesses verify 3/3 (purely-imaginary real-ear amplitudes) — the prediction class stands. The
+McKay/E₈ placement REGISTERED against the banked two-ended theorem (holonomy = the E₆ end; the
+hearing group = the finite shadow of the E₈/ℚ(√5) end). Instrument note: the first run's float64
+garbage was caught by the gates instantly. Locks 2/2. Firewalled.

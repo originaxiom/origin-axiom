@@ -13000,6 +13000,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B640": {
+   "slug": "hearing group",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B247",
+    "B261",
+    "B584",
+    "B587",
+    "B601",
+    "B619",
+    "B629"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B64": {
    "slug": "parity mechanism",
    "motifs": [
