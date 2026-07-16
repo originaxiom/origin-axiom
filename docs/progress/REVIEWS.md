@@ -1108,7 +1108,7 @@ untouched, carried below.
 - [ ] R20-8: the order-4 orientation-reversing families through the flip pipeline, if wanted (source: B643 residual)
 - [ ] R20-9: prior-art/novelty pass over the window's eight THEOREM/LAW candidates (NEEDS-SPECIALIST; gate for §5.1 promotion)
 - [ ] R20-10: cc2 wave packets + chat-2's L95 prereg — verify-on-receipt when they land
-- [ ] R20-11: sweep all sealed arcs for missing ARTIFACT_HASHES lines (two instances found: B643 #1034, B634 this review); consider a gate (source: Review 20 §ii)
+- [x] R20-11: DONE (2026-07-16, #1038) — `docs/SEAL_LEDGER.md` generated (`scripts/seal_ledger.py`, regenerable): 120 sealed docs; 95 unrecorded-but-single-commit (pre-ritual arcs; content verifiably = banked content via git provenance); 8 amended-after-banking → 7 pure appends (the results-in-doc pattern, benign) + 1 designed slot-fill (B565's declared "pending" handoff rows, commits titled "slotted", trail-visible; today's rules would append). ZERO silent tampering. Gate decision: no new gate — the regenerable ledger + the template's §7 protocol-integrity item cover detection; forward rule (per-arc ARTIFACT_HASHES) already standing.
 
 *(The next review is the first under GOVERNANCE §15 — the constitutional
 pilot: it must open by closing or carrying every item above.)*

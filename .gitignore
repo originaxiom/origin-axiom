@@ -51,3 +51,7 @@ legacy/reports/genesis/*.txt
 cosmogony/
 *.log1
 *.log2
+
+# seat-local AI pointers (never committed; see WORKING_RULES.md §11)
+CLAUDE.md
+CLAUDE.local.md
