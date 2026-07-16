@@ -49,8 +49,17 @@ rules. Gates: T must type the banked coupling instances consistently
 (the antiphase listener B584, the displaced ear B593, the three-layer
 separation B611/B613, the reality law B626, the cubic dichotomy
 B632/B637). **Typing rule from B646-Q2 (the core-coupling gate's
-basis): abelian character dressing carries no object information —
-only core-coupled quantities are typeable as observables.**
+basis, scoped per the cc2 review): abelian character dressing is
+untypeable for monodromy-word observables (Q2 proved blindness exactly
+there); full-image observables (the ear class: B584/B593/B644) may
+carry character content through the core tensor and are typed
+accordingly. A rule that made abelian factors information-free
+globally would fail A1's own gate battery.**
+
+**Contamination ordering (binding, per the chat-1 review):** A1's
+TYPES document is hashed BEFORE any recorded Phase-C channel
+discussion exists anywhere in the program's records; C1's minutes must
+cite the A1 hash they postdate.
 
 **A2: the chord mechanisms (R20-5/R20-6; B647 continues).** Cell 1
 banked: swap+zero leave 6 real dims; the spectator law ⟺ one phase
@@ -91,18 +100,35 @@ disc(A₁)-shadow membership. **The shadow quotient:** rows that are
 manifestations of one arithmetic invariant are counted ONCE toward the
 freedom.
 
-**B2: the silver control (C4; needs the m136 exact E₆ holonomy build —
-its own arc, parallelizable).** Every row labeled FORCED must
-reproduce on the second object; failures relabel to stage-chosen.
-**KILL K5 (partial):** if most FORCED rows demote, the object-forced
-grammar thesis weakens — bank honestly, campaign pauses for re-scope.
+**B2: the silver-chord control (the queue's C4 item; needs the m136
+exact E₆ holonomy build — its own arc, parallelizable).** The control
+object is PINNED: m136 = the silver bundle, monodromy word RRLL, trace
+6, disc(A) = 32. "Reproduce" is defined at FORM level: a FORCED row
+reproduces if the theorem-SHAPE holds with the silver's own arithmetic
+substituted (disc 32 in the silence character; the silver's own
+conductor tower) — instance-matching of constants would falsely demote
+correct rows. HONEST HAZARD, labeled in advance: disc 32 is even, so
+the silver silence law runs through the 2-adic/mod-8 twist theory —
+the least-proven part of the ladder's proofs; a silver anomaly reads
+"2-adic theory incomplete" BEFORE "grammar demoted". **KILL K3
+(hardened per both reviews):** ANY demotion of a FORCED row that the
+chosen C-channel's typing uses = automatic campaign pause (no
+discretion); broader demotions bank honestly and re-scope. **GATE B
+does not soft-pass with the silver control in flight: the m136 build
+finishes or Phase B waits.**
 
-**B3: the freedom count N.** The number of independent CHOSEN
-constants after the shadow quotient, with the vacuity check both ways
-(MB12): N must be finite and enumerable. **KILL K2:** a non-enumerable
-dial (an invariant varying without an enumerable choice) → the
-calibration is ill-posed; bank and stop. **BRANCH (not a kill): N = 0**
-→ the grammar predicts with zero calibration — Phase C upgrades to the
+**B3: the freedom count N and well-posedness.** The number of
+independent CHOSEN constants after the shadow quotient, with the
+vacuity check both ways (MB12): N must be finite and enumerable. **The
+shadow quotient merges rows ONLY on LAW_MAP-grade PROVEN identities —
+never resemblance** (the one place N could be gamed downward; hardened
+per both reviews). **THE ARITY CONDITION (GATE B addition, both
+reviews):** Phase C as designed is well-posed only if N_eff(channel) ≤
+the dimension of the calibration observable — one measurement fixes at
+most one continuous constant; if N exceeds it, the design escalates to
+N declared calibration channels plus one held-out, RE-SEALED — never
+silently. **KILL K2:** a non-enumerable dial → ill-posed; bank and
+stop. **BRANCH (not a kill): N = 0** → Phase C upgrades to the
 direct-prediction variant C′ (strictly more falsifiable).
 
 **GATE B:** the table sealed with N; every FORCED row theorem-backed;
@@ -110,12 +136,17 @@ every CHOSEN row's orbit enumerated.
 
 ## 4. PHASE C — THE PROBE (sealed, two-outcome, cross-seat)
 
-**C1: channel selection (owner + seats, recorded).** A pair of
-same-TYPE (per A1's functor), core-coupled, dimensionless observables.
-Candidates in prior order: the JUNO forward row's sector (the one
-experiment-side row the program carries); the PMNS pair done typed and
-calibrated (explicitly NOT B631's raw comparison — new design, new
-seal, B631's numbers quarantined). **THE SECTOR-COVERAGE GATE (from
+**C1: channel selection — THE FROZEN RULE (discretion removed per the
+cc2 review).** A pair of same-TYPE (per A1's functor), core-coupled,
+dimensionless observables. The prior order is fixed HERE, before any
+grammar table exists: (1) the JUNO forward row's sector (the one
+experiment-side row the program carries); (2) the PMNS pair done typed
+and calibrated (explicitly NOT B631's raw comparison — new design, new
+seal, B631's numbers quarantined). Selection = the FIRST candidate in
+this order passing ALL gates; if several pass, ALL passing channels
+run with multiplicity correction (the banked B614/B615 Šidák
+machinery), counted in the design space below. C1's minutes cite the
+A1 TYPES hash they postdate (the contamination ordering). **THE SECTOR-COVERAGE GATE (from
 the B646 erratum):** the calibration instance and the predicted
 instance must not sit in a single arithmetic sector of the relevant
 character (residue/non-residue, inert/split, as typed) — a design
@@ -125,22 +156,42 @@ comparison runs.
 **C2: the sealed design.** MB12 (operations AND criteria, vacuity
 both ways) + MB13-results-in-doc + pipeline controls (positive /
 power / calibration / seed / path) + INPUT_COMPLETENESS_LEDGER row +
-the conventions block + the two new gates (sector coverage,
-core-coupling) + a null model and power analysis. **KILL K6:** if the
-null/power gates fail, no comparison runs (the B631 lesson: an
-underpowered comparison is banked as no-test, not as a null).
+the conventions block + the gates: sector coverage, core-coupling, and
+**THE GRAMMAR-INDEPENDENCE GATE (per the cc2 review): the prediction
+must traverse at least one FORCED row NOT consumed by the calibration
+— else Outcome A tests a law, not the coupling, and the design is
+rejected as circular.** The null model and power analysis are computed
+over the FULL design space — the product of every CHOSEN row's
+enumerated orbit × the number of passing channels — not just the N
+continuous constants (the B615 look-elsewhere lesson, made structural).
+**Held-out provenance (per the chat-1 review): an explicit
+INPUT_COMPLETENESS row certifies the held-out value is absent from
+every input that built Phases A and B.** **Outcome A's success
+criterion is pre-registered NUMERICALLY in this seal, with the
+pre-committed false-positive rate printed next to it; the result banks
+as conditional-on-functor.** The seal carries a per-seat EXPOSURE line
+(with three-to-four seats true blinding is impossible — cc2 built half
+the ladder grammar; adjudication weighs exposure rather than
+pretending it away). **KILL K5:** if the null/power gates fail, no
+comparison runs (the B631 lesson: an underpowered comparison banks as
+no-test, not as a null).
 
 **C3: cross-seat execution.** Design sealed by seat X; the N-constant
 calibration and the second-observable prediction computed by seat Y
 (hash-first: prediction sealed before the held-out target is opened);
 the comparison executed by seat Z; adjudication on the main seat.
 
-**C4: the two-outcome bank.** Outcome A: the grammar predicts the
-second measurement — the program's first genuine physics prediction,
-banked with every caveat the record demands. Outcome B: a clean miss —
-**the falsification of the coupling thesis in its value form at this
-level**, the program's most important negative, banked with equal
-prominence. Either way the campaign succeeds as an experiment.
+**C4: the two-outcome bank — destination named NOW (the Gate-5
+collision resolved pre-seal, per the cc2 review).** Outcome A: the
+grammar predicts the second measurement. It banks in the probe arc's
+own sealed PREDICTION.md (frontier, behind the firewall) plus a
+VALUE-FREE pointer row in CLAIMS.md labeled conditional-on-functor —
+**no SM quantity ever enters CLAIMS.md; Gate 5 survives Outcome A by
+construction, decided here and not under an adrenaline spike.**
+Outcome B: a clean miss — the falsification of the coupling thesis in
+its value form at this level, the program's most important negative,
+banked with equal prominence. Either way the campaign succeeds as an
+experiment.
 
 ## 5. The loop schedule and seat assignments
 
@@ -158,14 +209,17 @@ the next launches. Standing cadence: mechanism/build waves in
 parallel; the functor track is sequential (it is the bottleneck and
 the point).
 
-## 6. Kill-switches (consolidated)
+## 6. Kill-switches (consolidated; contiguous numbering per review)
 
 - **K1** no typed functor → TYPING WALL banked; campaign ends.
-- **K2** non-enumerable freedom → ill-posed; banked; campaign ends.
-- **K5** the silver control demotes the table's core → pause + re-scope.
-- **K4** no channel passes sector coverage → the obstruction banked;
-  Phase C waits for a channel, does not force one.
-- **K6** null/power gates fail → no comparison; banked as no-test.
+- **K2** non-enumerable freedom (or the arity condition unsatisfiable
+  in every channel) → ill-posed; banked; campaign ends.
+- **K3 (= K-SILVER)** any demotion of a FORCED row used by the chosen
+  channel's typing → automatic pause; broader demotions → re-scope.
+- **K4** no channel passes sector coverage + grammar independence →
+  the obstruction banked; Phase C waits for a channel, never forces one.
+- **K5** null/power gates fail over the FULL design space → no
+  comparison; banked as no-test.
 - (N = 0 is a branch to C′, not a kill.)
 
 ## 7. Estimate and what this campaign is NOT
@@ -183,6 +237,20 @@ comparison that the coupling thesis actually licenses, at full
 strictness, once.
 
 ## 8. Sign-off
+
+Two seat reviews received 2026-07-16 and adjudicated before this
+revision (both endorse with amendments; all amendments applied above):
+the cc2 review (archived in this arc) and a second seat review relayed
+inline. ONE UNRESOLVED FLAG for the owner: the inline review claims
+track L (the L97 proof queue) and the A3 pairing-glued machine as its
+own lanes — both are cc2's per this document's §5 and the banked
+record. Either the relay label was wrong (the message is cc2's) or two
+seats claim one lane; **the owner confirms the §5 lane table at
+sign-off.** Also at sign-off the owner confirms the §0 thesis wording
+is theirs (the license leans on it). The label "Quiddity No-Go" used
+in the inline review is NOT a banked name (nothing in-repo); the
+concept it points at (the coupling thesis + the no-value walls) is
+banked; the label is not imported.
 
 - Owner approval: ________ (on approval: hash this file, open the
   campaign row in CAMPAIGN_STATUS/OPEN_LEADS, launch tracks S and M
