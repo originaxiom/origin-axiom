@@ -1,0 +1,15 @@
+# B643 artifact hashes (sha256)
+
+## Sealed BEFORE the runs (hash-first)
+76d64ba0f0f506960d4e90b893813f3e9cc0b5d587173815b0294e2b69f68db3  PREREGISTRATION.md
+
+## Hashed POST-HOC (labeled per the house rule; the scripts were written
+## and run inside the adjudication branch of the sealed prereg — the
+## gates F1-F4 and the two-outcome verdicts are the prereg's own)
+e53ac1b949ae4f499948a67ceb74c229510147137c9714f320d90122bd97d66f  b643_flip.py       (step 0: the naive per-side flip; F1 FAIL both J-conventions)
+678e25c9ec4eb138ed2c33c29e13cab3fa530981533e3ac73c636303021b0007  b643_refined.py    (step 1: phi(LONG) = LONG^-1 exact, empty conjugator)
+47a01e5dfab46e664d5b324ee74cfa84bc813e2eb68e12e3ecdef72abef88e6f  b643_swapflip.py   (step 2: side-exchange; derived convention acts on rep0 only; SL2 witness Q)
+5c42732adc333f4655c818875ed10c873bf7486d04c60e141aadd22e760aeb9e  b643_companion.py  (step 3: block-scalar system; singular d = (0,0,1))
+ba6d295bef4c0cc539a4148115c9ddbb8cbc73cb1c07308e9ebc4c463eb5c8bb  b643_bfamily.py    (step 4: phi(a)=b family; same singular verdict)
+a6249f79bfa52c894ccf716ed90673db83a903b9e52d7b23bfc2b4262016f610  b643_output.txt    (all steps, appended in run order)
+3fa0ece5877e934db7898f92a07b756c112947eaef7f146e156983d8e9c6f9ec  FINDINGS.md        (as of PR #1033)

@@ -24,6 +24,10 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 ### Changed
 - LAW_MAP: core-law row upgrade path re-pointed; wall 8 (the flip wall); the
   B645 LAW row. PC26 §8′ upgraded. HINT_LEDGER: the 3⁸/13 shapes.
+- Hash hygiene (the /loop banking directive): B643's ARTIFACT_HASHES.txt
+  committed — the sealed prereg line (76d64ba0) + post-hoc-labeled script and
+  output hashes; locks extended (the F1 obstruction lines + sha-256
+  re-verification of the sealed prereg), 5/5.
 
 ## 2026-07-16 — B644 the congruence-shadow theorem; B639 closed; B643 step 1
 
