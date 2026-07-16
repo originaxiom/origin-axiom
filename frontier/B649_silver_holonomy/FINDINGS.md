@@ -183,3 +183,36 @@ untouched.
 **§B2 scorecard so far:** dimension grammar 3/5/1 ✓ reproduced; swap
 real structure ✓ reproduced (with the field-of-definition refinement).
 Remaining silver input: the Y-tensor (stage 3b-ii, certificates).
+
+---
+
+## Stage 3b-ii (prereg 5dd14ee0) — THE SILVER Y-TENSOR: the §B2 scorecard completes
+
+**G1 (machinery):** the multi-relator certificate engine validated —
+δS = ω EXACT on both sides including the certificate paths; **the
+silver peripheral commutator has van Kampen AREA 4** (the fig-8's was
+2). **G2:** all 10 triples exact (~75 min total; `silver_Y_L.json`).
+**G3 verdicts (each a grammar-table entry):**
+
+| form-level row | verdict |
+|---|---|
+| zero law shape: Y[01k] ≡ 0 | **REPRODUCES** (3/3 zero slots) |
+| the Y-tensor's field of definition | **REPRODUCES the subfield law: every Y ∈ ℚ(i)** (s-free), as the σ*-matrix — the chord data lives in the object's imaginary quadratic subfield on BOTH objects |
+| σ*-law Y∘σ* = conj(Y) | **REPRODUCES exactly** (spot triples (0,2,3), (2,3,4) with the banked matrix) |
+| lit/silent classification | EXISTS on both objects; the silver's unbent weld is **LIT** (Y[024] ≠ 0) where the fig-8's unbent was silent — WHICH class is object-dependent |
+| the single-unit core ratio (the fig-8's 24ζ₆) | **DOES NOT reproduce as a universal law** — the three spectator ratios differ (cross-ratios ≠ 1); the crisp ratio is a fig-8-silent-class phenomenon. SCOPE REFINEMENT, not a K3 event: the banked row was always fig-8-scoped ("all nine computed doubles" of THAT object) |
+| lit-class deviation structure | the cross-ratio deviations are STRUCTURED: all four deviation numerators share **211**; both components of the first carry **13** (the fig-8's dial prime!); denominators 13- and 211-free — an exact adic statement, silver edition |
+
+**The campaign §B2 silver-control conclusion (GATE B's input, complete):**
+the FORM rows — dimension grammar 3/5/1, the swap real structure
+(J² = +1, antilinear involution), the zero law's shape, the σ*-law,
+and the imaginary-quadratic field-of-definition law — reproduce on the
+second object and are candidate FORCED rows for the grammar table. The
+VALUE rows — which units, which class (lit/silent), the deviation
+primes (13 vs 211-and-13) — are object-chosen: K020 at the chord
+level, now witnessed end-to-end on two objects.
+
+HINT rows (recorded, not judged): area 2 → 4 (fig-8 → silver, the
+commutator's van Kampen area doubles with disc 5 → 32?); 211 (silver)
+vs 13 (fig-8) as dial primes — 13 split in ℚ(√−3), 211 ≡ 3 mod 4 inert
+in ℚ(i): the split-prime reading does NOT generalize naively; recorded.

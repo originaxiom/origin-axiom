@@ -13180,9 +13180,10 @@
     "B638",
     "B648",
     "K020",
+    "K3",
     "S1"
    ],
-   "obstacle": "gauge_dict",
+   "obstacle": "units_scale",
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"

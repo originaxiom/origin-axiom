@@ -5249,3 +5249,25 @@ norm-1 diagonals gauge-variant; the invariants are the real structure +
 the field of definition (K020 at form level: structure forced,
 imaginary quadratic field object-chosen). SB2 scorecard: dimensions ok,
 swap ok; remaining = the Y-tensor (3b-ii). Locks 4/4.
+
+## 2026-07-16 — B649 stage 3b-ii BANKED: THE SILVER Y-TENSOR — the SB2 scorecard completes (track S wave 6)
+
+The certificate machinery ported (two relators; the silver peripheral
+commutator has AREA 4 vs the fig-8's 2); deltaS = omega exact on both
+sides; all 10 triples exact over L (~75 min). FORM-LEVEL VERDICTS:
+zero law shape REPRODUCES (Y[01k] = 0); THE SUBFIELD LAW (new): the
+whole Y-tensor is s-free — chord data lives in Q(i), the object's
+imaginary quadratic subfield, exactly as the sigma*-matrix (and as the
+fig-8's lived in Q(sqrt-3)) — LAW on two structures x two objects; the
+sigma*-law Y.sigma* = conj(Y) REPRODUCES EXACTLY (spot triples with the
+banked matrix); the silver's unbent weld is LIT (Y[024] != 0) where the
+fig-8's was silent — the classification exists on both, WHICH class is
+object-chosen; the single-unit core ratio does NOT reproduce (cross-
+ratios != 1; scope refinement on the banked fig-8-scoped row, not a K3
+event); the lit deviations are STRUCTURED: all four numerators share
+211, the first cross-ratio carries 13 in both components, denominators
+13/211-free. GATE B'S SILVER INPUT IS COMPLETE: form rows (dimensions,
+swap, zero shape, sigma*-law, subfield) = candidate FORCED; value rows
+(units, class, dial primes) = object-chosen — K020 at the chord level
+on two objects end-to-end. HINTs: area 2->4; 13 split vs 211 inert (the
+split-prime reading does not generalize naively). Locks 5/5.

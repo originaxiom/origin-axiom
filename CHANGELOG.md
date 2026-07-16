@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B649 stage 3b-ii: THE SILVER Y-TENSOR (track S wave 6; §B2 complete)
+
+### Added
+- The silver Y-tensor exact (10 triples; commutator AREA 4; machinery
+  validated). Form verdicts: zero law ✓, σ*-law ✓ exact, THE SUBFIELD LAW
+  (chord data ∈ the imaginary quadratic subfield — new LAW, two objects);
+  the silver's weld is LIT; the single-unit core ratio is fig-8-scoped
+  (scope note, not a demotion); lit deviations 13·211-adic. GATE B's
+  silver-control input COMPLETE. Locks 5/5.
+
 ## 2026-07-16 — B649 stage 3b-i: the silver swap reproduces; the invariant sharpened (track S wave 5)
 
 ### Added

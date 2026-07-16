@@ -176,3 +176,47 @@ def test_stage3bi_sigma_matrix():
     out = open(os.path.join(B649, "b649_stage3b_swap_output.txt")).read()
     assert "c^2 = 1: True" in out
     assert "cocycle: [True, True, True, True, True]" in out
+
+
+def test_silver_Y_form_level():
+    """The silver Y form-level verdicts, recomputed exactly from JSONs."""
+    import json
+    import sympy as sp
+    I = sp.I
+    dY = json.load(open(os.path.join(B649, "silver_Y_L.json")))
+    Y = {}
+    for k, v in dY.items():
+        assert all(sp.Rational(x) == 0 for x in v[1:4] + v[5:8]), k  # s-free
+        Y[tuple(int(c) for c in k)] = sp.Rational(v[0]) + sp.Rational(v[4]) * I
+    for k in ((0, 1, 2), (0, 1, 3), (0, 1, 4)):
+        assert Y[k] == 0                                # zero law shape
+    assert sum(1 for v in Y.values() if v != 0) == 7    # lit class
+    dC = json.load(open(os.path.join(B649, "sigma_matrix_L.json")))
+    C = [[sp.Rational(e[0]) + sp.Rational(e[4]) * I for e in row]
+         for row in dC]
+
+    def Yof(p, q, r):
+        t = (p, q, r)
+        if len(set(t)) < 3:
+            return sp.Integer(0)
+        sign, lst = 1, list(t)
+        for a in range(3):
+            for b in range(a + 1, 3):
+                if lst[a] > lst[b]:
+                    sign = -sign
+        return sign * Y[tuple(sorted(t))]
+
+    for (i, j, k) in [(0, 2, 3), (2, 3, 4)]:
+        lhs = sp.expand(sum(C[i][p] * C[j][q] * C[k][r] * Yof(p, q, r)
+                            for p in range(5) for q in range(5)
+                            for r in range(5)))
+        assert sp.simplify(lhs - sp.conjugate(Y[(i, j, k)])) == 0
+    cr = sp.simplify((Y[(0, 2, 3)] * Y[(1, 3, 4)])
+                     / (Y[(0, 3, 4)] * Y[(1, 2, 3)]))
+    dev = sp.simplify(cr - 1)
+    assert dev != 0                                     # not the fig-8 unit law
+    a, b = dev.as_real_imag()
+    for comp in (a, b):
+        num, den = sp.fraction(sp.Rational(comp))
+        assert num % 13 == 0 and num % 211 == 0
+        assert den % 13 != 0 and den % 211 != 0
