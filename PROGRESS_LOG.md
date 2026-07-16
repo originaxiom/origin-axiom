@@ -4878,3 +4878,15 @@ pair force the law of the chord's core?). B639 = the twisted double via the λ�
 — then THE ONE NUMBER Y_θ ∈ ℚ(√−3) on the 1-dim Λ³ (zero = the twisted chord carries no cubic;
 nonzero = the parity-clean three-mode invariant). Both mathematics-only; Gate 5 stands. Runs in
 flight. Firewalled.
+
+## 2026-07-16 — B639 honest partial: θ IS INVISIBLE AT SL(2) — the twisted double is a fiber-pairing, not a rep twist
+The C2 probes (all exact, gates-first): the λ↦+λ conjugate gluing is INCOMPATIBLE (rigid
+λ-inversion); the SL(2) "contragredient" collapses to plain conj (inner: (gᵀ)⁻¹ = wgw⁻¹); the
+naive 27-contragredient lift fails both peripheral gates. THE FORCED INSIGHT: **θ fixes the
+principal holonomy pointwise (e_pr, f_pr are diagram-symmetric sums) ⇒ conj∘θ∘ρ = conj∘ρ — the
+D_conjθ twist lives entirely in the FIBER IDENTIFICATION (the antilinear pairing θ₂₇∘conj into the
+dual), not in the representation** — the audit's Gate-2 subtlety made concrete; cc2's per-block
+route saw it correctly through the self-dual adjoint blocks. The C2-completion cell (build θ₂₇
+exactly; the (C,C*)-glued cubic; the one number) registered as L92. Meanwhile B638's first gate is
+green: **u·conj(u) = +1 — the swap's J is a genuine antilinear involution**; the σ*-matrix and the
+Y-transformation law are computing. Firewalled.

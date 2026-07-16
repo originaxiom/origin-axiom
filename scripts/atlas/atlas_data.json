@@ -12956,6 +12956,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B639": {
+   "slug": "conjtheta cubic",
+   "motifs": [
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [
+    "B575"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B63": {
    "slug": "sl4 symbolic m",
    "motifs": [
