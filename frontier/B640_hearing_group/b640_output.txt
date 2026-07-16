@@ -1,0 +1,39 @@
+== R1: the odd plane's invariance + M_odd = -rho ==
+  invariance residuals: R 1.1e-61, L 3.05e-61
+  C|odd = -I residual: 1.56e-61
+
+== R2: the group closure ==
+  |im rho| = 360
+  det = omega^(#L-#R mod 3): failures 0/60
+  |ker det| = 120
+  ker(det) order profile: {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}
+  unique involution: True
+  golden character histogram: {'+1': 20, '+1/phi': 12, '+2': 1, '+phi': 12, '-1': 20, '-1/phi': 12, '-2': 1, '-phi': 12, '0': 30}; unidentified 0
+  conjugacy classes (by trace, det=1): 9 classes, sizes [1, 1, 12, 12, 12, 12, 20, 20, 30]
+
+== R0: the order reconciliation table ==
+  ord(rho(R))    = 15
+  ord(rho(L))    = 15
+  ord(rho(RL))   = 10
+  ord(M_odd(RL)) = 5
+  ord(T) full    = 15
+  ord(B601 B_odd(RL)) = 5   [B584 banked the rotation order 10 for e^(3 pi i/5)-type; B619's 20 = the FULL-space operator — recomputed here:
+  ord(W(RL)) on the FULL 6-dim stage = 20
+
+== R6: the headline ==
+  tr rho(RL) = (-0.618033988749894848204586834366 - 7.0008921875937844205370720605e-61j)
+  +1/phi     = 0.618033988749894848204586834366
+  tr = -1/phi: True
+
+== R4: the tone table ==
+  scalar-symmetric-part law failures: 232/360
+  distinct tones: 9
+  silent elements: 34/360
+  tones identified in the golden set (up to sign): 9/9
+
+== R5: the silent witnesses ==
+  LLRLRR: tone-zero True; real-ear amplitude Re = 1.56e-62 (must be ~0), Im = 2.77982e-61
+  LLRRLR: tone-zero True; real-ear amplitude Re = -1.85e-61 (must be ~0), Im = 0.17013
+  LRLLRR: tone-zero True; real-ear amplitude Re = -1.15e-61 (must be ~0), Im = -0.913014
+
+B640 verification DONE
