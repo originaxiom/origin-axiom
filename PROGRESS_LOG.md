@@ -5085,3 +5085,18 @@ closing or carrying R20-1…R20-11. Rationale: five repo functions with
 contradictory optimal layouts ⇒ substrate/views separation; the review
 becomes a control loop (closed by the gate) instead of an audit; the
 object-principle transfer licensed at problem-shape level only.
+
+## 2026-07-16 — Phase 2 starters: the retractions index, claims-as-units seeded, the README doors
+
+Per the approved program (the governance amendment's companions):
+docs/RETRACTIONS.md instituted — thirteen banked-then-corrected
+statements indexed with banked/corrected loci and the same-PR maintenance
+rule (distinct from ARCHIVE.md's dead-ideas register: these were asserted
+and later corrected — the reader-safety instrument). core/claims/ seeded
+per §14: the frontmatter spec + three exemplars (P12 arithmetic identity;
+P15 showing uses:; D4 showing the terminal state) — forward rule active,
+lazy backfill. README gains the three doors (reading / verifying /
+contributing) pointing at the now-complete entry set (CLAIMS, LAW_MAP,
+RETRACTIONS, REPRODUCIBILITY, SEAL_LEDGER, WORKING_RULES, GOVERNANCE).
+Also this window: R20-11 closed (#1038, the seal ledger: 120 seals, zero
+silent tampering); the seat-pointer pattern gitignored.

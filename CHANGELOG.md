@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — Phase 2 starters (the reader-facing layer)
+
+### Added
+- docs/RETRACTIONS.md — the banked-then-corrected index (13 rows, sourced;
+  same-PR maintenance rule).
+- core/claims/ — the §14 claims-as-units spec + three exemplars (P12, P15,
+  D4); forward rule active.
+- README "Where to start (three doors)" — reading / verifying / contributing
+  entry paths.
+- docs/SEAL_LEDGER.md + scripts/seal_ledger.py (R20-11 closed, #1038):
+  120 seals audited, zero silent tampering.
+
 ## 2026-07-16 — THE GOVERNANCE AMENDMENT (§12–§15; the pilot machinery)
 
 ### Added
