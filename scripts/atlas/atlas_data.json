@@ -13057,6 +13057,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B643": {
+   "slug": "flip symmetry",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "B638",
+    "L93"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B64": {
    "slug": "parity mechanism",
    "motifs": [
