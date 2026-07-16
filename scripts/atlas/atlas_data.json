@@ -12948,10 +12948,11 @@
     "B605",
     "B632",
     "B635",
+    "L85",
     "L91"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 2,
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

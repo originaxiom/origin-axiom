@@ -4853,3 +4853,17 @@ gain 1' (THE TYPING WALL: no Yukawa-type family tensor at this level, for typed 
 comparison-independent). CANDIDATES row updated; remaining before submission: the D_φ completion
 note (stage 3 in flight — the core values already CONFIRMED IDENTICAL on the first two involution
 doubles: the core is GLUING-INDEPENDENT), references, voice pass. Firewalled.
+
+## 2026-07-16 — B637 stage 3 COMPLETE: THE LAW OF THE CHORD'S CORE (9/9 doubles)
+All four D_φ involution doubles computed, class-level gates green per family; the unbent table
+regenerated and matching. The a/A-families: 7/10 nonzero (extra = Y[024], as at m = 1), sharing
+the weld-scale core verbatim; the b/B-families: 6/10, representatives five orders smaller — AND
+THE IDENTITY HOLDS REGARDLESS: **Y[023] = 24·ζ₆·Y[123] EXACTLY on all nine computed mirror-coupled
+doubles** (sympy-verified incl. the rescaled families; the neighboring ratio is not a unit —
+the relation is special to the boundary-born pair). The zero law Y[01k] ≡ 0 is also 9/9. The
+conjectured mechanism (registered, unproven): the swap involution's orientation-reversal — exactly
+what the C1 campaign is designed to prove. PC26 gains the one-sentence completion note. THE
+RECOVERY PLAN IS FULLY EXECUTED (Lanes 0–5): the audit integrated, the repairs adjudicated, the
+manifolds named, three pipelines agreeing, the chord's two invariants banked with a
+gluing-independent law, L90 closed, the rebase and PC26 v2-final banked. STOPPED per the plan: no
+campaign launch without the owner's pick (C1 + C2 recommended). Firewalled.

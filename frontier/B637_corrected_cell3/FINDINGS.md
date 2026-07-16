@@ -194,3 +194,40 @@ cross-adjudication when it lands.
   ℚ(√−3) values (their blind bank). Their 2-form and this arc's
   3-form are the chord's two class-level cubic-family invariants,
   produced by independent machinery.
+
+---
+
+## Stage 3 COMPLETE (2026-07-16): the four D_φ tables — THE LAW OF THE CHORD'S CORE
+
+All four involution doubles computed with class-level gates GREEN per
+family (coboundary invariance + antisymmetry asserted in-run); the
+unbent table regenerated and matching the banked run
+(`stage3_output.txt`, `unbent_table.txt`).
+
+**The tables:** φ(a)=a and φ(a)=A: 7/10 nonzero (the extra component is
+Y[024], as at the m = 1 bend), sharing the weld-scale representatives
+(the core pair −7983360/13 + 2661120/13·√−3 and 221760/13·√−3
+verbatim). φ(a)=b and φ(a)=B: 6/10, sharing rescaled representatives
+(core pair 1/604800 − 1/1814400·√−3 and −√−3/21772800 — five orders
+smaller). The dial-slot Y[234] differs per family throughout.
+
+**THE LAW OF THE CHORD'S CORE (exact, 9/9 computed doubles):**
+
+> **Y[023] = 24·ζ₆·Y[123]** on every mirror-coupled double carrying the
+> 3-form — the five weld-family doubles AND all four involution
+> gluings — verified exactly in ℚ(√−3) including the rescaled families
+> (sympy-checked ratio 12 + 12√−3 = 24ζ₆). The identity is
+> representative-robust in the computed bases; the neighboring ratio
+> Y[024]/Y[124] is NOT a unit (control: the relation is special to the
+> boundary-born pair, not generic). ζ₆ is the relator's forced
+> Eisenstein unit (L85 step 1: c² − c + 1 = 0).
+
+**The zero law is also gluing-independent (9/9):** Y[01k] = 0 for all k
+on every computed double except through the Y[024]-channel activations
+(m = 1; φ(a)=a; φ(a)=A) — the boundary-born pair {0,1} never couples
+JOINTLY anywhere.
+
+Conjectured mechanism (registered, unproven): the swap involution of
+the double — orientation-reversing, hence Y(σ·,σ·,σ·) = −Y — with the
+boundary-born pair's canonical relative normalization; the C1 campaign
+(REBASE_2026-07-16) is designed to prove exactly this.

@@ -78,3 +78,14 @@ def test_l90_closed():
     out = open(os.path.join(B637, "l90_output.txt")).read()
     assert "all inverse letters, all 6 blocks: True" in out
     assert "L90 CLOSED" in out
+
+
+def test_stage3_complete():
+    out = open(os.path.join(B637, "stage3_output.txt")).read()
+    assert out.count("gates coboundary True, antisymmetry True") == 4
+    assert out.count("Y[(0, 2, 3)] = (-7983360/13+2661120/13r)") >= 3
+    assert out.count("Y[(0, 2, 3)] = (1/604800+-1/1814400r)") == 2
+    assert out.count("Y[(0, 1, 2)] = 0") >= 5
+    assert "B637 stage 3 DONE" in out
+    ut = open(os.path.join(B637, "unbent_table.txt")).read()
+    assert "nonzero: 6/10" in ut and "Y[(0, 2, 3)] = (-7983360/13" in ut
