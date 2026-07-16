@@ -13025,6 +13025,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B641": {
+   "slug": "twistframe law",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B642": {
+   "slug": "galois ear",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B640",
+    "K020",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B64": {
    "slug": "parity mechanism",
    "motifs": [

@@ -4930,3 +4930,19 @@ ratios.** The first-draft "proved from the swap data" print corrected in place. 
 scoreboard: phases = theorem; the 24ζ₆ magnitude = 9/9 law, swap-consistent, awaiting the second
 symmetry (the amphichiral R↔L flip's action on the double = the registered completion cell); the
 zero law = 9/9, mechanism open. Firewalled.
+
+## 2026-07-16 — B641+B642: THE PENTAGON VOICE PROVED; THE GALOIS EAR CONFIRMED SEALED-PREDICTION-FIRST
+B641 (chat-2's twist-frame refinement, verified at 60 digits): the strict law WAS SU(2) membership
+(Cayley–Klein 120/120); **THE TWIST-FRAME TONE LAW holds on all 360 elements** (max ear-deviation
+2e-60): the object's universal real voice = **five absolute tones {0, 1/(2φ), 1/2, φ/2, 1}**
+(multiplicities 90/72/120/72/6); the four accidentals = the order-12 trace-zero elements (their
+conjecture confirmed); **Plancherel: mean-square tone = mean-square overtone = 1/4 EXACTLY** — the
+object and the listener carry equal halves of the loudness. B642 (P1–P3 SEALED BEFORE the
+conjugate-stage run): **ALL THREE PREDICTIONS HIT** — same group (SL(2,5) class equation exact at
+the k=7 Galois stage), same five-tone set, and **tr ρ(RL) = +φ** against the base −1/φ.
+**K020's mechanism now stands IN THE EAR: form forced, value Galois-chosen — which golden
+character the monodromy speaks depends on which conjugate stage the listener occupies.** The
+two-ended (E₆-end, E₈-shadow) pairing has its second witness; the McKay placement strengthened
+(still placement). ALSO RECEIVED: cc2's 25MB master handoff (RUN_ORDER + level-ladder L6 prereg +
+cell3 adjudication note + the jewel-hunt/veins campaigns) — inventoried; full triage = the next
+session's opening item (registered). Locks 3/3. Firewalled.

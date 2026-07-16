@@ -1,0 +1,30 @@
+ok
+== G1: Cayley-Klein membership (det = 1 sector) ==
+  Cayley-Klein form: 120/120
+
+== G2: the twist-frame law (360 x 6 ears, 50+ digits) ==
+  max ear-deviation over 360 x 6: 2.14e-60
+  law holds at 45+ digits: True
+
+== G3: the corrected table ==
+  |tone| census: {'1': 6, '1/(2phi)': 72, 'phi/2': 72, '1/2': 120, '0': 90}
+  silent: 90/360
+  five absolute tones, all identified: True
+
+== G4: the accidentals ==
+  twisted strict-law exceptions: 8 (expect 8)
+    word          RRRRR scalar=True order=3 tr≈-1.0000-1.7321j
+    word          LLLLL scalar=True order=3 tr≈-1.0000+1.7321j
+    word        RRRLLRL scalar=False order=12 tr≈0.0000+0.0000j
+    word        RLRRLLL scalar=False order=12 tr≈-0.0000+0.0000j
+    word        LRLLRRR scalar=False order=12 tr≈0.0000+0.0000j
+    word        LLLRRLR scalar=False order=12 tr≈-0.0000+0.0000j
+    word       RRRLRRRL scalar=True order=6 tr≈1.0000-1.7321j
+    word       RLLLRLLL scalar=True order=6 tr≈1.0000+1.7321j
+
+== G5: Plancherel (exact table arithmetic) ==
+  <|chi|^2> over ker(det) = 1 (Schur: 1)
+  mean-square universal tone (det=1) = 0.250000000000000
+  mean-square overtone (Schur complement) = 0.250000000000000  [against <|A|^2> = 1/2 for the 2-dim irrep, unit real ears]
+
+B641 DONE
