@@ -34,39 +34,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
 
 ---
 
-## RUNNING NOW — THE CALIBRATION CAMPAIGN (B648, SEALED a463c6aa, owner-approved 2026-07-16)
-- **The standing campaign**: the calibrated-pair probe (grammar → one
-  calibration → one prediction), three phases, five kills, one-shot closure;
-  three review passes applied (13 amendments). Tracks: F = the typed functor
-  (WAVE 1 BANKED, B650: the type system + held-out battery passed with the
-  one permitted revision — K1 did not fire; wave 2 = the functorial map);
-  M = mechanisms (WAVE 1 BANKED, B647 cell 2: THE ANOMALY CHARACTERIZATION
-  Y = ½·conj(chain anomaly); cell 3 = the certificate's H₂ content);
-  S = the silver control **COMPLETE for §B2** (3b-ii: the Y-tensor —
-  zero law ✓, σ*-law ✓, THE SUBFIELD LAW new, lit-class with 13·211-adic
-  deviations; form rows candidate-FORCED, value rows object-chosen);
-  M-track COMPLETE; F-track COMPLETE (wave 2: THE EQUIVARIANCE WALL —
-  the linear map is zero-only; the functor is B644's congruence shadow +
-  B650's types; L84 resolved, L91-4 discharged); NEXT: GATE B ASSEMBLY
-  (B1 grammar table + B3 freedom count + arity) — with B651's upgrades:
-  ladder rows THEOREM/CERTIFIED grade, the ladder organ FINITE (melody
-  theorem), the double's symmetry inventory complete, S-verify filled;
-  L = cc2's ladder; W = L95 on arrival.
-  CONTINUOUS MODE (owner, 2026-07-16): waves proceed without per-wave
-  approval until the campaign closes or a kill fires.
-- **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
-  Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
-  behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its
-  offspring cannot even be assigned a parent (4₁(5,1) ≅ 5₂(5,1), rigorously); its growth can
-  never leave its birth arithmetic (the closure LEMMA); it beats instead of choosing (four
-  exact pulses); no homeostasis (retired by computation — no dissipation); response flat to 3rd
-  order, finite response priced at the quantified engine boundary; its components carry exactly
-  ZERO (E5 — with the 5₂ control showing nonzero is generic); its selection rules are the
-  subfield lattice of its own field (B459). The handoffs' three tests: all closed. EZ-2:
-  p=0.168, does not fire. Next (approved queue): the lens probes (D'Ariano QCA + Verlinde
-  boundary), owner report first.
-- **m=3 metallic spectral genus** (B87/Cluster A) — detached; bank on landing.
-- **e₃ exact** (B399) — detached sentinel; bank on landing.
+## RUNNING NOW — THE CALIBRATION CAMPAIGN: GATE B PASSED (B652)
+- **Phases A + B COMPLETE.** The grammar table sealed; **N = 1 (discrete,
+  binary: the Galois branch of the golden character)**; arity satisfied;
+  residues named (A3 bounded; A4 stage-choice qualifier binding). The thesis
+  verdict: after ONE binary calibration, every further same-type
+  dimensionless observable is a zero-parameter prediction.
+- **PAUSED FOR THE OWNER:** Phase C requires the sealed three-way seat
+  separation (sealer ≠ predictor ≠ comparator) — cross-seat relay needed;
+  C1 then runs by the frozen channel rule (JUNO sector first, PMNS-typed
+  second). Tracks L (cc2 ladder) and W (L95) remain event-driven.
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2

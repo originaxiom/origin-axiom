@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B652: GATE B PASSED — N = 1 (discrete, binary)
+
+### Added
+- B1 the coupling-grammar table (sealed; three organs; shadow quotient over
+  proven identities) + B3 the freedom count: **N = 1 — the Galois branch of
+  the golden character, orbit size 2.** Chord/ladder/scale contribute zero.
+  Arity satisfied everywhere; A3 bounded, A4 qualifier binding. Phase C
+  licensed; campaign pauses for cross-seat execution (the sealed three-way
+  separation). Locks 2/2.
+
 ## 2026-07-16 — B651: cc2 wave-3 — receipts, theorem upgrades, kills
 
 ### Added

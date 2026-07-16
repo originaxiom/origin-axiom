@@ -5318,3 +5318,26 @@ corrected in place); no triality AND no swap-twisted triality on
 H1(D;27) — the double's symmetry inventory is COMPLETE: sigma* alone.
 Loop C closed at the computable level. GATE B proceeds with materially
 stronger inputs. Locks 3/3.
+
+## 2026-07-16 — B652: GATE B PASSED — N = 1 (the campaign's central verdict)
+
+THE COUPLING-GRAMMAR TABLE sealed (B1): three organs, every row labeled
+from the banked record (FORCED / CHOSEN / CONVENTION / COMPUTED-MECH-
+OPEN / WALL), the disc(A1) = 5 shadow quotient over proven identities
+(B644 + Q2 + P1/P2-certified). THE FREEDOM COUNT (B3): **N = 1 —
+discrete, orbit size 2: the Galois branch of the golden character**
+(one choice across trace law, tones, shadow — proven identifications
+B642/B644). Chord N = 0 (everything forced/computed/gauge/wall);
+ladder N = 0 (the melody theorem: one finite period); scale N = 0
+structurally (R5 + the no-scale walls). Vacuity both ways checked
+(N != 0: both branches realized, B642; finite: orbit {chi, chi-bar}).
+ARITY: one binary calibration <= any channel — satisfied everywhere;
+look-elsewhere = 2 x channels, to be counted in C2. RESIDUES (named,
+binding): A3 bounded (D_conjtheta adds predictions not freedoms unless
+a new choice surfaces — then C2 reopens pre-comparison); A4 (1)-(3)
+open — every Phase-C outcome carries the "stage = choice" qualifier.
+VERDICT: PASS. THE THESIS LANDS ONE STEP FROM C-PRIME: after ONE BINARY
+calibration, every further same-type dimensionless observable is a
+zero-parameter prediction. Phase C licensed; the campaign PAUSES for
+the owner: the three-way seat separation requires cross-seat execution
+(sealer != predictor != comparator) — owner relay needed. Locks 2/2.
