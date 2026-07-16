@@ -1,0 +1,4 @@
+306d6cde531eda5270eb44afd802a90f267abece0c61b120b2db16cadcc76a8c  TYPES.md (FROZEN before the held-out check)
+6e79e480cfa9973a84edb7e735e2f86da1f0726f33a6253dde6d5a5287598bcf  TYPES.md (v1.1 — the one disclosed revision: R0 added post-held-out; the v1 freeze hash above stands as the frozen record)
+384147e8cd1198d7f0f89ce390145b398ff74d1ebb4e15ff68202c966fd6dac9  types_checker.py
+332bdea9db9aadd400a2e5b81af0c44a9472fd59579cd8383fd3e97ef830b6cf  checker_output.txt

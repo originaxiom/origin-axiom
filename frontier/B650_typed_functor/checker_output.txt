@@ -1,0 +1,10 @@
+== FREEZE set (must reproduce the bank) ==
+  B584 antiphase-listener coefficient: ('T_coup(listener)', ('W(RL)', 'core', 'dimless'))
+  B613 closure predicate: ('T_spec', ('F', 'core', 'dimless'))
+  B611 trace-layer exemplar (trace of B_odd): ('T_field', ('W(RL)', 'core', 'dimless'))
+
+== HELD-OUT battery (mechanical, post-freeze) ==
+  B593 displaced-ear amplitude: ('T_coup(listener)', ('F', 'core', 'dimless'))
+  B626 Jacobian reality quantity J = mu + 1/mu: ('T_field', ('W(mu)', 'core', 'dimless'))
+  B632/B637 chord cubic Y: ('T_coup(partner-object)', ('F', 'core', 'dimless'))
+  B632 dim h0(M;27) = 1 (v0's quantity per R0): ('T_spec', ('F', 'core', 'dimless'))

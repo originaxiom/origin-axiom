@@ -38,10 +38,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
 - **The standing campaign**: the calibrated-pair probe (grammar → one
   calibration → one prediction), three phases, five kills, one-shot closure;
   three review passes applied (13 amendments). Tracks: F = the typed functor
-  (next wave); M = mechanisms (B647; cell 2 prereg d3e4faad sealed, compute
-  next); S = the silver control (B649 stage 1 BANKED: m136 holonomy exact
-  relations — the trace field contains ℚ(ζ₈); stage 2 = the exact field
-  build + 27-lift); L = cc2's ladder (their seat); W = L95 on arrival.
+  (WAVE 1 BANKED, B650: the type system + held-out battery passed with the
+  one permitted revision — K1 did not fire; wave 2 = the functorial map);
+  M = mechanisms (WAVE 1 BANKED, B647 cell 2: THE ANOMALY CHARACTERIZATION
+  Y = ½·conj(chain anomaly); cell 3 = the certificate's H₂ content);
+  S = the silver control (stage 1 BANKED: ℚ(ζ₈) ⊆ trace field; stage 2 =
+  the exact field build + 27-lift); L = cc2's ladder; W = L95 on arrival.
+  CONTINUOUS MODE (owner, 2026-07-16): waves proceed without per-wave
+  approval until the campaign closes or a kill fires.
 - **THE ETHOGRAM CAMPAIGN — COMPLETE (2026-07-07, E0–EZ + E5 + B459, PRs #595–#603).**
   Verdict: **H0a EARNED at every gate — no H1.** The deliverables: THE BEHAVIORAL MAP (21
   behaviors, frozen B456) — the organism reproduces exactly once, without heredity, and its

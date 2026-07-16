@@ -5175,3 +5175,17 @@ exactly the forced combination 2·conj(Y[234]) (verified exact). The
 phase hunt (π/6, cell 1) now targets one certificate's H₂ content
 (cell 3 registered). Locks 4/4. Tooling note: sympy normalizes √−3 to
 I√3 — subs-based conjugation silently no-ops; use sp.conjugate.
+
+## 2026-07-16 — B650: TRACK F WAVE 1 BANKED (the type system; the battery worked)
+
+TYPES.md v1 frozen (306d6cde) from the declared subset only, THEN the
+held-out battery ran mechanically: B593 ✓, B626 ✓, the chord's Y ✓
+(the partner-object generalization frozen from the campaign thesis
+held), and ONE failure — v₀ ill-typed (an element, not a quantity) —
+consumed the single disclosed revision cycle (R0: quantities vs
+carriers); re-run 4/4. K1 does not fire. The machine-checkable checker
+is the GATE-A artifact; R5 (the physics rule: same-type, dimensionless,
+core-coupled, type judgment named in the seal) is binding for Phase C
+now. Wave F2 registered: the functorial monodromy-equivariant map (L84)
+against the banked constraints. CONTINUOUS CAMPAIGN MODE engaged per
+the owner (waves proceed without per-wave approval until close/kill).
