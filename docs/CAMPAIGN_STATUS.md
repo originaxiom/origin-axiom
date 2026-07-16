@@ -1037,3 +1037,15 @@ adjudicated (failed transcripts restored, exhaustive mathematical locks). What S
 identities; the closure theorem; cc2's two-pipeline Z-ladder {+1,+1,+1,0,+1} with the κ=17 return
 (verified on receipt). NEXT: B637 — the corrected mathematics target (the h¹ jump locus over the
 named gluing menu; the alternating cubic where h¹ ≥ 3; three coordinated disjoint pipelines).
+
+## 2026-07-16 — THE CHORD AND THE EAR: the week's second harvest, all sealed-first
+The mirror-coupled object (the chord) now has: the nonzero alternating cubic with the
+gluing-independent 24ζ₆ core law (9/9 doubles) and its swap mechanism (phases = theorem;
+magnitudes await the flip-symmetry cell); the hearing factoring through 2I × ℤ/3 with the golden
+character (verified at class-table strength); THE PENTAGON VOICE (five absolute tones, all
+golden; the Plancherel 1/4–1/4 split); and the Galois-ear confirmation (sealed predictions 3/3:
+tr = +φ at the conjugate stage — K020 in the ear). The McKay placement now connects to the BANKED
+dual-McKay (B210/L37: E₆ via the hyperbolic arithmetic, E₈/2I via the monodromy arithmetic) — the
+hearing side realizes the monodromy-McKay exactly. NEXT QUEUE: cc2's master handoff triage (the
+opening item); the flip-symmetry cell; L92; chat-2's standing cubic prereg; C3/C4; PC26-final.
+NO SM number anywhere; Gate 5 and L91 stand.

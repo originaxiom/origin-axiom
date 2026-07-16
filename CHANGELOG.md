@@ -6,6 +6,32 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-16 — B637–B642: the chord's invariants, the swap mechanism, the hearing group, the pentagon voice
+
+### Added
+- **B637**: the corrected cell 3 — the h¹ jump locus on nine mirror-coupled doubles (h¹ = 5
+  generically, 2 exactly at the chiral bends); **the nonzero alternating cubic 3-form** with
+  THE LAW OF THE CHORD'S CORE (Y[023] = 24ζ₆·Y[123], 9/9 doubles) and the zero law; three
+  independent pipelines agreeing; all four B605 involution gluings compatible.
+- **B638**: the swap mechanism — the chord's canonical antilinear real structure (J² = +1),
+  the Eisenstein-unit spectrum (ζ₆, ζ̄₆, −ζ₆, −ζ̄₆, 1), the law Y∘σ* = conj(Y); the phase
+  geometry PROVED; uniqueness honestly not forced (10-dim residual; the flip-symmetry
+  completion cell registered).
+- **B639**: θ is SL(2)-invisible — D_conjθ's 27-object is an antilinear fiber pairing
+  (θ₂₇∘conj), not a rep twist; the completion cell = L92.
+- **B640**: the hearing-group theorem verified at class-table strength — the hearing factors
+  through **2I × ℤ/3** (level 15, Ng–Schauenburg), the golden character, tr ρ(RL) = −1/φ; the
+  15/10/5/20 order reconciliation (four operators, no conflict); the tone-law scope corrected.
+- **B641**: THE TWIST-FRAME TONE LAW on all 360 elements — **five absolute golden tones
+  {0, 1/(2φ), 1/2, φ/2, 1}**; the accidentals identified; Plancherel: tone and overtone carry
+  exactly 1/4 each.
+- **B642**: the Galois-conjugate ear — all three sealed predictions hit: same group, same
+  tones, **tr ρ(RL) = +φ** at the conjugate stage; K020's form-forced/value-Galois-chosen
+  mechanism in the ear itself.
+- Recovery-era artifacts: the audit integration (B635), the four-then-five named mirror
+  manifolds, the B632 repair adjudication, REBASE_2026-07-16, L90 closed, PC26 v2-final
+  (§9.7/9.8 + the typing wall).
+
 ## 2026-07-15 — B632: the cubic route — h¹(27) = 3; the cubic explicit; the solo texture is antisymmetric
 
 ### Added
