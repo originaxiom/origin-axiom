@@ -4961,3 +4961,15 @@ MECHANISM / PLACEMENT / WALL — every row carries witnesses and its upgrade pat
 Maintenance rule embedded (a row per new law, same-PR). L95 registered (chat-2's standing cubic
 prereg, verify-on-receipt). The sweep confirms: every realization and idea of the era now has a
 findable banked home. Firewalled.
+
+## 2026-07-16 — cc2's master handoff triaged: the three-pipeline row CLOSED; their twisted-double count WITHDRAWN
+The adjudication note (verified on receipt): (1) cc2's method-disjoint 3-generator amalgam gives
+h⁰ = 1, h¹(D;27) = 5 on the plain double — the THREE-PIPELINE ADJUDICATION ROW CLOSES in
+agreement; (2) **cc2 WITHDRAWS their twisted-double h¹ = 3** (an assumed λ-sign, superseded by
+B637 part 2a's exact D_φ table — all involution gluings h¹ = 5); the "3" survives only as their
+specific non-geometric line-identification; the universal-slope identification (−2√−3 = the cusp
+modulus) stands. TERMINOLOGY's D_conjθ row corrected; L92 re-scoped (the fiber-paired object's
+dimension is genuinely open). (3) Their 2-form is convention-consistent with the repaired chain;
+their stage-3 symmetric construction withdrawn as moot (Koszul). RUN_ORDER: cc2's 13-vein campaign
+proceeds on their side, no collisions; packets verify-on-receipt per wave. Meanwhile B643 (the
+flip-symmetry cell, prereg 76d64ba0) is computing. Firewalled.
