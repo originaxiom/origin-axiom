@@ -1,0 +1,19 @@
+== the exact T-phases (h-arithmetic) ==
+  numeric phases: [0.13333333 0.53333333];  exact: 2/15 = 0.1333333333, 8/15 mod 1 = 0.5333333333
+  ratio t2/t1 = e^{2pi i 2/5}: primitive 5th root  [PROVEN from h(0,1)=4/15, h(0,2)=2/3, c=16/5]
+
+== the golden-trig identities (exact, sympy) ==
+  sin^2(72) - D^2/12 = 0;  sin^2(36) - D^2/(12 phi^2) = 0
+
+== the landscape, n = 3..40: closed form vs direct ==
+  closed form matches 38/38: True
+  three values {0, 1/phi, 1} everywhere: True
+  REAL tr_odd at n = [3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24, 25, 27, 30, 33, 35, 36, 39, 40]
+  reality residues mod 15: [0, 3, 5, 6, 9, 10, 12]
+  QUIET+REAL at n = [3, 12, 18, 27, 33]  -> the golden (n=3) is NOT unique (n ≡ 3 or 12 mod 15): chat1's Fact 2 REFUTED
+
+== the criteria collapse ==
+  conductor n^2-4 = (n-2)(n+2) is PRIME iff n-2 = 1 iff n = 3 iff det(A-I) = -(n-2) is a unit:
+  'prime conductor' and 'unit determinant' are THE SAME criterion, not independent.
+
+B664 DONE

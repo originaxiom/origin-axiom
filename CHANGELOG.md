@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B664: the hearing landscape theorem (proved; two claims corrected)
+
+### Added
+- **THE HEARING LANDSCAPE THEOREM:** |tr_odd(n)| = (2√3/D)|cos(π(4n−5)/10)|
+  ∈ {0, 1/φ, 1} for every metallic word at the golden stage — exact
+  T-phases + exact golden-trig identities; period 5 in modulus,
+  15 in reality. L107 opened (cross-landscape family).
+
+### Resolved
+- chat1's Fact 2 refuted (quiet+real recurs at n ≡ 3, 12 mod 15 —
+  not amphichirality); the "five independent criteria" collapse
+  (prime conductor ⟺ unit determinant). The honest L91 yield banked.
+
 ## 2026-07-17 — B662 wave 2: the CP door dissolves; the exact period; the Massey wall
 
 ### Resolved

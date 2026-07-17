@@ -5706,3 +5706,22 @@ propagated: B660/S4's "solo block exactly zero" was BASIS-LOCAL; the
 invariant content (antisym, rank 4, 1-dim kernel) transports. FOUR
 walls now on the hierarchy question; the new live object = the
 cup-class VALUES (L106). Locks 4/4.
+
+## 2026-07-17 — B664: THE HEARING LANDSCAPE THEOREM (chat1's handoff verified, PROVED, corrected)
+
+The landscape at the golden stage is a two-term exponential sum on
+the 2-dim theta-odd block with EXACT T-phases e^{2pi i 2/15},
+e^{2pi i 8/15} (pure h-arithmetic) => the closed form |tr_odd(n)| =
+(2 sqrt3/D)|cos(pi(4n-5)/10)| in {0, 1/phi, 1} — THEOREM via the
+exact identities sin^2(72) = D^2/12, sin^2(36) = D^2/(12 phi^2)
+(sympy-exact); modulus period 5 (t2/t1 = primitive 5th root),
+palindrome automatic, reality period 15. Verified 38/38 against the
+banked stage build. REFUTED: chat1's "golden = the only real minimum"
+(quiet+real recurs at n = 3, 12 mod 15; witnesses 12, 18, 27, 33; the
+amphichirality attribution wrong) and the "five independent criteria"
+(prime conductor <=> unit determinant — the same criterion). The
+honest L91 yield: the landscape's period = the golden word's own
+conductor; the golden = the family's unique unit-determinant word.
+L107 opened (cross-landscape, E6 version, silver-own-stage, the
+Dirichlet-character form). Gate 5: the hierarchy remark firewalled.
+Locks 4/4.
