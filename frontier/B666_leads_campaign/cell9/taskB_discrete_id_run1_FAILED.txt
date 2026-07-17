@@ -1,0 +1,33 @@
+===== word RL (b++RL) =====
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  J_disc = (5.0 + 2.02849481418012220641229983426382859234179724e-294j)
+  (vol 2.02988321282, fit maxrel 5.26e-297, qdeg 5, t-power 2, 1s)
+  MATCHED branch: root #0 of lam - 5  ~ 5.0
+    sign classes carrying it: ['(-1, -1)', '(-1, 1)', '(1, -1)', '(1, 1)']
+    match distance 3.71e-294; next-nearest DISTINCT root at distance 6.0
+    PSLQ minpoly certificate: lam - 5 -> MATCHES the matched factor
+===== word RRL (b++RRL) =====
+  J_disc = (9.0 - 2.64575131106459059050161575363926042571025918j)
+  (vol 2.6667447834, fit maxrel 4.39e-297, qdeg 5, t-power 2, 0s)
+  MATCHED branch: root #1 of lam**2 - 18*lam + 88  ~ (9.0 - 2.64575131106459059050161575364j)
+    sign classes carrying it: ['(-1, 1)', '(1, 1)']
+    match distance 2.08e-294; next-nearest DISTINCT root at distance 5.29
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py", line 226, in <module>
+    main()
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py", line 186, in main
+    rel = pslq_minpoly(J_disc)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py", line 133, in pslq_minpoly
+    rel = mp.pslq(vec, maxcoeff=10 ** 12, maxsteps=200000)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/mpmath/identification.py", line 164, in pslq
+    x = [None] + [ctx.to_fixed(ctx.mpf(xk), prec) for xk in x]
+                               ^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 79, in __new__
+    v._mpf_ = mpf_pos(cls.mpf_convert_arg(val, prec, rounding), prec, rounding)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 98, in mpf_convert_arg
+    raise TypeError("cannot create mpf from " + repr(x))
+TypeError: cannot create mpf from mpc(real='1.0', imag='0.0')

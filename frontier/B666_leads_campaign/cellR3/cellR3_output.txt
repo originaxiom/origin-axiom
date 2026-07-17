@@ -1,0 +1,233 @@
+====================================================================
+CELL R3 OUTPUT — part 1: r3_su3_perterm.py (full run log)
+====================================================================
+=== CELL R3 / SU(3) — the per-term Landsberg-Schaar closed form ===
+golden monodromy A = [[2, 1], [1, 1]],  tr = 3
+
+-- A1/A2: F = K*B and the tone-conductor identity (exact integers, 12 terms) --
+  +w0: F==K*B True  det B =  1  det(A(x)w - I4) =   1 == det(w)*detB =   1  True
+  +w1: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  +w2: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  +w3: F==K*B True  det B = 16  det(A(x)w - I4) =  16 == det(w)*detB =  16  True
+  +w4: F==K*B True  det B = 16  det(A(x)w - I4) =  16 == det(w)*detB =  16  True
+  +w5: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  -w0: F==K*B True  det B = 25  det(A(x)w - I4) =  25 == det(w)*detB =  25  True
+  -w1: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  -w2: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  -w3: F==K*B True  det B =  4  det(A(x)w - I4) =   4 == det(w)*detB =   4  True
+  -w4: F==K*B True  det B =  4  det(A(x)w - I4) =   4 == det(w)*detB =   4  True
+  -w5: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  B587 registered golden menu reproduced: True
+
+-- A3: matrix trace == Gauss formula t = (g0/n) Theta  (kappa = 4..14, 12 terms) --
+  max |matrix - Gauss| over 11 kappa x 12 terms = 2.097e-13
+  max |g0 - (-i sqrt3 kappa)| (I4)              = 5.460e-13
+
+-- A5/A6: the reciprocity identity t == Gamma(3 kappa)/(3 sqrt(detB)) --
+   (the standard multivariate Landsberg-Schaar input, B204 pattern:
+    verified as an exact identity, target 0 mismatches)
+  float gate, kappa = 4..200 x 12 terms: max |t - Gamma/(3 sqrt detB)| = 4.540e-12
+  dps-40 gate, 15 kappa x 12 terms: max dev = 4.78e-38
+
+=== PHASE B — the twelve exact per-term closed forms ===
+t_{pm w}(kappa) = Gamma_{pm w}(3 kappa)/(3 sqrt(det B)),  period L_w; exact values:
+  +w0 (detB  1, sign +1, period 1): t(kappa) for kappa mod 1 = ['1']
+  +w1 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '1', '-1', '-1', '1']
+  +w2 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '1', '-1', '-1', '1']
+  +w3 (detB 16, sign +1, period 4): t(kappa) for kappa mod 4 = ['4', '1', '-2', '1']
+  +w4 (detB 16, sign +1, period 4): t(kappa) for kappa mod 4 = ['4', '1', '-2', '1']
+  +w5 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '1', '-1', '-1', '1']
+  -w0 (detB 25, sign +1, period 5): t(kappa) for kappa mod 5 = ['5', '-1', '-1', '-1', '-1']
+  -w1 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '-1', '1', '1', '-1']
+  -w2 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '-1', '1', '1', '-1']
+  -w3 (detB  4, sign +1, period 2): t(kappa) for kappa mod 2 = ['2', '-1']
+  -w4 (detB  4, sign +1, period 2): t(kappa) for kappa mod 2 = ['2', '-1']
+  -w5 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '-1', '1', '1', '-1']
+  assembly period lcm = 20
+
+-- B-gate: exact tables vs the matrix traces (kappa = 4..14, dev vs A3 values) --
+  max |matrix - closed form| = 1.132e-13
+
+-- B-gate 2: B587's per-term firing rules (FINDINGS (M), golden) --
+  -w0(+5 at 5|k) +w3(+4 at 4|k) -w3(+2 at 2|k) +w0(==1): True
+  reflection term at 5|kappa is +-sqrt5: True; full reflection table: ['sqrt(5)', '1', '-1', '-1', '1']
+
+=== PHASE C — LAW-O and LAW-E for ALL kappa (exact assembly over the full period) ===
+  kappa ≡  0 (mod 20): tr_odd =      3/2 - sqrt(5)/2  == LAW-O True   tr_even = 0
+  kappa ≡  1 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡  2 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡  3 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡  4 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 0
+  kappa ≡  5 (mod 20): tr_odd =      1/2 - sqrt(5)/2  == LAW-O True   tr_even = 0
+  kappa ≡  6 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = -1
+  kappa ≡  7 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡  8 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 1
+  kappa ≡  9 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡ 10 (mod 20): tr_odd =      1/2 - sqrt(5)/2  == LAW-O True   tr_even = -1
+  kappa ≡ 11 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡ 12 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 1
+  kappa ≡ 13 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡ 14 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = -1
+  kappa ≡ 15 (mod 20): tr_odd =      1/2 - sqrt(5)/2  == LAW-O True   tr_even = 0
+  kappa ≡ 16 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 0
+  kappa ≡ 17 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡ 18 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡ 19 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+
+  LAW-O = [4|kappa] - [5|kappa]/phi  PROVEN for ALL kappa >= 4
+  (exact on the full period 20; reciprocity input verified 0 mismatches above)
+  banked B587 even values (kappa = 6..14) reproduced from the closed form: True
+
+=== PHASE D — the (D)-identity from the closed forms vs banked B238 Z values ===
+  max |Z_closedform - Z_banked(B238)| over kappa = 4..16: 3.887e-15
+
+=== THE CROSS-STAGE STATEMENT ===
+  SU(3) per-term dual:  t_{pm w}(kappa) = Gamma(3 kappa)/(3 sqrt det B),
+      Gamma over Z^2/(K B_{pm w})Z^2,  B_{pm w} = 3I -/+ (w + w^{-1}),  tr(A_RL) = 3;
+  E6 ladder class term (banked B646/B651/B662-G):  G_w(r) over Z^6/B_w Z^6,
+      B_w = 3I - w - w^{-1},  q = mu^T C6 B_w^{-1} mu,  SAME P_WORD = 3.
+  => one reciprocity family across the two stages (L100's cross-stage point,
+     now a family); the E6-side per-class closed form is certified in part 2.
+
+results -> r3_su3_results.json   (297.14s)
+
+VERDICT (SU(3) side): the twelve per-term closed forms are PROVEN
+(exact dual tables, all residues; reciprocity input at B204's verified-exact
+ standard); LAW-O holds for ALL kappa; the tone conductors are the
+ det(pm w)*det(B) identity — B587's menu is a theorem.
+
+====================================================================
+CELL R3 OUTPUT — part 2: r3_e6_perterm.py (full run log)
+====================================================================
+=== CELL R3 / E6 — the per-class Landsberg-Schaar closed form ===
+
+=== PHASE 0 — Weyl group, the 25 classes, banked-table gate ===
+|W| = 51840, 25 classes  (12.2s)
+
+=== PHASE 1/2 — exact q-multisets, primary splitting, orthogonality proof ===
+  class  0: size  6480 sign -1 det   245 eldiv [7, 35]              |A_p| {5: 5, 7: 49}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  1: size  5760 sign +1 det   361 eldiv [19, 19]             |A_p| {19: 361}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  2: size  5184 sign +1 det   121 eldiv [11, 11]             |A_p| {11: 121}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  3: size  5184 sign -1 det   605 eldiv [11, 55]             |A_p| {5: 5, 11: 121}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  4: size  4320 sign -1 det   320 eldiv [8, 40]              |A_p| {2: 64, 5: 5}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  5: size  4320 sign +1 det   576 eldiv [24, 24]             |A_p| {2: 64, 3: 9}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  6: size  4320 sign -1 det   180 eldiv [6, 30]              |A_p| {2: 4, 3: 9, 5: 5}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  7: size  3240 sign +1 det   225 eldiv [15, 15]             |A_p| {3: 9, 5: 25}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  8: size  2160 sign +1 det   400 eldiv [20, 20]             |A_p| {2: 16, 5: 25}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class  9: size  1620 sign -1 det    45 eldiv [3, 15]              |A_p| {3: 9, 5: 5}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 10: size  1440 sign -1 det    80 eldiv [4, 20]              |A_p| {2: 16, 5: 5}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 11: size  1440 sign +1 det   100 eldiv [10, 10]             |A_p| {2: 4, 5: 25}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 12: size  1440 sign -1 det  1280 eldiv [4, 4, 4, 20]        |A_p| {2: 256, 5: 5}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 13: size  1440 sign +1 det  1600 eldiv [40, 40]             |A_p| {2: 64, 5: 25}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 14: size   720 sign +1 det   256 eldiv [2, 2, 8, 8]         |A_p| {2: 256}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 15: size   540 sign -1 det   125 eldiv [5, 5, 5]            |A_p| {5: 125}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 16: size   540 sign +1 det    81 eldiv [3, 3, 3, 3]         |A_p| {3: 81}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 17: size   540 sign -1 det  1125 eldiv [5, 15, 15]          |A_p| {3: 9, 5: 125}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 18: size   480 sign +1 det   256 eldiv [4, 4, 4, 4]         |A_p| {2: 256}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 19: size   270 sign +1 det    25 eldiv [5, 5]               |A_p| {5: 25}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 20: size   240 sign +1 det    16 eldiv [4, 4]               |A_p| {2: 16}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 21: size    80 sign +1 det  4096 eldiv [4, 4, 4, 4, 4, 4]   |A_p| {2: 4096}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.1s)
+  class 22: size    45 sign +1 det   625 eldiv [5, 5, 5, 5]         |A_p| {5: 625}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 23: size    36 sign -1 det     5 eldiv [5]                  |A_p| {5: 5}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+  class 24: size     1 sign +1 det     1 eldiv []                   |A_p| {}  multiset==cellG True divisors==cellG True  ortho EXACT-ALL True (0.0s)
+GATE A0 (table == banked jeffrey_terms.json): True
+
+=== PHASE 3 — exact per-(class, p) closed forms on every residue ===
+  class  0: p=5: L=5 [OK]  p=7: L=7 [OK]
+  class  1: p=19: L=19 [OK]
+  class  2: p=11: L=11 [OK]
+  class  3: p=5: L=5 [OK]  p=11: L=11 [OK]
+  class  4: p=2: L=8 [OK]  p=5: L=5 [OK]
+  class  5: p=2: L=8 [OK]  p=3: L=3 [OK]
+  class  6: p=2: L=2 [OK]  p=3: L=3 [OK]  p=5: L=5 [OK]
+  class  7: p=3: L=3 [OK]  p=5: L=5 [OK]
+  class  8: p=2: L=4 [OK]  p=5: L=5 [OK]
+  class  9: p=3: L=3 [OK]  p=5: L=5 [OK]
+  class 10: p=2: L=4 [OK]  p=5: L=5 [OK]
+  class 11: p=2: L=2 [OK]  p=5: L=5 [OK]
+  class 12: p=2: L=4 [OK]  p=5: L=5 [OK]
+  class 13: p=2: L=8 [OK]  p=5: L=5 [OK]
+  class 14: p=2: L=8 [OK]
+  class 15: p=5: L=5 [OK]
+  class 16: p=3: L=3 [OK]
+  class 17: p=3: L=3 [OK]  p=5: L=5 [OK]
+  class 18: p=2: L=4 [OK]
+  class 19: p=5: L=5 [OK]
+  class 20: p=2: L=4 [OK]
+  class 21: p=2: L=4 [OK]
+  class 22: p=5: L=5 [OK]
+  class 23: p=5: L=5 [OK]
+  class 24:    (det 1, trivial G=1)
+
+GATE P3 (every (class,p,residue) matched zeta_8^j p^(k/2) or exact 0): True  (resisting: 0)
+GATE F1-per-term (k == sum(a+min(v,a)) at EVERY residue, no zeros): True   exact-zero cells: 0
+
+=== PHASE 4 — the unit-scaling Jacobi law ===
+  odd p: G_p(u) = (u|p)^(v_p|A_p|) * G_p(1) on ALL units, every class: True
+  p = 2: chi(u) = zeta_8^(j(u)-j(1)) is multiplicative on units, every class: True
+    class  4: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0, 5: 0, 7: 0}  mult True
+    class  5: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0, 5: 0, 7: 0}  mult True
+    class  6: chi table (u mod 8 -> 8*arg/2pi): {1: 0}  mult True
+    class  8: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0}  mult True
+    class 10: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0}  mult True
+    class 11: chi table (u mod 8 -> 8*arg/2pi): {1: 0}  mult True
+    class 12: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0}  mult True
+    class 13: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0, 5: 0, 7: 0}  mult True
+    class 14: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0, 5: 0, 7: 0}  mult True
+    class 18: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0}  mult True
+    class 20: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0}  mult True
+    class 21: chi table (u mod 8 -> 8*arg/2pi): {1: 0, 3: 0}  mult True
+
+=== PHASE 5 — banked-certificate gates ===
+-- GATE P1: closed form at r = 13, 29 vs cc2's banked gamma certificates --
+   all 25 classes, r = 13 and 29: closed form == zeta_8^j sqrt|detB| with the BANKED j (exact): True
+-- GATE P: per-class periods and the minimal period --
+   per-class period == cellG banked P_class, all 25: True
+   lcm over classes = 175560 == 175560: True
+-- GATE G5: the generic law Z(u) = (1-(u|5))/2 on EVERY unit u mod 175560 --
+   phi(175560) = 34560 units checked, Z(u) == (1-(u|5))/2 exactly in Z[zeta_8]: True  (2.0s)
+-- GATE SC: resonant showcase rungs — closed-form vs exact-multiset route, dps 50 --
+   Z( 13) =                      1.0  dev(closed vs multiset) = 6.85e-51
+   Z( 16) =  6.35194082336725508e-52  dev(closed vs multiset) = 2.58e-51
+   Z( 19) =                      2.0  dev(closed vs multiset) = 1.34e-50
+   Z( 20) =                      1.0  dev(closed vs multiset) = 9.81e-51
+   Z( 25) = -1.69935040209565526e-51  dev(closed vs multiset) = 4.29e-51
+   Z( 29) = -1.27038816467345102e-52  dev(closed vs multiset) = 2.97e-51
+   Z( 35) =      -2.2360679774997897  dev(closed vs multiset) = 1.11e-50
+   Z( 36) =                     -2.0  dev(closed vs multiset) = 1.95e-50
+   Z( 40) =    -0.236067977499789696  dev(closed vs multiset) = 1.35e-50
+   Z( 45) =                      1.0  dev(closed vs multiset) = 9.46e-51
+   Z( 48) =                      3.0  dev(closed vs multiset) = 1.61e-50
+   Z( 55) =      -1.2360679774997897  dev(closed vs multiset) = 7.01e-51
+   Z( 57) =                      2.0  dev(closed vs multiset) = 1.34e-50
+   Z( 60) =      -1.2360679774997897  dev(closed vs multiset) = 1.91e-50
+   Z( 63) =                     -1.0  dev(closed vs multiset) = 4.54e-51
+   Z( 70) =      -2.2360679774997897  dev(closed vs multiset) = 1.07e-50
+   Z( 72) =                      3.0  dev(closed vs multiset) = 1.6e-50
+   Z( 76) =                      2.0  dev(closed vs multiset) = 1.88e-50
+   Z( 95) =                      2.0  dev(closed vs multiset) = 1.11e-50
+   Z(100) =                      1.0  dev(closed vs multiset) = 9.1e-51
+   max dev over 20 rungs: 1.95e-50  -> True
+   named cellG resonant values (35:-sqrt5, 48:3, 36:-2, ...) reproduced: True
+
+=== GATE SUMMARY ===
+  A0_banked_table: PASS
+  SPLIT_orthogonality_all25: PASS
+  P3_all_matched: PASS
+  F1_per_term_all_residues: PASS
+  LAW_odd_jacobi: PASS
+  LAW_dyadic_character: PASS
+  P1_certificates_exact: PASS
+  P_class_periods: PASS
+  P_min_175560: PASS
+  G5_generic_law_all_units: PASS
+  SC_showcase: PASS
+  SC_named_cellG_values: PASS
+
+results -> r3_e6_results.json   (15.4s)
+
+VERDICT: the per-class Landsberg-Schaar closed form is PROVEN for all 25
+E6-ladder class terms (exact primary splitting + exact cyclotomic
+certification on every residue), reproducing the banked P1 certificates,
+the F1 jump law on ALL residues, the exact period 175560, and the
+generic-5 law as a THEOREM of the closed forms.

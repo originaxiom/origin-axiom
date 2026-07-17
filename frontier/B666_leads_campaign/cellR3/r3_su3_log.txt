@@ -1,0 +1,94 @@
+=== CELL R3 / SU(3) — the per-term Landsberg-Schaar closed form ===
+golden monodromy A = [[2, 1], [1, 1]],  tr = 3
+
+-- A1/A2: F = K*B and the tone-conductor identity (exact integers, 12 terms) --
+  +w0: F==K*B True  det B =  1  det(A(x)w - I4) =   1 == det(w)*detB =   1  True
+  +w1: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  +w2: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  +w3: F==K*B True  det B = 16  det(A(x)w - I4) =  16 == det(w)*detB =  16  True
+  +w4: F==K*B True  det B = 16  det(A(x)w - I4) =  16 == det(w)*detB =  16  True
+  +w5: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  -w0: F==K*B True  det B = 25  det(A(x)w - I4) =  25 == det(w)*detB =  25  True
+  -w1: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  -w2: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  -w3: F==K*B True  det B =  4  det(A(x)w - I4) =   4 == det(w)*detB =   4  True
+  -w4: F==K*B True  det B =  4  det(A(x)w - I4) =   4 == det(w)*detB =   4  True
+  -w5: F==K*B True  det B =  5  det(A(x)w - I4) =  -5 == det(w)*detB =  -5  True
+  B587 registered golden menu reproduced: True
+
+-- A3: matrix trace == Gauss formula t = (g0/n) Theta  (kappa = 4..14, 12 terms) --
+  max |matrix - Gauss| over 11 kappa x 12 terms = 2.097e-13
+  max |g0 - (-i sqrt3 kappa)| (I4)              = 5.460e-13
+
+-- A5/A6: the reciprocity identity t == Gamma(3 kappa)/(3 sqrt(detB)) --
+   (the standard multivariate Landsberg-Schaar input, B204 pattern:
+    verified as an exact identity, target 0 mismatches)
+  float gate, kappa = 4..200 x 12 terms: max |t - Gamma/(3 sqrt detB)| = 4.540e-12
+  dps-40 gate, 15 kappa x 12 terms: max dev = 4.78e-38
+
+=== PHASE B — the twelve exact per-term closed forms ===
+t_{pm w}(kappa) = Gamma_{pm w}(3 kappa)/(3 sqrt(det B)),  period L_w; exact values:
+  +w0 (detB  1, sign +1, period 1): t(kappa) for kappa mod 1 = ['1']
+  +w1 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '1', '-1', '-1', '1']
+  +w2 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '1', '-1', '-1', '1']
+  +w3 (detB 16, sign +1, period 4): t(kappa) for kappa mod 4 = ['4', '1', '-2', '1']
+  +w4 (detB 16, sign +1, period 4): t(kappa) for kappa mod 4 = ['4', '1', '-2', '1']
+  +w5 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '1', '-1', '-1', '1']
+  -w0 (detB 25, sign +1, period 5): t(kappa) for kappa mod 5 = ['5', '-1', '-1', '-1', '-1']
+  -w1 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '-1', '1', '1', '-1']
+  -w2 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '-1', '1', '1', '-1']
+  -w3 (detB  4, sign +1, period 2): t(kappa) for kappa mod 2 = ['2', '-1']
+  -w4 (detB  4, sign +1, period 2): t(kappa) for kappa mod 2 = ['2', '-1']
+  -w5 (detB  5, sign -1, period 5): t(kappa) for kappa mod 5 = ['sqrt(5)', '-1', '1', '1', '-1']
+  assembly period lcm = 20
+
+-- B-gate: exact tables vs the matrix traces (kappa = 4..14, dev vs A3 values) --
+  max |matrix - closed form| = 1.132e-13
+
+-- B-gate 2: B587's per-term firing rules (FINDINGS (M), golden) --
+  -w0(+5 at 5|k) +w3(+4 at 4|k) -w3(+2 at 2|k) +w0(==1): True
+  reflection term at 5|kappa is +-sqrt5: True; full reflection table: ['sqrt(5)', '1', '-1', '-1', '1']
+
+=== PHASE C — LAW-O and LAW-E for ALL kappa (exact assembly over the full period) ===
+  kappa ≡  0 (mod 20): tr_odd =      3/2 - sqrt(5)/2  == LAW-O True   tr_even = 0
+  kappa ≡  1 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡  2 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡  3 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡  4 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 0
+  kappa ≡  5 (mod 20): tr_odd =      1/2 - sqrt(5)/2  == LAW-O True   tr_even = 0
+  kappa ≡  6 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = -1
+  kappa ≡  7 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡  8 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 1
+  kappa ≡  9 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡ 10 (mod 20): tr_odd =      1/2 - sqrt(5)/2  == LAW-O True   tr_even = -1
+  kappa ≡ 11 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡ 12 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 1
+  kappa ≡ 13 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡ 14 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = -1
+  kappa ≡ 15 (mod 20): tr_odd =      1/2 - sqrt(5)/2  == LAW-O True   tr_even = 0
+  kappa ≡ 16 (mod 20): tr_odd =                    1  == LAW-O True   tr_even = 0
+  kappa ≡ 17 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 1
+  kappa ≡ 18 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+  kappa ≡ 19 (mod 20): tr_odd =                    0  == LAW-O True   tr_even = 0
+
+  LAW-O = [4|kappa] - [5|kappa]/phi  PROVEN for ALL kappa >= 4
+  (exact on the full period 20; reciprocity input verified 0 mismatches above)
+  banked B587 even values (kappa = 6..14) reproduced from the closed form: True
+
+=== PHASE D — the (D)-identity from the closed forms vs banked B238 Z values ===
+  max |Z_closedform - Z_banked(B238)| over kappa = 4..16: 3.887e-15
+
+=== THE CROSS-STAGE STATEMENT ===
+  SU(3) per-term dual:  t_{pm w}(kappa) = Gamma(3 kappa)/(3 sqrt det B),
+      Gamma over Z^2/(K B_{pm w})Z^2,  B_{pm w} = 3I -/+ (w + w^{-1}),  tr(A_RL) = 3;
+  E6 ladder class term (banked B646/B651/B662-G):  G_w(r) over Z^6/B_w Z^6,
+      B_w = 3I - w - w^{-1},  q = mu^T C6 B_w^{-1} mu,  SAME P_WORD = 3.
+  => one reciprocity family across the two stages (L100's cross-stage point,
+     now a family); the E6-side per-class closed form is certified in part 2.
+
+results -> r3_su3_results.json   (297.14s)
+
+VERDICT (SU(3) side): the twelve per-term closed forms are PROVEN
+(exact dual tables, all residues; reciprocity input at B204's verified-exact
+ standard); LAW-O holds for ALL kappa; the tone conductors are the
+ det(pm w)*det(B) identity — B587's menu is a theorem.

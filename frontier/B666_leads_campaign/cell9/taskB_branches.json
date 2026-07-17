@@ -1,0 +1,148 @@
+{
+ "RL": [
+  {
+   "sign_class": [
+    1,
+    1
+   ],
+   "xyz": [
+    "Add(Rational(3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    1,
+    1
+   ],
+   "xyz": [
+    "Add(Rational(3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    1,
+    -1
+   ],
+   "xyz": [
+    "Add(Rational(-3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    1,
+    -1
+   ],
+   "xyz": [
+    "Add(Rational(-3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    -1,
+    1
+   ],
+   "xyz": [
+    "Add(Rational(3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    -1,
+    1
+   ],
+   "xyz": [
+    "Add(Rational(3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    -1,
+    -1
+   ],
+   "xyz": [
+    "Add(Rational(-3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  },
+  {
+   "sign_class": [
+    -1,
+    -1
+   ],
+   "xyz": [
+    "Add(Rational(-3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(3, 2), Mul(Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))",
+    "Add(Rational(-3, 2), Mul(Integer(-1), Rational(1, 2), Pow(Integer(3), Rational(1, 2)), I))"
+   ],
+   "J_srepr": "Integer(5)",
+   "J_str": "5",
+   "J_numeric": [
+    5.0,
+    0.0
+   ],
+   "minpoly": "lam - 5"
+  }
+ ]
+}

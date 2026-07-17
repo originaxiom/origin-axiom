@@ -1210,8 +1210,8 @@ template's honesty rule).
 
 ### Action items (Review 21)
 - [ ] R21-1: the κ-unconditional reciprocity form (carried from R20-1; source: B625)
-- [ ] R21-2: the m = 7/8/11 exact identifications (carried from R20-2; source: B598/B624)
-- [ ] R21-3: the discrete-branch IDs per word (carried from R20-3; source: B626)
+- [x] R21-2: DONE (B666 cell 9, 2026-07-17) — all six exponents confirm EXACT INTEGERS; the sealed m=11 digits adjudicated as input-precision noise (the B627-era hazard resolved); sign law holds on the exact values
+- [x] R21-3: DONE (B666 cell 9, 2026-07-17) — the J-spectrum and per-word branch identifications banked (run-1 failure preserved; run 2 clean)
 - [ ] R21-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (carried from R20-4; B656/G5's machinery now applies)
 - [ ] R21-5: the 13-dial mechanism with the two-object 13·211-adic data (carried from R20-6; source: B645/B649)
 - [x] R21-6: DONE (owner-directed 2026-07-17; B658, prereg 0c4a1115) — both order-4 families BROKEN with the same singular d = (0,0,1); wall 8 upgraded to the TOTAL statement (all four orientation-reversing families of D₄ break; the double's symmetry = σ* exactly)

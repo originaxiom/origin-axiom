@@ -4,16 +4,273 @@ executing B575 stages 0-3...
 [    0.0s] stage 1: 27 weights built; minuscule labels ok: True
 [    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
 [    0.6s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
-[   85.9s] G1b PASS: bracket closure dim = 78 (basis pool 78)
-[  105.6s] stage 1 complete: e6 in gl(27), coordinate solver ready
-[  105.8s] G2a PASS: principal sl2 relations exact
-[  110.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
-[  112.1s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
-prefix done in 112.1s
+[  121.1s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  152.9s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  153.2s] G2a PASS: principal sl2 relations exact
+[  160.0s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  162.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 162.7s
 cubic rebuilt: 270 ordered entries
 weld side-2 letters built
-[   112.7s] b637 module loaded
-[   112.7s] STEP 1: rebuild the banked 5-class basis (double_Y construction, bend None, VERBATIM)...
-[   127.3s]   Z^1(D;27) dim = 31 (banked: 31)
-[   138.0s]   5 class representatives rebuilt (greedy, banked order)
-[   138.0s] STEP 2 (CONTROL G0, decisive): recompute two banked Y components through the full banked evaluator...
+[   163.5s] b637 module loaded
+[   163.5s] STEP 1: rebuild the banked 5-class basis (double_Y construction, bend None, VERBATIM)...
+[   184.3s]   Z^1(D;27) dim = 31 (banked: 31)
+[   199.3s]   5 class representatives rebuilt (greedy, banked order)
+[   199.3s] STEP 2 (CONTROL G0, decisive): recompute two banked Y components through the full banked evaluator...
+[   388.8s]   Y[(0, 3, 4)] recomputed = (0+2/3r)  banked = (0+2/3r)  MATCH: True
+[   541.0s]   Y[(1, 3, 4)] recomputed = (1/24+1/72r)  banked = (1/24+1/72r)  MATCH: True
+[   541.0s]   G0 PASS: the rebuilt basis IS the banked basis
+[   541.0s] STEP 3: the coefficient system (27, 27bar, C) + gates...
+[   545.6s]   rhobar(relator) = I for all 4 relators
+[   545.6s]   CFULL: 270 ordered entries; all rational: True
+[   546.4s]   cross equivariance PASS (8 letters x 2 seeds)
+[   546.6s]   dual dot invariance PASS
+[   546.6s]   strict associativity (N total symmetry) PASS
+[   547.6s]   h^0(D;27) = 1 (banked 1); h^0(D;27bar) = 1
+[   547.6s] STEP 4: presentation-complex degree-2 machinery...
+[   547.8s]   PHITRIV rows (relator abelianizations): [[1, -1, 0, 0], [0, 0, 1, -1], [1, 0, -1, 0], [0, 0, 0, 0]]
+[   547.8s]   phi (left-null of PHITRIV, normalized) = ['(0)', '(0)', '(0)', '(1)']
+[   553.5s]   CONTROL A PASS: E_bar(delta f) = PHIBAR f_gen (2 seeds)
+[   560.1s]   CONTROL A' PASS: E_triv(delta tau) = PHITRIV tau_gen; phi = 0
+[   560.1s]   building the PHIBAR column solver (108x108 exact rref)...
+[   584.0s]   PHIBAR solver ready
+[   584.0s] STEP 5: cocycle word-evaluators...
+[   612.3s]   Z^1(D;27bar) dim = 31; h^1(D;27bar) >= 5 (theta-duality expects 5)
+[   612.3s]   kappa(u_i) gen-values (each a C-valued 1-cocycle):
+[   612.3s]     kappa(u_0) = ['(0)', '(0)', '(0)', '(0)']
+[   612.3s]     kappa(u_1) = ['(0)', '(0)', '(0)', '(0)']
+[   612.3s]     kappa(u_2) = ['(0)', '(0)', '(0)', '(0)']
+[   612.3s]     kappa(u_3) = ['(0)', '(0)', '(0)', '(0)']
+[   612.3s]     kappa(u_4) = ['(1)', '(1)', '(1)', '(1)']
+[   612.3s] STEP 6: the cup H^1 x H^1 -> H^2(D;27bar) class table (5x5)...
+[   627.0s]   cup 2-cocycle identity delta c = 0 PASS (3 pairs x 3 word triples)
+[   629.8s]   27bar cup CLASS table ([u_i cup u_j] = 0 in H^2(D;27bar)?):
+[   629.8s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   629.8s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   629.8s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[   629.8s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[   629.8s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[   629.8s]   v0-mediated class matrix M_ij = phi(E(dot(c_ij, v0))):
+[   629.8s]     [(0), (0), (0), (0+2r), (0)]
+[   629.8s]     [(0), (0), (0+2r), (1/8+1/24r), (0)]
+[   629.8s]     [(0), (0+-2r), (0), (2524411008000+2502057600000r), (51891840+25280640r)]
+[   629.8s]     [(0+-2r), (-1/8+-1/24r), (-2524411008000+-2502057600000r), (0), (2595600+-539280r)]
+[   629.8s]     [(0), (0), (-51891840+-25280640r), (-2595600+539280r), (0)]
+[   629.8s]   MV0 antisymmetric: True; solo block {2,3,4} zero: False
+[   629.8s] STEP 7: definedness + primitives...
+[   629.8s]   cochain-solvable pairs: [(0, 0), (0, 1), (1, 0), (1, 1), (2, 2), (3, 3), (4, 4)]
+[   663.8s]   primitive gates PASS on 5 pairs (relator-insertion invariance + delta a = c)
+[   663.8s] STEP 8: the indeterminacy pairing H^1(27bar) x H^1(27) -> H^2(D;C) (both orders)...
+[   681.8s]   PL[t][s] = phi([zbar_t cup u_s]):
+[   681.8s]     [(0), (0), (0), (-113400+37800r), (0)]
+[   681.8s]     [(0), (0), (0+33530112000r), (-571536000+-190512000r), (0)]
+[   681.8s]     [(0), (0), (0), (0), (0)]
+[   681.8s]     [(0+22/15r), (11/120+11/360r), (1980735482880+1851234739200r), (43700438880/13+-32937014880/13r), (-1903440+395472r)]
+[   681.8s]     [(0), (0+-2r), (60183502848000+-60719984640000r), (-169733491200+-23115456000r), (51891840+25280640r)]
+[   681.8s]   PR[s][t] = phi([u_s cup zbar_t]):
+[   681.8s]     [(0), (0), (0), (0+-22/15r), (0)]
+[   681.8s]     [(0), (0), (0), (-11/120+-11/360r), (0+2r)]
+[   681.8s]     [(0), (0+-33530112000r), (0), (-1980735482880+-1851234739200r), (-60183502848000+60719984640000r)]
+[   681.8s]     [(113400+-37800r), (571536000+190512000r), (0), (-43700438880/13+32937014880/13r), (169733491200+23115456000r)]
+[   681.8s]     [(0), (0), (0), (1903440+-395472r), (-51891840+-25280640r)]
+[   681.8s]   Koszul check PL = -PR^T: True
+[   681.8s] STEP 9: the triple Massey products...
+[   683.9s]   gate delta m = 0 PASS (3 word triples)
+[   685.3s]   Massey table <u_i, u_j, u_k>  (scalar = phi of the class in H^2(D;C); indet = True means indeterminacy is ALL of K):
+[   685.3s]     <2,2,2> = (0)   indeterminacy_full=True
+[   685.3s]     <2,2,3> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <2,2,4> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <2,3,2> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <2,3,3> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <2,3,4> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <2,4,2> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <2,4,3> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <2,4,4> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <3,2,2> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <3,2,3> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <3,2,4> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <3,3,2> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <3,3,3> = (0)   indeterminacy_full=True
+[   685.3s]     <3,3,4> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <3,4,2> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <3,4,3> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <3,4,4> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <4,2,2> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <4,2,3> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <4,2,4> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <4,3,2> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <4,3,3> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <4,3,4> UNDEFINED ([c_ij]=0:False, [c_jk]=0:False)
+[   685.3s]     <4,4,2> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <4,4,3> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <4,4,4> = (0)   indeterminacy_full=True
+[   685.3s]     <0,1,2> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <0,1,3> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <0,1,4> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <1,0,2> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <1,0,3> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <1,0,4> UNDEFINED ([c_ij]=0:True, [c_jk]=0:False)
+[   685.3s]     <2,0,1> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <3,0,1> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s]     <4,0,1> UNDEFINED ([c_ij]=0:False, [c_jk]=0:True)
+[   685.3s] STEP 10 (CONTROL): representative-shift invariance on one triple...
+[   685.3s]   (no informative defined triple for the shift control)
+[   685.3s] STEP 11: shape assembly on the solo triple...
+[   685.3s]   solo-triple defined products: 3; nonzero representatives: False; nonzero AND indeterminacy-free: False
+[   685.3s]   M^(j=2): not fully defined on solo x solo
+[   685.3s]   M^(j=3): not fully defined on solo x solo
+[   685.3s]   M^(j=4): not fully defined on solo x solo
+[   685.3s] CELL H COMPUTATION COMPLETE
+[   685.3s] cellH machinery loaded (all its gates PASSED -- assertions live)
+[   685.3s] STEP 1: banked-value gates (fresh run vs the sealed cellH record)...
+[   685.3s]   cup zero/nonzero table == banked cellH STEP 6 table: True
+[   685.3s]   MV0 == banked cellH STEP 6 matrix (all 25 entries): True
+[   685.3s] STEP 2: H^2(D;27bar) coordinates -- the left-null functionals of the 27bar Fox matrix (coker coordinates)...
+[   696.1s]   coker(Fox) dimension = 31  (= 108 - rank(PHIBAR); rank = 77)
+[   696.6s]   q-test (coker coords = 0) == banked solver class test, 25/25: True
+[   696.6s]   class-level graded commutativity [u_i cup u_j] = -[u_j cup u_i] (all 25 pairs): True
+[   696.6s]   Poincare-duality dimension count for the closed oriented aspherical double: h^0(27bar)=1, h^1(27bar)=5 (both computed in cellH), h^3(27bar) = dim coinvariants = h^0(27) = 1 (computed) => chi = 0 forces h^2(D;27bar) = 5.
+[   696.7s]   greedy cup span: rank 5; basis pairs [(0, 2), (0, 3), (1, 2), (2, 3), (2, 4)]
+[   696.7s]   cup product H^1 x H^1 -> H^2(D;27bar) SURJECTIVE (rank 5 = h^2): True
+[   696.7s]   EXACT cup-class coordinates in the cup basis b_m = [u_p cup u_q], (p,q) in [(0, 2), (0, 3), (1, 2), (2, 3), (2, 4)]:
+[   696.7s]     [u_0 cup u_2] = ((1), 0, 0, 0, 0)
+[   696.7s]     [u_0 cup u_3] = (0, (1), 0, 0, 0)
+[   696.7s]     [u_0 cup u_4] = ((-13/15966720+13/15966720r), 0, 0, 0, 0)
+[   696.7s]     [u_1 cup u_2] = (0, 0, (1), 0, 0)
+[   696.7s]     [u_1 cup u_3] = (0, (1/48+-1/48r), 0, 0, 0)
+[   696.7s]     [u_1 cup u_4] = (0, (13/15966720+-13/15966720r), (-13/15966720+13/15966720r), 0, 0)
+[   696.7s]     [u_2 cup u_0] = ((-1), 0, 0, 0, 0)
+[   696.7s]     [u_2 cup u_1] = (0, 0, (-1), 0, 0)
+[   696.7s]     [u_2 cup u_3] = (0, 0, 0, (1), 0)
+[   696.7s]     [u_2 cup u_4] = (0, 0, 0, 0, (1))
+[   696.7s]     [u_3 cup u_0] = (0, (-1), 0, 0, 0)
+[   696.7s]     [u_3 cup u_1] = (0, (-1/48+1/48r), 0, 0, 0)
+[   696.7s]     [u_3 cup u_2] = (0, 0, 0, (-1), 0)
+[   696.7s]     [u_3 cup u_4] = (0, (-260540+30641800/33r), 0, (13/15966720+-13/15966720r), 0)
+[   696.7s]     [u_4 cup u_0] = ((13/15966720+-13/15966720r), 0, 0, 0, 0)
+[   696.7s]     [u_4 cup u_1] = (0, (-13/15966720+13/15966720r), (13/15966720+-13/15966720r), 0, 0)
+[   696.7s]     [u_4 cup u_2] = (0, 0, 0, 0, (-1))
+[   696.7s]     [u_4 cup u_3] = (0, (260540+-30641800/33r), 0, (-13/15966720+13/15966720r), 0)
+[   696.7s]   relation lattice among the 9 upper classes [(0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]: dim 4
+[   696.7s]     0 = ((13/15966720+-13/15966720r))*[(0, 2)] + ((1))*[(0, 4)]
+[   696.7s]     0 = ((-1/48+1/48r))*[(0, 3)] + ((1))*[(1, 3)]
+[   696.7s]     0 = ((-13/15966720+13/15966720r))*[(0, 3)] + ((13/15966720+-13/15966720r))*[(1, 2)] + ((1))*[(1, 4)]
+[   696.7s]     0 = ((260540+-30641800/33r))*[(0, 3)] + ((-13/15966720+13/15966720r))*[(2, 3)] + ((1))*[(3, 4)]
+[   696.7s]   radical of the H^2-valued cup form on H^1 (x with [x cup u_j] = 0 for all j): dim = 0
+[   696.7s] STEP 2b: the banked-Y consistency -- the PD pairing matrix P...
+[   696.7s]   banked unbent Y table parsed (10 rows; basis identity certified by cellH G0, re-run live in STEP 0)
+[   696.7s]   P[m][k] = Y_alt[p_m, q_m, k] (the pairing of basis class b_m with u_k through the banked alternating Y):
+[   696.7s]     [0, 0, 0, (-7983360/13+2661120/13r), 0]
+[   696.7s]     [0, 0, (7983360/13+-2661120/13r), 0, (0+2/3r)]
+[   696.7s]     [0, 0, 0, (0+221760/13r), (0+2/3r)]
+[   696.7s]     [(-7983360/13+2661120/13r), (0+221760/13r), 0, 0, (5332879641600/13+8106192460800/13r)]
+[   696.7s]     [0, (0+2/3r), 0, (-5332879641600/13+-8106192460800/13r), 0]
+[   696.7s]   DECISIVE CONSISTENCY: Y_alt[i,j,k] == sum_m C_ij[m] P[m][k] for ALL 125 ordered triples: True
+[   696.7s]   rank(P) = 5; right kernel (H^1 classes invisible to Y) dim = 0; left kernel (H^2 directions invisible to Y) dim = 0
+[   696.7s] STEP 3: the dual cubic CBAR on 27bar (from first principles; derivation equations with the dual generators -X^T)...
+[   697.3s]   dual-invariant cubic solutions: 1 (expect 1)
+[   697.3s]   CBAR: 270 ordered entries; all rational: True
+[   698.0s]   crossbar equivariance PASS (8 letters x 2 seeds)
+[   698.0s]   cross(v0,v0) = muN * v0bar with muN = (-2)
+[   698.0s]   crossbar(v0bar,v0bar) = lamN * v0 with lamN = (-2)
+[   698.0s]   dot(v0bar, v0) = (3)   (the invariant-line pairing; scale-dependent, recorded for completeness)
+[   698.0s] STEP 4: the natural operator O = thetabar o theta on H^1(D;27)...
+[   698.3s]   O27 commutes with all 8 letters (equivariance) PASS
+[   698.3s]   O27 v0 = (muN*lamN) v0 = ((4)) v0  (consistency PASS)
+[   700.1s]   OH (the natural operator on H^1, banked basis, row convention):
+[   700.1s]     [(1), 0, 0, 0, 0]
+[   700.1s]     [0, (1), 0, 0, 0]
+[   700.1s]     [0, 0, (1), 0, 0]
+[   700.1s]     [0, 0, 0, (1), 0]
+[   700.1s]     [(22680+32760r), (37920960+-25945920r), 0, 0, (4)]
+[   700.5s]   Theta (theta_* on H^1, rows = images in the zbar basis):
+[   700.5s]     [(1/75600+-1/75600r), 0, 0, 0, 0]
+[   700.5s]     [(-1/1425600+-1/1425600r), (1/16765056000), 0, 0, 0]
+[   700.5s]     [(-1157856+-315827232/11r), (19920/11+19744/33r), 0, 0, (1)]
+[   700.5s]     [(-9741058/143+6644498/429r), (2/3+-79/45r), 0, (-15/11), 0]
+[   700.5s]     [(398/15+124/45r), (-19/25200+13/25200r), (-2), 0, 0]
+[   700.5s]   Psi (thetabar_* : H^1(27bar) -> H^1(27)):
+[   700.5s]     [(18900+18900r), 0, 0, 0, 0]
+[   700.5s]     [(-444528000+444528000r), (16765056000), 0, 0, 0]
+[   700.5s]     [(-15120+-21840r), (-25280640+17297280r), 0, 0, (-2)]
+[   700.5s]     [(-1151766000/13+781930800/13r), (8196249600+-21583457280r), 0, (-11/15), 0]
+[   700.5s]     [(-3175200000+25494739200r), (-30359992320000+-10030583808000r), (1), 0, 0]
+[   700.5s]   gate OH = Theta . Psi (composition through H^1(27bar)): True
+[   700.5s]   gate Theta . PL = MV0 (the theta-pairing IS the v0-mediated 2-form): True
+[   700.5s]   rank(Theta) = 5, rank(Psi) = 5
+[   700.5s]   OH preserves the boundary-born subspace U_b = <u_0,u_1> (rows 0,1 have no solo component): True
+[   700.5s] STEP 5: sigma machinery -- the H^1 matrix M (gate vs the persisted artifact), J2, sigma2 on H^2, the swap law...
+[   700.7s]   sigma* H^1 matrix M recomputed == sigma_matrix_golden.json (all 25 entries): True
+[   700.9s]   J2 = nu * Ad(U27^-T) o conj with nu = (1)  (3 probe pairs, exact)
+[   701.2s]   J2 rhobar(sigma g) = rhobar(g) J2 PASS (8 letters)
+[   701.2s]   J(v0) = c0 v0 with c0 = (1); c0.conj(c0) = 1: True
+[   702.9s]   sigma2(u_2 cup u_3) 2-cocycle identity PASS (3 word triples)
+[   721.1s]   THE CUP-LEVEL SWAP LAW  [sigma2 c_ij] = sum_kl M_ik M_jl [c_kl] (25/25 pairs, exact in coker coords): True
+[   721.2s]   S (sigma2 on H^2(D;27bar), cup basis, row convention):
+[   721.2s]     [(1/2+-1/2r), 0, 0, 0, 0]
+[   721.2s]     [0, (-1), 0, 0, 0]
+[   721.2s]     [(1/16+-1/48r), 0, (-1), 0, 0]
+[   721.2s]     [(-32175813600/13+-20067717600/13r), (-2524411008000), (22353408000), (1), 0]
+[   721.2s]     [(-30959040/11+268100r), (218400+-218400r), (6434400+-6434400r), 0, (-1/2+-1/2r)]
+[   721.2s]   conj(S).S = I exactly (sigma2 is an antilinear involution on H^2 -- the mirror of conj(M).M = I): True
+[   721.2s]   antilinear-expansion consistency on all 25 pairs: True
+[   721.2s]   s0 (sigma* scalar on H^2(D;C), phi-normalized) = (1); well-defined across 2 independent samples: True
+[   721.2s]   MV0 SWAP LAW  M.MV0.M^T = rho * conj(MV0) with rho = s0*nu/c0 = (1)  (all 25 entries): True
+[   721.2s]   sigma-covariance of the natural operator: M.OH = conj(OH).M exactly: True
+[   721.2s] STEP 6: THE DISCRIMINATING SLICES (exact eigen analysis)...
+[   721.8s]   OH on the generation quotient Q = H^1/<u_0,u_1> (3x3, NATURAL operator, eigenvalue ratios basis-free):
+[   721.8s]     charpoly = lam**3 - 6*lam**2 + 9*lam - 4
+[   721.8s]     factored over K = Q(sqrt-3): (lam - 4)*(lam - 1)**2
+[   721.8s]     eigenvalues (value: multiplicity): {1: 2, 4: 1}
+[   721.8s]     DISTINCT eigenvalue count = 2  [conjugation-INVARIANT operator spectrum]
+[   721.9s]   OH on the full H^1 (5x5 natural operator):
+[   721.9s]     charpoly = lam**5 - 8*lam**4 + 22*lam**3 - 28*lam**2 + 17*lam - 4
+[   721.9s]     factored over K = Q(sqrt-3): (lam - 4)*(lam - 1)**4
+[   721.9s]     eigenvalues (value: multiplicity): {1: 4, 4: 1}
+[   721.9s]     DISTINCT eigenvalue count = 2  [conjugation-INVARIANT operator spectrum]
+[   721.9s]   (B) the H^2-functional slice family lam(C)|solo, lam in (H^2)*:
+[   721.9s]       class antisymmetry (STEP 2 gate) ==> EVERY functional slice is an antisymmetric 3x3 ==> spectrum {0, +mu(lam), -mu(lam)} for EVERY lam: the +-pair shape is FORCED across the whole 5-parameter family; no slice carries three independent values.
+[   721.9s]     slice T^1 (coords along b_1): ZERO on solo
+[   721.9s]     slice T^2: entries (T_23,T_24,T_34) = (0, 0, (-260540+30641800/33r))
+[   721.9s]       mu^2 = (914279070989200/363+15966829144000/33r); mu in the quadratic extension K(sqrt(mu^2)) -- NOT in K
+[   721.9s]       axis (0-eigenvector) = ((-260540+30641800/33r), 0, 0)
+[   721.9s]     slice T^3 (coords along b_3): ZERO on solo
+[   721.9s]     slice T^4: entries (T_23,T_24,T_34) = ((1), 0, (13/15966720+-13/15966720r))
+[   721.9s]       mu^2 = (-127468073779031/127468073779200+169/127468073779200r); mu in the quadratic extension K(sqrt(mu^2)) -- NOT in K
+[   721.9s]       axis (0-eigenvector) = ((13/15966720+-13/15966720r), 0, (1))
+[   721.9s]     slice T^5: entries (T_23,T_24,T_34) = (0, (1), 0)
+[   721.9s]       mu^2 = (-1); mu in the quadratic extension K(sqrt(mu^2)) -- NOT in K
+[   721.9s]       axis (0-eigenvector) = (0, (-1), 0)
+[   721.9s]     MV0-slice (v0-contraction): entries ((2524411008000+2502057600000r), (51891840+25280640r), (2595600+-539280r)); mu^2 = (12408225763060408483238400+-12632443498801039941619200r); mu in the quadratic extension K(sqrt(mu^2)) -- NOT in K
+[   722.4s]   MV0 solo block (3x3 antisymmetric form):
+[   722.4s]     charpoly = lam**3 - 12408225763060408483238400*lam + 12632443498801039941619200*sqrt(3)*I*lam
+[   722.4s]     factored over K = Q(sqrt-3): 12632443498801039941619200*lam*(lam**2/12632443498801039941619200 - 244241027397101137/248654484339589631 + sqrt(3)*I)
+[   722.5s]     eigenvalues (value: multiplicity): {-sqrt(12408225763060408483238400 - 12632443498801039941619200*sqrt(3)*I): 1, sqrt(12408225763060408483238400 - 12632443498801039941619200*sqrt(3)*I): 1, 0: 1}
+[   722.5s]     DISTINCT eigenvalue count = 3  [form/slice: basis-dependent congruence data]
+[   722.5s]     axis-matrix rank = 3 (of 3); common kernel of ALL coordinate slices on solo: dim = 0  (no distinguished generation direction)
+[   722.5s]     two-slice products: MV0solo . T^2 has tr = -2(n.m) and det = 0 (spectrum {0, -n.m, -n.m}, ALWAYS twofold degenerate): True
+[   722.5s]   (C) the dual-class (PD) slices from the banked alternating Y:
+[   722.5s]     Hodge slice G[i][k] = <w_i, u_k>_Y = Y[234].delta_ik (SCALAR matrix, Y[234] = (5332879641600/13+8106192460800/13r)): True -- ONE eigenvalue, threefold: maximal degeneracy, forced by the alternation of Y
+[   722.5s]     spectator-0 slice Y_alt[i,0,k]: antisymmetric True; entries ((7983360/13+-2661120/13r), 0, (0+-2/3r)) -- the +-pair wall again
+[   722.5s]     spectator-1 slice Y_alt[i,1,k]: antisymmetric True; entries ((0+-221760/13r), (0+-2/3r), (-1/24+-1/72r)) -- the +-pair wall again
+[   722.5s]   (D) the star classes w_i = [u_j cup u_k], (i,j,k) cyclic in (2,3,4):
+[   722.5s]     w_2 = [u_3 cup u_4] = (0, (-260540+30641800/33r), 0, (13/15966720+-13/15966720r), 0)   v0-contraction lambda(w_2) = (2595600+-539280r)
+[   722.5s]     w_3 = [u_4 cup u_2] = (0, 0, 0, 0, (-1))   v0-contraction lambda(w_3) = (-51891840+-25280640r)
+[   722.5s]     w_4 = [u_2 cup u_3] = (0, 0, 0, (1), 0)   v0-contraction lambda(w_4) = (2524411008000+2502057600000r)
+[   722.5s]     rank of the 3 star classes in H^2 = 3 (3 = independent: one H^2 direction per generation)
+[   722.5s]     the three v0-contracted star values: ((2595600+-539280r), (-51891840+-25280640r), (2524411008000+2502057600000r)); distinct count = 3 [banked-basis values; they rescale as c_j c_k under per-class normalization u_i -> c_i u_i and mix under GL(solo) -- and the B645-style balanced-product lattice on supports {3,4},{4,2},{2,3} is TRIVIAL (incidence rank 3), so NO normalization-free product exists: values, not structure]
+[   722.5s]   ker(MV0 as 5x5 form) dim = 1; ker(Theta) dim = 0
+[   722.5s] STEP 7: field of definition...
+[   722.5s]   every decisive value lies in K = Q(sqrt-3) EXACTLY (constructed in K; zero floats): 1081 values scanned, 798 rational, 283 genuinely need sqrt(-3)
+[   722.5s]   subfield-theorem expectation k(Gamma) = Q(sqrt-3): CONFIRMED for the values -- no larger field appears in the cup-value table, the sigma2 matrix, or the natural-operator matrix
+[   722.5s]   the H^2 coordinates genuinely use sqrt(-3) (not defined over Q): True
+[   722.5s]   eigenvalue fields: operator spectra read off the STEP 6 factorizations; slice eigenvalues +-mu with mu^2 in K -- mu itself in K only where the exact square-in-K test says so (STEP 6 lines)
+[   722.5s] STEP 8: VERDICT ASSEMBLY...
+[   722.5s]   natural-operator spectrum on the generation quotient: 2 distinct eigenvalue(s) of 3
+[   722.5s]   natural-operator spectrum on the full H^1: 2 distinct of 5
+[   722.5s]   cup basis rank: 5 (surjectivity True); relation-lattice dim 4; star-class rank 3
+[   722.5s]   Y factors through the cup coordinates: True; rank(P) = 5
+[   722.5s]   swap law: True; sigma2 involution: True; MV0 scalar law: True; sigma-covariance of OH: True
+[   722.5s]   OUTCOME: the FIFTH WALL -- the natural operator collapses (2 distinct of 3 on the quotient), every H^2-functional slice is a forced antisymmetric {0,+mu,-mu}, the PD/Hodge slice is scalar, and the star values are normalization gauge. The exact cup-value table, the sigma2/swap laws, and the natural-operator spectrum bank as the new invariants.
+[   722.5s]   persisted /Users/dri/origin-axiom/frontier/B666_leads_campaign/cell2/cell2_cup_values.json
+[   722.5s] CELL 2 COMPUTATION COMPLETE

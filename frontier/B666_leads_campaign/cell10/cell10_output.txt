@@ -1,0 +1,137 @@
+=== B666 CELL 10 — L97 remainder: the sector decomposition + the Lemma-1 dependency — 2026-07-17 14:00:15 ===
+script sha256 = 92513f6afdb8d815ecf964d8635f327c48c06517c8354708ff3ca585db8181e2
+
+=== PHASE 0 — build W(E6) and BOTH channels (P_WORD = +3 and -3) ===
+|W| = 51840
+channel P_WORD = +3: 25 classes, 2-rep class gates exact (13.0s)
+channel P_WORD = -3: 25 classes, 2-rep class gates exact (13.8s)
+GATE G0 direct table == banked jeffrey_terms: True
+GATE G0 mirror det multiset == banked P4:     True
+
+-- channel +3 class table --
+   class  0: size  6480 sign -1 |det|    245 = 5*7^2  eldiv [7, 35]              P_class  35  m_odd {5: 1}
+   class  1: size  5760 sign +1 |det|    361 = 1*19^2  eldiv [19, 19]             P_class  19  m_odd {}
+   class  2: size  5184 sign +1 |det|    121 = 1*11^2  eldiv [11, 11]             P_class  11  m_odd {}
+   class  3: size  5184 sign -1 |det|    605 = 5*11^2  eldiv [11, 55]             P_class  55  m_odd {5: 1}
+   class  4: size  4320 sign -1 |det|    320 = 5*8^2  eldiv [8, 40]              P_class  40  m_odd {5: 1}
+   class  5: size  4320 sign +1 |det|    576 = 1*24^2  eldiv [24, 24]             P_class  24  m_odd {}
+   class  6: size  4320 sign -1 |det|    180 = 5*6^2  eldiv [6, 30]              P_class  30  m_odd {5: 1}
+   class  7: size  3240 sign +1 |det|    225 = 1*15^2  eldiv [15, 15]             P_class  15  m_odd {}
+   class  8: size  2160 sign +1 |det|    400 = 1*20^2  eldiv [20, 20]             P_class  20  m_odd {}
+   class  9: size  1620 sign -1 |det|     45 = 5*3^2  eldiv [3, 15]              P_class  15  m_odd {5: 1}
+   class 10: size  1440 sign -1 |det|     80 = 5*4^2  eldiv [4, 20]              P_class  20  m_odd {5: 1}
+   class 11: size  1440 sign +1 |det|    100 = 1*10^2  eldiv [10, 10]             P_class  10  m_odd {}
+   class 12: size  1440 sign -1 |det|   1280 = 5*16^2  eldiv [4, 4, 4, 20]        P_class  20  m_odd {5: 1}
+   class 13: size  1440 sign +1 |det|   1600 = 1*40^2  eldiv [40, 40]             P_class  40  m_odd {}
+   class 14: size   720 sign +1 |det|    256 = 1*16^2  eldiv [2, 2, 8, 8]         P_class   8  m_odd {}
+   class 15: size   540 sign -1 |det|    125 = 5*5^2  eldiv [5, 5, 5]            P_class   5  m_odd {5: 3}
+   class 16: size   540 sign +1 |det|     81 = 1*9^2  eldiv [3, 3, 3, 3]         P_class   3  m_odd {}
+   class 17: size   540 sign -1 |det|   1125 = 5*15^2  eldiv [5, 15, 15]          P_class  15  m_odd {5: 3}
+   class 18: size   480 sign +1 |det|    256 = 1*16^2  eldiv [4, 4, 4, 4]         P_class   4  m_odd {}
+   class 19: size   270 sign +1 |det|     25 = 1*5^2  eldiv [5, 5]               P_class   5  m_odd {}
+   class 20: size   240 sign +1 |det|     16 = 1*4^2  eldiv [4, 4]               P_class   4  m_odd {}
+   class 21: size    80 sign +1 |det|   4096 = 1*64^2  eldiv [4, 4, 4, 4, 4, 4]   P_class   4  m_odd {}
+   class 22: size    45 sign +1 |det|    625 = 1*25^2  eldiv [5, 5, 5, 5]         P_class   5  m_odd {}
+   class 23: size    36 sign -1 |det|      5 = 5*1^2  eldiv [5]                  P_class   5  m_odd {5: 1}
+   class 24: size     1 sign +1 |det|      1 = 1*1^2  eldiv []                   P_class   1  m_odd {}
+
+-- channel -3 class table --
+   class  0: size  6480 sign -1 |det|    245 = 5*7^2  eldiv [7, 35]              P_class  35  m_odd {5: 1}
+   class  1: size  5760 sign +1 |det|    289 = 1*17^2  eldiv [17, 17]             P_class  17  m_odd {}
+   class  2: size  5184 sign +1 |det|    625 = 1*25^2  eldiv [5, 5, 25]           P_class  25  m_odd {}
+   class  3: size  5184 sign -1 |det|    125 = 5*5^2  eldiv [5, 25]              P_class  25  m_odd {5: 1}
+   class  4: size  4320 sign -1 |det|    320 = 5*8^2  eldiv [8, 40]              P_class  40  m_odd {5: 1}
+   class  5: size  4320 sign +1 |det|    144 = 1*12^2  eldiv [12, 12]             P_class  12  m_odd {}
+   class  6: size  4320 sign -1 |det|    720 = 5*12^2  eldiv [12, 60]             P_class  60  m_odd {5: 1}
+   class  7: size  3240 sign +1 |det|    225 = 1*15^2  eldiv [15, 15]             P_class  15  m_odd {}
+   class  8: size  2160 sign +1 |det|    100 = 1*10^2  eldiv [10, 10]             P_class  10  m_odd {}
+   class  9: size  1620 sign -1 |det|   1125 = 5*15^2  eldiv [5, 15, 15]          P_class  15  m_odd {5: 3}
+   class 10: size  1440 sign -1 |det|    500 = 5*10^2  eldiv [5, 10, 10]          P_class  10  m_odd {5: 3}
+   class 11: size  1440 sign +1 |det|    400 = 1*20^2  eldiv [20, 20]             P_class  20  m_odd {}
+   class 12: size  1440 sign -1 |det|     80 = 5*4^2  eldiv [2, 2, 2, 10]        P_class  10  m_odd {5: 1}
+   class 13: size  1440 sign +1 |det|     64 = 1*8^2  eldiv [8, 8]               P_class   8  m_odd {}
+   class 14: size   720 sign +1 |det|   1024 = 1*32^2  eldiv [4, 4, 8, 8]         P_class   8  m_odd {}
+   class 15: size   540 sign -1 |det|    125 = 5*5^2  eldiv [5, 5, 5]            P_class   5  m_odd {5: 3}
+   class 16: size   540 sign +1 |det|   2025 = 1*45^2  eldiv [3, 3, 15, 15]       P_class  15  m_odd {}
+   class 17: size   540 sign -1 |det|     45 = 5*3^2  eldiv [3, 15]              P_class  15  m_odd {5: 1}
+   class 18: size   480 sign +1 |det|    400 = 1*20^2  eldiv [2, 2, 10, 10]       P_class  10  m_odd {}
+   class 19: size   270 sign +1 |det|    625 = 1*25^2  eldiv [5, 5, 5, 5]         P_class   5  m_odd {}
+   class 20: size   240 sign +1 |det|   2500 = 1*50^2  eldiv [5, 5, 10, 10]       P_class  10  m_odd {}
+   class 21: size    80 sign +1 |det|     64 = 1*8^2  eldiv [2, 2, 2, 2, 2, 2]   P_class   2  m_odd {}
+   class 22: size    45 sign +1 |det|     25 = 1*5^2  eldiv [5, 5]               P_class   5  m_odd {}
+   class 23: size    36 sign -1 |det|   3125 = 5*25^2  eldiv [5, 5, 5, 5, 5]      P_class   5  m_odd {5: 5}
+   class 24: size     1 sign +1 |det|  15625 = 1*125^2  eldiv [5, 5, 5, 5, 5, 5]   P_class   5  m_odd {}
+
+=== PHASE 1 — THE LEMMA-1 INSTANCES (exact, exhaustive per class) ===
+channel +3: exhaustive twist instances verified (0.2s)
+channel -3: exhaustive twist instances verified (0.1s)
+total instances 426, failures 0
+GATE G1 instances (0 failures):            True
+GATE G1 odd-exponent primes == {5}:        True ([5])
+GATE G1 m_w(5) odd <=> s_w = 5:            True
+GATE G1 chi5-sector sizes (10 + 10):       True {3: 10, -3: 10}
+
+=== PHASE 2 — EXACT gamma_w(1) (cyclotomic reduction) + banked cross-check ===
+GATE G2 all 50 gammas in {+1,-1} exactly:  True
+GATE G2 direct gamma(13) vs banked p1:     True (25/25)
+
+=== PHASE 3 — EXACT SECTOR SUMS and the decomposition theorem ===
+channel +3: S_triv = 1/2, S_chi5 = -1/2   (exact Fractions)
+channel -3: S_triv = -1/2, S_chi5 = 1/2   (exact Fractions)
+GATE G3 (+1/2,-1/2) direct, (-1/2,+1/2) mirror: True
+
+THE SECTOR-DECOMPOSITION IDENTITY (now exact, object-level):
+  Z_+(r) = tr_odd(r) + tr_even(r),  tr_odd = (Z_+ - Z_-)/2, tr_even = (Z_+ + Z_-)/2  [eps = +1]
+  generic laws (PROVEN here by the exhaustive twist + exact gammas + sums):
+    Z_+(r) = 1/2 - (r|5)/2   for gcd(r, 2*3*5*7*11*19) = 1
+    Z_-(r) = -1/2 + (r|5)/2  for gcd(r, 2*3*5*7*17)   = 1
+  => tr_even(r) = 0 and tr_odd(r) = (1-(r|5))/2 on every doubly-generic rung (EXACT).
+
+=== PHASE 4 — the decomposition on the ladder (r = 13..32, dps 50, quantized 1e-30) ===
+  r=13: Z+ =                  1  Z- =                 -1  (odd, even) = (1, 0)  [banked OK]  DG  mirror-generic
+  r=14: Z+ =                  1  Z- =                 -1  (odd, even) = (1, 0)  [banked OK]
+  r=15: Z+ =                  1  Z- =                  1  (odd, even) = (0, 1)  [banked OK]
+  r=16: Z+ =                  0  Z- =                  0  (odd, even) = (0, 0)  [banked OK]
+  r=17: Z+ =                  1  Z- =                  1  (odd, even) = (0, 1)  [banked OK]
+  r=18: Z+ =                  1  Z- =                 -1  (odd, even) = (1, 0)  [banked OK]
+  r=19: Z+ =                  2  Z- =                  0  (odd, even) = (1, 1)  [banked OK]  mirror-generic
+  r=20: Z+ =                  1  Z- =                  1  (odd, even) = (0, 1)  [banked OK]
+  r=21: Z+ =                  1  Z- =                 -1  (odd, even) = (1, 0)  [banked OK]
+  r=22: Z+ =                  2  Z- =                  0  (odd, even) = (1, 1)  [banked OK]
+  r=23: Z+ =                  1  Z- =                 -1  (odd, even) = (1, 0)  [banked OK]  DG  mirror-generic
+  r=24: Z+ =                  2  Z- =                  0  (odd, even) = (1, 1)  [banked OK]
+  r=25: Z+ =                  0  Z- =                  2  (odd, even) = (-1, 1)  [banked OK]
+  r=26: Z+ =                  0  Z- =                  0  (odd, even) = (0, 0)  [new row]
+  r=27: Z+ =                  0  Z- =                  0  (odd, even) = (0, 0)  [new row]
+  r=28: Z+ =                  1  Z- =                 -1  (odd, even) = (1, 0)  [new row]
+  r=29: Z+ =                  0  Z- =                  0  (odd, even) = (0, 0)  [new row]  DG  mirror-generic
+  r=30: Z+ =   (2) + (-1)*sqrt5  Z- =   (2) + (-1)*sqrt5  (odd, even) = (0, (2) + (-1)*sqrt5)  [new row]
+  r=31: Z+ =                  0  Z- =                  0  (odd, even) = (0, 0)  [new row]  DG  mirror-generic
+  r=32: Z+ =                  0  Z- =                  0  (odd, even) = (0, 0)  [new row]
+GATE G4 banked sector ladder 13/13:        True
+GATE G4 numeric cross-gate vs p4 (<1e-6):  True
+GATE G4 direct totals Z(13),Z(16),Z(19):   True
+GATE G5 tr_even != 0 => not doubly generic: True
+
+THE SHARPENING (mirror-spectrum-coprime rungs that still carry the even sector): [19]
+  => B656/G3's parenthetical 'even carries a unit iff kappa shares a prime with the mirror spectrum {2,3,5,7,17}' is NOT necessary: either channel's resonance can carry the even sector (r = 19: mirror-generic, direct Phi_9-saturated, tr_even = 1). The correct exact statement is the doubly-generic vanishing clause above.
+
+=== GATE SUMMARY ===
+  G0_direct_table: PASS
+  G0_mirror_dets: PASS
+  G1_lemma1_instances: PASS
+  G1_odd_primes_only5: PASS
+  G1_sq_iff_m5: PASS
+  G1_chi5_counts: PASS
+  G2_gamma_exact: PASS
+  G2_p1_crosscheck: PASS
+  G3_sector_sums: PASS
+  G4_banked_ladder_13: PASS
+  G4_numeric_crossgate: PASS
+  G4_direct_totals: PASS
+  G5_sector_carry: PASS
+
+results -> /Users/dri/origin-axiom/frontier/B666_leads_campaign/cell10/cell10_results.json
+total wall time: 29.0s
+
+VERDICT: THE QUEUE CLOSES CLEAN — the sector decomposition is stated and verified exactly (20 rungs, banked ladder 13/13, exact sector sums), and the Lemma-1 dependency is stated with its object-level instances exhaustively PROVEN (0 failures).

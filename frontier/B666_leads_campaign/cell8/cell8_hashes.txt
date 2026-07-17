@@ -1,0 +1,4 @@
+70967df57544f4dedc052040ec14ab28754e570e25aa9c4ad0a3f4510aa234f9  cell8_fiberpaired.py
+# input artifacts (read-only, banked):
+713f32d8435c5581585158ab06e4096cda88019223f864da50588f8a041c9c1c  ../../B637_corrected_cell3/b637_threeform.py
+f60dd2b27f29a36b2a065c00be9049ea8bc0bb5fb6c33e386f190b469408a2a0  ../../B575_bridge_obstruction/l51_obstruction.py

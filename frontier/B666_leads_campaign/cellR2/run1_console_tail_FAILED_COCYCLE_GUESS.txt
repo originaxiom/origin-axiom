@@ -1,0 +1,129 @@
+# RUN 1 (2026-07-17, pre-fix) -- preserved tail of the first execution's console.
+# The single failed gate was the AUTHOR-GUESSED form of the auxiliary s'-cocycle
+# (it omitted the pair-orientation factor o_t(j) and the quadratic character (t|7)
+# carried by N = 14^3 sqrt3). The main theorem chain (Lemmas 1-3, Tier A, Latin
+# law, exponent identities, corollaries) passed 25/26 already in run 1. Run 2
+# (b666_r2_latin_proof.py as committed) derives the corrected cocycle from the
+# sharpened closed form delta_ij = 392 s0 s'_ij sqrt21 beta_k and passes 29/29.
+# Only the tail-120 lines were captured for run 1 (console piped through tail):
+
+PART 2 -- TIER A: the nine entries as exact Q(zeta_252) identities
+==============================================================================
+D_00 numeric = (899.991601749991 - 9.95682444457783e-60j)  ->  s0 = 1 (S_00>0 convention)
+  entry (   27,   27): k=1 m=10  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=2808.9167 (margin vs 0: exact |X|=N*A_k=2808.9167)
+  entry (   27, 351'): k=2 m= 6  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=3502.6619 (margin vs 0: exact |X|=N*A_k=3502.6619)
+  entry (   27,  351): k=3 m= 4  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=1558.8312 (margin vs 0: exact |X|=N*A_k=1558.8312)
+  entry ( 351',   27): k=2 m= 2  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=3502.6619 (margin vs 0: exact |X|=N*A_k=3502.6619)
+  entry ( 351', 351'): k=3 m= 5  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=1558.8312 (margin vs 0: exact |X|=N*A_k=1558.8312)
+  entry ( 351',  351): k=1 m= 3  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=2808.9167 (margin vs 0: exact |X|=N*A_k=2808.9167)
+  entry (  351,   27): k=3 m=12  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=1558.8312 (margin vs 0: exact |X|=N*A_k=1558.8312)
+  entry (  351, 351'): k=1 m= 1  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=2808.9167 (margin vs 0: exact |X|=N*A_k=2808.9167)
+  entry (  351,  351): k=2 m= 6  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=3502.6619 (margin vs 0: exact |X|=N*A_k=3502.6619)
+  GATE PASS: (A1) all nine delta_ij purely imaginary (exact)
+  GATE PASS: (A2) all nine modulus laws 7|delta|^2 = N^2(2 - z7^{2k} - z7^{-2k}) (exact)
+  GATE PASS: (A3) all nine phase rays real (exact) ...
+  GATE PASS: (A3) ... and positive (signs pinned, margins ~ N*A_k >> 1e-30)
+
+TIER A (proved): every X_ij is a real algebraic with X_ij^2 = N^2 A_k^2
+exactly (A2+A3-real) and s0*X_ij > 0 (sign pinned; the number is +-N*A_k
+with N*A_k >= sqrt(N^2)*A_3 -- a fixed nonzero algebraic -- so a 60-dps
+evaluation with residual < 1e-30 is decisive).  Hence
+    B_ij = -t_i^2 t_j delta_ij/(s0 N) = A_{k(i,j)} zeta_14^{m(i,j)}
+EXACTLY, with the banked k- and m-tables.  The 1e-100 numeric fact is now a
+theorem of the E6 level-2 Kac-Peterson data.
+==============================================================================
+PART 3 -- Lemma 2: the Galois derivation of the Latin-square index law
+==============================================================================
+marks (root coords of the highest root): [1, 2, 2, 3, 2, 1]  sum=11 (h-1=11)
+  GATE PASS: alcove sanity: the 9 shifted weights are alcove-reduced fixed points
+Galois representatives t (t=1 mod 18, t=u mod 7): {1: 1, 2: 37, 3: 73, 4: 109, 5: 19, 6: 55}
+  t=  1 (u=1): pi_t = [0, 1, 2, 3, 4, 5, 6, 7, 8]   eps_t = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+  t= 37 (u=2): pi_t = [6, 4, 3, 7, 8, 0, 5, 2, 1]   eps_t = [-1, -1, -1, -1, -1, -1, 1, 1, 1]
+  t= 73 (u=3): pi_t = [5, 8, 7, 2, 1, 6, 0, 3, 4]   eps_t = [-1, 1, 1, -1, -1, 1, -1, -1, -1]
+  t=109 (u=4): pi_t = [5, 8, 7, 2, 1, 6, 0, 3, 4]   eps_t = [-1, 1, 1, -1, -1, 1, -1, -1, -1]
+  t= 19 (u=5): pi_t = [6, 4, 3, 7, 8, 0, 5, 2, 1]   eps_t = [-1, -1, -1, -1, -1, -1, 1, 1, 1]
+  t= 55 (u=6): pi_t = [0, 1, 2, 3, 4, 5, 6, 7, 8]   eps_t = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+[    1.0s] verifying exact Galois covariance on all 81 entries x 6 classes (raw arrays)
+  GATE PASS: EXACT Galois covariance sigma_t(D_ab) == eps_t(b) D_{a,pi_t(b)} (81x6, raw)
+  u=1: induced pair permutation [0, 1, 2]   (pair members preserved)
+  u=2: induced pair permutation [1, 2, 0]   (pair members preserved)
+  u=3: induced pair permutation [2, 0, 1]   (pair members preserved)
+  u=4: induced pair permutation [2, 0, 1]   (pair members preserved)
+  u=5: induced pair permutation [1, 2, 0]   (pair members preserved)
+  u=6: induced pair permutation [0, 1, 2]   (pair members preserved)
+  GATE PASS: pi_t maps theta-odd pairs to theta-odd pairs (all six classes)
+labels m_j from the Galois orbit of the 27-pair: [1, 2, 3]  (pairs 27, 351', 351)
+  GATE PASS: orbit labels m = (1,2,3) for (27, 351', 351) -- transitive Galois orbit
+  GATE PASS: index law k(i, pi_t(j)) == +-t*k(i,j) mod 7  (all t, all entries)
+  GATE PASS: THE LATIN-SQUARE LAW  k(i,j) == +- m_i m_j (mod 7), m=(1,2,3)
+
+LEMMA 2 (the derivation).  sigma_t fixes N^2 (rational) and maps the exact
+modulus identity  7|delta_ij|^2 = N^2(2 - z7^{2k(i,j)} - z7^{-2k(i,j)})  to
+the same identity at (i, pi_t(j)) with z7^{2k} -> z7^{2tk}: therefore
+    k(i, pi_t(j)) = +- t k(i,j)  (mod 7)   [verified exactly above].
+The 27-pair's Galois orbit is transitive over the three odd pairs, with
+orbit coordinate m_j = class(+-t) in {1,2,3}; the seed entry k(27,27)=1
+then FORCES  k(i,j) = +- m_i m_j (mod 7): the banked Latin square
+[[1,2,3],[2,3,1],[3,1,2]] IS the multiplication table of Z_7^x/{+-1},
+with the three theta-odd pairs as the group elements.  Each row/column is
+a bijection => Latin, and |B_ij|^2 doubly-stochastic circulant follows.
+==============================================================================
+PART 3b -- Lemma 3: the zeta_14-exponent law
+==============================================================================
+  GATE PASS: EXACT exponent identities zeta_14^m == -i s'_ij t_i^2 t_j (all nine)
+  sine-sign table s'_ij (sign of Im S_(a_i a_j)): [[-1, -1, -1], [-1, 1, 1], [-1, 1, -1]]
+
+the assembled exponent law (exact):
+  m(i,j) = [ 189 - 63*(1 - s'_ij) + 2*e_i + e_j ] / 18   (mod 14),
+  with e = 252*(h - c/24) on the pair letters: e_27=39, e_351'=219, e_351=183
+  (integrality: 189/63 + 2e_i + e_j == 18*m mod 252 verified above)
+
+s'-transformation under sigma_t (derived from covariance, verified):
+  GATE *** FAIL ***: s'-cocycle: s'(i,pi_t(j)) == eps_t(j) * s'(i,j) * sgn(sin(2 pi tk/7))
+  !!!! decisive check failed -- see above; continuing to gather the full picture
+
+no symmetric compact form m == a*mu_i*mu_j + b (mod 14) exists (consistent: the m-table is NOT symmetric, m(2,3)=3 vs m(3,2)=1, while a*mu_i*mu_j is); the exponent law is the assembled affine law above
+no affine-multiplicative compact form in the labels exists mod 14; the T-assembled law is the exponent law
+
+==============================================================================
+PART 4 -- corollaries of the proven closed form (exact in Q(zeta_252))
+==============================================================================
+  GATE PASS: Gauss sum: g7^2 == -7 (exact)
+  GATE PASS: corollary: trace(B) == -1 (exact: tr(7B) + 7 == 0)
+  GATE PASS: corollary: B unitary (exact, from the closed form)
+  GATE PASS: corollary: e2(B) == +1 (exact)
+  GATE PASS: corollary: det(B) == -1 (exact)  => charpoly (x+1)(x^2+1), B^4 = I
+  GATE PASS: corollary: |B_ij|^2 doubly stochastic (all row/col sums == 1, exact)
+
+==============================================================================
+CHECK SUMMARY: 25/26 passed, 1 failed
+  [PASS] raw S-symmetry D_{351,27} == D_{27,351} (independent bincount)
+  [PASS] T-integrality: 252*(h_a - c/24) integral for all 9 primaries
+  [PASS] theta-covariance  D_{theta a, theta b} == D_{a b}  (all 81, raw)
+  [PASS] conjugation law  conj(D_{a b}) == D_{a, theta b}  (all 81, raw)
+  [PASS] T-pair equality  h_a == h_{theta a} on the three odd pairs (exact fractions)
+  [PASS] N^2 := sum_b |D_{0b}|^2 is RATIONAL (Phi_252-reduction to a constant)
+  [PASS] EXACT unitarity: D conj(D)^T == N^2 * I  (all 45 independent entries)
+  [PASS] EXACT  D*D == N^2 * C_theta  (the weld's Cm = S^2 is the theta permutation)
+  [PASS] (A1) all nine delta_ij purely imaginary (exact)
+  [PASS] (A2) all nine modulus laws 7|delta|^2 = N^2(2 - z7^{2k} - z7^{-2k}) (exact)
+  [PASS] (A3) all nine phase rays real (exact) ...
+  [PASS] (A3) ... and positive (signs pinned, margins ~ N*A_k >> 1e-30)
+  [PASS] alcove sanity: the 9 shifted weights are alcove-reduced fixed points
+  [PASS] EXACT Galois covariance sigma_t(D_ab) == eps_t(b) D_{a,pi_t(b)} (81x6, raw)
+  [PASS] pi_t maps theta-odd pairs to theta-odd pairs (all six classes)
+  [PASS] orbit labels m = (1,2,3) for (27, 351', 351) -- transitive Galois orbit
+  [PASS] index law k(i, pi_t(j)) == +-t*k(i,j) mod 7  (all t, all entries)
+  [PASS] THE LATIN-SQUARE LAW  k(i,j) == +- m_i m_j (mod 7), m=(1,2,3)
+  [PASS] EXACT exponent identities zeta_14^m == -i s'_ij t_i^2 t_j (all nine)
+  [FAIL] s'-cocycle: s'(i,pi_t(j)) == eps_t(j) * s'(i,j) * sgn(sin(2 pi tk/7))
+  [PASS] Gauss sum: g7^2 == -7 (exact)
+  [PASS] corollary: trace(B) == -1 (exact: tr(7B) + 7 == 0)
+  [PASS] corollary: B unitary (exact, from the closed form)
+  [PASS] corollary: e2(B) == +1 (exact)
+  [PASS] corollary: det(B) == -1 (exact)  => charpoly (x+1)(x^2+1), B^4 = I
+  [PASS] corollary: |B_ij|^2 doubly stochastic (all row/col sums == 1, exact)
+==============================================================================
+
+VERDICT: NOT fully proven -- the failed gates above name the exact resisting steps.
+[    4.0s] done

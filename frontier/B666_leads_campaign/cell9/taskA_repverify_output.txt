@@ -1,0 +1,8 @@
+dets: a, b, c all exactly 1 in L
+relator aBAbcc: exactly I in SL2(L): True
+relator aaCbcB: exactly I in SL2(L): True
+tr(a) coords (1,s,s^2,s^3, i,is,is^2,is^3): ['0', '-1/2', '0', '0', '0', '1', '0', '-1/8']
+tr(b) coords: ['2', '0', '0', '0', '0', '0', '0', '0']
+tr(ac) coords: ['1', '0', '-1/4', '0', '1', '0', '-1/4', '0']
+tr(abc) coords: ['0', '0', '0', '0', '2', '0', '-1/2', '0']
+VERIFICATION OF THE EXACT SILVER REP: PASS

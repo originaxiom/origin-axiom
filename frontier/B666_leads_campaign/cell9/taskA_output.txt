@@ -1,0 +1,87 @@
+finding good primes (p ≡ 1 mod 8, quartic + i split) ...
+got 17 primes; first 2305843009213706321, last 2305843009213713889
+prime 2305843009213706321: all m done in 13.9s
+prime 2305843009213707569: all m done in 15.5s
+prime 2305843009213707721: all m done in 16.7s
+prime 2305843009213707857: all m done in 16.7s
+prime 2305843009213708297: all m done in 16.6s
+prime 2305843009213708649: all m done in 16.7s
+prime 2305843009213708801: all m done in 15.6s
+prime 2305843009213708817: all m done in 14.7s
+prime 2305843009213709153: all m done in 14.1s
+prime 2305843009213709761: all m done in 14.1s
+prime 2305843009213709969: all m done in 14.3s
+prime 2305843009213711489: all m done in 15.2s
+prime 2305843009213711801: all m done in 15.2s
+prime 2305843009213711993: all m done in 14.8s
+prime 2305843009213712257: all m done in 15.0s
+prime 2305843009213713217: all m done in 15.8s
+prime 2305843009213713889: all m done in 16.4s
+
+===== RECONSTRUCTION =====
+m=1: coords (1,s,s^2,s^3, i,is,is^2,is^3) =
+    1: -16
+  qdeg = 5 (= 2m+3: True)
+  CALIBRATION vs banked -16: PASS
+  verified on 3 held-out primes: PASS
+m=4: coords (1,s,s^2,s^3, i,is,is^2,is^3) =
+    1: 11682800640
+  qdeg = 11 (= 2m+3: True)
+  CALIBRATION vs banked 11682800640: PASS
+  verified on 3 held-out primes: PASS
+m=5: coords (1,s,s^2,s^3, i,is,is^2,is^3) =
+    1: -1357126041600000
+  qdeg = 13 (= 2m+3: True)
+  CALIBRATION vs banked -1357126041600000: PASS
+  verified on 3 held-out primes: PASS
+m=7: coords (1,s,s^2,s^3, i,is,is^2,is^3) =
+    1: -19633485709495167168282624000
+  qdeg = 17 (= 2m+3: True)
+  verified on 3 held-out primes: PASS
+m=8: coords (1,s,s^2,s^3, i,is,is^2,is^3) =
+    1: 2502525465140358290731282445893632000
+  qdeg = 19 (= 2m+3: True)
+  verified on 3 held-out primes: PASS
+m=11: coords (1,s,s^2,s^3, i,is,is^2,is^3) =
+    1: -6133531312292566198555292784829906501738004588569240943984640000000
+  qdeg = 25 (= 2m+3: True)
+  verified on 3 held-out primes: PASS
+exact coordinates written to taskA_exact_coords.json
+
+===== NUMERIC COMPARISON vs the SEALED B627 values =====
+m=7:
+  (s -> +sqrt(4+4sqrt2), i -> +i): rel dev vs sealed = 2.68e-28
+  (s -> +sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 2.68e-28
+  (s -> -sqrt(4+4sqrt2), i -> +i): rel dev vs sealed = 2.68e-28
+  (s -> -sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 2.68e-28
+  agreement with sealed to 2.68e-28 (within the sealed numerics' credible window)
+m=8:
+  (s -> +sqrt(4+4sqrt2), i -> +i): rel dev vs sealed = 2.11e-19
+  (s -> +sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 2.11e-19
+  (s -> -sqrt(4+4sqrt2), i -> +i): rel dev vs sealed = 2.11e-19
+  (s -> -sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 2.11e-19
+  agreement with sealed to 2.11e-19 (within the sealed numerics' credible window)
+m=11:
+  (s -> +sqrt(4+4sqrt2), i -> +i): rel dev vs sealed = 3.48e+15
+  (s -> +sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 3.48e+15
+  (s -> -sqrt(4+4sqrt2), i -> +i): rel dev vs sealed = 3.48e+15
+  (s -> -sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 3.48e+15
+  m=11: rel dev vs sealed = 3.48e+15 -- the sealed m=11 digits are input-precision noise (adjudicated by verify2); no agreement expected
+
+===== PROPERTY CERTIFICATES (exact) =====
+m=7: tau in Z[1/2][s,i]-span check: denominators = [1]
+m=8: tau in Z[1/2][s,i]-span check: denominators = [1]
+m=11: tau in Z[1/2][s,i]-span check: denominators = [1]
+
+===== FACTORIZATIONS (exact) =====
+tau_1 = -16 = -2^4
+tau_4 = 11682800640 = +2^10 * 3^3 * 5 * 7 * 12073
+tau_5 = -1357126041600000 = -2^21 * 3^2 * 5^5 * 7 * 19 * 173
+tau_7 = -19633485709495167168282624000 = -2^28 * 3^2 * 5^3 * 7^2 * 11 * 13 * 23 * 53 * 103 * 1429 * 51713
+tau_8 = 2502525465140358290731282445893632000 = +2^24 * 3^3 * 5^3 * 7 * 11 * 13^2 * 17 * 29 * 211 * 36493 * 894681507569
+tau_11 = -6133531312292566198555292784829906501738004588569240943984640000000 = -2^43 * 3^4 * 5^7 * 7^2 * 11^3 * 13^2 * 17^2 * 19 * 661 * 673 * 1031 * 30137 * 46427369 * 2837162165558701
+
+sign law sign(Re tau_m) = (-1)^m on the exact values: True
+
+total time 262.0s
+TASK A ENGINE: ALL GATES PASSED

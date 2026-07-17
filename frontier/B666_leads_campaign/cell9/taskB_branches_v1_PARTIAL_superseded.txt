@@ -1,0 +1,12 @@
+===== word RL =====
+  8 verified fixed characters; 1 distinct J values:
+   J = 5   [minpoly lam - 5]  classes ['(-1, -1)', '(-1, 1)', '(1, -1)', '(1, 1)']  multiplicity 8
+     example (x,y,z) = (3/2 - sqrt(3)*I/2, 3/2 + sqrt(3)*I/2, 3/2 + sqrt(3)*I/2)  J numeric = (5+0j)
+===== word RRL =====
+
+[cell 9 note: this v1 (radical-solve) route completed only RL before being
+superseded by the quotient-ring route (cell9_taskB_branches_v2.py), which
+computes the same branch J-spectra exactly without radical solving; the RL
+result here (J=5 on all four sign classes, example character
+(3/2 - sqrt(3)/2 i, 3/2 + sqrt(3)/2 i, 3/2 + sqrt(3)/2 i)) corroborates v2.
+Killed at the RRL solve; preserved as the honest record.]
