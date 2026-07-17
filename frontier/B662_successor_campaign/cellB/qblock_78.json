@@ -1,0 +1,104 @@
+{
+  "cell": "B662-cellB Q-BLOCK adjoint 78",
+  "REL": "abABaBAbaB",
+  "LONG": "abABaaBAbA",
+  "mu": "a",
+  "dim_module": 78,
+  "adjoint_block_dims": [
+    23,
+    17,
+    15,
+    11,
+    9,
+    3
+  ],
+  "i1_joint_holonomy_fixed": 0,
+  "i2_joint_peripheral_fixed": 6,
+  "fox": {
+    "h0": 0,
+    "h1": 6,
+    "h2": 6,
+    "Z1_dim": 84,
+    "coboundary_rank": 78,
+    "jacobian_rank": 72
+  },
+  "gates": {
+    "relator_identity_27": true,
+    "relator_identity_78": true,
+    "ad_inverses_exact": true,
+    "peripheral_commute_27_and_78": true,
+    "euler_zero": true,
+    "h0_equals_i1": true
+  },
+  "per_block": [
+    {
+      "exponent": 11,
+      "dim": 23,
+      "invariant": true,
+      "i1": 0,
+      "i2": 1,
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+    },
+    {
+      "exponent": 8,
+      "dim": 17,
+      "invariant": true,
+      "i1": 0,
+      "i2": 1,
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+    },
+    {
+      "exponent": 7,
+      "dim": 15,
+      "invariant": true,
+      "i1": 0,
+      "i2": 1,
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+    },
+    {
+      "exponent": 5,
+      "dim": 11,
+      "invariant": true,
+      "i1": 0,
+      "i2": 1,
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+    },
+    {
+      "exponent": 4,
+      "dim": 9,
+      "invariant": true,
+      "i1": 0,
+      "i2": 1,
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+    },
+    {
+      "exponent": 1,
+      "dim": 3,
+      "invariant": true,
+      "i1": 0,
+      "i2": 1,
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+    }
+  ],
+  "per_block_sums_match_full": true,
+  "predicted": {
+    "i1": 0,
+    "i2": 6,
+    "h0": 0,
+    "h1": 6
+  },
+  "verdict": "CONFIRMED-(0,6)",
+  "runtime_s": 340.1
+}

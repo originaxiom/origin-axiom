@@ -1,0 +1,85 @@
+== P0: the Galois group Gal(L/Q(i)) ==
+  ring homomorphisms (64 basis products x3): True
+  sigma^2 = tau^2 = id: True
+  sigma tau = tau sigma: True
+  sigma, tau, sigma-tau all != id: True
+  conj o sigma = sigma o conj: True
+  conj o tau = (sigma tau) o conj: True
+  Fix(sigma,tau) = span(1, i) = Q(i): True
+
+== reloading the banked 3b-i pipeline (letters/weld/Fox/H1) ==
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (56s)
+dim Z1 = 31 (247s)
+independent coboundaries: 26
+H1 representatives: 5
+  pipeline reloaded (318s)
+
+== P1: 2x2 letters under Gal(L/Q(i)) ==
+  sigma(a) = -D a D^-1: True
+  sigma(b) = +D b D^-1: True
+  sigma(c) = -D c D^-1: True
+  M_sigma = D = diag(1,-1); eps_sigma = (-,+,-): True
+  tau: solution space dim 1; eps = (++-); g(x) = eps M x M^-1 for a,b,c: True
+      M_tau[0] = re[Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] ; re[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+      M_tau[1] = re[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] ; re[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    det = re[Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  sigma-tau: solution space dim 1; eps = (-++); g(x) = eps M x M^-1 for a,b,c: True
+      M_sigma-tau[0] = re[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] ; re[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+      M_sigma-tau[1] = re[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] ; re[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    det = re[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+== P2: the weld's descent-datum compatibility (2x2) ==
+  sigma: g(u) conj(M_g') u^-1 = lam . M_g: YES, lam = re[Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  tau: g(u) conj(M_g') u^-1 = lam . M_g: YES, lam = re[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  sigma-tau: g(u) conj(M_g') u^-1 = lam . M_g: YES, lam = re[Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] im[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+== P3: 27-level intertwining, W_g = lift_sl2(M_g) ==
+  lifts built + inverses verified (1s)
+  sigma: g(LETS[x]) = W LETS[x] W^-1 for all 12 letters: True  (2s)
+  tau: g(LETS[x]) = W LETS[x] W^-1 for all 12 letters: True  (2s)
+  stau: g(LETS[x]) = W LETS[x] W^-1 for all 12 letters: True  (2s)
+
+  the U27 descent identity g(U27) = W_g U27 conj(W_g')^{-1}:
+    sigma (partner sigma): exact: True
+    tau (partner stau): exact: True
+    stau (partner tau): exact: True
+
+== P4: cubic invariance ==
+  h_pr diagonal: True; cubic support weight-sum zero (=> torus invariance for any t2): True
+  C(Xu,v,w)+C(u,Xv,w)+C(u,v,Xw) = 0 for X = e_pr, f_pr, h_pr: True, True, True
+  => the cubic is invariant under exp(nilpotents), the torus D(t2), and the Weyl factor — i.e. under EVERY lift_sl2 image.
+  spot-check Cval(W u, W v, W w) = Cval(u,v,w): True
+
+== P5: Phi_g on the five H1 representatives ==
+  -- sigma --
+    rep0: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep1: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep2: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep3: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep4: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    G_sigma = I5 (H1-classes fixed): True
+  -- tau --
+    rep0: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep1: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep2: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep3: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep4: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    G_tau = I5 (H1-classes fixed): True
+  -- stau --
+    rep0: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep1: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep2: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep3: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    rep4: cocycle True; Phi(rep)==rep exactly: True; == rep mod B1: True
+    G_stau = I5 (H1-classes fixed): True
+
+== VERDICT ==
+  P0-P4 (group, letters, weld, 27-intertwining, cubic): True
+  P5 (H1 basis is a Q(i)-form: G_sigma = G_tau = G_stau = I): True
+  => THEOREM: the chord data (Y-tensor and sigma*-matrix) of the silver weld double is fixed by Gal(L/Q(i)) — it lies in Q(i) = k(Gamma).
+
+CELL D verification DONE (342s total)

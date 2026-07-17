@@ -5631,3 +5631,27 @@ STAGE-FIXED, the knot only permutes entries. Cross-references to
 banked results verified (both packet hashes match). The redirect
 adopted: wave 2 as designed does not run; open successors = B660's.
 Locks 2/2.
+
+## 2026-07-17 — B662 WAVE 1: five cells banked (L101 PROVEN; the subfield THEOREM; L102/L103 resolved)
+
+The successor campaign's first wave (prereg 41f8d5ec; five parallel
+agents; every decisive fact spot-verified by the main seat):
+CELL A — L101 PROVEN: (i1,i2) = (1,3) metallic-uniform (two lemmas +
+rigorous density; 30/30 exact both objects) => THE DIMENSION GRAMMAR
+(3/5/1) IS A THEOREM FOR THE WHOLE METALLIC FAMILY. CELL D — THE
+SIGMA*-EQUIVARIANCE THEOREM: the chord data is defined over k(Gamma)
+(silver: full Klein-four Galois descent, the banked H1 basis itself a
+Q(i)-form, 15/15 cocycle-level; fig-8 degenerate) => THE SUBFIELD LAW
+IS A THEOREM (two objects; general mechanism identified); this seat
+independently confirmed the letters' checkerboard s-parity. CELL E —
+L102 RESOLVED: the silver portal IS block-diagonal in the canonical
+boundary-restriction decomposition (golden control reproduces) — the
+mismatch was basis choice; sector-respecting = FORCED-candidate on
+two objects. CELL C — L103 REPAIRED: sigma_matrix_golden.json
+persisted (25/25 vs B638's in-flight print; laws re-verified incl.
+independently from the JSON alone); H130 registered (S4's W tensor
+carries 24*zeta6 on the same slots AND W[134] = conj(Y[134])).
+CELL B (Q-BLOCK, completed by the main seat): i1 = 0, i2 = 6 exact on
+the adjoint 78 — the reduction's third-module prediction confirmed at
+the input level; Fox verdict appended on completion. Locks 4/4
+(+ B's on completion).
