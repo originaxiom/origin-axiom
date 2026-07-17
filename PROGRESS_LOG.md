@@ -5655,3 +5655,29 @@ CELL B (Q-BLOCK, completed by the main seat): i1 = 0, i2 = 6 exact on
 the adjoint 78 — the reduction's third-module prediction confirmed at
 the input level; Fox verdict appended on completion. Locks 4/4
 (+ B's on completion).
+
+## 2026-07-17 — B663: THE BIFOCAL ADJUDICATION + ANATOMY LOOP 1 (three relays verified)
+
+THE BIFOCAL PAIR: chat1's "bifocal discovery" = the banked two-ended
+theorem + dual McKay, renamed (credit adjudicated per cc2; chat1
+keeps the classification program + the phases observation). cc2's
+corrections all verified here (silver trace 6 not 4; hearing field
+Q(sqrt2); S-entries NOT in Q(sqrt5) — proven symbolically; V5
+inconsistent, not adopted; V2 answered — the cubic is pure Q(omega)).
+THE ENTANGLEMENT STATEMENT sharpened by wave 1: golden trace field =
+the being field alone; silver trace field = the compositum of its two
+ends' quadratics; the CHORD DATA descends to k(Gamma) on both (B662/D)
+— the data separation is always clean. L105 registered (2O/E7: does
+the silver hear the binary octahedral?). The delta_PMNS chain recorded
+for the owner, gated in order: L104 FORCED first, then owner + §16;
+everything else = postdiction (cc2's discipline adopted verbatim).
+ANATOMY LOOP 1 (seals 5/6, FRONTIER living-file exception): A1 THE
+HEART NAMED — v0 is an INVERTIBLE Jordan element (sharp-fixed,
+N(v0) = -6; independently recomputed from the banked cubic) => the
+portal law gains its MECHANISM. A2 THE RESONANT-PHASE LAW — the
+ladder's last law: phases = +-1 per (class, profile) x (kappa|5)^chi5;
+101/101 cells, m_w = 0 on 24 pairs; the voice's complete closed form
+(cell-G cross-check registered). A3 THE STAGE SIGN = a block central
+character (E-type +1 / A-type -1; residue hypothesis falsified 73/73;
+SU(3)_6 B^18 = -I corroborated on this seat; clock 36 at rep level).
+Locks 4/4.
