@@ -1312,4 +1312,4 @@ working on the governor).
 - [ ] R22-6: the generation-leg campaign adjudication on landing (two routes + cc3-cross-check per the sealed plan 353ca003; the K020 silver control on any hit)
 - [ ] R22-7: H-EAR and H-CUSP — the two named principles as the L91 endgame (proof attempts after the generation leg)
 
-anchor-commit: *(added by the follow-up one-line PR once the merge hash exists)*
+anchor-commit: `7685cb9` (Review 22)
