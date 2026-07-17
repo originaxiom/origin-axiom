@@ -1218,7 +1218,7 @@ template's honesty rule).
 - [ ] R21-7: the prior-art/novelty pass over ALL standing THEOREM/LAW candidates (carried from R20-9; NEEDS-SPECIALIST; §5.1 gate)
 - [ ] R21-8: the web seat's L95 prereg — verify-on-receipt when it lands (carried out of R20-10)
 - [ ] R21-9: prove the pair-evenness lemma at ramified primes abstractly (the sign-hears-the-discriminant theorem's one exhaustively-verified step; source: B656/G1)
-- [ ] R21-10: the L99 factual-review governance amendment — draft on the owner's approval (source: B654; GOVERNANCE §10 arc, separate from this review)
+- [x] R21-10: DONE (2026-07-17) — owner approved; GOVERNANCE §16 adopted (adversarial factual review of instantiated designs; live-verification stamps; widened anomaly clause; the subagent-reviewer provision with the blinded-lane carve-out) + WORKING_RULES rule 13; L99 closed
 - [ ] R21-11: localize the test_b353 suite-order leaker (E12 instance 2026-07-17; source: B656's suite run)
 
 anchor-commit: `4d02afe` (Review 21; #1065)

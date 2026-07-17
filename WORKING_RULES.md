@@ -48,3 +48,12 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
     discriminating computation in-sandbox (never asserted/cited/proxied);
     an unearned negative is as bad as numerology. Don't stop and celebrate
     negatives; don't soften positives that passed their gates.
+13. **Instantiated designs get a factual review (GOVERNANCE §16).** Any
+    sealed design whose premises name real-world facts is adversarially
+    fact-checked by a NON-AUTHORING reviewer (a fresh subagent under the
+    §16 standing prompt is valid) between seal and execution; every
+    empirical predicate carries a live source + access date, never a
+    model prior; "the premises look wrong" is a stop-condition for every
+    executing seat. Blinded lanes (predictor/comparator) still require
+    genuinely separated seats — the subagent equivalence is for FACTUAL
+    review only.
