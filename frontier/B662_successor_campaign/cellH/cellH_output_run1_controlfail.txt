@@ -1,0 +1,36 @@
+[     0.0s] STEP 0: exec b637_threeform.py (banked apparatus)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   64.7s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   80.5s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   80.7s] G2a PASS: principal sl2 relations exact
+[   84.1s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   85.5s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 85.5s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[    85.9s] b637 module loaded
+[    85.9s] STEP 1: rebuild the banked 5-class basis (double_Y construction, bend None, VERBATIM)...
+[    96.1s]   Z^1(D;27) dim = 31 (banked: 31)
+[   103.4s]   5 class representatives rebuilt (greedy, banked order)
+[   103.4s] STEP 2 (CONTROL G0, decisive): recompute two banked Y components through the full banked evaluator...
+[   204.8s]   Y[(0, 3, 4)] recomputed = (0+2/3r)  banked = (0+2/3r)  MATCH: True
+[   277.2s]   Y[(1, 3, 4)] recomputed = (1/24+1/72r)  banked = (1/24+1/72r)  MATCH: True
+[   277.2s]   G0 PASS: the rebuilt basis IS the banked basis
+[   277.2s] STEP 3: the coefficient system (27, 27bar, C) + gates...
+[   279.7s]   rhobar(relator) = I for all 4 relators
+[   279.7s]   CFULL: 270 ordered entries; all rational: True
+[   280.1s]   cross equivariance PASS (8 letters x 2 seeds)
+[   280.2s]   dual dot invariance PASS
+[   280.2s]   strict associativity (N total symmetry) PASS
+[   280.8s]   h^0(D;27) = 1 (banked 1); h^0(D;27bar) = 1
+[   280.8s] STEP 4: presentation-complex degree-2 machinery...
+[   280.8s]   PHITRIV rows (relator abelianizations): [[1, -1, 0, 0], [0, 0, 1, -1], [1, 0, -1, 0], [0, 0, 0, 0]]
+[   280.8s]   phi (left-null of PHITRIV, normalized) = ['(0)', '(0)', '(0)', '(1)']
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B662_successor_campaign/cellH/massey_first.py", line 432, in <module>
+    assert all((lhs[t] - rhs[t]).is_zero() for t in range(108)), \
+AssertionError: CONTROL A FAILS: relator-chain vs Fox sign mismatch
+EXIT: 1

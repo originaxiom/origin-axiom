@@ -5681,3 +5681,28 @@ ladder's last law: phases = +-1 per (class, profile) x (kappa|5)^chi5;
 character (E-type +1 / A-type -1; residue hypothesis falsified 73/73;
 SU(3)_6 B^18 = -I corroborated on this seat; clock 36 at rep level).
 Locks 4/4.
+
+## 2026-07-17 — B662 WAVE 2: L104 CONVENTION; the exact period 175560; THE MASSEY WALL
+
+CELL F — L104 CLOSED AS CONVENTION: the wave-1 sigma matrix itself
+(K-linear part) maps Y to Ybar exactly (this seat re-verified the
+identity from the two persisted JSONs with fresh code, all 10
+components); + an independent descent-datum certificate; behind it a
+theorem — the generic trivector type is a SINGLE GL(5,K)-orbit over
+any field, so B660's cubic obstructions were ansatz artifacts and no
+arithmetic invariant exists. THE DELTA_PMNS CHAIN TERMINATES (per the
+B663 gate ruling: convention => no prediction exists). CELL G — L100
+CLOSED: the melody's exact minimal period P = 175560 = 2^3*3*5*7*11*19
+CERTIFIED (12/12 gates incl. per-prime minimality witnesses on
+physical rungs); closed form: P = the exponent of the total
+discriminant group; N0/P = 13,167,000; zero aggregate cancellations =
+the independent confirmation of A2's resonant-phase law. In-record
+correction carried: G2's cap parenthetical was det-valuation
+shorthand. CELL H — THE MASSEY WALL, TWICE OVER: all off-diagonal
+solo triple products UNDEFINED (the cups are NONZERO one level below
+— the generation triple is cup-coupled below Massey); the defined
+cubes zero with FULL indeterminacy (dual pairing rank 4). CORRECTION
+propagated: B660/S4's "solo block exactly zero" was BASIS-LOCAL; the
+invariant content (antisym, rank 4, 1-dim kernel) transports. FOUR
+walls now on the hierarchy question; the new live object = the
+cup-class VALUES (L106). Locks 4/4.

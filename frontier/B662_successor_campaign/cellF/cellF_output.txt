@@ -1,0 +1,92 @@
+======================================================================
+L104 — THE CP DECIDER (cell F): does g in GL(5,K) with g.Y = Ybar exist?
+K = Q(sqrt(-3)); all arithmetic exact (Fraction pairs).
+======================================================================
+
+[load] Y (banked B660/S2 exact components):
+  (0, 2, 3):(-7983360/13 + 2661120/13r); (0, 3, 4):2/3r; (1, 2, 3):221760/13r; (1, 2, 4):2/3r; (1, 3, 4):(1/24 + 1/72r); (2, 3, 4):(5332879641600/13 + 8106192460800/13r)
+[load] Ybar:
+  (0, 2, 3):(-7983360/13 + -2661120/13r); (0, 3, 4):-2/3r; (1, 2, 3):-221760/13r; (1, 2, 4):-2/3r; (1, 3, 4):(1/24 + -1/72r); (2, 3, 4):(5332879641600/13 + -8106192460800/13r)
+[control] Y != Ybar: True (must be True)
+
+[load] sigma matrix M (wave-1, antilinear deck swap; row i = coeffs of sigma*(rep_i)):
+  [(1/2 + 1/2r), 0, 0, 0, 0]
+  [1/24r, (1/2 + -1/2r), 0, 0, 0]
+  [(1256617152000 + 1267793856000r), 268240896000, (-1/2 + -1/2r), 0, 0]
+  [(-46189483200/13 + 465696000r), (11176704000 + -11176704000r), 0, (-1/2 + 1/2r), 0]
+  [(1068480 + -514080r), (-6652800 + -6652800r), 0, 0, 1]
+[control] conj(M).M == I (banked law): True
+
+======================================================================
+STEP 1 — what the deck swap's LINEAR matrix part does to Y (exact)
+======================================================================
+  act(M, Y) = Ybar   <-- EXACT
+  act(M^T, Y) = neither +-Y, +-Ybar, nor a K-scalar multiple of either
+    components: (0, 1, 2):(14735424530179727983204217667360/169 + 1378210241500387322988963263520/169r); (0, 1, 3):(24325796582187311732131873851540 + -223847961914998325796401721572060/13r); (0, 1, 4):(3986825151089293014852979366955603400/169 + 6060135265417621823532030288588916200/169r); (0, 2, 3):(18199769500192948920/13 + 5919777754359194880/13r); (0, 2, 4):(7594286449065456107520169/4056 + -8828209446404258856959831/4056r); (0, 3, 4):(-7693218034360093193011200013/7488 + -11830155117967710565171205005/7488r); (1, 2, 3):(9716003840768813280 + -89407458882846609120/13r); (1, 2, 4):(119208034443578572800000/13 + 543603082208359219199974/39r); (1, 3, 4):(-3976866699911626752000000/13 + -13390486479188892057599987/468r); (2, 3, 4):(5332879641600/13 + 8106192460800/13r)
+  act(-M, Y) = -Ybar   <-- EXACT
+  act(-M^T, Y) = neither +-Y, +-Ybar, nor a K-scalar multiple of either
+    components: (0, 1, 2):(-14735424530179727983204217667360/169 + -1378210241500387322988963263520/169r); (0, 1, 3):(-24325796582187311732131873851540 + 223847961914998325796401721572060/13r); (0, 1, 4):(-3986825151089293014852979366955603400/169 + -6060135265417621823532030288588916200/169r); (0, 2, 3):(-18199769500192948920/13 + -5919777754359194880/13r); (0, 2, 4):(-7594286449065456107520169/4056 + 8828209446404258856959831/4056r); (0, 3, 4):(7693218034360093193011200013/7488 + 11830155117967710565171205005/7488r); (1, 2, 3):(-9716003840768813280 + 89407458882846609120/13r); (1, 2, 4):(-119208034443578572800000/13 + -543603082208359219199974/39r); (1, 3, 4):(3976866699911626752000000/13 + 13390486479188892057599987/468r); (2, 3, 4):(-5332879641600/13 + -8106192460800/13r)
+
+[reading] The banked B660 statement 'the deck swap gives -Y not Ybar' is the
+ANTILINEAR statement (sigma* = M o conj as a map).  The K-linear matrix part
+alone is a different animal — tested above.
+======================================================================
+STEP 2 — Lie stabilizer of Y in gl(5): X.Y = 0, X in 25 K-unknowns
+======================================================================
+  dim_K stab(Y) = 15   (25 - rank of the 10x25 system)
+  orbit dimension = 10 (open orbit in Lambda^3 K^5 <=> 10)
+  [structure] for the generic (rank-4 flattening) type the stabilizer is
+  the parabolic-type group {g : g v0 = a v0, induced gbar in GSp4(Bbar),
+  a = similitude^{-1}} = U(4-dim unipotent) x| GSp4  -> dim 4 + 11 = 15.
+======================================================================
+STEP 3 — constructive normal form over K (the decisive step)
+======================================================================
+Theory (exact, all verified below in-sandbox):
+  (i)   B(v,w) := T^v^w (5x5 skew flattening).  Banked type => rank B = 4,
+        ker B = <v0>, a K-line.
+  (ii)  In any basis (v0, w1..w4): T = v0 ^ S + T', T' in Lambda^3<w>;
+        v0 in ker B forces  0 = T ^ v0 = v0 ^ T'  => T' = 0.  So T = v0 ^ S.
+  (iii) S is a nondegenerate 2-vector on the 4-dim quotient; Darboux holds
+        over ANY field: exists Q in GL(4,K), Q S Q^T = e1^e2 + e3^e4.
+  (iv)  Hence EVERY trivector of the generic type is GL(5,K)-equivalent to
+        N = e0^(e1^e2 + e3^e4): the generic type is ONE K-orbit; Y ~ Ybar.
+  [Y] rank(B) = 4, ker dim = 1 (need 1)
+  [Y] v0 = (0, 0, (-3991680/13 + -3991680/13r), 0, 1)
+  [Y] decomposition check: Y'_(ijk)=0 for all i,j,k>=1: True
+  [Y] det(S) = (-169/71700791500800 + -169/71700791500800r) (nondegenerate: True)
+  [Y] act(u, Y_Y) = N = e0^e1^e2 + e0^e3^e4   EXACT
+  [Ybar] rank(B) = 4, ker dim = 1 (need 1)
+  [Ybar] v0 = (0, 0, (-3991680/13 + 3991680/13r), 0, 1)
+  [Ybar] decomposition check: Y'_(ijk)=0 for all i,j,k>=1: True
+  [Ybar] det(S) = (-169/71700791500800 + 169/71700791500800r) (nondegenerate: True)
+  [Ybar] act(u, Y_Ybar) = N = e0^e1^e2 + e0^e3^e4   EXACT
+
+  g := u2^{-1} u1  (entries in K, exact):
+   [1, 0, 0, 0, 0]
+   [0, (-73529817997/98322524846 + 37685915837/98322524846r), 20471/1536953505925017600, 0, (225181/55060613913760 + 225181/55060613913760r)]
+   [0, 0, (-1/2 + -1/2r), 0, 0]
+   [0, 0, 0, -1, 0]
+   [0, 0, (-3446261359/3019015815209856 + 5238456467/3019015815209856r), 0, (-46646891377/49161262423 + 8960975540/49161262423r)]
+======================================================================
+STEP 4 — exact verification of the certificate
+======================================================================
+  (Lambda^3 g).Y == Ybar, all 10 components exactly: True
+  det g = 1  (nonzero: True; g in GL(5,K))
+  conj(g).g stabilizes Y (descent-datum candidate): True
+  conj(g).g == I (would make u -> g.conj(u) an antilinear involution): True
+  scalar freedom: g, omega*g, omega^2*g all work (omega = (-1+r)/2 in K, omega^3=1);
+  full solution set = Stab_GL5(Y) . g, a 15-dimensional K-variety coset.
+
+  NOTE: step 1 already produced a solution from the sigma matrix: M
+
+======================================================================
+VERDICT: CONVENTION — an explicit g in GL(5,K) with (Lambda^3 g).Y = Ybar
+has been exhibited and verified exactly.  Moreover the constructive proof
+shows the generic trivector type is a SINGLE GL(5,K)-orbit (no arithmetic
+invariant survives over K): the Y vs Ybar asymmetry is a basis convention,
+not a forced (CP-like) distinction.  The B660 X^3 = c obstructions were
+artifacts of the monomial/diagonal ansatz — the general group absorbs the
+cube through the kernel-line scaling, no cube root ever needed.
+======================================================================
+prereg step 4 (mod-p evidence): SUPERSEDED — an exact K-point is exhibited;
+evidence gathering is moot.

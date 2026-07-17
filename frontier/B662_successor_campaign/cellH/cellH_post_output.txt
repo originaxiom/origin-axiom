@@ -1,0 +1,46 @@
+MV0 =
+⎡   0         0                        0                                 2⋅√3⋅ ↪
+⎢                                                                              ↪
+⎢                                                                       1   √3 ↪
+⎢   0         0                     2⋅√3⋅ⅈ                              ─ + ── ↪
+⎢                                                                       8    2 ↪
+⎢                                                                              ↪
+⎢   0      -2⋅√3⋅ⅈ                     0                   2524411008000 + 250 ↪
+⎢                                                                              ↪
+⎢           1   √3⋅ⅈ                                                           ↪
+⎢-2⋅√3⋅ⅈ  - ─ - ────  -2524411008000 - 2502057600000⋅√3⋅ⅈ                  0   ↪
+⎢           8    24                                                            ↪
+⎢                                                                              ↪
+⎣   0         0            -51891840 - 25280640⋅√3⋅ⅈ             -2595600 + 53 ↪
+
+↪ ⅈ                           0            ⎤
+↪                                          ⎥
+↪ ⋅ⅈ                                       ⎥
+↪ ──                          0            ⎥
+↪ 4                                        ⎥
+↪                                          ⎥
+↪ 2057600000⋅√3⋅ⅈ  51891840 + 25280640⋅√3⋅ⅈ⎥
+↪                                          ⎥
+↪                                          ⎥
+↪                   2595600 - 539280⋅√3⋅ⅈ  ⎥
+↪                                          ⎥
+↪                                          ⎥
+↪ 9280⋅√3⋅ⅈ                   0            ⎦
+MV0 antisymmetric: True (re-checked)
+rank(MV0) = 4
+kernel dim = 1
+  kernel vector (right): [7560 + 10920*sqrt(3)*I, 12640320 - 8648640*sqrt(3)*I, 0, 0, 1]
+
+Koszul PL = -PR^T: True (re-checked)
+rank(PL) [the dual cup pairing H^1(27bar) x H^1(27) -> H^2(C)] = 4
+left radical (zbar classes cupping to 0 with ALL u): dim 1: [[0, 0, 1, 0, 0]]
+right radical (u classes cupping to 0 with ALL zbar): dim 1: [[1680*(11*sqrt(3) + 15*I)/(sqrt(3) - I), 1330560*(29*sqrt(3) + 9*I)/(sqrt(3) + 3*I), 0, 0, 1]]
+
+indeterminacy of <u_i, ., u_k> is FULL (= H^2(D;C)) for (i,k):
+  FULL FULL FULL FULL FULL
+  FULL FULL FULL FULL FULL
+  FULL FULL FULL FULL FULL
+  FULL FULL FULL FULL FULL
+  FULL FULL FULL FULL FULL
+
+POST-ANALYSIS DONE

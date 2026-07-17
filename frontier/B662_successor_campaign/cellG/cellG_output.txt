@@ -1,0 +1,138 @@
+=== CELL G / L100 — the resonant-phase law: exact minimal period — 2026-07-17 09:09:34 ===
+N0 (melody theorem, formula) = 2311598520000 = 2^6*3^3*5^4*7^2*11^2*19^2
+sanity: 2311598520000 == 2311598520000
+
+=== PHASE 0 — Weyl group + buckets (banked construction, verbatim) ===
+|W| = 51840  (0.46s)
+buckets: 25  (7.66s)
+
+=== PHASE 1 — exact q-multisets per class (2-rep EXACT equality gate) ===
+  class  0: size  6480 sign -1 |detB|   245 = 5*7^2  eldiv [7, 35]            #q   21 P_class     35  2-rep-exact True  (0.01s)
+  class  1: size  5760 sign +1 |detB|   361 = 1*19^2  eldiv [19, 19]           #q   19 P_class     19  2-rep-exact True  (0.01s)
+  class  2: size  5184 sign +1 |detB|   121 = 1*11^2  eldiv [11, 11]           #q   11 P_class     11  2-rep-exact True  (0.00s)
+  class  3: size  5184 sign -1 |detB|   605 = 5*11^2  eldiv [11, 55]           #q   33 P_class     55  2-rep-exact True  (0.01s)
+  class  4: size  4320 sign -1 |detB|   320 = 5*8^2  eldiv [8, 40]            #q   18 P_class     40  2-rep-exact True  (0.01s)
+  class  5: size  4320 sign +1 |detB|   576 = 1*24^2  eldiv [24, 24]           #q   18 P_class     24  2-rep-exact True  (0.01s)
+  class  6: size  4320 sign -1 |detB|   180 = 5*6^2  eldiv [6, 30]            #q   18 P_class     30  2-rep-exact True  (0.01s)
+  class  7: size  3240 sign +1 |detB|   225 = 1*15^2  eldiv [15, 15]           #q   15 P_class     15  2-rep-exact True  (0.00s)
+  class  8: size  2160 sign +1 |detB|   400 = 1*20^2  eldiv [20, 20]           #q   15 P_class     20  2-rep-exact True  (0.01s)
+  class  9: size  1620 sign -1 |detB|    45 = 5*3^2  eldiv [3, 15]            #q    9 P_class     15  2-rep-exact True  (0.00s)
+  class 10: size  1440 sign -1 |detB|    80 = 5*4^2  eldiv [4, 20]            #q    9 P_class     20  2-rep-exact True  (0.00s)
+  class 11: size  1440 sign +1 |detB|   100 = 1*10^2  eldiv [10, 10]           #q   10 P_class     10  2-rep-exact True  (0.00s)
+  class 12: size  1440 sign -1 |detB|  1280 = 5*16^2  eldiv [4, 4, 4, 20]      #q   12 P_class     20  2-rep-exact True  (0.01s)
+  class 13: size  1440 sign +1 |detB|  1600 = 1*40^2  eldiv [40, 40]           #q   30 P_class     40  2-rep-exact True  (0.02s)
+  class 14: size   720 sign +1 |detB|   256 = 1*16^2  eldiv [2, 2, 8, 8]       #q    6 P_class      8  2-rep-exact True  (0.01s)
+  class 15: size   540 sign -1 |detB|   125 = 5*5^2  eldiv [5, 5, 5]          #q    5 P_class      5  2-rep-exact True  (0.00s)
+  class 16: size   540 sign +1 |detB|    81 = 1*9^2  eldiv [3, 3, 3, 3]       #q    3 P_class      3  2-rep-exact True  (0.00s)
+  class 17: size   540 sign -1 |detB|  1125 = 5*15^2  eldiv [5, 15, 15]        #q   15 P_class     15  2-rep-exact True  (0.01s)
+  class 18: size   480 sign +1 |detB|   256 = 1*16^2  eldiv [4, 4, 4, 4]       #q    4 P_class      4  2-rep-exact True  (0.00s)
+  class 19: size   270 sign +1 |detB|    25 = 1*5^2  eldiv [5, 5]             #q    5 P_class      5  2-rep-exact True  (0.00s)
+  class 20: size   240 sign +1 |detB|    16 = 1*4^2  eldiv [4, 4]             #q    3 P_class      4  2-rep-exact True  (0.00s)
+  class 21: size    80 sign +1 |detB|  4096 = 1*64^2  eldiv [4, 4, 4, 4, 4, 4] #q    4 P_class      4  2-rep-exact True  (0.03s)
+  class 22: size    45 sign +1 |detB|   625 = 1*25^2  eldiv [5, 5, 5, 5]       #q    5 P_class      5  2-rep-exact True  (0.01s)
+  class 23: size    36 sign -1 |detB|     5 = 5*1^2  eldiv [5]                #q    3 P_class      5  2-rep-exact True  (0.00s)
+  class 24: size     1 sign +1 |detB|     1 = 1*1^2  eldiv []                 #q    1 P_class      1  2-rep-exact None  (0.00s)
+GATE A0 (table == banked jeffrey_terms.json): True
+GATE B  (2-rep exact q-multiset equality):    True
+
+=== PHASE 2 — cross-gates ===
+-- GATE A1: verbatim banked gauss_sum (float path) vs multiset eval, r = 13, 19 --
+   max |banked - multiset| over 25 classes x (13, 19) = 1.289e-13  -> True
+-- GATE P1: G(13), G(29) == zeta_8^j * sqrt|detB| (cc2's exact certificates), dps 50 --
+   max |G - zeta_8^j*sqrt(det)| over 25 classes x (13, 29) = 2.23e-48  -> True
+-- GATE F1: the uniform jump law |G(r)|^2 = prod p^(a+min(v_p(r),a)), dps 50, quantize 1e-30 --
+   150 instances checked, all integer-quantized to the F1 prediction: True
+-- GATE A2: totals at dps 50 (quantize 1e-30) --
+   Z(13) = 1.0 -2.08e-51i   expect 1  dev 4.52e-51  -> True
+   Z(16) = -4.9495642779485104558e-54 -2.37e-51i   expect 0  dev 2.37e-51  -> True
+   Z(19) = 2.0 -1.95e-52i   expect 2  dev 2.68e-51  -> True
+   Z(17) = 1.0 -3.28e-51i   expect 1  dev 5.18e-51  -> True
+   Z(23) = 1.0 -3.32e-51i   expect 1  dev 3.58e-51  -> True
+   Z(29) = -1.6218072284077952594e-51 -2.56e-51i   expect 0  dev 3.03e-51  -> True
+
+=== PHASE 3 — exact aggregation and the minimal period ===
+distinct q values across all classes: 130
+squarefree classes s present: [1, 5]  (sqrt(s) linearly independent over Q)
+supported q (N_q != 0, exact): 130;  aggregate-cancelled q: 0
+
+THE MINIMAL PERIOD (exact, from the aggregated character support):
+  P_min = 175560 = {2: 3, 3: 1, 5: 1, 7: 1, 11: 1, 19: 1}
+  lcm of per-class periods = 175560 = {2: 3, 3: 1, 5: 1, 7: 1, 11: 1, 19: 1}
+  (equal iff no cross-class resonant cancellation affects the period)
+GATE C: P_min | N0: True;  5 | P_min: True
+  N0 / P_min = 13167000
+
+=== PHASE 4 — periodicity spot pairs and minimality witnesses ===
+-- GATE D: Z(kappa) vs Z(kappa + P_min) on the D2 sealed rung set (per-class route, dps 30) --
+   kappa= 13: Z=1.0+6.1e-32i  Z(+P_min) dev = 0.0 -> True
+   kappa= 29: Z=-3.99299964371129e-32+1.9e-31i  Z(+P_min) dev = 0.0 -> True
+   kappa= 16: Z=-6.33036528881059e-32-1.3e-31i  Z(+P_min) dev = 0.0 -> True
+   kappa= 25: Z=-6.33036528881059e-33-3.7e-32i  Z(+P_min) dev = 0.0 -> True
+   kappa= 19: Z=2.0+3.2e-32i  Z(+P_min) dev = 0.0 -> True
+   kappa= 45: Z=1.0+5.6e-32i  Z(+P_min) dev = 0.0 -> True
+-- GATE E: for each prime p | P_min, a rung with Z(kappa) != Z(kappa + P_min/p) --
+   p=2: d = P_min/2 = 87780;  witness kappa = 20: Z = 1.0+2.2e-51i vs Z(+d) = -0.2360679775-2.5e-51i, |dev| = 1.23607 (dps 50) -> True;  algebraic q* = 11/20 (ord 40)
+   p=3: d = P_min/3 = 58520;  witness kappa = 13: Z = 1.0-2.1e-51i vs Z(+d) = -2.35764245106e-51-4.9e-53i, |dev| = 1.0 (dps 50) -> True;  algebraic q* = 7/12 (ord 24)
+   p=5: d = P_min/5 = 35112;  witness kappa = 13: Z = 1.0-2.1e-51i vs Z(+d) = -2.64636703394e-51-3.1e-51i, |dev| = 1.0 (dps 50) -> True;  algebraic q* = 22/35 (ord 35)
+   p=7: d = P_min/7 = 25080;  witness kappa = 14: Z = 1.0+4.5e-53i vs Z(+d) = -1.27203801943e-51-2.7e-51i, |dev| = 1.0 (dps 50) -> True;  algebraic q* = 22/35 (ord 35)
+   p=11: d = P_min/11 = 15960;  witness kappa = 22: Z = 2.0-1.5e-52i vs Z(+d) = -2.16625929898e-51-1.8e-51i, |dev| = 2.0 (dps 50) -> True;  algebraic q* = 6/11 (ord 11)
+   p=19: d = P_min/19 = 9240;  witness kappa = 13: Z = 1.0-2.1e-51i vs Z(+d) = 3.0-1.2e-51i, |dev| = 2.0 (dps 50) -> True;  algebraic q* = 14/19 (ord 19)
+
+=== PHASE 5 — one glance at the melody (kappa = 13..72, float) ===
+   13:+1.000  14:+1.000  15:+1.000  16:+0.000  17:+1.000  18:+1.000
+   19:+2.000  20:+1.000  21:+1.000  22:+2.000  23:+1.000  24:+2.000
+   25:-0.000  26:-0.000  27:+0.000  28:+1.000  29:-0.000  30:-0.236
+   31:+0.000  32:+0.000  33:+2.000  34:-0.000  35:-2.236  36:-2.000
+   37:+1.000  38:+2.000  39:-0.000  40:-0.236  41:-0.000  42:+0.000
+   43:+1.000  44:+0.000  45:+1.000  46:-0.000  47:+1.000  48:+3.000
+   49:+1.000  50:-0.000  51:+0.000  52:+2.000  53:+1.000  54:+0.000
+   55:-1.236  56:+1.000  57:+2.000  58:-0.000  59:-0.000  60:-1.236
+   61:-0.000  62:-0.000  63:-1.000  64:-0.000  65:-0.000  66:+0.000
+   67:+1.000  68:+2.000  69:-0.000  70:-2.236  71:+0.000  72:+3.000
+
+=== PHASE 5b — addendum: the closed form and the resonant value ring ===
+  lcm of all elementary divisors (exponent of the sum of the A_w) = 175560
+  == P_min: True   (note: NO extra factor 2 — the deepest dyadic q have even numerators, the even-type 2-adic structure of F1)
+  per-prime elementary-divisor caps: {2: 3, 3: 1, 5: 1, 7: 1, 11: 1, 19: 1}
+  resonant showcase rungs, dps 50, quantized at 1e-30:
+    Z( 16) = -4.949564277948510455815808e-54  ->  +0 +0*sqrt5   [Z[sqrt5]]
+    Z( 19) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z( 20) =                            1.0  ->  +1 +0*sqrt5   [Z[sqrt5]]
+    Z( 22) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z( 24) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z( 25) = -3.491092670713016041502083e-51  ->  +0 +0*sqrt5   [Z[sqrt5]]
+    Z( 30) =   -0.2360679774997896964091737  ->  +2 -1*sqrt5   [Z[sqrt5]]
+    Z( 35) =    -2.236067977499789696409174  ->  +0 -1*sqrt5   [Z[sqrt5]]
+    Z( 36) =                           -2.0  ->  -2 +0*sqrt5   [Z[sqrt5]]
+    Z( 40) =   -0.2360679774997896964091737  ->  +2 -1*sqrt5   [Z[sqrt5]]
+    Z( 45) =                            1.0  ->  +1 +0*sqrt5   [Z[sqrt5]]
+    Z( 48) =                            3.0  ->  +3 +0*sqrt5   [Z[sqrt5]]
+    Z( 55) =    -1.236067977499789696409174  ->  +1 -1*sqrt5   [Z[sqrt5]]
+    Z( 57) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z( 60) =    -1.236067977499789696409174  ->  +1 -1*sqrt5   [Z[sqrt5]]
+    Z( 63) =                           -1.0  ->  -1 +0*sqrt5   [Z[sqrt5]]
+    Z( 70) =    -2.236067977499789696409174  ->  +0 -1*sqrt5   [Z[sqrt5]]
+    Z( 72) =                            3.0  ->  +3 +0*sqrt5   [Z[sqrt5]]
+    Z( 76) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z( 88) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z( 95) =                            2.0  ->  +2 +0*sqrt5   [Z[sqrt5]]
+    Z(100) =                            1.0  ->  +1 +0*sqrt5   [Z[sqrt5]]
+
+=== GATE SUMMARY ===
+  A0_banked_table: PASS
+  B_2rep_exact: PASS
+  A1_banked_gauss: PASS
+  P1_gamma_certs: PASS
+  F1_jump_law: PASS
+  A2_totals: PASS
+  C_divides_N0: PASS
+  C_multiple_of_5: PASS
+  D_period_pairs: PASS
+  E_minimality_witnesses: PASS
+  closed_form_lcm_divisors: PASS
+  resonant_values_quantized: PASS
+
+results -> /Users/dri/origin-axiom/frontier/B662_successor_campaign/cellG/l100_results.json
+total wall time: 11.78s
+
+VERDICT: CERTIFIED — the melody's exact minimal period is 175560 = {2: 3, 3: 1, 5: 1, 7: 1, 11: 1, 19: 1}
