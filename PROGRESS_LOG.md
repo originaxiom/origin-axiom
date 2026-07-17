@@ -5550,3 +5550,18 @@ an authoring seat cannot unsee what it relays. Rationale (§10): additive
 — a new review lane that strengthens discipline after the C2 provenance
 erratum (E4); no rule weakened. Deltas: GOVERNANCE §16; WORKING_RULES
 rule 13; E4's counter-rule pointer; L99 CLOSED; R21-10 [x].
+
+## 2026-07-17 — B658: THE ORDER-4 FLIP VERDICT — wall 8 is TOTAL (R21-6 closed)
+
+Owner-directed run of B643's registered residual (prereg 0c4a1115
+sealed first). Both order-4 orientation-reversing families (phi(a)=A
+with signature ('', -1, +1); phi(a)=B with ('aBAb', -1, +1)) BREAK on
+the weld double's 27 local system with the SAME singular intertwiner
+as the order-2 classes: solution dim 1, d = (0,0,1), Sym0-supported,
+no invertible member; control (a-family) reproduced its banked
+singularity; inner corrections covered by the Ad(w) argument. WALL 8
+UPGRADES TO THE TOTAL STATEMENT: the chord breaks EVERY
+orientation-reversing family of Isom(4_1) = D4; the double's
+27-cohomology symmetry is the deck swap sigma* exactly. H128
+registered (the common retreat line = the portal's source v0 — an
+observation, not a law). Locks 2/2. R21-6 [x].

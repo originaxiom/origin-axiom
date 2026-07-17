@@ -88,10 +88,15 @@ upgrades' lead rows).*
 7. The naive ℤ/3 triality does not act on H¹(D;27) (center = scalar;
    Coxeter scales the holonomy) — the 3+2 split as proposed is dead
    (the rebase).
-8. The chord breaks both amphichiral flip classes: each flip's only
+8. THE TOTAL MIRROR WALL: the chord breaks EVERY orientation-reversing
+   family of Isom(4₁) = D₄ — the two order-2 flips (B643) AND the two
+   order-4 elements squaring to the half-longitude (B658; peripheral
+   signatures ('', −1, +1) and ('aBAb', −1, +1)) — each family's only
    partial intertwiner on the double's 27 local system is supported on
-   Sym⁰ alone (d = (0,0,1), both involution families, inner-freedom
-   immune) — coupling breaks the mirror down to the deck swap (B643).
+   Sym⁰ (the invariant line) alone (d = (0,0,1), all four families,
+   inner-freedom immune). The double's 27-cohomology symmetry is the
+   deck swap σ* exactly. (The common retreat to v₀ = the portal's
+   source is a registered HINT, not a law.)
 9. THE EQUIVARIANCE WALL: no nonzero linear monodromy-equivariant map
    classical → stage exists (hyperbolic φ^{±2} vs the order-10
    congruence shadow; Sylvester T = 0 exact) — the correspondence is
