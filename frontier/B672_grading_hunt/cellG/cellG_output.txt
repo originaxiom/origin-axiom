@@ -1,0 +1,140 @@
+== S0: the targets -- banked streams loaded + independently recomputed ==
+  2hat'.comp1    recomputed; gate vs banked (60 terms): True; extended to 101 terms
+  2hat'.comp2    recomputed; gate vs banked (60 terms): True; extended to 101 terms
+  2hat.comp1     recomputed; gate vs banked (60 terms): True; extended to 101 terms
+  2hat.comp2     recomputed; gate vs banked (60 terms): True; extended to 101 terms
+  row1 sextet   recomputed; gate vs banked (20 terms): True
+  target heads: 2hat'.comp1 = q^(1/5)*[1, 42, -108, -4, -378, 1512]...
+
+== C1: the B205 generic-q skein tower (q-metallic mean, golden specialization) ==
+  C1a  z = 1+q/z fixed point: stream [1, 1, -1, 2, -5, 14, -42, 132]...
+  C1b  MGO [phi]_q: stream [1, 0, 1, -1, 2, -4, 8, -17, 37]...; integer-coeff gate: True; disc(1)=5 gate: True
+  C1c  q-Chebyshev leading coeff (1+q^-2)^m: FINITE (m+1 terms) for every m
+    C1a vs 2hat'.comp1   : first mismatch at n=1 (cand ratio 1 vs target 42)
+    C1a vs 2hat'.comp2   : first mismatch at n=1 (cand ratio 1 vs target 3/2)
+    C1a vs 2hat.comp1    : first mismatch at n=1 (cand ratio 1 vs target -9)
+    C1a vs 2hat.comp2    : first mismatch at n=1 (cand ratio 1 vs target -10)
+    C1b vs 2hat'.comp1   : first mismatch at n=1 (cand ratio 0 vs target 42)
+    C1b vs 2hat'.comp2   : first mismatch at n=1 (cand ratio 0 vs target 3/2)
+    C1b vs 2hat.comp1    : first mismatch at n=1 (cand ratio 0 vs target -9)
+    C1b vs 2hat.comp2    : first mismatch at n=1 (cand ratio 0 vs target -10)
+  C1 VERDICT: MISS (every sub-candidate; first mismatches n = [1]; C1c finite vs infinite target)
+
+== C2: the word-length / geodesic filtration (traces of R^a L^b words) ==
+  gate tr(R^a L^b) = 2 + ab (a,b <= 8, exact matrices): True
+  gate sum_{|w|=n} tr(w) = tr((R+L)^n) = 3^n + 1 (n <= 10, brute force): True
+  C2a stream (n>=2): [3, 8, 16, 28, 45, 68]...
+  C2b stream (n>=1): [4, 10, 28, 82, 244, 730]...
+  C2c stream (n>=1): [3, 7, 18, 47, 123, 322]...
+    C2a vs 2hat'.comp1   : first mismatch at n=1 (cand ratio 8/3 vs target 42)
+    C2a vs 2hat'.comp2   : first mismatch at n=1 (cand ratio 8/3 vs target 3/2)
+    C2a vs 2hat.comp1    : first mismatch at n=1 (cand ratio 8/3 vs target -9)
+    C2a vs 2hat.comp2    : first mismatch at n=1 (cand ratio 8/3 vs target -10)
+    C2b vs 2hat'.comp1   : first mismatch at n=1 (cand ratio 5/2 vs target 42)
+    C2b vs 2hat'.comp2   : first mismatch at n=1 (cand ratio 5/2 vs target 3/2)
+    C2b vs 2hat.comp1    : first mismatch at n=1 (cand ratio 5/2 vs target -9)
+    C2b vs 2hat.comp2    : first mismatch at n=1 (cand ratio 5/2 vs target -10)
+    C2c vs 2hat'.comp1   : first mismatch at n=1 (cand ratio 7/3 vs target 42)
+    C2c vs 2hat'.comp2   : first mismatch at n=1 (cand ratio 7/3 vs target 3/2)
+    C2c vs 2hat.comp1    : first mismatch at n=1 (cand ratio 7/3 vs target -9)
+    C2c vs 2hat.comp2    : first mismatch at n=1 (cand ratio 7/3 vs target -10)
+  (structural: all three C2 streams are positive and monotone from n>=2;
+   every target stream changes sign by n=2 -- no scalar/offset can rescue)
+  C2 VERDICT: MISS (first mismatch n=1 in every pairing)
+
+== C3: the ladder certificate's 130-frequency support as a q-object ==
+  loaded support: 130 frequencies (banked n_support = 130)
+  common denominator of the support frequencies: D = 87780
+  => Zhat(x) = sum N_q x^(q*87780) : a FINITE polynomial, 130 terms, coefficients in Q(sqrt5)
+  leading support term: q = 0, coeff = 5611/8360 + -971/9240*sqrt5
+    Zhat vs 2hat'.comp1   : first ratio mismatch at term n=1 (cand -147223020/3045579139+-188058276/3045579139*sqrt5 vs target 42)
+    Zhat vs 2hat'.comp2   : first ratio mismatch at term n=1 (cand -147223020/3045579139+-188058276/3045579139*sqrt5 vs target 3/2)
+    Zhat vs 2hat.comp1    : first ratio mismatch at term n=1 (cand -147223020/3045579139+-188058276/3045579139*sqrt5 vs target -9)
+    Zhat vs 2hat.comp2    : first ratio mismatch at term n=1 (cand -147223020/3045579139+-188058276/3045579139*sqrt5 vs target -10)
+  RR theta classes mod 2: F1 -> [Fraction(1, 40), Fraction(41, 40)], F2 -> [Fraction(9, 40), Fraction(49, 40)] (both = order-80 characters)
+  support census: max character order = 55; max v2(denominator) = 2 (theta needs v2 = 3, i.e. denominator 40)
+  support frequencies lying in an RR theta class: F1-classes 0, F2-classes 0
+  => EXACT NO-GO for the C3->RR bridge: every RR theta character has order 80;
+     the banked period P = 175560 has 2-part 8, so order-80 characters cannot
+     occur in the support -- and indeed 0 of the 130 frequencies hit an RR class
+  C3 VERDICT: MISS (finite 130-term object; first ratio mismatch at term n=1
+     for every target; the RR theta classes are provably absent from the support)
+
+== C4: eta-quotient / theta recognition of the target streams ==
+  C4a  eta(tau)^a eta(5tau)^b, a+b=10, exponent == r/5 mod 1: solutions found = 0
+       (mod-5 proof: 5(a+5b) == 0, 24r == 4r != 0 mod 5 -- structurally impossible)
+  C4b  E_{1/5} reduction: log E_{1/5} fractional-exponent coefficients [('1/5', '-1'), ('2/5', '-3/2'), ('3/5', '-4/3')]
+       all nonzero => any integer-exponent target forces the E_{1/5} exponent = 0;
+       the {E1, E5, E_{1/5}} menu reduces exactly to {E1, E5}
+  control 1: E1^2 E5^3 recognized over {E1,E5}: x = ['2', '3'], verified to n=100: True
+  control 2: N1^3 E1^-2 recognized over {N1,N2,E1}: x = ['3', '0', '-2'], verified: True
+    2hat'.comp1    over {E1,E5}      : exact solve from first coeffs -> x = ['-42', '-34639488'];
+                   FAILS at n=2 (lhs 63 vs target -990) -- NOT a monomial in this menu
+    2hat'.comp1    over {N1,N2,E1}   : exact solve from first coeffs -> x = ['-34639488', '-34640541', '34640499'];
+                   FAILS at n=3 (lhs -997 vs target 29228) -- NOT a monomial in this menu
+    2hat'.comp1    over {N1,N2,E1,E5}: system underdetermined -- degenerate, MISS
+    2hat'.comp2    over {E1,E5}      : exact solve from first coeffs -> x = ['-3/2', '-2504763/5408'];
+                   FAILS at n=2 (lhs 9/4 vs target -1629/104) -- NOT a monomial in this menu
+    2hat'.comp2    over {N1,N2,E1}   : exact solve from first coeffs -> x = ['-2504763/5408', '-2601639/5408', '2593527/5408'];
+                   FAILS at n=3 (lhs -1655/104 vs target 2945/104) -- NOT a monomial in this menu
+    2hat'.comp2    over {N1,N2,E1,E5}: system underdetermined -- degenerate, MISS
+    2hat.comp1     over {E1,E5}      : exact solve from first coeffs -> x = ['9', '1'];
+                   FAILS at n=2 (lhs -27/2 vs target -29/2) -- NOT a monomial in this menu
+    !! 2hat.comp1 over {N1,N2,E1}: MATCH x = ['1', '0', '9'] -- ALL 100 coefficients verified (S5 verifies further)
+    2hat.comp1     over {N1,N2,E1,E5}: system underdetermined -- degenerate, MISS
+    2hat.comp2     over {E1,E5}      : exact solve from first coeffs -> x = ['10', '0'];
+                   FAILS at n=2 (lhs -15 vs target -14) -- NOT a monomial in this menu
+    !! 2hat.comp2 over {N1,N2,E1}: MATCH x = ['0', '1', '9'] -- ALL 100 coefficients verified (S5 verifies further)
+    2hat.comp2     over {N1,N2,E1,E5}: system underdetermined -- degenerate, MISS
+    row1 sextet    over {E1,E5}      : exact solve from first coeffs -> x = ['-5', '-899'];
+                   FAILS at n=2 (lhs 15/2 vs target -25/2) -- NOT a monomial in this menu
+    row1 sextet    over {N1,N2,E1}   : exact solve from first coeffs -> x = ['-899', '-919', '914'];
+                   FAILS at n=3 (lhs -40/3 vs target 155/3) -- NOT a monomial in this menu
+    row1 sextet    over {N1,N2,E1,E5}: system underdetermined -- degenerate, MISS
+  C4 status: 2 MATCH(es) fired, 13 monomial rejections recorded
+
+== S5: the 2hat MATCH verified at product level to 300 terms + the 2hat' ansatz ==
+  2hat.comp1: Sym^25 numerator == N1 * (q;q)^24 to 301 terms: True
+  2hat.comp2: Sym^25 numerator == N2 * (q;q)^24 to 301 terms: True
+  => THE IDENTITY (exact, 301 coefficients each, product level):
+       Y^(5)_2hat.comp1 = q^{2/5} N1(q) (q;q)^9  = F1 * eta^{48/5}
+       Y^(5)_2hat.comp2 = q^{3/5} N2(q) (q;q)^9  = F2 * eta^{48/5}
+     with N1 = (q;q) G(q), N2 = (q;q) H(q) = THE ROGERS-RAMANUJAN NUMERATORS.
+     Corollary: comp2/comp1 = q^{1/5} N2/N1 = R(q), the Rogers-Ramanujan
+     continued fraction.  The whole 2hat doublet = the F-doublet times the
+     scalar eta^{48/5} (weight 24/5 + 1/5 = 5, consistent).
+  2hat'.comp1 = eta^{24/5} * (1 F1^13 + 39 F1^8 F2^5 + -26 F1^3 F2^10): MATCH, 301 coefficients verified
+  2hat'.comp2 = eta^{24/5} * (26 F1^10 F2^3 + 39 F1^5 F2^8 + -1 F2^13): MATCH, 301 coefficients verified
+
+== OVERALL VERDICT (two-outcome, per candidate) ==
+  C1 B205 q-tower (q-metallic golden)         : MISS (first mismatch n=1 in all 8 pairings;
+       MGO [phi]_q and the Catalan deformation both integral but wrong from the
+       second coefficient; the banked q-Chebyshev stream is finite)
+  C2 word-length/geodesic filtration          : MISS (first mismatch n=1 in all 12 pairings;
+       positive monotone traces vs sign-changing targets -- structurally excluded)
+  C3 ladder certificate as Habiro q-object    : MISS (finite 130-term support; first ratio
+       mismatch at term 1; RR theta classes = order-80 characters, provably absent
+       since the banked period's 2-part is 8; 0/130 support frequencies hit an RR class)
+  C4 eta-quotient / RR recognition            : *** MATCH *** for the FULL 2hat doublet:
+       Y^(5)_2hat = eta^{48/5} * (F1, F2) = q^{2/5}(q;q)^9 * (N1, q^{1/5} N2),
+       N1, N2 = the Rogers-Ramanujan numerators; verified 100 (log-solver) +
+       301 (independent product identity) coefficients per component.
+       AND the 2hat' doublet = eta^{24/5} * P13(F1,F2) (coefficients above),
+       301 coefficients verified per component -- BOTH doublets are eta-power
+       times F-polynomials; the recognition leg is complete.
+       The pure {eta(tau),eta(5tau)} menu stays excluded (mod-5 obstruction).
+
+  THE ANSWER TO L108's QUESTION, two-sided:
+  (i)  RECOGNITION LEG -- FOUND: the weight-5 doublet streams ARE Rogers-
+       Ramanujan objects.  The 2hat doublet is literally (N1, N2) times the
+       grading-free scalar q^{r/5}(q;q)^9: the banked target factors through
+       the RR numerators exactly (301 coefficients, product level), and
+       comp2/comp1 IS the Rogers-Ramanujan continued fraction R(q).
+  (ii) GENERATION LEG -- STILL MISSING: no banked tower object (B205 q-tower,
+       word-length filtration, ladder support) generates these streams; the
+       ladder route to N1/N2 is exactly excluded at character order 80 vs the
+       banked period 2-part cap 8.  The missing ingredient sharpens to: a
+       framework object whose graded trace produces the RR numerators N1, N2
+       (equivalently (q;q)G(q), (q;q)H(q)) -- the Andrews-Gordon/Lee-Yang door.
+
+  total runtime 14.7s

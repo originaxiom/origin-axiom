@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B672: the mini-wave (Rogers–Ramanujan; the branch dichotomy)
+
+### Added
+- **L108's recognition leg COMPLETE:** the weight-5 doublet streams
+  are Rogers–Ramanujan objects (F·η-powers, 301 coefficients exact);
+  the component ratio IS the RR continued fraction. Generation leg
+  sharpened (four candidates dead exactly).
+- **The branch-tiebreak lemma PROVEN as an exact dichotomy** (modulo
+  H-CUSP): the cusp lattice quantizes A₂ (iso mod 5 onto the shadow's
+  home plane) and cannot quantize A₄ (ℚ(√5) real). Stage selection
+  completes to the single branch; L91 = H-EAR + H-CUSP. Locks 2/2.
+
 ## 2026-07-18 — B673: the loop-4 integration (L106 closes)
 
 ### Resolved

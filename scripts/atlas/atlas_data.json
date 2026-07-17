@@ -13644,6 +13644,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B672": {
+   "slug": "grading hunt",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B205",
+    "B644",
+    "L108",
+    "L91"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B673": {
    "slug": "loop4 integration",
    "motifs": [
