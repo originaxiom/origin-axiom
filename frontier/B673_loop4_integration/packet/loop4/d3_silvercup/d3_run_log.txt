@@ -1,0 +1,112 @@
+[    0.0s] STEP 0: exec b649_stage3b_swap.py prefix (weld + silver DOUBLE Fox/Z1/cob/reps) -- SAME cut point w2a_silver.py used ('# ---- sigma* ---'). Source READ only, no writes to origin-axiom. ~4-5 min expected.
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (79s)
+dim Z1 = 31 (341s)
+independent coboundaries: 26
+H1 representatives: 5
+[  438.0s]   prefix exec complete (438s)
+[  438.0s]   double presentation: GENS='abcdef'  RELATORS=['aBAbcc', 'aaCbcB', 'dEDeff', 'ddFefE', 'CCBeff', 'caCAfdFD']
+[  438.0s]   relator lengths: [6, 6, 6, 6, 6, 8]  total chars: 38
+[  438.0s] === GATE 1 (the sealed PREREG D3 gate): reproduce banked silver DOUBLE dims h0=1, h1=5 from the letters, before any cup work ===
+[  438.0s]   double: dim Z1=31 rank(cob)=26  ->  h0(D)=1 h1(D)=5
+[  438.0s]   GATE (h0=1,h1=5): PASS
+[  438.0s] === STEP A: build the dual (contragredient) Fox machinery on the silver DOUBLE (6 generators, 6 relators) -- dacts, dual_big ===
+[  438.0s]   dacts built for ['A', 'B', 'C', 'D', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'f']
+[  506.7s]   dual Fox-derivative matrix F built (162x162) (69s)
+[  771.0s]   dim Z1(dual) = 31  (264s)
+[  779.4s]   h0(dual)=1  h1(dual)=5  [GATE h1_dual==5]: PASS
+[ 1030.8s]   ker(F^T) dim = 31  (251s)  [= dim C^2(dual)/B^2(dual), the superspace containing true H^2(dual)]
+[ 1030.8s]   ker(F^T) dim == ker(F) dim [square-matrix rank-nullity check]: True
+[ 1030.8s] === STEP B: h^2(D_silver;27bar)=5 CONSISTENCY GATE (Poincare duality + UCT, L a field): h0(dual)=? h1(dual)=5(gated) h3(dual)=h0(primal)=1 (gated double_h0_eq_1); Euler char forces h2(dual)=5 ===
+[ 1030.8s]   h0(dual)=1  h1(dual)=5  h3(dual)[PD from h0(primal)]=1  =>  h2(dual) forced = 5 by Euler(=0) consistency: PASS
+[ 1030.8s] === STEP C: the silver Jordan cross product C3, REUSED from the BANKED cubic_rational.json (B649's rational Cartan cubic) -- NOT re-derived from scratch. This is the same object w2a_silver.py / b3_silver.py already gated N-invariant under all six letters a..f. ===
+[ 1030.8s]   cubic_rational.json entries loaded: 270 (banked, read-only)
+[ 1030.8s]   CONTROL: C3 is exactly SYMMETRIC (C3(u,v)=C3(v,u)) on test vectors...
+[ 1032.0s]   C3(u,v)==C3(v,u): PASS
+[ 1032.0s]   CONTROL: C3 equivariance C3(rho(g)x,rho(g)y) = rho-bar(g).C3(x,y) for ALL SIX silver generators a,b,c,d,e,f (this is what makes the cup's cocycle identity a general consequence, not a coincidence)...
+[ 1033.5s]   C3(gx,gy) == rho-bar(g).C3(x,y) for g in a..f: True {'a': True, 'b': True, 'c': True, 'd': True, 'e': True, 'f': True}
+[ 1033.5s] === STEP D: small glue -- cocycle_val/rho_word (same pattern as c1_vecmassey.py's, silver LETS) + the vector cup c_ij(g,h) = C3(u_i(g), rho(g).u_j(h)) ===
+[ 1033.5s]   5 silver H^1 classes sliced from reps (full basis; split UNRESOLVED per w2a_silver.py FINDINGS_CC2.md -- using ALL 5, not a restricted solo subset)
+[ 1033.5s]   support-pattern context (banked in w2a_silver.py, recomputed here for cross-check, NOT used to restrict scope):
+[ 1033.5s]     class 0: nonzero on generators ['a', 'b', 'c']
+[ 1033.5s]     class 1: nonzero on generators ['a', 'b', 'c']
+[ 1033.5s]     class 2: nonzero on generators ['b', 'e']
+[ 1033.5s]     class 3: nonzero on generators ['a', 'b', 'c', 'd', 'e']
+[ 1033.5s]     class 4: nonzero on generators ['a', 'b', 'c', 'd', 'e']
+[ 1033.5s] === STEP E: cocycle identity delta c_ij = 0 spot check on generic word triples (both sides a,b,c / d,e,f + mixed), all 5x5 = 25 pairs ===
+[ 2351.5s]   delta c_ij = 0 on 10 generator triples, all 25 pairs: True  (1318s)
+[ 2351.5s] === STEP F: BASE_ij (constant defect of the bounding recursion at y=0) for all 25 pairs, via base_vec_fast's incremental-prefix optimization (same recursion as c1_vecmassey.py's b_eval, term for term; verified by spot-check below against the slow c_ij_raw-based path) ===
+[ 2351.5s]   spot-check: base_vec_fast == b_eval_slow-based BASE on pair (0,1)...
+[ 2793.0s]   base_vec_fast matches the slow (c1_vecmassey.py-pattern) path exactly on (0,1): True
+[ 4994.8s]   BASE_ij built for all 25 pairs (2201.8s)
+[ 4995.1s]   [c_00]: ZERO  (nonzero obstruction coords: 0/31)
+[ 4995.3s]   [c_01]: ZERO  (nonzero obstruction coords: 0/31)
+[ 4995.5s]   [c_02]: NONZERO  (nonzero obstruction coords: 19/31)
+[ 4995.7s]   [c_03]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4996.0s]   [c_04]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4996.3s]   [c_10]: ZERO  (nonzero obstruction coords: 0/31)
+[ 4996.6s]   [c_11]: ZERO  (nonzero obstruction coords: 0/31)
+[ 4996.7s]   [c_12]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4997.0s]   [c_13]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4997.3s]   [c_14]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4997.5s]   [c_20]: NONZERO  (nonzero obstruction coords: 19/31)
+[ 4997.7s]   [c_21]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4997.7s]   [c_22]: ZERO  (nonzero obstruction coords: 0/31)
+[ 4998.0s]   [c_23]: NONZERO  (nonzero obstruction coords: 31/31)
+[ 4998.3s]   [c_24]: NONZERO  (nonzero obstruction coords: 31/31)
+[ 4998.6s]   [c_30]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4998.8s]   [c_31]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 4999.1s]   [c_32]: NONZERO  (nonzero obstruction coords: 31/31)
+[ 4999.5s]   [c_33]: ZERO  (nonzero obstruction coords: 0/31)
+[ 4999.9s]   [c_34]: NONZERO  (nonzero obstruction coords: 31/31)
+[ 5000.2s]   [c_40]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 5000.5s]   [c_41]: NONZERO  (nonzero obstruction coords: 27/31)
+[ 5000.9s]   [c_42]: NONZERO  (nonzero obstruction coords: 31/31)
+[ 5001.3s]   [c_43]: NONZERO  (nonzero obstruction coords: 31/31)
+[ 5001.8s]   [c_44]: ZERO  (nonzero obstruction coords: 0/31)
+[ 5001.8s]   5x5 pattern (rows i, cols j, order 0,1,2,3,4) -- True = ZERO class:
+[ 5001.8s]     [True, True, False, False, False]
+[ 5001.8s]     [True, True, False, False, False]
+[ 5001.8s]     [False, False, True, False, False]
+[ 5001.8s]     [False, False, False, True, False]
+[ 5001.8s]     [False, False, False, False, True]
+[ 5001.8s]   off-diagonal nonzero pairs: 18/20  -> [(0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4), (2, 0), (2, 1), (2, 3), (2, 4), (3, 0), (3, 1), (3, 2), (3, 4), (4, 0), (4, 1), (4, 2), (4, 3)]
+[ 5001.8s]   CONTROL: Koszul graded-commutativity [c_ij] = -[c_ji] (C3 symmetric, gated above) -- test [c_ij]+[c_ji] = 0 for all 25 pairs (diagonal: predicts [c_ii]=0)...
+[ 5009.1s]   [c_ij]+[c_ji]=0 for all 25 pairs: True  (per-pair: {00:True, 01:True, 02:True, 03:True, 04:True, 10:True, 11:True, 12:True, 13:True, 14:True, 20:True, 21:True, 22:True, 23:True, 24:True, 30:True, 31:True, 32:True, 33:True, 34:True, 40:True, 41:True, 42:True, 43:True, 44:True})
+[ 5009.1s]   diagonal [c_ii]=0 for all i (Koszul self-cup consequence): True
+[ 5009.1s]   CONTROL: coboundary-shift invariance -- shift class 0 by a primal coboundary on ALL SIX generators, recompute obstruction coords for (0,1) and (0,2), verify UNCHANGED exactly...
+[ 5097.8s]   obstruction coords for [c_01] unchanged under coboundary shift of class 0: True
+[ 5178.5s]   obstruction coords for [c_02] unchanged under coboundary shift of class 0: True
+[ 5178.5s]   exactness: L = Q(s,i) (Fraction-pairs, s^4=8s^2+16) throughout; zero floats anywhere in the D3 path: PASS by construction
+[ 5178.5s] === STEP G: witnesses for nonzero classes + rank of the pattern ===
+[ 5179.5s]   witness [c_02]: valid=True, psi.BASE=(-2688/386425) + i*(-4184/386425) (nonzero, proves [c_02]!=0)
+[ 5180.5s]   witness [c_03]: valid=True, psi.BASE=(61952/17389125) + i*(2025056/365171625) (nonzero, proves [c_03]!=0)
+[ 5181.4s]   witness [c_04]: valid=True, psi.BASE=(594567017/1506208524275) + i*(-11835973523/122002890466275) (nonzero, proves [c_04]!=0)
+[ 5182.4s]   witness [c_12]: valid=True, psi.BASE=(-3777536/50860872075) + i*(-586016/16953624025) (nonzero, proves [c_12]!=0)
+[ 5183.3s]   witness [c_13]: valid=True, psi.BASE=(-19783502633774/1238196486969658125) + i*(-55943851734646/3714589460908974375) (nonzero, proves [c_13]!=0)
+[ 5184.3s]   witness [c_14]: valid=True, psi.BASE=(-20534510819816694383/16801700296034448897102000) + i*(10553660711725950551/16801700296034448897102000) (nonzero, proves [c_14]!=0)
+[ 5185.3s]   witness [c_20]: valid=True, psi.BASE=(2688/386425) + i*(4184/386425) (nonzero, proves [c_20]!=0)
+[ 5186.3s]   witness [c_21]: valid=True, psi.BASE=(3777536/50860872075) + i*(586016/16953624025) (nonzero, proves [c_21]!=0)
+[ 5186.5s]   witness [c_23]: valid=True, psi.BASE=(0) + i*(13/9072000) (nonzero, proves [c_23]!=0)
+[ 5186.7s]   witness [c_24]: valid=True, psi.BASE=(67571957/808248430080000) + i*(69448747/2424745290240000) (nonzero, proves [c_24]!=0)
+[ 5187.7s]   witness [c_30]: valid=True, psi.BASE=(-61952/17389125) + i*(-2025056/365171625) (nonzero, proves [c_30]!=0)
+[ 5188.6s]   witness [c_31]: valid=True, psi.BASE=(19783502633774/1238196486969658125) + i*(55943851734646/3714589460908974375) (nonzero, proves [c_31]!=0)
+[ 5188.9s]   witness [c_32]: valid=True, psi.BASE=(0) + i*(-13/9072000) (nonzero, proves [c_32]!=0)
+[ 5189.1s]   witness [c_34]: valid=True, psi.BASE=(-3506335139/26885575778181120000) + i*(-21794995727/53771151556362240000) (nonzero, proves [c_34]!=0)
+[ 5190.1s]   witness [c_40]: valid=True, psi.BASE=(-594567017/1506208524275) + i*(11835973523/122002890466275) (nonzero, proves [c_40]!=0)
+[ 5191.0s]   witness [c_41]: valid=True, psi.BASE=(20534510819816694383/16801700296034448897102000) + i*(-10553660711725950551/16801700296034448897102000) (nonzero, proves [c_41]!=0)
+[ 5191.3s]   witness [c_42]: valid=True, psi.BASE=(-67571957/808248430080000) + i*(-69448747/2424745290240000) (nonzero, proves [c_42]!=0)
+[ 5191.5s]   witness [c_43]: valid=True, psi.BASE=(3506335139/26885575778181120000) + i*(21794995727/53771151556362240000) (nonzero, proves [c_43]!=0)
+[ 5191.6s]   rank of the 25 obstruction-coordinate vectors in the 31-dim superspace: 5
+[ 5191.6s]   zero-pattern symmetric under (i,j)<->(j,i): True
+[ 5191.6s] === STEP H: THE K020 VERDICT -- FORM comparison to golden (C1) ===
+[ 5191.6s]   golden (C1): 6/6 solo off-diagonal pairs NONZERO (pairs ['23', '24', '32', '34', '42', '43'])
+[ 5191.6s]   silver (D3): 18/20 off-diagonal pairs (full 5-basis) NONZERO (pairs ['02', '03', '04', '12', '13', '14', '20', '21', '23', '24', '30', '31', '32', '34', '40', '41', '42', '43'])
+[ 5191.6s] *** THE K020 VERDICT: PARTIAL/MIXED (18/20 off-diagonal pairs nonzero) -- does not cleanly match golden's all-nonzero pattern; reported as-is, not forced ***
+[ 5191.6s] ALL GATES PASS: False
+[ 5191.6s] saved <seat-workdir>/anatomy/loop4/d3_silvercup/d3_results.json
+[ 5191.6s] DONE.
+EXIT_CODE=0

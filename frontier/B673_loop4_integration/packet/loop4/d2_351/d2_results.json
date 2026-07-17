@@ -1,0 +1,185 @@
+{
+  "prereg_note": "PREREG_L4.md D2 clause",
+  "gates": {
+    "c1_w1_C27_inverse_consistent": true,
+    "c1_w1_relator_R1": true,
+    "c1_w1_relator_R2": true,
+    "c1_w1_relator_R3": true,
+    "c1_w1_v0_dim1": true,
+    "c1_w1_v0_idx0_matches_w0a": true,
+    "c1_w1_v0_matches_w0a": true,
+    "c1_w1_v0_C27_invariant": true,
+    "c1_w1_N_dim1": true,
+    "c1_w1_N_invariant_all": true,
+    "c1_w1_P_class0_is_cocycle": true,
+    "c1_w1_h1_dual_eq_5": true,
+    "c1_h1_bank_primal_eq_5": true,
+    "c1_h2_dual_euler_consistent": true,
+    "c1_C3_symmetric": true,
+    "c1_C3_equivariant": true,
+    "c1_all_cij_are_cocycles": true,
+    "c1_leftnull_dim_matches_z1dim": true,
+    "c1_step1_all_offdiag_zero": false,
+    "c1_cij_plus_cji_zero_all": true,
+    "c1_control_coboundary_shift": true,
+    "c1_control_exactness": true,
+    "C3_ext_matches_C3_on_outer": true,
+    "C3_ext_kills_antisym": true,
+    "gate_27bar_reproduces_c1_exactly": true,
+    "gram_matrix_is_scalar_identity": true,
+    "control_pi_iota_is_identity": true,
+    "control_351prime_in_ker_pi": true,
+    "control_ker_pi_g_invariant": true,
+    "dims_correct": true,
+    "conj_matrix_via_columns_matches_bruteforce": true,
+    "slot_cocycle_identities_hold": true,
+    "koszul_antisym_holds_all_slots": false,
+    "control_exactness": true
+  },
+  "gate_27bar_reproduces_c1_exactly": true,
+  "gram_lambda": "10",
+  "pairs_computed": [
+    "23",
+    "24",
+    "32",
+    "34",
+    "42",
+    "43"
+  ],
+  "slot_dims": {
+    "L351": 351,
+    "S351p_ambient": 378,
+    "S351p_true_dim": 351
+  },
+  "fox_matrix_sizes": {
+    "L351": "1053x1053",
+    "S351p": "1134x1134"
+  },
+  "ker_FT_dims": {
+    "L351": 397,
+    "S351p": 424
+  },
+  "slot_results": {
+    "L351": {
+      "23": {
+        "obstruction_dim": 397,
+        "nonzero_obstruction_coords": 34,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(75442752000+25147584000*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "24": {
+        "obstruction_dim": 397,
+        "nonzero_obstruction_coords": 20,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(-25147584000+8382528000*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "32": {
+        "obstruction_dim": 397,
+        "nonzero_obstruction_coords": 34,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(75442752000+25147584000*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "34": {
+        "obstruction_dim": 397,
+        "nonzero_obstruction_coords": 38,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(0+37800*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "42": {
+        "obstruction_dim": 397,
+        "nonzero_obstruction_coords": 20,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(-25147584000+8382528000*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "43": {
+        "obstruction_dim": 397,
+        "nonzero_obstruction_coords": 38,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(0+37800*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      }
+    },
+    "S351p": {
+      "23": {
+        "obstruction_dim": 424,
+        "nonzero_obstruction_coords": 40,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(30177100800/13+10059033600/13*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "24": {
+        "obstruction_dim": 424,
+        "nonzero_obstruction_coords": 22,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(23471078400-7823692800*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "32": {
+        "obstruction_dim": 424,
+        "nonzero_obstruction_coords": 40,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(-30177100800/13-10059033600/13*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "34": {
+        "obstruction_dim": 424,
+        "nonzero_obstruction_coords": 40,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(0-35280*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "42": {
+        "obstruction_dim": 424,
+        "nonzero_obstruction_coords": 22,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(-23471078400+7823692800*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      },
+      "43": {
+        "obstruction_dim": 424,
+        "nonzero_obstruction_coords": 40,
+        "zero_flag": false,
+        "verdict": "SPEAKS",
+        "witness_pairing_value": "(0+35280*sqrt(-3))",
+        "witness_valid_leftnull_of_F": true
+      }
+    }
+  },
+  "koszul_antisym_per_pair": {
+    "L351_23": false,
+    "L351_24": false,
+    "L351_32": false,
+    "L351_34": false,
+    "L351_42": false,
+    "L351_43": false,
+    "S351p_23": true,
+    "S351p_24": true,
+    "S351p_32": true,
+    "S351p_34": true,
+    "S351p_42": true,
+    "S351p_43": true
+  },
+  "slot_verdicts": {
+    "L351": "SPEAKS",
+    "S351p": "SPEAKS"
+  },
+  "all_gates_pass": false,
+  "runtime_s": 15376.23542714119,
+  "budget_notes": "Full spanning-coboundary sets used for BOTH slots (no sub-family truncation was needed): F_L351 is the exact 1053x1053 Fox-derivative matrix (3 relators x 351-dim Lambda^2(27), 3 generators x 351-dim); F_S351p is the exact 1134x1134 Fox-derivative matrix for the AMBIENT Sym^2(27) (378-dim), which is a fully rigorous stand-in for the 351-dim submodule ker(pi) because Pi351' = id - iota.pi is an exact equivariant retract (a W-valued bounding cochain for the retracted cocycle pushes forward/pulls back through Pi351' without loss -- so ambient-Sym^2 vanishing/nonvanishing of THIS SPECIFIC cochain is equivalent to submodule vanishing/nonvanishing, not merely sufficient one-directionally)."
+}

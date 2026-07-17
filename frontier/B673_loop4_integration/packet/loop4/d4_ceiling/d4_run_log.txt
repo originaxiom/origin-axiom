@@ -1,0 +1,68 @@
+==============================================================================
+D4 -- SU(3) ceiling law: Z_k(R^{n-2}L), n=3..10, k=1..12
+==============================================================================
+loaded banked fig-8 control (tr_odd, kappa=4..15) from <seat-workdir>/loops_queue/d4_su3/d4_results.json
+  banked verdict on record: LAW-HOLDS
+--- gates: SU(3)_1 (kappa=4) ---
+  unitary: 2.334e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 1.790e-61
+  S^4=I: 4.839e-61
+  two_word: 1.569e-61
+  rho_unitary: 2.334e-61
+--- gates: SU(3)_2 (kappa=5) ---
+  unitary: 1.349e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 3.883e-61
+  S^4=I: 2.697e-61
+  two_word: 2.268e-61
+  rho_unitary: 2.334e-61
+--- gates: SU(3)_3 (kappa=6) ---
+  unitary: 4.667e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 6.150e-61
+  S^4=I: 9.335e-61
+  two_word: 5.189e-61
+  rho_unitary: 6.223e-61
+--- gates: SU(3)_4 (kappa=7) ---
+  unitary: 3.112e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 8.445e-61
+  S^4=I: 6.223e-61
+  two_word: 4.622e-61
+  rho_unitary: 4.667e-61
+--- gates: SU(3)_5 (kappa=8) ---
+  unitary: 3.889e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 8.845e-61
+  S^4=I: 9.109e-61
+  two_word: 7.983e-61
+  rho_unitary: 4.667e-61
+--- gates: SU(3)_6 (kappa=9) ---
+  unitary: 4.667e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 1.212e-60
+  S^4=I: 9.620e-61
+  two_word: 7.044e-61
+  rho_unitary: 4.667e-61
+--- gates: SU(3)_7 (kappa=10) ---
+  unitary: 8.557e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 2.431e-60
+  S^4=I: 1.712e-60
+  two_word: 8.251e-61
+  rho_unitary: 8.557e-61
+--- gates: SU(3)_8 (kappa=11) ---
+  unitary: 6.412e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 1.845e-60
+  S^4=I: 1.282e-60
+  two_word: 8.665e-61
+  rho_unitary: 6.404e-61
+--- gates: SU(3)_9 (kappa=12) ---
+  unitary: 4.928e-61
+  symmetric: 0.000e+00
+  (ST)^3=S^2: 1.798e-60
+  S^4=I: 1.486e-60
+  two_word: 6.561e-61
+  rho_unitary: 5.028e-61

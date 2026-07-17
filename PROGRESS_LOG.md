@@ -5931,3 +5931,15 @@ with [P24] INDEPENDENT: two pairings proportional with an
 Eisenstein-unit ratio carrying the 13-denominator; the independent
 channel = the class-4/heart channel (converging with cellB2/cell7).
 Locks 2/2.
+
+## 2026-07-18 — B673: THE LOOP-4 INTEGRATION — L106 closes; the receipt loop's biggest day
+
+The proportionality law converges TWO-SEAT (their D1 close = B671's
+sum rule exactly; provisional lifted). D2 x A2-repair: the slot
+structure converges on two independent pipelines (all three slots of
+27x27 speak; the graded sign rule — Lambda^2 slot-symmetric,
+351'/27bar antisymmetric). D3: the coupling is structural (silver
+form-match). D4 = overnight annex (the B669 ceiling cross-check
+fires on arrival). Loop 5 opened on their seat (E1 self-couplings,
+E2 silver split). L106 FORMALLY CLOSED. Seal hygiene: post-seal
+prereg drift second instance — renewed flag.
