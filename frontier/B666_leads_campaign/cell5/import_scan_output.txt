@@ -1,0 +1,69 @@
+scanning 642 test modules in sorted (collection) order
+initial mp.mp.dps = 15
+DPS CHANGE  test_b204_metallic_wrt_period.py: 15 -> 30   (0.0s) [ok]
+DPS CHANGE  test_b261_golden_root_aj.py: 30 -> 50   (0.0s) [ok]
+DPS CHANGE  test_b264_e6_character_variety.py: 50 -> 80   (0.0s) [ok]
+DPS CHANGE  test_b269_t41_rungs_2_3.py: 80 -> 30   (0.0s) [ok]
+DPS CHANGE  test_b270_integrability_cup_product.py: 30 -> 80   (0.0s) [ok]
+DPS CHANGE  test_b276_zeta3_probe.py: 80 -> 50   (0.0s) [ok]
+DPS CHANGE  test_b347_e6_tangent_gradings.py: 50 -> 70   (0.1s) [ok]
+DPS CHANGE  test_b352_cup_product_obstruction.py: 70 -> 100   (4.7s) [ok]
+DPS CHANGE  test_b355_weil_layer_independent.py: 100 -> 60   (0.0s) [ok]
+note        test_b371_two_state_sector.py: dps 60 unchanged (135.7s) [ok]
+DPS CHANGE  test_b462.py: 60 -> 40   (0.0s) [ok]
+note        test_b598_lemma.py: dps 40 unchanged (0.0s) [IMPORT-ERROR Skipped: lemma lock requires OA_SLOW=1 (~12 min)]
+DPS CHANGE  test_b598_p0.py: 40 -> 30   (0.0s) [ok]
+note        test_b598_p1.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B598-P1 lock requires OA_SLOW=1 (the exact B575 build)]
+note        test_b598_step4a.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: step 4a lock requires OA_SLOW=1 (~30 min)]
+note        test_b598_step4b.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: step 4b lock requires OA_SLOW=1 (~1 h)]
+note        test_b598_step6.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: step 6 lock requires OA_SLOW=1 (~10 min)]
+note        test_b598_step7.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: step 7 lock requires OA_SLOW=1 (~20 min)]
+note        test_b598_step9.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: step 9 lock requires OA_SLOW=1 (~2 h)]
+note        test_b598_steps35.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: steps 3+5 lock requires OA_SLOW=1 (~25 min)]
+note        test_b599_alg.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B599-ALG lock requires OA_SLOW=1 (the exact B575 build)]
+note        test_b600_level_ladder.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: level-ladder lock requires OA_SLOW=1 (~5 min)]
+note        test_b603_isotropy.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B603 lock requires OA_SLOW=1 (~15 min)]
+note        test_b604_rosetta.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B604 lock requires OA_SLOW=1 (~20 min)]
+note        test_b605_door2.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B605 lock requires OA_SLOW=1 (~5 min)]
+note        test_b607_charge_table.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B607 lock requires OA_SLOW=1 (~20 min)]
+note        test_b608_rosetta_gsm.py: dps 30 unchanged (0.0s) [IMPORT-ERROR Skipped: B608 lock requires OA_SLOW=1 (~20 min)]
+[PASS] B602 exact fraction == 1455/2194752821534
+[PASS] B602 numeric ~= 6.63e-10 (rel tol 1e-3)
+[PASS] B482 lambda_chain == 1.57705744122666946 (tol 1e-13)
+[PASS] B483 lambda_full == 3.5223870342 (tol 1e-9)
+[PASS] B483 seat-2 clock true limit == 2.177528751053 (tol 1e-9, via lambda_full^(1/phi))
+[PASS] B492 g_tau/g_1 == phi (tol 1e-30, exact identity)
+[PASS] B492 D == 1.902113 (tol 1e-6)
+[PASS] B492 g_1 == 0.72507 (tol 1e-5)
+[PASS] B492 g_tau == 1.17319 (tol 1e-5)
+[PASS] B492 ln(g_1) == -0.32148 (tol 1e-5)
+[PASS] B492 ln(g_tau) == 0.15973 (tol 1e-5)
+[PASS] B481 det(W1)=det(W2)=1, det(Par)=-1, det(D)=zeta3 across all 4 primes
+[PASS] B481 no determinant ever equals a primitive zeta5 power (the core 'eighth kill' claim)
+[PASS] B491 Goldman citation metadata resolves exactly (title/journal/vol/year/pages/arXiv)
+[PASS] B412 (135->405) identify_triple.py rerun == banked triple.json (1/12,-1/12,-1/12)
+[PASS] B412 (135->405) Tr(c) = c1+c2+c4 = 0 exactly (zeta9+ conjugates, mu(9)=0)
+[PASS] B412 (135->405) (3+Tr c)/12 == 1/4 exactly
+[PASS] B412 (405->1215) e1=0 mod all 20 independently-banked primes
+[PASS] B544 Omega* ~= 0.6066553 (widened tol 1e-3, documented ~5-sig-fig agreement)
+[PASS] B544 golden-mean convergent 1597/2584 -> 1/phi (tol 1e-6, by construction)
+
+20/20 locks PASS
+ALL LOCKS PASS
+DPS CHANGE  test_cc2_r5_adopted.py: 30 -> 40   (10.4s) [ok]
+
+=== summary ===
+final mp.mp.dps after full collection-order import sweep: 40
+all dps transitions in order:
+  test_b204_metallic_wrt_period.py: 15 -> 30
+  test_b261_golden_root_aj.py: 30 -> 50
+  test_b264_e6_character_variety.py: 50 -> 80
+  test_b269_t41_rungs_2_3.py: 80 -> 30
+  test_b270_integrability_cup_product.py: 30 -> 80
+  test_b276_zeta3_probe.py: 80 -> 50
+  test_b347_e6_tangent_gradings.py: 50 -> 70
+  test_b352_cup_product_obstruction.py: 70 -> 100
+  test_b355_weil_layer_independent.py: 100 -> 60
+  test_b462.py: 60 -> 40
+  test_b598_p0.py: 40 -> 30
+  test_cc2_r5_adopted.py: 30 -> 40
