@@ -6005,3 +6005,14 @@ module characters WITH an integrality mechanism. Loop 5: E1
 diagonal-silent (gauge-immune by construction); E2 the
 mute-pair-is-boundary LAW (golden AND silver). D4 at its cap
 follows.
+
+2026-07-18 (main seat) — B675 BANKED: the H-CUSP sweep. The pre-sealed
+three-outcome addendum's discriminator resolved: silver τ = −2i exact,
+cusp lattice over ℚ(i) alone (entanglement never reaches the cusp).
+Prediction verified both ways (silver quantizes A₃ index 2; A₂/A₄
+impossible); SU(4)₁ identified as the conductor-8 stage (hears only the
+mod-8 class). New two-instance law: quantization index = cusp order
+conductor. Bronze: cusp field Galois S₄ ⇒ no cyclotomic Coxeter plane ⇒
+H-CUSP predicts bronze is DEAF (corroborated-not-certified; exact
+certification queued). The shadow-vs-hosting tension recorded. Locks
+tests/test_b675_hcusp.py.

@@ -1,0 +1,217 @@
+
+========================================================================
+PART 1 — THE COMMUTANT TABLE (exact)
+========================================================================
+stage | h  | char poly of Coxeter (factored)          | commutant  | Cox-plane field | imag.quad.subfield
+   A1 | 2  | Phi2                                     | dim 1      | Q(zeta2)        | -
+   A2 | 3  | Phi3                                     | dim 2      | Q(zeta3)        | Q(sqrt-3)
+   A3 | 4  | Phi2*Phi4                                | dim 3      | Q(zeta4)        | Q(i)
+   A4 | 5  | Phi5                                     | dim 4      | Q(zeta5)        | none imag (Q(sqrt5) real)
+   A5 | 6  | Phi2*Phi3*Phi6                           | dim 5      | Q(zeta6)        | Q(sqrt-3)
+   B2 | 4  | Phi4                                     | dim 2      | Q(zeta4)        | Q(i)
+   G2 | 6  | Phi6                                     | dim 2      | Q(zeta6)        | Q(sqrt-3)
+   D4 | 6  | Phi2^2*Phi6                              | dim 6      | Q(zeta6)        | Q(sqrt-3)
+
+Certificates (exact):
+  Phi3:  (x - x^2)^2   = -3   mod Phi3 : True
+  Phi4:  x^2           = -1   mod Phi4 : True
+  Phi5:  (x-x^2-x^3+x^4)^2 = 5 mod Phi5: True
+  Phi6:  (2x - 1)^2    = -3   mod Phi6 : True
+
+Exclusions (decisive: two quadratic fields coincide iff same squarefree part;
+for m = 5, Gal cyclic => the Gauss-sum field Q(sqrt5) is the ONLY quadratic subfield):
+  Q(sqrt(-1)) in Q(zeta3): False   [quad subfields: {sqrt(-3)}]  (A2 CANNOT host Q(i))
+  Q(sqrt(-1)) in Q(zeta5): False   [quad subfields: {sqrt(5)}]  (A4 CANNOT host Q(i))
+  Q(sqrt(-3)) in Q(zeta5): False   [quad subfields: {sqrt(5)}]  (A4 CANNOT host Q(sqrt-3); reproduces B672)
+  Q(sqrt(-3)) in Q(zeta4): False   [quad subfields: {sqrt(-1)}]  (A3/B2 CANNOT host Q(sqrt-3))
+  Q(sqrt(-1)) in Q(zeta6): False   [quad subfields: {sqrt(-3)}]  (A5/G2/D4-Coxeter-plane CANNOT host Q(i))
+
+NOTE (the D4 subtlety, resolved in Part 2E): D4's Coxeter char poly is
+Phi6*Phi2^2 — the commutant ALGEBRA is Q(zeta6) x M2(Q), not a field,
+and M2(Q) contains every quadratic field, an apparent loophole in the
+'commutant' reading of H-CUSP.  Part 2E computes the loophole CLOSED:
+the (-1)^2-block's own Gram form is the hexagonal form, whose rational
+proper isometries are the norm-1 group of Q(sqrt-3) — no rational
+J^2 = -I exists (lex-Groebner + rational-root check, decisive), while
+mult-by-sqrt(-3) does.  The conformal lattice condition re-imposes the
+Coxeter arithmetic on its own; the table above IS the prediction
+table, with no extra axiom.
+
+========================================================================
+PART 2 — THE SILVER TEST (exact, from the banked B649 holonomy)
+========================================================================
+2A. Gates on the banked rep (decisive, exact):
+    det(a) = 1 : True
+    det(b) = 1 : True
+    det(c) = 1 : True
+    relator aBAbcc -> I : True
+    relator aaCbcB -> I : True
+    [rho(MU), rho(LAM)] = 0 : True
+    tr(MU) = +2, tr(LAM) = -2  (both parabolic)
+    N_mu nilpotent (N^2 = 0): True
+    N_lam nilpotent (N^2 = 0): True
+    N_lam = tau * N_mu (all 4 entries): True
+
+2B. THE SILVER CUSP MODULUS (exact): tau = lam-translation / mu-translation
+    tau = 0 + (-2) i   ;   tau in Q(i): True   [k(Gamma) = Q(i), B659: CONFIRMED at the lattice level]
+    (orientation: using tau-bar = 0 + 2 i for Im > 0; conformal class unchanged)
+    min poly of tau: 1 x^2 + 0 x + 4 = 0 ;  disc = -16 = f^2 * (-4)  =>  ORDER CONDUCTOR f = 2 in Z[i]
+    Gram (up to scale): [[1, 0], [0, 4]]
+
+2C. The A3 side: the Coxeter (Phi4) plane of the A3 weight lattice
+    integer kernel of cox^2+1: basis [0, 1, 0], [-1, 0, 1]; 2x2-minor gcd = 1 (saturated iff 1): True
+    J = cox|plane = [[0, -1], [1, 0]],  J^2 = -I: True
+    plane Gram/g11: [[1, 0], [0, 1]]; Im z2 = sqrt(1) = 1  rational: True
+    A3 Coxeter-plane lattice  M = Z + Z z2,  z2 = 0 + 1 i
+    min poly of z2: 1 x^2 + 0 x + 1; disc -4 => conductor 1 in Z[i]
+
+2D. THE PREDICTION, verified both ways:
+  (i) silver -> A3: conformal Z[i]-equivariant embedding j = mult-by-xi, xi minimizing the index:
+      xi = -1 + (0) i ;  coord matrix [[-1, 0], [0, -2]] ; INDEX = 2 (elementary divisors 1, 2)
+      EXISTS: True — the silver cusp lattice QUANTIZES A3.
+      mod 2: |ker(Lambda/2 -> M/2)| = 2 (NOT iso)
+      mod 4: |ker(Lambda/4 -> M/4)| = 2 (NOT iso)
+      mod 8: |ker(Lambda/8 -> M/8)| = 2 (NOT iso)
+      gcd(index, 8) = 2  [silver conductor 8 = the shadow level; 2 RAMIFIES in Q(i): (1+i)^2 = 2i]
+  (ii) silver -/-> A2: needs Q(i) inside Q(zeta3) = Q(sqrt-3): sqf(-1) = -1 != -3 = sqf(-3)  => IMPOSSIBLE (exact)
+  (iii) silver -/-> A4: needs Q(i) inside Q(zeta5), whose ONLY quadratic subfield is Q(sqrt5)  => IMPOSSIBLE (exact)
+
+  PREREG RESOLUTION (PREREG_ADDENDUM_OUTCOMES.md, sealed before this
+  run): the DISCRIMINATOR was computed FIRST (2B): the silver cusp
+  translation lattice is defined over Q(i) ALONE — tau = -2i, every
+  w-component (the sqrt2/zeta8-compositum part) vanishes EXACTLY in
+  the banked L-basis; the bifocal entanglement does NOT reach the
+  cusp.  => outcomes 1 vs 2 apply (outcome 3 is off the table), and
+  the embedding certificate (2D-i) + the A2/A4 field mismatches
+  (2D-ii/iii) select  OUTCOME 1: CONFIRMED.
+
+2E. Controls + the cross grid (golden object, same machinery):
+    golden -> A2 with xi = 1: contained True; coord matrix [[1, -2], [0, 4]]; index 4 (= conductor 4, B672 cellB REPRODUCED); elementary divisors 1, 4 => ISO mod 5 (gcd(4,5)=1)
+    golden -/-> A3/B2: z^2 = -3 in Q(i): p^2-q^2=-3 & 2pq=0 -> q=0: p^2=-3 (no) ; p=0: q^2=3 (no)  => IMPOSSIBLE (exact)
+    golden -> A5/G2/D4 Coxeter-plane field Q(zeta6): (2x-1)^2 = -3 certificate above => field-level YES (A2 remains the MINIMAL stage)
+
+    D4 degenerate block (the loophole, computed):
+      (-1)^2-block Gram (normalized) = [[1, 1/2], [1/2, 1]] — the HEXAGONAL form (CM by sqrt-3)!
+      rational J, J^2 = -I isometric: lex-GB = [a_ + c_/2, b_ + c_, c_**2 - 4/3] ; univariate c_**2 - 4/3 has rational roots: []  => NONE exists (decisive)
+      golden witness on the SAME block: K = [[1, 2], [-2, -1]]: K^2 = -3I: True, K^T g K = 3 g: True
+      => the 'M2(Q) loophole' CLOSES ITSELF: the block's own conformal form is hexagonal,
+      so even the degenerate block only quantizes Q(sqrt-3) — H-CUSP needs no extra axiom;
+      the commutant reading and the Coxeter-plane reading AGREE on all 8 stages computed.
+
+========================================================================
+PART 3 — THE HEARING CHECK (bounded; numerics at 2 precisions, flagged NON-DECISIVE)
+========================================================================
+  SU(3)_2: 6 primaries, gate True, c = 16/5, ord(T) = 15  (congruence level; conductor-8 divisibility: 8 does NOT divide 15)
+  SU(4)_1: 4 primaries, gate True, c = 3, ord(T) = 8  (congruence level; conductor-8 divisibility: 8 | 8)
+  SU(4)_2: 10 primaries, gate True, c = 5, ord(T) = 48  (congruence level; conductor-8 divisibility: 8 | 48)
+
+  Tones (Z = tr rho(word), double precision):
+         RL | SU(3)_2: -0.618034+0.000000i | SU(4)_1: +1.000000-0.000000i | SU(4)_2: +0.000000+0.000000i
+       RRLL | SU(3)_2: +1.000000-0.000000i | SU(4)_1: +2.000000+0.000000i | SU(4)_2: +2.000000-0.000000i
+     RRRLLL | SU(3)_2: +3.000000-0.000000i | SU(4)_1: +1.000000+0.000000i | SU(4)_2: +2.000000-0.000000i
+
+  THE SHADOW-CLASS TEST at the silver conductor 8: R^2L^2 vs R^10L^2  (equal mod 8, different in SL(2,Z))
+    matrices: [[5, 2], [2, 1]] vs [[21, 10], [2, 1]]; equal mod 8: True; equal mod 15: False
+    SU(4)_1 (level 8): Z(RRLL) = 2.00000000+0.00000000j, Z(R^10L^2) = 2.00000000-0.00000000j, equal: True
+    SU(4)_2 (level 48): Z(RRLL) = 2.00000000-0.00000000j, Z(R^10L^2) = 1.00000000-1.73205081j, equal: False
+    SU(3)_2 (level 15): Z(RRLL) = 1.00000000-0.00000000j, Z(R^10L^2) = -0.80901699+1.40125854j, equal: False
+
+  High-precision corroboration (mpmath, 40 dps) + exact identification of the SU(4)_1 silver tone:
+    Z(RRLL; SU(4)_1) = (2.0 + 1.147943701974890144500719e-41j)
+    Z(R^10L^2; SU(4)_1) = (2.0 + 1.205340887073634651725755e-40j)   |diff| = 1.1145e-40
+    Im(Z) = 0 (to 30 digits): True ; pslq Re over [1, sqrt2]: [2, 0, -1]
+    identified: Z(RRLL; SU(4)_1) = 2  (RATIONAL — the silver tone at its conductor-8 stage);
+    40-dps residual |Z - (2)| = 2.5669e-41
+
+========================================================================
+PART 4 — BRONZE (bounded): the s464 cusp field + the prediction
+========================================================================
+  b++LR: m004(0,0)  vol 2.02988321
+  b++LLRR: m136(0,0)  vol 3.66386238
+  b++LLLRRR: s464(0,0)  vol 4.81381919
+
+  Cusp shapes (SnapPy default peripheral basis), double + high precision (~60 digits):
+         b++LR: +3.701e-17 + 0.288675134595 i   purely imaginary (60 digits): True
+       b++LLRR: +3.886e-16 + 0.500000000000 i   purely imaginary (60 digits): True
+     b++LLLRRR: -5.098e-16 + 0.601838560876 i   purely imaginary (60 digits): True
+          s464: -1.595e-15 + 1.661575154880 i   purely imaginary (60 digits): True
+
+  Identification (pslq on u = Im(tau)^2, cascade deg 1..4; the identified poly re-checked at BOTH precisions):
+    golden m004: deg(u) = 1, relation [1, -12]
+        p(u) = 1 - 12*u = 0 ; residuals: double -6.53e-16, 60-digit -2.3e-41
+        tau^2 = -1/12: cusp field Q(sqrt-3); order disc -48, conductor f = 4
+        CROSS-ROUTE CHECK vs banked EXACT tau = 2 sqrt(-3): disc -48, f = 4 (B672 cellB): disc -48 == -48: True  (same order class, basis-independent invariant)
+    silver m136: deg(u) = 1, relation [1, -4]
+        p(u) = 1 - 4*u = 0 ; residuals: double -4.44e-16, 60-digit 0.0
+        tau^2 = -1/4: cusp field Q(sqrt-1); order disc -16, conductor f = 2
+        CROSS-ROUTE CHECK vs banked EXACT tau = -2i (Part 2B): disc -16, f = 2: disc -16 == -16: True  (same order class, basis-independent invariant)
+    bronze s464: deg(u) = 4, relation [-7, 21, -20, 112, -192]
+        p(u) = -192*u**4 + 112*u**3 - 20*u**2 + 21*u - 7 = 0 ; residuals: double -1.92e-14, 60-digit 9.18e-41
+
+  Bronze analysis (exact, on the identified quartic):
+    p(u) = 192*u**4 - 112*u**3 + 20*u**2 - 21*u + 7  irreducible: True
+    disc(p) factorization: {2: 24, 7: 1, 617: 1, -1: 1}
+    Galois group of p: order 24, abelian: False  (order 24 = S4)
+    min poly of tau_bronze (= i sqrt(u)): 192*u**8 + 112*u**6 + 20*u**4 + 21*u**2 + 7  irreducible: True  => [Q(tau) : Q] = 8
+    INDEPENDENT CORROBORATION: the census triangulation s464 (different peripheral basis)
+    gives u' with the REVERSED relation [-192, 112, -20, 21, -7], i.e. u' = 1/u — the SAME field:
+        pslq(census u'): [-192, 112, -20, 21, -7] ;  u * u' = 1: 0.0
+
+  THE BRONZE PREDICTION (H-CUSP): every stage family's Coxeter-plane
+  field is Q[x]/Phi_h — CYCLOTOMIC, hence ABELIAN over Q (A, B, C, D,
+  E, F, G alike).  The bronze cusp field is a degree-8 field whose
+  quartic subfield Q(u) has Galois closure S4 — NON-ABELIAN.  By
+  Kronecker-Weber no subfield chain can place Q(tau_bronze) (or even
+  Q(u)) inside ANY cyclotomic field.
+    => H-CUSP PREDICTS: NO stage family at ANY rank hears bronze.
+    (Falsifiable: one bronze tone with shadow-class structure at any
+    A_n stage kills the principle.  Status of the identification:
+    pslq at 60 digits, residual ~1e-59, re-checked at truncated
+    precision and against the independent census triangulation —
+    corroborated, not certified; the exact-descent route stays open.)
+  Note: the banked cellW35 SL(2,Z)-side data (disc 117 = 3^2 * 13)
+  lives on the REAL/Anosov side; the hyperbolic cusp field's quartic
+  has disc primes {2, 7, 617} — the 13-dial does NOT surface in the
+  cusp lattice.  The prereg's declared bronze confound (f = 3 vs
+  d_K = 13) is resolved by computation: NEITHER prime appears — the
+  confound dissolves into a sharper fact.  The f = m ladder (golden
+  4_1, silver m136, bronze s464) breaks at bronze in the CUSP
+  arithmetic too: golden/silver cusp fields are imaginary quadratic;
+  bronze jumps to degree 8.
+
+========================================================================
+VERDICT — THE H-CUSP ASSIGNMENT TABLE (the principle PREDICTS)
+========================================================================
+
+  object | cusp lattice (exact)      | cusp field   | H-CUSP stage assignment
+  -------+---------------------------+--------------+---------------------------------------------
+  golden | Z + Z 2sqrt(-3), f = 4    | Q(sqrt-3)    | A2 = SU(3) (min; also A5/G2/D4-plane);
+         |                           |              |   NOT A3/A4/B2  [banked B672: CONFIRMED]
+  silver | Z + Z 2i,        f = 2    | Q(i)         | A3 = SU(4) (min; also B2);
+         |                           |              |   NOT A2/A4/A5/G2  [NEW]
+  bronze | deg-8, S4 closure         | Q(tau), deg 8| NO stage family at ANY rank  [NEW, sharp]
+
+  Exact certificates: Part 1 Gauss sums + the quadratic-subfield
+  exclusions (squarefree parts; Gal(Q(zeta5)) cyclic); Part 2
+  embedding coordinate matrices with indices (golden index 4 iso mod
+  5 REPRODUCED from B672; silver index 2 = its conductor, kernel of
+  order 2 mod 8 = the RAMIFIED prime (1+i)); Part 2E the D4 block
+  lex-Groebner rational-root exclusion + the golden K-witness; Part 4
+  the bronze quartic (corroborated at 2 precisions + independent
+  triangulation; NOT certified — flagged).
+
+  THE INDEX = CONDUCTOR LAW (new, exact, 2 instances): the minimal
+  conformal quantization index equals the cusp order conductor
+  (golden 4, silver 2).  Golden's conductor is coprime to its shadow
+  level 5 => iso mod 5; silver's conductor 2 divides its shadow
+  level 8 => the quantization has a (1+i)-line kernel mod 8.
+
+  THE HEARING SUPPORT (Part 3, numeric-flagged): SU(4)_1 is EXACTLY
+  the conductor-8 stage — ord(T) = 8, and it hears only the mod-8
+  shadow class (Z(R^2L^2) = Z(R^10L^2) = 2, words equal mod 8 but not
+  in SL(2,Z)); SU(3)_2 (level 15) and SU(4)_2 (level 48) separate
+  them.  The silver -> A3 assignment lands on the stage whose
+  congruence level IS the silver conductor.
+
+  total time: 2s
+

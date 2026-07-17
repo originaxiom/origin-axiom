@@ -1151,3 +1151,8 @@ dual-McKay (B210/L37: E₆ via the hyperbolic arithmetic, E₈/2I via the monodr
 hearing side realizes the monodromy-McKay exactly. NEXT QUEUE: cc2's master handoff triage (the
 opening item); the flip-symmetry cell; L92; chat-2's standing cubic prereg; C3/C4; PC26-final.
 NO SM number anywhere; Gate 5 and L91 stand.
+
+B675 (H-CUSP sweep): LANDED-CONFIRMED — the principle predicts 3/3
+(golden→A₂ proven, silver→A₃ exact + SU(4)₁ hearing, bronze deaf by S₄/
+Kronecker–Weber, corroborated). Follow-ons: bronze exact certification;
+the shadow-without-a-home question. H-EAR remains the live hypothesis.

@@ -13697,6 +13697,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B675": {
+   "slug": "hcusp sweep",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B2",
+    "B672"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B677": {
    "slug": "morning packet",
    "motifs": [

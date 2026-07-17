@@ -408,3 +408,8 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   deviation units observed: {1, ζ₃, √−3}.
 - The lit class {m=1, φ(a)=a, φ(a)=A} coincides with the banked m = 1
   dial class (Y[01k] zero law) — two classifications, one partition.
+- The bronze carries a McKay 2T shadow (group-level, mod 3) yet H-CUSP
+  denies it any hosting stage (lattice-level, S₄ cusp field): a shadow
+  with no home. If shadows require hosts, one of the two readings has a
+  hidden hypothesis; if not, shadow and hosting are independent axes —
+  either resolution is a structure theorem. (B675, 2026-07-18.)
