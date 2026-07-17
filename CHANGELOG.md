@@ -6,6 +6,13 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B674 route 1: miss with a discovery (tr σ(A₁) = φ)
+
+### Resolved
+- The Eichler–Shimura trace tower is TRACE-SILENT (kill #7); the
+  monodromy's modular lift is the golden order-10 elliptic rotation
+  (tr = φ exactly) — the miss converges on the tube-algebra door.
+
 ## 2026-07-18 — Review 22 (the second constitutional review)
 
 ### Governance

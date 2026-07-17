@@ -1,0 +1,78 @@
+== T1: Gamma(5) concretely (index-120 permutation representation) ==
+  |SL(2,F5)| = 120 cosets of Gamma(5) in SL(2,Z) (kernel of the B644 shadow)
+  A1 = [[2,1],[1,1]] normalizes Gamma(5) (normal subgroup); order of A1 mod 5 = 10
+  A1 mod 5: char poly x^2-3x+1, disc = 5 = 0 mod 5 -> -unipotent class (order 10)
+  torsion-free: fixed cosets of s (order 2): 0; of u (order 3): 0  => e2 = e3 = 0
+  cusps: T-orbits on the 60 cosets: 12 orbits, all width 5  => c = 12
+  Riemann-Hurwitz: g = 1 + 60/12 - 0 - 0 - 12/2 = 0  => genus 0
+  Schreier/Bass-Serre graph (RS in graph form): V = 30 s-orbits + 20 u-orbits = 50,
+    E = 60 cosets; spanning tree 49 edges; FREE RANK = E - V + 1 = 11
+  cross-checks: rank = 2g + c - 1 = 0 + 12 - 1 = 11 ; chi = 1 - 11 = -10 = -60/6
+  => Gamma(5) IS FREE OF RANK 11 (computed, not asserted)
+
+== T2: tr(A1* | H^1(Gamma(5), Sym^m)) exactly (Shapiro + Mayer-Vietoris) ==
+  SL(2,Z) = Z4 *_{Z2} Z6 (S order 4, ST order 6, S^2 = (ST)^3 = -I); char-0 MV:
+  tr(twist|H^1) = tr(R|N^Z2) - tr(R|N^Z4) - tr(R|N^Z6) + tr(R|N^G),  N = Coind Sym^m
+  invariants (Sym^m)^Gamma(5): dim = 0:1, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0  (0 for m>=1)
+  control twist=I     (must be dim H^1 = 10(m+1)+[m=0]): ['11', '20', '30', '40', '50', '60', '70', '80', '90']
+  control twist=T^5 in Gamma(5) (inner => same dims):    ['11', '20', '30', '40', '50']
+  control twist=S: formula == direct-block route (m<=6): PASS ; values ['-1', '0', '2', '0', '-2', '0', '2', '0', '-2']
+  A1-twist, direct-block verification m<=8: PASS
+  tr(A1*|H^1(Gamma(5),Sym^m)), m=0..40:
+    ['1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+  mechanism: Fix(c -> A1bar c hbar) = 0 for EVERY torsion h (A1 has order 10 mod 5;
+    no element of Z2/Z4/Z6 is SL(2,F5)-conjugate to A1bar^-1): bulk term vanishes identically
+  m=0 classical check: tr on H^1(X(5),C) = (#cusps fixed by A1) - 1 = 2 - 1 = 1: PASS
+
+== T3: exact streams, the weight-1/5 doublet, and the slash monodromy sigma(A1) ==
+  rebuilt vs W33 JSON: F1 42-term True ; F2 True ; 2hat.comp1 = N1*(q;q)^9 60-term True ; comp2 True
+  sigma(T) residual 6.4e-72 ; sigma(S) residual 4.6e-71 ; sigma(A1)-direct residual 2.9e-71
+  gate sigma(T) = diag(1, zeta5): |dev| = 2.5e-71
+  sigma(S) vs golden S-matrix (2/sqrt5)[[s72,s36],[s36,-s72]]: max dev = 2.7e-01
+  canonical sigma(A1) = [sigmaT, sigmaS]; equals zeta5^0 * direct-slash sigma: dev 2.7e-70
+  det sigma(A1) = 1 + 1.1e-72 ; tr sigma(A1) = 1.61803398874989484820458683437 + -1.31e-70i
+  order of sigma(A1) = 10
+  eigenvalues sigma(A1) = exp(+-i pi 1/5)  (conjugate pair, det 1)
+  tr sigma(A1) = 2 cos(pi 1/5)  [golden: 2cos(pi/5) = phi, 2cos(3pi/5) = -1/phi]
+  exact: tr sigma(A1) = 0 + 1*phi
+  tr(A1|M_k(Gamma(5))) = tr Sym^{5k} sigma(A1), k=0..42:
+    [1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1]
+  fixed cusps of A1 on X(5): classes +-(1,2), +-(2,4) (the eigenline of A1bar, eigenvalue -1)
+  local data: cusp(1,2): g^-1 A1 g in -T^4 Gamma(5); cusp(2,4): -T^1 Gamma(5)
+  => weight-k Eisenstein phase per fixed cusp = (sign)^k; constant term untouched by zeta5
+  tr(A1|Eis_k), k=0..42: [1, -1, 1, -2, 2, -2, 2, -2, 2, -2, 2, -2, '...']
+  tr(A1|S_k),  k=0..42: [0, 0, 0, 1, -1, 1, -1, 1, -1, 1, -1, 1, '...']
+  CROSS-IDENTITY t_{k-2} = 2*tr(S_k) + tr(EisH1_k) for k=3..42: PASS
+
+== T4: graded assemblies vs the W33 streams ==
+  scanned 720 tower-stream-alignment combinations (4 towers x 10 streams x 9 alignments x 2 signs)
+  full-window matches found: 0
+  headline first mismatches (M-tower = the only non-delta tower):
+    M-tower vs 2hat.comp1   deepest alignment t_{n+3}|-1       first mismatch n=1: -9 vs -1
+    M-tower vs 2hat.comp2   deepest alignment t_{n+3}|-1       first mismatch n=1: -10 vs -1
+    M-tower vs 2hat'.comp1  deepest alignment t_{n+3}|-1       first mismatch n=1: 42 vs -1
+    M-tower vs 2hat'.comp2  deepest alignment t_{n+3}|-1       first mismatch n=0: 26 vs 1
+    M-tower vs F1           deepest alignment t_{n+3}|-1       first mismatch n=1: 3/5 vs -1
+    M-tower vs N1           deepest alignment q^{5m} supp|+1   first mismatch n=2: -1 vs 0
+    H1-tower vs 2hat.comp1  deepest alignment t_{5n}|+1        first mismatch n=1: -9 vs 0
+
+== VERDICT ==
+  MISS -- and a strong exact characterization of what the tower IS:
+  (1) tr(A1*|H^1(Gamma(5),Sym^m)) = (1,0,0,0,...): the twisted trace tower of the FULL
+      Eichler-Shimura cohomology is trace-silent for every m >= 1 (proven two routes:
+      the order-10 class of A1 mod 5 meets no torsion class of Z4*Z6; direct blocks m<=8).
+  (2) the graded pieces are NOT silent but PERIODIC: the weight-1/5 flavor monodromy
+      sigma(A1) = [sigma(T),sigma(S)] is the GOLDEN ELLIPTIC ROTATION: order 10,
+      eigenvalues exp(+-i pi 1/5), tr = 0+1*phi; hence
+      tr(A1|M_k) = trSym^{5k}sigma(A1) = (-1)^k, tr(A1|S_k) = -(-1)^k (k>=3),
+      tr(A1|Eis_k) = 2(-1)^k -- all verified exactly and cross-tied to the MV zeros.
+      Generating series: sum_k tr(A1|M_k) q^k = 1/(1+q); sum_m t_m q^m = 1;
+      sum_k tr(A1|S_k) q^k = q^3/(1+q).
+  (3) every assembly (9 alignments x 2 signs x 4 towers) mismatches every W33 stream by
+      n <= 3; the streams grow (max |c| ~ 1e5 in-window), the towers take values in {0,+-1,+-2}.
+  The hyperbolic monodromy A1 (tr 3) becomes ELLIPTIC golden of order 10 in the flavor
+  direction; a TRACE functor of the Gamma(5) tower retains only its order-10 shadow and
+  CANNOT generate the RR streams. The generation leg needs the module/character itself
+  (the Andrews-Gordon/Lee-Yang door), not its trace.
+
+artifacts: cellES_traces.json, cellES_mismatch_table.json, cellES_output.txt

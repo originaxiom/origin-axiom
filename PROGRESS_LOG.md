@@ -5979,3 +5979,15 @@ the cd-chain operational pattern named with the worktree counter-rule
 adopted; cc2's post-seal drift (x2) = R22-3. The receipt loop at
 historical maximum: seven convergences, six reciprocal corrections.
 Seven action items (R22-1..7).
+
+## 2026-07-18 — B674 route 1 (Eichler-Shimura): MISS — the tower is trace-silent; tr sigma(A1) = phi
+
+The twisted ES trace tower of Gamma(5) is identically zero for
+m >= 1 (two independent routes; kill pattern #7 for the generation
+leg; 720 scans, 0 matches). THE DISCOVERY INSIDE THE MISS: the
+canonical modular lift of the monodromy is the golden order-10
+ELLIPTIC rotation — tr sigma(A1) = phi EXACTLY (eigenvalues
+e^{+-i pi/5}) — the hyperbolic trace-3 word becomes golden-elliptic
+on the flavor side; only the order-10 shadow survives tracing. The
+miss points at the module/character door (Andrews-Gordon/Lee-Yang)
+= cc2's tube-algebra lane, now favored. Locks 2/2.
