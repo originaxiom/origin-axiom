@@ -1,0 +1,88 @@
+[    0.0s] STEP 0: exec b637_threeform.py (the exact 27 apparatus)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   72.8s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   91.9s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   92.1s] G2a PASS: principal sl2 relations exact
+[   96.4s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   98.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 98.2s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[   98.7s] apparatus loaded
+[   98.7s] STEP 1: the five H^1(D;27) classes + the full Y table (double_Y(None) -- the unbent weld double, B637's construction)...
+[  985.5s]   classes: 5 (expect 5); Y components: 10 (expect 10)
+[  985.5s] STEP 2: G1 gates (B638's involution checks, re-run)...
+[  985.5s]   u*conj(u) = +1 (SL2 level): True
+[  990.1s]   sigma*(rep_i) cocycles, 5/5: True
+[  993.1s]   independent coboundary basis: rank 26 (expect 26)
+[  995.0s]   L1: sigma*^2 = id mod coboundaries, 5/5: True
+[  995.0s] STEP 3: the sigma*-matrix M (exact, row convention sigma*(rep_i) = sum_j M[i][j] rep_j mod B^1)...
+[  995.6s]   sigma*[0] = (1/2+1/2r) 0 0 0 0
+[  995.6s]   sigma*[1] = (0+1/24r) (1/2+-1/2r) 0 0 0
+[  995.6s]   sigma*[2] = (1256617152000+1267793856000r) (268240896000) (-1/2+-1/2r) 0 0
+[  995.6s]   sigma*[3] = (-46189483200/13+465696000r) (11176704000+-11176704000r) 0 (-1/2+1/2r) 0
+[  995.6s]   sigma*[4] = (1068480+-514080r) (-6652800+-6652800r) 0 0 (1)
+[  995.6s]   L3: M == the B638 in-flight printout (all 25 entries): True
+[  995.6s]   diagonal = (z6, z6bar, -z6, -z6bar, 1): True
+[  995.6s]   lower-triangular in the banked basis: True
+[  995.6s] STEP 4: L2 -- the matrix-level real-structure identity (antilinear involution => conj(M).M = I = M.conj(M))...
+[  995.6s]   conj(M).M = I exactly: True
+[  995.6s]   M.conj(M) = I exactly: True
+[  995.6s] STEP 5: persist sigma_matrix_golden.json...
+[  995.6s]   saved /Users/dri/origin-axiom/frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json
+[  995.6s] STEP 6: the golden-side invariant -- the B645 unit cross-ratio on the freshly recomputed Y table...
+[  995.6s]   Y[024] = 0 (the 024-silent condition): True
+[  995.6s]     Y[(0, 1, 2)] = 0
+[  995.6s]     Y[(0, 1, 3)] = 0
+[  995.6s]     Y[(0, 1, 4)] = 0
+[  995.6s]     Y[(0, 2, 3)] = (-7983360/13+2661120/13r)
+[  995.6s]     Y[(0, 2, 4)] = 0
+[  995.6s]     Y[(0, 3, 4)] = (0+2/3r)
+[  995.6s]     Y[(1, 2, 3)] = (0+221760/13r)
+[  995.6s]     Y[(1, 2, 4)] = (0+2/3r)
+[  995.6s]     Y[(1, 3, 4)] = (1/24+1/72r)
+[  995.6s]     Y[(2, 3, 4)] = (5332879641600/13+8106192460800/13r)
+[  995.6s]   (Y[023]*Y[134])/(Y[034]*Y[123]) = 1  [GATE: = 1 exactly]: True
+[  995.6s]   Y[023] = 24z6*Y[123]: True;  Y[034] = 24z6*Y[134]: True
+[  995.6s] STEP 7: the S4-side cross-check (B660/S4 sealed exact output; different presentation -- invariant level only)...
+[  995.6s]   source: /Users/dri/origin-axiom/frontier/B660_structure_campaign/packet/s4_massshape/s4_matrices.json
+[  995.6s]   kappas = ['(0)', '(0)', '(0)', '(0)', '(1)'];  M support (nonzero ij, i<j): [(0, 3), (1, 2), (1, 3)]
+[  995.6s]     W[(0, 1, 2)] = 0
+[  995.6s]     W[(0, 1, 3)] = 0
+[  995.6s]     W[(0, 1, 4)] = 0
+[  995.6s]     W[(0, 2, 3)] = 0
+[  995.6s]     W[(0, 2, 4)] = 0
+[  995.6s]     W[(0, 3, 4)] = (1+1/3r)
+[  995.6s]     W[(1, 2, 3)] = 0
+[  995.6s]     W[(1, 2, 4)] = (-1+1/3r)
+[  995.6s]     W[(1, 3, 4)] = (1/24+-1/72r)
+[  995.6s]     W[(2, 3, 4)] = 0
+[  995.6s]   the 4 S4-sampled triples are 0 (sealed record reproduced): True
+[  995.6s]   full W support = [(0, 3, 4), (1, 2, 4), (1, 3, 4)] (all triples containing class 4 with nonzero M-pair; kappa = e_4 kills every 4-free triple): True
+[  995.6s]   W-support incidence rank = 3 of 3 support triples => normalization-free lattice on the S4 side is TRIVIAL: the unit cross-ratio (a 4-slot balanced product) is NOT evaluable in the S4 presentation -- no normalization-free product exists there
+[  995.6s]   golden Y generic (dual B^B != 0): True  [B660/S2 banked orbit type, recomputed here]
+[  995.6s]   S4 W generic (dual B^B != 0): True
+[  995.6s]   => the basis-free invariant AGREES across the presentations: True
+[  995.6s]   CROSS-CHECK VERDICT: (i) golden side -- the unique normalization-free invariant, the B645 unit cross-ratio, = 1 exactly (STEP 6, recomputed live); (ii) S4 side -- W's support is 3 triples with trivial normalization-free lattice (rank = support), so the cross-ratio is NOT evaluable there: no invariant collision is possible at the product level (no banked class identification exists to sharpen it -- S4's own sealed NOTE); (iii) the fully basis-free invariant that IS evaluable on both -- GL(5,C)-orbit genericity -- AGREES exactly (both trivectors generic, dual-2-form rank 4).
+[  995.6s]   HINT (raw-ratio, NOT the sealed check): S4 W[034]/W[134] = (12+12r) == 24*zeta6: True -- the SAME 24*zeta6, in the SAME slot labels, as the banked golden spectator identity Y[034] = 24*zeta6*Y[134] (B645); W[034]/W[124] = (-1/2+-1/2r) (= -zeta6). Ratios of this shape rescale under per-class normalization (c0/c1 resp. c0*c3/(c1*c2)), so this is recorded for the hint ledger, unjudged.
+[  995.6s] 
+[  995.6s]   GATE five_classes: PASS
+[  995.6s]   GATE u_conj_u_plus1: PASS
+[  995.6s]   GATE sigma_star_cocycles: PASS
+[  995.6s]   GATE sigma_sq_id_cocycle_level: PASS
+[  995.6s]   GATE conjM_M_eq_I: PASS
+[  995.6s]   GATE M_conjM_eq_I: PASS
+[  995.6s]   GATE matches_b638_inflight: PASS
+[  995.6s]   GATE silent_024: PASS
+[  995.6s]   GATE unit_cross_ratio: PASS
+[  995.6s]   GATE s4_samples_reproduced: PASS
+[  995.6s]   GATE s4_W_support: PASS
+[  995.6s]   GATE s4_lattice_trivial: PASS
+[  995.6s]   GATE golden_generic_rank4: PASS
+[  995.6s]   GATE s4_generic_rank4: PASS
+[  995.6s] ALL DECISIVE GATES: PASS
+[  995.6s] OUTCOME: GAP REPAIRED (matrix persisted + laws verified + the invariant cross-checked at the invariant level)
+[  995.6s] DONE.

@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B662 wave 1: the successor campaign's first five cells
+
+### Added
+- **The dimension grammar is a THEOREM for the metallic family**
+  (L101 proven: (i₁,i₂) = (1,3) uniform; 30/30 exact, both objects).
+- **The subfield law is a THEOREM** (σ*-equivariance/Galois descent;
+  the chord data is forced into k(Γ); silver = Klein-four descent with
+  the banked basis a ℚ(i)-form).
+- **L102 resolved:** the silver portal is block-diagonal in the
+  canonical decomposition — sector-respecting proposes FORCED.
+- **L103 repaired:** sigma_matrix_golden.json persisted + verified.
+- Q-BLOCK inputs on the 78: i₁ = 0, i₂ = 6 exact (prediction
+  confirmed; Fox verdict on completion). H130. Locks 4/4.
+
 ## 2026-07-17 — B661: the wave-1 identification (portal couplings = quantum dimensions)
 
 ### Resolved

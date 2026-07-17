@@ -1,0 +1,119 @@
+[     0.0s] PART 1 (GOLDEN): exec b637_threeform.py (B575 prefix + cubic + weld)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   84.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  106.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  106.1s] G2a PASS: principal sl2 relations exact
+[  110.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  111.9s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 111.9s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[   112.4s]   b637_threeform module loaded
+[   112.4s]   golden double presentation: gens='abcd' relators=['abABaBAbaB', 'cdCDcDCdcD', 'aC', 'abABaaBAbAcdCDccDCdC']
+[   115.6s]   all 4 golden relators = I27 exactly (gate PASS)
+[   115.6s]   golden primal Fox rows + Z1 + coboundaries + the 5 classes...
+[   129.1s]   golden double: dim Z1 = 31, rank B1 = 26, h0 = 1, h1 = 5  (14s)
+[   129.9s]   extracted 5 golden primal class representatives
+[   130.1s]   golden v0: dim 1, invariant under all four generators (gates PASS)
+[   130.2s]   golden cubic N invariant under all four double generators (gate PASS)
+[   130.2s]   golden dual system (contragredient) ...
+[   142.6s]   golden dual: dim Z1 = 31, rank B1 = 26, h1(dual) = 5  (12s)
+[   143.0s]   extracted 5 golden dual class representatives
+[   143.0s]   THE GOLDEN PORTAL (my basis; the canonical facts are basis-free)...
+[   146.8s]   golden portal rank = 5, kernel dim = 0 [GATE rank 5, kernel 0]
+[   146.8s]     [(1/75600-1/75600*sqrt(-3)), (-1/1425600-1/1425600*sqrt(-3)), (-1157856-315827232/11*sqrt(-3)), (-9741058/143+6644498/429*sqrt(-3)), (398/15+124/45*sqrt(-3))]
+[   146.8s]     [0, 1/16765056000, (19920/11+19744/33*sqrt(-3)), (2/3-79/45*sqrt(-3)), (-19/25200+13/25200*sqrt(-3))]
+[   146.8s]     [0, 0, 0, 0, -2]
+[   146.8s]     [0, 0, 0, -15/11, 0]
+[   146.8s]     [0, 0, 1, 0, 0]
+[   146.8s]   golden canonical analysis (primal)...
+[   156.8s]     torus: h0(T;27) = 3 (= i2), z1_T = 30, h1(T;27) = 6
+[   156.8s]     gates: commute=True compat=True B_in_KT=True
+[   156.8s]     dim B (boundary-born) = 2; dim K_T (peripheral kernel) = 2
+[   156.8s]     B basis (class coords): [['1', '0', '0', '0', '0'], ['0', '1', '0', '0', '0']]
+[   156.8s]     K_T basis (class coords): [['1', '0', '0', '0', '0'], ['0', '1', '0', '0', '0']]
+[   156.8s]   golden canonical analysis (dual)...
+[   166.6s]     torus(dual): h0 = 3, h1 = 6; gates: commute=True compat=True B_in_KT=True
+[   166.6s]     dim B* = 2; dim K_T* = 2
+[   166.6s]     B* basis (class coords): [['1', '0', '0', '0', '0'], ['0', '1', '0', '0', '0']]
+[   166.6s]   GOLDEN DECISIVE TESTS (the control)...
+[   166.6s]     P(B) in B* per vector: [True, True]
+[   166.6s]     P(B) = B*: True
+[   166.6s]     P(K_T) in K_T*: True
+[   166.6s]     adapted matrix (deterministic complement):
+[   166.6s]       [(1/75600-1/75600*sqrt(-3)), (-1/1425600-1/1425600*sqrt(-3)), (-1157856-315827232/11*sqrt(-3)), (-9741058/143+6644498/429*sqrt(-3)), (398/15+124/45*sqrt(-3))]
+[   166.6s]       [0, 1/16765056000, (19920/11+19744/33*sqrt(-3)), (2/3-79/45*sqrt(-3)), (-19/25200+13/25200*sqrt(-3))]
+[   166.6s]       [0, 0, 0, 0, -2]
+[   166.6s]       [0, 0, 0, -15/11, 0]
+[   166.6s]       [0, 0, 1, 0, 0]
+[   166.6s]     lower-left block zero (CANONICAL, basis-free): True
+[   166.6s]     gauge-exhibited block-diagonal exact: True
+[   166.6s]       [(1/75600-1/75600*sqrt(-3)), (-1/1425600-1/1425600*sqrt(-3)), 0, 0, 0]
+[   166.6s]       [0, 1/16765056000, 0, 0, 0]
+[   166.6s]       [0, 0, 1, 0, 0]
+[   166.6s]       [0, 0, 0, 1, 0]
+[   166.6s]       [0, 0, 0, 0, 1]
+[   166.6s]   *** GOLDEN CONTROL (canonical construction reproduces the banked block-diagonality): PASS ***
+[   166.6s]   saved golden_canonical.json
+[   166.6s] PART 2 (SILVER): exec b649_stage3b_swap.py prefix (weld + double + reps)...
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (58s)
+dim Z1 = 31 (227s)
+independent coboundaries: 26
+H1 representatives: 5
+[   467.9s]   silver prefix exec complete (301s)
+[   467.9s]   silver double: h0 = 1, h1 = 5  [GATE (1,5)]
+[   473.6s]   silver v0: dim 1, invariant under d,e,f (gates PASS)
+[   474.8s]   silver cubic N invariant under all six double generators (gate PASS)
+[   474.8s]   silver dual system (contragredient; 162x162 over L -- the heavy step)...
+[   528.2s]   silver dual Fox rows built (53s)
+[   735.6s]   dim Z1(dual) = 31  (207s)
+[   741.3s]   silver dual: rank B1 = 26, h1(dual) = 5 [GATE 5]
+[   748.4s]   extracted 5 silver dual class representatives
+[   748.4s]   THE SILVER PORTAL (recomputed; must match the banked w2a matrix)...
+[   816.0s]   silver portal rank = 5, kernel dim = 0 [GATE rank 5, kernel 0]
+[   816.0s]     [(523/46741968000) + i*(-1/139113000), (-1470056239/237733725498174360000) + i*(1608677723/237733725498174360000), 0, (5891083/11965943808000) + i*(3045323/8974457856000), (80452534256577831924187/1694024970155251758339194880000) + i*(989265038763983853896537/11011162306009136429204766720000)]
+[   816.0s]     [0, (18313/303177019927541760000) + i*(-527/4060406516886720000), 0, 0, (3084702506880619/15197308395000856817172480000) + i*(3739641899582791/2849495324062660653219840000)]
+[   816.0s]     [0, 0, -2, (491/100800) + i*(-111/5600), (-2084409948661363/1353931584445440000) + i*(-1295094653113883/2369380272779520000)]
+[   816.0s]     [0, 0, 0, (-19/19353600*s+209/1161216000*s^3) + i*(19/11612160*s+-19/165888000*s^3), (-55019598794233/1819684049494671360000*s+-22659277426349/5199097284270489600000*s^3) + i*(-268654139572909/1819684049494671360000*s+17949329634547/1102838817875558400000*s^3)]
+[   816.0s]     [0, 0, 0, 0, (1217582287/34937933750297690112000*s+-165188187599/698758675005953802240000*s^3) + i*(-723346769/155279705556878622720*s+29480769433/63523515909632163840000*s^3)]
+[   816.0s]   banked-matrix cross-check (silver_portal.json, exact): MATCH
+[   816.0s]   silver canonical analysis (primal)...
+[   915.3s]     torus: h0(T;27) = 3 (= i2), z1_T = 30, h1(T;27) = 6
+[   915.3s]     gates: commute=True compat=True B_in_KT=True
+[   915.3s]     dim B (boundary-born) = 2; dim K_T (peripheral kernel) = 2
+[   915.3s]     B basis (class coords): [['1', '0', '0', '0', '0'], ['0', '1', '0', '0', '0']]
+[   915.3s]     K_T basis (class coords): [['1', '0', '0', '0', '0'], ['0', '1', '0', '0', '0']]
+[   915.3s]   silver canonical analysis (dual)...
+[  1011.6s]     torus(dual): h0 = 3, h1 = 6; gates: commute=True compat=True B_in_KT=True
+[  1011.6s]     dim B* = 2; dim K_T* = 2
+[  1011.6s]     B* basis (class coords): [['1', '0', '0', '0', '0'], ['0', '1', '0', '0', '0']]
+[  1011.6s]   SILVER DECISIVE TESTS...
+[  1011.7s]     P(B) in B* per vector: [True, True]
+[  1011.7s]     P(B) = B*: True
+[  1011.7s]     P(K_T) in K_T*: True
+[  1011.7s]     adapted matrix (deterministic complement):
+[  1011.7s]       [(523/46741968000) + i*(-1/139113000), (-1470056239/237733725498174360000) + i*(1608677723/237733725498174360000), 0, (5891083/11965943808000) + i*(3045323/8974457856000), (80452534256577831924187/1694024970155251758339194880000) + i*(989265038763983853896537/11011162306009136429204766720000)]
+[  1011.7s]       [0, (18313/303177019927541760000) + i*(-527/4060406516886720000), 0, 0, (3084702506880619/15197308395000856817172480000) + i*(3739641899582791/2849495324062660653219840000)]
+[  1011.7s]       [0, 0, -2, (491/100800) + i*(-111/5600), (-2084409948661363/1353931584445440000) + i*(-1295094653113883/2369380272779520000)]
+[  1011.7s]       [0, 0, 0, (-19/19353600*s+209/1161216000*s^3) + i*(19/11612160*s+-19/165888000*s^3), (-55019598794233/1819684049494671360000*s+-22659277426349/5199097284270489600000*s^3) + i*(-268654139572909/1819684049494671360000*s+17949329634547/1102838817875558400000*s^3)]
+[  1011.7s]       [0, 0, 0, 0, (1217582287/34937933750297690112000*s+-165188187599/698758675005953802240000*s^3) + i*(-723346769/155279705556878622720*s+29480769433/63523515909632163840000*s^3)]
+[  1011.7s]     lower-left block zero (CANONICAL, basis-free): True
+[  1011.7s]     gauge-exhibited block-diagonal exact: True
+[  1011.7s]       [(523/46741968000) + i*(-1/139113000), (-1470056239/237733725498174360000) + i*(1608677723/237733725498174360000), 0, 0, 0]
+[  1011.7s]       [0, (18313/303177019927541760000) + i*(-527/4060406516886720000), 0, 0, 0]
+[  1011.7s]       [0, 0, 1, 0, 0]
+[  1011.7s]       [0, 0, 0, 1, 0]
+[  1011.7s]       [0, 0, 0, 0, 1]
+[  1011.7s]   saved silver_canonical.json
+[  1011.7s] ======================================================================
+[  1011.7s] *** CELL E VERDICT: BLOCK-DIAGONAL: the silver portal IS block-diagonal in the canonical boundary-restriction decomposition (P(B) = B* on both objects) => sector-respecting proposes FORCED (two objects). ***
+[  1011.7s]     golden: dim B = 2, dim B* = 2, P(B)=B*: True, K_T dims 2/2, P(K_T) in K_T*: True
+[  1011.7s]     silver: dim B = 2, dim B* = 2, P(B)=B*: True, K_T dims 2/2, P(K_T) in K_T*: True
+[  1011.7s] cellE_verdict.json saved.  DONE.

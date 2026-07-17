@@ -1,0 +1,56 @@
+== A. the Galois group over Q(i) ==
+  sigma, tau, conj are ring homs (all 3x64 basis products): True
+  sigma^2 = id: True
+  tau^2 = id: True
+  sigma tau = tau sigma: True
+  tau != id, sigma != id: True, True
+  conj tau = (sigma tau) conj: True
+  conj sigma = sigma conj: True
+  Fix(sigma,tau) dim = 2; basis = [[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]]
+  (expect dim 2, spanned by 1 and i => Fix = Q(i))
+
+== B. the banked 2x2 letters (entries_L.json) ==
+  keys: ['a00', 'a01', 'a10', 'a11', 'b00', 'b01', 'b10', 'b11', 'c00', 'c01', 'c10', 'c11']
+  a[0][0] support [1, 3, 5, 7] vec [Fraction(0, 1), Fraction(-3, 4), Fraction(0, 1), Fraction(1, 16), Fraction(0, 1), Fraction(1, 4), Fraction(0, 1), Fraction(-1, 16)]
+  a[0][1] support [0, 2, 4, 6] vec [Fraction(1, 2), Fraction(0, 1), Fraction(-1, 8), Fraction(0, 1), Fraction(-1, 2), Fraction(0, 1), Fraction(1, 8), Fraction(0, 1)]
+  a[1][0] support [0, 2, 4, 6] vec [Fraction(-1, 2), Fraction(0, 1), Fraction(1, 8), Fraction(0, 1), Fraction(1, 2), Fraction(0, 1), Fraction(-1, 8), Fraction(0, 1)]
+  a[1][1] support [1, 3, 5, 7] vec [Fraction(0, 1), Fraction(1, 4), Fraction(0, 1), Fraction(-1, 16), Fraction(0, 1), Fraction(3, 4), Fraction(0, 1), Fraction(-1, 16)]
+  b[0][0] support [0] vec [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  b[0][1] support [] vec [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  b[1][0] support [1, 5, 7] vec [Fraction(0, 1), Fraction(-1, 2), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(1, 8)]
+  b[1][1] support [0] vec [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  c[0][0] support [1, 3, 5] vec [Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(1, 8), Fraction(0, 1), Fraction(1, 2), Fraction(0, 1), Fraction(0, 1)]
+  c[0][1] support [4] vec [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  c[1][0] support [4] vec [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(3, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  c[1][1] support [1, 3, 5, 7] vec [Fraction(0, 1), Fraction(3, 2), Fraction(0, 1), Fraction(-1, 8), Fraction(0, 1), Fraction(1, 2), Fraction(0, 1), Fraction(-1, 8)]
+
+  traces of sample words (vec8):
+    tr(a) = [Fraction(0, 1), Fraction(-1, 2), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(-1, 8)]
+    tr(b) = [Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    tr(c) = [Fraction(0, 1), Fraction(1, 2), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(-1, 8)]
+    tr(ab) = [Fraction(0, 1), Fraction(-3, 2), Fraction(0, 1), Fraction(1, 8), Fraction(0, 1), Fraction(1, 2), Fraction(0, 1), Fraction(-1, 8)]
+    tr(ac) = [Fraction(1, 1), Fraction(0, 1), Fraction(-1, 4), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(-1, 4), Fraction(0, 1)]
+    tr(bc) = [Fraction(0, 1), Fraction(-1, 2), Fraction(0, 1), Fraction(1, 8), Fraction(0, 1), Fraction(3, 2), Fraction(0, 1), Fraction(-1, 8)]
+    tr(abc) = [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1), Fraction(0, 1), Fraction(-1, 2), Fraction(0, 1)]
+    tr(aabbc) = [Fraction(0, 1), Fraction(-5, 2), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-5, 1), Fraction(0, 1), Fraction(5, 8)]
+    tr(CCB) = [Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    tr(caCA) = [Fraction(-2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    tr(aa) = [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    tr(bb) = [Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    tr(cc) = [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    tr(abab) = [Fraction(-6, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(4, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+  dets:
+    det(a) = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    det(b) = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    det(c) = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+  Galois images of letters:
+    sigma(a) == a: False;  == -a: False
+    sigma(b) == b: False;  == -b: False
+    sigma(c) == c: False;  == -c: False
+    tau(a) == a: False;  == -a: False
+    tau(b) == b: False;  == -b: False
+    tau(c) == c: False;  == -c: False
+
+INSPECT DONE

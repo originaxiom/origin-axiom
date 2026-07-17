@@ -1,0 +1,7 @@
+{
+  "cell": "B662 CELL E (L102)",
+  "verdict": "BLOCK-DIAGONAL: the silver portal IS block-diagonal in the canonical boundary-restriction decomposition (P(B) = B* on both objects) => sector-respecting proposes FORCED (two objects).",
+  "golden_control_pass": true,
+  "silver_block_diagonal_canonical": true,
+  "runtime_s": 1011.73481798172
+}

@@ -1,0 +1,166 @@
+{
+ "artifact": "sigma_matrix_golden",
+ "repairs": "L103 (B660/S2 deck_swap_accessible=false; B638 G2 computed in-flight, never persisted)",
+ "object": "the golden (figure-eight) unbent weld double D: amalgam on a,b (side 1) and c,d (side 2 = U27 conj(.) U27^-1 letters), relators [REL(a,b), REL(c,d), aC, LONG(a,b)+LONG(c,d)]",
+ "basis": "the five H^1(D;27) classes rep_0..rep_4 of b637_threeform.double_Y(None): the first five vectors of nullspace(rows_all) independent mod coboundaries, in construction order (deterministic; the SAME basis every banked Y[ijk] table uses)",
+ "operator": "sigma* induced by the deck swap sigma: a<->c, b<->d with J = Ad(U27) o conj on coefficients; ANTILINEAR",
+ "convention": "row i = coefficients of sigma*(rep_i): sigma*(rep_i) = sum_j M[i][j] rep_j mod coboundaries; antilinearity => sigma*^2 corresponds to conj(M).M",
+ "field": "K = Q(sqrt(-3)); entry [a, b] means a + b*sqrt(-3), a,b rational strings",
+ "matrix": [
+  [
+   [
+    "1/2",
+    "1/2"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  [
+   [
+    "0",
+    "1/24"
+   ],
+   [
+    "1/2",
+    "-1/2"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  [
+   [
+    "1256617152000",
+    "1267793856000"
+   ],
+   [
+    "268240896000",
+    "0"
+   ],
+   [
+    "-1/2",
+    "-1/2"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  [
+   [
+    "-46189483200/13",
+    "465696000"
+   ],
+   [
+    "11176704000",
+    "-11176704000"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "-1/2",
+    "1/2"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  [
+   [
+    "1068480",
+    "-514080"
+   ],
+   [
+    "-6652800",
+    "-6652800"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0"
+   ],
+   [
+    "1",
+    "0"
+   ]
+  ]
+ ],
+ "matrix_readable": [
+  [
+   "(1/2+1/2r)",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "(0+1/24r)",
+   "(1/2+-1/2r)",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "(1256617152000+1267793856000r)",
+   "(268240896000)",
+   "(-1/2+-1/2r)",
+   "0",
+   "0"
+  ],
+  [
+   "(-46189483200/13+465696000r)",
+   "(11176704000+-11176704000r)",
+   "0",
+   "(-1/2+1/2r)",
+   "0"
+  ],
+  [
+   "(1068480+-514080r)",
+   "(-6652800+-6652800r)",
+   "0",
+   "0",
+   "(1)"
+  ]
+ ],
+ "diagonal_spectrum": "(zeta6, conj zeta6, -zeta6, -conj zeta6, 1) -- the Eisenstein-unit spectrum (B638 G2)",
+ "laws_verified": {
+  "sigma_sq_id_mod_coboundaries_5of5": true,
+  "conjM_M_eq_I_exact": true,
+  "M_conjM_eq_I_exact": true,
+  "matches_b638_inflight_printout": true
+ },
+ "provenance": "recomputed by frontier/B662_successor_campaign/cellC/l103_repair.py from the B637 apparatus; format model: frontier/B649_silver_holonomy/sigma_matrix_L.json"
+}
