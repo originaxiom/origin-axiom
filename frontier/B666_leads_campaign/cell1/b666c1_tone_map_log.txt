@@ -1,0 +1,40 @@
+B666 cell 1 — the explicit octahedral hearing map pi
+====================================================================
+K(4) = ker(mod4) elements: [(1, 0, 0, 1), (1, 0, 4, 1), (1, 4, 0, 1), (1, 4, 4, 1), (5, 0, 0, 5), (5, 0, 4, 5), (5, 4, 0, 5), (5, 4, 4, 5)]
+
+THE KERNEL N (quotient = 2O), 8 elements:
+    [[1,0],[0,1]]  (order 1)
+    [[1,4],[4,1]]  (order 2)
+    [[3,0],[0,3]]  (order 2)
+    [[3,4],[4,3]]  (order 2)
+    [[5,0],[4,5]]  (order 2)
+    [[5,4],[0,5]]  (order 2)
+    [[7,0],[4,7]]  (order 2)
+    [[7,4],[0,7]]  (order 2)
+N == K(4)? False
+N ∩ K(4) size: 4
+-I=[[7,0],[0,7]] in N? False
+5I in N? False
+
+pi homomorphism check on all 384^2 pairs: PASS (0 failures)
+pi surjective onto 2O: True
+
+letters and words under the octahedral character (chi = 2*Re, exact):
+           R: mod8 [[1,1],[0,1]] ord  8 -> 2O ord  8   chi = -1*sqrt2   chi_gal = 1*sqrt2
+           L: mod8 [[1,0],[1,1]] ord  8 -> 2O ord  8   chi = -1*sqrt2   chi_gal = 1*sqrt2
+          RL: mod8 [[2,1],[1,1]] ord  6 -> 2O ord  6   chi = 1   chi_gal = 1
+        RRLL: mod8 [[5,2],[2,1]] ord  4 -> 2O ord  4   chi = 0   chi_gal = 0
+         RRL: mod8 [[3,2],[1,1]] ord  4 -> 2O ord  4   chi = 0   chi_gal = 0
+        RRRL: mod8 [[4,3],[1,1]] ord  6 -> 2O ord  3   chi = -1   chi_gal = -1
+      RRRLLL: mod8 [[2,3],[3,1]] ord  6 -> 2O ord  6   chi = 1   chi_gal = 1
+    RRLLRRLL: mod8 [[5,4],[4,5]] ord  2 -> 2O ord  2   chi = -2   chi_gal = -2
+        RLRL: mod8 [[5,3],[3,2]] ord  3 -> 2O ord  3   chi = -1   chi_gal = -1
+
+THE SILVER WORD RRLL: mod-8 matrix [[5,2],[2,1]]
+    quaternion image: (0, -1, 0, 0)
+    order in 2O: 4
+    chi(RRLL) = 0   (Galois pair: 0)
+    chi(RRLL) is a pure sqrt2 multiple: False
+
+(the golden banked analog: mod-5 shadow = 2I itself; tr rho(RL) = -1/phi.
+ the silver refined analog: mod-8 shadow ->> 2O with kernel N; chi(pi(RRLL)) above.)

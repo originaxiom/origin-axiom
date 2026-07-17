@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B668: the triage reconciliation (F′ re-scoped)
+
+### Resolved
+- cc2's independent triage converges with B667; their catch ADOPTED:
+  F′ (resurgent S₂ from the ladder) dies against the melody theorem
+  (periodic ⇒ no asymptotic content) — re-scoped to the asymptotics
+  derivation note. Reciprocal correction: L104 already decided.
+  Dedupe rulings for the cup double-computation and loop-4 overlap.
+
 ## 2026-07-17 — B667: the seven-track proposal adjudicated
 
 ### Resolved
