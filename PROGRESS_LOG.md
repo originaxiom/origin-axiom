@@ -5797,3 +5797,23 @@ list first). Reciprocal correction to cc2: L104 already DECIDED
 Dedupe rulings: the 27bar-cup double-computation = the receipt loop
 (cross-check registered); loop-4 candidates (15)-(18) = the sealed
 A'/B'/C' — this seat runs them, cc2 verifies on receipt.
+
+## 2026-07-17 — B669: TRACK H ADJUDICATED — the amphichiral-suppression mechanism REFUTED
+
+chat1's cosmological-constant proposal, decided by its own sealed
+two-outcome table (prereg d5f025bf sealed first): the certificate
+ladders Z_t(kappa) for t = 4 (R2L, chiral), 5 (R3L, chiral), 6
+(RRLL, the silver) are ALL BOUNDED — finite exact q-support => exact
+periodicity, word-universal (cell G's machinery, trace generalized).
+The sealed prediction "the chiral word grows" is REFUTED;
+boundedness belongs to the certificate structure, not to
+amphichirality; the suppression-ratio story has no discriminating
+computation left. SECOND refutation: m136 IS amphichiral (SnapPy
+|Isom| = 8) — the "golden is the only amphichiral metallic" claim
+rested on an invalid det(A-I) criterion. FIREWALL: steps 4-5
+(k ~ 10^60 => Lambda ~ 10^-120) blocked twice (wall 10: Lambda
+dimensionful; R5: the k-scale identification untyped) — banks
+nowhere. Record: the level-ladder dictionary r = kappa + 9
+discovered via the failing-then-passing control (the wrong-object
+first pass preserved); the chat1 silver erratum reaches SIX
+occurrences. Locks 2/2.

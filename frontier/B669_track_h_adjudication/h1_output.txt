@@ -1,0 +1,20 @@
+== the level-ladders, k = 1..8 (kappa = 4..11) ==
+  RL (fig-8)           |Z_k|^2 =   1.0000   0.3820   0.0000   0.0000   1.0000   0.0000   0.3820   0.0000
+  R2L (trace 4)        |Z_k|^2 =   1.0000   1.0000   1.0000   1.0000   1.0000   0.0000   1.0000   0.0000
+  RRLL (silver m136)   |Z_k|^2 =   1.0000   1.0000   0.0000   1.0000   1.0000   0.0000   1.0000   0.0000
+  R3L (trace 5)        |Z_k|^2 =   1.0000   0.0000   1.0000   0.2087   1.0000   0.0000   0.0000   1.0000
+
+C1 fig-8 control reproduces banked [1, 1, 1, 0, 1, 1, 2, 1]: False
+
+== verdict per word (grows vs bounded on k = 1..8) ==
+  RL (fig-8)           max = 1.0000; the sealed 'grows' prediction REFUTED (bounded like the fig-8)
+  R2L (trace 4)        max = 1.0000; the sealed 'grows' prediction REFUTED (bounded like the fig-8)
+  RRLL (silver m136)   max = 1.0000; the sealed 'grows' prediction REFUTED (bounded like the fig-8)
+  R3L (trace 5)        max = 1.0000; the sealed 'grows' prediction REFUTED (bounded like the fig-8)
+
+== m136 amphichirality (SnapPy) ==
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  |Isom(m136)| = 8; amphichiral: True
+
+B669 H1 DONE
