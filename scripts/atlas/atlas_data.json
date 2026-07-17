@@ -13494,6 +13494,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B664": {
+   "slug": "metallic landscape",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "L107",
+    "L91",
+    "S1",
+    "S3",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B66": {
    "slug": "sl6 tower",
    "motifs": [
