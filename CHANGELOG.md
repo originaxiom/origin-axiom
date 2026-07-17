@@ -6,6 +6,23 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B675: H-CUSP PREDICTS (silver → A₃ verified both ways; bronze deaf)
+
+- The sweep resolves the sealed three-outcome discriminator: silver τ = −2i
+  EXACTLY — the cusp lattice ℤ+ℤ·2i lives over ℚ(i) alone (the bifocal
+  entanglement never reaches the cusp). Silver quantizes A₃ and cannot
+  quantize A₂/A₄ (exact); SU(4)₁ is the conductor-8 stage and hears only the
+  silver's mod-8 shadow class (numeric, two precisions). Golden control
+  reproduces the banked embedding.
+- NEW LAW (two instances): minimal quantization index = the cusp order's
+  conductor (golden 4, silver 2); coprime shadow ⟺ iso, ramified ⟺ kernel.
+- THE LADDER BREAKS AT BRONZE: its cusp field has Galois group S₄
+  (non-abelian) — by Kronecker–Weber no cyclotomic Coxeter plane contains it:
+  H-CUSP predicts NO stage family hears bronze (corroborated at 60 digits +
+  census triangulation; exact certification = the named follow-on). The McKay
+  2T shadow (group-level) vs no hosting stage (lattice-level) tension is
+  recorded honestly — shadow ≠ hosting.
+
 ## 2026-07-18 — B677: the morning packet (R22-3 closed; six kill patterns)
 
 ### Resolved
