@@ -1,0 +1,343 @@
+{
+  "prereg_note": "PREREG_SQ.md sha 711773fe, S4 clause",
+  "gates": {
+    "w1_C27_inverse_consistent": true,
+    "w1_relator_R1": true,
+    "w1_relator_R2": true,
+    "w1_relator_R3": true,
+    "w1_v0_dim1": true,
+    "w1_v0_idx0_matches_w0a": true,
+    "w1_v0_matches_w0a": true,
+    "w1_v0_C27_invariant": true,
+    "w1_N_dim1": true,
+    "w1_N_invariant_all": true,
+    "w1_P_class0_is_cocycle": true,
+    "v0bar_dim1": true,
+    "v0bar_c_invariant": true,
+    "L_nonzero_sanity": true,
+    "beta_v0_symmetric": true,
+    "beta_v0_invariant": true,
+    "psi_dim1": true,
+    "M_symmetric": false,
+    "M_antisymmetric": true,
+    "delta_c_zero": true,
+    "b1_D_eq_1": true,
+    "kappa_all_valid": true,
+    "control_coboundary_in_u": true,
+    "control_exactness": true,
+    "antisym_reported": true
+  },
+  "v0_idx0": 12,
+  "v0bar_idx0": 12,
+  "M_5x5": [
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "3",
+        "1"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-3",
+        "1"
+      ],
+      [
+        "1/8",
+        "-1/24"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "3",
+        "-1"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "-3",
+        "-1"
+      ],
+      [
+        "-1/8",
+        "1/24"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "M_5x5_readable": [
+    [
+      "0",
+      "0",
+      "0",
+      "(3+1*sqrt(-3))",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "(-3+1*sqrt(-3))",
+      "(1/8-1/24*sqrt(-3))",
+      "0"
+    ],
+    [
+      "0",
+      "(3-1*sqrt(-3))",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(-3-1*sqrt(-3))",
+      "(-1/8+1/24*sqrt(-3))",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "M_symmetric": false,
+  "M_antisymmetric": true,
+  "kappas": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "1"
+  ],
+  "solo_slices_by_w": {
+    "0": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "1": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "2": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "3": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "4": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "eigen_report": {
+    "0": {
+      "charpoly_monic": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace": "0",
+      "det": "0",
+      "discriminant": "0",
+      "verdict": "ZERO"
+    },
+    "1": {
+      "charpoly_monic": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace": "0",
+      "det": "0",
+      "discriminant": "0",
+      "verdict": "ZERO"
+    },
+    "2": {
+      "charpoly_monic": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace": "0",
+      "det": "0",
+      "discriminant": "0",
+      "verdict": "ZERO"
+    },
+    "3": {
+      "charpoly_monic": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace": "0",
+      "det": "0",
+      "discriminant": "0",
+      "verdict": "ZERO"
+    },
+    "4": {
+      "charpoly_monic": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace": "0",
+      "det": "0",
+      "discriminant": "0",
+      "verdict": "ZERO"
+    }
+  },
+  "any_three_distinct": false,
+  "antisym_sample": {
+    "(2, 3, 4)": "0",
+    "(0, 1, 2)": "0",
+    "(1, 2, 3)": "0",
+    "(0, 2, 4)": "0"
+  },
+  "verdict": "ZERO",
+  "runtime_s": 128.68110179901123
+}

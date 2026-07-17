@@ -13412,6 +13412,39 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B660": {
+   "slug": "structure campaign",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B615",
+    "B637",
+    "B638",
+    "B640",
+    "B644",
+    "B649",
+    "B650",
+    "B652",
+    "B659",
+    "L103",
+    "L104",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B66": {
    "slug": "sl6 tower",
    "motifs": [
