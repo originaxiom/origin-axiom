@@ -5725,3 +5725,21 @@ conductor; the golden = the family's unique unit-determinant word.
 L107 opened (cross-landscape, E6 version, silver-own-stage, the
 Dirichlet-character form). Gate 5: the hierarchy remark firewalled.
 Locks 4/4.
+
+## 2026-07-17 — B662 WAVE 3 + CAMPAIGN CLOSE: THE EAR IS THE GAMMA5'-DOUBLET
+
+CELL I — EXACT CORRESPONDENCE: the hearing representation IS the
+Gamma5'-doublet 2hat' (character equality on all 9 classes, exact in
+Q(zeta20), canonical SL(2,F5) identification; the Galois pair = their
+(2hat', 2hat); the banked stage-twist value +phi = chi_2hat — the
+twist selects their other doublet). H129 RESOLVED WITH MECHANISM:
+weight 5 is FORCED — M_k(Gamma(5)) = Sym^{5k}(2hat); the doublet
+series' numerator exponents partition the E8 exponents (pairs sum to
+30), denominators = 2I's invariant degrees 12/20 (Kostant/McKay);
+first weight-5 at n = 25 for both — INDEPENDENTLY RE-DERIVED on this
+seat (Molien from the 2I class data alone). PLACEMENT -> CANDIDATE
+FUNCTOR; the last leg = the framework-side modular-form assignment
+(L108). THE CAMPAIGN CLOSES: nine cells, nine sealed outcomes, zero
+cells left open (synthesis table in CAMPAIGN_SYNTHESIS.md). Two
+LAW->THEOREM upgrades, two leads closed exactly, one wall added, one
+door honestly shut, one placement upgraded. Locks 5/5 (wave-2 file).

@@ -1,0 +1,106 @@
+== S0: exact field self-tests (Q(zeta_20)) ==
+  Phi_20(zeta) = 0: True
+  i^2 = -1: True
+  omega_5^5 = 1: True
+  phi^2 = phi + 1: True
+  (2cos(pi/10))^2 = sqrt5*phi: True
+  1/phi = phi - 1 consistent: True
+  galois zeta->zeta^3 sends sqrt5 -> -sqrt5: True
+
+== S1: Gamma_5' presentation checks on the literature matrices ==
+   (S^2 = R = -1, S^4 = T^5 = (ST)^3 = 1, S^2 T = T S^2;
+    Yao-Liu-Ding Eqs. (4), (A.1)-(A.2), with their S = [[0,1],[-1,0]])
+  2-hat: S^2 = -I: True; S^4 = I: True; T^5 = I: True; (ST)^3 = I: True; S^2T = TS^2: True
+  2-hat': S^2 = -I: True; S^4 = I: True; T^5 = I: True; (ST)^3 = I: True; S^2T = TS^2: True
+
+== S2: BFS closure of SL(2,5) with both exact reps attached ==
+  |group| = 120 (must be 120)
+  well-definedness: 121 collisions checked, 0 exact-matrix mismatches (must be 0)
+  kernel of 2-hat (elements with scalar +/-I image): [((1, 0), (0, 1)), ((4, 0), (0, 4))] -> faithful up to center: True
+  rho(R): image of -I mod 5 is -I in both reps: True
+
+== S3: conjugacy classes of SL(2,5) ==
+  class (1, None): size 1, representative ((1, 0), (0, 1))
+  class (2, None): size 1, representative ((4, 0), (0, 4))
+  class (3, None): size 20, representative ((0, 1), (4, 4))
+  class (4, None): size 30, representative ((0, 1), (4, 0))
+  class (5, False): size 12, representative ((0, 2), (2, 2))
+  class (5, True): size 12, representative ((0, 1), (4, 2))
+  class (6, None): size 20, representative ((0, 1), (4, 1))
+  class (10, False): size 12, representative ((0, 2), (2, 3))
+  class (10, True): size 12, representative ((0, 1), (4, 3))
+  number of classes: 9 (must be 9); sizes sum: 120
+
+== S4: exact characters of the literature doublets by class ==
+             1C1  (ord,qr)=  (1, None) size  1: chi_2hat =      2, chi_2hat' =      2
+         1C2 (R)  (ord,qr)=  (2, None) size  1: chi_2hat =     -2, chi_2hat' =     -2
+       20C3 (ST)  (ord,qr)=  (3, None) size 20: chi_2hat =     -1, chi_2hat' =     -1
+        30C4 (S)  (ord,qr)=  (4, None) size 30: chi_2hat =      0, chi_2hat' =      0
+     12C5' (T^2)  (ord,qr)= (5, False) size 12: chi_2hat =  1/phi, chi_2hat' =   -phi
+        12C5 (T)  (ord,qr)=  (5, True) size 12: chi_2hat =   -phi, chi_2hat' =  1/phi
+     20C6 (S^3T)  (ord,qr)=  (6, None) size 20: chi_2hat =      1, chi_2hat' =      1
+   12C10' (T^2R)  (ord,qr)=(10, False) size 12: chi_2hat = -1/phi, chi_2hat' =    phi
+      12C10 (TR)  (ord,qr)= (10, True) size 12: chi_2hat =    phi, chi_2hat' = -1/phi
+  matches the extracted Table 10 row for 2-hat:  True
+  matches the extracted Table 10 row for 2-hat': True
+  Galois pair (sqrt5 -> -sqrt5 sends chi_2hat' -> chi_2hat, class-by-class): True
+
+== S5: the ear's character (B644 banked, corrected table) ==
+  Schur <chi_ear, chi_ear> = 1: True
+  chi(-g) = -chi(g) on all paired classes: True
+  chi_ear == chi_2hat  (all 9 classes): False
+  chi_ear == chi_2hat' (all 9 classes): True
+  cat map RL mod 5 = ((2, 1), (1, 1)), class (10, True) = 12C10 (TR)
+  chi_2hat'(cat) = -1/phi  (banked B640/B644 headline: tr rho_hear(RL) = -1/phi)
+  chi_2hat (cat) = phi  (banked B642 k=7-stage twist value: +phi)
+  TASK-1 VERDICT: rho_hear IS the Gamma_5'-doublet 2-hat' (exact, all 9 classes)
+
+== S6: the full character table, built exactly ==
+  Newton vs Chebyshev consistency (Sym^2, Sym^3): True
+       1: dim 1, irreducible: True
+   2-hat: dim 2, irreducible: True
+  2-hat': dim 2, irreducible: True
+       3: dim 3, irreducible: True
+      3': dim 3, irreducible: True
+       4: dim 4, irreducible: True
+      4': dim 4, irreducible: True
+       5: dim 5, irreducible: True
+   6-hat: dim 6, irreducible: True
+  full orthonormality of the 9 characters: True
+  sum of dim^2 = 120 (must be 120)
+
+== S7: the scalar-lift identity and the weight decompositions ==
+  Eq.(13) S-matrix == zeta_20^16 * rho_2hat(S): True
+  Eq.(13) T-matrix == zeta_20^12 * rho_2hat(T): True
+  scalars die on Sym(5k): zeta^(16*5k)=zeta^(12*5k)=1 for all k: True
+  decomposition of Sym^{5k}(2-hat) (= weight-k level-5 forms):
+    k=1 (dim 6 = 5k+1=6): 6-hat   [matches their Table 1: True]
+    k=2 (dim 11 = 5k+1=11): 3 + 3' + 5   [matches their Table 1: True]
+    k=3 (dim 16 = 5k+1=16): 4' + 2x6-hat   [matches their Table 1: True]
+    k=4 (dim 21 = 5k+1=21): 1 + 3 + 3' + 4 + 2x5   [matches their Table 1: True]
+    k=5 (dim 26 = 5k+1=26): 2-hat + 2-hat' + 4' + 3x6-hat   [matches their Table 1: True]
+    k=6 (dim 31 = 5k+1=31): 1 + 2x3 + 2x3' + 2x4 + 2x5   [matches their Table 1: True]
+  ALL SIX weights match Yao-Liu-Ding Table 1: True
+
+== S8: doublet occurrences in Sym^n(2-hat), n = 0..75 ==
+  n with 2-hat  in Sym^n: [1, 11, 13, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75]
+  n with 2-hat' in Sym^n: [7, 13, 17, 19, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75]
+  numerator of the 2-hat  series over (1-t^12)(1-t^20): terms at [1, 11, 19, 29] with coeffs [1, 1, 1, 1]
+  numerator of the 2-hat' series over (1-t^12)(1-t^20): terms at [7, 13, 17, 23] with coeffs [1, 1, 1, 1]
+  numerators are POLYNOMIALS (all higher terms vanish to n=75): True / True
+  first n = 0 mod 5 with 2-hat  in Sym^n: 25 -> weight 5
+  first n = 0 mod 5 with 2-hat' in Sym^n: 25 -> weight 5
+  mechanism: occurrences of 2-hat are n in {a + 12r + 20s} for the
+  numerator exponents a = [1, 11, 19, 29]; n = 0 mod 5 forces (with a=1):
+  1 + 12r + 20s = 0 mod 5  <=>  1 + 2r = 0 mod 5  <=>  r = 2 mod 5,
+  minimal n = 1 + 2*12 = 25 = 5*5  =>  the doublets first appear at
+  WEIGHT 5. The '5' of the weight = level 5 (degree-5k homogeneity in
+  the two weight-1/5 Ibukiyama generators) meshed with the McKay-E8
+  invariant degrees 12, 20 of the binary icosahedral group.
+
+  TASK-2 VERDICT: PASS — weight-5 first appearance is FORCED (Sym^(5k) structure + 2I invariant degrees 12, 20).
+
+== FINAL ==
+TASK 1: rho_hear IS the Gamma_5'-doublet 2-hat' (exact, all 9 classes)
+TASK 1 addendum: the Galois pair chi/chi-bar of the ear (B642 stage twist) = their (2-hat', 2-hat) pair: True
+TASK 2: doublets first at weight 5 (both), mechanism verified exactly against the literature decompositions k = 1..6: True

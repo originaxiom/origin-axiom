@@ -77,3 +77,33 @@ def test_cell_h_fourth_wall_output():
     assert "MATCH: True" in out
     fnd = open(os.path.join(_C, "cellH", "FINDINGS_CELL.md")).read()
     assert "FULL" in fnd and "UNDEFINED" in fnd.upper() or "undefined" in fnd
+
+
+def test_cell_i_weight5_mechanism_independent():
+    """This seat's Molien check: both doublets first appear in
+    Sym^n(2hat) at n ≡ 0 mod 5 exactly at n = 25 (weight 5)."""
+    import cmath
+    import numpy as np
+    pi = np.pi
+    classes = [(1, 0.0), (1, pi), (30, pi / 2), (20, pi / 3),
+               (20, 2 * pi / 3), (12, pi / 5), (12, 2 * pi / 5),
+               (12, 3 * pi / 5), (12, 4 * pi / 5)]
+
+    def chi_sym(n, a):
+        l, m = cmath.exp(1j * a), cmath.exp(-1j * a)
+        if abs(l - m) < 1e-12:
+            return (n + 1) * l**n
+        return (l**(n + 1) - m**(n + 1)) / (l - m)
+
+    chi2h = [2 * np.cos(a) for _, a in classes]
+    chi2hp = list(chi2h)
+    chi2hp[5], chi2hp[6], chi2hp[7], chi2hp[8] = (chi2h[7], chi2h[8],
+                                                  chi2h[5], chi2h[6])
+    for chi in (chi2h, chi2hp):
+        n5 = []
+        for n in range(0, 26):
+            m = sum(sz * chi_sym(n, a) * chi[i]
+                    for i, (sz, a) in enumerate(classes)) / 120
+            if round(m.real) > 0 and n % 5 == 0:
+                n5.append(n)
+        assert n5[0] == 25          # weight 5, both doublets
