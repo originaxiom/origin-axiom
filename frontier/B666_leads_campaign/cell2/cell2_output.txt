@@ -1,0 +1,19 @@
+[     0.0s] STEP 0: exec the banked cellH machinery (massey_first.py VERBATIM; runs its full gated pipeline incl. G0 basis control)...
+[     0.0s] STEP 0: exec b637_threeform.py (banked apparatus)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.6s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   85.9s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  105.6s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  105.8s] G2a PASS: principal sl2 relations exact
+[  110.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  112.1s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 112.1s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[   112.7s] b637 module loaded
+[   112.7s] STEP 1: rebuild the banked 5-class basis (double_Y construction, bend None, VERBATIM)...
+[   127.3s]   Z^1(D;27) dim = 31 (banked: 31)
+[   138.0s]   5 class representatives rebuilt (greedy, banked order)
+[   138.0s] STEP 2 (CONTROL G0, decisive): recompute two banked Y components through the full banked evaluator...

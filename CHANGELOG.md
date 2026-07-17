@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B666 wave 0+1 + cell S: seven verdicts
+
+### Added
+- **The stage-universal landscape law** |tr_odd| = |χ_D∘shadow| (E₆:
+  period 7, {0,1,√2}); the generating-function theorem (product form
+  refuted). **R21-9 proven unconditionally** (pair products are
+  squares). **The scale-torsor no-go = standalone theorem** + the
+  silence note (Λ as boundary-torsor coordinate; cited, firewalled).
+- The historical-leads triage (17 superseded; 3-cell revival
+  shortlist). L105 refined (2O = quotient, not subgroup).
+
+### Resolved
+- R21-11 repaired (collection-time-import mechanism; E12 corrected);
+  L96 closed — B544 confirmed, **B480's ⟨r⟩ = 0.16 corrected (E14
+  minted)**. Locks 6/6; b353 green in-suite.
+
 ## 2026-07-17 — B669: track H refuted (the amphichiral-suppression mechanism)
 
 ### Resolved

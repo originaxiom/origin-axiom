@@ -1,0 +1,22 @@
+=== CELL 5 (R21-11) verification output, CONTINUATION (second pass, 2026-07-17) ===
+(continues the committed cell5_output.txt sections 1-4; new sections 5-6 below)
+
+--- 5. the FAILING reproduction (the discriminating fact at the pytest level), 2026-07-17 second pass ---
+run: pytest cell5/b353_unfixed_asof_HEAD.py tests/test_b462.py --deselect tests/test_b462.py -q
+(b353 as of git HEAD 2ec5dce, byte-identical except the sys.path line re-pointed absolutely;
+ test_b462.py collected AFTER it with ALL 7 of its tests deselected — only its module-level
+ import runs, which leaves mp.mp.dps = 40)
+FAILED b353_unfixed_asof_HEAD.py::test_theta_is_the_blockscalar_in_the_geometric_basis
+       residual 1.147943701974890144500719274631099294744791e-41  (threshold 1e-60)
+FAILED b353_unfixed_asof_HEAD.py::test_hyperelliptic_action_equals_theta_with_gauge_certificate
+       (m=1) resid 3.491266240400919032833843069781095628513438e-40  (threshold 1e-40)
+PASSED test_theta_commutes_with_the_holonomy_image  (its residual survives dps=40)
+2 failed, 1 passed, 7 deselected in 9.56s          [full output: repro_unfixed_full.txt]
+NOTE: the blockscalar residual matches the dps_demo dps=40 row to all printed digits
+(1.14794e-41) — the leak is EXACTLY the ambient-precision starvation, and the culprit's
+tests never even ran: module IMPORT alone (collection) is sufficient. Minimal failing
+pair: {test_b353_..., any later-collected module whose import leaves dps < ~60}.
+
+--- 6. the same minimal pair against the REPAIRED tracked file ---
+run: pytest tests/test_b353_geometric_theta_identification.py tests/test_b462.py --deselect tests/test_b462.py -q
+3 passed, 7 deselected in 20.47s                   [full output: repro_fixed_full.txt]

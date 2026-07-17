@@ -1,0 +1,9 @@
+A1 -- FK word certification
+  K=0.5, init beta=0.000820: residual 2.84e-13, ||pinv(H)g||_inf = 8.49e-11, margin = 7.14e-04, Hessian eigs [-1.25e-15, +1.03e-04, ...] -> hop word match = 610/610
+  K=0.5, init beta=0.370000: residual 2.84e-13, ||pinv(H)g||_inf = 3.96e-11, margin = 4.28e-04, Hessian eigs [-3.17e-15, +1.03e-04, ...] -> hop word match = 610/610
+  K=0.5, init beta=0.710000: residual 2.84e-13, ||pinv(H)g||_inf = 5.97e-11, margin = 1.43e-04, Hessian eigs [+2.47e-15, +1.03e-04, ...] -> hop word match = 610/610
+  K=0.8, init beta=0.000820: residual 4.62e-13, ||pinv(H)g||_inf = 2.57e-10, margin = 6.28e-04, Hessian eigs [+2.95e-16, +9.66e-05, ...] -> hop word match = 610/610
+  certification: word is 610/610 mechanical iff ||pinv(H)g||_inf << margin in every row
+
+A2 -- circle-map knife-edge letter
+  snapped 1 knife-edge point(s); itinerary vs mechanical 1597/2584: best match = 2584/2584

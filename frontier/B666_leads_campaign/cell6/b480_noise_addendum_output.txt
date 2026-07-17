@@ -1,0 +1,54 @@
+/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
+  r = np.minimum(s[:-1], s[1:]) / np.maximum(s[:-1], s[1:])
+==============================================================================
+B480 re-derivation: <r> for the quantized golden cat map, N = 181, 301
+==============================================================================
+
+----- N = 181 --------------------------------------------------
+ord(A mod 181) = 45;  N/ord = 4.022
+V1 unitarity: max|U+U - I| = 2.22e-16
+V2 homomorphism: std[U(A)U(A)/U(A^2)] = 6.20e-16 (|gamma|=1.000000); std[U(A)U(A^2)/U(A^3)] = 6.23e-16
+   eigenvalue moduli: max||lam|-1| = 5.43e-08
+V3 U^R = c*I: std(lam^R) = 6.17e-07, c = exp(+3.141593 i)
+V4 trace identity |tr U^t|^2 = #Fix(A^t) exact integers, t=1..44: max deviation = 1.32e-05
+   slot assignment: max angular error = 5.86e-08; sum mult = 181 (= N: True)
+   multiplicity histogram {mult: #slots} = {4: 44, 5: 1}
+   distinct occupied slots: 45/45
+   DFT-of-traces multiplicity cross-check: max|m_dft - m_slot| = 1.51e-06
+C1 RAW-FLOAT      <r> = 0.0623
+C2 EXACT-DEGEN    <r> = 0.0000  (exact 0)   [skip-0/0 variant: 0.0000]
+C3 DISTINCT-SLOTS <r> = 1.0000  (exact 1)
+   [banked claim: 0.16;  Poisson 0.386;  GOE 0.53]
+
+----- N = 301 --------------------------------------------------
+ord(A mod 301) = 88 = 7 x 43; ord mod 7 = 8, ord mod 43 = 44;  N/ord = 3.420
+V1 unitarity: max|U+U - I| = 4.44e-16
+V2 homomorphism: std[U(A)U(A)/U(A^2)] = 5.17e-16 (|gamma|=1.000000); std[U(A)U(A^2)/U(A^3)] = 5.13e-16
+   eigenvalue moduli: max||lam|-1| = 8.73e-08
+V3 U^R = c*I: std(lam^R) = 1.59e-06, c = exp(+0.000000 i)
+V4 trace identity |tr U^t|^2 = #Fix(A^t) exact integers, t=1..87: max deviation = 7.11e-04
+   slot assignment: max angular error = 1.17e-07; sum mult = 301 (= N: True)
+   multiplicity histogram {mult: #slots} = {2: 3, 3: 45, 4: 40}
+   distinct occupied slots: 88/88
+   DFT-of-traces multiplicity cross-check: max|m_dft - m_slot| = 4.17e-06
+C1 RAW-FLOAT      <r> = 0.0562
+C2 EXACT-DEGEN    <r> = 0.0000  (exact 0)   [skip-0/0 variant: 0.0000]
+C3 DISTINCT-SLOTS <r> = 1.0000  (exact 1)
+   [banked claim: 0.16;  Poisson 0.386;  GOE 0.53]
+
+==============================================================================
+Controls: r-statistic code on Poisson & picket-fence references
+  Poisson control (301 uniform phases): <r> = 0.3930 (theory 0.386)
+  picket-fence control (301 equal slots): <r> = 1.0000 (theory ~1)
+N=181: base RAW-FLOAT <r> = 0.0623
+  6 unitary-conjugated runs (identical exact spectrum): ['0.0706', '0.0900', '0.0602', '0.0661', '0.1117', '0.0957']
+  degeneracy broken at scale 1e-10: <r> = 0.2080
+  degeneracy broken at scale 1e-08: <r> = 0.3017
+  degeneracy broken at scale 1e-06: <r> = 0.3186
+N=301: base RAW-FLOAT <r> = 0.0562
+  6 unitary-conjugated runs (identical exact spectrum): ['0.0569', '0.0759', '0.0676', '0.0694', '0.0544', '0.0719']
+  degeneracy broken at scale 1e-10: <r> = 0.1232
+  degeneracy broken at scale 1e-08: <r> = 0.2440
+  degeneracy broken at scale 1e-06: <r> = 0.2567
+
+Conclusion: RAW-FLOAT <r> on this exactly-degenerate spectrum wanders with the noise realization -- it is not a well-defined observable.

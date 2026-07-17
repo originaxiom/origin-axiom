@@ -9877,7 +9877,8 @@
     "B398",
     "B447",
     "B451",
-    "B466"
+    "B466",
+    "B666"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 16,

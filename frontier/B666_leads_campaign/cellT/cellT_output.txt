@@ -1,0 +1,129 @@
+B666 CELL T — verification trail (2026-07-17)
+Repo: /Users/dri/origin-axiom. All checks are read-only greps/reads of the
+committed ledgers; no computation cells were run (wave 0 is a records triage).
+
+SOURCES READ IN FULL
+- docs/OPEN_LEADS.md (564 lines; every L-row's own status column)
+- frontier/B666_leads_campaign/CAMPAIGN_PREREGISTRATION.md (sealed scope ruling)
+- frontier/B562_probation_campaign/RESULTS.md (49 lines; the 21 verified
+  probation verdicts, quoted below where load-bearing)
+
+DECISIVE LEDGER HITS (grep-verified; line numbers = PROGRESS_LOG.md unless noted)
+
+[L63 / Q-C]
+  3378: "C5+Q-C: QUARANTINED ... Q-C's transport question remains OPEN"
+  3617: "Q-C: stays OPEN — the verifier is right that no transport map was
+         constructed; sharpened."
+  3643: "... Q-C honestly reopened ..."
+  grep over all entries dated 2026-07-15 onward: ZERO hits for "Q-C"/"L63"
+  → STILL-LIVE (revival R1). Sharpened deliverable: OPEN_LEADS L63 row (B578-D2).
+
+[L73]
+  3689: "L73's prediction, confirmed as banked" (B580 Round 1)
+  4179: "L73's lemma; the L73 one-pager locks green (662/662)" (cc2 packet
+        integration entry, 2026-07-15; B600 upgraded)
+  B600 entry (4160-4172): Z at E6 levels 1..4 = +1,+1,+1,0; H133
+        TESTED-NEGATIVE; exact Phi_192 certificates for Z4 = 0
+  → SUPERSEDED (first-failure found at level 4; successor on cc2's ledger).
+
+[L74]
+  B600/packet entries (4160-4179): "the ℚ(√2) import + quartics (even-exponent
+  disc primes)" = the level-4 (k+12 = 16 = 2^4) dyadic prediction realized;
+  "cc2's decisive level-5/κ=17 ℚ(√17) prediction REGISTERED"
+  → SUPERSEDED into the cc2 level-ladder campaign (tier-2).
+
+[L77]
+  docs/LAW_MAP.md line 44 (the stage-split clock law row): "COMPLETION
+  (B656/G4): ... clock(κ) = ord(A₁ mod 3κ) EXACTLY, κ = 6..15 (10/10,
+  independently verified) ... L84's multiplier clause discharged"
+  → SUPERSEDED (the modulus map L77 asked for).
+
+[L78]
+  3739: "the fillings can never hear chirality; L78 resolves
+        negative-and-final" (B583/X3, the second unhearability theorem)
+  → SUPERSEDED.
+
+[L79]
+  3708: "B582: THE FIRST CONSTRUCTED PLAY WITH CHIRAL MATTER (the L79 core)"
+  B583/X1: no real form; no compact branching forced
+  4214: "B598 step 7 GREEN: G1-FINITE — the dial map is fold-organized; the
+        B582 hole closed" (the seat-4 audit's mandatory in-repo recomputation,
+        which had flagged "L79's open t-sweep" at 4095)
+  → SUPERSEDED (residual geometric realization folded into L71).
+
+[L68]
+  3316-3317: "the criticality unification (B181 γ=0 + B507 β=0 + B498
+        driftless = ONE unwritten theorem; B507 has NO lock)" (registration)
+  3615-3616: "D3: B498↔B507 proved one structure; B181 domain-disjoint
+        (wording repaired); the missing B507 lock delivered" (B578)
+  OPEN_LEADS L68 row: (3) cleared B578-D4; (4) retraction fired B578-D5;
+        (5) retracted B578-D6
+  → SUPERSEDED; only remainder = Q-C = L63.
+
+[L65]
+  B562/P13 (RESULTS.md): "TOMBSTONE — the triality-on-27 route is CLOSED — the
+  27 splits 9+9+9 into trinification color/L/R blocks (the 'wrong 3'), not
+  3×27=81. Grounded in B298/B299."  Dimension arithmetic: a 9-weight orbit
+  cannot be a 16 (27 = 16+10+1 under D5).  B583/X1: no compact branching
+  forced.  → SUPERSEDED.
+
+[L54]
+  3660-3676 (B581): all six Sym^{2m} twisted Alexander polynomials/torsions
+  exact over ℚ(√−3) at the geometric rep + the sign law — the row's named
+  "most tractable next" (torsion Galois behavior beyond τ₁ = −3) executed as
+  L72 phase 1.  → SUPERSEDED (remainder = diminishing-returns catalog).
+
+[L72]
+  980-987 (CHANGELOG): B579 registered L72 (MB13-swept onto the banked
+  torsion thread).  B581 = phase 1 DONE.  grep "CS functional|CS-functional"
+  over PROGRESS_LOG: ZERO hits → phase 3 never ran.  Phase 2 (E6 6j) = L83(c),
+  explicitly needed-only-if.  → phases 2-3 STILL-LIVE-UNVERIFIED.
+
+[L88]
+  4597-4599: B629 cell J's exact form (Latin square; doubly-stochastic
+  circulant; eigenvalues {i,−i,−1}); 4649: routed to OPEN_LEADS (B598 step 6).
+  grep "L88|Latin|doubly-stochastic|circulant" after registration: no further
+  work.  → STILL-LIVE (revival R2).
+
+[L24(c) / L82]
+  OPEN_LEADS L82 row (B587): "RESIDUAL (Wave 2): the per-term
+  Landsberg–Schaar-style closed-form PROOF at SU(3) (B204 did SU(2)); general
+  words/general N = L24(c) proper."  L100 row (closed, B663/A2): certified
+  minimal period P = 175560; generic subsequence period 5 = disc(A₁),
+  "L24(c)'s first cross-stage point."  → STILL-LIVE (revival R3).
+
+[L75, L76, L71, L69, L80(b)(d)]
+  grep over PROGRESS_LOG from 2026-07-15 onward for
+  "L75|L76|resultant|R-matrix|Meyerhoff|θ-odd deformation|root-BFS": ZERO
+  hits beyond the registrations (3646-3656 for the veins; 3861 for L80 (a)
+  DONE/(c) moot).  → STILL-LIVE as tabled.
+
+[PROBATION VERDICTS APPLIED VERBATIM]  (frontier/B562_probation_campaign/RESULTS.md)
+  P4  L5/L6  NEEDS-RERUN (tombstone rejected — unearned; kept OPEN)
+  P5  L11    LIVE (19 covers; exact-field cert = Sage follow-on)
+  P8  L7     DORMANT (input P1 tombstoned; named re-open trigger)
+  P17 L20    DORMANT (no ground truth; named re-probe trigger)
+  P19 L38    NEEDS-RERUN (tombstone rejected — kill not earned)
+  P21 L46    TOMBSTONE (verified)
+  P12 (Gate B) SPECIALIST — corroborates L50's tool gate
+  P13 (Gate C) TOMBSTONE — decides L65
+  P15 L22    SPECIALIST (already excluded; residual on specialist register)
+
+[L26/L28 vs B644/B662-I — the prereg's named check]
+  OPEN_LEADS L94 row (CLOSED — DERIVED, B644): ρ_hear|ker(det) =
+  χ_golden ∘ (mod-5 reduction), elementwise on all 120 classes; "the conductor
+  κ = 5 is the modulus of the ear"; "B210's SU(2)₃ negative reconciled
+  (different operator)".  → L26 SUPERSEDED (structural content now a theorem;
+  residual = external novelty attribution only); L28 SUPERSEDED (B210 negative
+  as posed + the B644 reconciliation).
+
+[ATLAS]
+  scripts/atlas/query.py operational (help + revive tested); its data snapshot
+  predates the B57x+ arcs (revive B570 → "unknown probe"), so the ledgers were
+  used as the primary supersession record.
+
+NUMBERING
+  L58–L61: never existed (B569–B574 registrations renumbered L62+;
+  PROGRESS_LOG 3555-3558 + the OPEN_LEADS section header).
+  Specialist-register tag reuse (L22, L5/L6, L20): deliberate cross-reference
+  per its own header; not renumbered.

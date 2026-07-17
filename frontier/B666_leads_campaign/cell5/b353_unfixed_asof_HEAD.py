@@ -2,28 +2,14 @@
 import sys
 import os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B353_geometric_theta_identification'))
+# CELL5 REPRODUCTION COPY: byte-identical to git HEAD (2ec5dce) tests/test_b353_geometric_theta_identification.py
+# EXCEPT this one path line, re-pointed absolutely because this copy lives in the cell dir, not tests/.
+sys.path.insert(0, '/Users/dri/origin-axiom/frontier/B353_geometric_theta_identification')
 import mpmath as mp
-import pytest
 from geometric_theta import (
     EXPONENTS, SIGN,
     theta_chain_blockscalar_residual, theta_commutes_with_holonomy, hyperelliptic_certificate,
 )
-
-
-@pytest.fixture(autouse=True)
-def _dps_100():
-    # E12 repair (B666 cell 5): these locks compute their residuals at RUNTIME and
-    # need the dps=100 that geometric_theta sets at import — but pytest imports every
-    # test module at COLLECTION time, so any later-collected module-level dps
-    # assignment (e.g. test_cc2_r5_adopted.py, test_b598_p0.py) is what tests
-    # actually run under. Per-test fixture sets what this file needs (the b204
-    # pattern); the conftest autouse restore alone cannot help, since it restores
-    # to the already-leaked entry value.
-    saved = mp.mp.dps
-    mp.mp.dps = 100
-    yield
-    mp.mp.dps = saved
 
 
 def test_theta_is_the_blockscalar_in_the_geometric_basis():
