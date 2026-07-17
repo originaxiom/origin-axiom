@@ -5962,3 +5962,20 @@ shadow's home plane — while A4's weight-lattice arithmetic (unique
 quadratic subfield Q(sqrt5), real) admits NO cusp quantization.
 Stage selection completes to the single branch modulo H-CUSP; L91's
 residuals consolidate to H-EAR + H-CUSP. Locks 2/2.
+
+## 2026-07-18 — REVIEW 22 EXECUTED (the second constitutional review; window #1066-#1093)
+
+The R21 loop closed (9 resolved, 2 carried). The record's largest
+window declared: GOVERNANCE §16; five wall events; the theorem
+harvest (grammar/subfield/sign/LAW-O/Latin-square/reciprocity/
+landscape-chain/period/branch-dichotomy); the five discoveries
+(character-theory hearing; the McKay descent; the F4 skeleton;
+Q-C = c; the Galois pair) + the RR recognition + the two-seat sum
+rule; L92/L96/L97/L100-L108 all closed; the live frontier = H-EAR,
+H-CUSP, the generation leg, the gauge follow-on, the directional 13.
+Errors: E14 minted; E12's mechanism replaced (two instances
+repaired); the seat-label leak caught by the scanner on its author;
+the cd-chain operational pattern named with the worktree counter-rule
+adopted; cc2's post-seal drift (x2) = R22-3. The receipt loop at
+historical maximum: seven convergences, six reciprocal corrections.
+Seven action items (R22-1..7).
