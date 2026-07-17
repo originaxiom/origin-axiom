@@ -60,3 +60,5 @@ FIELD LEMMA: value ∈ Q(zeta_3k); sqrt2 ∈ Q(zeta_n) iff 8|n; 8|3k iff 8|k.
     kappa=37: tr = -0.000000000+0.000000000j
     kappa=38: tr = -0.000000000+0.000000000j
     kappa=39: tr = +0.000000000-0.000000000j
+    kappa=40: tr = -2.000000000-0.000000000j
+    kappa=41: tr = -0.000000000-0.000000000j
