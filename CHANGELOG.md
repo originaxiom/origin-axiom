@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B662 wave 3 + campaign close: the ear IS the Γ₅′ doublet
+
+### Added
+- **EXACT CORRESPONDENCE (cell I):** the hearing representation = the
+  Γ₅′-doublet 2̂′ (all 9 classes, exact); the Galois pair = (2̂′, 2̂);
+  **H129 resolved with mechanism** — weight 5 forced by E₈-exponent
+  arithmetic (independently re-derived). PLACEMENT → CANDIDATE
+  FUNCTOR; L108 opened (the modular-form leg).
+- THE CAMPAIGN CLOSES: nine cells, nine sealed outcomes
+  (CAMPAIGN_SYNTHESIS.md). Locks 5/5.
+
 ## 2026-07-17 — B664: the hearing landscape theorem (proved; two claims corrected)
 
 ### Added
