@@ -5781,3 +5781,19 @@ CELL F' (the resurgent S2 extraction — research-grade); CELL G'
 (the bronze McKay rung, conditional on cell1). Corrections list for
 chat1 relay-ready (8 items; the silver/R2L erratum now standing at
 four occurrences).
+
+## 2026-07-17 — B668: THE TRIAGE RECONCILIATION (cc2's catch adopted; F' re-scoped)
+
+cc2's independent triage of the seven-track proposal converges with
+B667 track by track (same verdicts, same Koszul-parity observation on
+the 351 cup, same fourth silver correction). THE ADOPTED CATCH: F'
+as sealed dies against our own melody theorem — a periodic ladder
+(P = 175560) has zero 1/k-asymptotic content; no S2 is extractable
+from it; B667's F' inherited chat1's error, owned and RE-SCOPED
+(ADDENDUM_1 amendment: the asymptotics derivation note — classify
+banked observables by genuine large-k behavior, the legal-target
+list first). Reciprocal correction to cc2: L104 already DECIDED
+(CONVENTION, B662/F) — their CP-decider framing is one day stale.
+Dedupe rulings: the 27bar-cup double-computation = the receipt loop
+(cross-check registered); loop-4 candidates (15)-(18) = the sealed
+A'/B'/C' — this seat runs them, cc2 verifies on receipt.
