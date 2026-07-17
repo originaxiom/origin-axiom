@@ -1,0 +1,28 @@
+# ORIGINALS_MANIFEST — cc2's anatomy loop-4 packet (delta; zip sha d35732b4)
+# sha256 AS RECEIVED (pre-patch):
+44740a4595418e052b93a172e39ff467d08ef398f7e4d20323d5672ac5aef844  packet/FRONTIER.md
+ef281c7e6fc2ca1fab8ddc4d99443fb27a519c0f589a8c959ce6501f82bd0e04  packet/SEALS.txt
+15b1c18a34b9bb9ad2ae447a5850ba8779d22ecdd98c092bba66b1ec4c604a71  packet/STATUS.md
+3f67daf82f007d527b168fc1cd0ca3c3d404d185f83ce2d8ad65df4370922277  packet/TRACK_H_ADJUDICATION_CC2.md
+5d7b6e9e64905ebfb37947d3e6b5a76347efb61808135cd02b396b7bd2e164f0  packet/VERDICT_LEDGER.md
+56e5a59ca923601a4354e96da32b9fe62466d6a182d6d357c5338cb647b352e8  packet/loop4/PREREG_L4.md
+faf5fe543f13d36f7576fb897740cda25a29a6b43cf5777fbbe18bb5f8317cf4  packet/loop4/d1_pairing/FINDINGS_CC2.md
+b4a54e3d3505a3d8ec35b57a476643528ad40d7d2a3a7de0362f426a58bf068c  packet/loop4/d1_pairing/d1_pairing.py
+18ce99d96fba18dae0a5b8d69b18779d074dfdb41bca16412d13a5239c474342  packet/loop4/d1_pairing/d1_results.json
+7a0cd49e29cf2a508a9a044224be526f928155c91ee2d07d0ffee551fb9324b9  packet/loop4/d1_pairing/d1_run.log
+c79b6fd07ae5ab87504df7ccc50978c1d644b12cde4c6f9ece9824a30136bffa  packet/loop4/d2_351/FINDINGS_CC2.md
+9aa96cf4d82dd20cdf2c22e6da7214a8c031ddf1e4c239bc9029e1701709e3a5  packet/loop4/d2_351/d2_351.py
+2f7e6242a8fdb180f32b8d20948f4f5be82fa2e5c57942d6ba80b36d4bcd426c  packet/loop4/d2_351/d2_modnull.py
+bf463d2d8cabad0fe277b47979ff8991c2c6754b79921d2d968c0bb8f23ff35a  packet/loop4/d2_351/d2_results.json
+0038dca0b18884efba30ead252c74ae0ca9c73b7230373c23a7054ccc83a61ef  packet/loop4/d2_351/d2_run.log
+01107ca5f443657b660a38308f47ccae809c1a73ea51ebe3081bf694039f0695  packet/loop4/d3_silvercup/FINDINGS_CC2.md
+beebf7e6eff81b066e9cc16a8708adcb39189e9322d8de93af8929d205ce9761  packet/loop4/d3_silvercup/d3_results.json
+29392bbeba18a604a785dff90f1af6ec110c35014ced2956290efaa8cecb36b4  packet/loop4/d3_silvercup/d3_run.log
+d9a3996e158977ef815690500c699a813c27414440f9cca6503344f897c71231  packet/loop4/d3_silvercup/d3_silvercup.py
+063880edf3000182f7a8427425b73b4882d0f8506ff833dea3cb76e2d2323ba7  packet/loop4/d4_ceiling/d4_ceiling.py
+82ee34688d082086e6cdc052eccca262f807a8f00e4324c96740ea9b8c9347f2  packet/loop4/d4_ceiling/d4_run.log
+# PATCHES: seat paths/model names as standard; logs -> _log.txt.
+# SEALS: 5/25 raw — DISPOSITION: the MISSING rows are loops 1-3 files not shipped
+# in this delta (verified in B670's packet); FRONTIER.md living (expected);
+# PREREG_L4.md + d1 FINDINGS post-seal drift = the SECOND instance of the
+# flagged pattern (B670 manifest) — question to cc2 renewed: explain or re-seal.

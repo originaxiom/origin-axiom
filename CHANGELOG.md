@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B673: the loop-4 integration (L106 closes)
+
+### Resolved
+- The generation sum rule TWO-SEAT verified (provisional lifted);
+  the slot saturation + graded sign rule convergent across
+  independent pipelines (D2 × A2-repair); the coupling structural
+  (silver); L106 formally closed. D4 = overnight annex; their loop 5
+  opened. Post-seal prereg drift: second instance flagged.
+
 ## 2026-07-18 — B671: the extraction first (the gauge verdict + the sum rule)
 
 ### Resolved

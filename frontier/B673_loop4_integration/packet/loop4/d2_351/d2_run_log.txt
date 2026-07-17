@@ -1,0 +1,263 @@
+[     0.0s] STEP 0: exec c1_vecmassey.py verbatim through its own STEP C (BASE_ij, ACONST, leftnull=ker(dual_big^T), OBS/ZERO_FLAG for the 27bar slot, Koszul + coboundary-shift controls) -- reusing the group presentation, classes u_0..u_4, C3/dot/v0, Fox/coboundary machinery, and witness method WHOLESALE, per the cell's instructions. Cuts BEFORE c1's own sys.exit() branch (the SEALED FORK it takes on nonvanishing). ONE-TIME cost (~770s); cached to <seat-workdir>/anatomy/loop4/d2_351/_step0_cache.pkl afterward for any future rerun.
+[    0.0s] STEP 0: exec w1_portal.py verbatim through its own STEP 5 (B575 prefix; pkl rehydration; C27/v0/N/C3; dual Fox machinery dual_big; h1(dual)=5 gate; dual class basis + reduce_to_classes)...
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   90.9s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  110.5s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  110.7s] G2a PASS: principal sl2 relations exact
+[  114.9s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  116.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[  116.7s]   B575 prefix done (117s)
+[  116.7s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[  116.7s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[  117.5s]   relator gate R1: PASS
+[  118.2s]   relator gate R2: PASS
+[  119.9s]   relator gate R3: PASS
+[  119.9s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[  120.1s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  120.1s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[  120.1s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[  120.1s]   v0 invariant under C27 (conjugate holonomy): PASS
+[  120.1s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[  120.1s]   zero-weight-sum sorted triples: 45
+[  120.1s]   invariance equations: 180
+[  120.5s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  120.5s]   nonzero sorted coefficients: 45/45
+[  120.5s]   N-invariance under A27: PASS
+[  120.5s]   N-invariance under B27: PASS
+[  120.5s]   N-invariance under C27: PASS
+[  120.5s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[  125.0s]   dual Fox-derivative matrix built (4s)
+[  125.0s]   cocycle-property spot check on class 0 (before proceeding)...
+[  125.0s]   P(u_0) in Z1(dual): PASS
+[  125.0s] STEP 5: Z1(dual)/B1(dual) and h1(D; 27-bar); extract the dual class basis...
+[  128.3s]   Z1(dual) dim = 31, coboundary rank = 26
+[  128.3s]   h0(dual) = 1, h1(dual) = 5   [GATE: h1(dual)=5]
+[  140.8s]   extracted 5 dual class representatives
+[  140.8s]   w1_portal STEP0-5 done (141s)
+[  140.8s]   inherited w1_portal gates (through STEP5) all pass: True
+[  140.8s] STEP A: h^2(D;27-bar)=5 CONSISTENCY GATE (Poincare duality + UCT, K a field): h0(dual)=h3(primal)=1(indep computed)=1, h1(dual)=5(gated), h3(dual)=h0(primal)=1(v0_dim1 gate); Euler char forces h2(dual)=5...
+[  140.8s]   h0(dual)=1  h1(dual)=5  h3(dual)[PD from h0(primal)]=1  =>  h2(dual) forced = 5 by Euler(=0) consistency: PASS
+[  140.8s] STEP B: small glue -- cocycle_val/rho_word (s4_massshape.py's own tiny pattern, re-stated to avoid a second redundant B575 exec) + the vector cup c_ij(g,h) = C3(u_i(g), rho(g).u_j(h))...
+[  140.8s]   CONTROL: C3 is exactly SYMMETRIC (C3(u,v)=C3(v,u)) -- CFULL is built totally symmetric under all 6 perms of each sorted support triple...
+[  141.0s]   C3(u,v)==C3(v,u) on test vectors: PASS
+[  141.0s]   CONTROL: C3 equivariance C3(rho(g)x,rho(g)y) = rho-bar(g).C3(x,y) (this is what makes c_ij's cocycle identity a general consequence, not a coincidence)...
+[  141.0s]   C3(gx,gy) == rho-bar(g).C3(x,y) for g in a,b,c: True {'a': True, 'b': True, 'c': True}
+[  142.8s]   delta c_22 = 0 on 5 generator triples: PASS
+[  144.5s]   delta c_23 = 0 on 5 generator triples: PASS
+[  146.2s]   delta c_24 = 0 on 5 generator triples: PASS
+[  147.9s]   delta c_32 = 0 on 5 generator triples: PASS
+[  149.6s]   delta c_33 = 0 on 5 generator triples: PASS
+[  151.3s]   delta c_34 = 0 on 5 generator triples: PASS
+[  153.0s]   delta c_42 = 0 on 5 generator triples: PASS
+[  154.7s]   delta c_43 = 0 on 5 generator triples: PASS
+[  156.4s]   delta c_44 = 0 on 5 generator triples: PASS
+[  156.4s] STEP C: the solvability test -- BASE_ij (constant part of the bounding recursion at y=0) for all 9 (i,j) in solo x solo, and ker(F^T) (F = w1_portal's dual_big, reused verbatim) computed ONCE...
+[  592.7s]   BASE_ij built for all 9 pairs (436.2s)
+[  595.7s]   ker(F^T) [F=dual_big, the reused Fox-derivative matrix] dim = 31  (3.1s)  [= dim C^2(dual)/B^2(dual), the SUPERSPACE containing the true 5-dim H^2(dual) as a subquotient]
+[  599.2s]   ker(F^T) dim == ker(F) dim [square matrix rank-nullity check]: True
+[  599.2s]   [c_22]: ZERO  (nonzero obstruction coords: 0/31)
+[  599.2s]   [c_23]: NONZERO  (nonzero obstruction coords: 4/31)
+[  599.2s]   [c_24]: NONZERO  (nonzero obstruction coords: 2/31)
+[  599.3s]   [c_32]: NONZERO  (nonzero obstruction coords: 4/31)
+[  599.3s]   [c_33]: ZERO  (nonzero obstruction coords: 0/31)
+[  599.3s]   [c_34]: NONZERO  (nonzero obstruction coords: 4/31)
+[  599.3s]   [c_42]: NONZERO  (nonzero obstruction coords: 2/31)
+[  599.3s]   [c_43]: NONZERO  (nonzero obstruction coords: 4/31)
+[  599.4s]   [c_44]: ZERO  (nonzero obstruction coords: 0/31)
+[  599.4s]   3x3 pattern (rows i, cols j, solo order 2,3,4) -- True = ZERO class:
+[  599.4s]     [True, False, False]
+[  599.4s]     [False, True, False]
+[  599.4s]     [False, False, True]
+[  599.4s]   ALL off-diagonal (i!=j) solo classes ZERO: NO -- SEALED FORK: STOP HERE
+[  599.4s]   CONTROL: Koszul graded-commutativity prediction [c_ij] = -[c_ji] (C3 symmetric, gated above) -- test [c_ij]+[c_ji] = 0 for all 9 pairs (diagonal: predicts [c_ii]=0)...
+[  599.5s]   [c_ij]+[c_ji]=0 for all (i,j) in solo x solo: True  (per-pair: {'22': True, '23': True, '24': True, '32': True, '33': True, '34': True, '42': True, '43': True, '44': True})
+[  599.5s]   diagonal [c_ii]=0 for i in solo (Koszul self-cup consequence): True
+[  599.5s]   CONTROL: coboundary-shift invariance -- shift u_2 (classes[2]) by a primal coboundary, recompute obstruction coords for (2,3) and (2,4), verify UNCHANGED exactly...
+[  648.6s]   obstruction coords for [c_23] unchanged under coboundary shift of u_2: True
+[  696.4s]   obstruction coords for [c_24] unchanged under coboundary shift of u_2: True
+[  696.4s]   exactness: K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats anywhere in the C1 path: PASS by construction
+[   696.4s]   c1_vecmassey STEP0-C done (696s)
+[   696.4s]   cache SKIPPED (non-fatal: PicklingError("Can't pickle <class 'b575_prefix.K'>: import of module 'b575_prefix' failed")) -- proceeding without cache
+[   696.4s]   inherited c1 gates all pass (excluding the fork-outcome key {'c1_step1_all_offdiag_zero'}, False BY DESIGN -- see note above, not a failure): True
+[   696.4s]   [note] c1_step1_all_offdiag_zero = False (False = C1's NONVANISHING fork fired -- the banked discovery this cell builds on, not a gate failure)
+[   696.4s] STEP 1: CONTROL -- C3_ext(outer(x,y)) == C3(x,y) exactly (code-correctness control: this is what makes the 27bar slot of the FULL cup cocycle DEFINITIONALLY identical to C1's c_ij, not merely cohomologous)...
+[   696.4s]   C3_ext(outer(x,y)) == C3(x,y): True
+[   696.5s]   C3_ext(antisym part) == 0 (pi factors through Sym^2): True
+[   696.5s] STEP 2: THE 27BAR-SLOT GATE (sealed falsifier) -- the full cocycle's 27bar component is DEFINITIONALLY C1's c_ij (STEP1 control); cite C1's own banked BASE/obstruction/witness data (recomputed here via the IDENTICAL exec'd machinery) as this cell's 27bar-slot answer, and cross- check byte-for-byte against the banked c1_results.json...
+[   696.5s]   [c_23] 27bar-slot recheck: fresh witness pairing = (-7983360/13+2661120/13*sqrt(-3)) vs banked (-7983360/13+2661120/13*sqrt(-3)): MATCH
+[   696.5s]   [c_24] 27bar-slot recheck: fresh witness pairing = (1-1/3*sqrt(-3)) vs banked (1-1/3*sqrt(-3)): MATCH
+[   696.5s]   [c_34] 27bar-slot recheck: fresh witness pairing = (-1-1/3*sqrt(-3)) vs banked (-1-1/3*sqrt(-3)): MATCH
+[   696.5s]   [c_32] 27bar-slot recheck: fresh witness pairing = (7983360/13-2661120/13*sqrt(-3)) vs banked (7983360/13-2661120/13*sqrt(-3)): MATCH
+[   696.5s]   [c_42] 27bar-slot recheck: fresh witness pairing = (-1+1/3*sqrt(-3)) vs banked (-1+1/3*sqrt(-3)): MATCH
+[   696.5s]   [c_43] 27bar-slot recheck: fresh witness pairing = (1+1/3*sqrt(-3)) vs banked (1+1/3*sqrt(-3)): MATCH
+[   696.5s]   GATE 27bar-reproduces-C1: PASS
+[   696.5s] STEP 3: THE 351' SPLITTING -- Gram matrix G[p][r] = sum_{i,j} CFULL[(i,j,p)]*CFULL[(i,j,r)]; verify G == lambda*Identity_27 EXACTLY (the fact that makes an EXPLICIT equivariant section iota:27bar->Sym^2 constructible from the SAME cubic-form structure constants as C3)...
+[   696.5s]   G == lambda*I: off-diag zero=True, diag const=True, lambda=10: PASS
+[   696.5s]   CONTROL pi(iota(w)) == w exactly (genuine section): True
+[   696.5s]   CONTROL Pi_351'(M) lands in ker(pi) exactly: True
+[   697.1s]   CONTROL ker(pi) is g-invariant (g=a,b,c): True {'a': True, 'b': True, 'c': True}
+[   697.1s] STEP 4: basis index sets for the two slots -- Lambda^2(27) [dim 351, antisymmetric matrices] and Sym^2(27) [dim 378, symmetric matrices, carrying the 351'-cocycle via project_351prime]...
+[   697.1s]   dim Lambda^2(27) = 351  (expect 351)
+[   697.1s]   dim Sym^2(27) = 378  (expect 378 = 27bar[27] + 351'[351])
+[  7233.2s]   CONTROL conj_matrix_via_columns matches brute-force conj_action (8 spot checks): True
+[  7233.2s] STEP 5: build the two Fox-derivative matrices F_L351 (1053x1053) and F_S351p (1134x1134) -- structured assembly, O(dim^2) per relator letter (NEVER a dense dim x dim matrix multiply)...
+[  7344.8s]   F_L351 built: 1053x1053 (111.6s)
+[  7474.1s]   F_S351p built: 1134x1134 (129.4s)
+[  7474.1s]   both Fox matrices built (240.9s)
+[  7474.2s] STEP 6: ker(F_W^T) for each slot -- exact nullspace over K=Q(sqrt(-3)), progress-logged (this is the heaviest linear-algebra step; sizes 1053 and 1134)...
+[  7474.2s]   computing ker(F_L351^T) via modular discovery + EXACT certificate (GF(p) RREF under both sqrt(-3) embeddings, CRT + rational reconstruction, then every kernel vector verified F^T v = 0 over K; completeness from the rank_Fp <= rank_Q bound)...
+[  7494.5s]     [L351] mod 1073741827: rank 656, ker dim 397 (both embeddings)
+[  7514.5s]     [L351] mod 1073741833: rank 656, ker dim 397 (both embeddings)
+[  7535.4s]     [L351] mod 1073741839: rank 656, ker dim 397 (both embeddings)
+[  7556.4s]     [L351] mod 1073741857: rank 656, ker dim 397 (both embeddings)
+[  7556.4s]     [L351] consensus: rank 656, ker dim 397, primes agreeing 4
+[  7577.6s]     [L351] mod 1073741953: rank 656, ker dim 397 (both embeddings)
+[  7598.8s]     [L351] mod 1073741971: rank 656, ker dim 397 (both embeddings)
+[  7620.5s]     [L351] mod 1073742037: rank 656, ker dim 397 (both embeddings)
+[  7641.7s]     [L351] mod 1073742073: rank 656, ker dim 397 (both embeddings)
+[  7641.7s]     [L351] reconstruction retry with 8 agreeing primes
+[  7663.9s]     [L351] mod 1073742091: rank 656, ker dim 397 (both embeddings)
+[  7684.8s]     [L351] mod 1073742169: rank 656, ker dim 397 (both embeddings)
+[  7705.9s]     [L351] mod 1073742223: rank 656, ker dim 397 (both embeddings)
+[  7728.6s]     [L351] mod 1073742259: rank 656, ker dim 397 (both embeddings)
+[  7728.6s]     [L351] reconstruction retry with 12 agreeing primes
+[  7759.5s]     [L351] exact-verified 1/397 (0.8s)
+[  7778.4s]     [L351] exact-verified 11/397 (19.8s)
+[  7809.5s]     [L351] exact-verified 21/397 (50.8s)
+[  7829.3s]     [L351] exact-verified 31/397 (70.6s)
+[  7855.8s]     [L351] exact-verified 41/397 (97.2s)
+[  7919.8s]     [L351] exact-verified 51/397 (161.2s)
+[  8009.9s]     [L351] exact-verified 61/397 (251.3s)
+[  8095.7s]     [L351] exact-verified 71/397 (337.1s)
+[  8197.6s]     [L351] exact-verified 81/397 (438.9s)
+[  8287.5s]     [L351] exact-verified 91/397 (528.9s)
+[  8371.2s]     [L351] exact-verified 101/397 (612.6s)
+[  8457.3s]     [L351] exact-verified 111/397 (698.7s)
+[  8538.2s]     [L351] exact-verified 121/397 (779.5s)
+[  8634.9s]     [L351] exact-verified 131/397 (876.3s)
+[  8720.6s]     [L351] exact-verified 141/397 (961.9s)
+[  8807.7s]     [L351] exact-verified 151/397 (1049.1s)
+[  8899.2s]     [L351] exact-verified 161/397 (1140.6s)
+[  8982.2s]     [L351] exact-verified 171/397 (1223.5s)
+[  9062.9s]     [L351] exact-verified 181/397 (1304.2s)
+[  9140.6s]     [L351] exact-verified 191/397 (1382.0s)
+[  9219.5s]     [L351] exact-verified 201/397 (1460.8s)
+[  9300.4s]     [L351] exact-verified 211/397 (1541.7s)
+[  9383.4s]     [L351] exact-verified 221/397 (1624.7s)
+[  9473.0s]     [L351] exact-verified 231/397 (1714.3s)
+[  9568.1s]     [L351] exact-verified 241/397 (1809.5s)
+[  9670.3s]     [L351] exact-verified 251/397 (1911.7s)
+[  9774.3s]     [L351] exact-verified 261/397 (2015.7s)
+[  9867.7s]     [L351] exact-verified 271/397 (2109.0s)
+[  9953.0s]     [L351] exact-verified 281/397 (2194.3s)
+[ 10034.0s]     [L351] exact-verified 291/397 (2275.4s)
+[ 10115.4s]     [L351] exact-verified 301/397 (2356.8s)
+[ 10204.1s]     [L351] exact-verified 311/397 (2445.5s)
+[ 10282.9s]     [L351] exact-verified 321/397 (2524.2s)
+[ 10360.5s]     [L351] exact-verified 331/397 (2601.8s)
+[ 10437.7s]     [L351] exact-verified 341/397 (2679.1s)
+[ 10514.9s]     [L351] exact-verified 351/397 (2756.3s)
+[ 10594.1s]     [L351] exact-verified 361/397 (2835.5s)
+[ 10669.6s]     [L351] exact-verified 371/397 (2911.0s)
+[ 10745.0s]     [L351] exact-verified 381/397 (2986.3s)
+[ 10814.7s]     [L351] exact-verified 391/397 (3056.1s)
+[ 10856.1s]     [L351] EXACT VERIFY: all 397 kernel vectors satisfy F^T v = 0 over K; completeness: dim ker_Q <= 1053 - rank_Fp(656) = 397 = verified count -> basis COMPLETE (3097.5s)
+[ 10856.2s]   ker(F_L351^T) dim = 397  (3382.0s)
+[ 10856.2s]   computing ker(F_S351p^T) via modular discovery + EXACT certificate (GF(p) RREF under both sqrt(-3) embeddings, CRT + rational reconstruction, then every kernel vector verified F^T v = 0 over K; completeness from the rank_Fp <= rank_Q bound)...
+[ 10882.6s]     [S351p] mod 1073741827: rank 710, ker dim 424 (both embeddings)
+[ 10908.7s]     [S351p] mod 1073741833: rank 710, ker dim 424 (both embeddings)
+[ 10934.7s]     [S351p] mod 1073741839: rank 710, ker dim 424 (both embeddings)
+[ 10960.2s]     [S351p] mod 1073741857: rank 710, ker dim 424 (both embeddings)
+[ 10960.2s]     [S351p] consensus: rank 710, ker dim 424, primes agreeing 4
+[ 10987.1s]     [S351p] mod 1073741953: rank 710, ker dim 424 (both embeddings)
+[ 11013.5s]     [S351p] mod 1073741971: rank 710, ker dim 424 (both embeddings)
+[ 11039.7s]     [S351p] mod 1073742037: rank 710, ker dim 424 (both embeddings)
+[ 11066.0s]     [S351p] mod 1073742073: rank 710, ker dim 424 (both embeddings)
+[ 11066.0s]     [S351p] reconstruction retry with 8 agreeing primes
+[ 11094.0s]     [S351p] mod 1073742091: rank 710, ker dim 424 (both embeddings)
+[ 11120.5s]     [S351p] mod 1073742169: rank 710, ker dim 424 (both embeddings)
+[ 11147.0s]     [S351p] mod 1073742223: rank 710, ker dim 424 (both embeddings)
+[ 11173.3s]     [S351p] mod 1073742259: rank 710, ker dim 424 (both embeddings)
+[ 11173.3s]     [S351p] reconstruction retry with 12 agreeing primes
+[ 11203.9s]     [S351p] exact-verified 1/424 (1.3s)
+[ 11224.8s]     [S351p] exact-verified 11/424 (22.2s)
+[ 11260.8s]     [S351p] exact-verified 21/424 (58.3s)
+[ 11282.5s]     [S351p] exact-verified 31/424 (79.9s)
+[ 11315.2s]     [S351p] exact-verified 41/424 (112.7s)
+[ 11393.3s]     [S351p] exact-verified 51/424 (190.8s)
+[ 11498.7s]     [S351p] exact-verified 61/424 (296.2s)
+[ 11594.6s]     [S351p] exact-verified 71/424 (392.0s)
+[ 11707.9s]     [S351p] exact-verified 81/424 (505.4s)
+[ 11819.9s]     [S351p] exact-verified 91/424 (617.3s)
+[ 11925.5s]     [S351p] exact-verified 101/424 (722.9s)
+[ 12042.0s]     [S351p] exact-verified 111/424 (839.5s)
+[ 12150.8s]     [S351p] exact-verified 121/424 (948.2s)
+[ 12260.4s]     [S351p] exact-verified 131/424 (1057.8s)
+[ 12372.0s]     [S351p] exact-verified 141/424 (1169.4s)
+[ 12475.2s]     [S351p] exact-verified 151/424 (1272.7s)
+[ 12583.3s]     [S351p] exact-verified 161/424 (1380.7s)
+[ 12681.2s]     [S351p] exact-verified 171/424 (1478.6s)
+[ 12785.0s]     [S351p] exact-verified 181/424 (1582.4s)
+[ 12885.0s]     [S351p] exact-verified 191/424 (1682.4s)
+[ 12989.9s]     [S351p] exact-verified 201/424 (1787.3s)
+[ 13097.4s]     [S351p] exact-verified 211/424 (1894.9s)
+[ 13205.6s]     [S351p] exact-verified 221/424 (2003.0s)
+[ 13311.3s]     [S351p] exact-verified 231/424 (2108.7s)
+[ 13424.4s]     [S351p] exact-verified 241/424 (2221.8s)
+[ 13535.5s]     [S351p] exact-verified 251/424 (2332.9s)
+[ 13640.1s]     [S351p] exact-verified 261/424 (2437.6s)
+[ 13735.1s]     [S351p] exact-verified 271/424 (2532.5s)
+[ 13838.4s]     [S351p] exact-verified 281/424 (2635.9s)
+[ 13933.1s]     [S351p] exact-verified 291/424 (2730.6s)
+[ 14028.9s]     [S351p] exact-verified 301/424 (2826.3s)
+[ 14120.2s]     [S351p] exact-verified 311/424 (2917.6s)
+[ 14209.7s]     [S351p] exact-verified 321/424 (3007.1s)
+[ 14297.8s]     [S351p] exact-verified 331/424 (3095.2s)
+[ 14387.6s]     [S351p] exact-verified 341/424 (3185.1s)
+[ 14476.1s]     [S351p] exact-verified 351/424 (3273.5s)
+[ 14563.7s]     [S351p] exact-verified 361/424 (3361.1s)
+[ 14650.4s]     [S351p] exact-verified 371/424 (3447.8s)
+[ 14738.0s]     [S351p] exact-verified 381/424 (3535.4s)
+[ 14824.0s]     [S351p] exact-verified 391/424 (3621.5s)
+[ 14916.2s]     [S351p] exact-verified 401/424 (3713.7s)
+[ 15001.0s]     [S351p] exact-verified 411/424 (3798.4s)
+[ 15083.4s]     [S351p] exact-verified 421/424 (3880.9s)
+[ 15107.5s]     [S351p] EXACT VERIFY: all 424 kernel vectors satisfy F^T v = 0 over K; completeness: dim ker_Q <= 1134 - rank_Fp(710) = 424 = verified count -> basis COMPLETE (3904.9s)
+[ 15107.7s]   ker(F_S351p^T) dim = 424  (4251.5s)
+[ 15107.7s] STEP 7: efficient (linear-in-word-length, incremental) BASE_ij construction per slot per pair, mirroring C1's a_const_table/b_eval pattern but avoiding its known O(L^2) recompute-from-scratch cost...
+[ 15107.7s]   pairs to compute: [(2, 3), (2, 4), (3, 2), (3, 4), (4, 2), (4, 3)]
+[ 15254.3s]   all BASE_ij built for both slots, 6 pairs (146.6s)
+[ 15254.3s] STEP 8: CONTROL -- cocycle identity delta(Cslot_ij) = 0 on TEST_TRIPLES for both slots (sanity check that project_slot's equivariance is not just claimed but exercised)...
+[ 15256.7s]   delta Cslot_L351_24 = 0 on 5 test triples: PASS
+[ 15259.0s]   delta Cslot_L351_23 = 0 on 5 test triples: PASS
+[ 15261.3s]   delta Cslot_L351_34 = 0 on 5 test triples: PASS
+[ 15264.1s]   delta Cslot_S351p_24 = 0 on 5 test triples: PASS
+[ 15266.7s]   delta Cslot_S351p_23 = 0 on 5 test triples: PASS
+[ 15269.5s]   delta Cslot_S351p_34 = 0 on 5 test triples: PASS
+[ 15269.5s]   all slot cocycle identities hold (15.2s): True
+[ 15269.5s] STEP 9: witness search -- obstruction coordinates, ZERO/NONZERO flags, witness validity (psi.F_W = 0 exactly), per slot per pair...
+[ 15274.5s]   [L351] [c_23]: SPEAKS  witness=(75442752000+25147584000*sqrt(-3))  valid=True  (nonzero coords 34/397)
+[ 15279.3s]   [L351] [c_24]: SPEAKS  witness=(-25147584000+8382528000*sqrt(-3))  valid=True  (nonzero coords 20/397)
+[ 15284.3s]   [L351] [c_32]: SPEAKS  witness=(75442752000+25147584000*sqrt(-3))  valid=True  (nonzero coords 34/397)
+[ 15288.9s]   [L351] [c_34]: SPEAKS  witness=(0+37800*sqrt(-3))  valid=True  (nonzero coords 38/397)
+[ 15293.8s]   [L351] [c_42]: SPEAKS  witness=(-25147584000+8382528000*sqrt(-3))  valid=True  (nonzero coords 20/397)
+[ 15298.5s]   [L351] [c_43]: SPEAKS  witness=(0+37800*sqrt(-3))  valid=True  (nonzero coords 38/397)
+[ 15304.0s]   [S351p] [c_23]: SPEAKS  witness=(30177100800/13+10059033600/13*sqrt(-3))  valid=True  (nonzero coords 40/424)
+[ 15309.6s]   [S351p] [c_24]: SPEAKS  witness=(23471078400-7823692800*sqrt(-3))  valid=True  (nonzero coords 22/424)
+[ 15315.1s]   [S351p] [c_32]: SPEAKS  witness=(-30177100800/13-10059033600/13*sqrt(-3))  valid=True  (nonzero coords 40/424)
+[ 15320.7s]   [S351p] [c_34]: SPEAKS  witness=(0-35280*sqrt(-3))  valid=True  (nonzero coords 40/424)
+[ 15326.3s]   [S351p] [c_42]: SPEAKS  witness=(-23471078400+7823692800*sqrt(-3))  valid=True  (nonzero coords 22/424)
+[ 15331.7s]   [S351p] [c_43]: SPEAKS  witness=(0+35280*sqrt(-3))  valid=True  (nonzero coords 40/424)
+[ 15331.7s] STEP 10: CONTROL -- Koszul antisymmetry [c_ij]+[c_ji]=0 per slot (C3 is symmetric on 27bar; antisym_part/project_351prime are built from M and M^T so the SAME graded-commutativity prediction applies)...
+[ 15376.2s]   Koszul [c_ij]+[c_ji]=0 holds for all pairs, both slots: False
+[ 15376.2s]   per-pair: {'L351_23': False, 'L351_24': False, 'L351_32': False, 'L351_34': False, 'L351_42': False, 'L351_43': False, 'S351p_23': True, 'S351p_24': True, 'S351p_32': True, 'S351p_34': True, 'S351p_42': True, 'S351p_43': True}
+[ 15376.2s]   exactness: K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats anywhere in the D2 path: PASS by construction
+[ 15376.2s] ALL GATES PASS: False
+[ 15376.2s] VERDICT ASSEMBLY
+[ 15376.2s]   slot verdicts: {'L351': 'SPEAKS', 'S351p': 'SPEAKS'}
+[ 15376.2s] saved <seat-workdir>/anatomy/loop4/d2_351/d2_results.json
+[ 15376.2s] DONE.
+EXIT_CODE=0

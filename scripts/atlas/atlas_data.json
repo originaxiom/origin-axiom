@@ -13644,6 +13644,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B673": {
+   "slug": "loop4 integration",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B669",
+    "B671",
+    "L106"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B67": {
    "slug": "figure eight apolynomial",
    "motifs": [
