@@ -5943,3 +5943,22 @@ form-match). D4 = overnight annex (the B669 ceiling cross-check
 fires on arrival). Loop 5 opened on their seat (E1 self-couplings,
 E2 silver split). L106 FORMALLY CLOSED. Seal hygiene: post-seal
 prereg drift second instance — renewed flag.
+
+## 2026-07-18 — B672: THE MINI-WAVE — the grading hunt FIRES (Rogers-Ramanujan); the branch tiebreak PROVEN
+
+THE RECOGNITION LEG OF L108 IS COMPLETE: the weight-5 doublet
+streams ARE Rogers-Ramanujan objects — comp1 = F1*eta^{48/5},
+comp2 = F2*eta^{48/5} (301 coefficients exact, two routes) => the
+component ratio IS R(q), the Rogers-Ramanujan continued fraction;
+the 2hat' doublet factors as eta^{24/5} x explicit F-polynomials.
+The golden object's flavor-doublet ratio = the golden ratio's own
+continued fraction. Prior-art of the quintic identities:
+NEEDS-SPECIALIST. The generation leg sharpened (four candidates dead
+with exact first mismatches; the ladder-certificate no-go exact).
+THE BRANCH-TIEBREAK LEMMA PROVEN AS AN EXACT DICHOTOMY (modulo
+H-CUSP): the cusp lattice Z[2sqrt-3] embeds canonically in the A2
+weight lattice Z[zeta3] — an isomorphism mod 5 onto the SL(2,F5)
+shadow's home plane — while A4's weight-lattice arithmetic (unique
+quadratic subfield Q(sqrt5), real) admits NO cusp quantization.
+Stage selection completes to the single branch modulo H-CUSP; L91's
+residuals consolidate to H-EAR + H-CUSP. Locks 2/2.

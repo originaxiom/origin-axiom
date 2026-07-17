@@ -1,0 +1,271 @@
+
+========================================================================
+PART A -- FORMALIZATION: what 'couples to' must mean (the banked functor)
+========================================================================
+
+D1 (couples-to; forced by the bank).  'The object couples to stage S
+through branch chi' :=  the theta-odd hearing functor equality
+    rho_hear^S = chi o red_kappa          (B644, verification-strength)
+where red_kappa is reduction of the monodromy group mod the conductor
+(5), and chi is one of the two Galois-conjugate 2-dim characters of
+SL(2,F5).  B650 (W2-G1) proved the module-linear channel is ZERO (the
+equivariance wall); W2-G2: the ONLY functorial channel is this group
+functor.  In the type system (B650 TYPES.md) the coupling is
+T_field/F-class data, and per K020 the branch = the stage-chosen
+position within the Galois orbit.
+
+CONSEQUENCE (pair-level bank, W32 Part 4): each surviving stage
+DETERMINES its branch -- SU(3)_2 realizes 2h' (-1/phi on the cat map),
+SU(5)_1 realizes 2h (+phi).  Therefore
+
+    THE BRANCH TIEBREAK == THE STAGE TIEBREAK:
+
+one more exact stage-level exclusion completes the selection, and the
+branch follows from the banked pair assignment.  No branch-level
+choice remains to be made once the stage is forced.
+
+D2 (cusp quantization; the W32 candidate made exact).  The object's
+cusp is a flat torus C/Lambda_cusp: the peripheral holonomy is
+parabolic, its translation lattice Lambda_cusp = Z<mu-translation,
+lambda-translation> carries the ONLY structure hyperbolic geometry
+puts on the cusp beyond the bare Z^2: the conformal class, i.e.
+multiplication by the cusp modulus tau (banked: tau = -2 sqrt-3,
+B637/B598).  A stage S with weight lattice P(S) carries a canonical
+torus arithmetic: the Coxeter element c_S (the principal rotation),
+and its ring Z[c_S] in End(P(S)).
+
+  A CUSP QUANTIZATION of the object by S := a nonzero Z-linear map
+     j : Lambda_cusp -> P(S)
+  together with a unital ring embedding
+     iota : Q(tau) = Q(sqrt-3)  ->  End_Q(P tensor Q),
+  such that (i) iota lands in the stage-structure-preserving
+  endomorphisms = the commutant of c_S, and (ii) j(alpha.v) =
+  iota(alpha).j(v)  (equivariance).  Conformality of j w.r.t. the two
+  quadratic forms is REQUIRED only up to one overall scale (the cusp
+  shape is defined up to scale).
+
+Why the commutant of the Coxeter ring is the canonical equivariance
+scale (and not something looser or tighter):
+  - full-Weyl commutant: W acts irreducibly on P tensor R for every
+    A_n, so the W-commutant is Q -- equivariance would be impossible
+    for EVERY stage (too tight; selects nothing).
+  - bare Q-linearity: any rank-2 subspace works for EVERY stage (too
+    loose; selects nothing).
+  - the Coxeter ring Z[c_S] is the unique intermediate canonical
+    arithmetic: it is exactly what makes the A_{n-1} lattice
+    cyclotomic (A_{n-1} = Z[zeta_n] as a Z[c]-module), i.e. the
+    stage's own 'complex structure' -- the mirror of the cusp's CM.
+This choice is PART of the principle (see the gap statement, Part F).
+
+D3 (the lemma to decide).  Does a cusp quantization exist for
+S = SU(3)_2 (A2) and fail for S = SU(5)_1 (A4)?
+
+
+========================================================================
+PART B -- THE CUSP SIDE, EXACT: the peripheral lattice of the object
+========================================================================
+
+B1. The discrete faithful rep over Q(sqrt-3) (exact).
+  presentation: <a, b | a w = w b>, w = b a^-1 b^-1 a  (S(5,3))
+  rho(a) = [[1,1],[0,1]], rho(b) = [[1,0],[c,1]]; solve the relation:
+  solutions c = [(1/2 - sqrt(3)*I/2,), (1/2 + sqrt(3)*I/2,)]
+  chosen nonabelian root c = 1/2 - sqrt(3)*I/2 ; minimal polynomial: x**2 - x + 1
+  => the rep is defined over Q(sqrt-3) -- the cusp field (banked).
+
+B2. The longitude, found by bounded search (floats, NON-DECISIVE),
+    then verified EXACTLY (decisive).
+  BFS over reduced words, length <= 11: 318 peripheral elements found
+  minimal nonzero imaginary translation: 3.464101615 (2*sqrt(3) = 3.464101615)
+  witness word: bABaaBAb  translation ~ (-2.2204460492503136e-16+3.4641016151377553j)  exponent sum 0
+  lattice corroboration: all 318 translations lie in Z + Z*tau, worst residual 4.57e-15  [NON-DECISIVE]
+
+  EXACT verification of the witness longitude word (decisive):
+  rho(word) = [[-1, -2*sqrt(3)*I], [0, -1]]
+  exact translation: 2*sqrt(3)*I
+  modulo the meridian (translation 1):  tau = 2*sqrt(3)*I  = +-2*sqrt(-3)  [matches the banked cusp modulus, B637/B598]
+
+  (classical anchor: the peripheral subgroup of a knot group is
+   exactly Z^2 = <meridian, longitude>, and the parabolic-fixed-point
+   stabilizer realizes it as the translation lattice.  With the exact
+   meridian translation 1 and exact longitude translation +-2 sqrt-3
+   above:)
+
+B3. THE CUSP LATTICE, exact:
+  Lambda_cusp = Z.1 + Z.(2 sqrt-3)   (sign/Z-shift do not change it)
+  Gram (form Re(z w-bar)): [[1, 0], [0, 12]] ; disc = 12
+  Note |tau|^2 = N(2 sqrt-3) = 12 = |disc|.
+  multiplier check: alpha.1 = p + sqrt(3)*I*q  -> coords (p, q/2) in basis (1, 2sqrt-3): need p in Z, q in 2Z
+                    alpha.tau = 2*sqrt(3)*I*p - 6*q  -> coords (-6q, p): automatic
+  => End(Lambda_cusp) = Z + Z.(2 sqrt-3) = Z[2 sqrt-3] = Lambda_cusp
+     (the cusp lattice IS an order in the cusp field Q(sqrt-3):
+      closed under multiplication -- tau^2 = -12 )
+  disc Z[2 sqrt-3] = -48 = 4^2 . (-3)  -> CONDUCTOR 4 in the
+  maximal order Z[omega] (Eisenstein), disc -3.
+  saturation by the maximal order: Z[omega].Lambda_cusp contains
+  Z[omega].1 = Z[omega]; and (2 sqrt-3)Z[omega] subset Z[omega];
+  => saturation = Z[omega] exactly (index 1).
+  index [Z[omega] : Lambda_cusp]: 2 sqrt-3 = 2 + 4 omega, basis matrix [[1, 0], [2, 4]] -> index = 4 (= conductor... see below)
+  (check: omega = (-1+sqrt-3)/2 satisfies omega^2+omega+1 = 0 ; sqrt-3 = 1 + 2 omega )
+
+  SUMMARY (cusp side, exact):
+   Lambda_cusp = the order Z[2 sqrt-3], conductor 4, in Q(sqrt-3);
+   Gram [[1,0],[0,12]], disc 12; CM field = Q(sqrt-3) = Q(omega);
+   its maximal-order saturation = Z[omega] = the Eisenstein lattice.
+
+========================================================================
+PART C -- THE A2 STAGE (SU(3)_2): the canonical map EXISTS (exact)
+========================================================================
+
+C1. weight-lattice Gram (fundamental-weight basis) = C^-1 = [[2/3, 1/3], [1/3, 2/3]] ; disc = 1/3 ; P/Q = Z/3 (det C = 3)
+C2. Coxeter element c = s1 s2 = [[-1, -1], [1, 0]]
+    char poly: x**2 + x + 1  (= Phi_3; h = 3)
+    c is orthogonal for the Gram form; det c = 1
+    (2c + 1)^2 = [[-3, 0], [0, -3]]  = -3.I  -- sqrt(-3) LIVES IN Z[c]
+    commutant of c: solve Mc = cM -> {M11: -M21 + M22, M12: -M21}  -> 2 free parameters -> commutant = Q[c] = Q(sqrt-3).  EXACT.
+
+C3. THE CANONICAL MAP j : Lambda_cusp -> P(A2).
+    generator: v = omega_1; det[v | c v] = 1  -> P is FREE of rank 1 over Z[c] (P = Z[c].v = Z[zeta_3])
+    j: 1 |-> v,  2 sqrt-3 |-> iota(2 sqrt-3).v = (4c+2)v = [-2, 4]
+    image basis matrix [j(1) | j(tau)] = [[1, -2], [0, 4]] ; index in P = 4  (= the conductor 4 of the cusp order)
+    Gram of the image: [[ 2/3 , 0 ],[ 0 , 8 ]] = (2/3) . [[1,0],[0,12]]  -- CONFORMAL, one scale 2/3
+    equivariance: by construction j(alpha.z) = iota(alpha).j(z) with
+    iota(sqrt-3) = 2c+1  (the other embedding -(2c+1) = the complex-
+    conjugate/orientation choice -- exactly the banked zeta_6-unit
+    ambiguity of B637's omega').
+    saturation: Z[c].j(Lambda_cusp) = Z[c].v = P  (det +-1 above)
+    -- the maximal-order saturation of the cusp lattice IS the full
+    weight lattice.  The map is canonical: unique up to the stage's
+    lattice units Z[c]^* = {+-c^k} (the hexagon), the Galois pair, and
+    the one conformal scale.
+
+    => CUSP QUANTIZATION BY THE A2 STAGE EXISTS -- explicitly.
+C4. level-2 conductor compatibility (kappa = 5 = the conductor):
+    Phi_3 mod 5 irreducible? True  -> 5 is INERT in Z[omega]: P/5P = F_25, an irreducible F_5[c]-plane
+    gcd(index 4, kappa 5) = 1  -> j mod 5 : Lambda_cusp/5 -> P/5P is an ISOMORPHISM of F_5-planes
+    -- the canonical map is invertible exactly at the conductor:
+    the cusp torus's mod-5 points ARE the stage's mod-5 plane,
+    the home of B644's SL(2,F5) shadow.  [exact remark]
+
+========================================================================
+PART D -- THE A4 STAGE (SU(5)_1): the canonical map CANNOT EXIST (exact)
+========================================================================
+
+D1. weight Gram = C^-1 (4x4), disc = 1/5 ; det C = 5  -> P/Q = Z/5
+    Coxeter element c4 = s1 s2 s3 s4; char poly: x**4 + x**3 + x**2 + x + 1
+    = Phi_5 (h = 5): Z[c4] = Z[zeta_5]; the A4 lattice is the
+      zeta_5-cyclotomic lattice -- weight-lattice field Q(zeta_5).
+    c4 orthogonal for the Gram form; det c4 = 1
+
+D2. the commutant of c4 (where iota must land):
+    solve M c4 = c4 M:  12 constrained of 16 -> 4 free parameters
+    I, c4, c4^2, c4^3 rank: 4  -> commutant = Q[c4], a FIELD = Q(zeta_5) (Phi_5 irreducible).
+
+D3. is there z in Q[c4] with z^2 = tau^2 = -12 (or -3)?  EXACT NO:
+    (i) Phi_5 irreducible over Q: True
+    (ii) t^k (k=2,3,4) are again roots mod Phi_5 -> the field is
+         GALOIS over Q; group = (Z/5)^* (t -> t^k), cyclic of
+         order 4 (generated by 2: 2,4,3,1 mod 5).
+    (iii) a cyclic C4 has EXACTLY ONE subgroup of order 2 (k=4),
+          hence exactly one quadratic subfield.
+    (iv) eta = t + t^4 (fixed by k=4): eta^2 + eta - 1 = 0 mod Phi_5
+         -> the unique quadratic subfield = Q(eta) = Q(sqrt5), REAL.
+    (v) z = p + q.eta with z^2 = -12: (p^2+q^2) + (2pq - q^2) eta
+        = -12  ->  {q(2p-q) = 0, p^2 + q^2 = -12}:
+        q = 0 -> p^2 = -12 (no rational); q = 2p -> 5p^2 = -12 (no).
+        rational solutions found by sympy: []  (empty)
+        same for z^2 = -3: rational solutions: []  (empty)
+    (vi) CONCLUSION: any z with z^2 = -12 would generate a quadratic
+         subfield isomorphic to Q(sqrt-3); the only quadratic subfield
+         of Q(zeta_5) is the REAL field Q(sqrt5), which contains no
+         square root of a negative rational.  NO SUCH z EXISTS.
+    positive control: x^2+3 over Q(sqrt-3): (x - sqrt(3)*I)*(x + sqrt(3)*I)  (splits)
+
+D4. THE NONEXISTENCE, assembled:
+    a cusp quantization (D2) of the object by SU(5)_1 requires
+    iota : Q(sqrt-3) -> commutant(c4) = Q[c4] = Q(zeta_5), unital,
+    with iota(2 sqrt-3)^2 = -12.  By D3 no element of Q(zeta_5)
+    squares to -12 (or -3).  Hence iota does not exist; a fortiori no
+    nonzero equivariant j exists (equivariance would make ker j an
+    iota-stable subspace of the 1-dimensional Q(sqrt-3)-line
+    Lambda_cusp tensor Q, so j nonzero would be injective and force
+    iota).  EXACT, no float content.
+
+    (Field-door contrast, cf. the W32 SU(6)_1 exclusion: this is NOT
+    the cyclotomic-field door -- SU(5)_1's full modular field Q(zeta_30)
+    DOES contain sqrt-3.  The obstruction is the WEIGHT LATTICE's own
+    arithmetic Z[c4] = Z[zeta_5]: the stage's torus has no room for the
+    cusp's complex multiplication.  The lattice, not the ambient
+    cyclotomic field, is the discriminating structure -- exactly as the
+    task's candidate discharge proposed.)
+
+========================================================================
+PART E -- THE TWO-LATTICE PICTURE (exact remark, unification)
+========================================================================
+
+  The object carries exactly two rank-2 arithmetic lattices:
+   - the FIBER lattice H_1(T^2) = Z^2 with the Anosov cat-map action:
+     REAL multiplication by Z[phi], field Q(sqrt5) (eigenvalues
+     phi^{+-2}; the trace field side);
+   - the CUSP lattice Lambda_cusp = Z[2 sqrt-3]: COMPLEX
+     multiplication, field Q(sqrt-3)  (this cell, exact).
+  The two surviving stages split these two structures:
+   - SU(3)_2: Coxeter/weight-lattice field Q(sqrt-3) = THE CUSP FIELD
+     (exact match, Part C), and the hearing values in Q(sqrt5) enter
+     through kappa = 5 = the conductor (B644/B620);  -> BOTH of the
+     object's quadratic fields are realized, each in its proper slot.
+   - SU(5)_1: weight-lattice field Q(zeta_5) contains Q(sqrt5) (eta =
+     zeta+zeta^4, Part D3(iv)) -- the FIBER side only; the cusp field
+     cannot enter the lattice (Part D).  The partner stage hears the
+     object's trace arithmetic but cannot quantize its cusp.
+  The tiebreak, in one sentence: the ear stage is the one whose torus
+  is built on the object's OWN cusp arithmetic.
+
+========================================================================
+PART F -- VERDICT AND THE PRECISE GAP
+========================================================================
+
+LEMMA (PROVEN, exact, both directions -- the dichotomy):
+  With cusp quantization as formalized in D2 (equivariance w.r.t. the
+  cusp CM through the commutant of the stage's Coxeter ring, conformal
+  up to one scale):
+  (i)  A2 (in particular SU(3)_2): a cusp quantization EXISTS and is
+       canonical -- j : Z[2 sqrt-3] -> P(A2), 1 |-> omega_1,
+       2 sqrt-3 |-> (4c+2).omega_1; conformal with scale 2/3; image of
+       index 4 = the conductor of the cusp order; maximal-order
+       saturation = the FULL weight lattice; at the selected level
+       (kappa = 5 = the conductor) its mod-5 reduction is an
+       isomorphism onto the stage's mod-5 plane F_25 -- the home of
+       the banked SL(2,F5) shadow (B644).
+  (ii) A4 (SU(5)_1): NO cusp quantization exists: the commutant of the
+       Coxeter ring is the field Q(zeta_5), whose unique quadratic
+       subfield is the real Q(sqrt5); no element squares to
+       tau^2 = -12.  Exact.
+
+CONSEQUENCE (conditional completion): under the principle
+
+  H-CUSP: the bearing stage must quantize the object's cusp torus
+          (in the D2 sense),
+
+stage selection completes from the pair {SU(3)_2, SU(5)_1} to the
+single stage SU(3)_2; by D1 (branch == stage, banked pair assignment,
+W32 Part 4) the object couples through the ear branch 2h' with tone
+-1/phi.  THE BRANCH TIEBREAK IS DISCHARGED MODULO H-CUSP.
+
+THE PRECISE GAP (named, honest):
+  g1: H-CUSP itself -- WHY bearing requires quantizing the cusp -- is
+      not derived from H-EAR; it is the exact analogue, one level up,
+      of H-EAR's own status (W32).  The candidate unification (Part E,
+      recorded): one principle, 'the stage realizes the object's two
+      rank-2 arithmetic structures in the two stage slots (weight
+      lattice <- cusp CM; conductor/level <- fiber RM)'.
+  g2: inside D2, the identification 'stage-structure-preserving
+      endomorphisms = commutant of the Coxeter ring' is the
+      formalization choice (motivated in Part A: the W-commutant is
+      too tight for every stage, bare Q-linearity too loose; the
+      Coxeter ring is the unique intermediate canonical arithmetic and
+      is what makes A_{n-1} = Z[zeta_n]).  A future derivation of g1
+      should produce this ring, not posit it.
+
+Nothing here touches physics; kappa = 5 stays a conductor statement.
+
+DONE

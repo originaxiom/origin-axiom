@@ -1,0 +1,134 @@
+{
+ "C1": {
+  "verdict": "MISS",
+  "first_mismatch": 1,
+  "subcandidates": [
+   "z=1+q/z Catalan",
+   "MGO [phi]_q",
+   "q-Chebyshev (finite)"
+  ]
+ },
+ "C2": {
+  "verdict": "MISS",
+  "first_mismatch": 1,
+  "subcandidates": [
+   "sum tr(R^aL^b) x^{a+b}",
+   "tr((R+L)^n)=3^n+1",
+   "tr((RL)^n)=Lucas"
+  ]
+ },
+ "C3": {
+  "verdict": "MISS",
+  "first_ratio_mismatch_term": 1,
+  "structural": "RR theta classes are order-80 characters; period 2-part = 8; 0/130 support hits"
+ },
+ "C4": {
+  "verdict": "MATCH",
+  "identity": {
+   "2hat.comp1": "q^{2/5} N1 (q;q)^9 = F1 eta^{48/5}",
+   "2hat.comp2": "q^{3/5} N2 (q;q)^9 = F2 eta^{48/5}"
+  },
+  "coefficients_verified": 301,
+  "p13_2hatprime": {
+   "2hat'.comp1": [
+    "1",
+    "39",
+    "-26"
+   ],
+   "2hat'.comp2": [
+    "26",
+    "39",
+    "-1"
+   ]
+  },
+  "eta_menu_pure": "mod-5 exponent obstruction (0 solutions, a+b=10 exhaustive)",
+  "solver_rejections": [
+   {
+    "target": "2hat'.comp1",
+    "menu": "{E1,E5}",
+    "fail_n": 2
+   },
+   {
+    "target": "2hat'.comp1",
+    "menu": "{N1,N2,E1}",
+    "fail_n": 3
+   },
+   {
+    "target": "2hat'.comp1",
+    "menu": "{N1,N2,E1,E5}",
+    "fail_n": -1
+   },
+   {
+    "target": "2hat'.comp2",
+    "menu": "{E1,E5}",
+    "fail_n": 2
+   },
+   {
+    "target": "2hat'.comp2",
+    "menu": "{N1,N2,E1}",
+    "fail_n": 3
+   },
+   {
+    "target": "2hat'.comp2",
+    "menu": "{N1,N2,E1,E5}",
+    "fail_n": -1
+   },
+   {
+    "target": "2hat.comp1",
+    "menu": "{E1,E5}",
+    "fail_n": 2
+   },
+   {
+    "target": "2hat.comp1",
+    "menu": "{N1,N2,E1,E5}",
+    "fail_n": -1
+   },
+   {
+    "target": "2hat.comp2",
+    "menu": "{E1,E5}",
+    "fail_n": 2
+   },
+   {
+    "target": "2hat.comp2",
+    "menu": "{N1,N2,E1,E5}",
+    "fail_n": -1
+   },
+   {
+    "target": "row1 sextet",
+    "menu": "{E1,E5}",
+    "fail_n": 2
+   },
+   {
+    "target": "row1 sextet",
+    "menu": "{N1,N2,E1}",
+    "fail_n": 3
+   },
+   {
+    "target": "row1 sextet",
+    "menu": "{N1,N2,E1,E5}",
+    "fail_n": -1
+   }
+  ],
+  "solver_matches": [
+   {
+    "target": "2hat.comp1",
+    "menu": "{N1,N2,E1}",
+    "x": [
+     "1",
+     "0",
+     "9"
+    ]
+   },
+   {
+    "target": "2hat.comp2",
+    "menu": "{N1,N2,E1}",
+    "x": [
+     "0",
+     "1",
+     "9"
+    ]
+   }
+  ]
+ },
+ "overall": "RECOGNITION LEG FOUND: the 2hat doublet = eta^{48/5} (F1, F2) = the Rogers-Ramanujan numerators times q^{r/5}(q;q)^9; GENERATION LEG still missing (C1-C3 dead, exact miss table)"
+}
