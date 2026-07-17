@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B669: track H refuted (the amphichiral-suppression mechanism)
+
+### Resolved
+- The cosmological-constant proposal decided by its own sealed table:
+  ALL metallic-trace certificate ladders are bounded (word-universal
+  exact periodicity) — no chiral/amphichiral suppression ratio
+  exists; m136 is amphichiral anyway (the census criterion was
+  invalid); the Λ identification is wall-10/R5-blocked. The r = κ+9
+  ladder dictionary recorded. Locks 2/2.
+
 ## 2026-07-17 — B668: the triage reconciliation (F′ re-scoped)
 
 ### Resolved

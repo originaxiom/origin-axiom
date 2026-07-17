@@ -1,0 +1,12 @@
+t = 3: classes 25 (singular members 0); |Z(kappa=4..15)| =  1.000  1.000  1.000  0.000  1.000  1.000  2.000  1.000  1.000  2.000  1.000  2.000
+        max|Z| over kappa=4..30 (r=13..39): 2.2361  -> BOUNDED (finite q-support => periodic => bounded)
+        C1 CONTROL — reproduces the banked fig-8 ladder [1, 1, 1, 0, 1, 1, 2, 1]: True
+t = 4: classes 25 (singular members 0); |Z(kappa=4..15)| =  1.000  1.000  1.000  1.414  1.000  1.732  3.000  2.236  2.000  0.000  0.000  0.518
+        max|Z| over kappa=4..30 (r=13..39): 3.0000  -> BOUNDED (finite q-support => periodic => bounded)
+t = 5: classes 25 (singular members 0); |Z(kappa=4..15)| =  1.732  2.449  0.000  0.000  0.000  2.000  1.732  1.732  1.555  3.464  3.464  3.606
+        max|Z| over kappa=4..30 (r=13..39): 8.6603  -> BOUNDED (finite q-support => periodic => bounded)
+t = 6: classes 25 (singular members 0); |Z(kappa=4..15)| =  1.000  0.000  1.000  0.000  2.000  1.000  1.000  2.236  2.000  0.000  0.000  3.000
+        max|Z| over kappa=4..30 (r=13..39): 4.0000  -> BOUNDED (finite q-support => periodic => bounded)
+
+VERDICT: every metallic-trace certificate ladder has finite exact q-support => EXACTLY PERIODIC => BOUNDED. Chat1's sealed prediction ('the chiral word grows') is REFUTED; boundedness is word-universal, not amphichirality-specific.
+B669 H1-proper DONE
