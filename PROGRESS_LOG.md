@@ -5759,3 +5759,25 @@ claim fails WITHIN the family too (B664's n = 12/18/27/33); from cc2,
 adopted — the PSL correction (SL(2,5) not simple), the
 origin-framing inconsistency, the standing trace-4 != silver erratum.
 L107 coordinated (cell B4 on cc2's seat; E6 version here). Locks 2/2.
+
+## 2026-07-17 — B667: THE "COMPLETE COMPUTATION CAMPAIGN" ADJUDICATED
+
+chat1's seven-track proposal judged against the banked record
+(including the previous 24 hours' results the proposer had not seen):
+7 items DONE (A1 = B662/H's cup table; E1-E4 = B664/B665; G2 = B663;
+track D = B657/B661), 4 IN FLIGHT (A1-values/L106, E5/E6, G1/L105 —
+B666 wave 1 + cc2's B4), 1 REFUTED-BEFORE-PROPOSED (C4: cell F proved
+the cubic's phases are CONVENTION — no forced object exists for a
+CP comparison), 2 ill-posed as stated (B2's classical/stage
+conflation; C3's non-canonical decomposition), 6 GENUINELY NEW. The
+new yield, proposed as the B666 addendum (draft, owner's nod
+pending): CELL A' (the 351/351'/78-valued cups — the Koszul-parity
+escape, the first symmetric H1xH1 candidate past four walls; the
+adjoint correction: 78 lives in 27x27bar, not 27x27); CELL B' (the
+per-exponent torsion landscape + ratio table from the banked B617
+closed form; labels firewalled); CELL C' (the INVARIANT being-end
+phase catalogue — gauge-fixed quantities only, per B647/B662-F);
+CELL F' (the resurgent S2 extraction — research-grade); CELL G'
+(the bronze McKay rung, conditional on cell1). Corrections list for
+chat1 relay-ready (8 items; the silver/R2L erratum now standing at
+four occurrences).

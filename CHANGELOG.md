@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B667: the seven-track proposal adjudicated
+
+### Resolved
+- chat1's "complete computation campaign": 7 done, 4 in flight,
+  1 refuted-before-proposed (C4 — cell F closed that door), 2
+  ill-posed, 6 genuinely new → the proposed B666 addendum (cells
+  A′ 351/78-cups, B′ torsion landscape, C′ invariant phases,
+  F′ resurgent S₂, G′ bronze rung; draft pending the owner's nod).
+  Corrections list relay-ready (8 items).
+
 ## 2026-07-17 — B665: the landscape reconciliation (the shadow-class law)
 
 ### Added
