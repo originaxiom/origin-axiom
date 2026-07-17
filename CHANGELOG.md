@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B662 wave 2: the CP door dissolves; the exact period; the Massey wall
+
+### Resolved
+- **L104 = CONVENTION:** the σ-matrix maps Y to Ȳ (re-verified here
+  from JSONs alone); the generic trivector type is one GL(5,K)-orbit;
+  the δ_PMNS chain terminates — no prediction exists.
+- **L100 CLOSED:** the melody's exact minimal period P = 175560
+  certified with minimality witnesses; closed form = the exponent of
+  the total discriminant group; A2 independently confirmed.
+- **THE MASSEY WALL:** solo triple products undefined (cups nonzero
+  one level below) / defined cubes zero with full indeterminacy —
+  four walls on the hierarchy; S4's "solo zero" corrected to its
+  basis-free form; L106 opened (the cup-class values). Locks 4/4.
+
 ## 2026-07-17 — B663: the bifocal adjudication + anatomy loop 1
 
 ### Added
