@@ -1098,19 +1098,127 @@ reciprocity, the m = 7/8/11 identifications, the discrete-branch IDs —
 untouched, carried below.
 
 ### Action items (Review 20)
-- [ ] R20-1: the κ-unconditional reciprocity form (carried from R19; owner: any seat; source: B625)
-- [ ] R20-2: the m = 7/8/11 exact identifications (carried from R19; source: B598/B624)
-- [ ] R20-3: the discrete-branch IDs per word (carried from R19; source: B626)
-- [ ] R20-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (source: B639)
+- [>] R20-1: CARRIED to R21-1 (no arc addressed it this window)
+- [>] R20-2: CARRIED to R21-2 (no arc addressed it this window)
+- [>] R20-3: CARRIED to R21-3 (no arc addressed it this window)
+- [>] R20-4: CARRIED to R21-4 (note: B656/G5's Mayer–Vietoris reduction machinery is now available for it)
 - [x] R20-5: RESOLVED BY DISSOLUTION (B647 cells 1–3, 2026-07-16) — the 24ζ₆ magnitude is basis-GAUGE (c₀/c₁-covariant; any unit achievable); the invariant content = the unit cross-ratio law (mechanized: cell 1's reduction + cell 2's anomaly characterization Y = ½·conj(chain defect), the σ*-law's exact mechanism); the pipeline-gauge cross-double constancy recorded as convention-relative; silver (B649) confirms invariants-reproduce/gauge-doesn't
-- [ ] R20-6: the 13-dial mechanism — ENRICHED (B649 3b-ii): the silver's lit deviations are 13·211-adic; 13 split in ℚ(√−3) but 211 inert in ℚ(i) — the naive split-prime reading fails; two-object data in hand (source: B645/B649)
-- [ ] R20-7: C4 the silver chord — blocked on the m136 exact E₆ holonomy build (source: B637 queue)
-- [ ] R20-8: the order-4 orientation-reversing families through the flip pipeline, if wanted (source: B643 residual)
-- [ ] R20-9: prior-art/novelty pass over the window's eight THEOREM/LAW candidates (NEEDS-SPECIALIST; gate for §5.1 promotion)
-- [ ] R20-10: cc2 wave packets + the web seat's L95 prereg — verify-on-receipt when they land (FIRST TRANCHE DONE 2026-07-16: three cc2 packets verified + integrated as B646 — 11/11 seals, deciders rerun, locks adopted; L95 still pending)
+- [>] R20-6: CARRIED to R21-5 (enriched in-window: the silver's lit deviations are 13·211-adic; the naive split-prime reading fails; two-object data in hand)
+- [x] R20-7: RESOLVED (B649 stages 1–3b-ii, 2026-07-16/17, #1046–#1050) — the m136 exact E₆ holonomy BUILT over L = ℚ(s,i) and the full silver chord computed (27-letters, 3/5/1 grammar, swap σ*, Y-tensor); the C4 content delivered and verified by cc2 receipts + B657's independent re-runs
+- [>] R20-8: CARRIED to R21-6 (still owner-optional)
+- [>] R20-9: CARRIED to R21-7 (NEEDS-SPECIALIST stands; the candidate list has GROWN — see R21's promotion sweep)
+- [x] R20-10: RESOLVED for every packet that landed — four tranches verified + integrated (B646 wave-2 11/11 seals; B651 wave-3; B656 digest queue 7/7 seals + independent confirmations; B657 invariant line 8/8 seals + end-to-end re-runs); the L95 web-seat prereg never landed — carried alone as R21-8
 - [x] R20-11: DONE (2026-07-16, #1038) — `docs/SEAL_LEDGER.md` generated (`scripts/seal_ledger.py`, regenerable): 120 sealed docs; 95 unrecorded-but-single-commit (pre-ritual arcs; content verifiably = banked content via git provenance); 8 amended-after-banking → 7 pure appends (the results-in-doc pattern, benign) + 1 designed slot-fill (B565's declared "pending" handoff rows, commits titled "slotted", trail-visible; today's rules would append). ZERO silent tampering. Gate decision: no new gate — the regenerable ledger + the template's §7 protocol-integrity item cover detection; forward rule (per-arc ARTIFACT_HASHES) already standing.
 
 *(The next review is the first under GOVERNANCE §15 — the constitutional
 pilot: it must open by closing or carrying every item above.)*
 
 anchor-commit: `0c2c6d0` (Review 20; #1035)
+
+---
+
+## REVIEW 21 — EXECUTED 2026-07-17 (THE CONSTITUTIONAL PILOT — first review under GOVERNANCE §15; window #1036–#1064, B646–B657)
+
+**The loop (template item 1):** every Review-20 action item closed or
+carried above — R20-5/-7/-10/-11 resolved with evidence pointers;
+R20-1/-2/-3/-4/-6/-8/-9 carried into this review's block (same content,
+new ids). The `review-actions` gate reads the superseded block clean.
+
+**The declared modulus (item 2):** the window's 29 first-parent merges
+(#1036–#1064) reviewed via their FINDINGS + ledger entries; the arcs
+B646–B657 read in full (this seat authored or adjudicated most of them —
+the PILOT CAVEAT: reviewer = author for much of this window; independence
+rests on the multi-seat receipt loop (cc2's receipts on B649; this seat's
+receipts on cc2's four packets), the exhaustive lock suite, and the exact
+artifacts, not on reviewer distance); the fast suite re-run in full
+2026-07-17 (950 passed, 19 skipped, 1 order-dependent flake — see item 4);
+OA_SLOW heavy locks NOT re-run (trusted green); arcs before #1036 not
+re-read. This review certifies protocol integrity and record honesty for
+the window; the locks carry the mathematics.
+
+**(3) Advancement.** The window's class moves, largest first: the
+CALIBRATION CAMPAIGN ran seal-to-closure (B648→B652→B653: GATE B N = 1;
+the C′ zero-calibration event; OUTCOME A at LOW weight; the provenance
+erratum owned; license SPENT — the record's first full one-shot lifecycle).
+NEW THEOREMS: the melody theorem + jump law (325/325) + PSL-factoring +
+generic-silence CERTIFIED (B651); the anomaly characterization Y = ½·conj
+(B647); the tone–character identification (B654); sign-hears-the-
+discriminant (B656); the (i₁,i₂) dimension-grammar reduction (B656/G5).
+NEW WALL: the equivariance wall (B650, wall 9 — the classical→stage
+functor is GROUP-functorial, never module-linear). NEW LAWS: the
+conductor-clock completion (B596 DATA → DERIVED; L84 discharged); the
+mirror generic + sector-carry laws; the subfield/shape-field law
+candidate; Q-AREA's universal factor 2; the portal law + one-per-block
+(B657). DISSOLVED: the 24ζ₆ core ratio (R20-5, basis-gauge). STUCK
+LONGEST: R20-1/-2/-3 now carried across two review cycles (from R19); the
+13-dial mechanism (since B645). STATUS-VS-EVIDENCE annotation: the
+sign-hears-the-discriminant row's THEOREM label rests on the pair-evenness
+lemma at ramified primes verified EXHAUSTIVELY (207,384 cases + this
+seat's fresh W(D4)/fresh-word battery), not yet abstractly — R21-9 files
+the abstract proof as a bounded cell; no other row's status was found to
+exceed its banked evidence.
+
+**(4) Error-class recurrence.** E4 (unverified premise): THE window
+instance — the C2 design's "unpublished by causality" was FALSE (JUNO's
+paper predated the seal by 8 months); cost = the held-out grade
+(void-as-held-out; the letter survived); the standing rule that would
+have caught it = L99's factual-review lane (registered, awaiting the
+owner — R21-10). Related instance: both seats' "~9σ" separation tables
+were asserted-not-computed (actual: 0.88σ at 4/13) — corrected in the
+B653 addendum. E11 (overextended record): two near-instances caught
+pre-commit (64-hex from 8-hex verified prefixes); zero merged. E12
+(global-state leakage): RECURRED — test_b353 fails full-suite-in-order,
+passes alone and with neighbors; leaker unlocalized (ledger instance
+filed 2026-07-17; R21-11). E13 (stale artifact text): minted this window
+(B649's "pslq" header + "projective" comment; five dated errata); the
+pre-seal narration grep is the standing counter-rule. NO new error class
+this window.
+
+**(5) Provenance spot-sweep.** The Review-18 phrase list grepped across
+the window's frontier FINDINGS + README + CLAIMS: zero pretense hits
+(the only match is README's own §0-style disclaimer). "Independently
+verified/confirmed" in B656/B657 reads against §0's definition (a second
+internal pipeline) — consistent. TERMINOLOGY: ten of the window's
+load-bearing terms were UNGLOSSED (the calibration campaign / one-shot
+license; the C′ event; the grammar table / N; the conductor-clock law;
+sign-hears-the-discriminant; the sector-carry law; the (i₁,i₂)
+reduction; the invariant line; the portal) — glossed in THIS review's PR
+(TERMINOLOGY.md, +10 entries).
+
+**(6) The §5.1 promotion sweep.** Every THEOREM/LAW candidate remains
+blocked on the single named blocker: the prior-art/novelty pass
+(NEEDS-SPECIALIST; carried as R21-7). The candidate list grew this
+window: + the melody theorem, sign-hears-the-discriminant, the
+conductor-clock law, the portal law, the (i₁,i₂) reduction, the
+tone–character identification. Deferral is explicit, per the template.
+
+**(7) Protocol integrity.** Six window seals spot-RE-COMPUTED against
+their banked lines, all matching: B648 campaign a463c6aa ✓; C2 design
+864909ce ✓; PREDICTION 4392e271 ✓; B654 prereg 299c7a4c ✓; B652 prereg
+c8cae450 ✓; B655 prereg fcc8cb8b ✓. Packet seals verified on receipt:
+B656 7/7; B657 8/8 (both with disclosed privacy patches + originals'
+hashes in manifests). Hash-first order honored through the campaign's
+three-way seal choreography (comparator extraction sealed before the
+prediction file moved; hashes verified on both ends). The seal ledger
+regenerated (#1063). One repaired omission class: none new this window.
+
+**Optional enrichments declared:** view regeneration RAN (seal ledger
+#1063; atlas per-arc); terminology repair executed in-place (item 5);
+methodology delta = L99 (already registered, not a new arc); source-code
+health and reader-path check NOT run this cycle (declared, per the
+template's honesty rule).
+
+### Action items (Review 21)
+- [ ] R21-1: the κ-unconditional reciprocity form (carried from R20-1; source: B625)
+- [ ] R21-2: the m = 7/8/11 exact identifications (carried from R20-2; source: B598/B624)
+- [ ] R21-3: the discrete-branch IDs per word (carried from R20-3; source: B626)
+- [ ] R21-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (carried from R20-4; B656/G5's machinery now applies)
+- [ ] R21-5: the 13-dial mechanism with the two-object 13·211-adic data (carried from R20-6; source: B645/B649)
+- [ ] R21-6: the order-4 orientation-reversing flip families, if wanted (carried from R20-8; owner-optional)
+- [ ] R21-7: the prior-art/novelty pass over ALL standing THEOREM/LAW candidates (carried from R20-9; NEEDS-SPECIALIST; §5.1 gate)
+- [ ] R21-8: the web seat's L95 prereg — verify-on-receipt when it lands (carried out of R20-10)
+- [ ] R21-9: prove the pair-evenness lemma at ramified primes abstractly (the sign-hears-the-discriminant theorem's one exhaustively-verified step; source: B656/G1)
+- [ ] R21-10: the L99 factual-review governance amendment — draft on the owner's approval (source: B654; GOVERNANCE §10 arc, separate from this review)
+- [ ] R21-11: localize the test_b353 suite-order leaker (E12 instance 2026-07-17; source: B656's suite run)
+
+anchor-commit: *(added by the follow-up one-line PR once the merge hash exists)*
