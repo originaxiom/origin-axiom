@@ -1,0 +1,265 @@
+==============================================================================
+PART 1 — GOLDEN (fig-8) cross-ratio invariants over Q(sqrt(-3))
+==============================================================================
+parsed doubles: ['Dphi_Ainv', 'Dphi_Binv', 'Dphi_a', 'Dphi_b', 'bent_m1', 'bent_m11', 'bent_m5', 'bent_m7', 'weld_none'] (expect 9)
+parse lock (gauge machinery only, not catalogued): core-law transcription holds on 9/9: True
+
+-- the 024-silent class (6 doubles): the unit cross-ratio law --
+  [G-SIL] Dphi_Binv: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  (the unit cross-ratio law, exact = 1)
+  [G-SIL] Dphi_b: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  (the unit cross-ratio law, exact = 1)
+  [G-SIL] bent_m11: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  (the unit cross-ratio law, exact = 1)
+  [G-SIL] bent_m5: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  (the unit cross-ratio law, exact = 1)
+  [G-SIL] bent_m7: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  (the unit cross-ratio law, exact = 1)
+  [G-SIL] weld_none: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  (the unit cross-ratio law, exact = 1)
+
+-- the 024-lit class (3 doubles): invariant VALUES --
+  [G-LIT] Dphi_a: inv1 = (Y023*Y124)/(Y024*Y123)
+        value = 7379/7392 + (13/7392)*sqrt(-3)
+        arg (float, display only) = +0.003051442013 rad = +0.174834749 deg
+        NON-LATTICE  (z/conj(z) = 27224567/27225074 + (95927/27225074)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+  [G-LIT] Dphi_a: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 6561/6574 + (13/6574)*sqrt(-3)
+        arg (float, display only) = +0.003431881131 rad = +0.196632305 deg
+        NON-LATTICE  (z/conj(z) = 7174369/7174538 + (28431/7174538)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+  [G-LIT] Dphi_Ainv: inv1 = (Y023*Y124)/(Y024*Y123)
+        value = 7379/7392 + (13/7392)*sqrt(-3)
+        arg (float, display only) = +0.003051442013 rad = +0.174834749 deg
+        NON-LATTICE  (z/conj(z) = 27224567/27225074 + (95927/27225074)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+  [G-LIT] Dphi_Ainv: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 6561/6574 + (13/6574)*sqrt(-3)
+        arg (float, display only) = +0.003431881131 rad = +0.196632305 deg
+        NON-LATTICE  (z/conj(z) = 7174369/7174538 + (28431/7174538)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+  [G-LIT] bent_m1: inv1 = (Y023*Y124)/(Y024*Y123)
+        value = 3709/3696 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6
+  [G-LIT] bent_m1: inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 21952107/21866138 + (169/21866138)*sqrt(-3)
+        arg (float, display only) = +0.000013334328 rad = +0.000764001 deg
+        NON-LATTICE  (z/conj(z) = 80315833608961/80315833637522 + (1236635361/80315833637522)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+locks vs the banked B645 normal forms (incl. 3^8+13sqrt(-3) over 3^8+13): ALL PASS
+
+-- the 024-lit class: DEVIATIONS from 1 (the 13-dial objects) --
+  [G-DEV] Dphi_a: inv1 - 1
+        value = -13/7392 + (13/7392)*sqrt(-3)
+        arg (float, display only) = +2.094395102393 rad = +120.000000000 deg
+        LATTICE  arg = 4*pi/6
+  [G-DEV] Dphi_a: inv2 - 1
+        value = -13/6574 + (13/6574)*sqrt(-3)
+        arg (float, display only) = +2.094395102393 rad = +120.000000000 deg
+        LATTICE  arg = 4*pi/6
+  [G-DEV] Dphi_Ainv: inv1 - 1
+        value = -13/7392 + (13/7392)*sqrt(-3)
+        arg (float, display only) = +2.094395102393 rad = +120.000000000 deg
+        LATTICE  arg = 4*pi/6
+  [G-DEV] Dphi_Ainv: inv2 - 1
+        value = -13/6574 + (13/6574)*sqrt(-3)
+        arg (float, display only) = +2.094395102393 rad = +120.000000000 deg
+        LATTICE  arg = 4*pi/6
+  [G-DEV] bent_m1: inv1 - 1
+        value = 13/3696 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6
+  [G-DEV] bent_m1: inv2 - 1
+        value = 85969/21866138 + (169/21866138)*sqrt(-3)
+        arg (float, display only) = +0.003404895431 rad = +0.195086138 deg
+        NON-LATTICE  (z/conj(z) = 21865631/21866138 + (85969/21866138)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+13-dial lock: every deviation component numerator divisible by 13, every denominator 13-free: PASS
+bent_m1 inv2 - 1 = (13/21866138)*(6613 + 13*sqrt(-3)) exactly: the two-unit mix 6613*[1] + 13*[sqrt(-3)]
+
+-- the 13-dial deviation unit alphabet {1, zeta3, sqrt(-3)} --
+  [G-UNIT] dial unit 1
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6
+  [G-UNIT] dial unit zeta3 = (-1+sqrt(-3))/2
+        value = -1/2 + (1/2)*sqrt(-3)
+        arg (float, display only) = +2.094395102393 rad = +120.000000000 deg
+        LATTICE  arg = 4*pi/6
+  [G-UNIT] dial unit sqrt(-3)
+        value = 0 + (1)*sqrt(-3)
+        arg (float, display only) = +1.570796326795 rad = +90.000000000 deg
+        LATTICE  arg = 3*pi/6
+
+==============================================================================
+PART 2 — GOLDEN sigma* (sigma_matrix_golden.json; B638 G2 spectrum)
+==============================================================================
+conj(M).M = I exact: True;  M.conj(M) = I exact: True;  lower-triangular: True
+diagonal = (zeta6, conj zeta6, -zeta6, -conj zeta6, 1) exact (B638 G2 lock)
+  [G-SIG] sigma* diagonal (as persisted) zeta6
+        value = 1/2 + (1/2)*sqrt(-3)
+        arg (float, display only) = +1.047197551197 rad = +60.000000000 deg
+        LATTICE  arg = 2*pi/6  [GAUGE-SLACK per Hilbert 90 — see below]
+  [G-SIG] sigma* diagonal (as persisted) conj(zeta6)
+        value = 1/2 + (-1/2)*sqrt(-3)
+        arg (float, display only) = -1.047197551197 rad = -60.000000000 deg
+        LATTICE  arg = -2*pi/6  [GAUGE-SLACK per Hilbert 90 — see below]
+  [G-SIG] sigma* diagonal (as persisted) -zeta6
+        value = -1/2 + (-1/2)*sqrt(-3)
+        arg (float, display only) = -2.094395102393 rad = -120.000000000 deg
+        LATTICE  arg = -4*pi/6  [GAUGE-SLACK per Hilbert 90 — see below]
+  [G-SIG] sigma* diagonal (as persisted) -conj(zeta6)
+        value = -1/2 + (1/2)*sqrt(-3)
+        arg (float, display only) = +2.094395102393 rad = +120.000000000 deg
+        LATTICE  arg = 4*pi/6  [GAUGE-SLACK per Hilbert 90 — see below]
+  [G-SIG] sigma* diagonal (as persisted) 1
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  [GAUGE-SLACK per Hilbert 90 — see below]
+Hilbert-90 gauge exhibited for EVERY diagonal entry (lam with conj(lam)/lam = d, so d gauges to 1): the sigma* diagonal phases are GAUGE, not invariant content (B649 note, verified).
+R-linear involution T(v) = M^T conj(v): T^2 = I exact; eigenvalue multiplicities: +1 x 5, -1 x 5
+  [G-SIG-INV] sigma* R-spectrum eigenvalue +1 (mult 5)
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  [basis-invariant]
+  [G-SIG-INV] sigma* R-spectrum eigenvalue -1 (mult 5)
+        value = -1 + (0)*sqrt(-3)
+        arg (float, display only) = +3.141592653590 rad = +180.000000000 deg
+        LATTICE  arg = 6*pi/6  [basis-invariant]
+swap scalar u*conj(u) = +1 (B638 G1, J^2 = +1): phase 0 [basis-invariant]
+  [G-SIG-INV] J^2 scalar +1
+        value = 1 + (0)*sqrt(-3)
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/6  [basis-invariant]
+
+==============================================================================
+PART 3 — SILVER sigma* (sigma_matrix_L.json) over Q(i)
+==============================================================================
+s-freeness of every entry: PASS (the matrix is defined over Q(i), the silver's imaginary quadratic subfield — B649 3b-i lock)
+conj(C).C = I exact: True;  C.conj(C) = I exact: True;  lower-triangular: True
+diagonal = (d0, d1, 1, -1, 1) with |d0| = |d1| = 1 exact:
+  d0 = 160633/386425 + (351456/386425)*i
+  d1 = 10917036583/16953624025 + (-12970878144/16953624025)*i
+  [S-SIG] sigma* diagonal (as persisted) d0
+        value = 160633/386425 + (351456/386425)*i
+        arg (float, display only) = +1.142095025409 rad = +65.437224759 deg
+        NON-LATTICE  (z/conj(z) = -97718359247/149324280625 + (112910863296/149324280625)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)  [GAUGE-SLACK per Hilbert 90 — see below]
+  [S-SIG] sigma* diagonal (as persisted) d1
+        value = 10917036583/16953624025 + (-12970878144/16953624025)*i
+        arg (float, display only) = -0.871165509260 rad = -49.914106938 deg
+        NON-LATTICE  (z/conj(z) = -49061992071936568847/287425367581057200625 + (-283207102423366283904/287425367581057200625)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)  [GAUGE-SLACK per Hilbert 90 — see below]
+  [S-SIG] sigma* diagonal (as persisted) 1
+        value = 1 + (0)*i
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/4  [GAUGE-SLACK per Hilbert 90 — see below]
+  [S-SIG] sigma* diagonal (as persisted) -1
+        value = -1 + (0)*i
+        arg (float, display only) = +3.141592653590 rad = +180.000000000 deg
+        LATTICE  arg = 4*pi/4  [GAUGE-SLACK per Hilbert 90 — see below]
+  [S-SIG] sigma* diagonal (as persisted) 1
+        value = 1 + (0)*i
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/4  [GAUGE-SLACK per Hilbert 90 — see below]
+Hilbert-90 gauge exhibited for EVERY diagonal entry (incl. the off-lattice d0, d1): all gauge to 1 — the silver diagonal phases are GAUGE, not invariant content (B649's banked sharpening, re-verified).
+R-linear involution: T^2 = I exact; eigenvalue multiplicities: +1 x 5, -1 x 5
+  [S-SIG-INV] sigma* R-spectrum eigenvalue +1 (mult 5)
+        value = 1 + (0)*i
+        arg (float, display only) = +0.000000000000 rad = +0.000000000 deg
+        LATTICE  arg = 0*pi/4  [basis-invariant]
+  [S-SIG-INV] sigma* R-spectrum eigenvalue -1 (mult 5)
+        value = -1 + (0)*i
+        arg (float, display only) = +3.141592653590 rad = +180.000000000 deg
+        LATTICE  arg = 4*pi/4  [basis-invariant]
+
+==============================================================================
+PART 4 — SILVER Y cross-ratio invariants over Q(i)
+==============================================================================
+s-freeness of every Y value: PASS (the silver chord lives in Q(i))
+zero law: Y[01k] = 0 exactly, 3/3 (nonzero slots: 7)
+incidence rank over the 7 nonzero slots: invariant rank 2; inv1/inv2 exponent vectors certified in ker(incidence)
+locks vs the banked B649 G3 analysis values: BOTH PASS
+
+-- the silver unbent-weld double (LIT class): invariant VALUES --
+  [S-CR] silver inv1 = (Y023*Y124)/(Y024*Y123)
+        value = 16271648481252971729/16271671961969963216 + (-369110590776791/178988391581669595376)*i
+        arg (float, display only) = -0.000002062207 rad = -0.000118156 deg
+        NON-LATTICE  (z/conj(z) = 16018375929928338244272749875998839462340/16018375930064580872496341545235623720021 + (-66066415622103142725000359995758029/16018375930064580872496341545235623720021)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+  [S-CR] silver inv2 = (Y023*Y134)/(Y034*Y123)
+        value = 1775661509660642434903313/1775664925937025369121636 + (9285580552058180539/1775664925937025369121636)*i
+        arg (float, display only) = +0.000005229364 rad = +0.000299620 deg
+        NON-LATTICE  (z/conj(z) = 1576486898402044880493694691643361107376270022724/1576486898488266886682455796510251047407388353245 + (16488047981143130457077739077117723163225707/1576486898488266886682455796510251047407388353245)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+
+-- silver deviations from 1 (the 211-dial objects) --
+  [S-DEV] silver inv1 - 1
+        value = -23480716991487/16271671961969963216 + (-369110590776791/178988391581669595376)*i
+        arg (float, display only) = -2.181359489466 rad = -124.982692347 deg
+        NON-LATTICE  (z/conj(z) = -780867407527241138257196/2279320553740288100456765 + (2141389333718793669919947/2279320553740288100456765)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+  [S-DEV] silver inv2 - 1
+        value = -3416276382934218323/1775664925937025369121636 + (9285580552058180539/1775664925937025369121636)*i
+        arg (float, display only) = +1.923338413742 rad = +110.199173683 deg
+        NON-LATTICE  (z/conj(z) = -4954185031501456128011930902104/6505337120568673248722582659825 + (-4216095554644798718974708633553/6505337120568673248722582659825)*delta is NOT a root of unity => arg is an IRRATIONAL multiple of pi)
+211/13-dial locks (banked factorizations re-multiplied exactly): ALL PASS
+
+==============================================================================
+PART 5 — THE PHASE CATALOGUE SUMMARY
+==============================================================================
+invariant-content rows: golden 24 (6 off-lattice), silver 6 (4 off-lattice); gauge-slack rows (catalogued, firewalled): 10
+
+GOLDEN off-lattice invariant phases:
+  Dphi_a: inv1 = (Y023*Y124)/(Y024*Y123): 7379/7392 + (13/7392)*sqrt(-3)
+  Dphi_a: inv2 = (Y023*Y134)/(Y034*Y123): 6561/6574 + (13/6574)*sqrt(-3)
+  Dphi_Ainv: inv1 = (Y023*Y124)/(Y024*Y123): 7379/7392 + (13/7392)*sqrt(-3)
+  Dphi_Ainv: inv2 = (Y023*Y134)/(Y034*Y123): 6561/6574 + (13/6574)*sqrt(-3)
+  bent_m1: inv2 = (Y023*Y134)/(Y034*Y123): 21952107/21866138 + (169/21866138)*sqrt(-3)
+  bent_m1: inv2 - 1: 85969/21866138 + (169/21866138)*sqrt(-3)
+
+SILVER off-lattice invariant phases:
+  silver inv1 = (Y023*Y124)/(Y024*Y123): 16271648481252971729/16271671961969963216 + (-369110590776791/178988391581669595376)*i
+  silver inv2 = (Y023*Y134)/(Y034*Y123): 1775661509660642434903313/1775664925937025369121636 + (9285580552058180539/1775664925937025369121636)*i
+  silver inv1 - 1: -23480716991487/16271671961969963216 + (-369110590776791/178988391581669595376)*i
+  silver inv2 - 1: -3416276382934218323/1775664925937025369121636 + (9285580552058180539/1775664925937025369121636)*i
+
+VERDICT (two-outcome, per object):
+  GOLDEN: RICHER — the invariant phase catalogue is NOT contained in
+    (pi/6)Z.  First non-lattice phase, named exactly: the lit-class
+    cross-ratio inv1 on D_phi(a)=a,
+        arg( 7379/7392 + (13/7392) sqrt(-3) ) = arctan(13 sqrt(3)/7379),
+    and the seal's exemplar inv2 = (3^8 + 13 sqrt(-3))/(3^8 + 13) with
+        arg = arctan(13 sqrt(3) / 3^8)  —
+    both certified irrational multiples of pi (z/conj z not a root of
+    unity in Q(sqrt(-3))).
+  SILVER: RICHER — first non-lattice phase, named exactly: the silver
+    unbent-weld cross-ratio inv1 = (Y023*Y124)/(Y024*Y123), arg an
+    irrational multiple of pi (certified); inv2 likewise.
+STRUCTURE INSIDE THE VERDICT:
+  - the silent-class invariants (6/6 golden) sit at phase 0 exactly;
+  - the golden deviation ledger is lattice on 3 of 4 rows
+    (13/3696 -> 0; 13 zeta3/3696 and 13 zeta3/3287 -> 2pi/3); the
+    UNIQUE off-lattice golden deviation is bent_m1 inv2 - 1 =
+    (13/21866138)(6613 + 13 sqrt(-3)) — the first two-unit mix
+    (6613*[1] + 13*[sqrt(-3)]) of the lattice alphabet {1, zeta3,
+    sqrt(-3)};
+  - the silver deviations are off-lattice already at both rows (the
+    211-dial mixes);
+  - the sigma* diagonals ((zeta6,...,1) golden; (d0, d1, 1, -1, 1)
+    silver) are GAUGE per Hilbert 90 (gauge exhibited entrywise): the
+    golden's lattice look and the silver's off-lattice look are both
+    basis-chosen; the basis-invariant sigma* content is the real
+    structure J^2 = +1 with R-spectrum {+1 x5, -1 x5} (phases {0, pi},
+    lattice-trivial) and the field of definition;
+  - THE DICHOTOMY (proved): every invariant phase over the object's
+    imaginary quadratic field is EITHER on the object's lattice
+    ((pi/6)Z golden, (pi/4)Z silver) OR an irrational multiple of pi —
+    no finer root-of-unity phases can occur.  "Richer" here means
+    irrational-angle, not a finer lattice.
+
+phase_catalogue.json written
+CELL C' DONE

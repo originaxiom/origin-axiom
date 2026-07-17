@@ -1,0 +1,80 @@
+========================================================================
+PART 0 — the domain: the residue object R_m (symbolic m)
+========================================================================
+PASS  det X_m = -1 (the residue), all m symbolically
+PASS  X_m^2 = A_m (half-monodromy squares to the metallic monodromy)
+PASS  charpoly(X_m) = t^2 - m t - 1 (X_m = companion of the metallic unit)
+PASS  N(lambda_m) = product of roots = -1 (BR-N clause 1)
+PASS  T-NORM: imaginary-quadratic norm form a^2 + d b^2 is a sum of squares (norm -1 impossible; the NORM realization cannot cross)
+
+========================================================================
+PART 1 — the carrier at m=1: sigma_1 in Out(F_2), Nielsen-realized
+========================================================================
+PASS  H1(sigma_1) = X_1 = [[1,1],[1,0]] (the residue's carrier)
+PASS  det H1(sigma_1) = -1 (orientation-reversing: THE residue bit)
+PASS  H1(sigma_1^2) = A_1 = [[2,1],[1,1]] (the fig-8 monodromy; BR2/B466)
+   sigma_1(a) = ab, sigma_1(b) = a ; sigma_1^2(a) = aba, sigma_1^2(b) = ab
+
+========================================================================
+PART 2 — the transport on trace coordinates (generic SL2, exact)
+========================================================================
+PASS  generic det A = det B = 1
+PASS  sigma_1^*: (x,y,z) -> (z, x, xz - y)   [tr(ABA) = xz - y, rational identity]
+PASS  kappa = tr[A,B] is sigma_1^*-invariant (tr[AB,A] = tr[A,B], rational identity)
+
+========================================================================
+PART 3 — the geometric locus: the swap IS the Galois flip (exact)
+========================================================================
+PASS  sigma_1^* preserves the B67 curve: image = (x', x'/(x'-1), x'/(x'-1)), x' = x/(x-1)
+PASS  cusp locus on the curve: kappa + 2 = x^2 (x^2 - 3x + 3) / (x-1)^2
+PASS  x_pm are the geometric roots (x^2 - 3x + 3 = 0 exactly)
+PASS  x_minus = Galois/complex conjugate of x_plus (sqrt(-3) -> -sqrt(-3))
+PASS  the curve action x -> x/(x-1) SWAPS the geometric pair
+PASS  THE DEFINING PROPERTY at SL2: sigma_1^*(P_+) = P_- = conj(P_+), exact
+PASS  P_+ is on the cusp locus with kappa = -2 (irreducible: kappa != 2)
+PASS  sigma_1^*-fixed characters on the curve = {0, 2}, both NON-geometric (x^2-3x+3 = 3, 1 there): no geometric character is fixed
+
+========================================================================
+PART 4 — the E6 lift: theta fixes, c moves, sigma_1^* = c (exact)
+========================================================================
+PASS  the 27's 2*rho-vee grading: 27 weights, top = 16
+PASS  grading multiset = V17 + V9 + V1 strings exactly (E6-principal on 27)
+PASS  Jordan/block type on the 27: E6-principal = (17,9,1)
+PASS  F4 root system: 48 roots, 24 short
+PASS  F4-principal on 1+26: block type (17,9,1) — EQUAL to E6-principal => a principal sl2 of E6 lies inside F4 = E6^theta => theta o iota = iota (Kostant conjugacy, as banked in B570-QA)
+PASS  P27(t) = U16(t/2) + U8(t/2) + 1 EQUALS the grading character sum(mu^e) under t = mu + 1/mu (exact identity)
+PASS  P27 has integer coefficients and P27(2) = 27
+PASS  E6 root system: 72 roots
+PASS  adjoint block type = (23,17,15,11,9,3) — exponents {1,4,5,7,8,11}
+PASS  P78(t) = sum U_{2e}(t/2), e in {1,4,5,7,8,11}, equals the adjoint grading character (exact identity); P78(2) = 78
+PASS  tr_27(iota rho(A)) at the geometric point = 6807/2 + (4965*sqrt(3)/2) sqrt(-3)/... : NON-REAL element of Q(sqrt(-3)) => c MOVES the E6 27-character
+PASS  Galois equivariance at E6: P27(x_-) = conj(P27(x_+)) exactly
+PASS  tr_78 (adjoint) at the geometric point is also NON-REAL (im = -29805*sqrt(3)/2 != 0); P78(x_-) = conj(P78(x_+))
+   exact values:  tr_27 = 6807/2 + 4965*sqrt(3)*I/2   [= 6807/2 + 4965*sqrt(3)/2*I]
+                  tr_78 = 286145/2 - 29805*sqrt(3)*I/2   [= 286145/2 + -29805*sqrt(3)/2*I]
+PASS  TRANSPORT CLOSES AT E6: P27(sigma_1^*-image of x_+) = conj(P27(x_+)) — sigma_1^* acts on the geometric E6 character AS c
+
+========================================================================
+PART 5 — the Klein-four verdict (bookkeeping on the geometric orbit)
+========================================================================
+PASS  theta acts trivially on the orbit; c, theta*c, sigma_1^* act by the swap
+PASS  Klein four <theta,c> acts on the orbit THROUGH the quotient <theta,c>/<theta> = Z/2 (the c-column); the transported residue hits the GENERATOR of that Z/2
+PASS  the theta-hypothesis (residue transports as the fold: acts trivially on the geometric orbit) is REFUTED exactly
+
+VERDICT: Q-C = c.  sigma_1^*(chi_g) = c(chi_g) != chi_g = theta(chi_g).
+The residue transports as c (conjugation/orientation), not as theta.
+
+T-NORM adjudication (the flagged in-lineage conflict): the residue has
+two realizations — the UNIT-NORM realization N(lambda_m) = -1 (confined
+to the real-quadratic scale axis; T-NORM, re-verified in Part 0) and
+the DECK/GALOIS realization (the mapping class sigma_m, det -1). The
+transport map T carries the second: functoriality transports the
+automorphism, never the unit. Its image on the geometry axis is the
+nontrivial element of Gal(Q(sqrt(-3))/Q) = Z/2 — i.e. c. BR-N clause 3
+('only the scale end can carry the norm-realization') and this map
+('the geometry end carries the deck/Galois realization') are the two
+halves of one statement. No contradiction. Conflict adjudicated.
+
+CHECKS: 36 run, 0 failed
+ALL CHECKS PASS
+script sha256: 5f253155b33031cf71ce0f5275dec960fe683a359ba8f6580bcfa811c8a64069

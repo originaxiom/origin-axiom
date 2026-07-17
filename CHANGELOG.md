@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B666 wave 2: ten verdicts, three theorems, the fifth wall
+
+### Added
+- **THE FIFTH WALL** + the exact cup-invariant table (one H² direction
+  per generation; the subfield theorem's largest instantiation).
+  **The glued cubic is NONDEGENERATE** (L92 closed). The sector
+  decomposition exact with **Z(30) = 2−√5** (first irrational sector
+  value; L97 closed). The phase catalogue: **RICHER than the lattice**
+  (dichotomy proved; the 13 marks the off-lattice phases).
+- **Three theorems from the revivals:** Q-C = c (the transport lane
+  answered); the Latin square derived; the per-term Landsberg–Schaar
+  proven — **LAW-O's mechanism completes.** R21-2/-3 done; torsion
+  ratios word-dependent; cell A′ deferred (crash diagnosed). Locks 5/5.
+
 ## 2026-07-17 — B670: the anatomy loops 1–3 integration
 
 ### Added

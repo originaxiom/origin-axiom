@@ -1,0 +1,128 @@
+========================================================================
+GATE A — B617 closed form vs direct (radical route), tr = 3, 4, 5
+========================================================================
+  tr=3: closed==direct (radical), sign law (-1)^m, banked spot values: PASS
+  tr=4: closed==direct (radical), sign law (-1)^m, banked spot values: PASS
+  tr=5: closed==direct (radical), sign law (-1)^m, banked spot values: PASS
+GATE A: PASS
+
+========================================================================
+GATE B — B581's six exact t=3 (fig-8) EXTERIOR torsions reproduced
+        from the committed data (monic normalization per Review 17)
+========================================================================
+  m= 1: integer, skew-palindromic, Delta(1)=0, Delta'(1) = -3  == banked  PASS
+  m= 4: integer, skew-palindromic, Delta(1)=0, Delta'(1) = 260736  == banked  PASS
+  m= 5: integer, skew-palindromic, Delta(1)=0, Delta'(1) = -165110400  == banked  PASS
+  m= 7: integer, skew-palindromic, Delta(1)=0, Delta'(1) = -3257341296168960  == banked  PASS
+  m= 8: integer, skew-palindromic, Delta(1)=0, Delta'(1) = 100636318520821923840  == banked  PASS
+  m=11: integer, skew-palindromic, Delta(1)=0, Delta'(1) = -6908092175170718629633808125667573760  == banked  PASS
+GATE B: PASS — the six banked B581 exterior torsions reproduced exactly
+
+========================================================================
+THE LANDSCAPE — |tau_m(tr)| exact, m in {1,4,5,7,8,11}, tr = 3..15
+   two independent integer routes per entry (GATE C inline)
+========================================================================
+GATE C: PASS — closed form == direct integer product at all 78 landscape entries; sign law (-1)^m at all
+
+|tau_m(tr)| (digit counts in brackets for entries > 10^24):
+  tr | m=1 | m=4 | m=5 | m=7 | m=8 | m=11
+   3 | 5 | 158760000 | 2401245000000 | 176922947833632000000000 | [30d]8617642558... | [56d]1032536174...
+   4 | 12 | 234101145600 | 122709265691443200 | [32d]9109896976... | [42d]1290251062... | [76d]2676252447...
+   5 | 21 | 37036961640000 | 236133630408178440000 | [39d]1161225789... | [49d]8956800033... | [90d]6015734357...
+   6 | 32 | 1924415461785600 | 87058769633632006963200 | [43d]6984706508... | [56d]1238711281... | [102d]1061823501...
+   7 | 45 | 50109538822560000 | [26d]1146637159... | [47d]6225017804... | [61d]1476894842... | [111d]2120231262...
+   8 | 60 | 809896323317760000 | [27d]7410077569... | [51d]1477220773... | [65d]3218657242... | [119d]1888142193...
+   9 | 77 | 9212279267764742400 | [29d]2832399642... | [54d]1319477123... | [69d]1999225409... | [126d]1688831730...
+  10 | 96 | 79947975874314240000 | [30d]7222901875... | [56d]5547058486... | [72d]4715302211... | [132d]2564100164...
+  11 | 117 | 559462011534488462400 | [32d]1334602860... | [59d]1279569320... | [75d]5142734893... | [137d]9477260779...
+  12 | 140 | 3284625730065039360000 | [33d]1895919589... | [61d]1808374500... | [78d]2988290484... | [143d]1105164566...
+  13 | 165 | 16663287666800534760000 | [34d]2164039492... | [63d]1699717934... | [81d]1027978523... | [147d]4931862763...
+  14 | 192 | 74711892948534322790400 | [35d]2052771884... | [65d]1131392153... | [83d]2269523497... | [151d]9764283661...
+  15 | 221 | 301328280772383795840000 | [36d]1661577266... | [66d]5602349851... | [85d]3425620605... | [155d]9629930418...
+
+========================================================================
+THE RATIO TABLE — R_m(tr) = |tau_m(tr)| / |tau_1(tr)| per word
+========================================================================
+divisibility: tau_1 | tau_m exactly (integer R_m) at all 78 entries
+
+R_m(tr) (digit counts for entries > 10^24):
+  tr | m=1 | m=4 | m=5 | m=7 | m=8 | m=11
+   3 | 1 | 31752000 | 480249000000 | 35384589566726400000000 | [30d]1723528511... | [55d]2065072349...
+   4 | 1 | 19508428800 | 10225772140953600 | [31d]7591580813... | [41d]1075209219... | [75d]2230210372...
+   5 | 1 | 1763664840000 | 11244458590865640000 | [37d]5529646617... | [48d]4265142872... | [89d]2864635408...
+   6 | 1 | 60137983180800 | 2720586551051000217600 | [42d]2182720783... | [54d]3870972754... | [100d]3318198442...
+   7 | 1 | 1113545307168000 | 254808257651188164000000 | [46d]1383337289... | [59d]3281988538... | [109d]4711625028...
+   8 | 1 | 13498272055296000 | [26d]1235012928... | [49d]2462034622... | [63d]5364428737... | [117d]3146903655...
+   9 | 1 | 119639990490451200 | [27d]3678441094... | [52d]1713606653... | [67d]2596396635... | [124d]2193287961...
+  10 | 1 | 832791415357440000 | [28d]7523856120... | [54d]5778185923... | [70d]4911773137... | [130d]2670937670...
+  11 | 1 | 4781726594311867200 | [30d]1140686205... | [57d]1093648992... | [73d]4395499908... | [135d]8100222888...
+  12 | 1 | 23461612357607424000 | [31d]1354228278... | [59d]1291696072... | [76d]2134493203... | [140d]7894032614...
+  13 | 1 | 100989622223033544000 | [32d]1311539086... | [61d]1030132081... | [78d]6230172868... | [145d]2989007735...
+  14 | 1 | 389124442440282931200 | [33d]1069152023... | [62d]5892667466... | [81d]1182043488... | [149d]5085564406...
+  15 | 1 | 1363476383585447040000 | [33d]7518449168... | [64d]2534999932... | [83d]1550054572... | [153d]4357434578...
+
+========================================================================
+THE DECISION — is the ratio vector constant across the family?
+========================================================================
+  exact vector equality across tr = 3..15: False
+  witness: R_4(3) = 31752000  vs  R_4(4) = 19508428800
+  projective constancy: FALSE — witness tr=4: R_4/R_5 differs from tr=3:
+    R_4(4)/R_5(4) = 1/524172
+    R_4(3)/R_5(3)   = 1/15125
+
+  what IS family-constant (B617's theorem, re-verified on the
+  whole landscape): sign(tau_m) = (-1)^m at all 78 entries, and
+  the exponent structure tau_m = (-1)^m (tr^2-4)^m * (integer)^2 —
+  |tau_m| / |tau_1|^m = (prod_{j=1}^m U_{j-1}(tr/2))^2, a perfect
+  square at all entries: True
+
+VERDICT: WORD-DEPENDENT — the ratio vector is not constant (not even projectively): the per-exponent landscape carries genuine word (object) information beyond the family parity.
+
+========================================================================
+THE m=1-MODE PARTICIPATION IN THE BANKED Y SUPPORT (lookup,
+  parsed from B637's banked tables; values re-read exactly)
+========================================================================
+  support sizes: unbent: 6/10, m=1: 7/10, m=5: 6/10, m=7: 6/10, m=11: 6/10, phi(a)=a: 7/10, phi(a)=A: 7/10, phi(a)=b: 6/10, phi(a)=B: 6/10
+
+  1. SUPPORT: the m=1 bend is the ONLY bend in {1,5,7,11} that
+     changes the Y support: 6/10 -> 7/10; the switched-on
+     component is Y[(0,2,4)] = -88704/13 + 29568*sqrt(3)*I/13
+     (banked). The same channel Y[024] is on for the involution
+     doubles phi(a)=a and phi(a)=A (7/10) and off for phi(a)=b,
+     phi(a)=B (6/10) — the Y[024]-channel activations of the
+     banked zero law are exactly {m=1, phi(a)=a, phi(a)=A}.
+
+  2. VALUES: components the m=1 mode touches (value differs from
+     the unbent golden table): (0, 2, 4), (0, 3, 4), (1, 2, 4), (1, 3, 4), (2, 3, 4)
+     untouched nonzero (the bend-independent core): (0, 2, 3), (1, 2, 3)
+     zero on both (the boundary-born zero law Y[01k] = 0): (0, 1, 2), (0, 1, 3), (0, 1, 4)
+
+  3. sanity: Y[023] = 24 zeta_6 Y[123] re-verified exactly on all
+     9 parsed tables (the banked law of the chord's core).
+
+  4. CLASS-TABLE cross-reference (B662/cellH, banked): classes
+     {0,1} = the boundary-born (coker-delta^0) pair; {2,3,4} = the
+     solo/generation triple; only class 4 sees the invariant line
+     (kappa = (1,1,1,1) on generators iff i=4). So the m=1-mode
+     signature component Y[024] couples boundary-born class 0 to
+     solo classes {2,4} — every m=1-touched component contains
+     slot 4 or is the dial slot Y[234]; the m=1-invariant core
+     pair {023, 123} avoids class 4 entirely.
+     (check: 5/5 m=1-touched components contain class 4: (0, 2, 4), (0, 3, 4), (1, 2, 4), (1, 3, 4), (2, 3, 4))
+
+========================================================================
+SUMMARY
+========================================================================
+  GATE A (B617 closed form vs direct + banked spot values): PASS
+  GATE B (B581's six exact t=3 exterior torsions): PASS
+  GATE C (two integer routes agree at all 78 entries): PASS
+  VERDICT: WORD-DEPENDENT (ratio vector varies with tr; not even
+    projectively constant). Family-constant content = the parity
+    sign (-1)^m and the square structure |tau_m| = 
+    (tr^2-4)^m * (prod U)^2 — exactly B617's theorem, nothing more.
+  m=1-mode in the Y support: Y[024] switch-on (unique among the
+    bends), value shifts exactly on the slot-4 components,
+    the core pair {023, 123} m=1-invariant.
+
+data written: landscape_table.json
+B666 CELL B' DONE

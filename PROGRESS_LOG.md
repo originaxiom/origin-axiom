@@ -5862,3 +5862,29 @@ L107 CLOSED (their matrix + this seat's E6 half). TRACK H: their
 independent adjudication converges with B669 verbatim; the survivor
 (THE CEILING LAW, max_k |Z_k(w)|) adopted into their loop-4 D4 — fed
 by B669's max-table. Massey-zero converges 2 seats. Locks 2/2.
+
+## 2026-07-17 — B666 WAVE 2 BANKED: twelve cells, ten verdicts, three theorems, the fifth wall
+
+CELL 2 (L106): THE FIFTH WALL — the natural operator collapses (2 of
+3); Hodge slice scalar-forced; star values gauge; BANKED POSITIVELY:
+the exact cup table, one-H2-direction-per-generation, the sigma2/swap
+laws, Y factors through the cups (rank 5), and the subfield theorem's
+largest instantiation (1081 values all in k(Gamma)); cc2-C1
+convergence recorded. CELL 8 (L92+R21-4): THE GLUED CUBIC IS
+NONDEGENERATE (rank 5, kernel 0, both conventions) on the
+fiber-paired object, h1 = 5 — L92 CLOSED. CELL 9: R21-2/-3 DONE (six
+exact integers; m=11 sealed digits = noise, adjudicated; branch IDs
+banked). CELL 10: L97 CLOSED CLEAN — the sector decomposition exact
+(tr_even = 0 doubly-generic; THE FIRST IRRATIONAL SECTOR VALUE
+Z(30) = 2−√5; the G3 sharpening witness r = 19); Lemma-1 426/426.
+CELL B': WORD-DEPENDENT (the family-constant content = exactly B617);
+the m=1 bend touches only class-4 components (the heart's channel —
+H130 link). CELL C': RICHER — the dichotomy lemma proved; the
+invariant phases exceed the lattice on BOTH objects; the first
+off-lattice phase arctan(13*sqrt3/3^8) carries the 13. REVIVALS:
+R1 Q-C = c (the crux's transport lane answered — the residue is
+conjugation-type, not theta); R2 the Latin square DERIVED from
+Kac-Peterson (theorem, 29/29); R3 the per-term Landsberg-Schaar
+PROVEN both stages — LAW-O's mechanism completes. CELL A' crashed at
+its Casimir slot search (deferred; cc2's D2 = the cross-lane).
+Locks 5/5.

@@ -1,0 +1,193 @@
+==============================================================================
+PART 0 -- exact E6 level-2 stage data from the Kac-Peterson closed forms
+==============================================================================
+theta permutation on primaries: [0, 2, 1, 4, 3, 5, 6, 8, 7]
+[    0.7s] W(E6) built exactly: 51840 elements
+[    0.8s] D (unnormalized KP S) built as exact integer 126-arrays, all 45 pairs
+  GATE PASS: raw S-symmetry D_{351,27} == D_{27,351} (independent bincount)
+conformal weights h_a and T-exponents (exact):
+       1: h = 0   hhat = h - c/24 = -13/28   252*hhat = -117
+      27: h = 13/21   hhat = h - c/24 = 13/84   252*hhat = 39
+     27b: h = 13/21   hhat = h - c/24 = 13/84   252*hhat = 39
+    351': h = 4/3   hhat = h - c/24 = 73/84   252*hhat = 219
+   351'b: h = 4/3   hhat = h - c/24 = 73/84   252*hhat = 219
+     650: h = 9/7   hhat = h - c/24 = 23/28   252*hhat = 207
+      78: h = 6/7   hhat = h - c/24 = 11/28   252*hhat = 99
+     351: h = 25/21   hhat = h - c/24 = 61/84   252*hhat = 183
+    351b: h = 25/21   hhat = h - c/24 = 61/84   252*hhat = 183
+  GATE PASS: T-integrality: 252*(h_a - c/24) integral for all 9 primaries
+
+==============================================================================
+PART 1 -- Lemma 1: B_ij = -t_i^2 t_j (S_{a_i a_j} - S_{a_i abar_j})
+==============================================================================
+  GATE PASS: theta-covariance  D_{theta a, theta b} == D_{a b}  (all 81, raw)
+  GATE PASS: conjugation law  conj(D_{a b}) == D_{a, theta b}  (all 81, raw)
+  GATE PASS: T-pair equality  h_a == h_{theta a} on the three odd pairs (exact fractions)
+  pair T-exponents e_j = 252*hhat: [('27', 39), ("351'", 219), ('351', 183)]
+  GATE PASS: N^2 := sum_b |D_{0b}|^2 is RATIONAL (Phi_252-reduction to a constant)
+  N^2 = 22588608  (so N = sqrt(22588608) = 4752.7474159689992934)
+  GATE PASS: N^2 == 3 * 14^6 exactly (KP volume: kappa^rank * det(Cartan)); N = 14^3 sqrt3
+[    0.8s] checking exact unitarity D Ddag = N^2 I (45 entries) ...
+  GATE PASS: EXACT unitarity: D conj(D)^T == N^2 * I  (all 45 independent entries)
+[    0.9s] checking exact S^2 = C_theta (45 entries) ...
+  GATE PASS: EXACT  D*D == N^2 * C_theta  (the weld's Cm = S^2 is the theta permutation)
+
+LEMMA 1 (proved): with C = C_theta the pair-swap permutation and U the
+antisymmetric pair basis u_j = (e_{a_j} - e_{abar_j})/sqrt2, CU = -U holds
+combinatorially (C swaps the two members of each pair, u_j is antisymmetric);
+[T diag equal on pairs] and [theta-covariance + conjugation law] give
+  (U^T S U)_ij = (1/2)(S_{a a'} - S_{a abar'} - S_{abar a'} + S_{abar abar'})
+              = S_{a_i a_j} - S_{a_i abar_j}
+hence  B = U^T C (T^2 S T) U = -U^T T^2 S T U,
+  B_ij = -t_i^2 t_j (S_{a_i a_j} - S_{a_i abar_j}) = -t_i^2 t_j delta_ij / N.
+
+==============================================================================
+PART 2 -- TIER A: the nine entries as exact Q(zeta_252) identities
+==============================================================================
+D_00 numeric = (899.991601749991 - 9.95682444457783e-60j)  ->  s0 = 1 (S_00>0 convention)
+  entry (   27,   27): k=1 m=10  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=2808.9167 (margin vs 0: exact |X|=N*A_k=2808.9167)
+  entry (   27, 351'): k=2 m= 6  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=3502.6619 (margin vs 0: exact |X|=N*A_k=3502.6619)
+  entry (   27,  351): k=3 m= 4  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=1558.8312 (margin vs 0: exact |X|=N*A_k=1558.8312)
+  entry ( 351',   27): k=2 m= 2  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=3502.6619 (margin vs 0: exact |X|=N*A_k=3502.6619)
+  entry ( 351', 351'): k=3 m= 5  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=1558.8312 (margin vs 0: exact |X|=N*A_k=1558.8312)
+  entry ( 351',  351): k=1 m= 3  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=2808.9167 (margin vs 0: exact |X|=N*A_k=2808.9167)
+  entry (  351,   27): k=3 m=12  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=1558.8312 (margin vs 0: exact |X|=N*A_k=1558.8312)
+  entry (  351, 351'): k=1 m= 1  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=2808.9167 (margin vs 0: exact |X|=N*A_k=2808.9167)
+  entry (  351,  351): k=2 m= 6  A1 imag-pure:ok  A2 modulus:ok  A3 real-ray:ok  sign s0*X=3502.6619 (margin vs 0: exact |X|=N*A_k=3502.6619)
+  GATE PASS: (A1) all nine delta_ij purely imaginary (exact)
+  GATE PASS: (A2) all nine modulus laws 7|delta|^2 = N^2(2 - z7^{2k} - z7^{-2k}) (exact)
+  GATE PASS: (A3) all nine phase rays real (exact) ...
+  GATE PASS: (A3) ... and positive (signs pinned, margins ~ N*A_k >> 1e-30)
+  GATE PASS: SHARPENED closed form delta_ij == 392 s0 s'_ij sqrt21 beta_k (exact, all nine)
+
+TIER A (proved): every X_ij is a real algebraic with X_ij^2 = N^2 A_k^2
+exactly (A2+A3-real) and s0*X_ij > 0 (sign pinned; the number is +-N*A_k
+with N*A_k >= sqrt(N^2)*A_3 -- a fixed nonzero algebraic -- so a 60-dps
+evaluation with residual < 1e-30 is decisive).  Hence
+    B_ij = -t_i^2 t_j delta_ij/(s0 N) = A_{k(i,j)} zeta_14^{m(i,j)}
+EXACTLY, with the banked k- and m-tables.  The 1e-100 numeric fact is now a
+theorem of the E6 level-2 Kac-Peterson data.
+==============================================================================
+PART 3 -- Lemma 2: the Galois derivation of the Latin-square index law
+==============================================================================
+marks (root coords of the highest root): [1, 2, 2, 3, 2, 1]  sum=11 (h-1=11)
+  GATE PASS: alcove sanity: the 9 shifted weights are alcove-reduced fixed points
+Galois representatives t (t=1 mod 18, t=u mod 7): {1: 1, 2: 37, 3: 73, 4: 109, 5: 19, 6: 55}
+  t=  1 (u=1): pi_t = [0, 1, 2, 3, 4, 5, 6, 7, 8]   eps_t = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+  t= 37 (u=2): pi_t = [6, 4, 3, 7, 8, 0, 5, 2, 1]   eps_t = [-1, -1, -1, -1, -1, -1, 1, 1, 1]
+  t= 73 (u=3): pi_t = [5, 8, 7, 2, 1, 6, 0, 3, 4]   eps_t = [-1, 1, 1, -1, -1, 1, -1, -1, -1]
+  t=109 (u=4): pi_t = [5, 8, 7, 2, 1, 6, 0, 3, 4]   eps_t = [-1, 1, 1, -1, -1, 1, -1, -1, -1]
+  t= 19 (u=5): pi_t = [6, 4, 3, 7, 8, 0, 5, 2, 1]   eps_t = [-1, -1, -1, -1, -1, -1, 1, 1, 1]
+  t= 55 (u=6): pi_t = [0, 1, 2, 3, 4, 5, 6, 7, 8]   eps_t = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+[    1.1s] verifying exact Galois covariance on all 81 entries x 6 classes (raw arrays)
+  GATE PASS: EXACT Galois covariance sigma_t(D_ab) == eps_t(b) D_{a,pi_t(b)} (81x6, raw)
+  u=1: induced pair permutation [0, 1, 2]   (pair members preserved)
+  u=2: induced pair permutation [1, 2, 0]   (pair members preserved)
+  u=3: induced pair permutation [2, 0, 1]   (pair members preserved)
+  u=4: induced pair permutation [2, 0, 1]   (pair members preserved)
+  u=5: induced pair permutation [1, 2, 0]   (pair members preserved)
+  u=6: induced pair permutation [0, 1, 2]   (pair members preserved)
+  GATE PASS: pi_t maps theta-odd pairs to theta-odd pairs (all six classes)
+labels m_j from the Galois orbit of the 27-pair: [1, 2, 3]  (pairs 27, 351', 351)
+  GATE PASS: orbit labels m = (1,2,3) for (27, 351', 351) -- transitive Galois orbit
+  GATE PASS: index law k(i, pi_t(j)) == +-t*k(i,j) mod 7  (all t, all entries)
+  GATE PASS: THE LATIN-SQUARE LAW  k(i,j) == +- m_i m_j (mod 7), m=(1,2,3)
+
+LEMMA 2 (the derivation).  sigma_t fixes N^2 (rational) and maps the exact
+modulus identity  7|delta_ij|^2 = N^2(2 - z7^{2k(i,j)} - z7^{-2k(i,j)})  to
+the same identity at (i, pi_t(j)) with z7^{2k} -> z7^{2tk}: therefore
+    k(i, pi_t(j)) = +- t k(i,j)  (mod 7)   [verified exactly above].
+The 27-pair's Galois orbit is transitive over the three odd pairs, with
+orbit coordinate m_j = class(+-t) in {1,2,3}; the seed entry k(27,27)=1
+then FORCES  k(i,j) = +- m_i m_j (mod 7): the banked Latin square
+[[1,2,3],[2,3,1],[3,1,2]] IS the multiplication table of Z_7^x/{+-1},
+with the three theta-odd pairs as the group elements.  Each row/column is
+a bijection => Latin, and |B_ij|^2 doubly-stochastic circulant follows.
+==============================================================================
+PART 3b -- Lemma 3: the zeta_14-exponent law
+==============================================================================
+  GATE PASS: EXACT exponent identities zeta_14^m == -i s'_ij t_i^2 t_j (all nine)
+  sine-sign table s'_ij (sign of Im S_(a_i a_j)): [[-1, -1, -1], [-1, 1, 1], [-1, 1, -1]]
+
+the assembled exponent law (exact):
+  m(i,j) = [ 189 - 63*(1 - s'_ij) + 2*e_i + e_j ] / 18   (mod 14),
+  with e = 252*(h - c/24) on the pair letters: e_27=39, e_351'=219, e_351=183
+  (integrality: 189/63 + 2e_i + e_j == 18*m mod 252 verified above)
+
+s'-cocycle under sigma_t (DERIVED from the sharpened closed form + covariance):
+  GATE PASS: eps_t equal on the two members of each odd pair (all six classes)
+  orientation factors o_t(j): {1: [1, 1, 1], 37: [-1, 1, -1], 73: [-1, -1, 1], 109: [-1, -1, 1], 19: [-1, 1, -1], 55: [1, 1, 1]}
+  GATE PASS: s'-cocycle: s'(i,pi_t(j)) == eps_t(j) o_t(j) (t|7) sgn7(tk) s'(i,j) (all 54)
+
+no symmetric compact form m == a*mu_i*mu_j + b (mod 14) exists (consistent: the m-table is NOT symmetric, m(2,3)=3 vs m(3,2)=1, while a*mu_i*mu_j is); the exponent law is the assembled affine law above
+no affine-multiplicative compact form in the labels exists mod 14; the T-assembled law is the exponent law
+
+==============================================================================
+PART 4 -- corollaries of the proven closed form (exact in Q(zeta_252))
+==============================================================================
+  GATE PASS: Gauss sum: g7^2 == -7 (exact)
+  GATE PASS: corollary: trace(B) == -1 (exact: tr(7B) + 7 == 0)
+  GATE PASS: corollary: B unitary (exact, from the closed form)
+  GATE PASS: corollary: e2(B) == +1 (exact)
+  GATE PASS: corollary: det(B) == -1 (exact)  => charpoly (x+1)(x^2+1), B^4 = I
+  GATE PASS: corollary: |B_ij|^2 doubly stochastic (all row/col sums == 1, exact)
+
+==============================================================================
+CHECK SUMMARY: 29/29 passed, 0 failed
+  [PASS] raw S-symmetry D_{351,27} == D_{27,351} (independent bincount)
+  [PASS] T-integrality: 252*(h_a - c/24) integral for all 9 primaries
+  [PASS] theta-covariance  D_{theta a, theta b} == D_{a b}  (all 81, raw)
+  [PASS] conjugation law  conj(D_{a b}) == D_{a, theta b}  (all 81, raw)
+  [PASS] T-pair equality  h_a == h_{theta a} on the three odd pairs (exact fractions)
+  [PASS] N^2 := sum_b |D_{0b}|^2 is RATIONAL (Phi_252-reduction to a constant)
+  [PASS] N^2 == 3 * 14^6 exactly (KP volume: kappa^rank * det(Cartan)); N = 14^3 sqrt3
+  [PASS] EXACT unitarity: D conj(D)^T == N^2 * I  (all 45 independent entries)
+  [PASS] EXACT  D*D == N^2 * C_theta  (the weld's Cm = S^2 is the theta permutation)
+  [PASS] (A1) all nine delta_ij purely imaginary (exact)
+  [PASS] (A2) all nine modulus laws 7|delta|^2 = N^2(2 - z7^{2k} - z7^{-2k}) (exact)
+  [PASS] (A3) all nine phase rays real (exact) ...
+  [PASS] (A3) ... and positive (signs pinned, margins ~ N*A_k >> 1e-30)
+  [PASS] SHARPENED closed form delta_ij == 392 s0 s'_ij sqrt21 beta_k (exact, all nine)
+  [PASS] alcove sanity: the 9 shifted weights are alcove-reduced fixed points
+  [PASS] EXACT Galois covariance sigma_t(D_ab) == eps_t(b) D_{a,pi_t(b)} (81x6, raw)
+  [PASS] pi_t maps theta-odd pairs to theta-odd pairs (all six classes)
+  [PASS] orbit labels m = (1,2,3) for (27, 351', 351) -- transitive Galois orbit
+  [PASS] index law k(i, pi_t(j)) == +-t*k(i,j) mod 7  (all t, all entries)
+  [PASS] THE LATIN-SQUARE LAW  k(i,j) == +- m_i m_j (mod 7), m=(1,2,3)
+  [PASS] EXACT exponent identities zeta_14^m == -i s'_ij t_i^2 t_j (all nine)
+  [PASS] eps_t equal on the two members of each odd pair (all six classes)
+  [PASS] s'-cocycle: s'(i,pi_t(j)) == eps_t(j) o_t(j) (t|7) sgn7(tk) s'(i,j) (all 54)
+  [PASS] Gauss sum: g7^2 == -7 (exact)
+  [PASS] corollary: trace(B) == -1 (exact: tr(7B) + 7 == 0)
+  [PASS] corollary: B unitary (exact, from the closed form)
+  [PASS] corollary: e2(B) == +1 (exact)
+  [PASS] corollary: det(B) == -1 (exact)  => charpoly (x+1)(x^2+1), B^4 = I
+  [PASS] corollary: |B_ij|^2 doubly stochastic (all row/col sums == 1, exact)
+==============================================================================
+
+VERDICT: PROVEN.
+
+THEOREM (E6 level-2 odd hearing matrix -- the Latin-square/sine-kernel/
+zeta_14-exponent laws).  Let S, T be the Kac-Peterson modular data of
+E6 at level 2 (kappa = 14), C = S^2 the conjugation permutation, and
+B = U^T C T^2 S T U the twisted weld on the three theta-odd pairs
+(27,27b), (351',351'b), (351,351b).  Then, EXACTLY,
+
+    B_ij = A_{k(i,j)} zeta_14^{m(i,j)},   A_k = (2/sqrt7) sin(2 pi k/7),
+
+where  k(i,j) == +- m_i m_j (mod 7)  with the pair labels m = (1,2,3)
+given by the Galois-orbit coordinates of the 27-pair under
+Gal(Q(zeta_7)/Q)/{+-1} acting through the level-14 alcove -- so the
+A-index Latin square [[1,2,3],[2,3,1],[3,1,2]] is the multiplication
+table of Z_7^x/{+-1} -- and the zeta_14 exponent obeys
+    m(i,j) == [189 - 63(1 - s'_ij) + 2 e_i + e_j]/18  (mod 14),
+    e_j = 252(h_j - c/24),  s'_ij = sgn Im S_{a_i a_j}
+with the s'-cocycle law s'(i,pi_t(j)) = eps_t(j) o_t(j) (t|7) sgn7(tk) s'(i,j)
+DERIVED from the sharpened closed form of the unnormalized differences
+    delta_ij = 392 sqrt21 s'_ij (z7^k - z7^{-k}),   392 = 2^3 7^2,
+itself proved exactly (N = 14^3 sqrt3 = KP volume).  Corollaries
+(all exact): B unitary, trace -1, charpoly (x+1)(x^2+1) (order 4),
+|B|^2 the doubly-stochastic circulant of (A_1^2, A_2^2, A_3^2).
+All decisive steps are exact integer/cyclotomic arithmetic in
+Z[zeta_252] (zero-tests by reduction mod Phi_252); floats only pin
+signs of nonzero real algebraics with stated margins.

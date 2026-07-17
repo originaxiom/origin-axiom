@@ -1,0 +1,62 @@
+===== word RL (b++RL) =====
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  J_disc = (5.0 + 2.02849481418012220641229983426382859234179724e-294j)
+  (vol 2.02988321282, fit maxrel 5.26e-297, qdeg 5, t-power 2, 1s)
+  MATCHED branch: root #0 of lam - 5  ~ 5.0
+    sign classes carrying it: ['(-1, -1)', '(-1, 1)', '(1, -1)', '(1, 1)']
+    match distance 3.71e-294; next-nearest DISTINCT root at distance 6.0
+    factor-evaluation certificate: |P_matched(J_disc)| = 3.71e-294; min over other factors = 6.0
+===== word RRL (b++RRL) =====
+  J_disc = (9.0 - 2.64575131106459059050161575363926042571025918j)
+  (vol 2.6667447834, fit maxrel 4.39e-297, qdeg 5, t-power 2, 0s)
+  MATCHED branch: root #1 of lam**2 - 18*lam + 88  ~ (9.0 - 2.64575131106459059050161575364j)
+    sign classes carrying it: ['(-1, 1)', '(1, 1)']
+    match distance 2.08e-294; next-nearest DISTINCT root at distance 5.29
+    factor-evaluation certificate: |P_matched(J_disc)| = 1.1e-293; min over other factors = 5.66
+===== word RLRL (b++RLRL) =====
+  J_disc = (23.0 - 4.33366177305124217639430789488819332869945145e-295j)
+  (vol 4.0597664256, fit maxrel 4.97e-297, qdeg 5, t-power 2, 1s)
+  MATCHED branch: root #0 of lam - 23  ~ 23.0
+    sign classes carrying it: ['(-1, -1)', '(-1, 1)', '(1, -1)', '(1, 1)']
+    match distance 2.72e-294; next-nearest DISTINCT root at distance 14.0
+    factor-evaluation certificate: |P_matched(J_disc)| = 2.72e-294; min over other factors = 14.0
+===== word RRLL (b++RRLL) =====
+  J_disc = (18.0 + 6.24115315437848368892138331879951603624899663e-294j)
+  (vol 3.6638623767, fit maxrel 1.97e-296, qdeg 5, t-power 2, 1s)
+  MATCHED branch: root #0 of lam - 18  ~ 18.0
+    sign classes carrying it: ['(1, 1)']
+    match distance 6.78e-294; next-nearest DISTINCT root at distance 8.0
+    factor-evaluation certificate: |P_matched(J_disc)| = 6.78e-294; min over other factors = 8.0
+===== word RRRL (b++RRRL) =====
+  J_disc = (14.2967276203455045514001573790394743635603576 - 7.87518049721485083494573144166207161099895311j)
+  (vol 2.9891202829, fit maxrel 1.1e-296, qdeg 5, t-power 2, 0s)
+  MATCHED branch: root #3 of lam**4 - 38*lam**3 + 560*lam**2 - 3210*lam + 6559  ~ (14.296727620345504551400157379 - 7.87518049721485083494573144166j)
+    sign classes carrying it: ['(-1, -1)', '(-1, 1)', '(1, -1)', '(1, 1)']
+    match distance 1.03e-293; next-nearest DISTINCT root at distance 11.5
+    factor-evaluation certificate: |P_matched(J_disc)| = 2.51e-290; min over other factors = 17.2
+===== word RRRRL (b++RRRRL) =====
+  J_disc = (20.8609644805166613490276915007127276564442593 - 16.1966288148058913090782234548563885809050727j)
+  (vol 3.17729327860, fit maxrel 4.86e-295, qdeg 5, t-power 2, 0s)
+  MATCHED branch: root #1 of lam**3 - 46*lam**2 + 876*lam - 2984  ~ (20.8609644805166613490276915007 - 16.1966288148058913090782234549j)
+    sign classes carrying it: ['(-1, 1)', '(1, 1)']
+    match distance 4.52e-292; next-nearest DISTINCT root at distance 19.2
+    factor-evaluation certificate: |P_matched(J_disc)| = 3.39e-289; min over other factors = 26.4
+===== word RRLLL (b++RRLLL) =====
+  J_disc = (30.4566727205975093854342136552674451370776595 + 9.44216618621890623427770083472060133550974049j)
+  (vol 4.17775107319, fit maxrel 1.64e-296, qdeg 5, t-power 2, 1s)
+  MATCHED branch: root #2 of lam**4 - 86*lam**3 + 2704*lam**2 - 35200*lam + 161792  ~ (30.4566727205975093854342136553 + 9.44216618621890623427770083472j)
+    sign classes carrying it: ['(-1, 1)', '(1, 1)']
+    match distance 1.24e-293; next-nearest DISTINCT root at distance 13.4
+    factor-evaluation certificate: |P_matched(J_disc)| = 9.6e-290; min over other factors = 31.9
+===== word RRRLLL (b++RRRLLL) =====
+  J_disc = (54.0811808926204439515882171508964271887058189 + 8.59393378313968500808933777365592477895077761e-293j)
+  (vol 4.81381918610, fit maxrel 6.57e-296, qdeg 5, t-power 2, 1s)
+  MATCHED branch: root #1 of lam**4 - 114*lam**3 + 4264*lam**2 - 58910*lam + 192359  ~ 54.0811808926204439515882171509
+    sign classes carrying it: ['(-1, -1)', '(-1, 1)', '(1, -1)', '(1, 1)']
+    match distance 1.27e-292; next-nearest DISTINCT root at distance 26.5
+    factor-evaluation certificate: |P_matched(J_disc)| = 4.42e-288; min over other factors = 55.1
+
+CALIBRATION ANCHORS: RL -> J=5 (= 2-(-3), banked fig-8 tau_1), RRLL -> J=18 (= 2-(-16), banked silver tau_1): PASS
+RLRL double-cover consistency: matched root 23.0 vs J(RL)^2-2 = 23
+DONE

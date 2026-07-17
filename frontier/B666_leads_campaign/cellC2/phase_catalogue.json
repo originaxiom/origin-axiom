@@ -1,0 +1,611 @@
+{
+ "cell": "B666-C'",
+ "question": "is every invariant phase in (pi/6)Z (golden) / (pi/4)Z (silver)?",
+ "verdict": {
+  "golden": "RICHER",
+  "silver": "RICHER"
+ },
+ "dichotomy": "lattice-or-irrational-multiple-of-pi (mu(K) lemma, certified per row)",
+ "rows": [
+  {
+   "tag": "G-SIL",
+   "object": "Dphi_Binv: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "(the unit cross-ratio law, exact = 1)"
+  },
+  {
+   "tag": "G-SIL",
+   "object": "Dphi_b: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "(the unit cross-ratio law, exact = 1)"
+  },
+  {
+   "tag": "G-SIL",
+   "object": "bent_m11: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "(the unit cross-ratio law, exact = 1)"
+  },
+  {
+   "tag": "G-SIL",
+   "object": "bent_m5: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "(the unit cross-ratio law, exact = 1)"
+  },
+  {
+   "tag": "G-SIL",
+   "object": "bent_m7: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "(the unit cross-ratio law, exact = 1)"
+  },
+  {
+   "tag": "G-SIL",
+   "object": "weld_none: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "(the unit cross-ratio law, exact = 1)"
+  },
+  {
+   "tag": "G-LIT",
+   "object": "Dphi_a: inv1 = (Y023*Y124)/(Y024*Y123)",
+   "field": "sqrt-3",
+   "x": "7379/7392",
+   "y": "13/7392",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "27224567/27225074",
+    "95927/27225074"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-LIT",
+   "object": "Dphi_a: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "6561/6574",
+   "y": "13/6574",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "7174369/7174538",
+    "28431/7174538"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-LIT",
+   "object": "Dphi_Ainv: inv1 = (Y023*Y124)/(Y024*Y123)",
+   "field": "sqrt-3",
+   "x": "7379/7392",
+   "y": "13/7392",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "27224567/27225074",
+    "95927/27225074"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-LIT",
+   "object": "Dphi_Ainv: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "6561/6574",
+   "y": "13/6574",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "7174369/7174538",
+    "28431/7174538"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-LIT",
+   "object": "bent_m1: inv1 = (Y023*Y124)/(Y024*Y123)",
+   "field": "sqrt-3",
+   "x": "3709/3696",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-LIT",
+   "object": "bent_m1: inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "sqrt-3",
+   "x": "21952107/21866138",
+   "y": "169/21866138",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "80315833608961/80315833637522",
+    "1236635361/80315833637522"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-DEV",
+   "object": "Dphi_a: inv1 - 1",
+   "field": "sqrt-3",
+   "x": "-13/7392",
+   "y": "13/7392",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-DEV",
+   "object": "Dphi_a: inv2 - 1",
+   "field": "sqrt-3",
+   "x": "-13/6574",
+   "y": "13/6574",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-DEV",
+   "object": "Dphi_Ainv: inv1 - 1",
+   "field": "sqrt-3",
+   "x": "-13/7392",
+   "y": "13/7392",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-DEV",
+   "object": "Dphi_Ainv: inv2 - 1",
+   "field": "sqrt-3",
+   "x": "-13/6574",
+   "y": "13/6574",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-DEV",
+   "object": "bent_m1: inv1 - 1",
+   "field": "sqrt-3",
+   "x": "13/3696",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-DEV",
+   "object": "bent_m1: inv2 - 1",
+   "field": "sqrt-3",
+   "x": "85969/21866138",
+   "y": "169/21866138",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "21865631/21866138",
+    "85969/21866138"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-UNIT",
+   "object": "dial unit 1",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-UNIT",
+   "object": "dial unit zeta3 = (-1+sqrt(-3))/2",
+   "field": "sqrt-3",
+   "x": "-1/2",
+   "y": "1/2",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-UNIT",
+   "object": "dial unit sqrt(-3)",
+   "field": "sqrt-3",
+   "x": "0",
+   "y": "1",
+   "lattice": true,
+   "k": 3,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1",
+    "0"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "G-SIG",
+   "object": "sigma* diagonal (as persisted) zeta6",
+   "field": "sqrt-3",
+   "x": "1/2",
+   "y": "1/2",
+   "lattice": true,
+   "k": 2,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "1/2"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "G-SIG",
+   "object": "sigma* diagonal (as persisted) conj(zeta6)",
+   "field": "sqrt-3",
+   "x": "1/2",
+   "y": "-1/2",
+   "lattice": true,
+   "k": -2,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "G-SIG",
+   "object": "sigma* diagonal (as persisted) -zeta6",
+   "field": "sqrt-3",
+   "x": "-1/2",
+   "y": "-1/2",
+   "lattice": true,
+   "k": -4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "1/2"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "G-SIG",
+   "object": "sigma* diagonal (as persisted) -conj(zeta6)",
+   "field": "sqrt-3",
+   "x": "-1/2",
+   "y": "1/2",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "-1/2",
+    "-1/2"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "G-SIG",
+   "object": "sigma* diagonal (as persisted) 1",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "G-SIG-INV",
+   "object": "sigma* R-spectrum eigenvalue +1 (mult 5)",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[basis-invariant]"
+  },
+  {
+   "tag": "G-SIG-INV",
+   "object": "sigma* R-spectrum eigenvalue -1 (mult 5)",
+   "field": "sqrt-3",
+   "x": "-1",
+   "y": "0",
+   "lattice": true,
+   "k": 6,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[basis-invariant]"
+  },
+  {
+   "tag": "G-SIG-INV",
+   "object": "J^2 scalar +1",
+   "field": "sqrt-3",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 6,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[basis-invariant]"
+  },
+  {
+   "tag": "S-SIG",
+   "object": "sigma* diagonal (as persisted) d0",
+   "field": "i",
+   "x": "160633/386425",
+   "y": "351456/386425",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "-97718359247/149324280625",
+    "112910863296/149324280625"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "S-SIG",
+   "object": "sigma* diagonal (as persisted) d1",
+   "field": "i",
+   "x": "10917036583/16953624025",
+   "y": "-12970878144/16953624025",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "-49061992071936568847/287425367581057200625",
+    "-283207102423366283904/287425367581057200625"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "S-SIG",
+   "object": "sigma* diagonal (as persisted) 1",
+   "field": "i",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "S-SIG",
+   "object": "sigma* diagonal (as persisted) -1",
+   "field": "i",
+   "x": "-1",
+   "y": "0",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "S-SIG",
+   "object": "sigma* diagonal (as persisted) 1",
+   "field": "i",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[GAUGE-SLACK per Hilbert 90 \u2014 see below]"
+  },
+  {
+   "tag": "S-SIG-INV",
+   "object": "sigma* R-spectrum eigenvalue +1 (mult 5)",
+   "field": "i",
+   "x": "1",
+   "y": "0",
+   "lattice": true,
+   "k": 0,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[basis-invariant]"
+  },
+  {
+   "tag": "S-SIG-INV",
+   "object": "sigma* R-spectrum eigenvalue -1 (mult 5)",
+   "field": "i",
+   "x": "-1",
+   "y": "0",
+   "lattice": true,
+   "k": 4,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "1",
+    "0"
+   ],
+   "note": "[basis-invariant]"
+  },
+  {
+   "tag": "S-CR",
+   "object": "silver inv1 = (Y023*Y124)/(Y024*Y123)",
+   "field": "i",
+   "x": "16271648481252971729/16271671961969963216",
+   "y": "-369110590776791/178988391581669595376",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "16018375929928338244272749875998839462340/16018375930064580872496341545235623720021",
+    "-66066415622103142725000359995758029/16018375930064580872496341545235623720021"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "S-CR",
+   "object": "silver inv2 = (Y023*Y134)/(Y034*Y123)",
+   "field": "i",
+   "x": "1775661509660642434903313/1775664925937025369121636",
+   "y": "9285580552058180539/1775664925937025369121636",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "1576486898402044880493694691643361107376270022724/1576486898488266886682455796510251047407388353245",
+    "16488047981143130457077739077117723163225707/1576486898488266886682455796510251047407388353245"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "S-DEV",
+   "object": "silver inv1 - 1",
+   "field": "i",
+   "x": "-23480716991487/16271671961969963216",
+   "y": "-369110590776791/178988391581669595376",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "-780867407527241138257196/2279320553740288100456765",
+    "2141389333718793669919947/2279320553740288100456765"
+   ],
+   "note": ""
+  },
+  {
+   "tag": "S-DEV",
+   "object": "silver inv2 - 1",
+   "field": "i",
+   "x": "-3416276382934218323/1775664925937025369121636",
+   "y": "9285580552058180539/1775664925937025369121636",
+   "lattice": false,
+   "k": null,
+   "lattice_denominator": 4,
+   "z_over_conj_z": [
+    "-4954185031501456128011930902104/6505337120568673248722582659825",
+    "-4216095554644798718974708633553/6505337120568673248722582659825"
+   ],
+   "note": ""
+  }
+ ]
+}
