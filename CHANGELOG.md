@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — Review 22 (the second constitutional review)
+
+### Governance
+- The R21 loop closed (9/2); the record's largest window declared
+  (five wall events, nine theorem upgrades, five discoveries + the
+  RR recognition); the receipt loop at historical maximum (seven
+  convergences, six reciprocal corrections); E14 minted; the
+  operational cd-chain pattern named with its counter-rule; seven
+  action items (R22-1..7) — the specialist bar remains the program's
+  one external dependency.
+
 ## 2026-07-18 — B672: the mini-wave (Rogers–Ramanujan; the branch dichotomy)
 
 ### Added

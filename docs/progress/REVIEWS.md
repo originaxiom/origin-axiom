@@ -1212,13 +1212,104 @@ template's honesty rule).
 - [x] R21-1: DONE (B666/W31, 2026-07-17) — THE UNCONDITIONAL FORM: B625's 3|κ boundary was a presentation artifact (the level-3κ even-form hypothesis holds for every κ; Gram certificate; 312/312 + 120/120 exact incl. every 3∤κ case; the E₆ aggregate born unconditional)
 - [x] R21-2: DONE (B666 cell 9, 2026-07-17) — all six exponents confirm EXACT INTEGERS; the sealed m=11 digits adjudicated as input-precision noise (the B627-era hazard resolved); sign law holds on the exact values
 - [x] R21-3: DONE (B666 cell 9, 2026-07-17) — the J-spectrum and per-word branch identifications banked (run-1 failure preserved; run 2 clean)
-- [ ] R21-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (carried from R20-4; B656/G5's machinery now applies)
+- [x] R21-4: DONE (B666 cell 8, 2026-07-17) — θ₂₇∘conj built exactly; h¹(D_conjθ) = 5; THE GLUED CUBIC NONDEGENERATE (rank 5, kernel 0, both conventions); L92 closed with it
 - [x] R21-5: SHARPENED (B666/cell7, 2026-07-17) — THE FIRST-POWER LAW (v_P(lit-dev) = 1 at every prime over the dial, 8/8 both objects); the norm-mechanism refuted as uniform; v13 localizes on the class-4 pairs (two independent witnesses); the DIRECTIONAL split-prime discovery ((1,0) at the primes over 13 on the silver — an invariant asymmetry); the residual mechanism question carries in the campaign's out-list
 - [x] R21-6: DONE (owner-directed 2026-07-17; B658, prereg 0c4a1115) — both order-4 families BROKEN with the same singular d = (0,0,1); wall 8 upgraded to the TOTAL statement (all four orientation-reversing families of D₄ break; the double's symmetry = σ* exactly)
-- [ ] R21-7: the prior-art/novelty pass over ALL standing THEOREM/LAW candidates (carried from R20-9; NEEDS-SPECIALIST; §5.1 gate) — **SWEEP PHASE DONE (B659, 2026-07-17): 12 verdicts (1 KNOWN-field-half via Neumann–Reid, 2 ROUTINE-method, 8 KNOWN-ADJACENT with stated deltas, 1 NOVEL-CANDIDATE); the dossier is the specialist's package; the specialist bar itself remains open**
-- [ ] R21-8: the web seat's L95 prereg — verify-on-receipt when it lands (carried out of R20-10)
+- [>] R21-7: CARRIED to R22-1 (the sweep phase done in B659; the specialist bar remains; the queue grew with the RR identities)
+- [>] R21-8: CARRIED to R22-2 (the seal never landed)
 - [x] R21-9: PROVEN (B666 cell 4, 2026-07-17) — elementary and UNCONDITIONAL: each pair product f(ζ)f(ζ̄) = (t−ζ−ζ̄)² is a literal square; det B_w = (t−2)^{a₁}(t+2)^{a₂}Λ², Λ ∈ ℤ; no ramified case split exists; both directions + the exactly-half law now abstract theorems on even-rank lattices (hypothesis weakened to finite-order GL_n(ℤ))
 - [x] R21-10: DONE (2026-07-17) — owner approved; GOVERNANCE §16 adopted (adversarial factual review of instantiated designs; live-verification stamps; widened anomaly clause; the subagent-reviewer provision with the blinded-lane carve-out) + WORKING_RULES rule 13; L99 closed
 - [x] R21-11: LOCALIZED + REPAIRED (B666 cell 5, 2026-07-17) — collection-time module import (the last module-level dps in sorted order wins); per-test fixture repair adopted; the E-ledger's false inference corrected; the 12-file sweep priced
 
 anchor-commit: `4d02afe` (Review 21; #1065)
+
+---
+
+## REVIEW 22 — EXECUTED 2026-07-18 (the second constitutional review; window #1066–#1093, B658–B674-open)
+
+**The loop (item 1):** the R21 block fully dispositioned — R21-1/-2/-3/-4/-5/-6/-9/-10/-11 resolved with evidence pointers
+(the B658 order-4 wall; §16; the B666 campaign cells; B671's extraction);
+R21-7 carried (the sweep phase done in B659 + the RR quintic identities
+now ADDED to the specialist queue; the bar itself remains the program's
+one external dependency) and R21-8 carried (the web seat's L95 prereg,
+never landed). The review-actions gate reads the superseded block clean.
+
+**The declared modulus (item 2):** 28 first-parent merges (#1066–#1093),
+B658–B673 read in full plus the B666/B662 campaign synthesis documents;
+the fast suite re-run TWICE this window (the second run surfacing and
+repairing three failures — see item 4); OA_SLOW not re-run; the standing
+pilot caveat holds (author = reviewer; the counterweight is the two-seat
+receipt loop, which this window exercised at its historical maximum:
+SEVEN independent convergences — the sum rule two-seat, the slot
+structure two-pipeline, Track H two-adjudication, Massey-zero two-seat,
+the F4 skeleton two-seat, the ceiling tables armed, the landscape
+two-route — and SIX reciprocal corrections across seats).
+
+**(3) Advancement — the record's largest window.** GOVERNANCE §16
+adopted. Walls: 8-total (B658), 10-as-theorem + the silence note
+(cell S), the Massey wall, the fifth wall, and the gauge verdict
+(B671). THEOREM upgrades: the dimension grammar (family-wide), the
+subfield law, sign-hears-the-discriminant (unconditional), LAW-O
+complete, the Latin square, the unconditional reciprocity, the
+landscape/shadow-class/stage-universal chain, the exact minimal period
+175560, the branch-tiebreak dichotomy. DISCOVERIES: hearing =
+character theory of shadows; the metallic-McKay descent E8→E7→E6
+complete (mode = SL(2)-realizability; the partner at the
+ring-conductor prime); the F4 skeleton; Q-C = c; the Galois pair
+{SU(3)₂, SU(5)₁}; the generation sum rule (two-seat); the slot
+saturation with the graded sign rule; THE ROGERS–RAMANUJAN
+RECOGNITION (the doublet ratio = R(q)); the 13-localization +
+first-power law + the directional split. L91 reduced to two named
+principles (H-EAR + H-CUSP, all instances computed). CLOSED LEADS
+this window: L92, L96, L97, L100–L108 (all of the campaign's targets)
+— the frontier's live set is now: H-EAR, H-CUSP, the generation leg
+(two routes running), the scalarization-gauge follow-on, the
+directional-13 mechanism, and the seats' loop-5 lanes. STUCK LONGEST:
+the specialist bar (R21-7, two reviews).
+
+**(4) Error-class recurrence.** E14 MINTED (B480's noise-band value —
+corrected with a dated FINDINGS edit). E12's mechanism REPLACED
+(collection-time import; the false "collects-after" inference
+withdrawn; TWO instances repaired (b353, b357); the 12-file
+module-level-dps sweep remains priced). The public-surface scan caught
+a seat-label leak introduced by THIS seat's own ledger edits (fixed
+same-day) — the scanner works on its author. OPERATIONAL PATTERN
+NAMED (no banked corruption, caught each time): chained shell
+commands crossing `cd` boundaries misplaced ledger appends four times
+this window — the adopted counter-rule is worktree-isolated banking +
+root-anchored ledger edits, now standard practice. cc2-side hygiene:
+POST-SEAL PREREG DRIFT observed twice (loop-2/loop-4 preregs) —
+flagged in both packet manifests; their answer is an R22 item.
+
+**(5) Provenance spot-sweep.** The pretense grep: clean (the one hit
+was the deliberate README disclaimer). The seat-label scan: the one
+leak found and fixed in-window (above). New load-bearing terms
+glossed with their arcs (the shadow-class law, the F4 skeleton, the
+ceiling law, H-EAR/H-CUSP live in their FINDINGS pending the next
+TERMINOLOGY pass — R22 item).
+
+**(6) The §5.1 promotion sweep.** Everything remains behind the
+specialist bar; the queue GREW: + the RR quintic identities (B672,
+explicitly needs-specialist), the stage-universal character law, the
+McKay-descent triple, the unconditional sign theorem. The dossier
+(B659) plus this window's additions is the hand-over package.
+
+**(7) Protocol integrity.** Spot-recomputed this review: the B666
+prereg 84e7245f + ADDENDUM_1 with its two sealed amendments
+(c8461cf3, 82d5cd62 — the F′ re-scope trail intact); B669's
+d5f025bf with its failing-then-passing control preserved; the B673
+manifest's seal disposition (5/25 raw resolved as delta-vs-cumulative
++ the two flagged drifts). Hash-first held throughout; the
+tracked-forbidden gate blocked one add-sweep in-window (the gate
+working on the governor).
+
+### Action items (Review 22)
+- [ ] R22-1: the specialist pass (carried from R21-7; the dossier + the RR identities + this window's theorem queue; NEEDS-SPECIALIST — the program's one external dependency)
+- [ ] R22-2: the web seat's L95 prereg — verify-on-receipt (carried from R21-8)
+- [ ] R22-3: cc2's post-seal prereg drift (two instances) — their explanation or re-seal protocol adopted program-wide (owner relays)
+- [ ] R22-4: the 12-file module-level-dps sweep (the E12 class-wide fix; priced in B666 cell 5)
+- [ ] R22-5: the TERMINOLOGY pass for this window's terms (shadow-class, F4 skeleton, ceiling law, H-EAR, H-CUSP, the sum rule)
+- [ ] R22-6: the generation-leg campaign adjudication on landing (two routes + cc3-cross-check per the sealed plan 353ca003; the K020 silver control on any hit)
+- [ ] R22-7: H-EAR and H-CUSP — the two named principles as the L91 endgame (proof attempts after the generation leg)
+
+anchor-commit: *(added by the follow-up one-line PR once the merge hash exists)*
