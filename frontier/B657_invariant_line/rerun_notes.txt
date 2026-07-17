@@ -1,0 +1,15 @@
+# B657 — main-seat reproduction record (2026-07-17, pyenv, this machine)
+# Method: packet scripts with ONLY the two path constants patched
+# (seat repo path -> this repo; seat workdir -> local). No other edit.
+
+W0a w0a_compute.py : rerun w0a_v0.json == sealed w0a_v0.json BIT-IDENTICAL
+W0b w0b_blocks.py  : rerun w0b_blocks.json == sealed except 'runtime_s'
+                     (90.1s vs 91.2s); every mathematical field identical
+W2a w2a_silver.py  : rerun silver_portal.json == sealed except 'runtime_s'
+                     (690.7s vs 651.7s); ALL HARD GATES PASS reproduced;
+                     RANK-5-ISOMORPHISM reproduced
+W1  (not re-run)   : requires the seat-local stage1_classes.pkl cache;
+                     verified instead from the sealed portal_matrix.json
+                     with independent exact linear algebra
+                     (verify_w1_matrix.py -> verify_w1_out.txt); the
+                     portal PIPELINE's independent end-to-end run is W2a.

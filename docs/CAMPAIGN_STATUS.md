@@ -59,8 +59,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
   mirror generic + sector-carry laws; generic ladder period = 5 =
   disc(A₁) (= B204's SU(2) period); the 3/5/1 reduction theorem. New
   leads L100 (resonant-phase) + L101 ((i₁,i₂) uniformity).
+- **THE INVARIANT LINE (B657, banked 2026-07-17):** cc2's corrected
+  probe — the "dark matter candidate" conflation REFUTED exactly (v₀ is
+  h_pr-null; the GUT singlet sits at h_pr = ±16, overlap exactly zero);
+  and the object gave something better: THE PORTAL LAW — cupping with
+  the invariant line is a rank-5 isomorphism of the double's cohomology
+  onto its dual, sector-respecting on the golden. One-per-block
+  confirmed (the invariant-line class = the Betti class). L102 opened.
 - Standing: tracks L (cc2 ladder) and W (L95) event-driven; R20 items
-  4/7/8/9 open; the constitutional pilot review fires on cadence (DUE).
+  4/7/8/9 open; the constitutional pilot review fires on cadence (DUE —
+  next up).
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2

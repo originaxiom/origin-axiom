@@ -13348,6 +13348,30 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B657": {
+   "slug": "invariant line",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B575",
+    "B637",
+    "B650",
+    "B656",
+    "L102",
+    "L99",
+    "V1",
+    "V17",
+    "V9"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B65": {
    "slug": "sl4 symbolic jacobian",
    "motifs": [
