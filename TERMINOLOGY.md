@@ -101,3 +101,31 @@ No invariant may be transferred between these without an explicit map.
 - **the portal (law)**: cupping with the invariant line, P(u) = [v₀ × u]
   via the Jordan cross product — a rank-5 isomorphism H¹(D;27) →
   H¹(D;27̄) on both computed objects (B657).
+- **the shadow-class law / the stage-universal character law**:
+  |tr_odd(W)| = |χ_D(shadow(W))| — the hearing modulus of any word is
+  the absolute character of the stage's shadow-irrep on the word's
+  mod-conductor image (golden: |χ₂| of 2I mod 5; E₆ level 2: |χ₃| of
+  PSL(2,7) mod 7) (B664/B665/B666).
+- **the F4 skeleton**: stab_{e6}(v₀) ≅ f4; both metallic holonomies
+  lie in one F₄ fixing the same Jordan unit direction; 27 = 1 ⊕ 26
+  (B670).
+- **the ceiling law**: the per-word supremum max_κ |Z_κ(w)| of the
+  exactly-periodic level ladder — the survivor question of Track H's
+  refutation (B669/B673; cc2's D4).
+- **the generation sum rule**: [P₂₃] + (7983360/13)·ω·[P₃₄] = 0 with
+  [P₂₄] independent — the exact rank-2 relation among the solo
+  pairings, two-seat verified (B671/B673).
+- **the graded sign rule**: in 27⊗27 the Λ²=351-valued cup classes
+  are slot-symmetric and the Sym²-valued (351′/27̄) classes
+  slot-antisymmetric — the Koszul parity flip (B666/A′ × cc2 D2).
+- **H-EAR (the shadow-realization principle)**: the named hypothesis
+  that the hearing stage realizes the object's shadow representation
+  — L91's first remaining principle (B666/W32).
+- **H-CUSP (the cusp-quantization principle)**: a stage can host the
+  hearing only if the object's cusp lattice conformally quantizes the
+  stage's weight lattice — proven as the A₂-vs-A₄ dichotomy; L91's
+  second principle (B672).
+- **the Rogers–Ramanujan recognition**: the weight-5 doublet streams
+  are F·η-powers with component ratio R(q), the RR continued
+  fraction (B672); the golden rotation: the monodromy's modular lift
+  is order-10 elliptic with trace exactly φ (B674).
