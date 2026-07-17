@@ -1,0 +1,53 @@
+[    0.0s] STEP 0: exec b649_stage3a.py prefix (L-arith + S1 letters + weld-solve nullspace)
+[    0.0s]         source READ only -- no writes to origin-axiom. Truncated BEFORE the
+[    0.0s]         expensive 6-gen silver DOUBLE Fox/Z1 computation (not needed for B3;
+[    0.0s]         banked timing for that skipped part: rows 46.5s + Z1 200.6s, see
+[    0.0s]         b649_stage3a_output.txt -- confirms this is a deliberate, justified skip)
+== S3a-G1: the weld solve at SL2(L) ==
+[    0.1s]   prefix exec complete (0.1s)
+[    0.1s]   S1 letters loaded: ['A', 'B', 'C', 'a', 'b', 'c']   weld rational nullspace dim = 16
+[    0.1s] STEP 0b: reconstruct weld U27 (verbatim adaptation of b649_stage3b_swap.py L32-50)
+[    3.6s]   U27 lifted (3.5s)
+[    4.1s]   LETS built: 12 letters (a..f, A..F) -- full silver holonomy generating set available
+[    4.1s] === GATE 1: v0_silver = joint nullspace of {A-I,B-I,C-I}  [rerun of W2a's gates['v0_dim1']] ===
+[    8.1s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[    8.1s]   v0_silver verified exactly: (A-I)v0=(B-I)v0=(C-I)v0=0; normalized idx0=12
+[    8.1s]   support size = 3  indices = [12, 13, 14]
+[    8.1s]     idx 12  coeff = 1
+[    8.1s]     idx 13  coeff = -1
+[    8.1s]     idx 14  coeff = 1
+[    8.1s]   matches W2a-banked v0_silver (support {12,13,14}, coeffs (1,-1,1)): True
+[    8.1s] checking v0_silver invariance under the weld-derived d,e,f as well (sanity; not a hard gate)...
+[    8.3s]   v0_silver invariant under d: True
+[    8.4s]   v0_silver invariant under e: True
+[    8.5s]   v0_silver invariant under f: True
+[    8.5s] === GATE 2: N_silver invariance under all 6 letters a,b,c,d,e,f  [rerun of W2a's gates['N_invariant_all']] ===
+[    8.5s]   cubic_rational.json entries: 270
+[    8.7s]   N_silver-invariance under a: PASS
+[    8.8s]   N_silver-invariance under b: PASS
+[    8.9s]   N_silver-invariance under c: PASS
+[    9.1s]   N_silver-invariance under d: PASS
+[    9.2s]   N_silver-invariance under e: PASS
+[    9.4s]   N_silver-invariance under f: PASS
+[    9.4s]   GATE N_invariant_all: PASS
+[    9.4s] === STEP 3: THE CROSS-SQUARE  s(z) = N_silver(v0,v0,z) for all 27 basis z ===
+[    9.4s]   (s(z) = dotL(C3(v0,v0), e_z) == C3(v0,v0)[z] -- computed once as a 27-vector)
+[    9.4s]   cross-square support size = 3  indices = [12, 13, 14]
+[    9.4s]     idx 12  s(e_12) = -2
+[    9.4s]     idx 13  s(e_13) = 2
+[    9.4s]     idx 14  s(e_14) = -2
+[    9.4s]   sharp-fixedness check: is s proportional to v0's own pattern (same support, ratio constant)?
+[    9.4s]   SHARP-FIXED (s = lambda * v0 exactly): True
+[    9.4s]   proportionality constant lambda = -2
+[    9.4s] === STEP 4: N_silver(v0,v0,v0) exactly ===
+[    9.4s]   N_silver(v0,v0,v0) = -6
+[    9.4s]   cross-check: lambda * dotL(v0,v0) = -2 * 3 = -6  (should equal N(v0,v0,v0))
+[    9.4s]   cross-check PASS: True
+[    9.4s] === STEP 5: THE TRICHOTOMY + K020 VERDICT ===
+[    9.4s]   rank classification: 3  -- rank 3 (N(v0) != 0 -- INVERTIBLE)
+[    9.4s]   golden form (banked): sharp-fixed factor -2, N=-6, rank 3 invertible
+[    9.4s]   silver form (this run): sharp-fixed=True, lambda=-2, N=-6, rank=3
+[    9.4s] *** THE K020 VERDICT: FORM-MATCH: silver reproduces golden's sharp-fixed / rank-3 / invertible FORM with different exact values (unit-direction-ness IS metallic-universal) ***
+[    9.4s] ALL HARD GATES PASS: True
+[    9.4s] saved <seat-workdir>/anatomy/loop2/b3_silver/b3_results.json
+[    9.4s] DONE.

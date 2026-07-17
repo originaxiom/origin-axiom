@@ -1,0 +1,78 @@
+[    0.0s] SETUP STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   65.2s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   81.5s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   81.7s] G2a PASS: principal sl2 relations exact
+[   85.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   86.6s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   86.6s]   B575 prefix done (87s)
+[   86.6s] SETUP STEP 1: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[   86.8s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[   86.8s]   v0 verified exactly; normalized idx0=12
+[   86.8s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[   86.8s]   cross-check vs loop1/a1_jordan/a1_results.json: idx0 match=True
+[   86.8s] SETUP STEP 2: the Jordan cubic invariant N (B632 cell2_texture.py method, verbatim per w1_portal.py STEP 3)...
+[   86.8s]   zero-weight-sum sorted triples: 45
+[   86.8s]   invariance equations: 180
+[   87.1s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[   87.1s]   nonzero sorted coefficients: 45/45; CFULL (all orderings) size = 270
+[   87.1s]   N-invariance under A27: PASS
+[   87.1s]   N-invariance under B27: PASS
+[   87.1s] PHASE A (mod p, primary/fast pass): prime search + sqrt(-3)...
+[   87.1s]   p = 2147483647  (= 2^31 - 1); p mod 3 = 1; prime (Miller-Rabin x25): True; Euler criterion (-3|p) = 1 (must be 1): PASS
+[   87.1s]   sqrt(-3) mod p = 1268011823; r^2 mod p = 2147483644, (-3) mod p = 2147483644: PASS
+[   87.1s]   converted A27, B27, v0, CFULL to F_p (270 CFULL entries); v0p support = [(12, 1), (13, 2147483646), (14, 1)]
+[   87.2s]   str0 candidate rows (distinct target monomials touched): 2475 of C(29,3)=3654 possible
+[   87.3s]   1. str0 nullspace mod p: dim = 78  [SEALED GATE expect 78]: PASS  (0.09s)
+[   87.3s]   2. stab(v0) nullspace mod p (str0 + Xv0=0): dim = 52  [SEALED GATE expect 52]: PASS  (0.09s)
+[   87.3s] PHASE B: THE BRANCHING (mod p)...
+[   87.3s]   3a. X v0 for all 52 basis elements exactly zero (trivial by construction): True
+[   87.3s]   3b. dim Im = span{X w : X in basis(stab v0), w in R^27} (the derived submodule g.V) = 26  [expect 26]: PASS
+[   87.4s]   3c. dim(Im + span(v0)) = 27  [expect 27, i.e. v0 independent of Im -> clean 1+26 split]: PASS
+[   87.4s]   3d. smallest invariant subspace containing a random w in Im has dim = 26  [expect 26 -> irreducible]: PASS
+[   87.4s] PHASE C: THE HOLONOMY CONTAINMENT (mod p, on 3 random basis elements)...
+[   87.4s]   A27p, B27p mod-p inverses verified: True
+[   87.5s]   basis[26] conj by A27: str0-condition=True, Xv0=0-condition=True
+[   87.5s]   basis[26] conj by B27: str0-condition=True, Xv0=0-condition=True
+[   87.6s]   basis[8] conj by A27: str0-condition=True, Xv0=0-condition=True
+[   87.6s]   basis[8] conj by B27: str0-condition=True, Xv0=0-condition=True
+[   87.7s]   basis[1] conj by A27: str0-condition=True, Xv0=0-condition=True
+[   87.7s]   basis[1] conj by B27: str0-condition=True, Xv0=0-condition=True
+[   87.7s]   ALL 6 mod-p containment checks pass: True
+[   87.7s]   STRUCTURAL NOTE (exact, banked above): rho(g) preserves N exactly (N_invariant_all gate) and fixes v0 exactly (v0_matches_w0a / AmI,BmI gates) for g=a,b. For X in str0: N((gXg^-1)z,z,z) = N(gXy,gy,gy) [z=gy] = N(Xy,y,y) = 0 by N's exact g-invariance -- so gXg^-1 in str0 for ANY g preserving N, unconditionally. And (gXg^-1)v0 = gXv0 = g.0 = 0 since gv0=v0 exactly. Both containments therefore follow structurally from banked exact facts, not just from the 6 numeric mod-p spot checks above.
+[   87.7s] PHASE D: EXACT CERTIFICATION (upgrade beyond spot-check) -- row-selection + exact re-solve on the minimal independent subsystem...
+[   88.3s]   row-selection: str0 minimal independent rows = 651 (rank 651, expect 651=729-78); combined minimal independent rows = 677 (rank 677, expect 677=729-52)  (0.4s)
+[   95.4s]   EXACT nullspace, str0 alone (minimal 651 rows): dim = 78  [SEALED GATE 78, now EXACT not just mod-p]: PASS  (7.1s)
+[  104.1s]   EXACT nullspace, str0+Xv0=0 (minimal 677 rows): dim = 52  [SEALED GATE 52, now EXACT not just mod-p]: PASS  (8.7s)
+[  106.5s]   cross-check: all 52 exact kernel vectors reduce mod p to satisfy the FULL 2502-row mod-p system exactly: ALL PASS
+[  106.5s]   EXACT SPOT-VERIFY (prereg method clause): 3 random exact kernel elements, N(Xx,x,x)=0 for 5 random exact x...
+[  106.6s]     kernel[25] x sample[0]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[25] x sample[1]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[25] x sample[2]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[25] x sample[3]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[25] x sample[4]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[24] x sample[0]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[24] x sample[1]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[24] x sample[2]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[24] x sample[3]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[24] x sample[4]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[12] x sample[0]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[12] x sample[1]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[12] x sample[2]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[12] x sample[3]: N(Xx,x,x) = (0)  OK
+[  106.6s]     kernel[12] x sample[4]: N(Xx,x,x) = (0)  OK
+[  106.6s]   EXACT SPOT-VERIFY all zero: True
+[  106.6s]   EXACT containment check on the SAME 3 sampled exact kernel elements (conjugation by exact A27, B27, membership tested against the exact reduced 677-row defining subsystem)...
+[  108.0s]     EXACT: kernel[25] conj by A27: membership in stab(v0) subsystem = True
+[  109.1s]     EXACT: kernel[25] conj by B27: membership in stab(v0) subsystem = True
+[  110.3s]     EXACT: kernel[24] conj by A27: membership in stab(v0) subsystem = True
+[  111.2s]     EXACT: kernel[24] conj by B27: membership in stab(v0) subsystem = True
+[  111.9s]     EXACT: kernel[12] conj by A27: membership in stab(v0) subsystem = True
+[  113.3s]     EXACT: kernel[12] conj by B27: membership in stab(v0) subsystem = True
+[  113.3s]   EXACT containment (6 checks) all pass: True
+[  113.3s] VERDICT...
+[  113.3s]   F4-CONFIRMED
+[  113.3s] saved <seat-workdir>/anatomy/loop2/b1_f4/b1_results.json
+[  113.3s] DONE.

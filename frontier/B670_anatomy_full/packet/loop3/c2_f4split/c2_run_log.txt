@@ -1,0 +1,60 @@
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[  111.7s]   B575 prefix done (112s)
+[  111.7s]   REL (solo relator) = 'abABaBAbaB'
+[  111.7s] STEP 1: v0 = joint nullspace of (A27-I, B27-I)  [W0a/A1 result]...
+[  111.9s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  111.9s]   v0 verified exactly fixed; support = [12, 13, 14]
+[  111.9s]   cross-check vs a1_results.json: idx0/support match = True
+[  111.9s] STEP 2: the Jordan cubic invariant N (same method as a1_jordan.py STEP 2)...
+[  111.9s]   zero-weight-sum sorted triples: 45
+[  112.4s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  112.4s]   N-invariance under A27/B27: {'A27': True, 'B27': True}  [GATE]: PASS
+[  112.4s]   N(v0,v0,v0) = (-6)  (cross-check vs a1_results.json: True)
+[  112.4s] STEP 3: THE CANONICAL FORM  B(x,y) := N(x,y,v0)  (polarization of N at the fixed vector v0)...
+[  112.4s]   B symmetric exactly: True
+[  112.5s]   B invariance under A27/B27 (M^T B M == B, exact): {'A27': True, 'B27': True}  [GATE]: PASS
+[  112.5s]   B(v0,v0) = (-6)  (matches N(v0,v0,v0): True; != 0: True)
+[  112.5s] STEP 4: recompute the 3-dim invariant symmetric bilinear space (incremental method, verbatim per a1_jordan.py STEP 5) for cross-reference...
+[  114.1s]   built 756 equations x 378 unknowns (1.6s)
+[  117.2s]     ...50/756 rows, rank so far=45 (3.1s)
+[  125.3s]     ...100/756 rows, rank so far=91 (11.2s)
+[  138.0s]     ...150/756 rows, rank so far=134 (23.8s)
+[  156.7s]     ...200/756 rows, rank so far=180 (42.5s)
+[  180.8s]     ...250/756 rows, rank so far=227 (66.6s)
+[  211.8s]     ...300/756 rows, rank so far=274 (97.6s)
+[  260.8s]     ...350/756 rows, rank so far=324 (146.7s)
+[  323.3s]     ...400/756 rows, rank so far=368 (209.1s)
+[  359.2s]     ...450/756 rows, rank so far=370 (245.0s)
+[  388.4s]     ...500/756 rows, rank so far=375 (274.3s)
+[  413.9s]     ...550/756 rows, rank so far=375 (299.7s)
+[  431.5s]     ...600/756 rows, rank so far=375 (317.4s)
+[  443.2s]     ...650/756 rows, rank so far=375 (329.0s)
+[  451.7s]     ...700/756 rows, rank so far=375 (337.6s)
+[  455.1s]     ...750/756 rows, rank so far=375 (341.0s)
+[  455.1s]     processed all 756 rows; final rank=375 (341.0s)
+[  455.1s]   invariant symmetric bilinear space dim = 3  [GATE: matches banked A1 dim 3]: PASS
+[  455.2s]   chosen B expressed in the 3-dim basis: coeffs = ['(0)', '(1)', '(0)']  [GATE]: PASS
+[  455.2s] STEP 5: THE PROJECTORS  P_1(x) = B(v0,x)/B(v0,v0) * v0,  P_26 = I - P_1...
+[  455.3s]   P1 idempotent: True; P1(v0)==v0: True; P1 commutes with A27/B27: {'A27': True, 'B27': True}; P26 idempotent: True
+[  455.3s] STEP 6: F4 split via the literal projector -- generic basis of ker(P_1) (nullspace of the single row B(v0,-)) ...
+[  455.3s]   ker(P_1) basis dim = 26  [GATE ==26]: PASS
+[  455.4s]   F4 split (1,26) block-diagonal exact: True  [GATE]
+[  455.4s] STEP 7: per-block Fox h0/h1 for the F4 split (solo REL) (fox_matrices_2gen pattern verbatim per w0b_blocks.py)...
+[  455.4s]   F4 block 0 (dim 1): h0=1  h1=1  (Z1=1, B1=0)
+[  457.9s]   F4 block 1 (dim 26): h0=0  h1=2  (Z1=28, B1=26)
+[  457.9s]   SUM h0=1 (gate==1: True); SUM h1=3 (gate==3: True)
+[  457.9s]   singlet (h0,h1)=(1,1) (gate==(1,1): True); 26-block (h0,h1)=(0,2) (SEALED EXPECTATION (0,2): True)
+[  457.9s] STEP 8: cross-split -- reproduce the principal-sl2 chain basis (cell3b_stage1.py / w0b_blocks.py pattern, block dims 17,9,1)...
+[  457.9s]   principal block dims = [17, 9, 1]  slices = [(0, 17), (17, 26), (26, 27)]
+[  458.1s]   principal split block-diagonal exact: True  [GATE]
+[  458.1s]   principal dim-1 block fixed: True; proportional to v0 (scale=(1)): True  [GATE]: PASS
+[  458.1s]   all 26 principal (17+9) chain vectors B-orthogonal to v0 (exact): True  [GATE]
+[  458.1s]   => span(principal blocks 17,9) == ker(P_1) == F4's 26-complement EXACTLY (same 26-dim subspace, both dimension 26 and one contained in the other)
+[  458.7s]   principal block 0 (dim 17): h0=0  h1=1 (banked w0b: h0=0, h1=1)
+[  458.8s]   principal block 1 (dim 9): h0=0  h1=1 (banked w0b: h0=0, h1=1)
+[  458.8s]   h1(F4-26) = 2; h1(17)+h1(9) = 1+1 = 2  [GATE: exactly equal]: PASS
+[  458.8s] STEP 9: the change-of-split matrix (generic ker(P_1) basis vs principal 17+9 union basis, both bases of the SAME 26-dim subspace)...
+[  458.8s]   every generic ker(P_1) basis vector expressed exactly in the principal 17+9 basis: True  [GATE]
+[  458.8s] ALL GATES PASS: True
+[  458.8s] saved <seat-workdir>/anatomy/loop3/c2_f4split/c2_results.json
+[  458.8s] DONE.

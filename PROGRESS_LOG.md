@@ -5843,3 +5843,22 @@ applied). CELL S: THE SCALE-TORSOR NO-GO now a standalone THEOREM
 (Lambda = the boundary-torsor coordinate for scale-rigid frameworks;
 HT/unimodular citations live-verified; hypothesis labeled,
 firewalled). Locks 6/6 + b353 green. Cell 2 (cup values) continues.
+
+## 2026-07-17 — B670: THE ANATOMY LOOPS 1-3 INTEGRATION (the F4 skeleton verified; L107 closes)
+
+cc2's full handoff (seals 17/22; all five mismatches dispositioned —
+three README/file-disclosed, the two prereg mismatches flagged back).
+THE F4 SKELETON: dim stab_e6(v0) = 52 = f4 — INDEPENDENTLY RECOMPUTED
+exact on this seat; 27 = 1+26; rho(pi_1) c F4(v0) for BOTH holonomies
+fixing the SAME v0 => the metallic-universal frame; h0 = 1 canonical;
+the splits NEST (17+9). THE VECTOR CUP (their C1) = this seat's cell-2
+object: cubic = the contraction shadow ([c_23] = Y[023] exactly);
+their D1 correction adopted (slot-wise blindness, not invisibility);
+value cross-check registered vs cell 2 (computing). THE
+CROSS-LANDSCAPE (B4): self-selection = half a law, delimited (8/16
+conductor-divisibility rows; the trace-4 minimum EXACTLY at kappa=12,
+value sqrt3-1 — verified here to 1e-9; chat1's guess falsified);
+L107 CLOSED (their matrix + this seat's E6 half). TRACK H: their
+independent adjudication converges with B669 verbatim; the survivor
+(THE CEILING LAW, max_k |Z_k(w)|) adopted into their loop-4 D4 — fed
+by B669's max-table. Massey-zero converges 2 seats. Locks 2/2.

@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B670: the anatomy loops 1–3 integration
+
+### Added
+- **THE F4 SKELETON** (dim stab(v₀) = 52 verified on two seats;
+  ρ(π₁) ⊂ F4(v₀), both holonomies, same v₀ — the metallic-universal
+  frame; 27 = 1⊕26; splits nest). The vector cup converges with
+  cell H (cubic = contraction shadow; slot-wise blindness adopted).
+  The cross-landscape: self-selection = half a law, delimited
+  (√3−1 at κ=12 verified); **L107 closed**. Track-H adjudications
+  converge on two seats; the ceiling law adopted (fed by B669).
+  Locks 2/2.
+
 ## 2026-07-17 — B666 wave 0+1 + cell S: seven verdicts
 
 ### Added

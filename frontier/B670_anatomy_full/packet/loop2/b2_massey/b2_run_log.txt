@@ -1,0 +1,108 @@
+[    0.0s] STEP 0: exec s4_massshape.py verbatim through its own STEP 6 (kappa) -- this in turn execs w1_portal.py through STEP 4 (B575 prefix; v0; N/C3; dual Fox machinery)...
+[    0.0s] STEP 0: exec w1_portal.py verbatim through STEP 4 (B575 prefix; v0; the cubic N/C3; dual Fox machinery + P_of)...
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   64.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   80.3s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   80.4s] G2a PASS: principal sl2 relations exact
+[   84.0s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   85.3s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   85.3s]   B575 prefix done (85s)
+[   85.3s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[   85.3s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[   86.1s]   relator gate R1: PASS
+[   86.6s]   relator gate R2: PASS
+[   87.9s]   relator gate R3: PASS
+[   87.9s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[   88.1s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[   88.1s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[   88.1s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[   88.1s]   v0 invariant under C27 (conjugate holonomy): PASS
+[   88.1s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[   88.1s]   zero-weight-sum sorted triples: 45
+[   88.1s]   invariance equations: 180
+[   88.4s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[   88.4s]   nonzero sorted coefficients: 45/45
+[   88.4s]   N-invariance under A27: PASS
+[   88.4s]   N-invariance under B27: PASS
+[   88.4s]   N-invariance under C27: PASS
+[   88.4s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[   92.0s]   dual Fox-derivative matrix built (4s)
+[   92.0s]   cocycle-property spot check on class 0 (before proceeding)...
+[   92.0s]   P(u_0) in Z1(dual): PASS
+[   92.0s]   w1_portal STEP0-4 done (92s)
+[   92.0s]   inherited w1_portal gates: True
+[   92.0s] STEP 1: v0bar = the H^0(D;27-bar) invariant (dual mirror of v0)...
+[   92.1s]   joint dual-nullspace dim = 1  [GATE dim=1]: PASS
+[   92.1s]   v0bar invariant under dacts('a'),dacts('b') [by construction] and dacts('c') [gate]: PASS
+[   92.1s]   L=dot(v0bar,.) nonzero on a generic test vector: True
+[   92.1s] STEP 2: beta_v0(x,y) := N(v0,x,y) = dot(C3(v0,x),y) -- invariant SYMMETRIC bilinear form on 27 (pull-back of the totally symmetric cubic through v0)...
+[   92.1s]   beta_v0(x,y) == beta_v0(y,x) on test vectors: PASS
+[   92.1s]   beta_v0 G-invariant under a,b,c: True {'a': True, 'b': True, 'c': True}
+[   92.1s] STEP 3: the corrected relator-chain cup evaluator (cell3b_stage2.py pattern) with beta_v0 substituted for G_orig; psi = the H^2 quotient functional (abelianized-relator-matrix nullspace, same as stage2)...
+[   94.6s]   H^2 quotient functionals: 1  [GATE: expect 1]: PASS
+[   94.6s] STEP 4: THE 5x5 MATRIX  M_ij = [c(u_i,u_j)]_{H^2(D;C)}  via beta_v0 (the v0-mediated pairing) -- BLIND BANK before symmetry check...
+[  106.9s]     [0, 0, 0, (3+1*sqrt(-3)), 0]
+[  106.9s]     [0, 0, (-3+1*sqrt(-3)), (1/8-1/24*sqrt(-3)), 0]
+[  106.9s]     [0, (3-1*sqrt(-3)), 0, 0, 0]
+[  106.9s]     [(-3-1*sqrt(-3)), (-1/8+1/24*sqrt(-3)), 0, 0, 0]
+[  106.9s]     [0, 0, 0, 0, 0]
+[  106.9s]   M symmetric: False; M antisymmetric: True
+[  106.9s]   FINDING: M comes out ANTIsymmetric, not symmetric -- Koszul graded-commutativity for a cup product through a SYMMETRIC invariant pairing (beta_v0 IS symmetric, gated above) forces this at the bare H^2(u,v) level, exactly mirroring cell3b_stage2.py's own G_orig finding. Reporting this honestly per the cell's instruction; the (i,j)-symmetric object the prereg calls for is NOT this raw M -- see the write-up. Proceeding to complete every other requested gate/computation on M as banked (the eigenstructure machinery is agnostic to symmetric vs antisymmetric input).
+[  106.9s] STEP 5: GATE -- the exact 2-cocycle identity delta c = 0 on the generators, for one pair (u,v) = (classes[2], classes[3])...
+[  107.2s]     delta c[a,b,c] = 0 : PASS
+[  107.5s]     delta c[b,a,c] = 0 : PASS
+[  107.7s]     delta c[a,A,b] = 0 : PASS
+[  108.0s]     delta c[a,b,a] = 0 : PASS
+[  108.3s]     delta c[c,b,A] = 0 : PASS
+[  108.3s] STEP 6: kappa(w) -- the H^1(D;C_triv) trivialization of w via w~(g)=L(w(g)) (b_1(D) gated =1)...
+[  108.3s]   b1(D) [trivial-coefficient control] = 1  [GATE: expect 1]: PASS
+[  108.3s]     kappa(u_0) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  108.3s]     kappa(u_1) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  108.3s]     kappa(u_2) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  108.3s]     kappa(u_3) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  108.3s]     kappa(u_4) = 1   [w~ in Hom(D,C), proportional to chi]: PASS
+[  108.3s]   s4_massshape STEP0-6 done (108s)
+[  108.3s]   inherited s4_massshape (+w1_portal) gates all pass (excl. the known M_symmetric/antisymmetric finding): True
+[  108.3s] STEP 1: GATE -- recompute/re-verify the solo-triple {2,3,4} 3x3 block of M_ij = [c_ij]_H2(D;C) is EXACTLY zero (the defining condition for the triple Massey product to be defined here)...
+[  108.3s]     M[2][2] = 0
+[  108.3s]     M[2][3] = 0
+[  108.3s]     M[2][4] = 0
+[  108.3s]     M[3][2] = 0
+[  108.3s]     M[3][3] = 0
+[  108.3s]     M[3][4] = 0
+[  108.3s]     M[4][2] = 0
+[  108.3s]     M[4][3] = 0
+[  108.3s]     M[4][4] = 0
+[  108.3s]   solo {2,3,4} block all zero: PASS
+[  108.3s]   L rho(G)-invariance GATE (forces the STEP B pairing to be unique / well-defined; derived from v0bar's dacts(g)-fixedness):
+[  108.3s]     L(rho(g).x) == L(x) for g in a,b,c: True {'a': True, 'b': True, 'c': True}
+[  108.3s]   Schur check: gamma(x):=N(v0,v0,x) is proportional to L (both span the 1-dim Hom_G(27,C))...
+[  108.3s]     gamma(y1)*L(y2) == gamma(y2)*L(y1) (proportionality det=0 test): True
+[  108.3s] STEP 2: THE BOUNDING COCHAINS -- solve delta a_ij = c_ij exactly for all 6 ordered pairs (i,j) in {2,3,4}^2, i != j...
+[  255.0s]   a_23: x = (a:(-199086361147800/143+133119940627800/143*sqrt(-3)), b:0, c:0)  lin_ok=True consistent=True relator_ok=True
+[  402.8s]   a_24: x = (a:(-109777185-1950213195/11*sqrt(-3)), b:0, c:0)  lin_ok=True consistent=True relator_ok=True
+[  549.1s]   a_32: x = (a:(-196679464291800/143+136237142424600/143*sqrt(-3)), b:0, c:0)  lin_ok=True consistent=True relator_ok=True
+[  695.3s]   a_34: x = (a:(149992139/312+649637/12*sqrt(-3)), b:0, c:0)  lin_ok=True consistent=True relator_ok=True
+[  840.0s]   a_42: x = (a:(-2625442155/11-2519067915/11*sqrt(-3)), b:0, c:0)  lin_ok=True consistent=True relator_ok=True
+[  984.1s]   a_43: x = (a:(216965759/312+1316351/156*sqrt(-3)), b:0, c:0)  lin_ok=True consistent=True relator_ok=True
+[  984.1s]   ALL 6 bounding cochains solved + relator-consistent: PASS
+[  984.1s]   CONTROL: delta a_ij = c_ij verified EXACTLY on generator pairs (g,h) for a sample of pairs (i,j)...
+[  984.6s]     delta a_23 = c_23 on 6 generator pairs: PASS
+[  985.3s]     delta a_24 = c_24 on 6 generator pairs: PASS
+[  986.0s]     delta a_32 = c_32 on 6 generator pairs: PASS
+[  986.5s]     delta a_34 = c_34 on 6 generator pairs: PASS
+[  987.1s]     delta a_42 = c_42 on 6 generator pairs: PASS
+[  987.7s]     delta a_43 = c_43 on 6 generator pairs: PASS
+[  987.7s] STEP 3: THE MASSEY 2-COCYCLES -- m_ijk = (a_ij cup_L u_k) +/- (u_i cup_L a_jk), for all 6 permutations (i,j,k) of (2,3,4); verify the exact 2-cocycle identity delta m = 0 on S4's 5 generator triples, for BOTH sign choices, and report the truth...
+Traceback (most recent call last):
+  File "<seat-workdir>/anatomy/loop2/b2_massey/b2_massey.py", line 331, in <module>
+    lhs = (m_val(i, j, k, sign, h, kk) - m_val(i, j, k, sign, g + h, kk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<seat-workdir>/anatomy/loop2/b2_massey/b2_massey.py", line 321, in m_val
+    return term1 + sign * term2
+                   ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'K'
+EXIT_CODE=1

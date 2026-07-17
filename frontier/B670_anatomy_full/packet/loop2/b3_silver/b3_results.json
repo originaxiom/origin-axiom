@@ -1,0 +1,301 @@
+{
+  "prereg_sha256": "f9ae4a9e",
+  "prereg_clause": "B3 (THE SILVER TRICHOTOMY)",
+  "object": "m136 (B649 silver holonomy, L=Q(s,i), s^4=8s^2+16)",
+  "gates": {
+    "v0_dim1": true,
+    "v0_matches_banked": true,
+    "v0_invariant_under_def": true,
+    "N_invariant_all": true,
+    "sharp_fixed": true,
+    "N_crosscheck": true,
+    "form_match": true
+  },
+  "v0_silver": {
+    "normalized_idx0": 12,
+    "support_indices": [
+      12,
+      13,
+      14
+    ],
+    "support_size": 3,
+    "coefficients_readable": {
+      "12": "1",
+      "13": "-1",
+      "14": "1"
+    },
+    "coordinates_full": [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ]
+    ],
+    "matches_banked_w2a": true,
+    "invariant_under_def": true
+  },
+  "N_silver_invariance": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true,
+    "e": true,
+    "f": true
+  },
+  "cross_square": {
+    "support_indices": [
+      12,
+      13,
+      14
+    ],
+    "support_size": 3,
+    "values_readable": {
+      "12": "-2",
+      "13": "2",
+      "14": "-2"
+    },
+    "coordinates_full": [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ]
+    ],
+    "sharp_fixed": true,
+    "proportionality_constant_readable": "-2",
+    "proportionality_constant_full": [
+      "[Fraction(-2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+    ]
+  },
+  "N_v0_v0_v0": {
+    "readable": "-6",
+    "full": [
+      "[Fraction(-6, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+    ],
+    "is_zero": false
+  },
+  "trichotomy": {
+    "rank": 3,
+    "description": "rank 3 (N(v0) != 0 -- INVERTIBLE)",
+    "s_nonzero": true,
+    "N_nonzero": true
+  },
+  "golden_reference_form": {
+    "sharp_fixed": true,
+    "factor": "-2",
+    "N": "-6",
+    "rank": 3,
+    "invertible": true
+  },
+  "k020_verdict": "FORM-MATCH: silver reproduces golden's sharp-fixed / rank-3 / invertible FORM with different exact values (unit-direction-ness IS metallic-universal)",
+  "form_match": true,
+  "runtime_s": 9.370051145553589
+}

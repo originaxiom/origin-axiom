@@ -1,0 +1,189 @@
+[    0.0s] STEP 0: exec w1_portal.py verbatim through its own STEP 5 (same prefix C1 used: B575 e6/27 build; stage1_classes.pkl rehydration -> classes[0..4]; C3/dot/CFULL; dual Fox machinery dual_big; h1(dual)=5 gate)...
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   78.7s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   97.7s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   97.8s] G2a PASS: principal sl2 relations exact
+[  102.0s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  103.9s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[  103.9s]   B575 prefix done (104s)
+[  103.9s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[  103.9s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[  104.7s]   relator gate R1: PASS
+[  105.4s]   relator gate R2: PASS
+[  107.1s]   relator gate R3: PASS
+[  107.1s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[  107.3s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  107.3s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[  107.3s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[  107.3s]   v0 invariant under C27 (conjugate holonomy): PASS
+[  107.3s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[  107.3s]   zero-weight-sum sorted triples: 45
+[  107.3s]   invariance equations: 180
+[  107.7s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  107.7s]   nonzero sorted coefficients: 45/45
+[  107.7s]   N-invariance under A27: PASS
+[  107.7s]   N-invariance under B27: PASS
+[  107.7s]   N-invariance under C27: PASS
+[  107.7s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[  112.0s]   dual Fox-derivative matrix built (4s)
+[  112.0s]   cocycle-property spot check on class 0 (before proceeding)...
+[  112.1s]   P(u_0) in Z1(dual): PASS
+[  112.1s] STEP 5: Z1(dual)/B1(dual) and h1(D; 27-bar); extract the dual class basis...
+[  115.3s]   Z1(dual) dim = 31, coboundary rank = 26
+[  115.3s]   h0(dual) = 1, h1(dual) = 5   [GATE: h1(dual)=5]
+[  130.8s]   extracted 5 dual class representatives
+[  130.8s]   w1_portal STEP0-5 done (131s)
+[  130.8s]   inherited w1_portal gates (through STEP5) all pass: True
+[  130.8s] STEP A: h^2(D;27-bar)=5 CONSISTENCY GATE (same as C1: Poincare duality + UCT, K a field): h0(dual)=h3(primal)=1(indep), h1(dual)=5(gated), h3(dual)=h0(primal)=1(v0_dim1 gate); Euler char forces h2(dual)=5...
+[  130.8s]   h0(dual)=1  h1(dual)=5  h3(dual)[PD]=1  => h2(dual) forced = 5: PASS
+[  130.8s] STEP B: glue (verbatim from c1_vecmassey.py) -- cocycle_val/rho_word + the vector cup c_ij(g,h) = C3(u_i(g), rho(g).u_j(h)); C3 symmetry + equivariance controls (same test vectors as C1)...
+[  131.0s]   C3(u,v)==C3(v,u) on test vectors: PASS
+[  131.1s]   C3(gx,gy) == rho-bar(g).C3(x,y) for g in a,b,c: True {'a': True, 'b': True, 'c': True}
+[  131.1s]   NEW (vs C1's 9 solo-only pairs): 25 ordered pairs over ALL_IDX=[0, 1, 2, 3, 4] (includes boundary indices 0,1)
+[  133.4s]   delta c_00 = 0 on 5 generator triples: PASS
+[  135.7s]   delta c_01 = 0 on 5 generator triples: PASS
+[  138.1s]   delta c_02 = 0 on 5 generator triples: PASS
+[  140.4s]   delta c_03 = 0 on 5 generator triples: PASS
+[  142.5s]   delta c_04 = 0 on 5 generator triples: PASS
+[  144.4s]   delta c_10 = 0 on 5 generator triples: PASS
+[  146.5s]   delta c_11 = 0 on 5 generator triples: PASS
+[  148.7s]   delta c_12 = 0 on 5 generator triples: PASS
+[  150.5s]   delta c_13 = 0 on 5 generator triples: PASS
+[  152.4s]   delta c_14 = 0 on 5 generator triples: PASS
+[  154.3s]   delta c_20 = 0 on 5 generator triples: PASS
+[  156.2s]   delta c_21 = 0 on 5 generator triples: PASS
+[  158.2s]   delta c_22 = 0 on 5 generator triples: PASS
+[  160.1s]   delta c_23 = 0 on 5 generator triples: PASS
+[  162.1s]   delta c_24 = 0 on 5 generator triples: PASS
+[  163.9s]   delta c_30 = 0 on 5 generator triples: PASS
+[  165.7s]   delta c_31 = 0 on 5 generator triples: PASS
+[  167.7s]   delta c_32 = 0 on 5 generator triples: PASS
+[  169.8s]   delta c_33 = 0 on 5 generator triples: PASS
+[  171.7s]   delta c_34 = 0 on 5 generator triples: PASS
+[  173.5s]   delta c_40 = 0 on 5 generator triples: PASS
+[  175.3s]   delta c_41 = 0 on 5 generator triples: PASS
+[  177.2s]   delta c_42 = 0 on 5 generator triples: PASS
+[  179.1s]   delta c_43 = 0 on 5 generator triples: PASS
+[  181.2s]   delta c_44 = 0 on 5 generator triples: PASS
+[  181.2s] STEP C: BASE_ij (constant defect at y=0) for all 25 pairs, and leftnull(dual_big^T) [F=w1_portal's dual_big, reused verbatim] computed ONCE (same 31-dim superspace basis as C1)...
+[  233.6s]   BASE_00 built  (52.3s elapsed)
+[  280.8s]   BASE_01 built  (99.5s elapsed)
+[  327.4s]   BASE_02 built  (146.1s elapsed)
+[  378.3s]   BASE_03 built  (197.1s elapsed)
+[  427.3s]   BASE_04 built  (246.1s elapsed)
+[  476.2s]   BASE_10 built  (294.9s elapsed)
+[  521.1s]   BASE_11 built  (339.9s elapsed)
+[  568.0s]   BASE_12 built  (386.8s elapsed)
+[  617.6s]   BASE_13 built  (436.4s elapsed)
+[  668.8s]   BASE_14 built  (487.6s elapsed)
+[  724.2s]   BASE_20 built  (543.0s elapsed)
+[  774.2s]   BASE_21 built  (593.0s elapsed)
+[  822.6s]   BASE_22 built  (641.4s elapsed)
+[  874.5s]   BASE_23 built  (693.2s elapsed)
+[  927.8s]   BASE_24 built  (746.6s elapsed)
+[  981.5s]   BASE_30 built  (800.3s elapsed)
+[ 1035.3s]   BASE_31 built  (854.1s elapsed)
+[ 1088.2s]   BASE_32 built  (906.9s elapsed)
+[ 1140.9s]   BASE_33 built  (959.7s elapsed)
+[ 1194.3s]   BASE_34 built  (1013.1s elapsed)
+[ 1245.9s]   BASE_40 built  (1064.7s elapsed)
+[ 1298.0s]   BASE_41 built  (1116.8s elapsed)
+[ 1350.8s]   BASE_42 built  (1169.6s elapsed)
+[ 1404.9s]   BASE_43 built  (1223.7s elapsed)
+[ 1459.1s]   BASE_44 built  (1277.8s elapsed)
+[ 1459.1s]   BASE_ij built for all 25 pairs (1277.8s)
+[ 1462.3s]   ker(F^T) dim = 31  (3.2s)  [= dim C^2(dual)/B^2(dual), the SUPERSPACE containing the true 5-dim H^2(dual) as a subquotient -- identical construction to C1]
+[ 1465.8s]   ker(F^T) dim == ker(F) dim [rank-nullity check]: True
+[ 1465.8s]   ker(F^T) dim == 31 (matches C1's banked value): True
+[ 1465.8s]   [c_00]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1465.8s]   [c_01]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1465.8s]   [c_02]: NONZERO  (nonzero obstruction coords: 2/31)
+[ 1465.9s]   [c_03]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1465.9s]   [c_04]: NONZERO  (nonzero obstruction coords: 2/31)
+[ 1465.9s]   [c_10]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1465.9s]   [c_11]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1465.9s]   [c_12]: NONZERO  (nonzero obstruction coords: 5/31)
+[ 1465.9s]   [c_13]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1465.9s]   [c_14]: NONZERO  (nonzero obstruction coords: 3/31)
+[ 1465.9s]   [c_20]: NONZERO  (nonzero obstruction coords: 2/31)
+[ 1465.9s]   [c_21]: NONZERO  (nonzero obstruction coords: 5/31)
+[ 1466.0s]   [c_22]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1466.0s]   [c_23]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1466.0s]   [c_24]: NONZERO  (nonzero obstruction coords: 2/31)
+[ 1466.0s]   [c_30]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1466.0s]   [c_31]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1466.1s]   [c_32]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1466.1s]   [c_33]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1466.1s]   [c_34]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1466.1s]   [c_40]: NONZERO  (nonzero obstruction coords: 2/31)
+[ 1466.1s]   [c_41]: NONZERO  (nonzero obstruction coords: 3/31)
+[ 1466.1s]   [c_42]: NONZERO  (nonzero obstruction coords: 2/31)
+[ 1466.2s]   [c_43]: NONZERO  (nonzero obstruction coords: 4/31)
+[ 1466.2s]   [c_44]: ZERO  (nonzero obstruction coords: 0/31)
+[ 1466.2s]   5x5 pattern (rows i, cols j, order 0,1,2,3,4) -- True = ZERO class:
+[ 1466.2s]     [True, True, False, False, False]
+[ 1466.2s]     [True, True, False, False, False]
+[ 1466.2s]     [False, False, True, False, False]
+[ 1466.2s]     [False, False, False, True, False]
+[ 1466.2s]     [False, False, False, False, True]
+[ 1466.2s] GATE (d): diagonal classes [c_ii] = 0 for all 5 indices...
+[ 1466.2s]   diagonal zero flags: {0: True, 1: True, 2: True, 3: True, 4: True}  => GATE(d): PASS
+[ 1466.2s] GATE (b): Koszul antisymmetry [c_ij] = -[c_ji] on ALL 25 computed pairs (C3 symmetric => cup through it is graded-commutative up to sign)...
+[ 1466.5s]   [c_ij]+[c_ji]=0 for all 25 (i,j): True
+[ 1466.5s] GATE (a): solo 3x3 subblock must reproduce C1's six banked witnesses from <seat-workdir>/anatomy/loop3/c1_vecmassey/c1_results.json EXACTLY...
+[ 1466.5s]   [c_23] vs C1 banked: obstruction_coords_match=True  witness_match=True (mine=(-7983360/13+2661120/13*sqrt(-3)), banked=(-7983360/13+2661120/13*sqrt(-3)))
+[ 1466.5s]   [c_24] vs C1 banked: obstruction_coords_match=True  witness_match=True (mine=(1-1/3*sqrt(-3)), banked=(1-1/3*sqrt(-3)))
+[ 1466.5s]   [c_32] vs C1 banked: obstruction_coords_match=True  witness_match=True (mine=(7983360/13-2661120/13*sqrt(-3)), banked=(7983360/13-2661120/13*sqrt(-3)))
+[ 1466.5s]   [c_34] vs C1 banked: obstruction_coords_match=True  witness_match=True (mine=(-1-1/3*sqrt(-3)), banked=(-1-1/3*sqrt(-3)))
+[ 1466.5s]   [c_42] vs C1 banked: obstruction_coords_match=True  witness_match=True (mine=(-1+1/3*sqrt(-3)), banked=(-1+1/3*sqrt(-3)))
+[ 1466.5s]   [c_43] vs C1 banked: obstruction_coords_match=True  witness_match=True (mine=(1+1/3*sqrt(-3)), banked=(1+1/3*sqrt(-3)))
+[ 1466.5s]   GATE (a): PASS
+[ 1466.5s] GATE (c): coboundary-shift invariance of obstruction coordinates, >=2 independent shifts (one boundary index, one solo index)...
+[ 1521.6s]     shift u_0: obstruction coords for [c_01] unchanged: True
+[ 1580.0s]     shift u_0: obstruction coords for [c_02] unchanged: True
+[ 1634.3s]     shift u_3: obstruction coords for [c_13] unchanged: True
+[ 1689.4s]     shift u_3: obstruction coords for [c_34] unchanged: True
+[ 1689.4s]   GATE (c) [2 independent shifts tested]: PASS
+[ 1689.4s]   exactness: K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats anywhere in the D1 path: PASS by construction
+[ 1689.4s] STEP D: THE RANK -- span of {[c_ij] : i<j} (10 slots, at most 10-dim, solo block <= 3), via RREF (canonical) of the 31-dim obstruction vectors...
+[ 1689.4s]   RANK of span{[c_ij]:i<j} (10 slots) = 5  (pivot cols in the 31-dim ambient: [0, 1, 16, 25, 30])
+[ 1689.4s]   cross-check: rank over all 20 ordered off-diag pairs = 5 (matches 10-slot rank: True)
+[ 1689.4s]   RANK <= h^2(dual)=5 (structural sanity; the observed span is a subspace of the true H^2(dual)): True
+[ 1689.4s]   solo-only (2,3),(2,4),(3,4) rank = 2 (C1 banked pattern_rank_in_31dim_superspace = 2)
+[ 1689.4s]   solo-rank matches C1's banked rank: True
+[ 1689.4s]   ALL 25 classes expressible (zero residual) in the 5-dim fixed basis: True
+[ 1689.4s] STEP E: THE BLOCK TABLE -- boundary-boundary / boundary-solo / solo-solo zero pattern over the 10 (i<j) slots...
+[ 1689.4s]   [c_01] (boundary-boundary): ZERO
+[ 1689.4s]   [c_02] (boundary-solo): NONZERO
+[ 1689.4s]   [c_03] (boundary-solo): NONZERO
+[ 1689.4s]   [c_04] (boundary-solo): NONZERO
+[ 1689.4s]   [c_12] (boundary-solo): NONZERO
+[ 1689.4s]   [c_13] (boundary-solo): NONZERO
+[ 1689.4s]   [c_14] (boundary-solo): NONZERO
+[ 1689.4s]   [c_23] (solo-solo): NONZERO
+[ 1689.4s]   [c_24] (solo-solo): NONZERO
+[ 1689.4s]   [c_34] (solo-solo): NONZERO
+[ 1689.4s]   by block: {'boundary-boundary': [('01', 'ZERO')], 'boundary-solo': [('02', 'NONZERO'), ('03', 'NONZERO'), ('04', 'NONZERO'), ('12', 'NONZERO'), ('13', 'NONZERO'), ('14', 'NONZERO')], 'solo-solo': [('23', 'NONZERO'), ('24', 'NONZERO'), ('34', 'NONZERO')]}
+[ 1689.4s] STEP F: THE CUBIC-VISIBILITY MAP -- cross-reference the ALREADY-BANKED cubic invariant table Y[i,j,k] (read-only reference; NOT recomputed here). Source: origin-axiom/frontier/B637_corrected_cell3/unbent_table.txt (== part2b_stage2_fixed_output.txt's unbent/'none'-bend row; the SAME table C1's FINDINGS_CC2.md cited as Y[023] / Y[024]=0). b637_threeform.py execs the IDENTICAL B575 prefix as w1_portal.py => same K=Q(sqrt(-3)) field, same (a,b)->a+b*sqrt(-3) normalization -- cross-checked below against C1's own banked witness value for [c_23].
+[ 1689.4s]   Y[0,2,3] == C1's banked witness for [c_23] EXACTLY: True  (Y[023]=(-7983360/13+2661120/13*sqrt(-3)))
+[ 1689.4s]   Y[0,2,4] == 0 (matches C1/FINDINGS_CC2's 'zero law' data point): True
+[ 1689.4s]   [c_02] NONZERO: Y-table over remaining k=[1, 3, 4]: {'1': '0', '3': '(-7983360/13+2661120/13*sqrt(-3))', '4': '0'} => CUBIC-VISIBLE (via k=[3])
+[ 1689.4s]   [c_03] NONZERO: Y-table over remaining k=[1, 2, 4]: {'1': '0', '2': '(-7983360/13+2661120/13*sqrt(-3))', '4': '(0+2/3*sqrt(-3))'} => CUBIC-VISIBLE (via k=[2, 4])
+[ 1689.4s]   [c_04] NONZERO: Y-table over remaining k=[1, 2, 3]: {'1': '0', '2': '0', '3': '(0+2/3*sqrt(-3))'} => CUBIC-VISIBLE (via k=[3])
+[ 1689.4s]   [c_12] NONZERO: Y-table over remaining k=[0, 3, 4]: {'0': '0', '3': '(0+221760/13*sqrt(-3))', '4': '(0+2/3*sqrt(-3))'} => CUBIC-VISIBLE (via k=[3, 4])
+[ 1689.4s]   [c_13] NONZERO: Y-table over remaining k=[0, 2, 4]: {'0': '0', '2': '(0+221760/13*sqrt(-3))', '4': '(1/24+1/72*sqrt(-3))'} => CUBIC-VISIBLE (via k=[2, 4])
+[ 1689.4s]   [c_14] NONZERO: Y-table over remaining k=[0, 2, 3]: {'0': '0', '2': '(0+2/3*sqrt(-3))', '3': '(1/24+1/72*sqrt(-3))'} => CUBIC-VISIBLE (via k=[2, 3])
+[ 1689.4s]   [c_23] NONZERO: Y-table over remaining k=[0, 1, 4]: {'0': '(-7983360/13+2661120/13*sqrt(-3))', '1': '(0+221760/13*sqrt(-3))', '4': '(5332879641600/13+8106192460800/13*sqrt(-3))'} => CUBIC-VISIBLE (via k=[0, 1, 4])
+[ 1689.4s]   [c_24] NONZERO: Y-table over remaining k=[0, 1, 3]: {'0': '0', '1': '(0+2/3*sqrt(-3))', '3': '(5332879641600/13+8106192460800/13*sqrt(-3))'} => CUBIC-VISIBLE (via k=[1, 3])
+[ 1689.4s]   [c_34] NONZERO: Y-table over remaining k=[0, 1, 2]: {'0': '(0+2/3*sqrt(-3))', '1': '(1/24+1/72*sqrt(-3))', '2': '(5332879641600/13+8106192460800/13*sqrt(-3))'} => CUBIC-VISIBLE (via k=[0, 1, 2])
+[ 1689.4s] SAVING d1_results.json ...
+[ 1689.4s] saved <seat-workdir>/anatomy/loop4/d1_pairing/d1_results.json
+[ 1689.4s] ALL GATES PASS: True
+[ 1689.4s] RANK (span of {[c_ij]:i<j}) = 5
+[ 1689.4s] BLOCK TABLE: {'boundary-boundary': [('01', 'ZERO')], 'boundary-solo': [('02', 'NONZERO'), ('03', 'NONZERO'), ('04', 'NONZERO'), ('12', 'NONZERO'), ('13', 'NONZERO'), ('14', 'NONZERO')], 'solo-solo': [('23', 'NONZERO'), ('24', 'NONZERO'), ('34', 'NONZERO')]}
+[ 1689.4s] CUBIC-VISIBILITY MAP: {'02': 'CUBIC-VISIBLE', '03': 'CUBIC-VISIBLE', '04': 'CUBIC-VISIBLE', '12': 'CUBIC-VISIBLE', '13': 'CUBIC-VISIBLE', '14': 'CUBIC-VISIBLE', '23': 'CUBIC-VISIBLE', '24': 'CUBIC-VISIBLE', '34': 'CUBIC-VISIBLE'}
+[ 1689.4s] DONE.
+EXIT_CODE=0

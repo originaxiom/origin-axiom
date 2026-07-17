@@ -1,0 +1,222 @@
+{
+  "prereg_sha256_expected": "f9ae4a9e",
+  "prereg_path": "<seat-workdir>/anatomy/loop2/PREREG_L2.md",
+  "gates": {
+    "v0_dim1": true,
+    "v0_idx0_matches_w0a": true,
+    "v0_matches_w0a": true,
+    "v0_idx0_matches_a1_jordan": true,
+    "N_dim1": true,
+    "N_invariant_all": true,
+    "p_is_prime": true,
+    "neg3_is_QR_mod_p": true,
+    "sqrt_neg3_verified": true,
+    "dim_str0_modp_78": true,
+    "dim_stabv0_modp_52": true,
+    "branch_Xv0_all_zero": true,
+    "branch_Im_dim_26": true,
+    "branch_v0_independent_of_Im": true,
+    "branch_irreducible_26": true,
+    "A27p_invertible": true,
+    "B27p_invertible": true,
+    "containment_all_pass_modp": true,
+    "rowselect_rank_str0_651": true,
+    "rowselect_rank_comb_677": true,
+    "dim_str0_exact_78": true,
+    "dim_stabv0_exact_52": true,
+    "exact_kernel_consistent_with_full_modp_system": true,
+    "exact_spot_verify_all_zero": true,
+    "exact_containment_all_pass": true
+  },
+  "v0_normalized_idx0": 12,
+  "prime": {
+    "p": 2147483647,
+    "p_bits": 31,
+    "p_mod_3": 1,
+    "euler_criterion_neg3": 1,
+    "sqrt_neg3_mod_p": 1268011823
+  },
+  "dims": {
+    "dim_str0_modp": 78,
+    "dim_str0_exact": 78,
+    "dim_stabv0_modp": 52,
+    "dim_stabv0_exact": 52,
+    "sealed_expect_str0": 78,
+    "sealed_expect_stabv0": 52
+  },
+  "branching": {
+    "Xv0_all_zero": true,
+    "Im_dim": 26,
+    "Im_plus_v0_dim": 27,
+    "generic_orbit_dim_in_Im": 26,
+    "sealed_expect": "1 (v0) + 26 (irreducible complement)"
+  },
+  "containment": {
+    "modp_checks": [
+      {
+        "basis_idx": 26,
+        "generator": "A27",
+        "str0_condition": true,
+        "Xv0_eq_0_condition": true
+      },
+      {
+        "basis_idx": 26,
+        "generator": "B27",
+        "str0_condition": true,
+        "Xv0_eq_0_condition": true
+      },
+      {
+        "basis_idx": 8,
+        "generator": "A27",
+        "str0_condition": true,
+        "Xv0_eq_0_condition": true
+      },
+      {
+        "basis_idx": 8,
+        "generator": "B27",
+        "str0_condition": true,
+        "Xv0_eq_0_condition": true
+      },
+      {
+        "basis_idx": 1,
+        "generator": "A27",
+        "str0_condition": true,
+        "Xv0_eq_0_condition": true
+      },
+      {
+        "basis_idx": 1,
+        "generator": "B27",
+        "str0_condition": true,
+        "Xv0_eq_0_condition": true
+      }
+    ],
+    "exact_checks": [
+      {
+        "kernel_idx": 25,
+        "generator": "A27",
+        "exact_membership": true
+      },
+      {
+        "kernel_idx": 25,
+        "generator": "B27",
+        "exact_membership": true
+      },
+      {
+        "kernel_idx": 24,
+        "generator": "A27",
+        "exact_membership": true
+      },
+      {
+        "kernel_idx": 24,
+        "generator": "B27",
+        "exact_membership": true
+      },
+      {
+        "kernel_idx": 12,
+        "generator": "A27",
+        "exact_membership": true
+      },
+      {
+        "kernel_idx": 12,
+        "generator": "B27",
+        "exact_membership": true
+      }
+    ],
+    "structural_argument": "rho(g) preserves N exactly and fixes v0 exactly (both banked in SETUP STEP 1/2 above); for X in str0, N((gXg^-1)z,z,z) = N(Xy,y,y)=0 with z=gy using N's exact g-invariance, and (gXg^-1)v0 = gXv0 = 0 using gv0=v0 exactly -- so both defining conditions are preserved unconditionally, not merely on the sampled elements."
+  },
+  "exact_spot_verify": [
+    {
+      "kernel_idx": 25,
+      "x_idx": 0,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 25,
+      "x_idx": 1,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 25,
+      "x_idx": 2,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 25,
+      "x_idx": 3,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 25,
+      "x_idx": 4,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 24,
+      "x_idx": 0,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 24,
+      "x_idx": 1,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 24,
+      "x_idx": 2,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 24,
+      "x_idx": 3,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 24,
+      "x_idx": 4,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 12,
+      "x_idx": 0,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 12,
+      "x_idx": 1,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 12,
+      "x_idx": 2,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 12,
+      "x_idx": 3,
+      "value": "(0)",
+      "zero": true
+    },
+    {
+      "kernel_idx": 12,
+      "x_idx": 4,
+      "value": "(0)",
+      "zero": true
+    }
+  ],
+  "verdict": "F4-CONFIRMED",
+  "epistemic_status": "Dimensions (78, 52) and the 1+26 branching were computed via finite-field (mod p) linear algebra as the primary/fast pass, matching the sealed gates exactly. They were then RE-CERTIFIED EXACTLY (not just spot-checked): mod-p elimination cheaply identified a minimal independent row subset for each system, and re-solving those rows with exact K=Q(sqrt(-3)) arithmetic reproduced dim 78 and dim 52 exactly (a few seconds each), going beyond the prereg's minimum ask of a partial spot-check. On top of that exact certification, 3 random exact elements of the 52-dim kernel were verified to satisfy N(Xx,x,x)=0 exactly for 5 random exact x (15/15 exact zeros), and the holonomy containment was checked both numerically mod p (6/6 pass) and exactly on the same 3 elements (6/6 pass), backed by the unconditional structural argument above. Only the 27x27 QR/prime search and the mod-p row bookkeeping are non-exact machinery; every final numeric claim reported here is exact-certified.",
+  "runtime_s": 114.84362006187439
+}
