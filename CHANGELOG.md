@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B677: the morning packet (R22-3 closed; six kill patterns)
+
+### Resolved
+- R22-3 verified-closed (sealed-addendum chains; protocol adopted).
+  G1: three kills (T0 by semisimplicity THEOREM; the new
+  value-irrationality axis). Loop 5: E1 diagonal-silent; E2 the
+  mute-pair-is-boundary law (both objects). Wave 2's shape named:
+  weld-twisted module characters + an integrality mechanism.
+
 ## 2026-07-18 — B674 route 1: miss with a discovery (tr σ(A₁) = φ)
 
 ### Resolved

@@ -1,0 +1,135 @@
+[     0.0s] STEP 0: exec c1_vecmassey.py verbatim, cut EARLIER than d2_351.py's own cut -- right before c1's STEP C (27bar-slot BASE_ij/leftnull; not needed here) -- so only acts, classes (all 5), RELS, SOLO, TEST_TRIPLES survive from c1's STEP A/B (~156s of c1's own ~700s total, per its own run log).
+[     0.0s]   loading cached STEP0 products from <seat-workdir>/anatomy/loop5/e1_diag351/_step0_cache.pkl...
+[     0.0s]   cache loaded (0.0s)
+[     0.0s]   inherited c1 (STEP A/B only, no fork-outcome key at this cut) gates all pass: True
+[     0.0s] STEP 1: Lambda^2(27) basis index set (dim 351, antisymmetric matrices)...
+[     0.0s]   dim Lambda^2(27) = 351  (expect 351)
+[     0.0s]   CONTROL: conj_matrix_via_columns matches brute-force conj_action (spot checks, computed ONCE per test -- the d2_351.py bug fixed)...
+[     7.8s]   CONTROL conj_matrix_via_columns matches brute-force conj_action (8 spot checks): True
+[     7.8s] STEP 2: build F_L351 (1053x1053) Fox-derivative matrix -- structured assembly, O(dim^2) per relator letter (NEVER a dense dim x dim multiply)...
+[   138.2s]   F_L351 built: 1053x1053 (130.5s)
+[   138.2s] STEP 3: base_vec_slot (BASE_ij, the constant defect of the bounding recursion at y=0) -- generalized to accept explicit z-cochain dicts (not just class indices) so the shift-invariance control can reuse it directly with a coboundary-shifted cochain in place of classes[i]...
+[   138.9s]   delta(u_0) = 0 on generator pairs (raw Z^1 cocycle check): True
+[   139.5s]   delta(u_1) = 0 on generator pairs (raw Z^1 cocycle check): True
+[   140.1s]   delta(u_2) = 0 on generator pairs (raw Z^1 cocycle check): True
+[   140.7s]   delta(u_3) = 0 on generator pairs (raw Z^1 cocycle check): True
+[   141.3s]   delta(u_4) = 0 on generator pairs (raw Z^1 cocycle check): True
+[   141.3s] STEP 4: ker(F_L351^T) -- exact nullspace over K=Q(sqrt(-3)) via modular discovery + exact certificate (e1_modnull.py, verbatim d2_modnull.py logic); THE expensive step (~60-70min per the prior D2 run) -- persisted to a plain Fraction-string-pair JSON immediately after, so a rerun of this script (if a later step needs debugging) does not repeat it.
+[   163.3s]     [L351] mod 1073741827: rank 656, ker dim 397 (both embeddings)
+[   184.7s]     [L351] mod 1073741833: rank 656, ker dim 397 (both embeddings)
+[   205.4s]     [L351] mod 1073741839: rank 656, ker dim 397 (both embeddings)
+[   225.6s]     [L351] mod 1073741857: rank 656, ker dim 397 (both embeddings)
+[   225.6s]     [L351] consensus: rank 656, ker dim 397, primes agreeing 4
+[   245.7s]     [L351] mod 1073741953: rank 656, ker dim 397 (both embeddings)
+[   265.6s]     [L351] mod 1073741971: rank 656, ker dim 397 (both embeddings)
+[   285.5s]     [L351] mod 1073742037: rank 656, ker dim 397 (both embeddings)
+[   305.6s]     [L351] mod 1073742073: rank 656, ker dim 397 (both embeddings)
+[   305.6s]     [L351] reconstruction retry with 8 agreeing primes
+[   327.4s]     [L351] mod 1073742091: rank 656, ker dim 397 (both embeddings)
+[   347.7s]     [L351] mod 1073742169: rank 656, ker dim 397 (both embeddings)
+[   367.6s]     [L351] mod 1073742223: rank 656, ker dim 397 (both embeddings)
+[   387.8s]     [L351] mod 1073742259: rank 656, ker dim 397 (both embeddings)
+[   387.8s]     [L351] reconstruction retry with 12 agreeing primes
+[   412.2s]     [L351] exact-verified 1/397 (0.6s)
+[   429.1s]     [L351] exact-verified 11/397 (17.5s)
+[   458.7s]     [L351] exact-verified 21/397 (47.1s)
+[   476.5s]     [L351] exact-verified 31/397 (64.9s)
+[   503.5s]     [L351] exact-verified 41/397 (91.9s)
+[   570.2s]     [L351] exact-verified 51/397 (158.7s)
+[   664.5s]     [L351] exact-verified 61/397 (253.0s)
+[   747.9s]     [L351] exact-verified 71/397 (336.3s)
+[   839.7s]     [L351] exact-verified 81/397 (428.1s)
+[   927.8s]     [L351] exact-verified 91/397 (516.2s)
+[  1014.9s]     [L351] exact-verified 101/397 (603.4s)
+[  1101.8s]     [L351] exact-verified 111/397 (690.3s)
+[  1180.0s]     [L351] exact-verified 121/397 (768.5s)
+[  1269.1s]     [L351] exact-verified 131/397 (857.5s)
+[  1349.0s]     [L351] exact-verified 141/397 (937.5s)
+[  1431.8s]     [L351] exact-verified 151/397 (1020.2s)
+[  1511.6s]     [L351] exact-verified 161/397 (1100.0s)
+[  1592.3s]     [L351] exact-verified 171/397 (1180.7s)
+[  1671.5s]     [L351] exact-verified 181/397 (1259.9s)
+[  1748.7s]     [L351] exact-verified 191/397 (1337.1s)
+[  1827.4s]     [L351] exact-verified 201/397 (1415.8s)
+[  1904.7s]     [L351] exact-verified 211/397 (1493.1s)
+[  1982.5s]     [L351] exact-verified 221/397 (1571.0s)
+[  2058.5s]     [L351] exact-verified 231/397 (1646.9s)
+[  2132.6s]     [L351] exact-verified 241/397 (1721.1s)
+[  2207.8s]     [L351] exact-verified 251/397 (1796.3s)
+[  2279.7s]     [L351] exact-verified 261/397 (1868.2s)
+[  2353.3s]     [L351] exact-verified 271/397 (1941.8s)
+[  2424.8s]     [L351] exact-verified 281/397 (2013.2s)
+[  2496.3s]     [L351] exact-verified 291/397 (2084.7s)
+[  2567.9s]     [L351] exact-verified 301/397 (2156.3s)
+[  2637.8s]     [L351] exact-verified 311/397 (2226.2s)
+[  2709.5s]     [L351] exact-verified 321/397 (2297.9s)
+[  2780.1s]     [L351] exact-verified 331/397 (2368.5s)
+[  2850.9s]     [L351] exact-verified 341/397 (2439.3s)
+[  2921.2s]     [L351] exact-verified 351/397 (2509.6s)
+[  2989.4s]     [L351] exact-verified 361/397 (2577.9s)
+[  3057.0s]     [L351] exact-verified 371/397 (2645.5s)
+[  3124.5s]     [L351] exact-verified 381/397 (2713.0s)
+[  3190.9s]     [L351] exact-verified 391/397 (2779.4s)
+[  3230.4s]     [L351] EXACT VERIFY: all 397 kernel vectors satisfy F^T v = 0 over K; completeness: dim ker_Q <= 1053 - rank_Fp(656) = 397 = verified count -> basis COMPLETE (2818.8s)
+[  3230.5s]   ker(F_L351^T) dim = 397  (3088.9s)
+[  3231.8s]   persisted leftnull basis (397 vectors) to <seat-workdir>/anatomy/loop5/e1_diag351/_leftnull_L351.json
+[  3231.8s]   ker(F_L351^T) dim = 397 (D2 banked: 397): MATCH
+[  3231.8s] STEP 5: GATE (sealed falsifier) -- recompute ALL SIX of D2's banked off-diagonal L351 witnesses against the FRESH leftnull basis and cross- check byte-for-byte vs loop4/d2_351/d2_results.json. STOP if any mismatch.
+[  3248.2s]   [c_23] L351 GATE recheck: fresh=(75442752000+25147584000*sqrt(-3)) vs banked=(75442752000+25147584000*sqrt(-3)): MATCH  (witness_valid=True)
+[  3262.9s]   [c_24] L351 GATE recheck: fresh=(-25147584000+8382528000*sqrt(-3)) vs banked=(-25147584000+8382528000*sqrt(-3)): MATCH  (witness_valid=True)
+[  3279.3s]   [c_32] L351 GATE recheck: fresh=(75442752000+25147584000*sqrt(-3)) vs banked=(75442752000+25147584000*sqrt(-3)): MATCH  (witness_valid=True)
+[  3293.1s]   [c_34] L351 GATE recheck: fresh=(0+37800*sqrt(-3)) vs banked=(0+37800*sqrt(-3)): MATCH  (witness_valid=True)
+[  3307.8s]   [c_42] L351 GATE recheck: fresh=(-25147584000+8382528000*sqrt(-3)) vs banked=(-25147584000+8382528000*sqrt(-3)): MATCH  (witness_valid=True)
+[  3322.3s]   [c_43] L351 GATE recheck: fresh=(0+37800*sqrt(-3)) vs banked=(0+37800*sqrt(-3)): MATCH  (witness_valid=True)
+[  3322.3s]   GATE L351-reproduces-D2 (all 6 off-diagonal pairs): PASS
+[  3322.3s] STEP 6: THE DIAGONAL -- BASE_ii, obstruction coords, witness search, for i = 0,1,2,3,4 (boundary 0,1 included).
+[  3327.3s]   [c_00]: zero across FULL leftnull basis (nonzero coords 0/397) -- queued for exact coboundary solve
+[  3333.5s]   [c_11]: zero across FULL leftnull basis (nonzero coords 0/397) -- queued for exact coboundary solve
+[  3342.3s]   [c_22]: zero across FULL leftnull basis (nonzero coords 0/397) -- queued for exact coboundary solve
+[  3350.8s]   [c_33]: zero across FULL leftnull basis (nonzero coords 0/397) -- queued for exact coboundary solve
+[  3359.1s]   [c_44]: zero across FULL leftnull basis (nonzero coords 0/397) -- queued for exact coboundary solve
+[  3359.1s] STEP 7: exact coboundary solve for any PENDING-SILENT-CHECK diagonal (F_L351.y = BASE_ii over K, modular discovery + exact verification) -- SELF-SILENT if solved & verified.
+[  3379.2s]     [L351_solve] mod 1073741827: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3398.1s]     [L351_solve] mod 1073741833: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3417.1s]     [L351_solve] mod 1073741839: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3436.2s]     [L351_solve] mod 1073741857: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3436.2s]     [L351_solve] consensus: rank 656, primes agreeing 4
+[  3436.8s]     [L351_solve] rhs 0: EXACT-VERIFIED A.y = b over K (coboundary found)
+[  3455.8s]     [L351_solve] mod 1073741953: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3474.9s]     [L351_solve] mod 1073741971: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3493.9s]     [L351_solve] mod 1073742037: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3513.0s]     [L351_solve] mod 1073742073: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3513.0s]     [L351_solve] reconstruction retry (rhs 1) with 8 agreeing primes
+[  3514.1s]     [L351_solve] rhs 1: EXACT-VERIFIED A.y = b over K (coboundary found)
+[  3533.2s]     [L351_solve] mod 1073742091: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3552.4s]     [L351_solve] mod 1073742169: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3571.5s]     [L351_solve] mod 1073742223: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3590.9s]     [L351_solve] mod 1073742259: rank 656, per-rhs consistent=[True, True, True, True, True]
+[  3590.9s]     [L351_solve] reconstruction retry (rhs 2) with 12 agreeing primes
+[  3596.1s]     [L351_solve] rhs 2: EXACT-VERIFIED A.y = b over K (coboundary found)
+[  3600.8s]     [L351_solve] rhs 3: EXACT-VERIFIED A.y = b over K (coboundary found)
+[  3605.0s]     [L351_solve] rhs 4: EXACT-VERIFIED A.y = b over K (coboundary found)
+[  3605.0s]   coboundary solve for 5 pair(s) done (245.9s)
+[  3605.0s]   [c_00]: SELF-SILENT (exact coboundary y found & verified, 34/1053 nonzero entries)
+[  3605.0s]   [c_11]: SELF-SILENT (exact coboundary y found & verified, 72/1053 nonzero entries)
+[  3605.0s]   [c_22]: SELF-SILENT (exact coboundary y found & verified, 328/1053 nonzero entries)
+[  3605.0s]   [c_33]: SELF-SILENT (exact coboundary y found & verified, 327/1053 nonzero entries)
+[  3605.0s]   [c_44]: SELF-SILENT (exact coboundary y found & verified, 327/1053 nonzero entries)
+[  3605.0s] STEP 8: CONTROLS -- slot cocycle identity delta(C_L351_ii)=0 on TEST_TRIPLES for each i=0..4; coboundary-shift invariance on ONE diagonal pair (i=2); exactness.
+[  3606.7s]   delta C_L351_00 = 0 on 5 test triples: PASS
+[  3609.1s]   delta C_L351_11 = 0 on 5 test triples: PASS
+[  3611.0s]   delta C_L351_22 = 0 on 5 test triples: PASS
+[  3613.1s]   delta C_L351_33 = 0 on 5 test triples: PASS
+[  3615.1s]   delta C_L351_44 = 0 on 5 test triples: PASS
+[  3615.1s]   CONTROL: coboundary-shift invariance on diagonal pair i=2 -- shift classes[2] by a primal coboundary in BOTH cup-factors simultaneously (a strictly stronger test than C1/D2's single-factor off-diagonal shift, since i=j means the SAME shifted cochain appears twice), recompute obstruction coords for [c_22], verify UNCHANGED exactly...
+[  3627.4s]   obstruction coords for [c_22] unchanged under simultaneous coboundary shift of BOTH cup-factors of classes[2]: True
+[  3627.4s]   exactness: K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats anywhere in the E1 path: PASS by construction
+[  3627.4s] ALL GATES PASS: True
+[  3627.4s] VERDICT ASSEMBLY
+[  3627.4s]   [c_00] (boundary_born=True): SELF-SILENT
+[  3627.4s]   [c_11] (boundary_born=True): SELF-SILENT
+[  3627.4s]   [c_22] (boundary_born=False): SELF-SILENT
+[  3627.4s]   [c_33] (boundary_born=False): SELF-SILENT
+[  3627.4s]   [c_44] (boundary_born=False): SELF-SILENT
+[  3627.4s] saved <seat-workdir>/anatomy/loop5/e1_diag351/e1_results.json
+[  3627.4s] DONE.

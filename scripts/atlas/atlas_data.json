@@ -13697,6 +13697,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B677": {
+   "slug": "morning packet",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B484",
+    "B670",
+    "B671",
+    "B673",
+    "B674"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B67": {
    "slug": "figure eight apolynomial",
    "motifs": [

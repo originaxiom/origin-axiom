@@ -1,0 +1,143 @@
+{
+  "prereg_note": "PREREG_L5.md E1 clause",
+  "gates": {
+    "c1_w1_C27_inverse_consistent": true,
+    "c1_w1_relator_R1": true,
+    "c1_w1_relator_R2": true,
+    "c1_w1_relator_R3": true,
+    "c1_w1_v0_dim1": true,
+    "c1_w1_v0_idx0_matches_w0a": true,
+    "c1_w1_v0_matches_w0a": true,
+    "c1_w1_v0_C27_invariant": true,
+    "c1_w1_N_dim1": true,
+    "c1_w1_N_invariant_all": true,
+    "c1_w1_P_class0_is_cocycle": true,
+    "c1_w1_h1_dual_eq_5": true,
+    "c1_h1_bank_primal_eq_5": true,
+    "c1_h2_dual_euler_consistent": true,
+    "c1_C3_symmetric": true,
+    "c1_C3_equivariant": true,
+    "c1_all_cij_are_cocycles": true,
+    "dim_L351_correct": true,
+    "conj_matrix_via_columns_matches_bruteforce": true,
+    "fox_L351_square_1053": true,
+    "raw_cocycle_u0_ok": true,
+    "raw_cocycle_u1_ok": true,
+    "raw_cocycle_u2_ok": true,
+    "raw_cocycle_u3_ok": true,
+    "raw_cocycle_u4_ok": true,
+    "ker_FT_L351_dim_397": true,
+    "gate_L351_reproduces_d2_all_six_offdiag": true,
+    "slot_cocycle_identity_diag_holds_all_i": true,
+    "control_coboundary_shift_diag22": true,
+    "control_exactness": true
+  },
+  "all_gates_pass": true,
+  "gate_offdiag_recheck_vs_d2": {
+    "23": {
+      "fresh_witness": "(75442752000+25147584000*sqrt(-3))",
+      "banked_witness": "(75442752000+25147584000*sqrt(-3))",
+      "witness_valid": true,
+      "match": true
+    },
+    "24": {
+      "fresh_witness": "(-25147584000+8382528000*sqrt(-3))",
+      "banked_witness": "(-25147584000+8382528000*sqrt(-3))",
+      "witness_valid": true,
+      "match": true
+    },
+    "32": {
+      "fresh_witness": "(75442752000+25147584000*sqrt(-3))",
+      "banked_witness": "(75442752000+25147584000*sqrt(-3))",
+      "witness_valid": true,
+      "match": true
+    },
+    "34": {
+      "fresh_witness": "(0+37800*sqrt(-3))",
+      "banked_witness": "(0+37800*sqrt(-3))",
+      "witness_valid": true,
+      "match": true
+    },
+    "42": {
+      "fresh_witness": "(-25147584000+8382528000*sqrt(-3))",
+      "banked_witness": "(-25147584000+8382528000*sqrt(-3))",
+      "witness_valid": true,
+      "match": true
+    },
+    "43": {
+      "fresh_witness": "(0+37800*sqrt(-3))",
+      "banked_witness": "(0+37800*sqrt(-3))",
+      "witness_valid": true,
+      "match": true
+    }
+  },
+  "leftnull_L351_dim": 397,
+  "fox_L351_size": "1053x1053",
+  "boundary_born": [
+    0,
+    1
+  ],
+  "solo_inherited": [
+    2,
+    3,
+    4
+  ],
+  "diagonal_results": {
+    "00": {
+      "obstruction_dim": 397,
+      "nonzero_obstruction_coords": 0,
+      "zero_flag": true,
+      "boundary_born": true,
+      "verdict": "SELF-SILENT",
+      "witness_pairing_value": null,
+      "coboundary_solved_and_exact_verified": true,
+      "coboundary_y_dim": 1053,
+      "coboundary_y_nonzero_entries": 34
+    },
+    "11": {
+      "obstruction_dim": 397,
+      "nonzero_obstruction_coords": 0,
+      "zero_flag": true,
+      "boundary_born": true,
+      "verdict": "SELF-SILENT",
+      "witness_pairing_value": null,
+      "coboundary_solved_and_exact_verified": true,
+      "coboundary_y_dim": 1053,
+      "coboundary_y_nonzero_entries": 72
+    },
+    "22": {
+      "obstruction_dim": 397,
+      "nonzero_obstruction_coords": 0,
+      "zero_flag": true,
+      "boundary_born": false,
+      "verdict": "SELF-SILENT",
+      "witness_pairing_value": null,
+      "coboundary_solved_and_exact_verified": true,
+      "coboundary_y_dim": 1053,
+      "coboundary_y_nonzero_entries": 328
+    },
+    "33": {
+      "obstruction_dim": 397,
+      "nonzero_obstruction_coords": 0,
+      "zero_flag": true,
+      "boundary_born": false,
+      "verdict": "SELF-SILENT",
+      "witness_pairing_value": null,
+      "coboundary_solved_and_exact_verified": true,
+      "coboundary_y_dim": 1053,
+      "coboundary_y_nonzero_entries": 327
+    },
+    "44": {
+      "obstruction_dim": 397,
+      "nonzero_obstruction_coords": 0,
+      "zero_flag": true,
+      "boundary_born": false,
+      "verdict": "SELF-SILENT",
+      "witness_pairing_value": null,
+      "coboundary_solved_and_exact_verified": true,
+      "coboundary_y_dim": 1053,
+      "coboundary_y_nonzero_entries": 327
+    }
+  },
+  "runtime_s": 3627.3815009593964
+}

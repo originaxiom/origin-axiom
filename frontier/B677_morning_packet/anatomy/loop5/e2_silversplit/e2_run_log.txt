@@ -1,0 +1,83 @@
+[    0.0s] === PART 1: GOLDEN CONTROL (hard gate -- must reproduce banked 2+3 split before any silver work) ===
+[    0.0s] STEP G0: exec w1_portal.py verbatim through its own STEP 5 (same cut point c1_vecmassey.py used: 'log("STEP 6:') -- B575 prefix, pkl rehydration (cell3_double/stage1_classes.pkl), C27 via J, dual Fox machinery. Source READ only.
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   97.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  118.3s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  118.5s] G2a PASS: principal sl2 relations exact
+[  123.7s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  125.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[  125.7s]   B575 prefix done (126s)
+[  125.7s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[  125.7s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[  126.8s]   relator gate R1: PASS
+[  127.7s]   relator gate R2: PASS
+[  129.5s]   relator gate R3: PASS
+[  129.5s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[  129.7s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  129.7s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[  129.7s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[  129.7s]   v0 invariant under C27 (conjugate holonomy): PASS
+[  129.7s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[  129.7s]   zero-weight-sum sorted triples: 45
+[  129.7s]   invariance equations: 180
+[  130.2s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  130.2s]   nonzero sorted coefficients: 45/45
+[  130.2s]   N-invariance under A27: PASS
+[  130.2s]   N-invariance under B27: PASS
+[  130.3s]   N-invariance under C27: PASS
+[  130.3s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[  135.8s]   dual Fox-derivative matrix built (6s)
+[  135.8s]   cocycle-property spot check on class 0 (before proceeding)...
+[  135.8s]   P(u_0) in Z1(dual): PASS
+[  135.8s] STEP 5: Z1(dual)/B1(dual) and h1(D; 27-bar); extract the dual class basis...
+[  140.0s]   Z1(dual) dim = 31, coboundary rank = 26
+[  140.0s]   h0(dual) = 1, h1(dual) = 5   [GATE: h1(dual)=5]
+[  155.0s]   extracted 5 dual class representatives
+[  155.1s]   w1_portal STEP0-5 done (155s)
+[  155.1s]   inherited w1_portal gates: {'golden_inherited_C27_inverse_consistent': True, 'golden_inherited_relator_R1': True, 'golden_inherited_relator_R2': True, 'golden_inherited_relator_R3': True, 'golden_inherited_v0_dim1': True}
+[  155.1s]   golden: 5 H^1(D;27) classes rehydrated (banked h1=5); pi_1(D) = <a,b,c | R1,R2,R3> (a=shared meridian, cell3b_stage1.py)
+[  155.1s]   golden peripheral words: mu = 'a', lambda = 'abABaaBAbA' (CELL3A_PREREG's 'true longitude'; SAME word cell3b_stage1.py's R3 uses)
+[  156.1s]   CONTROL: rho(mu).rho(lambda) == rho(lambda).rho(mu) exactly (peripheral subgroup is abelian, rep-level check): True
+[  156.1s]   sanity: rho(mu) != identity: True
+[  157.2s]   golden class 0: restriction to T^2 IS a coboundary (trivial on boundary): True
+[  158.4s]   golden class 1: restriction to T^2 IS a coboundary (trivial on boundary): True
+[  159.6s]   golden class 2: restriction to T^2 IS a coboundary (trivial on boundary): False
+[  160.8s]   golden class 3: restriction to T^2 IS a coboundary (trivial on boundary): False
+[  161.9s]   golden class 4: restriction to T^2 IS a coboundary (trivial on boundary): False
+[  161.9s]   BANKED golden split (w1_portal.py's BOUNDARY_BORN/SOLO_INHERITED, sourced from B637_corrected_cell3/FINDINGS.md): boundary-born = [0, 1], solo-inherited = [2, 3, 4]
+[  161.9s]   convention A ('boundary-detected' = restriction NONZERO / NOT a coboundary): [2, 3, 4]
+[  161.9s]   convention B ('boundary-detected' = restriction ZERO / IS a coboundary): [0, 1]
+[  161.9s]   GOLDEN CONTROL GATE: PASS  (convention adopted: B)
+[  161.9s]   CONVENTION: boundary-DETECTED := the cocycle's restriction to the peripheral subgroup <mu,lambda> IS a coboundary (ZERO in H^1(T^2;V)) of the restricted action
+[  161.9s] === PART 2: SILVER (the actual question -- runs only because the golden gate above PASSED) ===
+[  161.9s] STEP S0: exec b649_stage3b_swap.py prefix (weld + silver DOUBLE Fox/Z1/cob/reps) -- SAME cut point d3_silvercup.py/w2a_silver.py used ('# ---- sigma* ---'). Source READ only.
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (60s)
+dim Z1 = 31 (276s)
+independent coboundaries: 26
+H1 representatives: 5
+[  515.0s]   b649_stage3b_swap prefix done (353s)
+[  515.0s]   double presentation: GENS='abcdef'  RELATORS=['aBAbcc', 'aaCbcB', 'dEDeff', 'ddFefE', 'CCBeff', 'caCAfdFD']
+[  515.0s]   double: h0(D)=1 h1(D)=5  GATE(h0=1,h1=5): PASS
+[  515.0s]   5 silver H^1(D_silver;27) classes sliced from reps (same basis/order as loop4/d3_silvercup.py and w2a_silver.py)
+[  515.0s]   silver peripheral words: mu = 'CCB', lambda = 'caCA' (B649_silver_holonomy/FINDINGS.md: 'peripheral (CCB, caCA)'; PREREG_STAGE3A.md: 'Rmu=CCBeff (mu1 mu2^-1), Rlambda=caCAfdFD (lambda1 lambda2)')
+[  525.9s]   CONTROL: rho(mu).rho(lambda) == rho(lambda).rho(mu) exactly (peripheral subgroup abelian, rep-level check): True
+[  525.9s]   sanity: rho(mu) != identity: True
+[  538.2s]   silver class 0: restriction to T^2 IS a coboundary (trivial on boundary): True
+[  550.8s]   silver class 1: restriction to T^2 IS a coboundary (trivial on boundary): True
+[  562.1s]   silver class 2: restriction to T^2 IS a coboundary (trivial on boundary): False
+[  573.5s]   silver class 3: restriction to T^2 IS a coboundary (trivial on boundary): False
+[  585.3s]   silver class 4: restriction to T^2 IS a coboundary (trivial on boundary): False
+[  585.3s]   SILVER boundary-DETECTED classes (convention B applied identically to golden): [0, 1]
+[  585.3s]   cross-check: d3_results.json zero_offdiag_pairs = ['01', '10'] (expected ['01','10']): True
+[  585.3s] *** VERDICT: MUTE-PAIR-IS-BOUNDARY: the silver mute vector-cup pair {0,1} is EXACTLY the boundary-detected set under the golden-calibrated restriction criterion (convention B). The golden form-match becomes exact in MEANING: the boundary pair is mute at BOTH golden and silver. ***
+[  585.3s]   exactness: golden in K=Q(sqrt(-3)), silver in L=Q(s,i) (s^4=8s^2+16), Fraction arithmetic throughout; zero floats anywhere: PASS by construction
+[  585.3s] ALL GATES PASS: True
+[  585.3s] saved <seat-workdir>/anatomy/loop5/e2_silversplit/e2_results.json
+[  585.3s] DONE.

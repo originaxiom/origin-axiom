@@ -5991,3 +5991,17 @@ e^{+-i pi/5}) — the hyperbolic trace-3 word becomes golden-elliptic
 on the flavor side; only the order-10 shadow survives tracing. The
 miss points at the module/character door (Andrews-Gordon/Lee-Yang)
 = cc2's tube-algebra lane, now favored. Locks 2/2.
+
+## 2026-07-18 — B677: THE MORNING PACKET (R22-3 verified-closed; G1 three kills; loop 5)
+
+R22-3: the chains verified against this seat's own banked manifests
+(56e5a59c, c6d4fabd = the final links) — no breach; the re-seal
+protocol adopted. G1 wave 1: T0 killed by THEOREM (Tube(Fib)
+semisimple => HH vanishes — trace-blindness instances 3 and 4); the
+NEW value-irrationality axis kills the character candidates at n=0
+(Q(zeta5)-irrational leading coefficients vs integer targets + the
+support-class kill). Six kill patterns; wave 2 = the weld-twisted
+module characters WITH an integrality mechanism. Loop 5: E1
+diagonal-silent (gauge-immune by construction); E2 the
+mute-pair-is-boundary LAW (golden AND silver). D4 at its cap
+follows.
