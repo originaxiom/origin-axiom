@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B665: the landscape reconciliation (the shadow-class law)
+
+### Added
+- **THE SHADOW-CLASS LAW** (general form): |tr_odd(W)| = 2|tone(W mod
+  5)| for any word — trace does not determine hearing (verified
+  witnesses); B664's closed form = the family section. Reciprocal
+  corrections exchanged; L107 coordinated with cc2's cell B4. Locks 2/2.
+
 ## 2026-07-17 — B662 wave 3 + campaign close: the ear IS the Γ₅′ doublet
 
 ### Added
