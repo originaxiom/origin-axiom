@@ -5537,3 +5537,16 @@ Protocol: 6 seals re-computed, all match; packet seals 7/7 + 8/8;
 hash-first held through the campaign choreography. Pilot caveat
 declared: reviewer = author for much of the window; independence rests
 on the receipt loop + locks. 11 action items (R21-1..11).
+
+## 2026-07-17 — THE L99 ADOPTION: GOVERNANCE §16 (the factual-review lane; R21-10 closed)
+
+Owner approved cc2's patch with one modification: the factual reviewer
+may be a spawned high-capability subagent (fresh context, standing
+adversarial prompt, sealed design verbatim) instead of an owner-relayed
+seat — removing the owner as message relay for REVIEW lanes. The
+equivalence is scoped honestly: factual review yes; BLINDED lanes
+(predictor/comparator) still require genuinely separated seats, because
+an authoring seat cannot unsee what it relays. Rationale (§10): additive
+— a new review lane that strengthens discipline after the C2 provenance
+erratum (E4); no rule weakened. Deltas: GOVERNANCE §16; WORKING_RULES
+rule 13; E4's counter-rule pointer; L99 CLOSED; R21-10 [x].

@@ -289,6 +289,50 @@ Action items are recorded in a parseable block (`### Action items (Review N)`; `
 `- [x]` resolved, `- [>]` carried) enforced by the `review-actions` gate: a non-final block
 containing unresolved `- [ ]` items fails the suite.
 
+## 16. The factual-review lane for instantiated designs (amendment, 2026-07-17; owner-approved L99)
+
+An INSTANTIATED design — any sealed document whose premises name real-world facts
+(a dataset's existence or version, a publication's status, an experiment's
+timeline, an access condition) — carries risks the mathematical review cannot
+see. Three binding rules, distilled from the C2 provenance erratum (E4's window
+instance; the mechanics were flawless, the premise was false):
+
+1. **Adversarial factual review before execution.** Every instantiated design
+   receives, AFTER sealing and BEFORE execution, an adversarial review of its
+   FACTUAL premises by a reviewer that did not author the design. The reviewer's
+   brief is the STANDING PROMPT below — never per-design text written by the
+   author. The review report is preserved verbatim in the arc.
+2. **Live-verification stamps.** Every empirical predicate in a sealed design
+   ("X is unpublished", "release V is current", "the value is not public")
+   carries a source + access date from a LIVE lookup at design time. A model's
+   memory or prior is never a source. A predicate that cannot be live-verified
+   is declared UNVERIFIED in the design itself and treated as a risk, not a fact.
+3. **The widened anomaly clause.** For every seat executing under a sealed
+   design: "the design's premises look wrong" is a stop-condition with the
+   same standing as a mathematical anomaly — halt, report, do not work around.
+
+**Who may review (the seat question, decided by the owner 2026-07-17):** the
+factual reviewer MAY be a spawned high-capability subagent (fresh context, no
+shared session state) rather than an owner-relayed seat. For FACTUAL review the
+functional requirements are adversarial stance, live lookup ability, and
+non-authorship — a fresh subagent satisfies these, and removes the owner as a
+message relay. Two safeguards are mandatory: the subagent receives the sealed
+design VERBATIM (never the author's summary), and its mandate is the standing
+prompt. This equivalence does NOT extend to BLINDED lanes: predictor/comparator
+separation (the B648 pattern) still requires genuinely separated seats, because
+an authoring seat cannot unsee what it relays — blinding rests on the ORDER of
+seals across contexts the author cannot read.
+
+**The standing prompt (fixed text):** "You are the adversarial factual reviewer
+of a sealed design. Your only job: attempt to REFUTE every factual premise in
+it. For each empirical predicate, perform a live lookup (search the current
+literature/data landscape) and report: VERIFIED (source + date), REFUTED
+(source + date), or UNVERIFIABLE. You do not evaluate the mathematics. You do
+not suggest improvements. A single refuted premise = recommend HALT."
+
+This amendment is additive (a new review lane; no rule weakened); rationale in
+PROGRESS_LOG.md (2026-07-17, the L99 adoption).
+
 ## 10. Amending this constitution
 
 Phase 0 is locked. Amendments are allowed only when they improve *legibility or discipline*
@@ -297,3 +341,5 @@ Loosening a rule to admit a claim that would otherwise fail is explicitly forbid
 Amendment record: §12–§15 added 2026-07-16 (organizational stratification, metadata
 requirements, claims-as-units forward rule, the review loop) — all additive; no rule
 weakened; rationale in `PROGRESS_LOG.md` (2026-07-16, the governance amendment).
+§16 added 2026-07-17 (the factual-review lane, owner-approved L99) — additive; no rule
+weakened; rationale in `PROGRESS_LOG.md` (2026-07-17, the L99 adoption).

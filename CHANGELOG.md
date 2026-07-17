@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — GOVERNANCE §16: the factual-review lane (L99 adopted; owner-approved)
+
+### Governance
+- Instantiated designs now receive an adversarial FACTUAL review by a
+  non-authoring reviewer between seal and execution; empirical
+  predicates carry live source + access date; "premises look wrong" is
+  a stop-condition (GOVERNANCE §16 + WORKING_RULES rule 13).
+- Owner's modification adopted: the reviewer may be a fresh subagent
+  under the standing prompt; blinded lanes still require genuinely
+  separated seats. L99 closed; R21-10 resolved.
+
 ## 2026-07-17 — Review 21: the constitutional pilot (GOVERNANCE §15's first run)
 
 ### Governance
