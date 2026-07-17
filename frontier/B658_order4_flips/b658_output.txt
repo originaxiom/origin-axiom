@@ -1,0 +1,38 @@
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   70.8s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   88.3s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   88.5s] G2a PASS: principal sl2 relations exact
+[   92.2s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   93.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 93.7s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+== control: the a-family (expect singular d = (0,0,1)) ==
+  [control phi(a)=a, w = e] off-diag rows 172; solution dim 1
+    d = ((0), (0), (1))   [blocks Sym16, Sym8, Sym0]
+    invertible member: False
+  control singular as banked: True
+
+== family phi(a)=A (order 4) ==
+  peripheral conjugator (w, s, t): ('', -1, 1)
+  det(U2) = (-1)  (weight-even lift: PGL-valid)
+  [phi(a)=A (order 4), w = '', (s,t) = (-1,1)] off-diag rows 172; solution dim 1
+    d = ((0), (0), (1))   [blocks Sym16, Sym8, Sym0]
+    invertible member: False
+
+== family phi(a)=B (order 4) ==
+  peripheral conjugator (w, s, t): ('aBAb', -1, 1)
+  det(U2) = (1/2+1/2r)  (weight-even lift: PGL-valid)
+  [phi(a)=B (order 4), w = 'aBAb', (s,t) = (-1,1)] off-diag rows 172; solution dim 1
+    d = ((0), (0), (1))   [blocks Sym16, Sym8, Sym0]
+    invertible member: False
+
+== VERDICT ==
+  phi(a)=A: BROKEN
+  phi(a)=B: BROKEN
+  WALL-8 UPGRADE: all FOUR orientation-reversing families of D4 break on the double's 27 local system; the surviving symmetry is the deck swap sigma* exactly.
+
+B658 DONE

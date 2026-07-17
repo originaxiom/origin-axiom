@@ -13372,6 +13372,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B658": {
+   "slug": "order4 flips",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "lorentzian"
+   ],
+   "refs": [
+    "B643",
+    "B657"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B65": {
    "slug": "sl4 symbolic jacobian",
    "motifs": [

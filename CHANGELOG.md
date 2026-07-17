@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B658: the order-4 flip verdict (wall 8 total; R21-6 closed)
+
+### Resolved
+- Both order-4 orientation-reversing families BREAK on the double's 27
+  local system (same singular d = (0,0,1) as the order-2 classes;
+  exact, control reproduced). Wall 8 upgrades: the chord breaks EVERY
+  orientation-reversing family of D₄ — the surviving symmetry is the
+  deck swap σ* exactly. H128 registers the common-retreat observation
+  (the invariant line = the portal's source). Locks 2/2.
+
 ## 2026-07-17 — GOVERNANCE §16: the factual-review lane (L99 adopted; owner-approved)
 
 ### Governance
