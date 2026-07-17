@@ -1,0 +1,18 @@
+== SL(2) exact eliminations (all classes, all three manifolds) ==
+  L6a4 class 0: dim 1
+  L6a4 class 1: dim -1
+  L6a4 class 2: dim 1
+  L6a4 class 3: dim -1
+  L6a4 class 5: dim -1
+  L6a4 class 6: dim -1
+  L6a4: 2 zero-dim SL(2) classes; fields: [('disc -1', 2)]
+  s776 class 1: dim -1
+  s776 class 2: dim -1
+  s776 class 3: dim -1
+  s776 class 5: dim -1
+  s776 class 7: dim -1
+  s776: 3 zero-dim SL(2) classes; fields: [('disc -7', 2)]
+  m129 class 1: dim -1
+  m129 class 2: dim -1
+  m129: 2 zero-dim SL(2) classes; fields: [('disc -1', 2)]
+SL2 DONE

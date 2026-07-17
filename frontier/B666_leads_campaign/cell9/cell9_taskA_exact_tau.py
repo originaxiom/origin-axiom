@@ -28,10 +28,12 @@ import sys, json, time, random
 from fractions import Fraction
 from math import comb
 
-sys.path.insert(0, '/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9')
+sys.path.insert(0, _REPO + '/frontier/B666_leads_campaign/cell9')
 from cell9_L_arith import load_silver_gens, ONE8
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
-GENS_PATH = '/Users/dri/origin-axiom/frontier/B649_silver_holonomy/entries_L.json'
+GENS_PATH = _REPO + '/frontier/B649_silver_holonomy/entries_L.json'
 GENS = ['a', 'b', 'c']
 RELATORS = ['aBAbcc', 'aaCbcB']
 KEPT = ['a', 'c']
@@ -557,7 +559,7 @@ def main():
     # persist the reconstruction FIRST (the verification stages below must
     # not be able to lose it)
     out = {str(m): [str(f) for f in exact[m]] for m in M_EXPS}
-    json.dump(out, open('/Users/dri/origin-axiom/frontier/B666_leads_campaign/'
+    json.dump(out, open(_REPO + '/frontier/B666_leads_campaign/'
                         'cell9/taskA_exact_coords.json', 'w'), indent=1)
     print("exact coordinates written to taskA_exact_coords.json")
 
@@ -574,7 +576,7 @@ def main():
         re_s, sign, im_s = mo.groups()
         return mp.mpc(mp.mpf(re_s), mp.mpf(im_s) * (1 if sign == '+' else -1))
 
-    b627 = '/Users/dri/origin-axiom/frontier/B627_silver_heldout/'
+    b627 = _REPO + '/frontier/B627_silver_heldout/'
     sealed = {}
     if not QUICK:
         sealed[7] = parse_tau_line(open(b627 + 'm7_line.txt').read(), 7)

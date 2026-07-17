@@ -1,0 +1,5 @@
+=== m=2 (m136): gens=['a', 'b', 'c'], 2 relators ===
+  (not 2-generator; skipping symbolic route)
+=== m=3 (s464): gens=['a', 'b', 'c'], 2 relators ===
+  (not 2-generator; skipping symbolic route)
+APOLY ELIM DONE

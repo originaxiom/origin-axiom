@@ -18,14 +18,16 @@ either the numerics at higher precision converge to the exact integers
 or they reproduce the sealed values (my exact route dies and THAT banks).
 """
 import sys, time, json, re
-sys.path.insert(0, '/Users/dri/origin-axiom/frontier/B627_silver_heldout')
+sys.path.insert(0, _REPO + '/frontier/B627_silver_heldout')
 import pipeline as pl
 import mpmath as mp
 from fractions import Fraction
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 # The exact integers under test: parsed from the reconstruction transcript
 # (taskA_output.txt -- each verified there on 3 held-out primes).
-txt = open('/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9/'
+txt = open(_REPO + '/frontier/B666_leads_campaign/cell9/'
            'taskA_output.txt').read()
 EXACT = {}
 for mo in re.finditer(r'm=(\d+): coords \(1,s,s\^2,s\^3, i,is,is\^2,is\^3\) =\n'
@@ -53,7 +55,7 @@ DPS = 500
 # unlimited, unlike B627's quad-double ManifoldHP holonomy (~60 digits),
 # which is the diagnosed source of the sealed m=7/8/11 noise.
 mp.mp.dps = DPS + 20
-entries = json.load(open('/Users/dri/origin-axiom/frontier/'
+entries = json.load(open(_REPO + '/frontier/'
                          'B649_silver_holonomy/entries_L.json'))
 s_num = mp.sqrt(4 + 4 * mp.sqrt(2))          # the matching embedding
 i_num = mp.mpc(0, 1)

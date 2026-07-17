@@ -28,8 +28,10 @@ The discriminating fact, computed in-sandbox per word w:
 """
 import sys, json, time
 import mpmath as mp
-sys.path.insert(0, '/Users/dri/origin-axiom/frontier/B627_silver_heldout')
+sys.path.insert(0, _REPO + '/frontier/B627_silver_heldout')
 import pipeline as pl
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 WORDS = ['RL', 'RRL', 'RLRL', 'RRLL', 'RRRL', 'RRRRL', 'RRLLL', 'RRRLLL']
 DPS = 300
@@ -144,7 +146,7 @@ def pslq_minpoly(Jval, maxdeg=8, prec_digits=200):
 def main():
     import sympy as sp
     lam = sp.Symbol('lam')
-    spectra = json.load(open('/Users/dri/origin-axiom/frontier/'
+    spectra = json.load(open(_REPO + '/frontier/'
                              'B666_leads_campaign/cell9/taskB_jspectrum.json'))
     mp.mp.dps = 320
     results = {}
@@ -214,7 +216,7 @@ def main():
                           next_nearest=mp.nstr(sep, 5),
                           pslq_minpoly=pslq_str,
                           volume=mp.nstr(mp.mpf(str(vol)), 15))
-        json.dump(results, open('/Users/dri/origin-axiom/frontier/'
+        json.dump(results, open(_REPO + '/frontier/'
                                 'B666_leads_campaign/cell9/'
                                 'taskB_discrete_id.json', 'w'), indent=1)
     # calibration gates (the banked anchors)

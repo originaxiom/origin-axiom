@@ -1,0 +1,29 @@
+L6a4 class 0: TIMEOUT(20min) — recorded per ladder
+L6a4 class 1: TIMEOUT(20min) — recorded per ladder
+L6a4 class 2: TIMEOUT(20min) — recorded per ladder
+L6a4 class 3: TIMEOUT(20min) — recorded per ladder
+L6a4 class 4: TIMEOUT(20min) — recorded per ladder
+L6a4 class 5: TIMEOUT(20min) — recorded per ladder
+L6a4 class 6: TIMEOUT(20min) — recorded per ladder
+L6a4 class 7: TIMEOUT(20min) — recorded per ladder
+L6a4 class 8: TIMEOUT(20min) — recorded per ladder
+L6a4 class 9: TIMEOUT(20min) — recorded per ladder
+L6a4 class 10: TIMEOUT(20min) — recorded per ladder
+L6a4 class 11: TIMEOUT(20min) — recorded per ladder
+L6a4 class 12: TIMEOUT(20min) — recorded per ladder
+L6a4 class 13: TIMEOUT(20min) — recorded per ladder
+s776 class 0: dim = 3
+s776 class 1: dim = 0
+s776 class 2: dim = 0
+s776 class 3: dim = 0
+s776 class 4: dim = 0
+s776 class 5: dim = 0
+s776 class 6: dim = 0
+s776 class 7: dim = 0
+s776 class 8: dim = 0
+s776 class 9: dim = 0
+s776 class 10: dim = 0
+s776 class 11: dim = 0
+s776 class 12: dim = 0
+s776 class 13: dim = 1
+RUNG2 SWEEP COMPLETE

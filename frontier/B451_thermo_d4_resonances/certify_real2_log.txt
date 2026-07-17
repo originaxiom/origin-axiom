@@ -1,0 +1,9 @@
+n=1: dim -1
+n=2: EXACT REAL count = 4   (complex-with-mult = 4)
+n=3: dim -1
+n=4: EXACT REAL count = 8   (complex-with-mult = 8)
+n=5: EXACT REAL count = 10   (complex-with-mult = 10)
+n=6: EXACT REAL count = 22   (complex-with-mult = 22)
+n=7: EXACT REAL count = 28   (complex-with-mult = 28)
+n=8: EXACT REAL count = 48   (complex-with-mult = 48)
+REAL COUNTS v2 DONE

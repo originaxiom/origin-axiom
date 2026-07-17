@@ -1,0 +1,24 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+== RF0 gate + RF1 LETTER tower (a->R, b->L) ==
+  L n=2    len=  2 vol=   2.0298832 CS= -0.000000 H1=Z  revswap-amph=True
+  L n=3    len=  3 vol=   2.6667448 CS= +0.020833 H1=Z/2 + Z  revswap-amph=False
+  L n=4    len=  5 vol=   4.7517020 CS= +0.021619 H1=Z/8 + Z  revswap-amph=False
+  L n=5    len=  8 vol=   7.4225959 CS= +0.042586 H1=Z/35 + Z  revswap-amph=False
+  L n=6    len= 13 vol=  12.1743640 CS= +0.064208 H1=Z/364 + Z  revswap-amph=False
+  L n=7    len= 21 vol=  19.5969600 CS= +0.106794 H1=Z/13530 + Z  revswap-amph=False
+  L n=8    len= 34 vol=  31.7713240 CS= +0.171002 H1=Z/4952673 + Z  revswap-amph=False
+  L n=9    len= 55 vol=  51.3682840 CS= -0.222205 H1=Z/67019597732 + Z  revswap-amph=False
+  L n=10   len= 89 vol=  83.1396080 CS= -0.051203 H1=Z/331926286207224916 + Z  revswap-amph=False
+== RF1 BODY chain (a->RL, b->RRLL) ==
+  B n=2    len=  6 vol=   5.6253782 CS= +0.000000 H1=Z/13 + Z  revswap-amph=True
+  B n=3    len=  8 vol=   7.6417106 CS= -0.000000 H1=Z/37 + Z  revswap-amph=True
+  B n=4    len= 14 vol=  13.2669614 CS= +0.000000 H1=Z/2 + Z/290 + Z  revswap-amph=True
+  B n=5    len= 22 vol=  20.9086717 CS= -0.000000 H1=Z/22681 + Z  revswap-amph=True
+  B n=6    len= 36 vol=  34.1756330 CS= +0.000000 H1=Z/13201465 + Z  revswap-amph=True
+  B n=7    len= 58 vol=  55.0843047 CS= -0.000000 H1=Z/299448875377 + Z  revswap-amph=True
+  B n=8    len= 94 vol=  89.2599377 CS= +0.000000 H1=Z/2 + Z/1976582223251479154 + Z  revswap-amph=True
+== Gieseking descent (Phase-2b CC quick table) ==
+  m000: vol=1.014941606 (= vol(4_1)/2: True) H1=Z
+  4_1 : vol=2.029883213 H1=Z  descent: vol EVEN(ratio-2), H1 differs
+DONE

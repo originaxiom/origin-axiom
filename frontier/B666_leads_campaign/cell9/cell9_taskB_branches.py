@@ -18,6 +18,8 @@ Everything here is sympy-exact.  Output: the full branch inventory per word
 """
 import sys, json
 import sympy as sp
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 x, y, z = sp.symbols('x y z')
 lam = sp.symbols('lam')
@@ -137,7 +139,7 @@ def main():
                                       float(sp.im(sp.N(b['J'], 40)))],
                            minpoly=str(b['minpoly'].as_expr()))
                       for b in rows]
-        json.dump(results, open('/Users/dri/origin-axiom/frontier/'
+        json.dump(results, open(_REPO + '/frontier/'
                                 'B666_leads_campaign/cell9/taskB_branches.json',
                                 'w'), indent=1)
     print("DONE")

@@ -1,0 +1,11 @@
+seed pool: 6372
+n=1: primitive orbits 0; implied Fix(T^n) count 0
+n=2: primitive orbits 2; implied Fix(T^n) count 4
+n=3: primitive orbits 0; implied Fix(T^n) count 0
+n=4: primitive orbits 1; implied Fix(T^n) count 8
+n=5: primitive orbits 2; implied Fix(T^n) count 10
+n=6: primitive orbits 2; implied Fix(T^n) count 16
+n=7: primitive orbits 4; implied Fix(T^n) count 28
+n=8: primitive orbits 5; implied Fix(T^n) count 48
+zeros: 1.55762+0.00000j (rate 0.4432), -2.01400+0.00000j (rate 0.7001), -2.13941-1.23550j (rate 0.9044), -2.13941+1.23550j (rate 0.9044), 1.46181+2.07803j (rate 0.9324), 1.46181-2.07803j (rate 0.9324)
+HEAVY ENUM DONE

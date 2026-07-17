@@ -1,0 +1,10 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+gens: ['a', 'b', 'c'] relators: ['aaaBcbC', 'abABccc']
+H1: Z/3 + Z/3 + Z
+deg candidates: [[0, 1, 0]]
+deg map: [0, 1, 0]
+degree-0 words: ['abAB', 'a', 'c']
+  tr(abAB) = -1.533160756420+2.059062457091j  in Q(sqrt-7)? (False, False)
+  tr(a) = 1.621902133472-0.438121804221j  in Q(sqrt-7)? (False, False)
+  tr(c) = 1.621902133472+0.438121804221j  in Q(sqrt-7)? (False, False)

@@ -20,6 +20,8 @@ from fractions import Fraction
 
 import numpy as np
 import sympy as sp
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 x, t = sp.symbols("x t")
 OUT = []
@@ -289,6 +291,6 @@ log("== banked-battery reproduction (test_b656_digest G1 numbers) ==")
 log("  W(D4) t=5: p=3 and p=7 must be 192/192; "
     "t=7: p=3 must be 96/192, p=5 192/192  (see lines above)")
 
-with open("/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell4/"
+with open(_REPO + "/frontier/B666_leads_campaign/cell4/"
           "cell4_output.txt", "w") as fh:
     fh.write("\n".join(OUT) + "\n")

@@ -1,0 +1,8 @@
+octic factor over Q(sqrt(-7)): z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3
+octic galois-reducibility over Q(i): z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3
+octic disc factored: {2: 4, 3: 1, 7: 5, 617: 2, 977: 2}
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+s464 ptolemy database try:
+  retrieve failed: PtolemyFileMissingError: The ptolemy variety has probably not been computed yet, see https://ptolemy.unhyperbolic.org/data/overview.html (HTTP Error 404: Not Found)

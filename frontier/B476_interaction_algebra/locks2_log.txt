@@ -1,0 +1,8 @@
+(1,2)@15: span=49, ord=(20,12); sectors even:49/64(dim 8), odd:45/49(dim 7); parity-block bound 113; deficit vs sectors = 45
+(1,3)@27: span=147, ord=(36,9); sectors even:128/196(dim 14), odd:123/169(dim 13); parity-block bound 365; deficit vs sectors = 104
+(2,3)@63: span=252, ord=(12,24); sectors even:252/1024(dim 32), odd:252/961(dim 31); parity-block bound 1985; deficit vs sectors = 252
+(2,3)@9: span=17, ord=(12,3); sectors even:15/25(dim 5), odd:13/16(dim 4); parity-block bound 41; deficit vs sectors = 11
+(2,3)@7: span=21, ord=(3,8); sectors even:16/16(dim 4), odd:9/9(dim 3); parity-block bound 25; deficit vs sectors = 4
+(1,3)@3: span=3, ord=(4,1); sectors even:3/4(dim 2), odd:1/1(dim 1); parity-block bound 5; deficit vs sectors = 1
+CRT test @63: factorizes iff span63 == span9 * span7
+LOCKS CONTROLS 2 DONE

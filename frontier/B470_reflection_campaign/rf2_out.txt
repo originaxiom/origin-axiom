@@ -1,0 +1,7 @@
+LETTER n=3: trace field deg 4, disc 392
+LETTER n=4: trace field deg 8, disc 39740416
+LETTER n=5: trace field deg 12, disc 1246254965673561
+LETTER n=6: not found at prec/degree cap
+BODY n=3: not found at prec/degree cap
+BODY n=4: not found at prec/degree cap
+DONE

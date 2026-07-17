@@ -1,0 +1,14 @@
+== m=1: Groebner basis of Fix(T_m^2) + cusp ==
+  linear factor in z: z
+  factor in z: z**2 - 3*z + 3  disc=-3  field=Q(sqrt(-3))
+
+== m=2: Groebner basis of Fix(T_m^2) + cusp ==
+  linear factor in z: z
+  factor in z: z**4 + 16  disc=1048576  field=Q(sqrt(1))
+
+== m=3: Groebner basis of Fix(T_m^2) + cusp ==
+  linear factor in z: z
+  factor in z: z**2 - z + 2  disc=-7  field=Q(sqrt(-7))
+  factor in z: z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3  disc=293150671243880016  field=Q(sqrt(21))
+
+DONE

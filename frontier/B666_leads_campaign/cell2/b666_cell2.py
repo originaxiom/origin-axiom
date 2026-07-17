@@ -58,6 +58,8 @@ import json
 import math
 import os
 import re
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 import time
 from fractions import Fraction as Fr
 
@@ -69,7 +71,7 @@ def log(msg):
 
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = "/Users/dri/origin-axiom"
+REPO = _REPO + ""
 CELLH = os.path.join(REPO, "frontier", "B662_successor_campaign", "cellH")
 CELLC = os.path.join(REPO, "frontier", "B662_successor_campaign", "cellC")
 B637D = os.path.join(REPO, "frontier", "B637_corrected_cell3")

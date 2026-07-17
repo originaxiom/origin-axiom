@@ -1,0 +1,8 @@
+n=1: EXACT REAL point count = 1
+n=2: EXACT REAL point count = 4
+n=3: EXACT REAL point count = 2
+n=4: EXACT REAL point count = 10
+n=5: EXACT REAL point count = 16
+n=6: EXACT REAL point count = 22
+n=7: EXACT REAL point count = 42
+REAL COUNTS DONE

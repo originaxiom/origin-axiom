@@ -1,0 +1,4 @@
+BODY n=2: trace field deg 14, disc -232288138381035603
+BODY n=3: not found (prec 400, degree 32)
+BODY n=4: not found (prec 400, degree 32)
+DONE

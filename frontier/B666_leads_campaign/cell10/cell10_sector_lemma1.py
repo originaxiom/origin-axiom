@@ -58,6 +58,8 @@ import hashlib
 import itertools
 import json
 import math
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 import sys
 import time
 from collections import Counter
@@ -68,12 +70,12 @@ import numpy as np
 import sympy as sp
 from sympy.matrices.normalforms import hermite_normal_form, smith_normal_form
 
-CELL = '/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell10'
-BANKED_TERMS = ('/Users/dri/origin-axiom/frontier/B646_wave2_integration/cc2_packets/'
+CELL = _REPO + '/frontier/B666_leads_campaign/cell10'
+BANKED_TERMS = (_REPO + '/frontier/B646_wave2_integration/cc2_packets/'
                 'next_queue/next_queue/n1_counting/jeffrey_terms.json')
-BANKED_P1 = ('/Users/dri/origin-axiom/frontier/B651_wave3_integration/cc2_packets/'
+BANKED_P1 = (_REPO + '/frontier/B651_wave3_integration/cc2_packets/'
              'promotion_queue/promotion_queue/p1_milgram/p1_certificates.json')
-BANKED_P4 = ('/Users/dri/origin-axiom/frontier/B651_wave3_integration/cc2_packets/'
+BANKED_P4 = (_REPO + '/frontier/B651_wave3_integration/cc2_packets/'
              'promotion_queue/promotion_queue/p4_sectors/p4_results.json')
 
 C6 = np.array([[2, 0, -1, 0, 0, 0], [0, 2, 0, -1, 0, 0], [-1, 0, 2, -1, 0, 0],

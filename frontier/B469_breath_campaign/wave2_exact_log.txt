@@ -1,0 +1,14 @@
+===== m = 1 =====
+  z-eliminant factors: [z, z**2 - 3*z + 3]
+  component F(z)=z (deg 1, disc None): T_m maps into [z]; pointwise-fixed=True
+  component F(z)=z**2 - 3*z + 3 (deg 2, disc -3): T_m maps into [z**2 - 3*z + 3]; pointwise-fixed=False
+===== m = 2 =====
+  z-eliminant factors: [z, z**4 + 16]
+  component F(z)=z (deg 1, disc None): T_m maps into [z]; pointwise-fixed=True
+  component F(z)=z**4 + 16 (deg 4, disc 1048576): T_m maps into [z**4 + 16]; pointwise-fixed=False
+===== m = 3 =====
+  z-eliminant factors: [z, z**2 - z + 2, z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3]
+  component F(z)=z (deg 1, disc None): T_m maps into [z]; pointwise-fixed=True
+  component F(z)=z**2 - z + 2 (deg 2, disc -7): T_m maps into [z**2 - z + 2]; pointwise-fixed=True
+  component F(z)=z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3 (deg 8, disc 293150671243880016): T_m maps into [z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3]; pointwise-fixed=False
+BR3 WAVE2 EXACT DONE

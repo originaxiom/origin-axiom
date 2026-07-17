@@ -7,7 +7,7 @@ from fractions import Fraction
 
 import numpy as np
 
-ROOT = "/Users/dri/origin-axiom"
+ROOT = _REPO + ""
 spec = importlib.util.spec_from_file_location(
     "c3", os.path.join(ROOT, "frontier", "B570_allowed_plays",
                        "c3_e6_level2_monodromy.py"))
@@ -32,6 +32,7 @@ if S[0, 0].real < 0:
 # exact h-values (Fractions)
 C6 = c3.C6
 import sympy as sp
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 Cm = sp.Matrix(C6)
 Cinv = Cm.inv()
 KH = 14

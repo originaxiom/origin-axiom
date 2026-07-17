@@ -1,0 +1,32 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+== L6a4: cusps=3, H1=Z + Z + Z ==
+  8 obstruction classes
+  variety attrs: ['__class__', '__init_subclass__', '__subclasshook__', '_check_obstruction_class_for_precomputed_file', '_identified_variables_from_obstruction', '_obstruction_class']
+   class 0: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 - 1, s_3_0 - 1, s_1_1 - 1, s_2_1 - 1, s_3_1 - 1,')
+   class 1: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 - 1, s_3_0 - 1, s_1_1 + 1, s_2_1 - 1, s_3_1 + 1,')
+   class 2: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 + 1, s_3_0 + 1, s_1_1 - 1, s_2_1 - 1, s_3_1 - 1,')
+   class 3: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 + 1, s_3_0 + 1, s_1_1 + 1, s_2_1 - 1, s_3_1 + 1,')
+   class 4: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 + 1, s_3_0 - 1, s_1_1 - 1, s_2_1 - 1, s_3_1 + 1,')
+   class 5: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 + 1, s_3_0 - 1, s_1_1 + 1, s_2_1 - 1, s_3_1 - 1,')
+   class 6: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 - 1, s_3_0 + 1, s_1_1 - 1, s_2_1 - 1, s_3_1 + 1,')
+   class 7: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 - 1, s_3_0 + 1, s_1_1 + 1, s_2_1 - 1, s_3_1 - 1,')
+== s776: cusps=3, H1=Z + Z + Z ==
+  8 obstruction classes
+  variety attrs: ['__class__', '__init_subclass__', '__subclasshook__', '_check_obstruction_class_for_precomputed_file', '_identified_variables_from_obstruction', '_obstruction_class']
+   class 0: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 - 1, s_3_0 - 1, s_1_1 - 1, s_2_1 - 1, s_3_1 - 1,')
+   class 1: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 - 1, s_3_0 + 1, s_1_1 + 1, s_2_1 - 1, s_3_1 - 1,')
+   class 2: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 + 1, s_3_0 + 1, s_1_1 - 1, s_2_1 - 1, s_3_1 - 1,')
+   class 3: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 + 1, s_3_0 - 1, s_1_1 + 1, s_2_1 - 1, s_3_1 - 1,')
+   class 4: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 + 1, s_3_0 - 1, s_1_1 - 1, s_2_1 + 1, s_3_1 - 1,')
+   class 5: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 + 1, s_3_0 + 1, s_1_1 + 1, s_2_1 + 1, s_3_1 - 1,')
+   class 6: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 - 1, s_3_0 + 1, s_1_1 - 1, s_2_1 + 1, s_3_1 - 1,')
+   class 7: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 - 1, s_3_0 - 1, s_1_1 + 1, s_2_1 + 1, s_3_1 - 1,')
+== m129: cusps=2, H1=Z + Z ==
+  4 obstruction classes
+  variety attrs: ['__class__', '__init_subclass__', '__subclasshook__', '_check_obstruction_class_for_precomputed_file', '_identified_variables_from_obstruction', '_obstruction_class']
+   class 0: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 - 1, s_2_0 - 1, s_3_0 - 1, s_2_1 - 1, s_3_1 - 1, s_2_2 - 1,')
+   class 1: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 + 1, s_2_0 - 1, s_3_0 - 1, s_2_1 - 1, s_3_1 + 1, s_2_2 - 1,')
+   class 2: ('repr', 'PtolemyObstructionClass(s_0_0 - 1, s_1_0 + 1, s_2_0 + 1, s_3_0 - 1, s_2_1 - 1, s_3_1 - 1, s_2_2 + 1,')
+   class 3: ('repr', 'PtolemyObstructionClass(s_0_0 + 1, s_1_0 - 1, s_2_0 + 1, s_3_0 - 1, s_2_1 - 1, s_3_1 + 1, s_2_2 + 1,')
+STERILE INTROSPECT DONE
