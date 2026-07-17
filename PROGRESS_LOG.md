@@ -5591,3 +5591,29 @@ cos2theta = 2-phi, cos72 — all resolve to GR1/GR2/GR3, none equal);
 double-passed the same day by cc2's independent S1a gate. The
 specialist bar (S5.1) remains the only path to the word "novel";
 R21-7 stays open, annotated SWEEP-DONE.
+
+## 2026-07-17 — B660: THE STRUCTURE CAMPAIGN (cc2's S1-S4 verified; wall 10; the gamma5' placement)
+
+Packet seals 8/8 (prereg 711773fe sealed first; post-JUNO rules held —
+no value comparison anywhere). S1 THE GAMMA5' CORRESPONDENCE banked as
+PLACEMENT: the modular-flavor Gamma5' = SL(2,5) paradigm chooses its
+group from a 10-13 catalog and fits 8-10 parameters; the framework
+derives the group (B640/B644), supplies the Galois pair as its one bit
+(GATE B), and carries phi at the same locus — CONSISTENT-NOT-SELECTIVE
++ the upstream claim, stated factually; their independent 1/(2phi)
+lit-gate agrees with B659/C12 (both open, same day). H129: weight 5 =
+level = conductor = disc(A1). S2 THE CP QUESTION: obstructed-convention
+— Y genuinely complex; the C-orbit match Galois-forced (no info); every
+structured K-equivalence dies through an irreducible cubic —
+INDEPENDENTLY RECOMPUTED by this seat (both cubics, separate code,
+irreducible over Q(sqrt-3) confirmed); decisive cell priced (L104);
+the golden sigma*-matrix record gap CONFIRMED (L103). S3 THE
+DIMENSIONFUL NO-GO banked as WALL 10 (theorem-by-assembly; all four
+rows re-checked banked): no mass-dimensional observable is typeable —
+the B615-era nulls retro-explained as typing violations. S4 KOSZUL
+EXTENDS: the sealed symmetry claim corrected in-packet
+(graded-commutativity); the v0-mediated trilinear is antisymmetric
+with the solo-triple block EXACTLY ZERO (verified at artifact level) —
+three walls (Koszul, D1, S4): the hierarchy question is
+cochain/quantum or nothing. chat1's origin docs archived as
+provenance. Locks 4/4.

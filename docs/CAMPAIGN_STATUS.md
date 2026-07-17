@@ -79,6 +79,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
   dossier + six-group sweep (Q-FIELD answered by NEUMANN-REID; the
   1/(2φ) gate OPEN at high confidence, double-passed; specialist bar
   stands).
+- **THE STRUCTURE CAMPAIGN (B660, banked 2026-07-17):** wall 10 (no
+  mass-dimensional observable is typeable — the licensed class is
+  exact dimensionless algebraic data); the γ₅′ correspondence
+  (PLACEMENT: the framework derives what the flavor paradigm
+  postulates); the CP question obstructed-convention (decisive cell =
+  L104); the hierarchy question is cochain/quantum or nothing (three
+  walls).
 - Standing: tracks L (cc2 ladder) and W (L95) event-driven; the next
   review fires on cadence from Review 21's anchor.
 

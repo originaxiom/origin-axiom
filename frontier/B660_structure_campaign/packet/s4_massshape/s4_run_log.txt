@@ -1,0 +1,106 @@
+[    0.0s] STEP 0: exec w1_portal.py verbatim through STEP 4 (B575 prefix; v0; the cubic N/C3; dual Fox machinery + P_of)...
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   75.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   93.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   93.1s] G2a PASS: principal sl2 relations exact
+[   96.9s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   98.4s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   98.4s]   B575 prefix done (98s)
+[   98.4s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[   98.4s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[   99.2s]   relator gate R1: PASS
+[   99.8s]   relator gate R2: PASS
+[  101.1s]   relator gate R3: PASS
+[  101.1s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[  101.3s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  101.3s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[  101.3s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[  101.3s]   v0 invariant under C27 (conjugate holonomy): PASS
+[  101.3s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[  101.3s]   zero-weight-sum sorted triples: 45
+[  101.3s]   invariance equations: 180
+[  101.7s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  101.7s]   nonzero sorted coefficients: 45/45
+[  101.7s]   N-invariance under A27: PASS
+[  101.7s]   N-invariance under B27: PASS
+[  101.7s]   N-invariance under C27: PASS
+[  101.7s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[  105.6s]   dual Fox-derivative matrix built (4s)
+[  105.6s]   cocycle-property spot check on class 0 (before proceeding)...
+[  105.6s]   P(u_0) in Z1(dual): PASS
+[  105.7s]   w1_portal STEP0-4 done (106s)
+[  105.7s]   inherited w1_portal gates: True
+[  105.7s] STEP 1: v0bar = the H^0(D;27-bar) invariant (dual mirror of v0)...
+[  105.8s]   joint dual-nullspace dim = 1  [GATE dim=1]: PASS
+[  105.8s]   v0bar invariant under dacts('a'),dacts('b') [by construction] and dacts('c') [gate]: PASS
+[  105.8s]   L=dot(v0bar,.) nonzero on a generic test vector: True
+[  105.8s] STEP 2: beta_v0(x,y) := N(v0,x,y) = dot(C3(v0,x),y) -- invariant SYMMETRIC bilinear form on 27 (pull-back of the totally symmetric cubic through v0)...
+[  105.8s]   beta_v0(x,y) == beta_v0(y,x) on test vectors: PASS
+[  105.8s]   beta_v0 G-invariant under a,b,c: True {'a': True, 'b': True, 'c': True}
+[  105.8s] STEP 3: the corrected relator-chain cup evaluator (cell3b_stage2.py pattern) with beta_v0 substituted for G_orig; psi = the H^2 quotient functional (abelianized-relator-matrix nullspace, same as stage2)...
+[  108.6s]   H^2 quotient functionals: 1  [GATE: expect 1]: PASS
+[  108.6s] STEP 4: THE 5x5 MATRIX  M_ij = [c(u_i,u_j)]_{H^2(D;C)}  via beta_v0 (the v0-mediated pairing) -- BLIND BANK before symmetry check...
+[  122.4s]     [0, 0, 0, (3+1*sqrt(-3)), 0]
+[  122.4s]     [0, 0, (-3+1*sqrt(-3)), (1/8-1/24*sqrt(-3)), 0]
+[  122.4s]     [0, (3-1*sqrt(-3)), 0, 0, 0]
+[  122.4s]     [(-3-1*sqrt(-3)), (-1/8+1/24*sqrt(-3)), 0, 0, 0]
+[  122.4s]     [0, 0, 0, 0, 0]
+[  122.4s]   M symmetric: False; M antisymmetric: True
+[  122.4s]   FINDING: M comes out ANTIsymmetric, not symmetric -- Koszul graded-commutativity for a cup product through a SYMMETRIC invariant pairing (beta_v0 IS symmetric, gated above) forces this at the bare H^2(u,v) level, exactly mirroring cell3b_stage2.py's own G_orig finding. Reporting this honestly per the cell's instruction; the (i,j)-symmetric object the prereg calls for is NOT this raw M -- see the write-up. Proceeding to complete every other requested gate/computation on M as banked (the eigenstructure machinery is agnostic to symmetric vs antisymmetric input).
+[  122.4s] STEP 5: GATE -- the exact 2-cocycle identity delta c = 0 on the generators, for one pair (u,v) = (classes[2], classes[3])...
+[  122.6s]     delta c[a,b,c] = 0 : PASS
+[  122.9s]     delta c[b,a,c] = 0 : PASS
+[  123.2s]     delta c[a,A,b] = 0 : PASS
+[  123.6s]     delta c[a,b,a] = 0 : PASS
+[  123.9s]     delta c[c,b,A] = 0 : PASS
+[  123.9s] STEP 6: kappa(w) -- the H^1(D;C_triv) trivialization of w via w~(g)=L(w(g)) (b_1(D) gated =1)...
+[  123.9s]   b1(D) [trivial-coefficient control] = 1  [GATE: expect 1]: PASS
+[  123.9s]     kappa(u_0) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  123.9s]     kappa(u_1) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  123.9s]     kappa(u_2) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  123.9s]     kappa(u_3) = 0   [w~ in Hom(D,C), proportional to chi]: PASS
+[  123.9s]     kappa(u_4) = 1   [w~ in Hom(D,C), proportional to chi]: PASS
+[  123.9s] STEP 7: T(u_i,u_j;w_k) = kappa(w_k) * M_ij -- the 5 slices, restricted to the solo triple {2,3,4} (B637's split)...
+[  123.9s]   M^w=0 solo {2,3,4} slice:
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]   M^w=1 solo {2,3,4} slice:
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]   M^w=2 solo {2,3,4} slice:
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]   M^w=3 solo {2,3,4} slice:
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]   M^w=4 solo {2,3,4} slice:
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s]       [0, 0, 0]
+[  123.9s] STEP 8: eigen-structure of each 3x3 solo slice over K=Q(sqrt(-3))...
+[  123.9s]   slice w=u_0: charpoly = lambda^3 + (0)lambda^2 + (0)lambda + (0);  disc = 0;  VERDICT = ZERO
+[  123.9s]   slice w=u_1: charpoly = lambda^3 + (0)lambda^2 + (0)lambda + (0);  disc = 0;  VERDICT = ZERO
+[  123.9s]   slice w=u_2: charpoly = lambda^3 + (0)lambda^2 + (0)lambda + (0);  disc = 0;  VERDICT = ZERO
+[  123.9s]   slice w=u_3: charpoly = lambda^3 + (0)lambda^2 + (0)lambda + (0);  disc = 0;  VERDICT = ZERO
+[  123.9s]   slice w=u_4: charpoly = lambda^3 + (0)lambda^2 + (0)lambda + (0);  disc = 0;  VERDICT = ZERO
+[  123.9s] 
+  SEALED QUESTION -- does any slice have three distinct eigenvalues: False
+[  123.9s] STEP 9: CONTROLS...
+[  128.7s]   coboundary shift of u (class 2) leaves M[2][*] unchanged: True  (per-j: [True, True, True, True, True])
+[  128.7s]   exactness: K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats anywhere in the S4 path: PASS by construction
+[  128.7s]   Y-consistency: antisymmetrizing T_ijk over all 3 indices...
+[  128.7s]   fully antisymmetrized T on sample index triples: {(2, 3, 4): '0', (0, 1, 2): '0', (1, 2, 3): '0', (0, 2, 4): '0'}
+[  128.7s]   NOTE: the banked B637 Y[ijk] (ADJUDICATION_NOTE_B637.md point 4, b637_threeform.py) lives on a DIFFERENT group presentation (B637's 4-generator weld amalgam with explicit peripheral mu/lambda certificate data) than cell3_double's 3-generator 'plain double' D used here (same stage1_classes.pkl basis as cell3b_stage2.py, NOT independently basis-matched against B637's 'reps' list anywhere in the banked record). A numeric class-index identification (banked_Y[ijk] <-> this antisym3(i,j,k)) is therefore NOT available; the consistency check performed is INTERNAL: whether antisymmetrizing T_ijk over all three slots gives a nonzero alternating tensor at all (structurally the same SHAPE of object Y occupies -- Lambda^3 of a 5-dim space) is reported above as the achievable relation.
+[  128.7s] 
+ALL GATES PASS: False
+[  128.7s] VERDICT: ZERO
+[  128.7s] saved <seat-workdir>/structure_queue/s4_massshape/s4_matrices.json
+[  128.7s] DONE.
+EXIT_CODE=0

@@ -1,0 +1,26 @@
+# ORIGINALS_MANIFEST — cc2's structure packet (OA_CC2_structure_20260717.zip) +
+# chat1's origin docs (files_1.zip: the dark-sector campaign design the
+# invariant-line campaign corrected — archived as provenance context).
+# sha256 AS RECEIVED (before the disclosed privacy patches):
+01e9834b92f93495a9070688ff0dbe9d5ca4b899218288e862e8d02cca04431f  origin_docs/DARK_SECTOR_CAMPAIGN.md
+aff589e93cbf82cd56cd73d187b52f74bb5ea99480d88cb96f478e8d1f6cd12a  origin_docs/DARK_SECTOR_WAVE1_HANDOFF.md
+100db309b0716b59cf89236ccb92dd5950fde0b689cc9adc5259a3f214adda9c  packet/PACKET_README.md
+711773fe705a067f9415f2fd6e9a823de7679dff5aad288ff736a0d1db3e79d6  packet/PREREG_SQ.md
+920ec453e3c8fa47bf2ddc81450bb10e571d6eb8a3c1f988416fe622def90342  packet/SEALS.txt
+0a18fb689157f274f8fc8fb7e2ea22e1c5a9644b515343741f1a630d6b0220d1  packet/STATUS.md
+806a4951bbd970e21edc68e4665df14f9a13ac027a055f0b9de6b11fd26b08b7  packet/s1_gamma5/EXTRACT_S1B.md
+b37eb321394cd3b718c3b2c8298e2369685e9578c98f975fef05c624833599a9  packet/s1_gamma5/FINDINGS_CC2.md
+6d503ae91e9d5a15860ae743c5c1cffd08a1fef1e55de79f5883b81b12b82bd1  packet/s1_gamma5/FINDINGS_S1A.md
+1255c9e887d8db15910a52d75d0947687493a95a4af1d4a6477c80db0f2fd33e  packet/s1_gamma5/LIT_GATE_S1.md
+cb96b5953e32c21600e466bbb80d1d0c292b974fc3b4cb75f2956b912d3dab84  packet/s2_cp/FINDINGS_CC2.md
+ae2ece4319b295d40cf6d70ac1de1eaffe60bc9d339faa8b127bc96096c86728  packet/s2_cp/s2_cp.py
+39cca05960fcba83540a85aa05c64b90cc60a4cf778458b6e9f40823e9376951  packet/s2_cp/s2_results.json
+f774c3bc3177efd19a771a7ace3708f5f327fb544d9dd8aff944e50c1ec426cd  packet/s2_cp/s2_run.log
+32239a4da5fe458608b86cd0de45dd65805388825d659f5ec996b0c204207472  packet/s3_nogo/NOGO_NOTE.md
+b3e7b60c90d8bef84717ee60d714209ca7c51f3635bb6f578cbfebeda94c9285  packet/s4_massshape/FINDINGS_CC2.md
+445dbfc7585ab247f8d6f4fae072d2716f12aa6930a336c1665fb3a1c890589e  packet/s4_massshape/s4_massshape.py
+5854a85e42daec3b27181f0735aa8100d7424d5f2ba233cd9d9d76b46c3bcc59  packet/s4_massshape/s4_matrices.json
+53455434a31827e728ea678e1df7d72aa639396a2e3e197797c841213ae5b35d  packet/s4_massshape/s4_run.log
+
+# DISCLOSED PATCHES: seat paths -> <repo>/<seat-workdir>; model names -> 'subagent'/'<model>';
+# run logs renamed *.log -> *_log.txt. No other byte changed. Packet SEALS 8/8 on receipt.

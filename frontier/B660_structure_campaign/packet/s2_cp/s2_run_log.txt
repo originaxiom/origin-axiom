@@ -1,0 +1,75 @@
+[   0.08s] === CONTROL 1: alternating property ===
+[   0.09s] alternating (Y[perm(ijk)] = sign(perm)*Y[ijk] for all 60 perms of distinct triples): True
+[   0.10s] === CONTROL 2: Ybar != Y entrywise (else CONVENTION-TRIVIAL) ===
+[   0.10s]   Y(0, 1, 2): a=0, b=0 (b!=0 => Ybar!=Y here): SAME
+[   0.10s]   Y(0, 1, 3): a=0, b=0 (b!=0 => Ybar!=Y here): SAME
+[   0.10s]   Y(0, 1, 4): a=0, b=0 (b!=0 => Ybar!=Y here): SAME
+[   0.22s]   Y(0, 2, 3): a=-7983360/13, b=2661120/13 (b!=0 => Ybar!=Y here): DIFFERENT
+[   0.22s]   Y(0, 2, 4): a=0, b=0 (b!=0 => Ybar!=Y here): SAME
+[   0.22s]   Y(0, 3, 4): a=0, b=2/3 (b!=0 => Ybar!=Y here): DIFFERENT
+[   0.23s]   Y(1, 2, 3): a=0, b=221760/13 (b!=0 => Ybar!=Y here): DIFFERENT
+[   0.23s]   Y(1, 2, 4): a=0, b=2/3 (b!=0 => Ybar!=Y here): DIFFERENT
+[   0.24s]   Y(1, 3, 4): a=1/24, b=1/72 (b!=0 => Ybar!=Y here): DIFFERENT
+[   0.24s]   Y(2, 3, 4): a=5332879641600/13, b=8106192460800/13 (b!=0 => Ybar!=Y here): DIFFERENT
+[   0.24s] Ybar != Y entrywise on every nonzero component: True (all 6 nonzero components have b!=0, so conjugation is NONTRIVIAL on Y)
+[   0.24s] === INVARIANT (a): rank of the flattening/contraction map V -> Lambda^2 V* ===
+[   0.82s] rank(M_Y)    = 5
+[   0.82s] rank(M_Ybar) = 5
+[   0.82s] === INVARIANT (b): kernel of the contraction map (left nullspace of M) ===
+[   1.28s] dim ker(kappa_Y)    = 0
+[   1.28s] dim ker(kappa_Ybar) = 0
+[   1.28s] === INVARIANT (c/d): symbolic-v contraction, 5x5 antisymmetric A(v); reduced Pfaffians ===
+[   1.34s]   Pf_0(v; Y)    = 5322240*v0*v2/13 + 5322240*sqrt(3)*I*v0*v2/13 - 4*v0*v4/3
+[   1.34s]   Pf_1(v; Y)    = -5322240*v1*v2/13 - 5322240*sqrt(3)*I*v1*v2/13 + 4*v1*v4/3
+[   1.34s]   Pf_2(v; Y)    = 5322240*v2**2/13 + 5322240*sqrt(3)*I*v2**2/13 - 4*v2*v4/3
+[   1.34s]   Pf_3(v; Y)    = -5322240*v2*v3/13 - 5322240*sqrt(3)*I*v2*v3/13 + 4*v3*v4/3
+[   1.34s]   Pf_4(v; Y)    = 5322240*v2*v4/13 + 5322240*sqrt(3)*I*v2*v4/13 - 4*v4**2/3
+[   1.35s]   Pf_0(v; Ybar) = 5322240*v0*v2/13 - 5322240*sqrt(3)*I*v0*v2/13 - 4*v0*v4/3
+[   1.35s]   Pf_1(v; Ybar) = -5322240*v1*v2/13 + 5322240*sqrt(3)*I*v1*v2/13 + 4*v1*v4/3
+[   1.35s]   Pf_2(v; Ybar) = 5322240*v2**2/13 - 5322240*sqrt(3)*I*v2**2/13 - 4*v2*v4/3
+[   1.35s]   Pf_3(v; Ybar) = -5322240*v2*v3/13 + 5322240*sqrt(3)*I*v2*v3/13 + 4*v3*v4/3
+[   1.35s]   Pf_4(v; Ybar) = 5322240*v2*v4/13 - 5322240*sqrt(3)*I*v2*v4/13 - 4*v4**2/3
+[   1.40s] All 5 reduced Pfaffians identically zero for Y:    False
+[   1.40s] All 5 reduced Pfaffians identically zero for Ybar: False
+[   1.69s] rank of the quadric-system coefficient matrix (Y):    5 / 5
+[   1.69s] rank of the quadric-system coefficient matrix (Ybar): 5 / 5
+[   1.69s] === Classical orbit identification for trivectors on C^5 ===
+[   1.69s] Fact (classical, e.g. Gurevich/Sato-Kimura prehomogeneous vector space classification): GL(5,C) acting on Lambda^3(C^5)* has FINITELY MANY orbits, and the natural GL(5)-equivariant isomorphism Lambda^3 V* ~= Lambda^2 V (x) (Lambda^5 V*) identifies these orbits with the classical rank stratification of bivectors on 5-space: rank 0 (zero), rank 2 (decomposable, e.g. e0^e1^e2 under the duality), rank 4 (generic/open orbit, e.g. e0^e1^e2 + e0^e3^e4 or any trivector with reduced Pfaffians not all identically zero).
+[   1.69s] Y orbit type:    GENERIC/OPEN orbit (rank-4 type): reduced Pfaffians not identically zero
+[   1.69s] Ybar orbit type: GENERIC/OPEN orbit (rank-4 type): reduced Pfaffians not identically zero
+[   1.69s] All coarse invariants match between Y and Ybar: True
+[   1.69s] Galois-stability remark: every invariant above is the vanishing/non-vanishing of a polynomial in the entries of Y with INTEGER coefficients (minors, sub-Pfaffians, ranks of their coefficient matrices). A field automorphism (here r -> -r) sends such a polynomial's value to its own image under the automorphism, and 0 maps to 0 only under itself -- so x=0 in K iff conjugate(x)=0 in K. Hence EVERY discrete algebraic stratification invariant (rank, degeneracy loci) is automatically Galois-INVARIANT: Y and Ybar are FORCED to lie in the same GL(5,C)-orbit whenever there are only finitely many orbits (as here). This is why the computed match above was expected a priori, and why it does NOT by itself resolve CONVENTION vs FORCED -- the real question is K-rationality of an equivalence, not the C-orbit.
+[   1.69s] === STEP 3: structured search for g in GL(5,K) with g.Y = Ybar ===
+[   1.69s] Zero-pattern analysis: nonzero triples are {023,034,123,124,134,234}; zero triples are {012,013,014,024}. The only PAIR never covered by any nonzero triple is {0,1}. A signed-permutation (monomial) g must send this pattern to itself (Ybar shares Y's zero pattern exactly, since conjugation cannot turn a nonzero K-element into zero). This forces tau(0)=0, tau(1)=1, tau(3)=3, and tau in {id, (2 4)} on the remaining pair.
+[   1.82s]   rho[(0, 2, 3)] = Ybar[(0, 2, 3)]/Y[(0, 2, 3)] = 1/2 + sqrt(3)*I/2
+[   1.82s]   rho[(0, 3, 4)] = Ybar[(0, 3, 4)]/Y[(0, 3, 4)] = -1
+[   1.82s]   rho[(1, 2, 3)] = Ybar[(1, 2, 3)]/Y[(1, 2, 3)] = -1
+[   1.82s]   rho[(1, 2, 4)] = Ybar[(1, 2, 4)]/Y[(1, 2, 4)] = -1
+[   1.82s]   rho[(1, 3, 4)] = Ybar[(1, 3, 4)]/Y[(1, 3, 4)] = 1/2 - sqrt(3)*I/2
+[   1.82s]   rho[(2, 3, 4)] = Ybar[(2, 3, 4)]/Y[(2, 3, 4)] = (157457 - 239341*sqrt(3)*I)**2/196645049692
+[   1.82s] --- monomial ansatz: identity permutation (pure diagonal) ---
+[   1.93s]     d0*d2*d3 = 1/2 + sqrt(3)*I/2   [from triple (0, 2, 3), preimage (0, 2, 3), sign 1]
+[   1.93s]     d0*d3*d4 = -1   [from triple (0, 3, 4), preimage (0, 3, 4), sign 1]
+[   1.93s]     d1*d2*d3 = -1   [from triple (1, 2, 3), preimage (1, 2, 3), sign 1]
+[   1.93s]     d1*d2*d4 = -1   [from triple (1, 2, 4), preimage (1, 2, 4), sign 1]
+[   1.93s]     d1*d3*d4 = 1/2 - sqrt(3)*I/2   [from triple (1, 3, 4), preimage (1, 3, 4), sign 1]
+[   1.93s]     d2*d3*d4 = (157457 - 239341*sqrt(3)*I)**2/196645049692   [from triple (2, 3, 4), preimage (2, 3, 4), sign 1]
+[   1.93s]     elimination gives: d4^3 = -(1 - sqrt(3)*I)*(157457 - 239341*sqrt(3)*I)**2/393290099384
+[   1.96s]     factorization of X^3 - c over K=Q(sqrt(-3)): (1, [(X**3 - 46646891377/49161262423 + 8960975540*sqrt(3)*I/49161262423, 1)])
+[   1.96s]     X^3 - c is IRREDUBLE-OR-NO-LINEAR-FACTOR over K: no d4 in K solves this monomial ansatz (cube root not in K).
+[   1.96s] --- monomial ansatz: transposition (2 4) ---
+[   2.12s]     d0*d2*d3 = sqrt(3)*I*(-7983360 - 2661120*sqrt(3)*I)/26   [from triple (0, 2, 3), preimage (0, 3, 4), sign -1]
+[   2.12s]     d0*d3*d4 = (13 - 13*sqrt(3)*I)/15966720   [from triple (0, 3, 4), preimage (0, 2, 3), sign -1]
+[   2.12s]     d1*d2*d3 = (3991680 + 3991680*sqrt(3)*I)/13   [from triple (1, 2, 3), preimage (1, 3, 4), sign -1]
+[   2.12s]     d1*d2*d4 = 1   [from triple (1, 2, 4), preimage (1, 2, 4), sign -1]
+[   2.12s]     d1*d3*d4 = 13*sqrt(3)*I*(3 - sqrt(3)*I)/47900160   [from triple (1, 3, 4), preimage (1, 2, 3), sign -1]
+[   2.12s]     d2*d3*d4 = (73529817997 + 37685915837*sqrt(3)*I)/98322524846   [from triple (2, 3, 4), preimage (2, 3, 4), sign -1]
+[   2.12s]     elimination gives: d4^3 = -169*(1 - sqrt(3)*I)**2*(19763964757 - 55607866917*sqrt(3)*I)/15393125226949662325560311808000
+[   2.16s]     factorization of X^3 - c over K=Q(sqrt(-3)): (1, [(X**3 - 7883324642713/1924140653368707790695038976000 + 6883658483*sqrt(3)*I/8746093878948671775886540800, 1)])
+[   2.16s]     X^3 - c is IRREDUBLE-OR-NO-LINEAR-FACTOR over K: no d4 in K solves this monomial ansatz (cube root not in K).
+[   2.16s] === deck-swap involution sigma* ===
+[   2.16s] FINDINGS.md line ~230 records only a CONJECTURED, UNPROVEN mechanism ('the swap involution of the double ... Y(sigma.,sigma.,sigma.) = -Y'); no explicit matrix for sigma* on the 5-dim H^1 is banked anywhere in B637_corrected_cell3/*.py (grep across the directory: zero hits for an explicit sigma matrix). Even taken at face value, g=sigma would give g.Y = -Y, not Ybar: componentwise -Y = (-a,-b) vs Ybar = (a,-b), which agree only when a=0, false for the (023) component (a=-7983360/13). So sigma* alone is NOT the required g, and no explicit matrix is accessible to combine it with a further scaling. NOT-ACCESSIBLE.
+[   2.16s] === VERDICT ===
+[   2.16s] Y and Ybar match on every computed coarse GL(5,C)-orbit invariant (rank of the contraction map, kernel dimension, reduced-Pfaffian vanishing pattern, quadric-system rank) -- as forced a priori by Galois-stability of these algebraic invariants given the classical FINITE-ORBIT theorem for trivectors on 5-space. So Y and Ybar are in the SAME GL(5,C)-orbit (both generic/open, rank-4 type). The structured GL(5,K)-equivalence search (diagonal, the unique zero-pattern-preserving monomial alternative, the conjectured deck-swap) did NOT produce an explicit g in GL(5,K) with g.Y = Ybar (see factorization results above), nor does the deck-swap by itself supply one. This is the honest partial: K-rationality of the C-orbit-equivalence is UNDECIDED by these means.
+[   2.16s] VERDICT = DEGENERATE-INDISTINGUISHABLE
+[   2.16s] What would decide it: either (i) a full unrestricted Groebner-basis solve of the cubic polynomial system g^{(3)}.Y = Ybar in all 25 entries of g over K (attempted structured ansatze only, for tractability), or (ii) an arithmetic invariant of the K-orbit (e.g. a discriminant/resolvent of the stabilizer, or the specific number field generated by solving the diagonal/monomial cubic above) proven to differ between Y and Ybar's K-orbits under EVERY g, not just the structured ansatze tried.

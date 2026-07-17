@@ -6,6 +6,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B660: the structure campaign (wall 10; the γ₅′ placement; the CP obstruction)
+
+### Added
+- **Wall 10 — the dimensionful no-go** (theorem-by-assembly): no
+  mass-dimensional observable is typeable; B615-era nulls
+  retro-explained as typing violations.
+- **The γ₅′ correspondence** (PLACEMENT): the framework derives what
+  the modular-flavor paradigm postulates (group, Galois pair, level-5);
+  both 1/(2φ) lit-gates open, independently, same day.
+- S2's CP obstruction independently recomputed (both cubics
+  irreducible over ℚ(√−3)); L103 (σ*-record gap) + L104 (the decisive
+  CP cell) opened; S4: the v₀-mediated trilinear solo block is exactly
+  zero — three walls say the hierarchy is cochain/quantum or nothing.
+- Locks: tests/test_b660_structure.py (4).
+
 ## 2026-07-17 — B659: the novelty dossier + the six-group literature sweep (R21-7 sweep phase done)
 
 ### Added
