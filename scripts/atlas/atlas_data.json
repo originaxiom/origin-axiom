@@ -13682,6 +13682,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B674": {
+   "slug": "generation leg",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B67": {
    "slug": "figure eight apolynomial",
    "motifs": [
