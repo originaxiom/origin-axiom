@@ -1,0 +1,32 @@
+F.F                                                                      [100%]
+=================================== FAILURES ===================================
+_____________ test_theta_is_the_blockscalar_in_the_geometric_basis _____________
+
+    def test_theta_is_the_blockscalar_in_the_geometric_basis():
+        # S^-1 theta S = (+)_m (-1)^{m+1} Id_{2m+1}, the full 78x78 identity (Schur made exact)
+>       assert theta_chain_blockscalar_residual() < mp.mpf(10) ** -60
+E       AssertionError: assert mpf('1.147943701974890144500719274631099294744791e-41') < (mpf('10.0') ** -60)
+E        +  where mpf('1.147943701974890144500719274631099294744791e-41') = theta_chain_blockscalar_residual()
+E        +  and   mpf('10.0') = <class 'mpmath.ctx_mp_python.mpf'>(10)
+E        +    where <class 'mpmath.ctx_mp_python.mpf'> = mp.mpf
+
+frontier/B666_leads_campaign/cell5/b353_unfixed_asof_HEAD.py:17: AssertionError
+________ test_hyperelliptic_action_equals_theta_with_gauge_certificate _________
+
+    def test_hyperelliptic_action_equals_theta_with_gauge_certificate():
+        # J(z0) = (-1)^{m+1} z0 + d0(v): eigenvalue exact, explicit-coboundary residual at the floor
+        for m in EXPONENTS:
+            lam, resid = hyperelliptic_certificate(m)
+            assert abs(lam.imag) < mp.mpf(10) ** -30, (m, lam)
+            assert abs(lam.real - SIGN[m]) < mp.mpf(10) ** -30, (m, lam)
+>           assert resid < mp.mpf(10) ** -40, (m, resid)
+E           AssertionError: (1, mpf('3.491266240400919032833843069781095628513438e-40'))
+E           assert mpf('3.491266240400919032833843069781095628513438e-40') < (mpf('10.0') ** -40)
+E            +  where mpf('10.0') = <class 'mpmath.ctx_mp_python.mpf'>(10)
+E            +    where <class 'mpmath.ctx_mp_python.mpf'> = mp.mpf
+
+frontier/B666_leads_campaign/cell5/b353_unfixed_asof_HEAD.py:31: AssertionError
+=========================== short test summary info ============================
+FAILED frontier/B666_leads_campaign/cell5/b353_unfixed_asof_HEAD.py::test_theta_is_the_blockscalar_in_the_geometric_basis
+FAILED frontier/B666_leads_campaign/cell5/b353_unfixed_asof_HEAD.py::test_hyperelliptic_action_equals_theta_with_gauge_certificate
+2 failed, 1 passed, 7 deselected in 9.56s

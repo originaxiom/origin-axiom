@@ -1,189 +1,110 @@
 ========================================================================
-PART 0 — the E6 level-2 stage (banked build: B570-C3 / B594) + gates
+PART A — THE E6 LEVEL-2 LANDSCAPE
 ========================================================================
-c = 78/7; c/24 = 13/28
-h: {'1': '0', '27': '13/21', '27b': '13/21', '351p': '4/3', '351pb': '4/3', '650': '9/7', '78': '6/7', '351': '25/21', '351b': '25/21'}
-gates: unitary 3.3e-14  symmetric 0.0e+00  (ST)^3=S^2 9.0e-14  S^2=theta-flip 3.4e-14
-EXACT: h(la) = h(conj la) on all three pairs -> T preserves the
-theta-split; [T,C] = 0 and C = S^2 => EVERY word in R,L is
-block-diagonal in the theta-split (structural, exact).
+|W(E6)| = 51840 (exact)
+GATES: S unitary 3.3e-14, symmetric 0.0e+00; (ST)^3 = S^2: True; S^2 = theta-flip conjugation: True
+GATE: theta-odd 3-space invariant under R and L: off-block 1.0e-14
 
-========================================================================
-PART 1 — exact T-phase arithmetic on the odd 3-space (Fractions)
-========================================================================
-  pair    27: T-phase alpha = 13/84 = zeta_84^13
-  pair  351p: T-phase alpha = 73/84 = zeta_84^73
-  pair   351: T-phase alpha = 61/84 = zeta_84^61
-pairwise differences: ['2/7', '3/7', '1/7']  -> ALL in (1/7)Z  => modulus period divides 7 (EXACT)
-R^7 on the odd space: phases 7*beta mod 84 = [7] -> ALL equal 7
-  => rho_odd(R^7) = zeta_12 * I EXACTLY (the scalar mechanism —
-     the E6 analog of the golden stage's rho_odd(R^5) = zeta_3^2 I).
-  (golden check, B664 phases 2/15, 8/15: 5*beta mod 15 = [10])
+== A2: the exact theta-odd T-phases (sympy Rational) ==
+  pair    27: h = 13/21,  t = e^(2 pi i 13/84) = zeta_84^13
+  pair  351p: h = 4/3,  t = e^(2 pi i 73/84) = zeta_84^73
+  pair   351: h = 25/21,  t = e^(2 pi i 61/84) = zeta_84^61
+  c = 78/7, c/24 = 13/28 (exact)
+  pairwise phase ratios: ['5/7', '4/7', '6/7'] — orders [7, 7, 7]
+  => |tr_odd(R^(n-2) L)|^2 = sum c_j cbar_i (t_j/t_i)^(n-2) has EXACT
+     period 7 in n (all ratios are PRIMITIVE 7th roots).  The E6
+     stage conductor kappa = 14 enters through its ODD PRIME 7;
+     the 2-part is modulus-invisible (a central phase).
+  t_j^7 = e^(2 pi i 1/12) for ALL three j: True  => R^7 acts as the SCALAR zeta_12 on the theta-odd 3-space
+  t(27) = zeta_84^13 has order 84 => full-value (reality) period 84 = 6*kappa
 
-========================================================================
-PART 2 — the EXACT S-matrix in Q(zeta_84) and the exact X_jj
-========================================================================
-EXACT (S_un S_un^dag)_00 = 22588608  (target 3*14^6 = 22588608)
-EXACT: S^2 = N^2 * C (theta-flip) — all 81 entries, zero residue.
-exact odd block vs numeric stage build: max dev = 1.75e-14
-EXACT: Gauss sum g7^2 = -7 (g7 = i sqrt7 branch checked numerically: +0.000000+2.645751j)
+== A3: the EXACT landscape values (integer cyclotomics mod Phi_84) ==
+  exact norm^2 = 22588608 (numeric 22588608.000000: match True)
+  exact X_jj (theta-odd diag of S-bar T-bar S) cross-checked vs numerics: OK
 
-THE EXACT DIAGONAL COEFFICIENTS (the closed form's ingredients):
-  X_11 (   27) = (2/sqrt7) sin(2pi*1/7) * zeta_84^5   [EXACT, zero residue mod Phi_84]
-  X_22 ( 351p) = (2/sqrt7) sin(2pi*3/7) * zeta_84^83   [EXACT, zero residue mod Phi_84]
-  X_33 (  351) = (2/sqrt7) sin(2pi*2/7) * zeta_84^17   [EXACT, zero residue mod Phi_84]
-  => the odd-diagonal of L IS the Z/7 SINE KERNEL (B589/B594's
-     hearing amplitudes) times exact 84th roots of unity.
+  the seven EXACT values |tr_odd(R^(n-2)L)|^2, n mod 7:
+    n = 3 (n mod 7 = 3):  |tr_odd|^2 = 1   |tr_odd| = 1
+    n = 4 (n mod 7 = 4):  |tr_odd|^2 = 1   |tr_odd| = 1
+    n = 5 (n mod 7 = 5):  |tr_odd|^2 = 2   |tr_odd| = sqrt(2)
+    n = 6 (n mod 7 = 6):  |tr_odd|^2 = 0   |tr_odd| = 0
+    n = 7 (n mod 7 = 0):  |tr_odd|^2 = 1   |tr_odd| = 1
+    n = 8 (n mod 7 = 1):  |tr_odd|^2 = 0   |tr_odd| = 0
+    n = 9 (n mod 7 = 2):  |tr_odd|^2 = 2   |tr_odd| = sqrt(2)
+  => THE E6 THREE-VALUE THEOREM (exact): |tr_odd| takes EXACTLY the
+     values {0, 1, sqrt2} on the metallic family, period 7:
+     n mod 7: 0 -> 1, +-1 -> 0 (DEAF), +-2 -> sqrt2, +-3 -> 1
+     (palindromic about n = 0 mod 7; the deaf residues are +-1).
 
-THE CLOSED FORM (exact, from T-diagonality of the odd block):
-  tr_odd(R^{n-2}L) = sum_j zeta_84^{beta_j (n-2)} X_jj,
-  beta = [13, 73, 61], X_jj as above — a THREE-term exponential sum
-  (golden stage: TWO-term).  sum_j |X_jj|^2 = (4/7)(s1^2+s2^2+s3^2) = 1.
+== A4: the landscape n = 3..44 (direct matrix product; 1e-9 gates) ==
+  three-term sum == direct matrix product, 42/42: True
+  |tr_odd| == exact-theorem pattern (period 7), 42/42: True
+  n = 3..44: |tr_odd| by n: 1 1 sqrt2 0 1 0 sqrt2 1 1 sqrt2 0 1 0 sqrt2 ...
+  REAL tr_odd at n = [3, 6, 8, 13, 15, 20, 21, 22, 27, 29, 34, 36, 39, 41, 43] (residues mod 84 — the full-value lattice)
 
-========================================================================
-PART 3 — the landscape n = 3..40 (and to 170): values and period
-========================================================================
-  n=  3  |tr_odd| = 1.000000000  [one ]  tr = +1.000000+0.000000j
-  n=  4  |tr_odd| = 1.000000000  [one ]  tr = -0.866025-0.500000j
-  n=  5  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.395644+0.228425j
-  n=  6  |tr_odd| = 0.000000000  [deaf]  tr = -0.000000-0.000000j
-  n=  7  |tr_odd| = 1.000000000  [one ]  tr = +0.500000-0.866025j
-  n=  8  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
-  n=  9  |tr_odd| = 1.414213562  [sqrt2]  tr = +0.500000+1.322876j
-  n= 10  |tr_odd| = 1.000000000  [one ]  tr = +0.866025+0.500000j
-  n= 11  |tr_odd| = 1.000000000  [one ]  tr = -0.500000-0.866025j
-  n= 12  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.322876-0.500000j
-  n= 13  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000-0.000000j
-  n= 14  |tr_odd| = 1.000000000  [one ]  tr = +0.866025-0.500000j
-  n= 15  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
-  n= 16  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.228425+1.395644j
-  n= 17  |tr_odd| = 1.000000000  [one ]  tr = +0.500000+0.866025j
-  n= 18  |tr_odd| = 1.000000000  [one ]  tr = -0.000000-1.000000j
-  n= 19  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.895644-1.094451j
-  n= 20  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000-0.000000j
-  n= 21  |tr_odd| = 1.000000000  [one ]  tr = +1.000000-0.000000j
-  n= 22  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
-  n= 23  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.895644+1.094451j
-  n= 24  |tr_odd| = 1.000000000  [one ]  tr = -0.000000+1.000000j
-  n= 25  |tr_odd| = 1.000000000  [one ]  tr = +0.500000-0.866025j
-  n= 26  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.228425-1.395644j
-  n= 27  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000-0.000000j
-  n= 28  |tr_odd| = 1.000000000  [one ]  tr = +0.866025+0.500000j
-  n= 29  |tr_odd| = 0.000000000  [deaf]  tr = -0.000000+0.000000j
-  n= 30  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.322876+0.500000j
-  n= 31  |tr_odd| = 1.000000000  [one ]  tr = -0.500000+0.866025j
-  n= 32  |tr_odd| = 1.000000000  [one ]  tr = +0.866025-0.500000j
-  n= 33  |tr_odd| = 1.414213562  [sqrt2]  tr = +0.500000-1.322876j
-  n= 34  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
-  n= 35  |tr_odd| = 1.000000000  [one ]  tr = +0.500000+0.866025j
-  n= 36  |tr_odd| = 0.000000000  [deaf]  tr = -0.000000+0.000000j
-  n= 37  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.395644-0.228425j
-  n= 38  |tr_odd| = 1.000000000  [one ]  tr = -0.866025+0.500000j
-  n= 39  |tr_odd| = 1.000000000  [one ]  tr = +1.000000-0.000000j
-  n= 40  |tr_odd| = 1.414213562  [sqrt2]  tr = +1.094451-0.895644j
+== A5: the shadow-class law |tr_odd(W)| = |chi_3dim(W mod 7)| ==
+  corpus: 547 words (family n=3..44, all length<=8 words, specials)
+    class 1A:    7 words, |tr_odd| = 3.000000000 (spread 5.3e-14), |chi_3dim| = 3.000000000, match: True
+    class 2A:   55 words, |tr_odd| = 1.000000000 (spread 6.6e-14), |chi_3dim| = 1.000000000, match: True
+    class 3A:  198 words, |tr_odd| = 0.000000000 (spread 7.5e-14), |chi_3dim| = 0.000000000, match: True
+    class 4A:  143 words, |tr_odd| = 1.000000000 (spread 2.7e-13), |chi_3dim| = 1.000000000, match: True
+    class 7A:   72 words, |tr_odd| = 1.414213562 (spread 8.9e-14), |chi_3dim| = 1.414213562, match: True
+    class 7B:   72 words, |tr_odd| = 1.414213562 (spread 9.3e-14), |chi_3dim| = 1.414213562, match: True
+  => THE SHADOW-CLASS LAW HOLDS AT THE E6 STAGE:
+     |tr_odd(W)| = |chi_3dim(class of W mod 7)| for every word tested;
+     the E6 tone set = {0, 1, sqrt2, 3} (4 values over 6 classes).
+  R^7 check: tr_odd = 2.598076211+1.500000000j = 3 zeta_12 (exact phase 1/12): True
 
-value set = {0, 1, sqrt2}  (three values, ALL n=3..170)
-observed modulus period = 7  (exact upper bound 7 from PART 1;
-  values within one period differ => period EXACTLY 7)
-residue law (r = n mod 7):  r=0 -> 1 | r=+-1 -> 0 (deaf) | r=+-2 -> sqrt2 | r=+-3 -> 1
-nonzero-REAL tr_odd at n = [3, 21, 39, 45, 63, 81, 87, 105]...  residues mod 84: [3, 21, 39, 45, 63, 81]
-  (the reality lattice is mod-84 — the E6 analog of golden's mod-15;
-   the modulus never needs it: period 7.)
+  the three named general words at E6 (prereg):
+       RLRL: tr_odd = -1.000000-0.000000j, |tr_odd| = 1.000000, class mod 7 = 2A  (golden-stage values were phi-family; here 2A-tone)
+       RRLL: tr_odd = -0.000000-0.000000j, |tr_odd| = 0.000000, class mod 7 = 3A  (golden-stage values were phi-family; here 3A-tone)
+     RRRLLL: tr_odd = +1.000000-0.000000j, |tr_odd| = 1.000000, class mod 7 = 4A  (golden-stage values were phi-family; here 4A-tone)
+
+== A6: the split — the shadows do NOT transfer across stages ==
+  E6 vs mod-5: n=3 and n=8 are THE SAME matrix mod 5, but |tr_odd(E6)| = 1.000000 vs 0.000000
+  SU(3)_2 vs mod-7: n=3 and n=10 are THE SAME matrix mod 7, but |tr_odd(golden)| = 0.618034 vs 0.000000
+  => the golden stage does not factor mod 7; the E6 stage does not
+     factor mod 5.  STAGE-UNIVERSAL LAW FORM, STAGE-SPECIFIC SHADOW.
 
 ========================================================================
-PART 4 — THE EXACT SEVEN-VALUE THEOREM: |tr_odd|^2 in {0,1,2}
+PART B — THE GENERATING FUNCTION (the mod-5 registered question)
 ========================================================================
-  n = 3 (r = 3):  |tr_odd|^2 = 1   [EXACT mod Phi_84]
-  n = 4 (r = 4):  |tr_odd|^2 = 1   [EXACT mod Phi_84]
-  n = 5 (r = 5):  |tr_odd|^2 = 2   [EXACT mod Phi_84]
-  n = 6 (r = 6):  |tr_odd|^2 = 0   [EXACT mod Phi_84]
-  n = 7 (r = 0):  |tr_odd|^2 = 1   [EXACT mod Phi_84]
-  n = 8 (r = 1):  |tr_odd|^2 = 0   [EXACT mod Phi_84]
-  n = 9 (r = 2):  |tr_odd|^2 = 2   [EXACT mod Phi_84]
-EXACT: |tr_odd(R^{n-2}L)| in {0, 1, sqrt2} with period exactly 7 —
-the THREE-VALUE THEOREM reproduces at the E6 stage with the stage's
-OWN values ({0, 1/phi, 1} -> {0, 1, sqrt2}) and OWN conductor (5 -> 7).
 
-========================================================================
-PART 5 — the shadow-class law at the E6 stage (mod-7 shadow)
-========================================================================
-|image of rho_odd| = 2016;  scalars in image = 12;  projective order = 168
-  => the PROJECTIVE odd image has order 168  = |PSL(2,7)| = 168  (the Klein-quartic group — B646's 'PSL(2,7) core')
-PSL(2,7) classes found: 6 (orders [1, 2, 3, 4, 7, 7])
-words scanned: 16382 (all lengths 1..13); SL(2,7) elements hit: 336/336
-max modulus spread within a mod-7 bucket: 0.0e+00
-  => THE SHADOW-CLASS LAW HOLDS: |tr_odd(W)| is a function of
-     W mod 7 alone (the E6 stage's own shadow), over all 336 classes.
+== B1: the per-residue Dirichlet-character identity (exact sympy) ==
+  claim: a_n = ( phi*chi_0(n) + phi^(-2)*chi_2(n) ) / 2
+    n mod 5 = 0: a = 0 = (phi chi_0 + phi^-2 chi_2)/2: True
+    n mod 5 = 1: a = 1 = (phi chi_0 + phi^-2 chi_2)/2: True
+    n mod 5 = 2: a = -1/2 + sqrt(5)/2 = (phi chi_0 + phi^-2 chi_2)/2: True
+    n mod 5 = 3: a = -1/2 + sqrt(5)/2 = (phi chi_0 + phi^-2 chi_2)/2: True
+    n mod 5 = 4: a = 1 = (phi chi_0 + phi^-2 chi_2)/2: True
+  PROVED (5/5 residues, exact).  chi_0 = principal, chi_2 = Legendre (./5):
+  the two EVEN characters mod 5 — a_n is even in n, so only they enter;
+  the coefficients are phi/2 and 1/(2 phi^2)  (phi/2 IS the 4th tone).
 
-the tone table (PSL(2,7) class -> |tr_odd|) vs |chi_3| of the
-3-dim irrep (the Klein-quartic representation):
-  class (PSL-order 1, size   2): |tr_odd| = 3.000000000   |chi_3| = 3.000000000   match: True
-  class (PSL-order 2, size  42): |tr_odd| = 1.000000000   |chi_3| = 1.000000000   match: True
-  class (PSL-order 3, size 112): |tr_odd| = 0.000000000   |chi_3| = 0.000000000   match: True
-  class (PSL-order 4, size  84): |tr_odd| = 1.000000000   |chi_3| = 1.000000000   match: True
-  class (PSL-order 7, size  48): |tr_odd| = 1.414213562   |chi_3| = 1.414213562   match: True
-  class (PSL-order 7, size  48): |tr_odd| = 1.414213562   |chi_3| = 1.414213562   match: True
-  => |tr_odd(W)| = |chi_3(class of W mod 7)| — the modulus IS the
-     absolute character of the 3-dim PSL(2,7) irrep.  EXACT anchor:
-     PART 4 gives the family residues exactly (classes 2A,3A,4A,7A/B),
-     |chi_3|^2 on the order-7 classes = |(-1+-i sqrt7)/2|^2 = 2  ✓.
+== B2: the sequence check against the banked stage (numeric, n=3..40) ==
+  a_n from the SU(3)_2 stage build == closed form, 38/38: True
 
-the preregistered general words:
-     RLRL: tr_odd = -1.000000+0.000000j  |tr_odd| = 1.000000000   mod-7 PSL-order 2  |chi_3| = 1.0
-     RRLL: tr_odd = -0.000000-0.000000j  |tr_odd| = 0.000000000   mod-7 PSL-order 3  |chi_3| = 0.0
-   RRRLLL: tr_odd = +1.000000-0.000000j  |tr_odd| = 1.000000000   mod-7 PSL-order 4  |chi_3| = 1.0
+== B3: the generating function (exact rational function) ==
+  f(q) := sum_(n>=3) a_n q^n = (q^3/phi + q^4 + q^6 + q^7/phi)/(1-q^5)
+        = (phi F_chi0(q) + phi^(-2) F_chi2(q))/2 - q - q^2/phi
+  rational-function identity (sympy exact): True
+  series check: f = q**11 + q**9 + q**8/(1/2 + sqrt(5)/2) + q**7/(1/2 + sqrt(5)/2) + q**6 + q**4 + q**3/(1/2 + sqrt(5)/2)
+  coefficients == the (proved) character values for n = 3..11 (exact): True
 
-========================================================================
-PART 6 — stage-universality: the same law at the golden stage
-========================================================================
-golden stage: |image| = 360, scalars = 6, projective order = 60  = |PSL(2,5)| = |A5| = 60
-SL(2,5) elements hit: 120/120; max in-bucket spread: 0.0e+00
-golden tone set: ['0.000000', '0.618034', '1.000000', '1.618034', '2.000000']
-  = {0, 1/phi, 1, phi, 2} = |chi_2| of SL(2,5) (the binary-icosahedral
-    2-dim character: 2, 0, +-1, +-phi, +-1/phi) — B665's five tones,
-    now read as the CHARACTER of the shadow group's distinguished irrep.
+== B4: the PRODUCT (Euler/L-function-product) form is REFUTED ==
+  a_3 a_7 = 3/2 - sqrt(5)/2 = phi^(-2), but a_21 = 1
+  (3,7 coprime, both in the family range) => a_n is NOT multiplicative:
+  no Euler product; 'factors as a product of L-functions' is REFUTED.
+  What IS true (corollary of B1, exact):
+    sum a_n n^(-s) = (phi/2)(1 - 5^(-s)) zeta(s) + (1/(2 phi^2)) L(s, chi_5)
+  — a LINEAR COMBINATION of the two even mod-5 L-functions (chi_5 = (./5)),
+  i.e. the Dirichlet-character-mod-5 shape holds ADDITIVELY, not as a product.
 
-THE STAGE-UNIVERSAL LAW (both stages, verified):
-  |tr_odd(W)| = |chi_D(shadow(W))|,   shadow = reduction mod the
-  stage's own odd conductor (golden: 5, E6_2: 7); chi_D = the
-  distinguished D-dim irrep character (D = dim theta-odd: 2 resp. 3;
-  SL(2,5) 2-dim binary-icosahedral resp. PSL(2,7) 3-dim Klein-quartic).
+== B5: the E6 analogue of the character form (bonus, exact) ==
+  b_n^2 = chi_0(n) + 2 Re[e1 psi(n)] + 1_(7|n),  e1 = -1/2 + sqrt(3)*I/6: verified 7/7 residues: True
+  NOTE the structural contrast: at the golden stage the deaf residue IS
+  the ramified one (5|n) so the principal character alone carries the
+  zero; at E6 the deaf residues are n = +-1 mod 7 (the 3A classes) and
+  7|n is LOUD — the delta term is forced.  The clean characters-only
+  form is a golden-stage specialty.
 
-========================================================================
-PART 7 — THE GENERATING FUNCTION (B664's registered question; exact)
-========================================================================
-G1 — the Dirichlet-character factorization (mod 5), EXACT per residue:
-  n mod 5 = 0:  a_n = 0   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
-  n mod 5 = 1:  a_n = 5**(3/4)*sqrt(sqrt(5) + 5)/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
-  n mod 5 = 2:  a_n = 5**(3/4)*sqrt(5 - sqrt(5))/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
-  n mod 5 = 3:  a_n = 5**(3/4)*sqrt(5 - sqrt(5))/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
-  n mod 5 = 4:  a_n = 5**(3/4)*sqrt(sqrt(5) + 5)/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
-
-  THEOREM (from B664's closed form, exact):  for n >= 3,
-    a_n := |tr_odd(R^{n-2}L)|_golden = (phi/2) chi_0(n) + (1/(2 phi^2)) chi_5(n)
-    = chi_0(n) * phi^((chi_5(n)-1)/2),
-  chi_0 = principal, chi_5 = quadratic (Legendre) character mod 5 —
-  the two REAL Dirichlet characters mod 5.
-
-G2 — the generating function, exact:
-  F(x) = sum_{n>=3} a_n x^n = x^3 (1/phi + x + x^3 + x^4/phi) / (1 - x^5)   [verified to x^23, exact]
-  numerator factorization over Q(sqrt5): 2*(x**4 + x**3*(1/2 + sqrt(5)/2) + x*(1/2 + sqrt(5)/2) + 1)/(1 + sqrt(5))
-  character split (exact):  F(x) = (phi/2) x(1+x)(1+x^2)/(1-x^5)
-    + (1/(2 phi^2)) x(1-x)^2(1+x)/(1-x^5)  -  x  -  x^2/phi
-  Dirichlet-series face (coefficientwise from G1, n >= 1 periodized):
-    sum a_n n^-s = (phi/2)(1 - 5^-s) zeta(s) + (1/(2 phi^2)) L(s, chi_5)
-
-G3 — the E6-stage generating function and the honest split:
-  F7(x) = x^3 (1 + x + sqrt2 x^2 + x^4 + sqrt2 x^6) / (1 - x^7)   [verified to x^25, exact]
-  numerator factorization over Q(sqrt2): sqrt(2)*(x**6 + sqrt(2)*x**4/2 + x**2 + sqrt(2)*x/2 + sqrt(2)/2)
-  NO real-Dirichlet-character factorization mod 7 exists:
-    any a chi_0 + b chi_7 is CONSTANT on the residues {1, 2, 4}
-    (the quadratic residues), but the E6 values there are {0, sqrt2, 1} —
-    pairwise distinct.  Mechanism: (Z/5)* has 2 = |{+-1}-cosets| real
-    characters (even functions mod 5 = char span, FORCED by period +
-    palindrome + deaf-at-0), while (Z/7)* has 3 +-cosets but only 2
-    real characters.  The mod-5 Dirichlet form is a golden-stage
-    accident; the STAGE-UNIVERSAL form is the irrep-character law:
-      a_n^(stage) = |chi_D(class of [[n-1,n-2],[1,1]] mod kappa')|.
-
-B666 CELL 3: ALL GATES PASS
+ALL GATES PASS — cell 3 complete

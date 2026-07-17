@@ -5817,3 +5817,29 @@ nowhere. Record: the level-ladder dictionary r = kappa + 9
 discovered via the failing-then-passing control (the wrong-object
 first pass preserved); the chat1 silver erratum reaches SIX
 occurrences. Locks 2/2.
+
+## 2026-07-17 — B666 WAVE 0+1 + CELL S BANKED (six cells + the scale-torsor pair)
+
+CELL T: the historical ledger triaged (17 superseded with citations,
+10 live, 3 unverified-with-deciding-fact, 8 tool-gated, 2 historical;
+revival shortlist R1 = L63 transport map, R2 = L88 Latin-square proof,
+R3 = L24(c)/L82 Landsberg-Schaar). CELL 1 (L105 refined): the silver
+mod-8 shadow = ALL of SL(2,Z/8) (384); 2O = canonical QUOTIENT, not
+subgroup — the McKay descent survives one quotient down; tone table
+banked; stage-side residual named. CELL 3: THE LANDSCAPE IS
+STAGE-UNIVERSAL IN FORM — |tr_odd(W)| = |chi_D(shadow(W))| (golden:
+chi_2 of 2I mod 5; E6: chi_3 of PSL(2,7) mod 7, period 7, values
+{0,1,sqrt2}; each stage hears only its own shadow); the generating
+function PROVED (additive Dirichlet form; the Euler-product form
+REFUTED). CELL 4: R21-9 PROVEN UNCONDITIONALLY (pair products are
+literal squares; no ramified split; the exactly-half law free; the
+sign-theorem's asterisk falls). CELL 5: R21-11 repaired
+(collection-time import mechanism; the E12 false inference
+withdrawn; 12-file sweep priced). CELL 6: L96 CLOSED — B544
+confirmed 610/610; B480's <r> = 0.16 CORRECTED (E14 minted: noise
+artifact on an exactly degenerate picket fence; dated FINDINGS edit
+applied). CELL S: THE SCALE-TORSOR NO-GO now a standalone THEOREM
+(rigidity verified on all six banked structures) + THE SILENCE NOTE
+(Lambda = the boundary-torsor coordinate for scale-rigid frameworks;
+HT/unimodular citations live-verified; hypothesis labeled,
+firewalled). Locks 6/6 + b353 green. Cell 2 (cup values) continues.

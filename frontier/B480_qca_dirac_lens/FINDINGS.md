@@ -28,8 +28,13 @@ A free relativistic field has a smooth dispersion E(k) (picket-fence spectrum, l
 - **Classically** the metallic cat map is Anosov — positive Lyapunov exponent log λ_m,
   genuinely chaotic (banked: certified hyperbolicity, escape rates B186/B451).
 - **Quantum-mechanically** the level-N spectrum is arithmetically DEGENERATE, not a
-  dispersion: level-ratio ⟨r⟩ = 0.16 at N = 181, 301 (heavy clustering from the Hecke /
-  Kurlberg–Rudnick arithmetic symmetries; picket-fence only at special arithmetic N).
+  dispersion: the level-N spectrum is arithmetically DEGENERATE — an exact
+  degenerate picket fence: ord(A mod 181) = 45 slots × multiplicities {4×44, 5×1};
+  ord(A mod 301) = 88 × {2×3, 3×45, 4×40} (pinned by the exact trace identity
+  |tr Uᵗ|² = #Fix(Aᵗ)). [CORRECTION 2026-07-17, B666 cell 6: the originally quoted
+  ⟨r⟩ = 0.16 was an eigensolver-noise artifact of these exact degeneracies (exact
+  conventions give ⟨r⟩ = 0 with degeneracies, 1 on distinct slots); reproducer
+  frontier/B666_leads_campaign/cell6/b480_rederive.py].
 Neither is a smooth free-field dispersion. **A chaotic/arithmetic map is categorically not
 a free relativistic field** — this is a type-mismatch confirmed by digging, not a gap to be
 filled by more computation.

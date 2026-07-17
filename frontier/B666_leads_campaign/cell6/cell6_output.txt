@@ -1,0 +1,145 @@
+CELL 6 (L96) combined run output, 2026-07-17
+
+########## b480_rederive.py ##########
+/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
+  r = np.minimum(s[:-1], s[1:]) / np.maximum(s[:-1], s[1:])
+==============================================================================
+B480 re-derivation: <r> for the quantized golden cat map, N = 181, 301
+==============================================================================
+
+----- N = 181 --------------------------------------------------
+ord(A mod 181) = 45;  N/ord = 4.022
+V1 unitarity: max|U+U - I| = 2.22e-16
+V2 homomorphism: std[U(A)U(A)/U(A^2)] = 6.20e-16 (|gamma|=1.000000); std[U(A)U(A^2)/U(A^3)] = 6.23e-16
+   eigenvalue moduli: max||lam|-1| = 5.43e-08
+V3 U^R = c*I: std(lam^R) = 6.17e-07, c = exp(+3.141593 i)
+V4 trace identity |tr U^t|^2 = #Fix(A^t) exact integers, t=1..44: max deviation = 1.32e-05
+   slot assignment: max angular error = 5.86e-08; sum mult = 181 (= N: True)
+   multiplicity histogram {mult: #slots} = {4: 44, 5: 1}
+   distinct occupied slots: 45/45
+   DFT-of-traces multiplicity cross-check: max|m_dft - m_slot| = 1.51e-06
+C1 RAW-FLOAT      <r> = 0.0623
+C2 EXACT-DEGEN    <r> = 0.0000  (exact 0)   [skip-0/0 variant: 0.0000]
+C3 DISTINCT-SLOTS <r> = 1.0000  (exact 1)
+   [banked claim: 0.16;  Poisson 0.386;  GOE 0.53]
+
+----- N = 301 --------------------------------------------------
+ord(A mod 301) = 88 = 7 x 43; ord mod 7 = 8, ord mod 43 = 44;  N/ord = 3.420
+V1 unitarity: max|U+U - I| = 4.44e-16
+V2 homomorphism: std[U(A)U(A)/U(A^2)] = 5.17e-16 (|gamma|=1.000000); std[U(A)U(A^2)/U(A^3)] = 5.13e-16
+   eigenvalue moduli: max||lam|-1| = 8.73e-08
+V3 U^R = c*I: std(lam^R) = 1.59e-06, c = exp(+0.000000 i)
+V4 trace identity |tr U^t|^2 = #Fix(A^t) exact integers, t=1..87: max deviation = 7.11e-04
+   slot assignment: max angular error = 1.17e-07; sum mult = 301 (= N: True)
+   multiplicity histogram {mult: #slots} = {2: 3, 3: 45, 4: 40}
+   distinct occupied slots: 88/88
+   DFT-of-traces multiplicity cross-check: max|m_dft - m_slot| = 4.17e-06
+C1 RAW-FLOAT      <r> = 0.0562
+C2 EXACT-DEGEN    <r> = 0.0000  (exact 0)   [skip-0/0 variant: 0.0000]
+C3 DISTINCT-SLOTS <r> = 1.0000  (exact 1)
+   [banked claim: 0.16;  Poisson 0.386;  GOE 0.53]
+
+==============================================================================
+Controls: r-statistic code on Poisson & picket-fence references
+  Poisson control (301 uniform phases): <r> = 0.3930 (theory 0.386)
+  picket-fence control (301 equal slots): <r> = 1.0000 (theory ~1)
+
+########## b480_noise_addendum.py ##########
+/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
+  r = np.minimum(s[:-1], s[1:]) / np.maximum(s[:-1], s[1:])
+==============================================================================
+B480 re-derivation: <r> for the quantized golden cat map, N = 181, 301
+==============================================================================
+
+----- N = 181 --------------------------------------------------
+ord(A mod 181) = 45;  N/ord = 4.022
+V1 unitarity: max|U+U - I| = 2.22e-16
+V2 homomorphism: std[U(A)U(A)/U(A^2)] = 6.20e-16 (|gamma|=1.000000); std[U(A)U(A^2)/U(A^3)] = 6.23e-16
+   eigenvalue moduli: max||lam|-1| = 5.43e-08
+V3 U^R = c*I: std(lam^R) = 6.17e-07, c = exp(+3.141593 i)
+V4 trace identity |tr U^t|^2 = #Fix(A^t) exact integers, t=1..44: max deviation = 1.32e-05
+   slot assignment: max angular error = 5.86e-08; sum mult = 181 (= N: True)
+   multiplicity histogram {mult: #slots} = {4: 44, 5: 1}
+   distinct occupied slots: 45/45
+   DFT-of-traces multiplicity cross-check: max|m_dft - m_slot| = 1.51e-06
+C1 RAW-FLOAT      <r> = 0.0623
+C2 EXACT-DEGEN    <r> = 0.0000  (exact 0)   [skip-0/0 variant: 0.0000]
+C3 DISTINCT-SLOTS <r> = 1.0000  (exact 1)
+   [banked claim: 0.16;  Poisson 0.386;  GOE 0.53]
+
+----- N = 301 --------------------------------------------------
+ord(A mod 301) = 88 = 7 x 43; ord mod 7 = 8, ord mod 43 = 44;  N/ord = 3.420
+V1 unitarity: max|U+U - I| = 4.44e-16
+V2 homomorphism: std[U(A)U(A)/U(A^2)] = 5.17e-16 (|gamma|=1.000000); std[U(A)U(A^2)/U(A^3)] = 5.13e-16
+   eigenvalue moduli: max||lam|-1| = 8.73e-08
+V3 U^R = c*I: std(lam^R) = 1.59e-06, c = exp(+0.000000 i)
+V4 trace identity |tr U^t|^2 = #Fix(A^t) exact integers, t=1..87: max deviation = 7.11e-04
+   slot assignment: max angular error = 1.17e-07; sum mult = 301 (= N: True)
+   multiplicity histogram {mult: #slots} = {2: 3, 3: 45, 4: 40}
+   distinct occupied slots: 88/88
+   DFT-of-traces multiplicity cross-check: max|m_dft - m_slot| = 4.17e-06
+C1 RAW-FLOAT      <r> = 0.0562
+C2 EXACT-DEGEN    <r> = 0.0000  (exact 0)   [skip-0/0 variant: 0.0000]
+C3 DISTINCT-SLOTS <r> = 1.0000  (exact 1)
+   [banked claim: 0.16;  Poisson 0.386;  GOE 0.53]
+
+==============================================================================
+Controls: r-statistic code on Poisson & picket-fence references
+  Poisson control (301 uniform phases): <r> = 0.3930 (theory 0.386)
+  picket-fence control (301 equal slots): <r> = 1.0000 (theory ~1)
+N=181: base RAW-FLOAT <r> = 0.0623
+  6 unitary-conjugated runs (identical exact spectrum): ['0.0706', '0.0900', '0.0602', '0.0661', '0.1117', '0.0957']
+  degeneracy broken at scale 1e-10: <r> = 0.2080
+  degeneracy broken at scale 1e-08: <r> = 0.3017
+  degeneracy broken at scale 1e-06: <r> = 0.3186
+N=301: base RAW-FLOAT <r> = 0.0562
+  6 unitary-conjugated runs (identical exact spectrum): ['0.0569', '0.0759', '0.0676', '0.0694', '0.0544', '0.0719']
+  degeneracy broken at scale 1e-10: <r> = 0.1232
+  degeneracy broken at scale 1e-08: <r> = 0.2440
+  degeneracy broken at scale 1e-06: <r> = 0.2567
+
+Conclusion: RAW-FLOAT <r> on this exactly-degenerate spectrum wanders with the noise realization -- it is not a well-defined observable.
+
+########## b544_rederive.py ##########
+==============================================================================
+(a) FK ground state: winding 987/610, K = 0.5
+==============================================================================
+  init beta=0.000000000 : residual 3.90e+108, E = 281518056645192971430359463041940171418250125022171920475421584064243134769376151303733258200299968205663957580468367926697366068903646655193801660502088919278024894270772241592225780394810341140530209466615992443469824.000000000000000, Hessian min eig = -3.012e-01
+  init beta=0.000819672 : residual 2.39e-05, E = 805.945567061513202, Hessian min eig = +2.456e-10
+  init beta=0.123456789 : residual 4.80e+25, E = 22355453147222987623937249263465906699978788661362688.000000000000000, Hessian min eig = -2.799e-01
+  init beta=0.250000000 : residual 3.73e+89, E = 2509325312765041115195193911131850797239194234830387156703963807049084888911739598031663790218218927238807972264120034773333338009257627942894908199502775614680200673162644858863616.000000000000000, Hessian min eig = -3.540e-01
+  init beta=0.500000000 : residual 4.18e+103, E = 117990357209242820114431527977569878759754498853844438591343688131798818410827854600129249919631843616135098165450657787482103786587475848768694967418804692328922355238909457459642422405360334912500719675244544.000000000000000, Hessian min eig = -3.391e-01
+
+ground state: E = 805.945567061513202 (from beta=0.000819672131147541), Hessian min eig = +2.456e-10 (MINIMUM)
+floor-robustness: min distance of any x_n to an integer = 0.000422
+HOP WORD vs mechanical word slope 987/610: best match = 610/610 (at intercept s=400)   [banked claim: 610/610 exactly]
+OCCUPATION WORD (987 wells) vs mechanical word slope 610/987: best match = 987/987 (at intercept s=586)
+
+==============================================================================
+(b) critical circle map itinerary vs the golden Sturmian
+==============================================================================
+Omega (bisected, f^2584(0) = 1597) = 0.60666108231988401581
+closure residual f^Q(0) - P = -3.417e-25
+floor-robustness: min distance of any orbit point to an integer = 3.42e-25
+itinerary periodic with period 2584: False (first 200 letters of period 2 check)
+ITINERARY vs mechanical word slope 1597/2584: best match = 2583/2584 (intercept s=0)   [expect exact if rotation-ordered]
+
+ITINERARY (periodically extended) vs TRUE Sturmian slope 1/phi = 0.618033988749895:
+  L =  1000: best match = 1000/1000  = 100.0000%   (mismatches: 0)
+  L =  2000: best match = 2000/2000  = 100.0000%   (mismatches: 0)
+  L =  2584: best match = 2584/2584  = 100.0000%   (mismatches: 0)
+  L =  5000: best match = 4999/5000  = 99.9800%   (mismatches: 1)
+  L = 10000: best match = 9997/10000  = 99.9700%   (mismatches: 3)
+
+[banked claim: 'itinerary 99.95% Sturmian' -- no window length specified]
+
+########## b544_addendum.py ##########
+A1 -- FK word certification
+  K=0.5, init beta=0.000820: residual 2.84e-13, ||pinv(H)g||_inf = 8.49e-11, margin = 7.14e-04, Hessian eigs [-1.25e-15, +1.03e-04, ...] -> hop word match = 610/610
+  K=0.5, init beta=0.370000: residual 2.84e-13, ||pinv(H)g||_inf = 3.96e-11, margin = 4.28e-04, Hessian eigs [-3.17e-15, +1.03e-04, ...] -> hop word match = 610/610
+  K=0.5, init beta=0.710000: residual 2.84e-13, ||pinv(H)g||_inf = 5.97e-11, margin = 1.43e-04, Hessian eigs [+2.47e-15, +1.03e-04, ...] -> hop word match = 610/610
+  K=0.8, init beta=0.000820: residual 4.62e-13, ||pinv(H)g||_inf = 2.57e-10, margin = 6.28e-04, Hessian eigs [+2.95e-16, +9.66e-05, ...] -> hop word match = 610/610
+  certification: word is 610/610 mechanical iff ||pinv(H)g||_inf << margin in every row
+
+A2 -- circle-map knife-edge letter
+  snapped 1 knife-edge point(s); itinerary vs mechanical 1597/2584: best match = 2584/2584

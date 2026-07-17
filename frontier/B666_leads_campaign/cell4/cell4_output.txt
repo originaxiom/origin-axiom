@@ -1,32 +1,65 @@
-== STEP A: Phi_m(x) = x^(phi(m)/2) psi_m(x + 1/x), m = 3..50 ==
-  all m in 3..50: PASS
-== STEP B: Res(Phi_m(x), x^2-t*x+1) = psi_m(t)^2 in Z[t], m = 3..50 ==
-  all m in 3..50: PASS
-  (includes every ramified shape: m = p, p^2, 2p, 4p, pq, ... )
-  m=1: f(1) = 2 - t = -(t-2);  m=2: f(-1) = t + 2 = (t+2)
-== STEP C/D on W(D4): |W| = 192, rank 4 ==
-  distinct characteristic polynomials: 9
-  a_1 == a_2 (mod 2) and det(w) = (-1)^(a_2) on every element: PASS
-  t=3 (disc 5): p=5(vodd ) 192/192 [expect 192] PASS
-  t=4 (disc 12): p=2(veven) 96/192 [expect 96] PASS; p=3(vodd ) 192/192 [expect 192] PASS
-  t=5 (disc 21): p=3(vodd ) 192/192 [expect 192] PASS; p=7(vodd ) 192/192 [expect 192] PASS
-  t=6 (disc 32): p=2(vodd ) 192/192 [expect 192] PASS
-  t=7 (disc 45): p=3(veven) 96/192 [expect 96] PASS; p=5(vodd ) 192/192 [expect 192] PASS
-  t=9 (disc 77): p=7(vodd ) 192/192 [expect 192] PASS; p=11(vodd ) 192/192 [expect 192] PASS
-  t=10 (disc 96): p=2(vodd ) 192/192 [expect 192] PASS; p=3(vodd ) 192/192 [expect 192] PASS
-== det B_w product-formula exact cross-check on W(D4) (48 elements x 7 t-values) ==
-  det B_w = (t-2)^a1 (t+2)^a2 prod psi_m(t)^(2 a_m): PASS
-== STEP C/D on W(E6): |W| = 51840, rank 6 ==
-  distinct characteristic polynomials: 25
-  a_1 == a_2 (mod 2) and det(w) = (-1)^(a_2) on every element: PASS
-  t=3 (disc 5): p=5(vodd ) 51840/51840 [expect 51840] PASS
-  t=4 (disc 12): p=2(veven) 25920/51840 [expect 25920] PASS; p=3(vodd ) 51840/51840 [expect 51840] PASS
-  t=5 (disc 21): p=3(vodd ) 51840/51840 [expect 51840] PASS; p=7(vodd ) 51840/51840 [expect 51840] PASS
-  t=6 (disc 32): p=2(vodd ) 51840/51840 [expect 51840] PASS
-  t=7 (disc 45): p=3(veven) 25920/51840 [expect 25920] PASS; p=5(vodd ) 51840/51840 [expect 51840] PASS
-  t=9 (disc 77): p=7(vodd ) 51840/51840 [expect 51840] PASS; p=11(vodd ) 51840/51840 [expect 51840] PASS
-  t=10 (disc 96): p=2(vodd ) 51840/51840 [expect 51840] PASS; p=3(vodd ) 51840/51840 [expect 51840] PASS
-== det B_w product-formula exact cross-check on W(E6) (24 elements x 2 t-values) ==
-  det B_w = (t-2)^a1 (t+2)^a2 prod psi_m(t)^(2 a_m): PASS
-== banked-battery reproduction (test_b656_digest G1 numbers) ==
-  W(D4) t=5: p=3 and p=7 must be 192/192; t=7: p=3 must be 96/192, p=5 192/192  (see lines above)
+== S0: symbolic identities ==
+  f self-reciprocal: x^2 f(1/x) == f(x)          OK
+  f(z) == -z*(t - z - 1/z)                        OK
+  f(z)*f(1/z) == (t - z - 1/z)^2                  OK
+== psi_m table (min poly of zeta_m + 1/zeta_m), m with phi(m)<=6 ==
+  m= 1  psi_m coeffs (desc) = [1, -2]
+  m= 2  psi_m coeffs (desc) = [1, 2]
+  m= 3  psi_m coeffs (desc) = [1, 1]
+  m= 4  psi_m coeffs (desc) = [1, 0]
+  m= 5  psi_m coeffs (desc) = [1, 1, -1]
+  m= 6  psi_m coeffs (desc) = [1, -1]
+  m= 7  psi_m coeffs (desc) = [1, 1, -2, -1]
+  m= 8  psi_m coeffs (desc) = [1, 0, -2]
+  m= 9  psi_m coeffs (desc) = [1, 0, -3, 1]
+  m=10  psi_m coeffs (desc) = [1, -1, -1]
+  m=12  psi_m coeffs (desc) = [1, 0, -3]
+  m=14  psi_m coeffs (desc) = [1, -1, -2, 1]
+  m=18  psi_m coeffs (desc) = [1, 0, -3, -1]
+
+== W(D4): |W| = 192, rank 4 ==
+  S1 exact-charpoly vs sympy: 192 elements   OK
+  S2 full cyclotomic factorization: 192/192      OK
+  S3 structure identity char_S = (x-2)^a1 (x+2)^a2 prod psi^2am: 192/192  OK
+  S3' det B_w = (t-2)^a1 (t+2)^a2 Lambda^2, Lambda in Z: all (t,w) cells  OK
+  S4 det w = (-1)^a2 and a1=a2 mod 2: 192/192    OK
+  #(det w = +1) = 96  (half = 96)
+  S5 t=4 p= 2 v_p(t^2-4)=2 agree 96/192  expected 96  [EVEN v_p -> HALF]
+  S5 t=4 p= 3 v_p(t^2-4)=1 agree 192/192  expected 192  [ODD v_p -> ALL]
+  S5 t=4 p=13 v_p(t^2-4)=0 agree 96/192  expected 96  [EVEN v_p -> HALF]
+  S5 t=5 p= 3 v_p(t^2-4)=1 agree 192/192  expected 192  [ODD v_p -> ALL]
+  S5 t=5 p= 7 v_p(t^2-4)=1 agree 192/192  expected 192  [ODD v_p -> ALL]
+  S5 t=5 p=13 v_p(t^2-4)=0 agree 96/192  expected 96  [EVEN v_p -> HALF]
+  S5 t=7 p= 3 v_p(t^2-4)=2 agree 96/192  expected 96  [EVEN v_p -> HALF]
+  S5 t=7 p= 5 v_p(t^2-4)=1 agree 192/192  expected 192  [ODD v_p -> ALL]
+  S5 t=7 p=13 v_p(t^2-4)=0 agree 96/192  expected 96  [EVEN v_p -> HALF]
+  S5 t=8 p= 2 v_p(t^2-4)=2 agree 96/192  expected 96  [EVEN v_p -> HALF]
+  S5 t=8 p= 3 v_p(t^2-4)=1 agree 192/192  expected 192  [ODD v_p -> ALL]
+  S5 t=8 p= 5 v_p(t^2-4)=1 agree 192/192  expected 192  [ODD v_p -> ALL]
+  S5 t=8 p=13 v_p(t^2-4)=0 agree 96/192  expected 96  [EVEN v_p -> HALF]
+
+== W(E6): |W| = 51840, rank 6 ==
+  S1 exact-charpoly vs sympy: 25 elements   OK
+  S2 full cyclotomic factorization: 51840/51840      OK
+  S3 structure identity char_S = (x-2)^a1 (x+2)^a2 prod psi^2am: 51840/51840  OK
+  S3' det B_w = (t-2)^a1 (t+2)^a2 Lambda^2, Lambda in Z: all (t,w) cells  OK
+  S4 det w = (-1)^a2 and a1=a2 mod 2: 51840/51840    OK
+  #(det w = +1) = 25920  (half = 25920)
+  S5 t=5 p= 3 v_p(t^2-4)=1 agree 51840/51840  expected 51840  [ODD v_p -> ALL]
+  S5 t=5 p= 7 v_p(t^2-4)=1 agree 51840/51840  expected 51840  [ODD v_p -> ALL]
+  S5 t=5 p=13 v_p(t^2-4)=0 agree 25920/51840  expected 25920  [EVEN v_p -> HALF]
+  order-9 spectrum present: char_w = [1, 0, 0, 1, 0, 0, 1], a = {9: 1}
+
+== S6: the per-pair obstruction witness (Phi_9, p=3, t=5) ==
+  psi_9 = [1, 0, -3, 1]; psi_9(5) = 111 = {3: 1, 37: 1}
+  psi_9 mod 3 = [1, 0, 0, 1]; (x+1)^3 mod 3 = [1, 0, 0, 1]
+  v_3(psi_9(5)) = 1 (ODD) and psi_9 == (x+1)^3 mod 3:
+  3 is totally ramified in Q(zeta_9)^+ (e = 3, standard cyclotomic
+  theory); the unique prime above 3 is Galois-stable, so the three
+  Galois-conjugate lambda's carry equal valuation v_3 = 1/3 each;
+  each PER-PAIR product lambda^2 has v_3 = 2/3 -- NOT even, not an
+  integer.  The ORBIT total is psi_9(5)^2 with v_3 = 2: EVEN.
+  => pair-evenness is an ORBIT/TOTAL-level truth; the naive
+     per-pair strengthening is FALSE exactly at ramified primes.
+
+ALL CHECKS PASSED

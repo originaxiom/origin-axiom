@@ -1,0 +1,3 @@
+SL(2,Z/16)^ab: [4, 1] exponent 4
+SL(2,Z/8) IdGroup check: [384, 572]
+RRLL mod 32 order: 16

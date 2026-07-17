@@ -1,0 +1,31 @@
+==============================================================================
+(a) FK ground state: winding 987/610, K = 0.5
+==============================================================================
+  init beta=0.000000000 : residual 3.90e+108, E = 281518056645192971430359463041940171418250125022171920475421584064243134769376151303733258200299968205663957580468367926697366068903646655193801660502088919278024894270772241592225780394810341140530209466615992443469824.000000000000000, Hessian min eig = -3.012e-01
+  init beta=0.000819672 : residual 2.39e-05, E = 805.945567061513202, Hessian min eig = +2.456e-10
+  init beta=0.123456789 : residual 4.80e+25, E = 22355453147222987623937249263465906699978788661362688.000000000000000, Hessian min eig = -2.799e-01
+  init beta=0.250000000 : residual 3.73e+89, E = 2509325312765041115195193911131850797239194234830387156703963807049084888911739598031663790218218927238807972264120034773333338009257627942894908199502775614680200673162644858863616.000000000000000, Hessian min eig = -3.540e-01
+  init beta=0.500000000 : residual 4.18e+103, E = 117990357209242820114431527977569878759754498853844438591343688131798818410827854600129249919631843616135098165450657787482103786587475848768694967418804692328922355238909457459642422405360334912500719675244544.000000000000000, Hessian min eig = -3.391e-01
+
+ground state: E = 805.945567061513202 (from beta=0.000819672131147541), Hessian min eig = +2.456e-10 (MINIMUM)
+floor-robustness: min distance of any x_n to an integer = 0.000422
+HOP WORD vs mechanical word slope 987/610: best match = 610/610 (at intercept s=400)   [banked claim: 610/610 exactly]
+OCCUPATION WORD (987 wells) vs mechanical word slope 610/987: best match = 987/987 (at intercept s=586)
+
+==============================================================================
+(b) critical circle map itinerary vs the golden Sturmian
+==============================================================================
+Omega (bisected, f^2584(0) = 1597) = 0.60666108231988401581
+closure residual f^Q(0) - P = -3.417e-25
+floor-robustness: min distance of any orbit point to an integer = 3.42e-25
+itinerary periodic with period 2584: False (first 200 letters of period 2 check)
+ITINERARY vs mechanical word slope 1597/2584: best match = 2583/2584 (intercept s=0)   [expect exact if rotation-ordered]
+
+ITINERARY (periodically extended) vs TRUE Sturmian slope 1/phi = 0.618033988749895:
+  L =  1000: best match = 1000/1000  = 100.0000%   (mismatches: 0)
+  L =  2000: best match = 2000/2000  = 100.0000%   (mismatches: 0)
+  L =  2584: best match = 2584/2584  = 100.0000%   (mismatches: 0)
+  L =  5000: best match = 4999/5000  = 99.9800%   (mismatches: 1)
+  L = 10000: best match = 9997/10000  = 99.9700%   (mismatches: 3)
+
+[banked claim: 'itinerary 99.95% Sturmian' -- no window length specified]
