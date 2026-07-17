@@ -1,0 +1,40 @@
+B666 cell 1 — GAP corroboration
+====================================================================
+        2O: order 48  IdGroup [48, 28]
+      mod4: order 48  IdGroup [48, 30]
+      mod8: order 384  IdGroup [384, 572]
+  quot48_0: order 48  IdGroup [48, 30]
+  quot48_1: order 48  IdGroup [48, 28]
+  quot48_2: order 48  IdGroup [48, 29]
+
+2O check in GAP: order 48, involutions 1, IdGroup [48, 28]
+2O perfect? False  derived subgroup order 24 (2T=SL(2,3) expected: 24)
+
+order-48 quotients of SL(2,Z/8) matching 2O's IdGroup: ['quot48_1']
+
+[mod8] classes: 30; irreducible degrees: [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 6, 6, 6, 6, 6, 6]  (sum d^2 = 384)
+    class rep orders: [1, 8, 4, 8, 2, 8, 4, 8, 2, 8, 4, 8, 2, 8, 4, 8, 2, 2, 2, 2, 4, 3, 6, 4, 6, 6, 4, 4, 4, 4]
+    deg-2 irrep #1: |ker| = 32, |image| = 12, sqrt2 in values: False
+        values: ['2', '0', '-2', '0', '2', '0', '-2', '0', '-2', '0', '2', '0', '-2', '0', '2', '0', '2', '2', '-2', '-2', '0', '-1', '1', '0', '-1', '1', '2', '0', '-2', '0']
+    deg-2 irrep #2: |ker| = 64, |image| = 6, sqrt2 in values: False
+        values: ['2', '0', '2', '0', '2', '0', '2', '0', '2', '0', '2', '0', '2', '0', '2', '0', '2', '2', '2', '2', '0', '-1', '-1', '0', '-1', '-1', '2', '0', '2', '0']
+    deg-2 irrep #3: |ker| = 8, |image| = 48, sqrt2 in values: False
+        values: ['2', '-E(8)-E(8)^3', '0', '-E(8)-E(8)^3', '-2', 'E(8)+E(8)^3', '0', 'E(8)+E(8)^3', '-2', 'E(8)+E(8)^3', '0', 'E(8)+E(8)^3', '2', '-E(8)-E(8)^3', '0', '-E(8)-E(8)^3', '-2', '2', '2', '-2', '0', '-1', '1', '0', '1', '-1', '0', '0', '0', '0']
+    deg-2 irrep #4: |ker| = 8, |image| = 48, sqrt2 in values: False
+        values: ['2', 'E(8)+E(8)^3', '0', 'E(8)+E(8)^3', '-2', '-E(8)-E(8)^3', '0', '-E(8)-E(8)^3', '-2', '-E(8)-E(8)^3', '0', '-E(8)-E(8)^3', '2', 'E(8)+E(8)^3', '0', 'E(8)+E(8)^3', '-2', '2', '2', '-2', '0', '-1', '1', '0', '1', '-1', '0', '0', '0', '0']
+    deg-2 irrep #5: |ker| = 8, |image| = 48, sqrt2 in values: False
+        values: ['2', '-E(8)+E(8)^3', '0', 'E(8)-E(8)^3', '-2', 'E(8)-E(8)^3', '0', '-E(8)+E(8)^3', '2', 'E(8)-E(8)^3', '0', '-E(8)+E(8)^3', '-2', '-E(8)+E(8)^3', '0', 'E(8)-E(8)^3', '-2', '2', '-2', '2', '0', '-1', '-1', '0', '1', '1', '0', '0', '0', '0']
+    deg-2 irrep #6: |ker| = 8, |image| = 48, sqrt2 in values: False
+        values: ['2', 'E(8)-E(8)^3', '0', '-E(8)+E(8)^3', '-2', '-E(8)+E(8)^3', '0', 'E(8)-E(8)^3', '2', '-E(8)+E(8)^3', '0', 'E(8)-E(8)^3', '-2', 'E(8)-E(8)^3', '0', '-E(8)+E(8)^3', '-2', '2', '-2', '2', '0', '-1', '-1', '0', '1', '1', '0', '0', '0', '0']
+
+[2O] classes: 8; irreducible degrees: [1, 1, 2, 2, 2, 3, 3, 4]  (sum d^2 = 48)
+    class rep orders: [1, 6, 8, 4, 4, 8, 3, 2]
+    deg-2 irrep #1: |ker| = 8, |image| = 6, sqrt2 in values: False
+        values: ['2', '-1', '0', '2', '0', '0', '-1', '2']
+    deg-2 irrep #2: |ker| = 1, |image| = 48, sqrt2 in values: False
+        values: ['2', '1', '-E(8)+E(8)^3', '0', '0', 'E(8)-E(8)^3', '-1', '-2']
+    deg-2 irrep #3: |ker| = 1, |image| = 48, sqrt2 in values: False
+        values: ['2', '1', 'E(8)-E(8)^3', '0', '0', '-E(8)+E(8)^3', '-1', '-2']
+
+[mod8] all irreducible degrees with sqrt2 in their values:
+DONE

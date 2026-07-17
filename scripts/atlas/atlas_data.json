@@ -13540,6 +13540,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B668": {
+   "slug": "triage reconciliation",
+   "motifs": [
+    "metallic",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B2",
+    "B3",
+    "B5",
+    "B662",
+    "B666",
+    "B667",
+    "L104",
+    "L106",
+    "S4"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B66": {
    "slug": "sl6 tower",
    "motifs": [

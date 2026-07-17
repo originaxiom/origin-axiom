@@ -31,3 +31,12 @@ WAVE 3 additions:
   verdict; the metallic-McKay sequence's third point).
 
 The campaign's stop condition extends to these five.
+
+## AMENDMENT (2026-07-17, B668): CELL F′ RE-SCOPED
+
+cc2's triage caught that F′ as sealed dies against the melody theorem
+(a periodic ladder has no 1/k-asymptotic content). F′ is re-scoped to
+THE ASYMPTOTICS DERIVATION NOTE per B668/FINDINGS.md — the
+classification of banked observables by genuine large-k behavior and
+the legal-target list; no S₂ extraction from the ladder. This sealed
+scope supersedes the original F′ paragraph.

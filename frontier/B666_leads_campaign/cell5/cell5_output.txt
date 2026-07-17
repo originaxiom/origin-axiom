@@ -10,3 +10,9 @@ dps= 30: blockscalar residual =  9.86076e-32 (<1e-60? FAIL) | worst hyperellipti
 3 passed in 25.09s
 
 --- 3. repaired b353 + both culprit files (b353 runs first, post-collection dps=30) ---
+......                                                                   [100%]
+6 passed in 39.39s
+
+--- 4. the 13-file in-order suite slice: b353 embedded among ALL 12 module-level dps setters (sorted order; final post-collection dps=40, exactly the full-suite environment) ---
+.................................s...................                    [100%]
+52 passed, 1 skipped in 261.81s (0:04:21)

@@ -1,0 +1,62 @@
+B666 cell 1 — the silver stage: gate + exact tones
+======================================================================
+
+THE GATE FROM THE LAW (B621): t=6, base t^2-4 = 32 = 3^0*32
+  -> literal law gate: 32 | kappa.  Field alternative: 8 | kappa
+  (32 = 2^2 * 8 = f^2 * disc Q(sqrt2); first non-maximal-order base).
+
+FIELD LEMMA: value ∈ Q(zeta_3k); sqrt2 ∈ Q(zeta_n) iff 8|n; 8|3k iff 8|k.
+  -> sqrt2 content impossible unless 8 | kappa (off-grid silence is field-forced).
+
+[controls] golden RL, sqrt5 fit (banked: bearing at 5|kappa):
+    kappa= 4: -1.000000+0.000000j
+    kappa= 5: +0.618034+0.000000j  <-- Re=-1/2+1/2*sqrt5
+    kappa= 6: -0.000000+0.000000j
+    kappa= 7: +0.000000+0.000000j
+    kappa= 8: -1.000000+0.000000j
+    kappa= 9: -0.000000+0.000000j
+    kappa=10: +0.618034+0.000000j  <-- Re=-1/2+1/2*sqrt5
+    kappa=11: +0.000000-0.000000j
+    kappa=12: -1.000000-0.000000j
+    kappa=13: -0.000000+0.000000j
+    kappa=14: +0.000000+0.000000j
+    kappa=15: +0.618034-0.000000j  <-- Re=-1/2+1/2*sqrt5
+    tr-5 control kappa=14 (banked sqrt21-bearing): -1.395644+0.228425j fits [(Fraction(-1, 4), Fraction(-1, 4)), None]
+
+[scan] RRLL odd trace, kappa = 4..48, sqrt2 fit (floats, discovery):
+    kappa= 4: tr = -1.000000000+0.000000000j
+    kappa= 5: tr = -1.000000000+0.000000000j
+    kappa= 6: tr = +0.000000000-0.000000000j
+    kappa= 7: tr = -1.000000000-0.000000000j
+    kappa= 8: tr = -1.000000000+0.000000000j
+    kappa= 9: tr = -0.000000000+0.000000000j
+    kappa=10: tr = -1.000000000-0.000000000j
+    kappa=11: tr = +0.000000000-0.000000000j
+    kappa=12: tr = -1.000000000-0.000000000j
+    kappa=13: tr = -0.000000000+0.000000000j
+    kappa=14: tr = -1.000000000+0.000000000j
+    kappa=15: tr = -1.000000000-0.000000000j
+    kappa=16: tr = +1.828427125+0.000000000j  <-- sqrt2-BEARING: Re = -1 + 2*sqrt2
+    kappa=17: tr = -0.000000000+0.000000000j
+    kappa=18: tr = +0.000000000-0.000000000j
+    kappa=19: tr = -0.000000000-0.000000000j
+    kappa=20: tr = -2.000000000+0.000000000j
+    kappa=21: tr = -1.000000000-0.000000000j
+    kappa=22: tr = -0.000000000-0.000000000j
+    kappa=23: tr = -0.000000000-0.000000000j
+    kappa=24: tr = -1.000000000+0.000000000j
+    kappa=25: tr = -1.000000000+0.000000000j
+    kappa=26: tr = -0.000000000-0.000000000j
+    kappa=27: tr = -0.000000000+0.000000000j
+    kappa=28: tr = -2.000000000-0.000000000j
+    kappa=29: tr = +0.000000000+0.000000000j
+    kappa=30: tr = -1.000000000+0.000000000j
+    kappa=31: tr = -0.000000000+0.000000000j
+    kappa=32: tr = +1.828427125+0.000000000j  <-- sqrt2-BEARING: Re = -1 + 2*sqrt2
+    kappa=33: tr = -0.000000000+0.000000000j
+    kappa=34: tr = -0.000000000+0.000000000j
+    kappa=35: tr = -2.000000000-0.000000000j
+    kappa=36: tr = -1.000000000-0.000000000j
+    kappa=37: tr = -0.000000000+0.000000000j
+    kappa=38: tr = -0.000000000+0.000000000j
+    kappa=39: tr = +0.000000000-0.000000000j

@@ -1,0 +1,21 @@
+B666 cell 1 — the mod-16 census
+====================================================================
+|SL(2,Z/16)| = 3072
+RRLL mod 16 = [(5, 2), (2, 1)]  order 8
+R mod 16 order 16; L mod 16 order 16
+<R,L> = full group: True
+RRLL's conjugacy class index: 39, size 24, rep order 8
+irreducible degrees histogram: {1: 4, 2: 6, 3: 28, 4: 2, 6: 26, 8: 6, 12: 2, 24: 2}
+
+ALL degree-2 irreducibles of SL(2,Z/16):
+  chi_ 4: field Q  |ker| 256  image [12, 1]  proj-image [6, 1]  chi(RRLL) = 2
+  chi_ 5: field Q  |ker| 512  image [6, 1]  proj-image [6, 1]  chi(RRLL) = 2
+  chi_ 6: field sqrt2  |ker| 64  image [48, 28]  proj-image [24, 12]  chi(RRLL) = 0
+  chi_ 7: field sqrt2  |ker| 64  image [48, 28]  proj-image [24, 12]  chi(RRLL) = 0
+  chi_ 8: field sqrt-2  |ker| 64  image [48, 29]  proj-image [24, 12]  chi(RRLL) = 0
+  chi_ 9: field sqrt-2  |ker| 64  image [48, 29]  proj-image [24, 12]  chi(RRLL) = 0
+
+channels with chi(RRLL) = ±sqrt2: []
+(2O = [48,28]; S4 = [24,12]; binary dihedral 2D8=Q16 = [16,9];
+ D4 dihedral-of-8 = [8,3]; SD16 semidihedral = [16,8])
+DONE

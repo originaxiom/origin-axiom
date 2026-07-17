@@ -1,0 +1,91 @@
+c = 78/7  c/24 = 13/28
+  h(1) = 0
+  h(27) = 13/21
+  h(27b) = 13/21
+  h(351p) = 4/3
+  h(351pb) = 4/3
+  h(650) = 9/7
+  h(78) = 6/7
+  h(351) = 25/21
+  h(351b) = 25/21
+gates: unitary 3.30e-14 sym 0.00e+00 (ST)^3-S^2 8.96e-14
+
+odd-pair T-phases alpha_j = h_j - 13/28 (mod 1):
+  pair 27: alpha = 13/84
+  pair 351p: alpha = 73/84
+  pair 351: alpha = 61/84
+phase differences (mod 1):
+  a0-a1 = 2/7
+  a0-a2 = 3/7
+  a1-a2 = 1/7
+
+odd block of X = S^-1 T^-1 S:
+   [+0.550154808+0.215919851j  +0.109840607-0.728744814j  -0.223086644-0.240430222j]
+   [+0.109840607-0.728744814j  +0.327068164-0.024510370j  +0.332927252-0.488314592j]
+   [-0.223086644-0.240430222j  +0.332927252-0.488314592j  +0.217227557+0.704234443j]
+
+landscape |tr_odd(R^{n-2}L)|, n = 3..44:
+  n=  3  |tr_odd| = 1.000000000   tr = +1.000000-0.000000j  real: True
+  n=  4  |tr_odd| = 1.000000000   tr = -0.866025-0.500000j  real: False
+  n=  5  |tr_odd| = 1.414213562   tr = -1.395644+0.228425j  real: False
+  n=  6  |tr_odd| = 0.000000000   tr = +0.000000+0.000000j  real: True
+  n=  7  |tr_odd| = 1.000000000   tr = +0.500000-0.866025j  real: False
+  n=  8  |tr_odd| = 0.000000000   tr = +0.000000+0.000000j  real: True
+  n=  9  |tr_odd| = 1.414213562   tr = +0.500000+1.322876j  real: False
+  n= 10  |tr_odd| = 1.000000000   tr = +0.866025+0.500000j  real: False
+  n= 11  |tr_odd| = 1.000000000   tr = -0.500000-0.866025j  real: False
+  n= 12  |tr_odd| = 1.414213562   tr = -1.322876-0.500000j  real: False
+  n= 13  |tr_odd| = 0.000000000   tr = +0.000000+0.000000j  real: True
+  n= 14  |tr_odd| = 1.000000000   tr = +0.866025-0.500000j  real: False
+  n= 15  |tr_odd| = 0.000000000   tr = +0.000000+0.000000j  real: True
+  n= 16  |tr_odd| = 1.414213562   tr = -0.228425+1.395644j  real: False
+  n= 17  |tr_odd| = 1.000000000   tr = +0.500000+0.866025j  real: False
+  n= 18  |tr_odd| = 1.000000000   tr = -0.000000-1.000000j  real: False
+  n= 19  |tr_odd| = 1.414213562   tr = -0.895644-1.094451j  real: False
+  n= 20  |tr_odd| = 0.000000000   tr = -0.000000+0.000000j  real: True
+  n= 21  |tr_odd| = 1.000000000   tr = +1.000000+0.000000j  real: True
+  n= 22  |tr_odd| = 0.000000000   tr = +0.000000+0.000000j  real: True
+  n= 23  |tr_odd| = 1.414213562   tr = -0.895644+1.094451j  real: False
+  n= 24  |tr_odd| = 1.000000000   tr = +0.000000+1.000000j  real: False
+  n= 25  |tr_odd| = 1.000000000   tr = +0.500000-0.866025j  real: False
+  n= 26  |tr_odd| = 1.414213562   tr = -0.228425-1.395644j  real: False
+  n= 27  |tr_odd| = 0.000000000   tr = -0.000000+0.000000j  real: True
+  n= 28  |tr_odd| = 1.000000000   tr = +0.866025+0.500000j  real: False
+  n= 29  |tr_odd| = 0.000000000   tr = -0.000000+0.000000j  real: True
+  n= 30  |tr_odd| = 1.414213562   tr = -1.322876+0.500000j  real: False
+  n= 31  |tr_odd| = 1.000000000   tr = -0.500000+0.866025j  real: False
+  n= 32  |tr_odd| = 1.000000000   tr = +0.866025-0.500000j  real: False
+  n= 33  |tr_odd| = 1.414213562   tr = +0.500000-1.322876j  real: False
+  n= 34  |tr_odd| = 0.000000000   tr = -0.000000+0.000000j  real: True
+  n= 35  |tr_odd| = 1.000000000   tr = +0.500000+0.866025j  real: False
+  n= 36  |tr_odd| = 0.000000000   tr = -0.000000+0.000000j  real: True
+  n= 37  |tr_odd| = 1.414213562   tr = -1.395644-0.228425j  real: False
+  n= 38  |tr_odd| = 1.000000000   tr = -0.866025+0.500000j  real: False
+  n= 39  |tr_odd| = 1.000000000   tr = +1.000000-0.000000j  real: True
+  n= 40  |tr_odd| = 1.414213562   tr = +1.094451-0.895644j  real: False
+  n= 41  |tr_odd| = 0.000000000   tr = -0.000000-0.000000j  real: True
+  n= 42  |tr_odd| = 1.000000000   tr = -0.000000+1.000000j  real: False
+  n= 43  |tr_odd| = 0.000000000   tr = -0.000000+0.000000j  real: True
+  n= 44  |tr_odd| = 1.414213562   tr = -1.094451-0.895644j  real: False
+
+distinct |tr_odd| values: [np.float64(0.0), np.float64(1.0), np.float64(1.414213562)]
+modulus period (observed) = 7
+
+general words:
+         RL: |tr_odd| = 1.000000000  tr = +1.000000-0.000000j  real: True
+       RLRL: |tr_odd| = 1.000000000  tr = -1.000000-0.000000j  real: True
+       RRLL: |tr_odd| = 0.000000000  tr = -0.000000-0.000000j  real: True
+     RRRLLL: |tr_odd| = 1.000000000  tr = +1.000000+0.000000j  real: True
+   RRRRRRRL: |tr_odd| = 1.414213562  tr = +0.500000+1.322876j  real: False
+        RLL: |tr_odd| = 1.000000000  tr = -0.866025+0.500000j  real: False
+        RRL: |tr_odd| = 1.000000000  tr = -0.866025-0.500000j  real: False
+
+shift tests |tr_odd(R^P W)| vs |tr_odd(W)|:
+  P=  5: max dev = 1.414e+00
+  P=  7: max dev = 2.542e-16
+  P= 12: max dev = 1.414e+00
+  P= 14: max dev = 6.661e-16
+  P= 21: max dev = 8.882e-16
+  P= 28: max dev = 8.882e-16
+  P= 42: max dev = 1.554e-15
+  P= 84: max dev = 2.665e-15

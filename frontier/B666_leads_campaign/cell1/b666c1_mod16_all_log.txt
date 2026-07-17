@@ -1,0 +1,45 @@
+irreps of SL(2,Z/16) with sqrt2 IN THE VALUE chi(RRLL):
+  chi_12: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_13: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_14: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_15: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_16: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_17: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_18: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_19: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_26: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_27: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_28: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_29: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_30: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_31: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_32: deg 3  chi(RRLL) = 1-E(8)+E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_33: deg 3  chi(RRLL) = 1+E(8)-E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_42: deg 6  chi(RRLL) = -2*E(8)+2*E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_43: deg 6  chi(RRLL) = 2*E(8)-2*E(8)^3  image [768, 1085335]  proj-image [384, 568]
+  chi_50: deg 6  chi(RRLL) = 2*E(8)-2*E(8)^3  image [384, 568]  proj-image [384, 568]
+  chi_51: deg 6  chi(RRLL) = -2*E(8)+2*E(8)^3  image [384, 568]  proj-image [384, 568]
+total: 20
+
+(and the full field of each such character:)
+  chi_12: field degree 4, sqrt2 in field: True
+  chi_13: field degree 4, sqrt2 in field: True
+  chi_14: field degree 4, sqrt2 in field: True
+  chi_15: field degree 4, sqrt2 in field: True
+  chi_16: field degree 4, sqrt2 in field: True
+  chi_17: field degree 4, sqrt2 in field: True
+  chi_18: field degree 4, sqrt2 in field: True
+  chi_19: field degree 4, sqrt2 in field: True
+  chi_26: field degree 4, sqrt2 in field: True
+  chi_27: field degree 4, sqrt2 in field: True
+  chi_28: field degree 4, sqrt2 in field: True
+  chi_29: field degree 4, sqrt2 in field: True
+  chi_30: field degree 4, sqrt2 in field: True
+  chi_31: field degree 4, sqrt2 in field: True
+  chi_32: field degree 4, sqrt2 in field: True
+  chi_33: field degree 4, sqrt2 in field: True
+  chi_42: field degree 2, sqrt2 in field: True
+  chi_43: field degree 2, sqrt2 in field: True
+  chi_50: field degree 2, sqrt2 in field: True
+  chi_51: field degree 2, sqrt2 in field: True
+DONE

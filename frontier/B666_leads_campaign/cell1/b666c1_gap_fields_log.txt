@@ -1,0 +1,50 @@
+
+[mod8] order 384 — all irreducible characters:
+  chi_ 0: deg 1  |ker| 384  image [1, 1]  field: Q
+  chi_ 1: deg 1  |ker| 192  image [2, 1]  field: Q
+  chi_ 2: deg 1  |ker|  96  image [4, 1]  field: i
+  chi_ 3: deg 1  |ker|  96  image [4, 1]  field: i
+  chi_ 4: deg 2  |ker|  32  image [12, 1]  field: Q
+  chi_ 5: deg 2  |ker|  64  image [6, 1]  field: Q
+  chi_ 6: deg 2  |ker|   8  image [48, 29]  field: sqrt-2
+  chi_ 7: deg 2  |ker|   8  image [48, 29]  field: sqrt-2
+  chi_ 8: deg 2  |ker|   8  image [48, 28]  field: sqrt2
+  chi_ 9: deg 2  |ker|   8  image [48, 28]  field: sqrt2
+  chi_10: deg 3  |ker|  16  image [24, 12]  field: Q
+  chi_11: deg 3  |ker|  16  image [24, 12]  field: Q
+  chi_12: deg 3  |ker|   2  image [192, 182]  field: i
+  chi_13: deg 3  |ker|   2  image [192, 182]  field: i
+  chi_14: deg 3  |ker|   2  image [192, 182]  field: i
+  chi_15: deg 3  |ker|   2  image [192, 182]  field: i
+  chi_16: deg 3  |ker|   8  image [48, 30]  field: i
+  chi_17: deg 3  |ker|   8  image [48, 30]  field: i
+  chi_18: deg 3  |ker|   4  image [96, 64]  field: i
+  chi_19: deg 3  |ker|   4  image [96, 64]  field: i
+  chi_20: deg 3  |ker|   4  image [96, 64]  field: i
+  chi_21: deg 3  |ker|   4  image [96, 64]  field: i
+  chi_22: deg 4  |ker|   8  image [48, 29]  field: Q
+  chi_23: deg 4  |ker|   8  image [48, 28]  field: Q
+  chi_24: deg 6  |ker|   2  image [192, 182]  field: Q
+  chi_25: deg 6  |ker|   4  image [96, 64]  field: Q
+  chi_26: deg 6  |ker|   2  image [192, 180]  field: sqrt-2
+  chi_27: deg 6  |ker|   2  image [192, 180]  field: sqrt-2
+  chi_28: deg 6  |ker|   2  image [192, 181]  field: sqrt2
+  chi_29: deg 6  |ker|   2  image [192, 181]  field: sqrt2
+  ==> sqrt2-realizing characters: [8, 9, 28, 29]
+      chi_8: image IdGroup [48, 28] (2O = [48,28])
+      chi_9: image IdGroup [48, 28] (2O = [48,28])
+      chi_28: image IdGroup [192, 181] (2O = [48,28])
+      chi_29: image IdGroup [192, 181] (2O = [48,28])
+
+[2O] order 48 — all irreducible characters:
+  chi_ 0: deg 1  |ker|  48  image [1, 1]  field: Q
+  chi_ 1: deg 1  |ker|  24  image [2, 1]  field: Q
+  chi_ 2: deg 2  |ker|   8  image [6, 1]  field: Q
+  chi_ 3: deg 2  |ker|   1  image [48, 28]  field: sqrt2
+  chi_ 4: deg 2  |ker|   1  image [48, 28]  field: sqrt2
+  chi_ 5: deg 3  |ker|   2  image [24, 12]  field: Q
+  chi_ 6: deg 3  |ker|   2  image [24, 12]  field: Q
+  chi_ 7: deg 4  |ker|   1  image [48, 28]  field: Q
+  ==> sqrt2-realizing characters: [3, 4]
+
+DONE

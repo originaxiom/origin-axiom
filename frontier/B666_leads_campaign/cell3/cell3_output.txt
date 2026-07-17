@@ -1,0 +1,189 @@
+========================================================================
+PART 0 — the E6 level-2 stage (banked build: B570-C3 / B594) + gates
+========================================================================
+c = 78/7; c/24 = 13/28
+h: {'1': '0', '27': '13/21', '27b': '13/21', '351p': '4/3', '351pb': '4/3', '650': '9/7', '78': '6/7', '351': '25/21', '351b': '25/21'}
+gates: unitary 3.3e-14  symmetric 0.0e+00  (ST)^3=S^2 9.0e-14  S^2=theta-flip 3.4e-14
+EXACT: h(la) = h(conj la) on all three pairs -> T preserves the
+theta-split; [T,C] = 0 and C = S^2 => EVERY word in R,L is
+block-diagonal in the theta-split (structural, exact).
+
+========================================================================
+PART 1 — exact T-phase arithmetic on the odd 3-space (Fractions)
+========================================================================
+  pair    27: T-phase alpha = 13/84 = zeta_84^13
+  pair  351p: T-phase alpha = 73/84 = zeta_84^73
+  pair   351: T-phase alpha = 61/84 = zeta_84^61
+pairwise differences: ['2/7', '3/7', '1/7']  -> ALL in (1/7)Z  => modulus period divides 7 (EXACT)
+R^7 on the odd space: phases 7*beta mod 84 = [7] -> ALL equal 7
+  => rho_odd(R^7) = zeta_12 * I EXACTLY (the scalar mechanism —
+     the E6 analog of the golden stage's rho_odd(R^5) = zeta_3^2 I).
+  (golden check, B664 phases 2/15, 8/15: 5*beta mod 15 = [10])
+
+========================================================================
+PART 2 — the EXACT S-matrix in Q(zeta_84) and the exact X_jj
+========================================================================
+EXACT (S_un S_un^dag)_00 = 22588608  (target 3*14^6 = 22588608)
+EXACT: S^2 = N^2 * C (theta-flip) — all 81 entries, zero residue.
+exact odd block vs numeric stage build: max dev = 1.75e-14
+EXACT: Gauss sum g7^2 = -7 (g7 = i sqrt7 branch checked numerically: +0.000000+2.645751j)
+
+THE EXACT DIAGONAL COEFFICIENTS (the closed form's ingredients):
+  X_11 (   27) = (2/sqrt7) sin(2pi*1/7) * zeta_84^5   [EXACT, zero residue mod Phi_84]
+  X_22 ( 351p) = (2/sqrt7) sin(2pi*3/7) * zeta_84^83   [EXACT, zero residue mod Phi_84]
+  X_33 (  351) = (2/sqrt7) sin(2pi*2/7) * zeta_84^17   [EXACT, zero residue mod Phi_84]
+  => the odd-diagonal of L IS the Z/7 SINE KERNEL (B589/B594's
+     hearing amplitudes) times exact 84th roots of unity.
+
+THE CLOSED FORM (exact, from T-diagonality of the odd block):
+  tr_odd(R^{n-2}L) = sum_j zeta_84^{beta_j (n-2)} X_jj,
+  beta = [13, 73, 61], X_jj as above — a THREE-term exponential sum
+  (golden stage: TWO-term).  sum_j |X_jj|^2 = (4/7)(s1^2+s2^2+s3^2) = 1.
+
+========================================================================
+PART 3 — the landscape n = 3..40 (and to 170): values and period
+========================================================================
+  n=  3  |tr_odd| = 1.000000000  [one ]  tr = +1.000000+0.000000j
+  n=  4  |tr_odd| = 1.000000000  [one ]  tr = -0.866025-0.500000j
+  n=  5  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.395644+0.228425j
+  n=  6  |tr_odd| = 0.000000000  [deaf]  tr = -0.000000-0.000000j
+  n=  7  |tr_odd| = 1.000000000  [one ]  tr = +0.500000-0.866025j
+  n=  8  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
+  n=  9  |tr_odd| = 1.414213562  [sqrt2]  tr = +0.500000+1.322876j
+  n= 10  |tr_odd| = 1.000000000  [one ]  tr = +0.866025+0.500000j
+  n= 11  |tr_odd| = 1.000000000  [one ]  tr = -0.500000-0.866025j
+  n= 12  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.322876-0.500000j
+  n= 13  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000-0.000000j
+  n= 14  |tr_odd| = 1.000000000  [one ]  tr = +0.866025-0.500000j
+  n= 15  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
+  n= 16  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.228425+1.395644j
+  n= 17  |tr_odd| = 1.000000000  [one ]  tr = +0.500000+0.866025j
+  n= 18  |tr_odd| = 1.000000000  [one ]  tr = -0.000000-1.000000j
+  n= 19  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.895644-1.094451j
+  n= 20  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000-0.000000j
+  n= 21  |tr_odd| = 1.000000000  [one ]  tr = +1.000000-0.000000j
+  n= 22  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
+  n= 23  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.895644+1.094451j
+  n= 24  |tr_odd| = 1.000000000  [one ]  tr = -0.000000+1.000000j
+  n= 25  |tr_odd| = 1.000000000  [one ]  tr = +0.500000-0.866025j
+  n= 26  |tr_odd| = 1.414213562  [sqrt2]  tr = -0.228425-1.395644j
+  n= 27  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000-0.000000j
+  n= 28  |tr_odd| = 1.000000000  [one ]  tr = +0.866025+0.500000j
+  n= 29  |tr_odd| = 0.000000000  [deaf]  tr = -0.000000+0.000000j
+  n= 30  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.322876+0.500000j
+  n= 31  |tr_odd| = 1.000000000  [one ]  tr = -0.500000+0.866025j
+  n= 32  |tr_odd| = 1.000000000  [one ]  tr = +0.866025-0.500000j
+  n= 33  |tr_odd| = 1.414213562  [sqrt2]  tr = +0.500000-1.322876j
+  n= 34  |tr_odd| = 0.000000000  [deaf]  tr = +0.000000+0.000000j
+  n= 35  |tr_odd| = 1.000000000  [one ]  tr = +0.500000+0.866025j
+  n= 36  |tr_odd| = 0.000000000  [deaf]  tr = -0.000000+0.000000j
+  n= 37  |tr_odd| = 1.414213562  [sqrt2]  tr = -1.395644-0.228425j
+  n= 38  |tr_odd| = 1.000000000  [one ]  tr = -0.866025+0.500000j
+  n= 39  |tr_odd| = 1.000000000  [one ]  tr = +1.000000-0.000000j
+  n= 40  |tr_odd| = 1.414213562  [sqrt2]  tr = +1.094451-0.895644j
+
+value set = {0, 1, sqrt2}  (three values, ALL n=3..170)
+observed modulus period = 7  (exact upper bound 7 from PART 1;
+  values within one period differ => period EXACTLY 7)
+residue law (r = n mod 7):  r=0 -> 1 | r=+-1 -> 0 (deaf) | r=+-2 -> sqrt2 | r=+-3 -> 1
+nonzero-REAL tr_odd at n = [3, 21, 39, 45, 63, 81, 87, 105]...  residues mod 84: [3, 21, 39, 45, 63, 81]
+  (the reality lattice is mod-84 — the E6 analog of golden's mod-15;
+   the modulus never needs it: period 7.)
+
+========================================================================
+PART 4 — THE EXACT SEVEN-VALUE THEOREM: |tr_odd|^2 in {0,1,2}
+========================================================================
+  n = 3 (r = 3):  |tr_odd|^2 = 1   [EXACT mod Phi_84]
+  n = 4 (r = 4):  |tr_odd|^2 = 1   [EXACT mod Phi_84]
+  n = 5 (r = 5):  |tr_odd|^2 = 2   [EXACT mod Phi_84]
+  n = 6 (r = 6):  |tr_odd|^2 = 0   [EXACT mod Phi_84]
+  n = 7 (r = 0):  |tr_odd|^2 = 1   [EXACT mod Phi_84]
+  n = 8 (r = 1):  |tr_odd|^2 = 0   [EXACT mod Phi_84]
+  n = 9 (r = 2):  |tr_odd|^2 = 2   [EXACT mod Phi_84]
+EXACT: |tr_odd(R^{n-2}L)| in {0, 1, sqrt2} with period exactly 7 —
+the THREE-VALUE THEOREM reproduces at the E6 stage with the stage's
+OWN values ({0, 1/phi, 1} -> {0, 1, sqrt2}) and OWN conductor (5 -> 7).
+
+========================================================================
+PART 5 — the shadow-class law at the E6 stage (mod-7 shadow)
+========================================================================
+|image of rho_odd| = 2016;  scalars in image = 12;  projective order = 168
+  => the PROJECTIVE odd image has order 168  = |PSL(2,7)| = 168  (the Klein-quartic group — B646's 'PSL(2,7) core')
+PSL(2,7) classes found: 6 (orders [1, 2, 3, 4, 7, 7])
+words scanned: 16382 (all lengths 1..13); SL(2,7) elements hit: 336/336
+max modulus spread within a mod-7 bucket: 0.0e+00
+  => THE SHADOW-CLASS LAW HOLDS: |tr_odd(W)| is a function of
+     W mod 7 alone (the E6 stage's own shadow), over all 336 classes.
+
+the tone table (PSL(2,7) class -> |tr_odd|) vs |chi_3| of the
+3-dim irrep (the Klein-quartic representation):
+  class (PSL-order 1, size   2): |tr_odd| = 3.000000000   |chi_3| = 3.000000000   match: True
+  class (PSL-order 2, size  42): |tr_odd| = 1.000000000   |chi_3| = 1.000000000   match: True
+  class (PSL-order 3, size 112): |tr_odd| = 0.000000000   |chi_3| = 0.000000000   match: True
+  class (PSL-order 4, size  84): |tr_odd| = 1.000000000   |chi_3| = 1.000000000   match: True
+  class (PSL-order 7, size  48): |tr_odd| = 1.414213562   |chi_3| = 1.414213562   match: True
+  class (PSL-order 7, size  48): |tr_odd| = 1.414213562   |chi_3| = 1.414213562   match: True
+  => |tr_odd(W)| = |chi_3(class of W mod 7)| — the modulus IS the
+     absolute character of the 3-dim PSL(2,7) irrep.  EXACT anchor:
+     PART 4 gives the family residues exactly (classes 2A,3A,4A,7A/B),
+     |chi_3|^2 on the order-7 classes = |(-1+-i sqrt7)/2|^2 = 2  ✓.
+
+the preregistered general words:
+     RLRL: tr_odd = -1.000000+0.000000j  |tr_odd| = 1.000000000   mod-7 PSL-order 2  |chi_3| = 1.0
+     RRLL: tr_odd = -0.000000-0.000000j  |tr_odd| = 0.000000000   mod-7 PSL-order 3  |chi_3| = 0.0
+   RRRLLL: tr_odd = +1.000000-0.000000j  |tr_odd| = 1.000000000   mod-7 PSL-order 4  |chi_3| = 1.0
+
+========================================================================
+PART 6 — stage-universality: the same law at the golden stage
+========================================================================
+golden stage: |image| = 360, scalars = 6, projective order = 60  = |PSL(2,5)| = |A5| = 60
+SL(2,5) elements hit: 120/120; max in-bucket spread: 0.0e+00
+golden tone set: ['0.000000', '0.618034', '1.000000', '1.618034', '2.000000']
+  = {0, 1/phi, 1, phi, 2} = |chi_2| of SL(2,5) (the binary-icosahedral
+    2-dim character: 2, 0, +-1, +-phi, +-1/phi) — B665's five tones,
+    now read as the CHARACTER of the shadow group's distinguished irrep.
+
+THE STAGE-UNIVERSAL LAW (both stages, verified):
+  |tr_odd(W)| = |chi_D(shadow(W))|,   shadow = reduction mod the
+  stage's own odd conductor (golden: 5, E6_2: 7); chi_D = the
+  distinguished D-dim irrep character (D = dim theta-odd: 2 resp. 3;
+  SL(2,5) 2-dim binary-icosahedral resp. PSL(2,7) 3-dim Klein-quartic).
+
+========================================================================
+PART 7 — THE GENERATING FUNCTION (B664's registered question; exact)
+========================================================================
+G1 — the Dirichlet-character factorization (mod 5), EXACT per residue:
+  n mod 5 = 0:  a_n = 0   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
+  n mod 5 = 1:  a_n = 5**(3/4)*sqrt(sqrt(5) + 5)/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
+  n mod 5 = 2:  a_n = 5**(3/4)*sqrt(5 - sqrt(5))/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
+  n mod 5 = 3:  a_n = 5**(3/4)*sqrt(5 - sqrt(5))/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
+  n mod 5 = 4:  a_n = 5**(3/4)*sqrt(sqrt(5) + 5)/(5*sqrt(1 + sqrt(5)))   = (phi/2) chi_0 + (1/(2 phi^2)) chi_5 = chi_0 phi^((chi_5-1)/2): True
+
+  THEOREM (from B664's closed form, exact):  for n >= 3,
+    a_n := |tr_odd(R^{n-2}L)|_golden = (phi/2) chi_0(n) + (1/(2 phi^2)) chi_5(n)
+    = chi_0(n) * phi^((chi_5(n)-1)/2),
+  chi_0 = principal, chi_5 = quadratic (Legendre) character mod 5 —
+  the two REAL Dirichlet characters mod 5.
+
+G2 — the generating function, exact:
+  F(x) = sum_{n>=3} a_n x^n = x^3 (1/phi + x + x^3 + x^4/phi) / (1 - x^5)   [verified to x^23, exact]
+  numerator factorization over Q(sqrt5): 2*(x**4 + x**3*(1/2 + sqrt(5)/2) + x*(1/2 + sqrt(5)/2) + 1)/(1 + sqrt(5))
+  character split (exact):  F(x) = (phi/2) x(1+x)(1+x^2)/(1-x^5)
+    + (1/(2 phi^2)) x(1-x)^2(1+x)/(1-x^5)  -  x  -  x^2/phi
+  Dirichlet-series face (coefficientwise from G1, n >= 1 periodized):
+    sum a_n n^-s = (phi/2)(1 - 5^-s) zeta(s) + (1/(2 phi^2)) L(s, chi_5)
+
+G3 — the E6-stage generating function and the honest split:
+  F7(x) = x^3 (1 + x + sqrt2 x^2 + x^4 + sqrt2 x^6) / (1 - x^7)   [verified to x^25, exact]
+  numerator factorization over Q(sqrt2): sqrt(2)*(x**6 + sqrt(2)*x**4/2 + x**2 + sqrt(2)*x/2 + sqrt(2)/2)
+  NO real-Dirichlet-character factorization mod 7 exists:
+    any a chi_0 + b chi_7 is CONSTANT on the residues {1, 2, 4}
+    (the quadratic residues), but the E6 values there are {0, sqrt2, 1} —
+    pairwise distinct.  Mechanism: (Z/5)* has 2 = |{+-1}-cosets| real
+    characters (even functions mod 5 = char span, FORCED by period +
+    palindrome + deaf-at-0), while (Z/7)* has 3 +-cosets but only 2
+    real characters.  The mod-5 Dirichlet form is a golden-stage
+    accident; the STAGE-UNIVERSAL form is the irrep-character law:
+      a_n^(stage) = |chi_D(class of [[n-1,n-2],[1,1]] mod kappa')|.
+
+B666 CELL 3: ALL GATES PASS
