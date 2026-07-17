@@ -1,0 +1,70 @@
+[     0.0s] LOAD: exec b637_threeform.py (banked apparatus)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   82.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  102.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  102.1s] G2a PASS: principal sl2 relations exact
+[  106.4s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  108.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 108.2s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[   108.7s] b637 module loaded
+[   108.7s] LOAD: rebuild the banked 5-class basis (double_Y, bend None)...
+[   121.7s]   Z^1(D;27) dim = 31 (banked: 31)
+[   130.9s]   5 class representatives rebuilt (greedy, banked order)
+[   133.9s]   phi (left-null of PHITRIV, normalized) = ['(0)', '(0)', '(0)', '(1)']
+[   133.9s] LOAD complete
+[   133.9s] loading checkpoint (exact E vectors)...
+[   135.1s] distinct Fox prefix words: 27
+[   137.8s] modular discovery (first 2 primes, both embeddings)...
+[   216.4s]   prime 1073741719 emb +: rank(lam) = 1007, rank(sym) = 1088  (79s)
+[   280.5s]   prime 1073741719 emb -: rank(lam) = 1007, rank(sym) = 1088  (64s)
+[   351.8s]   prime 1073741689 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   423.0s]   prime 1073741689 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   423.0s] [lam] rank = 1007, coker dim (H^2 of the 2-complex, discovery) = 397
+[   423.0s]   family [lam] class table (True = ZERO/coboundary, False = NONZ):
+[   423.0s]     ZERO  ZERO  NONZ  ZERO  NONZ 
+[   423.0s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   423.0s]     NONZ  NONZ  NONZ  NONZ  NONZ 
+[   423.0s]     ZERO  NONZ  NONZ  NONZ  NONZ 
+[   423.0s]     NONZ  NONZ  NONZ  NONZ  NONZ 
+[   423.0s]   [lam] symdiff verdicts: (0,1)=ZERO, (0,2)=ZERO, (0,3)=ZERO, (0,4)=ZERO, (1,2)=ZERO, (1,3)=ZERO, (1,4)=ZERO, (2,3)=ZERO, (2,4)=ZERO, (3,4)=ZERO
+[   423.0s] [sym] rank = 1088, coker dim (H^2 of the 2-complex, discovery) = 424
+[   423.0s]   family [sym] class table (True = ZERO/coboundary, False = NONZ):
+[   423.0s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   423.0s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   423.0s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[   423.0s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[   423.0s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[   423.0s]   family [pw] class table (True = ZERO/coboundary, False = NONZ):
+[   423.0s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   423.0s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   423.0s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[   423.0s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[   423.0s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[   423.0s]   [pw] asymsum verdicts: (0,1)=ZERO, (0,2)=ZERO, (0,3)=ZERO, (0,4)=ZERO, (1,2)=ZERO, (1,3)=ZERO, (1,4)=ZERO, (2,3)=ZERO, (2,4)=ZERO, (3,4)=ZERO
+[   423.0s] gate PASS: [c_Sym] = 0 <=> banked 27bar ZERO and 351' ZERO (all 25 pairs)
+[   423.0s] [lam] NONZ certificate cover: 2 left-null functionals for 19 NONZ rhs (null rows [151, 49])
+[   423.1s] [sym] NONZ certificate cover: 2 left-null functionals for 36 NONZ rhs (null rows [156, 148])
+[   493.5s]   prime 1073741671 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[   565.6s]   prime 1073741671 emb -: rank(lam) = 1007, rank(sym) = 1088  (72s)
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 430, in <module>
+    v = try_reconstruct(*item)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 404, in try_reconstruct
+    return reconstruct_vec(vp, vm, pr, sv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 243, in reconstruct_vec
+    x = reconstruct_K([v[t] for v in vecs_plus],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 228, in reconstruct_K
+    ua, m = crt_pair(ra, primes)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 199, in crt_pair
+    return x % m, m
+           ~~^~~
+OverflowError: Python int too large to convert to C long

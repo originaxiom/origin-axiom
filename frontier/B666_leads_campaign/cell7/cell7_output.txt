@@ -1,0 +1,190 @@
+==============================================================================
+STEP 0 -- machinery self-tests (exact)
+==============================================================================
+all valuation self-tests PASS  (pi = 1+2 sqrt(-3), pibar = conj;
+  silver split pair (3+2i),(3-2i); inert valuation = min of components)
+
+==============================================================================
+STEP 1 -- (a) the golden 13-localization table (banked cell-2 basis)
+==============================================================================
+
+-- cup table [u_i cup u_j] coordinates on b_m (13-carrying entries) --
+   [u_0 cup u_4] coord b_0=(0, 2): (v_pi, v_pibar) = (1, 1)   value = -13/15966720 + 13/15966720*r
+   [u_1 cup u_4] coord b_1=(0, 3): (v_pi, v_pibar) = (1, 1)   value = 13/15966720 + -13/15966720*r
+   [u_1 cup u_4] coord b_2=(1, 2): (v_pi, v_pibar) = (1, 1)   value = -13/15966720 + 13/15966720*r
+   [u_3 cup u_4] coord b_1=(0, 3): (v_pi, v_pibar) = (0, 1)   value = -260540 + 30641800/33*r
+   [u_3 cup u_4] coord b_3=(2, 3): (v_pi, v_pibar) = (1, 1)   value = 13/15966720 + -13/15966720*r
+   [u_4 cup u_0] coord b_0=(0, 2): (v_pi, v_pibar) = (1, 1)   value = 13/15966720 + -13/15966720*r
+   [u_4 cup u_1] coord b_1=(0, 3): (v_pi, v_pibar) = (1, 1)   value = -13/15966720 + 13/15966720*r
+   [u_4 cup u_1] coord b_2=(1, 2): (v_pi, v_pibar) = (1, 1)   value = 13/15966720 + -13/15966720*r
+   [u_4 cup u_3] coord b_1=(0, 3): (v_pi, v_pibar) = (0, 1)   value = 260540 + -30641800/33*r
+   [u_4 cup u_3] coord b_3=(2, 3): (v_pi, v_pibar) = (1, 1)   value = -13/15966720 + 13/15966720*r
+
+   pairs with ANY 13-content: [(0, 4), (1, 4), (3, 4), (4, 0), (4, 1), (4, 3)]
+   pairs with POSITIVE symmetric-or-not 13-content: [(0, 4), (1, 4), (3, 4), (4, 0), (4, 1), (4, 3)]
+   VERDICT A1: every v13>0 cup entry lies on a class-4 pair: True
+   H^2 directions (b_m) carrying v13>0 cup content: ['b_0=(0, 2)', 'b_1=(0, 3)', 'b_2=(1, 2)', 'b_3=(2, 3)']
+
+-- operator matrices: 13-carrying entries --
+   P (Y-pairing):
+      row0,col3: (v_pi, v_pibar) = (-1, -1)
+      row1,col2: (v_pi, v_pibar) = (-1, -1)
+      row2,col3: (v_pi, v_pibar) = (-1, -1)
+      row3,col0: (v_pi, v_pibar) = (-1, -1)
+      row3,col1: (v_pi, v_pibar) = (-1, -1)
+      row3,col4: (v_pi, v_pibar) = (-1, 0)
+      row4,col3: (v_pi, v_pibar) = (-1, 0)
+   MV0 (theta 2-form):
+      row3,col4: (v_pi, v_pibar) = (0, 1)
+      row4,col3: (v_pi, v_pibar) = (0, 1)
+   sigma2 (S on H^2):
+      row3,col0: (v_pi, v_pibar) = (-1, -1)
+      row4,col1: (v_pi, v_pibar) = (1, 1)
+   OH (natural op): 13-CLEAN (every nonzero entry has v_pi = v_pibar = 0)
+   Theta (theta_*):
+      row3,col0: (v_pi, v_pibar) = (-1, -1)
+   Psi (thetabar_*):
+      row3,col0: (v_pi, v_pibar) = (-1, -1)
+
+-- entries with 13 in the DENOMINATOR (v13 < 0) --
+   P (Y-pairing) row0,col3: (-1, -1)
+   P (Y-pairing) row1,col2: (-1, -1)
+   P (Y-pairing) row2,col3: (-1, -1)
+   P (Y-pairing) row3,col0: (-1, -1)
+   P (Y-pairing) row3,col1: (-1, -1)
+   P (Y-pairing) row3,col4: (-1, 0)
+   P (Y-pairing) row4,col3: (-1, 0)
+   sigma2 (S on H^2) row3,col0: (-1, -1)
+   Theta (theta_*) row3,col0: (-1, -1)
+   Psi (thetabar_*) row3,col0: (-1, -1)
+   count = 10
+
+-- NORM-SYMMETRY on the banked-basis tables --
+   entries with v_pi != v_pibar (directional 13): 6
+      cup (3,4),b_1: (v_pi, v_pibar) = (0, 1)  value = -260540 + 30641800/33*r
+      cup (4,3),b_1: (v_pi, v_pibar) = (0, 1)  value = 260540 + -30641800/33*r
+      P (Y-pairing) row3,col4: (v_pi, v_pibar) = (-1, 0)  value = 5332879641600/13 + 8106192460800/13*r
+      P (Y-pairing) row4,col3: (v_pi, v_pibar) = (-1, 0)  value = -5332879641600/13 + -8106192460800/13*r
+      MV0 (theta 2-form) row3,col4: (v_pi, v_pibar) = (0, 1)  value = 2595600 + -539280*r
+      MV0 (theta 2-form) row4,col3: (v_pi, v_pibar) = (0, 1)  value = -2595600 + 539280*r
+   [caveat: banked-basis entries are normalization-contaminated;
+    directional content at THIS layer is basis data, not invariant --
+    the invariant layer is STEP 2]
+
+==============================================================================
+STEP 2 -- (b) the norm route: the normalization-free golden invariants
+==============================================================================
+banked normal-form locks (B645): ALL PASS (exact re-verification)
+
+-- ideal valuations of the lit invariants and their deviations --
+   Dphi_a  inv1: v(inv) = (0, 0); v(inv - 1) = (v_pi, v_pibar) = (1, 1)   norm-symmetric: True
+   Dphi_a  inv2: v(inv) = (0, 0); v(inv - 1) = (v_pi, v_pibar) = (1, 1)   norm-symmetric: True
+   Dphi_Ainv inv1: v(inv) = (0, 0); v(inv - 1) = (v_pi, v_pibar) = (1, 1)   norm-symmetric: True
+   Dphi_Ainv inv2: v(inv) = (0, 0); v(inv - 1) = (v_pi, v_pibar) = (1, 1)   norm-symmetric: True
+   bent_m1 inv1: v(inv) = (0, 0); v(inv - 1) = (v_pi, v_pibar) = (1, 1)   norm-symmetric: True
+   bent_m1 inv2: v(inv) = (0, 0); v(inv - 1) = (v_pi, v_pibar) = (1, 1)   norm-symmetric: True
+
+   VERDICT B (the norm route, golden): every normalization-free
+   deviation has v_pi = v_pibar = 1 EXACTLY: True
+   => the 13-content of every invariant deviation is the RATIONAL
+      ideal (13) = (pi)(pibar) = the NORM ideal of (1+2 sqrt(-3));
+      no invariant sees a single split factor directionally.
+
+   211 on the golden side (invariants + cup table): NONE
+
+==============================================================================
+STEP 3 -- (c) the silver valuations (Q(i); 211 inert, 13 = (3+2i)(3-2i))
+==============================================================================
+silver_Y_L.json parsed: 10 slots, zero law Y[01k]=0 3/3, values in Q(i)
+cross-ratio recompute locks vs banked b649_g3_analysis values: BOTH PASS
+
+-- the silver lit deviations: v211 (inert) and v13 split pair --
+   silver inv1 - 1: v211 = 1; (v_(3+2i), v_(3-2i)) = (1, 0)   13-norm-symmetric: False
+   silver inv2 - 1: v211 = 1; (v_(3+2i), v_(3-2i)) = (1, 1)   13-norm-symmetric: True
+
+-- the silver Y values and spectator ratios (basis-contaminated,
+   labeled; the pairwise ratio DIFFERENCES are normalization-free) --
+   Y[023]/Y[123]: (v_(3+2i), v_(3-2i), v211) = (0, 1, 0)
+   Y[024]/Y[124]: (v_(3+2i), v_(3-2i), v211) = (0, 1, 0)
+   Y[034]/Y[134]: (v_(3+2i), v_(3-2i), v211) = (0, 1, 0)
+   normalization-free ratio differences (r23 - r24): (0, 0); (r23 - r34): (0, 0)
+
+-- v211 / v13 of the raw silver Y slots (basis-contaminated, listed) --
+   Y[023]: (v_(3+2i), v_(3-2i), v211) = (1, 0, 0)
+   Y[024]: (v_(3+2i), v_(3-2i), v211) = (-1, 0, -1)
+   Y[034]: (v_(3+2i), v_(3-2i), v211) = (-1, -1, -1)
+   Y[123]: (v_(3+2i), v_(3-2i), v211) = (1, -1, 0)
+   Y[124]: (v_(3+2i), v_(3-2i), v211) = (-1, -1, -1)
+   Y[134]: (v_(3+2i), v_(3-2i), v211) = (-1, -2, -1)
+   Y[234]: (v_(3+2i), v_(3-2i), v211) = (-1, -1, -1)
+
+==============================================================================
+STEP 4 -- the general law 'dial prime = smallest prime with behavior X'
+==============================================================================
+
+-- the splitting signature battery (exact Legendre symbols) --
+   p = 13: (-3|p)=+1  (5|p)=-1  (-15|p)=-1  (-1|p)=+1  (2|p)=-1  (-2|p)=-1  (3|p)=+1  (6|p)=-1  (-5|p)=-1  (10|p)=+1
+        p mod 3,4,5,8,12,24,120 = 1,1,3,5,1,13,13
+   p = 211: (-3|p)=+1  (5|p)=+1  (-15|p)=+1  (-1|p)=-1  (2|p)=-1  (-2|p)=+1  (3|p)=-1  (6|p)=+1  (-5|p)=-1  (10|p)=-1
+        p mod 3,4,5,8,12,24,120 = 1,3,1,3,7,19,91
+
+-- candidate laws (smallest-prime tests; PASS = selects the dial) --
+   [FAIL] split in Q(sqrt(-3)) (golden): smallest = 7, dial = 13  
+   [FAIL] split in Q(sqrt(-3)) & inert in Q(sqrt(5)) (golden): smallest = 7, dial = 13  
+   [PASS] p == 1 mod 12 (splits in Q(zeta12)) (golden): smallest = 13, dial = 13  
+   [PASS] p = 1 + 3 b^2 (norm of 1 + b sqrt(-3)) (golden): smallest = 13, dial = 13  
+   [FAIL] inert in Q(sqrt(5)) alone (golden): smallest = 2, dial = 13  
+   [PASS] p == 13 mod 15 (golden-own modulus 3*5) (golden): smallest = 13, dial = 13  
+   [PASS] p == 13 mod 60 (golden): smallest = 13, dial = 13  
+   [FAIL] inert in Q(i) (p == 3 mod 4) (silver): smallest = 3, dial = 211  
+   [FAIL] inert in Q(i) & inert in Q(sqrt(2)) (silver): smallest = 3, dial = 211  
+   [FAIL] p = 1 + 2 b^2 (norm of 1 + b sqrt(-2)) (silver): smallest = 3, dial = 211  
+   [FAIL] p = a^2 + b^2, a = 1 (norm of 1 + bi) (silver): smallest = 2, dial = 211  
+   [FAIL] silver-own 2-power moduli: p == 211 mod M (silver): smallest = 3, dial = 211  (M = 8; see sweep below)
+
+-- silver-own / near-own congruence sweep (non-vacuous: M < 211) --
+   M =   4 (own: conductor field): 211 == 3 mod M; smallest prime in class = 3  
+   M =   8 (own: conductor): 211 == 3 mod M; smallest prime in class = 3  
+   M =  16 (own: 2-power): 211 == 3 mod M; smallest prime in class = 3  
+   M =  32 (own: disc): 211 == 19 mod M; smallest prime in class = 19  
+   M =  64 (own: 2-power): 211 == 19 mod M; smallest prime in class = 19  
+   M = 128 (own: 2-power): 211 == 83 mod M; smallest prime in class = 83  
+   M =   3 (+chord prime 3): 211 == 1 mod M; smallest prime in class = 7  
+   M =  12 (2^2*3): 211 == 7 mod M; smallest prime in class = 7  
+   M =  24 (2^3*3): 211 == 19 mod M; smallest prime in class = 19  
+   M =  48 (2^4*3): 211 == 19 mod M; smallest prime in class = 19  
+   M =  96 (2^5*3): 211 == 19 mod M; smallest prime in class = 19  
+   M = 120 (CROSS-OBJECT 8*3*5): 211 == 91 mod M; smallest prime in class = 211  <-- SELECTS 211
+   M = 168 (2^3*3*7): 211 == 43 mod M; smallest prime in class = 43  
+   golden mirror, M = 120: smallest prime == 13 mod 120 = 13  <-- SELECTS 13
+
+-- recurrence-membership and unit-order facts (exact) --
+   13 is a Fibonacci number (13 = F_7): True
+   211 is a Pell number: False; a companion-Pell/half-companion: False
+   rank of apparition: alpha_Fib(13) = 7 (F_7 = 13: the dial
+   prime IS the Fibonacci number at its own rank of apparition);
+   alpha_Pell(211) = 212  (212 = 2^2*53; alpha | p+1: True; P_alpha is NOT 211-related)
+   [FAIL] p divides F_alpha with F_alpha = p (p IS a Fibonacci prime) (golden): smallest = 2, dial = 13  
+   [FAIL] p IS a Pell-sequence term (silver): smallest = 2, dial = 211  
+   ord(phi) in F_13[sqrt5]* = 28  (2(p+1) = 28: maximal = True)
+   ord(1+sqrt2) in F_211[sqrt2]* = 424  (2(p+1) = 424: maximal = True)
+   smallest inert prime with MAXIMAL unit order: golden 3 (dial 13: FAIL), silver 3 (dial 211: FAIL)
+
+==============================================================================
+STEP 5 -- VERDICT ASSEMBLY
+==============================================================================
+   candidate smallest-prime laws: 4 PASS / 12 FAIL
+      PASS: p == 1 mod 12 (splits in Q(zeta12)) (golden)
+      PASS: p = 1 + 3 b^2 (norm of 1 + b sqrt(-3)) (golden)
+      PASS: p == 13 mod 15 (golden-own modulus 3*5) (golden)
+      PASS: p == 13 mod 60 (golden)
+   every silver-OWN congruence law (2-power and 2^a*3 moduli < 211) FAILS: True
+   the unique congruence selecting 211 found: mod 120 = 8*3*5 (CROSS-OBJECT modulus -- uses the golden conductor 5; HINT, not law)
+   MB12 guard on mod 120: reduced classes = 32; classes with
+   NO prime below 120 = [1, 49, 77, 91, 119] (5/32);
+   211 lies in class 91 -- one of only 5 classes where
+   the smallest-prime test is even nontrivial; first primes there: {1: 241, 49: 409, 77: 197, 91: 211, 119: 239}
+   => the mod-120 selection has a-priori weight ~5/32 x (first-candidate-prime); recorded as HINT, not law.
+
+cell7_dial_valuations.json written
+CELL 7 COMPUTATION COMPLETE

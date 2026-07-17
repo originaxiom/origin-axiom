@@ -5888,3 +5888,27 @@ Kac-Peterson (theorem, 29/29); R3 the per-term Landsberg-Schaar
 PROVEN both stages — LAW-O's mechanism completes. CELL A' crashed at
 its Casimir slot search (deferred; cc2's D2 = the cross-lane).
 Locks 5/5.
+
+## 2026-07-18 — B666 WAVE 3 + CAMPAIGN CLOSE: the symmetric candidate; the descent completes; L91 reduces to H-EAR
+
+CELL A2-REPAIR: THE SYMMETRIC CANDIDATE EXISTS — the 351-valued cup
+is nonzero on the whole solo block AND slot-symmetric (the
+Koszul-parity escape, after five walls), and both exact
+scalarizations of the solo 3x3 have THREE DISTINCT EIGENVALUES
+(irreducible cubics over Q(sqrt-3)); 16-prime CRT, 44/44, zero
+uncertified; the scalarization-gauge question = the named follow-on
+(cc2 D2 cross-lane). CELL W35: THE DESCENT'S THIRD RUNG EXACT —
+bronze -> 2T/E6 at the RING-CONDUCTOR prime 3 (disc 117 = 3^2*13;
+the first f != d_K rung); the ladder walks E8 -> E7 -> E6 with the
+mode decided by SL(2)-realizability. CELL W32: L91 REDUCED to H-EAR
++ one branch lemma; the exact-fit classification unconditional;
+{SU(3)_2, SU(5)_1} = THE GALOIS PAIR (SU(5)_1 realizes phi^2 — the
+partner's landscape). CELL W31: R21-1 CLOSED unconditional (312/312;
+the boundary was presentation). CELL W33: L108's missing ingredient
+NAMED WITH A PROOF (values-not-grading); the exact weight-5 targets
+constructed (integer q-streams). CELL W34: L98's falsifier SEALED
+(N2 integer identity; MB12 selftest 5/5) + the asymptotics
+legal-target table. CELL 7: the first-power law; the directional
+13-split discovery; the dial invisible to the spectral layer.
+THE CAMPAIGN CLOSES: ~30 cells, every sealed cell banked on a sealed
+outcome (CAMPAIGN_SYNTHESIS.md). Locks 4/4.

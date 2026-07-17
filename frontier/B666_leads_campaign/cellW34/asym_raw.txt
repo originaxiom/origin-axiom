@@ -1,0 +1,76 @@
+========================================================================
+PART A — root systems, exact identities, KP growth exponents
+========================================================================
+  A1: |D+|=1, det A=2, h_vee=2, dim=3; (rho,alpha)=ht exact; sum_a (mu,a)(nu,a) = h_vee (mu,nu) EXACT (matrix identity)
+  A2: |D+|=3, det A=3, h_vee=3, dim=8; (rho,alpha)=ht exact; sum_a (mu,a)(nu,a) = h_vee (mu,nu) EXACT (matrix identity)
+  E6: |D+|=36, det A=3, h_vee=12, dim=78; (rho,alpha)=ht exact; sum_a (mu,a)(nu,a) = h_vee (mu,nu) EXACT (matrix identity)
+  Weyl dims verified: A1 fund=2; A2 fund=3, adj=8; E6 w1=27, adj=78
+  C2 anchor: A2 Casimir == banked su32_wrt header formula (3 cases)
+  C2(E6 27) = 52/3 (exact), C2(E6 78) = 24 = 2 h_vee (adjoint check: True)
+  S00 anchor A1: == banked su2_data closed form sqrt(2/kap)sin(pi/kap) (k=3,10; 35 digits)
+  S00 anchor A2: KP product 0.303530999103 == banked su3_data(2) Weyl sum |S[0,0]| 0.303530999103 (their S00 = +i * this, the (-i)^3 Weyl-denominator phase)
+  S00 anchor E6: KP product 1.893623883159e-01 == Weyl-sum |Z|/(kap^3 sqrt3) 1.893623883159e-01  (|W|=51840, banked B570 method)
+
+  S00 growth exponent (slope of log S00 between kappa=1e3, 1e4):
+    A1: slope = -1.499999   target -dim/2 = -1.5   |diff| = 7.07e-07
+        constant check: S00*kap^(dim/2)/C_g at kap=1e5 = 1.000000000 (-> 1)
+    A2: slope = -3.999996   target -dim/2 = -4.0   |diff| = 4.24e-06
+        constant check: S00*kap^(dim/2)/C_g at kap=1e5 = 0.999999999 (-> 1)
+    E6: slope = -38.999338   target -dim/2 = -39.0   |diff| = 6.62e-04
+        constant check: S00*kap^(dim/2)/C_g at kap=1e5 = 0.999999846 (-> 1)
+
+  fixed-rep quantum dimension: d(kappa) = dim*(1 - pi^2 h_vee C2 / (6 kappa^2) + O(kappa^-4))
+    A1 (1,): dim=2, C2=3/2; Richardson kappa^2 coeff = -4.93480220 vs -pi^2 h C2/6 = -4.93480220  (rel err 6.7e-14)
+    A1 (2,): dim=3, C2=4; Richardson kappa^2 coeff = -13.15947253 vs -pi^2 h C2/6 = -13.15947253  (rel err 1.1e-12)
+    A2 (1, 0): dim=3, C2=8/3; Richardson kappa^2 coeff = -13.15947253 vs -pi^2 h C2/6 = -13.15947253  (rel err 1.1e-12)
+    A2 (1, 1): dim=8, C2=6; Richardson kappa^2 coeff = -29.60881320 vs -pi^2 h C2/6 = -29.60881320  (rel err 1.2e-11)
+    E6 (1, 0, 0, 0, 0, 0): dim=27, C2=52/3; Richardson kappa^2 coeff = -342.14628519 vs -pi^2 h C2/6 = -342.14628590  (rel err 2.1e-09)
+    E6 (0, 1, 0, 0, 0, 0): dim=78, C2=24; Richardson kappa^2 coeff = -473.74100884 vs -pi^2 h C2/6 = -473.74101125  (rel err 5.1e-09)
+
+  alcove-interior quantum dimension growth (lambda = s*rho, s = floor(kappa/(2(h_vee-1)))): slope -> |D+| = (dim-r)/2
+    A1: slope = +1.0000   |D+| = 1
+    A2: slope = +2.9977   |D+| = 3
+    E6: slope = +35.9996   |D+| = 36
+
+  fixed-label S-entry: S_11/S_00 (A1, kap=1e5) = 4.000000 -> dim*dim = 4; every fixed entry scales as kappa^(-dim g/2)
+  T-entries: h_l = C2/(2 kappa) -> 0, c -> dim g, both with CONVERGENT 1/kappa series => bounded oscillatory, no resurgent data
+
+========================================================================
+PART B — the torsion towers (exact, vs cellB2's banked landscape)
+========================================================================
+  B1: |tau_m(tr)| == prod_(j=1..m) (beta^j - beta^-j)^2 EXACT at all 78/78 banked entries
+  B2: log|tau_m| - m(m+1) log beta - 2 log (q;q)_m == 0 (30-digit check, 6 spot entries):
+    tr= 3 m= 1: residual = 0.0e+00
+    tr= 3 m=11: residual = 4.0e-40
+    tr= 7 m= 5: residual = 6.7e-40
+    tr=10 m= 8: residual = 3.1e-39
+    tr=15 m= 4: residual = -6.0e-40
+    tr=15 m=11: residual = 2.8e-39
+  B3: tr=3: q = beta^-2 = 0.145898, 2 log(q;q)_inf = -0.365723620
+      eps_m = 2 log[(q;q)_m/(q;q)_inf]  vs the envelope 3 q^(m+1):
+      m= 1: eps_m = +5.031e-02   3q^(m+1) = 6.386e-02   inside: True
+      m= 4: eps_m = +1.548e-04   3q^(m+1) = 1.983e-04   inside: True
+      m= 5: eps_m = +2.258e-05   3q^(m+1) = 2.893e-05   inside: True
+      m= 7: eps_m = +4.807e-07   3q^(m+1) = 6.159e-07   inside: True
+      m= 8: eps_m = +7.014e-08   3q^(m+1) = 8.986e-08   inside: True
+      m=11: eps_m = +2.178e-10   3q^(m+1) = 2.791e-10   inside: True
+  B4: |tau_m(tr)| / tr^(m(m+1)) at tr = 12..15 (m=4) and tr=15 (all m):
+      m=4, tr=12: 0.856764
+      m=4, tr=13: 0.876786
+      m=4, tr=14: 0.892954
+      m=4, tr=15: 0.906181
+      tr=15, m= 1: 0.982222   (exponent m(m+1) = 2)
+      tr=15, m= 4: 0.906181   (exponent m(m+1) = 20)
+      tr=15, m= 5: 0.866528   (exponent m(m+1) = 30)
+      tr=15, m= 7: 0.771365   (exponent m(m+1) = 56)
+      tr=15, m= 8: 0.718073   (exponent m(m+1) = 72)
+      tr=15, m=11: 0.549006   (exponent m(m+1) = 132)
+
+========================================================================
+PART C — class P (periodic) is cited from the banked record, no
+computation: melody theorem N0 (B651), exact minimal period
+P = 175560 = 2^3*3*5*7*11*19 (B662/G), word-universality (B669:
+finite exact q-support => exactly periodic, all four words).
+========================================================================
+
+asymptotics computations done — see ASYMPTOTICS_NOTE.md
