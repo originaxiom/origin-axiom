@@ -71,6 +71,14 @@ audit: `docs/AUDIT_2026-07-05.md`.
   four packet tranches), 11 action items opened (R21-1..11: the novelty
   pass, the L99 amendment on owner approval, the pair-evenness lemma,
   the b353 leaker, five carried maths cells).
+- **POST-REVIEW EXECUTION (2026-07-17, owner-directed):** GOVERNANCE
+  §16 adopted (the factual-review lane; subagent-reviewer valid,
+  blinded lanes excepted); B658 — wall 8 TOTAL (both order-4 families
+  break; the chord's symmetry = the deck swap exactly; H128: every
+  broken mirror retreats to the portal's source); B659 — the novelty
+  dossier + six-group sweep (Q-FIELD answered by NEUMANN-REID; the
+  1/(2φ) gate OPEN at high confidence, double-passed; specialist bar
+  stands).
 - Standing: tracks L (cc2 ladder) and W (L95) event-driven; the next
   review fires on cadence from Review 21's anchor.
 

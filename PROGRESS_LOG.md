@@ -5565,3 +5565,29 @@ orientation-reversing family of Isom(4_1) = D4; the double's
 27-cohomology symmetry is the deck swap sigma* exactly. H128
 registered (the common retreat line = the portal's source v0 — an
 observation, not a law). Locks 2/2. R21-6 [x].
+
+## 2026-07-17 — B659: THE NOVELTY DOSSIER + THE SIX-GROUP SWEEP (R21-7 hybrid, owner-directed)
+
+The dossier (12 candidates, exact statements + banked evidence + the
+specific prior-art question each must survive) + the internal sweep
+(12 search agents x 2 angles per thematic group, 6 adversarial
+adjudicators, 96 findings; access date 2026-07-17). VERDICTS: 8
+KNOWN-ADJACENT with precisely stated deltas (incl. the conductor-clock
+law vs the Kurlberg-Rudnick mod-2N canon — no 3N modulus exists in
+that literature; the sign-theorem as a Stickelberger/Swan transport to
+the untreated Weyl pencil; the melody theorem — level-PERIODICITY
+found nowhere); 2 ROUTINE-method (the (i1,i2) reduction =
+Menal-Ferrer-Porti + MV; generic-silence = reciprocity exercise — LAW
+rows keep status, upgrade paths now cite the machinery); 1
+NOVEL-CANDIDATE (the anomaly characterization — nothing adjacent);
+and THE HEADLINE: the subfield law's field-coincidence is KNOWN
+OUTRIGHT (NEUMANN-REID Thm 2.4+2.2: shape field = invariant trace
+field; m136's k(Gamma) = Q(i) verified in-sweep) — B654's Q-FIELD
+mechanism question is ANSWERED BY THE LITERATURE; the law restates as
+"the chord data is defined over k(Gamma)" (row updated; new one-cell
+upgrade path: sigma*-equivariance => k(Gamma)). The 1/(2phi) lit-gate:
+OPEN at high confidence (equivalent forms checked: tan^2 = 1/sqrt5,
+cos2theta = 2-phi, cos72 — all resolve to GR1/GR2/GR3, none equal);
+double-passed the same day by cc2's independent S1a gate. The
+specialist bar (S5.1) remains the only path to the word "novel";
+R21-7 stays open, annotated SWEEP-DONE.

@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B659: the novelty dossier + the six-group literature sweep (R21-7 sweep phase done)
+
+### Added
+- The dossier (12 candidates, exact statements) + SWEEP_RESULTS (96
+  findings, 12 adversarial verdicts, access-dated). Headline: the
+  subfield law's field-coincidence = NEUMANN-REID (shape field =
+  invariant trace field) — Q-FIELD answered by the literature; the law
+  restated as "the chord data is defined over k(Γ)". The 1/(2φ)
+  lit-gate: OPEN at high confidence (equivalent forms checked;
+  double-passed by cc2's independent gate). 8 KNOWN-ADJACENT with
+  stated deltas; 2 ROUTINE-method; 1 NOVEL-CANDIDATE (the anomaly
+  characterization). Specialist bar stands (R21-7 open, annotated).
+
 ## 2026-07-17 — B658: the order-4 flip verdict (wall 8 total; R21-6 closed)
 
 ### Resolved
