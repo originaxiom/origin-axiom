@@ -95,6 +95,16 @@ audit: `docs/AUDIT_2026-07-05.md`.
   DOUBLET (exact; weight-5 forced by E₈ exponents; candidate functor,
   L108). Fed by and feeding the seat packets (B656–B663). New leads:
   L105–L108.
+- **THE LEADS CAMPAIGN (B666) — CLOSED 2026-07-18, ~30 cells across
+  four waves:** the five discoveries — hearing = character theory of
+  shadows (stage-universal); the McKay descent E8→E7→E6 complete;
+  THE SYMMETRIC CANDIDATE (three distinct eigenvalues, after five
+  walls); Q-C = c; L91 → H-EAR with the Galois pair {SU(3)₂, SU(5)₁}.
+  Plus: LAW-O mechanized, the unconditional reciprocity, the exact
+  period's sector structure (2−√5), the phase dichotomy (13), the
+  scale-torsor theorem, the triage. Residuals out: H-EAR + the branch
+  lemma; the grading object (L108); the scalarization gauge; the
+  directional-13 mechanism (see CAMPAIGN_SYNTHESIS.md).
 - Standing: tracks L (cc2 ladder) and W (L95) event-driven; the next
   review fires on cadence from Review 21's anchor.
 

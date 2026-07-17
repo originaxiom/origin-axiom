@@ -192,7 +192,9 @@ def run_module(kind, Phi, rhs_keys, rhs_red, p):
 def crt_pair(res_list, mod_list):
     x, m = 0, 1
     for r, p in zip(res_list, mod_list):
-        # combine x mod m with r mod p
+        # combine x mod m with r mod p (Python ints only: np.int64
+        # residues silently overflow / raise once m exceeds 2^63)
+        r, p = int(r), int(p)
         t = ((r - x) * pow(m % p, p - 2, p)) % p
         x = x + m * t
         m *= p
@@ -220,6 +222,7 @@ def reconstruct_K(res_plus, res_minus, primes, svals):
     """residues under both embeddings -> exact K element (or None)."""
     ra, rb = [], []
     for up, um, p, s in zip(res_plus, res_minus, primes, svals):
+        up, um, p, s = int(up), int(um), int(p), int(s)
         inv2 = pow(2, p - 2, p)
         a = ((up + um) * inv2) % p
         b = ((up - um) * inv2 * pow(s, p - 2, p)) % p

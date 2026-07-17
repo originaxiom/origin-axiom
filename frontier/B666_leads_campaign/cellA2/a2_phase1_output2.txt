@@ -1,0 +1,107 @@
+[     0.0s] LOAD: exec b637_threeform.py (banked apparatus)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   76.1s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   94.7s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   94.8s] G2a PASS: principal sl2 relations exact
+[   98.9s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  100.4s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 100.5s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[   101.0s] b637 module loaded
+[   101.0s] LOAD: rebuild the banked 5-class basis (double_Y, bend None)...
+[   113.1s]   Z^1(D;27) dim = 31 (banked: 31)
+[   121.6s]   5 class representatives rebuilt (greedy, banked order)
+[   121.6s] CONTROL G0 (decisive): recompute two banked Y components...
+[   238.9s]   Y[(0, 3, 4)] = (0+2/3r)  banked = (0+2/3r)  MATCH: True
+[   325.3s]   Y[(1, 3, 4)] = (1/24+1/72r)  banked = (1/24+1/72r)  MATCH: True
+[   325.3s]   G0 PASS: the rebuilt basis IS the banked basis
+[   346.8s]   Z^1(D;27bar) dim = 31; 5 27bar classes (greedy)
+[   346.8s]   phi (left-null of PHITRIV, normalized) = ['(0)', '(0)', '(0)', '(1)']
+[   346.8s] LOAD complete
+[   346.8s] P1: module action matrices + bookkeeping gates...
+[   397.0s]   P1 PASS: SLam/SSym act as wedge/sym of the 27-action (8 letters x 2 seeds)
+[   397.0s] P2: pi equivariance (Sym^2 -> 27bar)...
+[   400.1s]   P2 PASS: pi(g.S) = rhobar(g) pi(S) (8 letters x 2 seeds)
+[   400.1s] P3: trace form, dual basis, Ad letters, 78-pairing...
+[   401.7s]   trace-form Gram inverted; tr(Yd_i X_j) = delta_ij (spot rows, all j)
+[   421.2s]   Ad(a) built (19s) [closure PASS]
+[   440.8s]   Ad(A) built (20s) [closure PASS]
+[   460.8s]   Ad(b) built (20s) [closure PASS]
+[   480.1s]   Ad(B) built (19s) [closure PASS]
+[   499.9s]   Ad(c) built (20s) [closure PASS]
+[   519.5s]   Ad(C) built (20s) [closure PASS]
+[   539.5s]   Ad(d) built (20s) [closure PASS]
+[   559.1s]   Ad(D) built (20s) [closure PASS]
+[   561.4s]   Ad(g)Ad(g^-1) = I (4 letters); E6_SOLVER closure = letters are E6
+[   569.2s]   P3 PASS: p78(rho x, rhobar w) = Ad p78(x, w) (8 letters)
+[   621.5s]   Ad(relator) = I at 78 (all 4 relators)
+[   621.5s] P4: split Casimir on Sym^2, U (27bar summand), W = ker pi, P_W...
+[   625.6s]   lam_W from extreme-weight squares e_a.e_a (a = 0, 13, 26): (2/9)
+[   626.8s]   lam_U from the (C2 - lam_W)-image of a generic seed: (-13/9)
+[   627.3s]   cross-gate PASS: Casimir(27) = ((26/9)) I and lam_U = -c27/2
+[   627.3s]   C2 eigenvalues on Sym^2: lam1 = (2/9), lam2 = (-13/9); minimal polynomial t^2 - ((-11/9)) t + ((-26/81))
+[   634.2s]   gate PASS: (C2 - lam1)(C2 - lam2) = 0 on 3 fresh seeds
+[   634.3s]   W = ker(pi) dim = 351 (want 351)
+[   635.4s]   lam_W (351') = (2/9); lam_U (27bar) = (-13/9)
+[   637.3s]   gate PASS: C2 = lam_W on sampled W basis vectors
+[   692.4s]   U = im(C2 - lam_W) dim = 27 (want 27)
+[   695.7s]   gate PASS: C2 = lam_U on U
+[   695.7s]   pi|U invertible (27bar summand confirmed as a complement of W)
+[   696.9s]   gate PASS: letters preserve U (sampled)
+[   704.5s]   P4 PASS: P_W idempotent, equivariant (8 letters x 2 seeds), pi P_W = 0, P_W|W = id
+[   704.5s] P5: invariant vectors and functionals (h^0) for the three modules...
+[   987.3s]   h^0(D;Lambda^2 27) = 0; invariant functionals on Lambda^2: 0
+[  1280.3s]   h^0(D;Sym^2 27) = 3; invariant functionals on Sym^2: 3
+[  1280.3s]   invariant Sym^2 functionals killing U (351'-functionals): 2
+[  1283.2s]   h^0(D;78) = 0; invariant functionals on 78: 0
+[  1288.4s]   P5 PASS: functionals re-verified (f o rho(g) = f)
+[  1288.4s] P6: CONTROL-A sign conventions per module (E_M(delta f) = Fox f)...
+[  1444.3s]   CONTROL A PASS [lam]: E(delta f) = PHI f_gen (2 seeds)
+[  1604.0s]   CONTROL A PASS [sym]: E(delta f) = PHI f_gen (2 seeds)
+[  1627.3s]   CONTROL A PASS [ad]: E(delta f) = PHI f_gen (2 seeds)
+[  1627.3s] P7: the cup values + exact relator evaluations E(c)...
+[  1631.1s]   gate PASS: Lambda-cup 2-cocycle identity (3 pairs x 3 triples)
+[  1644.7s]   gate PASS: 78-cup 2-cocycle identity (2 pairs x 3 triples)
+[  1940.3s]   E vectors (lam, sym, pw) for 25 pairs (296s)
+[  3301.9s]   E vectors (78, both orders) for 25+25 pairs (1362s)
+[  3301.9s] P8: 27bar consistency gate: pi(E_SYM)/2 == banked cross-cup E...
+[  3305.1s]   P8 PASS: pi(E_SYM)/2 = banked-machinery cross-cup E (5 pairs)
+[  3334.8s]   P8 PASS: banked 27bar cup class table reproduced (25 pairs)
+[  3334.8s] P9: mediated class tables (invariant functionals -> H^2(D;C))...
+[  3334.8s]   mediated table [sym_f0]:
+[  3334.8s]     [(0), (0), (0), (0+-10r), (0)]
+[  3334.8s]     [(0), (0), (0+3r), (-5/8+-5/24r), (0)]
+[  3334.8s]     [(0), (0+-3r), (0), (-13769902540800+-12655585152000r), (77837760+37920960r)]
+[  3334.8s]     [(0+10r), (5/8+5/24r), (13769902540800+12655585152000r), (0), (-12978000+2696400r)]
+[  3334.8s]     [(0), (0), (-77837760+-37920960r), (12978000+-2696400r), (0)]
+[  3334.8s]   mediated table [sym_f1]:
+[  3334.8s]     [(0), (0), (0), (0+2r), (0)]
+[  3334.8s]     [(0), (0), (0+2r), (1/8+1/24r), (0)]
+[  3334.8s]     [(0), (0+-2r), (0), (2524411008000+2502057600000r), (51891840+25280640r)]
+[  3334.8s]     [(0+-2r), (-1/8+-1/24r), (-2524411008000+-2502057600000r), (0), (2595600+-539280r)]
+[  3334.8s]     [(0), (0), (-51891840+-25280640r), (-2595600+539280r), (0)]
+[  3334.8s]   mediated table [sym_f2]:
+[  3334.8s]     [(0), (0), (0), (0+14r), (0)]
+[  3334.8s]     [(0), (0), (0+1r), (7/8+7/24r), (0)]
+[  3334.8s]     [(0), (0+-1r), (0), (18818724556800+17659700352000r), (25945920+12640320r)]
+[  3334.8s]     [(0+-14r), (-7/8+-7/24r), (-18818724556800+-17659700352000r), (0), (18169200+-3774960r)]
+[  3334.8s]     [(0), (0), (-25945920+-12640320r), (-18169200+3774960r), (0)]
+[  3334.8s]   mediated table [pw_f0]:
+[  3334.8s]     [(0), (0), (0), (0+-82/9r), (0)]
+[  3334.8s]     [(0), (0), (0+16/3r), (-41/72+-41/216r), (0)]
+[  3334.8s]     [(0), (0+-16/3r), (0), (-12775480704000+-11559703680000r), (138378240+67415040r)]
+[  3334.8s]     [(0+82/9r), (41/72+41/216r), (12775480704000+11559703680000r), (0), (-11824400+2456720r)]
+[  3334.8s]     [(0), (0), (-138378240+-67415040r), (11824400+-2456720r), (0)]
+[  3334.8s]   mediated table [pw_f1]:
+[  3334.8s]     [(0), (0), (0), (0+-124/9r), (0)]
+[  3334.8s]     [(0), (0), (0+28/3r), (-31/36+-31/108r), (0)]
+[  3334.8s]     [(0), (0+-28/3r), (0), (-19431004723200+-17494702848000r), (242161920+117976320r)]
+[  3334.8s]     [(0+124/9r), (31/36+31/108r), (19431004723200+17494702848000r), (0), (-17880800+3715040r)]
+[  3334.8s]     [(0), (0), (-242161920+-117976320r), (17880800+-3715040r), (0)]
+[  3334.8s] P10: checkpoint dump...
+[  3335.3s] checkpoint written: /Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/ckpt_phase1.json (5015 KB)
+[  3335.3s] PHASE 1 COMPLETE

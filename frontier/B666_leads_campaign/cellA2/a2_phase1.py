@@ -219,54 +219,90 @@ S0 = matofSym(symco(rvec(101), rvec(202)))
 S1 = C2(S0)
 assert all((S1[a][b] - S1[b][a]).is_zero()
            for a in range(27) for b in range(27)), "C2 not symmetric"
-S2 = C2(S1)
-# dependence S2 = al*S1 + be*S0 : solve from two coordinate slots, verify all
-pairs_used = []
-for (a, b) in [(0, 1), (0, 2), (1, 2), (0, 0), (1, 1), (3, 5)]:
-    pairs_used.append((a, b))
-    if len(pairs_used) >= 2:
-        (a1, b1), (a2, b2) = pairs_used[-2], pairs_used[-1]
-        det = S1[a1][b1] * S0[a2][b2] - S1[a2][b2] * S0[a1][b1]
-        if not det.is_zero():
-            al = (S2[a1][b1] * S0[a2][b2]
-                  - S2[a2][b2] * S0[a1][b1]) * det.inv()
-            be = (S1[a1][b1] * S2[a2][b2]
-                  - S1[a2][b2] * S2[a1][b1]) * det.inv()
-            break
-else:
-    raise AssertionError("no independent slots for the minimal polynomial")
-ok = all((S2[a][b] - al * S1[a][b] - be * S0[a][b]).is_zero()
-         for a in range(27) for b in range(27))
-assert ok, "C2 minimal polynomial degree > 2 on Sym^2?!"
-log(f"  C2 minimal poly on the seed orbit: t^2 - ({al}) t - ({be})")
-# roots: t = (al +/- sqrt(al^2+4be))/2 ; expect rational
-assert al.b == 0 and be.b == 0, "unexpected sqrt(-3) part in Casimir"
 from fractions import Fraction as Fr    # noqa: E402
-disc = al.a * al.a + 4 * be.a
-num, den = disc.numerator, disc.denominator
 
+# --- REPAIR of the crashed slot search (a2_phase1_output.txt line 46;
+# diagnosis in a2_p4_probe_output.txt): the eigenvalues are computed
+# ABSTRACTLY from one exact eigenvector per summand, no generic-slot
+# 2x2 solve anywhere.
+# (i) lam_W: the 27 is minuscule (every weight extreme), so e_a . e_a
+#     is an extreme-weight vector of the 351' summand of Sym^2 and
+#     hence a C2 eigenvector; its eigenvalue is read off exactly and
+#     cross-checked over three different a.
+lamW_c = None
+for a in (0, 13, 26):
+    Eaa = [[K0] * 27 for _ in range(27)]
+    Eaa[a][a] = K1
+    CE = C2(Eaa)
+    lam = CE[a][a]
+    ok = all((CE[p][q] - (lam if (p, q) == (a, a) else K0)).is_zero()
+             for p in range(27) for q in range(27))
+    assert ok, f"e_{a}.e_{a} is not a C2 eigenvector"
+    if lamW_c is None:
+        lamW_c = lam
+    else:
+        assert (lam - lamW_c).is_zero(), \
+            "extreme-weight eigenvalue varies with a"
+log(f"  lam_W from extreme-weight squares e_a.e_a (a = 0, 13, 26): "
+    f"{lamW_c}")
 
-def isqrtF(fr):
-    import math
-    nn, dd = fr.numerator, fr.denominator
-    rn = math.isqrt(nn)
-    rd = math.isqrt(dd)
-    if rn * rn == nn and rd * rd == dd:
-        return Fr(rn, rd)
-    return None
+# (ii) lam_U: (C2 - lam_W) kills the 351' summand and scales the 27bar
+#      summand U, so any nonzero image vector is a C2 eigenvector with
+#      the second eigenvalue; verified exactly on all 27x27 slots.
+lamU_c = None
+for sd0 in (101, 307, 509):
+    Sg = S0 if sd0 == 101 else matofSym(symco(rvec(sd0), rvec(sd0 + 101)))
+    CSg = S1 if sd0 == 101 else C2(Sg)
+    V1 = [[CSg[a][b] - lamW_c * Sg[a][b] for b in range(27)]
+          for a in range(27)]
+    if all(x.is_zero() for row in V1 for x in row):
+        continue          # seed happened to lie in 351'; try the next
+    CV = C2(V1)
+    for a in range(27):
+        for b in range(27):
+            if not V1[a][b].is_zero():
+                lamU_c = CV[a][b] * V1[a][b].inv()
+                break
+        if lamU_c is not None:
+            break
+    assert all((CV[a][b] - lamU_c * V1[a][b]).is_zero()
+               for a in range(27) for b in range(27)), \
+        "(C2 - lam_W) image is not a C2 eigenvector"
+    break
+assert lamU_c is not None, "no generic seed met the U summand"
+assert not (lamU_c - lamW_c).is_zero(), "Casimir does not split Sym^2"
+log(f"  lam_U from the (C2 - lam_W)-image of a generic seed: {lamU_c}")
 
+# (iii) cross-gate: sum_i Yd_i X_i = c27 * I on the 27 (Schur scalar)
+#       and lam_U = -c27/2 (split Casimir on the 27bar summand of
+#       27 x 27; c(27bar) = c(27), the dual has the same Casimir).
+CAS27 = [[K0] * 27 for _ in range(27)]
+for i in range(78):
+    T_ = n.mmul(Yd[i], X78[i])
+    for a in range(27):
+        Ta = T_[a]
+        Ca = CAS27[a]
+        for b in range(27):
+            if not Ta[b].is_zero():
+                Ca[b] = Ca[b] + Ta[b]
+c27 = CAS27[0][0]
+assert all((CAS27[a][b] - (c27 if a == b else K0)).is_zero()
+           for a in range(27) for b in range(27)), "Casimir(27) not scalar"
+assert (lamU_c * K(-2) - c27).is_zero(), "lam_U != -c27/2 cross-gate"
+log(f"  cross-gate PASS: Casimir(27) = ({c27}) I and lam_U = -c27/2")
 
-rt = isqrtF(disc)
-assert rt is not None, f"Casimir discriminant {disc} not a square"
-lam1 = K((al.a + rt) / 2)
-lam2 = K((al.a - rt) / 2)
-log(f"  C2 eigenvalues on Sym^2: lam1 = {lam1}, lam2 = {lam2}")
+lam1, lam2 = lamW_c, lamU_c
+al = lam1 + lam2
+assert al.b == 0 and (lam1 * lam2).b == 0, \
+    "unexpected sqrt(-3) part in Casimir"
+log(f"  C2 eigenvalues on Sym^2: lam1 = {lam1}, lam2 = {lam2}; "
+    f"minimal polynomial t^2 - ({al}) t + ({lam1 * lam2})")
 for sd in (303, 404, 505):
     T = matofSym(symco(rvec(sd), rvec(sd + 1)))
     V = C2(T)
-    Vm = [[V[a][b] - lam1.a * T[a][b] for b in range(27)] for a in range(27)]
+    Vm = [[V[a][b] - lam1 * T[a][b] for b in range(27)] for a in range(27)]
     W2 = C2(Vm)
-    Wm = [[W2[a][b] - lam2.a * Vm[a][b] for b in range(27)]
+    Wm = [[W2[a][b] - lam2 * Vm[a][b] for b in range(27)]
           for a in range(27)]
     assert all(x.is_zero() for row in Wm for x in row), \
         "(C2-lam1)(C2-lam2) != 0"
@@ -293,7 +329,7 @@ Wm0 = matofSym(wv)
 CW = C2(Wm0)
 lamW = None
 for cand in (lam1, lam2):
-    diff = [[CW[a][b] - cand.a * Wm0[a][b] for b in range(27)]
+    diff = [[CW[a][b] - cand * Wm0[a][b] for b in range(27)]
             for a in range(27)]
     if all(x.is_zero() for row in diff for x in row):
         lamW = cand
@@ -304,7 +340,7 @@ log(f"  lam_W (351') = {lamW}; lam_U (27bar) = {lamU}")
 for wv2 in (WBAS[100], WBAS[250]):
     Wm2 = matofSym(wv2)
     CW2 = C2(Wm2)
-    assert all((CW2[a][b] - lamW.a * Wm2[a][b]).is_zero()
+    assert all((CW2[a][b] - lamW * Wm2[a][b]).is_zero()
                for a in range(27) for b in range(27))
 log("  gate PASS: C2 = lam_W on sampled W basis vectors")
 
@@ -314,7 +350,7 @@ sd = 900
 while True:
     S = matofSym(symco(rvec(sd), rvec(sd + 7)))
     V = C2(S)
-    Vm = [[V[a][b] - lamW.a * S[a][b] for b in range(27)]
+    Vm = [[V[a][b] - lamW * S[a][b] for b in range(27)]
           for a in range(27)]
     Uco.append(coofSym(Vm))
     sd += 13
@@ -327,7 +363,7 @@ assert len(UBAS) == 27
 UMAT = [matofSym(u) for u in UBAS]
 for u in UMAT[:3]:
     CU = C2(u)
-    assert all((CU[a][b] - lamU.a * u[a][b]).is_zero()
+    assert all((CU[a][b] - lamU * u[a][b]).is_zero()
                for a in range(27) for b in range(27))
 log("  gate PASS: C2 = lam_U on U")
 

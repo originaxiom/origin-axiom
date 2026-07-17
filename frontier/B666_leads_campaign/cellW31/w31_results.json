@@ -1,0 +1,176 @@
+{
+ "gates": {
+  "P1_hypothesis_certificates_12": true,
+  "P1e_e6_even_all_51840": true,
+  "P2_F_even_posdef_12": true,
+  "P2_identity_exact_all": true,
+  "P2_banked_tables_exact_all": true,
+  "P2_matrix_cross_anchor": true,
+  "P3_dt_level3k_exact_all": true,
+  "P3b_boundary_slice": true,
+  "P3b_rep_dependence_exhibited": true,
+  "P4_aggregate_20_rungs": true
+ },
+ "rungs_phase2": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  35,
+  40,
+  45,
+  60,
+  100
+ ],
+ "kappas_phase3": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  12,
+  15,
+  20
+ ],
+ "terms": [
+  {
+   "label": "+w0",
+   "detB": 1,
+   "detF": 3,
+   "deth": 1,
+   "sigma": 0,
+   "denlcm2": 3,
+   "denlcm4": 1
+  },
+  {
+   "label": "+w1",
+   "detB": 5,
+   "detF": 15,
+   "deth": 5,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  },
+  {
+   "label": "+w2",
+   "detB": 5,
+   "detF": 15,
+   "deth": 5,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  },
+  {
+   "label": "+w3",
+   "detB": 16,
+   "detF": 48,
+   "deth": 16,
+   "sigma": 0,
+   "denlcm2": 6,
+   "denlcm4": 6
+  },
+  {
+   "label": "+w4",
+   "detB": 16,
+   "detF": 48,
+   "deth": 16,
+   "sigma": 0,
+   "denlcm2": 6,
+   "denlcm4": 6
+  },
+  {
+   "label": "+w5",
+   "detB": 5,
+   "detF": 15,
+   "deth": 5,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  },
+  {
+   "label": "-w0",
+   "detB": 25,
+   "detF": 75,
+   "deth": 25,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  },
+  {
+   "label": "-w1",
+   "detB": 5,
+   "detF": 15,
+   "deth": 5,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  },
+  {
+   "label": "-w2",
+   "detB": 5,
+   "detF": 15,
+   "deth": 5,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  },
+  {
+   "label": "-w3",
+   "detB": 4,
+   "detF": 12,
+   "deth": 4,
+   "sigma": 0,
+   "denlcm2": 3,
+   "denlcm4": 3
+  },
+  {
+   "label": "-w4",
+   "detB": 4,
+   "detF": 12,
+   "deth": 4,
+   "sigma": 0,
+   "denlcm2": 3,
+   "denlcm4": 3
+  },
+  {
+   "label": "-w5",
+   "detB": 5,
+   "detF": 15,
+   "deth": 5,
+   "sigma": 0,
+   "denlcm2": 15,
+   "denlcm4": 15
+  }
+ ],
+ "phase2_counts": {
+  "identity": 312,
+  "tables": 312,
+  "total": 312
+ },
+ "phase3_counts": {
+  "identity": 120,
+  "total": 120
+ },
+ "matrix_cross_anchor_maxdev": 1.1324337995147666e-13,
+ "phase4_maxdev": 1.3539118105531068e-50,
+ "runtime_s": 7.82
+}

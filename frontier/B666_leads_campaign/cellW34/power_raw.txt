@@ -1,0 +1,76 @@
+provenance gate PASS
+
+== P1/P2: exact functionals at 8 controls x depths 13/14/15 ==
+ kappa depth  g=mst/diam    label    ns   e2/e1
+  0.55    13    0.080375  0.38197   233  1.0000   (2.0s)
+  0.55    14    0.079661  0.38197   377  0.9928   (5.3s)
+  0.55    15    0.079285  0.38197   610  0.9973   (16.4s)
+  0.60    13    0.075592  0.38197   233  1.0000   (2.5s)
+  0.60    14    0.074677  0.38197   377  0.9906   (5.8s)
+  0.60    15    0.074230  0.38197   610  0.9964   (16.9s)
+  0.65    13    0.071860  0.38197   233  1.0000   (2.5s)
+  0.65    14    0.070699  0.38197   377  0.9889   (5.8s)
+  0.65    15    0.070237  0.38197   610  0.9955   (16.8s)
+  0.70    13    0.069503  0.38197   233  1.0000   (2.5s)
+  0.70    14    0.068299  0.38197   377  0.9896   (5.9s)
+  0.70    15    0.067910  0.38197   610  0.9956   (16.8s)
+  1.60    13    0.040988  0.38197   233  1.0000   (2.6s)
+  1.60    14    0.040824  0.38197   377  0.9792   (5.5s)
+  1.60    15    0.040950  0.38197   610  0.9654   (14.4s)
+  1.65    13    0.040922  0.38197   233  1.0000   (2.6s)
+  1.65    14    0.040034  0.38197   377  0.9415   (5.6s)
+  1.65    15    0.040005  0.38197   610  0.9445   (14.1s)
+  1.70    13    0.035855  0.38197   233  1.0000   (2.5s)
+  1.70    14    0.035207  0.38197   377  0.9609   (5.5s)
+  1.70    15    0.035567  0.38197   610  0.9550   (13.6s)
+  1.90    13    0.019346  0.38197   233  1.0000   (2.5s)
+  1.90    14    0.017139  0.38197   377  0.8629   (5.1s)
+  1.90    15    0.015505  0.38197   610  0.9752   (12.9s)
+
+P1a  label depth-scatter per control (max pairwise |dx|):
+  kappa=0.55: 1.66e-06
+  kappa=0.60: 1.66e-06
+  kappa=0.65: 1.66e-06
+  kappa=0.70: 1.66e-06
+  kappa=1.60: 1.66e-06
+  kappa=1.65: 1.66e-06
+  kappa=1.70: 1.66e-06
+  kappa=1.90: 1.66e-06
+  WORST label depth-scatter: 1.66e-06 (adjacent phi-hierarchy labels differ by >= 0.09)
+
+P1b  perturbation floor of g (1e-10 eigenvalue noise, 5 seeds, 2 controls x depth 14):
+  kappa=0.60: max |dg| over 5 seeds = 4.64e-11, label invariant
+  kappa=1.90: max |dg| over 5 seeds = 4.64e-11, label invariant
+  => measurement noise of g: 4.64e-11  (N3's jitter floor on box_dim was 1.4e-2 — 3.0e+08 times larger)
+
+P2  ordinal depth-stability of g at the controls (the flapping channel):
+  sign(g(0.60)-g(0.55)) by depth: [-1, -1, -1]  depth-consistent: True
+  sign(g(0.65)-g(0.60)) by depth: [-1, -1, -1]  depth-consistent: True
+  sign(g(0.70)-g(0.65)) by depth: [-1, -1, -1]  depth-consistent: True
+  sign(g(1.65)-g(1.60)) by depth: [-1, -1, -1]  depth-consistent: True
+  sign(g(1.70)-g(1.65)) by depth: [-1, -1, -1]  depth-consistent: True
+  sign(g(1.90)-g(1.70)) by depth: [-1, -1, -1]  depth-consistent: True
+  ordinal depth-consistency: 6/6 (flapping rate 0.00)
+
+P2b  magnitude: adjacent-control |dg| vs the perturbation floor:
+  min adjacent |dg| across controls/depths: 6.53e-05; floor 4.64e-11; ratio 1.4e+06
+
+== P3: MB12 vacuity — the sealed criterion can pass AND fail ==
+== l98_falsifier --selftest (MB12: criterion can pass AND fail) ==
+  synthetic unimodal (drift<=1):   ONE-ORGAN  organs=[(7, 7, 7)]  N2=0
+  synthetic bimodal (sep>=2):      TWO-ORGANS  organs=[(4, 4, 4), (11, 11, 11)]  N2=1
+  flapping second peak:            ONE-ORGAN  organs=[(7, 7, 7)]  N2=0
+  no consistent organ:             UNRESOLVED  organs=[]  N2=-1
+  twin summit at index-gap 1..2:   TWO-ORGANS  organs=[(7, 7, 7), (9, 9, 9)]  N2=1
+  (informational; separation rule exercised)
+selftest PASS — both outcomes reachable, flapping handled
+
+== P4: the banked-data dry run (no fresh target points) ==
+  banked g @F1597 : [0.04127, 0.05257, 0.05757, 0.06252, 0.06299, 0.05658, 0.0503, 0.03295]
+  banked box_dim14: [1.06906, 1.07267, 1.07477, 1.08043, 1.06936, 1.06441, 1.07493, 1.07171]
+  argmax g = kappa 1.2;  box_dim interior valley = kappa 1.3;  offset = 1 coarse step(s)
+  notch regression box_dim ~ a + b*kappa + c*g: c = +0.092 (notch sign expected NEGATIVE under one-organ)
+  residual peaks (N3 rule) at plateau indices: [1.1, 1.4]
+  residual range -0.0081..+0.0073 vs N3 jitter floor 0.0143
+
+power analysis done

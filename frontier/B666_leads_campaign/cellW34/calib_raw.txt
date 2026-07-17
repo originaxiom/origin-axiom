@@ -1,0 +1,24 @@
+provenance gate: metallic_word/spectrum verbatim vs packet lib_banked.py  PASS
+
+== C1/C2/C3: labels at the controls, depths 12..15 ==
+ kappa depth     L         e1    x=ns/L    ns   e2/e1  top-5 (ns/L)
+  0.60    12   377    0.30009   0.38196   144  0.9429  [0.3820 0.3820 0.2361 0.2361 0.4721]  (0.6s)
+  0.60    13   610    0.28916   0.38197   233  1.0000  [0.3820 0.3820 0.2361 0.2361 0.4721]  (2.0s)
+  0.60    14   987    0.28566   0.38197   377  0.9906  [0.3820 0.3820 0.2361 0.2361 0.4721]  (5.3s)
+  0.60    15  1597    0.28395   0.38197   610  0.9964  [0.3820 0.3820 0.2361 0.2361 0.4721]  (14.3s)
+  1.90    12   377    0.08528   0.38196   144  0.7400  [0.3820 0.3979 0.0159 0.4005 0.3634]  (0.5s)
+  1.90    13   610    0.07715   0.38197   233  1.0000  [0.3820 0.3820 0.3984 0.3984 0.0164]  (2.0s)
+  1.90    14   987    0.06835   0.38197   377  0.8629  [0.3820 0.3820 0.3982 0.3658 0.0152]  (4.3s)
+  1.90    15  1597    0.06183   0.38197   610  0.9752  [0.3820 0.3820 0.2361 0.3982 0.3657]  (11.3s)
+
+== C2 summary: per-kappa depth scatter of the primary label x ==
+  kappa=0.60: x by depth = ['0.38196', '0.38197', '0.38197', '0.38197'], max pairwise |dx| = 0.00000
+  kappa=1.90: x by depth = ['0.38196', '0.38197', '0.38197', '0.38197'], max pairwise |dx| = 0.00000
+
+== C4: perturbation stability (eigenvalues + N(0,1e-10), 5 seeds) ==
+  kappa=0.60 depth=13: n_small invariant under 5 seeded 1e-10 perturbations: True
+  kappa=0.60 depth=14: n_small invariant under 5 seeded 1e-10 perturbations: True
+  kappa=1.90 depth=13: n_small invariant under 5 seeded 1e-10 perturbations: True
+  kappa=1.90 depth=14: n_small invariant under 5 seeded 1e-10 perturbations: True
+
+calibration done

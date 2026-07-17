@@ -1,0 +1,9 @@
+112345cb3bccccda6682864ac3b518cd4f24a1ef59c60770400455f61078df53  L98_FALSIFIER_PREREG.md
+36d0157f265665df2acbb0865857076df0040aecd66ccae88200b8428f956b00  l98_falsifier.py
+0904fb4a35cfc5551323ec0bbd3e961d5aca6e281d1fea579483b6f83c5586ca  l98_lib.py
+0532759b47c3382e561e1935dcc99d5b164a86bedb68e0058b57f7c0ed2e336b  l98_design_calibration.py
+Fri Jul 17 17:17:58 CEST 2026
+sealed BEFORE l98_power_analysis.py ran and BEFORE any target-grid point was computed; --unblind reserved for the next data pass
+49cbc9469b0bae7040198d9c59a58913d39e62d69a2c43eed7c8dcd17ecba9af  l98_power_analysis.py
+99fe1f39cf990b77c51c5177403590299103718852c8a3edfbdd2b9b46222d7e  f_prime_asymptotics.py
+4f85f453c67e44aba12438b7fb21fc3d17ae0c3e2d60dbe039ea0ab780f4d763  ASYMPTOTICS_NOTE.md

@@ -1,0 +1,4 @@
+# B666 cell W3-2 (cell 12, L91 obligations (1)-(3)) -- artifact hashes
+# script written once, run once, output preserved byte-faithfully (no reruns)
+6ad3a50a73e2941390b330d75b6015dcdf4cd0904e19c291b334b67c655cce31  b666_cellW32.py
+98370ef39fa8db834e5273779274a116b9cc6ffc9fdaa77584513cf6aa83b05c  cellW32_output.txt

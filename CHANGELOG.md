@@ -6,6 +6,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B666 wave 3 + campaign close
+
+### Added
+- **THE SYMMETRIC CANDIDATE** (the 351-cup: slot-symmetric, nonzero
+  on the solo block, THREE DISTINCT EIGENVALUES — after five walls).
+- **The metallic-McKay descent completes: bronze → 2T/E6 exact** —
+  the ladder walks E8→E7→E6; mode = SL(2)-realizability; the partner
+  lives at the ring-conductor prime.
+- **L91 reduced to one hypothesis (H-EAR)** with the exact-fit
+  classification and **the Galois pair {SU(3)₂, SU(5)₁}** identified.
+- R21-1 unconditional; L108's missing ingredient named with proof +
+  exact targets; L98's falsifier sealed; the first-power law + the
+  directional 13-split. THE CAMPAIGN CLOSES (~30 cells). Locks 4/4.
+
 ## 2026-07-17 — B666 wave 2: ten verdicts, three theorems, the fifth wall
 
 ### Added

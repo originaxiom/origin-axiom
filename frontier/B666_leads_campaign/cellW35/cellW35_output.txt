@@ -1,0 +1,165 @@
+B666 cell W3-5 — the bronze McKay rung (G')
+======================================================================
+
+[A] THE BRONZE WORD AND ITS CONDUCTOR STRUCTURE
+    W = R^3 L^3 = (10, 3, 3, 1)   trace 11 = m^2+2 (m=3): True   det 1
+    disc = tr^2 - 4 = 117;  tr - 2 = 9 = m^2;  tr + 2 = 13 = m^2 + 4
+    disc factorization: 117 = 3^2 * 13
+    squarefree part 13 (mod 4 = 1)  ==>  field disc d_K = 13, RING CONDUCTOR f = 3
+    eigenvalue field Q(sqrt13); lambda = (11 + 3*sqrt13)/2   [check: 3^2*13 = 117 = disc: True]
+
+    the metallic ladder (bundle R^m L^m), m = 1..8:
+      m | trace | disc = m^2(m^2+4) |   d_K | f  (f = ring conductor of Z[lambda])
+      1 |     3 |                 5 |     5 | 1
+      2 |     6 |                32 |     8 | 2
+      3 |    11 |               117 |    13 | 3  <-- bronze
+      4 |    18 |               320 |     5 | 8
+      5 |    27 |               725 |    29 | 5
+      6 |    38 |              1440 |    40 | 6
+      7 |    51 |              2597 |    53 | 7
+      8 |    66 |              4352 |    17 | 16
+    f = m at m = 1, 2, 3 (golden, silver, bronze); the bronze is the FIRST rung
+    where the f-prime (3) and the d_K-prime (13) are DIFFERENT primes.
+
+[B] THE SHADOWS <R,L> mod n
+
+    <R,L> mod 3: order 24  (brute-forced full |SL(2,Z/3)| = 24; FULL: True)
+      order profile: {1: 1, 2: 1, 3: 8, 4: 6, 6: 8}
+      involutions: 1   center order: 2   exponent: 12
+
+    <R,L> mod 5: order 120  (brute-forced full |SL(2,Z/5)| = 120; FULL: True)
+      order profile: {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}
+      involutions: 1   center order: 2   exponent: 60
+
+    <R,L> mod 8: order 384  (brute-forced full |SL(2,Z/8)| = 384; FULL: True)
+      order profile: {1: 1, 2: 15, 3: 32, 4: 144, 6: 96, 8: 96}
+      involutions: 15   center order: 4   exponent: 24
+
+    <R,L> mod 9: order 648  (brute-forced full |SL(2,Z/9)| = 648; FULL: True)
+      order profile: {1: 1, 2: 1, 3: 98, 4: 54, 6: 98, 9: 144, 12: 108, 18: 144}
+      involutions: 1   center order: 2   exponent: 36
+
+    <R,L> mod 13: order 2184  (brute-forced full |SL(2,Z/13)| = 2184; FULL: True)
+      order profile: {1: 1, 2: 1, 3: 182, 4: 182, 6: 182, 7: 468, 12: 364, 13: 168, 14: 468, 26: 168}
+      involutions: 1   center order: 2   exponent: 1092
+
+    GOLDEN CONTROL: mod-5 order 120, 1 involution -> 2I = SL(2,5): True
+    SILVER CONTROL: mod-8 order 384 (= 384, cell 1's banked fact: True)
+
+    CRT residue bijections verified: Z/39 ~ Z/3 x Z/13: True;  Z/117 ~ Z/9 x Z/13: True
+    => |SL(2,Z/39)| = 24*2184 = 52416;  |SL(2,Z/117)| = 648*2184 = 1415232
+    <R,L> mod 39: order 52416  (FULL: True)   involutions 3   center order 4
+    <R,L> mod 117: computing closure (int-encoded BFS)...
+    <R,L> mod 117: order 1415232  (FULL SL(2,Z/117): True)
+
+[C] 2T EXACT (the 24 Hurwitz unit quaternions)
+    order 24   order profile {1: 1, 2: 1, 3: 8, 4: 6, 6: 8}
+    involutions: 1 (unique = True; the involution is -1: True)
+    center order 2   exponent 12
+    quaternion 2-dim character values (2*Re) histogram: {'-1': 8, '-2': 1, '0': 6, '1': 8, '2': 1}   (ALL RATIONAL)
+    2T normal-subgroup orders: [1, 2, 8, 24]  (no order-3 normal subgroup: True)
+
+[D] HEAD-TO-HEAD AT THE RING CONDUCTOR (mod 3)
+    mod-3 shadow (order 24) ~ 2T ?  ISOMORPHIC, witness ((Fraction(1, 2), Fraction(-1, 2), Fraction(-1, 2), Fraction(-1, 2)), (Fraction(1, 2), Fraction(-1, 2), Fraction(-1, 2), Fraction(1, 2)))
+
+    which |SL(2,Z/n)| can a binary polyhedral group equal?
+      brute-forced |SL(2,Z/n)|, n = 2..16: {2: 6, 3: 24, 4: 48, 5: 120, 6: 144, 7: 336, 8: 384, 9: 648, 10: 720, 11: 1320, 12: 1152, 13: 2184, 14: 2016, 15: 2880, 16: 3072}
+      n = 17..48: the n^2 distinct products R^b L^c verified in SL(2,Z/n) => |SL(2,Z/n)| >= n^2 > 120: True
+      |SL(2,Z/n)| = 24 (=|2T|) only at n = [3];  = 48 (=|2O|) only at n = [4];  = 120 (=|2I|) only at n = [5]
+    control: 2O rebuilt exactly over Q(sqrt2): order 48, involutions 1
+    control (cell 1's banked fact re-verified): mod-4 shadow ~ 2O ?  NOT isomorphic (complete search)
+    ==> 2T = SL(2,3) and 2I = SL(2,5) are SL(2)-realizable; 2O is NOT |SL(2,Z/n)| for any n except n=4, and the n=4 group is not 2O.
+    THIS is why the silver rung could only be a quotient.
+
+[E] MOD 9 (the f^2 modulus): QUOTIENTS AND SUBGROUPS
+    conjugacy classes: 25  sizes [1, 1, 4, 4, 4, 4, 6, 6, 12, 12, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 54, 54, 54]
+    normal subgroups: 6  orders [1, 2, 27, 54, 216, 648]
+    order-27 normal subgroups (kernels of 24-quotients): 1
+    the canonical mod-3 congruence kernel K = {g = I mod 3}: order 27; K in lattice: True
+      N#0 (= the canonical kernel): quotient order 24, profile {1: 1, 2: 1, 3: 8, 4: 6, 6: 8}, involutions 1 -> ~2T? YES
+    ==> 2T IS A QUOTIENT OF THE MOD-9 SHADOW: True
+
+    does 2T EMBED?  (complete (order-4, order-3) pair search, capped closures)
+      premise: 2T generated by some (4,3)-pair: True  (48 of 48 such pairs generate)
+      (SL(2,5): 30 order-4, 20 order-3 elements; 600 pairs)
+      POSITIVE CONTROL SL(2,5) = 2I: 2T subgroup FOUND, e.g. ((0, 1, 4, 0), (1, 1, 2, 3))  (5 distinct copies)
+      (SL(2,Z/9): 54 order-4, 98 order-3 elements; 5292 pairs)
+      SL(2,Z/9): 2T subgroup FOUND at ((0, 1, 8, 0), (1, 2, 3, 7))  (27 distinct copies)
+      SPLIT VERIFICATION: H  intersect  (mod-3 kernel K) = [(1, 0, 0, 1)] (trivial: True);  H mod 3 generates order 24 (= all of SL(2,3): True)
+      ==> the extension 1 -> K(27) -> SL(2,Z/9) -> SL(2,3) -> 1 SPLITS: SL(2,Z/9) = K x| 2T, and 2T is a RETRACT (both quotient and complement).
+      Q8 (= 2T's Sylow-2) inside SL(2,Z/9): PRESENT at ((0, 1, 8, 0), (1, 4, 4, 8))   (|SL(2,Z/9)| = 648 = 2^3 * 3^4, so a Q8 is a full Sylow-2)
+      contrast with silver: Q16 (2O's Sylow-2) was ABSENT from SL(2,Z/8) and 2O did NOT embed (cell 1); at the bronze BOTH the Sylow (Q8) and the full partner 2T are present — no obstruction at all.
+
+[F] MOD 13 (the d_K modulus): QUOTIENTS AND SUBGROUPS
+    computing the normal-subgroup lattice of SL(2,13)...
+    conjugacy classes: 17  sizes [1, 1, 84, 84, 84, 84, 156, 156, 156, 156, 156, 156, 182, 182, 182, 182, 182]
+    normal subgroups: 3  orders [1, 2, 2184]
+    order-91 normal subgroup (kernel of a 24-quotient) exists: False
+    ==> 2T IS A QUOTIENT OF THE MOD-13 SHADOW: False
+      (SL(2,13): 182 order-4, 182 order-3 elements; 33124 pairs)
+    SL(2,13): 2T subgroup FOUND at ((0, 1, 12, 0), (0, 3, 4, 12))  (91 distinct copies)
+
+[G] MOD 117 (the full discriminant modulus)
+    shadow order 1415232 = full |SL(2,Z/117)|: True
+    mod-3 projection of the generators generates a group of order 24 = the mod-3 shadow ~ 2T (kernel order 1415232 / 24 = 58968)
+    ==> 2T IS A CANONICAL QUOTIENT OF THE MOD-117 SHADOW (kernel 58968)
+    CRT lift of the mod-13 witness: <(91, 27, 90, 91), (91, 81, 108, 64)> has order 24 and ~2T: True
+    ==> 2T IS ALSO A SUBGROUP OF THE MOD-117 SHADOW (through the 13-block)
+
+[H] THE EXACT CHARACTER TABLE OF 2T OVER Q(zeta3)
+    conjugacy classes: 7  (order, size): [(1, 1), (2, 1), (3, 4), (3, 4), (4, 6), (6, 4), (6, 4)]
+    [2T,2T] order 8 (= Q8: True and len 8);  2T^ab order 3, cyclic of order 3: True
+    psi is a homomorphism on all 24^2 pairs: True
+
+    the table (columns = classes by (order, size)):
+      chi_1  (deg 1): ['1', '1', '1', '1', '1', '1', '1']
+      psi    (deg 1): ['1', '1', '1z', '(-1-1z)', '1', '(-1-1z)', '1z']
+      psi^2  (deg 1): ['1', '1', '(-1-1z)', '1z', '1', '1z', '(-1-1z)']
+      chi_2  (deg 2): ['2', '-2', '-1', '-1', '0', '1', '1']
+      chi_2 psi   : ['2', '-2', '-1z', '(1+1z)', '0', '(-1-1z)', '1z']
+      chi_2 psi^2 : ['2', '-2', '(1+1z)', '-1z', '0', '1z', '(-1-1z)']
+      chi_3  (deg 3): ['3', '3', '0', '0', '-1', '0', '0']
+    full first-orthogonality (49 inner products, exact): True
+    degrees [1, 1, 1, 2, 2, 2, 3]  sum of squares = 24 = |2T|: True
+    all 10 distinct values lie in Q(zeta3); 4 are IRRATIONAL (b != 0), e.g. [1z, (-1-1z), (1+1z)]
+    (1 + 2*zeta3)^2 = -3  (= -3: True)  ==>  the character field = Q(zeta3) = Q(sqrt-3)
+
+    the McKay graph of chi_2 (exact inner products <chi_2 * chi_i, chi_j>):
+      chi_1  (deg 1) [0, 0, 0, 1, 0, 0, 0]
+      psi    (deg 1) [0, 0, 0, 0, 1, 0, 0]
+      psi^2  (deg 1) [0, 0, 0, 0, 0, 1, 0]
+      chi_2  (deg 2) [1, 0, 0, 0, 0, 0, 1]
+      chi_2 psi      [0, 1, 0, 0, 0, 0, 1]
+      chi_2 psi^2    [0, 0, 1, 0, 0, 0, 1]
+      chi_3  (deg 3) [0, 0, 0, 1, 1, 1, 0]
+    symmetric: True; 0/1-valued: True; zero diagonal: True; degree sequence [1, 1, 1, 2, 2, 2, 3]
+    = the AFFINE E6 DIAGRAM (three arms of length 2 joined at the degree-3 node chi_3): True
+
+[I] TONE DATA: THE BRONZE WORD IN ITS OWN SHADOWS
+    W mod   3: (1, 0, 0, 1) = IDENTITY   order 1   trace 2
+    W mod   9: (1, 3, 3, 1)   order 3   trace 2
+    W mod  13: (10, 3, 3, 1)   order 26   trace 11
+    W mod  39: (10, 3, 3, 1)   order 26   trace 11
+    W mod 117: (10, 3, 3, 1)   order 78   trace 11
+    at the ring conductor 3 the word is the IDENTITY: its 2T-tone is chi_2(W) = 2 (the trivial/maximal tone).
+
+    the bundle-invisibility lemma (R^m = L^m = I mod m):
+      m = 1: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 2: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 3: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 4: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 5: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 6: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 7: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+      m = 8: R^m mod m = (1, 0, 0, 1), L^m mod m = (1, 0, 0, 1)  -> the ENTIRE bundle group <R^m, L^m> = I mod m: True
+    (so the whole bronze bundle group lies in the mod-3 congruence kernel: the 2T shadow is generated by the LETTERS R, L, and the word is structurally silent at its own ring conductor — same mechanism at every metallic rung; silver control: R^2L^2 = I mod 2, banked in cell 1's tone table as the ambient-only hearing.)
+
+======================================================================
+VERDICT (cell W3-5, the bronze McKay rung):
+  conductor structure: disc = 117 = 3^2 * 13 = f^2 * d_K with f = 3 (ring conductor), d_K = 13 (field disc); the FIRST rung where the two live at different primes.
+  the mod-3 shadow IS 2T (= SL(2,3), complete iso): True  -- E6's McKay partner appears EXACTLY, at the ring-conductor prime.
+  mod 9 (order 648 = full): 2T a quotient: True (canonical kernel 27) AND a subgroup: True — the extension SPLITS (2T is a retract of SL(2,Z/9)).
+  mod 13 (order 2184 = full): 2T a quotient: False; a subgroup: True (91 copies).
+  mod 117 (order 1415232 = full): 2T a canonical quotient (kernel 58968) AND a subgroup (CRT lift).
+  character field of 2T = Q(zeta3) = Q(sqrt-3) (exact table, affine-E6 McKay graph verified); the bronze EIGENVALUE field is Q(sqrt13) — the first rung where character field and eigenvalue field SPLIT.
+  THE DESCENT'S THIRD RUNG LANDS: golden -> 2I/E8 (exact at 5), silver -> 2O/E7 (quotient-only at 8), bronze -> 2T/E6 (exact at 3).  The mode is explained: 2I = SL(2,5) and 2T = SL(2,3) are the only SL(2)-realizable partners; 2O is not SL(2,Z/n) for any n.

@@ -1209,11 +1209,11 @@ health and reader-path check NOT run this cycle (declared, per the
 template's honesty rule).
 
 ### Action items (Review 21)
-- [ ] R21-1: the κ-unconditional reciprocity form (carried from R20-1; source: B625)
+- [x] R21-1: DONE (B666/W31, 2026-07-17) — THE UNCONDITIONAL FORM: B625's 3|κ boundary was a presentation artifact (the level-3κ even-form hypothesis holds for every κ; Gram certificate; 312/312 + 120/120 exact incl. every 3∤κ case; the E₆ aggregate born unconditional)
 - [x] R21-2: DONE (B666 cell 9, 2026-07-17) — all six exponents confirm EXACT INTEGERS; the sealed m=11 digits adjudicated as input-precision noise (the B627-era hazard resolved); sign law holds on the exact values
 - [x] R21-3: DONE (B666 cell 9, 2026-07-17) — the J-spectrum and per-word branch identifications banked (run-1 failure preserved; run 2 clean)
 - [ ] R21-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (carried from R20-4; B656/G5's machinery now applies)
-- [ ] R21-5: the 13-dial mechanism with the two-object 13·211-adic data (carried from R20-6; source: B645/B649)
+- [x] R21-5: SHARPENED (B666/cell7, 2026-07-17) — THE FIRST-POWER LAW (v_P(lit-dev) = 1 at every prime over the dial, 8/8 both objects); the norm-mechanism refuted as uniform; v13 localizes on the class-4 pairs (two independent witnesses); the DIRECTIONAL split-prime discovery ((1,0) at the primes over 13 on the silver — an invariant asymmetry); the residual mechanism question carries in the campaign's out-list
 - [x] R21-6: DONE (owner-directed 2026-07-17; B658, prereg 0c4a1115) — both order-4 families BROKEN with the same singular d = (0,0,1); wall 8 upgraded to the TOTAL statement (all four orientation-reversing families of D₄ break; the double's symmetry = σ* exactly)
 - [ ] R21-7: the prior-art/novelty pass over ALL standing THEOREM/LAW candidates (carried from R20-9; NEEDS-SPECIALIST; §5.1 gate) — **SWEEP PHASE DONE (B659, 2026-07-17): 12 verdicts (1 KNOWN-field-half via Neumann–Reid, 2 ROUTINE-method, 8 KNOWN-ADJACENT with stated deltas, 1 NOVEL-CANDIDATE); the dossier is the specialist's package; the specialist bar itself remains open**
 - [ ] R21-8: the web seat's L95 prereg — verify-on-receipt when it lands (carried out of R20-10)

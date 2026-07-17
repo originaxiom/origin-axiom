@@ -1,0 +1,118 @@
+[     0.0s] LOAD: exec b637_threeform.py (banked apparatus)...
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   80.2s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  100.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  100.1s] G2a PASS: principal sl2 relations exact
+[  104.4s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  106.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 106.2s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+[   106.7s] b637 module loaded
+[   106.7s] LOAD: rebuild the banked 5-class basis (double_Y, bend None)...
+[   119.6s]   Z^1(D;27) dim = 31 (banked: 31)
+[   128.5s]   5 class representatives rebuilt (greedy, banked order)
+[   131.4s]   phi (left-null of PHITRIV, normalized) = ['(0)', '(0)', '(0)', '(1)']
+[   131.4s] LOAD complete
+[   131.4s] loading checkpoint (exact E vectors)...
+[   132.7s] distinct Fox prefix words: 27
+[   135.3s] modular discovery (first 2 primes, both embeddings)...
+[   213.9s]   prime 1073741719 emb +: rank(lam) = 1007, rank(sym) = 1088  (79s)
+[   277.9s]   prime 1073741719 emb -: rank(lam) = 1007, rank(sym) = 1088  (64s)
+[   349.0s]   prime 1073741689 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   420.4s]   prime 1073741689 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   420.4s] [lam] rank = 1007, coker dim (H^2 of the 2-complex, discovery) = 397
+[   420.4s]   family [lam] class table (True = ZERO/coboundary, False = NONZ):
+[   420.4s]     ZERO  ZERO  NONZ  ZERO  NONZ 
+[   420.4s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   420.4s]     NONZ  NONZ  NONZ  NONZ  NONZ 
+[   420.4s]     ZERO  NONZ  NONZ  NONZ  NONZ 
+[   420.4s]     NONZ  NONZ  NONZ  NONZ  NONZ 
+[   420.4s]   [lam] symdiff verdicts: (0,1)=ZERO, (0,2)=ZERO, (0,3)=ZERO, (0,4)=ZERO, (1,2)=ZERO, (1,3)=ZERO, (1,4)=ZERO, (2,3)=ZERO, (2,4)=ZERO, (3,4)=ZERO
+[   420.4s] [sym] rank = 1088, coker dim (H^2 of the 2-complex, discovery) = 424
+[   420.4s]   family [sym] class table (True = ZERO/coboundary, False = NONZ):
+[   420.4s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   420.4s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   420.4s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[   420.4s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[   420.4s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[   420.4s]   family [pw] class table (True = ZERO/coboundary, False = NONZ):
+[   420.4s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   420.4s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[   420.4s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[   420.4s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[   420.4s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[   420.4s]   [pw] asymsum verdicts: (0,1)=ZERO, (0,2)=ZERO, (0,3)=ZERO, (0,4)=ZERO, (1,2)=ZERO, (1,3)=ZERO, (1,4)=ZERO, (2,3)=ZERO, (2,4)=ZERO, (3,4)=ZERO
+[   420.4s] gate PASS: [c_Sym] = 0 <=> banked 27bar ZERO and 351' ZERO (all 25 pairs)
+[   420.4s] [lam] NONZ certificate cover: 2 left-null functionals for 19 NONZ rhs (null rows [151, 49])
+[   420.4s] [sym] NONZ certificate cover: 2 left-null functionals for 36 NONZ rhs (null rows [156, 148])
+[   490.6s]   prime 1073741671 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[   562.3s]   prime 1073741671 emb -: rank(lam) = 1007, rank(sym) = 1088  (72s)
+[   563.2s] reconstruction with 3 primes: 0/44 stabilized
+[   634.7s]   prime 1073741527 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   706.9s]   prime 1073741527 emb -: rank(lam) = 1007, rank(sym) = 1088  (72s)
+[   709.2s] reconstruction with 4 primes: 8/44 stabilized
+[   780.1s]   prime 1073741503 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   851.5s]   prime 1073741503 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   922.4s]   prime 1073741467 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   993.4s]   prime 1073741467 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[   996.9s] reconstruction with 6 primes: 25/44 stabilized
+[  1067.6s]   prime 1073741419 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1138.4s]   prime 1073741419 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1209.1s]   prime 1073741371 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1279.3s]   prime 1073741371 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  1281.9s] reconstruction with 8 primes: 34/44 stabilized
+[  1352.5s]   prime 1073741329 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1423.8s]   prime 1073741329 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1494.9s]   prime 1073741311 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1565.0s]   prime 1073741311 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  1634.9s]   prime 1073741287 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  1705.3s]   prime 1073741287 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  1776.0s]   prime 1073741197 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  1845.9s]   prime 1073741197 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  1848.6s] reconstruction with 12 primes: 39/44 stabilized
+[  1918.4s]   prime 1073741173 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  1989.2s]   prime 1073741173 emb -: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  2060.0s]   prime 1073741101 emb +: rank(lam) = 1007, rank(sym) = 1088  (71s)
+[  2129.5s]   prime 1073741101 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  2199.5s]   prime 1073741077 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  2269.8s]   prime 1073741077 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  2340.0s]   prime 1073741047 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  2409.5s]   prime 1073741047 emb -: rank(lam) = 1007, rank(sym) = 1088  (70s)
+[  2411.3s] reconstruction with 16 primes: 44/44 stabilized
+[  2411.3s] EXACT verification of the certificates (streaming Fox columns)...
+[  2455.5s]   [lam] generator a columns done (44s)
+[  2521.6s]   [lam] generator b columns done (110s)
+[  2568.1s]   [lam] generator c columns done (157s)
+[  2596.2s]   [lam] generator d columns done (185s)
+[  2676.5s]   [sym] generator a columns done (80s)
+[  2781.1s]   [sym] generator b columns done (185s)
+[  2865.1s]   [sym] generator c columns done (269s)
+[  2896.7s]   [sym] generator d columns done (300s)
+[  2897.2s] verification complete; final certified tables:
+[  2897.2s]   family [lam] CERTIFIED table:
+[  2897.2s]     ZERO  ZERO  NONZ  ZERO  NONZ 
+[  2897.2s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[  2897.2s]     NONZ  NONZ  NONZ  NONZ  NONZ 
+[  2897.2s]     ZERO  NONZ  NONZ  NONZ  NONZ 
+[  2897.2s]     NONZ  NONZ  NONZ  NONZ  NONZ 
+[  2897.2s]   family [sym] CERTIFIED table:
+[  2897.2s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[  2897.2s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[  2897.2s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[  2897.2s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[  2897.2s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[  2897.2s]   family [pw] CERTIFIED table:
+[  2897.2s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[  2897.2s]     ZERO  ZERO  NONZ  NONZ  NONZ 
+[  2897.2s]     NONZ  NONZ  ZERO  NONZ  NONZ 
+[  2897.2s]     NONZ  NONZ  NONZ  ZERO  NONZ 
+[  2897.2s]     NONZ  NONZ  NONZ  NONZ  ZERO 
+[  2897.2s]   [lam] symdiff: (0,1)=ZERO-CERTIFIED; (0,2)=ZERO-CERTIFIED; (0,3)=ZERO-CERTIFIED; (0,4)=ZERO-CERTIFIED; (1,2)=ZERO-CERTIFIED; (1,3)=ZERO-CERTIFIED; (1,4)=ZERO-CERTIFIED; (2,3)=ZERO-CERTIFIED; (2,4)=ZERO-CERTIFIED; (3,4)=ZERO-CERTIFIED
+[  2897.2s]   [pw] asymsum: (0,1)=ZERO-CERTIFIED; (0,2)=ZERO-CERTIFIED; (0,3)=ZERO-CERTIFIED; (0,4)=ZERO-CERTIFIED; (1,2)=ZERO-CERTIFIED; (1,3)=ZERO-CERTIFIED; (1,4)=ZERO-CERTIFIED; (2,3)=ZERO-CERTIFIED; (2,4)=ZERO-CERTIFIED; (3,4)=ZERO-CERTIFIED
+[  2897.2s] phase2_results.json written
+[  2897.2s] PHASE 2 COMPLETE
+PHASE2 EXIT OK

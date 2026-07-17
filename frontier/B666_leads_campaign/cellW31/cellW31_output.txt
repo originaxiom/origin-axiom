@@ -1,0 +1,127 @@
+=== CELL W3-1 / PHASE 1 — exact hypothesis certificates (12 terms) ===
+q(y) = <y, h_w(y)> on the DUAL lattice W* = P(+)P (weight coords = Z^4):
+  +w0: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=4/3; G4 int+even True; |det h| = 1 == detB = 1; sigma = +0  [True]
+  +w1: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=10/3; G4 int+even True; |det h| = 5 == detB = 5; sigma = +0  [True]
+  +w2: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=4/3; G4 int+even True; |det h| = 5 == detB = 5; sigma = +0  [True]
+  +w3: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=10/3; G4 int+even True; |det h| = 16 == detB = 16; sigma = +0  [True]
+  +w4: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=16/3; G4 int+even True; |det h| = 16 == detB = 16; sigma = +0  [True]
+  +w5: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=16/3; G4 int+even True; |det h| = 5 == detB = 5; sigma = +0  [True]
+  -w0: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=16/3; G4 int+even True; |det h| = 25 == detB = 25; sigma = +0  [True]
+  -w1: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=10/3; G4 int+even True; |det h| = 5 == detB = 5; sigma = +0  [True]
+  -w2: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=16/3; G4 int+even True; |det h| = 5 == detB = 5; sigma = +0  [True]
+  -w3: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=10/3; G4 int+even True; |det h| = 4 == detB = 4; sigma = +0  [True]
+  -w4: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=4/3; G4 int+even True; |det h| = 4 == detB = 4; sigma = +0  [True]
+  -w5: Omega*h sym True; q(W*) in (2/3)Z True; den-3 witness q((-1, -1, -1, 0))=4/3; G4 int+even True; |det h| = 5 == detB = 5; sigma = +0  [True]
+  vol(W)^2 = det(BW^T Omega BW) = 9  =>  vol(W*) = 1/3 exactly: True
+
+  => DT hypothesis (1) at level r:   (r/2) q(y) in Z for all y in W*.
+     q(W*) subset (2/3)Z with denominator 3 realized (witnesses above), so
+     it holds at level r  IFF  3 | r   — B625's conditional boundary.
+     At level r = 3 kappa:  (3k/2)(2m/3) = k m in Z  FOR EVERY kappa —
+     the boundary DISSOLVES into the level normalization  [P:Q] = 3.
+
+-- Phase 1e: E6 — nu^T C6 B_w nu in 2Z for ALL w (the ladder terms are
+   BORN unconditional: even root lattice, no [P:Q] denominator) --
+   C6 B_w symmetric for all 51840: True;  diag(C6 B_w) even for all: True
+   => the E6 character sums G_w(r) are coset-well-defined at EVERY r:
+      no divisibility condition exists at the E6 stage.  (1.3s)
+
+=== PHASE 2 — the even-form reciprocity at level 3 kappa, certified EXACTLY ===
+S(F_w, 3k) = (3k/sqrt(det F_w)) * i * Gamma_w(3k)   [F_w = K B_w EVEN, pos def]
+=> t_w(kappa) = Gamma_w(3 kappa)/(3 sqrt(det B_w))  at EVERY kappa.
+  F_w symmetric, EVEN diagonal, positive definite, det F = 3 det B: 12/12 exact
+  exact cyclotomic identity (Phi_M-reduced): 312/312 PASS (26 rungs x 12 terms; rungs cover ALL residues mod 20 — every
+  resonant type 2|k, 4|k, 5|k, 20|k, generic — and both 3-classes)
+  banked cellR3 tables re-derived from Gamma: 312/312 exact (0.8s)
+
+-- P2 cross-anchor: matrix traces vs the closed form (float gate, k=4..14) --
+   max |matrix trace - closed form| over 11 kappa x 12 terms = 1.132e-13
+
+=== PHASE 3 — the DT form itself at level 3 kappa: the boundary dissolved ===
+sqrt|det h| * Sum_{x in W/rW} zeta_2r^{<x,hx>}  ==  3 * zeta_8^sigma * r^2 * Gamma4(r)
+(the B625 identity, exact cyclotomic; r = 3 kappa => valid at EVERY kappa)
+  kappa =  4 (r = 12, 3|kappa: False): 12/12 exact  PASS
+  kappa =  5 (r = 15, 3|kappa: False): 12/12 exact  PASS
+  kappa =  6 (r = 18, 3|kappa: True): 12/12 exact  PASS
+  kappa =  7 (r = 21, 3|kappa: False): 12/12 exact  PASS
+  kappa =  8 (r = 24, 3|kappa: False): 12/12 exact  PASS
+  kappa =  9 (r = 27, 3|kappa: True): 12/12 exact  PASS
+  kappa = 10 (r = 30, 3|kappa: False): 12/12 exact  PASS
+  kappa = 12 (r = 36, 3|kappa: True): 12/12 exact  PASS
+  kappa = 15 (r = 45, 3|kappa: True): 12/12 exact  PASS
+  kappa = 20 (r = 60, 3|kappa: False): 12/12 exact  PASS
+  DT at level 3 kappa: 120/120 EXACT over 10 kappa x 12 terms
+  (kappa covers 3|k and 3 nmid k, 2|k, 4|k, 5|k, 20|k, generic; 4.7s)
+
+-- Phase 3b: the boundary at level r = kappa (B625's conditional, reproduced
+   exactly): PASS iff 3|kappa; and at 3 nmid r the dual sum is not even
+   well-defined on cosets (rep-dependence, exact) --
+   r = kappa = 5 (3|kappa: False): identity exact-PASS on 0/12 terms — as the conditional predicts
+   r = kappa = 6 (3|kappa: True): identity exact-PASS on 12/12 terms — as the conditional predicts
+   r = kappa = 7 (3|kappa: False): identity exact-PASS on 0/12 terms — as the conditional predicts
+   r = kappa = 9 (3|kappa: True): identity exact-PASS on 12/12 terms — as the conditional predicts
+   witness (term +w1): z = (-1, -1, -1, 0), box element y = (0, 0, 0, 0): coset-shift phase
+   delta = 2<z,y> + <z,h(z)> = 4/3 mod 2  (denominator 3) —
+   e^(-i pi r delta) != 1 whenever 3 nmid r: the level-r dual sum changes
+   with the choice of representatives.
+   term +w1, r = 5 (3|r: False): Gamma4 with shifted rep != unshifted (NOT well-defined)
+   term +w1, r = 15 (3|r: True): Gamma4 with shifted rep == unshifted (well-defined)
+   => at 3 nmid r the level-r dual sum depends on the choice of coset reps:
+      the 'conditional failure' was never a failing identity — it is a
+      presentation without meaning outside 3|r.  The level-3k form is the
+      canonical well-defined statement, valid at every kappa.
+
+=== PHASE 4 — the aggregate unconditional form at E6 (cellG certificate) ===
+Z(r) = sum_q N_q e^{-i pi r q} over the 130-frequency support — valid at
+EVERY r (Phase 1e well-definedness); gated on 20 rungs covering every
+resonant type p in {2,3,5,7,11,19}:
+   Z( 13) =            1   dev = 1.1e-50  [OK]
+   Z( 16) =            0   dev = 4.89e-51  [OK]
+   Z( 19) =            2   dev = 5.41e-51  [OK]
+   Z( 20) =            1   dev = 3.72e-51  [OK]
+   Z( 25) =            0   dev = 4.82e-51  [OK]
+   Z( 29) =            0   dev = 5.35e-51  [OK]
+   Z( 35) =    0-1*sqrt5   dev = 1.08e-50  [OK]
+   Z( 36) =           -2   dev = 5.83e-51  [OK]
+   Z( 40) =    2-1*sqrt5   dev = 7.77e-51  [OK]
+   Z( 45) =            1   dev = 2.8e-51  [OK]
+   Z( 48) =            3   dev = 1.0e-51  [OK]
+   Z( 55) =    1-1*sqrt5   dev = 3.55e-51  [OK]
+   Z( 57) =            2   dev = 5.43e-51  [OK]
+   Z( 60) =    1-1*sqrt5   dev = 5.39e-51  [OK]
+   Z( 63) =           -1   dev = 2.69e-51  [OK]
+   Z( 70) =    0-1*sqrt5   dev = 1.07e-50  [OK]
+   Z( 72) =            3   dev = 6.05e-51  [OK]
+   Z( 76) =            2   dev = 8.1e-51  [OK]
+   Z( 95) =            2   dev = 1.1e-50  [OK]
+   Z(100) =            1   dev = 1.35e-50  [OK]
+   max dev over 20 rungs at dps 50: 1.35e-50  (quantize 1e-30)
+
+=== GATE SUMMARY ===
+  P1_hypothesis_certificates_12: PASS
+  P1e_e6_even_all_51840: PASS
+  P2_F_even_posdef_12: PASS
+  P2_identity_exact_all: PASS
+  P2_banked_tables_exact_all: PASS
+  P2_matrix_cross_anchor: PASS
+  P3_dt_level3k_exact_all: PASS
+  P3b_boundary_slice: PASS
+  P3b_rep_dependence_exhibited: PASS
+  P4_aggregate_20_rungs: PASS
+
+results -> w31_results.json   (7.82s)
+
+VERDICT: THE UNCONDITIONAL FORM IS ESTABLISHED.
+
+  For EVERY kappa (no divisibility condition):
+      t_w(kappa) = Gamma_w(3 kappa) / (3 sqrt(det B_w))      [12 SU(3) terms]
+      Z(r)       = sum_q N_q e^{-i pi r q}                   [E6 aggregate]
+  with the reciprocity input the even-form theorem at level N = 3 kappa
+  (DT Theorem 1 in the presentation (Z^2, F_w = K B_w), F_w even — hypothesis
+  holds at every level).  B625's 3|kappa boundary was a PRESENTATION artifact:
+  the same theorem on W = Q(+)Q at level kappa has dual values in (2/3)Z
+  ([P:Q] = 3), and at 3 nmid r its dual sum is not even coset-well-defined;
+  at level 3 kappa the hypothesis reads kappa*m in Z — always true.  The
+  conditional boundary dissolves into the certificate structure: the banked
+  dual tables store exactly the level-3k frequencies (3q mod 2), and the E6
+  ladder is born unconditional (even root lattice, all 51840 elements).

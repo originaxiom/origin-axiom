@@ -1,0 +1,515 @@
+{
+ "A1_pos13_pairs": [
+  [
+   0,
+   4
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   4,
+   1
+  ],
+  [
+   4,
+   3
+  ]
+ ],
+ "A1_class4_only": true,
+ "A1_pos13_h2_dirs": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "mat13": {
+  "P (Y-pairing)": [
+   [
+    "row0",
+    "col3",
+    -1,
+    -1
+   ],
+   [
+    "row1",
+    "col2",
+    -1,
+    -1
+   ],
+   [
+    "row2",
+    "col3",
+    -1,
+    -1
+   ],
+   [
+    "row3",
+    "col0",
+    -1,
+    -1
+   ],
+   [
+    "row3",
+    "col1",
+    -1,
+    -1
+   ],
+   [
+    "row3",
+    "col4",
+    -1,
+    0
+   ],
+   [
+    "row4",
+    "col3",
+    -1,
+    0
+   ]
+  ],
+  "MV0 (theta 2-form)": [
+   [
+    "row3",
+    "col4",
+    0,
+    1
+   ],
+   [
+    "row4",
+    "col3",
+    0,
+    1
+   ]
+  ],
+  "sigma2 (S on H^2)": [
+   [
+    "row3",
+    "col0",
+    -1,
+    -1
+   ],
+   [
+    "row4",
+    "col1",
+    1,
+    1
+   ]
+  ],
+  "OH (natural op)": [],
+  "Theta (theta_*)": [
+   [
+    "row3",
+    "col0",
+    -1,
+    -1
+   ]
+  ],
+  "Psi (thetabar_*)": [
+   [
+    "row3",
+    "col0",
+    -1,
+    -1
+   ]
+  ]
+ },
+ "basis_directional_entries": [
+  [
+   "cup",
+   "(3,4)",
+   "b_1",
+   0,
+   1
+  ],
+  [
+   "cup",
+   "(4,3)",
+   "b_1",
+   0,
+   1
+  ],
+  [
+   "P (Y-pairing)",
+   "row3",
+   "col4",
+   -1,
+   0
+  ],
+  [
+   "P (Y-pairing)",
+   "row4",
+   "col3",
+   -1,
+   0
+  ],
+  [
+   "MV0 (theta 2-form)",
+   "row3",
+   "col4",
+   0,
+   1
+  ],
+  [
+   "MV0 (theta 2-form)",
+   "row4",
+   "col3",
+   0,
+   1
+  ]
+ ],
+ "B_invariant_norm_symmetric": true,
+ "B_invariant_table": {
+  "Dphi_a  inv1": {
+   "value": [
+    "7379/7392",
+    "13/7392"
+   ],
+   "v_value": [
+    0,
+    0
+   ],
+   "v_dev": [
+    1,
+    1
+   ]
+  },
+  "Dphi_a  inv2": {
+   "value": [
+    "6561/6574",
+    "13/6574"
+   ],
+   "v_value": [
+    0,
+    0
+   ],
+   "v_dev": [
+    1,
+    1
+   ]
+  },
+  "Dphi_Ainv inv1": {
+   "value": [
+    "7379/7392",
+    "13/7392"
+   ],
+   "v_value": [
+    0,
+    0
+   ],
+   "v_dev": [
+    1,
+    1
+   ]
+  },
+  "Dphi_Ainv inv2": {
+   "value": [
+    "6561/6574",
+    "13/6574"
+   ],
+   "v_value": [
+    0,
+    0
+   ],
+   "v_dev": [
+    1,
+    1
+   ]
+  },
+  "bent_m1 inv1": {
+   "value": [
+    "3709/3696",
+    "0"
+   ],
+   "v_value": [
+    0,
+    0
+   ],
+   "v_dev": [
+    1,
+    1
+   ]
+  },
+  "bent_m1 inv2": {
+   "value": [
+    "21952107/21866138",
+    "169/21866138"
+   ],
+   "v_value": [
+    0,
+    0
+   ],
+   "v_dev": [
+    1,
+    1
+   ]
+  }
+ },
+ "golden_211_hits": [],
+ "C_silver_deviations": {
+  "silver inv1 - 1": {
+   "v211": 1,
+   "v_3+2i": 1,
+   "v_3-2i": 0
+  },
+  "silver inv2 - 1": {
+   "v211": 1,
+   "v_3+2i": 1,
+   "v_3-2i": 1
+  }
+ },
+ "C_silver_ratio_valuations": {
+  "(2, 3)": [
+   0,
+   1,
+   0
+  ],
+  "(2, 4)": [
+   0,
+   1,
+   0
+  ],
+  "(3, 4)": [
+   0,
+   1,
+   0
+  ]
+ },
+ "C_silver_raw_valuations": {
+  "023": [
+   1,
+   0,
+   0
+  ],
+  "024": [
+   -1,
+   0,
+   -1
+  ],
+  "034": [
+   -1,
+   -1,
+   -1
+  ],
+  "123": [
+   1,
+   -1,
+   0
+  ],
+  "124": [
+   -1,
+   -1,
+   -1
+  ],
+  "134": [
+   -1,
+   -2,
+   -1
+  ],
+  "234": [
+   -1,
+   -1,
+   -1
+  ]
+ },
+ "X_signatures": {
+  "13": {
+   "-3": 1,
+   "5": -1,
+   "-15": -1,
+   "-1": 1,
+   "2": -1,
+   "-2": -1,
+   "3": 1,
+   "6": -1,
+   "-5": -1,
+   "10": 1
+  },
+  "211": {
+   "-3": 1,
+   "5": 1,
+   "-15": 1,
+   "-1": -1,
+   "2": -1,
+   "-2": 1,
+   "3": -1,
+   "6": 1,
+   "-5": -1,
+   "10": -1
+  }
+ },
+ "X_silver_congruence_sweep": {
+  "4": 3,
+  "8": 3,
+  "16": 3,
+  "32": 19,
+  "64": 19,
+  "128": 83,
+  "3": 7,
+  "12": 7,
+  "24": 19,
+  "48": 19,
+  "96": 19,
+  "120": 211,
+  "168": 43
+ },
+ "X_rank_apparition": {
+  "alpha_Fib_13": 7,
+  "alpha_Pell_211": 212
+ },
+ "X_laws": [
+  [
+   "split in Q(sqrt(-3))",
+   "golden",
+   13,
+   7,
+   false,
+   ""
+  ],
+  [
+   "split in Q(sqrt(-3)) & inert in Q(sqrt(5))",
+   "golden",
+   13,
+   7,
+   false,
+   ""
+  ],
+  [
+   "p == 1 mod 12 (splits in Q(zeta12))",
+   "golden",
+   13,
+   13,
+   true,
+   ""
+  ],
+  [
+   "p = 1 + 3 b^2 (norm of 1 + b sqrt(-3))",
+   "golden",
+   13,
+   13,
+   true,
+   ""
+  ],
+  [
+   "inert in Q(sqrt(5)) alone",
+   "golden",
+   13,
+   2,
+   false,
+   ""
+  ],
+  [
+   "p == 13 mod 15 (golden-own modulus 3*5)",
+   "golden",
+   13,
+   13,
+   true,
+   ""
+  ],
+  [
+   "p == 13 mod 60",
+   "golden",
+   13,
+   13,
+   true,
+   ""
+  ],
+  [
+   "inert in Q(i) (p == 3 mod 4)",
+   "silver",
+   211,
+   3,
+   false,
+   ""
+  ],
+  [
+   "inert in Q(i) & inert in Q(sqrt(2))",
+   "silver",
+   211,
+   3,
+   false,
+   ""
+  ],
+  [
+   "p = 1 + 2 b^2 (norm of 1 + b sqrt(-2))",
+   "silver",
+   211,
+   3,
+   false,
+   ""
+  ],
+  [
+   "p = a^2 + b^2, a = 1 (norm of 1 + bi)",
+   "silver",
+   211,
+   2,
+   false,
+   ""
+  ],
+  [
+   "silver-own 2-power moduli: p == 211 mod M",
+   "silver",
+   211,
+   3,
+   false,
+   "(M = 8; see sweep below)"
+  ],
+  [
+   "p divides F_alpha with F_alpha = p (p IS a Fibonacci prime)",
+   "golden",
+   13,
+   2,
+   false,
+   ""
+  ],
+  [
+   "p IS a Pell-sequence term",
+   "silver",
+   211,
+   2,
+   false,
+   ""
+  ],
+  [
+   "maximal unit order",
+   "golden",
+   13,
+   3,
+   false,
+   ""
+  ],
+  [
+   "maximal unit order",
+   "silver",
+   211,
+   3,
+   false,
+   ""
+  ]
+ ],
+ "X_mod120_guard": {
+  "no_small_classes": [
+   1,
+   49,
+   77,
+   91,
+   119
+  ],
+  "first_primes": {
+   "1": 241,
+   "49": 409,
+   "77": 197,
+   "91": 211,
+   "119": 239
+  }
+ }
+}
