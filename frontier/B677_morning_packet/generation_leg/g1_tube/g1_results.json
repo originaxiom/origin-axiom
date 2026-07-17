@@ -1,0 +1,345 @@
+{
+ "target_reproduction": {
+  "routes_agree": {
+   "sum_vs_product_G": true,
+   "sum_vs_product_H": true,
+   "theta_vs_sum_G": true,
+   "theta_vs_sum_H": true
+  },
+  "horizon_terms": 160,
+  "spotcheck_vs_repo_cellG": {
+   "comp1_ratio_n1": "-9",
+   "comp2_ratio_n1": "-10",
+   "banked_comp1_ratio_n1": -9,
+   "banked_comp2_ratio_n1": -10
+  },
+  "eta_bookkeeping_gate": {
+   "F1_times_eta48_5_eq_comp1": true,
+   "F2_times_eta48_5_eq_comp2": true,
+   "terms": 121
+  },
+  "verdict": "PASS -- proceeding to candidate tests"
+ },
+ "cyclotomic_engine_gates": {
+  "z5_eq_1": true,
+  "sqrt5_numeric_match": true,
+  "phi2_eq_phi_plus_1": true,
+  "psi_phi_eq_neg1": true
+ },
+ "weld_operator": {
+  "W_FIB": {
+   "11": [
+    "2/5",
+    "-1/5",
+    "1/5",
+    "3/5"
+   ],
+   "12": [
+    "1/5",
+    "2/5",
+    "-2/5",
+    "-1/5"
+   ],
+   "21": [
+    "1/5",
+    "2/5",
+    "3/5",
+    "4/5"
+   ],
+   "22": [
+    "3/5",
+    "1/5",
+    "4/5",
+    "2/5"
+   ]
+  },
+  "W_FIB_trace_eq_neg1_phi": true,
+  "W_FIB_det_eq_1": true,
+  "W_YL": {
+   "11": [
+    "1/5",
+    "2/5",
+    "-2/5",
+    "-1/5"
+   ],
+   "12": [
+    "3/5",
+    "1/5",
+    "4/5",
+    "2/5"
+   ],
+   "21": [
+    "-2/5",
+    "1/5",
+    "-1/5",
+    "-3/5"
+   ],
+   "22": [
+    "-1/5",
+    "-2/5",
+    "-3/5",
+    "-4/5"
+   ]
+  },
+  "W_YL_trace_eq_phi": true,
+  "modular_gates": {
+   "S2_eq_I": true,
+   "ST3_scalar": true
+  },
+  "su2_3_full_4x4_trace_matches_neg1_phi": true,
+  "finding_submatrix_extraction_anomaly": {
+   "naive_submatrix_trace_matches_neg1_phi": false,
+   "naive_submatrix_trace_is_real": false,
+   "note": "naive {spin0,spin1} row/col extraction from SU(2)_3's actual 4x4 is NOT a sub-representation (S mixes all 4 spins); standalone Fibonacci S,T is the correct golden block and matches B238's -1/phi via an independent mechanism."
+  }
+ },
+ "T2": {
+  "verdict": "KILL",
+  "readingA_structural": {
+   "per_convention": {
+    "YL": {
+     "chi1_class_mod1": "11/60",
+     "chitau_class_mod1": "59/60",
+     "mutual_class_gap_mod1": "1/5",
+     "chi1_hits_comp1_class": false,
+     "chitau_hits_comp1_class": false,
+     "chi1_hits_comp2_class": false,
+     "chitau_hits_comp2_class": false
+    },
+    "FIB": {
+     "chi1_class_mod1": "53/60",
+     "chitau_class_mod1": "17/60",
+     "mutual_class_gap_mod1": "3/5",
+     "chi1_hits_comp1_class": false,
+     "chitau_hits_comp1_class": false,
+     "chi1_hits_comp2_class": false,
+     "chitau_hits_comp2_class": false
+    }
+   },
+   "none_hit_target_class": true
+  },
+  "readingB_numeric": {
+   "W_FIB.diag": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "1",
+     "0",
+     "1",
+     "1"
+    ],
+    "got_numeric": [
+     -0.6180339887498948,
+     1.1102230246251565e-16
+    ],
+    "reason": "leading coefficient not rational -- no rational rescaling can fix it"
+   },
+   "W_FIB.row1": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "3/5",
+     "1/5",
+     "-1/5",
+     "2/5"
+    ],
+    "got_numeric": [
+     0.5,
+     -0.16245984811645314
+    ],
+    "reason": "leading coefficient not rational -- no rational rescaling can fix it"
+   },
+   "W_FIB.row2": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "4/5",
+     "3/5",
+     "7/5",
+     "6/5"
+    ],
+    "got_numeric": [
+     -1.1180339887498945,
+     0.6881909602355868
+    ],
+    "reason": "leading coefficient not rational -- no rational rescaling can fix it"
+   },
+   "W_YL.diag": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "0",
+     "0",
+     "-1",
+     "-1"
+    ],
+    "got_numeric": [
+     1.618033988749895,
+     -1.1102230246251565e-16
+    ],
+    "reason": "leading coefficient not rational -- no rational rescaling can fix it"
+   },
+   "W_YL.row1": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "4/5",
+     "3/5",
+     "2/5",
+     "1/5"
+    ],
+    "got_numeric": [
+     0.5000000000000001,
+     0.6881909602355867
+    ],
+    "reason": "leading coefficient not rational -- no rational rescaling can fix it"
+   },
+   "W_YL.row2": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "-3/5",
+     "-1/5",
+     "-4/5",
+     "-7/5"
+    ],
+    "got_numeric": [
+     1.1180339887498947,
+     0.16245984811645298
+    ],
+    "reason": "leading coefficient not rational -- no rational rescaling can fix it"
+   }
+  },
+  "conventions": {
+   "YL": {
+    "c": "-22/5",
+    "h1": "0",
+    "htau": "-1/5",
+    "exp1": "11/60",
+    "exptau": "-1/60"
+   },
+   "FIB": {
+    "c": "14/5",
+    "h1": "0",
+    "htau": "2/5",
+    "exp1": "-7/60",
+    "exptau": "17/60"
+   }
+  }
+ },
+ "T1": {
+  "verdict": "KILL",
+  "fib_is_modular_gate": true,
+  "weld_general_crosscheck": true,
+  "trace_blindness_scalar": {
+   "value": [
+    "2",
+    "0",
+    "1",
+    "1"
+   ],
+   "numeric": 0.3819660112501051
+  },
+  "mismatches": {
+   "diag": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "2",
+     "0",
+     "1",
+     "1"
+    ],
+    "reason": "leading coeff not rational"
+   },
+   "row_11": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "3/5",
+     "0",
+     "1/5",
+     "1/5"
+    ],
+    "reason": "leading coeff not rational"
+   },
+   "row_12": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "2/5",
+     "1/5",
+     "2/5",
+     "1"
+    ],
+    "reason": "leading coeff not rational"
+   },
+   "row_21": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "1/5",
+     "-1/5",
+     "4/5",
+     "1/5"
+    ],
+    "reason": "leading coeff not rational"
+   },
+   "row_22": {
+    "first_mismatch_n": 0,
+    "expected": "1 (rational)",
+    "got": [
+     "7/5",
+     "0",
+     "-1/5",
+     "-1/5"
+    ],
+    "reason": "leading coeff not rational"
+   }
+  }
+ },
+ "T0": {
+  "verdict": "KILL",
+  "tube_dim": 7,
+  "tube_dim_eq_7_gate": true,
+  "tube_blocks": {
+   "x=1,a=1,b=1": 1,
+   "x=2,a=1,b=1": 1,
+   "x=2,a=1,b=2": 1,
+   "x=2,a=2,b=1": 1,
+   "x=1,a=2,b=2": 1,
+   "x=2,a=2,b=2": 2
+  },
+  "FR_axiom_gates": {
+   "F2_eq_I": true,
+   "F_symmetric": true,
+   "golden_relation": true,
+   "B484_braid_reproduction_neg3_phi": true
+  },
+  "field_finding": "F-matrix needs sqrt(phi) (genuine degree-4 field), not literally Q(sqrt5) alone",
+  "HH_argument": {
+   "HH1_HH2_identically_zero": "proved via semisimplicity of Tube(Fib) (cited theorem + dim=7 computed here from first principles)",
+   "HH0_bound": "<= dim(Tube(Fib)) = 7 (typically <=4, #simples of Z(Fib))",
+   "grading_is_finite_set": [
+    "theta_1=1",
+    "theta_tau=exp(4*pi*i/5)"
+   ]
+  },
+  "witness": {
+   "n": 40,
+   "comp1_reduced_n": "3402",
+   "comp2_reduced_n": "7290",
+   "bound_on_graded_trace": 7,
+   "gate": true
+  },
+  "trace_blindness_corroboration": "matches B674 (Eichler-Shimura tr(A1*|H^1(Gamma(5)))=0 identically)"
+ },
+ "overall": {
+  "target_reproduction": "PASS",
+  "T2_verdict": "KILL",
+  "T1_verdict": "KILL",
+  "T0_verdict": "KILL",
+  "trace_blindness_pattern": "corroborates B674 (frontier/B674_generation_leg, read-only): fully-traced objects (T0's HH graded trace; the T1 diagonal-sum, which literally equals tr(W_FIB)*tr(W')) collapse to scalars/bounded-periodic objects; T2/T1's character-level row candidates have the correct unbounded/aperiodic SHAPE (inherited from G(q),H(q)) but fail on the weld's exact algebraic VALUE (irrational, non-rational leading coefficients) -- a value-level obstruction, distinct from T0's shape-level obstruction.",
+  "runtime_seconds": 1.3
+ }
+}

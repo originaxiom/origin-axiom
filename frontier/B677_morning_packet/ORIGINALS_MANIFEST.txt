@@ -1,0 +1,25 @@
+# ORIGINALS_MANIFEST — the morning packet (zip sha a52ae10b; the FIRST
+# packet under cc2's new re-seal protocol). sha256 AS RECEIVED:
+33c819046d2b35699f5a5f62d94a3a7dc5f4bb1abb4e3ae4b106da120ff69873  ./anatomy/GENERATION_LEG_PLAN_CC2.md
+ab80bbc1f82a4f29d40f51e6a06822edd628280ed97decd48275f4bb3a166a36  ./anatomy/R22_3_RESPONSE_CC2.md
+b4b8b0bbb1a8f10fc9de41961bcc55453038682c9f355dd07387c3096cc5b7d6  ./anatomy/SEALS.txt
+15b1c18a34b9bb9ad2ae447a5850ba8779d22ecdd98c092bba66b1ec4c604a71  ./anatomy/STATUS.md
+2f9759443211584b1471503418151d75ada7ecaa03ffb0fef305cbf265e42cf7  ./anatomy/VERDICT_LEDGER.md
+7cc62400b8c1b2c2a236e8db7be266fdbddd3688d318d490bb7e609a67e0f9be  ./anatomy/loop5/PREREG_L5.md
+b1aa7ec5cb9031f708690970df8687f011c474e615cb91381af9271d38af3130  ./anatomy/loop5/e1_diag351/FINDINGS_CC2.md
+c7c85c3f1f1b6f3c60ed68cc9e2f3f5cc5afa9256fa508a610744cb75687c050  ./anatomy/loop5/e1_diag351/_leftnull_L351.json
+2a71b7e88d0b4b426bf11f67d23b50fabdc09bc033baf7995911cd0dced236d9  ./anatomy/loop5/e1_diag351/e1_diag351.py
+f9079760a5964f4d4b7c981adf7f8882ed287b6d66410cc2a0935370788c0688  ./anatomy/loop5/e1_diag351/e1_modnull.py
+89fc165440a78ed112938702416e4d250714fafe45964ec1dd3a3c8376650542  ./anatomy/loop5/e1_diag351/e1_results.json
+fb420004c9803310e3531ac9e1297e004082028128deb3b90f613ff7bda6d2f1  ./anatomy/loop5/e1_diag351/e1_run.log
+a94f9eab2238689ffe016ef7a154bc26a79bb1118cf5a616412e53e88b9095b1  ./anatomy/loop5/e2_silversplit/FINDINGS_CC2.md
+748b34cd045532879001741a5aaecfec57866b15d925bae83abd3a9bcaf1363a  ./anatomy/loop5/e2_silversplit/e2_results.json
+c40bf3a8c79354490e9ac8a5b80a5ab712e4a16f3c6983ca668ae38dd026678d  ./anatomy/loop5/e2_silversplit/e2_run.log
+c9803a18c1abdc5c0ac72fe4de8a17664b47bfc894a8ce9a4b8d4718c3ea1b71  ./anatomy/loop5/e2_silversplit/e2_silversplit.py
+9160337c95e65a0c5e94a6853a0cc7412cee99e829f4b3b6216a2c6cd2f58595  ./generation_leg/PREREG_G1.md
+6fa0a7ad714147e120117cec8118716bcc66838972718b82794886dba789c8a1  ./generation_leg/g1_tube/FINDINGS_CC2.md
+bb2e0cb4604c4f6b0dea09ecc5e03756c0286d8a73a468f3aa498b38c6009cc0  ./generation_leg/g1_tube/FINDINGS_RAW.md
+28590ab58b83e9c658ae4754806dd9af326bb296f344eb65079c9b26a1f6e2f9  ./generation_leg/g1_tube/g1_results.json
+04613151132295a1a418c15db4bbef570036aec96ebb61dc23885fe44ec72e43  ./generation_leg/g1_tube/g1_run.log
+2184738d501789fd8afef02c5ba980dc2314d26f7996ca3ad8e17b7a6d1f080a  ./generation_leg/g1_tube/g1_tube.py
+# PATCHES: standard (seat paths, model names, log renames).

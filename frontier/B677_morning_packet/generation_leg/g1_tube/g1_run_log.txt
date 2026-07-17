@@ -1,0 +1,247 @@
+====================================================================================================
+G1_TUBE -- the generation leg, tube-algebra/character candidates (T2/T1/T0)
+====================================================================================================
+
+====================================================================================================
+PART 1 -- TARGET REPRODUCTION (three independent routes, >=150 terms)
+====================================================================================================
+Route A (RR sum: sum q^n^2/(q;q)_n)      vs Route B (Euler product 1/[(q;q^5)(q^4;q^5)]):
+  G(q) agree to 160 terms: True
+  H(q) agree to 160 terms: True
+Route C (theta/JTP numerator N1,N2 divided by (q;q)) vs Route A (sum):
+  G(q) agree to 160 terms: True
+  H(q) agree to 160 terms: True
+
+=> ALL THREE independent routes (sum / Euler product / theta-JTP numerator)
+   agree EXACTLY to 160 terms for both G(q) and H(q). Target reproduction PASSES.
+   G(q) head: [1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 6, 7, 9, 10]
+   H(q) head: [1, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 4, 6, 6]
+
+comp1_reduced = N1(q)*(q;q)^9  [comp1 = q^{2/5} * this] head: [1, -9, 26, -4, -108, 120, 156, -144, -378, -39, 936, 140, -728, -729]
+comp2_reduced = N2(q)*(q;q)^9  [comp2 = q^{3/5} * this] head: [1, -10, 36, -39, -79, 234, -108, -140, -9, -4, 676, -810, 351, 104]
+
+spot-check vs repo's independently-banked cellG_output.txt (read-only; not used to derive anything):
+  banked: 2hat.comp1 ratio(n=1) = -9   ; mine: comp1_reduced[1]/comp1_reduced[0] = -9  match: True
+  banked: 2hat.comp2 ratio(n=1) = -10  ; mine: comp2_reduced[1]/comp2_reduced[0] = -10  match: True
+
+eta^{48/5}-bookkeeping gate: F1*eta_no_qshift^{48/5} == comp1_reduced (121 terms): True
+                             F2*eta_no_qshift^{48/5} == comp2_reduced (121 terms): True
+F1(q) head (rational coeffs, integer-exponent): ['1', '3/5', '2/25', '-28/125', '264/625', '532/15625', '20916/78125', '-88416/390625', '-271216/1953125', '3055623/9765625']
+F2(q) head (rational coeffs, integer-exponent): ['1', '-2/5', '12/25', '37/125', '-171/625', '-3318/15625', '13756/78125', '95304/390625', '446889/1953125', '-803072/9765625']
+
+>>> TARGET REPRODUCTION: PASS. Proceeding to candidates T2, T1, T0. <<<
+
+====================================================================================================
+PART 2 -- exact Q(zeta_5) cyclotomic engine (build + validate)
+====================================================================================================
+gate: z^5 == 1 exactly: True
+gate: SQRT5 numeric = 2.236067977500 (+0i), matches +sqrt(5): True
+gate: phi^2 == phi+1 exactly (golden defining relation): True
+gate: psi*phi == -1 exactly (psi = -1/phi): True
+PHI numeric: 1.618033988750  (vs golden ratio 1.618033988750)
+
+====================================================================================================
+PART 3 -- the weld operator: B238's kappa=5 golden-block RL monodromy
+====================================================================================================
+W_FIB (Fibonacci/unitary convention, d=phi, h_tau=2/5):
+  trace(W_FIB) == -1/phi == psi  exactly: True   (numeric -0.618033988750 vs -0.618033988750)
+  det(W_FIB) == 1  exactly: True
+  ** MATCHES B238's banked headline number Z(4_1)=-1/phi (independent mechanism) **
+
+W_YL (Yang-Lee/non-unitary sigma_3-conjugate, d=psi=-1/phi, h_tau=-1/5):
+  trace(W_YL) == +phi exactly: True  (numeric 1.618033988750)
+  det(W_YL) == 1 exactly: True
+  NOTE: this does NOT match B238's -1/phi -- the Yang-Lee point is a formal
+  Galois conjugate of the abstract fusion data, not a literal sub-block of the
+  UNITARY SU(2)_3/SU(3)_2 modular data (consistent with S030/B135's own framing:
+  the sigma_3 conjugate is an algebraic operation, not a restriction of a real MTC).
+
+modular-relation gates on the Fibonacci S,T (mirrors B238's modular_gate; scale-invariant
+  form checked directly on M=[[1,phi],[phi,-1]] so S=M/D, S^2=I <=> M^2=(1+phi^2)I):
+  M^2 == (1+phi^2)*I exactly (<=> S^2=I once normalized by D): True
+  (M T)^3 is a scalar matrix (propto M^2, i.e. (ST)^3 propto S^2) exactly: True  (scalar=(Fraction(2, 1), Fraction(4, 1), Fraction(6, 1), Fraction(3, 1)), numeric -4.045085)
+
+-- PART 3b: independent cross-check -- fresh SU(2)_3 (4x4) build (sympy, numeric-exact) --
+  fresh SU(2)_3 4x4 build: c=9/5, tr(full 4x4 RL monodromy) matches -1/phi (40-digit numeric): True
+  naive {spin0,spin1} SUBMATRIX of the 4x4 (rows/cols 0,2): trace = -0.309016994375 - 0.309016994375*I (40-digit numeric)
+  submatrix trace matches -1/phi: False   submatrix trace is even real: False
+  ANOMALY CONFIRMED: naive row/column extraction is NOT a valid sub-representation
+  (S mixes all 4 spins; the submatrix trace is complex, not -1/phi) -- the STANDALONE
+  Fibonacci S,T (W_FIB above) is the correct 'golden block', independently matching
+  the full ambient trace exactly via a DIFFERENT mechanism. Banked as a finding.
+
+====================================================================================================
+PART 4 -- CANDIDATE T2: weld-weighted chiral character sum (Fibonacci/Lee-Yang)
+====================================================================================================
+convention YL  : c=-22/5, h_1=0 h_tau=-1/5  =>  chi_1=q^11/60*G(q), chi_tau=q^-1/60*H(q)
+convention FIB : c=14/5, h_1=0 h_tau=2/5  =>  chi_1=q^-7/60*G(q), chi_tau=q^17/60*H(q)
+
+-- reading (A): FULL characters retained, structural (fractional-support-class) check --
+  [YL] chi_1 class=11/60 mod1, chi_tau class=59/60 mod1 (mutual gap=1/5, non-integer=>disjoint supports)
+       vs comp1 class(2/5): chi1 hit=False chi_tau hit=False | vs comp2 class(3/5): chi1 hit=False chi_tau hit=False
+  [FIB] chi_1 class=53/60 mod1, chi_tau class=17/60 mod1 (mutual gap=3/5, non-integer=>disjoint supports)
+       vs comp1 class(2/5): chi1 hit=False chi_tau hit=False | vs comp2 class(3/5): chi1 hit=False chi_tau hit=False
+
+  READING (A) VERDICT: for BOTH conventions, NEITHER chi_1 nor chi_tau's fractional support
+  class equals comp1's (2/5) or comp2's (3/5) class mod 1 (all hits False: True).
+  => structural KILL for reading (A), independent of the numeric value of W: ANY nonzero
+     combination W_aa*chi_a(q) or W_ab*chi_b(q) has its ENTIRE support in the wrong
+     fractional-exponent class(es); every coefficient at comp1's/comp2's actual exponents
+     is forced to 0 while the target's leading coefficient there is 1 (n=0 mismatch: got 0, expected 1).
+
+-- reading (B): prefactor-STRIPPED characters (chi_1->G(q), chi_tau->H(q)), numeric test --
+
+  candidate W_FIB.diag     = W_11*G(q) + W_22*H(q)  [weld entries 11,22]
+    leading coefficient (n=0) = (Fraction(1, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1))  (numeric -0.618034+0.000000i)  rational: False
+    => IMMEDIATE KILL at n=0: leading coefficient is not rational; the prereg's sole
+       allowed freedom (ONE overall RATIONAL constant) cannot turn a non-rational
+       cyclotomic number into the target's rational leading coefficient (=1).
+
+  candidate W_FIB.row1     = W_11*G(q) + W_12*H(q)  [weld entries 11,12]
+    leading coefficient (n=0) = (Fraction(3, 5), Fraction(1, 5), Fraction(-1, 5), Fraction(2, 5))  (numeric 0.500000-0.162460i)  rational: False
+    => IMMEDIATE KILL at n=0: leading coefficient is not rational; the prereg's sole
+       allowed freedom (ONE overall RATIONAL constant) cannot turn a non-rational
+       cyclotomic number into the target's rational leading coefficient (=1).
+
+  candidate W_FIB.row2     = W_21*G(q) + W_22*H(q)  [weld entries 21,22]
+    leading coefficient (n=0) = (Fraction(4, 5), Fraction(3, 5), Fraction(7, 5), Fraction(6, 5))  (numeric -1.118034+0.688191i)  rational: False
+    => IMMEDIATE KILL at n=0: leading coefficient is not rational; the prereg's sole
+       allowed freedom (ONE overall RATIONAL constant) cannot turn a non-rational
+       cyclotomic number into the target's rational leading coefficient (=1).
+
+  candidate W_YL.diag      = W_11*G(q) + W_22*H(q)  [weld entries 11,22]
+    leading coefficient (n=0) = (Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(-1, 1))  (numeric 1.618034-0.000000i)  rational: False
+    => IMMEDIATE KILL at n=0: leading coefficient is not rational; the prereg's sole
+       allowed freedom (ONE overall RATIONAL constant) cannot turn a non-rational
+       cyclotomic number into the target's rational leading coefficient (=1).
+
+  candidate W_YL.row1      = W_11*G(q) + W_12*H(q)  [weld entries 11,12]
+    leading coefficient (n=0) = (Fraction(4, 5), Fraction(3, 5), Fraction(2, 5), Fraction(1, 5))  (numeric 0.500000+0.688191i)  rational: False
+    => IMMEDIATE KILL at n=0: leading coefficient is not rational; the prereg's sole
+       allowed freedom (ONE overall RATIONAL constant) cannot turn a non-rational
+       cyclotomic number into the target's rational leading coefficient (=1).
+
+  candidate W_YL.row2      = W_21*G(q) + W_22*H(q)  [weld entries 21,22]
+    leading coefficient (n=0) = (Fraction(-3, 5), Fraction(-1, 5), Fraction(-4, 5), Fraction(-7, 5))  (numeric 1.118034+0.162460i)  rational: False
+    => IMMEDIATE KILL at n=0: leading coefficient is not rational; the prereg's sole
+       allowed freedom (ONE overall RATIONAL constant) cannot turn a non-rational
+       cyclotomic number into the target's rational leading coefficient (=1).
+
+T2 OVERALL VERDICT: KILL (every sub-candidate, both readings, both weld/character conventions;
+  reading (A) fails structurally at the fractional-support-class level for ALL welds;
+  reading (B) fails at the very leading coefficient n=0 -- the weld's diagonal/row entries
+  are genuine irrational Q(zeta_5) numbers, never rational, so no single rational rescaling
+  constant (the ONLY freedom the prereg allows) can align even the first term.)
+
+====================================================================================================
+PART 5 -- CANDIDATE T1: the double Z(Fib)=Fib boxtimes Fib-bar character sum
+====================================================================================================
+Fib modularity check: det(M) = (Fraction(-2, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) (nonzero => S invertible => Fib is modular => Z(Fib)=Fib(x)Fib-bar): True
+weld_general(phi,+2,-2) reproduces W_FIB exactly (cross-check of the general formula): True
+W' = T^{-1} S T S (swapped T,T^{-1}): trace=(Fraction(1, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) (numeric -0.618034+0.000000i), det=(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))
+
+TRACE-BLINDNESS ILLUSTRATION: tr(W4)=tr(W_FIB)*tr(W') = (Fraction(2, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) (numeric 0.381966) -- a single NUMBER,
+  not a q-series at all. This is the same mechanism B674 found for the Eichler-Shimura trace
+  tower (tr(A1*|H^1)=0 identically): tracing collapses the per-coefficient information that
+  only a CHARACTER/MODULE-level object (the row/diagonal candidates below, or T0's graded
+  pieces) could in principle carry. Banked as a corroborating trace-blindness datum.
+
+numeric test (prefactor-stripped reading, matching T2 reading B): diagonal + all 4 rows
+  candidate T1.diag     leading coeff (n=0) = (Fraction(2, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)) (numeric 0.381966+0.000000i) rational: False
+  candidate T1.row_11   leading coeff (n=0) = (Fraction(3, 5), Fraction(0, 1), Fraction(1, 5), Fraction(1, 5)) (numeric 0.276393+0.000000i) rational: False
+  candidate T1.row_12   leading coeff (n=0) = (Fraction(2, 5), Fraction(1, 5), Fraction(2, 5), Fraction(1, 1)) (numeric -0.670820-0.162460i) rational: False
+  candidate T1.row_21   leading coeff (n=0) = (Fraction(1, 5), Fraction(-1, 5), Fraction(4, 5), Fraction(1, 5)) (numeric -0.670820+0.162460i) rational: False
+  candidate T1.row_22   leading coeff (n=0) = (Fraction(7, 5), Fraction(0, 1), Fraction(-1, 5), Fraction(-1, 5)) (numeric 1.723607-0.000000i) rational: False
+
+T1 OVERALL VERDICT: KILL -- every diagonal/row combination's leading (n=0) coefficient is a
+  genuine irrational Q(zeta_5) number (never rational), for the identical structural reason as
+  T2: the weld entries are irrational, and prefactor-stripped chi's share leading coeff 1, so
+  no single rational rescaling constant can align even the first term.
+
+====================================================================================================
+PART 6 -- CANDIDATE T0: weld-twisted Hochschild graded trace on Tube(Fib)
+====================================================================================================
+Tube(Fib) basis dimension count dim Hom(x(x)a,b(x)x) summed over all (x,a,b) in {1,tau}^3:
+  x=1 a=1 b=1 : dim Hom = 1
+  x=1 a=2 b=2 : dim Hom = 1
+  x=2 a=1 b=1 : dim Hom = 1
+  x=2 a=1 b=2 : dim Hom = 1
+  x=2 a=2 b=1 : dim Hom = 1
+  x=2 a=2 b=2 : dim Hom = 2
+  TOTAL dim(Tube(Fib)) = 7
+  (matches the known Ocneanu-tube-algebra dimension for the golden/Fibonacci category;
+   the largest block, x=a=b=tau with dim Hom=2, corresponds to the double's 2-dimensional
+   (tau,tau)-labeled simple module -- consistent with Z(Fib)'s 4 simples having module
+   dimensions {1,1,1,2}: 1+1+1+2^2 = 7.)
+
+-- F/R generating-data axiom checks (sympy; sqrt(phi) needed -- Fib's F-matrix is NOT
+   expressible in Q(sqrt5) alone, an honest finding, see note below) --
+  F^2 == I exactly (pentagon-consistency, involution property): True
+  F symmetric exactly: True
+  phi^2 - phi - 1 == 0 exactly (the golden defining relation used to build F): True
+  NOTE (honest finding): F's off-diagonal entries need sqrt(phi) -- a genuine DEGREE-4
+  algebraic number (phi is not a square in Q(sqrt5): x^2=phi has no solution x=a+b*sqrt5,
+  a,b in Q, by direct elimination). So Tube(Fib)'s generating F-data lives in Q(sqrt(phi),
+  sqrt5), not literally 'Q(sqrt5)' as the prereg's phrasing suggested -- banked precisely.
+  B484 reproduction: tr(figure-eight 3-anyon braid) == -3/phi (60-digit numeric exactness): True
+    computed: -1.85410196624968454461376 + 1.186945968219974843434155e-66*I
+    -3/phi:   -1.854101966249684544613760
+
+  => (i)+(ii) together: Tube(Fib) is explicitly built (dim=7, from Fibonacci's own fusion
+     ring) on generating F/R data that is independently, exactly verified consistent
+     (pentagon-reduction F^2=I; hexagon-reproduction of B484's -3/phi); W's modular-relation
+     gates (PART 3: S^2=I up to scale, (ST)^3 propto S^2, det(W)=1 => W invertible) verify
+     W is a well-defined automorphism-compatible action on this generating data.
+
+-- (iii) the decisive structural argument --
+  Tube(Fib) is FINITE-DIMENSIONAL (dim=7, computed above) => it is a finite-dim algebra;
+  since C=Fib is a fusion category, Z(C) is again a fusion category (standard theorem:
+  the center of a fusion category is a fusion category, hence semisimple with finitely
+  many simples) => Tube(C) (whose module category IS Z(C)) is a finite-dim SEMISIMPLE
+  algebra. Semisimple (separable, char 0) algebras have HH^n(A,M) = 0 for ALL n>=1 and
+  ANY A-bimodule M (a basic homological-algebra fact -- separable algebras have
+  homological dimension 0). This holds for the UNTWISTED bimodule A and identically for
+  the W-TWISTED bimodule A_W (A_W is still a perfectly good A-bimodule; twisting the module
+  structure does not change the algebra's separability).
+
+  => HH^1(A,A_W) = HH^2(A,A_W) = 0 IDENTICALLY (the zero series) -- an EXACT, provable KILL
+     at n=1,2 vs any nonzero target (comp1, comp2 both have nonzero coefficients throughout).
+  => HH^0(A,A_W) has dimension <= dim(Tube(Fib)) = 7 (bounded, in fact typically the fixed
+     subspace of a W-twisted center, dimension <= 4 = #simples of Z(Fib)).
+  => grading HH^0's trace by the twist eigenvalues theta_1=1, theta_tau=e^{4pi i/5} (a FIXED
+     set of at most 5 distinct values, per the prereg's own T0 statement) produces, at best,
+     a FINITE Laurent polynomial / eventually-PERIODIC object in the grading variable --
+     never an infinite, unboundedly-growing, non-periodic series.
+
+  explicit witness (n=40): comp1_reduced[40]=3402, comp2_reduced[40]=7290 -- |value| >> 7 =
+  the hard bound on ANY graded trace built from <=7 dims of unit-modulus (5th-root-of-unity)
+  phases (|sum of <=7 unit-modulus terms| <= 7, for every single grading slot); RR growth
+  is unbounded (partition-type asymptotics) => an EXPLICIT, EXACT, bankable mismatch at
+  n=40 (and at every sufficiently large n thereafter).
+
+T0 OVERALL VERDICT: KILL (HH^{1,2}=0 identically by semisimplicity -- a proved, not merely
+  observed, fact for ANY fusion category's tube algebra; HH^0's graded trace is bounded/
+  periodic vs the target's unbounded aperiodic growth -- explicit witness at n=40). This
+  CORROBORATES the B674 trace-blindness pattern: T0's defining operation (a graded TRACE)
+  is structurally incapable of carrying the streams, exactly as tr(A1*|H^1(Gamma(5))) was.
+
+====================================================================================================
+OVERALL VERDICT SUMMARY
+====================================================================================================
+  target reproduction : PASS  (3 independent routes agree exactly to 160 terms)
+  T2 (chiral character sum, weld-weighted)      : KILL  (structural class-mismatch + n=0
+                                                          irrationality, all variants)
+  T1 (double Z(Fib) character sum, full weld)   : KILL  (same n=0 irrationality obstruction)
+  T0 (weld-twisted Hochschild trace on Tube(Fib)): KILL  (HH^{1,2}=0 by semisimplicity;
+                                                          HH^0 bounded/periodic; explicit
+                                                          witness at n=40)
+
+  TRACE-BLINDNESS PATTERN (corroborates B674's independent finding on route 1):
+  every fully-diagonal-summed / fully-traced object collapses to a single SCALAR or to a
+  bounded/periodic object with zero chance of matching the RR streams' unbounded, aperiodic
+  growth; the character-level ROW candidates (T2/T1) at least have the right infinite/
+  growing SHAPE (built from G(q),H(q), which do grow correctly) but fail on the weld's
+  exact algebraic VALUE (irrational leading coefficients) rather than on shape -- itself a
+  bankable distinction from T0's shape-level failure.
+
+  total runtime 1.3s
