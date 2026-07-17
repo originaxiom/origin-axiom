@@ -5912,3 +5912,22 @@ legal-target table. CELL 7: the first-power law; the directional
 13-split discovery; the dial invisible to the spectral layer.
 THE CAMPAIGN CLOSES: ~30 cells, every sealed cell banked on a sealed
 outcome (CAMPAIGN_SYNTHESIS.md). Locks 4/4.
+
+## 2026-07-18 — B671: THE EXTRACTION FIRST — the gauge verdict + the generation sum rule
+
+The web seat's priority call adopted (extract before mapping): both
+scalarizations of the 351-candidate stated exactly (matrices,
+charpolys re-derived independently — exact match; 40-digit spectra).
+THE GAUGE VERDICT (their own step 4): the scale-invariant coefficient
+combinations DIFFER across the two scalarizations — the eigenvalue
+ratios are SCALARIZATION-GAUGE, not object content; the mass-matrix
+reading of the eigenvalues dies at the step its proposer demanded;
+the invariant object remains the 351-cup class table (slot-symmetry,
+rank, field). Spectral shape both gauges: {eps, lam, -lam} —
+antisymmetric-dominated, consistent with the fifth wall. THE
+GENERATION SUM RULE (from cc2's completed D1, provisional pending
+their packet): rank 2 exactly — [P23] + (7983360/13)*omega*[P34] = 0
+with [P24] INDEPENDENT: two pairings proportional with an
+Eisenstein-unit ratio carrying the 13-denominator; the independent
+channel = the class-4/heart channel (converging with cellB2/cell7).
+Locks 2/2.

@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B671: the extraction first (the gauge verdict + the sum rule)
+
+### Resolved
+- The 351-candidate's eigenvalue ratios are SCALARIZATION-GAUGE (the
+  two canonical gauges disagree in their scale-invariants) — the
+  mass-matrix reading dies at its proposer's own step 4; the
+  invariant object = the class table. THE GENERATION SUM RULE
+  extracted: [P₂₃] + (7983360/13)ω[P₃₄] = 0, [P₂₄] independent
+  (provisional pending cc2's packet). Locks 2/2.
+
 ## 2026-07-18 — B666 wave 3 + campaign close
 
 ### Added
