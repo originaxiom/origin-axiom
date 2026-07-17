@@ -1,0 +1,38 @@
+B666 cell 1 — the mod-8 shadow vs the binary octahedral 2O
+====================================================================
+
+[A] <R,L> mod 2:  order 6   (full |SL(2,Z/2)| = 6)
+    order profile: {1: 1, 2: 3, 3: 2}
+    involutions: 3   center order: 1 ([(1, 0, 0, 1)])   exponent: 6
+
+[A] <R,L> mod 4:  order 48   (full |SL(2,Z/4)| = 48)
+    order profile: {1: 1, 2: 7, 3: 8, 4: 24, 6: 8}
+    involutions: 7   center order: 2 ([(1, 0, 0, 1), (3, 0, 0, 3)])   exponent: 12
+
+[A] <R,L> mod 5:  order 120   (full |SL(2,Z/5)| = 120)
+    order profile: {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}
+    involutions: 1   center order: 2 ([(1, 0, 0, 1), (4, 0, 0, 4)])   exponent: 60
+
+[A] <R,L> mod 7:  order 336   (full |SL(2,Z/7)| = 336)
+    order profile: {1: 1, 2: 1, 3: 56, 4: 42, 6: 56, 7: 48, 8: 84, 14: 48}
+    involutions: 1   center order: 2 ([(1, 0, 0, 1), (6, 0, 0, 6)])   exponent: 168
+
+[A] <R,L> mod 8:  order 384   (full |SL(2,Z/8)| = 384)
+    order profile: {1: 1, 2: 15, 3: 32, 4: 144, 6: 96, 8: 96}
+    involutions: 15   center order: 4 ([(1, 0, 0, 1), (3, 0, 0, 3), (5, 0, 0, 5), (7, 0, 0, 7)])   exponent: 24
+
+    mod-8 shadow = FULL SL(2,Z/8): True
+    GOLDEN CONTROL (banked B640/B644): mod-5 shadow order 120 with 1 involution(s) -> 2I = SL(2,5): True
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell1/b666c1_shadow_group.py", line 513, in <module>
+    main()
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell1/b666c1_shadow_group.py", line 356, in main
+    O2, om, s, eq = build_2O()
+                    ^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell1/b666c1_shadow_group.py", line 326, in build_2O
+    return FinGroup.closure("2O", [om, s], qmul, qinv, e), om, s, e
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell1/b666c1_shadow_group.py", line 73, in closure
+    return cls(name, sorted(seen), mul, inv, e)
+                     ^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'Q2' and 'Q2'

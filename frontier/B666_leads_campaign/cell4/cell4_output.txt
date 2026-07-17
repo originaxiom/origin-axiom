@@ -1,0 +1,32 @@
+== STEP A: Phi_m(x) = x^(phi(m)/2) psi_m(x + 1/x), m = 3..50 ==
+  all m in 3..50: PASS
+== STEP B: Res(Phi_m(x), x^2-t*x+1) = psi_m(t)^2 in Z[t], m = 3..50 ==
+  all m in 3..50: PASS
+  (includes every ramified shape: m = p, p^2, 2p, 4p, pq, ... )
+  m=1: f(1) = 2 - t = -(t-2);  m=2: f(-1) = t + 2 = (t+2)
+== STEP C/D on W(D4): |W| = 192, rank 4 ==
+  distinct characteristic polynomials: 9
+  a_1 == a_2 (mod 2) and det(w) = (-1)^(a_2) on every element: PASS
+  t=3 (disc 5): p=5(vodd ) 192/192 [expect 192] PASS
+  t=4 (disc 12): p=2(veven) 96/192 [expect 96] PASS; p=3(vodd ) 192/192 [expect 192] PASS
+  t=5 (disc 21): p=3(vodd ) 192/192 [expect 192] PASS; p=7(vodd ) 192/192 [expect 192] PASS
+  t=6 (disc 32): p=2(vodd ) 192/192 [expect 192] PASS
+  t=7 (disc 45): p=3(veven) 96/192 [expect 96] PASS; p=5(vodd ) 192/192 [expect 192] PASS
+  t=9 (disc 77): p=7(vodd ) 192/192 [expect 192] PASS; p=11(vodd ) 192/192 [expect 192] PASS
+  t=10 (disc 96): p=2(vodd ) 192/192 [expect 192] PASS; p=3(vodd ) 192/192 [expect 192] PASS
+== det B_w product-formula exact cross-check on W(D4) (48 elements x 7 t-values) ==
+  det B_w = (t-2)^a1 (t+2)^a2 prod psi_m(t)^(2 a_m): PASS
+== STEP C/D on W(E6): |W| = 51840, rank 6 ==
+  distinct characteristic polynomials: 25
+  a_1 == a_2 (mod 2) and det(w) = (-1)^(a_2) on every element: PASS
+  t=3 (disc 5): p=5(vodd ) 51840/51840 [expect 51840] PASS
+  t=4 (disc 12): p=2(veven) 25920/51840 [expect 25920] PASS; p=3(vodd ) 51840/51840 [expect 51840] PASS
+  t=5 (disc 21): p=3(vodd ) 51840/51840 [expect 51840] PASS; p=7(vodd ) 51840/51840 [expect 51840] PASS
+  t=6 (disc 32): p=2(vodd ) 51840/51840 [expect 51840] PASS
+  t=7 (disc 45): p=3(veven) 25920/51840 [expect 25920] PASS; p=5(vodd ) 51840/51840 [expect 51840] PASS
+  t=9 (disc 77): p=7(vodd ) 51840/51840 [expect 51840] PASS; p=11(vodd ) 51840/51840 [expect 51840] PASS
+  t=10 (disc 96): p=2(vodd ) 51840/51840 [expect 51840] PASS; p=3(vodd ) 51840/51840 [expect 51840] PASS
+== det B_w product-formula exact cross-check on W(E6) (24 elements x 2 t-values) ==
+  det B_w = (t-2)^a1 (t+2)^a2 prod psi_m(t)^(2 a_m): PASS
+== banked-battery reproduction (test_b656_digest G1 numbers) ==
+  W(D4) t=5: p=3 and p=7 must be 192/192; t=7: p=3 must be 96/192, p=5 192/192  (see lines above)
