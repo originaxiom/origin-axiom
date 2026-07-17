@@ -1,0 +1,208 @@
+{
+  "prereg_note": "PREREG_L2.md sha f9ae4a9e, B2 clause",
+  "gates": {
+    "s4_w1_C27_inverse_consistent": true,
+    "s4_w1_relator_R1": true,
+    "s4_w1_relator_R2": true,
+    "s4_w1_relator_R3": true,
+    "s4_w1_v0_dim1": true,
+    "s4_w1_v0_idx0_matches_w0a": true,
+    "s4_w1_v0_matches_w0a": true,
+    "s4_w1_v0_C27_invariant": true,
+    "s4_w1_N_dim1": true,
+    "s4_w1_N_invariant_all": true,
+    "s4_w1_P_class0_is_cocycle": true,
+    "s4_v0bar_dim1": true,
+    "s4_v0bar_c_invariant": true,
+    "s4_L_nonzero_sanity": true,
+    "s4_beta_v0_symmetric": true,
+    "s4_beta_v0_invariant": true,
+    "s4_psi_dim1": true,
+    "s4_M_symmetric": false,
+    "s4_M_antisymmetric": true,
+    "s4_delta_c_zero": true,
+    "s4_b1_D_eq_1": true,
+    "s4_kappa_all_valid": true,
+    "solo_block_zero": true,
+    "L_rho_invariant": true,
+    "gamma_prop_to_L": true,
+    "bounding_cochains_all_ok": true,
+    "delta_a_eq_c_on_gen_pairs": true,
+    "massey_cocycle_check_reported": true,
+    "chi_cup_chi_is_cocycle": true,
+    "control_coboundary_shift_a": true,
+    "control_exactness": true
+  },
+  "M_solo_block": [
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "bounding_cochains": {
+    "23": {
+      "x": {
+        "a": "(-199086361147800/143+133119940627800/143*sqrt(-3))",
+        "b": "0",
+        "c": "0"
+      },
+      "linear_part_matches_Nrel": true,
+      "system_consistent": true,
+      "relator_consistency_exact": true
+    },
+    "24": {
+      "x": {
+        "a": "(-109777185-1950213195/11*sqrt(-3))",
+        "b": "0",
+        "c": "0"
+      },
+      "linear_part_matches_Nrel": true,
+      "system_consistent": true,
+      "relator_consistency_exact": true
+    },
+    "32": {
+      "x": {
+        "a": "(-196679464291800/143+136237142424600/143*sqrt(-3))",
+        "b": "0",
+        "c": "0"
+      },
+      "linear_part_matches_Nrel": true,
+      "system_consistent": true,
+      "relator_consistency_exact": true
+    },
+    "34": {
+      "x": {
+        "a": "(149992139/312+649637/12*sqrt(-3))",
+        "b": "0",
+        "c": "0"
+      },
+      "linear_part_matches_Nrel": true,
+      "system_consistent": true,
+      "relator_consistency_exact": true
+    },
+    "42": {
+      "x": {
+        "a": "(-2625442155/11-2519067915/11*sqrt(-3))",
+        "b": "0",
+        "c": "0"
+      },
+      "linear_part_matches_Nrel": true,
+      "system_consistent": true,
+      "relator_consistency_exact": true
+    },
+    "43": {
+      "x": {
+        "a": "(216965759/312+1316351/156*sqrt(-3))",
+        "b": "0",
+        "c": "0"
+      },
+      "linear_part_matches_Nrel": true,
+      "system_consistent": true,
+      "relator_consistency_exact": true
+    }
+  },
+  "delta_a_eq_c_gen_pairs": {
+    "23": true,
+    "24": true,
+    "32": true,
+    "34": true,
+    "42": true,
+    "43": true
+  },
+  "cocycle_results": {
+    "234_1": false,
+    "234_-1": false,
+    "243_1": true,
+    "243_-1": true,
+    "324_1": false,
+    "324_-1": false,
+    "342_1": true,
+    "342_-1": true,
+    "423_1": false,
+    "423_-1": false,
+    "432_1": false,
+    "432_-1": false
+  },
+  "C0_chi_cup_chi_class": "0",
+  "kappas": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "1"
+  ],
+  "massey_table": {
+    "324": {
+      "triple": [
+        3,
+        2,
+        4
+      ],
+      "kappa_i": "0",
+      "kappa_j_mid": "0",
+      "kappa_k": "1",
+      "is_exact_cocycle_plus": false,
+      "class_plus": null,
+      "is_exact_cocycle_minus": false,
+      "class_minus": null,
+      "indeterminacy_dim_in_H2": 0,
+      "indeterminacy_note": "span{kappa(u_k)*C0, kappa(u_i)*C0}; both zero -> indeterminacy = {0}"
+    },
+    "234": {
+      "triple": [
+        2,
+        3,
+        4
+      ],
+      "kappa_i": "0",
+      "kappa_j_mid": "0",
+      "kappa_k": "1",
+      "is_exact_cocycle_plus": false,
+      "class_plus": null,
+      "is_exact_cocycle_minus": false,
+      "class_minus": null,
+      "indeterminacy_dim_in_H2": 0,
+      "indeterminacy_note": "span{kappa(u_k)*C0, kappa(u_i)*C0}; both zero -> indeterminacy = {0}"
+    },
+    "243": {
+      "triple": [
+        2,
+        4,
+        3
+      ],
+      "kappa_i": "0",
+      "kappa_j_mid": "1",
+      "kappa_k": "0",
+      "is_exact_cocycle_plus": true,
+      "class_plus": "0",
+      "e3_plus": [
+        "0",
+        "0",
+        "0"
+      ],
+      "is_exact_cocycle_minus": true,
+      "class_minus": "0",
+      "e3_minus": [
+        "0",
+        "0",
+        "0"
+      ],
+      "indeterminacy_dim_in_H2": 0,
+      "indeterminacy_note": "span{kappa(u_k)*C0, kappa(u_i)*C0}; both zero -> indeterminacy = {0}"
+    }
+  },
+  "any_exact_cocycle_nonzero": false,
+  "verdict": "MASSEY-ZERO",
+  "runtime_s": 1414.8692271709442
+}

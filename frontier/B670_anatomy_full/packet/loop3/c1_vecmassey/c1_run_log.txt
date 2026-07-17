@@ -1,0 +1,92 @@
+[    0.0s] STEP 0: exec w1_portal.py verbatim through its own STEP 5 (B575 prefix; pkl rehydration; C27/v0/N/C3; dual Fox machinery dual_big; h1(dual)=5 gate; dual class basis + reduce_to_classes)...
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   91.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  113.1s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  113.3s] G2a PASS: principal sl2 relations exact
+[  118.3s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  120.6s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[  120.6s]   B575 prefix done (121s)
+[  120.6s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[  120.6s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[  121.7s]   relator gate R1: PASS
+[  122.5s]   relator gate R2: PASS
+[  124.3s]   relator gate R3: PASS
+[  124.3s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[  124.5s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  124.5s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[  124.5s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[  124.5s]   v0 invariant under C27 (conjugate holonomy): PASS
+[  124.5s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[  124.5s]   zero-weight-sum sorted triples: 45
+[  124.6s]   invariance equations: 180
+[  125.0s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  125.0s]   nonzero sorted coefficients: 45/45
+[  125.0s]   N-invariance under A27: PASS
+[  125.1s]   N-invariance under B27: PASS
+[  125.1s]   N-invariance under C27: PASS
+[  125.1s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[  130.3s]   dual Fox-derivative matrix built (5s)
+[  130.3s]   cocycle-property spot check on class 0 (before proceeding)...
+[  130.3s]   P(u_0) in Z1(dual): PASS
+[  130.3s] STEP 5: Z1(dual)/B1(dual) and h1(D; 27-bar); extract the dual class basis...
+[  134.3s]   Z1(dual) dim = 31, coboundary rank = 26
+[  134.3s]   h0(dual) = 1, h1(dual) = 5   [GATE: h1(dual)=5]
+[  148.5s]   extracted 5 dual class representatives
+[  148.5s]   w1_portal STEP0-5 done (149s)
+[  148.5s]   inherited w1_portal gates (through STEP5) all pass: True
+[  148.5s] STEP A: h^2(D;27-bar)=5 CONSISTENCY GATE (Poincare duality + UCT, K a field): h0(dual)=h3(primal)=1(indep computed)=1, h1(dual)=5(gated), h3(dual)=h0(primal)=1(v0_dim1 gate); Euler char forces h2(dual)=5...
+[  148.5s]   h0(dual)=1  h1(dual)=5  h3(dual)[PD from h0(primal)]=1  =>  h2(dual) forced = 5 by Euler(=0) consistency: PASS
+[  148.5s] STEP B: small glue -- cocycle_val/rho_word (s4_massshape.py's own tiny pattern, re-stated to avoid a second redundant B575 exec) + the vector cup c_ij(g,h) = C3(u_i(g), rho(g).u_j(h))...
+[  148.5s]   CONTROL: C3 is exactly SYMMETRIC (C3(u,v)=C3(v,u)) -- CFULL is built totally symmetric under all 6 perms of each sorted support triple...
+[  148.8s]   C3(u,v)==C3(v,u) on test vectors: PASS
+[  148.8s]   CONTROL: C3 equivariance C3(rho(g)x,rho(g)y) = rho-bar(g).C3(x,y) (this is what makes c_ij's cocycle identity a general consequence, not a coincidence)...
+[  148.9s]   C3(gx,gy) == rho-bar(g).C3(x,y) for g in a,b,c: True {'a': True, 'b': True, 'c': True}
+[  150.8s]   delta c_22 = 0 on 5 generator triples: PASS
+[  152.8s]   delta c_23 = 0 on 5 generator triples: PASS
+[  154.8s]   delta c_24 = 0 on 5 generator triples: PASS
+[  156.8s]   delta c_32 = 0 on 5 generator triples: PASS
+[  158.7s]   delta c_33 = 0 on 5 generator triples: PASS
+[  160.6s]   delta c_34 = 0 on 5 generator triples: PASS
+[  162.5s]   delta c_42 = 0 on 5 generator triples: PASS
+[  164.4s]   delta c_43 = 0 on 5 generator triples: PASS
+[  166.3s]   delta c_44 = 0 on 5 generator triples: PASS
+[  166.3s] STEP C: the solvability test -- BASE_ij (constant part of the bounding recursion at y=0) for all 9 (i,j) in solo x solo, and ker(F^T) (F = w1_portal's dual_big, reused verbatim) computed ONCE...
+[  583.6s]   BASE_ij built for all 9 pairs (417.3s)
+[  586.2s]   ker(F^T) [F=dual_big, the reused Fox-derivative matrix] dim = 31  (2.5s)  [= dim C^2(dual)/B^2(dual), the SUPERSPACE containing the true 5-dim H^2(dual) as a subquotient]
+[  589.0s]   ker(F^T) dim == ker(F) dim [square matrix rank-nullity check]: True
+[  589.0s]   [c_22]: ZERO  (nonzero obstruction coords: 0/31)
+[  589.0s]   [c_23]: NONZERO  (nonzero obstruction coords: 4/31)
+[  589.0s]   [c_24]: NONZERO  (nonzero obstruction coords: 2/31)
+[  589.0s]   [c_32]: NONZERO  (nonzero obstruction coords: 4/31)
+[  589.0s]   [c_33]: ZERO  (nonzero obstruction coords: 0/31)
+[  589.1s]   [c_34]: NONZERO  (nonzero obstruction coords: 4/31)
+[  589.1s]   [c_42]: NONZERO  (nonzero obstruction coords: 2/31)
+[  589.1s]   [c_43]: NONZERO  (nonzero obstruction coords: 4/31)
+[  589.1s]   [c_44]: ZERO  (nonzero obstruction coords: 0/31)
+[  589.1s]   3x3 pattern (rows i, cols j, solo order 2,3,4) -- True = ZERO class:
+[  589.1s]     [True, False, False]
+[  589.1s]     [False, True, False]
+[  589.1s]     [False, False, True]
+[  589.1s]   ALL off-diagonal (i!=j) solo classes ZERO: NO -- SEALED FORK: STOP HERE
+[  589.1s]   CONTROL: Koszul graded-commutativity prediction [c_ij] = -[c_ji] (C3 symmetric, gated above) -- test [c_ij]+[c_ji] = 0 for all 9 pairs (diagonal: predicts [c_ii]=0)...
+[  589.3s]   [c_ij]+[c_ji]=0 for all (i,j) in solo x solo: True  (per-pair: {'22': True, '23': True, '24': True, '32': True, '33': True, '34': True, '42': True, '43': True, '44': True})
+[  589.3s]   diagonal [c_ii]=0 for i in solo (Koszul self-cup consequence): True
+[  589.3s]   CONTROL: coboundary-shift invariance -- shift u_2 (classes[2]) by a primal coboundary, recompute obstruction coords for (2,3) and (2,4), verify UNCHANGED exactly...
+[  630.1s]   obstruction coords for [c_23] unchanged under coboundary shift of u_2: True
+[  670.1s]   obstruction coords for [c_24] unchanged under coboundary shift of u_2: True
+[  670.1s]   exactness: K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats anywhere in the C1 path: PASS by construction
+[  670.1s] SEALED FORK TAKEN: NONVANISHING -- banking exact data and STOPPING.
+[  670.1s]   nonvanishing (i,j) pairs: [(2, 3), (2, 4), (3, 2), (3, 4), (4, 2), (4, 3)]
+[  670.1s]   banked [c_23]: witness valid=True, psi.BASE=(-7983360/13+2661120/13*sqrt(-3)) (nonzero, proves [c_23]!=0)
+[  670.1s]   banked [c_24]: witness valid=True, psi.BASE=(1-1/3*sqrt(-3)) (nonzero, proves [c_24]!=0)
+[  670.1s]   banked [c_32]: witness valid=True, psi.BASE=(7983360/13-2661120/13*sqrt(-3)) (nonzero, proves [c_32]!=0)
+[  670.1s]   banked [c_34]: witness valid=True, psi.BASE=(-1-1/3*sqrt(-3)) (nonzero, proves [c_34]!=0)
+[  670.1s]   banked [c_42]: witness valid=True, psi.BASE=(-1+1/3*sqrt(-3)) (nonzero, proves [c_42]!=0)
+[  670.1s]   banked [c_43]: witness valid=True, psi.BASE=(1+1/3*sqrt(-3)) (nonzero, proves [c_43]!=0)
+[  670.2s] VERDICT: FORK-NONVANISHING: [c_ij] != 0 for [(2, 3), (2, 4), (3, 2), (3, 4), (4, 2), (4, 3)]
+[  670.2s] saved <seat-workdir>/anatomy/loop3/c1_vecmassey/c1_results.json
+[  670.2s] DONE (FORK: STOPPED at nonvanishing vector cup class).
+EXIT_CODE=0

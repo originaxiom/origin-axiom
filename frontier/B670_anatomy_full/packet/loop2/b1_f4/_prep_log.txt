@@ -1,0 +1,25 @@
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   66.6s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   83.4s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   83.5s] G2a PASS: principal sl2 relations exact
+[   87.0s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   88.5s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   88.5s]   B575 prefix done (88s)
+[   88.5s] STEP 1: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[   88.7s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[   88.7s]   v0 verified exactly; normalized idx0=12
+[   88.7s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[   88.7s]   cross-check vs loop1/a1_jordan/a1_results.json: idx0 match=True
+[   88.7s] STEP 2: the Jordan cubic invariant N (B632 cell2_texture.py method, verbatim per w1_portal.py STEP 3)...
+[   88.7s]   zero-weight-sum sorted triples: 45
+[   88.7s]   invariance equations: 180
+[   89.1s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[   89.1s]   nonzero sorted coefficients: 45/45
+[   89.1s]   CFULL (full, all orderings) size: 270
+[   89.1s]   N-invariance under A27: PASS
+[   89.2s]   N-invariance under B27: PASS
+[   89.2s] cached exact A27,B27,v0,CFULL -> <seat-workdir>/anatomy/loop2/b1_f4/_exact_cache.pkl
+[   89.2s] DONE.

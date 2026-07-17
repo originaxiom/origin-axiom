@@ -1,0 +1,157 @@
+[    0.0s] STEP 0: seal check
+[    0.0s]   PREREG_L2.md sha256 = c6d4fabdd8eabc6a777d9fc462a404c50511c1cea9abc429d77b2f54a9768926
+[    0.0s]   sealed (task spec)  = c6d4fabdd8eabc6a777d9fc462a404c50511c1cea9abc429d77b2f54a9768926
+[    0.0s]   MATCH: True
+[    0.0s]   mp.mp.dps = 40, phi = 1.618033988749894848204587
+[    0.0s] STEP 1: exact SL(2,Z) integer words -- trace, conductor, det(A-I)
+[    0.0s]   n=3      word=RL               trace=   3 det= 1 det(A-I)=   -1 conductor(tr^2-4)=     5 hyperbolic=True
+[    0.0s]   n=4      word=RRL              trace=   4 det= 1 det(A-I)=   -2 conductor(tr^2-4)=    12 hyperbolic=True
+[    0.0s]   n=5      word=RRRL             trace=   5 det= 1 det(A-I)=   -3 conductor(tr^2-4)=    21 hyperbolic=True
+[    0.0s]   n=6      word=RRRRL            trace=   6 det= 1 det(A-I)=   -4 conductor(tr^2-4)=    32 hyperbolic=True
+[    0.0s]   n=7      word=RRRRRL           trace=   7 det= 1 det(A-I)=   -5 conductor(tr^2-4)=    45 hyperbolic=True
+[    0.0s]   n=8      word=RRRRRRL          trace=   8 det= 1 det(A-I)=   -6 conductor(tr^2-4)=    60 hyperbolic=True
+[    0.0s]   n=9      word=RRRRRRRL         trace=   9 det= 1 det(A-I)=   -7 conductor(tr^2-4)=    77 hyperbolic=True
+[    0.0s]   n=10     word=RRRRRRRRL        trace=  10 det= 1 det(A-I)=   -8 conductor(tr^2-4)=    96 hyperbolic=True
+[    0.0s]   n=11     word=RRRRRRRRRL       trace=  11 det= 1 det(A-I)=   -9 conductor(tr^2-4)=   117 hyperbolic=True
+[    0.0s]   n=12     word=RRRRRRRRRRL      trace=  12 det= 1 det(A-I)=  -10 conductor(tr^2-4)=   140 hyperbolic=True
+[    0.0s]   n=13     word=RRRRRRRRRRRL     trace=  13 det= 1 det(A-I)=  -11 conductor(tr^2-4)=   165 hyperbolic=True
+[    0.0s]   n=14     word=RRRRRRRRRRRRL    trace=  14 det= 1 det(A-I)=  -12 conductor(tr^2-4)=   192 hyperbolic=True
+[    0.0s]   n=15     word=RRRRRRRRRRRRRL   trace=  15 det= 1 det(A-I)=  -13 conductor(tr^2-4)=   221 hyperbolic=True
+[    0.0s]   RRLL     word=RRLL             trace=   6 det= 1 det(A-I)=   -4 conductor(tr^2-4)=    32 hyperbolic=True
+[    0.0s]   RLRL     word=RLRL             trace=   7 det= 1 det(A-I)=   -5 conductor(tr^2-4)=    45 hyperbolic=True
+[    0.0s]   RRLRL    word=RRLRL            trace=  10 det= 1 det(A-I)=   -8 conductor(tr^2-4)=    96 hyperbolic=True
+[    0.0s] STEP 2: build stages SU(3)_k, k=1..12 (kappa = k+3 = 4..15), ONCE each
+[    0.0s]   NOTE: the theta-odd subspace is NOT fixed at dim 2 for general k -- that
+[    0.0s]   was specific to SU(3)_2 (k=2). dim(odd) = #conjugate-pairs, which grows
+[    0.0s]   with k (H3's 'hearing plane' is the k=2 special case). 'tr of the
+[    0.0s]   theta-odd block' generalizes naturally as: sum of diagonal entries of
+[    0.0s]   rho(word) restricted to whatever theta-odd subspace THAT level has --
+[    0.0s]   legitimate because S,T are theta-equivariant (charge-conjugation is a
+[    0.0s]   symmetry of the modular data at every level), verified below per stage.
+[    0.0s]   kappa= 4 (k= 1): built, N=  3, odd-dim= 1, theta-equivariant(S,T)=True (dev_S=2.98e-44, dev_T=0.0)  (0.00s)
+[    0.0s]   kappa= 5 (k= 2): built, N=  6, odd-dim= 2, theta-equivariant(S,T)=True (dev_S=5.74e-42, dev_T=0.0)  (0.01s)
+[    0.1s]   kappa= 6 (k= 3): built, N= 10, odd-dim= 4, theta-equivariant(S,T)=True (dev_S=6.42e-42, dev_T=0.0)  (0.03s)
+[    0.1s]   kappa= 7 (k= 4): built, N= 15, odd-dim= 6, theta-equivariant(S,T)=True (dev_S=8.61e-42, dev_T=0.0)  (0.07s)
+[    0.3s]   kappa= 8 (k= 5): built, N= 21, odd-dim= 9, theta-equivariant(S,T)=True (dev_S=1.15e-41, dev_T=0.0)  (0.16s)
+[    0.6s]   kappa= 9 (k= 6): built, N= 28, odd-dim=12, theta-equivariant(S,T)=True (dev_S=5.74e-42, dev_T=0.0)  (0.31s)
+[    1.2s]   kappa=10 (k= 7): built, N= 36, odd-dim=16, theta-equivariant(S,T)=True (dev_S=5.74e-42, dev_T=0.0)  (0.57s)
+[    2.2s]   kappa=11 (k= 8): built, N= 45, odd-dim=20, theta-equivariant(S,T)=True (dev_S=5.74e-42, dev_T=0.0)  (1.04s)
+[    4.2s]   kappa=12 (k= 9): built, N= 55, odd-dim=25, theta-equivariant(S,T)=True (dev_S=5.77e-42, dev_T=0.0)  (1.98s)
+[    7.3s]   kappa=13 (k=10): built, N= 66, odd-dim=30, theta-equivariant(S,T)=True (dev_S=5.94e-42, dev_T=0.0)  (3.04s)
+[   11.9s]   kappa=14 (k=11): built, N= 78, odd-dim=36, theta-equivariant(S,T)=True (dev_S=5.78e-42, dev_T=0.0)  (4.64s)
+[   19.0s]   kappa=15 (k=12): built, N= 91, odd-dim=42, theta-equivariant(S,T)=True (dev_S=5.74e-42, dev_T=0.0)  (7.13s)
+[   19.0s]   ALL STAGES THETA-EQUIVARIANT (block-diagonal decomposition legitimate): True
+[   19.0s] STEP 3: evaluate all 16 words x 12 stages -- theta-odd block traces
+[   19.4s]   n=3      |tr_odd| @ kappa=4..15:       1.0  0.618034 1.62344e-41 1.52209e-40       1.0 3.89881e-41  0.618034 2.71415e-40       1.0 2.06948e-41 4.33387e-40  0.618034
+[   19.8s]   n=4      |tr_odd| @ kappa=4..15:       1.0       1.0       1.0       1.0       1.0 1.52535e-40       1.0 2.35198e-40  0.732051 1.60587e-40 2.01297e-40       1.0
+[   20.3s]   n=5      |tr_odd| @ kappa=4..15:       1.0 4.93749e-41       1.0   0.45685       1.0 2.26283e-40 1.54416e-40       1.0       2.0       1.0   1.41421 3.712e-40
+[   21.0s]   n=6      |tr_odd| @ kappa=4..15:       1.0       1.0 1.5989e-40       1.0  0.414214 1.61077e-40       1.0 2.05917e-40       1.0 3.75516e-40       1.0       1.0
+[   21.9s]   n=7      |tr_odd| @ kappa=4..15:       1.0  0.618034       1.0       1.0       1.0 2.17433e-40   1.41421 3.58016e-40       1.0       1.0       1.0       2.0
+[   22.9s]   n=8      |tr_odd| @ kappa=4..15:       1.0  0.618034       1.0       1.0       1.0   1.73205       1.0 4.96949e-40       1.0       1.0       1.0       1.0
+[   23.9s]   n=9      |tr_odd| @ kappa=4..15:       1.0       1.0 3.16581e-40   1.41421       1.0 8.61077e-41       2.0       1.0       1.0 7.02386e-40   1.41421       1.0
+[   25.0s]   n=10     |tr_odd| @ kappa=4..15:       1.0 1.08904e-40       1.0       1.0   1.78499   1.73205 3.80266e-40   1.73205       1.0       1.0 1.36023e-39 5.4681e-40
+[   26.4s]   n=11     |tr_odd| @ kappa=4..15:       1.0       1.0       1.0       1.0   1.73205 2.9913e-40   1.73205       1.0       1.0   1.18087       1.0       1.0
+[   27.7s]   n=12     |tr_odd| @ kappa=4..15:       1.0  0.618034 4.59177e-40   1.41421       1.0 4.68437e-40       1.0       2.0       1.0       2.0       1.0  0.618034
+[   29.2s]   n=13     |tr_odd| @ kappa=4..15:       1.0  0.618034       1.0       1.0   1.73205 5.93692e-40  0.874032  0.792287       2.0 4.08739e-40       2.0   2.44949
+[   31.0s]   n=14     |tr_odd| @ kappa=4..15:       1.0       1.0       1.0       1.0   1.78499 7.81077e-40   1.73205 1.08304e-39  0.732051       2.0 8.90864e-40       3.0
+[   32.7s]   n=15     |tr_odd| @ kappa=4..15:       1.0 1.39735e-40 6.37005e-40       1.0       1.0 4.64655e-40 9.06608e-40 3.78893e-40       1.0       1.0       2.0 1.15428e-39
+[   33.9s]   RRLL     |tr_odd| @ kappa=4..15:       1.0       1.0 7.65774e-41       1.0       1.0 9.63115e-41       1.0 2.37198e-40       1.0 1.34883e-40       1.0       1.0
+[   35.1s]   RLRL     |tr_odd| @ kappa=4..15:       1.0   1.61803       2.0       2.0       1.0 1.86894e-40  0.381966 2.62016e-40       1.0       2.0       2.0    2.8541
+[   36.5s]   RRLRL    |tr_odd| @ kappa=4..15:       1.0 5.41484e-41       1.0       1.0   1.38378   1.73205 3.18606e-41   1.73205       1.0       1.0 3.76337e-40 1.4074e-40
+[   36.5s] STEP 4: GATES
+[   36.5s]   G1: (RL='n=3', kappa=5) = -0.61803398874989484820458683436563812 + 1.7219155529623352167510789119466489e-41i  vs -1/phi = -0.6180339887498948482045868   PASS=True
+[   36.5s]   G2: kappa=5 column, single-L family, |value| in {0, 1/phi, 1}:
+[   36.5s]       n= 3: |value|=0.6180339887498948482  ok=True
+[   36.5s]       n= 4: |value|=       1.0  ok=True
+[   36.5s]       n= 5: |value|=4.9374925563205242119e-41  ok=True
+[   36.5s]       n= 6: |value|=       1.0  ok=True
+[   36.5s]       n= 7: |value|=0.6180339887498948482  ok=True
+[   36.5s]       n= 8: |value|=0.6180339887498948482  ok=True
+[   36.5s]       n= 9: |value|=       1.0  ok=True
+[   36.5s]       n=10: |value|=1.0890350171658548936e-40  ok=True
+[   36.5s]       n=11: |value|=       1.0  ok=True
+[   36.5s]       n=12: |value|=0.6180339887498948482  ok=True
+[   36.5s]       n=13: |value|=0.6180339887498948482  ok=True
+[   36.5s]       n=14: |value|=       1.0  ok=True
+[   36.5s]       n=15: |value|=1.397346030972442522e-40  ok=True
+[   36.5s]   G2 PASS=True
+[   36.5s]   G3a: RRLL @ kappa=5 = 1.0 + -5.7397185098744507225035963731554965e-41i  (want 1.0)        PASS=True
+[   36.5s]   G3b: RLRL @ kappa=5 = -1.6180339887498948482045868343656381 + -1.7219155529623352167510789119466489e-41i  (want -phi)   PASS=True
+[   36.5s]   G3c: RRLRL @ kappa=5 = 4.5917748078995605780028770985243972e-41 + -2.8698592549372253612517981865777482e-41i  (want ~0)  PASS=True
+[   36.5s]   ALL GATES PASS: True
+[   36.5s] STEP 5: ANALYSIS (i) -- per-column distinct |value| sets
+[   36.5s]   kappa= 4: 1 distinct |value|(s): ['1.0']
+[   36.5s]   kappa= 5: 4 distinct |value|(s): ['4.937492556e-41', '0.6180339887', '1.0', '1.618033989']
+[   36.5s]   kappa= 6: 3 distinct |value|(s): ['1.623437552e-41', '1.0', '2.0']
+[   36.5s]   kappa= 7: 5 distinct |value|(s): ['1.5220923e-40', '0.4568502517', '1.0', '1.414213562', '2.0']
+[   36.5s]   kappa= 8: 5 distinct |value|(s): ['0.4142135624', '1.0', '1.383775909', '1.732050808', '1.784988725']
+[   36.5s]   kappa= 9: 2 distinct |value|(s): ['3.898812327e-41', '1.732050808']
+[   36.5s]   kappa=10: 8 distinct |value|(s): ['3.186060823e-41', '0.3819660113', '0.6180339887', '0.8740320489', '1.0', '1.414213562', '1.732050808', '2.0']
+[   36.5s]   kappa=11: 5 distinct |value|(s): ['2.059174012e-40', '0.7922869914', '1.0', '1.732050808', '2.0']
+[   36.5s]   kappa=12: 3 distinct |value|(s): ['0.7320508076', '1.0', '2.0']
+[   36.5s]   kappa=13: 4 distinct |value|(s): ['2.069484939e-41', '1.0', '1.180867785', '2.0']
+[   36.5s]   kappa=14: 4 distinct |value|(s): ['2.012974727e-40', '1.0', '1.414213562', '2.0']
+[   36.5s]   kappa=15: 7 distinct |value|(s): ['1.407401919e-40', '0.6180339887', '1.0', '2.0', '2.449489743', '2.854101966', '3.0']
+[   36.5s] STEP 6: ANALYSIS (ii) -- the diagonal hypothesis (row minima vs conductor)
+[   36.5s]   divisibility test (BOTH directions, since conductor can be << or >> kappa):
+[   36.5s]     (a) kappa % conductor == 0  (conductor divides kappa -- relevant when cond<=15)
+[   36.5s]     (b) conductor % kappa == 0  (kappa divides conductor -- relevant when cond>15)
+[   36.5s]   most common |value| across the whole 16x12 matrix: 1.0 (90/192 cells) -- ties at this value are the weak/generic signal
+[   36.5s]   n=3      cond=     5  min|value|=0.6180339887                 @ kappa=[5, 10, 15]  on-conductor(either dir)=[5, 10, 15]  frac=1.00
+[   36.5s]   n=4      cond=    12  min|value|=0.7320508076                 @ kappa=[12]  on-conductor(either dir)=[12]  frac=1.00
+[   36.5s]   n=5      cond=    21  min|value|=0.4568502517                 @ kappa=[7]  on-conductor(either dir)=[7]  frac=1.00
+[   36.5s]   n=6      cond=    32  min|value|=0.4142135624                 @ kappa=[8]  on-conductor(either dir)=[8]  frac=1.00
+[   36.5s]   n=7      cond=    45  min|value|=0.6180339887                 @ kappa=[5]  on-conductor(either dir)=[5]  frac=1.00
+[   36.5s]   n=8      cond=    60  min|value|=0.6180339887                 @ kappa=[5]  on-conductor(either dir)=[5]  frac=1.00
+[   36.5s]   n=9      cond=    77  min|value|=       1.0(*generic bg*)   @ kappa=[4, 5, 8, 11, 12, 15]  on-conductor(either dir)=[11]  frac=0.17
+[   36.5s]   n=10     cond=    96  min|value|=       1.0(*generic bg*)   @ kappa=[4, 6, 7, 12, 13]  on-conductor(either dir)=[4, 6, 12]  frac=0.60
+[   36.5s]   n=11     cond=   117  min|value|=       1.0(*generic bg*)   @ kappa=[4, 5, 6, 7, 11, 12, 14, 15]  on-conductor(either dir)=[]  frac=0.00
+[   36.5s]   n=12     cond=   140  min|value|=0.6180339887                 @ kappa=[5, 15]  on-conductor(either dir)=[5]  frac=0.50
+[   36.5s]   n=13     cond=   165  min|value|=0.6180339887                 @ kappa=[5]  on-conductor(either dir)=[5]  frac=1.00
+[   36.5s]   n=14     cond=   192  min|value|=0.7320508076                 @ kappa=[12]  on-conductor(either dir)=[12]  frac=1.00
+[   36.5s]   n=15     cond=   221  min|value|=       1.0(*generic bg*)   @ kappa=[4, 7, 8, 12, 13]  on-conductor(either dir)=[13]  frac=0.20
+[   36.5s]   RRLL     cond=    32  min|value|=       1.0(*generic bg*)   @ kappa=[4, 5, 7, 8, 10, 12, 14, 15]  on-conductor(either dir)=[4, 8]  frac=0.25
+[   36.5s]   RLRL     cond=    45  min|value|=0.3819660113                 @ kappa=[10]  on-conductor(either dir)=[]  frac=0.00
+[   36.5s]   RRLRL    cond=    96  min|value|=       1.0(*generic bg*)   @ kappa=[4, 6, 7, 12, 13]  on-conductor(either dir)=[4, 6, 12]  frac=0.60
+[   36.5s]   rows whose minimum sits ENTIRELY on conductor-divisibility stage(s) (either direction): 8/16
+[   36.5s]   rows whose minimum IS the generic background value (1.0): 6/16 (weak signal: minimum ties a common value, not a distinctive quiet spot)
+[   36.5s]   SPECIAL CHECK tr-4 word (n=4, conductor=12) @ kappa=12: |value|=0.7320508075688772935274463  is-row-min-at-12=True  == 2-sqrt3=0.26794919243112270647: False
+[   36.5s]   SPECIAL CHECK golden row (n=3, conductor=5): min @ kappa=[5, 10, 15]  value=0.6180339887498948482 (banked 1/phi = 0.6180339887498948482)
+[   36.5s] STEP 7: ANALYSIS (iii) -- the realness catalog
+[   36.5s]   n=3      real at 12/12 stages: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[   36.5s]   n=4      real at  4/12 stages: [9, 11, 13, 14]
+[   36.5s]   n=5      real at  6/12 stages: [4, 5, 9, 10, 11, 15]
+[   36.5s]   n=6      real at 10/12 stages: [5, 6, 7, 8, 9, 10, 11, 13, 14, 15]
+[   36.5s]   n=7      real at  4/12 stages: [4, 9, 11, 14]
+[   36.5s]   n=8      real at  2/12 stages: [6, 11]
+[   36.5s]   n=9      real at 10/12 stages: [4, 5, 6, 8, 9, 10, 11, 12, 13, 15]
+[   36.5s]   n=10     real at  5/12 stages: [5, 6, 10, 14, 15]
+[   36.5s]   n=11     real at  5/12 stages: [4, 9, 11, 14, 15]
+[   36.5s]   n=12     real at  8/12 stages: [5, 6, 9, 10, 11, 13, 14, 15]
+[   36.5s]   n=13     real at  3/12 stages: [4, 9, 13]
+[   36.5s]   n=14     real at  3/12 stages: [9, 11, 14]
+[   36.5s]   n=15     real at 12/12 stages: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[   36.5s]   RRLL     real at 12/12 stages: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[   36.5s]   RLRL     real at 12/12 stages: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[   36.5s]   RRLRL    real at  5/12 stages: [5, 6, 10, 14, 15]
+[   36.5s]   n=3      det(A-I)=   -1 unit=True   always_real=True   never_real=False  (real at 12/12)
+[   36.5s]   n=4      det(A-I)=   -2 unit=False  always_real=False  never_real=False  (real at 4/12)
+[   36.5s]   n=5      det(A-I)=   -3 unit=False  always_real=False  never_real=False  (real at 6/12)
+[   36.5s]   n=6      det(A-I)=   -4 unit=False  always_real=False  never_real=False  (real at 10/12)
+[   36.5s]   n=7      det(A-I)=   -5 unit=False  always_real=False  never_real=False  (real at 4/12)
+[   36.5s]   n=8      det(A-I)=   -6 unit=False  always_real=False  never_real=False  (real at 2/12)
+[   36.5s]   n=9      det(A-I)=   -7 unit=False  always_real=False  never_real=False  (real at 10/12)
+[   36.5s]   n=10     det(A-I)=   -8 unit=False  always_real=False  never_real=False  (real at 5/12)
+[   36.5s]   n=11     det(A-I)=   -9 unit=False  always_real=False  never_real=False  (real at 5/12)
+[   36.5s]   n=12     det(A-I)=  -10 unit=False  always_real=False  never_real=False  (real at 8/12)
+[   36.5s]   n=13     det(A-I)=  -11 unit=False  always_real=False  never_real=False  (real at 3/12)
+[   36.5s]   n=14     det(A-I)=  -12 unit=False  always_real=False  never_real=False  (real at 3/12)
+[   36.5s]   n=15     det(A-I)=  -13 unit=False  always_real=True   never_real=False  (real at 12/12)
+[   36.5s]   RRLL     det(A-I)=   -4 unit=False  always_real=True   never_real=False  (real at 12/12)
+[   36.5s]   RLRL     det(A-I)=   -5 unit=False  always_real=True   never_real=False  (real at 12/12)
+[   36.5s]   RRLRL    det(A-I)=   -8 unit=False  always_real=False  never_real=False  (real at 5/12)
+[   36.5s]   counterexamples to 'det(A-I) unit => real' (real but non-unit det(A-I)): ['n=15', 'RRLL', 'RLRL']
+[   36.5s]   words with unit det(A-I) that are NOT always real: []
+[   36.5s] STEP 8: save b4_matrix.json
+[   36.5s] saved: <seat-workdir>/anatomy/loop2/b4_landscape/b4_matrix.json
+[   36.5s] B4 RUN COMPLETE

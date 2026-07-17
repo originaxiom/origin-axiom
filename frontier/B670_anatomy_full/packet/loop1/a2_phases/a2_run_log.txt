@@ -1,0 +1,137 @@
+25 classes built. 101 (bucket,prime,unit) cells planned.
+resonant primes per bucket: {0: [5, 7], 1: [19], 2: [11], 3: [5, 11], 4: [2, 5], 5: [2, 3], 6: [2, 3, 5], 7: [3, 5], 8: [2, 5], 9: [3, 5], 10: [2, 5], 11: [2, 5], 12: [2, 5], 13: [2, 5], 14: [2], 15: [5], 16: [3], 17: [3, 5], 18: [2], 19: [5], 20: [2], 21: [2], 22: [5], 23: [5], 24: []}
+b 0 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=  1225 pred=  1225 gate=OK  m=  35 rad=[]  j8=4  (0.05s)
+b 0 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=  1225 pred=  1225 gate=OK  m=  35 rad=[]  j8=4  (0.01s)
+b 0 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=  1225 pred=  1225 gate=OK  m=  35 rad=[]  j8=4  (0.01s)
+b 0 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=  1225 pred=  1225 gate=OK  m=  35 rad=[]  j8=4  (0.01s)
+b 3 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=  3025 pred=  3025 gate=OK  m=  55 rad=[]  j8=0  (0.03s)
+b 3 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=  3025 pred=  3025 gate=OK  m=  55 rad=[]  j8=0  (0.03s)
+b 3 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=  3025 pred=  3025 gate=OK  m=  55 rad=[]  j8=0  (0.03s)
+b 3 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=  3025 pred=  3025 gate=OK  m=  55 rad=[]  j8=0  (0.03s)
+b 4 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=  1600 pred=  1600 gate=OK  m=  40 rad=[]  j8=4  (0.02s)
+b 4 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=  1600 pred=  1600 gate=OK  m=  40 rad=[]  j8=4  (0.02s)
+b 4 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=  1600 pred=  1600 gate=OK  m=  40 rad=[]  j8=4  (0.02s)
+b 4 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=  1600 pred=  1600 gate=OK  m=  40 rad=[]  j8=4  (0.02s)
+b 6 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=   900 pred=   900 gate=OK  m=  30 rad=[]  j8=0  (0.01s)
+b 6 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=   900 pred=   900 gate=OK  m=  30 rad=[]  j8=0  (0.01s)
+b 6 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=   900 pred=   900 gate=OK  m=  30 rad=[]  j8=0  (0.01s)
+b 6 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=   900 pred=   900 gate=OK  m=  30 rad=[]  j8=0  (0.01s)
+b 7 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=  5625 pred=  5625 gate=OK  m=  75 rad=[]  j8=4  (0.01s)
+b 7 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=  5625 pred=  5625 gate=OK  m=  75 rad=[]  j8=4  (0.01s)
+b 7 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=  5625 pred=  5625 gate=OK  m=  75 rad=[]  j8=4  (0.01s)
+b 7 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=  5625 pred=  5625 gate=OK  m=  75 rad=[]  j8=4  (0.01s)
+b 8 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs= 10000 pred= 10000 gate=OK  m= 100 rad=[]  j8=0  (0.02s)
+b 8 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs= 10000 pred= 10000 gate=OK  m= 100 rad=[]  j8=0  (0.02s)
+b 8 p= 5 u= 29 r= 145  sym=1  |G|^2 obs= 10000 pred= 10000 gate=OK  m= 100 rad=[]  j8=0  (0.02s)
+b 8 p= 5 u= 41 r= 205  sym=1  |G|^2 obs= 10000 pred= 10000 gate=OK  m= 100 rad=[]  j8=0  (0.02s)
+b 9 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=   225 pred=   225 gate=OK  m=  15 rad=[]  j8=4  (0.01s)
+b 9 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=   225 pred=   225 gate=OK  m=  15 rad=[]  j8=4  (0.01s)
+b 9 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=   225 pred=   225 gate=OK  m=  15 rad=[]  j8=4  (0.01s)
+b 9 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=   225 pred=   225 gate=OK  m=  15 rad=[]  j8=4  (0.01s)
+b10 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=   400 pred=   400 gate=OK  m=  20 rad=[]  j8=0  (0.01s)
+b10 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=   400 pred=   400 gate=OK  m=  20 rad=[]  j8=0  (0.01s)
+b10 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=   400 pred=   400 gate=OK  m=  20 rad=[]  j8=0  (0.01s)
+b10 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=   400 pred=   400 gate=OK  m=  20 rad=[]  j8=0  (0.01s)
+b11 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=  2500 pred=  2500 gate=OK  m=  50 rad=[]  j8=4  (0.01s)
+b11 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=  2500 pred=  2500 gate=OK  m=  50 rad=[]  j8=4  (0.01s)
+b11 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=  2500 pred=  2500 gate=OK  m=  50 rad=[]  j8=4  (0.01s)
+b11 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=  2500 pred=  2500 gate=OK  m=  50 rad=[]  j8=4  (0.01s)
+b12 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=  6400 pred=  6400 gate=OK  m=  80 rad=[]  j8=0  (0.10s)
+b12 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=  6400 pred=  6400 gate=OK  m=  80 rad=[]  j8=0  (0.10s)
+b12 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=  6400 pred=  6400 gate=OK  m=  80 rad=[]  j8=0  (0.10s)
+b12 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=  6400 pred=  6400 gate=OK  m=  80 rad=[]  j8=0  (0.10s)
+b13 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs= 40000 pred= 40000 gate=OK  m= 200 rad=[]  j8=4  (0.07s)
+b13 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs= 40000 pred= 40000 gate=OK  m= 200 rad=[]  j8=4  (0.07s)
+b13 p= 5 u= 29 r= 145  sym=1  |G|^2 obs= 40000 pred= 40000 gate=OK  m= 200 rad=[]  j8=4  (0.07s)
+b13 p= 5 u= 41 r= 205  sym=1  |G|^2 obs= 40000 pred= 40000 gate=OK  m= 200 rad=[]  j8=4  (0.07s)
+b15 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs= 15625 pred= 15625 gate=OK  m= 125 rad=[]  j8=0  (0.01s)
+b15 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs= 15625 pred= 15625 gate=OK  m= 125 rad=[]  j8=0  (0.01s)
+b15 p= 5 u= 29 r= 145  sym=1  |G|^2 obs= 15625 pred= 15625 gate=OK  m= 125 rad=[]  j8=0  (0.01s)
+b15 p= 5 u= 41 r= 205  sym=1  |G|^2 obs= 15625 pred= 15625 gate=OK  m= 125 rad=[]  j8=0  (0.01s)
+b17 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=140625 pred=140625 gate=OK  m= 375 rad=[]  j8=4  (0.07s)
+b17 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=140625 pred=140625 gate=OK  m= 375 rad=[]  j8=4  (0.07s)
+b17 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=140625 pred=140625 gate=OK  m= 375 rad=[]  j8=4  (0.07s)
+b17 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=140625 pred=140625 gate=OK  m= 375 rad=[]  j8=4  (0.07s)
+b19 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=   625 pred=   625 gate=OK  m=  25 rad=[]  j8=0  (0.00s)
+b19 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=   625 pred=   625 gate=OK  m=  25 rad=[]  j8=0  (0.00s)
+b19 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=   625 pred=   625 gate=OK  m=  25 rad=[]  j8=0  (0.00s)
+b19 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=   625 pred=   625 gate=OK  m=  25 rad=[]  j8=0  (0.00s)
+b22 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=390625 pred=390625 gate=OK  m= 625 rad=[]  j8=0  (0.04s)
+b22 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=390625 pred=390625 gate=OK  m= 625 rad=[]  j8=0  (0.04s)
+b22 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=390625 pred=390625 gate=OK  m= 625 rad=[]  j8=0  (0.04s)
+b22 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=390625 pred=390625 gate=OK  m= 625 rad=[]  j8=0  (0.04s)
+b23 p= 5 u= 13 r=  65  sym=-1  |G|^2 obs=    25 pred=    25 gate=OK  m=   5 rad=[]  j8=0  (0.00s)
+b23 p= 5 u= 17 r=  85  sym=-1  |G|^2 obs=    25 pred=    25 gate=OK  m=   5 rad=[]  j8=0  (0.00s)
+b23 p= 5 u= 29 r= 145  sym=1  |G|^2 obs=    25 pred=    25 gate=OK  m=   5 rad=[]  j8=0  (0.00s)
+b23 p= 5 u= 41 r= 205  sym=1  |G|^2 obs=    25 pred=    25 gate=OK  m=   5 rad=[]  j8=0  (0.00s)
+b 1 p=19 u= 13 r= 247  sym=-1  |G|^2 obs=130321 pred=130321 gate=OK  m= 361 rad=[]  j8=0  (0.01s)
+b 1 p=19 u= 17 r= 323  sym=1  |G|^2 obs=130321 pred=130321 gate=OK  m= 361 rad=[]  j8=0  (0.01s)
+b 1 p=19 u= 23 r= 437  sym=1  |G|^2 obs=130321 pred=130321 gate=OK  m= 361 rad=[]  j8=0  (0.01s)
+b 1 p=19 u= 29 r= 551  sym=-1  |G|^2 obs=130321 pred=130321 gate=OK  m= 361 rad=[]  j8=0  (0.01s)
+b 2 p=11 u= 13 r= 143  sym=-1  |G|^2 obs= 14641 pred= 14641 gate=OK  m= 121 rad=[]  j8=0  (0.01s)
+b 2 p=11 u= 23 r= 253  sym=1  |G|^2 obs= 14641 pred= 14641 gate=OK  m= 121 rad=[]  j8=0  (0.01s)
+b 2 p=11 u= 31 r= 341  sym=1  |G|^2 obs= 14641 pred= 14641 gate=OK  m= 121 rad=[]  j8=0  (0.01s)
+b 2 p=11 u= 41 r= 451  sym=-1  |G|^2 obs= 14641 pred= 14641 gate=OK  m= 121 rad=[]  j8=0  (0.01s)
+b 3 p=11 u=  1 r=  11  sym=1  |G|^2 obs= 73205 pred= 73205 gate=OK  m= 121 rad=[5]  j8=0  (0.03s)
+b 3 p=11 u= 23 r= 253  sym=1  |G|^2 obs= 73205 pred= 73205 gate=OK  m= 121 rad=[5]  j8=4  (0.03s)
+b 3 p=11 u=101 r=1111  sym=-1  |G|^2 obs= 73205 pred= 73205 gate=OK  m= 121 rad=[5]  j8=0  (0.03s)
+b 3 p=11 u= 17 r= 187  sym=-1  |G|^2 obs= 73205 pred= 73205 gate=OK  m= 121 rad=[5]  j8=4  (0.03s)
+b 0 p= 7 u= 71 r= 497  sym=1  |G|^2 obs= 12005 pred= 12005 gate=OK  m=  49 rad=[5]  j8=0  (0.01s)
+b 0 p= 7 u=127 r= 889  sym=1  |G|^2 obs= 12005 pred= 12005 gate=OK  m=  49 rad=[5]  j8=4  (0.01s)
+b 0 p= 7 u= 31 r= 217  sym=-1  |G|^2 obs= 12005 pred= 12005 gate=OK  m=  49 rad=[5]  j8=0  (0.01s)
+b 0 p= 7 u= 17 r= 119  sym=-1  |G|^2 obs= 12005 pred= 12005 gate=OK  m=  49 rad=[5]  j8=4  (0.01s)
+b14 p= 2 u=  1 r=   2  sym=u%8=1  |G|^2 obs=  4096 pred=  4096 gate=OK  m=  64 rad=[]  j8=0  (0.01s)
+b14 p= 2 u=  3 r=   6  sym=u%8=3  |G|^2 obs=  4096 pred=  4096 gate=OK  m=  64 rad=[]  j8=0  (0.01s)
+b14 p= 2 u=  5 r=  10  sym=u%8=5  |G|^2 obs=  4096 pred=  4096 gate=OK  m=  64 rad=[]  j8=0  (0.01s)
+b14 p= 2 u=  7 r=  14  sym=u%8=7  |G|^2 obs=  4096 pred=  4096 gate=OK  m=  64 rad=[]  j8=0  (0.01s)
+b14 p= 2 u=  9 r=  18  sym=u%8=1  |G|^2 obs=  4096 pred=  4096 gate=OK  m=  64 rad=[]  j8=0  (0.01s)
+b20 p= 2 u=  1 r=   2  sym=u%8=1  |G|^2 obs=    64 pred=    64 gate=OK  m=   8 rad=[]  j8=4  (0.00s)
+b20 p= 2 u=  3 r=   6  sym=u%8=3  |G|^2 obs=    64 pred=    64 gate=OK  m=   8 rad=[]  j8=4  (0.00s)
+b20 p= 2 u=  5 r=  10  sym=u%8=5  |G|^2 obs=    64 pred=    64 gate=OK  m=   8 rad=[]  j8=4  (0.00s)
+b20 p= 2 u=  7 r=  14  sym=u%8=7  |G|^2 obs=    64 pred=    64 gate=OK  m=   8 rad=[]  j8=4  (0.00s)
+b20 p= 2 u=  9 r=  18  sym=u%8=1  |G|^2 obs=    64 pred=    64 gate=OK  m=   8 rad=[]  j8=4  (0.00s)
+b21 p= 2 u=  1 r=   2  sym=u%8=1  |G|^2 obs=262144 pred=262144 gate=OK  m= 512 rad=[]  j8=4  (0.40s)
+b21 p= 2 u=  3 r=   6  sym=u%8=3  |G|^2 obs=262144 pred=262144 gate=OK  m= 512 rad=[]  j8=4  (0.42s)
+b21 p= 2 u=  5 r=  10  sym=u%8=5  |G|^2 obs=262144 pred=262144 gate=OK  m= 512 rad=[]  j8=4  (0.39s)
+b21 p= 2 u=  7 r=  14  sym=u%8=7  |G|^2 obs=262144 pred=262144 gate=OK  m= 512 rad=[]  j8=4  (0.39s)
+b21 p= 2 u=  9 r=  18  sym=u%8=1  |G|^2 obs=262144 pred=262144 gate=OK  m= 512 rad=[]  j8=4  (0.38s)
+b16 p= 3 u=  1 r=   3  sym=1  |G|^2 obs=  6561 pred=  6561 gate=OK  m=  81 rad=[]  j8=0  (0.01s)
+b16 p= 3 u=  2 r=   6  sym=-1  |G|^2 obs=  6561 pred=  6561 gate=OK  m=  81 rad=[]  j8=0  (0.01s)
+b16 p= 3 u=  4 r=  12  sym=1  |G|^2 obs=  6561 pred=  6561 gate=OK  m=  81 rad=[]  j8=0  (0.01s)
+b16 p= 3 u=  5 r=  15  sym=-1  |G|^2 obs=  6561 pred=  6561 gate=OK  m=  81 rad=[]  j8=0  (0.01s)
+b16 p= 3 u=  7 r=  21  sym=1  |G|^2 obs=  6561 pred=  6561 gate=OK  m=  81 rad=[]  j8=0  (0.01s)
+b16 p= 3 u=  8 r=  24  sym=-1  |G|^2 obs=  6561 pred=  6561 gate=OK  m=  81 rad=[]  j8=0  (0.01s)
+
+=== PER-CLASS-PRIME PHASE LAW: c_w(p), m_w(p) ===
+b 0 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b 0 p= 7: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': None, 'c_w_zeta8_exp': None, 'consistent': True, 'confound_check': {'detail': [{'u': 71, 'sym_p': 1, 'sym_5': 1, 'j8': 0}, {'u': 127, 'sym_p': 1, 'sym_5': -1, 'j8': 4}, {'u': 31, 'sym_p': -1, 'sym_5': 1, 'j8': 0}, {'u': 17, 'sym_p': -1, 'sym_5': -1, 'j8': 4}], 'fits_symbol_p': False, 'fits_symbol_5': True, 'fits_product': False, 'true_driver': '(u|5)'}}
+b 1 p=19: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b 2 p=11: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b 3 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b 3 p=11: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': None, 'c_w_zeta8_exp': None, 'consistent': True, 'confound_check': {'detail': [{'u': 1, 'sym_p': 1, 'sym_5': 1, 'j8': 0}, {'u': 23, 'sym_p': 1, 'sym_5': -1, 'j8': 4}, {'u': 101, 'sym_p': -1, 'sym_5': 1, 'j8': 0}, {'u': 17, 'sym_p': -1, 'sym_5': -1, 'j8': 4}], 'fits_symbol_p': False, 'fits_symbol_5': True, 'fits_product': False, 'true_driver': '(u|5)'}}
+b 4 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b 6 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b 7 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b 8 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b 9 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b10 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b11 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b12 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b13 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b14 p= 2: {'kind': 'dyadic-mod8', 'by_u_mod8': {'1': [0, 0], '3': [0], '5': [0], '7': [0]}, 'within_class_consistent': True, 'constant_across_mod8_classes': True, 'c_w': 0}
+b15 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b16 p= 3: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b17 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 4, 'j_at_minus1': 4, 'm_w': 0, 'c_w_zeta8_exp': 4, 'consistent': True}
+b19 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b20 p= 2: {'kind': 'dyadic-mod8', 'by_u_mod8': {'1': [4, 4], '3': [4], '5': [4], '7': [4]}, 'within_class_consistent': True, 'constant_across_mod8_classes': True, 'c_w': 4}
+b21 p= 2: {'kind': 'dyadic-mod8', 'by_u_mod8': {'1': [4, 4], '3': [4], '5': [4], '7': [4]}, 'within_class_consistent': True, 'constant_across_mod8_classes': True, 'c_w': 4}
+b22 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+b23 p= 5: {'kind': 'odd-legendre', 'j_at_plus1': 0, 'j_at_minus1': 0, 'm_w': 0, 'c_w_zeta8_exp': 0, 'consistent': True}
+
+=== TOTALS ===
+magnitude gate: 101/101
+phase identification: 101/101 (fallback used: 0)
+LAW consistent on ALL tested (bucket,prime) cells: True
+WITNESSES (falsifier hits): [(0, 7, 'driver is (u|5), not (u|7) -- literal sealed hypothesis falsified, broader symbol reading survives', [{'u': 71, 'sym_p': 1, 'sym_5': 1, 'j8': 0}, {'u': 127, 'sym_p': 1, 'sym_5': -1, 'j8': 4}, {'u': 31, 'sym_p': -1, 'sym_5': 1, 'j8': 0}, {'u': 17, 'sym_p': -1, 'sym_5': -1, 'j8': 4}]), (3, 11, 'driver is (u|5), not (u|11) -- literal sealed hypothesis falsified, broader symbol reading survives', [{'u': 1, 'sym_p': 1, 'sym_5': 1, 'j8': 0}, {'u': 23, 'sym_p': 1, 'sym_5': -1, 'j8': 4}, {'u': 101, 'sym_p': -1, 'sym_5': 1, 'j8': 0}, {'u': 17, 'sym_p': -1, 'sym_5': -1, 'j8': 4}])]
+total wall time: 4.02s
+DONE -- a2_table.json

@@ -13604,6 +13604,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B670": {
+   "slug": "anatomy full",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B662",
+    "B663",
+    "B669",
+    "L106",
+    "L107",
+    "L91"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B67": {
    "slug": "figure eight apolynomial",
    "motifs": [

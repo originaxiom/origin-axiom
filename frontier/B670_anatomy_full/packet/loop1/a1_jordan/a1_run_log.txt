@@ -1,0 +1,72 @@
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   85.1s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  104.9s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  105.0s] G2a PASS: principal sl2 relations exact
+[  109.3s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  111.2s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[  111.2s]   B575 prefix done (111s)
+[  111.2s] STEP 1: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[  111.4s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  111.4s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[  111.4s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[  111.4s]   v0 support = [12, 13, 14], values = ['(1)', '(-1)', '(1)']
+[  111.4s] STEP 2: the Jordan cubic invariant N (B632 cell2_texture.py method, verbatim per w1_portal.py STEP 3)...
+[  111.4s]   zero-weight-sum sorted triples: 45
+[  111.4s]   invariance equations: 180
+[  111.8s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[  111.8s]   nonzero sorted coefficients: 45/45
+[  111.8s]   N-invariance under A27: PASS
+[  111.9s]   N-invariance under B27: PASS
+[  111.9s] STEP 3: THE CROSS-SQUARE  s = v0 x v0  (s[z] = N(v0,v0,e_z))...
+[  111.9s]   s identically zero: False
+[  111.9s]   s support size = 3, indices = [12, 13, 14]
+[  111.9s]     s[12] = (-2)
+[  111.9s]     s[13] = (2)
+[  111.9s]     s[14] = (-2)
+[  111.9s] STEP 4: N(v0,v0,v0) raw (trilinear value)...
+[  111.9s]   N(v0,v0,v0) = (-6)   (raw trilinear; some conventions divide by 6 or 3 for the 'norm' -- trichotomy only needs zero-vs-nonzero, invariant under any nonzero-scalar convention)
+[  111.9s]   N(v0) zero: False
+[  111.9s] STEP 5: dim of G-invariant symmetric bilinear forms on 27 (rho(g)^T B rho(g) = B for g=a,b)...
+[  111.9s]   symmetric-B unknowns: 378
+[  111.9s]   self-test: incremental method vs banked nullspace() on the STEP 2 cubic-invariant system (known dim=1)...
+[  112.0s]     processed all 180 rows; final rank=44 (0.2s)
+[  112.0s]     incremental dim=1 vs banked nullspace() dim=1: MATCH
+[  113.5s]   built 756 equations x 378 unknowns (1.5s)
+[  116.4s]     ...50/756 rows, rank so far=45 (2.9s)
+[  123.3s]     ...100/756 rows, rank so far=91 (9.8s)
+[  134.1s]     ...150/756 rows, rank so far=134 (20.6s)
+[  149.2s]     ...200/756 rows, rank so far=180 (35.7s)
+[  170.7s]     ...250/756 rows, rank so far=227 (57.2s)
+[  198.6s]     ...300/756 rows, rank so far=274 (85.0s)
+[  236.6s]     ...350/756 rows, rank so far=324 (123.0s)
+[  282.8s]     ...400/756 rows, rank so far=368 (169.3s)
+[  318.9s]     ...450/756 rows, rank so far=370 (205.4s)
+[  347.6s]     ...500/756 rows, rank so far=375 (234.0s)
+[  371.3s]     ...550/756 rows, rank so far=375 (257.8s)
+[  388.1s]     ...600/756 rows, rank so far=375 (274.6s)
+[  399.3s]     ...650/756 rows, rank so far=375 (285.8s)
+[  407.6s]     ...700/756 rows, rank so far=375 (294.1s)
+[  410.8s]     ...750/756 rows, rank so far=375 (297.3s)
+[  410.9s]     processed all 756 rows; final rank=375 (297.3s)
+[  410.9s]   invariant symmetric bilinear space dim = 3
+[  410.9s]     basis[0] invariance under A27: PASS
+[  411.0s]     basis[0] invariance under B27: PASS
+[  411.0s]     basis[0] symmetric: PASS
+[  411.0s]     basis[1] invariance under A27: PASS
+[  411.1s]     basis[1] invariance under B27: PASS
+[  411.1s]     basis[1] symmetric: PASS
+[  411.1s]     basis[2] invariance under A27: PASS
+[  411.2s]     basis[2] invariance under B27: PASS
+[  411.2s]     basis[2] symmetric: PASS
+[  411.2s] STEP 6: THE SEALED TRICHOTOMY...
+[  411.2s]   v0 x v0 != 0; N(v0) != 0
+[  411.2s]   VERDICT: RANK 3 (invertible direction)
+[  411.2s]   s != 0: computing the refinement (dual invariant line comparison)...
+[  411.3s]     dual (contragredient) invariant line dim = 1
+[  411.3s]     s proportional to the dual invariant line: True
+[  411.3s] ALL GATES PASS: True
+[  411.3s] saved <seat-workdir>/anatomy/loop1/a1_jordan/a1_results.json
+[  411.3s] DONE.
