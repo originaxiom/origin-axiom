@@ -1,0 +1,55 @@
+[    0.0s] exec B575 stages 0-3 (exact e6 + 27 build; gates G1-G3 print PASS below)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   73.3s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   90.0s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   90.1s] G2a PASS: principal sl2 relations exact
+[   93.8s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   95.3s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   95.4s] B575 prefix exec complete.
+[   95.4s] === STEP 1: joint nullspace of (A27-I), (B27-I) ===
+[   95.5s] joint nullspace dim = 1   [HARD GATE: must equal 1 = banked h0]
+[   95.5s] GATE h0=1: PASS
+[   95.5s] v0 verified exactly: (A27-I)v0 = 0 and (B27-I)v0 = 0.
+[   95.5s] v0 (normalized, first nonzero coord idx 12 -> 1):
+[   95.5s]     idx 12  weight (-1, 0, 0, 0, 0, 1)   coeff (1)
+[   95.5s]     idx 13  weight (1, 0, -1, 0, 1, -1)   coeff (-1)
+[   95.5s]     idx 14  weight (0, 0, 1, 0, -1, 0)   coeff (1)
+[   95.5s] === STEP 2: v0 weight support + h_pr-null check ===
+[   95.5s] support size = 3  indices = [12, 13, 14]
+[   95.5s] support weights = [(-1, 0, 0, 0, 0, 1), (1, 0, -1, 0, 1, -1), (0, 0, 1, 0, -1, 0)]
+[   95.5s] h_pr is diagonal in the weight basis (as constructed): True
+[   95.5s] h_pr eigenvalue at each support weight:
+[   95.5s]     idx 12  weight (-1, 0, 0, 0, 0, 1)   h_pr-eigenvalue = (0)
+[   95.5s]     idx 13  weight (1, 0, -1, 0, 1, -1)   h_pr-eigenvalue = (0)
+[   95.5s]     idx 14  weight (0, 0, 1, 0, -1, 0)   h_pr-eigenvalue = (0)
+[   95.5s] h_pr @ v0 == 0 exactly (v0 is h_pr-null)?  True
+[   95.5s] === STEP 3: Spin(10)xU(1) branching search (6 candidate coweights) ===
+[   95.5s] E6 Cartan matrix C6:
+[   95.5s]     [2, 0, -1, 0, 0, 0]
+[   95.5s]     [0, 2, 0, -1, 0, 0]
+[   95.5s]     [-1, 0, 2, -1, 0, 0]
+[   95.5s]     [0, -1, -1, 2, -1, 0]
+[   95.5s]     [0, 0, 0, -1, 2, -1]
+[   95.5s]     [0, 0, 0, 0, -1, 2]
+[   95.5s] Cartan inverse C6^-1 (Q):
+[   95.5s]     ['4/3', '1', '5/3', '2', '4/3', '2/3']
+[   95.5s]     ['1', '2', '2', '3', '2', '1']
+[   95.5s]     ['5/3', '2', '10/3', '4', '8/3', '4/3']
+[   95.5s]     ['2', '3', '4', '6', '4', '2']
+[   95.5s]     ['4/3', '2', '8/3', '4', '10/3', '5/3']
+[   95.5s]     ['2/3', '1', '4/3', '2', '5/3', '4/3']
+[   95.5s]   node 1: coweight [Fraction(4, 3), Fraction(1, 1), Fraction(5, 3), Fraction(2, 1), Fraction(4, 3), Fraction(2, 3)] -> charges (16-mult)=1/3, (10-mult)=-2/3, (1-mult,singlet)=4/3   ratio(1:-2:4) OK = True   w_singlet = idx 0 weight (1, 0, 0, 0, 0, 0)
+[   95.5s]   node 2: coweight [Fraction(1, 1), Fraction(2, 1), Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(1, 1)] -> multiplicity pattern [6, 6, 15] (not 16/10/1, skip)
+[   95.5s]   node 3: coweight [Fraction(5, 3), Fraction(2, 1), Fraction(10, 3), Fraction(4, 1), Fraction(8, 3), Fraction(4, 3)] -> multiplicity pattern [2, 5, 10, 10] (not 16/10/1, skip)
+[   95.5s]   node 4: coweight [Fraction(2, 1), Fraction(3, 1), Fraction(4, 1), Fraction(6, 1), Fraction(4, 1), Fraction(2, 1)] -> multiplicity pattern [3, 3, 6, 6, 9] (not 16/10/1, skip)
+[   95.5s]   node 5: coweight [Fraction(4, 3), Fraction(2, 1), Fraction(8, 3), Fraction(4, 1), Fraction(10, 3), Fraction(5, 3)] -> multiplicity pattern [2, 5, 10, 10] (not 16/10/1, skip)
+[   95.5s]   node 6: coweight [Fraction(2, 3), Fraction(1, 1), Fraction(4, 3), Fraction(2, 1), Fraction(5, 3), Fraction(4, 3)] -> charges (16-mult)=-1/3, (10-mult)=2/3, (1-mult,singlet)=-4/3   ratio(1:-2:4) OK = True   w_singlet = idx 26 weight (0, 0, 0, 0, 0, -1)
+[   95.5s] VALID Spin(10)xU(1) branchings (16/10/1, ratio 1:-2:4): nodes [1, 6]  (count=2)
+[   95.5s] === STEP 4: THE DECISIVE NUMBERS ===
+[   95.5s]   node 1: w_singlet = idx 0 weight (1, 0, 0, 0, 0, 0)   h_pr-eigenvalue = (16)   v0-coefficient there = (0)
+[   95.5s]   node 6: w_singlet = idx 26 weight (0, 0, 0, 0, 0, -1)   h_pr-eigenvalue = (-16)   v0-coefficient there = (0)
+[   95.5s] *** VERDICT: CONFLATION-REFUTED ***
+[   95.5s] saved <seat-workdir>/invariant_line/w0a_singlet/w0a_v0.json
+[   95.5s] DONE.

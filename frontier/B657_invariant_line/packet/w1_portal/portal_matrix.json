@@ -1,0 +1,201 @@
+{
+  "prereg_sha256": "9d8aa8ff36da8cc63285599c889a5fa9814e675c639c3026244b58a24d25b18a",
+  "addendum_sha256": "7b77c578d1814638169562d209be79d03d8094db89e7917e2a2164e2e90006b3",
+  "gates": {
+    "C27_inverse_consistent": true,
+    "relator_R1": true,
+    "relator_R2": true,
+    "relator_R3": true,
+    "v0_dim1": true,
+    "v0_idx0_matches_w0a": true,
+    "v0_matches_w0a": true,
+    "v0_C27_invariant": true,
+    "N_dim1": true,
+    "N_invariant_all": true,
+    "P_class0_is_cocycle": true,
+    "h1_dual_eq_5": true,
+    "all_5_are_dual_cocycles": true,
+    "control_coboundary": true,
+    "control_trivial": true,
+    "b1_D": 1,
+    "control_exactness": true
+  },
+  "v0_normalized_idx0": 12,
+  "h1_dual": 5,
+  "h0_dual": 1,
+  "portal_matrix": [
+    [
+      [
+        "1/75600",
+        "-1/75600"
+      ],
+      [
+        "-1/1425600",
+        "-1/1425600"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1/16765056000",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-15/11",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "portal_matrix_readable": [
+    [
+      "(1/75600-1/75600*sqrt(-3))",
+      "(-1/1425600-1/1425600*sqrt(-3))",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/16765056000",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-15/11",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ]
+  ],
+  "rank": 5,
+  "kernel_dim": 0,
+  "image_dim": 5,
+  "split": {
+    "boundary_born_cols": [
+      0,
+      1
+    ],
+    "solo_inherited_cols": [
+      2,
+      3,
+      4
+    ],
+    "note": "classes 0,1 = boundary-born (B637 FINDINGS.md's 'coker-delta^0 pair', support only on generator b); classes 2,3,4 = solo-inherited (support spans a,b,c). Split applies to the PORTAL's INPUT (column) index j, since B637's naming was established for the primal double's classes; the 5 dual-side (row) classes have no independent B637 identification.",
+    "boundary_born_cols_all_zero": false,
+    "solo_inherited_cols_all_zero": false
+  },
+  "controls": {
+    "coboundary_input_side": true,
+    "coboundary_representative_side": true,
+    "trivial_coefficient_b1_D": 1,
+    "trivial_coefficient_is_identity": true,
+    "exactness": true
+  },
+  "verdict": "RANK-5",
+  "runtime_s": 106.30490112304688
+}

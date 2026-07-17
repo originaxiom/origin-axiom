@@ -1,0 +1,61 @@
+[    0.0s] STEP 0: exec B575 prefix (stages 0-3; exact e6 + 27 build)...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.4s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   64.0s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[   79.7s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[   79.9s] G2a PASS: principal sl2 relations exact
+[   83.4s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[   84.7s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+[   84.7s]   B575 prefix done (85s)
+[   84.7s] STEP 1: load + rehydrate cell3_double/stage1_classes.pkl...
+[   84.7s]   rehydrated: banked h1 = 5, classes = 5 (81-vectors -> a/b/c)
+[   85.5s]   relator gate R1: PASS
+[   86.0s]   relator gate R2: PASS
+[   87.2s]   relator gate R3: PASS
+[   87.2s] STEP 2: v0 = joint nullspace of (A27-I, B27-I)  [W0a result]...
+[   87.3s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[   87.4s]   v0 verified exactly: (A27-I)v0=0, (B27-I)v0=0; normalized idx0=12
+[   87.4s]   cross-check vs w0a_v0.json: idx0 match=True, coordinates match=True
+[   87.4s]   v0 invariant under C27 (conjugate holonomy): PASS
+[   87.4s] STEP 3: the Jordan cubic invariant N (B632 cell2_texture.py method)...
+[   87.4s]   zero-weight-sum sorted triples: 45
+[   87.4s]   invariance equations: 180
+[   87.6s]   cubic invariant space dim = 1  [GATE: must equal 1]: PASS
+[   87.6s]   nonzero sorted coefficients: 45/45
+[   87.7s]   N-invariance under A27: PASS
+[   87.7s]   N-invariance under B27: PASS
+[   87.7s]   N-invariance under C27: PASS
+[   87.7s] STEP 4: the dual (contragredient) Fox machinery, rho-bar(g)=(rho(g)^-1)^T...
+[   91.1s]   dual Fox-derivative matrix built (3s)
+[   91.1s]   cocycle-property spot check on class 0 (before proceeding)...
+[   91.1s]   P(u_0) in Z1(dual): PASS
+[   91.1s] STEP 5: Z1(dual)/B1(dual) and h1(D; 27-bar); extract the dual class basis...
+[   93.9s]   Z1(dual) dim = 31, coboundary rank = 26
+[   93.9s]   h0(dual) = 1, h1(dual) = 5   [GATE: h1(dual)=5]
+[  103.4s]   extracted 5 dual class representatives
+[  103.4s] STEP 6: THE PORTAL MATRIX  P: H1(D;27) -> H1(D;27-bar) in class bases...
+[  105.4s]   all 5 P(u_j) verified as dual cocycles: True
+[  105.4s]   PORTAL rank = 5, kernel dim = 0, image dim = 5
+[  105.4s]   PORTAL[i][j] (i=dual-class row, j=primal-class col):
+[  105.4s]     [(1/75600-1/75600*sqrt(-3)), (-1/1425600-1/1425600*sqrt(-3)), 0, 0, 0]
+[  105.4s]     [0, 1/16765056000, 0, 0, 0]
+[  105.4s]     [0, 0, 0, 0, -2]
+[  105.4s]     [0, 0, 0, -15/11, 0]
+[  105.4s]     [0, 0, 1, 0, 0]
+[  105.4s] STEP 7: THE SPLIT -- B637_corrected_cell3/FINDINGS.md 3+2 identification...
+[  105.4s]   classes 0,1 = boundary-born (B637 FINDINGS.md's 'coker-delta^0 pair', support only on generator b); classes 2,3,4 = solo-inherited (support spans a,b,c). Split applies to the PORTAL's INPUT (column) index j, since B637's naming was established for the primal double's classes; the 5 dual-side (row) classes have no independent B637 identification.
+[  105.4s]   boundary-born columns (0,1) all-zero: False
+[  105.4s]   solo-inherited columns (2,3,4) all-zero: False
+[  105.4s] CONTROL A: coboundary invariance (input-side + representative-side)...
+[  105.8s]   input-side (primal coboundary shift of u_0): class-image unchanged: True
+[  106.3s]   representative-side (dual coboundary shift of P(u_0)): class-image unchanged: True
+[  106.3s] CONTROL B: trivial-coefficient control (H0 x H1 -> H1 cup = scalar mult)...
+[  106.3s]   b1(D) [trivial-coefficient control] = 1
+[  106.3s]   trivial-coefficient portal == identity_1x1: True
+[  106.3s] CONTROL C: exactness -- K = Q(sqrt(-3)) (Fraction pairs) throughout; zero floats in the portal path: PASS by construction
+[  106.3s] ALL GATES PASS: True
+[  106.3s] VERDICT: RANK-5
+[  106.3s] saved <seat-workdir>/invariant_line/w1_portal/portal_matrix.json
+[  106.3s] DONE.
+EXIT_CODE=0

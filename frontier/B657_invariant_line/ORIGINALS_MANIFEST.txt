@@ -1,0 +1,29 @@
+# ORIGINALS_MANIFEST — cc2's invariant-line packet (OA_CC2_invariant_line_20260717.zip)
+# sha256 of every file AS RECEIVED (before the disclosed privacy patches below):
+89f671c198219435129dd5e74a657a5f0af61881b0c1dbc9b39e40e4f9b4ecaa  ./PACKET_README.md
+9d8aa8ff36da8cc63285599c889a5fa9814e675c639c3026244b58a24d25b18a  ./PREREG_IL.md
+d56dc955c4a779e1385e3753468516e43ded52e1694e2bf0348b9c7e5993393d  ./SEALS.txt
+307864e7997d52f996444f9150b1ff22c56e01b293fa0ac9b4e8c0b44930b91f  ./STATUS.md
+0238c6f046c065e6400cb4cae4e494099fbdd62b94554568d1d0ad7927318fb1  ./w0a_singlet/FINDINGS_CC2.md
+6e10b26c34251afaac416be8fa15a93c4f05acadc0a587f227d663822190e6f6  ./w0a_singlet/w0a_compute.py
+2d55ff5c4fc167ee7b2c55f03edce494ecf5437f3a27f8eb7c00186b9d3e5cf7  ./w0a_singlet/w0a_run.log
+46308de66ae7a9174091130bd5b63c972e9b2efce764825f642ff1b4d39829cd  ./w0a_singlet/w0a_v0.json
+5ec961687040f0ab2d772130e3e387fc0c851f26897f03e66bd3fd04044044d0  ./w0b_blocks/w0b_blocks.json
+01270ed861c05ecdab813dfbae27432ee713ae16149f2f4e1df48dd03156023d  ./w0b_blocks/w0b_blocks.py
+a16fc0f7ba648d2232b2d97ca0d32f225991e54b61a9787ef1d7e0c9d17b2902  ./w0b_blocks/w0b_run.log
+7b77c578d1814638169562d209be79d03d8094db89e7917e2a2164e2e90006b3  ./w1_portal/ADDENDUM_W1.md
+402465d370c8e3ccb25fa9edb2dbcd161d40a94572522bf9d7510bf09512ad45  ./w1_portal/FINDINGS_CC2.md
+1412d08a0d8cbd562c04bc10a2a1bb5ee8b9675b0c921eb900b57f3a48f2facd  ./w1_portal/portal_matrix.json
+d8a7f10393621a438b91e490bfafb6165de907d1aa025c29321a14708aa67a85  ./w1_portal/w1_portal.py
+47efbbd7db850c4f4b68fae4f77cdc2399a9770f538d7228b5f3a0fb76bb9a98  ./w1_portal/w1_run.log
+9af78ccdfd4bd4a7ded20689edbebd3c5077a642455e52f288f4ee1ab86d9a58  ./w2_silver/FINDINGS_CC2.md
+ae588211f55d019fbbba20cb65144a99ee7c170bf1156844c9ee224032124285  ./w2_silver/REPAIR_NOTE_CHAT1.md
+8ef6f9dd8e33232ecfb74d549f18493f243db0ba381b44ac3e330fb92df15f07  ./w2_silver/silver_portal.json
+7744bb95cd9b89052e5ec5c452bcba889db4547f36936f83bae20dc2f6b29c8c  ./w2_silver/w2a_run.log
+f932257971240f34fe45245e9fc92b5f5369ec13ddc168b5e2294df6c5e263a5  ./w2_silver/w2a_silver.py
+
+# DISCLOSED PRIVACY PATCHES (house rule: no model names / no seat paths):
+#   all files: '/Users/dri/oa-seat-cc2/origin-axiom' -> '<repo>';
+#   '/Users/dri/oa-seat-cc2/seat-work' -> '<seat-workdir>'; 'sonnet agent' -> 'subagent'
+#   run logs renamed *.log -> *_log.txt (the repo ignores *.log)
+# No other byte changed. Packet SEALS.txt verified 8/8 on receipt (before patching).

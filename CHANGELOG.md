@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B657: the invariant-line campaign (the conflation dies; the portal law banks)
+
+### Added
+- **THE PORTAL LAW:** P(u) = [v₀ × u] is a rank-5 isomorphism
+  H¹(D;27) → H¹(D;27̄) on both objects (golden block-diagonal on the
+  boundary/solo split; silver isomorphism with the basis caveat).
+  New LAW_MAP row; L102 opened (canonical silver decomposition).
+- **The one-per-block refinement:** per-block (h⁰,h¹) =
+  (0,1)/(0,1)/(1,1) on 27 = V17⊕V9⊕V1, both objects — the
+  invariant-line class is the Betti class.
+- Locks: tests/test_b657_invariant_line.py (4).
+
+### Resolved
+- **CONFLATION-REFUTED (W0a):** the h⁰ invariant line is a 3-weight
+  h_pr-null combination with exactly zero overlap with the Spin(10)
+  singlet (h_pr = ±16) — the relayed "dark matter candidate" label is
+  dead; house name: the invariant line. Reproduced bit-identically on
+  this seat; W0b identically; W2a re-run end-to-end (19/19 gates).
+
 ## 2026-07-17 — B656: the digest-queue integration (G1–G5 verified; Q-AREA: the factor 2 is universal)
 
 ### Added

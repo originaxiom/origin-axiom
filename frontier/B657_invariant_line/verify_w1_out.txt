@@ -1,0 +1,7 @@
+gates: True
+independent rank: 5
+det nonzero (kernel 0): True
+block-diagonal on {0,1}/{2,3,4}: True
+solo 3x3 corners/middle: True True True
+boundary 2x2 upper-triangular: True
+  entries: 1/75600 - sqrt(3)*I/75600 | -1/1425600 - sqrt(3)*I/1425600 | 1/16765056000

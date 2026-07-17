@@ -5496,3 +5496,28 @@ s-free (Q(i) — the subfield law at the defect level). Locks:
 tests/test_b656_digest.py (4) + the Q-AREA fraction lock in
 test_b654_listening.py. Disclosed privacy patches in the packet
 manifest.
+
+## 2026-07-17 — B657: THE INVARIANT-LINE CAMPAIGN (cc2's packet verified; the conflation dies; the portal is born)
+
+cc2's corrected probe of the relay-mislabeled "dark sector" (prereg
+9d8aa8ff sealed with hard gates; packet seals 8/8 on receipt). W0a
+CONFLATION-REFUTED, reproduced BIT-IDENTICALLY on this seat: the h0
+invariant line v0 = a 3-weight h_pr-null combination (1,-1,1); the
+Spin(10) singlet sits at h_pr = +-16 (both valid branchings) and v0's
+coefficient there is EXACTLY ZERO — "dark matter candidate" was a
+conflation of two decompositions of the 27; the label never entered
+the repo. House name: THE INVARIANT LINE. W0b ONE-PER-BLOCK,
+reproduced identically (mod runtime): 27 = V17+V9+V1 exactly
+block-diagonal, per-block (h0,h1) = (0,1)/(0,1)/(1,1) — the
+invariant-line class IS the Betti class; the block-level face of
+B656/G5's reduction. W1 THE PORTAL: P(u) = [v0 x u] is a RANK-5
+ISOMORPHISM H1(D;27) -> H1(D;27-bar), exactly block-diagonal on the
+boundary/solo split (solo corners (1,-2), middle -15/11); sealed
+matrix re-derived independently (rank, det, zero blocks, entries).
+W2a SILVER re-run END-TO-END on this seat: 19/19 gates; form-match
+deep (grammar, one-per-block entry-for-entry, v0's (1,-1,1) shape,
+rank-5 isomorphism); the block-structure mismatch flagged with the
+basis caveat (L102 opened). New LAW row (the portal law); the
+dimension-grammar row gains the one-per-block refinement; repair note
+relayed to the originating seat. Locks 4/4. Gate 5 untouched
+throughout — the packet's own naming discipline held.

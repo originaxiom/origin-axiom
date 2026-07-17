@@ -1,0 +1,422 @@
+{
+  "prereg_sha256": "9d8aa8ff36da8cc63285599c889a5fa9814e675c639c3026244b58a24d25b18a",
+  "object": "m136 (B649 silver holonomy, L=Q(s,i), s^4=8s^2+16)",
+  "gates": {
+    "double_h0_eq_1": true,
+    "double_h1_eq_5": true,
+    "solo_h0_eq_1": true,
+    "solo_h1_eq_3": true,
+    "v0_dim1": true,
+    "v0_invariant_under_def": true,
+    "block_dims_match": true,
+    "block_diagonal_exact": true,
+    "w0b_sum_h0_match": true,
+    "w0b_sum_h1_match": true,
+    "w0b_v1_block_1_1": true,
+    "w0b_one_per_block": true,
+    "N_invariant_all": true,
+    "h1_dual_eq_5": true,
+    "all_5_are_dual_cocycles": true,
+    "control_coboundary": true,
+    "b1_D_eq_1": true,
+    "control_trivial": true,
+    "control_exactness": true
+  },
+  "double_dims": {
+    "h0": 1,
+    "h1": 5
+  },
+  "solo_dims": {
+    "h0": 1,
+    "h1": 3
+  },
+  "v0_silver": {
+    "normalized_idx0": 12,
+    "support_indices": [
+      12,
+      13,
+      14
+    ],
+    "support_size": 3,
+    "coordinates_full": [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ]
+    ],
+    "hpr_eigenvalues_at_support": [
+      "0",
+      "0",
+      "0"
+    ],
+    "weight_label_note": "silver assets carry only the principal-sl2 grading (h_pr); no W27/Spin(10)xU(1) weight lattice is available -- reported honestly.",
+    "invariant_under_def": true
+  },
+  "w0b_analog": {
+    "attempted": true,
+    "block_structure_accessible": true,
+    "block_dims": [
+      17,
+      9,
+      1
+    ],
+    "per_block": [
+      {
+        "block": 0,
+        "dim": 17,
+        "slice": [
+          0,
+          17
+        ],
+        "h0": 0,
+        "h1": 1,
+        "z1_dim": 18,
+        "coboundary_rank": 17
+      },
+      {
+        "block": 1,
+        "dim": 9,
+        "slice": [
+          17,
+          26
+        ],
+        "h0": 0,
+        "h1": 1,
+        "z1_dim": 10,
+        "coboundary_rank": 9
+      },
+      {
+        "block": 2,
+        "dim": 1,
+        "slice": [
+          26,
+          27
+        ],
+        "h0": 1,
+        "h1": 1,
+        "z1_dim": 1,
+        "coboundary_rank": 0
+      }
+    ]
+  },
+  "cubic_N_invariance": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true,
+    "e": true,
+    "f": true
+  },
+  "h1_dual": 5,
+  "h0_dual": 1,
+  "portal_matrix": [
+    [
+      [
+        "[Fraction(523, 46741968000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(-1, 139113000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-1470056239, 237733725498174360000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(1608677723, 237733725498174360000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(5891083, 11965943808000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(3045323, 8974457856000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(80452534256577831924187, 1694024970155251758339194880000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(989265038763983853896537, 11011162306009136429204766720000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ]
+    ],
+    [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(18313, 303177019927541760000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(-527, 4060406516886720000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(3084702506880619, 15197308395000856817172480000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(3739641899582791, 2849495324062660653219840000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ]
+    ],
+    [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(491, 100800), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(-111, 5600), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(-2084409948661363, 1353931584445440000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(-1295094653113883, 2369380272779520000), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ]
+    ],
+    [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(-19, 19353600), Fraction(0, 1), Fraction(209, 1161216000)]",
+        "[Fraction(0, 1), Fraction(19, 11612160), Fraction(0, 1), Fraction(-19, 165888000)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(-55019598794233, 1819684049494671360000), Fraction(0, 1), Fraction(-22659277426349, 5199097284270489600000)]",
+        "[Fraction(0, 1), Fraction(-268654139572909, 1819684049494671360000), Fraction(0, 1), Fraction(17949329634547, 1102838817875558400000)]"
+      ]
+    ],
+    [
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+        "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      ],
+      [
+        "[Fraction(0, 1), Fraction(1217582287, 34937933750297690112000), Fraction(0, 1), Fraction(-165188187599, 698758675005953802240000)]",
+        "[Fraction(0, 1), Fraction(-723346769, 155279705556878622720), Fraction(0, 1), Fraction(29480769433, 63523515909632163840000)]"
+      ]
+    ]
+  ],
+  "portal_matrix_readable": [
+    [
+      "(523/46741968000) + i*(-1/139113000)",
+      "(-1470056239/237733725498174360000) + i*(1608677723/237733725498174360000)",
+      "0",
+      "(5891083/11965943808000) + i*(3045323/8974457856000)",
+      "(80452534256577831924187/1694024970155251758339194880000) + i*(989265038763983853896537/11011162306009136429204766720000)"
+    ],
+    [
+      "0",
+      "(18313/303177019927541760000) + i*(-527/4060406516886720000)",
+      "0",
+      "0",
+      "(3084702506880619/15197308395000856817172480000) + i*(3739641899582791/2849495324062660653219840000)"
+    ],
+    [
+      "0",
+      "0",
+      "-2",
+      "(491/100800) + i*(-111/5600)",
+      "(-2084409948661363/1353931584445440000) + i*(-1295094653113883/2369380272779520000)"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "(-19/19353600*s+209/1161216000*s^3) + i*(19/11612160*s+-19/165888000*s^3)",
+      "(-55019598794233/1819684049494671360000*s+-22659277426349/5199097284270489600000*s^3) + i*(-268654139572909/1819684049494671360000*s+17949329634547/1102838817875558400000*s^3)"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "(1217582287/34937933750297690112000*s+-165188187599/698758675005953802240000*s^3) + i*(-723346769/155279705556878622720*s+29480769433/63523515909632163840000*s^3)"
+    ]
+  ],
+  "rank": 5,
+  "kernel_dim": 0,
+  "support_pattern_split": [
+    {
+      "class": 0,
+      "nonzero_generators": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "class": 1,
+      "nonzero_generators": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "class": 2,
+      "nonzero_generators": [
+        "b",
+        "e"
+      ]
+    },
+    {
+      "class": 3,
+      "nonzero_generators": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "class": 4,
+      "nonzero_generators": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    }
+  ],
+  "controls": {
+    "coboundary_input_side": true,
+    "coboundary_representative_side": true,
+    "trivial_coefficient_b1_D": 1,
+    "trivial_coefficient_is_identity": true,
+    "exactness": true
+  },
+  "rank_verdict": "RANK-5-ISOMORPHISM",
+  "k020_verdict": "FORM-MATCH (rank 5 isomorphism reproduces; values differ -- see portal matrix); sector/split structure reported separately (support-pattern investigation above)",
+  "runtime_s": 651.7446010112762
+}

@@ -1,0 +1,19 @@
+[    0.0s] executing B575 stages 0-3 (exact e6 + 27 build)...
+[   90.5s] B575 prefix done in 91s
+[   90.5s] REL (solo relator) = 'abABaBAbaB'
+[   90.5s] building principal-sl2 chain basis (cell3b_stage1.py lines 50-92 pattern)...
+[   90.6s] chain basis built in 0s
+[   90.6s] block_slices = [(0, 17), (17, 26), (26, 27)]
+[   90.6s] BLOCK DIMS FOUND = [17, 9, 1]  (sum = 27; expected [17, 9, 1])
+[   90.6s] conjugating A27, B27 into the chain basis...
+[   90.7s] conjugation done in 0s
+[   90.7s] block-diagonality exact (off-block == 0 everywhere): True
+[   90.7s] computing per-block Fox h0/h1 for the solo relator REL...
+[   91.2s] block 0 (dim 17, slice [0,17)): h0=0  h1=1  (Z1=18, B1=17, h0==dim-B1: True)
+[   91.2s] block 1 (dim 9, slice [17,26)): h0=0  h1=1  (Z1=10, B1=9, h0==dim-B1: True)
+[   91.2s] block 2 (dim 1, slice [26,27)): h0=1  h1=1  (Z1=1, B1=0, h0==dim-B1: True)
+[   91.2s] SUM h0 = 1  (gate: == 1 banked -> True)
+[   91.2s] SUM h1 = 3  (gate: == 3 banked -> True)
+[   91.2s] dim-1 block(s) (h0,h1) = [(1, 1)]  (gate: == (1,1) -> True)
+[   91.2s] ONE-PER-BLOCK (every block h1==1): True
+[   91.2s] VERDICT: ONE-PER-BLOCK

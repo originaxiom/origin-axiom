@@ -1,0 +1,74 @@
+{
+  "prereg_sha256": "9d8aa8ff36da8cc63285599c889a5fa9814e675c639c3026244b58a24d25b18a",
+  "REL": "abABaBAbaB",
+  "block_dims": [
+    17,
+    9,
+    1
+  ],
+  "block_slices": [
+    [
+      0,
+      17
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "block_diagonal_exact": true,
+  "per_block": [
+    {
+      "block": 0,
+      "dim": 17,
+      "slice": [
+        0,
+        17
+      ],
+      "h0": 0,
+      "h1": 1,
+      "z1_dim": 18,
+      "coboundary_rank": 17,
+      "h0_eq_dim_minus_cobrank": true
+    },
+    {
+      "block": 1,
+      "dim": 9,
+      "slice": [
+        17,
+        26
+      ],
+      "h0": 0,
+      "h1": 1,
+      "z1_dim": 10,
+      "coboundary_rank": 9,
+      "h0_eq_dim_minus_cobrank": true
+    },
+    {
+      "block": 2,
+      "dim": 1,
+      "slice": [
+        26,
+        27
+      ],
+      "h0": 1,
+      "h1": 1,
+      "z1_dim": 1,
+      "coboundary_rank": 0,
+      "h0_eq_dim_minus_cobrank": true
+    }
+  ],
+  "sum_h0": 1,
+  "sum_h1": 3,
+  "gate_sum_h0_eq_1": true,
+  "gate_sum_h1_eq_3": true,
+  "gate_v1_block_eq_1_1": true,
+  "one_per_block": true,
+  "all_gates_pass": true,
+  "verdict": "ONE-PER-BLOCK",
+  "runtime_s": 91.23939728736877
+}

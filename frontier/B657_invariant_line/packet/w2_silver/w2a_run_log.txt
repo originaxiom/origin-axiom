@@ -1,0 +1,87 @@
+[    0.0s] STEP 0: exec b649_stage3b_swap.py prefix (weld + silver DOUBLE Fox/Z1/cob/reps)
+[    0.0s]         (source READ only -- no writes to origin-axiom; ~5-8 min expected)
+== S3a-G1: the weld solve at SL2(L) ==
+weld reconstructed
+== G1: J^2 ==
+  U27 conj(U27) scalar: True; c^2 = 1: True; c = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+rows built (45s)
+dim Z1 = 31 (190s)
+independent coboundaries: 26
+H1 representatives: 5
+[  247.1s]   prefix exec complete (247s)
+[  247.1s]   double presentation: GENS='abcdef'  RELATORS=['aBAbcc', 'aaCbcB', 'dEDeff', 'ddFefE', 'CCBeff', 'caCAfdFD']
+[  247.1s] === GATE 1a: reproduce banked silver DOUBLE dims (h0=1, h1=5) ===
+[  247.1s]   double: dim Z1=31 rank(cob)=26  ->  h0(D)=1 h1(D)=5
+[  247.1s]   GATE (1,5): PASS
+[  247.1s] === GATE 1b: reproduce banked silver SOLO dims (h0=1, h1=3) -- f4-template pattern ===
+[  283.2s]   solo Z1 dim = 29  (36s)
+[  285.8s]   solo: rank(cob)=26  ->  h0(M)=1 h1(M)=3
+[  285.8s]   GATE (1,3): PASS
+[  285.8s] === STEP 2 (SILVER W0a-analog): v0_silver = joint nullspace of {A-I,B-I,C-I} ===
+[  289.8s]   joint nullspace dim = 1  [HARD GATE dim=1]: PASS
+[  289.8s]   v0_silver verified exactly: (A-I)v0=(B-I)v0=(C-I)v0=0; normalized idx0=12
+[  289.8s]   support size = 3  indices = [12, 13, 14]
+[  289.8s]     idx 12  coeff = 1
+[  289.8s]     idx 13  coeff = -1
+[  289.8s]     idx 14  coeff = 1
+[  289.8s] checking v0_silver invariance under the DOUBLE's d,e,f generators...
+[  289.9s]   v0_silver invariant under d: True
+[  290.0s]   v0_silver invariant under e: True
+[  290.1s]   v0_silver invariant under f: True
+[  290.1s] weight-label note: silver's persisted rational assets carry the principal-sl2
+[  290.1s]   grading (h_pr) only -- NOT the full 6d Spin(10)xU(1) weight lattice (W27, C6)
+[  290.1s]   that golden's B575 build carries. Reporting h_pr-eigenvalue as the available
+[  290.1s]   'weight' label; the full E6-weight identification is NOT available for silver.
+[  290.1s]   h_pr diagonal in this basis: True
+[  290.1s]     idx 12  h_pr-eigenvalue(principal grading) = 0
+[  290.1s]     idx 13  h_pr-eigenvalue(principal grading) = 0
+[  290.1s]     idx 14  h_pr-eigenvalue(principal grading) = 0
+[  290.1s] === STEP 3 (SILVER W0b-analog): principal-SL2 block structure check ===
+[  290.2s]   block_slices = [(0, 17), (17, 26), (26, 27)]  block_dims = [17, 9, 1]  (expect [17,9,1])
+[  290.8s]   block-diagonality exact under silver solo generators a,b,c,A,B,C: True
+[  301.5s]   block 0 (dim 17, slice [0,17)): h0=0 h1=1 (Z1=18, B1=17)
+[  302.8s]   block 1 (dim 9, slice [17,26)): h0=0 h1=1 (Z1=10, B1=9)
+[  302.8s]   block 2 (dim 1, slice [26,27)): h0=1 h1=1 (Z1=1, B1=0)
+[  302.8s]   SUM h0=1 (== solo h0 1: True)  SUM h1=3 (== solo h1 3: True)
+[  302.8s]   dim-1 block (h0,h1) = [(1, 1)]  gate(1,1): True
+[  302.8s]   ONE-PER-BLOCK (every block h1==1): True
+[  302.8s] === STEP 4 (SILVER PORTAL): the Jordan cubic N_silver + P(u) = [v0_silver x u] ===
+[  302.8s]   cubic_rational.json entries: 270
+[  303.0s]   N_silver-invariance under a: PASS
+[  303.1s]   N_silver-invariance under b: PASS
+[  303.2s]   N_silver-invariance under c: PASS
+[  303.4s]   N_silver-invariance under d: PASS
+[  303.5s]   N_silver-invariance under e: PASS
+[  303.7s]   N_silver-invariance under f: PASS
+[  303.7s] building dual Fox derivative rows (162x162 over L; expect several minutes)...
+[  349.5s]   dual Fox rows built (46s)
+[  540.8s]   dim Z1(dual) = 31  (191s)
+[  546.3s]   h0(dual)=1 h1(dual)=5  [GATE h1_dual==5]: PASS
+[  553.1s]   extracted 5 dual class representatives
+[  553.1s] === THE SILVER PORTAL MATRIX P: H1(D_silver;27) -> H1(D_silver;27bar) ===
+[  617.7s]   all 5 P(u_j) verified as dual cocycles: True
+[  617.7s]   PORTAL rank = 5, kernel dim = 0
+[  617.7s]   PORTAL[i][j] (i=dual-class row, j=primal-class col):
+[  617.7s]     [(523/46741968000) + i*(-1/139113000), (-1470056239/237733725498174360000) + i*(1608677723/237733725498174360000), 0, (5891083/11965943808000) + i*(3045323/8974457856000), (80452534256577831924187/1694024970155251758339194880000) + i*(989265038763983853896537/11011162306009136429204766720000)]
+[  617.7s]     [0, (18313/303177019927541760000) + i*(-527/4060406516886720000), 0, 0, (3084702506880619/15197308395000856817172480000) + i*(3739641899582791/2849495324062660653219840000)]
+[  617.7s]     [0, 0, -2, (491/100800) + i*(-111/5600), (-2084409948661363/1353931584445440000) + i*(-1295094653113883/2369380272779520000)]
+[  617.7s]     [0, 0, 0, (-19/19353600*s+209/1161216000*s^3) + i*(19/11612160*s+-19/165888000*s^3), (-55019598794233/1819684049494671360000*s+-22659277426349/5199097284270489600000*s^3) + i*(-268654139572909/1819684049494671360000*s+17949329634547/1102838817875558400000*s^3)]
+[  617.7s]     [0, 0, 0, 0, (1217582287/34937933750297690112000*s+-165188187599/698758675005953802240000*s^3) + i*(-723346769/155279705556878622720*s+29480769433/63523515909632163840000*s^3)]
+[  617.7s] === support-pattern split investigation (stage 3a's boundary/solo analog) ===
+[  617.7s]   class 0: nonzero on generators ['a', 'b', 'c']
+[  617.7s]   class 1: nonzero on generators ['a', 'b', 'c']
+[  617.7s]   class 2: nonzero on generators ['b', 'e']
+[  617.7s]   class 3: nonzero on generators ['a', 'b', 'c', 'd', 'e']
+[  617.7s]   class 4: nonzero on generators ['a', 'b', 'c', 'd', 'e']
+[  617.7s] === CONTROL A: coboundary invariance ===
+[  637.1s]   input-side (primal coboundary shift of rep0): class-image unchanged: True
+[  651.7s]   representative-side (dual coboundary shift of P(rep0)): class-image unchanged: True
+[  651.7s] === CONTROL B: trivial-coefficient control (b1(D_silver)) ===
+[  651.7s]   b1(D_silver) [trivial-coefficient control] = 1  (expected 1, from H1(D_silver)=Z+Z/2+Z/2): PASS
+[  651.7s]   trivial-coefficient portal == identity_1x1: True
+[  651.7s] CONTROL C: exactness -- L = Q(s,i) (Fraction-pair) arithmetic throughout; zero floats in the portal path: PASS by construction
+[  651.7s] ALL HARD GATES PASS: True
+[  651.7s] RANK VERDICT: RANK-5-ISOMORPHISM
+[  651.7s] *** THE K020 VERDICT: FORM-MATCH (rank 5 isomorphism reproduces; values differ -- see portal matrix); sector/split structure reported separately (support-pattern investigation above) ***
+[  651.7s] saved <seat-workdir>/invariant_line/w2_silver/silver_portal.json
+[  651.7s] DONE.
