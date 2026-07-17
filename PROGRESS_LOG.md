@@ -5743,3 +5743,19 @@ FUNCTOR; the last leg = the framework-side modular-form assignment
 cells left open (synthesis table in CAMPAIGN_SYNTHESIS.md). Two
 LAW->THEOREM upgrades, two leads closed exactly, one wall added, one
 door honestly shut, one placement upgraded. Locks 5/5 (wave-2 file).
+
+## 2026-07-17 — B665: THE LANDSCAPE RECONCILIATION — one law, two faces
+
+Three treatments (chat1's numerics, B664's proof, cc2's adjudication)
+reconcile: THE SHADOW-CLASS LAW — |tr_odd(W)| = 2|tone(class of W
+mod 5)| for ANY word (B644's shadow functor + B654's identification,
+explicit; cc2's form) — with B664's closed form as its single-L
+section. Witnesses verified here: trace 7 splits phi (RLRL, REAL) vs
+1/phi (R^5L, complex) by mod-5 class — TRACE DOES NOT DETERMINE
+HEARING; RRLL/RRRLLL have tr_odd = 1 exactly (general-word reality
+counterexamples). Reciprocal corrections: to cc2 — "three properties"
+over-counts (prime conductor <=> unit det: TWO), and the realness
+claim fails WITHIN the family too (B664's n = 12/18/27/33); from cc2,
+adopted — the PSL correction (SL(2,5) not simple), the
+origin-framing inconsistency, the standing trace-4 != silver erratum.
+L107 coordinated (cell B4 on cc2's seat; E6 version here). Locks 2/2.

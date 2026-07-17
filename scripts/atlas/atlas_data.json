@@ -13521,6 +13521,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B665": {
+   "slug": "landscape reconciliation",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B4",
+    "B644",
+    "B654",
+    "B664",
+    "L107"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B66": {
    "slug": "sl6 tower",
    "motifs": [
