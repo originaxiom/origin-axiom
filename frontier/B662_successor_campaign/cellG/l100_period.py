@@ -55,11 +55,13 @@ import mpmath as mp
 import numpy as np
 import sympy as sp
 from sympy.matrices.normalforms import hermite_normal_form, smith_normal_form
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
-CELL = '/Users/dri/origin-axiom/frontier/B662_successor_campaign/cellG'
-BANKED_TERMS = ('/Users/dri/origin-axiom/frontier/B646_wave2_integration/cc2_packets/'
+CELL = _REPO + '/frontier/B662_successor_campaign/cellG'
+BANKED_TERMS = (_REPO + '/frontier/B646_wave2_integration/cc2_packets/'
                 'next_queue/next_queue/n1_counting/jeffrey_terms.json')
-BANKED_P1 = ('/Users/dri/origin-axiom/frontier/B651_wave3_integration/cc2_packets/'
+BANKED_P1 = (_REPO + '/frontier/B651_wave3_integration/cc2_packets/'
              'promotion_queue/promotion_queue/p1_milgram/p1_certificates.json')
 P_WORD = 3
 N0 = 2**6 * 3**3 * 5**4 * 7**2 * 11**2 * 19**2  # the melody theorem's period (formula, D2)

@@ -3,8 +3,9 @@ via the banked 78-basis machinery (cellB's construction)."""
 import importlib.util
 import os
 import sys
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 
-HERE = "/Users/dri/origin-axiom/frontier/B662_successor_campaign/cellB"
+HERE = _REPO + "/frontier/B662_successor_campaign/cellB"
 sys.path.insert(0, HERE)
 src = open(os.path.join(HERE, "qblock_78.py")).read()
 # reuse its apparatus-building head (through the 78 basis, before Fox)

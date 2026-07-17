@@ -30,8 +30,10 @@
 # =====================================================================
 import json, itertools, sys
 from fractions import Fraction as F
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
-REPO = "/Users/dri/origin-axiom"
+REPO = _REPO + ""
 Y_JSON = REPO + "/frontier/B660_structure_campaign/packet/s2_cp/s2_results.json"
 M_JSON = REPO + "/frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json"
 

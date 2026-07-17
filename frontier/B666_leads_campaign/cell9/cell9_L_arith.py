@@ -6,6 +6,8 @@ Element representation: tuple of 8 Fractions, coordinates in the basis
 index = j + 4*k  for s^j i^k.
 """
 from fractions import Fraction
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 ZERO8 = tuple([Fraction(0)] * 8)
 ONE8 = tuple([Fraction(1)] + [Fraction(0)] * 7)
@@ -160,7 +162,7 @@ def load_silver_gens(path):
 
 if __name__ == '__main__':
     gens = load_silver_gens(
-        '/Users/dri/origin-axiom/frontier/B649_silver_holonomy/entries_L.json')
+        _REPO + '/frontier/B649_silver_holonomy/entries_L.json')
     # verify dets
     for g in 'abc':
         assert mdet(gens[g]) == ONE8, f"det({g}) != 1"

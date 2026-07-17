@@ -15,6 +15,8 @@ factored exact J-spectrum.
 """
 import sys, json, time
 import sympy as sp
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 x, y, z = sp.symbols('x y z')
 lam = sp.Symbol('lam')
@@ -121,7 +123,7 @@ def main():
                       f"{[complex(round(r.real, 6), round(r.imag, 6)) for r in roots_num]}"
                       f"  ({dt:.1f}s)")
             results[w][str(cls)] = dict(status='OK', factors=desc)
-        json.dump(results, open('/Users/dri/origin-axiom/frontier/'
+        json.dump(results, open(_REPO + '/frontier/'
                                 'B666_leads_campaign/cell9/'
                                 'taskB_jspectrum.json', 'w'), indent=1)
     print("DONE")

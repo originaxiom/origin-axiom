@@ -1,0 +1,9 @@
+n=1: dim 0, EXACT point count (with multiplicity) = 3
+n=2: dim 0, EXACT point count (with multiplicity) = 4
+n=3: dim 0, EXACT point count (with multiplicity) = 2
+n=4: dim 0, EXACT point count (with multiplicity) = 10
+n=5: dim 0, EXACT point count (with multiplicity) = 16
+n=6: dim 0, EXACT point count (with multiplicity) = 26
+n=7: dim 0, EXACT point count (with multiplicity) = 42
+n=8: TIMEOUT(30min)
+COUNTS DONE

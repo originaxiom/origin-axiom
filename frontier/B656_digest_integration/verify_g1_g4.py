@@ -12,8 +12,9 @@ import os
 
 import numpy as np
 from sympy import factorint
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 
-ROOT = "/Users/dri/origin-axiom"
+ROOT = _REPO + ""
 spec = importlib.util.spec_from_file_location(
     "b238", os.path.join(ROOT, "frontier", "B238_su32_levelrank", "su32_wrt.py"))
 b238 = importlib.util.module_from_spec(spec)

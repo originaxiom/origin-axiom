@@ -1,0 +1,4 @@
+m=1: ['z:triv', 'deg2(disc -3):swapped']
+m=2: ['z:triv', 'deg4(disc 1048576):swapped']
+m=3: ['z:triv', 'deg2(disc -7):SIGMA-FIXED', 'deg8(disc 293150671243880016):swapped']
+m=4: ['z:triv', 'deg8(disc 2032462108901613758316544):swapped']

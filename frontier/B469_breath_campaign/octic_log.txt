@@ -1,0 +1,18 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B469_breath_campaign/octic_test.py", line 16, in <module>
+    cands = {'a': tr('a'), 'c': tr('c'), 'ac': tr('ac'), 'aC': tr('aC'), 'abAB': tr('abAB'), 'cbCB': tr('cbCB')}
+                  ^^^^^^^
+  File "/Users/dri/origin-axiom/frontier/B469_breath_campaign/octic_test.py", line 10, in tr
+    return mp.mpc(m[0,0]) + mp.mpc(m[1,1])
+           ^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 375, in __new__
+    real = cls.context.mpf(real)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 79, in __new__
+    v._mpf_ = mpf_pos(cls.mpf_convert_arg(val, prec, rounding), prec, rounding)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 98, in mpf_convert_arg
+    raise TypeError("cannot create mpf from " + repr(x))
+TypeError: cannot create mpf from 0.547272470595749 - 1.195184148000684*I

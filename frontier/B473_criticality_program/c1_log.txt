@@ -1,0 +1,4 @@
+pair (1,2) @ level 15: ord(W1) = 20, ord(W2) = 12; torus cells = 121; ZERO cells = 72 (59.5%); nonzero |values|: min 0.0078, max 0.2959, distinct~39
+pair (1,3) @ level 27: ord(W1) = 36, ord(W3) = 9; torus cells = 243; ZERO cells = 159 (65.4%); nonzero |values|: min 0.0833, max 0.1443, distinct~2
+pair (2,3) @ level 63: ord(W2) = 12, ord(W3) = 24; torus cells = 252; ZERO cells = 84 (33.3%); nonzero |values|: min 0.0044, max 0.1695, distinct~105
+C1 DONE

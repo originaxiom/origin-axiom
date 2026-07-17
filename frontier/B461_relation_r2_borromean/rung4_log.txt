@@ -1,0 +1,16 @@
+== L6a4 SL(3) numeric rung ==
+  class  0: 1 solutions found; isolated 0, on-family 1; field degrees seen: []
+  class  1: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  2: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  3: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  4: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  5: 3 solutions found; isolated 0, on-family 3; field degrees seen: []
+  class  6: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  7: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  8: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class  9: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class 10: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class 11: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class 12: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+  class 13: 0 solutions found; isolated 0, on-family 0; field degrees seen: []
+RUNG4 DONE

@@ -16,8 +16,10 @@ import sys
 import time
 
 import mpmath as mp
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
-REPO = pathlib.Path("/Users/dri/origin-axiom")
+REPO = pathlib.Path(_REPO + "")
 TESTS = REPO / "tests"
 # mirror pyproject pythonpath = ["src", "."] plus pytest's rootdir insertion of tests/
 for p in (str(TESTS), str(REPO / "src"), str(REPO)):

@@ -31,8 +31,9 @@ from fractions import Fraction
 
 import numpy as np
 import sympy as sp
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
-ROOT = "/Users/dri/origin-axiom"
+ROOT = _REPO + ""
 
 
 def load(name, rel):

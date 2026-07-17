@@ -38,10 +38,11 @@ import json
 import os
 import time
 from fractions import Fraction as Fr
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
-REPO = "/Users/dri/origin-axiom"
+REPO = _REPO + ""
 HERE = os.path.join(REPO, "frontier", "B662_successor_campaign", "cellE")
 B637D = os.path.join(REPO, "frontier", "B637_corrected_cell3")
 B649D = os.path.join(REPO, "frontier", "B649_silver_holonomy")

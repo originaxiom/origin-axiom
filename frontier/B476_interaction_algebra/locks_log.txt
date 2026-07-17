@@ -1,0 +1,4 @@
+pair (1,2) @ level 15: ord=(20,12), products=240, span dim = 49
+pair (1,3) @ level 27: ord=(36,9), products=324, span dim = 147
+pair (2,3) @ level 63: ord=(12,24), products=288, span dim = 252
+LOCKS CONTROLS DONE

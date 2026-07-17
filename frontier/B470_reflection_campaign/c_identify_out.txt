@@ -1,0 +1,17 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+n=10 len=89 vol=83.1396079625008646377514200551
+n=11 len=144 vol=134.507891922797251613373325076
+n=12 len=233 vol=217.647499885298116251124745131
+n=13 len=377 vol=352.155391808095367864498070206
+defect(n=11) = vol(n)-vol(n-1)-vol(n-2) = n/a
+defect(n=12) = vol(n)-vol(n-1)-vol(n-2) = 1.26217744835361888865876570445e-29
+defect(n=13) = vol(n)-vol(n-1)-vol(n-2) = -2.5243548967072377773175314089e-29
+incremental c estimates: 0.934082582797203136203981424136
+                         0.934152898455065894806195730956
+
+c = 0.934082582797203136203981424136
+
+PSLQ attempts (c vs single candidates with small rational multiples):
+multi-term PSLQ: [0, 0, 0, -3, 2, 0, 0, 0]
+basis order: ['c', 'Lob(pi/5)', 'Lob(2pi/5)', 'Lob(pi/3)', 'Lob(pi/6)', 'Catalan', 'pi*logphi', 'zeta2/phi']

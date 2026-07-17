@@ -10,9 +10,11 @@ import sys
 
 import mpmath as mp
 
-REPO = pathlib.Path("/Users/dri/origin-axiom")
+REPO = pathlib.Path(_REPO + "")
 sys.path.insert(0, str(REPO / "frontier" / "B353_geometric_theta_identification"))
 from geometric_theta import EXPONENTS, SIGN, theta_chain_blockscalar_residual, hyperelliptic_certificate  # noqa: E402  (sets dps=100 at import)
+import os
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 for dps in (100, 40, 30):
     mp.mp.dps = dps

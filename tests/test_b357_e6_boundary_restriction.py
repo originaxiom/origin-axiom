@@ -11,6 +11,19 @@ from boundary_restriction import (
 )
 
 
+@pytest.fixture(autouse=True)
+def _dps_module():
+    # E12 repair (the b353 pattern, B666 cell 5's mechanism): these locks
+    # compute residuals at runtime and need the dps their module sets at
+    # import; collection-time imports of later modules clobber it.
+    import boundary_restriction as _br
+    saved = mp.mp.dps
+    mp.mp.dps = getattr(_br, "DPS", None) or 60
+    yield
+    mp.mp.dps = saved
+
+
+
 def test_peripheral_gates():
     assert peripheral_gates()                       # mu, lam commute; both parabolic tr=-2
 
