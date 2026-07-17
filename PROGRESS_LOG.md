@@ -5617,3 +5617,17 @@ with the solo-triple block EXACTLY ZERO (verified at artifact level) —
 three walls (Koszul, D1, S4): the hierarchy question is
 cochain/quantum or nothing. chat1's origin docs archived as
 provenance. Locks 4/4.
+
+## 2026-07-17 — B661: THE WAVE-1 IDENTIFICATION (chat1's portal couplings = the stage's quantum dimensions)
+
+cc2's adjudication verified by this seat against the banked SU(3)_2
+stage data: the wave-1 moduli {0.303531, 0.491123} (ratio phi) are
+EXACTLY |S_0j| = the quantum dimensions {1/D, phi/D}, D^2 = 3+3phi^2;
+the equal-diagonals result = |S_ii| = 1/D for all six primaries; the
+"golden portal ratio" IS the golden quantum dimension — true
+arithmetic, no new object. Representation-forced across four words
+(R^2L eigenvalue corrected to 2+sqrt3 — verified); the values are
+STAGE-FIXED, the knot only permutes entries. Cross-references to
+banked results verified (both packet hashes match). The redirect
+adopted: wave 2 as designed does not run; open successors = B660's.
+Locks 2/2.

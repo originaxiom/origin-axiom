@@ -13445,6 +13445,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B661": {
+   "slug": "wave1 adjudication",
+   "motifs": [
+    "metallic",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B238",
+    "B657",
+    "B660",
+    "K020",
+    "L104"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B66": {
    "slug": "sl6 tower",
    "motifs": [

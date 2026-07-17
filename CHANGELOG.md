@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B661: the wave-1 identification (portal couplings = quantum dimensions)
+
+### Resolved
+- chat1's wave-1 "portal coupling" moduli identified exactly as the
+  SU(3)₂ quantum dimensions {1/D, φ/D} (verified from the banked
+  stage data; equal diagonals = |S_ii| = 1/D); representation-forced
+  across four words (values stage-fixed); R²L eigenvalue corrected to
+  2+√3. Wave 2 as designed does not run. Locks 2/2.
+
 ## 2026-07-17 — B660: the structure campaign (wall 10; the γ₅′ placement; the CP obstruction)
 
 ### Added
