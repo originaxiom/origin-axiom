@@ -5521,3 +5521,19 @@ basis caveat (L102 opened). New LAW row (the portal law); the
 dimension-grammar row gains the one-per-block refinement; repair note
 relayed to the originating seat. Locks 4/4. Gate 5 untouched
 throughout — the packet's own naming discipline held.
+
+## 2026-07-17 — REVIEW 21: THE CONSTITUTIONAL PILOT (first review under GOVERNANCE §15)
+
+Window #1036-#1064 (29 merges, B646-B657). The loop closed: every R20
+item resolved or carried (R20-7 resolved by B649's silver build; R20-10
+by the four verified packet tranches). Advancement: the calibration
+campaign's full one-shot lifecycle; 8 new theorem-grade results; 1 new
+wall; 6 new laws; 1 dissolution. Errors: E4's window instance (the C2
+provenance erratum) with L99 as the standing counter-rule (R21-10);
+E12 recurred (test_b353, R21-11); E13 minted; no new class. Provenance
+sweep clean; 10 unglossed terms glossed in the review PR. Promotion
+sweep: all candidates blocked on the novelty pass (R21-7, explicit).
+Protocol: 6 seals re-computed, all match; packet seals 7/7 + 8/8;
+hash-first held through the campaign choreography. Pilot caveat
+declared: reviewer = author for much of the window; independence rests
+on the receipt loop + locks. 11 action items (R21-1..11).

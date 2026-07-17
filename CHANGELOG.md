@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — Review 21: the constitutional pilot (GOVERNANCE §15's first run)
+
+### Governance
+- The R20 action block fully closed/carried; 11 new items (R21-1..11).
+- The pilot caveat declared (reviewer = author; independence via the
+  receipt loop + locks). Provenance sweep clean; ten load-bearing terms
+  glossed in TERMINOLOGY.md; six window seals re-computed, all matching.
+- Findings: E4's window instance (the C2 provenance erratum → L99 =
+  R21-10); E12 recurred (test_b353 → R21-11); the sign-hears-the-
+  discriminant THEOREM's one exhaustively-verified lemma filed for
+  abstract proof (R21-9).
+
 ## 2026-07-17 — B657: the invariant-line campaign (the conflation dies; the portal law banks)
 
 ### Added

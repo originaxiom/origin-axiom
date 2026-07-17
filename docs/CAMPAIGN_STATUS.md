@@ -66,9 +66,13 @@ audit: `docs/AUDIT_2026-07-05.md`.
   the invariant line is a rank-5 isomorphism of the double's cohomology
   onto its dual, sector-respecting on the golden. One-per-block
   confirmed (the invariant-line class = the Betti class). L102 opened.
-- Standing: tracks L (cc2 ladder) and W (L95) event-driven; R20 items
-  4/7/8/9 open; the constitutional pilot review fires on cadence (DUE —
-  next up).
+- **REVIEW 21 EXECUTED (2026-07-17):** the constitutional pilot — the
+  R20 loop closed (R20-7 resolved by the silver build; R20-10 by the
+  four packet tranches), 11 action items opened (R21-1..11: the novelty
+  pass, the L99 amendment on owner approval, the pair-evenness lemma,
+  the b353 leaker, five carried maths cells).
+- Standing: tracks L (cc2 ladder) and W (L95) event-driven; the next
+  review fires on cadence from Review 21's anchor.
 
 ## LAST BANKED (B648 SEALED + B649 stage 1 + B647 cell 1, 2026-07-16)
 - THE CALIBRATION CAMPAIGN sealed (a463c6aa) after two seat reviews + round-2

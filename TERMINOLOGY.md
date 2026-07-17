@@ -71,3 +71,33 @@ No invariant may be transferred between these without an explicit map.
 - **the audit seat**: a read-only AI seat operating in a separate clone
   (historically phrased "the external audit" — see PROVENANCE.md §0;
   internal to the project like every seat).
+- **the calibration campaign / the one-shot license**: the sealed B648
+  protocol — exhaust the grammar (Phase A), count its freedoms (GATE B),
+  spend at most ONE held-out comparison under pre-committed statistics
+  (Phase C); the license is spent regardless of outcome (B648/B653).
+- **the C′ event / zero-calibration**: the campaign branch in which range
+  physicality fixed the single free bit with zero measurements (the
+  Galois image −φ/2 ∉ [0,1]), making the prediction parameter-free
+  (B653's design).
+- **the grammar table / the freedom count N**: the sealed inventory of
+  every constant in the object's interaction grammar, each labeled
+  FORCED / CHOSEN / CONVENTION / COMPUTED-MECH-OPEN / WALL; N = the
+  number of genuinely free entries (B652: N = 1, discrete).
+- **the conductor-clock law**: clock(κ) = ord(A₁ mod 3κ) — the θ-odd
+  block's dynamical order reads the conductor 3κ, not the naive modulus
+  κ (B656/G4; B596's table thereby DERIVED).
+- **the sign-hears-the-discriminant theorem**: det(w) = (−1)^{v_p(det
+  B_w)} for every Weyl element w iff v_p(t²−4) is odd (even rank);
+  even valuations give exactly the sign-balanced half (B656/G1).
+- **the sector-carry law**: the even θ-sector carries a unit iff the
+  mirror channel resonates — the direct and mirror generic laws are
+  exact negatives (B656/G3).
+- **the (i₁, i₂) reduction**: the dimension grammar {h⁰(M), h¹(M);
+  h⁰(D), h¹(D)} is determined by i₁ = dim V^holonomy and i₂ =
+  dim V^{peripheral ℤ²} (B656/G5); (1,3) ⇒ 3/5/1.
+- **the invariant line**: the h⁰ line of the 27 — a 3-weight h_pr-null
+  combination with coefficients (1, −1, 1); NOT the Spin(10) singlet
+  (the W0a conflation refutation, B657).
+- **the portal (law)**: cupping with the invariant line, P(u) = [v₀ × u]
+  via the Jordan cross product — a rank-5 isomorphism H¹(D;27) →
+  H¹(D;27̄) on both computed objects (B657).
