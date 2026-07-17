@@ -1,0 +1,28 @@
+# ORIGINALS_MANIFEST — cc2's anatomy loop-1 packet (OA_CC2_anatomy_loop1_20260717.zip)
+# + the bifocal pair (chat1's BIFOCAL_STRUCTURE_HANDOFF; cc2's BIFOCAL_CLARIFICATION).
+# sha256 AS RECEIVED (before the disclosed privacy patches):
+597685faf43f06e0f62f7c9dacb1b73ca0d605449aca8bc98d36a3cfe5a61527  ./2dd29f44-BIFOCAL_CLARIFICATION_CC2.md
+ccfbc4fd4b7fcce1c8d6768558d2727b9d1c54ea73a7d4fa7a06e7b96bd99155  ./44f6c2b6-BIFOCAL_STRUCTURE_HANDOFF.md
+b03e134266b7935085c34aa174b2555f2ab8e5910c39ee742f7f321fcdf39039  ./anatomy_packet/ATLAS.md
+927fa5eba4342f9fef09cb5017e705ee957357768d9eec7ed4f67fd71dde1b7f  ./anatomy_packet/CHARTER.md
+c9bcb93ef08686eec84baf2f56eafb5bb99eae41b07aad5dde16444fe5cfd52b  ./anatomy_packet/FRONTIER.md
+8adc5ca2c84a6d230b5ade9798a96a0d2a2aa2c30b80086e37b797432387d939  ./anatomy_packet/SEALS.txt
+50396a574ecc8cd11ec926b8b88c734ce24ee5839ff885ae8f34a0993228b690  ./anatomy_packet/STATUS.md
+28f57e450aec8b4a46692c28777639f07d5178ff0af64eedd89dfd9de890949d  ./anatomy_packet/VERDICT_LEDGER.md
+247ace23f25403c6617e403215560fea8b8b2e1e7e882b2c4210fc7f01bd0870  ./anatomy_packet/loop1/PREREG_L1.md
+7b6a2481906d943d6bc0203199b0c32665b28151123171e811a3b26fd99a89c6  ./anatomy_packet/loop1/a1_jordan/FINDINGS_CC2.md
+5a8877c7ddeaa891af5b8827e9c11976f8dd3f9003f88312add4e6ba796c9793  ./anatomy_packet/loop1/a1_jordan/a1_jordan.py
+96af783f7f7343339171c65b5c590d3d8d5927edf1594d64edeb104c87832464  ./anatomy_packet/loop1/a1_jordan/a1_results.json
+9b3989d42118b72486542c2f28dc684571379544344c9fc4cd6db43971a44a0a  ./anatomy_packet/loop1/a1_jordan/a1_run.log
+72dd883c39c70d7b991277e6b56dfcf7f57db94ec196ea4af0d72d2f267825e5  ./anatomy_packet/loop1/a2_phases/FINDINGS_CC2.md
+88cbf51f81afb1efe405a2682cd2957da8f2f6681297edb8c3033b555e675ee3  ./anatomy_packet/loop1/a2_phases/a2_phases.py
+9e029706383572ba865614f1fc5fc75b8935d09a32763b4c5ff0159b6fee5883  ./anatomy_packet/loop1/a2_phases/a2_run.log
+982aaed970ba146c4f61e5542a3f2021b5fceea9210c021eb53a64c3969d1adc  ./anatomy_packet/loop1/a2_phases/a2_table.json
+67eb6667951c58b7a534c0e0b277b1a5ef12e53b6278c3a16ebd5cb48ce5a881  ./anatomy_packet/loop1/a3_stage/FINDINGS_CC2.md
+4a2b89d3dcb9884d216097d5e01cd1848bdf76ea9b4fa16253a89be4f32123e1  ./anatomy_packet/loop1/a3_stage/a3_results.json
+053bc41d0f1669dc8c998a9cc4b6175d5004ed65afedcdd93b9d1476cc292789  ./anatomy_packet/loop1/a3_stage/a3_run.log
+7284be990e1726c60dc58d8be71f7ada2a71c0de0a95ac85581f6d110ba975e1  ./anatomy_packet/loop1/a3_stage/a3_stage.py
+
+# DISCLOSED PATCHES: seat paths -> <repo>/<seat-workdir>; model names -> subagent/<model>;
+# logs renamed *.log -> *_log.txt. Packet SEALS: 5/6 OK; FRONTIER.md MISMATCH expected
+# (a living per-loop regenerated file — the received hash is recorded above).

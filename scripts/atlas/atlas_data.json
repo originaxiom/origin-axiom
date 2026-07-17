@@ -13464,6 +13464,36 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B663": {
+   "slug": "bifocal anatomy",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B210",
+    "B247",
+    "B261",
+    "B615",
+    "B644",
+    "B662",
+    "L100",
+    "L104",
+    "L105",
+    "L37",
+    "L91",
+    "V1",
+    "V2",
+    "V5"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B66": {
    "slug": "sl6 tower",
    "motifs": [

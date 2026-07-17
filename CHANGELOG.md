@@ -6,6 +6,25 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-17 — B663: the bifocal adjudication + anatomy loop 1
+
+### Added
+- **The portal law's MECHANISM:** v₀ is an invertible Jordan element
+  (the Jordan unit direction; N(v₀) = −6; recomputed from the banked
+  cubic) — the portal is an isomorphism because the heart is invertible.
+- **THE RESONANT-PHASE LAW** (the ladder's last law): the voice's
+  complete closed form — one character governs every phase (101/101).
+- **The stage sign = a block central character** (E +1 / A −1;
+  SU(3)₆ B¹⁸ = −I corroborated; clock 36 at representation level).
+- The bifocal-entanglement statement (golden = being field alone;
+  silver = the compositum; chord data descends to k(Γ) on both);
+  L105 (2O/E7). The δ_PMNS chain recorded, gated (L104 → owner → §16).
+
+### Resolved
+- chat1's bifocal claims adjudicated: credit = the banked two-ended
+  theorem; corrections verified (silver trace/field; S-entries ∉
+  ℚ(√5), proven; V5 not adopted; V2 closed).
+
 ## 2026-07-17 — B662 wave 1: the successor campaign's first five cells
 
 ### Added

@@ -1,0 +1,76 @@
+{
+  "prereg_sha256": "247ace23f25403c6617e403215560fea8b8b2e1e7e882b2c4210fc7f01bd0870",
+  "gates": {
+    "v0_dim1": true,
+    "v0_idx0_matches_w0a": true,
+    "v0_matches_w0a": true,
+    "N_dim1": true,
+    "N_invariant_all": true,
+    "s_computed": true,
+    "incremental_selftest_matches_banked_nullspace": true,
+    "bilinear_computed": true,
+    "bilinear_basis_verified": true,
+    "dual_invariant_line_dim": 1
+  },
+  "v0_normalized_idx0": 12,
+  "v0_support_indices": [
+    12,
+    13,
+    14
+  ],
+  "v0_coordinates_at_support": {
+    "12": [
+      "1",
+      "0"
+    ],
+    "13": [
+      "-1",
+      "0"
+    ],
+    "14": [
+      "1",
+      "0"
+    ]
+  },
+  "cross_square": {
+    "s_is_zero": false,
+    "s_support_indices": [
+      12,
+      13,
+      14
+    ],
+    "s_values_at_support": {
+      "12": [
+        "-2",
+        "0"
+      ],
+      "13": [
+        "2",
+        "0"
+      ],
+      "14": [
+        "-2",
+        "0"
+      ]
+    }
+  },
+  "N_v0_v0_v0_raw": [
+    "-6",
+    "0"
+  ],
+  "N_v0_is_zero": false,
+  "invariant_bilinear": {
+    "dim": 3,
+    "T2_v0_v0": null
+  },
+  "classification": {
+    "rank": 3,
+    "name": "RANK 3 (invertible direction)"
+  },
+  "refinement_dual_line": {
+    "dual_line_dim": 1,
+    "s_proportional_to_dual_line": true
+  },
+  "silver_note": "v0_silver's cross-square/N/bilinear invariants NOT computed here (a separate cell per prereg instruction) -- flagged for the frontier.",
+  "runtime_s": 411.3292191028595
+}
