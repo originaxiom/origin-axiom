@@ -1221,4 +1221,4 @@ template's honesty rule).
 - [ ] R21-10: the L99 factual-review governance amendment — draft on the owner's approval (source: B654; GOVERNANCE §10 arc, separate from this review)
 - [ ] R21-11: localize the test_b353 suite-order leaker (E12 instance 2026-07-17; source: B656's suite run)
 
-anchor-commit: *(added by the follow-up one-line PR once the merge hash exists)*
+anchor-commit: `4d02afe` (Review 21; #1065)
