@@ -1215,7 +1215,7 @@ template's honesty rule).
 - [ ] R21-4: the fiber-paired Mayer–Vietoris machine for D_conjθ's dimension (carried from R20-4; B656/G5's machinery now applies)
 - [ ] R21-5: the 13-dial mechanism with the two-object 13·211-adic data (carried from R20-6; source: B645/B649)
 - [x] R21-6: DONE (owner-directed 2026-07-17; B658, prereg 0c4a1115) — both order-4 families BROKEN with the same singular d = (0,0,1); wall 8 upgraded to the TOTAL statement (all four orientation-reversing families of D₄ break; the double's symmetry = σ* exactly)
-- [ ] R21-7: the prior-art/novelty pass over ALL standing THEOREM/LAW candidates (carried from R20-9; NEEDS-SPECIALIST; §5.1 gate)
+- [ ] R21-7: the prior-art/novelty pass over ALL standing THEOREM/LAW candidates (carried from R20-9; NEEDS-SPECIALIST; §5.1 gate) — **SWEEP PHASE DONE (B659, 2026-07-17): 12 verdicts (1 KNOWN-field-half via Neumann–Reid, 2 ROUTINE-method, 8 KNOWN-ADJACENT with stated deltas, 1 NOVEL-CANDIDATE); the dossier is the specialist's package; the specialist bar itself remains open**
 - [ ] R21-8: the web seat's L95 prereg — verify-on-receipt when it lands (carried out of R20-10)
 - [ ] R21-9: prove the pair-evenness lemma at ramified primes abstractly (the sign-hears-the-discriminant theorem's one exhaustively-verified step; source: B656/G1)
 - [x] R21-10: DONE (2026-07-17) — owner approved; GOVERNANCE §16 adopted (adversarial factual review of instantiated designs; live-verification stamps; widened anomaly clause; the subagent-reviewer provision with the blinded-lane carve-out) + WORKING_RULES rule 13; L99 closed
