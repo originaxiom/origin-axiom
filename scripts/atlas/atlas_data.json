@@ -13629,6 +13629,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B671": {
+   "slug": "eigenvalue extraction",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B666"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B67": {
    "slug": "figure eight apolynomial",
    "motifs": [
