@@ -441,3 +441,14 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   is 120°-tautological, so both 2/3's may be "three generations ⇒ Z/3 ⇒
   2/3" — generic. E1 tests forced-vs-generic; the mass VALUES (δ≈132.7°)
   stay firewalled. FORCED ⇒ owner-gateable sealed-question; GENERIC ⇒ kill.
+- THE SURGERY CHAIN (chat1, adjudicated B688): Whitehead→figure-eight
+  (1/1 Dehn) crosses Gaussian(ℚ(i),d−4,SL₂(F₂)=S₃→2D₃→D₅ McKay) →
+  Eisenstein(ℚ(√−3),d−3,SL₂(F₃)=2T→E₆ McKay); prime 5 splits in ℚ(i),
+  inert in ℚ(√−3) — the golden hearing exists ONLY on the Eisenstein
+  side. MATH bankable (McKay D₅-vs-E₆ crossing, stated binary-lift);
+  the "E₆→Spin(10) = SM cascade" reading FIREWALLED (Gate 5). Verify
+  Q1's Dic₃=2D₃ before any lead promotion.
+- θ₀=2/9 NOT ROBUST (B688/Q3): convention + input sensitive (chat1 7σ,
+  cc ~1σ, differing inputs); base-rate small-smooth; firewalled. The
+  7983360=|W(E₆)|·2·7·11 reading is base-rate (37% of |W(E₆)|-multiples
+  have smooth cofactors) — not structural.

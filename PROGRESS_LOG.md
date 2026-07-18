@@ -6419,3 +6419,16 @@ both 2/3's may be generic "three generations"). E1 tests forced-vs-
 generic (running); E2 the level-15 handshake (running). Both seats
 converged: constraint object-addressable, values firewalled, forced-
 derivation is the test. Lock test_b687_koide_split.py.
+
+2026-07-18 (main seat) — B688: THE EISENSTEIN CAMPAIGN GOVERNANCE +
+DIVISION OF LABOR banked (official; all seats align) + chat1's
+surgery-chain handoff adjudicated. GOVERNANCE: cc2 explores/proposes
+(read-only), CC records+verifies (the record is mine to bank; nothing
+official until I re-check), owner is courier + only "go", chat1/cc3
+propose never bank; the two-seat gate for the sealed cell; the courier
+hop = the verify-don't-trust boundary; the repo+ledgers = nothing-lost.
+CHAT1 ADJUDICATION: Q1 (McKay D₅-vs-E₆ crossing) MATH SOUND (verified
+S₃/2T/2D₃/McKay + Legendre 5 split-vs-inert), SM reading firewalled;
+Q3 θ₀=2/9 NOT ROBUST (chat1 7σ vs cc ~1σ from differing inputs +
+base-rate — firewalled, supersedes both); Q5 7983360 factorization
+BASE-RATE (37% smooth-cofactor). Gate 5 throughout.

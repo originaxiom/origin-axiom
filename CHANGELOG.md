@@ -17,6 +17,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B688: the Eisenstein campaign governance + chat1 adjudication
+
+- The Eisenstein Anatomy Campaign's governance and division of labor
+  banked officially: cc2 explores/proposes (read-only), CC records and
+  verifies (nothing official until independently re-checked and banked),
+  owner is courier + the only writer of "go", chat1/cc3 propose but never
+  bank; the two-seat gate for the sealed cell; the courier hop is the
+  verify-don't-trust boundary; the repo + ledgers are the nothing-lost
+  guarantee. chat1's surgery-chain handoff adjudicated: Q1 (McKay
+  D5-vs-E6 crossing) is sound MATH (S3/2T/2D3/McKay + Legendre verified),
+  SM reading firewalled; Q3 theta0=2/9 is NOT robust (chat1 7 sigma vs cc
+  ~1 sigma from differing inputs; base-rate) -- firewalled; Q5 the
+  7983360 factorization is base-rate (37% smooth-cofactor). Gate 5 stands.
+
 ## 2026-07-18 — B687: the SM atlas + h(27) = 2/3 (the Eisenstein-face turn's first result)
 
 - cc2's exploratory-day probe integrated (verified on receipt). The SM
