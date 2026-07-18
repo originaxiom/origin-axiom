@@ -257,17 +257,39 @@ are small and named:
    rep = the Γ₅′-doublet 2̂′ (character equality on 9 classes); the specialist
    bar and any paper-shaped form are mathematics, Gate 5 untouched.
 
-## 8. Paper candidates (from the portfolio, brought current)
+## 8. Paper candidates (from the portfolio, brought current — cc2 §8)
 
-The 2026-07-12 portfolio named four real candidates: **PC23** species-chain
-degree-4 gap labels (novelty-cleared, submittable), **PC22** dark hyperbola
-(explicit-realization letter), the reconstruction note (narrow), and **P4**
-the metallic tower (patches pending). The summit adds a fifth theme not yet
-portfolio-assessed: **the observer-coupling closure** — the generation
-no-go as a theorem-with-specification (B685) + the totient root (B691) +
-the two-face anatomy. This is the program's headline and currently lives
-only in frontier FINDINGS + the ATLASes; it is the natural next dossier
-chapter to draft to specialist standard.
+**The honest headline: the summit is a CONSOLIDATION milestone, not a
+new-flagship generator.** A no-go (B685) plus an anatomy is a *survey*,
+not a flagship theorem — and resisting "the summit proves a big new
+paper" is itself the discipline. The summit's own publication form is
+**this physics-free dossier as a specialist survey**, whose component
+mathematics is mostly known or NEEDS-SPECIALIST (GSWZ Habiro, Reid
+arithmeticity, base change, cyclotomic Galois).
+
+The four standalone candidates from the 2026-07-12 portfolio are
+**summit-independent and unchanged** by the §6 downgrades (none leans on
+the 8 relabeled hearing/chord rows — confirmed by topic), ranking intact:
+1. **the degree-4 gap-label proposal** (PC23, B542/3/6) — strongest; all
+   three gates cleared, a novel worked instance + a buildable experiment;
+   submittable pending voice.
+2. **P4, the metallic trace-map tower** (Markov uniqueness, B67/B80/B89) —
+   closest self-contained theorem paper; Theorem-E/E′ rescope pending.
+3. **PC22, the dark-hyperbola letter** (B534) — explicit-realization
+   (Prasad Cor 8.7 parent), NEEDS-SPECIALIST.
+4. **the reconstruction / observer-flow note** (B535/540) — strongest
+   untapped; symbolic dynamics.
+
+**What the summit adds (all NEEDS-SPECIALIST):** (a) this dossier-as-
+survey; (b) two program-original gated pieces — the vector-pairing
+saturation + graded sign rule + sum-rule-as-cubic-theorem (loops 3–7,
+original H*(D;27) cohomology), and the divided-power law (B683, proved
+p-uniform, but Habiro/GSWZ-adjacent — gate vs GSWZ first); (c) the
+totient asymmetry (B691) is elementary once stated (Galois/Lagrange) — a
+dossier theorem, not a paper. **Firewall (Tier-4):** the B685 no-go must
+NOT be dressed as a positive-result paper. Recommendation: publish the
+dossier as the specialist statement; keep the four standalone candidates
+on their existing gates.
 
 ## 9. The firewall (what is NOT claimed)
 

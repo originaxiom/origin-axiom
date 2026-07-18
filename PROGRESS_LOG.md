@@ -6630,3 +6630,16 @@ regen was caught and reverted, preserving the descriptive cross-check
 hashes). Dossier §6 notes the QA pass; cc2's full inventory banked at
 docs/dossiers/S6_theorem_inventory_cc2.md. Four of six R23 items now
 closed; R23-1/-2/-3 carry (the specialist read, L95, H-EAR status).
+
+## 2026-07-18 — Dossier §8 (portfolio, current) — Track C dossier COMPLETE
+
+cc2's §8 portfolio pass integrated verified-on-receipt: the summit is a
+CONSOLIDATION milestone, not a new-flagship generator — a no-go + an
+anatomy is a survey. The four standalone candidates (degree-4 gap-label,
+P4 tower, PC22, reconstruction note) are summit-independent and unchanged
+by the §6 downgrades (confirmed by topic); ranking intact. The summit's
+publication form is the dossier-as-survey + two gated NEEDS-SPECIALIST
+program-original pieces (vector-pairing saturation; divided-power law
+B683, GSWZ-gate-first); B691 = a dossier theorem not a paper; firewall the
+B685 no-go from a positive-paper dress. cc2's dossier chapters (§3, §6,
+§8) now all banked; the Track C summit dossier is complete.
