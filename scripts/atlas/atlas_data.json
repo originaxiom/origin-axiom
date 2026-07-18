@@ -13944,6 +13944,24 @@
    "status": "open",
    "domain": "topology"
   },
+  "B690": {
+   "slug": "being hand asymmetry",
+   "motifs": [
+    "metallic",
+    "golden",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "S067"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

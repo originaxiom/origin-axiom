@@ -6457,3 +6457,15 @@ the first structured level (11,14 before); the special fact is the fig-8's
 OWN curve at 15 (B674), not 15's primacy. SM reading FENCED. This is the
 CC-side of E2's two-route gate; cc2's E2 packet gets adversarially
 cross-checked against it (cycle 1). Lock test_b689_meeting.py.
+
+2026-07-18 (main seat) — B690: E-2a intake (cycle-1 partial). Two-route
+gate on cc2's 3-adic-twin AGREES: DEVIATES — the being object (GSWZ
+Φ·τΦ) tracks v₃=n+v₃(n!) within defect ≤2 (only n=4 exact; defects
+[+1,−1,0,−1,−2] over the published points), right growth class, real
+bounded defect. THE STRUCTURAL INSIGHT: the two hands are NOT symmetric
+— hearing 5-adic NOT realized at all (B685), being 3-adic NEARLY
+realized (E-2a); the being hand is close to self-generating, the hearing
+not — the arithmetic signature of c-breaking (left≠right). Updates S067
+(being-weighted, not mirror). Shared-sparse-data caveat honest; full
+pattern priced. SM reading fenced. Full Loop E-2 banks when E-2b lands.
+Lock test_b690_asymmetry.py.

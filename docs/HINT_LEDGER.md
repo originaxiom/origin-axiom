@@ -452,3 +452,10 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   cc ~1σ, differing inputs); base-rate small-smooth; firewalled. The
   7983360=|W(E₆)|·2·7·11 reading is base-rate (37% of |W(E₆)|-multiples
   have smooth cofactors) — not structural.
+- THE TWO HANDS ARE ASYMMETRIC (B690, firewalled): the object does NOT
+  realize its 5-adic (hearing) law at all (B685, pure being) but NEARLY
+  realizes its 3-adic (being) law (E-2a: defect ≤2, only n=4 exact). The
+  being hand is close to self-generating, the hearing hand not — the
+  arithmetic signature of c-breaking (left≠right). Updates S067: the two
+  hands are being-weighted, not mirror-symmetric. Full defect pattern =
+  priced (needs the full GSWZ coefficient tower).
