@@ -6724,3 +6724,15 @@ Stage-uniform (2 instances), NOT golden-special ⇒ upgrades the K020-in-ear
 PLACEMENT toward a THEOREM. Bonus: ℚ(√−7) appears, answering S041/H32 (the
 arithmetic extends past {√−3,√5} as the level-7 stage's torsor field). Lock
 test_b700 4/4 (pyenv). Prereg 7323661c.
+
+## 2026-07-19 — B700 cell 3a: the torsor realized dynamically (chat1 Fact 5, corrected)
+
+chat1's session-close Fact 5 ("Galois √5→−√5 IS W², squaring the weld")
+verified-and-CORRECTED: it is W³ not W². The golden torsor's Galois ℤ/2
+(cell 1) is realized on the weld trace tower as W^k→W^{3k} (mod 10; m=3,7
+the only realizing powers) — measurement ambiguity = Galois ambiguity =
+CUBING the weld (the cc-side dynamical realization of cell 3; cc2 holds the
+Coste–Gannon modular-data version). HINT (base-rate-caveated): the power 3
+= the being prime, but 3 also generates (ℤ/10)*. chat1 handoff verified:
+Facts 1,2,3,7 correct; Fact 4 error caught (13 SPLITS in ℚ(i), not inert —
+13≡1 mod 4); Fact 5 corrected (W³). Lock test_b700 5/5.

@@ -141,3 +141,41 @@ dim), field exactly ℚ(√−7), simply-transitive — plus the principled
 
 ## Firewall
 Gate 5. Finite-group rep theory + Galois. No physics.
+
+---
+
+# B700 cell 3a — THE TORSOR REALIZED DYNAMICALLY: the Galois ℤ/2 is cubing the weld
+
+*From chat1's session-close Fact 5 (verified-and-corrected; chat1's track
+record this session = 28 errors, so verify-don't-trust applied).*
+
+## The corrected fact
+chat1 Fact 5 claimed "the Galois action √5→−√5 IS W² (squaring the weld)."
+**Corrected (verified): it is W³, not W².** The weld W on the θ-odd 2-dim
+subspace of SU(3)₂ has order 10, tr(W)=−1/φ; its Galois conjugate (√5→−√5)
+is φ = **tr(W³)** (chat1's table mislabels tr(W²)=−φ as the conjugate — but
+−φ is a root of x²+x−1, while −1/φ,φ are the roots of x²−x−1). The Galois
+action is realized on the whole trace tower as **W^k → W^{3k} (mod 10)**
+(equivalently W^{7k}=W^{−3k}); m=3,7 are the only realizing powers.
+
+## Why it matters (the cell-3 content, cc side)
+This DYNAMICALLY realizes the fiber-functor torsor of cell 1: the golden
+measurement ambiguity — the Galois ℤ/2 that swaps the two golden irreps —
+is not abstract; it is a concrete operation on the object's OWN weld
+(monodromy): **cubing.** So "measurement ambiguity = Galois ambiguity"
+sharpens to "= cubing the weld." The cc-side (trace-tower) realization of
+the torsor; cc2 holds the modular-data (Coste–Gannon) version.
+
+HINT (not a law): the realizing power is 3, the being prime. Base-rate
+caveat: 3 also generates (ℤ/10)*, so "3 = being prime" is a HINT, not
+forced — the solid fact is the power-map realization, not the value 3.
+
+## chat1 handoff corrections (errors caught, banked per protocol)
+- **Fact 5:** W² → **W³** (above).
+- **Fact 4:** chat1 says "13 is INERT in ℚ(i)" — WRONG. (−1|13)=+1, 13≡1
+  mod 4, so **13 SPLITS in ℚ(i)** (13=(3+2i)(3−2i)). The ℚ(√−3)-split half
+  (13=(4−ω)(4−ω̄)) is correct.
+- Facts 1, 2, 3, 7 verified correct.
+
+## Firewall
+Gate 5. The weld/trace tower is banked figure-eight structure; no physics.
