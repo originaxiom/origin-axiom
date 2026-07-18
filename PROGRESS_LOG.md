@@ -6255,3 +6255,19 @@ connection itself is sound (read §4.5 for the real series). ONE
 discriminating test pre-registered two-outcome: does the E₆ block
 decomposition STRUCTURALLY organize the factorization (uniform rule +
 torsion-spectrum ratios across ≥10 terms) — else base-rate.
+
+2026-07-18 (main seat) — PHASE-0 GSWZ EXTRACTION DONE (cc's assigned
+task; arXiv:2412.04241 read from PDF). (1) chat1's eq-(1) transcription
+VERIFIED (right this time: 11/24, 697/1152, 724351/414720). (2) FIREWALL
+NOW AIRTIGHT ON REAL DATA: GSWZ print the h^100 denominator =
+2^397·3^298·5^40·7^22·...·101 — every prime, decreasing valuations, the
+Gevrey/factorial structure (their Thm 9.1, general). It is divisible by
+|2T|, |W(F4)|, |W(E6)| AND every smooth number of its size; the E6-tower
+reads 3 smooth divisors out of a denominator containing ALL — base-rate
+DEFINITIVELY, no null model needed (cc2's 5₂ corroborates). (3) THE REAL
+SIGNAL: the symmetrized series Φ(h)Φ(−h) (eq 2) has denominators {3,5}
+ONLY — being × hearing; the factorial noise CANCELS, {3,5} survives.
+This IS the holomorphic-blocks/S-transform pairing = depth; Prop 1.5(a)
+τf = f(q⁻¹) = the S²=c involution (B681's hypothesis has a literal
+home); Bloch grading ξ = 2[ζ₆] confirms Vol ↔ grading. Phase 1 builds
+the depth construction as Φ·τΦ. Banked in B682.
