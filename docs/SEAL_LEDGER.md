@@ -149,9 +149,11 @@ hash-first status.*
 
 | PREREG_W3_DECISION (the terminal enumeration, frozen base) | frontier/B674_generation_leg/PREREG_W3_DECISION.md | 563a2858 | 2026-07-18 | sealed before any enumeration work; cc2 close-out as-received = 57a1ddca (verified); cc adjudication = 489aea17 |
 
-| PREREG_W3_DECISION ADDENDUM_1 (bifocal universe + E3 reach) | frontier/B674_generation_leg/PREREG_W3_DECISION_ADDENDUM_1.md | see ARTIFACT_HASHES | 2026-07-18 | base 563a2858 unmodified; the bifocal objection adjudicated with computed witness |
+| PREREG_W3_DECISION ADDENDUM_1 (bifocal universe + E3 reach) | frontier/B674_generation_leg/PREREG_W3_DECISION_ADDENDUM_1.md | f99e8b59 (whole-file, single-commit 345db2c) | 2026-07-18 | base 563a2858 unmodified; the bifocal objection adjudicated with computed witness (hash recorded R23-6) |
 
 | E3-ADDENDUM (lemmas L-A + L-B, hypothesis-widening) | frontier/B674_generation_leg/E3_EXTENSION_LEMMAS.md | 1f47cfbd | 2026-07-18 | proven + witnessed BEFORE the gate comparison (held in scratch); seals cc2's classes 5/8 conditionality |
 | W3 GATE COMPARISON | frontier/B674_generation_leg/W3_GATE_COMPARISON_CC.md | c4073c72 | 2026-07-18 | both cells independent; survivor-level EXACT agreement; two banked disagreements (the φ-type gap in cc's list — diagnosed; the F2 scope fence — referred) |
 
 | PREREG_W3_RUN (THE DESIGN CELL — frozen base, the one sealed shot) | frontier/B674_generation_leg/PREREG_W3_RUN.md | 83c50a35 | 2026-07-18 | sealed under the owner's FULL GO before any coefficient; model/session-portable; two frozen freedoms (√−δ sign; ε up to c-th); two-seat gate; produce {2/5,3/5} |
+
+| VERIFY-M prereg (cc2-seat; the two no-go replications) | (cc2 seat-work, not banked in main) | 146da991 (cross-ref only) | 2026-07-18 | R23-6: cc2's independent-replication prereg; its hash + RESULTS traveled to main (docs/dossiers/verify_m_artifacts/), the prereg body lives in the cc2 seat |

@@ -1384,9 +1384,16 @@ exponentiation design theorem (W2). STUCK-LONGEST (unchanged): the
 external specialist bar — unmovable internally by construction (R21-7 →
 R22-1 → R23-1). OVERREACH: two caught and corrected IN-window (E15 the
 {3,5} misread → B685; E16 the chirality over-read → B695, S067 row 3
-falsified); cc2's independent §6 status pass over the hearing/chord
-LAW_MAP rows [FOLD-IN PENDING — cc2 packet in flight] flags any label
-still exceeding its evidence.
+falsified); cc2's independent §6 status pass over 36
+hearing/chord LAW_MAP rows (28 KEEP / 8 DOWNGRADE) LANDED and was
+verified-on-receipt (all 8 source citations confirmed this seat) and
+APPLIED: H1 shadow-class 'for ANY word'→CONJECTURE, H5 twist-tone→
+CERTIFIED, H8 K020-in-ear→PLACEMENT (the clearest — B642's own 'still a
+placement, not a derivation'), H11 jump-law→CERTIFIED+sketch, H13
+PSL-factoring→CERTIFIED(k≤8), C3 swap-real→LAW, C7 F4-skeleton scoped to
+the two banked holonomies, C8 cubic-dichotomy split. META (reassuring):
+the primary sources are honestly written; the 8 overclaims were in
+LAW_MAP's one-line compression — editorial, NOT integrity.
 
 **(4) Error-class recurrence.** All three window self-corrections are
 ledgered (ERROR_LEDGER E15 line 27, E16 line 29, E12 line 22). The
@@ -1418,8 +1425,8 @@ Tier 3 "do NOT dress these as contributions"). ONE gap (action, not a
 failure): the eight load-bearing window terms — Frobenius gluing,
 divided-power law, totient root, being/hearing face, the two hands,
 conductor-15, deaf=non-CM — lack dedicated TERMINOLOGY glosses (adjacent
-coverage exists); and the review template mis-points to
-`docs/TERMINOLOGY.md` (the file is at repo root). → R23-5.
+coverage exists); (TERMINOLOGY.md is at repo root — the sweep's path assumption, not a
+template bug; the template references it correctly). → R23-5.
 
 **(6) The §5.1 promotion sweep.** Everything stays behind the specialist
 bar; Gate 5 held with ZERO physics promotions despite the window turning
@@ -1452,8 +1459,8 @@ though SEAL_LEDGER points to ARTIFACT_HASHES. → R23-6.
 - [>] R23-1: the specialist pass — the summit dossier is now the assembled hand-over package; the external read remains the program's one external dependency (carried from R22-1; source: PR #1144)
 - [>] R23-2: the web seat's L95 prereg — verify-on-receipt (carried from R22-2; never landed)
 - [>] R23-3: H-EAR's principle-status — reframed by B685 (the hearing is coupling); the formal statement carries (from R22-7; H-CUSP resolved 3/3 at B675)
-- [ ] R23-4: cc2's §6 theorem-inventory status pass — fold the hearing/chord LAW_MAP downgrade recommendations on landing (owner: cc2; source: the Track C division)
-- [ ] R23-5: add the 8 summit-term glosses to TERMINOLOGY.md (Frobenius gluing, divided-power law, totient root, being/hearing face, the two hands, conductor-15, deaf=non-CM); fix the review template's `docs/TERMINOLOGY.md` path → repo-root (owner: cc; source: this review's provenance sweep)
-- [ ] R23-6: seal bookkeeping — cross-reference the VERIFY-M prereg (146da991, cc2-seat) in main, and record ADDENDUM_1's own sha8 (f99e8b59) in ARTIFACT_HASHES where SEAL_LEDGER:152 points (owner: cc; source: this review's protocol-integrity check)
+- [x] R23-4: DONE (2026-07-18) — cc2's §6 status pass (28 keep / 8 downgrade) verified-on-receipt (8/8 citations) and APPLIED to LAW_MAP; full inventory at docs/dossiers/S6_theorem_inventory_cc2.md
+- [x] R23-5: DONE (2026-07-18) — the 8 summit-term glosses added to TERMINOLOGY.md (Frobenius gluing, divided-power law, totient root, being/hearing face, the two hands, conductor-15, deaf=non-CM); the template path was already correct (no bug)
+- [x] R23-6: DONE (2026-07-18) — ADDENDUM_1's hash f99e8b59 recorded in its SEAL_LEDGER row; VERIFY-M (146da991) cross-referenced as a cc2-seat prereg. (Note: an accidental seal_ledger.py regen was caught and reverted — the descriptive cross-check hashes preserved.)
 
 anchor-commit: `1d47009` (Review 23)

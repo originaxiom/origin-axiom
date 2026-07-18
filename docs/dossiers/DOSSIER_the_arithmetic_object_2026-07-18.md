@@ -206,6 +206,17 @@ PLACEMENT / WALL), witnesses, and upgrade path. Formal statements live in
 `docs/THEOREM_REGISTRY.md`. The two anatomy maps are
 `docs/anatomy/EISENSTEIN_ATLAS.md` (being) and the golden ATLAS v2.
 
+> **Pre-publication QA (cc2 §6, verified + applied — R23-4).** An
+> independent status pass over 36 hearing/chord rows returned **28 KEEP,
+> 8 DOWNGRADE**; all 8 source citations were confirmed this seat and the
+> relabels applied to LAW_MAP. The meta-finding is the important one: the
+> *primary sources are honestly written* — the overclaims lived only in
+> the one-line compression, and were editorial, not integrity. The 8
+> relabels (K020-in-ear THEOREM→PLACEMENT the sharpest; the shadow-class
+> "for ANY word", twist-tone, jump-law, PSL-factoring, swap-real,
+> F4-skeleton scope, cubic-dichotomy split) tighten the labels *before*
+> specialist eyes. Full inventory: `docs/dossiers/S6_theorem_inventory_cc2.md`.
+
 - **§A** the object's arithmetic (solo laws): sign-law family theorem
   (B617), conductor identities (B591/B588), one-door theorem (B620), the
   hearing landscape theorem, the totient root, the generation no-go, …
