@@ -17,6 +17,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B681: the blackboard v5 pre-test PASSES (design cycle earned)
+
+- The master step's first move. The divided-power law's exact v5 signature
+  factors as n + v5(n!): the divided-power (Gamma vs Sym) denominator times
+  a 5^n level normalization. Each summand has a framework home -- v5(n!) is
+  exactly why the finite-order Molien (Sym) class was killed and why the
+  Habiro ring is the survivor's home; 5^n = one factor of 5 per grade
+  (2 S-applications = one charge-conjugation per grade, slope 5/4 exact).
+  No v5 obstruction: the design cycle is earned, the construction pinned to
+  Habiro-Gamma x level-5. Denominator-necessary condition only; the
+  numerator comparison is the sealed two-seat cell.
+
 ## 2026-07-18 — T2 resolved: the golden CF value is algebraic (CM prediction survives)
 
 - cc2's S2 registered a falsifier: golden cusp is CM (disc -48) => R

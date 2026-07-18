@@ -13813,6 +13813,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B681": {
+   "slug": "habiro pretest",
+   "motifs": [
+    "dickson_tower",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
