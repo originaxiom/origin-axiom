@@ -6393,3 +6393,14 @@ reality lives. Concrete computable frontier named: Γ(15)=Γ(3)∩Γ(5), the
 weight-2 level-15 newform, the being-side ζ₃ flavor, the 3-adic twin of
 the divided-power law. Speculation→calculation table + full negatives;
 Gate 5 stands; nothing to CLAIMS.
+
+2026-07-18 (main seat) — B686: the Koide claim FIREWALLED. Q=2/3 is a
+120°-parametrization tautology (verified for 4 phases — holds for EVERY
+θ), so it proves nothing Eisenstein-specific; the empirical Koide fact
+(actual masses Q=0.66666) is real but literature-known, not ours;
+θ₀=2/9 is convention-dependent (natural branch = 2.317 rad, 2.09 away)
++ base-rate small-smooth. Gate 5 (SM masses) stands; NOT banked. SEPARATED
+cleanly: the STRUCTURAL directive — map the Eisenstein/being face as an
+anatomy (converged: owner + web seat + S067) — is SOUND and independent
+of Koide; the honest test is whether the being arithmetic FORCES ζ₆/120°
+without assuming it. Lock test_b686_koide_firewall.py.
