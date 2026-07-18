@@ -14083,6 +14083,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B697": {
+   "slug": "frobenius gluing",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "B690",
+    "B691",
+    "B694"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
