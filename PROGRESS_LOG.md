@@ -6469,3 +6469,17 @@ not — the arithmetic signature of c-breaking (left≠right). Updates S067
 (being-weighted, not mirror). Shared-sparse-data caveat honest; full
 pattern priced. SM reading fenced. Full Loop E-2 banks when E-2b lands.
 Lock test_b690_asymmetry.py.
+
+2026-07-18 (main seat) — B691: EISENSTEIN LOOP E-2 CLOSED (cycle-1 close;
+CC intake of cc2's E-2 packet ca1e5201, read DIRECTLY from the seat
+folder). Two-route gate on E-2b AGREES. THE ARITHMETIC ROOT OF B685
+(verified): the being/hearing asymmetry = prime-vs-composite totient —
+φ(3)=2 PRIME (Gal ℤ/2, no subgroup) → the ζ₃ orbit is a minimal
+self-conjugate doublet = the object's own shape roots (z²−z+1=0), no
+hierarchy; φ(5)=4 COMPOSITE (Gal ℤ/4 ⊃ ℤ/2) → golden Gaussian periods
+(t²+t−1) → the hearing's richness. The object contains 3 not 5 ⇒
+generates a minimal being-doublet, NOT the composite-totient hearing —
+B685 explained at its root. Plus the universal heart (v₀ same under
+golden+silver, N=−6) + field-locked landscape = the being face's two
+organs. New LAW_MAP row. SM fenced. Loop E-3 (the handshake) is next.
+Lock test_b691_totient_root.py.

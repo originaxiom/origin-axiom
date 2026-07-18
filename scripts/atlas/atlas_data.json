@@ -13962,6 +13962,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B691": {
+   "slug": "eisenstein loop2 close",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "B689",
+    "B690"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

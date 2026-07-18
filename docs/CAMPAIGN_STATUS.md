@@ -1228,3 +1228,10 @@ EISENSTEIN-FACE TURN (B687): first result. SM atlas = 1 LIVE of 23
 2/3 constraint (45deg) — the most-motivated sealed-question candidate,
 NOT evidence (B686 tautology). E1 (forced-vs-generic) + E2 (level-15
 handshake) running. Mass values (delta) firewalled. Both seats converged.
+
+EISENSTEIN LOOP E-2 CLOSED (B691): the arithmetic root of B685 — being/
+hearing asymmetry = prime-totient(3) vs composite-totient(5); the object
+contains 3 not 5, generates a minimal being-doublet not the hearing's
+composite richness. Universal heart + field-locked landscape. Loop E-3
+(the handshake: Gamma(15), L(E15,s), interfere-or-decouple) is next,
+awaiting owner's go.
