@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — THE SUMMIT DOSSIER (Track C) + Track M folded (superseded)
+
+- Object comprehensively mapped (B685→B697). Track C launched: the R22-1
+  specialist dossier `docs/dossiers/DOSSIER_the_arithmetic_object_2026-07-18.md`
+  — the summit-current physics-free statement, 72-law inventory pointer,
+  the 5 named specialist gates, the firewall.
+- Track M FOLDED on cc2's challenge (verified, gate 3): B698/B699
+  superseded by B683 corollary + B690 deviation + B691 category error.
+  S067 rows 1 & 4 → ANSWERED (the being hand has no own hearing; hands
+  ASYMMETRIC = the c-breaking capstone).
+- Gate-3 confirmation of the two no-go pillars (`GATE3_nogo_pillars…`);
+  cc2 VERIFY-M (146da991) in parallel. B697 addendum: two-seat
+  convergence + which-Δ robust (all discriminants 3-based).
+
+---
+
 ## 2026-07-18 — B679: the engine_v7 gate_report patch (prepared + verified)
 
 - The B678 priced door, discharged to correctness: gate_report's O(N^5)

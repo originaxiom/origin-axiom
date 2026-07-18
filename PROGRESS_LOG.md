@@ -6563,3 +6563,22 @@ trivial (generic period); the non-trivial f5(x) coefficient computation
 = the golden×being cross-synthesis, a FRESH-GO new loop, SM-match Gate-5
 + base-rate. Banked as lead + next-loop candidate, not an object result.
 Lock test_b697.
+
+## 2026-07-18 — THE SUMMIT DOSSIER (Track C) + Track M folded on cc2 challenge
+
+The generation leg and Eisenstein campaign are closed (B685→B697); the
+object is comprehensively mapped. Owner decision "both in parallel";
+cc2's challenge (verified independently, gate 3) folded Track M as
+SUPERSEDED — B698 (3-adic twin law) = B683's proven all-primes corollary
++ B690's already-computed being deviation; B699 (ζ₃ stream) = B691's
+proven category error (φ(3)=2 prime forbids it). S067 rows 1 & 4 marked
+ANSWERED: the being hand does NOT have its own hearing → the two hands
+are ASYMMETRIC (the c-breaking capstone). Track C launched: the R22-1
+specialist dossier (docs/dossiers/DOSSIER_the_arithmetic_object_2026-07-18.md)
+— the summit-current, physics-free, external-facing statement of the whole
+position, every result cited to its banked B-number. Third-gate
+confirmation of the two no-go pillars banked (docs/dossiers/GATE3…);
+cc2's VERIFY-M (prereg 146da991) double-verifies in parallel. B697
+addendum: two-seat convergence on the Frobenius adjudication + which-Δ
+resolved (all discriminants 3-based → mechanism robust). Decadal review
+now DUE (54 merges).

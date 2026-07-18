@@ -87,10 +87,10 @@ whether the JOINT structure is SM-like where neither hand was.
 
 | speculation | the computation that tests it | clean negative if |
 |---|---|---|
-| the being hand has its own SM-like flavor | study the figure-eight's level-3/ζ₃ (Eisenstein) modular structure the way we studied level-5/ζ₅ — is there a level-3 "stream" analog? | the being side is flavor-flat (only geometry, no ζ₃ stream) ⇒ the hands are asymmetric, not a mirror pair |
+| the being hand has its own SM-like flavor | study the figure-eight's level-3/ζ₃ (Eisenstein) modular structure the way we studied level-5/ζ₅ — is there a level-3 "stream" analog? | **ANSWERED (B691/B694): the ζ₃ stream is structurally FORBIDDEN — φ(3)=2 is PRIME ⇒ Gal(ℚ(ζ₃)/ℚ)=ℤ/2 has no proper subgroup ⇒ the ζ₃ orbit is an irreducibly minimal self-conjugate doublet (the object's two shape roots), no hierarchy possible. The being face CANNOT carry a rich flavor analog — not by emptiness but by arithmetic prohibition. The hands are ASYMMETRIC.** |
 | reality is the meeting at level 15 | compute the weight-2 level-15 newform's structure + L(E₁₅, s) special values; check whether the 3-part and 5-part COUPLE (non-multiplicative Hecke structure across 3,5) | the level-15 form factors as (level-3)×(level-5) with no genuine coupling ⇒ the meeting is trivial, the hands don't interact |
 | the SM is two-handed (c-broken coupling) | test whether the level-15 coupling carries a chirality (c) that neither Γ(3) nor Γ(5) alone has | **FALSIFIED (B695): c-SYMMETRIC — w₃≠w₅ is forced by E₁₅'s even rank (ε=(−1)^rank), generic (14a/26a/57a), zero 3-vs-5 content. The left/right-hand/chirality leg is DEAD.** |
-| the divided-power 5-adic law has a being twin (3-adic) | B683 proved v₅(cₙ)=v₅(5ⁿn!) for (q;q)^{−3/5}; the corollary already gives the 3-adic version v₃ for (q;q)^{−a/3} — compute it and ask if the figure-eight's ζ₃ object realizes IT (the being analog of what the ζ₅ object failed to realize) | the ζ₃ object is also flat ⇒ neither hand carries its "own" adic structure ⇒ the hypothesis's symmetry is broken |
+| the divided-power 5-adic law has a being twin (3-adic) | B683 proved v₅(cₙ)=v₅(5ⁿn!) for (q;q)^{−3/5}; the corollary already gives the 3-adic version v₃ for (q;q)^{−a/3} — compute it and ask if the figure-eight's ζ₃ object realizes IT (the being analog of what the ζ₅ object failed to realize) | **ANSWERED (B690/E-2a): the ζ₃ object DEVIATES from B683's exact law by a bounded defect (≤2, only n=4 exact) — a PARTIAL positive mirror, neither forced-exact nor flat. Being NEARLY self-generates its adic law; hearing does not — this asymmetry IS the c-breaking signature. The exact defect pattern is PRICED (needs the full GSWZ tower), owner-gated, not compute-closable on banked data.** |
 
 ## The negatives, stated (firewall)
 
@@ -112,3 +112,21 @@ whether the JOINT structure is SM-like where neither hand was.
 We proved one hand cannot clap. The banked record already shows there
 are two hands and where they meet. The open question — the only one
 left after the generation leg — is whether the clap is real.
+
+## UPDATE 2026-07-18 — the table is now closed (rows 1 & 4 ANSWERED)
+
+The two remaining open rows are answered, and both point the SAME way:
+**the being hand does NOT have its own hearing.** Row 1: the ζ₃ stream
+is arithmetically FORBIDDEN (B691/B694 — φ(3)=2 prime). Row 4: the ζ₃
+object DEVIATES from the exact adic law by a bounded defect (B690/E-2a —
+≤2, n=4 exact), a partial mirror, not a full one. Row 3 was already DEAD
+(B695, c-symmetric). So the two hands are **ASYMMETRIC, not a mirror
+pair** — the being hand nearly self-generates its being adically but
+carries no hearing; the hearing genuinely exists only in the coupling.
+That asymmetry IS the c-breaking signature, and it is the cleanest
+possible capstone to the observer-coupling thesis. The ONLY items still
+live are (a) row 2's analytic side (L(E₁₅,s) special values — the AL
+structure is done at B695) and (b) the PRICED exact 3-adic defect (GSWZ
+tower, owner-gated specialist). Neither is compute-closable on banked
+data. The speculation has done its job: it named the falsifiers, and the
+mathematics answered them.
