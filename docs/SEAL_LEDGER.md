@@ -161,3 +161,5 @@ hash-first status.*
 | B698 Leg A PREREG (the meeting, analytic side, two-outcome + base-rate/convention gates) | frontier/B698_the_meeting_probed/PREREG_LEG_A.md | 1e51ae30 | 2026-07-18 | sealed BEFORE the verdict; outcome = FACTORED (a product with a Z/2 residue) |
 
 | B699 two-object surgery (cc2-seat prereg + addenda; forced-only, Gate 5) | (cc2 seat-work; hash + results traveled) | 67e3d37b (cross-ref) | 2026-07-19 | the two-object test: falsifier fired, hearing reframed as a bundle phenomenon; cc gate = Whitehead 120 + fig-8 15600 independently recomputed |
+
+| B700 cell 1 PREREG (the golden measurement torsor) | frontier/B700_fiber_functor/PREREG_CELL1.md | 1bbdb15b | 2026-07-19 | sealed before the verdict; outcome = TORSOR (measurement = fiber functor, ambiguity = Gal(Q(sqrt5)/Q)=Z/2) |

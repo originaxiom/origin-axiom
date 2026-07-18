@@ -14187,6 +14187,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B700": {
+   "slug": "fiber functor",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B638",
+    "B640",
+    "B642",
+    "B699",
+    "K020",
+    "S068"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [

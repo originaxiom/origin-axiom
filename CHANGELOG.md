@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 — B700 cell 1: measurement = fiber functor (the golden torsor)
+
+- The fiber-functor program opened. 2I=SL(2,5) has exactly two 2-dim
+  golden irreps, character field exactly Q(sqrt5), swapped simply-
+  transitively by Gal(Q(sqrt5)/Q)=Z/2 (no fixed irrep). So the golden
+  measurement is a fiber-functor choice; ambiguity = Galois ambiguity =
+  Z/2, concretely. Upgrades the K020-in-ear PLACEMENT toward a theorem.
+- Base-rate-gated (exactly-two + simply-transitive + field-Q(sqrt5)).
+  Lock test_b700 (pyenv, 2/2). Prereg 1bbdb15b.
+
+---
+
 ## 2026-07-19 — B699: the first two-object test reframes the hearing
 
 - cc2's surgery-chain two-object test, verified + banked. The mod-5
