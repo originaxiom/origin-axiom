@@ -26,9 +26,28 @@ import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B347_e6_tangent_gradings'))
 import mpmath as mp
+import pytest
+
+# E12 (module-level-dps sweep): e6_tangent_gradings sets mp.mp.dps=70 at module
+# level. In a full-suite run test_b347 imports it first and this import is a
+# sys.modules cache hit (no re-execution), but in a single-file run THIS import
+# executes the module and would leak the assignment; save/restore covers both.
+_saved_dps = mp.mp.dps
 from e6_tangent_gradings import (
     EXPONENTS, _BASE, _AMPHI, _HYPER, _line_eigenvalue, _guard,
 )
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_70():
+    # E12 repair (the b204 pattern): most tests _guard() to 70 themselves; pin
+    # the same dps=70 per test as well so the ungarded paths (e.g. the pure
+    # linear-algebra tautology test) never depend on the collection-time global.
+    saved = mp.mp.dps
+    mp.mp.dps = 70
+    yield
+    mp.mp.dps = saved
 
 THETA_ODD = [4, 8]
 THETA_EVEN = [1, 5, 7, 11]

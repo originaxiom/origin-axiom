@@ -5,10 +5,31 @@ import importlib.util
 import pathlib
 import cmath
 
+import mpmath as mp
+import pytest
+
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B246_quantum_volume" / "quantum_volume.py"
 _spec = importlib.util.spec_from_file_location("b246", _PATH)
 b246 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): quantum_volume sets mp.mp.dps=30 at module level
+# (its import-time constants are computed under the dps it sets itself); restore
+# the entry dps after the collection-time import so the assignment cannot leak
+# into later-collected modules. (This file was MASKED in the original cell-5
+# scan: the b204 leak had already set 30 before it, so no transition showed.)
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b246)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_30():
+    # E12 repair (the b204 pattern): vc_growth/fixedA_volume compute in mpmath
+    # at RUNTIME; pin the module's declared dps=30 per test instead of trusting
+    # the collection-time global to survive.
+    saved = mp.mp.dps
+    mp.mp.dps = 30
+    yield
+    mp.mp.dps = saved
 
 
 def test_formula_validated_fundamental():

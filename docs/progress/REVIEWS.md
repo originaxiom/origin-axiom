@@ -1307,7 +1307,7 @@ working on the governor).
 - [ ] R22-1: the specialist pass (carried from R21-7; the dossier + the RR identities + this window's theorem queue; NEEDS-SPECIALIST — the program's one external dependency)
 - [ ] R22-2: the web seat's L95 prereg — verify-on-receipt (carried from R21-8)
 - [x] R22-3: VERIFIED + CLOSED (B677, 2026-07-18) — sealed-addendum chains, no breach (the chain hashes match this seat's own banked as-received manifests); the re-seal protocol adopted program-wide
-- [ ] R22-4: the 12-file module-level-dps sweep (the E12 class-wide fix; priced in B666 cell 5)
+- [x] R22-4: DONE (B676, 2026-07-18) — the sweep grew to 18 import-wraps + per-file pinned fixtures (the b204 pattern) + a conftest collection-finish guard; two MASKED leakers (b246, b250) unmasked and repaired; one B671 absolute-path straggler fixed en route; full suite 2428 passed / 0 failed
 - [x] R22-5: DONE (2026-07-18) — eight terms glossed + the golden-rotation LAW_MAP row
 - [ ] R22-6: the generation-leg campaign adjudication on landing (two routes + cc3-cross-check per the sealed plan 353ca003; the K020 silver control on any hit)
 - [ ] R22-7: H-EAR and H-CUSP — the two named principles as the L91 endgame (proof attempts after the generation leg)

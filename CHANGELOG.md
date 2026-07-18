@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B676: the module-level-dps sweep (R22-4; E12 class-wide fix)
+
+- Every collection-time import of a dps-setting module is now wrapped
+  (save/restore, 18 pairs); every affected test file pins its own runtime
+  precision per test (the b204 pattern); a conftest collection-finish guard
+  restores the entry precision after collection so no future module-level
+  assignment can silently set the suite-wide global. Two leakers MASKED in
+  the original cell-5 scan (b246, b250 — hidden behind b204's identical 30)
+  were unmasked and repaired. B671's extract.py absolute-path straggler
+  fixed (env-var + __file__-relative fallback). Full suite: 2428 passed,
+  0 failed.
+
 ## 2026-07-18 — B675: H-CUSP PREDICTS (silver → A₃ verified both ways; bronze deaf)
 
 - The sweep resolves the sealed three-outcome discriminator: silver τ = −2i

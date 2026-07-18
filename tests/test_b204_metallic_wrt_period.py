@@ -58,9 +58,17 @@ def test_nonmetallic_is_complex_metallic_is_real():
 
 # ---- Gauss-sum reciprocity proof locks (B204 PROOF.md) ----
 import mpmath as mp  # noqa: E402
+
+# E12 (module-level-dps sweep): gauss_proof sets mp.mp.dps=30 at module level;
+# its import-time values are computed under that dps (which it sets itself), so
+# restoring the entry dps afterwards changes nothing for the proof locks (the
+# _mp_dps fixture below pins the runtime precision) and un-leaks the global
+# from the collection-time import.
+_saved_dps = mp.mp.dps
 from gauss_proof import (Ztil_direct, Z_orig, Ztil_closed, diag_closed,  # noqa: E402
                          cross_closed, G_a, sub_period, lcm as glcm,
                          v2, cross_support_gcd, cross_period_exact, cross_period_closed)
+mp.mp.dps = _saved_dps
 from math import gcd  # noqa: E402
 import pytest  # noqa: E402
 

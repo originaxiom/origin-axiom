@@ -63,7 +63,10 @@ if not same:
 
 print("\n== THE D1 SUM-RULE COEFFICIENTS (cc2 seat, provisional pending packet) ==", flush=True)
 try:
-    d1 = json.load(open("/Users/dri/oa-seat-cc2/seat-work/anatomy/loop4/d1_pairing/d1_results.json"))
+    _d1_path = os.environ.get(
+        "OA_CC2_D1_RESULTS",
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "d1_results.json"))
+    d1 = json.load(open(_d1_path))
     hits = {k: d1[k] for k in d1 if "relation" in k.lower() or "coeff" in k.lower() or "solo" in k.lower()}
     print("  d1 keys:", list(d1)[:12], flush=True)
     print("  relation-bearing entries:", json.dumps(hits)[:800], flush=True)

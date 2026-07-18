@@ -4,11 +4,30 @@ Q(sqrt5) = spherical/E8 end). FIREWALLED (arithmetic/quantum/geometry, not physi
 import importlib.util
 import pathlib
 import mpmath as mp
+import pytest
 
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B258_two_ended_unification" / "two_ended_unification.py"
 _spec = importlib.util.spec_from_file_location("b258", _PATH)
 b258 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): two_ended_unification sets mp.mp.dps=30 at
+# module level (its import-time values are computed under the dps it sets
+# itself); restore the entry dps after the collection-time import so the
+# assignment cannot leak into later-collected modules. (MASKED in the ordered
+# cell-5 scan behind earlier identical-value leaks; found by the isolated-
+# import rescan of this sweep.)
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b258)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_30():
+    # E12 repair (the b204 pattern): pin the module's declared dps=30 per test
+    # instead of trusting the collection-time global to survive.
+    saved = mp.mp.dps
+    mp.mp.dps = 30
+    yield
+    mp.mp.dps = saved
 
 
 def test_h27_both_fields_quadratic_only_at_m1():

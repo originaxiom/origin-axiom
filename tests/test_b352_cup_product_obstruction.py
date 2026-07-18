@@ -14,12 +14,32 @@ import importlib.util
 import os
 import pathlib
 
+import mpmath as mp
 import pytest
 
 _PATH = (pathlib.Path(__file__).resolve().parents[1] / "frontier"
          / "B352_cup_product_obstruction" / "cup_product.py")
 _spec = importlib.util.spec_from_file_location("b352", _PATH)
-b352 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(b352)
+b352 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): cup_product calls _guard() (mp.mp.dps=100) at
+# module level (and loads B351/B347 modules that set 70 on the way); all its
+# import-time values are computed under the dps it sets itself, so restoring
+# the entry dps afterwards changes nothing for b352 and un-leaks the global.
+_saved_dps = mp.mp.dps
+_spec.loader.exec_module(b352)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_100():
+    # E12 repair (the b204 pattern): the heavy entry points _guard() internally,
+    # but pin the module's declared dps=100 per test as well so no runtime path
+    # (e.g. the h1_line/h2_functional cliff asserts) depends on the collection-
+    # time global.
+    saved = mp.mp.dps
+    mp.mp.dps = 100
+    yield
+    mp.mp.dps = saved
 
 
 def test_representation_is_valid():

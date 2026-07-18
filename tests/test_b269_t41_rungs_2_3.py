@@ -9,7 +9,27 @@ import sympy as sp
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B269_t41_rungs_2_3" / "t41_rungs_2_3.py"
 _spec = importlib.util.spec_from_file_location("b269", _PATH)
 b269 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): t41_rungs_2_3 sets mp.mp.dps=30 at module level
+# (its import-time GEOMETRIC_SHAPE is computed under that dps, which the module
+# sets itself); restore the entry dps after the collection-time import so the
+# assignment cannot leak into later-collected modules.
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b269)
+mp.mp.dps = _saved_dps
+
+import pytest  # noqa: E402
+
+
+@pytest.fixture(autouse=True)
+def _dps_30():
+    # E12 repair (the b204 pattern): complex_volume_from_saddle computes at
+    # RUNTIME and the GEOMETRIC_SHAPE comparison asserts at 1e-25; pin the
+    # module's declared dps=30 per test instead of trusting the collection-time
+    # global to survive.
+    saved = mp.mp.dps
+    mp.mp.dps = 30
+    yield
+    mp.mp.dps = saved
 
 
 def test_rung2_cusp_weyl_symmetry():

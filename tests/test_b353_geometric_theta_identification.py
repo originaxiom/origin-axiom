@@ -5,10 +5,18 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B353_geometric_theta_identification'))
 import mpmath as mp
 import pytest
+
+# E12 (module-level-dps sweep): geometric_theta sets mp.mp.dps=100 at module
+# level and computes its import-time chain under that dps itself; restore the
+# entry dps after the collection-time import so the assignment cannot leak into
+# later-collected modules (the runtime side is covered by the _dps_100 fixture
+# below, the original cell-5 repair).
+_saved_dps = mp.mp.dps
 from geometric_theta import (
     EXPONENTS, SIGN,
     theta_chain_blockscalar_residual, theta_commutes_with_holonomy, hyperelliptic_certificate,
 )
+mp.mp.dps = _saved_dps
 
 
 @pytest.fixture(autouse=True)

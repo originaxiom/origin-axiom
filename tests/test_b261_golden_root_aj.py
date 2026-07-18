@@ -4,12 +4,35 @@ the longitude in Q(sqrt5) (L+1/L = -phi^3). The two ends are two regimes of one 
 CLAIMS.md."""
 import importlib.util
 import pathlib
+
+import mpmath as mp
+import pytest
 import sympy as sp
 
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B261_golden_root_aj" / "golden_root_aj.py"
 _spec = importlib.util.spec_from_file_location("b261", _PATH)
 b261 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): golden_root_aj sets mp.mp.dps=50 at module level;
+# pytest runs this import at COLLECTION time, so without the save/restore the
+# assignment leaks into every later-collected module's import and (if last in
+# sorted order) into every runtime test. The module computes its own import-time
+# values under the dps it sets itself, so restoring afterwards changes nothing
+# for b261 and un-leaks the global.
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b261)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_50():
+    # E12 repair (the b204 pattern): golden_root_sequence computes the colored
+    # Jones at q=zeta_5 in mpmath at RUNTIME and rounds to integers; pin the
+    # dps=50 the module declares, per test, instead of trusting the collection-
+    # time global to survive.
+    saved = mp.mp.dps
+    mp.mp.dps = 50
+    yield
+    mp.mp.dps = saved
 
 
 def test_golden_root_periodicity_extends_b240():

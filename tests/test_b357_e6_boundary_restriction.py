@@ -6,9 +6,17 @@ import pytest
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B357_e6_boundary_restriction'))
 import mpmath as mp
+
+# E12 (module-level-dps sweep): boundary_restriction sets its module-level dps
+# (DPS=60) and computes its import-time values under it; restore the entry dps
+# after the collection-time import so the assignment cannot leak into
+# later-collected modules (the runtime side is covered by the _dps_module
+# fixture below, the original cell-5 repair).
+_saved_dps = mp.mp.dps
 from boundary_restriction import (
     EXPONENTS, CUSP_SHAPE, peripheral_gates, restriction, tau_identity, omega_on_h1,
 )
+mp.mp.dps = _saved_dps
 
 
 @pytest.fixture(autouse=True)

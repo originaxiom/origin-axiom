@@ -6016,3 +6016,10 @@ conductor. Bronze: cusp field Galois S₄ ⇒ no cyclotomic Coxeter plane ⇒
 H-CUSP predicts bronze is DEAF (corroborated-not-certified; exact
 certification queued). The shadow-vs-hosting tension recorded. Locks
 tests/test_b675_hcusp.py.
+
+2026-07-18 (main seat) — B676 BANKED: the R22-4 module-level-dps sweep
+(E12 class-wide). 18 import-wraps + per-file pinned fixtures + the
+conftest collection-finish guard; masked leakers b246/b250 repaired;
+the B671 path straggler fixed. Diff reviewed line-by-line on this seat
+(purely additive; sole deletion = the b352 one-liner split). Full suite
+2428 passed / 35 skipped / 0 failed. R22-4 ticked.

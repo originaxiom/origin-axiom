@@ -5,10 +5,31 @@ wall #2. FIREWALLED; nothing to CLAIMS.md."""
 import importlib.util
 import pathlib
 
+import mpmath as mp
+import pytest
+
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B276_zeta3_arithmetic_probe" / "b276_zeta3_probe.py"
 _spec = importlib.util.spec_from_file_location("b276", _PATH)
 b276 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): b276_zeta3_probe sets mp.mp.dps=60 at module
+# level, then internally imports B261's golden_root_aj which sets dps=50 — so
+# the collection-time import used to leave 50 behind. Both modules compute
+# their import-time values under a dps they set themselves; restore the entry
+# dps afterwards so nothing leaks into later-collected modules.
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b276)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_60():
+    # E12 repair (the b204 pattern): the probe's entry points already self-guard
+    # to 60 internally; pin the module's declared dps=60 per test as well so no
+    # runtime path depends on the collection-time global.
+    saved = mp.mp.dps
+    mp.mp.dps = 60
+    yield
+    mp.mp.dps = saved
 
 
 def test_verdict():

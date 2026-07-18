@@ -3,9 +3,26 @@
 See frontier/B598_l85_campaign/FINDINGS.md.
 """
 import mpmath as mp
+import pytest
 
+# E12 (module-level-dps sweep): the VOL literal is an IMPORT-TIME constant that
+# needs dps=30; compute it under a save/restore so the collection-time import
+# no longer leaks dps=30 into later-collected modules.
+_saved_dps = mp.mp.dps
 mp.mp.dps = 30
 VOL = mp.mpf("2.029883212819307250042405108549")
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_30():
+    # E12 repair (the b204 pattern): both locks compute the Kashaev sum at
+    # RUNTIME with 1e-25/1e-8 tolerances; pin the dps=30 they were banked at,
+    # per test, instead of trusting the collection-time global to survive.
+    saved = mp.mp.dps
+    mp.mp.dps = 30
+    yield
+    mp.mp.dps = saved
 
 
 def _kashaev(N):
