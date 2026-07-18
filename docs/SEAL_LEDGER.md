@@ -159,3 +159,5 @@ hash-first status.*
 | VERIFY-M prereg (cc2-seat; the two no-go replications) | (cc2 seat-work, not banked in main) | 146da991 (cross-ref only) | 2026-07-18 | R23-6: cc2's independent-replication prereg; its hash + RESULTS traveled to main (docs/dossiers/verify_m_artifacts/), the prereg body lives in the cc2 seat |
 
 | B698 Leg A PREREG (the meeting, analytic side, two-outcome + base-rate/convention gates) | frontier/B698_the_meeting_probed/PREREG_LEG_A.md | 1e51ae30 | 2026-07-18 | sealed BEFORE the verdict; outcome = FACTORED (a product with a Z/2 residue) |
+
+| B699 two-object surgery (cc2-seat prereg + addenda; forced-only, Gate 5) | (cc2 seat-work; hash + results traveled) | 67e3d37b (cross-ref) | 2026-07-19 | the two-object test: falsifier fired, hearing reframed as a bundle phenomenon; cc gate = Whitehead 120 + fig-8 15600 independently recomputed |

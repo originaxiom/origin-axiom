@@ -14125,6 +14125,29 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B699": {
+   "slug": "two object surgery",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B640",
+    "B674",
+    "B685",
+    "B698",
+    "S068"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
