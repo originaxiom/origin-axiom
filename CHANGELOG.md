@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B700 cell 2: the three measurement ambiguities are V4
+
+- The golden (cell 1), being (sigma*, B638) and meeting (B699) Z/2's are
+  the three involutions of V4 = Gal(Q(sqrt-3,sqrt5)/Q); group law
+  being*hearing=meeting (the genus residue IS the Galois group law).
+  Measurement ambiguity is a Klein four, not one Z/2. Lock 3/3. Prereg
+  060aaaee.
+
+---
+
 ## 2026-07-19 — B700 cell 1: measurement = fiber functor (the golden torsor)
 
 - The fiber-functor program opened. 2I=SL(2,5) has exactly two 2-dim
