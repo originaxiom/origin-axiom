@@ -1,0 +1,144 @@
+
+========================================================================
+PART I — THE BRONZE TRIANGULATION b++LLLRRR (exact chain)
+========================================================================
+
+========================================================================
+PIPELINE — b++LLLRRR   [branch: symmetric locus z3=z0, z2=z1, z5=z4 (numerics-guided, discharged by the exact in-field verification of all rows)]
+========================================================================
+  6 tetrahedra; 8 rect rows (exact integer data); solution type: all tetrahedra positively oriented
+  elimination (rational solves + resultants + gcd over Q):
+    solved z0 rationally; remaining [z1, z4]  [1s]
+    solved z4 rationally; remaining [z1]  [1s]
+    kept factors (final stage): [(8, [z1])]
+    univariate gcd in z1: factors [(4*z1**8 - z1**7 + z1**6 - 4*z1**5 - 2*z1**4 - 2*z1**3 + 12*z1**2 - 9*z1 + 2, 1)]
+    geometric factor p(t) = 4*z1**8 - z1**7 + z1**6 - 4*z1**5 - 2*z1**4 - 2*z1**3 + 12*z1**2 - 9*z1 + 2
+    degree 8, irreducible over Q: True
+  ALL 8 gluing+completeness equations hold EXACTLY in K: True
+    root 0: decided, not all positive [-1, -1, -1, -1, 1, 1]
+    root 1: decided, not all positive [1, 1, 1, 1, -1, -1]
+    root 2: decided, not all positive [-1, -1, -1, -1, -1, -1]
+    root 3: ALL Im z_i > 0 (POSITIVELY ORIENTED)
+    root 4: decided, not all positive [1, -1, -1, 1, -1, -1]
+    root 5: decided, not all positive [-1, 1, 1, -1, 1, 1]
+    root 6: decided, not all positive [1, -1, -1, 1, 1, 1]
+    root 7: decided, not all positive [-1, 1, 1, -1, -1, -1]
+  => root 3 certified positively oriented: with the exact equations this IS the complete
+     hyperbolic structure (Thurston gluing + completeness + Mostow rigidity).
+  corroboration: |t_root - snappy z1| = 0.00e+00 (double)
+  cusp cross-section develops EXACTLY consistently (all side gluings match): True
+  minpoly over Q of xi = l/m (EXACT, resultant): 192*X**8 + 112*X**6 + 20*X**4 + 21*X**2 + 7   [irreducible, multiplicity 1]
+  minpoly over Q of v = -xi^2 (EXACT): 192*X**4 - 112*X**3 + 20*X**2 - 21*X + 7   [irreducible, multiplicity 2]
+  corroboration: conj(xi)(root) - snappy shape = 1.10e-13 (double)
+
+========================================================================
+PART II — CERTIFICATION OF THE BANKED BRONZE CLAIMS
+========================================================================
+(a) quartic: eliminated minpoly(v) == 192u^4-112u^3+20u^2-21u+7: True
+    octic:   eliminated minpoly(xi) == 192X^8+112X^6+20X^4+21X^2+7: True
+    identity octic(X) == quartic(-X^2): True   (the octic is EVEN)
+(b) quartic irreducible over Q: True
+(c) disc(quartic) = -72460795904 = {2: 24, 7: 1, 617: 1, -1: 1}
+    disc < 0 => NOT a square in Q  (=> Gal not inside A4): True
+    resolvent cubic (monic model): X**3 - 5*X**2/48 - 21*X/256 - 1015/110592 = 0
+    resolvent cubic irreducible over Q: True
+    [quartic irred + resolvent irred => Gal in {A4, S4}; disc non-square => Gal = S4]
+    corroboration (sympy galois_group): order 24, abelian False
+    independent S4 witness (Dedekind, exact mod-p factorization): types {(2, 2): 5, (1, 3): 11, (4,): 19, (1, 1, 2): 47};
+    3-cycle at p = 11, transposition at p = 47; with transitivity => Gal = S4
+(d) octic (minpoly of tau AND of xi; even, rational) irreducible: True  =>  [Q(tau):Q] = 8
+    y-octic 192y^8-112y^6+20y^4-21y^2+7 (minpoly of y = Im tau) irreducible: True
+    tower: [Q(u):Q] = 4 (quartic), tau^2 = -u => [Q(tau):Q(u)] = 2; 8 = 4 x 2 consistent
+(e) v = -xi^2 is EXACTLY a root of the quartic (resultant); quartic has 2 real roots (Sturm-exact).
+    rigorous rectangles (refined to 1e-25) pin v to root #0: real = True, isolation box re = [1471922150465/4063729767616, 1246750789426/3442069469631]
+    => v real and POSITIVE exactly; tau = conj(xi), xi^2 = -v => tau = i*sqrt(u), Re tau = 0 EXACT, u = (Im tau)^2 = v.
+    u = the root of 192u^4-112u^3+20u^2-21u+7 in [1471922150465/4063729767616, 1246750789426/3442069469631]
+    u ~ 0.362209653357071
+
+(f) Kronecker-Weber conclusion (now on certified input): every subfield
+    of every cyclotomic field Q(zeta_n) is abelian Galois over Q.  If
+    Q(u) lay in some Q(zeta_n), Q(u)/Q would be abelian with Galois
+    closure of degree 4; but its Galois closure has degree |S4| = 24.
+    Hence Q(u) — and a fortiori Q(tau) containing it — lies in NO
+    cyclotomic field.  The H-CUSP deafness input is CERTIFIED.
+
+========================================================================
+PART III — THE SECOND TRIANGULATION (census s464), exact chain
+========================================================================
+
+========================================================================
+PIPELINE — s464
+========================================================================
+  6 tetrahedra; 8 rect rows (exact integer data); solution type: all tetrahedra positively oriented
+  elimination (rational solves + resultants + gcd over Q):
+    solved z0 rationally; remaining [z1, z2, z3, z4, z5]  [27s]
+    solved z3 rationally; remaining [z1, z2, z4, z5]  [27s]
+    solved z2 rationally; remaining [z1, z4, z5]  [28s]
+    kept factors (final stage): [(8, [z1, z4, z5]), (9, [z1, z4, z5]), (9, [z1, z4, z5]), (15, [z1, z4, z5]), (18, [z1, z4, z5])]
+    resultant (eliminating z5) from tdeg (8, 9)  [29s]
+    resultant (eliminating z5) from tdeg (8, 9)  [30s]
+    resultant (eliminating z5) from tdeg (8, 15)  [30s]
+    resultant (eliminating z5) from tdeg (9, 9)  [31s]
+    resultant (eliminating z5) from tdeg (9, 15)  [35s]
+    resultant (eliminating z5) from tdeg (9, 15)  [40s]
+    after eliminating z5: kept [(20, [z1, z4]), (20, [z1, z4]), (17, [z1, z4]), (16, [z1, z4]), (28, [z1, z4]), (10, [z1, z4])]  [45s]
+    resultant (eliminating z4) from tdeg (10, 16)  [45s]
+    resultant (eliminating z4) from tdeg (10, 17)  [45s]
+    resultant (eliminating z4) from tdeg (10, 20)  [45s]
+    resultant (eliminating z4) from tdeg (10, 20)  [45s]
+    after eliminating z4: kept [(8, [z1])]  [47s]
+    univariate gcd in z1: factors [(2*z1**8 - 9*z1**7 + 12*z1**6 - 2*z1**5 - 2*z1**4 - 4*z1**3 + z1**2 - z1 + 4, 1)]
+    geometric factor p(t) = 2*z1**8 - 9*z1**7 + 12*z1**6 - 2*z1**5 - 2*z1**4 - 4*z1**3 + z1**2 - z1 + 4
+    degree 8, irreducible over Q: True
+    z4 expressed exactly in K (linear K[z4]-gcd of the stage factors)  [49s]
+    z5 expressed exactly in K (linear K[z5]-gcd of the stage factors)  [49s]
+  ALL 8 gluing+completeness equations hold EXACTLY in K: True
+    root 0: decided, not all positive [-1, -1, -1, -1, 1, 1]
+    root 1: decided, not all positive [1, 1, 1, 1, -1, -1]
+    root 2: decided, not all positive [-1, -1, -1, -1, -1, -1]
+    root 3: ALL Im z_i > 0 (POSITIVELY ORIENTED)
+    root 4: decided, not all positive [-1, -1, 1, 1, 1, 1]
+    root 5: decided, not all positive [1, 1, -1, -1, -1, -1]
+    root 6: decided, not all positive [-1, -1, 1, 1, -1, -1]
+    root 7: decided, not all positive [1, 1, -1, -1, 1, 1]
+  => root 3 certified positively oriented: with the exact equations this IS the complete
+     hyperbolic structure (Thurston gluing + completeness + Mostow rigidity).
+  corroboration: |t_root - snappy z1| = 0.00e+00 (double)
+  cusp cross-section develops EXACTLY consistently (all side gluings match): True
+  minpoly over Q of xi = l/m (EXACT, resultant): 7*X**8 + 21*X**6 + 20*X**4 + 112*X**2 + 192   [irreducible, multiplicity 1]
+  minpoly over Q of v = -xi^2 (EXACT): 7*X**4 - 21*X**3 + 20*X**2 - 112*X + 192   [irreducible, multiplicity 2]
+  corroboration: conj(xi)(root) - snappy shape = 5.00e-15 (double)
+
+  reversed quartic (exact identity x^4*q(1/x)): 7*X**4 - 21*X**3 + 20*X**2 - 112*X + 192
+  eliminated minpoly(v') == reversed quartic: True
+  v' pinned (1e-25) to root #1 of the reversed quartic: real = True, box re = [21274077115771/7705676097595, 17832007646140/6458925308169]
+  => Re tau' = 0 EXACT as well; u' = v' real positive.
+  1/u' interval [6458925308169/17832007646140, 7705676097595/21274077115771] intersects quartic-root boxes: [0]
+  1/u' is exactly a quartic root (reversal identity) and its interval isolates root #0 = u
+  =>  u * u' = 1  CERTIFIED EXACTLY (root level, both triangulations).
+
+========================================================================
+VERDICT
+========================================================================
+
+  CERTIFIED (exact end-to-end; floats only guided branch/factor/root
+  selection, every selection discharged by exact rational arithmetic):
+    1. b++LLLRRR: shape field K = Q[t]/(p8), all gluing+completeness
+       rows hold EXACTLY in K; the geometric root is certified
+       positively oriented by rigorous rational rectangles => THE
+       complete hyperbolic structure (Mostow).
+    2. tau (SnapPy default basis, kernel convention tau = conj(l/m)):
+       minpoly(tau) = 192X^8+112X^6+20X^4+21X^2+7, irreducible
+       => [Q(tau):Q] = 8.
+    3. u = (Im tau)^2 = -xi^2: minpoly = 192u^4-112u^3+20u^2-21u+7,
+       irreducible; Re tau = 0 EXACT (v pinned to the positive real
+       quartic root).
+    4. Galois group S4 exactly (resolvent cubic irreducible + disc
+       = -2^24*7*617 < 0 non-square); disc primes {2, 7, 617}.
+    5. Kronecker-Weber: Q(u), hence Q(tau), lies in NO cyclotomic
+       field — the H-CUSP bronze deafness input is now CERTIFIED.
+    6. s464 census triangulation (independent): u' satisfies the
+       reversed quartic EXACTLY and u * u' = 1 EXACTLY (root level).
+
+  total time: 77s
+

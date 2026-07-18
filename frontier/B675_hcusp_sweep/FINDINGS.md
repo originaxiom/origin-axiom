@@ -57,3 +57,26 @@ Gram admits no rational J² = −I isometry — Gröbner-decisive — while
 
 Artifacts: b675_hcusp.py, cell_output.txt, the pre-sealed addendum.
 Locks: tests/test_b675_hcusp.py.
+
+## ADDENDUM (2026-07-18, same day) — THE BRONZE CERTIFICATION: DEAF IS
+## NOW EXACT
+
+The follow-on cell upgraded the bronze verdict corroborated → CERTIFIED,
+exact end-to-end: integer gluing+completeness rows eliminated over ℚ to
+the shape field K = ℚ[t]/(p₈) with all 8 equations re-verified exactly
+in K; the geometric root pinned by rigorous rational rectangles (all
+Im zᵢ > 0, Mostow); the cusp developed exactly in K. Certified:
+minpoly(u) = 192u⁴−112u³+20u²−21u+7 EXACTLY; minpoly(τ) = the even octic
+192X⁸+112X⁶+20X⁴+21X²+7 = quartic(−X²); Gal = S₄ (resolvent cubic
+irreducible + disc = −2²⁴·7·617 non-square; Dedekind witnesses p = 11,
+47); Re τ = 0 exact (u = −ξ² a literal quartic root); [ℚ(τ):ℚ] = 8;
+u·u′ = 1 at root level across the two triangulations (the reversed
+quartic 7u⁴−21u³+20u²−112u+192 = u⁴·q(1/u) exactly). Hence ℚ(τ) lies in
+NO cyclotomic field — the Kronecker–Weber deafness input is now a
+certificate, not a corroboration. Outside the certificate (stated
+honestly): the census combinatorial/peripheral data and sympy's
+factor/resultant primitives trusted as instruments. Main-seat
+verify-on-receipt recomputed independently: irreducibility, S₄, the
+disc factorization, the octic and reversal identities, the root's
+reality. Artifacts: bronze_certification.py, bronze_cert_output.txt,
+BRONZE_CERT_NOTE.md.

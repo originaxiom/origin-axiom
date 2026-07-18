@@ -6,6 +6,14 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B675 addendum: the bronze deafness CERTIFIED
+
+- Exact end-to-end: gluing rows eliminated over ℚ to the shape field, the
+  geometric root pinned by rational rectangles, the cusp developed exactly;
+  minpoly(u) equals the banked quartic EXACTLY, Gal = S₄ (disc −2²⁴·7·617),
+  Re τ = 0 exact, [ℚ(τ):ℚ] = 8, u·u′ = 1 at root level. Kronecker–Weber
+  deafness input is now a certificate. Main-seat re-verification independent.
+
 ## 2026-07-18 — B676: the module-level-dps sweep (R22-4; E12 class-wide fix)
 
 - Every collection-time import of a dps-setting module is now wrapped
