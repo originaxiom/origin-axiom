@@ -6162,3 +6162,20 @@ equation certification + prior-art = named follow-ons, no novelty
 claim). cc2's MB15 owned correction banked. The trifocal adjudication
 stands: golden/silver value-level tests well-posed (CM points),
 bronze leg refuted by the S₄ certification. My golden/j cell runs.
+
+2026-07-18 (main seat) — THE RAMANUJAN TRIFOCAL, adjudicated +
+computed + integrated. (1) TWO-SEAT SILVER THEOREM: U² + U^{−2} = 2δ²
+EXACT (my proven closed form U² = (2^{1/4}−1)/(2^{1/4}+1); the two
+seats' minimal polynomials bridged by the √2 convention factor — cc2's
+S1 numerics upgraded to a theorem). (2) 15A8 VERIFIED in-sandbox: the
+figure-eight A-polynomial's elliptic model has j = −1/15 = j(15A8),
+conductor 15 = 3·5 = the congruence level; THE BRANCH LOCUS IS
+LITERALLY BIFOCAL (golden pair φ², φ^{−2} from m²−3m+1; Eisenstein
+pair ω, ω̄ from m²+m+1). (3) The golden legs (T-cell): j(2√3i) exact,
+j ≠ 0 (handoff hypothesis refuted as adjudicated); p=2 leg lands
+(U⁴ = k₄₈ deg-8 unit); R,V golden UNIDENTIFIED (CM-algebraic, exceed
+caps — honest open); T7 CLEAN NEGATIVE (no banked quantity is a cusp
+value — the correspondence is structural, not value-recognition).
+Bronze value-leg refuted (S₄, no CM). Locks test_trifocal.py.
+Follow-ons: 15A8 twist check; modular-equation certifications;
+L(E₁₅,s) vs banked data.
