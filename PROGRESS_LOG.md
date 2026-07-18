@@ -6179,3 +6179,14 @@ value — the correspondence is structural, not value-recognition).
 Bronze value-leg refuted (S₄, no CM). Locks test_trifocal.py.
 Follow-ons: 15A8 twist check; modular-equation certifications;
 L(E₁₅,s) vs banked data.
+
+2026-07-18 (main seat) — B679: the engine_v7 gate_report patch PREPARED
++ CORRECTNESS-VERIFIED (the B678 priced door). O(N^5)->O(N^2) by hoisting
+each gate's matrix expression out of the max() generator (one hunk; rest
+byte-identical, ast-verified). Main-seat verify-on-receipt: old vs
+patched BIT-IDENTICAL on identical (S,T), all six gate values + full rho,
+SU(3)_{1,2,4} + SU(2)_3; agent battery bit-for-bit through N=28, N=55
+real-call-site agreement vs the banked B673 log, 18 locks green. Speedup
+9.4x/67x/221x at N=6/15/28. The engine is a SEAT CONDUIT (not
+repo-tracked) — deployment is the conduit owners'; the verified patch is
+banked. N=45 timing cell (timing-only) still running at bank.

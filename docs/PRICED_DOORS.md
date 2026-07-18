@@ -43,3 +43,4 @@ its exact simulation.
   compute-once scan is O(N²) (hours → seconds at N ≥ 40). Price: patch
   in place + prove behavioral equivalence against every existing lock
   that imports it before merge. Payoff: every future high-level cell.
+  **STATUS (B679, 2026-07-18): PREPARED + CORRECTNESS-VERIFIED** — main-seat bit-identical recomputation (old vs patched, same S,T, all gates + rho, N=3..15) + agent battery bit-for-bit through N=28, N=55 real-call-site agreement vs the banked B673 log, 18 locks green; no tolerance. The engine is a SEAT CONDUIT, not repo-tracked — DEPLOYMENT (drop engine_v7_patched.py over veins/v7_conduit/) is the conduit owners' to execute; the verified patch is banked in frontier/B679_engine_patch/.

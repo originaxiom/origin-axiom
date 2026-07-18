@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-07-18 from 618 frontier probes.
+> Last generated: 2026-07-18 from 619 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 618 frontier probes; status {'banked': 420, 'dead': 134, 'open': 47, 'dormant': 17}
+  corpus: 619 frontier probes; status {'banked': 421, 'dead': 134, 'open': 47, 'dormant': 17}
   the ONE conserved first integral: kappa (recurs 179x, 28%) -- genuine unity, MUST recur
   top recurring motifs: firewall(416), golden(397), eisenstein(320), metallic(307), trace_map(294), figure_eight(280)
   recurrence is: structural-invariant 2279 mentions | conserved-integral 179 | TOOL 294
@@ -59,7 +59,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 |---|---|---|---|
 | cancellation | 37 | golden | golden(26), firewall(24), eisenstein(23), trace_map(21) |
 | selector | 17 | firewall | firewall(11), trace_map(10), eisenstein(10), golden(10) |
-| measure | 35 | firewall | firewall(23), golden(23), trace_map(15), figure_eight(12) |
+| measure | 36 | firewall | firewall(23), golden(23), trace_map(15), figure_eight(12) |
 | units_scale | 75 | firewall | firewall(58), golden(51), metallic(43), trace_map(39) |
 | gauge_dict | 37 | firewall | firewall(29), eisenstein(24), golden(23), figure_eight(23) |
 | particle_dict | 46 | eisenstein | eisenstein(38), firewall(36), golden(33), z3_generation(31) |
@@ -115,7 +115,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | gauge_dict | 37/62 |
 | spacetime_3p1 | 77/120 |
 | numerology | 18/28 |
-| measure | 35/52 |
+| measure | 36/53 |
 | cancellation | 37/53 |
 | units_scale | 75/107 |
 
