@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — VERIFY-M closed (no-gos triple-gated) + dossier §3
+
+- Both no-go pillars TRIPLE-gated (origin B690/B691 + cc2 VERIFY-M +
+  cc machine): VA 3-adic deviation [1,−1,0,−1,−2] exact; VB ζ₃ category
+  error. S067 rows 1&4 ANSWERED-NO. Artifacts under
+  `docs/dossiers/verify_m_artifacts/`.
+- Dossier §3 (two-faces bifocal anatomy, cc2, specialist depth) integrated
+  verified-on-receipt; one correction: melody-theorem period = 175560
+  (B662), the period-20 is the D4 value-catalogue ladder (B684).
+
+---
+
 ## 2026-07-18 — THE SUMMIT DOSSIER (Track C) + Track M folded (superseded)
 
 - Object comprehensively mapped (B685→B697). Track C launched: the R22-1

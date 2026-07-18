@@ -70,34 +70,76 @@ This is the firewall *proven*, not merely asserted. Its meta-instances:
 
 ## 3. The two faces (the bifocal anatomy)
 
-### 3a. The being face (Eisenstein; E₆, ℚ(√−3), prime 3) — fully mapped
+*Specialist-depth chapter (cc2, from EISENSTEIN_ATLAS + golden ATLAS v2 +
+loops 1–7 / E-1..E-4; verified-on-receipt by cc, one correction applied —
+the melody-theorem period below).*
 
-- **Pure being (B685).** No 5 in the geometry; Vol(4₁) = (3√3/2)·L(χ₋₃,2)
-  = m(A_{4₁}) = Vol/π (Boyd, 70 digits) — the volume IS the being-character
-  L-value (B680). (EISENSTEIN_ATLAS; campaign closed B696.)
-- **The being invariants.** The cubic core ratio 24ζ₆ at phase π/3, with a
-  two-tier "13-dial" under bending (B637/B645); the Jordan heart v₀ (rank-3
-  invertible, N(v₀)=−6), universal across fields and holonomies (B657);
-  the F₄ skeleton stab_{e6}(v₀) = 52 = f₄, every metallic rep inside one
-  F₄-form (B670).
-- **Its own prime forbids richness (B691).** φ(3)=2 is prime → Gal(ℚ(ζ₃)/ℚ)
-  has no proper subgroup → the ζ₃ orbit is an irreducibly minimal
-  self-conjugate doublet (the shape roots) — **the being face structurally
-  cannot carry a rich flavor analog.**
+### 3.0 Bifocality
 
-### 3b. The hearing face (golden; E₈, ℚ(√5), prime 5) — fully mapped
+One hyperbolic 3-manifold, **two independent arithmetic structures**. The
+**holonomy** (geometry) has trace field ℚ(√−3) = ℚ(ω) — Eisenstein,
+2T = SL(2,3), E₆'s McKay partner — the **being face**. The **monodromy
+eigenvalue** φ^{±2} lives in ℚ(√5) — golden, 2I = SL(2,5), E₈'s McKay
+partner — the **hearing face**. Mostow rigidity ties both to one object;
+their arithmetic is independent (ℚ(√−3), ℚ(√5) linearly disjoint over ℚ —
+the golden's clean-split minimality, unique in the metallic family; the
+silver is ℚ(ζ₈)-entangled). (B247–B261; B663.)
 
-- **The hearing landscape theorem (B664/B665/B666).** For metallic words on
-  the SU(3)₂ θ-odd block, |tr_odd(W)| = |χ_D(shadow(W))| — each stage hears
-  only its own shadow, with exact phases (2/15, 8/15) and tones in
-  {0, 1/φ, 1, φ, 2}. The golden word is the minimal nonzero tone and the
-  unique unit-determinant word.
-- **The golden-rotation law (B674).** The canonical lift of the monodromy
-  through the weight-1/5 slash action on Γ(5) is elliptic of order 10 with
-  trace exactly φ — the hyperbolic word becomes the golden rotation on the
-  flavor side.
-- **Deaf = non-CM (B675).** The continued-fraction voice is algebraic at CM
+### 3.1 The hearing face (golden; loops 1–7) — dynamics-as-heard
+
+- **The five tones** = pentagon cosines {0, 1/(2φ), 1/2, φ/2, 1} (the 2I
+  class |cos|); tr_odd = −1/φ at SU(3)₂ (B641/B664).
+- **The ladder laws:** generic Legendre silence, the uniform jump law, the
+  resonant-phase law, and **the melody theorem** — the ladder Z(κ) is
+  exactly periodic with minimal period **175560** = 2³·3·5·7·11·19, the
+  exponent of the total discriminant group (B662/L100). *(Distinct from
+  the golden D4 value-catalogue ladder, whose period is 20 — B684/G3.)*
+- **The F₄ skeleton:** 27 = 1 ⊕ 26, holonomy in F₄(v₀), F₄-26 = principal
+  17+9 (the splits nest) (B670). **The vector pairing** (the discovery
+  spine): H¹×H¹ → H²(D;27̄) is nonzero, saturates 27⊗27, fills H² (rank 5),
+  with a graded sign rule; the generation sum rule [c₂₃] = −(7983360/13)ω·
+  [c₃₄] is a theorem of the cubic (B684/G1). **The own-channel law:** golden
+  hears 1/φ at SU(3)₂, silver 1/δ at SU(4)₂ — level 2 of the own H-CUSP
+  family (B684/G2).
+
+### 3.2 The being face (Eisenstein; loops E-1..E-4) — pure being
+
+Two ideal tetrahedra, shape z = e^{iπ/3}, no 5 in the geometry; **the
+unique arithmetic knot** (Reid). Structure = a universal heart + a
+three-organ field-locked landscape:
+
+- **Heart (universal, holonomy/field-independent):** the invariant line v₀
+  — rank-3 invertible, sharp-fixed (v₀#=−2v₀), N(v₀)=−6; the portal
+  P(u)=[v₀×u] is rank-5 nondegenerate *because* v₀ is invertible (one fact,
+  two organs). The same element (value-level) under golden AND silver
+  holonomies. (B657/B663.)
+- **Landscape (field-locked, golden-specific):** the swap eigenvalues (own
+  imaginary-quadratic subfield; not roots of unity at silver); the cubic
+  core ratio 24ζ₆ at phase π/3, two-tier via the 13-dial (B637/B645); the
+  sum-rule *locking* itself (silver is rank 3 — no locking; golden's rank-2
+  is golden-only, B696). Phase catalogue = twelfth roots. Real but not
+  period-3.
+- **The ζ₃ structure is irreducibly minimal (B691):** φ(3)=2 prime → the
+  self-conjugate doublet {z, z̄} (the object's shape roots), no hierarchy.
+  The 3-adic object is divided-power growth class with a bounded defect
+  (partial mirror; exact defect priced — B690).
+- **Vol = being-character L-value:** Vol(4₁) = (3√3/2)·L(χ₋₃,2) = m(A_{4₁})
+  = Vol/π (Boyd, 70 digits) — the volume IS the being character (B680).
+- **Deaf = non-CM (B675):** the continued-fraction voice is algebraic at CM
   cusps, silent at the non-CM one (bronze, Galois S₄, no hosting stage).
+
+### 3.3 The meeting (level 15) — see §4 for the summit reading
+
+The A-polynomial IS the conductor-15 elliptic curve (15a, Δ=−15; branch
+locus = golden pair × Eisenstein pair). The two faces meet in the **unique
+irreducible weight-2 level-15 newform**: non-CM, non-factoring (X₀(3),
+X₀(5) genus 0), a₃=−1 (nonsplit), a₅=+1 (split) — reconciling with B695's
+Atkin-Lehner signs via w_p = −a_p (w₃=+1, w₅=−1). It **interferes** (59/60
+primes falsify factorization), is **being-arithmetic** (a_(5)=+1 forced;
+base change of a rational form has Hecke field ℚ, φ a-priori unreachable —
+B694), and is **c-symmetric** (the two-hands/chirality reading was an
+over-reading forced by even rank; S067 row 3 falsified — B695). The
+observer-coupling reading of this meeting is §4.
 
 ## 4. The summit — the observer-coupling thesis realized
 

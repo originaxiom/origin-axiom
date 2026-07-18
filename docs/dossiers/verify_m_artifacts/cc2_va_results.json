@@ -1,0 +1,231 @@
+{
+  "cell": "VA (VERIFY-M, independent replication of E-2a/B690)",
+  "coefficient_source": {
+    "published": "arXiv:2412.04241 (GSWZ, 'The Habiro ring of a number field'), eq. label Phi41sym, PDF-rendered text -- c_0..c_5 (c_1=0).",
+    "draft": "Same arXiv e-print's LaTeX SOURCE (text131.tex), three lines prefixed '%%' immediately after eq. Phi41sym -- NEVER TYPESET, presumably a trimmed earlier draft window -- c_6..c_10. Flagged as draft, not peer-reviewed-visible text, but authored by GSWZ themselves in their own source.",
+    "sparse_banked": "B685 (banked, not independently re-derived): denominator of c_100 is 3^146 (stated in the same published paragraphs, cross-checked against Theorem 9.1 of GZ:kashaev in the published text).",
+    "fetch_method": "curl -sL https://arxiv.org/e-print/2412.04241 -o gswz.tar.gz ; tar -xzf gswz.tar.gz"
+  },
+  "gswz_coefficients": {
+    "0": {
+      "c_n": "1",
+      "source": "published"
+    },
+    "1": {
+      "c_n": "0",
+      "source": "published"
+    },
+    "2": {
+      "c_n": "-1/27",
+      "source": "published"
+    },
+    "3": {
+      "c_n": "1/27",
+      "source": "published"
+    },
+    "4": {
+      "c_n": "-4/243",
+      "source": "published"
+    },
+    "5": {
+      "c_n": "-1/243",
+      "source": "published"
+    },
+    "6": {
+      "c_n": "-25/19683",
+      "source": "draft (commented out in .tex)"
+    },
+    "7": {
+      "c_n": "214/6561",
+      "source": "draft (commented out in .tex)"
+    },
+    "8": {
+      "c_n": "-12842/531441",
+      "source": "draft (commented out in .tex)"
+    },
+    "9": {
+      "c_n": "-47749/531441",
+      "source": "draft (commented out in .tex)"
+    },
+    "10": {
+      "c_n": "142030/1594323",
+      "source": "draft (commented out in .tex)"
+    }
+  },
+  "b685_sparse_datum": {
+    "100": {
+      "D3": 146,
+      "source": "B685-banked valuation only (denominator 3^146); numerator/sign not independently available"
+    }
+  },
+  "legendre_self_test": "v_p(n!) cross-checked (direct-sum vs base-p digit-sum) for n=0..499, p in {3,5}: PASSED",
+  "partition_function_self_test": {
+    "purpose": "sanity check of the from-scratch log/exp power-series machinery (r=-1, ordinary integer power) against the well-known partition numbers p(0..20)",
+    "passed": true
+  },
+  "control_5adic": {
+    "object": "c_n = [q^n] (q;q)_infty^{-3/5}, computed from scratch via pentagonal number theorem + exact log/exp power series recursion (Fraction arithmetic)",
+    "law_tested": "v_5(c_n) = -(n + v_5(n!))  [B683, proven]",
+    "n_range": [
+      0,
+      120
+    ],
+    "matches": 121,
+    "total": 121,
+    "all_match": true
+  },
+  "va_rows": [
+    {
+      "n": 0,
+      "c_n": "1",
+      "source": "published",
+      "v3_actual": 0,
+      "D3_actual": 0,
+      "predicted": 0,
+      "defect": 0
+    },
+    {
+      "n": 1,
+      "c_n": "0",
+      "source": "published",
+      "v3_actual": null,
+      "D3_actual": null,
+      "predicted": null,
+      "defect": null,
+      "note": "c_n == 0, valuation undefined (trivial, excluded)"
+    },
+    {
+      "n": 2,
+      "c_n": "-1/27",
+      "source": "published",
+      "v3_actual": -3,
+      "D3_actual": 3,
+      "predicted": 2,
+      "defect": 1
+    },
+    {
+      "n": 3,
+      "c_n": "1/27",
+      "source": "published",
+      "v3_actual": -3,
+      "D3_actual": 3,
+      "predicted": 4,
+      "defect": -1
+    },
+    {
+      "n": 4,
+      "c_n": "-4/243",
+      "source": "published",
+      "v3_actual": -5,
+      "D3_actual": 5,
+      "predicted": 5,
+      "defect": 0
+    },
+    {
+      "n": 5,
+      "c_n": "-1/243",
+      "source": "published",
+      "v3_actual": -5,
+      "D3_actual": 5,
+      "predicted": 6,
+      "defect": -1
+    },
+    {
+      "n": 6,
+      "c_n": "-25/19683",
+      "source": "draft (commented out in .tex)",
+      "v3_actual": -9,
+      "D3_actual": 9,
+      "predicted": 8,
+      "defect": 1
+    },
+    {
+      "n": 7,
+      "c_n": "214/6561",
+      "source": "draft (commented out in .tex)",
+      "v3_actual": -8,
+      "D3_actual": 8,
+      "predicted": 9,
+      "defect": -1
+    },
+    {
+      "n": 8,
+      "c_n": "-12842/531441",
+      "source": "draft (commented out in .tex)",
+      "v3_actual": -12,
+      "D3_actual": 12,
+      "predicted": 10,
+      "defect": 2
+    },
+    {
+      "n": 9,
+      "c_n": "-47749/531441",
+      "source": "draft (commented out in .tex)",
+      "v3_actual": -12,
+      "D3_actual": 12,
+      "predicted": 13,
+      "defect": -1
+    },
+    {
+      "n": 10,
+      "c_n": "142030/1594323",
+      "source": "draft (commented out in .tex)",
+      "v3_actual": -13,
+      "D3_actual": 13,
+      "predicted": 14,
+      "defect": -1
+    },
+    {
+      "n": 100,
+      "c_n": null,
+      "source": "B685-banked valuation only (denominator 3^146); numerator/sign not independently available",
+      "v3_actual": -146,
+      "D3_actual": 146,
+      "predicted": 148,
+      "defect": -2
+    }
+  ],
+  "banked_pattern": {
+    "ns": [
+      2,
+      3,
+      4,
+      5,
+      100
+    ],
+    "defects": [
+      1,
+      -1,
+      0,
+      -1,
+      -2
+    ]
+  },
+  "our_pattern_at_banked_ns": [
+    1,
+    -1,
+    0,
+    -1,
+    -2
+  ],
+  "pattern_matches_banked": true,
+  "only_n4_exact_among_published_nontrivial": true,
+  "extended_draft_ns_6_to_10": {
+    "ns": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "defects": [
+      1,
+      -1,
+      2,
+      -1,
+      -1
+    ],
+    "max_abs_defect": 2
+  },
+  "verdict": "CONFIRMS-DEVIATES"
+}
