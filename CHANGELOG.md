@@ -17,6 +17,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — design cell gate 1 (support pre-test): STOP, shot not fired
+
+- The two independent support-class routes disagreed (Galois/eigenvalue:
+  all four; Nahm/state-integral: {2/5,3/5}); the sealed gate STOPS on
+  disagreement and the coefficient comparison was NOT run. Diagnosis:
+  the definitional layer resolves to the seal's post-bookkeeping notion,
+  and a Route-A tau-vs-sigma conflation is a genuine error -- BUT the
+  deeper unresolved issue is that Route B obtained {2/5,3/5} by ASSUMING
+  the figure-eight Nahm datum is A=2 (the (2,5)/golden system), in
+  tension with the object's zeta_6/being geometry and cc2's finding that
+  its zeta_5 object is the four-class orbit. If A=2 was substituted, that
+  is the ASSEMBLY-vs-GENERATION line. Resolution required before the shot:
+  establish the figure-eight's genuine Neumann-Zagier/Nahm datum at
+  zeta_5 from first principles. The one-shot is intact; the gate worked.
+
 ## 2026-07-18 — B684: loop 7 closed + ATLAS v2 (the discovery phase complete)
 
 - cc2's final anatomy packet integrated: G1 the sum rule is a theorem of

@@ -6350,3 +6350,22 @@ residual discharged by ratio-invariance. Gates: vacuity (cleared) →
 support pre-test → two-seat independence gate → the ≥100-coefficient
 comparison (the shot, ONCE). Sealed model/session-PORTABLE — any model
 resumes from this file + the repo. Phase 2 (the run) next.
+
+2026-07-18 (main seat) — THE DESIGN CELL, GATE 1 (SUPPORT PRE-TEST):
+STOP — THE SHOT IS NOT FIRED. Two independent routes disagreed (A
+Galois/eigenvalue: all four; B Nahm/state-integral: {2/5,3/5}); the
+sealed gate STOPS on disagreement. Diagnosis (main-seat verified):
+(1) definitional layer resolved — the seal's "support after η/δ
+bookkeeping" = Route B's notion; (2) a real Route-A error — it
+conflated τ (q→1/q, keeps each pair invariant) with the Galois σ
+(φ→1/φ, swaps pairs), so its "forces {1,4}" collapses; Route B's
+c_eff = 2/5 (Rogers dilog L(1/φ)=π²/10, verified) is sound; BUT (3) THE
+DEEPER UNRESOLVED QUESTION: Route B got {2/5,3/5} by ASSUMING the
+figure-eight Nahm datum is A=2 (the (2,5)/golden system), in tension
+with the object being ℚ(√−3)/ζ₆ (being) and cc2's Stage-1 finding that
+the 4₁ ζ₅ object is the FOUR-class orbit (= Route A). If the object's
+genuine ζ₅ datum is four-class, A=2 was SUBSTITUTED — the
+ASSEMBLY-vs-GENERATION line. RESOLUTION REQUIRED before the shot:
+establish the figure-eight's genuine Neumann–Zagier/Nahm datum at ζ₅
+from first principles. The one-shot is INTACT; the gate protected it.
+Lock test_w3_support_stop.py.
