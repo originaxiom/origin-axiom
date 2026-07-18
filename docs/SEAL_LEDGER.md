@@ -153,3 +153,5 @@ hash-first status.*
 
 | E3-ADDENDUM (lemmas L-A + L-B, hypothesis-widening) | frontier/B674_generation_leg/E3_EXTENSION_LEMMAS.md | 1f47cfbd | 2026-07-18 | proven + witnessed BEFORE the gate comparison (held in scratch); seals cc2's classes 5/8 conditionality |
 | W3 GATE COMPARISON | frontier/B674_generation_leg/W3_GATE_COMPARISON_CC.md | c4073c72 | 2026-07-18 | both cells independent; survivor-level EXACT agreement; two banked disagreements (the φ-type gap in cc's list — diagnosed; the F2 scope fence — referred) |
+
+| PREREG_W3_RUN (THE DESIGN CELL — frozen base, the one sealed shot) | frontier/B674_generation_leg/PREREG_W3_RUN.md | 83c50a35 | 2026-07-18 | sealed under the owner's FULL GO before any coefficient; model/session-portable; two frozen freedoms (√−δ sign; ε up to c-th); two-seat gate; produce {2/5,3/5} |

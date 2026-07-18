@@ -6339,3 +6339,14 @@ is a PROGRAM DATUM (GSWZ's 4_1 at ζ_6, GZ's ζ_5 four-class orbit — the
 literature splits 4_1 bifocally!); hearing amplitude NO-COUNTERPART;
 numerator freedom = EXACTLY two named choices. The program stands at ONE
 computation: the sealed design cell. Locks test_b684_loop7.py.
+
+2026-07-18 (main seat) — PHASE 1 SEALED: PREREG_W3_RUN (83c50a35), the
+design cell's frozen base, under the owner's FULL GO. Candidate: the
+figure-eight Nahm/Habiro object at ζ₅ (GZ 1.7), block-decomposed
+(Sym^{2m}(ρ), the six E₆ blocks), assembled as Φ·τΦ (τ=S²=c). Must
+PRODUCE {2/5,3/5} (program datum) + match the RR doublet. Frozen freedom
+= EXACTLY two (√−δ sign; ε up to c-th powers); the normalization
+residual discharged by ratio-invariance. Gates: vacuity (cleared) →
+support pre-test → two-seat independence gate → the ≥100-coefficient
+comparison (the shot, ONCE). Sealed model/session-PORTABLE — any model
+resumes from this file + the repo. Phase 2 (the run) next.
