@@ -433,3 +433,11 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   LEGITIMATE residue: does the being face FORCE the ζ₆/120° structure
   without assuming it? — that is the honest test (the Eisenstein-face
   anatomy, S067).
+- h(27) = 2/3 = KOIDE'S CONSTRAINT (B687, the most-motivated candidate,
+  NOT evidence): the conformal weight of the 27 of E₆ at level 1 (the
+  rep the three generations live in) equals Koide's scale-free
+  constraint Q = 2/3 = 45° (verified both). The SM atlas: 1 LIVE of 23
+  (Koide), the rest base-rate-dead or unreachable. FIREWALL (B686): Q=2/3
+  is 120°-tautological, so both 2/3's may be "three generations ⇒ Z/3 ⇒
+  2/3" — generic. E1 tests forced-vs-generic; the mass VALUES (δ≈132.7°)
+  stay firewalled. FORCED ⇒ owner-gateable sealed-question; GENERIC ⇒ kill.

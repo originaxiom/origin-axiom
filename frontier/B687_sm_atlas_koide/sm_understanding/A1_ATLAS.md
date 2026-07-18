@@ -1,0 +1,2 @@
+# A1 ATLAS — BANKED: exactly ONE LIVE target (cc2 seat + subagent, 2026-07-18)
+Of all dimensionless SM invariants: 14 UNREACHABLE (topological menu cannot reach, e.g. alpha), 8 DEAD (base rate too high, e.g. all mixing angles -- sin^2 th12 has ~20 golden values in band), 1 LIVE: **Koide Q**. The one place a sealed test could ever be informative, and (per KOIDE_SPLIT 80e01b5e) its low-base-rate content is the Q=2/3 constraint = the Eisenstein omega/120deg structure. Verdict machine-readable in a1_atlas.json.

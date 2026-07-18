@@ -6404,3 +6404,18 @@ cleanly: the STRUCTURAL directive — map the Eisenstein/being face as an
 anatomy (converged: owner + web seat + S067) — is SOUND and independent
 of Koide; the honest test is whether the being arithmetic FORCES ζ₆/120°
 without assuming it. Lock test_b686_koide_firewall.py.
+
+2026-07-18 (main seat) — B687: the SM atlas + h(27)=2/3 (cc2 exploratory
+day integrated, verified-on-receipt). ATLAS: of 23 dimensionless SM
+invariants, 1 LIVE (Koide), 8 DEAD (mixing angles, base-rate), 14
+UNREACHABLE (α, running) — Koide is the one low-base-rate target. KOIDE
+SPLIT (verified): Q=2/3 ⟺ 45° to the diagonal (44.9997°) = a scale-free
+Z/3 CONSTRAINT (object-addressable); the mass VALUES live in δ≈132.7°
+(firewalled) — the observer-coupling thesis on a real SM observable.
+h(27)=2/3 VERIFIED (E₆ lvl 1, c=6, C₂(27)/26=2/3) = the rep the
+generations live in = Koide's constraint. THE MOST-MOTIVATED sealed-
+question candidate — and NOT evidence (B686: 2/3 is 120°-tautological;
+both 2/3's may be generic "three generations"). E1 tests forced-vs-
+generic (running); E2 the level-15 handshake (running). Both seats
+converged: constraint object-addressable, values firewalled, forced-
+derivation is the test. Lock test_b687_koide_split.py.

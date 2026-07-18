@@ -17,6 +17,21 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B687: the SM atlas + h(27) = 2/3 (the Eisenstein-face turn's first result)
+
+- cc2's exploratory-day probe integrated (verified on receipt). The SM
+  atlas: of 23 dimensionless invariants exactly ONE is LIVE (Koide); 8
+  DEAD (mixing angles, base-rate), 14 UNREACHABLE (alpha, running). The
+  KOIDE SPLIT: Q=2/3 <=> the sqrt-mass vector at 45 deg to the diagonal
+  (verified 44.9997) = a scale-free Z/3 constraint (object-addressable);
+  the mass values live in a separate phase ~132.7 deg (firewalled) -- the
+  observer-coupling thesis on a real observable. h(27)=2/3 VERIFIED (E6
+  level 1, c=6) = the conformal weight of the rep the generations live in
+  = Koide's constraint. The most-motivated sealed-question candidate and
+  NOT evidence (B686: Q=2/3 is 120-deg-tautological; both 2/3's may be
+  generic). E1 tests forced-vs-generic; E2 the level-15 handshake -- both
+  running. Gate 5 stands.
+
 ## 2026-07-18 — B686: the Koide claim firewalled (Gate 5 stands)
 
 - The relayed "Koide is entirely Eisenstein arithmetic; theta_0 = 2/9 =
