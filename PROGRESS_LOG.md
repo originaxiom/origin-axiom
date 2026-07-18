@@ -6299,3 +6299,16 @@ terminal verdict, either a clean end). LIVE NOW: cc2 loop 7 (greenlit),
 cc the arithmetic-ledger workflow; the design cycle STAGED (authored at
 Phase-1 seal, not before — the construction fixes only when the
 dictionary completes).
+
+2026-07-18 (main seat) — B683 ARITHMETIC-LEDGER (workflow, 3 cells,
+main-seat verified). L1: the divided-power law's EQUALITY PROVED
+UNCONDITIONAL all-n (5-adic strict-dominance; the diagonal is the
+unique 5-adic minimum, no cancellation; corollary to (q;q)^{−a/p}) —
+LAW_MAP row upgraded THEOREM. L2: the inert-5 monofocal reading NOT
+SUPPORTED (√5 degenerate in char 5; A₅/2I embed by defining
+characteristic not √5; base-rate A₅<PSL₂(p²) all p) — honest negative,
+HINT_LEDGER. L3: m(A_{4₁}) = Vol(4₁)/π EXACTLY (Boyd, 70 digits) but NOT
+rational×L′(E₁₅,0) — the Mahler measure is the being-character K₃ volume,
+NOT the elliptic K₂; the conductor-15 curve and the volume are different
+arithmetic objects (do not unify) — new LAW_MAP row. Locks
+test_b683_ledger.py.
