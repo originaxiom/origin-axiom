@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 — B699: the first two-object test reframes the hearing
+
+- cc2's surgery-chain two-object test, verified + banked. The mod-5
+  capacity falsifier FIRES: 5-split Whitehead fills SL(2,5)=120 (two seats),
+  fig-8 raw fills SL(2,F_25)=15600 - both generic (strong approximation).
+  "golden capacity => 5-inert" REFUTED.
+- Reframing: golden hearing is a BUNDLE/monodromy phenomenon, not a mod-5
+  capacity; the surgery's gift is making the fig-8 (5-inert AND fibered).
+  B640 clarification (raw holonomy = F_25, not 2I) added to LAW_MAP. Lock
+  test_b699 (pyenv, 2/2).
+
+---
+
 ## 2026-07-18 — B698 Leg A: the meeting probed (analytic) = a product with a ℤ/2 residue
 
 - The level-15 meeting is FACTORED, not entangled: Flath's theorem makes

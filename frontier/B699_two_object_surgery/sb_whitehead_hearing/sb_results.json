@@ -1,0 +1,192 @@
+{
+  "whitehead": {
+    "manifold": "L5a1 (Whitehead link)",
+    "two_bridge": [
+      -3,
+      8
+    ],
+    "volume": "3.6638623767",
+    "trace_field": "Q(i) (Gaussian, disc -4); 5 SPLITS as (2+i)(2-i)",
+    "A_exact_Zi": [
+      [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    ],
+    "B_exact_Zi": [
+      [
+        [
+          3,
+          0
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          0
+        ]
+      ]
+    ],
+    "relator_exact_check_passed": true,
+    "mod5_reductions": {
+      "(2+i)": {
+        "A_mod5": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "B_mod5": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "order": 120,
+        "has_neg_I": true,
+        "elem_order_profile": {
+          "1": 1,
+          "5": 24,
+          "6": 20,
+          "4": 30,
+          "3": 20,
+          "10": 24,
+          "2": 1
+        },
+        "classification": "FULLS SL(2,5) = 2I, the binary icosahedral group (order 120, non-solvable) -- fills the ambient. GOLDEN CAPACITY PRESENT."
+      },
+      "(2-i)": {
+        "A_mod5": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "B_mod5": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "order": 120,
+        "has_neg_I": true,
+        "elem_order_profile": {
+          "1": 1,
+          "5": 24,
+          "4": 30,
+          "10": 24,
+          "6": 20,
+          "3": 20,
+          "2": 1
+        },
+        "classification": "FULLS SL(2,5) = 2I, the binary icosahedral group (order 120, non-solvable) -- fills the ambient. GOLDEN CAPACITY PRESENT."
+      }
+    }
+  },
+  "figure_eight_calibration": {
+    "manifold": "4_1 (figure-eight knot)",
+    "trace_field": "Q(sqrt-3) (Eisenstein, disc -3); 5 is INERT",
+    "a_exact_Zomega": [
+      [
+        [
+          -1,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    ],
+    "b_exact_Zomega": [
+      [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "relator_exact_check_passed": true,
+    "mod5_image_order_in_SL2F25": 15600,
+    "mod5_has_neg_I": true,
+    "mod5_elem_order_profile": {
+      "1": 1,
+      "26": 3600,
+      "13": 3600,
+      "5": 624,
+      "12": 1300,
+      "24": 2600,
+      "4": 650,
+      "8": 1300,
+      "10": 624,
+      "3": 650,
+      "6": 650,
+      "2": 1
+    },
+    "matches_banked_order120": false
+  }
+}
