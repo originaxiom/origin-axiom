@@ -13830,6 +13830,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B683": {
+   "slug": "arithmetic ledger",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B674",
+    "B680",
+    "L1",
+    "L2",
+    "L3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

@@ -17,6 +17,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B683: the arithmetic-ledger lane (theorem + two firewalls)
+
+- L1: the divided-power law's EQUALITY is now a THEOREM, unconditional for
+  all n (5-adic strict-dominance; the diagonal term is the unique 5-adic
+  minimum, no cancellation; corollary to (q;q)^{-a/p}). L2 (honest
+  negative): the inert-5 monofocal reading is NOT supported -- sqrt5 is
+  degenerate in char 5, A5/2I embed by defining characteristic not via
+  sqrt5, and A5 < PSL2(p^2) for every prime (base-rate). L3: m(A_41) =
+  Vol(4_1)/pi EXACTLY (Boyd, 70 digits) but NOT a rational multiple of
+  L'(E15,0) -- the Mahler measure is the being-character K3 volume, not
+  the elliptic K2; the conductor-15 curve and the volume are different
+  arithmetic objects and do not unify.
+
 ## 2026-07-18 — B681: the blackboard v5 pre-test PASSES (design cycle earned)
 
 - The master step's first move. The divided-power law's exact v5 signature

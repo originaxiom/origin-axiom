@@ -418,3 +418,10 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   ceiling menu is clean algebraic {1/φ, √3−1, 1, √2, √3, 2}. Either a
   higher-degree algebraic value (deg ≥ 4?) or a new constant — the one
   dark cell in an otherwise identified table. (B678, 2026-07-18.)
+- The inert-5 monofocal reading (bifocal reduces to ℚ(√−3)'s
+  inert-prime arithmetic at 5) is NOT supported (B683/L2): √5 is
+  degenerate in char 5 (5 ramifies in ℚ(√5)), so the golden mechanism
+  collapses exactly at 5; A₅/2I embed in PSL₂(𝔽₂₅) by defining
+  characteristic (2I≅SL₂(5)), not via √5, and A₅<PSL₂(p²) for every
+  prime (base-rate). The bifocal structure does not reduce to one
+  field's inert prime. A proposed unification, honestly closed.
