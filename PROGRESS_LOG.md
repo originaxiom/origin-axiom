@@ -6117,3 +6117,16 @@ independently, exact agreement required. Outcomes: sole-survivor →
 one sealed design cycle; no-survivor → the terminal no-go banks as a
 theorem; multiple-survivors → owner-gated. The generation leg ends
 as mathematics either way.
+
+2026-07-18 (main seat) — THE BIFOCAL OBJECTION ADJUDICATED (the web
+seat's "eight kills used half the object"): the proposed full-
+SL(2,ℤ/15) Molien test is PRE-DECIDED by the banked E3 law — the
+mechanism conflates field membership with ring integrality
+(ramification never puts 5 in an algebraic integer's denominator);
+witness computed exactly in ℚ[z]/Φ₁₅ (combined-factor Molien through
+q⁸: all coefficients ℤ[ζ₁₅]-integral). Fixed-constant and finite-
+order variants of the other proposals covered by the banked kill;
+genuinely-new classes routed to the sealed enumeration. The valid
+core adopted: ADDENDUM_1 makes the enumeration universe explicitly
+bifocal. Convergence noted: the objection's footprint instinct = the
+S-depth sharpening (operation count, not operand choice).

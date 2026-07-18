@@ -148,3 +148,5 @@ hash-first status.*
 | PREREG_W2 (the Molien + input-verification cells, frozen base) | frontier/B674_generation_leg/PREREG_W2.md | b4c9a6bb | 2026-07-18 | sealed BEFORE any step ran; cc2 cross-check as-received = 450608c5 |
 
 | PREREG_W3_DECISION (the terminal enumeration, frozen base) | frontier/B674_generation_leg/PREREG_W3_DECISION.md | 563a2858 | 2026-07-18 | sealed before any enumeration work; cc2 close-out as-received = 57a1ddca (verified); cc adjudication = 489aea17 |
+
+| PREREG_W3_DECISION ADDENDUM_1 (bifocal universe + E3 reach) | frontier/B674_generation_leg/PREREG_W3_DECISION_ADDENDUM_1.md | see ARTIFACT_HASHES | 2026-07-18 | base 563a2858 unmodified; the bifocal objection adjudicated with computed witness |
