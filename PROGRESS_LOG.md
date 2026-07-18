@@ -6682,3 +6682,19 @@ not the raw image) — no banked error; one-line clarification added to
 LAW_MAP. Lock test_b699 (pyenv-pure, 2/2). The empirical counterpart to
 S068's Turok-hook refutation: the born-in-coupling hope came back honestly
 negative and sharper.
+
+## 2026-07-19 — B700 cell 1: MEASUREMENT = FIBER FUNCTOR (the golden torsor)
+
+The fiber-functor program opened (owner "lets do it") — the one genuinely-
+own angle from S068's four-sweep reading (observer as fiber functor,
+measurement ambiguity as Galois ambiguity; NOT in the literature, real
+precedent = Grothendieck cosmic Galois → Connes–Marcolli + the object's
+K020). Cell 1 VERDICT: TORSOR. 2I=SL(2,5) has EXACTLY two 2-dim golden
+irreps, character field EXACTLY ℚ(√5), swapped SIMPLY-TRANSITIVELY by
+Gal(ℚ(√5)/ℚ)=ℤ/2 (τ:ζ₅↦ζ₅², no fixed irrep) — verified sage + independent
+ℚ(ζ₅) recompute. So the object's golden measurement (B640/B642) = a choice
+of fiber functor; ambiguity = Galois ambiguity = ℤ/2, concretely. Upgrades
+the K020-in-ear PLACEMENT toward a theorem. Base-rate-gated (exactly-two +
+simply-transitive + field-ℚ(√5), not "value is quadratic"). Lock test_b700
+pyenv-pure 2/2. Next: cell 2 (the ℤ/2 uniformity vs the being σ* + the
+meeting residue), cell 3 (Coste–Gannon), cell 4 (a second stage).
