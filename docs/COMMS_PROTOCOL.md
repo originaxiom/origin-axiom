@@ -65,7 +65,8 @@ ONLY if reversible and clearly implied; otherwise it asks **clarify:**.
   the protocol governs *how we talk*, not *what may be claimed*.
 
 ## 6. Channels
-- OA Relay app (JSON messages) = the live human-visible room.
+- The owner's live channel = the human-visible room (private; not part
+  of this record).
 - The /relay folder (seat↔seat notes) = the seats' working channel.
 - The repo (banked B-numbers, ledgers) = the durable record / ground of
   truth — both seats read it; nothing is official until it's here.
