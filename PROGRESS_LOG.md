@@ -6061,3 +6061,20 @@ per-component Yang–Lee η-dressing + component-swap prediction folded
 into step (ii). Vacuity gate first; step (iii) locked behind cc2's
 independent eigenvalue derivation. The Molien cell launches on this
 seat (steps i–ii only until the gate).
+
+2026-07-18 (main seat) — W2 MOLIEN CELL steps gate+(i)+(ii) BANKED
+(under sealed PREREG_W2 b4c9a6bb): VACUITY GATE PROCEED (W non-central
+every graded piece); step (i) gate artifact banked
+(eigen_distribution.json — the multiplicity law m_k: 2k+1 at
+t ≡ 5k±1 mod 10, 2k at the other three same-parity classes,
+tr(W|V_k) = (−1)^k φ exact); step (ii) SUPPORT PRE-TEST PASS — the
+dressed classes land {2/5, 3/5} EXACTLY (η^{48/5} carries q^{2/5};
+per-component ν = (0, 1/5) from σ(T)), grade-0 Molien factor = φ²
+exact (conjugate (1−φ)², doublet gap √5), the swap map √5 ↦ −√5
+reproduces the conjugate seed ζ₁₀^{±3} (trace 1−φ, the YL↔FIB swap).
+FIRST CANDIDATE TO SURVIVE BOTH FALSIFIERS. Step (iii) LOCKED pending
+cc2's independent derivation matching the gate artifact exactly. One
+pin flagged for the cc2 gate: free-module (dim 2(5k+1)) vs
+function-space (2(5k+2)) reading of V_k. Decisive identities
+re-verified independently on this seat. Locks
+tests/test_w2_molien_cell.py.

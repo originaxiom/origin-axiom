@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — the W2 Molien cell: gate PROCEED, (i) banked, (ii) PASS
+
+- Under sealed PREREG_W2: the vacuity gate passes (W non-central
+  everywhere); the step-(i) eigenvalue law banked as the gate artifact
+  (tr(W|V_k) = (-1)^k phi exact); the support pre-test PASSES — dressed
+  classes land {2/5, 3/5} exactly, grade-0 Molien factor phi^2 with
+  conjugate doublet gap sqrt5, and the Galois swap reproduces the
+  conjugate seed (the YL<->FIB swap). The first candidate of the
+  generation campaign to survive both falsifiers. Step (iii) stays
+  LOCKED until cc2's independent holonomy-side derivation matches the
+  gate artifact exactly; one V_k-reading pin flagged for that gate.
+
 ## 2026-07-18 — PREREG_W2 sealed: the generation leg's one-point design
 
 - The design exchange converged in one day: the two-route law (flat

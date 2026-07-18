@@ -1160,3 +1160,8 @@ the shadow-without-a-home question. H-EAR remains the live hypothesis.
 B678 (D4 annex): LANDED-VERIFIED — the full 8x12 ladder table; no
 growth anywhere (Track-H closed empirically at all 12 levels, both
 routes); ceiling map = resonance-structured data; loop 4 fully closed.
+
+W2 Molien cell (generation leg): gate PROCEED + (i) banked + (ii) PASS
+({2/5, 3/5} landed; swap reproduced) — first survivor of the campaign;
+(iii) LOCKED pending cc2's gate; the V_k-reading pin awaits their
+adjudication. No coefficient compared anywhere.
