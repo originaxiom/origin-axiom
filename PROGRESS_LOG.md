@@ -6597,3 +6597,19 @@ one correction: the melody theorem's minimal period is 175560 (B662),
 NOT 20 — the period-20 is the golden D4 value-catalogue ladder (B684/G3).
 Artifacts banked under docs/dossiers/verify_m_artifacts/. After-verify:
 Review 23 proceeds next (owner directive "after verify").
+
+## 2026-07-18 — REVIEW 23 (the third constitutional review)
+
+The decadal review over the record's most consequential window (#1095–
+#1145, B674→B697 + the summit dossier + VERIFY-M): the generation leg
+closed as a proven terminal no-go (B685), the whole being face mapped.
+R22 loop dispositioned (R22-6 resolved by B685; R22-1 advanced by the
+dossier; R22-2/-7 carried). Provenance CLEAN (zero external-verification
+pretense; papers honestly labeled). Error recurrence: one class this
+window ("over-reading a generic feature as special" — E15/E16, both
+caught two-seat in-window); the base-rate/convention gate that catches it
+was added this window (COMMS v1.1). Protocol integrity: the three
+generation-leg whole-file seals recompute MATCH, hash-first honored.
+Six action items opened (R23-1..R23-6): the specialist read, L95, H-EAR
+status, cc2's §6 fold-in, the 8 terminology glosses, seal bookkeeping.
+Two subagents ran the provenance + hash/error sweeps.
