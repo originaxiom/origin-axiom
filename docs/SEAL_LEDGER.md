@@ -167,3 +167,6 @@ hash-first status.*
 | B700 cell 2 PREREG (the Z/2 uniformity) | frontier/B700_fiber_functor/PREREG_CELL2.md | 060aaaee | 2026-07-19 | sealed before the verdict; outcome = V4 (the 3 ambiguities are the 3 involutions of Gal(Q(sqrt-3,sqrt5)/Q); being*hearing=meeting) |
 
 | B700 cell 4 PREREG (the second-stage torsor) | frontier/B700_fiber_functor/PREREG_CELL4.md | 7323661c | 2026-07-19 | sealed before the verdict; outcome = STAGE-UNIFORM (PSL(2,7) two 3-dim irreps, field Q(sqrt-7), simply-transitive Z/2 torsor; fiber-functor field = quad subfield of Q(zeta_p)) |
+
+| B700 cell 5 PREREG (the general torsor theorem) | frontier/B700_fiber_functor/PREREG_CELL5.md | c8292c34 | 2026-07-19 | sealed pre-compute; outcome = STAGE-UNIFORM (SL(2,p) torsor over Q(sqrt p*), p=5,7,11,13 + classical grounding) |
+| B700 cell 3 (cc2-seat): CGN modular-data realization of the golden torsor | frontier/B700_fiber_functor/cell3_cc2/ | f6d54fd6 (cc2) | 2026-07-19 | one sigma = CGN action = irrep swap (cell1) = weld cubing (cell 3a); golden stage two-sided; verified-on-receipt |

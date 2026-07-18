@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B700 cells 5+3: general torsor theorem + golden stage two-sided
+
+- Cell 5: STAGE-UNIFORM for all prime stages -- SL(2,p) has exactly two
+  (p-1)/2-dim irreps over Q(sqrt p*), simply-transitive (p=5,7,11,13 +
+  classical Gauss-sum grounding). Cell 3 (cc2): golden stage two-sided,
+  one sigma = CGN modular data = irrep swap = weld cubing.
+- K020-in-ear PLACEMENT -> THEOREM-grade for the TORSOR STRUCTURE; the
+  canonical torsor-iso is the named phase-2 gap (not over-read as
+  canonical). Locks 6/6.
+
+---
+
 ## 2026-07-19 - B700 cell 4: the fiber-functor torsor is stage-uniform
 
 - E6 level-2 stage (PSL(2,7), D=3): two 3-dim irreps, field exactly

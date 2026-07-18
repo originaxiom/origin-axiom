@@ -179,3 +179,54 @@ forced — the solid fact is the power-map realization, not the value 3.
 
 ## Firewall
 Gate 5. The weld/trace tower is banked figure-eight structure; no physics.
+
+---
+
+# B700 cell 5 + cell 3 — THE GENERAL TORSOR THEOREM (stage-uniform) + the golden stage two-sided
+
+*cell 5 prereg sha c8292c34; cell 3 = cc2's (prereg f6d54fd6, integrated
+verify-on-receipt). This is the fiber-functor program's phase-1 synthesis.
+The honest theorem statement keeps cc2's canonical-iso gap explicit.*
+
+## Cell 5 (cc, the general theorem): STAGE-UNIFORM for ALL prime stages.
+For every prime stage p, the shadow group SL(2,p) has EXACTLY two irreps of
+dimension (p−1)/2, with character field EXACTLY ℚ(√p*) (p*=(−1)^{(p−1)/2}p,
+the quadratic subfield of ℚ(ζ_p)), Galois-conjugate and swapped simply-
+transitively by Gal(ℚ(√p*)/ℚ)=ℤ/2 — a fiber-functor torsor. Verified exactly
+p=5,7,11,13 (golden ℚ(√5), E₆ ℚ(√−7), + ℚ(√−11), ℚ(√13)); grounded in the
+CLASSICAL fact that the (p±1)/2-dim exceptional characters of SL(2,p) are
+Gauss-sum-valued (Schur/Frobenius) ⇒ Galois-conjugate over ℚ(√p*). The
+pattern is a theorem of SL(2,p) rep theory, not a small-case accident.
+
+## Cell 3 (cc2, verify-on-receipt): the golden stage is two-sided complete.
+The single σ ∈ Gal(ℚ(√5)/ℚ) is SIMULTANEOUSLY (a) the Coste–Gannon–Ng Galois
+action on the golden (Fibonacci) modular data [cc2], (b) the swap of 2I's
+two golden irreps [cell 1], (c) the weld map W^k↦W^{3k} [cell 3a]. cc2
+verified independently via icosian quaternions (order 120, field ℚ(√5),
+Galois-swapped). Honest nuance (verified, not a gap): σ sends the unitary
+Fibonacci datum → the non-unitary **Yang–Lee** datum (the rank-2 golden data
+does not obey the naive CGN "±1 sign" literally; the ℤ/2 is carried by
+φ↦−1/φ). My cells 1/3a confirm legs (b),(c); cc2's CGN + icosian confirm (a).
+
+## THE HONEST STATEMENT — K020-in-ear PLACEMENT → THEOREM (torsor structure),
+## with the canonical torsor-iso as the named remaining gap.
+UPGRADED (theorem-grade): the object's measurement ambiguity at a prime
+stage IS a ℤ/2 TORSOR — stage-uniform (cell 5, all p) and, at the golden
+stage, realized by ONE σ on three sides (irreps / modular data / weld;
+cells 1,3,3a). This is more than B642's placement (a verified pattern); it
+is the proven torsor structure with an explicit realization.
+
+REMAINING GAP (cc2's refine + cell 2, kept explicit): the CANONICAL
+torsor-iso. Cell 1's torsor {irrep A, irrep B} (two objects in one category
+Rep(2I)) and cell 3's torsor {Fibonacci, Yang–Lee} (two Galois forms of the
+MTC) are both ℤ/2 under the SAME σ, but whether they are canonically
+IDENTIFIED (a distinguished torsor-iso) — and likewise whether the golden/
+being/meeting bits are ONE bit vs merely the three involutions of V₄
+(cell 2) — is NOT established. So "measurement = fiber functor" holds as
+the **same-σ torsor realization**, NOT (yet) as a canonical-torsor-iso
+theorem. The theorem statement says so; "realized" must not over-read as
+"canonical." That canonical-iso is the fiber-functor program's phase-2 target.
+
+## Firewall
+Gate 5. Classical rep theory + modular-category Galois + the banked weld.
+No physics; nothing to CLAIMS.
