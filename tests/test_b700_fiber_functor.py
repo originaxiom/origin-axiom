@@ -97,3 +97,21 @@ def test_cell4_second_stage_torsor_PSL27():
     # principle: golden field disc 5 (p=5, 5=1 mod4), E6 field disc -7 (p=7, 7=3 mod4)
     for p, star in [(5, 5), (7, -7)]:
         assert star == ((-1)**((p-1)//2)) * p          # p* = quadratic-subfield disc of Q(zeta_p)
+
+
+def test_cell3a_galois_is_cubing_the_weld():
+    """The golden torsor's Galois Z/2 is realized on the weld as W^k -> W^{3k}
+    (mod 10), NOT W^2 (chat1 Fact 5 corrected)."""
+    s5 = sp.sqrt(5)
+    def trW(k): return sp.expand(sp.nsimplify(2*sp.cos(3*k*sp.pi/5), [s5]))
+    def gal(x): return sp.expand(x.subs(s5, -s5))
+    # gal(tr W) = tr(W^3), not tr(W^2)
+    assert sp.simplify(gal(trW(1)) - trW(3)) == 0
+    assert sp.simplify(gal(trW(1)) - trW(2)) != 0
+    # the realizing power m: tr(W^{m k}) = gal(tr W^k) for all k -> m in {3,7}
+    def trWmod(j):
+        j %= 10
+        return sp.Integer(2) if j == 0 else trW(j)
+    realizing = [m for m in range(1, 10)
+                 if all(sp.simplify(trWmod(m*k) - gal(trW(k))) == 0 for k in range(1, 10))]
+    assert realizing == [3, 7], f"realizing powers {realizing}, expected [3,7]"
