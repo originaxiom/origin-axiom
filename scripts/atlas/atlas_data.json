@@ -14099,8 +14099,8 @@
     "B691",
     "B694"
    ],
-   "obstacle": "particle_dict",
-   "obstacle_conf": 1,
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },
