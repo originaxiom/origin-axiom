@@ -6432,3 +6432,16 @@ S₃/2T/2D₃/McKay + Legendre 5 split-vs-inert), SM reading firewalled;
 Q3 θ₀=2/9 NOT ROBUST (chat1 7σ vs cc ~1σ from differing inputs +
 base-rate — firewalled, supersedes both); Q5 7983360 factorization
 BASE-RATE (37% smooth-cofactor). Gate 5 throughout.
+
+2026-07-18 (main seat) — THE ADVANCED LOOP MACHINE crafted
+(B688/ORCHESTRATION_ADVANCED): the Eisenstein campaign's orchestration
+layer, CC's to craft + own. Two parallel workflows (cc2 exploration +
+cc verification) interlocked by the courier + the one shared gate.
+The per-loop machine (my side): intake → adversarial-verify (each claim
+re-derived independently + auto base-rate) → firewall gate → bank →
+chain/loop-until-dry. Advanced features: adversarial verify by default,
+automated base-rate control, convention/robustness probe (the θ₀
+lesson), loop-until-dry. WHO: cc2 starts first each loop (already has,
+E1/E2); CC crafts the machine + verifies + banks; cc2 fills it with
+design; the sealed cell is the one synchronized two-seat gate. Cycle 1
+= cc2's E2 packet on intake.
