@@ -14190,7 +14190,9 @@
   "B700": {
    "slug": "fiber functor",
    "motifs": [
+    "figure_eight",
     "trace_map",
+    "metallic",
     "eisenstein",
     "golden",
     "torsion",
@@ -14210,7 +14212,7 @@
     "S068"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 13,
+   "obstacle_conf": 17,
    "status": "banked",
    "domain": "arithmetic"
   },

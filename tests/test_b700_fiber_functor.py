@@ -115,3 +115,23 @@ def test_cell3a_galois_is_cubing_the_weld():
     realizing = [m for m in range(1, 10)
                  if all(sp.simplify(trWmod(m*k) - gal(trW(k))) == 0 for k in range(1, 10))]
     assert realizing == [3, 7], f"realizing powers {realizing}, expected [3,7]"
+
+
+def test_cell5_stage_uniform_backbone():
+    """The arithmetic backbone of the stage-uniform torsor: for each prime stage p,
+    the fiber-functor field is Q(sqrt p*), p* = (-1)^((p-1)/2) p, and the quadratic
+    Gauss sum squares to p* (the quadratic subfield of Q(zeta_p)). The rep-theory
+    (exactly two (p-1)/2-dim irreps, simply-transitive) is sage-verified (ref_cell5)."""
+    def legendre(a, p):
+        a %= p
+        return 0 if a == 0 else (1 if pow(a, (p - 1) // 2, p) == 1 else -1)
+    for p in (5, 7, 11, 13):
+        pstar = ((-1) ** ((p - 1) // 2)) * p
+        # p* is the fundamental discriminant of the quadratic subfield of Q(zeta_p)
+        assert pstar % 4 in (0, 1), f"p*={pstar} not a discriminant"
+        # quadratic Gauss sum g = sum legendre(a,p) zeta_p^a satisfies g^2 = p*
+        z = sp.exp(2 * sp.pi * sp.I / p)
+        g = sum(legendre(a, p) * z**a for a in range(1, p))
+        assert abs(complex(sp.expand(g**2)) - pstar) < 1e-9, f"gauss^2 != p* for p={p}"
+        D = (p - 1) // 2                                  # the shadow-irrep dimension
+        assert D >= 2

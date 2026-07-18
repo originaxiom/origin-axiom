@@ -6736,3 +6736,19 @@ Coste–Gannon modular-data version). HINT (base-rate-caveated): the power 3
 = the being prime, but 3 also generates (ℤ/10)*. chat1 handoff verified:
 Facts 1,2,3,7 correct; Fact 4 error caught (13 SPLITS in ℚ(i), not inert —
 13≡1 mod 4); Fact 5 corrected (W³). Lock test_b700 5/5.
+
+## 2026-07-19 — B700 cells 5 + 3: the general torsor theorem + golden stage two-sided
+
+CELL 5 (cc, the general theorem): STAGE-UNIFORM for ALL prime stages — for
+every prime p, SL(2,p) has EXACTLY two (p−1)/2-dim irreps, character field
+EXACTLY ℚ(√p*) (p*=(−1)^((p−1)/2)p), simply-transitive Gal(ℚ(√p*)/ℚ)=ℤ/2
+torsor (verified p=5,7,11,13; classical ground: SL(2,p)'s (p±1)/2-dim
+exceptional characters are Gauss-sum-valued → Galois-conjugate over ℚ(√p*)).
+CELL 3 (cc2, verify-on-receipt): the golden stage is TWO-SIDED — one σ is
+the Coste–Gannon–Ng modular-data action AND the irrep swap (cell 1) AND the
+weld cubing (cell 3a); σ sends Fibonacci→Yang–Lee (verified via icosian
+quaternions). K020-in-ear PLACEMENT → THEOREM-grade for the TORSOR STRUCTURE
+(stage-uniform, three-sided realized). HONEST GAP (cc2's refine + cell 2):
+the CANONICAL torsor-iso — are the irrep/MTC/weld/V₄ bits ONE bit or merely
+same-σ? — is the named phase-2 target; "realized" is NOT over-read as
+"canonical". Locks 6/6. Seals c8292c34 (cc5), f6d54fd6 (cc2 cell 3).
