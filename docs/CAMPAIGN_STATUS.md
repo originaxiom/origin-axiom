@@ -1195,3 +1195,10 @@ B681 (W3 design cycle opening): the blackboard v5 pre-test PASSED — the
 divided-power law factors as Habiro-Γ × level-5; the survivor is earned,
 its construction pinned. NEXT: cc2 verifies the decomposition (gate),
 then seal + run the one coefficient cell (two-seat) in the Habiro ring.
+
+GENERATION CAMPAIGN MASTERPLAN (2026-07-18): stages 1-2 ADOPTED
+(dictionary → one sealed design cycle), stages 3-4 FIREWALLED
+(conditional + Gate-5-fenced + partly refuted). The design cycle is a
+single sealed shot, not a loop. Deliverable = publishable mathematics
+regardless. Full plan in frontier/B674_generation_leg/
+CAMPAIGN_MASTERPLAN.md.
