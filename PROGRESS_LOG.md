@@ -6130,3 +6130,25 @@ genuinely-new classes routed to the sealed enumeration. The valid
 core adopted: ADDENDUM_1 makes the enumeration universe explicitly
 bifocal. Convergence noted: the objection's footprint instinct = the
 S-depth sharpening (operation count, not operand choice).
+
+2026-07-18 (main seat) — THE W3 GATE RUN + THE DIVIDED-POWER LAW
+BANKED. Gate: both independent enumerations delivered (cc2 285b9df2;
+cc cell in-arc); mechanical comparison c4073c72 — class-list level NOT
+exact (per the seal: STOP, diagnose, bank as-is): (1) a genuine
+completeness gap in MY cell (the φ-type fixed-operator class — the
+holonomy on H₁ has non-torsion unit eigenvalues φ^{±2}; cc2's axis
+caught it; my cell's "operators are finite-order" was false as
+stated); (2) my F2 fence (fractional-η towers — killed by nothing,
+out-of-universe by statement) unaddressed by cc2 — REFERRED to the
+completeness pass + owner. Survivor level: EXACT two-seat agreement —
+the depth-graded S-conjugation family, sole survivor; L-A/L-B (proven
++ witnessed BEFORE the comparison) seal the conditionality (E3-
+ADDENDUM 1f47cfbd); MULTIPLE-SURVIVORS reachable on both seats, fired
+on neither. ALSO BANKED: THE DIVIDED-POWER LAW — v₅(den c_n) =
+v₅(5ⁿ·n!) = n + (n−s₅(n))/4 EXACTLY at 120/120 coefficients (all five
+banked kill witnesses reproduced; slope → 5/4 = p/(p−1) explains the
+[1.205, 1.25] band; the being prime 3 in NO denominator — generation
+depth is purely golden); the targets are 5-adically a genuine
+exponential (divided powers); class 7's design obligation sharpened to
+the exact per-n test. Locks: test_divided_power_law.py. The design
+cycle awaits the owner's go.

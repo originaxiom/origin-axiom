@@ -1,0 +1,3 @@
+exceptions: []
+3-in-denominator: []
+THE DIVIDED-POWER LAW: 120/120 exact; being prime absent

@@ -1179,3 +1179,9 @@ two-seat independent enumeration of framework construction classes
 against the four exclusions; the S-depth-graded family is the named
 candidate-survivor. Loop 6 (cc2) and the frontier queue proceed in
 parallel; nothing blocks.
+
+W3 gate: RUN — survivor-level exact two-seat agreement (the S-depth
+family, sole survivor; L-A/L-B sealed; two disagreements banked and
+routed). The divided-power law banked (the exact per-n falsifier).
+Awaiting: the completeness pass (web seat) on the agreed list + F2;
+the owner's go for the single sealed design cycle.

@@ -6,6 +6,22 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — the W3 gate run + THE DIVIDED-POWER LAW
+
+- The gate: independent enumerations from both seats; survivor-level
+  EXACT agreement (the depth-graded S-conjugation family, sole
+  survivor); two disagreements banked as-is per the seal (the phi-type
+  gap in the cc list, diagnosed and closed by lemma L-A; the F2
+  fractional-eta scope fence, referred to the completeness pass).
+  E3-ADDENDUM seals L-A/L-B (both proven + witnessed before the
+  comparison).
+- THE DIVIDED-POWER LAW: the targets' 5-adic denominators are EXACTLY
+  5^n n! (120/120, zero exceptions; all banked witnesses reproduced;
+  slope -> 5/4 = p/(p-1)). The targets are 5-adically an exponential;
+  the being prime appears in no denominator (generation depth is
+  purely golden); the survivor's design obligation sharpens to an
+  exact per-n falsifier including the base-5 digit-sum ripple.
+
 ## 2026-07-18 — W2 closed; the terminal enumeration sealed
 
 - cc2's close-out adopted and sharpened both ways: the surviving class

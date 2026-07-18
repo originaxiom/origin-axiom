@@ -150,3 +150,6 @@ hash-first status.*
 | PREREG_W3_DECISION (the terminal enumeration, frozen base) | frontier/B674_generation_leg/PREREG_W3_DECISION.md | 563a2858 | 2026-07-18 | sealed before any enumeration work; cc2 close-out as-received = 57a1ddca (verified); cc adjudication = 489aea17 |
 
 | PREREG_W3_DECISION ADDENDUM_1 (bifocal universe + E3 reach) | frontier/B674_generation_leg/PREREG_W3_DECISION_ADDENDUM_1.md | see ARTIFACT_HASHES | 2026-07-18 | base 563a2858 unmodified; the bifocal objection adjudicated with computed witness |
+
+| E3-ADDENDUM (lemmas L-A + L-B, hypothesis-widening) | frontier/B674_generation_leg/E3_EXTENSION_LEMMAS.md | 1f47cfbd | 2026-07-18 | proven + witnessed BEFORE the gate comparison (held in scratch); seals cc2's classes 5/8 conditionality |
+| W3 GATE COMPARISON | frontier/B674_generation_leg/W3_GATE_COMPARISON_CC.md | c4073c72 | 2026-07-18 | both cells independent; survivor-level EXACT agreement; two banked disagreements (the φ-type gap in cc's list — diagnosed; the F2 scope fence — referred) |
