@@ -1190,3 +1190,8 @@ Ramanujan trifocal (adjudicated): silver S1 VERIFIED (octic = closed
 form in delta at the certified cusp); bronze value-leg refuted (S4,
 no CM); golden T1-T7 running on the main seat. Group-level McKay rows
 were already banked; the value-level story is now half-confirmed.
+
+B681 (W3 design cycle opening): the blackboard v5 pre-test PASSED — the
+divided-power law factors as Habiro-Γ × level-5; the survivor is earned,
+its construction pinned. NEXT: cc2 verifies the decomposition (gate),
+then seal + run the one coefficient cell (two-seat) in the Habiro ring.

@@ -6227,3 +6227,16 @@ UNIDENTIFIED (degree 12 > the degree-8 cap). "deaf = non-CM" now has
 THREE legs: B675 no-host, S2 no-value (bronze), S1+T2 CM-voice (silver
 δ-unit + golden 5³⁰). The B680 falsifiable prediction discharged
 CONFIRMED. Lock test_t2_golden_cm.py.
+
+2026-07-18 (main seat) — B681: THE BLACKBOARD v5 PRE-TEST — PASS. The
+master step's first move. The divided-power law's exact signature
+FACTORS: v5(den c_n) = n + v5(n!), verified all banked witnesses
+(1,12,49,99,146). Each summand has a framework home: v5(n!) = the
+divided-power (Γ^n vs Sym^n) denominator (why Sym/Molien was killed,
+why the Habiro ring is the survivor's home; the s5(n) ripple = Legendre
+automatically); 5^n = one factor of 5 per grade = 2 S-applications/grade
+= one S²=c (charge-conjugation) per grade [design hypothesis, slope 5/4
+exact, integer count cleaner than cc2's 2.4 estimate]. VERDICT: no v5
+obstruction — the design cycle is EARNED, construction PINNED to
+Habiro-Γ × level-5. NECESSARY denominator condition only; the numerator
+comparison is the sealed cell (two-seat gate). Lock test_b681_pretest.
