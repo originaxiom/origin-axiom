@@ -1,0 +1,76 @@
+# THE GENERATION CAMPAIGN — ORCHESTRATION (the HOW; companion to
+# CAMPAIGN_MASTERPLAN.md's WHAT/WHY. Main seat, 2026-07-18.)
+
+## SEAT / AGENT ROLES
+
+- **cc (main/banking seat):** verify-on-receipt + bank every packet;
+  the Γ(5)/modular holomorphic block; the arithmetic-ledger lane; the
+  firewall. Owns the terminal synthesis.
+- **cc2 (compute seat):** anatomy loop 7 (exhaustion wave, LIVE now);
+  the holonomy/state-integral holomorphic block; independent gate
+  derivations.
+- **chat1 (literature/completeness critic):** the dictionary's citation
+  half; the completeness pass after each gate; NEVER a design input
+  before independence (post-gate only). Every relay firewalled on
+  receipt (base-rate control on any number-match — the GSWZ eq-1
+  lesson).
+
+## THE LOOP STRUCTURE (what loops; what does NOT)
+
+LOOPS (supporting work, run continuously):
+- **Anatomy loop 7** (cc2): sweep constituent-dims, phase catalogue,
+  sign law, minimal period, the 1.785 identification (B678 dark cell),
+  torsion landscape → CHARTER exhaustion + ATLAS v2. Loop until dry.
+- **The arithmetic-ledger lane** (cc, Workflow): the Mahler/Beilinson
+  three-way, the inert-5 Bianchi rederivation, the divided-power
+  non-cancellation proof, the 15a isogeny certification. Accumulate.
+- **Dictionary verification** (both seats): parallel entry-checks.
+
+DOES NOT LOOP (the sealed one-shot):
+- **The design cycle.** The sealed criterion forbids a retry — a
+  second attempt against the RR targets would be p-hacking. ONE gate,
+  one comparison, one verdict. This is the campaign's fixed point.
+
+## THE GATES (every one mandatory)
+
+1. Verify-on-receipt: every cross-seat result recomputed on the
+   receiving seat before banking.
+2. Gate 5: no physics naming in any committed file; the blocks are
+   math, the SM identifications are fenced.
+3. The two-seat input gate = the holomorphic-blocks factorization
+   Φ·τΦ: cc derives one block, cc2 the other, EXACT agreement unlocks
+   the comparison. Disagreement STOPS both seats.
+4. The vacuity gate (MB12): the construction must be able to fail.
+5. The sealed one-shot criterion: the design cycle runs once.
+
+## THE SEQUENCE TO THE END
+
+STAGE 1 (NOW → days): complete the dictionary. cc extraction DONE;
+cc2+chat1 literature half; verify 1/(2φ) as a GSWZ special value
+(math). Parallel lanes LIVE. → the dictionary lands.
+
+[CLEAN-CONTEXT RESET: integrate loop 6 + loop 7 packets + a state
+snapshot; open the design session on fresh context.]
+
+STAGE 2 (fresh session, OWNER GO): 
+- Phase 1 (seal): fix the construction — the block-decomposed Φ·τΦ,
+  the four falsifiers in order (v₅ CLEARED B681; support {2/5,3/5} from
+  the ζ₅ evaluation; vacuity; coefficient). Seal PREREG (frozen base).
+  The design-cycle Workflow script is authored HERE (not before — the
+  construction is fixed only once the dictionary completes).
+- Phase 2 (run): the one two-seat cell, ≥100 coefficients, holomorphic-
+  blocks gate. 
+
+THE TERMINAL VERDICT (either is a clean end):
+- MATCH → the functor exists AS MATHEMATICS; K020 silver control;
+  bank as a theorem; stages 3-4 remain firewalled + owner-gated.
+- KILL → the terminal no-go banks as a THEOREM with the specification
+  attached; the leg closes; publish the mathematics.
+
+## WHAT IS LIVE RIGHT NOW
+
+- cc2: anatomy loop 7 (greenlit).
+- cc: the arithmetic-ledger Workflow (launching) + hold the design
+  prereg at PREPARED.
+- The design cycle: STAGED, awaiting Stage-1 completion + owner go +
+  fresh session. Not run.

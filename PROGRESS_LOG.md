@@ -6286,3 +6286,16 @@ deliverable is the ~95% publishable-mathematics branch; the ~5% physics
 is firewalled and NOT planned. NOW: complete Stage 1, integrate loop-6
 + snapshot, PREPARE (not seal) the physics-stripped Stage-2 prereg,
 HOLD the go for the owner + fresh session.
+
+2026-07-18 (main seat) — THE CAMPAIGN ORCHESTRATION banked (the HOW,
+companion to the MASTERPLAN's WHAT/WHY): seat roles (cc bank+Γ(5)
+block+ledger+firewall; cc2 loop-7+state-integral block; chat1
+literature/completeness critic, post-gate only, firewalled on receipt);
+the LOOP structure (loops = anatomy loop 7, the arithmetic ledger,
+dictionary verification; the design cycle DOES NOT loop — sealed one
+shot); the five gates; the sequence to the end (Stage 1 dictionary →
+clean-context reset → Stage 2 seal+run on owner go/fresh session → the
+terminal verdict, either a clean end). LIVE NOW: cc2 loop 7 (greenlit),
+cc the arithmetic-ledger workflow; the design cycle STAGED (authored at
+Phase-1 seal, not before — the construction fixes only when the
+dictionary completes).
