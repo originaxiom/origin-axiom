@@ -6087,3 +6087,20 @@ Grade-40 primary [0,81,0,80,0,80,0,80,0,81] = the law's prediction
 exactly. Per sealed PREREG_W2: STEP (iii) UNLOCKED. Caveats carried:
 shared free-module reading (both cells; sealed candidate), their
 fiber-character anchor. Their live gate-4 self-correction banked.
+
+2026-07-18 (main seat) — W2 STEP (iii): KILLED-AT-(iii) BANKED (kill
+#8 of the generation leg; sealed vocabulary; 17/17 internal gates,
+all exact). The kill fires at n = 0/1, inside the gate-verified
+region, freeness-caveat-free: M₀ = φ² vs target 1 (repair = a ℤ[φ]
+UNIT, outside the sealed one-rational-constant freedom); even an
+algebraic constant dies at n = 1 (−φ vs 3/5). THE STRUCTURAL KILL:
+5-ADIC RING SEPARATION — Molien coefficients are algebraic integers
+(all 120 in ℤ[φ]) while the targets carry unboundedly growing
+5-power denominators (v₅ = 1, 12, 49, 99, 146 at n = 1..119): no
+fixed constant bridges a growing v₅ gap. This kills the ENTIRE
+finite-order-Molien class against these targets, and it is the SECOND
+instance of the W33 5-adic exclusion — a two-instance pattern. What
+survives: the step-(ii) shape (support {2/5,3/5}, doublet, swap =
+Galois conjugation) as the recognition-level structure. K020 not
+triggered. Verified on this seat (target ratio 3/5 exact; units
+non-rational). Locks tests/test_w2_step3_kill.py.

@@ -1,0 +1,98 @@
+== PART A: the gate artifact and the closed-form law ==
+  [PASS] closed-form law == banked GATE_PRIMARY, ALL grades k=0..40 (mults, dims, t<->-t)
+  [PASS] 41 grades present in the gate artifact  [len=41]
+  GRADE EXTENSION DECLARED: k=41..119 via the gate artifact's own closed_form_law
+  (verified above against every banked grade; coefficients n<=40 use ONLY gate-verified grades)
+
+== PART B: the Molien doublet M, M' to 120 coefficients, exact in Q(sqrt5) ==
+  [PASS] trace law tr(W|V_k) = (-1)^k phi reproduced from the distribution, k=0..119
+  [PASS] grade-0 constants: M_0 = phi^2, M'_0 = (1-phi)^2, gap sqrt5
+  [PASS] cross-check (independent route): direct product == exp route, n<24
+  [PASS] cross-check: conjugate-seed (t->3t) build == conj(M) coefficientwise, n<24
+  [PASS] coefficient ring: every M_n lands in Z[phi] (and M+M' in Z)
+  first coefficients M : 3/2 + 1/2*sqrt5; -2 + -1*sqrt5; 4 + 2*sqrt5; -7 + -3*sqrt5
+  first coefficients M': 3/2 + -1/2*sqrt5; -2 + 1*sqrt5; 4 + -2*sqrt5; -7 + 3*sqrt5
+
+== PART C: the W33/B672 targets to 120 terms, verified against the banked JSON ==
+  [PASS] recomputed F1 stream == banked (all 42 banked terms)
+  [PASS] recomputed F2 stream == banked (all 42 banked terms)
+  [PASS] recomputed Y_2hat.comp1 = N1*(q;q)^9 == banked (all 60 terms)
+  [PASS] recomputed Y_2hat.comp2 = N2*(q;q)^9 == banked (all 60 terms)
+  [PASS] banked identity re-proved as series: F1*(q;q)^{48/5} == N1*(q;q)^9, n<120
+  [PASS] banked identity re-proved as series: F2s*(q;q)^{48/5} == N2*(q;q)^9, n<120
+  [PASS] W33 bounded finding reproduced: |F1_n|, |F2_n| <= 1 for all n<120
+  class bookkeeping: dressed classes (2/5, 3/5) select the 2hat doublet
+  (2hat' lives at classes (1/5, 4/5) -- outside the sealed step-(ii) landing).
+  [PASS] dressing consistency: dressed conjugate == conj(dressed), n<120
+
+== PART D: the sealed comparison (>= 100 coefficients, both conjugates x both components) ==
+  M  vs F1 (reduced): first mismatch at n=0; target/molien ratio r_0 = 3/2 + -1/2*sqrt5, r_1 = 6/5 + -3/5*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  M  vs F2 (reduced): first mismatch at n=0; target/molien ratio r_0 = 3/2 + -1/2*sqrt5, r_1 = -4/5 + 2/5*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  M' vs F1 (reduced): first mismatch at n=0; target/molien ratio r_0 = 3/2 + 1/2*sqrt5, r_1 = 6/5 + 3/5*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  M' vs F2 (reduced): first mismatch at n=0; target/molien ratio r_0 = 3/2 + 1/2*sqrt5, r_1 = -4/5 + -2/5*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  dressed M  vs Y_2hat.comp1: first mismatch at n=0; target/molien ratio r_0 = 3/2 + -1/2*sqrt5, r_1 = 3690/2519 + -1305/2519*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  dressed M  vs Y_2hat.comp2: first mismatch at n=0; target/molien ratio r_0 = 3/2 + -1/2*sqrt5, r_1 = 4100/2519 + -1450/2519*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  dressed M' vs Y_2hat.comp1: first mismatch at n=0; target/molien ratio r_0 = 3/2 + 1/2*sqrt5, r_1 = 3690/2519 + 1305/2519*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+  dressed M' vs Y_2hat.comp2: first mismatch at n=0; target/molien ratio r_0 = 3/2 + 1/2*sqrt5, r_1 = 4100/2519 + 1450/2519*sqrt5;
+      single ALGEBRAIC constant works: False; single RATIONAL constant works: False
+
+  -- the sealed one-rational-constant freedom, decided at n=0 --
+  M_0  = phi^2   = 3/2 + 1/2*sqrt5;  target comp streams start at 1
+  c * phi^2 = 1 requires c = phi^{-2} = 3/2 + -1/2*sqrt5 : NOT rational
+  c * (1-phi)^2 = 1 requires c = (1-phi)^{-2} = 3/2 + 1/2*sqrt5 : NOT rational
+  => NO rational constant (shared or even per-component) survives n=0, any orientation
+
+  -- the diagnostic single ALGEBRAIC constant, decided at n=1 --
+  after normalizing away the grade-0 unit: M_1/M_0 = -1/2 + -1/2*sqrt5 vs F1_1 = 3/5, F2_1 = -2/5
+  M'_1/M'_0 = -1/2 + 1/2*sqrt5  -- neither equals 3/5 nor -2/5
+  ratio drift witnesses (M vs F1): r_0 = 3/2 + -1/2*sqrt5 ; r_1 = 6/5 + -3/5*sqrt5 ; r_0 != r_1
+
+  -- growth separation (exact coefficients at checkpoints; n<=40 is gate-verified-only region) --
+     n |      |M_n| (approx of exact) |           F1_n |     Y1_n (int) | |DM_n| approx
+     1 |                      4.23607 |            3/5 |             -9 | 29.3692
+     2 |                      8.47214 |           2/25 |             26 | 132.078
+     5 |                      28.0344 |      532/15625 |            120 | 66.2107
+    10 |                      129.846 | -26495988/2441 |            936 | 990.206
+    20 |                      1079.89 | 19329253210514 |           -168 | 2745.2
+    40 |                      12712.9 | 22123645847517 |           3402 | 17552.5
+    60 |                      6439.43 | -6419917753149 |          27352 | 271525
+    80 |                       372558 | 19686948059176 |         -30618 | 786862
+   100 |                  1.37183e+06 | 30826990538418 |         -62748 | 1.68179e+06
+   119 |                  1.66849e+06 | -2206052797594 |          -5600 | 2.79546e+06
+  dressed-Molien/target excess at n=40: |DM_40|/|Y1_40| = 5.15947 ; at n=100: 26.8023
+
+== PART E: diagnostics for the kill bank (labeled; outside the sealed pairings) ==
+  [PASS] (e1) reduced targets: denominators are PURE 5-powers, n<120 (banked W33 fact reproduced)
+      v5(denom) checkpoints n=1,10,40,80,119: [1, 12, 49, 99, 146] ; max in window = 146 (non-decreasing envelope)
+      vs the Molien doublet: EVERY M_n, M'_n in Z[phi] (v5 of denominators = 0, all n<120)
+      => ONE constant c (rational OR algebraic) has FIXED v5(c); it cannot map a
+         5-integral stream onto denominators 5^v with v growing -- the same 5-adic
+         exclusion pattern W33 banked against the ladder, now killing the Molien lift.
+  (e2) dressed Molien (q;q)^{48/5}*M: v5(denom) checkpoints n=1,10,40,80,119: [1, 12, 49, 99, 146] (max 146)
+  [PASS] (e2) dressed Molien is NOT 5-integral while the dressed targets Y_2hat are integers
+  (e3) DIAGNOSTIC (M+M') vs F1: first mismatch at n=0  [witness: 3 + 0*sqrt5 vs 1]
+  (e3) DIAGNOSTIC (M-M')/sqrt5 vs F1: first mismatch at n=1  [witness: -2 + 0*sqrt5 vs 3/5]
+  (e3) DIAGNOSTIC (M-M')/sqrt5 vs F2: first mismatch at n=1  [witness: -2 + 0*sqrt5 vs -2/5]
+  (e3) DIAGNOSTIC dressed (M-M')/sqrt5 vs Y_2hat.comp1: first mismatch at n=1  [witness: -58/5 + 0*sqrt5 vs -9]
+  (e3) DIAGNOSTIC dressed (M-M')/sqrt5 vs Y_2hat.comp2: first mismatch at n=1  [witness: -58/5 + 0*sqrt5 vs -10]
+  (e3) DIAGNOSTIC dressed (M+M') vs Y_2hat.comp1: first mismatch at n=0  [witness: 3 + 0*sqrt5 vs 1]
+  (e4) the freeness caveat: the kill is NOT a freeness artifact at the decisive
+       coefficients -- n=0 uses only V_0 = span(F1,F2) (dim 2, free by definition;
+       grade-0 factor phi^{+-2} exact) and n=1 uses only V_1 (gate-verified
+       distribution, cc2-agreed). No freeness assumption enters n<=1; the
+       mismatch is already decided there. Freeness first affects which higher
+       grades feed n>=2; it cannot repair the unit phi^{+-2} or the n=1 drift.
+
+== VERDICT (sealed vocabulary; two-outcome at every sub-check) ==
+  exact MATCH in any orientation (c = 1): False
+  MATCH after the sealed one-rational-constant freedom: False
+  match after a single ALGEBRAIC constant (diagnostic, outside the freedom): False
+  VERDICT: KILLED-AT-(iii)
+  gate failures in this cell: 0 
