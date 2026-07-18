@@ -1,0 +1,1003 @@
+{
+ "artifact": "eigen_distribution.json (THE STEP-(i) GATE ARTIFACT; cc2's independent derivation must match GATE_PRIMARY exactly)",
+ "prereg": "PREREG_W2.md sealed sha b4c9a6bb; cc cell step (i)",
+ "conventions": {
+  "A1": "[[2,1],[1,1]] = T S T^-1 S^-1 (the banked monodromy word, arc cellES)",
+  "sigma_T": "diag(1, zeta5), zeta5 = exp(2 pi i/5) (banked gate: f1 integer q-powers, f2 = q^{1/5}*integer stream)",
+  "sigma_S": "(2/sqrt5)[[sin(2pi/5), sin(pi/5)],[sin(pi/5), -sin(2pi/5)]] (real golden S-matrix; the honest slash sigma(S) differs by a global phase which CANCELS in the commutator)",
+  "sigma_A1": "sigma_T sigma_S sigma_T^-1 sigma_S^-1; order 10; det 1; trace = phi exactly; eigenvalues zeta10^{+-1}; numerically pinned to the arc's stored canonical matrix (< 1e-12)",
+  "V": "PRIMARY: V_k = C^2_{(F1,F2)} (x) M_k(Gamma(5)), weight-step grade k, dim 2(5k+1); W|V_k = sigma(A1) (x) Sym^{5k} sigma(A1) [M_k = Sym^{5k} span(f1,f2), banked arc T3]",
+  "eigenvalue_labels": "zeta10^t, t in Z/10, zeta10 = exp(i pi/5) = zeta20^2; classes t,-t pair into Q(sqrt5)-irreducible quadratics",
+  "galois": "PRIMARY = the trace-phi embedding (Yang-Lee side); conjugate seed = eigenvalues zeta10^{+-3} (trace 1-phi = -1/phi, the Fibonacci-unitary side); on classes: t -> 3t (mod 10)",
+  "grade_bound": "k = 0..40 bounds q^40 in Sym(V); the grade-0 piece contributes a constant factor"
+ },
+ "closed_form_law": "m_k(t) = 2k+1 if t = 5k+-1 (mod 10); m_k(t) = 2k if t = k+1 (mod 2) otherwise; m_k(t) = 0 if t = k (mod 2). trace(W|V_k) = (-1)^k phi.",
+ "GATE_PRIMARY": {
+  "0": {
+   "dim": 2,
+   "mult_by_zeta10_exponent": {
+    "1": 1,
+    "9": 1
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^1 * (x^2 - (1-phi)*x + 1)^0 * (x + 1)^0",
+   "distinct_classes": 2
+  },
+  "1": {
+   "dim": 12,
+   "mult_by_zeta10_exponent": {
+    "0": 2,
+    "2": 2,
+    "4": 3,
+    "6": 3,
+    "8": 2
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^3 * (x^2 + (1-phi)*x + 1)^2 * (x - 1)^2",
+   "distinct_classes": 5
+  },
+  "2": {
+   "dim": 22,
+   "mult_by_zeta10_exponent": {
+    "1": 5,
+    "3": 4,
+    "5": 4,
+    "7": 4,
+    "9": 5
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^5 * (x^2 - (1-phi)*x + 1)^4 * (x + 1)^4",
+   "distinct_classes": 5
+  },
+  "3": {
+   "dim": 32,
+   "mult_by_zeta10_exponent": {
+    "0": 6,
+    "2": 6,
+    "4": 7,
+    "6": 7,
+    "8": 6
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^7 * (x^2 + (1-phi)*x + 1)^6 * (x - 1)^6",
+   "distinct_classes": 5
+  },
+  "4": {
+   "dim": 42,
+   "mult_by_zeta10_exponent": {
+    "1": 9,
+    "3": 8,
+    "5": 8,
+    "7": 8,
+    "9": 9
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^9 * (x^2 - (1-phi)*x + 1)^8 * (x + 1)^8",
+   "distinct_classes": 5
+  },
+  "5": {
+   "dim": 52,
+   "mult_by_zeta10_exponent": {
+    "0": 10,
+    "2": 10,
+    "4": 11,
+    "6": 11,
+    "8": 10
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^11 * (x^2 + (1-phi)*x + 1)^10 * (x - 1)^10",
+   "distinct_classes": 5
+  },
+  "6": {
+   "dim": 62,
+   "mult_by_zeta10_exponent": {
+    "1": 13,
+    "3": 12,
+    "5": 12,
+    "7": 12,
+    "9": 13
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^13 * (x^2 - (1-phi)*x + 1)^12 * (x + 1)^12",
+   "distinct_classes": 5
+  },
+  "7": {
+   "dim": 72,
+   "mult_by_zeta10_exponent": {
+    "0": 14,
+    "2": 14,
+    "4": 15,
+    "6": 15,
+    "8": 14
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^15 * (x^2 + (1-phi)*x + 1)^14 * (x - 1)^14",
+   "distinct_classes": 5
+  },
+  "8": {
+   "dim": 82,
+   "mult_by_zeta10_exponent": {
+    "1": 17,
+    "3": 16,
+    "5": 16,
+    "7": 16,
+    "9": 17
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^17 * (x^2 - (1-phi)*x + 1)^16 * (x + 1)^16",
+   "distinct_classes": 5
+  },
+  "9": {
+   "dim": 92,
+   "mult_by_zeta10_exponent": {
+    "0": 18,
+    "2": 18,
+    "4": 19,
+    "6": 19,
+    "8": 18
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^19 * (x^2 + (1-phi)*x + 1)^18 * (x - 1)^18",
+   "distinct_classes": 5
+  },
+  "10": {
+   "dim": 102,
+   "mult_by_zeta10_exponent": {
+    "1": 21,
+    "3": 20,
+    "5": 20,
+    "7": 20,
+    "9": 21
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^21 * (x^2 - (1-phi)*x + 1)^20 * (x + 1)^20",
+   "distinct_classes": 5
+  },
+  "11": {
+   "dim": 112,
+   "mult_by_zeta10_exponent": {
+    "0": 22,
+    "2": 22,
+    "4": 23,
+    "6": 23,
+    "8": 22
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^23 * (x^2 + (1-phi)*x + 1)^22 * (x - 1)^22",
+   "distinct_classes": 5
+  },
+  "12": {
+   "dim": 122,
+   "mult_by_zeta10_exponent": {
+    "1": 25,
+    "3": 24,
+    "5": 24,
+    "7": 24,
+    "9": 25
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^25 * (x^2 - (1-phi)*x + 1)^24 * (x + 1)^24",
+   "distinct_classes": 5
+  },
+  "13": {
+   "dim": 132,
+   "mult_by_zeta10_exponent": {
+    "0": 26,
+    "2": 26,
+    "4": 27,
+    "6": 27,
+    "8": 26
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^27 * (x^2 + (1-phi)*x + 1)^26 * (x - 1)^26",
+   "distinct_classes": 5
+  },
+  "14": {
+   "dim": 142,
+   "mult_by_zeta10_exponent": {
+    "1": 29,
+    "3": 28,
+    "5": 28,
+    "7": 28,
+    "9": 29
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^29 * (x^2 - (1-phi)*x + 1)^28 * (x + 1)^28",
+   "distinct_classes": 5
+  },
+  "15": {
+   "dim": 152,
+   "mult_by_zeta10_exponent": {
+    "0": 30,
+    "2": 30,
+    "4": 31,
+    "6": 31,
+    "8": 30
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^31 * (x^2 + (1-phi)*x + 1)^30 * (x - 1)^30",
+   "distinct_classes": 5
+  },
+  "16": {
+   "dim": 162,
+   "mult_by_zeta10_exponent": {
+    "1": 33,
+    "3": 32,
+    "5": 32,
+    "7": 32,
+    "9": 33
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^33 * (x^2 - (1-phi)*x + 1)^32 * (x + 1)^32",
+   "distinct_classes": 5
+  },
+  "17": {
+   "dim": 172,
+   "mult_by_zeta10_exponent": {
+    "0": 34,
+    "2": 34,
+    "4": 35,
+    "6": 35,
+    "8": 34
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^35 * (x^2 + (1-phi)*x + 1)^34 * (x - 1)^34",
+   "distinct_classes": 5
+  },
+  "18": {
+   "dim": 182,
+   "mult_by_zeta10_exponent": {
+    "1": 37,
+    "3": 36,
+    "5": 36,
+    "7": 36,
+    "9": 37
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^37 * (x^2 - (1-phi)*x + 1)^36 * (x + 1)^36",
+   "distinct_classes": 5
+  },
+  "19": {
+   "dim": 192,
+   "mult_by_zeta10_exponent": {
+    "0": 38,
+    "2": 38,
+    "4": 39,
+    "6": 39,
+    "8": 38
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^39 * (x^2 + (1-phi)*x + 1)^38 * (x - 1)^38",
+   "distinct_classes": 5
+  },
+  "20": {
+   "dim": 202,
+   "mult_by_zeta10_exponent": {
+    "1": 41,
+    "3": 40,
+    "5": 40,
+    "7": 40,
+    "9": 41
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^41 * (x^2 - (1-phi)*x + 1)^40 * (x + 1)^40",
+   "distinct_classes": 5
+  },
+  "21": {
+   "dim": 212,
+   "mult_by_zeta10_exponent": {
+    "0": 42,
+    "2": 42,
+    "4": 43,
+    "6": 43,
+    "8": 42
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^43 * (x^2 + (1-phi)*x + 1)^42 * (x - 1)^42",
+   "distinct_classes": 5
+  },
+  "22": {
+   "dim": 222,
+   "mult_by_zeta10_exponent": {
+    "1": 45,
+    "3": 44,
+    "5": 44,
+    "7": 44,
+    "9": 45
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^45 * (x^2 - (1-phi)*x + 1)^44 * (x + 1)^44",
+   "distinct_classes": 5
+  },
+  "23": {
+   "dim": 232,
+   "mult_by_zeta10_exponent": {
+    "0": 46,
+    "2": 46,
+    "4": 47,
+    "6": 47,
+    "8": 46
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^47 * (x^2 + (1-phi)*x + 1)^46 * (x - 1)^46",
+   "distinct_classes": 5
+  },
+  "24": {
+   "dim": 242,
+   "mult_by_zeta10_exponent": {
+    "1": 49,
+    "3": 48,
+    "5": 48,
+    "7": 48,
+    "9": 49
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^49 * (x^2 - (1-phi)*x + 1)^48 * (x + 1)^48",
+   "distinct_classes": 5
+  },
+  "25": {
+   "dim": 252,
+   "mult_by_zeta10_exponent": {
+    "0": 50,
+    "2": 50,
+    "4": 51,
+    "6": 51,
+    "8": 50
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^51 * (x^2 + (1-phi)*x + 1)^50 * (x - 1)^50",
+   "distinct_classes": 5
+  },
+  "26": {
+   "dim": 262,
+   "mult_by_zeta10_exponent": {
+    "1": 53,
+    "3": 52,
+    "5": 52,
+    "7": 52,
+    "9": 53
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^53 * (x^2 - (1-phi)*x + 1)^52 * (x + 1)^52",
+   "distinct_classes": 5
+  },
+  "27": {
+   "dim": 272,
+   "mult_by_zeta10_exponent": {
+    "0": 54,
+    "2": 54,
+    "4": 55,
+    "6": 55,
+    "8": 54
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^55 * (x^2 + (1-phi)*x + 1)^54 * (x - 1)^54",
+   "distinct_classes": 5
+  },
+  "28": {
+   "dim": 282,
+   "mult_by_zeta10_exponent": {
+    "1": 57,
+    "3": 56,
+    "5": 56,
+    "7": 56,
+    "9": 57
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^57 * (x^2 - (1-phi)*x + 1)^56 * (x + 1)^56",
+   "distinct_classes": 5
+  },
+  "29": {
+   "dim": 292,
+   "mult_by_zeta10_exponent": {
+    "0": 58,
+    "2": 58,
+    "4": 59,
+    "6": 59,
+    "8": 58
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^59 * (x^2 + (1-phi)*x + 1)^58 * (x - 1)^58",
+   "distinct_classes": 5
+  },
+  "30": {
+   "dim": 302,
+   "mult_by_zeta10_exponent": {
+    "1": 61,
+    "3": 60,
+    "5": 60,
+    "7": 60,
+    "9": 61
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^61 * (x^2 - (1-phi)*x + 1)^60 * (x + 1)^60",
+   "distinct_classes": 5
+  },
+  "31": {
+   "dim": 312,
+   "mult_by_zeta10_exponent": {
+    "0": 62,
+    "2": 62,
+    "4": 63,
+    "6": 63,
+    "8": 62
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^63 * (x^2 + (1-phi)*x + 1)^62 * (x - 1)^62",
+   "distinct_classes": 5
+  },
+  "32": {
+   "dim": 322,
+   "mult_by_zeta10_exponent": {
+    "1": 65,
+    "3": 64,
+    "5": 64,
+    "7": 64,
+    "9": 65
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^65 * (x^2 - (1-phi)*x + 1)^64 * (x + 1)^64",
+   "distinct_classes": 5
+  },
+  "33": {
+   "dim": 332,
+   "mult_by_zeta10_exponent": {
+    "0": 66,
+    "2": 66,
+    "4": 67,
+    "6": 67,
+    "8": 66
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^67 * (x^2 + (1-phi)*x + 1)^66 * (x - 1)^66",
+   "distinct_classes": 5
+  },
+  "34": {
+   "dim": 342,
+   "mult_by_zeta10_exponent": {
+    "1": 69,
+    "3": 68,
+    "5": 68,
+    "7": 68,
+    "9": 69
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^69 * (x^2 - (1-phi)*x + 1)^68 * (x + 1)^68",
+   "distinct_classes": 5
+  },
+  "35": {
+   "dim": 352,
+   "mult_by_zeta10_exponent": {
+    "0": 70,
+    "2": 70,
+    "4": 71,
+    "6": 71,
+    "8": 70
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^71 * (x^2 + (1-phi)*x + 1)^70 * (x - 1)^70",
+   "distinct_classes": 5
+  },
+  "36": {
+   "dim": 362,
+   "mult_by_zeta10_exponent": {
+    "1": 73,
+    "3": 72,
+    "5": 72,
+    "7": 72,
+    "9": 73
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^73 * (x^2 - (1-phi)*x + 1)^72 * (x + 1)^72",
+   "distinct_classes": 5
+  },
+  "37": {
+   "dim": 372,
+   "mult_by_zeta10_exponent": {
+    "0": 74,
+    "2": 74,
+    "4": 75,
+    "6": 75,
+    "8": 74
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^75 * (x^2 + (1-phi)*x + 1)^74 * (x - 1)^74",
+   "distinct_classes": 5
+  },
+  "38": {
+   "dim": 382,
+   "mult_by_zeta10_exponent": {
+    "1": 77,
+    "3": 76,
+    "5": 76,
+    "7": 76,
+    "9": 77
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^77 * (x^2 - (1-phi)*x + 1)^76 * (x + 1)^76",
+   "distinct_classes": 5
+  },
+  "39": {
+   "dim": 392,
+   "mult_by_zeta10_exponent": {
+    "0": 78,
+    "2": 78,
+    "4": 79,
+    "6": 79,
+    "8": 78
+   },
+   "trace_Zphi": "-phi",
+   "charpoly_Qsqrt5": "(x^2 + phi*x + 1)^79 * (x^2 + (1-phi)*x + 1)^78 * (x - 1)^78",
+   "distinct_classes": 5
+  },
+  "40": {
+   "dim": 402,
+   "mult_by_zeta10_exponent": {
+    "1": 81,
+    "3": 80,
+    "5": 80,
+    "7": 80,
+    "9": 81
+   },
+   "trace_Zphi": "phi",
+   "charpoly_Qsqrt5": "(x^2 - phi*x + 1)^81 * (x^2 - (1-phi)*x + 1)^80 * (x + 1)^80",
+   "distinct_classes": 5
+  }
+ },
+ "CONTROL_weight_tower": {
+  "0": {
+   "dim": 1,
+   "mult_by_zeta10_exponent": {
+    "0": 1
+   },
+   "trace_Zphi": "1"
+  },
+  "1": {
+   "dim": 6,
+   "mult_by_zeta10_exponent": {
+    "1": 1,
+    "3": 1,
+    "5": 2,
+    "7": 1,
+    "9": 1
+   },
+   "trace_Zphi": "-1"
+  },
+  "2": {
+   "dim": 11,
+   "mult_by_zeta10_exponent": {
+    "0": 3,
+    "2": 2,
+    "4": 2,
+    "6": 2,
+    "8": 2
+   },
+   "trace_Zphi": "1"
+  },
+  "3": {
+   "dim": 16,
+   "mult_by_zeta10_exponent": {
+    "1": 3,
+    "3": 3,
+    "5": 4,
+    "7": 3,
+    "9": 3
+   },
+   "trace_Zphi": "-1"
+  },
+  "4": {
+   "dim": 21,
+   "mult_by_zeta10_exponent": {
+    "0": 5,
+    "2": 4,
+    "4": 4,
+    "6": 4,
+    "8": 4
+   },
+   "trace_Zphi": "1"
+  },
+  "5": {
+   "dim": 26,
+   "mult_by_zeta10_exponent": {
+    "1": 5,
+    "3": 5,
+    "5": 6,
+    "7": 5,
+    "9": 5
+   },
+   "trace_Zphi": "-1"
+  },
+  "6": {
+   "dim": 31,
+   "mult_by_zeta10_exponent": {
+    "0": 7,
+    "2": 6,
+    "4": 6,
+    "6": 6,
+    "8": 6
+   },
+   "trace_Zphi": "1"
+  },
+  "7": {
+   "dim": 36,
+   "mult_by_zeta10_exponent": {
+    "1": 7,
+    "3": 7,
+    "5": 8,
+    "7": 7,
+    "9": 7
+   },
+   "trace_Zphi": "-1"
+  },
+  "8": {
+   "dim": 41,
+   "mult_by_zeta10_exponent": {
+    "0": 9,
+    "2": 8,
+    "4": 8,
+    "6": 8,
+    "8": 8
+   },
+   "trace_Zphi": "1"
+  },
+  "9": {
+   "dim": 46,
+   "mult_by_zeta10_exponent": {
+    "1": 9,
+    "3": 9,
+    "5": 10,
+    "7": 9,
+    "9": 9
+   },
+   "trace_Zphi": "-1"
+  },
+  "10": {
+   "dim": 51,
+   "mult_by_zeta10_exponent": {
+    "0": 11,
+    "2": 10,
+    "4": 10,
+    "6": 10,
+    "8": 10
+   },
+   "trace_Zphi": "1"
+  },
+  "11": {
+   "dim": 56,
+   "mult_by_zeta10_exponent": {
+    "1": 11,
+    "3": 11,
+    "5": 12,
+    "7": 11,
+    "9": 11
+   },
+   "trace_Zphi": "-1"
+  },
+  "12": {
+   "dim": 61,
+   "mult_by_zeta10_exponent": {
+    "0": 13,
+    "2": 12,
+    "4": 12,
+    "6": 12,
+    "8": 12
+   },
+   "trace_Zphi": "1"
+  },
+  "13": {
+   "dim": 66,
+   "mult_by_zeta10_exponent": {
+    "1": 13,
+    "3": 13,
+    "5": 14,
+    "7": 13,
+    "9": 13
+   },
+   "trace_Zphi": "-1"
+  },
+  "14": {
+   "dim": 71,
+   "mult_by_zeta10_exponent": {
+    "0": 15,
+    "2": 14,
+    "4": 14,
+    "6": 14,
+    "8": 14
+   },
+   "trace_Zphi": "1"
+  },
+  "15": {
+   "dim": 76,
+   "mult_by_zeta10_exponent": {
+    "1": 15,
+    "3": 15,
+    "5": 16,
+    "7": 15,
+    "9": 15
+   },
+   "trace_Zphi": "-1"
+  },
+  "16": {
+   "dim": 81,
+   "mult_by_zeta10_exponent": {
+    "0": 17,
+    "2": 16,
+    "4": 16,
+    "6": 16,
+    "8": 16
+   },
+   "trace_Zphi": "1"
+  },
+  "17": {
+   "dim": 86,
+   "mult_by_zeta10_exponent": {
+    "1": 17,
+    "3": 17,
+    "5": 18,
+    "7": 17,
+    "9": 17
+   },
+   "trace_Zphi": "-1"
+  },
+  "18": {
+   "dim": 91,
+   "mult_by_zeta10_exponent": {
+    "0": 19,
+    "2": 18,
+    "4": 18,
+    "6": 18,
+    "8": 18
+   },
+   "trace_Zphi": "1"
+  },
+  "19": {
+   "dim": 96,
+   "mult_by_zeta10_exponent": {
+    "1": 19,
+    "3": 19,
+    "5": 20,
+    "7": 19,
+    "9": 19
+   },
+   "trace_Zphi": "-1"
+  },
+  "20": {
+   "dim": 101,
+   "mult_by_zeta10_exponent": {
+    "0": 21,
+    "2": 20,
+    "4": 20,
+    "6": 20,
+    "8": 20
+   },
+   "trace_Zphi": "1"
+  },
+  "21": {
+   "dim": 106,
+   "mult_by_zeta10_exponent": {
+    "1": 21,
+    "3": 21,
+    "5": 22,
+    "7": 21,
+    "9": 21
+   },
+   "trace_Zphi": "-1"
+  },
+  "22": {
+   "dim": 111,
+   "mult_by_zeta10_exponent": {
+    "0": 23,
+    "2": 22,
+    "4": 22,
+    "6": 22,
+    "8": 22
+   },
+   "trace_Zphi": "1"
+  },
+  "23": {
+   "dim": 116,
+   "mult_by_zeta10_exponent": {
+    "1": 23,
+    "3": 23,
+    "5": 24,
+    "7": 23,
+    "9": 23
+   },
+   "trace_Zphi": "-1"
+  },
+  "24": {
+   "dim": 121,
+   "mult_by_zeta10_exponent": {
+    "0": 25,
+    "2": 24,
+    "4": 24,
+    "6": 24,
+    "8": 24
+   },
+   "trace_Zphi": "1"
+  },
+  "25": {
+   "dim": 126,
+   "mult_by_zeta10_exponent": {
+    "1": 25,
+    "3": 25,
+    "5": 26,
+    "7": 25,
+    "9": 25
+   },
+   "trace_Zphi": "-1"
+  },
+  "26": {
+   "dim": 131,
+   "mult_by_zeta10_exponent": {
+    "0": 27,
+    "2": 26,
+    "4": 26,
+    "6": 26,
+    "8": 26
+   },
+   "trace_Zphi": "1"
+  },
+  "27": {
+   "dim": 136,
+   "mult_by_zeta10_exponent": {
+    "1": 27,
+    "3": 27,
+    "5": 28,
+    "7": 27,
+    "9": 27
+   },
+   "trace_Zphi": "-1"
+  },
+  "28": {
+   "dim": 141,
+   "mult_by_zeta10_exponent": {
+    "0": 29,
+    "2": 28,
+    "4": 28,
+    "6": 28,
+    "8": 28
+   },
+   "trace_Zphi": "1"
+  },
+  "29": {
+   "dim": 146,
+   "mult_by_zeta10_exponent": {
+    "1": 29,
+    "3": 29,
+    "5": 30,
+    "7": 29,
+    "9": 29
+   },
+   "trace_Zphi": "-1"
+  },
+  "30": {
+   "dim": 151,
+   "mult_by_zeta10_exponent": {
+    "0": 31,
+    "2": 30,
+    "4": 30,
+    "6": 30,
+    "8": 30
+   },
+   "trace_Zphi": "1"
+  },
+  "31": {
+   "dim": 156,
+   "mult_by_zeta10_exponent": {
+    "1": 31,
+    "3": 31,
+    "5": 32,
+    "7": 31,
+    "9": 31
+   },
+   "trace_Zphi": "-1"
+  },
+  "32": {
+   "dim": 161,
+   "mult_by_zeta10_exponent": {
+    "0": 33,
+    "2": 32,
+    "4": 32,
+    "6": 32,
+    "8": 32
+   },
+   "trace_Zphi": "1"
+  },
+  "33": {
+   "dim": 166,
+   "mult_by_zeta10_exponent": {
+    "1": 33,
+    "3": 33,
+    "5": 34,
+    "7": 33,
+    "9": 33
+   },
+   "trace_Zphi": "-1"
+  },
+  "34": {
+   "dim": 171,
+   "mult_by_zeta10_exponent": {
+    "0": 35,
+    "2": 34,
+    "4": 34,
+    "6": 34,
+    "8": 34
+   },
+   "trace_Zphi": "1"
+  },
+  "35": {
+   "dim": 176,
+   "mult_by_zeta10_exponent": {
+    "1": 35,
+    "3": 35,
+    "5": 36,
+    "7": 35,
+    "9": 35
+   },
+   "trace_Zphi": "-1"
+  },
+  "36": {
+   "dim": 181,
+   "mult_by_zeta10_exponent": {
+    "0": 37,
+    "2": 36,
+    "4": 36,
+    "6": 36,
+    "8": 36
+   },
+   "trace_Zphi": "1"
+  },
+  "37": {
+   "dim": 186,
+   "mult_by_zeta10_exponent": {
+    "1": 37,
+    "3": 37,
+    "5": 38,
+    "7": 37,
+    "9": 37
+   },
+   "trace_Zphi": "-1"
+  },
+  "38": {
+   "dim": 191,
+   "mult_by_zeta10_exponent": {
+    "0": 39,
+    "2": 38,
+    "4": 38,
+    "6": 38,
+    "8": 38
+   },
+   "trace_Zphi": "1"
+  },
+  "39": {
+   "dim": 196,
+   "mult_by_zeta10_exponent": {
+    "1": 39,
+    "3": 39,
+    "5": 40,
+    "7": 39,
+    "9": 39
+   },
+   "trace_Zphi": "-1"
+  },
+  "40": {
+   "dim": 201,
+   "mult_by_zeta10_exponent": {
+    "0": 41,
+    "2": 40,
+    "4": 40,
+    "6": 40,
+    "8": 40
+   },
+   "trace_Zphi": "1"
+  }
+ },
+ "verifications": [
+  "matrix-level exact DFT class recovery at Sym^m m in {5,10,15,20} and W|V_k k in {0,1,2,3}",
+  "trace law (-1)^k phi all k <= 40 (cyclotomic exact) + Chebyshev p_{5k}(phi) = (-1)^k in Z[phi]",
+  "dim and t <-> -t symmetry all k <= 40",
+  "numeric pin of sigma(A1) to the arc's stored 40-digit canonical matrix",
+  "independent sympy engine: commutator trace/det exact"
+ ]
+}

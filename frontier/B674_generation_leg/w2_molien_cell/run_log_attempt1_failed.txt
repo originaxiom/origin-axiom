@@ -1,0 +1,84 @@
+== W2 MOLIEN CELL (cc seat) -- prereg b4c9a6bb; vacuity gate + step (i) + step (ii) only ==
+
+== PHASE 0: reconstruct sigma(A1) exactly (the banked convention, arc cellES) ==
+  [PASS] sigma(S)^2 = I (involution => sigma(S)^-1 = sigma(S))
+  [PASS] sigma(S) symmetric
+  [PASS] det sigma(S) = -1
+  [PASS] sigma(T) sigma(T)^-1 = I
+  [PASS] det sigma(A1) = 1
+  [PASS] tr sigma(A1) = phi EXACT (the golden-rotation law; base-grade self-check)
+  [PASS] sigma(A1)^5 = -I
+  [PASS] order of sigma(A1) = 10 exactly
+  [PASS] char poly = x^2 - phi*x + 1  (tr = phi, det = 1)
+  [PASS] zeta10^{+1} is a root of x^2 - phi*x + 1
+  [PASS] zeta10^{-1} is a root of x^2 - phi*x + 1
+  [PASS] phi^2 = phi + 1 ; sqrt5^2 = 5
+  [PASS] zeta10^{+3} is a root of the conjugate poly x^2 - (1-phi)*x + 1
+  [PASS] zeta10^{-3} is a root of the conjugate poly x^2 - (1-phi)*x + 1
+  [PASS] 2cos(pi/5) = phi and 2cos(3pi/5) = 1-phi (exact)
+  [PASS] numeric pin: exact sigma(A1) vs arc's stored canonical matrix, max dev < 1e-12 (got 2.48e-16)
+  [PASS] arc's banked recognition reproduced: order 10, angle pi/5, trace 0+1*phi
+  [PASS] sympy second engine: tr(commutator) - phi == 0 exactly
+  [PASS] sympy second engine: det(commutator) - 1 == 0 exactly
+  [PASS] sympy second engine: entrywise EXACT agreement with the Q(zeta20) engine
+
+  sigma(A1) EXACT over Q(zeta20)  [zeta = exp(i pi/10)]:
+    row 0: [['2/5', '0', '1/5', '0', '1/5', '0', '-3/5', '0'], ['-1/5', '0', '2/5', '0', '2/5', '0', '-1/5', '0']]
+    row 1: [['-1/5', '0', '2/5', '0', '-3/5', '0', '4/5', '0'], ['3/5', '0', '-1/5', '0', '4/5', '0', '-2/5', '0']]
+  eigenvalues: zeta10^{+1}, zeta10^{-1}  (zeta10 = exp(i pi/5)); trace = phi; order 10
+
+== VACUITY GATE (runs first, per the sealed prereg) ==
+  W scalar on V_k  <=>  the eigenvalue distribution of W|V_k has ONE occupied class.
+  Matrix-level witness (k <= 3): W_k - W_k[0,0]*I != 0; distribution-level for all k <= 40.
+  [PASS] matrix-level: W|V_k non-scalar for k = 0,1,2,3
+  [PASS] distribution-level: W|V_k NON-CENTRAL on EVERY graded piece k = 0..40
+  VACUITY VERDICT: PROCEED (W non-central on every graded piece; no DESIGN-KILL)
+
+== STEP (i): the eigenvalue distribution of W on the graded pieces of V ==
+   exact over Q(sqrt5) (classes and multiplicities in zeta10-exponents), k = 0..40
+   (grades k <= 40 bound q^40 in Sym(V): a part of grade k >= 41 cannot touch q^{<=40};
+    the grade-0 piece contributes a constant factor, see step (ii))
+  [PASS] dim V_k = 2(5k+1) reproduced by the distribution, all k
+  [PASS] m_k(t) = m_k(-t) (Galois-real: coefficients land in Q(sqrt5)), all k
+  [PASS] trace law tr(W|V_k) = (-1)^k * phi EXACT for all k = 0..40
+  [PASS] CONTROL trace law tr(W|M_k) = (-1)^k EXACT for all k (arc's banked law reproduced)
+  [PASS] Chebyshev in Z[phi]: tr Sym^{5k} sigma = p_{5k}(phi) = (-1)^k for all k <= 40
+  [PASS] matrix-level DFT class recovery == enumeration for Sym^m, m in {5,10,15,20}
+  [PASS] matrix-level DFT class recovery == enumeration for W|V_k, k in {0,1,2,3}
+  [PASS] closed-form law: m_k(t) = 2k+1 at t = 5k+-1 (mod 10), 2k at other t = k+1 (mod 2), 0 else
+  [PASS] char-poly factorization over Q(sqrt5) consistent with the distribution, all k
+  [PASS] pair identities: 2cos(2pi/5) = phi-1, 2cos(4pi/5) = -phi (exact)
+
+  THE DISTRIBUTION (PRIMARY V; eigenvalues zeta10^t, zeta10 = exp(i pi/5)):
+   k even: t in {1,9}: 2k+1 ; t in {3,5,7}: 2k ; t even: 0     trace = +phi
+   k odd : t in {4,6}: 2k+1 ; t in {0,2,8}: 2k ; t odd: 0      trace = -phi
+  CONTROL (M_k tower): 5k+-... : t = 5k (mod 10): k+1 ; other t = k (mod 2): k ; trace = (-1)^k
+  artifacts written: eigen_distribution.json (GATE), step_i_table.md, vacuity_gate.md
+
+== STEP (ii): THE SUPPORT PRE-TEST (first falsifier) ==
+  Molien series (per Galois conjugate): M(q) = prod_{k>=0} prod_t (1 - zeta10^t q^k)^{-m_k(t)}
+  Formed SYMBOLICALLY from the step-(i) data; NO coefficient is expanded or compared.
+  [PASS] (ii-a) m_0(0) = 0: no unit eigenvalue at grade 0 => the Molien product is well-defined
+  [FAIL] (ii-a) grade-0 factor EXACT: det(I - W|V_0) = 2-phi and 1/(2-phi) = 1+phi = phi^2  [M(0) = phi^2; conjugate M'(0) = 2-phi = (1-phi)^2]
+  [PASS] (ii-a) doublet non-collapse witness at grade 0: M(0) - M'(0) = sqrt5 != 0
+  [PASS] (ii-b) Molien q-support is INTEGER (weight-step grading; the reduced side of the convention)  [support classes mod 1 of the undressed product: {0}]
+  [PASS] (ii-c) eta^{48/5} prefactor carries q^{2/5} exactly (48/5 * 1/24 = 2/5)
+  [PASS] (ii-c) per-component intrinsic exponents nu = (0, 1/5) read from sigma(T) = diag(1, zeta5)
+  [PASS] (ii-c) target class gap 3/5 - 2/5 = 1/5 == the vvmf T-exponent gap (could have failed)
+  [PASS] (ii-c) REQUIRED LANDING: dressed support classes mod 1 = {2/5, 3/5}  [dressed = (2/5 + 0, 2/5 + 1/5) = (2/5, 3/5); each component single-class]
+  [PASS] (ii-c) both classes ATTAINED (grade-0 constants phi^2, (1-phi)^2 nonzero)
+  [PASS] (ii-d) conj(distribution) == conjugate-seed distribution via t -> 3t (all k <= 40)
+  [PASS] (ii-d) lift-independence: t -> 7t gives the same multisets (m_k(t) = m_k(-t))
+  [PASS] (ii-d) doublet genuinely TWO-element: conjugate distribution differs  [witness k=0: classes [1, 9] vs [3, 7]; grade-0 values phi^2 vs (1-phi)^2, gap sqrt5]
+  [PASS] (ii-d) involution: swap^2 = id (3*3 = 9 = -1 mod 10 and m_k(-t) = m_k(t))
+  [PASS] (ii-d) swap map compatible with the per-component classes 2/5 <-> 3/5
+
+  STEP (ii) VERDICT: KILLED-AT-(ii)
+  artifact written: step_ii_support.md
+
+== CELL SUMMARY ==
+  VACUITY GATE: PROCEED (W non-central on every graded piece; no DESIGN-KILL)
+  STEP (i): distribution banked, k = 0..40 (gate artifact eigen_distribution.json)
+  STEP (ii): KILLED-AT-(ii)
+  STEP (iii): LOCKED (pending the cc2 input-verification gate)
+  total gate failures: 1
