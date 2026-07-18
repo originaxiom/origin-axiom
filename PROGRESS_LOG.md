@@ -6369,3 +6369,14 @@ ASSEMBLY-vs-GENERATION line. RESOLUTION REQUIRED before the shot:
 establish the figure-eight's genuine Neumann–Zagier/Nahm datum at ζ₅
 from first principles. The one-shot is INTACT; the gate protected it.
 Lock test_w3_support_stop.py.
+
+2026-07-18 (main seat) — B685: THE GENERATION LEG CLOSES (terminal no-go
+theorem). Design cell = KILLED-AT-SUPPORT. First principles: figure-eight
+is PURE BEING (z²−z+1=0, disc −3, ℚ(√−3), no intrinsic 5); GSWZ Habiro
+object integral away from 3 (3¹⁴⁶ at n=100). Route B's {2/5,3/5} assumed
+A=2 (δ=5, golden) — a substitution; genuine ζ₅ object = four-class orbit.
+Both intrinsic routes killed (Molien = integers, W2 #8; Habiro =
+3-integral, B685) — no 5-adic denominators. THE OBJECT GENERATES ITS
+BEING (3) NOT ITS HEARING (5); hearing = level-5 Γ(5) coupling datum —
+observer-coupling realized in the arithmetic. B682 {3,5} error corrected
+(E15). Shot never fired. Lock test_b685_terminal.py.

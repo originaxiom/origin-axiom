@@ -24,13 +24,14 @@ needed; cc2's 5₂ run will corroborate. NOT banked; the pre-registered
 E₆-structural test can still be run but the individual-number tower is
 closed.
 
-## THE REAL SIGNAL — the symmetrized series (GSWZ eq (2))
+## [CORRECTED B685] the symmetrized series (GSWZ eq (2)) is PURE-3, not {3,5}
 
 The object GSWZ actually build the Habiro ring around is the
 SYMMETRIZED series Φ(h)Φ(−h) (q = e^h):
   Φ(h)Φ(−h) = 3^{−1/2}(1 − ⅓(q−1)² + ⅓(q−1)³ − ⅘(q−1)⁴ − ⅕(q−1)⁵ + …)
-The correction denominators are **{3, 3, 5, 5} — the being prime and
-the hearing prime, and NOTHING ELSE.** The factorial/all-primes noise
+The correction denominators are **3³,3³,3⁵,3⁵ — POWERS OF 3 (integral away from 3; 3¹⁴⁶ at n=100).
+**CORRECTED (B685): PURE BEING, not {3,5}; B682 misread the EXPONENTS
+3,5 as bases. The object carries NO hearing (5).** The factorial/all-primes noise
 of Φ(h) CANCELS under symmetrization; {3, 5} SURVIVES. This is signal,
 not base-rate: the being and hearing primes are exactly what the
 holomorphic-blocks pairing leaves standing, and the 5-denominators

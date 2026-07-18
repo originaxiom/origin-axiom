@@ -13872,6 +13872,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B685": {
+   "slug": "generation terminal",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B672",
+    "B682",
+    "B683"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
