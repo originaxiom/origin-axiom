@@ -144,3 +144,5 @@ hash-first status.*
 | frontier/B655_beta_adjudication/PREREGISTRATION.md | fcc8cb8b | 48a9df8 | 1 | yes |
 
 *Totals: 132 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+
+| PREREG_W2 (the Molien + input-verification cells, frozen base) | frontier/B674_generation_leg/PREREG_W2.md | b4c9a6bb | 2026-07-18 | sealed BEFORE any step ran; cc2 cross-check as-received = 450608c5 |

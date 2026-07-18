@@ -6050,3 +6050,14 @@ twice independently); golden 1/φ own-channel signature exact;
 structured, not disc-monotone. 1.785 at (10,8) unidentified — hint
 row. engine_v7 O(N⁵) upstream patch registered as a priced door.
 Locks tests/test_b678_d4_annex.py.
+
+2026-07-18 (main seat) — PREREG_W2 SEALED (frozen base, b4c9a6bb):
+cc2's cross-check (450608c5) adopted in full — (c) the two-route law
+(flat objects excluded together; LAW_MAP row); (b) route (b) collapses
+into route (a) (no skein-side finite-order W — verified: hyperbolic on
+slopes, irrational fixed points; the multiplier system is the only
+source of finiteness) ⇒ ONE design point, one cell per seat; (a) the
+per-component Yang–Lee η-dressing + component-swap prediction folded
+into step (ii). Vacuity gate first; step (iii) locked behind cc2's
+independent eigenvalue derivation. The Molien cell launches on this
+seat (steps i–ii only until the gate).

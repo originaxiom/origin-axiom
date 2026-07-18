@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — PREREG_W2 sealed: the generation leg's one-point design
+
+- The design exchange converged in one day: the two-route law (flat
+  objects excluded together, both geometries, same growth reason — a
+  LAW_MAP design theorem), the route collapse (no skein-side finite-order
+  graded W; the exponentiated candidate is unique), and the sealed
+  two-cell structure (cc: Molien steps i-iii; cc2: independent eigenvalue
+  derivation as the gate; vacuity check first; step iii locked until the
+  gate agrees exactly). Frozen base b4c9a6bb; cross-check as-received
+  450608c5.
+
 ## 2026-07-18 — B678: the D4 annex banked (the full 8x12 ladder table)
 
 - cc2's annex verified on this seat from the raw MERGED json: NO GROWTH in
