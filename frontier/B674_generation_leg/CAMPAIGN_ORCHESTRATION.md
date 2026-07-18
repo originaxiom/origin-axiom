@@ -52,8 +52,11 @@ cc2+chat1 literature half; verify 1/(2φ) as a GSWZ special value
 [CLEAN-CONTEXT RESET: integrate loop 6 + loop 7 packets + a state
 snapshot; open the design session on fresh context.]
 
-PRECONDITION TO PHASE 1 (cc2's sharpening S2 — HARD GATE, must run
-BEFORE the prereg names the candidate): the BLOCK-VACUITY DERIVATION.
+PRECONDITION TO PHASE 1 (cc2's sharpening S2 — HARD GATE): the
+BLOCK-VACUITY DERIVATION. **CLEARED (main seat, BLOCK_VACUITY_GATE.md):
+the six blocks are independent — six distinct B581 torsions + six
+distinct Casimirs m(m+1); the candidate FORM is confirmed
+block-decomposed Φ·τΦ. cc2's independent S2 corroborates on landing.**
 Verify the six principal-SL₂→E₆ blocks (spin m_i, exponents 1,4,5,7,8,11;
 dims 3,9,11,15,17,23) contribute LINEARLY INDEPENDENT subseries to the
 perturbative expansion — the higher Casimirs must enter distinctly — or

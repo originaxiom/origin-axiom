@@ -17,6 +17,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — the block-vacuity gate CLEARED (design cycle precondition)
+
+- Under the owner's GO: cc2's S2 precondition to the Phase-1 seal is
+  cleared from banked data. The six principal-SL2->E6 blocks are linearly
+  independent -- six DISTINCT B581 torsions + six distinct Casimirs m(m+1)
+  make the higher-loop ratios m-dependent, so no common series with block
+  scalars reproduces all orders (not scalar rescalings). The block-vacuity
+  data IS the B581 torsion spectrum; the sign law (-1)^m means the blocks
+  are theta-graded. The candidate form is confirmed block-decomposed
+  Phi.tau-Phi. The one-shot itself stays gated on Stage-1 completion + the
+  two-seat coefficient gate + the fresh session.
+
 ## 2026-07-18 — B683: the arithmetic-ledger lane (theorem + two firewalls)
 
 - L1: the divided-power law's EQUALITY is now a THEOREM, unconditional for

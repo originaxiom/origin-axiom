@@ -6312,3 +6312,16 @@ rational×L′(E₁₅,0) — the Mahler measure is the being-character K₃ vol
 NOT the elliptic K₂; the conductor-15 curve and the volume are different
 arithmetic objects (do not unify) — new LAW_MAP row. Locks
 test_b683_ledger.py.
+
+2026-07-18 (main seat) — THE BLOCK-VACUITY GATE CLEARED (under the
+owner's GO; cc2's S2 precondition, main-seat independent route). The
+six principal-SL₂→E₆ blocks are LINEARLY INDEPENDENT: six DISTINCT
+B581 torsions (−3, 260736, −165110400, −3257341296168960,
+100636318520821923840, ≈−6.9e36) + six distinct Casimirs m(m+1)
+={2,20,30,56,72,132} ⇒ loop-L ratios m-dependent ⇒ not scalar
+rescalings at any order. HYPOTHESIS CONFIRMED: the block-vacuity data
+IS the B581 torsion spectrum; the sign law (−1)^m means the blocks are
+θ-GRADED, not merely independent. Candidate FORM confirmed:
+block-decomposed Φ·τΦ. The GO cleared the precondition; the one-shot
+still gated on Stage-1 completion + the two-seat coefficient gate +
+fresh session. Lock test_block_vacuity.py.
