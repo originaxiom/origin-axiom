@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B698 Leg A: the meeting probed (analytic) = a product with a ℤ/2 residue
+
+- The level-15 meeting is FACTORED, not entangled: Flath's theorem makes
+  the newform factor (π=⊗π_v); PSLQ + base-rate find no coupling. S067
+  row-2 falsified structurally.
+- One new invariant: genus-theory ℤ/2 = Cl(ℚ(√−15)) (both hands h=1).
+- K₃/K₂ split (PSLQ): the figure-eight's Mahler measure is the BEING K₃
+  regulator, independent of the meeting's K₂. Conductor-15 curve = prior
+  art (Borot–Eynard); the 3×5 reading NOVEL. Physics side empty. Lock
+  test_b698 (4/4). Leg B firewalled, pending the frontier-scientist read.
+
+---
+
 ## 2026-07-18 — Review 23 follow-through: §6 QA + R23-4/5/6 closed
 
 - cc2's §6 theorem-inventory pass (28 keep / 8 downgrade) verified (8/8

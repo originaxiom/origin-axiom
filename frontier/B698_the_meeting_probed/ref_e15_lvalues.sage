@@ -1,0 +1,12 @@
+for lbl in ['15a8','15a1']:
+    E=EllipticCurve(lbl)
+    L=E.lseries()
+    print("--- %s ---"%lbl)
+    print("  ainvs:", E.ainvs(), " j=", E.j_invariant(), " N=", E.conductor())
+    print("  rank=", E.rank(), " torsion=", E.torsion_subgroup().order(), " w=", E.root_number())
+    print("  Omega_real=", E.period_lattice().omega().n(30))
+    print("  L(E,1)=", L(1).n(30))
+    print("  L(E,2)=", L(2).n(30))
+    Ld=L.dokchitser()
+    print("  Lprime(E,0)=", Ld.derivative(0,1).n(30))
+    print("  Tamagawa=", E.tamagawa_product(), " a3,a5=", E.ap(3), E.ap(5))

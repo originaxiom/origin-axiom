@@ -157,3 +157,5 @@ hash-first status.*
 | PREREG_W3_RUN (THE DESIGN CELL — frozen base, the one sealed shot) | frontier/B674_generation_leg/PREREG_W3_RUN.md | 83c50a35 | 2026-07-18 | sealed under the owner's FULL GO before any coefficient; model/session-portable; two frozen freedoms (√−δ sign; ε up to c-th); two-seat gate; produce {2/5,3/5} |
 
 | VERIFY-M prereg (cc2-seat; the two no-go replications) | (cc2 seat-work, not banked in main) | 146da991 (cross-ref only) | 2026-07-18 | R23-6: cc2's independent-replication prereg; its hash + RESULTS traveled to main (docs/dossiers/verify_m_artifacts/), the prereg body lives in the cc2 seat |
+
+| B698 Leg A PREREG (the meeting, analytic side, two-outcome + base-rate/convention gates) | frontier/B698_the_meeting_probed/PREREG_LEG_A.md | 1e51ae30 | 2026-07-18 | sealed BEFORE the verdict; outcome = FACTORED (a product with a Z/2 residue) |

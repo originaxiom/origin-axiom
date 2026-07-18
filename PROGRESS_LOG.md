@@ -6643,3 +6643,23 @@ program-original pieces (vector-pairing saturation; divided-power law
 B683, GSWZ-gate-first); B691 = a dossier theorem not a paper; firewall the
 B685 no-go from a positive-paper dress. cc2's dossier chapters (§3, §6,
 §8) now all banked; the Track C summit dossier is complete.
+
+## 2026-07-18 — B698 Leg A: THE MEETING, PROBED (analytic side) = a product with a ℤ/2 residue
+
+Owner "go FULL ON for 2 and 3, very informed." Leg A (the level-15
+meeting's analytic content, S067 row 2) computed + banked, two deep
+literature sweeps grounding it. VERDICT (sealed prereg 1e51ae30): FACTORED.
+(1) No analytic coupling — Flath's tensor-product theorem makes π=⊗π_v
+factor by construction (W₃,W₅ commute, L=Euler product); base-rate control
++ PSLQ(60-dig) find nothing special. S067 row-2 "entanglement" reading
+falsified structurally. (2) The meeting's ONE new invariant is a genus-
+theory ℤ/2: h(ℚ(√−15))=2 vs h(ℚ(√−3))=h(ℚ(√5))=1 — the 2-rank residue of
+both primes present, landing on the program's orientation/ℤ/2 spine.
+(3) K₃/K₂ split (PSLQ-verified): the figure-eight's own Mahler measure =
+the BEING hand's K₃ regulator L(χ₋₃,2)=Vol/π, arithmetically independent
+of the meeting's K₂ L'(15a,0)=m(Deninger's X₀(15) curve) — same isogeny
+class, different curves/K-groups. Prior art: the conductor-15 curve =
+Borot–Eynard 2015; the 3×5 bifocal reading NOVEL/NEEDS-SPECIALIST. Physics
+side EMPTY (figure-eight is the "3" side only; no conductor-15 in physics).
+Lock test_b698 (pyenv, 4/4). Leg B (firewalled interface) pending the
+frontier-scientist reading (Turok et al. — owner's "later").
