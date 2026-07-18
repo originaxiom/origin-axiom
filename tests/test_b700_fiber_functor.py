@@ -72,3 +72,28 @@ def test_cell2_three_ambiguities_are_V4():
     # the group law: being * hearing = meeting  (and the disc law (-3)*(5) = -15)
     assert mul(being, hearing) == meeting
     assert (-3) * 5 == -15
+
+
+def test_cell4_second_stage_torsor_PSL27():
+    """E6 level-2 stage: PSL(2,7)'s two 3-dim irreps form a Gal(Q(sqrt-7)/Q)=Z/2
+    torsor (simply transitive), structurally identical to the golden case."""
+    z = sp.symbols('z')                                # zeta_7
+    cyc7 = sum(z**k for k in range(7))                 # 1+z+...+z^6
+    def red7(e):
+        return sp.expand(sp.Poly(sp.expand(e), z).rem(sp.Poly(cyc7, z)).as_expr())
+    # the two 3-dim irreps of PSL(2,7) (sage-verified rows, in Q(zeta7))
+    rA = [3, 0, -z**4-z**2-z-1, z**4+z**2+z, -1, 1]
+    rB = [3, 0, z**4+z**2+z, -z**4-z**2-z-1, -1, 1]
+    def sigma(e):                                      # zeta7 -> zeta7^3 (non-residue): negates sqrt-7
+        return red7(sp.sympify(e).subs(z, z**3)) if not isinstance(e, int) else e
+    tA = [sigma(v) for v in rA]
+    Bred = [red7(sp.sympify(v)) for v in rB]
+    Ared = [red7(sp.sympify(v)) for v in rA]
+    assert tA == Bred, "sigma must swap the two 3-dim irreps (the torsor)"
+    assert tA != Ared, "sigma must NOT fix A (no Galois-fixed shadow irrep)"
+    # sqrt-7 as the quadratic Gauss sum, squares to -7 (the quadratic subfield of Q(zeta7))
+    gauss = sum(z**a for a in (1, 2, 4)) - sum(z**a for a in (3, 5, 6))
+    assert red7(gauss**2) == -7
+    # principle: golden field disc 5 (p=5, 5=1 mod4), E6 field disc -7 (p=7, 7=3 mod4)
+    for p, star in [(5, 5), (7, -7)]:
+        assert star == ((-1)**((p-1)//2)) * p          # p* = quadratic-subfield disc of Q(zeta_p)

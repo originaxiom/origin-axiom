@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B700 cell 4: the fiber-functor torsor is stage-uniform
+
+- E6 level-2 stage (PSL(2,7), D=3): two 3-dim irreps, field exactly
+  Q(sqrt-7), simply-transitive Z/2 torsor - identical to golden. The
+  fiber-functor field = quadratic subfield of Q(zeta_p), p=shadow prime
+  (golden 5->Q(sqrt5), E6 7->Q(sqrt-7)). Stage-uniform => upgrades the
+  K020-in-ear PLACEMENT toward a theorem. Q(sqrt-7) answers S041/H32.
+  Lock 4/4. Prereg 7323661c.
+
+---
+
 ## 2026-07-19 - B700 cell 2: the three measurement ambiguities are V4
 
 - The golden (cell 1), being (sigma*, B638) and meeting (B699) Z/2's are

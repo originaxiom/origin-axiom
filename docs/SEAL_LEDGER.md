@@ -165,3 +165,5 @@ hash-first status.*
 | B700 cell 1 PREREG (the golden measurement torsor) | frontier/B700_fiber_functor/PREREG_CELL1.md | 1bbdb15b | 2026-07-19 | sealed before the verdict; outcome = TORSOR (measurement = fiber functor, ambiguity = Gal(Q(sqrt5)/Q)=Z/2) |
 
 | B700 cell 2 PREREG (the Z/2 uniformity) | frontier/B700_fiber_functor/PREREG_CELL2.md | 060aaaee | 2026-07-19 | sealed before the verdict; outcome = V4 (the 3 ambiguities are the 3 involutions of Gal(Q(sqrt-3,sqrt5)/Q); being*hearing=meeting) |
+
+| B700 cell 4 PREREG (the second-stage torsor) | frontier/B700_fiber_functor/PREREG_CELL4.md | 7323661c | 2026-07-19 | sealed before the verdict; outcome = STAGE-UNIFORM (PSL(2,7) two 3-dim irreps, field Q(sqrt-7), simply-transitive Z/2 torsor; fiber-functor field = quad subfield of Q(zeta_p)) |

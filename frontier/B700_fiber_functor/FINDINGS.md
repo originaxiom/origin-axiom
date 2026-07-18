@@ -96,3 +96,48 @@ four, and their measurement ambiguities compose by the Galois group law.
 "three quadratic fields ⇒ three ℤ/2's" is generic. The content is that they
 are the three involutions of ONE V₄ with the exact multiplicative relation
 being·hearing=meeting — verified as the group law, not asserted.
+
+---
+
+# B700 cell 4 — THE SECOND STAGE: the torsor is STAGE-UNIFORM (K020-in-ear → toward THEOREM)
+
+*Prereg PREREG_CELL4.md sealed (sha 7323661c).*
+
+## VERDICT: STAGE-UNIFORM TORSOR — and it is PRINCIPLED.
+
+At the E₆ level-2 stage (shadow group PSL(2,7), θ-odd dim D=3, B666), the
+hearing selects one of the TWO 3-dim irreps of PSL(2,7). Verified:
+- **Exactly two** 3-dim irreps (dims of PSL(2,7) = [1,3,3,6,7,8]).
+- Character field **exactly ℚ(√−7)** (degree 2).
+- Swapped **simply-transitively** by Gal(ℚ(√−7)/ℚ)=ℤ/2 (σ: ζ₇↦ζ₇³ sends the
+  Gauss sum √−7 ↦ −√−7): σ(A)=B, σ(A)≠A — no Galois-fixed irrep.
+- |χ₃| values {0,1,√2} = |(−1±√−7)/2| confirm the ℚ(√−7) Galois pair (B666).
+
+**Structurally identical to the golden case (cell 1):** at each stage the
+hearing = a choice among exactly TWO D-dim shadow irreps (D = θ-odd dim),
+with a QUADRATIC character field, swapped simply-transitively by its Galois
+ℤ/2 — a fiber-functor torsor.
+
+## The principle (the pattern the two instances reveal)
+The fiber-functor field is **the quadratic subfield of ℚ(ζ_p)**, p = the
+stage's shadow prime:
+- golden: p=5, ℚ(√5) (5 ≡ 1 mod 4 → real);
+- E₆ level 2: p=7, ℚ(√−7) (7 ≡ 3 mod 4 → imaginary).
+i.e. ℚ(√p*) with p* = (−1)^{(p−1)/2}·p. The torsor is Gal(ℚ(√p*)/ℚ)=ℤ/2 at
+every stage — NOT golden-special. This is the evidence that upgrades the
+K020-in-ear PLACEMENT (B642, §6/R23-4) TOWARD A THEOREM: measurement = the
+fiber-functor torsor = Gal(quadratic-subfield-of-ℚ(ζ_p)), stage-uniform.
+
+## Bonus (an old lead answered)
+ℚ(√−7) appears here as the E₆-shadow fiber-functor field — answering
+S041/H32 ("does the arithmetic extend past {√5,√−3} to ℚ(√−7)?"): YES, as
+the level-7 stage's torsor field. The fields are stage-indexed by the
+shadow prime.
+
+## Base-rate gate (passed)
+The content is the STRUCTURAL MATCH — exactly two D-dim irreps (D=3=θ-odd
+dim), field exactly ℚ(√−7), simply-transitive — plus the principled
+ℚ(ζ_p)-subfield pattern across two stages; NOT "PSL(2,7) contains a ℤ/2".
+
+## Firewall
+Gate 5. Finite-group rep theory + Galois. No physics.
