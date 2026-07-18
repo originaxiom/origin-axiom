@@ -6078,3 +6078,12 @@ pin flagged for the cc2 gate: free-module (dim 2(5k+1)) vs
 function-space (2(5k+2)) reading of V_k. Decisive identities
 re-verified independently on this seat. Locks
 tests/test_w2_molien_cell.py.
+
+2026-07-18 (main seat) — THE W2 GATE PASSED AND VERIFIED: cc2's
+independent eigenvalue derivation (Lefschetz/Riemann–Roch chain, zip
+36c1f40b) vs this seat's gate artifact — the full 41-grade two-tower
+comparison RECOMPUTED on this seat: zero disagreements, dims exact.
+Grade-40 primary [0,81,0,80,0,80,0,80,0,81] = the law's prediction
+exactly. Per sealed PREREG_W2: STEP (iii) UNLOCKED. Caveats carried:
+shared free-module reading (both cells; sealed candidate), their
+fiber-character anchor. Their live gate-4 self-correction banked.

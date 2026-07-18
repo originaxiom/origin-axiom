@@ -6,6 +6,15 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — THE W2 GATE: exact agreement; step (iii) unlocked
+
+- cc2's independent derivation (holomorphic-Lefschetz + Riemann-Roch,
+  no shared code) matches the banked gate artifact on all 41 grades,
+  both towers, recomputed on the main seat: zero disagreements. The
+  one-point candidate's input data is now two-seat exact. Step (iii)
+  (>= 100 coefficients vs the banked targets) runs under the sealed
+  outcome vocabulary.
+
 ## 2026-07-18 — the W2 Molien cell: gate PROCEED, (i) banked, (ii) PASS
 
 - Under sealed PREREG_W2: the vacuity gate passes (W non-central
