@@ -52,8 +52,24 @@ cc2+chat1 literature half; verify 1/(2φ) as a GSWZ special value
 [CLEAN-CONTEXT RESET: integrate loop 6 + loop 7 packets + a state
 snapshot; open the design session on fresh context.]
 
+PRECONDITION TO PHASE 1 (cc2's sharpening S2 — HARD GATE, must run
+BEFORE the prereg names the candidate): the BLOCK-VACUITY DERIVATION.
+Verify the six principal-SL₂→E₆ blocks (spin m_i, exponents 1,4,5,7,8,11;
+dims 3,9,11,15,17,23) contribute LINEARLY INDEPENDENT subseries to the
+perturbative expansion — the higher Casimirs must enter distinctly — or
+they are scalar rescalings and "block-decomposed" is a FAKE degree of
+freedom (then the seal carries the plain pinned construction Habiro-Γ ×
+level-5). One page; decides the candidate FORM; doing it post-seal =
+the fake-freedom error (MB12). MAIN-SEAT READ (hypothesis for cc2's S2
+to verify, NOT assumed): the blocks likely PASS as independent because
+they carry the six DISTINCT banked torsions (B581) — the block
+decomposition of the figure-eight CS torsion should BE the torsion
+spectrum; if the six block torsions reproduce B581, the vacuity check
+passes AND connects to banked data. MUST be computed, not assumed.
+
 STAGE 2 (fresh session, OWNER GO): 
-- Phase 1 (seal): fix the construction — the block-decomposed Φ·τΦ,
+- Phase 1 (seal): fix the construction — the block-decomposed Φ·τΦ
+  (IF the precondition passes; else the plain pinned construction),
   the four falsifiers in order (v₅ CLEARED B681; support {2/5,3/5} from
   the ζ₅ evaluation; vacuity; coefficient). Seal PREREG (frozen base).
   The design-cycle Workflow script is authored HERE (not before — the
