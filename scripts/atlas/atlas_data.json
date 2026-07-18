@@ -14104,6 +14104,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B698": {
+   "slug": "the meeting probed",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B683",
+    "B695",
+    "S067"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
