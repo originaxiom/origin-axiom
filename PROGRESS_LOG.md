@@ -6539,3 +6539,15 @@ E16); S067 row-3 FALSIFIED. NET: the handshake is a real irreducible
 BEING-arithmetic coupling and NOTHING MORE — not golden, not chiral.
 The two-hands thesis survives only as the irreducible meeting; the
 extras die. Loop E-4 awaits the owner's word. Lock test_b695.
+
+2026-07-18 (main seat) — B696: THE EISENSTEIN CAMPAIGN CLOSED (machine
+close of cc2's packet, verified). E-4b GAP 1 the sum-rule locking is
+GOLDEN-ONLY (silver solo classes rank 3, no locking; golden rank 2) —
+INDEPENDENTLY VERIFIED this seat: recomputed 4 of cc2's 3×3 minors over
+the silver field ℚ(s,i) (s⁴=8s²+16, exact field reduction), all NONZERO
+⇒ rank 3. A new field-locked datum (third field-locked organ). GAP 2
+(golden bend-dependence) RE-PRICED (2-agent). EXHAUSTION DECLARED per the
+CHARTER (completeness critic + re-pricing); residue priced only. The
+Eisenstein ATLAS banked (docs/anatomy/EISENSTEIN_ATLAS.md). The being
+face is mapped from every angle. Loop-scope: campaign CLOSED; next = fresh
+go. Lock test_b696_golden_only.
