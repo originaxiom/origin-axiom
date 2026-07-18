@@ -13790,6 +13790,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B680": {
+   "slug": "arithmetic meditation",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B675",
+    "L91",
+    "S1",
+    "S2"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

@@ -571,3 +571,19 @@ weight-2 level-15 newform is the knot's automorphic avatar. OPEN CHECK:
 do L(E₁₅, s) special values (or the Mahler-measure L-value relations)
 match any banked program quantity? Group-level McKay + the silver octic
 theorem are banked; this is the analytic-encoding lead. Queued, not run.
+
+
+**THE ARITHMETIC MEDITATION LEADS (B680, opened 2026-07-18)** — four
+classical doors matched to live threads, verified where computable:
+(1) **L91 ← Reid 1991**: the figure-eight is THE UNIQUE arithmetic knot
+(complement commensurable with PSL₂(O₋₃)); if the program's selection
+principles ≡ arithmeticity, L91 closes as "selected by uniqueness".
+NEEDS-SPECIALIST, HIGH-VALUE. (2) **DEAF = NON-CM** (two legs now: B675
+no-hosting + S2 no-algebraic-value): CM cusps sing, the non-CM S₄
+bronze is silent; falsifiable prediction — golden R (disc −48, CM) must
+be algebraic (next T-lane cell). (3) **Habiro ring** = the W3 design
+cycle's native language (divided-power denominators, root-of-unity
+expansions; figure-eight is the prototype — GSWZ). (4) **The inert-5
+derivation**: 5 inert in ℚ(√−3), 3 ramified, level 15 = their product;
+rebuild the hearing group as the Bianchi congruence quotient at 5
+(PSL₂(𝔽₂₅) ⊃ 2I shadow) — the bifocal-is-monofocal-one-level-up cell.
