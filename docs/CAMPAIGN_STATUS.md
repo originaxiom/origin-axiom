@@ -1156,3 +1156,7 @@ B675 (H-CUSP sweep): LANDED-CONFIRMED — the principle predicts 3/3
 (golden→A₂ proven, silver→A₃ exact + SU(4)₁ hearing, bronze deaf by S₄/
 Kronecker–Weber, corroborated). Follow-ons: bronze exact certification;
 the shadow-without-a-home question. H-EAR remains the live hypothesis.
+
+B678 (D4 annex): LANDED-VERIFIED — the full 8x12 ladder table; no
+growth anywhere (Track-H closed empirically at all 12 levels, both
+routes); ceiling map = resonance-structured data; loop 4 fully closed.

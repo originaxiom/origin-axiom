@@ -6041,3 +6041,12 @@ candidate (twisted character = Molien product; mod-5 selection generic
 for order-10 W; the ℚ(√5) Galois pair forces the target doublet;
 integrality structural; vacuity gate passes). Cell pinned, does NOT
 run until PREREG_W2 seals. Design-stage only — no coefficient compared.
+
+2026-07-18 (main seat) — B678 BANKED: cc2's D4 annex (full 8x12 table,
+privacy-patched, sha-prefix 54d64048). Verified from raw data: no
+growth anywhere (convergent with B669's exact route — Track-H refuted
+twice independently); golden 1/φ own-channel signature exact;
+(4, κ=12) = √3−1 exact (third computation). Ceiling resonance-
+structured, not disc-monotone. 1.785 at (10,8) unidentified — hint
+row. engine_v7 O(N⁵) upstream patch registered as a priced door.
+Locks tests/test_b678_d4_annex.py.

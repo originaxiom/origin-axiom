@@ -413,3 +413,8 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   with no home. If shadows require hosts, one of the two readings has a
   hidden hypothesis; if not, shadow and hosting are independent axes —
   either resolution is a structure theorem. (B675, 2026-07-18.)
+- The D4 ceiling value 1.7849887… at (n = 10, κ = 8) resists
+  identification over ℚ(√2,√3,√5,φ) on both seats; the rest of the
+  ceiling menu is clean algebraic {1/φ, √3−1, 1, √2, √3, 2}. Either a
+  higher-degree algebraic value (deg ≥ 4?) or a new constant — the one
+  dark cell in an otherwise identified table. (B678, 2026-07-18.)

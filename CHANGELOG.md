@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B678: the D4 annex banked (the full 8x12 ladder table)
+
+- cc2's annex verified on this seat from the raw MERGED json: NO GROWTH in
+  any of 96 cells (12 levels x 8 metallic words) — convergent with B669's
+  exact certificate-ladder route; the Track-H suppression mechanism refuted
+  by two independent methods. Own-channel signature exact (golden 1/phi at
+  its 5-resonances); the cross-campaign number (n=4, kappa=12) = sqrt(3)-1
+  exact, third independent computation. Ceiling map resonance-structured,
+  not disc-monotone. The (10,8) value 1.785 stays unidentified (hint row).
+  cc2's engine fix made the level-10 cap moot (full table incl. kappa=14,15);
+  the upstream engine_v7 patch registered as a priced door.
+
 ## 2026-07-18 — B675 addendum: the bronze deafness CERTIFIED
 
 - Exact end-to-end: gluing rows eliminated over ℚ to the shape field, the

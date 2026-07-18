@@ -1,0 +1,493 @@
+{
+ "meta": {
+  "engine": "veins/v7_conduit/engine_v7.py An_Level(3,k)",
+  "banked_fig8_source": "<cc2-seat>/loops_queue/d4_su3/d4_results.json",
+  "banked_verdict_on_record": "LAW-HOLDS",
+  "convention": "R->T, L->S T^-1 S^-1 (== S^-1 T^-1 S, C=S^2 central); Z_k(R^m L) = sum_i T_i^m L_ii",
+  "dps": 60,
+  "ks": [
+   6
+  ],
+  "ns": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ]
+ },
+ "gates": {
+  "G0_modular_battery_pass": true,
+  "G1_fig8_reproduction_pass": true,
+  "G1_fig8_deviations": {
+   "9": {
+    "vs_banked_json_float64": "8.90923e-52",
+    "vs_exact_closed_form": "1.05845e-60"
+   }
+  },
+  "G2_b238_crosscheck_pass": null,
+  "G2_b238_deviation": null,
+  "G2_skipped": true
+ },
+ "structural_resonance_prediction": {
+  "3": {
+   "m": 1,
+   "det_identity": 1,
+   "det_3cycle": 16,
+   "det_reflection": 5,
+   "disc": 5,
+   "fac_identity": "1",
+   "fac_3cycle": "2^4",
+   "fac_reflection": "5",
+   "fac_disc": "5",
+   "resonant_primes": [
+    2,
+    5
+   ]
+  },
+  "4": {
+   "m": 2,
+   "det_identity": 4,
+   "det_3cycle": 25,
+   "det_reflection": 12,
+   "disc": 12,
+   "fac_identity": "2^2",
+   "fac_3cycle": "5^2",
+   "fac_reflection": "2^2 * 3",
+   "fac_disc": "2^2 * 3",
+   "resonant_primes": [
+    2,
+    3,
+    5
+   ]
+  },
+  "5": {
+   "m": 3,
+   "det_identity": 9,
+   "det_3cycle": 36,
+   "det_reflection": 21,
+   "disc": 21,
+   "fac_identity": "3^2",
+   "fac_3cycle": "2^2 * 3^2",
+   "fac_reflection": "3 * 7",
+   "fac_disc": "3 * 7",
+   "resonant_primes": [
+    2,
+    3,
+    7
+   ]
+  },
+  "6": {
+   "m": 4,
+   "det_identity": 16,
+   "det_3cycle": 49,
+   "det_reflection": 32,
+   "disc": 32,
+   "fac_identity": "2^4",
+   "fac_3cycle": "7^2",
+   "fac_reflection": "2^5",
+   "fac_disc": "2^5",
+   "resonant_primes": [
+    2,
+    7
+   ]
+  },
+  "7": {
+   "m": 5,
+   "det_identity": 25,
+   "det_3cycle": 64,
+   "det_reflection": 45,
+   "disc": 45,
+   "fac_identity": "5^2",
+   "fac_3cycle": "2^6",
+   "fac_reflection": "3^2 * 5",
+   "fac_disc": "3^2 * 5",
+   "resonant_primes": [
+    2,
+    3,
+    5
+   ]
+  },
+  "8": {
+   "m": 6,
+   "det_identity": 36,
+   "det_3cycle": 81,
+   "det_reflection": 60,
+   "disc": 60,
+   "fac_identity": "2^2 * 3^2",
+   "fac_3cycle": "3^4",
+   "fac_reflection": "2^2 * 3 * 5",
+   "fac_disc": "2^2 * 3 * 5",
+   "resonant_primes": [
+    2,
+    3,
+    5
+   ]
+  },
+  "9": {
+   "m": 7,
+   "det_identity": 49,
+   "det_3cycle": 100,
+   "det_reflection": 77,
+   "disc": 77,
+   "fac_identity": "7^2",
+   "fac_3cycle": "2^2 * 5^2",
+   "fac_reflection": "7 * 11",
+   "fac_disc": "7 * 11",
+   "resonant_primes": [
+    2,
+    5,
+    7,
+    11
+   ]
+  },
+  "10": {
+   "m": 8,
+   "det_identity": 64,
+   "det_3cycle": 121,
+   "det_reflection": 96,
+   "disc": 96,
+   "fac_identity": "2^6",
+   "fac_3cycle": "11^2",
+   "fac_reflection": "2^5 * 3",
+   "fac_disc": "2^5 * 3",
+   "resonant_primes": [
+    2,
+    3,
+    11
+   ]
+  }
+ },
+ "table": [
+  {
+   "n": 3,
+   "m": 1,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 3,
+   "disc": 5,
+   "Z_re": "9.778488342504033989026159291367692126427e-61",
+   "Z_im": "-8.060490593587769135689523367196803849709e-62",
+   "Z_re_id": "0",
+   "Z_im_id": "0",
+   "Zabs2": "9.62685493505804590038572369884091023899e-121",
+   "Zabs2_id": "0",
+   "Zabs": "9.811653752073625789106006368965251896905e-61",
+   "Zfull_re": "-6.660571039585753233427631057561539226257e-61",
+   "Zfull_im": "-9.723461371658033917412600084031444125922e-63",
+   "resonant_predicted": false
+  },
+  {
+   "n": 4,
+   "m": 2,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 4,
+   "disc": 12,
+   "Z_re": "1.917944261821112481936322688697078794686e-61",
+   "Z_im": "7.122769162991199706242357301861883536468e-61",
+   "Z_re_id": "0",
+   "Z_im_id": "0",
+   "Zabs2": "5.441235074071088771340021807788256541955e-121",
+   "Zabs2_id": "0",
+   "Zabs": "7.376472784516383458613026870862336376535e-61",
+   "Zfull_re": "-0.5",
+   "Zfull_im": "0.8660254037844386467637231707529361834714",
+   "resonant_predicted": true
+  },
+  {
+   "n": 5,
+   "m": 3,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 5,
+   "disc": 21,
+   "Z_re": "-4.682960609640885362678743232208942237741e-61",
+   "Z_im": "-3.427317636368731594158046327924064084047e-61",
+   "Z_re_id": "0",
+   "Z_im_id": "0",
+   "Zabs2": "3.367662625201228178538169709474419975538e-121",
+   "Zabs2_id": "0",
+   "Zabs": "5.803156576554890939502525077138484296023e-61",
+   "Zfull_re": "-0.5",
+   "Zfull_im": "-0.8660254037844386467637231707529361834714",
+   "resonant_predicted": true
+  },
+  {
+   "n": 6,
+   "m": 4,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 6,
+   "disc": 32,
+   "Z_re": "-1.432558039224248862397825725846516056886e-61",
+   "Z_im": "-2.886587366637805550104502401705135899598e-61",
+   "Z_re_id": "0",
+   "Z_im_id": "0",
+   "Zabs2": "1.038460916097900538437897681635310350541e-121",
+   "Zabs2_id": "0",
+   "Zabs": "3.222515967528943895082210956847737243957e-61",
+   "Zfull_re": "2.722569184064249496875528023528804355258e-61",
+   "Zfull_im": "-6.368867198436012215905253055040595902479e-61",
+   "resonant_predicted": false
+  },
+  {
+   "n": 7,
+   "m": 5,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 7,
+   "disc": 45,
+   "Z_re": "6.583978728476748881782742830955206315633e-61",
+   "Z_im": "9.444889198191333552248605109856422864618e-61",
+   "Z_re_id": "0",
+   "Z_im_id": "0",
+   "Zabs2": "1.325547078631456385824702670828053852965e-120",
+   "Zabs2_id": "0",
+   "Zabs": "1.151324054569979175254782964260004620886e-60",
+   "Zfull_re": "-0.5",
+   "Zfull_im": "-0.8660254037844386467637231707529361834714",
+   "resonant_predicted": true
+  },
+  {
+   "n": 8,
+   "m": 6,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 8,
+   "disc": 60,
+   "Z_re": "-1.5",
+   "Z_im": "0.8660254037844386467637231707529361834714",
+   "Z_re_id": "-(((3+sqrt(9))/4))",
+   "Z_im_id": "(sqrt(48)/8)",
+   "Zabs2": "3.0",
+   "Zabs2_id": "((3+sqrt(9))/2)",
+   "Zabs": "1.732050807568877293527446341505872366943",
+   "Zfull_re": "-2.0",
+   "Zfull_im": "1.732050807568877293527446341505872366943",
+   "resonant_predicted": true
+  },
+  {
+   "n": 9,
+   "m": 7,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 9,
+   "disc": 77,
+   "Z_re": "-8.151461075846624448280081563840547187022e-61",
+   "Z_im": "-1.463608825957881147064929641997445589279e-60",
+   "Z_re_id": "0",
+   "Z_im_id": "0",
+   "Zabs2": "2.806613972132233307171380476839211835822e-120",
+   "Zabs2_id": "0",
+   "Zabs": "1.675295189550854439858341843219954559617e-60",
+   "Zfull_re": "-7.341213335601815607646513063443740315071e-61",
+   "Zfull_im": "-1.107132099354118232432540738969658631347e-60",
+   "resonant_predicted": false
+  },
+  {
+   "n": 10,
+   "m": 8,
+   "k": 6,
+   "kappa": 9,
+   "trace_n": 10,
+   "disc": 96,
+   "Z_re": "-3.115758798626108039129042371544554992372e-60",
+   "Z_im": "-1.732050807568877293527446341505872366943",
+   "Z_re_id": "0",
+   "Z_im_id": "-((1*sqrt(3)))",
+   "Zabs2": "3.0",
+   "Zabs2_id": "((3+sqrt(9))/2)",
+   "Zabs": "1.732050807568877293527446341505872366943",
+   "Zfull_re": "1.0",
+   "Zfull_im": "-5.265254332752825366278922945503026994187e-60",
+   "resonant_predicted": true
+  }
+ ],
+ "ceiling_map": {
+  "3": {
+   "n": 3,
+   "m": 1,
+   "trace": 3,
+   "disc": 5,
+   "fac_disc": "5",
+   "ceiling": "9.81165375207362578910600636897e-61",
+   "ceiling_squared": "9.62685493505804590038572369884e-121",
+   "ceiling_id": "0",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "4": {
+   "n": 4,
+   "m": 2,
+   "trace": 4,
+   "disc": 12,
+   "fac_disc": "2^2 * 3",
+   "ceiling": "7.37647278451638345861302687086e-61",
+   "ceiling_squared": "5.44123507407108877134002180779e-121",
+   "ceiling_id": "0",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "5": {
+   "n": 5,
+   "m": 3,
+   "trace": 5,
+   "disc": 21,
+   "fac_disc": "3 * 7",
+   "ceiling": "5.80315657655489093950252507714e-61",
+   "ceiling_squared": "3.36766262520122817853816970947e-121",
+   "ceiling_id": "0",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "6": {
+   "n": 6,
+   "m": 4,
+   "trace": 6,
+   "disc": 32,
+   "fac_disc": "2^5",
+   "ceiling": "3.22251596752894389508221095685e-61",
+   "ceiling_squared": "1.03846091609790053843789768164e-121",
+   "ceiling_id": "0",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "7": {
+   "n": 7,
+   "m": 5,
+   "trace": 7,
+   "disc": 45,
+   "fac_disc": "3^2 * 5",
+   "ceiling": "1.15132405456997917525478296426e-60",
+   "ceiling_squared": "1.32554707863145638582470267083e-120",
+   "ceiling_id": "0",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "8": {
+   "n": 8,
+   "m": 6,
+   "trace": 8,
+   "disc": 60,
+   "fac_disc": "2^2 * 3 * 5",
+   "ceiling": "1.73205080756887729352744634151",
+   "ceiling_squared": "3.0",
+   "ceiling_id": "(sqrt(12)/2)",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "9": {
+   "n": 9,
+   "m": 7,
+   "trace": 9,
+   "disc": 77,
+   "fac_disc": "7 * 11",
+   "ceiling": "1.67529518955085443985834184322e-60",
+   "ceiling_squared": "2.80661397213223330717138047684e-120",
+   "ceiling_id": "0",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  },
+  "10": {
+   "n": 10,
+   "m": 8,
+   "trace": 10,
+   "disc": 96,
+   "fac_disc": "2^5 * 3",
+   "ceiling": "1.73205080756887729352744634151",
+   "ceiling_squared": "3.0",
+   "ceiling_id": "(sqrt(12)/2)",
+   "argmax_k": [
+    6
+   ],
+   "argmax_kappa": [
+    9
+   ]
+  }
+ },
+ "growth_verdict": {
+  "per_word_flag_growth": {
+   "3": false,
+   "4": false,
+   "5": false,
+   "6": false,
+   "7": false,
+   "8": false,
+   "9": false,
+   "10": false
+  },
+  "any_growth": false
+ },
+ "silence_law_candidate_1_minus_legendre5_over_2": [
+  {
+   "kappa": 9,
+   "predicted": "0.0",
+   "actual": "9.778488343e-61",
+   "dev": "1.05845e-60",
+   "match": true
+  }
+ ],
+ "silence_structural_consistency": {
+  "n_consistent": 5,
+  "n_total": 8,
+  "inconsistent_cells": [
+   {
+    "n": 4,
+    "k": 6,
+    "kappa": 9,
+    "observed_zero": true,
+    "predicted_silent": false,
+    "consistent": false
+   },
+   {
+    "n": 5,
+    "k": 6,
+    "kappa": 9,
+    "observed_zero": true,
+    "predicted_silent": false,
+    "consistent": false
+   },
+   {
+    "n": 7,
+    "k": 6,
+    "kappa": 9,
+    "observed_zero": true,
+    "predicted_silent": false,
+    "consistent": false
+   }
+  ]
+ },
+ "failed_gates": []
+}
