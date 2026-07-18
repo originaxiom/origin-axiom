@@ -6216,3 +6216,14 @@ unique-arithmetic-knot (NEEDS-SPECIALIST); deaf=non-CM now TWO legs
 (B675 + cc2's S2) with a falsifiable golden-R prediction; the Habiro
 ring as the design cycle's language; the inert-5 Bianchi rederivation.
 Locks test_b680_meditation.py.
+
+2026-07-18 (main seat) — T2 RESOLVED, the CM prediction CONFIRMED:
+R at the golden cusp IS algebraic. Constructive proof — t=(η/η₅)⁶ at
+τ=2√3i satisfies j=(t²+250t+3125)³/t⁵ with the exact banked degree-2 j
+(150 digits); resultant elimination gives t_golden's EXACT minimal
+polynomial: degree 12, IRREDUCIBLE, norm EXACTLY 5³⁰ (pure hearing
+prime — the 5-vein again); root residual 6.7e-87. Explains T2's
+UNIDENTIFIED (degree 12 > the degree-8 cap). "deaf = non-CM" now has
+THREE legs: B675 no-host, S2 no-value (bronze), S1+T2 CM-voice (silver
+δ-unit + golden 5³⁰). The B680 falsifiable prediction discharged
+CONFIRMED. Lock test_t2_golden_cm.py.
