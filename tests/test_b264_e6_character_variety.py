@@ -4,10 +4,30 @@ FIREWALLED (flat-connection geometry, not physics); nothing to CLAIMS.md."""
 import importlib.util
 import pathlib
 
+import mpmath as mp
+import pytest
+
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B264_e6_character_variety" / "e6_charvar_tangent.py"
 _spec = importlib.util.spec_from_file_location("b264", _PATH)
 b264 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): e6_charvar_tangent sets mp.mp.dps=80 at module
+# level and computes its import-time matrices under that dps itself; restore the
+# entry dps after the collection-time import so the assignment cannot leak into
+# later-collected modules.
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b264)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_80():
+    # E12 repair (the b204 pattern): H1_sym self-guards to 80 internally, but pin
+    # the module's declared dps=80 per test anyway so every entry point (incl.
+    # adjoint_tangent_dim) runs at the precision its 1e-50 rank tolerances need.
+    saved = mp.mp.dps
+    mp.mp.dps = 80
+    yield
+    mp.mp.dps = saved
 
 
 def test_sym2_matches_thurston():

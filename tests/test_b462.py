@@ -11,10 +11,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B462_relation_r3_double"))
 sys.path.insert(0, os.path.join(HERE, "..", "frontier", "B441_child_wrt"))
 
+# E12 (module-level-dps sweep): phi_scan sets mp.mp.dps=40 at module level (wrt,
+# masbaum, kappa_diagonal set dps only inside functions); its import-time values
+# are computed under the dps it sets itself, so restoring the entry dps
+# afterwards changes nothing for these locks — every mpmath-using test below
+# already pins its own dps at the top (per-test, order-independent) — and
+# un-leaks the global from the collection-time import.
+_saved_dps = mp.mp.dps
 import wrt as B441
 from phi_scan import qd, tau_from_vector, pairing
 from masbaum import masbaum_cj, masbaum_poly
 import kappa_diagonal as KD
+mp.mp.dps = _saved_dps
 
 
 def test_engine_gate_reproduces_b441():

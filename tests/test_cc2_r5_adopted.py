@@ -18,6 +18,16 @@ import sympy as sp
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PASS = []
 
+# E12 (module-level-dps sweep): every lock below runs at IMPORT time (pytest
+# collection), and the sections set mp.mp.dps inline (80 for LOCKs 2-3, 50 for
+# LOCK 4, 40 for LOCK 9) — each mpmath-using section sets its own dps before
+# computing, so the locks themselves are order-safe; but the LAST assignment
+# (40) used to leak out of the import and, this file being last in sorted
+# collection order, became the global dps every runtime test in the whole suite
+# saw (the b353 in-suite failure, B666 cell 5). Save here, restore at the end
+# of the module-level block.
+_SAVED_DPS = mp.mp.dps
+
 
 
 def report(name, ok):
@@ -319,6 +329,10 @@ report("B544 golden-mean convergent 1597/2584 -> 1/phi (tol 1e-6, by constructio
 # ============================================================================
 print(f"\n{sum(1 for _, ok in PASS if ok)}/{len(PASS)} locks PASS")
 print("ALL LOCKS PASS" if all(ok for _, ok in PASS) else "SOME LOCKS FAILED")
+
+# E12: restore the entry precision (see the note at _SAVED_DPS above) — the
+# import-time computation is done; nothing below uses mpmath at runtime.
+mp.mp.dps = _SAVED_DPS
 
 
 def test_r5_adopted_locks_all_pass():

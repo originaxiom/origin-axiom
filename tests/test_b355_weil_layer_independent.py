@@ -4,10 +4,29 @@ import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B355_weil_layer_independent'))
 import mpmath as mp
+import pytest
+
+# E12 (module-level-dps sweep): weil_layer sets mp.mp.dps=60 at module level and
+# computes its import-time values under that dps itself; restore the entry dps
+# after the collection-time import so the assignment cannot leak into
+# later-collected modules.
+_saved_dps = mp.mp.dps
 from weil_layer import (
     gates_all, trace_table, weil_divisibility,
     fast_pair_values, triple_reality, conjugation_mechanism, rational_or_quad,
 )
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_60():
+    # E12 repair (the b204 pattern): the trace-layer and triple-reality locks
+    # compare at 1e-25/1e-30 at RUNTIME; pin the module's declared dps=60 per
+    # test instead of trusting the collection-time global to survive.
+    saved = mp.mp.dps
+    mp.mp.dps = 60
+    yield
+    mp.mp.dps = saved
 
 
 def test_construction_gates():

@@ -4,10 +4,32 @@ dim H^2(Sym^{2k})=1 (=H^1, chi=0); geometric rep smooth. FIREWALLED; nothing to 
 import importlib.util
 import pathlib
 
+import mpmath as mp
+import pytest
+
 _PATH = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B265_e6_integrability" / "e6_integrability.py"
 _spec = importlib.util.spec_from_file_location("b265", _PATH)
 b265 = importlib.util.module_from_spec(_spec)
+# E12 (module-level-dps sweep): e6_integrability sets no module-level dps of its
+# own but internally imports B264's e6_charvar_tangent, which sets mp.mp.dps=80
+# (that module computes its own constants under its own dps); restore the entry
+# dps after the collection-time import so the assignment cannot leak into
+# later-collected modules. (This file was MASKED in the original cell-5 scan:
+# the b264 leak had already set 80 before it, so no transition showed.)
+_saved_dps = mp.mp.dps
 _spec.loader.exec_module(b265)
+mp.mp.dps = _saved_dps
+
+
+@pytest.fixture(autouse=True)
+def _dps_80():
+    # E12 repair (the b204 pattern): H2_sym self-guards to 80 internally; pin
+    # the same dps=80 per test as well so no runtime path depends on the
+    # collection-time global.
+    saved = mp.mp.dps
+    mp.mp.dps = 80
+    yield
+    mp.mp.dps = saved
 
 
 def test_density_split_e6_vs_f4():
