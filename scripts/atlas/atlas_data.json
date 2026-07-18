@@ -14021,6 +14021,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B694": {
+   "slug": "e3a gate",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "B689",
+    "B691",
+    "B692",
+    "B693",
+    "S067"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
