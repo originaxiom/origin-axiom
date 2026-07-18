@@ -6030,3 +6030,14 @@ field elimination, S₄ exact, Re τ = 0 exact, octic = quartic(−X²),
 u·u′ = 1 at root level. Verify-on-receipt recomputed the decisive
 identities independently on this seat. Lock extended
 (test_bronze_certified).
+
+2026-07-18 (main seat) — W2 DESIGN NOTE (Γ(5) side) committed
+(frontier/B674_generation_leg/W2_DESIGN_NOTE_GAMMA5.md): D1 the
+flat-level kill (Riemann–Roch growth: every W-stable grading on flat
+modular spaces is bounded/linear — partition-like targets unreachable);
+D2 the shared invariant IS satisfiable one level up (Sym/Fock — where
+cc2's route already lives; the two routes meet); D3 the Molien
+candidate (twisted character = Molien product; mod-5 selection generic
+for order-10 W; the ℚ(√5) Galois pair forces the target doublet;
+integrality structural; vacuity gate passes). Cell pinned, does NOT
+run until PREREG_W2 seals. Design-stage only — no coefficient compared.
