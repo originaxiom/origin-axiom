@@ -6271,3 +6271,18 @@ This IS the holomorphic-blocks/S-transform pairing = depth; Prop 1.5(a)
 τf = f(q⁻¹) = the S²=c involution (B681's hypothesis has a literal
 home); Bloch grading ξ = 2[ζ₆] confirms Vol ↔ grading. Phase 1 builds
 the depth construction as Φ·τΦ. Banked in B682.
+
+2026-07-18 (main seat) — THE GENERATION CAMPAIGN MASTERPLAN banked
+(CAMPAIGN_MASTERPLAN.md): digested the web seat's four-stage proposal
+under the firewall. DECISION: adopt stages 1-2 (dictionary → the one
+sealed design cycle; in-sandbox, two-outcome, publishable either way);
+FIREWALL stages 3-4 (SM values / JUNO-Hyper-K-LHC / sin²θ₁₂ / δ_CP /
+proton decay) — conditional-and-Gate-5-fenced, several chains ALREADY
+REFUTED (δ_CP←cubic phase DEAD per L104/B662; block↔generation +
+"Higgs in 27" + sin²θ₁₂=1/(2φ) are fenced physics naming). Clarified:
+the design cycle is ONE shot, NOT a retry-loop (the loop structure is
+the SUPPORTING work — Stage-1 verification + the parallel lanes). The
+deliverable is the ~95% publishable-mathematics branch; the ~5% physics
+is firewalled and NOT planned. NOW: complete Stage 1, integrate loop-6
++ snapshot, PREPARE (not seal) the physics-stripped Stage-2 prereg,
+HOLD the go for the owner + fresh session.
