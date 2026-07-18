@@ -580,8 +580,7 @@ classical doors matched to live threads, verified where computable:
 principles ≡ arithmeticity, L91 closes as "selected by uniqueness".
 NEEDS-SPECIALIST, HIGH-VALUE. (2) **DEAF = NON-CM** (two legs now: B675
 no-hosting + S2 no-algebraic-value): CM cusps sing, the non-CM S₄
-bronze is silent; falsifiable prediction — golden R (disc −48, CM) must
-be algebraic (next T-lane cell). (3) **Habiro ring** = the W3 design
+bronze is silent; falsifiable prediction DISCHARGED CONFIRMED (T2, 2026-07-18): golden t=(η/η₅)⁶ algebraic degree 12 irreducible, norm 5³⁰. (3) **Habiro ring** = the W3 design
 cycle's native language (divided-power denominators, root-of-unity
 expansions; figure-eight is the prototype — GSWZ). (4) **The inert-5
 derivation**: 5 inert in ℚ(√−3), 3 ramified, level 15 = their product;

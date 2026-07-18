@@ -17,6 +17,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — T2 resolved: the golden CF value is algebraic (CM prediction survives)
+
+- cc2's S2 registered a falsifier: golden cusp is CM (disc -48) => R
+  there must be algebraic. Confirmed constructively — the level-5 eta
+  variable t=(eta/eta_5)^6 at tau=2sqrt3 i satisfies the modular equation
+  j=(t^2+250t+3125)^3/t^5 with the exact banked degree-2 j; resultant
+  elimination gives t_golden's exact minimal polynomial: degree 12,
+  irreducible, norm EXACTLY 5^30 (a pure hearing-prime power — the 5-vein
+  again). Explains T2's UNIDENTIFIED (degree 12 > the degree-8 cap).
+  "deaf = non-CM" now has three independent legs (B675, S2, S1+T2).
+
 ## 2026-07-18 — B680: the arithmetic meditation (volume = being L-value)
 
 - Two facts verified in-sandbox: Vol(4_1) = (3√3/2)·L(χ_-3, 2) to 40
