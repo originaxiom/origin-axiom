@@ -1,4 +1,4 @@
-# COMMS PROTOCOL — the three-seat room (v1 draft, refine as we go)
+# COMMS PROTOCOL — the three-seat room (v1.1; cc2's hardening adopted)
 
 Owner + cc (banking) + cc2 (compute) + chat1 (hypotheses), one room.
 Goal: no loops, no confusion, no crossed wires. Keep it usable.
@@ -6,7 +6,7 @@ Goal: no loops, no confusion, no crossed wires. Keep it usable.
 ## 1. Addressing — whom you mean
 - Start a message with **@cc**, **@cc2**, **@chat1**, or **@all**.
 - No tag → **@all** (everyone reads; cc holds the record).
-- In the OA Relay app, the "to" selector does the same thing.
+- Your live channel's recipient field does the same thing.
 - If you say "you" with no tag mid-thread, it means the seat you last
   addressed in that thread.
 
@@ -51,11 +51,31 @@ ONLY if reversible and clearly implied; otherwise it asks **clarify:**.
   re-litigate a settled call.
 - Every **result** → **verify** (two independent routes) → **bank**.
   Nothing is "real" until it's banked in the repo.
+- **The base-rate + convention gate is MANDATORY** inside verify→bank
+  (cc2): every numeric "match" or "nice value" must pass (a) a base-rate
+  cell AND (b) a convention/unit-robustness recompute BEFORE it can bank.
+  No proximity banks alone. (This is what E16, θ₀=2/9, the E₆-denominator,
+  7983360 each failed — automate it, don't rely on vigilance.)
+- **Negatives bank too** (cc2): kills / falsifications / no-gos are
+  results — banked with the same ritual. The record captures what ISN'T
+  true, and a killed idea can't be silently re-proposed (Track H, the
+  F1-resurgence, the θ₀ repeat were all this).
+- **Supersession citation** (cc2): every result/proposal cites the HEAD
+  or B-number it builds on, so a reviewer can flag "superseded since" —
+  catches stale handoffs.
 - One-shot / irreversible: explicit **go**, and the seat confirms the
   exact target before firing.
+- **Standing-go scope** (cc2): a seat on a timer/loop acts only on the
+  standing go for the SPECIFIC in-flight task; a NEW decision-point needs
+  a fresh owner **go** — no scope creep from an old authorization.
 - If I asked a **q:**, I wait for your answer — I don't proceed on my
   own read.
 - A background/system notification is NEVER the owner's word.
+
+## 4a. Resolving a challenge (cc2)
+A **challenge:** is closed by EVIDENCE — a computation or a base-rate
+cell — never by authority or repetition. If it's still unresolved after
+both sides have computed, it escalates to the owner as a **clarify:**.
 
 ## 5. Defaults so silence is unambiguous
 - "go" with no target = the thing we last discussed; the seat names it
