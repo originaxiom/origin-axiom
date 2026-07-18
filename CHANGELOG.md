@@ -17,6 +17,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — the conductor-15 curve: two seats, two models, one isogeny class
+
+- cc2 derived the figure-eight A-polynomial's elliptic curve from the
+  banked Cooper-Long polynomial (palindromic quotient); it has a
+  DIFFERENT j from my trifocal discriminant-curve model (13997521/225 vs
+  -1/15) -- the signature of an ISOGENY, not a conflict. Recomputed on
+  this seat: 15a8-Weierstrass, cc2's quartic, and my quartic ALL give
+  a_p = [0,-4,-2,2,4,0,-2,0,-10,10,4,8] at the 12 good primes 7..47 ->
+  isogenous, class 15a, the L-function established two-seat/two-model.
+  The bifocal branch locus survives cc2's correct factorization.
+  Adopted: c6 = -161 (chat1's g2/g3 garbled); prior art NEEDS-SPECIALIST;
+  program novelty = conductor 15 = the congruence level.
+
 ## 2026-07-18 — the Ramanujan trifocal: silver theorem + 15A8 + golden legs
 
 - The silver octic closes in the silver ratio, now a THEOREM (U^2 +
