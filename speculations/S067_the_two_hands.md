@@ -89,7 +89,7 @@ whether the JOINT structure is SM-like where neither hand was.
 |---|---|---|
 | the being hand has its own SM-like flavor | study the figure-eight's level-3/ζ₃ (Eisenstein) modular structure the way we studied level-5/ζ₅ — is there a level-3 "stream" analog? | the being side is flavor-flat (only geometry, no ζ₃ stream) ⇒ the hands are asymmetric, not a mirror pair |
 | reality is the meeting at level 15 | compute the weight-2 level-15 newform's structure + L(E₁₅, s) special values; check whether the 3-part and 5-part COUPLE (non-multiplicative Hecke structure across 3,5) | the level-15 form factors as (level-3)×(level-5) with no genuine coupling ⇒ the meeting is trivial, the hands don't interact |
-| the SM is two-handed (c-broken coupling) | test whether the level-15 coupling carries a chirality (c) that neither Γ(3) nor Γ(5) alone has | the coupling is c-symmetric ⇒ the left/right-hand reading fails |
+| the SM is two-handed (c-broken coupling) | test whether the level-15 coupling carries a chirality (c) that neither Γ(3) nor Γ(5) alone has | **FALSIFIED (B695): c-SYMMETRIC — w₃≠w₅ is forced by E₁₅'s even rank (ε=(−1)^rank), generic (14a/26a/57a), zero 3-vs-5 content. The left/right-hand/chirality leg is DEAD.** |
 | the divided-power 5-adic law has a being twin (3-adic) | B683 proved v₅(cₙ)=v₅(5ⁿn!) for (q;q)^{−3/5}; the corollary already gives the 3-adic version v₃ for (q;q)^{−a/3} — compute it and ask if the figure-eight's ζ₃ object realizes IT (the being analog of what the ζ₅ object failed to realize) | the ζ₃ object is also flat ⇒ neither hand carries its "own" adic structure ⇒ the hypothesis's symmetry is broken |
 
 ## The negatives, stated (firewall)

@@ -14042,6 +14042,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B695": {
+   "slug": "loop e3 close",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "B691",
+    "B694",
+    "S067"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
