@@ -1304,12 +1304,154 @@ tracked-forbidden gate blocked one add-sweep in-window (the gate
 working on the governor).
 
 ### Action items (Review 22)
-- [ ] R22-1: the specialist pass (carried from R21-7; the dossier + the RR identities + this window's theorem queue; NEEDS-SPECIALIST — the program's one external dependency)
-- [ ] R22-2: the web seat's L95 prereg — verify-on-receipt (carried from R21-8)
+- [>] R22-1: the specialist pass — ADVANCED (the summit dossier assembled, PR #1144); the external read carried as R23-1
+- [>] R22-2: the web seat's L95 prereg — verify-on-receipt; never landed, carried as R23-2
 - [x] R22-3: VERIFIED + CLOSED (B677, 2026-07-18) — sealed-addendum chains, no breach (the chain hashes match this seat's own banked as-received manifests); the re-seal protocol adopted program-wide
 - [x] R22-4: DONE (B676, 2026-07-18) — the sweep grew to 18 import-wraps + per-file pinned fixtures (the b204 pattern) + a conftest collection-finish guard; two MASKED leakers (b246, b250) unmasked and repaired; one B671 absolute-path straggler fixed en route; full suite 2428 passed / 0 failed
 - [x] R22-5: DONE (2026-07-18) — eight terms glossed + the golden-rotation LAW_MAP row
-- [ ] R22-6: the generation-leg campaign adjudication on landing (two routes + cc3-cross-check per the sealed plan 353ca003; the K020 silver control on any hit)
-- [ ] R22-7: H-EAR and H-CUSP — the two named principles as the L91 endgame (proof attempts after the generation leg)
+- [x] R22-6: RESOLVED — the generation leg landed and CLOSED (B685 KILLED-AT-SUPPORT → terminal no-go; one-shot spent at the support pre-test, K020 control never triggered — no hit; #1128)
+- [>] R22-7: H-CUSP RESOLVED (predictive principle 3/3, B675); H-EAR reframed by B685 (the hearing is coupling) — carried as R23-3
 
 anchor-commit: `7685cb9` (Review 22)
+
+---
+
+## REVIEW 23 — EXECUTED 2026-07-18 (the third constitutional review; window #1095–#1145, B674–B697 + the summit dossier + VERIFY-M)
+
+**The loop (item 1):** the R22 block fully dispositioned.
+- **R22-1** (the specialist pass / dossier): ADVANCED — the hand-over
+  package was BUILT this window (Track C: `docs/dossiers/
+  DOSSIER_the_arithmetic_object_2026-07-18.md`, the summit-current
+  physics-free statement + the five named specialist gates + cc2's §3
+  bifocal anatomy). The external read itself remains the program's one
+  external dependency → carried as **R23-1**.
+- **R22-2** (the web seat's L95 prereg verify-on-receipt): never landed
+  → carried as **R23-2**.
+- **R22-6** (the generation-leg adjudication on landing): RESOLVED — the
+  leg LANDED and CLOSED this window. B685 KILLED-AT-SUPPORT → terminal
+  no-go theorem; the design cell STOPPED at the support pre-test (the
+  two-route disagreement caught a deeper question), so the one-shot was
+  spent honestly and never fired against the RR targets. The cc3 leg of
+  the sealed plan (353ca003) was not invoked — the leg closed at support
+  before any design shot, so the two-seat + chat1 gate carried it; the
+  K020 silver control never triggered (no hit to control). `[x]`
+- **R22-7** (H-EAR / H-CUSP endgame): H-CUSP is now a **banked predictive
+  principle, 3/3 objects** (B672/B675 — golden/silver/bronze) → that half
+  resolved. H-EAR's "L91 endgame" was reframed by B685: the hearing is
+  COUPLING, not generated, so the endgame is the observer-coupling closure
+  rather than a generation proof. The formal principle-status of H-EAR
+  carries → **R23-3**.
+- R22-3/-4/-5 remain `[x]` (banked B677/B676/2026-07-18).
+
+**The declared modulus (item 2):** 51 first-parent merges (#1095–#1145),
+B674–B697 read in full (the banking seat authored the majority this
+session, so recall is direct, not sampled). Gates re-run 8/8 twice this
+review; the full pytest suite (2428 locks) NOT re-run this review —
+trusted-green from B676's in-window 2428/0 baseline + the incremental
+per-arc locks (test_b685…test_b697, all added green); OA_SLOW not run.
+The standing pilot caveat holds (author = reviewer); the counterweight —
+the two/three-seat receipt loop — ran at the program's historical maximum
+this window: the generation-leg two-route design gate, the **VERIFY-M
+triple-gate** (origin + cc2 replication + cc machine) on both no-go
+pillars, the Frobenius two-seat convergence (cc/cc2 on chat1's claim), the
+conductor-15 two-model isogeny match, and TWO reciprocal cross-seat
+corrections owned in-window (E16 cc2→cc chirality; the §3 melody-period
+cc→cc2). This review can certify: the arcs' internal math + locks + the
+firewall discipline. It cannot certify: external novelty (R23-1) or the
+untouched slow suite.
+
+**(3) Advancement — the record's MOST CONSEQUENTIAL window.** The
+program's central ambition reached a proven terminal statement. Headline:
+**the generation leg closed as a terminal no-go (B685) — the object
+generates its being, not its hearing — realizing the observer-coupling
+thesis for a concrete structure, with its arithmetic root proven
+(B691, the totient asymmetry) and its mechanism named two-seat (B697,
+Frobenius gluing at inert 5).** The entire being face was mapped (the
+Eisenstein campaign E-1..E-4, B689–B696 + the EISENSTEIN_ATLAS), mirroring
+the golden ATLAS v2. New THEOREM/LAW rows: the golden-rotation law (B674,
+THEOREM-grade); the figure-eight's curve = 15a8 / conductor 15 (B674,
+THEOREM-grade + isogeny confirmed two-model); the divided-power law
+(B683, THEOREM, proved unconditional all-n + all-prime corollary);
+volume = being-character L-value (B680, LAW, exact); Mahler = being volume
+≠ elliptic K₂ (B683/L3, LAW + bounding negative); deaf = non-CM (B675,
+candidate THEOREM, 3 legs); the silver octic in the silver ratio (S1/T6,
+THEOREM two-seat); H-CUSP + the quantization-index=conductor law (B675,
+predictive principle 3/3); the sum-rule = theorem of the cubic (B684/G1);
+the own-channel level-2 law (B684/G2); the D4 value catalogue closed +
+golden period 20 (B684/G3); the totient root (B691); the level-15
+handshake (B695); the 5-adic exclusion / W2 Molien kill #8 + the
+exponentiation design theorem (W2). STUCK-LONGEST (unchanged): the
+external specialist bar — unmovable internally by construction (R21-7 →
+R22-1 → R23-1). OVERREACH: two caught and corrected IN-window (E15 the
+{3,5} misread → B685; E16 the chirality over-read → B695, S067 row 3
+falsified); cc2's independent §6 status pass over the hearing/chord
+LAW_MAP rows [FOLD-IN PENDING — cc2 packet in flight] flags any label
+still exceeding its evidence.
+
+**(4) Error-class recurrence.** All three window self-corrections are
+ledgered (ERROR_LEDGER E15 line 27, E16 line 29, E12 line 22). The
+RECURRING class this window is **"over-reading a generic feature as
+special"** (the base-rate / numerology family): E15 (the {3,5} source
+misread, manufacturing a spurious hearing-prime out of powers of 3) and
+E16 (opposite Atkin-Lehner signs — a generic even-rank fact, verified
+14a/26a/57a — read as emergent chirality) are both this class. E12 is a
+re-hardening of the pre-existing global-state (dps) class, not a reasoning
+recurrence. NO new class lacks an entry. The standing rule that catches
+E16 — COMMS_PROTOCOL §4's MANDATORY base-rate + convention gate ("is this
+feature generic across the family?" surfaces AL-signs ⟺ even-rank before
+banking) — was ADDED this window (COMMS v1.1), partly in response to E16,
+closing the loop. That the record's most physics-facing window produced
+exactly ONE reasoning-error class, both instances caught and corrected
+two-seat in-window, is the discipline holding at its hardest test.
+
+**(5) The provenance spot-sweep.** CLEAN on both load-bearing checks.
+External-verification pretense: ZERO hits across the six public dossier/
+atlas/speculation files + 21 in-window FINDINGS — every "independent /
+independently / confirmed" is internal (cc / cc2 / main-seat, per COMMS
+v1.1), and the one external fetch (cc2's arXiv e-print pull for VERIFY-M)
+checks *against* the literature, not claiming its endorsement. The summit
+dossier is explicitly honest — "internally verified (two seats + machine
+locks)", the specialist read named as "the program's ONE external
+dependency", still unfulfilled. Papers: no PAPER.md touched in-window; the
+portfolio's status labels hold (PC22 needs-specialist, P4 patches-pending,
+Tier 3 "do NOT dress these as contributions"). ONE gap (action, not a
+failure): the eight load-bearing window terms — Frobenius gluing,
+divided-power law, totient root, being/hearing face, the two hands,
+conductor-15, deaf=non-CM — lack dedicated TERMINOLOGY glosses (adjacent
+coverage exists); and the review template mis-points to
+`docs/TERMINOLOGY.md` (the file is at repo root). → R23-5.
+
+**(6) The §5.1 promotion sweep.** Everything stays behind the specialist
+bar; Gate 5 held with ZERO physics promotions despite the window turning
+toward the physics-facing side. Three physics-adjacent claims were
+FIREWALLED with their kills this window: the Koide claim (B686 — Q=2/3 is
+a 120° parametrization tautology; θ₀=2/9 convention-dependent + base-rate);
+the SM atlas (B687 — 1 live sealed-question candidate, explicitly NOT
+evidence); chat1's surgery chain (B688 — math-sound, SM-firewalled). The
+specialist queue GREW with the summit: the observer-coupling closure
+(B685), the totient root (B691), conductor-15 novelty vs Borot–Eynard
+(B674/B692), the Frobenius mechanism (B697). The summit dossier IS the
+processed hand-over package (its §7 lists the five gates). Nothing
+promoted to CLAIMS beyond the proven core.
+
+**(7) Protocol integrity.** The three whole-file prereg seals of the
+generation leg all recompute MATCH against their banked lines: PREREG_W2
+(b4c9a6bb, SEAL_LEDGER:148), PREREG_W3_DECISION (563a2858, :150),
+PREREG_W3_RUN (83c50a35, :157). Hash-first order HONORED — each seal
+commit strictly precedes its result-banking commits (W2 #1104 < #1105–07;
+W3_DECISION #1108 < #1109–10; W3_RUN #1126 < the support-STOP #1127 <
+B685 #1128), and each shows a single post-seal commit (never edited).
+Cross-seat as-received hashes also verify (W2 close-outs 57a1ddca,
+489aea17). TWO bookkeeping gaps (NOT integrity breaches): (a) the VERIFY-M
+prereg (146da991) is a cc2-seat file whose hash + results traveled to main
+but whose body is not banked here — expected for cross-seat, worth a
+cross-reference; (b) ADDENDUM_1's own sha8 (f99e8b59) is recorded nowhere
+though SEAL_LEDGER points to ARTIFACT_HASHES. → R23-6.
+
+### Action items (Review 23)
+- [>] R23-1: the specialist pass — the summit dossier is now the assembled hand-over package; the external read remains the program's one external dependency (carried from R22-1; source: PR #1144)
+- [>] R23-2: the web seat's L95 prereg — verify-on-receipt (carried from R22-2; never landed)
+- [>] R23-3: H-EAR's principle-status — reframed by B685 (the hearing is coupling); the formal statement carries (from R22-7; H-CUSP resolved 3/3 at B675)
+- [ ] R23-4: cc2's §6 theorem-inventory status pass — fold the hearing/chord LAW_MAP downgrade recommendations on landing (owner: cc2; source: the Track C division)
+- [ ] R23-5: add the 8 summit-term glosses to TERMINOLOGY.md (Frobenius gluing, divided-power law, totient root, being/hearing face, the two hands, conductor-15, deaf=non-CM); fix the review template's `docs/TERMINOLOGY.md` path → repo-root (owner: cc; source: this review's provenance sweep)
+- [ ] R23-6: seal bookkeeping — cross-reference the VERIFY-M prereg (146da991, cc2-seat) in main, and record ADDENDUM_1's own sha8 (f99e8b59) in ARTIFACT_HASHES where SEAL_LEDGER:152 points (owner: cc; source: this review's protocol-integrity check)
