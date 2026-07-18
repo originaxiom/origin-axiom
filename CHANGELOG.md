@@ -17,6 +17,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B685: the generation leg closes (terminal no-go theorem)
+
+- Design cell = KILLED-AT-SUPPORT. First principles: the figure-eight is
+  pure BEING (z^2-z+1=0, disc -3, trace field Q(sqrt-3), no intrinsic 5);
+  GSWZ's Habiro object is integral away from 3 (3^146 at n=100). Route B's
+  {2/5,3/5} required assuming the golden Nahm datum A=2 (delta=5) -- a
+  substitution; the genuine zeta_5 object is the four-class orbit. Both
+  intrinsic routes killed (Molien = algebraic integers, W2 kill #8;
+  Habiro = integral away from 3, B685). The object generates its being
+  (3) but not its hearing (5); the hearing enters only via the level-5
+  Gamma(5) coupling. The observer-coupling thesis, realized. B682 {3,5}
+  misread corrected (E15). The shot was never fired.
+
 ## 2026-07-18 — design cell gate 1 (support pre-test): STOP, shot not fired
 
 - The two independent support-class routes disagreed (Galois/eigenvalue:

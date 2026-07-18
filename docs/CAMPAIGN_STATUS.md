@@ -1217,3 +1217,8 @@ figure-eight's genuine ζ₅ Nahm datum the (2,5) two-class system or the
 four-class orbit?). Resolution required before the coefficient
 comparison: establish the object's Neumann–Zagier/Nahm datum from first
 principles. The sealed prereg (83c50a35) + the one-shot stand intact.
+
+GENERATION LEG: CLOSED (B685) — TERMINAL NO-GO. Design cell KILLED-AT-
+SUPPORT: figure-eight is pure being (disc -3, GSWZ 3-integral), no
+intrinsic 5; both routes killed; hearing = level-5 coupling datum. The
+object generates its being, not its hearing. B682 {3,5} corrected (E15).
