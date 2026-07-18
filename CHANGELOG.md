@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — W2 step (iii): KILLED — the 5-adic ring separation (kill #8)
+
+- The one-point candidate dies at n = 0/1, exactly and structurally:
+  Molien series of finite-order operators have algebraic-integer
+  coefficients (all 120 verified in Z[phi]); the targets carry
+  unboundedly growing 5-power denominators (v5 up to 146 by n = 119).
+  The sealed one-rational-constant freedom cannot bridge a Z[phi]-unit
+  gap at n = 0, and no fixed constant bridges growing v5. This closes
+  the whole finite-order-Molien class — the second instance of the W33
+  5-adic exclusion. The step-(ii) recognition shape (support {2/5,3/5},
+  doublet, swap = Galois) survives as structure. Both seats' gate data
+  stands; the kill is inside the gate-verified region.
+
 ## 2026-07-18 — THE W2 GATE: exact agreement; step (iii) unlocked
 
 - cc2's independent derivation (holomorphic-Lefschetz + Riemann-Roch,

@@ -1165,3 +1165,11 @@ W2 Molien cell (generation leg): gate PROCEED + (i) banked + (ii) PASS
 ({2/5, 3/5} landed; swap reproduced) — first survivor of the campaign;
 (iii) LOCKED pending cc2's gate; the V_k-reading pin awaits their
 adjudication. No coefficient compared anywhere.
+
+W2 step (iii): KILLED-AT-(iii) — the 5-adic ring separation (algebraic-
+integer Molien vs growing-v5 targets; kill #8, second instance of the
+W33 exclusion). The exponentiation law + the gate data + the step-(ii)
+shape all stand; the generation leg's candidate class is now provably
+integrality-blocked. Next: the wave-2 close-out adjudication (both
+seats) — whether the two-instance 5-adic law upgrades to the leg's
+terminal no-go.
