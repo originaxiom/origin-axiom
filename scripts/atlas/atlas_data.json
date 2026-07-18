@@ -14062,6 +14062,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B696": {
+   "slug": "eisenstein campaign close",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B671",
+    "B675",
+    "B685",
+    "B690",
+    "B691",
+    "B694",
+    "B695"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
