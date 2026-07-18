@@ -468,3 +468,13 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   g₃=161/216 are a sign CONVENTION (match a source), not "garbled"
   (softens B674); the robust invariants c₄=1,c₆=−161,Δ=−15,j=−1/15 agree.
   Atkin–Lehner W₃=+1,W₅=−1 reconciles with a₃=−1,a₅=+1 (w_p=−a_p).
+- WHERE THE GOLDEN LIVES (B697, chat1 adjudicated SOUND): the golden
+  enters at the ζ5 EVALUATION of the figure-eight's GSWZ Habiro element
+  (φ = ζ5+ζ5^4+1, a Gaussian period; verified), via the Frobenius gluing
+  at the INERT prime 5 (nontrivial; trivial at ramified 3 — B691's totient
+  split in GSWZ's language). NOT in the object (B685/B694 stand); the
+  coupling/evaluation face — the observer-coupling thesis with a mechanism.
+  FIREWALL: 'ζ5 ring has φ' is trivial (generic Gaussian period); the real
+  computation is the figure-eight's SPECIFIC f5(x) coefficients in
+  Z[ω,ζ5][1/3] = the golden×being cross-synthesis, a FRESH-GO new loop;
+  SM-match = Gate 5 + mandatory base-rate.

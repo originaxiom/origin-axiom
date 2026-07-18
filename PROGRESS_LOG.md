@@ -6551,3 +6551,15 @@ CHARTER (completeness critic + re-pricing); residue priced only. The
 Eisenstein ATLAS banked (docs/anatomy/EISENSTEIN_ATLAS.md). The being
 face is mapped from every angle. Loop-scope: campaign CLOSED; next = fresh
 go. Lock test_b696_golden_only.
+
+2026-07-18 (main seat) — B697: chat1's Frobenius-gluing claim adjudicated
+SOUND (the best chat1 claim). VERIFIED φ=ζ5+ζ5^4+1 (Gaussian period). The
+golden enters at the ζ5 EVALUATION (Habiro face, ℤ[ω,ζ5]) via the
+Frobenius gluing at the inert 5 — NOT in the object (B685/B694 stand,
+automorphic Hecke rational; different invariant). CONSISTENT: the
+observer-coupling thesis with a GSWZ mechanism; the 3-ramified/5-inert
+gluing split = B691's totient asymmetry. FIREWALL: 'ζ5 ring has φ' is
+trivial (generic period); the non-trivial f5(x) coefficient computation
+= the golden×being cross-synthesis, a FRESH-GO new loop, SM-match Gate-5
++ base-rate. Banked as lead + next-loop candidate, not an object result.
+Lock test_b697.
