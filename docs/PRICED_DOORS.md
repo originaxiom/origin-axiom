@@ -37,3 +37,9 @@ computation), exact-first arithmetic, atlas/FAILURE_ATLAS consult, promotion onl
 §5 gates, nothing physics-adjacent promoted, hardware execution (PD1.3's far end) is an OWNER
 decision outside this campaign's scope — the in-sandbox deliverable is the compiled circuit +
 its exact simulation.
+
+- **The engine_v7 gate_report upstream patch** (from B678): the shared
+  engine recomputes an O(N³) product per (i,j) — O(N⁵) per call; cc2's
+  compute-once scan is O(N²) (hours → seconds at N ≥ 40). Price: patch
+  in place + prove behavioral equivalence against every existing lock
+  that imports it before merge. Payoff: every future high-level cell.
