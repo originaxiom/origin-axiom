@@ -1,0 +1,47 @@
+--- veins/v7_conduit/engine_v7.py	(current)
++++ veins/v7_conduit/engine_v7.py	(patched: gate_report compute-once)
+@@ -237,20 +237,38 @@
+ 
+ 
+ def gate_report(S, T, label=""):
+-    """Standard modular-data gates, mpmath high precision."""
++    """Standard modular-data gates, mpmath high precision.
++
++    Compute-once form (B678 finding, upstreamed): each gate's matrix
++    expression is evaluated ONCE and then scanned in O(N^2).  The previous
++    form placed the full matrix expression inside the max(...) generator
++    body, so Python re-evaluated the O(N^3) product on EVERY (i,j) step --
++    O(N^5) per gate (the mechanism behind the multi-hour high-level runs).
++    Every expression below is verbatim the old one (same operands, same
++    order, hoisted only), so all outputs are bit-identical to the old code:
++    mpmath ops are deterministic at fixed precision, and the old code's N^2
++    re-evaluations of an identical expression all produced the identical
++    matrix whose (i,j) entry it then read.  rho_A1_matrix is unchanged
++    (its LU inversions are computed once already and are kept so the
++    'two_word' deviation stays bit-identical)."""
+     N = S.rows
+     I = mp.eye(N)
+     rep = {}
+-    rep['unitary'] = max(abs((S * S.conjugate().transpose() - I)[i, j])
++    D_unitary = S * S.conjugate().transpose() - I
++    rep['unitary'] = max(abs(D_unitary[i, j])
+                           for i in range(N) for j in range(N))
+-    rep['symmetric'] = max(abs((S - S.transpose())[i, j]) for i in range(N) for j in range(N))
++    D_symmetric = S - S.transpose()
++    rep['symmetric'] = max(abs(D_symmetric[i, j]) for i in range(N) for j in range(N))
+     C2 = S * S
+     STcubed = (S * T) ** 3
+-    rep['(ST)^3=S^2'] = max(abs((STcubed - C2)[i, j]) for i in range(N) for j in range(N))
+-    rep['S^4=I'] = max(abs(((S * S) ** 2 - I)[i, j]) for i in range(N) for j in range(N))
++    D_st3 = STcubed - C2
++    rep['(ST)^3=S^2'] = max(abs(D_st3[i, j]) for i in range(N) for j in range(N))
++    D_s4 = (S * S) ** 2 - I
++    rep['S^4=I'] = max(abs(D_s4[i, j]) for i in range(N) for j in range(N))
+     rho, w2, dev = rho_A1_matrix(S, T)
+     rep['two_word'] = dev
+-    rep['rho_unitary'] = max(abs((rho * rho.conjugate().transpose() - I)[i, j])
++    D_rho_unitary = rho * rho.conjugate().transpose() - I
++    rep['rho_unitary'] = max(abs(D_rho_unitary[i, j])
+                               for i in range(N) for j in range(N))
+     if label:
+         print(f"--- gates: {label} ---")

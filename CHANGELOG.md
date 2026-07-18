@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — B679: the engine_v7 gate_report patch (prepared + verified)
+
+- The B678 priced door, discharged to correctness: gate_report's O(N^5)
+  per-(i,j) matrix recomputation hoisted to O(N^2) compute-once (one hunk;
+  rest of file byte-identical). Main-seat bit-identical recomputation
+  (old vs patched, same S,T, all gates + rho, N=3..15) + the agent's
+  bit-for-bit battery through N=28, an N=55 real-call-site agreement vs
+  the banked log, and 18 green locks. Speedups 9.4x/67x/221x at N=6/15/28.
+  The engine is a seat conduit (not repo-tracked); deployment is the
+  conduit owners' to execute, the verified patch is banked in B679.
+
 ## 2026-07-18 — the Ramanujan trifocal: silver theorem + 15A8 + golden legs
 
 - The silver octic closes in the silver ratio, now a THEOREM (U^2 +

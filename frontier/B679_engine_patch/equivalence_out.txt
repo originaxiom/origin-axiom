@@ -1,0 +1,59 @@
+== (0) file-level: patched differs from current ONLY inside gate_report
+  [ok] sources identical outside gate_report (current lines (239, 259), patched lines (239, 277))
+== (1) exact/rational + build path bit-identical between modules
+  [ok] An_Level(3, 2) positional: PRIM identical (N=6)
+  [ok] An_Level(3, 2) positional: exact h (Fractions) and c identical
+  [ok] An_Level(3, 2) positional: theta_split identical
+  [ok] An_Level(3, 2) positional: S bit-identical
+  [ok] An_Level(3, 2) positional: T bit-identical
+  [ok] An_Level(3, 3, name=...): PRIM identical (N=10)
+  [ok] An_Level(3, 3, name=...): exact h (Fractions) and c identical
+  [ok] An_Level(3, 3, name=...): theta_split identical
+  [ok] An_Level(3, 3, name=...): S bit-identical
+  [ok] An_Level(3, 3, name=...): T bit-identical
+  [ok] An_Level(n=3, k=2, name=...) keyword: PRIM identical (N=6)
+  [ok] An_Level(n=3, k=2, name=...) keyword: exact h (Fractions) and c identical
+  [ok] An_Level(n=3, k=2, name=...) keyword: theta_split identical
+  [ok] An_Level(n=3, k=2, name=...) keyword: S bit-identical
+  [ok] An_Level(n=3, k=2, name=...) keyword: T bit-identical
+  [ok] An_Level(2, 3) (SU(2)_3, engine's own validation case): PRIM identical (N=4)
+  [ok] An_Level(2, 3) (SU(2)_3, engine's own validation case): exact h (Fractions) and c identical
+  [ok] An_Level(2, 3) (SU(2)_3, engine's own validation case): theta_split identical
+  [ok] An_Level(2, 3) (SU(2)_3, engine's own validation case): S bit-identical
+  [ok] An_Level(2, 3) (SU(2)_3, engine's own validation case): T bit-identical
+== (2)+(3) gate_report old vs patched: bit-identity + timing
+  (rho_A1_matrix / verlinde_N cross-checks included at small N)
+-- SU(2)_3: N=4  (old is O(N^5): may take a while at large N)
+  [ok] SU(2)_3: rep dict bit-identical incl. key order ['unitary', 'symmetric', '(ST)^3=S^2', 'S^4=I', 'two_word', 'rho_unitary']
+  [ok] SU(2)_3: rho matrix bit-identical
+  [ok] SU(2)_3: label= printed output character-identical
+  [ok] SU(2)_3: rho_A1_matrix outputs bit-identical
+  [ok] SU(2)_3: verlinde_N bit-identical
+   old      0.035 s   patched    0.007 s   speedup x      5.2
+-- SU(3)_1: N=3  (old is O(N^5): may take a while at large N)
+  [ok] SU(3)_1: rep dict bit-identical incl. key order ['unitary', 'symmetric', '(ST)^3=S^2', 'S^4=I', 'two_word', 'rho_unitary']
+  [ok] SU(3)_1: rho matrix bit-identical
+  [ok] SU(3)_1: label= printed output character-identical
+  [ok] SU(3)_1: rho_A1_matrix outputs bit-identical
+  [ok] SU(3)_1: verlinde_N bit-identical
+   old      0.015 s   patched    0.005 s   speedup x      3.1
+-- SU(3)_2: N=6  (old is O(N^5): may take a while at large N)
+  [ok] SU(3)_2: rep dict bit-identical incl. key order ['unitary', 'symmetric', '(ST)^3=S^2', 'S^4=I', 'two_word', 'rho_unitary']
+  [ok] SU(3)_2: rho matrix bit-identical
+  [ok] SU(3)_2: label= printed output character-identical
+  [ok] SU(3)_2: rho_A1_matrix outputs bit-identical
+  [ok] SU(3)_2: verlinde_N bit-identical
+   old      0.266 s   patched    0.028 s   speedup x      9.4
+-- SU(3)_4: N=15  (old is O(N^5): may take a while at large N)
+  [ok] SU(3)_4: rep dict bit-identical incl. key order ['unitary', 'symmetric', '(ST)^3=S^2', 'S^4=I', 'two_word', 'rho_unitary']
+  [ok] SU(3)_4: rho matrix bit-identical
+  [ok] SU(3)_4: label= printed output character-identical
+  [ok] SU(3)_4: rho_A1_matrix outputs bit-identical
+   old     19.454 s   patched    0.289 s   speedup x     67.3
+-- SU(3)_6: N=28  (old is O(N^5): may take a while at large N)
+  [ok] SU(3)_6: rep dict bit-identical incl. key order ['unitary', 'symmetric', '(ST)^3=S^2', 'S^4=I', 'two_word', 'rho_unitary']
+  [ok] SU(3)_6: rho matrix bit-identical
+  [ok] SU(3)_6: label= printed output character-identical
+  [ok] SU(3)_6: rho_A1_matrix outputs bit-identical
+   old    444.008 s   patched    2.006 s   speedup x    221.3
+-- SU(3)_8: N=45  (old is O(N^5): may take a while at large N)

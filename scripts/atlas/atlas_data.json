@@ -13754,6 +13754,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B679": {
+   "slug": "engine patch",
+   "motifs": [],
+   "refs": [
+    "B673",
+    "B678"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B67": {
    "slug": "figure eight apolynomial",
    "motifs": [

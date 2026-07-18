@@ -1,0 +1,54 @@
+[b678_d4_ceiling] running (timeout 7200s)...
+[b678_d4_ceiling] PASS(note)  ran to completion; G0 modular battery PASS k=1..12; 9 banked OLD-engine gate blocks reproduced character-exactly; cell exits 1 via its own pre-annex G1 det(w0) convention (engine-independent, superseded by B678 d4_level.py)
+[b673_d4_ceiling] running (timeout 7200s)...
+[b673_d4_ceiling] PASS(note)  ran to completion; G0 modular battery PASS k=1..12; 9 banked OLD-engine gate blocks reproduced character-exactly; cell exits 1 via its own pre-annex G1 det(w0) convention (engine-independent, superseded by B678 d4_level.py)
+[b678_d4_level_k2] running (timeout 3600s)...
+[b678_d4_level_k2] PASS  rerun JSON == banked JSON (structural, exact)
+[b651_d4_su3_run] running (timeout 3600s)...
+[b651_d4_su3_run] PASS  rerun JSON == banked JSON (structural, exact)
+[b670_b4_landscape] running (timeout 3600s)...
+[b670_b4_landscape] PASS(note)  byte-identical copy executed (cell writes into its own dir); json diffs: /runtime_s: 41.64910006523132 vs 36.47185182571411
+[b663_a3_stage] running (timeout 3600s)...
+[b663_a3_stage] PASS  rerun JSON == banked JSON (structural, exact)
+[b670_c3_signtable] running (timeout 7200s)...
+[b670_c3_signtable] PASS  rerun JSON == banked JSON (structural, exact)
+[b646_q2_mechanism] running (timeout 1800s)...
+[b646_q2_mechanism] PASS  
+[b646_q2_conductor] running (timeout 1800s)...
+[b646_q2_conductor] PASS  
+[b646_n4_receipt] running (timeout 1800s)...
+[b646_n4_receipt] PASS  
+[b646_n2_su3_13] running (timeout 1800s)...
+[b646_n2_su3_13] PASS  
+[b646_n2_clock_predict] running (timeout 1800s)...
+[b646_n2_clock_predict] PASS  
+
+== tracked pytest locks (patched engine pre-injected) ==
+[pytest:test_b678_d4_annex.py] PASS  3 passed in 0.22s
+[pytest:test_b651_wave3.py] PASS  3 passed in 1.28s
+[pytest:test_b646_wave2.py] PASS  3 passed in 0.23s
+[pytest:test_b663_bifocal.py] PASS  4 passed in 0.72s
+[pytest:test_b670_anatomy.py] PASS  2 passed in 0.21s
+[pytest:test_b570_ap2.py] PASS  8 passed in 9.36s
+
+== LOCK RERUN SUMMARY (patched engine injected as 'engine_v7') ==
+  b678_d4_ceiling               PASS(note)  -- ran to completion; G0 modular battery PASS k=1..12; 9 banked OLD-engine gate blocks reproduced character-exactly; cell exits 1 via its own pre-annex G1 det(w0) convention (engine-independent, superseded by B678 d4_level.py)
+  b673_d4_ceiling               PASS(note)  -- ran to completion; G0 modular battery PASS k=1..12; 9 banked OLD-engine gate blocks reproduced character-exactly; cell exits 1 via its own pre-annex G1 det(w0) convention (engine-independent, superseded by B678 d4_level.py)
+  b678_d4_level_k2              PASS  -- rerun JSON == banked JSON (structural, exact)
+  b651_d4_su3_run               PASS  -- rerun JSON == banked JSON (structural, exact)
+  b670_b4_landscape             PASS(note)  -- byte-identical copy executed (cell writes into its own dir); json diffs: /runtime_s: 41.64910006523132 vs 36.47185182571411
+  b663_a3_stage                 PASS  -- rerun JSON == banked JSON (structural, exact)
+  b670_c3_signtable             PASS  -- rerun JSON == banked JSON (structural, exact)
+  b646_q2_mechanism             PASS
+  b646_q2_conductor             PASS
+  b646_n4_receipt               PASS
+  b646_n2_su3_13                PASS
+  b646_n2_clock_predict         PASS
+  pytest:test_b678_d4_annex.py  PASS  -- 3 passed in 0.22s
+  pytest:test_b651_wave3.py     PASS  -- 3 passed in 1.28s
+  pytest:test_b646_wave2.py     PASS  -- 3 passed in 0.23s
+  pytest:test_b663_bifocal.py   PASS  -- 4 passed in 0.72s
+  pytest:test_b670_anatomy.py   PASS  -- 2 passed in 0.21s
+  pytest:test_b570_ap2.py       PASS  -- 8 passed in 9.36s
+
+18 cells attempted, 0 FAIL/TIMEOUT.
