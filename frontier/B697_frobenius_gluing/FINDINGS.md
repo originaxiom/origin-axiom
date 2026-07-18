@@ -50,3 +50,27 @@ Banked as a LEAD + a named next-loop candidate (the ζ₅-evaluation cross-
 synthesis), NOT a result about the object. It names the coupling
 mechanism and confirms the thesis; it does not reopen the generation
 leg. Fresh owner go required to compute f₅(x). Lock: test_b697.
+
+## ADDENDUM (two-seat convergence + cc2's sharpening, 2026-07-18)
+
+cc2 independently adjudicated (sha 4b8d5791) and CONVERGED: gift = the
+Frobenius mechanism (adopt); trap = the tautology (firewall); and the
+sharper point ADOPTED here — the f₅ computation is SUPERSEDED, not just
+fresh-go. B685 already ran the ζ₅ Habiro object (→ four-class BEING
+orbit, which killed the generation leg at support) and B694 showed the
+inert-5 Hecke is being (forced); so f₅'s coefficients are being-
+arithmetic and the golden splitting of ℚ(ζ₅) is PASSIVE. Re-running
+"check f₅ for the golden" without a NEW forcing theorem is F1-resurgence.
+
+WHICH-Δ (cc2's flag, resolved this seat): it does not matter — every
+relevant discriminant of the figure-eight is 3-based (trace-field disc
+−3, shape disc −3, Habiro denominator prime 3), NONE 5-based, because
+the object is being all the way (B685). So 3|Δ (trivial gluing) / 5∤Δ
+(nontrivial) hold robustly; the mechanism is convention-independent.
+
+The ONE surviving non-tautological question (high-risk, prior = passive,
+fresh-go, forced-only with the tautology as its explicit falsifier):
+does the being object's f₅ DATA interact non-trivially with the golden
+Gaussian-period splitting beyond "φ ∈ the ring"? cc2's one-liner (banked):
+chat1 named the door's mechanism correctly — but B685 already opened the
+door and found being behind it.
