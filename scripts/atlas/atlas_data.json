@@ -13911,6 +13911,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B687": {
+   "slug": "sm atlas koide",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B686",
+    "S067"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

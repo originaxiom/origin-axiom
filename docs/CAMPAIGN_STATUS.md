@@ -1222,3 +1222,9 @@ GENERATION LEG: CLOSED (B685) — TERMINAL NO-GO. Design cell KILLED-AT-
 SUPPORT: figure-eight is pure being (disc -3, GSWZ 3-integral), no
 intrinsic 5; both routes killed; hearing = level-5 coupling datum. The
 object generates its being, not its hearing. B682 {3,5} corrected (E15).
+
+EISENSTEIN-FACE TURN (B687): first result. SM atlas = 1 LIVE of 23
+(Koide). h(27)=2/3 (E6 lvl 1, the generations' rep) = Koide's scale-free
+2/3 constraint (45deg) — the most-motivated sealed-question candidate,
+NOT evidence (B686 tautology). E1 (forced-vs-generic) + E2 (level-15
+handshake) running. Mass values (delta) firewalled. Both seats converged.
