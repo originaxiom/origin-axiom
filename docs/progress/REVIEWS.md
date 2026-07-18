@@ -1455,3 +1455,5 @@ though SEAL_LEDGER points to ARTIFACT_HASHES. → R23-6.
 - [ ] R23-4: cc2's §6 theorem-inventory status pass — fold the hearing/chord LAW_MAP downgrade recommendations on landing (owner: cc2; source: the Track C division)
 - [ ] R23-5: add the 8 summit-term glosses to TERMINOLOGY.md (Frobenius gluing, divided-power law, totient root, being/hearing face, the two hands, conductor-15, deaf=non-CM); fix the review template's `docs/TERMINOLOGY.md` path → repo-root (owner: cc; source: this review's provenance sweep)
 - [ ] R23-6: seal bookkeeping — cross-reference the VERIFY-M prereg (146da991, cc2-seat) in main, and record ADDENDUM_1's own sha8 (f99e8b59) in ARTIFACT_HASHES where SEAL_LEDGER:152 points (owner: cc; source: this review's protocol-integrity check)
+
+anchor-commit: `1d47009` (Review 23)
