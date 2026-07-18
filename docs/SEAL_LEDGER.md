@@ -163,3 +163,5 @@ hash-first status.*
 | B699 two-object surgery (cc2-seat prereg + addenda; forced-only, Gate 5) | (cc2 seat-work; hash + results traveled) | 67e3d37b (cross-ref) | 2026-07-19 | the two-object test: falsifier fired, hearing reframed as a bundle phenomenon; cc gate = Whitehead 120 + fig-8 15600 independently recomputed |
 
 | B700 cell 1 PREREG (the golden measurement torsor) | frontier/B700_fiber_functor/PREREG_CELL1.md | 1bbdb15b | 2026-07-19 | sealed before the verdict; outcome = TORSOR (measurement = fiber functor, ambiguity = Gal(Q(sqrt5)/Q)=Z/2) |
+
+| B700 cell 2 PREREG (the Z/2 uniformity) | frontier/B700_fiber_functor/PREREG_CELL2.md | 060aaaee | 2026-07-19 | sealed before the verdict; outcome = V4 (the 3 ambiguities are the 3 involutions of Gal(Q(sqrt-3,sqrt5)/Q); being*hearing=meeting) |

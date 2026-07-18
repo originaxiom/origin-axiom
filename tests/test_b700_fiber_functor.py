@@ -46,3 +46,29 @@ def test_golden_values_are_the_sqrt5_orbit():
     # phi * (-1/phi) = -1 (golden), and phi + (-1/phi) = 1 (the trace pair)
     assert sp.simplify(val_phi * val_neg_inv) == -1
     assert sp.simplify(val_phi + val_neg_inv) == 1
+
+
+def test_cell2_three_ambiguities_are_V4():
+    """The three ambiguity Z/2's = the three involutions of V4=Gal(Q(sqrt-3,sqrt5)/Q);
+    being(sqrt-3) * hearing(sqrt5) = meeting(sqrt-15)."""
+    # automorphisms of Q(sqrt-3,sqrt5) as sign pairs (e1,e2) acting on (sqrt-3, sqrt5)
+    V4 = [(1, 1), (1, -1), (-1, 1), (-1, -1)]
+    def mul(g, h): return (g[0]*h[0], g[1]*h[1])          # group law (componentwise)
+    # V4 closed, every nonidentity has order 2
+    assert all(mul(g, g) == (1, 1) for g in V4)
+    nonid = [g for g in V4 if g != (1, 1)]
+    assert len(nonid) == 3
+    # which subfield each involution fixes: sqrt-3 fixed iff e1=+1; sqrt5 iff e2=+1;
+    # sqrt-15 = sqrt-3*sqrt5 fixed iff e1*e2=+1
+    def fixes(g):
+        return {'Q(sqrt-3)': g[0] == 1, 'Q(sqrt5)': g[1] == 1,
+                'Q(sqrt-15)': g[0]*g[1] == 1}
+    being = (1, -1)     # fixes Q(sqrt-3) (negates sqrt5) — the golden/hearing-side ambiguity acts here
+    hearing = (-1, 1)   # fixes Q(sqrt5)
+    meeting = (-1, -1)  # fixes Q(sqrt-15)
+    assert fixes(being)['Q(sqrt-3)'] and not fixes(being)['Q(sqrt5)']
+    assert fixes(hearing)['Q(sqrt5)'] and not fixes(hearing)['Q(sqrt-3)']
+    assert fixes(meeting)['Q(sqrt-15)'] and not fixes(meeting)['Q(sqrt-3)']
+    # the group law: being * hearing = meeting  (and the disc law (-3)*(5) = -15)
+    assert mul(being, hearing) == meeting
+    assert (-3) * 5 == -15

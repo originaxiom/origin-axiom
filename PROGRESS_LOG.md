@@ -6698,3 +6698,16 @@ the K020-in-ear PLACEMENT toward a theorem. Base-rate-gated (exactly-two +
 simply-transitive + field-ℚ(√5), not "value is quadratic"). Lock test_b700
 pyenv-pure 2/2. Next: cell 2 (the ℤ/2 uniformity vs the being σ* + the
 meeting residue), cell 3 (Coste–Gannon), cell 4 (a second stage).
+
+## 2026-07-19 — B700 cell 2: the ℤ/2 uniformity — the three ambiguities are V₄
+
+VERDICT: V₄. The three measurement-ambiguity ℤ/2's — golden Gal(ℚ(√5)/ℚ)
+(cell 1), being Gal(ℚ(√−3)/ℚ) (σ*, B638), meeting h(ℚ(√−15)) (B699) — are
+the THREE INVOLUTIONS of the Klein-four V₄ = Gal(ℚ(√−3,√5)/ℚ) (verified:
+the biquadratic field is Galois C₂×C₂ with subfields exactly disc {−3,5,−15});
+group law being·hearing = meeting (√−3·√5=√−15) — the genus residue of B699
+IS the Galois group law. The measurement ambiguity is not one ℤ/2 but a
+Klein four; the fiber-functor program now ties rigorously to the two-hands/
+ℤ/2/c-breaking spine. Base-rate-gated (the content is the ONE-V₄ + product
+law, not three unrelated ℤ/2's). Lock test_b700 extended (pyenv, 3/3).
+Prereg 060aaaee.

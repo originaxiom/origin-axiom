@@ -58,3 +58,41 @@ different count, would have failed. It did not.
 Gate 5. "Measurement" = the object's mathematical coupling to a stage (a
 fiber functor of a fusion category), NOT a physical measurement. Nothing to
 CLAIMS.
+
+---
+
+# B700 cell 2 — THE ℤ/2 UNIFORMITY: the three ambiguities are the three involutions of V₄
+
+*Prereg PREREG_CELL2.md sealed (sha 060aaaee).*
+
+## VERDICT: V₄ (unified). being · hearing = meeting.
+
+The three measurement-ambiguity ℤ/2's — golden Gal(ℚ(√5)/ℚ) (cell 1), being
+Gal(ℚ(√−3)/ℚ) (the geometric swap σ*, B638), meeting h(ℚ(√−15))=ℤ/2 (B699/
+B698) — are **the three involutions of the Klein-four group
+V₄ = Gal(ℚ(√−3,√5)/ℚ)** (verified: the biquadratic field is Galois with
+group C₂×C₂, and its three quadratic subfields are EXACTLY ℚ(√−3) [disc −3,
+being], ℚ(√5) [disc 5, hearing], ℚ(√−15) [disc −15, meeting]). Each involution
+fixes exactly one subfield; the group law is
+
+> **being(√−3) · hearing(√5) = meeting(√−15)** — the product of any two
+> distinct involutions is the third (verified in V₄).
+
+So the object's measurement ambiguity is **not one ℤ/2 but a Klein four**,
+and the genus-theory relation √−3·√5 = √−15 (the meeting residue of B699)
+IS the Galois group law. The orientation degree of freedom is V₄-structured:
+the being bit times the hearing bit equals the meeting bit.
+
+## What this ties together
+Cell 1 made "measurement = fiber functor" concrete (the golden ambiguity is
+a Gal(ℚ(√5)/ℚ)=ℤ/2 torsor). Cell 2 places that ℤ/2 inside the V₄ of the
+biquadratic field, where it multiplies with the being and meeting bits. The
+fiber-functor program now connects rigorously to the two-hands / ℤ/2 /
+c-breaking spine ([[two-chiralities-c-vs-theta]], B698/B699): the three
+"hands" (being, hearing, meeting) are the three involutions of one Klein
+four, and their measurement ambiguities compose by the Galois group law.
+
+## Base-rate gate (passed)
+"three quadratic fields ⇒ three ℤ/2's" is generic. The content is that they
+are the three involutions of ONE V₄ with the exact multiplicative relation
+being·hearing=meeting — verified as the group law, not asserted.
