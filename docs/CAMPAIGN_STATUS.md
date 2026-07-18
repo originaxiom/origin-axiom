@@ -1173,3 +1173,9 @@ shape all stand; the generation leg's candidate class is now provably
 integrality-blocked. Next: the wave-2 close-out adjudication (both
 seats) — whether the two-instance 5-adic law upgrades to the leg's
 terminal no-go.
+
+W3 decision (generation leg): PREREG_W3_DECISION sealed — the
+two-seat independent enumeration of framework construction classes
+against the four exclusions; the S-depth-graded family is the named
+candidate-survivor. Loop 6 (cc2) and the frontier queue proceed in
+parallel; nothing blocks.

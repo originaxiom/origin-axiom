@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — W2 closed; the terminal enumeration sealed
+
+- cc2's close-out adopted and sharpened both ways: the surviving class
+  has a name (the depth-graded S-conjugation family — the targets' v5
+  growth is linear, verified, at the golden S-normalization), and the
+  decision criterion is sealed (563a2858) with the exclusions bounded
+  to their proven hypotheses, a third honest outcome
+  (multiple-survivors, owner-gated), and the stated universe. Both
+  seats enumerate independently under the W2 gate discipline.
+
 ## 2026-07-18 — W2 step (iii): KILLED — the 5-adic ring separation (kill #8)
 
 - The one-point candidate dies at n = 0/1, exactly and structurally:

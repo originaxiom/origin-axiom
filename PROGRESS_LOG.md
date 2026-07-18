@@ -6104,3 +6104,16 @@ survives: the step-(ii) shape (support {2/5,3/5}, doublet, swap =
 Galois conjugation) as the recognition-level structure. K020 not
 triggered. Verified on this seat (target ratio 3/5 exact; units
 non-rational). Locks tests/test_w2_step3_kill.py.
+
+2026-07-18 (main seat) — W2 CLOSED; PREREG_W3_DECISION SEALED
+(563a2858). cc2's close-out (57a1ddca, sha verified) adopted with
+three additions: E4's reach restricted to its proven hypotheses (no
+exclusion overclaim); the MULTIPLE-SURVIVORS outcome added (the
+criterion can fail — MB12); the sealed universe statement (the no-go
+is relative to the banked-object inventory, stated honestly). The
+v₅-linearity behind cc2's S-depth sharpening verified on this seat
+(secant slopes ∈ [1.205, 1.25]). The gate: both seats enumerate
+independently, exact agreement required. Outcomes: sole-survivor →
+one sealed design cycle; no-survivor → the terminal no-go banks as a
+theorem; multiple-survivors → owner-gated. The generation leg ends
+as mathematics either way.
