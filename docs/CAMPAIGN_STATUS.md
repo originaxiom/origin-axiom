@@ -1210,3 +1210,10 @@ freedoms, the ζ6-vs-ζ5 bifocal literature split). The program stands at
 ONE computation: the sealed design cell, on the owner's go, fresh
 session — candidate form cleared (block-vacuity), foundation
 theorem-grade (divided-power law).
+
+DESIGN CELL gate 1 (support pre-test): STOP — the shot is NOT fired.
+The two-route gate caught a substantive foundation question (is the
+figure-eight's genuine ζ₅ Nahm datum the (2,5) two-class system or the
+four-class orbit?). Resolution required before the coefficient
+comparison: establish the object's Neumann–Zagier/Nahm datum from first
+principles. The sealed prereg (83c50a35) + the one-shot stand intact.
