@@ -6506,3 +6506,14 @@ coherently, predicted) vs GOLDEN (B691 incomplete, surprise). Caveat: 5
 is both bad (5|15) and inert → bad-prime-inert Steinberg base change is
 the actual cell. Design relayed to cc2 (/relay). Loop E-3 awaits owner's
 go; the machine intakes cc2's packet directly.
+
+2026-07-18 (main seat) — B693: LOOP E-3 CC-SIDE (under owner's go). The
+inert-5 handshake, EXACT via base change: L(f_K,s)=L(f,s)L(f⊗χ₋₃,s), at
+the inert 5 (χ₋₃(5)=−1) gives (1−5⁻ˢ)(1+5⁻ˢ)=(1−25⁻ˢ) ⇒ a_(5)=+1
+(Steinberg). VERDICT: the handshake COUPLES (newform irreducible, B689)
+but the inert-5 (hearing) Hecke eigenvalue is the TRIVIAL +1 ∈ ℚ⊂ℚ(√−3)
+— NOT golden (φ), NOT 3². The BEING branch (predicted). chat1's
+inert-5-carries-φ hope KILLED; B691 CONFIRMED automorphically (golden's
+composite-totient richness NOT in the avatar). The two-hands meeting is
+real (couples) but being-arithmetic. CC-side gate artifact; cc2's
+independent Bianchi/LMFDB route awaited (relayed). Lock test_b693.

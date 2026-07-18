@@ -14003,6 +14003,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B693": {
+   "slug": "loop e3 inert5",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "B689",
+    "B691",
+    "S067"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
