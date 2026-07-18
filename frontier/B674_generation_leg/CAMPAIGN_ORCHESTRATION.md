@@ -45,9 +45,19 @@ DOES NOT LOOP (the sealed one-shot):
 
 ## THE SEQUENCE TO THE END
 
-STAGE 1 (NOW → days): complete the dictionary. cc extraction DONE;
-cc2+chat1 literature half; verify 1/(2φ) as a GSWZ special value
-(math). Parallel lanes LIVE. → the dictionary lands.
+STAGE 1 — COMPLETE (cc extraction + cc2 literature half, STAGE1_CC2).
+KEY FINDINGS that reshape the seal: (a) the {2/5,3/5} selection is a
+PROGRAM DATUM — GSWZ's 4_1 works at ζ_6 (being-side, level 6); the 4_1
+ζ_5 object (GZ eq 1.7) covers ALL FOUR classes as one Galois orbit, so
+nothing in the literature distinguishes {2/5,3/5}: THE DESIGN CELL MUST
+PRODUCE IT (strengthens GENERATION if matched; a named risk if not).
+(b) THE LITERATURE ITSELF SPLITS 4_1 BIFOCALLY: ζ_6 being-side (GSWZ)
+vs ζ_5 hearing-side (GZ) — external corroboration of the bifocal
+structure. (c) the hearing amplitude 1/(2φ) is NO-COUNTERPART (clean
+no-hit; a stage quantity, not a Habiro value). (d) NUMERATOR FREEDOM =
+EXACTLY TWO named choices: the √−δ sign (GSWZ Rmk 1.9) and the ε_α
+prefactor up to c-th powers (GZ 9.3-9.4) — the prereg freedom clause is
+these two, nothing else; Phase 2 is nearly deterministic.
 
 [CLEAN-CONTEXT RESET: integrate loop 6 + loop 7 packets + a state
 snapshot; open the design session on fresh context.]
