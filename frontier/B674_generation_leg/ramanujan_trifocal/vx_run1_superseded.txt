@@ -1,0 +1,22 @@
+SUPERSEDED first VX append (coefficient-order transcription slip in
+VX3/VX4: PSLQ coefficient lists are ASCENDING; the run-1 script read
+the R_s^5 octic as descending). Preserved byte-faithfully; corrected
+VX block now lives at the end of values_output.txt.
+----------------------------------------------------------------------
+
+## VX. EXACT CROSS-CHECKS (sympy, exact arithmetic)
+VX1 minpoly((2^(1/4)-1)/(2^(1/4)+1)) = x**4 - 12*x**3 + 6*x**2 - 12*x + 1
+    PSLQ found for U_s^2:            x**4 - 12*x**3 + 6*x**2 - 12*x + 1
+    match: True
+    |U_s^2 - (2^(1/4)-1)/(2^(1/4)+1)| = 1.8e-221 (dps 220) -> PASS
+VX2 minpoly(((2^(1/4)-1)/(2^(1/4)+1))^2) = x**4 - 132*x**3 - 250*x**2 - 132*x + 1
+    PSLQ found for U_s^4 = k16:        x**4 - 132*x**3 - 250*x**2 - 132*x + 1
+    match: True
+VX3 Res_t(tR_s-quartic, y^2+(11+t)y-1) divisible by the R_s^5 octic: False (quotient = 1)
+VX4 k48 octic palindromic (k <-> 1/k conjugate): True
+    R_s^5 octic satisfies P(x) = x^8 P(-1/x)  (y <-> -1/y, the RR unit structure): True
+    tR_s quartic constant term = 244140625 = 5^12: True  (the level-5 eta variable carries a pure 5-power norm: the 5-vein shape)
+    V_s^3 octic leading coeff 2097152 = {2: 21} (=2^21); |c7| = 134217728 = {2: 27} (=2^27): denominator is a pure 2-power
+VX5 |j(2*sqrt3*i) - (1417905000 + 818626500*sqrt3)| = 5.16e-305 (dps 320) -> PASS
+    H_-48 coefficient factorizations: 2835810000 = {2: 4, 3: 6, 5: 4, 389: 1}; 6549518250000 = {2: 4, 3: 9, 5: 6, 11: 3}
+VX6 |U_s - Uh_s| = 1.07e-11  (the literal product sits ~1e-11 from the modular value at silver; PSLQ non-identification of Uh is therefore consistent-with, not proof-of, transcendence - the discriminating fact is the exact identity Uh = sqrt2 q^(1/4) eta(tau)/eta(4tau), control C5)

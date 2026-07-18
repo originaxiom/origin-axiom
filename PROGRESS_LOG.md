@@ -6152,3 +6152,13 @@ depth is purely golden); the targets are 5-adically a genuine
 exponential (divided powers); class 7's design obligation sharpened to
 the exact per-n test. Locks: test_divided_power_law.py. The design
 cycle awaits the owner's go.
+
+2026-07-18 (main seat) — RAMANUJAN S1 BANKED-VERIFIED: the silver
+octic at its own certified cusp (τ = 2i) is a CLOSED FORM in the
+silver ratio — 2U² + 1/(2U²) = 2δ² (verified here to 6e−60; minpoly
+identity exact; norm-1 unit mirror). The metallic–Ramanujan
+correspondence is real on the silver (proof-grade numerics; modular-
+equation certification + prior-art = named follow-ons, no novelty
+claim). cc2's MB15 owned correction banked. The trifocal adjudication
+stands: golden/silver value-level tests well-posed (CM points),
+bronze leg refuted by the S₄ certification. My golden/j cell runs.

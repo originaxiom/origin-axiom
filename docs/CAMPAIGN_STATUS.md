@@ -1185,3 +1185,8 @@ family, sole survivor; L-A/L-B sealed; two disagreements banked and
 routed). The divided-power law banked (the exact per-n falsifier).
 Awaiting: the completeness pass (web seat) on the agreed list + F2;
 the owner's go for the single sealed design cycle.
+
+Ramanujan trifocal (adjudicated): silver S1 VERIFIED (octic = closed
+form in delta at the certified cusp); bronze value-leg refuted (S4,
+no CM); golden T1-T7 running on the main seat. Group-level McKay rows
+were already banked; the value-level story is now half-confirmed.
