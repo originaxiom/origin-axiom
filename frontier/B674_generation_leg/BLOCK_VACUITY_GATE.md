@@ -38,9 +38,14 @@ independent but θ-graded.
 ## CONSEQUENCE
 
 The candidate is confirmed as **block-decomposed Φ·τΦ** (not the plain
-construction). The Phase-1 seal may name it. cc2's independent S2
-(higher Casimirs in the principal lift) corroborates when it lands —
-expected agreement (both routes conclude independence via the Casimir).
+construction). The Phase-1 seal may name it. cc2's independent S2 (STAGE1_CC2/S2) CORROBORATES: weight-sum
+non-proportionality (Vandermonde in φ⁴) + the distinct B581 torsions —
+two-seat AGREEMENT on the PASS. NAMED RESIDUAL for the seal: cc2's
+det-product normalization τ_red(V_{2e}) = ∏(2−L_{4k}) (−5, 158760000, …;
+τ_red(V₂) = −5 = −golden conductor) vs B581's Δ′_m(1) (−3, 260736, …;
+−3 = −being value) — same distinctness, different normalization; the
+seal must cite the exact det-product↔Δ′(1) identity, not the
+plausibility.
 
 ## What the GO has and has NOT triggered
 

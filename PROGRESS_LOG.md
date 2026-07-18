@@ -6325,3 +6325,17 @@ IS the B581 torsion spectrum; the sign law (−1)^m means the blocks are
 block-decomposed Φ·τΦ. The GO cleared the precondition; the one-shot
 still gated on Stage-1 completion + the two-seat coefficient gate +
 fresh session. Lock test_block_vacuity.py.
+
+2026-07-18 (main seat) — B684: LOOP 7 CLOSED + ATLAS v2 integrated
+(cc2's final anatomy packet 8ece2bf9; the discovery phase complete per
+the CHARTER). G1 sum-rule = cubic theorem (kernel (1,0,(7983360/13)ω)
+derived); G2 own-channel level-2 law (golden 1/φ@SU3₂, silver 1/δ@SU4₂);
+G3 the B678 dark cell IDENTIFIED (1.785 = √(5+2√3−2√2−√6) exact, verified
+this seat) + golden period=20 proven; G4 McKay 9/11 partial. ATLAS v2
+(ca9a99ea) = the complete map. S2 block-vacuity CORROBORATED two-seat
+(Vandermonde φ⁴ + distinct torsions), normalization residual named
+(det-product −5=golden vs Δ′(1)=−3=being). STAGE 1 COMPLETE: {2/5,3/5}
+is a PROGRAM DATUM (GSWZ's 4_1 at ζ_6, GZ's ζ_5 four-class orbit — the
+literature splits 4_1 bifocally!); hearing amplitude NO-COUNTERPART;
+numerator freedom = EXACTLY two named choices. The program stands at ONE
+computation: the sealed design cell. Locks test_b684_loop7.py.

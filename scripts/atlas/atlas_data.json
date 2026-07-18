@@ -13852,6 +13852,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B684": {
+   "slug": "loop7 close",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B581",
+    "B678",
+    "S2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

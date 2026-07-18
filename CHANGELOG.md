@@ -17,6 +17,20 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B684: loop 7 closed + ATLAS v2 (the discovery phase complete)
+
+- cc2's final anatomy packet integrated: G1 the sum rule is a theorem of
+  the cubic (kernel derived); G2 the own-channel level-2 law (golden
+  1/phi at SU(3)_2, silver 1/delta at SU(4)_2); G3 the B678 dark cell
+  IDENTIFIED (1.785 = sqrt(5+2√3-2√2-√6) exact, verified) + golden
+  period = 20 proven; G4 McKay 9/11 partial. ATLAS v2 = the complete
+  discovery map, closed per the CHARTER. S2 block-vacuity corroborated
+  two-seat (normalization residual named). STAGE 1 COMPLETE: the
+  {2/5,3/5} selection is a PROGRAM datum (GSWZ's 4_1 is at zeta_6, GZ's
+  zeta_5 is a four-class orbit -- the literature splits 4_1 bifocally);
+  hearing amplitude NO-COUNTERPART; numerator freedom = exactly two named
+  choices. One computation remains: the sealed design cell.
+
 ## 2026-07-18 — the block-vacuity gate CLEARED (design cycle precondition)
 
 - Under the owner's GO: cc2's S2 precondition to the Phase-1 seal is

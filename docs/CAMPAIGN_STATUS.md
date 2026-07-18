@@ -1202,3 +1202,11 @@ GENERATION CAMPAIGN MASTERPLAN (2026-07-18): stages 1-2 ADOPTED
 single sealed shot, not a loop. Deliverable = publishable mathematics
 regardless. Full plan in frontier/B674_generation_leg/
 CAMPAIGN_MASTERPLAN.md.
+
+B684 (loop 7 + ATLAS v2): the DISCOVERY PHASE COMPLETE — every
+structure question banked-or-named-open; ATLAS v2 = the map. Stage 1
+complete (design constraints: {2/5,3/5} program datum, two numerator
+freedoms, the ζ6-vs-ζ5 bifocal literature split). The program stands at
+ONE computation: the sealed design cell, on the owner's go, fresh
+session — candidate form cleared (block-vacuity), foundation
+theorem-grade (divided-power law).
