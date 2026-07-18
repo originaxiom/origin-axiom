@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — Ramanujan S1: the silver octic closes in the silver ratio
+
+- At the silver's certified cusp (tau = 2i, B675): 2U^2 + 1/(2U^2) =
+  2 delta^2 with delta = 1+sqrt2 — verified independently on this seat
+  (6e-60; sympy's closed-form minimal polynomial identical to the PSLQ
+  octic; 2U^2 is a norm-1 unit over Q(sqrt2) mirroring the fundamental
+  unit). The metallic-Ramanujan correspondence is real on the silver.
+  Bronze leg pre-refuted by the S4 certification (no CM); the golden
+  evaluations run on this seat.
+
 ## 2026-07-18 — the W3 gate run + THE DIVIDED-POWER LAW
 
 - The gate: independent enumerations from both seats; survivor-level
