@@ -13982,6 +13982,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B692": {
+   "slug": "level15 literature",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B674",
+    "B686",
+    "B689",
+    "B691"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

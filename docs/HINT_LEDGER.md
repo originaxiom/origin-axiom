@@ -459,3 +459,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   arithmetic signature of c-breaking (left≠right). Updates S067: the two
   hands are being-weighted, not mirror-symmetric. Full defect pattern =
   priced (needs the full GSWZ coefficient tower).
+- LEVEL-15 LITERATURE (B692, independent search): the PIECES are known —
+  figure-eight = conductor-15 curve (Borot–Eynard 1205.2261 + a source),
+  Bianchi forms over ℚ(√−3) + base change (Cremona/Şengün/Voight, LMFDB),
+  Koide↔120°/circle geometry (1201.2067, corroborates the B686 firewall).
+  The E₆/bifocal/totient SYNTHESIS on the level-15 coupling is NOVEL (no
+  prior art found). Feeds R22-1. SELF-CORRECTION: chat1's g₂=−1/12,
+  g₃=161/216 are a sign CONVENTION (match a source), not "garbled"
+  (softens B674); the robust invariants c₄=1,c₆=−161,Δ=−15,j=−1/15 agree.
+  Atkin–Lehner W₃=+1,W₅=−1 reconciles with a₃=−1,a₅=+1 (w_p=−a_p).
