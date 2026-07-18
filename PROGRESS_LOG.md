@@ -6023,3 +6023,10 @@ conftest collection-finish guard; masked leakers b246/b250 repaired;
 the B671 path straggler fixed. Diff reviewed line-by-line on this seat
 (purely additive; sole deletion = the b352 one-liner split). Full suite
 2428 passed / 35 skipped / 0 failed. R22-4 ticked.
+
+2026-07-18 (main seat) — B675 ADDENDUM BANKED: the bronze certification
+(the named follow-on, same day). Corroborated → CERTIFIED: exact shape-
+field elimination, S₄ exact, Re τ = 0 exact, octic = quartic(−X²),
+u·u′ = 1 at root level. Verify-on-receipt recomputed the decisive
+identities independently on this seat. Lock extended
+(test_bronze_certified).
