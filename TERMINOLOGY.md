@@ -129,3 +129,29 @@ No invariant may be transferred between these without an explicit map.
   are F·η-powers with component ratio R(q), the RR continued
   fraction (B672); the golden rotation: the monodromy's modular lift
   is order-10 elliptic with trace exactly φ (B674).
+- **being face / hearing face**: the object's two arithmetic ends —
+  being = the holonomy/geometry side (ℚ(√−3), Eisenstein, prime 3, 2T,
+  E₆); hearing = the monodromy side (ℚ(√5), golden, prime 5, 2I, E₈).
+  Named for the observer-coupling reading; the mathematics is the
+  bifocal two-ended structure (B247–B261; EISENSTEIN_ATLAS).
+- **the two hands**: the being and hearing faces taken as a pair;
+  "one hand cannot clap" = the generation no-go (B685). The hands are
+  asymmetric, not a mirror (B690/B691).
+- **the totient root**: the arithmetic explanation of the being/hearing
+  asymmetry — φ(3)=2 prime (minimal self-conjugate doublet) vs φ(5)=4
+  composite (golden Gaussian periods t²+t−1) (B691).
+- **the divided-power law**: v₅(den cₙ) = v₅(5ⁿn!) exactly for the
+  target carrier (q;q)^{−3/5} — a 5-adic exponential; proved
+  unconditional, transfers to (q;q)^{−a/p} for every prime p (B683).
+- **Frobenius gluing**: the mechanism by which the golden enters — at
+  the ζ₅ evaluation of the Habiro object, via gluing of series at a root
+  of unity, nontrivial precisely because 5 is inert in ℚ(√−3) (does not
+  divide the discriminant); a coupling phenomenon, not object content
+  (B697).
+- **conductor-15**: the figure-eight A-polynomial's elliptic model has
+  conductor 15 = 3·5 (being prime × hearing prime), curve class 15a,
+  j = −1/15, bifocal branch locus {φ²,φ⁻²}∪{ω,ω̄} (B674).
+- **deaf = non-CM**: the continued-fraction "voice" of a metallic member
+  is algebraic exactly at CM cusps and silent (deaf) at the non-CM one;
+  bronze (Galois S₄, non-CM) has no algebraic value and no hosting stage
+  (B675).

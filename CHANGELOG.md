@@ -6,6 +6,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — Review 23 follow-through: §6 QA + R23-4/5/6 closed
+
+- cc2's §6 theorem-inventory pass (28 keep / 8 downgrade) verified (8/8
+  citations) and APPLIED to LAW_MAP — editorial relabels tightening 8
+  one-line labels before specialist eyes (K020-in-ear→PLACEMENT the
+  sharpest); sources honest, not an integrity issue.
+- R23-5: 8 summit-term glosses added to TERMINOLOGY.md. R23-6: ADDENDUM_1
+  hash recorded + VERIFY-M cross-referenced (an accidental ledger regen
+  caught + reverted). cc2 §6 inventory banked under docs/dossiers/.
+
+---
+
 ## 2026-07-18 — VERIFY-M closed (no-gos triple-gated) + dossier §3
 
 - Both no-go pillars TRIPLE-gated (origin B690/B691 + cc2 VERIFY-M +

@@ -6613,3 +6613,20 @@ generation-leg whole-file seals recompute MATCH, hash-first honored.
 Six action items opened (R23-1..R23-6): the specialist read, L95, H-EAR
 status, cc2's §6 fold-in, the 8 terminology glosses, seal bookkeeping.
 Two subagents ran the provenance + hash/error sweeps.
+
+## 2026-07-18 — Review 23 follow-through: §6 QA applied + R23-4/5/6 closed
+
+cc2's §6 theorem-inventory status pass (28 keep / 8 downgrade over the
+hearing/chord LAW_MAP rows) verified-on-receipt (all 8 source citations
+confirmed this seat) and APPLIED: K020-in-ear THEOREM→PLACEMENT (the
+sharpest — B642's own "still a placement, not a derivation"), shadow-class
+"for ANY word"→CONJECTURE, twist-tone→CERTIFIED, jump-law→CERTIFIED+sketch,
+PSL-factoring→CERTIFIED(k≤8), swap-real→LAW, F4-skeleton scoped to two
+holonomies, cubic-dichotomy split. META: primary sources honest; the
+overclaims were editorial one-line compression, not integrity. R23-5: the
+8 summit-term glosses added to TERMINOLOGY.md. R23-6: ADDENDUM_1 hash
+f99e8b59 recorded + VERIFY-M cross-referenced (an accidental seal_ledger.py
+regen was caught and reverted, preserving the descriptive cross-check
+hashes). Dossier §6 notes the QA pass; cc2's full inventory banked at
+docs/dossiers/S6_theorem_inventory_cc2.md. Four of six R23 items now
+closed; R23-1/-2/-3 carry (the specialist read, L95, H-EAR status).
