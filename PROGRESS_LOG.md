@@ -6240,3 +6240,18 @@ exact, integer count cleaner than cc2's 2.4 estimate]. VERDICT: no v5
 obstruction — the design cycle is EARNED, construction PINNED to
 Habiro-Γ × level-5. NECESSARY denominator condition only; the numerator
 comparison is the sealed cell (two-seat gate). Lock test_b681_pretest.
+
+2026-07-18 (main seat) — B682: Phase 0 of the design cycle opened
+(design-stage). THE HABIRO DICTIONARY (banked-object ↔ classical-name;
+my half = banked-data verification, cc2+chat1 supply GSWZ/GZ citations):
+9 entries, the headline (divided-power law ↔ GSWZ completion) de-risked
+by B681 on the denominator side. GATE SHARPENING: the two-seat input
+gate = the holomorphic-blocks factorization (q × q̃) itself. FIREWALL
+BANKED: the web seat's "E₆ numbers in GSWZ eq (1)" (11, 24, 51840) is
+base-rate-killed — 24 = forced universal modular number (B655 pattern),
+3-heaviness forced by ℚ(√−3), 51840 {2,3,5}-smooth divides an n!-smooth
+CS denominator generically; NOT banked. Separated: the Habiro/GSWZ
+connection itself is sound (read §4.5 for the real series). ONE
+discriminating test pre-registered two-outcome: does the E₆ block
+decomposition STRUCTURALLY organize the factorization (uniform rule +
+torsion-spectrum ratios across ≥10 terms) — else base-rate.
