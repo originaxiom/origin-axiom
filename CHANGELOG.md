@@ -17,6 +17,18 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B680: the arithmetic meditation (volume = being L-value)
+
+- Two facts verified in-sandbox: Vol(4_1) = (3√3/2)·L(χ_-3, 2) to 40
+  digits (the banked hyperbolic volume IS the Dirichlet L-value of the
+  quadratic character mod 3 — the being character; new LAW_MAP row), and
+  5 is inert in Q(√-3) with 3 ramified and level 15 = their product (the
+  hearing prime is an inert prime of the being field). Four leads
+  registered: L91 <- Reid's unique-arithmetic-knot theorem
+  (NEEDS-SPECIALIST); deaf = non-CM (now two legs, B675 + cc2's S2, with
+  a falsifiable golden-R prediction); the Habiro ring as the design
+  cycle's language; the inert-5 Bianchi rederivation.
+
 ## 2026-07-18 — the conductor-15 curve: two seats, two models, one isogeny class
 
 - cc2 derived the figure-eight A-polynomial's elliptic curve from the

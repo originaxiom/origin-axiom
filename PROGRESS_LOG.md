@@ -6205,3 +6205,14 @@ garbled); prior art Borot–Eynard/Kyoto NEEDS-SPECIALIST, program
 novelty = conductor 15 = the congruence level. Lock extended
 (test_curve15_isogeny_ap_sequence). Follow-ons: pari/sage isogeny cert;
 the Boyd/Mahler bridge m(A_41)↔L′(E₁₅) to the banked volume 2.0299.
+
+2026-07-18 (main seat) — B680: the arithmetic meditation, two facts
+VERIFIED + four leads registered. (1) Vol(4₁) = (3√3/2)·L(χ₋₃,2) to 40
+digits (diff 4.6e-41) — the banked volume IS the being-character
+Dirichlet L-value (new LAW_MAP row). (2) 5 inert in ℚ(√−3), 3 ramified,
+15 = ramified×inert of the ONE being field. Confirmed already-banked:
+golden j(2√3 i) (T1) + silver j(2i)=66³ (C1). Leads: L91←Reid's
+unique-arithmetic-knot (NEEDS-SPECIALIST); deaf=non-CM now TWO legs
+(B675 + cc2's S2) with a falsifiable golden-R prediction; the Habiro
+ring as the design cycle's language; the inert-5 Bianchi rederivation.
+Locks test_b680_meditation.py.
