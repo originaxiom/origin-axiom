@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-18 — the Ramanujan trifocal: silver theorem + 15A8 + golden legs
+
+- The silver octic closes in the silver ratio, now a THEOREM (U^2 +
+  U^-2 = 2 delta^2 from the proven closed form; two seats convergent via
+  the sqrt2 convention bridge). The figure-eight's A-polynomial IS the
+  elliptic curve 15A8 (j = -1/15 verified in-sandbox), conductor 15 =
+  the congruence level, with a LITERALLY BIFOCAL branch locus (golden
+  pair + Eisenstein pair). Golden R/V exceed the degree-8 caps
+  (CM-algebraic, open); T7 clean negative (the correspondence is
+  structural, not a recognition of banked values); bronze value-leg
+  refuted (S4, no CM). The web seat's j=0 hypothesis refuted as
+  adjudicated.
+
 ## 2026-07-18 — Ramanujan S1: the silver octic closes in the silver ratio
 
 - At the silver's certified cusp (tau = 2i, B675): 2U^2 + 1/(2U^2) =

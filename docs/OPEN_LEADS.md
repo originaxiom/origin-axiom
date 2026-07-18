@@ -562,3 +562,12 @@ distinct guard — "a non-abelian *group* is not non-abelian *gauge* content" �
 | **L107 — the cross-landscape (the landscape theorem's family)** | B664 proved the golden-stage landscape closed-form. Open cells (the web seat's V4/V5 + S1–S3, now theorem-adjacent): the words × stages matrix \|tr_odd(word, stage)\| — does each word hear minimally at its own conductor's stage (silver at κ=12 → 1/δ?); the E₆-level-2 version of the three-value theorem; the period at composite κ (κ=10: 5 or 10?); the generating function vs the Dirichlet character mod 5. Each cell is the same two-term-sum method at a different stage. **COORDINATION (B665): the cross-landscape matrix + diagonal hypothesis = cc2's anatomy-loop-2 cell B4, running on their seat; this seat's remainder = the E₆-level version + the generating-function form.** | MATH | ★★★ | **CLOSED (2026-07-17): both halves banked — the 16×12 cross-matrix + the delimited self-selection verdict (B670/B4: half a law, 8/16 rows, conductor-divisibility regime; the trace-4 word's minimum EXACTLY at κ = 12, value √3−1 verified on this seat) + the stage-universal law form with the E₆ instance (B666 cell 3). L91 feed sharpened.** |
 | **L108 — the γ₅′ functor's last leg (the modular-form assignment)** | B662/I derived the REPRESENTATION exactly (the ear = 2̂′; weight-5 forced). What remains for a genuine functor: produce the weight-5 doublet forms Y^(5)(τ) from the framework's own tower (with τ in its literature role) — i.e., the framework-side modular-form assignment. If built: the correspondence becomes a functor and the γ₅′ paradigm's model space acquires a geometric origin end-to-end. | MATH | ★★★★★ | OPEN (B662/I) |
 
+
+
+**L(E₁₅, s) — the figure-eight's L-function (opened 2026-07-18)** — the
+figure-eight A-polynomial = elliptic curve 15A8 (conductor 15 = the
+congruence level; branch locus bifocal, verified). By modularity, the
+weight-2 level-15 newform is the knot's automorphic avatar. OPEN CHECK:
+do L(E₁₅, s) special values (or the Mahler-measure L-value relations)
+match any banked program quantity? Group-level McKay + the silver octic
+theorem are banked; this is the analytic-encoding lead. Queued, not run.
