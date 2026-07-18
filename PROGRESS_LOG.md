@@ -6190,3 +6190,18 @@ real-call-site agreement vs the banked B673 log, 18 locks green. Speedup
 9.4x/67x/221x at N=6/15/28. The engine is a SEAT CONDUIT (not
 repo-tracked) — deployment is the conduit owners'; the verified patch is
 banked. N=45 timing cell (timing-only) still running at bank.
+
+2026-07-18 (main seat) — THE CONDUCTOR-15 CURVE RECONCILED + VERIFIED
+(cc2 note 8e86e428). Two seats, TWO elliptic models of the figure-eight
+A-polynomial: cc2's palindromic quotient (j=13997521/225) and my
+discriminant curve (j=−1/15=15a8) — DIFFERENT j but I recomputed the
+a_p sequence for BOTH plus 15a8-Weierstrass directly and all three =
+[0,−4,−2,2,4,0,−2,0,−10,10,4,8] at all 12 good primes p=7..47:
+ISOGENOUS, class 15a (the L-function is the invariant, not j). The
+bifocal branch locus SURVIVES cc2's correct factorization (cc2's
+quartic = (m+1)²(m²−3m+1); golden φ² pair + Eisenstein ω pair both
+genuinely present). Corrections adopted: c₆=−161 (chat1's g₂/g₃
+garbled); prior art Borot–Eynard/Kyoto NEEDS-SPECIALIST, program
+novelty = conductor 15 = the congruence level. Lock extended
+(test_curve15_isogeny_ap_sequence). Follow-ons: pari/sage isogeny cert;
+the Boyd/Mahler bridge m(A_41)↔L′(E₁₅) to the banked volume 2.0299.
