@@ -6711,3 +6711,16 @@ Klein four; the fiber-functor program now ties rigorously to the two-hands/
 ℤ/2/c-breaking spine. Base-rate-gated (the content is the ONE-V₄ + product
 law, not three unrelated ℤ/2's). Lock test_b700 extended (pyenv, 3/3).
 Prereg 060aaaee.
+
+## 2026-07-19 — B700 cell 4: the fiber-functor torsor is STAGE-UNIFORM
+
+VERDICT: STAGE-UNIFORM. The E₆ level-2 stage (shadow PSL(2,7), θ-odd D=3)
+has EXACTLY two 3-dim irreps, character field EXACTLY ℚ(√−7), swapped
+simply-transitively by Gal(ℚ(√−7)/ℚ)=ℤ/2 (σ:ζ₇↦ζ₇³, no fixed) — identical
+structure to golden (2I, D=2, ℚ(√5)). THE PRINCIPLE: the fiber-functor field
+is the QUADRATIC SUBFIELD of ℚ(ζ_p), p=the stage's shadow prime (golden
+5→ℚ(√5), 5≡1mod4; E₆ 7→ℚ(√−7), 7≡3mod4); ℚ(√p*), p*=(−1)^((p−1)/2)p.
+Stage-uniform (2 instances), NOT golden-special ⇒ upgrades the K020-in-ear
+PLACEMENT toward a THEOREM. Bonus: ℚ(√−7) appears, answering S041/H32 (the
+arithmetic extends past {√−3,√5} as the level-7 stage's torsor field). Lock
+test_b700 4/4 (pyenv). Prereg 7323661c.

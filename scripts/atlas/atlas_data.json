@@ -14201,13 +14201,16 @@
     "B638",
     "B640",
     "B642",
+    "B666",
     "B698",
     "B699",
+    "H32",
     "K020",
+    "S041",
     "S068"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 12,
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "arithmetic"
   },
