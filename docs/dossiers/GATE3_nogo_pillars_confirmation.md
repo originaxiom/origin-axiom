@@ -41,3 +41,26 @@ From scratch (Gaussian periods; no reuse of banked code):
 
 The two pillars that anchor the dossier's §4 (the observer-coupling
 closure) are the most-verified claims in the record.
+
+---
+
+## VERIFY-M CLOSED — the two pillars are TRIPLE-GATED (2026-07-18)
+
+cc2's VERIFY-M packet (prereg 146da991) landed and this seat ran the final
+gate. Both no-gos are now confirmed by three independent computations:
+
+| pillar | gate 1 (origin) | gate 2 (cc2 VERIFY-M) | gate 3 (cc machine) |
+|---|---|---|---|
+| **VA** 3-adic deviation | B690 (defect [1,−1,0,−1,−2]) | own arXiv e-print fetch + own valuation; defect EXACT; 5-adic control 121/121; +5 draft terms n=6..10 all \|defect\|≤2 | **recomputed from cc2's c_n + own v₃(n!): [1,−1,0,−1,−2] MATCH, only n=4 exact** |
+| **VB** ζ₃ category error | B691 (φ(3)=2 prime, no stream) | independent Galois: n=3 zero proper subgroups; n=5 → golden periods t²+t−1; 8/8 exact | **own Gaussian periods: ζ₃→Φ₃ (roots, no subfield); ζ₅→x²+x−1 golden; MATCH** |
+
+**Provenance note (honest):** cc2's VA extension to n=6..10 uses c₆–c₁₀
+from *commented-out draft LaTeX* in the GSWZ e-print source (never
+typeset) — flagged by cc2, and NOT load-bearing: the banked pattern
+[1,−1,0,−1,−2] at n=[2,3,4,5,100] rests only on the published c₂–c₅ + the
+B685-banked c₁₀₀ = 3¹⁴⁶. The extension corroborates (all |defect|≤2) but
+is not required.
+
+**Net:** S067 rows 1 & 4 (the being hand's own hearing) are ANSWERED-NO,
+triple-gated — the most-verified claims in the record. Track M fully
+retired. VERIFY-M closed → the after-verify sequence (Review 23) proceeds.

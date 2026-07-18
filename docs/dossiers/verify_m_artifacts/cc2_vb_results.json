@@ -1,0 +1,227 @@
+{
+  "totients": {
+    "phi3": 2,
+    "phi5": 4,
+    "phi15": 8,
+    "phi3_prime": true,
+    "phi5_prime": false
+  },
+  "subgroup_lattices": {
+    "3": {
+      "group": [
+        1,
+        2
+      ],
+      "order": 2,
+      "all_subgroups": [
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "proper_nontrivial_subgroups": [],
+      "n_proper_nontrivial": 0
+    },
+    "5": {
+      "group": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "order": 4,
+      "all_subgroups": [
+        [
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "proper_nontrivial_subgroups": [
+        [
+          1,
+          4
+        ]
+      ],
+      "n_proper_nontrivial": 1
+    },
+    "15": {
+      "group": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "order": 8,
+      "all_subgroups": [
+        [
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          1,
+          2,
+          4,
+          8
+        ],
+        [
+          1,
+          4,
+          7,
+          13
+        ],
+        [
+          1,
+          4,
+          11,
+          14
+        ],
+        [
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          13,
+          14
+        ]
+      ],
+      "proper_nontrivial_subgroups": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          1,
+          2,
+          4,
+          8
+        ],
+        [
+          1,
+          4,
+          7,
+          13
+        ],
+        [
+          1,
+          4,
+          11,
+          14
+        ]
+      ],
+      "n_proper_nontrivial": 6
+    }
+  },
+  "periods_n5": {
+    "subgroup_H": [
+      1,
+      4
+    ],
+    "cosets": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "eta_coeffs": [
+      [
+        "-1",
+        "0",
+        "-1",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "1",
+        "0"
+      ]
+    ],
+    "minimal_poly": {
+      "t^2_coeff": 1,
+      "t_coeff": "1",
+      "const": "-1"
+    },
+    "matches_t2_plus_t_minus_1": true
+  },
+  "period_n3": {
+    "subgroup_used": [
+      1,
+      2
+    ],
+    "cosets": [
+      [
+        1,
+        2
+      ]
+    ],
+    "eta_coeffs": [
+      "-1",
+      "0",
+      "0"
+    ],
+    "eta_value": "-1",
+    "matches_minus_one": true
+  },
+  "figure_eight_shape_roots": {
+    "Phi_6": "x^2 - x + 1",
+    "disc": -3,
+    "zeta_6_squared_equals_zeta_3": true,
+    "phi6_check_is_zero": true,
+    "phi3_of_zeta6_squared_is_zero": true
+  },
+  "verdict": "CONFIRMS-CATEGORY-ERROR",
+  "all_checks_passed": true,
+  "checks_detail": {
+    "phi3_is_2_and_prime": true,
+    "phi5_is_4_and_composite": true,
+    "n3_zero_proper_nontrivial_subgroups": true,
+    "n5_exactly_one_proper_nontrivial_subgroup": true,
+    "n5_periods_satisfy_t2_plus_t_minus_1": true,
+    "n3_only_period_equals_minus_1": true,
+    "phi6_of_zeta6_is_zero": true,
+    "phi3_of_zeta6_squared_is_zero": true
+  }
+}

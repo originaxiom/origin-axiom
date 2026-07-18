@@ -6582,3 +6582,18 @@ cc2's VERIFY-M (prereg 146da991) double-verifies in parallel. B697
 addendum: two-seat convergence on the Frobenius adjudication + which-Δ
 resolved (all discriminants 3-based → mechanism robust). Decadal review
 now DUE (54 merges).
+
+## 2026-07-18 — VERIFY-M CLOSED (both no-gos triple-gated) + dossier §3 integrated
+
+cc2's VERIFY-M packet (prereg 146da991) landed; this seat ran the final
+gate. Both no-go pillars now confirmed by three independent computations
+(origin B690/B691 + cc2 replication + cc machine): VA 3-adic deviation
+[1,−1,0,−1,−2] EXACT (only n=4 exact; cc2's n=6..10 draft-LaTeX extension
+corroborates, non-load-bearing); VB ζ₃ category error (φ(3)=2 no proper
+subfield vs ζ₅→golden t²+t−1). S067 rows 1&4 ANSWERED-NO, triple-gated —
+the most-verified claims in the record. cc2's dossier §3 (the two-faces
+bifocal anatomy, specialist depth) integrated verified-on-receipt with
+one correction: the melody theorem's minimal period is 175560 (B662),
+NOT 20 — the period-20 is the golden D4 value-catalogue ladder (B684/G3).
+Artifacts banked under docs/dossiers/verify_m_artifacts/. After-verify:
+Review 23 proceeds next (owner directive "after verify").
