@@ -55,3 +55,11 @@ Concretely, sealed before running:
   per term (as 414720 = 8·51840 already does) with no uniform rule.
 Until this fires with a uniform, pre-stated rule, the claim stays
 base-rate. This is a Phase-0 probe, NOT a design-cycle input.
+
+## UPDATE (PDF read, PHASE0_EXTRACTION_CC.md): CLOSED on the real data.
+GSWZ's own published h^100 denominator contains EVERY prime ≤ 101
+(Gevrey/factorial, their Thm 9.1) — divisible by all three Weyl orders
+AND every smooth number of its size. The E₆-tower is base-rate,
+definitively. The REAL signal is the symmetrized series Φ(h)Φ(−h):
+denominators {3,5} only (being × hearing), the design cycle's actual
+target.
