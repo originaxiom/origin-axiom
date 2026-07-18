@@ -13928,6 +13928,22 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B689": {
+   "slug": "meeting holds ground",
+   "motifs": [
+    "figure_eight",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B674",
+    "S067"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
+   "domain": "topology"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [
