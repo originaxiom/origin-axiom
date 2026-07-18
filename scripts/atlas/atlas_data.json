@@ -13893,6 +13893,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B686": {
+   "slug": "koide firewall",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B615",
+    "B655",
+    "B685",
+    "S067"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B69": {
    "slug": "metallic apoly family",
    "motifs": [

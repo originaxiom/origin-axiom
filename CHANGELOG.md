@@ -17,6 +17,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
   The engine is a seat conduit (not repo-tracked); deployment is the
   conduit owners' to execute, the verified patch is banked in B679.
 
+## 2026-07-18 — B686: the Koide claim firewalled (Gate 5 stands)
+
+- The relayed "Koide is entirely Eisenstein arithmetic; theta_0 = 2/9 =
+  2/3^2" is firewalled, computed not asserted: Q = 2/3 is a 120-degree
+  parametrization TAUTOLOGY (verified for every phase theta), so it is
+  zero evidence of Eisenstein-specific structure -- the 120 degrees is
+  assumed, not derived; the empirical Koide fact (actual masses give
+  Q = 0.66666) is a known 1981 coincidence, not ours; theta_0 = 2/9 is
+  convention-dependent (the natural branch gives 2.317 rad) plus a
+  small-smooth base-rate match. SM masses -> Gate 5; NOT banked. The
+  sound residue -- map the Eisenstein/being face as an anatomy -- is
+  separated cleanly and proceeds as math (S067).
+
 ## 2026-07-18 — B685: the generation leg closes (terminal no-go theorem)
 
 - Design cell = KILLED-AT-SUPPORT. First principles: the figure-eight is

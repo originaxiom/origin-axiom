@@ -425,3 +425,11 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   characteristic (2I≅SL₂(5)), not via √5, and A₅<PSL₂(p²) for every
   prime (base-rate). The bifocal structure does not reduce to one
   field's inert prime. A proposed unification, honestly closed.
+- KOIDE FIREWALLED (B686): Q=2/3 is a 120°-parametrization TAUTOLOGY
+  (holds for every phase θ — verified), so it is zero evidence of
+  Eisenstein arithmetic; the 120° is assumed, not derived. θ₀=2/9=2/3²
+  is convention-dependent (natural branch gives 2.317 rad) + a
+  small-smooth base-rate match. Gate 5: SM masses, not banked. The
+  LEGITIMATE residue: does the being face FORCE the ζ₆/120° structure
+  without assuming it? — that is the honest test (the Eisenstein-face
+  anatomy, S067).
