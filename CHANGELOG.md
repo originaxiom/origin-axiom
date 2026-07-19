@@ -1,5 +1,12 @@
 # Changelog
 
+## B719 — Scale & Multiplicity: the trillions are the observer's
+- multiplicity/scale = the imported covering degree, NOT an object number (vol=deg*base; free ladder; unit-count grows with degree).
+- the object gives the PAIR + being-filter, never the COUNT (dimensionful no-go extended to multiplicity).
+- h=3 being-filter STANDS as observed (4/4, sparse) but inheritance control OPEN (campaign API-degraded; covers re-run clean).
+- Sealed 165fb4b2; 3 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B718 — the Child Program: the child ledger
 - The child is arithmetically generic beyond H1=Z/p. Transfer function no law (sister same field, different law).
 - Exactly 3 arithmetic children {5,6,8}, all integral (P2=A). Parent = Thurston limit; golden slope generic.
