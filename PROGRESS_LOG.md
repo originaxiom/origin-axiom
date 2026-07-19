@@ -6769,3 +6769,17 @@ B685 exactly. Non-canonicity is the thesis made precise. Program close:
 phase 1 theorem-grade torsor (stage-uniform, three-sided, V₄); phase 2 =
 provably non-canonical, obstruction = observer-coupling. Prereg 0eb5026b;
 lock 7/7.
+
+## 2026-07-19 — B702: the metallic-hearing bifocal law (chat1 E-Q1/E-Q2, two-seat)
+
+cc2's chat1 E-Q1/E-Q2 verified + banked. E-Q1: the silver core ratio
+Y[023]/Y[123] is exact ℚ(i) (denom 17·29·101·109), NOT 24ζ₆ (golden-specific);
+all silver Y+σ entries s-free (collapse fully into ℚ(i)). E-Q2: the silver
+swap eigenvalues are norm-1 non-roots-of-unity with EXACTLY RATIONAL tones
+(2Re of a norm-1 ℚ(i) element is rational) → NO δ-relation, a field-membership
+IMPOSSIBILITY (ℚ(i)∩ℝ=ℚ, δ=1+√2 irrational), not a failed search. THE LAW: a
+metallic TONE requires a REAL-quadratic swap field — golden ℚ(√5) real hears φ;
+silver ℚ(i) imaginary has NO tone (structural). Sharpens the being/hearing
+asymmetry to an exact arithmetic condition; dovetails with B700 (the golden
+torsor field ℚ(√5) is real, p=5≡1 mod 4). Bronze cross-family period-3 = a
+priced new campaign (bronze data not banked). Lock test_b702 3/3.

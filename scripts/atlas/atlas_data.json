@@ -14214,7 +14214,25 @@
     "S068"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 24,
+   "obstacle_conf": 27,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B702": {
+   "slug": "metallic hearing law",
+   "motifs": [
+    "metallic",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B649",
+    "B696",
+    "B700"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },
