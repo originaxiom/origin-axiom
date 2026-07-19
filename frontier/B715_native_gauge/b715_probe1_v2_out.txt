@@ -1,0 +1,123 @@
+==========================================================================
+(A) arithmetic base of the object's charge content
+==========================================================================
+M (col=source) = [[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]]
+det(M) = -1   (= -1 => ORIENTATION-REVERSING; B533 FINDINGS l.179)
+SNF(I-M) = [1, 1, 1, 11]  ->  coker(I-M) = Z/11   (the Z/11 charge)
+charge chi = (1, 3, 6, 7);  chi*M mod 11 = [1, 3, 6, 7]  (conserved)
+
+==========================================================================
+(B) how ORIENTATION acts -> D_11 (dihedral) + twisted coefficients
+==========================================================================
+Orientation is the object's c: complex conjugation on the trace field
+(B469 PREREG_SIGMA_PARITY l.17) and orientation-reversing (det M = -1).
+It is ANTI-UNITARY.  On the Z/11 PHASE charge U(g)=omega^{g*chi}:
+   conj(U(g)) = U(-g) ?   phase violations over (g,letter) = 0
+   => T U(g) T^-1 = U(-g):  orientation INVERTS the charge.
+   => the symmetry group is the DIHEDRAL  D_11 = Z/11 |x Z/2  (inversion),
+      and (T anti-unitary) the U(1) anomaly coefficients are TWISTED by the
+      reflection sign rho.  [v1 used direct product + untwisted -- both wrong.]
+   (Word-order-reversal, v1's operator, fixes the Parikh vector and acts as +1;
+    it is UNITARY and is NOT the object's orientation/c.  Named per B469 rule.)
+
+==========================================================================
+(C) VALIDATION of the twisted homology engine (brute force)
+==========================================================================
+C1  untwisted H_3(G,Z) = H^3(G,U(1)) on small groups:
+   Z/2      : H_3 = Z/2   (free 0)   expect Z/2
+   Z/3      : H_3 = Z/3   (free 0)   expect Z/3
+   Z/2xZ/2  : H_3 = Z/2 (+) Z/2 (+) Z/2   (free 0)   expect Z/2 (+) Z/2 (+) Z/2
+   -> matches v1's brute force (incl. the Z/2xZ/2 mixed-anomaly detector).
+
+C2  twisted Z/2:  H_n(Z/2, Z_-)  (rho(reflection)=-1):
+   H_1(Z/2,Z_-) = 0
+   H_2(Z/2,Z_-) = Z/2
+   H_3(Z/2,Z_-) = 0
+   (periodic; used only as a spot-check of the twist wiring.)
+
+C3  D_3 = S_3 (order 6), the smallest odd dihedral group:
+   untwisted (U(1)):  H_1=Z/2  H_2=0  H_3=Z/6
+   TWISTED (U(1)_rho):  H_1=Z/3  H_2=Z/2  H_3=0
+   -> TWISTED D_3:  H^3(D_3,U(1)_rho) = 0   (anomaly VANISHES);
+      H^2 = Z/2 (the c-odd class);  H^1 = Z/3 (the charge characters).
+      untwisted D_3 gives H^3 = Z/6 = Z/2(+)Z/3 -- exactly what v1's
+      formula would give.  The twist is what sends the anomaly to 0.
+
+==========================================================================
+(D) H^*(D_11, U(1)_rho) via Lyndon-Hochschild-Serre (n-uniform assembly)
+==========================================================================
+Extension 1 -> Z/11 -> D_11 -> Z/2 -> 1.  E2^{p,q}=H^p(Z/2, H^q(Z/11,U(1))).
+Coefficient rows (Z/2 acts by inversion on Z/11 AND conjugation on U(1)):
+  q=0 : U(1)_-   (conjugation)          -> H^p(Z/2,U(1)_-): Z/2,0,Z/2,0,... 
+  q=1 : Hom(Z/11,U(1))=Z/11, action = (inv on domain)o(conj on codomain)=+1
+        (the two inversions CANCEL) -> trivial Z/2-module -> H^{p>0}=0 (coprime)
+  q=2 : 0
+  q=3 : Z/11, action = (+1 from inv on H^3=H^4(Z/11,Z)) x (-1 from conj) = -1
+        -> (Z/11)^{-1-inv} : H^0 = 0 (2 invertible mod 11), H^{p>0}=0
+Total-degree collabses (gcd(2,11)=1 kills all mixed differentials):
+  H^1(D_11,U(1)_rho) = E2^{0,1} = Z/11
+  H^2(D_11,U(1)_rho) = E2^{2,0} = Z/2        (the c-odd / orientation class)
+  H^3(D_11,U(1)_rho) = E2^{3,0}(=0) + E2^{0,3}(=0) = 0   <-- THE ANOMALY
+
+The assembly uses ONLY: H^*(Z/2,U(1)_-) [C2], the odd-cyclic inversion action,
+and gcd(n,2)=1 collapse -- ALL n-uniform and ALL matched by the D_3 brute force
+in (C3).  n=11 substitutes verbatim.  => H^3(D_11, U(1)_rho) = 0.
+
+(D') independent F_p cross-check on the next odd dihedral group D_5:
+   D_5 twisted, dim_F2 H_n = {1:1, 2:1, 3:1}
+   D_5 twisted, dim_F5 H_n = {1:1, 2:1, 3:0}
+   D_5 twisted, dim_F11 H_n = {1:0, 2:0, 3:0}
+   -> consistent with integral twisted D_5: H_0=Z/2, H_1=Z/5, H_2=Z/2, H_3=0.
+      dim_F2 H_3 = 1 is t_2(H_2)=1 (H_0->H_1->H_2 2-torsion ladder), NOT H_3
+      torsion; subtracting gives t_p(H_3)=0 at p=2,5,11 => H_3(D_5,Z_rho)=0.
+   Same n-uniform pattern as D_3 (C3) and the LHS assembly (D).
+
+==========================================================================
+(E) VERDICT  (corrected)
+==========================================================================
+Correct object: G = D_11 = Z/11 |x Z/2 (orientation inverts the charge),
+coefficients TWISTED by the anti-unitary reflection sign rho.  Computed:
+
+   H^1(D_11, U(1)_rho) = Z/11   (the charge characters)
+   H^2(D_11, U(1)_rho) = Z/2    (a c-ODD / orientation SPT-type class:
+                                 this is WHERE 'the object breaks c' lives)
+   H^3(D_11, U(1)_rho) = 0      (THE 't Hooft ANOMALY -- VANISHES)
+
+Reading:
+  1. NO ANOMALY, and no cross-formalism citation needed.  The anomaly GROUP
+     H^3(D_11,U(1)_rho) is itself 0 -- unlike v1's untwisted Z/11(+)Z/2, there
+     is nowhere for an anomaly (mixed or otherwise) to live.  Both the 2-part
+     (H^3(Z/2,U(1)_-)=0) and the 11-part (invariants under inversion = 0, since
+     2 is invertible mod 11) vanish.  Gaugeable in group cohomology.
+  2. NO MIXED Z/11 x Z/2 FORCE.  gcd(11,2)=1 kills every mixed component even
+     through the semidirect/twisted lens (no 2-torsion in Z/11-coefficient
+     rows; LHS collapses).  The one surviving skeptic-approved fact (coprime
+     => no mixed anomaly) is preserved, now correctly framed.
+  3. BORDISM COMPLETENESS (the Lohitsiri-Tong subtlety, addressed not ignored).
+     The complete invariant for an anti-unitary symmetry in this degree is
+     twisted BORDISM, not H^*.  But at bordism dimension 3 the pure time-
+     reversal beyond-cohomology term is KNOWN ZERO (bosonic T-SPT in 2+1d = 0;
+     the first beyond-cohomology T term is the 3+1d eTmT, dimension 4), and
+     gcd(11,2)=1 forbids any mixed beyond-cohomology 2-11 torsion.  So here
+     twisted bordism = twisted cohomology = 0.  (A full Omega^3(BD_11) was not
+     brute-forced; the degree-3 vanishing is the standard structural argument.)
+  4. RECONCILES WITH 'THE OBJECT BREAKS c'.  The nonzero invariant is H^2 = Z/2,
+     a c-ODD class -- exactly the orientation/c that the object breaks (B469,
+     memory two-chiralities-c-vs-theta).  It is NOT the anomaly (H^3) and does
+     NOT obstruct gauging the actual charge (Z/11).  v1's error was pinning c's
+     class to theta's vector-like fact; corrected: c is broken (nonzero H^2),
+     the CHARGE is anomaly-free (zero H^3).
+  5. Z/5 EXCLUDED: the B533 'five types' exhibit no group action (an OPEN item,
+     B533 l.320); not a gauge factor.
+
+  DISCRIMINATING FACT:  treating orientation correctly as the object's
+  ANTI-UNITARY c (det M=-1; conj inverts the charge, T U(g)T^-1=U(-g)) turns
+  the classifying group into TWISTED  H^3(D_11, U(1)_rho), which is IDENTICALLY
+  0 -- a stronger, citation-free gaugeability statement than v1's.  The only
+  nonvanishing invariant is a twisted H^2=Z/2 (a pure orientation/c class,
+  arithmetic-content-independent, NOT SM-relevant).  No hidden force; no
+  SM-relevant obstruction.  The Z/11 charge is the object's own arithmetic
+  bookkeeping and is gaugeable even under the fully correct treatment.
+
+  OUTCOME -> B  (gaugeable-but-non-SM), on corrected (dihedral+twisted+bordism)
+             foundations.  v1's OUTCOME B survives, but its argument is replaced.

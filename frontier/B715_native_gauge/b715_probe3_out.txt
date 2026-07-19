@@ -1,0 +1,66 @@
+==========================================================================
+B715 PROBE 3 — Z/11 as a UV-arithmetic (non-force) charge
+==========================================================================
+
+(a) ARITHMETIC ORIGIN — Z/11 = N(phi^5 - 1), geometric in the 5-fold cover
+--------------------------------------------------------------------------
+  Fibonacci:  F_5 = 5,  F_4 = 3   => predict phi^5 = 5*phi + 3
+  symbolic:   phi^5 = 11/2 + 5*sqrt(5)/2  (matches 5*phi+3)  [OK]
+  phi^5 - 1 = 9/2 + 5*sqrt(5)/2  = 5*phi + 2                       [OK]
+  phi*phibar = -1  (product of roots of x^2-x-1)
+  phi+phibar = 1  (sum of roots)
+  N(5*phi+2) = 25*(-1) + 10*(1) + 4 = -11
+  N(phi^5-1) [symbolic, alpha*conj(alpha)] = -11
+  ==> N(phi^5 - 1) = -11,  |N| = 11   [OK, PRIME]
+  associate:  (phi^5-1) = (1-3*phi)*(-phi^2),  N(-phi^2) = 1 (unit)
+  golden guise:  N(1-3*phi) = -11   (same norm, associate) [OK]
+  det(I - 3F), F=[[1,1],[1,0]]  = -11   (= N(1-3phi))          [OK]
+
+(a') CHAIN GUISE — the same 11 as a Smith-normal-form torsion (B552)
+--------------------------------------------------------------------------
+  M4 char poly = x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+  det(I - M4) = -11
+  SNF(I - M4) = diag(1, 1, 1, 11)  ->  coker = Z/11
+  left charge chi=(1,3,6,7):  chi*M4 mod 11 = [1, 3, 6, 7]  (= chi)      [OK]
+
+(a'') TOPOLOGICAL GUISE — 11 = L_5 (Lucas), the 5-fold cover carries 11^2
+--------------------------------------------------------------------------
+  Lucas L_5 = 11;  H1-torsion order of the 5-fold cover = L_5^2 = 121 = 11^2
+  Res(Delta_4_1, Phi_5) = 121  (= 11^2 = 121; product over 5th roots)
+
+(b) NON-DESCENDING (B565-T1) — the charge is vacuous in the IR
+--------------------------------------------------------------------------
+    |Inv(Fib)            (invertible objects of the Fibonacci category)| = 1
+    |Inv(Z(Fib))         (invertibles of the Drinfeld center Fib x Fib-bar)| = 1
+    |chiral sectors      (# of primaries / sector count)| = 2
+    |TCI Z/2             (tricritical-Ising / orientation Z/2)| = 2
+
+  A homomorphism  f: Z/11 -> G  has image of order dividing gcd(11, |G|).
+    gcd(11, 1) = 1  ->  image order 1  ->  ONLY THE TRIVIAL HOM
+    gcd(11, 1) = 1  ->  image order 1  ->  ONLY THE TRIVIAL HOM
+    gcd(11, 2) = 1  ->  image order 1  ->  ONLY THE TRIVIAL HOM
+    gcd(11, 2) = 1  ->  image order 1  ->  ONLY THE TRIVIAL HOM
+    lcm(available IR orders) = 2;  11 | 2? False
+
+  ==> The ONLY hom Z/11 -> (any available IR symmetry) is TRIVIAL.
+      The Z/11 charge cannot act on the IR: it is VACUOUS in the IR.
+      (UV side: on-site linear grading => H^3 class = 0 => gaugeable but
+       carrying no IR force. The charge lives on a DIFFERENT floor — the
+       letter/geometry arithmetic floor — from the emergent CFT.)
+
+==========================================================================
+VERDICT
+==========================================================================
+  (a)  |N(phi^5 - 1)| = 11 (prime), realized identically as:
+        - golden  : N(1-3phi) = -11  (unit-associate)
+        - chain   : det(I - M4) = -11, SNF diag(1,1,1,11), coker = Z/11
+        - topology: 11 = L_5, the 5-fold cover carries 11^2 = 121
+       => the 11 is REAL UV ARITHMETIC, geometric in the 5-fold cover.
+  (b)  11 is prime and divides no available IR invertible-symmetry order
+       {Inv(Fib)=1, Inv(Z(Fib))=1, sectors=2, TCI Z/2}  =>  only trivial
+       hom  =>  the charge is NON-DESCENDING / VACUOUS in the IR.
+
+  OUTCOME = B :  the Z/11 is a UV-ARITHMETIC, NON-DESCENDING, NON-FORCE
+  charge — real arithmetic on the letter/geometry floor, NOT an IR gauge
+  force.  (Outcome A — a descending IR force — is REFUTED.)
+==========================================================================

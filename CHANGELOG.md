@@ -1,5 +1,12 @@
 # Changelog
 
+## B715 (Frontier 3/4) — native gauge = complex Chern–Simons, not Yang–Mills
+- Probes 2/3 outcome B: holonomy in E6(C) with NO real form (non-real adjoint trace) => complex CS, not compact Yang-Mills; Z/11 UV-arithmetic non-descending.
+- Probe 1 (T7 full-content gaugeability) INCONCLUSIVE (contested orientation-twist premise); Z/11 alone gaugeable (B565-T1).
+- Generations coda: B714 6' residual closed (block obstruction closes Hecke; chat-1's A4/V4 Z/3 killed by B685). 6' fully NEGATIVE.
+- Sealed e41082eb; 3 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B714 (Frontier 2/4) — the physics-of-the-object spine (map consolidation)
 - cc2's genesis-ladder atlas verified rung-by-rung (5-cluster campaign, all grades confirmed).
 - The spine: object AUTHORS a vector-like E6 skeleton + gen COUNT 3 (0-6); BOUNDARY = total non-canonical Galois torsor + Turok inversion; GENERIC 7-9 + values NEGATIVE.
