@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B702: the metallic-hearing bifocal law (chat1 E-Q1/E-Q2)
+
+- Metallic hearing <=> real-quadratic swap field. Golden Q(sqrt5) real ->
+  hears phi; silver Q(i) imaginary -> tones exactly rational -> NO metallic
+  tone (field-membership impossibility, not a failed search). Silver core
+  ratio exact Q(i), not 24zeta6 (golden-specific). Two-seat (cc2 E-Q +
+  cc verify). Lock 3/3.
+
+---
+
 ## 2026-07-19 - B701 (fiber-functor phase 2): the canonical torsor-iso is OBSTRUCTED
 
 - No canonical torsor-iso: the two golden irreps of 2I are symmetric
