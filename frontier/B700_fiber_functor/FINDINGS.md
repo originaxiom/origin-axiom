@@ -286,3 +286,28 @@ put the value in the object.
 ## Firewall
 Gate 5. Rep theory + fusion-category unitarity. A clean OBSTRUCTED is a real
 result. Nothing to CLAIMS.
+
+## ADDENDUM (two-seat convergence, 2026-07-19) — OBSTRUCTED confirmed independently
+
+cc2 opened phase 2 in parallel (owner "both") with a sharper framing and
+CONCURS with OBSTRUCTED, verifying both legs independent of this seat:
+- **cc2's universal-torsor framing (adopted):** anchor all four torsors on
+  U = Hom(ℚ(√5),ℂ) = {σ₊,σ₋}; CANONICAL iff every map to U is CHOICE-FREE
+  (the base-rate trap "all ℤ/2-torsors are isomorphic" does not count). This
+  is cleaner than the basepoint argument and gives the same verdict.
+- **Arithmetic side (cc): φ₁ {irreps}→U is NOT choice-free** — the two golden
+  irreps share EVERY choice-free Galois-invariant (degree, ν₂..ν₅ all equal,
+  the value-multiset, det character); distinguished ONLY by the Galois
+  labeling (a choice). So the measurement/irrep torsor is NOT canonically ≅ U.
+- **MTC side (cc2): {Fib,YL} IS canonically pointed** — unitarity via the
+  categorical dimension read from the modular S-matrix (no pivotal choice);
+  cc2 rebuilt 2I from icosian quaternions and confirmed FS=−1 independently.
+- **Joint:** CANONICAL requires ALL maps choice-free; φ₁ is not ⇒ OBSTRUCTED.
+  The obstruction lives on the MEASUREMENT/arithmetic side (the observer's),
+  not the MTC side — exactly the observer-coupling asymmetry.
+
+Both seats agree the deep point is the terminal reading: a canonical iso
+would transport the MTC's unitarity-basepoint onto {irreps}, manufacturing a
+FORCED measurement value — contradicting B685. **Non-canonicity is REQUIRED
+by B685; the obstruction IS the observer-coupling thesis made precise.**
+Phase 2 CLOSED two-seat, both legs independently verified.
