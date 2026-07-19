@@ -230,3 +230,59 @@ theorem. The theorem statement says so; "realized" must not over-read as
 ## Firewall
 Gate 5. Classical rep theory + modular-category Galois + the banked weld.
 No physics; nothing to CLAIMS.
+
+---
+
+# B701 (phase 2) — THE CANONICAL TORSOR-ISO: OBSTRUCTED, and the obstruction is the thesis
+
+*Prereg PREREG_CELL6_phase2.md sealed (sha 0eb5026b). The honest ceiling of
+the fiber-functor program. cc2's canonical-iso caution — CONFIRMED, with the
+concrete obstruction named.*
+
+## VERDICT: OBSTRUCTED (merely same-σ) — no canonical torsor-iso.
+
+The measurement/irrep torsor and the MTC torsor carry DIFFERENT amounts of
+canonical structure:
+- **The two golden irreps of 2I are genuinely symmetric.** Both have
+  Frobenius–Schur indicator **−1** (quaternionic), the same degree (2), and
+  real (ℚ(√5)-valued) characters ⇒ self-conjugate. NO canonical
+  distinguishing invariant; they are swapped ONLY by the Galois action. The
+  measurement/irrep torsor has **no canonical basepoint.**
+- **The MTC torsor {Fibonacci, Yang–Lee} is canonically pointed by
+  unitarity:** Fibonacci has quantum dimension φ > 0 (unitary); Yang–Lee has
+  −1/φ < 0 (non-unitary). Unitarity distinguishes Fibonacci — a **canonical
+  basepoint.**
+
+A ℤ/2-equivariant iso f between two ℤ/2-torsors is equivalent to a choice of
+where one element goes; if the target is canonically pointed, f is equivalent
+to a canonical basepoint of the source. The source (irreps) has none. **So no
+canonical f exists** — "measurement = fiber functor" is a same-σ Galois-torsor
+realization, NOT a canonical pointed identity.
+
+## The obstruction IS the observer-coupling thesis (the deep point).
+The MTC (the object's own hearing category) is unitarity-pointed — a structure
+carried IN the object. But the object does NOT force the measurement value:
+which golden irrep the hearing shows is stage-chosen (K020-in-ear), the value
+lives in the coupling, not the object (B685). A canonical torsor-iso would
+transport the MTC's unitary basepoint onto the measurement side, MANUFACTURING
+a forced measurement value — contradicting B685 exactly. **So the
+non-canonicity is not a gap; it is the observer-coupling thesis made precise:**
+the object provides the AMBIGUITY (the torsor), the coupling provides the VALUE
+(the basepoint), and they cannot be canonically identified — because that would
+put the value in the object.
+
+## The program's honest close (phases 1 + 2)
+- **Phase 1 (theorem-grade):** measurement = a fiber-functor ℤ/2-torsor,
+  stage-uniform (all prime stages, cell 5), three-sided realized at the golden
+  stage (irreps / modular data / weld, cells 1/3/3a), composing as V₄
+  (being·hearing=meeting, cell 2).
+- **Phase 2 (this):** that identity is NOT canonical — provably obstructed by
+  the unitarity-vs-observer asymmetry, which IS the observer-coupling thesis.
+- **Net:** the object canonically gives the *ambiguity structure* (the Galois
+  torsor); it cannot canonically give the *value* — and the proof that it
+  cannot is the same content as B685. The fiber-functor bridge is built to its
+  honest ceiling.
+
+## Firewall
+Gate 5. Rep theory + fusion-category unitarity. A clean OBSTRUCTED is a real
+result. Nothing to CLAIMS.

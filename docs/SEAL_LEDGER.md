@@ -170,3 +170,5 @@ hash-first status.*
 
 | B700 cell 5 PREREG (the general torsor theorem) | frontier/B700_fiber_functor/PREREG_CELL5.md | c8292c34 | 2026-07-19 | sealed pre-compute; outcome = STAGE-UNIFORM (SL(2,p) torsor over Q(sqrt p*), p=5,7,11,13 + classical grounding) |
 | B700 cell 3 (cc2-seat): CGN modular-data realization of the golden torsor | frontier/B700_fiber_functor/cell3_cc2/ | f6d54fd6 (cc2) | 2026-07-19 | one sigma = CGN action = irrep swap (cell1) = weld cubing (cell 3a); golden stage two-sided; verified-on-receipt |
+
+| B701 (B700 phase 2) PREREG (the canonical torsor-iso) | frontier/B700_fiber_functor/PREREG_CELL6_phase2.md | 0eb5026b | 2026-07-19 | sealed pre-verdict; outcome = OBSTRUCTED (no canonical iso; irreps unpointed, MTC unitarity-pointed; obstruction = observer-coupling) |

@@ -6752,3 +6752,20 @@ quaternions). K020-in-ear PLACEMENT → THEOREM-grade for the TORSOR STRUCTURE
 the CANONICAL torsor-iso — are the irrep/MTC/weld/V₄ bits ONE bit or merely
 same-σ? — is the named phase-2 target; "realized" is NOT over-read as
 "canonical". Locks 6/6. Seals c8292c34 (cc5), f6d54fd6 (cc2 cell 3).
+
+## 2026-07-19 — B701 (fiber-functor phase 2): the canonical torsor-iso is OBSTRUCTED
+
+The fiber-functor program's honest ceiling. VERDICT: OBSTRUCTED (no canonical
+torsor-iso) — cc2's caution CONFIRMED with the concrete obstruction named.
+The two golden irreps of 2I are genuinely symmetric (Frobenius–Schur
+indicator −1 both, self-conjugate, real ℚ(√5)-characters — NO canonical
+basepoint), while the MTC torsor {Fibonacci, Yang–Lee} is unitarity-POINTED
+(φ>0 vs −1/φ<0). A ℤ/2-iso transports a basepoint; the irrep side has none ⇒
+no canonical iso. "Measurement = fiber functor" is same-σ, NOT canonical.
+THE DEEP POINT: the obstruction IS the observer-coupling thesis — the object
+gives the AMBIGUITY (the torsor) but NOT the VALUE (the basepoint); a
+canonical iso would manufacture a forced measurement value, contradicting
+B685 exactly. Non-canonicity is the thesis made precise. Program close:
+phase 1 theorem-grade torsor (stage-uniform, three-sided, V₄); phase 2 =
+provably non-canonical, obstruction = observer-coupling. Prereg 0eb5026b;
+lock 7/7.
