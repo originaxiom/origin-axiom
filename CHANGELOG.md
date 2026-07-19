@@ -1,5 +1,11 @@
 # Changelog
 
+## B716 (Frontier 4/4) — the time gap: time/4d/Lorentzian are the observer's
+- All 3 probes outcome B: no external time (no-arrow Anosov/thermal suspension), no canonical 4d (Omega_3^SO=0), no canonical Wick rotation (H^3 isotropic).
+- Joint 4d picture (+ cc2 child): reality = observer's closings (Dehn-slope + temporal cont.) of the object's incompletenesses (cusp + no-arrow flow); being washes out (4_1(5,1)=5_2(5,1)).
+- Completes the 4-frontier physics-of-the-object clarification. Sealed e01a8451; 4 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B715 (Frontier 3/4) — native gauge = complex Chern–Simons, not Yang–Mills
 - Probes 2/3 outcome B: holonomy in E6(C) with NO real form (non-real adjoint trace) => complex CS, not compact Yang-Mills; Z/11 UV-arithmetic non-descending.
 - Probe 1 (T7 full-content gaugeability) INCONCLUSIVE (contested orientation-twist premise); Z/11 alone gaugeable (B565-T1).

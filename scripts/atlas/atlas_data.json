@@ -14580,6 +14580,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B716": {
+   "slug": "time gap",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "apolynomial",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B685",
+    "B706",
+    "B710",
+    "B713"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [

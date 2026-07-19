@@ -1,0 +1,80 @@
+==========================================================================
+B716 PROBE 1 — the object's INTRINSIC time (figure-eight = punctured-torus bundle)
+==========================================================================
+
+[0] Monodromy from the two Dehn twists
+    R = [[1,1],[0,1]], L = [[1,0],[1,1]]
+    sigma = R*L   = [[2, 1], [1, 1]]  trace 3  det 1
+    sigma'= L*R   = [[1, 1], [1, 2]]  trace 3  det 1
+    -> sigma = [[2,1],[1,1]] confirmed (the cat map). char poly = x^2 - 3x + 1.
+
+[1] Spectrum / dilatation / topological entropy
+    char poly: x**2 - 3*x + 1
+    eigenvalues (exact): {3/2 - sqrt(5)/2: 1, sqrt(5)/2 + 3/2: 1}
+    lambda_+ = (3+sqrt5)/2 = phi^2  = 2.61803398874989484820458683436563811772
+    lambda_- = (3-sqrt5)/2 = phi^-2 = 0.3819660112501051517954131656343618822797
+    product lambda_+ * lambda_- = 1 (det=1)  ;  sum = 3 (trace)
+    dilatation (Perron / stretch factor) = phi^2 = 2.61803398874989484820458683436563811772
+    topological entropy h = log(dilatation) = log(phi^2) = 2 log phi
+      h = 0.9624236501192068949955178268487368462702
+      2 log phi = 0.96242365011920689499551782684873684627   (match to 30+ digits: True ; |diff| = 2.53e-40 )
+    -> h = 0.96242365... > 0  : POSITIVE entropy => hyperbolic/chaotic/mixing flow.
+       (entropy of sigma^-1 is IDENTICAL: log|phi^-2|^-1 = log phi^2 = h. Rate, not arrow.)
+
+[2] Time-reversal: is sigma conjugate to sigma^-1 in GL(2,Z)?  (amphichirality)
+    sigma^-1 = [[1, -1], [-1, 2]]  trace 3  det 1
+    #conjugators P (entries in [-4,4], det=+-1) with P sigma P^-1 = sigma^-1 : 14
+    example conjugators: [([[-2, -1], [3, 2]], -1), ([[-2, 3], [-1, 2]], -1), ([[-1, -1], [2, 1]], 1), ([[-1, 0], [1, 1]], -1)]
+    conjugator determinant signs present: [-1, 1]
+    orientation-reversing (det=-1) conjugator exists: True
+    -> sigma ~ sigma^-1  : the monodromy is conjugate to its inverse.
+       The figure-eight knot is AMPHICHIRAL; the bundle is time-reversal symmetric.
+       => the two flow directions are indistinguishable => NO canonical time ARROW.
+    (aside) J=[[0,1],[1,0]] (det -1):  J (RL) J = LR ? True
+
+[3] The 'time' base: S^1 (compact, periodic) vs R (non-compact, cosmological)
+    M_sigma = (fiber x [0,1]) / (x,1)~(sigma x, 0).
+    The fibration M_sigma -> S^1 has base S^1 = [0,1]/(0~1): COMPACT, PERIODIC.
+    'Time' = the S^1 direction of the suspension. There is no R-line, no infinite
+    past/future, no beginning: it is a circle, the opposite of a cosmological FRW R-time.
+    snappy: 4_1 = ['m004(0,0)', '4_1(0,0)'] ; volume = 2.0298832128 (hyperbolic, 1 cusp, Mostow-rigid)
+    -> the complement is CUSPED hyperbolic (finite volume 2.0298832...): a rigid,
+       timeless 3-geometry whose ONLY flow-time is this suspension S^1.
+
+[4] Hyperbolicity (Anosov) & absence of fixed points
+    |lambda_+| = 2.61803398874989484820458683436563811772  > 1  ;  |lambda_-| = 0.3819660112501051517954131656343618822797  < 1
+    Neither eigenvalue is on the unit circle => the linear map is HYPERBOLIC (Anosov).
+    det(sigma^k - I) for k=1..6 (nonzero => sigma^k has no fixed 1-cycle => flow has no closed
+    orbit collapsing to a fixed point of the return map):
+      k=1: det(sigma^k - I) = -1  (=> 1 periodic points of period k on T^2)
+      k=2: det(sigma^k - I) = -5  (=> 5 periodic points of period k on T^2)
+      k=3: det(sigma^k - I) = -16  (=> 16 periodic points of period k on T^2)
+      k=4: det(sigma^k - I) = -45  (=> 45 periodic points of period k on T^2)
+      k=5: det(sigma^k - I) = -121  (=> 121 periodic points of period k on T^2)
+      k=6: det(sigma^k - I) = -320  (=> 320 periodic points of period k on T^2)
+    All nonzero => sigma is Anosov with a dense set of periodic orbits, positive entropy,
+    mixing. The suspension is a smooth flow with NO fixed points (background-independent 'time').
+
+[5] Connes-Rovelli thermal/modular reading
+    A background-independent system has no external clock; the only intrinsic dynamics
+    is a one-parameter automorphism group (modular/thermal flow). Here that role is
+    played EXACTLY by the suspension of the Anosov cat map:
+      * one-parameter flow (the S^1/suspension direction)         <-> modular one-parameter group
+      * positive entropy h = 2 log phi (a temperature/rate scale)  <-> KMS/thermal character
+      * time-reversal symmetric (sigma ~ sigma^-1), no arrow        <-> modular flow has no a priori arrow
+      * compact periodic base S^1, no R-line, no beginning          <-> intrinsic, background-independent
+    This is an INTERNAL thermal/Anosov time, NOT an external cosmological R-time with an arrow.
+
+==========================================================================
+VERDICT
+==========================================================================
+OUTCOME = B  (INTERNAL thermal/Anosov time only; NO external cosmological R-time).
+Discriminating facts (all recomputed in-sandbox):
+  (1) topological entropy h = log(phi^2) = 2 log phi = 0.96242365... > 0
+      => hyperbolic/mixing flow (a rate/temperature), and identical for sigma and sigma^-1
+         => entropy gives NO arrow.
+  (2) sigma ~ sigma^-1 in GL(2,Z) (amphichiral) => time-reversal symmetric => NO canonical arrow.
+  (3) base = S^1 (compact, periodic), not R (non-compact) => no cosmological line, no beginning.
+  (4) Anosov: |eig|=phi^{+-2}!=1, det(sigma^k-I)!=0 => genuine hyperbolic flow, no fixed points.
+=> the object's only internal 'time' is a Connes-Rovelli-type thermal/modular Anosov flow;
+   it is NOT a usable external cosmological time with an arrow. FIREWALL: structural only.
