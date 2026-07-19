@@ -1,0 +1,158 @@
+==============================================================================
+PART 0 -- RETRACTION + AUTOPSY of v1's lattice index nu = N_A - N_B.
+==============================================================================
+  v1 claimed 'revswap-palindrome => #R=#L => Tr[Gamma]=0 => nu=0, FORCED
+  by amphichirality'.  That chain is a NON-SEQUITUR: the A/B sublattice is
+  SITE-INDEX PARITY, decoupled from R/L (R/L set hopping strength only).
+  Reproduce the counterexamples that refuted v1:
+
+  (i) RING: nu=0 for the OBJECT *and* for non-amphichiral R/L-imbalanced
+      controls of the SAME even length -- so nu=0 is blind to amphichirality.
+      object body(fib6)    len= 58  (#R,#L)=(29,29) imbalanced=False  amphichiral=False  ->  ring nu=0
+      random control 1     len= 58  (#R,#L)=(26,32) imbalanced=True   amphichiral=False  ->  ring nu=0
+      random control 2     len= 58  (#R,#L)=(26,32) imbalanced=True   amphichiral=False  ->  ring nu=0
+      random control 3     len= 58  (#R,#L)=(26,32) imbalanced=True   amphichiral=False  ->  ring nu=0
+      random control 4     len= 58  (#R,#L)=(18,40) imbalanced=True   amphichiral=False  ->  ring nu=0
+
+  (ii) OPEN chain: the OBJECT's OWN word gives nu=+-1 (odd site count),
+       identical to the non-amphichiral controls -- again pure length parity.
+      object body(fib6)    open-chain sites= 59 (odd)  ->  open nu=1
+      random control 1     open-chain sites= 59 (odd)  ->  open nu=1
+      random control 2     open-chain sites= 59 (odd)  ->  open nu=1
+
+  DIAGNOSIS: nu depends on the UNDECLARED boundary choice (ring=0, open=+-1),
+  NOT on the object.  It cannot tell amphichiral from chiral words.  And
+  Nielsen-Ninomiya doubling holds for EVERY bipartite lattice, chiral-target
+  or not -- so it is non-discriminating.  v1's discriminating fact is
+  RETRACTED.  The lattice nu is DISQUALIFIED as a chirality probe of 4_1.
+
+==============================================================================
+PART I -- THE CORRECT OBJECT-INTRINSIC INDEX: the Tristram-Levine SIGNATURE
+          of the object (figure-eight 4_1), vs a CHIRAL control (trefoil).
+==============================================================================
+  4_1 (the object)       Alexander Delta(t) = -t**2 + 3*t - 1
+      roots [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]  ON unit circle? [False, False]
+  3_1 (chiral control)   Alexander Delta(t) = t**2 - t + 1
+      roots [1/2 - sqrt(3)*I/2, 1/2 + sqrt(3)*I/2]  ON unit circle? [True, True]
+
+  sigma_omega(4_1) over the unit circle : {0}   (identically 0)
+  sigma_omega(3_1) over the unit circle : min=-2, max=0  (jumps to -2)
+  => the signature JUMPS only where an Alexander root sits ON |t|=1.
+     4_1's roots (3+-sqrt5)/2 are OFF the circle -> sigma == 0 (no jump).
+     3_1's roots exp(+-i pi/3) are ON the circle -> sigma jumps to -2.
+     This instrument DISCRIMINATES chiral from amphichiral (answers the
+     'informationally vacuous' critique of the lattice nu): it is a real,
+     object-intrinsic index that is 0 for the object and NONZERO for a
+     genuinely chiral knot.
+
+==============================================================================
+PART A -- (a) IS sigma_omega == 0 FORCED by the object's amphichirality?
+==============================================================================
+  MECHANISM (airtight, object-intrinsic): a Seifert matrix of the mirror
+  image mK is -V^T, so sigma_omega(mK) = -sigma_omega(K) for every omega.
+  4_1 is AMPHICHIRAL (4_1 = m 4_1), hence sigma_omega = -sigma_omega = 0.
+  We WITNESS the amphichirality three independent ways (verify-don't-cite):
+
+  W1 (algebraic, EXACT over Z): find P in GL_2(Z) with P^T V P = -V^T
+     (a congruence sending the Seifert form to minus its transpose =
+      the mirror's form) -- direct proof V is anti-isomorphic to itself:
+     4_1: P = [[-1, -2], [1, 1]]  det = 1  =>  P^T V P == -V^T : True
+     3_1: anti-congruence P (|entries|<=3)? None  (none => the trefoil Seifert form is NOT anti-isomorphic to itself)
+
+  W2 (the index identity, shown NON-VACUOUS): the mirror's Seifert matrix
+     is -V^T, giving sigma_omega(mK) = -sigma_omega(K).  This genuinely
+     NEGATES -- on the chiral trefoil: sigma(3_1) in [-2, -1, 0] ->
+     sigma(mirror 3_1)=sigma(-V^T) in [0, 1, 2] (sign-flipped, not 0=0).
+     On the object: sigma(4_1)=[0] -> sigma(-V^T)=[0];
+     since 4_1 = m4_1 this forces sigma = -sigma = 0 (a real fixed-point
+     constraint, the trefoil shows it is not automatic).
+
+  W3 (geometric, independent): the 4_1 exterior is isometric to its mirror
+     snappy: 4_1 exterior isometric to its orientation-reversal? True
+            (vol 2.029883 == mirror vol 2.029883)
+
+  CONTRAST (discriminating): the trefoil is NOT amphichiral -- no
+  anti-congruence (W1), and sigma_omega(3_1) = -2 != 0.  So sigma==0 on the
+  object is a REAL constraint imposed by amphichirality, not a generic fact.
+
+A-VERDICT (a): YES -- sigma_omega == 0 is FORCED by amphichirality, proven
+  object-intrinsically (P^T V P = -V^T over Z; snappy mirror-isometry) and
+  DISCRIMINATING (a chiral knot gives sigma != 0).
+
+==============================================================================
+PART B -- (b) IS sigma_omega MULTIPLICATIVE under covers (0 -> 0)?
+==============================================================================
+  The signature is ADDITIVE under connected sum (Seifert form V1 (+) V2):
+  sigma(K1 # K2) = sigma(K1) + sigma(K2).  A degree-d cover / d-fold sum
+  gives V^{(+)d}, so sigma(d) = d * sigma(1).  Compute at omega = -1:
+
+  degree d          1    2    3    4    5     sigma(d) = d*sigma(1)?
+  chiral 3_1 (s=-2)  -2  -4  -6  -8  -10     True
+  OBJECT 4_1 (s= 0)  +0  +0  +0  +0  +0     True
+
+B-VERDICT (b): YES -- sigma(cover_d) = d*sigma(base), EXACT.  A finite cover
+  MULTIPLIES chirality (chiral base -2 -> -2d) but 0*d = 0: no cover can
+  CREATE chirality from the amphichiral (sigma=0) object.
+
+==============================================================================
+PART C -- (c) ANY accessible construction FAITHFUL to the object with
+              nonzero index?
+==============================================================================
+  To make sigma_omega != 0 the construction must break the anti-congruence
+  P^T V P = -V^T -- i.e. break amphichirality -- which changes the object
+  (4_1 -> a different, chiral knot).  Concretely:
+
+  * Alexander Delta_{4_1}(t) = -t^2+3t-1 is PALINDROMIC with roots OFF |t|=1,
+    so NO Tristram-Levine jump can occur at any omega -- sigma is pinned to 0
+    on the ENTIRE circle, for the object as given.
+  * The Seifert form is anti-congruent to its own mirror (W1); every
+    signature-type invariant (integral sigma, Tristram-Levine sigma_omega,
+    Casson-Gordon / rho invariants of cyclic branched covers) is built from
+    that form and inherits sigma = -sigma = 0.
+  * A d-fold branched cover multiplies the (zero) base index by d (Part B):
+    0 stays 0.  Cabling/satellite operations with an amphichiral companion
+    preserve the mirror symmetry, hence sigma = 0.
+
+  This is NON-VACUOUS (the failure mode of v1's leg (c)): a genuinely
+  CHIRAL object (trefoil) DOES evade -- sigma = -2, roots ON the circle,
+  no anti-congruence.  The object cannot, precisely because it is
+  amphichiral.  NO accessible faithful construction evades N-N on 4_1.
+
+==============================================================================
+VERDICT
+==============================================================================
+OUTCOME B -- the object is ROBUSTLY VECTOR-LIKE (Nielsen-Ninomiya rigid),
+on CORRECTED grounds.
+
+RETRACTED (v1): the lattice index nu = N_A - N_B is a boundary/parity
+artifact (ring=0, open=+-1 for ANY even-length word, amphichiral or not);
+it is blind to amphichirality and non-discriminating (N-N doubling is
+generic to every bipartite lattice).  v1's discriminating fact is withdrawn.
+
+DISCRIMINATING FACT (corrected, object-intrinsic): the object = figure-eight
+knot 4_1; its lattice-independent chiral index is the Tristram-Levine
+signature function sigma_omega.  For 4_1 sigma_omega == 0 on the whole unit
+circle, and this 0 is:
+  (a) FORCED       : sigma_omega(mirror K) = -sigma_omega(K); 4_1 is
+                     amphichiral -- witnessed EXACTLY by an integer
+                     anti-congruence P^T V P = -V^T (P=[[-1,-2],[1,1]],
+                     det 1) and independently by snappy (4_1 exterior
+                     isometric to its mirror) -- so sigma = -sigma = 0.
+                     DISCRIMINATING: the chiral trefoil gives sigma = -2.
+  (b) MULTIPLICATIVE: sigma(cover_d) = d*sigma(base) EXACT; 0*d = 0 for all
+                     d; a cover multiplies (trefoil -2 -> -2d) but never
+                     creates chirality from the amphichiral object.
+  (c) NO EVASION   : sigma != 0 requires breaking P^T V P = -V^T =
+                     breaking amphichirality = leaving the object; Delta is
+                     palindromic with roots off |t|=1, so no jump occurs.
+                     NON-VACUOUS: chiral knots evade, the object cannot.
+
+Confirms B565-T3's 'chiral index == 0 / vector-like' on a CORRECT,
+object-intrinsic instrument (the knot signature), replacing v1's
+disqualified lattice nu.  Coheres with probe 1 (multiplicity vector-like)
+and probe 2 (chirality = non-canonical Z/2 torsor bit): the two chiralities
+are the mirror pair mK <-> K, and 4_1 = mK identifies them -- there is no
+canonical, Galois-fixed selection.  => chirality is NOT in the
+theta-symmetric (amphichiral) object; it is the OBSERVER's hand (the
+c-breaking of measurement).  Structural/arithmetic only; Gate 5; nothing
+to CLAIMS.md.

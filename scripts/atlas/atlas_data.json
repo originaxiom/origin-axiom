@@ -14485,6 +14485,35 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B713": {
+   "slug": "chirality",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B298",
+    "B299",
+    "B307",
+    "B565",
+    "B657",
+    "B700",
+    "B701",
+    "B711"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [
