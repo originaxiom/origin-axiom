@@ -14344,6 +14344,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B708": {
+   "slug": "kim seam",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B698",
+    "B699",
+    "B701",
+    "B702",
+    "B704",
+    "B705",
+    "B707"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [

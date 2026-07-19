@@ -176,3 +176,5 @@ hash-first status.*
 | B702 (cc2-seat) E-Q1/E-Q2 PREREG (silver Eisenstein core ratio + tones) | frontier/B702_metallic_hearing_law/ | 7c45b1d2 (cc2) | 2026-07-19 | metallic hearing <=> real-quadratic swap field; silver ratio exact Q(i) not 24zeta6; silver no tone (Q(i) cap R = Q); cc core-verified |
 
 | B706 PREREG (rung-1/2 structural comparator on the SM flavor sector) | frontier/B706_rung2_sm_freedom/PREREG.md | 3af39f7f | 2026-07-19 | owner-authorized Gate-5-SM; outcome = NO-MATCH (flavor generic over Q(sqrt5); SM freedom continuous != discrete F_2-seam; object lacks the SM discrete structure B307/B604) |
+
+| B708 PREREG (Kim x the seam) | frontier/B708_kim_seam/PREREG.md | 96ebff1d | 2026-07-19 | outcome = MEET (non-trivial): the seam = subspace of Kim's H1(G_Q,Z/2); two-hands coupling = arithmetic linking; audibility = linking with the archimedean prime |

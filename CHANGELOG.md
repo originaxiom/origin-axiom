@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B708: Kim x the seam - MEET. The program IS arithmetic Chern-Simons at Q(sqrt-3).
+
+- Our bottom-up observer-coupling seam is a substructure of Minhyong Kim's
+  top-down arithmetic Chern-Simons (H^1(G_Q,Z/2)=Q*/(Q*)^2), with a dictionary:
+  two-hands coupling = arithmetic LINKING number (being-hearing linked = mutual
+  inertness); audibility = (non-)linking with the archimedean prime -1; meeting
+  = cup product. Structural inclusion Kummer-tautological; the dictionary is the
+  genuine meeting. NEEDS-SPECIALIST (the full CS action). Prereg 96ebff1d; lock 3/3.
+
+---
+
 ## 2026-07-19 - B707: where we meet - arithmetic Chern-Simons, not cosmology
 
 - Three adversarial literature digests synthesized. The top-down twin of our
