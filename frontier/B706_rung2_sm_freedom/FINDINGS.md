@@ -13,10 +13,12 @@ PSLQ-algebraicity of dimensionless, convention-reduced SM flavor ratios over
 - m_μ/m_e, m_τ/m_μ, m_τ/m_e, Koide Q, sin²θ_W: **NO low-height relation** —
   generic to their measurement precision (the precise lepton ratios are 5–9
   digits). The object's arithmetic does not carry them.
-- The Cabibbo λ ≈ 9/40 "candidate" is a RUNG-4 TRAP, not rung-1: it is
-  RATIONAL (in ℚ, not the audible ℚ(√5) — √5 never enters), at 0.3% precision
-  (base-rate-weak: several simple fractions fit), failing the
-  precision-survival falsifier. DEAD by the protocol.
+- The Cabibbo λ ≈ 9/40 "candidate" is a RUNG-4 TRAP, not rung-1 — dead by
+  the DECISIVE reasons (cc2's refinement, adopted): (i) **FIELD MISMATCH** —
+  9/40 ∈ ℚ, it does NOT use √5, so it is not evidence of the object's golden
+  structure at all; (ii) **no forcing mechanism** (B685). (The base rate is
+  not the kill — cc2 counted only ~2 of 1225 simple fractions within 0.3%; the
+  kill is wrong-field + no-mechanism.)
 
 ### Rung 2 (torsor/seam) — a KIND mismatch, not a near-miss.
 - **The seam (object):** a DISCRETE 𝔽₂-vector space — one orientation BIT per
@@ -52,3 +54,19 @@ falsifier: it can only make rung-1 harder to fake, never easier.
 Gate 5-SM. Structural comparison; no SM value claimed or predicted. The
 NO-MATCH is the honest ceiling of the object↔SM bridge — the first real run
 of the deepest door, and it closes it cleanly.
+
+
+## TWO-SEAT CONVERGENCE + the sharpened headline (cc2 verify, 2026-07-19)
+cc2 double-verified NO-MATCH independently: rung-1 PSLQ (40 dps, height ≤10⁶,
+basis [1,r,√5,r√5]) found NO relation for m_μ/m_e, m_τ/m_μ, m_τ/m_e — generic
+over ℚ(√5) ✓; rung-2 the finite 𝔽₂-seam cannot be a positive-dimensional
+moduli space (a finite set is not a manifold) ✓. Cabibbo kill re-worded to
+field-mismatch + no-mechanism (above).
+
+**THE SHARPENED HEADLINE (cc2, banked):** the object's arbitrariness is
+DISCRETE (orientation / Galois bits); the SM's is CONTINUOUS (real
+parameters). So "where do you end and I begin" gets an exact answer:
+**the object ends at the DISCRETE; the CONTINUOUS begins with the coupling.**
+The flavor lives entirely in the coupling, and the coupling's freedom is
+continuous — not the object's discrete bits. The discrete↔continuous seam IS
+the object↔observer boundary. (Sharpens [[S069]].)
