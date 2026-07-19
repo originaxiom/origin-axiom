@@ -1,5 +1,11 @@
 # Changelog
 
+## B717 — the observer-emergence spine (capstone)
+- Synthesis: the object is timeless/vector-like/valueless/incomplete BEING; reality = the observer's closings of its incompletenesses.
+- Boundaries (cusp/no-arrow-flow/vector-like-skeleton/torsor) <-> closings (Dehn-slope/temporal-continuation/Galois-sheet/basepoint).
+- Two motifs: boundaries<->closings; c-as-swap. Assembles B713-B716 + cc2 child. 4 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B716 (Frontier 4/4) — the time gap: time/4d/Lorentzian are the observer's
 - All 3 probes outcome B: no external time (no-arrow Anosov/thermal suspension), no canonical 4d (Omega_3^SO=0), no canonical Wick rotation (H^3 isotropic).
 - Joint 4d picture (+ cc2 child): reality = observer's closings (Dehn-slope + temporal cont.) of the object's incompletenesses (cusp + no-arrow flow); being washes out (4_1(5,1)=5_2(5,1)).

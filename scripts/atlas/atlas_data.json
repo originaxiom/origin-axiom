@@ -14605,6 +14605,38 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B717": {
+   "slug": "observer emergence",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "symplectic",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B565",
+    "B685",
+    "B698",
+    "B701",
+    "B706",
+    "B710",
+    "B711",
+    "B712",
+    "B713",
+    "B714",
+    "B715",
+    "B716"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [
