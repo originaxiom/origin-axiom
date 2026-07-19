@@ -1,0 +1,20 @@
+=== B719 scale/multiplicity: clean covers computation (cc banking seat, reproducible) ===
+base child m003(-2,3): vol=0.981368829  H1=Z/5  (closed, Mostow-rigid)
+
+ deg | #covers | vol=deg*base? | cover H_1 (first few)
+   2  |    0    | True          | []
+   3  |    0    | True          | []
+   4  |    0    | True          | []
+   5  |    1    | True          | ['Z/11 + Z/11']
+   6  |    0    | True          | []
+   7  |    2    | True          | ['Z/10', 'Z/10']
+
+scale: vol(cover) = deg * base EXACTLY -> 'size' == covering index; Mostow fixes SHAPE not SIZE.
+multiplicity GROWS with the imported degree:
+  H1(base)=Z/5 -> covers carry Z/11+Z/11 (d5), Z/30 (d8), Z/55+Z/55 (d11), and b1>0 first at d = None
+  => the pair/unit-count is NOT object-fixed; it scales with the imported covering degree.
+
+VERDICT probes 2&3 = B: multiplicity/scale is the OBSERVER'S (the covering degree/volume),
+NOT an object-intrinsic number. The object gives the PAIR + the being-filter; the COUNT is imported.
+(honest: the unique smallest cover sits at degree 5 = |H1| -- a HOMOLOGICAL floor, i.e. the pair
+ structure reappearing, NOT a distinguished scale; the tower above is unbounded through d<=15.)

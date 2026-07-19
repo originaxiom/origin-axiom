@@ -1,0 +1,55 @@
+CHILD = m003(-2,3)
+  volume      = 0.98136882889
+  base H_1    = Z/5  (b1=0)
+  orientable  = True
+
+================================================================================================
+H_1 OF FINITE COVERS vs COVERING DEGREE  (verify-don't-trust: snappy vs sympy-SNF)
+================================================================================================
+deg #cov              cover H_1  b1 |H1_tors| tors_rk  #Z/2  check
+------------------------------------------------------------------
+  1    1                    Z/5   0         5       1     0     OK
+  2    0    (no index-2 subgroups)   [0s]
+  3    0    (no index-3 subgroups)   [0s]
+  4    0    (no index-4 subgroups)   [0s]
+  5    1            Z/11 + Z/11   0       121       2     0     OK
+  6    0    (no index-6 subgroups)   [0s]
+  7    2                   Z/10   0        10       1     1     OK
+  7    2                   Z/10   0        10       1     1     OK
+  8    1                   Z/30   0        30       1     1     OK
+  9    0    (no index-9 subgroups)   [0s]
+ 10    0    (no index-10 subgroups)   [0s]
+ 11    2                   Z/55   0        55       1     0     OK
+ 11    2                   Z/55   0        55       1     0     OK
+ 12    0    (no index-12 subgroups)   [0s]
+ 13    4                   Z/10   0        10       1     1     OK
+ 13    4                   Z/10   0        10       1     1     OK
+ 13    4                   Z/10   0        10       1     1     OK
+ 13    4                   Z/10   0        10       1     1     OK
+ 14    3                   Z/15   0        15       1     0     OK
+ 14    3                   Z/15   0        15       1     0     OK
+ 14    3         Z/2 + Z/10 + Z   1        20       2     2     OK
+ 15    0    (no index-15 subgroups)   [1s]
+ 16    1                   Z/15   0        15       1     0     OK
+ 17    1            Z/15 + Z/15   0       225       2     0     OK
+ 18    2            Z/3 + Z/240   0       720       2     1     OK
+ 18    2      Z/2 + Z/2 + Z/160   0       640       3     3     OK
+
+================================================================================================
+SUMMARY — where does the multiplicity live?
+================================================================================================
+  independent verification (snappy vs sympy-SNF): ALL OK
+
+  |H_1^tors| (homology SIZE):  base=5  ->  max=720 (deg 18)   => GROWS with degree
+  2-torsion (#Z/2 pair-directions):  base=0  ->  max=3 (deg 18)   => GROWS with degree
+  b_1 (first Betti):  base=0  ->  max=1   => becomes POSITIVE at deg 14
+
+  DISCRIMINATING FACT: all three unit-count metrics GROW with the
+  covering degree — homology SIZE (5 -> hundreds), the #Z/2 'pair
+  directions' (0 -> 1 -> 2 -> 3), and b_1 (0 -> 1, first at deg 14).
+  None is a fixed object number; each scales with the imported degree.
+
+  => OUTCOME B: the pair/unit-count is the SCALE, imported via the covers,
+     NOT an object-intrinsic multiplicity. The object supplies the c-swap
+     as ONE structural pair (the amphichiral Z/2 involution of the base
+     itself); the 'how many pairs' is the observer's covering-degree choice.

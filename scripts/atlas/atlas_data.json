@@ -14653,6 +14653,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B719": {
+   "slug": "scale multiplicity",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B615",
+    "B685"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [
