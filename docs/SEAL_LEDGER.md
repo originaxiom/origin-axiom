@@ -204,3 +204,5 @@ hash-first status.*
 | B716 PREREG (Frontier 4: the 3d↔4d / time gap) | frontier/B716_time_gap/PREREGISTRATION.md | e01a8451 | 2026-07-19 | sealed PRE-VERDICT (is time/4d/Lorentzian in the object or the coupling? Anosov/thermal time, canonical 4d, Wick rotation); outcome pending |
 
 | B716 VERDICT (Frontier 4: the time gap) | frontier/B716_time_gap/FINDINGS.md | outcome=B | 2026-07-19 | time/4d/Lorentzian-signature are the OBSERVER'S, not the object's: intrinsic time = no-arrow Anosov/thermal suspension (compact S¹, amphichiral); no canonical 4d (Ω₃^SO=0, no 4-mfd-valued invariant); no canonical Wick rotation (H³ isotropic). JOINT: reality = observer's closings (Dehn-slope + temporal cont.) of the object's incompletenesses (cusp + no-arrow flow); child 4₁(5,1)≅5₂(5,1) washes out the being (cc2, cc-verified) |
+
+| B718 PREREG (the Child Program) | frontier/B718_child_program/PREREGISTRATION.md | 30b52bcf | 2026-07-19 | sealed PRE-VERDICT (track every child dynamic: p↦being transfer function, arithmetic sub-family, child's own ADE skeleton, parent-as-limit + golden slope); outcome pending |
