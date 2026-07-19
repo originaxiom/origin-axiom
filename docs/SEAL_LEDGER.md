@@ -194,3 +194,5 @@ hash-first status.*
 | B713 VERDICT (Frontier 1: chirality) | frontier/B713_chirality/FINDINGS.md | outcome=B | 2026-07-19 | chirality is the OBSERVER'S, not the object's: triality gauge-only (no ℤ/3 acts, D₄ order 8, two-seat w/ cc2); chirality = non-canonical ℤ/2 Galois torsor bit (y²−3y+3, disc −3, simply-transitive); object robustly vector-like (σ_ω(4₁)=0 forced by amphichirality); 3-gen no-go re-grounded (incommensurable 17/9/1 blocks) |
 
 | B714 PREREG (Frontier 2: the physics-of-the-object spine) | frontier/B714_physics_spine/PREREGISTRATION.md | 81f64bd3 | 2026-07-19 | sealed PRE-VERDICT (map consolidation; verify cc2 atlas 5d6debe9 grades + fold B709-B713); outcome pending |
+
+| B714 VERDICT (Frontier 2: the physics-of-the-object spine) | frontier/B714_physics_spine/FINDINGS.md | consolidated | 2026-07-19 | cc2 atlas verified rung-by-rung (5-cluster campaign, all grades CONFIRMED + 2 sharpenings); the spine = 3 layers (authors 0–6 vector-like E₆ skeleton + gen COUNT 3 / boundary = total non-canonical Galois torsor + Turok inversion / generic 7–9 + values ⊥ NEGATIVE); 6′ NEGATIVE w/ parked commensurator residual |

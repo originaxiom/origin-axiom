@@ -1,5 +1,12 @@
 # Changelog
 
+## B714 (Frontier 2/4) — the physics-of-the-object spine (map consolidation)
+- cc2's genesis-ladder atlas verified rung-by-rung (5-cluster campaign, all grades confirmed).
+- The spine: object AUTHORS a vector-like E6 skeleton + gen COUNT 3 (0-6); BOUNDARY = total non-canonical Galois torsor + Turok inversion; GENERIC 7-9 + values NEGATIVE.
+- 6' generations NEGATIVE (no Z/3 + incommensurable 17/9/1 blocks; commensurator residual parked); 6'' chirality NEGATIVE.
+- Sealed 81f64bd3; 4 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B713 (Frontier 1/4) — chirality is the observer's, not the object's
 - Multiagent campaign, all 3 probes outcome B, two-seat with cc2.
 - Triality GAUGE-ONLY (no Z/3 on the object, D4 order 8); chirality = non-canonical Z/2 Galois torsor bit; object robustly vector-like (sigma_omega(4_1)=0, amphichiral).
