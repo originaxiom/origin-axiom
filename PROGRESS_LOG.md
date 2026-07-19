@@ -6874,3 +6874,22 @@ different KIND (discrete orientation bits) than the SM's (continuous parameters)
 the flavor lives fully in the coupling — now DEMONSTRATED at the deepest rung,
 not asserted. Gate 5-SM; NO-MATCH is the result; nothing to CLAIMS. LAW_MAP §E
 wall 11. Lock test_b706 3/3.
+
+## 2026-07-19 — REVIEW 24 (the fourth constitutional review)
+
+The decadal review over the record's most conceptual + most physics-facing
+window (#1147–#1166, B698–B706): the observer-coupling thesis became a THEOREM
+(B701, measurement=fiber-functor, non-canonical, obstruction=B685); the seam
+formalized as an 𝔽₂-vector space unifying B698–B702 (B704); the deepest door RUN
+→ NO-MATCH (B706, wall 11: the SM's arbitrariness is CONTINUOUS, the object's
+DISCRETE); the Listening Protocol adopted as a standing gate. ZERO physics
+promotions under maximum pressure. R23 loop closed (R23-1 advanced→R24-1,
+R23-3 subsumed by the fiber-functor program). Provenance CLEAN (no external-
+verification pretense despite heavy citation; firewall held across S068/S069/
+the protocol). Protocol integrity: all 7 window seals recompute MATCH; hash-
+first honest-pass with a provenance caveat (squash-merge co-lands seal+verdict
+→ R24-5: separate seal commits for the sealed-shot class). Error recurrence:
+E17 (swap/weld conflation) the new class, ledgered; the "over-reading a generic
+feature" class recurred as the Cabibbo trap BUT was caught by its own rule
+(working). Five action items R24-1..R24-5. Two subagents ran the provenance +
+hash/error sweeps.

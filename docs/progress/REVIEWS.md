@@ -1464,3 +1464,124 @@ though SEAL_LEDGER points to ARTIFACT_HASHES. → R23-6.
 - [x] R23-6: DONE (2026-07-18) — ADDENDUM_1's hash f99e8b59 recorded in its SEAL_LEDGER row; VERIFY-M (146da991) cross-referenced as a cc2-seat prereg. (Note: an accidental seal_ledger.py regen was caught and reverted — the descriptive cross-check hashes preserved.)
 
 anchor-commit: `1d47009` (Review 23)
+
+---
+
+## REVIEW 24 — EXECUTED 2026-07-19 (the fourth constitutional review; window #1147–#1166, B698–B706 + the fiber-functor program + the seam + the Listening Protocol)
+
+**The loop (item 1):** the R23 block fully dispositioned.
+- **R23-1** (the specialist pass): ADVANCED — the assembled package grew from
+  the summit dossier to the dossier + the **Listening Protocol** (the
+  constructive-firewall methodology) + the fiber-functor program's K020-in-ear
+  upgrade. The external read remains the program's one external dependency →
+  carried as **R24-1**.
+- **R23-2** (the web seat's L95 prereg): never landed → carried as **R24-2**.
+- **R23-3** (H-EAR's principle-status): SUBSUMED this window — B700–B706 fully
+  structured the hearing (the fiber-functor torsor + the audibility law +
+  three-way golden uniqueness); "the hearing is the coupling" (B685) is now the
+  fiber-functor theorem (B701). H-EAR as a separate open principle is absorbed
+  into the fiber-functor program; the residual formal statement carries →
+  **R24-3**.
+- R23-4/-5/-6 remain `[x]` (done 2026-07-18).
+
+**The declared modulus (item 2):** 23 first-parent merges (#1147–#1166), arcs
+B698–B706 + the fiber-functor program (B700/B701) + S068/S069 + the Listening
+Protocol — read in full (the banking seat authored the majority this session;
+recall is direct). Gates 8/8 throughout (framing/Gate-5 the load-bearing one
+this window and clean); ~10 new per-arc locks added (test_b698…test_b706, all
+green); the full pytest suite NOT re-run this review (trusted-green + the
+incremental locks); OA_SLOW not run. This is the record's most PHYSICS-FACING
+window (the SM-values / rung-2 door) and its most CONCEPTUAL. The pilot caveat
+(author=reviewer) holds; the counterweight — the two/three-seat receipt loop —
+ran at maximum: the VERIFY-M triple-gate, the §6 QA, B698 Frobenius two-seat,
+B699 two-object gate, **B701 phase-2 (my solo OBSTRUCTED CONTESTED by cc2's
+cleaner U-anchoring, then CONVERGED on the same verdict — the strongest form of
+the gate this program has run)**, B702's E17 (cc2 self-caught), B706 rung-2
+(cc2 confirmed + refined). Reciprocal corrections both directions: cc2 caught my
+B702 framing (E17) and my B706 Cabibbo wording; I caught chat1's Fact 4/5 errors
+and the Turok hook.
+
+**(3) Advancement — the record's most CONCEPTUAL + most physics-facing window,
+with ZERO physics promotions.** The headline is a meta-law upgrade:
+**B701 turned the observer-coupling thesis into a THEOREM** — measurement = a
+fiber-functor Galois torsor (B700, stage-uniform, three-sided; K020-in-ear
+PLACEMENT → theorem-grade torsor structure), provably NON-canonical, with the
+obstruction REQUIRED by B685. **B704** unified B698/B699 (the genus ℤ/2), cell 2
+(V₄), B700/B701 (torsors), B702 (audibility) into ONE 𝔽₂-vector space (the
+seam, no canonical origin). **B706** ran the deepest door (the rung-2 structural
+comparator) → **NO-MATCH** (wall 11): the SM flavor is generic over the audible
+field, and its freedom is CONTINUOUS where the object's is DISCRETE — a
+different KIND of arbitrariness; the object ends at the discrete, the continuous
+begins with the coupling. New LAW/PLACEMENT rows: the meeting-is-a-product +
+ℤ/2 (B698); hearing-is-a-bundle-phenomenon (B699); measurement=fiber-functor
+(B700); the seam 𝔽₂-space (B704); the metallic-hearing/audibility law (B702,
+corrected); the golden three-way uniqueness (B705). **A new STANDING GATE**: the
+Listening Protocol (governance-level; the firewall made constructive). STUCK-
+LONGEST (unchanged): the external specialist bar. OVERREACH caught + corrected
+IN-window: E17 (the B702 swap-law conflated swap/weld — cc2 self-caught); my
+B701 solo verdict was premature (cc2 contested, converged); my B706 Cabibbo
+"base-rate-weak" mis-wording (cc2: it's field-mismatch, corrected); the Turok
+CPT resonance (refuted in S068 before it could become a hook); θ₀ over-read
+(chat1's 7σ → 0.89σ, kept firewalled). cc2's §6 downgrade discipline continued
+to bite. [cc2 §6-style overreach re-check: none new banked as a LAW this window.]
+
+**(4) Error-class recurrence.** **E17** (the B702 swap/weld conflation — "a
+hearing/tone claim must name swap-vs-weld + field real/imaginary type BEFORE the
+law") is recorded (ERROR_LEDGER:31) — the window's genuinely NEW class,
+"conflation / naming without field-type," cc2 self-caught. The RECURRING class
+is "over-reading a generic feature as special" (E15/E16): the B706 Cabibbo 9/40
+trap is an instance (a generic close rational read as a golden "candidate") —
+but its own standing rule (compute the discriminating fact; check base-rate AND
+field) is EXACTLY what caught it (field-mismatch: 9/40 ∈ ℚ, not the audible
+ℚ(√5); no √5). **The rule WORKING, not failing** — strengthening E16. The other
+self-corrections are external catches, correctly ledgered where they belong:
+B703's Koide "~7σ → 0.89σ" (chat1's figure, in HINT_LEDGER H-KOIDE + firewalled,
+no own-error); the Turok-hook refutation (S068, external literature hope,
+honestly refuted). No own-error went unledgered; no new class lacks an entry.
+
+**(5) The provenance spot-sweep.** CLEAN on both load-bearing checks — and
+this was the window where it mattered most (heavy firewalled speculation citing
+Turok, Connes, Majid, Witten, Grothendieck). **External-verification pretense:
+none.** Every "verification/confirm/vindicated" is either a legitimate citation
+or an explicitly-internal seat cross-check; the famous-scientist citations
+carry NO endorsement pretense — S068 REFUTES the Turok resonance ("citing it =
+numerology in physics dress"), rates the others SUPERFICIAL/PARTIAL, marks
+Witten/CLPW/Connes as "[LEAP, honest gap] — do not overstate," and includes an
+Eddington retrofitting WARNING. **Firewall/Gate-5 integrity:** clean — S068,
+S069, and the Listening Protocol all carry firewall language and assert no SM
+value as derived; the one value-shaped token (Q=2/3 in the protocol) is
+explicitly firewalled as a non-result. Gate 5 held under the program's maximum
+physics-facing pressure. ONE gap (action, not failure): the six load-bearing
+window terms — "the seam," "measurement = fiber functor," "the audibility law,"
+"the Listening Protocol," "the structural comparator," "rung-1/rung-2" — are
+not yet in TERMINOLOGY.md. → R24-4.
+
+**(6) The §5.1 promotion sweep.** ZERO physics promotions — under the maximum
+physics-facing pressure of the whole program (the SM-values question, the
+rung-2 door). Every physics-adjacent quantity firewalled with its verdict:
+θ₀=2/9 (0.89σ, HINT-grade, B703); the Cabibbo 9/40 trap (field-mismatch, dead,
+B706); Q5's 7983360 (base-rate-dead); the Turok/CPT resonance (REFUTED, S068).
+The Listening Protocol makes the firewall CONSTRUCTIVE (rungs 1–3 = the object
+speaking, rungs 4–5 = numerology) — a genuine methodological advance, not a
+promotion. The specialist queue is the dossier + the Listening Protocol + the
+fiber-functor upgrade + B706. Nothing to CLAIMS.
+
+**(7) Protocol integrity.** All SEVEN whole-file preregs this window recompute
+MATCH against their SEAL_LEDGER lines: B698 (1e51ae30), B700 cells 1/2/4/5
+(1bbdb15b / 060aaaee / 7323661c / c8292c34), B701 phase-2 (0eb5026b), B706
+(3af39f7f) — banked file = sealed file, no post-seal edit. **Hash-first:
+honest-pass with a PROVENANCE CAVEAT** — the squash-merge workflow co-lands each
+arc's PREREG and FINDINGS in ONE commit (B698 #1150, B706 #1166), so git linear
+history does NOT separate the seal-commit from the verdict-commit. Hash-first is
+evidenced instead by (a) the whole-file-hash-match (the sealed file was never
+edited after banking) + (b) the dated "sealed BEFORE the verdict" SEAL_LEDGER
+note — consistent with hash-first, but not independently provable from commit
+order alone. This is a real, standing feature of the squash-merge process (not a
+breach) → R24-5.
+
+### Action items (Review 24)
+- [>] R24-1: the specialist pass — the package is now the dossier + the Listening Protocol + the fiber-functor program (K020-in-ear upgrade); the external read remains the one external dependency (carried from R23-1)
+- [>] R24-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R23-2)
+- [>] R24-3: H-EAR's residual formal statement — subsumed by the fiber-functor program (B700–B706); carry the formal note (from R23-3)
+- [ ] R24-4: add the six window-term glosses to TERMINOLOGY.md — the seam, measurement=fiber-functor, the audibility law, the Listening Protocol, the structural comparator, rung-1/rung-2 (owner: cc; source: this review's provenance sweep)
+- [ ] R24-5: hash-first provenance — the squash-merge workflow co-lands PREREG+FINDINGS in one commit, so seal-before-verdict is not git-provable per arc (whole-file-hash-match carries it). For the SEALED-SHOT / firewalled class (one-shot design cells), commit the sealed PREREG in a SEPARATE commit before the FINDINGS (as the generation-leg design cell did) so hash-first is git-provable (owner: cc; source: this review's protocol-integrity check)
