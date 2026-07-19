@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B702 CORRECTION: swap-hearing law retracted (E17)
+
+- cc2 self-caught + cc-verified: "metallic hearing <=> real-quadratic SWAP
+  field" conflated the being-face swap (Q(sqrt-3)/Q(i), imaginary, rational
+  tones) with the hearing-face weld (Q(sqrt5), where phi lives). RETRACTED.
+- Kept (corrected): silver ratio exact Q(i) (unaffected); the swap asymmetry
+  = torsion vs non-torsion; the AUDIBILITY law (character field Q(sqrt p*)
+  real <=> p=1 mod 4, connecting B702->B700). E17 logged. Lock 3/3.
+
+---
+
 ## 2026-07-19 - B703 (chat1 Q3): Koide theta_0 = 2/9 to 0.89 sigma (firewalled)
 
 - Corrected chat1's crude ~7 sigma: computed exactly, the Koide angle is

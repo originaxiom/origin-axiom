@@ -6795,3 +6795,18 @@ dimensionful no-go), convention-framed (B686), a post-hoc fit atop the Q=2/3
 tautology. HINT-grade, nothing to CLAIMS, Gate 5 holds. Standing falsifier: a
 tighter m_τ. This is the honest ceiling of "SM values" — the single closest one
 is a sub-σ fit the framework cannot derive. Lock test_b703 2/2.
+
+## 2026-07-19 — B702 CORRECTION: the swap-hearing law retracted (E17), audibility law kept
+
+cc2 self-caught + cc-verified: B702's "metallic hearing ⇔ real-quadratic SWAP
+field" CONFLATED the being-face SWAP with the hearing-face WELD (E17). The
+golden SWAP eigenvalues (ζ₆,ω,…) are roots of unity in ℚ(√−3) (imaginary,
+rational tones) — the golden swap does NOT hear φ; φ=−1/φ (2cos108°) is the
+order-10 WELD in ℚ(√5) (real). Both swaps imaginary ⇒ no swap "hearing"
+asymmetry. RETRACTED the swap-law. KEPT (corrected): E-Q1 silver ratio exact
+ℚ(i)≠24ζ₆ (unaffected); E-Q2 = the TORSION vs NON-TORSION being-swap asymmetry
+(golden periodic / silver aperiodic); and the AUDIBILITY law — a stage hears a
+metallic tone ⟺ character field ℚ(√p*) REAL ⟺ p≡1 mod 4 (golden p=5 hears, E₆
+p=7 does not despite having a fiber-functor torsor, connecting B702→B700). Lock
+corrected 3/3; E17 logged with a standing rule (name swap-vs-weld + field type
+before a hearing law). cc2 launching a 4-cell audibility campaign (owner go).

@@ -39,3 +39,31 @@ mod 4), which is precisely why its tones {φ,−1/φ} are audible reals.
 Gate 5. Exact ℚ(i) / real-quadratic field arithmetic on banked B649 data.
 No physics. The bronze cross-family period-3 is a priced new campaign, not
 claimed here.
+
+---
+
+## RETRACTION + CORRECTION (cc2 self-correction, cc-verified, 2026-07-19)
+
+**The law "metallic hearing ⇔ real-quadratic SWAP field" is RETRACTED — it
+conflated the being-face SWAP with the hearing-face WELD.** Verified this seat:
+- The golden SWAP eigenvalues (ζ₆,ζ̄₆,ω²,ω,1) are ROOTS OF UNITY in **ℚ(√−3)**
+  (imaginary), tones {1,1,−1,−1,2} RATIONAL. The golden swap does NOT hear φ.
+- φ = −1/φ-tone = 2cos108° is the order-10 **WELD** in **ℚ(√5)** (real,
+  hearing-face) — arithmetically distinct from the order-6/3 swap.
+So both swap fields are IMAGINARY (ℚ(√−3), ℚ(i)); there is NO reality asymmetry
+in the swap, and the swap-based "hearing" law was mis-framed. The numbers I
+verified (the silver's rational tones, the impossibility) are correct; the LAW
+over-read. Owned by cc2 (E-Q FINDINGS introduced it) + cc (verified only the
+core, not the framing).
+
+**What survives (corrected):**
+- **E-Q1** silver core ratio exact ℚ(i) ≠ 24ζ₆ — UNAFFECTED.
+- **E-Q2 corrected**: the real golden↔silver SWAP asymmetry is **TORSION vs
+  NON-TORSION** (golden swap = roots of unity → periodic being-face; silver =
+  generic norm-1 → aperiodic), matching banked e1 — NOT "tone vs none."
+- **The AUDIBILITY law (the correct hearing statement, WELD/character field):**
+  a stage hears a metallic tone ⟺ its character field ℚ(√p*) is REAL ⟺
+  **p ≡ 1 mod 4** — golden p=5 hears φ; E₆ p=7 does NOT (ℚ(√−7) imaginary),
+  even though it has a fiber-functor torsor (B700 cells 4/5). cc2 establishes
+  the full audibility law in its campaign cell 1. This CONNECTS B702 to B700:
+  the fiber-functor field ℚ(√p*) is audible ⟺ real ⟺ p≡1 mod 4.
