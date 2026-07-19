@@ -14298,6 +14298,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B706": {
+   "slug": "rung2 sm freedom",
+   "motifs": [
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B307",
+    "B604",
+    "B607",
+    "B608",
+    "B685",
+    "B701",
+    "B704"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [
