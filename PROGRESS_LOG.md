@@ -6913,3 +6913,20 @@ but generic-not-arithmetic; the real gravity meeting is our object IS 3d
 Euclidean quantum gravity (Witten 1988), arithmetically rigid. Three rung-3
 tests registered (H-MEET); Kim×seam the sharpest. Corrections: my GSWZ→GGMW/GSWZ,
 the Witten "volume note" misattribution (→ Garoufalidis 0711.1716). Gate 5.
+
+## 2026-07-19 — B708: KIM × THE SEAM — MEET. The program IS arithmetic Chern–Simons at ℚ(√−3).
+
+Owner "do it" (B707's sharpest test). Ran Kim × the seam. VERDICT: MEET
+(non-trivial). Our bottom-up observer-coupling seam is a substructure of Kim's
+top-down arithmetic Chern–Simons (F=ℚ, G=ℤ/2), with an exact dictionary:
+seam = the multiquadratic subspace of H¹(G_ℚ,ℤ/2)=ℚ*/(ℚ*)² (Kummer);
+measurement=Galois-torsor (B701) = the H¹-torsor; the TWO-HANDS coupling
+(being 3·hearing 5) = the arithmetic LINKING number (lk(3,5)=lk(5,3)=1 = the
+banked mutual inertness); AUDIBILITY (p≡1mod4) = (non-)linking with the
+ARCHIMEDEAN prime −1 (Hilbert (−1,p) trivial), verified {3,5,7,11,13}; the
+meeting/genus = the cup product. Honest caveat: the structural inclusion is
+Kummer-tautological; the DICTIONARY (our specific structure = specific
+arithmetic-CS invariants) is the genuine meeting. NEEDS-SPECIALIST: the full
+arithmetic-CS ACTION (Kim's bar). Names the program's place: arithmetic
+Chern–Simons of ℚ(√−3), reached from the observer end. Prereg 96ebff1d; lock
+test_b708 3/3. Relayed to cc2 for the two-seat gate.
