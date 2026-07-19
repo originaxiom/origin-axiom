@@ -1,0 +1,121 @@
+========================================================================
+(A) Z/11 BASE CHARGE  +  discrete (Diophantine) anomaly coefficients
+========================================================================
+substitution matrix M (col=source): [[1, 1, 1, 1], [1, 0, 1, 0], [2, 1, 1, 1], [1, 1, 1, 0]]
+SNF(I-M) diagonal = [1, 1, 1, 11]   ->  coker(I-M) = Z/11
+charge chi = (1,3,6,7);  chi*M mod 11 = [1, 3, 6, 7]  (conserved: chi*M=chi)
+
+Lohitsiri-Tong / Ibanez-Ross discrete anomaly coefficients of the
+4-letter content read as CHIRAL Z/11 'matter':
+   linear      Sum chi   = 17 = 6 mod 11   (!= 0)
+   quadratic   Sum chi^2 = 95 = 7 mod 11
+   cubic       Sum chi^3 = 587 = 4 mod 11  (!= 0)
+   -> a CHIRAL Z/11 would be Diophantine-OBSTRUCTED (no anomaly-free
+      chiral completion of the naive 4-letter content).  Held for (D).
+
+========================================================================
+(B) orientation action on the Z/11 charge line  ->  direct product
+========================================================================
+Orientation reverses word order; it PRESERVES the Parikh vector (letter
+counts), so its abelianization on Z^4 is the identity matrix => it acts as
++1 on coker(I-M)=Z/11.  Hence the extension is the DIRECT product
+Z/11 x Z/2 (NOT the dihedral semidirect product Z/11 |x Z/2):
+the orientation cannot rotate the charge (consistent with B553
+charge-clock decoupling).
+(cross-check) chi o (letter-inversion) = [6, 7, 1, 3]; = c*chi mod 11 for c in []
+  -> no order-2 automorphism of Z/11 is realized on the charge; +1 only.
+
+========================================================================
+(C) H^3(G,U(1)) = H_3(G,Z)  via the normalized bar resolution
+========================================================================
+Brute-force H_3(G,Z) [= H^3(G,U(1))] on tractable groups
+(validates the Type-I/II/III law; the Z/2xZ/2 case is the NON-VACUOUS
+ detector -- a mixed anomaly IS found there):
+
+   H^3(Z/2        , U(1)) = Z/2
+   H^3(Z/3        , U(1)) = Z/3
+   H^3(Z/4        , U(1)) = Z/4
+   H^3(Z/5        , U(1)) = Z/5
+   H^3(Z/2 x Z/2  , U(1)) = Z/2 (+) Z/2 (+) Z/2
+   H^3(Z/2 x Z/3  , U(1)) = Z/6
+
+Reading of the validation:
+   * H^3(Z/n)         = Z/n                         [Type I, each factor]
+   * H^3(Z/2 x Z/2)   = Z/2 (+) Z/2 (+) Z/2
+       -> THREE Z/2's = Z/2(I) + Z/2(I) + Z/2(II).  The extra Z/2 is the
+          MIXED (Type-II) anomaly = Z/gcd(2,2)=Z/2.  Detector FIRES.
+   * H^3(Z/2 x Z/3)   = Z/6
+       -> exactly Z/2 (+) Z/3, NO extra term: mixed = Z/gcd(2,3)=0.
+          COPRIME orders => NO mixed anomaly.  Detector correctly SILENT.
+
+VALIDATED LAW (Chen-Gu-Liu-Wen / de Wild Propitius; here brute-forced):
+  for G = prod_i Z/n_i,
+     H^3(G,U(1)) = (+)_i Z/n_i   [Type I]
+                 (+)_{i<j}  Z/gcd(n_i,n_j)      [Type II  mixed pair]
+                 (+)_{i<j<k} Z/gcd(n_i,n_j,n_k) [Type III mixed triple]
+Formula reproduces every brute-forced |H^3| above.  OK.
+
+------------------------------------------------------------------------
+APPLY to the object's finite content:
+------------------------------------------------------------------------
+  G = Z/11 x Z/2
+     pairwise gcds: gcd(11,2)=1
+     Type I   (own) : Z/11 (+) Z/2
+     Type II  (pair): none -- every gcd=1
+     => H^3(G,U(1)) = Z/11 (+) Z/2   (a PURE direct sum; NO mixed part)
+
+  G = Z/11 x Z/2 x Z/5  (+ the B533 five types)
+     pairwise gcds: gcd(11,2)=1, gcd(11,5)=1, gcd(2,5)=1
+     Type I   (own) : Z/11 (+) Z/2 (+) Z/5
+     Type II  (pair): none -- every gcd=1
+     Type III (triple): none -- gcd=1
+     => H^3(G,U(1)) = Z/11 (+) Z/2 (+) Z/5   (a PURE direct sum; NO mixed part)
+
+========================================================================
+(D) the OBJECT's realized class in H^3(G,U(1))
+========================================================================
+Z/11 factor: the charge acts as the on-site GRADING
+     U(g) = prod_sites  omega^{ g * chi(letter) },   omega = e^{2 pi i/11},
+   a genuine LINEAR (non-projective) on-site U(1)>=Z/11 representation:
+     u_x(g) u_x(h) = omega^{g chi_x} omega^{h chi_x} = u_x(g+h)  -- no phase.
+   An on-site linear symmetry has NO 't Hooft anomaly: restricting U(g) to
+   a half-line gives again a linear boundary rep (no projective H^2 phase),
+   so the H^3 obstruction vanishes.  => class = 0 in Z/11.
+   explicit check: projective-phase violations over (g,h,letter) = 0  (0 => linear)
+   (reproduces B565-T1: UV H^3 class of the Z/11 grading = 0.)
+
+Z/2 factor: the orientation is realized as a genuine order-2 involution
+   (B565-T3: the amphichiral label pairing sigma+(1-sigma)=1 is EXACT for
+   all labels -- the object is VECTOR-LIKE).  An on-site linear involution
+   likewise has trivial H^3 class.  => class = 0 in Z/2.
+
+mixed: 0 by coprimality (nothing to realize).
+=> the object's total class in H^3(G,U(1)) is (0,0[,0]) = TRIVIAL.
+
+========================================================================
+(E) VERDICT
+========================================================================
+The combined finite content IS self-consistently GAUGEABLE:
+
+  1. COPRIMALITY.  |content orders| = {11, 2, 5} are pairwise coprime
+     => every Type-II/III (mixed) anomaly component of H^3(G,U(1)) is
+        Z/gcd = 0.  The anomaly group is the PURE direct sum of the
+        individual factors -- there is NO room for a mixed Z/11 x Z/2
+        force.  (Detector shown non-vacuous on Z/2 x Z/2.)
+  2. TRIVIAL REALIZED CLASS.  Each factor is realized on-site LINEARLY
+     (Z/11 = the chi-grading; Z/2 = a genuine vector-like involution),
+     so the object sits at 0 in every factor of H^3(G,U(1)).
+  3. VECTOR-LIKE, NOT CHIRAL.  The Lohitsiri-Tong Diophantine coefficients
+     Sum chi = 6, Sum chi^3 = 4 mod 11 are NONZERO -- a CHIRAL Z/11 would
+     be obstructed -- but the object is vector-like (B565-T3), so the true
+     anomaly (L-R) cancels and the H^3 class is 0.  Gaugeability here is
+     bought by being vector-like, which is exactly what SM matter is NOT.
+
+  DISCRIMINATING FACT: the only nonzero 'obstruction' anywhere is the
+  chiral coefficient Sum chi^3 = 4 mod 11, and it is annihilated by the
+  object's vector-like structure; the mixed Z/11 x Z/2 anomaly is 0 on
+  pure arithmetic (gcd(11,2)=1).  No hidden force; no SM-relevant
+  obstruction.  The charge content is the object's own ARITHMETIC
+  BOOKKEEPING on mutually-coprime, non-mixing floors.
+
+  OUTCOME  ->  B  (gaugeable-but-non-SM).

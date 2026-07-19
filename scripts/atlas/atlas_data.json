@@ -14554,6 +14554,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B715": {
+   "slug": "native gauge",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B302",
+    "B469",
+    "B565",
+    "B657",
+    "B685",
+    "B708",
+    "B713",
+    "B714"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [
