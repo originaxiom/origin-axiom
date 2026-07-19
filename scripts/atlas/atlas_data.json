@@ -14273,6 +14273,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B705": {
+   "slug": "metallic hearing campaign",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B242",
+    "B699",
+    "B700",
+    "B702",
+    "B703",
+    "B704"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [

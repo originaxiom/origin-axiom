@@ -6824,3 +6824,17 @@ p≡1 mod4). Unifies B698/B699 (genus ℤ/2), cell 2 (V₄), B700/B701 (torsors)
 B702 (audibility) as ONE 𝔽₂-linear structure. Pure math (Gate 5); the reading
 of V as "the observer's measurement freedom / the seam of reality" is
 firewalled in S069. Lock test_b704 3/3.
+
+## 2026-07-19 — B705: the metallic-hearing campaign (golden uniquely audible, 3 ways)
+
+cc2's 4-cell audibility campaign, verified + banked. Cell A: the AUDIBILITY
+law established (the corrected B702 home) — a stage hears ⟺ real character
+field ℚ(√p*) ⟺ p≡1 mod 4 (types the B704 seam basis). Cell B: SILENT — a
+non-bundle cannot hear; verified via the fig-8 Jones calibration V(4₁)(ζ₅)=
+1−√5 (REAL, golden, hears) vs Whitehead V(ζ₅)≈0.882+0.812i (COMPLEX, silent);
+golden hearing IS a bundle phenomenon — B699 upheld from a THIRD angle
+(quantum topology, after mod-5 image + surgery arithmetic). Golden UNIQUE
+three ways: A unit-tone (p=5 alone), B fibered/audible, C arithmetic bundle.
+Two-seat confirmations: θ₀=0.89σ (confirms B703, not chat1's 7σ; firewall on
+the right grounds); B702 retraction confirmed; Q5 base-rate-dead (chat1's Q5
+closed). Lock test_b705 2/2.

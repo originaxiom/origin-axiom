@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B705: metallic-hearing campaign (golden uniquely audible)
+
+- cc2's audibility campaign, verified. Cell A: audibility law (hears <=>
+  real character field <=> p=1 mod4). Cell B: a non-bundle cannot hear -
+  fig-8 Jones(zeta5)=1-sqrt5 (golden, real) vs Whitehead complex (silent);
+  B699 upheld from quantum topology. Golden unique 3 ways. Confirms B703
+  (theta0=0.89sigma) + B702 retraction; Q5 base-rate-dead. Lock 2/2.
+
+---
+
 ## 2026-07-19 - B704: the seam = an F_2-vector space (unifies B698-B702)
 
 - The per-stage fiber-functor Z/2-torsors assemble into Gal(Q(sqrt p* : stage
