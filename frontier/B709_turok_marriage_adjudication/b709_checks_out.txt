@@ -1,0 +1,32 @@
+== I5/T2: the 36-count base rate (does 36 pick E6?) ==
+  E6           dim 78 rank 6 -> #pos_roots 36
+  B6=so(13)    dim 78 rank 6 -> #pos_roots 36
+  C6=sp(12)    dim 78 rank 6 -> #pos_roots 36
+  A6=su(7)     dim 48 rank 6 -> #pos_roots 21
+  D6=so(12)    dim 66 rank 6 -> #pos_roots 30
+  F4           dim 52 rank 4 -> #pos_roots 24
+  36 positive roots shared by: ['E6', 'B6=so(13)', 'C6=sp(12)']  -> count does NOT select E6
+
+== T5: the rung-4 single-ratios (named ONLY to firewall) ==
+  1/(2phi) = 0.30902  (vs PDG sin^2 th12 ~ 0.307; ~0.6% off)
+  theta0 = 2/9 = 0.22222  (B703, 0.89 sigma, HINT-grade)
+  both: rung-4 single-ratio, NO mechanism (B685) -> hints only, not derived
+
+== I1/T1: the two-time distinction (why the FRW embedding fails) ==
+  suspension time  : compact S^1 base, monodromy sigma=[[2,1],[1,1]] per period
+                     (Anosov flow on a finite-vol H^3 manifold; Euclidean, Lambda<0)
+  cosmological time : non-compact R, single bang, Lorentzian FRW metric a(t)
+  -> INTERNAL 3-mfd fibration time != EXTERNAL 4-d spacetime time
+     (different dimension AND signature; no metric/scale bridges them)
+
+== the two-ZZ/2 partition (load-bearing) ==
+  Z/2-A amphichirality : K=Kbar, CS=0 -> CANONICAL (fixes the geometric slice)
+  Z/2-B fiber torsor   : sqrt5->-sqrt5 -> NON-canonical (B701, no basepoint)
+  Turok CPT            : CANONICAL (fixes the bang)  -> matches A, INVERTS B
+  -> marriage reaches A (amphichirality/strong-CP); B is the INVERSION
+
+== T3: the dimensionful no-go (dimensionless integer -> mass needs a scale) ==
+  N(v0) = -6 : dimensionless integer ; 4.8e8 GeV : dimensionful
+  a mass needs a SCALE the program lacks (S3/B615) -> value-match REFUTED
+
+ALL CHECKS CONSISTENT WITH THE SEALED ALL-B VERDICT.

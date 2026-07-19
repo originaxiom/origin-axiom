@@ -3,6 +3,7 @@ import mpmath as mp
 
 
 def test_tau_keeps_pairs_invariant():
+    # tau: q->1/q sends class a/5 -> (5-a)/5; each pair {2,3},{1,4} stays
     for a, b in [(2, 3), (1, 4)]:
         assert (5 - a) % 5 == b and (5 - b) % 5 == a
 

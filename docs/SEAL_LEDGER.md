@@ -178,3 +178,5 @@ hash-first status.*
 | B706 PREREG (rung-1/2 structural comparator on the SM flavor sector) | frontier/B706_rung2_sm_freedom/PREREG.md | 3af39f7f | 2026-07-19 | owner-authorized Gate-5-SM; outcome = NO-MATCH (flavor generic over Q(sqrt5); SM freedom continuous != discrete F_2-seam; object lacks the SM discrete structure B307/B604) |
 
 | B708 PREREG (Kim x the seam) | frontier/B708_kim_seam/PREREG.md | 96ebff1d | 2026-07-19 | outcome = MEET (non-trivial): the seam = subspace of Kim's H1(G_Q,Z/2); two-hands coupling = arithmetic linking; audibility = linking with the archimedean prime |
+
+| B709 PREREG (the Turok-marriage adjudication) | frontier/B709_turok_marriage_adjudication/PREREGISTRATION.md | 93879b9d | 2026-07-19 | sealed pre-verdict; outcome = ALL-B: NOT a marriage, an INVERSION (Turok CPT = amphichirality canonical, INVERTS the B701 fiber-torsor) + KIND-complementarity (B706); T3 refuted (dimensionful no-go), T4 permitted-not-forced, I5 base-rate-dead, I2/T5 firewalled |

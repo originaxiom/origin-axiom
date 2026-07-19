@@ -102,6 +102,7 @@ upgrades' lead rows).*
 | **Measurement is passage through the finite** | the infinite Anosov dynamics is heard mod the conductor: what any ear couples to factors through a finite group | **PRINCIPLE** (two exact instances) | B640 (2I×ℤ/3 at level 15); B644 (the finite group IS the mod-κ shadow) | second stage family; general statement |
 | **The stopping-rule record** | every SM-value comparison at every level: null or dissolved, on corrected inputs; one experiment-side forward row (JUNO) | **CLOSED NEGATIVE RECORD** | B615/B615-R, B616, B627/B628, B631 | reopens only via owner + L91's functor + the full checklist |
 | **The stage-selection question** | κ = 5 is the MINIMAL BEARING CHOICE (5\|κ proved; equality is not) | **HYPOTHESIS** with 4 named obligations | B620/B621; B634 erratum; L91 | L91's four proofs |
+| **TUROK: INVERTED, NOT MARRIED (B709)** | the object has TWO ℤ/2's — amphichirality (K=K̄, CS=0, CANONICAL) and the fiber-functor torsor (√5→−√5, NON-canonical, B701); Turok's CPT (fixes the bang, canonical) MATCHES the first and INVERTS the second; the genuine relation is complementarity of KINDS (discrete vs continuous, B706), not identity | PLACEMENT | B709/B707 | the two-ℤ/2 partition |
 
 ## E. The walls (proved impossibilities — kept dead)
 

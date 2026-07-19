@@ -6930,3 +6930,6 @@ arithmetic-CS invariants) is the genuine meeting. NEEDS-SPECIALIST: the full
 arithmetic-CS ACTION (Kim's bar). Names the program's place: arithmetic
 Chern–Simons of ℚ(√−3), reached from the observer end. Prereg 96ebff1d; lock
 test_b708 3/3. Relayed to cc2 for the two-seat gate.
+
+## B709 — the Turok-marriage adjudication (2026-07-19)
+chat-1's "Turok Marriage" (12 parallels, I1–I5, T1–T5), owner-pasted, adjudicated via the Listening Protocol + the banked record; two-seat (cc T1 crux; cc2 T3/T4, sha 4fa00972). VERDICT: NOT a marriage — an INVERSION + a KIND-complementarity. The object carries TWO ℤ/2's: amphichirality (CS=0, CANONICAL) and the fiber-functor torsor (B701, NON-canonical); Turok's CPT matches the first, INVERTS the second. T1 (3D→4D embedding, cc): a formal ℤ/2-A analogy exists but the FRW embedding is unsupported (internal Euclidean-H³ suspension time ≠ external Lorentzian-FRW time) and inert on the value side (B685/B701). I4 = the overreach (does NOT resolve B706). T3 refuted (dimensionful no-go, S3/B615); T4 permitted-not-forced; I5/36-roots base-rate-dead (E₆/B₆/C₆ all 36); I2 arbitrary (θ-fold is E₆ outer; object breaks c); T5 not ours to register. KEEP (rung 2–3): the complementarity + strong-CP-by-mirror. Sealed 93879b9d; test_b709_turok.py (5 locks). Firewall held; nothing to CLAIMS.
