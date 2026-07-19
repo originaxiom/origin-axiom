@@ -14514,6 +14514,46 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B714": {
+   "slug": "physics spine",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B302",
+    "B312",
+    "B565",
+    "B604",
+    "B615",
+    "B616",
+    "B627",
+    "B628",
+    "B631",
+    "B640",
+    "B657",
+    "B685",
+    "B699",
+    "B700",
+    "B701",
+    "B706",
+    "B709",
+    "B710",
+    "B711",
+    "B712",
+    "B713",
+    "K020"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [
