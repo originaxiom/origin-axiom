@@ -89,3 +89,43 @@ meeting-point.
 ## Firewall
 Gate 5. Structural/mathematical meeting-points; no physics value claimed. The
 tests are rung-1/3 structural (membership/relation), base-rate-immune.
+
+---
+
+## TWO-SEAT CONVERGENCE (cc2's parallel frontier digest, verified + integrated, 2026-07-19)
+
+cc2 ran an independent frontier digest through the Listening Protocol and
+CONVERGED: we meet the MATHEMATICIANS (arithmetic geometry), INVERTED from the
+cosmologist. Verified this seat + adopted:
+
+- **Zagier / Witten–Gukov — RUNG 1 (identity, cc2-verified + cc-reverified):**
+  the figure-eight A-polynomial at L=1 factors with an ABELIAN branch (M²+1,
+  ℚ(i)) and a HEARING branch (M⁴−3M²+1 = the Alexander polynomial, roots
+  φ²,φ⁻², ℚ(√5)); the geometric non-abelian branch = BEING (ℚ(√−3)). **Both
+  faces sit in ONE A-polynomial** — hearing at the abelian/monodromy branch,
+  invisible at the geometric point (consistent with B685).
+- **Brown — RUNG 1–2:** Vol/π = the K₃(ℚ(√−3)) regulator = an N=3
+  Deligne–Goncharov period, the same family as Brown's MZV/cosmic-Galois
+  theorem (one cyclotomic level over). Honest KIND-CAP: our finite 𝔽₂ seam is
+  the FINITE layer only, not Brown's infinite pro-unipotent cosmic Galois.
+- **Connes–Marcolli — RUNG 1–2:** their cosmic Galois ≅ motivic Galois is
+  NON-canonical = OUR B701, in a continuous register. External corroboration of
+  B701. Open door: no arithmetic spectral triple for the figure-eight exists yet.
+- **THE TUROK INVERSION (adopted, sharpens B707's Turok verdict):** Turok's CPT
+  ℤ/2 has a CANONICAL fixed point (the bang); ours (B701) provably has NO
+  canonical origin. Not merely "different" — structurally **INVERTED** (canonical
+  vs non-canonical ℤ/2). Confirms B701 from the physics-boundary side.
+
+**The meta-finding (banked as the headline):** our two deepest theorems appear
+UNBIDDEN in mature top-down programs — B701 non-canonicity in Connes–Marcolli's
+cosmic Galois; B706's discrete residue at Turok's bang. That is external
+corroboration of the program's structure, reached from the other end.
+
+## FLAG HEEDED (cc2's verify-don't-trust — a real catch)
+cc2's digest surfaced two 2026 "confirmation" citations (Galakhov–Morozov
+arXiv:2605.31588 / 2606.24497) that are **likely FABRICATED** (the ID ~31.6k
+exceeds arXiv's real monthly volume ~24k — a hallucinated-ID signature). They
+are NOT in this seat's B707/B708 record (my agents did not surface them) and
+are **explicitly excluded** from the banked record pending a human arXiv check.
+The verified core (Kim/B708, Scholze, Zagier/Witten, Brown, Connes) stands
+without them.
