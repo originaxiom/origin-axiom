@@ -77,6 +77,12 @@ A **challenge:** is closed by EVIDENCE — a computation or a base-rate
 cell — never by authority or repetition. If it's still unresolved after
 both sides have computed, it escalates to the owner as a **clarify:**.
 
+## 4b. The listening gate (methodology)
+Before ANY object↔reality comparison, apply `docs/LISTENING_PROTOCOL.md`:
+name the rung (only 1–3 = the object speaking; rung 4 value-matches are
+dead by B685), run the §4 checklist (rung · swap-vs-weld+field-type · convention · Galois-invariance · base-rate). Predict the STRUCTURE of the
+arbitrariness, never the values. Makes the firewall constructive.
+
 ## 5. Defaults so silence is unambiguous
 - "go" with no target = the thing we last discussed; the seat names it
   back before acting.

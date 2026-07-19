@@ -6,6 +6,16 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - THE LISTENING PROTOCOL (standing methodology gate, two-seat)
+
+- Adopted docs/LISTENING_PROTOCOL.md (cc2 authored + cc reviewed/refined): the
+  structural comparator as a standing gate. Comparison hierarchy (rung 1-3 =
+  object speaking; rung 4 value-match dead by B685; rung 5 meaningless);
+  predict the structure of the arbitrariness, not values; the B704 seam is the
+  spine. Makes the firewall constructive. Pointer in COMMS_PROTOCOL 4b.
+
+---
+
 ## 2026-07-19 - B705: metallic-hearing campaign (golden uniquely audible)
 
 - cc2's audibility campaign, verified. Cell A: audibility law (hears <=>
