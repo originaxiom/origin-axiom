@@ -200,3 +200,5 @@ hash-first status.*
 | B715 PREREG (Frontier 3: the object's native gauge system) | frontier/B715_native_gauge/PREREGISTRATION.md | e41082eb | 2026-07-19 | sealed PRE-VERDICT (native gauge dynamics: T7 gaugeability + the complex/non-compact positive characterization + ℤ/11 as arithmetic charge); outcome pending |
 
 | B715 VERDICT (Frontier 3: native gauge dynamics) | frontier/B715_native_gauge/FINDINGS.md | outcome=B | 2026-07-19 | the native gauge system = COMPLEX Chern–Simons of E₆(ℂ) (non-real adjoint trace 37437270+38799960√3·i kills all real forms), NOT compact Yang–Mills; ℤ/11 UV-arithmetic non-descending (N_{ℚ(√5)}(φ⁵−1)=−11); T7 full-content gaugeability INCONCLUSIVE (contested twist premise); 6′ generations fully closed (block obstruction closes Hecke; chat-1's A₄/V₄ ℤ/3 killed by B685) |
+
+| B716 PREREG (Frontier 4: the 3d↔4d / time gap) | frontier/B716_time_gap/PREREGISTRATION.md | e01a8451 | 2026-07-19 | sealed PRE-VERDICT (is time/4d/Lorentzian in the object or the coupling? Anosov/thermal time, canonical 4d, Wick rotation); outcome pending |
