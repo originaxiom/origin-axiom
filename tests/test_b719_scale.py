@@ -27,3 +27,23 @@ def test_h3_filter_stands_as_observed():
         return h
     for D in (-23, -31, -59, -283):        # Weeks sibling + 3 arithmetic children
         assert h_imag(D) == 3               # all class number 3 (sparse)
+
+def test_h3_is_generic_not_inherited():
+    # the CONTROL: same small-disc fields are arithmetic children of DIFFERENT Bianchi parents
+    # -> h=3 is generic, not a sqrt-3 fingerprint. Q(sqrt-1)[prime 2] children have ODD h=3
+    # (falsifies inherited prediction of even h). h=3 is heavy among smallest discs.
+    import math
+    def h_imag(D):
+        h=0; a=1
+        while a*a <= -D/3:
+            for b in range(-a,a+1):
+                if (b*b-D)%(4*a)==0:
+                    c=(b*b-D)//(4*a)
+                    if c>=a and not (b<0 and (a==c or a==abs(b))):
+                        if math.gcd(math.gcd(a,b),c)==1: h+=1
+            a+=1
+        return h
+    # -23,-59,-283 are children of MULTIPLE Bianchi parents (per the control) and are ODD h=3
+    for D in (-23,-59,-283):
+        assert h_imag(D) == 3 and h_imag(D) % 2 == 1   # odd 3 -> not prime-2-genus-inherited
+

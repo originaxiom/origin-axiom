@@ -24,16 +24,28 @@ dimensionful no-go (B615/B685) extended to multiplicity.
   higher covers — the homology (the "number of pair-directions") scales with the
   degree. So the multiplicity is the imported scale, not a fixed object number.
 
-## The h=3 being-filter — STANDS as observed; inheritance control OPEN (re-run needed)
-Verified this session (holds): the 3 arithmetic children of 4₁ (discs −31,−59,−283) +
-the Weeks sibling (−23) ALL have quadratic-shadow class number 3; h=3 is sparse (16
-discriminants total, base rate ~11%; 4/4 not chance); the two cubic children are the
-3-Hilbert-class-fields (unramified cubic over their h=3 quadratic, exists iff 3|h).
-**The DISCRIMINATING control — is this inherited from the √−3 parent's prime 3, or
-generic to small arithmetic fillings? — DID NOT RUN (API timeout).** So "inherited vs
-generic" is UNRESOLVED. Honest status: a real, non-base-rate pattern with a partial
-mechanism (the cubic children); whether it is the √−3 parent's fingerprint on its
-children awaits the Maclachlan–Reid control on a manifold over a different Bianchi field.
+## The h=3 being-filter — real pattern, but GENERIC not inherited (control RESOLVED)
+Observed (holds): the 3 arithmetic children of 4₁ (discs −31,−59,−283) + the Weeks
+sibling (−23) ALL have quadratic-shadow class number 3 — a real 4/4 pattern.
+**The DISCRIMINATING control (re-run this seat as a single focused agent + verified) →
+OUTCOME B: GENERIC, not inherited from the √−3 parent's prime 3.** The Maclachlan–Reid
+arithmeticity checker was validated (reproduces 4₁(5,1)/(6,1)/(8,1) ARITH, 4₁(7,1)/(9,1)
+and 5₂ NON-ARITH — the decisive discrimination). Then:
+- **ℚ(√−1) control [prime 2]** (m130): arithmetic children shadow-h = {1,3,3,3,9,15,94}
+  — ODD class number 3 present, FALSIFYING the inherited prediction (prime 2 ⇒ even h by
+  genus theory). **ℚ(√−7) control [prime 7]** (m009/m010): {1,1,1,1,3,3,3,3} — no
+  7-signature.
+- **The same small-disc fields recur across DIFFERENT Bianchi parents:** disc −23
+  appears as an arithmetic child of ℚ(√−1), ℚ(√−7) AND ℚ(√−3); −59 under ℚ(√−1) and
+  ℚ(√−7); −283 under ℚ(√−1) and ℚ(√−3). The child fields are universal small-arithmetic
+  fields, NOT a √−3 fingerprint.
+- **Small-numbers mechanism:** low-volume children → smallest-discriminant fields, and
+  h=3 is heavy among the smallest imaginary discriminants (14% of the smallest 21). The
+  cubic⟺3|h residue (cubic children ARE unramified-cyclic-cubic class fields) is real but
+  holds for ANY Bianchi parent's cubic children — generic, not transferred from prime 3.
+So: the owner's push surfaced a genuine pattern; the control resolves it honestly — h=3
+is a generic small-arithmetic-filling effect, NOT the object's fingerprint. An earlier
+"being-3 inherited filter" reading is corrected. Artifacts: b719_control.py + _out.txt.
 
 ## QA corrections (a skeptic's catch on the degraded probe-2 artifact, adopted)
 - The d=6 gap is NOT "homologically forced": S₆ ⊃ A₅≅PSL(2,5) (transitive index-6,
