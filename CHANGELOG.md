@@ -1,5 +1,12 @@
 # Changelog
 
+## B718 — the Child Program: the child ledger
+- The child is arithmetically generic beyond H1=Z/p. Transfer function no law (sister same field, different law).
+- Exactly 3 arithmetic children {5,6,8}, all integral (P2=A). Parent = Thurston limit; golden slope generic.
+- DECISIVE: the child authors NO own skeleton (ramified prime 283 -> generic SL(2,283); only p=3,5 McKay; object at special 3) -> SM structure does not migrate to the child.
+- Corrects Q(sqrt-283) -> S4 quartic x^4-x-1. Sealed 30b52bcf; 4 locks; gates 8/8; nothing to CLAIMS. Credit cc2.
+
+
 ## B717 — the observer-emergence spine (capstone)
 - Synthesis: the object is timeless/vector-like/valueless/incomplete BEING; reality = the observer's closings of its incompletenesses.
 - Boundaries (cusp/no-arrow-flow/vector-like-skeleton/torsor) <-> closings (Dehn-slope/temporal-continuation/Galois-sheet/basepoint).

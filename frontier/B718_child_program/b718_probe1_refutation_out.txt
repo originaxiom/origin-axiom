@@ -1,0 +1,56 @@
+B718 PROBE 1 -- REFUTATION of 'parent disc -3 controls the child degree law'
+==============================================================================
+
+[T1] INTERNAL: the fig-8 degree law needs TWO moduli (3 AND 4).
+  odd p : deg = p-1, EXCEPT p-2 when 3|p       (mod-3 resonance)
+  even p=2m: deg = m if m odd, m-1 if m even    (mod-4 resonance in p)
+  even-p check (predict vs computed):
+    p= 6 (m= 3, m odd  -> m): deg=3  pred=3  OK
+    p= 8 (m= 4, m even -> m-1): deg=3  pred=3  OK
+    p=10 (m= 5, m odd  -> m): deg=5  pred=5  OK
+    p=12 (m= 6, m even -> m-1): deg=5  pred=5  OK
+    p=14 (m= 7, m odd  -> m): deg=7  pred=7  OK
+    p=16 (m= 8, m even -> m-1): deg=7  pred=7  OK
+    p=30 (m=15, m odd  -> m): deg=15  pred=15  OK
+    p=32 (m=16, m even -> m-1): deg=15  pred=15  OK
+  => the even branch is governed by m mod 2, i.e. p mod 4.  |disc(parent)|=3
+     cannot produce a mod-4 resonance (4 is not a multiple of 3).  Single-cause
+     '3 controls the law' is self-refuted by the object's OWN table.
+
+[T2] SAME-DISC CONTROL: m003 (fig-8 SISTER, invariant trace field Q(sqrt-3),
+     disc -3 -- IDENTICAL to the figure-eight).  If disc -3 controlled the law,
+     m003(p,1) would obey the SAME formula as 4_1(p,1).
+     p |  4_1(p,1) deg |  m003(p,1) deg | same?
+      5 |        4        |       9        | n
+      6 |        3        |      11        | n
+      7 |        6        |      12        | n
+      8 |        3        |      15        | n
+      9 |        7        |      17        | n
+     10 |        5        |      18        | n
+     11 |       10        |      21        | n
+     12 |        5        |      23        | n
+     13 |       12        |      24        | n
+     14 |        7        |      27        | n
+     agreement: 0/10  => SAME disc, DIFFERENT degree law => disc does NOT
+     determine the child degree law.  REFUTES 'disc controls the law'.
+
+[T3] DIFFERENT-DISC CONTROL: does the degree-dip modulus track |disc(parent)|?
+   -- m015  (parent invariant trace field disc = -23) --
+      (p,deg): 5:5, 6:2, 7:6, 8:4, 9:8, 10:4, 11:9, 12:7, 13:14, 14:7
+      local degree-dips at p = [6, 8, 10, 12]   (|disc|=23 is NOT among the moduli;
+       dips sit at small p / small moduli 2,3 -- generic surgery resonance)
+   -- m023  (parent invariant trace field disc = 697) --
+      (p,deg): 5:6, 6:12, 7:4, 8:16, 9:11, 10:22, 11:12, 12:27, 13:16, 14:31
+      local degree-dips at p = [7, 9, 11, 13]   (|disc|=697 is NOT among the moduli;
+       dips sit at small p / small moduli 2,3 -- generic surgery resonance)
+
+[VERDICT]
+  T1 (internal mod-4), T2 (same disc -> different law), T3 (different disc ->
+  same small-modulus dips) ALL refute the claim that the parent's invariant-trace-
+  field discriminant controls the child's field-degree law.  The degree grows
+  ~linearly in p with small-modulus (cyclotomic / hyperbolic-Dehn-surgery) dips
+  for every hyperbolic knot; the fig-8's clean 'p-1 / p-2(3|p)' formula is just its
+  A-polynomial's instance of that generic phenomenon.  The '3' coinciding with
+  |disc(Q(sqrt-3))| is a NUMERICAL COINCIDENCE, not causal transfer.
+  Combined with the disc VALUE being generic (probe 1: never p|disc, root-disc
+  unbounded), the child's arithmetic is GENERIC beyond H1=Z/p  =>  OUTCOME B.
