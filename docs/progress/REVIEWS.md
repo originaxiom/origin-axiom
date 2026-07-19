@@ -1583,7 +1583,7 @@ breach) → R24-5.
 - [>] R24-1: the specialist pass — the package is now the dossier + the Listening Protocol + the fiber-functor program (K020-in-ear upgrade); the external read remains the one external dependency (carried from R23-1)
 - [>] R24-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R23-2)
 - [>] R24-3: H-EAR's residual formal statement — subsumed by the fiber-functor program (B700–B706); carry the formal note (from R23-3)
-- [ ] R24-4: add the six window-term glosses to TERMINOLOGY.md — the seam, measurement=fiber-functor, the audibility law, the Listening Protocol, the structural comparator, rung-1/rung-2 (owner: cc; source: this review's provenance sweep)
+- [x] R24-4: DONE (2026-07-19) — the six window-term glosses added to TERMINOLOGY.md — the seam, measurement=fiber-functor, the audibility law, the Listening Protocol, the structural comparator, rung-1/rung-2 (owner: cc; source: this review's provenance sweep)
 - [ ] R24-5: hash-first provenance — the squash-merge workflow co-lands PREREG+FINDINGS in one commit, so seal-before-verdict is not git-provable per arc (whole-file-hash-match carries it). For the SEALED-SHOT / firewalled class (one-shot design cells), commit the sealed PREREG in a SEPARATE commit before the FINDINGS (as the generation-leg design cell did) so hash-first is git-provable (owner: cc; source: this review's protocol-integrity check)
 
 anchor-commit: `2e278b5` (Review 24)

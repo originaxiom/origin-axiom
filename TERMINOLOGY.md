@@ -155,3 +155,30 @@ No invariant may be transferred between these without an explicit map.
   is algebraic exactly at CM cusps and silent (deaf) at the non-CM one;
   bronze (Galois S₄, non-CM) has no algebraic value and no hosting stage
   (B675).
+- **the seam**: the object↔observer boundary, made exact (B704) — the
+  object canonically fixes an 𝔽₂-vector space V (the maximal multiquadratic
+  Galois structure over the stage fields ℚ(√p*): stages = basis, meetings =
+  𝔽₂-sums via genus theory) but NO canonical origin (B701); a measurement is
+  a choice of point in V. "Where you end and I begin" = the object gives V,
+  the observer picks the point (see [[speculations/S069]]).
+- **measurement = fiber functor**: the fiber-functor program's thesis
+  (B700/B701) — a measurement is a fiber-functor evaluation of the object
+  through a stage; the ambiguity of the value is a Galois torsor (the two
+  golden irreps of 2I, swapped by Gal(ℚ(√5)/ℚ)), stage-uniform over ℚ(√p*).
+  Provably NON-canonical (B701): the object gives the torsor, never the point.
+- **the audibility law**: a stage carries an audible metallic tone ⟺ its
+  character/weld field ℚ(√p*) is REAL ⟺ p ≡ 1 mod 4 (B702 corrected/B705);
+  golden p=5 hears φ, imaginary stages are silent. Types the seam's basis.
+- **the Listening Protocol**: the standing methodology gate
+  (`docs/LISTENING_PROTOCOL.md`) that makes the firewall CONSTRUCTIVE —
+  compare STRUCTURE, never value; the rung hierarchy (1 field · 2 torsor/seam
+  · 3 relation are the object speaking; 4 single-ratio needs a forcing
+  mechanism, dead for values by B685; 5 fit = meaningless).
+- **the structural comparator**: the rung-1 test — is a measured, convention-
+  reduced ratio ALGEBRAIC of low degree over a predicted object field ℚ(√p*)
+  (membership, base-rate-immune), surviving MORE digits than found it — vs
+  the rung-4 "≈ a nice number" (proximity, base-rate-dead). B706 ran it.
+- **rung-1 / rung-2**: positions in the Listening Protocol's comparison
+  hierarchy — rung-1 = does a quantity live in the object's field?; rung-2 =
+  does an external FREEDOM organize as the object's Galois torsor / the 𝔽₂
+  seam? (B706 ran both on the SM flavor sector → NO-MATCH.)
