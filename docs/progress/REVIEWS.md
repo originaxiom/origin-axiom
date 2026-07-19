@@ -1685,4 +1685,4 @@ as resolved-B); the degradation and the re-run are disclosed in B719's FINDINGS.
 - [ ] R25-4: add the window's new load-bearing glosses to TERMINOLOGY.md — the incompleteness/the closing, c-as-swap, the child, being-only, native-gauge=complex-Chern–Simons, multiplicity=covering-degree (owner: cc; source: this review's provenance sweep)
 - [ ] R25-5: enact E18 as a standing pre-seal step — on any workflow-degradation signal, the banking seat re-runs the load-bearing computation clean in-seat before sealing; a probe that did not run is carried OPEN (owner: cc; source: this review's error-class check, B719)
 
-anchor-commit: `PENDING` (Review 25)
+anchor-commit: `3e5d56b` (Review 25)
