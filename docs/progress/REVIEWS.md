@@ -1584,6 +1584,105 @@ breach) → R24-5.
 - [>] R24-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R23-2)
 - [>] R24-3: H-EAR's residual formal statement — subsumed by the fiber-functor program (B700–B706); carry the formal note (from R23-3)
 - [x] R24-4: DONE (2026-07-19) — the six window-term glosses added to TERMINOLOGY.md — the seam, measurement=fiber-functor, the audibility law, the Listening Protocol, the structural comparator, rung-1/rung-2 (owner: cc; source: this review's provenance sweep)
-- [ ] R24-5: hash-first provenance — the squash-merge workflow co-lands PREREG+FINDINGS in one commit, so seal-before-verdict is not git-provable per arc (whole-file-hash-match carries it). For the SEALED-SHOT / firewalled class (one-shot design cells), commit the sealed PREREG in a SEPARATE commit before the FINDINGS (as the generation-leg design cell did) so hash-first is git-provable (owner: cc; source: this review's protocol-integrity check)
+- [x] R24-5: RESOLVED (2026-07-20, B710–B719) — every arc this window committed its sealed PREREG in a SEPARATE PR before the findings PR (git-provable hash-first); standing practice adopted. [was:] hash-first provenance — the squash-merge workflow co-lands PREREG+FINDINGS in one commit, so seal-before-verdict is not git-provable per arc (whole-file-hash-match carries it). For the SEALED-SHOT / firewalled class (one-shot design cells), commit the sealed PREREG in a SEPARATE commit before the FINDINGS (as the generation-leg design cell did) so hash-first is git-provable (owner: cc; source: this review's protocol-integrity check)
 
 anchor-commit: `2e278b5` (Review 24)
+
+---
+
+## REVIEW 25 — EXECUTED 2026-07-20 (the fifth constitutional review; window B707–B719 — the "physics of the object" clarification + the meeting-point + the child)
+
+**(1) The loop — R24 fully dispositioned.**
+- **R24-1** (the specialist pass): carried → **R25-1**. The package GREW enormously
+  this window — the summit dossier + the Listening Protocol + the fiber-functor program
+  is now + the **complete physics-of-the-object clarification** (the 4 frontiers B713–B716,
+  the capstone B717, the child B718, the scale probe B719) + the meeting-point (B707/B708,
+  arithmetic Chern–Simons / Kim). The external read remains the one external dependency.
+- **R24-2** (the web seat's L95 prereg): still never landed → carried **R25-2**.
+- **R24-3** (H-EAR's residual formal statement): subsumed by the fiber-functor program and
+  now the whole clarification → carried **R25-3**.
+- **R24-4**: `[x]` done (TERMINOLOGY glosses, 2026-07-19).
+- **R24-5** (hash-first git-provable for the sealed-shot class): **`[x]` RESOLVED this
+  window.** The ENTIRE B710–B719 campaign committed each sealed PREREG in a SEPARATE PR
+  BEFORE its findings PR (B710–712 #1172→#1173; B713 #1174→#1175; B714 #1176→#1177; B715
+  #1178→#1179; B716 #1180→#1181; B718 #1183→#1184; B719 #1185→#1186) — hash-first is now
+  git-provable per arc, exactly as R24-5 asked. Standing practice adopted.
+
+**(2) The declared modulus.** ~21 first-parent merges since R24 (anchor 2e278b5),
+arcs B707–B719 + the two-seat convergences (cc2's triality-matter, Structural Unfolding
+Atlas, child-integration — each verified-on-receipt). This window is the program's MOST
+conceptually ambitious and MOST physics-facing: the observer-coupling thesis completed
+as a full physics-of-the-object account. The banking seat authored the majority; recall
+direct. **NEW modality this window: the multiagent WORKFLOW** (compute→3-skeptic
+adversarial-verify→refine loops) became the primary discovery instrument (~8 campaigns,
+~150 agents). ~40 new per-arc locks (test_b707…test_b719, all green); full pytest NOT
+re-run each arc (trusted-green + incremental locks); OA_SLOW not run. Gates 8/8
+throughout (framing/Gate-5 the load-bearing one, clean). Also the window with the most
+INFRASTRUCTURE degradation (B719: 4 API stream-timeouts) — a harness failure mode, not
+a science one; handled by in-seat clean re-runs.
+
+**(3) Advancement — the most conceptual window, ZERO physics promotions.** No row
+crossed into THEOREM/LAW toward physics; nothing to CLAIMS. The headline is the
+**completion of the observer-coupling thesis as a physics-of-the-object clarification**:
+the object is timeless/vector-like/valueless/incomplete BEING (B713–B717), and chirality
+(B713), values (B685/B706/B714), time/4d/Lorentzian (B716), the spatial manifold (the
+child B718), and MULTIPLICITY/scale (B719) are ALL the observer's closings. New PLACEMENT
+rows: the meeting-point = arithmetic CS (B707/B708); the Turok INVERSION + the analytic-T1
+thimble inversion + the two-ℤ/2 V₄ (B709–B711); chirality-is-the-observer's (B713); the
+physics-of-the-object spine (B714); native gauge = complex CS not Yang–Mills (B715); time
+is the observer's (B716); the observer-emergence spine (B717); the child ledger — reality
+is arithmetically generic, authors no skeleton (B718); multiplicity=scale=the observer's
+(B719). Two motifs banked: object supplies boundaries / observer supplies closings; and
+c-as-SWAP (verified across B710/711/712/713 + the T7 split primes). STUCK-LONGEST
+(unchanged): the external specialist bar. **OVERREACH caught + corrected IN-window (the
+adversarial machinery working):** the ℤ/5=hearing over-read (cc2's completeness critic
+caught it; I conceded + verified b₁=0); the h=3=INHERITED over-read (owner's push found
+the real 4/4 pattern, the control resolved it GENERIC — corrected); B715-T7's
+orientation-inverts-ℤ/11 premise (skeptic refuted → banked INCONCLUSIVE, not B); B719
+probe-2's "d=6 homologically forced" (S₆⊃A₅) + "unbounded" (skeptic caught → corrected);
+the loose ℚ(√−283)→S₄ quartic x⁴−x−1 (probe 3). No row's status exceeds its evidence.
+
+**(4) Error-class recurrence.** The RECURRING class "over-reading a generic/small feature
+as special" (E15/E16 family) recurred TWICE and was CAUGHT both times: (a) ℤ/5=hearing
+(integer-5 vs field-ℚ(√5) conflation — the exact E15 exponent-vs-base shape); (b)
+h=3=inherited (a real pattern read as causal — caught by the base-rate + control, exactly
+the standing rule). The rule WORKING, not failing. **NEW class E18** (ERROR_LEDGER:34):
+"workflow-artifact provenance under degradation" — a degraded campaign left a compute
+agent's _out.txt with verdict text its committed script did not generate, and silently
+failed the h=3 control; standing rule = the banking seat re-runs load-bearing computations
+clean in-seat before sealing, and carries a probe that did not run as OPEN, never inferred.
+
+**(5) The provenance spot-sweep.** CLEAN on both load-bearing checks under the program's
+MAXIMUM physics-facing pressure. **External-verification pretense: none** — every physics
+statement is explicitly STRUCTURAL ("which manifold/time/handedness/number/count is the
+observer's," never a value derived); the famous-name citations (Witten, Kim, Connes,
+Turok, Thurston, Mostow, Maclachlan–Reid, Baker–Heegner–Stark) carry no endorsement
+pretense. **Firewall/Gate-5 integrity: clean** — the entire clarification asserts no SM
+value as derived; the B719 provenance breach (an auto-generated _out.txt ≠ its script) was
+skeptic-caught and repaired (clean in-seat re-run) → the source of E18. Gate 5 held under
+the whole "physics of the object." New load-bearing terms not yet in TERMINOLOGY: "the
+incompleteness / the closing," "c-as-swap," "the child," "being-only," "native gauge =
+complex Chern–Simons," "multiplicity = the covering degree." → R25-4.
+
+**(6) The §5.1 promotion sweep.** ZERO physics promotions under the maximum conceptual
+pressure of the program. The one candidate for a positive — the h=3 being-filter (a real
+non-base-rate 4/4 pattern the owner's push surfaced) — was correctly NOT promoted: the
+control resolved it GENERIC (a small-numbers effect + the cubic⟺3|h residue, present for
+any Bianchi parent), not the object's fingerprint. Every physics-adjacent quantity stays
+firewalled with its verdict. Nothing to CLAIMS.
+
+**(7) Protocol integrity.** Hash-first HONORED and IMPROVED (R24-5 resolved — separate
+prereg PRs per arc, git-provable). Sealed-hash spot-check: B709 93879b9d, B713 5e583a40,
+B716 e01a8451, B719 165fb4b2 all recompute-MATCH their banked SEAL_LEDGER lines (sealed
+pre-verdict). One honest caveat: B719 was API-degraded (probe 1 the h=3 control did not
+run in the campaign; re-run as a single focused agent + verified-on-receipt, then banked
+as resolved-B); the degradation and the re-run are disclosed in B719's FINDINGS.
+
+### Action items (Review 25)
+- [>] R25-1: the specialist pass — the package is now the full physics-of-the-object clarification (B713–B717) + the child (B718) + the scale probe (B719) + the meeting-point (B707/B708 arithmetic CS); the external read remains the one external dependency (carried from R24-1)
+- [>] R25-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R24-2)
+- [>] R25-3: H-EAR's residual formal statement — subsumed by the fiber-functor program + the full clarification; carry the formal note (from R24-3)
+- [ ] R25-4: add the window's new load-bearing glosses to TERMINOLOGY.md — the incompleteness/the closing, c-as-swap, the child, being-only, native-gauge=complex-Chern–Simons, multiplicity=covering-degree (owner: cc; source: this review's provenance sweep)
+- [ ] R25-5: enact E18 as a standing pre-seal step — on any workflow-degradation signal, the banking seat re-runs the load-bearing computation clean in-seat before sealing; a probe that did not run is carried OPEN (owner: cc; source: this review's error-class check, B719)
+
+anchor-commit: `PENDING` (Review 25)
