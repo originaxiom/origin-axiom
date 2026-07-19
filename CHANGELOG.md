@@ -1,5 +1,10 @@
 # Changelog
 
+## B719 probe-1 control resolved — h=3 filter is GENERIC, not inherited
+- Re-ran the timed-out control (single agent + verified): OUTCOME B. Q(sqrt-1)[prime2] children have ODD h=3 (falsifies inherited even-h); same small-disc fields recur across Bianchi parents; h=3 is a small-numbers effect.
+- The 'being-3 inherited filter' read corrected. 4 locks; nothing to CLAIMS.
+
+
 ## B719 — Scale & Multiplicity: the trillions are the observer's
 - multiplicity/scale = the imported covering degree, NOT an object number (vol=deg*base; free ladder; unit-count grows with degree).
 - the object gives the PAIR + being-filter, never the COUNT (dimensionful no-go extended to multiplicity).

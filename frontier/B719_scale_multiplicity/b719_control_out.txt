@@ -1,0 +1,112 @@
+==============================================================================
+B719 CONTROL EXPERIMENT  (Maclachlan-Reid arithmeticity, in-sandbox)
+snappy 3.3.2 | prec 500 | date 2026-07-20
+==============================================================================
+
+### PART A  Figure-eight 4_1 (over Q(sqrt-3)) recap
+  D : h(Q(sqrt D))  for the four figure-eight-family discriminants
+    D=  -23   h(Q(sqrt-23)) = 3
+    D=  -31   h(Q(sqrt-31)) = 3
+    D=  -59   h(Q(sqrt-59)) = 3
+    D= -283   h(Q(sqrt-283)) = 3
+  (h=3 is sparse: exactly 16 imaginary-quadratic fundamental discriminants have h=3.)
+  Arithmetic Dehn-filling children of 4_1 (full Maclachlan-Reid test):
+    4_1(5, 1)  ARITH      itf x^4 - x - 1            disc -283    sig (2, 1)   shadow Q(sqrt-283) disc -283 h=3 ; field h=1
+    4_1(6, 1)  ARITH      itf x^3 + 2*x - 1          disc -59     sig (1, 1)   shadow Q(sqrt-59) disc -59 h=3 ; field h=1
+    4_1(8, 1)  ARITH      itf x^3 + x - 1            disc -31     sig (1, 1)   shadow Q(sqrt-31) disc -31 h=3 ; field h=1
+    4_1(7, 1)  NON-ARITH  itf x^6 - 2*x^4 - 4*x^3 - 4*x^2 - 3*x - 1 disc 50173   sig (2, 2) 
+    4_1(9, 1)  NON-ARITH  itf x^7 - x^6 - 6*x^5 + 4*x^4 + 11*x^3 - 4*x^2 - 4*x + 1 disc 3752872 sig (3, 2) 
+  VALIDATION control: 5_2 (r2=1, integral traces, but NON-arithmetic)
+    5_2       NON-ARITH  itf x^3 - x - 1            disc -23    sig (1, 1)  quat_ram_all_real=False
+
+### PART B/C  Control parents + their arithmetic Dehn-filling children
+
+  --- m130 : Bianchi field Q(sqrt-1) (ramified prime 2), parent ARITH (itf disc -4) ---
+    scanned hyperbolic fillings: 52 ; r2=1 candidates: 15 ; ARITHMETIC children: 7
+      (-5, 2)  vol 3.308242  itf x^5 - 4*x^3 - x^2 + 2*x + 1 disc -7367    deg 5  field h=1 | shadow Q(sqrt-7367) disc -7367 h=94
+      (-4, 1)  vol 3.059338  itf x^4 - x^3 - x^2 - x - 1  disc -563     deg 4  field h=1 | shadow Q(sqrt-563) disc -563 h=9
+      (-3, 1)  vol 2.568971  itf x^3 + 2*x - 1            disc -59      deg 3  field h=1 | shadow Q(sqrt-59) disc -59 h=3
+      (-3, 2)  vol 2.828122  itf x^3 - x - 1              disc -23      deg 3  field h=1 | shadow Q(sqrt-23) disc -23 h=3
+      (-2, 3)  vol 2.944106  itf x^4 - x - 1              disc -283     deg 4  field h=1 | shadow Q(sqrt-283) disc -283 h=3
+      (-1, 3)  vol 2.781834  itf x^4 - 3*x^2 - x + 2      disc -751     deg 4  field h=1 | shadow Q(sqrt-751) disc -751 h=15
+      (2, 1)   vol 2.029883  itf x^2 - x + 1              disc -3       deg 2  field h=1 | shadow Q(sqrt-3) disc -3 h=1
+
+  --- m136 : Bianchi field Q(sqrt-1) (ramified prime 2), parent ARITH (itf disc -4) ---
+    scanned hyperbolic fillings: 49 ; r2=1 candidates: 10 ; ARITHMETIC children: 0
+
+  --- m009 : Bianchi field Q(sqrt-7) (ramified prime 7), parent ARITH (itf disc -7) ---
+    scanned hyperbolic fillings: 49 ; r2=1 candidates: 16 ; ARITHMETIC children: 2
+      (-7, 1)  vol 2.207666  itf x^3 - x^2 + x - 2        disc -83      deg 3  field h=1 | shadow Q(sqrt-83) disc -83 h=3
+      (-5, 1)  vol 1.831931  itf x^2 + 1                  disc -4       deg 2  field h=1 | shadow Q(sqrt-1) disc -4 h=1
+
+  --- m010 : Bianchi field Q(sqrt-7) (ramified prime 7), parent ARITH (itf disc -7) ---
+    scanned hyperbolic fillings: 51 ; r2=1 candidates: 12 ; ARITHMETIC children: 6
+      (-4, 1)  vol 1.831931  itf x^2 + 1                  disc -4       deg 2  field h=1 | shadow Q(sqrt-1) disc -4 h=1
+      (-4, 3)  vol 2.029883  itf x^2 - x + 1              disc -3       deg 2  field h=1 | shadow Q(sqrt-3) disc -3 h=1
+      (-3, 1)  vol 1.284485  itf x^3 + 2*x - 1            disc -59      deg 3  field h=1 | shadow Q(sqrt-59) disc -59 h=3
+      (-3, 2)  vol 1.414061  itf x^3 - x - 1              disc -23      deg 3  field h=1 | shadow Q(sqrt-23) disc -23 h=3
+      (2, 3)   vol 2.207666  itf x^3 - x^2 + x - 2        disc -83      deg 3  field h=1 | shadow Q(sqrt-83) disc -83 h=3
+      (3, 1)   vol 1.588647  itf x^3 - x^2 - x - 1        disc -44      deg 3  field h=1 | shadow Q(sqrt-11) disc -11 h=1
+
+  --- m003 : Bianchi field Q(sqrt-3) (ramified prime 3), parent ARITH (itf disc -3) ---
+    scanned hyperbolic fillings: 51 ; r2=1 candidates: 16 ; ARITHMETIC children: 8
+      (-7, 4)  vol 1.790854  itf x^4 - x^3 - 2*x + 1      disc -643     deg 4  field h=1 | shadow Q(sqrt-643) disc -643 h=3
+      (-5, 2)  vol 1.583167  itf x^3 + x - 1              disc -31      deg 3  field h=1 | shadow Q(sqrt-31) disc -31 h=3
+      (-5, 3)  vol 1.543569  itf x^5 - x^3 - 2*x^2 + 1    disc -4511    deg 5  field h=1 | shadow Q(sqrt-4511) disc -4511 h=84
+      (-5, 4)  vol 1.588647  itf x^3 - x^2 - x - 1        disc -44      deg 3  field h=1 | shadow Q(sqrt-11) disc -11 h=1
+      (-4, 3)  vol 1.263709  itf x^4 - 2*x^2 - 3*x - 1    disc -331     deg 4  field h=1 | shadow Q(sqrt-331) disc -331 h=3
+      (-3, 1)  vol 0.942707  itf x^3 - x - 1              disc -23      deg 3  field h=1 | shadow Q(sqrt-23) disc -23 h=3
+      (-3, 4)  vol 1.414061  itf x^3 - x - 1              disc -23      deg 3  field h=1 | shadow Q(sqrt-23) disc -23 h=3
+      (-2, 3)  vol 0.981369  itf x^4 - x - 1              disc -283     deg 4  field h=1 | shadow Q(sqrt-283) disc -283 h=3
+
+==============================================================================
+### PART D  VERDICT
+==============================================================================
+  parent  Bianchi     prime : #arith children ; shadow class numbers (multiset)
+  m130   Q(sqrt-1)     2   :  7 ; [1, 3, 3, 3, 9, 15, 94]
+  m136   Q(sqrt-1)     2   :  0 ; []
+  m009   Q(sqrt-7)     7   :  2 ; [1, 3]
+  m010   Q(sqrt-7)     7   :  6 ; [1, 1, 1, 3, 3, 3]
+  m003   Q(sqrt-3)     3   :  8 ; [1, 3, 3, 3, 3, 3, 3, 84]
+
+  --- INHERITED (A) prediction vs data ---
+  Q(sqrt-1) [prime 2] children shadow h: [1, 3, 3, 3, 9, 15, 94]
+    A predicts 2|h (even) for ALL. Observed ODD class numbers: [1, 3, 3, 3, 9, 15]  => A REFUTED (odd h present)
+  Q(sqrt-7) [prime 7] children shadow h: [1, 1, 1, 1, 3, 3, 3, 3]
+    A predicts a 7-signature; observed = generic {1,3} pool (same as fig-8). A REFUTED.
+
+  --- GENERIC (B) evidence: same small fields recur across DIFFERENT Bianchi parents ---
+    itf disc -3      shadow Q(sqrt-3) h=1 : appears under ['Q(sqrt-1)', 'Q(sqrt-7)']
+    itf disc -23     shadow Q(sqrt-23) h=3 : appears under ['Q(sqrt-1)', 'Q(sqrt-3)', 'Q(sqrt-7)']
+    itf disc -31     shadow Q(sqrt-31) h=3 : appears under ['Q(sqrt-3)']  <== a figure-eight 4_1 child field
+    itf disc -44     shadow Q(sqrt-11) h=1 : appears under ['Q(sqrt-3)', 'Q(sqrt-7)']
+    itf disc -59     shadow Q(sqrt-59) h=3 : appears under ['Q(sqrt-1)', 'Q(sqrt-7)']  <== a figure-eight 4_1 child field
+    itf disc -283    shadow Q(sqrt-283) h=3 : appears under ['Q(sqrt-1)', 'Q(sqrt-3)']  <== a figure-eight 4_1 child field
+
+  === DISCRIMINATING FACT ===
+  * The Q(sqrt-1) [prime 2] control produces arithmetic children whose shadows
+    Q(sqrt-59), Q(sqrt-23), Q(sqrt-283) all have ODD class number 3 -- the
+    predicted prime-2 "even class number" filter is FALSIFIED.
+  * BOTH the prime-2 and prime-7 controls reproduce the figure-eight 4_1s OWN
+    small-disc children (disc -23,-59,-83,-283): these fields are GENERIC to
+    small arithmetic fillings, not a sqrt(-3) fingerprint. The cubic disc -23
+    (the Weeks field x^3-x-1) is a child of Q(i), Q(sqrt-7) AND Q(sqrt-3) parents.
+  * Shadow class numbers SCATTER (1,3,9,15,84,94), incl. within the sqrt(-3)
+    family itself (m003 gives h=1 and h=84 children) -- h=3 is NOT a fixed filter.
+
+  === VERDICT: OUTCOME B  (GENERIC) ===
+  The h=3 pattern is NOT inherited from the sqrt(-3) parents ramified prime 3.
+  It is generic small-arithmetic-filling behaviour: low-volume arithmetic children
+  draw their invariant trace fields from a small SHARED pool of imaginary fields
+  (disc -23,-31,-59,-83,-283,...), which are among the smallest discriminants where
+  3|h. The controls over prime 2 and prime 7 carry NO filter tied to their own prime.
+  Structural residue that SURVIVES: cubic-invariant-trace-field children <=> 3|h
+  shadow (they ARE the cyclic-cubic class fields) -- a property of degree-3 fields
+  for ANY Bianchi parent, present generically, not transferred from prime 3.
+
+  Caveats: slope range p in [-9,12], q in [1,4] (bounded, not exhaustive);
+  controls found in census = Q(sqrt-1),Q(sqrt-7),Q(sqrt-3) (no 1-cusped Q(sqrt-2)/
+  Q(sqrt-11) in first 260 census mflds); arithmeticity = full Maclachlan-Reid,
+  validated on 4_1(5,1)/(6,1)/(8,1) ARITH, 4_1(7,1)/(9,1) & 5_2 NON-ARITH.
+
+  total wall time 25.9 s
