@@ -1,5 +1,13 @@
 # Changelog
 
+## B709 — Turok marriage: INVERTED, not married (adjudication)
+- chat-1's marriage handoff adjudicated; two-seat converged.
+- Two ℤ/2's: amphichirality (canonical) vs fiber-torsor (B701, non-canonical); Turok CPT matches the first, inverts the second.
+- T1 (cc crux): formal analogy only — FRW embedding unsupported, value side inert.
+- T3 refuted (dimensionful no-go); T4 permitted-not-forced; I5 base-rate-dead; I2/T5 firewalled. KEEP: complementarity + strong-CP-by-mirror (rung 2–3).
+- Sealed 93879b9d; test_b709_turok.py green. Gate 5 held.
+
+
 All notable changes to the Origin Axiom repository are recorded here.
 Format follows [Keep a Changelog](https://keepachangelog.com/); this project is pre-1.0 and
 not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.md`.

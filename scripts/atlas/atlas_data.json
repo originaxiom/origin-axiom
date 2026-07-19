@@ -14324,20 +14324,27 @@
    "slug": "meeting points",
    "motifs": [
     "figure_eight",
+    "trace_map",
     "eisenstein",
+    "golden",
     "amphichiral_cp",
+    "torsion",
     "apolynomial",
     "wrt_quantum",
+    "lorentzian",
     "firewall"
    ],
    "refs": [
     "B680",
     "B683",
+    "B685",
     "B700",
     "B701",
     "B702",
     "B704",
-    "B705"
+    "B705",
+    "B706",
+    "B708"
    ],
    "obstacle": "measure",
    "obstacle_conf": 5,
@@ -14366,6 +14373,33 @@
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "topology"
+  },
+  "B709": {
+   "slug": "turok marriage adjudication",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B615",
+    "B685",
+    "B701",
+    "B703",
+    "B706",
+    "B707",
+    "S3"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B70": {
    "slug": "trace ring",
