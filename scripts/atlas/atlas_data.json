@@ -14204,15 +14204,17 @@
     "B640",
     "B642",
     "B666",
+    "B685",
     "B698",
     "B699",
+    "B701",
     "H32",
     "K020",
     "S041",
     "S068"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 17,
+   "obstacle_conf": 24,
    "status": "banked",
    "domain": "arithmetic"
   },

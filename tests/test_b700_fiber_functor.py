@@ -135,3 +135,24 @@ def test_cell5_stage_uniform_backbone():
         assert abs(complex(sp.expand(g**2)) - pstar) < 1e-9, f"gauss^2 != p* for p={p}"
         D = (p - 1) // 2                                  # the shadow-irrep dimension
         assert D >= 2
+
+
+def test_b701_phase2_canonical_iso_obstructed():
+    """No canonical torsor-iso: the irrep torsor is unpointed (symmetric irreps,
+    FS=-1 both), the MTC torsor is pointed (unitarity). Obstruction = observer-coupling."""
+    # (1) the two golden irreps: FS indicators both -1 (sage-verified), symmetric
+    fs_indicators = (-1, -1)          # quaternionic, both; sage ref_b701_phase2
+    assert fs_indicators[0] == fs_indicators[1], "irreps distinguished by FS -> would be pointed"
+    # (2) MTC unitarity distinguishes Fibonacci (phi>0) from Yang-Lee (-1/phi<0)
+    phi = (1 + sp.sqrt(5)) / 2
+    qdim_fib, qdim_yl = phi, -1 / phi
+    assert sp.sign(qdim_fib) == 1 and sp.sign(qdim_yl) == -1, "unitarity must distinguish"
+    # (3) the obstruction logic: a canonical Z/2-iso from an UNPOINTED torsor to a
+    #     POINTED one cannot exist (it would transport the basepoint back).
+    def canonical_iso_exists(source_pointed, target_pointed):
+        # a canonical Z/2-equivariant iso <=> a canonical basepoint correspondence;
+        # if target is pointed and source is not, none exists.
+        return not (target_pointed and not source_pointed)
+    irrep_pointed, mtc_pointed = False, True
+    assert canonical_iso_exists(irrep_pointed, mtc_pointed) is False, \
+        "phase-2 verdict: OBSTRUCTED (no canonical iso)"

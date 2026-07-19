@@ -6,6 +6,19 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B701 (fiber-functor phase 2): the canonical torsor-iso is OBSTRUCTED
+
+- No canonical torsor-iso: the two golden irreps of 2I are symmetric
+  (FS=-1 both, no basepoint), the MTC torsor is unitarity-pointed
+  (Fibonacci phi>0 vs Yang-Lee -1/phi<0). "Measurement = fiber functor"
+  is same-sigma, NOT canonical (cc2's caution confirmed).
+- THE OBSTRUCTION IS THE OBSERVER-COUPLING THESIS: the object gives the
+  ambiguity (torsor) not the value (basepoint); a canonical iso would
+  manufacture a forced value, contradicting B685. Program built to its
+  honest ceiling. Lock 7/7. Prereg 0eb5026b.
+
+---
+
 ## 2026-07-19 - B700 cells 5+3: general torsor theorem + golden stage two-sided
 
 - Cell 5: STAGE-UNIFORM for all prime stages -- SL(2,p) has exactly two
