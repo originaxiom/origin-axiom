@@ -478,3 +478,4 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   computation is the figure-eight's SPECIFIC f5(x) coefficients in
   Z[ω,ζ5][1/3] = the golden×being cross-synthesis, a FRESH-GO new loop;
   SM-match = Gate 5 + mandatory base-rate.
+| H-KOIDE | (chat1 Q3, B703, 2026-07-19) **the Koide angle θ₀ = 2/9 to 0.89σ** — computed exactly with PDG masses (m_τ=1776.86±0.12): θ₀=0.2222296(83), 2/9=0.2222222, |Δ|=7.4e-6 vs σ=8.3e-6; m_τ=1776.75 (inside the bar) gives it exactly. The strongest SM-adjacent coincidence in the program. **FIREWALLED**: not derived (masses outside the dimensionful no-go), convention-framed (θ₀ mod assignment+branch), a post-hoc fit atop the Q=2/3 tautology (B686). Base-rate weak-kill (2/9 the only q≤12 fraction that close, but post-hoc). | HINT (firewalled; NOT evidence, nothing to CLAIMS) | 2026-07-19 | chat1's crude ~7σ CORRECTED to 0.89σ; falsifier = a tighter m_τ | — |

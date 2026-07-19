@@ -14236,6 +14236,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B703": {
+   "slug": "koide sigma distance",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B655",
+    "B686"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "meta"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [
