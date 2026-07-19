@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B704: the seam = an F_2-vector space (unifies B698-B702)
+
+- The per-stage fiber-functor Z/2-torsors assemble into Gal(Q(sqrt p* : stage
+  primes)/Q) = (Z/2)^k, an F_2-vector space: stages = basis, meetings =
+  F_2-sums (genus theory), cell-2's V4 = one plane. The object fixes the
+  SPACE, not a vector (no canonical origin, B701); audibility types the basis.
+  Unifies B698/B699/B700/B701/B702. Pure math (Gate 5); the observer/seam
+  reading firewalled in S069. Lock 3/3.
+
+---
+
 ## 2026-07-19 - B702 CORRECTION: swap-hearing law retracted (E17)
 
 - cc2 self-caught + cc-verified: "metallic hearing <=> real-quadratic SWAP
