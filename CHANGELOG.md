@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B703 (chat1 Q3): Koide theta_0 = 2/9 to 0.89 sigma (firewalled)
+
+- Corrected chat1's crude ~7 sigma: computed exactly, the Koide angle is
+  0.89 sigma from 2/9 (m_tau=1776.75 inside the error bar gives it exactly).
+  The strongest SM-adjacent coincidence in the program.
+- FIREWALLED: not derived (dimensionful no-go), convention-framed (B686), a
+  post-hoc fit atop the Q=2/3 tautology. HINT-grade, nothing to CLAIMS.
+  Falsifier: a tighter m_tau. Lock 2/2.
+
+---
+
 ## 2026-07-19 - B702: the metallic-hearing bifocal law (chat1 E-Q1/E-Q2)
 
 - Metallic hearing <=> real-quadratic swap field. Golden Q(sqrt5) real ->

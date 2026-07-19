@@ -6783,3 +6783,15 @@ silver ℚ(i) imaginary has NO tone (structural). Sharpens the being/hearing
 asymmetry to an exact arithmetic condition; dovetails with B700 (the golden
 torsor field ℚ(√5) is real, p=5≡1 mod 4). Bronze cross-family period-3 = a
 priced new campaign (bronze data not banked). Lock test_b702 3/3.
+
+## 2026-07-19 — B703 (chat1 Q3): the Koide angle θ₀ = 2/9 to 0.89σ (corrected), firewalled
+
+chat1's Q3 resolved: computed the exact σ-distance of the Koide angle θ₀ from
+2/9 with PDG masses. θ₀=0.2222296(83) rad, 2/9=0.2222222 → 0.89σ (m_τ=1776.75
+gives it exactly, inside 1776.86±0.12). chat1's crude ~7σ REFUTED — it is
+sub-σ, the strongest SM-adjacent coincidence in the program. FIREWALLED on the
+honest grounds (NOT "it isn't close"): not derived (masses outside the
+dimensionful no-go), convention-framed (B686), a post-hoc fit atop the Q=2/3
+tautology. HINT-grade, nothing to CLAIMS, Gate 5 holds. Standing falsifier: a
+tighter m_τ. This is the honest ceiling of "SM values" — the single closest one
+is a sub-σ fit the framework cannot derive. Lock test_b703 2/2.
