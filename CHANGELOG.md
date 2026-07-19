@@ -1,5 +1,11 @@
 # Changelog
 
+## B713 (Frontier 1/4) — chirality is the observer's, not the object's
+- Multiagent campaign, all 3 probes outcome B, two-seat with cc2.
+- Triality GAUGE-ONLY (no Z/3 on the object, D4 order 8); chirality = non-canonical Z/2 Galois torsor bit; object robustly vector-like (sigma_omega(4_1)=0, amphichiral).
+- 3-gen no-go re-grounded (incommensurable 17/9/1 blocks). Sealed 5e583a40; 3 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B710–B712 — the three-path campaign: all outcome B (method-inversion, orthogonal ℤ/2's, total non-canonicity)
 - Multiagent campaign (compute→adversarial-verify→refine loops), owner-launched; hash-first sealed.
 - B710 analytic-T1: fig-8 vs FRW share the Picard–Lefschetz method, invert at the saddle skeleton (2 real vs 4 complex). Turok=method-only, computed.

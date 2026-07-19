@@ -1,0 +1,115 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+==============================================================================
+PART 1 -- the two chiralities as the two geometric characters of X(4_1)
+==============================================================================
+Riley relation a w = w b  ->  numerator factor phi = -m**4*u - m**4 + m**2*u**2 + 3*m**2*u + 3*m**2 - u - 1
+character-variety curve  C : -x**2*y + x**2 + y**2 + y - 1 = 0
+
+fiber over the parabolic meridian x=2 (the two chiralities):
+   y = 3/2 - sqrt(3)*I/2  =  3/2 - sqrt(3)*I/2
+   y = 3/2 + sqrt(3)*I/2  =  3/2 + sqrt(3)*I/2
+   min poly of y over Q at x=2 : y**2 - 3*y + 3 = 0   (discriminant = -3 )
+   -> irreducible over Q, disc = -3  =>  trace field = Q(sqrt-3) [Eisenstein]
+
+   CHIRALITY_+  rho_geom     = (2, 3/2 - sqrt(3)*I/2)
+   CHIRALITY_-  rho_geom-bar = (2, 3/2 + sqrt(3)*I/2)
+   distinct?  True   (difference = -sqrt(3)*I = sqrt-3, nonzero)
+
+SnapPy cross-check: tetrahedron shape z = 0.5 + 0.866025 i
+   z and conj(z) = e^{+/- i pi/3} are the two orientations;
+   z is a root of z^2 - z + 1 (=> Q(sqrt-3)); CS = -5.6244555 E-17
+   amphichiral = True   (the mirror EXISTS but is not canonical -- see Part 2)
+
+==============================================================================
+PART 2 -- the Z/2 torsor of chiralities (being field Q(sqrt-3))
+==============================================================================
+chirality set  S_chi = { yA = (3+sqrt-3)/2 , yB = (3-sqrt-3)/2 }  (s := sqrt-3)
+Galois generator sigma : s -> -s   (= complex conjugation on Q(sqrt-3))
+   sigma(yA) = 3/2 - s/2  == yB : True
+   sigma(yB) = s/2 + 3/2  == yA : True
+   cross-check: conj(yA|s=sqrt-3) = 3/2 - sqrt(3)*I/2  == yB|s=sqrt-3 : True  (complex-conj == formal s->-s)
+
+TORSOR SIGNATURE (chirality):
+   group                 : Z/2 = Gal(Q(sqrt(d))/Q)
+   field_disc_d          : -3
+   set_size              : 2
+   transitive            : True
+   free                  : True
+   simply_transitive     : True
+   num_fixed_points      : 0
+   canonical_basepoint   : False
+   H1_square_class       : -3
+   nontrivial_torsor     : True
+
+interpretation:
+   simply transitive + 0 fixed points  =>  a FREE Z/2 action = a TORSOR.
+   0 canonical basepoint (no Q-rational y at x=2; min poly y^2-3y+3
+   irreducible/disc -3)  =>  NO object-canonical chirality selection.
+   Each chirality = ONE of the two complex embeddings of Q(sqrt-3)
+   (sqrt-3 -> +i*sqrt3  vs  -i*sqrt3). Choosing an embedding = choosing
+   a fiber functor.  'which chirality' = the observer's embedding choice.
+
+==============================================================================
+PART 3 -- structural identity with the fiber-functor torsor (B700/B701)
+==============================================================================
+golden set  S_gold = { phi = (1+sqrt5)/2 , psi = (1-sqrt5)/2 }  (s5 := sqrt5)
+   (the two golden-irrep traces of 2I=SL(2,5); roots of z^2 - z - 1;
+    CITED B700 cell1: 2I has EXACTLY two 2-dim irreps, char field = Q(sqrt5).)
+   golden min poly : z**2 - z - 1
+   tau(phi) = 1/2 - s5/2  == psi : True
+
+TORSOR SIGNATURE (golden / fiber-functor, B700):
+   group                 : Z/2 = Gal(Q(sqrt(d))/Q)
+   field_disc_d          : 5
+   set_size              : 2
+   transitive            : True
+   free                  : True
+   simply_transitive     : True
+   num_fixed_points      : 0
+   canonical_basepoint   : False
+   H1_square_class       : 5
+   nontrivial_torsor     : True
+
+------------------------------------------------------------------------------
+SIDE-BY-SIDE (shape keys only; field disc differs by design):
+   key                    |    chirality (being) |     golden (hearing)
+   group                  | Z/2 = Gal(Q(sqrt(d))/Q) | Z/2 = Gal(Q(sqrt(d))/Q)
+   set_size               |                    2 |                    2
+   transitive             |                 True |                 True
+   free                   |                 True |                 True
+   simply_transitive      |                 True |                 True
+   num_fixed_points       |                    0 |                    0
+   canonical_basepoint    |                False |                False
+   nontrivial_torsor      |                 True |                 True
+   field disc d           |                   -3 |                    5
+------------------------------------------------------------------------------
+STRUCTURALLY IDENTICAL AS Z/2 TORSORS: True
+   both: simply-transitive Z/2 = Gal(quadratic/Q), 0 fixed points, no
+   canonical basepoint, NONTRIVIAL class in H^1(Q,Z/2)=Q*/(Q*)^2.
+   they differ ONLY in the V4 leg: chirality = being sqrt-3 (disc -3),
+   fiber-functor/golden = hearing sqrt5 (disc 5). SAME fiber-functor
+   PATTERN, different subfield of Gal(Q(sqrt-3,sqrt5)/Q)=V4 (B700 cell2).
+
+==============================================================================
+VERDICT
+==============================================================================
+OUTCOME B  (canonical chirality selection exists = False)
+
+DISCRIMINATING FACT -- the chirality set is a nontrivial Z/2 Galois torsor:
+  * S_chi = { rho_geom=(2,(3+sqrt-3)/2), rho_geom-bar=(2,(3-sqrt-3)/2) } is the
+    fiber of X(4_1) over the parabolic meridian x=2; y satisfies the IRREDUCIBLE
+    quadratic y^2 - 3y + 3 (disc -3) over Q  =>  NO Q-rational point.
+  * Gal(Q(sqrt-3)/Q)=Z/2 acts SIMPLY TRANSITIVELY (transitive + free, 0 fixed
+    points) on S_chi: sigma swaps the two chiralities and fixes neither.
+  * Hence NO Galois-fixed / canonical chirality: 'which chirality' has no
+    object-intrinsic answer -- it is exactly a choice of complex embedding of
+    the being field = a choice of fiber functor = the OBSERVER's selection.
+  * This torsor is STRUCTURALLY IDENTICAL (identical torsor signature; both
+    nontrivial in H^1(Q,Z/2)) to the fiber-functor torsor of B700/B701 (the two
+    golden irreps of 2I under Gal(Q(sqrt5)/Q)); they are two legs of the same V4.
+
+=> Chirality is a NON-CANONICAL Z/2 torsor bit (the observer's fiber-functor
+   choice), NOT an intrinsic object property.  OUTCOME B.
+   Consistent with B565 (vector-like, chiral index 0) + B711 (free swap).
+   Structural/arithmetic only; Gate 5; nothing to CLAIMS.md.
