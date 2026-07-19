@@ -180,3 +180,7 @@ hash-first status.*
 | B708 PREREG (Kim x the seam) | frontier/B708_kim_seam/PREREG.md | 96ebff1d | 2026-07-19 | outcome = MEET (non-trivial): the seam = subspace of Kim's H1(G_Q,Z/2); two-hands coupling = arithmetic linking; audibility = linking with the archimedean prime |
 
 | B709 PREREG (the Turok-marriage adjudication) | frontier/B709_turok_marriage_adjudication/PREREGISTRATION.md | 93879b9d | 2026-07-19 | sealed pre-verdict; outcome = ALL-B: NOT a marriage, an INVERSION (Turok CPT = amphichirality canonical, INVERTS the B701 fiber-torsor) + KIND-complementarity (B706); T3 refuted (dimensionful no-go), T4 permitted-not-forced, I5 base-rate-dead, I2/T5 firewalled |
+
+| B710 PREREG (Path 1: analytic-T1 thimble skeleton compare) | frontier/B710_analytic_t1_thimbles/PREREGISTRATION.md | 88fb56c9 | 2026-07-19 | sealed PRE-VERDICT (campaign design); outcome pending workflow compute+verify |
+| B711 PREREG (Path 2: two-ℤ/2 degeneration on X(4₁)) | frontier/B711_two_z2_degeneration/PREREGISTRATION.md | de24a647 | 2026-07-19 | sealed PRE-VERDICT (campaign design); outcome pending workflow compute+verify |
+| B712 PREREG (Path 3: object's own continuum / A-poly deformation real anchor) | frontier/B712_object_continuum/PREREGISTRATION.md | abe84455 | 2026-07-19 | sealed PRE-VERDICT (campaign design); outcome pending; FIREWALL-critical (structure only) |
