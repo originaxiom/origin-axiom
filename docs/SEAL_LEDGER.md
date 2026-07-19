@@ -188,3 +188,5 @@ hash-first status.*
 | B710 VERDICT (Path 1 thimbles) | frontier/B710_analytic_t1_thimbles/FINDINGS.md | outcome=B | 2026-07-19 | method-meeting + structure-INVERSION: fig-8 2 REAL-action saddles (CS=0) vs FRW 4 COMPLEX; Turok=method-only computed at thimble level; adversarially verified, not refuted |
 | B711 VERDICT (Path 2 two-ℤ/2) | frontier/B711_two_z2_degeneration/FINDINGS.md | outcome=B | 2026-07-19 | amphichirality ⊥ Galois (V₄); Galois swaps ρ_geom↔ρ̄_geom free on Fix(τ); golden √5 point = the Galois-fixed real end; verified, not refuted |
 | B712 VERDICT (Path 3 continuum) | frontier/B712_object_continuum/FINDINGS.md | outcome=B | 2026-07-19 | no canonical real anchor: complete-structure cusp shape τ=2√−3 (imaginary ℚ(√−3)), real ℚ-points only the degenerate corner (±1,−1); B706 goes TOTAL (discrete+continuous non-canonicity); firewall clean |
+
+| B713 PREREG (Frontier 1: where does chirality live) | frontier/B713_chirality/PREREGISTRATION.md | 5e583a40 | 2026-07-19 | sealed PRE-VERDICT (chirality campaign design); outcome pending workflow compute+verify |
