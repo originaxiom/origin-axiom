@@ -208,3 +208,5 @@ hash-first status.*
 | B718 PREREG (the Child Program) | frontier/B718_child_program/PREREGISTRATION.md | 30b52bcf | 2026-07-19 | sealed PRE-VERDICT (track every child dynamic: p↦being transfer function, arithmetic sub-family, child's own ADE skeleton, parent-as-limit + golden slope); outcome pending |
 
 | B718 VERDICT (the Child Program) | frontier/B718_child_program/FINDINGS.md | mixed (P2=A, P1/P3/P4=B) | 2026-07-19 | the child is arithmetically GENERIC beyond H₁=ℤ/p; the transfer function has no field law (sister m003 same field, different law); exactly 3 arithmetic children {5,6,8} all integral (P2=A); the child authors NO own skeleton (ramified prime 283→generic SL(2,283); only p=3,5 McKay; object at special 3) — DECISIVE: the SM structure does not migrate to the child; parent=Thurston limit; golden slope generic. Corrects ℚ(√−283)→S₄ quartic x⁴−x−1 |
+
+| B719 PREREG (scale & multiplicity — where do the 'trillions' live) | frontier/B719_scale_multiplicity/PREREGISTRATION.md | 165fb4b2 | 2026-07-19 | sealed PRE-VERDICT (being-3-filter control inherited-vs-generic; scale=free covering ladder?; pair-count fixed-vs-grows-with-degree); outcome pending |
