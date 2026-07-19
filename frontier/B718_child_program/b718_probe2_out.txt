@@ -1,0 +1,57 @@
+B718 PROBE 2 -- THE ARITHMETIC SUB-FAMILY (Dehn fillings of the figure-eight cusp)
+================================================================================================
+[CORRECTED RE-RUN 2026-07-19: escalating field recognition + three-category verdicts;
+ prose states EXACTLY the scanned box; unresolved count printed, never folded into 'non-arith']
+
+=== VALIDATION: known-arithmetic Weeks manifold m003(-3,1) [disc -23] ===
+  m003(-3,1): ARITH=True ram_all=True bound_ok=True bound_max=[1.8345] disc=-23 (expect True/True/True)
+
+=== THE ARITHMETIC CHILDREN (Hilbert-symbol ram  vs  independent bounded-conjugate) ===
+  m004(5, 1) ARITH=True  k0=x^4 - x - 1    disc=-283  sig=(2, 1)  integral=True ram_all=True bound_ok=True bound_max=[1.8815, 1.8918]
+  m004(6, 1) ARITH=True  k0=x^3 + 2*x - 1  disc=-59   sig=(1, 1)  integral=True ram_all=True bound_ok=True bound_max=[1.7012]
+  m004(8, 1) ARITH=True  k0=x^3 + x - 1    disc=-31   sig=(1, 1)  integral=True ram_all=True bound_ok=True bound_max=[1.8991]
+  identity check: m003(-2,3) disc=-283 poly=x^4 - x - 1  ==  m004(5,1) disc=-283  -> SAME FIELD
+
+=== DISCRIMINATION: non-arithmetic fillings with one complex place (ram test must fail) ===
+  m004(4, 3) ARITH=False sig=(3, 1) disc=-4903     ram_all=False bound_ok=False bound_max=[16.5257, 1.9464, 1.7392]
+  m004(1, 2) ARITH=False sig=(5, 1) disc=-7215127  ram_all=False bound_ok=False bound_max=[1.877, 1.9022, 9.9983, 1.8494, 1.8331]
+
+=== COMPLETENESS SCAN (escalating field recognition; genuine per-case verdicts) ===
+  [integral q=1, p=5..40]  scanned 36  |  ARITH=[5, 6, 8]  NON-ARITH=33  UNRESOLVED=0
+     arithmetic slopes: [5, 6, 8]
+     p=7 gap: sig=(2, 2) (r2=2 (>1 complex place))
+  [non-integral q=2..12, p<=25, gcd=1]  hyperbolic=166 (non-hyp skipped=0)
+     ARITH=NONE  |  NON-ARITH(resolved)=152  |  UNRESOLVED=14
+     of the 152 resolved negatives: 144 fail cond(1) [r2>=2];  8 have ONE complex place [r2=1] but fail cond(3) [quaternion algebra splits at a real place]:
+       the 8 one-complex-place non-integral non-arith fillings: [(1, 2), (3, 2), (5, 2), (7, 2), (2, 3), (4, 3), (8, 3), (10, 3)]
+     unresolved (invariant trace field degree > 60): [(19, 10), (21, 10), (23, 10), (17, 11), (19, 11), (21, 11), (23, 11), (25, 11), (11, 12), (13, 12), (17, 12), (19, 12), (23, 12), (25, 12)]
+
+=== THE COMPLETE FINITE ARITHMETIC SUB-FAMILY (up to symmetry, over the scanned box) ===
+  m004(5, 1) vol=0.98137  k0 = x^4 - x - 1    deg 4  disc -283   sig (2, 1)  = m003(-2,3)
+  m004(6, 1) vol=1.28449  k0 = x^3 + 2*x - 1  deg 3  disc -59    sig (1, 1)  
+  m004(8, 1) vol=1.58317  k0 = x^3 + x - 1    deg 3  disc -31    sig (1, 1)  
+
+VERDICT -> OUTCOME A : distinguished, STRUCTURED finite arithmetic sub-family.
+  * exactly 3 arithmetic children in the scanned box (Margulis finiteness realized);
+  * ALL are INTEGRAL fillings q=1 -- NO resolved non-integral filling is arithmetic (most
+    fail because r2>=2; a handful have r2=1 but the quaternion algebra splits at a real place);
+  * only the small hyperbolic slopes p in {5,6,8}; the gap at p=7 (r2=2, two complex places);
+  * their fields are minimal-discriminant complex cubic/quartic fields (-31,-59,-283);
+  * (5,1) child = m003(-2,3), confirmed arithmetic (disc -283).
+
+SCAN LEDGER (printed, in-sandbox -- every number below is COMPUTED, not asserted):
+  integral q=1, p=5..40 (36 slopes):  ARITH=[5, 6, 8]  NON-ARITH=33  UNRESOLVED=0
+  non-integral q=2..12, p<=25, gcd=1:  hyperbolic=166  ARITH=NONE  NON-ARITH(resolved)=152  UNRESOLVED=14
+     (of the 152 non-integral negatives: 144 fail cond(1) r2>=2; 8 have r2=1 but fail cond(3))
+DISCRIMINATING FACT (corrected): within the scanned box (integral p=5..40 and
+  non-integral q=2..12,p<=25 = 202 hyperbolic fillings, 188 resolved + 14 unresolved),
+  arithmeticity is realized by EXACTLY the three integral slopes {5,6,8}; every other
+  RESOLVED filling is non-arithmetic. TWO genuine obstructions, both computed per case:
+   (1) the invariant trace field has MORE THAN ONE complex place (r2>=2) -- the generic
+       case: EVERY integral p not in {5,6,8} and 144 of the non-integral fillings;
+   (3) r2=1 (one complex place) but the invariant quaternion algebra SPLITS at a real
+       place -- 8 small-q non-integral fillings [(1, 2), (3, 2), (5, 2), (7, 2), (2, 3), (4, 3), (8, 3), (10, 3)].
+  The STRUCTURE: arithmeticity needs r2=1 AND real-place ramification simultaneously;
+  only the integral slopes {5,6,8} clear both, and r2 grows with the slope so the window
+  shuts. (Margulis guarantees finiteness; the computation locates the finite set.)
+  UNRESOLVED (tool ceiling, reported as such, NOT counted as a negative): integral [], non-integral 14.

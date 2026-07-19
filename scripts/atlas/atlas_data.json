@@ -14637,6 +14637,22 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B718": {
+   "slug": "child program",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [
