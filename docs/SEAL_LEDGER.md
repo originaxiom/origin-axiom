@@ -174,3 +174,5 @@ hash-first status.*
 | B701 (B700 phase 2) PREREG (the canonical torsor-iso) | frontier/B700_fiber_functor/PREREG_CELL6_phase2.md | 0eb5026b | 2026-07-19 | sealed pre-verdict; outcome = OBSTRUCTED (no canonical iso; irreps unpointed, MTC unitarity-pointed; obstruction = observer-coupling) |
 
 | B702 (cc2-seat) E-Q1/E-Q2 PREREG (silver Eisenstein core ratio + tones) | frontier/B702_metallic_hearing_law/ | 7c45b1d2 (cc2) | 2026-07-19 | metallic hearing <=> real-quadratic swap field; silver ratio exact Q(i) not 24zeta6; silver no tone (Q(i) cap R = Q); cc core-verified |
+
+| B706 PREREG (rung-1/2 structural comparator on the SM flavor sector) | frontier/B706_rung2_sm_freedom/PREREG.md | 3af39f7f | 2026-07-19 | owner-authorized Gate-5-SM; outcome = NO-MATCH (flavor generic over Q(sqrt5); SM freedom continuous != discrete F_2-seam; object lacks the SM discrete structure B307/B604) |

@@ -104,6 +104,7 @@ upgrades' lead rows).*
 
 ## E. The walls (proved impossibilities — kept dead)
 
+11. THE STRUCTURAL-BRIDGE NO-MATCH (B706, the Listening Protocol's deepest door, RUN): the SM flavor freedom does NOT match the object at rung 1 (the precise flavor ratios — lepton masses, Koide Q, sin²θ_W — are GENERIC over the audible field ℚ(√5), no low-height algebraicity to precision; the Cabibbo≈9/40 'hit' is a rational rung-4 trap, dead) NOR rung 2 (a KIND mismatch: the seam is a DISCRETE 𝔽₂-space = a bit per stage, the SM freedom is a CONTINUOUS ~19-param moduli space; the object provably lacks the SM discrete structure — B307/B604). The one shared property (no canonical origin) is the generic observer-coupling property, not a match. The object's arbitrariness is a different KIND (discrete orientation bits) than the SM's (continuous parameters); the flavor lives fully in the coupling. Gate 5-SM; structure not value; the honest ceiling of the object↔SM bridge, now demonstrated at the deepest rung.
 1. No SM value from the solo object (the hardened record; wall 1).
 2. No Yukawa-type family tensor at the classical-cohomology level (the
    typing wall 1′).

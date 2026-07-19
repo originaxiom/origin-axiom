@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B706: the rung-2 door RUN -- SM flavor does NOT match the object
+
+- Ran the Listening Protocol's deepest door (sealed Gate-5-SM). NO-MATCH both
+  rungs: rung-1 the precise flavor ratios are generic over Q(sqrt5) (Cabibbo
+  9/40 = rung-4 trap, dead); rung-2 a KIND mismatch (discrete F_2-seam vs
+  continuous ~19-param SM moduli; object lacks the SM discrete structure).
+  The object's arbitrariness (discrete bits) differs in KIND from the SM's
+  (continuous); flavor fully in the coupling. LAW_MAP wall 11. Lock 3/3.
+
+---
+
 ## 2026-07-19 - THE LISTENING PROTOCOL (standing methodology gate, two-seat)
 
 - Adopted docs/LISTENING_PROTOCOL.md (cc2 authored + cc reviewed/refined): the

@@ -6857,3 +6857,20 @@ conflation E17; 7983360 base-rate-dead). cc §8 refinement: rung-1 = an
 algebraicity/PSLQ test falsifiable-TO-PRECISION (survives more digits or dies);
 rung-2 = where B704 runs (does the SM's freedom organize as the seam 𝔽₂-space?).
 §6 doors named as directions only; none runs without a sealed Gate-5-SM design.
+
+## 2026-07-19 — B706: the rung-2 door RUN — the SM flavor freedom does NOT match the object
+
+Owner "do it" (the Listening Protocol's deepest door, owner-authorized + sealed
+Gate-5-SM, prereg 3af39f7f). RAN the structural comparator on the SM flavor
+sector. VERDICT: NO-MATCH (both rungs). Rung 1: the precise flavor ratios
+(m_μ/m_e, m_τ/m_μ, Koide Q, sin²θ_W) are GENERIC over the audible field ℚ(√5)
+(no low-height algebraicity to precision); the Cabibbo≈9/40 candidate is a
+rational rung-4 trap (dead). Rung 2: a KIND MISMATCH — the seam is a DISCRETE
+𝔽₂-space (a bit per stage), the SM flavor freedom is a CONTINUOUS ~19-param
+moduli space; the object provably lacks the SM discrete structure (B307 no-3-gen,
+B604 no-gauge). The shared no-canonical-origin is the generic observer-coupling
+property, not a match. THE HONEST CONTENT: the object's arbitrariness is a
+different KIND (discrete orientation bits) than the SM's (continuous parameters);
+the flavor lives fully in the coupling — now DEMONSTRATED at the deepest rung,
+not asserted. Gate 5-SM; NO-MATCH is the result; nothing to CLAIMS. LAW_MAP §E
+wall 11. Lock test_b706 3/3.
