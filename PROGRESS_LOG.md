@@ -6893,3 +6893,23 @@ E17 (swap/weld conflation) the new class, ledgered; the "over-reading a generic
 feature" class recurred as the Cabibbo trap BUT was caught by its own rule
 (working). Five action items R24-1..R24-5. Two subagents ran the provenance +
 hash/error sweeps.
+
+## 2026-07-19 — B707: WHERE WE MEET — arithmetic Chern–Simons, not cosmology
+
+Owner directive (digest Turok; whose math helps; bottom-up↔top-down meeting).
+Three deep adversarial literature digests, synthesized. VERDICT: the top-down
+twin of our object is ARITHMETIC GEOMETRY, not physics-cosmology. STRONGEST
+MEETING: Minhyong Kim's arithmetic Chern–Simons theory — his H¹(Gal,−) IS a
+torsor theory by design = our "measurement = Galois torsor" (B700/B701), built
+from Spec O_F instead of the observer end; we appear to have independently
+instantiated arithmetic-CS at ℚ(√−3). SECOND: Scholze is on our EXACT object
+(the Habiro ring of a number field, arXiv:2412.04241 = B683) with K₃/Frobenius/
+regulators (connects B680 volume=L-value + B683 Mahler=K₃). THIRD: Dong Uk Lee
+(2502.11950) — mixed Tate motives whose Beilinson regulator = the PSL(2,ℂ) CS
+invariant. Witten = the analytic engine (no arithmetic); Kontsevich-Soibelman =
+converging (Stokes=DT/BPS); Connes/Costello/Penrose = superficial. Turok: method
+(Picard-Lefschetz) + a shared elliptic-curve KIND (his Jacobi-sn FRW solution)
+but generic-not-arithmetic; the real gravity meeting is our object IS 3d
+Euclidean quantum gravity (Witten 1988), arithmetically rigid. Three rung-3
+tests registered (H-MEET); Kim×seam the sharpest. Corrections: my GSWZ→GGMW/GSWZ,
+the Witten "volume note" misattribution (→ Garoufalidis 0711.1716). Gate 5.

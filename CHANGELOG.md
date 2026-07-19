@@ -6,6 +6,17 @@ not yet versioned for release. Detailed working history lives in `PROGRESS_LOG.m
 
 ---
 
+## 2026-07-19 - B707: where we meet - arithmetic Chern-Simons, not cosmology
+
+- Three adversarial literature digests synthesized. The top-down twin of our
+  object is ARITHMETIC GEOMETRY: Minhyong Kim's arithmetic Chern-Simons
+  (H^1(Gal,-) torsor = our measurement=Galois-torsor, from Spec O_F);
+  Scholze on our EXACT object (the Habiro ring, = B683) with K3/regulators;
+  Dong Uk Lee (motive-regulator = CS invariant). NOT Turok (method-only).
+  Three rung-3 tests registered (Kim x seam the sharpest). Gate 5.
+
+---
+
 ## 2026-07-19 - B706: the rung-2 door RUN -- SM flavor does NOT match the object
 
 - Ran the Listening Protocol's deepest door (sealed Gate-5-SM). NO-MATCH both

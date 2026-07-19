@@ -14320,6 +14320,30 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B707": {
+   "slug": "meeting points",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B680",
+    "B683",
+    "B700",
+    "B701",
+    "B702",
+    "B704",
+    "B705"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [
