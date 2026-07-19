@@ -1,0 +1,104 @@
+==============================================================================
+B712 — the object's own continuum: figure-eight A-polynomial deformation curve
+==============================================================================
+
+[1] A-POLYNOMIAL (Cooper-Long, figure-eight 4_1)
+    A(M,L) = -L**2*M**4 + L*M**8 - L*M**6 - 2*L*M**4 - L*M**2 + L - M**4
+    A/(L*M^4) = -L + M**4 - M**2 - 2 - 1/M**2 + M**(-4) - 1/L
+    matches -(L+1/L)+(M^4+M^-4)-(M^2+M^-2)-2 ?  True
+    reciprocal in L  (A(M,1/L)*L^2 == A): True
+    reciprocal in M  (A(M,1/M)*M^8 == A): True
+    => curve is invariant under (M,L)->(1/M,1/L): amphichiral symmetry.
+
+[2a] COMPLETE-STRUCTURE (parabolic) point, M=1:
+    A(1,L) = -(L + 1)**2   -> root L: [-1]
+    A(-1,L)= -(L + 1)**2   -> root L: [-1]
+    => (M,L)=(1,-1) and (-1,-1): Q-RATIONAL, real, but DOUBLE roots
+       (the A-poly curve is SINGULAR there: meridian eigenvalue trivial).
+    (A, dA/dM, dA/dL) at (1,-1) = (0, 0, 0)  -> singular point: True
+
+[2b] TANGENT CONE at the complete structure (cusp shape via NZ):
+    leading (degree 2 ) tangent form: -12*u**2 - w**2
+    tangent-cone slopes  tau = dw/du = d(logL)/d(logM):
+        tau = -2*sqrt(3)*I   ~ -3.4641016151377544j
+        tau = 2*sqrt(3)*I   ~ 3.4641016151377544j
+    minimal polynomial of tau: x**2 + 12
+
+[2c] TORSION POINTS (M,L roots of unity) and other Q-rational points:
+    torsion points (M=zeta_n, L a root of unity):
+        M= 1.00000  L= -1.00000   BOTH-REAL: True
+        M= -1.00000  L= -1.00000   BOTH-REAL: True
+        M= -0.5 - 0.866025*I  L= -1.00000   BOTH-REAL: False
+        M= -0.5 + 0.866025*I  L= -1.00000   BOTH-REAL: False
+        M= 1.0*I  L= 1.00000   BOTH-REAL: False
+        M= -1.0*I  L= 1.00000   BOTH-REAL: False
+        M= 0.5 - 0.866025*I  L= -1.00000   BOTH-REAL: False
+        M= 0.5 + 0.866025*I  L= -1.00000   BOTH-REAL: False
+    => the ONLY torsion points with M,L BOTH real are M=+-1,L=-1 (the
+       degenerate corner). Every nontrivial torsion point has NON-real M.
+    small-height Q-rational scan (M=p/q, |p|,|q|<=6):
+        (M,L)=( -1 , -1 )  degenerate-corner: True
+        (M,L)=( 1 , -1 )  degenerate-corner: True
+    => the only real Q-rational points found are the degenerate corner (+-1,-1).
+
+[3] HOLONOMY cross-check (Riley rep, two-bridge b(5,3) = 4_1):
+    relator  a*w = w*b  with w = bABa  residual (mod y^2+y+1): [[0, 0], [0, 0]]
+    => the Riley variable satisfies y^2 + y + 1 = 0  (y = primitive cube
+       root of unity zeta_3 = (-1+sqrt(-3))/2). cusp/trace field = Q(sqrt-3).
+       [alt normalisation w=ABab gives y^2-y+1=0, y=zeta_6; same field.]
+    longitude lam = reverse(w)*w = [[-1, 0], [-2*y - 4, -1]]
+    (lower-triangular: it fixes 0, the fixed point of meridian b -- so the
+     cusp meridian here is b, longitude lam; both parabolic fixing 0.)
+    trace(lam) = -2   (parabolic => -2 here)
+    meridian b translation c_m = -y
+    longitude  translation c_l = 2*y + 4
+    cusp shape  tau = c_l / c_m = 2*sqrt(3)*I  =  3.4641016151377545871*I
+    min poly of tau: x**2 + 12
+    Im(tau) = 3.46410161514  => NON-REAL, in Q(sqrt-3).
+    >>> AGREES with the A-poly tangent-cone slope (both = 2*sqrt(-3) = sqrt(-12),
+        min poly x^2+12). Two independent computations, one imaginary answer.
+
+[4] REAL LOCUS vs GEOMETRIC LOCUS
+    real locus needs c(M)=M^4+M^-4-M^2-M^-2-2, real L iff |c|>=2.
+    c(1) = -2  (=-2, boundary; L=-1 double = the parabolic corner)
+    dc/dM=0 at M= [1]
+        c( 1 ) = -2 = -2.0
+    => the complete hyperbolic structure (tau in Q(sqrt-3)) is NOT on the
+       real-(M,L) locus; the real locus carries only non-geometric
+       (SL(2,R)/reducible) reps. The geometry lives at |M|=1, complex M.
+
+[5] GALOIS ACTION on the distinguished data
+    Gal(Q(sqrt-3)/Q) = {1, conj}. conj: sqrt-3 -> -sqrt-3.
+    conj(tau) = tau-bar  (the two tangent-cone branches at (1,-1)) = the
+    OTHER chirality (rep <-> complex-conjugate rep).
+    Fixed points of conj on the curve = points with real data = ONLY the
+    degenerate corner (M,L)=(+-1,-1) (parabolic, trivial eigenvalue).
+    => the ONLY Galois-fixed real points are the DEGENERATE ones;
+       every geometry-carrying point is moved by conj (non-real, Q(sqrt-3)).
+
+    Canonical 2-form: NZ/Bloch regulator. Its 'real anchor' would be a
+    rational period. Hyperbolic volume of 4_1 = 2.02988321282 = 2*Im Li2(e^{i pi/3})
+    (= the geometric period) is a transcendental regulator, NOT rational.
+
+==============================================================================
+DISCRIMINATING FACT
+==============================================================================
+
+ * The A-poly curve IS defined over Q and DOES have Q-rational real points:
+   (M,L)=(+-1,-1).  BUT these are the SINGULAR / parabolic / TRIVIAL-eigenvalue
+   corner points (double roots, meridian eigenvalue = 1, no holonomy value).
+ * The CANONICAL geometric point (complete hyperbolic structure, the unique
+   Mostow-rigid basepoint of the deformation) has cusp shape tau and cusp field
+   Q(sqrt-3) -- IMAGINARY quadratic, NO real embedding.  tau is NON-REAL.
+ * Complex conjugation (the nontrivial Galois element) SWAPS the two tangent
+   branches tau <-> tau-bar (the two chiralities); its only fixed points are the
+   degenerate real corner.  So there is NO Galois-fixed real point carrying
+   geometric value, and no rational canonical measure/period (volume is a
+   transcendental regulator).
+ => the object's continuum has NO canonical NON-DEGENERATE real anchor. Its
+    distinguished structure is IMAGINARY-quadratic; a real parameter cannot land
+    on it without an arbitrary choice (leaving the canonical corner = trivial).
+
+VERDICT: OUTCOME B (Galois-generic; no distinguished real point).
+B701 non-canonicity EXTENDS to the object's continuum: the canonical point is
+imaginary (Q(sqrt-3)), fixed real points are only the degenerate corner.

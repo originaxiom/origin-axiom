@@ -184,3 +184,7 @@ hash-first status.*
 | B710 PREREG (Path 1: analytic-T1 thimble skeleton compare) | frontier/B710_analytic_t1_thimbles/PREREGISTRATION.md | 88fb56c9 | 2026-07-19 | sealed PRE-VERDICT (campaign design); outcome pending workflow compute+verify |
 | B711 PREREG (Path 2: two-ℤ/2 degeneration on X(4₁)) | frontier/B711_two_z2_degeneration/PREREGISTRATION.md | de24a647 | 2026-07-19 | sealed PRE-VERDICT (campaign design); outcome pending workflow compute+verify |
 | B712 PREREG (Path 3: object's own continuum / A-poly deformation real anchor) | frontier/B712_object_continuum/PREREGISTRATION.md | abe84455 | 2026-07-19 | sealed PRE-VERDICT (campaign design); outcome pending; FIREWALL-critical (structure only) |
+
+| B710 VERDICT (Path 1 thimbles) | frontier/B710_analytic_t1_thimbles/FINDINGS.md | outcome=B | 2026-07-19 | method-meeting + structure-INVERSION: fig-8 2 REAL-action saddles (CS=0) vs FRW 4 COMPLEX; Turok=method-only computed at thimble level; adversarially verified, not refuted |
+| B711 VERDICT (Path 2 two-ℤ/2) | frontier/B711_two_z2_degeneration/FINDINGS.md | outcome=B | 2026-07-19 | amphichirality ⊥ Galois (V₄); Galois swaps ρ_geom↔ρ̄_geom free on Fix(τ); golden √5 point = the Galois-fixed real end; verified, not refuted |
+| B712 VERDICT (Path 3 continuum) | frontier/B712_object_continuum/FINDINGS.md | outcome=B | 2026-07-19 | no canonical real anchor: complete-structure cusp shape τ=2√−3 (imaginary ℚ(√−3)), real ℚ-points only the degenerate corner (±1,−1); B706 goes TOTAL (discrete+continuous non-canonicity); firewall clean |

@@ -14423,6 +14423,68 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B710": {
+   "slug": "analytic t1 thimbles",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B707",
+    "B709"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B711": {
+   "slug": "two z2 degeneration",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B704",
+    "B709"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B712": {
+   "slug": "object continuum",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "firewall"
+   ],
+   "refs": [
+    "B701",
+    "B706",
+    "B710",
+    "B711"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B71": {
    "slug": "sl3 apoly",
    "motifs": [

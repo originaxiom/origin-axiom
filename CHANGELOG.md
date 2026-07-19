@@ -1,5 +1,13 @@
 # Changelog
 
+## B710–B712 — the three-path campaign: all outcome B (method-inversion, orthogonal ℤ/2's, total non-canonicity)
+- Multiagent campaign (compute→adversarial-verify→refine loops), owner-launched; hash-first sealed.
+- B710 analytic-T1: fig-8 vs FRW share the Picard–Lefschetz method, invert at the saddle skeleton (2 real vs 4 complex). Turok=method-only, computed.
+- B711 two-ℤ/2: amphichirality ⊥ Galois (V₄); golden √5 = Galois-fixed real end.
+- B712 continuum: no canonical real anchor (imaginary cusp shape); non-canonicity is total (discrete+continuous).
+- 9 locks green; gates 8/8; firewall clean; nothing to CLAIMS.
+
+
 ## B709 — Turok marriage: INVERTED, not married (adjudication)
 - chat-1's marriage handoff adjudicated; two-seat converged.
 - Two ℤ/2's: amphichirality (canonical) vs fiber-torsor (B701, non-canonical); Turok CPT matches the first, inverts the second.
