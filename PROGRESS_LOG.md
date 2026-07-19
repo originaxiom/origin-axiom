@@ -6838,3 +6838,22 @@ three ways: A unit-tone (p=5 alone), B fibered/audible, C arithmetic bundle.
 Two-seat confirmations: θ₀=0.89σ (confirms B703, not chat1's 7σ; firewall on
 the right grounds); B702 retraction confirmed; Q5 base-rate-dead (chat1's Q5
 closed). Lock test_b705 2/2.
+
+## 2026-07-19 — THE LISTENING PROTOCOL adopted (standing methodology gate, two-seat)
+
+cc2 authored + cc reviewed/refined/banked the structural comparator as a
+STANDING GATE (docs/LISTENING_PROTOCOL.md; companion to the base-rate/
+convention gate + COMMS_PROTOCOL). It makes the firewall CONSTRUCTIVE —
+defines what "listening" WOULD be (structure, never value), the honest form of
+the owner's reorientation (S069). Spine = the B704 seam. Core: the comparison
+hierarchy (rung 1 field/reality · 2 torsor/Galois-seam · 3 form/relation are
+the object SPEAKING; rung 4 single-ratio requires base-rate + a forcing
+mechanism, DEAD for values by B685; rung 5 fit = meaningless); the meta-stance
+(predict the STRUCTURE of the arbitrariness, not values; reduce to Galois-
+invariant invariants first); the §4 gate checklist (name-rung · swap-vs-weld+
+field-type E17 · convention · Galois-invariance · base-rate). Calibrated on
+this session (golden 3-way uniqueness GOOD rung1-2; θ₀ TRAP rung4; B702
+conflation E17; 7983360 base-rate-dead). cc §8 refinement: rung-1 = an
+algebraicity/PSLQ test falsifiable-TO-PRECISION (survives more digits or dies);
+rung-2 = where B704 runs (does the SM's freedom organize as the seam 𝔽₂-space?).
+§6 doors named as directions only; none runs without a sealed Gate-5-SM design.
