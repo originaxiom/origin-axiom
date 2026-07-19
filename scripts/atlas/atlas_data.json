@@ -14252,6 +14252,27 @@
    "status": "dead",
    "domain": "meta"
   },
+  "B704": {
+   "slug": "the seam",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B698",
+    "B699",
+    "B700",
+    "B701",
+    "B702",
+    "S069"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B70": {
    "slug": "trace ring",
    "motifs": [

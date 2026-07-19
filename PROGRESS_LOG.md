@@ -6810,3 +6810,17 @@ metallic tone ⟺ character field ℚ(√p*) REAL ⟺ p≡1 mod 4 (golden p=5 he
 p=7 does not despite having a fiber-functor torsor, connecting B702→B700). Lock
 corrected 3/3; E17 logged with a standing rule (name swap-vs-weld + field type
 before a hearing law). cc2 launching a 4-cell audibility campaign (owner go).
+
+## 2026-07-19 — B704: THE SEAM = an 𝔽₂-vector space (unifies B698–B702)
+
+Owner "do it" (formalize the seam). The per-stage fiber-functor ℤ/2-torsors
+(B700/B701) assemble into ONE structure: Gal(ℚ(√p* : stage primes)/ℚ) =
+(ℤ/2)^k, an 𝔽₂-VECTOR SPACE with the stage discriminants {p*} as BASIS and the
+"meetings" (being·hearing=meeting, B698/B699) as 𝔽₂-SUMS via genus-theory
+disc-multiplication; cell-2's V₄ = one plane. Verified {−3,5,−7} → (ℤ/2)³ deg 8.
+THE BOUNDARY (B701 restated exactly): the object fixes the SPACE V but NOT a
+vector (no canonical origin); audibility (B702) types the basis (p* audible ⟺
+p≡1 mod4). Unifies B698/B699 (genus ℤ/2), cell 2 (V₄), B700/B701 (torsors),
+B702 (audibility) as ONE 𝔽₂-linear structure. Pure math (Gate 5); the reading
+of V as "the observer's measurement freedom / the seam of reality" is
+firewalled in S069. Lock test_b704 3/3.
