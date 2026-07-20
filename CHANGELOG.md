@@ -1,5 +1,10 @@
 # Changelog
 
+## B733 consensus + B735 — observer-space bounded (two-seat) + the object's emittance
+- B733 TWO-SEAT CONSENSUS: cc2's run confirms bounded + resolves both open items (INERT2 = single shared ℤ/2 across all inert primes; BEINGBIT genuinely arithmetic at (√−3)² → V₄ dim 2 stands). B706 confirmed concretely at the doors.
+- B735 emittance (cc2 Track 2, cc-verified): HEARTBEAT = ℤ[ω] length-spectrum traces (realizations transcendental); VOICE = the cusp (open→continuous, closed→discrete; "closing silences the voice" literal); the being's spectrum embeds in the object's voice.
+- SAME WALLS: spectral facts generic; the "cusp = B723 observer-site" over-claim caught (object-level observer still unbuilt); values = look-elsewhere. 2 locks; nothing to CLAIMS. Credit cc2.
+
 ## B733 — the menu of observers is a BOUNDED discrete 𝔽₂-space (never a continuum)
 - Owner: map the observer-space at each door. Answers "can we cherry-pick an observer?" + confirms B706 at the congruence doors. All 3 probes OUTCOME A.
 - Door 2 (A₅): exactly ONE 𝔽₂ bit = Out(A₅); it couples BEING (5A/5B) to HEARING (the two ℚ(√5) 3-irreps) — being & hearing meet in the one bit.

@@ -15043,6 +15043,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B735": {
+   "slug": "emittance",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B718",
+    "B723",
+    "B733",
+    "B734"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
