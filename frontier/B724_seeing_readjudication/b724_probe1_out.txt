@@ -1,0 +1,103 @@
+==============================================================================
+B724 PROBE 1 (C2): h^1=3 -> 3 spatial dims (Lorentzian 3+1)?  DISCRIMINATING FACT
+==============================================================================
+
+------------------------------------------------------------------------------
+PART (a1)  E6 principal-SL(2) branching of the 27  (recompute, do not cite B657)
+------------------------------------------------------------------------------
+E6 Cartan matrix det = 3  (expected 3)
+principal grading vector r = 2 A^{-1} 1 = [16, 22, 30, 42, 30, 16]
+number of weights in the orbit of omega_1 = 27  (expected 27)
+h_pr eigenvalue range = [-16, 16]  (extreme = +/-16 expected)
+h_pr multiset (value:mult) = {-16: 1, -14: 1, -12: 1, -10: 1, -8: 2, -6: 2, -4: 2, -2: 2, 0: 3, 2: 2, 4: 2, 6: 2, 8: 2, 10: 1, 12: 1, 14: 1, 16: 1}
+principal-SL(2) decomposition of 27  =  Sym^16  (+)  Sym^8  (+)  Sym^0
+   block dims (m+1) = [17, 9, 1]  sum = 27
+   spins j = m/2     = [8, 4, 0]
+
+[a1] THREE blocks have dims [17, 9, 1] -> all-distinct = True
+     A symmetric spatial triad needs 3 EQUIVALENT (equal-dim) irreps (S_3/SO(3)
+     permuting them). Here the blocks are DISTINCT irreps (spins ['8', '4', '0']) of the object's
+     OWN principal SL(2) -> NO structure-respecting map cycles them -> INCOMMENSURABLE.
+
+------------------------------------------------------------------------------
+PART (a2)  figure-eight twisted H^1(M; Sym^{2k})  -> each block carries ONE class
+------------------------------------------------------------------------------
+relator word (figure-eight) = abABaBAbaB
+Riley polynomial (u) = u**2 + u + 1
+nonabelian roots u = [-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2]
+chosen discrete-faithful u = (-1+sqrt(-3))/2 = -1/2 + sqrt(3)*I/2   (u^2+u+1 = 0 )
+trace field  Q(u)  contains sqrt(-3):  (2u+1)^2 = -3
+rho(relator) at u = (1+sqrt-3)/2 : [[1, 0], [0, 1]]  (must be I)
+tr(AB) = 5/2 - sqrt(3)*I/2  -> Im part = -sqrt(3)/2  (non-real => no real slice)
+Sym^n homomorphism check (n=2): PASS
+
+   block-by-block (Sym^{<=8} exact over Q(sqrt-3); Sym^16 via char-0 rank = max over primes):
+     Sym^0  (dim  1):  (h^0,h^1) = (1,1)  [exact/Q(w)]  <- V1  (trivial, spin 0)   IN 27
+     Sym^2  (dim  3):  (h^0,h^1) = (0,1)  [exact/Q(w)]
+     Sym^4  (dim  5):  (h^0,h^1) = (0,1)  [exact/Q(w)]
+     Sym^8  (dim  9):  (h^0,h^1) = (0,1)  [exact/Q(w)]  <- V9  (Sym^8,  spin 4)    IN 27
+     Sym^16 (dim 17):  (h^0,h^1) = (0,1)  [F_p min over 12 primes (12 attain it; char-0 rank)]  <- V17 (Sym^16, spin 8)    IN 27
+
+   SUM over the 27's blocks {Sym^0,Sym^8,Sym^16}: (h^0, h^1) = (1, 3)
+   => h^1(M;27) = 3, one class per principal block, in dims 17/9/1 (spins 8/4/0).
+
+------------------------------------------------------------------------------
+PART (b)  route h^1=3 -> Lorentzian 3+1?  (Wick rotation of complex-CS; H^3 isotropy)
+------------------------------------------------------------------------------
+[b1] TWO distinct '3's:
+   (i)  H^1(M;27) = 3 : the object's E6-27 deformation cohomology. Just computed:
+        three classes in INCOMMENSURABLE blocks 17/9/1 (spins 8,4,0). Not a
+        vector-3; no SO(3) acts; NOT spatial directions.
+   (ii) T_pH^3 = R^3 : the tangent space of the hyperbolic 3-manifold M itself,
+        with isotropy SO(3) acting as the standard vector rep (a genuine symmetric
+        triad).  chat-1's '3 spatial modes' silently swaps (i) for (ii).
+
+[b2] H^3 isotropy: does SO(3) fix any tangent direction (a canonical time axis)?
+     rank of stacked so(3) generators = 3 (=3) -> common kernel dim = 0
+     => SO(3) fixes NO real tangent direction (standard 3 is irreducible).
+     => H^3 is ISOTROPIC: no invariant direction to Wick-rotate -> no canonical (3,1).
+
+[b3] Real form / signature: tr(AB) = 5/2 - sqrt(3)*I/2 is NON-REAL (Im = -sqrt(3)/2).
+     SL(2,R) and SU(2) have REAL traces; a non-real trace on the principal SL(2)
+     => the E6(C) holonomy lies in NO real form -> no canonical Riemannian/Lorentzian
+     signature is supplied by the object. (Complex Chern-Simons, not Yang-Mills.)
+
+[b4] A 4th (time) dimension: oriented 3-bordism Omega_3^SO = 0 (Rokhlin/Thom, known)
+     => a 4d filling EXISTS but is infinitely non-unique (W, W#CP^2, W#2CP^2, ...;
+     signatures s, s+1, s+2, ...). Nothing selects one 4-manifold, one signature, or
+     a Lorentzian metric. No canonical 4th dimension, no canonical 3+1.
+
+------------------------------------------------------------------------------
+BASE-RATE gate
+------------------------------------------------------------------------------
+(a) A 'symmetric spatial triad' requires 3 EQUAL-dim principal blocks (an S_3/SO(3)
+    permuting them). The E6 principal branching of the 27 is DETERMINISTIC:
+    17 (+) 9 (+) 1, all distinct. P(object supplies a symmetric triad) = 0 (forced).
+(b) 'h^1 = 3 matches 3 space dims': the object's computed cohomology dims are
+    h^0=1, h^1(M)=3, h^1(D)=5, h^1(adj-78)=6 -- '3' is ONE small integer among
+    several the same object produces. Matching a bare '3' to '3 spatial dims' is a
+    ~1/several coincidence with NO structural support (the 3 are incommensurable).
+    Base rate for a bare-integer match of this kind: HIGH (cheap); not p<0.01.
+
+==============================================================================
+VERDICT
+==============================================================================
+(a) The three H^1 classes are ONE-PER-BLOCK in the INCOMMENSURABLE principal blocks
+    27 = Sym^16 (+) Sym^8 (+) Sym^0 = 17 (+) 9 (+) 1 (spins 8,4,0). Distinct irreps of
+    the object's own principal SL(2): NO SO(3)/S_3 permutes them. NOT a symmetric
+    spatial triad.
+(b) No route h^1=3 -> Lorentzian 3+1: (i) the incommensurable 3 is not the SO(3)-
+    symmetric H^3 tangent-3 (conflation); (ii) H^3 is isotropic -> no invariant Wick
+    axis; (iii) the E6(C) holonomy has NO real form (tr AB non-real) -> no canonical
+    signature; (iv) Omega_3^SO=0 -> 4th dimension infinitely non-unique. UNBUILT/BLOCKED.
+
+OUTCOME  =  B  (incommensurable 17/9/1; no symmetric triad; no route to 3+1;
+               the h^1=3 -> 3+1 identification is STRUCTURALLY BLOCKED).
+==============================================================================
+
+[cross-check] Sym^16 over many F_p (u solves u^2+u+1). Reduction can only DROP
+   rank => inflate h^1; the char-0 value = MIN over primes. Watch the unlucky primes:
+     h^1(Sym^16) by prime: 13:2, 19:1, 31:2, 37:1, 43:1, 61:1, 67:1, 73:1, 79:1, 97:1, 103:1, 109:1, 127:1, 139:1, 151:1, 163:1
+     UNLUCKY primes (h^1>1, rank-deficient): [13, 31]
+     14/16 primes give h^1=1 => char-0 h^1(Sym^16)=1 (my first sample p=13,31 were
+     BOTH unlucky -- the reason to scan, not to trust one prime). one-per-block CONFIRMED.

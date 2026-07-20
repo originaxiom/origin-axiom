@@ -1,0 +1,134 @@
+==============================================================================
+B724 PROBE 4 -- re-adjudicate C1 / C3 / C5 BY COMPUTING the discriminating fact
+==============================================================================
+
+##############################################################################
+# C1  (expected SOUND):  vector-like object + chirality = non-canonical Z/2 torsor
+##############################################################################
+
+[C1a] chiral index (Tristram-Levine signature sigma_omega) of the object 4_1
+   sigma_omega(4_1) at 39 points on the unit circle: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+   => sigma_omega(4_1) == 0 on the ENTIRE unit circle: True   (chiral index 0 = VECTOR-LIKE)
+   NON-VACUITY: the trefoil (chiral) gives sigma_omega in [-2, 0] != {0} -> sigma=0 is a REAL constraint, forced by amphichirality, not trivial.
+   amphichirality certificate: P=[[-1,-2],[1,1]], det P = 1 (unimodular); P^T V P == -V^T : True  (4_1 = its own mirror)
+
+[C1b] the two chiralities = fiber of X(4_1) over the parabolic meridian x=2
+   fiber polynomial:  y^2 - 3y + 3 = 0 ;  disc = -3 ; irreducible/Q: True ; Q-rational roots: []
+   Gal(Q(sqrt-3)/Q)=Z/2 on {yA,yB}: transitive = True , free = True , fixed points = 0 -> SIMPLY TRANSITIVE, no basepoint
+   => no Galois-fixed / canonical chirality: 'which chirality' has no object-
+      intrinsic answer -- it is a choice of complex embedding = the observer's.
+
+[C1 BASE RATE]  disc = -3 is NOT a random draw: it is the FORCED invariant trace
+   field of 4_1 (Q(sqrt-3), Eisenstein), independently the SnapPy shape z^2-z+1.
+   The 'coincidence' rate is moot -- both halves are structurally forced, not fit.
+
+[C1 VERDICT]  the STRUCTURAL correspondence is SOUND (= B713 itself): True
+   * object vector-like (chiral index 0, forced by amphichirality); AND
+   * chirality = a non-canonical Z/2 Galois torsor bit (the observer's).
+   The physics identification (parity violation = this torsor bit) is a HINT;
+   the specific V-A / E6-lift realization is a MECHANISM = OPEN, NOT refuted.
+
+##############################################################################
+# C3  (expected REFUTED):  no entropy arrow from the object's dynamics
+##############################################################################
+
+[C3a] Fibonacci word (sigma: a->ab, b->a), prefix length = 317811
+   p(  1) =   2   (n+1 =   2)   match = True
+   p(  2) =   3   (n+1 =   3)   match = True
+   p(  3) =   4   (n+1 =   4)   match = True
+   p(  5) =   6   (n+1 =   6)   match = True
+   p(  8) =   9   (n+1 =   9)   match = True
+   p( 13) =  14   (n+1 =  14)   match = True
+   p( 21) =  22   (n+1 =  22)   match = True
+   p( 55) =  56   (n+1 =  56)   match = True
+   p(100) = 101   (n+1 = 101)   match = True
+   p(200) = 201   (n+1 = 201)   match = True
+   => factor complexity p(n) = n+1 (STURMIAN). Topological entropy of the word:
+      (1/10) log p(10) = log(11)/10 = 0.239790  -> 0
+      (1/100) log p(100) = log(101)/100 = 0.046151  -> 0
+      (1/1000) log p(1000) = log(1001)/1000 = 0.006909  -> 0
+   h_top(Fibonacci word) = lim (1/n) log(n+1) = 0.  ZERO entropy -- no growing
+   complexity, hence NO 'increasing-complexity arrow' from the symbolic object.
+
+[C3b] letter-frequency Shannon entropy vs prefix length L
+   L=    10: freq(a)=0.600000  H=0.970951 bits
+   L=   100: freq(a)=0.620000  H=0.958042 bits
+   L=  1000: freq(a)=0.618000  H=0.959442 bits
+   L= 10000: freq(a)=0.618000  H=0.959442 bits
+   L=100000: freq(a)=0.618040  H=0.959415 bits
+   freq(a) -> 1/phi = 0.618034 ; H -> H(1/phi) = 0.959419 bits (CONSTANT).
+   => the letter-frequency entropy CONVERGES to a fixed value -- it does NOT
+      increase; no monotone 'entropy production' clock in the letter statistics.
+
+[C3c] cat map sigma=[[2,1],[1,1]] conjugate to sigma^-1 in GL(2,Z)?
+   M = [1, 0, -1, -1] , det M = -1 (unimodular);  M sigma M^-1 == sigma^-1 : True
+   sigma^-1 = [1, -1, -1, 2]  (same char poly x^2-3x+1, dilatation phi^2)
+   topological entropy h(sigma) = log((3+sqrt5)/2) = 0.962424
+   h(sigma^-1) = h(sigma) = 0.962424  (conjugacy + inverse both preserve entropy)
+   => forward and backward entropy are EQUAL: the dynamics is time-symmetric,
+      NO distinguished direction, NO arrow of time carried by the monodromy.
+
+[C3 BASE RATE]  p(n)=n+1 for ALL tested n (not a fit); the conjugacy M is an EXACT
+   integer involution (det -1). Both are structural facts, no free parameters.
+[C3 VERDICT]  REFUTED on computation: True  -- three independent kills (zero h_top, converging letter H, amphichiral no-arrow).
+
+##############################################################################
+# C5  (expected REFUTED):  a discrete 4-element V4 cannot parametrize ~19 reals
+##############################################################################
+
+[C5a] the standard 19 INDEPENDENT continuous SM parameters (massless neutrinos):
+    1. quark mass  m_u             in  R>0
+    2. quark mass  m_d             in  R>0
+    3. quark mass  m_c             in  R>0
+    4. quark mass  m_s             in  R>0
+    5. quark mass  m_t             in  R>0
+    6. quark mass  m_b             in  R>0
+    7. lepton mass m_e             in  R>0
+    8. lepton mass m_mu            in  R>0
+    9. lepton mass m_tau           in  R>0
+   10. CKM angle   theta_12        in  R
+   11. CKM angle   theta_13        in  R
+   12. CKM angle   theta_23        in  R
+   13. CKM CP phase delta          in  R
+   14. gauge coupl g1 (U(1))       in  R>0
+   15. gauge coupl g2 (SU(2))      in  R>0
+   16. gauge coupl g3 (SU(3))      in  R>0
+   17. Higgs param mu^2            in  R
+   18. Higgs quartic lambda        in  R>0
+   19. strong-CP  theta_QCD        in  R
+   COUNT = 19 continuous real parameters (each an independent modulus in R;
+   with Dirac neutrino masses+mixing the count rises to ~26 -- still continuous).
+
+[C5b] the object's freedom V4 = Z/2 x Z/2 = 2 bits = [(0, 0), (0, 1), (1, 0), (1, 1)]  (|V4| = 4 )
+   cardinality(V4) = 4  (FINITE, discrete)
+   cardinality(R^19) = continuum 2^aleph0 ; dimension(R^19) = 19 (uncountable)
+   A map from a 4-element set into R^19 hits AT MOST 4 points -> a measure-ZERO,
+   0-dimensional subset of a 19 -dimensional continuum. It cannot parametrize it.
+
+[C5 BASE RATE]  the 'coverage' of R^19 by a 4-point set has Lebesgue measure 0
+   and covers 0 of the 19 continuous dimensions: the base rate that 2 bits
+   reproduce 19 independent reals is EXACTLY 0 (not merely small).
+
+[C5c] B685 kind-mismatch recomputed (discrete F2-seam vs continuous R^n):
+   object seam      : F2-vector space, one orientation BIT per stage, 2^k points,
+                      no canonical origin  -> DISCRETE, finite at each stage.
+   SM flavor freedom: an R^n moduli space of Yukawas/mixings -> CONTINUOUS.
+   the ONE shared property (no canonical origin) is the GENERIC observer-coupling
+   fact, NOT a value match. The object gives the AMBIGUITY, not the VALUES.
+   => '2 bits + forced structure -> the 19 SM values' fails on (i) cardinality
+      (4 vs continuum), (ii) dimension (0 vs 19), (iii) KIND (F2 bits vs R reals),
+      (iv) no forcing mechanism (B685). Four independent mismatches.
+
+[C5 VERDICT]  REFUTED on computation: True  -- a discrete 4-element set CANNOT parametrize ~19 continuous reals.
+
+==============================================================================
+OVERALL VERDICT
+==============================================================================
+C1 SOUND   : True   (structural correspondence = B713; V-A/E6-lift mechanism OPEN)
+C3 REFUTED : True   (zero h_top + converging letter H + amphichiral no-arrow)
+C5 REFUTED : True   (4 discrete points cannot parametrize R^19)
+
+OUTCOME = B   (A = a settled verdict is malinformed ; B = all confirmed on computation)
+=> all three 'settled' verdicts hold ON RECOMPUTATION, not on citation.
+   FIREWALL: structural/arithmetic only; no SM value claimed (C5 affirms the object
+   does NOT supply SM values); C1's physics identification stays HINT-grade/mechanism-open.

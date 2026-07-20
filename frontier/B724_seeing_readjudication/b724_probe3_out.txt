@@ -1,0 +1,61 @@
+=== GGM fig-8 (4_1) DGG rotated 3D-index, RECOMPUTED from eq 13a/13b (arXiv:2007.10190) ===
+G0_0(q) coeffs [q^0..q^5] = [1, -1, -2, -2, -2, 0]
+Ind^rot_{4_1}(q) coeffs [q^0..q^10] = [1, -8, -9, 18, 46, 90, 62, 10, -170, -424, -702]
+GGM paper eq (80) states     [q^0..q^4] = [1, -8, -9, 18, 46]
+MATCH eq(80)? True
+
+chat-1 quoted I_T(4mu+lambda) coeffs = {1: 1, 4: -1, 5: -2, 6: -5, 7: -8, 8: -10, 9: -11, 10: -6}
+GGM actual rotated-index coeffs        = {1: -8, 2: -9, 3: 18, 4: 46, 5: 90, 6: 62, 7: 10, 8: -170, 9: -424, 10: -702}
+chat-1 series == GGM rotated 3D-index?  -> False
+
+GGM 4_1 Stokes constants           = [3]
+GGM 4_1 perturbative numerators     = [1, 11, 697, 724351]  (over Q(sqrt-3))
+GGM 5_2 Stokes constants           = [4, 3]
+GGM 5_2 rotated 3D-index coeffs     = [1, -12, 3, 74, 90]
+
+=== Banked object integers (RECOMPUTED) ===
+B581 torsion spectrum tau_m = {1: -3, 4: 260736, 5: -165110400, 7: -3257341296168960, 8: 100636318520821923840, 11: -6908092175170718629633808125667573760}
+  m= 1  tau=-3                                       |tau|=3  log10=0.477
+  m= 4  tau=260736                                   |tau|=260736  log10=5.416
+  m= 5  tau=-165110400                               |tau|=165110400  log10=8.218
+  m= 7  tau=-3257341296168960                        |tau|=3257341296168960  log10=15.513
+  m= 8  tau=100636318520821923840                    |tau|=100636318520821923840  log10=20.003
+  m=11  tau=-6908092175170718629633808125667573760   |tau|=6908092175170718629633808125667573760  log10=36.839
+Generation sum-rule integers = {'7983360': 7983360, '7983360/13': Fraction(7983360, 13), '2661120/13': Fraction(2661120, 13)}
+7983360 factorization = {2: 8, 3: 4, 5: 1, 7: 1, 11: 1}
+
+=== COMPARISON ===
+GGM integer bag |.|   = [1, 3, 4, 8, 9, 10, 11, 12, 18, 46, 62, 74, 90, 170, 424, 697, 702, 724351]
+banked integer bag |.|= [3, 260736, 7983360, 165110400, 3257341296168960, 100636318520821923840, 6908092175170718629633808125667573760]
+EXACT common integers = [3]
+
+--- BASE RATE for the '3 = 3' coincidence ---
+3 is the ramified prime of Q(sqrt-3) (disc = -3); the fig-8 trace field IS Q(sqrt-3),
+and the object's field IS Q(sqrt-3) (the object == fig-8 trace map, B67/B71).
+GGM small integers (|.|<=50) = [1, 3, 4, 8, 9, 10, 11, 12, 18, 46]  count = 10
+crude base rate P(random target in {1..50} hits GGM small bag) = 10/50 = 0.20
+Because 3 is forced by the shared field, P(3 in both) ~ 1 (EXPECTED, not surprising).
+
+--- BASE RATE for a LARGE-integer identity ---
+The banked large integers (260736, 165110400, 3.26e15, 1.01e20, 6.9e36, 7983360) appear
+NOWHERE in GGM's 4_1 data. GGM's 4_1 integers are all tiny (<=724351, mostly <100).
+A genuine principled identity would need a specific LARGE integer to coincide; none does.
+large-overlap count = 0
+
+--- q-SERIES IDENTITY test ---
+Object torsions tau_m are single Reidemeister-torsion integers indexed by metallic level m
+(a SPECTRUM), not the coefficients of a q-series. GGM's 3D-index is a q-series in q.
+Different structural type => no q-series identity available to test. (STRUCTURAL mismatch.)
+
+=== VERDICT ===
+Discriminating facts computed in-sandbox:
+ (i)  GGM fig-8 rotated 3D-index recomputed = [1, -8, -9, 18, 46]  == paper eq(80) [1, -8, -9, 18, 46] -> True
+ (ii) chat-1's I_T(4mu+lambda) = q - q^4 - 2q^5 - ... does NOT equal GGM's actual 4_1
+      3D-index (1 - 8q - 9q^2 + 18q^3 + 46q^4). chat-1's quote is NOT the DGG rotated index.
+ (iii)The ONLY exact integer overlap is 3 (= |tau_1| = GGM 4_1 Stokes const): a single
+      small integer FORCED by the shared field Q(sqrt-3); base rate ~ 1, p NOT < 0.01.
+ (iv) No large banked integer (torsion 10^5..10^37, sum-rule 7983360) matches any GGM int.
+ (v)  No q-series identity (structural type mismatch: spectrum vs q-series).
+OUTCOME B: no principled object-internal identity beats the base rate. The shared field
+Q(sqrt-3) is REAL (the object IS the fig-8) but that is a necessary-not-sufficient
+structural fact, not a base-rate-beating numerical identity. HINT-grade at most.
