@@ -1,0 +1,53 @@
+==============================================================================
+B722 PROBE 1 -- the two Kashaev phases = being/hearing?
+==============================================================================
+
+------------------------------------------------------------------------------
+PHASE 1  (non-trivial classical action)  ==  A-poly + hyperbolic volume
+------------------------------------------------------------------------------
+shape z = e^{i pi/3}            = (0.5 + 0.8660254037844386467637232j)
+V_tet = Im Li_2(e^{i pi/3})     = 1.01494160640965362502120255427
+Vol(4_1) = 2*Im Li_2(e^{ipi/3})= 2.02988321281930725004240510855
+target (SnapPy)  2.029883212819307...   ->  match: True
+
+gluing/shape polynomial        z^2 - z + 1,  roots = [1/2 - sqrt(3)*I/2, 1/2 + sqrt(3)*I/2]
+discriminant                   = -3   ->  field Q(sqrt(-3)) = Q(sqrt(-3))
+check z_geo^2 - z_geo + 1      = (7.7788e-62 + 1.5558e-61j)  (~0)
+
+classical A-poly (4_1)         A(M,L) = -L**2*M**4 + L*M**8 - L*M**6 - 2*L*M**4 - L*M**2 + L - M**4
+A(M,1)  (L=1 slice)            = M**8 - M**6 - 4*M**4 - M**2 + 1
+A(M,1) factored                = (M**2 + 1)**2*(M**2 - M - 1)*(M**2 + M - 1)
+
+------------------------------------------------------------------------------
+PHASE 2  (vanishing classical action)  ==  inverse Alexander
+------------------------------------------------------------------------------
+Alexander polynomial (4_1)     Delta(t) = t^2 - 3t + 1
+discriminant                   = 5   ->  field Q(sqrt(5)) = Q(sqrt5)
+roots                          = [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+
+golden ratio phi = (1+sqrt5)/2 = 1.618033988749894848204587
+phi^2   = (3+sqrt5)/2          = sqrt(5)/2 + 3/2
+phi^-2  = (3-sqrt5)/2          = 3/2 - sqrt(5)/2
+Delta(phi^2)                   = 0  (~0): True
+Delta(phi^-2)                  = 0  (~0): True
+numeric roots                  = 2.6180339887498948482 , 0.3819660112501051518
+phi^2 numeric = 2.6180339887..., phi^-2 = 0.3819660112...
+
+reciprocal t^2*Delta(1/t)      = t**2 - 3*t + 1   (self-reciprocal: roots phi^{+2}<->phi^{-2})
+=> 'inverse Alexander' Delta^-1 has the SAME golden roots phi^{+-2} in Q(sqrt5)
+
+==============================================================================
+VERDICT
+==============================================================================
+Phase 1 (non-trivial action) -> A-poly + Vol=2.02988321282 , trace field Q(sqrt-3)
+Phase 2 (vanishing action)   -> inverse-Alexander, roots phi^{+-2}, field Q(sqrt5)
+
+object's split:
+  BEING   = A-poly / hyperbolic volume / Q(sqrt-3)   ==  Phase 1  [EXACT]
+  HEARING = Alexander / golden phi^{+-2} / Q(sqrt5)  ==  Phase 2  [EXACT]
+
+The two Kashaev quasiclassical phases carry TWO DISTINCT quadratic fields
+(disc -3 vs disc +5) that coincide, object-invariant, with being vs hearing.
+OUTCOME (probe 1) = A : the two phases ARE exactly being/hearing.
+(campaign-level: this is STRUCTURE, rung-2 torsor-adjacent; it does NOT by
+ itself open a free coupling -- see probes 2 & 3.)

@@ -1,0 +1,98 @@
+==========================================================================
+B722 PROBE 3 -- resurgence hbar-series: object's rigid Q(sqrt-3) continuum
+             or a bridge to the SM's free coupling?
+==========================================================================
+
+[CELL 0] The classical limit (hbar->0) is the object's rigid A-poly root
+--------------------------------------------------------------------------
+  geometric shape z0 = exp(i pi/3) = (1 + sqrt(-3))/2 = (0.5 + 0.86602540378443864676j)
+  min poly test  z0^2 - z0 + 1 = (0.0 + 0.0j)   (=> z0 in Q(sqrt-3))
+  min poly x^2 - x + 1, discriminant = -3  => trace field Q(sqrt-3) (BEING).
+  Vol(4_1) = 2 Im Li2(z0) = 2.02988321281930725   (Bloch group of Q(sqrt-3))
+  => the hbar->0 datum is RIGID and imaginary-quadratic (B712: no real anchor).
+
+[CELL 1] The hbar-series from <4_1>_N -- coefficients in Q(sqrt-3)
+--------------------------------------------------------------------------
+  1-loop:  c0 = -0.2746530721670274228488
+           -(1/4) log 3 = -0.2746530721670274228488
+           => prefactor e^c0 = 3^(-1/4) = |disc(Q(sqrt-3))|^(-1/4). [GGM: 3^{-1/4}]
+
+  perturbative CS invariants  S_{k+1} = c_k / (2 pi i)^k :
+  k |  S_{k+1}/(sqrt-3)^k (should be RATIONAL if S_{k+1} in Q(sqrt-3)) | resid
+  1 |           -11/216   (-0.05092592592592593)  | 2e-30  <-- exact
+  2 |             1/162   (0.00617283950617284)  | 1e-27  <-- exact
+  3 |      -1081/524880   (-0.002059518366102728)  | 6e-25  <-- exact
+  4 |          49/52488   (0.0009335467154397196)  | 2e-22  <-- exact
+  5 |     -5265/9495418   (-0.0005544779597896501)  | 1e-15
+  6 |       799/1960809   (0.0004074848697534876)  | 1e-14
+  7 |     -1630/4573457   (-0.0003564043567055242)  | 1e-15
+
+  RECOGNISED EXACTLY (residual < 1e-20):
+    S_2 = (-11/216) * sqrt(-3)      = -(11/216) sqrt(-3)   [den 216 = 2^3 3^3]
+    S_3 = (1/162) * (sqrt-3)^2   = -1/54                [in Q]  
+    => the DImofte-Garoufalidis 2-loop invariant of 4_1, reproduced from
+       the raw Kashaev sum. The hbar-series lives in Q(sqrt-3) (the being field).
+    Higher c_k degrade in precision because the series is ASYMPTOTIC (CELL 2).
+
+[CELL 2] The continuum is resurgent: Borel singularity = 2i*Vol(4_1)
+--------------------------------------------------------------------------
+  |c_k| grow (factorially) => the series is asymptotic/Gevrey-1 (the resurgence).
+  If c_k ~ C (k-1)! / A^k then (k-1)/(|c_k|/|c_{k-1}|) -> A :
+    k= 2  |c_k|=  0.73108181  A_k=0.7580772312
+    k= 3  |c_k|=   2.6545271  A_k=0.5508188779
+    k= 4  |c_k|=   13.094775  A_k=0.6081495265
+    k= 5  |c_k|=   84.642166  A_k=0.6188298625
+    k= 6  |c_k|=   676.94668  A_k=0.6251760163
+    k= 7  |c_k|=   6443.5689  A_k=0.6303463437
+    k= 8  |c_k|=   71120.638  A_k=0.6342038435
+    k= 9  |c_k|=   893193.54  A_k=0.6370009208
+    k=10  |c_k|=  12579734.0  A_k=0.6390231755
+    k=11  |c_k|=1.9641289e+8  A_k=0.6404739678
+    k=12  |c_k|=3.3653278e+9  A_k=0.6420004083
+
+  A_inf (extrapolated) = 0.6553136364    V/pi = 0.6461318944
+  => Borel singularity  zeta* = 2 pi i * A_inf ~ 4.117457 i
+     compare 2 i Vol(4_1) = 4.0597664 i     (ratio 1.0142103)
+  => the nearest Borel singularity sits at zeta* = 2 i V = the GAP between the
+     object's two conjugate CS saddles (+-V, CS=0). RIGID, over Q(sqrt-3).
+  [GGM 2012.00062, fetched: peacock lattice iota = (V(s)-V(s'))/2pi i + 2pi i k
+   + l log x;  Stokes constants = INTEGERS (Donaldson-Thomas);
+   phi_{s1}(tau/2pi i) in 3^{-1/4} Q(sqrt-3)[[tau]] -- matches CELLs 1-2 above.]
+
+[CELL 3] Is hbar a FREE coupling, or the object's own quantization?
+--------------------------------------------------------------------------
+  hbar = 2 pi i / N  (Kashaev)  =  2 pi i / k  (CS level).
+   * N / k = the color / LEVEL = an INTEGER quantization (discrete, not a free
+     continuous knob).  Discrete quantization != free continuous coupling.
+   * hbar -> 0 (N -> inf) = the CLASSICAL limit = the rigid A-polynomial (B712).
+   * the whole hbar-series is FIXED over Q(sqrt-3): every coefficient (CELL 1),
+     every Borel singularity (CELL 2 = the object's volume), every Stokes
+     constant (integer / DT). Varying hbar changes NO datum of the object's
+     arithmetic -- it only picks WHERE to evaluate the object's own fixed
+     function. That 'freedom' is the observer's evaluation point, exactly the
+     B712 (rigid A-poly curve) / B719 (free covering ladder, but the object's)
+     pattern -- NOT a coupling the object leaves undetermined for the SM.
+   * steelman A (the Teichmuller/complex-CS parameter b, hbar = 2 pi i b^2):
+     b is a quantization/gauge label; the invariant's perturbative + Borel +
+     Stokes content is b-INDEPENDENT (modular double b<->1/b). A free SM coupling
+     CHANGES a predicted number; b changes none of the object's Q(sqrt-3) data.
+
+==========================================================================
+VERDICT: OUTCOME B.
+==========================================================================
+  The Kashaev/resurgence machine consumes the object's A-polynomial and
+  produces the object's OWN rigid quantum continuum:
+    - the hbar-series coefficients live in 3^{-1/4} Q(sqrt-3)[[tau]]
+      (reproduced: S_2 = -(11/216)sqrt(-3), S_3 = -1/54);
+    - the Borel singularities sit on the object's complex-volume lattice
+      (zeta* = 2i Vol(4_1)); the Stokes constants are integers (DT);
+    - hbar is the DISCRETE quantization (level in Z), hbar->0 = the rigid A-poly.
+  DISCRIMINATING FACT: extracted straight from the raw Kashaev sum,
+    S_2 = -(11/216) sqrt(-3) in Q(sqrt-3), and the Borel singularity at
+    2i Vol(4_1) -- both the object's OWN arithmetic, no free parameter.
+  There is NO free continuous coupling anywhere in the resurgent data:
+  no bridge to the SM's ~19 free parameters. Reconfirms B706 at the
+  resurgence/analytic level -- the object produces continua (A-poly curve,
+  covering scale, thermal clock, hbar-series) ALL rigid/scale-free/the-
+  observer's, NONE the SM's free coupling. rung-1 (field) NO-MATCH.
+  FIREWALL: no SM value fit or referenced; 2.02988 = Vol(4_1). Structure only.

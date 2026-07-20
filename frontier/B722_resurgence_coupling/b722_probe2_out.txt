@@ -1,0 +1,142 @@
+==============================================================================
+B722 PROBE 2  --  fig-8 (4_1) Borel/resurgence: RIGID or FREE?
+==============================================================================
+
+[A] Complex volume period CV and Q(sqrt-3) provenance
+  shape parameter z = e^{i pi/3};  minimal polynomial: x**2 - x + 1  -> disc = -3  => Q(sqrt-3) (Eisenstein)
+  Vol(4_1) = 2*Cl2(pi/3) = 2.02988321281930725004240510855
+  CV = i*Vol = (0.0 + 2.02988321281930725004240510855j)  (CS(4_1)=0, amphichiral) -> matches 2.02988...i
+
+[B] Exact Taylor data at the saddle t* = i pi/3, in Z[sqrt-3] / Q(sqrt-3)
+  exact Phi^{(n)}(t*)  (f_{n-2} * (n-2)!):
+    n= 2 :  sqrt(3)*I
+    n= 3 :  -2
+    n= 4 :  -2*sqrt(3)*I
+    n= 5 :  10
+    n= 6 :  22*sqrt(3)*I
+    n= 7 :  -182
+    n= 8 :  -602*sqrt(3)*I
+  => f_0=Phi''(t*)=sqrt-3 (the trace-field discriminant / 1-loop torsion);
+     all Phi^{(n)}(t*) in Z[sqrt-3] (even n: int*sqrt-3, odd n: int). No pi, no free knob.
+  numeric check: c_2 = Phi''/2 = (0.0 + 0.86602540378443864676j)  (should be sqrt-3 i/2 = (0.0 + 0.86602540378443864676j) )
+
+[C] hbar-series coefficients a_k (saddle-point / Feynman resummation)
+  perturbative coefficients a_k (numeric), a_k = i^k * (real):
+    a_1 = (0.0 - 0.0160375074774896045696986j)
+    a_2 = (-0.00475823045267489711934156 + 0.0j)
+    a_3 = (0.0 + 0.00162176269459010533178665j)
+    a_4 = (0.00000825861166855775147194138 + 0.0j)
+    a_5 = (0.0 + 0.00214688611325785314503996j)
+    a_6 = (0.00744305299741705567180909 + 0.0j)
+    a_7 = (0.0 - 0.0238639838693495208229663j)
+    a_8 = (-0.0816576996286754836970169 + 0.0j)
+    a_9 = (0.0 + 0.307793507183056038887728j)
+    a_10 = (1.28558347606443883227943 + 0.0j)
+    ...  (computed to k=28)
+
+  PSLQ identification of a_k in Q(sqrt-3)  (basis {1, sqrt-3}):
+    a_1 = (0) + (-1/108)*sqrt(-3)
+    a_2 = (-37/7776) + (0)*sqrt(-3)
+    a_3 = (0) + (2359/2519424)*sqrt(-3)
+    a_4 = (None) + (0)*sqrt(-3)
+  (a_4 real part is a rational with a large denominator; PSLQ maxcoeff capped.
+   NOTE: a_k in Q(sqrt-3) is GUARANTEED BY CONSTRUCTION, not just PSLQ-observed --
+   every c_n in Q(sqrt-3) [Riccati recursion], and a_k is a Q-polynomial in the c_n
+   and 1/c_2; so the ENTIRE trans-series lives in the object's own field Q(sqrt-3).)
+
+  exact a_1 from exact c_n in Q(sqrt-3):
+    a_1 (exact) = -sqrt(3)*I/108  (matches PSLQ -sqrt(-3)/108)
+
+[D] Borel singularity location (leading) from a_k growth
+    NB: V(sigma_1)=Phi(t*)=+i*Vol is the ABSOLUTE critical value (Parts A/B, EXACT).
+        zeta_1 below is the Borel singularity RELATIVE to the geometric saddle.
+    arithmetic candidates for |zeta_1|:
+        |gap to trivial conn.| = Vol   = 2.029883212819307
+        |gap to conjugate sad.| = 2*Vol = 4.059766425638615
+    reality check (EXACT): b_k = a_k/i^k real?  max|Im b_k| = 0.0 (=0 => a_k = i^k*real => singularity on the imaginary axis)
+    ratio test r_k = k*b_k/b_{k+1}  (real; -> -Vol => |zeta_1|=Vol, sign -):
+      k= 4 :  r_k = 0.0153871444182   |r_k|/Vol = 0.007580310198
+      k= 5 :  r_k = -1.44220799852   |r_k|/Vol = 0.7104881647
+      k= 6 :  r_k = -1.87136893106   |r_k|/Vol = 0.9219096543
+      k= 7 :  r_k = -2.04570895145   |r_k|/Vol = 1.007796379
+      k= 8 :  r_k = -2.1224021358   |r_k|/Vol = 1.045578446
+      k= 9 :  r_k = -2.15477377877   |r_k|/Vol = 1.061525986
+      k=10 :  r_k = -2.16567047047   |r_k|/Vol = 1.066894123
+      k=11 :  r_k = -2.16608721094   |r_k|/Vol = 1.067099426
+      k=12 :  r_k = -2.1615979098   |r_k|/Vol = 1.06488782
+      k=13 :  r_k = -2.15506518038   |r_k|/Vol = 1.061669542
+      k=14 :  r_k = -2.14793781009   |r_k|/Vol = 1.05815832
+      k=15 :  r_k = -2.14091862256   |r_k|/Vol = 1.054700393
+      k=16 :  r_k = -2.13431989647   |r_k|/Vol = 1.051449602
+      k=17 :  r_k = -2.12825416544   |r_k|/Vol = 1.048461385
+      k=18 :  r_k = -2.12273600865   |r_k|/Vol = 1.045742925
+      k=19 :  r_k = -2.11773546498   |r_k|/Vol = 1.043279461
+      k=20 :  r_k = -2.11320532753   |r_k|/Vol = 1.041047738
+      k=21 :  r_k = -2.10909452837   |r_k|/Vol = 1.039022597
+      k=22 :  r_k = -2.1053542612   |r_k|/Vol = 1.037179995
+      k=23 :  r_k = -2.10194041488   |r_k|/Vol = 1.035498201
+      k=24 :  r_k = -2.09881420749   |r_k|/Vol = 1.033958109
+      k=25 :  r_k = -2.09594199948   |r_k|/Vol = 1.032543146
+      k=26 :  r_k = -2.09329477917   |r_k|/Vol = 1.031239022
+      k=27 :  r_k = -2.09084755904   |r_k|/Vol = 1.030033425
+    Richardson-extrapolated r  = -2.0265871506408  (28 terms; residual ~ interference from the 2*Vol singularity)
+    => leading singularity MAGNITUDE |zeta_1| = 2.0265871506408
+    |zeta_1|/Vol   = 0.998376230634   (-> 1: |zeta_1| = Vol, i.e. 1x CV)
+    |zeta_1|/(2Vol)= 0.499188115317
+    STATUS: |zeta_1|=Vol is COMPUTED NUMERICALLY (~0.2% residual, corroborates
+            GGM Conj.3a); it is NOT a closed-form in-sandbox proof. The imaginary-
+            axis placement IS proven (a_k=i^k*real). Reconciling sign: r_k<0 and
+            |zeta_1|=Vol (not 2Vol) => nearest = TRIVIAL-connection gap =>
+            zeta_1 = -i*Vol = 0 - Phi(t*)  (relative to the geometric saddle);
+            next zeta_2 = -2 i*Vol = Phi(t_conj) - Phi(t*) (the conjugate saddle).
+    => the singularities sit on the DISCRETE lattice Z*(i*Vol) = Z*CV over
+       Q(sqrt-3): |zeta_1|=Vol computed, the +/- sign a Galois-conjugate choice
+       WITHIN the lattice, no free continuous parameter.
+
+[E] GGM (arXiv:2012.00062) peacock lattice + Stokes constants (corroboration)
+    Conjecture 3(a): Borel singularities of the 4_1 series sit at
+        iota = (V(sigma)-V(sigma'))/(2 pi i)  +  2 pi i * k  +  l * log x,
+      with V(sigma_1) = i*Vol(4_1) = i*2.029883...,  k,l in Z.
+    => a LATTICE: generators {2 pi i (vertical), log x (horizontal), CV-offset},
+       free indices k,l in Z (DISCRETE). No continuous parameter.
+    Conjecture 3(d): the Stokes constants are INTEGERS (= Donaldson-Thomas /
+       BPS invariants). 4_1 has exactly 2 critical points {sigma_1, sigma_2}
+       (geometric + complex conjugate). Series in 3^{-1/4} Q(sqrt-3)[[tau]].
+    EPISTEMIC-STATUS NOTE (corrected -- no Listening-Protocol rung applies here):
+    The LISTENING_PROTOCOL rung hierarchy (1=field, 2=torsor, 3=form) grades
+    OBJECT<->EXTERNAL-REALITY comparisons; this probe is an INTERNAL, object-only
+    computation (no SM/reality comparand), so NO comparative rung is cleared. The
+    earlier 'rung 3 = proven / rung<=2 = cited' usage was an informal evidentiary
+    axis, inconsistent with the project taxonomy, and is replaced by plain labels:
+      PROVEN in-sandbox (exact): (i) coefficients in Q(sqrt-3) [Riccati recursion];
+        (ii) a_k = i^k*real, so all Borel singularities lie on the imaginary axis.
+      COMPUTED numerically (~0.2%, NOT a proof): |zeta_1| = Vol (28-term ratio test).
+      CITED, not reproduced (GGM Conj.3a/3d): the full peacock lattice + INTEGER
+        (DT/BPS) Stokes constants; the deep numerical DT tables are not re-derived.
+    Large-order growth of our a_k is a clean one-instanton form Gamma(k+beta)/Vol^k
+    (beta<1), consistent with a FIXED singularity type -- but we do NOT assert a
+    specific Stokes integer (needs the trivial-connection normalization). Either
+    way the structure carries NO free continuous parameter.
+
+==============================================================================
+VERDICT
+==============================================================================
+  [PROVEN in-sandbox, exact]
+  - Perturbative coefficients a_k in Q(sqrt-3): Phi^{(n)}(t*) in Z[sqrt-3] via the
+    Riccati recursion; 1-loop = Phi''(t*) = sqrt-3 = trace-field discriminant; a_k is
+    a Q-polynomial in the c_n and 1/c_2, so the WHOLE trans-series is Q(sqrt-3). No pi,
+    no free real parameter. (a_1=-sqrt-3/108, a_2=-37/7776, a_3=(2359/2519424)sqrt-3.)
+  - a_k = i^k*(real) EXACTLY => every Borel singularity lies on the imaginary axis.
+  [COMPUTED numerically, ~0.2% residual -- strong corroboration, NOT a closed proof]
+  - Leading Borel singularity MAGNITUDE |zeta_1| = Vol (|zeta_1|/Vol = 0.998, 28 terms).
+    With the imaginary-axis fact + nearest=trivial-connection (|gap|=Vol, not 2Vol):
+    zeta_1 = -i*Vol relative to the geometric saddle (0 - Phi(t*)); next -2i*Vol
+    (conjugate saddle). Distinct from V(sigma_1)=Phi(t*)=+i*Vol (the absolute value).
+  [CITED, not reproduced -- GGM arXiv:2012.00062 Conj.3a/3d]
+  - Peacock lattice Z-generated {2pi i, log x, CV}; Stokes constants = integers (DT/BPS).
+    Deep numerical DT tables not re-derived here.
+  => Whether from the proven arithmetic (a_k in Q(sqrt-3), imaginary-axis singularities)
+     or the numerically-computed |zeta_1|=Vol on the DISCRETE lattice Z*CV over Q(sqrt-3),
+     the resurgence structure carries NO free continuous parameter for a coupling to
+     occupy: the ONLY freedoms are DISCRETE (lattice index n in Z; the +/- sign a
+     Galois-conjugate choice).  OUTCOME = B  (arithmetically rigid).

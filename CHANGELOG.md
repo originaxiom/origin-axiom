@@ -1,5 +1,11 @@
 # Changelog
 
+## B722 — the resurgence coupling: two phases=being/hearing, continuum rigid
+- The two Kashaev phases ARE being/hearing (rung-1, verified vs real Galakhov-Morozov; Alexander inside the A-poly L=1 slice).
+- The h-bar-resurgence continuum is arithmetically RIGID over Q(sqrt-3) (1-loop Phi''=sqrt-3 proven; coefficients in Q(sqrt-3); Borel at i*Vol; no free dial).
+- COMPLETES: every object continuum (A-poly curve/scale/tracial-clock/h-bar-series) is rigid/scale-free, none the SM's free coupling -> B706 total. 3 locks; nothing to CLAIMS. Credit cc2.
+
+
 ## B721 — the thermal-time coupling: field-matched, rung-mismatch; two clocks
 - cc2's LEAD 1 (CMR KMS-torsor over Q(sqrt-3)) tested as a web-enabled multiagent loop campaign. Outcome B.
 - Field-matched + rung-2 relation (being-Z/2 acts on the CMR torsor by CM-inversion) but NOT an identity (complementary torsors).

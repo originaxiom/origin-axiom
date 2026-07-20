@@ -14749,6 +14749,30 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B722": {
+   "slug": "resurgence coupling",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B706",
+    "B707",
+    "B712",
+    "B719",
+    "B721"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
