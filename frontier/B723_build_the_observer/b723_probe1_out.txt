@@ -1,0 +1,125 @@
+============================================================================
+B723 PROBE 1 -- is the object's von Neumann algebra TRACIAL type II_1 ?
+============================================================================
+
+############################################################################
+# PART (a)  M = L^inf(T^2) x|_sigma Z  is a II_1 FACTOR
+############################################################################
+
+sigma = [[2,1],[1,1]]   (the cat-map monodromy / object's own time, B716)
+  det(sigma) = 1    trace(sigma) = 3
+  char poly  = x**2 - 3*x + 1
+
+[a.0] MEASURE-PRESERVING.  det(sigma) = 1  =>  sigma in SL(2,Z) acts on
+      T^2 = R^2/Z^2 preserving Lebesgue measure mu (a DIFFUSE PROBABILITY
+      measure, mu(T^2) = 1).  => the invariant measure is FINITE. [verified]
+
+[a.1] HYPERBOLIC / ANOSOV.  eigenvalues = [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+      = phi^{+-2} =  ['0.3819660112501051517954132', '2.618033988749894848204587']  (phi = golden ratio)
+      |lambda_+| = 2.6180339887498948482 > 1  and  |lambda_-| < 1
+      |tr(sigma)| = 3 > 2  => hyperbolic; eigenvalues are IRRATIONAL reals,
+      hence NOT roots of unity.  (No eigenvalue on the unit circle.)
+
+[a.2] ERGODIC  (dual-lattice / Fourier-mode orbit criterion).
+      mode k=(1, 0)  |(sigma^T)^n k|^2 -> [5, 34, 233, 1597, 10946] ...  strictly escaping: True
+      mode k=(0, 1)  |(sigma^T)^n k|^2 -> [2, 13, 89, 610, 4181] ...  strictly escaping: True
+      mode k=(1, -1) |(sigma^T)^n k|^2 -> [1, 5, 34, 233, 1597] ...  strictly escaping: True
+      mode k=(3, 2)  |(sigma^T)^n k|^2 -> [89, 610, 4181, 28657, 196418] ...  strictly escaping: True
+      Every nonzero mode escapes to infinity (never returns) => no nonzero
+      invariant Fourier mode => the only invariant L^2 fn is constant => ERGODIC.
+      (Equivalent statement: no eigenvalue of sigma is a root of unity.)
+
+[a.3] FREE (essentially).  #Fix(sigma^n) on T^2 = |det(sigma^n - I)|.
+      n=1: tr(sigma^n)=3    (=L_{2n})  #Fix = |det(sigma^n - I)| = 1  (finite)
+      n=2: tr(sigma^n)=7    (=L_{2n})  #Fix = |det(sigma^n - I)| = 5  (finite)
+      n=3: tr(sigma^n)=18   (=L_{2n})  #Fix = |det(sigma^n - I)| = 16  (finite)
+      n=4: tr(sigma^n)=47   (=L_{2n})  #Fix = |det(sigma^n - I)| = 45  (finite)
+      n=5: tr(sigma^n)=123  (=L_{2n})  #Fix = |det(sigma^n - I)| = 121  (finite)
+      n=6: tr(sigma^n)=322  (=L_{2n})  #Fix = |det(sigma^n - I)| = 320  (finite)
+      det(sigma^n - I) = 2 - tr(sigma^n) != 0 for all n != 0 (eigenvalues phi^{+-2n} != 1)
+      => each sigma^n has only FINITELY many fixed points => measure zero
+      => the Z-action is FREE mu-a.e. [verified]
+
+[a.4] DIFFUSE.  (T^2, Lebesgue) is a non-atomic standard probability space
+      (no point has positive measure) => the crossed product has NO minimal
+      projections => NOT type I. [structural: Lebesgue is non-atomic]
+
+[a.5] MURRAY-von NEUMANN verdict.  Assembling (a.0)-(a.4):
+        ERGODIC (a.2)          => trivial center  => FACTOR
+        FREE (a.3) + DIFFUSE   => no min. projections => NOT type I
+        INVARIANT PROBABILITY  => finite canonical trace tau => TYPE II_1
+      => M = L^inf(T^2) x|_sigma Z is a  II_1 FACTOR.
+      Z is AMENABLE => (Connes) M is the UNIQUE HYPERFINITE II_1 factor R.
+
+[a.6] DECISIVE TYPE FINGERPRINT -- continuous range of the trace on projections.
+      For E subset T^2 measurable, 1_E is a projection in M with tau(1_E)=mu(E).
+      Demonstration -- vertical strips E_a = [0,a] x [0,1], projection trace = a:
+        a = 0.0                     tau(1_{E_a}) = mu(E_a) = 0.0
+        a = 0.333333333333333333    tau(1_{E_a}) = mu(E_a) = 0.333333333333333333
+        a = 0.5                     tau(1_{E_a}) = mu(E_a) = 0.5
+        a = 0.707106781186547524    tau(1_{E_a}) = mu(E_a) = 0.707106781186547524
+        a = 1.0                     tau(1_{E_a}) = mu(E_a) = 1.0
+      => trace range CONTAINS all of [0,1] (continuous), with tau(1)=1.
+      DISCRIMINATOR: continuous [0,1] range rules OUT type I (discrete),
+      type II_inf/I_inf ([0,inf]), and type III (no finite trace).  => II_1.
+
+      (Hyperfinite realization: R = weak-closure of U_k M_{2^k} w.r.t. the
+       normalized trace; projection traces = dyadics j/2^k, DENSE in [0,1].)
+        M_{2^1}: projection traces j/2^1, j=0..2  (mesh 1/2)
+        M_{2^2}: projection traces j/2^2, j=0..4  (mesh 1/4)
+        M_{2^3}: projection traces j/2^3, j=0..8  (mesh 1/8)
+        M_{2^8}: projection traces j/2^8, j=0..256  (mesh 1/256)
+
+############################################################################
+# PART (b)  a TRACIAL state has TRIVIAL modular flow  Delta = 1  (=> no clock)
+############################################################################
+
+Tomita-Takesaki: for a faithful normal state/weight phi with GNS modular
+operator Delta_phi and modular group sigma^phi_t(a) = Delta^{it} a Delta^{-it},
+      phi is a TRACE  <=>  sigma^phi_t = id for all t  <=>  Delta_phi = 1.
+A II_1 factor carries a faithful normal tracial state tau => Delta_tau = 1
+=> its intrinsic modular ('thermal') flow is TRIVIAL: NO clock, NO temperature.
+
+[b.1] TRACIAL state (the II_1 side): rho = I/3  (normalized trace tau = Tr/3).
+      Delta-spectrum {rho_i/rho_j} = ['1.0']   (all = 1)
+      max_t |sigma_t(X) - X| = 4.639e-41  => sigma_t = id, Delta = 1.
+
+[b.2] NON-tracial Gibbs state (the type-III / thermal side): rho ~ exp(-beta H),
+      H = diag(0,1,2), beta = 1.
+      rho = diag(0.6652, 0.2447, 0.09003)
+      Delta-spectrum {rho_i/rho_j} = ['0.135335', '0.367879', '1.0', '2.71828', '7.38906']   (!= {1})
+      max_t |sigma_t(X) - X| = 7.302  => sigma_t != id, Delta != 1.
+
+[b.3] Trace identity check (random 3x3):  tau(ab) - tau(ba)  vs  omega(ab)-omega(ba).
+      |tau(AB) - tau(BA)|   = 0.000e+00   => tau is TRACIAL (KMS at trivial flow)
+      |omega(AB) - omega(BA)| = 6.053e+00   => Gibbs omega is NOT tracial (has a clock)
+
+[b.4] KMS reading.  A KMS_beta state for generator H has modular flow
+      sigma_t = e^{itH}(.)e^{-itH}. The trace tau is KMS for the TRIVIAL
+      generator (H = 0) at any beta: sigma_t = id, no temperature scale.
+      => the object's own equilibrium carries NO beta, NO arrow, NO thermal time.
+
+============================================================================
+VERDICT
+============================================================================
+OUTCOME = A  (TRACIAL type II_1 CONFIRMED).
+
+Discriminating structural facts (all recomputed in-sandbox):
+  1. det(sigma)=1 => Lebesgue-measure-PRESERVING on the diffuse probability
+     space (T^2, mu), mu(T^2)=1  [a.0].
+  2. sigma is ERGODIC (no nonzero periodic Fourier mode; no eigenvalue is a
+     root of unity) => FACTOR  [a.2].
+  3. sigma is FREE a.e. (#Fix(sigma^n)=|2-tr(sigma^n)| finite => measure 0)
+     + (T^2,mu) DIFFUSE => NOT type I  [a.3,a.4].
+  4. INVARIANT PROBABILITY measure => finite canonical trace tau => TYPE II_1;
+     the trace range on projections is CONTINUOUS = [0,1] with tau(1)=1 -- the
+     unique fingerprint of II_1 (rules out I_n discrete, II_inf/I_inf [0,inf],
+     III no-trace)  [a.5,a.6]. Z amenable => hyperfinite factor R.
+  5. TRACIAL => Delta = 1 => modular/thermal flow TRIVIAL (verified: II_1-side
+     sigma_t(X)=X to <1e-30; Gibbs-side sigma_t(X)!=X)  [b.1-b.4].
+
+=> The object's OWN von Neumann algebra is the tracial, hyperfinite II_1 factor:
+   an EQUILIBRIUM, TIMELESS structure with trivial modular flow and NO intrinsic
+   thermal clock. Any thermal/type-III clock must be supplied EXTERNALLY (a free
+   weight/state, B701) -- exactly the observer apparatus B723 sets out to build.
+   FIREWALL: structural/operator-algebra only; no SM value; no derived choice.

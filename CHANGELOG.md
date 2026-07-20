@@ -1,5 +1,12 @@
 # Changelog
 
+## B723 — build the observer: apparatus built; the observer is a PHASE TRANSITION
+- The observer apparatus is built: object tracial II_1 + external weight -> Powers/Araki-Woods III_lambda (Connes-Takesaki).
+- The observer is NOT one state: time (symmetric III_1) and chirality/values (broken type-I Galois-labeled) are on opposite sides of the beta=1 SSB; space = a subfactor inclusion.
+- Measurement = the cooling through beta=1; the observer's closing = the spontaneous symmetry breaking (choosing a broken vacuum = breaking the c-swap). The observer is a transition, not a thing.
+- Choice free (B701). Sealed e21d879b; 4 locks; gates 8/8; nothing to CLAIMS. Credit cc2; motivated by S070 (firewalled).
+
+
 ## B722 — the resurgence coupling: two phases=being/hearing, continuum rigid
 - The two Kashaev phases ARE being/hearing (rung-1, verified vs real Galakhov-Morozov; Alexander inside the A-poly L=1 slice).
 - The h-bar-resurgence continuum is arithmetically RIGID over Q(sqrt-3) (1-loop Phi''=sqrt-3 proven; coefficients in Q(sqrt-3); Borel at i*Vol; no free dial).

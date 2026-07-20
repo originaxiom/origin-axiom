@@ -1,0 +1,204 @@
+==============================================================================
+B723 PROBE 3 (CORRECTED) -- THE EMISSIONS DICTIONARY: what the observer
+     supplies as a function of the chosen state omega
+==============================================================================
+
+PRIMARY FACTS (operator algebra + arithmetic KMS; sources cited, WebFetched):
+  * Tomita-Takesaki: a faithful normal state omega on M gives S_omega=J Delta^{1/2};
+    Delta -> modular flow sigma^omega_t(a)=Delta^{it} a Delta^{-it}; J antilinear (M<->M').
+  * Connes (cocycle Radon-Nikodym / classification): the OUTER class of sigma^omega is a
+    state-INDEPENDENT invariant of M. Trivial outer class <=> SEMIFINITE (type I/II, a
+    trace exists; modular flow INNER) ; nontrivial <=> TYPE III (no trace).
+  * Connes-Rovelli gr-qc/9406019: 'thermal time' = the modular flow of a state.
+  * Bost-Connes / CMR math/0501424 + Neshveyev arXiv:0907.1456 (WebFetched this run):
+    for the arithmetic QSM there is a PHASE TRANSITION at beta=1 --
+      - 0 < beta <= 1 : a UNIQUE KMS_beta state, of TYPE III_1 (Galois-SYMMETRIC).
+      - beta > 1      : extremal KMS_beta states carry a FREE TRANSITIVE Galois action
+                        (Gal(K^ab/K); over Q it is Zhat^* = Gal(Q^ab/Q)), of TYPE I,
+                        partition function zeta(beta). SPONTANEOUS SYMMETRY BREAKING.
+    ==> the Galois SHEET/embedding label lives ONLY in the beta>1 (type I) phase; the
+        type-III_1 thermal clock lives ONLY in the beta<=1 (symmetric) phase. DISJOINT.
+
+------------------------------------------------------------------------------
+(I) CHANNEL (a) TIME = sigma^omega_t : datum of the chosen state -- of WHICH state?
+------------------------------------------------------------------------------
+  -- TRACIAL omega (rho=I/2): the OBJECT's own state (B721: type II_1, Delta=1) --
+     t=0.7: max|sigma_t(a)-a| = 4.59e-41  -> sigma_t = id
+     t=2.9: max|sigma_t(a)-a| = 0.0  -> sigma_t = id
+     => tracial omega: TRIVIAL flow, NO clock. (The object supplies no time -- B721.)
+
+  -- NON-tracial omega (rho=Gibbs, beta=1, H=diag(0,1)): a thermal state --
+     rho = diag(0.73106, 0.26894)
+     t=0.7: max|sigma_t(a)-a| = 1.37 ; a[0,1]->(0.7648 + 0.6442j)  (rotates at rate beta*(E1-E0)=1.0)
+     t=2.9: max|sigma_t(a)-a| = 3.97 ; a[0,1]->(-0.971 + 0.2392j)  (rotates at rate beta*(E1-E0)=1.0)
+     KMS_1 (numeric): omega(x sigma_{-i}(y))=2.26894 ; omega(y x)=2.26894 ; |diff|=0.0
+     KMS_1 (symbolic, generic diag(a,b)): omega(x sigma_{-i}y)-omega(yx) simplifies to 0
+     (F1) FINITE M_2 is TYPE I: the flow is IMPLEMENTED by rho^{it} IN M_2 (a unitary,
+          U U^*=I residual=1.15e-41) => the modular flow is INNER. A finite type-I algebra has
+          Aut=Inn (Connes) => it is NEVER type III. So this toy ILLUSTRATES sigma_t and
+          KMS_1; it does NOT exhibit the type-III thermal clock.
+
+  WHERE THE GENUINE TYPE-III CLOCK ACTUALLY LIVES (probe2 + CMR, WebFetched):
+     the type-III_1 thermal clock is the UNIQUE KMS state at 0<beta<=1 of the CMR
+     system -- a SEPARATE, infinite-dim state. Crucially it is Galois-SYMMETRIC:
+     one state, no extremal simplex => it carries NO sheet/embedding label at all.
+
+  VERDICT (a): TIME = sigma^omega_t is a datum of a state; the type-III thermal arrow
+     is carried by the UNIQUE, SYMMETRIC beta<=1 state (type III_1). [rung: computed
+     formula + KMS_1; type-III_1 identity is CMR/Neshveyev-cited.] KEY: this state has
+     NO Galois label -- so it CANNOT also supply channels (b)/(c). (See section V.)
+
+------------------------------------------------------------------------------
+(II) CHANNEL (b) CHIRALITY = the being-Z/2 SHEET (B713): a datum of omega?
+------------------------------------------------------------------------------
+  Tomita J is omega-INDEPENDENT: verify S(xOmega)=x^*Omega with J(xi)=xi^*, for
+     rho=I/2 (residual=0.0) and rho=diag(.8,.2) (residual=0.0) => SAME antilinear J.
+     So CHIRALITY is NOT 'J of omega' (J is a fixed canonical c-swap FRAME, M<->M').
+
+  (F2) The object's OWN chirality torsor (B713 probe 2), recomputed -- disc(-3),
+       NOT the golden disc-5 pair (that was B700, a DIFFERENT V4 leg):
+       chirality min poly (fiber of X(4_1) over x=2): y**2 - 3*y + 3 ; discriminant = -3 (=> field Q(sqrt-3))
+       roots rho_geom, rhobar_geom = (3 -+ sqrt(-3))/2 = 3/2 - sqrt(3)*I/2 , 3/2 + sqrt(3)*I/2 (verified roots).
+       disc = -3 < 0 => NO real root => NO Q-rational point => a genuine Z/2 TORSOR.
+       Galois c (complex conjugation): c(rho_geom) = 3/2 + sqrt(3)*I/2 = rhobar_geom -> SWAPS the two
+       roots, simply transitively, NO fixed point (verified: c(rho)!=rho).
+       => being-Z/2 = Gal(Q(sqrt-3)/Q) is the object's OWN chirality torsor (B713).
+
+  (F2) RELATION to the CMR extremal-KMS torsor (per B721 probe 2 -- NOT identity):
+       CMR's beta>1 sheet label is Gal(K^ab/K), K=Q(sqrt-3): INFINITE PROFINITE abelian.
+       Our being-Z/2 = Gal(K/Q) is the ORDER-2 QUOTIENT, over base Q. In
+            1 -> Gal(K^ab/K) -> Gal(K^ab/Q) -> Gal(K/Q) -> 1
+       being-Z/2 is the QUOTIENT and the CMR torsor is the KERNEL -- COMPLEMENTARY, not
+       nested. Being-Z/2 does NOT embed in the CMR torsor; it ACTS on it by the
+       CM/anticyclotomic INVERSION (g -> g^{-1} on the anticyclotomic part). [B721]
+       So CHIRALITY = the being-Z/2 SHEET is the object's own torsor bit; it is the
+       SYMMETRY that the beta>1 phase spontaneously BREAKS (it acts on, is not, the label).
+
+  VERDICT (b): CHIRALITY = the being-Z/2 sheet (B713, disc-3 torsor). To be a datum of a
+     STATE it must be READ as a broken-symmetry (extremal) label -- which exists ONLY in
+     the CMR beta>1 phase, and there the states are TYPE I (not the type-III clock of a).
+     [rung 2: B713 torsor recomputed + B721 CM-inversion relation + CMR/Neshveyev type.]
+
+------------------------------------------------------------------------------
+(III) CHANNEL (c) VALUES = the torsor BASEPOINT (B701): a datum of omega?
+------------------------------------------------------------------------------
+  DISCRETE part: the object canonically fixes the torsor (the ambiguity), NOT a
+     basepoint (B701, OBSTRUCTED). Choosing an EXTREMAL beta>1 state = choosing the
+     basepoint in the Galois torsor. This is the SAME datum as (b), read in the value-
+     fiber -- and, like (b), it exists ONLY in the beta>1 TYPE-I (broken) phase.
+
+  (F3) CONTINUOUS part -- dimension count with the CORRECT label size:
+     the state freedom of the arithmetic KMS system is
+        { extremal Galois label in Gal(K^ab/K) }  x  { temperature beta in R_+ }.
+     Gal(K^ab/K) is INFINITE PROFINITE abelian = TOTALLY DISCONNECTED => ZERO real
+     (manifold) dimensions (no continuous parameter, though infinitely many points).
+     dim_R(Galois label) = 0 (profinite, totally disconnected)
+     dim_R(temperature beta) = 1 ;  total continuous state-freedom = 1 real.
+     SM value freedom (B706) = R^{19..26} (Yukawas/mixings) -- a 19..26-real MANIFOLD.
+     => KIND + DIMENSION MISMATCH stands: a (profinite label) x (one real beta) does NOT
+        carry an R^{19-26} of continuous values. [B706 at the operator-algebra level.]
+
+  VERDICT (c): the DISCRETE value-basepoint = the extremal (beta>1, type I) label; the
+     SM's CONTINUOUS 19-26 values do NOT fit (profinite label x 1 real << R^{19-26}).
+     [rung 2: B701 torsor + B706 kind/dimension mismatch, corrected label size.]
+
+------------------------------------------------------------------------------
+(IV) CHANNEL (d) SPACE/MULTIPLICITY = Dehn slope (B718) / covering degree (B719):
+     does it fit the state-picture?
+------------------------------------------------------------------------------
+  A STATE omega is a positive normalized functional on a FIXED algebra M. A covering
+  (B719) is a finite-index SUBFACTOR N<M (degree=index); a Dehn slope (B718) is a choice
+  of QUOTIENT/representation. Both change the ALGEBRA -- not functionals on a fixed M.
+
+  DISCRIMINATOR (Jones): the unique trace tau on the hyperfinite II_1 factor R restricts
+  to subfactors of EVERY Jones index in {4cos^2(pi/n):n>=3} U [4,inf) -- ONE state, ALL
+  indices. So fixing omega leaves the covering degree/index completely FREE.
+     Jones index 4cos^2(pi/n), n=3..8: 1.0, 2.0, 2.618, 3.0, 3.247, 3.4142 , ... then the continuum [4,inf).
+
+  VERDICT (d): SPACE/MULTIPLICITY does NOT fit the one-state picture -- it is a choice of
+     ALGEBRA/representation/subfactor (B718 slope, B719 degree), a DIFFERENT category of
+     freedom from a state ON a fixed algebra. [rung 2: Jones-index fact + B718/B719.]
+
+------------------------------------------------------------------------------
+(V) THE PHASE-TRANSITION OBSTRUCTION: is there ONE state carrying (a) AND (b)/(c)?
+------------------------------------------------------------------------------
+  The named model (Bost-Connes / CMR over Q(sqrt-3)) has a phase transition at beta=1
+  (WebFetched: Neshveyev 0907.1456 + Bost-Connes/Laca). The factor TYPE and the Galois
+  label are on OPPOSITE sides of it:
+
+     phase        | # KMS states | Galois/sheet label      | factor TYPE | modular flow
+     -------------+--------------+-------------------------+-------------+--------------
+     0<beta<=1    | UNIQUE       | NONE (symmetric)        | III_1       | type-III (arrow)
+     beta>1       | simplex,     | FREE TRANSITIVE          | I           | INNER (trivial
+                  | Galois-torsor| (Gal(K^ab/K)) = the sheet|             |  outer class)
+
+  By Connes' OWN cited criterion (trivial outer class <=> semifinite/type I/II):
+     * the beta<=1 III_1 state HAS the type-III thermal arrow (channel a) but NO sheet.
+     * each beta>1 type-I state HAS the sheet (channels b,c) but its modular flow is
+       INNER (trivial outer class) => it is NOT the type-III thermal clock of channel a.
+  These are NECESSARILY TWO DIFFERENT STATES in TWO DIFFERENT TEMPERATURE PHASES.
+  => NO single chosen omega supplies BOTH (a) and (b)/(c). The round-1 'tight positive
+     core' (a,b,c-discrete = data of ONE omega) is FALSE for the named model.
+
+  Structural illustration of the SSB PATTERN (finite, type-I both sides -- shows only the
+  symmetric-vs-torsor split, NOT the type jump, which is the infinite system's theorem):
+     high-T analog: the SYMMETRIC state rho=I/2 is G-invariant (g rho g^*=rho, residual=0.0):
+        one state, no label -- the symmetric (III_1-like) phase.
+     low-T analog: the two EXTREMAL states e11,e22 form a G-torsor (g.e11=e22, residual=0.0),
+        NEITHER G-invariant -- the symmetry-BROKEN (type-I) phase; picking one = a sheet.
+     (This finite toy is type I on BOTH sides -- exactly why it can only exhibit the
+      symmetry-breaking PATTERN; the III_1-vs-I TYPE jump is the infinite CMR theorem.)
+
+==============================================================================
+THE EMISSIONS DICTIONARY (choice <-> free-parameter map, CORRECTED)
+==============================================================================
+
+  closing          omega-datum                          which state / level      rung
+  ---------------  -----------------------------------  -----------------------  ----
+  (a) TIME         modular flow sigma^omega (Delta)      UNIQUE beta<=1 state,    computed
+                   = type-III_1 thermal clock            TYPE III_1 (SYMMETRIC)   +CMR-cited
+  (b) CHIRALITY    being-Z/2 sheet (B713 disc-3);        an EXTREMAL beta>1        2 (B713+
+                   = broken-symmetry Galois label        state, TYPE I (BROKEN)   B721+CMR)
+  (c) VALUES disc  torsor BASEPOINT = the extremal label SAME beta>1 type-I state 2 (B701)
+      VALUES cont  SM's ~19-26 continuous reals          NO (profinite x 1 real)  2 (B706)
+  (d) SPACE/MULT   Dehn slope / covering degree          NOT a state: the ALGEBRA 2 (Jones+
+                   = a choice of the ALGEBRA/subfactor    (Jones: one trace,all i)  B718/719)
+
+  THE OBSTRUCTION (section V): channels (a) and (b)/(c) are carried by states in
+  DIFFERENT TEMPERATURE PHASES of the SAME arithmetic system -- (a) by the UNIQUE
+  symmetric type-III_1 state at beta<=1, (b)/(c) by the symmetry-BROKEN type-I extremal
+  states at beta>1. By Connes' outer-class criterion the type-I states have INNER modular
+  flow (no type-III arrow), and the III_1 state carries NO Galois label. So NO single
+  chosen omega supplies both. The 'observer = ONE chosen state' picture FAILS at its core.
+
+==============================================================================
+VERDICT
+==============================================================================
+OUTCOME = B  (channels do not fit ONE state -- now including the a-vs-(b,c) split).
+
+The emissions dictionary is a STRUCTURED PARTIAL fit, and the failures are precise:
+  1. (a) vs (b)/(c) -- TIME vs CHIRALITY/VALUES -- are NOT data of one state: they live
+     in the TWO DIFFERENT PHASES of the named CMR system (III_1 SYMMETRIC at beta<=1 vs
+     type-I BROKEN at beta>1), separated by the beta=1 SPONTANEOUS-SYMMETRY-BREAKING phase
+     transition. (WebFetched: Neshveyev 0907.1456 + Bost-Connes/Laca.) This REFUTES the
+     round-1 'one-state positive core'.
+  2. (c-continuous) -- the SM's R^{19-26} exceeds a (profinite Galois label) x (one real
+     beta): B706 at the state level, with the CORRECTED (profinite) label size.
+  3. (d) SPACE/MULTIPLICITY -- a choice of the ALGEBRA (subfactor/representation), a level
+     UP from a state on it (Jones index free of the state): B718/B719.
+
+SO 'the observer = ONE object, the state' is TOO SMALL. The observer is at least a
+  ( choice of ALGEBRA/representation : SPACE + SCALE, B718/B719 )
+    x ( choice of TEMPERATURE/PHASE beta : which side of the beta=1 transition )
+      x ( choice of STATE in that phase : the thermal clock OR the broken sheet/label ).
+The phase transition is itself part of the apparatus: it SEPARATES the observer's clock
+(type-III_1, symmetric) from the observer's HAND/sheet (type-I, broken). That seam is a
+SPONTANEOUS SYMMETRY BREAKING of the being-Z/2 (which ACTS on the CMR torsor by CM-
+inversion, B721) -- exactly the program's 'c-as-swap: the observer breaks the object's
+swap-symmetry by choosing a side' (B711/B713), now placed at a genuine KMS phase
+transition. Positive residue: honest, and SHARPER than round-1's false one-state core.
+
+FIREWALL: structural/operator-algebra + arithmetic only; no SM value; the choices
+(algebra, temperature/phase, state) are all FREE (B701) -- we built the apparatus and
+read the emissions GIVEN the choices; we did NOT derive any choice. Consistent with
+B685/B701/B706/B713/B717/B721. This CORRECTS the refuted round-1 positive core.
