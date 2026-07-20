@@ -1,0 +1,87 @@
+==============================================================================
+B733 PROBE 1 -- observer-space at DOOR 2 (A5 = PSL(2,F4) = PSL(2,O_3/(2)))
+==============================================================================
+|G| = |SL(2,F4)| = 60   (expected 60; char 2 => PSL=SL=PGL, center trivial)
+
+(0) CONJUGACY CLASSES of A5:
+    #classes = 5  (expected 5)
+    idx  order  size  rep-trace   label
+      0      1     1        0     1  (id)
+      1      2    15        0     2A (double-transposition)
+      2      3    20        1     3A (3-cycle)
+      3      5    12        w     5A
+      4      5    12      1+w     5B
+
+(a) c_2 = F4-Frobenius (w -> w^2) acting on A5:
+    c_2 is a bijective homomorphism G->G, of order 2  (VERIFIED on all pairs).
+    class permutation induced by c_2:
+       1  (id)                      -> 1  (id)                      [FIX]
+       2A (double-transposition)    -> 2A (double-transposition)    [FIX]
+       3A (3-cycle)                 -> 3A (3-cycle)                 [FIX]
+       5A                           -> 5B                           [SWAP-> 5B]
+       5B                           -> 5A                           [SWAP-> 5A]
+    => c_2 SWAPS the two order-5 classes (5A<->5B) and FIXES {1, 2A, 3A}.
+    => an INNER automorphism preserves every conjugacy class; c_2 moves 5A/5B,
+       so c_2 is OUTER.  Out(A5)=Z/2 (field automorphism) => c_2 GENERATES it.
+
+(b) CHARACTER TABLE of A5 (computed by Burnside class-sum eigenvalues):
+     dim  |         1        2A        3A        5A        5B
+       1  |         1         1         1         1         1
+       3  |         3        -1         0  (1+v5)/2  (1-v5)/2
+       3  |         3        -1         0  (1-v5)/2  (1+v5)/2
+       4  |         4         0         1        -1        -1
+       5  |         5         1        -1         0         0
+    (row-orthonormality of the computed table VERIFIED to 1e-6.)
+
+    irrep permutation induced by c_2  (chi |-> chi o c_2 = columns permuted by 5A<->5B):
+       chi_1  (row 0)  ->  chi_1  (row 0)   [FIX]
+       chi_3  (row 1)  ->  chi_3  (row 2)   [SWAP]
+       chi_3  (row 2)  ->  chi_3  (row 1)   [SWAP]
+       chi_4  (row 3)  ->  chi_4  (row 3)   [FIX]
+       chi_5  (row 4)  ->  chi_5  (row 4)   [FIX]
+
+    the two 3-dim irreps on the order-5 classes (5A,5B):
+       chi_3 (row 1):  5A=(1+v5)/2  5B=(1-v5)/2
+       chi_3 (row 2):  5A=(1-v5)/2  5B=(1+v5)/2
+    => the two 3-dim irreps are Gal(Q(sqrt5)/Q)-CONJUGATE (char = (1+-sqrt5)/2 on 5-cycles),
+        file over Q(sqrt5) = HEARING, and c_2 SWAPS them.  chi_1,chi_4,chi_5 are FIXED.
+
+(c) BEING <-> HEARING COUPLING (the key structural finding):
+    - the ONE nontrivial element c_2 of Out(A5)=Z/2 comes from BEING = Q(sqrt-3):
+      it is the Frobenius w->w^2 of O_3/(2)=F4, i.e. Gal(Q(sqrt-3) locally) mod 2.
+    - c_2 acts NON-TRIVIALLY on the BEING side (swaps the two order-5 classes 5A/5B), AND
+    - c_2 acts NON-TRIVIALLY on the HEARING side (swaps the two Q(sqrt5) 3-dim irreps).
+      being-side nontrivial:   True   (5A/5B swapped)
+      hearing-side nontrivial: True   (the two 3-irreps swapped)
+    - Out(A5) has ORDER 2: there is exactly ONE nontrivial swap-bit. Since it moves BOTH
+      the being-structure and the hearing-structure, the two orientations CANNOT be chosen
+      independently -- they are LOCKED to the single bit. (If Out were (Z/2)^2 they could be
+      independent; being Z/2 forces the lock, and the lock is non-vacuous because c_2 fixes
+      NEITHER side -- it genuinely orients both at once.)
+    => the single observer bit at door 2 SIMULTANEOUSLY orients being (Q(sqrt-3)) and
+       hearing (Q(sqrt5)).  being . hearing meet in the one Z/2.
+
+--- adversarial verification ---
+  [S1] the two 3-irreps are the UNIQUE irreps separating 5A from 5B => the being-swap
+       (on classes) MECHANICALLY forces the hearing-swap (on irreps) via chi|->chi o c_2.
+       The coupling is FORCED, not coincidental.
+  [S2] |Aut(A5)| = 120 (computed in-sandbox), |Inn(A5)| = 60 (A5 centerless),
+       => |Out(A5)| = 120//60 = 2.  Out(A5) is EXACTLY Z/2.
+       So <c_2> = Out(A5) fully; there is NO further outer bit at door 2. bit-count = 1 EXACT.
+  [S3] the 3-irrep 5-cycle value satisfies x^2 - x - 1 = 0 EXACTLY (golden, Q(sqrt5)) --
+       an exact quadratic irrationality, not a small-group numerical coincidence (E20 clear).
+
+(d) OBSERVER-SPACE at door 2 = torsor of c_2-symmetry-breakings:
+    the arithmetic outer-symmetry is <c_2> = Out(A5) = Z/2  (|Out|=2 computed above).
+    an observer = a section = a choice of a side of Out(A5) = ONE binary swap-choice.
+    observer-space = Z/2 torsor => dim_{F2} = 1 bit.  (BOUNDED, small.)
+
+==============================================================================
+VERDICT (door 2):
+  swap table:  c_2 SWAPS {5A<->5B} and {chi_3 <-> chi_3'}; FIXES {1,2A,3A} and {chi_1,chi_4,chi_5}.
+  being<->hearing: the SINGLE Out(A5)=Z/2 bit couples the being-swap (5A/5B, Q(sqrt-3)-Frobenius)
+                   to the hearing-swap (the two Q(sqrt5) 3-irreps) -- both nontrivial, one bit.
+  bit-count:   1 bit.
+  OUTCOME A: a SMALL BOUNDED F2-structure -- exactly 1 observer bit at door 2, coupling
+             being & hearing.  NOT larger/unbounded.
+==============================================================================

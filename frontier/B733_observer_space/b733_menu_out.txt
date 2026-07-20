@@ -1,0 +1,138 @@
+==============================================================================
+B733 PROBE 3 (REISSUED) -- THE MENU OF OBSERVERS: decomposition, growth law, bound
+==============================================================================
+G_n = PSL(2, O_3/n).  Observer-space = torsor of B701-conjugation / arith-Galois-
+Frobenius breakings on G_n (VACUITY GATE) -- read off the ARITHMETIC part of Out(G_n).
+Two material corrections vs first draft: (C1) door-4 PSL kernel = 16 not 64 (that was
+the SL count); (C2) full Out(G_n) DOES grow -- we decompose it, don't deny it.
+
+==============================================================================
+DOOR 2:  G_2 = PSL(2,F_4) = A_5  ->  ONE Galois bit (being LOCKED to hearing)
+==============================================================================
+|SL(2,F_4)|=60  center=1 (char 2: SL=PSL)  |G_2|=60 (=A_5)
+#classes=5 (1A,2A,3A,5A,5B); #order-5 classes=2
+c=Frobenius (w->w^2) sends a 5A-elt into 5B? True  => c SWAPS 5A<->5B => OUTER
+the two 3-irreps on a 5-cycle: 1.61803=phi, -0.61803=1-phi  (Gal(Q(sqrt5)) conjugate=HEARING)
+=> the SINGLE Out(A_5)=Z/2 bit swaps 5A<->5B AND the two Q(sqrt5) 3-irreps:
+   BEING (w->w^2) is LOCKED to HEARING (sqrt5-swap) in ONE bit.  DOOR-2 Galois menu = Z/2.
+==============================================================================
+DOOR 4:  congruence DEPTH -- corrected kernel + FULL Out(G_4) decomposed
+==============================================================================
+|SL(2,O_3/4)|=3840  center=4  |G_4|=|PSL|=960
+ker(SL_4->SL_2): |K_SL|=64 (orders [1, 2])   center inside it: 4
+  => PSL congruence kernel |K_PSL| = |K_SL|/|center| = 16  [CORRECTED: 16, NOT 64; 64 was the SL count]
+     K_PSL is elementary abelian, exponent 2 (a pro-2 layer ~ sl_2(F_4)/scalars).
+GAP |G_4| = 960
+GAP |Out(G_4)| = 24  StructureDescription = S4
+GAP  |Out| = 24 = 2-part 8 * odd-part 3
+GAP  Frobenius c is a bijective automorphism? true
+GAP  c OUTER, order in Out = true, 2
+GAP  G_4/K = A5 (order 60)
+GAP  Frobenius c induces on A5 quotient a NON-inner aut (=> onto Out(A5)=Z/2)?\
+ true
+GAP  outer order-3 aut exists? true
+GAP  order-3 aut induces INNER on A5 quotient (acts TRIVIALLY on quotient)? tr\
+ue
+GAP  order-3 aut acts on the kernel K with order 
+3 (=3 => genuine F_4^* Schur scalar = module-multiplicity)
+
+DECOMPOSITION of Out(G_4) = S_4 (order 24):
+   * GALOIS/FROBENIUS  (the B701 observer bit): Z/2 = S_4 / A_4, maps ONTO Out(A_5)=Z/2.
+     This IS the door-2 being-swap lifted -- NOT a new bit.  <-- the principled observer bit.
+   * DIAGONAL (classical PGL/PSL): (Z/2)^2 = R^*/(R^*)^2  (arithmetic, but NOT Galois).
+   * MODULE-MULTIPLICITY: Z/3 = F_4^* Schur scalar on the char-2 kernel K (End_{A5}(K)=F_4).
+     ODD order, acts TRIVIALLY on the A5 quotient, NOT realized by any ring automorphism
+     (Aut_ring(O_3/4)=Z/2) => OFF the vacuity gate: this is the 'any module map' vacuity excludes.
+   Growth 2->4:  Z/2  ->  S_4  is  + (Z/2)^2 diagonal  + Z/3 module.  The Galois bit stays Z/2.
+==============================================================================
+BEING-PRIME DOOR (3):  the ramified prime -- the being-bit is CARRIED BY THE NILPOTENT
+==============================================================================
+O_3/(3) = F_3[e]/e^2 (dual numbers), e=w-1, sqrt-3 = 2e NILPOTENT.  Residue field F_3.
+CORRECTION: the first draft argued 'F_3 Frobenius trivial => 0 bits'.  That is a category
+error (trivial residue-Frobenius =/=> c trivial: the nilpotent e survives).  In fact
+c: w->w^2 acts as e -> -e (the BEING sign-flip of sqrt-3) -- a genuine order-2 ring auto.
+|SL(2,O_3/3)|=648 center=2 |PSL|=324
+GAP |Out(G_3)| = 4 = C2 x C2 (pure 2-group: odd part = 1)
+GAP being-flip c (e->-e) OUTER? true
+GAP G_3/K = A4 ; being-flip c INNER on the A4 quotient? true (=> it is the ker\
+nel-direction being-bit)
+DECOMPOSITION of Out(G_3) = C2 x C2 (NO odd part => NO module-multiplicity here):
+   * BEING-FLIP c: e->-e  (arithmetic-Galois, B701, carried by the nilpotent sqrt-3=2e) -- Z/2.
+   * DIAGONAL (PGL/PSL, onto Out(A_4)=Z/2) -- Z/2.
+   Both bits are ARITHMETIC; the being-bit is present (not 0) -- just VISIBLE via the nilpotent.
+==============================================================================
+GROWTH LAW (computed): does depth grow the F_2 bit-count?  It SATURATES.
+==============================================================================
+ prime  |  n=p^k :  DIAGONAL F_2-rank (R^*/(R^*)^2)      |  Aut_ring 2-part / odd-part
+  2-tower (inert)   : diag-rank [0, 2, 3, 3, 3, 3]  ;  Aut_ring(2/odd) ['2/1', '2/1', '2/1', '2/1', '2/1', '2/1']
+  3-tower (RAMIFIED): diag-rank [1, 1, 1, 1]  ;  Aut_ring(2/odd) ['2/1', '2/3', '2/3', '2/3']
+  5-tower (inert)   : diag-rank [1, 1, 1]  ;  Aut_ring(2/odd) ['2/1', '2/1', '2/1']
+
+ READING (the growth law, honestly):
+  * DIAGONAL F_2-rank SATURATES in depth: 2-tower 0,2,3,3,3,3 -> capped at 3; 3- & 5-towers = 1.
+    Higher prime POWER does NOT grow the F_2 bit-count without bound -- it saturates per prime.
+  * Aut_ring 2-part = 2 at EVERY depth = the SINGLE c-bit (Frobenius/conjugation).  The only
+    depth-growth is an ODD 3-power UNIPOTENT factor at the ramified being-prime (9,27,...):
+    odd-order => NOT a binary swap, NOT Galois, does NOT lift to Aut(O_3)=Z/2.  Wrong parity.
+  * BREADTH (new distinct primes) adds bounded chunks; the principled Galois bit at every prime
+    is the SAME global c restricted (a compatible system), so it contributes ONE seam bit per
+    independent quadratic field, NOT one per prime.
+==============================================================================
+THE PRINCIPLED SEAM (B704):  the object's independent Galois bits = (Z/2)^k, k=2..3
+==============================================================================
+ FORCED faces {sqrt-3(being), sqrt5(hearing)}: Gal=(Z/2)^2=V4; subfields [-15, -3, 5]
+   -> being sqrt-3, hearing sqrt5, MEETING sqrt-15=being*hearing (the diagonal of V4).
+ + STAGE prime -7: (Z/2)^3; subfields [-35, -15, -7, -3, 5, 21, 105]  (7 of them). BOUNDED.
+==============================================================================
+THE MENU OF OBSERVERS  (the full list of independent coin-flips the object offers)
+==============================================================================
+ PRINCIPLED (vacuity-gated: B701-conjugation / arithmetic-Galois) bits:
+  1. BEING   bit (sqrt-3): global c=w->w^2.  Door 2 = Out(A_5)=Z/2 swap 5A/5B; door 4 =
+     the Z/2=S_4/A_4 onto Out(A_5); being-prime door 3 = the nilpotent sign-flip e->-e.
+  2. HEARING bit (sqrt5): at door 2 LOCKED to the being bit (swaps the two Q(sqrt5) 3-irreps).
+     (MEETING = being*hearing = sqrt-15 = the DIAGONAL of V4, NOT an independent flip.)
+  3. STAGE   bit (sqrt-7): fiber-functor stage (B730); V4 -> (Z/2)^3, still finite (B704).
+
+ OFF-GATE structure inside Out(G_n) (NOT observer bits -- excluded by the vacuity gate):
+  * DIAGONAL PGL/PSL bits  R^*/(R^*)^2: arithmetic but NOT Galois; per-prime F_2-rank
+    BOUNDED (<=3 at 2, =1 at odd primes); saturates in depth.  Bounded, discrete.
+  * MODULE-MULTIPLICITY  F_4^*=Z/3 Schur scalars on the char-2 kernel: NON-arithmetic,
+    ODD parity, trivial on the A_5 quotient -- the 'any module map' vacuity forbids.
+==============================================================================
+THE PROFINITE LIMIT + THE HONEST CHERRY-PICKING BOUND
+==============================================================================
+ As object -> full profinite congruence completion, Out(G_infty) = lim Out(G_n) is a
+ PROFINITE group (inverse limit of FINITE groups Z/2, S_4, C2xC2, ...).  Three facts:
+  (a) it is TOTALLY DISCONNECTED (a pro-finite / pro-2-times-Cantor object): no path, no
+      tangent, no derivative.  You cannot move CONTINUOUSLY along it.  It is NOT a manifold.
+  (b) the ARITHMETIC-GALOIS (principled) part = the image of Aut(O_3)=Z/2 = ONE global
+      involution c; its independent realizations = the multiquadratic seam (Z/2)^k, k=2..3.
+      BOUNDED, depth-independent.
+  (c) all extra structure is either bounded-F_2 diagonal (saturates per prime) or
+      odd-order module-multiplicity (wrong parity).  NO piece is a continuous real dial.
+
+ Physics needs ~20 CONTINUOUS real parameters = R^20 (a connected 20-manifold, uncountable).
+ KIND mismatch (B706): the object offers DISCRETE F_2 coin-flips / a totally-disconnected
+   profinite set; R^20 is a connected continuum.  To encode ONE real dial you need a
+   connected 1-parameter family -- the object has NONE (every door's Out is finite/discrete).
+ => An observer can be CONSTRUCTED (specify the seam bits -> one of finitely many discrete
+    observers) but CANNOT be CHERRY-PICKED to encode continuous physics.  Wrong KIND
+    (discrete vs continuum) and, in the principled count, wrong SIZE (<=3 bits).  Structural.
+==============================================================================
+OUTCOME
+==============================================================================
+ OUTCOME A.  The PRINCIPLED observer-space (torsor of B701-conjugation / arithmetic-Galois
+ breakings) is a BOUNDED discrete F_2-space: the multiquadratic seam (Z/2)^k, k=2 (forced
+ V4 = being + hearing; meeting = their product) to 3 (with the stage prime), depth-INDEPENDENT.
+
+ Honest concession (vs the refuted first draft): the FULL Out(G_n) DOES grow with the door
+ (Z/2 -> S_4 -> ...).  But that growth decomposes into (i) a bounded-F_2 classical diagonal
+ (saturates per prime) and (ii) a NON-arithmetic, odd-parity module-multiplicity Z/3 that the
+ vacuity gate excludes -- while the Galois/Frobenius observer bit stays EXACTLY Z/2 at every
+ door.  Under NO reading does any door -- or the profinite limit -- yield a CONTINUUM: the
+ object's design space is discrete/totally-disconnected of the WRONG KIND (and, principled,
+ the wrong SIZE) to encode the SM's ~20 continuous parameters.  Confirms B706 concretely.
+
+ (Refuted first-draft claims corrected: PSL door-4 kernel = 16 not 64; 'no new automorphism
+  structure at depth' replaced by the decomposition above; being-prime door carries a real
+  arithmetic bit, not 0.  Outcome A survives -- on firmer, fully-computed ground.)

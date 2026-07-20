@@ -1,5 +1,20 @@
 # Changelog
 
+## B733 — the menu of observers is a BOUNDED discrete 𝔽₂-space (never a continuum)
+- Owner: map the observer-space at each door. Answers "can we cherry-pick an observer?" + confirms B706 at the congruence doors. All 3 probes OUTCOME A.
+- Door 2 (A₅): exactly ONE 𝔽₂ bit = Out(A₅); it couples BEING (5A/5B) to HEARING (the two ℚ(√5) 3-irreps) — being & hearing meet in the one bit.
+- Growth: BOUNDED, depth-independent. Aut(O₃)=ℤ/2 -> 1 arithmetic bit all depths; the full seam = V₄ (up to 3 with √−7); deeper = finer resolution of the SAME conjugation bit.
+- Honest concession: the FULL group grows (Out(G₄)=S₄) but decomposes into the c-bit lifted + a diagonal 𝔽₂-rank that SATURATES [0,2,3,3,3,3] + odd ℤ/3 — even the full structure is bounded, never continuous.
+- Answer: observers are constructible (finite bits) but not cherry-pickable to encode continuous physics (wrong kind + bounded size). 4 locks; nothing to CLAIMS. cc2 cross-check pending.
+
+## B734 — m004 IS CONGRUENCE at level (2)³=(8) — CORRECTING B731
+- Correction of a banked result. B731's 'non-congruence' was WRONG (E22: shallow level-check stopping at 4).
+- cc2 computed + cc verified: PSL image-index 6 at level 2, 6 at level 4, 12 at level (2)³=(8) ⇒ m004 IS congruence, level (8).
+- The sisters at successive 2-adic depths: m003 (non-knot) at (2)¹ (A₅); m004 (knot) at (2)³=(8). One 2-adic congruence tower.
+- Two errors caught in this thread: E21 (SL/PSL center over-read → wrong level (4)); E22 (shallow check → wrong 'non-congruence'). Truth: congruence, level (8).
+- FLIPS: B731's NO-GO/no-finite-observer — RETRACTED (header on B731; test_b731 removed → test_b734). SURVIVES: B732 (B701=Out(A₅) at m003's level 2) result stands, framing corrected.
+- Caveat: Serre-defying — computation solid (verified twice), pending external literature cross-check. 2 locks; nothing to CLAIMS. Credit cc2.
+
 ## B732 — B701's conjugation IS the outer automorphism of A₅ at the sister's congruence level
 - The tractable positive surviving B731 (cc2's next-stage 2, on the sister m003). Pure math; verified in-sandbox.
 - m003 congruent at level (2), PSL(2,O₃)/Γ((2))≅A₅. Complex conjugation ω↦ω² reduces mod 2 to the 𝔽₄-Frobenius, which SWAPS the two 5-cycle classes of A₅ ⇒ the OUTER automorphism.

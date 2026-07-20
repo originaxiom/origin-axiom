@@ -14972,11 +14972,12 @@
     "firewall"
    ],
    "refs": [
-    "B701"
+    "B701",
+    "B734"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
-   "status": "open",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B732": {
@@ -14992,11 +14993,54 @@
    "refs": [
     "B701",
     "B721",
-    "B731"
+    "B731",
+    "B734"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B733": {
+   "slug": "observer space",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B701",
+    "B704",
+    "B706",
+    "B734"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B734": {
+   "slug": "m004 is congruence",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "torsion"
+   ],
+   "refs": [
+    "B701",
+    "B731",
+    "B732"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B74": {
