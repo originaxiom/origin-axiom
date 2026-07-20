@@ -14961,6 +14961,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B731": {
+   "slug": "object observer noncongruence",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B701"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [

@@ -1794,6 +1794,6 @@ on recovery).
 - [>] R26-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R25-2)
 - [>] R26-3: H-EAR's residual formal statement — carry the formal note (from R25-3)
 - [ ] R26-4: the TOP-LEVEL DISPOSITION statement — the owner DEFERRED it (chose to pursue the remaining math doors); the earned computed basis (B727/B728/B729: the SM-bridge hope closed, generic both seats) is banked and ready to state whenever the owner elects (owner: owner; source: the B727/B728 convergence + the disposition fork)
-- [ ] R26-5: the two bigger un-opened math doors — the OBJECT-LEVEL observer (m004's Bianchi PSL(2,O₃) arithmetic + cusp, cc2's long-flagged catch; cheap substep = confirm m004 trace field/Bianchi vs Neumann–Reid/Maclachlan–Reid) and arithmetic Chern–Simons (B707/B708); pursue as pure math under the corrected framing (owner: cc; source: B723 catch + B729 standing-open)
+- [>] R26-5: the object-level observer door — RESOLVED (B731): m004 the KNOT is NON-CONGRUENCE (no finite congruence observer; go/no-go run rigorously, NO-GO for that premise); the congruence structure belongs to the SISTER m003 (level 2, A₅). Remaining tractable positive: B701 = outer aut of A₅ at m003's level (2), on m003. Arithmetic Chern–Simons (B707/B708) still un-opened (owner: cc; source: B731 + B729)
 
 anchor-commit: `7e40985` (Review 26)
