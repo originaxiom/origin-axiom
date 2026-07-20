@@ -14886,6 +14886,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B728": {
+   "slug": "stokes resummation",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B701",
+    "B722",
+    "B726",
+    "B727"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
