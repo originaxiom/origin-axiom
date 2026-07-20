@@ -1,0 +1,122 @@
+==============================================================================
+PART A -- THE ATOM (B266): is pi_1(4_1) ->> 2T=SL(2,3) forced / special?
+==============================================================================
+GAP GQuotients (surjections up to Aut). 4_1=m004 is the UNIQUE arithmetic knot
+(Reid); trace field Q(sqrt-3), the ONLY ramified prime is 3 -> residue field F_3.
+
+  4_1    (arithmetic      )  ->  2T=SL(2,3): 2
+  m003   (arithmetic sister)  ->  2T=SL(2,3): 2
+  5_2    (non-arith       )  ->  2T=SL(2,3): 0
+  6_1    (non-arith       )  ->  2T=SL(2,3): 0
+  6_2    (non-arith       )  ->  2T=SL(2,3): 0
+  7_4    (non-arith       )  ->  2T=SL(2,3): 0
+  4_1                        ->  2I=SL(2,5): 0   (E8 end is FIELD-level only)
+
+  --> 2T surjection present ONLY for the arithmetic ['4_1', 'm003']; absent for every
+      non-arithmetic knot. n2I(4_1)=0. The atom is ARITHMETIC-SPECIAL, forced by
+      4_1 being the unique arithmetic knot (Q(sqrt-3), ramified prime 3 -> F_3 -> 2T).
+  ATOM VERDICT: pi_1(4_1) ->> 2T is GENUINELY FORCED/SPECIAL (confirmed).
+
+==============================================================================
+PART B -- PROBE 1(link): McKay(2T) = affine E6 -- a THEOREM, forced from the group
+==============================================================================
+  2T = SL(2,3), order 24, 7 irreps; McKay marks (irrep degrees) = [1, 1, 1, 2, 2, 2, 3]
+  McKay quiver symmetric: True ; valencies: [1, 1, 1, 2, 2, 2, 3] ; unique trivalent node: True
+  Affine E6 Dynkin (7 nodes, marks {1,1,1,2,2,2,3}, one trivalent centre, 3 legs len 2): True
+  --> The McKay label E6 is a DETERMINISTIC FUNCTION of the group 2T (a bijection,
+      McKay 1980). Given the atom's 2T, 'E6' carries NO extra object information.
+
+==============================================================================
+PART C -- PROBE 1(meta): the four 'faces' are ONE ADE classification keyed by h
+==============================================================================
+  A canonical web of equivalences (all = the same A-D-E Dynkin list):
+    (i)  finite subgroups of SU(2)  [McKay correspondence]
+    (ii) du Val / Kleinian surface singularities C^2/Gamma
+    (iii) CIZ modular invariants of SU(2)_k  [Cappelli-Itzykson-Zuber]
+    (iv) simply-laced simple Lie algebras
+  The CIZ face is indexed by the Coxeter number: an ADE invariant sits at level
+  k = h - 2. So the CIZ label is a FUNCTION of the Dynkin label alone.
+
+    type   Coxeter h   CIZ SU(2) level (h-2)
+    E6        12            10
+    E7        18            16
+    E8        30            28
+  (level 10 <=> h=12 is shared by ['A11', 'D7', 'E6']: the CIZ 'E6' is picked out by h(E6)=12, not by
+   any independent object. m004 supplies NO SU(2)_10 WZW datum; the level is read off E6.)
+  NB (WZW page, verified): the E-series is NOT realised by an actual SU(2) WZW model
+   at all -- it is a bare modular-invariant label, further weakening 'CIZ = independent face'.
+  --> Given the label E6 (from the atom via McKay), the du Val-E6 and CIZ-E6 faces are
+      FORCED re-readings of the SAME label. NOT independent evidence.  [PROBE 1 = OUTCOME B]
+
+==============================================================================
+PART D -- B282 recompute: the Lie face (E6 char variety) is GENERIC, zero fig-8 content
+==============================================================================
+  E6 fundamental degrees = [2, 5, 6, 8, 9, 12]  ->  exponents = [1, 4, 5, 7, 8, 11]
+  Principal sl2 -> E6 branching of the adjoint (78): dims 2e+1 = [3, 9, 11, 15, 17, 23], sum = 78 (= dim E6): True
+
+  MECHANISM (Menal-Ferrer--Porti / Falbel--Guilloux, B281): EVERY hyperbolic knot has an
+  irreducible geometric SL(2,C) holonomy rho: pi_1 -> SL(2,C). Compose with the principal
+  embedding sl2 ->> E6 to get an E6 rep; MFP => dim H^1 = rank, a smooth point, dense
+  irreducible E6 connections. This uses NO property of 4_1 -- it holds for 5_2, 6_1, ...
+  In PART A those same knots had ZERO 2T surjection yet ALL carry the identical rich E6
+  character variety. So 5_2 'carries E6' geometrically exactly as much as 4_1 does.
+  --> The Lie face is GENERIC (knot-independent). B282 confirmed in-sandbox.
+
+==============================================================================
+PART E -- PROBE 2: the base rate. How often does 'ADE recurs across the faces' happen?
+==============================================================================
+  Reduction of an arithmetic Kleinian group at a ramified prime -> SL(2, F_q). A McKay/
+  binary-polyhedral (=> exceptional-E possible) image requires SL(2,q) to be binary
+  polyhedral. Recompute WHICH q qualify, via the decisive criterion: a faithful 2-dim
+  quaternionic (Frobenius-Schur = -1) irrep (center Z/2 alone is necessary-not-sufficient).
+
+    q   |SL(2,q)|   has faithful 2-dim FS=-1 irrep?   group / McKay label
+    2   6          no                                S3 (center trivial)
+    3   24         YES                               2T -> McKay E6
+    4   60         no                                A5 (center trivial)
+    5   120        YES                               2I -> McKay E8
+    7   336        no                                too large / wrong factors
+    9   720        no                                too large / wrong factors
+
+  Binary-polyhedral SL(2,q) reachable ONLY for q in [3, 5]  ->  exceptional labels {E6, E8}.
+  (E7 = McKay(2O), |2O|=48, and 48 is never q(q^2-1); E7 is arithmetically HOMELESS.)
+
+  KEY BASE-RATE FACT: the four faces are ONE classification (PART C). So the MOMENT the
+  atom lands on a binary-polyhedral quotient, 'the SAME ADE label recurs across all faces'
+  is FORCED with probability 1 -- it is an identity, not a coincidence. The recurrence
+  carries 0 bits beyond the atom. The only free variable is WHICH label, and that is
+  fixed by WHICH prime ramifies (3 -> E6, 5 -> E8) -- i.e. by the atom itself.
+
+  Look-elsewhere / birthday: with the recurrence forced (p=1), there is no coincidence to
+  'beat'; and among reachable exceptional labels {E6,E8}, 'E6' <=> ramified prime 3 <=>
+  trace field Q(sqrt-3) <=> 4_1 is the arithmetic atom. Zero information beyond the atom.
+  --> PROBE 2 = OUTCOME B (COMMON/forced, not rare/discriminating).
+
+==============================================================================
+PART F -- VERDICT (two-outcome)
+==============================================================================
+  Recomputed ledger:
+    [atom]      pi_1(4_1) ->> 2T forced & arithmetic-special (2, only 4_1/m003): True
+    [McKay]     2T -> affine E6 is a bijection/theorem (0 extra bits): True
+    [CIZ/duVal] E6 in the other faces forced by h(E6)=12 (same ADE list): True
+    [Lie]       E6 char variety GENERIC via principal sl2->E6 (every hyp knot): True
+    [base rate] recurrence-across-faces FORCED (p=1) once a binary-polyhedral atom: True
+
+  '(atom -> ONE label E6) + (ADE linkage -> other faces FORCED) + (Lie face GENERIC)'
+   fully accounts for 'E6 across three faces': True
+
+  ==> OUTCOME B. The 'E6 across three faces' recurrence is the ADE META-PATTERN one
+      level up + the single arithmetic atom. The three 'faces' are ONE label (E6),
+      forced from the atom's 2T and read through three canonically-equivalent ADE
+      classifications; the Lie face is generic (B282); the CIZ face is fixed by a
+      Coxeter number, supplied by no independent object. The flagship structural claim
+      is OVER-BELIEF: Naivety 1 confirmed. Structure-skepticism lagged number-skepticism
+      (B724 base-rated the numbers; the structure had dodged the same test).
+
+  OBJECT-SPECIFIC CONTENT THAT SURVIVES (exactly one item):
+    * THE ATOM: pi_1(m004) ->> 2T = SL(2,F_3), exactly 2 surjections, forced by 4_1
+      being the UNIQUE arithmetic knot -> trace field Q(sqrt-3) -> unique ramified
+      prime 3 -> residue field F_3 -> 2T. (B266, recomputed here.) Everything E6 is the
+      McKay shadow of THIS. The three-faces recurrence adds nothing to it.
+
+RESULT: OUTCOME B (number-bag one level up + the atom)

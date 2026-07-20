@@ -5342,7 +5342,8 @@
    ],
    "refs": [
     "B266",
-    "B281"
+    "B281",
+    "B727"
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
@@ -14863,6 +14864,25 @@
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B727": {
+   "slug": "base rate the structure",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B266",
+    "B282",
+    "B724"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
    "status": "dead",
    "domain": "arithmetic"
   },

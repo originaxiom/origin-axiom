@@ -48,3 +48,12 @@ shadow of that arithmetic**. Consequences:
 This is firewall-clean and *strengthens* the structural theorem: the object supplies structure (generic), and its
 one specific signal is arithmetic, not physical. `e6_specificity_gap.py` · `verdict.py` ·
 `tests/test_b282_e6_arithmetic.py`.
+
+---
+**B727 corroboration (2026-07-20):** this "E₆ is generic, only the arithmetic atom is specific"
+conclusion is STRENGTHENED by the B727 base-rate self-audit. B282's knot set was narrow; B727
+recomputed that **4/13 hyperbolic knots surject π₁↠2T, including the non-arithmetic 7₂, 7₃, 8₁** —
+so even the 2T surjection (not just the E₆ character variety) is shadowed by non-arithmetic knots.
+And the McKay/Lie/CIZ "three faces" are ONE forced ADE classification (P(recurrence|label)=1). The
+verdict here holds and is reinforced: the only object-specific content is the arithmetic atom
+(ℚ(√−3)=trace field of the unique arithmetic knot). See B727 + docs/ERROR_LEDGER.md E20.

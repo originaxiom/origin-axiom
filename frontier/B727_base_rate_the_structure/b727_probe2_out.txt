@@ -1,0 +1,229 @@
+==============================================================================
+B727 PROBE 2 -- BASE RATE of the E6-across-faces structure  (self-audit rev)
+==============================================================================
+
+[1] McKay correspondence data (recomputed) + CIZ level bijection
+------------------------------------------------------------------------------
+ ADE  rank  h(spectrum)  h(#roots/rank)  h(classical)  CIZ level k=h-2  agree?
+  A2    2    3           3               3             k = 1          [OK]
+  D4    4    6           6               6             k = 4          [OK]
+  D5    5    8           8               8             k = 6          [OK]
+  E6    6    12          12              12            k = 10         [OK]
+  E7    7    18          18              18            k = 16         [OK]
+  E8    8    30          30              30            k = 28         [OK]
+
+  McKay <-> affine-ADE (binary polyhedral -> Dynkin node marks), classical:
+    cyclic Z/n           ->  affine A_{n-1}   [classical]
+    binary dihedral 4n    ->  affine D_{n+2}   [classical]
+    2T  binary tetra.  24 ->  affine E6        [|2T|=24,  h(E6)=12, CIZ level 10]
+    2O  binary octa.   48 ->  affine E7        [|2O|=48,  h(E7)=18, CIZ level 16]
+    2I  binary icosa. 120 ->  affine E8        [|2I|=120, h(E8)=30, CIZ level 28]
+
+  KEY (probe-1 fact, used here): the CIZ A-D-E modular-invariant list IS the
+  Dynkin list, with SU(2) level k = h - 2 (Coxeter number minus 2). So a McKay
+  label X FORCES its CIZ level (E6<->k=10). McKay-face and CIZ-face are ONE
+  classification, not two independent evidences.  (Cappelli-Itzykson-Zuber 1987.)
+
+[2] Which EXCEPTIONAL McKay group can live over Q(sqrt-d)?
+------------------------------------------------------------------------------
+  Field-of-definition facts (2O/2I recomputed in the appendix):
+   * 2T (E6): the faithful 2-dim irrep with RATIONAL character has Schur index 2;
+     its enveloping quaternion algebra is Hamilton (-1,-1)/Q, ramified at {2,inf}.
+     2T embeds in SL(2,K), K=Q(sqrt-d), IFF (-1,-1)/K splits.
+     (A4 has no faithful 2-dim rep, so A4 in PSL2(K) forces its binary lift 2T
+      in SL2(K); the only binary group over A4 is 2T. -> torsion = this embedding.)
+   * 2O (E7): order-8 element, SU(2) trace = 2cos(pi/4) = +-sqrt2 -> field Q(sqrt2).
+   * 2I (E8): order-10 element, SU(2) trace = 2cos(pi/5) = (1+sqrt5)/2 -> Q(sqrt5).
+  Q(sqrt2), Q(sqrt5) are REAL quadratic -- a real quadratic field is never a
+  subfield of an imaginary quadratic field (degrees force equality; real != nonreal).
+  => E7, E8 are STRUCTURALLY EXCLUDED from every imaginary-quadratic arithmetic
+     object. The ONLY exceptional label reachable is E6.  (No birthday problem.)
+
+  IN-SANDBOX derivation of "(-1,-1)/K splits <=> 2 not split in K":
+    A quaternion algebra over a number field is trivial in the Brauer group iff
+    its local invariant is 0 at every place. Base-change multiplies invariants by
+    local degree: inv_w(H_K) = [K_w:Q_v] * inv_v(H).  H=(-1,-1)/Q has inv 1/2 at
+    v in {2, inf} and 0 elsewhere.
+      * v=inf : K imaginary-quadratic => one complex place, [K_w:R]=2 =>
+                inv = 2*(1/2) = 0 in Q/Z.  H_K always splits at infinity.
+      * v=2   : 2 inert or ramified -> one prime w, [K_w:Q_2]=2 -> inv=2*(1/2)=0.
+                2 split            -> two primes, each [K_w:Q_2]=1 -> inv=1/2 != 0.
+    => H_K splits  <=>  2 is NOT split in K.  And 2 splits in Q(sqrt-d) iff the
+       field discriminant is 1 mod 8, i.e. iff -d = 1 mod 8.  So realizable iff
+       -d != 1 mod 8.  (Splitting type of 2 verified below by factoring mod 2.)
+
+  d : 2 splits? : (-1,-1) splits(=2T realizable) : explicit -1=x^2+y^2 cert
+   d=1 : 2 ramified: splits=True                 : x=-1/4 - 3*I/4, y=1/4 - 3*I/4
+   d=2 : 2 ramified: splits=True                 : x=-2 - 3*sqrt(2)*I/2, y=2 - 3*sqrt(2)*I/2
+   d=3 : 2 inert   : splits=True                 : x=-5/2 - 3*sqrt(3)*I/2, y=5/2 - 3*sqrt(3)*I/2
+   d=7 : 2 split   : splits=False                : none-found(<=8)
+   d=11: 2 inert   : splits=True                 : x=-3/2 - sqrt(11)*I/2, y=3/2 - sqrt(11)*I/2
+
+[3] TORSION mechanism: does PSL(2,O_d) contain A4 (=> 2T => McKay E6)?
+------------------------------------------------------------------------------
+  A4 subset PSL(2,O_d)  <=>  2T subset SL(2,O_d)  (binary lift, contains -I).
+  Class number of O_d is 1 for all d in {1,2,3,7,11} (Euclidean), so a finite
+  subgroup of SL(2,K) is conjugate INTO SL(2,O_d) (it preserves an O_d-lattice L;
+  L is free since h=1; the conjugating change of basis lands it in SL(2,O_d)).
+  Hence the torsion question reduces EXACTLY to section 2 (field of definition).
+
+  d : Q(sqrt-d) : A4/2T/E6 present by torsion?
+   d=1 : Q(sqrt-1) : E6 present = True
+   d=2 : Q(sqrt-2) : E6 present = True
+   d=3 : Q(sqrt-3) : E6 present = True
+   d=7 : Q(sqrt-7) : E6 present = False
+   d=11: Q(sqrt-11) : E6 present = True
+
+  => E6 (exceptional) appears by TORSION in 4/5 Euclidean Bianchi groups.
+     (absent only for d=7, the unique one with 2 SPLIT / -7 = 1 mod 8.)
+     E7, E8 appear in 0/5 (section 2: excluded for all imaginary quadratic).
+
+  ANTI-CHERRY-PICK: extend to all 9 class-number-1 imag.-quad. fields
+    d in [1, 2, 3, 7, 11, 19, 43, 67, 163]:
+    d=1:E6, d=2:E6, d=3:E6, d=7:--, d=11:E6, d=19:E6, d=43:E6, d=67:E6, d=163:E6
+    => E6 by torsion in 8/9 = 89%  (absent only d=7).
+    The pre-registered 5-object set (80%) was NOT cherry-picked toward B;
+    the wider natural family is even MORE E6-saturated (89%).
+
+[4] QUOTIENT mechanism (B266): mod-ramified-prime reduction SL(2,F_p)
+------------------------------------------------------------------------------
+  SL(2,F_p) is a binary-polyhedral (McKay) group only for p in {3,5}:
+    p=2 -> SL(2,F2)=S3 (center trivial, not binary);
+    p=3 -> SL(2,F3)=2T  -> E6;
+    p=5 -> SL(2,F5)=2I  -> E8;
+    p>=7 -> order p(p^2-1) too large, wrong composition factors (not binary).
+
+  d : ramified prime(s) : mod-p reduction gives McKay label?
+   d=1 : [2]        : F2=S3(not binary)
+   d=2 : [2]        : F2=S3(not binary)
+   d=3 : [3]        : F3=2T=E6
+   d=7 : [7]        : F7(too large,not binary)
+   d=11: [11]       : F11(too large,not binary)
+
+  => via the QUOTIENT (ramified-prime) mechanism, an exceptional McKay label
+     appears for 1/5 of d in {1,2,3,7,11} : only d=3 (E6).
+     This mechanism IS the B266 atom (Q(sqrt-3) -> mod 3 -> 2T=E6).
+
+[5] KNOT mechanism (recompute B282, CORRECTED): pi_1(knot) ->> 2T=SL(2,F3)
+------------------------------------------------------------------------------
+  Reid 1991: 4_1 is the UNIQUE arithmetic knot; all others non-arithmetic.
+  knot   vol      arith?     raw  conj  aut   present(2T=McKay-E6)?
+  4_1     2.0299  yes(Reid)  48   4     2     YES
+  5_2     2.8281  no         0    0     0     no
+  6_1     3.1640  no         0    0     0     no
+  6_2     4.4008  no         0    0     0     no
+  6_3     5.6930  no         0    0     0     no
+  7_2     3.3317  no         48   4     2     YES
+  7_3     4.5921  no         48   4     2     YES
+  7_4     5.1379  no         0    0     0     no
+  7_5     6.4435  no         0    0     0     no
+  7_6     7.0849  no         0    0     0     no
+  7_7     7.6434  no         0    0     0     no
+  8_1     3.4272  no         48   4     2     YES
+  8_2     4.9352  no         0    0     0     no
+
+  => CORRECTED READING (fixes the sealed draft's material error):
+     pi_1 ->> 2T appears for 4/13 hyperbolic knots.
+     Among the 12 NON-arithmetic knots, 3 surject (7_2, 7_3, 8_1)
+     -- with the IDENTICAL 48/4/2 signature as the arithmetic 4_1.
+     The sealed draft's "EXACTLY the arithmetic ones, 0 for non-arithmetic" is
+     FALSE.  A 2T-quotient is NOT a signature of arithmeticity; it is a fairly
+     common McKay-face phenomenon (here ~31% of the sample,
+     ~25% of non-arithmetic knots).
+     This makes the McKay-face MORE common, REINFORCING outcome B.
+     (B266's own count -- m004 has exactly 2 surjections up to Aut(2T) -- is
+      reproduced: raw 48 / conj 4 / Aut 2; but 7_2,7_3,8_1 share it exactly, so
+      the COUNT is not object-discriminating either.)
+
+[6] BASE-RATE SYNTHESIS
+==============================================================================
+
+ (a) The 'three faces' are NOT three independent evidences:
+     - McKay-face  = the atom's label (2T -> E6).
+     - CIZ-face    = FORCED equal to McKay (same A-D-E list; level k = h-2 = 10).
+     - Lie-face    = GENERIC E6 (B282: E6's principal sl2 -> present for every
+       hyperbolic knot; Menal-Ferrer-Porti / Falbel-Guilloux genericity).
+     => 2-of-3 faces (McKay==CIZ) agree for EVERY object: base rate 5/5 = 100%.
+        A single label recurring across >=2 faces is FORCED, not a signal.
+
+ (b) The exceptional MENU for imaginary-quadratic arithmetic is just {E6}:
+     E7 (2O) needs sqrt2, E8 (2I) needs sqrt5 -- REAL, excluded from every
+     imaginary quadratic field. So there is NO birthday problem across
+     {E6,E7,E8}: E6 is the ONLY exceptional label these objects can show.
+
+ (c) E6 across comparable ARITHMETIC objects (Bianchi orbifolds PSL(2,O_d),
+     m004's own arithmetic class):
+       - by TORSION (A4 -> 2T):  E6 present in 4/5 (d=1,2,3,11; absent only d=7);
+         extended to all 9 class-number-1 fields: 8/9 = 89% (absent only d=7).
+       - m004 (d=3) sits in the majority class; it is EXPECTED, not discriminating.
+
+ (d) The knot recompute (section 5) NO LONGER supports a rarity story:
+       - pi_1 ->> 2T occurs for 4/13 hyperbolic knots, including NON-arithmetic
+         7_2, 7_3, 8_1 with the identical signature. "Has a 2T-quotient" is COMMON,
+         not a fingerprint of m004's arithmetic. This strengthens B, not A.
+
+ (e) What IS genuinely object-specific (the ATOM, preserved but NARROWED):
+       - the MECHANISM: m004's trace field Q(sqrt-3) reduced mod its ramified
+         prime 3 yields 2T=SL(2,F3) (B266); this is tied to m004's OWN field and
+         is real. Among Bianchi objects the ramified-prime quotient gives an
+         exceptional label only for d=3 (1/5). That is a real, banked arithmetic
+         fact. It does NOT upgrade the 'three faces' to three signals, and mere
+         'presence of a 2T-quotient' (section 5) is not itself rare.
+
+ (f) Object-specific EXTRAS (probe iii): h(E6)=12, |2T|=24, CIZ level k=10 are
+     PROPERTIES OF E6, shared by every E6-object (all of d=1,2,3,11,...). m004
+     carries no extra coincidence the other E6-objects lack -- same shape all have.
+
+ BASE-RATE NUMBERS (all computed in-sandbox):
+   * 2-of-3 faces forced-agree:                 5/5   = 100%   (forced by ADE)
+   * exceptional labels reachable (imag.quad.):  {E6} only     (E7,E8 excluded)
+   * E6 among Euclidean Bianchi (torsion):      4/5   = 80%    (majority)
+   * E6 among all cn=1 imag-quad (torsion):     8/9   = 89%    (majority)
+   * pi_1 ->> 2T among hyperbolic knots:        4/13  = 31%    (COMMON, incl. non-arith)
+   * exceptional via ramified-prime quotient:   1/5   = 20%    (= the atom mechanism)
+   * m004-specific extra coincidences:          0
+
+ VERDICT (probe 2): the RECURRENCE-ACROSS-FACES is COMMON / forced, not rare.
+   -> OUTCOME B. The flagship 'E6 across three faces' reduces to one atom-label
+      (E6 from Q(sqrt-3), B266) echoed by a FORCED classification (CIZ) and a
+      GENERIC face (Lie, B282). The only object-specific content is the arithmetic
+      atom mechanism, which stands regardless and is separately banked.
+   Do-not-over-kill: the ATOM's MECHANISM (m004's Q(sqrt-3) -> mod 3 -> 2T, exact
+   count B266; generic Lie face B282) is a genuine, correctly-computed arithmetic
+   fact and is NOT disputed here. What is deflated is the '=three independent
+   evidences' framing -- and the corrected knot recompute shows the McKay-face is
+   even LESS discriminating than the sealed draft claimed.
+
+
+[V] VERIFICATION APPENDIX -- the load-bearing 4/5 (E6 by torsion)
+------------------------------------------------------------------------------
+  Explicit 2T=SL(2,F3) construction over Q(sqrt-d) (order should be 24):
+    d=1 : |<i,j,g>| = 24
+    d=2 : |<i,j,g>| = 24
+    d=3 : |<i,j,g>| = 24
+    d=7 : |<i,j,g>| = no K-solution -> NOT realizable
+    d=11: |<i,j,g>| = 24
+
+  LOAD-BEARING EVIDENCE for the 4/5 number is ENTIRELY in-sandbox:
+    (1) splitting type of 2 in Q(sqrt-d)  [section 2, factor min poly mod 2],
+    (2) local-invariant argument  (-1,-1)/K splits <=> 2 not split  [section 2],
+    (3) explicit -1 = x^2+y^2 certificate in K for d=1,2,3,11; none for d=7,
+    (4) explicit order-24 group <i,j,g> realized over K for d=1,2,3,11 (above),
+    (5) class-number-1 => finite subgroup conjugates into SL(2,O_d) [section 3].
+  No citation is load-bearing; (1)-(5) alone prove: E6 by torsion for d=1,2,3,11,
+  absent for d=7.
+
+  ERROR-LEDGER (self-audit): the SEALED draft's appendix attributed the amalgam
+  decompositions "PSL2(O_2)=A4*_{Z/2}D2" and "PSL2(O_11)=A4*_{Z/3}A4" to
+  Sengun arXiv:1204.6697. That paper does NOT contain them (it gives only the
+  d=1 decomposition, which does contain A4). CORRECT attribution:
+     Frohman & Fine, "Some amalgam structures for Bianchi groups,"
+     Proc. Amer. Math. Soc. 102 (1988) no.2, 221-229, Theorem 2.1 --
+     gives A4-containing decompositions for d=1,2,11 and an A4-FREE one for d=7.
+  This literature is CONSISTENT-WITH the in-sandbox derivation above and is cited
+  ONLY as corroboration; the 4/5 number does not rest on it. (d=1 also in Sengun.)
+
+  Klein (classical): finite subgroups of PSL(2,O_d) are among
+     {1, Z/2, Z/3, D2=V4, S3, A4}; A4's SL-preimage is 2T=binary tetrahedral.
+     [Rahm-Fuchs, arXiv:1108.4608, Lemma 10 -- confirms the exceptional label
+      reachable by Bianchi torsion is E6 (from A4/2T) and nothing higher.]

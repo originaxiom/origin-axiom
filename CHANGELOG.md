@@ -1,5 +1,13 @@
 # Changelog
 
+## B727 — base-rate the E₆-across-three-faces STRUCTURE: the number-bag one level up (self-audit)
+- The base-rate discipline that killed number-matching (B724), run on the flagship STRUCTURAL claim. Cross-verified w/ cc2 odds (both GENERIC).
+- All 3 probes OUTCOME B. McKay=Lie=CIZ = ONE ADE classification (P(recurrence|label)=1, forced graph identity).
+- {E6}-only reachable over imaginary-quadratic (2O→√2, 2I→√5 real; NO birthday problem); E6-torsion 4/5; McKay=CIZ 5/5.
+- NEW: non-arithmetic knots 7₂/7₃/8₁ also surject π₁↠2T (4/13) -> even the surjection isn't knot-unique.
+- Sister m003 ties m004's field ℚ(√−3) (snappy-verified) but isn't a knot (H₁=ℤ/5+ℤ) -> resonance is the FIELD's.
+- Only object-specific content = the atom (B266, STANDS). Naivety-1 confirmed; E20 logged. Nothing to CLAIMS. Credit cc2.
+
 ## B726 — the hearing face and the Born content: WEIGHTS are the hearing's; bare two faces don't close it
 - Owner's hypothesis (hearing supplies the quantum content), base-rate-gated, under cc2's naivety discipline.
 - OUTCOME B (bare ℚ(√−3)⊕ℚ(√5) don't close the gap) + partial positive, field-ownership verified by minpolys:
