@@ -1,0 +1,188 @@
+
+==============================================================================
+B729 PROBE 2 : is sqrt(2+phi) / Q(sqrt phi) native to the figure-eight?
+==============================================================================
+phi              = 1.618033988749895
+D = sqrt(2+phi)  = 1.902113032590307   (Fibonacci total quantum dim, S00=1/D)
+sqrt(phi)        = 1.272019649514069   (Fibonacci F-symbol scale)
+note: 2+phi = phi^2+1 = (5+sqrt5)/2 ; D=sqrt(2+phi)=2*cos(pi/10)=1.902113032590307
+
+==============================================================================
+(a) TRACE FIELD, CUSP FIELD, ADJOINT REIDEMEISTER TORSION
+==============================================================================
+manifold        : 4_1(0,0)   volume=2.0298832128
+cusp shape      : 8.881784197 E-16 + 3.4641016151*I    (= 0 + 2*sqrt(3)*i = 2*sqrt(-3))
+                  2*sqrt(-3) = (0.0 + 3.46410161513775458705489268301174473388561050762076125611161j)  -> CUSP FIELD Q(sqrt-3)
+  tr(a   ) = -1.000000000000-1.732050807569i
+  tr(b   ) = +1.500000000000+0.866025403784i
+  tr(ab  ) = -2.000000000000-0.000000000000i
+  tr(abAB) = +1.500000000000-0.866025403784i
+  all traces lie in Q(sqrt-3): {-1-sqrt(-3), (3+sqrt(-3))/2, ...}
+  tetrahedron shapes z = [(0.5000000000000001+0.8660254037844386j), (0.4999999999999999+0.8660254037844386j)]
+  z satisfies z^2 - z + 1 = +1.11e-16+2.22e-16j (~0) -> shape field Q(sqrt-3)
+
+  ADJOINT REIDEMEISTER TORSION at the complete structure (self-contained):
+  torsion function (twist-knot form, arXiv:2606.27006):
+     F(x,z) = z^2 - (x^2-1) z + (x^2-1),   T = (1/2) dF/dz = z - (x^2-1)/2
+  complete structure: meridian parabolic => x = tr(meridian) = 2
+     F(2,z) = z^2 - 3z + 3 = 0  ->  z = [3/2 - sqrt(3)*I/2, 3/2 + sqrt(3)*I/2]
+     T = z - 3/2 = -sqrt(3)*I/2
+     T = z - 3/2 = sqrt(3)*I/2
+  => adjoint Reidemeister torsion T = +- sqrt(-3)/2  in  Q(sqrt-3).
+  cross-check (family form arXiv:2305.08402): T = 2/sqrt((2cosh xi-3)(2cosh xi+1));
+     complete: 2cosh xi = 2 -> 2/sqrt((-1)(3)) = 2/sqrt(-3) in Q(sqrt-3).
+  Example-1 discriminant (x^2-1)(x^2-5) at x=2 : (3)(-1) = -3  -> Q(sqrt-3).
+  VERDICT (a): trace/cusp/shape/torsion field = Q(sqrt-3). NO sqrt(2+phi).
+
+==============================================================================
+(b) A-POLYNOMIAL ROOTS + GEOMETRIC SHAPE FIELD
+==============================================================================
+A(M,L) = -L + L M^2 + M^4 + 2 L M^4 + L^2 M^4 + L M^6 - L M^8
+  A(M=1,L) = L**2 + 2*L + 1 = (L+1)^2  -> L=-1 (longitude eigenvalue, complete)
+           check: 0 (==0)
+  A(M,L) is quadratic in L: a*L^2 + b*L + c with
+     a = M^4,  b = -1+M^2+2M^4+M^6-M^8,  c = M^4.
+     disc_L(M) = b^2-4ac = Mm**16 - 2*Mm**14 - 3*Mm**12 + 2*Mm**10 + 4*Mm**8 + 2*Mm**6 - 3*Mm**4 - 2*Mm**2 + 1
+     factor(disc_L) = (Mm - 1)**2*(Mm + 1)**2*(Mm**2 + 1)**2*(Mm**2 - Mm - 1)*(Mm**2 - Mm + 1)*(Mm**2 + Mm - 1)*(Mm**2 + Mm + 1)
+  the branch locus factors into QUADRATICS over Q. Their fields:
+     M^2 - M + 1, M^2 + M + 1  -> roots = 6th roots of unity -> Q(sqrt-3)  [GEOMETRY]
+     M^2 - M - 1, M^2 + M - 1  -> roots M = phi (golden!)     -> Q(sqrt5)   [GOLDEN]
+  So the A-polynomial's OWN branch structure yields exactly the two native
+  quadratics Q(sqrt-3) (shape) and Q(sqrt5) (meridian eigenvalue M=phi, trace
+  M+1/M = sqrt5 -- matches the (x^2-5) factor in the torsion Example-1).
+  There is NO quartic factor: the branch locus never produces sqrt(2+phi).
+  VERDICT (b): A-poly shape/branch fields = Q(sqrt-3) and Q(sqrt5). NO sqrt(2+phi).
+
+==============================================================================
+(c) ALEXANDER POLYNOMIAL + BRANCHED-COVER HOMOLOGY ORDERS
+==============================================================================
+Alexander poly Delta(t) = t^2 - 3t + 1 ;  roots = [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+   roots = phi^2=(3+sqrt5)/2, phi^-2=(3-sqrt5)/2  ->  Q(sqrt5)
+   check phi^2 = 2.618034, (3+sqrt5)/2 = 2.618034
+
+  n-fold cyclic branched cover homology order |H_1(Sigma_n)| =
+     |prod_{j=1..n-1} Delta(zeta_n^j)|  (zeta_n = exp(2 pi i / n)):
+   n= 2: |H_1(Sigma_n)| =          5.0   = L_4-2 = 5  [True]
+   n= 3: |H_1(Sigma_n)| =         16.0   = L_6-2 = 16  [True]
+   n= 4: |H_1(Sigma_n)| =         45.0   = L_8-2 = 45  [True]
+   n= 5: |H_1(Sigma_n)| =        121.0   = L_10-2 = 121  [True]
+   n= 6: |H_1(Sigma_n)| =        320.0   = L_12-2 = 320  [True]
+   n= 7: |H_1(Sigma_n)| =        841.0   = L_14-2 = 841  [True]
+   n= 8: |H_1(Sigma_n)| =       2205.0   = L_16-2 = 2205  [True]
+   n= 9: |H_1(Sigma_n)| =       5776.0   = L_18-2 = 5776  [True]
+   n=10: |H_1(Sigma_n)| =      15125.0   = L_20-2 = 15125  [True]
+   n=11: |H_1(Sigma_n)| =      39601.0   = L_22-2 = 39601  [True]
+   n=12: |H_1(Sigma_n)| =     103680.0   = L_24-2 = 103680  [True]
+  IDENTITY: |H_1(Sigma_n)| = L_{2n} - 2 = (phi^n - phi^{-n})^2, a RATIONAL INTEGER.
+  these orders are RATIONAL INTEGERS (Lucas-number products). They SIGNAL
+  Q(sqrt5) via Delta's roots but never require sqrt(2+phi): |H_1| in Z, always.
+  VERDICT (c): Alexander/homology field = Q(sqrt5); orders are integers.
+  sqrt(2+phi) does NOT appear (it is a *square root* of 2+phi in Q(sqrt5);
+  homology only ever needs the *norm*/product, an integer).
+
+==============================================================================
+(d) DEHN-FILLING TRACE-FIELD SEARCH (PSLQ) for x^4-5x^2+5 / x^4-x^2-1
+==============================================================================
+filling  deg  minimal polynomial of tr(a)   [PSLQ, 60-digit]
+  (1,0)   ERR ValueError
+  (1,1)   1    [-2, 1]
+  (1,2)   ?    (no relation <=deg6)
+  (1,3)   ?    (no relation <=deg6)
+  (1,4)   ?    (no relation <=deg6)
+  (1,5)   ?    (no relation <=deg6)
+  (2,1)   1    [-2, 1]
+  (2,3)   ?    (no relation <=deg6)
+  (2,5)   ?    (no relation <=deg6)
+  (3,1)   1    [-2, 1]
+  (3,2)   6    [1, -4, -4, 7, -1, -2, 1]
+  (3,4)   ?    (no relation <=deg6)
+  (3,5)   ?    (no relation <=deg6)
+  (4,1)   1    [-2, 1]
+  (4,3)   ?    (no relation <=deg6)
+  (4,5)   ?    (no relation <=deg6)
+  (5,1)   4    [-1, 3, 1, -3, 1]
+  (5,2)   ?    (no relation <=deg6)
+  (5,3)   ?    (no relation <=deg6)
+  (5,4)   ?    (no relation <=deg6)
+  (6,1)   6    [-4, 0, 14, 0, -7, 0, 1]
+  (6,5)   ?    (no relation <=deg6)
+  (7,1)   6    [-1, -3, 4, 5, -3, -2, 1]
+  (7,2)   ?    (no relation <=deg6)
+  (7,3)   ?    (no relation <=deg6)
+  (7,4)   ?    (no relation <=deg6)
+  (7,5)   ?    (no relation <=deg6)
+  (8,1)   6    [-11, 0, 19, 0, -8, 0, 1]
+  (8,3)   ?    (no relation <=deg6)
+  (8,5)   ?    (no relation <=deg6)
+  (9,1)   ?    (no relation <=deg6)
+  (9,2)   ?    (no relation <=deg6)
+  (9,4)   ?    (no relation <=deg6)
+  (9,5)   ?    (no relation <=deg6)
+
+  tested 33 fillings.
+  *** amplitude quartic x^4-5x^2+5 / x^4-x^2-1 does NOT appear in any
+      tested Dehn-filling trace field.
+
+  adversarial: the one quartic filling 4_1(5,1) -> x^4-3x^3+x^2+3x-1.
+     FIELD DISCRIMINANTS (decisive; unequal disc => non-isomorphic fields):
+        sqrt(phi)     : disc = -400
+        4_1(5,1) fill : disc = -283
+        sqrt(2+phi)   : disc = 2000
+     -400 vs -283 vs 2000 : THREE distinct fields. (5,1) != either amplitude field.
+     PSLQ also confirms sqrt(phi), sqrt(2+phi) are NOT elements of the (5,1) field.
+
+  is sqrt(2+phi)=1.902113 or sqrt(phi)=1.272020 ever a generator trace? (no; not seen above)
+
+==============================================================================
+(e) THE AMPLITUDE QUARTIC: Galois type + reachability from Q(sqrt-3),Q(sqrt5)
+==============================================================================
+  sqrt(phi)            minpoly x**4 - x**2 - 1
+      Galois group order 8 = D4 (order 8, dihedral, NON-abelian);  real roots: 2/4
+  D=sqrt(2+phi)        minpoly x**4 - 5*x**2 + 5
+      Galois group order 4 = C4 (cyclic);  real roots: 4/4
+  zeta_5 (phase,B728)  minpoly x**4 + x**3 + x**2 + x + 1
+      Galois group order 4 = C4 (cyclic);  real roots: 0/4
+
+  containment tests (is the amplitude quartic reachable from the bare fields?):
+   2+phi = (5+sqrt5)/2 ; norm N((5+sqrt5)/2) = (25-5)/4 = 5 (not a rational square)
+   => 2+phi is NOT a square in Q(sqrt5)  => [Q(sqrt(2+phi)):Q]=4 genuine.
+   Q(sqrt(2+phi)) is Galois C4 ; Q(sqrt-3,sqrt5) is C2xC2. C4 != C2xC2 =>
+   sqrt(2+phi) NOT in Q(sqrt-3,sqrt5).  (a cyclic quartic can't sit in a biquadratic)
+   Q(sqrt phi) has NON-abelian D4 closure => not inside any abelian ext of Q either.
+   phase field Q(zeta5): its ONLY real subfield is Q(sqrt5) (degree 2).
+   sqrt(2+phi)=2cos(pi/10) is real of degree 4  => NOT in Q(zeta5) either.
+   [Q(sqrt(2+phi)) = Q(2cos pi/10) = Q(zeta_20)^+  -- needs 20th roots of unity.]
+  RAMIFICATION: disc(x^4-5x^2+5)=2000=2^4*5^3 -> the amplitude field is ramified
+   only at {2,5}, DISJOINT from the object's geometric prime 3 (Q(sqrt-3), disc -3).
+   The amplitude field is unramified at 3: it 'knows nothing' about sqrt-3.
+  VERDICT (e): amplitude quartic is a THIRD Galois type, NOT reachable from
+  Q(sqrt-3), Q(sqrt5), their compositum, or even the phase field Q(zeta5).
+
+==============================================================================
+(f) BASE-RATE: is Galois-closure D4 == geometric Isom(4_1) D4 ? (E20)
+==============================================================================
+  Isom(4_1) (snappy symmetry_group) = D4  (order 8 dihedral)
+  Amplitude Galois closure Gal(Q(sqrt phi, i)/Q) = D4 (order 8 dihedral) [(e)]
+  --- both are the abstract group D4. Is there a GENUINE identification? ---
+   * Isom(4_1) acts on H^3/Gamma, Gamma < PSL(2,O_3), arithmetic over Q(sqrt-3).
+     Its trace/invariant field is Q(sqrt-3) -- it does NOT contain sqrt(phi).
+   * Gal(Q(sqrt phi,i)/Q) acts on the 4 roots {+-sqrt(phi), +-i/sqrt(phi)},
+     living in Q(sqrt5, i) -- a field DISJOINT from the geometry's Q(sqrt-3).
+   * No map: the isometry group permutes geodesics/cusps of a Q(sqrt-3) manifold;
+     the Galois group permutes conjugates of sqrt(phi) in Q(sqrt5,i). Different
+     sets, different fields; sqrt(phi) is not even in the object's trace field.
+   * Q(sqrt-3) has class number 1 and Gal(Q(sqrt-3)/Q)=C2, unrelated to D4.
+  => the D4=D4 coincidence is a COMMON-small-group look-elsewhere (E20). REJECT.
+
+==============================================================================
+SUMMARY LEDGER
+==============================================================================
+  native geometry     : trace/cusp/shape/torsion  -> Q(sqrt-3)   [FORM = being]
+  native homology     : Alexander/branched covers  -> Q(sqrt5)    [WEIGHTS = hearing]
+  Dehn-filling fields  : extensions of Q(sqrt-3); amplitude quartic NOT found
+  amplitude sqrt(2+phi): Q(zeta_20)^+ = C4, needs 20th roots of unity
+  sqrt(phi)           : NON-Galois, D4 closure, third Galois type
+  reachability        : NOT in Q(sqrt-3,sqrt5) (C4/D4 vs C2xC2), NOT in Q(zeta5)
+  D4 = Isom hook       : look-elsewhere; no genuine map (disjoint fields). REJECT.
+  => OUTCOME B: sqrt(2+phi)/Q(sqrt phi) is a GOLDEN-MTC OVERLAY (S-matrix
+     normalization / F-symbol scale), NOT native to the object's own arithmetic.

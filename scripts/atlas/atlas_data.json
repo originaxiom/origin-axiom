@@ -14906,6 +14906,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B729": {
+   "slug": "amplitude sector",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B701",
+    "B707",
+    "B708",
+    "B728"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [

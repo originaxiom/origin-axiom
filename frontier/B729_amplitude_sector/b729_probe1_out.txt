@@ -1,0 +1,138 @@
+==============================================================================
+B729 PROBE 1 -- amplitude field Galois type + reachability
+==============================================================================
+
+[phi sanity] phi = (1+sqrt5)/2 = 1/2 + sqrt(5)/2
+  phi^2 - phi - 1 = 0
+  phibar = (1-sqrt5)/2 = 1/2 - sqrt(5)/2  numeric = -0.6180339887498949  (negative -> its sqrt is imaginary)
+
+==============================================================================
+(a) sqrt(phi) : F-symbol amplitude phi^{-1/2}
+==============================================================================
+  minimal_polynomial(sqrt(phi)) = x**4 - x**2 - 1
+  target x^4 - x^2 - 1        = x**4 - x**2 - 1
+  MATCH: True
+  degree = 4
+  irreducible over Q: True
+
+  roots of x^4 - x^2 - 1 (x^2 = (1+-sqrt5)/2 = phi or phibar):
+    root = -I*sqrt(-1/2 + sqrt(5)/2)    numeric = -0.7861513777574233j   -> IMAGINARY
+    root = I*sqrt(-1/2 + sqrt(5)/2)    numeric = 0.7861513777574233j   -> IMAGINARY
+    root = -sqrt(1/2 + sqrt(5)/2)    numeric = (-1.272019649514069+0j)   -> REAL
+    root = sqrt(1/2 + sqrt(5)/2)    numeric = (1.272019649514069+0j)   -> REAL
+  count: real = 2  imaginary = 2   => 2 real (+-sqrt(phi)) + 2 imaginary (+-i/sqrt(phi)) : NON-Galois shape
+
+  Galois test on the quartic x^4-x^2-1 via sympy.galois_group:
+    galois_group(x^4-x^2-1) = PermutationGroup([
+    (0 1 2 3),
+    (0 3)(1 2)])   (transitive group id, |G| = 8 )
+    is that S4/A4? -> NO
+    order 8 with the quartic having a degree-4 non-normal stem field => D4 (dihedral).
+
+  biquadratic criterion for x^4 + p x^2 + q, (p,q)=(-1,-1):
+    q = -1  square in Q? -> False (if q square: V4)
+    q*(p^2-4q) = -5  square in Q? -> False (if square: C4)
+    neither square  =>  Galois group = D4 (dihedral, order 8).  CONFIRMED.
+
+==============================================================================
+(b) Galois closure of Q(sqrt(phi))
+==============================================================================
+  imaginary root = i * sqrt(1/phi) = i/sqrt(phi);  1/sqrt(phi) in Q(sqrt(phi)),
+  so splitting field = Q(sqrt(phi), i).
+  minimal_polynomial(sqrt(phi)+i) = x**8 + 2*x**6 + 3*x**4 + 22*x**2 + 1  degree = 8
+  => [Q(sqrt(phi), i):Q] = 8.
+  Galois group of the closure = D4 (matches the order-8 transitive group above).
+
+==============================================================================
+(c) D = sqrt(2+phi) (S-matrix total quantum dimension) + quadratic subfields
+==============================================================================
+  minimal_polynomial(sqrt(2+phi)) = x**4 - 5*x**2 + 5
+  target x^4 - 5x^2 + 5          = x**4 - 5*x**2 + 5
+  MATCH: True
+  irreducible over Q: True
+  roots (x^2=(5+-sqrt5)/2, both positive => 4 REAL roots, totally real):
+     -sqrt(5/2 - sqrt(5)/2)  numeric = (-1.1755705045849463+0j)
+     sqrt(5/2 - sqrt(5)/2)  numeric = (1.1755705045849463+0j)
+     -sqrt(sqrt(5)/2 + 5/2)  numeric = (-1.902113032590307+0j)
+     sqrt(sqrt(5)/2 + 5/2)  numeric = (1.902113032590307+0j)
+  galois_group(x^4-5x^2+5) = PermutationGroup([
+    (0 1 2 3)])  |G| = 4
+    q=5 square? -> False  ; q*(p^2-4q)= 25  square? -> True
+    q*(p^2-4q)=25 is a SQUARE => Galois group of Q(D) is C4 (cyclic).
+    NOTE: Q(D) is Galois (C4); Q(sqrt phi) is NON-Galois (D4 closure) -> DIFFERENT fields.
+
+  quadratic subfield of Q(sqrt(phi)): phi = (sqrt(phi))^2 lies in it, phi in Q(sqrt5)
+    minimal_polynomial(phi) = x**2 - x - 1  => Q(phi)=Q(sqrt5).
+    So Q(sqrt5) subset Q(sqrt(phi)), [Q(sqrt phi):Q(sqrt5)]=2 : the unique quad subfield = Q(sqrt5).
+    sqrt5 = 2*phi - 1 = sqrt(5)  in Q(sqrt phi): True
+  quadratic subfield of Q(D): D^2 = 2+phi = (5+sqrt5)/2 => contains sqrt5 too.
+    D^2 - 2 - phi = 0  ; sqrt5 in Q(D): yes (=2(D^2-2)-1).
+
+==============================================================================
+(d) Distinctness of Galois TYPES
+==============================================================================
+  phase: cyclotomic_poly(5) = x**4 + x**3 + x**2 + x + 1  ; Gal(Q(zeta5)/Q) = (Z/5)^* = C4 (cyclic order 4).
+    galois_group(Phi_5) = PermutationGroup([
+    (0 1 2 3)])  |G|= 4  abelian: C4
+  being x hearing: minimal_polynomial(sqrt(-3)+sqrt5) = x**4 - 4*x**2 + 64
+    galois_group = PermutationGroup([
+    (0 1)(2 3),
+    (0 2)(1 3)])  |G|= 4  => C2 x C2 (Klein four, abelian).
+
+  amplitude sqrt(phi): D4 (order 8, NON-abelian).
+  COMPARISON:
+    C4 (phase, cyclic order 4, abelian)          != D4
+    C2xC2 (being x hearing, order 4, abelian)     != D4
+    D4 (amplitude, order 8, NON-abelian) is a THIRD, distinct Galois type.
+    (order 8 vs 4, and non-abelian vs abelian: distinct on two independent invariants.)
+
+==============================================================================
+(e) Reachability: is Q(sqrt(phi)) inside Q(sqrt(-3), sqrt(5)) ?
+==============================================================================
+  Structural: every subfield of an ABELIAN (Galois) extension is itself Galois
+  over Q. Q(sqrt(phi)) is NON-Galois (part (a): D4 closure, only 2 of 4 roots).
+  => Q(sqrt(phi)) CANNOT be a subfield of the abelian Q(sqrt-3,sqrt5). 
+
+  Direct check: factor x^4 - x^2 - 1 over Q(sqrt-3, sqrt5):
+    factorization = (x**2 - 1/2 + sqrt(5)/2)*(x**2 - sqrt(5)/2 - 1/2)
+    still irreducible (no linear/deg-1 factor) => sqrt(phi) NOT in Q(sqrt-3,sqrt5).
+
+  Over hearing Q(sqrt5) alone: factor x^4-x^2-1 = (x**2 - 1/2 + sqrt(5)/2)*(x**2 - sqrt(5)/2 - 1/2)
+    factors into two quadratics x^2 - phi and x^2 - phibar (adjoining sqrt(phi) is
+    a NEW quadratic step beyond the hearing field, of D4 non-abelian type).
+
+==============================================================================
+(f) The literal modular S-matrix entry field (honesty check)
+==============================================================================
+  S-entries 1/D, phi/D generate Q(1/D, phi) = Q(D, sqrt5) = Q(D)  [since sqrt5 in Q(D)].
+  => modular S-DATA field = Q(D) = C4 (cyclic), NOT D4.
+  The D4 type enters via the F-SYMBOL amplitude phi^{-1/2}=1/sqrt(phi) (associator),
+  which is a genuine Fibonacci amplitude but lives in Q(sqrt phi), a D4-closure field.
+  So the amplitude SECTOR spans two arithmetic types:
+    S-data (modular)  -> C4  (reachable-adjacent: Galois, abelian, = phase type)
+    F-data (associator)-> D4  (NON-abelian, THIRD type, not reachable from bare faces)
+
+==============================================================================
+BASE-RATE FIREWALL (E20)
+==============================================================================
+  Isom(4_1) = D4 (order 8) AND Gal-closure(Q(sqrt phi)) = D4 (order 8).
+  D4 is a COMMON small group. This probe exhibits NO map between the Galois
+  action on {roots of x^4-x^2-1} and the isometry action on the 4_1 complement.
+  => NOT a match. Recorded as a same-name coincidence, look-elsewhere REJECTED.
+
+==============================================================================
+VERDICT
+==============================================================================
+  (a) sqrt(phi): min poly x^4-x^2-1, deg 4, irreducible, NON-Galois
+      (2 real +-sqrt(phi), 2 imaginary +-i/sqrt(phi)).            CONFIRMED
+  (b) Galois closure Q(sqrt phi, i), degree 8, group D4.           CONFIRMED
+  (c) D=sqrt(2+phi): min poly x^4-5x^2+5 (C4); quad subfield
+      of Q(sqrt phi) is Q(sqrt5).                                  CONFIRMED
+  (d) D4 distinct from C4 (phase) and C2xC2 (being x hearing).     CONFIRMED
+  (e) Q(sqrt phi) NOT a subfield of abelian Q(sqrt-3,sqrt5).       CONFIRMED
+
+  TWO-OUTCOME:  B  -- the amplitude (F-symbol) field Q(sqrt phi) is a THIRD
+  Galois type (D4, non-abelian, order 8), NOT reachable from the object's two
+  bare faces being=Q(sqrt-3) and hearing=Q(sqrt5) (nor their abelian compositum).
+  It is a genuinely new, single quadratic step (sqrt of the fundamental unit phi)
+  ABOVE the hearing field, non-abelian in closure.

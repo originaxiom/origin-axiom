@@ -1,5 +1,12 @@
 # Changelog
 
+## B729 — the amplitude sector is an overlay too; the Born ledger COMPLETES
+- Owner 'pursue the math doors'. Completes the Born-content thread. All 3 probes OUTCOME B.
+- The object does NOT force √(2+φ) (ramified {2,5}, disjoint from prime 3); PSLQ over 33 filling trace fields found nothing.
+- COMPLETED Born ledger: form ℚ(√−3) + weights ℚ(√5) NATIVE (the two quadratics = classical content); amplitudes ℚ(√(2+φ)) C₄-real + phase ℚ(ζ₅) C₄-CM + associator ℚ(√φ) D₄ = golden-MTC OVERLAYS (quantum content, 3 distinct quartic types).
+- Pattern: object supplies its two quadratics (classical probability content); the quantum content lives in quartics it doesn't force.
+- D₄=Isom(4₁) hook base-rate-killed (E20). Prereg corrected (amplitudes C₄ not D₄; √φ=F-symbol). 4 locks; nothing to CLAIMS.
+
 ## B728 — the Stokes resummation: the coherent whole does NOT close the phase; ζ₅ imported
 - Owner's required deepest un-run test. cc2 ran the full resummation; cc verified the decisive theorem in-sandbox. Two-seat.
 - OUTCOME B: resummation's intrinsic arithmetic = ℚ(σ₀)⊕ℚ(√−3)(σ₁,σ₂), integer Stokes; ℚ(ζ₅) NOT a structural home.

@@ -1,0 +1,128 @@
+==============================================================================
+PART 1 -- Galois type of every Born quartic sector (recomputed)
+==============================================================================
+PHASE  Q(zeta5): min poly = x**4 + x**3 + x**2 + x + 1
+       Galois group (sympy) = PermutationGroup([
+    (0 1 2 3)])  -> cyclic C4 (unique quad subfield Q(sqrt5))
+
+F-SYM  Q(sqrt phi): min poly = x**4 - x**2 - 1   (this is the F-matrix/associator entry field)
+       resolvent verdict (b=-1,c=-1): D4 (dihedral, order 8, NON-Galois quartic)  [neither square]
+       roots of x^4-x^2-1: 2 real + 2 imaginary -> NOT Galois; closure Q(sqrt phi, i), order 8
+
+AMPL   Q(D)=Q(sqrt(2+phi)): min poly = x**4 - 5*x**2 + 5   (this is the S-matrix Born-amplitude entry field)
+       resolvent verdict (b=-5,c=5): C4 (cyclic)    [c*(b^2-4c) is a square]
+       roots of x^4-5x^2+5: 4 real + 0 imaginary -> TOTALLY REAL, Galois
+       Galois group (sympy) = PermutationGroup([
+    (0 1 2 3)])
+
+BARE   Q(sqrt-3, sqrt5): compositum of FORM (being) and WEIGHTS (hearing)
+       min poly of sqrt-3+sqrt5 = x**4 - 4*x**2 + 64
+       Galois group (sympy) = PermutationGroup([
+    (0 1)(2 3),
+    (0 2)(1 3)])  -> Klein C2xC2 (three quad subfields: sqrt-3, sqrt5, sqrt-15)
+
+>>> FOUR DISTINCT GALOIS TYPES AT DEGREE 4:
+    phase Q(zeta5)          = C4  (CM, totally imaginary)
+    amplitude Q(sqrt(2+phi))= C4  (totally REAL)   <-- corrected: NOT D4
+    F-symbol  Q(sqrt phi)   = D4  (non-Galois)     <-- the D4 the prereg named
+    bare      Q(sqrt-3,sqrt5)= C2xC2 (Klein)
+
+==============================================================================
+PART 2 -- WHICH field do the Born amplitudes (S-matrix entries) actually live in?
+==============================================================================
+Fibonacci total quantum dimension D = sqrt(1+phi^2) = sqrt(2+phi): 1+phi^2 == 2+phi ? True
+
+S-matrix Born amplitudes (entries): 1/D and phi/D
+   1/D    = sqrt(1/2 - sqrt(5)/10) , min poly 5*x**4 - 5*x**2 + 1  (deg 4)
+   phi/D  = sqrt(sqrt(5)/10 + 1/2) , min poly 5*x**4 - 5*x**2 + 1  (deg 4)
+   => S-entries generate Q(1/D)=Q(D)=Q(sqrt(2+phi))  [C4, totally real].
+
+T-matrix twist (phase): theta_tau = exp(4 pi i/5) = zeta5^2, min poly x**4 + x**3 + x**2 + x + 1  => Q(zeta5) [C4, CM].  (B728: IMPORTED)
+
+F-symbol (associator) entry: sqrt(1/phi) = phi^(-1/2), min poly x**4 + x**2 - 1  => Q(sqrt phi) [D4].  (a FIFTH ingredient, not a Born sector)
+
+>>> CORRECTION TO PREREG: the Born AMPLITUDES (S-matrix) live in Q(sqrt(2+phi)) = C4,
+    NOT the D4 field Q(sqrt phi). Q(sqrt phi) [D4] is the F-symbol/associator field.
+
+==============================================================================
+PART 3 -- Reachability: is the amplitude field inside the two bare faces Q(sqrt-3,sqrt5)?
+==============================================================================
+phase Q(zeta5)              : contains sqrt(-3)? False  -> NOT IN Q(sqrt-3,sqrt5)
+amplitude Q(sqrt(2+phi))    : contains sqrt(-3)? False  -> NOT IN Q(sqrt-3,sqrt5)
+F-symbol Q(sqrt phi)        : contains sqrt(-3)? False  -> NOT IN Q(sqrt-3,sqrt5)
+>>> NONE of the three quartic sectors sits inside the Klein biquadratic Q(sqrt-3,sqrt5):
+    they contain sqrt5 (the hearing seam) but NEVER sqrt-3 (the being).
+    Same structural refutation B728 used for the phase, now confirmed for the amplitude.
+
+==============================================================================
+PART 4 -- OBJECT-NATIVE search: does sqrt(2+phi) appear in 4_1's OWN invariants?
+==============================================================================
+D = sqrt(2+phi) = 1.90211303259030714423287866676
+   2 sin(2pi/5)  = 1.90211303259030714423287866676   equal? True
+   2 cos(pi/10)  = 1.90211303259030714423287866676   equal? True
+   zeta5 - zeta5^-1 - i*D  numerically = 5.88e-39+0.00e+00j  -> zeta5-zeta5^-1 = i*D EXACTLY (i*D IN Q(zeta5))
+   but D itself needs i, and i in Q(zeta5)? False  -> D NOT in Q(zeta5): amplitude field != phase field
+   => D is the level-5 total quantum dimension; Q(zeta20)+ = Q(2cos pi/10). NOT a bare-geometry number.
+
+4_1 = m004 tetrahedron shape z = 0.500000+0.866025j  (root of z^2 - z + 1 => trace field Q(sqrt-3))
+   z^2 - z + 1 at z: 2.48e-16 (approx 0 -> Q(sqrt-3), the BEING/FORM field)
+
+   Fox calculus on <a,b|abbbaBAAB>:  phi(dr/da) = 0 ,  phi(dr/db) = -t**2 + 3*t - 1
+   => Alexander polynomial Delta(t) = t**2 - 3*t + 1   (Fox-derived, in-sandbox)
+   cross-check via Seifert matrix V=[[-1,1],[0,1]]: det(V - tV^T) = -t**2 + 3*t - 1  (= -Delta, agrees? True)
+
+   roots of Delta: [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]  = phi^2, phi^-2  -> Q(sqrt5) (the WEIGHTS/hearing field)
+   phi^2 = sqrt(5)/2 + 3/2 = (3+sqrt5)/2 ? True
+   determinant |Delta(-1)| = 5  (H1 of double branched cover = Z/5)
+
+   n-fold cyclic branched cover homology |H1(Sigma_n)| = prod_{j=1}^{n-1} |Delta(zeta_n^j)|:
+      n=2: |H1| =    5   = L_4-2 = 5  (5*F_2^2=5)   integer & rational? True
+      n=3: |H1| =   16   = L_6-2 = 16  (L_3^2=16)   integer & rational? True
+      n=4: |H1| =   45   = L_8-2 = 45  (5*F_4^2=45)   integer & rational? True
+      n=5: |H1| =  121   = L_10-2 = 121  (L_5^2=121)   integer & rational? True
+      n=6: |H1| =  320   = L_12-2 = 320  (5*F_6^2=320)   integer & rational? True
+   => the orders are rational INTEGERS in Q(sqrt5) (Alexander roots phi^2, phi^-2): sqrt5 = the
+      hearing, NATIVE. sqrt(2+phi)=2sin(2pi/5) NEVER appears -- no golden quantum dimension in the covers.
+
+   sqrt(2+phi) appears ONLY as the total quantum dimension D of the Fibonacci/SO(3)_3 MTC,
+   i.e. when the object's colored Jones is EVALUATED at q = zeta5 (level 5). Parallel to B728's
+   phase: an evaluation/level choice, not a bare invariant -> the base-rate trap, caught.
+
+==============================================================================
+PART 5 -- BASE-RATE the D4 = Isom(4_1) hook
+==============================================================================
+   Isom(4_1) = m004 symmetry group (snappy): D4  order 8
+   Arithmetic 'amplitude' D4 (if one insists on the F-symbol field): Gal closure of x^4-x^2-1,
+   acting on Q(sqrt phi, i) = {+-sqrt phi, +-i/sqrt phi}.  Field Q(sqrt phi, i).
+   Geometric D4 = Isom(m004): acts on the hyperbolic structure, trace field Q(sqrt-3).
+   Q(sqrt phi, i) vs Q(sqrt-3): DISJOINT (share only Q). NO genuine map identifies the two D4's.
+   AND the actual Born-amplitude field is C4 (Part 2), not D4 -- the hook never even applies to S.
+   => E20 base-rate trap: two abstract D4's, distinct fields/actions, NO identification. REJECT.
+
+==============================================================================
+PART 6 -- FINAL BORN-CONTENT LEDGER + VERDICT
+==============================================================================
+sector                           field            Galois      status          why
+----------------------------------------------------------------------------------------------------------------
+FORM  |.|^2 conjugation-norm     Q(sqrt-3)        C2 (quad)   FORCED-NATIVE   hyperbolic trace field of 4_1 (tetra shape z^2-z+1)
+WEIGHTS non-uniform 1:phi^2      Q(sqrt5)         C2 (quad)   FORCED-NATIVE   Alexander roots phi^2,phi^-2 ; |H1(Sigma_n)|=5F_n^2
+AMPLITUDES S-entries 1/D,phi/D   Q(sqrt(2+phi))   C4 (real)   OVERLAY         D=2sin(2pi/5) = level-5 total quantum dim; not a bare invariant
+PHASE theta_tau=zeta5^2          Q(zeta5)         C4 (CM)     OVERLAY (B728)  golden-MTC twist; ruled out of resummation by C4 != C2xC2
+
+   Note also (not a Born sector): F-symbol/associator field Q(sqrt phi) = D4 -- the ONLY D4;
+   it is what base-rate-traps against Isom(4_1)=D4, and the trap is rejected (Part 5).
+
+   Quantum-content home: compositum of the two quartic quantum sectors
+      Q(sqrt(2+phi)) . Q(zeta5)  has degree 8 over Q  = Q(zeta20)
+      contains sqrt5 (native seam)? True   contains sqrt-3 (being)? False
+      => the quantum content lives in Q(zeta20) >= Q(sqrt5) but NOT >= Q(sqrt-3):
+         it meets the object ONLY along the hearing seam sqrt5, never along the being sqrt-3.
+
+##############################################################################
+VERDICT: OUTCOME B -- the ledger completes cleanly.
+  Classical content (FORM+WEIGHTS = the two QUADRATIC fields Q(sqrt-3), Q(sqrt5)) is object-NATIVE.
+  Quantum content (AMPLITUDES Q(sqrt(2+phi)) C4  +  PHASE Q(zeta5) C4) are golden-MTC OVERLAYS:
+  degree-4 extensions the object's bare invariants do NOT force (not inside Q(sqrt-3,sqrt5);
+  sqrt(2+phi) appears only at the level-5 evaluation; the D4=Isom hook fails the base-rate).
+  Amplitude sector: OVERLAY, not forced-native. The pattern is NOT broken. Outcome B.
+##############################################################################
