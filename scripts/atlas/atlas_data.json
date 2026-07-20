@@ -14773,6 +14773,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B723": {
+   "slug": "build the observer",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B700",
+    "B701",
+    "B713",
+    "B716",
+    "B718",
+    "B719",
+    "S070"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [

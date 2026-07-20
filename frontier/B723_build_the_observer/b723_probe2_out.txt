@@ -1,0 +1,144 @@
+==========================================================================================
+B723 PROBE 2 -- BUILD THE OBSERVER: the type-III thermal completion of the tracial object
+==========================================================================================
+
+PRIMARY SOURCES (WebFetched + read this session):
+  * Takesaki, 'Structure of vN Algebras of Type III' (IMSc notes): trace-scaling covariant
+    system {N,R,tau,theta} with  tau o theta_s = e^{-s} tau  (Sec 8.1); flow of weights =
+    theta restricted to the center C=C_N (Def 7.13); Thm 8.2/8.3 = the CONVERSE (every
+    trace-scaling system is the dual of a type-III M).
+  * Connes-Takesaki, Tohoku 29 (1977): flow of weights {F_s} classifies III: point<=>III_1,
+    period -log(lam)<=>III_lam, aperiodic-ergodic<=>III_0.
+  * Powers/Araki-Woods ITPFI: R_lam = (x)(M_2, rho_lam), rho_lam=diag(1/(1+lam),lam/(1+lam));
+    S(R_lam)={0}u{lam^n}; lam=1 -> hyperfinite II_1 factor R (tracial).
+
+------------------------------------------------------------------------------------------
+(A) THE EXTERNAL WEIGHT  omega_lam(x)=Tr(rho_lam x),  rho_lam=diag(1/(1+lam), lam/(1+lam))
+    -- its modular (Tomita-Takesaki) flow is the observer's THERMAL clock
+------------------------------------------------------------------------------------------
+  chosen external scale lam = 0.4000  (0<lam<1 is a FREE datum, B701):  rho_lam=diag(0.714286, 0.285714)
+  modular operator Delta = rho (x) rho^{-1} eigenvalues: [0.4 1.  1.  2.5]
+     expected {lam,1,1,1/lam} = [0.4 1.  1.  2.5]   [match: True]
+  modular Hamiltonian H = -log rho = diag(0.33647, 1.25276);  spectral GAP = |log lam| = 0.916291
+  modular flow sigma_t(e12) = e^{it|log lam|} e12 :  at t=0.90 phase=0.678805+0.734318j (|.|=1.000000)
+  => sigma_t is a NONTRIVIAL one-parameter flow; PERIOD  T_mod = 2pi/|log lam| = 6.857196
+     check sigma_{T_mod}(e12) = 1.0000000000 (recovers e12, phase 1): True
+  KMS_beta condition  omega(x sigma_{-i} y) = omega(y x)  at beta=1  (200 random x,y):
+     max deviation = 1.78e-15  => omega_lam IS a (sigma, beta=1)-KMS state (a THERMAL state)
+  KEY COHERENCE: the SAME lam sets BOTH the modular frequency (gap |log lam|) AND -- part
+     (D) -- the trace-scaling modulus. The external weight is the object's thermal clock.
+
+------------------------------------------------------------------------------------------
+(B) THE OBJECT ALONE (lam -> 1): rho_1 = I/2 (the TRACE) => trivial flow => type II_1, NOT III
+------------------------------------------------------------------------------------------
+  rho_1 = diag(0.5000, 0.5000) = I/2  (the normalized TRACE -- the object's own tracial state)
+  Delta_1 eigenvalues = [1. 1. 1. 1.]  (all 1)  => Delta_1 = I
+  modular flow sigma_t = identity for all t (max|sigma_t(x)-x| over samples = 4.97e-16)
+  => TRIVIAL modular flow (Delta=1). The tracial object is an EQUILIBRIUM: no thermal clock.
+  Structural consequence (Connes): a trace  =>  SEMIFINITE (type I/II)  =>  NOT type III.
+     ITPFI at lam=1 = (x)(M_2, tau) = the hyperfinite II_1 factor R.  S-invariant = {1}.
+  >>> POINT (i) CONFIRMED: the object alone (tracial, trivial flow) CANNOT be type III. <<<
+      (This is exactly B721 probe 3: the object's Anosov suspension algebra is II_1.)
+
+------------------------------------------------------------------------------------------
+(C) THE COMPLETION R_lam = (x)_n (M_2, omega_lam):  its TYPE via the S-invariant
+------------------------------------------------------------------------------------------
+  The N-site product state has modular operator Delta_N = (x)_N Delta; because
+  Delta = diag(1,lam,1/lam,1) per site, Sp(Delta_N) = { lam^k : |k| <= N }  (products of
+  per-site ratios). The S-invariant S(M) = intersection over states of Sp(Delta) (closed);
+  for the constant Powers state it equals the asymptotic ratio set r_infty = {0} u {lam^k}.
+
+   N |  Sp(Delta_N)  (distinct eigenvalue exponents k, so eigenvalue = lam^k)
+   1 | k in {-1,...,1}  ->  eigenvalues {lam^-1, ..., lam^1}
+   2 | k in {-2,...,2}  ->  eigenvalues {lam^-2, ..., lam^2}
+   3 | k in {-3,...,3}  ->  eigenvalues {lam^-3, ..., lam^3}
+   4 | k in {-4,...,4}  ->  eigenvalues {lam^-4, ..., lam^4}
+   5 | k in {-5,...,5}  ->  eigenvalues {lam^-5, ..., lam^5}
+   6 | k in {-6,...,6}  ->  eigenvalues {lam^-6, ..., lam^6}
+  => as N->inf the spectrum fills {lam^k : k in Z}; closure with 0 gives
+     S(R_lam) = {0} u { lam^k : k in Z }   (a DISCRETE geometric ladder + 0).
+  By Connes' classification  S(M)\{0} = lam^Z  <=>  TYPE III_lam.
+  >>> POINT (ii) CONFIRMED: external weight, scale lam in (0,1)  =>  TYPE III_lam factor. <<<
+     (Non-tracial: S != {1}; genuine thermal clock; the observer apparatus is type III.)
+    (N=1 spectral multiplicities sum to 4^1=4; support k in [-1,1]) OK
+    (N=2 spectral multiplicities sum to 4^2=16; support k in [-2,2]) OK
+    (N=3 spectral multiplicities sum to 4^3=64; support k in [-3,3]) OK
+    (N=4 spectral multiplicities sum to 4^4=256; support k in [-4,4]) OK
+
+------------------------------------------------------------------------------------------
+(D) THE CORE {N, R, tau, theta} and the trace-scaling flow  tau o theta_s = e^{-s} tau
+    -- the CONVERSE (Connes-Takesaki Thm 8.2/8.3): a II_infty with lam-scaling BUILDS III_lam
+------------------------------------------------------------------------------------------
+  Structure theorem (continuous decomposition): M(III_lam) = N x]_theta R with
+    N = M x]_{sigma^omega} R  the type-II_infty CORE (semifinite trace tau), and
+    theta = the dual (Takesaki) flow, which SCALES the trace:  tau o theta_s = e^{-s} tau.
+  The trace-scaling MODULE mod(theta_s) := (tau o theta_s)/tau = e^{-s} takes the value lam
+  at  s = -log lam = |log lam|.  Concretely realize the trace values + scaling automorphism:
+
+   projection p_k in the core with core-trace  tau(p_k) = lam^k  (k in Z, the ITPFI ladder):
+      tau(p_-2) = lam^-2 = 6.250000
+      tau(p_-1) = lam^-1 = 2.500000
+      tau(p_+0) = lam^+0 = 1.000000
+      tau(p_+1) = lam^+1 = 0.400000
+      tau(p_+2) = lam^+2 = 0.160000
+   scaling automorphism theta_gen : p_k -> p_{k+1}  =>  tau(theta_gen(p_k)) = tau(p_{k+1})
+      tau(p_{k+1}) = lam^{k+1}  vs  lam * tau(p_k) = lam * lam^k  :  EQUAL for all k
+   => MODULE  mod(theta_gen) = lam.  This is the DISCRETE decomposition M = N x]_theta Z,
+      the single generator scaling the II_infty trace by lam. By Thm 8.2/8.3 this trace-
+      scaling system is NECESSARILY the dual of a type-III M, and S(M)=cl(lam^Z)u{0}=III_lam.
+      >>> CONVERSE CONFIRMED: II_infty core + external lam-scaling flow  =>  type III_lam. <<<
+
+  FLOW OF WEIGHTS (Def 7.13) = theta restricted to the center C = C_N :
+    for III_lam the center is  C = L^inf( R / (log(1/lam)) Z ) -- a CIRCLE -- and the flow of
+    weights is the PERIODIC translation flow with  period = -log lam = 0.916291.
+    (Connes-Takesaki: III_lam <=> flow of weights periodic of period -log lam. Here nonzero
+     and finite => genuinely III_lam, neither III_1 (period 0) nor III_0 (aperiodic).)
+  ==> THE OBSERVER'S REAL THERMAL CLOCK = this flow of weights: a REAL, PERIODIC scaling
+      clock (a temperature/log-scale circle of circumference |log lam|). It EXISTS iff the
+      external weight is non-tracial (lam != 1); the tracial object has NO such clock.
+  consistency: (flow-of-weights period) x (modular period T_mod) = |log lam| * 2pi/|log lam|
+      = 2pi = 6.283185  (the two clocks are conjugate log/angle variables).
+
+------------------------------------------------------------------------------------------
+(E) DICTIONARY: the external weight's trace-scaling module  =>  the observer's type & clock
+------------------------------------------------------------------------------------------
+  external scaling module   |  S(M)\{0}   |  Connes type |  flow of weights (observer clock)
+  --------------------------+--------------+--------------+-----------------------------------
+  {1}  (lam=1: TRACE=object) |  {1}         |  II_1 (NOT III)| TRIVIAL (no thermal clock)
+  lam^Z, 0<lam<1            |  {0}u lam^Z  |  III_lam     |  PERIODIC, period -log lam
+  dense in R+* (incommens.) |  [0,inf)     |  III_1       |  TRIVIAL (center=point)
+  aperiodic ergodic flow    |  [0,inf)     |  III_0       |  APERIODIC ergodic flow
+
+  III_1 row check: lam1=0.40, lam2=0.50, log(lam1)/log(lam2)=1.3219280949
+     best rational approx (den<=1e4) = 11436/8651, residual |r - p/q| = 5.91e-09 (=> IRRATIONAL ratio)
+     subgroup {m log lam1 + n log lam2} approximates arbitrary log-targets to within
+     [0.0021 0.0029 0.0008] (|m|,|n|<=60)  => DENSE in R  => S(M)=[0,inf)  => type III_1 (flow of weights trivial).
+  (III_0 row: a properly ergodic APERIODIC flow of weights -- e.g. a Krieger flow from an
+   aperiodic ergodic nonsingular Z-action; center nonatomic, flow neither point nor periodic.)
+
+==========================================================================================
+VERDICT
+==========================================================================================
+OUTCOME = A  -- a WELL-DEFINED type-III observer apparatus (external weight => type III).
+
+THE CONSTRUCTION (the observer = the object's tracial core + an EXTERNAL weight):
+  The object supplies the tracial core (II_1 / II_infty; B721: trivial modular flow). An
+  EXTERNAL weight omega_lam (the FREE datum, B701) with a nontrivial trace-scaling flow
+  (module lam) completes it to the type III_lam factor R_lam = (x)(M_2, omega_lam) via the
+  Connes-Takesaki crossed product M = N x]_theta R (tau o theta_s = e^{-s} tau). Its modular
+  flow (KMS_beta=1) is a genuine thermal clock of rate |log lam|; its FLOW OF WEIGHTS is a
+  real periodic scaling clock of period |log lam| -- the observer's 'reality with a clock'.
+
+DISCRIMINATING FACT (the single computed pivot):
+  TRACE  =>  Delta=1  =>  modular flow TRIVIAL  =>  SEMIFINITE  =>  NOT type III.
+  So the object ALONE (lam=1, tracial) is II_1 and has NO type-III completion from itself;
+  a nonzero, finite trace-scaling module lam^Z (0<lam<1) -- suppliable ONLY by an EXTERNAL
+  non-tracial weight -- is exactly what promotes the core to III_lam. The type-III-ness, and
+  hence the thermal clock, is carried ENTIRELY by the external (free) weight, never derived
+  from the object.  [(i) tracial=>not III;  (ii) external lam-weight=>III_lam -- both computed.]
+
+HONEST THEOREM (rung / firewall): this is a STANDARD operator-algebra CONSTRUCTION (Connes-
+  Takesaki + Powers/Araki-Woods), verified in-sandbox. It clears the 'apparatus is buildable'
+  bar: given an external weight, the completion is a genuine type III factor. The honest
+  content is precisely that the weight is EXTERNAL and FREE (B701) -- we built the APPARATUS,
+  not the choice. No SM value; no cosmology; the clock is a structural (flow-of-weights) clock.
