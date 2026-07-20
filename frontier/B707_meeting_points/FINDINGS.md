@@ -121,11 +121,19 @@ UNBIDDEN in mature top-down programs — B701 non-canonicity in Connes–Marcoll
 cosmic Galois; B706's discrete residue at Turok's bang. That is external
 corroboration of the program's structure, reached from the other end.
 
-## FLAG HEEDED (cc2's verify-don't-trust — a real catch)
-cc2's digest surfaced two 2026 "confirmation" citations (Galakhov–Morozov
-arXiv:2605.31588 / 2606.24497) that are **likely FABRICATED** (the ID ~31.6k
-exceeds arXiv's real monthly volume ~24k — a hallucinated-ID signature). They
-are NOT in this seat's B707/B708 record (my agents did not surface them) and
-are **explicitly excluded** from the banked record pending a human arXiv check.
-The verified core (Kim/B708, Scholze, Zagier/Witten, Brown, Connes) stands
-without them.
+## FLAG REVERSED — the two citations are REAL (verified, 2026-07-20)
+cc2's digest surfaced two 2026 citations (Galakhov–Morozov arXiv:2605.31588 /
+2606.24497). They were originally flagged "likely FABRICATED" on a stale
+arXiv-volume heuristic (ID ~31.6k vs a 2024 ~24k/month guess) and EXCLUDED
+pending a real check. **That check is now done and REVERSES the flag: both are
+REAL** — cc2 re-queried the arXiv API directly, and this seat independently
+verified by direct arXiv fetch: 2605.31588 = "Two roles of Alexander in two
+Kashaev phases" (Galakhov & Morozov, May 2026); 2606.24497 = "More on Kashaev
+limits of the quantum A-polynomials" (Morozov, Jun 2026). Both are directly
+about the figure-eight's **two Kashaev quasiclassical phases** (A-polynomial vs
+inverse-Alexander) = our BEING/HEARING split — genuine external corroboration.
+**Un-excluded and reinstated.** Lesson (retired heuristic → new rule): verify
+citations against the arXiv API/page directly, never against a volume guess (the
+ID-volume heuristic over-rejected two real, on-point papers). The verified core
+(Kim/B708, Scholze, Zagier/Witten, Brown, Connes) now ALSO carries the
+Galakhov–Morozov resurgence corroboration.
