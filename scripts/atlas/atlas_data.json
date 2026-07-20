@@ -14979,6 +14979,26 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B732": {
+   "slug": "conjugation is out A5",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B701",
+    "B721",
+    "B731"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
