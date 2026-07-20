@@ -55,3 +55,28 @@ So the SM's free coupling lives in NONE of them — B706 reconfirmed at every le
 LAW_MAP: the resurgence's two phases ARE being/hearing (rung-1, corroborated), but its
 continuum is arithmetically rigid over ℚ(√−3) — completing "every object continuum is
 rigid/scale-free, none the SM's free coupling." Nothing to CLAIMS. Credit cc2 + Galakhov–Morozov.
+
+---
+
+## TWO-SEAT RECONCILE (cc2's independent seeing-strategy adjudication, verified, 2026-07-20)
+cc2 independently adjudicated chat-1's SEEING STRATEGY (converging with B724: Path-1 core
+refuted, kept the reading; C4/C5 refuted; C3 = the arrow is the observer's B723 SSB, not the
+object's chaos). It raised a B722 RECONCILE this seat verifies + adopts:
+
+- **A² = M (verified exact).** The golden Fibonacci monodromy A=[[1,1],[1,0]] (eigenvalues φ,
+  −1/φ ∈ ℚ(√5) = HEARING; the 2I rep, B640) SQUARES to the geometric cat-map M=[[2,1],[1,1]]
+  (eigenvalues φ²,φ⁻²; the being's monodromy). So HEARING (A) squares to the being's monodromy.
+- **The resurgence is 2+1 sectors, not 2 (reconcile of B722 probe 1's "two phases").** The
+  fig-8 published structure is: σ₁,σ₂ (the two GEOMETRIC saddles, shape e^{±iπ/3}, ℚ(√−3) =
+  BEING, the volume) + σ₀ (the ABELIAN / Alexander sector, Δ=t²−3t+1 roots φ²=M's eigenvalues,
+  ℚ(√5)). B722 probe 1's "phase 2 = inverse-Alexander = hearing" is FIELD-correct (σ₀ carries
+  ℚ(√5)), but STRUCTURALLY σ₀ is the abelian/Alexander THIRD sector — NOT the golden hearing
+  MONODROMY itself (which is A, with A²=M). The ℚ(√5) in σ₀ is M's eigenvalues φ² (= A²'s), so
+  the two are linked but distinct: σ₀ = abelian sector; A = the hearing monodromy. Adopted:
+  the resurgence carries being (σ₁,σ₂) + a golden-arithmetic abelian sector (σ₀), with the
+  hearing monodromy A the deeper source (A²=M).
+- **B701's outer swap = the σ₁↔σ₂ Kashaev exchange (concrete, verified).** Gal(ℚ(√−3)/ℚ)=ℤ/2
+  (complex conjugation) swaps the two geometric saddles σ₁=e^{iπ/3} ↔ σ₂=e^{−iπ/3} — this IS
+  B701's outer measurement/chirality swap, now realized concretely inside the GGM resurgence.
+  So the being's conjugation (B701, the observer's c-swap) lives literally in the Kashaev
+  saddle exchange. Credit cc2 (the A²=M / 2+1 / σ₁↔σ₂ identifications).
