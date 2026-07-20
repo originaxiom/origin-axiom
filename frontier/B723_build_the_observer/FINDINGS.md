@@ -67,3 +67,40 @@ time = the symmetric III₁ high-T phase, chirality+values = the broken type-I l
 space = a subfactor inclusion; measurement = the SSB. The choice stays free (B701). Nothing to
 CLAIMS. Credit cc2. Caveat: the CMR type-classification across β=1 is cited (WebFetch-verified),
 the finite toy shows the SSB pattern; the infinite crossed product is not directly instantiated.
+
+---
+
+## TWO-SEAT CONVERGENCE + a load-bearing CATCH (cc2's independent observer-build, verified, 2026-07-20)
+cc2 independently ran an observer-build (11 agents; CMR math/0501424 read line-by-line by two
+agents). It CONVERGES with this arc on the keystone and adds one sharpening and one catch this
+seat verifies and adopts:
+
+- **CONVERGENT (the keystone torsor-mismatch):** B701 and the CMR torsor are the ORTHOGONAL
+  pieces of 1→Gal(K^ab/K)→Gal(K^ab/ℚ)→Gal(K/ℚ)→1 — B701 = Gal(K/ℚ) = ℤ/2 (the outer swap, the
+  finite QUOTIENT; = the B704 (ℤ/2)^n seam), CMR = Gal(K^ab/K) ≅ Ô*/μ₆ (the inner arithmetic,
+  the profinite KERNEL). B701 is NOT the CMR torsor's shadow — "observer = Galois action" SPLITS
+  into TWO orthogonal Galois observers (outer swap = measurement; inner arithmetic = time).
+  Matches this arc's B721-probe-2 exact-sequence finding. Two-seat confirmed.
+- **SHARPENING (time-rate intrinsic):** in the CONCRETE CMR realization σ_t is defined on the
+  K-lattice groupoid by the covolume cocycle (CMR eq 4.19–4.20) BEFORE any state — H_J=log N(J),
+  Z(β)=ζ_K(β), spectrum from the primes of ℚ(√−3); Galois COMMUTES with σ_t but doesn't generate
+  it. So the **time-RATE is the being's own arithmetic; only the STATE-SELECTION is the observer's**
+  — which SHARPENS this arc's "external weight carries the clock": the observer supplies the
+  VACUUM/state (which side of the β=1 SSB), NOT the dynamics. Consistent with the SSB reading
+  (the observer selects the broken vacuum, not the flow). Adopted; sharpens B716.
+- **THE CATCH (verified this seat, adopted):** the CMR machine is built over the FIELD ℚ(√−3)
+  (rank-1 K-lattices / CM), a FIELD invariant SHARED by infinitely many manifolds (verified:
+  m003/m004/m006/m007 all ℚ(√−3), DIFFERENT objects). Gal(K^ab/K) sees the BEING (the field),
+  NOT m004's specific Bianchi/Kleinian holonomy (PSL(2,O₃) + the cusp, finer than the field). So
+  **this arc built the observer of the BEING, not yet of the OBJECT** — the same "shared field
+  name, different kind of object" trap (cf. ℤ/5≠hearing, h=3≠inherited, Marcolli–Xu knot-
+  independent), one level up. **B723's "observer built" is FIELD/being-SCOPED, honestly.**
+
+## Honest re-scoping (adopted)
+B723 builds the BEING's observer (the type-III/SSB apparatus over the field ℚ(√−3)) and its
+emissions dictionary — real, and the phase-transition reading stands over the field. The
+OBJECT-level observer — a KMS/Galois structure on m004's OWN Bianchi arithmetic (PSL(2,O₃) +
+the cusp) — is the honest NEXT DOOR (cc2's proposed Gate-5 design; a cheap first substep is a
+primary-source confirm of m004's trace field + Bianchi structure, Neumann–Reid/Maclachlan–Reid).
+Credit cc2 (the independent build + the completeness-critic catch). Choice free (B701); nothing
+to CLAIMS.
