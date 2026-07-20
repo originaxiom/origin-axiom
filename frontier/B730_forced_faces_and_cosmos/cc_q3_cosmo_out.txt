@@ -1,0 +1,97 @@
+==========================================================================
+B730 Q3 (cc, CORRECTED) -- cosmic-topology meeting point: OBJECT-SIDE VERIFY
+snappy 3.3.2  (SnapPy-in-Sage; find_field is canonical, not algdep)
+==========================================================================
+
+(d) Closed-census ordering (OrientableClosedCensus, Hodgson-Weeks)
+    total closed orientable hyperbolic census manifolds: 11031
+      #1  m003     vol = 0.94270736278
+      #2  m003     vol = 0.98136882889
+      #3  m007     vol = 1.01494160641
+
+    m004(5,1): vol=0.98136882889  H1=Z/5  sol=all tetrahedra positively oriented
+    m004(5,1) is_isometric_to m003(-2,3) [Thurston, #2] : True
+    m004(5,1) is_isometric_to m003(-3,1) [Weeks,   #1] : False
+    Weeks m003(-3,1): vol=0.94270736278  H1=Z/5 + Z/5
+    => the object's OWN closed child (5,1) is the #2 Thurston manifold.
+    Weeks among m004(p,q) fillings |p|,q<=8 : NONE
+    => the #1 (Weeks) is NOT the object's own child; it is the sister m003's.
+    m003 vol=2.02988321282  m004 vol=2.02988321282  isometric=False (distinct minimal-vol sisters)
+
+(e) Invariant trace fields (canonical find_field) -- does Q(sqrt-3) survive?
+    open  m004             : x^2 - x + 1    deg 2  disc -3  Gal C2
+                              proper subfields: ['x^2 - x + 1']
+    child m004(5,1)=Thurst : x^4 - x - 1    deg 4  disc -283  Gal S4
+                              proper subfields: ['x^4 - x - 1']
+          m003(-2,3) chk    : x^4 - x - 1    deg 4  disc -283  Gal S4
+                               proper subfields: ['x^4 - x - 1']
+    Weeks m003(-3,1)        : x^3 - x - 1    deg 3  disc -23  Gal S3
+                               proper subfields: ['x^3 - x - 1']
+
+    hand-check field discriminants:
+        x^2 - x + 1    field disc = -3
+        x^4 - x - 1    field disc = -283
+        x^3 - x - 1    field disc = -23
+        x^3 - x + 1    field disc = -23
+    (x^3-x-1 and x^3-x+1 are the SAME disc-(-23) cubic field: roots negate.)
+
+    CORRECTION vs prior round:
+      prior discriminating_fact: child m004(5,1) TF = cubic x^3-x+1, disc -23  -- FALSE
+      correct               : child m004(5,1) TF = QUARTIC x^4-x-1, disc -283, S4
+      the cubic disc -23 belongs to WEEKS m003(-3,1), the SISTER's child.
+    Conclusion (unchanged qualitatively): the S4 quartic has NO proper
+    subfield, so the open object's Eisenstein Q(sqrt-3) does NOT survive the
+    closing.  B718 confirmed -- with the correct arithmetic invariant.
+
+    open-object 'being' cross-check (independent of the field machinery):
+        m004 tetrahedron shape algdep(2) = x^2 - x + 1   residual = 3.24e-151
+        (root of x^2-x+1 = exp(i*pi/3); confirms Q(sqrt-3) on the OPEN object)
+
+==========================================================================
+FRONTIER SCIENCE (primary sources; physics claim = NIL)
+==========================================================================
+
+CURVATURE (geometry -- FLAT; fixes geometry, not topology):
+  Planck PR4 (HiLLiPoP V4.2)          Omega_k = -0.012 +/- 0.010  (1.2 sigma; 2309.10034)
+  Planck CMB + BAO (tight)            Omega_k =  0.0007 +/- 0.0019 (via 2041-8213/adb7de)
+  DESI DR1 BAO-only (model-indep GP)  Omega_k =  0.012 +/- 0.176   (consistent w/ flat)
+  => universe measured spatially flat to ~0.2%.
+
+TOPOLOGY (searches -- ALL NULL; a tightening LOWER BOUND, not a detection):
+  Review "The Topology of the Universe" (2606.24886, Nature Astronomy 2026):
+    "these searches have yielded no definitive evidence for non-trivial topology."
+  matched-circle lower bounds on the shortest non-contractible loop d_NC vs the
+  last-scattering diameter d_LSS:
+    WMAP matched circles      d_NC > 0.985 d_LSS
+    Planck likelihood search  d_NC >~ 1.03  d_LSS   (null)
+    COMPACT preliminary       d_NC ~  1.05  d_LSS   (all Euclidean manifolds)
+  COMPACT collaboration (2210.11426 PRL 132 171501; 2211.02603 Part I; 2409.02226
+    Part Ic lens spaces): forecasts + circle limits, NO detection.
+  Hyperbolic topologies remain comparatively UNCONSTRAINED (exponential growth of
+    volume => costly eigenmodes); open pending LiteBIRD-era data.
+
+COMPACT-HYPERBOLIC CMB MODELS (where our own child actually appears):
+  Inoue astro-ph/9810034: Laplace-Beltrami eigenmodes on "the Thurston manifold
+    ... the second smallest in the known compact hyperbolic 3-manifolds",
+    cataloged in SnapPea as m003(-2,3) == our m004(5,1).  [OUR OWN (5,1) CHILD]
+  Inoue astro-ph/9903446 / MNRAS 323,1016: CMB anisotropy in compact hyperbolic
+    universes (angular power spectra from those eigenmodes).
+  Cornish-Spergel math/9906017: 12 compact hyperbolic manifolds incl. explicit
+    "eigenmodes taken from the Weeks space" (== our #1, the sister m003's child).
+  => the object's family children (Thurston #2, Weeks #1) are the very manifolds
+     cosmologists computed CMB observables on -- because they are the SMALLEST
+     (most tractable), a researcher-SELECTION effect, not a data preference.
+
+==========================================================================
+VERDICT (two-outcome A/B): A = real-MATH meeting point, physics NIL.
+  MATH (rigorous): Dehn filling IS the cusp->closed 'residue/closing' operation
+  (Thurston: parent vol = monotone sup of filled vols); cusp cross-sections are
+  intrinsically FLAT 2-tori bounding negatively-curved bulk; the object's OWN
+  (5,1) child is verifiably the #2-smallest closed orientable hyperbolic
+  manifold (Thurston, vol 0.98137), a bona-fide literature CMB candidate (Inoue).
+  BASE-RATE (E20, held): distinguished-by-MATH (minimal volume / #2-smallest /
+  named manifold) = researcher TRACTABILITY selection, NOT distinguished-by-DATA
+  (every topology search is NULL; no CMB observable favors hyperbolic curvature,
+  this family, or any manifold; the universe is measured FLAT).
+  => genuine real mathematics; the physics/cosmology claim is EXACTLY NIL.
+==========================================================================

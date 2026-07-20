@@ -14860,7 +14860,9 @@
     "B700",
     "B701",
     "B722",
-    "B725"
+    "B725",
+    "B729",
+    "B730"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 1,
@@ -14929,6 +14931,35 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B730": {
+   "slug": "forced faces and cosmos",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B444",
+    "B704",
+    "B718",
+    "B726",
+    "B729",
+    "S071",
+    "V0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B74": {
    "slug": "higher spin grading",

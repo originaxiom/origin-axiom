@@ -1,0 +1,224 @@
+
+B730 Q1 -- INDEPENDENT COMPREHENSIVE NUMBER-FIELD CENSUS OF m004 (= 4_1, figure-eight)
+=====================================================================================
+
+INDEPENDENT cc run (owner deliberately asked cc separately from cc2). Runs its own
+angle from scratch; the distinctive contribution is (d) THE SL(n) TOWER, which cc2's
+run did not cover.
+
+FIREWALL: origin-axiom program. Structural / arithmetic ONLY; no SM value; no cosmology
+claim (physics NIL); choice free (B701). COMPUTE-NOT-CITE (E19): every field is
+re-derived in-sandbox here. BASE-RATE DISCIPLINE (E20): a recurrence of short-catalogue
+quadratic fields is NOT a forced face without a genuine discriminator.
+
+QUESTION: how many number fields does the OBJECT FORCE? Enumerate every field m004
+produces across ALL its known invariants; classify each as
+  FORCED-NATIVE   -- the object's own intrinsic (canonical) arithmetic
+  SHADOW          -- the same field in a different guise (not a new face)
+  IMPORTED        -- interface / overlay (an MTC / braiding / fiber-functor choice)
+  OBSERVER-FAMILY -- children / fillings, slope- or word-parametrized
+Then COUNT the FORCED-NATIVE faces and give their Galois structure.
+
+Two-outcome:  A = MORE than 3 forced faces (tower or another invariant adds one)
+              B = exactly 3 = the Klein-four V4 {being, hearing, meeting}
+
+Reproduce:  python3 cc_q1_census.py   (needs sympy; snappy optional for the cusp shape)
+
+
+==================================================================================
+PART 0 -- the two PRIMARY geometric invariants (the object's canonical structure)
+==================================================================================
+m004 = 4_1 = the once-punctured-torus bundle with monodromy RL = [[2,1],[1,1]] = M^2,
+the unique two-ideal-tetrahedron hyperbolic knot complement. Two canonical structures:
+  BEING   -- the complete HYPERBOLIC structure (Mostow-rigid, hence FORCED/unique)
+  HEARING -- the FIBERING over S^1 (its monodromy / Alexander dynamics)
+These two are intrinsic to the manifold with NO external choice. Everything below is
+graded against them.
+
+==================================================================================
+(a) TRACE FIELD, INVARIANT TRACE FIELD, CUSP FIELD  ->  Q(sqrt-3)  [BEING]
+==================================================================================
+tetrahedron shape z solves  z^2 - z + 1 = 0  (regular ideal tetra), disc = -3
+  z = (1 + sqrt-3)/2 = exp(i*pi/3) = primitive 6th root of unity  ->  Q(sqrt-3)
+cusp shape (snappy m004.cusp_info) = 3.4641016...i = 2*sqrt3 i = 2*sqrt-3  ->  Q(sqrt-3)
+trace field = invariant trace field = cusp field = Q(sqrt-3) = Q(zeta3) = Eisenstein.
+  Q(sqrt-3) is the arithmetic Bianchi field: m004 = H^3 / PGL(2, O_3), O_3 = Z[zeta3].
+  disc(Q(sqrt-3)) = -3, ramified only at the prime 3.
+  [snappy check] cusp shape = -0.0000000000+3.4641016151j  (Re~0, Im = 2*sqrt3 = 3.4641016151)
+
+==================================================================================
+(b) ALEXANDER POLYNOMIAL + BRANCHED-COVER HOMOLOGY  ->  Q(sqrt5)  [HEARING]
+==================================================================================
+Alexander polynomial  Delta(t) = t^2 - 3t + 1,  disc = 5  ->  Q(sqrt5)
+  roots = phi^2, phi^-2 (phi = golden mean); this is the monodromy field of the fibering.
+  This is ALSO the trace-map / character-variety discriminant field (B726): the
+  meridian eigenvalue M = phi (trace sqrt5) lives here.
+  branched cyclic-cover homology |H1(Sigma_n)| = |Res(Delta, t^n - 1)| = L_{2n} - 2 (Lucas):
+     n=1:       1  (= L_{2} - 2)
+     n=2:       5  (= L_{4} - 2)
+     n=3:      16  (= L_{6} - 2)
+     n=4:      45  (= L_{8} - 2)
+     n=5:     121  (= L_{10} - 2)
+     n=6:     320  (= L_{12} - 2)
+     n=7:     841  (= L_{14} - 2)
+  ALL these homology orders are RATIONAL INTEGERS -> they live in Q, NOT a new field.
+  So the golden world enters at the QUADRATIC level Q(sqrt5); the object only ever needs
+  the integer NORM L_{2n}-2, never a golden square-root. (This is why sqrt(2+phi) is NOT
+  native -- B729.)
+
+==================================================================================
+(c) A-POLYNOMIAL BRANCH LOCUS  ->  Q(sqrt-3) and Q(sqrt5)  (both primaries, no new field)
+==================================================================================
+fig-8 A-polynomial (non-abelian factor) is quadratic in L; its branch locus disc_L(M) =
+   factor = (M - 1)**2*(M + 1)**2*(M**2 + 1)**2*(M**2 - M - 1)*(M**2 - M + 1)*(M**2 + M - 1)*(M**2 + M + 1)
+The branch locus factors into QUADRATICS over Q (B729):
+   M**2 - M + 1   disc= -3  -> Q(sqrt-3)  6th roots of unity  [BEING]
+   M**2 + M + 1   disc= -3  -> Q(sqrt-3)  6th roots of unity  [BEING]
+   M**2 - M - 1   disc=  5  -> Q(sqrt5)   M = phi (golden)     [HEARING]
+   M**2 + M - 1   disc=  5  -> Q(sqrt5)   M = -1/phi           [HEARING]
+=> The A-polynomial forces NO field beyond the two primaries. SHADOW of (a)+(b).
+
+==================================================================================
+(d) THE SL(n) TOWER  (B61-B89; cc's INDEPENDENT contribution)
+==================================================================================
+Do the higher-rank character varieties of m004 FORCE any NEW field?
+
+SL(2)  geometric holonomy .......... Q(sqrt-3)         [BEING; = (a)]
+SL(3)  GEOMETRIC component V0 ....... Q(sqrt-3)         Sym^2 of the SL(2) holonomy (B71):
+         tr Sym^2(g) = tr(g)^2 - 1 is a POLYNOMIAL in the SL(2) traces -> stays in Q(sqrt-3).
+SL(4)  metallic/geometric tower .... Q(sqrt-3) = Q(omega):  M^4 = L proved on the rank-drop
+         locus t11 = omega*t22 (B89/B153); Sym^3 lift -> polynomial in SL(2) traces.
+SL(5)  principal tower ............. Q(sqrt-3)  (B61-B64; the exact golden tower + A-sector,
+         B27 'SL(3) lift preserves the golden tower and the A-sector').
+
+  => the GEOMETRIC/PRINCIPAL tower of the object itself introduces NO new field:
+     it is Sym^{n-1}(holonomy), a SHADOW of Q(sqrt-3) (with Q(sqrt5) already in the A-sector).
+
+BUT the SL(3) BOUNDARY-UNIPOTENT character variety has NON-geometric components (B444/B71):
+  fig-8 SL(3) Ptolemy (obstruction 0): 6 boundary-unipotent reps; elimination gives
+     (c-1)*(4c^2 - c + 4) ;  disc(4c^2-c+4) = -63 = -7 * 9  ->  Q(sqrt-7)
+     the OTHER quadratic factors (x^2+x+1, ...) -> Q(sqrt-3).
+  So SL(3) surfaces a genuinely NEW quadratic  Q(sqrt-7)  (Falbel 2008; HMP 1505.04451)
+  -- BUT only on the NON-geometric, NON-faithful phantom components W1/W2 (the +-3 Dehn-
+  filling-type reps that contain no faithful rep). The geometric V0 stays over Q(sqrt-3).
+
+  CLASSIFICATION of Q(sqrt-7):  to obtain it you must make THREE non-canonical choices:
+    (1) represent into SL(3) (not the object's own PSL(2,C) geometry)   -- a target choice
+    (2) impose BOUNDARY-UNIPOTENT peripheral holonomy                    -- a boundary choice
+    (3) select the non-geometric components (V0 itself is Q(sqrt-3))     -- a component choice
+  Each is a fiber-functor STAGE, not the object's canonical structure. Mostow rigidity makes
+  the hyperbolic structure FORCED; the SL(3)-unipotent / spherical-CR datum is a CHOSEN
+  (G,X)-overlay. => Q(sqrt-7) is an IMPORTED-STAGE field, NOT a forced-native face.
+
+==================================================================================
+(e) RESURGENCE / STOKES FIELDS  ->  Q (sigma0) and Q(sqrt-3) (sigma1,sigma2)  (B728)
+==================================================================================
+The Stokes-resummed trans-series of 4_1 (B722/B728) has intrinsic arithmetic
+     sigma0 -> Q        (perturbative/Habiro-integral saddle)
+     sigma1, sigma2 -> Q(sqrt-3)   (the geometric conjugate pair; Neumann-Reid)
+  with LITERAL INTEGER Stokes constants (Z[[q,1/q]], B722). NO new field. SHADOW of (a).
+
+==================================================================================
+(f) THE MTC COMPLETION (Born quantum content)  ->  IMPORTED overlays (B725-B729)
+==================================================================================
+The golden-MTC (Fibonacci / 2I) overlays used to read a Born rule off the object:
+   PHASE      theta_tau = zeta5^2   ->  Q(zeta5)   C4 cyclic (CM), ram at 5 only
+   AMPLITUDES S: 1/D, phi/D         ->  Q(sqrt(2+phi))=Q(zeta20)+  min poly x^4-5x^2+5,
+                                        disc = 2000 = 2^4*5^3, ram {2,5}, C4 real
+   F-symbol   sqrt(phi)             ->  Q(sqrtphi)  min poly x^4-x^2-1, disc = -400, D4 (non-Galois), ram {2,5}
+  ALL are QUARTIC, ramified at {2,5}, UNRAMIFIED at the object's prime 3 (disjoint).
+  None is reachable from the two bare quadratic faces. IMPORTED (a level/fiber-functor
+  choice), per B728/B729. (base-rate note: the D4=Isom(4_1) coincidence is a common small
+  group with no arithmetic map -- the two D4's intersect in Q; rejected as look-elsewhere.)
+
+==================================================================================
+(g) THE OBSERVER-FAMILY  (children / fillings / metallic axis)  -- slope-parametrized
+==================================================================================
+Fields that appear only when the object is DEFORMED into a family member:
+  Dehn fillings 4_1(p,q): the quartic filling 4_1(5,1) is a distinct field disc -283;
+     a PSLQ scan of 33 fillings (B729) shows a spread of higher-degree fields -- OBSERVER-FAMILY.
+  Metallic axis M_m=[[m,1],[1,0]] (B92): the m-th cousin has discriminant m^2+4:
+     m=1:  m^2+4 =  5  ->  Q(sqrt5)   [= HEARING, m=1 is the object itself]
+     m=2:  m^2+4 =  8  ->  Q(sqrt8)   [cousin field -- family]
+     m=3:  m^2+4 = 13  ->  Q(sqrt13)   [cousin field -- family]
+     m=4:  m^2+4 = 20  ->  Q(sqrt20)   [cousin field -- family]
+     m=5:  m^2+4 = 29  ->  Q(sqrt29)   [cousin field -- family]
+  Chiral once-punctured-torus cousins RRL/RLL (B147/B316): invariant trace field Q(sqrt-7).
+     NOTE: this is the SAME Q(sqrt-7) that SL(3) surfaced in (d) -- a SHADOW/OBSERVER-FAMILY
+     coincidence, NOT an independent forcing. And 4_1 is AMPHICHIRAL, so a *chirality* field
+     is precisely what the object itself does not force (B444 adjudication: tier 1-2, decorative).
+
+==================================================================================
+PART 1 -- THE CENSUS TABLE
+==================================================================================
+invariant                         field               disc    class            role
+----------------------------------------------------------------------------------------------------
+(a) trace/inv-trace/cusp/shape    Q(sqrt-3)           -3      FORCED-NATIVE    BEING
+(b) Alexander / monodromy         Q(sqrt5)            +5      FORCED-NATIVE    HEARING
+    branched-cover |H1| (Lucas)   Q                   1       SHADOW(rational) (integers)
+(c) A-poly branch locus           Q(sqrt-3),Q(sqrt5)  -3,5    SHADOW           of (a)+(b)
+    being*hearing compositum      Q(sqrt-15)          -15     FORCED-NATIVE    MEETING
+(d) SL(3/4/5) GEOMETRIC tower     Q(sqrt-3)           -3      SHADOW           Sym^{n-1} holonomy
+(d) SL(3) bdry-unipotent phantom  Q(sqrt-7)           -7      IMPORTED-STAGE   fiber-functor stage
+(e) resurgence sigma0             Q                   1       SHADOW(rational) B728
+(e) resurgence sigma1,sigma2      Q(sqrt-3)           -3      SHADOW           of (a)
+(f) MTC phase                     Q(zeta5)            5*      IMPORTED         C4 CM overlay
+(f) MTC amplitudes                Q(sqrt(2+phi))      2000    IMPORTED         C4 real overlay
+(f) MTC F-symbol                  Q(sqrtphi)          -400    IMPORTED         D4 overlay
+(g) Dehn fillings 4_1(p,q)        many (e.g. -283)    var     OBSERVER-FAMILY  slope-parametrized
+(g) metallic cousins m>=2         Q(sqrt(m^2+4))      var     OBSERVER-FAMILY  word/m-parametrized
+(g) chiral cousins RRL/RLL        Q(sqrt-7)           -7      OBSERVER-FAMILY  = SHADOW of (d)
+
+==================================================================================
+PART 2 -- THE COUNT OF FORCED-NATIVE FACES + GALOIS STRUCTURE
+==================================================================================
+FORCED-NATIVE faces (intrinsic to the canonical hyperbolic + fibered structure, no choice):
+   Q(sqrt-3)    disc   -3   -- trace/inv-trace/cusp/shape field; complete hyperbolic structure
+   Q(sqrt5)     disc    5   -- Alexander t^2-3t+1; monodromy/fibering; branched-cover Lucas orders
+   Q(sqrt-15)   disc  -15   -- being*hearing = the meeting
+
+These three quadratics are EXACTLY the three non-identity elements of the Klein-four group
+   Gal( Q(sqrt-3, sqrt5) / Q )  =  C2 x C2  =  V4 .
+The multiquadratic Q(sqrt-3, sqrt5) = Q(sqrt-3, sqrt5, sqrt-15) has the three quadratic
+subfields {Q(sqrt-3), Q(sqrt5), Q(sqrt-15)}; conductor-disc = (-3)(5)(-15) = 225 = 15^2.
+
+Q(sqrt-15) genuinely appears in m004's OWN arithmetic (not merely an abstract product):
+  it is the compositum where BEING and HEARING hold SIMULTANEOUSLY -- e.g. any invariant
+  that couples the hyperbolic trace data to the fibered/Alexander data (the A-poly branch
+  locus already carries both sqrt-3 and sqrt5 factors, so their product sqrt-15 lives in the
+  splitting field of the A-polynomial). The set {being, hearing, meeting} is CLOSED under
+  multiplication -- that closure IS the V4, and it is self-contained: nothing native escapes it.
+
+Why Q(sqrt-7) is NOT a 4th forced face (the discriminator, E20):
+  * disc -7 is NOT in {-3, +5, -15}: adjoining sqrt-7 would EXPLODE V4 to (Z/2)^3 (order 8,
+    seven quadratic subfields) -- it does not refine the structure, and there'd be no reason
+    to stop at sqrt-7 (higher-rank boundary-unipotent stages would surface still more).
+  * it is NOT generated by being*hearing; it requires the SL(3)+unipotent fiber-functor stage
+    (or the chiral-cousin family) -- three non-canonical choices, each a stage/family, not the
+    object's Mostow-rigid canonical structure.
+  * the object is AMPHICHIRAL yet Q(sqrt-7) is a CHIRALITY field: the object does not force it.
+  * base-rate: Q(sqrt-7) is a small-catalogue quadratic recurring via a common construction
+    (boundary-unipotent SL(3)) with no discriminator making it the object's OWN -- rejected.
+
+==================================================================================
+PART 3 -- SCOPE BOUNDARY + VERDICT
+==================================================================================
+SCOPE BOUNDARY (stated honestly):
+  * If one COUNTS the SL(3)-boundary-unipotent / spherical-CR stage as 'the object's own
+    arithmetic', then Q(sqrt-7) is a genuine 4th field and the structure is LARGER than V4
+    (Outcome A under that reading). Deraux-Falbel DID prove 4_1 carries a spherical-CR
+    uniformization over Q(sqrt-7) -- a bona fide (though non-canonical, chosen) geometry.
+  * The E6-level-2 stage Q(sqrt-7) is a FIBER-FUNCTOR STAGE, not m004's canonical arithmetic:
+    it is the field of a chosen higher-rank representation datum, on the same footing as the
+    MTC overlays -- an IMPORTED/stage field, not a forced-native face.
+
+VERDICT -- OUTCOME B: exactly THREE forced-native faces = the Klein-four V4.
+  BEING  Q(sqrt-3)  x  HEARING Q(sqrt5)  =  MEETING Q(sqrt-15);  Gal = C2 x C2 = V4.
+  The SL(n) tower (cc's independent angle) adds NO forced-native face: its geometric/principal
+  part is a SHADOW of Q(sqrt-3)/Q(sqrt5); its one new field Q(sqrt-7) is an SL(3)+unipotent
+  fiber-functor STAGE (and an OBSERVER-FAMILY shadow via the chiral cousins), not intrinsic.
+  The Born quantum quartics (Q(zeta5), Q(sqrt(2+phi)), Q(sqrtphi)) are IMPORTED MTC overlays,
+  ramified at {2,5}, disjoint from the object's prime 3. The forced-native arithmetic is the
+  self-contained multiquadratic V4 over the stage primes {-3, +5}, meeting at -15.
+
+  Firewall: structural/arithmetic only; no SM value; no cosmology claim; choice free (B701).
