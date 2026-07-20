@@ -1,0 +1,135 @@
+
+==============================================================================
+PART A -- the two faces as NUMBER FIELDS (which one is complex?)
+==============================================================================
+BEING  Q(sqrt-3)=Q(zeta3): imaginary/CM. conj(sqrt-3) != sqrt-3 ? True   -> NON-TRIVIAL complex conjugation (the |.|^2 order-2 norm; B725 c-swap=J)
+       its roots of unity = zeta3 = e^{2 pi i/3} (3-fold phases)
+HEARING Q(sqrt5): totally REAL. conj(sqrt5)=sqrt5 ? True   -> complex conjugation TRIVIAL -> a bare golden amplitude has NO phase
+VERDICT A: among the two QUADRATIC faces the COMPLEX/imaginary one is the BEING,
+           the REAL one is the HEARING.  (naive 'hearing=complex content' is backwards
+           at the field level -- the being is the face with complex structure.)
+
+==============================================================================
+PART B -- HOOK (i): where does the interference phase e^{i theta} actually live?
+==============================================================================
+fusion matrix N_tau = [[0, 1], [1, 1]]  eig = [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]  (Perron = phi = quantum dim d_tau)
+S-matrix all-real? True   unitary? True   symmetric? True
+
+--- FIELD MEMBERSHIP, RECOMPUTED (minimal polynomials; the v1 error is corrected here) ---
+D^2 = 2+phi        minpoly x**2 - 5*x + 5  deg 2  -> IN Q(sqrt5)
+weight p_1  = d_1^2/D^2   = 1/2 - sqrt(5)/10  minpoly 5*x**2 - 5*x + 1  deg 2  -> IN Q(sqrt5)
+weight p_tau= d_tau^2/D^2 = sqrt(5)/10 + 1/2  minpoly 5*x**2 - 5*x + 1  deg 2  -> IN Q(sqrt5)
+   ratio p_tau/p_1 = sqrt(5)/2 + 3/2 = phi^2 ? True   (the exact non-uniform 1:phi^2 weight -- REAL, Q(sqrt5))
+F-symbol phi^-1 (diagonal)= -1/2 + sqrt(5)/2  minpoly x**2 + x - 1  deg 2  -> IN Q(sqrt5)
+
+D = sqrt(2+phi)           minpoly x**4 - 5*x**2 + 5  deg 4  -> REAL QUARTIC, NOT Q(sqrt5)
+S-entry phi/D             minpoly 5*x**4 - 5*x**2 + 1  deg 4  -> REAL QUARTIC, NOT Q(sqrt5)
+S-entry 1/D               minpoly 5*x**4 - 5*x**2 + 1  deg 4  -> REAL QUARTIC, NOT Q(sqrt5)
+F-symbol phi^-1/2 = 1/sqrt(phi)  minpoly x**4 + x**2 - 1  deg 4  -> REAL QUARTIC, NOT Q(sqrt5)
+   (v1 CALLED phi^-1/2 and the S-entries 'REAL, in Q(sqrt5)'. REAL: yes. In Q(sqrt5): NO --
+    they need the real quartic Q(sqrt(phi)) / Q(sqrt(2+phi)). Corrected.)
+
+Real quartic Q(sqrt(phi)) vs complex cyclotomic Q(zeta5):
+  deg[Q(sqrt(phi)):Q] = 4  and sqrt(phi) is REAL (>0) -> a REAL quartic.
+  deg[Q(zeta5):Q]     = 4  and Q(zeta5) is COMPLEX/CM (its max real subfield is deg-2 Q(sqrt5)).
+  => the real quartic hosting S,F is NOT Q(zeta5): a real deg-4 field cannot sit inside the
+     complex Q(zeta5) except in its deg-2 real part Q(sqrt5) -- but S,F are deg-4. DISJOINT above Q(sqrt5).
+
+twist theta_tau = e^{4 pi i/5} = zeta5^2 ? True    COMPLEX, im = 0.5877852522924731
+braiding R_1^{tau,tau}=e^{-4 pi i/5}, R_tau^{tau,tau}=e^{3 pi i/5}  (COMPLEX, in Q(zeta5))
+
+complex-conj fixed elt zeta5+zeta5^-1 = 2cos(2pi/5) = 0.6180339887498949   minpoly x**2 + x - 1  -> generates Q(sqrt5)
+  ==> Q(sqrt5) = Q(zeta5)^{c=1}: the HEARING is exactly the c-swap-FIXED (real) part of the
+      phase field. The interference phase (zeta5 vs zeta5^-1) is the c-swap-CONJUGATE pair
+      the hearing's realness has already QUOTIENTED OUT.
+  ==> the being's own phases are zeta3 (3-fold) -- WRONG ORDER for Fibonacci; zeta5 not in Q(sqrt-3).
+
+HOOK (i) VERDICT: (c) JOINT-but-not-clean, and now SHARPER. Stratifying the golden data by field:
+  * PROBABILITY level (d_a^2/D^2, D^2=2+phi, diagonal F=phi^-1): REAL, IN bare Q(sqrt5).
+  * AMPLITUDE level  (S-entries 1/D, phi/D; off-diagonal F=phi^-1/2): REAL but need a REAL
+    QUARTIC extension Q(sqrt(phi)) / Q(sqrt(2+phi)) -- NOT bare Q(sqrt5), NOT Q(zeta5).
+  * PHASE level      (twist/braiding zeta5): COMPLEX, needs the CYCLOTOMIC Q(zeta5).
+  So the bare hearing Q(sqrt5) owns the WEIGHTS (probabilities), NOT the amplitudes or the phase.
+  The being supplies the complex CONJUGATION (order-2 |.|^2 norm = FORM, B725) but its phases are
+  zeta3 (wrong order). 'hearing=Q(sqrt5)=interference content' OVER-READS on BOTH counts:
+  the phase needs zeta5 (unbanked) AND even the real amplitudes need a further real quartic.
+
+==============================================================================
+PART C -- HOOK (ii): A^2=M  vs  |psi|^2=psi*c(psi)  -- precise map or false match?
+==============================================================================
+A = [[1, 1], [1, 0]]   A^2 = [[2, 1], [1, 1]]   == M=[[2,1],[1,1]] ? True
+A symmetric (A=A^T=A*) ? True   =>  A*A = A^2 = M ? True
+  (base-rate: A*A=A^2 holds for EVERY real symmetric matrix -- NOT golden-special.)
+
+Two distinct 'squares' on the golden amplitude a=phi (real, on Q(sqrt5)):
+  LITERAL square      phi * phi     = sqrt(5)/2 + 3/2  = +2.618  POSITIVE
+  CONJ(Galois) norm   phi * c(phi)  = -1         = -1  NEGATIVE  (= N(phi) = det A = fundamental-unit norm)
+  ==> on the REAL hearing field the LITERAL square and the CONJUGATION-norm DIVERGE:
+      +phi^2 (positive) vs -1 (negative unit). A probability CANNOT be the negative one,
+      and the two operations coincide only where c is trivial (i.e. nowhere golden-nontrivial).
+  ==> the Born norm |psi|^2=psi*c(psi) uses the ORDER-2 c-swap (being's complex conj);
+      A^2=A*A is literal multiplication (A is Galois-FIXED: integer entries, no sqrt5).
+      These are DIFFERENT operations -> the literal 'probability = hearing^2 = being' is FALSE.
+
+What IS genuine (the salvage, honestly bounded):
+  eig(A) = {phi, -1/phi} = {d_tau, Galois(d_tau)};  eig(A^2=M) = [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2] = {1/phi^2, phi^2}.
+  larger eig(M) = phi^2 = sqrt(5)/2 + 3/2 = d_tau^2 = the (unnormalized) fusion weight.
+  So A -> A^2 squares the eigenvalue phi -> phi^2 = d_tau^2 -- literal squaring of a POSITIVE
+  quantum dimension = the anyonic-fusion Born weight d^2/D^2. Real, no conjugation.
+
+  A DISTINCT, HONEST field-theoretic 'square' (NOT the A^2=M hook): PART B showed the
+  amplitudes (S,F ~ sqrt(2+phi), sqrt(phi)) sit ONE QUADRATIC EXTENSION ABOVE the probability
+  field Q(sqrt5) (which holds d_a^2/D^2). Passing amplitude->probability is 'take the square /
+  descend the quadratic extension' -- a genuine amplitude|^2 -> probability structure. But that
+  is the S/F normalization tower, NOT A^2=M, and it still involves NO complex c-swap. It does
+  not rescue the hook; it just names the one real squaring the data actually exhibits.
+
+HOOK (ii) VERDICT: 'A^2=M IS the Born square |psi|^2=psi*c(psi)' is a FALSE PATTERN-MATCH
+  (outcome B for this hook): norm(conjugation) != literal square, and on Q(sqrt5) the Galois-
+  norm of phi is -1 (negative unit), not phi^2. A*A=A^2 is trivial for symmetric matrices; the
+  only real residues are (a) squared quantum dims phi->phi^2 and (b) the amplitude->probability
+  quadratic-extension descent -- both REAL-positive squares, NEITHER the complex c-swap Born
+  norm. Interference (cross terms psi_i c(psi_j)) is not captured by A^2 at all.
+
+==============================================================================
+PART D -- BASE-RATE GATE and OVERALL VERDICT
+==============================================================================
+
+Base-rate rejections applied (no look-elsewhere rescue):
+ - 'A real quadratic field has an S-matrix-like object' -> NOT auto-Born. Discriminator demanded:
+   the object must supply BOTH (a) non-uniform |amp|^2 weights AND (b) complex interference phase.
+ - 'A^2=M looks like |psi|^2' rejected: A*A=A^2 is generic to symmetric matrices; the conjugation-
+   norm of the golden amplitude is -1 (unit), not phi^2 -- the operations are provably different.
+ - 'hearing=Q(sqrt5) supplies the complex content' rejected AND SHARPENED: Q(sqrt5) is REAL; the
+   phase lives in the cyclotomic upgrade Q(zeta5), and Q(sqrt5) is precisely its c-swap-FIXED
+   subfield. Moreover (v1 correction) even the REAL S/F AMPLITUDES are not in bare Q(sqrt5): they
+   need a REAL QUARTIC extension Q(sqrt(phi))/Q(sqrt(2+phi)) (deg 4, minpolys computed above,
+   NOT the complex Q(zeta5)). Bare Q(sqrt5) cleanly owns only the PROBABILITY WEIGHTS.
+
+Ingredient ownership (computed field-by-field, not analogized):
+   FORM (|.|^2 = order-2 conjugation-norm, quadratic)     : BEING   (Q(sqrt-3) complex conj = J; B725)
+   NON-UNIFORM WEIGHTS (d_a^2/D^2 = 1:phi^2, real)         : HEARING, bare Q(sqrt5) -- CLOSES this half
+   AMPLITUDE NORMALIZATION (S,F entries; phi^-1/2, 1/D)    : REAL QUARTIC Q(sqrt(phi))/Q(sqrt(2+phi))
+                                                             -- a real extension ABOVE Q(sqrt5). UNBANKED.
+   INTERFERENCE PHASE (zeta5 braiding/twist, complex)      : Q(zeta5) = hearing's CYCLOTOMIC UPGRADE
+                                                             -- NOT bare Q(sqrt5), NOT being(zeta3). UNBANKED.
+
+OVERALL = OUTCOME B (honestly bounded partial closure):
+ * The hearing genuinely CLOSES the non-uniform-weight half of the B725 gap: the being's forced-
+   UNIFORM Haar over vacua is replaced by the golden 1:phi^2 quantum-dimension weights, and these
+   are EXACTLY the part that reduces to bare real Q(sqrt5) (minpoly 5x^2-5x+1). The bare hearing
+   field is the field of the PROBABILITIES.
+ * But the two BARE quadratic faces do NOT together supply either the AMPLITUDES or the PHASE:
+   - the interference phase needs the cyclotomic Q(zeta5) (the being's phases are zeta3, wrong order);
+   - even the real S/F amplitudes need a real quartic Q(sqrt(phi))/Q(sqrt(2+phi)) above Q(sqrt5).
+ * And the A^2=M / amplitude-square hook is an OVER-READ (false pattern-match; generic-to-symmetric).
+ => The clean 'full observer = being(collapse) + hearing(unitary) = the two halves of QM' is
+    PLAUSIBLE and sharper, but NOT closed: two unbanked field extensions (real quartic for the
+    amplitudes, cyclotomic zeta5 for the phase) are owned by NEITHER bare face, and one supporting
+    hook (A^2=M=Born-square) does not survive base-rate. The correction TIGHTENS the negative: bare
+    Q(sqrt5) owns the probabilities but not the amplitudes.
+
+Firewall: structural/operator-algebra/field-theory only. No SM value. No 'measurement problem solved'.
+Observer's choice remains FREE (B701). Nothing to CLAIMS.
+
+DONE.

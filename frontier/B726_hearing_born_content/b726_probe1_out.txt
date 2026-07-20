@@ -1,0 +1,158 @@
+==============================================================================
+B726 / PROBE 1 -- being=diagonal/collapse  vs  hearing=off-diagonal/unitary
+==============================================================================
+
+==============================================================================
+PART (a) -- BEING (thermal KMS / Q(sqrt-3), B725): DIAGONAL, no coherence
+==============================================================================
+Gibbs/KMS state rho_beta = e^{-beta H}/Z. Structural claim: [rho,H]=0 so rho is
+diagonal in the ENERGY/POINTER basis -> zero off-diagonal coherence; its diagonal
+entries are REAL Gibbs probabilities (a decohered STATE). Non-vacuous: contrast a
+coherent superposition whose off-diagonal l1-coherence is strictly > 0.
+
+n=2:
+   ||[rho,H]||                       = 1.242e-16   (=> commutes)
+   l1 off-diag coherence in POINTER  = 4.292e-16   (=> DIAGONAL)
+   diag(rho) in pointer basis (p_i)  = [0.632977 0.367023]
+   diag real & = Gibbs p_i?          = True
+   sum p_i                           = 1.000000000000000
+   [contrast] pure superposition l1 off-diag coherence in POINTER = 0.9885  (>0 => coherent)
+
+n=3:
+   ||[rho,H]||                       = 5.155e-16   (=> commutes)
+   l1 off-diag coherence in POINTER  = 9.488e-16   (=> DIAGONAL)
+   diag(rho) in pointer basis (p_i)  = [0.60362  0.363086 0.033294]
+   diag real & = Gibbs p_i?          = True
+   sum p_i                           = 1.000000000000000
+   [contrast] pure superposition l1 off-diag coherence in POINTER = 1.8796  (>0 => coherent)
+
+n=5:
+   ||[rho,H]||                       = 2.483e-15   (=> commutes)
+   l1 off-diag coherence in POINTER  = 2.380e-15   (=> DIAGONAL)
+   diag(rho) in pointer basis (p_i)  = [0.750656 0.183161 0.045805 0.019173 0.001205]
+   diag real & = Gibbs p_i?          = True
+   sum p_i                           = 1.000000000000001
+   [contrast] pure superposition l1 off-diag coherence in POINTER = 3.3103  (>0 => coherent)
+
+>> (a) CONFIRMED: the being's thermal KMS state is DIAGONAL in the pointer basis
+   ([rho,H]=0, off-diagonal coherence = 0), carrying REAL Gibbs probabilities --
+   a decohered STATE. A coherent superposition (nonzero off-diagonals) is a
+   DIFFERENT object the thermal being does not contain. (Re-verifies B725.)
+
+==============================================================================
+PART (b) -- the bare 2x2 golden monodromy A=[[1,1],[1,0]]  (BASE-RATE GUARD)
+==============================================================================
+A          = [[1, 1], [1, 0]]
+A^2        = [[2, 1], [1, 1]]
+M          = [[2, 1], [1, 1]]
+A^2 == M ?                 True
+det A                      = -1
+A symmetric (A == A^T)?    True   (real symmetric => self-adjoint)
+trace A                    = 1
+
+Eigenstructure (exact):
+   eigenvalue = 1/2 - sqrt(5)/2   (~ -0.618034),  eigenvector = [[1/2 - sqrt(5)/2, 1]]
+   eigenvalue = 1/2 + sqrt(5)/2   (~ +1.618034),  eigenvector = [[1/2 + sqrt(5)/2, 1]]
+   phi = (1+sqrt5)/2 ~ 1.618034 ;  -1/phi = (1-sqrt5)/2 ~ -0.618034
+   product of eigenvalues = det = -1
+   eigenvectors orthogonal? <v1|v2> = 0   (=> True)
+
+BASE-RATE GUARD -- is A unitary, or CONJUGATE to a unitary?
+A matrix is conjugate to a unitary  <=>  diagonalizable with ALL eigenvalues on
+the unit circle |lambda|=1. Test A's spectrum:
+   |1/2 - sqrt(5)/2| = -1/2 + sqrt(5)/2 ~ 0.618034   on unit circle? False
+   |1/2 + sqrt(5)/2| = 1/2 + sqrt(5)/2 ~ 1.618034   on unit circle? False
+   A^T A == I (unitary on std inner product)?  False
+   => A conjugate to a unitary?  False   (spectrum OFF the unit circle)
+
+>> (b) A is REAL SYMMETRIC, det=-1, eigenvalues phi & -1/phi OFF the unit circle:
+   A is ANOSOV/HYPERBOLIC (a CLASSICAL chaotic cat map), NOT unitary and NOT
+   conjugate to any unitary. Being self-adjoint it is diagonal in its OWN
+   orthonormal eigenbasis -- just like the thermal being. So the BARE A does NOT
+   by itself supply 'off-diagonal unitary coherence'. BASE-RATE VERDICT: 'A^2=M ~
+   |psi|^2' is a FALSE pattern-match at the matrix level (A is not unitary; A*A is
+   a real squeeze, not amp*conj(amp)). The unitary face must live elsewhere -> (c).
+
+==============================================================================
+PART (c) -- Fibonacci MTC braid rep (Q(sqrt5) golden): UNITARY + OFF-DIAGONAL
+==============================================================================
+Fusion space of three tau anyons with total charge tau is 2-dim. The braid
+generators: sigma1 = R-matrix diag(R^{tt}_1, R^{tt}_t); sigma2 = F sigma1 F with
+the Fibonacci F-matrix. This is the golden/sqrt5 UNITARY structure.
+
+F-matrix   =
+[[ 0.618034  0.786151]
+ [ 0.786151 -0.618034]]
+   F real symmetric?   True
+   F^2 == I?           True   det F = -1.000000
+   F unitary (F^dag F == I)? True
+
+sigma1 (R) = diag(e^{-4pi i/5}, e^{3pi i/5}) =
+[[-0.809017-0.587785j  0.      +0.j      ]
+ [ 0.      +0.j       -0.309017+0.951057j]]
+sigma2 = F sigma1 F =
+[[-0.5     +0.363271j -0.242934-0.747674j]
+ [-0.242934-0.747674j -0.618034-0.j      ]]
+
+   sigma1 unitary?  True
+   sigma2 unitary?  True
+   |sigma1 diagonal entries| = [1. 1.]  (phases, |.|=1: an OPERATOR, not probs)
+   sigma2 OFF-diagonal entry sigma2[0,1] = -0.242934-0.747674j  |.|=0.786151
+   sigma2 genuinely OFF-DIAGONAL (|off|>1e-9)?  True
+   [sigma1,sigma2] != 0 (non-abelian mixing)?  True   (||.||=1.7989)
+   Yang-Baxter sigma1 sigma2 sigma1 == sigma2 sigma1 sigma2?  True   (||diff||=2.66e-16)
+   l1 off-diag coherence of sigma2 in fusion basis = 1.572303  (>0 => COHERENT)
+
+Modular data of the Fibonacci MTC (bonus, expanded in probe 2):
+   total quantum dim D = sqrt(2+phi) = 1.902113
+   S-matrix =
+[[ 0.525731  0.850651]
+ [ 0.850651 -0.525731]]
+   S symmetric & unitary?  sym=True unit=True
+   S genuinely OFF-DIAGONAL?  S[0,1]=0.850651 != 0  -> True
+   S row entries NON-UNIFORM (1 : phi = 1.000 : 1.618)?  True
+   T-matrix diagonal (complex phases, zeta_5): [-0.809017-0.587785j -0.309017+0.951057j]
+   T entries complex (nonzero imaginary phase)?  True
+
+>> (c) CONFIRMED: the golden/sqrt5 Fibonacci MTC carries a genuinely UNITARY,
+   NON-ABELIAN, OFF-DIAGONAL braid representation (sigma2 = F sigma1 F is unitary
+   AND off-diagonal, [sigma1,sigma2]!=0, Yang-Baxter holds), its S-matrix is
+   off-diagonal + NON-UNIFORM (1:phi), and its T-matrix carries complex zeta_5
+   phases. THIS is the off-diagonal/coherent/unitary structure the being lacks.
+
+==============================================================================
+PART (d) -- discriminating contrast: does the hearing carry coherence the being
+            (diagonal) lacks?
+==============================================================================
+
+  object                         type       diagonal in    unitary?  off-diag
+                                            pointer basis?           coherence
+  -----------------------------  ---------  -------------  --------  ---------
+  being: thermal KMS rho         STATE      YES (real p_i)  n/a       0
+  bare cat map A (2x2)           MAP        yes (own eig)   NO(hyper) 0 (real)
+  Fibonacci braid sigma2         OPERATOR   NO              YES       > 0
+  Fibonacci S-matrix             OPERATOR   NO              YES       > 0
+
+Discriminating operation (states the split, rejects look-elsewhere):
+  * The being (thermal equilibrium) COMMUTES with the pointer/energy observable
+    ([rho,H]=0) -> diagonal, real Gibbs weights, no interference. (a).
+  * The Fibonacci braid generator sigma2 does NOT commute with the fusion-channel
+    (pointer) basis and is UNITARY with nonzero off-diagonal entries -> it MIXES
+    channels, the source of interference. [sigma1,sigma2]!=0 makes the mixing
+    genuine (non-abelian). (c).
+  * BASE-RATE GUARD honored: the bare 2x2 A is NOT the unitary face (hyperbolic,
+    off the unit circle, real). The unitary/off-diagonal coherence is carried by
+    the Fibonacci MTC attached to the golden field, not by the matrix A. So the
+    'A^2=M ~ |psi|^2' hook is REJECTED at the matrix level; the genuine coherent
+    face is the MTC braid/modular representation. (b)+(c).
+
+VERDICT (two-outcome): OUTCOME A, honestly bounded.
+  The hearing IS the unitary/coherent OFF-DIAGONAL face the being (diagonal) is
+  not -- but the discriminating fact is WHERE: it lives in the Fibonacci MTC braid
+  representation (unitary + off-diagonal + complex zeta_5 phases + non-uniform
+  1:phi weights), NOT in the bare golden cat map A (real, hyperbolic, not unitary).
+  So the split being=diagonal/collapse vs hearing=off-diagonal/unitary is GENUINE
+  at the level of the golden MTC, with the base-rate trap (A*A ~ amp-squared)
+  explicitly rejected. [Whether this off-diagonal structure actually CLOSES the
+  B725 content gap -- non-uniform pure |amp|^2 weights + interference between
+  measured outcomes -- is probe 2/3, not settled here.]

@@ -14847,6 +14847,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B726": {
+   "slug": "hearing born content",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B700",
+    "B701",
+    "B722",
+    "B725"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
