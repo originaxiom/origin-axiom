@@ -1796,4 +1796,4 @@ on recovery).
 - [ ] R26-4: the TOP-LEVEL DISPOSITION statement — the owner DEFERRED it (chose to pursue the remaining math doors); the earned computed basis (B727/B728/B729: the SM-bridge hope closed, generic both seats) is banked and ready to state whenever the owner elects (owner: owner; source: the B727/B728 convergence + the disposition fork)
 - [ ] R26-5: the two bigger un-opened math doors — the OBJECT-LEVEL observer (m004's Bianchi PSL(2,O₃) arithmetic + cusp, cc2's long-flagged catch; cheap substep = confirm m004 trace field/Bianchi vs Neumann–Reid/Maclachlan–Reid) and arithmetic Chern–Simons (B707/B708); pursue as pure math under the corrected framing (owner: cc; source: B723 catch + B729 standing-open)
 
-anchor-commit: `PENDING` (Review 26)
+anchor-commit: `7e40985` (Review 26)
