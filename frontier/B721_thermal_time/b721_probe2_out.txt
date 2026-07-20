@@ -1,0 +1,119 @@
+==============================================================================
+B721 PROBE 2 -- THE TORSOR IDENTIFICATION (being-Z/2  vs  CMR Gal(K^ab/K))
+==============================================================================
+
+OUR being-torsor (B700 cell 2, docs/LAW_MAP.md line 99):
+    T_being = Gal(Q(sqrt-3)/Q) = Z/2  (the geometric swap sigma*: sqrt-3 |-> -sqrt-3).
+    BASE FIELD = Q.  It is the Galois group of the QUADRATIC extension K/Q.
+    Order 2.  One of the three involutions of V4 = Gal(Q(sqrt-3,sqrt5)/Q) (being x hearing
+    = meeting).
+
+CMR torsor (Connes-Marcolli-Ramachandran, math/0501424, "KMS states and complex
+multiplication", Connes/Marcolli/Ramachandran, 24 Jan 2005; abstract confirms
+"the idele class group as group of symmetries" + explicit CFT; the extremal
+zero-temperature KMS states form a principal homogeneous space (torsor) under the
+symmetry group  C_K/D_K  ~=  Gal(K^ab/K)  acting SIMPLY TRANSITIVELY, intertwining the
+symmetry with the Galois action on state values):
+    T_CMR = Gal(K^ab/K),   K = Q(sqrt-3).
+    BASE FIELD = K = Q(sqrt-3).  It is the Galois group of K^ab OVER K.
+    By class field theory  Gal(K^ab/K) ~= C_K / D_K  (idele class group mod connected
+    component) -- an INFINITE PROFINITE ABELIAN group.
+
+------------------------------------------------------------------------------
+1. K = Q(sqrt-3): the arithmetic of the CMR side
+------------------------------------------------------------------------------
+   defining poly     : x^2 + 3
+   discriminant      : -3
+   class number h(K) : 1   (=> Hilbert class field = K itself)
+   unit group O_K^x  : Unit group with structure C6 of Number Field in a with defining polynomial x^2 + 3 with a = 1.732050807568878?*I  (mu_6 = Eisenstein units {+-1,+-w,+-w^2})
+   O_K = Z[w], w = (1+sqrt-3)/2 = zeta_6  (Eisenstein integers)
+
+   CMR torsor Gal(K^ab/K) = inverse limit of the ray class groups Cl_m(K)
+   = Gal(K(m)/K), the finite quotients. Computed (pari bnrinit):
+
+     conductor m |  |Cl_m(K)|  |  cyclic structure Gal(K(m)/K)
+     ------------+-------------+------------------------------
+               2 |           1 | [] (trivial)
+               3 |           1 | [] (trivial)
+               4 |           2 | [2]
+               5 |           4 | [4]
+               7 |           6 | [6]
+               8 |           8 | [4, 2]
+               9 |           9 | [3, 3]
+              11 |          20 | [20]
+              13 |          24 | [12, 2]
+              16 |          32 | [8, 4]
+              25 |         100 | [20, 5]
+              32 |         128 | [16, 8]
+              49 |         294 | [42, 7]
+
+   The orders are UNBOUNDED (1, 1, 2, 4, 6, 8, 9, 20, ...): the inverse limit Gal(K^ab/K) is an
+   INFINITE profinite abelian group. Structurally (h=1):
+       Gal(K^ab/K)  ~=  hat(O_K)^x / closure(O_K^x)
+   where hat(O_K)^x = prod_p O_{K,p}^x (profinite), O_K^x = mu_6.  NOT Z/2.
+
+------------------------------------------------------------------------------
+2. Our being side: T_being = Gal(K/Q) = Z/2, base field Q
+------------------------------------------------------------------------------
+   Gal(Q(sqrt-3)/Q) = Galois group 2T1 (S2) with order 2 of x^2 + 3, order = 2
+   generator: complex conjugation c : sqrt-3 |-> -sqrt-3  (fixes Q, MOVES K).
+   This is the Galois group of K OVER Q -- base field Q, NOT K.
+
+------------------------------------------------------------------------------
+3. THE DISCRIMINATING FACT: kernel vs quotient of ONE group Gal(K^ab/Q)
+------------------------------------------------------------------------------
+
+   K^ab is Galois over Q (it is the maximal abelian extension of K, and K/Q is normal,
+   so any Q-automorphism of Qbar preserves K hence K^ab). Hence the SHORT EXACT SEQUENCE
+
+       1 --> Gal(K^ab/K) --> Gal(K^ab/Q) --> Gal(K/Q) --> 1
+             \_____________/                 \__________/
+              = T_CMR (infinite,               = T_being (Z/2,
+                profinite abelian)               our torsor)
+
+   places the two objects as COMPLEMENTARY pieces of ONE bigger group:
+     * T_CMR  = Gal(K^ab/K) is the (INFINITE) KERNEL.
+     * T_being = Gal(K/Q)    is the (ORDER-2) QUOTIENT.
+
+   They are NOT nested. Concretely:
+     (a) The nontrivial element of T_being (complex conjugation) does NOT fix K, so it
+         is NOT an element of Gal(K^ab/K). => T_being is not a sub-torsor of T_CMR.
+     (b) Gal(K^ab/K) DOES surject onto many Z/2's, but each such Z/2 = Gal(L/K) is a
+         QUADRATIC EXTENSION *OF* K inside K^ab (e.g. the conductor-4 ray class group
+         C_2 above), indexed by conductor -- infinitely many, none canonically equal to
+         Gal(K/Q). Gal(K/Q) is about K OVER Q, a different base field entirely.
+         => T_being is not a canonical quotient-torsor of T_CMR either.
+
+   THE ONE GENUINE LINK (rung-2 structural relation, but NOT an embedding):
+     T_being = Gal(K/Q) ACTS on T_CMR = Gal(K^ab/K) by conjugation in the extension.
+     For imaginary-quadratic (CM) K this outer action is the CM/anticyclotomic
+     involution: c fixes the cyclotomic part Gal(K.Q^ab / K) (since K.Q^ab is abelian
+     over Q) and acts by INVERSION (g |-> g^{-1}) on the anticyclotomic (CM) part.
+     So the being-Z/2 is the STRUCTURE GROUP that ACTS ON the CMR torsor -- it is not a
+     PIECE of it.
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+
+  OUTCOME B  (rung-mismatch, field matches but base-fields / torsor structures differ).
+
+  * RUNG 1 (field): CLEARED. Q(sqrt-3) genuinely appears on both sides -- the CMR CM
+    system is built on exactly the object's being field. Real, non-trivial.
+
+  * RUNG 2 (torsor/Galois): the claimed EMBEDDING FAILS.
+      - T_being = Gal(K/Q) = Z/2, over base field Q.
+      - T_CMR   = Gal(K^ab/K), over base field K = Q(sqrt-3); infinite profinite abelian
+        (ray class groups unbounded: 2,4,6,8,9,20,24,32,100,...).
+      - They are the QUOTIENT and the KERNEL of Gal(K^ab/Q), i.e. COMPLEMENTARY pieces
+        over DIFFERENT base fields, not nested. Our Z/2 ACTS on the CMR torsor (by the
+        CM involution / inversion on the anticyclotomic part); it is NOT a sub- or
+        quotient-torsor of it.
+
+  DISCRIMINATING FACT: in  1 -> Gal(K^ab/K) -> Gal(K^ab/Q) -> Gal(K/Q) -> 1, the CMR
+  ground-state torsor is the infinite KERNEL and the object's being-Z/2 is the order-2
+  QUOTIENT of the SAME group -- over base fields K and Q respectively. Being-Z/2 is the
+  group that ACTS ON (the CM inversion of) the CMR torsor, not a canonical piece inside
+  it. FIELD-matched (rung 1) with a genuine rung-2 exact-sequence RELATION, but NOT the
+  rung-2 sub-torsor EMBEDDING that Outcome A requires.
+

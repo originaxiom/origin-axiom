@@ -1,5 +1,12 @@
 # Changelog
 
+## B721 — the thermal-time coupling: field-matched, rung-mismatch; two clocks
+- cc2's LEAD 1 (CMR KMS-torsor over Q(sqrt-3)) tested as a web-enabled multiagent loop campaign. Outcome B.
+- Field-matched + rung-2 relation (being-Z/2 acts on the CMR torsor by CM-inversion) but NOT an identity (complementary torsors).
+- TWO clocks: object's own time = measure-preserving tracial type II_1 (trivial modular flow); thermal CMR clock = type III.
+- Marcolli-Xu QSM is knot-independent (wrong tool). Reconfirms B706 at the operator-algebra level. 4 locks; nothing to CLAIMS. Credit cc2.
+
+
 ## B720 — the coupling-path map (cc2 sweep, verified-banked)
 - 3 NO-MATCH reconfirm B706 3 ways (renormalization/Gaussian; holography/3d-no-local-DOF; positive-geometry/wrong-regime).
 - 2 arithmetic leads: thermal-time/CMR KMS-torsor over Q(sqrt-3) (strongest, UNBUILT -> B721); resurgence/Kashaev (Galakhov-Morozov verified real).
