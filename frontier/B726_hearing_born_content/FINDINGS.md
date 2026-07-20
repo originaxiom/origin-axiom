@@ -72,3 +72,9 @@ single missing calibration on the flagship structural claim.
 
 Credit owner (the hearing-face hypothesis — vindicated on the weights); cc2 (the naivety discipline
 + the Stokes-resummation sharpening). Choice free (B701).
+
+---
+**Correction (B729/B730):** the table above labels the AMPLITUDES field ℚ(√φ). That is the
+**F-symbol/associator** field (D₄, x⁴−x²−1). The actual Born S-matrix AMPLITUDES (1/D, φ/D,
+D=√(2+φ)) live in **ℚ(√(2+φ)) = ℚ(ζ₂₀)⁺** (C₄, totally real, x⁴−5x²+5) — see B729. The overlay
+verdict is unchanged; the field label is corrected.

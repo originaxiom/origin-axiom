@@ -1,5 +1,11 @@
 # Changelog
 
+## B730 — the forced faces (Klein-four V₄) + the cosmic-topology meeting point (real math, physics NIL)
+- Owner's three-question message, asked to cc AND cc2 separately. THREE-WAY converged (cc independent census+research; cc2 faces; cc2 capstone).
+- Q1 (B): exactly 3 forced faces = V₄ (being ℚ(√−3), hearing ℚ(√5), meeting ℚ(√−15) fund. disc −15). ℚ(√−7) is a STAGE not a face — proven 3 ways incl. cc's SL(n)-tower angle (adjoining √−7 explodes V₄ to (ℤ/2)³).
+- Q3 (A): universe measured FLAT, all topology searches NULL; but m004's OWN (5,1) child IS the Thurston manifold (#2 smallest closed hyperbolic, used in Inoue CMB work); being washes out on filling (child itf x⁴−x−1 S₄ disc −283). Real math; physics NIL.
+- Vision firewalled → S071. One open frontier carried: the object-level observer at m004's CONGRUENCE LEVEL (cc2 capstone). B726 erratum corrected. 4 locks; nothing to CLAIMS.
+
 ## B729 — the amplitude sector is an overlay too; the Born ledger COMPLETES
 - Owner 'pursue the math doors'. Completes the Born-content thread. All 3 probes OUTCOME B.
 - The object does NOT force √(2+φ) (ramified {2,5}, disjoint from prime 3); PSLQ over 33 filling trace fields found nothing.

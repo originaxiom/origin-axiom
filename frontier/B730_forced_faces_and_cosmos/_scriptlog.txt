@@ -1,0 +1,30 @@
+========================================================================
+B730 Q3 (cc) -- cosmic-topology meeting point: OBJECT-SIDE VERIFICATION
+========================================================================
+
+(d) Closed-census ordering  (OrientableClosedCensus, snappy 3.3.2)
+    smallest closed orientable hyperbolic 3-manifolds by volume:
+      #1  m003   vol = 0.9427073628
+      #2  m003   vol = 0.9813688289
+      #3  m007   vol = 1.0149416064
+      #4  m003   vol = 1.2637092387
+
+    m004(5,1): vol = 0.98136882889  cusps=1  orientable=True
+    m004(5,1)  is_isometric_to  m003(-2,3) [Thurston mfd] : True
+    => m004(5,1) IS the Thurston manifold, #2-smallest closed (vol 0.9813).
+    Weeks m003(-3,1) vol = 0.9427073628  = #1-smallest, and is a filling of m003,
+       the figure-eight SISTER.  => Weeks = the sister's (-3,1) child.
+
+(e) Does the object's 'being' field Q(sqrt-3)=Eisenstein survive filling?
+    OPEN object m004           best deg-2 fit residual = 2.6e-122   GENUINE deg-2 field (Q(sqrt-3) Eisenstein)
+    child m004(5,1)/Thurston   best deg-2 fit residual = 2.9e-37   NO genuine deg-2 -> higher (cubic) field
+    Weeks m003(-3,1)           best deg-2 fit residual = 2.2e-36   NO genuine deg-2 -> higher (cubic) field
+
+    Literature/PARI cross-check: Weeks invariant trace field = cubic
+      x^3 - x + 1,  nfdisc = -23  (smallest-|disc| complex cubic; Maclachlan-Reid).
+    => the closed child carries a CUBIC trace field, NOT the quadratic
+       Eisenstein 'being' of the open object.  B718 confirmed: being washes out.
+
+========================================================================
+VERDICT: real-MATH meeting point (physics NIL, base-rate bounded) -- see _out.txt
+========================================================================
