@@ -1,0 +1,146 @@
+==============================================================================
+STEP 0 — RECOMPUTED torsion magnitudes (from B581 exact quotients, monic norm)
+==============================================================================
+  |tau_1 | =                                        3   log10 =   0.4771   sign(tau)=-1
+  |tau_4 | =                                   260736   log10 =   5.4162   sign(tau)=+1
+  |tau_5 | =                                165110400   log10 =   8.2178   sign(tau)=-1
+  |tau_7 | =                         3257341296168960   log10 =  15.5129   sign(tau)=-1
+  |tau_8 | =                    100636318520821923840   log10 =  20.0028   sign(tau)=+1
+  |tau_11| =    6908092175170718629633808125667573760   log10 =  36.8394   sign(tau)=-1
+
+  Prompt's asserted magnitudes vs recomputed:
+    |tau_1|=3 OK; |tau_4|=260736 OK; |tau_5|=165110400 OK
+    |tau_7| = 3.257e+15  (prompt 3.257e15)
+    |tau_8| = 1.006e+20  (prompt 1.006e20)
+    |tau_11|= 6.908e+36 (prompt 6.908e36)
+
+  theta-ODD  exponents (sign +, the 'unstable/broken' sector): [4, 8]
+  theta-EVEN exponents (sign -, = F4 exponents {1,5,7,11}):    [1, 5, 7, 11]
+
+==============================================================================
+STEP 1 — the observed near-hit tau_11/tau_8 vs actual hierarchy scales
+==============================================================================
+  log10(tau_11/tau_8) = 16.8366   (tau_11/tau_8 = 6.864e+16)
+    vs M_Pl / v_Higgs (1.22e19 / 246)    : target log=16.695  |Delta log|=0.141  factor=1.38
+    vs M_Pl / M_W     (1.22e19 / 80.4)   : target log=17.181  |Delta log|=0.345  factor=2.21
+    vs M_Pl_red / v   (2.435e18 / 246)   : target log=15.996  |Delta log|=0.841  factor=6.93
+    vs round 10^17                       : target log=17.000  |Delta log|=0.163  factor=1.46
+    vs round 10^16                       : target log=16.000  |Delta log|=0.837  factor=6.86
+
+==============================================================================
+STEP 2 — BASE RATE over all simple products/ratios of <=3 torsions
+==============================================================================
+  total distinct simple combos (|S|<=3, signed):  232
+  pure 2-torsion ratios t_a/t_b (ordered):        30
+
+--- (a) BASE RATE at 10^17, factor-3 tolerance (|Dlog|<0.477) ---
+  [all <=3 combos] target log=17.00, tol=+-0.477 (factor 3.0):
+          3/232 =  1.29% within tolerance
+  [pure 2-ratios] target log=17.00, tol=+-0.477 (factor 3.0):
+          1/ 30 =  3.33% within tolerance
+
+--- (a') factor-2 tolerance (|Dlog|<0.301) ---
+  [all <=3 combos] target log=17.00, tol=+-0.301 (factor 2.0):
+          2/232 =  0.86% within tolerance
+  [pure 2-ratios] target log=17.00, tol=+-0.301 (factor 2.0):
+          1/ 30 =  3.33% within tolerance
+
+--- (a'') tightest: the OBSERVED |Dlog|=0.16 tolerance (factor 1.46) ---
+  [all <=3 combos] target log=17.00, tol=+-0.163 (factor 1.5):
+          1/232 =  0.43% within tolerance
+  [pure 2-ratios] target log=17.00, tol=+-0.163 (factor 1.5):
+          1/ 30 =  3.33% within tolerance
+
+  pure 2-ratios closest to 10^17:
+      t11/t8     log= 16.837  |Dlog to 17|=0.163  factor=1.46
+      t7/t1      log= 15.036  |Dlog to 17|=1.964  factor=92.10
+      t8/t4      log= 14.587  |Dlog to 17|=2.413  factor=259.09
+      t8/t1      log= 19.526  |Dlog to 17|=2.526  factor=335.45
+      t11/t7     log= 21.326  |Dlog to 17|=4.326  factor=21207.76
+      t8/t5      log= 11.785  |Dlog to 17|=5.215  factor=164066.42
+
+==============================================================================
+STEP 3 — LOOK-ELSEWHERE: how easy is it to hit SOME famous ratio?
+==============================================================================
+  combo log-values span [-72.4, 72.4]; N=232 combos.
+  density in [0,40]: 2.3 combos per decade
+  => expected # combos within factor-3 (+-0.477 dec) of ANY fixed target ~ 2.2
+  => expected # within factor-2 (+-0.301 dec) ~ 1.4
+
+  'garden of forking paths' — near-hits (factor 3) to OTHER famous numbers:
+    proton/electron mass (1836)    log=  3.26:  3 combos w/in factor3; closest t1*t5/(t4) (1.03x)
+    1/alpha_em (137)               log=  2.14:  2 combos w/in factor3; closest t5/(t1*t4) (1.54x)
+    M_Pl/v hierarchy (5e16)        log= 16.70:  2 combos w/in factor3; closest t11/(t8) (1.38x)
+    M_Pl (in GeV, 1.2e19)          log= 19.09:  1 combos w/in factor3; closest t8/(t1) (2.75x)
+    M_GUT/M_W (~1e14)              log= 14.00:  3 combos w/in factor3; closest t8/(t1*t4) (1.29x)
+    baryon asymmetry 1/eta (1e9)   log=  9.00:  2 combos w/in factor3; closest t1*t5 (2.02x)
+    N_Avogadro (6e23)              log= 23.78:  2 combos w/in factor3; closest t5*t7 (1.12x)
+  => 7/7 famous targets have a factor-3 near-hit among the combos.
+
+==============================================================================
+STEP 4 — FORCED / PRINCIPLED combinations (the crux)
+==============================================================================
+  Each forced rule, its log10, and distance to 10^17:
+    R1: tau_8/tau_4  (the two theta-ODD torsions, top/bottom) log=  14.587  |Dlog17|= 2.413 (x259.09)
+    R1': tau_4/tau_8                                     log= -14.587  |Dlog17|=31.587 (x38597017105739943036439752605696.00)
+    R2: tau_11/tau_8 (top-exp / top-theta-odd = OBSERVED) log=  16.837  |Dlog17|= 0.163 (x1.46)  <-- within factor 3 of 10^17
+    R3: prod(theta-even 1,5,7,11) / prod(theta-odd 4,8)  log=  35.628  |Dlog17|=18.628 (x4247773327567557632.00)
+    R3': prod(theta-odd 4,8) / prod(theta-even 1,5,7,11) log= -35.628  |Dlog17|=52.628 (x42477733275675572630854463399206588123273186481537024.00)
+    R4: tau_11/tau_1 (top/bottom exponent)               log=  36.362  |Dlog17|=19.362 (x23026973917235806208.00)
+    R5.step: tau_4/tau_1 (adjacent exps)                 log=   4.939  |Dlog17|=12.061 (x1150589101620.03)
+    R5.step: tau_5/tau_4 (adjacent exps)                 log=   2.802  |Dlog17|=14.198 (x157916157916157.81)
+    R5.step: tau_7/tau_5 (adjacent exps)                 log=   7.295  |Dlog17|= 9.705 (x5068870130.19)
+    R5.step: tau_8/tau_7 (adjacent exps)                 log=   4.490  |Dlog17|=12.510 (x3236745286439.50)
+    R5.step: tau_11/tau_8 (adjacent exps)                log=  16.837  |Dlog17|= 0.163 (x1.46)  <-- within factor 3 of 10^17
+    R6: sqrt(tau_11/tau_1)  (E6->SO(10)->SU(5) two-step, geometric) log=  18.181  |Dlog17|= 1.181 (x15.17)
+    R7: tau_8 / 7983360 (control: object-internal sum-rule) log=  13.101  |Dlog17|= 3.899 (x7932.88)
+
+  Best forced rule within factor 3: R2: tau_11/tau_8 (top-exp / top-theta-odd = OBSERVED)  (|Dlog|=0.163)
+
+==============================================================================
+STEP 4b — the FOUR theta-EVEN/F4 exponents {1,5,7,11}: any near-17 combo?
+==============================================================================
+  F4 exponents (four theta-EVEN): [1, 5, 7, 11]
+  logs: log|tau_1|=0.477, log|tau_5|=8.218, log|tau_7|=15.513, log|tau_11|=36.839
+  total signed products/ratios over {1,5,7,11} (sizes 1-4): 80
+
+  ALL distinct |log10| magnitudes in the F4-only space (computed, not cited):
+    0.477 6.818 7.295 7.741 7.772 8.218 8.695 12.632 13.109 13.586 15.036
+    15.513 15.990 20.849 21.326 21.804 23.254 23.731 24.208 28.144 28.622
+    29.067 29.099 29.544 30.021 36.362 36.839 37.316 43.657 44.134 44.580
+    44.612 45.057 45.534 51.875 52.352 52.829 60.093 60.570 61.047
+
+  F4-only combos CLOSEST to 10^17 (the actual test of chat-1's claim):
+    t1*t7                  log=  15.990  |Dlog17|=1.010  factor=10.23
+    1/(t1*t7)              log= -15.990  |Dlog17|=1.010  factor=10.23
+    t7                     log=  15.513  |Dlog17|=1.487  factor=30.70
+    1/(t7)                 log= -15.513  |Dlog17|=1.487  factor=30.70
+    t1/(t7)                log= -15.036  |Dlog17|=1.964  factor=92.10
+    t7/(t1)                log=  15.036  |Dlog17|=1.964  factor=92.10
+
+  => CLOSEST F4-only combo to 10^17: t1*t7 (log 15.990), factor 10.2 away — NOT within the factor-3 base-rate window.
+
+  The four 'landmark' F4-only magnitudes (honest, in-sandbox values):
+    full product  t1*t5*t7*t11       log10 =  61.047
+    2-2 split     t1*t5/(t7*t11)     log10 =  43.657
+    2-2 split     t1*t11/(t5*t7)     log10 =  13.586
+    top/bottom    t11/t1             log10 =  36.362
+  (These are the correctly-computed replacements for the previously-asserted
+   figures ~61.0, ~43.7, ~13.6, ~36.4. NO F4-only combo sits near ~10^26; the
+   nearest real magnitudes there are 24.208 and 28.144 — the earlier '10^26.2'
+   was an uncomputed estimate and is retracted.)
+
+==============================================================================
+STEP 5 — VERDICT
+==============================================================================
+  Most-principled a-priori 2-combo (theta-odd sector ratio tau_8/tau_4):
+     log = 14.587 = 10^14.59  -> MISSES 10^17 by factor 259.
+  The OBSERVED hit tau_11/tau_8 (log 16.84) requires choosing 'top exp / top theta-odd',
+     which is a POST-HOC selection, not forced by the theta-structure.
+
+  BASE RATE: pure 2-ratios within factor 3 of 10^17: 1/30 = 3.3%  (refines chat-1's ~3%)
+  Expected # of <=3-combos within factor 3 of a random target ~ 2.2  (>1 => a hit somewhere is EXPECTED, not surprising).
+  chat-1's FOUR unstable exponents = theta-EVEN/F4 {1,5,7,11}: closest of its 80 signed combos to 10^17 is t1*t7 (factor 10.2 off) -- NO F4-only rule lands near 17 either.
+
+  OUTCOME: B
+  No forced rule lands at 10^17 tighter than the base rate: the single most-principled combination (theta-odd ratio) misses by ~2 orders; the observed hit is a post-hoc 2-ratio selection whose per-combo rate is ~3%, and with a dense combo space a factor-3 near-hit to SOME famous target is EXPECTED (look-elsewhere).

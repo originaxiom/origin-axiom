@@ -14776,6 +14776,7 @@
   "B723": {
    "slug": "build the observer",
    "motifs": [
+    "figure_eight",
     "trace_map",
     "eisenstein",
     "amphichiral_cp",
@@ -14785,15 +14786,40 @@
    "refs": [
     "B700",
     "B701",
+    "B704",
     "B713",
     "B716",
     "B718",
     "B719",
+    "B721",
     "S070"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "banked",
+   "domain": "topology"
+  },
+  "B724": {
+   "slug": "seeing readjudication",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "quasicrystal",
+    "lorentzian"
+   ],
+   "refs": [
+    "B685",
+    "B713",
+    "B716"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B74": {

@@ -1,5 +1,11 @@
 # Changelog
 
+## B724 — SEEING-STRATEGY re-adjudication: every verdict computed (corrects E19)
+- Re-adjudicated all of chat-1's SEEING STRATEGY by COMPUTING the discriminating fact + base-rate (not citing).
+- C1 SOUND (=B713, the one sound piece); C2 BLOCKED (3 H1 incommensurable 17/9/1, not spatial); C3 REFUTED; C4 BASE-RATE-DEAD (forced ratio misses hierarchy x259; look-elsewhere); C5 REFUTED (4 points != 19 continuous); Path1 NO-IDENTITY (only forced prime 3; chat-1 mis-quoted GGM).
+- Lesson: torsion spectrum near-hits ANY ratio; need a forced rule beating look-elsewhere. 4 locks; nothing to CLAIMS. Credit chat-1.
+
+
 ## B723 — build the observer: apparatus built; the observer is a PHASE TRANSITION
 - The observer apparatus is built: object tracial II_1 + external weight -> Powers/Araki-Woods III_lambda (Connes-Takesaki).
 - The observer is NOT one state: time (symmetric III_1) and chirality/values (broken type-I Galois-labeled) are on opposite sides of the beta=1 SSB; space = a subfactor inclusion.
