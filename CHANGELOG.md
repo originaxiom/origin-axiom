@@ -1,5 +1,12 @@
 # Changelog
 
+## B728 — the Stokes resummation: the coherent whole does NOT close the phase; ζ₅ imported
+- Owner's required deepest un-run test. cc2 ran the full resummation; cc verified the decisive theorem in-sandbox. Two-seat.
+- OUTCOME B: resummation's intrinsic arithmetic = ℚ(σ₀)⊕ℚ(√−3)(σ₁,σ₂), integer Stokes; ℚ(ζ₅) NOT a structural home.
+- Base-rate trap caught (ζ₅ only via evaluation at q=ζ₅; 4₁ level N=1 not 5) + POSITIVE refutation: C₄=Gal(ℚ(ζ₅)/ℚ) ≠ C₂×C₂=Gal(ℚ(√−3,√5)/ℚ) ⇒ ζ₅∉ the compositum of the two bare faces.
+- FINAL Born ledger: form=being & weights=hearing FORCED-CLOSED; amplitudes=ℚ(√φ) OPEN; phase=ℚ(ζ₅) IMPORTED (golden-MTC overlay).
+- Coherent-whole test COMPLETE; fragmentation instinct vindicated for weights, not phase. 4 locks; nothing to CLAIMS. Credit cc2.
+
 ## B727 — base-rate the E₆-across-three-faces STRUCTURE: the number-bag one level up (self-audit)
 - The base-rate discipline that killed number-matching (B724), run on the flagship STRUCTURAL claim. Cross-verified w/ cc2 odds (both GENERIC).
 - All 3 probes OUTCOME B. McKay=Lie=CIZ = ONE ADE classification (P(recurrence|label)=1, forced graph identity).
