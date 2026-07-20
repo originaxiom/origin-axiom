@@ -1,0 +1,90 @@
+==============================================================================
+B727 PROBE 1 -- graph-identity vs coincidence across the three E6 faces
+==============================================================================
+
+[A] 2T built exactly as 24 unit quaternions; closure verified, |G| = 24
+    conjugacy classes: 7  class sizes: [1, 1, 4, 4, 4, 4, 6]  => 7 irreps => 7 McKay-graph nodes
+    |[G,G]| = 8  |G^ab| = 3  => exactly 3 linear characters
+
+[B] Dixon character table computed; irrep dimensions: [1, 1, 1, 2, 2, 2, 3]   (sum of squares = 24 = |G|)
+    McKay adjacency a_ij = mult of V_j in V(x)V_i  (V = defining 2-dim rep):
+       [0, 0, 0, 1, 0, 0, 0]
+       [0, 0, 0, 0, 0, 1, 0]
+       [0, 0, 0, 0, 0, 0, 1]
+       [1, 0, 0, 0, 1, 0, 0]
+       [0, 0, 0, 1, 0, 1, 1]
+       [0, 1, 0, 0, 1, 0, 0]
+       [0, 0, 1, 0, 1, 0, 0]
+    symmetric: True   Perron: A.dim == 2*dim ? True   (eigenvalue 2 = dim V  <=>  affine ADE)
+    node 'marks' = irrep dims = [1, 1, 1, 2, 2, 2, 3]  sum = 12   (= h(E6)=12: this is the affine-E6 mark vector)
+
+[C] GRAPH-IDENTITY checks (adjacency matrices, computed):
+    (i)   McKay(2T)  ~=  canonical affine-E6 : True
+    (ii)  E6-Lie adjacency  IS IDENTICAL to  E6-CIZ adjacency : True  (isomorphic: True )
+    (iii) McKay(2T) minus its affine node (trivial rep) ~= E6-Lie : True
+      spectra:  McKay(2T)= [-2.0, -1.0, -1.0, 0.0, 1.0, 1.0, 2.0]
+                affineE6 = [-2.0, -1.0, -1.0, -0.0, 1.0, 1.0, 2.0]
+                E6-Lie   = [-1.9319, -1.0, -0.5176, 0.5176, 1.0, 1.9319]   E6-CIZ = [-1.9319, -1.0, -0.5176, 0.5176, 1.0, 1.9319]
+    => face2 and face3 are the SAME 6-node graph; face1 is that graph + 1 affine node.
+
+[D] E6 Coxeter data from the Cartan matrix (recomputed):
+    Coxeter number h(E6) = 12.0  -> CIZ level k = h-2 = 10
+    E6 exponents m_i     = [1, 4, 5, 7, 8, 11]
+    The CIZ E6 modular invariant at k=10 is  Z = |chi1+chi7|^2 + |chi4+chi8|^2
+      + |chi5+chi11|^2 ; its diagonal labels {1,4,5,7,8,11} ARE these exponents.
+    => 'E6 modular invariant' is not an independent hit on E6: it is DEFINED by
+       the E6 Dynkin/exponent data (the CIZ output IS an ADE Dynkin diagram).
+
+[E] The forcing argument (base-rate one level up):
+    * All THREE faces index their objects by the SAME finite set of Dynkin
+      diagrams D = {A_n, D_n, E6, E7, E8}. This is the classification theorem in
+      each face (McKay bijection; simple Lie algebras; CIZ), NOT a coincidence.
+    * The canonical maps preserve the label BY CONSTRUCTION:
+        McKay quiver  --(delete affine node)-->  Dynkin diagram  == Lie label
+            (nLab: 'McKay quivers are Dynkin quivers in the SAME ADE
+             classification as the ADE singularity C^2//G').
+        CIZ output    ==  an ADE Dynkin diagram with Coxeter number k+2  == Lie label.
+    * Hence a face is a FUNCTION of the label, not an independent observation:
+        label = E6  ==>  McKay-graph, Lie-diagram, CIZ-graph are FORCED (one graph).
+    * The ONLY object-specific, non-generic input is the single arithmetic atom
+      pi_1(m004) ->> 2T (ded. Q(sqrt-3)). That produces the label ONCE (McKay face).
+    * Downstream faces carry ZERO extra m004 information:
+        - CIZ face: 'E6 = SU(2)_10 invariant' has NO m004 input at all -- it is a
+          property of the E6 diagram, activated only because we already named E6.
+        - Lie face (E6 character variety, B282): GENERIC -- present for EVERY
+          hyperbolic knot via E6's principal sl2 (banked; not recomputed here).
+          Even setting B282 aside, it is the identical graph to the CIZ face.
+
+==============================================================================
+VERDICT (Probe 1):  OUTCOME B  -- FORCED by the ADE linkage.
+  Discriminating structural fact: the three faces have IDENTICAL adjacency
+  matrices (E6-Lie ident E6-CIZ; McKay = E6 + the one affine node), and each
+  face is a canonical FUNCTION of the single label. 'E6 across three faces' is
+  ONE label read three equivalent ways -- graph identity, not three evidences.
+  Object-specific content = the atom (2T from Q(sqrt-3)) ALONE. The recurrence
+  adds no independent signal. (The atom B266 stands regardless.)
+==============================================================================
+
+==============================================================================
+PRIMARY SOURCES (WebFetched 2026-07-20; used ONLY for the two classification
+THEOREMS -- all discriminating facts above are recomputed in-sandbox)
+==============================================================================
+[McKay bijection] nLab, "McKay correspondence":
+  "the McKay quivers are Dynkin quivers/Dynkin diagrams in the same ADE
+   classification as the ADE singularity C^2//G"; table row: E6 Dynkin <->
+   binary tetrahedral group (2T) <-> simple Lie group E6; McKay-graph rule
+   V (x) rho_i ~= (+)_j a_ij rho_j with V the defining 2-dim rep.
+  Wikipedia, "ADE classification":
+   "binary polyhedral groups correspond to the simply laced affine Dynkin
+    diagrams"; extended diagrams ~E6,~E7,~E8 correspond to tetrahedral,
+    octahedral, icosahedral symmetry. Arnold sought "a common origin to these
+    classifications, rather than a posteriori verification of a parallelism"
+    (i.e. the parallelism/same-list is acknowledged; only the common ORIGIN is
+    the deep open question).
+[CIZ] Wikipedia, "WZW model":
+   "in the case of the affine Lie algebra of the SU(2) WZW model, modular
+    invariant torus partition functions obey an ADE classification, where the
+    SU(2) WZW model accounts for the A series only. The D series corresponds to
+    the SO(3) WZW model, and the E series does not correspond to any WZW model."
+  Coxeter number h(E6)=12 (=> CIZ level k=10) and exponents {1,4,5,7,8,11} are
+  RECOMPUTED in-sandbox (Part D), not cited.
