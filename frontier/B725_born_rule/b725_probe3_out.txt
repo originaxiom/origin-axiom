@@ -1,0 +1,144 @@
+========================================================================================
+B725 PROBE 3 -- THE HONEST FLOOR (Gleason): is Born a THEOREM (Gleason+observer=state)
+                or merely assumed?   [structural/operator-algebra only; choice free B701]
+========================================================================================
+
+[A] BORN VERIFICATION -- a STATE's projection-values ARE Tr(rho P), a valid frame fn.
+    (the object supplies M and its projection lattice; the observer supplies omega=Tr(rho .))
+----------------------------------------------------------------------------------------
+    dim = 3.  random density matrix rho (Hermitian, PSD, trace=1):
+      eig(rho) = [0.201395 0.235989 0.562616]   Tr(rho) = 1.000000
+
+    (A.1) omega(P)=Tr(rho P) satisfies the STATE axioms on projections:
+          omega(0) = 0.000000   (=0)
+          omega(I) = 1.000000   (=1, normalized)
+          rank-1 projections: omega(P) in [0.2023,0.5550] subset [0,1]  (all in [0,1]: True)
+    (A.2) additivity on orthogonal P1,P2 (P1 P2=0):  omega(P1+P2)=0.531682  =  omega(P1)+omega(P2)=0.531682   |diff|=0.00e+00
+    (A.3) frame condition  sum_i omega(P_e_i)=1 over 5000 random ONBs:  max|sum-1| = 6.66e-16
+          => Tr(rho P) IS a valid NONCONTEXTUAL probability assignment (a frame function).
+          [this direction is easy: EVERY density matrix gives a Born frame function.]
+
+[B] THE GLEASON OBSTRUCTION (dim>=3): the CONVERSE -- the ONLY frame functions are
+    quadratic forms  f(x)=<x|rho|x>=Tr(rho P_x).  Concrete on dim-3 REAL (S^2).
+----------------------------------------------------------------------------------------
+    Method: a smooth frame function f on S^2 expands in spherical harmonics f=sum_l f_l.
+    The frame-sum operator  S[g](Q)=g(Qe1)+g(Qe2)+g(Qe3)  is SO(3)-equivariant, so it
+    acts block-diagonally on each harmonic degree l.  A frame function needs S[f]=const.
+    TEST each degree via the ZONAL harmonic Y_l(x)=P_l(x . zhat) (P_l = Legendre): compute
+    S_l(Q)=sum_i P_l(Q[:,i].zhat) over random Q in SO(3); a degree l can appear in a frame
+    function ONLY IF S_l is CONSTANT in Q (else its non-constant contribution cannot be
+    cancelled -- distinct l are rotation-independent).  Constant-degrees => the ONLY
+    admissible harmonic content.
+
+      l :   mean S_l        std S_l        admissible? (std~0)
+      0 :   3.000000e+00    0.000e+00     YES
+      1 :  -3.166409e-03    9.948e-01     no
+      2 :  -1.290634e-18    2.185e-16     YES
+      3 :  -2.246026e-03    6.625e-01     no
+      4 :  -1.640610e-02    7.623e-01     no
+      5 :  -3.336292e-03    5.291e-01     no
+      6 :   5.357698e-03    2.951e-01     no
+
+    ADMISSIBLE harmonic degrees (constant frame-sum): [0, 2]
+    l=0 (dim 1) + l=2 (dim 5) = 6 = dim of symmetric 3x3 forms = QUADRATIC FORMS.
+    Every other degree (l=1,3,4,5,6,...) has a NON-constant frame-sum => EXCLUDED.
+    => a (smooth) frame function on S^2 lies in H_0 (+) H_2 = { <x|G|x> : G=G^T } = QUADRATIC
+       => f(x)=<x|rho|x>=Tr(rho P_x).  THE BORN FORM IS FORCED, not assumed.  [Gleason core]
+
+    (B.2) direct over-determination check: try to build a frame function with a quartic
+          (l=4) piece.  Ansatz f = a + <x|G|x> + b*Y4(x).  Impose sum_i f(Qe_i)=1 for many
+          random ONBs and least-squares solve for (a, G-traceless[5], b).
+          least-squares solution: a*3=1.000000  ||G_traceless||=2.14e-32  b(quartic coeff)=1.712e-17
+          residual ||A x - 1|| = 1.33e-14
+          => a=1/3 (uniform), G_traceless=0, b=0: the frame constraints DRIVE THE QUARTIC
+             COEFFICIENT TO ZERO.  no non-quadratic frame function.  (obstruction confirmed)
+
+[C] THE dim=2 COUNTEREXAMPLE -- why dim>=3 is REQUIRED (the type-I_2 hole in Gleason).
+----------------------------------------------------------------------------------------
+    On a qubit, orthogonal vectors = ANTIPODAL Bloch points; each vector sits in a UNIQUE
+    ONB (its complement is a single point).  Frame condition is only  f(n)+f(-n)=1.
+    Born frame functions are AFFINE:  f(n)=Tr(rho P_n)=(1+r.n)/2.  But f(n)=(1+h(n))/2 works
+    for ANY ODD h with |h|<=1 -- e.g. h(n)=n_z^3 (odd, NON-affine) is a NON-Born frame fn.
+    frame condition f(n)+f(-n)=1 over 4000 Bloch points:  max|.-1| = 0.00e+00  (holds)
+    best AFFINE (=Born) fit residual = 4.8150  (>> 0  => f is NOT of the form Tr(rho P))
+    => a NON-Born noncontextual probability assignment EXISTS in dim 2.  Gleason is doing
+       REAL work: it is FALSE in dim 2, TRUE in dim>=3.  Born is not a definitional triviality.
+    ALGEBRA VIEW: dim-2 = M_2(C) = the type-I_2 factor -- the exact summand Gleason excludes.
+
+[D] WHAT THE FRAMEWORK ADDS BEYOND GLEASON  (three structural identifications).
+----------------------------------------------------------------------------------------
+    (D.i) OBSERVER=STATE supplies Gleason's HYPOTHESIS (B723).
+          the object ALONE is the tracial II_1 factor: its ONLY intrinsic state is the
+          TRACE tau(P)=dim(P)/n = Tr((I/n)P) -- itself Born-form but with the UNIFORM
+          rho=I/n (arrowless): tau(rank-1 P) = 0.333333 = 1/n = 0.333333 (const).
+          Gleason applies EQUALLY to tau; what tau lacks is a PREFERRED direction.
+          the OBSERVER's contribution is a NON-uniform rho (a broken vacuum, B723 SSB):
+          eig(rho_observer)=[0.201395 0.235989 0.562616] (non-uniform).  Without an
+          external non-tracial state there is NO probability to force -- observer=state is
+          exactly what makes Gleason APPLICABLE.  ALSO: the object algebra is a II_1/III
+          FACTOR => NO type-I_2 summand => the algebraic Gleason hypothesis is met by TYPE.
+
+    (D.ii) c-SWAP = the QUADRATIC form (probe 1).  Gleason yields a quadratic form on
+           projections; the framework NAMES the vector-level squaring as the object's own
+           order-2 involution J (modular conjugation = c-swap, JMJ=M', J^2=1, antiunitary).
+           pure rho=|phi><phi|:  Tr(rho P_psi) = 0.077008
+           |<phi|psi>|^2         = 0.077008     (= amplitude paired with its CONJUGATE)
+           <phi|psi>* . <phi|psi> (the c-swap product) = 0.077008 + 0.0e+00i
+           => the Born value IS  amplitude x c(amplitude)  -- degree 2 = the swap's order.
+           this is an IDENTIFICATION of Gleason's quadratic with J, not a re-derivation of it.
+
+    (D.iii) beta=1 SSB = the WEIGHTS/decomposition (probe 2).  Gleason characterizes the
+            functional but is SILENT on which pure outcomes / with what weights.  The KMS
+            state decomposes into extremal broken vacua with Gibbs weights p_i=Tr(rho P_i).
+            beta=1 Gibbs rho over H=diag(0,1,2): p_i = Tr(rho P_i) = [0.665241 0.244728 0.090031]
+            sum p_i = 1.000000 (=1);  each p_i is a Born value = the KMS/SSB weight.
+            => the SSB supplies the OUTCOME set + weights that Gleason does not.
+
+[E] THREE-SKEPTIC ADVERSARIAL VERIFY.
+----------------------------------------------------------------------------------------
+    S1 'CIRCULAR: a state is DEFINED to give probabilities, so Born is assumed.'
+       REBUTTAL (computed): FALSE in dim 2 ([C]: h=n_z^3 is a non-Born noncontextual
+       assignment), TRUE only in dim>=3 ([B]: quartic coeff driven to 0).  A generic
+       noncontextual assignment need NOT be quadratic; Gleason PROVES it must be.  The
+       Born FORM is forced by a real theorem, not by the definition of 'state'.
+    S2 'Does the OBJECT meet Gleason's hypothesis (dim>=3 / no type-I_2)?'
+       REBUTTAL: the object's algebra is the II_1 factor R (probe1) / III_lambda (probe2)
+       -- a FACTOR, hence its only summand is itself (II_1 or III), NEVER type I_2; and it
+       is infinite-dimensional.  The dim-2 pathology is EXACTLY type I_2 ([C]); the object
+       sits on the RIGHT side of the hypothesis BY ITS VERY TYPE.  Gleason applies.
+    S3 'Does the framework ADD anything, or just cite Gleason?'
+       REBUTTAL (honest): Gleason is the LOAD-BEARING cited theorem -- it does the forcing.
+       The framework adds THREE structural identifications, not a re-derivation: (i) the
+       object alone is tracial/arrowless => observer=state SUPPLIES the hypothesis (which
+       state); (ii) the quadratic form = the object's own c-swap/modular J (order 2 => degree
+       2); (iii) the beta=1 SSB supplies the outcome weights Gleason is silent on.  Genuine
+       content = WHERE the state comes from, WHY quadratic in the object's terms, HOW the
+       weights arise -- honestly BOUNDED by the fact that the quadratic FORM itself is
+       Gleason's output, named (not reproven) here.
+
+========================================================================================
+VERDICT
+========================================================================================
+    [PASS] [A] Tr(rho P) is a valid frame function (max|sum-1|<1e-9)
+    [PASS] [B] only l={0,2} admissible => frame fns are QUADRATIC = Born
+    [PASS] [B.2] quartic (l=4) coefficient driven to 0 by frame constraints
+    [PASS] [C] dim-2 non-Born frame function EXISTS (Gleason is nonvacuous)
+
+    OUTCOME = A  -- a GENUINE STRUCTURAL ACCOUNT of the Born rule, honestly bounded.
+
+    THE HONEST FLOOR:
+      * Born is NOT circular / merely assumed: Gleason is a genuine theorem (FALSE in
+        dim 2, TRUE in dim>=3) that FORCES omega(P)=Tr(rho P) once omega is a state.
+      * observer=STATE (B723) is what makes Gleason APPLICABLE: the object alone is the
+        tracial II_1 factor (arrowless; only the uniform rho=I/n); the observer supplies
+        the non-tracial state = Gleason's hypothesis.  Object supplies the LATTICE, the
+        observer supplies the MEASURE on it.  The object being a II_1/III FACTOR (no
+        type-I_2 summand) meets Gleason's algebraic hypothesis by its very type.
+      * the c-SWAP (modular J, order 2) NAMES Gleason's quadratic form as the object's own
+        involution: the Born value = amplitude x c(amplitude) (degree 2 = swap order).
+      * the beta=1 SSB supplies the outcome WEIGHTS/decomposition Gleason is silent on.
+      HONEST BOUND: Gleason is the load-bearing CITED theorem; the framework's new content
+      is the three identifications (state-supplier / c-swap=quadratic / SSB=weights), NOT
+      a re-derivation of Gleason.  => Born rule as a CONSEQUENCE of observer=state+c-swap
+      +SSB, forced by Gleason -- not a derivation from nothing, and NOT circular.
+========================================================================================
