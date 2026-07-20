@@ -1,0 +1,58 @@
+========================================================================================
+B721 PROBE 1 -- Marcolli-Xu QSM for 4_1 : BEING Q(sqrt-3) vs GOLDEN Q(sqrt5)
+========================================================================================
+
+[A] CYCLIC BRANCHED-COVER HOMOLOGY OF THE FIGURE-EIGHT  (the QSM 'abelian extension' analog)
+----------------------------------------------------------------------------------------
+Alexander polynomial Delta(t) = t**2 - 3*t + 1   (Mahler measure = phi^2, larger root)
+roots of Delta: sqrt(5)/2 + 3/2 = 2.618033988749895  ,  3/2 - sqrt(5)/2 = 0.38196601125010515
+  => Delta splits over  Q(sqrt5)  (golden field).  minimal poly of phi^2: t**2 - 3*t + 1
+
+ n | |H_1(Sigma_n(4_1))| (exact) | numeric | closed form (Fibonacci/Lucas)
+ --+-----------------------------+---------+-------------------------------
+  2| 5                           |     5.0 | 5*F_2^2 = 5*1^2 = 5   [OK]
+  3| 16                          |    16.0 | L_3^2 = 4^2 = 16   [OK]
+  4| 45                          |    45.0 | 5*F_4^2 = 5*3^2 = 45   [OK]
+  5| 121                         |   121.0 | L_5^2 = 11^2 = 121   [OK]
+  6| 320                         |   320.0 | 5*F_6^2 = 5*8^2 = 320   [OK]
+  7| 841                         |   841.0 | L_7^2 = 29^2 = 841   [OK]
+  8| 2205                        |  2205.0 | 5*F_8^2 = 5*21^2 = 2205   [OK]
+  9| 5776                        |  5776.0 | L_9^2 = 76^2 = 5776   [OK]
+ 10| 15125                       | 15125.0 | 5*F_10^2 = 5*55^2 = 15125   [OK]
+ 11| 39601                       | 39601.0 | L_11^2 = 199^2 = 39601   [OK]
+ 12| 103680                      | 103680.0 | 5*F_12^2 = 5*144^2 = 103680   [OK]
+
+  => branched-cover homology orders are EXACTLY  L_n^2 (n odd) and 5*F_n^2 (n even):
+     the Fibonacci/Lucas sequence. The recurrence eigenvalues are phi^{+/-2}; the
+     growth rate / Mahler entropy is phi^2. This arithmetic LIVES OVER  Q(sqrt5).
+     (These are exactly the Fibonacci manifolds: Sigma_n(4_1) = Helling-Kim-Mennicke.)
+
+[B] INVARIANT TRACE FIELD OF THE 4_1 COMPLEMENT  (CMR's BEING domain)
+----------------------------------------------------------------------------------------
+figure-eight tetrahedron shape z = exp(i*pi/3) = (0.5000000000000001+0.8660254037844386j)
+  z^2 - z + 1 = (1.1102230246251565e-16+2.220446049250313e-16j)  (== 0)  => z is a primitive 6th root of unity
+  snappy invariant_trace_field_gens -> find_field poly:  x^2 + 8x + 28
+  discriminant = -48 = -48 = -3 * 16  =>  Q(sqrt(-48)) = Q(sqrt-3)
+  => invariant trace field = Q(sqrt-3) = Q(omega), omega = exp(2 pi i/3).  [BEING]
+
+[C] DISCRIMINATOR
+----------------------------------------------------------------------------------------
+  Marcolli-Xu QSM dynamics: H = (Cr + g) log q  -> integer combinatorial, field-agnostic.
+  Marcolli-Xu arithmetic side (abelian-extension analog): CYCLIC BRANCHED COVERS.
+  For 4_1 that arithmetic = Fibonacci/Lucas homology = Q(sqrt5)  (GOLDEN).
+  The hyperbolic invariant trace field Q(sqrt-3) (BEING/CMR) is NOT used by the QSM.
+
+  Two disjoint quadratic fields sit on the SAME knot:
+     * branched-cover / Alexander arithmetic  ->  Q(sqrt5)   [the QSM sees THIS]
+     * hyperbolic invariant trace field        ->  Q(sqrt-3) [CMR/BEING; QSM ignores it]
+  Q(sqrt5) and Q(sqrt-3) are linearly disjoint (real vs imaginary quadratic; disc 5 vs -3).
+
+  OUTCOME = B :  the fig-8 Marcolli-Xu QSM data lives over GOLDEN Q(sqrt5),
+                 a field-MISMATCH with CMR's imaginary-quadratic Q(sqrt-3).
+
+  RUNG GRADE: this clears RUNG 1 (FIELD) -- which number field the knot-specific QSM
+  arithmetic lives over. It does NOT clear rung 2 (torsor/Galois): Marcolli-Xu do not
+  build an explicit number-field-valued 'fabulous'/Galois-torsor ground state (unlike
+  genuine Bost-Connes with its Zhat^* torsor over Q^ab). The cyclic deck symmetry Z/n
+  is knot-INDEPENDENT; the knot-specific content is the golden HOMOLOGY = a field fact.
+========================================================================================
