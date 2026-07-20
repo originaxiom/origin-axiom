@@ -1,5 +1,14 @@
 # Changelog
 
+## B726 — the hearing face and the Born content: WEIGHTS are the hearing's; bare two faces don't close it
+- Owner's hypothesis (hearing supplies the quantum content), base-rate-gated, under cc2's naivety discipline.
+- OUTCOME B (bare ℚ(√−3)⊕ℚ(√5) don't close the gap) + partial positive, field-ownership verified by minpolys:
+  FORM=being ℚ(√−3); NON-UNIFORM WEIGHTS d_a²/D²=1:φ² (5x²−5x+1)=bare HEARING ℚ(√5) [this half CLOSES];
+  AMPLITUDES=real quartic ℚ(√φ) (5x⁴−5x²+1); PHASE=ζ₅²∈ℚ(ζ₅) [neither bare face].
+- Two hooks REJECTED at base-rate: A²=M~|ψ|² (norm −1 ≠ square φ²); "ℚ(√5) supplies the complex content" (ℚ(√5) totally real).
+- Probe1 (A): being diagonal vs Fibonacci-MTC off-diagonal/unitary genuine, but the unitary face is the braid rep NOT the hyperbolic cat map A.
+- 5 locks; nothing to CLAIMS; no SM value. Credit owner (weights) + cc2 (discipline). NEXT: base-rate the E₆ structure.
+
 ## B725 — THE BORN RULE: observer construction gives Born FORM (+ why quadratic), not CONTENT
 - Two-seat cross-verified (cc SSB-dynamics + cc2 axiomatic); converged, no seam. All 3 probes OUTCOME A, bounded.
 - FORM forced: Gleason forces omega(P)=Tr(rho P) on the frame's own II1/III1 factors (harmonic core reproduced; dim-2 non-Born frame fn locked).

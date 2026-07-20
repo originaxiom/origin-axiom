@@ -1,0 +1,153 @@
+
+==============================================================================
+0. GOLDEN FIELD Q(sqrt5), quantum dimensions, total quantum dimension D
+==============================================================================
+phi = (1+sqrt5)/2 = 1/2 + sqrt(5)/2  ~ 1.618034
+fusion-rule check  d_tau^2 - (1 + d_tau) = 0   (0 => phi solves x^2=1+x) -> True
+D^2 = d_1^2 + d_tau^2 = 1 + phi^2 = sqrt(5)/2 + 5/2 = sqrt(5)/2 + 5/2  ~ 3.618034
+    identity check: D^2 == 2 + phi ?  True
+D = sqrt(2+phi) = sqrt(sqrt(5)/2 + 5/2)  ~ 1.902113
+NOTE: (5+sqrt5)/2 is a non-square in Q(sqrt5) -> D itself needs a degree-4 field;
+      but the |S|^2 PROBABILITIES and quantum dims live in Q(sqrt5) (shown below).
+
+==============================================================================
+1. FIBONACCI S-MATRIX  S = (1/D)[[1, phi],[phi, -1]] : symmetric, real, UNITARY, OFF-DIAGONAL
+==============================================================================
+S =
+⎡                 1   √5   ⎤
+⎢                 ─ + ──   ⎥
+⎢     1           2   2    ⎥
+⎢────────────  ────────────⎥
+⎢    ________      ________⎥
+⎢   ╱ √5   5      ╱ √5   5 ⎥
+⎢  ╱  ── + ─     ╱  ── + ─ ⎥
+⎢╲╱   2    2   ╲╱   2    2 ⎥
+⎢                          ⎥
+⎢   1   √5                 ⎥
+⎢   ─ + ──                 ⎥
+⎢   2   2          -1      ⎥
+⎢────────────  ────────────⎥
+⎢    ________      ________⎥
+⎢   ╱ √5   5      ╱ √5   5 ⎥
+⎢  ╱  ── + ─     ╱  ── + ─ ⎥
+⎣╲╱   2    2   ╲╱   2    2 ⎦
+
+(i)   symmetric  S == S^T ................ True
+(ii)  real (S^dag == S) ................. True
+(iii) UNITARY  S S^dag == I ............. True
+      S S^dag =
+⎡1  0⎤
+⎢    ⎥
+⎣0  1⎦
+      involution  S^2 == I ............. True
+
+(iv)  OFF-DIAGONAL  S_01 = phi/D = (sqrt(2) + sqrt(10))/(2*sqrt(sqrt(5) + 5))  ~ 0.850651   != 0 ? -> True
+      >>> a genuine off-diagonal entry = coherence between the two sectors = INTERFERENCE.
+      >>> contrast B725: the being's extremal-KMS state phi_{beta,L} is DIAGONAL
+          (CMR: same ideal J in both slots, a classical Gibbs measure, NO off-diagonal term).
+
+==============================================================================
+2. |S_ab|^2 (Born-like measurement probabilities) : in Q(sqrt5), NON-UNIFORM
+==============================================================================
+|S_ab|^2 =
+⎡1   √5  √5   1⎤
+⎢─ - ──  ── + ─⎥
+⎢2   10  10   2⎥
+⎢              ⎥
+⎢√5   1  1   √5⎥
+⎢── + ─  ─ - ──⎥
+⎣10   2  2   10⎦
+
+|S_00|^2 = 1/(2+phi)     = (5 - sqrt(5))/10 = 1/2 - sqrt(5)/10  ~ 0.276393
+|S_01|^2 = phi^2/(2+phi) = (1 + sqrt(5))**2*(5 - sqrt(5))/40 = sqrt(5)/10 + 1/2  ~ 0.723607
+closed form  |S_00|^2 == (5-sqrt5)/10 ? True    |S_01|^2 == (5+sqrt5)/10 ? True
+both in Q(sqrt5): YES.   row sum |S_00|^2 + |S_01|^2 = 1  (=1 => a probability vector)
+NON-UNIFORM?  0.2764 != 0.7236  ->  ratio 1:phi^2 = 1:2.6180
+
+==============================================================================
+3. VERLINDE  N_ab^c = sum_x S_ax S_bx conj(S_cx)/S_0x  reproduces tau x tau = 1 + tau
+==============================================================================
+  N[  1,  1]^1   = 1
+  N[  1,  1]^tau = 0
+  N[  1,tau]^1   = 0
+  N[  1,tau]^tau = 1
+  N[tau,  1]^1   = 0
+  N[tau,  1]^tau = 1
+  N[tau,tau]^1   = 1
+  N[tau,tau]^tau = 1
+expected fusion:  1x1=1 ; 1xtau=tau ; tauxtau = 1 + tau  (each N in {0,1}) -> integer,
+non-negative fusion coefficients => S is a GENUINE modular S-matrix, not just any unitary.
+
+==============================================================================
+4. T-MATRIX  T = diag(1, e^{4 pi i/5}) : GENUINE COMPLEX phases (interference needs these)
+==============================================================================
+T =
+⎡1    0   ⎤
+⎢         ⎥
+⎢    4⋅ⅈ⋅π⎥
+⎢    ─────⎥
+⎢      5  ⎥
+⎣0  ℯ     ⎦
+theta_tau = e^(2 pi i h_tau), h_tau = 2/5  ==  e^(4 pi i/5) ? True
+theta_tau = -sqrt(5)/4 - 1/4 + i*sqrt(5/8 - sqrt(5)/8)
+          ~ -0.809017+0.587785j
+  |theta_tau| = 1   (on unit circle)
+  Im(theta_tau) = sin(4pi/5) ~ 0.587785  != 0  => GENUINELY COMPLEX phase (not +-1).
+  (theta_tau)^5 = 1   => a 5th root of unity (zeta_5^2). order-5 phase => Q(zeta_5).
+  >>> a real field alone cannot host this phase; the interference phase lives in Q(zeta_5),
+      and Q(zeta_5) ⊃ Q(sqrt5) (sqrt5 = 2*cos(2pi/5)+2*cos(4pi/5)... i.e. Q(sqrt5) is the
+      real subfield of the 5th cyclotomic field). The golden real field's cyclotomic
+      completion supplies the complex phase.
+
+==============================================================================
+4b. MODULAR CHECK  (S T)^3 = phase * I  (SL(2,Z) rep; extracts central charge c mod 8)
+==============================================================================
+(S T)^3 numerically =
+[[-0.587785+0.809017j  0.      -0.j      ]
+ [ 0.      -0.j       -0.587785+0.809017j]]
+(S T)^3 = lambda*I ? off-diag zero: True   diagonal equal: True
+lambda = -sqrt(5/8 - sqrt(5)/8) + I*(1/4 + sqrt(5)/4)  ~ -0.587785+0.809017j
+arg(lambda)/pi = 7/10   (Fibonacci central charge c = 14/5 mod 8)
+
+==============================================================================
+5. NON-UNIFORM golden weights  p_a = d_a^2/D^2 = |S_0a|^2   vs  the being's UNIFORM Haar
+==============================================================================
+anyonic (Plancherel/vacuum-Born) weights p_a = d_a^2/D^2 = |S_0a|^2 :
+  p_1   = 1/(2+phi)      = 1/2 - sqrt(5)/10  ~ 0.276393
+  p_tau = phi^2/(2+phi)  = sqrt(5)/10 + 1/2  ~ 0.723607
+  sum = 1  (probability vector)
+  ratio p_1 : p_tau = 1 : phi^2 = 1 : 2.6180   (quantum dims 1 : phi = 1 : 1.6180)
+
+the BEING's Haar over vacua (B725/cc2, torsor-transitive) = UNIFORM = [0.5, 0.5]
+deviation golden-weights - uniform = ['-0.2236', '+0.2236']   (nonzero => NOT uniform)
+Shannon entropy: golden H = 0.589514 nats  <  uniform H = ln2 = 0.693147 nats  (strict => non-uniform)
+
+==============================================================================
+6. VERDICT (Probe 2)
+==============================================================================
+  [PASS] S is UNITARY (S S^dag = I)
+  [PASS] S is OFF-DIAGONAL (S_01 = phi/D != 0) => interference
+  [PASS] |S_ab|^2 probabilities live in Q(sqrt5)
+  [PASS] T has genuine COMPLEX phase (Im theta_tau != 0)
+  [PASS] T phase is a 5th root of unity (zeta_5, in Q(zeta_5))
+  [PASS] S diagonalizes fusion (Verlinde => genuine modular)
+  [PASS] golden Born weights d_a^2/D^2 are NON-UNIFORM
+  [PASS] being's Haar is UNIFORM (contrast)
+
+OUTCOME: A -- the golden Fibonacci MTC supplies OFF-DIAGONAL (interference) + NON-UNIFORM |amp|^2-type
+
+DISCRIMINATING OPERATION (base-rate gate — NOT an automatic quadratic-field match):
+  It is NOT 'a real quadratic field carries an S-matrix'. The load-bearing facts are
+  three CONTRASTS against the being (B725), each computed above:
+   (1) OFF-DIAGONAL S_01 = phi/D != 0  vs  the being's DIAGONAL extremal-KMS phi_{beta,L}
+       (CMR same-ideal-both-slots) => the hearing has coherence the being provably lacks.
+   (2) COMPLEX T phase zeta_5^2  vs  the being's real Gibbs weight e^{-beta E} (no phase).
+   (3) NON-UNIFORM weights {(5-sqrt5)/10,(5+sqrt5)/10}={0.276,0.724}  vs  the being's
+       forced-UNIFORM Haar {1/2,1/2}.  Strictly lower Shannon entropy => genuinely non-uniform.
+  These are the exact TWO ingredients B725 flagged missing (interference + non-uniform |amp|^2).
+
+HONEST BOUND (reserved for Probe 3): this establishes the golden face carries the KIND of
+  structure the Born content needs. It does NOT yet prove (a) that the object's HEARING face
+  IS this Fibonacci MTC (identification, not derived here), nor (b) that composing
+  being(collapse) (+) hearing(unitary) reconstructs QM. The A^2=M vs |psi|^2=psi*c(psi)
+  hook is a squaring-vs-norm analogy to be adjudicated in Probe 3, not asserted here.
