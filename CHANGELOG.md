@@ -1,5 +1,11 @@
 # Changelog
 
+## B720 — the coupling-path map (cc2 sweep, verified-banked)
+- 3 NO-MATCH reconfirm B706 3 ways (renormalization/Gaussian; holography/3d-no-local-DOF; positive-geometry/wrong-regime).
+- 2 arithmetic leads: thermal-time/CMR KMS-torsor over Q(sqrt-3) (strongest, UNBUILT -> B721); resurgence/Kashaev (Galakhov-Morozov verified real).
+- Credit cc2. 3 locks; gates 8/8; nothing to CLAIMS.
+
+
 ## B719 probe-1 control resolved — h=3 filter is GENERIC, not inherited
 - Re-ran the timed-out control (single agent + verified): OUTCOME B. Q(sqrt-1)[prime2] children have ODD h=3 (falsifies inherited even-h); same small-disc fields recur across Bianchi parents; h=3 is a small-numbers effect.
 - The 'being-3 inherited filter' read corrected. 4 locks; nothing to CLAIMS.

@@ -14331,7 +14331,6 @@
     "torsion",
     "apolynomial",
     "wrt_quantum",
-    "lorentzian",
     "firewall"
    ],
    "refs": [
@@ -14702,6 +14701,33 @@
    "obstacle_conf": 12,
    "status": "banked",
    "domain": "topology"
+  },
+  "B720": {
+   "slug": "coupling path",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B685",
+    "B701",
+    "B706",
+    "B707",
+    "B710",
+    "B712",
+    "B714",
+    "B716",
+    "B721"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B74": {
    "slug": "higher spin grading",
