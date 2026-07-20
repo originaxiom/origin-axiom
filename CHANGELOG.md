@@ -1,5 +1,13 @@
 # Changelog
 
+## B725 — THE BORN RULE: observer construction gives Born FORM (+ why quadratic), not CONTENT
+- Two-seat cross-verified (cc SSB-dynamics + cc2 axiomatic); converged, no seam. All 3 probes OUTCOME A, bounded.
+- FORM forced: Gleason forces omega(P)=Tr(rho P) on the frame's own II1/III1 factors (harmonic core reproduced; dim-2 non-Born frame fn locked).
+- WHY quadratic (cc's new piece): |psi|^2=psi*c(psi)=N_{C/R}(psi), degree=c-swap order 2; order-3 swap->cubic (live falsifier); modular J built (antiunitary, J^2=1, JMJ=M').
+- SSB selects the orthogonal pointer decomposition (weights=Tr(rho P), non-vacuous) -- but rho thermal => GIBBS weights = the form.
+- CONTENT gap (cc2 sharpest, confirmed in-sandbox): on the abelian broken outcome algebra Gleason does NOT fix weights (Born vs Gibbs both valid); CMR phi_{beta,L} diagonal (no interference). Interference + non-uniform |amp|^2 weights OPEN.
+- Inherits 'measurement = the beta=1 SSB' (B723) as an axiom. 5 locks; nothing to CLAIMS. Credit cc2.
+
 ## B724 — SEEING-STRATEGY re-adjudication: every verdict computed (corrects E19)
 - Re-adjudicated all of chat-1's SEEING STRATEGY by COMPUTING the discriminating fact + base-rate (not citing).
 - C1 SOUND (=B713, the one sound piece); C2 BLOCKED (3 H1 incommensurable 17/9/1, not spatial); C3 REFUTED; C4 BASE-RATE-DEAD (forced ratio misses hierarchy x259; look-elsewhere); C5 REFUTED (4 points != 19 continuous); Path1 NO-IDENTITY (only forced prime 3; chat-1 mis-quoted GGM).

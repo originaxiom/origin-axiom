@@ -3,6 +3,9 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-07-20): B725 — the Born rule.** Two-seat (cc SSB + cc2 axiomatic, converged): the observer construction gives Born's *form* (Gleason forces Tr(ρP) on the frame's own factors) and *why it's quadratic* (the c-swap is order-2: |ψ|²=ψ·c(ψ)), but NOT Born's quantum *content* (interference + the specific weights) — those stay open. Honest: form yes, content open. Nothing to CLAIMS.
+
+
 **Campaign:** WINDOW 12 — LISTEN, MEASURE, PROVE (launched 2026-07-12, post-Review-11).
 The reframe's ledger is complete (values/structure/relations: forced bin ✓✓✓, dialed bin ∅∅∅);
 the window runs the three lanes it opened, in order:

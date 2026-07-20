@@ -1,0 +1,130 @@
+==========================================================================================
+B725 PROBE 1 -- is the Born rule's QUADRATIC form |psi|^2 FORCED by the c-swap (modular J)?
+==========================================================================================
+
+##########################################################################################
+# PART (a)  finite-dim GNS/Hilbert-Schmidt model: build J, verify antiunitary, J^2=1, JMJ=M'
+##########################################################################################
+
+Model:  M = M_n(C) acting by LEFT multiplication on the GNS Hilbert space
+        H = M_n(C) with the (Hilbert-Schmidt) inner product <a,b> = Tr(a* b).
+        A faithful normal state omega(x)=Tr(rho x), rho>0, Tr rho=1, has the
+        CYCLIC-SEPARATING vector  Omega = rho^{1/2} in H.
+        Tomita operator:  S(a Omega) = a* Omega.  Polar S = J Delta^{1/2}.
+        We CONSTRUCT J and Delta and verify every Tomita-Takesaki property in-sandbox.
+
+[a.0] state:  rho>0, Tr(rho)=1.000000 ;  eigenvalues(rho)=[0.0322 0.1146 0.8531]  (faithful => cyclic-separating).
+
+[a.1] Tomita defining relation  S(x Omega)=x* Omega  (S=J Delta^{1/2}):  max err = 2.99e-16
+
+[a.2] J ANTIUNITARY:
+      <Ja,Jb> - conj<a,b>          = 1.78e-15   (reverses & conjugates the inner product)
+      | ||Ja|| - ||a|| |           = 0.00e+00   (isometric)
+      J(alpha a) - conj(alpha)J(a) = 0.00e+00   (CONJUGATE-LINEAR => carries complex conjugation = c)
+
+[a.3] J^2 = 1  (ORDER-2 INVOLUTION):  max|J(J(a))-a| = 0.00e+00
+      => J has ORDER EXACTLY 2 : it is a SWAP (two sheets, a<->a*), like z<->conj(z).
+
+[a.4] modular operator  Delta(a)=rho a rho^{-1} ;  J Delta J = Delta^{-1}:  max err = 7.55e-15
+
+[a.5] J M J = M'  (order-2 swap of the algebra with its commutant):
+      (J pi(x) J)(a) - a x*        = 2.22e-16   (left-mult  ->  right-mult)
+      right-mult commutes w/ M     = 1.83e-15   (right-mult IS in the commutant M')
+
+  => VERIFIED: the c-swap = modular conjugation J is a genuine ANTIUNITARY, CONJUGATE-LINEAR,
+     ORDER-2 involution with J M J = M'. It literally implements complex conjugation (=c) and
+     swaps the algebra with its commutant. This is the operator the Born pairing will use.
+
+##########################################################################################
+# PART (b)  p(P)=<psi|P|psi> is SESQUILINEAR; the conjugate-linear <psi| slot = the c-swap (J)
+##########################################################################################
+
+[b.1] SESQUILINEAR form  form(x,y)=<x|P|y>:
+      bra slot CONJUGATE-linear:  err = 1.94e-16   (the conjugation = the c-swap enters HERE)
+      ket slot LINEAR:            err = 2.42e-16
+
+[b.2] the bra map  |psi> -> <psi|  is CONJUGATE-LINEAR (same antilinearity as J):
+      <(alpha psi)| - conj(alpha)<psi|  = 0.00e+00   => the pairing's conjugate slot = the c-swap
+
+[b.3] the Born functional p(psi)=<psi|P|psi>:
+      p(lam psi) - |lam|^2 p(psi)  = 2.22e-16   => HOMOGENEOUS OF DEGREE 2 (quadratic)
+      Im p                          = 1.39e-17   => REAL (Hermitian form; probabilities are real)
+      p(e^{i th} psi) - p(psi)      = 1.11e-16   => PHASE-INVARIANT (the U(1)/c-swap fixed direction)
+
+  => p pairs psi (ket, linear) with its c-swap image conj(psi) (bra, conjugate-linear=J).
+     It is REAL, PHASE-INVARIANT, and DEGREE 2. The degree-2 is the (1 ket, 1 c-image) pairing.
+
+##########################################################################################
+# PART (c)  THE MECHANISM: the invariant NORM has degree = the SWAP-GROUP ORDER (a theorem)
+##########################################################################################
+
+The load-bearing question for A-vs-B: is 'order-2 swap  <->  degree-2 probability' a genuine
+MECHANISM, or a coincidence (two unrelated 2's)? The mechanism is the ALGEBRAIC/FIELD NORM:
+for a field extension L/K with Galois group G (the 'swaps'), the norm
+        N_{L/K}(psi) = PRODUCT_{g in G} g(psi)
+is the natural G-INVARIANT, base-field-valued, MULTIPLICATIVE functional, and it is a
+HOMOGENEOUS FORM OF DEGREE |G|.  We COMPUTE this degree for several swap-orders and read off:
+    the probability's degree is FORCED to equal the ORDER of the c-swap group.
+
+[c.1] ORDER-2 c-swap  G=Gal(C/R)={id, conj},  |G|=2  (conj is an involution: [C:R]=2):
+      N_{C/R}(psi) = psi * c(psi) = x**2 + y**2
+      total degree = 2   ==  |psi|^2   ==  THE BORN FORM.   (real, positive, phase-invariant)
+      multiplicative:  |z1 z2|^2 - |z1|^2 |z2|^2 = 8.88e-16 ;  positive-definite (=x^2+y^2>=0).
+
+[c.2] FALSIFIER -- ORDER-3 swap (cyclic cubic field Q(2cos 2pi/7), Gal cyclic |G|=3):
+      N(a + b alpha + c alpha^2) = product of 3 Galois conjugates
+        = a**3 - a**2*b + 5*a**2*c - 2*a*b**2 - a*b*c + 6*a*c**2 + b**3 - b**2*c - 2*b*c**2 + c**3
+      total degree = 3  (CUBIC)   integer coeffs: True   det==prod-of-conjugates: True
+      => had the c-swap been ORDER 3, the probability would be a DEGREE-3 form, NOT |psi|^2.
+
+[c.3] the LAW:  degree(invariant norm) = ORDER(swap group).  Verified instances:
+        |G|=2  (C/R  (conj)               )  ->  norm degree 2
+        |G|=3  (Q(2cos2pi/7) cyclic cubic )  ->  norm degree 3
+      GENERAL (proved, standard Galois): for L/K cyclic of degree k, N_{L/K}=prod of k
+      conjugates is homogeneous of degree k. Our c-swap has k=2 (the UNIQUE nontrivial
+      automorphism of C/R, an involution) => the Born form is DEGREE 2, QUADRATIC. Not '2=2'
+      by accident: degree IS the group order; the group order IS 2 because c is an involution.
+
+[c.4] pinning the degree at EXACTLY 2 (the honest boundary):
+      * phase-invariance forbids ODD/unbalanced: monomial psi^a c(psi)^b -> e^{i(a-b)theta}
+        under psi->e^{i theta}psi; real & invariant => a=b => degree 2a is EVEN. So degree 1
+        (|psi|, non-polynomial) and degree 3 are RULED OUT structurally.
+        demo: psi^2 c(psi) picks up e^{i theta} (not invariant): delta = 2.786e-02 != 0
+      * normalization collapses higher EVEN powers: on the unit sphere |psi|^2=1 =>
+        |psi|^{2k} = (|psi|^2)^k = 1^{k-1} |psi|^2  -> the MINIMAL representative is degree 2.
+        |psi|^{4} = (|psi|^2)^2 = 1.000000 = |psi|^2 (since normalized)  -> reduces to deg 2
+        |psi|^{6} = (|psi|^2)^3 = 1.000000 = |psi|^2 (since normalized)  -> reduces to deg 2
+      => order-2 (c-swap) forces EVEN + the norm is the DEGREE-2 representative; normalization
+         removes the higher even powers. WHICH degree-2 form (=Tr(rho P)) is GLEASON (probe 3),
+         NOT the swap. The swap fixes the DEGREE; Gleason fixes the FORM; SSB fixes the WEIGHTS.
+
+==========================================================================================
+VERDICT
+==========================================================================================
+OUTCOME = A  (the c-swap / order-2 modular J EXPLAINS the quadratic Born form) -- BOUNDED.
+
+Discriminating facts, all recomputed in-sandbox:
+  1. [a] The c-swap = modular conjugation J is a genuine ANTIUNITARY, CONJUGATE-LINEAR,
+     ORDER-2 involution (J^2=1) with JMJ=M', built explicitly as J(a)=a* on the GNS space
+     (S(xOmega)=x*Omega verified to 1e-10). It literally IS complex conjugation (=c).
+  2. [b] The Born pairing p(P)=<psi|P|psi> is SESQUILINEAR: its conjugate-linear BRA slot is
+     exactly the antilinearity of J (the c-swap). p is REAL, PHASE-INVARIANT, DEGREE 2 --
+     the (1 ket psi, 1 c-image conj psi) pairing.
+  3. [c] THE MECHANISM (not a coincidence): degree(invariant norm) = ORDER(swap group), the
+     algebraic/field norm N_{L/K}=prod_{g in G} g(psi). For the c-swap G=Gal(C/R), |G|=2,
+     N(psi)=psi*c(psi)=|psi|^2 -- DEGREE 2 = the Born form. FALSIFIER computed: an order-3
+     swap (cyclic cubic field) gives a DEGREE-3 norm. So order-2 <-> quadratic is CAUSAL:
+     the degree tracks the swap order; the order is 2 because c is an involution ([C:R]=2).
+
+HONEST BOUNDARY (why A is BOUNDED, not a derivation-from-nothing):
+  * The c-swap forces EVEN degree (phase-invariance) and the NORM is the degree-2 rep;
+    'exactly 2, not 4' additionally uses NORMALIZATION (|psi|^{2k}->|psi|^2).
+  * WHICH quadratic functional (= Tr(rho P), among all order-2-invariant quadratics) is fixed
+    by GLEASON (probe 3), NOT by the swap. The swap fixes the DEGREE, not the functional.
+  * That amplitudes live in C at all (so the c-swap = Gal(C/R) is order 2) is itself the
+    observer's complex-structure closing (B715/B716); here it is an INPUT, not derived.
+
+=> The QUADRATIC form of the Born rule is FORCED by the c-swap being an order-2 involution,
+   via degree(norm)=order(swap)=2 (computed, falsifiable). This is genuine added structural
+   content over 'a state is defined to give |psi|^2'. FIREWALL: structural/operator-algebra
+   only; no SM value; the observer's choice stays free (B701); Gleason & SSB carry the rest.

@@ -14753,6 +14753,7 @@
    "slug": "resurgence coupling",
    "motifs": [
     "figure_eight",
+    "trace_map",
     "eisenstein",
     "golden",
     "amphichiral_cp",
@@ -14762,11 +14763,15 @@
     "firewall"
    ],
    "refs": [
+    "B640",
+    "B701",
     "B706",
     "B707",
     "B712",
     "B719",
-    "B721"
+    "B721",
+    "B723",
+    "B724"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 5,
@@ -14820,6 +14825,26 @@
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B725": {
+   "slug": "born rule",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B701",
+    "B715",
+    "B716",
+    "B721",
+    "B723",
+    "S070"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B74": {
