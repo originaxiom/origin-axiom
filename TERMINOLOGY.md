@@ -182,3 +182,36 @@ No invariant may be transferred between these without an explicit map.
   hierarchy — rung-1 = does a quantity live in the object's field?; rung-2 =
   does an external FREEDOM organize as the object's Galois torsor / the 𝔽₂
   seam? (B706 ran both on the SM flavor sector → NO-MATCH.)
+
+## Observer-coupling / physics-of-the-object glosses (added Review 26; source R25-4)
+- **the incompleteness / the closing**: the object presents an AMBIGUITY or
+  gap it does not itself resolve (no chirality, no real anchor, no time, no
+  scale, no value); the observer supplies a CLOSING (a choice that resolves
+  it). Reality = the observer's closings of the object's incompletenesses
+  (B713–B719). The object supplies boundaries; the observer supplies specifics.
+- **c-as-swap**: the observer's conjugation c (complex conjugation / orientation
+  / time reversal) acts as a SWAP that exchanges the object's two chiral copies
+  everywhere (two saddles σ₁↔σ₂, ρ_geom↔ρ̄_geom, τ↔τ̄). The object is
+  swap-symmetric; the observer breaks the symmetry by CHOOSING a side. The
+  Tomita–Takesaki modular conjugation J realizes it (B713/S070/B723).
+- **the child**: a Dehn filling of the cusp of the object (m004) along a slope
+  ∈ ℚ∪{∞} → a closed child 3-manifold. SPACE is the observer's choice of slope;
+  the being washes out (4₁(5,1)≅5₂(5,1); a non-arithmetic being gives the
+  identical child) — reality's structure is the observer's (B716+child/B718).
+- **being-only**: a computation that consumes ONLY the object's trace field
+  ℚ(√−3) (the "being"), not m004's finer Bianchi/holonomy/cusp arithmetic. The
+  field-scoped observer (B723) is being-only; the OBJECT-level observer (m004's
+  PSL(2,O₃)) is the next door (cc2's load-bearing catch).
+- **native gauge = complex Chern–Simons**: the object's own gauge dynamics is
+  SL(2,ℂ) complex Chern–Simons (the 3d–3d correspondence), NOT Yang–Mills;
+  T[4₁] is abelian U(1) (B262/B715), no nonabelian gauge on the object.
+- **multiplicity = the covering degree**: "how many units" (the trillions, the
+  size) is an IMPORTED SCALE = the covering degree, not an object number
+  (vol(cover)=deg·base; Mostow fixes shape not size). The count is the
+  observer's (B719).
+- **the Born ledger**: the arithmetic stratification of the Born rule on the
+  object (B725–B729): FORM (\|·\|² conjugation-norm) = being ℚ(√−3) and WEIGHTS
+  (non-uniform, 1:φ²) = hearing ℚ(√5) are the object's two QUADRATIC fields (the
+  CLASSICAL content); AMPLITUDES ℚ(√(2+φ)) + PHASE ℚ(ζ₅) + associator ℚ(√φ) are
+  QUARTIC golden-MTC OVERLAYS (the quantum content), ramified away from the
+  object's prime 3. The object supplies the probabilities, not the amplitudes.

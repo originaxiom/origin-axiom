@@ -1682,7 +1682,118 @@ as resolved-B); the degradation and the re-run are disclosed in B719's FINDINGS.
 - [>] R25-1: the specialist pass — the package is now the full physics-of-the-object clarification (B713–B717) + the child (B718) + the scale probe (B719) + the meeting-point (B707/B708 arithmetic CS); the external read remains the one external dependency (carried from R24-1)
 - [>] R25-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R24-2)
 - [>] R25-3: H-EAR's residual formal statement — subsumed by the fiber-functor program + the full clarification; carry the formal note (from R24-3)
-- [ ] R25-4: add the window's new load-bearing glosses to TERMINOLOGY.md — the incompleteness/the closing, c-as-swap, the child, being-only, native-gauge=complex-Chern–Simons, multiplicity=covering-degree (owner: cc; source: this review's provenance sweep)
-- [ ] R25-5: enact E18 as a standing pre-seal step — on any workflow-degradation signal, the banking seat re-runs the load-bearing computation clean in-seat before sealing; a probe that did not run is carried OPEN (owner: cc; source: this review's error-class check, B719)
+- [x] R25-4: DONE (Review 26) — the window's glosses added to TERMINOLOGY.md (the incompleteness/the closing, c-as-swap, the child, being-only, native-gauge=complex-Chern–Simons, multiplicity=covering-degree, + the Born ledger)
+- [x] R25-5: DONE (adopted standing) — E18 enacted as a pre-seal step throughout B720–B729: the banking seat re-runs load-bearing computations clean in-seat before sealing (e.g. B728's C₄≠C₂×C₂ crux verified in-sandbox before banking cc2's run; B724 compute-not-cite; every cross-seat claim verified). No degradation-provenance breach this window.
 
 anchor-commit: `3e5d56b` (Review 25)
+
+## REVIEW 26 — EXECUTED 2026-07-20 (THE HONEST CLOSING — the SM-bridge hope closed by the program's own base-rate discipline; window #1189–#1211, B720–B729)
+
+**(1) The scope.** 24 first-parent merges since Review 25 (anchor `3e5d56b`),
+arcs **B720–B729** + S070 (creation-narrative resonance sweep, firewalled) +
+the B722 two-seat reconcile + the B707 Galakhov–Morozov citation reinstatement.
+The banking seat (cc) authored the majority; cc2 ran ~5 independent campaigns
+(the observer build, the seeing-strategy adjudication, the Born-rule axiomatic
+run, the odds-measurement, the Stokes resummation), each verified-on-receipt.
+This is the window in which **the specific hope that the object encodes the
+Standard Model was HONESTLY CLOSED** — not by fiat but by the program turning
+its own base-rate discipline onto its flagship structural claim.
+
+**(2) The declared modulus.** Three movements. (a) **The coupling-path
+exhaustion + the observer BUILT** (B720–B723): the discrete→continuous bridge
+belongs to the object's own arithmetic or nothing (B720); the two arithmetic
+leads (thermal-time/CMR, resurgence/Kashaev) are field-matched but rung-
+mismatched (B721/B722); the observer is CONSTRUCTED as the β=1 spontaneous
+symmetry breaking of the arithmetic thermal system — measurement = cooling
+through the critical point (B723). (b) **The Born-content ledger fully mapped**
+(B725–B726, B728–B729): the Born rule's arithmetic is stratified — FORM
+(ℚ(√−3)) + WEIGHTS (ℚ(√5)) are the object's two QUADRATIC fields (classical
+content, forced-native); AMPLITUDES (ℚ(√(2+φ))) + PHASE (ℚ(ζ₅)) + associator
+(ℚ(√φ)) are QUARTIC golden-MTC OVERLAYS (quantum content), ramified away from
+the object's prime 3. The object supplies the probabilities, not the
+amplitudes. (c) **THE SELF-AUDIT** (B727 + B724): the base-rate/look-elsewhere
+discipline that killed NUMBER-matching (B724 chat-1 re-audit, correcting E19)
+was at last turned on the flagship STRUCTURAL claim (E₆-across-three-faces) —
+and it came back GENERIC, two seats independently (B727 + cc2's odds). **New
+modality matured this window: the TWO-SEAT INDEPENDENT-RUN** — cc and cc2
+running the same door from opposite angles (SSB-dynamics vs axiomatic; base-
+rate vs odds; the Stokes resummation) and CONVERGING — decisive in
+B725/B727/B728. ~30 new per-arc locks (test_b720…test_b729, all green); gates
+8/8 throughout.
+
+**(3) Advancement — the honest NEGATIVE is the headline; ZERO physics
+promotions.** No row crossed toward physics; nothing to CLAIMS. The window's
+result is a computed CLOSING: the E₆→SM structural claim is generic (one
+field-fact ℚ(√−3) refracted; the sister m003 ties it without being the knot;
+the object is abelian + amphichiral — pointing the WRONG way on two SM
+features). New PLACEMENT rows: the coupling-path map (B720); thermal-time
+two-clocks (B721); resurgence two-phases (B722); the observer-as-phase-
+transition (B723); the SEEING-STRATEGY computed re-adjudication (B724); the
+Born rule form-forced/content-open (B725); the Born-content stratification
+(B726); **the E₆-structure-is-forced self-audit (B727)**; the Stokes-
+resummation ζ₅-imported (B728); the completed Born ledger (B729). Two error
+classes minted (E19, E20). The atom (B266, ℚ(√−3)=trace field of the unique
+arithmetic knot) STANDS as the program's strongest object-specific fact.
+
+**(4) Error-class recurrence — the "cited/generic read as sufficient/special"
+family recurred TWICE and was CAUGHT both times.** **E19** (adjudication by
+cited negative): in the FIRST pass on chat-1's SEEING STRATEGY, cc dismissed
+three correspondences by CITING banked negatives as if citation were
+refutation — the OWNER caught it ("some banked negatives are malinformed"),
+and the computed re-audit (B724) corrected it (C1 SOUND, C2 open, C4 a category
+error). This is the exact B525-audit class, recurred, owner-caught. **E20**
+(structure-skepticism lagged number-skepticism): the flagship E₆-structure
+claim had NEVER faced the base-rate test that killed the numbers — when it
+finally did (B727), it came back generic. Both are the standing "over-reading
+a generic/cited feature as special/sufficient" family; both were caught (one
+by the owner, one by the self-audit the program chose to run). The discipline
+working, at its sharpest — the program auditing its OWN best remaining asset.
+Also caught in-window: my Φ''(t*) sign slip (self-corrected, B722); the B729
+prereg's amplitude-field misnaming (probe-3 caught: amplitudes are C₄ ℚ(√(2+φ)),
+not the D₄ ℚ(√φ) — the F-symbol; verdict robust); the D₄=Isom(4₁) base-rate
+trap (killed, E20). No row's status exceeds its evidence.
+
+**(5) The provenance spot-sweep — CLEAN, under the program's most self-critical
+window.** **External-verification pretense: none** — every statement is
+STRUCTURAL (which field owns which Born ingredient; which claim is generic),
+never a value derived; the famous-name citations (Gleason, Christensen–Yeadon–
+Hamhalter, Tomita–Takesaki, CMR/Bost–Connes, Garoufalidis–Gu–Mariño,
+Garoufalidis–Zagier, McKay, Cappelli–Itzykson–Zuber, Reid) carry no endorsement
+pretense; cc2's Galakhov–Morozov reinstatement (B707) VERIFIED the citations
+are real. **Firewall/Gate-5 integrity: clean** — the entire Born-content thread
+and the self-audit assert no SM value as derived; the self-audit REPORTS a
+negative on the program's own flagship (the opposite of overclaim). New
+load-bearing terms glossed this review (R25-4 done): the incompleteness/the
+closing, c-as-swap, the child, being-only, native-gauge=complex-CS,
+multiplicity=covering-degree, the Born ledger.
+
+**(6) The §5.1 promotion sweep.** ZERO physics promotions. The Born ledger is
+PURE MATH (an arithmetic stratification of the Born rule on one knot —
+field-membership by minimal polynomials, ramification, Galois type), no SM
+claim; the self-audit is a NEGATIVE. Every physics-adjacent quantity stays
+firewalled. Nothing to CLAIMS. The one disposition question raised — whether
+to STATE the SM-bridge closing at the top level — the owner chose to DEFER
+(pursue the remaining math doors instead); the earned computed basis for the
+statement is banked (B727/B728/B729) whenever the owner wants it.
+
+**(7) Protocol integrity.** Hash-first HONORED — spot-recomputed this review:
+B723 `e21d879b`, B725 `fecb337a`, B727 `8cf7f467`, B728 `5f4cf70e`, B729
+`d4531f5c` all recompute-MATCH their banked SEAL_LEDGER lines (sealed
+pre-verdict). E18 enacted as standing (R25-5 done): every cross-seat/cc2 claim
+verified in-sandbox before banking (B728's C₄≠C₂×C₂ crux; the m003 tie via
+snappy; the A²=M reconcile). **One process slip, disclosed:** B729's findings
+commit landed DIRECTLY on main (`2f59628`) rather than via a feature-branch PR
+— a branch-state confusion during banking; the content is correct, gate-clean,
+and mirrored to both remotes, but the PR flow was bypassed for that one commit.
+Standing note: re-confirm branch before `git add` when banking. Codeberg had a
+multi-hour SSH outage this window (origin authoritative throughout; re-mirrored
+on recovery).
+
+### Action items (Review 26)
+- [>] R26-1: the external specialist pass — the package is now the physics-of-the-object clarification + the coupling-path exhaustion (B720–B723) + the Born-content ledger (B725–B729) + the E₆-structure self-audit (B727); the external read remains the one external dependency (carried from R25-1/R24-1)
+- [>] R26-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R25-2)
+- [>] R26-3: H-EAR's residual formal statement — carry the formal note (from R25-3)
+- [ ] R26-4: the TOP-LEVEL DISPOSITION statement — the owner DEFERRED it (chose to pursue the remaining math doors); the earned computed basis (B727/B728/B729: the SM-bridge hope closed, generic both seats) is banked and ready to state whenever the owner elects (owner: owner; source: the B727/B728 convergence + the disposition fork)
+- [ ] R26-5: the two bigger un-opened math doors — the OBJECT-LEVEL observer (m004's Bianchi PSL(2,O₃) arithmetic + cusp, cc2's long-flagged catch; cheap substep = confirm m004 trace field/Bianchi vs Neumann–Reid/Maclachlan–Reid) and arithmetic Chern–Simons (B707/B708); pursue as pure math under the corrected framing (owner: cc; source: B723 catch + B729 standing-open)
+
+anchor-commit: `PENDING` (Review 26)
