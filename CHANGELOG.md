@@ -1,5 +1,11 @@
 # Changelog
 
+## B732 — B701's conjugation IS the outer automorphism of A₅ at the sister's congruence level
+- The tractable positive surviving B731 (cc2's next-stage 2, on the sister m003). Pure math; verified in-sandbox.
+- m003 congruent at level (2), PSL(2,O₃)/Γ((2))≅A₅. Complex conjugation ω↦ω² reduces mod 2 to the 𝔽₄-Frobenius, which SWAPS the two 5-cycle classes of A₅ ⇒ the OUTER automorphism.
+- So B701's outer ℤ/2 = Out(A₅) at the sister's congruence quotient. B701 now realized on BOTH towers: CM-inversion (abelian CMR, B721) + Out(A₅) (non-abelian Bianchi, B732).
+- The object-level observer thread resolves: m004 (knot) non-congruence (B731); m003 (sister) congruent, observer-swap = Out(A₅) (B732). 3 locks; nothing to CLAIMS. Credit cc2.
+
 ## B731 — the figure-eight knot group is NON-CONGRUENCE (the knot has no finite congruence observer)
 - Go/no-go for the object-level observer door (R26-5), run rigorously — REVERSES the premise. Two-seat (cc2 mapped+cautioned; cc ran the definitive PSL test).
 - Rigorous PSL image-index of m004 in PSL(2,O₃): 6 at level 2, 6 at level 4, 1 at 3 & 5 — NEVER 12 (geometric index). Congruence closure index 6 -> m004 NON-CONGRUENCE.
