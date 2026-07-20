@@ -63,3 +63,20 @@ Two-seat: cc banks the observer-space + growth law (this); cc2 runs m004's own (
 independent 𝔽₂-dimension count + the V₄ tie — cross-verify the bounded-vs-continuum headline
 (pending). Vacuity gate PASSED (the observer-space is the principled B701-conjugation torsor on
 G_n, falsifiable two-outcome, not a loose "any choice"). Nothing to CLAIMS; no physics value.
+
+---
+## TWO-SEAT CONSENSUS (cc2's complementary run, cc-verified) — 2026-07-21
+cc2's independent run (wf_16e0a185) CONFIRMS bounded, and resolves the two open items I flagged:
+- **INERT2 (decisive):** the observer-space stays a SINGLE shared ℤ/2 across ANY number of inert
+  primes — Gal(ℚ(√−3)/ℚ)=ℤ/2 reduces to the Frobenius at EVERY inert prime SIMULTANEOUSLY (cc2
+  verified p=2,5,11,17,23; cc verified n=10=2·5 diagonally). You cannot flip Frobenius at one inert
+  prime while leaving another at identity — one global conjugation. Rules out ω(n)-growth (the
+  untested decider). = cc's n=10 diagonal result. CONSENSUS.
+- **BEINGBIT (my flagged finer open item):** RESOLVED by cc2 — the bare (√−3)¹ bit IS the spurious
+  PGL diagonal (conceded), BUT the being-bit reasserts as genuinely arithmetic at (√−3)²=(3): the
+  ramification-induced automorphism (e↦−e on the different's nilpotent) CANNOT be a GL(2)-
+  conjugation, so it is NOT the excluded inner/diagonal class. So **V₄ (dim 2) STANDS**, being-bit
+  defined via the tower/different (consistent with my probe-2 "(3)=1").
+**NET (both seats): the observer-space is the bounded 2-bit V₄ (being·hearing·meeting), NOT a
+continuum — B706 confirmed concretely at the congruence doors.** Kind-mismatch with the SM's ~20
+continuous params; size-mismatch with the ~10^500 landscape. Consensus reached.
