@@ -1,5 +1,11 @@
 # Changelog
 
+## B731 — the figure-eight knot group is NON-CONGRUENCE (the knot has no finite congruence observer)
+- Go/no-go for the object-level observer door (R26-5), run rigorously — REVERSES the premise. Two-seat (cc2 mapped+cautioned; cc ran the definitive PSL test).
+- Rigorous PSL image-index of m004 in PSL(2,O₃): 6 at level 2, 6 at level 4, 1 at 3 & 5 — NEVER 12 (geometric index). Congruence closure index 6 -> m004 NON-CONGRUENCE.
+- E21: the agent + cc's first pass over-read "level (4)" from the SL image 320=3840/12, skipping the order-4 center of SL(2,O₃/4). cc2's fabricated-citation guard had flagged it.
+- Upshot: m004 the KNOT has no finite congruence observer (NO-GO); the congruence structure belongs to the SISTER m003 (level 2, A₅). cc2 corrections stand (non-abelian Bianchi, not CMR ray-class). 2 locks; nothing to CLAIMS.
+
 ## B730 — the forced faces (Klein-four V₄) + the cosmic-topology meeting point (real math, physics NIL)
 - Owner's three-question message, asked to cc AND cc2 separately. THREE-WAY converged (cc independent census+research; cc2 faces; cc2 capstone).
 - Q1 (B): exactly 3 forced faces = V₄ (being ℚ(√−3), hearing ℚ(√5), meeting ℚ(√−15) fund. disc −15). ℚ(√−7) is a STAGE not a face — proven 3 ways incl. cc's SL(n)-tower angle (adjoining √−7 explodes V₄ to (ℤ/2)³).
