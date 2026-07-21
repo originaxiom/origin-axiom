@@ -15470,6 +15470,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B749": {
+   "slug": "genesis forks",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B125",
+    "B746",
+    "B747",
+    "B748",
+    "P019"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
