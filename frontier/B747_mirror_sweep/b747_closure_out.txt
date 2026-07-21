@@ -1,0 +1,3 @@
+isometry 4_1(3,8) ~ 4_1(-3,8) VERIFIED: True
+=> shared invariant trace field; (-3,8) computed deg 30, sqrt5 False (b747_out line 22)
+direct route prec=6000: deg 30, contains sqrt5 = False

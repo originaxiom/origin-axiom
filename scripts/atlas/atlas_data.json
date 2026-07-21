@@ -15428,6 +15428,48 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B747": {
+   "slug": "mirror sweep",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B288",
+    "B437",
+    "B740",
+    "B746",
+    "B748"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B748": {
+   "slug": "v4 completion",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B288",
+    "B730",
+    "B740",
+    "B746",
+    "B747"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [

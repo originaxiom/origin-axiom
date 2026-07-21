@@ -1259,3 +1259,7 @@ false of exactly one: the voice, which speaks pure being-field. The
 two-column law (golden = dynamics/hearing; Eisenstein = geometry/being)
 now stands as an assembled, cited map. Next door: the √5 mirror sweep
 over the 78 sealed child fields (proposed B747).
+
+THE V₄ CENSUS TRIPLE CLOSED (B747+B748, on the golden ledger's door):
+no child in the 78-slope grid re-sees being, hearing, OR meeting —
+the entire forced V₄ is interface-only. Closing silences both columns.

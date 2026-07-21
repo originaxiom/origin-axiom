@@ -1,0 +1,33 @@
+B748 -- V4 completion (sealed input 77818016, prereg a59ac036)
+[ctrl] Q(sqrt-15) contains sqrt-15: True
+[ctrl] Q(sqrt5) contains sqrt-15: False (must be False)
+[ctrl] Q(sqrt-3) contains sqrt-15: False (must be False)
+[ctrl] m004: sqrt-3 True (True), sqrt-15 False (False)
+STAGE 1 (theorem): 54 odd-degree slopes -- sqrt-15 EXCLUDED by parity
+  (-7,1) deg 6: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-6,5) deg 10: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-6,7) deg 14: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-5,1) deg 4: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-3,2) deg 6: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-3,4) deg 14: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-3,5) deg 18: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-3,7) deg 26: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-3,8) deg 30: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-2,3) deg 6: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-2,5) deg 10: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (-2,7) deg 14: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (2,3) deg 6: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (2,5) deg 10: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (2,7) deg 14: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (3,2) deg 6: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (3,4) deg 14: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (3,5) deg 18: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (3,7) deg 26: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (3,8) deg 30: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (5,1) deg 4: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (6,5) deg 10: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (6,7) deg 14: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+  (7,1) deg 6: sqrt-15 = False; sqrt-3 consistency False == sealed False: True
+TALLY: 54 parity + 24 exact-negative + 0 HITS + 0 unresolved; consistency failures: []
+VERDICT: V4-SILENT -- 0/78 on the meeting face; the ENTIRE V4 is interface-only
+B748 SWEEP COMPLETE
