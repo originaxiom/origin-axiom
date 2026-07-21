@@ -30,14 +30,14 @@ number. It is a choice: by raw description length, a periodic word is MORE minim
 and the Sturmian words achieve exactly p(n) = n+1. *The minimal inexhaustible description is
 Sturmian.* (Classical; the repo already leans on Sturmian minimality in B724.)
 
-**T4 [THEOREM — the principle applied to itself].** A Sturmian word is fixed by a slope. Among
-all slopes, the golden one is (i) Hurwitz-extremal — the worst-approximable, the slope that
-maximally resists collapse into rationality (P000 premise 1's original form) — and (ii) the
-unique slope whose own description, the continued fraction [1;1,1,1,…], is the minimal
-repeating unit: **the minimal-description principle, applied to its own parameter, fixes the
-golden slope.** Its substitution generator is σ: a→ab, b→a — the thing becomes itself-plus-
-its-shadow; the shadow returns the thing. *(The self-consistency is the argument; the shadow
-story is its poetry.)*
+**T4 [THEOREM — the principle applied to itself; strengthened per cc's review].** A Sturmian
+word is fixed by a slope. The golden slope is Hurwitz-extremal — and this is NOT a second
+criterion coinciding with the all-1s continued fraction: **they are provably the same fact**
+(Hurwitz extremality at φ IS the all-1s expansion — the bottom of the Lagrange spectrum). One
+criterion, one fixed point: the minimal-description principle, applied to its own parameter,
+lands on the unique slope whose description is the minimal repeating unit. Its substitution
+generator is σ: a→ab, b→a — the thing becomes itself-plus-its-shadow; the shadow returns the
+thing. *(The self-consistency is the argument; the shadow story is its poetry.)*
 
 **A5 [AXIOM — the geometric carrier].** The description is realized as an action on a carrier:
 the rank-2 free group F₂ with σ's abelianization [[1,1],[1,0]] acting as a mapping class —
@@ -64,10 +64,13 @@ metallic family M_m (P000 premise 3; B92's det=−1 slice, proved). Within the f
 *most-selected, not forced* (P000 premise 4; the three selectors of K009/B313). This chain
 changes nothing there; it only makes visible that T4 is where the selection pressure lives.
 
-**Count:** two theorems carry the symbolic half (T3, T4-i), one theorem carries the geometric
-half (T7), and **four choices carry the rest (A0, A2, A5+A5b, A6)**. "Zero axioms to
-existence" was never on the table; *four axioms to a unique object* is the honest claim, and
-it is strong — IF the forks below come back ROBUST.
+**Count (re-priced per cc's review):** the theorems carry the spine (T3, T4, T7). Of the four
+labeled choices, **A0+A2 are really ONE metaphysical commitment** — *being is inexhaustible
+description* — with A2 doing metaphysical work in an information-theoretic costume; **A5+A6
+are realization choices of a different, cheaper kind** (how the description becomes geometry).
+The honest ledger: **one deep axiom, two engineering choices, plus theorems.** "Zero axioms
+to existence" was never on the table; one-deep-axiom-to-a-unique-object is the claim, and the
+forks below price it.
 
 ## The fork table (what B749 computes; two-outcome per fork, both outcomes wins)
 
@@ -80,6 +83,7 @@ it is strong — IF the forks below come back ROBUST.
 | F5 | A6 (drop orientability) | the det −1 mapping torus of [[1,1],[1,0]] | what manifold IS it — trace field, cusps, arithmeticity? never computed in-repo |
 | F6 | A5b (no puncture) | the closed-torus Sol mapping torus | per B747/B748 (the forced V₄ is interface-only): expect FACE-LOSS, not inheritance — test that expectation |
 | F7 | control | a non-golden, non-metallic Sturmian slope (e.g. a transcendental-slope word) | the genericity control: how much of the anatomy is "any Sturmian" vs "golden" |
+| F8 | A5 (the carrier itself — cc's gap) | the word's NON-geometric canonical carriers: the substitution tiling space/hull and the Fibonacci C*-algebra (K-theory ℤ²/φ-cone) | the deepest fork: does the anatomy need geometry at all, or does the combinatorial carrier already hold it? Tests "why does the description become geometry" — the question the original table never asked |
 
 **Verdicts per fork (B749, sealed before computation):** ROBUST — the sibling measurably
 lacks the anatomy (the selection survives the varied axiom; the choice was cheap) — or
@@ -105,6 +109,13 @@ drafted BEFORE any of them runs, with S072's vocabulary reconciled at that draft
 flag). What this chain does not do, and never will: cross A0 from inside mathematics. The
 step from "necessarily, if anything exists, it looks like this" to "something exists" is not
 a computation, and this program's honesty has always lived exactly there.
+
+**cc's preregistered expectations (recorded 2026-07-21, BEFORE B749 computes — E20 hygiene):**
+F5 FRAGILE and most interesting — the det −1 sibling expected to be the Gieseking manifold,
+i.e. m004's own double-cover parent, not a stranger; F3 half-fragile (B125 keeps silver
+arithmetic; m=1 rests on the softer K009/B313 selectors); F2/F4/F6/F7 ROBUST. If it lands so,
+the priced chain reads: *unique given roughly two real choices, closest rivals its own parent
+and its silver sibling* — contingency located, not eliminated.
 
 *Owner: this document is wrong wherever it misstates your intent — that is what the red pen
 is for. Every [AXIOM] label is an invitation to either own the choice in your own words or
