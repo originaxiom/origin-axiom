@@ -1793,7 +1793,97 @@ on recovery).
 - [>] R26-1: the external specialist pass — the package is now the physics-of-the-object clarification + the coupling-path exhaustion (B720–B723) + the Born-content ledger (B725–B729) + the E₆-structure self-audit (B727); the external read remains the one external dependency (carried from R25-1/R24-1)
 - [>] R26-2: the web seat's L95 prereg — verify-on-receipt (never landed; carried from R25-2)
 - [>] R26-3: H-EAR's residual formal statement — carry the formal note (from R25-3)
-- [ ] R26-4: the TOP-LEVEL DISPOSITION statement — the owner DEFERRED it (chose to pursue the remaining math doors); the earned computed basis (B727/B728/B729: the SM-bridge hope closed, generic both seats) is banked and ready to state whenever the owner elects (owner: owner; source: the B727/B728 convergence + the disposition fork)
+- [>] R26-4 (carried, substantively advanced): the disposition STATEMENT now exists banked (PC27 §5 / B736 p1_consolidation — the honest capstone); only its TOP-LEVEL placement (README/CLAIMS note) remains owner-gated — the TOP-LEVEL DISPOSITION statement — the owner DEFERRED it (chose to pursue the remaining math doors); the earned computed basis (B727/B728/B729: the SM-bridge hope closed, generic both seats) is banked and ready to state whenever the owner elects (owner: owner; source: the B727/B728 convergence + the disposition fork)
 - [>] R26-5: the object-level observer door — ADVANCED (B731 CORRECTED by B734): m004 the KNOT IS congruence at level (2)³=(8) (B731's 'non-congruence' RETRACTED — shallow level-check, E22); the sister m003 is at (2)¹. B701 conjugation = Out(A₅) at m003's level-(2) quotient (B732). Open next doors: does B701 act as an outer aut on m004's OWN level-(8) observer? + the bare Bianchi-Hecke KMS completion + external cross-check of the Serre-defying level result; Arithmetic Chern–Simons (B707/B708) still un-opened (owner: cc; source: B734/B732)
 
 anchor-commit: `7e40985` (Review 26)
+
+## REVIEW 27 — EXECUTED 2026-07-21 (THE THREE-SEAT ERA — the hunt, the collisions, the forged signals, the mutual-correction lattice; window #1212–#1237, B737–B744)
+
+**(1) The scope.** 32 first-parent merges since Review 26 (anchor `7e40985`), the densest and most
+structurally novel window in the program's history: THREE seats banking in parallel (cc this seat;
+cc2 independent/complementary; cc3 the audit seat, opened and CLOSED within the window), the
+pathfinder mechanism built and run, the negatives hunt executed by two seats over two overlapping
+corpora, two B-number collisions, nine forged workflow signals (all caught), and the first genuine
+REVIVALS of banked negatives. Arcs: B737–B744, PC27 (the capstone paper), P018, the negatives-hunt
++ pathfinder handoffs, cc3's #1227/#1229/#1235/#1236, cc2's revisit register + rung1-widened +
+analytic + door1 packages.
+
+**(2) The declared modulus.** Four movements. (a) **The pathfinder** (docs/handoffs/PHYSICS_
+PATHFINDER_PROMPT): the kill-form→escape-hatch mechanism — the Negative Anatomy Compiler (B738:
+217 classified, audited 0/3), the face-coverage matrix (the emittance columns EMPTY corpus-wide —
+independently corroborated by cc3's census: 160/162 no-emittance, 0 scattering), the candidate
+lattice under a campaign-global look-elsewhere budget. (b) **The hunt's cells**: #1 B737 Candidate
+Zero (B at the crux — the ζ in the voice is the FIELD's; two positives banked: the exact
+zeta-quotient voice φ=Λ_K(s−1)/Λ_K(s) with Res φ=2√3/vol(m004), and the first object-specific
+spectral data — the disc −48 conductor-4 cusp CM + the level palette 1/2/8); #2 B739 (the
+CHARACTER-RIGIDITY theorem: the continuous spectrum carries exactly ζ_K and nothing else, 54/54,
+0/3); #3 B740+door1 (the B288 census EARNED on 78/78, TWO seats TWO disjoint methods — Sage
+compositum vs algdep/exact-containment — closing each other's residuals; the amphichirality
+shortcut minted); B741/B744 (provenance: 5 located, 6/6 conflicts upheld with green locks);
+cc3's B742 (213 triaged, 30 kills EARNED incl. WALL-1 + S014, 2 REVIVED pending cross-verify);
+cc2's B743 (the CM-collapse theorem + 0 gated hits across the full real tower + the analytic door
+— the forced limit-hypothesis CLOSED; the instrument caught-and-refused Koide). (c) **The
+capstone**: PC27 registered (DRAFTABLE), P018 (the two firewalled bridges). (d) **The PROCESS
+story — the window's real novelty**: the three-seat mutual-correction lattice WORKED — cc3
+repaired cc's empty-merge (#1217) and level-convention; cc corrected cc3's attribution-gate
+blockage (forensic-exemption, disclosed) and adjudicated the kill-graph conflicts (6/6, a
+corpus-scope lesson not an error); cc2's own-goal (20 false lindep witnesses) caught by its own
+exact cross-check; NINE forged workflow signals at cc3 all caught (journal-only result channel +
+disk-written verdicts + nonce probes — countermeasures now adopted by this seat).
+
+**(3) Advancement.** New THEOREM-grade mathematics: the character-rigidity of the object's
+continuous spectrum (B739); the voice-as-exact-zeta-quotient identity with the covering-invariant
+residue (B737/B739); the earned B288 census (B740, two-seat). The foundational kills WALL-1 and
+S014 now stand on computation (B742). **Two REVIVALS pending cross-verify (B745 reserved):** B58
+(the SL(n) numerics barrier negated by a working ε-pinv route) and B225 (the octahedral-parent
+kill was a disc≡a² mod 2 tautology). ZERO physics promotions; nothing to CLAIMS; Gate 5 clean
+throughout — B743's null banks as the negative it is, with the untestable targets NAMED.
+
+**(4) Error-class recurrence.** The dominant family this window: **premature conclusion from
+truncated computation** — E21 (SL/PSL center over-read), E22 (shallow 2-adic plateau read as
+stabilization, B731→B734), cc2's lindep trap (unbounded-coefficient false witnesses — proposed as
+a standing rule), and B288's original 54/78 gap (closed). Each instance was caught by a DIFFERENT
+seat or by exact cross-check — the strongest evidence yet that the multi-seat lattice, not any
+single seat's care, is the program's real error-correction mechanism. E23 (level-convention
+naming) + E24 (cc3's arc) remain PROPOSED pending consensus. Also owned this window: cc's B729
+direct-to-main and #1217 empty-merge (both repaired); cc3's two owned process errors (preserved
+forensically); the B742 numbering collisions → the RESERVATION PROTOCOL adopted (SEAL_LEDGER
+reservation rows before first use — B743/B744/B745 already minted under it).
+
+**(5) The provenance spot-sweep.** The window's provenance story is exceptional: cc3's forged-
+signal defense created the program's first PRESERVED FORENSIC TRAIL (quarantined fabrications,
+byte-faithful VOIDed rows, hash-pinned review verdicts) — the attribution gate now exempts that
+directory explicitly (disclosed, principled: editing hash-pinned evidence would break its seals).
+Hash-first honored: B737 9fd4ed33, B739 62922f0c, B740 14847ec1 recompute-match; B743's received
+seals verified 4/4 + the in-place addendum hash (disclosed). External-verification pretense: none;
+all famous-name citations (Sarnak, Friedman, EGM, PDG, Bruce, CMR) carry no endorsement pretense
+and were fetched-at-source where load-bearing.
+
+**(6) The §5.1 promotion sweep.** Nothing promoted; nothing to CLAIMS. PC27 remains a candidate
+(DRAFTABLE, internal). The two revivals are explicitly PENDING cross-verify — not promoted, not
+headers-applied, per cc3's own gating design.
+
+**(7) Protocol integrity.** The reservation protocol ADOPTED and in use; the pre-push governance
+gate is now active locally (GitHub merges still bypass it — a residual gap, flagged); the
+seal-ledger is a generated view coexisting with appended verdict rows (works, slightly awkward —
+follow-up); cc3's workflow-hardening (journal-only results, nonce liveness) adopted for this
+seat's future campaigns. One structural note for the record: with cc2 and cc3 now CLOSED, the
+program returns to single-seat banking + the courier — the reservation protocol and the hardening
+survive the seats that minted them.
+
+### Action items (Review 27)
+- [>] R27-1: the external specialist pass — the package now includes the character-rigidity
+  theorem + the earned census + the Serre-defying congruence result (carried from R26-1)
+- [>] R27-2: the web seat's L95 prereg — verify-on-receipt (carried from R26-2)
+- [>] R27-3: H-EAR's residual formal statement (carried from R26-3)
+- [ ] R27-4: B745 — the B58/B225 revivals cross-verify (reassigned to cc on cc2's closure;
+  reserved; correction headers wait on it) (owner: cc)
+- [ ] R27-5: the E23/E24 (+ the lindep rule) consensus round — with cc2/cc3 closed, the owner
+  arbitrates or cc adopts with the courier's read (owner: cc/owner)
+- [ ] R27-6: the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's
+  sealed B′ exposure list + the merged (~275-id) kill corpus with a UNIFIED enum (owner: cc)
+- [ ] R27-7: ledger hygiene — LAW_MAP/RETRACTIONS rows cite their computation's location
+  (exact_scope pointers), so ledger-scoped audits verify without the hop (owner: cc)
+
+anchor-commit: `PENDING` (Review 27)
