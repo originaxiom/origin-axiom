@@ -1,0 +1,85 @@
+B749 fork F4 — shadow-rule variants — raw output (deterministic)
+siblings: inert(a->ab,b->b) rev(a->ab,b->ba) swap(a->b,b->ab); ref fib(a->ab,b->a)
+convention: M[i][j] = #occurrences of letter_i in sigma(letter_j)
+
+CHECK: abelianization_inert = [[1, 0], [1, 1]]
+CHECK: abelianization_rev = [[1, 1], [1, 1]]
+CHECK: abelianization_swap = [[0, 1], [1, 1]]
+CHECK: abelianization_fib = [[1, 1], [1, 0]]
+CHECK: det_abelianization_inert = 1
+CHECK: det_abelianization_rev = 0
+CHECK: det_abelianization_swap = -1
+CHECK: det_abelianization_fib = -1
+CHECK: rev_det_in_GL2Z = False
+CHECK: trace_inert = 2
+CHECK: charpoly_inert = (x - 1)**2
+CHECK: charpoly_rev = x*(x - 2)
+CHECK: charpoly_swap = x**2 - x - 1
+CHECK: charpoly_fib = x**2 - x - 1
+CHECK: charpoly_swap_equals_fib = True
+CHECK: minpoly_phi_exact = x**2 - x - 1
+CHECK: charpoly_swap_irreducible_over_Q = True
+CHECK: phi_numeric_residual_lt_1e-40 = True
+CHECK: primitive_inert = False
+CHECK: primitive_rev = True
+CHECK: primitive_swap = True
+CHECK: primitive_fib = True
+CHECK: inert_letter_b_ever_generates_a = False
+CHECK: inert_sigma_n_b_fixed_n_le_10 = True
+CHECK: rev_every_letter_generates_both = True
+CHECK: swap_every_letter_generates_both = True
+CHECK: inert_closed_form_sigma_n_a_eq_a_bn_n_le_30 = True
+CHECK: inert_factors_len2_of_ab_omega = ['ab', 'bb']
+CHECK: inert_MorseHedlund_p2_le_2 = True
+CHECK: inert_eventually_periodic = True
+CHECK: rev_prefix_length = 8192
+CHECK: rev_no_eventual_period_p_le_1000_q_le_3000 = True
+CHECK: rev_letter_frequencies = (1/2, 1/2)
+CHECK: swap_freq_a_exact = 3/2 - sqrt(5)/2
+CHECK: swap_freq_b_exact = -1/2 + sqrt(5)/2
+CHECK: swap_freq_a_irrational_minpoly_degree_2 = True
+CHECK: swap_aperiodic_exact_by_irrational_frequency = True
+CHECK: swap_prefix_length = 75025
+CHECK: swap_freq_numeric_matches_exact_lt_1e-4 = True
+CHECK: swap_no_eventual_period_p_le_2000_q_le_5000 = True
+CHECK: inert_invertible_explicit_inverse_a->aB_b->b = True
+CHECK: rev_not_invertible_no_mapping_class = True
+CHECK: swap_invertible_explicit_inverse_a->bA_b->a = True
+CHECK: swap_routeA_Mswap_eq_P_Mfib_Pinv = True
+CHECK: swap_routeA_square_conjugate_to_figure8_monodromy_2111 = True
+CHECK: swap_routeB_tau_eq_innBinv_E_fib_E = True
+CHECK: E_squared_is_identity = True
+CHECK: swap_factor_windows_eq_E_fibonacci_n_le_20 = True
+CHECK: swap_observed_complexity_n_plus_1_n_le_20 = True
+CHECK: witness_abelianization = [[2, 1], [1, 0]]
+CHECK: witness_det = -1
+CHECK: witness_primitive = True
+CHECK: witness_charpoly = x**2 - 2*x - 1
+CHECK: witness_charpoly_irreducible = True
+CHECK: witness_minpoly_1_plus_sqrt2 = x**2 - 2*x - 1
+CHECK: witness_invertible_explicit_inverse_a->b_b->BBa = True
+CHECK: witness_charpoly_differs_from_fib = True
+CHECK: x2_minus_5_irreducible_over_Q_sqrt2 = True
+CHECK: FRAGILE_criterion_nonvacuous = True
+CHECK: any_variant_primitive_aperiodic_invertible_inequivalent = False
+CHECK: verdict_F4 = ROBUST
+
+ALL CHECKS PASSED
+
+VERDICT (per sealed criteria): ROBUST
+ - sigma_inert: invertible (det 1) but NON-PRIMITIVE (sigma^n(b)=b);
+   fixed point = a b^omega, eventually periodic (Morse-Hedlund p(2)=2).
+   Trace 2 abelianization: parabolic, no Anosov route. Fails the
+   aperiodicity/primitivity hypotheses of the chain.
+ - sigma_rev (= Thue-Morse): primitive and aperiodic (bounded cert;
+   classical), but det 0: not an F2-automorphism, NO mapping class,
+   no carrier. PF eigenvalue 2 rational: no quadratic hearing field.
+ - swap: primitive, aperiodic (exact, irrational golden frequencies),
+   invertible — and IDENTIFIED with the Fibonacci class: M_swap =
+   P M_fib P^-1 (GL(2,Z)) and tau = inn(b^-1) o E o fib o E in Aut(F2),
+   so [tau] ~ [fib] in Out(F2) = MCG; its square is conjugate to the
+   figure-eight monodromy [[2,1],[1,1]]. NOT a distinct sibling —
+   identification, not failure (sealed language).
+ - FRAGILE reachable in principle (witness a->aab,b->a: primitive,
+   aperiodic, invertible, PF 1+sqrt2, field Q(sqrt2) != Q(sqrt5)) —
+   no shadow-rule variant realizes it.

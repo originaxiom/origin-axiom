@@ -1,0 +1,112 @@
+B749/F5 compute.py -- det -1 once-punctured-torus bundle (the orientability fork)
+tools: python 3.12.1, snappy 3.3.2, sympy 1.14.0, mpmath 1.3.0
+precision: shapes 280 bits, holonomy 256 bits
+
+== 0. The sibling monodromy, exactly ==
+CHECK: monodromy S*L == [[1,1],[1,0]] (exact) = True
+CHECK: det(monodromy) = -1
+CHECK: trace(monodromy) = 1
+CHECK: charpoly(monodromy) = x**2 - x - 1
+CHECK: charpoly == x^2 - x - 1 (golden; dilatation phi) = True
+CHECK: phi=(1+sqrt5)/2 satisfies charpoly exactly = True
+CHECK: monodromy^2 == [[2,1],[1,1]] == R*L (m004's monodromy, exact) = True
+CHECK: charpoly(monodromy^2) == x^2 - 3x + 1 (dilatation phi^2) = True
+CHECK: det(M - I) (exact; = -1 => coker(M-I)=0 => predicted H1 = Z) = -1
+
+== 1. Bundle-string trap verified live (never trust notation) ==
+  b++RL: orientable=True vol=2.02988321282 H1=Z cusps=['torus cusp']
+  b+-RL: orientable=True vol=2.0298832128 H1=Z/5 + Z cusps=['torus cusp']
+  b-+RL: orientable=False vol=1.8319311884 H1=Z/2 + Z cusps=['Klein bottle cusp']
+  b--RL: orientable=False vol=1.8319311884 H1=Z/2 + Z cusps=['Klein bottle cusp']
+CHECK: b++RL.is_isometric_to(m004) (review-1 fact) = True
+CHECK: b+-RL orientable with H1 = Z/5 + Z (NOT the Gieseking; the -RL sister) = orientable=True, H1=Z/5 + Z
+CHECK: b-+RL volume == 2*Catalan to 9 digits (a DIFFERENT non-orientable manifold) = 1.8319311884 vs 2*Catalan=1.8319311884, |diff|<1e-9: True
+
+== 2. Route B: build the det -1 bundle, verify string by volume + cover ==
+  b-+L: orientable=False vol=1.0149416064 tets=1 H1=Z cusps=['Klein bottle cusp']
+CHECK: routeB sibling ('b-+L') volume matches Gieseking 1.0149416064 (|diff|<1e-9) = True
+CHECK: routeB sibling is_orientable = False
+CHECK: routeB sibling num_tetrahedra = 1
+CHECK: routeB sibling H1 (predicted Z from det(M-I)=-1) = Z
+CHECK: routeB sibling cusp topology = ['Klein bottle cusp']
+  b--L: vol=1.0149416064 iso b-+L: True
+  b-+R: vol=1.0149416064 iso b-+L: True
+  b--R: vol=1.0149416064 iso b-+L: True
+CHECK: routeB orientation_cover volume (expect 2x Gieseking = 2.0298832128) = 2.02988321282
+CHECK: routeB orientation_cover volume == 2 * sibling volume (|diff|<1e-9) = True
+CHECK: routeB orientation_cover().is_isometric_to(m004)  [VERDICT-BEARING] = True
+CHECK: routeB orientation_cover H1 (m004 has Z) = Z
+CHECK: routeB orientation_cover cusp topology = ['torus cusp']
+
+== 3. Route A: census m000, cross-tied to route B ==
+  m000: orientable=False vol=1.0149416064 tets=1 H1=Z cusps=['Klein bottle cusp']
+CHECK: routeA m000 volume matches Gieseking 1.0149416064 (|diff|<1e-9) = True
+CHECK: routeA m000 H1 = Z
+CHECK: routeA m000 cusp topology = ['Klein bottle cusp']
+CHECK: routeA m000.is_isometric_to(routeB sibling) = True
+CHECK: routeA m000.orientation_cover().is_isometric_to(m004)  [VERDICT-BEARING] = True
+CHECK: sibling.identify() census names = ['m000(0,0)', 'ntet01_00000(0,0)']
+CHECK: m000.identify() census names = ['m000(0,0)', 'ntet01_00000(0,0)']
+CHECK: m000.covers(2) [(orientable, vol, H1)] = [(True, '2.0298832128', 'Z')]
+CHECK: number of orientable degree-2 covers of m000 = 1
+CHECK: every orientable degree-2 cover of m000 is_isometric_to m004 = True
+
+== 4. Volume cross-check via Bloch-Wigner D(z) at the regular ideal shape ==
+  D((1+i*sqrt3)/2) = 1.014941606409653625021202554274520285942
+CHECK: Bloch-Wigner D(omega) matches sibling volume (|diff|<1e-9) = True
+CHECK: 2*D(omega) matches m004 volume (|diff|<1e-9) = True
+
+== 5. Invariant trace field (exact) ==
+CHECK: m000 shape[0] algdep = x^2 - x + 1
+CHECK: m000 shape[0] algdep residual < coefficient-aware bound (7.39e-85 < 1.66e-75) = True
+CHECK: m000 shape[0] == (1+sqrt(-3))/2 to 2^-250 (|diff|=4.27e-85) = True
+CHECK: m004 shape[0] algdep = x^2 - x + 1
+CHECK: m004 shape[0] algdep residual < coefficient-aware bound (7.39e-85 < 1.66e-75) = True
+CHECK: m004 shape[0] == (1+sqrt(-3))/2 to 2^-250 (|diff|=4.27e-85) = True
+CHECK: m004 shape[1] algdep = x^2 - x + 1
+CHECK: m004 shape[1] algdep residual < coefficient-aware bound (7.39e-85 < 1.66e-75) = True
+CHECK: m004 shape[1] == (1+sqrt(-3))/2 to 2^-250 (|diff|=4.27e-85) = True
+CHECK: candidate minpoly z^2 - z + 1 irreducible over Q = True
+CHECK: omega = (1+sqrt(-3))/2 satisfies z^2 - z + 1 = 0 exactly = True
+  m004 gluing eq (A=[2, -1],B=[-1, 2],c=1): exact value 1
+  m004 gluing eq (A=[-2, 1],B=[1, -2],c=1): exact value 1
+  m004 gluing eq (A=[1, 0],B=[0, 1],c=1): exact value 1
+  m004 gluing eq (A=[0, -2],B=[0, 4],c=1): exact value 1
+CHECK: m004 all gluing equations verified EXACTLY at z=(1+sqrt(-3))/2 (numeric convention check passed) = True
+  m000 gluing eq (A=[0],B=[0],c=1): exact value 1
+  m000 gluing eq (A=[1],B=[1],c=1): exact value 1
+  m000 gluing eq (A=[-1],B=[0],c=1): exact value 1/2 - sqrt(3)*I/2, |value| = 1 (orientation-reversing completeness row)
+CHECK: m000 all gluing equations verified EXACTLY at z=(1+sqrt(-3))/2 (numeric convention check passed) = True
+CHECK: (2*omega - 1)^2 == -3 exactly (so Q(omega) = Q(sqrt(-3))) = -3
+CHECK: field degree [Q(sqrt(-3)):Q] = 2
+CHECK: pari nfdisc(z^2 - z + 1) (field discriminant) = -3
+CHECK: pari nffactor(x^2+3 over Q[z]/(z^2-z+1)) splits into linear factors (factornf-style exact confirmation) = 2 linear factors: [x + Mod(-2*z + 1, z^2 - z + 1), 1; x + Mod(2*z - 1, z^2 - z + 1), 1]
+
+== 6. Arithmeticity of m004 (cusped Maclachlan-Reid criterion) ==
+CHECK: m004 fundamental group generators / relators = 2 generators, relators ['aaabABBAb']
+CHECK: tr(a) [PSL2, up to sign] == -3/2 + sqrt(3)*I/2 exactly (|diff|=6.71e-77); minpoly t**2 + 3*t + 3 monic integral = True
+CHECK: tr(b) [PSL2, up to sign] == 1 - sqrt(3)*I exactly (|diff|=9.43e-77); minpoly t**2 - 2*t + 4 monic integral = True
+CHECK: tr(ab) [PSL2, up to sign] == -2 exactly (|diff|=1.85e-76); minpoly t + 2 monic integral = True
+CHECK: m004: invariant trace field imaginary quadratic Q(sqrt(-3)) AND generator traces algebraic integers => ARITHMETIC (Maclachlan-Reid 8.2.3, cusped) = True
+CHECK: sibling arithmetic (commensurable with m004 via the 2:1 orientation cover) = True
+
+== 7. Cusp structure + face table ==
+CHECK: sibling cusp: count / topology = 1 cusp, Klein bottle cusp
+CHECK: m004 cusp: count / topology = 1 cusp, torus cusp
+CHECK: m004 cusp modulus == 2*sqrt(-3) (|diff|<1e-9; modulus in Q(sqrt(-3))) = True
+CHECK: sibling Klein-bottle cusp modulus == i*sqrt(3)/6 (|diff|<1e-9) = True
+
+FACE TABLE (V4 anatomy of the banked m004 interface, measured unoriented):
+  - being / trace field Q(sqrt(-3)): PRESENT -- invariant trace field (via orientation cover m004) = Q(sqrt(-3)); the sibling's own shape field is ALSO Q(sqrt(-3)) exactly (edge eqn z(1-z)=1)
+  - hearing / golden Q(sqrt(5)): PRESENT, REFINED -- monodromy dilatation is phi itself (charpoly x^2-x-1); m004's monodromy is its square (dilatation phi^2): the sibling is the golden square root of the banked monodromy
+  - cusp / interface: PRESENT, UNORIENTED -- one cusp survives as a Klein bottle (modulus i*sqrt(3)/6); orientation restores the torus cusp of m004 (modulus 2*sqrt(-3))
+  - knot-ness H1 = Z: PRESENT as homology -- H1(sibling) = Z (= Z + coker(M-I), det(M-I) = -1); not an S^3 knot complement (non-orientable), but the homological signature holds
+  - arithmeticity: PRESENT -- m004 verified arithmetic (cusped criterion, section 6); the sibling is commensurable with it (2:1 cover)
+
+== 8. Verdict ==
+CHECK: F5 sealed FRAGILE criterion: the orientation double cover of the det -1 sibling IS m004 (dual-route) = True
+CHECK: VERDICT F5 = FRAGILE
+
+F5 VERDICT: FRAGILE -- the discarded det -1 choice re-enters the chain as ancestry: the sibling is the Gieseking, m004's parent, and A6's price is 'orientation = passing to the child'.
+
+Verdict matches the sealed prior (F5 FRAGILE); the contra-prior-ROBUST skeptic trigger of EXECUTION_NOTES rule 1 does not fire.

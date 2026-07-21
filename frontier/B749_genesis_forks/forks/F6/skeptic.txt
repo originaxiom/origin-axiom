@@ -1,0 +1,58 @@
+B749 F6 adversarial skeptic (FRAGILE verdict) — audit record, 2026-07-22
+Verdict attacked: F6 FRAGILE (hearing face survives closure). Attack mode per E20:
+is the carried structure genuinely comparable, or a superficial rhyme?
+
+1. REPRODUCTION. compute.py rerun (python 3.12.1, sympy 1.14.0, snappy 3.3.2):
+   output byte-identical to sealed output.txt (diff clean). All internal asserts pass.
+
+2. CORE ALGEBRA re-verified independently: tr=3, charpoly x^2-3x+1 irreducible,
+   eigenvalues (3+-sqrt5)/2 real irrational reciprocal => Anosov => Sol; det(A-I)=-1,
+   SNF diag(1,1) => H1=Z; lambda=phi^2 exact; resultant(x^2-3x+1,x^2+3)=31;
+   P A P^-1 = [[1,1],[1,2]] = mult-by-phi^2 on Z[phi]; Lucas(2n)-2 torsion; no
+   cyclotomic factor (gcd with x^12-1 = 1).
+
+3. E20 ATTACK — SAME STRUCTURE ON BOTH SIDES, COMPUTED. snappy's covers() segfaults
+   in this environment (snappea kernel/pari signal-handler bug; compute.py never calls
+   it, so the sealed artifact is unaffected). Replaced with independent code: own
+   Reidemeister-Schreier rewriting on the ACTUAL snappy pi1 presentations —
+   closed 4_1(0,1) filled: <a,b | abbbaBAAB, aBAbabAB>; cusped m004: <a,b | aaabABBAb>
+   — computing H1 of the ker(pi1 -> Z/n) covers by sympy SNF only. Result, n=2..8:
+   BOTH the cusped and the closed side give H1 = Z (+) coker(A^n - I) with exactly
+   matching elementary divisors ([5],[4,4],[3,15],[11,11],[8,40],[29,29],[21,105]),
+   total torsion Lucas(2n)-2. The golden/Lucas hearing datum is the same invariant of
+   the same monodromy on both sides of the closure. NOT a rhyme.
+
+4. MODEL IDENTIFICATION corroborated two more ways:
+   (a) Both closed relators evaluate IDENTICALLY to 1 in Z^2 x|_A Z (any generator
+       assignment) via Cayley-Hamilton A^2 = 3A - I; 784 explicit surjections
+       pi1(filled) ->> Z^2 x|_A Z found in the |v|<=3 box (e.g. a=((-3,-3),1),
+       b=((-3,-2),0), vb primitive with det[vb, A vb] = -1).
+   (b) Slope scan (stronger than compute.py's single-slope certificate): over ALL
+       primitive slopes |p|<=6, 0<=q<=6, the unique b1>=1 filling of m004 AND of 4_1
+       is (0,1); and 4_1(1,0) has H1=0 (S^3), confirming the meridian framing. So
+       4_1(0,1) is the fiber-capping filling = the closed A-bundle (rigorous route).
+
+5. INTRINSICNESS (the anti-vacuity linchpin) stress-tested: det(A^n - I) != 0 for all
+   n != 0 (checked |n|<=50 numerically and exactly: eigenvalues real, != +-1, hence
+   never roots of unity), so any normal subgroup meeting the Z factor has
+   non-vanishing iterated commutators (A^n-I)^k w and is non-nilpotent =>
+   Fitting(pi1) = Z^2 exactly => A's class up to GL2(Z)-conjugacy + inversion is a
+   pi1-invariant. Inversion-stability verified: charpoly(A^-1) = x^2-3x+1 (trace +3;
+   -A with trace -3 is not in the invariant class), so Q(sqrt5), dilatation phi^2,
+   and the slope pair are well-defined invariants of the closed manifold.
+
+6. VERDICT LOGIC. Sealed criterion (MEASUREMENTS.md F6, verbatim): "ROBUST = total
+   face-loss ... FRAGILE = any face survives closure." Hearing survives (intrinsic,
+   verified above); being/cusp/arithmeticity absences verified (Sol by computed
+   trichotomy; closed, 0 cusps; no finite-covolume Kleinian carrier). FRAGILE fires.
+   Contra-prior direction (sealed prior was ROBUST) argues against confirmation bias.
+
+Quibbles (non-refuting): (i) the snappy "flat tetrahedra / volume 0" route is
+numerical, not a certificate — but it is only the redundant second route; the exact
+trichotomy route is airtight. (ii) compute.py certifies (0,1)=homological longitude
+via the standard unique-b1 fact plus one filling; the slope scan here closes that
+gap empirically.
+
+CONCLUSION: NOT refuted. The surviving hearing face is the same golden/Q(sqrt5)
+structure (same monodromy invariant, same Lucas tower, computed on both sides), it is
+intrinsic to the closed manifold, and the sealed FRAGILE trigger fires on it.

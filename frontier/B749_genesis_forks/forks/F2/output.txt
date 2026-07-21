@@ -1,0 +1,129 @@
+
+==============================================================================
+S0. CONVENTIONS AND SCOPE CAVEAT (binding, from seal + §16 review)
+==============================================================================
+INFO: MCG(once-punctured torus) ~ SL(2,Z) acting on H1(fiber)=Z^2.
+INFO: Thurston trichotomy for det=+1: |tr|<2 => elliptic => finite-order (periodic); |tr|=2, A != +-I => parabolic => reducible; |tr|>2 => Anosov => pA.
+INFO: BINDING CAVEAT (§16 review 1): the trace bound is det=+1-scoped. det=-1 is F5's fork; there |tr|<=2 does NOT exclude Anosov.
+CHECK: det=-1 scope witness [[1,1],[1,0]]: charpoly, lambda_max = x^2-x-1, (1+sqrt5)/2 > 1 (Anosov despite |tr|<=2 => trichotomy det=+1-scoped)
+
+==============================================================================
+S1. THE SIBLING FAMILY, EXACTLY (det=+1, |tr|<=2)
+==============================================================================
+CHECK: integer solutions of tr^2 - k^2 = 4 (rational-eigenvalue locus, det=1) = tr = +-2, k = 0 only => periodic/rational-slope words force |tr| <= 2
+INFO: Converse direction: |tr|>2 => eigenvalue quadratic irrational => invariant slope irrational => word aperiodic [INSTRUMENT: Morse-Hedlund].
+CHECK: symbolic Cayley-Hamilton, ALL det=1 matrices of trace -1 / 0 / 1 = A^3 = I / A^4 = I / A^6 = I (finite order => periodic mapping class)
+CHECK: symbolic: trace=+2 => A^m = m*A-(m-1)I, trace=-2 => x_m=(-1)^(m+1)m != 0 = A^m = I never for A != +-I => parabolic classes +-T^n have infinite order
+CHECK: max |eigenvalue| over ALL det=1 traces {-2,-1,0,1,2} = 1 exactly (conjugate pair of product 1, or double root +-1) => dilatation 1 => pA count = 0
+CHECK: exact orders of representatives I,-I,U3,S4,V6,T1,T2,T3,-T1 = 1,2,3,4,6,inf,inf,inf,inf (A^k = I checked by exact matrix powers)
+CHECK: parabolic invariant curve and the tr=-2 square trick = T^n(1,0)=(1,0); -T1(1,0)=-(1,0) (same curve class); (-T1)^2 = T2 exactly
+INFO: Trichotomy verdict for the WHOLE sibling family: |tr|<2 and +-I => finite-order (periodic); tr=+-2, A != +-I => parabolic reducible; pA classes in the family: ZERO (all facts above are symbolic/exact).
+
+==============================================================================
+S2. HYPERBOLICITY: NO — three independent routes
+==============================================================================
+INFO: Route 1 [INSTRUMENT: Thurston, hyperbolization of fibered 3-manifolds]: mapping torus hyperbolic <=> monodromy pA.  pA count = 0 (S1, exact) => no sibling admits a hyperbolic structure.
+CHECK: control #1 'b++RL' (Anosov [[2,1],[1,1]], tr 3) = geometric, vol 2.0298832128, is_isometric_to(m004) True (two invariants)
+CHECK: control #2 twister S_1_1 'a*B' (pins twister twist convention) = geometric, vol = vol(m004), is_isometric_to(m004) True => 'a*b' is the tr=+-1 class
+CHECK: sibling 'a' [T1  parabolic n=1] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (2, ()) == exact Wang/SNF prediction
+CHECK: sibling 'a*a' [T2  parabolic n=2] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (2, (2,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*a*a' [T3  parabolic n=3] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (2, (3,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b' [V6  elliptic order 6] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (1, ()) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a' [S4  elliptic order 4] = solution_type 'contains flat tetrahedra' (NOT geometric), H1 live (1, (2,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a*b' [U3  elliptic order 3] = solution_type 'contains flat tetrahedra' (NOT geometric), H1 live (1, (3,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a*b*a*b' [-I  elliptic order 2] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (1, (2, 2)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a*b*a*b*a' [-T1 parabolic tr=-2] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (1, (4,)) == exact Wang/SNF prediction
+CHECK: H1 fingerprints of the 8 built classes pairwise distinct = True (8 distinct) => each build pinned to its intended class
+CHECK: hyperbolic carriers among the 8 sibling builds (SnapPy live) = 0 of 8 geometric; both positive controls geometric => instrument could have said FRAGILE
+INFO: The 9th representative, I itself, gives T' x S^1: handled exactly in S3 (center of pi1 nontrivial => not hyperbolic; product geometry H^2 x R).
+CHECK: phi_n(a)=a, phi_n(b)=b a^n, abelianization = T^n, phi^m(b)=b a^(mn) = verified by exact free-group reduction for n=1,2,3, m=1..6
+CHECK: subgroup <a, t~> of pi1(M_T1) is Z^2 (a^i t^j normal form, phi(a)=a) = verified: products a^i t^j * a^k t^l = a^(i+k) t^(j+l), trivial only at i=j=0
+CHECK: suspension torus a x S^1 in M_{T^n}: intersection with dual curve b = 1 (exact) => torus non-separating => not boundary-parallel; pi1-injective by the Z^2 above => ESSENTIAL
+CHECK: b a^p b^-1 (p != 0) reduced always contains letter b = True for p in +-1..4 (and for all p: reduced words are unique) => != a^j for every j
+INFO: No-normal-Z derivation for M_{+-T^n} (n != 0): a central/normal Z generator (w, m) forces w in centralizer(a) = <a> [INSTRUMENT: centralizers in free groups are cyclic], then conjugation by b forces b a^(j-m) b^-1 = a^j, impossible by the check above.  => pi1 has no infinite cyclic normal subgroup => NOT Seifert fibered [INSTRUMENT: Waldhausen/Casson-Jungreis-Gabai: Seifert <=> normal Z, Haken case].
+CHECK: finite-order classes: A^k = I => k-fold cover of M_A is T' x S^1 = exact (S1 orders); pi1(T'xS^1) = F2 x Z has center >= Z => M_A NOT hyperbolic [Kleinian center INSTRUMENT]
+CHECK: hyperbolicity of every sibling class = NO — Route 1 (Thurston/pA=0, exact), Route 2 (SnapPy live, 0/8 geometric, controls pass), Route 3 (exact obstructions)
+
+==============================================================================
+S3. THE GEOMETRY THE SIBLING DOES GET (per sealed ROBUST clause)
+==============================================================================
+CHECK: hexagonal lattice realization: mult by zeta_6 / zeta_3 on basis (1, zeta_6) = matrices [[0,-1],[1,1]] (tr 1, ord 6) and [[-1,-1],[1,0]] (tr -1, ord 3), exact
+CHECK: order-2 class: base orbifold (2 independent routes) = closed cone spectrum [2, 2, 2, 2] (sum(1-1/m)=2, flat), puncture at the order-2 point; punctured base S^2(2,2,2) minus point, chi_orb = -1/2 (RH AND enumeration)
+CHECK: order-3 class: base orbifold (2 independent routes) = closed cone spectrum [3, 3, 3] (sum(1-1/m)=2, flat), puncture at the order-3 point; punctured base S^2(3,3) minus point, chi_orb = -1/3 (RH AND enumeration)
+CHECK: order-4 class: base orbifold (2 independent routes) = closed cone spectrum [2, 4, 4] (sum(1-1/m)=2, flat), puncture at the order-4 point; punctured base S^2(2,4) minus point, chi_orb = -1/4 (RH AND enumeration)
+CHECK: order-6 class: base orbifold (2 independent routes) = closed cone spectrum [2, 3, 6] (sum(1-1/m)=2, flat), puncture at the order-6 point; punctured base S^2(2,3) minus point, chi_orb = -1/6 (RH AND enumeration)
+INFO: chi_orb < 0 in every finite-order class => hyperbolic base orbifold => Seifert fibered with H^2 x R geometry (product convention for bounded SFS over hyperbolic base).  I itself: T' x S^1, base T', chi = -1, H^2 x R.
+INFO: Order-6 punctured base S^2(2,3) is the trefoil's Seifert base — see S4.
+CHECK: parabolic classes: cut surface along invariant curve = pair of pants (g=0, b=3, chi=-1) => JSJ piece = P x S^1, SFS over hyperbolic base (H^2 x R piece)
+CHECK: pi1 obstructions for parabolic classes = [a,b] != 1 (F2 fiber non-abelian => non-solvable [INSTRUMENT]) kills Sol/Nil/E3/S3/S2xR; no normal Z (S2) kills SFS/H2xR/SL2~; essential torus kills H3 => NON-GEOMETRIC graph manifold
+INFO: Verdict of S3: allowed periodicity buys LESS geometry, never a different hyperbolic-like one: H^2 x R Seifert pieces (finite order) or a non-geometric graph manifold (parabolic).  Sol does not occur (that is F6's closed fork; cusped Sol has no finite-volume quotients [INSTRUMENT: lattices in solvable Lie groups are cocompact]).
+
+==============================================================================
+S4. CARRIED V4 FACES (yardstick: being Q(sqrt-3), hearing Q(sqrt5), cusp/interface, arithmeticity; + knot-ness H1=Z where applicable)
+==============================================================================
+CHECK: being face (trace field Q(sqrt-3)) across all sibling classes = ABSENT — no hyperbolic structure exists, so no trace field / no Kleinian group at all
+CHECK: eigenvalue minpolys of all 9 representatives = all cyclotomic (orders 1,2,3,4,6); eigenvalue-field discriminants {-3,-4}; gcd with x^2-x-1 = 1 always
+INFO: RECORDED OBSERVATION: Q(zeta_3) = Q(sqrt-3) appears as the EIGENVALUE field of the order-3/6 monodromies (hexagonal lattice, disc -3) — a cyclotomic shadow of the being field at the monodromy level, carried by NO geometric structure (no trace field, no cusp shape).  Not a face.
+CHECK: hearing face (golden/Q(sqrt5)) across all sibling classes = ABSENT — dilatation exactly 1, entropy log(1) = 0, Q(sqrt5) in no eigenvalue field (disc 5 not in {-3,-4})
+CHECK: contrast: dilatation of the chain's actual choice (fig-8, tr 3) = lambda = (3+sqrt5)/2 = golden^2, minpoly x^2-3x+1, disc field Q(sqrt5) — the hearing face reappears IMMEDIATELY across the fork boundary (|tr| 2 -> 3)
+CHECK: cusp/interface face across all sibling classes = ABSENT as structure — a torus boundary exists (num_cusps = 1 live, all 8 builds) but carries no hyperbolic cusp cross-section, no modulus in Q(sqrt-3): nothing for the V4 interface to attach to
+CHECK: arithmeticity across all sibling classes = NOT DEFINED — no Kleinian group exists to test (Maclachlan-Reid criteria need a hyperbolic holonomy)
+CHECK: knot-ness H1 = Z among all 9 sibling classes (exact Wang/SNF table) = exactly one: the order-6 class V6 — every other class has rank >= 2 or torsion
+CHECK: Alexander polynomial of 3_1 (Fox calculus on live presentation <a,b|aabbb>) = t^2 - t + 1 = charpoly(V6) exactly; with H1 = Z (both live and exact): TWO independent invariants => V6 bundle = trefoil exterior [genus-1 fibered INSTRUMENT]
+INFO: HONEST CAVEAT (recorded for the merge gate): the auxiliary knot-ness face SURVIVES at exactly one sibling class — the order-6 bundle is the trefoil exterior (H1 = Z, Seifert fibered, H^2 x R over S^2(2,3)-minus-point, zero hyperbolic volume, no trace field, dilatation 1).  Per the sealed criteria this does NOT meet FRAGILE, which requires a hyperbolic carrier; the four V4 faces are absent there like everywhere else.
+
+==============================================================================
+S5. VERDICT (sealed criteria applied)
+==============================================================================
+CHECK: pA classes in the |tr|<=2 det=+1 family = 0 (symbolic, whole family)
+CHECK: hyperbolic carriers among sibling classes = 0 (Thurston+exact routes, all classes; SnapPy live 0/8 with passing controls)
+CHECK: V4 interface faces carried (being, hearing, cusp-interface, arithmeticity) = 0 — with two recorded observations: Q(sqrt-3) as elliptic EIGENVALUE field (no geometry attached); knot-ness (auxiliary) at the trefoil class only
+CHECK: F2 VERDICT = ROBUST (sealed: no pA, no hyperbolic carrier, zero faces; matches preregistered prior => no skeptic trigger)
+INFO: Vacuity (MB12): FRAGILE was concretely reachable — any of the 8 sibling builds returning 'all tetrahedra positively oriented' would have triggered it, and the two positive controls show the instrument does return exactly that on hyperbolic input.
+INFO: Price of the periodicity exclusion (A-chain reading): allowing periodic words costs ALL FOUR V4 faces at once — the aperiodicity axiom is cheap for the chain (nothing on the other side carries the anatomy), while the golden face reappears at the very first aperiodic trace (tr 3).
+
+RAW CHECK-LINE BLOCK (re-executable summary for the merge gate):
+CHECK: det=-1 scope witness [[1,1],[1,0]]: charpoly, lambda_max = x^2-x-1, (1+sqrt5)/2 > 1 (Anosov despite |tr|<=2 => trichotomy det=+1-scoped)
+CHECK: integer solutions of tr^2 - k^2 = 4 (rational-eigenvalue locus, det=1) = tr = +-2, k = 0 only => periodic/rational-slope words force |tr| <= 2
+CHECK: symbolic Cayley-Hamilton, ALL det=1 matrices of trace -1 / 0 / 1 = A^3 = I / A^4 = I / A^6 = I (finite order => periodic mapping class)
+CHECK: symbolic: trace=+2 => A^m = m*A-(m-1)I, trace=-2 => x_m=(-1)^(m+1)m != 0 = A^m = I never for A != +-I => parabolic classes +-T^n have infinite order
+CHECK: max |eigenvalue| over ALL det=1 traces {-2,-1,0,1,2} = 1 exactly (conjugate pair of product 1, or double root +-1) => dilatation 1 => pA count = 0
+CHECK: exact orders of representatives I,-I,U3,S4,V6,T1,T2,T3,-T1 = 1,2,3,4,6,inf,inf,inf,inf (A^k = I checked by exact matrix powers)
+CHECK: parabolic invariant curve and the tr=-2 square trick = T^n(1,0)=(1,0); -T1(1,0)=-(1,0) (same curve class); (-T1)^2 = T2 exactly
+CHECK: control #1 'b++RL' (Anosov [[2,1],[1,1]], tr 3) = geometric, vol 2.0298832128, is_isometric_to(m004) True (two invariants)
+CHECK: control #2 twister S_1_1 'a*B' (pins twister twist convention) = geometric, vol = vol(m004), is_isometric_to(m004) True => 'a*b' is the tr=+-1 class
+CHECK: sibling 'a' [T1  parabolic n=1] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (2, ()) == exact Wang/SNF prediction
+CHECK: sibling 'a*a' [T2  parabolic n=2] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (2, (2,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*a*a' [T3  parabolic n=3] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (2, (3,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b' [V6  elliptic order 6] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (1, ()) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a' [S4  elliptic order 4] = solution_type 'contains flat tetrahedra' (NOT geometric), H1 live (1, (2,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a*b' [U3  elliptic order 3] = solution_type 'contains flat tetrahedra' (NOT geometric), H1 live (1, (3,)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a*b*a*b' [-I  elliptic order 2] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (1, (2, 2)) == exact Wang/SNF prediction
+CHECK: sibling 'a*b*a*b*a*b*a' [-T1 parabolic tr=-2] = solution_type 'contains degenerate tetrahedra' (NOT geometric), H1 live (1, (4,)) == exact Wang/SNF prediction
+CHECK: H1 fingerprints of the 8 built classes pairwise distinct = True (8 distinct) => each build pinned to its intended class
+CHECK: hyperbolic carriers among the 8 sibling builds (SnapPy live) = 0 of 8 geometric; both positive controls geometric => instrument could have said FRAGILE
+CHECK: phi_n(a)=a, phi_n(b)=b a^n, abelianization = T^n, phi^m(b)=b a^(mn) = verified by exact free-group reduction for n=1,2,3, m=1..6
+CHECK: subgroup <a, t~> of pi1(M_T1) is Z^2 (a^i t^j normal form, phi(a)=a) = verified: products a^i t^j * a^k t^l = a^(i+k) t^(j+l), trivial only at i=j=0
+CHECK: suspension torus a x S^1 in M_{T^n}: intersection with dual curve b = 1 (exact) => torus non-separating => not boundary-parallel; pi1-injective by the Z^2 above => ESSENTIAL
+CHECK: b a^p b^-1 (p != 0) reduced always contains letter b = True for p in +-1..4 (and for all p: reduced words are unique) => != a^j for every j
+CHECK: finite-order classes: A^k = I => k-fold cover of M_A is T' x S^1 = exact (S1 orders); pi1(T'xS^1) = F2 x Z has center >= Z => M_A NOT hyperbolic [Kleinian center INSTRUMENT]
+CHECK: hyperbolicity of every sibling class = NO — Route 1 (Thurston/pA=0, exact), Route 2 (SnapPy live, 0/8 geometric, controls pass), Route 3 (exact obstructions)
+CHECK: hexagonal lattice realization: mult by zeta_6 / zeta_3 on basis (1, zeta_6) = matrices [[0,-1],[1,1]] (tr 1, ord 6) and [[-1,-1],[1,0]] (tr -1, ord 3), exact
+CHECK: order-2 class: base orbifold (2 independent routes) = closed cone spectrum [2, 2, 2, 2] (sum(1-1/m)=2, flat), puncture at the order-2 point; punctured base S^2(2,2,2) minus point, chi_orb = -1/2 (RH AND enumeration)
+CHECK: order-3 class: base orbifold (2 independent routes) = closed cone spectrum [3, 3, 3] (sum(1-1/m)=2, flat), puncture at the order-3 point; punctured base S^2(3,3) minus point, chi_orb = -1/3 (RH AND enumeration)
+CHECK: order-4 class: base orbifold (2 independent routes) = closed cone spectrum [2, 4, 4] (sum(1-1/m)=2, flat), puncture at the order-4 point; punctured base S^2(2,4) minus point, chi_orb = -1/4 (RH AND enumeration)
+CHECK: order-6 class: base orbifold (2 independent routes) = closed cone spectrum [2, 3, 6] (sum(1-1/m)=2, flat), puncture at the order-6 point; punctured base S^2(2,3) minus point, chi_orb = -1/6 (RH AND enumeration)
+CHECK: parabolic classes: cut surface along invariant curve = pair of pants (g=0, b=3, chi=-1) => JSJ piece = P x S^1, SFS over hyperbolic base (H^2 x R piece)
+CHECK: pi1 obstructions for parabolic classes = [a,b] != 1 (F2 fiber non-abelian => non-solvable [INSTRUMENT]) kills Sol/Nil/E3/S3/S2xR; no normal Z (S2) kills SFS/H2xR/SL2~; essential torus kills H3 => NON-GEOMETRIC graph manifold
+CHECK: being face (trace field Q(sqrt-3)) across all sibling classes = ABSENT — no hyperbolic structure exists, so no trace field / no Kleinian group at all
+CHECK: eigenvalue minpolys of all 9 representatives = all cyclotomic (orders 1,2,3,4,6); eigenvalue-field discriminants {-3,-4}; gcd with x^2-x-1 = 1 always
+CHECK: hearing face (golden/Q(sqrt5)) across all sibling classes = ABSENT — dilatation exactly 1, entropy log(1) = 0, Q(sqrt5) in no eigenvalue field (disc 5 not in {-3,-4})
+CHECK: contrast: dilatation of the chain's actual choice (fig-8, tr 3) = lambda = (3+sqrt5)/2 = golden^2, minpoly x^2-3x+1, disc field Q(sqrt5) — the hearing face reappears IMMEDIATELY across the fork boundary (|tr| 2 -> 3)
+CHECK: cusp/interface face across all sibling classes = ABSENT as structure — a torus boundary exists (num_cusps = 1 live, all 8 builds) but carries no hyperbolic cusp cross-section, no modulus in Q(sqrt-3): nothing for the V4 interface to attach to
+CHECK: arithmeticity across all sibling classes = NOT DEFINED — no Kleinian group exists to test (Maclachlan-Reid criteria need a hyperbolic holonomy)
+CHECK: knot-ness H1 = Z among all 9 sibling classes (exact Wang/SNF table) = exactly one: the order-6 class V6 — every other class has rank >= 2 or torsion
+CHECK: Alexander polynomial of 3_1 (Fox calculus on live presentation <a,b|aabbb>) = t^2 - t + 1 = charpoly(V6) exactly; with H1 = Z (both live and exact): TWO independent invariants => V6 bundle = trefoil exterior [genus-1 fibered INSTRUMENT]
+CHECK: pA classes in the |tr|<=2 det=+1 family = 0 (symbolic, whole family)
+CHECK: hyperbolic carriers among sibling classes = 0 (Thurston+exact routes, all classes; SnapPy live 0/8 with passing controls)
+CHECK: V4 interface faces carried (being, hearing, cusp-interface, arithmeticity) = 0 — with two recorded observations: Q(sqrt-3) as elliptic EIGENVALUE field (no geometry attached); knot-ness (auxiliary) at the trefoil class only
+CHECK: F2 VERDICT = ROBUST (sealed: no pA, no hyperbolic carrier, zero faces; matches preregistered prior => no skeptic trigger)

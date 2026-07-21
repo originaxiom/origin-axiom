@@ -1,0 +1,88 @@
+B749 / F3 ADVERSARIAL SKEPTIC (rule-1 contra-prior trigger; verdict under attack: ROBUST)
+Skeptic session: 2026-07-22. Result: NOT REFUTED. Verdict ROBUST stands.
+
+0. Seal integrity: MEASUREMENTS.md / EXECUTION_NOTES.md / PREREGISTRATION.md match the v2
+   seal hashes in ARTIFACT_HASHES.txt.
+
+1. RERUN: compute.py re-executed (snappy 3.3.2, sympy 1.14.0, mpmath 1.3.0). Output
+   byte-identical to the stored output.txt. Exit 0, all internal asserts pass.
+
+2. INDEPENDENT RECOMPUTATION (different code paths, higher precision; script
+   f3_skeptic.py in the session scratchpad, all 40+ checks PASS):
+   - Monodromy: [[2,1],[1,0]]^2 = [[5,2],[2,1]] = R^2L^2, tr 6, det 1 (sympy exact);
+     exhaustive scan of all 16 length-4 RL words: trace 6 occurs ONLY for cyclic
+     rotations of RRLL (the sibling is the unique trace-6 length-4 bundle word).
+   - H1 by a THIRD route: abelianized the pi_1 presentation of b++RRLL directly
+     (relator exponent matrix SNF = [[2,0,0],[0,2,0]]) -> Z + (Z/2)^2, agreeing with
+     snappy homology of BOTH b++RRLL and m136 and with the exact Wang coker diag(2,2).
+     Knot-ness absence is a complete obstruction (knot complement in S^3, or in any
+     ZHS, forces H1 = Z), not a search miss.
+   - Shapes: polished at 1400 bits (beyond both sealed precisions) match
+     {1+i,(1+i)/2,1+i,i} to < 1e-400; all 6 gluing+completeness equations re-verified
+     EXACTLY in PARI exact Gaussian arithmetic (independent of the sympy path).
+   - Volume: sum of Bloch-Wigner on exact shapes = 4*Catalan to < 1e-490 at 500 dps;
+     D(i) = Catalan closed form confirmed.
+   - Trace minpolys WITHOUT algdep: all 18 claimed minpolys evaluated at 1400-bit
+     traces, |p(tr)| < 1e-400, all irreducible and monic; relators -> +I at 1400 bits.
+     The verdict's integrality claims no longer depend on the algdep instrument at all.
+   - Octic trace field: x^8+6x^4+1 irreducible, nfdisc = 2^22; every basic minpoly
+     splits completely linear over it (so ALL complex roots lie in EVERY embedding =>
+     containment of the actual trace values is embedding-independent); EQUALITY
+     certified: every polcompositum component of Q(tr a) and Q(tr ac) has degree 8 and
+     polredabs = the octic, so the generated field is the full octic for any root choice.
+   - Face absences: quadratic subfields of the octic enumerated exactly: discs
+     {-8,-4,8} ONLY. So sqrt(-3), sqrt(5), sqrt(-15) are absent from every subfield of
+     every trace-derived invariant; independently forced by ramification (disc = 2^22,
+     3 and 5 unramified). x^2+3 / x^2-5 / x^2+15 irreducibility re-verified.
+   - Cusp: two additional independent snappy instruments (ManifoldHP cusp_info and
+     ManifoldHP cusp_translations ratio) both give +-i/2 to < 1e-40; 4x^2+1 splits
+     linear over Q(i). (Note: the value i/2 is peripheral-basis-dependent; the
+     verdict-bearing content -- cusp field inside kM = Q(i) -- is basis-invariant.)
+   - Arithmeticity corroboration: vol(m136) = 4*Catalan = vol(m129 Whitehead link) at
+     HP precision -- consistent with the Bianchi Q(i) commensurability class; both M-R
+     hypotheses (kM imaginary quadratic; integral traces) independently recomputed.
+     B125's banked silver row (kM = Q(i), ARITHMETIC) matches; F3 verified, not cited.
+   - SL(2,2)/SL(2,3) brute-forced independently: (6,1,3,3,no -I) and (24,2,1,7,-I).
+     S3 cannot embed in SU(2) (SU(2) has a unique involution, -1, central; S3 has 3
+     non-central involutions) -> not binary polyhedral -> no McKay node. Sound.
+   - Class numbers: h(-15)=2 vs h(-4)=h(8)=h(-8)=1 confirmed (context only).
+   - Instrument attack: the sealed acceptance criterion (height cap 1e12 + normalized
+     residual + stability) REJECTS degree-12/16 algebraics 2^(1/16), 3^(1/16), 5^(1/12)
+     and Pi and 4*Catalan at the exact sealed configurations, and ACCEPTS the true
+     quartic for sqrt(2+2i) -- non-vacuous in both directions, including the
+     true-minpoly-degree-exceeds-maxdeg failure mode.
+   - m004 control re-verified at 1400 bits (shapes (1+sqrt(-3))/2, tr(a) disc -3, cusp
+     x^2+12, H1 = Z): every absence-instrument returns PRESENT on the banked object.
+
+3. B742 FALSE-ROBUST ATTACK (is absence informative? right invariant?):
+   - The banked special-prime definition was checked at source: K020 line 33 defines
+     the atom as "4_1 -> Q(sqrt-3) -> ramified prime 3 -> SL(2,F_3)=2T -> McKay affine
+     E6". F3 computed EXACTLY this chain at silver (kM = Q(i) -> ramified prime 2 ->
+     SL(2,F_2) -> not binary polyhedral -> no node). Right invariant, exact absence.
+     Under the alternative reading ("does silver carry the banked prime 3?") the answer
+     is also absent (3 unramified in disc -4 and in disc 2^22). Robust to reading.
+   - Knot-ness: complete algebraic obstruction, triple-computed. Right invariant.
+   - kM = Q(i) rests on EXACT shapes + Neumann-Reid (cusped: shape field = invariant
+     trace field), corroborated by 11 traces of squares. Exact.
+
+4. CRITERION APPLICATION (the one genuine tension, non-refuting): the sealed F3 text
+   reads "ROBUST = silver lacks >= 2 of {knot-ness, special prime, interface};
+   FRAGILE = silver carries a comparable full interface". Silver DOES carry a
+   comparable interface-analogue (counted honestly as CARRIED -- the conservative
+   direction), so a maximally literal FRAGILE reading overlaps the quantitative ROBUST
+   clause. The only self-consistent reading is complementary (FRAGILE = lacks <= 1),
+   which the verdict used; the FRAGILE parenthetical ("m=1's selection rests ENTIRELY
+   on soft selectors") is false in the observed world precisely because knot-ness and
+   the McKay prime are hard anatomical distinguishers that silver measurably lacks.
+   Also noted: given banked priors (B125 silver arithmetic Q(i); Reid's unique
+   arithmetic knot in K009), the lacked pair was foreseeable at seal time, so the
+   criterion was prior-loaded toward ROBUST despite the prereg's "half-fragile" line --
+   but FRAGILE remained computationally reachable (verify-don't-cite could have
+   falsified B125), the criterion was sealed pre-computation, and the contra-prior
+   skeptic rule was correctly triggered and is hereby discharged. Flag the wording
+   overlap to the merge gate as a criterion-drafting note, not a defect of this verdict.
+
+CONCLUSION: refuted = false. Every verdict-bearing claim re-executed identically and
+re-verified through independent routes at higher precision; both absences are
+theorem-grade or exactly-decided facts at the banked invariant locations; the m004
+control is positive; the instrument is non-vacuous under adversarial inputs.

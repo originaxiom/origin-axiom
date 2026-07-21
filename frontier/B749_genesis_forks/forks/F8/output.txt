@@ -1,0 +1,88 @@
+B749 / F8 -- non-geometric carriers: Fibonacci tiling hull + AF C*-algebra
+==============================================================================
+
+S0. PRE-REGISTERED GEOMETRY-REDUNDANT WITNESS CRITERION (before computing):
+    GEOMETRY-REDUNDANT iff at least one computed combinatorial invariant
+    encodes sqrt(-3):
+    (W1) tracial-state pairing image tau(K0) generates a field containing
+         Q(sqrt(-3));
+    (W2) some gap label (frequency-module element) generates a field with
+         subfield Q(sqrt(-3));
+    (W3) the ring of order-endomorphisms of (K0,K0+) contains X, X^2 = -3;
+    (W4) K0, K1, or hull cohomology carries 3-torsion / a Z[zeta_3]-module
+         structure (disc -3).
+    Non-vacuity of the criterion: with the ORDER forgotten, M2(Z) does
+    contain a square root of -3 (verified in S5 below), so W3 can in
+    principle hold; each Wi is decided by computation, not by fiat.
+
+S1. Substitution sigma: a->ab, b->a.
+    abelianization M = [[1, 1], [1, 0]]
+CHECK: M = [[1,1],[1,0]] (recomputed from sigma), det(M) = -1, M^2 entrywise > 0 (primitive) = True
+    charpoly(M) = x**2 - x - 1
+CHECK: PF eigenvalue minpoly = x^2 - x - 1, disc = 5 (= 5 > 0, real quadratic; phi=(1+sqrt5)/2 verified a root exactly)
+CHECK: M*(phi,1)^T - phi*(phi,1)^T = [0, 0] (exact in Q(sqrt5))
+CHECK: phi irrational (minpoly degree 2) => letter frequencies irrational => hull aperiodic = True
+
+S2. Dimension group of the AF algebra = lim( Z^2 --M--> Z^2 --M--> ... ).
+    Smith normal form of M = [[1, 0], [0, 1]]
+CHECK: SNF(M) = diag(1,1) => every bonding map is a Z^2-isomorphism => limit group = Z^2, torsion-free
+CHECK: M symmetric (M = M^T) = True (transpose subtlety moot per S16 review)
+CHECK: cone law verified on grid |m|,|n|<=3: sign(M^25 v) == sign(<v,(phi,1)>) for all v, and <v,(phi,1)>=0 only at [(0, 0)] = True
+CHECK: ordered K0 = (Z^2, phi-cone) = Z[phi] via (m,n)->m*phi+n; disc(minpoly) = 5 squarefree = disc(Q(sqrt5)) => Z[phi] maximal order = True
+    [= the Effros-Shen golden dimension group, as the sealed block states]
+
+S3. W1 -- unique trace tau; order unit u=(1,1); tau(m,n) = (m*phi+n)/(phi+1).
+    tau(1,0) = -1/2 + sqrt(5)/2 = phi - 1 ; tau(0,1) = 3/2 - sqrt(5)/2 = 2 - phi (both exact, both in Q(sqrt5))
+CHECK: factor(x^2+3 over Q(sqrt5)) has 1 irreducible factor(s) of degree [2] => sqrt(-3) NOT in Q(sqrt5) = True
+CHECK: instrument control: factor(x^2+3 over Q(sqrt(-3))) splits into 2 linear factors = True
+CHECK: (a+b*sqrt5)^2 = -3 rational solutions = [] (empty; a^2+5b^2 = -3 impossible over Q) -- W1 FAILS
+
+S4. W2 -- gap labels lie in the frequency module (Bellissard gap labeling:
+    labels = tau(K0(C(Omega) x| Z)) cap [0,1] = (Z + Z*freq) cap [0,1]).
+    freq(a) = -1/2 + sqrt(5)/2 = phi - 1 ; freq(b) = 3/2 - sqrt(5)/2 = 2 - phi  (exact)
+CHECK: frequency module Z + Z*(phi-1) = Z + Z*phi = Z[phi]; gap-label field = Q(sqrt5), disc +5
+CHECK: every gap label is REAL; a subfield of R cannot contain sqrt(-3) (x^2+3 has no real root, exact) -- W2 FAILS
+
+S5. W3 -- X in M2(Z) preserves the cone {v : <v,(phi,1)> >= 0} iff
+    X^T (phi,1)^T = lambda (phi,1)^T, lambda >= 0 (dual cone = ray R+ w).
+    constraints coeff(1)=0, coeff(sqrt5)=0  =>  [{p: q + s, r: q}]
+CHECK: order-endomorphism ring = { s*I + q*M : q,s in Z } = Z[M] iso Z[phi] via s*I+q*M -> s+q*phi (M^2 = M + I verified: [[0, 0], [0, 0]] = 0)
+CHECK: (s+q*phi)^2 = -3 rational solutions = [] (empty) -- no order-endomorphism squares to -3
+CHECK: second route: X^2=-3I => eigenvalues +-i*sqrt3 (no real one), but cone preservation forces real eigenvalue lambda=s+q*phi on (phi,1) -- contradiction => W3 FAILS in the ORDERED ring
+CHECK: unordered witness [[0,1],[-3,0]]^2 = [[-3, 0], [0, -3]] = -3*I in M2(Z) = True  (criterion W3 is non-vacuous: the phi-cone, i.e. combinatorial positivity, is exactly what kills it)
+
+S6. W4 -- K1 and torsion.
+CHECK: K1(AF) = lim K1(finite-dim C*) = lim 0 = 0 (K1 of every finite-dimensional C*-algebra is 0; K1 continuous under direct limits)
+CHECK: all bonding maps unimodular (SNF = I, S2) => K0 = Z^2 and hull cohomology H0 = Z, H1 = lim(Z^2, M^T=M) = Z^2 are TORSION-FREE => no 3-torsion, no Z[zeta_3]-module structure (disc -3 route closed) -- W4 FAILS
+
+S7. Glue face Q(sqrt(-15)) (disc -15 = 5*(-3)).
+CHECK: factor(x^2+15 over Q(sqrt5)) irreducible (single degree-2 factor) = True => sqrt(-15) NOT in any computed combinatorial invariant (all lie in Q(sqrt5) or Z, and sqrt(-15) is non-real)
+CHECK: instrument control: x^2+15 splits over Q(sqrt(-15)) = True
+
+S8. Controls.
+CHECK: HEARING face recoverable from the combinatorial carrier = True (phi = the cone slope of K0+; tau(K0) ring = Z[phi]; PF minpoly disc +5: all computed above WITHOUT geometry)
+    m004 census: 2 ideal tetrahedra, shapes = [0.500000000000000+0.866025403784438j, 0.500000000000000+0.866025403784439j], vol = 2.029883212819, H1 = Z
+CHECK: separation bound min|P(z0)|^2 over nonzero Z[zeta_6] lattice (grid check) = 1 (>= 1) => residual threshold 1e-6 is coefficient-size-aware with margin ~1e6
+CHECK: m004 shape residuals |z^2 - z + 1| = [1.110e-15, 8.006e-16] < 1e-6 = True
+CHECK: exact: z0=(1+i*sqrt3)/2 satisfies x^2-x+1 = 0; disc(x^2-x+1) = 1-4 = -3 => shape field = Q(sqrt(-3)) -- the BEING face IS present in the geometric carrier (control passes; absence in S3-S7 is informative)
+CHECK: m004 vol = 2.0298832128 (census sanity; banked 2.0298832128), H1 = Z (= Z, knot-ness sanity)
+
+S9. V4 face recovery from the combinatorial carrier alone:
+    hearing  Q(sqrt5)   : RECOVERED  (K0 cone slope phi, trace ring Z[phi],
+                          gap labels, PF spectrum -- disc +5 everywhere)
+    being    Q(sqrt-3)  : ABSENT     (W1,W2,W3,W4 all fail, each exactly)
+    glue     Q(sqrt-15) : ABSENT     (same obstruction, S7)
+    cusp/interface, knot-ness (H1=Z): geometric-side anatomy; no analogue
+    among the computed combinatorial invariants (K0, K1, trace, gaps, End).
+
+CHECK: verdict = GEOMETRY-NECESSARY (the being face is absent from every combinatorial invariant computed; A5 -- the geometric realization -- is the load-bearing bridge to the being side, priced exactly)
+
+Delta beyond B746's two-column law: B746 mapped WHERE each column appears
+on the banked object (golden = dynamical/hearing, Eisenstein = geometric/
+being). F8 upgrades the split to a computed DEPENDENCY: strip the geometry
+and the entire Eisenstein column becomes unrecoverable while the golden
+column survives intact in K-theory -- and the mechanism is located: every
+combinatorial invariant factors through real-embedded, order-constrained
+objects; M2(Z) does contain sqrt(-3) (S5 witness) and it is precisely the
+phi-cone (combinatorial positivity) that excludes it. The being field is
+not merely 'the other column': it has strictly positive geometric price.
