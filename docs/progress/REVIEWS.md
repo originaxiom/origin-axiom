@@ -1877,8 +1877,9 @@ survive the seats that minted them.
   theorem + the earned census + the Serre-defying congruence result (carried from R26-1)
 - [>] R27-2: the web seat's L95 prereg — verify-on-receipt (carried from R26-2)
 - [>] R27-3: H-EAR's residual formal statement (carried from R26-3)
-- [ ] R27-4: B745 — the B58/B225 revivals cross-verify (reassigned to cc on cc2's closure;
-  reserved; correction headers wait on it) (owner: cc)
+- [x] R27-4: B745 — the B58/B225 revivals cross-verify (reassigned to cc on cc2's closure;
+  reserved; correction headers wait on it) (owner: cc) — DONE 2026-07-21: CONFIRMED ×2
+  (re-executions identical + 5/5 independent exact checks); headers applied to both originals
 - [ ] R27-5: the E23/E24 (+ the lindep rule) consensus round — with cc2/cc3 closed, the owner
   arbitrates or cc adopts with the courier's read (owner: cc/owner)
 - [ ] R27-6: the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's

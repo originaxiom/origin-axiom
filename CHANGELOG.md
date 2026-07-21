@@ -1,5 +1,13 @@
 # Changelog
 
+## B746 — the golden ledger: golden all the way up the structure; the voice speaks Eisenstein
+- Sealed down-up remap of the golden thread (12 declared floors): 10/12 FORCED-golden; the one gap = the voice (pure being-field) — the two-column law assembled (golden = dynamics/hearing; Eisenstein = geometry/being/voice). First vertical PROGRESS_LOG remap.
+- Doors: the √5 mirror sweep over the 78 sealed child fields (proposed B747, near-free); the discrete-spectrum golden question (owner-gated). Locks test_b746 (3).
+
+## B745 — the B742 revivals cross-verified: CONFIRMED ×2, correction headers applied
+- Two-layer verify in the banking seat: recompute re-executions identical + 5 independent exact checks all PASS (B65 exact-J(1) 7-factor identity with negative control; the −φ² closure lemma; an independently built SL(3) anchor Jacobian; the disc-mod-2 vacuity sample; the 11a3 Δ=−11 control).
+- Headers landed on B58_sl4_tower_test ("cannot be tested numerically" negated; the degeneracy component stands) and B225_conductor_decomposition_test (the "2 = parent" refutation retracted as vacuous → OPEN; the golden half stands). B742 pending resolved; shortlist re-ranked (B58 opens the SL(5)+ numerical tower door). Closes R27-4.
+
 ## B743 + B744 + the B740 two-seat closure (the three-seat convergence pass)
 - B743: cc2's rung1-widened + analytic package banked, cc-verified (4/4 spot-checks exact). CM-collapse theorem; 0 gated hits across the full real tower incl. the Born-amplitude quartic; the instrument caught-and-refused Koide; analytic door 0 hits (683σ from Koide); the forced limit-hypothesis CLOSED. JUNO stays the one forward test.
 - B744: the 6 kill-graph fact-basis conflicts adjudicated — 6/6 UPHELD as computed (green locks); cc3 graded ledger rows, cc graded arcs; ledger-hygiene follow-up minted. B741's B435→B437 chain stands.

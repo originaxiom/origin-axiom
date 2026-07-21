@@ -1,3 +1,19 @@
+# ⚠️ THE "REFUTED" HALF RETRACTED BY B742 + B745 (2026-07-21) — the criterion was vacuous
+
+**THE "2 = octahedral parent REFUTED" VERDICT BELOW DOES NOT STAND.** The refutation rested on
+"2 appears in the bad-prime extraction of every 2-bridge knot" — but the negatives hunt (B742,
+audit seat) proved the extraction reports 2 for EVERY monic-in-z input (disc_z mod 2 is always
+a square in 𝔽₂[x] — Vandermonde/Stickelberger; false positives on the 2-good curves 11a3 and
+37a1). Specificity at p=2 is ZERO, so the observation carried no evidence either way (MB12
+vacuity class). The banking seat cross-verified independently (B745, ALL PASS). Status now:
+the octahedral-parent half is **OPEN — undecided**, pending genuine (Jacobian-conductor)
+2-parts of non-twist 2-bridge character varieties. The one genuine conductor datum in the arc
+(4₁ → 40a1, N=40=2³·5, a Whitehead/octahedral child) is CONSISTENT with the claim this file
+reported as refuted. **The "5 = golden filling" half STANDS as banked** (recomputed both
+seats). The text below is kept for the record with this correction on top.
+
+---
+
 # B225 — the conductor decomposition tested: 5 = golden filling (holds); 2 = octahedral parent (REFUTED)
 
 **Date:** 2026-06-26. **Status:** a verify-don't-trust test of chat1's "game-changer" hypothesis — does the

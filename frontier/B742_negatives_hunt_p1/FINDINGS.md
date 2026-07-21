@@ -35,8 +35,10 @@ always), 10/10 knots sqrt-verified at SL and PSL levels, and FALSE-POSITIVES at 
 controls 11a3/37a1. The claim was never refuted. The one genuine conductor datum (4₁ → 40a1,
 N=40=2³·5, a Whitehead/octahedral child) is CONSISTENT with it; the golden half (5=filling)
 stands as banked. Status: the octahedral-parent half of the decomposition reopens as OPEN —
-not proven. Both revivals await cc2 cross-verify before correction headers land on the
-original arcs (relayed this date).
+not proven. ~~Both revivals await cross-verify before correction headers land on the
+original arcs (relayed this date).~~ **RESOLVED 2026-07-21: B745 (banking seat) cross-verified
+both — re-execution identical + five independent exact checks ALL PASS — CONFIRMED ×2;
+correction headers applied to both original arcs.**
 
 ## Verdict table (fact truncated to one line; full facts + artifacts per-target in recompute/)
 

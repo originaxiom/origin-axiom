@@ -1,3 +1,19 @@
+# ⚠️ HEADLINE CORRECTED BY B742 + B745 (2026-07-21)
+
+**THE HEADLINE CLAIM OF THIS FILE — "the prediction cannot be tested numerically" — IS
+NEGATED.** The negatives hunt (B742, audit seat) built the ε-extrapolated pinv-ratio route
+(the B59 method) and computed the ambient SL(4) 15×15 fixed-line Jacobian numerically,
+validated against the exact SL(3) anchor and B65's exact symbolic J(1); the banking seat
+cross-verified independently (B745: re-execution identical + five independent exact checks,
+ALL PASS). The SL(4) 7-factor tower prediction IS numerically testable — and the computed
+spectrum reproduces B59's banked factorization. What SURVIVES from this file (the necessary
+component, reconfirmed both seats): the fixed-line point is the identity representation,
+where the representation-to-trace map is first-order degenerate — so the NAIVE
+at-the-point route below is genuinely dead. What flips: only the impossibility headline.
+The text below is kept for the record with this correction on top.
+
+---
+
 # B58 Findings
 
 > Logged observation, not a claim (`../../GOVERNANCE.md` §5).

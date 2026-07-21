@@ -1,0 +1,4 @@
+[S1] disc(t^2-3t+1) = 5 == 5; largest root == phi^2: True
+[S2] (x^2-3x+1)(x^2-x+1) == x**4 - 4*x**3 + 5*x**2 - 4*x + 1 ; disc Q(sqrt5)*disc Q(sqrt-3) = -15 == -15
+[S3] phi^3 = 2+sqrt5: True ; phi^4 root of char(A^4)=t^2-7t+1 (L_4=7): True
+[S4] voice data: residue field element 2*sqrt(3)/vol (sqrt3 only); CM disc -48 = -3*16 -> {2: 4, 3: 1} (primes 2,3 only; 5 absent); palette {1,2,8} powers of 2

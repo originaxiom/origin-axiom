@@ -1,0 +1,4 @@
+# B745 artifact seals (sha256)
+6d0ef6432a935f9260ef05cb0596bb3dad389e0fa94a6f8f45af4ddb46439200  PREREGISTRATION.md  (sealed BEFORE computation)
+c000a707d2158be6de494b66431e141c4a1c21f136454a569afb19a619615818  crossverify.py
+f185916954810d5eb147d7c9c92d6673c6eaeec5d4bb2c25175b1917d541fade  output.txt

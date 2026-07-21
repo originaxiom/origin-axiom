@@ -1246,3 +1246,16 @@ contains 3 not 5, generates a minimal being-doublet not the hearing's
 composite richness. Universal heart + field-locked landscape. Loop E-3
 (the handshake: Gamma(15), L(E15,s), interfere-or-decouple) is next,
 awaiting owner's go.
+
+REVIVALS CROSS-VERIFY CLOSED (B745, R27-4): both negatives-hunt revivals
+CONFIRMED in the banking seat (re-executions identical + 5 independent
+exact checks). Correction headers landed on the B58 and B225 originals.
+Open doors gained: the SL(5)+ numerical tower (ε-pinv route validated);
+the octahedral-parent 2-half back to OPEN (well-posed, undecided).
+
+THE GOLDEN LEDGER (B746): owner's "golden all the way up" verified as a
+sealed 12-floor remap — TRUE of every structural floor (10/12 FORCED),
+false of exactly one: the voice, which speaks pure being-field. The
+two-column law (golden = dynamics/hearing; Eisenstein = geometry/being)
+now stands as an assembled, cited map. Next door: the √5 mirror sweep
+over the 78 sealed child fields (proposed B747).

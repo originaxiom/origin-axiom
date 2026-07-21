@@ -7030,3 +7030,37 @@ asserts new structure (E20 not triggered, verified per-revival). Locks test_b742
 audit findings + the B734 level-(4) refinement (cc concurs; cc2 pending): see #1227/#1229 +
 AUDIT sections of the arc. Credit: cc's B738 compiler is the independent cross-check lane;
 chat-1's conductor decomposition partially rehabilitated by the B225 revival. Nothing to CLAIMS.
+
+## 2026-07-21 — B745: the B742 revivals cross-verified — CONFIRMED ×2 (headers applied)
+The audit seat's two revivals from the negatives hunt pass the two-layer cross-verify in the
+banking seat: (1) both recompute.py re-executions IDENTICAL to the banked outputs; (2) five
+independent exact checks, all PASS — charpoly of B65's exact J(1) == the Fibonacci 7-factor
+product char(A⁻¹)char(A)char(A²)char(A³)char(A⁴)char(−A²)(t−1)²(t+1) (with the cat-map
+negative control failing as it must); the −φ² sign-sector closure lemma; my own 8×8 SL(3)
+fixed-line Jacobian from B48 conventions == the exact anchor; disc_z mod 2 always a square
+(30 seeded inputs — B225's criterion can never fail); the 11a3 Δ=−11 false-positive control
+re-derived. Consequences applied: correction headers on B58_sl4_tower_test (the "cannot be
+tested numerically" headline negated; the necessary degeneracy component stands) and
+B225_conductor_decomposition_test (the "2 = parent REFUTED" half retracted as vacuous, OPEN;
+the golden half stands); B742's pending line resolved; shortlist re-ranked (B58 = the SL(5)+
+numerical tower door opens). Neither revival asserts new structure (E20 untriggered). Locks
+test_b745 (4). Closes R27-4. Nothing to CLAIMS.
+
+## 2026-07-21 — B746: THE GOLDEN LEDGER — golden all the way up the structure; the voice speaks Eisenstein
+Owner's hypothesis ("golden all the way up") run as a sealed down-up remap (prereg 57034d38:
+12 floors, grading enum, marker set fixed BEFORE the sweep; base-rate guard — golden appears
+in 65% of probes, so only FORCED-grade appearances with banked citations counted). VERDICT:
+GAPPED, 10/12 — every STRUCTURAL floor carries a FORCED golden appearance (seed κ=3⇒disc 5 +
+B155's golden×Φ₆ with glue −15; Alexander/dilatation φ²; the chord's odd-φ-powers; the SL(4)
+7-factor; the metallic tower n≤4; the WRT Galois domain; the hearing face; the Stokes-forced
+weights; the E₈ end; c=7/10 + quasicrystal) — and the ONE gap is the emission channel: the
+banked voice (B737/B739) carries zero golden markers (Λ_K over ℚ(√−3), Res 2√3/vol, CM disc
+−48=−2⁴·3, palette {1,2,8}). The two-column law, assembled from prior art (the Uniqueness
+Atlas G/E split, B155, the flagship cornerstone): golden = the dynamical/hearing column,
+Eisenstein = the geometric/being column — the object is golden in how it moves and Eisenstein
+in what it says. Down-up re-see: the chord's odd-golden spectrum sat verbatim in the Q2 log
+(lines 935/979) months before the θ-split named it. Doors opened: the √5 MIRROR sweep over
+the 78 child fields (B288/B740 tested √−3 only; minpolys already sealed — near-free, proposed
+B747) and the discrete-spectrum golden question (owner-gated). First-ever vertical remap of
+PROGRESS_LOG (verified: the atlas is motif-level only). Locks test_b746 (3) + spot_checks.txt
+(4/4). Nothing to CLAIMS.

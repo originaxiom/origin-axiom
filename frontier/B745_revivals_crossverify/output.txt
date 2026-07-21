@@ -1,0 +1,23 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning: 
+
+Ordered comparisons with modular integers are deprecated.
+
+            Use e.g. int(a) < int(b) instead of a < b.
+
+See https://docs.sympy.org/latest/explanation/active-deprecations.html#modularinteger-compare
+for details.
+
+This has been deprecated since SymPy version 1.13. It
+will be removed in a future version of SymPy.
+
+  return sorted(factors, key=key)
+========================================================================================
+B745 -- independent cross-verify of the B742 revivals (banking seat)
+========================================================================================
+[C1 ] charpoly(B65 exact J(1)) == Fibonacci 7-factor product: True   (cat-map control fails as it must: True)
+[C2 ] closure lemma: min dist(char(A^k) positive roots & +-1, -phi^2) = 1.61803398874989484820458683437 >= 1: True
+[C3 ] my SL(3) fixed-line Jacobian (from B48 conventions, c=3) charpoly == (t-1)(t+1)(t^2-3t+1)(t^2+t-1)(t^2-4t-1): True
+[C4 ] disc_z mod 2 is a square in F_2[x] for all 30 random monic-in-z inputs (seed 42): True  -- the criterion can never fail (vacuous)
+[C5 ] 11a3 control: Delta = -11 (odd => good at 2), branch locus 4*x**3 - 4*x**2 + 1, lc = 4 even => extraction reports 2 anyway: True  <-- FALSE POSITIVE confirmed
+========================================================================================
+ALL 5 INDEPENDENT CHECKS PASS -- verdict CONFIRMED x2 (B58, B225)
