@@ -1,0 +1,21 @@
+{
+ "name": "dead_19",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B731",
+   "findings": "frontier/B731_object_observer_noncongruence/FINDINGS.md",
+   "slug": "object observer noncongruence"
+  },
+  {
+   "id": "B734",
+   "findings": "frontier/B734_m004_is_congruence/FINDINGS.md",
+   "slug": "m004 is congruence"
+  },
+  {
+   "id": "B736",
+   "findings": "frontier/B736_ABC_campaign/FINDINGS.md",
+   "slug": "ABC campaign"
+  }
+ ]
+}

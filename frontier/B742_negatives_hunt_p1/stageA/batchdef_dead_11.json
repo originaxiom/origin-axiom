@@ -1,0 +1,46 @@
+{
+ "name": "dead_11",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B474",
+   "findings": "frontier/B474_tier_commutator_law/FINDINGS.md",
+   "slug": "tier commutator law"
+  },
+  {
+   "id": "B476",
+   "findings": "frontier/B476_interaction_algebra/FINDINGS.md",
+   "slug": "interaction algebra"
+  },
+  {
+   "id": "B477",
+   "findings": "frontier/B477_sterile_classes/FINDINGS.md",
+   "slug": "sterile classes"
+  },
+  {
+   "id": "B483",
+   "findings": "frontier/B483_fibonacci_anyon_face/FINDINGS.md",
+   "slug": "fibonacci anyon face"
+  },
+  {
+   "id": "B484",
+   "findings": "frontier/B484_braiding_sm_verdict/FINDINGS.md",
+   "slug": "braiding sm verdict"
+  },
+  {
+   "id": "B486",
+   "findings": "frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+   "slug": "cusp hexagonal verdict"
+  },
+  {
+   "id": "B487",
+   "findings": "frontier/B487_dgg_su3_verdict/FINDINGS.md",
+   "slug": "dgg su3 verdict"
+  },
+  {
+   "id": "B489",
+   "findings": "frontier/B489_self_interaction_tower/FINDINGS.md",
+   "slug": "self interaction tower"
+  }
+ ]
+}

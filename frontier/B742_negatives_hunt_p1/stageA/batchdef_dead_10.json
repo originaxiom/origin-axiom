@@ -1,0 +1,46 @@
+{
+ "name": "dead_10",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B440",
+   "findings": "frontier/B440_foreign_vacuum_control/FINDINGS.md",
+   "slug": "foreign vacuum control"
+  },
+  {
+   "id": "B443",
+   "findings": "frontier/B443_child_atlas/FINDINGS.md",
+   "slug": "child atlas"
+  },
+  {
+   "id": "B444",
+   "findings": "frontier/B444_sl3_field_control/FINDINGS.md",
+   "slug": "sl3 field control"
+  },
+  {
+   "id": "B445",
+   "findings": "frontier/B445_e6_h1_control/FINDINGS.md",
+   "slug": "e6 h1 control"
+  },
+  {
+   "id": "B459",
+   "findings": "frontier/B459_klein_four_verification/FINDINGS.md",
+   "slug": "klein four verification"
+  },
+  {
+   "id": "B465",
+   "findings": "frontier/B465_monodromy_intake/FINDINGS.md",
+   "slug": "monodromy intake"
+  },
+  {
+   "id": "B468",
+   "findings": "frontier/B468_z3_adjudication/FINDINGS.md",
+   "slug": "z3 adjudication"
+  },
+  {
+   "id": "B472",
+   "findings": "frontier/B472_quantum_commutator/FINDINGS.md",
+   "slug": "quantum commutator"
+  }
+ ]
+}

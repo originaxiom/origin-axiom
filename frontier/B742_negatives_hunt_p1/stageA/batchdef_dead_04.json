@@ -1,0 +1,46 @@
+{
+ "name": "dead_04",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B243",
+   "findings": "frontier/B243_levelrank_conjugation_general/FINDINGS.md",
+   "slug": "levelrank conjugation general"
+  },
+  {
+   "id": "B247",
+   "findings": "frontier/B247_v1_holonomy_adjudication/FINDINGS.md",
+   "slug": "v1 holonomy adjudication"
+  },
+  {
+   "id": "B252",
+   "findings": "frontier/B252_chirality_obstruction/FINDINGS.md",
+   "slug": "chirality obstruction"
+  },
+  {
+   "id": "B272",
+   "findings": "frontier/B272_verification_and_gaps/FINDINGS.md",
+   "slug": "verification and gaps"
+  },
+  {
+   "id": "B285",
+   "findings": "frontier/B285_commutator_phase/FINDINGS.md",
+   "slug": "commutator phase"
+  },
+  {
+   "id": "B294",
+   "findings": "frontier/B294_selection_verdict/FINDINGS.md",
+   "slug": "selection verdict"
+  },
+  {
+   "id": "B295",
+   "findings": "frontier/B295_ssb_gauge_status/FINDINGS.md",
+   "slug": "ssb gauge status"
+  },
+  {
+   "id": "B296",
+   "findings": "frontier/B296_seam_arc_verification/FINDINGS.md",
+   "slug": "seam arc verification"
+  }
+ ]
+}

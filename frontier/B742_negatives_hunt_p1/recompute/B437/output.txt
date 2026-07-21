@@ -1,0 +1,50 @@
+========================================================================
+B739 Stage-B recompute of B437's discriminating fact (the trefoil control)
+========================================================================
+
+[0] min poly of zeta5 + zeta5^4 over Q: t**2 + t - 1  (degree 2, disc 5) => Q(zeta5)^+ = Q(sqrt5).  w = (-1+sqrt5)/2: True
+
+[1] BASELINE (the arc's own computation, re-derived):
+figure-eight 4_1(5,1): Delta = t**2 - 3*t + 1
+  trace = sqrt(5)/5 + 3 = (3) + (1/5)*sqrt5   [numeric 3.447213595500, ok]
+  in Q(sqrt5): yes (exact);  sqrt5-part nonzero: True
+  total torsion |Res(Phi_5, Delta)| = 121
+
+[2] THE TREFOIL CONTROL (the kill's discriminating fact, asserted-only in arc):
+trefoil 3_1(5,1): Delta = t**2 - t + 1
+  trace = 1 - sqrt(5)/5 = (1) + (-1/5)*sqrt5   [numeric 0.552786404500, ok]
+  in Q(sqrt5): yes (exact);  sqrt5-part nonzero: True
+  total torsion |Res(Phi_5, Delta)| = 1
+  banked assertion 'trace = 1 - sqrt5/5': True
+  trefoil Delta roots are primitive 6th roots of unity (non-golden parent): True
+
+[3] SAME FIELD, DIFFERENT VALUE:
+  4_1 trace  = sqrt(5)/5 + 3  (sqrt5-part 1/5)
+  3_1 trace  = 1 - sqrt(5)/5  (sqrt5-part -1/5)
+  same field Q(sqrt5), both irrational: True
+  values differ (parent-specific residue): True
+
+[4] GENERIC NUMERATOR (every knot at slope 5), trace = a + b*sqrt5 with
+    a = -c1 + c3/2
+    b = -c0/5 - c1/5 - c2/5 + 3*c3/10
+    -> lies in Q(sqrt5) for ALL (c0,c1,c2,c3): numerator-forced. QED
+
+[5] SUPPORTING CONTROLS (same slope, other parents -- all land in Q(sqrt5)):
+unknot(5,1) = L(5,1): Delta = 1
+  trace = -sqrt(5)/5 = (0) + (-1/5)*sqrt5   [numeric -0.447213595500, ok]
+  in Q(sqrt5): yes (exact);  sqrt5-part nonzero: True
+  total torsion |Res(Phi_5, Delta)| = 1
+5_2(5,1): Delta = 2*t**2 - 3*t + 2
+  trace = 3 - sqrt(5)/5 = (3) + (-1/5)*sqrt5   [numeric 2.552786404500, ok]
+  in Q(sqrt5): yes (exact);  sqrt5-part nonzero: True
+  total torsion |Res(Phi_5, Delta)| = 121
+6_1(5,1): Delta = 2*t**2 - 5*t + 2
+  trace = sqrt(5)/5 + 5 = (5) + (1/5)*sqrt5   [numeric 5.447213595500, ok]
+  in Q(sqrt5): yes (exact);  sqrt5-part nonzero: True
+  total torsion |Res(Phi_5, Delta)| = 961
+
+========================================================================
+VERDICT INPUT: trefoil(5,1) trace = 1 - sqrt(5)/5 in Q(sqrt5) -- RECOMPUTED,
+matches the banked kill record verbatim; the field Q(sqrt5) is proven
+numerator-forced for arbitrary Delta (step 4). The banked kill STANDS.
+========================================================================

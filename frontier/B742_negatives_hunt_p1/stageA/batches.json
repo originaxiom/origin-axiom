@@ -1,0 +1,1028 @@
+[
+{
+"name": "dead_00",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B52",
+"findings": "frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md",
+"slug": "multichannel fibonacci bridge control"
+},
+{
+"id": "B56",
+"findings": "frontier/B56_figure_eight_invariant_surface/FINDINGS.md",
+"slug": "figure eight invariant surface"
+},
+{
+"id": "B57",
+"findings": "frontier/B57_general_m_splitting/FINDINGS.md",
+"slug": "general m splitting"
+},
+{
+"id": "B58",
+"findings": "frontier/B58_sl4_tower_test/FINDINGS.md",
+"slug": "stage1"
+},
+{
+"id": "B59",
+"findings": "frontier/B59_sl4_factorization/FINDINGS.md",
+"slug": "sl4 factorization"
+},
+{
+"id": "B60",
+"findings": "frontier/B60_sln_tower/FINDINGS.md",
+"slug": "sln tower"
+},
+{
+"id": "B62",
+"findings": "frontier/B62_opposition_involution/FINDINGS.md",
+"slug": "opposition involution"
+},
+{
+"id": "B66",
+"findings": "frontier/B66_sl6_tower/FINDINGS.md",
+"slug": "sl6 tower"
+}
+]
+},
+{
+"name": "dead_01",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B77",
+"findings": "frontier/B77_degree_rank_mechanism/FINDINGS.md",
+"slug": "degree rank mechanism"
+},
+{
+"id": "B84",
+"findings": "frontier/B84_sl5_gauge_barrier/FINDINGS.md",
+"slug": "sl5 gauge barrier"
+},
+{
+"id": "B87",
+"findings": "frontier/B87_m3_genus/FINDINGS.md",
+"slug": "m3 genus"
+},
+{
+"id": "B90",
+"findings": "frontier/B90_degree_rank_peripheral/FINDINGS.md",
+"slug": "degree rank peripheral"
+},
+{
+"id": "B101",
+"findings": "frontier/B101_hitchin_reframing/FINDINGS.md",
+"slug": "hitchin reframing"
+},
+{
+"id": "B107",
+"findings": "frontier/B107_physics_connection_audit/FINDINGS.md",
+"slug": "physics connection audit"
+},
+{
+"id": "B111",
+"findings": "frontier/B111_sign_structure/FINDINGS.md",
+"slug": "sign structure"
+},
+{
+"id": "B120",
+"findings": "frontier/B120_tower_determination/FINDINGS.md",
+"slug": "tower determination"
+}
+]
+},
+{
+"name": "dead_02",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B128",
+"findings": "frontier/B128_symmetry_breaking_chirality/FINDINGS.md",
+"slug": "symmetry breaking chirality"
+},
+{
+"id": "B132",
+"findings": "frontier/B132_quantum_layer/FINDINGS.md",
+"slug": "quantum layer"
+},
+{
+"id": "B140",
+"findings": "frontier/B140_compute_reconciliation/FINDINGS.md",
+"slug": "compute reconciliation"
+},
+{
+"id": "B146",
+"findings": "frontier/B146_b145_calibration/FINDINGS.md",
+"slug": "b145 calibration"
+},
+{
+"id": "B154",
+"findings": "frontier/B154_silver_bundle_foundation/FINDINGS.md",
+"slug": "silver bundle foundation"
+},
+{
+"id": "B157",
+"findings": "frontier/B157_metallic_exponent/FINDINGS.md",
+"slug": "metallic exponent"
+},
+{
+"id": "B161",
+"findings": "frontier/B161_cancellation_locus_stratification/FINDINGS.md",
+"slug": "cancellation locus stratification"
+},
+{
+"id": "B177",
+"findings": "frontier/B177_metabolism_test/FINDINGS.md",
+"slug": "metabolism test"
+}
+]
+},
+{
+"name": "dead_03",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B192",
+"findings": "frontier/B192_sln_higher_rank/FINDINGS.md",
+"slug": "sln higher rank"
+},
+{
+"id": "B200",
+"findings": "frontier/B200_chat1_handoff_verification/FINDINGS.md",
+"slug": "chat1 handoff verification"
+},
+{
+"id": "B214",
+"findings": "frontier/B214_general_word_period_law/FINDINGS.md",
+"slug": "general word period law"
+},
+{
+"id": "B216",
+"findings": "frontier/B216_period_law_f8_boundary/FINDINGS.md",
+"slug": "period law f8 boundary"
+},
+{
+"id": "B219",
+"findings": "frontier/B219_period_content_law/FINDINGS.md",
+"slug": "period content law"
+},
+{
+"id": "B225",
+"findings": "frontier/B225_conductor_decomposition_test/FINDINGS.md",
+"slug": "conductor decomposition test"
+},
+{
+"id": "B237",
+"findings": "frontier/B237_silver_2O_l48/FINDINGS.md",
+"slug": "silver 2O l48"
+},
+{
+"id": "B239",
+"findings": "frontier/B239_reconciled_trace_field_law/FINDINGS.md",
+"slug": "reconciled trace field law"
+}
+]
+},
+{
+"name": "dead_04",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B243",
+"findings": "frontier/B243_levelrank_conjugation_general/FINDINGS.md",
+"slug": "levelrank conjugation general"
+},
+{
+"id": "B247",
+"findings": "frontier/B247_v1_holonomy_adjudication/FINDINGS.md",
+"slug": "v1 holonomy adjudication"
+},
+{
+"id": "B252",
+"findings": "frontier/B252_chirality_obstruction/FINDINGS.md",
+"slug": "chirality obstruction"
+},
+{
+"id": "B272",
+"findings": "frontier/B272_verification_and_gaps/FINDINGS.md",
+"slug": "verification and gaps"
+},
+{
+"id": "B285",
+"findings": "frontier/B285_commutator_phase/FINDINGS.md",
+"slug": "commutator phase"
+},
+{
+"id": "B294",
+"findings": "frontier/B294_selection_verdict/FINDINGS.md",
+"slug": "selection verdict"
+},
+{
+"id": "B295",
+"findings": "frontier/B295_ssb_gauge_status/FINDINGS.md",
+"slug": "ssb gauge status"
+},
+{
+"id": "B296",
+"findings": "frontier/B296_seam_arc_verification/FINDINGS.md",
+"slug": "seam arc verification"
+}
+]
+},
+{
+"name": "dead_05",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B299",
+"findings": "frontier/B299_trinification_triality/FINDINGS.md",
+"slug": "trinification triality"
+},
+{
+"id": "B305",
+"findings": "frontier/B305_eisenstein_trinification_grading/FINDINGS.md",
+"slug": "eisenstein trinification grading"
+},
+{
+"id": "B307",
+"findings": "frontier/B307_totally_real_obstruction/FINDINGS.md",
+"slug": "totally real obstruction"
+},
+{
+"id": "B310",
+"findings": "frontier/B310_cascade_realization_exhausted/FINDINGS.md",
+"slug": "cascade realization exhausted"
+},
+{
+"id": "B313",
+"findings": "frontier/B313_fibonacci_bridge_and_no_forced_choice/FINDINGS.md",
+"slug": "fibonacci bridge and no forced choice"
+},
+{
+"id": "B320",
+"findings": "frontier/B320_chat1_three_points/FINDINGS.md",
+"slug": "chat1 three points"
+},
+{
+"id": "B321",
+"findings": "frontier/B321_seam_geometry_adjudication/FINDINGS.md",
+"slug": "seam geometry adjudication"
+},
+{
+"id": "B325",
+"findings": "frontier/B325_z3_protection_refuted/FINDINGS.md",
+"slug": "z3 protection refuted"
+}
+]
+},
+{
+"name": "dead_06",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B332",
+"findings": "frontier/B332_two_letters_two_ends/FINDINGS.md",
+"slug": "two letters two ends"
+},
+{
+"id": "B334",
+"findings": "frontier/B334_seam_hilbert_class_field/FINDINGS.md",
+"slug": "seam hilbert class field"
+},
+{
+"id": "B335",
+"findings": "frontier/B335_generation_symmetry_exact/FINDINGS.md",
+"slug": "generation symmetry exact"
+},
+{
+"id": "B343",
+"findings": "frontier/B343_exact_tbm_irreducibility/FINDINGS.md",
+"slug": "exact tbm irreducibility"
+},
+{
+"id": "B360",
+"findings": "frontier/B360_seam_selection_rule/FINDINGS.md",
+"slug": "seam selection rule"
+},
+{
+"id": "B361",
+"findings": "frontier/B361_seam_local_law/FINDINGS.md",
+"slug": "seam local law"
+},
+{
+"id": "B364",
+"findings": "frontier/B364_theta_polarization/FINDINGS.md",
+"slug": "theta polarization"
+},
+{
+"id": "B365",
+"findings": "frontier/B365_polarization_signature/FINDINGS.md",
+"slug": "polarization signature"
+}
+]
+},
+{
+"name": "dead_07",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B367",
+"findings": "frontier/B367_value_map/FINDINGS.md",
+"slug": "value map"
+},
+{
+"id": "B372",
+"findings": "frontier/B372_level45_sweeper/FINDINGS.md",
+"slug": "level45 sweeper"
+},
+{
+"id": "B373",
+"findings": "frontier/B373_level45_minimal_sector/FINDINGS.md",
+"slug": "level45 minimal sector"
+},
+{
+"id": "B374",
+"findings": "frontier/B374_level135_rung/FINDINGS.md",
+"slug": "level135 rung"
+},
+{
+"id": "B385",
+"findings": "frontier/B385_bright_dark_discriminator/FINDINGS.md",
+"slug": "bright dark discriminator"
+},
+{
+"id": "B389",
+"findings": "frontier/B389_mirror_mechanism/FINDINGS.md",
+"slug": "mirror mechanism"
+},
+{
+"id": "B392",
+"findings": "frontier/B392_wall_probes/FINDINGS.md",
+"slug": "wall probes"
+},
+{
+"id": "B394",
+"findings": "frontier/B394_support_walk/FINDINGS.md",
+"slug": "support walk"
+}
+]
+},
+{
+"name": "dead_08",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B397",
+"findings": "frontier/B397_last_census_facts/FINDINGS.md",
+"slug": "last census facts"
+},
+{
+"id": "B399",
+"findings": "frontier/B399_wall_scale/FINDINGS.md",
+"slug": "wall scale"
+},
+{
+"id": "B400",
+"findings": "frontier/B400_canonical_frame/FINDINGS.md",
+"slug": "canonical frame"
+},
+{
+"id": "B401",
+"findings": "frontier/B401_sixth_angle/FINDINGS.md",
+"slug": "sixth angle"
+},
+{
+"id": "B403",
+"findings": "frontier/B403_lead_package/FINDINGS.md",
+"slug": "lead package"
+},
+{
+"id": "B405",
+"findings": "frontier/B405_supersingular_check/FINDINGS.md",
+"slug": "supersingular check"
+},
+{
+"id": "B406",
+"findings": "frontier/B406_two_conductor/FINDINGS.md",
+"slug": "two conductor"
+},
+{
+"id": "B407",
+"findings": "frontier/B407_support_nesting/FINDINGS.md",
+"slug": "support nesting"
+}
+]
+},
+{
+"name": "dead_09",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B409",
+"findings": "frontier/B409_stratification_transport/FINDINGS.md",
+"slug": "stratification transport"
+},
+{
+"id": "B411",
+"findings": "frontier/B411_field_dictionary/FINDINGS.md",
+"slug": "field dictionary"
+},
+{
+"id": "B412",
+"findings": "frontier/B412_tower_measure/FINDINGS.md",
+"slug": "tower measure"
+},
+{
+"id": "B418",
+"findings": "frontier/B418_tw4_upstairs/FINDINGS.md",
+"slug": "tw4 upstairs"
+},
+{
+"id": "B428",
+"findings": "frontier/B428_upstairs_spin_walls/FINDINGS.md",
+"slug": "upstairs spin walls"
+},
+{
+"id": "B433",
+"findings": "frontier/B433_3d3d_calibration/FINDINGS.md",
+"slug": "3d3d calibration"
+},
+{
+"id": "B435",
+"findings": "frontier/B435_child_founding/FINDINGS.md",
+"slug": "child founding"
+},
+{
+"id": "B437",
+"findings": "frontier/B437_child_abelian_book/FINDINGS.md",
+"slug": "child abelian book"
+}
+]
+},
+{
+"name": "dead_10",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B440",
+"findings": "frontier/B440_foreign_vacuum_control/FINDINGS.md",
+"slug": "foreign vacuum control"
+},
+{
+"id": "B443",
+"findings": "frontier/B443_child_atlas/FINDINGS.md",
+"slug": "child atlas"
+},
+{
+"id": "B444",
+"findings": "frontier/B444_sl3_field_control/FINDINGS.md",
+"slug": "sl3 field control"
+},
+{
+"id": "B445",
+"findings": "frontier/B445_e6_h1_control/FINDINGS.md",
+"slug": "e6 h1 control"
+},
+{
+"id": "B459",
+"findings": "frontier/B459_klein_four_verification/FINDINGS.md",
+"slug": "klein four verification"
+},
+{
+"id": "B465",
+"findings": "frontier/B465_monodromy_intake/FINDINGS.md",
+"slug": "monodromy intake"
+},
+{
+"id": "B468",
+"findings": "frontier/B468_z3_adjudication/FINDINGS.md",
+"slug": "z3 adjudication"
+},
+{
+"id": "B472",
+"findings": "frontier/B472_quantum_commutator/FINDINGS.md",
+"slug": "quantum commutator"
+}
+]
+},
+{
+"name": "dead_11",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B474",
+"findings": "frontier/B474_tier_commutator_law/FINDINGS.md",
+"slug": "tier commutator law"
+},
+{
+"id": "B476",
+"findings": "frontier/B476_interaction_algebra/FINDINGS.md",
+"slug": "interaction algebra"
+},
+{
+"id": "B477",
+"findings": "frontier/B477_sterile_classes/FINDINGS.md",
+"slug": "sterile classes"
+},
+{
+"id": "B483",
+"findings": "frontier/B483_fibonacci_anyon_face/FINDINGS.md",
+"slug": "fibonacci anyon face"
+},
+{
+"id": "B484",
+"findings": "frontier/B484_braiding_sm_verdict/FINDINGS.md",
+"slug": "braiding sm verdict"
+},
+{
+"id": "B486",
+"findings": "frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+"slug": "cusp hexagonal verdict"
+},
+{
+"id": "B487",
+"findings": "frontier/B487_dgg_su3_verdict/FINDINGS.md",
+"slug": "dgg su3 verdict"
+},
+{
+"id": "B489",
+"findings": "frontier/B489_self_interaction_tower/FINDINGS.md",
+"slug": "self interaction tower"
+}
+]
+},
+{
+"name": "dead_12",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B492",
+"findings": "frontier/B492_verlinde_boundary_lens/FINDINGS.md",
+"slug": "verlinde boundary lens"
+},
+{
+"id": "B500",
+"findings": "frontier/B500_child_hunt/FINDINGS.md",
+"slug": "child hunt"
+},
+{
+"id": "B513",
+"findings": "frontier/B513_boundary_attractors/FINDINGS.md",
+"slug": "boundary attractors"
+},
+{
+"id": "B515",
+"findings": "frontier/B515_golden_3d/FINDINGS.md",
+"slug": "golden 3d"
+},
+{
+"id": "B516",
+"findings": "frontier/B516_golden_3d_ladder/FINDINGS.md",
+"slug": "golden 3d ladder"
+},
+{
+"id": "B520",
+"findings": "frontier/B520_handoff_verification/FINDINGS.md",
+"slug": "handoff verification"
+},
+{
+"id": "B521",
+"findings": "frontier/B521_audit_integration/FINDINGS.md",
+"slug": "audit integration"
+},
+{
+"id": "B523",
+"findings": "frontier/B523_verdict_reexamination/FINDINGS.md",
+"slug": "verdict reexamination"
+}
+]
+},
+{
+"name": "dead_13",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B525",
+"findings": "frontier/B525_are_you_sure/FINDINGS.md",
+"slug": "are you sure"
+},
+{
+"id": "B526",
+"findings": "frontier/B526_crossing_package/FINDINGS.md",
+"slug": "crossing package"
+},
+{
+"id": "B539",
+"findings": "frontier/B539_relations_campaign/FINDINGS.md",
+"slug": "relations campaign"
+},
+{
+"id": "B545",
+"findings": "frontier/B545_ghost_census/FINDINGS.md",
+"slug": "ghost census"
+},
+{
+"id": "B548",
+"findings": "frontier/B548_unhideable_census/FINDINGS.md",
+"slug": "unhideable census"
+},
+{
+"id": "B550",
+"findings": "frontier/B550_promotion_sign/FINDINGS.md",
+"slug": "promotion sign"
+},
+{
+"id": "B553",
+"findings": "frontier/B553_seat1_session3/FINDINGS.md",
+"slug": "seat1 session3"
+},
+{
+"id": "B554",
+"findings": "frontier/B554_meditation_verify/FINDINGS.md",
+"slug": "meditation verify"
+}
+]
+},
+{
+"name": "dead_14",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B558",
+"findings": "frontier/B558_three_level_negative/FINDINGS.md",
+"slug": "three level negative"
+},
+{
+"id": "B561",
+"findings": "frontier/B561_l50_crux/FINDINGS.md",
+"slug": "l50 crux"
+},
+{
+"id": "B567",
+"findings": "frontier/B567_hamiltonian_handoff/FINDINGS.md",
+"slug": "hamiltonian handoff"
+},
+{
+"id": "B569",
+"findings": "frontier/B569_complete_chain/FINDINGS.md",
+"slug": "complete chain"
+},
+{
+"id": "B572",
+"findings": "frontier/B572_eleven_clauses/FINDINGS.md",
+"slug": "eleven clauses"
+},
+{
+"id": "B574",
+"findings": "frontier/B574_offprincipal/FINDINGS.md",
+"slug": "offprincipal"
+},
+{
+"id": "B579",
+"findings": "frontier/B579_session_handoff/FINDINGS.md",
+"slug": "session handoff"
+},
+{
+"id": "B585",
+"findings": "frontier/B585_listener_law/FINDINGS.md",
+"slug": "listener law"
+}
+]
+},
+{
+"name": "dead_15",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B604",
+"findings": "frontier/B604_rosetta_blocks/FINDINGS.md",
+"slug": "rosetta blocks"
+},
+{
+"id": "B605",
+"findings": "frontier/B605_door2_involution/FINDINGS.md",
+"slug": "door2 involution"
+},
+{
+"id": "B619",
+"findings": "frontier/B619_a5_bridge/FINDINGS.md",
+"slug": "a5 bridge"
+},
+{
+"id": "B624",
+"findings": "frontier/B624_observable_bridge/FINDINGS.md",
+"slug": "observable bridge"
+},
+{
+"id": "B626",
+"findings": "frontier/B626_jacobian_reality/FINDINGS.md",
+"slug": "jacobian reality"
+},
+{
+"id": "B632",
+"findings": "frontier/B632_cubic_route/FINDINGS.md",
+"slug": "cubic route"
+},
+{
+"id": "B654",
+"findings": "frontier/B654_listening_synthesis/FINDINGS.md",
+"slug": "listening synthesis"
+},
+{
+"id": "B656",
+"findings": "frontier/B656_digest_integration/FINDINGS.md",
+"slug": "digest integration"
+}
+]
+},
+{
+"name": "dead_16",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B657",
+"findings": "frontier/B657_invariant_line/FINDINGS.md",
+"slug": "invariant line"
+},
+{
+"id": "B664",
+"findings": "frontier/B664_metallic_landscape/FINDINGS.md",
+"slug": "metallic landscape"
+},
+{
+"id": "B668",
+"findings": "frontier/B668_triage_reconciliation/FINDINGS.md",
+"slug": "triage reconciliation"
+},
+{
+"id": "B669",
+"findings": "frontier/B669_track_h_adjudication/FINDINGS.md",
+"slug": "track h adjudication"
+},
+{
+"id": "B672",
+"findings": "frontier/B672_grading_hunt/FINDINGS.md",
+"slug": "grading hunt"
+},
+{
+"id": "B677",
+"findings": "frontier/B677_morning_packet/FINDINGS.md",
+"slug": "morning packet"
+},
+{
+"id": "B681",
+"findings": "frontier/B681_habiro_pretest/FINDINGS.md",
+"slug": "habiro pretest"
+},
+{
+"id": "B685",
+"findings": "frontier/B685_generation_terminal/FINDINGS.md",
+"slug": "generation terminal"
+}
+]
+},
+{
+"name": "dead_17",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B687",
+"findings": "frontier/B687_sm_atlas_koide/FINDINGS.md",
+"slug": "sm atlas koide"
+},
+{
+"id": "B693",
+"findings": "frontier/B693_loop_e3_inert5/FINDINGS.md",
+"slug": "loop e3 inert5"
+},
+{
+"id": "B698",
+"findings": "frontier/B698_the_meeting_probed/FINDINGS.md",
+"slug": "the meeting probed"
+},
+{
+"id": "B699",
+"findings": "frontier/B699_two_object_surgery/FINDINGS.md",
+"slug": "two object surgery"
+},
+{
+"id": "B703",
+"findings": "frontier/B703_koide_sigma_distance/FINDINGS.md",
+"slug": "koide sigma distance"
+},
+{
+"id": "B705",
+"findings": "frontier/B705_metallic_hearing_campaign/FINDINGS.md",
+"slug": "metallic hearing campaign"
+},
+{
+"id": "B706",
+"findings": "frontier/B706_rung2_sm_freedom/FINDINGS.md",
+"slug": "rung2 sm freedom"
+},
+{
+"id": "B709",
+"findings": "frontier/B709_turok_marriage_adjudication/FINDINGS.md",
+"slug": "turok marriage adjudication"
+}
+]
+},
+{
+"name": "dead_18",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B710",
+"findings": "frontier/B710_analytic_t1_thimbles/FINDINGS.md",
+"slug": "analytic t1 thimbles"
+},
+{
+"id": "B711",
+"findings": "frontier/B711_two_z2_degeneration/FINDINGS.md",
+"slug": "two z2 degeneration"
+},
+{
+"id": "B712",
+"findings": "frontier/B712_object_continuum/FINDINGS.md",
+"slug": "object continuum"
+},
+{
+"id": "B720",
+"findings": "frontier/B720_coupling_path/FINDINGS.md",
+"slug": "coupling path"
+},
+{
+"id": "B721",
+"findings": "frontier/B721_thermal_time/FINDINGS.md",
+"slug": "thermal time"
+},
+{
+"id": "B724",
+"findings": "frontier/B724_seeing_readjudication/FINDINGS.md",
+"slug": "seeing readjudication"
+},
+{
+"id": "B726",
+"findings": "frontier/B726_hearing_born_content/FINDINGS.md",
+"slug": "hearing born content"
+},
+{
+"id": "B727",
+"findings": "frontier/B727_base_rate_the_structure/FINDINGS.md",
+"slug": "base rate the structure"
+}
+]
+},
+{
+"name": "dead_19",
+"kind": "dead-probe",
+"items": [
+{
+"id": "B731",
+"findings": "frontier/B731_object_observer_noncongruence/FINDINGS.md",
+"slug": "object observer noncongruence"
+},
+{
+"id": "B734",
+"findings": "frontier/B734_m004_is_congruence/FINDINGS.md",
+"slug": "m004 is congruence"
+},
+{
+"id": "B736",
+"findings": "frontier/B736_ABC_campaign/FINDINGS.md",
+"slug": "ABC campaign"
+}
+]
+},
+{
+"name": "tomb_0",
+"kind": "tombstone",
+"items": [
+{
+"line": 67,
+"head": "- **Quantum tower `|\u03bb|=1`** = **unitarity** of the Chern\u2013Simons representation (true of *every* quantum theory); the"
+},
+{
+"line": 70,
+"head": "- **Finite-`k` eigenvalues are roots of unity** \u2014 **tautological**: the rep is defined over `q=exp(2\u03c0i/(k+2))`, so"
+},
+{
+"line": 72,
+"head": "- **Kashaev invariant \u2192 volume** = the **volume conjecture** (Kashaev 1997, a *verified known result*), not a"
+},
+{
+"line": 74,
+"head": "- **`z\u2080` / k=4 phase match** = a **k=4-specific arithmetic coincidence**: at `k=4`, `k+2=6=2\u00b73` divides the"
+},
+{
+"line": 77,
+"head": "- **\"Three regimes\"** (cyclotomic at finite `k` / algebraic at `k\u2192\u221e` / transcendental coefficient) = an"
+},
+{
+"line": 102,
+"head": "- **K-A/K-B \u2014 \"det=\u22121 breaks chirality / selects the Standard-Model chiral structure\" \u2014 DEAD, and INVERTED.** The"
+},
+{
+"line": 111,
+"head": "- **K-C \u2014 \"figure-eight quantized = the *physical* Fibonacci order / det=\u22121 selects the braiding chirality\" \u2014 DEAD.**"
+},
+{
+"line": 119,
+"head": "- **K-D \u2014 \"physical (unitary) topological order from the metallic family\" \u2014 DEAD.** Metallic `m\u22651` are hyperbolic \u2192"
+},
+{
+"line": 124,
+"head": "- **K-E \u2014 \"a forced dimensionful scale or non-generic physical ratio\" \u2014 DEAD.** `\u03bb_m`, `2 log \u03bb_m`, volumes, systoles"
+}
+]
+},
+{
+"name": "tomb_1",
+"kind": "tombstone",
+"items": [
+{
+"line": 135,
+"head": "- **K-F \u2014 \"single torsion `\u2124/n` \u2192 `SU(n)` center \u2192 gauge-group bridge\" \u2014 DEAD, two independent reasons.**"
+},
+{
+"line": 160,
+"head": "- **K-G \u2014 \"the metallic structure HAS a forced choice (isolated fixed points with distinct `\u03ba` at m\u22652)\" \u2014 FALSE, two"
+},
+{
+"line": 185,
+"head": "- **K-H \u2014 \"chirality shifts the eigenvalue arithmetic (achiral \u2192 \u211a(\u221a\u22123), chiral/cross-seed \u2192 \u211a(\u03b6\u2081\u2082))\" \u2014 DEAD.** The"
+},
+{
+"line": 201,
+"head": "- **K-I \u2014 \"the Borromean rings (`s776`) show SU(3) gauge enhancement (S\u2083-invariant SL(2,\u2102) character variety of complex"
+},
+{
+"line": 247,
+"head": "- **K-J \u2014 `\u03c6\u00b2 = degenerate-block monodromy multiplier` \u2014 DEAD.** The degenerate (`\u03c6_{2,1}`) torus block is"
+},
+{
+"line": 252,
+"head": "- **K-K \u2014 `gap-labeling rank = composition period` \u2014 DEAD.** A period-`k` geodesic is a `2\u00d72` matrix = a 2-letter"
+},
+{
+"line": 255,
+"head": "- **K-L \u2014 `rank = SL(n) tower depth` \u2014 DEAD.** The tower eigenvalues are all powers of `\u03c6\u00b2` (multiplicative free-rank"
+},
+{
+"line": 258,
+"head": "- **K-M \u2014 the \"measurable gap-labeling-rank prediction\" built on K-K/K-L \u2014 DEAD.** With its premises (K-K/K-L) dead,"
+},
+{
+"line": 273,
+"head": "- **K-N \u2014 `|disc_CM| = \u03ba_m` (the CM discriminant equals the commutator parameter) \u2014 DEAD.** The golden"
+}
+]
+},
+{
+"name": "tomb_2",
+"kind": "tombstone",
+"items": [
+{
+"line": 277,
+"head": "- **K-O \u2014 the golden \"trace leak\" `tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6` as a distinguished signal \u2014 DEAD (resolved by the"
+},
+{
+"line": 293,
+"head": "- **S032-A, the literal universal form (probation P1).** \"No invariant escapes the trace"
+},
+{
+"line": 303,
+"head": "- **Generations via commensurator-triality-on-27 (probation P13).** CLOSED. At \u03c9 the E\u2086\u2192SU(3)\u00b3"
+},
+{
+"line": 310,
+"head": "- **The causal-set poset reading (probation P20, firewalled L21).** The \u03a9 strict-full class DAG"
+},
+{
+"line": 314,
+"head": "- **The framework search (probation P21, firewalled L46).** No external SM/GR framework"
+},
+{
+"line": 320,
+"head": "- **The Klein-four -> SO(9) route (probation P22, 2026-07-13; seat-1 follow-up to B561).** After the"
+},
+{
+"line": 334,
+"head": "- **B85 / the Sym(W)->trace-ring functor wall (probation R1, EARNED this time).** The functor"
+},
+{
+"line": 339,
+"head": "- **L38 / the Higgs-scale do-or-die (probation R5, EARNED this time \u2014 the prior kill was"
+},
+{
+"line": 345,
+"head": "- **S014 epitaph CORRECTED (exhumation, cracked component).** The \"~60% of random constants"
+}
+]
+},
+{
+"name": "walls",
+"kind": "wall",
+"items": []
+}
+]

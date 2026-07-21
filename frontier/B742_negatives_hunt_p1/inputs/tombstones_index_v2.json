@@ -1,0 +1,237 @@
+[
+ {
+  "line": 9,
+  "style": "paragraph",
+  "head": "**S014 \u2014 the cosmological-constant value formula.** `\u039b = \u039b_Planck \u00b7 \u03c6\u207b\u00b2\u1d3a` (and the `k\u2248137` variant). **DEAD** by"
+ },
+ {
+  "line": 14,
+  "style": "paragraph",
+  "head": "**S015 \u2014 tower eigenvalues = masses / operator dimensions.** The killed **spectral identification**. The tower is"
+ },
+ {
+  "line": 18,
+  "style": "paragraph",
+  "head": "**S016 \u2014 Goldman metric (1,1) Lorentzian.** Hoped the Goldman/Weil\u2013Petersson form on the character variety was"
+ },
+ {
+  "line": 22,
+  "style": "paragraph",
+  "head": "**S017 \u2014 phase-space 3+1D at SL(3).** \"The SL(3) character variety has 6 real dimensions \u2192 3+1.\" **DEAD** \u2014 the"
+ },
+ {
+  "line": 26,
+  "style": "paragraph",
+  "head": "**S018 \u2014 the spacetime tower up the ranks.** The hope that a 3+1 spacetime appears at SL(3) or higher where SL(2)"
+ },
+ {
+  "line": 30,
+  "style": "paragraph",
+  "head": "**S019 \u2014 Fisher metric on CS level k.** A heuristic information-geometry reading on the Chern\u2013Simons level. **DEAD**"
+ },
+ {
+  "line": 34,
+  "style": "paragraph",
+  "head": "**S021 \u2014 entanglement = holographic.** Hoped the Fibonacci critical chain's entanglement signalled holography."
+ },
+ {
+  "line": 41,
+  "style": "paragraph",
+  "head": "**Meta-kill \u2014 \"one collision causes all walls.\"** The narrative that a single repeated `\u22121` is the common root"
+ },
+ {
+  "line": 47,
+  "style": "paragraph",
+  "head": "**Math-kill \u2014 `\u03b8 \u2192 c` (the bulk opposition involution predicts the degree=rank scalar).** **DEAD** \u2014 `\u03b8=\u2212w\u2080` is an"
+ },
+ {
+  "line": 52,
+  "style": "paragraph",
+  "head": "**Math-kill \u2014 `s_n = c` (the tower sign predicts the degree=rank scalar).** **DEAD** by the *same parity argument*:"
+ },
+ {
+  "line": 57,
+  "style": "paragraph",
+  "head": "**Value-kill \u2014 the CS-crossover `k\u22484 \u2194 n=4`.** The hoped coincidence \"the Chern\u2013Simons level crosses over near"
+ },
+ {
+  "line": 63,
+  "style": "paragraph",
+  "head": "**Standard-theory-kills \u2014 the quantum/knot probing triage (Chat-2).** Five quantum-tower / knot-invariant"
+ },
+ {
+  "line": 67,
+  "style": "bullet",
+  "head": "- **Quantum tower `|\u03bb|=1`** = **unitarity** of the Chern\u2013Simons representation (true of *every* quantum theory); the"
+ },
+ {
+  "line": 70,
+  "style": "bullet",
+  "head": "- **Finite-`k` eigenvalues are roots of unity** \u2014 **tautological**: the rep is defined over `q=exp(2\u03c0i/(k+2))`, so"
+ },
+ {
+  "line": 72,
+  "style": "bullet",
+  "head": "- **Kashaev invariant \u2192 volume** = the **volume conjecture** (Kashaev 1997, a *verified known result*), not a"
+ },
+ {
+  "line": 74,
+  "style": "bullet",
+  "head": "- **`z\u2080` / k=4 phase match** = a **k=4-specific arithmetic coincidence**: at `k=4`, `k+2=6=2\u00b73` divides the"
+ },
+ {
+  "line": 77,
+  "style": "bullet",
+  "head": "- **\"Three regimes\"** (cyclotomic at finite `k` / algebraic at `k\u2192\u221e` / transcendental coefficient) = an"
+ },
+ {
+  "line": 84,
+  "style": "paragraph",
+  "head": "**Framing-kill \u2014 the \"promotion\" `char(M\u00b9) \u2192 char(M\u207f)` (and the \"two separable halves\" picture).** **SUPERSEDED**"
+ },
+ {
+  "line": 97,
+  "style": "paragraph",
+  "head": "**Chirality / Fibonacci / topological-layer kills (B127 / V116).** Threads 3 & 4 + the Fibonacci bridge, pursued"
+ },
+ {
+  "line": 102,
+  "style": "bullet",
+  "head": "- **K-A/K-B \u2014 \"det=\u22121 breaks chirality / selects the Standard-Model chiral structure\" \u2014 DEAD, and INVERTED.** The"
+ },
+ {
+  "line": 111,
+  "style": "bullet",
+  "head": "- **K-C \u2014 \"figure-eight quantized = the *physical* Fibonacci order / det=\u22121 selects the braiding chirality\" \u2014 DEAD.**"
+ },
+ {
+  "line": 119,
+  "style": "bullet",
+  "head": "- **K-D \u2014 \"physical (unitary) topological order from the metallic family\" \u2014 DEAD.** Metallic `m\u22651` are hyperbolic \u2192"
+ },
+ {
+  "line": 124,
+  "style": "bullet",
+  "head": "- **K-E \u2014 \"a forced dimensionful scale or non-generic physical ratio\" \u2014 DEAD.** `\u03bb_m`, `2 log \u03bb_m`, volumes, systoles"
+ },
+ {
+  "line": 130,
+  "style": "paragraph",
+  "head": "**Symmetry-breaking-layer kill (B128 / V117).** The arc after B127 confirmed the firewall from a **fifth** direction"
+ },
+ {
+  "line": 135,
+  "style": "bullet",
+  "head": "- **K-F \u2014 \"single torsion `\u2124/n` \u2192 `SU(n)` center \u2192 gauge-group bridge\" \u2014 DEAD, two independent reasons.**"
+ },
+ {
+  "line": 155,
+  "style": "paragraph",
+  "head": "**No-forced-choice-layer kill (B130 / V119).** The arc after B129 confirmed the firewall from a **seventh** direction"
+ },
+ {
+  "line": 160,
+  "style": "bullet",
+  "head": "- **K-G \u2014 \"the metallic structure HAS a forced choice (isolated fixed points with distinct `\u03ba` at m\u22652)\" \u2014 FALSE, two"
+ },
+ {
+  "line": 182,
+  "style": "paragraph",
+  "head": "**Quantum-layer kill (B133 / V122) \u2014 a correction to a MERGED result (B132/K015).** The arc's verify-don't-trust"
+ },
+ {
+  "line": 185,
+  "style": "bullet",
+  "head": "- **K-H \u2014 \"chirality shifts the eigenvalue arithmetic (achiral \u2192 \u211a(\u221a\u22123), chiral/cross-seed \u2192 \u211a(\u03b6\u2081\u2082))\" \u2014 DEAD.** The"
+ },
+ {
+  "line": 201,
+  "style": "bullet",
+  "head": "- **K-I \u2014 \"the Borromean rings (`s776`) show SU(3) gauge enhancement (S\u2083-invariant SL(2,\u2102) character variety of complex"
+ },
+ {
+  "line": 226,
+  "style": "paragraph",
+  "head": "**Closing-arc note (B144\u2013B151) \u2014 no new kills; existing kills refined/confirmed.** The closing arc produced no new"
+ },
+ {
+  "line": 241,
+  "style": "paragraph",
+  "head": "**Review-session kills \u2014 the spectral-rank cluster.** A CFT / quantum-chaos review session on the seed produced"
+ },
+ {
+  "line": 247,
+  "style": "bullet",
+  "head": "- **K-J \u2014 `\u03c6\u00b2 = degenerate-block monodromy multiplier` \u2014 DEAD.** The degenerate (`\u03c6_{2,1}`) torus block is"
+ },
+ {
+  "line": 252,
+  "style": "bullet",
+  "head": "- **K-K \u2014 `gap-labeling rank = composition period` \u2014 DEAD.** A period-`k` geodesic is a `2\u00d72` matrix = a 2-letter"
+ },
+ {
+  "line": 255,
+  "style": "bullet",
+  "head": "- **K-L \u2014 `rank = SL(n) tower depth` \u2014 DEAD.** The tower eigenvalues are all powers of `\u03c6\u00b2` (multiplicative free-rank"
+ },
+ {
+  "line": 258,
+  "style": "bullet",
+  "head": "- **K-M \u2014 the \"measurable gap-labeling-rank prediction\" built on K-K/K-L \u2014 DEAD.** With its premises (K-K/K-L) dead,"
+ },
+ {
+  "line": 267,
+  "style": "paragraph",
+  "head": "**Cross-session kills (2026-06-11) \u2014 the CM/arithmetic cluster.** A second review session (and an audit) ran a"
+ },
+ {
+  "line": 273,
+  "style": "bullet",
+  "head": "- **K-N \u2014 `|disc_CM| = \u03ba_m` (the CM discriminant equals the commutator parameter) \u2014 DEAD.** The golden"
+ },
+ {
+  "line": 277,
+  "style": "bullet",
+  "head": "- **K-O \u2014 the golden \"trace leak\" `tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6` as a distinguished signal \u2014 DEAD (resolved by the"
+ },
+ {
+  "line": 293,
+  "style": "bullet",
+  "head": "- **S032-A, the literal universal form (probation P1).** \"No invariant escapes the trace"
+ },
+ {
+  "line": 303,
+  "style": "bullet",
+  "head": "- **Generations via commensurator-triality-on-27 (probation P13).** CLOSED. At \u03c9 the E\u2086\u2192SU(3)\u00b3"
+ },
+ {
+  "line": 310,
+  "style": "bullet",
+  "head": "- **The causal-set poset reading (probation P20, firewalled L21).** The \u03a9 strict-full class DAG"
+ },
+ {
+  "line": 314,
+  "style": "bullet",
+  "head": "- **The framework search (probation P21, firewalled L46).** No external SM/GR framework"
+ },
+ {
+  "line": 320,
+  "style": "bullet",
+  "head": "- **The Klein-four -> SO(9) route (probation P22, 2026-07-13; seat-1 follow-up to B561).** After the"
+ },
+ {
+  "line": 334,
+  "style": "bullet",
+  "head": "- **B85 / the Sym(W)->trace-ring functor wall (probation R1, EARNED this time).** The functor"
+ },
+ {
+  "line": 339,
+  "style": "bullet",
+  "head": "- **L38 / the Higgs-scale do-or-die (probation R5, EARNED this time \u2014 the prior kill was"
+ },
+ {
+  "line": 345,
+  "style": "bullet",
+  "head": "- **S014 epitaph CORRECTED (exhumation, cracked component).** The \"~60% of random constants"
+ }
+]

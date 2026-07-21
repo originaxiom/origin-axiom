@@ -1,0 +1,46 @@
+{
+ "name": "dead_03",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B192",
+   "findings": "frontier/B192_sln_higher_rank/FINDINGS.md",
+   "slug": "sln higher rank"
+  },
+  {
+   "id": "B200",
+   "findings": "frontier/B200_chat1_handoff_verification/FINDINGS.md",
+   "slug": "chat1 handoff verification"
+  },
+  {
+   "id": "B214",
+   "findings": "frontier/B214_general_word_period_law/FINDINGS.md",
+   "slug": "general word period law"
+  },
+  {
+   "id": "B216",
+   "findings": "frontier/B216_period_law_f8_boundary/FINDINGS.md",
+   "slug": "period law f8 boundary"
+  },
+  {
+   "id": "B219",
+   "findings": "frontier/B219_period_content_law/FINDINGS.md",
+   "slug": "period content law"
+  },
+  {
+   "id": "B225",
+   "findings": "frontier/B225_conductor_decomposition_test/FINDINGS.md",
+   "slug": "conductor decomposition test"
+  },
+  {
+   "id": "B237",
+   "findings": "frontier/B237_silver_2O_l48/FINDINGS.md",
+   "slug": "silver 2O l48"
+  },
+  {
+   "id": "B239",
+   "findings": "frontier/B239_reconciled_trace_field_law/FINDINGS.md",
+   "slug": "reconciled trace field law"
+  }
+ ]
+}

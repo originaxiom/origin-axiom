@@ -1,0 +1,46 @@
+{
+ "name": "dead_09",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B409",
+   "findings": "frontier/B409_stratification_transport/FINDINGS.md",
+   "slug": "stratification transport"
+  },
+  {
+   "id": "B411",
+   "findings": "frontier/B411_field_dictionary/FINDINGS.md",
+   "slug": "field dictionary"
+  },
+  {
+   "id": "B412",
+   "findings": "frontier/B412_tower_measure/FINDINGS.md",
+   "slug": "tower measure"
+  },
+  {
+   "id": "B418",
+   "findings": "frontier/B418_tw4_upstairs/FINDINGS.md",
+   "slug": "tw4 upstairs"
+  },
+  {
+   "id": "B428",
+   "findings": "frontier/B428_upstairs_spin_walls/FINDINGS.md",
+   "slug": "upstairs spin walls"
+  },
+  {
+   "id": "B433",
+   "findings": "frontier/B433_3d3d_calibration/FINDINGS.md",
+   "slug": "3d3d calibration"
+  },
+  {
+   "id": "B435",
+   "findings": "frontier/B435_child_founding/FINDINGS.md",
+   "slug": "child founding"
+  },
+  {
+   "id": "B437",
+   "findings": "frontier/B437_child_abelian_book/FINDINGS.md",
+   "slug": "child abelian book"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+========================================================================
+B739 / B516 recompute — the golden Pisot dimension ladder, both directions
+========================================================================
+
+[DIM 1]  phi itself
+  minpoly(phi) = x**2 - x - 1  (degree 2 => dim 1)
+  root magnitudes: [0.618, 1.618]  => Pisot: True
+  golden-field: trivially (lambda = phi)
+
+[DIM 3]  the B515 hop, recomputed: {0,1,2}^8 scan of [[F,C],[D,F]]
+  scanned 6561 couplings; distinct golden-field quartic Pisot minpolys: 1
+    minpoly coeffs (1, -2, -5, -4, -1): 46 couplings
+  UNIQUE winner = beta = phi(1+sqrt(phi)): minpoly x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+  beta^2 - 2*phi*beta - phi = 0  (B515 identity)
+  example coupling C=[[0, 0], [2, 2]], D=[[2, 1], [2, 1]]
+  [dim-3 example] EXACT-VERIFIED: minpoly x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+    lambda = 3.6762050160213870985  (degree 4 => dim 3)
+    root magnitudes: [0.4401, 0.7862, 0.7862, 3.6762]
+    Pisot: YES   golden-field (sqrt5 in Q(lambda)): YES   unimodular: YES   primitive: YES
+    Q(sqrt5)-factorization: (x**2 + x*(-sqrt(5) - 1) - sqrt(5)/2 - 1/2)  *  (x**2 + x*(-1 + sqrt(5)) - 1/2 + sqrt(5)/2)
+  => B515's 46-coupling unique-beta claim: REPRODUCED exactly.
+
+[DIM 5]  THE LOAD-BEARING FACT: {0,1,2} coupling scan of THREE
+         Fibonacci copies (declared subfamily C6: blocks aI+bF)
+  scanned 46656 couplings; numeric-Pisot spectra: 108; distinct golden-field SEXTIC Pisot minpolys: 2
+
+  winner: minpoly coeffs (1, -3, -11, -16, -13, -6, -1)  (24 couplings)
+    example coupling blocks (a,b) for aI+bF, order (12,13,21,23,31,32): ((0, 0), (1, 1), (1, 1), (0, 1), (1, 1), (1, 1))
+    full 6x6 substitution matrix: [[1, 1, 0, 0, 2, 1], [1, 0, 0, 0, 1, 1], [2, 1, 1, 1, 1, 1], [1, 1, 1, 0, 1, 0], [2, 1, 2, 1, 1, 1], [1, 1, 1, 1, 1, 0]]
+  [dim-5 winner] EXACT-VERIFIED: minpoly x**6 - 3*x**5 - 11*x**4 - 16*x**3 - 13*x**2 - 6*x - 1
+    lambda = 5.5714058371592819270  (degree 6 => dim 5)
+    root magnitudes: [0.3134, 0.8679, 0.8679, 0.872, 0.872, 5.5714]
+    Pisot: YES   golden-field (sqrt5 in Q(lambda)): YES   unimodular: YES   primitive: YES
+    Q(sqrt5)-factorization: (x**3 + x**2*(-3*sqrt(5)/2 - 3/2) + x*(-sqrt(5) - 1) - sqrt(5) - 2)  *  (x**3 + x**2*(-3/2 + 3*sqrt(5)/2) + x*(-1 + sqrt(5)) - 2 + sqrt(5))
+
+  winner: minpoly coeffs (1, -3, -8, -10, -7, -3, -1)  (84 couplings)
+    example coupling blocks (a,b) for aI+bF, order (12,13,21,23,31,32): ((0, 0), (0, 1), (1, 1), (0, 1), (1, 1), (1, 1))
+    full 6x6 substitution matrix: [[1, 1, 0, 0, 1, 1], [1, 0, 0, 0, 1, 0], [2, 1, 1, 1, 1, 1], [1, 1, 1, 0, 1, 0], [2, 1, 2, 1, 1, 1], [1, 1, 1, 1, 1, 0]]
+  [dim-5 winner] EXACT-VERIFIED: minpoly x**6 - 3*x**5 - 8*x**4 - 10*x**3 - 7*x**2 - 3*x - 1
+    lambda = 5.0404057447623124819  (degree 6 => dim 5)
+    root magnitudes: [0.5666, 0.5666, 0.7969, 0.8807, 0.8807, 5.0404]
+    Pisot: YES   golden-field (sqrt5 in Q(lambda)): YES   unimodular: YES   primitive: YES
+    Q(sqrt5)-factorization: (x**3 + x**2*(-3*sqrt(5)/2 - 3/2) + x*(1/2 - sqrt(5)/2) - sqrt(5)/2 - 1/2)  *  (x**3 + x**2*(-3/2 + 3*sqrt(5)/2) + x*(1/2 + sqrt(5)/2) - 1/2 + sqrt(5)/2)
+
+[CROSS-CHECK]  non-commuting chain [[F,C,0],[D,F,C],[0,D,F]], C,D in {0,1,2}^{2x2}
+  degree-6 Pisot Perron roots: 38; golden-field among them: 0
+  => golden-field containment is a genuine constraint; the commuting
+     (golden-module) couplings are what deliver it, as C6 argued.
+
+[DIM 7]  the recursion x -> x(1+sqrt x) breaks (construction-specific)
+  gamma = beta(1+sqrt beta): minpoly degree 8 (=> dim 7)
+  root magnitudes: [0.5282, 0.5282, 0.8634, 0.8634, 1.2092, 1.2092, 3.3723, 10.7248]
+  offending conjugate magnitude 1.2092 > 1 => NOT Pisot
+  (matches FINDINGS: 'breaks at 7, conjugates 1.209>1'; irrelevant to the
+   kill — the dim-5 witnesses above use OTHER couplings, as B516 said.)
+
+========================================================================
+DISCRIMINATING FACT, RECOMPUTED: golden-field Pisot inflation numbers
+exist at dim 1 (phi), dim 3 (beta, unique in the {0,1,2}^8 two-copy scan,
+46 couplings), AND dim 5 (>=2 distinct sextic witnesses in the {0,1,2}
+three-copy coupling scan, exactly verified, unimodular and primitive).
+Golden aperiodic order is NOT capped at 3 spatial dimensions.
+The banked kill of the 'Pisot dimension cap selects 3d' claim stands:
+VERDICT: RECONFIRMED
+========================================================================

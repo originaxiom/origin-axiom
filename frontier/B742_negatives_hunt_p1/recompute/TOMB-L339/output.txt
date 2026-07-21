@@ -1,0 +1,38 @@
+== PART 1 [exact]: the PVI time has C* weight 0 (dimensionless modulus) ==
+  [PASS] cross-ratio(lam*t_i) - cross-ratio(t_i) == 0 exactly (symbolic)  residual = 0
+  [PASS] PVI time t = cross-ratio => C* weight 0 exactly (t -> lam^0 t)  the flow 'time' is a dimensionless modulus, not a length
+
+== PART 2 [exact]: base weights all 2; only C*-fixed base point is h=0 (nilpotent) ==
+  [PASS] det(lam*Phi) == lam^2 * det(Phi) identically (any traceless 2x2 fiber)  every Hitchin-base coordinate has C* weight exactly 2
+  [PASS] ALL 5 numerator coefficients of q(z)=det Phi have weight exactly 2  weight table: base coordinates -> 2, PVI time -> 0 (Part 1), hbar -> 1 (Part 4)
+  [PASS] lam^2*c = c for generic lam forces c = 0 (the ONLY C*-fixed base point is q=0)  solve returns [0]
+  [PASS] Cayley-Hamilton (traceless 2x2): Phi^2 = -det(Phi)*I, so det Phi=0 => Phi^2=0 (NILPOTENT)  the unique C*-fixed base point h=0 is the nilpotent cone -- no nonzero fixed structure can set a scale
+
+== PART 3 [num]: Schlesinger flow preserves monodromy; base dilation does NOT ==
+   computing baseline monodromy at s=2 ...
+   baseline traces (s=2): trM1=-4.43818-7.63286j  trM2=-24.0255+28.2829j  trM3=2.81779+3.35655j  trM2M1=-1117.79-335.769j
+  [PASS] integrator sanity: |det M_k - 1| small at baseline (traceless residues => det=1)  max |det M_k - 1| = 1.25e-12
+   computing monodromy after Schlesinger flow (s=3) ...
+  [PASS] the residues genuinely MOVE along the flow (non-vacuity)  max |A_i(3)-A_i(2)| = 2.620
+  [PASS] Schlesinger preserves B169's local conjugacy invariants (det A_i, tr/det A_inf)  local-invariant drift = 4.25e-10  (banked-class: 1.7e-10; B169: 4.25e-10)
+  [PASS] Schlesinger preserves the GLOBAL monodromy traces (isomonodromic)  trace drift = 1.61e-06 abs, 1.38e-09 rel
+   computing monodromy after base dilation lam = e = 2.718282 ...
+  [PASS] base dilation is NOT isomonodromic: monodromy traces change grossly  dilation trace drift = 1.729e+08  vs Schlesinger 1.61e-06  (ratio 1.07e+14)
+  [PASS] dilation also breaks the local exponents (det A_i -> e^2 det A_i)  local-invariant change = 1.634e+01
+   computing monodromy after base dilation lam = 1.01 (control) ...
+  [PASS] even a 1% dilation breaks isomonodromy far above integrator noise (control)  lam=1.01 trace drift = 9.295e+01  (>> Schlesinger 1.61e-06)
+
+== PART 4 [exact]: hbar-compensation exact -- the dilation is absorbed by the EXTERNAL hbar ==
+  [PASS] (lam*Phi)/(lam*hbar) == Phi/hbar identically => the connection (hence ALL monodromy) is unchanged  the C* dilation acts on the quantization parameter hbar (weight 1), not on any internal scale
+  [PASS] numerical echo: (e*A_i)/e - A_i = 0 to machine precision  max residual = 0.00e+00
+
+== VERDICT (recomputed, not cited) ==
+  weight table: PVI time -> weight 0 (exact); ALL Hitchin-base coordinates -> weight 2
+  (exact); hbar -> weight 1 (external). Only C*-fixed base point: q=0, i.e. h nilpotent
+  (Cayley-Hamilton, exact). Base dilation is NOT isomonodromic (it grossly changes the
+  monodromy while Schlesinger preserves it), and is EXACTLY absorbed by hbar -> lam*hbar.
+  Every landing site for an intrinsic dimensionful scale on the Hitchin/Higgs side is
+  closed: weight-0 data is dimensionless, weight-2 data has no nonzero C*-fixed value,
+  and the one weight-1 parameter (hbar) is external. The banked kill is UPHELD.
+
+ALL CHECKS PASS

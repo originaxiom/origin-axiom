@@ -1,0 +1,94 @@
+[
+  {
+    "id": "B409",
+    "ground": "dead-probe",
+    "source": "frontier/B409_stratification_transport/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "B407's count-conservation transport ('table anatomy = product stratification') holds universally as a separate Paper-1 theorem beyond P66/P67/M1.",
+    "kill_form": "value-mismatch",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "all 6 pairs tested; MATCH on 4, DIFFER on (1,2) (s=44 vs 60) and (2,4) (z: 8 vs 24)",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "The count-conservation candidate holds on only 4 of 6 pairs (transport.json):",
+    "citation_chain": "",
+    "revival_hypothesis": "B735 emittance/spectral face (no pre-B735 negative ever consulted it); oracle coupling-tier hints for the cancellation obstacle: golden, eisenstein, metallic, kappa, amphichiral_cp. The non-injective DFT+Pi_H merging is exactly the kind of collapse a spectral-face decomposition could re-stratify.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B411",
+    "ground": "dead-probe",
+    "source": "frontier/B411_field_dictionary/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "A cell's full H-field-type (sqrt5/sqrt-3/sqrt-15 active) is a function of gamma-prime arithmetic invariants (chi_-3(det), chi_5(det), gcd(det,15)).",
+    "kill_form": "other: proposed invariant is multi-valued on generic cells (6 H-types share the class-1 label) — fails to determine the field except on boundary cells",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "all generic (invertible-det) cells plus all boundary cells (gcd in {3,5,15}) of the banked table",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "VERDICT: **multi-valued on the generic (invertible-det)\ncells** — 6 H-types share the class-1 label — so (det, char) does NOT determine the generic\nfield.",
+    "citation_chain": "",
+    "revival_hypothesis": "B735 spectral face (never consulted by any pre-B735 negative) — the named missing ingredient is the character VALUE chi = tr(W1^j W2^l J^-1), a spectral datum; also B734 congruence-tower arithmetic. Oracle: no unused conserved resolver (obstacle-type unclassified, saturated).",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B412",
+    "ground": "dead-probe",
+    "source": "frontier/B412_tower_measure/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a banked negative: a directional POSITIVE finding (the tower is an exact mass-conserving Iwasawa-type refining measure, exact on all banked levels). The only kill it mentions ('The scale wall killed HIERARCHY') was banked elsewhere (B408 correction) — the atlas keyword-mined that phrase from a positive-reframe arc."
+  },
+  {
+    "id": "B418",
+    "ground": "dead-probe",
+    "source": "frontier/B418_tw4_upstairs/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "B411's upstairs hope: the mirror (and other emergent symmetries) become cell-local in the full Q(zeta_60) raw table, realized by some Galois element before Pi_H averaging.",
+    "kill_form": "zero-intertwiner",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "all 16 Galois elements of (Z/60)* tested cell-wise on the raw (1,2) t-table (49 support cells); search empty",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "no Galois element c ∈ (ℤ/60)* realizes\n  t(a,−b) = σ_c(t(a,b)) cell-wise on the RAW table (all 16 tested, empty).",
+    "citation_chain": "",
+    "revival_hypothesis": "B735 spectral face (no pre-B735 negative consulted it — the mirror might be spectral-local without being Galois-local); B730 V4 forced faces as an alternative carrier of the emergent symmetry. Oracle hints for gauge_dict obstacle: eisenstein, golden, metallic, z3_generation, kappa.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B428",
+    "ground": "dead-probe",
+    "source": "frontier/B428_upstairs_spin_walls/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "The E6 bridge supplies spinorial/fermionic matter content — either a theta=-1 object among the E6 level-1/2 primaries, or half-integer-spin blocks of 78/27 under the canonical (principal) sl2.",
+    "kill_form": "kind-mismatch",
+    "faces_consulted": ["mtc-overlay", "none-arithmetic-only"],
+    "depth_reached": "E6 levels 1 and 2 (all primaries' conformal weights/twists); the principal sl2 decomposition exact for 78 and 27; involution cascade E6->F4->SO(9) complete; F4 symmetric pairs exhausted",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "Verified by two independent routes (Chat-2's weight-poset grades; this bud's minuscule\nWeyl-orbit peeling) agreeing with the in-session S049 computation — **three seats, one answer.**",
+    "citation_chain": "S049/B347 cross-referenced as convergent seats, but the discriminating computation (spin_walls.py -> spin_walls.json + lock) is present in this arc; no load-bearing external hop.",
+    "revival_hypothesis": "The kill is scoped to the PRINCIPAL sl2 ('a matter/force spin split would need a NON-principal sl2'); B730 V4 forced faces could force a different sl2, and the registered B347 moduli question (is the bosonic verdict rigid along the 6-dim moduli?) is open. B735 spectral face never consulted. Oracle hints (spacetime_3p1): golden, metallic, amphichiral_cp, torsion, symplectic.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B433",
+    "ground": "dead-probe",
+    "source": "frontier/B433_3d3d_calibration/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a negative: a POSITIVE calibration — the 3d-3d dictionary entry 'Coulomb branch of T[M3,SL(2)] = the SL(2) character variety' is VERIFIED exactly (two independent routes land on the banked Cooper-Long A-polynomial). The 'FAIL divisibility' wording the atlas likely keyed on describes the wrong-convention CONTROLS failing, which strengthens the positive match."
+  },
+  {
+    "id": "B435",
+    "ground": "dead-probe",
+    "source": "frontier/B435_child_founding/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a negative: a positive founding arc (exact results H1=Z/5 and the 26 abelian E6 vacua stand). The CORRECTED/retracted language (#562) retracts two inheritance READINGS (numerator-forced, trefoil control), not the results — the correction-in-a-positive-arc mis-class pattern (cf. B734/B736)."
+  },
+  {
+    "id": "B437",
+    "ground": "dead-probe",
+    "source": "frontier/B437_child_abelian_book/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a negative: a positive arc (the Lucas-square law, the exact torsion values, and the Inversion Law all stand as banked positive findings). 'RETRACTED' applies only to the 'golden return' inheritance INTERPRETATION (numerator-forced via the trefoil control) — a correction inside a positive arc, exactly the mis-class pattern the atlas keyword mining produces."
+  }
+]

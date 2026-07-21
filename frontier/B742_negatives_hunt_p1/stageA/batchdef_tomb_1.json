@@ -1,0 +1,42 @@
+{
+ "name": "tomb_1",
+ "kind": "tombstone",
+ "items": [
+  {
+   "line": 135,
+   "head": "- **K-F \u2014 \"single torsion `\u2124/n` \u2192 `SU(n)` center \u2192 gauge-group bridge\" \u2014 DEAD, two independent reasons.**"
+  },
+  {
+   "line": 160,
+   "head": "- **K-G \u2014 \"the metallic structure HAS a forced choice (isolated fixed points with distinct `\u03ba` at m\u22652)\" \u2014 FALSE, two"
+  },
+  {
+   "line": 185,
+   "head": "- **K-H \u2014 \"chirality shifts the eigenvalue arithmetic (achiral \u2192 \u211a(\u221a\u22123), chiral/cross-seed \u2192 \u211a(\u03b6\u2081\u2082))\" \u2014 DEAD.** The"
+  },
+  {
+   "line": 201,
+   "head": "- **K-I \u2014 \"the Borromean rings (`s776`) show SU(3) gauge enhancement (S\u2083-invariant SL(2,\u2102) character variety of complex"
+  },
+  {
+   "line": 247,
+   "head": "- **K-J \u2014 `\u03c6\u00b2 = degenerate-block monodromy multiplier` \u2014 DEAD.** The degenerate (`\u03c6_{2,1}`) torus block is"
+  },
+  {
+   "line": 252,
+   "head": "- **K-K \u2014 `gap-labeling rank = composition period` \u2014 DEAD.** A period-`k` geodesic is a `2\u00d72` matrix = a 2-letter"
+  },
+  {
+   "line": 255,
+   "head": "- **K-L \u2014 `rank = SL(n) tower depth` \u2014 DEAD.** The tower eigenvalues are all powers of `\u03c6\u00b2` (multiplicative free-rank"
+  },
+  {
+   "line": 258,
+   "head": "- **K-M \u2014 the \"measurable gap-labeling-rank prediction\" built on K-K/K-L \u2014 DEAD.** With its premises (K-K/K-L) dead,"
+  },
+  {
+   "line": 273,
+   "head": "- **K-N \u2014 `|disc_CM| = \u03ba_m` (the CM discriminant equals the commutator parameter) \u2014 DEAD.** The golden"
+  }
+ ]
+}

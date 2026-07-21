@@ -1,0 +1,32 @@
+[
+  {
+    "id": "B731",
+    "ground": "dead-probe",
+    "source": "frontier/B731_object_observer_noncongruence/FINDINGS.md (retraction banner, lines 1-10)",
+    "is_negative": false,
+    "why": "Not a standing banked negative: B731's headline kill (m004 NON-congruence => no finite congruence observer, NO-GO) was RETRACTED and corrected by B734 (m004 IS congruence at level (2)^3=(8); error logged as E22 - shallow level-check, index plateau at 6 through level 4 jumps to 12 at level 8). The atlas keyed on 'RETRACTED/WRONG' keywords in the first 1500 chars; what survives of the arc (level-2/4 index-6 computations, the E21 SL/PSL-center lesson) is part of a positive congruence arc, not a kill."
+  },
+  {
+    "id": "B734",
+    "ground": "dead-probe",
+    "source": "frontier/B734_m004_is_congruence/FINDINGS.md",
+    "is_negative": false,
+    "why": "Positive correction arc, mis-classed by the atlas from correction keywords ('CORRECTING', 'WRONG', 'RETRACTED') in the first 1500 chars. B734 ESTABLISHES a positive result: m004 IS a congruence subgroup at level (2)^3=(8) (PSL image-index 12 = geometric index, computed by cc2 wf_2998ba2b and verified by cc; cc3_verification dir present). It retracts B731's negative rather than banking one; the only flagged caveat is a pending external literature cross-check of the Serre-base-rate-defying statement."
+  },
+  {
+    "id": "B736",
+    "ground": "dead-probe",
+    "source": "frontier/B736_ABC_campaign/FINDINGS.md (+ in-arc artifacts p2_kms.py/p2_kms_out.txt, p3_reduction.py/p3_reduction_out.txt, PREREGISTRATION.md sealed 167def7c)",
+    "is_negative": true,
+    "claim_killed": "That m004's single-level non-abelian Bianchi congruence observer (order-2560 image in G8=PSL(2,O3/(8))) carries a genuine Bost-Connes beta=1 SSB phase transition, and that the framework reduces any of the ~24 SM free parameters - both killed (observer OBSTRUCTED; parameter-reduction rigorous NO-GO, ledger 0/24).",
+    "kill_form": "other:multi - finite-level-obstruction (Path B: finite group => finite-dim C*-system => beta-independent KMS extreme-point count => no SSB; plus H3 not Hermitian => no Shimura datum) + zero-intertwiner (Sylvester T=0, disjoint spectra being vs hearing) + kind-mismatch (discrete F2 bits vs ~19 continuous reals) + no-landing-site (no G_SM sector alignment)",
+    "faces_consulted": ["being", "hearing", "congruence-tower", "hecke-tower"],
+    "depth_reached": "single congruence level (2)^3=(8) (observer order 2560 in G8 of order 30720, reproducing B734); exact symbolic Sylvester intertwiner solve; PSLQ over Q(sqrt5) height <=10^3; full ledger of all 24 SM parameters graded (d); KMS scan beta in [0.2,3.0]",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "Sylvester T*A1 = rho*T  solution set : [{t0: 0, t1: 0, t2: 0, t3: 0}]\n==> the ONLY equivariant linear map is T = 0 : True",
+    "citation_chain": "B734: computation found there? yes - level-(8) index-12 computed two-seat and independently verified (cc3_verification); B736 additionally reproduces it in-arc (p2_kms_out.txt: 'REPRODUCES B734: |G_8|=30720, observer image order 2560, index 12. [OK]'). Leans on B650/B706/B733 but recomputes the discriminating facts in-arc ('recomputed exactly, not cited'): T=0 wall, zeta-pole residue 0.6046, capacity ceiling, PSLQ - so computed-in-arc, not cited-unverified.",
+    "revival_hypothesis": "The EMITTANCE/spectral face (B735): B736 never consults the spectral face, and its Path-B kill hinges on the beta=1 SSB being the zeta pole - an INFINITE-tower object killed only by single-modulus truncation; the arc's own honest residue concedes the infinite non-abelian Bianchi case is unproven. A spectral/emittance-face probe of the tower limit could bear on the finite-level obstruction. Oracle hints (coupling-tier only): amphichiral_cp, kappa, z3_generation, quasicrystal, symplectic.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  }
+]

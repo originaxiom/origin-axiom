@@ -1,0 +1,46 @@
+{
+ "name": "dead_18",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B710",
+   "findings": "frontier/B710_analytic_t1_thimbles/FINDINGS.md",
+   "slug": "analytic t1 thimbles"
+  },
+  {
+   "id": "B711",
+   "findings": "frontier/B711_two_z2_degeneration/FINDINGS.md",
+   "slug": "two z2 degeneration"
+  },
+  {
+   "id": "B712",
+   "findings": "frontier/B712_object_continuum/FINDINGS.md",
+   "slug": "object continuum"
+  },
+  {
+   "id": "B720",
+   "findings": "frontier/B720_coupling_path/FINDINGS.md",
+   "slug": "coupling path"
+  },
+  {
+   "id": "B721",
+   "findings": "frontier/B721_thermal_time/FINDINGS.md",
+   "slug": "thermal time"
+  },
+  {
+   "id": "B724",
+   "findings": "frontier/B724_seeing_readjudication/FINDINGS.md",
+   "slug": "seeing readjudication"
+  },
+  {
+   "id": "B726",
+   "findings": "frontier/B726_hearing_born_content/FINDINGS.md",
+   "slug": "hearing born content"
+  },
+  {
+   "id": "B727",
+   "findings": "frontier/B727_base_rate_the_structure/FINDINGS.md",
+   "slug": "base rate the structure"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+==============================================================================
+B739 Stage-B recompute -- B285 (pi/6 commutator phase: the physics-reading kill)
+==============================================================================
+
+[1] figure-eight relation A*w - w*B (w = B*Ai*Bi*A), entries factored:
+    [0, u**2 + u + 1, u*(u**2 + u + 1), 0]
+    => relation holds exactly on u^2+u+1 = 0; geometric Riley root u = omega CONFIRMED
+
+[2] kappa = tr[a,b] = u**2 + 2
+    kappa(omega)   = 3/2 - sqrt(3)*I/2   |kappa| = sqrt(3)   arg = -pi/6
+    kappa(omega^2) = 3/2 + sqrt(3)*I/2   |kappa| = sqrt(3)   arg = pi/6
+    => |arg kappa| = pi/6 exact, |kappa| = sqrt(3)  (the arc's math: RE-DERIVED)
+
+[3] sign selection:
+    arg kappa(omega) = -pi/6,  arg kappa(omega^2) = +pi/6:  arg1 + arg2 = 0
+    both roots satisfy the SAME defining polynomial u^2+u+1 (checked in [1]);
+    the object delivers {+pi/6, -pi/6} symmetrically -> NO sign selected.
+    (The root swap u <-> u^2 is complex conjugation = the amphichirality/tau swap,
+     B271; the object is CP-symmetric, B252 -- one-hop citations consulted.)
+
+[4] eta_B from the phase alone (conversion [C3], computed -- not cited):
+    sin(delta) = sin(pi/6) = 1/2 (exact)
+    kappa_loop band: [alpha/pi, 1/(8pi)] = [2.323e-03, 3.979e-02]
+    eta_B(phase) = kappa_loop * sin(delta) / g*
+                 in [1.088e-05, 1.864e-04]   (log10: [-4.96, -3.73])
+    observed eta_B = 6.10e-10   (log10 = -9.21; arc quoted 10^-9.2)
+    MISMATCH: 4.25 .. 5.49 orders of magnitude
+    => the banked band '10^-4..10^-5' RECOMPUTES TRUE (1.2e-5 .. 1.9e-4);
+       the banked gap '4-5 orders' RECOMPUTES as 4.3 .. 5.5 orders;
+       'eta_B within ~1 order' is FALSE by >= 4.3 orders under every band point.
+
+[5] suppression required to reach observation: kappa_needed = eta_obs*g*/sin(delta)
+    = 1.302e-07  vs one-loop band [2.323e-03, 3.979e-02]
+    shortfall: 4.25 .. 5.49 orders
+    => sin(delta)=1/2 is O(1); the ~10^-7 suppression must come from cosmological
+       dynamics (washout/dilution/couplings), NOT from the object's phase.
+
+[6] sensitivity sweep (g*, eta_obs) -- min gap over the one-loop band:
+    g*=10.0    eta_obs=5.0e-10  ->  min gap = 5.37 orders
+    g*=10.0    eta_obs=6.1e-10  ->  min gap = 5.28 orders
+    g*=10.0    eta_obs=7.0e-10  ->  min gap = 5.22 orders
+    g*=106.75  eta_obs=5.0e-10  ->  min gap = 4.34 orders
+    g*=106.75  eta_obs=6.1e-10  ->  min gap = 4.25 orders
+    g*=106.75  eta_obs=7.0e-10  ->  min gap = 4.19 orders
+    g*=200.0   eta_obs=5.0e-10  ->  min gap = 4.06 orders
+    g*=200.0   eta_obs=6.1e-10  ->  min gap = 3.98 orders
+    g*=200.0   eta_obs=7.0e-10  ->  min gap = 3.92 orders
+    minimum over sweep: 3.92 orders  ( > 1 everywhere: verdict invariant)
+
+==============================================================================
+VERDICT INPUT: both discriminating facts RECOMPUTE TRUE.
+  (i) value-mismatch: eta_B(phase-only) = 1.2e-5..1.9e-4 vs 6.1e-10; off by
+      4.3..5.5 orders -- 'within ~1 order' is false; smallness is not the object.
+  (ii) sign: arg kappa = -/+ pi/6 symmetrically over the two geometric roots;
+      the object selects no sign.
+The banked kill of chat-2's physics reading is UPHELD -> RECONFIRMED.
+==============================================================================

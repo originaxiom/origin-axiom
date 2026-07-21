@@ -1,0 +1,72 @@
+========================================================================
+TOMB-L9 recompute: S014  Lambda = Lambda_Planck * phi^(-2N)
+========================================================================
+phi                 = 1.618033988750
+grid step 2*log10(phi) = 0.417975 dex
+
+------------------------------------------------------------------------
+FACT 1 — circularity / guaranteed-match (the vacuity of the fit)
+------------------------------------------------------------------------
+T = 122.0 dex: best-fit N* = 292  (= round(122.0/0.417975) = round(291.883)) -> residual 0.0488 dex
+  i.e. N is DEFINED by the answer: no derivation of N exists in the
+  claim (legacy: 'Lambda = phi^{-2N} without derived N').
+sweep T in [50, 200] dex, step 0.001 (150001 targets):
+  max fitted residual  = 0.208987 dex  (theory bound: step/2 = 0.208988)
+  mean fitted residual = 0.104466 dex  (theory: step/4 = 0.104494)
+  => the phi^(-2N) family with fitted integer N matches ANY value of the
+     constant to <= 0.209 dex (a factor < 1.62). A 'match' is guaranteed
+     before Lambda is even looked at: ZERO discriminating power without an
+     independent derivation of N. This is the circularity leg, computed.
+
+------------------------------------------------------------------------
+FACT 2 — the null test (random bases, fitted the same way)
+------------------------------------------------------------------------
+model C3: b ~ Uniform(1,10], M = 100000, seed = 739, T = 122.0
+  phi's fitted residual                       = 0.0488 dex
+  fraction of random b with residual <= phi's = 10.8%
+  median random-base residual                 = 0.296 dex
+  CDF: <=0.1 dex: 20.1%   <=0.2: 36.5%   <=0.3: 50.5%   <=0.42: 64.9%
+  threshold at which '60% match' WOULD hold   = 0.377 dex
+     (i.e. '60%' requires calling a factor-2.4 miss a 'match'
+      — a convention the epitaph never declared)
+robustness, b ~ LogUniform[1.05, 100]: fraction matching as well = 10.6%, median residual = 0.381 dex
+
+  => the '~60% of random constants match as well' clause is FALSE under
+     the strict reading (it is ~10%, and phi sits in the good tail,
+     BETTER than the random-base median) — reproducing, independently,
+     the B565 exhumation finding (which struck the clause from the
+     epitaph while keeping S014 dead on circularity).
+
+------------------------------------------------------------------------
+Sensitivity to the Lambda-ratio convention (C1)
+------------------------------------------------------------------------
+  T =  122.000: N* = 292, phi residual = 0.0488 dex, random-b as-well fraction = 10.8%, median = 0.296 dex
+  T =  121.539: N* = 291, phi residual = 0.0918 dex, random-b as-well fraction = 18.9%, median = 0.295 dex
+  T =  122.959: N* = 294, phi residual = 0.0743 dex, random-b as-well fraction = 15.6%, median = 0.297 dex
+  => never remotely 60% under the strict reading; the kill's substance
+     (no predictive content) holds under every convention.
+
+------------------------------------------------------------------------
+FACT 3 — the k~137 variant, as a value formula
+------------------------------------------------------------------------
+  phi^(-2*137) = 10^-57.26; target 10^-122.0
+  miss = 64.74 dex (a factor 10^64.7)
+  => k=137 does NOT even value-match; only the fitted N* = 292 does,
+     and FACT 1 shows that fit is guaranteed for any target.
+
+========================================================================
+SUMMARY
+========================================================================
+1. CIRCULARITY leg: COMPUTED AND UPHELD. N* = 292 is defined by the
+   answer; the fitted family matches ANY target to <= 0.2090 dex
+   (max over a 150-dex sweep = 0.2090 dex). The claim has zero
+   discriminating power. This kills S014.
+2. '~60%' clause: DOES NOT REPRODUCE. Strict as-well-as-phi fraction:
+   10.8% (uniform bases; 10.6% log-uniform); phi's fit
+   (0.049 dex) beats the random-base median (0.296 dex).
+   Matches the banked B565 correction (TOMBSTONES.md lines 345-349):
+   the quantitative clause is struck; the kill rests on leg 1.
+3. k~137 variant: misses by 64.7 dex. Dead at the value level.
+
+VERDICT: RECONFIRMED — S014 stays dead on the computed circularity/
+guaranteed-match fact; the 60% figure stays struck (as already banked).

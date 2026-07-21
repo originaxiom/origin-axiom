@@ -1,0 +1,122 @@
+[
+{
+"name": "dead_00",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_01",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_02",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_03",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_04",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_05",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_06",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_07",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_08",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_09",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_10",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_11",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_12",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_13",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_14",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_15",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_16",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_17",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_18",
+"kind": "dead-probe",
+"n": 8
+},
+{
+"name": "dead_19",
+"kind": "dead-probe",
+"n": 3
+},
+{
+"name": "tomb_0",
+"kind": "tombstone",
+"n": 9
+},
+{
+"name": "tomb_1",
+"kind": "tombstone",
+"n": 9
+},
+{
+"name": "tomb_2",
+"kind": "tombstone",
+"n": 9
+},
+{
+"name": "walls",
+"kind": "wall",
+"n": 0
+}
+]

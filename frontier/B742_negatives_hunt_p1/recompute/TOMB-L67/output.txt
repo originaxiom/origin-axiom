@@ -1,0 +1,107 @@
+========================================================================================
+SECTION 0 — SL(2,Z) generator dictionary check (exact integer arithmetic)
+========================================================================================
+S T^-1 S^-1 = [[1, 0], [1, 1]]  ; equals L: True
+
+========================================================================================
+SECTION 1 — CLASSICAL side (exact, sympy): tower eigenvalues +-phi^k, symplectic not unitary
+========================================================================================
+N = R.L = [[2, 1], [1, 1]]   det N = 1   tr N = 3
+eigenvalues of N: [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+eigenvalue - phi^2 (one of them must vanish): [0, -sqrt(5)]
+=> eigenvalues are exactly phi^2 = 2.618033988750 and phi^-2 = 0.381966011250
+F = [[1, 1], [1, 0]], F^2 == N: True   det F = -1
+eigenvalues of F: [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]  (= phi and -1/phi: True)
+
+Sym^d tower eigenvalues of the seed F (level d): lambda = (-1)^j phi^(d-2j), j=0..d
+  d=1: { +phi^1, -phi^-1 }  moduli = ['1.618034', '0.618034']
+  d=2: { +phi^2, -phi^0, +phi^-2 }  moduli = ['2.618034', '1.000000', '0.381966']
+  d=3: { +phi^3, -phi^1, +phi^-1, -phi^-3 }  moduli = ['4.236068', '1.618034', '0.618034', '0.236068']
+  d=4: { +phi^4, -phi^2, +phi^0, -phi^-2, +phi^-4 }  moduli = ['6.854102', '2.618034', '1.000000', '0.381966', '0.145898']
+=> every classical tower eigenvalue is +-phi^k, |lambda| = phi^k != 1 except k=0.
+
+symplectic check:  N^T J N - J = [[0, 0], [0, 0]]   (zero => symplectomorphism)
+unitarity check:   N N^T = [[5, 3], [3, 2]]  != I  (N is NOT unitary/orthogonal)
+category witness:  A = diag(2, 1/2): A^T J A - J = [[0, 0], [0, 0]] (symplectic), |eigenvalue| = 2
+=> the symplectic category permits ANY |lambda| = a > 0; |lambda|=phi^k off the unit circle
+   is exactly what a symplectomorphism may do and a unitary map may not.
+
+========================================================================================
+SECTION 2 — QUANTUM side, SU(2)_k Chern-Simons rep of SL(2,Z), k = 1..12
+========================================================================================
+  k  dim   ||SS+-I||   ||S^2-I||  ||(ST)^3~S^2||  ||rho(RL)U-dev||  max||lam|-1|
+  1    2    1.11e-16    1.11e-16        6.19e-16          4.44e-16      1.11e-16   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+  2    3    2.22e-16    2.22e-16        4.13e-16          2.83e-16      8.88e-16   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+  3    4    2.22e-16    2.22e-16        4.55e-16          4.44e-16      1.11e-15   (||Uv||/||v||-1 max: 4.44e-16, |mu|=1.000000000000)
+  4    5    4.72e-16    4.72e-16        6.96e-16          8.89e-16      1.22e-15   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+  5    6    6.11e-16    6.11e-16        1.33e-15          7.77e-16      1.22e-15   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+  6    7    5.27e-16    5.27e-16        1.05e-15          8.88e-16      5.55e-16   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+  7    8    8.40e-16    8.40e-16        2.43e-15          8.88e-16      1.11e-15   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+  8    9    6.59e-16    6.59e-16        1.39e-15          8.36e-16      6.66e-16   (||Uv||/||v||-1 max: 3.33e-16, |mu|=1.000000000000)
+  9   10    6.66e-16    6.66e-16        2.56e-15          8.42e-16      1.33e-15   (||Uv||/||v||-1 max: 4.44e-16, |mu|=1.000000000000)
+ 10   11    7.22e-16    7.22e-16        1.17e-15          1.22e-15      2.22e-15   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+ 11   12    1.11e-15    1.11e-15        3.07e-15          1.44e-15      1.55e-15   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+ 12   13    7.77e-16    7.77e-16        3.82e-15          1.22e-15      1.78e-15   (||Uv||/||v||-1 max: 2.22e-16, |mu|=1.000000000000)
+=> rho(RL) is UNITARY at every level; max ||lambda|-1| over k=1..12: 2.220e-15
+   The identity is level-uniform: U unitary => ||Uv||=||v|| => |lambda|=1 (verified per eigenpair).
+
+SECTION 2b — the quantum TOWER powers rho(RL)^n, and large-k (semiclassical) persistence
+  k=3: max||lam|-1| for rho(RL)^n, n=1..6: ['1.1e-15', '2.2e-16', '6.7e-16', '1.3e-15', '8.9e-16', '1.6e-15']   (classical rungs phi^2n: ['2.618', '6.854', '17.944', '46.979', '122.992', '321.997'])
+  k=4: max||lam|-1| for rho(RL)^n, n=1..6: ['1.2e-15', '1.3e-15', '8.9e-16', '6.7e-16', '1.1e-15', '1.1e-15']   (classical rungs phi^2n: ['2.618', '6.854', '17.944', '46.979', '122.992', '321.997'])
+  k=8: max||lam|-1| for rho(RL)^n, n=1..6: ['6.7e-16', '1.1e-15', '1.3e-15', '1.3e-15', '1.7e-15', '2.3e-15']   (classical rungs phi^2n: ['2.618', '6.854', '17.944', '46.979', '122.992', '321.997'])
+  k=20 (dim 21): max||lam|-1| = 1.55e-15
+  k=32 (dim 33): max||lam|-1| = 3.11e-15
+  k=40 (dim 41): max||lam|-1| = 3.77e-15
+=> the tower stays on the unit circle at every rung; NO drift toward phi^2n at any n,
+   and no crossover at large k: the quantum->classical transition is invisible in the
+   |lambda| register (standard semiclassics lives elsewhere), as the kill states.
+
+========================================================================================
+SECTION 3 — genericity across mapping-class WORDS (is |lambda|=1 framework-specific?)
+========================================================================================
+word                               classical |lambda|max    q-dev k=4    q-dev k=7
+RL      (framework, golden m=1)              2.618033989     1.22e-15     1.11e-15
+R^2L^2  (metallic m=2, silver)               5.828427125     6.66e-16     5.55e-16
+R^3L^3  (metallic m=3, bronze)              10.908326913     1.11e-15     1.11e-15
+R^2L^3  (generic hyperbolic)                 7.872983346     8.88e-16     6.66e-16
+R^5L    (generic hyperbolic)                 6.854101966     1.11e-15     1.22e-15
+RL^-1   (elliptic, order 6)                  1.000000000     1.11e-15     8.88e-16
+S       (elliptic, order 4)                  1.000000000     3.33e-16     6.66e-16
+R       (parabolic)                          1.000000000     1.11e-16     0.00e+00
+phi^2 = 2.618033989; (1+sqrt2)^2 = 5.828427125; phi_3^2 = 10.908326913
+=> classical moduli VARY with the word (phi^2, silver^2, bronze^2, ..., =1 only for
+   elliptic/parabolic classes); quantum moduli are IDENTICALLY 1 for every word —
+   the property '|lambda|=1' cannot distinguish the framework word from any other.
+
+========================================================================================
+SECTION 4 — genericity across QUANTUM THEORIES (mtc-overlay face): Fib, Yang-Lee, Ising
+========================================================================================
+theory                                   ||SS+-I||   rho(RL) U-dev  max||lam|-1|
+Fibonacci (unitary, d_tau=+phi)           0.00e+00        2.22e-16      1.11e-16
+Yang-Lee (NON-unitary cat, d=-1/phi)      2.22e-16        7.85e-17      3.33e-16
+Ising                                     2.22e-16        1.12e-16      1.11e-16
+=> |lambda|=1 holds in every theory tested, INCLUDING the non-unitary Yang-Lee
+   categorification (tombstone K-C: the framework's native one): the modular matrices
+   S,T are unitary AS MATRICES even when the category is non-unitary. 'True of every
+   quantum theory' is upheld at the level this kill uses it.
+
+========================================================================================
+SECTION 5 — independent high-precision cross-check (mpmath, dps=40, true inverses)
+========================================================================================
+  k=3: unitarity dev = 2.64e-41,  max||lam|-1| = 1.03e-40   [40 digits]
+  k=5: unitarity dev = 5.36e-41,  max||lam|-1| = 9.18e-41   [40 digits]
+=> at 40-digit precision the deviations sit at the noise floor (~1e-40): the float64
+   zeros of Sections 2-3 are exact identities, not rounding accidents.
+
+========================================================================================
+VERDICT COMPUTATION
+========================================================================================
+quantum side:  max ||lambda|-1| over levels k=1..12,20,32,40, tower powers n=1..6,
+               8 words, 4 theories: 3.775e-15  (high-precision check: 1.03e-40)
+classical side: framework tower |lambda| = phi^k, e.g. phi^2 = 2.618033989 (deviation from unit circle 1.618033989); symplectic-permitted, unitary-forbidden.
+discriminating-fact status: |lambda|=1 is word-independent, level-independent, and
+theory-independent on the quantum side (PASS at tol 1e-10 / 1e-35 hp) — it is the
+unitarity of the representation matrices, not a framework signal; the classical phi^k is the
+symplectic linearization doing what symplectomorphisms may do. Category-error kill UPHELD.
+
+VERDICT: RECONFIRMED

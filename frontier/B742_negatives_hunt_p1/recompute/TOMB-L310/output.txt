@@ -1,0 +1,52 @@
+== S0: Meyer closed form -- exact rational anchors (independent of any sampling) ==
+   f(2) = 0.2500000000  (exact: Gamma(3)Gamma(1)/(4 Gamma(3)) = 1/4)
+   f(4) = 0.0500000000  (exact: Gamma(5)Gamma(2)/(4 Gamma(6)) = 24/480 = 1/20)
+  [PASS] S0 exact anchors f(2)=1/4, f(4)=1/20
+
+== S1: estimator calibrated on ground truth (Minkowski diamond sprinklings, seed 42) ==
+   d=2: sprinkled r = 0.2372   Meyer f(d) = 0.2500   d_MM = 2.070
+   d=3: sprinkled r = 0.1068   Meyer f(d) = 0.1143   d_MM = 3.083
+   d=4: sprinkled r = 0.0460   Meyer f(d) = 0.0500   d_MM = 4.098
+  [PASS] S1 sprinkled r matches the Meyer closed form to <0.02 for d=2,3,4 (the estimator MEANS a dimension on ground truth)
+
+== S2: on ground truth d_MM is STABLE as the sample grows -- the property Omega must match ==
+   d=4 sprinkling, N=100: r = 0.0449   d_MM = 4.126
+   d=4 sprinkling, N=200: r = 0.0521   d_MM = 3.951
+   d=4 sprinkling, N=400: r = 0.0533   d_MM = 3.924
+  [PASS] S2 sprinkling d_MM spread over a 4x sample-size range is < 0.35 (converged; no drift)  -- spread = 0.202
+
+== S3: load the banked B159 class DAG; re-verify its declared structure before use ==
+   N = 474 nodes; 1765 edges; level sizes L4:1, L5:2, L6:6, L7:18, L8:49, L9:115, L10:283
+  [PASS] S3a N = 474 classes with per-level counts 1,2,6,18,49,115,283 (the B159 table)
+  [PASS] S3b every edge is strictly graded (level L -> L+1), so the null's consecutive-level edge-count constraint captures ALL edges  -- non-consecutive edges: 0
+
+== S4 (F1): Omega d_MM by truncation level -- the DRIFT half of the discriminating fact ==
+   L4..L6: n=  9  r = 0.23611  d_MM = 2.076
+   L4..L7: n= 27  r = 0.14530  d_MM = 2.701
+   L4..L8: n= 76  r = 0.09123  d_MM = 3.277
+   L4..L9: n=191  r = 0.06809  d_MM = 3.631
+   L4..L10: n=474  r = 0.05276  d_MM = 3.936
+  [PASS] S4a raw number: full poset r ~ 0.053 -> d_MM ~ 3.94 ('suspiciously close to 4')  -- r = 0.05276, d_MM = 3.936
+  [PASS] S4b banked truncation sequence (2.08, 2.70, 3.28, 3.63, 3.94) reproduced to <0.05 each  -- recomputed: 2.08, 2.70, 3.28, 3.63, 3.94
+  [PASS] S4c DRIFT: d_MM strictly increases with depth and the final step is still large (> 0.2): NO convergence -- contrast S2's ground-truth stability  -- steps = +0.62, +0.58, +0.35, +0.31; total drift 1.86 vs sprinkling spread 0.202
+
+== S5 (F2): null control -- random graded DAGs of the SAME shape (30 fresh seeds 101..130, two declared variants) ==
+   variant collapse: null d_MM = 3.783 +/- 0.013   Omega = 3.936   gap = +0.153  (11.8 null-sigma)
+  [PASS] S5a (collapse = the B189 model): null mean in [3.7, 3.9], std < 0.03 -- the SAME ORDER as Omega's ~3.94: a '~4' is generic layering, not geometry  -- null = 3.783 +/- 0.013
+  [PASS] S5b Omega sits ABOVE the null by ~0.1-0.3 at > 5 null-sigma (sparser transitive reach / more tree-like => even LESS manifoldlike; banked ~12 sigma)  -- gap = 0.153, z = 11.8
+   variant exact   : null d_MM = 3.734 +/- 0.010   Omega = 3.936   gap = +0.202  (21.1 null-sigma)
+  [PASS] S5c (exact-distinct variant): same qualitative verdict -- the undeclared collapse convention is NOT load-bearing  -- z = 21.1
+
+== VERDICT (TOMB-L310 discriminating fact, recomputed independently) ==
+   The Omega strict-full class poset's d_MM = 3.936 is NOT a dimension:
+   (F1) it DRIFTS 2.08 -> 3.94 with truncation depth, never converging,
+        while a genuine d=4 sprinkling holds d_MM to a 0.202 spread over a 4x
+        sample-size range; and
+   (F2) a random graded DAG of identical layer profile gives the same order (~3.8) under
+        BOTH declared null variants, with Omega significantly ABOVE the null -- even LESS
+        manifoldlike than noise of its shape.
+   A graded 7-layer DAG is not a Lorentzian sprinkling; the '~4' is generic layering.
+   No emergent spacetime / causal-set-gravity signal. The banked kill is upheld.
+   Combinatorial mathematics only; no physics quantity; Gate 5 clean.
+
+ALL CHECKS PASS

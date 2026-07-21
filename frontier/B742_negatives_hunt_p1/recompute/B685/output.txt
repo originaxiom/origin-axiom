@@ -1,0 +1,136 @@
+==============================================================================
+B739 Stage-B recompute — B685 (figure-eight: symmetrised Habiro series
+carries no 5; the {2/5,3/5} hearing carriers demand growing 5-powers)
+==============================================================================
+
+STEP 1 — log-summand expansion  2*log(cos u - sqrt(3) sin u):
+  [PASS] gamma_1 = -2*sqrt(3)
+  [PASS] gamma_2 = -4
+  [PASS] gamma series matches float log at u=0.01 (|diff|<1e-15)
+
+STEP 2 — Faulhaber polynomials:
+  [PASS] S_3(5) = 225
+  [PASS] S_1(m) = (m^2+m)/2
+
+STEP 3 — exponent polynomial LP(m):
+  [PASS] quadratic term is -sqrt(3)*eps*m^2 (lambda = sqrt(3) eps)
+  [PASS] all remaining monomials have half-weight W = 2r - s >= 1
+
+STEP 4/5 — graded exp + formal Gaussian summation:
+  [PASS] grading consistency (eps-order = W/2 for every surviving monomial)
+  [PASS] G(0) = 1 (normalised saddle series)
+
+STEP 6 — h-series of the geometric-saddle expansion (h = 2 pi i/N):
+  [PASS] parity purity: even coeffs rational, odd coeffs pure sqrt(-3)
+
+STEP 7 — reconciliation with GSWZ eq (1) [arXiv:2412.04241v2 p.3]:
+  c_1*(3 sqrt(-3))^1 = 29/24   (GSWZ a_1: 11/24)
+  c_2*(3 sqrt(-3))^2 = 1417/1152   (GSWZ a_2: 697/1152)
+  c_3*(3 sqrt(-3))^3 = 143045/82944   (GSWZ a_3: 724351/414720)
+  [PASS] ratios c_n*(3 sqrt(-3))^n are rational (GSWZ shape)
+  beta_1 = a_1 - c_1 = 0 + (1/12)*sqrt(-3)
+  [PASS] beta_1 is pure sqrt(-3) (odd-series exponent, C6)
+  [PASS] beta_1 = sqrt(-3)/12
+  [PASS] even-order lock: a_2 = c_2 + beta_1*c_1 + beta_1^2/2 (exact)
+  beta_3 = 0 + (1/360)*sqrt(-3)   [odd, unconstrained]
+
+STEP 7b — numerical check of the C6 prefactor bridge:
+  Vol(4_1) = 2*Cl2(pi/3) = 2.029883212819307
+  [PASS] Clausen series vs direct sum (|diff| < 1e-9)
+  N=  48: N*l(N) = -0.906383997   target beta_1*h*N = -0.906899682   dev = +5.157e-04
+  N=  96: N*l(N) = -0.906770331   target beta_1*h*N = -0.906899682   dev = +1.294e-04
+  N= 192: N*l(N) = -0.906867317   target beta_1*h*N = -0.906899682   dev = +3.236e-05
+  N= 384: N*l(N) = -0.906891589   target beta_1*h*N = -0.906899682   dev = +8.093e-06
+  [PASS] N*l(N) -> -pi*sqrt(3)/6 with ~1/N^2 convergence (no h^2 term in B)
+
+  UNsymmetrised-series denominators (of c_n*(3 sqrt(-3))^n, reduced):
+    n= 1: den = 24 = 2^3*3
+    n= 2: den = 1152 = 2^7*3^2
+    n= 3: den = 82944 = 2^10*3^4
+    n= 4: den = 7962624 = 2^15*3^5
+    n= 5: den = 955514880 = 2^18*3^6*5
+    n= 6: den = 137594142720 = 2^22*3^8*5
+    n= 7: den = 4623163195392 = 2^25*3^9*7
+    n= 8: den = 4438236667576320 = 2^31*3^10*5*7
+  [PASS] UNsymmetrised series DOES carry 5s in denominators (first at n=5)
+
+STEP 8 — symmetrised product S(h)*S(-h):
+  [PASS] odd h-coefficients vanish (series even in h)
+  [PASS] h-coefficients are rational
+
+STEP 9/10 — symmetrised series in x = q-1; check vs GSWZ eq (2):
+  [x^0] = 1    (GSWZ: 1)
+  [x^1] = 0    (GSWZ: 0)
+  [x^2] = -1/27    (GSWZ: -1/3^3 = -1/27)
+  [x^3] = 1/27    (GSWZ: +1/3^3 = +1/27)
+  [x^4] = -4/243    (GSWZ: -4/3^5 = -4/243)
+  [x^5] = -1/243    (GSWZ: -1/3^5 = -1/243)
+  [PASS] eq (2) match (all 6 displayed coefficients)
+
+THE DISCRIMINATING FACT — denominators of the symmetrised series
+(coefficients of (q-1)^n, n <= 20); banked kill needs: pure powers
+of 3, i.e. v5(den) = 0 (and no prime other than 3) at every order:
+  n= 0: coeff = 1/1   den = 3^0   v5(den) = 0
+  n= 1: coeff = 0/1   den = 3^0   v5(den) = 0
+  n= 2: coeff = -1/27   den = 3^3   v5(den) = 0
+  n= 3: coeff = 1/27   den = 3^3   v5(den) = 0
+  n= 4: coeff = -4/243   den = 3^5   v5(den) = 0
+  n= 5: coeff = -1/243   den = 3^5   v5(den) = 0
+  n= 6: coeff = -25/19683   den = 3^9   v5(den) = 0
+  n= 7: coeff = 214/6561   den = 3^8   v5(den) = 0
+  n= 8: coeff = -12842/531441   den = 3^12   v5(den) = 0
+  n= 9: coeff = -47749/531441   den = 3^12   v5(den) = 0
+  n=10: coeff = 142030/1594323   den = 3^13   v5(den) = 0
+  n=11: coeff = 849595/1594323   den = 3^13   v5(den) = 0
+  n=12: coeff = -85595236/129140163   den = 3^17   v5(den) = 0
+  n=13: coeff = -186739510/43046721   den = 3^16   v5(den) = 0
+  n=14: coeff = 22730963989/3486784401   den = 3^20   v5(den) = 0
+  n=15: coeff = 170136620207/3486784401   den = 3^20   v5(den) = 0
+  n=16: coeff = -2688790579657/31381059609   den = 3^22   v5(den) = 0
+  n=17: coeff = -22614189614575/31381059609   den = 3^22   v5(den) = 0
+  n=18: coeff = 11031605004721322/7625597484987   den = 3^27   v5(den) = 0
+  n=19: coeff = 11467172704771717/847288609443   den = 3^25   v5(den) = 0
+  n=20: coeff = -6290325708894392582/205891132094649   den = 3^30   v5(den) = 0
+
+  [PASS] ALL denominators pure powers of 3 up to (q-1)^20
+  [PASS] v5(denominator) = 0 at every order n <= 20
+  3-exponents e_n: [0, 0, 3, 3, 5, 5, 9, 8, 12, 12, 13, 13, 17, 16, 20, 20, 22, 22, 27, 25, 30]
+  (GSWZ report e_100 = 146 at their depth 100 — same phenomenon,
+   verified here independently to n = 20.)
+
+STEP 11 — float validation against the actual Kashaev sum:
+  trunc t=2: |ratio-1| N=48: 3.028e-05  N=96: 3.601e-06  N=192: 4.400e-07  decay ratios 8.4, 8.2  (expected ~8)
+  trunc t=4: |ratio-1| N=48: 5.388e-07  N=96: 1.561e-08  N=192: 4.723e-10  decay ratios 34.5, 33.1  (expected ~32)
+  trunc t=6: |ratio-1| N=48: 1.669e-08  N=96: 1.088e-10  N=192: 8.025e-13  decay ratios 153.4, 135.5  (expected ~128)
+  trunc t=8: |ratio-1| N=48: 1.789e-09  N=96: 1.712e-12  N=192: 3.775e-15  decay ratios 1044.9, 453.6  (expected ~512)
+  [PASS] series is the true asymptotic expansion (errors shrink ~N^-(t+1))
+
+STEP 12 — hearing carriers (q;q)_inf^{-2/5}, (q;q)_inf^{-3/5}:
+    a=2: n=  1  v5(den c_n) =   1   n + v5(n!) =   1
+    a=2: n= 10  v5(den c_n) =  12   n + v5(n!) =  12
+    a=2: n= 20  v5(den c_n) =  24   n + v5(n!) =  24
+    a=2: n= 40  v5(den c_n) =  49   n + v5(n!) =  49
+    a=2: n= 60  v5(den c_n) =  74   n + v5(n!) =  74
+  [PASS] carrier (q;q)_inf^{-2/5}: v5(den c_n) = n + v5(n!) for all n <= 60
+    a=3: n=  1  v5(den c_n) =   1   n + v5(n!) =   1
+    a=3: n= 10  v5(den c_n) =  12   n + v5(n!) =  12
+    a=3: n= 20  v5(den c_n) =  24   n + v5(n!) =  24
+    a=3: n= 40  v5(den c_n) =  49   n + v5(n!) =  49
+    a=3: n= 60  v5(den c_n) =  74   n + v5(n!) =  74
+  [PASS] carrier (q;q)_inf^{-3/5}: v5(den c_n) = n + v5(n!) for all n <= 60
+
+==============================================================================
+KIND-MISMATCH, recomputed (not cited):
+  OBJECT side  (figure-eight symmetrised Habiro series, (q-1)-adic):
+    v5(denominator) = 0 at EVERY order n <= 20; denominators are
+    pure powers of 3 (e_n = 30 at n = 20).
+  HEARING side ({2/5,3/5} stream carriers):
+    v5(denominator of c_n) = n + v5(n!) exactly (checked to n = 60);
+    at n = 20 that is 24; it grows without bound.
+  A generator derived from the object carries no 5-adic denominators;
+  the hearing streams require them at every depth. The banked
+  KILLED-AT-SUPPORT kind-mismatch is upheld.
+
+OVERALL: ALL CHECKS PASS
+VERDICT SIGNAL: RECONFIRMED
+==============================================================================

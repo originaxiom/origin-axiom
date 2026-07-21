@@ -1,5 +1,16 @@
 # Changelog
 
+## B742 — the negatives hunt, P1 stratum: 30 kills earned + 2 revived (B58, B225)
+213 banked negatives triaged (double-run, adjudicated); 33 P1 kills (cited/proxy/asserted bases);
+32 recomputed in-sandbox: 30 RECONFIRMED now carrying their actual discriminating computation,
+2 REVIVED through 3-skeptic verify + seat re-runs (B58: the "cannot be tested numerically" headline
+negated; B225: the octahedral-parent kill was a tautological proxy — reopens as OPEN). B′
+annotations: 21 depth-exposure + 29 anatomy-exposure flags = the sealed P2/P3 candidate list; the
+spectral census: 160/162 negatives never consulted an emittance face, zero the scattering face.
+Companion repairs this session: #1227 (B734 banking + the level-(4) refinement, cc-concurred),
+#1229 (the suite-collection fix; 3 pre-existing failures documented). Nine forged-signal incidents
+defeated + documented; seven §16 reviews. Nothing to CLAIMS.
+
 ## B741 — the fact_computed provenance sweep: 5 located, 5 recompute cells, 2 resolved
 - The 12 B525-signature ids dispositioned (48/48 pointers existence-verified). 5 kills now B525-clean with satellite pointers (B412/B433/B579/B668/W7).
 - 5 genuine recompute cells queued: B140 (small), B332 (small, prereg the ratio set), B685 (MEDIUM — the terminal no-go's GSWZ discriminator is cited-not-in-repo), B720, S019.

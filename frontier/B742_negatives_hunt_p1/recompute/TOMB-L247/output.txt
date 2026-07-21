@@ -1,0 +1,124 @@
+==============================================================================
+B739 Stage-B recompute -- TOMB-L247 (K-J, TOMBSTONES.md:L247)
+Discriminating fact: kappa(degenerate phi_{2,1} block monodromy) = 2
+(reducible) vs kappa(seed) = 3 > 2 (irreducible): different points of
+the SL(2,C) character variety; the '3=3' = eigenvalue-trace vs
+commutator-trace artifact.
+==============================================================================
+
+==============================================================================
+[S1] SYMBOLIC (sympy, exact arithmetic)
+==============================================================================
+
+[S1a] generic upper-triangular SL(2) pair: tr[A,B] = 2
+    [PASS] reducible pair => kappa = tr[A,B] = 2 identically
+[S1b] diagonal pair diag(p,1/p), diag(s,1/s): X^2+Y^2+Z^2-XYZ-2 = 2
+    [PASS] diagonal pair => Fricke kappa = 2 identically
+[S1c] block cycle monodromy diag(phi^2, phi^-2): eigenvalue-trace = phi^2 + phi^-2 = 3
+    [PASS] phi^2 + phi^-2 = 3 (exact)
+    [PASS] [diag(phi^2,phi^-2), any diag] = identity => kappa = 2, never 3
+
+[S1d] seed: L=[[1, 0], [1, 1]], R=[[1, 1], [0, 1]]
+      word LR = [[1, 1], [1, 2]],  tr(LR) = 3
+      commutator [L,R] = [[0, 1], [-1, 3]],  tr[L,R] = 3
+      eigenvalues of LR: [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+    [PASS] word-trace tr(LR) = 3
+    [PASS] commutator-trace kappa_seed = tr[L,R] = 3
+    [PASS] largest eigenvalue of the seed word = phi^2 (exact)
+      Fricke check: (2)^2+(2)^2+(3)^2-(2)(2)(3)-2 = 3
+    [PASS] Fricke polynomial reproduces kappa_seed = 3
+    [PASS] kappa_seed = 3 != 2  => seed character is NOT on the reducible locus
+      eigenlines: L -> span[[0, 1]] (geom mult 1), R -> span[[1, 0]] (geom mult 1)
+    [PASS] L has a single eigenline
+    [PASS] R has a single eigenline
+    [PASS] no common eigenline => the seed pair is IRREDUCIBLE
+      charpoly(LR) = lam**2 - 3*lam + 1,  charpoly([L,R]) = lam**2 - 3*lam + 1
+    [PASS] m=1 accident: charpoly(word) == charpoly(commutator)
+
+[S1e] metallic family: eigenvalue-trace tr(L R^m) = m + 2, commutator-trace tr[L,R^m] = m**2 + 2
+      m : (word-trace, commutator-trace)
+      1 : (3, 3)
+      2 : (4, 6)
+      3 : (5, 11)
+      4 : (6, 18)
+      5 : (7, 27)
+    [PASS] tr(L R^m) = m + 2 (eigenvalue-trace)
+    [PASS] tr[L,R^m] = m^2 + 2 (commutator-trace; K-N's kappa_m)
+    [PASS] the two traces coincide ONLY at m in {0,1}  solutions: [0, 1]
+
+==============================================================================
+[S2] NUMERIC: degenerate phi_{2,1} block = n=1 Lame oper psi'' = (2P(z)+E) psi
+     lattice Z + tau Z, tau = (0.31 + 1.27j)   (mp.dps = 60)
+==============================================================================
+
+[S2a] Weierstrass implementation self-checks
+    [PASS] sigma(z)/z -> 1 near 0  |sigma(z)/z - 1| = 5.2631e-33 at z=1e-8
+    [PASS] zeta(z) - 1/z -> 0 near 0 (no linear term: Weierstrass normalization)  residual = 2.1052e-24
+    [PASS] P(z) - 1/z^2 -> 0 near 0  residual = 6.3157e-12
+    [PASS] P is elliptic: P(z+1) = P(z)  dev = 1.4677e-60
+    [PASS] P is elliptic: P(z+tau) = P(z)  dev = 2.856e-60
+    [PASS] quasi-period consistency: zeta(tau/2) = eta1*tau - i*pi  (Legendre)  dev = 7.7788e-62
+    [PASS] sigma'/sigma = zeta (numerical differentiation)  dev = 2.8448e-40
+    [PASS] zeta' = -P (numerical differentiation)  dev = 1.5423e-39
+
+[S2b] Hermite solutions psi_pm(z) = exp(-+zeta(a) z) sigma(z+-a)/sigma(z)
+      a = (0.4171 + 0.5207j)   E = P(a) = (-2.3376245289175006234 - 0.39963095185860999244j)
+      max |psi''/psi - (2P+E)| over 4 sample z, both solutions: 4.4003e-60
+    [PASS] psi_+ and psi_- solve psi'' = (2P(z)+E) psi
+    [PASS] Wronskian nonzero and constant => (psi_+, psi_-) is a BASIS  W = (5.3584466799113187872 - 0.7456754012198977788j)
+
+[S2c] cycle monodromies measured as ratios psi(z+period)/psi(z)
+      max z-dependence of the four ratios: 1.7386e-60
+    [PASS] each psi_pm is an EIGENVECTOR of both period translations (ratios independent of z)
+      A-cycle multipliers: rho_A+ = (-0.83723917967385973885 + 0.21083818628408123684j)
+                           rho_A- = (-1.1231744865828864781 - 0.28284399175386982528j)
+      B-cycle multipliers: rho_B+ = (-0.21199491363054169919 - 0.6010820309985114755j)
+                           rho_B- = (-0.52184461458283209301 + 1.4796176730246518321j)
+    [PASS] closed form rho_A+ = exp(2 eta1 a - zeta(a))  dev = 6.1034e-61
+    [PASS] closed form rho_B+ = exp(2 zeta(tau/2) a - zeta(a) tau)  dev = 4.7316e-61
+    [PASS] SL(2): rho_A+ rho_A- = 1
+    [PASS] SL(2): rho_B+ rho_B- = 1
+    [PASS] multipliers distinct (honest 2-dim diagonalization, non-scalar)
+
+[S2d] M_A, M_B diagonal => [M_A,M_B] = I exactly; kappa_block = tr[M_A,M_B] = (2.0 + 7.5496900302711205801e-62j)
+      Fricke check on the block character: X^2+Y^2+Z^2-XYZ-2 = (2.0 + 2.8003568750375137682e-60j)
+    [PASS] kappa_block = 2
+    [PASS] block Fricke kappa = 2  dev = 3.3656e-60
+
+==============================================================================
+[S3] NUMERIC cross-check: monodromy by direct RK4 transport of psi'' = (2P+E) psi
+     base point z0 = (0.23703 + 0.27051j), fixed steps N = 2000 per loop (mp.dps = 35)
+==============================================================================
+
+      det T_A - 1 = 2.9851e-16,  det T_B - 1 = 2.0245e-15
+      tr T_A = (-1.9604136662567185456 - 0.072005805469766211676j)
+      Hermite prediction rho_A+ + rho_A- = (-1.9604136662567462169 - 0.072005805469788588444j)
+      tr T_B = (-0.73383952821417330847 + 0.8785356420235170363j)
+      Hermite prediction rho_B+ + rho_B- = (-0.7338395282133737922 + 0.87853564202614035659j)
+    [PASS] det T_A = det T_B = 1 (SL(2))
+    [PASS] tr T_A matches the Hermite multipliers  dev = 3.5587e-14
+    [PASS] tr T_B matches the Hermite multipliers  dev = 2.7425e-12
+
+      commutator [T_A,T_B]: max|C - I| = 4.208e-11
+      kappa_block = tr[T_A,T_B] = (2.0 - 2.485538412511649835e-24j)
+    [PASS] [T_A,T_B] = I (trivial puncture monodromy: phi_{2,1} degeneracy)
+    [PASS] kappa_block = tr[T_A,T_B] = 2 (independent of the Hermite ansatz)  |kappa - 2| = 4.7216e-24
+      eigenlines of T_A are T_B-invariant: max relative dev = 1.0667e-12
+    [PASS] common invariant lines exist => the block monodromy is REDUCIBLE (simultaneously diagonalizable)
+
+==============================================================================
+[VERDICT SUMMARY]
+==============================================================================
+  kappa_seed  = tr[L,R]      = 3   (exact integer arithmetic)
+  kappa_block = tr[M_A,M_B]  = 2   (exact: diagonal Hermite basis;
+                RK4 path-integrated value (2.0 - 2.485538412511649835e-24j))
+  kappa is a regular function of the character (Fricke: X^2+Y^2+Z^2-XYZ-2),
+  so kappa_block = 2 != 3 = kappa_seed proves the two monodromies are
+  DIFFERENT points of the character variety: the block is reducible
+  (abelian, trivial puncture monodromy), the seed is irreducible.
+  The '3 = 3': phi^2 + phi^-2 = 3 is an eigenvalue-trace; tr[L,R] = 3 is a
+  commutator-trace. On the block side a multiplier tuned to phi^2 still
+  has commutator-trace 2. Metallic control: word-trace m+2 vs
+  commutator-trace m^2+2 agree ONLY at m in {0,1} -- a golden accident,
+  amplified at m=1 by charpoly(LR) = charpoly([L,R]) = t^2 - 3t + 1.
+  => The banked kill (kind-mismatch) is UPHELD: RECONFIRMED.

@@ -1,0 +1,46 @@
+{
+ "name": "dead_16",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B657",
+   "findings": "frontier/B657_invariant_line/FINDINGS.md",
+   "slug": "invariant line"
+  },
+  {
+   "id": "B664",
+   "findings": "frontier/B664_metallic_landscape/FINDINGS.md",
+   "slug": "metallic landscape"
+  },
+  {
+   "id": "B668",
+   "findings": "frontier/B668_triage_reconciliation/FINDINGS.md",
+   "slug": "triage reconciliation"
+  },
+  {
+   "id": "B669",
+   "findings": "frontier/B669_track_h_adjudication/FINDINGS.md",
+   "slug": "track h adjudication"
+  },
+  {
+   "id": "B672",
+   "findings": "frontier/B672_grading_hunt/FINDINGS.md",
+   "slug": "grading hunt"
+  },
+  {
+   "id": "B677",
+   "findings": "frontier/B677_morning_packet/FINDINGS.md",
+   "slug": "morning packet"
+  },
+  {
+   "id": "B681",
+   "findings": "frontier/B681_habiro_pretest/FINDINGS.md",
+   "slug": "habiro pretest"
+  },
+  {
+   "id": "B685",
+   "findings": "frontier/B685_generation_terminal/FINDINGS.md",
+   "slug": "generation terminal"
+  }
+ ]
+}

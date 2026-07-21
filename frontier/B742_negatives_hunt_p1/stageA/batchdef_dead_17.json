@@ -1,0 +1,46 @@
+{
+ "name": "dead_17",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B687",
+   "findings": "frontier/B687_sm_atlas_koide/FINDINGS.md",
+   "slug": "sm atlas koide"
+  },
+  {
+   "id": "B693",
+   "findings": "frontier/B693_loop_e3_inert5/FINDINGS.md",
+   "slug": "loop e3 inert5"
+  },
+  {
+   "id": "B698",
+   "findings": "frontier/B698_the_meeting_probed/FINDINGS.md",
+   "slug": "the meeting probed"
+  },
+  {
+   "id": "B699",
+   "findings": "frontier/B699_two_object_surgery/FINDINGS.md",
+   "slug": "two object surgery"
+  },
+  {
+   "id": "B703",
+   "findings": "frontier/B703_koide_sigma_distance/FINDINGS.md",
+   "slug": "koide sigma distance"
+  },
+  {
+   "id": "B705",
+   "findings": "frontier/B705_metallic_hearing_campaign/FINDINGS.md",
+   "slug": "metallic hearing campaign"
+  },
+  {
+   "id": "B706",
+   "findings": "frontier/B706_rung2_sm_freedom/FINDINGS.md",
+   "slug": "rung2 sm freedom"
+  },
+  {
+   "id": "B709",
+   "findings": "frontier/B709_turok_marriage_adjudication/FINDINGS.md",
+   "slug": "turok marriage adjudication"
+  }
+ ]
+}

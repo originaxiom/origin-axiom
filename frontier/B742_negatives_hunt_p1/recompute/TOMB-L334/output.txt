@@ -1,0 +1,51 @@
+==============================================================================
+B739 Stage-B recompute -- TOMB-L334 (B565/R1: the B85 Sym(W)->trace-ring wall)
+==============================================================================
+
+[S1] theta=-w0 on height-h positive roots, n=3..15, all h: orbit count vs exact-QQ eigenspaces vs B62 both-signs vs (ceil,floor)
+    all (n,h) agree with (ceil((n-h)/2), floor((n-h)/2)): True
+
+[S2] height h=2, n=3..15:  (+1,-1) dims  |  theta-fixed index?  |  n odd?
+    n= 3: (1,0)   fixed-index: True  (i0=1)   n odd: True
+    n= 4: (1,1)   fixed-index: False (i0=-)   n odd: False
+    n= 5: (2,1)   fixed-index: True  (i0=2)   n odd: True
+    n= 6: (2,2)   fixed-index: False (i0=-)   n odd: False
+    n= 7: (3,2)   fixed-index: True  (i0=3)   n odd: True
+    n= 8: (3,3)   fixed-index: False (i0=-)   n odd: False
+    n= 9: (4,3)   fixed-index: True  (i0=4)   n odd: True
+    n=10: (4,4)   fixed-index: False (i0=-)   n odd: False
+    n=11: (5,4)   fixed-index: True  (i0=5)   n odd: True
+    n=12: (5,5)   fixed-index: False (i0=-)   n odd: False
+    n=13: (6,5)   fixed-index: True  (i0=6)   n odd: True
+    n=14: (6,6)   fixed-index: False (i0=-)   n odd: False
+    n=15: (7,6)   fixed-index: True  (i0=7)   n odd: True
+    theta-fixed height-2 index exists IFF n odd: True
+    first n with a dimension-2 (+1)-sector at height 2: n=5
+    max dimension of EITHER height-2 sector over n<5: 1  (< 2)
+
+[S3] labeling: C3/B64 puts the +1 sector = char(M^h) (tower-fixed, n<=5).
+     B118 signed check recomputed from C5 -- tau(X) = -J X^T J^{-1}:
+    fixed-root sign == (-1)^(h+1) for all n<=15, all h with n-h odd: True
+    at h=2 the signed fixed-root scalar is -1 (n odd): the char(M^2)=ceil labeling
+    is the tower-fixed CONVENTION, not the signed-tau eigensector -- so check both:
+      banked labeling  (char(M^2)=ceil):  mult n=3..15 = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7]; first 2 at n=5
+      flipped labeling (char(M^2)=floor): mult n=3..15 = [0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]; first 2 at n=6
+    => under EITHER labeling no mult-2 char(M^2) sector exists before n=5;
+       the banked (tower-verified n<=5) labeling gives first dim-2 exactly at n=5.
+
+[S4] C4 sanity: L_h=tr(M^h)=(1,3,4,7); char(M^2)=t^2-3t+1 != char(-M^2)=t^2+3t+1;
+     phi^(+-2) are the exact roots of char(M^2) in Q(sqrt5): True
+
+==============================================================================
+VERDICT: RECONFIRMED
+==============================================================================
+Recomputed from C1-C5 by direct enumeration + exact rational linear algebra (three
+independent methods agreeing at every (n,h), n=3..15):
+  mult at height 2 = ceil((n-2)/2):  n=3->1, n=4->1, n=5->2 (first 2), n=6->2, ...
+  theta-fixed height-2 index exists iff n odd (i0=(n-1)/2), verified n=3..15;
+  no height-2 sector of ANY labeling has dimension 2 for n<5 (max dim = 1);
+  n=5 is the first n whose char(M^2)-labeled sector has dimension 2.
+The banked kill's discriminating fact holds: the Sym(W)->trace-ring functor's target,
+the multiplicity-2 char(M^2) sector, does not exist before n=5 -- the finite-level
+obstruction stands. (Robust to the B118 sign refinement: flipping the even-h labeling
+only moves the first dim-2 to n=6, strengthening 'not before n=5'.)

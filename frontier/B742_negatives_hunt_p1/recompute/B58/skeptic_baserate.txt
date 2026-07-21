@@ -1,0 +1,102 @@
+B739 Stage-C skeptic check output -- B58 -- BASE-RATE (E20) lens
+Script: scratchpad/skeptic_baserate.py (session 00f419c5); run 2026-07-21
+
+Git provenance (run in /Users/dri/oa-audit-seat/origin-axiom):
+  $ git show -s --format="%H %ci %s" b53d641b
+    b53d641bc5b0f2786d7659efdaf47482982d63a0 2026-06-02 09:45:00 +0200 Add B59: SL(4) fixed-line factorization (numerical); refutes tower prediction
+  $ git merge-base --is-ancestor b53d641b 889c30e2 && echo IN-SEALED-BASE  -> IN-SEALED-BASE
+  $ git log --oneline -1 -- frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md
+    3f1760c6 Add B27-B29 trace lift and hierarchy controls   (also ancestor of 889c30e2)
+  B27 FINDINGS L23: (t - 1)(t + 1)(t^2 - 4t - 1)(t^2 - 3t + 1)(t^2 + t - 1)  [the SL(3) anchor]
+
+B739 Stage-C skeptic -- B58 REVIVED -- BASE-RATE (E20) lens
+==========================================================================
+
+Provenance (established via git, see skeptic log):
+  B59 factorization commit b53d641b (2026-06-02)  IN sealed base 889c30e2
+  B27 SL(3) anchor  commit 3f1760c6               IN sealed base 889c30e2
+  => every positive structure in the revival is pre-banked; E20's
+     'NEW positive structure' trigger is documentarily absent.
+
+CHECK 1 -- rerun of the Stage-B recompute (reproducibility)
+  | [P3 ] SL(3) numerical spectrum vs EXACT anchor: max match = 0.0000 (< 0.02): True   [seed-to-seed spread 0.0000]
+  | [P4a] SL(4) spectrum vs char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1): max match = 0.0101 (< 0.05): True   [seed-to-seed spread 0.0189]
+  | [P4c] eigenvalues within 0.1 of +-1: 3 (prediction says 1; actual parity block is degree 3): True
+  | ALL CHECKS PASS: True
+  CHECK 1 PASS: True
+
+CHECK 2 -- analysis-choice look-elsewhere (fresh seeds, new eps grid)
+  seeds 20,21 / declared grid       : max-match to banked target = 0.0036  (<0.05: True)
+  seeds 30,31 / declared grid       : max-match to banked target = 0.0010  (<0.05: True)
+  seeds 10,11 / ALTERNATE grid      : max-match to banked target = 0.0051  (<0.05: True)
+  CHECK 2 PASS: True  (match is not a seed/grid selection artifact)
+
+CHECK 3 -- sister test: substitution (A,B)->(AAB,A), silver incidence
+  sister spectrum vs FIBONACCI B59 target: max-match = 31.3546
+  (sister shows silver structure instead: min dist to delta^2=5.8284 is 0.0006)
+  CHECK 3 PASS: True  (instrument does NOT reproduce the claimed structure on a sister object)
+
+CHECK 4 -- catalogue: min dist of any char(M^k) (|k|<=40) or parity root to -phi^2
+  min distance = 1.000000000   (phi^2 - phi = 1 exactly: 0.0e+00)
+  computed sign eigenvalue -2.6181+0.0001j; ANY '1 parity + 7 char(M^k)'
+  candidate has best-possible max-match >= 0.9998 (vs achieved 0.0101 for the banked factorization)
+  CHECK 4 PASS: True  (refutation robust to the ENTIRE predicted catalogue; tail |k|>40 monotone away)
+
+CHECK 5 -- null base-rate: random 15-point real spectra in [-3.0, 7.0] vs banked target
+  N = 100000: best max-match seen = 0.4842; P(<=0.0101) < 1.0e-05 (0 hits); P(<=0.05) < 1.0e-05 (0 hits)
+  look-elsewhere x campaign width 213 (all records; targets=32): expected false matches < 2.1e-03
+  CHECK 5 PASS: True  (a 15-simultaneous 1e-2 match cannot be a campaign-width fluke)
+
+==========================================================================
+ALL SKEPTIC CHECKS PASS: True
+
+BASE-RATE VERDICT: the E20 attack FAILS; REVIVED survives this lens.
+  * No NEW positive structure is asserted: the factorization, sign sector,
+    parity-3 block, method, and even the 0.0101 figure are banked in B59
+    (sealed-base ancestor, 2026-06-02); the SL(3) anchor charpoly is banked
+    in B27.  The E20 gate trigger ("additionally asserts a NEW positive
+    structure") is absent, exactly as the Stage-B verdict declared.
+  * Treated as if triggered anyway: sister test PASSES (silver-substitution
+    sister does not reproduce the Fibonacci structure), catalogue check
+    PASSES (entire refuted family >= ~1.0 away; achieved match 0.0101),
+    look-elsewhere PASSES (null probability of the 15-simultaneous match
+    ~< 1e-5 even before seed/grid replication; x213 campaign width still
+    negligible; match replicates under fresh seeds and an alternate grid).
+
+==========================================================================
+FRESH STAGE-C PASS (independent re-verification, appended; prior record above preserved byte-faithful)
+Script: scratchpad/c3_baserate_b58.py (session 00f419c5, independently rewritten pipeline); run 2026-07-21 ~19:5x
+
+Provenance re-verified this pass:
+  git merge-base --is-ancestor b53d641b 889c30e2 -> B59-IN-SEALED-BASE (b53d641b 2026-06-02: factorization, sign sector, parity-3, pinv method, 0.0101 all banked)
+  git merge-base --is-ancestor 3f1760c6 889c30e2 -> B27-IN-SEALED-BASE (SL(3) anchor charpoly)
+  Stage-B rerun: BYTE-IDENTICAL, sha256 4c9bf2f7... == output.txt.sha256 pin
+  B58 evidence quote verified verbatim at FINDINGS L39-40
+
+CHECK A -- fresh seeds 40,41, declared eps grid
+  max-match to banked B59 target = 0.0032  (<0.05: True)
+
+CHECK B -- sister object: silver substitution (A,B)->(A^2 B, A), rewritten pipeline
+  rewritten-pipeline Fibonacci spectrum vs banked target: max-match = 0.0101  (independent reproduction of Stage B: True)
+  SILVER sister spectrum vs FIBONACCI banked target: max-match = 31.3546  (>1.0: True)
+  silver signature: min dist to delta^2 = 5.8284 is 0.0006
+  CHECK B (object-specific, instrument not self-matching): True
+
+CHECK C -- entire refuted catalogue '1 parity + 7 char(M^k)'
+  min dist of ANY catalogue root (|k|<=40, parity) to -phi^2 = 1.000000000
+  => best possible max-match of ANY catalogue member >= 0.9998  vs achieved 0.0101 for the banked factorization (99x worse)
+  CHECK C (refutation not a catalogue-selection artifact): True
+
+CHECK D -- null base-rate x campaign width
+  N=200000: best max-match = 0.4226; hits<=0.0101: 0; hits<=0.05: 0
+  analytic union bound P(<=0.0101) ~ 10^-28.3
+  x campaign width 213 records x analysis-choice 10 ~ 10^-25.0
+  CHECK D (match cannot be a campaign-width fluke): True
+
+ALL E20 CHECKS PASS: True
+
+FRESH-PASS VERDICT: E20 attack FAILS on both prongs -- (i) no NEW structure asserted
+  (every positive element pre-banked in sealed base); (ii) treated as triggered anyway:
+  fresh-seed replication 0.0032, sister silver object 31.35 off-target (object-specific),
+  full refuted catalogue >=0.9998 away (99x achieved match), null x campaign-width ~1e-25.
+  refuted=false.

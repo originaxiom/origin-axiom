@@ -1,0 +1,57 @@
+==============================================================================
+TOMB-L57 recompute: is the CS-crossover level m-dependent?
+k_c(m) = 2*pi/theta_m - 2,  theta_m = max ideal-tetrahedron shape arg (C1-C4)
+==============================================================================
+[sanity] b++RL isometric to m004 (figure-eight complement): OK
+
+--- m=1  (b++RL) ---
+  volume(SnapPy HP) = 2.029883212819307
+  volume(Lobachevsky sum) = 2.029883212819307   [match < 1e-9: OK]
+  shape +0.500000000000+0.866025403784i  arg=1.047197551197  = z0=(1+i*sqrt(3))/2=e^{i*pi/3}  [z^2-z+1 (Phi_6)]
+  shape +0.500000000000+0.866025403784i  arg=1.047197551197  = z0=(1+i*sqrt(3))/2=e^{i*pi/3}  [z^2-z+1 (Phi_6)]
+  theta_m (max arg) = 1.047197551197  = pi/3 EXACTLY
+  k_c(m) = 2*pi/theta - 2 = 4.000000000000  = 4 EXACTLY
+  lattice variant: smallest integer k with theta in (2*pi/(k+2))*Z: 4
+  banked value: k~4
+
+--- m=2  (b++RRLL) ---
+  volume(SnapPy HP) = 3.663862376708876
+  volume(Lobachevsky sum) = 3.663862376708876   [match < 1e-9: OK]
+  shape +1.000000000000+1.000000000000i  arg=0.785398163397  = 1+i  [z^2-2z+2]
+  shape +0.500000000000+0.500000000000i  arg=0.785398163397  = (1+i)/2  [2z^2-2z+1]
+  shape +1.000000000000+1.000000000000i  arg=0.785398163397  = 1+i  [z^2-2z+2]
+  shape +0.000000000000+1.000000000000i  arg=1.570796326795  = i  [z^2+1]
+  theta_m (max arg) = 1.570796326795  = pi/2 EXACTLY
+  k_c(m) = 2*pi/theta - 2 = 2.000000000000  = 2 EXACTLY
+  lattice variant: smallest integer k with theta in (2*pi/(k+2))*Z: 2
+  banked value: k~2
+
+--- m=3  (b++RRRLLL) ---
+  volume(SnapPy HP) = 4.813819186103887
+  volume(Lobachevsky sum) = 4.813819186103887   [match < 1e-9: OK]
+  shape +1.492944142912+0.870060958766i  arg=0.527662984840  (non-quadratic field, numeric)
+  shape +0.621902133472+0.438121804221i  arg=0.613730853754  (non-quadratic field, numeric)
+  shape +0.621902133472+0.438121804221i  arg=0.613730853754  (non-quadratic field, numeric)
+  shape +1.492944142912+0.870060958766i  arg=0.527662984840  (non-quadratic field, numeric)
+  shape -0.128957990560+1.308182762986i  arg=1.669056823433  (non-quadratic field, numeric)
+  shape -0.128957990560+1.308182762986i  arg=1.669056823433  (non-quadratic field, numeric)
+  theta_m (max arg) = 1.669056823433
+  k_c(m) = 2*pi/theta - 2 = 1.764512519265
+  lattice variant: smallest integer k with theta in (2*pi/(k+2))*Z: none for k <= 1000 (theta/2*pi irrational)
+  banked value: k~1
+
+==============================================================================
+DISCRIMINATING FACT (recomputed, not cited):
+==============================================================================
+  k_c(1) = 4.000000   (banked k~4;  = rank n=4 -- the claimed match)
+  k_c(2) = 2.000000   (banked k~2;  reproduced EXACTLY)
+  k_c(3) = 1.764513   (banked k~1;  recomputes to 1.7645 -- floor 1;
+                            value drift noted, still != 4)
+
+  m-dependent (k_c not constant across m)?          True
+  k_c = n = 4 holds at m=1 ONLY?                     True
+  the m=1 anchor is the 6th-root-of-unity shape z0 (k_c+2 = 2*pi/(pi/3) = 6),
+  the SAME datum as vol(4_1) = 6*Lob(pi/3) = 2.029883213
+  -- i.e. a figure-eight-GEOMETRY (volume) accident, exactly as banked.
+
+VERDICT: RECONFIRMED -- the banked kill stands: the crossover level is m-dependent; k~4 <-> n=4 is not structure.

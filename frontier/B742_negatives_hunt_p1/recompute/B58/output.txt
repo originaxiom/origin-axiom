@@ -1,0 +1,53 @@
+B739 Stage-B recompute -- B58 (SL(4) tower 'cannot be tested numerically')
+==============================================================================
+
+PART 1 -- B58's in-arc facts (necessary component of the kill)
+[P1a] SL(4) identity recursion charpoly == (r-1)^4: True
+[P1b] identity-rep degeneracy: |d tr(W)/de| = 2.227e-10 (~0), |d2 tr(W)/de2| = 54.21 (nonzero): True
+[P1c] 15x30 rep-differential at identity: max sv = 0.000e+00 (~0, rank 0); at eps=0.05: min sv = 2.189e-06 (rank 15): True
+
+PART 2 -- exact SL(3) ambient anchor (computed in-sandbox, B54 conventions)
+[P2 ] exact SL(3) 8x8 fixed-line Jacobian charpoly == (t-1)(t+1)(t^2-3t+1)(t^2+t-1)(t^2-4t-1): True
+
+PART 3 -- pinv-ratio route validated against the exact SL(3) anchor
+[P3 ] SL(3) numerical spectrum vs EXACT anchor: max match = 0.0000 (< 0.02): True   [seed-to-seed spread 0.0000]
+
+PART 4 -- the ambient SL(4) 15x15 Jacobian, computed numerically
+[P4a] SL(4) spectrum vs char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1): max match = 0.0101 (< 0.05): True   [seed-to-seed spread 0.0189]
+[P4b] lemma: min distance from any char(M^k) (|k|<=12) or parity root to -phi^2 = 1.000000 (>= 1.0): True
+[P4b] computed eigenvalues at the sign sector: dist to -phi^2 = 0.0002, to -phi^-2 = 0.0000 (both < 0.05): True
+[P4c] eigenvalues within 0.1 of +-1: 3 (prediction says 1; actual parity block is degree 3): True
+
+Computed SL(4) fixed-line spectrum (seed-averaged, extrapolated to eps=0):
+    -2.6181 +0.0001i
+    -1.6179 +0.0000i
+    -1.0000 -0.0000i
+    -0.6188 -0.0000i
+    -0.3819 +0.0000i
+    -0.2361 +0.0000i
+    +0.1459 +0.0000i
+    +0.3820 +0.0000i
+    +0.6181 +0.0000i
+    +0.9997 -0.0003i
+    +1.0000 +0.0001i
+    +1.6220 -0.0093i
+    +2.6181 -0.0001i
+    +4.2361 +0.0001i
+    +6.8546 +0.0001i
+
+==============================================================================
+ALL CHECKS PASS: True
+
+VERDICT: REVIVED.
+  RECONFIRMED (necessary component): the identity-rep degeneracy is real -- the
+  representation-differential AT the fixed-line point is rank 0, so the naive
+  'Jacobian from representations at the point' route computes nothing (P1a-P1c).
+  NEGATED (the discriminating headline): the ambient SL(4) 15x15 fixed-line
+  Jacobian IS computable numerically -- the eps-extrapolated pinv ratio
+  DT(eps) = D[tr W(AB,A)] . pinv(D[tr W(A,B)]), a representation-perturbation
+  construction, reproduces the EXACT in-sandbox SL(3) anchor and yields the
+  SL(4) spectrum, which numerically TESTS the 7-factor tower prediction and
+  refutes it in specifics (5 char(M^k), k=-1,1,2,3,4; a sign sector char(-M^2)
+  no char(M^k) can imitate -- lemma margin 1.0; a degree-3 parity block).
+  The banked kill fact was necessary-only, not discriminating: 'cannot be
+  tested numerically' is false.
