@@ -1,0 +1,22 @@
+(-7, 6, 'ITF', 23, False)
+(-7, 8, 'STILL-UNKNOWN')
+(-5, 6, 'ITF', 23, False)
+(-5, 7, 'STILL-UNKNOWN')
+(-5, 8, 'STILL-UNKNOWN')
+(-3, 7, 'STILL-UNKNOWN')
+(-3, 8, 'STILL-UNKNOWN')
+(-1, 5, 'ITF', 19, False)
+(-1, 6, 'ITF', 23, False)
+(-1, 7, 'STILL-UNKNOWN')
+(-1, 8, 'STILL-UNKNOWN')
+(1, 7, 'ITF', 27, False)
+(1, 8, 'ITF', 31, False)
+(3, 7, 'ITF', 26, False)
+(3, 8, 'ITF', 30, False)
+(5, 7, 'ITF', 27, False)
+(5, 8, 'ITF', 31, False)
+(7, 8, 'ITF', 31, False)
+
+DEEP SUMMARY: resolved 11/18
+VERDICT: B -- no sqrt(-3) in any resolved deep field [some STILL-UNKNOWN]
+exit=0

@@ -5477,6 +5477,7 @@
     "trace_map",
     "metallic",
     "eisenstein",
+    "amphichiral_cp",
     "firewall"
    ],
    "refs": [
@@ -5488,12 +5489,13 @@
     "B286",
     "B287",
     "B294",
+    "B740",
     "P1"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B289": {
    "slug": "cp sign law",
@@ -15196,6 +15198,21 @@
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B740": {
+   "slug": "b288 stragglers",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B288"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
   },
   "B74": {
    "slug": "higher spin grading",

@@ -1,0 +1,13 @@
+grid total (coprime) = 87; originally skipped = 9
+(-4, 1, 'EXCEPTIONAL', None, None)
+(-3, 1, 'EXCEPTIONAL', None, None)
+(-2, 1, 'EXCEPTIONAL', None, None)
+(-1, 1, 'EXCEPTIONAL', None, None)
+(0, 1, 'EXCEPTIONAL', None, None)
+(1, 1, 'EXCEPTIONAL', None, None)
+(2, 1, 'EXCEPTIONAL', None, None)
+(3, 1, 'EXCEPTIONAL', None, None)
+(4, 1, 'EXCEPTIONAL', None, None)
+exceptional=9 recovered=0 (field-unknown>24: 0) unresolved=0
+VERDICT: B -- reconfirmed on the completed grid: no recovered filling contains sqrt(-3)
+exit=0

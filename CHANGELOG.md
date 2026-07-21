@@ -1,5 +1,10 @@
 # Changelog
 
+## B740 — the B288 grid completed: the kill earned on 78/78 (hunt-cell #3, B)
+- cc2's crack confirmed in substance (banked record = 54/78; 24 hyperbolic fillings never analyzed) — then CLOSED by full recomputation.
+- 60 fields deg≤24 + 11 deep (19–31) + 7 by the amphichirality shortcut (4₁(p,q)≅4₁(−p,q), 7/7 isometries verified): NONE contains √−3.
+- "No filling re-sees ℚ(√−3)" upgraded from asserted-on-54 to EARNED-on-78. New tool: the mirror shortcut halves future censuses. 3 locks; B288 annotated.
+
 ## B739 — the object's continuous spectrum is CHARACTER-RIGID (hunt-cell #2, A, 0/3 refuted)
 - L2 resolved: the continuous channel is the pullback Eisenstein series (Fourier support restricted — coset sum = 4·[μ∈O^∨], proven); φ = Λ_K(s−1)/Λ_K(s) exactly; NO conductor-(4)/(8) character anywhere in the continuous part.
 - The level's arithmetic is discrete-newform-only (B735's index-12 resonances, exact home). Residue triangle covering-invariant (2√3/vol, 40 digits).
