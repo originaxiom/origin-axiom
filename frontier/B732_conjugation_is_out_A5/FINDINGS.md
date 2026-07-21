@@ -1,11 +1,11 @@
 # FINDINGS — B732: B701's conjugation IS the outer automorphism of A₅ at the sister's congruence level
 
-cc banking seat, 2026-07-20. The tractable positive that survived B731's NO-GO (cc2's next-stage 2):
+cc banking seat, 2026-07-20 (framing corrected by B734). The positive computed on the sister m003 (cc2's next-stage 2):
 does the observer's conjugation act as the outer automorphism of the sister m003's level-(2)
 congruence quotient A₅? YES — computed + verified in-sandbox. Pure math; Gate 5; nothing to CLAIMS.
 
 ## THE RESULT
-m004 the knot is non-congruence (B731), but the SISTER m003 (the non-knot) is congruence at level
+the SISTER m003 (the non-knot) is congruence at level
 (2), and PSL(2,O₃)/Γ((2)) ≅ PSL(2,𝔽₄) ≅ A₅ (order 60). B701's conjugation = complex conjugation on
 ℚ(√−3) (ω ↦ ω̄ = ω²). Reducing mod (2): O₃/(2)=𝔽₄, and ω↦ω² is exactly the **𝔽₄-Frobenius x↦x²**
 (it swaps ω↔1+ω). Computed:
@@ -29,7 +29,7 @@ realized concretely as Out(A₅) = ℤ/2 at the sister's level-(2) congruence qu
   automorphism generates Out(PSL(2,𝔽₄))=ℤ/2. No choice, no resemblance.
 
 ## Honest bounds
-- This is on the SISTER m003 (the congruence one), NOT the knot m004 (non-congruence, B731). The
+- This is on the SISTER m003 at level (2). [NOTE (B734): m004 the knot is ALSO congruence, at the deeper level (2)^3=(8) -- B731's 'non-congruence' was RETRACTED; whether B701 acts as an outer aut on m004's OWN level-(8) observer is the open next door.] The
   clean claim is about the AMBIENT level-(2) quotient PSL(2,O₃)/Γ((2))=A₅ (where m003's own image
   is a C₅=Sylow-5 subgroup, index 12). Whether conjugation FIXES or moves m003's specific C₅ (the
   Frobenius permutes the 6 Sylow-5's) is a finer, computable sub-item, not settled here.
@@ -38,5 +38,5 @@ realized concretely as Out(A₅) = ℤ/2 at the sister's level-(2) congruence qu
   firewalled motif, one level more concrete.
 
 Two-seat: cc2 proposed the door (next-stage 2, on m003); cc computed + verified. Credit cc2. The
-object-level observer thread resolves: m004 the knot has no finite congruence observer (B731); the
+object-level observer thread (as corrected by B734): m004 the knot IS congruence at level (2)^3=(8); the
 sister m003 does (A₅ at level 2), and the observer's swap is Out(A₅) there (B732). Nothing to CLAIMS.

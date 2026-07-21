@@ -1,0 +1,18 @@
+REP CHECK: {'relation_words_satisfied': [], 'tr_AB': (2, -1), 'tr_commutator': (1, 1)}
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+HUMBERT: {
+ "L2_chi3": "0.7725",
+ "zetaK2": "1.27071156664025492217494071623",
+ "vol_orbifold": "0.167251156105869713656244037352",
+ "vol_m004_series": "2.00701387327043656387492844822",
+ "vol_m004_snappy": 2.029883212819307,
+ "index_ratio": "12.0"
+}
+SNAPPY: {'generators': ['a', 'b'], 'relators': ['aaabABBAb'], 'tr(a)': (-1.4999999999999991+0.8660254037844389j), 'tr(b)': (0.9999999999999997-1.7320508075688763j), 'tr(ab)': (-1.9999999999999984-7.771561172376096e-16j), 'tr(aB)': (1.9999999999999996+3.4641016151377526j), 'tr(abAB)': (1.4999999999999982+0.8660254037844374j)}
+LEVEL 2: ambient=60 (BFS-computed), |Z|=1, |<A,B,-I>|=10, |<A,B>|=10, central-in-<A,B>=1, T_SL index=6, T_PSL index=6  [0.0s]
+LEVEL 4: ambient=3840 (BFS-computed), |Z|=4, |<A,B,-I>|=320, |<A,B>|=320, central-in-<A,B>=2, T_SL index=12, T_PSL index=6  [0.1s]
+LEVEL 8: ambient=245760 (BFS-computed), |Z|=8, |<A,B,-I>|=20480, |<A,B>|=20480, central-in-<A,B>=8, T_SL index=12, T_PSL index=12  [6.7s]
+LEVEL 16: ambient=15728640 (lifting-formula [C3]), |Z|=8, |<A,B,-I>|=1310720, T_SL index=12, T_PSL index=12  [40.0s]
+LEVEL 3 (odd): ambient=648, T_SL index=1, T_PSL index=1  [0.0s]
+LEVEL 5 (odd): ambient=15600, T_SL index=1, T_PSL index=1  [0.8s]
+DONE — results.json written

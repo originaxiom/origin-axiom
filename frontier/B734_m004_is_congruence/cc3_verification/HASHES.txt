@@ -1,0 +1,9 @@
+# Sealed (pre-scrub, as-run) sha-256 — recorded before each run:
+43260bf00513ddcde265e55ec4687736a282fc0a2be5b4dbed26d98da49caddb  b734_independent_verify.py
+5f6caeffc2d5596e7aca66566b58516bf666d307b3b65444281c98be14d31b8c  b734_fix2.py
+ce28f9858ac9e456b7eed47e048ded725a146bf69e656f704d58488ef449b120  b734_plusz_rerun.py
+
+# Committed copies (sandbox paths scrubbed per WORKING_RULES 11; math identical):
+5f6caeffc2d5596e7aca66566b58516bf666d307b3b65444281c98be14d31b8c  b734_fix2.py
+c0fb89c71e3bd39c124ea11963a72e557164f436878e8c1fea6783b44b2865c2  b734_independent_verify.py
+ce28f9858ac9e456b7eed47e048ded725a146bf69e656f704d58488ef449b120  b734_plusz_rerun.py

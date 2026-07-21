@@ -1,0 +1,4 @@
+LEVEL 2 [+z pair]: |<A,B,-I>|=10, |<A,B>|=10, central-in=1, T_SL=6, T_PSL=6
+LEVEL 4 [+z pair]: |<A,B,-I>|=320, |<A,B>|=320, central-in=2, T_SL=12, T_PSL=6
+LEVEL 8 [+z pair]: |<A,B,-I>|=20480, |<A,B>|=20480, central-in=8, T_SL=12, T_PSL=12
+LEVEL 16 [+z pair]: |<A,B,-I>|=1310720, |<A,B>|=1310720, central-in=8, T_SL=12, T_PSL=12
