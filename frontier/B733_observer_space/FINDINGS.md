@@ -22,7 +22,7 @@ door by door.
 G₂ = PSL(2,O₃/(2)) = PSL(2,𝔽₄) = A₅ (order 60). B701's conjugation c₂ (ω↦ω²) = the 𝔽₄-Frobenius =
 Out(A₅) = ℤ/2 (computed in-sandbox: |Aut(A₅)|=120, |Inn|=60, |Out|=2 — triple-verified). The
 **single** observer bit (dim_{𝔽₂}Out(A₅)=1) SIMULTANEOUSLY orients being (swaps the 5A/5B classes)
-and hearing (swaps the two 3-dim irreps, whose 5-cycle character (−1±√5)/2 satisfies x²−x−1=0 —
+and hearing (swaps the two 3-dim irreps, whose 5-cycle character (1±√5)/2 satisfies x²−x−1=0 —
 genuine ℚ(√5), not an E20 numerical coincidence). The mechanism is forced: the two 3-irreps are the
 UNIQUE irreps separating 5A from 5B, so the being-swap (on classes, from the ℚ(√−3)-Frobenius)
 MECHANICALLY causes the hearing-swap (χ↦χ∘c₂). **Being and hearing meet inside the one bit.**
