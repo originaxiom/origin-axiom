@@ -173,3 +173,9 @@ pullback lemma at full strength; Fourier restriction proven; multiplicity-one ex
 verified). The level's arithmetic is DISCRETE-NEWFORM-ONLY — the sharpest remaining spectral
 question (the newform Maass spectrum itself) is owner-gated (Hejhal-class machinery). Width ledger:
 2 cells closed. Next: B288 stragglers (queued below) → B500 reopen → the fact_computed sweep.
+
+---
+## CELL #3 CLOSED 2026-07-21: B740 — the B288 grid completed (OUTCOME B, earned on 78/78)
+The register's crack (54/78 banked) closed by full recomputation: 60 direct + 11 deep + 7 by the
+amphichirality shortcut (7/7 isometries verified). No filling contains √−3 — the kill is EARNED.
+Width ledger: 3 cells closed. Next: B500 reopen; the fact_computed sweep is in flight (B741).

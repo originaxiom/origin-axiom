@@ -47,3 +47,11 @@ the grid; the conclusion is the negative. Nothing to `CLAIMS.md`.
 `tests/test_b288_arithmetic_filling_census.py`. Related: `B282` (E₆ is arithmetic not geometric), `B266` (2T→McKay
 E₆), `B276` (ζ₃ probe), `B281` (CRUX scoping), `B286` (the seam), `B287` (the dynamical distinguished closing),
 `B125` (metallic arithmeticity).
+
+---
+**B740 completion note (2026-07-21):** this census resolved 54 of the grid's 78 hyperbolic fillings
+(24 were skipped by the environment-dependent positivity check / degree ceiling — cc2 register
+crack #1). B740 recomputed the ENTIRE 78-filling grid fresh (retriangulation recovery + Sage field
+ID to degree 32 + the amphichirality shortcut 4₁(p,q)≅4₁(−p,q), 7/7 isometries verified): **the
+verdict STANDS and is now fully earned — no closed hyperbolic filling contains √−3, 78/78.** See
+frontier/B740_b288_stragglers/.
