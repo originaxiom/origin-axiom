@@ -1886,4 +1886,4 @@ survive the seats that minted them.
 - [ ] R27-7: ledger hygiene — LAW_MAP/RETRACTIONS rows cite their computation's location
   (exact_scope pointers), so ledger-scoped audits verify without the hop (owner: cc)
 
-anchor-commit: `PENDING` (Review 27)
+anchor-commit: `a9d0a1d1` (Review 27)
