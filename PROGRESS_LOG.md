@@ -7064,3 +7064,20 @@ the 78 child fields (B288/B740 tested √−3 only; minpolys already sealed — 
 B747) and the discrete-spectrum golden question (owner-gated). First-ever vertical remap of
 PROGRESS_LOG (verified: the atlas is motif-level only). Locks test_b746 (3) + spot_checks.txt
 (4/4). Nothing to CLAIMS.
+
+## 2026-07-21 — B747 + B748: the mirror and the V₄ completion — the ENTIRE forced V₄ is interface-only
+The golden ledger's door run on the owner's go, then completed to the full face-triple.
+**B747 (√5 mirror, prereg 09cef416): MIRROR-SILENT 0/78** — 54 slopes closed by the
+odd-degree theorem on the sealed two-seat degree table (sha 77818016 = cc2's seal), all 24
+even-degree fields recomputed (degree cross-checked 24/24), exact x²−5 test all False; the
+(3,8) deg-30 straggler closed twice (verified amphichirality isometry + direct prec-6000
+recovery). The golden-slope children (±5,1) do NOT carry √5 — B437's golden traces live in
+the abelian tower, not the child's arithmetic identity. **B748 (meeting √−15, prereg
+a59ac036): V₄-SILENT 0/78**, with the added consistency control re-deriving B740's √−3
+verdicts per even slope — 24/24 exact. Combined census statement (B288/B740 + B747 + B748):
+no closed filling in the |p|,q≤8 grid re-sees ANY of the three forced faces — being,
+hearing, or meeting. The forced V₄ (B730) is a property of the OPEN object; every tested
+closing loses all three quadratic identities at once. B746's two-column law sharpens:
+closing silences both columns. Scope: census fact (78 fillings), not an all-slopes theorem;
+E20 untriggered (clean negatives). Controls green in both runs (routine ± + m004 pipeline).
+Locks test_b747_b748 (4, artifact-locks — sweeps ran in the Sage env). Nothing to CLAIMS.

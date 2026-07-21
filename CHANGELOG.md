@@ -1,5 +1,9 @@
 # Changelog
 
+## B747 + B748 — the mirror and the V₄ completion: no child re-sees ANY forced face (0/78 × 3)
+- B747 (√5 mirror): MIRROR-SILENT 0/78 (54 by odd-degree theorem on the sealed two-seat table; 24 even-degree fields recomputed + exact test; (3,8) closed by isometry AND direct prec-6000). The (±5,1) children carry no √5 — B437's golden lives in the abelian tower, not the child's identity.
+- B748 (meeting √−15): V₄-SILENT 0/78 + 24/24 consistency re-derivation of B740's √−3 verdicts. Combined: the ENTIRE forced V₄ is an interface/cusp property — lost on every tested closing. Locks test_b747_b748 (4).
+
 ## B746 — the golden ledger: golden all the way up the structure; the voice speaks Eisenstein
 - Sealed down-up remap of the golden thread (12 declared floors): 10/12 FORCED-golden; the one gap = the voice (pure being-field) — the two-column law assembled (golden = dynamics/hearing; Eisenstein = geometry/being/voice). First vertical PROGRESS_LOG remap.
 - Doors: the √5 mirror sweep over the 78 sealed child fields (proposed B747, near-free); the discrete-spectrum golden question (owner-gated). Locks test_b746 (3).
