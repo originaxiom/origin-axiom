@@ -1,0 +1,119 @@
+B737 PROBE 3 — SISTER/GENERICITY GUARD: m004 vs m003 cusp & scattering data
+==============================================================================
+
+[0] Raw invariants (snappy ManifoldHP, quad-double)
+  m004: vol=2.02988321281930725004240510854904057188337861506059958403498
+        H_1=Z,  cusp shape=(8.9635725322197026264234374729006294080074471148478872727952e-65 + 3.46410161513775458705489268301174473388561050762076125611161j)
+        max-cusp translations (mer,long)=((2.5875605071888903863104729414963569316397215733936148110532e-65 + 1.0j), (3.46410161513775458705489268301174473388561050762076125611161 + 0.0j))
+        max-cusp area=3.46410161513775458705489268301174473388561050762076125611161
+  m003: vol=2.02988321281930725004240510854904057188337861506059958403498
+        H_1=Z/5 + Z,  cusp shape=(0.5 + 0.866025403784438646763723170752936183471402626905190314027903j)
+        max-cusp translations (mer,long)=((1.0 + 1.73205080756887729352744634150587236694280525381038062805581j), (2.0 + 0.0j))
+        max-cusp area=3.46410161513775458705489268301174473388561050762076125611161
+
+[1] EXACT gluing+completeness certificate at z = zeta_6 (sympy, symbolic)
+  m004: all 4 gluing+completeness rows == 1 exactly at z=zeta_6: True
+  m003: all 4 gluing+completeness rows == 1 exactly at z=zeta_6: True
+  => both geometric solutions are EXACTLY 2 regular ideal tetrahedra (shape zeta_6);
+     both manifolds live in the regular-ideal tessellation commensurable w/ PSL(2,O_3).
+
+[2] Humbert volume: vol(PSL(2,O_3)\H^3) = |d|^{3/2} zeta_K(2)/(4 pi^2), d=-3
+  L(2,chi_-3) = 0.7813024128964862968671874296240923563651343365452854202221
+  vol_orb     = 0.169156934401608937503533759045753380990281551255049965336248
+  vol(m004)/vol_orb = 12.0   (|r-12| = 1.24e-60)
+  vol(m003)/vol_orb = 12.0   (|r-12| = 1.24e-60)
+  => both are degree-12 objects over the SAME Bianchi orbifold (55+ digits).
+
+[3] (a) Cusp cross-section lattices (the scattering Gamma_infinity)
+  m004 shape = 2*sqrt(-3)                                 residual 4.04e-60
+  m003 shape = zeta_6                                     residual 5.45e-61
+  m004 max-cusp lattice = i*(Z + 2sqrt(-3)Z): mer = i     residual 2.59e-65
+  m004 long = 2*sqrt(3)                                   residual 0.0
+  m003 max-cusp lattice = 2*O_K: mer = 1+sqrt(-3)         residual 0.0
+  m003 long = 2                                           residual 0.0
+  equal max-cusp AREAS: m004 area = 2*sqrt(3)             residual 0.0
+  equal max-cusp AREAS: m003 area = 2*sqrt(3)             residual 0.0
+  Both moduli lie in K = Q(sqrt(-3)) (cusp field = the field, both).  BUT:
+
+  Similarity classes (exact, via CM):
+  j(m003 cusp) = (-2.5353e-180 + 6.9742e-245j)  -> exactly 0 (hexagonal CM point, disc -3)
+  j(m004 cusp) = 2835807690.42228352772984605248...
+    algdep (deg 2): x^2 - 2835810000*x + 6549518250000
+    h(-48) = 2 (= degree: consistent; disc -48 = conductor 4^2 * (-3))
+    2*sqrt(-3) = 4*omega + 2 exactly: True  => mult ring Z+2sqrt(-3)Z = Z + 4*O_K
+
+  ==> COMPUTED (a): the two cusp tori are NOT similar: m003's cusp is the
+      hexagonal torus C/O_K itself (j=0, the SAME lattice class as the base
+      orbifold's cusp, maximal order); m004's cusp is the conductor-4 CM
+      torus C/(Z+2sqrt(-3)Z), j = 2835807690.42... (disc -48 class poly).
+      Same covolume 2*sqrt(3) at maximal cusp; different lattice SHAPE.
+
+[4] (a) Does H_1 enter the CUSP data? Peripheral images in H_1 (exact Smith)
+  m004: relators ['aaabABBAb']  Smith [[1, 0]]  H_1 = Z
+        meridian 'ab' -> [1, 1],  longitude 'aBAbABab' -> [0, 0]
+  m003: relators ['abAAbabbb']  Smith [[5, 0]]  H_1 = Z/5 + Z
+        meridian 'ABABB' -> [-2, -3],  longitude 'ABAbab' -> [-1, 1]
+  m003 peripheral image/kernel (exact):
+    relator exponent vector: [[0, 5]]
+    mer - 2*lon = [[0, -5]] vs relator [[0, 5]]: proportional?
+    => kernel of (cusp -> H_1) = <m - 2l> exactly (the homological longitude).
+       index of peripheral image in H_1 = |det[[-2, -3], [-1, 1]]| = 5
+       => image has INDEX 5 in H_1 = Z/5+Z  [index = |H_1 torsion|]. COMPUTED.
+  m004: kernel = <l>, image = ALL of H_1 = Z (meridian generates; index 1).
+  ==> H_1 shows up in the cusp PLACEMENT (marking): which peripheral slope dies
+      in homology and with what co-index. It does NOT enter Gamma_infinity itself
+      (a flat lattice has no H_1 memory); the scattering-relevant object-datum is
+      the LATTICE, and that differs by Part [3].
+
+[5] (b) Congruence level and the Hecke-character palette (exact arithmetic)
+  x^2+x+1 mod 2: Poly(x**2 + x + 1, x, modulus=2) (irreducible) => 2 is INERT in O_3, (2) prime, N(2)=4
+  Banked levels (B734 + cc3 addendum, three-seat): m003 level (2);
+  m004 level (4) standard / (8) mod-center.  Ray-class character palette
+  (h=1, no real places => Cl_n = (O/n)^*/image(mu_6)), computed exactly:
+    level (2)  [m003]            |(O/n)^*| =  3, ord(zeta_6) = 3,  #characters = 1
+    level (4)  [m004 std]        |(O/n)^*| = 12, ord(zeta_6) = 6,  #characters = 2
+    level (8)  [m004 mod-center] |(O/n)^*| = 48, ord(zeta_6) = 6,  #characters = 8
+  ==> at m003's level (2) the ray-class character group is TRIVIAL: the only
+      L-function available to its Eisenstein/scattering data is zeta_K itself
+      (+ elementary local factors at (2)).  At m004's level (4) ONE nontrivial
+      character exists; at (8), SEVEN more.  The level difference CHANGES the
+      available L-palette of the voice — this is the exact analogue of the
+      classical congruence picture (Huxley; Young 1710.03624 sec 3.3 + eq 4.1:
+      cusp Eisenstein series = character Eisenstein series, constant terms
+      carry L(2s,chi), L(2-2s,chi-bar), conductor powers q^{2s}, Gauss sums).
+      CAVEAT (stated, not glossed): which nontrivial characters occur with
+      NONZERO coefficient in m004's actual 1x1 scattering entry phi(s) is NOT
+      computed here — it needs the explicit double-coset/Eisenstein computation
+      on the index-12 group (probe-2 continuation), and the Bianchi-congruence
+      determinant formula is source-verified only in the classical PSL(2,Z)
+      case here (Bianchi level-1 zeta_K case is probe 1's verification).
+
+==============================================================================
+VERDICT: OUTCOME A — object-specific data DO enter the cusp/voice data,
+with the generic/specific boundary now exact:
+  GENERIC to the commensurability class (shared by m004 & m003):
+    volume (12 x Humbert), cusp FIELD Q(sqrt(-3)), maximal-cusp AREA 2*sqrt(3),
+    regular-ideal-tessellation membership, and (expected, probes 1-2) the
+    zeta_K pole tower of the scattering determinant.
+  OBJECT-SPECIFIC (computed here, exact):
+    (i)  the cusp LATTICE (= Gamma_infinity, the base of the Eisenstein series):
+         m003: C/O_K, hexagonal, j = 0 (maximal order, disc -3 — the SAME
+               similarity class as the base orbifold cusp);
+         m004: C/(Z + 2sqrt(-3)Z), j = 2835807690.42... (conductor-4 order,
+               disc -48).  Non-similar tori of equal covolume: the object's
+               voice has object-specific FREQUENCIES (dual-lattice Fourier
+               support of the Eisenstein expansion), even where the pole
+               tower is class-generic.
+    (ii) the congruence LEVEL: (2) vs (4)/(8), changing the ray-class
+         character palette 1 -> 2 -> 8 (only zeta_K can sing at m003's level;
+         nontrivial conductor-(4)/(8) Hecke L-functions become available
+         to m004).  Echo (observation only, NO mechanism claimed): m004's
+         cusp-lattice CM conductor (4) = its standard congruence level (4).
+    (iii) H_1 enters the cusp MARKING (which slope is homologically trivial:
+         l for m004 at co-index 1; m-2l for m003 at co-index 5) but NOT the
+         scattering data itself — no formula pathway; the honest carrier of
+         object-specificity in the voice is the lattice + level, not H_1.
+  The B735-death clause does NOT fire: the candidate's specificity has a
+  computed, non-vibes carrier.  What remains open for the candidate is the
+  probe-4 question (role, not existence), and the nonzero-coefficient caveat
+  in [5].

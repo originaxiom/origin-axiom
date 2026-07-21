@@ -15100,6 +15100,78 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B737": {
+   "slug": "candidate zero",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B735",
+    "B736",
+    "L1",
+    "L2",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B738": {
+   "slug": "pathfinder compiler",
+   "motifs": [
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B107",
+    "B111",
+    "B140",
+    "B183",
+    "B252",
+    "B332",
+    "B361",
+    "B367",
+    "B399",
+    "B401",
+    "B412",
+    "B433",
+    "B435",
+    "B437",
+    "B477",
+    "B500",
+    "B525",
+    "B579",
+    "B619",
+    "B660",
+    "B666",
+    "B668",
+    "B683",
+    "B685",
+    "B706",
+    "B712",
+    "B720",
+    "B731",
+    "B737",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "S019"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [

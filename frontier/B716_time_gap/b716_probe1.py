@@ -198,6 +198,6 @@ p("  (4) Anosov: |eig|=phi^{+-2}!=1, det(sigma^k-I)!=0 => genuine hyperbolic flo
 p("=> the object's only internal 'time' is a Connes-Rovelli-type thermal/modular Anosov flow;")
 p("   it is NOT a usable external cosmological time with an arrow. FIREWALL: structural only.")
 
-with open("/Users/dri/origin-axiom/frontier/B716_time_gap/b716_probe1_out.txt","w") as f:
+with open("frontier/B716_time_gap/b716_probe1_out.txt","w") as f:
     f.write("\n".join(out) + "\n")
 print("\n[written] frontier/B716_time_gap/b716_probe1_out.txt")

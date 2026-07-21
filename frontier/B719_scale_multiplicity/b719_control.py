@@ -327,7 +327,7 @@ def main():
     log('  validated on 4_1(5,1)/(6,1)/(8,1) ARITH, 4_1(7,1)/(9,1) & 5_2 NON-ARITH.')
     log('\n  total wall time %.1f s' % (time.time()-t0))
 
-    with open('/Users/dri/origin-axiom/frontier/B719_scale_multiplicity/b719_control_out.txt','w') as f:
+    with open('frontier/B719_scale_multiplicity/b719_control_out.txt','w') as f:
         f.write('\n'.join(OUT) + '\n')
 
 if __name__ == '__main__':

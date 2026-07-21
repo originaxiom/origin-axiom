@@ -1,0 +1,162 @@
+
+==============================================================================
+S1. zeta_K(s) = zeta(s) * L(s, chi_-3): independent computations
+==============================================================================
+  direct lattice sum  sum'(a^2+ab+b^2)^-3      = 6.375881552824737
+  K-Bessel expansion (same quantity)           = 6.3758815528298469067
+  |diff| = 5.110e-12   (tail bound ~ 7.9e-12)
+  [PASS] K-Bessel Epstein expansion validated vs direct sum (s=3)
+  s=2:  zeta_K lattice = 1.285190955484149402917512
+        zeta * L(chi_-3) = 1.285190955484149402917512   |diff| = 0.0
+  [PASS] zeta_K(2) = zeta(2)*L(2,chi_-3) to >=20 digits
+  s=3:  zeta_K lattice = 1.062646925471641151111851
+        zeta * L(chi_-3) = 1.062646925471641151111851   |diff| = 3.5e-46
+  [PASS] zeta_K(3) = zeta(3)*L(3,chi_-3) to >=20 digits
+  [PASS] factorization also at complex s=0.5+3i (analytic continuation)  (|diff|=1.96e-46)
+  zeta_K(2) = 1.285190955484149402917512
+
+==============================================================================
+S2. sum_A Phi(A)/N(A)^s = zeta_K(s-1)/zeta_K(s)  (Sarnak (2.9)-(2.11))
+==============================================================================
+  [PASS] local Euler factor identity (sympy exact)
+  [PASS] series coeffs of (1-x)/(1-qx) = Phi(P^k) = q^k - q^{k-1} (k<8, exact)
+  ideals of Z[omega] with norm <= 100000: 60466   (density 0.604660; Res zeta_K = 0.6046)
+  [PASS] a_K(n) = (lattice count r(n))/6 for n<=2000 (w=6 exact)
+  [PASS] a_K(n) = sum_{d|n} chi_-3(d) for n<=2000 (zeta_K = zeta*L, coeff level)
+  s=4.0: sum Phi(A)/N^s = 1.044461149457 ; zeta_K(s-1)/zeta_K(s) = 1.04446114948 ; |diff|=2.35e-11 (tail~3.0e-11)
+  [PASS] Phi-Dirichlet identity numeric at s=4.0
+  s=3.5: sum Phi(A)/N^s = 1.091466328830 ; zeta_K(s-1)/zeta_K(s) = 1.091466338745 ; |diff|=9.92e-09 (tail~1.3e-08)
+  [PASS] Phi-Dirichlet identity numeric at s=3.5
+
+==============================================================================
+S3. D=3 coset structure: full stabilizer = unipotent x Z/3 (w/2=3); cosets <-> coprime (c,d) mod ALL SIX units
+==============================================================================
+  [PASS] exactly w = 6 units in Z[omega]  (units=[(-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0)])
+  [PASS] 200 random words in SL(2,Z[omega]): det = 1 exactly
+  [PASS] bottom rows (c,d) always coprime
+  [PASS] extended Euclid completes every coprime (c,d) to SL(2,O)
+  [PASS] M_omega in SL(2,O), fixes infinity (lower-left=0), diag units, not +-1
+  [PASS] M_omega^3 = -I (order 3 in PSL(2,O)): index [G_inf : G'_inf.{+-1}] = 3 = w/2
+  [PASS] full stabilizer preserves the height y (all 6 units)
+  [PASS] unit-proportional bottom rows => same FULL-stabilizer coset (gamma2 gamma1^-1 upper triangular, unit diagonal)
+  [PASS] cosets genuinely need units beyond +-1 (witnessed)  (33/60 samples used eps notin {+-1})
+  => Gamma_inf \ Gamma  <->  {coprime (c,d)} / O^x  (ALL SIX units);
+     with [S2] (2.5) (spectral E-series uses the FULL stabilizer, at
+     source), the c-sum in the constant term runs over NONZERO IDEALS.
+
+==============================================================================
+S4. Unfolding integral (exact) + per-c end-to-end constant-term check
+==============================================================================
+  [PASS] int_{R^2} dx/(|z|^2+A^2)^s = pi/(s-1) A^{2-2s} (sympy exact, s>1)
+  [PASS] ... numeric (s=4, A=1.3)
+  [PASS] c=1 (unit ideal): |O/(c)| = N(c) = 1 via HNF box
+  [PASS] c=1 (unit ideal): Phi multiplicative 1 = brute-force count 1
+  [PASS] c=1 (unit ideal): direct d-lattice sum = pi/((s-1)V) Phi/N^s  [9.993384926909e-01 vs 9.993384926910e-01]  (rel=1.4e-13, tol=2.0e-10)
+  [PASS] c=2 (inert prime, q=4): |O/(c)| = N(c) = 4 via HNF box
+  [PASS] c=2 (inert prime, q=4): Phi multiplicative 3 = brute-force count 3
+  [PASS] c=2 (inert prime, q=4): direct d-lattice sum = pi/((s-1)V) Phi/N^s  [1.171099796112e-02 vs 1.171099796122e-02]  (rel=9.0e-12, tol=2.2e-10)
+  [PASS] c=1+omega (ramified, q=3): |O/(c)| = N(c) = 3 via HNF box
+  [PASS] c=1+omega (ramified, q=3): Phi multiplicative 2 = brute-force count 2
+  [PASS] c=1+omega (ramified, q=3): direct d-lattice sum = pi/((s-1)V) Phi/N^s  [2.467502451080e-02 vs 2.467502451089e-02]  (rel=3.8e-12, tol=2.1e-10)
+  [PASS] c=2+omega (split prime, q=7): |O/(c)| = N(c) = 7 via HNF box
+  [PASS] c=2+omega (split prime, q=7): Phi multiplicative 6 = brute-force count 6
+  [PASS] c=2+omega (split prime, q=7): direct d-lattice sum = pi/((s-1)V) Phi/N^s  [2.497305687571e-03 vs 2.497305687691e-03]  (rel=4.8e-11, tol=3.3e-10)
+  [PASS] c=3 (ramified^2, q=9): |O/(c)| = N(c) = 9 via HNF box
+  [PASS] c=3 (ramified^2, q=9): Phi multiplicative 6 = brute-force count 6
+  [PASS] c=3 (ramified^2, q=9): direct d-lattice sum = pi/((s-1)V) Phi/N^s  [9.138897966061e-04 vs 9.138897966996e-04]  (rel=1.0e-10, tol=4.7e-10)
+  [PASS] c=4 (inert^2, q=16): |O/(c)| = N(c) = 16 via HNF box
+  [PASS] c=4 (inert^2, q=16): Phi multiplicative 12 = brute-force count 12
+  [PASS] c=4 (inert^2, q=16): direct d-lattice sum = pi/((s-1)V) Phi/N^s  [1.829843430382e-04 vs 1.829843431441e-04]  (rel=5.8e-10, tol=1.7e-09)
+  => constant term of E(s): y^s + phi(s) y^{2-s},
+     phi(s) = pi/((s-1) V(F_L)) sum_{ideals A != 0} Phi(A) N(A)^{-s}
+            = 2 pi/(sqrt(3)(s-1)) * zeta_K(s-1)/zeta_K(s)   [by S2].
+
+==============================================================================
+S5. phi(s) = Lambda_K(s-1)/Lambda_K(s): completed zeta, FE, poles, zeros
+==============================================================================
+  [PASS] algebraic identity Lambda-ratio = 2pi/(sqrt3(s-1)) zeta-ratio at s=(3.3 + 0.7j)  (|diff|=3.16e-46)
+  [PASS] algebraic identity Lambda-ratio = 2pi/(sqrt3(s-1)) zeta-ratio at s=(1.4 - 2.2j)  (|diff|=2.19e-46)
+  [PASS] algebraic identity Lambda-ratio = 2pi/(sqrt3(s-1)) zeta-ratio at s=4.0  (|diff|=1.75e-46)
+  [PASS] functional equation Lambda_K(s)=Lambda_K(1-s) at s=(0.3 + 2.2j)  (rel=5.52e-46)
+  [PASS] functional equation Lambda_K(s)=Lambda_K(1-s) at s=(-0.7 + 0.4j)  (rel=3.51e-46)
+  [PASS] functional equation Lambda_K(s)=Lambda_K(1-s) at s=(0.5 + 8.0j)  (rel=5.01e-45)
+  [PASS] scattering relation phi(s)phi(2-s)=1 at s=(1.37 + 5.1j)  (|diff|=2.91e-46)
+  [PASS] scattering relation phi(s)phi(2-s)=1 at s=(0.2 - 3.3j)  (|diff|=1.96e-46)
+  [PASS] unitarity |phi(1+it)|=1 at t=1.0 (continuous spectrum, B735 lambda=1+t^2)  (||phi|-1|=8.76e-47)
+  [PASS] unitarity |phi(1+it)|=1 at t=5.0 (continuous spectrum, B735 lambda=1+t^2)  (||phi|-1|=3.5e-46)
+  [PASS] unitarity |phi(1+it)|=1 at t=8.039 (continuous spectrum, B735 lambda=1+t^2)  (||phi|-1|=1.75e-46)
+  [PASS] unitarity |phi(1+it)|=1 at t=14.134 (continuous spectrum, B735 lambda=1+t^2)  (||phi|-1|=0.0)
+  [PASS] unitarity |phi(1+it)|=1 at t=25.0 (continuous spectrum, B735 lambda=1+t^2)  (||phi|-1|=4.38e-46)
+  [PASS] phi(1) = -1 (no pole at the bottom of the continuous spectrum; the two Lambda_K poles at s-1=0 and s=1 cancel)  (phi(1+1e-7)=-1.000000184)
+  Res_(s=1) zeta_K = L(1,chi_-3)      = 0.6045997880780726168646928
+  class-number formula 2 pi h/(w sqrt|d|), h=1,w=6,|d|=3 = 0.6045997880780726168646928
+  [PASS] Res zeta_K numeric limit (s-1)zeta_K(s)|_{s=1+1e-12} = L(1,chi_-3)  (lim=0.604599788078644)
+  [PASS] Res zeta_K = 2pi/(6 sqrt3)  [THE B736-P2 NUMBER, = 0.6046...]
+  [PASS] ... = pi/sqrt(27) exactly
+  Res_(s=2) phi:  Sarnak-L2.13(w=6) = 1.706552176628161608820573
+                  (pi/V) ResZK/ZK2  = 1.706552176628161608820573
+                  (h/w)/Lambda_K(2) = 1.706552176628161608820573
+                  2 pi^2/(9 ZK2)    = 1.706552176628161608820573
+  [PASS] all four closed forms of Res_{s=2} phi agree to 25 digits
+  [PASS] numeric residue (s-2)phi(s)|_{s=2+1e-10} matches  (num=1.70655217669)
+  [PASS] Res_{s=1} Lambda_K = h/w = 1/6 (completed-zeta residue IS h/w)
+  scan Re(s) in [1.05,3], |t|<=30, excluding |s-2|<0.4: max|phi| = 3.94638 at s = (2.5 + 0.0j)
+  [PASS] no further pole in Re(s)>1 on the scan grid (sanity; classical nonvanishing on Re=1)
+  first nontrivial zero of L(s,chi_-3): rho_1 = (0.5 + 8.039737155681466681713623j)
+  [PASS] rho_1 on the critical line Re=1/2 (numeric)
+  [PASS] zeta_K(rho_1) = 0
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  [PASS] zeta_K also vanishes at Riemann's rho (0.5+14.1347i): zeta_K = zeta*L
+  rho_1 (L-zero): |phi(rho+1e-8)| = 1.12177e+8,  |phi(rho+1)| = 1.54783e-46
+  [PASS] phi has a POLE at s=rho_1 (L-zero) (denominator Lambda_K(s)=0)
+  [PASS] phi has a ZERO at s=rho_1 (L-zero)+1 (numerator Lambda_K(s-1)=0)
+  rho_zeta: |phi(rho+1e-8)| = 1.41745e+8,  |phi(rho+1)| = 5.49353e-47
+  [PASS] phi has a POLE at s=rho_zeta (denominator Lambda_K(s)=0)
+  [PASS] phi has a ZERO at s=rho_zeta+1 (numerator Lambda_K(s-1)=0)
+  => the FULL nontrivial zero set of zeta_K is imprinted in phi:
+     poles on Re(s)=1/2 (shifted zeros: denominator), zeros on
+     Re(s)=3/2 (numerator), swapped by the s <-> 2-s scattering FE;
+     the UNIQUE pole in Re(s)>1 is s=2 <- the zeta_K pole at s=1.
+
+==============================================================================
+S6. Geometric closure: SnapPy m004 (the object) vs the scattering normalization
+==============================================================================
+  vol(m004) [ManifoldHP (quad-double)] = 2.029883212819307250042405
+  Humbert |d|^(3/2) zeta_K(2)/(4 pi^2)  = 0.1691569344016089375035338
+  ratio = 12.0
+  [PASS] vol(m004) = 12 x vol(PSL(2,O_3)\H^3) (B734/B735 index-12, recomputed geometrically)
+  [PASS] Res_{s=2}phi x vol(orbifold) = V(F_L)/3 (cusp section, Z/3 quotient: the w=6 convention closes geometrically)  (0.28867513459481288225 vs 0.28867513459481288225)
+
+==============================================================================
+VERDICT (probe 1)
+==============================================================================
+
+checks passed: 69,  failed: 0   (12.3s)
+
+EXACT FORMULA (source [S1] (2.11)/L.2.13 + [S2] (2.5)/(5.3), D=3 case
+re-derived and verified in-sandbox above):  for Gamma = PSL(2, O_K),
+K = Q(sqrt(-3)), cusp at infinity, E(s,w) = sum_(Gamma_inf\Gamma) y(gw)^s
+(FULL stabilizer; lambda = s(2-s)):
+
+    constant term = y^s + phi(s) y^(2-s),
+    phi(s) = (2 pi / (sqrt(3) (s-1))) * zeta_K(s-1) / zeta_K(s)
+           = Lambda_K(s-1) / Lambda_K(s),
+    Lambda_K(s) = (sqrt(3)/(2 pi))^s Gamma(s) zeta_K(s)  [completed Dedekind
+    zeta, Lambda_K(s) = Lambda_K(1-s)],  zeta_K = zeta * L(., chi_-3).
+
+POLES OF phi (all verified numerically above):
+  * s = 2: the UNIQUE pole in Re(s) > 1 -- the image of the zeta_K pole at
+    s=1 (numerator Lambda_K(s-1)).  Res = (h/w)/Lambda_K(2) = 2pi^2/(9 zK(2))
+    = 1.70652...; the residue chain passes literally through
+    Res_(s=1) zeta_K = 2 pi/(6 sqrt3) = 0.604599788... (the B736-P2 number).
+  * s = 1: NO pole (the two Lambda_K poles cancel; phi(1) = -1).
+  * nontrivial zeros rho of zeta_K: poles of phi at s = rho (Re = 1/2),
+    zeros of phi at s = rho + 1 (Re = 3/2)  [verified at the first L-zero
+    0.5 + 8.0397...i and at Riemann's 0.5 + 14.1347...i].
+  * |phi(1+it)| = 1: the continuous spectrum [1, inf) of B735 is carried
+    unitarily; the infinite-tower object zeta_K (poles included) sits
+    natively in the Bianchi-class cusp scattering.
+
+OUTCOME: A.
+

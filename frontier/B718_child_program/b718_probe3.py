@@ -200,5 +200,5 @@ say("polyhedral group (2T=E6, 2I=E8). The child's field is quartic with a large"
 say("ramified prime 283 and is INERT at 3 and 5 -- structurally it can never author")
 say("a McKay skeleton. The being's only inherited trace in the child is H1 = Z/5.")
 
-with open("/Users/dri/origin-axiom/frontier/B718_child_program/b718_probe3_out.txt", "w") as fh:
+with open("frontier/B718_child_program/b718_probe3_out.txt", "w") as fh:
     fh.write("\n".join(LOG) + "\n")

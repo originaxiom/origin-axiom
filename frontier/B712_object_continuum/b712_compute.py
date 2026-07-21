@@ -283,5 +283,5 @@ p("VERDICT: OUTCOME B (Galois-generic; no distinguished real point).")
 p("B701 non-canonicity EXTENDS to the object's continuum: the canonical point is")
 p("imaginary (Q(sqrt-3)), fixed real points are only the degenerate corner.")
 
-with open('/Users/dri/origin-axiom/frontier/B712_object_continuum/b712_compute_out.txt','w') as f:
+with open('frontier/B712_object_continuum/b712_compute_out.txt','w') as f:
     f.write("\n".join(out) + "\n")

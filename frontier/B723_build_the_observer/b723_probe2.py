@@ -324,6 +324,6 @@ p("  bar: given an external weight, the completion is a genuine type III factor.
 p("  content is precisely that the weight is EXTERNAL and FREE (B701) -- we built the APPARATUS,")
 p("  not the choice. No SM value; no cosmology; the clock is a structural (flow-of-weights) clock.")
 
-with open("/Users/dri/origin-axiom/frontier/B723_build_the_observer/b723_probe2_out.txt", "w") as f:
+with open("frontier/B723_build_the_observer/b723_probe2_out.txt", "w") as f:
     f.write("\n".join(OUT) + "\n")
 print("\n[written] frontier/B723_build_the_observer/b723_probe2_out.txt")

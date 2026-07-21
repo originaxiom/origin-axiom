@@ -78,3 +78,12 @@ the methodology: a self-policed program that base-rated its own flagship and hon
 SM-bridge hope.** cc2 cross-verify handled (the B733 A₅-character sign fix + the LAW_MAP consensus).
 Sealed 167def7c; test_b736 locks the ζ-pole + the equivariance-wall T=0 + the ledger-count-0. Credit
 cc2 (the lock, the two independent angles). Nothing to CLAIMS; no SM value.
+
+---
+**Addendum (2026-07-21, cc2 register crack #2 — cc-concurred):** Path C's obstruction (iii)/"no
+landing site" leg is RESTATED: "no landing site" was cc2's external gloss, not a banked phrase, and
+it over-reached — the group-functorial being↔hearing correspondence IS the load-bearing premise of
+the C-cal/JUNO conditional route (the one SM-adjacent forward test the program ever ran, self-rated
+LOW weight but LIVE). The rigorous negative rests on legs (i) equivariance-wall T=0 and (ii) the
+B706 kind-mismatch, unchanged; leg (iii) reads: "the one live landing is the C-cal conditional
+route — low-weight, owner-gated, not a reduction." The ZERO-reductions count is unaffected.

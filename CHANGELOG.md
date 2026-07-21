@@ -1,5 +1,10 @@
 # Changelog
 
+## B737 Candidate Zero (B at the crux) + B738 compiler + the hygiene sweep + cc2's register folded
+- B737: the object's voice IS the exact zeta-quotient (φ_m004 = Λ_K(s)/Λ_K(s+1); Res φ = 2√3/vol(m004), 40 digits) and carries the FIRST object-specific spectral data (disc −48 conductor-4 cusp CM; palette 1/2/8) — but the crux dies: the ζ is the FIELD's (vacuity across all h=1 fields; object-deletion). Same ζ, different role. Leads L1/L2 queued.
+- Full-suite run (first since #1115): 2597 passed; 4 hygiene failures fixed (20 files' machine paths portable; chat-1→courier-seat labels; atlas 674 regen).
+- cc2 REVISIT REGISTER folded: ~130/209 negatives are OVERREACH-class (rule minted: cite exact_scope, never headlines); B288 24/78-skipped straggler cell queued; B736 leg-3 restated (C-cal route low-weight but LIVE); RETRACTIONS quadratic-arrow row corrected (verified vs P1_ERRATUM D2).
+
 ## B736 — the A+B+C campaign: object-observer OBSTRUCTED, parameter-reduction NO-GO, consolidation written
 - Owner's A+B+C (=cc2's 1+2+3) as a joint two-seat campaign, locked. Both consensus headlines CONVERGE. All 3 tracks OUTCOME B.
 - Path B (object-observer): OBSTRUCTED — finite-level⇒no-SSB (the β=1 SSB = the ζ_{ℚ(√−3)} pole, absent at finite level) + H³ not Hermitian⇒no Shimura. cc2 converges (B701 generic on the knot-observer).

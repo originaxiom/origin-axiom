@@ -24,7 +24,7 @@ not compute or derive from a stated theorem.
 FIREWALL: structural/arithmetic only. The KMS/modular flow is a STRUCTURAL clock; no
 physics/cosmology/SM claim is made.
 
-Run:  cd /Users/dri/origin-axiom && sage-python frontier/B721_thermal_time/b721_probe2.py
+Run:  cd ~/origin-axiom && sage-python frontier/B721_thermal_time/b721_probe2.py
 """
 
 import sys

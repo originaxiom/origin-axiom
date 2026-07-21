@@ -5,7 +5,7 @@ import re
 
 import sympy as sp
 
-_SRC = ("/Users/dri/oa-seat-cc2/origin-axiom/frontier/B673_loop4_integration/"
+_SRC = ("~/oa-seat-cc2/origin-axiom/frontier/B673_loop4_integration/"
         "packet/loop4/d3_silvercup/d3_results.json")
 
 

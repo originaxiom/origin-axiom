@@ -265,6 +265,6 @@ p("   thermal clock. Any thermal/type-III clock must be supplied EXTERNALLY (a f
 p("   weight/state, B701) -- exactly the observer apparatus B723 sets out to build.")
 p("   FIREWALL: structural/operator-algebra only; no SM value; no derived choice.")
 
-with open("/Users/dri/origin-axiom/frontier/B723_build_the_observer/b723_probe1_out.txt","w") as f:
+with open("frontier/B723_build_the_observer/b723_probe1_out.txt","w") as f:
     f.write("\n".join(out) + "\n")
 print("\n[written] frontier/B723_build_the_observer/b723_probe1_out.txt")

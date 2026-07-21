@@ -240,6 +240,6 @@ p("=> all three 'settled' verdicts hold ON RECOMPUTATION, not on citation.")
 p("   FIREWALL: structural/arithmetic only; no SM value claimed (C5 affirms the object")
 p("   does NOT supply SM values); C1's physics identification stays HINT-grade/mechanism-open.")
 
-with open("/Users/dri/origin-axiom/frontier/B724_seeing_readjudication/b724_probe4_out.txt", "w") as f:
+with open("frontier/B724_seeing_readjudication/b724_probe4_out.txt", "w") as f:
     f.write("\n".join(OUT) + "\n")
 print("\n[written] frontier/B724_seeing_readjudication/b724_probe4_out.txt")

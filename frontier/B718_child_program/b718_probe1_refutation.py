@@ -35,7 +35,7 @@ Run with: sage-python b718_probe1_refutation.py   (find_field needs Sage).
 """
 import snappy
 
-OUT = '/Users/dri/origin-axiom/frontier/B718_child_program/b718_probe1_refutation_out.txt'
+OUT = 'frontier/B718_child_program/b718_probe1_refutation_out.txt'
 
 
 def field_of(M):

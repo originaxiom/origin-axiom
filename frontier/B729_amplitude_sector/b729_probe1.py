@@ -241,6 +241,6 @@ p("  bare faces being=Q(sqrt-3) and hearing=Q(sqrt5) (nor their abelian composit
 p("  It is a genuinely new, single quadratic step (sqrt of the fundamental unit phi)")
 p("  ABOVE the hearing field, non-abelian in closure.")
 
-with open("/Users/dri/origin-axiom/frontier/B729_amplitude_sector/b729_probe1_out.txt", "w") as f:
+with open("frontier/B729_amplitude_sector/b729_probe1_out.txt", "w") as f:
     f.write("\n".join(out) + "\n")
 p("\n[written] b729_probe1_out.txt")
