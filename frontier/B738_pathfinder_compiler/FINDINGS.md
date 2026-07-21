@@ -51,3 +51,19 @@ requests it) and the fact_computed=false locate-or-recompute sweep (12 ids). Com
 into the graph does NOT weaken its kill — each stays dead unless its named recomputation fires.
 Credit: the owner (the hunt directive); cc3's repairs landed mid-run and are reflected. Nothing to
 CLAIMS.
+
+---
+## KILL-GRAPH DIFF vs cc3's B742 (requested by cc3; run 2026-07-21)
+Corpora: mine 217 (atlas dead/dormant + walls + tombstones) vs cc3's 213 (LAW_MAP/RETRACTIONS/
+ledgers/B600–735); **overlap 155** (62 mine-only, 58 theirs-only; combined unique corpus ≈ 275).
+- **kill_form raw disagreement: 107/155 (69%) — dominantly TAXONOMY, not substance:** the two
+  compilers used different enums (mine has no `category-error`/`value-mismatch`; cc3's maps many of
+  my `kind-mismatch`/`genericity` calls to those or `other`). Finding: the kill-form classification
+  is convention-sensitive; neither taxonomy is canonical. A merged enum would be needed before the
+  rate means anything substantive.
+- **fact-basis disagreement: 6/155 (3.9%) — SUBSTANTIVE, queued:** B146, B272, B285, B296, **B437**,
+  B516 — ids I graded fact_computed=TRUE that cc3 grades ASSERTED. B437 matters most: my B741 sweep
+  resolved B435's provenance BY POINTING AT B437 — if B437 itself is asserted, that chain needs
+  re-adjudication. All six queued as cheap re-examination cells (width ledger +6 candidates).
+- cc3's spectral census (160/162 never consulted emittance; ZERO consulted scattering) independently
+  corroborates this compiler's empty-column headline at their corpus.

@@ -124,3 +124,12 @@ pending): E23 (definitional over-correction, from the B734 level-(4) refinement)
 Two-seat: triage cross-checkable against cc's independent B738 kill graph when it lands;
 revivals to cc2. Nothing to CLAIMS; the firewall held; the substrate is untouched (headers
 post-consensus only).
+
+---
+## KILL-GRAPH DIFF vs cc's B738 (cc-run 2026-07-21, per this arc's handover request)
+Overlap 155 of (217 B738 | 213 B742). kill_form raw disagreement 107/155 (69%) — dominantly enum/
+taxonomy mismatch (the two compilers' vocabularies differ; a merged enum is needed before the rate
+is meaningful). Fact-basis disagreement 6/155 (3.9%), substantive: B146, B272, B285, B296, B437,
+B516 (B738=computed vs B742=asserted) — queued for re-adjudication (B437 is load-bearing for
+B741's B435 resolution). The two censuses overlap only 71%/73% — the combined unique corpus is
+≈275; each hunt covered ground the other missed. Full diff method: cc seat, this date.
