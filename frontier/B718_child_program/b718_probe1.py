@@ -193,7 +193,7 @@ def main():
     out("    field-degree law') is RETRACTED as a numerical coincidence -- refuted in")
     out("    b718_probe1_refutation.py.")
 
-    with open('/Users/dri/origin-axiom/frontier/B718_child_program/b718_probe1_out.txt','w') as fh:
+    with open('frontier/B718_child_program/b718_probe1_out.txt','w') as fh:
         fh.write('\n'.join(lines) + '\n')
 
 if __name__ == '__main__':

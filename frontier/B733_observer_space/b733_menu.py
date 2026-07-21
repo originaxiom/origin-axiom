@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 # ============================================================================
 # B733 PROBE 3 (REISSUED) -- THE FULL MENU OF OBSERVERS + the growth law + the
@@ -119,7 +120,7 @@ def p1_perm(g,pts,U,n):
     return out
 
 def find_gap():
-    for c in ["gap","/Users/dri/micromamba/envs/sage/bin/gap"]:
+    for c in ["gap",os.path.expanduser("~/micromamba/envs/sage/bin/gap")]:
         p=shutil.which(c) or (c if os.path.exists(c) else None)
         if p: return p
     return None

@@ -436,6 +436,6 @@ p("     %d/%d primes give h^1=1 => char-0 h^1(Sym^16)=1 (my first sample p=13,31
 p("     BOTH unlucky -- the reason to scan, not to trust one prime). one-per-block CONFIRMED.")
 
 # write output file
-with open("/Users/dri/origin-axiom/frontier/B724_seeing_readjudication/b724_probe1_out.txt","w") as f:
+with open("frontier/B724_seeing_readjudication/b724_probe1_out.txt","w") as f:
     f.write("\n".join(OUT)+"\n")
 p("\n[written] b724_probe1_out.txt")

@@ -51,7 +51,7 @@ import sympy
 from sympy import symbols, Poly
 from sympy.functions.combinatorial.numbers import legendre_symbol
 
-SAGE_BIN = "/Users/dri/.local/bin/sage"
+SAGE_BIN = "~/.local/bin/sage"
 
 X = symbols('x')
 

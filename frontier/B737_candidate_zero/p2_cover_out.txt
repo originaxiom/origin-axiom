@@ -1,0 +1,201 @@
+
+==============================================================================
+PART A0 -- field arithmetic of K = Q(sqrt(-3)) recomputed from scratch
+==============================================================================
+units of O (N=1 solutions): [(-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0)]
+  [PASS] unit number w_K = 6
+Minkowski bound = (2/pi)*sqrt(3) = 1.10265779084358409902265299662593888279477296073328130559873
+  [PASS] Minkowski bound < 2  =>  h(K) = 1 (every class has an ideal of norm 1)
+  [PASS] #ideals of norm n == sum_(d|n) chi_-3(d) for all n <= 2000 (grounds zeta_K = zeta * L(chi))
+L(1,chi)          = 0.604599788078072616864692752547385244094688749364246858523295
+2*pi*h/(w*sqrt3)  = 0.604599788078072616864692752547385244094688749364246858523295   (B736's residue 0.6046...)
+  [PASS] residue of zeta_K at s=1: L(1,chi) == 2*pi/(6*sqrt3)  (class number formula, recomputed)
+  [PASS] Lambda_K(s) = Lambda_K(1-s) at 3 complex points (rel err < 1e-45)
+
+==============================================================================
+PART A1 -- symbolic ingredients of the base scattering (sympy proofs)
+==============================================================================
+  [PASS] unfolding integral  int_{R^2} (1+|x|^2)^(-(1+s)) dx = pi/s  (sympy (polar): pi*gamma(s)/gamma(s + 1))
+  [PASS] Euler factor  sum_k Phi(p^k)/q^(k(s+1)) = (1-q^(-s-1))/(1-q^(-s))  =>  sum_A Phi(A)/N(A)^(s+1) = zeta_K(s)/zeta_K(s+1)  (identity symbolic + exact geometric sum at q=7,s=2)
+  [PASS] V(F_L) = covol(O) = sqrt(3)/2
+  [PASS] phi(s) = (2pi/(sqrt3 s)) zeta_K(s)/zeta_K(s+1) = Lambda_K(s)/Lambda_K(s+1)  (Gamma(s+1)=s*Gamma(s))
+
+DERIVATION (D=3 done directly, units + order-3 cusp rotation handled;
+each computational step verified above; framework = EGM ch. 6 / [S] Sec. 2):
+  Gamma = PSL(2,O_3);  Gamma_oo = stab(oo)  contains translations by O and
+  the rotations diag(eps,eps^-1), eps^2 in {1,w,w^2}  (cusp cross-section =
+  the (3,3,3) Euclidean orbifold T^2/Z_3).
+  Cosets Gamma_oo\Gamma  <->  coprime bottom rows (c,d) mod the FULL unit
+  group O* (|O*| = 6; in PSL: mod {1,w,w^2} x {+-1}):
+    - c = 0: single coset  ->  y^(1+s) coefficient exactly 1;
+    - c != 0: fix one generator c per nonzero ideal (h=1: c mod O* <-> (c));
+      then d runs over ALL d in O with (c,d)=1, each a distinct coset.
+  Zeroth Fourier coefficient over C/O of the c-sum, unfolding d mod cO
+  against the x-integral (integral (i)), with N(c) = |c|^2:
+    phi(s) = ( pi / (s * V(F_L)) ) * sum_{ideals A != 0} Phi(A)/N(A)^(s+1)
+           = ( 2*pi / (sqrt(3) * s) ) * zeta_K(s)/zeta_K(s+1)      [(ii),(iii)]
+           =  Lambda_K(s) / Lambda_K(s+1)                          [(iv)]
+  This MATCHES [S] eq. (2.9)-(2.10) (his s_S = 1+s, h=1, V(F_L)=sqrt(3)/2),
+  now including D=3 which [S] Sec. 2 excluded for unit bookkeeping.
+=> THE BASE ORBIFOLD'S 1x1 SCATTERING "MATRIX" IS THE COMPLETED-DEDEKIND-
+   ZETA RATIO   phi_O(s) = Lambda_K(s)/Lambda_K(s+1),   POLES INCLUDED.
+
+==============================================================================
+PART A2 -- numeric verification of phi_O = Lambda_K(s)/Lambda_K(s+1)
+==============================================================================
+  [PASS] completed and derived forms agree numerically at a random complex s
+  [PASS] |phi(it)| = 1  (unitary scattering on the continuous spectrum [1,oo))
+  [PASS] phi(s)*phi(-s) = 1
+phi(1e-30) = -1.00000000000000000000000000000187843410190943640137616986782
+L(0,chi) = 0.333333333333333333333333333333333333333333333333333333333333  (exact 1/3 => zeta_K(0) = -1/6)
+  [PASS] phi(0) = -1
+  [PASS] L(0,chi) = 1/3
+residue at s=1, eps-limit       = 1.706552176628161608820573265788482210995
+residue at s=1, Cauchy integral = 1.706552176628161608820573265787897188738
+2*pi^2/(9*zeta_K(2))  [S](2.14) = 1.706552176628161608820573265787897188738
+  [PASS] res_{s=1} phi = 2*pi^2/(9*zeta_K(2)) > 0  (simple pole, positive residue)
+  [PASS] [S] (2.14) with V(F_L)=sqrt3/2, w=6, sqrt|d|=sqrt3: denominator = 9
+
+==============================================================================
+PART A3 -- the infinite tower is IN the scattering (zeros/poles located)
+==============================================================================
+rho_1 = (0.5 + 8.0397371556814666817136232141729658027930102673861j)
+  [PASS] zeta_K(rho_1) = 0 with Re(rho_1) = 1/2  (first L(chi_-3) zero, t ~ 8.0397)
+  [PASS] zeta_K(rho_2) = 0 with Re(rho_2) = 1/2  (first Riemann zero, t ~ 14.1347)
+|phi(rho_1)|   = 2.3618e-51   |phi(rho_1 - 1)| = 4.2341e+50
+|phi(rho_2)|   = 3.4768e-57   |phi(rho_2 - 1)| = 2.8762e+56
+  [PASS] phi has zeros at the nontrivial zeros rho and poles at rho-1
+
+DIVISOR OF phi(s) = Lambda_K(s)/Lambda_K(s+1)  (Lambda_K: poles exactly at
+s=0,1; zeros exactly at the nontrivial zeros of zeta_K):
+    poles:  s = 1 (simple, residue 2*pi^2/(9*zeta_K(2)) > 0  -- THE zeta_K
+            pole, i.e. B736's beta=1 object), and s = rho-1 for every
+            nontrivial zero rho of zeta_K;
+    zeros:  s = rho for every nontrivial zero, and s=0 is regular
+            (pole-pole cancellation, phi(0) = -1).
+    Euler product over ALL primes of O -- no finite congruence truncation.
+
+==============================================================================
+PART B0 -- the cover: m004 over the Bianchi orbifold (facts recomputed)
+==============================================================================
+m004: num_cusps = 1, cusp = Cusp 0 : complete torus cusp of shape -1.110223025 E-15 + 3.4641016151*I
+  [PASS] the object has exactly ONE cusp (complete torus cusp)
+  [PASS] tetrahedra shapes satisfy z^2 - z + 1 = 0 (both = exp(i*pi/3))  (max residual 9.33e-61)
+  => invariant trace field = Q(shapes) = Q(sqrt(-3))  (Neumann-Reid).
+vol(m004)      = 2.029883212819307250042405108549040571883378615060599584
+vol(orbifold)  = 0.1691569344016089375035337590457533809902815512550499653   [Humbert, [S] Prop 2.1]
+ratio          = 12.0
+  [PASS] vol(m004) / vol(PSL(2,O_3)\H^3) = 12 (covering degree, B734)
+  [PASS] cusp shape of m004 = 2*sqrt(-3)  (lattice Z + 2sqrt(-3)Z, in K)  (tau = (8.9635725322197026264e-65 + 3.4641016151377545871j))
+  [PASS] cusp-section degree = [O x| Z_3 : Z+2sqrt(-3)Z] = 4*3 = 12 = index
+Isom(m004) = D4, order 8, full: True
+  [PASS] the 12-cover is NOT normal: |Isom(m004)| = 8 < 12 (no deck group of order 12 can act)
+
+==============================================================================
+PART B1 -- THE TRANSFER: one-cusp uniqueness lemma (direct proof)
+==============================================================================
+
+STANDARD RELATION, AT SOURCE ([F] arXiv:math/0702030, Kleinian extension of
+Venkov-Zograf [VZ83]; NORMAL finite-index subgroups):
+    phi(s, Gamma_1, chi) = phi(s, Gamma, U^chi)          (all regular s)
+    => phi(s, Gamma_1, 1) = phi(s, Gamma, U^1)
+     = PROD_{theta in (Gamma_1\Gamma)*} phi(s, Gamma, theta)^{n_theta} :
+    the cover's scattering determinant CONTAINS the base's (theta = trivial).
+OUR COVER IS NON-NORMAL (PART B0), so we do not lean on [F]; the transfer is
+proved directly, and comes out STRONGER (scalar equality, poles included):
+
+LEMMA (one cusp over one cusp => exact scalar transfer).
+  Let pi: m004 = Gamma'\H^3 -> O_3 = Gamma\H^3 be the degree-12 cover
+  (Gamma' < Gamma = PSL(2,O_3), both 1-cusped: PART B0; [S] Note (2), h=1).
+  Then, reading constant terms in the SAME intrinsic height y:
+        phi_m004(s) = phi_O(s) = Lambda_K(s)/Lambda_K(s+1)   IDENTICALLY.
+PROOF.
+  (1) g := pi* E_O(., 1+s) is Gamma'-automorphic (Gamma' < Gamma), a
+      -Delta-eigenfunction of eigenvalue 1-s^2, of moderate growth
+      (local isometry; the pullback is literally the same function).
+  (2) Its constant term along the m004 cusp equals the constant term of E_O:
+      the m004 cusp lattice L' embeds in the orbifold cusp lattice L = O
+      (PART B0: index 4, plus the Z_3 rotation), and averaging an
+      L-periodic function over C/L' equals averaging over C/L
+      [verified numerically below].  So   c.t.(g) = y^(1+s) + phi_O(s) y^(1-s).
+  (3) h := g - E_m004(., 1+s) has constant term (phi_O - phi_m004)(s) y^(1-s).
+      For real s > 1:  |y^(1-s)|^2 y^(-3) is integrable at the cusp
+      [verified symbolically below], and nonzero Fourier modes decay
+      exponentially ([S] Lemma 2.15 proof; Kubota), so h is in L^2.
+  (4) h is an L^2 eigenfunction of -Delta (self-adjoint, >= 0) with
+      eigenvalue 1-s^2 < 0  =>  h = 0  =>  phi_m004(s) = phi_O(s) for s > 1,
+      hence identically by meromorphic continuation (EGM ch. 6 / [F] Sec. 2:
+      E and phi are finite-order meromorphic).                          QED
+  (The proof uses NO normality and no determinant: with one cusp the
+   scattering matrix IS the scalar phi.)
+  [PASS] every nonzero dual(O)-mode averages to 0 over the sublattice torus C/L'  (constant terms agree)
+  [PASS] int_1^oo y^(2(1-s)) y^-3 dy = 1/(2s) < oo for s > 1 (h is L^2 at the cusp)  (sympy: 1/(2*s))
+res phi at s=1  =  2*pi^2/(9 zeta_K(2))       = 1.706552176628161608820573265787897188738
+cusp-covol/vol  =  sqrt3/(6*vol_orb)          = 1.706552176628161608820573265787897188738
+               =  2*sqrt3/vol(m004)           = 1.706552176628161608820573265787897188738
+  [PASS] res_{s=1} phi_m004 = 2*sqrt(3)/vol(m004)  (three expressions agree; Humbert + class-number formula + the derived phi close a triangle)
+
+=> (b) ANSWER: YES -- the object's own (1x1) scattering function IS
+       phi_m004(s) = Lambda_K(s)/Lambda_K(s+1)
+   EXACTLY, in the intrinsic normalization (any cusp renormalization
+   multiplies by c^s, c > 0: entire and zero-free, divisor unchanged).
+   The object's voice carries the COMPLETED Dedekind zeta of Q(sqrt(-3))
+   WHOLE: the simple pole at s=1 (residue 2*sqrt3/vol(m004) > 0 -- the same
+   analytic object as B736's beta=1 pole, residue proportional to
+   L(1,chi) = 2*pi/(6*sqrt3)), every nontrivial zero rho (as a zero), and
+   every shifted zero rho-1 (as a pole): the full infinite tower, Euler
+   product over ALL primes of O, no finite congruence truncation.
+   Had m004 had k > 1 cusps, phi would be a k x k matrix of PARTIAL zeta
+   functions and only its determinant would be controlled; the ONE-CUSP
+   structure is what forces the scalar identity -- outcome B is what this
+   computation would have produced in that world.
+
+==============================================================================
+PART C -- THE CLOSING: Dehn filling destroys exactly that channel
+==============================================================================
+m004(5,1): solution type = 'all tetrahedra positively oriented'
+           cusp complete?  False
+           volume        = 0.98136882889
+           filled_triangulation num_cusps = 0
+  [PASS] m004 has 1 complete cusp; m004(5,1) has 0 (filled, closed hyperbolic: all tetrahedra positively oriented)
+
+WHAT IS DESTROYED (exactly):
+  m004 (open cusp):   L^2 = (discrete)  (+)  INT_[1,oo)  spanned by
+      E(P, 1+it), whose constant term  y^(1+it) + phi(1+it) y^(1-it)  carries
+      phi = Lambda_K(s)/Lambda_K(s+1) -- the completed zeta_K, poles and all.
+      The continuous spectrum [1,oo) IS the zeta_K-carrying channel (B735's
+      "voice", now with its exact content identified).
+  m004(5,1) (closed): compact hyperbolic 3-manifold => -Delta has PURELY
+      DISCRETE spectrum (elliptic theory on compact manifolds); there is no
+      cusp, hence no Eisenstein series, no constant term, no scattering
+      function, no continuous spectrum.  The object that vanishes is not a
+      quantity but the entire meromorphic family E(P,1+s) together with its
+      scattering function phi -- i.e. precisely the completed-zeta_K
+      structure (the s=1 pole = the observer's beta=1 object included).
+      Closing the object silences EXACTLY the zeta_K voice.  (B735 said the
+      voice vanishes; this probe says WHAT the voice was saying.)
+
+==============================================================================
+VERDICT
+==============================================================================
+
+checks: 29/29 passed
+(a) Covering relation, at source: Friedman arXiv:math/0702030 (Kleinian
+    Venkov-Zograf): for NORMAL finite-index subgroups the scattering
+    determinant of the cover equals the base's twisted by Ind 1 and factors
+    over irreps, containing the base determinant as the trivial factor.
+    Our cover is non-normal (|Isom(m004)| = 8 < 12) -- so the transfer is
+    proved DIRECTLY: with one cusp over one cusp the pullback/uniqueness
+    lemma (PART B1, every ingredient verified in-sandbox) gives the scalar
+    identity phi_m004 = phi_O, stronger than the determinant relation.
+(b) The object's own voice: phi_m004(s) = Lambda_K(s)/Lambda_K(s+1), the
+    COMPLETED Dedekind zeta of Q(sqrt(-3)) whole -- pole at s=1 (residue
+    2*sqrt3/vol(m004) > 0, the beta=1 pole of B736), zeros at every rho,
+    poles at every rho-1: the infinite tower, no finite-level truncation.
+(c) The closing: m004(5,1) is closed hyperbolic (0 cusps): no Eisenstein
+    series, no scattering, purely discrete spectrum. Dehn filling destroys
+    precisely the zeta_K-carrying continuous channel.
+OUTCOME: A -- the object's voice
+carries zeta_K whole, and closing destroys precisely that.
+Firewall: pure math/structural throughout; no SM value; nothing to CLAIMS.
+

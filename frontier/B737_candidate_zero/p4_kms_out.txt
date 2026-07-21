@@ -1,0 +1,295 @@
+==============================================================================
+B737 PROBE 4 (KMS crux) -- ROUND 2 (fixed + recomputed)
+K = Q(sqrt-3), O_K = Z[w], d=-3, h=1, w_K=6
+==============================================================================
+
+[S1] THE ONE COUNTING MONOID: r_K(n) two ways, n <= 3000
+  method A (Eisenstein/lattice side): #{lam in O_K : N(lam)=n} / 6   (h=1, w_K=6)
+  method B (BC/ideal side):           sum_{d|n} chi_{-3}(d)
+  mismatches in 1..3000: 0  ->  IDENTICAL: one monoid (ideals of O_K) feeds BOTH Dirichlet series
+  ideal norms up to 29: [1, 3, 4, 7, 9, 12, 13, 16, 19, 21, 25, 27, 28]
+  r_K at those norms:   [1, 1, 1, 2, 1, 1, 2, 1, 2, 2, 1, 1, 2]
+  [round-2 note: TRUE, but see S9 -- this identity is FORCED at h=1, so it
+   cannot by itself discriminate a bridge from a pun.]
+
+[S2] EPSTEIN/EISENSTEIN SIDE: sum'_{lam in O_K} N(lam)^{-s} = 6 * zeta_K(s)
+  s=2.0: lattice sum (X=1e6) = 7.7111421053   6*zeta_K(s) = 7.7111457329   rel.err = 4.70e-07
+  s=2.5: lattice sum (X=1e6) = 6.7618985220   6*zeta_K(s) = 6.7618985244   rel.err = 3.58e-10
+  s=3.0: lattice sum (X=1e6) = 6.3758815528   6*zeta_K(s) = 6.3758815528   rel.err = 2.84e-13
+  -> the cusp-lattice (Eisenstein unfolding) sum counts the SAME ideals, weight w_K=6.
+
+[S3] BC/CMR SIDE: partition function Tr e^{-beta H}, H = log N on l^2(ideal monoid)
+  Tr e^{-beta H} = sum_J N(J)^{-beta} = zeta_K(beta)  [h=1: computed via S1 monoid]
+  beta=2.0: partial trace (X=1e6) = 1.28519035   zeta_K(beta) = 1.28519096
+  beta=1.5: partial trace (X=1e6) = 1.83782008   zeta_K(beta) = 1.83902929
+  beta=1.2: partial trace (X=1e6) = 3.42803676   zeta_K(beta) = 3.61877552
+  pole at beta=1 (critical temperature):
+    (beta-1)*zeta_K(beta) at beta=1+0.001: 0.6051715589
+    (beta-1)*zeta_K(beta) at beta=1+1e-05: 0.6046055046
+    (beta-1)*zeta_K(beta) at beta=1+1e-07: 0.6045998452
+  exact residue  L(1,chi) = pi/(3 sqrt3) = 0.6045997880780726
+  B736-P2 number 2pi/(6 sqrt3)           = 0.6045997880780726   SAME NUMBER
+  (class-number formula 2 pi h/(w_K sqrt|d|): the w_K=6 here is the SAME unit weight
+   that S2 puts in front of the Eisenstein lattice sum.)
+
+[S4] SCATTERING SIDE: phi(s) = Lambda_K(s)/Lambda_K(s+1)   [EGM ch.8 / Sarnak form]
+  functional equation |Lambda_K(s)-Lambda_K(1-s)| at s=0.3+1.7i: 6.16e-33
+  unitary axis |phi(i t)| at t=5.3: 1.000000000000000   (Maass-Selberg: =1)
+  unitary axis |phi(i t)| at t=9.7: 1.000000000000000   (Maass-Selberg: =1)
+  phi(s)*phi(-s) at s=0.3+2.1i: (1-2.00464665397303e-31j)
+  (s-1)*phi(s) at s=1+1e-8: 1.706552182478
+  exact: (2pi/sqrt3)*L(1,chi)/zeta_K(2) = 2 pi^2/(9 zeta_K(2)) = 1.706552176628
+  check 2 pi^2/(9 zeta_K(2)) = 1.706552176628
+  -> the SAME zeta_K pole at 1: scattering functor reads it as the residual point,
+     thermodynamic functor reads it as the critical temperature.
+
+[S5] THETA CHAIN: completed zeta = Mellin transform of a literal Boltzmann sum
+  Theta(t) = sum_{lam in O_K} e^{-pi t N(lam)}  (heat/Gibbs weights on the SAME monoid)
+  Poisson consistency t=0.3: direct 3.849021729057  vs modular 3.849021729057
+  Poisson consistency t=0.5: direct 2.312587575078  vs modular 2.312587575078
+  Poisson consistency t=1.0: direct 1.259788634122  vs modular 1.259788634122
+  s=1.7: Mellin integral = 1.179588071708   pi^-s Gamma(s) 6 zeta_K(s) = 1.179588071708
+         rel. err = 4.68e-25
+
+[S6] OBJECT ANCHORING (snappy) -- WITH ROUND-2 GENERICITY CAVEAT
+  m004 cusp shape tau = (-1.1102230246251573e-15+3.464101615137757j)   (2 sqrt(-3) = 3.4641016151377544j)
+  |tau - 2 sqrt(-3)| = 2.89e-15
+  cusp lattice L_c = Z + tau Z, tau = 2 sqrt(-3) = 4w - 2 in O_K = Z[w]:
+  basis change [[1,0],[-2,4]] (1 -> 1, tau -> -2+4w), det = 4
+  => [O_K : L_c] = 4: the cusp torus is an INDEX-4 SUBLATTICE of O_K.
+  vol(m004) = 2.0298832128;  12 x Humbert |d|^{3/2} zeta_K(2)/(4 pi^2) = 2.0298832128
+  ROUND-2 CAVEAT (accepted from review): being a K-lattice point of the CMR
+  phase space is CLASS-GENERIC -- every cusp of every cover of PSL(2,O_3)\H^3
+  is one by construction (p3: m003's cusp is O_K ITSELF, j=0).  The anchoring
+  is real but has NO discriminating power for the bridge question; it is
+  retired from the verdict inventory (see S10/S11).
+
+[S7] TIME EVOLUTION GEOMETRICALLY: CMR flow weight = cusp covolume scaling
+  covol(J)/covol(O_K) for principal ideals J=(lam)  [should equal N(J) exactly]:
+    lam=a+bw a=2 b=0: covol ratio = 4.0000000000   N(lam) = 4
+    lam=a+bw a=1 b=-2: covol ratio = 3.0000000000   N(lam) = 3
+    lam=a+bw a=2 b=1: covol ratio = 7.0000000000   N(lam) = 7
+    lam=a+bw a=4 b=1: covol ratio = 21.0000000000   N(lam) = 21
+  horotorus at height y has area covol(L)/y^2 => sublattice J O_K (deg-N(J)
+  isogeny) = radial displacement Delta(log y) = (1/2) log N(J); CMR sigma_t
+  weights the isogeny by N(J)^{it}.  [Round-2 note: this is basepoint-blind --
+  see S10(a): the SAME ratios hold with m004's L_c as basepoint, and with O_K;
+  covol(lam L) = N(lam) covol(L) for ANY lattice L.  Geometric reading, not an
+  object fingerprint.]
+
+[S8] ANTI-PUN OPERATOR SEPARATION: the two 'Hamiltonians' are DIFFERENT operators
+  (a) BC/CMR Hamiltonian: spectrum {log N(J)} (ideals side)   -- computed above
+  (b) Lax-Phillips generator from the scattering phase: resonances at the ZEROS
+      of the completed zeta_K = zeta * L(chi)  (zeros side).  First ordinates:
+    first zeta(s) critical zero:   t = 14.134725
+    reality of Lambda_chi on critical line (root number +1): Im/Re at t=3.7: 2.47e-31
+    first L(s,chi_-3) critical zeros: t = [8.039737, 11.249206, 15.704619]
+  resonance ordinates {8.04, 11.25, 14.13, ...} vs BC spectrum {1.099, 1.386, 1.946, ...}:
+  DISJOINT sets: the scattering operator is NOT the KMS Hamiltonian.  This kills
+  the strong (operator-identification) form of the candidate directly.
+
+==============================================================================
+[S9] MB12 VACUITY AUDIT of the round-1 discriminator (NEW, round 2)
+==============================================================================
+  Round 1 used 'one monoid feeds both zetas + same pole/residue/unit weight'
+  (S1-S5) as the not-a-pun discriminator.  MB12 standard: a criterion must be
+  able to PASS and to FAIL.  Test: run the identical battery over the four
+  smallest class-number-1 imaginary quadratic fields -- NO manifold, NO object,
+  NO m004 anywhere.  If it passes everywhere, it is a theorem of h=1 arithmetic,
+  not a discovered bridge, and it can carry NO weight toward outcome A.
+
+  --- D = -3: Q(sqrt-3)  [Eisenstein]  (h=1, w_K=6, N(a,b)=a^2+1ab+1b^2) ---
+    (i)   one-monoid identity, n<=2000: mismatches = 0  [PASS]
+    (ii)  Epstein sum (X=1e6) = w*zeta_K at s=2.5: rel.err = 3.58e-10  [PASS]
+    (iii) residue of Tr e^(-beta H) at beta=1: 0.604599788078  vs 2 pi h/(w sqrt|d|) = 0.604599788078  rel.diff 9.5e-21  [PASS]
+    (iv)  |phi_D(it)|-1 = 2.0e-31; Sarnak-form == Lambda-ratio: rel.diff 0.0e+00  [PASS]
+
+  --- D = -4: Q(i)       [Gauss; Picard PSL(2,Z[i]) = Sarnak's published case]  (h=1, w_K=4, N(a,b)=a^2+1b^2) ---
+    (i)   one-monoid identity, n<=2000: mismatches = 0  [PASS]
+    (ii)  Epstein sum (X=1e6) = w*zeta_K at s=2.5: rel.err = 4.11e-10  [PASS]
+    (iii) residue of Tr e^(-beta H) at beta=1: 0.785398163397  vs 2 pi h/(w sqrt|d|) = 0.785398163397  rel.diff 8.2e-21  [PASS]
+    (iv)  |phi_D(it)|-1 = 9.9e-32; Sarnak-form == Lambda-ratio: rel.diff 1.0e-31  [PASS]
+
+  --- D = -7: Q(sqrt-7)  (h=1, w_K=2, N(a,b)=a^2+1ab+2b^2) ---
+    (i)   one-monoid identity, n<=2000: mismatches = 0  [PASS]
+    (ii)  Epstein sum (X=1e6) = w*zeta_K at s=2.5: rel.err = 5.26e-10  [PASS]
+    (iii) residue of Tr e^(-beta H) at beta=1: 1.187410411724  vs 2 pi h/(w sqrt|d|) = 1.187410411724  rel.diff 5.9e-21  [PASS]
+    (iv)  |phi_D(it)|-1 = 0.0e+00; Sarnak-form == Lambda-ratio: rel.diff 2.0e-31  [PASS]
+
+  --- D = -11: Q(sqrt-11)  (h=1, w_K=2, N(a,b)=a^2+1ab+3b^2) ---
+    (i)   one-monoid identity, n<=2000: mismatches = 0  [PASS]
+    (ii)  Epstein sum (X=1e6) = w*zeta_K at s=2.5: rel.err = 5.14e-10  [PASS]
+    (iii) residue of Tr e^(-beta H) at beta=1: 0.947225825099  vs 2 pi h/(w sqrt|d|) = 0.947225825099  rel.diff 4.9e-21  [PASS]
+    (iv)  |phi_D(it)|-1 = 9.9e-32; Sarnak-form == Lambda-ratio: rel.diff 1.6e-31  [PASS]
+
+  RESULT: the round-1 'same substrate' battery passes for ALL four h=1 fields
+  (confirmed), including
+  Sarnak's own published Picard case Q(i), with NO manifold in any of them.
+  ==> the criterion CANNOT FAIL for K-attached zeta constructions at h=1: the
+  collapse of (lattice count / unit weight / Epstein sum / theta Mellin /
+  partition function / scattering numerator) onto the single function zeta_K is
+  FORCED by class-number-1 arithmetic.  By MB12 it has ZERO discriminating
+  power and cannot support 'a genuine bridge exists'.  (V1 accepted, computed.)
+==============================================================================
+[S10] OBJECT-DELETION TEST -- the corrected discriminator (NEW, round 2)
+==============================================================================
+  The candidate (prereg) needs the tower to live NATIVELY IN THE OBJECT's cusp
+  scattering as the observer's SSB carrier.  Corrected test, which CAN fail:
+  delete m004 (keep the bare field/orbifold, or swap in the sister m003) -- does
+  ANY input to either side of the claimed bridge change?
+
+  (a) KMS side inputs.  LLN Thm 2.1 system (re-fetched at source this session,
+      arXiv:0710.3452, pdftotext): built from (J_K^+, absolute norm N, Galois
+      data G(K^ab/K) x_{O^*} O-hat) -- FIELD data only; the construction has no
+      manifold parameter.  Verbatim source lines:
+        'In this situation the zeta function of the semigroup J_K is precisely
+         the Dedekind zeta function zeta_K(beta) = sum_{a in J_K^+} N(a)^{-beta};
+         it converges for beta > 1 and diverges for beta in (0, 1].'   [top p.6]
+        'the partition function of our system is the Dedekind zeta function.
+         More precisely, ... Tr(e^{-beta H_{beta,w}}) = zeta_K(beta).'  [Rem 2.2(ii)]
+      Basepoint-independence, computed: CMR flow weight covol(lam L)/covol(L)
+      for basepoint L = O_K (orbifold/m003 cusp class) AND L = L_c = Z+2sqrt(-3)Z
+      (m004 cusp):
+        basepoint O_K       : ratios = [4.0, 3.0, 7.0, 21.0]   N(lam) = [4, 3, 7, 21]
+        basepoint L_c (m004): ratios = [4.0, 3.0, 7.0, 21.0]   N(lam) = [4, 3, 7, 21]
+      IDENTICAL for both basepoints (covol(lam L) = N(lam) covol(L) for ANY
+      lattice): the m004-specific index-4 lattice DROPS OUT of the flow weight.
+      The KMS/SSB structure (partition function, beta=1 pole, KMS_beta
+      classification, Galois torsor) consumes zero bits of m004.
+
+  (b) Scattering carrier.  p2_cover.py RE-RUN THIS SESSION: 29/29 checks pass;
+      its scalar-transfer lemma (L^2-rigidity, every ingredient verified
+      in-sandbox there) proves  phi_m004(s) = phi_orbifold(s)  IDENTICALLY
+      (= Lambda_K(s)/Lambda_K(s+1) in the 0-centered normalization).  The same
+      lemma applies verbatim to m003 (one cusp over one cusp, h=1).  So the
+      claimed carrier is BIT-IDENTICAL for m004, for m003, and for the bare
+      orbifold with no manifold chosen at all.  Deleting the object changes
+      nothing on this side either.
+
+  (c) Audit of the object-specific data p3 actually found (in-repo,
+      p3_sister_out.txt, exact arithmetic) -- does any of it reach the carrier?
+        * cusp lattice SHAPE (m004: j = 2835807690.42, disc -48 vs m003: j=0):
+          enters only the NON-CONSTANT Fourier modes of E(P,s) (the dual-lattice
+          frequencies); the constant term/phi is shape-blind (p2 exact identity).
+        * congruence LEVEL (4)/(8) vs (2) (ray-class palette 2/8 vs 1):
+          the beta=1 pole tower sits in the zeta_K factor, present at EVERY
+          level and for the bare orbifold; whether any nontrivial level-(4)
+          character enters m004's actual constant term with NONZERO coefficient
+          is p3's [5] caveat -- OPEN, and as computed by p2 the answer for the
+          scalar phi is 'no character terms at all'.
+        * H_1 marking (which slope dies homologically): no formula pathway to
+          phi (p3 part [4]).
+      ==> m004-specific bits reaching the SSB-carrying datum: ZERO.
+
+  (d) NON-VACUITY of this test (it can fail, in both directions):
+        * it would return 'object-specific carrier' if the cover's scattering
+          differed from the base's -- e.g. any k>1-cusped cover has a k x k
+          scattering MATRIX of partial zetas (only det controlled: Friedman
+          math/0702030, cited in p2), or a cusp field != K would break the
+          transfer hypotheses; p2's lemma itself lists the exact hypotheses
+          (ONE cusp over one cusp, h=1) without which equality fails.
+        * it would also return 'object-specific' if a level-(4) character
+          appeared with nonzero coefficient in the constant term (p3 [5]).
+      The test is capable of both outcomes; for m004 it returns: the object
+      contributes NOTHING to the claimed carrier.  (V2 accepted, computed.)
+
+==============================================================================
+[S11] CORRECTED VERDICT (round 2)
+==============================================================================
+
+WHAT IS TRUE AND COMPUTED (unchanged from round 1, all independently re-verified):
+  C1-C5  the substrate identities S1-S7 (one monoid, same pole, residue
+         2pi/(6 sqrt3) = the B736-P2 number, theta/Mellin completion, flow-weight
+         geometry) -- every numeric reproduced by two adversarial reviewers;
+  C6     the operator separation S8: LP-resonance ordinates (zeta_K zeros
+         {8.04, 11.25, 14.13, ...}) vs BC spectrum ({log N(J)} = {1.10, 1.39,
+         1.95, ...}) are DISJOINT -- the scattering operator is not the KMS
+         Hamiltonian;
+  C7     (p1/p2, in-repo, re-run) the Bianchi-class scattering carries the
+         COMPLETED zeta_K whole, and phi_m004 = phi_orbifold identically.
+
+WHAT ROUND 2 ADDS (the two computations that decide the verdict):
+  C8     VACUITY (S9): the round-1 'same substrate' discriminator passes for
+         every h=1 imaginary quadratic field with no object present -- it is
+         a theorem of class-number-1 arithmetic, has zero discriminating power
+         (MB12), and is hereby retired as evidence;
+  C9     OBJECT-DELETION (S10): both sides of the claimed bridge are invariant
+         under deleting m004 (KMS side consumes field data only, verbatim at
+         source; carrier side phi is proven identical for m004/m003/bare
+         orbifold; the p3 object-specific data never reach the carrier).
+
+CITED (fetched at source; round-2 re-fetch where marked):
+  T1  Bost-Connes 1995: the Q-system, SSB at beta=1, partition zeta(beta);
+  T2  Connes-Marcolli-Ramachandran [arXiv math/0501424, abstract verbatim]:
+      imaginary quadratic K-lattice system, "admits the Dedekind zeta function
+      as partition function and the Idele class group as group of symmetries";
+  T3  Laca-Larsen-Neshveyev [arXiv:0710.3452, PDF RE-FETCHED 2026-07-21 round 2]:
+      Thm 2.1: no KMS_beta for beta<0; UNIQUE KMS_beta for 0<beta<=1; for beta>1
+      extremal KMS_beta indexed by G(K^ab/K) (free transitive action); Rem 2.2(ii)
+      verbatim: "the partition function of our system is the Dedekind zeta
+      function... Tr(e^{-beta H_{beta,w}}) = zeta_K(beta)"; and verbatim (top
+      p.6): "it converges for beta > 1 and diverges for beta in (0, 1]".
+      [CITATION FIX: round 1 presented a synthesized paraphrase ("the phase
+      transition occurs at beta = 1, which is the location of the pole...") in
+      quotation marks; that sentence is NOT in the paper.  The mathematical
+      content stands (Thm 2.1 + the divergence line); the quotation is now
+      verbatim and the synthesis is labeled as ours.]
+  T4  Sarnak Acta 1983 / EGM ch.8 [p1: formula re-derived from the unfolding
+      integral in-sandbox, 69/69]: phi(s) = Lambda_K(s-1)/Lambda_K(s) for the
+      Bianchi cusp; S9(iv) verifies the same identity for D=-3,-4,-7,-11;
+  T5  Faddeev-Pavlov / Lax-Phillips: LP semigroup spectrum = nontrivial zeros
+      (the zeros-side operator of S8);
+  T6  Connes [math/9811068, abstract verbatim]: spectral realization of the
+      zeros on the adele class space (the two functors' meeting ground).
+  NEGATIVE CONTROL (round-1 searches, corroborated by both reviewers'
+  independent searches): NO construction in the literature makes the cusp
+  scattering operator/phase a KMS flow or derives a BC/CMR system from the
+  Eisenstein spectral decomposition.
+
+STILL MISSING (unchanged; now correctly read as the ANSWER, not a footnote):
+  M1  any construction making the scattering operator/phase itself a KMS
+      modular flow (S8 shows the naive one fails: wrong side of the explicit
+      formula);
+  M2  any functor from the Eisenstein spectral decomposition to the CMR
+      algebra (Connes' program territory; RH-adjacent difficulty).
+
+VERDICT: B -- the composition dies honestly.
+  The pre-registered candidate was: the infinite-tower zeta_K structure the
+  observer needed (B736-P2, absent at every finite congruence level) lives
+  NATIVELY in the OBJECT's cusp scattering, i.e. the object's voice IS the
+  observer's SSB carrier.  Computed answer: NO --
+    (1) the KMS/SSB structure is furnished entirely by the FIELD K (ideal
+        monoid + Galois data); it consumes zero bits of m004 (S10a);
+    (2) the object's voice does carry zeta_K whole (p1/p2), but in the
+        spectral-parameter role, identically for every 1-cusped object in the
+        class and for the bare orbifold with no object at all (S10b) -- the
+        object supplies nothing the field does not;
+    (3) the co-occurrence of zeta_K in the two roles carries zero evidential
+        weight at h=1: every K-attached zeta construction collapses to zeta_K
+        by class-number-1 arithmetic (S9, MB12);
+    (4) the only construction that would make the voice BE the carrier
+        (operator-level identification) does not exist in the literature and
+        is blocked at the naive level by the disjoint-spectra computation (S8);
+        what would be required is exactly M1/M2 -- explicit-formula/RH-class
+        difficulty -- and that absence is the honest content of this probe.
+  KILL-FORM (for the pathfinder's kill graph): "h=1 zeta-collapse: over a
+  class-number-1 field, co-occurrence of zeta_K across K-attached
+  constructions is forced and evidence-free; field-level structure dressed as
+  object-level is the E15/E20 trap in its subtlest form."
+  FACES: the two roles are NOT 'unrelated' (they share the field substrate,
+  computed) -- but relation-through-the-field is precisely what outcome A was
+  NOT allowed to mean: the prereg asked for the OBJECT as carrier.
+
+SURVIVING OPEN LEADS (not killed by this verdict):
+  L1  M1/M2 as a construction problem (Eisenstein <-> BC functor) -- open
+      mathematics, no known route; NOT bankable as structure here;
+  L2  p3's [5] caveat: whether m004's actual constant term at level (4)/(8)
+      acquires nontrivial ray-class character terms (the only computed path by
+      which object-specificity could re-enter the voice) -- probe-2
+      continuation, currently answered 'no' for the scalar phi by p2's exact
+      identity.
+
+Firewall: pure math/structural throughout; no SM value; nothing to CLAIMS.
+A clean kill of Candidate Zero's probe-4 leg, banked as RECONFIRMED negative
+with the kill-form entering the campaign ledger (hunt-cell #1, width 1).
+

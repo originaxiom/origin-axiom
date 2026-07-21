@@ -187,7 +187,7 @@ p("""  MATH (rigorous): Dehn filling IS the cusp->closed 'residue/closing' opera
   => genuine real mathematics; the physics/cosmology claim is EXACTLY NIL.""")
 p("="*74)
 
-_OUT = '/Users/dri/origin-axiom/frontier/B730_forced_faces_and_cosmos/cc_q3_cosmo_out.txt'
+_OUT = 'frontier/B730_forced_faces_and_cosmos/cc_q3_cosmo_out.txt'
 with open(_OUT, 'w') as f:
     f.write("\n".join(L) + "\n")
 print("\n[wrote %s]" % _OUT)

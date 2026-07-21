@@ -18,7 +18,16 @@ of success.
 
 ---
 
-## 0. B737 — Candidate Zero: the voice x zeta-pole composition [IN-FLIGHT — hunt-cell #1]
+## 0. B737 — Candidate Zero: the voice x zeta-pole composition [CLOSED 2026-07-21 — OUTCOME B at the crux]
+**Verdict:** P1/P2/P3 = A (the object's voice IS the exact zeta-quotient phi = Lambda_K(s)/Lambda_K(s+1),
+Res phi = 2sqrt3/vol(m004); the voice carries OBJECT-SPECIFIC data — the disc −48 conductor-4 cusp CM
+shape and the level-(4)/(8) character palette — the program's first non-generic spectral data). P4 = B
+(the crux dies: MB12 vacuity across all h=1 fields + object-deletion — the zeta is the FIELD's; "same
+zeta, different role"). Kill-form: genericity/field-not-object. New leads queued: L1 (Eisenstein→BC
+functor, open-problem class), L2 (do m004's conductor-(4)/(8) characters occur with nonzero
+coefficient? — computable). Ledger: width 1→2 as L2 opens. See frontier/B737_candidate_zero/FINDINGS.md.
+
+## 0-bis. [ORIGINAL ENTRY, kept for the record] B737 as posed [was IN-FLIGHT — hunt-cell #1]
 
 Already running; listed first as the lattice's anchor, not scored here. The composition the corpus never
 made: the object's native continuous voice (B735 EMITTANCE — cusp scattering, whose classical carrier is
@@ -138,3 +147,21 @@ Compiler note: entries 3-15 are ranked by revival_score then by directness of th
 The next tier (score 4, not seeded as cells): B166, B191, B225, B307, B367, B372, B374, B385, B394, B412,
 B428, B515, B706, P21 — available if a running cell exhausts and the width budget allows widening, which
 RAISES the look-elsewhere bar for every cell.
+
+
+---
+## FOLDED IN 2026-07-21: cc2's REVISIT REGISTER (209 negatives; ~130 overreach-class; 3 cracks, cc-verified where load-bearing)
+- **NEW CELL (P1-class, CHEAP): B288 straggler re-run.** cc2's register crack #1, live re-execution:
+  24 of 78 Dehn fillings were SILENTLY SKIPPED (a `continue` before the √−3-containment check) — the
+  banked "NO filling re-sees ℚ(√−3)" headline reports a full-grid closure never computed. ACTION:
+  re-run the 24 stragglers. (Width ledger +1.)
+- **RESTATED (cc2's own crack #2):** the B736-P3 "no landing site" leg → "the landing is the C-cal
+  conditional route (low-weight but LIVE)"; the kind-mismatch leg (B706) carries the rigorous negative
+  unchanged. Reflected in B736 FINDINGS addendum.
+- **FIXED (crack #3):** RETRACTIONS.md quadratic-arrow row corrected (its own cited source's D2
+  retracts the "corrected form"; cc-verified against P1_ERRATUM).
+- **STANDING RULE (register-minted, adopted): cite exact_scope, never headlines** — every "X REFUTED"
+  is shorthand for "X refuted for THIS construction, tested THIS way, on THESE objects." The register's
+  ~130 overreach-class items are the corpus-wide evidence.
+- Cross-ref: relay CC2_REVISIT_REGISTER_2026-07-21.md; the register and this compiler are complementary
+  (209 banked negatives vs 172 atlas-dead + walls + tombstones; both converge on the same discipline).

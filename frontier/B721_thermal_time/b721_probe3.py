@@ -245,6 +245,6 @@ p("   the object's own (HEARING) time: the lead DOWNGRADES to a structural analo
 p("   bounded at RUNG 1 (field + vN-type discrimination). FIREWALL: structural only;")
 p("   no cosmology, no SM value; the modular flow is a structural clock.")
 
-with open("/Users/dri/origin-axiom/frontier/B721_thermal_time/b721_probe3_out.txt","w") as f:
+with open("frontier/B721_thermal_time/b721_probe3_out.txt","w") as f:
     f.write("\n".join(out) + "\n")
 print("\n[written] frontier/B721_thermal_time/b721_probe3_out.txt")

@@ -183,6 +183,6 @@ p("    (real-dynamical) structure, a DIFFERENT arithmetic world (Q(sqrt5)) from 
 p("    slope/hyperbolic world (Q(sqrt-3)). golden-prime-5 (Q(sqrt5) disc) and slope-5")
 p("    (ceil 2*sqrt6) are UNRELATED coincidences of the integer 5.  => NO golden forcing.")
 
-with open('/Users/dri/origin-axiom/frontier/B718_child_program/b718_probe4_out.txt','w') as f:
+with open('frontier/B718_child_program/b718_probe4_out.txt','w') as f:
     f.write("\n".join(out) + "\n")
 print("\n[written b718_probe4_out.txt]")

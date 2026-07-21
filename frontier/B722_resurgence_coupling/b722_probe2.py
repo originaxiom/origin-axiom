@@ -314,6 +314,6 @@ p("     the resurgence structure carries NO free continuous parameter for a coup
 p("     occupy: the ONLY freedoms are DISCRETE (lattice index n in Z; the +/- sign a")
 p("     Galois-conjugate choice).  OUTCOME = B  (arithmetically rigid).")
 
-with open("/Users/dri/origin-axiom/frontier/B722_resurgence_coupling/b722_probe2_out.txt","w") as f:
+with open("frontier/B722_resurgence_coupling/b722_probe2_out.txt","w") as f:
     f.write("\n".join(OUT)+"\n")
 print("\n[written b722_probe2_out.txt]")

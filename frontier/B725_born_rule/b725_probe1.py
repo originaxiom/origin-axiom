@@ -332,6 +332,6 @@ p("   via degree(norm)=order(swap)=2 (computed, falsifiable). This is genuine ad
 p("   content over 'a state is defined to give |psi|^2'. FIREWALL: structural/operator-algebra")
 p("   only; no SM value; the observer's choice stays free (B701); Gleason & SSB carry the rest.")
 
-with open("/Users/dri/origin-axiom/frontier/B725_born_rule/b725_probe1_out.txt", "w") as f:
+with open("frontier/B725_born_rule/b725_probe1_out.txt", "w") as f:
     f.write("\n".join(OUT) + "\n")
 print("\n[written] frontier/B725_born_rule/b725_probe1_out.txt")
