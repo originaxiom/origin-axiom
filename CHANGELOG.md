@@ -1,5 +1,9 @@
 # Changelog
 
+## B750 — the lack ledger: the object's refusal to close is threefold (no point, no width, no name)
+- Sealed-enum classification of all 13 banked refusals: UNIFIED-3 (T/torsor ×8, R/rigidity ×3, P/no-inheritance ×2), X empty; every class carries a banked can-fail witness; machine-checkable ledger.json + citation-existence locks.
+- Distilled verdict: the object provides the group but never the choice, the structure but never the variation, the gait but never the name — the observer is the exact complement. Falsification edges declared (c-into-θ; QP-2). Dual of P019.
+
 ## B747 + B748 — the mirror and the V₄ completion: no child re-sees ANY forced face (0/78 × 3)
 - B747 (√5 mirror): MIRROR-SILENT 0/78 (54 by odd-degree theorem on the sealed two-seat table; 24 even-degree fields recomputed + exact test; (3,8) closed by isometry AND direct prec-6000). The (±5,1) children carry no √5 — B437's golden lives in the abelian tower, not the child's identity.
 - B748 (meeting √−15): V₄-SILENT 0/78 + 24/24 consistency re-derivation of B740's √−3 verdicts. Combined: the ENTIRE forced V₄ is an interface/cusp property — lost on every tested closing. Locks test_b747_b748 (4).

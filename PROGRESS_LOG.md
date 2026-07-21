@@ -7081,3 +7081,20 @@ closing loses all three quadratic identities at once. B746's two-column law shar
 closing silences both columns. Scope: census fact (78 fillings), not an all-slopes theorem;
 E20 untriggered (clean negatives). Controls green in both runs (routine ± + m004 pipeline).
 Locks test_b747_b748 (4, artifact-locks — sweeps ran in the Sage env). Nothing to CLAIMS.
+
+## 2026-07-21 — B750: THE LACK LEDGER — the refusal to close is threefold: no point, no width, no name
+The dual of P019 (the chain maps where we chose; this maps where the object cannot), run on
+the owner's GO under a sealed prereg (857f9f81: admission criteria, class enum with banked
+can-fail witnesses, candidate list, two-outcome verdict — all fixed pre-sweep). VERDICT:
+UNIFIED-3 over 13 banked refusals, X empty. T/no-basepoint (8): the two unidentifiable ℤ/2's,
+the anchorless continuum, the obstructed torsor-iso (banked in B700 — citation corrected
+in-sweep), the unchoosable side, the pointless value-space, the unsigned chord, flowless
+time, the unclosed manifold — the object provides the group, never the choice. R/no-bandwidth
+(3): Mostow (CITED, witnessed), the one-channel voice, its being-only content. P/no-name-
+transmission (2): the census triple + the gap as objectivity's edge — sharpened by B437's
+witness: the object transmits its GAIT, never its NAME. Distilled: the object under-
+determines every choice, over-determines every structure, withholds its name at every
+boundary; the observer is the exact complement (picks points, reads the channel, carries the
+name). Falsification edges declared (X; c-into-θ flips T4/T6; QP-2 populates P). Assembly
+arc — no new math beyond citations (all paths lock-verified). Locks test_b750 (4). Nothing
+to CLAIMS.
