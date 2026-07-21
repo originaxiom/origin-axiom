@@ -1,5 +1,12 @@
 # Changelog
 
+## B736 — the A+B+C campaign: object-observer OBSTRUCTED, parameter-reduction NO-GO, consolidation written
+- Owner's A+B+C (=cc2's 1+2+3) as a joint two-seat campaign, locked. Both consensus headlines CONVERGE. All 3 tracks OUTCOME B.
+- Path B (object-observer): OBSTRUCTED — finite-level⇒no-SSB (the β=1 SSB = the ζ_{ℚ(√−3)} pole, absent at finite level) + H³ not Hermitian⇒no Shimura. cc2 converges (B701 generic on the knot-observer).
+- Path C (reduction): ZERO of 24 SM params reduced — equivariance-wall T=0 (disjoint spectra) + kind-mismatch (B706) + bounded ceiling (B733). cc2 converges (no landing site).
+- Path A (consolidate): p1_consolidation.md — a paper-shaped write-up + the R26-4 disposition (forced arithmetic + the self-audit methodology; no SM value).
+- The honest capstone: narrow forced arithmetic; the ambitious doors closed; the contribution = the consolidation + methodology. 4 locks; nothing to CLAIMS. Credit cc2.
+
 ## B733 consensus + B735 — observer-space bounded (two-seat) + the object's emittance
 - B733 TWO-SEAT CONSENSUS: cc2's run confirms bounded + resolves both open items (INERT2 = single shared ℤ/2 across all inert primes; BEINGBIT genuinely arithmetic at (√−3)² → V₄ dim 2 stands). B706 confirmed concretely at the doors.
 - B735 emittance (cc2 Track 2, cc-verified): HEARTBEAT = ℤ[ω] length-spectrum traces (realizations transcendental); VOICE = the cusp (open→continuous, closed→discrete; "closing silences the voice" literal); the being's spectrum embeds in the object's voice.

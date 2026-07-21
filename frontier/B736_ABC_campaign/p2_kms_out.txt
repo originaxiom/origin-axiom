@@ -1,0 +1,187 @@
+
+==============================================================================
+SECTION A -- the single-level observer G_8 = PSL(2, O_3/(8)) is a FINITE group
+==============================================================================
+2 inert in Q(sqrt-3)?  x^2+x+1 irreducible mod 2 : True  => residue field O_3/(2) = F_4, N((2))=4
+level (2)^3=(8):  |O_3/(8)| = 4^3 = 64  (Galois ring GR(8,2), residue F_4)
+|SL(2,F_4)| = q(q^2-1) = 60  (= A_5, since char 2 => SL=PSL at level 2)
+|SL(2,O_3/(8))| = |SL(2,F_4)| * q^(3(k-1)) = 60 * 4096 = 245760
+|center {lambda I: lambda^2=1}| in GR(8,2) = 8  (B734 two-seat: index 6->12)
+|G_8| = |PSL(2,O_3/(8))| = |SL|/8 = 30720
+m004 geometric index [PSL(2,O_3):Gamma] = 12
+=> the OBSERVER (image of Gamma in G_8) has order = 30720/12 = 2560
+REPRODUCES B734:  |G_8|=30720, observer image order 2560, index 12.  [OK]
+
+KEY STRUCTURAL FACT (A): the single-level observer is a FINITE group (order 2560),
+hence any C*-dynamical system built on its (finite-dim) group/groupoid algebra is
+FINITE-DIMENSIONAL.  This is the hinge for Section B.
+
+==============================================================================
+SECTION B -- finite dim => unique Gibbs KMS state per beta => NO SSB (demonstrated)
+==============================================================================
+finite FACTOR H (d=12, single matrix block M_12):  Z(beta) over beta in [0.2,3.0]:
+   min Z = 14.3157  max Z = 3813266.9236  -- finite & positive for ALL beta (entire function)
+   d^2/dbeta^2 log Z (the energy variance / 'specific heat'):
+     finite & smooth, max = 3.0507, no divergence  => NO critical beta, NO SSB.
+
+NON-factor (multi-block) case  (+)_i M_{n_i}, blocks n_i = [1, 3, 3, 4, 5, 5]:
+   #extreme KMS_beta states across beta in [0.2,3.0]: constant = 6 (values seen: [6])
+   => the extreme-point COUNT is beta-INDEPENDENT => NO critical beta => NO SSB,
+      even though the group algebra is not a factor (>1 KMS state is fine; a JUMP is not).
+
+THEOREM used (Bratteli-Robinson II, 5.3.30 / Ex.5.3.32): for a FINITE-dimensional
+C*-system (A, sigma_t=Ad e^{itH}) the extreme KMS_beta states are the per-factor-block
+Gibbs states -- unique when A is a factor, #blocks in general -- each real-analytic in
+beta, with a beta-INDEPENDENT count.  A phase transition (a jump in the extreme-KMS
+count at a critical beta) is IMPOSSIBLE in finite dimension.  => the single-level
+observer (finite, order 2560) CANNOT carry a beta=1 SSB.  [decisive]
+
+==============================================================================
+SECTION C -- the beta=1 SSB = the POLE of ZK(beta): an INFINITE-tower phenomenon
+==============================================================================
+ideal-count a_n sanity (norm n -> #ideals): {1: 1, 2: 0, 3: 1, 4: 1, 7: 2, 13: 2, 5: 0}
+  matches: 2,5 inert (a=0), 3 ramified (a=1), 7,13 split (a=2).  [OK]
+
+beta -> 1+ : the FULL ZK(beta) diverges (pole); truncations stay finite:
+ beta      Z_{N<=100}   Z_{N<=10^4}   Z_{N<=10^6}   full ZK (Hurwitz/L)
+  1.30       2.1184       2.4956       2.5908    2.6227527
+  1.10       2.8197       4.2230       5.1112    6.6298473
+  1.03       3.1821       5.4410       7.4135    20.728663
+  1.01       3.3009       5.8930       8.3744    61.032859
+
+Residue of ZK at beta=1 (class no. formula, h=1,w=6,|d|=3) = 2*pi*h/(w*sqrt|d|) = 0.60459979 > 0
+=> ZK has a genuine simple POLE at beta=1.  The CMR beta=1 SSB IS this pole.
+
+KEY STRUCTURAL FACT (C): the finite truncations Z_{N} are FINITE Dirichlet
+POLYNOMIALS -- entire, no pole, bounded through beta=1 (see table).  The pole (=> the
+SSB) requires the INFINITE sum over ALL ideals = the FULL congruence/adele tower.
+A single modulus (finite level) truncates the sum => NO pole => NO beta=1 SSB.
+This is the concrete form of 'single-modulus can't carry the SSB; needs the full tower'
+(the mechanism behind Bruce-Laca-Takeishi's partition-function-as-invariant of the
+FULL system).
+
+==============================================================================
+SECTION D -- ROUTE (a) Shimura route is DEAD: H^3 is NOT Hermitian symmetric
+==============================================================================
+Bianchi symmetric space X = H^3 = SL(2,C)/SU(2),  dim_R X = 3 (ODD).
+A Hermitian symmetric space is a complex manifold => EVEN real dimension.
+dim_R H^3 = 3 is odd => H^3 carries NO invariant almost-complex structure
+       => H^3 is NOT Hermitian symmetric.
+Deligne's Shimura datum (G,X): the axioms force X to be a Hermitian symmetric domain
+(WebFetch-verified: 'Deligne proves X has the structure of a Hermitian symmetric domain';
+ 'a Shimura variety = quotient of a Hermitian symmetric space by a congruence subgroup').
+For the Bianchi case G = Res_{K/Q}GL(2), K=Q(sqrt-3): G_R = GL(2,C), symmetric space H^3.
+=> (Res_{K/Q}GL(2), H^3) is NOT a Shimura datum; Gamma\H^3 (Bianchi orbifold) is a real
+3-orbifold, NOT an algebraic variety over a number field -- no canonical model, no CM-point
+reciprocity law.  The Connes-Marcolli / Ha-Paugam 'fabulous states' (arithmetic subalgebra
+whose extremal-ground-state values generate K^ab, Galois acting by reciprocity) are DEFINED
+VIA that Shimura reciprocity.  No Shimura variety => that Galois-on-KMS mechanism cannot be
+built for the Bianchi case.  ROUTE (a) CANNOT REACH THE BIANCHI CASE.  [obstruction, clean]
+
+Contrast (why the classical cases work): GL(2)/Q and the GL(1)/CM (CMR) systems live over
+the upper half-plane H (dim_R = 2, EVEN => Hermitian => modular curve = Shimura variety).
+CMR realize Problem 1.1 for K imaginary quadratic there, but it is the ABELIAN GL(1)/CM
+sub-system: symmetry = idele class group C_K/D_K, Galois = Gal(K^ab/K) (ABELIAN, class field
+theory).  It sees the FIELD Q(sqrt-3), not m004's NON-ABELIAN Bianchi holonomy (B723 catch).
+
+==============================================================================
+SECTION E -- ROUTE (b) bare Bianchi-Hecke: SSB needs the infinite pair, not one level
+==============================================================================
+Hecke pair for the object: (Gamma, Comm(Gamma)), Gamma = pi_1(m004) c PSL(2,O_3).
+Margulis commensurability criterion: Gamma arithmetic <=> Comm(Gamma) DENSE; here
+Comm(Gamma) = PGL(2,K), K=Q(sqrt-3) -- the K-rational points, dense in PSL(2,C).
+So (Gamma, PGL(2,K)) is a genuine (infinite) Hecke pair; its reduced Hecke C*-algebra is
+the natural non-abelian Bost-Connes candidate.  BUT:
+ - a SINGLE congruence level replaces Comm(Gamma) by the FINITE quotient
+   Gamma/Gamma(n) c PSL(2,O_3/n) (order 2560 at (8)) => finite-dim algebra
+   => unique Gibbs KMS per beta => NO SSB (Section B).
+ - the SSB requires the FULL (infinite) Hecke pair: the analytic engine is the zeta pole
+   (Section C), which is an infinite-tower object.
+ - a finite Galois group acting AS the symmetry breaking on low-T states is exactly the
+   fabulous-states Galois action = the Shimura reciprocity mechanism = ROUTE (a) = DEAD
+   for H^3 (Section D).  The abelian substitute (CMR, Bruce) breaks over an ABELIAN ray/
+   ideal class group -- for Q(sqrt-3) content-free at these 2-power levels (Cl_(2)=triv,
+   Cl_(4)=Z/2) -- NOT a non-abelian Bianchi observer symmetry.
+
+Literature status (WebFetch-verified): every BUILT single-modulus number-field KMS system
+with an SSB is ABELIAN/class-field: Bruce arXiv:1902.03521 (congruence monoids) breaks at
+beta=2 over a RAY CLASS GROUP (abelian), type III_1 on [1,2]; CMR (beta=1) breaks over
+Gal(K^ab/K) (abelian).  A single-level NON-ABELIAN Bianchi-Hecke system carrying a beta=1
+SSB with a finite Galois symmetry-breaking is NOT built anywhere, and its only known
+construction route (Shimura fabulous states) is provably obstructed for H^3.
+
+==============================================================================
+VERDICT -- OUTCOME B (OBSTRUCTED)
+==============================================================================
+Two independent, in-sandbox obstructions kill the observer-property at a single non-abelian
+Bianchi level:
+
+ (i)  FINITE-LEVEL / NO-SSB (Sections A,B,C -- computed).  The single-level observer is a
+      FINITE group (order 2560 at (8)); any C*-dynamical system on its finite-dim algebra has a
+      UNIQUE Gibbs KMS_beta state for every beta and is analytic in beta -- a phase transition is
+      impossible in finite dimension.  The beta=1 SSB the observer needs IS the POLE of the
+      Dedekind zeta ZK(beta) (CMR Problem 1.1(2)); the pole is an INFINITE-tower phenomenon,
+      killed by any single-modulus truncation (Z_N is an entire Dirichlet polynomial, bounded
+      through beta=1).  => a single modulus CANNOT carry the SSB; it needs the full tower.
+
+ (ii) SHIMURA / GALOIS-ACTION (Section D -- computed + primary-source-fixed).  The symmetry-
+      breaking Galois action (fabulous states) is defined only via a Shimura variety's canonical
+      model + CM-point reciprocity, which requires the symmetric space be HERMITIAN symmetric.
+      The Bianchi space H^3 = SL(2,C)/SU(2) has ODD real dim 3 => no complex structure => NOT
+      Hermitian => (Res_{K/Q}GL(2), H^3) is NOT a Shimura datum, Gamma\H^3 is not an algebraic
+      variety.  The Connes-Marcolli/Ha-Paugam route CANNOT reach the Bianchi case.
+
+The only BUILT single-modulus SSB systems (Bruce beta=2 ray-class; CMR beta=1 Gal(K^ab/K)) are
+ABELIAN class-field systems that see the FIELD Q(sqrt-3), not m004's non-abelian Bianchi holonomy
+(the B723 catch, one level up).  A single-level non-abelian Bianchi KMS observer with the beta=1
+SSB is therefore OBSTRUCTED: unbuilt, with its finite version provably SSB-free and its Galois
+mechanism provably Shimura-blocked.
+
+FORCED (proven in-sandbox):
+  * the single-level observer is finite (order 2560) => finite-dim => no phase transition;
+  * the beta=1 SSB = the ZK pole = an infinite-tower object, absent at any single level;
+  * H^3 is not Hermitian symmetric => the Shimura fabulous-states Galois action is unavailable.
+OPEN (honest):
+  * a pure NON-EXISTENCE theorem for ANY (necessarily infinite) non-abelian Bianchi-Hecke system
+    carrying a beta=1 SSB with a finite Galois symmetry-breaking is NOT proven here (nor known);
+    but that object is (1) not 'single-level', and (2) has no known construction route, the
+    natural one (Shimura) being obstructed.  So it is not a positive -- the verdict is B.
+
+VERDICT: B  (obstructed).  Cross-verify target (with cc2): exists-with-SSB vs obstructed -> B.
+
+
+==============================================================================
+PRIMARY SOURCES (WebFetch / WebSearch verified during this run, 2026-07-21)
+==============================================================================
+[S1] A. Connes, M. Marcolli, N. Ramachandran, "KMS states and complex multiplication"
+     (math.umd.edu/~atma/CMRshort2.pdf; Selecta Math 2005).  Problem 1.1 = the OBSERVER
+     PROPERTY exactly: (2) phase transition with SSB at the POLE beta=1 of ZK; (3) unique
+     equilibrium above beta=1; (4) C_K/D_K acts as symmetries; (5)-(6) fabulous states +
+     Galois via theta: C_K/D_K -> Gal(K^ab/K).  Realized for K imaginary quadratic -- but the
+     ABELIAN GL(1)/CM system (idele class group; sees the FIELD, not the Bianchi holonomy).
+     [PDF read in-sandbox, pages 1-6.]
+[S2] C. Bruce, "Phase transitions on C*-algebras from actions of congruence monoids on rings
+     of algebraic integers" (arXiv:1902.03521; IMRN 2021).  Single-modulus number-field
+     KMS system: UNIQUE KMS_beta of type III_1 for beta in [1,2]; phase transition at
+     beta=2; below it the extremal states decompose over a QUOTIENT OF A RAY CLASS GROUP
+     (ABELIAN).  => the built single-modulus SSB is abelian/class-field, at beta=2, not a
+     non-abelian Bianchi beta=1 observer.  [abstract WebFetch-verified.]
+[S3] E. Ha, F. Paugam, "Bost-Connes-Marcolli systems for Shimura varieties" (arXiv:math/0507101;
+     IMRP 2005).  General Shimura-datum (G,X) BC-Marcolli systems; the fabulous-states/arith-
+     subalgebra Galois action is built via the Shimura variety's canonical model + CM reciprocity.
+[S4] Deligne's Shimura datum (G,X): the axioms FORCE X to be a HERMITIAN symmetric domain;
+     a Shimura variety = quotient of a Hermitian symmetric space by a congruence subgroup
+     (WebSearch-verified, multiple refs incl. Wikipedia 'Shimura variety', EPFL/Stanford notes).
+     => H^3 = SL(2,C)/SU(2) (dim_R 3, odd, not Hermitian) is NOT a Shimura datum: ROUTE (a) dead.
+[S5] Finite-dim => unique/beta-independent KMS => NO phase transition (Bratteli-Robinson II
+     5.3.30/Ex.5.3.32; Derezinski-Pillet KMS notes; WebSearch-verified: "finite dimensional
+     systems have a unique KMS state ... cannot exhibit phase transitions; the thermodynamic
+     limit is essential").  => ROUTE (b) at a single (finite) level cannot carry SSB.
+[S6] Bruce-Laca-Takeishi, "Partition functions as C*-dynamical invariants and actions of
+     congruence monoids" (CMP 382 (2021) 1165): the partition function is an invariant of the
+     FULL system -- the SSB/analytic content lives in the whole tower, not a single modulus.
+[B734] (in-repo, two-seat) m004 congruence at level (2)^3=(8); observer image order 2560 in
+     G_8=PSL(2,O_3/(8)) order 30720, index 12 -- reproduced in Section A.
+[B723] (in-repo) the CMR observer is FIELD-scoped (Gal(K^ab/K) sees Q(sqrt-3), shared by
+     m003/m004/m006/m007); the OBJECT-level (m004 Bianchi) observer is the open door P2 tests.
+
