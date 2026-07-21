@@ -1,0 +1,107 @@
+{
+ "relation": {
+  "relation_words_satisfied": [],
+  "tr_AB": "(2, -1)",
+  "tr_commutator": "(1, 1)"
+ },
+ "humbert": {
+  "L2_chi3": "0.7725",
+  "zetaK2": "1.27071156664025492217494071623",
+  "vol_orbifold": "0.167251156105869713656244037352",
+  "vol_m004_series": "2.00701387327043656387492844822",
+  "vol_m004_snappy": 2.029883212819307,
+  "index_ratio": "12.0"
+ },
+ "snappy": {
+  "generators": [
+   "a",
+   "b"
+  ],
+  "relators": [
+   "aaabABBAb"
+  ],
+  "tr(a)": "(-1.4999999999999991+0.8660254037844389j)",
+  "tr(b)": "(0.9999999999999997-1.7320508075688763j)",
+  "tr(ab)": "(-1.9999999999999984-7.771561172376096e-16j)",
+  "tr(aB)": "(1.9999999999999996+3.4641016151377526j)",
+  "tr(abAB)": "(1.4999999999999982+0.8660254037844374j)"
+ },
+ "level_2": {
+  "M": 2,
+  "ambient": 60,
+  "ambient_src": "BFS-computed",
+  "n_center": 1,
+  "img_with_minus": 10,
+  "img_bare": 10,
+  "center_in_bare_img": 1,
+  "minus_in_bare": true,
+  "T_SL_index": 6,
+  "T_PSL_index": 6,
+  "secs": 0.0
+ },
+ "level_4": {
+  "M": 4,
+  "ambient": 3840,
+  "ambient_src": "BFS-computed",
+  "n_center": 4,
+  "img_with_minus": 320,
+  "img_bare": 320,
+  "center_in_bare_img": 2,
+  "minus_in_bare": true,
+  "T_SL_index": 12,
+  "T_PSL_index": 6,
+  "secs": 0.1
+ },
+ "level_8": {
+  "M": 8,
+  "ambient": 245760,
+  "ambient_src": "BFS-computed",
+  "n_center": 8,
+  "img_with_minus": 20480,
+  "img_bare": 20480,
+  "center_in_bare_img": 8,
+  "minus_in_bare": true,
+  "T_SL_index": 12,
+  "T_PSL_index": 12,
+  "secs": 6.7
+ },
+ "level_16": {
+  "M": 16,
+  "ambient": 15728640,
+  "ambient_src": "lifting-formula [C3]",
+  "n_center": 8,
+  "img_with_minus": 1310720,
+  "img_bare": 1310720,
+  "center_in_bare_img": 8,
+  "minus_in_bare": true,
+  "T_SL_index": 12,
+  "T_PSL_index": 12,
+  "secs": 40.0
+ },
+ "level_3": {
+  "M": 3,
+  "ambient": 648,
+  "ambient_src": "BFS-computed",
+  "n_center": 2,
+  "img_with_minus": 648,
+  "img_bare": 648,
+  "center_in_bare_img": 2,
+  "minus_in_bare": true,
+  "T_SL_index": 1,
+  "T_PSL_index": 1,
+  "secs": 0.0
+ },
+ "level_5": {
+  "M": 5,
+  "ambient": 15600,
+  "ambient_src": "BFS-computed",
+  "n_center": 2,
+  "img_with_minus": 15600,
+  "img_bare": 15600,
+  "center_in_bare_img": 2,
+  "minus_in_bare": true,
+  "T_SL_index": 1,
+  "T_PSL_index": 1,
+  "secs": 0.8
+ }
+}

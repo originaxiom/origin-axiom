@@ -1,3 +1,16 @@
+# ⚠️ RETRACTED / CORRECTED BY B734 (2026-07-20)
+
+**THE HEADLINE OF THIS FILE IS WRONG.** B731 concluded m004 is NON-congruence by checking only
+levels 2–6 and inferring the 2-adic index had stabilized at 6. It had NOT: the index jumps to 12
+(the geometric index) at level (2)³=(8), so **m004 IS a congruence subgroup, at level (8)** (cc2
+computed it; cc verified — see B734, and the error is logged as E22). What survives from B731: the
+level-2 and level-4 index-6 computations (correct); the E21 SL/PSL-center lesson (correct). What
+flips: the "non-congruence / no finite congruence observer / NO-GO" conclusion — RETRACTED. The
+object-level observer EXISTS for the knot too, at level (8). The text below is kept for the record
+with this correction on top.
+
+---
+
 # FINDINGS — B731: the figure-eight knot group is NON-CONGRUENCE — the knot has no finite congruence observer
 
 cc banking seat, 2026-07-20. The go/no-go verification for the object-level observer door (R26-5),

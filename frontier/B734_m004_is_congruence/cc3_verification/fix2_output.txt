@@ -1,0 +1,9 @@
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+L(2,chi-3) = 0.781302412896486296867187429624
+vol orbifold (Humbert) = 0.169156934401608937503533759046
+vol m004 (snappy, independent) = 2.0298832128
+ratio = 11.9999999998858619062191903409
+B21 = -z (z=6th root): 0 relation hits []
+B21 = -(1-z)=zbar-neg: 0 relation hits []
+B21 = +z: 4 relation hits [('wA=Bw', 'aBAb'), ('wA=Bw', 'AbaB'), ('Aw=wB', 'bABa'), ('Aw=wB', 'BabA')]
+B21 = +(1-z): 4 relation hits [('wA=Bw', 'aBAb'), ('wA=Bw', 'AbaB'), ('Aw=wB', 'bABa'), ('Aw=wB', 'BabA')]

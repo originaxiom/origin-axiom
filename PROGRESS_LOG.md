@@ -6979,3 +6979,24 @@ Owner 'build it': construct the observer. Advanced multiagent loop campaign (web
 
 ## B724 — the SEEING-STRATEGY re-adjudication: every verdict computed (corrects E19) (2026-07-20)
 Owner: my first adjudication of chat-1's SEEING STRATEGY over-relied on cited negatives (E19). Re-adjudicated ALL of it by COMPUTING the discriminating fact + base-rate (20 agents, compute-not-cite). C1 SOUND (recomputed: σ_ω(4₁)=0 vector-like + the chirality torsor = B713 -- the ONE sound piece; the V-A/E₆ lift is an open mechanism). C2 BLOCKED (Fox-calculus recompute: 27=Sym16+Sym8+Sym0, the 3 H¹ classes are incommensurable 17/9/1, NOT a symmetric spatial triad -> h¹=3≠3 space dims; no route to 3+1). C3 REFUTED (Sturmian p(n)=n+1 zero-entropy + amphichiral no-arrow). C4 BASE-RATE-DEAD (the FORCED θ-odd ratio τ₈/τ₄=10^14.59 misses the hierarchy by ×259; 6/6 famous dimensionless ratios have torsion near-hits -> look-elsewhere; the τ₁₁/τ₈≈10^16.84 hit is post-hoc). C5 REFUTED (4 points = measure-zero, 0 of 19 continuous dims). Path1 NO-IDENTITY (GGM eq80 recomputed 1-8q-9q²+18q³+...; only common integer=3 the forced ℚ(√−3) prime; chat-1 MIS-QUOTED the series). REUSABLE LESSON: the torsion spectrum has a factor-3 near-hit for ANY dimensionless target (~2.3 combos/decade) -> a torsion≈ratio needs a FORCED rule beating look-elsewhere. Corrects both prior passes (over-cited first, over-generous second). Sealed c99fc733; test_b724_seeing (4 locks). Credit chat-1. Nothing to CLAIMS.
+
+## B734 BANKING REPAIR + third-seat verification: congruence CONFIRMED, standard level = (4) (cc3, 2026-07-21)
+Audit-seat finding on arrival (the negatives-hunt scrutiny seat, per the 2026-07-21 handoff): PR #1217
+("B734 ... CORRECTING B731") merged containing ONLY the test_b731 deletion — the B734 FINDINGS, the
+test_b734 locks, the B731 retraction header, E22, and the R26-5 correction were left uncommitted in the
+banking seat's working tree, so main HEAD carried the RETRACTED "m004 is NON-congruence" with no notice,
+an E-ledger ending at E21, and atlas-fresh broken on any clean checkout (atlas 673 vs 672 tracked
+B-dirs); no CI exists on the remote to catch partial merges (core.yml itself uncommitted). THIS PR banks
+the six files byte-faithful (verified cmp vs the banking seat's tree) + a third-seat verification
+(independent implementation: different ring basis; ambient |SL(2,O_3/m)| BFS-computed from elementary
+generators, not cited; both index conventions; odd primes; Humbert-vs-SnapPy geometric-index check
+11.9999999999; the fig-8 relation wA=Bw, w=AB'A'B verified EXACTLY over Z[zeta] for the Riley pair).
+EVERY B734/E21/E22/cc2-stage-2 number reproduces: mod-center indices 6,6,12 at (2),(4),(8), stable at
+16. NEW (strengthens B734, pending cc2 cross-verify): under the STANDARD principal-congruence definition
+(SL-kernel), the level-(4) test ALREADY gives index 3840/320 = 12 = geometric => Gamma contains
+P-Gamma((4)); minimality computed => the standard congruence level is EXACTLY (4); "(8)" is the level
+for the mod-center filtration Gamma-hat only (E21's "alone decides" was an over-correction — proposed
+E23, held for two-seat consensus; LAW_MAP rows 128/129 untouched until then). The sisters: m003 at
+(2)^1, m004 at (2)^2 standard / (2)^3 mod-center. Artifacts + sealed hashes in
+frontier/B734_m004_is_congruence/cc3_verification/ + ADDENDUM_CC3_2026-07-21.md. Serre-defying caveat
+stands (a fortiori); nothing to CLAIMS.
