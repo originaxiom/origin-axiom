@@ -1,5 +1,10 @@
 # Changelog
 
+## B741 — the fact_computed provenance sweep: 5 located, 5 recompute cells, 2 resolved
+- The 12 B525-signature ids dispositioned (48/48 pointers existence-verified). 5 kills now B525-clean with satellite pointers (B412/B433/B579/B668/W7).
+- 5 genuine recompute cells queued: B140 (small), B332 (small, prereg the ratio set), B685 (MEDIUM — the terminal no-go's GSWZ discriminator is cited-not-in-repo), B720, S019.
+- 2 already-resolved (B435→B437, B731→B734). Provenance only; no kill touched.
+
 ## B740 — the B288 grid completed: the kill earned on 78/78 (hunt-cell #3, B)
 - cc2's crack confirmed in substance (banked record = 54/78; 24 hyperbolic fillings never analyzed) — then CLOSED by full recomputation.
 - 60 fields deg≤24 + 11 deep (19–31) + 7 by the amphichirality shortcut (4₁(p,q)≅4₁(−p,q), 7/7 isometries verified): NONE contains √−3.
