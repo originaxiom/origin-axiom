@@ -7030,3 +7030,18 @@ asserts new structure (E20 not triggered, verified per-revival). Locks test_b742
 audit findings + the B734 level-(4) refinement (cc concurs; cc2 pending): see #1227/#1229 +
 AUDIT sections of the arc. Credit: cc's B738 compiler is the independent cross-check lane;
 chat-1's conductor decomposition partially rehabilitated by the B225 revival. Nothing to CLAIMS.
+
+## 2026-07-21 — B745: the B742 revivals cross-verified — CONFIRMED ×2 (headers applied)
+The audit seat's two revivals from the negatives hunt pass the two-layer cross-verify in the
+banking seat: (1) both recompute.py re-executions IDENTICAL to the banked outputs; (2) five
+independent exact checks, all PASS — charpoly of B65's exact J(1) == the Fibonacci 7-factor
+product char(A⁻¹)char(A)char(A²)char(A³)char(A⁴)char(−A²)(t−1)²(t+1) (with the cat-map
+negative control failing as it must); the −φ² sign-sector closure lemma; my own 8×8 SL(3)
+fixed-line Jacobian from B48 conventions == the exact anchor; disc_z mod 2 always a square
+(30 seeded inputs — B225's criterion can never fail); the 11a3 Δ=−11 false-positive control
+re-derived. Consequences applied: correction headers on B58_sl4_tower_test (the "cannot be
+tested numerically" headline negated; the necessary degeneracy component stands) and
+B225_conductor_decomposition_test (the "2 = parent REFUTED" half retracted as vacuous, OPEN;
+the golden half stands); B742's pending line resolved; shortlist re-ranked (B58 = the SL(5)+
+numerical tower door opens). Neither revival asserts new structure (E20 untriggered). Locks
+test_b745 (4). Closes R27-4. Nothing to CLAIMS.

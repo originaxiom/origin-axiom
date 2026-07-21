@@ -3819,6 +3819,8 @@
    ],
    "refs": [
     "B211",
+    "B742",
+    "B745",
     "L44",
     "P1",
     "P16",
@@ -15272,6 +15274,7 @@
     "B735",
     "B738",
     "B741",
+    "B745",
     "B80",
     "L241",
     "L247",
@@ -15342,6 +15345,26 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B745": {
+   "slug": "revivals crossverify",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden"
+   ],
+   "refs": [
+    "B225",
+    "B48",
+    "B58",
+    "B65",
+    "B731",
+    "B742"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B74": {
    "slug": "higher spin grading",

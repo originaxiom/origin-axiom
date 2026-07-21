@@ -179,3 +179,14 @@ question (the newform Maass spectrum itself) is owner-gated (Hejhal-class machin
 The register's crack (54/78 banked) closed by full recomputation: 60 direct + 11 deep + 7 by the
 amphichirality shortcut (7/7 isometries verified). No filling contains √−3 — the kill is EARNED.
 Width ledger: 3 cells closed. Next: B500 reopen; the fact_computed sweep is in flight (B741).
+
+---
+## RE-RANK 2026-07-21 (post-B745): the two revivals are CONFIRMED — one new door opens
+B742's revivals cross-verified CONFIRMED ×2 (B745: re-execution identical + 5 independent exact
+checks). Ranking consequences: **B58 rises to an open DOOR** — "the SL(4) tower prediction cannot
+be tested numerically" is negated; the ε-extrapolated pinv route computes the ambient fixed-line
+Jacobian (validated vs the exact SL(3) anchor + B65's exact J(1)), so the SL(5)+ numerical tower
+is now a computable target (the old B61/B66 n=6 ceiling gets a fresh instrument). **B225 returns
+to OPEN** (score-4 tier stands): the octahedral-parent half is undecided, pending genuine
+(Jacobian-conductor) 2-parts of non-twist 2-bridge character varieties — a well-posed cell, not
+a revival-claim. Neither is a new positive (E20 untriggered).
