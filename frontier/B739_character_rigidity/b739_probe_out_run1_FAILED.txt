@@ -1,0 +1,29 @@
+
+==============================================================================
+PART 0.1 -- field arithmetic of K = Q(sqrt(-3)) recomputed from scratch
+==============================================================================
+  [PASS] unit number w_K = 6  (units [(-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0)])
+  [PASS] Minkowski bound (2/pi)sqrt3 < 2  =>  h(K) = 1
+  [PASS] #ideals of norm n == sum_(d|n) chi_-3(d), n <= 1500 (grounds zeta_K = zeta * L(chi))
+  [PASS] Res_{s=1} zeta_K = L(1,chi) = 2 pi /(6 sqrt3) (class number formula)
+  [PASS] Lambda_K(s) = Lambda_K(1-s) at 3 complex points
+
+==============================================================================
+PART 0.2 -- the object: m004 facts recomputed (snappy)
+==============================================================================
+  [PASS] m004 has exactly ONE cusp, complete  (num_cusps = 1)
+  [PASS] tetrahedra shapes satisfy z^2 - z + 1 = 0  (trace field Q(sqrt-3))  (max residual 9.33e-61)
+  [PASS] vol(m004)/vol(PSL(2,O_3)\H^3) = 12  (covering degree)  (ratio = 12.0)
+  [PASS] cusp modulus of m004 = 2 sqrt(-3)  (tau = (8.9635725322197026264e-65 + 3.4641016151377545871j))
+  [PASS] |Isom(m004)| = 8 < 12: the cover is NON-normal (context; the lemma below needs NO normality)
+
+==============================================================================
+PART 0.3 -- the two lattices, exactly (sympy)
+==============================================================================
+  [PASS] 2+4w = 4 + 2 sqrt(-3), hence Z+(2+4w)Z = Z + 2 sqrt(-3) Z (differ by 4 in Z)
+  [PASS] 2 sqrt(-3) = -2 + 4w  (Lam-basis O-coords (1,0) and (-2,4))
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B739_character_rigidity/b739_probe.py", line 198, in <module>
+    snf = sp.Matrix.hstack(*[c for c in Mcoords.columns()])  # placeholder, SNF below
+                                        ^^^^^^^^^^^^^^^
+AttributeError: 'MutableDenseMatrix' object has no attribute 'columns'

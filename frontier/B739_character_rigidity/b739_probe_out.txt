@@ -1,0 +1,337 @@
+
+==============================================================================
+PART 0.1 -- field arithmetic of K = Q(sqrt(-3)) recomputed from scratch
+==============================================================================
+  [PASS] unit number w_K = 6  (units [(-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0)])
+  [PASS] Minkowski bound (2/pi)sqrt3 < 2  =>  h(K) = 1
+  [PASS] #ideals of norm n == sum_(d|n) chi_-3(d), n <= 1500 (grounds zeta_K = zeta * L(chi))
+  [PASS] Res_{s=1} zeta_K = L(1,chi) = 2 pi /(6 sqrt3) (class number formula)
+  [PASS] Lambda_K(s) = Lambda_K(1-s) at 3 complex points
+
+==============================================================================
+PART 0.2 -- the object: m004 facts recomputed (snappy)
+==============================================================================
+  [PASS] m004 has exactly ONE cusp, complete  (num_cusps = 1)
+  [PASS] tetrahedra shapes satisfy z^2 - z + 1 = 0  (trace field Q(sqrt-3))  (max residual 9.33e-61)
+  [PASS] vol(m004)/vol(PSL(2,O_3)\H^3) = 12  (covering degree)  (ratio = 12.0)
+  [PASS] cusp modulus of m004 = 2 sqrt(-3)  (tau = (8.9635725322197026264e-65 + 3.4641016151377545871j))
+  [PASS] |Isom(m004)| = 8 < 12: the cover is NON-normal (context; the lemma below needs NO normality)
+
+==============================================================================
+PART 0.3 -- the two lattices, exactly (sympy)
+==============================================================================
+  [PASS] 2+4w = 4 + 2 sqrt(-3), hence Z+(2+4w)Z = Z + 2 sqrt(-3) Z (differ by 4 in Z)
+  [PASS] 2 sqrt(-3) = -2 + 4w  (Lam-basis O-coords (1,0) and (-2,4))
+  [PASS] [O : Lam] = |det| = 4 with SNF diag(1,4): quotient O/Lam cyclic Z/4
+  [PASS] w generates O/Lam = Z/4 (k*w in Lam only for k = 0 mod 4; k=1,2,3 miss)
+  [PASS] cusp-degree bookkeeping: [O x| Z_3 : Lam] = 4 x 3 = 12 = covering degree (one cusp over one cusp, full multiplicity)
+
+==============================================================================
+PART 0.4 -- dual lattices, exactly (sympy)
+==============================================================================
+  [PASS] O^v basis  = (1,-1/sqrt3), (0,2/sqrt3)
+  [PASS] Lam^v basis = (1,0), (0,1/(2 sqrt3))
+  [PASS] O^v subset Lam^v with coord matrix [[1,0],[-2,4]], index 4, SNF diag(1,4)
+  membership criterion: nu = n1 v1 + n2 v2 in O^v  <=>  2 n1 + n2 = 0 mod 4
+  [PASS] criterion verified exactly on the block |n1|<=4, |n2|<=8
+
+==============================================================================
+PART 0.5 -- the palette recomputed: |(O/2^k)^x / im(mu_6)| = 1, 2, 8
+==============================================================================
+  level (2):  |(O/2)^x|  = 3,  |im mu_6| = 3,  quotient = 1
+  level (4):  |(O/4)^x|  = 12,  |im mu_6| = 6,  quotient = 2
+  level (8):  |(O/8)^x|  = 48,  |im mu_6| = 6,  quotient = 8
+  [PASS] palette sizes 1, 2, 8 at levels (2), (4), (8)  (B737-P3 datum recomputed)
+
+==============================================================================
+PART 0.6 -- the base scattering re-derived: phi_O(s) = Lambda_K(s-1)/Lambda_K(s)
+==============================================================================
+  [PASS] unfolding integral int_{R^2} (1+|x|^2)^(-s) dx = pi/(s-1)  (sympy: pi*gamma(s - 1)/gamma(s))
+  [PASS] local Euler factor sum_k Phi(p^k) q^(-ks) = (1-q^-s)/(1-q^(1-s))  =>  sum_A Phi(A) N(A)^-s = zeta_K(s-1)/zeta_K(s)
+  [PASS] V(F_L) = covol(O) = sqrt3/2
+  [PASS] phi_O(s) = (2pi/(sqrt3 (s-1))) zeta_K(s-1)/zeta_K(s) = Lambda_K(s-1)/Lambda_K(s)  (Gamma(s) = (s-1)Gamma(s-1))
+  (coset/unit bookkeeping restated: Gamma_oo\Gamma <-> coprime bottom rows
+  (c,d) mod O^x; c=0 the single coset giving y^s coefficient exactly 1; c!=0
+  unfolds d mod cO against the integral above with N(c)=|c|^2; the D=3 unit
+  and order-3 rotation bookkeeping was re-derived in-seat in B737-P1 (69/69)
+  and the three load-bearing identities are re-proven above.)
+  [PASS] derived form == completed form at a random complex s
+  [PASS] |phi_O(1+it)| = 1 (unitary on the continuous spectrum)
+  [PASS] phi_O(s) phi_O(2-s) = 1
+
+==============================================================================
+PART A -- (a) FOURIER RESTRICTION under the torus covering C/Lam -> C/O
+==============================================================================
+PROPOSITION (Fourier restriction).  Let Lam < L be lattices in R^2 of
+index N, F an L-periodic smooth function, mu in Lam^v.  Then the pullback of
+F along C/Lam -> C/L (i.e. F itself, read as Lam-periodic) has
+  a_mu = (1/covol Lam) int_{C/Lam} F(x) e(-<mu,x>) dx
+       = (1/(N covol L)) sum_{r in L/Lam} int_{C/L} F(x+r) e(-<mu,x+r>) dx
+       = [ (1/N) sum_{r in L/Lam} e(-<mu,r>) ] * (1/covol L) int_{C/L} F e(-<mu,.>).
+The bracket: r |-> e(-<mu,r>) is a WELL-DEFINED character of the finite
+group L/Lam precisely because mu in Lam^v; by character orthogonality the
+sum is N if the character is trivial (<=> mu in L^v) and 0 otherwise.  Hence
+  (i)   Fourier support of the pullback lies in L^v subset Lam^v;
+  (ii)  for mu in L^v the Lam-coefficient EQUALS the L-coefficient;
+  (iii) mu = 0: the Lam-constant term = the L-constant term.        QED
+(Elementary and complete; the only inputs are periodicity and finite-group
+character orthogonality.  Verified exactly and numerically below for our
+pair Lam = Z+2sqrt(-3)Z < O, N = 4.)
+  [PASS] <n1 v1 + n2 v2, w> = n1/2 + n2/4 exactly
+  [PASS] character sum over O/Lam: sum_k e(-<mu, k w>) = 4*[mu in O^v], 14 dual points exact (all four classes of Lam^v/O^v hit)
+  [PASS] aliasing-free grid: |p1-n1| <= 4 < N1 = 7 and |p2-n2| <= 17 < N2 = 27
+  [PASS] ALL 75 Lam-Fourier coefficients (|n1|<=2, |n2|<=7) match the restriction prediction: = base coefficient on O^v, = 0 off O^v  (max err < 1e-25)
+  [PASS] O-torus DFT recovers all 9 base coefficients (constant term included: Lam-constant term == O-constant term)
+  [PASS] adaptive quad, nu=(1,-2) in O^v: = c_(1,0)  (err 9.47e-22)
+  [PASS] adaptive quad, nu=(0,1) NOT in O^v: = 0  (|val| 1.35e-22)
+
+==============================================================================
+PART B -- (b) THE ONE-CUSP LEMMA re-derived (function-level equality)
+==============================================================================
+LEMMA (one cusp over one cusp => exact scalar transfer).
+  Gamma = PSL(2,O_3), Gamma' < Gamma the index-12 m004 group (one cusp each,
+  PART 0.2 / [S] l.658 with h=1).  Read constant terms in the same intrinsic
+  height y (conventions block).  Then
+        E_m004(., s) = E_orb(., s)  AS FUNCTIONS on H^3, and in particular
+        phi_m004(s) = phi_O(s) = Lambda_K(s-1)/Lambda_K(s)   IDENTICALLY.
+
+PROOF (every step numbered; verification status per step at the end).
+ (1) g := E_orb(., s), read as a Gamma'-invariant function (Gamma' < Gamma:
+     the pullback along Gamma'\H^3 -> Gamma\H^3 is LITERALLY the same
+     function on H^3).  It is smooth, -Delta g = s(2-s) g, of moderate
+     growth in the cusp  [continuation + growth: standard input S1].
+ (2) CONSTANT TERM of g along the m004 cusp: g is (O x| Z_3)-invariant, in
+     particular O-periodic, with O-constant term y^s + phi_O(s) y^(2-s)
+     ([S] (2.6)', re-derived in PART 0.6).  Its m004-cusp constant term is
+     the average over C/Lam, Lam < O index 4: by PART A (iii) this EQUALS
+     the O-average:   c.t.(g) = y^s + phi_O(s) y^(2-s).
+     [The order-3 rotation needs no separate treatment for the constant
+      term; it is handled fully in PART E(iv).]
+ (3) h := g - E_m004(., s).  Both constant terms have leading coefficient
+     EXACTLY 1*y^s (each Eisenstein series has the single c=0 coset over its
+     own cusp stabilizer; same y), so
+         c.t.(h) = [phi_O(s) - phi_m004(s)] y^(2-s)  =:  c(s) y^(2-s).
+ (4) NONZERO MODES decay exponentially: each nonzero Fourier mode of an
+     eigenfunction of moderate growth is a multiple of y K_{s-1}(2pi|mu|y)
+     (the I-solution is excluded by moderate growth) -- ODE re-derived
+     below (B2), K-decay and I-growth verified numerically.  Both g and
+     E_m004 have this structure ([S] (2.20)); uniformity of the mode sums
+     is standard input S3.  Hence  h - c(s) y^(2-s) = O(e^{-2 pi y / (2
+     sqrt3)}) in the cusp  [smallest nonzero |mu| in Lam^v = 1/(2 sqrt3)
+     ... |v2| = 1/(2 sqrt3) < 1 = |v1|].
+ (5) GLOBAL L^2: m004 = (compact core) union (one cusp end).  On the
+     compact core h is smooth hence bounded hence L^2 (finite volume).  In
+     the cusp end {y > Y0}: the measure is y^{-3} dy dx, and
+         int_{Y0}^oo |y^{2-s}|^2 y^{-3} dy = Y0^{2-2s}/(2s-2) < oo for
+     real s > 1  (B3 below), while the O(e^{-cy}) tail is trivially L^2.
+     So h in L^2(m004) for real s > 1 (off the finitely many poles).
+ (6) KILL ZONE I (s > 2, no continuation needed): for real s > 2 both
+     Eisenstein series converge absolutely ([S] after (2.4)), and
+     -Delta h = s(2-s) h with s(2-s) < 0.  -Delta is a NON-NEGATIVE
+     self-adjoint operator on L^2(m004)  [essential self-adjointness on the
+     complete manifold m004: standard input S2]; a smooth L^2 eigenfunction
+     with L^2 image lies in its domain, and a negative eigenvalue is
+     impossible.  Hence h = 0 for every real s > 2.
+ (7) KILL ZONE II (1 < s < 2, the prereg's range): s(2-s) in (0,1).  If
+     h != 0 then s(2-s) is an EIGENVALUE of -Delta.  The point spectrum of
+     any self-adjoint operator on a SEPARABLE Hilbert space is COUNTABLE
+     (eigenspaces are mutually orthogonal; an uncountable orthogonal family
+     of unit vectors cannot exist in a separable space -- B4 below).
+     s |-> s(2-s) is injective on (1,2), so h != 0 for at most countably
+     many s in (1,2); off that countable set and the finitely many poles,
+     h = 0.  ([S] p.264 gives the sharper FINITENESS of eigenvalues in
+     [0,1) -- quoted in PART C -- making the exceptional set finite; the
+     countability argument already suffices and is self-contained.)
+ (8) CONCLUSION: c(s) = phi_O(s) - phi_m004(s) is meromorphic (S1) and
+     vanishes on a set with an accumulation point (all of (2,oo) by (6);
+     co-countably in (1,2) by (7)), hence c == 0 IDENTICALLY, and h == 0
+     for all s: E_m004 = pullback E_orb as functions, all Fourier
+     coefficients restricted from the base.                          QED
+  [PASS] constant-mode radial equation: y^s solves y^2 a'' - y a' + s(2-s) a = 0
+  [PASS] constant-mode radial equation: y^(2-s) solves y^2 a'' - y a' + s(2-s) a = 0
+  [PASS] y K_(s-1)(2pi mu y) and y I_(s-1)(2pi mu y) solve the nonzero-mode radial equation y^2 a''- y a' + (s(2-s) - 4pi^2 mu^2 y^2) a = 0 (SYMBOLIC, via the three-term recurrences)
+  [PASS] ...and numerically (relative residual < 1e-22 at a random point)
+  [PASS] K decays / I grows exponentially (moderate growth FORCES the K-branch => nonzero modes decay like e^(-2pi|mu|y))  (K(20)/K(10) = 3.22e-5, I(20)/I(10) = 1.55e+4)
+  [PASS] int_Y0^oo y^(2(2-s)) y^-3 dy = Y0^(2-2s)/(2s-2) < oo for s > 1  (sympy: Y0*Y0**(1 - 2*s)/(2*(s - 1)))
+  B4 (countability, self-contained): eigenvectors of a self-adjoint
+  operator for DISTINCT eigenvalues are orthogonal ( lam<u,v> = <Au,v> =
+  <u,Av> = nu<u,v> => (lam-nu)<u,v> = 0 ).  If the point spectrum were
+  uncountable, choosing one unit eigenvector per eigenvalue would give an
+  uncountable orthonormal family; but L^2(m004) is separable (m004 is a
+  second-countable manifold with a sigma-finite measure), and a separable
+  Hilbert space contains no uncountable orthonormal family (the open balls
+  B(e_i, 1/2) are pairwise disjoint).  So the point spectrum is countable.
+  [PASS] B4 recorded (elementary functional analysis, complete as stated)
+  STANDARD INPUTS used by the lemma (cited, NOT re-proven -- flagged
+  honestly; each is classical for cofinite Kleinian groups):
+   S1  meromorphic continuation of E(., s) in s, finitely many poles in
+       (1,2], polynomial order  ([S] "may, by the general theory of
+       Selberg, be continued to a meromorphic function of s"; [F]/[EGM98
+       ch.6 (Selberg/Colin de Verdiere method)]).
+   S2  essential self-adjointness of Delta on C_c^oo of a COMPLETE
+       Riemannian manifold (Gaffney), so -Delta has ONE self-adjoint
+       realization, non-negative, and smooth L^2 eigenfunctions with L^2
+       image are in its domain.
+   S3  moderate growth of E in the cusp, uniform on s-compacta, so the
+       nonzero-mode tail sums to O(e^-cy)  (Kubota-style estimate; [S]
+       Sec. 2).
+  NOT AVAILABLE IN-SANDBOX (honest gap, declared): an INDEPENDENT numerical
+  computation of E_m004 / phi_m004 (Hejhal-class machinery; parked
+  owner-gated per the prereg).  The equality is established analytically
+  above, with every in-sandbox-checkable ingredient checked.
+
+==============================================================================
+PART C -- (c) EXHAUSTION: multiplicity of the continuous spectrum = #cusps = 1
+==============================================================================
+AT SOURCE (both documents re-fetched 2026-07-21, quotes in the header):
+  [S] p.264: "The interval [1, oo) comprises two kinds of spectrum: Firstly
+      the continuous spectrum which is SPANNED BY THE EISENSTEIN SERIES
+      E_j(1+it), t in R, where the j denotes the Eisenstein series in the
+      JTH CUSP." -- one Eisenstein channel per cusp, nothing else in the
+      continuous part; stated for ANY finite-volume 3-manifold ("the theory
+      has been fully developed for any three manifold of finite volume",
+      resting on Selberg [19]; the finite-volume spectral theory also goes
+      under Lax-Phillips).
+  [F] Lemma 2.1, eq. (2.6) (resting on [EGM98, Chapter 3]): the continuous
+      part of the automorphic kernel is EXACTLY
+        (1/4pi) sum_{alpha=1}^{kappa(Gamma)} sum_{l=1}^{k_alpha} (...)
+        int_R h(1+t^2) E_alpha^l(P,it) (x) E_alpha^l(Q,it) dt,
+      a sum over the kappa(Gamma) cusps with k_alpha channels each; for the
+      TRIVIAL character V = C, k_alpha = dim_C V_alpha = 1 at every cusp:
+      multiplicity = kappa(Gamma) = number of cusps.  PERIOD.
+SPECIALIZATION TO THE OBJECT (computed): m004 has kappa = 1 cusp (PART 0.2)
+  => the continuous spectrum of L^2(m004) is [1, oo) with multiplicity
+  EXACTLY 1, furnished ENTIRELY by the single Eisenstein series E_m004,
+  whose 1x1 scattering "matrix" is phi_m004 = phi_O = Lambda_K(s-1)/
+  Lambda_K(s) (PART B).  There is NO OTHER CONTINUOUS CHANNEL: no place in
+  the continuous spectrum for any further L-function to enter.
+  [PASS] m004: kappa = 1 (computed, PART 0.2); multiplicity-one statement source-verified at two independent primary sources
+
+==============================================================================
+PART D -- (d) WHERE THE PALETTE LIVES (statement; no Maass computation)
+==============================================================================
+STATEMENT (precise, scoped).  The conductor-(4) and conductor-(8) Hecke
+characters of K (palette sizes 2 and 8 mod the units, recomputed in PART
+0.5) CANNOT appear anywhere in the continuous spectrum of m004:
+  - the continuous spectrum is the single channel E_m004 (PART C), and its
+    complete spectral data -- every Fourier coefficient and the scattering
+    function phi_m004(s) = Lambda_K(s-1)/Lambda_K(s) -- is restricted from
+    the level-one base (PARTS A+B); the divisor of phi_m004 consists of
+    zeta_K zeros/poles ONLY.  A nonzero coefficient of any L(s, chi),
+    chi != 1, anywhere in the continuous channel would contradict the
+    function-level equality.
+THEREFORE the level's new arithmetic can live only in:
+  (1) the DISCRETE spectrum: L^2 Maass eigenfunctions of m004.  These are
+      genuinely new at the level (they are NOT pullbacks: a pullback of an
+      orbifold Maass form is Gamma'-invariant and accounts only for the
+      old/oldform part; the index-12 congruence level admits newforms whose
+      Hecke eigenvalue data can involve the conductor-(4)/(8) characters).
+      B735's "index-12 new resonances" = exactly this discrete new part.
+  (2) NON-SPECTRAL data (e.g. geodesic/length data, torsion, Chern-Simons),
+      outside the Laplace spectrum entirely.
+  No Maass-form computation is attempted here (Hejhal-class machinery;
+  parked owner-gated per the prereg).  This statement is the sharp form of
+  "redirected-to-discrete": a two-outcome consequence, not a computation of
+  where in the discrete spectrum the characters DO appear.
+  [PASS] (d) recorded as a precise scoped statement (consequence of (a)-(c))
+
+==============================================================================
+PART E -- (e) MB12 FAILURE MODES, each checked
+==============================================================================
+  [PASS] (i) m004 has exactly 1 cusp (snappy, PART 0.2) and the base orbifold has exactly h(K) = 1 cusp ([S] l.658: cusps <-> ideal classes; h = 1 recomputed via Minkowski in PART 0.1)
+      With k > 1 cusps phi would be a k x k matrix of partial zeta functions and
+      the scalar argument would FAIL -- this is the sharpest failure mode and it is
+      excluded by computation, not assumption.
+  Res_s=2 phi_O, eps-limit        = 1.706552176628161608820573265788683106134
+  Res_s=2 phi_O, Cauchy integral  = 1.706552176628161608820573265787897188738
+  2 pi^2/(9 zeta_K(2))            = 1.706552176628161608820573265787897188738
+  orbifold:  (sqrt3/6)/vol_orb    = 1.706552176628161608820573265787897188738
+  cover:     2 sqrt3/vol(m004)    = 1.706552176628161608820573265787897188738
+  [PASS] (ii) Res_{s=2} phi = 2pi^2/(9 zeta_K(2)) by two numeric routes (eps-limit + Cauchy, 25+ digits)
+  [PASS] (ii) BOTH SIDES have the SAME s=2 residue: (sqrt3/6)/vol_orb == 2 sqrt3/vol(m004) == the analytic residue (the index 12 cancels: cusp covol x12 [4x3], volume x12)
+  [PASS] (ii) exact: (sqrt3/6)/V_orb = 2 sqrt3/(12 V_orb) = 2pi^2/(9 zeta_K(2)) with V_orb = 3^(3/2) zeta_K(2)/(4pi^2)
+      Poles in (1,2) (residual/small eigenvalues): [S] p.264 -- FINITELY
+      many eigenvalues in [0,1); the kill-zone-II argument runs on the
+      complement of a countable set and is immune to them; at s = 2 both
+      sides carry the same simple pole with the SAME residue (above), so
+      the identity extends through s = 2 as meromorphic functions.  No
+      special s breaks the lemma.
+  (iii) SCOPE (declared, not a gap in the claim): everything here is the
+      SCALAR weight-0 Laplacian on functions -- the setting of the prereg,
+      of B735's voice, and of [S]/[F] eq. (2.6) with trivial character.
+      Differential-form / vector-bundle Laplacians have their own
+      continuous channels with their own scattering; NOTHING is claimed
+      about them.  Character-rigidity is claimed for (and only for) the
+      weight-0 continuous spectrum.  A future vector-valued computation is
+      a NEW question, not a failure mode of this one.
+  [PASS] (iii) scope recorded
+  [PASS] (iv) R(O) = O: R has INTEGER matrix [[-1,-1],[1,0]] in the O-basis (order 3, det 1)
+  [PASS] (iv) R(O^v) = O^v: dual action S = [[0,-1],[1,-1]], S^3 = 1
+  [PASS] (iv) R(Lam) != Lam: R(2 sqrt-3) has Lam-coords (-2/4-solve) NON-integer -- the rotation is NOT a symmetry of the cover's cusp torus
+      HOW THE ROTATION ENTERS (explicit): the orbifold cusp cross-section
+      is the flat orbifold C/(O x| Z_3); the covering of cusp sections
+      FACTORS as   C/Lam --(index 4)--> C/O --(deg 3)--> C/(O x| Z_3).
+      E_orb, as a function on H^3, is (O x| Z_3)-invariant: its O-Fourier
+      coefficients satisfy the SYMMETRY c_{S mu} = c_mu (verified below) --
+      the rotation CONSTRAINS the base palette, it does not enlarge it.
+      The restriction argument (PART A) runs along the FIRST arrow alone,
+      applied to the Z_3-invariant O-periodic lift; the constant term is
+      rotation-invariant automatically (mu = 0 is a fixed point of S).
+      Lam-non-invariance of the rotation is irrelevant: the rotation never
+      acts on the cover's torus, only on the base's.
+  [PASS] (iv) predicted base coefficients of the symmetrization satisfy d_{S mu} = d_mu exactly (rotation constrains, does not enlarge)
+  [PASS] (iv) FULL battery on the Z_3-symmetrized function: all 75 Lam-coefficients = restriction of the (symmetric) base palette; support still in O^v; constant term preserved (= c_(0,0))  (max err < 1e-24)
+  [PASS] (iv) adaptive-quad cross-check: Lam-constant term of the symmetrized function = c_(0,0) (independent of the grid)
+
+==============================================================================
+VERDICT
+==============================================================================
+
+checks: 54/54 passed   [runtime 84s]
+
+PER-ITEM PROOF STATUS (prereg (a)-(e); honest grading):
+ (a) Fourier restriction: PROVEN-IN-SANDBOX.  Complete elementary proof
+     (character orthogonality on L/Lam), exact instance verification (14
+     dual points, all 4 classes), 75-coefficient exact-DFT battery + 2
+     independent adaptive-quadrature cross-checks on explicit lattice
+     Fourier sums with the explicit pair Lam = Z+2sqrt(-3)Z < O, index 4.
+ (b) Function-level equality E_m004 = pullback E_orb: PROVEN-IN-SANDBOX
+     MODULO 3 NAMED STANDARD INPUTS (S1 continuation, S2 essential
+     self-adjointness/Gaffney, S3 uniform moderate growth -- classical,
+     flagged, not re-proven).  Re-derived here: both kill zones (s > 2
+     negative-eigenvalue; 1 < s < 2 countable-point-spectrum -- the latter
+     self-contained, not even needing [S]'s finiteness), constant-mode and
+     Bessel-mode radial equations (symbolic + numeric), cusp L^2
+     integrability, global L^2, meromorphy conclusion.  DECLARED GAP: no
+     independent in-sandbox numerical computation of E_m004 exists
+     (Hejhal-class; owner-gated).
+ (c) Exhaustion/multiplicity one: SOURCE-VERIFIED at two independent
+     primary documents re-fetched today ([S] p.264 verbatim; [F] Lemma
+     2.1/(2.6) resting on [EGM98 ch.3]) + #cusps(m004) = 1 COMPUTED.
+     Continuous spectrum of the one-cusped m004 = [1,oo), multiplicity
+     EXACTLY 1, spanned by the single E_m004.
+ (d) Where the palette lives: STATED PRECISELY as a consequence of
+     (a)+(b)+(c); palette 1/2/8 at (2)/(4)/(8) RECOMPUTED in-sandbox; no
+     Maass computation attempted (declared).
+ (e) MB12: (i) computed (1 cusp both levels); (ii) computed (s=2 residues
+     EQUAL: exact algebra + 25-40 digits, two numeric routes; the index 12
+     cancels 4x3 against the volume); (iii) scope declared (weight 0
+     only); (iv) computed (rotation = base-side constraint; composite
+     covering factorization; Lam-non-invariance exact; full symmetrized
+     battery passes).
+
+OUTCOME: A -- CHARACTER-RIGIDITY AT FULL STRENGTH (weight-0 scope):
+  the continuous spectrum of m004 is ONE channel carrying EXACTLY the
+  field's completed zeta_K (phi_m004 = Lambda_K(s-1)/Lambda_K(s), zeros rho
+  and poles rho-1 and the s=2 pole with residue 2sqrt3/vol(m004), nothing
+  else); NO conductor-(4)/(8) Hecke character appears ANYWHERE in it; the
+  level's new arithmetic lives ONLY in the discrete newform spectrum (or
+  outside the spectrum).  B735's "index-12 new resonances" are hereby
+  sharpened to: DISCRETE-ONLY.
+FALSIFIABILITY (MB12): the claim would have FAILED had m004 more cusps, had
+  the character sum not vanished off O^v, had the s=2 residues differed, or
+  had a kill zone been empty -- each was a computation, none was assumed.
+Firewall: pure math/structural throughout; no physics value; nothing to
+  CLAIMS.  L2 status: resolved NO-in-the-continuous / redirected-to-
+  discrete (per the sealed two-outcome).
+
