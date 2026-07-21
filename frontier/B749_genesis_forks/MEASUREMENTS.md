@@ -45,14 +45,20 @@ hyperbolicity NO; H₁ = ℤ ⊕ coker(A−I) (compute exactly); trace field NON
 present/absent explicitly. ROBUST = total face-loss (B747/B748's interface-only prediction
 confirmed at the origin: no interface, no faces). FRAGILE = any face survives closure.
 
-**F7 — generic Sturmian control.** Sibling: a Sturmian word with non-quadratic slope.
-Measure: existence of ANY self-similar substitution generator — by Lagrange's theorem the CF
-is eventually periodic iff the slope is quadratic; so the measurement is theorem-shaped:
-the self-similar locus within Sturmian = quadratic slopes = exactly the metallic family.
-ROBUST = generic Sturmian admits NO self-map (the family is the self-similarity locus,
-computed via CF non-periodicity for a concrete transcendental-slope witness). FRAGILE would
-require a non-quadratic self-similar Sturmian word — a contradiction with Lagrange; if the
-computation suggests one, the instrument is wrong (E-class check built in).
+**F7 — the Sturmian strata control (corrected per §16 review 1 — the sealed v1 sentence
+"quadratic = exactly the metallic family" was FALSE; witness √3−1 = [0;1,2,1,2,…]: quadratic,
+self-similar, non-metallic).** Three strata, each measured:
+  F7a (non-quadratic slope): by Lagrange, NO self-similar generator — verified on a concrete
+  transcendental-slope witness via CF non-periodicity. ROBUST = no self-map exists (the
+  self-similarity locus is exactly the QUADRATIC class, not the metallic family).
+  F7b (quadratic NON-metallic — the stratum v1 missed): the √3−1 word's composite
+  substitution (CF period (1,2)) and its carrier bundle — compute the mapping-torus, its
+  hyperbolicity, volume, trace field, faces. This is a genuine sibling CLASS: metallicity is
+  the all-equal-digits subfamily selected only by T4's extremality, and F7b measures what the
+  in-between stratum carries. ROBUST = F7b carriers lack the anatomy (metallic selection
+  survives); FRAGILE = an F7b carrier matches the interface (T4's extremality is then the
+  load-bearing selector and the chain prices it).
+  F7c = the metallic stratum itself (covered by F3; cross-reference only).
 
 **F8 — the non-geometric carriers (no prior; genuinely open).** Siblings: the Fibonacci
 substitution tiling hull and its AF/C*-algebra. Measure: the dimension group (direct limit of
@@ -68,3 +74,8 @@ GEOMETRY-REDUNDANT = the combinatorial carrier already sees ℚ(√−3) (the ch
 exact factornf — cc2's lindep lesson is binding); every snappy identification confirmed by
 two independent invariants (volume + isometry check, never volume alone); all scripts
 deterministic with printed check-lines for cc's re-execution gate; verdicts journal-only.
+Executor warnings from §16 review 1 (binding): snappy bundle strings verified live —
+'b++RL' = m004, m000 = the Gieseking (vol 1.0149416064, orientation_cover ≅ m004); but
+'b-+RL'/'b--RL' are a DIFFERENT non-orientable manifold (vol 2·Catalan) — F5 must verify its
+construction string by volume + cover, never assume notation. F2's trichotomy carries the
+det=−1 scope caveat as recorded in the review.

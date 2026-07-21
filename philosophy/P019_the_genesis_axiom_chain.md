@@ -120,3 +120,14 @@ and its silver sibling* — contingency located, not eliminated.
 *Owner: this document is wrong wherever it misstates your intent — that is what the red pen
 is for. Every [AXIOM] label is an invitation to either own the choice in your own words or
 show me the argument that removes it.*
+
+## ERRATUM (dated 2026-07-21, post red-pen — for owner + cc sign-off at the merge gate)
+
+§16 review 1 of B749 caught a false universal in the sealed measurement text ("quadratic
+slopes = exactly the metallic family"; witness: √3−1). The soft version lives here too:
+"Relaxing T4's slope selection yields the metallic family" should read "…yields the
+SELF-SIMILAR (quadratic-slope) class, within which the metallic family is the all-equal-digits
+subfamily that T4's extremality alone selects." The chain gains a stratum, not a wound: the
+telescoping now reads aperiodic → Sturmian (T3) → self-similar = quadratic (Lagrange) →
+metallic (T4's extremality) → golden (T4's fixed point). B749's F7b measures the in-between
+stratum this erratum exposes.
